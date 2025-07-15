@@ -1,0 +1,210 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.25,
+        "content": "Biểu thức %(T=\\sqrt[5]{a \\sqrt[3]{a}})%. Viết T dưới dạng lũy thừa của số mũ hữu tỷ.",
+        "question_images": [],
+        "labelA": "%(a^{\\frac{1}{3}})%.<br>",
+        "labelB": "%(a^{\\frac{1}{5}})%.<br>",
+        "labelC": "%(a^{\\frac{1}{15}})%.<br>",
+        "labelD": "%(a^{\\frac{4}{15}})%.",
+        "correct_label": "labelD",
+        "solution": "%(T=\\sqrt[5]{a \\cdot \\sqrt[3]{a}}=\\sqrt[5]{a \\cdot a^{\\frac{1}{3}}}=\\sqrt[5]{a^{\\frac{4}{3}}}=a^{\\frac{4}{15}})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "2 ",
+        "point": 0.25,
+        "content": "Hàm số nào có đồ thị như hình vẽ ở dưới đây?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/61c57fe682e186f2fe93a02a94e24927.png"
+        ],
+        "labelA": "%(y=\\left(\\frac{1}{\\sqrt{2}}\\right)^{2})%.<br>",
+        "labelB": "%(y=(\\sqrt{2})^{x})%.<br>",
+        "labelC": "%(y=\\left(\\frac{1}{3}\\right)^{x})%.<br>",
+        "labelD": "%(y=3^{x})%.",
+        "correct_label": "labelC",
+        "solution": "Đồ thị hàm số ở hình vẽ là đồ thị của hàm số mũ có dạng %(y=a^{x})%.<br>Loại đáp án A<br>Dựa vào đồ thị ta thấy hàm số nghịch biến trên %(R)% nên %(0\\lt a\\lt 1)%.<br>Loại đáp án %(\\mathrm{B}, \\mathrm{D})%<br>Vậy đồ thị trong hình vẽ là đồ thị hàm số %(y=\\left(\\frac{1}{3}\\right)^{x})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "3 ",
+        "point": 0.25,
+        "content": "Tập nghiệm của bất phương trình %(\\log _{\\frac{\\pi}{4}}(x+1)\\gt \\log _{\\frac{\\pi}{4}}(2 x-5))% là",
+        "question_images": [],
+        "labelA": "%((-1 ; 6))%.<br>",
+        "labelB": "%(\\left(\\frac{5}{2} ; 6\\right))%.<br>",
+        "labelC": "%((-\\infty ; 6))%.<br>",
+        "labelD": "%((6 ;+\\infty))%.",
+        "correct_label": "labelD",
+        "solution": "Ta có %(\\log _{\\frac{\\pi}{4}}(x+1)\\gt \\log _{\\frac{\\pi}{4}}(2 x-5) \\Leftrightarrow\\left\\{\\begin{array}{l}x+1>0 \\\\ 2 x-5>0 \\\\ x+1\\lt 2 x-5\\end{array} \\Leftrightarrow x>6\\right.)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "4 ",
+        "point": 0.25,
+        "content": "Cho hình chóp %(S . A B C)% có đáy %(A B C)% là tam giác đều, cạnh bên %(S A)% vuông góc với đáy. Gọi %(M)%, %(N)% lần lượt là trung điểm của %(A B)% và %(S B)%. Mệnh đề nào dưới đây là mệnh đề sai?",
+        "question_images": [],
+        "labelA": "%(A N \\perp B C)%.<br>",
+        "labelB": "%(C M \\perp S B)%.<br>",
+        "labelC": "%(C M \\perp A N)%.<br>",
+        "labelD": "%(M N \\perp M C)%.",
+        "correct_label": "labelA",
+        "solution": "Do tam giác %(A B C)% đều nên %(C M \\perp A B)%, vì %(S A \\perp(A B C))% nên %(S A \\perp C M \\Rightarrow C M \\perp(S A B))%<br>%(\\Rightarrow C M \\perp S B, C M \\perp A N)% nên %(\\mathrm{B}, \\mathrm{C})% đúng.<br>Do %(M N / / S A)% nên %(M N \\perp(A B C) \\Rightarrow M N \\perp M C)% nên D đúng.<br>Vậy A sai.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "5 ",
+        "point": 0.25,
+        "content": "Cho hình lăng trụu đều %(A B C \\cdot A^{\\prime} B^{\\prime} C^{\\prime})% có %(A B=\\sqrt{3})% và %(A A^{\\prime}=1)%. Góc tạo bởi giữa đường thẳng %(A C^{\\prime})% và %((A B C))% bằng",
+        "question_images": [],
+        "labelA": "%(45^{\\circ})%.<br>",
+        "labelB": "%(60^{\\circ})%.<br>",
+        "labelC": "%(30^{\\circ})%.<br>",
+        "labelD": "%(75^{\\circ})%.",
+        "correct_label": "labelC",
+        "solution": "Ta có %(\\left(A C^{\\prime \\prime},(A B C)\\right)=\\left(A C^{\\prime \\prime}, A C\\right)=C A C^{\\prime}, \\tan C^{\\prime} A C=\\frac{C C^{\\prime}}{A C}=\\frac{1}{\\sqrt{3}} \\Rightarrow \\triangle^{\\prime} A C=30^{\\circ})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e385afc83db359be9545db212a49fba4.png\" srcset=\"https://docdn.giainhanh.io/media/test/276e7aecb3dbc0d2760f5b9c6ef85564.png 186w\" width=\"186\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "6 ",
+        "point": 0.25,
+        "content": "Cho hình chóp %(S . A B C)% có đáy %(A B C)% là tam giác cân tại %(B)%, cạnh bên %(S A)% vuông góc với đáy, %(I)% là trung điểm %(A C, H)% là hình chiếu của %(I)% lên %(S C)%. Khẳng định nào sau đây đúng?",
+        "question_images": [],
+        "labelA": "%((B I H) \\perp(S B C))%.<br>",
+        "labelB": "%((S A C) \\perp(S A B))%.<br>",
+        "labelC": "%((S B C) \\perp(A B C))%.<br>",
+        "labelD": "%((S A C) \\perp(S B C))%.",
+        "correct_label": "labelA",
+        "solution": "Ta có: %(\\left\\{\\begin{array}{l}B I \\perp A C(\\mathrm{gt}) \\\\ B I \\perp S A(S A \\perp(A B C))\\end{array} \\Rightarrow B I \\perp(S A C) \\supset S C \\Rightarrow S C \\perp B I\\right.)% (1).<br>Theo giả thiết: %(S C \\perp I H)% (2).<br>Từ (1) và (2) suy ra: %(S C \\perp(B I H))%.<br>Mà %(S C \\subset(S B C))% nên %((B I H) \\perp(S B C))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a978c062568f2a013c020da3a9b61f93.png\" srcset=\"https://docdn.giainhanh.io/media/test/373a95dd1114e4db2d7eda37249fbf83.png 162w\" width=\"162\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "7 ",
+        "point": 0.25,
+        "content": "Cho hình lập phương %(A B C D \\cdot A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime})% có cạnh bằng %(a)%. Gọi %(M)% là trung điểm cạnh %(C^{\\prime} D^{\\prime})% (tham khảo hình vẽ). Khoảng cách giữa hai đường thẳng %(A A^{\\prime})% và %(C M)% bằng",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/96e336528d51f9e14a3a7a515665ed7b.png"
+        ],
+        "labelA": "%(a \\sqrt{2})%.<br>",
+        "labelB": "%(a)%.<br>",
+        "labelC": "%(\\frac{a \\sqrt{2}}{3})%.<br>",
+        "labelD": "%(a \\sqrt{3})%.",
+        "correct_label": "labelA",
+        "solution": "Ta có %(A A^{\\prime} / /\\left(D D^{\\prime} C^{\\prime} C\\right) \\supset C M \\Rightarrow d\\left(A A^{\\prime}, C M\\right)=d\\left(A A^{\\prime},\\left(D D^{\\prime} C^{\\prime} C\\right)\\right)=A D=a)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "8 ",
+        "point": 0.25,
+        "content": "Cho hình chóp %(S \\cdot A B C)% có %(S A)% vuông góc với mặt phẳng %((A B C))%. Biết %(S A=2 a)% và tam giác %(A B C)% vuông tại %(A)% có %(A B=3 a, A C=4 a)%. Tính thể tích khối chóp %(S \\cdot A B C)% theo %(a)%.",
+        "question_images": [],
+        "labelA": "%(12 a^{3})%.<br>",
+        "labelB": "%(6 a^{3})%.<br>",
+        "labelC": "%(8 a^{3})%.<br>",
+        "labelD": "%(4 a^{3})%.",
+        "correct_label": "labelD",
+        "solution": "Ta có %(S_{A B C}=\\frac{1}{2} \\cdot 3 a \\cdot 4 a=6 a^{2} ; V_{S A B C}=\\frac{1}{3} \\cdot S A \\cdot S_{A B C}=\\frac{1}{3} \\cdot 2 a \\cdot 6 a^{2}=4 a^{3})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7ea3154c793486b70e9040c00d37006a.png\" srcset=\"https://docdn.giainhanh.io/media/test/a7230550fd41d5fae23c08b09da74d80.png 158w\" width=\"158\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "9 ",
+        "point": 0.25,
+        "content": "Dự báo thời tiết dự đoán rằng có %(70 \\%)% là trời sẽ mưa vào thứ Bảy. Tuy nhiên, ngày thứ Bảy Trang hẹn Nhi đi xem phim, xác suất Nhi đồng ý đi là %(80 \\%)%. Tính xác suất hai bạn đi xem phim không bị dính mưa.",
+        "question_images": [],
+        "labelA": "0,56.<br>",
+        "labelB": "0,24.<br>",
+        "labelC": "0,14.<br>",
+        "labelD": "0,06.",
+        "correct_label": "labelB",
+        "solution": "Xác suất trời không mưa là 0,3.<br>Xác suất hai bạn đi xem phim là là 0,8.<br>Xác suất hai bạn đi xem phim không bị dính mưa là %(0,3 \\cdot 0,8=0,24)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "10 ",
+        "point": 0.25,
+        "content": "Một nhóm có 30 thành viên, số thành viên thích kim chi là 16 người, số người thích cơm trộn là 20, có 5 người là không thích cả hai. Hỏi có bao nhiêu người vừa thích kim chi vừa thích cơm trộn?",
+        "question_images": [],
+        "labelA": "9 người<br>",
+        "labelB": "10 người<br>",
+        "labelC": "11 người<br>",
+        "labelD": "12 người",
+        "correct_label": "labelC",
+        "solution": "A: Số người thích kim chi, %(n(A)=16)%.<br>B: Số người thích cơm trộn, %(n(B)=20)%.<br>Số người thích cơm trộn hoặc kim chi là: %(n(A \\cup B)=30-5=25)%.<br>Ta có: %(n(A \\cup B)=n(A)+n(B)-n(A B) \\Rightarrow n(A B)=n(A)+n(B)-n(A \\cup B)=20+16-25=11)%.<br>Vậy có 11 người thích kim chi và cơm trộn.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "11 ",
+        "point": 0.25,
+        "content": "Tính đạo hàm của hàm số %(y=\\log _{3}(3 x+2))%.",
+        "question_images": [],
+        "labelA": "%(y^{\\prime}=\\frac{3}{(3 x+2) \\ln 3})%.<br>",
+        "labelB": "%(y^{\\prime}=\\frac{1}{(3 x+2) \\ln 3})%.<br>",
+        "labelC": "%(y^{\\prime}=\\frac{1}{(3 x+2)})%.<br>",
+        "labelD": "%(y^{\\prime}=\\frac{3}{(3 x+2)})%.",
+        "correct_label": "labelA",
+        "solution": "Ta có %(y^{\\prime}=\\frac{3}{(3 x+2) \\ln 3})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "12 ",
+        "point": 0.25,
+        "content": "Cho hàm số %(y=\\frac{x^{3}}{3}+3 x^{2}-2)% có đồ thị là %((C))%. Viết phương trình tiếp tuyến với đồ thị %((C))% biết tiếp tuyến có hệ số góc %(k=-9)%.",
+        "question_images": [],
+        "labelA": "%(y+16=-9(x+3))%.<br>",
+        "labelB": "%(y-16=-9(x-3))%.<br>",
+        "labelC": "%(y=-9(x+3))%.<br>",
+        "labelD": "%(y-16=-9(x+3))%.",
+        "correct_label": "labelD",
+        "solution": "Gọi %(M\\left(x_{0} ; \\frac{x_{0}^{3}}{3}+3 x_{0}^{2}-2\\right))% là tiếp điểm .<br>Ta có: %(k=f^{\\prime}\\left(x_{0}\\right) \\Leftrightarrow x_{0}^{2}+6 x_{0}=-9 \\Leftrightarrow x_{0}=-3 \\Rightarrow y_{0}=f\\left(x_{0}\\right)=16)%<br>Phương trình tiếp tuyến với đồ thị %((C))% thỏa mãn đầu bài là: %(y-16=-9(x+3))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "17 ",
+        "point": 0.5,
+        "content": "An gieo một con xúc xắc cân đối và đồng chất 4 lần. Tính xác suất để có 3 lần gieo mà số chấm xuất hiện trên xúc xắc là ba số liên tiếp.",
+        "question_images": [],
+        "solution": "Xác suất để có 3 lần gieo mà số chấm xuất hiện trên xúc xắc là ba số liên tiếp là: %(\\frac{4.3!}{6^{4}})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "18 ",
+        "point": 0.5,
+        "content": "Bình và Minh cùng thi bắn đĩa bay. Xác suất bắn trúng đĩa của mỗi người lần lượt là 0,7 và 0,8. Nếu một người bắn trước và trượt thì tỷ lệ bắn trúng của người sau sẽ tăng thêm 0,1 và ngược lại nếu người đó bắn trúng thì tỉ lệ bắn trúng của người sau sẽ giảm đi 0,1. Thứ tự bắn giữa hai người là ngẫu nhiên và cuộc thi dừng lại khi người này trúng, người kia trượt. Tính xác suất để Bình bắn trúng sau lượt bắn đầu tiên nếu biết Minh bắn trúng bia.",
+        "question_images": [],
+        "solution": "Xác suất để Bình bắn trúng sau lần bắn đầu tiên là: %(\\frac{1}{2} \\cdot 0,7+\\frac{1}{2} \\cdot 0,6=0,65)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "19 ",
+        "point": 0.5,
+        "content": "Cho hình lăng trụ đều %(A B C \\cdot A^{\\prime} B^{\\prime} C^{\\prime})% có đáy cạnh %(a)%, góc giữa đường thẳng %(A^{\\prime} B)% và mặt phẳng %((A B C))% là %(60^{\\circ})%. Tính góc giữa đường thẳng %(C^{\\prime} A)% và mặt phẳng %(\\left(A A^{\\prime} B^{\\prime} B\\right))%?",
+        "question_images": [],
+        "solution": "Kẻ %(C^{\\prime} I \\perp A^{\\prime} B^{\\prime})%<br>Ta có: %(C^{\\prime} I \\perp A^{\\prime} A \\Rightarrow C^{\\prime} I \\perp\\left(A A^{\\prime} B^{\\prime} B\\right))% tại %(I)% và %(C^{\\prime} A)% cắt %(m p\\left(A A^{\\prime} B^{\\prime} B\\right))% tại %(A)%.<br>%(\\Rightarrow A I)% là hình chiếu của %(C^{\\prime} A)% trên %(\\operatorname{mp}\\left(A A^{\\prime} B^{\\prime} B\\right))%<br>\\[\\Rightarrow\\left(C^{\\prime} A,\\left(A A^{\\prime} B^{\\prime} B\\right)\\right)=\\left(C^{\\prime} A, A I\\right)=C^{\\prime} A I\\]<br>Ta có: %(A^{\\prime} A=A B \\cdot \\tan 60^{\\circ}=\\sqrt{3} a)%<br>\\[A I=\\sqrt{A^{2} A^{2}+A^{2} I^{2}}=\\sqrt{(a \\sqrt{3})^{2}+\\left(\\frac{a}{2}\\right)^{2}}=\\frac{\\sqrt{13}}{2} a\\]<br>Xét %(\\Delta C^{\\prime} A I)% vuông tại %(I: \\tan C^{\\prime} A I=\\frac{C^{\\prime} I}{A I}=\\frac{\\frac{a \\sqrt{3}}{2}}{\\frac{\\sqrt{13} a}{2}}=\\frac{\\sqrt{39}}{13} \\Rightarrow C^{\\prime} A I \\approx 25,7^{\\circ})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b041e0ecb362fb7426e6cc3d24622d43.png\" srcset=\"https://docdn.giainhanh.io/media/test/40a1411a66893848f128d9e23103e0ac.png 169w\" width=\"169\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "20 ",
+        "point": 0.5,
+        "content": "Cho hình chóp đều %(S . A B C D)% có đáy cạnh a và chiều cao %(S O=2 a)%. Gọi %(M, N, P, Q)% lần lượt là trung điểm của %(S A, S B, S C, S D)%. Tính thể tích khối chóp cụt đều %(A B C D \\cdot M N P Q)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}V=\\frac{1}{3}\\left(S_{A B C D}+S_{M N P Q}+\\sqrt{S_{A B C D} \\cdot S_{M N P Q}}\\right) \\cdot O O^{\\prime} \\\\ S_{A B C D}=a^{2} \\\\ S_{M N P Q}=\\left(\\frac{1}{2} a\\right)^{2}=\\frac{1}{4} a^{2} \\\\ \\Rightarrow V=\\frac{1}{3}\\left(a^{2}+\\frac{1}{4} a^{2}+\\sqrt{a^{2} \\cdot \\frac{1}{4} a^{2}}\\right) \\cdot a=\\frac{7}{12} a^{3}\\end{array})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e59528e7b892cf975e142d8582d02139.png\" srcset=\"https://docdn.giainhanh.io/media/test/d393fe72d5d0907ee3579b6328ba9d94.png 201w\" width=\"201\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "21 ",
+        "point": 0.5,
+        "content": "Số lượng của loại vi khuẩn %(A)% trong một phòng thí nghiệm được tính theo công thức %(S(t)=s(0) \\cdot 2^{t})%, trong đó %(s(0))% là số lượng vi khuẩn %(A)% lúc ban đầu, %(s(t))% là số lượng vi khuẩn %(A)% có sau %(t)% phút. Biết sau 3 phút thì số lượng vi khuẩn %(A)% là 625 nghìn con. Hỏi sau bao lâu, kể từ lúc ban đầu, số lượng vi khuẩn %(A)% là 10 triệu con?",
+        "question_images": [],
+        "solution": "Theo giả thiết: %(S(3)=625)% (nghìn con)<br>%(\\Rightarrow s(0) \\cdot 2^{3}=625 \\Rightarrow S(0)=\\frac{625}{8})%.<br>Thời điểm số lượng vi khuẩn %(A)% là 10 triệu con thì %(S(t)=10000 \\Leftrightarrow \\frac{625}{8} \\cdot 2^{t}=10000)%<br>%(\\Leftrightarrow t=7)% phút.",
+        "question_type": "essay"
+    },
+    {
+        "title": "22 ",
+        "point": 0.5,
+        "content": "Câu 6. Một chất điểm chuyển động thẳng xác định bởi phương trình %(S=f(t)=t^{3}-3 t^{2}+4 t)%, trong đó %(t)% được tính bằng giây %((\\mathrm{s}))% và %(S)% được tính bằng mét %((\\mathrm{m}))%. Gia tốc của chất điểm tại thời điểm %(t=2(\\mathrm{s}))% có giá trị là bao nhiêu?",
+        "question_images": [],
+        "solution": "Ta có %(v=f^{\\prime}(t)=3 t^{2}-6 t+4)% và %(a=f^{\\prime \\prime}(t)=6 t-6)%.<br>Gia tốc của chất điểm tại thời điểm %(t=2(\\mathrm{s}))% có giá trị là %(f^{\\prime \\prime}(2)=6.2-6=6 \\mathrm{~m} / \\mathrm{s}^{2})%.",
+        "question_type": "essay"
+    }
+]

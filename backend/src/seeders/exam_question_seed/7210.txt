@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(A=\\left[\\left(\\frac{1}{\\sqrt{x}}+\\frac{1}{\\sqrt{y}}\\right) \\cdot \\frac{2}{\\sqrt{x}+\\sqrt{y}}+\\frac{1}{x}+\\frac{1}{y}\\right]: \\frac{\\sqrt{x^{3}}+y \\sqrt{x}+x \\sqrt{y}+\\sqrt{y^{3}}}{\\sqrt{x y^{3}}+\\sqrt{x^{3} y}})% với %(x\\gt 0, y>0)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Rút gọn biểu thức %(A)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}A=\\left[\\left(\\frac{1}{\\sqrt{x}}+\\frac{1}{\\sqrt{y}}\\right) \\cdot \\frac{2}{\\sqrt{x}+\\sqrt{y}}+\\frac{1}{x}+\\frac{1}{y}\\right]: \\frac{\\sqrt{x^{3}}+y \\sqrt{x}+x \\sqrt{y}+\\sqrt{y^{3}}}{\\sqrt{x y^{3}}+\\sqrt{x^{3} y}} \\text { với } x\\gt 0, y>0 \\\\=\\left(\\frac{\\sqrt{x}+\\sqrt{y}}{\\sqrt{x y}} \\cdot \\frac{2}{\\sqrt{x}+\\sqrt{y}}+\\frac{x+y}{x y}\\right): \\frac{\\left(\\sqrt{x^{3}}+x \\sqrt{y}\\right)+\\left(y \\sqrt{x}+\\sqrt{y^{3}}\\right)}{\\sqrt{x y}(y+x)} \\\\=\\left(\\frac{2}{\\sqrt{x y}}+\\frac{x+y}{x y}\\right): \\frac{x(\\sqrt{x}+\\sqrt{y})+y(\\sqrt{x}+\\sqrt{y})}{\\sqrt{x y}(x+y)} \\\\=\\frac{2 \\sqrt{x y}+x+y}{x y}: \\frac{(\\sqrt{x}+\\sqrt{y})(x+y)}{\\sqrt{x y}(x+y)} \\\\=\\frac{(\\sqrt{x}+\\sqrt{y})^{2}}{x y} \\cdot \\frac{\\sqrt{x y}(x+y)}{(\\sqrt{x}+\\sqrt{y})(x+y)} \\\\=\\frac{\\sqrt{x}+\\sqrt{y}}{\\sqrt{x y}}\\end{array}\\]<br>Vậy %(A=\\frac{\\sqrt{x}+\\sqrt{y}}{\\sqrt{x y}})% vói %(x>0, y>0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Cho %(x+y=4)%. Tìm giá trị nhỏ nhất của biểu thức %(A)%.",
+        "question_images": [],
+        "solution": "Với %(x\\gt 0, y>0)% ta có: %(A=\\frac{\\sqrt{x}+\\sqrt{y}}{\\sqrt{x y}}=\\frac{1}{\\sqrt{x}}+\\frac{1}{\\sqrt{y}})%.<br>Áp dụng bất đẳng thức Cô- Si ta có:<br>%(\\frac{1}{\\sqrt{x}}+\\frac{1}{\\sqrt{y}} \\geq 2 \\sqrt{\\frac{1}{\\sqrt{x}} \\cdot \\frac{1}{\\sqrt{y}}}=2 \\sqrt{\\frac{1}{\\sqrt{x y}}})%<br>Mặt khác:<br>%(\\sqrt{x y} \\leq \\frac{x+y}{2}=\\frac{4}{2}=2 \\Rightarrow \\frac{1}{\\sqrt{x y}} \\geq \\frac{1}{2} \\Leftrightarrow 2 \\cdot \\sqrt{\\frac{1}{\\sqrt{x y}}} \\geq 2 \\cdot \\sqrt{\\frac{1}{2}}=\\sqrt{2})%<br>Hay %(\\frac{1}{\\sqrt{x}}+\\frac{1}{\\sqrt{y}} \\geq 2 \\sqrt{\\frac{1}{\\sqrt{x}} \\cdot \\frac{1}{\\sqrt{y}}}=2 \\sqrt{\\frac{1}{\\sqrt{x y}}} \\geq \\sqrt{2})%<br>Do đó: %(A \\geq \\sqrt{2})%.<br>Dấu \"=\" xảy %(\\mathrm{ra} \\Leftrightarrow\\left\\{\\begin{array}{l}x=y \\\\ x+y=4\\end{array} \\Rightarrow x=y=2\\right.)%.<br>Vậy %(\\operatorname{Min} A=\\sqrt{2})% tại %(x=y=2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "",
+        "question_images": [],
+        "solution": "2. Ta có:<br>\\[\\begin{array}{l}B=\\sqrt[3]{1+\\frac{\\sqrt{84}}{9}}+\\sqrt[3]{1-\\frac{\\sqrt{84}}{9}} \\\\Rightarrow B^{3}=1+\\frac{\\sqrt{84}}{9}+1-\\frac{\\sqrt{84}}{9}+3 \\sqrt[3]{\\left(1+\\frac{\\sqrt{84}}{9}\\right) \\cdot\\left(1-\\frac{\\sqrt{84}}{9}\\right)} \\cdot\\left(\\sqrt[3]{1+\\frac{\\sqrt{84}}{9}}+\\sqrt[3]{1-\\frac{\\sqrt{84}}{9}}\\right) \\B^{3}=2+3 \\cdot \\sqrt[3]{\\frac{-1}{27}} \\cdot B \\B^{3}=2-B \\Leftrightarrow B^{3}+B-2=0 \\Leftrightarrow B^{3}-B^{2}+B^{2}-B+2 B-2=0 \\\\Leftrightarrow(B-1)\\left(B^{2}+B+2\\right)=0 \\\\text { +) } B-1=0 \\Leftrightarrow B=1 \\\\+) B^{2}+B+2=0 \\Leftrightarrow\\left(B+\\frac{1}{2}\\right)^{2}+\\frac{7}{4}=0 \\text { (Vô lí) } \\\\end{array}\\]<br>Vậy %(B=1)% là một số nguyên.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Cho %(m+5 ; n-2 ; p+2020)% là các số nguyên cùng chia hết cho 6 .<br>Chứng minh rằng: %(m+n+p+4^{q}+3)% cũng chia hết cho 6 (q là số tự nhiên).",
+        "question_images": [],
+        "solution": "Ta có: %((m+5) \\vdots 6 \\Rightarrow m: 6 \\mathrm{dư} 1)%%((n-2) \\vdots 6 \\Rightarrow n: 6 \\mathrm{dư} 2)%%((p+2020) \\vdots 6 \\Rightarrow p: 6 \\mathrm{du} 2)%<br>Do đó: %((m+n+p))% : 6 dư 5 hay %((m+n+p+1))% : 6<br>Ta có: %(4^{q}+2=\\left(2^{q}\\right)^{2}+2=2\\left(2^{2 q-1}+1\\right))%Mà %(2^{2 q-1}: 3)% dư 2 nên %(\\left(2^{2 q-1}+1\\right) \\vdots 3 \\Rightarrow 2)%. %(\\left(2^{2 q-1}+1\\right) \\vdots 6 \\Rightarrow\\left(4^{q}+2\\right): 6)%<br>Do đó: %(m+n+p+4^{q}+3=\\left[(m+n+p+1)+\\left(4^{q}+2\\right)\\right] \\vdots 6)%<br>Vậy %(m+n+p+4^{q}+3)% cũng chia hết cho 6 ( %(\\mathrm{q})% là số tự nhiên).",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c, d)% là các số nguyên thỏa mãn %(a^{2}=b^{2}+c^{2}+d^{2})%<br>Chứng minh rằng: %(a b c d+2021)% viết được dưới dạng hiệu của hai số chính phương.",
+        "question_images": [],
+        "solution": "Ta có: %((2 m+1)^{2}=4 m(m+1)+1)%<br>Do đó: với mọi %(m \\in Z)% thì %((2 m+1)^{2})% chia 8 dư 1 .<br>Nên với %(a, b, c, d)% lẻ thì %(a^{2}, b^{2}, c^{2}, d^{2})% chia 8 dư 1<br>Suy ra: không xảy ra %(a^{2}=\\mathbf{b}^{2}+\\mathbf{c}^{2}+\\mathbf{d}^{2})% (vì vế trái chia %(8 \\mathrm{du} 1)%, vế phải chia %(8 \\mathrm{dư} 3)% )<br>Vậy trong các số %(a, b, c, d)% có ít nhất 1 số chẵn.<br>Ta có: %(a b c d+2021)% là số lẻ.<br>Đặt a.b.c.d %(+2021=2 n+1(n \\in Z) \\Rightarrow 2 n+1=(n+1-n)(n+1+n)=(n+1)^{2}-n^{2})%<br>Vậy ta có được điều phải chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Tìm các số nguyên %(\\mathrm{x})%, %(\\mathrm{y})% thỏa mãn %(x^{2}+y^{2}+5 x^{2} y^{2}+60=37 x y)%",
+        "question_images": [],
+        "solution": "Tìm số nguyên %(x, y)% thỏa mãn:<br>\\[\\begin{array}{l}x^{2}+y^{2}+5 x^{2} y^{2}+60=37 x y \\\\Leftrightarrow x^{2}+y^{2}+5 x^{2} y^{2}+60-37 x y=0 \\\\Leftrightarrow 20 x^{2}+20 y^{2}+100 x^{2} y^{2}-740 x y+1200=0 \\\\Leftrightarrow 20 x^{2}+20 y^{2}+(10 x y-37)^{2}=169\\end{array}\\]<br>Vì %(20 x^{2} \\geq 0 \\forall 2 x ; 20 y^{2} \\geq 0 \\forall y ;(10 \\mathrm{xy}-37)^{2} \\geq 0 \\forall x, y)% và vai trò của %(\\mathrm{x})%, %(\\mathrm{y})% như nhau;<br>ta giả sử %(x \\leq y ; 20 x^{2} \\leq 169 \\Rightarrow x^{2} \\leq 8 \\Rightarrow x^{2} \\in\\{0 ; 1 ; 4\\})%;<br>\\[\\left(20 x^{2} ; 20 y^{2} ;(10 \\mathrm{xy}-37)^{2}\\right) \\in\\{(0 ; 0 ; 169) ;(0 ; 20 ; 149) ;(0 ; 80 ; 89) ;(20 ; 20 ; 129) ;(20 ; 80 ; 69) ;(80 ; 80 ; 9)\\}\\]<br>Mà %((10 x y-37)^{2})% là số chính phương<br>%(\\Rightarrow\\left(20 x^{2} ; 20 y^{2} ;(10 x y-37)^{2}\\right) \\in\\{(0 ; 0 ; 169) ;(80 ; 80 ; 9)\\})%<br>+ TH1: %(\\left\\{\\begin{array}{l}20 x^{2}=0 \\\\ 20 y^{2}=0 \\\\ (10 x y-37)^{2}=169\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}x=0 \\\\ y=0 \\\\ 37^{2}=169\\end{array} \\Rightarrow\\right.\\right.)% không có giá trị<br>+ TH2: %(\\left\\{\\begin{array}{l}20 x^{2}=80 \\\\ 20 y^{2}=80 \\\\ (10 x y-37)^{2}=9\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}x= \\pm 2 \\\\ y= \\pm 2 \\\\ {\\left[\\begin{array}{l}x y=4 \\\\ x y=\\frac{17}{5}(l)\\end{array}\\right.}\\end{array} \\Rightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}x=2 \\\\ y=2\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}x=-2 \\\\ y=-2\\end{array}\\right.\\end{array}\\right.\\right.\\right.)%<br>Vậy %((x ; y) \\in\\{(2 ; 2) ;(-2 ;-2)\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Giải phương trình : %(\\sqrt{5 x-1}-\\sqrt{x+2}=\\frac{4 x-3}{5})%",
+        "question_images": [],
+        "solution": "Vì %(\\sqrt{5 x-1}+\\sqrt{x+2}\\gt 0 \\forall x ; y)%<br>\\[\\begin{array}{l}\\sqrt{5 x-1}-\\sqrt{x+2}=\\frac{4 x-3}{5} \\\\Leftrightarrow \\frac{4 x-3}{\\sqrt{5 x-1}+\\sqrt{x+2}}-\\frac{4 x-3}{5}=0 \\\\Leftrightarrow(4 x-3)\\left(\\frac{1}{\\sqrt{5 x-1}+\\sqrt{x+2}}-\\frac{1}{5}\\right)=0 \\\\Leftrightarrow\\left[\\begin{array} { l } { 4 x - 3 = 0 } \\\\{ \\frac { 1 } { \\sqrt { 5 x - 1 } + \\sqrt { x + 2 } } - \\frac { 1 } { 5 } = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=\\frac{3}{4} \\\\sqrt{5 x-1}+\\sqrt{x+2}=5\\end{array}\\right.\\right.\\end{array}\\]<br>Giải phương trình %(\\sqrt{5 x-1}+\\sqrt{x+2}=5)% bình phương 2 vế ta có :<br>\\[\\begin{array}{l}\\Leftrightarrow 5 x-1+2 \\sqrt{(5 x-1)(x+2)}+x+2=25 \\\\Leftrightarrow 2 \\sqrt{(5 x-1)(x+2)}=24-6 x \\\\Leftrightarrow \\sqrt{5 x^{2}+9 x-2}=24-6 x(D K: x \\leq 4) \\\\Leftrightarrow 5 x^{2}+9 x-2=9 x^{2}-72 x+144 \\\\Leftrightarrow 4 x^{2}-81 x+146=0 \\\\Leftrightarrow\\left(2 x-\\frac{81}{4}\\right)^{2}=\\frac{2783}{64} \\\\Leftrightarrow\\left[\\begin{array}{l}x=2(c) \\x=\\frac{73}{4}(l)\\end{array}\\right.\\end{array}\\]<br>Vậy tập nghiệm của phương trình là %(S=\\left\\{\\frac{3}{4} ; 2\\right\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho hình vuông %(A B C D)% độ dài cạnh bằng %(a)% và có tâm là %(O)%. Điểm %(M)% là một điểm di chuyển trên %(B C(M)% khác %(B)% và %(C))%. Gọi %(N)% là giao điểm của tia %(A M)% và đường thẳng %(C D . G)% là giao điểm của %(D M)% và %(B N)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng: %(\\frac{1}{A M^{2}}+\\frac{1}{A N^{2}})% không đổi.",
+        "question_images": [],
+        "solution": "Kẻ %(A K \\perp A N(K \\in C D))%<br>Ta có: %(\\hat{A}_{1}=\\hat{A}_{2}\\left(=90^{\\circ}-\\widehat{M A D}\\right))%<br>\\[\\begin{array}{l}\\Rightarrow \\triangle A B M=\\triangle A D K \\\\Rightarrow A M=A K\\end{array}\\]<br>Trong %(\\triangle K A N)% vuông tại %(A)% có: %(\\frac{1}{A K^{2}}+\\frac{1}{A N^{2}}=\\frac{1}{A D^{2}})%%(\\Rightarrow \\frac{1}{A M^{2}}+\\frac{1}{A N^{2}}=\\frac{1}{a^{2}})% không đổi<br>Vậy %(\\frac{1}{A M^{2}}+\\frac{1}{A N^{2}})% không đổi.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e77e1f56a835c569db0de8447a40e942.png\" srcset=\"https://docdn.giainhanh.io/media/test/dc6013c9de5e58ba0b7f24dad300feb8.png 67w, https://docdn.giainhanh.io/media/test/0cf45ff25a97e0bf6aad0729efd22572.png 216w\" width=\"216\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Chứng minh: %(C G \\perp A N)%.",
+        "question_images": [],
+        "solution": "%(C G)% cắt %(A B)% tại %(E)%; DM cắt %(A B)% tại %(F)%<br>Ta có: %(A D^{2}=D K . D N \\Rightarrow D K . D N=a^{2}(1))%<br>Do %(D C / / A B \\Rightarrow \\frac{B E}{C N}=\\frac{B G}{G N}=\\frac{B F}{D N})%<br>\\[\\Rightarrow B E \\cdot D N=C N . B F(2)\\]<br>Mặt khác %(\\frac{B F}{C D}=\\frac{B M}{M C}=\\frac{A B}{C N})% (do %(A B / / C D)% ) %(\\Rightarrow B F \\cdot C N=C D \\cdot A B=a^{2})% (3)<br>Từ (1), (2), (3) %(\\Rightarrow D K . D N=B E . D N)%<br>%(\\begin{array}{l}\\Rightarrow D K=B E \\Rightarrow A E=C K \\\\ \\Rightarrow E A K C \\text { là hình bình hành } \\\\ \\Rightarrow A K / / C E \\\\ \\text { Mà } A K \\perp A N \\Rightarrow C E \\perp A N\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Gọi %(H)% là giao điểm của %(O M)% và %(B N)%. Tìm vị trí của điểm %(M)% để diện tích tam giác %(H A D)% đạt giá trị lớn nhất.",
+        "question_images": [],
+        "solution": "%(C F)% cắt %(B N)% tại %(H^{\\prime})%Áp dụng định lí Papuyt %(\\Rightarrow O, M, H^{\\prime})% thẳng hàng<br>%(\\Rightarrow H^{\\prime} \\equiv H)%<br>Lấy %(I \\in A B)% sao cho %(B I=C N)%%(\\Rightarrow I B N C)% là hình bình hành<br>%(\\Rightarrow I C / / B N)%<br>Mà %(B F . C N=a^{2})%<br>%(\\Rightarrow B I \\cdot B F=C B^{2})%<br>%(\\Rightarrow \\triangle I C F)% vuông tại %(\\mathrm{C})%<br>%(\\begin{array}{l}\\Rightarrow I C \\perp C F \\\\Rightarrow C F \\perp B N \\Rightarrow B H C=90^{\\circ}\\end{array})%<br>Kẻ %(H Q \\perp A D(Q \\in A D))%Gọi %(M^{\\prime})% là giao điểm của %(H Q)% và %(B C)%Ta có: %(H Q=M^{\\prime} Q+H M^{\\prime}=a+H M^{\\prime})%Mà %(H M^{\\prime} \\leq \\frac{B C}{2}=\\frac{a}{2})%<br>%(\\Rightarrow H Q \\leq \\frac{3}{2} a)%<br>Do đó: %(S_{A H D}=\\frac{1}{2} A D \\cdot H Q \\leq \\frac{1}{2} a \\cdot \\frac{3}{2} a=\\frac{3}{4} a^{2})%Dấu \"=\" xảy ra %(\\Leftrightarrow M \\equiv M^{\\prime})% là trung điểm %(A B)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Tất cả các điểm trên mặt phẳng đều được tô màu, mỗi điểm được tô bởi một trong 3 màu xanh, đỏ, tím. Chứng minh khi đó luôn tồn tại ít nhất một tam giác cân có 3 đỉnh thuộc các điểm của mặt phẳng trên mà 3 đỉnh của tam giác đó có cùng một màu hoặc đôi một khác màu.",
+        "question_images": [],
+        "solution": "Xét ngũ giác đều %(\\mathrm{ABCDE})%, ta nhận thấy ba đỉnh bất kì của ngũ giác luôn tạo thành một tam giác cân.<br>Do đó khi tô 5 đỉnh bởi đủ 3 loại màu đã cho thì tồn tại 2 khả năng:<br>- Nếu tô 5 đỉnh bởi đủ ba loại màu đã cho thì tồn tại 3 đỉnh có màu khác nhau và tạo thành một tam giác cân.<br>- Nếu tô 5 đỉnh bởi nhiều nhất 2 màu thì có ít nhất 3 đỉnh cùng màu và tạo thành một tam giác cân.<br>Vậy, luôn tồn tại ít nhất một tam giác cân có 3 đỉnh thuộc các điểm của mặt phẳng trên mà 3 đỉnh của tam giác đó có cùng một màu hoặc đôi một khác nhau.",
+        "question_type": "essay"
+    }
+]

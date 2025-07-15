@@ -1,0 +1,111 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Cho tập nghiệm của phương trình %(\\left(x^{2}+a x+b\\right)\\left(x^{2}+c x+d\\right)\\left(x^{2}+e x+f\\right)=0)% là %(\\{1 ; 2 ; 3 ; 4 ; 5 ; 6\\})%.Tính giá trị của biểu thức %(T=a^{2}+c^{2}+e^{2}-2(b+d+f))%.",
+        "question_images": [],
+        "solution": "Vì mỗi phương trình %(x^{2}+a x+b=0, x^{2}+c x+d=0)% và %(x^{2}+e x+f=0)% có tới đa hai nghiệm phân phương trình %(\\left(x^{2}+a x+b\\right)\\left(x^{2}+c x+d\\right)\\left(x^{2}+e x+f\\right)=0)% có nghiệm 1,2,3,4,5,6 , thì<br>-Phương trình %(x^{2}+a x+b=0)% phải có hai nghiệm phân biçt %(x_{1}, x_{2})%;<br>- Phương trình %(x^{2}+c x+d=0)% có hai nghiçm phân biçt %(x_{3}, x_{4})% :<br>- Phương trình %(x^{2}+e x+f=0)% có hai nghiệm phân biệt %(x_{5}, x_{6})% :<br>- Và %(\\left\\{x_{1}, x_{2}, x_{3}, x_{4}, x_{5}, x_{6}\\right\\}=\\{1,2,3,4,5,6\\})%.<br>Theo định lý Vieta, ta có %(x_{1}+x_{2}=-a)% và %(x_{1} x_{2}=b)%, suy ra<br>\\[x_{1}^{2}+x_{2}^{2}=\\left(x_{1}+x_{2}\\right)^{2}-2 x_{1} x_{2}=a^{2}-2 b\\]<br>Tương tự, ta cũng có %(x_{3}^{2}+x_{4}^{2}=c^{2}-2 d)% và %(x_{5}^{2}+x_{6}^{2}=e^{2}-2 f)%.<br>Do đó<br>\\[\\begin{array}{r}T=a^{2}+c^{2}+e^{2}-2(b+d+f)=x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+x_{4}^{2}+x_{5}^{2}+x_{6}^{2} \\\\=1^{2}+2^{2}+3^{2}+4^{2}+5^{2}+6^{2}=91\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Giải phương trình sau :%((\\sqrt{x+5})^{3}=6 x+5)%",
+        "question_images": [],
+        "solution": "Điểu kiện xác định: %(x \\geq-5)%.<br>Đặt %(\\sqrt{x+5}=t(t \\geq 0))%, phương trình trở thành %(t^{3}=6 t^{2}-25)%, hay %((t-5)\\left(t^{2}-t-5\\right)=0)%.<br>Từ đây, bằng cách xét các trường hợp cụ thế, ta tìm được tất cả các nghiệm của phương trình là %(x=20)% và %(x=\\frac{1+\\sqrt{21}}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải phương trình sau: %(\\sqrt[3]{3 x+6}+\\sqrt{23-x}=7)%",
+        "question_images": [],
+        "solution": "Điều kiện xác định: %(x \\leq 23)%.<br>Đặt %(a=\\sqrt[3]{3 x+6})% và %(b=\\sqrt{23-x}(b \\geq 0))%, khi đó ta có %(a^{3}+3 b^{2}=75)% và phương trình đề bài trở thành %(a+b=7)%.<br>Thay %(b=7-a)% vào phương trình %(a^{3}+3 b^{2}=75)%, ta dược %(a^{3}+3(7-a)^{2}=75)%, hay %((a-3)\\left(a^{2}+6 a-24\\right)=0)%.<br>Từ đây, bằng cách xét các trường hợp cụ thể, ta tìm đức tát cả các nghiệm của phương trình là %(x=7, x=-110+20 \\sqrt{33})% và %(x=-110-20 \\sqrt{33})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho tam giác nḥon %(A B C)% có các đường cao %(B E, C F)% cắt nhau tại %(H)% và %(M)% là trung điểm %(B C)%. Đường thẳng qua %(A)% và vuông góc với %(E F)% cắt đường trung trực của %(B C)% tại %(O)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.75,
+        "content": "a) Chứng minh %(A H=20 \\mathrm{M})%.",
+        "question_images": [],
+        "solution": "a) Gọi %(T)% là điểm đối xứng với điểm %(H)% qua điểm %(M)%.<br>Khi đó, tứ giác %(H B T C)% là hình bình hành.<br>Từ đây, dễ dàng suy ra %(\\angle A B T=\\angle A C T=90^{\\circ})%, tức tứ giác %(A B T C)% nội tiếp.<br>%(\\mathrm{V}_{1})% thé, với chú ý tứ giác %(B F E C)% nội tiếp, ta có<br>\\[\\angle T A C=\\angle T B C=\\angle F C B=\\angle F E B=90^{\\circ}-\\angle A E F=\\angle O A C\\]<br>Suy ra ba điểm %(A, O, T)% thẳng hàng.<br>Đến đây, do %(A H \\| O M)% và %(M)% là trung điểm của đoạn thẳng %(H T)% nên %(O M)% là đường trung bình ứng với cạnh %(A H)% của tam giác %(T A H)%.<br>Nói riêng, ta có %(A H=2 O M)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0686bedc86a91a29ccdd54b0d3659eac.png\" srcset=\"https://docdn.giainhanh.io/media/test/5361b3194c0e738aea2cbc69e6d7ad50.png 221w\" width=\"221\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) Chứng minh %(O)% là tâm đường tròn ngoai tićp tam giác %(A B C)%.",
+        "question_images": [],
+        "solution": "b) Vì %(O M)% là đường trung bình ứng với cạnh %(A H)% của tam giác %(T A H)% nên %(O)% là trung điểm của đoạn %(A T)%.<br>Mà tứ giác %(A B T C)% nội tiếp đường tròn đường kính %(A T)% nẻn %(O)% chính là tâm đường tròn ngoại tic %(\\mathrm{p})% tứ giác này, tức %(O)% cũng là tâm dường tròn ngoại tiếp tam giác %(A B C)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Với các số thực dương %(a, b)% thỏa mãn %(a^{2}+b^{2} \\leq 2)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.75,
+        "content": "a) Chứng minh %(a+b \\leq 2)%.",
+        "question_images": [],
+        "solution": "Sử dụng bất dẳng thức AM-GM, ta có %(a+b \\leq \\frac{a^{2}+1}{2}+\\frac{b^{2}+1}{2}=\\frac{a^{2}+b^{2}+2}{2} \\leq 2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) Tìm giá tri nhỏ nhất của biểu thức %(P=\\sqrt{a^{2}+b^{2}}+\\frac{2024}{a+b+2})%.",
+        "question_images": [],
+        "solution": "Sử dụng bất đẳng thức Cauchy-Schwarz kết hợp với bất đằng thức %(\\mathrm{AM}-\\mathrm{GM})%, ta có<br>\\[\\begin{array}{r}P \\frac{a+b}{\\sqrt{2}}+\\frac{2024}{a+b+2}=\\frac{a+b+2}{\\sqrt{2}}+\\frac{8 \\sqrt{2}}{a+b+2}+\\frac{2024-8 \\sqrt{2}}{a+b+2}-\\sqrt{2} \\\\geq 4 \\sqrt{2}+\\frac{2024-8 \\sqrt{2}}{a+b+2}-\\sqrt{2}\\end{array}\\]<br>Tư đây, kết hợp với kết quả câu %(a)% ), ta được<br>\\[P \\geq 4 \\sqrt{2}+\\frac{2024-8 \\sqrt{2}}{4}-\\sqrt{2}=\\sqrt{2}+506\\]<br>Mặt khác, với %(a=b=1)% thì %(P=\\sqrt{2}+506)%. Vậy %(\\min P=\\sqrt{2}+506)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho tam giác nhọn %(A B C(A B\\lt A C))% nội tiếp đường tròn %((O))%. Gọi %(E)% là điểm bất kì trên cung nhỏ %(B C)% của %((O)(B E\\lt B A))%. Trên các cạnh %(A B, A C)% lần lượt lấy các điểm %(K, L)% sao cho %(B K=B E, C L=C E)%. Gọi %(M, N)% lần lượt là trung điểm %(B C)% và %(K L)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(\\overline{B N C}=90^{\\circ})%.",
+        "question_images": [],
+        "solution": "Lấy điểm %(H)% đối xứng với điểm %(B)% qua điểm %(N)%.<br>Vì %(N)% là trung điếm của các đoạn thẳng %(B H)% và %(K L)% nên ưú giác %(B K H L)% là hình bình hành.<br>Suy ra %(H L \\| B K)% và %(H L=B K=B E)%.<br>Chú ý rằng %(H L \\| B K)% và tứ giác %(A B E C)% nội tî́p, ta có<br>\\[\\angle C L H=180^{\\circ}-\\angle A L H=180^{\\circ}-\\angle B A C=\\angle C E B\\]<br>Từ đó, ta thấy hai tam giác %(C B E)% và %(C H L)% bằng nhau (c-g-c).<br>Suy ra %(C B=C H)%.<br>Như vậy, tam giác %(C B H)% cân tại dinh %(C)% có đường trung tuyến %(C N)%.<br>Suy ra %(C N \\perp B H)%, hay %(\\angle B N C=90^{\\circ})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9e3ca4d8c005dc4512938ca1b83e3b8e.png\" srcset=\"https://docdn.giainhanh.io/media/test/c3d416ae87f5f722f0ae3588933615fd.png 184w\" width=\"184\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Gọi %(F)% là điểm thuộc %((O))% sao cho %(E F)% song song với %(B C)%. Chứng minh %(M N)% song song với %(A F)%.",
+        "question_images": [],
+        "solution": "Xét dường tròn %((O))%, có %(E F \\| B C)%.<br>Do đó, hai cung %(C F)% và %(B E)% bằng nhau.<br>Suy ra %(\\angle C A F=\\angle B A E=\\angle B C E=\\angle H C L)%.<br>thế, ta có %(A F \\| C H)%.Do %(M N)% là đường trung bình của tam giác %(C B H)% nên %(M N \\| C H)%.<br>Vậy %(M N \\| A F)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 0.75,
+        "content": "Cho một hình vuông cạnh %(8 \\mathrm{~cm})% có chứa bên trong 2024 điểm phân biệt. Chứng minh rằng có thể vẽ được một đường tròn bán kính %(1,5 \\mathrm{~cm})% có chứa bên trong ít nhất 127 điè̀m trên.",
+        "question_images": [],
+        "solution": "Chia hình vuông đã cho thành 16 hình vuông cạnh %(2 \\mathrm{~cm})% như hình vẽ bên dưới.<br>Vì %(2024=16 \\cdot 126+8)% nên theo nguyên lý Dirichlet, có ít nhát 127 diểm cùng thuộc vào một hình vuông nhỏ, gọi hình vuông này là %(\\mathcal{A})%.<br>Mởi hình vuông nhỏ bán kính đường tròn ngoại tiẹ́p là %(\\sqrt{2} \\approx 1.4142(\\mathrm{~cm}))%.<br>Do đó, néu ta lấy tâm hình vuông %(\\mathcal{A})% làm tâm và vẽ mọot đường tròn bán kính %(1.5 \\mathrm{~cm})% thì đường tròn này sẽ chứa bên trong nó ít nhát 127 trong số các điểm đả cho.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/12270f2d43ae945821dbbae0255b1789.png\" srcset=\"https://docdn.giainhanh.io/media/test/28efba359b0e82536516b0896fa015f7.png 192w\" width=\"192\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 0.75,
+        "content": "Cặp số nguyên dương %((a ; b))% được gọi là cặp số \"may mắn\" của số n. nếu %(a+b=n)% và tồn tại số nguyên tố %(p)% thỏa mã̃ đẳng thức %(\\frac{4}{a}+\\frac{4}{b}=\\frac{1}{p})%. Tìm tất cả các cặp số \"may mắn\" của số 2025 .",
+        "question_images": [],
+        "solution": "Tự giả thiét %(\\frac{4}{a}+\\frac{4}{b}=\\frac{1}{p})%, hiển nhiên ta có %(a, b\\gt 4 p)%.<br>Ngoài ra, phương trình %(\\frac{4}{a}+\\frac{4}{b}=\\frac{1}{p})% có thé được viết lại thành<br>\\[(a-4 p)(b-4 p)=16 p^{2} \\#\\]<br>Vì %(a+b=2025)% nên hai số %(a, b)% có một số chẵn và một số lẻ.<br>Không mát tính tổng quát, giả sử %(a)% chẵn và %(b)% lẻ.<br>Thế thì, từ (1), ta suy ra %(a-4 p)% chia hết cho 16 .<br>Như vậy, xảy ra các trường hợp sau.Trường hợp 1: %(a-4 p=16)% và %(b-4 p=p^{2})%.<br>Trong trường hợp này, ta có<br>\\[p^{2}+16=a+b-8 p=2025-8 p\\]<br>hay %((p+4)^{2}=2025)%.<br>Suy ra %(p=41, a=180)% và %(b=1845)%.<br>Thử lại, ta thấy thỏa mãn.<br>Trường hợp 2: %(a-4 p=16 p)% và %(b-4 p=p)%.<br>Trong trường hợp này, ta có<br>\\[17 p=a+b-8 p=2025-8 p\\]<br>hay %(p=81)%, mâu thuẫn vì 135 không là số nguyên tố.Trường hợp %(3: a-4 p=16 p^{2})% wà %(b-4 p=1)%.<br>Trong truờng hợp này, ta có<br>\\[16 p^{2}+1=a+b-8 p=2025-8 p\\]<br>hay %((4 p+1)^{2}=2025)%.<br>Suy ra %(p=11, a=1980)% và %(b=45)%.<br>Thừ lại, ta tháy thỏa mản.Vậy, các cặp số may mắn của 2025 là %((1980,45))%. %((45,1980),(1845,180))% và %((180,1845))%.",
+        "question_type": "essay"
+    }
+]

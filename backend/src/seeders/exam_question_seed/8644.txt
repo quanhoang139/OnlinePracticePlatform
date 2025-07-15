@@ -1,0 +1,73 @@
+[
+    {
+        "title": "1 ",
+        "point": 3.0,
+        "content": "Giải phương trình: %(2(\\sin x+3) \\cos ^{4} \\frac{x}{2}-\\sin x(1+\\cos x)-3 \\cos x-1=0)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}P t \\Leftrightarrow 2(\\sin x+3) \\cos ^{4} \\frac{1}{2}-2 \\sin x \\cdot \\cos ^{2} \\frac{1}{2}-6 \\cos ^{2} \\frac{x}{2}+2=0 \\\\ \\Leftrightarrow(\\sin x+3) \\cos ^{4} \\frac{x}{2}-\\cos ^{2} \\frac{x}{2}(\\sin x+3)+1=0 \\\\ \\Leftrightarrow \\cos ^{2} \\frac{x}{2}(\\sin x+3)\\left(\\cos ^{2} \\frac{x}{2}-1\\right)+1=0 \\\\ \\Leftrightarrow-\\frac{1}{4}(\\sin x+3) \\sin ^{2} x+1=0 \\Leftrightarrow \\sin ^{3} x+3 \\sin ^{2} x-4=0 \\\\ \\Leftrightarrow\\left[\\begin{array}{l}\\sin x=1 \\\\ \\sin x=-2(v n)\\end{array}\\right. \\\\ \\Leftrightarrow x=\\frac{\\pi}{2}+k 2 \\pi(k \\in \\mathbb{Z})\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 3.0,
+        "content": "Giải bất phương trình: %((x+1)\\left(\\sqrt{x^{2}+2}+\\sqrt{x^{2}+2 x+3}\\right)\\gt \\sqrt{x^{2}+2}-2 x-1)%",
+        "question_images": [],
+        "solution": "Đặt: %(\\left\\{\\begin{array}{ll}a=\\sqrt{x^{2}+2} & (a \\geq \\sqrt{2}) \\\\ b=\\sqrt{x^{2}+2 x+3} & (b \\geq \\sqrt{2})\\end{array} \\Rightarrow x=\\frac{b^{2}-a^{2}-1}{2}\\right.)%BPT trở thành: %(b^{2}-a^{2}+\\frac{1}{2}\\left(b^{2}-a^{2}-1\\right) a+\\frac{1}{2}\\left(b^{2}-a^{2}+1\\right) b\\gt 0)%<br>\\[\\begin{array}{l}\\Leftrightarrow(b-a)(b+a+1)^{2}>0 \\\\Leftrightarrow b>a \\text { hay } \\sqrt{x^{2}+2 x+3}>\\sqrt{x^{2}+2}\\end{array}\\]<br>%(\\Leftrightarrow x>-\\frac{1}{2})%.<br>Vậy tập nghiệm của bpt là: %(S=\\left(-\\frac{1}{2} ;+\\infty\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 3.0,
+        "content": "Cho đa giác lồi %((\\mathrm{H}))% có 22 cạnh. Gọi %(\\mathrm{X})% là tập hợp các tam giác có ba đỉnh là ba đỉnh của %((\\mathrm{H}))%. Chọn ngẫu nhiên 2 tam giác trong %(\\mathrm{X})%, tính xác suất để chọn được 1 tam giác có 1 canh là canh của đa giác %((\\mathrm{H}))% và 1 tam giác không có canh nào là canh của đa giác %((\\mathrm{H}))%.",
+        "question_images": [],
+        "solution": "+ ) Đa giac lồi %((\\mathrm{H}))% co 22 cạnh nên có 22 đỉnh.<br>+ ) Số tam giác có 3 đỉnh là ba đỉnh của đa giác %((\\mathrm{H}))% là %(\\mathrm{C}_{22}^{3}=1540)%.<br>+ )Số phần tử của không gian mẫu %(\\Omega)% là %(\\mathrm{n}(\\Omega)=\\mathrm{C}_{1540}^{2}=1185030)%<br>Số tam giác có một cạnh là cạnh của đa %(\\mathrm{H}))% là %(22.18=396)%<br>+ ) Số tam giác có hai cạnh là cạnh của đa %((\\mathrm{H}))% là 22<br>Số tam giác không có cạnh nào là cạnh của đa %((\\mathrm{H}))% là: 1540 - 396 - %(22=1122)%<br>+) Gọi A là biến cố \" hai tam giác được chọn có một tam giác có 1 cạnh là cạnh của%((\\mathrm{H}))% và 1 tam giác không có cạnh nào là cạnh của %((\\mathrm{H})^{\\prime \\prime})%<br>Số phần tử của %(\\mathrm{A})% là %(\\mathrm{n}(\\mathrm{A})=\\mathrm{C}_{396}^{1} \\cdot \\mathrm{C}_{1122}^{1})%<br>Xác suất của biến cố %(\\mathrm{A})% là %(\\mathrm{p}(\\mathrm{A})=\\frac{\\mathrm{n}(\\mathrm{A})}{\\mathrm{n}(\\Omega)}=\\frac{\\mathrm{C}_{396}^{1} \\cdot \\mathrm{C}_{1122}^{1}}{1185030}=\\frac{748}{1995})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Câu 3 (2,0 điểm). Cho dãy số %(\\left(u_{n}\\right))% xác định bởi:<br>\\[\\left\\{\\begin{array}{l}u_{1}=2 \\n\\left(n^{2}-1\\right) u_{n}=u_{1}+2 u_{2}+\\ldots+(n-1) u_{n-1},\\end{array} \\quad \\forall n\\gt 1, n \\in \\mathbb{N} . \\text {. Tìm } \\lim \\frac{9}{2}\\left(n^{3}-n\\right) \\cdot u_{n}\\right. \\text {. }\\]",
+        "question_images": [],
+        "solution": "Ta có: %(u_{2}=\\frac{1}{3})%Với %(n \\geq 3)%, ta có: %(u_{1}+2 u_{2}+\\ldots+n u_{n}=n^{3} u_{n})%<br>\\[u_{1}+2 u_{2}+\\ldots+(n-1) u_{n-1}=(n-1)^{3} u_{n-1}\\]<br>Từ (1) và (2), suy ra: %(n u_{n}=n^{3} u_{n}-(n-1)^{3} u_{n-1})%<br>\\[\\begin{array}{l}\\Rightarrow u_{n}=\\frac{(n-1)^{3}}{n^{3}-n} u_{n-1}=\\left(\\frac{n-1}{n}\\right)^{2} \\cdot \\frac{n}{n+1} u_{n-1} \\\\Rightarrow u_{n}=\\left(\\frac{n-1}{n}\\right)^{2} \\cdot\\left(\\frac{n-2}{n-1}\\right)^{2} \\cdots\\left(\\frac{2}{3}\\right)^{2} \\cdot \\frac{n}{n+1} \\cdot \\frac{n-1}{n} \\ldots \\frac{3}{4} u_{2} \\\\Rightarrow u_{n}=\\frac{4}{n^{2}(n+1)}\\end{array}\\]<br>Do đó: %(\\lim \\frac{9}{2}\\left(n^{3}-n\\right) \\cdot u_{n}=\\lim 18\\left(1-\\frac{1}{n}\\right)=18)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho hình lập phương %(\\mathrm{ABCD})%. %(\\mathrm{A})% ' %(\\mathrm{B}^{\\prime} \\mathrm{C}^{\\prime} \\mathrm{D})% ' cạnh %(\\mathrm{a})%. Các điềm %(\\mathrm{H}, \\mathrm{K})% lần lượt là trung điểm của %(\\mathrm{AD}, \\mathrm{C}^{\\prime} \\mathrm{D}^{\\prime})%. Điểm %(\\mathrm{M})% thuộc đoạn %(\\mathrm{BC})% ', %(\\mathrm{N})% thuộc đoạn %(\\mathrm{AB})% '. Đường thẳng %(\\mathrm{MN})% tạo với mặt phẳng %((\\mathrm{ABCD}))% một góc %(45^{\\circ})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 3.0,
+        "content": "a) Chứng minh rằng: %(A K \\perp B H)%;",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{E})% là trung điềm của cạnh %(\\mathrm{CD})%, ta có: %(K E \\perp(A B C D) \\Rightarrow K E \\perp B H)% (1)<br>Mặt khác, ta có: %(\\triangle A B H=\\triangle D A E()% c.g.c %() \\Rightarrow \\widehat{A B H}=\\widehat{D A E})%<br>\\[\\begin{array}{l}\\Rightarrow \\widehat{A H B}+\\widehat{H A E}=\\widehat{A H B}+\\widehat{A B H}=90^{\\circ} \\\\Rightarrow B H \\perp A E(2)\\end{array}\\]<br>Tứ (1) và (2), suy ra: %(B H \\perp(A E K) \\Rightarrow B H \\perp A K)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d2733f4a4e5485f3835bc4ccc5efd5e2.png\" srcset=\"https://docdn.giainhanh.io/media/test/59c9d6690628ebbde75db6e8fc36d9f8.png 245w, https://docdn.giainhanh.io/media/test/9a9db8bbec8f2f95cadfb181c2788e25.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "b) Chứng minh rằng: %(M N \\geq(2-\\sqrt{2}) a)%.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{M})% ', N' lần lượt là hình chiếu của %(\\mathrm{M}, \\mathrm{N})% trên %((\\mathrm{ABCD}))%.<br>Không mất tính tổng quát giả sử %(\\mathrm{MM}^{\\prime}\\lt \\mathrm{NN})% '. Gọi %(P=M N \\cap M^{\\prime} N^{\\prime})%, khi đó:<br>\\[\\begin{array}{l}\\overline{(M N,(A B C D))}=\\widehat{M P M^{\\prime}}=45^{0}, M M^{\\prime}=B M^{\\prime}, N N^{\\prime}=A N^{\\prime}=a-B N^{\\prime}, M N=P N-P M \\\\Rightarrow M N \\cos 45^{\\circ}=P N \\cos 45^{0}-P M \\cos 45^{\\circ}=P N^{\\prime}-P M^{\\prime}=M^{\\prime} N^{\\prime}\\end{array}\\]<br>Do đó: %(M^{\\prime} N^{\\prime}=\\sqrt{B N^{\\prime 2}+B M^{\\prime 2}}=M N \\cos 45^{\\circ})%<br>Ta có: %(M N \\sin 45^{\\circ}=P N \\sin 45^{\\circ}-P M \\cos 45^{\\circ}=N N^{\\prime}-M M^{\\prime}=a-\\left(B N^{\\prime}+B M^{\\prime}\\right))%<br>Từ (1) và (2) suy ra:<br>\\[\\begin{array}{l} M N\\left(\\sqrt{2} \\cos 45^{\\circ}+\\sin 45^{\\circ}\\right)=\\sqrt{2\\left(B N^{\\prime 2}+B M^{\\prime 2}\\right)}+a-\\left(B N^{\\prime}+B M^{\\prime}\\right) \\\\geq\\left(B N^{\\prime}+B M^{\\prime}\\right)+a-\\left(B N^{\\prime}+B M^{\\prime}\\right)=a\\end{array}\\]<br>(BĐT Bunhiacôpxki)<br>\\[\\Rightarrow M N \\geq(2-\\sqrt{2}) a\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e99e39dbb91a9a0df48bad5cdcf1095b.png\" srcset=\"https://docdn.giainhanh.io/media/test/34052783c79d9cfe1cc9e1faf80c11aa.png 245w, https://docdn.giainhanh.io/media/test/62f579e22d426ea8366567e202640b7d.png 500w, https://docdn.giainhanh.io/media/test/120806160abfd0dba26833ef6cdfec17.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Trong mặt phẳng %(\\mathrm{Oxy})%, cho tam giác %(A B C)%; đường thẳng %(\\mathrm{AD})% là phân giác trong góc %(\\hat{A})%. Trên đoạn %(\\mathrm{AD})% lấy hai điểm %(\\mathrm{M}, \\mathrm{N}(\\mathrm{M}, \\mathrm{N})% khác %(\\mathrm{A})% và %(\\mathrm{D}))% sao cho %(\\widehat{A B N}=\\widehat{C B M})%. Đường thẳng %(\\mathrm{CN})% cắt đường tròn ngoại tiếp tam giác %(\\mathrm{ABN})% tại điểm %(\\mathrm{F})%; biết phương trình %(\\mathrm{FA})% là %(x+y-8=0)% và %(M(-3 ;-1), B(-4 ;-2))%. Xác định tọa độ điểm %(\\mathrm{A})% biết đường tròn ngoại tiếp tam giác %(\\mathrm{AMC})% đi qua điểm %(Q(0 ; \\sqrt{22}))%.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{E})% là giao điểm thứ hai của %(\\mathrm{BM})% và đường tròn ngoại tiếp tam giác %(\\mathrm{AMC})%. Ta chứng minh %(\\mathrm{E})% thuộc %(\\mathrm{AF})%.<br>Thật vậy tứ giác %(\\mathrm{AFBN})% nội tiếp nên %(\\widehat{N A B}=\\widehat{N F B})%<br>Tương tự %(\\widehat{M A C}=\\widehat{M E C})%, theo giả thiết %(\\widehat{N A B}=\\widehat{M A C})%, suy ra: %(\\widehat{N F B}=\\widehat{M E C})%<br>Do đó tứ giác %(\\mathrm{BCEF})% nội tiếp. Suy ra %(\\widehat{C F E}=\\widehat{C B E}=\\widehat{N B A} \\Rightarrow \\widehat{N F A}=\\widehat{N F E})%.Suy ra %(\\mathrm{A}, \\mathrm{E}, \\mathrm{F})% thẳng hàng.<br>Đường thẳng %(\\mathrm{BM})% đi qua %(\\mathrm{B})% và %(\\mathrm{M})% nên có phương trình: %(x-y+2=0)%.%(E=\\mathrm{AF} \\cap B M)%, suy ra tọa độ của %(\\mathrm{E})% là nghiệm của hpt:%(\\left\\{\\begin{array}{l}x+y-8=0 \\\\ x-y+2=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=3 \\\\ y=5\\end{array} \\Rightarrow E(3 ; 5)\\right.\\right.)%<br>Đường tròn %((\\mathrm{T}))% ngoại tiếp tam giác %(\\mathrm{AMC})% có phương trình dạng:<br>\\[x^{2}+y^{2}-2 a x-2 b y+c=0\\left(a^{2}+b^{2}-c\\gt 0\\right)\\]<br>Vì M, Q, E thuộc (T) nên ta có hpt: %(\\left\\{\\begin{array}{l}6 a+2 b+c=-10 \\\\ -2 \\sqrt{22} b+c=-22 \\\\ 6 a+10 b-c=34\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a=2 \\\\ b=0 \\\\ c=-22\\end{array}\\right.\\right.)%<br>Suy ra (T) có pt: %(x^{2}+y^{2}-4 x-22=0)%.<br>A là giao điểm của AE và (T) nên tọa độ điểm A là nghiệm của hpt:<br>%(\\left\\{\\begin{array}{l}x+y-8=0 \\\\ x^{2}+y^{2}-4 x-22=0\\end{array} \\Leftrightarrow\\right.)%%(\\begin{array}{l}\\left\\{\\begin{array}{l}x=7 \\\\ y=1\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}x=3 \\\\ y=5\\end{array}\\right.\\end{array})%<br>%(\\Rightarrow A(7 ; 1))%<br>Vậy %(A(7 ; 1))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/25850f4dfbe025fc7a86f39efea4b179.png\" srcset=\"https://docdn.giainhanh.io/media/test/cdf5f9447ff4fe6881d0b197b5a3ef53.png 245w, https://docdn.giainhanh.io/media/test/2d2c01452d00b328b1a7b69f31f252df.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Cho các số thực dương %(a, b, c)% thỏa mãn %(a b+b c+c a=1)%. Chứng minh rằng :<br>\\[\\frac{a}{b^{2}+c^{2}+2}+\\frac{b}{c^{2}+a^{2}+2}+\\frac{c}{a^{2}+b^{2}+2} \\geq \\frac{3 \\sqrt{3}}{8} \\text {. }\\]",
+        "question_images": [],
+        "solution": "Có %(a b+b c+c a=1)% nên<br>\\[b^{2}+c^{2}+2=a^{2}+b^{2}+c^{2}+2(a b+b c+c a)-a^{2}=(a+b+c)^{2}-a^{2}=S^{2}-a^{2}\\]<br>trong đó %(S=a+b+c)% và %(S^{2}=(a+b+c)^{2} \\geq 3(a b+b c+c a) \\geq 3 \\Rightarrow S \\geq \\sqrt{3})%.Khi đó %(\\frac{a}{b^{2}+c^{2}+2}+\\frac{b}{c^{2}+a^{2}+2}+\\frac{c}{a^{2}+b^{2}+2} \\geq \\frac{3 \\sqrt{3}}{8})%<br>\\[\\begin{array}{l}\\Leftrightarrow \\frac{a}{S^{2}-a^{2}}+\\frac{b}{S^{2}-b^{2}}+\\frac{c}{S^{2}-c^{2}} \\geq \\frac{3 \\sqrt{3}}{8} \\Leftrightarrow \\frac{a S^{2}}{S^{2}-a^{2}}+\\frac{b S^{2}}{S^{2}-b^{2}}+\\frac{c S^{2}}{S^{2}-c^{2}} \\geq \\frac{3 \\sqrt{3}}{8} S^{2} \\\\Leftrightarrow \\frac{a^{3}}{S^{2}-a^{2}}+a+\\frac{b^{3}}{S^{2}-b^{2}}+b+\\frac{c^{3}}{S^{2}-c^{2}}+c \\geq \\frac{3 \\sqrt{3}}{8} S^{2} \\\\Leftrightarrow \\frac{a^{3}}{S^{2}-a^{2}}+\\frac{b^{3}}{S^{2}-b^{2}}+\\frac{c^{3}}{S^{2}-c^{2}}+S \\geq \\frac{3 \\sqrt{3}}{8} S^{2} \\\\Leftrightarrow \\frac{a^{4}}{a S^{2}-a^{3}}+\\frac{b^{4}}{b S^{2}-b^{3}}+\\frac{c^{4}}{c S^{2}-c^{3}}+S \\geq \\frac{3 \\sqrt{3}}{8} S^{2}\\end{array}\\]<br>Lại có theo Cauchy-Schazw thì<br>\\[\\begin{array}{l}\\frac{a^{4}}{a S^{2}-a^{3}}+\\frac{b^{4}}{b S^{2}-b^{3}}+\\frac{c^{4}}{c S^{2}-c^{3}} \\geq \\frac{\\left(a^{2}+b^{2}+c^{2}\\right)^{2}}{S^{2}(a+b+c)-\\left(a^{3}+b^{3}+c^{3}\\right)} \\\\=\\frac{S\\left(a^{2}+b^{2}+c^{2}\\right)^{2}}{S^{4}-(a+b+c)\\left(a^{3}+b^{3}+c^{3}\\right)} \\geq \\frac{S\\left(S^{2}-2\\right)^{2}}{S^{4}-\\left(S^{2}-2\\right)^{2}}=\\frac{S\\left(S^{2}-2\\right)^{2}}{4 S^{2}-4}\\end{array}\\]<br>(Vì %(\\left(a^{2}+b^{2}+c^{2}\\right)^{2}=\\left(\\sqrt{a} \\cdot \\sqrt{a^{3}}+\\sqrt{b} \\cdot \\sqrt{b^{3}}+\\sqrt{c} \\cdot \\sqrt{c^{3}}\\right)^{2} \\leq(a+b+c)\\left(a^{3}+b^{3}+c^{3}\\right))% )<br>Ta đi chứng minh %(\\frac{S\\left(S^{2}-2\\right)^{2}}{4\\left(S^{2}-1\\right)}+S \\geq \\frac{3 \\sqrt{3}}{8} S^{2} \\Leftrightarrow \\frac{\\left(S^{2}-2\\right)^{2}}{4\\left(S^{2}-1\\right)}+1 \\geq \\frac{3 \\sqrt{3}}{8} S)%<br>\\[\\begin{array}{l}\\Leftrightarrow 2 S^{3}-3 \\sqrt{3} S^{2}+3 \\sqrt{3} \\geq 0 \\Leftrightarrow(S-\\sqrt{3})\\left(2 S^{2}-\\sqrt{3} S-3\\right) \\geq 0 \\\\Leftrightarrow(S-\\sqrt{3})^{2}(2 S+\\sqrt{3}) \\geq 0 \\quad \\text { (luôn đúng } \\forall S \\geq \\sqrt{3} \\text { ) }\\end{array}\\]<br>Vậy %(\\mathrm{BĐT}\\left({ }^{*}\\right))% được chứng minh, dấu \"=\" xảy ra khi và chỉ khi %(a=b=c=\\frac{1}{\\sqrt{3}})%.",
+        "question_type": "essay"
+    }
+]

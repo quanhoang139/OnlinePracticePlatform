@@ -1,0 +1,49 @@
+[
+    {
+        "title": "Câu 1 ",
+        "point": 6.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}(x-y)\\left(x^{2}+x y+y^{2}-2\\right)=2 \\ln \\frac{y+\\sqrt{y^{2}+1}}{x+\\sqrt{x^{2}+1}} \\\\ 3^{x} .2 x=3^{y}+2 y+1\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}(x-y)\\left(x^{2}+x y+y^{2}-2\\right)=2 \\ln \\frac{y+\\sqrt{y^{2}+1}}{x+\\sqrt{x^{2}+1}}(1) \\\\ 3^{x} \\cdot 2 x=3^{y}+2 y+1(2)\\end{array}\\right.)%<br>Điều kiện xác định: %(x, y \\in \\mathbb{R})%.<br>Phương trình %((1) \\Leftrightarrow x^{3}-y^{3}-2(x-y)=2 \\ln \\left(y+\\sqrt{y^{2}+1}\\right)-2 \\ln \\left(x+\\sqrt{x^{2}+1}\\right))%<br>\\[\\Leftrightarrow x^{3}-2 x+2 \\ln \\left(x+\\sqrt{x^{2}+1}\\right)=y^{3}-2 y+2 \\ln \\left(y+\\sqrt{y^{2}+1}\\right)\\]<br>Xét %(f(t)=t^{3}-2 t+\\ln \\left(t+\\sqrt{t^{2}+1}\\right))%, ta có:<br>%(\\begin{array}{l}f^{\\prime}(t)=3 t^{2}-2+\\frac{2}{\\sqrt{t^{2}+1}} \\\\ =\\left(t^{2}+1\\right)+\\frac{1}{\\sqrt{t^{2}+1}}+\\frac{1}{\\sqrt{t^{2}+1}}+2 t^{2}-3\\end{array})%<br>%(\\geq 2 t^{2} \\geq 0 \\forall t \\in \\mathbb{R})%<br>Suy ra %(f(t))% là hàm số đồng biến trên %(\\mathbb{R})%.<br>Do đó %((1) \\Leftrightarrow f(x)=f(y) \\Leftrightarrow x=y)%<br>Thay %(x=y)% vào phương trình (2) ta được %(3^{x}(2 x-1)=2 x+1)% (3)<br>Nhận xét: %(x=\\frac{1}{2})% không là nghiệm của (3)<br>Do đó %((3) \\Leftrightarrow 3^{x}-\\frac{2 x+1}{2 x-1}=0)%<br>Xét %(g(\\mathrm{x})=3^{x}-\\frac{2 x+1}{2 x-1})%, ta có:<br>%(g^{\\prime}(x)=3^{x} \\ln 3+\\frac{4}{(2 x-1)^{2}})%<br>\\[\\Rightarrow g^{\\prime}(x)\\gt 0 \\quad \\forall x \\in\\left(-\\infty ; \\frac{1}{2}\\right) \\cup\\left(\\frac{1}{2} ;+\\infty\\right)\\]<br>Suy ra %(g(x))% đồng biến trên mỗi khoảng %(\\left(-\\infty ; \\frac{1}{2}\\right),\\left(\\frac{1}{2} ;+\\infty\\right))%<br>Suy ra phương trình (3) có không quá 2 nghiệm.<br>Mà %(g(1)=g(-1)=0)% do đó (3) có đúng 2 nghiệm là %(x= \\pm 1)%.<br>Kết luận: Tập nghiệm của hệ là %(\\{(1 ; 1) ;(-1 ;-1)\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 4.0,
+        "content": "Xét sự hội tụ của dãy số %(\\left(\\mathrm{x}_{\\mathrm{n}}\\right))% biết %(\\mathrm{x}_{0}=2, \\mathrm{x}_{\\mathrm{n}+1}=\\frac{2}{\\mathrm{x}_{\\mathrm{n}}}+\\frac{\\sqrt{3}}{\\mathrm{x}_{\\mathrm{n}}{ }^{2}} \\forall \\mathrm{n} \\in \\mathbb{N})%.",
+        "question_images": [],
+        "solution": "Nhận xét: %(x_{n}\\gt 0 \\quad \\forall n \\in \\mathbb{N}^{*})%.<br>Đặt %(g(x)=\\frac{2}{x}+\\frac{\\sqrt{3}}{x^{2}})%, ta có %(g(x))% nghịch biến trên %((0 ;+\\infty))%<br>Do %(g(x))% nghịch biến trên %((0 ;+\\infty))% nên %(g \\circ g)% là hàm đồng biến trên %((0 ;+\\infty))%.<br>Suy ra %(\\left(x_{2 n}\\right))% đơn điệu.<br>Mà %(x_{1}=\\frac{4+\\sqrt{3}}{4}, x_{2}=\\frac{32+24 \\sqrt{3}}{(4+\\sqrt{3})^{2}} \\Rightarrow x_{0}\\lt x_{2})%<br>Do đó %(\\left(x_{2 n}\\right))% là dãy đơn điệu tăng.<br>Suy ra %(x_{2 n} \\geq 2 \\forall n \\in \\mathbb{N})%.<br>Giả sử tồn tại giới hạn %(\\lim x_{n}=a)%<br>%(\\Rightarrow \\lim x_{2 n}=a \\Rightarrow a \\geq 2 \\quad(*))%.<br>Từ %(\\lim x_{n}=a)% và %(x_{n+1}=\\frac{2}{x_{n}}+\\frac{\\sqrt{3}}{x_{n}^{2}})%, cho %(n)% dần đến vô cùng ta được: %(a=\\frac{2}{a}+\\frac{\\sqrt{3}}{a^{2}})%.<br>\\[a=\\frac{2}{a}+\\frac{\\sqrt{3}}{a^{2}} \\Leftrightarrow(a-\\sqrt{3})\\left(a^{2}+a \\sqrt{3}+1\\right)=0\\]<br>\\[\\Leftrightarrow a=\\sqrt{3}\\]<br>Suy ra %(a\\lt 2)% (Mâu thuẫn)<br>Vậy dãy %(\\left(x_{n}\\right))% không hội tụ.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3",
+        "group_content": "Cho tam giác %(\\mathrm{ABC})% nội tiếp đường tròn tâm %(\\mathrm{O})%. Dựng ra phía ngoài tam giác %(\\mathrm{ABC})% các hình bình hành %(\\mathrm{ABMN})% và %(\\mathrm{ACPQ})% sao cho tam giác %(\\mathrm{ABN})% đồng dạng với tam giác %(\\mathrm{CAP})%. Gọi %(\\mathrm{G})% là giao điểm của %(\\mathrm{AQ})% và %(\\mathrm{BM}, \\mathrm{H})% là giao điểm của %(\\mathrm{AN})% và %(\\mathrm{CP})%. Đường tròn ngoại tiếp các tam giác %(\\mathrm{GMQ}, \\mathrm{HNP})% cắt nhau tại %(\\mathrm{E})% và %(\\mathrm{F}(\\mathrm{E})% nằm trong đường tròn %((\\mathrm{O}))% ).",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 3.5,
+        "content": "a) Chứng minh rằng ba điểm %(\\mathrm{A}, \\mathrm{E}, \\mathrm{F})% thẳng hàng.",
+        "question_images": [],
+        "solution": "Gọi %(\\left(\\mathrm{O}_{1}\\right),\\left(\\mathrm{O}_{2}\\right))% lần lượt là đường tròn ngoại tiếp các tam giác %(\\mathrm{GMQ})%, HNP suy ra EF là trục đẳng phương của %(\\left(\\mathrm{O}_{1}\\right),\\left(\\mathrm{O}_{2}\\right))%.<br>Gọi %(\\mathrm{D})% là giao điểm của %(\\mathrm{BM})% và %(\\mathrm{CP})% suy ra %(\\mathrm{AGDH})% là hình bình hành<br>Vì %(\\triangle A B N \\sim \\triangle C A P \\Rightarrow(\\mathrm{AB}, \\mathrm{AN})=(\\mathrm{CA}, \\mathrm{CP}))%<br>%((\\mathrm{BA}, \\mathrm{BD})=(\\mathrm{AB}, \\mathrm{AN})=(\\mathrm{CA}, \\mathrm{CP})=(\\mathrm{CA}, \\mathrm{CD}))%<br>%(\\Rightarrow \\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D})% đồng viên.<br>Suy ra %((\\mathrm{CA}, \\mathrm{CB})=(\\mathrm{DA}, \\mathrm{DG}),(\\mathrm{AB}, \\mathrm{AC})=(\\mathrm{DG}, \\mathrm{DC})=(\\mathrm{GD}, \\mathrm{GA}))%<br>suy ra hai tam giác %(A B C)% và GAD đồng dạng.<br>%(\\Rightarrow \\frac{A B}{A C}=\\frac{G D}{G A}=\\frac{A H}{A G})%<br>Mà %(\\triangle A B N \\sim \\triangle C A P \\Rightarrow \\frac{A B}{C A}=\\frac{C P}{A N})%<br>%(\\Rightarrow \\frac{A H}{A G}=\\frac{C P}{A N}=\\frac{A Q}{A N})%<br>%(\\Rightarrow A H \\cdot A N=A G \\cdot A Q)%<br>%(\\Rightarrow P_{A /\\left(\\mathrm{O}_{1}\\right)}=P_{A/\\left(\\mathrm{O}_{2}\\right)})%<br>Mà EF là trục đẳng phương của %(\\left(\\mathrm{O}_{1}\\right),\\left(\\mathrm{O}_{2}\\right) \\Rightarrow A \\in E F)%.<br>Vậy %(\\mathrm{A}, \\mathrm{E}, \\mathrm{F})% thẳng hàng.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/85cac06ebfa674a4113814074490cddb.png\" srcset=\"https://docdn.giainhanh.io/media/test/34f73444e4ee088ed749c0aea14bc239.png 197w, https://docdn.giainhanh.io/media/test/7647c070f583698bbca2cf0ecf1cf65f.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.5,
+        "content": "b) Chứng minh rằng bốn điểm %(\\mathrm{B}, \\mathrm{C}, \\mathrm{O}, \\mathrm{E})% cùng thuộc một đường tròn.",
+        "question_images": [],
+        "solution": "Gọi %(F^{\\prime}=M N \\cap P Q)%.<br>Ta có: %(\\left(F^{\\prime} M, F^{\\prime} Q\\right)=(A B, A C)=(G M, G Q))%.<br>Suy ra %(F^{\\prime} \\in\\left(O_{1}\\right))%. Tương tự %(F^{\\prime} \\in\\left(O_{2}\\right))%. Suy ra %(F^{\\prime} \\equiv F)%.<br>Ta có %(\\mathrm{E}, \\mathrm{F}, \\mathrm{M}, \\mathrm{G})% đồng viên %(\\Rightarrow(\\mathrm{GB}, \\mathrm{GE})=(\\mathrm{GM}, \\mathrm{GE})=(\\mathrm{FM}, \\mathrm{FE})=(\\mathrm{AB}, \\mathrm{AE}))%<br>suy ra A, %(\\mathrm{B}, \\mathrm{E}, \\mathrm{G})% đồng viên<br>Tương tự %(\\mathrm{A}, \\mathrm{C}, \\mathrm{E}, \\mathrm{H})% đồng viên.<br>%(\\begin{array}{l}\\text { Suy ra }(\\mathrm{EB}, \\mathrm{EC})=(\\mathrm{EB}, \\mathrm{EA})+(\\mathrm{EA}, \\mathrm{EC})=(\\mathrm{GB}, \\mathrm{GA})+(\\mathrm{HA}, \\mathrm{HC}) \\\\ =2(\\mathrm{DB}, \\mathrm{DC})\\end{array})%<br>Mà %(A, B, C, D)% đồng viên suy ra %(D)% thuộc %((O) \\Rightarrow(O B, O C)=2(\\mathrm{DB}, \\mathrm{DC}))%<br>%(\\Rightarrow(\\mathrm{EB}, \\mathrm{EC})=(\\mathrm{DB}, \\mathrm{DC}))%<br>Suy ra B, C, E, O đồng viên.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 4.0,
+        "content": "Bạn Thanh viết lên bảng các số %(1,2,3, \\ldots, 2019)%. Mỗi một bước Thanh xóa hai số %(\\mathrm{a})% và %(\\mathrm{b})% bất kỳ trên bảng và viết thêm số %(\\frac{\\mathrm{ab}}{\\mathrm{a}+\\mathrm{b}+1})%. Chứng minh rằng dù xóa như thế nào thì sau khi thực hiện 2018 bước trên bảng luôn còn lại số %(\\frac{1}{2019})%.",
+        "question_images": [],
+        "solution": "Với mỗi tập %(T=\\left\\{a_{1} ; a_{2} ; \\ldots ; a_{n}\\right\\})% các số viết trên bảng thì đặt<br>%(A(T)=\\left(\\frac{1}{a_{1}}+1\\right)\\left(\\frac{1}{a_{2}}+1\\right) \\cdots\\left(\\frac{1}{a_{n}}+1\\right))%<br>%(\\Rightarrow A(\\{1 ; 2 ; \\cdots ; 2019\\})=2020)%<br>Ta thấy: %(\\left(\\frac{1}{a}+1\\right)\\left(\\frac{1}{b}+1\\right)=\\frac{(a+1)(b+1)}{a b})%<br>%(=\\frac{1}{\\left(\\frac{a b}{a+b+1}\\right)}+1)%<br>Suy ra nếu xóa hai số %(a)% và %(b)% và thay bởi %(\\frac{a b}{a+b+1})%, tập %(T)% biến thành tập %(T^{\\prime})% thì %(A(T)=A\\left(T^{\\prime}\\right))%<br>Giả sử sau khi thực hiện 2018 bước ta được số thực %(x)% ta có: %(A(\\{x\\})=\\frac{1}{x}+1=2020)%<br>%(\\Rightarrow x=\\frac{1}{2019})%<br>Vậy trên bảng luôn còn lại số %(\\frac{1}{2019})%.",
+        "question_type": "essay"
+    }
+]

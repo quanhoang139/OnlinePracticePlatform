@@ -1,0 +1,112 @@
+[
+    {
+        "title": "1.1",
+        "group_content": "Cho biểu thức %(M=\\frac{x^{4}+2}{x^{6}+1}+\\frac{x^{2}-1}{x^{4}-x^{2}+1}-\\frac{x^{2}+3}{x^{4}+4 x^{2}+3})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Rút gọn %(M)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}M=\\frac{x^{4}+2}{\\left(x^{2}+1\\right)\\left(x^{4}-x^{2}+1\\right)}+\\frac{x^{2}-1}{x^{4}-x^{2}+1}-\\frac{x^{2}+3}{\\left(x^{2}+1\\right)\\left(x^{2}+3\\right)} \\\\=\\frac{x^{4}+2}{\\left(x^{2}+1\\right)\\left(x^{4}-x^{2}+1\\right)}+\\frac{x^{2}-1}{x^{4}-x^{2}+1}-\\frac{1}{x^{2}+1} \\\\=\\frac{x^{4}+2+\\left(x^{2}-1\\right)\\left(x^{2}+1\\right)-\\left(x^{4}-x^{2}+1\\right)}{\\left(x^{2}+1\\right)\\left(x^{4}-x^{2}+1\\right)}=\\frac{x^{4}+2+x^{4}-1-x^{4}+x^{2}-1}{\\left(x^{2}+1\\right)\\left(x^{4}-x^{2}+1\\right)} \\\\=\\frac{x^{4}+x^{2}}{\\left(x^{2}+1\\right)\\left(x^{4}-x^{2}+1\\right)}=\\frac{x^{2} \\cdot\\left(x^{2}+1\\right)}{\\left(x^{2}+1\\right)\\left(x^{4}-x^{2}+1\\right)}=\\frac{x^{2}}{x^{4}-x^{2}+1}\\end{array}\\]<br>Vậy %(M=\\frac{x^{2}}{x^{4}-x^{2}+1})% với mọi %(x)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Tìm giá trị lớn nhất của %(M)%",
+        "question_images": [],
+        "solution": "Ta có %(: M=\\frac{x^{2}}{x^{4}-x^{2}+1})% với mọi %(x)%<br>- Nếu %(x=0)% ta có %(M=0)%<br>- Nếu %(x \\neq 0)%, chia cả tử và mẫu của %(M)% cho %(x^{2})% ta có: %(M=\\frac{1}{x^{2}+\\frac{1}{x^{2}}-1})%<br>Ta có: %(x^{2}+\\frac{1}{x^{2}}-1=\\left(x^{2}-2 \\cdot x \\cdot \\frac{1}{x}+\\frac{1}{x^{2}}\\right)+1=\\left(x-\\frac{1}{x}\\right)^{2}+1 \\geq 1)%<br>Nên ta có: %(M=\\frac{1}{x^{2}+\\frac{1}{x^{2}-1}} \\leq 1)%.<br>Dấu \" \" xảy ra khi %(x=1)%.<br>Vậy %(M)% lớn nhất là %(M=1)% khi %(x=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.2 ",
+        "point": 1.0,
+        "content": "Cho %(x, y)% là số hữu tỉ khác 1 thỏa mãn %(\\frac{1-2 x}{1-x}+\\frac{1-2 y}{1-y}=1)% Chứng minh %(M=x^{2}+y^{2}-x y)% là bình phương của một số hữu tỷ.",
+        "question_images": [],
+        "solution": "Ta có:<br>%(\\begin{array}{l}\\frac{1-2 x}{1-x}+\\frac{1-2 y}{1-y}=1 \\Leftrightarrow(1-2 x)(1-y)+(1-2 y)(1-x)=(1-x)(1-y) \\\\ \\Leftrightarrow 1-y-2 x+2 x y+1-x-2 y+2 x y=1-x-y+x y \\Leftrightarrow x+y=\\frac{3 x y+1}{2}\\end{array})%<br>Ta có %(: M=x^{2}+y^{2}-x y=(x+y)^{2}-3 x y=\\left(\\frac{3 x y+1}{2}\\right)^{2}-3 x y=\\ldots=\\left(\\frac{3 x y-1}{2}\\right)^{2})%<br>Vì %(x, y \\in \\mathbb{Q})% nên %(\\frac{3 x y-1}{2})% là số hữu tỷ<br>Vậy %(M)% là bình phương của một số hữu tỷ.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.1 ",
+        "point": 1.0,
+        "content": "Tìm số dư trong phép chia %((x+3)(x+5)(x+7)(x+9)+2033)% cho %(x^{2}+12 x+30)%",
+        "question_images": [],
+        "solution": "Ta có: %((x+3)(x+5)(x+7)(x+9)+2033=\\ldots .=\\left(x^{2}+12 x+27\\right)\\left(x^{2}+12 x+35\\right)+2033)%Đặt %(x^{2}+12 x+30=t)%<br>Ta có: %((x+3)(x+5)(x+7)(x+9)+2033=(t-3)(t+5)+2033)% %(=t^{2}+2 t-15+2033=t(t+2)+2018)%<br>Vậy ta có %((x+3)(x+5)(x+7)(x+9)+2033=\\left(x^{2}+12 x+30\\right)\\left(x^{2}+12 x+32\\right)+2018)%<br>Vậy số dư trong phép chia %((x+3)(x+5)(x+7)(x+9)+2033)% cho %(x^{2}+12 x+30)% là 2018 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.2 ",
+        "point": 1.0,
+        "content": "Cho %(x, y)% là số hữu tỉ khác 1 thỏa mãn %(\\frac{1-2 x}{1-x}+\\frac{1-2 y}{1-y}=1)% Chứng minh %(M=x^{2}+y^{2}-x y)% là bình phương của một số hữu tỷ.",
+        "question_images": [],
+        "solution": "Vì %(x+y+z=7 \\Rightarrow z=-x-y+7 \\Rightarrow x y+z-6=\\ldots=x y-x-y+1=(x-1)(y-1))%Tương tự ta có: %(y z+x-6=(y-1)(z-1) ; z x+y-6=(z-1)(y-1))%<br>Vậy %(H=\\frac{1}{(x-1)(y-1)}+\\frac{1}{(y-1)(z-1)}+\\frac{1}{(z-1)(x-1)}=\\frac{z-1+x-1+y-1}{(x-1)(y-1)(z-1)})%%(=\\frac{(x+y+z)-3}{x y z-(x y+y z+x z)+(x+y+z)-1}=\\frac{7-3}{3-(x y+y z+x z)+7-1}=\\frac{4}{9-(x y+y z+x z)})%<br>Ta có:%((x+y+z)^{2}=x^{2}+y^{2}+z^{2}+2(x y+y z+x z) \\Rightarrow 7^{2}=23+2(x y+y z+x z))%%(\\Rightarrow x y+y z+x z=13)%<br>Vậy %(H=\\frac{4}{9-13}=-1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.1 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các cặp số nguyên %((x ; y))% thỏa mãn %(3 x^{2}+3 x y-17=7 x-2 y)%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[3 x^{2}+3 x y-17=7 x-2 y \\Leftrightarrow 3 x y+2 y=-3 x^{2}+7 x+17 \\Leftrightarrow(3 x+2) y=-3 x^{2}+7 x+17 \\text { Vì }\\]<br>%(x)% nguyên nên %(2 x+3 \\neq 0)% nên ta có:<br>\\[\\begin{array}{l}y=\\frac{-3 x^{2}+7 x+17}{3 x+2}=\\frac{-3 x^{2}-2 x+9 x+6+11}{2} \\\\=\\frac{-x(3 x+2)+3(3 x+2)+11}{3 x+2}=-x+3+\\frac{11}{3 x+2}\\end{array}\\]<br>Vì %(x, y)% nguyên nên ta có %(\\frac{11}{3 x+2})% nguyên %(\\Rightarrow 11: 3 x+2 \\Rightarrow 3 x+2= \\pm 1 ; \\pm 11)%<br>- Xét các trường hợp ta tìm được %(x=-1 ; y=-1 ; x=-3 ; y=5)% thỏa mãn và kết luận",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.2 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %((3 x-2)(x+1)^{2}(3 x+8)=-16)%",
+        "question_images": [],
+        "solution": "Ta có: %((3 x-2)(x+1)^{2}(3 x+8)=-16 \\Leftrightarrow(3 x-2)(3 x+3)^{2}(3 x+8)=-144)%<br>Đặt %(3 x+3=t \\Rightarrow 3 x-2=t-5 ; 3 x+8=t+5)%<br>Ta có phương trình: %((t-5) t^{2}(t+5)=-144)%<br>\\[\\begin{array}{l}\\Leftrightarrow t^{4}-25 t^{2}+144=0 \\Leftrightarrow\\left(t^{2}-9\\right)\\left(t^{2}-16\\right)=0 \\\\Leftrightarrow\\left[\\begin{array} { l } { t ^ { 2 } = 9 } \\\\{ t ^ { 2 } = 1 6 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}t= \\pm 3 \\t= \\pm 5\\end{array}\\right.\\right.\\end{array}\\]<br>Xét các trường hợp ta tìm được %(x=0 ; x=-2 ; x=\\frac{2}{3} ; x=-\\frac{8}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho hình vuông %(A B C D)% có hai đường chéo %(A C)% và BD cắt nhau tại O . Trên cạnh AB lấy %(\\mathrm{M}(0\\lt M B\\lt M A))% và trên cạnh %(B C)% lấy %(N)% sao cho %(\\widehat{M O N}=90^{\\circ})%. Gọi E là giao điểm của AN với DC, gọi K là giao điểm của %(O N)% với BE .",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(\\triangle M O N)% vuông cân",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/462d1bb2450e7d8ba1a237620805e9cd.png\" srcset=\"https://docdn.giainhanh.io/media/test/799fe255291f6dc71c064ba80a18b411.png 146w, https://docdn.giainhanh.io/media/test/74454cdb16cbf2aab929eeffb92c2b70.png 469w\" width=\"469\"/><br>Ta có %(: \\widehat{B O C}=90^{\\circ} \\Rightarrow \\widehat{C O N}+\\widehat{B O N}=90^{\\circ})%;<br>vì %(\\widehat{M O N}=90^{\\circ} \\Rightarrow \\widehat{B O M}+\\widehat{B O N}=90^{\\circ} \\Rightarrow \\widehat{B O M}=\\widehat{C O N})%<br>Ta có BD là phân giác %(\\widehat{A B C} \\Rightarrow \\widehat{M B O}=\\widehat{C B O}=\\frac{\\widehat{B O C}}{2}=45^{\\circ})%<br>Tương tự ta có: %(\\widehat{N C O}=\\widehat{D C O}=\\frac{\\widehat{B O C}}{2}=45^{\\circ})%.<br>Vậy ta có : %(\\widehat{M B O}=\\widehat{N C O})%<br>Xét %(\\triangle O B M)% và %(\\triangle O C N)% có %(O B=O C ; \\widehat{B O M}=\\widehat{C O N} ; \\widehat{M B O}=\\widehat{N C O})% %(\\Rightarrow \\triangle O B M=\\triangle O C N \\Rightarrow O M=O N)%<br>Xét %(\\triangle M O N)% có %(\\widehat{M O N}=90^{\\circ} ; O M=O N \\Rightarrow \\triangle M O N)% vuông cân",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) Chứng minh %(M N)% song song với %(B E)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\triangle O B M=\\triangle O C N \\Rightarrow M B=N C \\text { mà } A B=B C \\Rightarrow A B-M B=B C-N C \\\\Rightarrow A M=B M \\Rightarrow \\frac{A M}{M B}=\\frac{B N}{N C}\\end{array}\\]<br>Ta có: %(A B / / C D \\Rightarrow A M / / C E \\Rightarrow \\frac{A N}{N E}=\\frac{B N}{N C})%<br>Vậy ta có: %(\\Rightarrow \\frac{A M}{M B}=\\frac{A N}{N E} \\Rightarrow M N / / B E)% (Theo định lý Talet đảo)",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.75,
+        "content": "c) Chứng minh %(C K)% vuông góc với %(B E)%",
+        "question_images": [],
+        "solution": "Vì %(M N / / B E \\Rightarrow \\widehat{B K N}=\\widehat{M N O}=45^{\\circ})% (đồng vị và có tam giác %(M O N)% vuông cân) %(\\Rightarrow \\triangle B N K \\sim \\triangle O N C)% (vì có %(\\widehat{B N K}=\\widehat{O N K} ; \\widehat{B K N}=\\widehat{O C N}=45^{\\circ})% )<br>%(\\Rightarrow \\frac{N B}{N K}=\\frac{N O}{N C})%<br>Xét %(\\triangle B N O ; \\triangle K N C)% có %(\\widehat{B N O}=\\widehat{C N K} ; \\frac{N B}{N K}=\\frac{N O}{N C} \\Rightarrow \\triangle B N O \\sim \\triangle K N C)% %(\\Rightarrow \\widehat{N K C}=\\widehat{N B O}=45^{\\circ})%<br>Vậy ta có: %(\\widehat{B K C}=\\widehat{B K N}+\\widehat{C K N}=45^{\\circ}+45^{\\circ}=90^{\\circ} \\Rightarrow C K \\perp B E)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 0.5,
+        "content": "d) Qua %(K)% vẽ đường song song với %(O M)% cắt %(B C)% tại H. Chứng minh:<br>\\[\\frac{K C}{K B}+\\frac{K N}{K H}+\\frac{C N}{B H}=1\\]",
+        "question_images": [],
+        "solution": "- Vì %(K H / / O M)% mà %(M K \\perp O K \\Rightarrow M K \\perp K H \\Rightarrow \\widehat{N K H}=90^{\\circ})%<br>mà %(\\widehat{N K C}=45^{\\circ} \\Rightarrow \\widehat{C K H}=45^{\\circ} \\Rightarrow \\widehat{B K N}=\\widehat{N K C}=\\widehat{C K H}=45^{\\circ})%<br>Xét %(\\triangle B K C)% có %(\\widehat{B K N}=\\widehat{N K C} \\Rightarrow K N)% là phân giác trong của %(\\triangle B K C)%,<br>mà %(K H \\perp K N)%%(\\Rightarrow K H)% là phân giác ngoài của %(\\Delta B K C \\Rightarrow \\frac{K C}{K B}=\\frac{H C}{H B})%<br>Chứng minh tương tự ta có : %(\\frac{K N}{K H}=\\frac{B N}{B H})%<br>Vậy ta có %(\\frac{K C}{K B}+\\frac{K N}{K H}+\\frac{N C}{B H}=\\frac{H C}{H B}+\\frac{B N}{B H}+\\frac{C N}{B H}=\\ldots . .=\\frac{B H}{B H}=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 0.5,
+        "content": "Cho %(x, y\\gt 0)% thỏa mãn %(x+2 y \\geq 5)%. Tìm giá trị nhỏ nhất của %(H=x^{2}+2 y^{2}+\\frac{1}{x}+\\frac{24}{y})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Ta có: } H=x^{2}+2 y^{2}+\\frac{1}{x}+\\frac{24}{y} \\\\ =\\left(x^{2}-2 x+1\\right)+\\left(2 y^{2}-8 y+8\\right)+\\left(\\frac{1}{x}+x-2\\right)+\\left(\\frac{24}{y}+6 y-24\\right)+(x+2 y)+17\\end{array})%<br>\\[\\begin{array}{l}=(x-1)^{2}+2(y-2)^{2}+\\frac{(x-1)^{2}}{x}+\\frac{6(y-2)^{2}}{y}+(x+2 y)+17 \\\\geq 0+0+0+0+5+17=22\\end{array}\\]<br>Dấu \" = \" xảy ra %(\\Leftrightarrow(x-1)^{2}=2(y-2)^{2}=\\frac{(x-1)^{2}}{x}=\\frac{6(y-2)^{2}}{y}=0)% và %(x+2 y=5)% %(\\Leftrightarrow x=1)% và %(y=2)%Vậy %(H)% nhỏ nhất là %(H=22 \\Leftrightarrow x=1, y=2)%",
+        "question_type": "essay"
+    }
+]

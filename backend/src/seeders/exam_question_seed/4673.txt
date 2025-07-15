@@ -1,0 +1,135 @@
+[
+    {
+        "title": "1",
+        "group_content": "Tính các giới hạn sau:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.75,
+        "content": "a) %(A=\\lim \\frac{3 n^{3}-7}{2 n^{3}+4 n+9})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=\\lim \\frac{3 n^{3}-7}{2 n^{3}+4 n+9} \\\\ =\\lim \\frac{n^{3}\\left(3-\\frac{7}{n^{3}}\\right)}{n^{3}\\left(2+\\frac{4}{n^{2}}+\\frac{9}{n^{3}}\\right)}=\\lim \\frac{3-\\frac{7}{n^{3}}}{2+\\frac{4}{n^{2}}+\\frac{9}{n^{3}}} \\\\ =\\frac{3-0}{2+0+0}=\\frac{3}{2} .\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) %(B=\\lim _{x \\rightarrow 2} \\frac{\\sqrt{4 x+1}-3}{x^{2}-4})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}B=\\lim _{x \\rightarrow 2} \\frac{\\sqrt{4 x+1}-3}{x^{2}-4} \\\\ =\\lim _{x \\rightarrow 2} \\frac{\\sqrt{4 x+1}-3}{(x-2)(x+2)}=\\lim _{x \\rightarrow 2} \\frac{4 x-8}{(x-2)(x+2)(\\sqrt{4 x+1}+3)} \\\\ =\\lim _{x \\rightarrow 2} \\frac{4}{(x+2)(\\sqrt{4 x+1}+3)}=\\frac{1}{6}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho hàm số: %(f(x)=\\left\\{\\begin{array}{cl}\\frac{\\sqrt{x+3}-2}{x^{3}-1}, & \\text { khi } x\\gt 1 \\\\ \\frac{1}{2 x^{2}+10}, & \\text { khi } x\\lt 1 \\quad \\text {. Xét tính liên tục của hàm số tại điểm } x_{0}=1 . \\\\ \\frac{1}{12}, & \\text { khi } x=1\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}* f(1)=\\frac{1}{12} ; \\\\* \\lim _{x \\rightarrow 1^{-}} f(x)=\\lim _{x \\rightarrow 1^{-}}\\left(\\frac{1}{2 x^{2}+10}\\right)=\\frac{1}{12} . \\\\* \\lim _{x \\rightarrow 1^{+}} f(x)=\\lim _{x \\rightarrow 1^{+}} \\frac{\\sqrt{x+3}-2}{x^{3}-1}=\\lim _{x \\rightarrow 1^{+}} \\frac{x-1}{(x-1)\\left(x^{2}+x+1\\right)(\\sqrt{x+3}+2)}\\end{array}\\]<br>\\[=\\lim _{x \\rightarrow 1^{+}} \\frac{1}{\\left(x^{2}+x+1\\right)(\\sqrt{x+3}+2)}=\\frac{1}{12} \\text {. }\\]<br>Ta có: %(\\lim _{x \\rightarrow 1^{+}} f(x)=\\lim _{x \\rightarrow 1^{-}} f(x)=f(1)=\\frac{1}{12})% nên hàm số %(\\mathrm{f}(\\mathrm{x}))% liên tục tại điểm %(\\mathrm{x}_{0}=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 0.75,
+        "content": "Tính đạo hàm của hàm số: %(y=\\frac{\\sin 2 x}{x^{4}+1})%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Ta có: } y^{\\prime}=\\frac{(\\sin 2 x)^{\\prime} \\cdot\\left(x^{4}+1\\right)-(\\sin 2 x) \\cdot\\left(x^{4}+1\\right)^{\\prime}}{\\left(x^{4}+1\\right)^{2}} \\\\ =\\frac{2\\left(x^{4}+1\\right) \\cos 2 x-4 x^{3} \\cdot \\sin 2 x}{\\left(x^{4}+1\\right)^{2}}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 0.75,
+        "content": "Cho hàm số: %(y=\\frac{1}{3} x^{3}+(m+1) x^{2}+(6 m+22) x-5)%. Tìm tất cả giá trị của tham số %(\\mathrm{m})% để phương trình: %(y^{\\prime}=0)% có 2 nghiệm phân biệt.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}y^{\\prime}=x^{2}+2(m+1) x+6 m+22 \\text {. } \\\\ \\text { Phương trình: } y^{\\prime}=0 \\text { có } 2 \\text { nghiệm phân biệt } \\Leftrightarrow\\left\\{\\begin{array}{l}a \\neq 0 \\\\ \\Delta^{\\prime}\\gt 0\\end{array}\\right. \\\\ \\Leftrightarrow\\left\\{\\begin{array}{l}1 \\neq 0(\\text { Hien nhien }) \\\\ m^{2}-4 m-21>0\\end{array}\\right. \\\\ \\Leftrightarrow\\left[\\begin{array}{l}m\\lt -3 \\\\ m>7\\end{array} . \\quad \\text { Vậy }\\left[\\begin{array}{l}m\\lt -3 \\\\ m>7\\end{array} \\text { thì thỏa yêu cầu bài toán. }\\right.\\right. \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 0.75,
+        "content": "Chứng minh rằng phương trình: %(x^{7}-5 x^{2}-2=0)% có nghiệm.",
+        "question_images": [],
+        "solution": "Đặt %(\\mathrm{f}(\\mathrm{x})=x^{7}-5 x^{2}-2)%.<br>Vì %(\\mathrm{f}(\\mathrm{x}))% là hàm đa thức nên %(\\mathrm{f}(\\mathrm{x}))% liên tục trên %(\\mathbb{R})% %(\\Rightarrow \\mathrm{f}(\\mathrm{x}))% liên tục trên đoạn %([0 ; 2](1))%<br>Ta có: %(\\left\\{\\begin{array}{l}f(0)=-2 \\\\ f(2)=106\\end{array} \\Rightarrow f(0) \\cdot f(2)=-212\\lt 0\\right.)% (2)<br>Từ (1) và (2), suy ra phương trình %(f(x)=0)% có í nhất 1 nghiệm trong khoảng %((0 ; 2))%.<br>Vậy phương trình %(f(x)=0)% có nghiệm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 0.75,
+        "content": "Cho hàm số: %(y=x^{3}-5 x^{2}+4)% có đồ thị (C). Lập phương trình tiếp tuyến %(\\mathrm{d})% với đồ thị (C) tại giao điểm của %((\\mathrm{C}))% với trục %(\\mathrm{Oy})%.",
+        "question_images": [],
+        "solution": "Gọi tiếp điểm là %(M\\left(x_{0}, y_{0}\\right))%.<br>Vì %(M \\in O y)% nên %(x_{0}=0)%.<br>Ta có: %(x_{0}=0 \\Rightarrow y_{0}=4)%<br>\\[\\mathrm{y}^{\\prime}=3 x^{2}-10 x \\Rightarrow y^{\\prime}\\left(x_{0}\\right)=y^{\\prime}(0)=0 \\text {. }\\]<br>Vậy tiêp tuyến d tại điềm %(M(0 ; 4))% có phương trình:<br>\\[y-4=0 .(x-0) \\Leftrightarrow y=4 .\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho lăng trụ đứng %(A B C \\cdot A^{\\prime} B^{\\prime} C^{\\prime})% có đáy là tam giác %(A B C)% vuông cân tại %(B)%. Biết rằng %(A B=3 a ; A A^{\\prime}=a \\sqrt{6})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "Chứng minh: %(\\left(A B B^{\\prime} A^{\\prime}\\right) \\perp\\left(B C C^{\\prime} B^{\\prime}\\right))%",
+        "question_images": [],
+        "solution": "Ta có:<br>%(\\left.\\begin{array}{l}B C \\perp A B \\text { (Do } \\triangle \\mathrm{ABC} \\text { vuong tai } B) \\\\ A C ; A A^{\\prime}\\left(\\text { Do } A A^{\\prime} \\perp(A B C) \\supset B C\\right) \\\\ A B \\cap A A^{\\prime}=A\\end{array}\\right\\} \\Rightarrow B C \\perp\\left(A B B^{\\prime} A^{\\prime}\\right))%<br>Vì: %(\\left.\\begin{array}{l}B C \\perp\\left(A B B^{\\prime} A^{\\prime}\\right) \\\\ B C \\subset\\left(B C C^{\\prime} B^{\\prime}\\right)\\end{array}\\right\\} \\Rightarrow\\left(A B B^{\\prime} A^{\\prime}\\right) \\perp\\left(B C C^{\\prime} B^{\\prime}\\right))%.<br><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/60ea841dce0827c9d3b8c5b97315b467.png\" srcset=\"https://docdn.giainhanh.io/media/test/cebb43d6c239070c2165397685a2c45c.png 163w, https://docdn.giainhanh.io/media/test/53afb02b96878615c3fb601913365472.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Tính góc giũ̃a đường thăng %(A)% 'C và mặt phăng ( %(A B C)% ).",
+        "question_images": [],
+        "solution": "Ta có: %(A^{\\prime} C \\cap(A B C)=C)% và %(A^{\\prime} A \\perp(A B C))% tại %(\\mathrm{A})%<br>%(\\Rightarrow \\mathrm{CA})% là hình chiếu vuông góc của %(A^{\\prime} C)% lên mặt phẳng %((\\mathrm{ABC}))%.<br>\\[\\begin{array}{l}\\Rightarrow\\left[\\widehat{A^{\\prime} C ;(A B C)}\\right]=\\left(\\widehat{A^{\\prime} C ; C A}\\right)=\\widehat{A^{\\prime} C A} . \\\\+A C=3 a \\sqrt{2} .\\end{array}\\]<br>Xét tam giác A'CA vuông tại A ta có:<br>\\[+\\tan \\widehat{A^{\\prime} C A}=\\frac{A^{\\prime} A}{A C}=\\frac{a \\sqrt{6}}{3 a \\sqrt{2}}=\\frac{\\sqrt{3}}{3} \\quad \\Rightarrow \\widehat{A^{\\prime} C A}=30^{\\circ} .\\]<br>Vậy: %(\\left[\\widehat{A^{\\prime} C ;(A B C)}\\right]=30^{\\circ})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/92eff0b9a65bb9f420eea1b328921a3d.png\" srcset=\"https://docdn.giainhanh.io/media/test/1692e5572758e79d2792c30adedf38d9.png 152w, https://docdn.giainhanh.io/media/test/18e974ca0a17769c1bf2a67345e246fc.png 486w\" width=\"486\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho hình chóp %(\\mathrm{S})%. %(\\mathrm{ABCD})% có đáy %(\\mathrm{ABCD})% là hình vuông, cạnh %(2 a)%. H là trung điểm %(\\mathrm{AB})% và %(S H=a \\sqrt{15})%. Biết rằng hai mặt phẳng (SCH) và (SHD) cùng vuông góc với mă̆t phẳng (ABCD).",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh: %(S H \\perp(A B C D))% và %(A D \\perp(S A B))%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\left.\\begin{array}{c}(S C H) \\perp(A B C D) \\\\ \\text { Ta có: }(S H D) \\perp(A B C D) \\\\ (S C H) \\cap(S H D)=S H\\end{array}\\right\\} \\\\ \\Rightarrow S H \\perp(A B C D) \\text {. } \\\\ \\left.\\text { Ta có: } \\begin{array}{l}A D \\perp A B(g t) \\\\ A B ; S H \\subset(S A B) \\\\ A B \\cap S H=H\\end{array}\\right\\} \\\\ \\Rightarrow A D \\perp(S A B) \\\\end{array})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4fe89fc13f3a76bab30afbeecca6b3cf.png\" srcset=\"https://docdn.giainhanh.io/media/test/bce1dcd0ca5acf1d45f3f7125261c38f.png 243w, https://docdn.giainhanh.io/media/test/278d4504b83b1a442a1e99bd7671d52a.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tính góc giũa đuoơng thẳng SC và mặt phẳng (ABCD).",
+        "question_images": [],
+        "solution": "Ta có: %(S C \\cap(A B C D)=C)% và %(S H \\perp(A B C D))% tại %(\\mathrm{H})%<br>%(\\Rightarrow \\mathrm{CH})% là hình chiếu vuông góc của %(\\mathrm{SC})% lên mặt phẳng %((\\mathrm{ABCD}))%.<br>%(\\Rightarrow[\\widehat{S C ;(A B C D)}]=(\\widehat{S C ; C H})=\\widehat{S C H})%.<br>\\[+H C=\\sqrt{H B^{2}+B C^{2}}=a \\sqrt{5}\\]<br>Xét tam giác %(\\mathrm{SCH})% vuông tại %(\\mathrm{H})% ta có:<br>%(\\quad \\tan \\widehat{S C H}=\\frac{S H}{C H}=\\frac{a \\sqrt{15}}{a \\sqrt{5}}=\\sqrt{3})%.%(\\Rightarrow \\widehat{S C H}=60^{\\circ} . \\quad)%<br>Vậy: %([\\widehat{S C ;(A B C D)}]=60^{\\circ})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/747c90f737b41736498191a105d882e6.png\" srcset=\"https://docdn.giainhanh.io/media/test/59e60ef44a449e267cb2a990038240b9.png 239w, https://docdn.giainhanh.io/media/test/12e9a73e0d94cb8ee8df655c0887e2ad.png 500w, https://docdn.giainhanh.io/media/test/5ae27f17871068fab0cec70f29f846dd.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Tính góc giũa mặt phẳng (SCD) và mặt phẳng (ABCD).",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{M})% là trung điểm CD.<br>Ta có:<br>%(\\left.\\begin{array}{l}(S C D) \\cap(A B C D)=C D \\\\ \\text { Trong }(A B C D) \\text { co' } \\quad H M \\perp C D \\text { tai } M(\\text { Do } B C M H \\text { la hcn }) \\\\ \\text { Trong }(S C D) \\text { co } \\quad S M \\perp C D \\text { tai } M(D o C D \\perp S H, C D \\perp M H\\end{array}\\right\\})%<br>Xét tam giác SMH vuông tại %(\\mathrm{H})% ta có:<br>\\[\\begin{array}{l}+\\tan \\widehat{S M H}=\\frac{S H}{M H}=\\frac{a \\sqrt{15}}{2 a}=\\frac{\\sqrt{15}}{2} . \\\\Rightarrow \\widehat{S M H} \\approx 62^{\\circ} 41^{\\prime} . \\quad \\text { Vậy: }[\\overline{(S C D) ;(A B C D)}] \\approx 62^{\\circ} 41^{\\prime} .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 0.5,
+        "content": "d) Gọi I là trung điếm cạnh SD. Tính khoảng cách giũ̃a IC và %(A D)%.",
+        "question_images": [],
+        "solution": "Ta có:<br>%(\\left.\\begin{array}{l}A D / / B C \\\\ A D \\not \\subset(I B C) \\\\ B C \\subset(I B C)\\end{array}\\right\\} \\Rightarrow A D / /(I B C))%<br>\\[\\Rightarrow d(A D ; I C)=d(A D ;(I B C))=d(A ;(I B C)) \\text {. }\\]<br>Gọi %(\\mathrm{E})% là trung điểm %(\\mathrm{SA})%.<br>Ta có: %(I E / / B C)% (Cùng // với %(\\mathrm{AD}))% %(\\Rightarrow I E \\subset(I B C))%<br>Kẻ %(A K \\perp B E)% tại %(\\mathrm{K})%.<br>\\[\\begin{array}{l}A K \\perp B E \\A K \\perp B C \\text { (Do } B C / / A D \\Rightarrow B C \\perp(S A B) \\supset A K) \\B E ; B C \\subset(I B C) \\B E \\cap B C=B \\\\Rightarrow A K \\perp(I B C) \\text { tại } \\mathrm{K} \\quad \\Rightarrow d(A ;(I B C))=\\mathrm{AK} \\text {. } \\\\end{array}\\]<br>Ta có:<br>\\[+S A=\\sqrt{S H^{2}+H A^{2}}=4 a \\text {. }\\]<br>Xét tam giác SHA vuông tại %(\\mathrm{H})%, ta có:<br>%(\\sin \\widehat{S A H}=\\frac{S H}{S A}=\\frac{\\sqrt{15}}{4} ; \\cos \\widehat{S A H}=\\frac{1}{4})%.<br>Xét tam giác %(\\mathrm{ABE})%, ta có:<br>\\[+S_{\\triangle A B E}=\\frac{1}{2} A B \\cdot A E \\cdot \\sin \\widehat{E A B}=\\frac{1}{2} 2 a \\cdot 2 a \\cdot \\sin \\widehat{S A H}=\\frac{a^{2} \\sqrt{15}}{2} .\\]<br>\\[\\begin{array}{l}+B E^{2}=A B^{2}+A E^{2}-2 A B A E \\cdot \\cos \\widehat{E A B}=4 a^{2}+4 a^{2}-2 \\cdot 2 a \\cdot 2 a \\cdot \\cos \\widehat{S A H}=6 a^{2} \\\\Rightarrow B E=a \\sqrt{6}\\end{array}\\]<br>Mặt khác: %(S_{\\triangle A B E}=\\frac{1}{2} A K \\cdot B E \\Rightarrow A K=\\frac{2 S_{M B E}}{B E}=\\frac{a \\sqrt{10}}{2})%.Vậy: %(d(A D ; I C)=\\frac{a \\sqrt{10}}{2})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a046ddf71c430749e0c89551e177c40d.png\" srcset=\"https://docdn.giainhanh.io/media/test/6c39b244183ce30e69bfa5d7f4e400ff.png 212w, https://docdn.giainhanh.io/media/test/e5a2028bf52b74dddbf4f227c9a28088.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 0.5,
+        "content": "Tính giới hạn của dãy số %(\\left(u_{n}\\right))% biết:<br>\\[u_{n}=\\frac{1}{2 \\sqrt{1}+1 \\cdot \\sqrt{2}}+\\frac{1}{3 \\sqrt{2}+2 \\sqrt{3}}+\\ldots+\\frac{1}{(n+1) \\sqrt{n}+n \\sqrt{n+1}} .\\]",
+        "question_images": [],
+        "solution": "Ta có: %(\\frac{1}{(n+1) \\sqrt{n}+n \\sqrt{n+1}}=\\frac{1}{\\sqrt{n+1} \\sqrt{n}(\\sqrt{n+1}+\\sqrt{n})}=\\frac{\\sqrt{n+1}-\\sqrt{n}}{\\sqrt{n+1} \\sqrt{n}})%<br>\\[=\\frac{\\sqrt{n+1}}{\\sqrt{n+1} \\sqrt{n}}-\\frac{\\sqrt{n}}{\\sqrt{n+1} \\sqrt{n}}=\\frac{1}{\\sqrt{n}}-\\frac{1}{\\sqrt{n+1}}\\]<br>Tức là:- %(\\frac{1}{2 \\sqrt{1}+1 \\cdot \\sqrt{2}}=\\frac{1}{\\sqrt{1}}-\\frac{1}{\\sqrt{2}})%- %(\\frac{1}{3 \\sqrt{2}+2 \\sqrt{3}}=\\frac{1}{\\sqrt{2}}-\\frac{1}{\\sqrt{3}})%.........%(\\frac{1}{(n+1) \\sqrt{n}+n \\sqrt{n+1}}=\\frac{1}{\\sqrt{n}}-\\frac{1}{\\sqrt{n+1}})%<br>Suy ra:<br>%(u_{n}=\\left(\\frac{1}{\\sqrt{1}}-\\frac{1}{\\sqrt{2}}\\right)+\\left(\\frac{1}{\\sqrt{2}}-\\frac{1}{\\sqrt{3}}\\right)+\\ldots \\ldots .+\\left(\\frac{1}{\\sqrt{n}}-\\frac{1}{\\sqrt{n+1}}\\right)=1-\\frac{1}{\\sqrt{n+1}})%<br>Ta có: %(\\lim \\frac{1}{n+1}=0 \\Rightarrow \\lim \\frac{1}{\\sqrt{n+1}}=0)%<br>Vậy: %(\\lim u_{n}=\\lim \\left(1-\\frac{1}{\\sqrt{n+1}}\\right)=1-\\lim \\frac{1}{\\sqrt{n+1}}=1)%.",
+        "question_type": "essay"
+    }
+]

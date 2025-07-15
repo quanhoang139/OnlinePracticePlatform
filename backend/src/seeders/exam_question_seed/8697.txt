@@ -1,0 +1,132 @@
+[
+    {
+        "title": "1 ",
+        "point": 5.0,
+        "content": "Trên một thanh trơn nhẵn có lồng hai vật như nhau có cùng khối lượng %(\\mathrm{M})%, hai vật được gắn với một dây nhẹ không dãn dài %(2 \\mathrm{~L})%. Ở giữa dây người ta buộc một vật nặng khối lượng %(2 \\mathrm{M})%. Buông nhẹ ra cho vật chuyển động như hình vẽ. Hãy tính giá trị cực đại của vận tốc hai vật và của vật nặng. Biết rằng ban đầu dây không giãn.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/a621757c97631892c1d41e1c936cbd2c.PNG"
+        ],
+        "solution": "Hai vật khối lượng %(\\mathrm{M})% chuyển động theo phương ngang với gia tốc tức thời %(\\mathrm{a}_{\\mathrm{ng}})%, còn vật nặng khối lượng %(2 \\mathrm{M})% chuyển động theo phương thẳng đứng với gia tốc %(\\mathrm{a}_{\\mathrm{t}})%. Sợi dây không giãn, có nghĩa là hình chiếu gia tốc của hai vật và vật nặng trên phương của sợi dây là như nhau: %(a_{n g} \\cos \\alpha=a_{t} \\sin \\alpha \\rightarrow v_{n g}=v_{t} \\tan \\alpha)% (1)<br>Từ các phương trình động lực học đối với hai vật %(\\mathrm{M})%<br>\\[\\left\\{\\begin{array}{l}T \\cos \\alpha=M a_{n g} \\\\2 M g-2 T \\sin \\alpha=2 M a_{t}\\end{array} \\rightarrow a_{t}=g-a_{n g} \\tan \\alpha (2)\\right.\\]<br>Giả sử vật nặng dịch chuyển xuống dưới một đoạn %(\\Delta x)%.<br>Theo định luật bảo toàn năng lượng ta có<br>\\[2 \\frac{M v_{n g}^{2}}{2}+\\frac{2 M v_{i}^{2}}{2}=2 M g \\Delta x (3)\\]<br>Từ (1) và (3) ta có %(v_{t}^{2}=2 g \\cos ^{2} \\alpha \\cdot \\Delta x, \\quad v_{n g}^{2}=\\frac{2 g \\Delta x}{\\left(1+\\frac{1}{\\tan ^{2} \\alpha}\\right)})%<br>Dễ thấy khi %(\\Delta x)% tăng tới %(\\mathrm{L})%, góc %(\\alpha)% tăng tới %(\\pi / 2)%<br>Khi %(\\Delta x=L, v_{n g})% đạt giá trị cực đại %(v_{n g \\max }=\\sqrt{2 g L})%, còn vật nặng ở vị trí thấp nhất với %(\\mathrm{v}_{\\mathrm{t}}=0)%<br>Ta có %(\\Delta x=L \\sin \\alpha)% suy ra %(v_{t}^{2}=2 \\operatorname{Lg} \\cos ^{2} \\alpha \\sin \\alpha)%<br>Để xác định được giá tri cực đại của %(\\mathrm{v}_{\\mathrm{t}})% ta lấy đạo hàm rồi cho nó bằng không:<br>\\[\\left(\\cos ^{2} \\alpha \\sin \\alpha\\right)^{\\prime}=-2 \\cos \\alpha \\cdot \\sin ^{2} \\alpha+\\cos ^{3} \\alpha=0 \\rightarrow \\tan ^{2} \\alpha=\\frac{1}{2} \\rightarrow v_{t \\max }=\\sqrt{\\frac{3}{3 \\sqrt{3}}} \\alpha L\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Một trụ đặc có khối lượng %(\\mathrm{m})%, bán kính đáy %(\\mathrm{R})% đang quay đều quanh trục của nó theo phương ngang với vận tốc góc %(\\omega_{o})%. Trụ được đặt nhẹ nhàng lên một sàn xe phẳng, dài nằm ngang. Xe có cùng khối lượng %(\\mathrm{m})% với trụ và có thể trượt không ma sát trên mặt đất.Ngay sau đó xe chuyển động nhanh dần, nhưng sau một khoảng thời gian xe đạt được vận tốc ổn định và không đổi.",
+        "group_images": [
+            "https://docdn.giainhanh.io/media/test/30932ec2e0c0f65bf8a5badf6a57398a.PNG"
+        ],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Xác định vận tốc ổn định của xe.",
+        "question_images": [],
+        "solution": "Gọi vận tốc của xe khi ổn định là %(\\mathrm{V})%. Vận tốc của trụ so với xe khi đó là %(\\mathrm{v})%, vận tốc quay của trụ khi đó là %(\\omega)%. Ban đầu trụ trượt trên sàn xe, lực ma sát làm trụ chuyển động tịnh tiến nhanh dần, chuyển động quay chậm dần đến khi đạt điều kiện lăn không trượt %(v=R . \\omega)% thì lực ma sát bằng 0 và hệ đạt trạng thái ổn định với các vận tốc không đổi.<br>Định luật bảo toàn động lượng: %(m V+m(V-v)=0 \\Rightarrow V=\\frac{v}{2})%<br>Định luật bảo toàn mô men động lượng với một trục nằm trên sàn xe vuông góc với mặt phẳng hình vẽ: %(\\quad I \\omega_{o}=I \\omega+m(v-V) R \\quad)% Với:<br>\\[I=\\frac{m R^{2}}{2} \\text { và } v=R . \\omega\\]<br>Giải các phương trình ta tìm được: %(v=\\frac{\\omega_{o} R}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Xác định năng lượng mất mát từ khi trụ được đặt lên xe đến khi xe đạt vận tốc không đổi.",
+        "question_images": [],
+        "solution": "\\[Q_{\\text {hp }}=W_{\\text {truoc }}-W_{\\text {sau }}\\]<br>%(Q_{k p}=\\frac{I \\omega_{o}^{2}}{2}-\\left(\\frac{I \\omega^{2}}{2}+\\frac{m(v-V)^{2}}{2}+\\frac{m V^{2}}{2}\\right))%<br>Với %(V=\\frac{v}{2} ; v=R . \\omega ; I=\\frac{m R^{2}}{2})% mà %(v=\\frac{\\omega_{0} R}{2})%.<br>Biến đổi ta được: %(Q_{h p}=\\frac{m \\omega_{0}^{2} R^{2}}{8})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Một vệ tinh chuyền động với vận tốc có độlớn không đồi %(\\mathrm{v}_{0})% không đổi theo quỹ đạo tròn bán kính %(\\mathrm{r}_{0})% xung quanh một hành tinh có bán kính %(\\mathrm{R})%. Biết gia tốc rơi tự do trên bề mặt hành tinh là %(\\mathrm{g})%",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Xác định bán kính quỹ đạo của vệ tinh %(\\mathrm{r}_{0})%.",
+        "question_images": [],
+        "solution": "Lực hấp dẫn của hành tinh và vệ tinh đóng vai trò lực hướng tâm: %(\\frac{m v_{0}^{2}}{r_{0}}=G \\frac{M m}{r_{0}^{2}}(1))%<br>Kí hiệu g là gia tốc rơi tự do ở bề mặt hành tinh: %(g=\\frac{G M}{R^{2}}(2))%<br>Từ (1) và (2) ta tìm được %(r_{0}=g \\frac{R^{2}}{v_{0}^{2}})%(3)",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Do một nguyên nhân chưa biết, tại một thời điểm nào đó, hướng véctơ vận tốc thay đổi một góc nhỏ, nhưng độ lớn vận tốc không đổi. Khi đó hiển nhiên quỹ đạo vệ tinh sẽ là một elip. Hãy xác định sự phụ thuộc vận tốc vệ tinh vào khoảng cách %(\\mathrm{r})% từ nó đến tâm hành tinh.a",
+        "question_images": [],
+        "solution": "Áp dụng định luật bảo toàn năng lượng ta có:<br>\\[\\frac{m v_{0}^{2}}{2}-\\frac{G M m}{r_{0}}=\\frac{m v^{2}}{2}-\\frac{G M m}{r} (4)\\]<br>Từ (1), (3) và (4) ta tìm được: %(v=v_{0} \\sqrt{\\frac{2 g R^{2}}{v_{0}^{2} r}-1})% (5)",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tìm độ biến thiên %(\\Delta \\mathrm{v})% của độ lớn vận tốc khi khoảng cách đến tâm hành tinh thay đổi một lượng %(\\Delta \\mathrm{r})%.",
+        "question_images": [],
+        "solution": "Từ (5) lấy vi phân hai vế ta được:<br>\\[\\Delta v=v^{\\prime} \\Delta r=\\frac{v_{0}}{\\sqrt[2]{\\frac{2 g R^{2}}{v_{0}^{2} r}-1}}\\left(-\\frac{2 g R^{2}}{v_{0}^{2} r^{2}}\\right) \\Delta r=-\\frac{v_{0}}{\\sqrt{\\frac{2 g R^{2}}{v_{0}^{2} r}-1}}\\left(\\frac{g R^{2}}{v_{0}^{2} r^{2}}\\right) \\Delta r (6)\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 0.5,
+        "content": "d) Chứng minh rằng, khi vệ tinh ở cách tâm hành tíhh một khoảng %(\\mathrm{r}_{0})% ta có hệ thức %(\\frac{\\Delta v}{\\Delta r}=-\\frac{v}{r})%.",
+        "question_images": [],
+        "solution": "Khi %(r=r_{0}=g \\frac{R^{2}}{v_{0}^{2}})% thay vào (6) ta được đpcm",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Một lượng khí lí tưởng lưỡng nguyên tử thực hiện một chu trình biến đổi sao cho nhiệt dung riêng đẳng tích không đổi. Chu trình được cho như hình vẽ ( Hình 2 ).Tổng đại số nhiệt lượng nhận được hay nhả giữa các trạng thái cho trên trục hành còn tổng công thực hiện bởi khí cho trên trục tung.",
+        "group_images": [
+            "https://docdn.giainhanh.io/media/test/1243d733b9c43f6ae474d23addf52b56.PNG"
+        ],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Sử đụng đồ thị đã cho tính hiệu suất chu trình",
+        "question_images": [],
+        "solution": "Hiệu suất chu trình: %(H=\\frac{A}{Q_{\\text {thu }}}=\\frac{720}{2920} \\approx 16,4 \\%)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.5,
+        "content": "b) Xác định mỗi loại quá trình.",
+        "question_images": [],
+        "solution": "Quá trình 1-2, 3-4 khí không thực hiện công nên đây là các quá trình đẳng tích.<br>Quá trình 2-3, 4-1 được biểu diễn bằng những đường thẳng song song nên: %(\\frac{d A}{d Q}=\\tan \\alpha=\\frac{2}{7})%<br>Áp dụng nguyên lý I của nhiệt động lực học:<br>\\[d Q=d A+d U \\rightarrow d U=d Q-d A=\\frac{5}{7} d Q\\]<br>Thay %(d U=\\frac{5}{2} n R T, d A=p d V=\\frac{n R T}{V} d V)% vào biểu thức trên ta được: %(\\frac{d V}{V}=\\frac{d T}{T})%<br>Tích phân hai vế ta được %(\\frac{V}{T}=)% const hay %(p=)% const.<br>Vậy %(2-3,4-1)% là các quá trình đẳng áp.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Gọi áp suất và thể tích của khí ở trạng thái 1 là %(\\mathrm{p}_{0})% và %(\\mathrm{V}_{0})%. Biểu diễn chu trình trên trong hệ %(\\mathrm{p}-\\mathrm{V})%.",
+        "question_images": [],
+        "solution": "Nhiệt lượng mà khí nhân được trong quá trình 1-2 là:<br>\\[Q_{12}=\\nu C_{V} \\Delta T=\\frac{5}{2} V_{0}\\left(p_{2}-p_{0}\\right)\\]<br>Nhiệt lượng khí nhả ra trong quá trình 3-4:<br>\\[Q_{34}=\\frac{5}{2} V_{3}\\left(p_{2}-p_{0}\\right) \\rightarrow \\frac{Q_{34}}{Q_{12}}=\\frac{V_{3}}{V_{0}}=\\frac{2920-1320}{400}=4 \\text { hay } V_{3}=4 V_{0}\\]<br>Công sinh ra trong quá trình 2-3: %(A_{23}=p_{2}\\left(V_{3}-V_{0}\\right))%<br>Công khí nhận trong quá trình 4-1: %(A_{41}=p_{0}\\left(V_{3}-V_{0}\\right))%<br>\\[\\rightarrow \\frac{A_{23}}{A_{41}^{\\prime}}=\\frac{p_{2}}{p_{0}}=\\frac{720}{720-480}=3 \\text { hay } p_{2}=3 p_{0}\\]<br>Ta có chu trình như hình vẽ<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4ec48bfe10439650c3369f410c96eba7.png\" srcset=\"https://docdn.giainhanh.io/media/test/e18aaac18d1ef8a9f6e12376b2a1fd47.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho các dụng cụ sau:<br>- Một mặt phẳng nghiêng.<br>- Một khối gỗ nhỏ có khối lượng %(\\mathrm{m})% đã biết.<br>- Một thước có độ chia tới mm.<br>- Một đồng hồ bấm giây.<br>Hãy đề xuất một phương án thí nghiệm để có thể xác định được nhiệt lượng tỏa ra khi khối gỗ trượt không vận tốc đầu từ đỉnh mặt phẳng nghiêng.<br>Yêu cầu:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Nêu cơ sở lý thuyết và xây dựng các công thức cần thiết.",
+        "question_images": [],
+        "solution": "Nhiệt lượng tỏa ra đúng bằng phần cơ năng đã mất khi vật trượt đến chân mặt nghiêng.<br>Gọi : %(\\mathrm{h})% là chiều cao của mặt nghiêng; %(l)% là chiều dài mặt nghiêng.<br>Chọn mốc thế năng tại chân mặt nghiêng.<br>Vận tốc ban đầu bằng 0 .<br>Vận tốc tại chân mặt nghiêng là %(v)%<br>\\[\\mathrm{Q}=\\mathrm{m} \\cdot \\mathrm{g} \\cdot \\mathrm{h}-\\frac{\\mathrm{m} \\cdot \\mathrm{v}^{2}}{2}\\]<br>Với %(\\mathrm{v}^{2}=2 . \\mathrm{a} \\ell)%;<br>\\[\\begin{array}{l}\\ell=\\frac{\\mathrm{a} \\cdot \\mathrm{t}^{2}}{2} \\Rightarrow \\mathrm{a}=\\frac{2 \\ell}{\\mathrm{t}^{2}} \\\\Rightarrow \\mathrm{Q}=\\mathrm{m}\\left(\\mathrm{g} \\cdot \\mathrm{h}-\\frac{2 \\cdot \\ell^{2}}{\\mathrm{t}^{2}}\\right)\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/17f8d8bcff6b6d0800ccb7d14e15cf86.png\" srcset=\"https://docdn.giainhanh.io/media/test/ee6a26bbf2023bee90a6da8e181c0d9d.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Vẽ sơ đồ bố trí thí nghiệm, trình bày các bước tiến hành, đo đạc và tính toán.",
+        "question_images": [],
+        "solution": "+ Thả cho vật trượt không vận tốc đầu từ đỉnh mặt nghiêng đến chân mặt nghiêng. Đồng thời bấm đồng hồ đo thời gian %(t)% vật chuyển động từ đỉnh tới chân mặt phẳng nghiêng.<br>+ Đo chiều cao %(h)% của mặt nghiêng<br>+ Đo chiều dài %(\\ell)% của mặt nghiêng.Thay vào công thức trên xác định được %(\\mathrm{Q})%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,144 @@
+[
+    {
+        "title": "1",
+        "group_content": "Tính các giới hạn sau",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.75,
+        "content": "a) %(\\lim _{x \\rightarrow 2} \\frac{-2 x^{2}+x+6}{x^{2}-4})%",
+        "question_images": [],
+        "solution": "%(\\lim _{x \\rightarrow 2} \\frac{-2 x^{2}+x+6}{x^{2}-4}=\\lim _{x \\rightarrow 2} \\frac{(x-2)(-2 x-3)}{(x-2)(x+2)}=\\lim _{x \\rightarrow 2} \\frac{-2 x-3}{x+2}=-\\frac{7}{4})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) %(\\lim _{x \\rightarrow-\\infty} \\frac{2 x-\\sqrt{x^{2}-2 x}}{x-1})%",
+        "question_images": [],
+        "solution": "%(\\lim _{x \\rightarrow-\\infty} \\frac{2 x-\\sqrt{x^{2}-2 x}}{x-1}=\\lim _{x \\rightarrow-\\infty} \\frac{2 x+x \\sqrt{1-\\frac{2}{x}}}{x-1}=\\lim _{x \\rightarrow-\\infty} \\frac{2+\\sqrt{1-\\frac{2}{x}}}{1-\\frac{1}{x}}=3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) %(\\lim _{x \\rightarrow 2^{-}} \\frac{x-5}{2-x})%",
+        "question_images": [],
+        "solution": "%(\\lim _{x \\rightarrow 2^{-}} \\frac{x-5}{2-x}=-\\infty \\quad)% vì %(\\left\\{\\begin{array}{l}\\lim _{x \\rightarrow 2^{-}}(x-5)=-3\\lt 0 \\\\ \\lim _{x \\rightarrow 2^{-}}(2-x)=0 \\\\ x\\lt 2 \\Rightarrow 2-x\\gt 0 .\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Xét tính liên tục của hàm số %(f(x)=\\left\\{\\begin{array}{ll}\\frac{3-x}{\\sqrt{x+1}-2} & \\text { khi } x \\neq 3 \\\\ -4 & \\text { khi } x=3\\end{array}\\right.)% tại %(x_{0}=3)%.",
+        "question_images": [],
+        "solution": "Xét tính liên tục của hàm số %(f(x)=\\left\\{\\begin{array}{ll}\\frac{3-x}{\\sqrt{x+1}-2} & \\text { khi } x \\neq 3 \\\\ -4 & \\text { khi } x=3\\end{array}\\right.)% tại %(x_{0}=3)%.<br>+ Ta có %(f(3)=-4.)%<br>%(+\\lim _{x \\rightarrow 3} f(x)=\\lim _{x \\rightarrow 3} \\frac{3-x}{\\sqrt{x+1}-2}=\\lim _{x \\rightarrow 3} \\frac{(3-x)(\\sqrt{x+1}+2)}{x-3}=\\lim _{x \\rightarrow 3}-(\\sqrt{x+1}+2)=-4)%.<br>+ Do %(\\lim f(x)=f(3)=-4)% nên hàm số %(f(x))% liên tục tại %(x_{0}=3.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Tính đạo hàm của các hàm số sau:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) %(y=\\frac{1}{4} m x^{4}-(3 m+1) x^{2}+2 m-1(m)% là tham số)",
+        "question_images": [],
+        "solution": "%(y^{\\prime}=m x^{3}-2(3 m+1) x)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) %(y=\\sqrt{7 x^{2}-5 x+3})%",
+        "question_images": [],
+        "solution": "%(y^{\\prime}=\\frac{\\left(7 x^{2}-5 x+3\\right)^{\\prime}}{2 \\sqrt{7 x^{2}-5 x+3}}=\\frac{14 x-5}{2 \\sqrt{7 x^{2}-5 x+3}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) %(y=\\cos \\left(\\frac{\\pi}{4}-3 x\\right)+\\tan 2 x)%",
+        "question_images": [],
+        "solution": "%(y^{\\prime}=-3 \\sin \\left(\\frac{\\pi}{4}-3 x\\right)+\\frac{2}{\\cos ^{2} 2 x})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 0.75,
+        "content": "Viết phương trình tiếp tuyến của đồ thị hàm số %(y=f(x)=x^{3}-3 x+2020)% biết tiếp tuyến có hệ số góc %(k=9)%.",
+        "question_images": [],
+        "solution": "+ Gọi %(M\\left(x_{0} ; y_{0}\\right))% là tiếp điểm. Phương trình tiếp tuyến tại %(M)% có dạng %(\\Delta: y=y^{\\prime}\\left(x_{0}\\right)\\left(x-x_{0}\\right)+y_{0})%.<br>+ Ta có %(k=9 \\Rightarrow y^{\\prime}\\left(x_{0}\\right)=9 \\Leftrightarrow 3 x_{0}^{2}-3=9 \\Leftrightarrow x_{0}= \\pm 2 . )%<br>+Với %(x_{0}=2 \\Rightarrow y_{0}=2022 \\Rightarrow \\Delta: y=9(x-2)+2022=9 x+2004)%.<br>+Với %(x_{0}=-2 \\Rightarrow y_{0}=2018 \\Rightarrow \\Delta: y=9(x+2)+2018=9 x+2036.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 0.75,
+        "content": "Một vật chuyển động thă̆ng xác định bởi phương trình %(s(t)=-\\frac{1}{3} t^{3}+3 t^{2}+2)% trong đó %(t)% được tính bằng giây %((s))% và %(s(t))% được tính bằng mét %((m))%. Tính vận tốc tức thời của vật khi gia tốc của vật bị triệt tiêu.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}+s(t)=-\\frac{1}{3} t^{3}+3 t^{2}+2, v(t)=s^{\\prime}(t)=-t^{2}+6 t \\\\ +a(t)=v^{\\prime}(t)=-2 t+6.  \\\\ +a=0 \\Leftrightarrow-2 t+6=0 \\Leftrightarrow t=3 \\Rightarrow v(3)=9(\\mathrm{~m} / \\mathrm{s})\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hai hàm số %(y=f(x))% và %(g(x))% có đồ thị %(\\left(C_{1}\\right))% và %(\\left(C_{2}\\right))% như hình vẽ bên. Biết đường thẳng %(d_{1}, d_{2})% lần lượt là tiếp tuyến của đồ thị %(\\left(C_{1}\\right))% và %(\\left(C_{2}\\right))% tại điểm %(x_{0}=1)%.",
+        "group_images": [
+            "https://docdn.giainhanh.io/media/test/ce0551ccfe716dc30d464b0d6f0cf730.png"
+        ],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Dựa vào đồ thị xác định %(f^{\\prime}(1))% và %(g^{\\prime}(1))%.",
+        "question_images": [],
+        "solution": "%(f^{\\prime}(1)=-1, g^{\\prime}(1)=2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Gọi hàm số %(h(x)=f(x) \\cdot g(x))%. Tính %(h^{\\prime}(1))%.",
+        "question_images": [],
+        "solution": "%(h^{\\prime}(1)=f^{\\prime}(1) g(1)+g^{\\prime}(1) f(1)=-1 .(-2)+2 \\cdot 1=4)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho hình chóp %(S . A B C)% có đáy %(A B C)% là tam giác đều cạnh bẳng %(a)%, cạnh %(S A=a \\sqrt{3})% và %(S A \\perp(A B C))%. Gọi %(I)% là trung điểm cạnh %(B C)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(B C \\perp(S A I))%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Ta có }\\left\\{\\begin{array}{l}B C \\perp A I \\\\ B C \\perp S A\\end{array}\\right. \\\\ \\Rightarrow B C \\perp(S A I) .\\end{array})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/56a5095bc1d690021d9b45545afb647d.png\" srcset=\"https://docdn.giainhanh.io/media/test/a7ddb1241f6e439b19970b171f4541f0.png 165w, https://docdn.giainhanh.io/media/test/8301a86ceca06e9be1ad51324dc9eb1c.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Gọi %(\\alpha)% là góc giữa đường thẳng %(S I)% và mặt phẳng %((A B C))%. Tính %(\\tan \\alpha)%.",
+        "question_images": [],
+        "solution": "+ Ta có %(A I)% là hình chiếu vuông góc của %(S I)% trên mp<br>\\[\\begin{array}{l}(A B C) \\Rightarrow \\widehat{(S I,(A B C))}=\\widehat{S I A} \\cdot \\\\+ \\text { Ta có } A I=\\frac{A B \\sqrt{3}}{2}=\\frac{a \\sqrt{3}}{2} \\cdot  \\\\+\\tan \\widehat{S I A}=\\frac{S A}{A I}=\\frac{a \\sqrt{3}}{\\frac{a \\sqrt{3}}{2}}=2 \\cdot \\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Gọi %(G)% là trọng tâm tam giác %(A B C)%. Chứng minh %((S B G) \\perp(S A C))%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Ta có }\\left\\{\\begin{array}{l}B G \\perp A C \\\\ B G \\perp S A\\end{array} \\Rightarrow B G \\perp(S A C)\\right. \\\\ \\Rightarrow(S B G) \\perp(S A C) \\cdot \\mathbf{}\\end{array})%",
+        "question_type": "essay"
+    }
+]

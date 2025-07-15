@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức : %(P = \\frac{\\sqrt{x}}{\\sqrt{x} + 2} + \\frac{- x + x \\sqrt{x} + 6}{x + \\sqrt{x} - 2} - \\frac{\\sqrt{x} + 1}{\\sqrt{x} - 1})%, với %(x \\ge 0 , x \\ne 1)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Rút gọn biểu thức %(P)%.",
+        "question_images": [],
+        "solution": "Ta có<br>%(\\left . \\begin{matrix} P = \\frac{\\sqrt{x}}{\\sqrt{x} + 2} + \\frac{- x + x \\sqrt{x} + 6}{x + \\sqrt{x} - 2} - \\frac{\\sqrt{x} + 1}{\\sqrt{x} - 1} \\\\ = \\frac{\\sqrt{x} \\sqrt{x} - 1 - x + x \\sqrt{x} + 6 - \\sqrt{x} + 1 \\sqrt{x} + 2}{\\sqrt{x} - 1 \\sqrt{x} + 2} \\\\ = \\frac{x - \\sqrt{x} - x + x \\sqrt{x} + 6 - x - 3 \\sqrt{x} - 2}{\\sqrt{x} - 1 \\sqrt{x} + 2} \\\\ = \\frac{- x + x \\sqrt{x} - 4 \\sqrt{x} + 4}{\\sqrt{x} - 1 \\sqrt{x} + 2} \\\\ = \\frac{\\sqrt{x} - 1 x - 4}{\\sqrt{x} - 1 \\sqrt{x} + 2} \\\\ = \\sqrt{x} - 2 . \\end{matrix} \\right .)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Cho biểu thức %(Q = \\frac{x + 27 . P}{\\sqrt{x} + 3 \\sqrt{x} - 2})% , với %(x \\ge 0 , x \\ne 1 , x \\ne 4)%. Chứng minh %(Q \\ge 6)%",
+        "question_images": [],
+        "solution": "Với %(x \\ge 0 , x \\ne 1 , x \\ne 4)%, ta có<br>%(\\left . \\begin{matrix} Q = \\frac{x + 27 . P}{\\sqrt{x} + 3 \\sqrt{x} - 2} = \\frac{x + 27}{\\sqrt{x} + 3} = \\frac{x - 9 + 36}{\\sqrt{x} + 3} \\\\ = \\sqrt{x} - 3 + \\frac{36}{\\sqrt{x} + 3} = - 6 + \\sqrt{x} + 3 + \\frac{36}{\\sqrt{x} + 3} \\ge - 6 + 12 = 6 . \\\\ \\text{ Dấu } = \\text{ xẩy ra khi } \\sqrt{x} + 3 = \\frac{36}{\\sqrt{x} + 3} \\Leftrightarrow \\left( \\sqrt{x} + 3 \\right )^{2} = 36 \\Leftrightarrow x = 9 . \\end{matrix} \\right .)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho phương trình : %(x^{2}-2 m-1 x+m^{2}-3=0)% ( %(x)% là ẩn, %(m)% là tham số). Tìm %(m)% để phương trình có hai nghiệm %(x_{1}, x_{2})% sao cho %(x_{1}^{2}+4 x_{1}+2 x_{2}-2 m x_{1}=1)%.",
+        "question_images": [],
+        "solution": "Phương trình đã cho có hai nghiệm khi và chỉ khi %(\\Delta^{'} \\ge 0 \\Leftrightarrow - 2 m + 4 \\ge 0 \\Leftrightarrow m \\le 2)% (1).<br>Theo hệ thức Vi-ét: %(\\left \\lbrace \\begin{matrix} x_{1} + x_{2} = 2 \\left( m - 1 \\right ) \\\\ x_{1} \\cdot x_{2} = m^{2} - 3 \\end{matrix} \\right .)%<br>%(\\left . \\begin{matrix} \\text{ Mà } x_{1}^{2} + 4 x_{1} + 2 x_{2} - 2 m x_{1} = 1 \\\\ \\Leftrightarrow x_{1} x_{1} - 2 m + 2 + 2 x_{1} + x_{2} = 1 \\\\ \\Leftrightarrow - x_{1} \\cdot x_{2} + 2 x_{1} + x_{2} = 1 \\end{matrix} \\right .)%<br>%(\\left . \\begin{matrix} \\Leftrightarrow - m^{2} + 3 + 4 m - 1 = 1 \\\\ \\Leftrightarrow m^{2} - 4 m + 2 = 0 \\Leftrightarrow \\left [ \\begin{matrix} m = 2 + \\sqrt{2} &\\\\ m = 2 - \\sqrt{2} & \\end{matrix} (2) \\right . \\end{matrix} \\right .)%<br>Từ (1) và (2) suy ra %(m = 2 - \\sqrt{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải phương trình : %(x+2 \\sqrt{7-x}=2 \\sqrt{x-1}+\\sqrt{-x^{2}+8 x-7}+1)%.",
+        "question_images": [],
+        "solution": "Điều kiện %(1 \\leq x \\leq 7)%<br>\\[\\begin{array}{l}\\text { Ta có } x+2 \\sqrt{7-x}=2 \\sqrt{x-1}+\\sqrt{-x^{2}+8 x-7}+1 \\\\Leftrightarrow 2 \\sqrt{7-x}-\\sqrt{x-1}+x-1-\\sqrt{x-17-x}=0 \\\\Leftrightarrow 2 \\sqrt{7-x}-\\sqrt{x-1}+\\sqrt{x-1} \\sqrt{x-1}-\\sqrt{7-x}=0 \\\\Leftrightarrow \\sqrt{7-x}-\\sqrt{x-1} 2-\\sqrt{x-1}=0 \\\\Leftrightarrow\\left[\\begin{array} { l } { \\sqrt { x - 1 } = 2 } \\\\{ \\sqrt { x - 1 } = \\sqrt { 7 - x } }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=5 \\x=4\\end{array}\\right.\\right. \\text { (thỏa mãn điều kiện). }\\end{array}\\]<br>Vậy phương trình có hai nghiệm %(x=4 ; x=5)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình : %(\\left\\{\\begin{array}{ll}4 \\sqrt{x+1}-x y \\sqrt{y^{2}+4}=0 & 1 \\\\ \\sqrt{x^{2}-x y^{2}+1}+3 \\sqrt{x-1}=x y^{2} & 2 \\text {. }\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Điều kiện %(\\left\\{\\begin{array}{l}x \\geq 1 \\\\ x^{2}-x y^{2}+1 \\geq 0\\end{array}\\right.)%, kết hợp với phương trình (1), ta có %(y\\gt 0)%.<br>Từ (1) , ta có<br>%(\\begin{array}{l}4 \\sqrt{x+1}-x y \\sqrt{y^{2}+4}=0 \\Leftrightarrow 4 \\sqrt{x+1}=x y \\sqrt{y^{2}+4} \\\\Leftrightarrow 16(x+1)=x^{2} y^{2}\\left(y^{2}+4\\right) \\Leftrightarrow\\left(y^{4}+4 y^{2}\\right) x^{2}-16 x-16=0 .\\end{array})%<br>Giải phương trình theo ẩn %(x)% ta được %(x=\\frac{4}{y^{2}})% hoặc %(x=\\frac{-4}{y^{2}+4}\\lt 0)% ( loại).<br>Với %(x=\\frac{4}{y^{2}} \\Leftrightarrow x y^{2}=4)% thế vào phương trình (2), ta được : %(\\sqrt{x^{2}-3}+3 \\sqrt{x-1}=4)%<br>Điều kiện %(x \\geq \\sqrt{3})%, ta có<br>%(\\begin{array}{l}\\sqrt{x^{2}-3}+3 \\sqrt{x-1}=4 \\\\Leftrightarrow\\left(\\sqrt{x^{2}-3}-1\\right)+3(\\sqrt{x-1}-1)=0 \\\\Leftrightarrow \\frac{x^{2}-4}{\\sqrt{x^{2}-3}+1}+\\frac{3(x-2)}{\\sqrt{x-1}+1}=0 \\\\Leftrightarrow(x-2)\\left(\\frac{x+2}{\\sqrt{x^{2}-3}+1}+\\frac{3}{\\sqrt{x-1}+1}\\right)=0 \\\\Leftrightarrow x-2=0\\left(\\text { vì } \\frac{x+2}{\\sqrt{x^{2}-3}+1}+\\frac{3}{\\sqrt{x-1}+1}>0\\right) \\Leftrightarrow x=2 .\\end{array})%<br>Với %(x=2)% ta có %(\\left\\{\\begin{array}{l}y^{2}=2 \\\\ y\\gt 0\\end{array} \\Leftrightarrow y=\\sqrt{2}\\right.)%. Kết hợp với điều kiện trên, hệ phương trình có nghiệm %((2 ; \\sqrt{2}))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho tam giác %(A B C)% có %(B A C=60^{\\circ}, A C=b, A B=c b\\gt c)%. Đường kính %(E F)% của đường tròn ngoại tiếp tam giác %(A B C)% vuông góc với %(B C)% tại %(M)% ( %(E)% thuộc cung lớn %(B C)% ). Gọi %(I)% và %(J)% là chân đường vuông góc hạ từ %(E)% xuống các đường thẳng %(A B)% và %(A C)%. Gọi %(H)% và %(K)% là chân đường vuông góc hạ từ %(F)% xuống các đường thẳng %(A B)% và %(A C)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh các tứ giác %(A I E J, C M J E)% nội tiếp và %(E A \\cdot E M=E C . E I)%.",
+        "question_images": [],
+        "solution": "Ta có: %(A I E=A J E=90^{\\circ})% nên tứ giác %(A I E J)% nội tiếp.<br>%(E M C=E J C=90^{\\circ})% nên tứ giác %(C M J E)% nội tiếp.<br>Xét tam giác %(\\triangle A E C)% và %(\\triangle I E M)%, có<br>%(A C E=E M I)% ( cùng chắn cung %(J E)% của đường tròn ngoại tiếp tứ giác %(C M J E)% ).<br>%(E A C=E I M)% ( cùng chắn cung %(J E)% của đường tròn ngoại tiếp tứ giác %(A I E J)% ).<br>Do đó hai tam giác %(\\triangle A E C)% đồng dạng %(\\triangle I E M \\Rightarrow \\frac{A E}{E I}=\\frac{E C}{E M} \\Rightarrow E A \\cdot E M=E C \\cdot E I)% (đpcm).<br><img alt=\"Ảnh chụp màn hình 2024-03-23 180327.png\" src=\"https://docdn.giainhanh.io/media/test/4ec89071246249c89f12706a08185b1a.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh %(I, J, M)% thẳng hàng và %(I J)% vuông góc với %(H K)%.",
+        "question_images": [],
+        "solution": "Ta có %(I E M=A E C \\Rightarrow A E I=C E M)%.<br>Mặt khác %(A E I=A J I)% ( cùng chắn cung %(I J)% ), %(C E M=C J M)% ( cùng chắn cung %(C M)% ). Suy ra %(C J M=A J I)%.<br>Mà %(I, M)% nằm hai phía của đường thẳng %(A C)% nên %(C J M=A J I)% đối đỉnh suy ra %(I, J, M)% thẳng hàng.<br>Tương tự, ta chứng minh được %(H, M, K)% thẳng hàng.<br>Do tứ giác %(C F M K)% nội tiếp nên %(C F K=C M K)%.<br>Do tứ giác %(C M J E)% nội tiếp nên %(J M E=J C E)%.<br>Mặt khác %(E C F=90^{\\circ} \\Rightarrow C F K=J C E)% (vì cùng phụ với %(A C F)% ).<br>Do đó %(C M K=J M E \\Rightarrow J M K=E M C=90^{\\circ})% hay %(I J \\perp H K)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tính độ dài cạnh %(B C)% và bán kính đường tròn ngoại tiếp tam giác %(A B C)% theo %(b, c)%.",
+        "question_images": [],
+        "solution": "Kẻ %(B N \\perp A C(N \\in A C))%. Vì %(B A C=60^{\\circ})% nên %(A B N=30^{\\circ})%<br>%(\\Rightarrow A N=\\frac{A B}{2}=\\frac{c}{2} \\Rightarrow B N^{2}=A B^{2}-A N^{2}=\\frac{3 c^{2}}{4})%<br>%(\\Rightarrow B C^{2}=B N^{2}+C N^{2}=\\frac{3 c^{2}}{4}+\\left(b-\\frac{c}{2}\\right)^{2}=b^{2}+c^{2}-b c \\Rightarrow B C=\\sqrt{b^{2}+c^{2}-b c})%<br>Gọi %(O)% là tâm đường tròn ngoại tiếp tam giác %(A B C, R)% là bán kính đường tròn ngoại tiếp tam giác %(A B C)%.<br>Xét tam giác đều %(B C E)% có %(R=O E=\\frac{2}{3} E M=\\frac{2 B C \\sqrt{3}}{3.2}=\\frac{1}{3} \\cdot \\sqrt{3\\left(b^{2}+c^{2}-b c\\right)})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Chứng minh biểu thức %(S=n^{3} n+2^{2}+n+1 n^{3}-5 n+1-2 n-1)% chia hết cho 120 , với %(n)% là số nguyên.",
+        "question_images": [],
+        "solution": "Ta có<br>%(\\begin{array}{l}S=n n^{4}+5 n^{3}+5 n^{2}-5 n-6 \\\\=n\\left[\\begin{array}{lll}n^{2}-1 & \\left.n^{2}+6+5 n n^{2}-1\\right]\\end{array}\\right. \\\\=n n^{2}-1 n^{2}+5 n+6 \\\\=n n-1 \\quad n+1 \\quad n+2 \\quad n+3 \\\\=n-1 n n+1 \\quad n+2 n+3 \\\\end{array})%<br>Ta có %(S)% là tích của 5 số nguyên tự nhiên liên tiếp chia hết cho 5 ! nên chia hết cho 120 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 0.5,
+        "content": "Cho ba số %(a, b, c)% thỏa mãn %(a+b+c=0)% và %(|a| \\leq 1,|b| \\leq 1,|c| \\leq 1)%. Chứng minh rằng %(a^{4}+b^{6}+c^{8} \\leq 2)%",
+        "question_images": [],
+        "solution": "Từ giả thiết %(|a| \\leq 1,|b| \\leq 1,|c| \\leq 1)%, ta có %(a^{4} \\leq a^{2}, b^{6} \\leq b^{2}, c^{8} \\leq c^{2})%. Từ đó<br>%(a^{4}+b^{6}+c^{8} \\leq a^{2}+b^{2}+c^{2})%<br>Lại có %(a-1 \\quad b-1 \\quad c-1 \\leq 0)% và %(a+1 \\quad b+1 \\quad c+1 \\geq 0)% nên<br>%(\\begin{array}{l}a+1 \\quad b+1 \\quad c+1-a-1 \\quad b-1 \\quad c-1 \\geq 0 \\\\Leftrightarrow 2 a b+2 b c+2 c a+2 \\geq 0 \\Leftrightarrow-2 a b+b c+c a \\leq 2 .\\end{array})%<br>Hơn nữa %(a+b+c=0 \\Leftrightarrow a^{2}+b^{2}+c^{2}=-a b+b c+c a \\leq 2)%. Vậy %(a^{4}+b^{6}+c^{8} \\leq 2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 0.5,
+        "content": "Tìm giá trị nhỏ nhất của biểu thức %(T=\\frac{x^{3}+y^{3}-x^{2}+y^{2}}{x-1 y-1})% với %(x, y)% là các số thực lớn hơn 1.",
+        "question_images": [],
+        "solution": "Ta có  %(T=\\frac{x^{3}+y^{3}-x^{2}+y^{2}}{x-1 y-1}=\\frac{x^{2} x-1+y^{2} y-1}{x-1 y-1}=\\frac{x^{2}}{y-1}+\\frac{y^{2}}{x-1})%<br>Do %(x\\gt 1, y>1)% nên %(x-1>0, y-1>0)%<br>Áp dụng bất đẳng thức Cauchy cho 2 số dương %(\\frac{x^{2}}{y-1}, \\frac{y^{2}}{x-1})%, ta có :<br>%(\\begin{array}{l}x-1+1 \\geq 2 \\sqrt{x-1} \\Leftrightarrow \\sqrt{x-1}-1^{2} \\geq 0 \\Leftrightarrow x-2 \\sqrt{x-1} \\geq 0 \\Leftrightarrow \\frac{x}{\\sqrt{x-1}} \\geq 2 \\y-1+1 \\geq 2 \\sqrt{y-1} \\Leftrightarrow \\sqrt{y-1}-1^{2} \\geq 0 \\Leftrightarrow y-2 \\sqrt{y-1} \\geq 0 \\Leftrightarrow \\frac{x}{\\sqrt{y-1}} \\geq 2\\end{array})%<br>Do đó %(T=\\frac{x^{2}}{y-1}+\\frac{y^{2}}{x-1} \\geq \\frac{2 x y}{\\sqrt{x-1} \\cdot \\sqrt{y-1}} \\geq 8)%<br>Dấu \" =\" xẩy ra khi %(\\left\\{\\begin{array}{l}\\frac{x^{2}}{y-1}=\\frac{y^{2}}{x-1} \\\\ x-1=1 \\\\ y-1=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=2 \\\\ y=2\\end{array}\\right.\\right.)% (thỏa mãn điều kiện)<br>Vậy giá trị nhỏ nhất của biểu thức %(T = 8)% khi %(x = y = 2)%.",
+        "question_type": "essay"
+    }
+]

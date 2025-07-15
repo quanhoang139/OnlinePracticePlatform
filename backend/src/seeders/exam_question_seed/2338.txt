@@ -1,0 +1,81 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Rút gọn biểu thức: %(A=\\frac{1}{x+\\sqrt{x}}-\\frac{2 \\sqrt{x}}{x-1}+\\frac{1}{x-\\sqrt{x}})%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}A=\\frac{1}{x+\\sqrt{x}}-\\frac{2 \\sqrt{x}}{x-1}+\\frac{1}{x-\\sqrt{x}} \\\\=\\frac{1}{\\sqrt{x}(\\sqrt{x}+1)}-\\frac{2 \\sqrt{x}}{(\\sqrt{x}-1)(\\sqrt{x}+1)}+\\frac{1}{\\sqrt{x}(\\sqrt{x}-1)} \\\\=\\frac{(\\sqrt{x}-1)-2 \\sqrt{x} \\sqrt{x}+(\\sqrt{x}+1)}{\\sqrt{x}(\\sqrt{x}-1)(\\sqrt{x}+1)} \\\\=\\frac{-2 x+2 \\sqrt{x}}{\\sqrt{x}(\\sqrt{x}-1)(\\sqrt{x}+1)} \\\\=\\frac{-2 \\sqrt{x}(\\sqrt{x}-1)}{\\sqrt{x}(\\sqrt{x}-1)(\\sqrt{x}+1)} \\\\=\\frac{-2}{\\sqrt{x}+1}\\end{array}\\]<br>\\[\\text { Vậy } \\mathrm{A}=\\frac{-2}{\\sqrt{x}+1}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tính giá trị biểu thức: %(B=\\sqrt[3]{85+62 \\sqrt{7}}+\\sqrt[3]{85-62 \\sqrt{7}})%",
+        "question_images": [],
+        "solution": "Đặt %(a=\\sqrt[3]{85+62 \\sqrt{7}} ; b=\\sqrt[3]{85-62 \\sqrt{7}} \\Rightarrow a+b=B)%<br>Mặt khác:<br>\\[\\begin{array}{l}a^{3}+b^{3}=(85+62 \\sqrt{7})+(85-62 \\sqrt{7})=170 \\a b=\\sqrt[3]{85+62 \\sqrt{7}} \\sqrt[3]{85-62 \\sqrt{7}}=\\sqrt[3]{85^{2}-(62 \\sqrt{7})^{2}}=\\sqrt[3]{-19683}=-27\\end{array}\\]<br>Ta có:<br>\\[\\begin{array}{l}B^{3}=(a+b)^{3}=a^{3}+b^{3}+3 a b(a+b) \\\\=170-3 \\cdot 27 \\cdot B \\\\=\\gt B^{3}+81 B-170=0 \\\\=>(\\mathrm{B}-2)(\\underbrace{\\mathrm{B}^{2}+2 B+85}_{>0})=0 \\\\=>B=2\\end{array}\\]<br>Vậy %(B=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các giá trị của tham số %(m)% sao cho hệ phương trình %(\\left\\{\\begin{array}{l}x+2 y=2 m+1 \\\\ 4 x+2 y=5 m-1\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}x+2 y=2 m+1 \\\\ 4 x+2 y=5 m-1\\end{array}\\right.)%(I)<br>\\[\\begin{array}{l}(I)\\lt \\Rightarrow\\left\\{\\begin{array}{l}m=\\frac{x+2 y-1}{2} \\m=\\frac{4 x+2 y+1}{5}\\end{array}=\\gt \\frac{x+2 y-1}{2}=\\frac{3 x+2 y+1}{5}\\right. \\\\Rightarrow 5(x+2 y-1)=2(4 \\mathrm{x}+2 \\mathrm{y}+1)=>3 x-6 y+7=0\\end{array}\\]<br>Giả sử hệ phương trình đã cho có nghiệm nguyên %(\\left(x_{0} ; y_{0}\\right))% thì<br>\\[3 x_{0}-6 y_{0}+7=0 \\Rightarrow 6 y_{0}-7=3 x_{0} \\vdots 3 \\Rightarrow 7 \\vdots 3 \\text { (vô lí) }\\]<br>Vậy hệ phương trình không có nghiệm nguyên %(\\forall m)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các giá trị của tham số %(m)% sao cho parabol %((P): y=x^{2})% cắt đường thẳng %(\\mathrm{d}: \\mathrm{y}=\\mathrm{mx}-2)% tại 2 điểm phân biệt %(\\mathrm{A}\\left(\\mathrm{x}_{1} ; \\mathrm{y}_{1}\\right))% và %(\\mathrm{B}\\left(\\mathrm{x}_{2} ; \\mathrm{y}_{2}\\right))% thỏa mãn %(y_{1}+y_{2}=2\\left(x_{1}+x_{2}\\right)-1)%",
+        "question_images": [],
+        "solution": "Phương trình hoành độ giao điểm của %((\\mathrm{P}))% và %(\\mathrm{d})% :<br>\\[x^{2}-m x+2=0(1)\\]<br>%((P))% cắt %(d)% tại hai điểm phân biệt %(A\\left(x_{1} ; y_{1}\\right))% và %(B\\left(x_{2} ; y_{2}\\right) \\Leftrightarrow(1))% có hai nghiệm phân biệt<br>%(\\Leftrightarrow \\Delta=m^{2}-4.2\\gt 0 \\Leftrightarrow m^{2}>8 \\Leftrightarrow m>2 \\sqrt{2})% hoặc %(m\\lt -2 \\sqrt{2})%<br>Khi đó %(x_{1}, x_{2})% là nghiệm của (1). Áp dụng định lí Vi-ét ta có %(x_{1}+x_{2}=m ; x_{1} x_{2}=2)%.<br>Do %(A, B \\in d)% nên %(y_{1}=m x_{1}-2)% và %(y_{2}=m x_{2}-2)%.<br>Ta có:<br>\\[\\begin{array}{l}y_{1}+y_{2}=2\\left(x_{1}+x_{1}\\right)-1 \\\\lt =>m x_{1}-2+m x_{2}-2=2\\left(x_{1}+x_{2}\\right)-1 \\\\lt =>(m-2)\\left(x_{1}+x_{2}\\right)-3=0 \\\\lt =>m(m-2)-3=0 \\\\lt =>\\mathrm{m}^{2}-2 m-3=0 \\\\Leftrightarrow \\mathrm{m}=-1 \\text { (loại) hoặc } \\mathrm{m}=3 \\text { (thỏa mãn) } \\\\text { Vậy } \\mathrm{m}=3 \\text { là giá trị cần tìm. }\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Giải phương trình %(\\sqrt{x^{2}-9}-\\sqrt{x^{2}-16}=1)%",
+        "question_images": [],
+        "solution": "%(\\sqrt{x^{2}-9}-\\sqrt{x^{2}-16}=1)%ĐK: %(x^{2} \\geq 16 \\Leftrightarrow x \\geq 4)% hoăc %(x \\leq-4)%.<br>\\[\\begin{array}{l}(I)\\lt =\\gt \\sqrt{x^{2}-9}=\\sqrt{x^{2}-16}+1 \\\\lt =>x^{2}-9=x^{2}-16+2 \\sqrt{x^{2}-16}+1 \\\\lt =>6=2 \\sqrt{x^{2}-16} \\\\lt =>3=\\sqrt{x^{2}-16} \\\\lt =>x^{2}-25=0 \\\\lt =>x= \\pm 5\\end{array}\\]<br>(thỏa mãn điều kiện)<br>Vậy tập nghiệm của phương trình (1) là %(S=\\{-5 ; 5\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x^{3}+4 y=y^{3}+16 x \\\\ 1+y^{2}=5\\left(1+x^{2}\\right)\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "2. %(\\left\\{\\begin{array}{l}x^{3}+4 y=y^{3}+16 x \\\\ 1+y^{2}=5\\left(1+x^{2}\\right)\\end{array}\\right.)% (I)<br>- Xét %(\\mathrm{x}=0)%, hệ (I) trở thành %(\\left\\{\\begin{array}{l}4 y=y^{3} \\\\ y^{2}=4\\end{array} \\Leftrightarrow y= \\pm 2\\right.)%<br>- Xét %(\\mathrm{x} \\neq 0)%, đặt %(\\frac{y}{x}=t\\lt =\\gt y=x t)%. Hệ (I) trở thành<br>\\[\\left\\{\\begin{array}{l}x^{3}+4 x t=x^{3} t^{3}+16 x \\\\1+x^{2} t^{2}=5\\left(1+x^{2}\\right)\\end{array}\\lt =>\\left\\{\\begin{array}{l}x^{3}\\left(\\mathrm{t}^{3}-1\\right)=4 x t-16 x \\x^{2}\\left(t^{2}-5\\right)=4\\end{array}\\lt =>\\left\\{\\begin{array}{l}x^{3}\\left(t^{3}-1\\right)=4 x(t-4)(1) \\\\4=x^{2}\\left(t^{2}-5\\right)(2)\\end{array}\\right.\\right.\\right.\\]<br>Nhân từng vế của (1) và (2), ta được phương trình hệ quả<br>\\[\\begin{array}{l}4 x^{3}\\left(t^{3}-1\\right)=4 x^{3}(t-4)\\left(t^{2}-5\\right) \\\\lt =>t^{3}-1=t^{3}-4 t^{2}-5 t+20 \\quad(\\text { Do } \\mathrm{x} \\neq 0) \\\\lt =>4 \\mathrm{t}^{2}+5 t-21=0 \\\\lt =\\left[\\begin{array}{l}t=-3 \\t=\\frac{7}{4}\\end{array}\\right.\\end{array}\\]<br>+ Với %(t=-3)%, thay vào (2) được %(x^{2}=1 \\Leftrightarrow x= \\pm 1)%.<br>%(x=1)% thì %(y=-3)%, thử lại %((1 ;-3))% là một nghiệm của (I)<br>%(x=-1)% thì %(y=3)%, thử lại %((-1 ; 3))% là một nghiệm của (I)<br>+ Với %(t=\\frac{7}{4})%, thay vào (2) được %(x^{2}=-\\frac{64}{31})% (loại)<br>Vậy hệ (I) có các nghiệm (0;2), (0;-2), (1;-3), (-1;3).",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác %(\\mathrm{ABC})% vuông tại %(\\mathrm{A}(\\mathrm{AB}\\lt \\mathrm{AC}))% ngoại tiếp đường tròn tâm %(\\mathrm{O})%. Gọi %(\\mathrm{D}, \\mathrm{E}, \\mathrm{F})% lần lượt là tiếp điểm của %((\\mathrm{O}))% với các cạnh %(A B, A C, B C)%. Đường thẳng %(B O)% cắt các đường thẳng %(E F)% và %(D F)% lần lượt tại %(I)% và %(K)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tính số đo góc BIF",
+        "question_images": [],
+        "solution": "Vì %(\\mathrm{BD}, \\mathrm{BF})% là các tiếp tuyến của %((\\mathrm{O}))% nên %(\\mathrm{OD} \\perp \\mathrm{BD}, \\mathrm{OF} \\perp \\mathrm{BF})%.Xét 2 tam giác vuông %(O B D)% và %(O B F)% có<br>%(\\left.\\begin{array}{l}O B \\text { chung } \\\\ \\mathrm{OBD}=\\mathrm{OBF}(\\mathrm{gt})\\end{array}\\right\\} \\Rightarrow \\triangle O B D=\\triangle O B F)% (cạnh huyền-góc nhọn)<br>%(\\Rightarrow B D=B F)%<br>Mà %(\\mathrm{OD}=\\mathrm{OF}=\\mathrm{r})% nên %(\\mathrm{OB})% là trung trực của %(\\mathrm{DF} \\Rightarrow \\mathrm{OB} \\perp \\mathrm{DF} \\Rightarrow \\Delta \\mathrm{KIF})% vuông tại  %(\\mathrm{K} . D O E=90^{\\circ})%<br>Theo quan hệ giữa góc nội tiếp và góc ở tâm cho đường tròn (O), ta có:<br>\\[D F E=\\frac{1}{2} D O E=45^{\\circ}\\]<br>%(\\Rightarrow \\Delta)% KIF vuông cân tại K.<br>%(\\Rightarrow B I F = 45^{\\circ})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4b57ae9ef6d043357c69f8ca0af78d7c.png\" srcset=\"https://docdn.giainhanh.io/media/test/9205ef96a360daa0fc081ac317628124.png 245w, https://docdn.giainhanh.io/media/test/a274e2dbba168587c956b03a4d641564.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Giả sử %(\\mathrm{M})% là điểm di chuyển trên đoạn %(\\mathrm{CE})%.<br>b1) Khi %(\\mathrm{AM}=\\mathrm{AB})%, gọi %(\\mathrm{H})% là giao điểm của %(\\mathrm{BM})% và %(\\mathrm{EF})%. Chứng minh rằng ba điểm %(\\mathrm{A}, \\mathrm{O}, \\mathrm{H})% thẳng hàng, từ đó suy ra tứ giác ABHI nội tiếp.<br>b2). Gọi %(\\mathrm{N})% là giao điểm của đường thẳng %(\\mathrm{BM})% với cung nhỏ %(\\mathrm{EF})% của %((\\mathrm{O}), \\mathrm{P}, \\mathrm{Q})% lần lượt là hình chiếu của %(\\mathrm{N})% trên các đường thẳng %(\\mathrm{DE})% và %(\\mathrm{DF})%. Xác định vị trí điểm %(\\mathrm{M})% để độ dài đoạn thẳng %(\\mathrm{PQ})% max.",
+        "question_images": [],
+        "solution": "b1) Hình chữ nhật %(A D O E)% có %(O D=O E=r)% nên nó là hình vuông<br>%(\\Rightarrow A O)% là trung trực %(D E)% (1)<br>Vì %(A B=A M)% nên tam giác %(A B M)% vuông cân tại %(A)%, suy ra %(A B M=45^{\\circ})%<br>\\[\\Rightarrow \\mathrm{DBH}=\\mathrm{DFH}=45^{\\circ}\\]<br>%(\\Rightarrow \\mathrm{BDHF})% là tứ giác nội tiếp (2)<br>Vì %(\\mathrm{BDO}+\\mathrm{BFO}=90^{\\circ}+90^{\\circ}=180^{\\circ})% nên %(\\mathrm{BDOF})% là tứ giác nội tiếp (3)<br>Từ %((2))% và %((3) \\Rightarrow 5)% điểm %(B, D, O, H, F)% nằm trên một đường tròn.<br>\\[=\\gt \\mathrm{BHO}=\\mathrm{BFO}=90^{\\circ}\\]<br>\\[\\Rightarrow \\mathrm{OH} \\perp \\mathrm{BM} \\text {. }\\]<br>Mặt khác %(A D E=A B M=45^{\\circ}=>D E / / B M \\Rightarrow O H \\perp D E)%<br>Mà %(O D=O E)% nên %(O H)% là trung trực của đoạn %(O E(4))%<br>Từ %((1))% và %((4) \\Rightarrow \\mathrm{A}, \\mathrm{O}, \\mathrm{H})% thẳng hàng.<br>b2)<br>Vì %(D P N+D Q N=90^{\\circ}+90^{\\circ}=180^{\\circ})% nên DPNQ là tứ giác nội tiếp<br>=> QPN=QDN (hai góc nội tiếp cùng chắn cung QN) (5)<br>Mặt khác DENF là tứ giác nội tiếp nên QDN=FEN (6)<br>Từ (5) và (6) ta có %(\\mathrm{FEN}=Q P N(7))%<br>Tương tự ta có: %(\\mathrm{EFN}=\\mathrm{PQN})% (8)<br>Từ (7) và (8) suy ra %(\\triangle N P Q \\sim \\triangle N E F(g . g)=>\\frac{P Q}{E F}=\\frac{N Q}{N F})%<br>Theo quan hệ đường vuông góc - đường xiên, ta có<br>\\[N Q \\leq N F=>\\frac{P Q}{E F}=\\frac{N Q}{N F} \\leq 1 \\Rightarrow P Q \\leq E F\\]<br>Dấu bằng xảy ra khi %(\\mathrm{Q} \\equiv \\mathrm{F} \\Leftrightarrow \\mathrm{NF} \\perp \\mathrm{DF} \\Leftrightarrow \\mathrm{D}, \\mathrm{O}, \\mathrm{N})% thẳng hàng.<br>Do đó %(\\mathrm{PQ})% max khi %(\\mathrm{M})% là giao điểm của %(\\mathrm{AC})% và %(\\mathrm{BN})%, với %(\\mathrm{N})% là điểm đối xứng với %(\\mathrm{D})% qua %(\\mathrm{O})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/feb414bf3589eba60e41bbc501093f21.png\" srcset=\"https://docdn.giainhanh.io/media/test/3f72de2de969d716872eb0f4408a0be4.png 245w, https://docdn.giainhanh.io/media/test/00e8931b1cb3278bbf11f738fbdd7d50.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho a, b, c là các số dương thỏa mãn điều kiện %(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c} \\leq 3)%. Chứng minh rằng:<br>\\[\\frac{a}{1+b^{2}}+\\frac{b}{1+c^{2}}+\\frac{c}{1+a^{2}}+\\frac{1}{2}(a b+b c+c a) \\geq 3\\]",
+        "question_images": [],
+        "solution": "Ta chứng minh %(\\mathrm{B} Ð \\mathrm{~T})%<br>\\[\\begin{array}{l}(a+b+c)\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right) \\geq 9(*) \\\\(*)\\lt =\\gt 3+\\left(\\frac{a}{b}+\\frac{b}{a}\\right)+\\left(\\frac{b}{c}+\\frac{c}{b}\\right)+\\left(\\frac{c}{a}+\\frac{a}{c}\\right) \\geq 9\\end{array}\\]<br>Áp dụng BĐT Cô - si cho hai số dương ta có:<br>\\[\\begin{array}{l}\\frac{a}{b}+\\frac{b}{a} \\geq 2 \\\\frac{b}{c}+\\frac{c}{b} \\geq 2 \\\\frac{c}{a}+\\frac{a}{c} \\geq 2 \\\\=>\\left(^{*}\\right) \\text { đúng } \\\\=>\\frac{9}{a+b+c} \\leq \\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c} \\leq 3=>a+b+c \\geq 3\\end{array}\\]<br>Trở lại bài toán: Áp dụng BĐT Cô si cho hai số dương ta có %(1+b^{2} \\geq 2 b)%<br>Ta có:%(\\frac{a}{1 + b^{2}} = a - \\frac{a b^{2}}{1 + b^{2}} \\ge a - \\frac{a b^{2}}{2 b} = a - \\frac{a b}{2} \\text{ (1) })%<br>Tương tự ta có:<br>%(\\left . \\begin{matrix} \\frac{b}{1 + c^{2}} \\ge b - \\frac{b c}{2} \\\\ \\frac{c}{1 + a^{2}} \\ge c - \\frac{c a}{2} \\end{matrix} \\right .)%<br>Cộng từng vế của (1), (2) và (3) ta có:%(\\left . \\begin{matrix} \\frac{a}{1 + b^{2}} + \\frac{b}{1 + c^{2}} + \\frac{c}{1 + a^{2}} \\ge a + b + c - \\frac{1}{2} \\left( a b + b c + c a \\right ) \\\\ \\Rightarrow \\frac{a}{1 + b^{2}} + \\frac{b}{1 + c^{2}} + \\frac{c}{1 + a^{2}} + \\frac{1}{2} \\left( a b + b c + c a \\right ) \\ge a + b + c \\ge 3 \\end{matrix} \\right .)%<br>=> đpcm<br>Dấu bằng xảy ra khi a = b = c = 1 .",
+        "question_type": "essay"
+    }
+]

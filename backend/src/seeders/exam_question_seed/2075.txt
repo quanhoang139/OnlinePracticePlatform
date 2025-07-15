@@ -1,0 +1,210 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 0.25,
+        "content": "Với %(a)% là số thực dương tùy ý, %(\\sqrt{a^{3}})% bằng",
+        "question_images": [],
+        "labelA": "%(a^{6})%.",
+        "labelB": "%(a^{\\frac{3}{2}})%.",
+        "labelC": "%(a^{\\frac{2}{3}})%.",
+        "labelD": "%(a^{\\frac{1}{6}})%.",
+        "correct_label": "labelB",
+        "solution": "- Với %(a\\gt 0)% ta có %(\\sqrt{a^{3}}=a^{\\frac{3}{2}})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 0.25,
+        "content": "Cho %(a\\gt 0, m, n \\in \\mathbb{R})%. Khẳng định nào sau đây đúng?",
+        "question_images": [],
+        "labelA": "%(a^{m}+a^{n}=a^{m+n})%.",
+        "labelB": "%(a^{m} \\cdot a^{n}=a^{m-n})%.",
+        "labelC": "%(\\left(a^{m}\\right)^{n}=\\left(a^{n}\\right)^{m})%.",
+        "labelD": "%(\\frac{a^{m}}{a^{n}}=a^{n-m})%.",
+        "correct_label": "labelC",
+        "solution": "Tính chất lũy thừa",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 0.25,
+        "content": "Cho %(a\\gt 0)% và %(a \\neq 1)% khi đó %(\\log _{a} \\sqrt[3]{a})% bằng",
+        "question_images": [],
+        "labelA": "-3 .",
+        "labelB": "%(\\frac{1}{3})%.",
+        "labelC": "%(-\\frac{1}{3})%.",
+        "labelD": "3 .",
+        "correct_label": "labelB",
+        "solution": "\\[\\log _{a} \\sqrt[3]{a}=\\frac{1}{3} \\log _{a} a=\\frac{1}{3}\\]",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 0.25,
+        "content": "Cho %(a, b)% là các số thực dương thỏa mãn %(a \\neq 1, a \\neq \\sqrt{b})% và %(\\log _{a} b=\\sqrt{3})%. Tính %(\\mathrm{P}=\\log _{\\frac{\\sqrt{b}}{a}} \\sqrt{\\frac{b}{a}})%.",
+        "question_images": [],
+        "labelA": "%(P=-5+3 \\sqrt{3})%",
+        "labelB": "%(P=-1+\\sqrt{3})%",
+        "labelC": "%(P=-1-\\sqrt{3})%",
+        "labelD": "%(P=-5-3 \\sqrt{3})%",
+        "correct_label": "labelC",
+        "solution": "Cách 1: Phương pháp tự luận.<br>\\[P=\\frac{\\log _{a} \\sqrt{\\frac{b}{a}}}{\\log _{a} \\frac{\\sqrt{b}}{a}}=\\frac{\\frac{1}{2}\\left(\\log _{a} b-1\\right)}{\\log _{a} \\sqrt{b}-1}=\\frac{\\frac{1}{2}(\\sqrt{3}-1)}{\\frac{1}{2} \\log _{a} b-1}=\\frac{\\sqrt{3}-1}{\\sqrt{3}-2}=-1-\\sqrt{3} \\text {. }\\]<br>Cách 2: Phương pháp trắc nghiệm.<br>Chọn %(a=2, b=2^{\\sqrt{3}})%. Bấm máy tính ta được %(P=-1-\\sqrt{3})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 0.25,
+        "content": "Tập xác định của hàm số %(y=\\log _{5} x)% là",
+        "question_images": [],
+        "labelA": "%([0 ;+\\infty))%.",
+        "labelB": "%((-\\infty ; 0))%.",
+        "labelC": "%((0 ;+\\infty))%.",
+        "labelD": "%((-\\infty ;+\\infty))%.",
+        "correct_label": "labelC",
+        "solution": "Điều kiện: %(x\\gt 0)%.<br>Tập xác định: %(D=(0 ;+\\infty))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 0.25,
+        "content": "Mệnh đề nào trong các mệnh đề dưới đây sai?",
+        "question_images": [],
+        "labelA": "Hàm số %(y=\\left(\\frac{2018}{\\pi}\\right)^{x^{2}+1})% đồng biến trên %(\\mathbb{R})%.",
+        "labelB": "Hàm số %(y=\\log x)% đồng biến trên %((0 ;+\\infty))%.",
+        "labelC": "Hàm số %(y=\\ln (-x))% nghịch biến trên khoảng %((-\\infty ; 0))%.",
+        "labelD": "Hàm số %(y=2^{x})% đồng biến trên %(\\mathbb{R})%.",
+        "correct_label": "labelC",
+        "solution": "Hàm số %(y=\\ln (-x) \\operatorname{TXĐ} D=(-\\infty ; 0))%<br>Cơ số %(a=e\\gt 1)% do đó hàm số đồng biết trên %((-\\infty ; 0))%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 0.25,
+        "content": "Nghiệm của phương trình %(\\log _{2}(5 x)=3)% là:",
+        "question_images": [],
+        "labelA": "%(x=\\frac{8}{5})%.",
+        "labelB": "%(x=\\frac{9}{5})%.",
+        "labelC": "%(x=8)%.",
+        "labelD": "%(x=9)%.",
+        "correct_label": "labelA",
+        "solution": "Điều kiện %(x\\gt 0)%<br>\\[\\log _{2}(5 x)=3 \\Leftrightarrow 5 x=2^{3} \\Leftrightarrow 5 x=8 \\Leftrightarrow x=\\frac{8}{5} \\text { (nhận). }\\]",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 0.25,
+        "content": "Tập nghiệm của bất phương trình %(3^{4-x^{2}} \\geq 27)% là",
+        "question_images": [],
+        "labelA": "%([-1 ; 1])%.",
+        "labelB": "%((-\\infty ; 1])%.",
+        "labelC": "%([-\\sqrt{7} ; \\sqrt{7}])%.",
+        "labelD": "%([1 ;+\\infty))%.",
+        "correct_label": "labelA",
+        "solution": "Ta có: %(3^{4-x^{2}} \\geq 27 \\Leftrightarrow 4-x^{2} \\geq 3 \\Leftrightarrow-1 \\leq x \\leq 1)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 9: ",
+        "point": 0.25,
+        "content": "Mỗi nhóm số liệu ghép nhóm là tập hợp gồm:",
+        "question_images": [],
+        "labelA": "các giá trị của số liệu được ghép nhóm theo nhiều tiêu chí xác định.",
+        "labelB": "các giá trị của số liệu được ghép nhóm theo hai tiêu chí xác định.",
+        "labelC": "các giá trị của số liệu được ghép nhóm theo một tiêu chí xác định.",
+        "labelD": "các giá trị của số liệu được ghép nhóm theo ba tiêu chí xác định.",
+        "correct_label": "labelC",
+        "solution": "Mỗi nhóm số liệu là tập hợp gồm các giá trị của số liệu được ghép nhóm theo một tiêu chí xác định.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 10: ",
+        "point": 0.25,
+        "content": "Cho bảng khảo sát về chiều cao học sinh trong lớp. Nhóm số liệu nào có độ dài bằng %(7)%?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/d338e94ad7fc916bafb9265d17cf5879.PNG"
+        ],
+        "labelA": "%([150 ; 160))%",
+        "labelB": "%([167 ; 170))%",
+        "labelC": "%([175 ; 180))%",
+        "labelD": "%([160 ; 167))%",
+        "correct_label": "labelD",
+        "solution": "Độ dài của nhóm %([150 ; 160))% là %(160-150=10)%.<br>Độ dài của nhóm [160;167)là %(167-160=7)% .<br>Độ dài của nhóm [170;167)là %(170-167=3)%.<br>Độ dài của nhóm %([170 ; 175))% là %(175-170=5)%.<br>Độ dài của nhóm %([175 ; 180))% là %(180-175=5)%.<br>Vậy nhóm số liệu %([160 ; 167))% có độ dài bằng %(7)% .",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 11: ",
+        "point": 0.25,
+        "content": "Xét phép thử gieo ngẫu nhiên một con xúc xắc đồng chất sáu mặt. Gọi %(A)% là biến cố: \"Số chấm thu được là số chẵn\", %(B)% là biến cố: \"Số chấm thu được là số không chia hết cho 4\". Hãy mô tả biến cố giao %(A B)%.",
+        "question_images": [],
+        "labelA": "%(\\{2 ; 6\\})%.",
+        "labelB": "%(\\{2 ; 4 ; 6\\})%",
+        "labelC": "%(\\{1 ; 2 ; 3 ; 5 ; 6\\})%",
+        "labelD": "%(\\{1 ; 2 ; 3\\})%",
+        "correct_label": "labelA",
+        "solution": "Ta có: %(A=\\{2 ; 4 ; 6\\}, B=\\{1 ; 2 ; 3 ; 5 ; 6\\})%.<br>Suy ra: %(A B=A \\cap B=\\{2 ; 6\\})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 12: ",
+        "point": 0.25,
+        "content": "Cho %(A)% và %(\\bar{A})% là hai biến cố đối nhau. Chọn câu đúng.",
+        "question_images": [],
+        "labelA": "%(P(A)=1+P(\\bar{A}))%.",
+        "labelB": "%(P(A)=P(\\bar{A}))%.",
+        "labelC": "%(P(A)=1-P(\\bar{A}))%.",
+        "labelD": "%(P(A)+P(\\bar{A})=0)%.",
+        "correct_label": "labelC",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 17: ",
+        "point": 0.5,
+        "content": "Một khu rừng có trữ lượng gỗ là %(4 \\cdot 10^{5} \\mathrm{~m}^{3})%. Biết tốc độ sinh trưởng của các cây lấy gỗ trong khu rừng này là %(4 \\%)% mỗi năm. Hỏi sau 5 năm không khai thác, khu rừng sẽ có số mét khối gỗ là bao nhiêu?",
+        "question_images": [],
+        "solution": "Nếu trữ lượng gỗ của khu rừng ban đầu là %(A)% thì sau năm thứ nhất, lượng gỗ có được là %(A+A r=A(1+r))% với %(r)% là tốc độ tăng trưởng mỗi năm.<br>Sau năm thứ hai, lượng gỗ có được là %(A(1+r)+A(1+r) \\cdot r=A(1+r)^{2})%.<br>Theo phương pháp quy nạp, ta chứng minh được công thức tính lượng gỗ trong khu rừng là %(T_{n}=A(1+r)^{n})% với %(A)% là lượng gỗ ban đầu, %(r)% là tốc độ tăng trưởng mỗi năm và %(n)% là số năm tăng trưởng của rừng.<br>Vậy sau 5 năm, lượng gỗ trong khu rừng là:<br>\\[T_{5}=4 \\cdot 10^{5}\\left(1+\\frac{4}{100}\\right)^{5}=486661,161\\left(\\mathrm{~m}^{3}\\right)\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 18: ",
+        "point": 0.5,
+        "content": "Cho %(\\log _{a} b=2)% và %(\\log _{a} c=3)%. Tính %(Q=\\log _{a}\\left(b^{2} c^{3}\\right))%.",
+        "question_images": [],
+        "solution": "Ta có: %(Q=\\log _{a}\\left(b^{2} c^{3}\\right)=\\log _{a} b^{2}+\\log _{a} c^{3}=2 \\log _{a} b+3 \\log _{a} c=2.2+3.3=13)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 19: ",
+        "point": 0.5,
+        "content": "Tìm %(m)% để hàm số %(y=\\log _{0,5}\\left(m x^{2}-m x+1\\right))% xác định với mọi %(x)% thuộc %(\\mathbb{R})%.",
+        "question_images": [],
+        "solution": "Hàm số xác định với mọi %(x \\in \\mathbb{R} \\Leftrightarrow m x^{2}-m x+1\\gt 0, \\forall x \\in \\mathbb{R}(*))%.<br>Trường hợp 1: %(m=0)%.<br>(*) trở thành %(1>0, \\forall x \\in \\mathbb{R})% (đúng) nên %(m=0)% thoả mãn.<br>Trường hợp 2: %(m \\neq 0)%.<br>(*) tương đương với %(\\left\\{\\begin{array}{l}m>0 \\\\ \\Delta=m^{2}-4 m\\lt 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}m>0 \\\\ 0\\lt m\\lt 4\\end{array} \\Leftrightarrow 0\\lt m\\lt 4\\right.\\right.)%.<br>Vậy %(0 \\leq m\\lt 4)% thoả mãn đề bài.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 20: ",
+        "point": 0.5,
+        "content": "Anh Hưng gửi tiết kiệm khoản tiền 700 triệu đồng vào một ngân hàng với lãi suất %(7 \\%)% / năm theo hình thức lãi kép kì hạn 12 tháng. Tính thời gian tối thiểu gửi tiết kiệm để anh Hưng thu được ít nhất 1 tỉ đồng (cả vốn lẫn lãi). Cho biết công thức lãi kép là %(T=A \\cdot(1+r)^{n})%, trong đó %(A)% là tiền vốn, %(T)% là tiền vốn và lãi nhận được sau %(n)% năm, %(r)% là lãi suất/năm.",
+        "question_images": [],
+        "solution": "Ta có: %(T \\geq 1000 \\Leftrightarrow 700(1+7 \\%)^{n} \\geq 1000 \\Leftrightarrow 1,07^{n} \\geq \\frac{10}{7})%<br>\\[\\Leftrightarrow n \\geq \\log _{1,07}\\left(\\frac{10}{7}\\right) \\approx 5,27 \\text { (do } 1,07\\gt 1 \\text { ). }\\]<br>Vậy thời gian gửi tiết kiệm phải ít nhất 6 năm thì anh Hưng mới thu được ít nhât 1 tỉ đồng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 21: ",
+        "point": 0.5,
+        "content": "Kết quả đo chiều cao của 250 cây dừa đột biến 3 năm tuổi ở một viện nghiên cứu được tổng hợp ở bảng sau:<br>Hãy ước lượng số trung bình và mốt của mẫu số liệu ghép nhóm trên?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/1d0f8f5f034f518778ee4f602381559f.PNG"
+        ],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7caafc6e16833a14e86f04a462d38549.png\" srcset=\"https://docdn.giainhanh.io/media/test/22318490d98547b9feec15df47dd1873.png 245w, https://docdn.giainhanh.io/media/test/e72654e7bf7ead51e054965041f4260a.png 500w, https://docdn.giainhanh.io/media/test/9982d86b47497ccf7103a5ce90121ffe.png 750w\" width=\"750\"/><br>+) Chiều cao trung bình của 250 cây dừa đột biến xấp xỉ bằng:<br>\\[\\frac{8,65.36+8,95.45+9,25.83+9,55.65+9,85.21}{250}=9,238\\]<br>+) Nhóm chứa mốt của mẫu số liệu trên là %([9,1 ; 9,4))%<br>Do đó: %(u_{m}=9,1 ; n_{m-1}=45 ; n_{m+1}=65 ; u_{m+1}-u_{m}=9,4-9,1=0,3)%<br>Mốt của mẫu số liệu ghép nhóm là: %(M_{o}=9,1+\\frac{83-45}{(83-45)+(83-65)} \\cdot 0,3 \\approx 9,3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 22: ",
+        "point": 0.5,
+        "content": "Trong phòng học của An có ba bóng đèn và xác suất hỏng của chúng lần lượt bằng 0 , %(05 ; 0,04 ; 0,03)%. Chỉ cần có một bóng đèn sáng thì %(\\mathrm{An})% vẫn có thể làm bài tập được. Tính xác suất để %(\\mathrm{An})% có thể làm bài tập, biết tình trạng (sáng hoặc bị hỏng) của mỗi bóng đèn không ảnh hưởng đến tình trạng các bóng còn lại.",
+        "question_images": [],
+        "solution": "Gọi %(A_{i}(1 \\leq i \\leq 3, i \\in \\mathbb{N}))% là biến cố: \"Bóng đèn thứ %(i)% sáng bình thường\".<br>An không thể làm bài tập nếu cả ba bóng đèn bị hỏng, khi đó:<br>\\[P\\left(\\bar{A}_{1} \\bar{A}_{2} \\bar{A}_{3}\\right)=P\\left(\\bar{A}_{1}\\right) \\cdot P\\left(\\bar{A}_{2}\\right) \\cdot P\\left(\\bar{A}_{3}\\right)=0,05 \\cdot 0,04 \\cdot 0,03=\\frac{3}{50000} .\\]<br>Gọi %(P)% là xác suất để An có thể làm bài, ta có:<br>\\[P=1-P\\left(\\bar{A}_{1} \\bar{A}_{2} \\bar{A}_{3}\\right)=1-\\frac{3}{50000}=0,99994\\]",
+        "question_type": "essay"
+    }
+]

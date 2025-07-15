@@ -1,0 +1,105 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Cho biểu thức: %(M=\\left[\\frac{1}{1+\\left(\\frac{2 \\sqrt{x}+1}{\\sqrt{3}}\\right)^{2}}+\\frac{1}{1+\\left(\\frac{2 \\sqrt{x}-1}{\\sqrt{3}}\\right)^{2}}\\right] \\cdot \\frac{5}{x+1})% với %(x\\gt 0)%. Rút gọn biểu thức%(M)% và tìm tất cả các số tự nhiên %(x)% để giá trị biểu thức %(\\frac{15}{4 M}-\\frac{3}{2})% là số nguyên tố.",
+        "question_images": [],
+        "solution": "ĐКХĐ: %(x\\gt 0)%<br>Ta có %(M=\\left[\\frac{3}{3+(2 \\sqrt{x}+1)^{2}}+\\frac{3}{3+(2 \\sqrt{x}-1)^{2}}\\right] \\cdot \\frac{5}{x+1})% %(=\\frac{18+3(2 \\sqrt{x}+1)^{2}+3(2 \\sqrt{x}-1)^{2}}{\\left[3+(2 \\sqrt{x}+1)^{2}\\right]\\left[3+(2 \\sqrt{x}-1)^{2}\\right]} \\cdot \\frac{5}{x+1}=\\frac{24(x+1)}{16 x^{2}+16 x+16} \\cdot \\frac{5}{x+1}=\\frac{15}{2 x^{2}+2 x+2})%.<br>Do đó %(\\frac{15}{4 M}-\\frac{3}{2}=\\frac{x^{2}+x-2}{2}=\\frac{(x-1)(x+2)}{2})%. Đặt %(\\frac{(x-1)(x+2)}{2}=p)% ( %(p)% là số nguyên tố)<br>Ta có %(x)% là số tự nhiên nên %(x+2>x-1)% suy ra %(\\left[\\begin{array}{l}x-1=1 \\\\ x-1=2\\end{array}\\right.)%.<br>TH1: %(x-1=1 \\Rightarrow x=2 \\Rightarrow p=\\frac{x+2}{2}=2)% (thoả mãn)<br>TH2: %(x-1=2 \\Rightarrow x=3 \\Rightarrow p=x+2=5)% (thỏa mãn).<br>Vậy %(x \\in\\{2 ; 3\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(x^{2}+x+4-(2+x) \\sqrt{x^{2}-x+4}=0)%",
+        "question_images": [],
+        "solution": "ĐKХĐ: %(x^{2}-x+4\\gt 0 \\Leftrightarrow\\left(x-\\frac{1}{2}\\right)^{2}+\\frac{15}{4}>0)% (luôn đúng)<br>\\[\\begin{array}{l}x^{2}+x+4-(2+x) \\sqrt{x^{2}-x+4}=0 \\Leftrightarrow x^{2}+x+4=(2+x) \\sqrt{x^{2}-x+4} \\\\Rightarrow\\left(x^{2}+x+4\\right)^{2}=(2+x)^{2}\\left(x^{2}-x+4\\right) \\Leftrightarrow x^{4}+2 x^{3}+9 x^{2}+8 x+16=x^{4}+3 x^{3}+4 x^{2}+12 x+16\\end{array}\\]<br>\\[\\Leftrightarrow x^{3}-5 x^{2}+4 x=0 \\Leftrightarrow x\\left(x^{2}-5 x+4\\right)=0 \\Leftrightarrow x(x-1)(x-4)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\x=1 \\x=4\\end{array}\\right.\\]<br>Thử lại thấy thỏa mãn. Vậy phương trình có nghiệm là %(x \\in\\{0 ; 1 ; 4\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Cho Parabol %((P): y=x^{2})% và đường thẳng %((d): y=2(m-1) x-m+3)%.Tìm %(m)% để %((d))% cắt %((P))% tại hai điểm phân biệt %(A, B)% sao cho %(A)% và %(B)% cách đều trục %(O y)%. Khi đó tính độ dài đường trung tuyến %(O M)% của tam giác %(O A B)%.",
+        "question_images": [],
+        "solution": "Xét phương trình hoành độ giao điểm của %((P))% và %((d))% là %(x^{2}=2(m-1) x-m+3 \\Leftrightarrow x^{2}-2(m-1) x+m-3=0)% (1)<br>Điều kiện để %((d))% và %((P))% cắt nhau tại hai điểm phân biệt là phương trình (1) có hai nghiệm phân biệt hay %(\\Delta^{\\prime}\\gt 0 \\Leftrightarrow\\left(m-\\frac{3}{2}\\right)^{2}+\\frac{7}{4}>0)% (luôn đúng)<br>Kẻ %(A H, B K \\perp O y(H, K \\in O y))%.<br>Không mất tính tổng quát, do %(A, B)% cách đều trục %(O y, A, B)% phân biệt, giả sử %(x_{A}>0, x_{B}\\lt 0)%.<br>Khi đó %(A H=x_{A}, B K=-x_{B})%.<br>Vì %(A H=B K)% nên %(x_{A}=-x_{B})% hay %(x_{A}+x_{B}=0)%<br>Theo định lý Vi-ét, ta có %(x_{A}+x_{B}=2(m-1))%.<br>Vậy khi đó %(2(m-1)=0)% nên %(m=1)%<br>Lúc này %((d): y=2 \\cdot A(\\sqrt{2}, 2), B(-\\sqrt{2}, 2))%.<br>Vậy nên %(A, B)% đối xứng qua %(O y)%.<br>Do đó %(O y)% đi qua trung điểm %(M)% của %(A B)%Giao điểm của %(O y)% với %(d)% là %(M(0 ; 2))%.<br>Vậy %(O M=2)%<br>Tóm lại %(m=1 ; O M=2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Cho các số dương %(x, y, z)% thỏa mãn %(x y+y z+z x=3 x y z)%. Chứng minh rằng<br>\\[\\frac{x^{3}}{z+x^{2}}+\\frac{y^{3}}{x+y^{2}}+\\frac{z^{3}}{y+z^{2}} \\geq \\frac{1}{2}\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)\\]",
+        "question_images": [],
+        "solution": "Từ giả thiết, ta có: %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=3)%<br>Đặt %(a=\\frac{1}{x} ; b=\\frac{1}{y} ; c=\\frac{1}{z})%. khi đó %(a, b, c\\gt 0)% và %(a+b+c=3)%<br>Yêu cầu bài toán trở thành chứng minh %(\\frac{a}{b\\left(a+b^{2}\\right)}+\\frac{b}{c\\left(b+c^{2}\\right)} \\frac{c}{a\\left(c+a^{2}\\right)} \\geq \\frac{3}{2})%<br>Áp dụng bất đẳng thức %(A M-G M)%, ta có<br>\\[\\frac{a}{b\\left(a+b^{2}\\right)}=\\frac{a+b^{2}-b^{2}}{b\\left(a+b^{2}\\right)}=\\frac{1}{b}-\\frac{b}{a+b^{2}} \\geq \\frac{1}{b}-\\frac{b}{2 \\sqrt{a} b}=\\frac{1}{b}-\\frac{1}{2 \\sqrt{a}}\\]<br>Chứng minh tương tự rồi cộng lại vế theo vế áp dụng thêm bất đẳng thức Cauchy - Schwarz, ta được:<br>\\[\\frac{a}{b\\left(a+b^{2}\\right)}+\\frac{b}{c\\left(b+c^{2}\\right)}+\\frac{c}{a\\left(c+a^{2}\\right)}\\]<br>%(\\begin{array}{l}\\geq \\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}-\\frac{1}{2 \\sqrt{a}}-\\frac{1}{2 \\sqrt{b}}-\\frac{1}{2 \\sqrt{c}} \\\\ =\\left(\\frac{1}{\\sqrt{a}}-1\\right)^{2}+\\left(\\frac{1}{\\sqrt{a}}-1\\right)^{2}+\\left(\\frac{1}{\\sqrt{a}}-1\\right)^{2}+\\frac{3}{2}\\left(\\frac{1}{\\sqrt{a}}+\\frac{1}{\\sqrt{b}}+\\frac{1}{\\sqrt{c}}\\right)-3 \\\\ \\geq \\frac{3}{2} \\cdot \\frac{9}{\\sqrt{a}+\\sqrt{b}+\\sqrt{c}}-3 \\\\ \\geq \\frac{27}{2} \\frac{1}{\\sqrt{3(a+b+c)}}=\\frac{9}{2}-3=\\frac{3}{2}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Tìm các số thực %(x)% sao cho %(x+\\sqrt{2024})% và %(\\frac{1}{x}-\\sqrt{2024})% đều là các số nguyên.",
+        "question_images": [],
+        "solution": "Đặt %(a=x+\\sqrt{2024}, b=\\frac{1}{x}-\\sqrt{2024}(a, b \\in \\mathbb{Z}))%.<br>Ta có<br>\\[\\begin{array}{l}x=a-\\sqrt{2024} \\Rightarrow b=\\frac{1}{x}-\\sqrt{2024}=\\frac{1}{a-\\sqrt{2024}}-\\sqrt{2024}= \\\\frac{2025-a \\sqrt{2024}}{a-\\sqrt{2024}} \\Rightarrow a b-b \\sqrt{2024}=2025-a \\sqrt{2024} \\Leftrightarrow a b-2025=(b-a) \\sqrt{2024} .\\end{array}\\]<br>Nếu %(b-a \\neq 0 \\Rightarrow \\sqrt{2024}=\\frac{a b-2025}{b-a} \\in \\mathbb{Q})% (vô lý vì %(\\sqrt{2024} \\in \\mathbb{I})% ).<br>Vậy nên %(b-a=0 \\Leftrightarrow a=b \\Leftrightarrow x+\\sqrt{2024}=\\frac{1}{x}-\\sqrt{2024} \\Leftrightarrow x^{2}+2 \\sqrt{2024} x-1=0)%.<br>Áp dụng công thức nghiệm ta giải ra được %(\\left[\\begin{array}{l}x=45-\\sqrt{2024} \\\\ x=-45-\\sqrt{2024}\\end{array}\\right.)%<br>Vậy %(x \\in\\{45-\\sqrt{2024} ;-45-\\sqrt{2024}\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Cho chín số nguyên dương %(a_{1}, a_{2}, \\ldots, a_{9})% đều không có ước số nguyên tố nào khác 3,5 và 7 . Chứng minh rằng trong chín số đã cho luôn tồn tại hai số mà tích của hai số này là số chính phương.",
+        "question_images": [],
+        "solution": "Ta có %(a_{1}, a_{2}, \\ldots, a_{9})% có dạng %(3^{m} 5^{n} 7^{p}(m, n, p \\in \\mathbb{N}))%.<br>Xét theo modulo 2 ta có %(m \\equiv 0,1(\\bmod 2), n \\equiv 0,1(\\bmod 2), p \\equiv 0,1(\\bmod 2))%.<br>Do đó ta có 2 cách chọn %(m, 2)% cách chọn %(n)% và 2 cách chọn %(p)%.<br>Vậy ta có %(2.2 .2=8)% cách chọn %(m, n, p)% sao cho với %(a_{i})% và %(a_{j})% bất kì đều không đồng thời thỏa mãn %(m_{i} \\equiv m_{j}(\\bmod 2), n_{i} \\equiv n_{j}(\\bmod 2), p_{i} \\equiv p_{j}(\\bmod 2))%.<br>Theo nguyên lí Dirichlet ta luôn tìm được %(a_{i})% và %(a_{j})% thỏa mãn tính chất trên.<br>Suy ra %(a_{i} \\cdot a_{j}=3^{m_{i}+m_{j}} 5^{n_{i}+n_{j}} 7^{p_{i}+p_{j}})% mà %(m_{i} \\equiv m_{j}(\\bmod 2))% nên %(m_{i}+m_{j})% chia hết cho 2.<br>Tương tự ta có %(n_{i}+n_{j})% chia hết cho 2 và %(p_{i}+p_{j})% chia hết cho 2.<br>Do đó tích %(a_{i} \\cdot a_{j})% là số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Công ty %(X)% và công ty %(Y)% là hai công ty có uy tín tại Hà Nội mà anh Minh đang có nhu cầu xin vào làm việc. Cả hai công ty đều có chế độ thu hút người tài và đưa ra hình thức trả lương trong thời gian thử việc như sau:Công ty X : Anh Minh nhận được 1500USD ngay khi ký hợp đồng thử việc và mỗi tháng sẽ được trả lương 1800 USD.Công ty Y: Anh Minh nhận được 2500USD ngay khi ký hợp đồng thử việc và mỗi tháng sẽ được trả lương 1600USD.Em hãy tư vấn giúp anh Minh lựa chọn công ty nào để thử việc sao cho tổng số tiền thử việc nhận được là lớn nhất. Biết thời gian thử việc của cả hai công ty đều từ 3 tháng đến 8 tháng.",
+        "question_images": [],
+        "solution": "Gọi %(n)% là số tháng thử việc của cả hai công ty %((n \\in \\mathbb{N}, 3 \\leq n \\leq 8))%<br>Khi đó số tiền thử việc ở công ty %(X)% là %(A=1800 n+1500)%, số tiền thử việc ở công ty %(Y)% là %(B=1600 n+2500)%<br>Xét hiệu %(A-B=200 n-1000)%<br>Khi đó ta có %(A=B \\Leftrightarrow n=5)%<br>\\[\\begin{array}{l}A\\gt B \\Leftrightarrow n>5 \\A\\lt B \\Leftrightarrow n\\lt 5\\end{array}\\]<br>Vậy ta có kết luận nếu thời gian thử việc là 5 tháng thì cả hai công ty là như nhau, còn thời gian thử việc lớn hơn 5 tháng thì chọn công ty %(X)%, nếu thời gian thử việc ít hơn 5 tháng thì chọn công ty %(Y)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho điểm %(A)% nằm ngoài đường tròn %((O ; R))%. Từ %(A)% kẻ hai tiếp tuyến %(A B, A C)% và cát tuyến %(A D E)% không đi qua tâm đường tròn %((O ; R)(B, C)% là tiếp điểm; %(D)% nằm giữa %(A)% và %(E)% ). Tiếp tuyến tại %(D)% của đường tròn %((O))% cắt %(A B, A C)% theo thứ tự tại %(I)% và %(K)%. Gọi %(H)% là giao điểm của %(A O)% và %(B C)%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(B A O=B C O)%.",
+        "question_images": [],
+        "solution": "<img alt=\"MĐ10021 c8.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/553f7a5d12f41ed7e8e2effa10319451.png\" srcset=\"https://docdn.giainhanh.io/media/test/2817eee59a07f275f7aa2468ae7b474c.png 206w,https://docdn.giainhanh.io/media/test/b712aae0095c71d7c6bb35fddc304938.png 500w,https://docdn.giainhanh.io/media/test/9ecb685df7926e2e4ca28ef010bf8ae0.png 750w,https://docdn.giainhanh.io/media/test/b267e455c0aa6bd92e854b092188cc39.png 1000w,\" width=\"1000px\"/><br>Vì %(A B O=A C O=90^{\\circ})% nên %(A B O C)% nội tiếp, do đó %(B A O=B C O)% (cùng chắn cung %(B O)% )",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh %(\\frac{A H}{A D}=\\frac{A E}{A O})%.",
+        "question_images": [],
+        "solution": "Ta có %(A B D=A E B)% (Cùng chắn cung BD ). Do đó %(\\triangle A D B \\sim \\triangle A B E(g \\cdot g))%. Do đó %(A D \\cdot A E=A B^{2}=A H . A O)%. Từ đó thì %(\\frac{A H}{A D}=\\frac{A E}{A O})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tính số đo góc %(I O K)% khi %(O A=2 R)%.",
+        "question_images": [],
+        "solution": "Theo tính chất hai tiếp tuyến cắt nhau thì %(O I)% là phân giác %(B O D, O K)% là phân giác %(C O D)%.<br>Từ đó thì %(I O K=I O D+D O K=\\frac{1}{2} B O D+\\frac{1}{2} C O D=\\frac{1}{2} B O C=A O B)%<br>Mặt khác, %(\\cos A O B=\\frac{O B}{O A}=\\frac{R}{2 R}=\\frac{1}{2})%.<br>Do đó %(A O B=60^{\\circ})%. Vậy %(I O K=60^{\\circ})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 1.0,
+        "content": "d) Qua điểm %(O)% kẻ đường thẳng vuông góc với %(O A)% cắt %(A B)% tại %(P)% và cắt %(A C)% tại %(Q)%. Chứng minh rằng %(I P+K Q \\geq P Q)%",
+        "question_images": [],
+        "solution": "Vì %(A O)% là phân giác %(B A C)% mà %(O A \\perp P Q)% nên %(\\triangle P A Q)% cân tại %(A)%<br>Ta có %(I_{2}+O_{2}=180^{\\circ}-P_{1}=180^{\\circ}-Q_{1}=O_{1}+K_{2})%(1), %(I_{2}+K_{2}=I_{1}+K_{1}=180^{\\circ}-I O K=O_{1}+O_{2})% (2)<br>Lấy (1) cộng (2) vế theo vế, ta được %(2 I_{2}+O_{2}+K_{2}=2 O_{1}+K_{2}+O_{2})%, do đó %(I_{2}=O_{1})% nên %(O_{2}=K_{2})% do đó %(\\triangle I O P \\sim \\triangle O K Q(g . g))%.<br>Vậy %(I P . K Q=O Q . O P)%.<br>Do đó %(I P+K Q \\geq 2 \\sqrt{I P \\cdot K Q}=2 \\sqrt{O P \\cdot O Q}=2 O P=P Q)%<br>Dấu đẳng thức xảy ra khi và chỉ khi %(I P=K Q=O P=O Q)%, khi đó %(I_{1}=I_{2}=O_{2})%, khi đó %(I K / / P Q)%, mà %(O D \\perp I K)%, khi đó %(O D \\perp P Q)%, mà %(O A \\perp P Q)% nên %(O, A, D)% thẳng hàng, rõ ràng điều này mâu thuẫn với giả thiết, vậy dấu bằng không xảy ra.<br>Do đó ta có %(I P+K Q\\gt P Q)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C)% cân đỉnh %(A)%. Gọi %(O)% là trung điểm của %(B C)%. Đường tròn %((O))% tiếp xúc với %(A B)% ở %(E)%, tiếp xúc với %(A C)% ở %(F)%. Điểm %(H)% chạy trên cung nhỏ %(E F)%, tiếp tuyến của đường tròn tại %(H)% cắt %(A B, A C)% lần lượt tại %(M, N)%. Xác định vị trí của điểm %(H)% để diện tích tứ giác %(B M N C)% đạt giá trị nhỏ nhất.",
+        "question_images": [],
+        "solution": "Theo tính chất hai tiếp tuyến cắt nhau, ta có %(M_{1}=M_{2}, N_{1}=N_{2})%<br>Vậy %(M_{1}+O_{1}=180^{\\circ}-A B C=180^{\\circ}-A C B=N_{1}+O_{2})%<br>Mặt khác %(M_{1}+N_{1}=M_{2}+N_{2}=180^{\\circ}-M O N=O_{1}+O_{2}(2))%.<br>Lấy (1) cộng vế theo vế với (2), ta có:<br>Do đó %(M_{1}=O_{2})%. Từ đó thì %(\\triangle O B M \\sim \\triangle N C O(g . g))%.<br>Suy ra %(B M \\cdot C N=O B \\cdot O C=O B^{2})%<br>Theo bất đẳng thức %(A M-G M)% thì %(B M+C N \\geq 2 O B)%<br>Kẻ %(M K \\perp A N(K \\in A N))%<br>Khi đó theo bất đẳng thức %(A M-G M)% thì:<br>\\[\\begin{array}{l}S_{A M N}=\\frac{1}{2} M K \\cdot A N=\\frac{1}{2} A M \\cdot A N \\cdot \\sin B A C \\leq \\frac{1}{8}(A M+A N)^{2} \\cdot \\sin B A C=\\frac{1}{8} \\cdot \\sin B A C \\cdot(2 A B-B M-C N)^{2} \\\\leq \\frac{1}{8} \\cdot \\sin B A C \\cdot(2 A B-2 O B)^{2} \\end{array}\\]<br>không đổi.<br>Dấu đẳng thức xảy ra khi và chỉ khi %(B M=C N=O B=O C, A M=A N)%.<br>Từ đó thì %(M_{1}=M_{2}=O_{1})%.<br>Do đó %(M N \\| B C)%. Vậy %(O H \\perp B C)%.<br>Mà %(O A \\perp B C)% nên %(O, H, A)% thẳng hàng<br>Từ đó thì %(H)% là giao điểm %(O A)% với %((O))%<br>Tóm lại %(M a x S_{A M N}=\\frac{1}{8} \\cdot \\sin B A C \\cdot(2 A B-2 O B)^{2})% khi %(H)% là giao điểm của %(O A)% với %((O))%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.75,
+        "content": "Giải phương trình<br>\\[\\frac{1}{\\sqrt{5 x^{2}+10 x+30}}+\\frac{1}{3 \\sqrt{x^{2}-2 x+6}}=\\frac{1}{3 \\sqrt{5}}+\\frac{1}{\\sqrt{x^{4}+8 x^{2}+36}}\\]",
+        "question_images": [],
+        "solution": "Phương trình luôn luôn xác định với mọi số thực %(x)%.<br>Đặt %(a=\\sqrt{x^{2}+2 x+6}, b=\\sqrt{x^{2}-2 x+6})%<br>Khi đó ta có: %(a b=\\sqrt{x^{4}+8 x^{2}+36})%<br>Phương trình đã cho có thể được viết lại thành<br>\\[\\frac{1}{\\sqrt{5 a}}+\\frac{1}{\\sqrt{3 b}}=\\frac{1}{3 \\sqrt{5}}+\\frac{1}{a b}\\]<br>Hay %((a-3)(b-\\sqrt{5})=0)%<br>Từ đây ta có %(a=3)% hoặc %(b=\\sqrt{5})%.<br>Xét từng trường hợp, ta tìm được tập nghiệm của phương trình đã cho là %(S=\\{1 ;-3\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.75,
+        "content": "Giải hệ phương trình<br>\\[\\left\\{\\begin{array}{l}\\left(\\frac{1}{x}+\\frac{1}{y}\\right)(3+x y)=8 \\\\frac{x}{y}+\\frac{2 y}{x}+\\frac{1}{x}+\\frac{1}{y}=5\\end{array}\\right.\\]",
+        "question_images": [],
+        "solution": "Điều kiện: %(x y \\neq 0)%<br>Phương trình thứ hai có thể được viết lại thành<br>\\[\\frac{x}{y}+\\frac{2 y}{x}+\\frac{1}{x}+\\frac{1}{y}+3=8\\]<br>Hay %(\\left(\\frac{1}{x}+\\frac{1}{y}\\right)(x+2 y+1)=8)%<br>Kết hợp với phương trình thứ nhất của hệ, ta được<br>\\[x y+3=x+2 y+1\\]<br>Hay %((x-2)(y-1)=0)%<br>Từ đó %(x=2)% hoặc %(y=1)%<br>Xét từng trường hợp ta tìm được tất cả các nghiệm %((\\mathrm{x}, \\mathrm{y}))% của hệ phương trình đã cho là<br>\\[(1,1),(3,1),\\left(2, \\frac{9-\\sqrt{33}}{4}\\right),\\left(2, \\frac{9+\\sqrt{33}}{4}\\right)\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.25,
+        "content": "Tìm các số nguyên dương %(x, y, z)% thỏa mãn hệ phương trình<br>\\[\\left\\{\\begin{array}{l}27 x^{3}+27 x^{2}+10 y=(x+3 z)^{3} \\\\27 y^{3}+27 y^{2}+10 x=(y+3 z)^{3}\\end{array}\\right.\\]",
+        "question_images": [],
+        "solution": "Không mất tính tổng quát, giả sử %(x \\geq y)%<br>Từ giả thiết ta có: %(27 x^{3}+27 x^{2}+10 y)% là số lập phương<br>Mặt khác ta lại có<br>\\[(3 x)^{3}=27 x^{3}\\lt 27 x^{3}+27 x^{2}+10 y \\leq 27 x^{3}+27 x^{2}+10 x\\lt (3 x+2)^{3}\\]<br>Nên %(27 x^{3}=27 x^{2}+10 y=(3 x+1)^{3})% hay %(10 \\mathrm{y}=9 \\mathrm{x}+1)%<br>Khi đó ta có<br>\\[27 y^{3}+27 y^{2}+10 x=27 y^{3}+27 y^{2}+\\frac{100 y-10}{9}\\]<br>Theo giả thiết thì %(27 y^{3}+27 y^{2}+10 x)% là số lập phương nên%(27 y^{3}+27 y^{2}+\\frac{100 y-10}{9})% là số lập phương<br>Mặt khác ta lại có<br>\\[(3 y)^{3}\\lt 27 y^{3}+27 y^{2}+\\frac{100 y-10}{9}\\lt (3 y+2)^{3}\\]<br>Nên %(27 y^{3}+27 y^{2}+\\frac{100 y-10}{9}=(3 y+1)^{3})% hay %(\\mathrm{y}=1)%.<br>Kết hợp với %(10 y=9 x+1)% ta được %(x=1)%<br>Thay trở lại giả thiết ta tìm được ngay %(z=1)%.Vậy có duy nhất một bộ số %((x, y, z))% thỏa mãn yêu cầu đề bài là %((1,1,1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.25,
+        "content": "Với a, b, c là các số thực dương thỏa mãn điều kiện<br>\\[(a+2) b^{2}+(b+2) c^{2}+(c+2) a^{2} \\geq 8+a b c\\]<br>Chứng minh rằng:<br>\\[2(a b+b c+c a) \\leq a^{2}(a+b)+b^{2}(b+c)+c^{2}(c+a)\\]",
+        "question_images": [],
+        "solution": "Giả thiết của bài toán có thể được viết lại thành<br>\\[8 \\leq 2\\left(a^{2}+b^{2}+c^{2}\\right)+\\left(a b^{2}+b c^{2}+c a^{2}-a b c\\right)\\]<br>Không mất tính tổng quát, giả sử %(b)% nằm giữa %(\\mathrm{a})% và %(\\mathrm{c})%<br>Khi đó ta có %(a(b-c)(b-a) \\leq 0)%<br>Suy ra %(a b^{2}+c a^{2} \\leq a b c+a^{2} b)%<br>Từ đây, kết hợp với bất đẳng thức %(\\mathrm{AM}-\\mathrm{GM})% ta có<br>\\[\\begin{array}{l} a b^{2}+b c^{2}+c a^{2}-a b c \\leq b\\left(a^{2}+c^{2}\\right)=\\sqrt{b^{2}\\left(a^{2}+c^{2}\\right)^{2}}=2 \\sqrt{b^{2} \\cdot \\frac{a^{2}+c^{2}}{2} \\cdot \\frac{a^{2}+c^{2}}{2}} \\\\leq 2 \\sqrt{\\left(\\frac{a^{2}+b^{2}+c^{2}}{3}\\right)^{3}}\\end{array}\\]<br>Kết hợp với giả thiết (1) ta được<br>\\[8 \\leq 2\\left(a^{2}+b^{2}+c^{2}\\right)+2 \\sqrt{\\left(\\frac{a^{2}+b^{2}+c^{2}}{3}\\right)^{3}}\\]<br>Từ đó, ta dễ dàng suy ra %(a^{2}+b^{2}+c^{2} \\geq 3)%<br>Kết hợp với các bất đẳng thức phụ quen thuộc %(a b+b c+c a \\leq \\frac{1}{3}(a+b+c)^{2})% và<br>\\[\\begin{array}{l}a b+b c+c a \\leq a^{2}+b^{2}+c^{2}, \\text { ta được } \\\\2(a b+b c+c a)=2 \\sqrt{a b+b c+c a} \\cdot \\sqrt{a b+b c+c a}\\end{array}\\]<br>\\[\\begin{array}{l}\\leq 2 \\cdot \\sqrt{\\frac{1}{3}(a+b+c)^{2}} \\cdot \\sqrt{a^{2}+b^{2}+c^{2}} \\cdot \\sqrt{\\frac{a^{2}+b^{2}+c^{2}}{3}} \\\\=\\frac{2}{3}(a+b+c)\\left(a^{2}+b^{2}+c^{2}\\right)\\end{array}\\]<br>Như vậy, để chứng minh bất đẳng thức đã cho, ta chỉ cần chứng minh<br>\\[a^{2}(a+b)+b^{2}(b+c)+c^{2}(c+a) \\geq \\frac{2}{3}(a+b+c)\\left(a^{2}+b^{2}+c^{2}\\right)\\]<br>Bất đẳng thức này tương đương với<br>\\[a^{3}+b^{3}+c^{3}+a^{2} b+b^{2} c+c^{2} a \\geq 2 a b^{2}+2 b c^{2}+2 c a^{2}\\]<br>Hay<br>\\[b(a-b)^{2}+c(b-c)^{2}+a(c-a)^{2} \\geq 0\\]<br>Bất đẳng thức cuối hiển nhiên đúng<br>Từ đây ta có đpcm",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho hình vuông ABCD. Lấy điểm P thuộc cạnh AB (P khác A và B). Gọi J là tâm đường tròn nội tiếp của tam giác PAD.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a)Chứng minh rằng tứ giác PJDB nội tiếp",
+        "question_images": [],
+        "solution": "a) Hai tam giác %(\\mathrm{AJD})% và %(\\mathrm{AJB})% bằng nhau %((\\mathrm{c}-\\mathrm{g}-\\mathrm{c})% ) nên %(A D J=A B J=P D J)%<br>Từ đó suy ra tứ giác BDJP nội tiếp.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9b0f2f42b535cb8f77b3ba81868a4b72.png\" srcset=\"https://docdn.giainhanh.io/media/test/22184efc18b58da053c8a3961c2be426.png 245w, https://docdn.giainhanh.io/media/test/dab35d839bb52449fb32f75db1ad2117.png 500w, https://docdn.giainhanh.io/media/test/b4c388b0878a310edbd5a8e2ba5f42d2.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b)Gọi H là trực tâm của tam giác PJD, S là giao điểm của JH và AD. Chứng minh rằng SH = SD.",
+        "question_images": [],
+        "solution": "b) Gọi %(\\mathrm{M})% là giao điểm của hai đường thẳng %(\\mathrm{PJ})% và %(\\mathrm{HD})%Vì %(D B P=45^{\\circ})% nên %(M J D=45^{\\circ})%<br>Suy ra %(M D J=45^{\\circ})%<br>Từ đây ta có %(D H P=45^{\\circ})%<br>Mặt khác, ta lại có %(J H P=J D P=J D S)% nên %(D H P-S H P=M D J-J D S)%<br>Từ đó %(S H D=S D H)%<br>Suy ra SH = SD.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c)Gọi %(\\mathrm{L})% là tâm đường tròn nội tiếp của tam giác %(\\mathrm{PBC}, \\mathrm{K})% là trực tâm của tam giác %(\\mathrm{LPC})%. Đường tròn nội tiếp của tam giác %(\\mathrm{PCD})% tiếp xúc %(\\mathrm{CD})% tại %(\\mathrm{E})%. Lấy %(\\mathrm{F})% thuộc đoạn thẳng %(\\mathrm{CD})% sao cho %(\\mathrm{CF}=\\mathrm{DE})%. Chứng minh rằng tam giác %(\\mathrm{FHK})% vuông cân.",
+        "question_images": [],
+        "solution": "Gọi Z là giao điểm của đường thẳng %(\\mathrm{KL})% và đường thẳng %(\\mathrm{PC})%%(\\mathrm{X})% là giao điểm của đường thẳng %(\\mathrm{HJ})% và %(\\mathrm{PD})%Gọi %(\\mathrm{G}, \\mathrm{T})% tương ứng là hình chiếu vuông góc của các điểm %(\\mathrm{H}, \\mathrm{K})% trên đường thẳng %(\\mathrm{CD})%. Ta có:%(D H G=S D H=S H D)%<br>Do đó: %(D G=D X=\\frac{D A+D P-A P}{2})%<br>Hoàn toàn tương tự, ta cũng có %(C T=C Z=\\frac{C P+C B-B P}{2})% và %(C F=D E=\\frac{D C+D P-C P}{2})%<br>Đến đây, với chú ý tam giác HPD có %(P H D=45^{\\circ})% và %(\\mathrm{J})% là trực tâm tam giác, ta dễ dàng chứng minh được %(\\mathrm{HJ}=)% DP (đây là một kết quả quen thuộc)<br>Lại có: %(J X=\\frac{A P+A D-D P}{2})% nên<br>\\[H X=\\frac{A D+A P+D P}{2}=C F+C T=T F\\]<br>Chứng minh tương tự ta có %(\\mathrm{KT}=\\mathrm{FG})%.<br>Từ đó, %(\\triangle G H F \\sim \\Delta T F K(c-g-c))%<br>Từ đây ta dễ dàng suy ta tam giác FHK vuông cân.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho bảng ô vuông kích thước ( 2023 × 2023), ô vuông có kích thước (1 x 1) được gọi là ô vuông đơn vị. Mỗi ô vuông đơn vị của bảng được tô bằng một tròn 2 màu đen hoặc trắng sao cho mỗi ô vuông đơn vị tô màu đen được kề với ít nhất 3 ô vuông đơn vị tô màu trắng (2 ô vuông đơn vị có cạnh chung được gọi là kề nhau). Hỏi số ô vuông đơn vị được tô màu đen nhiều nhất là bao nhiêu?",
+        "question_images": [],
+        "solution": "Bảng ô vuông đã cho có thể chia thành 1022121 bảng con kích thước %(2 \\times 2)%1011 bảng con kích thước %(2 \\times 1)% ở rìa phải của bảng đã cho 1011 bảng con kích thước %(1 \\times 2)% ở rìa bên dưới của bảng đã cho và một bảng con kích thước %(1 \\times 1)% ở góc dưới bên phải<br>Ta thấy:<br>+ Mỗi bảng con %(2 \\times 2)% có nhiều nhất hai ô vuông được tô màu đen (nếu có ba ô vuông được tô màu đen thì sẽ có một ô đen mà chỉ có không quá hai ô kề với nó được tô màu trắng, mâu thuẫn)<br>+ Mỗi bảng con %(2 \\times 1)% có nhiều nhất một ô vuông được tô màu đen (Nếu cả hai ô vuông đều được tô màu đen thì mỗi ô sẽ có không quá hai ô kề với nó được tô màu trắng, mâu thuẫn)<br>+ Mỗi bảng con %(1 \\times 2)% có nhiều nhất một ô vuông được tô màu đen (Nếu cả hai ô vuông đều được tô màu đen thì mỗi ô sẽ có không quá hai ô kề với nó được tô màu trắng, mâu thuẫn)<br>+ Bảng con %(1 \\times 1)% ở góc dưới bên phải chỉ có hai ô kề với nó nên được tô màu trắng.<br>Như vậy, số ô vuông được tô màu đen không vượt quá<br>\\[1022121.2+1011+1011=2046264\\]<br>Mặt khác, cách tô màu sau thỏa mãn yêu cầu bài toán.<br>Vậy số ô vuông được tô màu đen nhiều nhất là 2046264.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/6c25740d1161350efd806f22a02ce425.png\" srcset=\"https://docdn.giainhanh.io/media/test/3643849435148071fad900402d3556b3.png 168w, https://docdn.giainhanh.io/media/test/3cb24a6e1b7db706f8320fd04c4ed71a.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

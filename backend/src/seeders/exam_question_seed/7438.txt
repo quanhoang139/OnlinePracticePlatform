@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Rút gọn biểu thức %(A=\\left(\\frac{1}{\\sqrt{\\sqrt{x}+4}-2}+\\frac{1}{\\sqrt{\\sqrt{x}+4}+2}\\right): \\frac{1}{\\sqrt{x}})%",
+        "question_images": [],
+        "solution": "Điều kiện: %(x\\gt 0)%. Với %(x>0)% ta có:<br>\\[\\begin{aligned}A & =\\left(\\frac{1}{\\sqrt{\\sqrt{x}+4}-2}-\\frac{1}{\\sqrt{\\sqrt{x}+4}+2}\\right): \\frac{1}{\\sqrt{x}} \\\\& =\\left(\\frac{\\sqrt{\\sqrt{x}+4}+2-(\\sqrt{\\sqrt{x}+4}-2)}{(\\sqrt{\\sqrt{x}+4}-2)(\\sqrt{\\sqrt{x}+4}+2)}\\right) ; \\frac{1}{\\sqrt{x}} \\\\& =\\left(\\frac{\\sqrt{\\sqrt{x}+4}+2-\\sqrt{\\sqrt{x}+4}+2}{\\sqrt{x}+4-4}\\right) ; \\frac{1}{\\sqrt{x}} \\\\& =\\frac{4}{\\sqrt{x}}: \\frac{1}{\\sqrt{x}}=\\frac{4}{\\sqrt{x}} \\cdot \\sqrt{x}=4\\end{aligned}\\]<br>Vậy với %(x>0)% thì %(P=4)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho phương trình %(x^{2}-(m-1) x-2(m+1)=0)% (với %(\\mathrm{m})% là tham số). Tìm %(\\mathrm{m})% để phương trình có hai nghiệm %(x_{1}, x_{2})% thỏa mãn %(x_{1}^{2} x_{2}+x_{1} x_{2}^{2}=x_{1}+x_{2})%",
+        "question_images": [],
+        "solution": "Để phương trình đã cho có nghiệm thì<br>\\[\\begin{aligned}\\Delta \\geq 0 & \\Leftrightarrow(m-1)^{2}+8(m+1) \\geq 0 \\\\& \\Leftrightarrow m^{2}+6 m+9 \\geq 0 \\\\& \\Leftrightarrow(m+3)^{2} \\geq 0(\\text { ld })\\end{aligned}\\]<br>Theo định lý Viet ta có: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=m-1 \\\\ x_{1} x_{2}=-2(m+1)\\end{array}\\right.)%<br>Ta có:<br>\\[\\begin{array}{l}x_{1}^{2} x_{2}+x_{1} x_{2}^{2}=x_{1}+x_{2} \\\\Leftrightarrow x_{1} x_{2}\\left(x_{1}+x_{2}\\right)=x_{1}+x_{2}\\end{array}\\]<br>Thay (1) vào (2) ta được:<br>\\[\\begin{array}{l}-2(m+1)(m-1)=m-1 \\\\Leftrightarrow-2\\left(m^{2}-1\\right)=m-1 \\\\Leftrightarrow 2 m^{2}+m-3=0 \\\\Leftrightarrow(m-1)(2 m+3)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}m=1 \\m=-\\frac{3}{2}\\end{array}\\right.\\end{array}\\]<br><img/><br><img/><br><img/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Trong mặt phẳng %(\\mathrm{Oxy})%, cho parabol %((\\mathrm{P}))% có phương trình %(y=x^{2})% và đường thẳng %((\\mathrm{d}))% có phương trình %(y=(\\sqrt{2}+1) x+\\sqrt{2}+2)%. Tìm tọa độ giao điểm của parabol %((\\mathrm{P}))% và đường thẳng %((\\mathrm{d}))%.",
+        "question_images": [],
+        "solution": "Ta có phương trình hoành độ giao điểm của %((P))% và %((d))% là:<br>\\[x^{2}=(\\sqrt{2}+1) x+\\sqrt{2}+2 \\Leftrightarrow x^{2}-(\\sqrt{2}+1) x-\\sqrt{2}-2=0\\]<br>Ta có: %(a-b+c=1+(\\sqrt{2}+1)-\\sqrt{2}-2=0)% nên phương trình đã cho có nghiệm là: %(\\left[\\begin{array}{ll}x=-1 \\\\ x=2+\\sqrt{2}\\end{array}\\right.)%<br>- Với %(x=-1)% thay vào %((P))% ta dược: %(y=1  \\Rightarrow A(-1 ; 1))%<br>- Với %(x=2+\\sqrt{2})% thay vào %((P))% ta dược: %(y=6+4 \\sqrt{2}   \\Rightarrow B(2+\\sqrt{2} ; 6+4 \\sqrt{2}))%<br>Vậy tọa độ giao điểm của Parabol %((P))% và đường thẳng %((d))% là: %(A(-1 ; 1))% và %(B(2+\\sqrt{2} ; 6+4 \\sqrt{2}))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tìm tất cả nghiệm nguyên %((\\mathrm{x}, \\mathrm{y}))% của phương trình<br>\\[x^{2}-4 x y+5 y^{2}=2(x-y+1)\\]",
+        "question_images": [],
+        "solution": "Ta có phương trình:<br>\\[\\begin{aligned}& x^{2}-4 x y+5 y^{2}=2(x-y+1) \\\\Leftrightarrow & x^{2}-4 x y+5 y^{2}-2 x+2 y-2=0 \\\\Leftrightarrow & x^{2}-2(2 y+1) x+5 y^{2}+2 y-2=0\\end{aligned}\\]<br>Ta có phương trình %(\\left(^{*}\\right))% là phương trình bậc 2 theo ẩn %(x)%. Ta có:<br>\\[\\Delta^{\\prime}=(2 y+1)^{2}-\\left(5 y^{2}+2 y-2\\right)=-y^{2}+2 y+3\\]<br>để phương trình %(\\left({ }^{*}\\right))% có nghiệm thì<br>\\[\\begin{aligned}\\Delta^{\\prime} \\geq 0 & \\Leftrightarrow-y^{2}+2 y+3 \\geq 0 \\\\& \\Leftrightarrow-(y-1)^{2}+4 \\geq 0 \\\\& \\Leftrightarrow(y-1)^{2} \\leq 4 \\\\& \\Leftrightarrow|y-1| \\leq 2 \\\\& \\Leftrightarrow-2 \\leq y-1 \\leq 2 \\\\& \\Leftrightarrow-1 \\leq y \\leq 3\\end{aligned}\\]<br>Mà %(y \\in \\mathbb{Z})% nên %(y \\in\\{-1 ; 0 ; 1 ; 2 ; 3\\})%<br>- Với %(y=-1)% thay vào (*) ta dược: %(x^{2}+2 x+1=0 \\Leftrightarrow x=-1)%. (chọn)<br>- Với %(y=0)% thay vào %(\\left(^{*}\\right))% ta dược: %(x^{2}-2 x-2=0 \\Leftrightarrow\\left[\\begin{array}{l}x=1+\\sqrt{3} \\\\ x=1-\\sqrt{3}\\end{array}\\right.)% (loại, vì %(x \\notin \\mathbb{Z})% )<br>- Với %(y=1)% thay vào (*) ta dược: %(x^{2}-6 x+5=0 \\Leftrightarrow\\left[\\begin{array}{ll}x=1 \\\\ x=5\\end{array}\\right.)% (chọn)<br>- Với %(y=2)% thay vào %(\\left(^{*}\\right))% ta dược: %(x^{2}-10 x+22=0 \\Leftrightarrow\\left[\\begin{array}{l}x=5+\\sqrt{3} \\\\ x=5-\\sqrt{3}\\end{array}\\right.)% (loại, vì %(x \\notin \\mathbb{Z})% )<br>- Với %(y=3)% thay vào (*) ta dược: %(x^{2}-14 x+49=0 \\Leftrightarrow x=7)% (chọn)<br>Vậy phương trình đã cho có nghiệm là: %((x ; y)=(1 ; 1) ;(5 ; 1) ;(-1 ;-1) ;(7 ; 3))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho đường tròn %((\\mathrm{O} ; \\mathrm{R}))% có đường kính %(\\mathrm{AB})% cố định, %(\\mathrm{I})% là điểm thuộc đoạn thẳng %(\\mathrm{AO})% sao cho %(\\mathrm{AI}=2 \\mathrm{IO})%. Đường thẳng qua %(\\mathrm{I})% vuông góc với đường thẳng %(\\mathrm{AB})% cắt đường tròn %((\\mathrm{O}))% tại hai điểm phân biệt %(\\mathrm{M})% và %(\\mathrm{N})%. Điểm %(\\mathrm{C})% di động trên cung nhỏ %(\\mathrm{MB}(\\mathrm{C})% không trùng với %(\\mathrm{M})% và %(\\mathrm{B}), \\mathrm{E})% là giao điểm của hai đường thẳng %(\\mathrm{AN})% và %(\\mathrm{BM})%. Đường thẳng qua %(\\mathrm{E})% vuông góc với đường thẳng %(\\mathrm{AB})% cắt đường thẳng %(\\mathrm{AM})% tại %(\\mathrm{F})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh rằng bốn điểm %(\\mathrm{M}, \\mathrm{N}, \\mathrm{E}, \\mathrm{F})% cùng thuộc một đường tròn.",
+        "question_images": [],
+        "solution": "Dễ thấy %(\\triangle A M N)% cân tại %(A \\Rightarrow \\widehat{A M N}=\\widehat{A N M})% mà %(E F / / M N)% ( cùng vuông góc với %(O A)% ). %(\\Rightarrow \\widehat{A M N}=\\widehat{A N M}=\\widehat{F E N} \\Rightarrow M, N, F, E)% cùng thuộc 1 dường tròn.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/36a45ab6200b74ea76d5918bcc0af37b.png\" srcset=\"https://docdn.giainhanh.io/media/test/117db69f268ef7cedb2beeba8afc92b0.png 114w, https://docdn.giainhanh.io/media/test/b4c4015605d37090ffed55f512b1c436.png 366w\" width=\"366\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Gọi %(\\mathrm{D})% là giao điểm của hai đường thẳng %(\\mathrm{AC})% và %(\\mathrm{MN})%. Chứng minh rằng<br>\\[A D \\cdot A C-A I \\cdot I B=A I^{2}\\]",
+        "question_images": [],
+        "solution": "\\[A D \\cdot A C-A I \\cdot I B=A I^{2} \\Leftrightarrow A D \\cdot A C=A I(A I+I B) \\Leftrightarrow A D \\cdot A C=A I \\cdot I B\\]<br>Mà do %(\\mathrm{DCIB})% là tứ giác nội tiếp (vì %(D I B+D C B=180^{\\circ})% )<br>%(\\Rightarrow)% đpcm<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a6ab5f3a7bba1c470886acda0610decb.png\" srcset=\"https://docdn.giainhanh.io/media/test/3b000cc52d0175b707fdfff2c7bc1035.png 118w, https://docdn.giainhanh.io/media/test/f88eaa163b95bc9f4643498cd2957ab4.png 377w\" width=\"377\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Gọi %(K)% là tâm của đường tròn ngoại tiếp tam giác %(\\mathrm{MCD})%. Tìm giá trị lớn nhất của biểu thức:<br>\\[P=2 K M \\cdot K B-M K \\cdot M B\\]",
+        "question_images": [],
+        "solution": "Trước hết ta chứng minh %(\\mathrm{K}, \\mathrm{M}, \\mathrm{B})% thẳng hàng<br>Thật vậy, ta có %(\\widehat{A M K}=\\widehat{A M D}+\\widehat{D M K}=\\widehat{A M D}+90^{\\circ}-\\frac{\\widehat{M K D}}{2}=\\widehat{A M D}+90^{\\circ}-\\widehat{M C D})%<br>Mà %(\\widehat{A M D}=\\widehat{M C D})% ( 2 góc nội tiếp chắn 2 cung bằng nhau) %(\\Rightarrow \\widehat{A M K}=90^{\\circ})%.<br>Mà %(\\widehat{A M B}=90^{\\circ} \\Rightarrow K, M, B)% thẳng hàng.Ta có:<br>\\[\\begin{aligned}P & =2 K M \\cdot K B-K M \\cdot M B \\\\& =K M(2 K B-M B) \\\\& =K M(K B-K M) \\\\& =\\frac{(2 K M)(K B-K M)}{2} \\\\& \\leq \\frac{(K B+K M)^{2}}{8} \\\\& =\\frac{M B^{2}}{8}\\end{aligned}\\]<br>Mặt khác:<br>\\[M B^{2}=I A \\cdot I B=\\frac{8}{3} R^{2}\\]<br>Suy ra:<br>\\[P \\leq \\frac{R^{2}}{3}\\]<br>Vậy giá trị lớn nhất của biểu thức %(P)% là: %(\\frac{R^{2}}{3})% xảy ra khi %(M K=\\frac{1}{4} M B)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Giải phương trình %(3 x+2 \\sqrt{\\left(x^{2}+5\\right)(x-1)}=x^{2}+8)%",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq 1)%.Ta có:<br>\\[\\begin{aligned}& 3 x+2 \\sqrt{\\left(x^{2}+5\\right)(x-1)}=x^{2}+8 \\\\Leftrightarrow & 3(x-1)+2 \\sqrt{\\left(x^{2}+5\\right)(x-1)}=x^{2}+5\\end{aligned}\\]<br>Ta dặt: %(\\left\\{\\begin{array}{l}x-1=v \\\\ x^{2}+5=u\\end{array}\\right.)%<br>Phương trình dã cho trở thành:<br>\\[\\begin{aligned}& 3 v+2 \\sqrt{u v}=u \\\\Leftrightarrow & 2 \\sqrt{u v}=u-3 v \\\\Leftrightarrow & 4 u v=(u-3 v)^{2}(u \\geq v, \\forall u, v) \\\\Leftrightarrow & 4 u v=u^{2}-6 u v+9 v^{2} \\\\Leftrightarrow & u^{2}-10 u v+9 v^{2}=0 \\\\Leftrightarrow & (u-v)(u-9 v)=0 \\\\Leftrightarrow & {\\left[\\begin{array}{l}u=v \\u=9 v\\end{array}\\right.}\\end{aligned}\\]<br>- Với %(u=v)% thì %(x^{2}+5=x-1 \\Leftrightarrow x^{2}-x+6=0)% (phương trình vô nghiệm).<br>- Với %(u=9 v)% thì %(x^{2}+5=9(x-1) \\Leftrightarrow x^{2}-9 x+14=0 \\Leftrightarrow\\left[\\begin{array}{l}x=2 \\\\ x=7\\end{array}\\right.)% (thỏa mãn diều kiện).<br>Vậy phương trình dã cho có nghiệm là: %(x=2 ; x=7)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}\\left.x \\sqrt{12-y}+\\sqrt{y\\left(12-x^{2}\\right.}\\right)=12 \\\\ x^{3}=8 x+1+2 \\sqrt{y-2}\\end{array} \\quad(x, y \\in R)\\right.)%",
+        "question_images": [],
+        "solution": "Điều kiện xác định: %(\\left\\{\\begin{array}{l}-2 \\sqrt{3} \\leq x \\leq 2 \\sqrt{3} \\\\ 2 \\leq y \\leq 12\\end{array}\\right.)%<br>Ta có: %(\\left\\{\\begin{array}{l}x \\sqrt{12-y}+\\sqrt{y\\left(12-x^{2}\\right)}=12 \\\\ x^{3}=8 x+1+2 \\sqrt{y-2}\\end{array}\\right.)%(1) %((x, y \\in \\mathbb{R}))%.<br>\\[\\begin{array}{l}\\Leftrightarrow \\sqrt{y\\left(12-x^{2}\\right)}=12-x \\sqrt{12-y} \\\\Leftrightarrow y\\left(12-x^{2}\\right)=(12-x \\sqrt{12-y})^{2} \\\\Leftrightarrow 12 y-x^{2} y=144-24 y \\sqrt{12-y}+12 x^{2}-x^{2} y \\\\Leftrightarrow 12 y-144+24 y \\sqrt{12-y}-12 x^{2}=0 \\\\Leftrightarrow-12(12-y)+24 x \\sqrt{12-y}-12 x^{2}=0 \\\\Leftrightarrow x^{2}-2 x \\sqrt{12-y}+(12-y)=0 \\\\Leftrightarrow(x-\\sqrt{12-y})^{2}=0 \\\\Leftrightarrow x=\\sqrt{12-y} \\\\Leftrightarrow x^{2}=12-y\\end{array}\\]<br>Thay (3) vào (2) ta dược:<br>\\[\\begin{aligned}x^{3}-8 x-1 & =2 \\sqrt{10-x^{2}} \\\\Leftrightarrow x^{3}-8 x-3 & =2\\left(\\sqrt{10-x^{2}}-1\\right)\\end{aligned}\\]<br>\\[\\begin{array}{l}\\Leftrightarrow x^{2}(x-3)+3 x(x-3)+(x-3)=2 \\frac{9-x^{2}}{\\sqrt{10-x^{2}}+1} \\\\Leftrightarrow(x-3)\\left(x^{2}+3 x+1\\right)=\\frac{2(3-x)(3+x)}{\\sqrt{10-x^{2}}+1} \\\\Leftrightarrow(x-3)\\left(x^{2}+3 x+1+\\frac{2(3+x)}{\\sqrt{10-x^{2}}+1}\\right)=0\\end{array}\\]<br>TH1: %(x-3=0 \\Leftrightarrow x=3)%.(thỏa mãn điều kiện).<br>TH2: %(x^{2}+3 x+1+\\frac{2(3+x)}{\\sqrt{10-x^{2}}+1}=0)%.<br>Ta di chứng minh %(x\\gt 0)%.<br>Phản chứng giả sử %(x\\lt 0)%. Từ (1) ta có:<br>\\[\\sqrt{y\\left(12-x^{2}\\right)}=12-x \\sqrt{12-y}>12 .\\]<br>Mà<br>\\[\\sqrt{y\\left(12-x^{2}\\right)}\\lt \\sqrt{12(12-0)}=12\\]<br>%(\\Rightarrow)% Vô lý. Như vậy %(x>0)%. Với %(x>0)% thì phương trình (4) vô nghiệm.<br>Vậy hệ phương trình có nghiệm %((x ; y)=(3 ; 3))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là các số thực dương thỏa mãn %(\\mathrm{abc}=1)%. Tìm giá trị lớn nhất của biểu thức<br>\\[P=\\frac{1}{a^{2}+2 b^{2}+3}+\\frac{1}{b^{2}+2 c^{2}+3}+\\frac{1}{c^{2}+2 a^{2}+3}+\\frac{3}{2}\\]",
+        "question_images": [],
+        "solution": "Ta có: %(\\frac{1}{a b + b + 1} + \\frac{1}{b c + c + 1} + \\frac{1}{c a + a + 1} = 1)%<br>Chứng minh tương tự ta dược:%(\\left . \\begin{matrix} a^{2} + 2 b^{2} + 3 = \\left( a^{2} + b^{2} \\right ) + \\left( b^{2} + 1 \\right ) + 2 \\ge 2 a b + 2 b + 2 \\\\ \\Rightarrow \\frac{1}{a^{2} + 2 b^{2} + 3} \\le \\frac{1}{2 a b + 2 b + 2} = \\frac{1}{2 \\left( a b + b + 1 \\right )} \\end{matrix} \\right .)%<br>Bây giờ ta chứng minh:%(\\left . \\begin{matrix} \\frac{1}{b^{2} + 2 c^{2} + 3} \\le \\frac{1}{2 b c + 2 c + 2} = \\frac{1}{2 \\left( b c + c + 1 \\right )} \\\\ \\frac{1}{c^{2} + 2 a^{2} + 3} \\le \\frac{1}{2 c a + 2 a + 2} = \\frac{1}{2 \\left( c a + a + 1 \\right )} \\\\ \\Rightarrow P \\le \\frac{1}{2} \\left( \\frac{1}{a b + b + 1} + \\frac{1}{b c + c + 1} + \\frac{1}{c a + a + 1} \\right ) + \\frac{3}{2} \\end{matrix} \\right .)%   <img/><br>Thật vậy, ta có:<br>\\[\\begin{aligned}& \\frac{1}{a b+b+1}+\\frac{1}{b c+c+1}+\\frac{1}{c a+a+1} \\\\= & \\frac{a b c}{a b+b+a b c}+\\frac{a b c}{b c+a b c^{2}+a b c}+\\frac{1}{c a+a+1} \\\\= & \\frac{a c}{c a+a+1}+\\frac{a}{1+a c+a}+\\frac{1}{c a+a+1} \\\\= & \\frac{c a+a+1}{c a+a+1}=1\\end{aligned}\\]<br>Từ %(\\left({ }^{*}\\right))% và %(\\left({ }^{* *}\\right))% ta được: %(P \\leq 2)%.<br>Dấu\" %(=)% xảy ra khi: %(a=b=c=1)%.<br>Vậy giá trị lớn nhất của %(P)% là 2 xảy ra khi: %(a=b=c=1)%.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,208 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.25,
+        "content": "Tìm tập xác định %(D)% của hàm số %(y=\\frac{3-x}{\\sqrt{4-3 x-x^{2}}})%.",
+        "question_images": [],
+        "labelA": "%(D=\\mathbb{R} \\backslash\\{1 ;-4\\})%.",
+        "labelB": "%(D=[-4 ; 1])%.",
+        "labelC": "%(D=(-4 ; 1))%.",
+        "labelD": "%(D=(-\\infty ; 4) \\cup(1 ;+\\infty))%.",
+        "correct_label": "labelC",
+        "solution": "Hàm số xác định khi và chỉ khi %(4-3 x-x^{2}\\gt 0)%.<br>Xét %(f(x)=-x^{2}-3 x+4 ; f(x)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=1 \\\\ x=-4\\end{array}\\right.)%.<br>Bảng xét dấu:<br>Ta có: %(f(x)\\gt 0, \\forall x \\in(-4 ; 1))%. Tập xác định: %(D=(-4 ; 1))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f7523602a2e991c40f0a8eafa72764ac.png\" srcset=\"https://docdn.giainhanh.io/media/test/40c4b406c450ec8941706992cae1d7df.png 245w, https://docdn.giainhanh.io/media/test/d62d9ebd8677ef3d23e45053cfe029de.png 500w, https://docdn.giainhanh.io/media/test/76c97aff6678e32c6ed97a0d84294459.png 750w\" width=\"750\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "2 ",
+        "point": 0.25,
+        "content": "Có 5 quyển sách Tiếng Anh khác nhau, 6 quyển sách Toán khác nhau và 8 quyển sách Tiếng Việt khác nhau. Số cách chọn 1 quyển sách là:",
+        "question_images": [],
+        "labelA": "19.",
+        "labelB": "240.",
+        "labelC": "6.",
+        "labelD": "8.",
+        "correct_label": "labelA",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "3 ",
+        "point": 0.25,
+        "content": "Số tập hợp con có 3 phần tử của một tập hợp có 7 phần tử là:",
+        "question_images": [],
+        "labelA": "%(C_{7}^{3})%.",
+        "labelB": "%(A_{7}^{3})%.",
+        "labelC": "%(\\frac{7!}{3!})%.",
+        "labelD": "7.",
+        "correct_label": "labelA",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "4 ",
+        "point": 0.25,
+        "content": "Một hội đồng gồm 2 giáo viên và 3 học sinh được chọn từ một nhóm 5 giáo viên và 6 học sinh. Hỏi có bao nhiêu cách chọn hội đồng đó?",
+        "question_images": [],
+        "labelA": "200.",
+        "labelB": "150.",
+        "labelC": "160.",
+        "labelD": "180.",
+        "correct_label": "labelA",
+        "solution": "Chọn 2 trong 5 giáo viên có: %(C_{5}^{2}=10)% cách chọn.<br>Chọn 3 trong 6 học sinh có %(C_{6}^{3}=20)% cách chọn.<br>Vậy có %(10.20=200)% cách chọn thỏa mãn.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "5 ",
+        "point": 0.25,
+        "content": "Khai triển nhị thức %((a-2 b)^{5})% thành tồng các đơn thức:",
+        "question_images": [],
+        "labelA": "%(a^{5}-5 a^{4} b+10 a^{3} b^{2}-10 a^{2} b^{3}+5 a b^{4}-b^{5})%.",
+        "labelB": "%(a^{5}+10 a^{4} b-40 a^{3} b^{2}+80 a^{2} b^{3}-80 a b^{4}+32 b^{5})%.",
+        "labelC": "%(a^{5}-10 a^{4} b+40 a^{3} b^{2}-80 a^{2} b^{3}+40 a b^{4}-b^{5})%.",
+        "labelD": "%(a^{5}-10 a^{4} b+40 a^{3} b^{2}-80 a^{2} b^{3}+80 a b^{4}-32 b^{5})%.",
+        "correct_label": "labelD",
+        "solution": "%(\\begin{array}{l}\\text { Ta có: }(a-2 b)^{5}=C_{5}^{0} a^{5}+C_{5}^{1} a^{4}(-2 b)+C_{5}^{2} a^{3}(-2 b)^{2}+C_{5}^{3} a^{2}(-2 b)^{3}+C_{5}^{4} a(-2 b)^{4}+C_{5}^{5}(-2 b)^{5} \\\\ =a^{5}-10 a^{4} b+40 a^{3} b^{2}-80 a^{2} b^{3}+80 a b^{4}-32 b^{5} .\\end{array})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "6 ",
+        "point": 0.25,
+        "content": "Số hạng chính giữa trong khai triển %((5 x+2 y)^{4})% là:",
+        "question_images": [],
+        "labelA": "%(6 x^{2} y^{2})%.",
+        "labelB": "%(24 x^{2} y^{2})%.",
+        "labelC": "%(60 x^{2} y^{2})%.",
+        "labelD": "%(600 x^{2} y^{2})%.",
+        "correct_label": "labelD",
+        "solution": "Ta có: %((5 x+2 y)^{4}=C_{4}^{0}(5 x)^{4}+C_{4}^{1}(5 x)^{3}(2 y)+C_{4}^{2}(5 x)^{2}(2 y)^{2}+C_{4}^{3}(5 x)(2 y)^{3}+C_{4}^{4}(2 y)^{4})%.<br>Số hạng chính giữa là %(C_{4}^{2}(5 x)^{2}(2 y)^{2}=600 x^{2} y^{2})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "7 ",
+        "point": 0.25,
+        "content": "Đường thẳng %(51 x-30 y+11=0)% đi qua điểm nào sau đây?",
+        "question_images": [],
+        "labelA": "%(\\left(-1 ; \\frac{3}{4}\\right))%.",
+        "labelB": "%(\\left(-1 ;-\\frac{4}{3}\\right))%.",
+        "labelC": "%(\\left(1 ; \\frac{3}{4}\\right))%.",
+        "labelD": "%(\\left(-1 ;-\\frac{3}{4}\\right))%.",
+        "correct_label": "labelB",
+        "solution": "Thay tọa độ %(x=-1, y=-\\frac{4}{3})% thì phương trình đường thẳng thỏa mãn.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "8 ",
+        "point": 0.25,
+        "content": "Đường tròn %(x^{2}+y^{2}-10 x-11=0)% có bán kính bằng bao nhiêu?",
+        "question_images": [],
+        "labelA": "6.",
+        "labelB": "2.",
+        "labelC": "36.",
+        "labelD": "%(\\sqrt{6})%.",
+        "correct_label": "labelA",
+        "solution": "Ta có %(x^{2}+y^{2}-10 x-11=0 \\Leftrightarrow(x-5)^{2}+y^{2}=6^{2})%.<br>Vậy bán kính đường tròn là %(R=6)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "9 ",
+        "point": 0.25,
+        "content": "Elip %((E): \\frac{x^{2}}{36}+\\frac{y^{2}}{25}=1)% có hai đỉnh thuộc trục %(O y)% là:",
+        "question_images": [],
+        "labelA": "%(B_{1}(-25 ; 0), B_{2}(25 ; 0))%.",
+        "labelB": "%(B_{1}(0 ;-5), B_{2}(0 ; 5))%.",
+        "labelC": "%(B_{1}(-5 ; 0), B_{2}(5 ; 0))%.",
+        "labelD": "%(B_{1}(-5 ; 0), B_{2}(5 ; 0))%.",
+        "correct_label": "labelB",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "10 ",
+        "point": 0.25,
+        "content": "Phương trình chính tắc của parabol %((P))% đi qua %(M(2 ; 3))% là:",
+        "question_images": [],
+        "labelA": "%(y^{2}=\\frac{3}{2} x)%.",
+        "labelB": "%(y^{2}=\\frac{5}{2} x)%.",
+        "labelC": "%(y^{2}=\\frac{7}{2} x)%.",
+        "labelD": "%(y^{2}=\\frac{9}{2} x)%.",
+        "correct_label": "labelD",
+        "solution": "Chọn D %((P))% đi qua %(M(2 ; 3) \\Rightarrow 9=2 \\cdot p \\cdot 2 \\Rightarrow p=\\frac{9}{4} \\Rightarrow(P): y^{2}=\\frac{9}{2} x)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "11 ",
+        "point": 0.25,
+        "content": "Gieo hai đồng tiền một lần. Kí hiệu %(S, N)% để chỉ đồng tiền lật sấp, lật ngửa. Mô tả không gian mẫu nào sau đây đúng?",
+        "question_images": [],
+        "labelA": "%(\\Omega=\\{S N ; N S\\})%.",
+        "labelB": "%(\\Omega=\\{N N ; S S\\})%.",
+        "labelC": "%(\\Omega=\\{S ; N\\})%.",
+        "labelD": "%(\\Omega=\\{S N ; N S ; S S ; N N\\})%.",
+        "correct_label": "labelD",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "12 ",
+        "point": 0.25,
+        "content": "Gieo ngẫu nhiên một con súc sắc. Xác suất để mặt 6 chấm xuất hiện là",
+        "question_images": [],
+        "labelA": "%(\\frac{1}{6})%.",
+        "labelB": "%(\\frac{5}{6})%.",
+        "labelC": "%(\\frac{1}{2})%.",
+        "labelD": "%(\\frac{1}{3})%.",
+        "correct_label": "labelA",
+        "solution": "Không gian mẫu là %(\\Omega=\\{1 ; 2 ; 3 ; 4 ; 5 ; 6\\} \\Rightarrow n(\\Omega)=6)%.<br>Biến cố xuất hiện là %(A=\\{6\\} \\Rightarrow n(A)=1)%. Suy ra %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{1}{6})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "17 ",
+        "point": 0.5,
+        "content": "Ông An muốn làm cái cửa bằng nhôm có dạng nửa hình tròn ở phía trên và phía dưới có dạng hình chữ nhật như hình vẽ. Biết rằng đường kính của nửa hình nửa hình tròn cũng là cạnh phía trên của hình chữ nhật và đường chéo của hình chữ nhật có độ dài 5,2 mét; diện tích của nửa hình tròn bằng %(\\frac{3}{10})% diện tích của phần hình chữ nhật.<br>Tính số tiền ông An phải trả cho biết %(1 m^{2})% cửa có giá 1300000 đồng (kết quả lấy gần đúng đến hàng phần mười).",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/45861c573b669bb4a0c0ae779c9ce4c0.png"
+        ],
+        "solution": "Gọi %(x(m)(x\\gt 0))% là đường kính của nửa đường tròn.<br>Khi đó hình chữ nhật có hai kích thước là %(x)% và %(\\sqrt{5,2^{2}-x^{2}})%.<br>Diện tích nửa hình tròn là %(\\frac{\\pi x^{2}}{8})% và diện tích hình chữ nhật là %(x \\sqrt{5,2^{2}-x^{2}})%.<br>Theo giả thiết ta có: %(\\frac{\\pi x^{2}}{8}=\\frac{3}{10} x \\sqrt{5,2^{2}-x^{2}} \\Leftrightarrow \\frac{5}{12} \\pi x=\\sqrt{5,2^{2}-x^{2}})%<br>%( \\Leftrightarrow \\frac{25}{144} \\pi^{2} x^{2}=\\frac{676}{25}-x^{2} \\Leftrightarrow x^{2}\\left(\\frac{25}{144} \\pi^{2}+1\\right)=\\frac{676}{25} \\Leftrightarrow x \\approx 3,2(m) \\text {. })%<br>Diện tích cánh cửa là: %(\\frac{\\pi \\cdot 3,2^{2}}{8}+3,2 \\sqrt{5,2^{2}-3,2^{2}} \\approx 17,1\\left(m^{2}\\right))%.<br>Do đó số tiên ông An phải trả là: %(1300000 \\cdot 17,1=22230000)% (đồng).",
+        "question_type": "essay"
+    },
+    {
+        "title": "18 ",
+        "point": 0.5,
+        "content": "Có hai con tàu %(A, B)% xuất phát từ hai bến, chuyển động theo đường thẳng ngoài biển. Trên màn hình ra-đa của trạm điều khiển (xem như mặt phẳng tọa độ %(O x y)% với đơn vị trên các trục tính bằng ki-lômét), tại thời điểm %(t)% (giờ), vị trí của tàu %(A)% có tọa độ được xác định bởi công thức %(\\left\\{\\begin{array}{l}x=3-33 t \\\\ y=-4+25 t\\end{array}\\right.)%; vị trí tàu %(B)% có tọa độ là %((4-30 t ; 3-40 t))%.<br>Nếu tàu %(A)% đứng yên ở vị trí ban đầu, tàu %(B)% chạy thì khoảng cách ngắn nhất giữa hai tàu bằng bao nhiêu?",
+        "question_images": [],
+        "solution": "Khi tàu %(A)% đứng yên, vị trí ban đầu của nó có tọa độ %(P(3 ;-4))%; vị trí tàu %(B)% ứng với thời gian %(t)% là<br>%( \\begin{array}{l}Q(4-30 t ; 3-40 t) ; \\P Q=\\sqrt{(1-30 t)^{2}+(7-40 t)^{2}}=\\sqrt{2500 t^{2}-620 t+50} .\\end{array})%<br>Đoạn %(P Q)% ngắn nhất ứng với %(t=-\\frac{b}{2 a}=\\frac{620}{2.2500}=\\frac{31}{250}=0,124)% (giây).<br>Khi đó %(: P Q_{\\min }=\\sqrt{2500 \\cdot(0,124)^{2}-620 \\cdot(0,124)+50}=\\frac{17}{5}=3,4(\\mathrm{~km}))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "19 ",
+        "point": 0.5,
+        "content": "Trong mặt phẳng tọa độ %(O x y)%, cho hình thoi %(A B C D)% có %(A C=2 B D)% và đường tròn tiếp xúc với các cạnh của hình thoi có phương trình %((C): x^{2}+y^{2}=4)%. Viết phương trình chính tắc của elip %((E))% đi qua các đỉnh %(A, B, C, D)% của hình thoi với điểm %(A)% nằm trên trục %(O x)%.",
+        "question_images": [],
+        "solution": "Giả sử phương trình elip %((E))% là %(\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a\\gt b>0))%.<br>Đường tròn %((C): x^{2}+y^{2}=4)% có tâm %(O(0 ; 0))% và bán kính %(R=2)%.<br>Vì %((C))% tiếp xúc với các cạnh của hình thoi và %(A \\in O x)% nên %(C \\in O x)% và %(B, D \\in O y)%.<br>Các điểm %(A, B, C, D \\in(E))% nên %(A, B, C, D)% là các đỉnh của %((E))%.<br>%( A, B \\in(E) \\Rightarrow A(a ; 0), B(0 ; b) \\Rightarrow O A=a, O B=b \\text {. })%<br>Vì %(O A=2 O B)% nên %(a=2 b)%.<br>Kẻ %(O H \\perp A B(H \\in A B))%.<br>Ta có %(O H=R=2)%.<br>Tam giác %(A B O)% vuông tại %(O)% có %(\\frac{1}{O H^{2}}=\\frac{1}{O A^{2}}+\\frac{1}{O B^{2}} \\Leftrightarrow \\frac{1}{4}=\\frac{1}{a^{2}}+\\frac{4}{a^{2}} \\Leftrightarrow a^{2}=20 \\Rightarrow b^{2}=5)%.<br>Vậy phương trình %((E))% là %(\\frac{x^{2}}{20}+\\frac{y^{2}}{5}=1)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0417c1d48840f32595da3139e3ebc755.png\" srcset=\"https://docdn.giainhanh.io/media/test/ec99851e2b327be111fe35c078f0e04c.png 245w, https://docdn.giainhanh.io/media/test/a8dead0c546de554bc8ff7b717b55ccf.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "20 ",
+        "point": 0.5,
+        "content": "Bạn Phú chọn mật khẩu cho tài khoản Microsoft Teams của mình gồm 8 kí tự đôi một khác nhau, trong đó 2 kí tự đầu tiên là hai chữ cái in thường, 2 kí tự tiếp theo là hai chữ cái in hoa (các chữ cái chọn từ bảng chữ cái Tiếng Anh gồm 26 chữ cái), 3 kí tự tiếp theo là các chữ số và kí tự cuối cùng là một trong các kí tự đặc biệt:@, \\#,. Hỏi bạn Phú có bao nhiêu cách tạo ra một mật khẩu?",
+        "question_images": [],
+        "solution": "Có 26 chữ cái và 10 chữ số. Chọn 2 kí tự đầu tiên là chữ cái in thường nên ta có %(A_{26}^{2})% cách chọn.<br>Chọn 2 kí tự tiếp theo là chữ cái in hoa nên ta có %(A_{26}^{2})% cách chọn.<br>Chọn 3 kí tự tiếp theo là chữ số trong 10 chữ số nên có %(A_{10}^{3})% cách chọn.<br>Chọn 1 kí tự cuối cùng có 3 cách.<br>Vậy ta có %(3\\left(A_{26}^{2}\\right)^{2} A_{10}^{3}=912600000)% cách để bạn Phú tạo ra một mật khẩu.",
+        "question_type": "essay"
+    },
+    {
+        "title": "21 ",
+        "point": 0.5,
+        "content": "Một người có 500 triệu đồng gửi tiết kiệm ngân hàng với lãi suất %(7,2 \\% /)% năm. Với giả thiết sau mỗi tháng người đó không rút tiền thì số tiền lãi được nhập vào số tiền ban đầu. Đây được gọi là hình thức lãi kép. Biết số tiền cả vốn lẫn lãi %(T)% sau %(n)% tháng được tính bởi công thức %(T=T_{0}(1+r)^{n})%, trong đó %(T_{0})% là số tiênn gửi lúc đầu và %(r)% là lãi suất của một tháng. Dùng hai số hạng đầu tiên trong khai triển của nhị thức Niu - tơn, tính gần đúng số tiên người đó nhận được (cả gốc lẫn lãi) sau 6 tháng.",
+        "question_images": [],
+        "solution": "Lãi suất của một tháng %(r=\\frac{7,2}{12} \\%=0,6 \\%)% / tháng.<br>Ta có: %(T=T_{0}(1+r)^{n})%.<br>Suy ra: %(T=500.10^{6}(1+0,006)^{6} \\approx 500.10^{6}\\left(C_{6}^{0}+C_{6}^{1} \\cdot 0,006\\right) \\approx 518000000)% đồng.<br>Vậy: sau 6 tháng người đó nhận được hơn 518000000 đồng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "22 ",
+        "point": 0.5,
+        "content": "Trong một chiếc hộp có 4 viên bi đỏ, 4 viên bi xanh và 2 viên bi vàng. Lấy ra ngẫu nhiên 2 viên bi từ trong hộp. Tính xác suất để lấy ra được 2 viên bi vàng.",
+        "question_images": [],
+        "solution": "Số viên bi có trong hộp là: %(4+4+2=10)% (viên bi).<br>Lấy ra ngẫu nhiên 2 viên bi từ hộp mà không quan trọng thứ tự nên số phần tử của không gian mẫu là:<br>%( n(\\Omega)=C_{10}^{2}=45 \\text {. })%<br>Gọi %(E)% là biến cố lấy được hai viên bi vàng. Vì chỉ có một cách lấy ra được hai viên bi vàng từ hộp nên ta có %(n(E)=1)%. Vậy xác suất của biến cố %(E)% là: %(P(E)=\\frac{n(E)}{n(\\Omega)}=\\frac{1}{45})%.",
+        "question_type": "essay"
+    }
+]

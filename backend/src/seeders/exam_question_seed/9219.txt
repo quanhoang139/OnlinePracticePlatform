@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1.1",
+        "group_content": "Tìm x biết:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) %(32^{-x} \\cdot 16^{x}=2048 \\quad(x \\in Z))%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l} 32^{-x} \\cdot 16^{x}=2048(1) \\quad(\\mathrm{x} \\in \\mathrm{Z}) \\\\ \\Rightarrow \\frac{1}{32^{x}} \\cdot 16^{x}=2^{11} \\Rightarrow\\left(\\frac{16}{32}\\right)^{x}=2^{11} \\Rightarrow\\left(\\frac{1}{2}\\right)^{x}=\\left(\\frac{1}{2}\\right)^{-11} \\Rightarrow x=-11\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) %(|x(x-10)|=x)%",
+        "question_images": [],
+        "solution": "+ Nếu %(x \\leq 0)% thì %(x(x-10) \\geq 0 \\Rightarrow|x(x-10)|=x(x-10))%.<br>Do đó (1) %(\\Leftrightarrow x(x-10)=x \\Leftrightarrow x(x-11)=0)%<br>%(\\Leftrightarrow x=0)% ( nhận) hoặc %(x=11)% (loại)<br>+ Nếu %(0\\lt x\\lt 10 \\Rightarrow x(x-10)\\lt 0 \\Rightarrow|x(x-10)|=-x(x-10))%.<br>Do đó (1) %(\\Leftrightarrow-x(x-10)=x \\Leftrightarrow x(x-9)=0 \\Leftrightarrow x=0)% (loại) hoặc %(x=9)% (nhận)<br>+ Nếu %(x \\geq 10 \\Rightarrow x(x-10) \\geq 0 \\Rightarrow|x(x-10)|=x(x-10))%.<br>Do đó (1) %(\\Leftrightarrow x(x-10)=x \\Leftrightarrow x(x-11)=0 \\Leftrightarrow x=0)% (loại) hoặc %(\\mathrm{x}=11)% (nhận)<br>Vậy: %(x=0)% hoặc %(x=9)% hoặc %(x=11)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.2 ",
+        "point": 2.0,
+        "content": "Tính: %(2^{100}-2^{99}-2^{98}-2^{97}-\\ldots-2-1)%",
+        "question_images": [],
+        "solution": "Đặt:<br>\\[\\begin{array}{l}\\quad \\mathrm{A}=2^{100}-2^{99}-2^{98}-2^{97}-\\ldots-2-1 \\\\Rightarrow 2 A=2^{101}-2^{100}-2^{99}-2^{98}-\\ldots-2^{2}-2 \\\\Rightarrow 2 A-A=\\left(2^{101}-2^{100}-2^{99}-2^{98}-\\ldots-2^{2}-2\\right)-\\left(2^{100}-2^{99}-2^{98}-2^{97}-\\ldots-2-1\\right) \\\\Rightarrow A=2^{101}-2 \\cdot 2^{100}+1=2^{101}-2^{101}+1=1\\end{array}\\]<br>Vậy: %(A=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.1 ",
+        "point": 2.5,
+        "content": "Cho %(\\frac{a}{b}=\\frac{c}{d})%. Chứng minh rằng: %(\\frac{7 a^{2}+3 a b}{11 a^{2}-8 b^{2}}=\\frac{7 c^{2}+3 c d}{11 c^{2}-8 d^{2}})%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{aligned}\\frac{a}{b}= & \\frac{c}{d} \\Rightarrow \\frac{a}{c}=\\frac{b}{d} \\\\Rightarrow & \\frac{a^{2}}{c^{2}}=\\frac{b^{2}}{d^{2}}=\\frac{7 a^{2}}{7 c^{2}}=\\frac{b}{d} \\cdot \\frac{b}{d}=\\frac{b}{d} \\cdot \\frac{a}{c}=\\frac{a b}{d c}=\\frac{3 a b}{3 c d}=\\frac{7 a^{2}+3 a b}{7 c^{2}+3 c d}\\end{aligned}\\]<br>Lại có: %(\\Rightarrow \\frac{a^{2}}{c^{2}}=\\frac{b^{2}}{d^{2}}=\\frac{11 a^{2}}{11 c^{2}}=\\frac{8 b^{2}}{8 d^{2}}=\\frac{11 a^{2}-8 b^{2}}{11 c^{2}-8 d^{2}})%<br>Từ (1) và (2) %(\\Rightarrow \\frac{7 a^{2}+3 a b}{7 c^{2}+3 c d}=\\frac{11 a^{2}-8 b^{2}}{11 c^{2}-8 d^{2}} \\Rightarrow \\frac{7 a^{2}+3 a b}{11 a^{2}-8 b^{2}}=\\frac{7 c^{2}+3 c d}{11 c^{2}-8 d^{2}})% (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.2 ",
+        "point": 2.5,
+        "content": "Tìm giá trị nguyên của n để biểu thức sau đạt giá trị nhỏ nhất (GTNN): %(A=\\frac{5 n-19}{2 n-7})%",
+        "question_images": [],
+        "solution": "Ta có: %(A=\\frac{5 n-19}{2 n-7}=\\frac{2,5(2 n-7)-1,5}{2 n-7}=2,5-\\frac{1,5}{2 n-7})%.<br>Do đó: A có GTNN %(\\Leftrightarrow \\frac{1,5}{2 n-7})% có GTLN<br>Vì với %(n\\gt \\frac{7}{2})% thì %(\\frac{1,5}{2 n-7}>0)% và khi %(n\\lt \\frac{7}{2})% thì %(\\frac{1,5}{2 n-7}\\lt 0)%<br>Nên ta chỉ xét trường hợp %(n>\\frac{7}{2})%<br>Ta có: %(\\frac{1,5}{2 n-7})% có GTLN %(\\Leftrightarrow 2 n-7)% có GTNN (vì %(\\frac{1,5}{2 n-7}>0)% )<br>%(\\Leftrightarrow 2 n)% có GTNN và %(n>\\frac{7}{2}, \\mathrm{n})% là số nguyên %(\\Leftrightarrow n=4)%<br>Khi đó: %(A=\\frac{5.4-19}{2.4-7}=1)%<br>Vậy: %(\\operatorname{Min} A=1)% khi %(n=4)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.1 ",
+        "point": 2.0,
+        "content": "Cho đa thức %(f(x)=x^{99}-2000 x^{98}+2000 x^{97}-2000 x^{96}+\\ldots+2000 x-1)%<br>Tính giá trị của biểu thức khi %(x=1999)%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{aligned}f(x) & =x^{99}-2000 x^{98}+2000 x^{97}-2000 x^{96}+\\ldots+2000 x-1 \\\\& =x^{99}-(1999+1) x^{98}+(1999+1) x^{97}-(1999+1) x^{96}+\\ldots+(1999+1) x-1 \\\\& =x^{99}-(x+1) x^{98}+(x+1) x^{97}-(x+1) x^{96}+\\ldots+(x+1) x-1 \\\\& =x^{99}-x^{99}-x^{98}+x^{98}+x^{97}-x^{97}-x^{96}+\\ldots+x^{2}+x-1 \\\\& =x-1 \\\\& =1999-1=1998\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.2 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các số nguyên dương %(x, y, z)% thỏa mãn: %(x+3=2^{y})% và %(3 x+1=4^{z})%",
+        "question_images": [],
+        "solution": "Ta có: %(3 x+1 \\geq x+3)% với mọi %(x)% nguyên dương<br>\\[\\begin{array}{l}\\Rightarrow 4^{z}=2^{2 z} \\geq 2^{y} \\Rightarrow 2 z \\geq y \\\\Rightarrow 2 \\mathrm{z}=y+k \\quad(k \\in N)\\end{array}\\]<br>Từ: %(x+3=2^{y} \\Rightarrow x=2^{y}-3)%<br>Và %(3 x+1=4^{z} \\Rightarrow x=\\frac{2^{2 z}-1}{3})%<br>Từ (1) và %((2) \\Rightarrow 2^{y}-3=\\frac{2^{2 z}-1}{3})%<br>\\[\\begin{array}{l}\\Rightarrow 3 \\cdot 2^{y}-2^{2 z}=8 \\Rightarrow 3 \\cdot 2^{y}-2^{y+k}=8 \\\\Rightarrow 2^{y}\\left(3-2^{k}\\right)=8\\left(^{*}\\right)\\end{array}\\]<br>Từ (*) và %(2^{y}\\gt 0 \\Rightarrow 3-2^{k}>0 \\Rightarrow k \\leq 1)%%(\\Rightarrow k=0)% hoặc %(k=1)%<br>+ Với %(k=0 \\Rightarrow 2^{y} .2=8 \\Rightarrow 2^{y}=4 \\Rightarrow y=2 \\Rightarrow z=1)% và %(x=1)%<br>+ Với %(k=1 \\Rightarrow 2^{y}=8 \\Rightarrow y=3 \\Rightarrow z=2)% và %(x=5)%<br>Vậy: %(x=1 ; y=2)% và %(z=1)% hoặc %(x=5 ; y=3)% và %(z=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho tam giác ABC có %(\\widehat{B A C}=40^{\\circ})% và %(\\widehat{C B A}=60^{\\circ})%. Hai điểm D và E lần lượt thuộc cạnh AC và AB sao cho %(\\widehat{C B D}=40^{\\circ})% và %(\\widehat{B C E}=70^{\\circ})%. Gọi F là giao điểm của BD và CE . Kẻ tia phân giác của %(\\widehat{C B \\mathrm{D}})%, cắt %(A C)% ở %(M)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh: %(M F=M C)%",
+        "question_images": [],
+        "solution": "Gọi H là giao điểm của CF và BM<br>Trong tam giác CBH có:<br>%(\\widehat{C B H}=20^{\\circ})%(vì %(\\widehat{C B D}=40^{\\circ})% và BM là tia phân giác của góc CBD) và %(\\widehat{B C H}=70^{\\circ}(\\mathrm{gt}))%<br>%(\\Rightarrow \\widehat{C B H}+\\widehat{B C H}=20^{\\circ}+70^{\\circ}=90^{\\circ} )%<br>%(\\Rightarrow \\triangle C B H)% vuông tại %(H)%<br>%(\\triangle C B H=\\triangle F B H(c-g-c))%<br>%(\\Rightarrow B C=B F \\Rightarrow \\triangle B C F)% cân tại B<br>Suy ra %(B M)% là đường phân giác của tam giác cân %(B C F)% nên %(B M)% đồng thời là đường trung trực của cạnh CF<br>Suy ra: %(\\mathrm{MC}=\\mathrm{MF})% (đpcm)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/52f9b139d21e599e7a2737eaf334dd57.png\" srcset=\"https://docdn.giainhanh.io/media/test/52f9b139d21e599e7a2737eaf334dd57.png 191w, https://docdn.giainhanh.io/media/test/52f9b139d21e599e7a2737eaf334dd57.png 500w, https://docdn.giainhanh.io/media/test/52f9b139d21e599e7a2737eaf334dd57.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Chứng minh %(A F)% vuông góc với %(B C)%",
+        "question_images": [],
+        "solution": "Trên tia BC lấy điểm N , sao cho %(\\mathrm{BN}=\\mathrm{BA} \\Rightarrow \\triangle A B N)% cân tại B<br>Lại có: %(\\widehat{A B N}=60^{\\circ} \\Rightarrow \\triangle A B N)% đều %(\\Rightarrow A N=A B)% (*)<br>Vì tam giác ABC có: %(\\widehat{B A C}=40^{\\circ})% và %(\\widehat{A B C}=60^{\\circ} \\Rightarrow \\widehat{B C A}=80^{\\circ})%<br>Do: %(\\triangle B C M=\\triangle B F M)% (c.g.c) %(\\Rightarrow \\widehat{B F M}=\\widehat{B C M}=80^{\\circ})%<br>Trong %(\\triangle B F M)% có:<br>%(\\widehat{B F M}=80^{\\circ}, \\widehat{F B M}=20^{\\circ} \\Rightarrow \\widehat{B M F}=80^{\\circ} \\Rightarrow \\widehat{B M F}=\\widehat{B F M}=80^{\\circ} \\Rightarrow \\triangle B M F)% cân tại %(\\mathrm{B} \\Rightarrow B M=B F)% (1)<br>Từ đó suy ra: %(\\triangle B M A=\\triangle B F N)% (c.g.c) %(\\Rightarrow A M=F N)% (2)<br>Ta lại có: %(\\triangle B M A)% cân tai %(\\mathrm{M}\\left(\\widehat{M B A}=\\widehat{M A B}=40^{\\circ}\\right) \\Rightarrow M B=M A)% (3)<br>Từ %((1))%, %((2))% và %((3) \\Rightarrow F B=F N)% (**)<br>Từ %((*))% và %((* *))% suy ra AF là đường trung trực của %(\\mathrm{BN}: \\Rightarrow A F \\perp B N)% hay %(A F \\perp B C)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho 2016 số nguyên dương %(a_{1}, a_{2}, a_{3}, \\ldots, a_{2016})% thỏa mãn:<br>\\[\\frac{1}{a_{1}}+\\frac{1}{a_{2}}+\\frac{1}{a_{3}}+\\ldots+\\frac{1}{a_{2016}}=300 \\text {. }\\]<br>Chứng tỏ rằng tồn tại ít nhất hai số trong 2016 số đã cho bằng nhau.",
+        "question_images": [],
+        "solution": "Cho 2016 số nguyên dương %(a_{1}, a_{2}, a_{3}, \\ldots, a_{2016})% thỏa mãn:<br>\\[\\frac{1}{a_{1}}+\\frac{1}{a_{2}}+\\frac{1}{a_{3}}+\\ldots+\\frac{1}{a_{2016}}=300 \\text {. }\\]<br>Chứng tỏ rằng tồn tại ít nhất hai số trong 2016 số đã cho bằng nhau.<br>Giả sử: %(a_{2016}\\gt a_{2015}>a_{2014}>\\ldots>a_{1} \\geq 1)%<br>%(\\Rightarrow a_{2016} \\geq 2016, a_{2015} \\geq 2015, \\ldots, a_{1} \\geq 1)%<br>%(\\Rightarrow \\frac{1}{a_{1}}+\\frac{1}{a_{2}}+\\frac{1}{a_{3}}+\\ldots+\\frac{1}{a_{2015}}+\\frac{1}{a_{2016}} \\leq 1+\\frac{1}{2}+\\frac{1}{3}+\\ldots+\\frac{1}{2015}+\\frac{1}{2016})%<br>%(\\Leftrightarrow 300 \\leq 1+\\frac{1}{2}+\\frac{1}{3}+\\ldots+\\frac{1}{2015}+\\frac{1}{2016}\\lt \\left(1+\\frac{1}{2}+\\frac{1}{3}+\\ldots+\\frac{1}{7}+\\frac{1}{8}\\right)+\\left(\\frac{1}{8}+\\frac{1}{8}+\\frac{1}{8}+\\ldots+\\frac{1}{8}\\right))%<br>%(\\Leftrightarrow 300\\lt \\left(1+\\frac{1}{2}+\\frac{1}{3}+\\ldots+\\frac{1}{8}\\right)+\\frac{2008}{8}\\lt 1+1+1+\\ldots+1+251=259)% (điều này vô lí)<br>Vậy tồn tại ít nhất hai số trong 2016 số đã cho bằng nhau.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,104 @@
+[
+    {
+        "title": "Câu 1",
+        "group_content": "Cho biểu thức %(A=\\left(\\frac{2+x}{2-x}-\\frac{4 x^{2}}{x^{2}-4}-\\frac{2-x}{2+x}\\right):\\left(\\frac{x^{2}-3 x}{2 x^{2}-x^{3}}\\right))%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Tìm điều kiện xác định rồi rút gọn biểu thức A",
+        "question_images": [],
+        "solution": "Điều kiện xác định : %(x \\neq 0 ; x \\neq \\pm 2 ; x \\neq 3)%<br>\\[\\begin{array}{l}A=\\left(\\frac{2+x}{2-x}-\\frac{4 x^{2}}{x^{2}-4}-\\frac{2-x}{2+x}\\right):\\left(\\frac{x^{2}-3 x}{2 x^{2}-x^{3}}\\right) \\\\=\\frac{(2+x)^{2}+4 x^{2}-(2-x)^{2}}{(2-x)(2+x)} \\cdot \\frac{x^{2}(2-x)}{x(x-3)}=\\frac{4 x^{2}+8 x}{2+x} \\cdot \\frac{x}{x-3}=\\frac{4 x(x+2) \\cdot x}{(2+x) \\cdot(x-3)}=\\frac{4 x^{2}}{x-3}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Tìm x để %(A=-1)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}A=-1 \\Leftrightarrow \\frac{4 x^{2}}{x-3}=-1 \\Rightarrow 4 x^{2}=-x+3 \\\\Leftrightarrow 4 x^{2}+x-3=0 \\Leftrightarrow(x+1)(4 x-3)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=1(\\mathrm{tm}) \\x=\\frac{3}{4}(\\mathrm{tm})\\end{array}\\right.\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 2.0,
+        "content": "Cho các số nguyên %(a, b, c)% thỏa mãn %(a b+b c+c a=1)%Chứng minh rằng %(A=\\left(1+a^{2}\\right)\\left(1+b^{2}\\right)\\left(1+c^{2}\\right))% là số chính phương",
+        "question_images": [],
+        "solution": "Ta có %(a b+b c+c a=1)%<br>\\[\\Rightarrow 1+a^{2}=a b+b c+c a+a^{2}=a(a+b)+c(a+b)=(a+b)(a+c)\\]<br>Chứng minh tương tự : %(1+b^{2}=(a+b)(b+c) ; 1+c^{2}=(a+c)(b+c))%<br>\\[\\Rightarrow A=\\left(1+a^{2}\\right)\\left(1+b^{2}\\right)\\left(1+c^{2}\\right)=(a+b)^{2}(b+c)^{2}(a+c)^{2}=[(a+b)(b+c)(a+c)]^{2}\\]<br>Vì %(a, b, c)% là các số nguyên nên %((a+b)(b+c)(c+a) \\in Z)%<br>Suy ra %(A=\\left(1+a^{2}\\right)\\left(1+b^{2}\\right)\\left(1+c^{2}\\right))% là số chính phương",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 2.0,
+        "content": "Giải phương trình nghiệm nguyên %(x^{2}+x y-2012 x-2013 y-2014=0)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}x^{2}+x y-2012 x-2013 y-2014=0 \\Leftrightarrow x^{2}+x y+x-2013 x-2013 y-2013=1 \\\\Leftrightarrow x(x+y+1)-2013(x+y+1)=1 \\Leftrightarrow(x-2013)(x+y+1)=1 \\\\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array} { l } { x - 2 0 1 3 = 1 } \\\\{ x + y + 1 = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=2014 \\y=-2014\\end{array}\\right.\\right. \\\\left\\{\\begin{array} { l } { x - 2 0 1 3 = - 1 } \\\\{ x + y + 1 = - 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=2012 \\y=-2014\\end{array}\\right.\\right.\\end{array}\\right. \\\\end{array}\\]<br>Vậy phương trình có hai nghiệm nguyên :<br>\\[(x ; y) \\in\\{(2014 ;-2014) ;(2012 ;-2014)\\}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 2.0,
+        "content": "Cho đa thức %(f(x)=a x^{3}+b x^{2}+c x+d)%. Tìm %(a, b, c, d)% biết rằng khi chia đa thức lần lượt cho các nhị thức %((x-1),(x-2),(x-3))% đều có số dư là 6 và tại %(x=-1)% thì đa thức đó nhận giá trị bằng -18",
+        "question_images": [],
+        "solution": "Từ đề bài ta suy ra %(f(x)-6)% chia hết cho %(x-1 ; x-2 ; x-3)%<br>Vì %(f(x))% là đa thức bậc 3 nên ta có :%(f(x)-6=m(x-1)(x-2)(x-3))%, trong đó %(m)% là hằng số khác 0<br>Lại có %(f(-1)=-18 \\Rightarrow-18-6=m(-2)(-3)(-4) \\Leftrightarrow m=1)%<br>Vậy %(f(x)-6=(x-1)(x-2)(x-3) \\Rightarrow f(x)=x^{3}-6 x^{2}+11)%<br>Vậy %(a=1, b=-6, c=11, d=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 1.5,
+        "content": "Tìm %(x)% để biểu thức %(E=\\frac{-x^{2}+x-10}{x^{2}-2 x+1})% với %(x \\neq 1)% đạt giá trị lớn nhất",
+        "question_images": [],
+        "solution": "\\[E=\\frac{-\\left(x^{2}-2 x-1\\right)-(x-1)-10}{(x-1)^{2}}=-\\left(1+\\frac{1}{x-1}+\\frac{10}{(x-1)^{2}}\\right)\\]<br>Đặt %(t=\\frac{1}{x-1})%, ta có :<br>\\[\\begin{array}{l}E=-\\left(10 t^{2}+t+1\\right)=-10\\left(t^{2}+2 t \\cdot \\frac{1}{20}+\\frac{1}{20^{2}}-\\frac{1}{400}\\right)-1 \\E=-10\\left(t+\\frac{1}{20}\\right)^{2}-\\frac{39}{40} \\leq \\frac{-39}{40}(\\forall t)\\end{array}\\]<br>Vậy %(\\max E=\\frac{-39}{40} \\Leftrightarrow t=-\\frac{1}{20} \\Leftrightarrow x=-19)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6 ",
+        "point": 1.5,
+        "content": "Cho %(x\\gt 0, y>0, z>0)% và %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=4)%Chứng minh rằng %(\\frac{1}{2 x+y+z}+\\frac{1}{x+2 y+z}+\\frac{1}{x+y+2 z} \\leq 1)%",
+        "question_images": [],
+        "solution": "Áp dụng bất đẳng thức %(\\frac{1}{x}+\\frac{1}{y} \\geq \\frac{4}{x+y})% (với %(x, y)% dương).<br>Ta có :<br>\\[\\frac{1}{2 x+y+z} \\leq \\frac{1}{4}\\left(\\frac{1}{2 x}+\\frac{1}{y+z}\\right) ; \\frac{1}{y+z} \\leq \\frac{1}{4 y}+\\frac{1}{4 z} \\Rightarrow \\frac{1}{2 x+y+z} \\leq \\frac{1}{4}\\left(\\frac{1}{2 x}+\\frac{1}{4 y}+\\frac{1}{4 z}\\right)(1)\\]<br>Chứng minh tương tự : %(\\frac{1}{x+2 y+z} \\leq \\frac{1}{4}\\left(\\frac{1}{4 x}+\\frac{1}{2 y}+\\frac{1}{4 z}\\right)(2) ; \\frac{1}{x+y+2 z} \\leq \\frac{1}{4}\\left(\\frac{1}{4 x}+\\frac{1}{4 y}+\\frac{1}{2 z}\\right)(3))%<br>Từ (1), (2), (3) ta có :<br>\\[\\frac{1}{2 x+y+z}+\\frac{1}{x+2 y+z}+\\frac{1}{x+y+2 z} \\leq \\frac{1}{4}\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right) \\Rightarrow \\frac{1}{2 x+y+z}+\\frac{1}{x+2 y+z}+\\frac{1}{x+y+2 z} \\leq 1\\]<br>Dấu bằng xảy ra khi %(x=y=z=\\frac{3}{4})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7",
+        "group_content": "Cho hình vuông %(A B C D)%, trên cạnh %(A B)% lấy điểm E và trên cạnh AD lấy điểm F sao cho %(A E=A F)%. Vẽ %(A H)% vuông góc với %(B F(H \\in B F), A H)% cắt DC và BC lần lượt tại %(M, N)%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng :Tứ giác %(A E M D)% là hình chữ nhật",
+        "question_images": [],
+        "solution": "Ta có : %(\\angle M A D=\\angle A B F)% (cùng phụ với %(\\angle B A H)% ) %(; \\mathrm{AB}=\\mathrm{AD})% (gt); %(\\angle B A F=\\angle A D M=90^{\\circ})%<br>%(\\Rightarrow \\triangle A D M=\\triangle B A F(g . c . g) \\Rightarrow D M=A F)% mà %(A F=A E(g t))% nên %(A E=D M)%<br>Lại có %(A E / / D M()% do %(A B / / D C) \\Rightarrow A E M D)% là hình bình hành<br>Mặt khác %(\\angle D A E=90^{\\circ}(g t))%.<br>Vậy tứ giác %(A E M D)% là hình chữ nhật<br><img alt=\"Screenshot 2024-07-14 235936.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/aff50124e13b84f81a415cf6977a20f9.png\" srcset=\"https://docdn.giainhanh.io/media/test/a9af18d4a4bae4c1b21732e68d91aac7.png 136w, https://docdn.giainhanh.io/media/test/338975131a218c323220e437897b6c99.png 437w\" width=\"437\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Biết diện tích tam giác %(B C H)% gấp 4 lần diện tích tam giác %(A E H)%. Chứng minh rằng %(A C=2 E F)%",
+        "question_images": [],
+        "solution": "Ta có %(: \\triangle A B H \\sim \\triangle F A H(g . g) \\Rightarrow \\frac{A B}{A F}=\\frac{B H}{A H})% hay %(\\frac{B C}{A E}=\\frac{B H}{A H}(A B=B C ; A E=A F))%<br>Lại có %(\\angle H A B=\\angle H B C)% (cùng phụ với %(\\angle A B H) \\Rightarrow \\triangle C B H \\sim \\triangle E A H)% (c.g.c)<br>\\[\\Rightarrow \\frac{S_{C B H}}{S_{E A H}}=\\left(\\frac{B C}{A E}\\right)^{2} \\text { mà } \\frac{S_{C B H}}{S_{E A H}}=4(g t) \\Rightarrow\\left(\\frac{B C}{A E}\\right)^{2}=4 \\Rightarrow B C^{2}=(2 A E)^{2} \\Rightarrow B C=2 A E\\]<br>Nên E là trung điểm của %(A B, F)% là trung điểm của AD<br>Do đó %(B D=2 E F)% hay %(A C=2 E F(d p \\mathrm{~cm}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) Chứng minh rằng %(\\frac{1}{A D^{2}}=\\frac{1}{A M^{2}}+\\frac{1}{A N^{2}})%",
+        "question_images": [],
+        "solution": "Do %(A D / / C N(g t))%, áp dụng hệ quả định lý Talet ta có :<br>\\[\\begin{array}{l}\\frac{M N}{A N}=\\frac{M C}{A B} \\Rightarrow \\frac{A B}{A N}=\\frac{M C}{M N} \\text { hay } \\frac{A D}{A N}=\\frac{M C}{M N} \\Rightarrow\\left(\\frac{A D}{A M}\\right)^{2}+\\left(\\frac{A D}{A N}\\right)^{2}=\\left(\\frac{C N}{M N}\\right)^{2}+\\left(\\frac{C M}{M N}\\right)^{2} \\\\=\\frac{C N^{2}+C M^{2}}{M N^{2}}=\\frac{M N^{2}}{M N^{2}}=1 \\text { (Định lý Pytago) } \\\\Rightarrow\\left(\\frac{A D}{A M}\\right)^{2}+\\left(\\frac{A D}{A N}\\right)^{2}=1 \\Rightarrow \\frac{1}{A M^{2}}+\\frac{1}{A N^{2}}=\\frac{1}{A D^{2}}(\\mathrm{dpcm})\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8 ",
+        "point": 2.0,
+        "content": "Tất cả các điểm trên mặt phẳng đều được tô màu, mỗi điểm được tô bởi 1 trong 3 màu xanh, đỏ, tím. Chứng minh rằng khi đó luôn tồn tại ít nhất một tam giác cân, có 3 đỉnh thuộc các điểm của mặt phẳng trên mà 3 đỉnh của tam giác đó cùng màu hoặc đôi một khác màu.",
+        "question_images": [],
+        "solution": "+) Xét ngũ giác đều %(A B C D E)%, ta nhận thấy 3 đỉnh bất kì của ngũ giác luôn tạo thành một tam giác cân<br>+) Do đó khi tô 5 đỉnh %(\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D}, \\mathrm{E})% bằng 3 màu xanh, đỏ và tím sẽ xảy ra hai khả năng sau:<br>+ ) Nếu tô 5 đỉnh %(\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D}, \\mathrm{E})% bởi đủ ba loại màu đã cho thì tồn tại 3 đỉnh có màu khác nhau và tạo thành một tam giác cân.<br>+) Nếu tô 5 đỉhh %(\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D}, \\mathrm{E})% bởi nhiều nhất hai màu thì có ít nhất 3 đỉnh cùng màu và tạo thành một tam giác cân.<br>+) Vậy trong mọi trường hợp luôn tồn tại ít nhất một tam giác cân, có 3 đỉnh được tô bởi cùng một màu hoặc đôi một khác màu<br><img alt=\"Screenshot 2024-07-15 000211.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/6655be9690a4658630dd43cbb08b7991.png\" srcset=\"https://docdn.giainhanh.io/media/test/465ea4597e9e515f6784db6d788ea354.png 188w, https://docdn.giainhanh.io/media/test/718e1790eea05ec1a78acfa57a0f360a.png 500w, https://docdn.giainhanh.io/media/test/d06e418ea73f083d365cd7ce89c44e9a.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Tìm một nguyên hàm %(\\mathrm{F}(\\mathrm{x}))% của hàm số : %(f(x)=6 x^{2}-2 x+1)% biết %(F(1)=4)%",
+        "question_images": [],
+        "solution": "Ta có :<br>%(F(x)=\\int\\left(6 x^{2}-2 x+1\\right) d x=2 x^{3}-x^{2}+x+C)%<br>%(F(1)=4 \\Leftrightarrow 2-1+1+C=4 \\Leftrightarrow C=2)%<br>Vậy %(F(x)=2 x^{3}-x^{2}+x+2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Tính các tích phân sau:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) %(I=\\int_{1}^{e}\\left(2 x+\\frac{3}{x}+1\\right) d x)%",
+        "question_images": [],
+        "solution": "%(I=\\int_{1}^{2}\\left(4 x+\\frac{1}{x^{2}}+2\\right) d x=\\left.\\left(2 x^{2}-\\frac{1}{x}+2 x\\right)\\right|_{1} ^{2}=\\frac{17}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) %(L=\\int_{0}^{\\sqrt{3}} x^{3} \\sqrt{1+x^{2}} d x)%",
+        "question_images": [],
+        "solution": "%(L=\\int_{0}^{1} 4 x^{3}\\left(x^{2}-1\\right)^{4} d x \\quad)%<br>Đặt %(t=x^{2}-1 \\Rightarrow\\left\\{\\begin{array}{l}x^{2}=t+1 \\\\ d t=2 x d x \\Leftrightarrow x d x=\\frac{1}{2} d t\\end{array}\\right.)%<br>Đổi cận : %(\\left\\{\\begin{array}{l}x=0 \\Rightarrow t=-1 \\\\ x=1 \\Rightarrow t=0\\end{array}\\right.)%<br>Khi đó : %(\\quad L=\\int_{-1}^{0} 2(t+1) \\cdot t^{4} d t=\\int_{-1}^{0}\\left(2 t^{5}+2 t^{4}\\right) d t=\\left.\\left(\\frac{t^{6}}{3}+\\frac{2 t^{5}}{5}\\right)\\right|_{-1} ^{0}=\\frac{1}{15})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) %(K=\\int_{0}^{\\frac{\\pi}{2}}(2 x+1) \\cos x d x)%",
+        "question_images": [],
+        "solution": "%(K=\\int_{0}^{\\frac{\\pi}{2}}(2 x+1) \\cos x d x)%<br>Đặt: %(\\left\\{\\begin{array}{l}u=2 x+1 \\\\ d v=\\cos x d x\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}d u=2 d x \\\\ v=\\sin x\\end{array}\\right.\\right.)%<br>\\[\\text { khi đó : } \\begin{aligned}K & =\\left.(2 x+1) \\sin x\\right|_{0} ^{\\frac{\\pi}{2}}-\\int_{0}^{\\frac{\\pi}{2}} 2 \\sin x d x \\\\& =\\pi+1+\\left.2 \\cos x\\right|_{0} ^{\\frac{\\pi}{2}} \\\\& =\\pi-1\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Tính diện tích hình phẳng D biết : %(D=\\left\\{y=-x^{2}+2 x+3 ; y=0 ; x=1 ; x=4\\right\\})%",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} S & =\\int_{0}^{2}\\left|x^{2}+3 x-4 d x=\\right| \\int_{0}^{1}\\left(x^{2}+3 x-4\\right) d x|+| \\int_{1}^{2}\\left(x^{2}+3 x-4\\right) d x \\mid \\\\ & =\\left.\\left.\\left|\\left(\\frac{x^{3}}{3}+\\frac{3 x}{2}-4 x\\right)\\right|_{0}^{1}|+|\\left(\\frac{x^{3}}{3}+\\frac{3 x}{2}-4 x\\right)\\right|_{1} ^{2}\\right|_{1} ^{2} \\\\ & =5 \\text { (dvdt) }\\end{aligned})%",
+        "question_type": "essay"
+    }
+]

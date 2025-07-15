@@ -1,0 +1,83 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Tìm 3 số dương %(a, b, c)% thỏa mãn : %(\\frac{a^{2}+7}{4}=\\frac{b^{2}+6}{5}=\\frac{c^{2}+3}{6})% và %(a^{2}+2 c^{2}=3 b^{2}+19)%",
+        "question_images": [],
+        "solution": "Từ giả thiết %(a^{2}+2 c^{2}=3 b^{2}+19 \\Rightarrow a^{2}+2 c^{2}-3 b^{2}=19)%<br>Ta có: %(\\frac{a^{2}+7}{4}=\\frac{b^{2}+6}{5}=\\frac{c^{2}+3}{6}=\\frac{3 b^{2}+18}{15}=\\frac{2 c^{2}+6}{12}=\\frac{a^{2}+7+2 c^{2}+6-3 b^{2}-18}{4+12-15}=\\frac{14}{1}=14)%<br>Suy ra: %(a^{2}=49 \\Rightarrow a=7)%<br>%(b^{2}=64 \\Rightarrow b=8)%<br>%(c^{2}=81 \\Rightarrow c=9)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Tìm giá trị nhỏ nhất của biểu thức %(P=x^{4}+2 x^{3}+3 x^{2}+2 x+1)%",
+        "question_images": [],
+        "solution": "%(P=x^{4}+2 x^{3}+3 x^{2}+2 x+1=\\left(x^{4}+2 x^{2}+1\\right)+\\left(2 x^{3}+2 x\\right)+x^{2})%<br>%(=\\left(x^{2}+1\\right)^{2}+2 x\\left(x^{2}+1\\right)+x^{2}=\\left(x^{2}+x+1\\right)^{2})%<br>Vì:%(\\mathrm\\ x^{2}+x+1=\\left(x^{2}+2 x \\cdot \\frac{1}{2}+\\frac{1}{4}\\right)+\\frac{3}{4}=\\left(x+\\frac{1}{2}\\right)^{2}+\\frac{3}{4} \\geq \\frac{3}{4} \\Rightarrow P \\geq\\left(\\frac{3}{4}\\right)^{2}=\\frac{9}{16})%<br>Dấu \"%({=})%\" xảy %(\\mathrm{ra} \\Leftrightarrow x=-\\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 3.0,
+        "content": "Để tham gia ngày chạy Olympic vì sức khỏe toàn dân, trường A đã nhận được một số chiếc áo và chia đều cho các lớp. Biết rằng theo thứ tự, lớp thứ nhất nhận được %(4)% áo và %(\\frac{1}{9})% số còn lại, rồi đến lớp thứ %(n(n=2 ; 3 ; 4 \\ldots))% nhận được %(4n)% áo và %(\\frac{1}{9})% số áo còn lại. Cứ như thế các lớp đã nhận hết số áo<br>Hỏi trường A đã nhận được bao nhiêu chiếc áo ?",
+        "question_images": [],
+        "solution": "Gọi số lớp của trường A được nhận áo là %(x)%<br>Vì lớp thứ %(x)% nhận áo cuối cùng và số áo được phát hết nên số áo lớp thứ %(x)% nhận được là %(4 x)%.<br>Lớp thứ %(x-1)% nhận số áo là %(4(x-1)+\\frac{1}{8} \\cdot 4 x=4,5 x-4)%<br>Vì số áo các lớp nhận được như nhau nên ta có phương trình:<br>%(4,5 x-4=4 x \\Leftrightarrow x=8)%<br>Suy ra số áo mỗi lớp nhận được: %(4.8=32)% (áo)<br>Suy ra số áo trường A nhận được: %(32.8=256)% (áo)",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 3.0,
+        "content": "Tìm tất cả các số nguyên dương %({n})% để %(\\left(1+n^{2017}+n^{2018}\\right))% là số nguyên tố",
+        "question_images": [],
+        "solution": "Đặt: %(A=1+n^{2017}+n^{2018})%<br>Với %(n=1)% thì %(A=3)% là số nguyên tố<br>Với %(n\\gt 1)%, ta có:<br>%(1+n^{2017}+n^{2018}=\\left(n^{2018}-n^{2}\\right)+\\left(n^{2017}-n\\right)+\\left(n^{2}+n+1\\right))%<br>%(=n^{2}\\left(n^{2016}-1\\right)+n\\left(n^{2016}-1\\right)+\\left(n^{2}+n+1\\right)=\\left(n^{2016}-1\\right)\\left(n^{2}+n\\right)+\\left(n^{2}+n+1\\right))%<br>Ta lại có: %(n^{2016}-1=\\left(n^{3}\\right)^{672}-1=\\left(n^{3}-1\\right)\\left[\\left(n^{3}\\right)^{671}+\\left(n^{3}\\right)^{670}+\\ldots .+n^{3}+1\\right])% chia hết cho %(\\left(n^{3}-1\\right))%<br>%(\\Rightarrow)%%(\\left(n^{2016}-1\\right))% chia hết cho %(\\left(n^{2}+n+1\\right))%. Suy ra %(A:\\left(n^{2}+n+1\\right))%, mà %(1\\lt n^{2}+n+1\\lt A)% nên %(A)% là hợp số.<br>Vậy %(n=1)% là số nguyên dương duy nhất thỏa mãn điều kiện",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 3.0,
+        "content": "Một giải bóng chuyền có %(9)% đội bóng tham gia thi đấu vòng tròn 1 lượt (hai đội bất kỳ chỉ thi đấu với nhau 1 trận). Biết đội thứ nhất thắng %(a_{1})% trận và thua %(b_{1})% trận, đội thứ %(2)% thắng %(a_{2})% trận và thua %(b_{2})% trận, %(\\ldots)%, đội thứ %(9)% thắng %(a_{9})% trận và thua %(b_{9})% trận.<br>Chứng minh rằng %(a_{1}^{2}+a_{2}^{2}+a_{3}^{2}+\\ldots . .+a_{9}^{2}=b_{1}^{2}+b_{2}^{2}+b_{3}^{2}+\\ldots . .+b_{9}^{2})%",
+        "question_images": [],
+        "solution": "Mỗi đội bóng thi đấu với 8 đội bóng khác và hai đội bất kỳ chi gặp nhau 1 trận nên mỗi đội sẽ thi đấu 8 trận %(\\Rightarrow a_{i}+b_{i}=8)% (với %(i=1,2,3 \\ldots \\ldots .8)% )<br>Đẳng thức cần chứng minh tương đương với:<br>%(a_{1}^{2}+a_{2}^{2}+a_{3}^{2}+\\ldots .+a_{9}^{2}=\\left(8-a_{1}\\right)^{2}+\\left(8-a_{2}\\right)^{2}+\\left(8-a_{3}\\right)^{2}+\\ldots . .+\\left(8-a_{9}\\right)^{2})%<br>%(\\Leftrightarrow 16\\left(a_{1}+a_{2}+a_{3}+\\ldots \\ldots .+a_{9}\\right)=576\\quad\\ (1))%<br>Mặt khác, tổng số trận thắng của các đội bằng tổng số trận đấu nên :%(a_{1}+a_{2}+a_{3}+\\ldots .+a_{9}=\\frac{9.8}{2}=36\\quad\\ (2))%<br>Từ %((1))% và %((2))% suy ra đpcm",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho đoạn thẳng %(A B)% dài %(a(\\mathrm{~cm}))%. Lấy điểm %(C)% bất kỳ thuộc đoạn thẳng %(\\mathrm{AB}(\\mathrm{C})% khác %(A)% và %(B)% ). Vẽ tia %(C x)% vuông góc với %(AB)% . Trên tia %(C x)% lấy hai điểm %(D)% và %(E)% sao cho %(C D=C A)% và %(C E=C B)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh %(AE)% vuông góc với %(BD)%",
+        "question_images": [],
+        "solution": "Gọi %(H)% là giao điểm của %(B D)% và %(A E)%<br>%(\\triangle A C E=\\triangle D C B)% ( c.g.c) %(\\Rightarrow \\widehat{E}=\\widehat{B})%<br>Suy ra %(\\triangle D H E \\sim \\triangle D C B(\\mathrm{~g} . \\mathrm{g}) \\Rightarrow \\widehat{DH E}=\\widehat{C D B}=90^{\\circ})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0c4da48a84b26e36be98ab858664c316.png\" srcset=\"https://docdn.giainhanh.io/media/test/c4a04b521b498eba6fe196dc1cf0792f.png 240w, https://docdn.giainhanh.io/media/test/fbd929aed2ec7ceb7d23c2f10d956551.png 500w, https://docdn.giainhanh.io/media/test/73f8410438dff973110b7685769e9706.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Gọi %(M)% và %(N)% lần lượt là trung điểm của %(A E)% và %(BD)% . Tìm vị trí của điểm %(C)% trên đoạn thẳng %(AB)% để đa giác %(C M E D N)% có diện tích lớn nhất",
+        "question_images": [],
+        "solution": "Ta có: %(S_{C M E D N}=S_{C M E}+S_{C D N}=\\frac{1}{2} S_{A C E}+\\frac{1}{2} S_{B C D}=\\frac{1}{4} \\cdot A C \\cdot C E+\\frac{1}{4} \\cdot C B \\cdot C D=\\frac{1}{2} A C \\cdot C B)%<br>Mặt khác, theo bđt %(AM-GM)% ta có: %(A C \\cdot C B \\leq \\frac{(A C+C B)^{2}}{4}=\\frac{a^{2}}{4})%<br>Suy ra %(S_{C M E D N} \\geq \\frac{a^{2}}{8})%. Dấu \"%(=)%\" xảy ra khi và chỉ khi %(A C=C B)% hay %(C)% là trung điểm %(AB)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) Gọi %(I)% là trung điểm của MN . Chứng minh rằng khoảng cách từ %(I )% đến %(A B)% không phụ thuộc vào vị trí điểm %(C)%",
+        "question_images": [],
+        "solution": "Gọi %(J, M^{\\prime}, N^{\\prime})% lần lượt là hình chiếu vuông góc của %(I, M, N)% lên %(A B)%<br>Ta có: %(I J)% là đường trung bình của hình thang %(M N N^{\\prime} M^{\\prime})%nên %(I J=\\frac{M M^{\\prime}+N N^{\\prime}}{2}\\quad\\ (1))%<br>Ta lại có %(\\mathrm{MM}^{\\prime})% là đường trung bình của %(\\triangle A C E)% và %(NN')% là đường trung bình %(\\triangle B C D)% nên<br>%(M M^{\\prime}=\\frac{C E}{2}=\\frac{C B}{2})% và %(N N^{\\prime}=\\frac{C D}{2}=\\frac{A C}{2}\\quad\\ (2))%<br>Từ %((1))% và %((2))% suy ra %(I J=\\frac{\\frac{A C}{2}+\\frac{C B}{2}}{2}=\\frac{A B}{4}=\\frac{a}{4})%<br>Vậy khoảng cách của điểm %(I)% đến đoạn %(A B)% không phụ thuộc vào vị trí của điểm %(C)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Hình vuông có %(3 \\times 3)% ô (như hình bên ), chứa 9 số mà tổng các số ờ mỗi hàng, mỗi cột, mỗi đường chéo bằng nhau được gọi là hình vuông kỳ diệu . Chứng minh rằng số ở tâm %((\\times))% của một hình vuông kỳ diệu bằng trung bình cộng của hai số còn lại cùng hàng, hoặc cùng cột, hoặc cùng đường chéo.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/45f376a52880866607718b3426657084.png"
+        ],
+        "solution": "Giả sử hình vuông kỳ diệu điền các số %(a, b, c, d, e, f, g, h, i)% như hình vẽ<br>Đặt: %(S= a+b+c+d+e+f+g+h+i)%<br>Suy ra %(d+e+f=b+e+h=a+e+i=c+e+g=\\frac{S}{3}\\quad\\ (1))%<br>Suy ra %((d+e+f)+(b+e+h)+(a+e+i)+(c+e+g)=\\frac{4 S}{3})%<br>%(\\Rightarrow(d+e+f)+(b+e+h)+(a+e+i)+(c+e+g)=\\frac{4 S}{3})%<br>%(\\Rightarrow S+3 e=\\frac{4 S}{3} \\Rightarrow e=\\frac{S}{9}\\quad\\ (2))%<br>Từ %((1))% và %((2))% %(\\Rightarrow d+f=b+h=a+i=c+g=\\frac{2 S}{9}=2 e(d f c m))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a423e6472c64da2c4ec325532a5b68f9.png\" srcset=\"https://docdn.giainhanh.io/media/test/d97969352677bed98415ee351edb4202.png 235w\" width=\"235\"/>",
+        "question_type": "essay"
+    }
+]

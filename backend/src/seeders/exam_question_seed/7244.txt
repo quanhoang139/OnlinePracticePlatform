@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là các số thực thỏa mãn %(a^{2}+b^{2}+c^{2}=a+2 b+3 c=14)%. Tính giá trị của biểu thức %(M=a b c)%",
+        "question_images": [],
+        "solution": "Ta có %(\\left\\{\\begin{array}{l}a^{2}+b^{2}+c^{2}=14 \\\\ a+2 b+3 c=14\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a^{2}+b^{2}+c^{2}=14 \\\\ 2 a+4 b+6 c=28\\end{array}\\right.\\right.)%<br>\\[\\begin{array}{l}\\Rightarrow a^{2}+b^{2}+c^{2}-2 a-4 b-6 c=-14 \\\\Leftrightarrow(a-1)^{2}+(b-2)^{2}+(c-3)^{2}=0 \\Leftrightarrow a=1 ; b=2 ; c=3 \\\\Rightarrow M=a b c=6\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Chứng minh rằng với mọi số nguyên dương %(n)% :<br>\\[\\frac{1}{2 \\sqrt{2}}+\\frac{1}{4 \\sqrt{3}}+\\frac{1}{6 \\sqrt{4}}+\\ldots+\\frac{1}{2 n \\sqrt{n+1}}+\\frac{1}{\\sqrt{n+1}}\\gt 1\\]",
+        "question_images": [],
+        "solution": "Chứng minh được công thức tổng quát:<br>\\[\\frac{1}{\\sqrt{n}}-\\frac{1}{\\sqrt{n+1}}=\\frac{\\sqrt{n+1}-\\sqrt{n}}{\\sqrt{(n+1) n}}=\\frac{1}{(\\sqrt{n+1}+\\sqrt{n}) \\sqrt{(n+1) n}}\\lt \\frac{1}{2 n \\sqrt{n+1}}\\]<br>Áp dụng bất đẳng thức trên suy ra:<br>\\[\\frac{1}{2 \\sqrt{2}}\\gt 1-\\frac{1}{\\sqrt{2}} ; \\frac{1}{4 \\sqrt{3}}>\\frac{1}{\\sqrt{2}}-\\frac{1}{\\sqrt{3}} ; \\ldots ; \\frac{1}{2 n \\sqrt{n+1}}>\\frac{1}{\\sqrt{n}}-\\frac{1}{\\sqrt{n+1}}\\]<br>Cộng vế với vế của các bất đẳng thức trên ta được:<br>\\[\\frac{1}{2 \\sqrt{2}}+\\frac{1}{4 \\sqrt{3}}+\\frac{1}{6 \\sqrt{4}}+\\ldots+\\frac{1}{2 n \\sqrt{n+1}}>1-\\frac{1}{\\sqrt{n+1}} \\text { suy ra đpcm }\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(\\sqrt{x(3 x+1)}-\\sqrt{x(x-1)}=2|x|)%",
+        "question_images": [],
+        "solution": "Điều kiện xác định: %(x=0)% hoặc %(x \\geq 1)% hoặc %(x \\leq \\frac{-1}{3})%<br>- Xét %(x=0)%, thỏa mãn phương trình nên %(x=0)% là nghiệm<br>- Xét %(\\mathrm{x} \\neq 0)%, chia hai vế cho %(\\sqrt{x^{2}} \\neq 0)%, ta được: %(\\sqrt{3+\\frac{1}{x}}-\\sqrt{1-\\frac{1}{x}}=2)%<br>Đặt: %(\\sqrt{3+\\frac{1}{x}}=u\\gt 0 ; \\sqrt{1-\\frac{1}{x}}=v \\geq 0)%. Ta được:<br>%(\\left\\{\\begin{array}{l}u-v=2 \\\\ u^{2}+v^{2}=4\\end{array}\\right.)% Giải được %(u=2 ; v=0)% suy ra %(x=1)% (Thỏa mãn ĐKХĐ)<br>Thử lại ta có nghiệm của phương trình là %(x \\in\\{0 ; 1\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Tìm số nguyên %(x, y)% thỏa mãn: %(x^{2}+x y+y^{2}=x^{2} y^{2})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}x^{2}+x y+y^{2}=x^{2} y^{2} \\text { (1) } \\\\ \\Leftrightarrow x^{2}+2 x y+y^{2}=x^{2} y^{2}+x y \\Leftrightarrow(x+y)^{2}=x y(x y+1)\\end{array})%<br>Vì VT là số chính phương suy ra VP là số chính phương mà %(x y)% và %(x y+1)% là hai số nguyên liên tiếp nên phải có %(x y=0)% hoặc %(x y+1=0)%<br>* Với %(x y=0)% ta có %(x^{2}+y^{2}=0)% nên %(x=y=0)%<br>* Với %(x y+1=0)% thì %(x y=-1)% suy ra %(x=1 ; y=-1)% hoặc %(x=-1 ; y=1)%<br>Thử lại ta có nghiệm nguyên %((x ; y))% của (1) là: %((0 ; 0) ;(1 ;-1) ;(-1 ; 1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Chứng minh rằng với mọi số tự nhiên %(n)% thì %(A=7.5^{2 n}+12.6^{n})% chia hết cho 19",
+        "question_images": [],
+        "solution": "Vói %(\\mathrm{n}=0)% ta có %(\\mathrm{A}(0)=19 \\vdots 19)%<br>Giả sử %(\\mathrm{A})% chia hết cho 19 với %(\\mathrm{n}=\\mathrm{k})% nghĩa là: %(\\mathrm{A}(\\mathrm{k})=7.5^{2 \\mathrm{k}}+12.6^{\\mathrm{k}} \\vdots 19)%<br>Ta phải chứng minh %(\\mathrm{A})% chia hết cho 19 với %(\\mathrm{n}=\\mathrm{k}+1)% nghĩa là phải chứng minh:<br>%(\\mathrm{A}(\\mathrm{k}+1)=7.5^{2(\\mathrm{k}+1)}+12.6^{\\mathrm{k}+1} \\vdots 19)%<br>Ta có: %(\\mathrm{A}(\\mathrm{k}+1)=7.5^{2(\\mathrm{k}+1)}+12.6^{\\mathrm{k}+1})%<br>\\[\\begin{array}{l}=7.5^{2 \\mathrm{k}} \\cdot 5^{2}+12 \\cdot 6^{\\mathrm{n}} \\cdot 6 \\\\=7.5^{2 \\mathrm{k}} \\cdot 6+7 \\cdot 5^{2 \\mathrm{k}} \\cdot 19+12 \\cdot 6^{\\mathrm{n}} \\cdot 6 \\\\=6 . \\mathrm{A}(\\mathrm{k})+7.5^{2 \\mathrm{k}} \\cdot 19 \\vdots 19\\end{array}\\]<br>Vậy theo nguyên lý quy nạp thì %(\\mathrm{A}=7.5^{2 \\mathrm{n}}+12.6^{\\mathrm{n}}: 19)% với mọi %(\\mathrm{n} \\in \\mathrm{N})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Với %(a, b, c\\gt 0)% thỏa mãn %(a+b+c=a b c-2)%. Tìm giá trị lớn nhất của biểu thức:<br>\\[P=\\sqrt{\\frac{1}{a+1}}+\\sqrt{\\frac{1}{b+1}}+\\sqrt{\\frac{1}{c+1}}\\]",
+        "question_images": [],
+        "solution": "Chứng minh được %(\\frac{1}{1+a}+\\frac{1}{1+b}+\\frac{1}{1+c}=1)%<br>Thật vậy: %(\\frac{1}{1+a}+\\frac{1}{1+b}+\\frac{1}{1+c}=1)%<br>%(\\Leftrightarrow(1+a)(1+b)+(1+b)(1+c)+(1+c)(1+a)=(1+a)(1+b)(1+a))%<br>%(\\Leftrightarrow 3+2(a+b+c)+a b+b c+c a=1+a+b+c+a b+b c+c a+a b c)%<br>%(\\Leftrightarrow 2+a+b+c=a b c)% (đúng, theo giả thiết)<br>Theo bất đẳng thức Bunhiacopxki ta có:<br>\\[\\begin{array}{l}\\left(\\sqrt{\\frac{1}{a+1}}+\\sqrt{\\frac{1}{b+1}}+\\sqrt{\\frac{1}{c+1}}\\right)^{2} \\leq 3\\left(\\frac{1}{1+a}+\\frac{1}{1+b}+\\frac{1}{1+c}\\right)=3 \\\\Rightarrow \\sqrt{\\frac{1}{a+1}}+\\sqrt{\\frac{1}{b+1}}+\\sqrt{\\frac{1}{c+1}} \\leq \\sqrt{3}\\end{array}\\]<br>Vậy %(P_{\\max }=\\sqrt{3})% khi và chi khi %(a=b=c=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho đường tròn %((\\mathrm{O}, \\mathrm{R}))%. Đường kính %(\\mathrm{AB})%. Vẽ các tiếp tuyến %(\\mathrm{Ax})%, By của %((\\mathrm{O}))%. Trên đường tròn lấy %(\\mathrm{E}(\\mathrm{E})% khác %(\\mathrm{A}, \\mathrm{B}))%. Đường thẳng vuông góc với %(\\mathrm{OE})% tại %(\\mathrm{E})% cắt %(\\mathrm{Ax}, \\mathrm{By})% lần lượt tại %(\\mathrm{C})% và %(\\mathrm{D})%. Hạ %(\\mathrm{EF})% vuông góc với %(\\mathrm{AB})% tại %(\\mathrm{F}, \\mathrm{BC})% cắt %(\\mathrm{EF})% tại %(\\mathrm{I})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh %(\\mathrm{I})% là trung điểm của %(\\mathrm{EF})%",
+        "question_images": [],
+        "solution": "Kéo dài %(\\mathrm{BE})% cắt %(\\mathrm{Ax})% tại %(\\mathrm{Q})%<br>+ Chứng minh các tam giác vuông %(\\triangle \\mathrm{ACO}=\\triangle \\mathrm{ECO})% để có %(\\mathrm{AC}=\\mathrm{CE})%, tương tự có %(\\mathrm{ED}=\\mathrm{DB})%(HS có thể dùng tính chất của hai tiếp tuyến cắt nhau)<br>+ Chứng minh được %(\\triangle C E Q)% cân tại %(C)% và %(\\Delta C A E)% cân suy ra %(C A=C Q(1))%<br>+ Chứng minh được %(\\mathrm{EF} / / \\mathrm{AQ})% nên áp dụng định lý Talet vào %(\\triangle \\mathrm{QBC})% và %(\\triangle \\mathrm{BCA})% có: %(\\frac{E I}{C Q}=\\frac{B I}{B C}=\\frac{I F}{C A} \\Rightarrow \\frac{E I}{C Q}=\\frac{\\mathrm{IF}}{A C})%<br>%((1)(2) \\Rightarrow E I=\\mathrm{IF})% suy ra đpcm<br><img alt=\"https://docdn.giainhanh.io/media/test/6881e9546607149c513484229c287e1a.PNG\" src=\"https://docdn.giainhanh.io/media/test/6881e9546607149c513484229c287e1a.PNG\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Gọi %(\\mathrm{EA})% cắt %(\\mathrm{CF})% tại %(\\mathrm{M}, \\mathrm{EB})% cắt %(\\mathrm{DF})% tại %(\\mathrm{N})% và %(\\mathrm{K})% là trung điểm của %(\\mathrm{AC})%. Chứng minh %(\\mathrm{K}, \\mathrm{M})%,%(\\mathrm{I}, \\mathrm{N})% thẳng hàng",
+        "question_images": [],
+        "solution": "%(\\left.\\begin{array}{l}\\mathrm{EF} / / C A \\Rightarrow \\frac{\\mathrm{EF}}{A C}=\\frac{E M}{M A} \\\\ I E=\\frac{1}{2} \\mathrm{EF}, K A=\\frac{1}{2} A C\\end{array}\\right\\} \\Rightarrow \\frac{E I}{A K}=\\frac{E M}{M A})% lại có %(\\widehat{C A E}=\\widehat{M E F}()% slt %())%<br>Từ đó chứng minh được %(\\Delta \\mathrm{EMI})% đồng dạng %(\\triangle \\mathrm{AMK})% (c-g-c)<br>Suy ra góc EMI = góc KMA<br>Suy ra %(\\widehat{K M A}+\\widehat{A M I}=180^{\\circ})%<br>Nên %(\\mathrm{K}, \\mathrm{M}, \\mathrm{I})% thẳng hàng (3)<br>Kéo dài %(\\mathrm{IN})% cắt %(\\mathrm{BD})% tại %(\\mathrm{P})%. Do %(\\mathrm{EF} / / \\mathrm{BD})% nên áp dụng hệ quả định lý Talet có:%(\\frac{B P}{E I}=\\frac{D P}{F I}\\left(=\\frac{B N}{N I}\\right))% mà %(\\mathrm{EI}=\\mathrm{FI}(\\mathrm{cmt}))% nên %(\\mathrm{BP}=\\mathrm{DP}=1 / 2 \\mathrm{BD})%<br>Áp dụng ĐL Talet trong %(\\triangle \\mathrm{BCD})% (EI/BD) có: %(\\frac{C I}{I B}=\\frac{C E}{E D}=\\frac{A C}{B D}=\\frac{2 C K}{2 B P}=\\frac{C K}{B P} \\Rightarrow \\frac{C I}{I B}=\\frac{C K}{B P})%<br>Kết hợp với %(\\widehat{A C B}=\\widehat{C B D})% (slt) suy ra %(\\triangle \\mathrm{KCI})% đồng dạng %(\\triangle \\mathrm{PBI})% (c-g-c)<br>Suy ra %(\\widehat{C I K}=\\widehat{B I P})% từ đó có %(\\widehat{P I C}+\\widehat{C I K}=180^{\\circ})% nên %(\\mathrm{K}, \\mathrm{I}, \\mathrm{P})% thẳng hàng (4)<br>Từ (3) và (4) suy ra %(\\mathrm{K}, \\mathrm{M}, \\mathrm{N}, \\mathrm{I})% thẳng hàng (đpcm)<br><img alt=\"https://docdn.giainhanh.io/media/test/95d084888d5382b0df2dfd9fba568586.PNG\" src=\"https://docdn.giainhanh.io/media/test/95d084888d5382b0df2dfd9fba568586.PNG\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Gọi r là bán kính đường tròn nội tiếp tam giác COD. Chứng minh %(\\frac{1}{3}\\lt \\frac{r}{R}\\lt \\frac{1}{2})%",
+        "question_images": [],
+        "solution": "+ Đặt %(C D=a ; O C=b ; O D=c(a\\gt b ; a>c))%<br>+ Chứng minh được công thức tính diện tích tam giác %(S=p . r)% ( %(\\mathrm{r})% là bán kính đường tròn nội tiếp, p là nửa chu vi)<br>Dựa vào 2 cách tính diện tích tam giác %(C O D)% ta có:<br>\\[S_{C O D}=p \\cdot r=\\frac{1}{2} O E \\cdot C D \\Leftrightarrow \\frac{1}{2} r(a+b+c)=\\frac{1}{2} R \\cdot a \\Rightarrow \\frac{r}{R}=\\frac{a}{a+b+c}\\]<br>+ Trong %(\\triangle \\mathrm{COD})% có %(\\mathrm{b}+\\mathrm{c}\\gt)% a suy ra %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}>2 \\mathrm{a})%<br>%(\\Rightarrow \\frac{a}{a+b+c}\\lt \\frac{a}{2 a}=\\frac{1}{2} \\Rightarrow \\frac{r}{R}\\lt \\frac{1}{2})%    (5)<br>+ Vì %(a\\gt b, a>c \\Rightarrow a+b+c\\lt 3 a \\Rightarrow \\frac{a}{a+b+c}>\\frac{1}{3} \\Rightarrow \\frac{r}{R}>\\frac{1}{3})%    (6)<br>Từ (5) (6) suy ra đpcm<br><img alt=\"https://docdn.giainhanh.io/media/test/664856d6c6a763281bbe71eb0063092a.PNG\" src=\"https://docdn.giainhanh.io/media/test/664856d6c6a763281bbe71eb0063092a.PNG\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.0,
+        "content": "Với %(a, b, c)% là các số thực dương, chứng minh rằng:<br>\\[\\sqrt{a^{2}+b^{2}-\\sqrt{3} a b}+\\sqrt{b^{2}+c^{2}-b c} \\geq \\sqrt{a^{2}+c^{2}}\\]",
+        "question_images": [],
+        "solution": "Ta đặt %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là độ dài các đoạn thẳng như hình vẽ sau:<br>Sử dụng ti số lượng giác tính được:<br>\\[\\begin{array}{l}A B=\\sqrt{a^{2}+b^{2}-\\sqrt{3} a b} \\B C=\\sqrt{b^{2}+c^{2}-b c} \\A C=\\sqrt{a^{2}+c^{2}} \\\\text { Vi } A B+B C \\geq A C\\end{array}\\]<br>Nên ta có đpcm<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c76628eb5053a6af35d26a08d7ceacf3.png\" srcset=\"https://docdn.giainhanh.io/media/test/cd2c19363e0aa2de5bd0d57220c56a14.png 145w\" width=\"145\"/>",
+        "question_type": "essay"
+    }
+]

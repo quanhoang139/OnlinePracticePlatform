@@ -1,0 +1,81 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các cặp số nguyên %((\\mathrm{m}, \\mathrm{n}))% thỏa mãn: %(\\mathrm{m}^{2}+\\mathrm{m}=3^{2024 \\mathrm{n}}+19)%.",
+        "question_images": [],
+        "solution": "Trường hợp 1: với %(\\mathrm{n}\\lt 0, \\mathrm{~m}^{2}+\\mathrm{m})% là số nguyên, %(3^{2024 \\mathrm{n}}+19)% không phải số nguyên ( loại)<br>Trường hợp 2: Với %(\\mathrm{n}=0 \\Rightarrow \\mathrm{m}^{2}+\\mathrm{m}=20 \\Rightarrow \\mathrm{m}^{2}+\\mathrm{m}-20=0 \\Rightarrow(\\mathrm{m}-4)(\\mathrm{m}+5)=0)%<br>%(\\Rightarrow \\mathrm{m}=4)% ( thỏa mãn), %(\\mathrm{m}=-5)% ( thỏa mãn)<br>Trường hợp 3: Với %(\\mathrm{n}\\gt 0)% : Ta có %(3^{2024 \\mathrm{n}}+19)% chia 3 dư 1<br>Ta có %(\\mathrm{m}^{2}+\\mathrm{m}=\\mathrm{m}(\\mathrm{m}+1))%, nếu %(\\mathrm{m}=3 \\mathrm{k}, \\mathrm{m}=3 \\mathrm{k}+2 \\Rightarrow \\mathrm{m}(\\mathrm{m}+1))% %(\\vdots 3)%<br>Nếu %(\\mathrm{m}=3 \\mathrm{k}+1 \\Rightarrow \\mathrm{m}(\\mathrm{m}+1))% chia %(3 \\mathrm{dư} 2 \\Rightarrow \\mathrm{m}^{2}+\\mathrm{m}=3^{2024 \\mathrm{n}}+19)% ( vô lí)<br>Vậy %((\\mathrm{m}, \\mathrm{n})=(4,0),(\\mathrm{m}, \\mathrm{n})=(-5,0))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c}, \\mathrm{d})% là các số nguyên biết %(\\mathrm{a}+3 \\mathrm{~b}=\\mathrm{c}+2 \\mathrm{~d})%. Chứng minh rằng %(\\mathrm{a}^{2}+9 \\mathrm{~b}^{2}+\\mathrm{c}^{2}+4 \\mathrm{~d}^{2})% viết được dưới dạng tổng ba số chính phương.",
+        "question_images": [],
+        "solution": "Từ %(a+3 b=c+2 d \\Rightarrow a+3 b-c-2 d=0 \\Rightarrow 2 a(a+3 b-c-2 d)=0)%<br>Ta có %(\\mathrm{a}^{2}+9 \\mathrm{~b}^{2}+\\mathrm{c}^{2}+4 \\mathrm{~d}^{2}=\\mathrm{a}^{2}+9 \\mathrm{~b}^{2}+\\mathrm{c}^{2}+4 \\mathrm{~d}^{2}+2 \\mathrm{a}(\\mathrm{a}+3 \\mathrm{~b}-\\mathrm{c}-2 \\mathrm{~d}))% %(=\\mathrm{a}^{2}+9 \\mathrm{~b}^{2}+\\mathrm{c}^{2}+4 \\mathrm{~d}^{2}+2 \\mathrm{a}^{2}+6 \\mathrm{ab}-2 \\mathrm{ac}-4 \\mathrm{ad}=(\\mathrm{a}-\\mathrm{c})^{2}+(\\mathrm{a}-2 \\mathrm{~d})^{2}+(\\mathrm{a}+3 \\mathrm{~b})^{2})% ( điều phải chứng minh)",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 3.5,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}(x-y)^{3}+(x-y)(x y+x-y)+x y=0(1) \\\\ y(y+2)(y+5)(x+2)=35 x^{2}(2)\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Từ PT (1) %(\\Leftrightarrow(x-y)^{3}+(x-y)^{2}+(x-y) x y+x y=0 \\Leftrightarrow(x-y+1)\\left(x^{2}-x y+y^{2}\\right)=0)%<br>Trường hợp 1: %(x^{2}-x y+y^{2}=0 \\Leftrightarrow\\left(x-\\frac{1}{2} y\\right)^{2}+\\frac{3}{4} y^{2}=0 \\Rightarrow x=y=0)% thỏa mãn PT (2)<br>Trường hợp 2: %(\\mathrm{x}-\\mathrm{y}+1=0 \\Leftrightarrow \\mathrm{y}=\\mathrm{x}+1)% thay vào phương trình (2)<br>Ta có: %((x+1)(x+6)(x+3)(x+2)=35 x^{2})%%(\\Leftrightarrow\\left(x^{2}+7 x+6\\right)\\left(x^{2}+5 x+6\\right)=35 x^{2} \\Leftrightarrow\\left(x+\\frac{6}{x}+7\\right)\\left(x+\\frac{6}{x}+5\\right)=35)% ( vì %(x=0)% không là nghiệm)<br>\\[\\begin{array}{l}\\Leftrightarrow\\left(x+\\frac{6}{x}\\right)^{2}+12\\left(x+\\frac{6}{x}\\right)=0 \\Leftrightarrow\\left[\\begin{array}{l}x+\\frac{6}{x}=0 \\x+\\frac{6}{x}=-12\\end{array} \\quad \\text { Với } x+\\frac{6}{x}=0\\right. \\text { ( Phương trình vô nghiệm) } \\x+\\frac{6}{x}=-12 \\Leftrightarrow x^{2}+12 x+6=0 \\Rightarrow\\left[\\begin{array}{l}x=-6+\\sqrt{30} \\Rightarrow y=-5+\\sqrt{30} \\x=-6-\\sqrt{30} \\Rightarrow y=-5-\\sqrt{30}\\end{array}\\right.\\end{array}\\]<br>Vậy hệ phương trình có 3 nghiệm: %((0 ; 0),(-6+\\sqrt{30} ;-5+\\sqrt{30}),(-6-\\sqrt{30} ;-5-\\sqrt{30}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 3.5,
+        "content": "Giải phương trình %(4(\\mathrm{x}-1)^{2} \\sqrt{\\mathrm{x}+1}-4(\\mathrm{x}-1) \\sqrt{\\mathrm{x}^{2}-1}=\\left(\\mathrm{x}^{2}+2\\right)\\left(\\mathrm{x}^{2}-2 \\mathrm{x}\\right))%.",
+        "question_images": [],
+        "solution": "ĐКХĐ: %(x=-1)% hoặc %(x \\geq 1)%<br>Xét %(\\mathrm{x}=-1)% ( không thỏa mãn)<br>\\[\\begin{array}{l}\\text { Xét } x \\geq 1 \\text { ta có } P T \\Leftrightarrow 4(x-1) \\sqrt{x^{2}-1} \\sqrt{x-1}-1=\\left(x^{2}+2\\right)\\left(x^{2}-2 x\\right) \\\\Leftrightarrow 4(x-1) \\sqrt{x^{2}-1} \\cdot \\frac{x-2}{\\sqrt{x-1}+1}=x\\left(x^{2}+2\\right)(x-2)\\end{array}\\]<br>%(\\Leftrightarrow\\left[\\begin{array}{l}x=2 \\\\ \\frac{4(x-1) \\sqrt{x^{2}-1}}{\\sqrt{x-1}+1}=x\\left(x^{2}+2\\right)\\end{array}\\right.)%<br>Ta có %(x=2)% ( thỏa mãn)Với %(\\frac{4(x-1) \\sqrt{x^{2}-1}}{\\sqrt{x-1}+1}=x\\left(x^{2}+2\\right) \\Leftrightarrow 4(x-1) \\sqrt{x^{2}-1}=x\\left(x^{2}+2\\right)(\\sqrt{x-1}+1))%<br>Ta có %(\\sqrt{x-1}+1\\gt \\sqrt{x-1}, \\quad x \\geq 2 \\sqrt{x-1}, \\quad x^{2}+2>2 \\sqrt{x^{2}-1} \\quad()% với %(x \\geq 1))% %(\\Rightarrow 4(x-1) \\sqrt{x^{2}-1}\\lt x\\left(x^{2}+2\\right)(\\sqrt{x-1}+1))% nên phương trình %((*))% vô nghiệm.<br>Vậy phương trình có nghiệm là %(\\mathrm{x}=2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Cho %(a, b, c)% là độ dài ba cạnh của một tam giác thỏa mãn %(2 c+3 b=a b c)%.Tìm giá trị nhỏ nhất của biểu thức %(\\mathrm{P}=\\frac{5}{\\mathrm{~b}+\\mathrm{c}-\\mathrm{a}}+\\frac{7}{\\mathrm{a}+\\mathrm{b}-\\mathrm{c}}+\\frac{8}{\\mathrm{a}+\\mathrm{c}-\\mathrm{b}})%.",
+        "question_images": [],
+        "solution": "\\[P=2\\left(\\frac{1}{b+c-a}+\\frac{1}{a+b-c}\\right)+3\\left(\\frac{1}{b+c-a}+\\frac{1}{a+c-b}\\right)+5\\left(\\frac{1}{a+b-c}+\\frac{1}{a+c-b}\\right)\\]<br>Áp dụng BĐT: %(\\frac{1}{\\mathrm{x}}+\\frac{1}{\\mathrm{y}} \\geq \\frac{4}{\\mathrm{x}+\\mathrm{y}}(\\mathrm{x}, \\mathrm{y}\\gt 0) \\Rightarrow \\mathrm{P} \\geq \\frac{8}{2 \\mathrm{~b}}+\\frac{12}{2 \\mathrm{c}}+\\frac{20}{2 \\mathrm{a}}=2\\left(\\frac{2}{\\mathrm{~b}}+\\frac{3}{\\mathrm{c}}+\\frac{5}{\\mathrm{a}}\\right))%<br>Ta có %(2 \\mathrm{c}+3 \\mathrm{~b}=\\mathrm{abc} \\Rightarrow \\frac{2}{\\mathrm{~b}}+\\frac{3}{\\mathrm{c}}=\\mathrm{a})%.<br>%(\\mathrm{P} \\geq 2\\left(\\mathrm{a}+\\frac{5}{\\mathrm{a}}\\right) \\geq 2.2 \\sqrt{\\mathrm{a} \\cdot \\frac{5}{\\mathrm{a}}}=4 \\sqrt{5})% (Bất đẳng thức Cosi).<br>Vậy giá trị nhỏ nhất của P là %(4 \\sqrt{5})%. Dấu bằng xảy ra khi %(\\mathrm{a}=\\mathrm{b}=\\mathrm{c}=\\sqrt{5})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho đường %((\\mathrm{O} ; \\mathrm{R}))% cố định và điểm A cố định ngoài đường tròn %((\\mathrm{O} ; \\mathrm{R}))%. Từ A vẽ hai tiếp tuyến %(\\mathrm{AB}, \\mathrm{AC})% tới đường tròn %((\\mathrm{O} ; \\mathrm{R}))(\\mathrm{B}, \\mathrm{C})% là tiếp điểm). Qua A vẽ đường thẳng cố định cắt đường tròn %((\\mathrm{O} ; \\mathrm{R}))% tại hai điểm phân biệt I và E ( I nằm giữa hai điểm %(\\mathrm{A}, \\mathrm{E})% và %(\\mathrm{EBC}\\lt 90^{\\circ})% ). Gọi H là giao điểm của AO và BC . Qua H vẽ đường thẳng (d) song song với BE , biết %((\\mathrm{d}))% cắt các đường thẳng %(\\mathrm{BI}, \\mathrm{BA})% lần lượt tại Q và N . Đường thẳng BE cắt đường thẳng AO tại K . Gọi M là giao điểm của hai đường thẳng AQ và BK .",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 4.0,
+        "content": "a) Chứng minh rằng %(\\frac{\\mathrm{BI}}{\\mathrm{CI}}=\\frac{\\mathrm{BE}}{\\mathrm{CE}})%.",
+        "question_images": [],
+        "solution": "Xét hai tam giác ABI và tam giác AEB có BAE chung, và %(\\mathrm{ABI}=\\mathrm{BEI}=\\frac{1}{2} \\mathrm{sdBI})%<br>\\[\\Rightarrow \\triangle \\mathrm{ABI} \\sim \\triangle \\mathrm{AEB}(\\mathrm{g} \\cdot \\mathrm{g}) \\Rightarrow \\frac{\\mathrm{BI}}{\\mathrm{BE}}=\\frac{\\mathrm{AB}}{\\mathrm{AE}}\\]<br>Tương tự %(\\triangle \\mathrm{ACI} \\sim \\triangle \\mathrm{AEC}(\\mathrm{g} . \\mathrm{g}) \\Rightarrow \\frac{\\mathrm{CI}}{\\mathrm{CE}}=\\frac{\\mathrm{AC}}{\\mathrm{AE}})%<br>Mà %(\\mathrm{AB}=\\mathrm{AC})%, kết hợp %((1),(2) \\Rightarrow \\frac{\\mathrm{BI}}{\\mathrm{BE}}=\\frac{\\mathrm{CI}}{\\mathrm{CE}} \\Rightarrow \\frac{\\mathrm{BI}}{\\mathrm{CI}}=\\frac{\\mathrm{BE}}{\\mathrm{CE}})% ( điều phải chứng minh)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e23dbc23a4d25f12451010c423cf7942.png\" srcset=\"https://docdn.giainhanh.io/media/test/66b50404551269b06a49e95ea801c97f.png 245w, https://docdn.giainhanh.io/media/test/5a999074cb29e78ad6b784ab53bc48cf.png 500w, https://docdn.giainhanh.io/media/test/0e6f06fdbff6291c35da3683382c8e59.png 750w, https://docdn.giainhanh.io/media/test/7715f7778a0071a009da8b3f5285adc9.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.5,
+        "content": "b) Chứng minh rằng HB là đường phân giác của NHM .",
+        "question_images": [],
+        "solution": "Xét hai %(\\Delta \\mathrm{BQN})% và %(\\Delta \\mathrm{EBI})% có %(\\mathrm{NBQ}=\\mathrm{BEI}, \\mathrm{NQB}=\\mathrm{EBI})% ( so le trong)<br>\\[\\Rightarrow \\Delta \\mathrm{BQN} \\sim \\Delta \\mathrm{EBI}(\\mathrm{g} . \\mathrm{g}) \\Rightarrow \\frac{\\mathrm{BQ}}{\\mathrm{NQ}}=\\frac{\\mathrm{EB}}{\\mathrm{IB}} \\text { (3) }\\]<br>Xét %(\\triangle \\mathrm{BHQ})% và %(\\triangle \\mathrm{EIC})% có %(\\mathrm{QBH}=\\mathrm{IEC}=\\frac{1}{2})% sdIC, và %(\\mathrm{ECI}=\\mathrm{BQH})% ( cùng bù IBE )<br>\\[\\Rightarrow \\Delta \\mathrm{BHQ} \\sim \\Delta \\mathrm{EIC}(\\mathrm{g} \\cdot \\mathrm{g}) \\Rightarrow \\frac{\\mathrm{QB}}{\\mathrm{QH}}=\\frac{\\mathrm{EC}}{\\mathrm{IC}}\\]<br>Từ (3), (4) kết hợp %(\\frac{\\mathrm{BI}}{\\mathrm{BE}}=\\frac{\\mathrm{CI}}{\\mathrm{CE}} \\Rightarrow \\mathrm{QH}=\\mathrm{QN} \\Rightarrow \\mathrm{Q})% là trung điểm HN<br>Xét tam giác ABK có %(\\mathrm{HN} / / \\mathrm{BK})%, và Q là trung điềm %(\\mathrm{HN} \\Rightarrow \\mathrm{M})% là trung điềm BK .<br>Tam giác BHK vuông tại H có M là trung điềm cua %(\\mathrm{BK} \\Rightarrow)% Tam giác BHM cân tại %(\\mathrm{M} \\Rightarrow \\mathrm{MBH}=\\mathrm{MHB})% mà %(\\mathrm{MBH}=\\mathrm{NHB} \\Rightarrow \\mathrm{NHB}=\\mathrm{MHB} \\Rightarrow \\mathrm{HB})% là đường phân giác NHM ( điều phải chứng minh)",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Vẽ đường tròn %(\\left(\\mathrm{P} ; \\mathrm{R}_{1}\\right))% thay đổi nhưng luôn đi qua hai điểm I và E . Từ A vẽ hai tiếp tuyến %(\\mathrm{AD}, \\mathrm{AJ})% với đường tròn %(\\left(\\mathrm{P} ; \\mathrm{R}_{1}\\right)(\\mathrm{D}, \\mathrm{J})% là các tiếp điểm %())%. Gọi T là giao điểm của hai đường thẳng DJ và AE . Chứng minh đường tròn đường kính TP luôn đi qua 2 điểm cố định.",
+        "question_images": [],
+        "solution": "Gọi G là trung điểm của %(\\mathrm{IE} \\Rightarrow \\mathrm{G})% là điểm cố định, gọi L là giao điểm của AP và %(\\mathrm{DJ} \\Rightarrow \\mathrm{DJ} \\perp \\mathrm{AP})%<br>Tam giác APG đồng dạng với tam giác ATL (g.g) %(\\Rightarrow \\mathrm{AL} . \\mathrm{AP}=\\mathrm{AT} . \\mathrm{AG})%<br>Tam giác ADP vuông tại D có DL là đường cao<br>%(\\Rightarrow \\mathrm{AL} . \\mathrm{AP}=\\mathrm{AD}^{2})%%(\\Delta \\mathrm{ADI})% và %(\\triangle \\mathrm{AED})% có góc A chung, và %(\\mathrm{ADI}=\\mathrm{AED})% ( cùng chắn cung DI của đường tròn tâm P )<br>%(\\Delta \\mathrm{ADI} \\sim \\Delta \\mathrm{AED})% (g.g) %(\\Rightarrow \\frac{\\mathrm{AD}}{\\mathrm{AE}}=\\frac{\\mathrm{AI}}{\\mathrm{AD}} \\Rightarrow \\mathrm{AD}^{2}=\\mathrm{AI})%.AE (không đổi)<br>%(\\Rightarrow)% AT.AG không đổi, mà AG không đổi nên AT không đổi %(\\Rightarrow)% điểm T cố định.<br>Vậy đường tròn đường kính PT luôn đi qua 2 điểm cố định là T và G .<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9754eda80288097611e096eacc886f06.png\" srcset=\"https://docdn.giainhanh.io/media/test/04bcfd783da29ee4fd44e34c081b46ff.png 245w, https://docdn.giainhanh.io/media/test/5d08048ff179dcbad9927ab4a1fee66a.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Trong phòng có 121 người, biết mỗi người quen với ít nhất 81 người khác. Chứng minh rằng trong phòng phải có 4 người từng đôi một quen nhau.",
+        "question_images": [],
+        "solution": "Xét A là một người bất kì trong phòng chứa 121 người đó suy ra A quen với ít nhất 81 người khác.<br>Ta mời tất cả các người không quen A ra khỏi phòng thì số người được mời ra nhiều nhất là %(120-81=39)% (người).<br>Khi đó trong phòng còn chỉ A và 81 người quen A , tức là còn lại trong phòng có ít nhất 82 người.<br>Gọi B là một người khác A là 1 người trong phòng chứa 82 người.<br>Ta mời tất cả những người không quen %(B)% ra khỏi phòng suy ra số người trong phòng còn lại ít nhất là %(82-39=43)% (người).<br>Gọi C là một người khác 2 người A và B trong 43 người còn lại.<br>Ta mời tất cả những người không quen C ra khỏi phòng suy ra số người còn lại ít nhất ở trong phòng là %(43-39=4)% (người).<br>Tức là trong phòng có ít nhất 4 người đôi 1 quen nhau.",
+        "question_type": "essay"
+    }
+]

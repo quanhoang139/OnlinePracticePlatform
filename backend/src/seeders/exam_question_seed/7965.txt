@@ -1,0 +1,83 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 2.5,
+        "content": "Cho hàm số %(y=\\frac{2 x+3}{x+2})% có đồ thị %((C))% và đường thẳng %(d: y=-2 x+m)%. Chứng minh rằng %(d)% cắt %((C))% tại hai điểm %(A, B)% phân biệt với mọi số thực %(m)%. Gọi %(k_{1}, k_{2})% lần lượt là hệ số góc của tiếp tuyến của %((C))% tại %(A)% và %(B)%. Tìm %(m)% để %(k_{1}+k_{2}=4)%.",
+        "question_images": [],
+        "solution": "Xét phương trình hoành độ giao điểm của đồ thị %((\\mathrm{C}))% và %(d)% :<br>\\[\\frac{2 x+3}{x+2}=-2 x+m \\Leftrightarrow\\left\\{\\begin{array}{l}x \\neq-2 \\\\2 x^{2}+(6-m) x+3-2 m=0(*)\\end{array}\\right.\\]<br>Phương trình %(\\left({ }^{*}\\right))% có %(\\Delta=(6-m)^{2}-8(3-2 m)=m^{2}+4 m+12\\gt 0, \\forall m \\in \\mathbb{R})% và %(x=-2)% không là nghiệm của %(\\left({ }^{*}\\right))% nên đường thẳng %(d)% luôn cắt đồ thị %((\\mathrm{C}))% tại hai điểm phân biệt %(\\mathrm{A}, \\mathrm{B})% với mọi %(m)%.<br>Hệ số góc của tiếp tuyến tại %(\\mathrm{A})%, tại %(\\mathrm{B})% lần lượt là<br>%(k_{1}=\\frac{1}{\\left(x_{1}+2\\right)^{2}}, k_{2}=\\frac{1}{\\left(x_{2}+2\\right)^{2}})%, trong đó %(x_{1}, x_{2})% là 2 nghiệm của phương trình %(\\left({ }^{*}\\right))%<br>Ta có %(k_{1}+k_{2} \\geq 2 \\sqrt{k_{1} k_{2}}=2 \\sqrt{\\frac{1}{\\left(x_{1}+2\\right)^{2}\\left(x_{2}+2\\right)^{2}}}=2 \\sqrt{\\frac{1}{\\left(x_{1} x_{2}+2 x_{1}+2 x_{2}+4\\right)^{2}}}=4)%<br>Có \" %(=)% \" %(\\Leftrightarrow k_{1}=k_{2} \\Leftrightarrow \\frac{1}{\\left(x_{1}+2\\right)^{2}}=\\frac{1}{\\left(x_{2}+2\\right)^{2}} \\Leftrightarrow\\left(x_{1}+2\\right)^{2}=\\left(x_{2}+2\\right)^{2})%<br>%(\\Leftrightarrow\\left(x_{1}+2\\right)=-\\left(x_{2}+2\\right) \\quad\\left(\\right.)%do %(\\left.x_{1} \\neq x_{2}\\right) \\Leftrightarrow x_{1}+x_{2}=-4 \\Leftrightarrow \\frac{m-6}{2}=-4 \\Leftrightarrow m=-2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.5,
+        "content": "Cho khai triển %((1+x)^{n}=a_{0}+a_{1} x+a_{2} x^{2}+\\ldots+a_{n} x^{n}, n \\in \\mathbb{N}, n \\geq 1)%. Hỏi có bao nhiêu giá trị %(n \\leq 2017)% sao cho tồn tại %(k)% thỏa mãn %(\\frac{a_{k}}{a_{k+1}}=\\frac{7}{15})%.",
+        "question_images": [],
+        "solution": "Theo giả thiết %(\\frac{C_{n}^{k}}{C_{n}^{k+1}}=\\frac{7}{15} \\Leftrightarrow \\frac{(k+1)!(n-k-1)!}{k!(n-k)!}=\\frac{7}{15})% với %(k, n \\in \\mathbb{N}, n \\geq 1, k \\leq n-1)%<br>\\[\\begin{array}{l}\\Leftrightarrow \\frac{k+1}{n-k}=\\frac{7}{15} \\Leftrightarrow 7 n=22 k+15 \\\\Leftrightarrow n=3 k+2+\\frac{k+1}{7}\\end{array}\\]<br>Vì %(n, k \\in \\mathbb{N}, n \\geq 1 \\Rightarrow \\frac{k+1}{7} \\in \\mathbb{N}^{*})%.<br>Đặt %(\\frac{k+1}{7}=m \\in \\mathbb{N} \\Rightarrow k=7 m-1 \\Rightarrow n=22 m-1)%<br>Vì %(n \\in \\mathbb{N}^{*}, n \\leq 2017 \\Rightarrow 1 \\leq 22 m-1 \\leq 2017 \\Rightarrow 1 \\leq m \\leq 91)%<br>Do đó có 91 giá trị của n thỏa mãn yêu cầu bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.5,
+        "content": "Tìm các giá trị của %(m)% để phương trình sau có 2 nghiệm phân biệt %(x_{1}, x_{2})% thỏa mãn %(x_{1}^{2}+x_{2}^{2}\\gt 1)%<br>\\[2 \\log _{9+4 \\sqrt{5}}\\left(2 x^{2}-x-4 m^{2}+2 m\\right)+\\log _{\\sqrt{\\sqrt{5}-2}} \\sqrt{x^{2}+m x-2 m^{2}}=0 \\text {. }\\]",
+        "question_images": [],
+        "solution": "\\[2 \\log _{9+4 \\sqrt{5}}\\left(2 x^{2}-x-4 m^{2}+2 m\\right)+\\log _{\\sqrt{\\sqrt{5}-2}} \\sqrt{x^{2}+m x-2 m^{2}}=0~~~(1)\\]<br>Đk: %(\\left\\{\\begin{array}{l}2 x^{2}-x-4 m^{2}+2 m\\gt 0 \\\\ x^{2}+m x-2 m^{2}>0\\end{array}\\right.)%<br>Ta thấy %(9+4 \\sqrt{5}=(2+\\sqrt{5})^{2})% và %(\\sqrt{\\sqrt{5}-2}=(\\sqrt{5}-2)^{\\frac{1}{2}}=(\\sqrt{5}+2)^{\\frac{-1}{2}})% nên phương trình<br>(1) %(\\Leftrightarrow \\log _{\\sqrt{5}+2}\\left(2 x^{2}-x-4 m^{2}+2 m\\right)-\\log _{\\sqrt{5}+2}\\left(x^{2}+m x-2 m^{2}\\right)=0)%<br>%(\\Leftrightarrow\\left\\{\\begin{array}{l}2 x^{2}-x-4 m^{2}+2 m=x^{2}+m x-2 m^{2} \\\\ x^{2}+m x-2 m^{2}>0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x^{2}-(m+1) x-2 m^{2}+2 m=0~~~(2) \\\\ x^{2}+m x-2 m^{2}>0~~~(3)\\end{array}\\right.\\right.)%<br>PT (1) có 2 nghiệm phân biệt %(\\Leftrightarrow)% (2) có 2 nghiệm phân biệt thỏa mãn (3)<br>PT (2) có %(\\Delta=(m+1)^{2}+4\\left(2 m^{2}-2 m\\right)=(3 m-1)^{2}>0 \\Leftrightarrow m \\neq \\frac{1}{3})%<br>Lúc đó %((2) \\Leftrightarrow x=2 m ; x=-m+1)%<br>Hai nghiệm thỏa mãn (3)<br>\\[\\begin{array}{l}\\Leftrightarrow\\left\\{\\begin{array} { l } { ( 2 m ) ^ { 2 } + m \\cdot 2 m - 2 m ^ { 2 } \\gt 0 } \\\\{ ( - m + 1 ) ^ { 2 } + m ( - m + 1 ) - 2 m ^ { 2 } > 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { 4 m ^ { 2 } > 0 } \\\\{ - 2 m ^ { 2 } - m + 1 > 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}m \\neq 0 \\\\-1\\lt m\\lt \\frac{1}{2}\\end{array}\\right.\\right.\\right. \\x_{1}^{2}+x_{2}^{2}>1 \\Leftrightarrow 4 m^{2}+(1-m)^{2}>1 \\Leftrightarrow 5 m^{2}-2 m>0 \\Leftrightarrow\\left[\\begin{array}{l}m\\lt 0 \\m>\\frac{2}{5}\\end{array}\\right.\\end{array}\\]<br>Kết hợp điều kiện (4) và (5) ta có %(-1\\lt m\\lt 0 ; \\frac{2}{5}\\lt m\\lt \\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}(\\sqrt{x+1}-1)\\left(\\sqrt{y^{2}+1}+y\\right)=\\sqrt{x} \\\\ 2 x^{3}\\left(y^{2}+1\\right)-(x+1) x y=2\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "\\[\\left\\{\\begin{array}{l}(\\sqrt{x+1}-1)\\left(\\sqrt{y^{2}+1}+y\\right)=\\sqrt{x}~~~(1) \\\\2 x^{3}\\left(y^{2}+1\\right)-(x+1) x y=2~~~(2)\\end{array}\\right.\\]<br>ĐK: %(x \\geq 0)%<br>Ta thấy %(x=0)% không thỏa mãn hệ.<br>Với %(x\\gt 0)% ta có (1)%(\\Leftrightarrow x\\left(\\sqrt{y^{2}+1}+y\\right)=(\\sqrt{x+1}+1) \\sqrt{x} \\Rightarrow \\sqrt{y^{2}+1}+y=\\sqrt{\\frac{1}{x}+1}+\\frac{1}{\\sqrt{x}})%<br>Xét hàm số %(f(t)=t+\\sqrt{t^{2}+1}, t \\in \\mathbb{R})%<br>Ta có %(f^{\\prime}(t)=1+\\frac{t}{\\sqrt{t^{2}+1}}=\\frac{t+\\sqrt{t^{2}+1}}{\\sqrt{t^{2}+1}}>\\frac{t+|t|}{\\sqrt{t^{2}+1}} \\geq 0, \\forall t \\in \\mathbb{R})% suy ra hàm số đồng biến trên %(\\mathbb{R})%.<br>PT (3) %(\\Leftrightarrow f(y)=f\\left(\\frac{1}{\\sqrt{x}}\\right) \\Rightarrow y=\\frac{1}{\\sqrt{x}})%<br>Thay vào PT (2) ta có %(2 x^{3}\\left(\\frac{1}{x}+1\\right)-(x+1) \\sqrt{x}=2 \\Leftrightarrow 2 x^{3}+2 x^{2}-x \\sqrt{x}-\\sqrt{x}=2\\left({ }^{*}\\right))%<br>Đặt %(t=\\sqrt{x}(t>0))%<br>Ta có PT %(2 t^{6}+2 t^{4}-t^{3}-t-2=0 \\Leftrightarrow(t-1)\\left(2 t^{5}+2 t^{4}+4 t^{3}+3 t^{2}+3 t+2\\right)=0 \\Leftrightarrow t=1)%<br>Với %(t=1 \\Rightarrow x=1 \\Rightarrow y=1)%.<br>Vậy hệ có nghiệm %((1 ; 1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5:",
+        "group_content": "Cho hình chóp %(S . A B C D)% có đáy là hình thoi, %(A B=A C=a)%; tam giác %(S B D)% đều và nằm trong mặt phẳng vuông góc với mặt phẳng %((A B C D))%. Gọi %(M)% là trung điểm của cạnh %(S C)%, mặt phẳng %((A B M))% chia khối chóp %(S . A B C D)% thành hai khối đa diện.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Tính thể tích của khối đa diện không chứa điểm %(\\mathrm{S})%.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{O})% là giao điểm của %(\\mathrm{AC})% và %(\\mathrm{BD})%, từ giả thiết ta có:<br>%(S O \\perp(A B C D) ; B D=S B=S D=a \\sqrt{3} \\Rightarrow S O=\\frac{a \\sqrt{3} \\cdot \\sqrt{3}}{2}=\\frac{3 a}{2})%<br>%(V_{S \\cdot A B C D}=\\frac{1}{3} \\cdot S O \\cdot \\frac{1}{2} \\cdot A C \\cdot B D=\\frac{1}{3} \\cdot \\frac{3 a}{2} \\cdot \\frac{a \\cdot a \\sqrt{3}}{2}=\\frac{a^{3} \\sqrt{3}}{4})%<br>Gọi %(\\mathrm{N})% là giao điểm của %((\\mathrm{ABM}))% và %(\\mathrm{SD})%.<br>Ta có %(\\mathrm{N})% là trung điểm của %(\\mathrm{SD})%.<br>Sử dụng tỉ số thể tích ta có<br>\\[\\begin{array}{l}\\frac{V_{S . B M N}}{V_{S, B C D}}=\\frac{S B}{S B} \\cdot \\frac{S M}{S C} \\cdot \\frac{S N}{S D}=\\frac{1}{4} \\\\frac{V_{S A B N}}{V_{S . A B D}}=\\frac{S A}{S A} \\cdot \\frac{S B}{S B} \\cdot \\frac{S N}{S D}=\\frac{1}{2}\\end{array}\\]<br>Do đó %(\\frac{V_{S . M B N}}{V_{S . A B C D}}=\\frac{1}{8} ; \\frac{V_{S . A B N}}{V_{S . A B C D}}=\\frac{1}{4} \\Rightarrow \\frac{V_{S . A B M N}}{V_{S . A B C D}}=\\frac{3}{8})% suy ra thể tích của khối đa diện không chứa %(\\mathrm{S})% bằng %(\\frac{5}{8} V_{S \\cdot A B C D}=\\frac{5}{8} \\cdot \\frac{a^{3} \\sqrt{3}}{4}=\\frac{5 a^{3} \\sqrt{3}}{32})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ac91cfc04faac1d53c3fbbc5c1e2acb5.png\" srcset=\"https://docdn.giainhanh.io/media/test/1c97732ab81746983a762dc0f0f5fc4f.png 211w, https://docdn.giainhanh.io/media/test/6fff22aab077fe2919f76ac2d67234f5.png 500w, https://docdn.giainhanh.io/media/test/09d0734587bfeae843fa935d4624cd70.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Tính khoảng cách giữa hai đường thẳng %(S A)% và %(B M)%.",
+        "question_images": [],
+        "solution": "Ta có %(M O / / S A \\Rightarrow S A / /(M B D))% do đó<br>\\[d(S A ; M B)=d(S A ;(M B D))=d(A ;(M B D))=d(C ;(M B D))\\]<br>Xét hình chóp %(M . B C D)% có %(V_{M . B C D}=\\frac{1}{2} V_{S . B C D}=\\frac{1}{4} V_{S . A B C D}=\\frac{1}{4} \\cdot \\frac{a^{3} \\sqrt{3}}{4}=\\frac{a^{3} \\sqrt{3}}{16})%<br>Tam giác %(M B D)% là tam giác cân tại %(\\mathrm{M})% có %(\\mathrm{MO})% là đường cao.<br>Mặt khác trong tam giác vuông SOC có %(M O=\\frac{1}{2} S C=\\frac{1}{2} \\sqrt{S O^{2}+O C^{2}}=\\frac{1}{2} \\sqrt{\\frac{9 a^{2}}{4}+\\frac{a^{2}}{4}}=\\frac{a \\sqrt{10}}{4})%<br>suy ra %(S_{M B D}=\\frac{1}{2} B D \\cdot M O=\\frac{1}{2} a \\sqrt{3} \\cdot \\frac{a \\sqrt{10}}{4}=\\frac{a^{2} \\sqrt{30}}{8})%<br>%(d(C ;(M B D))=\\frac{3 V_{C . M B D}}{S_{M B D}}=\\frac{3 a^{3} \\sqrt{3} \\cdot 8}{16 \\cdot a^{2} \\sqrt{30}}=\\frac{3 a \\sqrt{10}}{20})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 2.0,
+        "content": "Giả sử hàm số %(y=f(x))% có đạo hàm là hàm số %(y=f^{\\prime}(x))%; đồ thị của hàm số %(y=f^{\\prime}(x))% được cho như hình vẽ bên và %(f(0)+f(1)-2 f(2)=f(4)-f(3))%.<br>Hỏi trong các giá trị %(f(0) ; f(1) ; f(4))% giá trị nào là giá trị nhỏ nhất của hàm số %(y=f(x))% trên đoạn %([0 ; 4])%?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/49142acc854d93b11b3d658d724483a9.png"
+        ],
+        "solution": "Từ đồ thị của hàm số %(y=f^{\\prime}(x))% ta có BBT của hàm số %(y=f(x))% như hình bên.<br>Dựa vào %(\\mathrm{BBT})% ta thấy trên đoạn %([0 ; 4])% giá trị lớn nhất của hàm số %(f(x))% là %(f(2))%; giá trị nhỏ nhất chỉ có thể là %(f(0))% hoặc %(f(4))%.<br>Cũng từ BBT ta có %(f(1), f(3)\\lt f(2) \\Rightarrow f(1)+f(3)\\lt 2 f(2))%<br>Mặt khác %(f(0)-f(4)=2 f(2)-f(1)-f(3)\\gt 0 \\Rightarrow f(0)>f(4))%<br>Vậy GTNN của hàm số %(y=f(x))% trên đoạn %([0 ; 4])% là %(f(4))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3275ae1c5db7dd9774eebf4ca703c65e.png\" srcset=\"https://docdn.giainhanh.io/media/test/5497078643fae1209a7ce1ddf914d868.png 245w, https://docdn.giainhanh.io/media/test/33e306b9f29587f8c7892916240d8861.png 500w, https://docdn.giainhanh.io/media/test/bb088013cfa11b3eaa2268e5bc393604.png 750w, https://docdn.giainhanh.io/media/test/d63368a10e74881d3607fb5ff59729c2.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 2.0,
+        "content": "Cho hàm số %(f(x)=\\left|2 x^{3}-9 x^{2}+12 x+m\\right|)%. Tìm tất cả các số thực %(m)% sao cho với mọi số thực %(a, b, c \\in[1 ; 3])% thì %(f(a) ; f(b) ; f(c))% là độ dài ba cạnh của một tam giác.",
+        "question_images": [],
+        "solution": "Vì hàm số %(f(x)=\\left|2 x^{3}-9 x^{2}+12 x+m\\right|)% liên tục trên %([1 ; 3])% nên có giá trị lớn nhất, giá trị nhỏ nhất trên %([1 ; 3])%.<br>Yêu cầu bài toán %(\\Leftrightarrow \\min _{[1 ; 3]} f(x)+\\min _{[1 ; 3]} f(x)\\gt \\max _{[1 ; 3]} f(x))% và %(\\min _{[1 ; 3]} f(x)>0~~~(1))%<br>Đặt %(g(x)=2 x^{3}-9 x^{2}+12 x+m)%<br>Ta có %(g^{\\prime}(x)=6 x^{2}-18 x+12=0 \\Leftrightarrow x=1 ; x=2)%;<br>\\[g(1)=5+m ; g(2)=4+m ; g(3)=9+m\\]<br>Ta thấy %(m+4\\lt m+5\\lt m+9 \\Rightarrow m+4 \\leq g(x) \\leq m+9)%<br>Do đó %(\\max _{[1 ; 3]} f(x)=\\max \\{|m+4| ;|m+9|\\})%;<br>\\[\\begin{array}{l}\\min _{[1 ; 3]} f(x)=\\left\\{\\begin{array}{ll}0 & \\text { khi }(m+4)(m+9) \\leq 0 \\\\min \\{|m+4| ;|m+9|\\} & \\text { khi }(m+4)(m+9)>0\\end{array}\\right. \\\\min _{[1 ; 3]} f(x)>0 \\Leftrightarrow\\left[\\begin{array}{l}m>-4 \\m\\lt -9\\end{array}\\right.\\end{array}\\]<br>Nếu %(m\\lt -9 \\Rightarrow \\min _{[1 ; 3]} f(x)=|m+9|=-9-m ; \\max _{[1 ; 3]} f(x)=|m+4|=-4-m)%<br>khi đó %((1) \\Leftrightarrow 2(-m-9)\\gt -m-4 \\Leftrightarrow m\\lt -14)% (thỏa mãn)<br>Nếu %(m>-4 \\Rightarrow \\min _{[1 ; 3]} f(x)=|m+4|=m+4 ; \\max _{[1 ; 3]} f(x)=|m+9|=m+9)%<br>khi đó %((1) \\Leftrightarrow 2(m+4)>m+9 \\Leftrightarrow m>1)% (thỏa mãn)<br>ĐS: %(m>1 ; m\\lt -14)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 2.5,
+        "content": "Một công ty sữa muốn thiết kế hộp đựng sữa với thể tích hộp là %(1 \\mathrm{dm}^{3})%, hộp được thié́t kế bởi một trong hai mẫu sau với cùng một loại vật liệu: mẫu 1 là hình hộp chữ nhật; mẫu 2 là hình trụ. Biết rằng chi phí làm mặt hình tròn cao hơn 1,2 lần chi phí làm mặt hình chữ nhật với cùng diện tích. Hỏi thiết kế hộp theo mẫu nào sẽ tiết kiệm chi phí hơn? (xem diện tích các phần nối giữa các mặt là không đáng kể).",
+        "question_images": [],
+        "solution": "Gọi %(t)% là chi phí làm %(1 \\mathrm{dm}^{2})% mặt hình chữ nhật suy ra chi phí làm %(1 \\mathrm{dm}^{2})% mặt hình tròn là %(1,2 t)%<br>- Nếu sản suất theo mẫu 1: Hình hộp chữ nhật.<br>Gọi %(a, b, c(d m))% kích thước của hình hộp chữ nhật. Khi đó %(V=a b c=1 \\mathrm{dm}^{3})%<br>Suy ra chi phí theo mẫu 1 là<br>\\[T_{1}=S_{t p} . t=2(a b+b c+c a) t \\geq 6 \\sqrt[3]{(a b c)^{2}} t=6 t \\text {. }\\]<br>Đẳng thức xảy ra khi %(a=b=c=1 \\mathrm{dm})%<br>- Nếu sản suất theo mẫu 2: Hình trụ.Gọi %(r(d m))% là bán kính đáy và %(h(\\mathrm{dm}))% là chiều cao.<br>Khi đó<br>\\[V=\\pi h \\cdot r^{2}=1 d m^{3} \\Rightarrow h=\\frac{1}{\\pi r^{2}} \\text {. }\\]<br>Suy ra chi phí theo mẫu 2 là<br>\\[T_{2}=2 \\pi r^{2} 1,2 t+2 \\pi r . h . t=\\left(2,4 \\pi r^{2}+\\frac{2}{r}\\right) t=\\left(2,4 \\pi r^{2}+\\frac{1}{r}+\\frac{1}{r}\\right) t \\geq 3 \\sqrt[3]{2,4 \\pi} \\cdot t\\]<br>Đẳng thức xảy ra khi %(r=\\frac{1}{\\sqrt[3]{2,4 \\pi}}, h=\\sqrt[3]{\\frac{2,4^{2}}{\\pi}})%<br>Ta thấy %(\\frac{\\min T_{1}}{\\min T_{2}}=\\frac{6 t}{3 \\cdot \\sqrt[3]{2,4 \\pi}}=\\frac{2}{\\sqrt[3]{2,4 \\pi}}=\\sqrt[3]{\\frac{8}{2,4 \\pi}}\\gt 1)%<br>Suy ra sản xuất hộp theo mẫu thứ 2 sẽ tiết kiệm chi phí hơn.",
+        "question_type": "essay"
+    }
+]

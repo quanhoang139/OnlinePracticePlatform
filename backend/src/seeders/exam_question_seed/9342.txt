@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 2.0,
+        "content": "Phân tích thành nhân tử: %(x^{4}-6 x^{2}-7 x-6)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}x^{4}-6 x^{2}-7 x-6 \\\\ =x^{4}+2 x^{3}-2 x^{3}-4 x^{2}-2 x^{2}-4 x-3 x-6 \\\\ =x^{3}(x+2)-2 x^{2}(x+2)-2 x(x+2)-3(x+2) \\\\ =(x+2)\\left(x^{3}-2 x^{2}-2 x-3\\right) \\\\ =(x+2)\\left(x^{3}-3 x^{2}+x^{2}-3 x+x-3\\right) \\\\ =(x+2)\\left[x^{2}(x-3)+x(x-3)+(x-3)\\right] \\\\ =(x+2)(x-3)\\left(x^{2}+x+1\\right)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Cho %(x, y, z)% là các số thực không âm. Tìm giá trị nhỏ nhất của : %(x^{4}+y^{4}+z^{4})% biết %(x+y+z=2)%",
+        "question_images": [],
+        "solution": "Áp dụng công thức Bunhiacopski ta có:<br>%(\\begin{array}{l}(x+y+z)^{4} \\leq\\left[(x+y+z)^{2}\\right]^{2} \\leq\\left[3(x+y+z)^{2}\\right]^{2} \\\\ \\leq 9\\left(x^{2}+y^{2}+z^{2}\\right)^{2} \\leq 27\\left(x^{4}+y^{4}+z^{4}\\right) \\\\ \\Rightarrow 16 \\leq 27\\left(x^{4}+y^{4}+z^{4}\\right) \\Rightarrow x^{4}+y^{4}+z^{4} \\geq \\frac{16}{27}\\end{array})%<br>Vậy GTNN của %(x^{4}+y^{4}+z^{4})% là %(\\frac{16}{27} \\Leftrightarrow x=y=z=\\frac{2}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.0,
+        "content": "Cho %(x, y, a, b)% là những số thực thỏa mãn: %(\\frac{x^{4}}{a}+\\frac{y^{4}}{b}=\\frac{x^{2}+y^{2}}{a+b})% và %(x^{2}+y^{2}=1)%. Chứng minh: %(\\frac{x^{2006}}{a^{1003}}+\\frac{y^{2006}}{b^{1003}}=\\frac{2}{(a+b)^{1003}})%",
+        "question_images": [],
+        "solution": "Từ giả thiết suy ra:<br>%(\\begin{array}{l}\\frac{x^{4}}{a}+\\frac{y^{4}}{b}=\\frac{\\left(x^{2}+y^{2}\\right)^{2}}{a+b} \\Leftrightarrow\\left(b x^{4}+a y^{4}\\right)(a+b)=a b\\left(x^{2}+y^{2}\\right)^{2} \\\\ \\Leftrightarrow b^{2} x^{4}+a^{2} y^{4}-2 a b x^{2} y^{2}=0 \\Leftrightarrow\\left(b x^{2}-a y^{2}\\right)^{2}=0 \\\\ \\Leftrightarrow b x^{2}-a y^{2}=0 \\Leftrightarrow \\frac{x^{2}}{a}=\\frac{y^{2}}{b}=\\frac{x^{2}+y^{2}}{a+b}=\\frac{1}{a+b} \\\\ \\Leftrightarrow \\frac{x^{2006}}{a^{1003}}=\\frac{y^{2006}}{b^{1003}}=\\frac{1}{(a+b)^{1003}} \\Leftrightarrow \\frac{x^{2006}}{a^{1003}}+\\frac{y^{2006}}{b^{1003}}=\\frac{2}{(a+b)^{1003}}(\\text { dpcm })\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là các số thực dương. Chứng minh bất đẳng thức: %(\\frac{a+b}{b c+a^{2}}+\\frac{b+c}{a c+b^{2}}+\\frac{c+a}{a b+c^{2}} \\leq \\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c})%",
+        "question_images": [],
+        "solution": "Ký hiệu vế trái là %(A)%, vế phải là %(B)%, xét hiệu %(A-B)%<br>%(\\begin{array}{l}\\frac{a+b}{b c+a^{2}}-\\frac{1}{a}+\\frac{b+c}{a c+b^{2}}-\\frac{1}{b}+\\frac{c+a}{a b+c^{2}}-\\frac{1}{c} \\\\ =\\frac{a^{2}+a b-b c-a^{2}}{a\\left(b c+a^{2}\\right)}+\\frac{b^{2}+b c-a c-b^{2}}{b\\left(a c+b^{2}\\right)}+\\frac{c^{2}+a c-a b-c^{2}}{c\\left(a b+c^{2}\\right)} \\\\ =\\frac{b(a-c)}{a\\left(b c+a^{2}\\right)}+\\frac{c(b-a)}{b\\left(a c+b^{2}\\right)}+\\frac{a(c-b)}{c\\left(a b+c^{2}\\right)}\\end{array})%<br>Do %(a, b, c)% bình đẳng nên giả sử %(a \\geq b \\geq c)%, khi đó %(b(a-c) \\geq 0, c(b-a) \\leq 0)%, %(a(c-b) \\leq 0)%<br>%(a^{3} \\geq b^{3} \\geq c^{3} \\Rightarrow a b c+a^{3} \\geq a b c+b^{3} \\geq a b c+c^{3} \\Rightarrow \\frac{b(a-c)}{a\\left(b c+a^{2}\\right)} \\leq \\frac{b(a-c)}{b\\left(a c+b^{2}\\right)})%<br>%(\\begin{array}{l}\\Rightarrow A-B \\leq \\frac{b(a-c)}{b\\left(a c+b^{2}\\right)}+\\frac{c(b-a)}{b\\left(a c+b^{2}\\right)}+\\frac{a(c-b)}{c\\left(a b+c^{2}\\right)}=\\frac{a b-a c}{b\\left(a c+b^{2}\\right)}+\\frac{a c-a b}{c\\left(a b+c^{2}\\right)} \\\\ =\\frac{a(b-c)}{b\\left(a c+b^{2}\\right)}-\\frac{a(b-c)}{c\\left(a b+c^{2}\\right)}\\end{array})%<br>Mà %(\\frac{1}{b\\left(a c+b^{2}\\right)} \\leq \\frac{1}{c\\left(a b+c^{2}\\right)})% nên %(A-B \\leq 0)% đpcm",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5:",
+        "group_content": "Cho tam giác vuông cân %(A B C(A B=A C))%. Trên cạnh %(A B)% lấy điểm %(M)% sao cho %(B M=2 M A)%, trên nửa mặt phẳng bờ %(A B)% không chứa điểm %(C)% vẽ đường thẳng %(B x)% vuông góc với %(A B)%, trên %(B x)% lấy điểm %(N)% sao cho %(B N=\\frac{1}{2} A B)%. Đường thẳng %(M C)% cắt %(N A)% tại %(E)%, đường thẳng %(B E)% cắt đường thẳng %(A C)% tại %(F)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(A F=A M)%.",
+        "question_images": [],
+        "solution": "Đường thẳng %(E C)% cắt đường thẳng %(BN)% tại %(K)%.<br>Ta có: %(A C \\perp A B(g t), K B \\perp A B(g t) \\Rightarrow F C / / K B)%<br>%(\\left.\\begin{array}{l}\\frac{A F}{N B}=\\frac{A E}{E N} \\\\ \\frac{A C}{N K}=\\frac{A E}{E N}\\end{array}\\right\\} \\Rightarrow \\frac{A F}{N B}=\\frac{A C}{N K} \\Rightarrow \\frac{A F}{A B}=\\frac{A C}{N K} \\Rightarrow A F=\\frac{A B^{2}}{2 N K})% %((1))%<br>%(\\frac{A C}{B K}=\\frac{A M}{M B}=\\frac{1}{2} \\Rightarrow \\frac{A C}{K N+N B}=\\frac{1}{2} \\Rightarrow \\frac{A B}{K N+\\frac{A B}{2}}=\\frac{1}{2})%<br>%(\\Rightarrow \\frac{2 A B}{2 K N+A B}=\\frac{1}{2} \\Rightarrow 4 A B=2 K N+A B \\Rightarrow K N=\\frac{3}{2} A B)% %((2))%<br>Từ %((1))% và %((2) \\Rightarrow A F=\\frac{A B^{2}}{3 A B}=\\frac{A B}{3} \\Rightarrow A F=A M)% (đpcm)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/182b618e93722f287710c8513857e103.png\" srcset=\"https://docdn.giainhanh.io/media/test/ccbe5b358aac0b211f38c87445ca79b6.png 245w, https://docdn.giainhanh.io/media/test/786c66bea230295633f944b1e3d25353.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Gọi %(H)% là trung điểm của %(F C)%. Chứng minh %(E H=B M)%",
+        "question_images": [],
+        "solution": "Từ chứng minh trên suy ra %(\\triangle A F B=\\triangle A M C \\Rightarrow \\widehat{A B F}=\\widehat{A C M})%<br>Mà %(\\widehat{A B F}+\\widehat{A F B}=90^{\\circ} \\Rightarrow \\widehat{A C M}+\\widehat{A F B}=90^{\\circ})%<br>%(\\Rightarrow \\widehat{F E C}=90^{\\circ} \\Rightarrow E H=\\frac{F C}{2}=F H)%<br>Mà %(F H=F A+A H=\\frac{A C}{3}+\\frac{A C}{3}=\\frac{2 A C}{3}=B M \\Rightarrow E H=B M)%(đpcm)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/34523cd68f8e6b6cd9b71b2f28923627.png\" srcset=\"https://docdn.giainhanh.io/media/test/118f6d0ad47d4881d9ab241f99f61fd1.png 245w, https://docdn.giainhanh.io/media/test/536a30d8d19536ccebb8d7e56d96fa5b.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Bài 1 ",
+        "point": 5.0,
+        "content": "Giải phương trình nghiệm nguyên: %(x^{3}+y^{3}+x^{2} y+x y^{2}=4\\left(x^{2}+x y+y^{2}\\right)+1)%.",
+        "question_images": [],
+        "solution": "Nhận xét: %(x \\neq y)%<br>%(\\Rightarrow 2\\left(x^{2}+y^{2}\\right)\\gt |4 x y+1|)%<br>%(\\begin{array}{l}x^{3}+y^{3}+x^{2} y+x y^{2}=4\\left(x^{2}+x y+y^{2}\\right)+1 \\Leftrightarrow\\left(x^{2}+y^{2}\\right)(x+y-4)=4 x y+1 \\\\ \\Rightarrow 2|4 x y+1|=\\left|2\\left(x^{2}+y^{2}\\right)(x+y-4)\\right|\\gt |4 x y+1||x+y-4|\\end{array})%<br>%(\\Rightarrow 2\\gt |x+y-4| \\Rightarrow x+y=3 ; 4 ; 5)%<br>%(x+y=3)% không thỏa mãn<br>%(x+y=4)% không thỏa mãn<br>%(x+y=5)% tìm được %(x=1 ; y=4)% hoặc %(x=4 ; y=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài 2 ",
+        "point": 5.0,
+        "content": "Cho %(x, y \\in\\left(0 ; \\frac{\\pi}{2}\\right))%. Chứng minh rằng:<br>\\[\\frac{1}{\\sin ^{2} x \\sin ^{2} y+1}+\\frac{1}{\\sin ^{2} x \\cos ^{2} y+1}+\\frac{1}{\\cos ^{2} x+1} \\leq \\frac{9}{2\\left(\\sin ^{2} x \\sin 2 y+\\sin 2 x \\sin y+\\sin 2 x \\cos y\\right)} .\\]",
+        "question_images": [],
+        "solution": "Đặt %(a=\\sin x \\sin y, b=\\sin x \\cos y, c=\\cos x)% thì %(a, b, c\\gt 0)% và %(a^{2}+b^{2}+c^{2}=1)%<br>Ta cần chứng minh %(\\frac{1}{a^{2}+1}+\\frac{1}{b^{2}+1}+\\frac{1}{\\mathrm{c}^{2}+1} \\leq \\frac{9}{4(a b+a c+b c)})%.<br>Thật vậy, %(\\frac{1}{a^{2}+1}+\\frac{1}{b^{2}+1}+\\frac{1}{\\mathrm{c}^{2}+1} \\leq \\frac{1}{(a+b)(a+c)}+\\frac{1}{(b+c)(b+a)}+\\frac{1}{(c+a)(c+b)})%<br>%(=\\frac{2(a+b+c)}{(a+b)(a+c)(b+c)})%<br>Mà %((a+b)(a+c)(b+c)=(a+b+c)(a b+a c+b c)-a b c)%<br>%(\\geq(a+b+c)(a b+a c+b c)-\\frac{1}{9}(a+b+c)(a b+a c+b c)=\\frac{8}{9}(a+b+c)(a b+a c+b c))%Nên %(\\frac{1}{a^{2}+1}+\\frac{1}{b^{2}+1}+\\frac{1}{\\mathrm{c}^{2}+1} \\leq \\frac{9}{4(a b+a c+b c)})%.<br>Đă̆ng thức xảy ra khi và chỉ khi<br>\\[a=b=c=\\frac{1}{\\sqrt{3}} \\Leftrightarrow a=b=c=\\frac{1}{\\sqrt{3}} \\Leftrightarrow x=\\arccos \\frac{1}{\\sqrt{3}}, y=\\frac{\\pi}{4}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài 3 ",
+        "point": 5.0,
+        "content": "Cho tam giác %(A B C)% có %(A B\\lt A C)% và nội tiếp đường tròn %((O))%. Phân giác trong góc %(\\widehat{B A C})% cắt %((O))% tại điểm %(D)% khác %(A)%, lấy %(E)% đối xứng %(B)% qua %(A D)%, đường thẳng %(B E)% cắt %((O))% tại %(F)% khác %(B)%. Lấy điểm %(G)% di chuyển trên cạnh %(A C(G)% khác %(A, C))%, đường thẳng %(B G)% cắt %((O))% tại %(H)% khác %(B)%. Đường thẳng qua %(C)% song song %(A H)% cắt %(F D)% tại %(I)%. Đường tròn ngoại tiếp tam giác %(B C G)% cắt %(E I)% tại hai điểm phân biệt %(K, L)%. Chứng minh rằng đường trung trực đoạn thẳng %(K L)% luôn đi qua một điểm cố định.",
+        "question_images": [],
+        "solution": "Gọi giao điểm của đường thẳng %(E I)% và %(B C)% là %(J)%.<br>%(D F)% là trục đối xứng của %(E C)%<br>%(\\widehat{C E J}=\\widehat{E C I}=\\widehat{H A C}=\\widehat{H B C})% nên tứ giác %(B G E J)% nội tiếp<br>Phép nghịch đảo %(N_{C}^{k=C E \\cdot C G=C J \\cdot C B})% biến đường tròn %((B C G))% thành đường thẳng %(E J)% nên biến %(K, L)% thành chính nó.<br>Do đó %(C K^{2}=C L^{2}=k)% hay đường trung trực đoạn thẳng %(K L)% luôn đi qua điểm %(C)% cố đinh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài 4 ",
+        "point": 5.0,
+        "content": "Cho 2018 tập hợp mà mỗi tập chứa đúng 45 phần tử. Biết rằng hai tập tùy ý trong các tập này đều có đúng một phần tử chung. Chứng minh rằng tồn tại phần tử thuộc tất cả 2018 tập hợp đã cho.",
+        "question_images": [],
+        "solution": "Lấy tập A tùy ý, trong %(\\mathrm{A})% sẽ có phần tử a thuộc ít nhất 45 tập hợp khác. Nếu không, số tập hợp không quá %(45 \\times 44+1=1981)%.<br>Suy ra a thuộc 46 tập %(A, A_{1}, \\ldots, A_{45})%.<br>Với tập %(\\mathrm{B})% bất kì, nếu a không thuộc %(\\mathrm{B})% thì với mỗi tập %(A_{i}(1 \\leq i \\leq 45))% đều có phần tử %(a_{i})% chung với %(\\mathrm{B})% mà %(a_{i} \\neq a)%.<br>Thành ra %(\\mathrm{B})% không có phần tử chung với %(\\mathrm{A})%, nếu có thì phần tử chung đó phải thuộc tập %(A_{i}(1 \\leq i \\leq 45))% nào đó nên %(\\mathrm{A})% và %(A_{i}(1 \\leq i \\leq 45))% có 2 phần tử chung. (Vô lí)<br>Nên a thuộc B, do đó a thuộc 2018 tập đã cho.",
+        "question_type": "essay"
+    }
+]

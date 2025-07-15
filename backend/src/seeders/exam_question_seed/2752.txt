@@ -1,0 +1,73 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Cho phương trình %(\\mathrm{x}^{2}-(2 \\mathrm{~m}+1) \\mathrm{x}+\\mathrm{m}=0)% ( %(\\mathrm{m})% là tham số )<br>Chứng minh rằng phương trình luôn có hai nghiệm phân biệt %(\\mathrm{x}_{1}, \\mathrm{x}_{2})%. Khi đó tìm biểu thức liên hệ giữa hai nghiệm đó không phụ thuộc vào m .",
+        "question_images": [],
+        "solution": "Ta có %(\\Delta=4 m^{2}+1\\gt 0 \\forall m)%<br>Suy ra phương trình có hai nghiệm phân biệt %(x_{1}, x_{2})% với mọi %(m)%.<br>Theo công thức Viet: %(x_{1}+x_{2}=2 m+1)% và %(x_{1} \\cdot x_{2}=m)%<br>Suy ra %(x_{1}+x_{2}-2 x_{1} \\cdot x_{2}=1)% là một hệ thức cần tìm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Tìm giá trị nhỏ nhất của biểu thức : %(\\mathrm{P}=\\frac{x_{1} x_{2}-x_{1}-x_{2}}{x_{1}{ }^{2}+x_{2}{ }^{2}+2\\left(x_{1} x_{2}+1\\right)})%",
+        "question_images": [],
+        "solution": "Ta có %(P=\\frac{x_{1} x_{2}-\\left(x_{1}+x_{2}\\right)}{2+\\left(x_{1}+x_{2}\\right)^{2}}=\\frac{-1-m}{4 m^{2}+4 m+3})%<br>(theo công thức Viet)<br>Từ đó thu được %(4 P m^{2}+(4 P+1) m+3 P+1=0)%<br>Nếu %(P=0)% thì (1) có nghiệm %(m=-1)%<br>Nếu %(P \\neq 0)% thì do (1) có nghiệm, nên %(\\delta=(4 P+1)^{2}-16 P(3 P+1) \\geq 0 \\Leftrightarrow-32 P^{2}-8 P+1 \\geq 0)%<br>\\[\\Leftrightarrow\\left(P+\\frac{1}{8}\\right)^{2} \\leq \\frac{3}{64} \\Leftrightarrow \\frac{-1-\\sqrt{3}}{8} \\leq P \\leq \\frac{-1+\\sqrt{3}}{8}\\]<br>+ Với %(P=\\frac{-1+\\sqrt{3}}{8})% thì %(m=\\frac{-2-\\sqrt{3}}{2})%<br>+ Với %(P=\\frac{-1-\\sqrt{3}}{8})% thì %(m=\\frac{-2+\\sqrt{3}}{2})%<br>Vậy GTLN của P là %(\\frac{-1+\\sqrt{3}}{8})% khi %(m=\\frac{-2-\\sqrt{3}}{2})%, GTNN của P là %(\\frac{-1+\\sqrt{3}}{8})% khi %(m=\\frac{-2+\\sqrt{3}}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải phương trình : %(\\quad 1+\\sqrt{1-\\sqrt{x^{4}-x^{2}}}=x)%",
+        "question_images": [],
+        "solution": "Điều kiện %(0 \\leq x^{+}-x^{2} \\leq 1)%Đưa phương trình về dạng %(\\sqrt{1-\\sqrt{x^{4}-x^{2}}}=x-1 \\Rightarrow 2 x-x^{2}=\\sqrt{x^{4}-x^{2}})%%(\\Rightarrow x^{4}-4 x^{3}+4 x^{2}=x^{4}-x^{2} \\Leftrightarrow x^{2}(5-4 x)=0 \\Leftrightarrow x=0)% hoặc %(x=\\frac{5}{4})%.Thử lại: Với %(x=\\frac{5}{4})% thay vào phương trình thoả mãn, với %(x=0)% thay vào phương trình không thoả mãn.<br>Vây %(x=\\frac{5}{4})% là nghiêm của phương trình đã cho.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Tìm các cặp số nguyên dương %((x ; y))% thoả mãn :<br>\\[x^{y} \\cdot y^{x}+x^{y}+y^{x}=5329 \\text {. }\\]",
+        "question_images": [],
+        "solution": "Viết lại phương trình đã cho về dạng %(\\left(x^{y}+1\\right)\\left(y^{x}+1\\right)=5330)%<br>Vì %(5330=2 \\cdot 5 \\cdot 13 \\cdot 41)% nên%(5330=1 \\cdot 5330=5 \\cdot 1066=10 \\cdot 533=13 \\cdot 410=26 \\cdot 205=41 \\cdot 130=65 \\cdot 82=2 \\cdot 2665)%+ Kiếm tra được 6 trường hợp đâu không có nghiệm<br>+ Xét trường hợp %(x^{y}+1=65, y^{x}+1=82)% ta được %((x ; y)=(4 ; 3))%,<br>+ Xét trường hợp %(x^{y}+1=82, y^{x}+1=65)% ta được %((x ; y)=(3 ; 4))%<br>+ Trường hợp %(x^{y}+1=2, y^{x}+1=2665)% tìm được %((x ; y)=(1 ; 2664))%<br>+ Xét trường hợp %(x^{y}+1=2665, y^{x}+1=2)% tìm được %((x ; y)=(2664 ; 1))%<br>+ Kết luận : Tất cả các cặp %((x ; y))% cần tìm là %((4 ; 3),(3 ; 4),(1 ; 2664),(2664 ; 1))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "cho %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c}\\gt 0)% thoả mãn %(\\mathrm{abc}=1)%. Chứng minh rằng :<br>\\[1+\\frac{3}{a+b+c} \\geq \\frac{6}{a b+b c+c a} .\\]",
+        "question_images": [],
+        "solution": "Bất đằng thức đã cho tương đương: %((a+b+c)(a b+b c+c a)+3(a b+b c+c a) \\geq 6(a+b+c) \\quad(*))%<br>Để ý rằng %((a b+b c+c a)^{2} \\geq 3 a b c(a+b+c)=3(a+b+c))%<br>Nên BĐT %(\\left({ }^{*}\\right))% đúng nếu ta chứng minh được %(\\sqrt{3(a+b+c)^{3}}+3 \\sqrt{3(a+b+c)} \\geq 6(a+b+c)(* *))%<br>Thật vậy %((* *) \\Leftrightarrow \\sqrt{3(a+b+c)}(\\sqrt{a+b+c}-\\sqrt{3})^{2} \\geq 0)%.<br>BĐT nay đúng suy ra điều phải chứng minh. Dâu \"=\" xảy ra khi và chỉ khi a = b = c = 1",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho đường tròn (I) nội tiếp của tam giác %(\\mathrm{ABC})% tiếp xúc với các cạnh %(\\mathrm{BC}, \\mathrm{CA}, \\mathrm{AB})% theo thứ tự tại %(\\mathrm{D}, \\mathrm{E}, \\mathrm{F})%. Đường thẳng %(\\mathrm{AD})% cắt đường thẳng %(\\mathrm{EF})% tại %(\\mathrm{M})%. Lấy %(\\mathrm{N})% trên %(\\mathrm{DF})% và điểm %(\\mathrm{P})% trên %(\\mathrm{DE})% sao cho tứ giác %(\\mathrm{MNDP})% là hình bình hành.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "Chứng minh rằng %(\\frac{M E}{M F}=\\left(\\frac{D E}{D F}\\right)^{2})%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" class=\"image_resized\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7dba03bb298e45870a0176cfef797ffa.png\" srcset=\"https://docdn.giainhanh.io/media/test/18253280fccc50850588c840c847ab40.png 245w\" style=\"width:55.4%;\" width=\"245\"/><br>Gọi %(J, K)% là hình chiếu của %(D)% trên %(A B, A C)%.<br>Ta có %(\\frac{M E}{M F}=\\frac{S_{\\triangle D E A}}{S_{\\triangle D F A}}=\\frac{D \\Lambda}{D J})% (1)<br>Trong tam giác vuông %(D J F)% thì%(D J=D F \\cdot \\sin \\angle D F J=D F \\cdot \\cos \\frac{B}{2}=D F \\cdot \\frac{B F}{B I})%<br>Tương tự, trong tam giác vuông %(D K E)% có %(D K=D E \\cdot \\frac{C E}{C I})%<br>Suy ra %(\\frac{D K}{D J}=\\frac{D E}{D F} \\cdot \\frac{C E}{B F} \\cdot \\frac{B I}{C I}=\\frac{D E}{D F} \\cdot \\frac{C E}{B F} \\cdot \\frac{\\frac{r}{\\sin \\frac{B}{2}}}{\\frac{r}{\\sin \\frac{C}{2}}}=\\frac{D E}{D F} \\cdot \\frac{C E \\cdot \\sin \\frac{C}{2}}{B F \\cdot \\sin \\frac{B}{2}}=\\left(\\frac{D E}{D F}\\right)^{2})%<br>Từ (1) và (2) cho ta %(\\frac{M E}{M F}=\\left(\\frac{D E}{D F}\\right)^{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "Chứng minh rằng tứ giác EFNP nội tiếp.",
+        "question_images": [],
+        "solution": "Do %(M N D P)% là hình bình hành, nên: %(\\frac{D N}{D F}=\\frac{M P}{D F}=\\frac{M E}{E F} \\Rightarrow D N \\cdot D F=\\frac{M E}{E F} \\cdot D F^{2})%- %(\\frac{D P}{D E}=\\frac{M N}{D E}=\\frac{M F}{E F} \\Rightarrow D P \\cdot D E=\\frac{M F}{E F} \\cdot D E^{2})%<br>Từ đó, theo kết quả phần 1 , suy ra %(D N \\cdot D F=D P \\cdot D E)%.<br>Do đó tứ giác %(E F N P)% nôi tiếp.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Một bảng hình vuông kích thước %(10 \\times 10)%. Hỏi có thể điền được các số %(1,2,3, \\ldots 99,100)% vào các ô của bảng ( mỗi ô điền một số) sao cho 2 tính chất sau đồng thời được thoả mãn:<br>(j) Tổng các số trên mỗi hàng, mỗi cột bằng nhau và bằng %(\\mathrm{S})%<br>(jj) Với mỗi số %(k=1,2,3, \\ldots, 10)%, tổng các số ở các ô %((i ; j)% ) ( ổ hàng %(\\mathrm{i})%, cột %(\\mathrm{j})% ) với %(\\mathrm{i}-\\mathrm{j}-\\mathrm{k})% chia hết cho 10 , có tổng bằng %(\\mathrm{S})%.",
+        "question_images": [],
+        "solution": "Không điền được<br>Thật vậy, giả sử trái lại, điền được các số thỏa mãn.<br>Khi đó %(S=\\frac{1}{10} \\cdot(1+2+\\cdots+100)=505)% là một số lẻ<br>Chia các ô %((i ; j))% của bảng thành 4 loại:<br>- Loại 1 gồm các ô mà %(i, j)% cùng lẻ, gọi %(S_{1})% là tổng của tất cả các số trên các ô loại 1 ;<br>- Loại 2 gồm các ô mà %(i)% lẻ, %(j)% chẵn, gọi %(S_{2})% là tổng của tất cả các số trên các ô loại 2;<br>- Loại 3 gồm các ô mà %(i)% chẵn, %(j)% lẻ, gọi %(S_{3})% là tổng của tất cả các số trên các ô loại 3;<br>- Loại 4 gồm các ô mà %(i, j)% cùng chẵn, gọi %(S_{4})% là tổng của tất cả các số trên các ô loại 4 .<br>Khi đó<br>%(+S_{1}+S_{2})% là tổng các số trên tất cả các hàng lẻ, nên %(S_{1}+S_{2}=5 S)%%(+S_{2}+S_{4})% là tổng các số trên tất cả các cột chẵn, nên %(S_{2}+S_{4}=5 S)%<br>+ Loại 1 và loại 4 đều gồm các ô mà %(i-j)% chẵn, do đó %(S_{1}+S_{4}=5 S)%<br>Suy ra %(2\\left(S_{1}+S_{2}+S_{4}\\right)=15 S)%Do %(S)% lẻ, nên VP(1) lẻ, trong khi đó, VT(1) chẵn, vô lý.<br>Vây không thể điền được các số thỏa mãn.",
+        "question_type": "essay"
+    }
+]

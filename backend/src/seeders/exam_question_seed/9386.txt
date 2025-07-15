@@ -1,0 +1,81 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Phân tích đa thức %(a^{2}(b-c)+b^{2}(c-a)+c^{2}(a-b))% thành nhân tử",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{aligned}& a^{2}(b-c)+b^{2}(c-a)+c^{2}(a-b)=a^{2}(b-c)+b^{2}(c-a)-c^{2}(b-c+c-a) \\\\= & (b-c)\\left(a^{2}-c^{2}\\right)+(c-a)\\left(b^{2}-c^{2}\\right)=(b-c)(a-c)(a+c)+(c-a)(b-c)(b+c) \\\\= & (b-c)(a-c)(a+c-b-c)=(b-c)(a-c)(a-b)\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho các số nguyên %(a, b, c)% thỏa mãn %((a-b)^{3}+(b-c)^{3}+(c-a)^{3})%. Tính giá trị cùa biểu thức %(A=|a-b|+|b-c|+|c-a|)%",
+        "question_images": [],
+        "solution": "Đặt %(a-b=x ; b-c=y ; c-a=z \\Rightarrow x+y+z=0 \\Rightarrow z=-(x+y))%<br>Ta có:<br>\\[x^{3}+y^{3}+z^{3}=210 \\Leftrightarrow x^{3}+y^{3}-(x+y)^{3}=210 \\Leftrightarrow-3 x y(x+y)=210 \\Leftrightarrow x y z=70\\]<br>Do %(x, y, z)% là số nguyên có tổng bằng 0 và %(x y z=70=(-2) \\cdot(-5) .7)%<br>nên<br>\\[x, y, z \\in\\{-2 ;-5 ; 7\\} \\Rightarrow A=|a-b|+|b-c|+|c-a|=14\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Giải phương trình nghiệm nguyên : %(x^{2}+y^{2}=3-x y)%",
+        "question_images": [],
+        "solution": "Ta có: %((x-y)^{2} \\geq 0 \\Leftrightarrow x^{2}+y^{2} \\geq 2 x y \\Rightarrow 3-x y \\geq 2 x y \\Leftrightarrow x y \\leq 1)%<br>Lại có: %((x+y)^{2} \\geq 0 \\Leftrightarrow x^{2}+y^{2} \\geq-2 x y \\Rightarrow 3-x y \\geq-2 x y \\Leftrightarrow x y \\geq-3)%<br>Suy ra %(-3 \\leq x y \\leq 1)%.<br>Mà %(x, y \\in \\mathbb{Z} \\Rightarrow x y \\in\\{-3 ;-2-1 ; 0 ; 1\\})%<br>Lần lượt thử ta được %((x, y) \\in\\{(-2 ; 1) ;(1 ;-2) ;(2 ;-1) ;(-1 ; 2) ;(1 ; 1)\\})% là nghiệm của phương trình",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %((6 x+8)(6 x+6)(6 x+7)^{2}=72)%",
+        "question_images": [],
+        "solution": "Đặt %(6 x+7=t)%.<br>Ta có:<br>\\[\\begin{array}{l}(t+1)(t-1) t^{2}=72 \\Leftrightarrow\\left(t^{2}-1\\right) t^{2}=72 \\Leftrightarrow t^{4}-t^{2}-72=0 \\\\Rightarrow {\\left[\\begin{array} { l } { t ^ { 2 } + 8 = 0 ( V N ) } \\\\{ t ^ { 2 } - 9 = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array} { l } { t = 3 } \\\\{ t = - 3 }\\end{array} \\Rightarrow \\left[\\begin{array}{l}x=-\\frac{2}{3} \\x=-\\frac{5}{3}\\end{array}\\right.\\right.\\right.}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Tìm giá trị nhỏ nhất của biểu thức : %(P=(x-2012)^{2}+(x+2013)^{2})%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}P=(x-2012)^{2}+(x+2013)^{2}=x^{2}-4024 x+4048144+x^{2}+4026 x+4052169 \\\\=2 x^{2}+2 x+8100313=2\\left(x+\\frac{1}{2}\\right)^{2}+8100312,5 \\geq 8100312,5 \\quad \\forall x\\end{array}\\]<br>Vậy %(\\operatorname{Min} P=8100312,5 \\Leftrightarrow x=-\\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho các số thực dương %(x, y, z)% thỏa mãn %(x+y+z=3)%. Chứng minh rằng:<br>\\[\\frac{1}{x^{2}+x}+\\frac{1}{y^{2}+y}+\\frac{1}{z^{2}+z} \\geq \\frac{3}{2}\\]",
+        "question_images": [],
+        "solution": "Đặt %(P=\\frac{1}{x^{2}+x}+\\frac{1}{y^{2}+y}+\\frac{1}{z^{2}+z}=\\frac{1}{x(x+1)}+\\frac{1}{y(y+1)}+\\frac{1}{z(z+1)})%<br>\\[=\\frac{1}{x}-\\frac{1}{x+1}+\\frac{1}{y}-\\frac{1}{y+1}+\\frac{1}{z}-\\frac{1}{z+1}=\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)-\\left(\\frac{1}{x+1}+\\frac{1}{y+1}+\\frac{1}{z+1}\\right)\\]<br>Áp dụng %(\\mathrm{BĐT} \\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c} \\geq \\frac{9}{a+b+c})% và %(\\frac{1}{a+b} \\leq \\frac{1}{4} \\cdot\\left(\\frac{1}{a}+\\frac{1}{b}\\right))% với %(a, b, c)% dương, dấu bằng xảy %(\\mathrm{ra} \\Leftrightarrow a=b=c)%<br>Ta có: %(\\frac{1}{x+1} \\leq \\frac{1}{4} \\cdot\\left(\\frac{1}{x}+1\\right) ; \\frac{1}{y+1} \\leq \\frac{1}{4} \\cdot\\left(\\frac{1}{y}+1\\right) ; \\frac{1}{z+1} \\leq \\frac{1}{4} \\cdot\\left(\\frac{1}{z}+1\\right))%<br>Bởi vậy<br>\\[\\begin{array}{l}P=\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)-\\left(\\frac{1}{x+1}+\\frac{1}{y+1}+\\frac{1}{z+1}\\right) \\geq\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)-\\frac{1}{4} \\cdot\\left(\\frac{1}{x}+1+\\frac{1}{y}+1+\\frac{1}{z}+1\\right) \\\\=\\frac{3}{4} \\cdot\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)-\\frac{3}{4} \\geq \\frac{3}{4} \\cdot \\frac{9}{x+y+z}-\\frac{3}{4}=\\frac{9}{4}-\\frac{3}{4}=\\frac{3}{2}(\\mathrm{dfcm})\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác %(A B C)% vuông tại A . Lấy một điểm M bất kỳ trên cạnh AC . Từ C vẽ một đường thẳng vuông góc với tia BM , đường thẳng này cắt tia %(B M)% tại D , cắt tia BA tại E .",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh : %(E A \\cdot E B=E D \\cdot E C)%",
+        "question_images": [],
+        "solution": "Chứng minh %(\\triangle E B D \\sim \\triangle E C A(g-g) \\Rightarrow \\frac{E B}{E C}=\\frac{E D}{E A} \\Rightarrow E A \\cdot E B=E D \\cdot E C)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ca9662f5aaaa12344c22471f1dda9ac4.png\" srcset=\"https://docdn.giainhanh.io/media/test/0c395dd9f487d00da985c72be6072231.png 203w, https://docdn.giainhanh.io/media/test/cec506f1b5512c6c793ce014996ab82c.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Chứng minh rằng khi điểm %(M)% di chuyển trên cạnh %(A C)% thì tổng %(B M \\cdot B D+C M \\cdot C A)% có giá trị không đổi",
+        "question_images": [],
+        "solution": "Kẻ %(M I \\perp B C(I \\in B C))%.<br>Ta có : %(\\triangle B I M \\sim \\triangle B D C(g . g))%<br>\\[\\Rightarrow \\frac{B M}{B C}=\\frac{B I}{B D} \\Rightarrow B M \\cdot B D=B I \\cdot B C(1)\\]<br>Tương tự: %(\\triangle A C B \\sim \\triangle I C M(g-g) \\Rightarrow \\frac{C M}{B C}=\\frac{C I}{C A} \\Rightarrow C M \\cdot C A=C I \\cdot B C(2))%<br>Từ (1) và (2) suy ra %(B M \\cdot B D+C M \\cdot C A=B I \\cdot B C+C I \\cdot B C=B C \\cdot(B I+C I)=B C^{2})%(Không đồi)",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Kẻ %(D H \\perp B C(H \\in B C))%. Gọi %(P, Q)% lần lượt là trung điểm của các đoạn thẳng %(B H, C H)%. Chứng minh %(C Q \\perp P D)%",
+        "question_images": [],
+        "solution": "\\[\\text { } \\begin{array}{l}\\triangle B H D \\sim \\triangle D H C(g . g) \\\\Rightarrow \\frac{B H}{D H}=\\frac{B D}{D C} \\Rightarrow \\frac{2 B P}{2 D Q}=\\frac{B D}{D C} \\Rightarrow \\frac{B P}{D Q}=\\frac{B D}{D C}\\end{array}\\]<br>Chứng minh được: %(\\triangle D P B \\sim \\triangle C Q D(\\mathrm{~g} . \\mathrm{g}) \\Rightarrow \\widehat{B D P}=\\widehat{D C Q})%<br>\\[\\text { Mà } \\widehat{B D P}+\\widehat{P D C}=90^{\\circ} \\Rightarrow \\widehat{D C Q}+\\widehat{P D C}=90^{\\circ} \\Rightarrow C Q \\perp P D\\]",
+        "question_type": "essay"
+    }
+]

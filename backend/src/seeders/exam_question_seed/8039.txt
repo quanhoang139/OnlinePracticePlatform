@@ -1,0 +1,96 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 3.0,
+        "content": "Cho biểu thức %(\\mathrm{A}=\\frac{x+8}{x \\sqrt{x}+8}+\\frac{1}{x-2 \\sqrt{x}+4}+\\frac{\\sqrt{x+4-4 \\sqrt{x}}}{x-4})% với %(0 \\leq x\\lt 4)%.<br>Rút gọn biểu thức %(\\mathrm{A})%. Tìm các số nguyên %(x)% để A là số nguyên.",
+        "question_images": [],
+        "solution": "\\[\\begin{aligned}A & =\\frac{x+8}{(\\sqrt{x})^{3}+2^{3}}+\\frac{1}{x-2 \\sqrt{x}+4}+\\frac{\\sqrt{(\\sqrt{x}-2)^{2}}}{x-4} \\\\& =\\frac{x+8}{(\\sqrt{x}+2)(x-2 \\sqrt{x}+4)}+\\frac{1}{x-2 \\sqrt{x}+4}+\\frac{|\\sqrt{x}-2|}{(\\sqrt{x}-2)(\\sqrt{x}+2)} \\\\& =\\frac{x+8}{(\\sqrt{x}+2)(x-2 \\sqrt{x}+4)}+\\frac{1}{x-2 \\sqrt{x}+4}-\\frac{\\sqrt{x}-2}{(\\sqrt{x}-2)(\\sqrt{x}+2)}\\end{aligned}\\]<br>(vì %(0 \\leq x\\lt 4)% nên %(0 \\leq \\sqrt{x}\\lt 2)% )<br>\\[\\begin{array}{l}=\\frac{x+8}{(\\sqrt{x}+2)(x-2 \\sqrt{x}+4)}+\\frac{1}{x-2 \\sqrt{x}+4}-\\frac{1}{\\sqrt{x}+2} \\\\=\\frac{x+8+(\\sqrt{x}+2)-(x-2 \\sqrt{x}+4)}{(\\sqrt{x}+2)(x-2 \\sqrt{x}+4)} \\\\=\\frac{3 \\sqrt{x}+6}{(\\sqrt{x}+2)(x-2 \\sqrt{x}+4)}=\\frac{3}{x-2 \\sqrt{x}+4}\\end{array}\\]<br>Ta có : %(x-2 \\sqrt{x}+4=(\\sqrt{x}-1)^{2}+3 \\geq 3 \\Rightarrow 0\\lt A \\leq 1)%.<br>+ Để A là số nguyên (khi đó %(\\mathrm{A}=1)%) thì %(x-2 \\sqrt{x}+4=3)% hay %(x=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Cho ba số thực %(a, b, c)% sao cho %(1 \\leq a \\leq 2 ; \\quad 1 \\leq b \\leq 2 ; \\quad 1 \\leq c \\leq 2)%. Chứng minh %(\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}+\\frac{a}{c}+\\frac{c}{b}+\\frac{b}{a} \\leq 7~~~(1))%.",
+        "question_images": [],
+        "solution": "Vì a,b,c có vai trò như nhau và %(1 \\leq a, b, c \\leq 2)% nên giả sử %(2 \\geq \\mathrm{a} \\geq \\mathrm{b} \\geq \\mathrm{c} \\geq 1)%<br>Khi đó: %((\\mathrm{b}-\\mathrm{a})(\\mathrm{b}-\\mathrm{c}) \\leq 0)%<br>\\[\\begin{array}{l}\\Rightarrow \\mathrm{b}^{2}+\\mathrm{ac} \\leq \\mathrm{ab}+\\mathrm{bc}\\left({ }^{*}\\right) \\Rightarrow \\frac{a}{b}+\\frac{b}{c} \\leq 1+\\frac{a}{c}\\left(\\text {chia } 2 \\text { vế }\\left({ }^{*}\\right) \\text { cho } \\mathrm{bc}\\right) \\\\text { và } \\frac{b}{a}+\\frac{c}{b} \\leq 1+\\frac{c}{a}(\\text {chia } 2 \\text { vế }(*) \\text { cho } \\mathrm{ab})\\end{array}\\]<br>\\[\\Rightarrow \\frac{a}{b}+\\frac{b}{c}+\\frac{b}{a}+\\frac{c}{b}+\\frac{a}{c}+\\frac{c}{a} \\leq 2+2\\left(\\frac{a}{c}+\\frac{c}{a}\\right)\\]<br>Để chứng minh (1) ta tiếp tục chứng minh %(2+2\\left(\\frac{a}{c}+\\frac{c}{a}\\right) \\leq 7 \\Leftrightarrow \\frac{a}{c}+\\frac{c}{a} \\leq \\frac{5}{2}~~~(2))%<br>Ta có: %(2 \\geq \\mathrm{a} \\geq \\mathrm{c} \\geq 1 \\Rightarrow 1 \\leq x=\\frac{a}{c} \\leq 2)%<br>%((2) \\Leftrightarrow \\mathrm{x}+\\frac{1}{x} \\leq \\frac{5}{2} \\Leftrightarrow 2 \\mathrm{x}^{2}-5 \\mathrm{x}+2 \\leq 0 \\Leftrightarrow(\\mathrm{x}-2)(2 \\mathrm{x}-1) \\leq 0)% ( đúng vì %(1 \\leq x \\leq 2)%<br>(2) được chứng minh %(\\Rightarrow)% (1) được chứng minh.<br>Dấu \"=\"xảy ra khi %(\\mathrm{a}=2, \\mathrm{~b}=\\mathrm{c}=1)% hoăc %(\\mathrm{a}=\\mathrm{b}=2, \\mathrm{c}=1)% và các hoán vị của nó.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.0,
+        "content": "Cho phương trình %(x^{2}-2 x+3-2 m=0)%. Tìm %(m)% đề phương trình có hai nghiệm phân biệt %(x_{1}, x_{2})% trong đó có một nghiệm bằng bình phương nghiệm còn lại.",
+        "question_images": [],
+        "solution": "Cách 1:<br>- Điều kiện pt có 2 nghiệm phân biêt là %(\\Delta^{\\prime}\\gt 0 \\Rightarrow 2 \\mathrm{~m}-2>0 \\Rightarrow \\mathrm{m}>1)%.<br>- Ta có : %(x_{1}+x_{2}=2, x_{1} \\cdot x_{2}=3-2 m)%%(x_{1}=x_{2}^{2} \\Rightarrow x_{1}=2 x_{2}+2 m-3)%%(\\Rightarrow x_{1}+x_{2}=3 x_{2}+2 m-3)%<br>%(\\Rightarrow 3 x_{2}=5-2 m \\Rightarrow 3 x_{1}=1+2 m)%<br>%(\\Rightarrow 9 x_{1} \\cdot x_{2}=(5-2 m)(1+2 m))%<br>%(\\Rightarrow 9(3-2 m)=-4 m^{2}+8 m+5)%<br>%(\\Rightarrow 4 m^{2}-26 m+22=0 \\Rightarrow m=1, m=\\frac{11}{2})%<br>- Chọn %(m=\\frac{11}{2})%<br>Cách 2:<br>- Điều kiện : %(\\Delta^{\\prime}\\gt 0 \\Rightarrow 2 \\mathrm{~m}-2>0 \\Rightarrow \\mathrm{m}>1)%.<br>- Ta có : %(x_{1}+x_{2}=2, x_{1} \\cdot x_{2}=3-2 m)%<br>Để phương trình có một nghiệm bằng bình phương nghiệm còn lại thì<br>\\[\\begin{array}{l}\\left(x_{1}-x_{2}^{2}\\right)\\left(x_{2}-x_{1}^{2}\\right)=0 \\\\Rightarrow x_{1} x_{2}-\\left(x_{1}^{3}+x_{2}^{3}\\right)+x_{1}^{2} x_{2}^{2}=0 \\\\Rightarrow x_{1} x_{2}-\\left(x_{1}+x_{2}\\right)^{3}+3 x_{1} x_{2}\\left(x_{1}+x_{2}\\right)+x_{1}^{2} x_{2}^{2}=0 \\\\Rightarrow x_{1}^{2} x_{2}^{2}+7 x_{1} x_{2}-8=0 \\Rightarrow x_{1} x_{2}=1, \\quad x_{1} x_{2}=-8 . \\\\left.+x_{1} x_{2}=1 \\Rightarrow 3-2 m=1 \\Rightarrow m=1 \\text { (loai }\\right) \\\\+x_{1} x_{2}=-8 \\Rightarrow 3-2 m=-8 \\Rightarrow m=\\frac{11}{2} \\text { ( thỏa mãn ) }\\end{array}\\]<br>Cách 3:<br>- Điều kiện : %(\\Delta^{\\prime}>0 \\Rightarrow 2 \\mathrm{~m}-2>0 \\Rightarrow \\mathrm{m}>1)%.<br>Phương trình có 2 nghiệm là %(x_{1}=1+\\sqrt{2 m-2}, x_{2}=1-\\sqrt{2 m-2})%<br>Để phương trình có một nghiệm bằng bình phương nghiệm còn lại thì %(x_{1}=x_{2}^{2})% (không xảy ra trường hợp ngược lại %(x_{2}=x_{1}^{2})% vì %(0\\lt x_{2}\\lt 1, x_{1}^{2}\\gt 1)% (!))<br>\\[\\begin{array}{l}\\Rightarrow 1+\\sqrt{2 m-2}=1-2 \\sqrt{2 m-2}+2 m-2 \\\\Rightarrow(2 m-2)-3 \\sqrt{2 m-2}=0 \\Rightarrow \\sqrt{2 m-2}=0 \\vee \\sqrt{2 m-2}=3 \\\\Rightarrow m=1 \\vee m=\\frac{11}{2}-\\text { Chọn } m=\\frac{11}{2}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 2.0,
+        "content": "Giải phương trình %(2 \\sqrt{1-x}+\\sqrt{1-x^{2}}=3-x~~~(1))%.",
+        "question_images": [],
+        "solution": "Cách 1:<br>Điều kiện : %(-1 \\leq x \\leq 1)%<br>%((1) \\Leftrightarrow 2 \\sqrt{1-x}+\\sqrt{1-x} \\cdot \\sqrt{1+x}=3-\\mathrm{x}~~~(2))%<br>Đặt %(\\sqrt{1-x}=a ; \\sqrt{1+x}=b(\\Rightarrow \\mathrm{a}, \\mathrm{b} \\geq 0))%.<br>(2) viết lại: %(2 a+a b=4-b^{2})%<br>%(\\Rightarrow a(2+b)=(2+b)(2-b) \\Rightarrow a=2-b()%do %(2+\\mathrm{b}\\gt 0))%<br>%(\\Rightarrow \\sqrt{1-x}+\\sqrt{1+x}=2 \\Rightarrow \\mathrm{x}=0)% (Cô si - hoặc bình phương...)<br>%(\\mathrm{x}=0)% thỏa điều kiện %(\\Rightarrow \\mathrm{x}=0)% là nghiệm duy nhất của phương trình đã cho.<br>Cách 2:<br>Điều kiện : %(-1 \\leq x \\leq 1)%<br>\\[\\begin{array}{l}\\text { (1) } \\Leftrightarrow 2[\\sqrt{1-x}-(1-x)]+\\left[\\sqrt{1-x^{2}}-(1+x)\\right]=0 \\\\Leftrightarrow 2 \\sqrt{1-x}(1-\\sqrt{1-x})+\\sqrt{1+x}(\\sqrt{1-x}-\\sqrt{1+x})=0 \\\\Leftrightarrow 2 \\sqrt{1-x} \\cdot \\frac{x}{1+\\sqrt{1-x}}+\\sqrt{1+x} \\cdot \\frac{-2 x}{\\sqrt{1-x}+\\sqrt{1+x}}=0 \\\\Leftrightarrow x\\left(\\frac{\\sqrt{1-x}}{1+\\sqrt{1-x}}-\\frac{\\sqrt{1+x}}{\\sqrt{1-x}+\\sqrt{1+x}}\\right)=0 \\\\Leftrightarrow x=0 \\vee \\frac{\\sqrt{1-x}}{1+\\sqrt{1-x}}=\\frac{\\sqrt{1+x}}{\\sqrt{1-x}+\\sqrt{1+x}}\\left(^{*}\\right) \\\\left(^{*}\\right) \\Leftrightarrow 1-x=\\sqrt{1+x} \\\\left.\\Leftrightarrow 1+x^{2}-2 x=1+x \\Leftrightarrow x=0, x=3 \\text { (loại}\\right)\\end{array}\\]<br>Kết luận: %(\\mathrm{x}=0)% là nghiệm duy nhất.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 2.0,
+        "content": "Chứng minh rằng với mọi số tự nhiên %(n \\geq 1)% thì %((n+2)(n+1)(n+8))% không thể là lập phương của một số tự nhiên.",
+        "question_images": [],
+        "solution": "Ta có: %((\\mathrm{n}+2)^{3}\\lt (\\mathrm{n}+2)(\\mathrm{n}+1)(\\mathrm{n}+8)\\lt (\\mathrm{n}+4)^{3}\\left(^{*}\\right))%<br>\\[\\Leftrightarrow n^{3}+6 n^{2}+12 n+8\\lt \\left(n^{2}+3 n+2\\right)(n+8)=n^{3}+11 n^{2}+26 n+16\\lt n^{3}+12 n^{2}+48 n+64\\]<br>(đúng với mọi %(\\mathrm{n} \\geq 1)%)<br>Giả sử có %(\\mathrm{n} \\in \\mathrm{N}, \\mathrm{n} \\geq 1)% sao cho %((\\mathrm{n}+2)(\\mathrm{n}+1)(\\mathrm{n}+8))% là lập phương của một số tự nhiên.<br>Từ %((*))% suy ra: %((\\mathrm{n}+2)(\\mathrm{n}+1)(\\mathrm{n}+8)=(\\mathrm{n}+3)^{3})%<br>\\[\\begin{array}{l}\\Rightarrow \\mathrm{n}^{3}+11 \\mathrm{n}^{2}+26 \\mathrm{n}+16=\\mathrm{n}^{3}+9 \\mathrm{n}^{2}+27 \\mathrm{n}+27 \\\\Rightarrow 2 \\mathrm{n}^{2}-\\mathrm{n}-11=0 \\Rightarrow n=\\frac{1 \\pm \\sqrt{89}}{4} \\notin N(!)\\end{array}\\]<br>Vậy %(\\forall \\mathrm{n} \\geq 1, \\mathrm{n} \\in \\mathrm{N})% thì %((\\mathrm{n}+2)(\\mathrm{n}+1)(\\mathrm{n}+8))% không là lập phương của một số tự nhiên.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 2.0,
+        "content": "Cho số nguyên tố %(p(p\\gt 3))% và hai số nguyên dương %(a, b)% sao cho %(p^{2}+a^{2}=b^{2})%. Chứng minh %(a)% chia hết cho 12 và %(2(p+a+1))% là số chính phương.",
+        "question_images": [],
+        "solution": "Ta có: %(p^{2}+a^{2}=b^{2} \\Leftrightarrow p^{2}=(b-a)(b+a))%.<br>Các ước của %(p^{2})% là %(1, p)% và %(\\mathrm{p}^{2})%.<br>Không xảy ra trường hợp %(b+a=b-a=p)%<br>Do đó chỉ xảy ra trường hợp %(b+a=p^{2})% và %(b-a=1)%.<br>Khi đó %(b=\\frac{p^{2}+1}{2})% và %(a=\\frac{p^{2}-1}{2})% suy ra %(2 a=(p-1)(p+1))%.<br>Từ %(p)% lé suy ra %(p+1, p-1)% là hai số chẵn liên tiếp %(\\Rightarrow(p-1)(p+1))% chia hết cho 8.<br>Suy ra %(2 a)% chia hết cho 8<br>Vì %(p)% là số nguyên tố lớn hơn 3 nên %(p)% không chia hết cho 3.<br>Do đó %(p)% có dạng %(3 k+1)% hoặc %(3 k+2)%.<br>Suy ra một trong hai số %(p+1 ; p-1)% chia hết cho 3 .<br>Suy ra %(2 a)% chia hết cho 3<br>Từ (1) và (2) suy ra %(2 a)% chia hết cho 24 hay a chia hết cho 12 (đpcm).<br>Xét %(2(p+a+1)=2\\left(p+\\frac{p^{2}-1}{2}+1\\right)=2 p+p^{2}+1=(p+1)^{2})% là số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7:",
+        "group_content": "Cho hình vuông %(A B C D)% có cạnh bằng %(4 \\mathrm{~cm})%. %(E)% là điểm nằm trên cạnh %(B C)% %((E)% khác %(B)% và %(C))%. Đường thẳng qua %(B)%, vuông góc với đường thẳng %(D E)% tại %(H)% và cắt đường thẳng %(C D)% tại %(F)%. Gọi %(K)% là giao điểm của %(A H)% và %(B D)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.5,
+        "content": "a) Chứng minh tứ giác %(K D C E)% nội tiếp trong đường tròn và ba điểm %(K, E, F)% thẳng hàng.",
+        "question_images": [],
+        "solution": "+ Hai tam giác %(B K A)% và %(B K C)% bằng nhau %(\\Rightarrow B C K=B A K)%.<br>+ Lại có %(A, B, H, D)% cùng nằm trên một đường tròn nên %(B A K=K D E)%.<br>Suy ra %(B C K=K D E)%<br>Do đó tứ giác %(K D C E)% nội tiếp trong đường tròn.<br>+ Trong tam giác %(B D F)% có %(B C)% và %(D H)% là hai đường cao.<br>Suy ra %(F E \\perp B D~~(1).)%<br>Tứ giác %(K D C E)% nội tiếp trong đường tròn và %(E C D=90^{\\circ})% nên %(E K D=90^{\\circ})% hay %(E K \\perp B D~~(2))%.<br>Từ (1) và (2) suy ra %(K, E, F)% thẳng hàng.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/aa582106611f2514847c12c0810e5b0f.png\" srcset=\"https://docdn.giainhanh.io/media/test/beb996531843814838650932ddfa1df8.png 206w, https://docdn.giainhanh.io/media/test/161164429a12613acdd10c9b961a41b0.png 500w, https://docdn.giainhanh.io/media/test/ebe9e0a4abcb40a162996b0b703728f4.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Khi %(E)% là trung điểm cạnh %(B C)%, tính diện tích tứ giác %(B K E H)%.",
+        "question_images": [],
+        "solution": "Ta có %(\\Delta)% BKE vuông cân, %(B K=K E=\\sqrt{2})%<br>\\[\\mathrm{S}_{\\mathrm{BKE}}=\\frac{1}{2} B K \\cdot K E=\\frac{1}{2} \\sqrt{2} \\cdot \\sqrt{2}=1\\]<br>Xét %(\\triangle \\mathrm{BHE})% ta có %(\\mathrm{BH}=\\mathrm{BE} \\cdot \\sin \\mathrm{E}=2 \\cdot \\sin \\mathrm{E}=2 \\cdot \\frac{D C}{D E}=2 \\frac{4}{2 \\sqrt{5}}=\\frac{4}{\\sqrt{5}})%<br>\\[\\begin{array}{l}\\mathrm{HE}^{2}=\\mathrm{BE}^{2}-\\mathrm{BH}^{2}=4-\\frac{16}{5}=\\frac{4}{5} \\Rightarrow \\mathrm{HE}=\\frac{2}{\\sqrt{5}} \\\\mathrm{~S}_{\\mathrm{BHE}}=\\frac{1}{2} H E \\cdot B H=\\frac{4}{5}\\end{array}\\]<br>%(\\mathrm{S}_{\\mathrm{BKEH}}=\\mathrm{S}_{\\mathrm{BKE}}+\\mathrm{S}_{\\mathrm{BHE}}=1+\\frac{4}{5}=\\frac{9}{5}\\left(\\mathrm{~cm}^{2}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8:",
+        "group_content": "Cho hai đường tròn %(\\left(C_{1}\\right),\\left(C_{2}\\right))% cắt nhau tại hai điểm %(A, B)%. Tiếp tuyến tại %(A)% của %(\\left(C_{2}\\right))% cắt %(\\left(C_{1}\\right))% tại %(M(M)% khác %(A))%. Tiếp tuyến tại %(A)% của %(\\left(C_{1}\\right))% cắt %(\\left(C_{2}\\right))% tại điểm %(N(N)% khác %(A))%. Đường thẳng %(M B)% cắt %(\\left(C_{2}\\right))% tại %(P(P)% khác %(B))%. Đường thẳng %(N B)% cắt %(\\left(C_{1}\\right))% tại %(Q(Q)% khác %(B))%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.75,
+        "content": "a) Chứng minh các tam giác %(A M P, A Q N)% đồng dạng.",
+        "question_images": [],
+        "solution": "Tú giác %(A B N P)% nội tiếp %(\\Rightarrow A N B=A P B)%<br>Tú giác %(A B M Q)% nội tiếp %(\\Rightarrow A Q B=A M B)%<br>Suy ra: %(\\triangle A N Q)% đồng dạng %(\\triangle A P M)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9bbbc63e7af69d26fb65b577f90c9bf7.png\" srcset=\"https://docdn.giainhanh.io/media/test/f70979b124c21438cfe8d01c6529d591.png 235w, https://docdn.giainhanh.io/media/test/f7e887229c909c8c6d9789c9420da232.png 500w, https://docdn.giainhanh.io/media/test/6514f595f8616dcf2ecd661c2c1e2e04.png 750w, https://docdn.giainhanh.io/media/test/90fd336017910e0918b1e70dc861d464.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.75,
+        "content": "b) Chứng minh %(M B \\cdot N A^{2}=N B \\cdot M A^{2})%.",
+        "question_images": [],
+        "solution": "AM là tiếp tuyến, MBP là cát tuyến của %(\\left(C_{2}\\right))%<br>- Chứng minh %(M A^{2}=M B . M P)%<br>Tuơng tư AN là tiếp tuyến, %(N B Q)% là cát tuyến của (C1), ta có: %(N A^{2}=N B \\cdot N Q)%<br>\\[\\Rightarrow \\frac{M A^{2}}{N A^{2}}=\\frac{M B}{N B} \\cdot \\frac{M P}{N Q}(2)\\]<br>Từ %((2))%, để có %((1))%, ta chứng minh %(M P=N Q)%.<br>Để chứng minh %(M P=N Q)% ta chứng minh %(\\triangle A M P=\\triangle A Q N)%<br>(AMP và %(A Q N)% đồng dạng, cần chứng minh %(A N=A P)% hay %(A P N=A N P)%)<br>%(\\begin{array}{l}+ \\text { Ta có } P_{1}=A N B=M A B \\text { ( chắn cung } \\mathrm{AB} \\text { của }\\left(\\mathrm{C}_{2}\\right) \\text { ) } \\\\ + \\text { Ta có } P_{2}=N A B \\text { ( chắn cung } \\mathrm{NB} \\text { của }\\left(\\mathrm{C}_{2}\\right) \\text { ) } \\\\ \\left.N A B=A M B \\text { ( chắn cung } \\mathrm{AB} \\text { của }\\left(\\mathrm{C}_{1}\\right)\\right) \\\\ + \\text { Suy ra } P_{1}+P_{2}=M A B+A M B \\\\ \\Rightarrow A P N=A B P \\text { ( Góc ngoài bằng tổng } 2 \\text { góc trong không kề nó) } \\\\ + \\text { Mặt khác } A B P=A N P \\text { ( chắn cung } \\mathrm{AP} \\text { của }\\left(\\mathrm{C}_{2}\\right) \\text { ) } \\\\ \\text { Suy ra: } A P N=A N P \\text {. } \\\\ \\text { Ta có: } A P N=A N P \\Rightarrow \\triangle A N P \\text { cân tai } N \\Rightarrow A N=A P \\\\ \\text { Tam giác AMP và } A Q N \\text { đồng dạng ké́t hợp } A N=A P \\\\ \\Rightarrow \\triangle A M P=\\triangle A Q N \\Rightarrow M P=N Q \\text { (2) } \\\\ \\text { Từ (1) (2) } \\Rightarrow \\frac{M A^{2}}{N A^{2}}=\\frac{M B}{N B} \\text { hay } M B \\cdot N A^{2}=N B \\cdot M A^{2} \\text {. } \\\\end{array})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d53c8b38d06f5255bdbf47d3486e5ca5.png\" srcset=\"https://docdn.giainhanh.io/media/test/0b80ae587235f4382e1a3f188e54d443.png 228w, https://docdn.giainhanh.io/media/test/64e6ab8dc2edd932f086101962681b5c.png 500w, https://docdn.giainhanh.io/media/test/7c93dcdc2119b158084f001887fef68a.png 750w, https://docdn.giainhanh.io/media/test/11bdfd671b6f772b4eae09ef4db0cffd.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    }
+]

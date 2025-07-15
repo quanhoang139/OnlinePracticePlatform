@@ -1,0 +1,57 @@
+[
+    {
+        "title": "1 ",
+        "point": 4.0,
+        "content": "Giải bất phương trình :<br>\\[\\sqrt{7 x+7}+\\sqrt{7 x-6}+2 \\sqrt{49 x^{2}+7 x-42}\\lt 181-14 x\\]",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq \\frac{6}{7})%<br>\\[\\begin{array}{l}B P T \\Leftrightarrow(\\sqrt{7 x+7}+\\sqrt{7 x-6})+\\left[(7 x+7)+(7 x-6)+2 \\sqrt{49 x^{2}+7 x-42}\\right]\\lt 182 \\\\Leftrightarrow[\\sqrt{7 x+7}+\\sqrt{7 x-6}]+[\\sqrt{7 x+7}+\\sqrt{7 x-6}]^{2}-182\\lt 0 \\\\Leftrightarrow[\\sqrt{7 x+7}+\\sqrt{7 x-6}+14][\\sqrt{7 x+7}+\\sqrt{7 x-6}-13]\\lt 0 \\\\Leftrightarrow \\sqrt{7 x+7}+\\sqrt{7 x-6}\\lt 13 \\\\Leftrightarrow \\frac{6}{7} \\leq x\\lt 6\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Cho hệ phương trình :<br>\\[\\left\\{\\begin{array}{l}x y+x^{2}=m(y-1) \\x y+y^{2}=m(x-1)\\end{array}\\right. (1)\\]",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.5,
+        "content": "a) Giải hệ PT với %(m=-1)%",
+        "question_images": [],
+        "solution": "Trừ từng vế PT,ta được:<br>\\[x^{2}-y^{2}=-m(x-y) \\Leftrightarrow(x-y)(x+y+m)=0 \\Leftrightarrow\\left[\\begin{array}{l}y=x \\y=-x-m\\end{array}\\right.\\]<br>%((I) \\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}y=x \\\\ 2 x^{2}-m x+m=0\\end{array} (II)\\right. \\\\ \\left\\{\\begin{array}{l}y=-x-m \\\\ m^{2}+m=0\\end{array} (III)\\right.\\end{array}\\right.)%<br>Với %(m=-1)% ta được:<br>%((I I) \\Leftrightarrow\\left\\{\\begin{array}{l}y=x \\\\ 2 x^{2}+x-1=0\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=y=-1 \\\\ x=y=\\frac{1}{2}\\end{array}\\right.\\right.)%<br>%((I I I) \\Leftrightarrow\\left\\{\\begin{array}{l}y=-x+1 \\\\ 0=0\\end{array}\\right.)% hệ vô số nghiệm<br>Vậy với %(m=-1)% hệ có các nghiệm là: %((-1 ;-1),(1 / 2 ; 1 / 2))% và %(\\left\\{\\begin{array}{l}y=1-x \\\\ x \\in \\mathbb{R}\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.5,
+        "content": "b) Tìm m để hệ PT có nghiệm duy nhất",
+        "question_images": [],
+        "solution": ".-Điều kiện cần: Nhận xét rằng: nếu hệ có nghiệm ( %(\\left.\\mathrm{x}_{0} ; \\mathrm{y}_{0}\\right))% thì cũng có nghiệm ( %(\\mathrm{y}_{0} ; \\mathrm{x}_{0})% ), do đó hệ có nghiệm duy nhất thì %(\\mathrm{x}_{0}=\\mathrm{y}_{0})%<br>(1) %(\\Leftrightarrow 2 x_{0}^{2}-m x_{0}+m=0)% (2)<br>Do %(x_{0})% duy nhất nên (2) có nghiệm duy nhất<br>\\[\\Delta_{(2)}^{\\prime}=0 \\Leftrightarrow m^{2}-8 m=0 \\Leftrightarrow\\left[\\begin{array}{l}m=0 \\m=8\\end{array}\\right.\\]<br>-Điều kiện đủ:<br>Với %(m=0)%, hệ có dạng:<br>%(\\left\\{\\begin{array}{l}x y+x^{2}=0 \\\\ x y+y^{2}=0\\end{array}\\right.)% hệ có vô số nghiệm thoả mãn %(\\mathrm{y}=-\\mathrm{x})%<br>Với %(m=8)%, hệ có dạng:<br>\\[\\left\\{\\begin{array}{l}x y+x^{2}=8(y-1) \\x y+y^{2}=8(x-1)\\end{array} \\Leftrightarrow x=y=2\\right.\\]<br>Vậy với %(m=8)% thì hệ đã cho có nghiệm duy nhất.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 4.0,
+        "content": "Cho tam giác ABC cân tại A . Đường tròn nội tiếp tam giác ABC tiếp xúc với cạnh AB tại T , đường thẳng CT cắt đường tròn tại K khác T . Giả sử K là trung điểm CT và %(C T=6 \\sqrt{2})%. Hãy tính độ dài các cạnh của tam giác ABC .",
+        "question_images": [],
+        "solution": "Gọi L là tiếp điểm của đường tròn với cạnh %(B C)%.Ta có:<br>\\[\\begin{array}{l}C L^{2}=C K \\cdot C T=\\frac{1}{2} C T^{2} \\\\Leftrightarrow \\frac{a^{2}}{4}=36 \\Leftrightarrow a=12 (1)\\end{array}\\]<br>Áp dụng định lý côsin trong tam giác BCT , ta có:<br>\\[\\begin{array}{l}C T^{2}=B T^{2}+B C^{2}-2 B T \\cdot B C \\cos B \\\\Leftrightarrow 72=\\frac{a^{2}}{4}+a^{2}-144 \\cdot \\cos B \\\\Leftrightarrow \\cos B=\\frac{3}{4} (2)\\end{array}\\]<br>Mặt khác , áp dụng định lý côsin trong tam giác %(A B C)%, ta có:<br>\\[b^{2}=c^{2}+a^{2}-2 c a \\cdot \\cos B \\Leftrightarrow \\cos B=\\frac{a}{2 b} (3)\\]<br>Từ (1), (2), (3) ,ta có : %(a=12, b=8, c=8)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b230012f026bb5cbc2d47c2d978f4bbc.png\" srcset=\"https://docdn.giainhanh.io/media/test/3878eb636634564a7d51b6a020a5ae05.png 245w, https://docdn.giainhanh.io/media/test/af1e4df828279bca5c33aa50397aa5ba.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 4.0,
+        "content": "Trong mặt phẳng với hệ toạ độ trực chuẩn Oxy cho tam giác ABC có diện tích: %(S=\\frac{3}{2})%; hai đỉnh %(\\mathrm{A}(2 ;-3), \\mathrm{B}(3 ;-2))% và trọng tâm của tam giác thuộc đường thẳng %((\\mathrm{d}): 3 x-y-8=0)%. Tìm toạ độ đỉnh %(C)%.",
+        "question_images": [],
+        "solution": "Gọi M là trung điểm %(\\mathrm{AB}, \\mathrm{G})% là trọng tâm tam giác %(\\mathrm{ABC}, \\mathrm{H})% là chân đường cao hạ từ C .<br>Ta có: %(M(5 / 2 ;-5 / 2))%<br>%(G(x ; y) \\in(d) \\Rightarrow 3 x-y-8=0)% (1)<br>\\[S_{\\triangle A B C}=3 \\Leftrightarrow \\frac{1}{2} A B \\cdot C H=\\frac{3}{2} \\Leftrightarrow C H=\\frac{3}{A B} \\Leftrightarrow C H=\\frac{3 \\sqrt{2}}{2}\\]<br>Qua G dựng đường thẳng song song với AB cắt CH tại %(\\mathrm{H}_{1})%, Khi đó:<br>\\[\\frac{H H_{1}}{C H}=\\frac{M G}{M C}=\\frac{1}{3} \\Leftrightarrow H H_{1}=\\frac{1}{3} C H=\\frac{\\sqrt{2}}{2}\\]<br>Ta có: %(d_{(G,(A B))}=H H_{1} \\Leftrightarrow \\frac{|x-y-5|}{\\sqrt{1+1}}=\\frac{\\sqrt{2}}{2} \\Leftrightarrow|x-y-5|=1 (2))%<br>Từ (1) và (2) ta có hệ : %(\\left\\{\\begin{array}{l}3 x-y-8=0 \\\\ |x-y-5|=1\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}G(1 ;-5) \\\\ G(2 ;-2)\\end{array}\\right.\\right.)%<br>Từ đẳng thức: %(\\overrightarrow{G C}=2 \\overrightarrow{M G} \\Rightarrow\\left[\\begin{array}{l}C(-2 ;-10) \\\\ C(1 ;-1)\\end{array}\\right.)%<br><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/12938472004d259253a3945c338130da.png\" srcset=\"https://docdn.giainhanh.io/media/test/5d53e0944a2efe639c0f0a543d50c6bb.png 245w, https://docdn.giainhanh.io/media/test/d3d28de17fee674b085523859e8a6a57.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 3.0,
+        "content": "Xét các số dương a,b,c thoả mãn điều kiện: abc=1. Tìm giá trị nhỏ nhất của biểu thức :<br>\\[P=\\frac{1}{a^{2}(b+c)}+\\frac{1}{b^{2}(c+a)}+\\frac{1}{c^{2}(a+b)}\\]",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)^{2}=\\left(\\frac{1}{a \\sqrt{b+c}} \\sqrt{b+c}+\\frac{1}{b \\sqrt{c+a}} \\sqrt{c+a}+\\frac{1}{c \\sqrt{a+b}} \\sqrt{a+b}\\right)^{2} \\\\leq P[2(a+b+c)]\\end{array}\\]<br>Mặt khác, cũng theo BĐT Cô si , thì:<br>\\[\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)^{2} \\geq 3\\left(\\frac{1}{a b}+\\frac{1}{b c}+\\frac{1}{c a}\\right)\\]<br>hay: %(\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)^{2} \\geq \\frac{3(a+b+c)}{a b c}=3(a+b+c))%<br>Từ đó suy ra: %(\\quad P \\geq \\frac{3}{2}, \\quad P_{\\text {min }}=\\frac{3}{2} \\Leftrightarrow a=b=c=1)%",
+        "question_type": "essay"
+    }
+]

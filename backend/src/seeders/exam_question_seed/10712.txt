@@ -1,0 +1,210 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.25,
+        "content": "Cho tam thức %(f(x)=a x^{2}+b x+c(a \\neq 0), f(x)\\lt 0, \\forall x \\in \\mathbb{R})% khi và chỉ khi:",
+        "question_images": [],
+        "labelA": "%(\\left\\{\\begin{array}{l}a\\lt 0 \\\\ \\Delta\\lt 0\\end{array}\\right.)%",
+        "labelB": "%(\\left\\{\\begin{array}{l}a \\leq 0 \\\\ \\Delta\\lt 0\\end{array}\\right.)%",
+        "labelC": "%(\\left\\{\\begin{array}{l}a\\lt 0 \\\\ \\Delta \\geq 0\\end{array}\\right.)%",
+        "labelD": "%(\\left\\{\\begin{array}{l}a\\gt 0 \\\\ \\Delta\\lt 0\\end{array}\\right.)%",
+        "correct_label": "labelA",
+        "solution": "Với %(a \\neq 0)% thì %(a x^{2}+b x+c\\lt 0, \\forall x \\in \\mathbb{R} \\Leftrightarrow\\left\\{\\begin{array}{l}a\\lt 0 \\\\ \\Delta\\lt 0\\end{array}\\right.)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "2 ",
+        "point": 0.25,
+        "content": "Tập nghiệm của bất phương trình %(x^{2}-4 x+4\\gt 0)% là",
+        "question_images": [],
+        "labelA": "%(\\mathbb{R} \\backslash\\{2\\})%",
+        "labelB": "%(\\mathbb{R})%",
+        "labelC": "%((2 ;+\\infty))%",
+        "labelD": "%(\\mathbb{R} \\backslash\\{-2\\})%",
+        "correct_label": "labelA",
+        "solution": "Tam thức bậc 2 : %(f(x)=x^{2}-4 x+4)% có hệ số %(a\\gt 0)% và nghiệm kép %(x=2)% nên %(x^{2}-4 x+4>0, \\forall x \\neq 2)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "3 ",
+        "point": 0.25,
+        "content": "Tập nghiệm của phương trình %(\\sqrt{2 x^{2}-3 x-1}=\\sqrt{2 x-4})% là",
+        "question_images": [],
+        "labelA": "%(S=\\varnothing)%",
+        "labelB": "%(S=\\{1\\})%",
+        "labelC": "%(S=R)%",
+        "labelD": "%(S=\\left\\{1 ; \\frac{1}{2}\\right\\})%",
+        "correct_label": "labelA",
+        "solution": "%(\\sqrt{2 x^{2}-3 x-1}=\\sqrt{2 x-4} \\Leftrightarrow\\left\\{\\begin{array}{l}2 x^{2}-3 x-1=2 x-4 \\\\ 2 x-4 \\geq 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}2 x^{2}-5 x+3=0 \\\\ x \\geq 2\\end{array} \\Leftrightarrow\\right.\\right.)% %(\\left\\{\\begin{array}{l}{\\left[\\begin{array}{l}x=1 \\\\ x=\\frac{3}{2}\\end{array}\\right.} \\\\ x \\geq 2\\end{array}\\right.)%%(\\Rightarrow \\bar{\\exists} x)%<br>Vậy phương trình vô nghiệm.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "4 ",
+        "point": 0.25,
+        "content": "Một bó hoa có 5 hoa hồng trắng, 6 hoa hồng đỏ và 7 hoa hồng vàng. Hỏi có mấy cách chọn lấy ba bông hoa có đủ cả ba màu.",
+        "question_images": [],
+        "labelA": "240.",
+        "labelB": "210.",
+        "labelC": "18.",
+        "labelD": "120.",
+        "correct_label": "labelB",
+        "solution": "Để chọn ba bông hoa có đủ cả ba màu, ta có:<br>- Chọn 1 bông hoa hồng trắng: có 5 cách<br>- Chọn 1 bông hoa hồng đỏ: có 6 cách<br>- Chọn 1 bông hoa hồng vàng: có 7 cách<br>Vậy theo qui tắc nhân ta có %(5 \\times 6 \\times 7=210)% cách.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "5 ",
+        "point": 0.25,
+        "content": "Một nhóm học sinh có 10 người. Cần chọn 3 học sinh trong nhóm để làm 3 công việc là tưới cây, lau bàn và nhặt rác, mỗi người làm một công việc. Số cách chọn là",
+        "question_images": [],
+        "labelA": "%(10^{3})%",
+        "labelB": "%(3 \\times 10)%",
+        "labelC": "%(C_{10}^{3})%",
+        "labelD": "%(A_{10}^{3})%",
+        "correct_label": "labelD",
+        "solution": "Số cách chọn 3 em học sinh là số cách chọn 3 phần tử khác nhau trong 10 phần tử có phân biệt thứ tự nên số cách chọn thỏa yêu cầu là %(A_{10}^{3})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "6 ",
+        "point": 0.25,
+        "content": "Tìm hệ số của đơn thức %(a^{3} b^{2})% trong khai triển nhị thức %((a+2 b)^{5})%.",
+        "question_images": [],
+        "labelA": "160.",
+        "labelB": "80.",
+        "labelC": "20.",
+        "labelD": "40.",
+        "correct_label": "labelD",
+        "solution": "Ta có:<br>%(\\begin{aligned}(a+2 b)^{5} & =a^{5}+5 a^{4}(2 b)+10 a^{3}(2 b)^{2}+10 a^{2}(2 b)^{3}+5 a(2 b)^{4}+(2 b)^{5} \\\\& =a^{5}+10 a^{4} b+40 a^{3} b^{2}+80 a^{2} b^{3}+80 a b^{4}+32 b^{5}\\end{aligned})%<br>Suy ra hệ số của %(a^{3} b^{2})% trong khai triển trên là: 40 .",
+        "question_type": "quiz"
+    },
+    {
+        "title": "7 ",
+        "point": 0.25,
+        "content": "Phương trình đường tròn tâm %(I(2,-3))% và đi qua điểm %(M(-2,0))% là:",
+        "question_images": [],
+        "labelA": "%((C):(x+2)^{2}+(y-3)^{2}=25)%",
+        "labelB": "%((C):(x-2)^{2}+(y+3)^{2}=5)%",
+        "labelC": "%((C):(x+2)^{2}+(y-3)^{2}=5)%",
+        "labelD": "%((C):(x-2)^{2}+(y+3)^{2}=25)%",
+        "correct_label": "labelD",
+        "solution": "Đường tròn tâm %(I)% đi qua %(M)% có bán kính %(R=I M=\\sqrt{(-2-2)^{2}+(0+3)^{2}}=5)%<br>Phương trình đường tròn cần tìm: %((C):(x-2)^{2}+(y+3)^{2}=25)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "8 ",
+        "point": 0.25,
+        "content": "Trong mặt phẳng %(O x y)%, cho elip %((E))% có độ dài trục lớn bằng 12 và độ dài trục bé bằng 6. Phương trình nào sau đây là phương trình chính tắc của elip %((E))%?",
+        "question_images": [],
+        "labelA": "%(\\frac{x^{2}}{144}+\\frac{y^{2}}{36}=1)%",
+        "labelB": "%(\\frac{x^{2}}{9}+\\frac{y^{2}}{36}=1)%",
+        "labelC": "%(\\frac{x^{2}}{36}+\\frac{y^{2}}{9}=1)%",
+        "labelD": "%(\\frac{x^{2}}{36}+\\frac{y^{2}}{9}=0)%",
+        "correct_label": "labelC",
+        "solution": "Phương trình chính tắc của %((E))% có dạng %(\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1 \\quad(a\\gt b>0))%.<br>Theo giả thiết ta có: %(\\left\\{\\begin{array}{l}2 a=12 \\\\ 2 b=6\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a=6 \\\\ b=3\\end{array}\\right.\\right.)%.<br>Vậy phương trình chính tắc của %((E))% là: %(\\frac{x^{2}}{36}+\\frac{y^{2}}{9}=1)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "9 ",
+        "point": 0.25,
+        "content": "Cho %(A)% và %(B)% là hai biến cố của cùng một phép thử có không gian mẫu %(\\Omega)%. Phát biểu nào dưới đây là <strong>sai</strong>?",
+        "question_images": [],
+        "labelA": "Nếu %(A=\\bar{B})% thì %(B=\\bar{A})%.",
+        "labelB": "Nếu %(A \\cap B=\\varnothing)% thì %(A)% và %(B)% đối nhau.",
+        "labelC": "Nếu %(A, B)% đối nhau thì %(A \\cup B=\\Omega)%.",
+        "labelD": "Nếu %(A)% là biến cố không thể thì %(\\bar{A})% là chắc chắn.",
+        "correct_label": "labelB",
+        "solution": "%(A \\cap B=\\varnothing)% thì A và B xung khắc.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "10 ",
+        "point": 0.25,
+        "content": "Từ một hộp chứa ba quả cầu trắng và hai quả cầu đen lấy ngẫu nhiên hai quả. Xác suất để lấy được cả hai quả trắng là:",
+        "question_images": [],
+        "labelA": "%(\\frac{9}{30})%",
+        "labelB": "%(\\frac{12}{30})%",
+        "labelC": "%(\\frac{10}{30})%",
+        "labelD": "%(\\frac{6}{30})%",
+        "correct_label": "labelA",
+        "solution": "Số kết quả của không gian mẫu là %(n_{(\\Omega)}=C_{5}^{2}=10)%.<br>Gọi %(A)% là biến cố : \"Lấy được hai quả màu trắng\".<br>Ta có %(n_{(A)}=C_{3}^{2}=3)%.<br>Vậy %(P_{(A)}=\\frac{3}{10}=\\frac{9}{30})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "11 ",
+        "point": 0.25,
+        "content": "Trong mă̆t phẳng tọa độ %(O x y)% cho ba điểm %(A(-1 ; 0), B(0 ; 3), C(3 ; 0))%. Phương trình đường tròn ngoại tiếp tam giác %(A B C)% là:",
+        "question_images": [],
+        "labelA": "%(x^{2}+y^{2}-2 x-2 y-3=0)%",
+        "labelB": "%(x^{2}+y^{2}+2 x+2 y+3=0)%",
+        "labelC": "%(x^{2}+y^{2}+2 x+2 y-3=0)%",
+        "labelD": "%(x^{2}+y^{2}-x+3 y+3=0)%",
+        "correct_label": "labelA",
+        "solution": "Phương trình đường tròn ngoại tiếp tam giác ABC có dạng:<br>%(x^{2}+y^{2}-2 a x-2 b y+c=0)%<br>Vì %(A, B, C)% đều thuộc đường tròn %(\\Leftrightarrow\\left\\{\\begin{array}{l}(-1)^{2}+0^{2}-2 a(-1)-2 b .0+c=0 \\\\ 0^{2}+3^{2}-2 a .0-2 b .3+c=0 \\\\ 3^{2}+0^{2}-2 a .3-2 b .0+c=0\\end{array}\\right.)%<br>%(\\Leftrightarrow\\left\\{\\begin{array} { r l } { 2 a + c } & { = - 1 } \\\\{ - 6 b + c } & { = - 9 } \\\\{ - 6 a + c } & { = - 9 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}a=1 \\b=1 \\c=-3\\end{array}\\right.\\right.)%<br>Vậy phương trình đường tròn ngoại tiếp tam giác %(A B C)% là: %(x^{2}+y^{2}-2 x-2 y-3=0)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "12 ",
+        "point": 0.25,
+        "content": "Gieo 2 con súc sắc cân đối và đồng chất. Xác suất để tổng số chấm xuất hiện trên hai mặt của 2 con súc sắc đó không vượt quá 5 là",
+        "question_images": [],
+        "labelA": "%(\\frac{2}{3})%",
+        "labelB": "%(\\frac{7}{18})%",
+        "labelC": "%(\\frac{8}{9})%",
+        "labelD": "%(\\frac{5}{18})%",
+        "correct_label": "labelD",
+        "solution": "Phép thử : Gieo hai con súc sắc đồng chất<br>Ta có %(n_{(\\Omega)}=6^{2}=36)%<br>Biến cố %(A)% : \"Được tổng số chấm của hai súc sắc không quá 5 \".<br>Khi đó ta được các trường hợp là %((1 ; 1),(1 ; 2),(1 ; 3),(1 ; 4),(2 ; 1),(2 ; 2),(2 ; 3),(3 ; 1),(3 ; 2) ;(4 ; 1))%<br>%(\\begin{array}{l}\\Rightarrow n_{(A)}=10 \\\\Rightarrow P_{(A)}=\\frac{n_{(A)}}{n_{(\\Omega)}}=\\frac{5}{18} .\\end{array})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "17 ",
+        "point": 0.5,
+        "content": "Cho lục giác %(A B C D E F)% có %(A B \\perp E F ; B C \\perp D E ; A F / / C D ; A F=C D ; A B=4 ; B E=26)%; %(\\mathrm{EF}=16 ; A F=10)%. Gọi %(H)% là giao điểm của %(A B)% và %(E F ; K)% là giao điểm của %(B C)% và %(E D)%, khi đó tứ giác %(H B K E)% là hình chữ nhật, đặt %(x=A H ; x\\gt 0)%. Hãy tính độ dài %(x)%, từ đó tính diện tích lục giác %(A B C D E F)%",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/76a1bfb57f163986e495d8949dc2a8e6.png"
+        ],
+        "solution": "- Xét tam giác %(A H F)% vuông tại %(H)% có: %(H F=\\sqrt{100-x^{2}})% (áp dụng định lí Pytago).<br>- Xét tam giác %(B H E)% vuông tại %(H)% có: %(H B^{2}+H E^{2}=B E^{2})%<br>%(\\begin{array}{l}\\Rightarrow(x+4)^{2}+\\left(\\sqrt{100-x^{2}}+16\\right)^{2}=26^{2} \\Leftrightarrow 4 \\sqrt{100-x^{2}}=38-x \\\\Rightarrow\\left\\{\\begin{array} { l } { 3 8 - x \\geq 0 } \\\\{ 1 6 \\cdot ( 1 0 0 - x ^ { 2 } ) = ( 3 8 - x ) ^ { 2 } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}17 x^{2}-76 x-156=0 \\x \\leq 38\\end{array}\\right.\\right. \\\\Leftrightarrow x=6\\end{array})%<br>Vậy %(A H=x=6)%.<br>- Diện tích tam giác %(A H F)% là:<br>%(S_{A H F}=\\frac{1}{2} A H \\cdot F H=\\frac{1}{2} \\cdot 6 \\cdot \\sqrt{100-6^{2}}=24)%.<br>- Diện tích hình chữ nhật %(H B K E)% là:<br>%(S_{H B K E}=H B \\cdot H E=(6+4) \\cdot\\left(\\sqrt{100-6^{2}}+16\\right)=240)%<br>Vậy diện tích lục giác %(A B C D E F)% là:<br>%(240-2.24=192)% (đơn vị diện tích).<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5ab4a747903a36f9da3921825868a871.png\" srcset=\"https://docdn.giainhanh.io/media/test/7fa48fa6410d579e8c44dbccb2f43dea.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "18 ",
+        "point": 0.5,
+        "content": "Bác Dũng muốn uốn tấm tôn phẳng có dạng hình chữ nhật với bề ngang 32 cm thành một cái máng dẫn nước bằng cách chia tấm tôn đó thành ba phần rồi gấp hai bên lại theo một góc vuông (hình vẽ).<br>Để đảm bảo kỹ thuật, diện tích mặt cắt ngang của máng dẫn nước phải lớn hơn hoặc bằng %(120 \\mathrm{~cm}^{2})%. Máng dẫn nước phải có độ cao ít nhất là bao nhiêu cm?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/e886a566f5b15d4d50358a2a3cfc50d9.png"
+        ],
+        "solution": "Gọi kích thước của mặt cắt ngang là %(x(\\mathrm{~cm}))% và %(32-2 x(\\mathrm{~cm}) \\quad(0\\lt x\\lt 16))%<br>Khi đó diện tích mặt cắt ngang là %(S(x)=x(32-2 x)\\left(\\mathrm{cm}^{2}\\right))%<br>Theo bài ra ta có %(x(32-2 x) \\geq 120 \\Leftrightarrow-2 x^{2}+32 x-120 \\geq 0 \\Leftrightarrow 6 \\leq x \\leq 10)%<br>Vậy máng dẫn nước phải có độ cao ít nhất là 6 cm .",
+        "question_type": "essay"
+    },
+    {
+        "title": "19 ",
+        "point": 0.5,
+        "content": "Cho hình chữ nhật %(A B C D)% có tâm %(I(0 ;-4))%, phương trình cạnh %(A B)% là %(x-2 y+2=0)% và %(A B=2 A D)%. Biết rằng đỉnh %(A)% có tung độ dương. Khi đó, phương trình đường tròn ngoại tiếp tam giác %(I B C)% có tâm là %((m ; n))% và bán kính %(r)%. Giá trị %(T=m+n+r)% là bao nhiêu? (kết quả lấy đến 1 chữ số có nghĩa).",
+        "question_images": [],
+        "solution": "Gọi %(M)% là trung điểm của %(A B)%.<br>Đường thẳng %(I M)% đi qua %(I(0 ;-4))% và vuông góc với %(A B)% nên %(I M)% có phương trình là: %(2 x+y+4=0)%.<br>Do %(M=A B \\cap I M)% nên tọa độ của %(M)% là nghiệm của hệ phương trình sau:<br>%(\\left\\{\\begin{array} { l } { x - 2 y + 2 = 0 } \\\\{ 2 x + y + 4 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=-2 \\y=0\\end{array} \\Rightarrow M(-2 ; 0)\\right.\\right. \\text {. })%<br>Gọi %(A(2 t-2 ; t) \\in A B,(t\\gt 0))%.<br>Do %(M)% là trung điểm của %(A B)% nên %(B(-2-2 t ;-t))%<br>Do %(I)% là trung điểm của %(B D)% nên %(D(2 t+2 ; t-8))%<br>Theo bài ra ta có: %(A B=2 A D \\Leftrightarrow A B^{2}=4 A D^{2} \\Leftrightarrow(-4 t)^{2}+(-2 t)^{2}=4\\left[4^{2}+(-8)^{2}\\right])%<br>%(\\begin{array}{l}\\Leftrightarrow 20 t^{2}=320 \\\\Leftrightarrow t^{2}=16 \\\\Leftrightarrow t= \\pm 4\\end{array})%<br>Kết hợp điều kiện ta được điểm %(A(6 ; 4))%.<br>Khi đó : %(B(-10 ;-4) ; C(-6 ;-12) ; D(10 ;-4))%.<br>Gọi phương trình đường tròn ngoại tiếp tam giác %(I B C)% là:<br>%(x^{2}+y^{2}+2 a x+2 b y+c=0,\\left(a^{2}+b^{2}-c>0\\right) .)%<br>Thay tọa độ các điểm %(I ; B ; C)% vào phương trình trên ta có hệ phương trình sau:<br>%(\\left\\{\\begin{array}{c}-8 b+c=-16 \\\\ -20 a-8 b+c=-116 \\\\ -12 a-24 b+c=-180\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a=5 \\\\ b=\\frac{13}{2} \\\\ c=36\\end{array}\\right.\\right.)% (thỏa mãn).<br>Vậy phương trình đường tròn ngoại tiếp tam giác %(I B C)% là:<br>%(x^{2}+y^{2}+10 x+13 y+36=0)% với tâm là %(\\left(-5 ;-\\frac{13}{2}\\right))% và bán kính %(r=\\frac{5 \\sqrt{5}}{2})%.<br>Vậy %(T=m+n+r \\approx-5.9)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0caf5259bf96cf97c539ab26bf3e78a9.png\" srcset=\"https://docdn.giainhanh.io/media/test/8eed534c02a5c27f933df20000527c71.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "20 ",
+        "point": 0.5,
+        "content": "Cho tập hợp %(M=\\{1 ; 2 ; 3 ; \\ldots . ; 20\\})%, có bao nhiêu cách chọn bốn số khác nhau thuộc %(M)% sao cho tổng của chúng chia hết cho 3.",
+        "question_images": [],
+        "solution": "Trong các số tự nhiên thuộc %(M=\\{1 ; 2 ; 3 ; \\ldots . ; 20\\})%, gọi :<br>%(A=\\{3 ; 6 ; 9 ; 12 ; 15 ; 18\\})% : là các số chia hết cho 3.<br>%(B=\\{1 ; 4 ; 7 ; 10 ; 13 ; 16 ; 19\\})% : là các số chia hết cho 3 dư 1.<br>%(C=\\{2 ; 5 ; 8 ; 11 ; 14 ; 17 ; 20\\})% : là các số chia hết cho 3 dư 2.<br>Để 4 số được viết có tổng chia hết cho 3 thì có các trường hợp sau:<br>%(\\mathrm{TH} 1: 4)% số lấy ra từ tập %(\\mathrm{A}: C_{6}^{4})%.<br>%(\\mathrm{TH} 2: 1)% số lấy ra từ tập %(\\mathrm{A}, 3)% lấy ra từ tập %(\\mathrm{B}: \\mathrm{C}_{6}^{1} \\cdot C_{7}^{3})%<br>%(\\mathrm{TH} 3: 1)% số lấy ra từ tập %(\\mathrm{A}, 3)% lấy ra từ tập %(\\mathrm{C}: C_{6}^{1} \\cdot C_{7}^{3})%<br>%(\\mathrm{TH} 4: 2)% số lấy ra từ tập %(\\mathrm{A}, 1)% lấy ra từ tập %(\\mathrm{B}, 1)% lấy ra từ tập %(\\mathrm{C}: C_{6}^{2} \\cdot C_{7}^{1} \\cdot C_{7}^{1})%<br>%(\\mathrm{TH} 5: 2)% số lấy ra từ tập %(\\mathrm{B}, 2)% số lấy ra từ tập %(\\mathrm{C}: C_{7}^{2} \\cdot C_{7}^{2})%<br>Vậy có %(C_{6}^{4}+C_{6}^{1} \\cdot C_{7}^{3}+C_{6}^{1} \\cdot C_{7}^{3}+C_{6}^{2} \\cdot C_{7}^{1} \\cdot C_{7}^{1}+C_{7}^{2} \\cdot C_{7}^{2}=1611)% cách thỏa yêu bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "21 ",
+        "point": 0.5,
+        "content": "Từ một hộp chứa 12 quả cầu, trong đó có 8 quả màu đỏ, 3 quả màu xanh và 1 quả màu vàng, lấy ngẫu nhiên 3 quả. Tính xác suất để 3 quả lấy ra có đúng hai màu.",
+        "question_images": [],
+        "solution": "Phép thử: \"Lấy ngẫu nhiên 3 quả cầu trong 12 quả cầu\"<br>%(\\Rightarrow)% Số phần tử của không gian mẫu là %(n(\\Omega)=C_{12}^{3})%<br>Gọi %(A)% là biến cố: \" Ba quả lấy ra có đúng hai màu\"<br>Suy ra biến cố đối của %(A)% là %(\\bar{A})% : \"Ba quả lấy ra có cùng màu hoặc có đủ ba màu\"<br>TH 1 : Ba quả lấy ra có cùng màu %(\\Rightarrow)% có %(C_{8}^{3}+C_{3}^{3}=57)% cách chọn.<br>TH 2 : Ba quả lấy ra có đủ ba màu %(\\Rightarrow)% có %(C_{8}^{1} \\cdot C_{3}^{1} \\cdot 1=24)% cách chọn.<br>%(\\Rightarrow)% Số phần tử của %(\\bar{A})% là %(n(\\bar{A})=57+24=81 \\Rightarrow P(\\bar{A})=\\frac{n(\\bar{A})}{n(\\Omega)}=\\frac{81}{220})%<br>%(\\Rightarrow P(A)=1-P(\\bar{A})=\\frac{139}{220})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "22 ",
+        "point": 0.5,
+        "content": "Trong mặt phẳng tọa độ %(O x y)% cho điểm %(M(1 ; 2))% và đường thẳng %(\\Delta: 2 x-y-5=0)%, %(A)% là điểm thuộc đường thẳng %(\\Delta)% sao cho độ dài %(M A)% ngắn nhất. Diện tích %(\\triangle M A O)% bằng..",
+        "question_images": [],
+        "solution": "Gọi %(H)% là hình chiếu vuông góc của điểm %(M)% lên đường thẳng %(\\Delta)%.<br>Đường thẳng đi qua điểm %(M(1 ; 2))% và vuông góc với đường thẳng %(\\Delta)% có phương trình là: %(x+2 y-5=0)%.<br>Tọa độ điểm %(H)% là nghiệm của hệ phương trình: %(\\left\\{\\begin{array}{l}2 x-y-5=0 \\\\ x+2 y-5=0\\end{array} \\Rightarrow H(3 ; 1)\\right.)%.<br>Xét tam giác %(\\triangle A M H)% vuông tại %(H)%, ta có %(M A \\geq M H)% suy ra độ dài %(M A)% ngắn nhất khi %(A \\equiv H)%, vậy %(A(3 ; 1))%.<br>Khi đó ta có: %(\\overrightarrow{O A}=(3 ; 1) \\Rightarrow|\\overrightarrow{O A}|=\\sqrt{10})%.<br>Đường thẳng %(O A)% có phương trình là: %(x-3 y=0)%.<br>Ta có khoảng cách từ điểm %(M)% đến đường thẳng %(O A)% là:<br>%(d(M ; O A)=\\frac{|1-3.2|}{\\sqrt{10}}=\\frac{5}{\\sqrt{10}})%.<br>Vậy diện tích tam giác %(\\triangle M A O)% là:<br>%(S=\\frac{1}{2} d(M ; O A) \\cdot O A=\\frac{1}{2} \\cdot \\frac{5}{\\sqrt{10}} \\cdot \\sqrt{10}=\\frac{5}{2})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/274021c27cea91d47a06c023a2584ef0.png\" srcset=\"https://docdn.giainhanh.io/media/test/d39a043b7a11163ae76be7a0c4c92b7a.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    }
+]

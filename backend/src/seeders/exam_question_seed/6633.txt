@@ -1,0 +1,96 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "Tính",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) %(A=\\lim _{x \\rightarrow-2} \\frac{x^{3}+x^{2}-5 x-6}{2 x^{2}+5 x+2})%.",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} A & =\\lim _{x \\rightarrow-2} \\frac{x^{3}+x^{2}-5 x-6}{2 x^{2}+5 x+2} \\\\ & =\\lim _{x \\rightarrow-2} \\frac{(x+2)\\left(x^{2}-x-3\\right)}{(x+2)(2 x+1)}=\\lim _{x \\rightarrow-2} \\frac{x^{2}-x-3}{2 x+1}=-1 .\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) %(B=\\lim _{x \\rightarrow+\\infty}\\left(\\sqrt{25 x^{2}+10 x}-5 x\\right))%.",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} B & =\\lim _{x \\rightarrow+\\infty}\\left(\\sqrt{25 x^{2}+10 x}-5 x\\right) . \\\\ & =\\lim _{x \\rightarrow+\\infty} \\frac{\\left(25 x^{2}+10 x\\right)-25 x^{2}}{\\sqrt{25 x^{2}+10 x}+5 x}=\\lim _{x \\rightarrow+\\infty} \\frac{10}{\\sqrt{25+\\frac{10}{x}}+5}=1 .\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) %(C=\\lim _{x \\rightarrow(-2)^{-}} \\frac{\\sqrt{x^{2}-4}}{x^{2}+2 x})%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text {} C=\\lim _{x \\rightarrow-2^{-}} \\frac{\\sqrt{x^{2}-4}}{x^{2}+2 x} . \\\\ =\\lim _{x \\rightarrow(-2)^{-}} \\frac{\\sqrt{2-x} \\cdot \\sqrt{-2-x}}{-x(-2-x)}=\\lim _{x \\rightarrow(-2)^{-}} \\frac{\\sqrt{2-x}}{-x \\sqrt{-2-x}}=+\\infty\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 1.0,
+        "content": "Xét tính liên tục của hàm số sau tại %(x_{o}=3)%.<br>\\[y=f(x)=\\left\\{\\begin{array}{ll}\\frac{\\sqrt{x^{2}-8}-1}{x-3} & (x\\gt 3) \\\\3 x-6 & (x \\leq 3)\\end{array}\\right.\\]",
+        "question_images": [],
+        "solution": "- %(f(3)=3)%.<br>- %(\\lim _{x \\rightarrow 3^{-}} f(x)=\\lim _{x \\rightarrow 3^{-}}(3 x-6)=3)%.<br>- %(\\lim _{x \\rightarrow 3^{+}} f(x)=\\lim _{x \\rightarrow 3^{+}} \\frac{\\sqrt{x^{2}-8}=1}{x-3}=\\lim _{x \\rightarrow 3^{+}} \\frac{x+3}{\\sqrt{x^{2}-8}+1}=3)%.<br>- %(\\lim _{x \\rightarrow 3^{+}} f(x)=\\lim _{x \\rightarrow 3^{-}} f(x)=f(3))% nên %(f)% liên tục tại %(x_{o}=3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 1.0,
+        "content": "Cho hàm số %(y=\\sqrt{1-x^{2}})%. Chứng minh rằng: %(y \\cdot y^{\\prime}+x=0 ; \\forall x \\in(-1 ; 1))%.",
+        "question_images": [],
+        "solution": "- %(y^{\\prime}=\\frac{\\left(1-x^{2}\\right)^{\\prime}}{2 \\sqrt{1-x^{2}}}=\\frac{-x}{\\sqrt{1-x^{2}}} \\Rightarrow y \\cdot y^{\\prime}=\\sqrt{1-x^{2}} \\cdot\\left(\\frac{-x}{\\sqrt{1-x^{2}}}\\right)=-x \\Rightarrow y \\cdot y^{\\prime}+x=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 1.0,
+        "content": "Tìm phương trình tiếp tuyến %((D))% của đồ thị %((C): y=\\frac{2 x^{2}-3 x+1}{x+2})% biết %((D))% vuông góc với đường thẳng %((d): \\mathrm{y}=-3 x+5)%.",
+        "question_images": [],
+        "solution": "- %(y^{\\prime}=\\frac{2 x^{2}+8 x-7}{(x+2)^{2}})%<br>- Gọi %(x_{o})% là hoành độ tiếp điểm. Từ gt: %(f^{\\prime}\\left(x_{o}\\right)=\\frac{1}{3} \\Leftrightarrow\\left[\\begin{array}{l}x_{o}=1 \\\\ x_{o}=-5\\end{array}\\right.)%.<br>- %(x_{o}=1: ~~)% PTTT %(y=\\frac{x-1}{3})%.<br>- %(x_{o}=-5:)% PTTT %(y=\\frac{x-61}{3})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5:",
+        "group_content": "Cho hình chóp %(S . A B C D)% có đáy là hình vuông tâm %(O)%, cạnh %(A E=a ; S O \\perp)% %(m p(A B C D) ; S O=\\frac{a \\sqrt{3}}{2})%. Gọi %(I)% là trung điểm của cạnh %(C D ; H)% là hình chiếu của %(O)% lên đường thẳng %(S I)%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng: %(B D \\perp m p(S A C))%.",
+        "question_images": [],
+        "solution": "- %(A B C D)% là hình vuông nên %(B D \\perp A C)%<br>- %(S O \\perp(A B C D))% nên %(B D \\perp S O)%.<br>- Vậy %(B D \\perp(S A C))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/bf0476d8d722c56f5955d6550b0ad3de.png\" srcset=\"https://docdn.giainhanh.io/media/test/1cc17a94c6f6965330beed4d3e196aa2.png 199w, https://docdn.giainhanh.io/media/test/2c3627db545697fa9bafc1ae0e5e5ce0.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Chứng minh rằng: %(m p(H O D) \\perp m p(S C D))%.",
+        "question_images": [],
+        "solution": "- %(O H \\perp S I(g t))%.<br>- %(C D \\perp(S O I) \\Rightarrow O H \\perp C D)%.<br>- Vậy %(O H \\perp(S C D))%. Suy ra %((H O D) \\perp(S C D))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Tính góc giữa đường thẳng %(O D)% và mặt phẳng %((S C D))%.",
+        "question_images": [],
+        "solution": "- %(O H \\perp(S C D))% nên %(\\varphi=\\widehat{O D H})%.<br>- %(\\triangle O H D: \\sin \\varphi=\\frac{O H}{O D}=\\frac{\\sqrt{6}}{4} \\Rightarrow \\varphi=\\arcsin \\frac{\\sqrt{6}}{4})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "d) ",
+        "point": 1.0,
+        "content": "d) Trên cạnh %(S D)%, lấy điểm %(L)% sao cho %(L D=2 L S)%. Gọi %(M)% là giao điểm của %(S O)% và %(B L ; G)% là trọng tâm %(\\triangle M S I)%. Tính khoảng cách từ điểm %(G)% đến mặt phẳng %((S B C))%.",
+        "question_images": [],
+        "solution": "- Từ gt suy ra %(M)% trung điểm %(S O)%. Gọi %(N)% là trung điểm %(S I)%.<br>- Vì %(M N / /(S B C))% nên %(d(G ;(S B C))=d(M ;(S B C))=\\frac{1}{2} d(O ;(S B C)))%.<br>- Gọi %(J)% trung điểm %(B C)%. Kẻ %(O K \\perp S J \\Rightarrow d(O ;(S B C))=O K)%.<br>- %(\\triangle S O J: \\frac{1}{O K^{2}}=\\frac{1}{O S^{2}}+\\frac{1}{O J^{2}}=\\frac{16}{3 a^{2}})%.- %(d(G ;(S B C))=\\frac{\\sqrt{3} \\cdot a}{8})%.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,208 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.25,
+        "content": "Đo chiều cao (tính bằng cm) của 300 học sinh một trường THPT thu được kết quả như sau. Tần số tích lũy của nhóm %([154 ; 158))% là",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/a3abe3ead00aedd1e9743d2d33ced7f6.png"
+        ],
+        "labelA": "65 .",
+        "labelB": "125",
+        "labelC": "156 .",
+        "labelD": "117 .",
+        "correct_label": "labelB",
+        "solution": "Xét mẫu dữ liệu ghép nhóm với tần số các nhóm lần lượt tương ứng là %(n_{i}(i=1,2,3, \\ldots))%.<br>Khi đó tần số tích lũy của nhóm %(k)% là %(c f_{k}=n_{1}+n_{2}+\\cdots+n_{k})%.<br>Nhóm %([154 ; 158))% là nhóm thứ 2 nên có tần số tích lũy là %(c f_{2}=n_{1}+n_{2}=60+65=125)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "2 ",
+        "point": 0.25,
+        "content": "Cho %(A)% và %(B)% là hai biến cố xung khắc. Khẳng định nào sau đây là sai",
+        "question_images": [],
+        "labelA": "%(P(A \\cup B)=P(A)+P(B))%.",
+        "labelB": "%(A \\cup B=\\Omega)%.",
+        "labelC": "%(P(A \\cup B)=P(A)+P(B)-P(A B))%.",
+        "labelD": "%(A \\cap B=\\phi)%.",
+        "correct_label": "labelB",
+        "solution": "Nếu %(A)% và %(B)% là hai biến cố xung khắc thì ta luôn có %(P(A \\cup B)=P(A)+P(B))% nên A đúng.<br>%(A \\cap B=\\phi)% và %(P(A B)=0)% nên D đúng.<br>Khi đó khẳng định %(P(A \\cup B)=P(A)+P(B)-P(A B)=P(A)+P(B))% nên C đúng. và %(A \\cup B=\\Omega)% là khẳng định sai.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "3 ",
+        "point": 0.25,
+        "content": "Một đội tình nguyện gồm 9 học sinh khối 10 và 7 học sinh khối 11. Chọn ra ngẫu nhiên 3 người trong đội. Tính xác suất của biến cố \"Cả 3 người được chọn học cùng một khối\".<br>%(\\frac{17}{119})%.",
+        "question_images": [],
+        "labelA": "%(\\frac{1}{16})%.",
+        "labelB": "%(\\frac{3}{20})%.",
+        "labelC": "%(\\frac{17}{80})%.",
+        "labelD": "Gọi %(A)% là biến cố \"cả 3 học sinh được chọn đều thuộc khối 10 \" và %(B)% là biến cố \"cả 3 học sinh được chọn đều thuộc khối 11 \".<br>Khi đó %(A \\cup B)% là biến cố \"cả 3 người được chọn học cùng một khối\".<br>Do %(A)% và %(B)% là hai biến cố xung khắc nên %(P(A \\cup B)=P(A)+P(B))%.<br>Ta thấy %(P(A)=\\frac{C_{9}^{3}}{C_{16}^{3}})% và %(P(B)=\\frac{C_{7}^{3}}{C_{16}^{3}})%, nên %(P(A \\cup B)=\\frac{C_{9}^{3}+C_{7}^{3}}{C_{16}^{3}}=\\frac{17}{80})%.",
+        "correct_label": "labelD",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "4 ",
+        "point": 0.25,
+        "content": "Cho %(a\\gt 0, m, n \\in \\mathbb{R})%. Khẳng định nào sau đây đúng?",
+        "question_images": [],
+        "labelA": "%(\\left(a^{m}\\right)^{n}=\\left(a^{n}\\right)^{m})%.",
+        "labelB": "%(a^{m}+a^{n}=a^{m+n})%.",
+        "labelC": "%(a^{m} \\cdot a^{n}=a^{m-n})%.",
+        "labelD": "%(\\frac{a^{m}}{a^{n}}=a^{n-m})%.",
+        "correct_label": "labelA",
+        "solution": "%(\\left(a^{m}\\right)^{n}=a^{m, n}=a^{n, m}=\\left(a^{n}\\right)^{m} .)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "5 ",
+        "point": 0.25,
+        "content": "Với %(a)% là số thực dương tùy ý, %(\\log _{3} a^{\\frac{1}{5}})% bằng",
+        "question_images": [],
+        "labelA": "%(\\frac{1}{5} \\log _{3} a)%.",
+        "labelB": "%(\\frac{5}{3} \\log _{3} a)%.",
+        "labelC": "%(5 \\log _{3} a)%.",
+        "labelD": "%(\\frac{3}{5} \\log _{3} a)%.",
+        "correct_label": "labelA",
+        "solution": "Theo tính chất lôgarit của một lũy thừa ta có: %(\\log _{3} a^{\\frac{1}{5}}=\\frac{1}{5} \\log _{3} a)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "6 ",
+        "point": 0.25,
+        "content": "Trong các hàm số sau, hàm số nào luôn nghịch biến trên tập xác định của nó?",
+        "question_images": [],
+        "labelA": "%(y=\\left(\\frac{1}{2}\\right)^{2})%.",
+        "labelB": "%(y=\\log x)%.",
+        "labelC": "%(y=\\left(\\frac{2}{3}\\right)^{x})%.",
+        "labelD": "%(y=2^{x})%.",
+        "correct_label": "labelC",
+        "solution": "Ta thấy hàm số %(y=\\left(\\frac{2}{3}\\right)^{x})% là hàm số mũ có có tập xác định là %(\\mathbb{R})% cơ số %(a=\\frac{2}{3}\\lt 1)% nên nghịch biến trên tập xác định của nó.<br>Ngoài ra ta có thể loại các đáp án khác bằng cách giải thích cụ thể đặc điểm các hàm đó như sau:<br>Đáp án A loại vì: Hàm số %(y=\\left(\\frac{1}{2}\\right)^{2})% là hàm hằng nên không nghịch biến cũng không đồng biến.<br>Đáp án B loại vì: Hàm số %(y=\\log x)% là hàm số logarit có tập xác định là %(D=(0 ;+\\infty))% có cơ số %(a=10\\gt 1)% nên luôn đồng biến trên tập xác định của nó.<br>Đáp án D loại vì: hàm số %(y=2^{x})% là hàm số mũ có tập xác định là %(\\mathbb{R})% có cơ số %(a=2>1)% nên đồng biến trên tập xác định của nó.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "7 ",
+        "point": 0.25,
+        "content": "Bất phương trình %(2^{x-3}\\lt 4)% có tập nghiệm là",
+        "question_images": [],
+        "labelA": "%((-4 ; 5))%.",
+        "labelB": "%((-3 ; 5))%.",
+        "labelC": "%((-\\infty ; 5))%.",
+        "labelD": "%((-\\infty ; 3))%.",
+        "correct_label": "labelC",
+        "solution": "Ta có %(2^{x-3}\\lt 4 \\Leftrightarrow x-3\\lt \\log _{2} 4 \\Leftrightarrow x-3\\lt 2 \\Leftrightarrow x\\lt 5)%.Vậy tập nghiệm của bất phương trình là %((-\\infty ; 5))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "8 ",
+        "point": 0.25,
+        "content": "Cho hình lập phương %(A B C D \\cdot A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime})%. Góc giữa hai đường thẳng %(B A^{\\prime})% và %(C D)% bằng",
+        "question_images": [],
+        "labelA": "%(45^{\\circ})%.",
+        "labelB": "%(60^{\\circ})%.",
+        "labelC": "%(30^{\\circ})%.",
+        "labelD": "%(90^{\\circ})%.",
+        "correct_label": "labelA",
+        "solution": "Có %(C D / / A B \\Rightarrow\\left(B A^{\\prime}, C D\\right)=\\left(B A^{\\prime}, B A\\right)=A B A^{\\prime}=45^{\\circ})%.<br>Vậy góc giữa hai đường thẳng %(B A^{\\prime})% và %(C D)% bằng %(45^{\\circ})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "9 ",
+        "point": 0.25,
+        "content": "Cho hình lập phương %(A B C D \\cdot A_{1} B_{1} C_{1} D_{1})%. Đường thẳng %(D C_{1})% vuông góc với mặt phẳng nào sau đây?",
+        "question_images": [],
+        "labelA": "%(\\left(B B_{1} D_{1} D\\right))%.",
+        "labelB": "%((A B C D))%.",
+        "labelC": "%(\\left(A A_{1} D_{1} D\\right))%.",
+        "labelD": "%(\\left(B C D_{1} A_{1}\\right))%.",
+        "correct_label": "labelD",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "10 ",
+        "point": 0.25,
+        "content": "Cho hình chóp %(S . A B C D)% có đáy %(A B C)% là tam giác vuông cân tại %(B, S A)% vuông góc với đáy. Gọi %(M)% là trung điểm %(A C)%. Khẳng định nào sau đây <strong>sai</strong>?",
+        "question_images": [],
+        "labelA": "%(B M \\perp A C)%.",
+        "labelB": "%((S B M) \\perp(S A C))%.",
+        "labelC": "%((S A B) \\perp(S B C))%.",
+        "labelD": "%((S A B) \\perp(S A C))%.",
+        "correct_label": "labelD",
+        "solution": "Ta có: %(\\left.\\begin{array}{l}B C \\perp D C \\\\ B C \\perp C C_{1}\\end{array}\\right\\} \\Rightarrow B C \\perp\\left(D C C_{1} D_{1}\\right))% mà %(D C_{1} \\subset\\left(D C C_{1} D_{1}\\right))% suy ra %(B C \\perp D C_{1} \\quad)% (1).<br>Mặt khác %(C D_{1} \\perp D C_{1} \\quad)% (2).<br>Từ (1) và (2) suy ra %(D C_{1} \\perp\\left(B C D_{1} A_{1}\\right))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/2099c69e41efe7b900bd1b4a3b4ae03d.png\" srcset=\"https://docdn.giainhanh.io/media/test/1fe165bc826e53b8b9eb2219d395669e.png 245w, https://docdn.giainhanh.io/media/test/d095c925ce5e74f85dac864939fa088f.png 500w\" width=\"500\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "11 ",
+        "point": 0.25,
+        "content": "Cho hàm số %(f(x))% liên tục tại %(x_{0})%. Đạo hàm của %(f(x))% tại %(x_{0})% là",
+        "question_images": [],
+        "labelA": "%(\\lim _{h \\rightarrow 0} \\frac{f\\left(x_{0}+h\\right)-f\\left(x_{0}-h\\right)}{h})% (nếu tồn tại giới hạn hữu hạn).",
+        "labelB": "%(f\\left(x_{0}\\right))%.",
+        "labelC": "%(\\frac{f\\left(x_{0}+h\\right)-f\\left(x_{0}\\right)}{h})%.",
+        "labelD": "%(\\lim _{h \\rightarrow 0} \\frac{f\\left(x_{0}+h\\right)-f\\left(x_{0}\\right)}{h})% (nếu tồn tại giới hạn hữu hạn).",
+        "correct_label": "labelD",
+        "solution": "Định nghĩa %(f^{\\prime}\\left(x_{0}\\right)=\\lim _{x x \\rightarrow 0} \\frac{f\\left(x_{0}+\\Delta x\\right)-f\\left(x_{0}\\right)}{\\Delta x})% hay %(f^{\\prime}\\left(x_{0}\\right)=\\lim _{h \\rightarrow 0} \\frac{f\\left(x_{0}+h\\right)-f\\left(x_{0}\\right)}{h})% (nếu tồn tại giới hạn hữu hạn).",
+        "question_type": "quiz"
+    },
+    {
+        "title": "12 ",
+        "point": 0.25,
+        "content": "Tính đạo hàm của hàm số %(f(x)=\\frac{1}{4} x^{4}+x^{3}-2 x+1)% tại điểm %(x=-1)%.",
+        "question_images": [],
+        "labelA": "%(f^{\\prime}(-1)=4)%.",
+        "labelB": "%(f^{\\prime}(-1)=3)%.",
+        "labelC": "%(f^{\\prime}(-1)=1)%.",
+        "labelD": "%(f^{\\prime}(-1)=0)%.",
+        "correct_label": "labelD",
+        "solution": "Ta có: %(f^{\\prime}(x)=x^{3}+3 x^{2}-2)%.<br>Suy ra %(f^{\\prime}(-1)=(-1)^{3}+3(-1)^{2}-2=0)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "17 ",
+        "point": 0.5,
+        "content": "Một người gửi tiết kiệm 700 triệu đồng vào một ngân hàng với lãi suất %(0,5 \\%)% /tháng theo hình thức lãi kép. Kể từ lúc gửi cứ sau 1 tháng anh ta lại rút ra 10 triệu để chi tiêu (tháng cuối cùng nếu tài khoản không đủ 10 triệu thì rút hết). Hỏi sau thời gia bao nhiêu tháng kể từ ngày gửi tiền, tài khoản tiền gửi của người đó về 0 đồng? (Giả sử lãi suất không thay đổi trong suốt quá trình người đó gửi tiết kiệm).",
+        "question_images": [],
+        "solution": "Cuối tháng 1 , số tiền còn lại là: %(700(1+0,5 \\%)-10)% (triệu đồng).<br>Cuối tháng 2 , số tiền còn lại là: %([700(1+0,5 \\%)-10](1+0,5 \\%)-10=700(1+0,5 \\%)^{2}-10(1+0,5 \\%)-10)% (triệu đồng).<br>Cuối tháng thứ %(n)%, số tiền còn lại là:<br>\\[700(1+0,5 \\%)^{n}-10(1+0,5 \\%)^{n-1}-10(1+0,5 \\%)^{n-2}-\\ldots-10=700(1+0,5 \\%)^{n}-10 \\frac{(1+0,5 \\%)^{n}-1}{0,5 \\%}\\]<br>(triệu đồng).<br>Tài khoản tiền gửi về 0 đồng nên ta có %(700 .(1+0,5 \\%)^{n}-10 \\cdot \\frac{(1+0,5 \\%)^{n}-1}{0,5 \\%}=0 \\Rightarrow n \\approx 86,37)%.<br>Vậy sau 87 tháng thì tài khoản về 0 đồng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "18 ",
+        "point": 0.5,
+        "content": "Cho hàm số %(f(x)=\\sin 2 x)%. Hỏi có bao nhiêu điểm phân biệt trên đường tròn lượng giác biểu diễn các nghiệm của phương trình %(\\sqrt{3} f(x)-\\frac{1}{2} f^{\\prime}(x)=2)% ?",
+        "question_images": [],
+        "solution": "Ta có %(f^{\\prime}(x)=2 \\cos 2 x)%, suy ra %(\\sqrt{3} f(x)-\\frac{1}{2} f^{\\prime}(x)=2 \\Leftrightarrow \\sqrt{3} \\sin 2 x-\\cos 2 x=2)%<br>\\[\\Leftrightarrow \\sin \\left(2 x-\\frac{\\pi}{6}\\right)=1 \\Leftrightarrow 2 x-\\frac{\\pi}{6}=\\frac{\\pi}{2}+k 2 \\pi \\Leftrightarrow x=\\frac{\\pi}{3}+k \\pi, k \\in \\mathbb{Z} .\\]<br>Vậy có hai điểm trên đường tròn lượng giác biểu diễn cho các nghiệm của phương trình đã cho.",
+        "question_type": "essay"
+    },
+    {
+        "title": "19 ",
+        "point": 0.5,
+        "content": "Một viên đạn được bắn lên trời từ một vị trí cách mặt đất 100 m theo phương thẳng đứng với vận tốc ban đầu %(v_{0}=49 \\mathrm{~m} / \\mathrm{s})% (bỏ qua sức cản của không khí). Hỏi khi viên đạn đạt độ cao lớn nhất và sẽ bắt đầu rơi thì viên đạn cách mặt đất bao nhiêu mét? Biết %(g=-9,8 \\mathrm{~m} / \\mathrm{s}^{2})%.",
+        "question_images": [],
+        "solution": "Chọn trục %(O y)% theo phương thẳng đứng, chiều dương hướng từ mặt đất lên trời, gốc %(O)% ở mặt đất và %(A)% là vị trí viên đạn được bắn lên, gốc thời gian (tức lúc %(t=0)% ) được tính từ vị trí %(A)%; khi đó chuyển động của viên đạn là chuyển động biến đổi đều với vận tốc ban đầu %(v_{0}=49 \\mathrm{~m} / \\mathrm{s})% và với gia tốc %(g=-9,8 \\mathrm{~m} / \\mathrm{s}^{2})%.<br>(Gia tốc nhận giá trị âm vì vectơ gia tốc ngược chiều dương của trục %(O y)% ).<br>Phương trình chuyển động của viên đạn là %(y=100+49 t-4,9 t^{2})%.<br>Ta có %(v(t)=y^{\\prime}=49-9,8 t)%.Viên đạn đạt độ cao lớn nhất và sẽ bắt đầu rơi khi %(v(t)=0 \\Leftrightarrow 49-9,8 t=0 \\Leftrightarrow t=5(\\mathrm{~s}))%.<br>Khi đó viên đạn cách mặt đất là %(y(5)=100+49.5-4,9.5^{2}=222,5(\\mathrm{~m}))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "20 ",
+        "point": 0.5,
+        "content": "Cho hình chóp %(S . A B C D)% có đáy %(A B C D)% là hình vuông cạnh bằng %(a)%. Gọi %(I)% là trung điểm của đoạn thẳng %(C D)%. Biết góc giữa %(S A)% và mặt phẳng %((A B C D))% bằng %(45^{\\circ})% và %(S A=S B=S I)%. Khoảng cách giữa hai đường thẳng %(A B)% và %(S C)% bằng bao nhiêu?",
+        "question_images": [],
+        "solution": "Gọi %(H)% là hình chiếu vuông góc của %(S)% lên mặt phẳng %((A B C D))%.<br>Vì %(S A=S B=S I)% nên %(H)% là tâm đường tròn ngoại tiếp tam giác %(A B I)%.<br>Suy ra %(d(A B, S C)=d(A B,(S C D))=d(K,(S C D)))%.<br>Ta có %(A B=a, A I=B I=\\frac{a \\sqrt{5}}{2}, S_{A B I}=\\frac{1}{2} I K \\cdot A B=\\frac{1}{2} \\cdot a^{2})%.<br>Gọi %(R)% là bán kính đường tròn ngoại tiếp tam giác %(A B I)%.<br>Ta có %(R=\\frac{A B \\cdot A I \\cdot B I}{4 \\cdot S_{A B I}}=\\frac{a \\cdot \\frac{a \\sqrt{5}}{2} \\cdot \\frac{a \\sqrt{5}}{2}}{4 \\cdot \\frac{1}{2} \\cdot a^{2}}=\\frac{5 a}{8})%.<br>Suy ra %(H A=H B=H I=R=\\frac{5 a}{8} \\Rightarrow H I=\\frac{5}{8} \\cdot K I)%.<br>Mặt khác %(\\frac{d(K,(S C D))}{d(H,(S C D))}=\\frac{I K}{I H}=\\frac{8}{5})%.<br>Do đó %(d(K,(S C D))=\\frac{8}{5} d(H,(S C D)))%.<br>Góc giữa %(S A)% và mặt phẳng %((A B C D))% là góc %(S A H=45^{\\circ})%. Suy ra %(S H=A H=\\frac{5 a}{8})%.<br>Kẻ %(H M \\perp S I)%.<br>Ta có %(H M \\perp S I)% và %(H M \\perp C D)% (vì %(C D \\perp(S H I))% và %(H M \\subset(S H I))% )<br>\\[\\Rightarrow H M \\perp(S C D) \\Rightarrow d(H,(S C D))=H M .\\]<br>\\[\\frac{1}{H M^{2}}=\\frac{1}{H I^{2}}+\\frac{1}{H S^{2}}=\\frac{64}{25 a^{2}}+\\frac{64}{25 a^{2}} \\Rightarrow H M=\\frac{5 a \\sqrt{2}}{16} .\\]<br>Vậy %(d(A B, S C)=\\frac{8}{5} \\cdot \\frac{5 a \\sqrt{2}}{16}=\\frac{a \\sqrt{2}}{2} \\xrightarrow{a=\\sqrt{2}} d(A B, S C)=1)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/fc4acb04889a369db90296f7483415e3.png\" srcset=\"https://docdn.giainhanh.io/media/test/81027bdddb0cf9b4fb52e840549a8d51.png 245w, https://docdn.giainhanh.io/media/test/28934edce40c0dbba90d586a94d111d8.png 500w, https://docdn.giainhanh.io/media/test/57c1fc707528f226b639fa8b29e3c2d5.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "21 ",
+        "point": 0.5,
+        "content": "Bạn My muốn làm các viên nước đá có dạng khối chóp cụt tứ giác đều có đáy lớn bằng 3 cm, đáy nhỏ bằng 1,5 cm và cao 3 cm bằng cách dùng khay đá, mỗi khay sẽ tạo được 6 viên đá. Hỏi bạn An cần ít nhất bao nhiêu khay để chứa đồng thời 2 lít nước?",
+        "question_images": [],
+        "solution": "Ta có: %(2 l=2000 \\mathrm{~cm}^{3})%.<br>Thể tích: %(V=\\frac{1}{3} \\cdot h \\cdot\\left(S+S^{\\prime}+\\sqrt{S \\cdot S^{\\prime}}\\right)=\\frac{1}{3} \\cdot 3 \\cdot\\left(3^{2}+1,5^{2}+\\sqrt{3^{2} \\cdot 1,5^{2}}\\right)=\\frac{63}{4} \\mathrm{~cm}^{3})%<br>Từ 2 lít nước có thể tạo ra số viên đá là: %(\\frac{2000}{\\frac{63}{4}} \\approx 127)% (viên).<br>Ta có: %(127: 6 \\approx 21,2)% (khay đá).<br>Vậy cần ít nhất 22 khay nước để chứa đồng thời 2 lít nước.",
+        "question_type": "essay"
+    },
+    {
+        "title": "22 ",
+        "point": 0.5,
+        "content": "Có hai hộp đựng bóng. Hộp thứ nhất có 10 quả bóng được đánh số từ 1 đến 10 . Hộp thứ hai có 12 quả bóng được đánh số từ 1 đến 12. Lấy ngẫu nhiên mỗi hộp một quả. Xác suất để hai quả bóng lấy được không có quả bóng nào ghi số 3 hoặc ghi số 7 là %(\\frac{a}{b})% với %(\\frac{a}{b})% là phân số tối giản và %(a, b \\in \\mathbb{Z})%. Khi đó %(b-a)% bằng bao nhiêu?",
+        "question_images": [],
+        "solution": "Gọi %(A)% là biến cố: \"Hai quả bóng lấy ra không có quả bóng nào ghi số 3\"<br>%(A_{1})% là biến cố: \"Quả bóng lấy ra từ túi I không ghi số 3 ”; %(P\\left(A_{1}\\right)=\\frac{9}{10})%.<br>%(A_{2})% là biến cố: \"Quả bóng lấy ra từ túi II không ghi số 3 \"; %(P\\left(A_{2}\\right)=\\frac{11}{12})%.<br>Nên %(A=A_{1} \\cdot A_{2})% và %(A_{1}, A_{2})% là 2 biến cố độc lập nên %(P(A)=P\\left(A_{1}\\right) \\cdot P\\left(A_{2}\\right)=\\frac{9}{10} \\cdot \\frac{11}{12}=\\frac{33}{40})%<br>Gọi %(B)% là biến cố: \"Hai quả bóng lấy ra không có quả bóng nào ghi số 7 \"<br>%(B_{1})% là biến cố: \"Quả bóng lấy ra từ túi I không ghi số 7 \"; %(P\\left(A_{1}\\right)=\\frac{9}{10})%.<br>%(B_{2})% là biến cố: \"Quả bóng lấy ra từ túi II không ghi số 7 \"; %(P\\left(A_{2}\\right)=\\frac{11}{12})%.<br>Nên %(B=B_{1} \\cdot B_{2})% và %(B_{1}, B_{2})% là 2 biến cố độc lập nên %(P(B)=P\\left(B_{1}\\right) \\cdot P\\left(B_{2}\\right)=\\frac{33}{40})%.<br>Gọi %(C)% là biến cố \"Trong hai quả bóng lấy ra không có quả nào ghi số 3 hoặc ghi số 7\" %(C=A \\cup B)%.<br>Ta có: %(P(C)=P(A)+P(B)-P(A B))%<br>Với %(A B)% là biến cố: \"Hai quả bóng lấy ra ko có quả nào ghi số 3 và số 7 \".<br>Gọi %(D_{1})% là biến cố: \"Quả bóng lấy ra từ túi I không ghi 3 và số 7 \"; %(P\\left(D_{1}\\right)=\\frac{8}{10}=\\frac{4}{5})%<br>%(D_{2})% là biến cố: \"Quả bóng lấy ra từ túi II không ghi 3 và số 7 \"; %(P\\left(D_{2}\\right)=\\frac{10}{12}=\\frac{5}{6})%<br>Nên %(A B=D_{1} D_{2})%. Hai biến cố %(D_{1}, D_{2})% độc lập nên %(P(A B)=\\frac{4}{5} \\cdot \\frac{5}{6}=\\frac{2}{3})%.<br>Vậy %(P(C)=\\frac{33}{40}+\\frac{33}{40}-\\frac{2}{3}=\\frac{59}{60})% suy ra %(b-a=1)%.",
+        "question_type": "essay"
+    }
+]

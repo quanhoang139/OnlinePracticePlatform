@@ -1,0 +1,81 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Rút gọn biểu thức: %(P=\\frac{x^{2}-\\sqrt{x}}{x+\\sqrt{x}+1}-\\frac{2 x+\\sqrt{x}}{\\sqrt{x}}+\\frac{2(x-1)}{\\sqrt{x}-1} \\quad(x\\gt 0 ; x \\neq 1))%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}P=\\frac{\\sqrt{x}(\\sqrt{x}-1)(x+\\sqrt{x}+1)}{x+\\sqrt{x}+1}-\\frac{\\sqrt{x}(2 \\sqrt{x}+1)}{\\sqrt{x}}+\\frac{2(\\sqrt{x}-1)(\\sqrt{x}+1)}{\\sqrt{x}-1} \\\\ =\\sqrt{x}(\\sqrt{x}-1)-(2 \\sqrt{x}+1)+2(\\sqrt{x}+1) \\\\ =x-\\sqrt{x}-2 \\sqrt{x}-1+2 \\sqrt{x}+2 \\\\ =x-\\sqrt{x}+1\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho %(x)% và %(y)% là hai số thỏa mãn: %(\\left(x-\\sqrt{x^{2}+5}\\right)\\left(y-\\sqrt{y^{2}+5}\\right)=5)%. Hãy tính giá trị của biểu thức %(M=x^{2017}+y^{2017})%",
+        "question_images": [],
+        "solution": "Nhân 2 vế của %(\\left(x-\\sqrt{x^{2}+5}\\right)\\left(y-\\sqrt{y^{2}+5}\\right)=5)% (1) với %(\\left(x+\\sqrt{x^{2}+5}\\right))% ta được:<br>\\[\\begin{array}{l}\\left(x+\\sqrt{x^{2}+5}\\right)\\left(x-\\sqrt{x^{2}+5}\\right)\\left(y-\\sqrt{y^{2}+5}\\right)=5\\left(x+\\sqrt{x^{2}+5}\\right) \\\\Leftrightarrow\\left[x^{2}-\\left(x^{2}+5\\right)\\right]\\left(y-\\sqrt{y^{2}+5}\\right)=5\\left(x+\\sqrt{x^{2}+5}\\right) \\\\Leftrightarrow-5\\left(y-\\sqrt{y^{2}+5}\\right)=5\\left(x+\\sqrt{x^{2}+5}\\right) \\\\Leftrightarrow y-\\sqrt{y^{2}+5}=-x-\\sqrt{x^{2}+5}\\end{array}\\]<br>Tương tự nhân 2 vế của (1) với %(\\left(y+\\sqrt{y^{2}+5}\\right))% ta được:<br>\\[x-\\sqrt{x^{2}+5}=-y-\\sqrt{y^{2}+5}\\]<br>Cộng vế với vế của (2) và (3) ta được:<br>\\[\\begin{array}{l}y-\\sqrt{y^{2}+5}+x-\\sqrt{x^{2}+5}=-x-\\sqrt{x^{2}+5}-y-\\sqrt{y^{2}+5} \\\\Leftrightarrow 2 x+2 y=0 \\Leftrightarrow 2(x+y)=0 \\Leftrightarrow x+y=0 \\Leftrightarrow x=-y\\end{array}\\]<br>Vậy %(M=x^{2017}+y^{2017}=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(\\sqrt{x+2 \\sqrt{x-1}}+\\sqrt{x-2 \\sqrt{x-1}}=\\frac{x+3}{2})%",
+        "question_images": [],
+        "solution": "Điều kiện để phương trình xác định là: %(x \\geq 1)%<br>Phương trình đó cho tương đương với:<br>\\[\\begin{array}{l}\\sqrt{(\\sqrt{x-1}+1)^{2}}+\\sqrt{(\\sqrt{x-1}-1)^{2}}=\\frac{x+3}{2} \\\\Leftrightarrow|\\sqrt{x-1}+1|+|\\sqrt{x-1}-1|=\\frac{x+3}{2}\\end{array}\\]<br>Nếu %(\\sqrt{x-1}-1 \\geq 0 \\Leftrightarrow x \\geq 2)% thì phương trình %((*))% trở thành<br>%(\\begin{array}{l}\\sqrt{x-1}+1+\\sqrt{x-1}-1=\\frac{x+3}{2} \\\\ \\Leftrightarrow 2 \\sqrt{x-1}=\\frac{x+3}{2} \\Leftrightarrow 4 \\sqrt{x-1}=x+3 \\\\ \\Leftrightarrow 16(x-1)=x^{2}+6 x+9 \\\\ \\Leftrightarrow x^{2}-10 x+25=0 \\\\ \\Leftrightarrow(x-5)^{2}=0 \\\\ \\Leftrightarrow x=5 \\text { (thỏa mãn điều kiện } x \\geq 2 \\text { ) } \\\\ \\text { Vậy } S=\\{5\\}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải bất phương trình: %((2 x-3) \\sqrt{x+4} \\geq 0)%",
+        "question_images": [],
+        "solution": "%((2 x-3) \\sqrt{x+4} \\geq 0(d k: x \\geq-4))%<br>Xét trường hợp: %((2 x-3) \\sqrt{x+4}=0)%<br>\\[\\Leftrightarrow\\left[\\begin{array} { l } { 2 x - 3 = 0 } \\\\{ \\sqrt { x + 4 } = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=\\frac{3}{2}(\\mathrm{tm}) \\x=-4(\\mathrm{tm})\\end{array}\\right.\\right.\\]<br>Xét trường hợp: %((2 x-3) \\sqrt{x+4}\\gt 0)%<br>\\[\\begin{array}{l}\\Leftrightarrow 2 x-3>0(v i \\sqrt{x+4}>0) \\\\Leftrightarrow x>\\frac{3}{2}\\end{array}\\]<br>Vậy: bất phương trình có nghiệm là %(\\left[\\begin{array}{l}x \\geq \\frac{3}{2} \\\\ x=-4\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Giải phương trình nghiệm nguyên sau: %(x y+2 x+2 y=1)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}x y+2 x+2 y=1 \\\\Leftrightarrow y(x+2)=1-2 x \\\\Leftrightarrow y=\\frac{1-2 x}{x+2}=-2+\\frac{5}{x+2}\\end{array}\\]<br>Để %(x, y \\in Z \\Leftrightarrow x+2 \\in U(5)=\\{ \\pm 1 ; \\pm 5\\} \\Rightarrow x \\in\\{-3 ;-1 ;-7 ; 3\\})%<br>Thay vào ta tìm được %(y \\in\\{-7 ; 3 ;-3 ;-1\\})%<br>Vậy; nghiệm nguyên của pt là: %((-3 ;-7) ;(-1 ; 3) ;(-7 ;-3) ;(3 ;-1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Chứng tỏ rằng với mọi số tự nhiên %(n)% thì số %(A=n(n+1)(n+2)(n+3)+1)% là số chính phương.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{c}A=n(n+1)(n+2)(n+3)+1=n(n+3)(n+2)(n+1)+1 \\A=\\left(n^{2}+3 n\\right)\\left(n^{2}+3 n+2\\right)+1\\end{array}\\]<br>Đặt %(n^{2}+3 n=t(t \\in N)=A=t(t+2)+1=(t+1)^{2})%<br>Vậy tích của 4 số tự nhiên liên tiếp cộng với 1 là số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho %(\\triangle A B C)% vuông tại %(A)%, đường cao %(A H)%. Kẻ %(H D, H E)% lần lượt vuông góc với %(A B, A C)%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) %(\\frac{D B}{E C}=\\left(\\frac{A B}{A C}\\right)^{3})%",
+        "question_images": [],
+        "solution": "Ta có: %(\\triangle \\mathrm{ABC})% vuông tại %(A)%, đường cao %(A H)% :<br>\\[\\frac{A B^{2}}{A C^{2}}=\\frac{B H \\cdot B C}{C H \\cdot B C}=\\frac{B H}{C H}\\]<br>%(\\begin{array}{l}\\Rightarrow\\left(\\frac{A B^{2}}{A C^{2}}\\right)^{2}=\\left(\\frac{B H}{C H}\\right)^{2} \\Rightarrow \\frac{A B^{4}}{A C^{4}}=\\frac{B H^{2}}{C H^{2}}=\\frac{B D \\cdot A B}{C E \\cdot A C} \\\\ \\Rightarrow \\frac{A B^{3}}{A C^{3}}=\\frac{B D}{C E} \\Rightarrow \\frac{B D}{C E}=\\left(\\frac{A B}{A C}\\right)^{3}\\end{array})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d58cd71a739bf2066ddc0cb55ea323ef.png\" srcset=\"https://docdn.giainhanh.io/media/test/edd1cd1ab250fd2d3ed0df01d5013085.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) %(B C \\cdot B D \\cdot C E=A H^{3})%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{aligned}A H^{2} & =B H \\cdot C H \\\\Leftrightarrow A H^{4} & =B H^{2} \\cdot C H^{2}=(B D \\cdot A B)(C E \\cdot A C)=(B D \\cdot C E)(A B \\cdot A C)=B D \\cdot C E \\cdot A H \\cdot B C \\\\Leftrightarrow A H^{3} & =B D \\cdot C E \\cdot B C\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Tìm các số tự nhiên %(x, y)% sao cho %(x^{2}+3^{y}=3026)%.",
+        "question_images": [],
+        "solution": "Ta có %(x^{2})% chia cho 3 dư 0 hoặc 1 .<br>- Nếu %(y \\neq 0 \\Rightarrow 3^{y}: 3 \\Rightarrow x^{2}+3^{y})% chia cho 3 dư 0 hoặc 1<br>Mà 3026 chia 3 dư 2<br>%(\\Rightarrow)% Trường hợp này không xảy ra.<br>- Vậy %(y=0)%<br>\\[\\begin{array}{l}\\Rightarrow x^{2}+1=3026 \\\\Leftrightarrow x^{2}=3025 \\\\Leftrightarrow x^{2}=55^{2} \\\\Leftrightarrow x=55\\end{array}\\]<br>Vậy cặp số tự nhiên %((x ; y)=(55 ; 0))%.",
+        "question_type": "essay"
+    }
+]

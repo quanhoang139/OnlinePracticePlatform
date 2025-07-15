@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Cho %(a+b+c=0 ; a, b, c \\neq 0)%. Rút gọn biểu thức:<br>\\[A=\\frac{a b}{a^{2}+b^{2}-c^{2}}+\\frac{b c}{b^{2}+c^{2}-a^{2}}+\\frac{c a}{c^{2}+a^{2}-b^{2}} \\text {. }\\]",
+        "question_images": [],
+        "solution": "Từ %(a+b+c=0 \\Rightarrow a+b=-c)%<br>Bình phương hai vế ta được %(a^{2}+b^{2}+2 a b=c^{2})% nên %(a^{2}+b^{2}-c^{2}=-2 a b)%<br>Tương tự : %(b^{2}+c^{2}-a^{2}=-2 b c)% và %(c^{2}+a^{2}-b^{2}=-2 a c)%<br>Do đó %(A=\\frac{a b}{-2 a b}+\\frac{b c}{-2 b c}+\\frac{c a}{-2 c a}=-\\frac{1}{2}-\\frac{1}{2}-\\frac{1}{2}=-\\frac{3}{2})%<br>Vậy %(A=-\\frac{3}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tính giá trị của biểu thức:<br>\\[P=\\frac{\\sqrt{x^{3}+x^{2}+5 x+3}-6}{\\sqrt{x^{3}-2 x^{2}-7 x+3}} \\text { tại } x=1+\\sqrt[3]{2}+\\sqrt[3]{4} \\text {. }\\]",
+        "question_images": [],
+        "solution": "Ta có %(x(\\sqrt[3]{2}-1)=(1+\\sqrt[3]{2}+\\sqrt[3]{4})(\\sqrt[3]{2}-1)=2-1=1)%<br>Suy ra %(x \\sqrt[3]{2}=x+1 \\Rightarrow 2 x^{3}=(x+1)^{3})% hay %(x^{3}=3 x^{2}+3 x+1)%<br>Do đó<br>%(\\begin{array}{l}P=\\frac{\\sqrt{3 x^{2}+3 x+1+x^{2}+5 x+3}-6}{\\sqrt{3 x^{2}+3 x+1-2 x^{2}-7 x+3}}=\\frac{\\sqrt{4 x^{2}+8 x+4}-6}{\\sqrt{x^{2}-4 x+4}} \\\\=\\frac{\\sqrt{4(x+1)^{2}}-6}{\\sqrt{(x-2)^{2}}}=\\frac{2|x+1|-6}{|x+2|}=\\frac{2(x+1)-6}{x-2}=\\frac{2 x-4}{x-2}=2 .\\end{array})%<br>%(\\text { (vì } x=1+\\sqrt[3]{2}+\\sqrt[3]{4}\\gt 2 \\text { ) })%<br>Vậy %(P=2)% tại %(x=1+\\sqrt[3]{2}+\\sqrt[3]{4})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x^{2}+x y+y^{2}=3 \\\\ x-y-x y=5\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Ta có : %(\\left\\{\\begin{array}{l}x^{2}+x y+y^{2}=3 \\\\ x-y-x y=5\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}(x-y)^{2}+3 x y=3 \\\\ x-y-x y=5\\end{array}\\right.\\right.)%<br>Đặt %(a=x-y, b=x y(1))%<br>Hệ phương trình trên trở thành %(\\left\\{\\begin{array}{l}a^{2}+3 b=3 \\\\ a-b=5\\end{array}\\right.)%<br>Giải hệ phương trình trên ta được %(\\left\\{\\begin{array}{l}a=3 \\\\ b=-2\\end{array}\\right.)% hoặc %(\\left\\{\\begin{array}{l}a=-6 \\\\ b=-11\\end{array}\\right.)%<br>Với %(a=3, b=-2)% thay vào (1) ta được %(\\left\\{\\begin{array}{l}x-y=3 \\\\ x y=-2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=1 \\\\ y=-2\\end{array}\\right.\\right.)% và %(\\left\\{\\begin{array}{l}x=2 \\\\ y=-1\\end{array}\\right.)%<br>Với %(a=-6, b=-11)% thay vào (1) ta được<br>%(\\left\\{\\begin{array}{l}x-y=-6 \\\\ x y=-11\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x-y=-6 \\\\ y^{2}-6 y+11=0\\end{array}\\right.\\right.)%.<br>Hệ phương trình vô nghiệm<br>Vậy hệ phương trình có nghiệm %(\\left\\{\\begin{array}{l}x=1 \\\\ y=-2\\end{array} ;\\left\\{\\begin{array}{l}x=2 \\\\ y=-1\\end{array}\\right.\\right.)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tìm nghiệm nguyên của phương trình sau: %((2 x+5 y+1)\\left(2^{|x|}+x^{2}+x+y\\right)=105)%.",
+        "question_images": [],
+        "solution": "%(\\quad(2 x+5 y+1)\\left(2^{|x|}+x^{2}+x+y\\right)=105)%.<br>Vì 105 là số lẻ nên %(2 x+5 y+1)% và %(2^{k l}+x^{2}+x+y)% phải là các số lẻ<br>Từ %(2 x+5 y+1)% là số lẻ mà %(2 x+1)% là số lẻ nên %(5 y)% là số chẵn suy ra %(y)% chẵn %(2^{k \\mid}+x^{2}+x+y)% là số lẻ mà %(x^{2}+x=x(x+1))% là tích của hai số nguyên liên tiếp nên là số chẵn, %(y)% cũng chẵn nên %(2^{|x|})% là số lẻ.<br>Điều này xảy ra khi %(x=0)%<br>Thay %(x=0)% vào phương trình đã cho ta được:<br>%(\\begin{array}{l}(5 y+1)(y+1)=105 \\Leftrightarrow 5 y^{2}+6 y-104=0 \\Leftrightarrow 5 y^{2}-20 y+26 y-104=0 \\\\Leftrightarrow 5 y(y-4)+26(y-4)=0 \\Leftrightarrow(5 y+26)(y-4)=0 \\\\Leftrightarrow y=\\frac{-26}{5} \\text { (loại) hoặc } y=4 \\text { (thỏa mãn) }\\end{array})%<br>Vậy phương trình có nghiệm nguyên %((x ; y)=(0 ; 4))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng không tồn tại số nguyên %(n)% thỏa mãn %(\\left(2014^{2014}+1\\right))% chia hết cho %(n^{3}+2012 n)%",
+        "question_images": [],
+        "solution": "Giả sử tồn tại số nguyên %(n)% thỏa mãn %(\\left(2014^{2014}+1\\right))% chia hết cho %(n^{3}+2012 n)%.<br>Ta có %(n^{3}+2012 n=n^{3}-n+2013 n=n(n-1)(n+1)+2013 n)%<br>Vì %(n-1, n, n+1)% là ba số nguyên liên tiếp nên có một số chia hết cho 3<br>Mặt khác %(2014^{2014}+1=(2013+1)^{2014}+1)% chia cho 3 dư 2 vì %(2013 \\vdots 3)% (2)<br>Từ (1) và (2) dẫn đến điều giả sử trên là vô lý, tức là không có số nguyên nào thỏa mãn điều kiện bài toán đã cho",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho %(x, y)% là các số nguyên thỏa mãn %(2 x^{2}+x=3 y^{2}+y)%. Chứng minh %(x-y ; 2 x+2 y+1 ; 3 x+3 y+1)% đều là các số chính phương.",
+        "question_images": [],
+        "solution": "Từ: %(2 x^{2}+x=3 y^{2}+y(1) \\Rightarrow 2 x^{2}-2 y^{2}+x-y=y^{2} \\Rightarrow(x-y)(2 x+2 y+1)=y^{2}(2))%<br>Mặt khác từ (1) ta có: %(3 x^{2}-3 y^{2}+x-y=x^{2} \\Leftrightarrow(x-y)(3 x+3 y+1)=x^{2})%<br>%(\\begin{array}{l}\\Rightarrow(x-y)^{2}(2 x+2 y+1)(3 x+3 y+1)=x^{2} y^{2} \\\\Rightarrow(2 x+2 y+1)(3 x+3 y+1) \\text { là số chính phương }(3) \\\\text { Gọi }(2 x+2 y+1 ; 3 x+3 y+1)=d \\\\Rightarrow(2 x+2 y+1) \\vdots d ;(3 x+3 y+1) \\vdots d \\Rightarrow(3 x+3 y+1)-(2 x+2 y+1)=(x+y) \\vdots d \\\\Rightarrow 2(x+y) \\vdots d \\Rightarrow(2 x+2 y+1)-2(x+y)=1 \\vdots d \\text { nên } \\mathrm{d}=1 \\\\Rightarrow(2 x+2 y+1 ; 3 x+3 y+1)=1\\space(4)\\end{array})%<br>Từ (3) và %((4) \\Rightarrow 2 x+2 y+1)% và %(3 x+3 y+1)% đều là số chính phương<br>Lại có từ (2) suy ra %((x-y)(2 x+2 y+1))% là số chính phương nên %(x-y)% cũng là số chính phương.<br>Vậy %(2 y^{2}+x=3 y^{2}+y)% thì %(x-y, 2 x+2 y+1)% và %(3 x+3 y+1)% đều là các số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho đường tròn %((O ; R))% và một đường thẳng %(d)% không có điểm chung với đường tròn. Trên %(d)% lấy một điểm %(M)% bất kỳ, qua %(M)% kẻ các tiếp tuyến %(M A, M B)% với đườn tròn %((A, B)% là các tiếp điểm). Kẻ đường kính %(A O C)%, tiếp tuyến của %((O))% tại %(C)% cắt %(A B)% tại %(E)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh tam giác %(B C M)% đồng dạng với tam giác %(B E O)%;",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b1c11b22114c0b2a31138d11c9afe9aa.png\" srcset=\"https://docdn.giainhanh.io/media/test/10487ddbe36ac80a2db5eea0c352c9a2.png 239w, https://docdn.giainhanh.io/media/test/7772d4aa49760db17efd8a0954f27d4d.png 500w\" width=\"500\"/><br>Gọi %(Q)% là giao điểm của %(A B)% với %(O M)%<br>Ta có %(A M / / \\mathrm{CE})% (cùng vuông góc với %(A C)% )<br>Suy ra %(\\widehat{B E C}=\\widehat{M A B})% (so le trong)<br>Mà %(\\widehat{A B C}=90^{\\circ}, \\widehat{A Q M}=90^{\\circ})% và %(\\widehat{A M O}=\\widehat{O M B})% (tính chất hai tiếp tuyến cắt nhau)<br>%(\\Rightarrow \\widehat{A M O}=\\widehat{O M B}=\\widehat{B C E})% (cùng phụ với hai góc bằng nhau)<br>%(\\Rightarrow \\tan B C E=\\tan \\theta M B \\Rightarrow \\frac{B E}{B C}=\\frac{O B}{M B} \\Rightarrow \\frac{M B}{B C}=\\frac{O B}{B E}(1))%<br>Lại có %(\\widehat{M B A}=\\widehat{O B C})% (cùng phụ với %(\\widehat{A B O})% )<br>Nên %(\\widehat{M B C}=\\widehat{O B E})% (cùng %(=90^{\\circ}+O B C)% )  (2)<br>Từ (1) và (2) suy ra %(\\triangle M B C \\# \\triangle O B E)% (c.g.c)",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh %(C M)% vuông góc với %(O E)%;",
+        "question_images": [],
+        "solution": "Từ %(\\triangle M B C \\# \\triangle O B E \\Rightarrow \\widehat{B C M}=\\widehat{B E O})%<br>Gọi %(I)% và %(N)% lần lượt là giao điểm của %(O E)% với %(B C)% và %(M C)%<br>%(\\triangle B I E \\# \\triangle N I C(g . g) \\Rightarrow \\widehat{I B E}=\\widehat{I N C})% mà %(\\widehat{I B E}=90^{\\circ})%<br>Nên %(\\widehat{F N C}=90^{\\circ})%.<br>Vậy %(C M \\perp O E)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tìm giá trị nhỏ nhất của dây %(A B)% và diện tích tứ giác %(M A O B)%.",
+        "question_images": [],
+        "solution": "Gọi %(H)% là hình chiêu vuông góc của %(O)% trên %(d)%. %(P)% là giao điểm của %(A B)% với %(O H)%<br>Ta có %(\\triangle O Q P)% # %(\\triangle O H M(g \\cdot g) \\Rightarrow \\frac{O Q}{O H}=\\frac{O P}{O M})%<br>%(\\Rightarrow Q O . O M=O P . O H=O A^{2}=R^{2} \\Rightarrow O P=\\frac{R^{2}}{O H})%<br>Mà %(O)% và %(d)% cố định %(\\Rightarrow O H)% không đổi nên %(O P)% không đổi<br>Lại có %(A B=2 A Q=2 \\sqrt{O A^{2}-O Q^{2}})% mà %(O Q \\leq O P)%<br>%(\\Rightarrow A B=2 \\sqrt{O A^{2}-O P^{2}}=2 \\sqrt{R^{2}-\\frac{R^{4}}{O H^{2}}}=\\frac{2 R}{O H} \\cdot \\sqrt{O H^{2}-R^{2}})%<br>Dấu \" %(=)% \" xảy ra %(\\Leftrightarrow Q \\equiv P \\Leftrightarrow M \\equiv H)%<br>Vậy GTNN của %(A B=\\frac{2 R}{O H} \\cdot \\sqrt{O H^{2}-R^{2}} \\Leftrightarrow M \\equiv H)%<br>*) Vì %(M O \\perp A B)% nên %(S_{A O B M}=\\frac{1}{2} A B \\cdot O M=A Q . O M)%<br>Vẽ dây cung %(A_{1} B_{1})% vuông góc với %(O H)% tại %(P)%, do %(P)% và %((O))% cố định nên %(A_{1} B_{1})% không đổi<br>Vì %(O P \\geq O Q \\Rightarrow A B \\geq A_{1} B_{1})% (liên hệ giữa dây và khoảng cách từ tâm đến dây).<br>Mà %(O M \\geq O H \\Rightarrow S_{A O B M} \\geq \\frac{1}{2} A_{1} B_{1} O H)% (không đổi)<br>Dấu \"=\" xảy ra %(\\Leftrightarrow M \\equiv H)%<br>Vậy GTNN của %(S_{A O B M}=\\frac{1}{2} A_{1} B_{1} . O H)% khi và chì khi %(M \\equiv H)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Giả sử %(a, b, c)% là những số thực thỏa mãn %(a, b, c \\neq 0)% và %(a+b+c=\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=0)%. Chứng minh rằng %(\\frac{a^{6}+b^{6}+c^{6}}{a^{3}+b^{3}+c^{3}}=a b c)%.",
+        "question_images": [],
+        "solution": "Do đó %(* a^{6}+b^{6}+c^{6}=(3 a b c)^{2}-2.3 a^{2} b^{2} c^{2}=3 a^{2} b^{2} c^{2})%<br>Vậy %(\\frac{a^{6}+b^{6}+c^{6}}{a^{3}+b^{3}+c^{3}}=\\frac{3 a^{2} b^{2} c^{2}}{3 a b c}=a b c)%.",
+        "question_type": "essay"
+    }
+]

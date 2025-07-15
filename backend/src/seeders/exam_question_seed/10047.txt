@@ -1,0 +1,57 @@
+[
+    {
+        "title": "1 ",
+        "point": 4.0,
+        "content": "Giải phương trình sau trên tập số thực:<br>%(\\sqrt{1-x^{2}}+\\sqrt{x^{2}+x-1}+\\sqrt[3]{1-x}=1 .)%",
+        "question_images": [],
+        "solution": "Điều kiện xác định: %(\\frac{-1+\\sqrt{5}}{2} \\leq x \\leq 1)%(1)<br>Đặt %(u=\\sqrt{1-x^{2}}, v=\\sqrt{x^{2}+x-1}, t=\\sqrt[3]{1-x})% ta được %(\\left\\{\\begin{array}{l}u, v, t \\geq 0 \\\\ u+v+t=1 \\\\ u^{2}+v^{2}+t^{3}=1\\end{array}\\right.)%(2)<br>Từ (2) suy ra %(0 \\leq u, v, t \\leq 1 \\Rightarrow 1=u^{2}+v^{2}+t^{3} \\leq u+v+t=1)%.<br>Do đó: %((2) \\Leftrightarrow\\left\\{\\begin{array}{l}u, v, t \\geq 0 \\\\ u+v+t=1 \\\\ u^{2}=u \\\\ v^{2}=v \\\\ t^{3}=t\\end{array}\\right.)%%(\\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}u=1 \\\\ v=t=0\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}v=1 \\\\ u=t=0\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}t=1 \\\\ u=v=0\\end{array}\\right.\\end{array}\\right.)%<br>Thay lại biến %(x)% ta được tập nghiệm của phương trình là %(S=\\{1\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Cho tam giác %(A B C)%. Gọi %(\\left(O_{1}\\right))% là đường tròn đi qua %(B)% và tiếp xúc với %(A C)% tại %(A ;\\left(O_{2}\\right))% là đường tròn đi qua %(C)% và tiếp xúc với %(A B)% tại %(A \\cdot P)% là giao điểm thứ hai của %(\\left(O_{1}\\right))% và %(\\left(O_{2}\\right) ; K, L)% theo thứ tự là giao điểm thứ hai của %(\\left(O_{1}\\right),\\left(O_{2}\\right))% với đoạn thẳng %(B C)%. Gọi %((S))% là đường tròn ngoại tiếp tam giác %(P K L)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng: %(A K, A L)% tiếp xúc với %((S))%.",
+        "question_images": [],
+        "solution": "Tứ giác ABKP là tứ giác nội tiếp nên %(\\angle A B P=\\angle A K P)%.<br>AC là tiếp tuyến của %(\\left(O_{1}\\right))% nên %(\\angle A B P=\\angle P A C)%.<br>Suy ra %(\\angle A K P=\\angle P A C)% (1).<br>Tứ giác APLC là tứ giác nội tiếp nên %(\\angle P A C=\\angle P L K)% (2).<br>Từ (1) và (2), suy ra AK là tiếp tuyến của đường tròn %((S))%.<br>Tương tự, ta chứng minh AL là cũng là tiếp tuyến của đường tròn %((S))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e5b4e81758baf9e1768837e2c6b3cf79.png\" srcset=\"https://docdn.giainhanh.io/media/test/174865793e8351affabb53ec15014929.png 210w, https://docdn.giainhanh.io/media/test/1b1cf0233e6d4d4ac98a2977d2f18eeb.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Gọi %(Q)% là giao điểm thứ hai của %((S))% và %(A P ; E)% là giao điểm của %(Q K)% và %(A B ; F)% là giao điểm của %(Q L)% và %(A C)%. Chứng minh rằng các điểm %(A, K, L, S, E, F)% cùng thuộc một đường tròn. (<i>Chú ý. Ta kí hiệu </i>%((X))%<i> là đường tròn có tâm </i>%(X)%<i> </i>).",
+        "question_images": [],
+        "solution": "<strong>Cách 1.</strong><br>Dễ thấy AKSL là tứ giác nội tiếp.<br>Ta chứng minh tứ giác AEKL là tứ giác nội tiếp.<br>Thật vậy, Ta có %(\\angle B E Q=\\angle E A Q+\\angle E Q A)% (3).<br>Tứ giác KPLQ là tứ giác nội tiếp nên %(\\angle K Q P=\\angle P L K)% (4).<br>AB là tiếp tuyến với %(\\left(O_{2}\\right))% nên %(\\angle E A Q=\\angle P L A)% (5).<br>Từ (3), (4) và (5) nên %(\\angle B E Q=\\angle A L K)% (đpcm).<br><strong>Cách 2.</strong><br>Ta có %(\\angle K L Q=\\angle K P Q)% và %(\\angle K P Q=\\angle A B K)% nên %(\\angle A B K=\\angle K L Q)%, suy ra %(Q L \\| A B)%.<br>Do đó %(\\angle B E K=\\angle K Q L)%. Mà %(\\angle K Q L=\\angle A L K)% (do AL là tiếp tuyến với (S)) nên %(\\angle B E K=\\angle A L K)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 4.0,
+        "content": "Cho đa thức %(f(x)=x^{4}+x^{3}+m x^{2}+n x+p)%, trong đó %(m, n, p)% là các số nguyên đôi một phân biệt, khác không, sao cho %(f(m)=m^{4}+m^{3})% và %(f(n)=n^{4}+n^{3})%. Tìm %(m, n, p)%.",
+        "question_images": [],
+        "solution": "Xét đa thức %(g(x)=f(x)-x^{4}-x^{3}=m x^{2}+n x+p)%. Theo giả thiết %(g(m)=g(n)=0)%.<br>Do %(g(x))% là đa thức bậc 2 nên %(g(x)=a(x-m)(x-n))%.<br>Từ đó ta có: %(m x^{2}+n x+p=a(x-m)(x-n))%.<br>Đồng nhất các hệ số cho ta %(p=a m n, n=-a(m+n))% và %(m=a)%.<br>Từ đó ta được %(n=-m(m+n))% hay %((m+1) n=-m^{2})%.<br>Từ đây ta được %(m+1 \\| 1)% hay %(m+1= \\pm 1)%. suy ra %(m=-2)%. Từ đó %(n=4)% và %(p=16)%.<br>Vậy %(m=-2, n=4, p=16)%.<br><strong>Chú ý.</strong> Học sinh có thể thay trực tiếp %(m, n)% rồi giải hệ phương trình nghiệm nguyên để tìm %(m, n, p)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 4.0,
+        "content": "Tìm tất cả các cặp số nguyên dương %((a, b))% thỏa mãn đồng thời hai điều kiện sau:<br>i) %(a+b^{2})% là lũy thừa của một số nguyên tố;<br>ii) %(a^{2}+b)% chia hết cho %(a+b^{2})%.",
+        "question_images": [],
+        "solution": "Đặt %(a+b^{2}=p^{m}, p)% nguyên tố và %(m)% nguyên dương.<br>Ta viết %(\\frac{a^{2}+b}{a+b^{2}}=a-b^{2}+\\frac{b^{4}+b}{a+b^{2}})%, suy ra %(p^{m} \\mid\\left(b^{4}+b\\right)=b\\left(b^{3}+1\\right))%.<br>Từ %(\\left(b, b^{3}+1\\right)=1)%, và %(b\\lt 1+b \\leq a+b^{2}=p^{m})% nên ta suy ra %(p^{m} \\mid b^{3}+1)%.<br>Ta có %(b^{3}+1=(b+1)\\left(b^{2}-b+1\\right))% và %(\\left(b+1, b^{2}-b+1\\right) \\mid 3)%.<br>+ Nếu %(\\left(b+1, b^{2}-b+1\\right)=1)% thì %(p^{m} \\mid b+1)% hoặc %(p^{m} \\mid b^{2}-b+1)%.<br>Từ %(p^{m}=b^{2}+a\\gt b^{2}-b+1)% nên ta chỉ có %(p^{m} \\mid b+1)% và suy ta %(p^{m}=a+b^{2}=b+1)%.<br>Do đó %(a=b=1)%.<br>+ Nếu %(\\left(b+1, b^{2}-b+1\\right)=3)% suy ra %(p=3)%.<br>Xét %(m=1)%, không có %((a, b))%.<br>Xét %(m=2,(a, b)=(5,2))%.<br>Xét %(m \\geq 3)%, khi đó %(3 \\mid b+1)% hoặc %(3 \\mid b^{2}-b+1)% và %(3^{m-1})% là ước của phần tử còn lại.<br>Từ %(b+1\\lt \\sqrt{b^{2}+a}+1\\lt 3^{m-1})%, vì vậy %(3^{m-1} \\mid b^{2}-b+1)%.<br>Do đó %(b^{2}-b+1 \\equiv 0(\\bmod 9))%, mâu thuẫn.<br>Vậy %((a, b) \\in\\{(1,1) ;(5,2)\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 4.0,
+        "content": "Cho tập %(S=\\{1,2,3, \\ldots, 2025\\})%. Tìm số nguyên dương nhỏ nhất %(n)% sao cho: Với mọi tập con %(T)% của %(S)% gồm %(n)% phần tử, tồn tại hai phần tử phân biệt %(u, v \\in T)% sao cho %(u+v=20)%.",
+        "question_images": [],
+        "solution": "Giả sử %(n)% là số nguyên dương nhỏ nhất thỏa mãn đề. Xét tập<br>%(T=\\{1,2, \\ldots, 10\\} \\cup\\{20,21, \\ldots, 2025\\} .)%<br>Ta thấy, với mọi %(u, v \\in T)% phân biệt thì:<br>Nếu %(u, v \\in\\{20,21, \\ldots, 2025\\})% thì %(u+v \\geq 41\\gt 20)%.<br>Vậy không có %(u, v)% thỏa mãn %(u+v=20)%.<br>Nếu %(u, v \\in\\{1,2,3, \\ldots, 10\\})% thì %(u+v \\leq 19\\lt 20)%.<br>Vậy không có %(u, v)% thỏa mãn %(u+v=20)%.<br>Nếu %(u \\in\\{1,2,3, \\ldots, 10\\}, v \\in\\{20,21, \\ldots, 2025\\})% thì %(u+v \\geq 21>20)%.<br>Vậy không có %(u, v)% thỏa mãn %(u+v=20)%.<br>Vì %(|T|=2016)% nên %(n \\geq 2017)%.<br>Mặt khác, với mọi tập %(T \\subset S,|T|=2017)%, xét 9 cặp số sau %((1 ; 19),(2 ; 18), \\ldots,(9 ; 11))%.<br>Nếu một trong các cặp trên thuộc %(T)% thì đó là cặp %((u ; v))% thỏa mãn %(u+v=20)%.<br>Nếu không có cặp nào thuộc %(T)% thì %(|T| \\leq 2025-9=2016)%, vô lí.<br>Vậy với mọi tập %(T \\subset S,|T|=2017)% luôn tồn tại %(u, v \\in T)% thỏa mãn %(u+v=20)%.<br>Kết luận: Giá trị nhỏ nhất của %(n)% là 2017 .",
+        "question_type": "essay"
+    }
+]

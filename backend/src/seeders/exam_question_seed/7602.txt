@@ -1,0 +1,73 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "Cho hàm số %(y=x^{3}-3 x^{2}+4)% có đồ thị %((C))%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Viết phương trình tiếp tuyến của đồ thị %((C))% biết tiếp tuyến song song với đường thẳng có phương trình %(y=-3 x+1)%.",
+        "question_images": [],
+        "solution": "Ta có %(y^{\\prime}=3 x^{2}-6 x)%.<br>Vì tiếp tuyến của %((C))% song song với đường thẳng %(y=-3 x+1)% nên hoành độ tiếp điểm là nghiệm của phương trình: %(3 x^{2}-6 x=-3 \\Leftrightarrow x=1)%.<br>Với %(x=1 \\Rightarrow y=2)%.<br>Phương trình tiếp tuyến: %(y=-3(x-1)+2)% hay %(y=-3 x+5)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Gọi %(A, B)% là các điểm cực trị của %((C))%. Tìm tọa độ điểm %(M)% thuộc Parabol %((P))% : %(y=x^{2})% sao cho tam giác %(A M B)% vuông tại %(M)%.",
+        "question_images": [],
+        "solution": "\\[y^{\\prime}=0 \\Leftrightarrow 3 x^{2}-6 x=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\x=2\\end{array}\\right.\\]<br>Ta có các điểm cực trị của %((C))% là: %(A(0 ; 4))% và %(B(2 ; 0))%.<br>Gọi %(M\\left(x ; x^{2}\\right))% thuộc %(\\left(P)\\right.)%.<br>Khi đó: %(\\overrightarrow{A M}=\\left(x ; x^{2}-4\\right))% và %(\\overrightarrow{B M}=\\left(x-2 ; x^{2}\\right))%<br>Tam giác %(A M B)% vuông tại %(M \\Leftrightarrow \\overrightarrow{A M} \\cdot \\overrightarrow{B M}=0 \\Leftrightarrow x(x-2)+x^{2}\\left(x^{2}-4\\right)=0)%<br>\\[\\Leftrightarrow x\\left(x^{3}-3 x-2\\right)=0 \\Leftrightarrow x(x+1)^{2}(x-2)=0\\]<br>Vậy có 3 điểm %(M)% thuộc %((P))% để %(\\triangle A M B)% vuông tại %(M)% là %(M_{1}(0 ; 0) ; M_{2}(-1 ; 1))% và %(M_{3}(2 ; 4))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Tìm tập xác định của hàm số %(y=\\ln \\left(\\frac{2 x-1}{x+3}-3\\right))%.",
+        "question_images": [],
+        "solution": "Hàm số %(y=\\ln \\left(\\frac{2 x-1}{x+3}-3\\right))% xác định %(\\Leftrightarrow\\left\\{\\begin{array}{l}\\frac{2 x-1}{x+3}-3\\gt 0 \\\\ x+3 \\neq 0\\end{array}\\right.)%<br>\\[\\Leftrightarrow \\frac{-x-10}{x+3}>0 \\Leftrightarrow-10\\lt x\\lt -3\\]<br>Vậy tập xác định của hàm số là %(D=(-10 ;-3))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(\\sin 2 x+1=6 \\sin x+\\cos 2 x)%",
+        "question_images": [],
+        "solution": "Tập xác định: %(x \\in \\mathbb{R})%<br>\\[\\begin{array}{l}\\Leftrightarrow(\\sin 2 x-6 \\sin x)+(1-\\cos 2 x)=0 \\\\Leftrightarrow 2 \\sin x(\\cos x-3)+2 \\sin ^{2} x=0 \\\\Leftrightarrow 2 \\sin x(\\cos x-3+\\sin x)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}\\sin x=0 \\\\sin x+\\cos x=3(\\text { VNo })\\end{array}\\right.\\end{array}\\]<br>%(\\Leftrightarrow x=k \\pi)%. Vậy nghiệm của phương trình là %(x=k \\pi, k \\in Z)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 3.0,
+        "content": "Một đội ngũ cán bộ khoa học gồm 8 nhà Toán học nam, 5 nhà Vật lý nữ và 3 nhà Hóa học nữ. Người ta chọn ra từ đó 4 người để đi công tác, tính xác suất sao cho trong 4 người được chọn phải có nữ và có đủ ba bộ môn.",
+        "question_images": [],
+        "solution": "Chọn ngẫu nhiên 4 nhà khoa học trong 16 nhà khoa học có %(C_{16}^{4})% cách<br>Chọn 4 người đi công tác thỏa mãn yêu cầu bài toán có các trường hợp sau:<br>Chọn 2 nhà toán học nam, 1 nhà vật lý nữ, 1 nhà hóa học nữ có %(C_{8}^{2} \\cdot C_{5}^{1} \\cdot C_{3}^{1})% cách<br>Chọn 1 nhà toán học nam, 2 nhà vật lý nữ, 1 nhà hóa học nữ có %(C_{8}^{1} \\cdot C_{5}^{2} \\cdot C_{3}^{1})% cách<br>Chọn 1 nhà toán học nam, 1 nhà vật lý nữ, 2 nhà hóa học nữ có %(C_{8}^{1} \\cdot C_{5}^{1} \\cdot C_{3}^{2})% cách<br>Số cách chọn đoàn công tác: %(C_{8}^{2} \\cdot C_{5}^{1} \\cdot C_{3}^{1}+C_{8}^{1} \\cdot C_{5}^{2} \\cdot C_{3}^{1}+C_{8}^{1} \\cdot C_{5}^{1} \\cdot C_{3}^{2})%<br>Vậy xác suất cần tìm là : %(P=\\frac{C_{8}^{2} \\cdot C_{5}^{1} \\cdot C_{3}^{1}+C_{8}^{1} \\cdot C_{5}^{2} \\cdot C_{3}^{1}+C_{8}^{1} \\cdot C_{5}^{1} \\cdot C_{3}^{2}}{C_{16}^{4}}=\\frac{3}{7})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 3.0,
+        "content": "Trong mặt phẳng với hệ tọa độ %(O x y)%, cho tam giác %(A B C)% có phương trình cạnh %(A B: x-y-2=0)%, phương trình cạnh %(A C: x+2 y-5=0)%. Biết trọng tâm của tam giác %(G(3 ; 2))%. Xác định tọa độ điểm %(A)% và viết phương trình cạnh %(B C)%.",
+        "question_images": [],
+        "solution": "Tọa độ điểm %(A)% là nghiệm của HPT: %(\\left\\{\\begin{array}{l}x-y-2=0 \\\\ x+2 y-5=0\\end{array}\\right.)%<br>Giải hệ phương trình ta được %(\\left\\{\\begin{array}{l}x=3 \\\\ y=1\\end{array}\\right.)%.<br>Do đó: %(A(3 ; 1))%.<br>Gọi %(B(b ; b-2) \\in A B, C(5-2 c ; c) \\in A C)%<br>Do %(G)% là trọng tâm của tam giác %(A B C)% nên %(\\left\\{\\begin{array}{l}3+b+5-2 c=9 \\\\ 1+b-2+c=6\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}b-2 c=1 \\\\ b+c=7\\end{array}\\right.\\right.)%<br>\\[\\Rightarrow\\left\\{\\begin{array}{l}b=5 \\c=2\\end{array} . \\text { Hay } B(5 ; 3), C(1 ; 2)\\right.\\]<br>Một vectơ chỉ phương của cạnh %(B C)% là %(\\vec{u}=\\overrightarrow{B C}=(-4 ;-1))%.<br>Phương trình cạnh %(B C)% là: %(x-4 y+7=0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 4.0,
+        "content": "Cho hình chóp %(S . A B C)% có %(A B C)% là tam giác vuông tại %(B, A B=a \\sqrt{3}, \\widehat{A C B}=60^{\\circ})%, hình chiếu vuông góc của %(S)% lên mặt phẳng %((A B C))% là trọng tâm tam giác %(A B C)%, gọi %(E)% là trung điểm %(A C)% biết %(S E=a \\sqrt{3})%. Tính thể tích khối chóp %(S . A B C)% và khoảng cách từ %(C)% đến mặt phẳng %((S A B))%.",
+        "question_images": [],
+        "solution": "Gọi %(G)% là trọng tâm tám giác %(A B C)%; gọi %(M, N)% lần lượt là trung điểm %(B C, A B)%.<br>Theo giả thiết có %(S G \\perp(A B C))%<br>Xét tam giác %(A B C)% vuông tại %(B)%<br>Có %(A C=\\frac{A B}{\\sin \\widehat{A C B}}=2 a, B C=\\frac{A B}{\\tan \\widehat{B C A}}=a, G E=\\frac{B E}{3}=\\frac{a}{3})%<br>Ta có %(S_{A B C}=\\frac{1}{2} A B \\cdot B C=\\frac{a^{2} \\sqrt{3}}{2})% (đvdt)<br>Xét tam giác %(S G E)% vuông tại %(G)% có %(S G=\\sqrt{S E^{2}-G E^{2}}=\\sqrt{3 a^{2}-\\frac{a^{2}}{9}}=\\frac{a \\sqrt{26}}{3})%<br>Vậy thể tích khối chóp %(S \\cdot A B C)% là %(V_{S \\cdot A B C}=\\frac{1}{3} S G \\cdot S_{A B C}=\\frac{1}{3} \\cdot \\frac{a \\sqrt{26}}{3} \\cdot \\frac{a^{2} \\sqrt{3}}{2}=\\frac{a^{3} \\sqrt{78}}{18})% (đvdt)<br>Có %(C N=3 G N \\Rightarrow d(C,(S A B))=3 d(G,(S A B)))%<br>Vẽ %(G K / / B M(K \\in A B))% ta có %(\\left\\{\\begin{array}{l}A B \\perp S G \\\\ A B \\perp G K\\end{array} \\Rightarrow A B \\perp(S G K)\\right.)%<br>Vẽ %(G H \\perp S K(H \\in S K))% ta có %(\\left\\{\\begin{array}{l}G H \\perp A B \\\\ G H \\perp S K\\end{array} \\Rightarrow G H \\perp(S A B)\\right.)%<br>Suy ra %(d(G,(S A B))=G H)% (2) ; từ (1) và (2) suy ra %(d(C,(S A B))=3 G H)%<br>Ta có %(G K / / B M \\Rightarrow \\frac{G K}{B M}=\\frac{A G}{A M}=\\frac{2}{3} \\Rightarrow G K=\\frac{2}{3} B M=\\frac{2}{3} \\frac{B C}{2}=\\frac{a}{3})%<br>Xét tam giác %(S G K)% vuông tại %(G)% và có đường cao %(G H)%, ta có:<br>Suy ra %(\\frac{1}{G H^{2}}=\\frac{1}{G S^{2}}+\\frac{1}{G K^{2}}=\\frac{9}{26 a^{2}}+\\frac{9}{a^{2}}=\\frac{243}{26 a^{2}} \\Rightarrow G H=\\frac{a \\sqrt{78}}{27})%<br>Vậy %(d(C,(S A B))=3 G H=\\frac{a \\sqrt{78}}{9})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5c09166eef08b0672900d6fa4e963b87.png\" srcset=\"https://docdn.giainhanh.io/media/test/4e3dad8cd11150a70964e94c5dec581d.png 152w, https://docdn.giainhanh.io/media/test/d70a4745f210afdde0be23c8b3f9bf28.png 486w\" width=\"486\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 2.0,
+        "content": "Một khách sạn có 50 phòng. Nếu mỗi phòng cho thuê với giá 400 ngàn đồng một ngày thì toàn bộ phòng được thuê hết. Biết rằng cứ mỗi lần tăng giá lên 20 ngàn đồng thì có thêm hai phòng bỏ trống không có người thuê. Hỏi giám đốc khách sạn phải chọn giá phòng mới là bao nhiêu để thu nhập của khách sạn trong ngày là lớn nhất.",
+        "question_images": [],
+        "solution": "Gọi %(x)% (ngàn đồng) là giá phòng khách sạn cần đặt ra, %(x \\geq 400)%.<br>Giá thuê phòng chênh lệch sau khi tăng là: %(x-400)% (ngàn đồng).<br>Số lượng phòng cho thuê giảm đi khi chọn mức giá thuê phòng mới là:%(\\frac{x-400}{20} \\cdot 2=\\frac{x-400}{10})% (phòng).<br>Số phòng cho thuê với giá %(x)% là: %(50-\\frac{x-400}{10}=\\frac{900-x}{10})%.<br>Tổng doanh thu trong ngày là: %(x\\left(\\frac{900-x}{10}\\right)=-\\frac{x^{2}}{10}+90 x)%.<br>Xét hàm số %(f(x)=-\\frac{x^{2}}{10}+90 x)% với %(x \\geq 400)%.<br>\\[f^{\\prime}(x)=-\\frac{x}{5}+90 \\Rightarrow f^{\\prime}(x)=0 \\Leftrightarrow x=450\\]<br>Lập bảng biến ta thấy %(f(x))% đạt giá trị lớn nhất khi %(x=450)%.<br>Vậy nếu cho thuê với giá 450 ngàn đồng thì khách sạn có doanh thu cao nhất trong ngày.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(A=\\frac{x}{\\sqrt{x}-1}+\\frac{2}{\\sqrt{x}-2}+\\frac{2 x-x \\sqrt{x}-2}{x-3 \\sqrt{x}+2})% (với %(x \\geq 0, x \\neq 1)%, và %(x \\neq 4)% )",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.5,
+        "content": "a) Rút gọn biểu thức %(A)%.",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} A & =\\frac{x(\\sqrt{x}-2)+2(\\sqrt{x}-1)+(2 x-x \\sqrt{x}-2)}{(\\sqrt{x}-1)(\\sqrt{x}-2)} \\\\ \\text { Ta có: }= & \\frac{x \\sqrt{x}-2 x+2 \\sqrt{x}-2+2 x-x \\sqrt{x}-2}{(\\sqrt{x}-1)(\\sqrt{x}-2)} \\\\ = & \\frac{2 \\sqrt{x}-4}{(\\sqrt{x}-1)(\\sqrt{x}-2)}=\\frac{2(\\sqrt{x}-2)}{(\\sqrt{x}-1)(\\sqrt{x}-2)}=\\frac{2}{\\sqrt{x}-1}\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Tính giá trị biểu thức %(A)% tại %(x=3+2 \\sqrt{2})%.",
+        "question_images": [],
+        "solution": "Ta có %(x=3+2 \\sqrt{2}=(\\sqrt{2}+1)^{2})%<br>Do đó: %(A=\\frac{2}{\\sqrt{(\\sqrt{2}+1)^{2}}-1}=\\frac{2}{\\sqrt{2}+1-1}=\\sqrt{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các số thực %(a, b)% sao cho phương trình (ẩn %(x) x^{2}+a x+b=0)% có hai nghiệm là %(\\frac{a}{3})% và %(\\frac{1}{a+2})%.",
+        "question_images": [],
+        "solution": "Theo định lí Vi-ét (thuận và đảo), %(a, b)% là các số thực thỏa mãn yêu cầu đề bài khi và chỉ khi :<br>\\[\\left\\{\\begin{array}{l}a \\neq-2 \\\\frac{a}{3}+\\frac{1}{a+2}=-a \\text { (2) } \\\\frac{a}{3} \\cdot \\frac{1}{a+2}=b\\end{array}\\right.\\]<br>Với %(a)% thỏa mãn (1) ta có (2) %(\\Leftrightarrow 4 a^{2}+8 a+3=0 \\Leftrightarrow a=-\\frac{1}{2}, a=-\\frac{3}{2})%<br>Thay %(a=\\frac{-1}{2})% vào (3) ta được %(b=\\frac{-1}{9})%<br>Thay %(a=\\frac{-3}{2})% vào (3) ta được %(b=-1)%<br>Vậy có tất cả hai cặp số thực %(a, b)% thỏa mãn yêu cầu là %(\\left(\\frac{-1}{2} ; \\frac{-1}{9}\\right),\\left(\\frac{-3}{2} ;-1\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình sau:<br>\\[\\left\\{\\begin{array}{l}x^{3}-2 y+x-2 x^{2} y=0 \\\\sqrt{x+1}-\\sqrt{16-y}=3\\end{array}\\right.\\]",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq-1)% và %(y \\leq 16)%. (1)<br>Với điều kiện đó, ta có:<br>\\[\\begin{array}{c}\\left\\{\\begin{array} { l } { x ^ { 3 } - 2 y + x - 2 x ^ { 2 } y = 0 } \\\\{ \\sqrt { x + 1 } - \\sqrt { 1 6 - y } = 3 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}(x-2 y)\\left(x^{2}+1\\right)=0 \\\\sqrt{x+1}-\\sqrt{16-y}=3\\end{array}\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}x=2 y \\\\sqrt{2 y+1}-\\sqrt{16-y}=3 .\\end{array}\\right.\\end{array}\\]<br>Ta có:<br>\\[\\begin{array}{l}\\text { (3) } \\Leftrightarrow(\\sqrt{2 y+1}-5)-(\\sqrt{16-y}-2)=0 \\\\Leftrightarrow \\frac{2(y-12)}{\\sqrt{2 y+1}+5}+\\frac{y-12}{\\sqrt{16-y}+2}=0 \\\\Leftrightarrow(y-12)\\left(\\frac{2}{\\sqrt{2 y+1}+5}+\\frac{1}{\\sqrt{16-y}+2}\\right)=0 \\\\Leftrightarrow y=12 .\\end{array}\\]<br>Thay %(y=12)% vào (2), ta được %(x=24)%.<br>Cặp số %((x, y)=(24,12))% thỏa mãn %((1))%.<br>Vì thế, cặp số đó là nghiệm duy nhất của hệ phương trình tã cho.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Cho hình vuông %(A B C D)% có cạnh bằng 8 . Trên cạnh %(B C)%, lấy điểm %(M)% sao cho %(B M=5)%. Gọi %(N)% là giao điểm của đường thẳng %(C D)% và đường thẳng vuông góc với %(A M)% tại %(A)%. Gọi %(I)% là trung điểm của %(M N)%. Hãy tính độ dài đoạn thẳng %(D I)%.",
+        "question_images": [],
+        "solution": "Xét hai tam giác vuông %(A B M)% và %(A D N)%, ta có:%(A B=A D, \\angle B A M=\\angle D A N)% (hai góc nhọn có cạnh tương ứng vuông góc)<br>Do đó tam giác %(\\triangle A B M=\\triangle A D N)% (cạnh góc vuông - góc nhọn).<br>Suy ra, %(D N=B M)% (1).<br>Qua %(M)% kẻ đường thẳng song song %(I D)% cắt %(N C)% tại %(E)%.<br>Xét tam giác %(M N E)% :<br>Do %(I)% là trung điểm của %(M N)% và %(I D / / M E)%, nên %(D)% là trung điểm của %(N E)%.<br>Vì thế %(D E=D N=B M)% (theo (1)). Suy ra, %(M C=C E)% (2)<br>Do %(I, D)% tương ứng là trung điểm của %(M N, N E)%, nên %(I D)% là đường trung bình của tam giác.<br>Do đó, %(D I=\\frac{1}{2} E M)%.<br>Xét tam giác vuông (tại %(C)% ) %(M C E)%, theo định lí Pitago, ta có:<br>\\[\\begin{array}{l}E M=\\sqrt{M C^{2}+C E^{2}}=\\sqrt{2 M C^{2}}(\\text { do (2)) } \\\\=\\sqrt{2} M C=\\sqrt{2}(B C-B M)=\\sqrt{2}(8-5)=3 \\sqrt{2} .\\end{array}\\]<br>Vì thế %(D I=\\frac{3 \\sqrt{2}}{2})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/17ce3be810b78343989ccd6e3ed5ee5e.png\" srcset=\"https://docdn.giainhanh.io/media/test/8bbff68304a17799ee54ff5ebb3d908b.png 204w\" width=\"204\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho %(\\left(O_{1}\\right),\\left(O_{2}\\right))% là hai đường tròn, cắt nhau tại điểm %(A, M)%, sao cho %(\\angle O_{1} A O_{2})% là góc tù. Tiếp tuyến tại %(A)% của %(\\left(O_{1}\\right))% cắt %(\\left(O_{2}\\right))% tại điểm thứ hai %(B)% (khác %(A)% ). Tiếp tuyến tại %(A)% của %(\\left(O_{2}\\right))% cắt %(\\left(O_{1}\\right))% tại điểm thứ hai %(D)% (khác %(A)% ).",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Trên cung %(A D)% không chứa %(M)% của %(\\left(O_{1}\\right))%, lấy điểm %(K)%, khác %(A)% và %(D)%, sao cho đường thẳng %(K M)% cắt cung %(A B)% không chứa %(M)% của %(\\left(O_{2}\\right))% tại điểm %(L)%, khác %(A)% và %(B)%. Chứng minh rằng đường thẳng %(A K)% song song với đường thẳng %(B L)%.",
+        "question_images": [],
+        "solution": "Với giả thuyết %(\\angle O_{1} A O_{2})% là góc tù, ta có thế hình như ở trên.<br>Xét %(\\left(O_{1}\\right))%, ta có:%(\\angle A K M=\\angle M A B)% (góc nội tiếp và góc tạo bởi tiếp tuyến và một dây, cùng chắn cung %(A M)% không chứa %(D)% ). (1)<br>Xét %(\\left(O_{2}\\right))%, ta có:%(\\angle M L B=\\angle M A B)% (hai góc nội tiếp cùng chắn cung %(M B)% không chứa %(A)% ). (2)<br>Từ (1) và (2), suy ra, %(\\angle A K M=\\angle M L B)%.<br>Do đó, %(A K / / L B)% (vì có hai góc ở vị trí so le trong bằng nhau).<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9371e8a28e7fdbe7f608b56407eb0e00.png\" srcset=\"https://docdn.giainhanh.io/media/test/cb8a57efcc4410322258e76468e61dc7.png 232w\" width=\"232\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Gọi %(C)% là điểm đối xứng của %(A)% qua %(M)%. Chứng minh rằng %(A B C D)% là tứ giác nội tiếp.",
+        "question_images": [],
+        "solution": "Xét %(\\left(O_{1}\\right))% ta có:<br>%(\\angle M D A=\\angle M A B)% (góc nội tiếp và góc tạo bởi tiếp tuyến và một dây, cùng chắn cung %(A M)% không chứa %(D)% ). (3)<br>Xét %(\\left(O_{2}\\right))% ta có%(\\angle M A D=\\angle M B A)% (góc tạo bởi tiếp tuyến và một dây, góc nộ tiếp, cùng chắn cung %(A M)% không chứa %(B)% ) (4)<br>Từ (3) và (4), suy ra, %(\\triangle A M D \\sim \\triangle B M A)%.<br>Do đó, %(\\frac{M A}{M D}=\\frac{M B}{M A})%; mà %(M C=M A(\\mathrm{gt}))%, nên %(\\frac{M C}{M D}=\\frac{M B}{M C})%. (5)<br>Do trong một tam giác, mõ̃i góc ngoài bằng tổng hai góc trong không kề với nó, nên cộng (3) và (4), vế theo vế, ta được:<br>\\[\\angle D M C=\\angle C M B(6)\\]<br>Từ (5) và (6), suy ra, %(\\triangle D M C \\backsim \\triangle C M B)%.Do đó, %(\\angle D C M=\\angle C B M)%.Vì thế, ta có:<br>\\[\\begin{array}{l}\\angle D C B=\\angle D C M+\\angle M C B=\\angle C B M+\\angle M C B \\\\=180^{\\circ}-\\angle B M C=180^{\\circ}-(\\angle B A M+\\angle M B A) \\\\=180^{\\circ}-(\\angle B A M+\\angle M A D) \\quad(\\operatorname{do}(4)) \\\\=180^{\\circ}-\\angle B A D\\end{array}\\]<br>Suy ra, %(\\angle B A D+\\angle D C B=180^{\\circ})%. Do đó, %(A B C D)% là tứ giác nội tiếp.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3c1d6c56545d72f5bab31019067898ca.png\" srcset=\"https://docdn.giainhanh.io/media/test/1dbf440e20bdd2b4b209c4d0684ea699.png 177w\" width=\"177\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho %(m, p, r)% là các số nguyên tố thỏa mãn %(m p+1=r)%. Chứng minh rằng %(m^{2}+r)% hoặc %(p^{2}+r)% là số chính phương.",
+        "question_images": [],
+        "solution": "Vì %(m, p)% là các số nguyên tố nên %(m p \\geq 4)%. Do đó, %(r \\geq 5)%.<br>Mà %(r)% là nguyên tố nên %(r)% là số lẻ.<br>Vì thế, %(m p=r-1)% là một số chẵn.<br>Suy ra, trong hai số %(m, p)%, có ít nhất một số bằng 2 .<br>- Nếu %(m=2)% thì %(r=2 p+1)%.<br>Do đó:<br>\\[p^{2}+r=p^{2}+2 p+1=(p+1)^{2}\\]<br>Là một số chính phương.<br>- Nếu %(p=2)% thì %(r=2 m+1)%.<br>Do đó %(m^{2}+r=m^{2}+2 m+1=(m+1)^{2})% là một số chính phương",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 0.5,
+        "content": "Tìm tất cả các số nguyên tố %(q)%, sao cho tồn tại số nguyên dương %(n)% để %(n^{2}+22 q)% là một lũy thừa với số mũ nguyên dương của 11 .",
+        "question_images": [],
+        "solution": "Giả sử %(q)% là số nguyên tố thỏa mãn yêu cầu đề bài.<br>Khi đó, sẽ tồn tại các số nguyên dương %(n, k)% sao cho %(n^{2}+22 q=11^{k})%.<br>Do %(n^{2}+22 q\\gt 11)% nên %(11^{k}>11)%; suy ra %(k \\geq 2)%.<br>Vì thế, từ (1), ta có:<br>\\[\\left(n^{2}+22 q\\right) \\vdots 11^{2} \\text {. }\\]<br>Do %(22 q: 11)% nên từ (1) suy ra, %(n^{2}: 11)%; mà 11 là số nguyên tố, nên %(n^{2}: 11^{2})%. (3)Từ (2) và (3) suy ra, %(22 q: 11^{2})%.<br>Do đó, %(q: 11)%; mà %(q)% là số nguyên tố nên %(q=11)%.<br>Ngược lại, với %(q=11)%, ta có: %(33^{2}+22 \\cdot 11=11^{2} .(9+2)=11^{3})%.<br>Vậy có duy nhất số %(q)% thỏa yêu cầu của đề bài là %(q=11)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Có bốn căn phòng nằm liên tiếp nhau, thành một hàng ngang. Có một con chuột trốn trong các căn phòng đó; mỗi ngày nó trốn trong một căn phòng. Có một chú mèo tìm cách bắt con chuột này. Cứ mỗi tối, mèo ta vào một căn phòng, và nếu con chuột đang trốn ở căn phòng ấy thì nó sẽ bị mèo bắt. Biết rằng, nếu chưa bị mèo bắt mỗi sáng, con chuột lại chạy sang trốn ở căn phòng nằm ngay bên cạnh. Hỏi chú mèo có thể đảm bảo chắc chắn sẽ bắt được con chuột sau tối đa bốn tối hay không? Vì sao?",
+        "question_images": [],
+        "solution": "Câu trả lời là \"có\".<br>Lần lượt, từ trái qua phải, đánh số thứ tự các căn phòng bời %(1,2,3,4)%.<br>Với mỗi %(k=1,2,3,4)%, gọi căn phòng được đánh số %(k)% là \"phòng %(k)% \".<br>Trong phần trình bày dưới đây, thứ tự của các ngày được tính từ ngày đầu tiên mèo vào dãy phòng để lùng bắt chuột.<br>Xét lịch trình lùng bắt chuột như sau của mèo:<br>- Tối ngày 1: Vào phòng 2 ;<br>- Tối ngày 2 : Vào phòng 3 ;<br>- Tối ngày 3 : Vào phòng 3 ;<br>- Tối ngày 4 : Vào phòng 2 .<br>Khi đó, nếu ngày 1 , chuột trốn ở phòng 2 hoặc phòng 4 , thì mèo sẽ bắt được chuột vào tối ngày 1 , hoặc vào tối ngày 2 (bắt được vào tối ngày 1 nếu ngày 1 chuột trốn ở phòng, và bắt được vào tối ngày 2 nếu ngày 1 chuột trốn ở phòng 4).<br>Nếu ngày 1 , chuột trốn ở phòng 1 hoặc phòng 3 , thì nó %(\\mathrm{s})% thoát được mèo trong hai tối đầu tiên.<br>Tuy nhiên, do sang ngày 3 , theo cách trốn của mình, chuột sẽ lại trốn ở phòng 1 hoặc phòng 3 , nên nó sẽ bị mèo bắt vào tối ngày 3 , hoặc vào tối ngày 4 (bị bắt vào tối ngày 3 , nếu ngày 3 nó trốn ở phòng 3 ; và bị bắt vào tối ngày 4 , nếu ngày 3 nó trốn ở phòng 1 ).<br>Vậy, với lịch trình lùng bắt nêu trên, mèo sẽ bắt được chuột, sau tối đa bốn tối.<br>Do đó, câu trả lời cho câu hỏi của bài ra là \"có\".<br>Lưu ý: Lịch trình lùng bắt trên đây không phải là lịch trình duy nhất để mèo đạt đuợc mục tiêu đặt ra ớ đè̀ bài.",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 0.5,
+        "content": "Cho %(x, y, z)% là các số thực lớn hơn 2021 , thỏa mãn %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=\\frac{2}{2021})%. Chứng minh rằng, ta có bất đẳng thức sau:<br>\\[\\sqrt{x+y+z} \\geq \\sqrt{x-2021}+\\sqrt{y-2021}+\\sqrt{z-2021} .\\]",
+        "question_images": [],
+        "solution": "Từ giả thuyết đề bài suy ra %(\\frac{2021}{x}+\\frac{2021}{y}+\\frac{2021}{z}=2)%<br>Do đó %(\\frac{x-2021}{x}+\\frac{y-2021}{y}+\\frac{z-2021}{z}=3-2=1)%<br>Suy ra %(x+y+z=(x+y+z)\\left(\\frac{x-2021}{x}+\\frac{y-2021}{y}+\\frac{z-2021}{z}\\right))%<br>Do %(x, y, z\\gt 2021)% nên %(x-2021, y-2021, z-2021>0)%.<br>Vì thế, bằng cách áp dụng bất đẳng thức Bunhiacôpxki cho hai bộ ba số thực dương %((\\sqrt{x}, \\sqrt{y}, \\sqrt{z}))% và %(\\left(\\frac{\\sqrt{x-2021}}{\\sqrt{x}}, \\frac{\\sqrt{y-2021}}{\\sqrt{y}}, \\frac{\\sqrt{z-2021}}{\\sqrt{z}}\\right))%, từ (*) ta được:<br>\\[x+y+z \\geq(\\sqrt{x-2021}+\\sqrt{y-2021}+\\sqrt{z-2021})^{2}\\]<br>Do đó, %(\\sqrt{x+y+z} \\geq \\sqrt{x-2021}+\\sqrt{y-2021}+\\sqrt{z-2021})%.(Đẳng thức xảy ra khi %(x=y=z=\\frac{6063}{2})% ).",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,97 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Rút gọn biểu thức %(A=\\sqrt{x+4 \\sqrt{x-4}}+\\sqrt{x-4 \\sqrt{x-4}})% với %(x \\geq 4)%.",
+        "question_images": [],
+        "solution": "Với %(x \\geq 4)%, ta có<br>%(\\begin{aligned} A & =\\sqrt{(x-4)+4 \\sqrt{x-4}+4}+\\sqrt{(x-4)-4 \\sqrt{x-4}+4}=\\sqrt{(\\sqrt{x-4}+2)^{2}}+\\sqrt{(\\sqrt{x-4}-2)^{2}} \\\\ & =\\sqrt{x-4}+2+|\\sqrt{x-4}-2| .\\end{aligned})%<br>Xét các trường hợp:<br>- Với %(x \\geq 8)%, ta có %(A=\\sqrt{x-4}+2+\\sqrt{x-4}-2=2 \\sqrt{x-4})%.<br>- Với %(4 \\leq x\\lt 8)%, ta có %(A=\\sqrt{x-4}+2+2-\\sqrt{x-4}=4)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c, d, e, f)% là các số thực khác 0 , thỏa mãn %(\\frac{a}{d}+\\frac{b}{e}+\\frac{c}{f}=1)% và %(\\frac{d}{a}+\\frac{e}{b}+\\frac{f}{c}=0)%. Tính giá trị của biểu thức %(B=\\frac{a^{2}}{d^{2}}+\\frac{b^{2}}{e^{2}}+\\frac{c^{2}}{f^{2}})%.",
+        "question_images": [],
+        "solution": "Với %(a, b, c, d, e, f)% là các số thực khác 0 , ta có:<br>\\[\\begin{array}{l}\\frac{a}{d}+\\frac{b}{e}+\\frac{c}{f}=1 \\Leftrightarrow\\left(\\frac{a}{d}+\\frac{b}{e}+\\frac{c}{f}\\right)^{2}=1 \\Leftrightarrow \\frac{a^{2}}{d^{2}}+\\frac{b^{2}}{e^{2}}+\\frac{c^{2}}{f^{2}}+\\frac{2 a b}{d e}+\\frac{2 b c}{e f}+\\frac{2 c a}{f d}=1 \\\\Leftrightarrow \\frac{a^{2}}{d^{2}}+\\frac{b^{2}}{e^{2}}+\\frac{c^{2}}{f^{2}}+\\frac{2 a b c}{d e f}\\left(\\frac{f}{c}+\\frac{d}{a}+\\frac{e}{b}\\right)=1 \\Leftrightarrow \\frac{a^{2}}{d^{2}}+\\frac{b^{2}}{e^{2}}+\\frac{c^{2}}{f^{2}}=1, \\text { vì } \\frac{d}{a}+\\frac{e}{b}+\\frac{f}{c}=0 .\\end{array}\\]<br>Vậy %(B=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các số tự nhiên %(n)% sao cho %(n^{2}-14 n-256)% là một số chính phương.",
+        "question_images": [],
+        "solution": "Đặt %(n^{2}-14 n-256=k^{2})%, với %(k \\in \\mathbb{N})%.<br>Khi đó %(n^{2}-14 n-256=k^{2} \\Leftrightarrow(n-7)^{2}-k^{2}=305 \\Leftrightarrow(n-7+k)(n-7-k)=305)%.<br>Mà %(305=1.305=(-1) \\cdot(-305)=5 \\cdot 61=(-5) \\cdot(-61))% và %((n-7-k) \\leq(n-7+k))%, với %(k \\in \\mathbb{N})%.<br>Ta xét các trường hợp sau:<br>TH1: %(\\left\\{\\begin{array}{c}n-7-k=1 \\\\ n-7+k=305\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}n=160 \\\\ k=152\\end{array}\\right.\\right.)%<br>TH2: %(\\left\\{\\begin{array}{c}n-7-k=-305 \\\\ n-7+k=-1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{c}n=-146 \\\\ k=152\\end{array}\\right.\\right.)%<br>TH3: %(\\left\\{\\begin{array}{l}n-7-k=5 \\\\ n-7+k=61\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}n=40 \\\\ k=28\\end{array}\\right.\\right.)%<br>TH4: %(\\left\\{\\begin{array}{l}n-7-k=-61 \\\\ n-7+k=-5\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}n=-26 \\\\ k=28\\end{array}\\right.\\right.)%<br>Vì %(n)% và %(k)% là các số tự nhiên nên chọn %(n=40)% hoặc %(n=160)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Cho %(a)% là số tự nhiên lớn hơn 5 và không chia hết cho 5 .Chứng minh rằng %(a^{8 n}+3 a^{4 n}-4)% chia hết cho 5, với mọi số tự nhiên %(n)%.",
+        "question_images": [],
+        "solution": "Ta có %(a^{8 n}+3 a^{4 n}-4=\\left(a^{8 n}-1\\right)+3\\left(a^{4 n}-1\\right)=\\left[\\left(a^{8}\\right)^{n}-1\\right]+3\\left[\\left(a^{4}\\right)^{n}-1\\right])%<br>%(\\begin{array}{l}=\\left(a^{8}-1\\right)\\left[\\left(a^{8}\\right)^{n-1}+\\left(a^{8}\\right)^{n-2}+\\left(a^{8}\\right)^{n-3}+\\ldots+1\\right]+3\\left(a^{4}-1\\right)\\left[\\left(a^{4}\\right)^{n-1}+\\left(a^{4}\\right)^{n-2}+\\left(a^{4}\\right)^{n-3}+\\ldots+1\\right] \\\\ =\\left(a^{4}+1\\right)\\left(a^{4}-1\\right)\\left[\\left(a^{8}\\right)^{n-1}+\\left(a^{8}\\right)^{n-2}+\\left(a^{8}\\right)^{n-3}+\\ldots+1\\right]+3\\left(a^{4}-1\\right)\\left[\\left(a^{4}\\right)^{n-1}+\\left(a^{4}\\right)^{n-2}+\\left(a^{4}\\right)^{n-3}+\\ldots+1\\right] \\\\ =\\left(a^{4}-1\\right)\\left(a^{4}+1\\right) \\cdot B+3\\left(a^{4}-1\\right) \\cdot C=\\left(a^{4}-1\\right)\\left[\\left(a^{4}+1\\right) \\cdot B+3 C\\right]=\\left(a^{2}-1\\right)\\left(a^{2}+1\\right)\\left[\\left(a^{4}+1\\right) \\cdot B+3 C\\right] \\\\ =\\left(a^{2}+1\\right)\\left(a^{2}-1\\right) \\cdot D .\\end{array})%<br>Vì %(a)% là số tự nhiên lớn hơn 5 và không chia hết cho 5 nên ta xét các trường hợp sau:<br>TH1: %(a=5 k+1)%, khi đó %(a^{2}-1=\\left[(5 k+1)^{2}-1\\right]: 5 \\Rightarrow\\left(a^{8 n}+3 a^{4 n}-4\\right): 5)%<br>TH2: %(a=5 k+2)%, khi đó %(a^{2}+1=\\left[(5 k+2)^{2}+1\\right]: 5 \\Rightarrow\\left(a^{8 n}+3 a^{4 n}-4\\right): 5)%<br>TH3: %(a=5 k+3)%, khi đó %(a^{2}+1=\\left[(5 k+3)^{2}+1\\right]: 5 \\Rightarrow\\left(a^{8 n}+3 a^{4 n}-4\\right): 5)%<br>TH4: %(a=5 k+4)%, khi đó %(a^{2}-1=\\left[(5 k+4)^{2}-1\\right]: 5 \\Rightarrow\\left(a^{8 n}+3 a^{4 n}-4\\right): 5)%<br>Vậy %(a^{8 n}+3 a^{4 n}-4)% chia hết cho 5 , với mọi số tự nhiên %(n)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Giải phương trình %(x^{2}+\\sqrt{x+2014}=2014)%",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq-2014)%<br>Đặt %(t=\\sqrt{x+2014},(t \\geq 0) \\Rightarrow t^{2}=x+2014)%<br>Ta có hệ phương trình sau: %(\\left\\{\\begin{array}{ll}x^{2}+t=2014 & (1) \\\\ t^{2}-x=2014 & (2)\\end{array}\\right.)%<br>Lấy (2)-(1) vế theo vế ta được: %(t^{2}-x^{2}-x-t=0 \\Leftrightarrow(x+t)(t-x-1)=0 \\Leftrightarrow\\left[\\begin{array}{l}t=-x \\\\ t=x+1\\end{array}\\right.)%<br>Với %(t=-x)% thay vào (1) ta được %(x^{2}-x-2014=0 \\Leftrightarrow x=\\frac{1+\\sqrt{8057}}{2})% (loại vì %(t \\geq 0)% ) hoặc %(x=\\frac{1-\\sqrt{8057}}{2})% (nhận)<br>Với %(t=x+1)% thay vào (1) ta được %(x^{2}+x-2013=0 \\Leftrightarrow x=\\frac{-1-\\sqrt{8053}}{2})% (loại vì %(t \\geq 0)% ) hoặc %(x=\\frac{-1+\\sqrt{8053}}{2})% (nhận)<br>Vậy phương trình có nghiệm là %(x=\\frac{1-\\sqrt{8057}}{2})% hoặc %(x=\\frac{-1+\\sqrt{8053}}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Giäli hệ phương trình %(\\left\\{\\begin{array}{l}x+y+z=2 \\\\ 2 x y-z^{2}=4\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Đặt %(\\left\\{\\begin{array}{l}S=x+y \\\\ P=x y\\end{array}\\right.)%<br>Hệ phương trình đã cho trở thành %(\\left\\{\\begin{array}{l}S=2-z \\\\ P=\\frac{1}{2}\\left(z^{2}+4\\right)\\end{array}\\right.)%<br>Khi đó %(x, y)% là nghiệm của phương trình %(X^{2}-(2-z) X+\\frac{1}{2}\\left(z^{2}+4\\right)=0(1))%<br>Ta có %(\\Delta=(2-z)^{2}-4 \\cdot \\frac{1}{2}\\left(z^{2}+4\\right)=-z^{2}-4 z-4=-(z+2)^{2})%<br>Phương trình (1) có nghiệm %(\\Leftrightarrow \\Delta \\geq 0 \\Leftrightarrow(z+2)^{2} \\leq 0 \\Leftrightarrow z=-2)%<br>Thay %(z=-2)% vào phương trình (1) ta được %(X^{2}-4 X+4=0 \\Leftrightarrow X=2)%<br>%(\\Rightarrow)% phương trình (1) có nghiệm %(x=y=2, z=-2)%<br>Vậy hệ phương trình đã cho có nghiệm %(\\left\\{\\begin{array}{l}x=2 \\\\ y=2 \\\\ z=-2\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là các số thực thỏa mãn %(a^{2}+b^{2}+c^{2}=1)%. Chứng minh rằng %(a b c+2(1+a+b+c+a b+a c+b c) \\geq 0)%.",
+        "question_images": [],
+        "solution": "Ta có %(a^{2}+b^{2}+c^{2}=1 \\Leftrightarrow a^{2}=1-b^{2}-c^{2} \\Rightarrow-1 \\leq a \\leq 1 \\Rightarrow 1+a \\geq 0)%<br>Tương tự ta cũng có %(1+b \\geq 0,1+c \\geq 0)%<br>Khi đó %((1+a)(1+b)(1+c) \\geq 0 \\Leftrightarrow 1+a+b+c+a b+a c+b c+a b c \\geq 0)% (1)<br>Mặt khác %((1+a+b+c)^{2} \\geq 0 \\Leftrightarrow 1+2(a+b+c)+(a+b+c)^{2} \\geq 0)%<br>\\[\\begin{array}{l}\\Leftrightarrow 1+2(a+b+c)+a^{2}+b^{2}+c^{2}+2 a b+2 b c+2 c a \\geq 0 \\\\left.\\Leftrightarrow 2(1+a+b+c+a b+a c+b c) \\geq 0 \\text { (vì } a^{2}+b^{2}+c^{2}=1\\right) \\\\Leftrightarrow 1+a+b+c+a b+a c+b c \\geq 0 \\text { (2) }\\end{array}\\]<br>Lấy (1)+(2) vế theo vế ta được: %(a b c+2(1+a+b+c+a b+a c+b c) \\geq 0)% (đpcm).",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.5,
+        "content": "Cho hình bình hành %(A B C D)%, các điềm %(M, N)% theo thứ tự thuộc các cạnh %(A B)% và %(B C)% sao cho %(A N=C M)%. Gọi %(K)% là giao điểm của %(A N)% và %(C M)%. Chứng minh %(K D)% là tia phân giác của góc %(A K C)%",
+        "question_images": [],
+        "solution": "Kẻ %(D I \\perp A N)% tại %(I, D H \\perp M C)% tại %(H)%<br>Ta có %(S_{\\triangle A D N}=\\frac{1}{2} D I . A N, S_{\\triangle D M C}=\\frac{1}{2} D H . \\mathrm{MC})%<br>Mà %(S_{\\triangle A D N}=S_{\\triangle D M C}=\\frac{1}{2} S_{A B C D})%<br>Suy ra DI.AN %(=D H \\cdot M C \\Rightarrow D I=D H)%<br>Khi đó ta có %(\\triangle I D K=\\triangle H D K)% (cạnh huyền - cạnh góc vuông)<br>%(\\Rightarrow \\widehat{I K D}=\\widehat{H K D})% hay %(K D)% là tia phân giác của góc %(A K C)% (đpcm)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/64bb859025a00c6921619150ffa3f397.png\" srcset=\"https://docdn.giainhanh.io/media/test/bdcad13e2e5d80cce971f1db0dca5b2a.png 224w\" width=\"224\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 1.5,
+        "content": "Cho %(\\triangle A B C)% vuông tại %(A(A B\\lt A C))%. Biết %(B C=4+4 \\sqrt{3})% và bán kính đường tròn nội tiếp %(\\triangle A B C)% bằng 2. Tính số đo của góc %(B)% và góc %(C)% của %(\\triangle A B C)%.",
+        "question_images": [],
+        "solution": "Gọi %(I, H, K)% lần lượt là các tiếp điểm của đường tròn nội tiếp %(\\triangle A B C)% với các cạnh %(A B)%, %(A C, B C)%<br>Ta có %(A B+A C=A I+I B+A H+H C)%<br>%(\\begin{array}{l}=A I+A H+B K+K C=8+4 \\sqrt{3}(1) . \\\\ \\Rightarrow(A B+A C)^{2}=(8+4 \\sqrt{3})^{2} \\Rightarrow A B^{2}+A C^{2}+2 A B \\cdot A C=(8+4 \\sqrt{3})^{2} \\\\ \\Rightarrow B C^{2}+2 A B \\cdot A C=(8+4 \\sqrt{3})^{2} \\Rightarrow A B \\cdot A C=\\frac{(8+4 \\sqrt{3})^{2}-B C^{2}}{2}=24+16 \\sqrt{3}(2) .\\end{array})%<br>Từ (1) và %((2))%, kết hợp với %(A B\\lt A C)% suy ra %(A B=2+2 \\sqrt{3}, A C=6+2 \\sqrt{3})%<br>Khi đó %(\\sin C=\\frac{A B}{B C}=\\frac{2+2 \\sqrt{3}}{4+4 \\sqrt{3}}=\\frac{1}{2} \\Rightarrow \\hat{C}=30^{\\circ}, \\hat{B}=60^{\\circ})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b11501d870e5a3056797d343b0f04050.png\" srcset=\"https://docdn.giainhanh.io/media/test/57b212e5d0c898a7824422f082f92a8c.png 241w\" width=\"241\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "10",
+        "group_content": "Cho %(\\triangle A B C)% nội tiếp đường tròn tâm %(O)%. Trên cạnh %(B C)% lấy điểm %(D)% tùy ý %((D)% khác %(B)% và %(C)% ). Đường tròn tâm %(O_{1})% qua %(D)% và tiếp xúc với %(A B)% tại %(B)%, đường tròn tâm %(O_{2})% qua %(D)% và tiếp xúc với %(A C)% tại %(C)%, hai đường tròn này cắt nhau tại điểm thứ hai là %(E)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh rằng khi %(D)% di động trên cạnh %(B C)% thì đường thẳng %(D E)% luôn đi qua một điểm cố định.",
+        "question_images": [],
+        "solution": "Kéo dài %(E D)% cắt %((O))% tại %(I)%<br>%(A B)% là tiếp tuyến của %(\\left(O_{1}\\right) \\Rightarrow \\widehat{A B D}=\\widehat{B E D})%<br>%(A C)% là tiếp tuyến của %(\\left(O_{2}\\right) \\Rightarrow \\widehat{A C D}=\\widehat{C E D})%.<br>\\[\\Rightarrow \\widehat{A B D}+\\widehat{A C D}=\\widehat{B E C} \\Rightarrow \\widehat{B E C}+\\widehat{B A C}=180^{\\circ}\\]<br>Suy ra tứ giác %(A B E C)% nội tiếp %((O))%.<br>\\[\\Rightarrow \\widehat{A I E}=\\widehat{A C E}=\\widehat{A C D}+\\widehat{D C E}=\\widehat{C E D}+\\widehat{D C E}=\\widehat{I D C}\\]<br>%(\\Rightarrow A I / / B C \\Rightarrow I)% cố định<br>Vậy đường thẳng %(D E)% luôn đi qua điểm %(I)% cố định (đpcm).<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/832b5d0193976e0dd8cbd3cf52b6f76a.png\" srcset=\"https://docdn.giainhanh.io/media/test/d8b4018c7f6507e19e69a6fe7e32a366.png 121w\" width=\"121\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Giả sử %(\\triangle A B C)% cân tại %(A)%, chứng minh rằng tích %(A D \\cdot A E)% không phụ thuộc vào vị trí điểm %(D)% trên cạnh %(B C)%.",
+        "question_images": [],
+        "solution": "Ta có %(\\overparen{A B}=\\overparen{I C})% (do %(A I / / B C)% )<br>Mà %(\\triangle A B C)% cân tại %(A)% nên %(\\overparen{A B}=\\overparen{A C} \\Rightarrow \\overparen{A C}=\\overparen{I C} \\Rightarrow I \\equiv A)%<br>%(\\Rightarrow A, D, E)% thẳng hàng<br>%(\\Rightarrow A D . A E=A B^{2}()% vì %(\\triangle A B E \\sim \\triangle A D B))%<br>Vậy %(A D . A E)% không phụ thuộc vào vị trí điểm %(D)% trên cạnh %(B C)% (đpcm).",
+        "question_type": "essay"
+    }
+]

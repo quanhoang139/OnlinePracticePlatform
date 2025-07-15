@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(P=\\frac{2 x^{2}+2}{x}+\\frac{x^{3}-1}{x^{2}-x}-\\frac{x^{3}+1}{x^{2}+x})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Rút gọn biểu thức A",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}P=\\frac{2 x^{2}+2}{x}+\\frac{x^{3}-1}{x^{2}-x}-\\frac{x^{3}+1}{x^{2}+x}\\binom{x \\neq 0}{x \\neq \\pm 1}=\\frac{2 x^{2}+1}{x}+\\frac{(x-1)\\left(x^{2}+x+1\\right)}{x(x-1)}-\\frac{(x+1)\\left(x^{2}-x+1\\right)}{x(x+1)} \\\\ =\\frac{2 x^{2}+1+x^{2}+x+1-x^{2}+x-1}{x}=\\frac{2 x^{2}+2 x+2}{x}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Tìm các giá trị của %(x)% để giá trị của %(P)% lớn hơn 2",
+        "question_images": [],
+        "solution": "Vì %(2 x^{2}+2 x+2=x^{2}+(x+1)^{2}+1\\gt 0)% với mọi giá trị của x<br>Suy ra %(P>0 \\Leftrightarrow\\left\\{\\begin{array}{l}x>0 \\\\ x \\neq 1\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Giả sử %(x, y)% là hai số thực phân biệt thỏa mãn %(\\frac{1}{x^{2}+1}+\\frac{1}{y^{2}+1}=\\frac{2}{x y+1})%. Tính giá trị của biểu thức %(P=\\frac{1}{x^{2}+1}+\\frac{1}{y^{2}+1}+\\frac{2}{x y+1})%",
+        "question_images": [],
+        "solution": "Ta có%(: \\frac{1}{x^{2}+1}+\\frac{1}{y^{2}+1}=\\frac{2}{x y+1} \\Leftrightarrow \\frac{1}{x^{2}+1}-\\frac{1}{x y+1}+\\frac{1}{y^{2}+1}-\\frac{1}{x y+1}=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow \\frac{x y-y^{2}}{\\left(x^{2}+1\\right)(x y+1)}+\\frac{x y-y^{2}}{\\left(y^{2}+1\\right)(x y+1)}=0 \\\\Rightarrow\\left(x y-y^{2}\\right)\\left(y^{2}+1\\right)+\\left(x y-y^{2}\\right)\\left(x^{2}+1\\right)=0 \\\\Leftrightarrow(x-y)^{2}(x y-1)=0 \\Leftrightarrow x y=1(\\text { do } x \\neq y) \\Rightarrow P=2\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Giải phương trình sau với %(m)% là tham số %(\\frac{1}{|x-2|}=\\frac{1}{|x-6 m|}(1))%",
+        "question_images": [],
+        "solution": "Điều kiện : %(x \\neq 2, x \\neq 6 m, \\operatorname{pt}(1) \\Rightarrow|x-2|=|x-6 m|)%<br>Xét %(x-2=x-6 m \\Leftrightarrow 0 x=6 m-2)%<br>Nếu %(m=\\frac{1}{3})% thì phương trình có vô số nghiệm %(x \\neq 2)%<br>Nếu %(m \\neq \\frac{1}{3})% thì phương trình vô nghiệm<br>Xét %(x-2=-(x-6 m) \\Leftrightarrow x=3 m+1)%%(x=3 m+1)% là nghiệm của phương trình nếu %(\\left\\{\\begin{array}{l}3 m+1 \\neq 2 \\\\ 3 m+1 \\neq 6 m\\end{array} \\Leftrightarrow m \\neq \\frac{1}{3}\\right.)%<br>Vậy<br>Nếu %(m=\\frac{1}{3})% thì phương trình có vô số nghiệm %(x \\neq 2)%<br>Nếu %(m \\neq \\frac{1}{3})% thì phương trình có nghiệm duy nhất %(x=3 m+1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Tìm %(x, y)% để biểu thức sau nhận giá trị nhỏ nhất, tìm giá trị nhỏ nhất đó %(B=1892-2 x^{2}-y^{2}+2 x y-10 x+14 y)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}B=1945-\\left(x^{2}-4 x+4\\right)-\\left[(y-x)^{2}-14(y-x)+49\\right] \\B=1945-(x-2)^{2}-(y-x-7)^{2}\\end{array}\\]<br>Giả sử tồn tại cặp số %(\\left(x_{0} ; y_{0}\\right))% để tại đó %(B)% đạt giá trị nhỏ nhất và<br>\\[B_{\\min }=B_{0}=1945-\\left(x_{0}-2\\right)^{2}-\\left(y_{0}-x_{0}-7\\right)^{2}\\]<br>Trường hợp %(x_{0} \\geq 2)%, xét %(x_{1}=y_{0}-x_{0}-5, y_{1}=y_{0}+1)%<br>Ta có : %(B_{1}=B\\left(x_{1} ; y_{1}\\right)=1945-\\left(y_{0}-x_{0}-7\\right)^{2}-\\left(x_{0}-1\\right)^{2})%<br>Vì %(0 \\leq x_{0}-2\\lt x_{0}-1 \\Rightarrow\\left(x_{0}-2\\right)^{2}\\lt \\left(x_{0}-1\\right)^{2} \\Rightarrow B_{1}\\lt B_{0})%<br>Xét trường hợp %(x_{0}\\lt 2)%, xét %(x_{2}=y_{0}-x_{0}-5, y_{2}=y_{0}-1)%<br>Ta có %(B_{2}=B\\left(x_{2}, y_{2}\\right)=1945-\\left(y_{0}-x_{0}-7\\right)^{2}-\\left(x_{0}-3\\right)^{2})%<br>Vì %(x_{0}-3\\lt x_{0}-2\\lt 0 \\Rightarrow\\left(x_{0}-3\\right)^{2}\\gt \\left(x_{0}-2\\right)^{2} \\Rightarrow B_{2}\\lt B_{0})%<br>Như vậy ta luôn tìm được giá trị của B nhỏ hơn %(B_{0})%, điều đó là vô lý vì %(B_{0})% là giá trị nhỏ nhất<br>Vậy không tồn tại giá trị của %(x, y)% để B có giá trị nhỏ nhất",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Tìm các cặp số nguyên %((x ; y))% thỏa mãn %(x^{3}+2 x^{2}+3 x+2=y^{3} \\mathbf{( 1 )})%",
+        "question_images": [],
+        "solution": "Từ (1) %(\\Rightarrow y^{3}-x^{3}=2 x^{2}+3 x+2\\gt 0 \\Rightarrow y>x)%<br>Ngoài ra %((x+2)^{3}-y^{3}=4 x^{2}+9 x+6>0 \\Rightarrow y\\lt x+2 \\Rightarrow y=x+1)%<br>Thay vào (1) tìm được %(x=1)% hoặc %(x=-1)%<br>Suy ra %((x ; y)=(-1 ; 0))% hoặc %((x, y)=(1 ; 2))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho tam giác %(A B C)% nhọn, đường cao %(A D, B E, C F)% gặp nhau ở H. Gọi %(M, N)% lần lượt là hình chiếu của %(\\mathbf{H})% trên %(E F, E D)%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh tam giác %(B E D)% đồng dạng với tam giác %(B C H)%",
+        "question_images": [],
+        "solution": "%(\\triangle B H D \\sim \\triangle B C E)% vì có %(\\angle E B C)% chung và %(\\angle D=\\angle E=90^{\\circ} \\Rightarrow \\frac{B H}{B C}=\\frac{B D}{B E})%<br>Từ đó suy ra %(\\triangle B D E \\sim \\triangle H B C)% (c.g.c)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b0c36e7e858b1ba908a57a6e45778a87.png\" srcset=\"https://docdn.giainhanh.io/media/test/1b342affc3d0d50bfaa4fb2a49738223.png 186w, https://docdn.giainhanh.io/media/test/2f573efd2b9835869b62a6c1a4935763.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Chứng minh %(H M=H N)%",
+        "question_images": [],
+        "solution": "%(\\triangle H F E \\sim \\triangle H B C()% c.g.c %())% vì %(\\angle E H F=\\angle B H C)% (đối đỉnh) và %(\\frac{F H}{H E}=\\frac{H D}{H C})% (do %(\\triangle H B F \\sim \\triangle H C E) \\Rightarrow \\angle B E F=\\angle B C H=\\angle B E D)%<br>Suy ra %(E B)% là tia phân giác của %(\\angle D E F \\Rightarrow H M=H N)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Gọi %(I, J, O, K)% là hình chiếu của %(\\mathbf{F})% trên %(A C, A D, B E, B C)%. Chứng minh %(I, J, O, K)% thẳng hàng",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}F I / / B E \\Rightarrow \\frac{A I}{A E}=\\frac{A F}{A B} \\\\ F J / / B D \\Rightarrow \\frac{A J}{A D}=\\frac{A F}{A B} \\rightarrow \\frac{A I}{A E}=\\frac{A J}{A D} \\Rightarrow I J / / E D(1)\\end{array})%<br>Chứng minh tương tự ta có %(K Q / / D E(2))%<br>\\[F I / / B E \\Rightarrow \\frac{C E}{C I}=\\frac{C H}{C F} ; F K / / A D \\Rightarrow \\frac{C H}{C F}=\\frac{C D}{C K} \\Rightarrow K I / / D E(3)\\]<br>Từ (1), (2), (3) suy ra %(I, J, O, K)% thẳng hàng",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Cho các số %(a, b, c\\gt 0)% và %(a+b+c \\leq 1)%. Chứng minh : %(\\frac{1}{a^{2}+2 b c}+\\frac{1}{b^{2}+2 a c}+\\frac{1}{c^{2}+2 a b} \\geq 9)%",
+        "question_images": [],
+        "solution": "Đặt %(x=a^{2}+2 b c, y=b^{2}+2 a c, z=c^{2}+2 a b)%<br>Ta có %(x+y+z=(a+b+c)^{2} \\leq 1)%<br>Xét %(A=(x+y+z)\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)=1+1+1+\\left(\\frac{y}{x}+\\frac{x}{y}\\right)+\\left(\\frac{y}{z}+\\frac{z}{y}\\right)+\\left(\\frac{x}{z}+\\frac{z}{x}\\right))%<br>Chứng minh bất đẳng thức phụ : Với %(x, y\\gt 0 \\Rightarrow \\frac{x}{y}+\\frac{y}{x} \\geq 2)%<br>Suy ra %(A \\geq 3+2+2+2=9 \\Rightarrow d f c m)%",
+        "question_type": "essay"
+    }
+]

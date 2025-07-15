@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Rút gọn biểu thức: %(\\mathrm{A}=\\frac{\\sqrt{x}+\\sqrt{y}}{2 \\sqrt{x}-2 \\sqrt{y}}-\\frac{\\sqrt{x}-\\sqrt{y}}{2 \\sqrt{x}+2 \\sqrt{y}}-\\frac{x+y}{y-x})% với %(x, y\\gt 0, x \\neq y)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text {  } \\mathrm{A}=\\frac{\\sqrt{x}+\\sqrt{y}}{2 \\sqrt{x}-2 \\sqrt{y}}-\\frac{\\sqrt{x}-\\sqrt{y}}{2 \\sqrt{x}+2 \\sqrt{y}}-\\frac{x+y}{y-x}=\\frac{\\sqrt{x}+\\sqrt{y}}{2(\\sqrt{x}-\\sqrt{y})}-\\frac{\\sqrt{x}-\\sqrt{y}}{2(\\sqrt{x}+\\sqrt{y})}+\\frac{x+y}{x-y} \\\\=\\frac{\\sqrt{x}+\\sqrt{y}}{2(\\sqrt{x}-\\sqrt{y})}-\\frac{\\sqrt{x}-\\sqrt{y}}{2(\\sqrt{x}+\\sqrt{y})}+\\frac{x+y}{(\\sqrt{x}-\\sqrt{y})(\\sqrt{x}+\\sqrt{y})} \\\\=\\frac{(\\sqrt{x}+\\sqrt{y})(\\sqrt{x}+\\sqrt{y})-(\\sqrt{x}-\\sqrt{y})(\\sqrt{x}-\\sqrt{y})+2(x+y)}{2(\\sqrt{x}-\\sqrt{y})(\\sqrt{x}+\\sqrt{y})} \\\\=\\frac{4 \\sqrt{x y}+2 x+2 y}{2(\\sqrt{x}-\\sqrt{y})(\\sqrt{x}+\\sqrt{y})}=\\frac{2(\\sqrt{x}+\\sqrt{y})^{2}}{2(\\sqrt{x}-\\sqrt{y})(\\sqrt{x}+\\sqrt{y})}=\\frac{\\sqrt{x}+\\sqrt{y}}{\\sqrt{x}-\\sqrt{y}}\\end{array}\\]<br>Vậy %(A=\\frac{\\sqrt{x}+\\sqrt{y}}{\\sqrt{x}-\\sqrt{y}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho %(A=\\frac{2 x-3 \\sqrt{x}-2}{\\sqrt{x}-2} ; B=\\frac{\\sqrt{x^{3}}+\\sqrt{x}+2 x+2}{\\sqrt{x}+2})%. Tìm %(x)% sao cho %(A=B)%.",
+        "question_images": [],
+        "solution": "+ Ta có: %(A=\\frac{2 x-3 \\sqrt{x}-2}{\\sqrt{x}-2})% xác định khi %(x \\geq 0 ; x \\neq 4)%.<br>%(A=\\frac{2 x-3 \\sqrt{x}-2}{\\sqrt{x}-2}=\\frac{(\\sqrt{x}-2)(2 \\sqrt{x}+1)}{\\sqrt{x}-2}=2 \\sqrt{x}+1)%<br>+ Ta có: %(B=\\frac{\\sqrt{x^{3}}+\\sqrt{x}+2 x+2}{\\sqrt{x}+2})% xác định khi %(x \\geq 0)%.<br>%(B=\\frac{\\sqrt{x^{3}}+\\sqrt{x}+2 x+2}{\\sqrt{x}+2}=\\frac{(\\sqrt{x}+2)(x+1)}{\\sqrt{x}+2}=x+1)%<br>Ta có %(A=B)% nên %(2 \\sqrt{x}+1=x+1 \\Leftrightarrow x-2 \\sqrt{x}=0 \\Leftrightarrow \\sqrt{x}(\\sqrt{x}-2)=0)%<br>\\[\\Leftrightarrow\\left[\\begin{array} { l } { \\sqrt { x } = 0 } \\\\{ 2 - \\sqrt { x } = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=0 \\x=4\\end{array}\\right.\\right.\\]<br>Kết hợp với điều kiện suy ra %(x=0)%<br>Vậy %(x=0)% khi %(A=B)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Tìm %(x, y \\in \\mathrm{Z})%, biết %(x-y+2 x y=6)%.",
+        "question_images": [],
+        "solution": "Ta có %(x-y+2 x y=6 \\Leftrightarrow 2 x-2 y+4 x y=12 \\Leftrightarrow 2 x+4 x y-1-2 y=11)% %(\\Leftrightarrow(2 x-1)(1+2 y)=11=1.11=(-1).(-11))%<br>Ta có bảng sau:<br>Vậy cặp nghiệm %((x, y))% nguyên là: %((1,5) ;(6,0) ;(0,-6) ;(-5,-1))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/60e91f83bd1a8dc8581137c9296d41ce.png\" srcset=\"https://docdn.giainhanh.io/media/test/2a6ba3629715201c6c2138335cfc480a.png 245w, https://docdn.giainhanh.io/media/test/d5f248f901604c932aaa7d8ed1c0b029.png 500w, https://docdn.giainhanh.io/media/test/76d2cab5d75db0c86759c5dcbc85882c.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Tìm %(n)% để %(n^{3} + 1)% chia hết cho %(n^{5} + 1)% với %(n\\in N^*)%",
+        "question_images": [],
+        "solution": "Ta có %(n^{5}+1=n^{5}+n^{2}-n^{2}+1=\\left(n^{5}+n^{2}\\right)-\\left(n^{2}-1\\right)=n^{2}\\left(n^{3}+1\\right)-\\left(n^{2}-1\\right))%<br>Vì %(n^{5}+1)% chia hết cho %(n^{3}+1)% nên cần chứng minh %(n^{2}-1)% chia hết cho %(n^{3}+1)%<br>Ta có: %(n^{2}-1=(n-1)(n+1))% và %(n^{3}+1=(n+1)\\left(n^{2}-n+1\\right))%<br>Khi đó %(n-1)% chia hết cho %(n^{2}-n+1)%<br>Vì %(n \\in N^{*})% nên ta xét các trường hợp sau:<br>+) Nếu %(n=1)% thì %(n-1)% chia hết cho %(n^{2}-n+1)%<br>Suy ra %(n^{5}+1)% chia hết cho %(n^{3}+1)%<br>+) Nếu %(n\\gt 1)% thì %(n-1\\lt n.(n-1)+1)% nên %(n-1)% không chia hết cho %(n^{2}-n+1)%<br>Vậy %(n=1)% thì %(n^{5}+1~\\vdots~ n^{3}+1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Giải phương trình:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) %(\\sqrt{x^{2}-9}-2 \\sqrt{x-3}=0)%",
+        "question_images": [],
+        "solution": "Điều kiện %(x \\geq 3)%<br>Ta có: %(\\sqrt{x^{2}-9}-2 \\sqrt{x-3}=0 \\Leftrightarrow(\\sqrt{x+3})(\\sqrt{x-3})-2 \\sqrt{x-3}=0 \\Leftrightarrow(\\sqrt{x-3})(\\sqrt{x+3}-2)=0)%<br>\\[\\Leftrightarrow\\left[\\begin{array} { l } { \\sqrt { x - 3 } = 0 } \\\\{ \\sqrt { x + 3 } - 2 = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=3~(\\text {tmđk}) \\x=1~(\\text {ktmđk})\\end{array}\\right.\\right.\\]<br>Vậy %(x=3)% là nghiệm của phương trình.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) %(\\sqrt{x-1}+\\sqrt{x^{3}+x^{2}+x+1}=1+\\sqrt{x^{4}-1})%",
+        "question_images": [],
+        "solution": "ĐKХĐ: %(x \\geq 1)%.<br>\\[\\sqrt{x-1}+\\sqrt{x^{3}+x^{2}+x+1}=1+\\sqrt{x^{4}-1} \\Leftrightarrow(\\sqrt{x-1}-1)+\\left(\\sqrt{\\left(x^{2}+1\\right)(x+1)}-\\sqrt{\\left(x^{2}-1\\right)\\left(x^{2}+1\\right)}\\right)=0\\]<br>\\[\\begin{array}{l}\\Leftrightarrow(\\sqrt{x-1}-1)+\\left(\\sqrt{\\left(x^{2}+1\\right)(x+1)}-\\sqrt{(x-1)(x+1)\\left(x^{2}+1\\right)}\\right)=0 \\\\Leftrightarrow(\\sqrt{x-1}-1)+\\sqrt{\\left(x^{2}+1\\right)(x+1)}(1-\\sqrt{x-1})=0 \\\\Leftrightarrow(\\sqrt{x-1}-1)-\\sqrt{\\left(x^{2}+1\\right)(x+1)}(\\sqrt{x-1}-1)=0 \\\\Leftrightarrow(\\sqrt{x-1}-1)\\left(1-\\sqrt{\\left(x^{2}+1\\right)(x+1)}\\right)=0\\end{array}\\]<br>%(\\left[\\begin{array}{l}\\sqrt{x-1}-1=0 \\\\ 1-\\sqrt{\\left(x^{2}+1\\right)(x+1)}=0\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}\\sqrt{x-1}=1 \\\\ \\sqrt{\\left(x^{2}+1\\right)(x+1)}=1\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}\\sqrt{x-1}=1~~~~~(1) \\\\ \\sqrt{\\left(x^{2}+1\\right)(x+1)}=1~~~~~(2)\\end{array}\\right.\\right.\\right.)%%((1) \\Leftrightarrow x-1=1 \\Leftrightarrow x=2~(tmđk))%<br>%((2) \\Leftrightarrow\\left(x^{2}+1\\right)(x+1)=1 \\Leftrightarrow x^{3}+x^{2}+x=0)% (vô nghiệm vì %(x \\geq 1)%)<br>Vậy phương trình có nghiệm %(x=2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là độ dài ba cạnh của tam giác. Chứng minh rằng %(\\frac{b c}{a}+\\frac{a c}{b}+\\frac{a b}{c} \\geq a+b+c)%. Đẳng thức xảy ra khi nào?",
+        "question_images": [],
+        "solution": "Vì %(a, b, c\\gt 0)% nên %(\\frac{b c}{a}>0 ; \\frac{a c}{b}>0 ; \\frac{a b}{c}>0)%<br>Áp dụng bất đẳng thức Côsi cho hai số không âm, ta có:<br>\\[\\begin{array}{l}+)~\\frac{b c}{a}+\\frac{a c}{b} \\geq 2 \\sqrt{\\frac{b c}{a}. \\frac{a c}{b}}=2 c~~~~~(1) \\\\+)~\\frac{a c}{b}+\\frac{a b}{c} \\geq 2 \\sqrt{\\frac{a c}{b} . \\frac{a b}{c}}=2 a~~~~~(2) \\\\+)~\\frac{a b}{c}+\\frac{b c}{a} \\geq 2 \\sqrt{\\frac{a b}{c} . \\frac{b c}{a}}=2 b~~~~~(3)\\end{array}\\]<br>Lấy (1) cộng (2) cộng (3) vế theo vế ta được %(\\frac{b c}{a}+\\frac{a c}{b}+\\frac{a b}{c} \\geq a+b+c)% (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho góc vuông %(x O y)%. Trên cạnh %(O x)% lấy điểm %(A)% sao cho %(O A=4 \\mathrm{~cm})%, trên tia đối của tia %(O x)% lấy điểm %(B)% sao cho %(O B=2 \\mathrm{~cm})%. Đường trung trực của %(A B)% cắt %(A B)% ở %(H, M)% là một điểm nằm trên đường trung trực đó. Các tia %(A M, M B)% cắt %(O y)% lần lượt ở %(C)% và %(D)%. Gọi %(E)% là trung điểm của %(A C, F)% là trung điểm của %(B D)%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 3.0,
+        "content": "a) Chứng minh %(O E . \\mathrm{OF}=\\mathrm{AE} . \\mathrm{BF})%",
+        "question_images": [],
+        "solution": "%(+)~\\triangle B O D)% có %(O F)% là đường trung tuyến ứng với cạnh huyền %(B D)% nên %(F O=F B)%<br>%(\\Rightarrow \\triangle B F O)% cân tại %(F \\Rightarrow B=F O B~~~~~(1))%<br>%(+)~\\triangle E A O)% vuông tại E có %(O E)% là đường trung tuyến ứng với cạnh huyền %(M A)% nên %(\\mathrm{OE}=E A \\Rightarrow \\triangle E A O)% cân tại %(E \\Rightarrow A=A O E~~~~~ (2))%<br>%(+)~\\triangle M A B)% có %(M A=M B \\Rightarrow \\triangle M A B)% cân tại %(M \\Rightarrow A=\\mathrm{B})%.<br>Từ (1), (2) và (3) suy ra %(\\triangle B F O \\sim \\triangle O E A)% (góc - góc)<br>\\[\\Rightarrow \\frac{F O}{E A}=\\frac{B F}{O E} \\Rightarrow O E . \\mathrm{F} O=E A. B F \\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/17eee69dc6229230c992ac05a2bc1d63.png\" srcset=\"https://docdn.giainhanh.io/media/test/2a4212d3058bb0bfd90325a8a34790ca.png 225w, https://docdn.giainhanh.io/media/test/0cd3d367305203d55c0a6cb9ea454168.png 500w, https://docdn.giainhanh.io/media/test/62552032943ccf52d04db2b45dca316c.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Gọi %(I)% là trung điểm của %(E F)%. Chứng minh 3 điểm %(O, I, M)% thẳng hàng.",
+        "question_images": [],
+        "solution": "+) Ta có: %(\\widehat{M A B}=\\widehat{F O B})% nên %(O F / / M A)%<br>\\[\\widehat{M B A}=\\widehat{E O A} \\text { nên } O E / / M B\\]<br>Suy ra tứ giác %(M E O F)% là hình bình hành.<br>Suy ra đường chéo %(O M)% đi qua trung điểm %(I)% của %(E F)%.<br>Vậy 3 điểm %(O, I, M)% thẳng hàng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) Xác định vị trí của điểm %(M)% để cho %(O M=E F)%. Khi đó %(S_{1})% là diện tích tứ giác %(O B M E)%, %(S_{2})% là diện tích tứ giác %(A B F E)%. Tính tỉ số %(\\frac{S_{1}+S_{2}}{S_{1} . S_{2}})%",
+        "question_images": [],
+        "solution": "+) %(O E M F)% là hình bình hành có hai đường chéo %(O M=\\mathrm{EF})% nên %(O E M F)% là hình chữ nhật<br>+) %(\\triangle B F O \\sim \\triangle B M A)% mà %(M A=M B \\Rightarrow \\triangle A M B)% vuông cân tại %(M \\Rightarrow \\widehat{M A B}=45^{\\circ})%.<br>Khi đó %(\\triangle A H M)% vuông cân tại %(H)%.<br>+) Mặt khác %(H)% là trung điểm của %(A B)% %(\\Rightarrow H M=H A=3 \\mathrm{~cm})%.<br>Vậy %(M)% nằm trên đường trung trực của đoạn thẳng %(A B)% và cách %(A B)% một đoạn %(M H=3 \\mathrm{~cm})%.<br>+) Xét %(\\triangle M A H)% vuông ở %(H)%, ta có:<br>%(M A^{2}=M H^{2}+H A^{2}=3^{3}+3^{2}=18 \\Rightarrow M A=\\sqrt{18}=3 \\sqrt{2}(\\mathrm{~cm}))%<br>%(+)~\\triangle B F O)% và %(\\triangle B M A)% có %(\\widehat M=\\widehat F ; \\widehat A=\\widehat B)%<br>Suy ra %(\\triangle B F O \\sim \\triangle B M A~(\\mathrm{~g}-\\mathrm{g}))%, nên:<br>\\[\\begin{array}{l}\\frac{F O}{M A}=\\frac{B O}{A B}=\\frac{2}{6}=\\frac{1}{3} \\Rightarrow F O=\\frac{M A}{3}=\\frac{3 \\sqrt{2}}{3}=\\sqrt{2}(\\mathrm{~cm}) \\\\frac{O E}{F O}=\\frac{O A}{O B}=\\frac{4}{2}=2 \\Rightarrow O E=2 . \\mathrm{FO}=2 \\sqrt{2}(\\mathrm{~cm}) \\\\Rightarrow S_{O E M F}=O E. F O=2 \\sqrt{2} . \\sqrt{2}=4\\left(\\mathrm{~cm}^{2}\\right) \\Rightarrow \\mathrm{S}_{\\triangle F E O}=4: 2=2\\left(\\mathrm{~cm}^{2}\\right)\\end{array}\\]<br>+) Ta có: %(S_{\\triangle A B M}=\\frac{1}{2} . M H .A B=\\frac{1}{2} . 3 .6=9\\left(\\mathrm{cm}^{2}\\right))%<br>Ta cũng có %(\\triangle B F O \\sim \\triangle O E A)% theo tỉ số đồng dạng %(k=\\frac{1}{2})% nên %(\\frac{S_{\\triangle B F O}}{S_{\\triangle O E A}}=k^{2}=\\frac{1}{4})%<br>\\[\\begin{array}{l}\\Rightarrow S_{\\triangle B F O}=1\\left(\\mathrm{~cm}^{2}\\right) ; S_{\\triangle O E A}=4\\left(\\mathrm{~cm}^{2}\\right) \\S_{1}=S_{O B M E}=S_{B F O}+S_{O E M F}=1+4=5\\left(\\mathrm{~cm}^{2}\\right) \\S_{2}=S_{A B F E}=S_{B F O}+S_{F E O}+S_{O E A}=1+2+4=7\\left(\\mathrm{~cm}^{2}\\right) \\end{array}\\]<br>Vậy %(\\frac{S_{1}+S_{2}}{S_{1} . \\mathrm{S}_{2}}=\\frac{5+7}{5.7}=\\frac{12}{35})%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "title": "Câu 1",
+        "group_content": "Cho %(P=\\left(\\frac{3+x}{3-x}-\\frac{9 x^{2}}{x^{2}-9}-\\frac{3-x}{3+x}\\right): \\frac{3 x(3 x+4)}{3 x^{2}-x^{3}})%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Tìm điều kiện xác định và rút gọn biểu thức P",
+        "question_images": [],
+        "solution": "Biểu thức P xác định %(\\Leftrightarrow\\left\\{\\begin{array}{l}3-x \\neq 0 \\\\ x^{2}-9 \\neq 0 \\\\ 3+x \\neq 0 \\\\ 3 x^{2}-x^{3} \\neq 0 \\\\ 3 x(3 x+4) \\neq 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\neq \\pm 3 \\\\ x \\neq 0 \\quad(*) \\\\ x \\neq \\frac{-4}{3}\\end{array}\\right.\\right.)%Với điều kiện %(\\left({ }^{*}\\right))% ta có :<br>\\[\\begin{array}{l}P=\\left(\\frac{3+x}{3-x}-\\frac{9 x^{2}}{x^{2}-9}-\\frac{3-x}{3+x}\\right): \\frac{3 x(3 x+4)}{3 x^{2}-x^{3}} \\\\=\\left(\\frac{3+x}{3-x}+\\frac{9 x^{2}}{9-x^{2}}-\\frac{3-x}{3+x}\\right) \\cdot \\frac{x^{2} \\cdot(3-x)}{3 x(3 x+4)} \\\\=\\left[\\frac{(3+x)^{2}}{(3-x)(3+x)}+\\frac{9 x^{2}}{(3-x)(3+x)}-\\frac{(3-x)^{2}}{(3-x)(3+x)}\\right] \\cdot \\frac{x(3-x)}{3(3 x+4)} \\\\=\\frac{9+6 x+x^{2}+9 x^{2}-9+6 x-x^{2}}{(3-x)(3+x)} \\cdot \\frac{x(3-x)}{3(3 x+4)}\\end{array}\\]<br>%(=\\frac{3 x(3 x+4)}{3+x} \\cdot \\frac{x}{3(3 x+4)}=\\frac{x^{2}}{x+3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Tìm %(x)% thỏa mãn %(\\frac{P}{x}-3 P+19=5 x)%",
+        "question_images": [],
+        "solution": "Với %(P=\\frac{x^{2}}{x+3})% với x thỏa ĐKХĐ, ta có :<br>\\[\\begin{array}{l}\\frac{P}{x}-3 P+19=5 x \\Leftrightarrow \\frac{\\frac{x^{2}}{x+3}}{x}-3 \\cdot \\frac{x^{2}}{x+3}+19=5 x \\\\Leftrightarrow \\frac{x}{x+3}-\\frac{3 x^{2}}{x+3}+\\frac{(19-5 x)(x+3)}{x+3}=0 \\\\Rightarrow x-3 x^{2}-19 x+57-5 x^{2}-15 x=0 \\Leftrightarrow 8 x^{2}-5 x-57=0 \\\\Leftrightarrow x^{2}-\\frac{5}{8} x-\\frac{57}{8}=0 \\Leftrightarrow\\left(x-\\frac{5}{16}\\right)^{2}=\\frac{1849}{256} \\\\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{5}{16}+\\frac{\\sqrt{1849}}{16} \\x=\\frac{5}{16}-\\frac{\\sqrt{1849}}{16}\\end{array}\\right.\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) Tìm %(x \\in \\mathbb{Z})% để P nguyên",
+        "question_images": [],
+        "solution": "Để %(P \\in \\mathbb{Z} \\Rightarrow \\frac{x^{2}}{x+3} \\in \\mathbb{Z})%<br>Vì %(x \\in \\mathbb{Z} \\Rightarrow x^{2} \\in \\mathbb{Z})% và %(x+3 \\in \\mathbb{Z} \\Rightarrow x^{2}:(x+3))%<br>Lại có %(x^{2}=x(x+3)-3(x+3)+9 \\Rightarrow 9:(x+3))% %(\\Rightarrow x+3 \\in U(9)=\\{-9 ;-3 ;-1 ; 1 ; 3 ; 9\\})%.<br>Ta có bảng sau<br>Vậy %(x \\in\\{-12 ;-6 ;-4 ;-2 ; 6\\})% thì %(P \\in \\mathbb{Z})%<br><img alt=\"Screenshot 2024-07-14 173903.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a0e35e23bc4dfd1d048f7bd93182bc0a.png\" srcset=\"https://docdn.giainhanh.io/media/test/f7f186cdde3a6cd8a77a0e0f191be9cf.png 245w, https://docdn.giainhanh.io/media/test/ba2bf62fcbc45717ff832b4fb158d0c9.png 500w, https://docdn.giainhanh.io/media/test/50bcdfc36fb68eacc2b77db48ce00332.png 750w, https://docdn.giainhanh.io/media/test/37ec557effc1d16a9d9ee5f68d27aa10.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 1.5,
+        "content": "Phân tích đa thức sau thành nhân tử %(x^{2}+7 x y+12 y^{2}-20 y-5 x)%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}x^{2}+7 x y+12 y^{2}-20 y-5 x=\\left(x^{2}+4 x y\\right)+\\left(3 x y+12 y^{2}\\right)-5(x+4 y) \\\\=x(x+4 y)+3 y(x+4 y)-5(x+4 y)=(x+4 y)(x+3 y-5)\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 1.5,
+        "content": "Cho %((a+b+c)(a b+b c+c a)=a b c)% và %(a b c \\neq 0)%. Tính %(P=\\frac{\\left(a^{3}+b^{3}\\right)\\left(b^{5}+c^{5}\\right)\\left(a^{7}+c^{7}\\right)}{a^{2}+b^{2}+c^{2}})%",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{l}(a+b+c)(a b+b c+c a)=a b c \\Leftrightarrow a^{2} b+a b^{2}+b^{2} c+b c^{2}+c^{2} a+c a^{2}+2 a b c=0 \\\\Leftrightarrow\\left(a^{2} b+2 a b c+b c^{2}\\right)+\\left(a b^{2}+b^{2} c\\right)+\\left(a c^{2}+a^{2} c\\right)=0 \\Leftrightarrow b(a+c)^{2}+b^{2}(a+c)+a c(a+c)=0 \\\\Leftrightarrow(a+c)\\left(a b+b c+b^{2}+a c\\right)=0 \\Leftrightarrow(a+c)[b(a+b)+c(a+b)]=0 \\\\Leftrightarrow(a+c)(a+b)(b+c)=0 \\Leftrightarrow\\left[\\begin{array}{l}a=-c \\Rightarrow a^{7}+c^{7}=0 \\Rightarrow P=0 \\b=-a \\Rightarrow a^{3}+b^{3}=0 \\Rightarrow P=0 \\c=-b \\Rightarrow b^{5}+c^{5}=0 \\Rightarrow P=0\\end{array}\\right. \\\\end{array}\\]<br>Vậy %(P=0)% với %(a, b, c)% thỏa mãn đề bài",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 1.5,
+        "content": "Tìm các số nguyên %(x, y)% thỏa mãn %(\\left(x^{2}+2\\right) y-x^{3}-3 x+5=0)%",
+        "question_images": [],
+        "solution": "Ta có %(\\left(x^{2}+2\\right) y-x^{3}-3 x+5=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow\\left(x^{2}+2\\right) y=x^{3}+3 x-5 \\Leftrightarrow y=\\frac{x^{3}+3 x-5}{x^{2}+2}\\left(\\text { do } x^{2}+2\\gt 0, \\forall x \\in \\mathbb{Z}\\right) \\\\Rightarrow y=x+\\frac{x-5}{x^{2}+2} \\x, y \\in \\mathbb{Z} \\Leftrightarrow(x-5):\\left(x^{2}+2\\right) \\Leftrightarrow(x-5)(x+5):\\left(x^{2}+2\\right) \\Leftrightarrow-27:\\left(x^{2}+2\\right) \\\\Rightarrow x^{2}+2 \\in U(-27)=\\{ \\pm 3 ; \\pm 9 ; \\pm 27\\}\\left(x^{2}+2 \\geq 2\\right) \\Rightarrow(x ; y) \\in\\{(-1 ;-3) ;(5 ; 5)\\}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 1.5,
+        "content": "Giải phương trình :<br>\\[\\left(2 x^{2}+x-2019\\right)^{2}+4\\left(x^{2}-5 x-2018\\right)^{2}=4\\left(2 x^{2}+x-2019\\right)\\left(x^{2}-5 x-2018\\right)\\]",
+        "question_images": [],
+        "solution": "\\[\\left(2 x^{2}+x-2019\\right)^{2}+4\\left(x^{2}-5 x-2018\\right)^{2}=4\\left(2 x^{2}+x-2019\\right)\\left(x^{2}-5 x-2018\\right)\\]<br>Đặt %(\\left\\{\\begin{array}{l}2 x^{2}+x-2019=a \\\\ x^{2}-5 x-2018=b\\end{array}\\right.)%.<br>Phương trình đã cho trở thành :<br>\\[\\begin{array}{l}a^{2}+4 b^{2}=4 a b \\Leftrightarrow a^{2}-4 a b+4 b^{2}=0 \\Leftrightarrow(a-2 b)^{2}=0 \\Leftrightarrow a=2 b \\\\Leftrightarrow 2 x^{2}+x-2019=2\\left(x^{2}-5 x-2018\\right) \\Leftrightarrow 11 x=-2017 \\Leftrightarrow x=\\frac{-2017}{11}\\end{array}\\]<br>Vậy phương trình có nghiệm %(x=-\\frac{2017}{11})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6 ",
+        "point": 1.0,
+        "content": "Tìm giá trị nhỏ nhất của biểu thức %(A=\\left(\\frac{x-3 y}{x+3}\\right)^{2}+\\left|9-x^{2}\\right|)%",
+        "question_images": [],
+        "solution": "Ta thấy %(\\left\\{\\begin{array}{l}\\left(\\frac{x-3 y}{x+3}\\right)^{2} \\geq 0, \\forall x \\neq-3, y \\in R \\\\ \\left|9-x^{2}\\right| \\geq 0, \\forall x\\end{array}\\right.)%<br>\\[\\Leftrightarrow A=\\left(\\frac{x-3 y}{x+3}\\right)^{2}+\\left|9-x^{2}\\right| \\geq 0, \\forall x, y \\in R, x \\neq-3\\]<br>Dấu bằng xảy ra khi %(\\left\\{\\begin{array}{l}\\left(\\frac{x-3 y}{x+3}\\right)^{2}=0 \\\\ \\left\\lvert\\, \\begin{array}{l}9-x^{2} \\mid=0 \\\\ x \\neq-3\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=3 \\\\ y=1\\end{array}\\right.\\right.\\end{array}\\right.)%<br>Vậy GTNN của biểu thức A bằng 0 khi %(x=3, y=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7",
+        "group_content": "Cho tam giác %(A B C)% vuông tại %(A(A B\\lt A C))%, đường cao %(A H)%. Trên đoạn %(H C)% lấy điểm M sao cho %(H M=A H)%, đường thẳng vuông góc với BC tại M cắt %(A C)% tại N , gọi I là trung điểm của %(B N)%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Tính %(\\angle A H I)%",
+        "question_images": [],
+        "solution": "Xét %(\\triangle A B N)% có %(\\angle B A N=90^{\\circ}, \\mathrm{AI})% là đường trung tuyến %(\\Rightarrow A I=\\frac{B N}{2}(1))%<br>Xét %(\\triangle B M N)% vuông tại M và %(M I)% là đường trung tuyến %(\\Rightarrow M I=\\frac{B N}{2}(2))%<br>Từ (1) và (2) suy ra %(A I=M I)%<br>Xét %(\\triangle A H I)% và %(\\triangle M H I)%, ta có %(: A I=M I(c m t), H I)% là cạnh chung, %(A H=H M(g t))%%(\\Rightarrow \\triangle A H I=\\triangle M H I)% (c.c.c)<br>%(\\Rightarrow \\angle A H I=\\angle M H I)% (hai góc tương ứng)<br>Mà %(\\angle A H I+\\angle I H M=\\angle A H M=90^{\\circ} \\Rightarrow \\angle A H I=\\frac{90^{\\circ}}{2}=45^{\\circ})%<br>Vậy %(\\angle A H I=45^{\\circ})%<br><img alt=\"Screenshot 2024-07-14 174234.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5bd360a47cccddcdd734cce6b2adb6e9.png\" srcset=\"https://docdn.giainhanh.io/media/test/4944cf221a838d3736c91de56bc52887.png 245w, https://docdn.giainhanh.io/media/test/6f876f6a98e1ac57894b34283bcf3c48.png 500w, https://docdn.giainhanh.io/media/test/d22df9a186ee6759b1c6bc1dc796d2b6.png 750w, https://docdn.giainhanh.io/media/test/a3e38264bee4ef02ef9d76cb2e0a952d.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Chứng minh %(\\triangle A C M \\sim \\triangle B C N)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Xét } \\triangle A B C \\text { và } \\triangle M N C \\text { có : } \\angle B A C=\\angle N M C=90^{\\circ}, \\angle C \\text { chung } \\\\ \\Rightarrow \\triangle A B C \\sim \\triangle M N C(\\mathrm{~g} . \\mathrm{g}) \\Rightarrow \\frac{A C}{M C}=\\frac{B C}{N C} \\Rightarrow \\frac{A C}{B C}=\\frac{M C}{N C} \\\\ \\text { Xét } \\triangle A C M \\text { và } \\triangle B C N \\text { có }: \\angle C \\text { chung, } \\frac{A C}{B C}=\\frac{M C}{N C}(\\mathrm{cmt}) \\Rightarrow \\triangle A C M \\sim \\triangle B C N(\\mathrm{dpcm})\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) Biết %(A B=1, A C=x(x\\gt 1))%. Tính diện tích %(\\triangle B H I)% theo x , chứng tỏ rằng diện tích này lớn nhất bằng %(\\frac{\\sqrt{2}-1}{8})%",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{l}S_{A B C}=\\frac{1}{2} A B \\cdot A C=\\frac{1}{2} \\cdot 1 \\cdot x=\\frac{x}{2} ; S_{A B N}=\\frac{1}{2} A B \\cdot A N=\\frac{1}{2} \\cdot 1 \\cdot 1=\\frac{1}{2} \\\\Rightarrow S_{B N C}=S_{A B C}-S_{A B N}=\\frac{x}{2}-\\frac{1}{2}=\\frac{x-1}{2}\\end{array}\\]<br>Lại có %(: S_{A B C}=\\frac{1}{2} A H \\cdot B C \\Rightarrow A H=\\frac{2 S_{A B C}}{B C}=\\frac{2 \\cdot \\frac{x}{2}}{\\sqrt{x^{2}+1}}=\\frac{x}{\\sqrt{x^{2}+1}})%<br>\\[A N=A B=1 ; A C=x \\Rightarrow N C=A C-A N=x-1\\]<br>Dễ thấy %(\\triangle M C N \\sim \\triangle H C A)%<br>\\[\\Rightarrow \\frac{C N}{C A}=\\frac{M N}{A H} \\Leftrightarrow \\frac{x-1}{x}=\\frac{M N}{\\frac{x}{\\sqrt{x^{2}+1}}} \\Rightarrow M N=\\frac{x(x-1)}{\\sqrt{x^{2}+1} \\cdot x}=\\frac{x-1}{\\sqrt{x^{2}+1}}\\]<br>Áp dụng định lý Pytago vào %(\\triangle A H C)% vuông tại H , ta có :<br>\\[H C^{2}=A C^{2}-A H^{2}=x^{2}-\\frac{x^{2}}{1+x^{2}}=\\frac{x^{4}}{x^{2}+1} \\Rightarrow H C=\\frac{x^{2}}{\\sqrt{x^{2}+1}}\\]<br>\\[\\begin{array}{l}\\Rightarrow S_{N H C}=\\frac{1}{2} N M \\cdot H C=\\frac{1}{2} \\cdot \\frac{x-1}{\\sqrt{x^{2}+1}} \\cdot \\frac{x^{2}}{\\sqrt{x^{2}+1}}=\\frac{1}{2} \\cdot \\frac{x^{2}(x-1)}{x^{2}+1} \\\\Rightarrow S_{B H N}=S_{B N C}-S_{H N C}=\\frac{x-1}{2}-\\frac{x^{2}(x-1)}{2\\left(x^{2}+1\\right)}=\\frac{x-1}{2\\left(x^{2}+1\\right)}\\end{array}\\]<br>Lại có %(: S_{B H I}=\\frac{1}{2} \\cdot S_{B H N} \\Rightarrow S_{B H I}=\\frac{x-1}{4\\left(x^{2}+1\\right)})%.<br>Ta có :<br>\\[\\frac{1}{S_{B H I}}=\\frac{4\\left(x^{2}+1\\right)}{x-1}=\\frac{4\\left(x^{2}-1+2\\right)}{x-1}=4\\left(x+1+\\frac{2}{x-1}\\right)=4\\left(x-1+\\frac{2}{x-1}+2\\right)\\]<br>Theo BĐT Cô si ta có :<br>\\[\\begin{array}{l}4\\left(x-1+\\frac{2}{x-1}+2\\right) \\geq 4\\left(2 \\sqrt{(x-1) \\cdot \\frac{2}{x-1}}+2\\right)=4(2 \\sqrt{2}+2)=8(\\sqrt{2}+1) \\\\Rightarrow \\frac{1}{S_{B H I}} \\geq 8(\\sqrt{2}+1) \\Rightarrow S_{B H I} \\leq \\frac{1}{8(\\sqrt{2}+1)} \\Rightarrow S_{B H I} \\leq \\frac{\\sqrt{2}-1}{8}\\end{array}\\]<br>Vậy %(S_{B H I})% đạt GTLN bằng %(\\frac{\\sqrt{2}-1}{8})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8 ",
+        "point": 1.0,
+        "content": "Cho tam giác %(A B C)% cân tại A , có %(\\angle A=100^{\\circ})%, tia phân giác trong góc B cắt AC tại %(D)%. Chứng minh rằng %(B C=B D+A D)%",
+        "question_images": [],
+        "solution": "Từ D kẻ %(\\left\\{\\begin{array}{l}D M \\perp A B, M \\in A B \\\\ D N \\perp B C, N \\in B C\\end{array}\\right.)%<br>Lấy %(K \\in B C)% sao cho %(B D=B K)%Vì %(B D)% là tia phân giác của %(\\angle A B C)% và %(D M \\perp A B, D N \\perp B C \\Rightarrow D M=D N)%<br>Xét %(\\triangle A B C)% cân tại %(\\mathrm{A}, \\angle B A C=100^{\\circ} \\Rightarrow \\angle A B C=\\angle A C B=40^{\\circ})%%(\\Rightarrow \\angle A B D=\\angle D A C=20^{\\circ})%<br>Xét %(\\triangle D K B)% cân tại %(\\mathrm{B}, \\angle D B K=\\angle D K B=80^{\\circ})%, mà %(\\angle C K D+\\angle D K B=180^{\\circ})% (kề bù)%(\\Rightarrow \\angle C K D=100^{\\circ})%.<br>Lại có :%(\\angle K C D=\\angle B C A=40^{\\circ} \\Rightarrow \\angle C D K=40^{\\circ} \\Rightarrow \\triangle C K D)% cân tại %(\\mathrm{K} \\Rightarrow C K=D K)%<br>Mặt khác %(\\angle D K N=\\angle D K B=80^{\\circ}(1))%%(\\angle D A M+\\angle D A B=180^{\\circ})% (kề bù), %(\\angle D A B+\\angle C A B=100^{\\circ} \\Rightarrow \\angle D A M=80^{\\circ}(2))%<br>Từ (1) và(2) suy ra %(\\angle M A D=\\angle D K N=80^{\\circ})%%(\\Rightarrow 90^{\\circ}-\\angle D A M=90^{\\circ}-\\angle D K N \\Rightarrow \\angle M D A=\\angle N D K)%<br>Xét %(\\triangle D A M)% và %(\\triangle D K N)% có : %(\\angle D M A=\\angle D N K=90^{\\circ}, D M=D N, \\angle M D A=\\angle N D K)%<br>%(\\Rightarrow \\triangle D A M=\\triangle D K N()% g.c.g %() \\Rightarrow D A=D K)% (2 cạnh tương ứng)<br>Mà %(D K=C K \\rightarrow D A=C K)%<br>Lại có %(B D=B K \\Rightarrow D A+B D=C K+B K \\Rightarrow D A+B D=B C(d pc m))%<br><img alt=\"Screenshot 2024-07-14 174529.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9d775a72c60bcddadd3e2fbe5fec6fbc.png\" srcset=\"https://docdn.giainhanh.io/media/test/4cfbeb8c86b77443573fbe519499b230.png 245w, https://docdn.giainhanh.io/media/test/6ca8b6025de2386720e09c20baf8f37c.png 500w, https://docdn.giainhanh.io/media/test/158b04f6835a7415f1012c258bd77858.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    }
+]

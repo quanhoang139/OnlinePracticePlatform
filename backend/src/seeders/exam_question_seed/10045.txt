@@ -1,0 +1,126 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% dương thỏa mãn %((\\mathrm{a}+\\mathrm{b}+\\mathrm{c}) \\mathrm{abc}=1)%. Tìm giá trị bé nhất của biểu thức: %(S=\\frac{a^{5}}{a^{3}+2 b^{3}}+\\frac{b^{5}}{b^{3}+2 c^{3}}+\\frac{c^{5}}{c^{3}+2 a^{3}})%",
+        "question_images": [],
+        "solution": "Ta có:<br>%(\\begin{array}{l}\\frac{a^{5}}{a^{3}+2 b^{3}}=\\frac{a^{2}\\left[a^{3}+2 b^{3}\\right]-2 a^{2} b^{3}}{a^{3}+2 b^{3}}=a^{2}-2 \\frac{a^{2} b^{3}}{a^{3}+2 b^{3}} \\\\ a^{3}+2 b^{3}=a^{3}+b^{3}+b^{3} \\geq 3 \\sqrt[3]{a^{3} \\cdot b^{3} \\cdot c^{3}} \\Rightarrow a^{3}+2 b^{3} \\geq 3 a b^{2} \\\\ \\Rightarrow \\frac{a^{2} b^{3}}{a^{2}+2 b^{3}} \\leq \\frac{a^{2} b^{3}}{3 a b^{2}} \\Rightarrow \\frac{a^{2} b^{3}}{a^{2}+2 b^{3}} \\leq \\frac{a b}{3} \\\\ \\Rightarrow a^{2}-2 \\frac{a^{2} b^{3}}{a^{2}+2 b^{3}} \\geq a^{2}-\\frac{2}{3} a b \\Rightarrow \\frac{a^{5}}{a^{3}+2 b^{3}} \\geq a^{2}-\\frac{2}{3} a b\\end{array})%<br>Chứng minh tương tự: %(\\frac{b^{5}}{b^{3}+2 c^{3}} \\geq b^{2}-\\frac{2}{3} b c, \\frac{c^{5}}{c^{3}+2 a^{3}} \\geq c^{2}-\\frac{2}{3} c a)%<br>Từ đây ta có %(S \\geq a^{2}+b^{2}+c^{2}-\\frac{2}{3} a b-\\frac{2}{3} b c-\\frac{2}{3} c a)%<br>%(\\begin{array}{l}a^{2}+b^{2}+c^{2}-\\frac{2}{3} a b-\\frac{2}{3} b c-\\frac{2}{3} c a=\\frac{1}{2}\\left[(a-b)^{2}+(b-c)^{2}+(c-a)^{2}\\right]+\\frac{1}{3}(a b+b c+c a) \\\\ \\Rightarrow S \\geq \\frac{1}{3}(a b+b c+c a)\\end{array})%<br>Áp dụng bất đẳng thức %((x+y+x)^{2} \\geq 3(x y+y z+z x))%,<br>Ta có: %((a b+b c+c a)^{2} \\geq 3 \\Rightarrow a b+b c+c a \\geq \\sqrt{3})%<br>%(\\Rightarrow S \\geq \\frac{\\sqrt{3}}{3})% Đẳng thức xảy ra khi và chỉ khi %(\\mathrm{a}=\\mathrm{b}=\\mathrm{c} \\frac{1}{\\sqrt[4]{3}})%<br>Vậy %(\\min S=\\frac{\\sqrt{3}}{3})% tại %((a ; b ; c)=\\left(\\frac{1}{\\sqrt[4]{3}} ; \\frac{1}{\\sqrt[4]{3}} ; \\frac{1}{\\sqrt[4]{3}}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Cho số nguyên %(n \\geq 2)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Hãy xác định tất cả các bộ %(\\left(a_{1}, \\ldots . . . . a_{n}\\right))% nguyên dương sao cho<br>%(\\left(a_{1}!-1\\right) \\ldots . .\\left(a_{n}!-1\\right)-9)% là số chính phương.",
+        "question_images": [],
+        "solution": "Giả sử rằng %(\\left(a_{1}!-1\\right) \\ldots . . .\\left(a_{n}!-1\\right)=3^{2}+x^{2})%.<br>Khi đó nếu %(a_{i}=2)% thì không ảnh hưởng đến tích nên có thể nên có thể xét %(a_{i} \\geq 3)% với %(k)% giá trị i.<br>Nếu %(a_{i} \\geq 4)% thì %(a_{i}!-1)% là số hạng %(4 \\mathrm{k}-)% 1 nên phải có ước số nguyên tố p có dạng %(4 \\mathrm{k}-1)%.<br>Ta có ngay %(\\mathrm{p} \\mid \\mathrm{x}^{2}+3^{2})% nên %(\\mathrm{p}=3)%.<br>Tuy nhiên %(\\mathrm{a}_{\\mathrm{j}} \\geq 3)% nên %(a_{j}!-1)% không thể chia hết cho 3 với mọi j , mâu thuẫn.<br>Vậy %(\\mathrm{a}_{\\mathrm{i}}=3)% với mọi i.<br>Thành thử ta đưa đến phương trình %(5^{\\mathrm{k}}=\\mathrm{x}^{2}+9)%. Ta chỉ ra k là số chẵn.<br>Nếu k lẻ thì %(5^{\\mathrm{k}} \\equiv-1)% %((\\bmod 3))% do đó %(x^{2} \\equiv-1(\\bmod 3))%.<br>Từ đó đưa về %(5^{k}+x^{2}=9)% hay %(\\left(5^{k / 2}-x\\right)\\left(5^{k / 2}+x\\right)=9)% suy ra %(5^{k / 2}-x=1,5^{k / 2}+x=9)%.<br>Do đó %(5^{k / 2}=5)%.<br>Vậy %(\\mathrm{k}=2)%.<br>Thành thử ta có 2 trong số n số bằng 3 còn lại bằng 2 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Hãy xác định tất cả các bộ %(\\left(a_{1}, \\ldots . . . . a_{n}\\right))% nguyên dương sao cho %(\\left(a_{1}!-1\\right) \\ldots . .\\left(a_{n}!-1\\right)-1)% là số chính phương.",
+        "question_images": [],
+        "solution": "<i><strong>Lời giải đang được cập nhật ...</strong></i>",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho tam giác ABC không vuông và không cân, %(\\mathrm{O}, \\mathrm{H})% theo thứ tự làm tâm đường tròn ngoại tiếp và trực tâm của tam giác ABC . %(\\mathrm{E}, \\mathrm{F})% theo thứ tự là giao điểm của %(\\mathrm{BH}, \\mathrm{CH})% và %(\\mathrm{AC}, \\mathrm{AB} . \\mathrm{M}, \\mathrm{N})% theo thứ tự là trung điểm của %(\\mathrm{AB}, \\mathrm{AC} . \\mathrm{O}_{1}, \\mathrm{O}_{2})% theo thứ tự nằm tâm đường tròn ngoại tiếp của tam giác %(\\mathrm{BEM}, \\mathrm{CFN})%. Chứng minh rằng %(\\mathrm{OH} \\perp \\mathrm{O}_{1} \\mathrm{O}_{2})%",
+        "question_images": [],
+        "solution": "Gọi G = BN %(\\cap \\mathrm{CM} ; \\mathrm{K}=\\mathrm{EM} \\cap \\mathrm{FN})% (h.1)<br>Dễ thấy G thuộc OH (đường thẳng Euler);<br>K thuộc GH (định lí Pappus)<br>Do đó %(\\mathrm{O}, \\mathrm{H}, \\mathrm{K})% thẳng hàng %((1))%<br>Dễ thấy %(\\mathrm{B}, \\mathrm{C}, \\mathrm{E}, \\mathrm{F}\\left(\\widehat{B E C}=90^{\\circ}=\\widehat{B F C}\\right))% và %(\\mathrm{M}, \\mathrm{N}, \\mathrm{E}, \\mathrm{F})% cùng thuộc một đường tròn (đường tròn Euler)<br>Do đó %(P_{H /\\left(O_{1}\\right)}=\\overline{H B} \\cdot \\overline{H E}=\\overline{H C} \\cdot \\overline{H F}=P_{H /\\left(O_{2}\\right)} ; P_{\\mathrm{K} /\\left(O_{1}\\right)}=\\overline{K B} \\cdot \\overline{K E}=\\overline{K N} \\cdot \\overline{K F}=P_{\\mathrm{K} /\\left(O_{2}\\right)})%<br>Điều đó có nghĩa là %(\\mathrm{HK} \\perp \\mathrm{O}_{1} \\mathrm{O}_{2}(2))%<br>Từ (1) và (2) suy ra %(\\mathrm{OH} \\perp \\mathrm{O}_{1} \\mathrm{O}_{2})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/312bed7a3943a1057ee3a53866deece0.png\" srcset=\"https://docdn.giainhanh.io/media/test/a68cf0fca17cadf8709199e7ec415367.png 101w\" width=\"101\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tìm số nguyên dương K bé nhất sao cho với mỗi tập gồm k số tự nhiên luôn tồn tại 6 phần tử trong tập có tổng là bội của 6",
+        "question_images": [],
+        "solution": "Ta chứng minh %(k)% bén nhất là 11.<br>Xét tập %(\\mathrm{S}_{0})% gồm 10 số tự nhiên là %(\\{0,6,12,18,24\\})% %(\\cup\\{1,7,13,19,25,31\\})%<br>Mỗi số ở nhóm 2 đều chia 6 dư 1, mỗi số ở nhóm 1 đều chia hết cho 6.<br>Do đó không thể chọn được 6 số từ %(\\mathrm{S}_{0})% mà tổng chia hết cho 6.<br>Ta chỉ ra một tập con S bất kì của tập các số nguyên mà %(|S|=11)% thì đều chọn ra được 6 số có tổng chia hết cho 6.<br>Thực vậy, đầu tiên ta chứng minh trong 5 số bất kì bao giờ cũng chọn được 3 số có tổng chia hết cho 3.<br>Thực vậy, nếu 5 số này có 3 số chia hết cho 3 được 3 số dư khác nhau thì tổng của ba số đó chia hết cho 3.<br>Nếu 5 số này chia cho 3 có tối đa hai số dư khác nhau, thì theo nguyên lý Dirichel, tồn tại ít nhất %(\\left\\lfloor\\frac{5}{2}\\right\\rfloor=3)% số có cùng số dư khi chia cho 3.<br>Áp dụng kết quả trên, chnj 5 số bất kì, khi đó có ba số có tổng chia hết cho 3.<br>Kí hiệu nhóm 3 số đó là %(S_{1})% và loại bỏ ra khỏi tập %(S)% đang xét. Trong %(11-3=8)% số còn lại, lấy tiếp 5 số và do đó chọn được 3 số có tổng chia hết cho 3.<br>Nhóm 3 số này là S.<br>Loại tiếp 3 số này ta còn lại %(8-3=5)% số.<br>Áp dụng kết quả trên một lần nữa ta chọn được %(S_{3})% gồm 3 số có tổng chia hết cho 3.<br>Tổng số trong %(\\mathrm{S}_{1}, \\mathrm{~S}_{2}, \\mathrm{~S}_{3})% là 3 số chia hết cho 3.<br>Trong 3 số ấy có hai số cùng tích chẵn lẻ, do đó tổng hai số đó phải chia hết cho %(2 \\times 3=6)%.<br>Thành thử ta có 6 số có tổng chia hết cho 6.<br>Nhận xét: Đây là trường hợp đặc biệt cảu định lý EGZ đã khá kinh điển: Cho số nguyên dương n.<br>Khi đó trong một tập hợp S gồm %(2 \\mathrm{n}-1)% số nguyên tùy ý, luôn chọn ra được n số có tổng chia hết cho n.<br>Lược đồ chứng minh định lý này như sau: Đầu tiên chứng minh bài toán đúng cho số nguyên tố p.<br>Sau đó chứng minh đúng cho pk và cuối cùng chứng minh thêm: nếu bài toán đúng cho %(\\mathrm{n}=\\mathrm{a})% và %(\\mathrm{n}=\\mathrm{b})% với %((\\mathrm{a}, \\mathrm{b})=1)% thì bài toán đúng cho %(\\mathrm{n}=)% ab. Hay không?",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}\\sqrt{x}+\\sqrt{y}=2 \\\\ \\sqrt{x+15}+\\sqrt{y+15}=8\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Điều kiện %(x, y \\geq 0)%<br>Cách 1:<br>%(\\begin{array}{l}x+y+2 \\sqrt{x y}=4, t=\\sqrt{x y} \\Rightarrow x+y=4-2 t \\\\ \\sqrt{x+15}+\\sqrt{y+15}=8 \\Rightarrow x+y+30+2 \\sqrt{x y+15(x+y)+225}=64 \\\\ \\Rightarrow 4-2 t+30+2 \\sqrt{t^{2}+15(4-2 t)+225}=64 \\Rightarrow 2 \\sqrt{t^{2}-30 t+285}=2 t+30 \\\\ \\Rightarrow \\sqrt{t^{2}-30 t+285}=t+15 \\Rightarrow-30 t+285=30 t+225 \\Rightarrow t=1 \\Rightarrow x=y=1\\end{array})%<br>Cách 2:<br>Xét %(\\vec{u}=(\\sqrt{x} ; \\sqrt{15}), \\vec{v}=(\\sqrt{y} ; \\sqrt{15}))%,<br>%(\\begin{array}{l}\\Rightarrow \\vec{u}+\\vec{v}=(\\sqrt{x}+\\sqrt{y} ; 2 \\sqrt{15})=(2 ; 2 \\sqrt{15}) \\\\ |\\vec{u}|=\\sqrt{x+15},|\\vec{v}|=\\sqrt{x+15},|\\vec{u}+\\vec{v}|=\\sqrt{2^{2}+(2 \\sqrt{15})^{2}}=8\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho bốn số dương %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c}, \\mathrm{d})% thỏa mãn %(\\mathrm{a}+\\mathrm{b}+1=7 \\mathrm{c})% và đa thức %(\\mathrm{P}(\\mathrm{x})=x^{3}+a x^{2}+b x+c)% có ba nghiệm thực (không nhất thiết phân biệt).Đặt %(\\mathrm{Q}(\\mathrm{x})=x^{2}+2 x+d)%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tích ba nghiệm của đa thức %(\\mathrm{P}(\\mathrm{x}))% không vượt quá -1",
+        "question_images": [],
+        "solution": "Gọi ba nghiệm là %(x_{1}, x_{2}, x_{3})% khi đó %(x_{i} \\leq 0)% nên %(y_{i}=-x_{i} \\geq 0)%.<br>Ta có: %(P(x)=\\left(x+y_{1}\\right)\\left(x+y_{2}\\right)\\left(x+y_{3}\\right))%<br>Theo giả thiết %(\\mathrm{a}+\\mathrm{b}+1=7 \\mathrm{c})% ta suy ra %(1+\\mathrm{a}+\\mathrm{b}+\\mathrm{c}=8 \\mathrm{c})% do đó %(\\mathrm{P}(1)=8 \\mathrm{P}(0))%.<br>Theo định lý Viet, %(8 y_{1} y_{2} y_{3}=\\left(x+y_{1}\\right)\\left(x+y_{2}\\right)\\left(x+y_{3}\\right) \\geq 8 \\sqrt{y_{1} y_{2} y_{3}})%.<br>Suy ra %(y_{1} y_{2} y_{3} \\geq 1)% hay %(x_{1} x_{2} x_{3} \\leq-1)%.<br>Do đó %(-c \\leq-1)% hay %(c \\geq 1)%<br>Phương trình %(\\mathrm{P}(\\mathrm{Q}(\\mathrm{x}))=0)% tương đương với %(\\mathrm{Q}(\\mathrm{x})-\\mathrm{x}_{\\mathrm{i}}=0)% với %(\\mathrm{i}=1,2,3)% nào đó.<br>Ta có %(\\Delta_{i}=1-d+x_{i})%.<br>Theo trên %(y_{1} y_{2} y_{3} \\geq 1)% nên ít nhất một số %(y_{i} \\geq 1)%.<br>Khi đó %(x_{i} \\leq-1)%.<br>Suy ra %(\\Delta_{i} \\leq-d\\lt 0)%.<br>Vậy phương trình %(\\mathrm{Q}(\\mathrm{x})-\\mathrm{x}_{\\mathrm{i}}=0)% vô nghiệm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Phương trình %(\\mathrm{P}(\\mathrm{Q}(\\mathrm{x}))=0)% có tối đa bốn nghiệm thực phân biệt",
+        "question_images": [],
+        "solution": "Thành thử trong 3 phương trình %(Q(x)-x_{i}=0)% với %(\\mathrm{i}=1,2,3)% có ít nhất một phương trình vô nghiệm.<br>Thành thử phương trình tối đa 4 nghiệm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tứ giác ABCD nội tiếp đường tròng %((\\mathrm{O}))% và không phải là hình tang. %(\\mathrm{M}, \\mathrm{N})% theo thứ tự là trung điểm cảu %(\\mathrm{AB}, \\mathrm{CD})%. Gọi %(\\mathrm{E}=\\mathrm{AD} \\cap \\mathrm{BC}, \\mathrm{F}=\\mathrm{AC} \\cap \\mathrm{BD}, \\mathrm{P}=\\mathrm{EF} \\cap \\mathrm{AB})% và Q %(=\\mathrm{EF} \\cap \\mathrm{CD})%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) %(\\mathrm{M}, \\mathrm{N}, \\mathrm{P}, \\mathrm{Q})% cùng thuộc một đường tròn có tâm là T.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{G}=\\mathrm{AB} \\cap \\mathrm{CD}(\\mathrm{h} .25))%<br>Vì %((\\mathrm{GPAB})=-1 ; \\mathrm{MA}=\\mathrm{MB})% và %((\\mathrm{GQCD})=-1 ; \\mathrm{NC}=)% ND nên<br>%(\\overline{G M} \\cdot \\overline{G P}=\\overline{G A} \\cdot \\overline{G B}=\\overline{G C} \\cdot \\overline{G D}=\\overline{G N} \\cdot \\overline{G Q})%<br>Do đó %(\\mathrm{M}, \\mathrm{N} . \\mathrm{P}, \\mathrm{Q})% cùng thuộc một đường tròn, tâm T .",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) MQ, NP, OT đồng quy.",
+        "question_images": [],
+        "solution": "Gọi L là trung điểm của EF; %(\\mathrm{S}=\\mathrm{MQ} \\cap \\mathrm{NP})%; %(\\{\\mathrm{U} ; \\mathrm{V}\\}=\\mathrm{EF} \\cap(\\mathrm{O}))%<br>Dễ thấy TS %(\\perp \\mathrm{LG})% (định lí Brocard) (3)<br>Dễ thấy %((G P A B)=-1)%.<br>Kết hợp với %(\\mathrm{MA}=\\mathrm{MB})%, theo hệ thức Maclaurin, ta có:<br>%(\\mathrm{P}_{\\mathrm{G} /(\\mathrm{o})}=\\overline{\\mathrm{GA}} \\cdot \\overline{\\mathrm{GB}}=\\overline{\\mathrm{GM}} \\cdot \\overline{\\mathrm{GP}}=\\mathrm{P}_{\\mathrm{G} / \\mathrm{T})})%<br>Dễ thấy (EFUV) %(=-1=(E F P Q))%.<br>Theo hệ thức Newton cho hai hàng điểm điều hòa (EFUV) và (EFPQ), ta có<br>%(L E^{2}=L F^{2}=L P . L Q=L U . L V)%<br>Mà LP.LQ %(=P_{L / \\mathrm{T})} ; \\mathrm{LU} . \\mathrm{LV}=P_{L /(\\mathrm{o})})%<br>Vậy %(P_{L /(\\mathrm{o})}=P_{L / \\mathrm{T})})%<br>Do đó OT %(\\perp)% LG (4)<br>Từ (3) và (4) suy ra %(\\mathrm{O}, \\mathrm{T}, \\mathrm{S})% thẳng hàng (đpcm)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0b39add2f23ce6fed7e2607212ca374b.png\" srcset=\"https://docdn.giainhanh.io/media/test/03cdf4e9b2d960065167f5713767bbbe.png 135w\" width=\"135\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho ba số nguyên dương %(\\mathrm{a}, \\mathrm{m}, \\mathrm{n})% trong đó a là số chẵn và %(\\mathrm{n}\\gt 1)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.75,
+        "content": "Chứng minh rằng mọi ước nguyên tố của %(\\mathrm{A}=a^{2^{n}}+1)% đều có dạng %(2^{n+1} k+1)%, với k là số tự nhiên.",
+        "question_images": [],
+        "solution": "Giả sử rằng d là một ước nguyên tố của %(a^{2^{n}}+1)%.<br>Suy ra d %(_{d}(a)=2^{t})%, với %(0 \\leq t \\leq n+1)%.<br>Nếu %(t \\leq n)% thì %(a^{2^{n}}-1: a^{2^{t}}-1: d)%, suy ra %(2: d)%, mâu thuẫn vì d lẻ.<br>Vậy %(\\mathrm{t}=)% %(\\mathrm{n}+1)%, suy ra %(d \\equiv 1\\left(\\bmod 2^{n+1}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "Giả sử rằng %(a^{m}+1)% chia hết cho A . Chứng minh rằng %(\\frac{m}{2^{n}})% là số nguyên dương lẻ.",
+        "question_images": [],
+        "solution": "Đặt %(m=2^{n} q+r)% với %(0 \\leq r \\leq 2^{n})%.<br>Nếu q là số chẵn thì từ %(a^{m}+1=a^{r}\\left(a^{m-r}-1\\right)+\\left(a^{r}+1\\right))%, ta suy ra %(a^{r}+1: 4)%, mâu thuẫn do %(\\mathrm{A}\\gt a^{r}+1)%.<br>Thành thử q lẻ.<br>Từ %(a^{m}+1=a^{r}\\left(a^{m-r}+1\\right)+1-a^{r})% chia hết cho A.<br>Vậy %(\\mathrm{r}=0)% nên %(\\frac{m}{2^{n}}=q)% là số lẻ.",
+        "question_type": "essay"
+    }
+]

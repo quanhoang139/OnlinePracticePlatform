@@ -1,0 +1,87 @@
+[
+    {
+        "title": "1 ",
+        "point": 5.0,
+        "content": "Giải hệ phương trình sau trên tập số thực %(\\mathbb{R})%.<br>\\[\\left\\{\\begin{array}{l}x^{2}+x^{3} y-x y^{2}+x y-y=1 \\x^{4}+y^{2}-x y(2 x-1)=1\\end{array}\\right.\\]",
+        "question_images": [],
+        "solution": "%((1) \\Leftrightarrow\\left\\{\\begin{array}{l}\\left(x^{2}-y\\right)+x y\\left(x^{2}-y\\right)+x y=1 \\\\ \\left(x^{2}-y\\right)^{2}+x y=1\\end{array}\\right.)%Đặt %(\\left\\{\\begin{array}{l}a=x^{2}-y \\\\ b=x y\\end{array}\\right.)%.<br>Hệ trở thành: %(\\left\\{\\begin{array}{l}a+a b+b=1 \\\\ a^{2}+b=1\\end{array}\\right.)%%((*) \\Leftrightarrow\\left\\{\\begin{array}{l}a^{3}+a^{2}-2 a=0 \\\\ b=1-a^{2}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a\\left(a^{2}+a-2\\right)=0 \\\\ b=1-a^{2}\\end{array}\\right.\\right.)%<br>Từ đó ta có: %((a ; b) \\in\\{(0 ; 1) ;(1 ; 0) ;(-2 ;-3)\\})%<br>Với %((a ; b)=(0 ; 1))% ta có hệ: %(\\left\\{\\begin{array}{l}x^{2}-y=0 \\\\ x y=1\\end{array} \\Leftrightarrow x=y=1\\right.)%<br>Với %((a ; b)=(1 ; 0))% ta có hệ: %(\\left\\{\\begin{array}{l}x^{2}-y=1 \\\\ x y=0\\end{array} \\Leftrightarrow(x ; y) \\in\\{(0 ;-1) ;(1 ; 0) ;(-1 ; 0)\\}\\right.)%<br>Với %((a ; b)=(-2 ;-3))%<br>ta có hệ: %(\\left\\{\\begin{array}{l}x^{2}-y=-2 \\\\ x y=-3\\end{array}\\right.)%%(\\Leftrightarrow\\left\\{\\begin{array}{l}y=-\\frac{3}{x} \\\\ x^{3}+2 x+3=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}y=-\\frac{3}{x} \\\\ (x+1)\\left(x^{2}-x+3\\right)=0\\end{array} \\Rightarrow x=-1 ; y=3\\right.\\right.)%<br>Kết luận: Hệ phương trình có các nghiệm<br>:%((x ; y) \\in\\{(1 ; 1) ;(0 ;-1) ;(1 ; 0) ;(-1 ; 0) ;(-1 ; 3)\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Cho dãy số %(\\left(u_{n}\\right))% xác định bởi %(\\left\\{\\begin{array}{l}u_{1}=m \\in \\mathbb{R} \\\\ u_{n+1}=u_{n}^{2}-2 u_{n}+2, \\forall n \\in \\mathbb{N}^{*}\\end{array}\\right.)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 4.0,
+        "content": "a) Khi %(m=\\frac{3}{2})%, chứng minh dãy số có giới hạn hữu hạn và tìm giới hạn đó.",
+        "question_images": [],
+        "solution": "Bằng quy nạp, chứng minh được<br>%(u_{n} \\in(1 ; 2))%Xét %(f(x)=x^{2}-2 x+2, \\quad \\forall x \\in(1 ; 2))%<br>\\[f^{\\prime}(x)=2 x-2\\gt 0, \\forall x \\in(1 ; 2)\\]<br>Có %(u_{2}=u_{1}^{2}-2 u_{1}+2=\\frac{5}{4}\\lt u_{1})%.<br>Suy ra %(\\left(u_{n}\\right))% là dãy giảm<br>Từ %((1),(2))% suy ra %(\\exists L \\in \\mathbb{R}: \\lim u_{n}=L(0\\lt L\\lt 2))%.<br>Chuyển qua giới hạn, được: %(L=L^{2}-2 L+2 \\Leftrightarrow\\left[\\begin{array}{l}L=1(t / m) \\\\ L=2(l)\\end{array}\\right.)%<br>Vậy %(\\lim u_{n}=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Xác định tất cả các giá trị của %(m)% để dãy số %(\\left(u_{n}\\right))% có giới hạn hữu hạn.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Xét } f(x)=x^{2}-2 x+2 \\\\ f^{\\prime}(x)=2 x-2=0 \\Leftrightarrow x=1 \\\\ f(x)=x \\Leftrightarrow\\left[\\begin{array}{l}x=1 \\\\ x=2\\end{array}\\right.\\end{array})%<br>Từ bảng biên thiên, ta có:<br>TH1: %(m=1 \\Rightarrow u_{n}=1, \\forall n \\in \\mathbb{N}^{*} \\Rightarrow \\lim u_{n}=1)%<br>TH2: %(m=2 \\Rightarrow u_{n}=2, \\forall n \\in \\mathbb{N}^{*} \\Rightarrow \\lim u_{n}=2)%<br>TH3: %(m=0 \\Rightarrow u_{2}=2 \\Rightarrow u_{n}=2, \\forall n \\geq 2 \\Rightarrow \\lim u_{n}=2)%TH4: %(m \\in(1 ; 2))%<br>tương tự ý a) suy ra %(\\lim u_{n}=1)%<br>TH5: %(m \\in(2 ;+\\infty))%. %(\\left(u_{n}\\right))% là dãy tăng<br>.Giả sử %(\\left(u_{n}\\right))% bị chặn trên.<br>Khi đó %(\\exists L \\in \\mathbb{R}: \\lim u_{n}=L(L\\gt 2))%<br>Chuyển qua giới hạn, được: %(L=L^{2}-2 L+2 \\Leftrightarrow\\left[\\begin{array}{l}L=1(l) \\\\ L=2(l)\\end{array}\\right.)%<br>vậy %(\\lim u_{n}=+\\infty)%.<br>TH6: %(m \\in(0 ; 1) \\Rightarrow u_{2} \\in(1 ; 2))%.<br>theo TH4, suy ra %(\\lim u_{n}=1)%.<br>TH7: %(m \\in(-\\infty ; 0) \\Rightarrow u_{2} \\in(2 ;+\\infty))%.<br>Theo TH5, suy ra %(\\lim u_{n}=+\\infty)%.<br>Vậy %(m \\in[0 ; 2])% thì dãy số có giới hạn hữu hạn.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9d83d73d50448256113439e5ecb79aa2.png\" srcset=\"https://docdn.giainhanh.io/media/test/342a1b35803210b16a397e9243480e94.png 245w, https://docdn.giainhanh.io/media/test/0781dd5387e0e690b7368605f5b8ebb4.png 500w, https://docdn.giainhanh.io/media/test/a889e0e6a0b3b31f0ad07f30941b4f4b.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các hàm số %(f: \\mathbb{R} \\rightarrow \\mathbb{R})% thỏa mãn điều kiện:<br>\\[f[(x+1) f(y)]=y f[f(x)+1], \\quad \\forall x, y \\in \\mathbb{R} .\\]",
+        "question_images": [],
+        "solution": "\\[f[(x+1) f(y)]=y f[f(x)+1]\\]<br>Chọn %(x=-1 ; y=0 \\Rightarrow f(0)=0)%<br>Cố định %(x ;)% Lấy %(y_{1}, y_{2} \\in \\mathbb{R})% sao cho %(f\\left(y_{1}\\right)=f\\left(y_{2}\\right))%.<br>Thay vào %(\\left({ }^{*}\\right))%, được<br>\\[y_{1} f[f(x)+1]=f\\left[(x+1) f\\left(y_{1}\\right)\\right]=f\\left[(x+1) f\\left(y_{2}\\right)\\right]=y_{2} f[f(x)+1] \\Rightarrow y_{1}=y_{2}\\]<br>Suy ra %(f)% là đơn ánh.Cho %(y=1)%, kết hợp %(f)% là đơn ánh<br>Ta có:<br>\\[f[(x+1) f(1)]=f[f(x)+1] \\Rightarrow(x+1) f(1)=f(x)+1 \\Rightarrow f(x)=a x+b, \\quad(a, b \\in \\mathbb{R})\\]<br>Thử lại thấy %(\\left\\{\\begin{array}{l}b=0 \\\\ {\\left[\\begin{array}{l}a=0 \\text { thỏa mãn. } \\\\ a=1\\end{array}\\right.}\\end{array}\\right.)%<br>Vây hàm số cần tìm là %(f(x)=0 \\forall x \\in \\mathbb{R} \\cdot f(x)=x, \\forall x \\in \\mathbb{R})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho đường tròn tâm %(O)% đường kính %(A B)%. Lá́y điểm %(H)% trên đoạn thẳng %(A B)% ( %(H)% không trùng %(A, O, B)% ). Đường thẳng qua %(H)% vuông góc với %(A B)% cắt đường tròn %((O))% tại %(C)%. Đường tròn đường kính %(C H)% cắt %(A C, B C)% và %((O))% lần lượt tại %(D, E)% và %(F)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 3.0,
+        "content": "a) Chứng minh rằng các đường thẳng %(A B, D E)% và %(C F)% đồng quy.",
+        "question_images": [],
+        "solution": "Ta có %(C A \\cdot C D=C H^{2}=C B . C E)%, suy ra tứ giác %(A B E D)% nội tiếp.<br>%(A B)% là trục đẳng phương của %((O))% và đường tròn %((A B E D))%<br>%(D E)% là trục đẳng phương của %((A B E D))% và đường tròn đường kính %(\\mathrm{CH})% %(\\mathrm{CF})% là trục đẳng phương của %((\\mathrm{O}))% và đường tròn đường kính %(\\mathrm{CH})%<br><img src=\"https://docdn.giainhanh.io/media/test/11c7e24a1f2103c96b292a4b03570a2a.PNG\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 3.0,
+        "content": "b) Đường tròn tâm %(C)% bán kính %(C H)% cắt %((O))% tại %(P)% và %(Q)%. Chứng minh rằng bốn điểm %(P, D, E, Q)% thẳng hàng.",
+        "question_images": [],
+        "solution": "Gọi %(M)% là giao điềm của %(D E, A B)% và %(C F)%<br>Ta có %(P Q)% là trục đẳng phương của %((C))% và %((O))% nên %(O C \\perp P Q)%<br>Ta cũng dễ thấy %(O C \\perp D E)%.Hơn nữa %(M)% chính là tâm đẵg phương của ba đường tròn %((C),(O))% và đường tròn đường kính %(C H)%<br>Suy ra %(P Q)% đi qua %(M)%.Vậy %(D E, P Q)% cùng đi qua %(M)% và cùng vuông góc với %(O C)% nên trùng nhau<br>Suy ra %(P, D, E, Q)% thă̆ng hàng.<br><img src=\"https://docdn.giainhanh.io/media/test/11c7e24a1f2103c96b292a4b03570a2a.PNG\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho 167 tập hợp %(A_{1}, A_{2}, \\ldots, A_{167})% có tính chất:i) %(\\left|A_{1}\\right|+\\left|A_{2}\\right|+\\ldots+\\left|A_{167}\\right|=2004)%;ii) %(\\left|A_{i}\\right|=\\left|A_{j}\\right| \\cdot\\left|A_{i} \\cap A_{j}\\right|)% với %(i, j=1,2, \\ldots, 167)% và %(i \\neq j)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng %(\\left|A_{i}\\right|=12)% với %(i=1,2, \\ldots, 167)%",
+        "question_images": [],
+        "solution": "Giả %(\\left|A_{i} \\cap A_{j}\\right|=k \\neq 1)%. Suy ra %(\\left|A_{i}\\right|=k \\cdot\\left|A_{j}\\right|, \\forall i, j=1,167, i \\neq j)% (mâu thuần)<br>Do đó %(\\left|A_{i} \\cap A_{j}\\right|=1)% và %(\\left|A_{i}\\right|=12)% với %(i, j=1,2, \\ldots, 167)% và %(i)% khác %(j)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tính %(\\left|\\bigcup_{i=1}^{167} A_{i}\\right|)%.",
+        "question_images": [],
+        "solution": "Ta sẽ chứng minh %(\\left|\\bigcap_{i=1}^{167} A_{i}\\right|=1)% (*)<br>Thật vậy, xét tập %(A_{1})%. Từ %(\\left|A_{1} \\cap A_{i}\\right|=1)% với %(i=2, \\ldots, 167)%<br>suy ra mỗi tập %(A_{2}, A_{3}, \\ldots, A_{167})% chứa đúng một phần tử của %(A_{1})%<br>Do %(\\left|A_{1}\\right|=12)% nên theo nguyên lí Đirichlet thì tồn tại và có thể giả sử là %(A_{2}, \\ldots, A_{15})% cùng chứa phần tử %(a)% thuộc %(A_{1})%Nếu có %(i\\gt 15)% sao cho %(a \\notin A_{i})% thì %(\\left|A_{i} \\cap A_{j}\\right|=1 \\Rightarrow\\left|A_{j} \\cap\\left(A_{i} \\backslash\\{a\\}\\right)\\right|=1)%<br>Vậy: %(A_{j} \\cap\\left(A_{i} \\backslash\\{a\\}\\right)=\\left\\{b_{j}\\right\\})% với %(j=2,3, \\ldots, 15)% (1)<br>Dễ thấy các %(b_{j})% là phân biệt nên từ (1) suy ra %(A_{i})% chứa quá 12 phần tử.<br>Trái với kết luận %(\\left|A_{i}\\right|=12)%<br>Từ (*) và %(\\left|A_{i} \\cap A_{j}\\right|=1, i, j=1,2, \\ldots, 167)% và %(i)% khác %(j)% suy ra:<br>\\[\\left|\\bigcup_{i=1}^{167} A_{i}\\right|=\\mid\\left(\\bigcup _ { i = 1 } ^ { 1 6 7 } ( A _ { i } \\backslash \\{ \\mathrm { a } \\} ) \\cup \\{ \\mathrm { a } \\} | = | \\left(\\bigcup_{i=1}^{167}\\left(A_{i} \\backslash\\{\\mathrm{a}\\}\\right)|+|\\{\\mathrm{a}\\} \\mid=167.11+1=1838 .\\right.\\right.\\]",
+        "question_type": "essay"
+    }
+]

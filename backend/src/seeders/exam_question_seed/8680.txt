@@ -1,0 +1,81 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các giá trị của tham số %(m(m \\neq 0))% để đường thẳng %(\\Delta: y=3(x-m))% cắt đồ thị hàm số %(y=\\frac{3 x-2 m}{m x+1}(H))% tại 2 diểm phân biệt %(A, B)% sao cho diện tích %(\\triangle O A B)% bằng %(\\frac{\\sqrt{21}}{2})%.",
+        "question_images": [],
+        "solution": "Phương trình hoành độ giao điểm của %(\\Delta)% và đồ thị %((H))% :<br>\\[3 m x^{2}-3 m^{2} x-m=0, x \\neq \\frac{-1}{m}\\]<br>Vì %(m \\neq 0)% nên phương trình %(\\Leftrightarrow 3 x^{2}-3 m x-1=0(*))%.<br>Ta có %(\\Delta=9 m^{2}+12\\gt 0, \\forall m \\neq 0)% và %(f\\left(\\frac{-1}{m}\\right)=\\frac{3}{m^{2}}+2 \\neq 0, \\forall m \\neq 0)% (ở đây %(f(x))% là vế trái của %(\\left.\\left({ }^{*}\\right)\\right))% nên %(\\Delta)% luôn cắt đồ thị %((H))% tại 2 điểm %(A, B)% phân biệt %(\\forall m \\neq 0)%<br>Ta có %(A\\left(x_{1} ; 3 x_{1}-3 m\\right), B\\left(x_{2} ; 3 x_{2}-3 m\\right))% với %(x_{1}, x_{2})% là 2 nghiệm của (*).<br>Ta có %(d(O ; \\Delta)=\\frac{|-3 m|}{\\sqrt{10}})% và<br>\\[\\begin{array}{l}A B=\\sqrt{\\left(x_{2}-x_{1}\\right)^{2}+\\left(3 x_{2}-3 x_{1}\\right)^{2}}=\\sqrt{10\\left(x_{2}-x_{1}\\right)^{2}} \\\\=\\sqrt{10\\left(x_{1}+x_{2}\\right)^{2}-40 x_{1} x_{2}}=\\sqrt{10 m^{2}+\\frac{40}{3}}\\end{array}\\]<br>\\[\\begin{array}{l}S_{\\triangle O M B}=\\frac{1}{2} d(O ; \\Delta) A B=\\frac{1}{2} \\frac{|-3 m|}{\\sqrt{10}} \\sqrt{10 m^{2}+\\frac{40}{3}}=\\frac{\\sqrt{21}}{2} \\\\Rightarrow \\sqrt{3}|m| \\sqrt{10 m^{2}+\\frac{40}{3}}=\\sqrt{70} \\Leftrightarrow 30 m^{4}+40 m^{2}-70=0\\end{array}\\]<br>\\[\\Leftrightarrow\\left[\\begin{array} { l } { m ^ { 2 } = 1 } \\\\{ m ^ { 2 } = - \\frac { 7 } { 3 } ( l ) }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}m=1 \\m=-1\\end{array}(\\mathrm{t} / \\mathrm{m})\\right.\\right.\\]<br>Kết luận: %(m=1 ; m=-1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Giải phương trình : %(\\log _{2017} \\frac{x^{2}+x+3}{2 x^{2}+4 x+5}=x^{2}+3 x+2 \\quad(x \\in \\mathrm{i}))%",
+        "question_images": [],
+        "solution": "Ta có %(\\left\\{\\begin{array}{l}x^{2}+x+3\\gt 0, \\forall x \\in R \\\\ 2 x^{2}+4 x+5>0, \\forall x \\in R\\end{array}\\right.)% và %(2 x^{2}+4 x+5-\\left(x^{2}+x+3\\right)=x^{2}+3 x+2)%<br>Phương trình đã cho tương đương với<br>\\[\\log _{2017} \\frac{x^{2}+x+3}{2 x^{2}+4 x+5}=\\left(2 x^{2}+4 x+5\\right)-\\left(x^{2}+x+3\\right)\\]<br>Đặt %(a=x^{2}+x+3, b=2 x^{2}+4 x+5(a>0, b>0))%<br>Phương trình trở thành %(\\log _{2017} \\frac{a}{b}=b-a \\Leftrightarrow a+\\log _{2017} a=b+\\log _{2017} b\\left({ }^{*}\\right))%<br>Xét hàm số: %(f(t)=t+\\log _{2 \\mathrm{~mm} 7} t, \\forall t>0)%.<br>\\[\\Rightarrow f^{\\prime}(t)=1+\\frac{1}{t \\ln 2017}>0, \\forall t>0\\]<br>Do đó %(f(t))% là hàm đồng biến trên %((0 ;+\\infty))%.<br>Từ %((*))% suy ra %(a=b)%.<br>Khi đó ta có: %(\\quad x^{2}+x+3=2 x^{2}+4 x+5 \\Leftrightarrow\\left[\\begin{array}{l}x=-1 \\\\ x=-2\\end{array}\\right.)%<br>Kết luận: %(\\quad x=-1 ; x=-2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho 2017 số %(a_{1}, a_{2}, a_{3}, \\ldots, a_{2017})% thuộc khoảng %(\\left(\\frac{1}{4} ; 1\\right))%. Chứng minh rằng:<br>\\[\\begin{array}{l}\\log _{a_{1}}\\left(a_{2}-\\frac{1}{4}\\right)+\\log _{a_{2}}\\left(a_{3}-\\frac{1}{4}\\right)+\\ldots \\\\+\\log _{a_{2016}}\\left(a_{2017}-\\frac{1}{4}\\right)+\\log _{a_{2017}}\\left(a_{1}-\\frac{1}{4}\\right) \\geq 4034\\end{array}\\]",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}M=\\log _{a}\\left(a_{2}-\\frac{1}{4}\\right)+\\log _{a_{2}}\\left(a_{3}-\\frac{1}{4}\\right)+\\ldots \\\\+\\log _{a_{2016}}\\left(a_{2017}-\\frac{1}{4}\\right)+\\log _{a_{2007}}\\left(a_{1}-\\frac{1}{4}\\right)\\end{array})%<br>Nhận xét: %(\\forall i=\\overline{1 ; 2017}, \\frac{1}{4}\\lt a_{i}\\lt 1,0\\lt a_{i}-\\frac{1}{4}\\lt \\frac{3}{4})%<br>Lại có: %(\\left(a_{i}-\\frac{1}{2}\\right)^{2} \\geq 0 \\Leftrightarrow a_{i}^{2} \\geq a_{i}-\\frac{1}{4} \\quad)% nên<br>\\[M \\geq \\log _{a_{1}} a_{2}^{2}+\\log _{a_{2}} a_{3}^{3}+\\ldots+\\log _{a_{2017}} a_{1}^{2}=2\\left(\\log _{a_{1}} a_{2}+\\log _{a_{2}} a_{3}+\\ldots \\log _{a_{2017}} a_{1}\\right)\\]<br>Do %(\\log _{a_{1}} a_{2}, \\log _{a_{1}} a_{2}, \\ldots, \\log _{a_{2017}} a_{1})% là các số dương nên theo BĐT CôSi ta có:<br>%(M \\geq 2.2017 .201 \\sqrt{\\log _{a_{1}} a_{2} \\cdot \\log _{a_{2}} a_{3} \\ldots . . \\log _{a_{3017}} a_{1}}=2.2017 .2017 \\sqrt{1}=4034)%<br>Đẳng thức xảy ra khi %(a_{1}=a_{2}=\\ldots .=a_{2017}=\\frac{1}{2})%<br>Kết luận: Vậy %(M \\geq 4034)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Chứng minh: %(\\frac{1}{\\sqrt{2}} \\leq \\int_{0}^{\\sqrt{2}} \\frac{1}{\\sqrt{1-x^{2017}}} d x \\leq \\frac{\\pi}{4})%",
+        "question_images": [],
+        "solution": "Ta có: %(1 \\leq \\frac{1}{\\sqrt{1-x^{2017}}} \\leq \\frac{1}{\\sqrt{1-x^{2}}} ; \\forall x \\in\\left[0 ; \\frac{1}{\\sqrt{2}}\\right])%<br>do đó %(\\int_{0}^{\\frac{1}{\\sqrt{2}}} d x \\leq \\int_{0}^{\\frac{1}{\\sqrt{2}}} \\frac{1}{\\sqrt{1-x^{2017}}} d x \\leq \\int_{0}^{\\frac{1}{\\sqrt{2}}} \\frac{1}{\\sqrt{1-x^{2}}} d x)%<br>Tính %(\\int_{0}^{\\frac{1}{\\sqrt{2}}} d x=\\frac{1}{\\sqrt{2}} ; \\int_{0}^{\\frac{1}{\\sqrt{2}}} \\frac{1}{\\sqrt{1-x^{2}}} d x=\\frac{\\pi}{4})%.<br>Vậy %(\\frac{1}{\\sqrt{2}} \\leq \\int_{0}^{\\frac{1}{\\sqrt{2}}} \\frac{1}{\\sqrt{1-x^{2017}}} d x \\leq \\frac{\\pi}{4})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Tính tích phân sau: %(1=\\int_{0}^{\\frac{\\pi}{2}} \\ln \\left[\\frac{(2017+\\cos x)^{2017 \\sin x}}{(2017+\\sin x)^{2017}}\\right] d x)%",
+        "question_images": [],
+        "solution": "Ta có %(\\quad I=\\int_{0}^{\\frac{\\pi}{2}}[(2017+\\sin x) \\ln (2017+\\cos x)-2017 \\ln (2017+\\sin x)] d x=)%<br>%(=2017 \\int_{0}^{\\frac{\\pi}{3}} \\ln (2017+\\cos x) d x+\\int_{0}^{\\frac{\\pi}{2}} \\sin x \\ln (2017+\\cos x) d x)%<br>%(-2017 \\int_{0}^{\\frac{\\pi}{2}} \\ln (2017+\\sin x) d x=\\mathrm{A}+\\mathrm{B}-\\mathrm{C})%<br>Với %(A=2017 \\int_{0}^{\\frac{\\pi}{2}} \\ln (2017+\\cos x) d x, B=\\int_{0}^{\\frac{\\pi}{2}} \\sin x \\ln (2017+\\cos x) d x)%,<br>%(C=2017 \\int_{0}^{\\frac{\\pi}{2}} \\ln (2017+\\sin x) d x)%<br>Xét %(A=2017 \\int_{0}^{\\frac{\\pi}{2}} \\ln (2017+\\cos x) d x)%<br>Đặt %(x=\\frac{\\pi}{2}-t \\Rightarrow A=-2017 \\int_{\\frac{\\pi}{2}}^{0} \\ln (2017+\\sin t) d t=2017 \\int_{0}^{\\frac{\\pi}{2}} \\ln (2017+\\sin x) d x=C)%<br>Vậy %(I=B)%<br>Tính tích phân %(B=\\int_{0}^{\\frac{\\pi}{2}} \\sin x \\ln (2017+\\cos x) d x)%<br>Đặt %(u=2017+\\cos x \\Rightarrow d u=-\\sin x d x \\Rightarrow B=\\int_{2017}^{2018} \\ln u d u)%<br>Dùng từng phần tính được:<br>\\[B=\\int_{2017}^{2018} \\ln u d u=\\left.(u \\cdot \\ln u)\\right|_{2017} ^{20018}-\\int_{2017}^{2018} d u=2018 \\ln 2018-2017 \\ln 2017-1\\]<br>Vậy: %(I=2018 \\ln 2018-2017 \\ln 2017-1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình lập phương %(\\mathrm{ABCD} . \\mathrm{A}^{\\prime} \\mathrm{B}^{\\prime} \\mathrm{C}^{\\prime} \\mathrm{D}^{\\prime})% có cạnh là %(a)%. Trên %(\\mathrm{AA}^{\\prime}, \\mathrm{BB})% ' lấy lần lượt các điểm %(\\mathrm{M}, \\mathrm{N})% sao cho %(A M=\\frac{3 a}{4}, B N=\\frac{a}{2})%. Gọi %((P))% là mặt phẳng đi qua ba điểm %(\\mathrm{M}, \\mathrm{N}, \\mathrm{C})% và %(\\mathrm{Q})% là giao điểm cùa %(\\mathrm{DD}^{\\prime})% với %(\\mathrm{mp}(P))%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Thiết diện của hình lập phương %(\\mathrm{ABCD} \\cdot \\mathrm{A}^{\\prime} \\mathrm{B}^{\\prime} \\mathrm{C}^{\\prime} \\mathrm{D}^{\\prime})% khi cắt bời %((P))% là hình gì. Tính diện tích của thiết diện đó.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/41678ef99e836a2723998e0080ea554e.png\" srcset=\"https://docdn.giainhanh.io/media/test/2ed0e105ccd82ac50eef5c9ce3685f27.png 179w\" width=\"179\"/><br>Thiết diện là hình binh hành %(\\mathrm{MNCQ})%.<br>\\[\\begin{array}{l}M N=C Q=\\sqrt{a^{2}+\\frac{a^{2}}{16}}=\\frac{a}{4} \\sqrt{17} \\quad M Q=N C=\\sqrt{a^{2}+\\frac{a^{2}}{4}}=\\frac{a}{2} \\sqrt{5} \\M C=\\sqrt{\\frac{9}{16} a^{2}+2 a^{2}}=\\frac{a}{4} \\sqrt{41}\\end{array}\\]<br>%(\\begin{array}{l}\\text { Xét tam giác MQC có } \\\\ \\cos M Q C=\\frac{M Q^{2}+Q C^{2}-M C^{2}}{2 M Q \\cdot Q C}=\\frac{\\frac{5}{4} a^{2}+\\frac{17}{16} a^{2}-\\frac{41}{16} a^{2}}{2 \\cdot \\frac{a}{2} \\sqrt{5} \\cdot \\frac{a}{4} \\sqrt{17}}=-\\frac{1}{\\sqrt{85}} \\\\ \\Rightarrow \\sin M Q C=\\sqrt{1-\\frac{1}{85}}=\\sqrt{\\frac{84}{85}} \\\\ \\Rightarrow S_{\\text {MNCQ }}=M Q \\cdot Q C \\cdot \\sin M Q C=\\frac{a}{2} \\sqrt{5} \\cdot \\frac{a}{4} \\sqrt{17} \\sqrt{\\frac{84}{85}}=\\frac{a^{2} \\sqrt{84}}{8}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tỉnh khoảng cách từ điểm %(\\mathrm{B}^{\\prime})% đến mặt phẳng %((P))% theo %(a)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}V_{\\text {RI ANCQ }}=V_{Q \\operatorname{NNE}}+V_{Q: B^{\\prime} N C} \\\\ V_{Q M N V^{\\prime}}=\\frac{1}{3} \\cdot a \\cdot S_{M N B^{\\prime}}=\\frac{1}{3} \\cdot a \\cdot \\frac{1}{2} \\cdot a \\cdot \\frac{a}{2}=\\frac{a^{3}}{12} ; \\quad V_{Q \\cdot B^{\\prime} N C}=\\frac{1}{3} \\cdot a \\cdot S_{B^{\\prime} N C}=\\frac{1}{3} \\cdot a \\cdot \\frac{1}{2} \\cdot a \\cdot \\frac{a}{2}=\\frac{a^{3}}{12} \\\\ V_{\\text {Ir MNCe }}=\\frac{a^{3}}{12}+\\frac{a^{3}}{12}=\\frac{a^{3}}{6} \\\\ V_{B \\cdot M \\sim C}=\\frac{1}{3} d\\left(B^{\\prime} ;(\\text { MNCQ })\\right) \\cdot S_{\\text {MNCe }} \\\\ \\Rightarrow d\\left(B^{\\prime} ;(P)\\right)=d\\left(B^{\\prime} ;(\\text { MNCQ })\\right)=\\frac{3 V_{R^{\\prime} \\text { MNCe }}}{S_{\\text {MNce }}}=\\frac{3 \\cdot \\frac{a^{3}}{6}}{\\frac{a^{2} \\cdot \\sqrt{84}}{8}}=\\frac{4 a}{\\sqrt{84}} \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Gọi %(\\mathrm{E}, \\mathrm{F})% lần lượt là trung điểm của %(\\mathrm{B}^{\\prime} \\mathrm{C}^{\\prime})% và %(\\mathrm{C}^{\\prime} \\mathrm{D}^{\\prime})%. Tỉnh bán kính mặt cầu %((\\mathrm{S}))% đi qua bốn điểm %(\\mathrm{A}, \\mathrm{C}, \\mathrm{E}, \\mathrm{F})% theo %(a)%.",
+        "question_images": [],
+        "solution": "Gọi %(O_{1}, O_{2})% lần lượt là tâm các hình vuông %(\\mathrm{A}^{\\prime} \\mathrm{B}^{\\prime} \\mathrm{C}^{\\prime} \\mathrm{D}^{\\prime})% và %(\\mathrm{ABCD})%.<br>Gọi %(O)% là tâm của mặt cầu %((\\mathrm{S}))%, khi đó %(O)% thuộc mặt phẳng trung trực %((\\alpha))% của %(\\mathrm{EF} \\Rightarrow O \\in m p\\left(A C C^{\\prime} A^{\\prime}\\right))%;<br>đồng thời %(O)% thuộc mặt phẳng trung trực %((\\beta))% cùa %(\\mathrm{AC} \\Rightarrow O \\in m p\\left(B D D^{\\prime} B^{\\prime}\\right))%<br>Mà %(m p\\left(A C C^{\\prime} A^{\\prime}\\right) \\cap m p\\left(B D D^{\\prime} B^{\\prime}\\right)=O_{1} O_{2} \\Rightarrow O \\in O_{1} O_{2})%<br>Đặt %(O O_{1}=x \\Rightarrow O O_{2}=a-x)%<br>Khi đó ta có: %(O E^{2}=O A^{2} \\Leftrightarrow x^{2}+\\frac{a^{2}}{4}=(a-x)^{2}+\\frac{a^{2}}{2} \\Leftrightarrow x=\\frac{5 a}{8})%<br>Vậy bán kính mặt cầu %((\\mathrm{S}))% là %(R=O E=\\sqrt{\\frac{25 a^{2}}{64}+\\frac{a^{2}}{4}}=\\frac{a}{8} \\sqrt{41})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Cho %(a, b, c)% là các số thực dương. Tìm giá trị lớn nhất của biểu thức:<br>\\[T=\\frac{4}{\\sqrt{a^{2}+b^{2}+c^{2}+4}}-\\frac{9}{(a+b) \\sqrt{(a+2 c)(b+2 c)}}\\]",
+        "question_images": [],
+        "solution": "\\[T=\\frac{4}{\\sqrt{a^{2}+b^{2}+c^{2}+4}}-\\frac{9}{(a+b) \\sqrt{(a+2 c)(b+2 c)}}\\]<br>Theo BĐT B.C.S ta có: %(a+b+c+2 \\leq \\sqrt{4\\left(a^{2}+b^{2}+c^{2}+4\\right)})%<br>\\[\\Leftrightarrow \\frac{1}{2}(a+b+c+2) \\leq \\sqrt{a^{2}+b^{2}+c^{2}+4}\\]<br>Theo BĐT Cô-si ta có:<br>\\[\\begin{array}{l}3(a+b) \\sqrt{(a+2 c)(b+2 c)} \\leq(3 a+3 b) \\cdot\\left(\\frac{a+b+4 c}{2}\\right) \\\\leq \\frac{1}{2}\\left[\\frac{4(a+b+c)}{2}\\right]^{2}=2(a+b+c)^{2}\\end{array}\\]<br>Vậy %(T \\leq \\frac{8}{a+b+c+2}-\\frac{27}{2(a+b+c)^{2}})%<br>Đặt %(t=a+b+c ;(t\\gt 0) \\Rightarrow T \\leq \\frac{8}{t+2}-\\frac{27}{2 t^{2}}=f(t))%<br>Xét hàm số %(f(t)=\\frac{8}{t+2}-\\frac{27}{2 t^{2}},(t>0))%<br>\\[\\begin{array}{c}f^{\\prime}(t)=-\\frac{8}{(t+2)^{2}}+\\frac{27}{t^{3}} \\f^{\\prime}(t)=0 \\Leftrightarrow \\frac{8}{(t+2)^{2}}=\\frac{27}{t^{3}} \\Leftrightarrow 8 t^{3}-27(t+2)^{2}=0 \\Leftrightarrow t=6\\end{array}\\]<br>Từ BBT ta có %(T \\leq f(t) \\leq f(6)=\\frac{5}{8})%;<br>Vậy %(m a x T=\\frac{5}{8})% xảy ra khi %(a=b=c=2)%",
+        "question_type": "essay"
+    }
+]

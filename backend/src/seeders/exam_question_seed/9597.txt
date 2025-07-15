@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Rút gọn biểu thức %(P=\\frac{1}{1+\\sqrt{5}}+\\frac{1}{\\sqrt{5}+\\sqrt{9}}+\\frac{1}{\\sqrt{9}+\\sqrt{13}}+\\ldots .+\\frac{1}{\\sqrt{2015}+\\sqrt{2019}})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}P=\\frac{1}{1+\\sqrt{5}}+\\frac{1}{\\sqrt{5}+\\sqrt{9}}+\\frac{1}{\\sqrt{9}+\\sqrt{13}}+\\ldots .+\\frac{1}{\\sqrt{2015}+\\sqrt{2019}} \\\\ =\\frac{1-\\sqrt{5}}{(1+\\sqrt{5})(1-\\sqrt{5})}+\\frac{\\sqrt{5}-\\sqrt{9}}{(\\sqrt{5}+\\sqrt{9})(\\sqrt{5}-\\sqrt{9})}+\\ldots . .+\\frac{\\sqrt{2015}-\\sqrt{2019}}{(\\sqrt{2015}+\\sqrt{2019})(\\sqrt{2015}-\\sqrt{2019})} \\\\ =\\frac{1-\\sqrt{5}+\\sqrt{5}-\\sqrt{9}+\\ldots .+\\sqrt{2015}-\\sqrt{2019}}{-4}=\\frac{1-\\sqrt{2019}}{-4}=\\frac{\\sqrt{2019}-1}{4}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Tìm %(x, y, z)% biết : %(2 x^{2}+2 y^{2}+z^{2}+2 x y+2 x z+2 y z+10 x+6 y+34=0)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Ta có : } 2 x^{2}+2 y^{2}+z^{2}+2 x y+2 x z+2 y z+10 x+6 y+34=0 \\\\Leftrightarrow\\left(x^{2}+y^{2}+z^{2}+2 x y+2 x z+2 y z\\right)+\\left(x^{2}+10 x+25\\right)+\\left(y^{2}+6 y+9\\right)=0 \\\\Leftrightarrow(x+y+z)^{2}+(x+5)^{2}+(y+3)^{2}=0 \\\\Leftrightarrow\\left\\{\\begin{array} { l } { x + y + z = 0 } \\\\{ x + 5 = 0 } \\\\{ y + 3 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=-5 \\y=-3 \\z=8\\end{array}\\right.\\right.\\end{array}\\]<br>Vậy %((x ; y ; z)=(-5 ;-3 ; 8))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Tìm giá trị lớn nhất và nhỏ nhất của phân thức %(A=\\frac{2 x+1}{x^{2}+2})%",
+        "question_images": [],
+        "solution": "Ta có<br>\\[A=\\frac{2 x+1}{x^{2}+2}=\\frac{x^{2}+2-\\left(x^{2}-2 x+1\\right)}{x^{2}+2}=1-\\frac{(x-1)^{2}}{x^{2}+2} \\leq 1\\left(\\text { vì } \\frac{(x-1)^{2}}{x^{2}+2} \\geq 0\\right)\\]<br>Vậy giá trị lớn nhất của %(A)% là 1 khi %(\\frac{(x-1)^{2}}{x^{2}+2}=0 \\Leftrightarrow x=1)%<br>Ta có :<br>\\[A=\\frac{2 x+1}{x^{2}+2}=\\frac{4 x+2}{2\\left(x^{2}+2\\right)}=\\frac{\\left(x^{2}+4 x+4\\right)-\\left(x^{2}+2\\right)}{2\\left(x^{2}+2\\right)}=\\frac{(x+2)^{2}}{2\\left(x^{2}+2\\right)}-\\frac{1}{2} \\geq \\frac{-1}{2}\\left(\\text { vì } \\frac{(x+2)^{2}}{2\\left(x^{2}+2\\right)} \\geq 0\\right)\\]<br>Vậy giá trị nhỏ nhất của %(A)% là %(\\frac{-1}{2})% khi %(\\frac{(x+2)^{2}}{2\\left(x^{2}+2\\right)}=0 \\Leftrightarrow x=-2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Giải phương trình %(\\frac{1}{x^{2}+5 x+6}+\\frac{1}{x^{2}+7 x+12}+\\frac{1}{x^{2}+9 x+20}+\\frac{1}{x^{2}+11 x+30}=\\frac{1}{15})%",
+        "question_images": [],
+        "solution": "ĐKXĐ: %(x \\neq-2, x \\neq-3, x \\neq-4, x \\neq-5, x \\neq-6)%<br>\\[\\begin{array}{l}\\frac{1}{x^{2}+5 x+6}+\\frac{1}{x^{2}+7 x+12}+\\frac{1}{x^{2}+9 x+20}+\\frac{1}{x^{2}+11 x+30}=\\frac{1}{15} \\\\Leftrightarrow \\frac{1}{(x+2)(x+3)}+\\frac{1}{(x+3)(x+4)}+\\frac{1}{(x+4)(x+5)}+\\frac{1}{(x+5)(x+6)}=\\frac{1}{15} \\\\Leftrightarrow \\frac{1}{x+2}-\\frac{1}{x+6}=\\frac{1}{15} \\Leftrightarrow 15(x+6)-15(x+2)=(x+2)(x+6) \\\\Leftrightarrow x^{2}+8 x-48=0 \\Leftrightarrow(x-4)(x+12)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=4(\\mathrm{tm}) \\x=-12(\\mathrm{tm})\\end{array}\\right.\\end{array}\\]<br>Vậy tập nghiệm của phương trình là %(S=\\{-12 ; 4\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Tìm số dư trong phép chia của biểu thức %((x+2)(x+4)(x+6)(x+8)+2019)% cho đa thức %(x^{2}+10 x+21)%",
+        "question_images": [],
+        "solution": "Đặt %(M=(x+2)(x+4)(x+6)(x+8)+2019)%<br>\\[\\begin{array}{l}\\Rightarrow M=[(x+2)(x+8)][(x+4)(x+6)]+2019 \\\\=\\left(x^{2}+10 x+16\\right)\\left(x^{2}+10 x+24\\right)+2019\\end{array}\\]<br>Đặt %(t=x^{2}+10 x+21 \\Rightarrow M=(t-5)(t+3)+2019=t^{2}-2 t+2004=t(t-2)+2004)%<br>Với %(t \\neq 0 \\Rightarrow x^{2}+10 x+21 \\neq 0 \\Leftrightarrow x \\neq-3, x \\neq-7)% thì %(M)% chia cho %(t)% dư 2004<br>Vậy %((x+2)(x+4)(x+6)(x+8)+2019)% chia cho %(x^{2}+10 x+21)% dư 2004",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Cho tứ giác %(A B C D)% có %(E, F)% thuộc cạnh %(A B)% sao cho %(A E=E F=F B)%; %(G, H)% trên cạnh CD sao cho %(D H=H G=G C)%. Chứng minh %(S_{E F G H}=\\frac{1}{3} S_{A B C D})%",
+        "question_images": [],
+        "solution": "Ta có %(A E=\\frac{1}{3} A B)% nên %(S_{D A B}=\\frac{1}{3} S_{A B D}, C G=\\frac{1}{3} C D \\Rightarrow S_{B G C}=\\frac{1}{3} S_{B C D})%<br>\\[\\Rightarrow S_{D A B}+S_{B C G}=\\frac{1}{3}\\left(S_{A B D}+S_{B C D}\\right)=\\frac{1}{3} S_{A B C D} \\Rightarrow S_{D E B G}=\\frac{2}{3} S_{A B C D}\\]<br>Ta có : %(H G=\\frac{1}{2} D G \\Rightarrow S_{E H G}=\\frac{1}{2} S_{D E G}, E F=\\frac{1}{2} E B \\Rightarrow S_{E F G}=\\frac{1}{2} S_{E B G})%<br>\\[\\Rightarrow S_{E H G}+S_{E F G}=\\frac{1}{2}\\left(S_{D E G}+S_{E B G}\\right)=\\frac{1}{2} S_{D E B G} \\Rightarrow S_{E F G H}=\\frac{1}{2} \\cdot \\frac{2}{3} S_{A B C D}=\\frac{1}{3} S_{A B C D}(\\mathrm{dfcm})\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/eaefeee8dab527829e6a47d1657e01c9.png\" srcset=\"https://docdn.giainhanh.io/media/test/d9e004359fb6bb5f9037fc6717d05e1e.png 245w, https://docdn.giainhanh.io/media/test/681fb58d4977a3159c6f7887e6b62555.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác %(A B C)% nhọn, các đường cao %(A A^{\\prime}, B B^{\\prime}, C C^{\\prime})%, Gọi H là trực tâm của tam giác",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Tính tổng %(\\frac{H A^{\\prime}}{A A^{\\prime}}+\\frac{H B^{\\prime}}{B B^{\\prime}}+\\frac{H C^{\\prime}}{C C^{\\prime}})%",
+        "question_images": [],
+        "solution": "Ta có %(\\frac{S_{H B C}}{S_{A B C}}=\\frac{\\frac{1}{2} H A^{\\prime} \\cdot B C}{\\frac{1}{2} A A^{\\prime} \\cdot B C}=\\frac{H A^{\\prime}}{A A^{\\prime}})%. Tương tự %(\\frac{S_{H A C}}{S_{A B C}}=\\frac{H B^{\\prime}}{B B^{\\prime}} ; \\frac{S_{H A B}}{S_{A B C}}=\\frac{H C^{\\prime}}{C C^{\\prime}})%<br>\\[\\Rightarrow \\frac{H A^{\\prime}}{A A^{\\prime}}+\\frac{H B^{\\prime}}{B B^{\\prime}}+\\frac{H C^{\\prime}}{C C^{\\prime}}=\\frac{S_{H B C}+S_{H A C}+S_{H A B}}{S_{A B C}}=\\frac{S_{A B C}}{S_{A B C}}=1\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/bdaf0387ead0e3efacc1882d687c8d82.png\" srcset=\"https://docdn.giainhanh.io/media/test/c2206725171e309b1604fe01576d67f7.png 245w, https://docdn.giainhanh.io/media/test/33dbbf618fad9addc847f581feabe721.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Gọi AI là phân giác của tam giác %(A B C, I M, I N)% thứ tự là phân giác của %(\\angle A I C)% và %(\\angle A I B)%. Chứng minh rằng %(A N . B I . C M=B N . I C . A M)%",
+        "question_images": [],
+        "solution": "Áp dụng tính chất đường phân giác của tam giác vào các tam giác %(A B C, A B I, A C I)%<br>\\[\\begin{array}{l}\\text {ta có : } \\frac{B I}{I C}=\\frac{A B}{A C} ; \\frac{A N}{N B}=\\frac{A I}{B I}, \\frac{C M}{M A}=\\frac{C I}{I A} \\\\Rightarrow \\frac{B I}{I C} \\cdot \\frac{A N}{N B} \\cdot \\frac{C M}{M A}=\\frac{A B}{A C} \\cdot \\frac{A I}{B I} \\cdot \\frac{C I}{A I}=\\frac{A B}{A C} \\cdot \\frac{C I}{B I}=\\frac{A B}{A C} \\cdot \\frac{A C}{A B}=1\\left(\\text { Vì } \\frac{C I}{B I}=\\frac{A C}{A B}\\right) \\\\Rightarrow B I \\cdot A N \\cdot C M=I C \\cdot N B \\cdot M A(d f c m)\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) Chứng minh rằng %(\\frac{(A B+B C+C A)^{2}}{A A^{12}+B B^{12}+C C^{12}} \\geq 4)%",
+        "question_images": [],
+        "solution": "Kẻ %(C x \\perp C C^{\\prime})%, gọi D là điểm đối xứng của A qua %(C x)%, suy ra %(C A=C B)%.<br>Gọi %(K)% là giao điểm của %(C x, A D)%.<br>Tứ giác %(A C^{\\prime} C K)% có 3 góc vuông nên là hình chữ nhật %(\\Rightarrow \\angle B A D=90^{\\circ})% và %(A K=C C^{\\prime} \\Rightarrow A D=2 C C^{\\prime})%.<br>Ta có %(B D \\leq B C+C D)%<br>%(\\triangle B A D)% vuông tại A nên %(A B^{2}+A D^{2}=B D^{2} \\leq(B C+C D)^{2})%<br>\\[\\Rightarrow A B^{2}+4 C C^{\\prime 2} \\leq(B C+A C)^{2} \\Rightarrow 4 C C^{\\prime 2} \\leq(B C+A C)^{2}-A B^{2}\\]<br>Tương tự ta có %(4 A A^{\\prime 2} \\leq(A B+A C)^{2}-B C^{2}, 4 B B^{\\prime 2} \\leq(A B+B C)^{2}-A C^{2})%<br>\\[\\Rightarrow 4\\left(A A^{12}+B B^{12}+C C^{12}\\right) \\leq(A B+B C+C A)^{2}\\]<br>%(\\Rightarrow \\frac{(A B+B C+C A)^{2}}{A A^{12}+B B^{\\prime 2}+C C^{12}} \\geq 4)%. Dấu bằng xảy ra khi %(A B=B C=C A)% hay tam giác %(A B C)% đều",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là các số dương có tổng bằng 1<br>Chứng minh rằng : %(\\frac{19 b^{3}-a^{3}}{b a+5 b^{2}}+\\frac{19 c^{3}-b^{3}}{c b+5 c^{2}}+\\frac{19 a^{3}-c^{3}}{a c+5 a^{2}} \\leq 3)%",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{l}(a-b)^{2} \\geq 0 \\Rightarrow a^{2}+b^{2}-a b \\geq a b \\Leftrightarrow(a+b)\\left(a^{2}+b^{2}-a b\\right) \\geq a b(a+b) \\\\Leftrightarrow a^{3}+b^{3} \\geq a b(a+b) \\Leftrightarrow a^{3}+20 b^{3} \\geq 19 b^{3}+a b(a+b) \\Leftrightarrow 19 b^{3}-a^{3} \\leq 20 b^{3}-a b(a+b) \\\\Leftrightarrow 19 b^{3}-a^{3} \\leq 5 b^{2}(4 b-a)+a b(4 b-a) \\Leftrightarrow 19 b^{3}-a^{3} \\leq(4 b-a)\\left(5 b^{2}+a b\\right) \\\\Leftrightarrow \\frac{19 b^{3}-a^{3}}{a b+5 b^{2}} \\leq 4 b-a\\left(\\text { do } 5 b^{2}+a b\\gt 0\\right)\\end{array}\\]<br>Tương tự : %(\\frac{19 c^{3}-b^{3}}{b c+5 c^{2}} \\leq 4 c-b, \\frac{19 a^{3}-c^{3}}{c a+5 a^{2}} \\leq 4 a-c)%<br>\\[\\Rightarrow \\frac{19 b^{3}-a^{3}}{a b+5 b^{2}}+\\frac{19 c^{3}-b^{3}}{b c+5 c^{2}}+\\frac{19 a^{3}-c^{3}}{c a+5 a^{2}} \\leq 4 b-a+4 c-b+4 a-c=3(a+b+c)=3 \\text { (vì } a+b+c=1 \\text { ) }\\]<br>Dấu bằng xảy ra khi %(a=b=c=\\frac{1}{3})%",
+        "question_type": "essay"
+    }
+]

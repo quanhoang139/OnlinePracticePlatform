@@ -1,0 +1,80 @@
+[
+    {
+        "title": "1",
+        "group_content": "Giải các hệ phương trình sau:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "%(\\left\\{\\begin{array}{l}\\sqrt{7 x+y}+\\sqrt{2 x+y}=5 \\\\ \\sqrt{2 x+y}+x-y=1\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "a) %(\\left\\{\\begin{array}{l}\\sqrt{7 x+y}+\\sqrt{2 x+y}=5(1) \\\\ \\sqrt{2 x+y}+x-y=1(2)\\end{array}\\right.)%<br>Đặt %(\\mathrm{u}=\\sqrt{7 x+y}, \\mathrm{v}=\\sqrt{2 x+y} \\quad(u \\geq 0, v \\geq 0))%<br>Ta có %(\\left\\{\\begin{array}{l}u+v=5 \\\\ v+x-y=1\\end{array}\\left(^{*}\\right)\\right.)%<br>Do %(u^{2}-v^{2}=(7 x+y)-(2 x+y)=5 x)%<br>Mà %(\\mathrm{u}+\\mathrm{v}=5)% nên %(\\mathrm{u}-\\mathrm{v}=\\mathrm{x})%<br>Do đó %(\\mathrm{u}=\\frac{x+5}{2}, \\mathrm{v}=\\frac{5-x}{2})%<br>Từ phương trình thứ hai của (*) ta được:<br>\\[\\mathrm{y}=\\mathrm{v}+\\mathrm{x}-1=\\frac{5-x}{2}+x-1=\\frac{x+3}{2}\\]<br>Thay %(\\mathrm{y}=\\frac{x+3}{2})% vào phương trình (2) ta được<br>\\[\\begin{array}{l}\\sqrt{2 x+\\frac{x+3}{2}}+x-\\frac{x+3}{2}=1 \\\\Leftrightarrow \\sqrt{\\frac{5 x+3}{2}}=\\frac{5-x}{2} \\Leftrightarrow\\left[\\begin{array}{l}x_{1}=1 \\x_{2}=19\\end{array}\\right.\\end{array}\\]<br>Với %(\\mathrm{x}=1)% ta được %(\\mathrm{y}=2 ; \\mathrm{x}=19)% ta được %(\\mathrm{y}=11)%Thử lại hệ phương trình ta được hệ có một nghiệm là %((1 ; 2))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "%(\\left\\{\\begin{array}{l}(x-1) \\sqrt{y}+(y-1) \\sqrt{x}=\\sqrt{2 x y} \\\\ x \\sqrt{y-1}+y \\sqrt{x-1}=x y\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "b) %(\\left\\{\\begin{array}{l}(x-1) \\sqrt{y}+(y-1) \\sqrt{x}=\\sqrt{2 x y}(1) \\\\ x \\sqrt{y-1}+y \\sqrt{x-1}=x y(2)\\end{array}\\right.)%<br>Điều kiện %(x \\geq 1, y \\geq 1)%<br>Xét phương trình (2) áp dụng bất đảng thức Cô %(\\mathrm{Si})% ta có:<br>\\[\\begin{array}{l}x \\sqrt{y-1}=x \\sqrt{(y-1) \\cdot 1} \\leq \\frac{x(y-1+1)}{2}=\\frac{x y}{2} \\y \\sqrt{x-1}=y \\sqrt{(x-1) \\cdot 1} \\leq \\frac{y(x-1+1)}{2}=\\frac{x y}{2}\\end{array}\\]<br>Vậy %(x \\sqrt{y-1}+y \\sqrt{x-1} \\leq x y)%<br>Dấu \"=\" xảy ra<br>\\[ \\Leftrightarrow\\left\\{\\begin{array}{l}y-1=1 \\x-1=1\\end{array}\\right.\\]<br>\\[\\Leftrightarrow x=y=2\\]<br>Ta thấy %(\\mathrm{x}=\\mathrm{y}=2)% củng thỏa mãn phương trình (1) Vậy hệ phương trình có nghiệm duy nhất là %((2 ; 2))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 3.0,
+        "content": "Giả sử %(x, y, z)% là những số dương thay đổi thỏa mãn điều kiện %(x+y+z)% %(=1)%.Hãy tìm giá trị lớn nhất của biểu thức<br>\\[P=\\frac{x}{x+1}+\\frac{y}{y+1}+\\frac{z}{z+1}\\]",
+        "question_images": [],
+        "solution": "Ta có %(P=\\left(1-\\frac{1}{x+1}\\right)+\\left(1-\\frac{1}{y+1}\\right)+\\left(1-\\frac{1}{z+1}\\right))%<br>\\[P=3-\\left(\\frac{1}{x+1}+\\frac{1}{y+1}+\\frac{1}{z+1}\\right)\\]<br>Mặt khác, với %(\\mathrm{x}, \\mathrm{y}, \\mathrm{z}\\gt 0)%, theo bất đẳng thức Cô %(\\mathrm{Si})% ta có<br>\\[\\begin{array}{l}x+y+z \\geq 3 x y z, \\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z} \\geq \\frac{3}{x y z} \\\\Rightarrow(x+y+z)\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right) \\geq 3 x y z \\cdot \\frac{3}{x y z}=9\\end{array}\\]<br>Dấu %(=)% xảy ra khi %(\\mathrm{x}=\\mathrm{y}=\\mathrm{z})%.Ta có %(\\frac{1}{x+1}+\\frac{1}{y+1}+\\frac{1}{z+1} \\geq \\frac{9}{(x+1)+(y+1)+(z+1)})%<br>\\[\\Rightarrow \\frac{1}{x+1}+\\frac{1}{y+1}+\\frac{1}{z+1} \\geq \\frac{9}{4}\\]<br>Vậy %(P \\leq 3-\\frac{9}{4}=\\frac{3}{4})%<br>\\[P=\\frac{3}{4} \\Leftrightarrow\\left\\{\\begin{array}{l}x+1=y+1=z+1 \\x+y+z=1\\end{array} \\Leftrightarrow x=y=z=\\frac{1}{3}\\right.\\]<br>Vậy %(\\mathrm{P})% đạt giá trị lớn nhất là %(P=\\frac{3}{4})% tại %(x=y=z=\\frac{1}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 3.0,
+        "content": "Câu 3(3d): Cho a, b, c > 0 và thỏa mãn điều kiện<br>\\[\\frac{1}{1+a}+\\frac{1}{1+b}+\\frac{1}{1+c} \\geq 2\\]<br>Chứng minh rằng: %(a b c \\leq \\frac{1}{8})%.",
+        "question_images": [],
+        "solution": "Ta có:<br>%(\\begin{array}{l}\\text { } \\frac{1}{1+a} \\geq\\left(1-\\frac{1}{1+b}\\right)+\\left(1-\\frac{1}{1+c}\\right) \\\\ \\Rightarrow \\frac{1}{1+a} \\geq \\frac{b}{1+b}+\\frac{c}{1+c} \\geq 2 \\sqrt{\\frac{b c}{(1+b)(1+c)}}\\end{array})%<br>Vậy: %(\\frac{1}{1+a} \\geq 2 \\sqrt{\\frac{b c}{(1+b)(1+c)}})%<br>Tương tự:<br>\\[\\begin{array}{l}\\frac{1}{1+b} \\geq 2 \\sqrt{\\frac{a c}{(1+a)(1+c)}} \\\\frac{1}{1+c} \\geq 2 \\sqrt{\\frac{a b}{(1+a)(1+b)}}\\end{array}\\]<br>Nhân ba bất đẳng thức trên ta được:<br>\\[\\begin{array}{l}\\frac{1}{(1+a)(1+b)(1+c)} \\geq \\frac{8 a b c}{(1+a)(1+b)(1+c)} \\\\Rightarrow 8 a b c \\leq 1\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 4.0,
+        "content": "Cho đường tròn tâm %(O)%, hai tiêp tuyên %(M A)% và %(M B(A, B)% là tiêp điêm), %(\\bar{C})% là một điểm trên đường tròn tâm %(\\mathrm{M})% bán kính %(\\mathrm{MA})% và nằm trong đường tròn %((\\mathrm{O}))%. Các tia %(A C)% và %(B C)% cắt đường tròn %((O))% lần lượt tại %(P)% và %(Q)%. Chứng minh rằng %(P Q)% là đường kính của đường tròn %((\\mathrm{O}))%.",
+        "question_images": [],
+        "solution": "Để chứng minh %(\\mathrm{PQ})% là đường kính của đường tròn %((\\mathrm{O}))%, ta cần chứng minh ba điểm %(\\mathrm{P}, \\mathrm{Q}, \\mathrm{O})% thẳng hàng.<br>Trong đường tròn tâm %(\\mathrm{M})% ta có:%(A M C=2 A B C)% (góc ở tâm chắn cung %(\\mathrm{AC})% )<br>Trong đường tròn tâm %(\\mathrm{O})% ta có:%(A O Q=2 A B Q)% (góc ờ tâm chắn cung %(\\mathrm{AQ})% )<br>Suy ra %(A M C=A O Q(1))%<br>Chứng minh tương tự ta có:<br>\\[B M C=B O P \\quad \\text { (2) }\\]<br>Tứ giác MAOB có %(A=B=90^{\\circ})%<br>\\[\\Rightarrow A M B+A O B=180^{\\circ}(3)\\]<br>Từ (1), (2), và (3) suy ra:<br>\\[\\begin{aligned}P O Q & =P O B+B O A+A O Q \\\\& =(B M C+A M C)+B O A\\end{aligned}\\]<br>\\[=A M B+A O B=180^{\\circ}\\]<br>Suy %(\\mathrm{ra} \\mathrm{P}, \\mathrm{Q}, \\mathrm{O})% thẳng hàng.<br>Vậy %(\\mathrm{PQ})% là đường kính của đường tròn %((\\mathrm{O}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho tam giác %(A B C)% nội tiếp đường tròn %((O))% và %(d)% là tiếp tuyến của %((O))% tại C. Gọi %(\\mathrm{A} H, \\mathrm{BI})% là các đường cao của tam giác.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "Chứng minh %(\\mathrm{HI} / / \\mathrm{d})%.",
+        "question_images": [],
+        "solution": "Chứng minh %(\\mathrm{HI} / / \\mathrm{d})%<br>Gọi %(\\mathrm{Cx})% là tiếp tuyến chắn cung %(\\mathrm{AC})%<br>Tứ giác %(\\mathrm{ABHI})% nội tiếp nên %(A B C=H I C)% (Cùng bù với góc %(H I A)% )<br>Mà %(A B C=A C x)% (cùng chắn cung %(\\mathrm{AC})% )%(\\Rightarrow H I C=I C x \\Rightarrow H I / / d)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/14b38ae9bd1dfaa5089ad180d047476d.png\" srcset=\"https://docdn.giainhanh.io/media/test/2d7f0b966671c8f5407a6fea0b6efa43.png 221w\" width=\"221\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "Gọi %(\\mathrm{MN})% và %(\\mathrm{EF})% lần lượt là hình chiếu của các đoạn thẳng %(\\mathrm{AH})% và %(\\mathrm{BI})% lên đường thẳng %(\\mathrm{d})%. chứng minh rằng %(\\mathrm{MN}=\\mathrm{EF})%",
+        "question_images": [],
+        "solution": "b) Chứng minh %(\\mathrm{MN}=\\mathrm{EF}   )%<br>%(\\mathrm{d} / / \\mathrm{HI} \\Rightarrow \\mathrm{IF}=\\mathrm{HN} )%<br>%(\\mathrm{AMCH})% nội tiếp %(\\Rightarrow H M N=H A C)%<br>BICE nội tiếp %(\\Rightarrow I E F=I B C)%<br>Mà %(H A C=B I C)% nên %(H M N=I E F \\Rightarrow \\triangle H M N=\\triangle I E F)%<br>\\[\\Rightarrow M N=\\mathrm{EF}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Chứng minh rằng tích của một số chính phương và một số đứng trước nó chia hết cho 12",
+        "question_images": [],
+        "solution": "Số chính phương là %(\\mathrm{n}^{2}(\\mathrm{n} \\in \\mathrm{Z}))% số đứng trước nó là %(\\mathrm{n}^{2}-1)%<br>Ta có %(\\left(n^{2}-1\\right) n^{2}=(n+1)(n-1) n^{2}=(n-1) n \\cdot n(n+1))%<br>Tích này có 3 số nguyên liên tiếp nên chia hết cho 3<br>Mặt khác (n-1)n là hai số nguyên liên tiếp nên chia hết cho 2<br>Và %(n(n+1))% chia hết cho 2<br>Nên (n-1)n.n(n+1) chia hết cho 4<br>Mà %((3 ; 4)=1)% nên %((n-1) n . n(n+1))% chia hết cho 12<br>Vậy %(\\left(n^{2}-1\\right) n^{2})% chia hết cho 12",
+        "question_type": "essay"
+    }
+]

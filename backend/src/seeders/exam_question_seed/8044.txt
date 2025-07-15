@@ -1,0 +1,89 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 1.0,
+        "content": "Giải phương trình %(\\cos ^{2} 2 x+\\cos 2 x-\\frac{3}{4}=0)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}P T \\Leftrightarrow\\left[\\begin{array}{l}\\cos 2 x=\\frac{1}{2} \\\\ \\cos 2 x=-\\frac{3}{2}(L)\\end{array}\\right. \\\\ \\Leftrightarrow 2 x= \\pm \\frac{\\pi}{3}+k 2 \\pi \\Leftrightarrow x= \\pm \\frac{\\pi}{6}+k \\pi, k \\in \\mathbb{Z}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 1.0,
+        "content": "Giải phương trình %(2(1+\\cos x)\\left(1+\\cot ^{2} x\\right)=\\frac{\\sin x-1}{\\sin x+\\cos x})%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { ĐK: } \\begin{array}{l}\\sin x \\neq 0 \\\\sin x+\\cos x \\neq 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\neq k \\pi \\x \\neq-\\frac{\\pi}{4}+k \\pi\\end{array}, k \\in \\mathbb{Z} .\\right. \\P t \\Leftrightarrow 2(1+\\cos x) \\cdot \\frac{1}{\\sin ^{2} x}=\\frac{\\sin x-1}{\\sin x+\\cos x} \\\\Leftrightarrow \\frac{2}{1-\\cos x}=\\frac{\\sin x-1}{\\sin x+\\cos x} \\Leftrightarrow \\sin x+\\cos x+\\sin x \\cdot \\cos x+1=0\\end{array}\\]<br>Đặt %(t=\\sin x+\\cos x=\\sqrt{2} \\sin \\left(x+\\frac{\\pi}{4}\\right),-\\sqrt{2} \\leq t \\leq \\sqrt{2})%, phương trình trở thành:<br>\\[t+\\frac{t^{2}-1}{2}+1=0 \\Leftrightarrow t=-1 \\text {. }\\]<br>Với %(t=-1)%, ta có %(\\sin \\left(x+\\frac{\\pi}{4}\\right)=-\\frac{1}{\\sqrt{2}} \\Leftrightarrow\\left[\\begin{array}{l}x+\\frac{\\pi}{4}=-\\frac{\\pi}{4}+k 2 \\pi \\\\ x+\\frac{\\pi}{4}=\\frac{5 \\pi}{4}+k 2 \\pi\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=-\\frac{\\pi}{2}+k 2 \\pi(t m) \\\\ x=\\pi+k 2 \\pi(l)\\end{array}\\right.\\right.)%.<br>Vậy phương trình có họ nghiệm %(x=-\\frac{\\pi}{2}+k 2 \\pi)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 1.0,
+        "content": "Cho hàm số %(y=x^{3}-3 x^{2}+1)% có đồ thị %((C))%. Viết phương trình tiếp tuyến của đồ thị %((C))%, biết tiếp tuyến vuông góc với đường thẳng %(\\Delta: x+9 y=0)%.",
+        "question_images": [],
+        "solution": "Đạo hàm %(y^{\\prime}=3 x^{2}-6 x)%.<br>Gọi %(M\\left(a ; a^{3}-3 a^{2}+1\\right) \\in(C))%.<br>Phương trình tiếp tuyến của %((C))% tại %(M)% là %(y=f^{\\prime}(a)(x-a)+a^{3}-3 a^{2}+1)%.<br>Tiếp tuyến vuông góc với đường %(x+9 y=0)% nên<br>\\[f^{\\prime}(a) \\cdot\\left(-\\frac{1}{9}\\right)=-1 \\Leftrightarrow 3 a^{2}-6 a=9 \\Leftrightarrow\\left[\\begin{array}{l}a=-1 \\a=3\\end{array} .\\right.\\]<br>Với %(a=-1)%, phương trình tiếp tuyến là %(y=9 x+6)%.<br>Với %(a=3)%, phương trình tiếp tuyến là %(y=9 x-26)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 1.0,
+        "content": "Tính giới hạn: %(I=\\lim _{x \\rightarrow 1} \\frac{x^{5}-5 x^{3}+2 x^{2}+6 x-4}{x^{3}-x^{2}-x+1})%",
+        "question_images": [],
+        "solution": "Ta có : %(x^{5}-5 x^{3}+2 x^{2}+6 x-4=(x-1)^{2}(x+2)\\left(x^{2}-2\\right))%.<br>%(x^{3}-x^{2}-x+1=(x-1)^{2}(x+1))%.<br>\\[I=\\lim _{x \\rightarrow 1} \\frac{x^{5}-5 x^{3}+2 x^{2}+6 x-4}{x^{3}-x^{2}-x+1}=\\lim _{x \\rightarrow 1} \\frac{(x+2)\\left(x^{2}-2\\right)}{x+1}=-\\frac{3}{2} \\text {. }\\]<br>Vậy %(I=-\\frac{3}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 1.0,
+        "content": "Cho %(n)% là số nguyên dương thỏa mãn %(5 C_{n}^{n-1}=C_{n}^{3})%. Tìm hệ số của số hạng chứa %(x^{8})% trong khai triển nhị thức Niu-tơn của %(\\left(\\frac{n x^{2}}{14}-\\frac{1}{x}\\right)^{n}, x \\neq 0)%.",
+        "question_images": [],
+        "solution": "Ta có %(5 C_{n}^{n-1}=C_{n}^{3} \\Leftrightarrow 5 n=\\frac{(n-2)(n-1) n}{6} \\Leftrightarrow n^{2}-3 n-28=0 \\Leftrightarrow\\left[\\begin{array}{l}n=7 \\\\ n=-4(k t m)\\end{array}\\right.)%<br>Xét khai triển %(\\left(\\frac{7 x^{2}}{14}-\\frac{1}{x}\\right)^{7}=\\left(\\frac{x^{2}}{2}-\\frac{1}{x}\\right)^{7}=\\sum_{k=0}^{7} C_{7}^{k}\\left(\\frac{1}{2}\\right)^{7-k}(-1)^{k} x^{14-2 k} x^{-k})%<br>%(=\\sum_{k=0}^{7} C_{7}^{k}\\left(\\frac{1}{2}\\right)^{7-k}(-1)^{k} x^{14-3 k})%.<br>Ứng với %(x^{8})% suy ra %(14-3 k=8 \\Leftrightarrow k=2)%.<br>Vậy hệ số của %(x^{8})% trong khai triển là: %(C_{7}^{2}\\left(\\frac{1}{2}\\right)^{5}=\\frac{21}{32})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}\\left(4 x^{2}+1\\right) x+(y-3) \\sqrt{5-2 y}=0~~~(1) \\\\ 4 x^{2}+y^{2}+2 \\sqrt{3-4 x}=7~~~(2)\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Điều kiện: %(\\left\\{\\begin{array}{l}y \\leq \\frac{5}{2} \\\\ x \\leq \\frac{3}{4}\\end{array}\\right.)%<br>Sau đó đặt %(\\left\\{\\begin{array}{l}a=x \\\\ b=\\sqrt{5-2 y}\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}a=x \\\\ y=\\frac{5-b^{2}}{2}\\end{array}\\right.\\right.)%<br>Phương trình (1) trở thành<br>\\[\\begin{array}{l}8 a^{3}+2 a-b^{3}-b=0 \\Leftrightarrow(2 a-b)\\left(4 a^{2}+2 a b+b^{2}+1\\right)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}2 a=b \\\\4 a^{2}+2 a b+b^{2}+1=0(l)\\end{array}\\right.\\end{array}\\]<br>Với %(2 a=b \\Rightarrow 2 x=\\sqrt{5-2 y} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 0 \\\\ y=\\frac{5-4 x^{2}}{2}\\end{array}\\right.)%<br>Thay vào (2) ta có pt %(16 x^{4}-24 x^{2}-3+8 \\sqrt{3-4 x}=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow 4 x^{2}\\left(4 x^{2}-1\\right)-5\\left(4 x^{2}-1\\right)+8(\\sqrt{3-4 x}-1)=0 \\\\Leftrightarrow(2 x-1)\\left(8 x^{3}+4 x^{2}-10 x-5-\\frac{16}{\\sqrt{3-4 x}+1}\\right)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}2 x-1=0 \\\\8 x^{3}+4 x^{2}-10 x-5-\\frac{16}{\\sqrt{3-4 x}+1}=0\\left(^{*}\\right)\\end{array}\\right.\\end{array}\\]<br>Ta có %((*) \\Leftrightarrow 2 x^{2}(4 x-3)+3 x(4 x-3)-2 x^{2}-x-5-\\frac{16}{\\sqrt{3-4 x}+1}=0)%<br>Với %(0 \\leq x \\leq \\frac{3}{4})% có %(2 x^{2}(4 x-3)+3 x(4 x-3)-2 x^{2}-x-5-\\frac{16}{\\sqrt{3-4 x}+1}\\lt 0)%<br>Vậy %(\\left({ }^{*}\\right))% không có nghiệm thỏa mãn %(0 \\leq x \\leq \\frac{3}{4})%<br>Kết luận hệ có nghiệm là %((x ; y)=\\left(\\frac{1}{2} ; 2\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 1.0,
+        "content": "Cho tam giác %(A B C)% vuông cân tại %(A)%. Gọi %(M)% là trung điểm %(B C, G)% là trọng tâm %(\\triangle A B M)%; điểm %(D(7 ;-2))% nằm trên đoạn %(M C)% sao cho %(G A=G D)%. Viết phương trình đường thẳng %(A B)%, biết hoành độ của %(A)% nhỏ hơn 4 và %(A G)% có phương trình %(3 x-y-13=0)%.",
+        "question_images": [],
+        "solution": "Cho tam giác %(A B C)% vuông cân tại %(A)%.<br>Gọi %(M)% là trung điểm %(B C, G)% là trọng tâm %(\\triangle A B M)%; điểm %(D(7 ;-2))% nằm trên đoạn %(M C)% sao cho %(G A=G D)%.<br>Viết phương trình đường thẳng %(A B)%, biết hoành độ của %(A)% nhỏ hơn 4 và %(A G)% có phương trình %(3 x-y-13=0)%.<br>Gọi %(I)% là trung điểm %(A B)%, dễ thấy %(G A=G B=G D \\Rightarrow \\mathrm{G})% là tâm đường tròn ngoại tiếp %(\\triangle A B D \\Rightarrow \\angle A G D=2 \\angle A B D=90^{\\circ} \\Rightarrow A G \\perp D G)%<br>\\[D G=d(A ; A G)=\\sqrt{10} \\Rightarrow A D=2 \\sqrt{5}\\]<br>Giả sử %(A(a ; 3 a-13), \\mathrm{AD}=2 \\sqrt{5} \\Leftrightarrow(a-7)^{2}+(3 a-11)^{2}=20 \\Leftrightarrow a=3()% do %(a\\lt 4))%<br>\\[\\Rightarrow A(3 ;-4)\\]<br>%(\\triangle A M B)% vuông tại %(M \\Rightarrow M I=I A=3 I G \\Rightarrow A G=\\sqrt{10} I G \\Rightarrow \\cos B A G=\\frac{A I}{A G}=\\frac{3}{\\sqrt{10}})%<br>Gọi %(\\vec{n}(a ; b)\\left(a^{2}+b^{2}\\gt 0\\right))% là véc tơ pháp tuyến của %(A B, \\overrightarrow{n_{1}}(3 ;-1))% là véc tơ pháp tuyến của %(A G)%<br>Áp dụng công thức tính góc ta được %(\\frac{|3 a-b|}{\\sqrt{a^{2}+b^{2}} \\cdot \\sqrt{10}}=\\frac{3}{\\sqrt{10}} \\Leftrightarrow\\left[\\begin{array}{l}b=0 \\\\ 3 a=-4 b\\end{array}\\right.)%<br>Với %(b=0)% thì phương trình %(A B)% là %(x-3=0)%<br>Với %(3 a=-4 b)% thì %(A B: 4 \\mathrm{x}-3 \\mathrm{y}-24=0 \\Rightarrow D, G)% nằm về hai phía đối với %(A B \\Rightarrow G)% nằm ngoài tam giác %(A B C)% (loại)<br>Kết luận: Phương trình %(A B)% là %(x-3=0)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/772985f1c595f1ce3b713d858ba85392.png\" srcset=\"https://docdn.giainhanh.io/media/test/1954836202bd3568a72e1381d62913d4.png 245w, https://docdn.giainhanh.io/media/test/634417c63ec2199831a1dcff03d582a9.png 500w, https://docdn.giainhanh.io/media/test/60554bb51e58743589e10ab718618a97.png 750w, https://docdn.giainhanh.io/media/test/5b2e9eb56c699eaa6eae78ca1af06ee8.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8:",
+        "group_content": "Cho hình chóp %(S . A B C D)% có đáy %(A B C D)% là hình thang cân %((A D / / B C), B C=2 a, A B)% %(=A D=D C=a(a\\gt 0))%. Mặt bên %(S B C)% là tam giác đều. Gọi %(O)% là giao điểm của %(A C)% và %(B D)%. Biết %(S D)% vuông góc với %(A C)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Chứng minh mặt phẳng %((S B C))% vuông góc mặt phẳng %((A B C D))%. Tính độ dài đoạn thẳng %(S D)%.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{I})% là trung điểm của %(\\mathrm{BC})% nên tứ giác %(\\mathrm{ADCI})% là hình thoi cạnh a nên %(\\mathrm{IA}=\\mathrm{IB}=\\mathrm{IC})% %(=)% a thì tam giác %(\\mathrm{ABC})% vuông tại %(\\mathrm{A})%, suy ra %(\\mathrm{AC})% vuông góc %(\\mathrm{DI})%<br>\\[\\begin{array}{l}A C \\perp I D(I D \\| A B), A C \\perp S D \\Rightarrow A C \\perp(S I D) \\\\Rightarrow A C \\perp S I\\end{array}\\]<br>Do %(A C \\perp S I, B C \\perp S I \\Rightarrow S I \\perp(A B C D) \\Rightarrow(A B C D) \\perp(S B C))%<br>Ta có : %(S D=\\sqrt{S I^{2}+I D^{2}}=2 a)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/bf64fdb6f787375283e670901f923be6.png\" srcset=\"https://docdn.giainhanh.io/media/test/a8213a3aa0c45a880a6cc3c3824b648a.png 164w, https://docdn.giainhanh.io/media/test/314720f69f5ff99ed33e773fb337c485.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Mặt phẳng %((\\alpha))% đi qua điểm %(M)% thuộc đoạn thẳng %(O D(M)% khác %(O)% và %(D))% và song song với đường thẳng %(S D)% và %(A C)%. Xác định thiết diện của hình chóp %(S . A B C D)% cắt bởi mặt phẳng %((\\alpha))% biết %(M D=x)%. Tìm %(x)% để diện tích thiết diện lớn nhất.",
+        "question_images": [],
+        "solution": "Từ %(\\mathrm{M})% kẻ hai đường thẳng lần lượt song song với %(\\mathrm{SD}, \\mathrm{AC})% chúng cắt theo thứ tự %(\\mathrm{SB})% tại %(\\mathrm{Q})% và %(\\mathrm{AB})% tại %(\\mathrm{G}, \\mathrm{AC})% tại %(\\mathrm{N})%.<br>Từ %(\\mathrm{G})% kẻ đường thẳng song song %(\\mathrm{SD})%, cắt %(\\mathrm{SA})% tại %(\\mathrm{E})%, từ %(\\mathrm{N})% kẻ đường thẳng song song với %(\\mathrm{SD})% cắt %(\\mathrm{SC})% tại %(\\mathrm{P})%.<br>Ta được thiết diện là ngũ giác GNPQE.Ta có %(B D=a \\sqrt{3})% nên tính được %(E G=N P=2(a-x \\sqrt{3}), Q M=2\\left(a-\\frac{x}{\\sqrt{3}}\\right), G N=3 x)%<br>Tứ giác %(\\mathrm{EGMQ})% và %(\\mathrm{MNPQ})% là hai hình thang vuông đường cao lần lượt là %(\\mathrm{GM})% và NM nên<br>%(\\begin{array}{l}S_{M N P Q E}=4 x(3 a-2 \\sqrt{3} x) \\\\ \\operatorname{Max} S_{\\text {MNPQE }}=\\frac{3 \\sqrt{3}}{2} a^{2} \\text { tại } x=\\frac{a \\sqrt{3}}{4}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 9: ",
+        "point": 1.0,
+        "content": "Cho dãy số %(\\left(u_{n}\\right))% xác định bởi:%(u_{1}=1 ; u_{n}=\\frac{2(n+1) u_{n+1}}{n}+\\frac{2-n}{\\left(n^{2}+n+1\\right)^{2}+1}, \\forall n \\in \\mathbb{N}^{*})%. Tìm công thức số hạng tổng quát %(u_{n})% theo %(n)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}u_{n}=\\frac{2(n+1) u_{n+1}}{n}+\\frac{2-n}{\\left(n^{2}+n+1\\right)^{2}+1}, \\forall n \\in \\mathbb{N}^{*} \\Leftrightarrow n u_{n}=2(n+1) u_{n+1}+\\frac{2 n-n^{2}}{\\left(n^{2}+n+1\\right)^{2}+1}, \\forall n \\in \\mathbb{N}^{*} \\\\Leftrightarrow n u_{n}=2(n+1) u_{n+1}+\\frac{(n+1)^{2}+1-2\\left(n^{2}+1\\right)}{\\left(n^{2}+1\\right)\\left[(n+1)^{2}+1\\right]}, \\forall n \\in \\mathbb{N}^{*}\\end{array}\\]<br>\\[\\Leftrightarrow(n+1) u_{n+1}-\\frac{1}{(n+1)^{2}+1}=\\frac{1}{2}\\left[n u_{n}-\\frac{1}{n^{2}+1}\\right]\\]<br>Đặt %(v_{n}=n u_{n}-\\frac{1}{n^{2}+1})%.<br>Khi đó %((1) \\Leftrightarrow v_{n+1}=\\frac{1}{2} v_{n}\\left(v_{1}=\\frac{1}{2} \\Rightarrow v_{n}=\\frac{1}{2^{n}}\\right.)%<br>Vậy %(u_{n}=\\frac{1}{n}\\left(\\frac{1}{n^{2}+1}+\\frac{1}{2^{n}}\\right))%",
+        "question_type": "essay"
+    }
+]

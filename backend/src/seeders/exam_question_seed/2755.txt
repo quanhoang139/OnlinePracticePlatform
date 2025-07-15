@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.5,
+        "content": "1. Cho biểu thức %(P=\\frac{x-2 \\sqrt{x}}{x \\sqrt{x}-1}+\\frac{\\sqrt{x}+1}{x \\sqrt{x}+x+\\sqrt{x}}+\\frac{1+2 x-2 \\sqrt{x}}{x^{2}-\\sqrt{x}})%, với %(x\\gt 0, x \\neq 1)%. Rút gọn %(P)% và tìm tất cả các giá trị của %(x)% sao cho giá trị của %(P)% là một số nguyên.",
+        "question_images": [],
+        "solution": "Với điều kiện %(x\\gt 0, x \\neq 1)%, ta có:<br>\\[\\begin{array}{l}P=\\frac{x-2 \\sqrt{x}}{(\\sqrt{x}-1)(x+\\sqrt{x}+1)}+\\frac{\\sqrt{x}+1}{\\sqrt{x}(x+\\sqrt{x}+1)}+\\frac{2 x-2 \\sqrt{x}+1}{\\sqrt{x}(\\sqrt{x}-1)(x+\\sqrt{x}+1)} \\\\=\\frac{\\sqrt{x}(x-2 \\sqrt{x})+(\\sqrt{x}+1)(\\sqrt{x}-1)+2 x-2 \\sqrt{x}+1}{\\sqrt{x}(\\sqrt{x}-1)(x+\\sqrt{x}+1)} \\\\=\\frac{\\sqrt{x}(x+\\sqrt{x}-2)}{\\sqrt{x}(\\sqrt{x}-1)(x+\\sqrt{x}+1)} \\\\=\\frac{(\\sqrt{x}-1)(\\sqrt{x}+2)}{(\\sqrt{x}-1)(x+\\sqrt{x}+1)}=\\frac{\\sqrt{x}+2}{x+\\sqrt{x}+1} .\\end{array}\\]<br>Ta có với điều kiện %(x>0, x \\neq 1 \\Rightarrow x+\\sqrt{x}+1>\\sqrt{x}+1>1)%<br>\\[\\Rightarrow 0\\lt P=\\frac{\\sqrt{x}+2}{x+\\sqrt{x}+1}\\lt \\frac{\\sqrt{x}+2}{\\sqrt{x}+1}=1+\\frac{1}{\\sqrt{x}+1}\\lt 2\\]<br>Do %(P)% nguyên nên suy ra %(P=1 \\Leftrightarrow \\frac{\\sqrt{x}+2}{x+\\sqrt{x}+1}=1 \\Leftrightarrow x=1)% (loại).Vậy không có giá trị của %(x)% để %(P)% nhận giá trị nguyên.",
+        "question_type": "essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "2. Tính giá trị của biểu thức %(P=\\frac{4(x+1) x^{2018}-2 x^{2017}+2 x+1}{2 x^{2}+3 x})% tại %(x=\\sqrt{\\frac{1}{2 \\sqrt{3}-2}-\\frac{3}{2 \\sqrt{3}+2}})%.",
+        "question_images": [],
+        "solution": "Vì  %(x=\\sqrt{\\frac{1}{2 \\sqrt{3}-2}-\\frac{3}{2 \\sqrt{3}+2}}=\\frac{\\sqrt{3}-1}{2})%nên %(x=\\frac{\\sqrt{3}-1}{2})% là nghiệm của đa thức %(2 x^{2}+2 x-1)%.<br>Do đó: %(P=\\frac{2 x^{2017}\\left(2 x^{2}+2 x-1\\right)+2 x+1}{\\left(2 x^{2}+2 x-1\\right)+x+1}=\\frac{2 x+1}{x+1}=3-\\sqrt{3})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "1. Biết phương trình %((m-2) x^{2}-2(m-1) x+m=0)% có hai nghiệm tương ứng là độ dài hai cạnh góc vuông của một tam giác vuông. Tìm %(m)% để độ dài đường cao ứng với cạnh huyền của tam giác vuông đó bằng %(\\frac{2}{\\sqrt{5}})%.",
+        "question_images": [],
+        "solution": "Phương trình %((m-2) x^{2}-2(m-1) x+m=0 \\Leftrightarrow(x-1)((m-2) x-m)=0)% có hai nghiệm khi và chỉ khi %(m \\neq 2)%. Khi đó 2 nghiệm của phương trình là %(a=1)% và %(b=\\frac{m}{m-2})%.<br>Hai nghiệm đó là độ dài hai cạnh góc vuông của tam giác vuông suy ra %(\\frac{m}{m-2}\\gt 0 \\Leftrightarrow m\\lt 0)% hoặc %(m>2)%.<br>Từ hệ thức %(\\frac{1}{a^{2}}+\\frac{1}{b^{2}}=\\frac{1}{h^{2}})% trong tam giác vuông ta có %(\\frac{1}{1^{2}}+\\frac{(m-2)^{2}}{m^{2}}=\\frac{5}{4} \\Leftrightarrow \\frac{m-2}{m}= \\pm \\frac{1}{2})%<br>Với %(\\frac{m-2}{m}=\\frac{1}{2} \\Leftrightarrow 2 m-4=m \\Rightarrow m=4)% (thỏa mãn)<br>Với %(\\frac{m-2}{m}=-\\frac{1}{2} \\Leftrightarrow 2 m-4=-m \\Rightarrow m=\\frac{4}{3})% (loại)<br>Vậy %(m=4)% là giá trị cần tìm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "2. Giải hệ phương trình %(\\left\\{\\begin{array}{l}(x+y)^{2}\\left(8 x^{2}+8 y^{2}+4 x y-13\\right)+5=0 \\\\ 2 x+\\frac{1}{x+y}=1\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "ĐКXĐ: %(x+y \\neq 0)%Chia phương trình (1) cho %((x+y)^{2})% ta được hệ %(\\left\\{\\begin{array}{l}8\\left(x^{2}+y^{2}\\right)+4 x y+\\frac{5}{(x+y)^{2}}=13 \\\\ 2 x+\\frac{1}{x+y}=1\\end{array}\\right.)%<br>\\[\\Leftrightarrow\\left\\{\\begin{array} { l } { 5 [ ( x + y ) ^ { 2 } + \\frac { 1 } { ( x + y ) ^ { 2 } } ] + 3 ( x - y ) ^ { 2 } = 1 3 } \\\\{ ( x + y + \\frac { 1 } { x + y } ) + ( x - y ) = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}5\\left(x+y+\\frac{1}{x+y}\\right)^{2}+3(x-y)^{2}=23 \\\\left(x+y+\\frac{1}{x+y}\\right)+(x-y)=1\\end{array}\\right.\\right.\\]<br>Đặt %(u=x+y+\\frac{1}{x+y}, v=x-y(Ð \\mathrm{~K}:|u| \\geq 2))%, ta có hệ %(\\left\\{\\begin{array}{l}5 u^{2}+3 v^{2}= \\\\ u+v=1\\end{array}\\right.)%<br>Từ (4) rút %(u=1-v)%, thế vào (3) ta được %(5 u^{2}+3(1-u)^{2}=23 \\Leftrightarrow 4 u^{2}-3 u-10=0 \\Leftrightarrow u=2)% hoặc %(u=-\\frac{5}{4})%.<br>Trường hợp %(u=-\\frac{5}{4})% loại vì %(|u|\\lt 2)%.Với %(u=2 \\Rightarrow v=-1)% (thỏa mãn). Khi đó ta có hệ %(\\left\\{\\begin{array}{l}x+y+\\frac{1}{x+y}=2 \\\\ x-y=-1\\end{array}\\right.)%<br>Giải hệ trên bằng cách thế %(x=-1+y)% vào phương trình đầu ta được %(2 y-1+\\frac{1}{2 y-1}=2 \\Leftrightarrow y=1)%.<br>Vậy hệ có nghiệm duy nhất %((x, y)=(0 ; 1))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "1. Tìm nghiệm nguyên của phương trình %(y^{2}-5 y+62=(y-2) x^{2}+\\left(y^{2}-6 y+8\\right) x)%.",
+        "question_images": [],
+        "solution": "Ta có %((1) \\Leftrightarrow(y-2)(y-3)+56=(y-2) x^{2}+(y-2)(y-4) x)% %(\\Leftrightarrow(y-2)\\left[x^{2}+(y-4) x-(y-3)\\right]=56)% %(\\Leftrightarrow(x-1)(y-2)(x+y-3)=56)%.<br>Nhận thấy %((y-2)+(x-1)=x+y-3)%, nên ta phải phân tích số 56 thành tích của ba số nguyên mà tống hai số đầu bằng số còn lại.Như vậy ta có<br>\\[\\begin{array}{l}\\text { +) } 56=1 \\cdot 7 \\cdot 8 \\Rightarrow(x ; y)=(2 ; 9) . \\\\text { +) } 56=7 \\cdot 1 \\cdot 8 \\Rightarrow(x ; y)=(8 ; 3) . \\\\text { +) } 56=(-8) \\cdot 1 \\cdot(-7) \\Rightarrow(x ; y)=(-7 ; 3) . \\\\text { +) } 56=1 \\cdot(-8) \\cdot(-7) \\Rightarrow(x ; y)=(2 ;-6) . \\\\text { +) } 56=(-8) \\cdot 7 \\cdot(-1) \\Rightarrow(x ; y)=(-7 ; 9) . \\\\text { +) } 56=7 \\cdot(-8) \\cdot(-1) \\Rightarrow(x ; y)=(8 ;-6) .\\end{array}\\]<br>Vậy phương trình có 6 nghiệm nguyên như trên.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "2. Cho %(a, b)% là các số nguyên dương thỏa mãn %(p=a^{2}+b^{2})% là số nguyên tố và %(p-5)% chia hết cho 8 . Giả sử %(x, y)% là các số nguyên thỏa mãn %(a x^{2}-b y^{2})% chia hết cho %(p)%. Chứng minh rằng cả hai số %(x, y)% chia hết cho %(p)%.",
+        "question_images": [],
+        "solution": "Do %(p-5: 8)% nên %(p=8 k+5(k \\in \\mathbb{N}))%<br>Vì: %(\\left(a x^{2}\\right)^{4 k+2}-\\left(b y^{2}\\right)^{4 k+2} \\vdots\\left(a x^{2}-b y^{2}\\right) \\vdots p)% nên %(a^{4 k+2} \\cdot x^{8 k+4}-b^{4 k+2} \\cdot y^{8 k+4} \\vdots p)%<br>Nhận thấy: %(a^{4 k+2} \\cdot x^{8 k+4}-b^{4 k+2} \\cdot y^{8 k+4}=\\left(a^{4 k+2}+b^{4 k+2}\\right) x^{8 k+4}-b^{4 k+2}\\left(x^{8 k+4}+y^{8 k+4}\\right))%Do:  %(a^{4 k+2}+b^{4 k+2}=\\left(a^{2}\\right)^{2 k+1}+\\left(b^{2}\\right)^{2 k+1} \\vdots\\left(a^{2}+b^{2}\\right)=p)% và %(b\\lt p)% nên %(x^{8 k+4}+y^{8 k+4} \\vdots p \\quad\\left(*^{}\\right))%<br>Nếu trong hai số %(x, y)% có một số chia hết cho %(p)% thì từ %(\\left(^{*}\\right))% suy ra số thứ hai cũng chia hết cho p .<br>Nếu cả hai số %(x, y)% đều không chia hết cho %(p)% thì theo định lí Fecma ta có :%(x^{8 k+4}=x^{p-1} \\equiv 1(\\bmod p), y^{8 k+4}=y^{p-1} \\equiv 1(\\bmod p))%%(\\Rightarrow x^{8 k+4}+y^{8 k+4} \\equiv 2(\\bmod p))%. Mâu thuã̃n với (*). Vậy cả hai số %(x)% và %(y)% chia hết cho %(p)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho tam giác %(A B C)% có %((O),(I),\\left(I_{a}\\right))% theo thứ tự là các đường tròn ngoại tiếp, đường tròn nội tiếp và đường tròn bàng tiếp đối diện đỉnh %(A)% của tam giác với các tâm tương ứng là %(O, I, I_{a})%. Gọi %(D)% là tiếp điểm của %((I))% với %(B C, P)% là điểm chính giữa cung %(B A C)% của %((O), P I_{a})% cắt %((O))% tại điếm %(K)%. Gọi %(M)% là giao điểm của %(P O)% và %(B C, N)% là điểm đối xứng với %(P)% qua %(O)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Chứng minh %(I B I_{a} C)% là tứ giác nội tiếp.",
+        "question_images": [],
+        "solution": "%(I_{a})% là tâm đường tròn bàng tiếp đối diện đỉnh %(\\mathrm{A})% và %(\\mathrm{I})% là tâm đường tròn nội tiếp tam giác %(\\mathrm{ABC})%, từ đó suy ra %(B I_{a} \\perp B I, C I_{a} \\perp C I)% (Phân giác trong và phân giác ngoài cùng một góc thì vuông góc với nhau).<br>Xét tứ giác %(I B I_{a} C)% có %(I B I_{a}+I C I_{a}=180^{\\circ})%<br>Từ đó suy ra tứ giấc %(I B I_{a} C)% là tứ giác nội tiếp đường tròn đường kính %(I I_{a})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/31eb46487840b252d68bae33fdaaa2b2.png\" srcset=\"https://docdn.giainhanh.io/media/test/9880a1c93be94510370c824f8e188681.png 122w\" width=\"122\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Chứng minh %(N I_{a})% là tiếp tuyến của đường tròn ngoại tiếp tam giác %(I_{a} M P)%.",
+        "question_images": [],
+        "solution": "Nhận thấy bốn điếm %(A, I, N, I_{a})% thẳng hàng (vì cùng thuộc tia phân giác của %(B A C)% ).<br>Do %(N P)% là đường kính của %((O))% nên %(N B P=90^{\\circ}, M)% là trung điếm của %(B C)% nên %(P N \\perp B C)% tai %(M)%<br>Áp dụng hệ thức lượng trong tam giác vuông %(P B N)% ta có %(N B^{2}=N M . N P)%<br>Vì  %(B I N)% là góc ngoài tại đỉnh I của tam giác %(A B I)% nên %(B I N=\\frac{1}{2}(A B C+B A C))% (1)<br>Xét (O): %(N B C=N A C=\\frac{B A C}{2})% (cùng chắn cung %(\\mathrm{NC})% )<br>\\[\\Rightarrow N B I=N B C+C B I=\\frac{1}{2}(B A C+A B C)(2) \\text {. }\\]<br>Từ (1) và (2) ta có %(B I N=N B I)% nên tam giác %(N I B)% cân tại %(N)%Chứng minh tương tự tam giác NIC cân tại %(N)%<br>Từ đó suy ra %(N)% là tâm đường tròn ngoại tiếp tam giác %(I B C)%, cũng chính là tâm của đường tròn ngoại tiếp tứ giác %(I B I_{a} C \\Rightarrow N I_{a}^{2}=N B^{2}=N M . N P)%<br>Vậy %(N I_{a})% là tiếp tuyến của đường tròn ngoại tiếp tam giác %(I_{a} M P)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Chứng minh %(D A I=K A I_{a})%",
+        "question_images": [],
+        "solution": "Gọi %(F)% là tiếp diêm cúa đương tròn %((I))% với %(A B)%.Xét hai tam giác %(\\triangle M N B)% và %(\\triangle F I A)% có:<br>\\[\\mathrm{NBM}=\\frac{1}{2} \\mathrm{BAC}=\\mathrm{FAF}\\]<br>%(\\Rightarrow \\triangle M N B)% dồng dang với %(\\triangle F L A)%,Suy ra %(\\frac{N M}{F I}=\\frac{N B}{I A})% mà: %(I \\mathrm{D}=I \\mathrm{I}, \\mathrm{NI}=\\mathrm{NB})% nên %(\\frac{N M}{I D}=\\frac{N_{0}^{-}}{I A})%Ta có:%(\\mathrm{MN} / / \\mathrm{ID})% nên %(\\angle M N I_{a}=D L A)% suy ra %(\\Delta N M I_{a})% đồng dạng với %(\\triangle I D A)%<br>\\[\\Rightarrow \\angle N I_{0} M=\\angle D A I \\text { (1). }\\]<br>%(\\mathrm{Do}^{2} \\bar{I}_{v})% là tiếp tuyến của đường tròn ngoại tiếp tam giác %(\\bar{I}_{s} \\overline{M P}^{---})%nên%(\\mathrm{R}_{A I_{a}}=\\mathrm{R}_{A N}=\\mathrm{R}_{P N}=\\mathrm{I}_{\\varepsilon} P N=\\mathrm{RI}_{I_{2} M}(2))%Từ (1) và (2) ta có %(\\overline{\\mathrm{B}} A \\bar{I}=\\overline{\\mathrm{K}} \\bar{A}_{\\mathrm{a}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho %(x, y, z)% là các số thực dương thỏa mãn %(x \\geq z)%. Chứng minh rằng<br>\\[\\frac{x z}{y^{2}+y z}+\\frac{y^{2}}{x z+y z}+\\frac{x+2 z}{x+z} \\geq \\frac{5}{2} \\text {. }\\]",
+        "question_images": [],
+        "solution": "Ta có %(P=\\frac{x z}{y^{2}+y z}+\\frac{y^{2}}{x z+y z}+\\frac{x+2 z}{x+z}=\\frac{\\frac{x z}{y z}}{\\frac{y^{2}}{y z}+1}+\\frac{\\frac{y^{2}}{y z}}{\\frac{x z}{y z}+1}+\\frac{1+\\frac{2 z}{x}}{1+\\frac{z}{x}})%<br>\\[=\\frac{\\frac{x}{y}}{\\frac{y}{z}+1}+\\frac{\\frac{y}{z}}{\\frac{x}{y}+1}+\\frac{1+\\frac{2 z}{x}}{1+\\frac{z}{x}}=\\frac{a^{2}}{b^{2}+1}+\\frac{b^{2}}{a^{2}+1}+\\frac{1+2 c^{2}}{1+c^{2}},\\]<br>trong đó %(a^{2}=\\frac{x}{y}, b^{2}=\\frac{y}{z}, c^{2}=\\frac{z}{x}(a, b, c\\gt 0))%Nhận xét rằng %(a^{2} . b^{2}=\\frac{x}{z}=\\frac{1}{c^{2}} \\geq 1()% do %(x \\geq z))%.<br>Xét:<br>\\[\\text {  } \\frac{a^{2}}{b^{2}+1}+\\frac{b^{2}}{a^{2}+1}-\\frac{2 a b}{a b+1}=\\frac{a^{2}\\left(a^{2}+1\\right)(a b+1)+b^{2}\\left(b^{2}+1\\right)(a b+1)-2 a b a^{2}\\left(a^{2}+1\\right)\\left(b^{2}+1\\right)}{\\left(a^{2}+1\\right)\\left(b^{2}+1\\right)(a b+1)}\\]<br>\\[=\\frac{a b\\left(a^{2}-b^{2}\\right)^{2}+(a-b)\\left(a^{3}-b^{3}\\right)+(a-b)^{2}}{\\left(a^{2}+1\\right)\\left(b^{2}+1\\right)(a b+1)} \\geq 0\\]<br>Do đó %(\\frac{a^{2}}{b^{2}+1}+\\frac{b^{2}}{a^{2}+1} \\geq \\frac{2 a b}{a b+1}=\\frac{\\frac{2}{c}}{\\frac{1}{c}+1}=\\frac{2}{1+c})%(1). Đẳng thức xày ra khi %(a=b)%.<br>Khi đó %(\\frac{2}{1+c}+\\frac{1+2 c^{2}}{c^{2}+1}-\\frac{5}{2}=\\frac{2\\left(2\\left(1+c^{2}\\right)+(1+c)\\left(1+2 c^{2}\\right)\\right)-5(1+c)\\left(1+c^{2}\\right)}{2(1+c)\\left(1+c^{2}\\right)})%<br>\\[=\\frac{1-3 c+3 c^{2}-c^{3}}{2(1+c)\\left(1+c^{2}\\right)}=\\frac{(1-c)^{3}}{2(1+c)\\left(1+c^{2}\\right)} \\geq 0 \\quad(\\text { do } c \\leq 1)(2)\\]<br>Từ (1) và (2) suy ra điều phải chứng minh.Đẳng thức xảy ra khi %(a=b, c=1 \\Leftrightarrow x=y=z)%.",
+        "question_type": "essay"
+    }
+]

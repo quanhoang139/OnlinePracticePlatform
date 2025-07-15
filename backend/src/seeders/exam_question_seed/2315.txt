@@ -1,0 +1,81 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x y=x+y+1 \\\\ y z=y+z+5 \\\\ z x=z+x+2\\end{array} \\quad(x, y, z \\in \\mathbb{R})\\right.)%",
+        "question_images": [],
+        "solution": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x y=x+y+1 \\\\ y z=y+z+5 \\\\ \\mathrm{z} x=z+x+2\\end{array} \\quad(x, y, z \\in \\mathbb{R})\\right.)%<br>\\[\\left\\{\\begin{array} { l } { x y = x + y + 1 } \\\\{ y z = y + z + 5 } \\\\{ z x = z + x + 2 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}(x-1)(y-1)=2 \\\\(y-1)(z-1)=6 \\\\(z-1)(x-1)=3\\end{array}\\right.\\right.\\]<br>Nhân từng vế các phương trình của hệ trên ta được<br>\\[((x-1)(y-1)(z-1))^{2}=36 \\Leftrightarrow\\left[\\begin{array}{l}(x-1)(y-1)(z-1)=6 \\\\(x-1)(y-1)(z-1)=-6\\end{array}\\right.\\]<br>+) Nếu %((x-1)(y-1)(z-1)=6)%, kết hợp với hệ trên ta được<br>\\[\\left\\{\\begin{array} { l } { x - 1 = 1 } \\\\{ y - 1 = 2 } \\\\{ z - 1 = 3 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=2 \\y=3 \\z=4\\end{array}\\right.\\right.\\]<br>+) Nếu %((x-1)(y-1)(z-1)=-6)%, kết hợp với hệ trên ta được %(\\left\\{\\begin{array}{l}x-1=-1 \\\\ y-1=-2 \\\\ z-1=-3\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=0 \\\\ y=-1 \\text {. Vậy hệ phương trình đã cho có } 2 \\text { nghiệm } \\\\ z=-2\\end{array}\\right.\\right.)% %((x ; y ; z)=(2 ; 3 ; 4),(0 ;-1 ;-2))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Giải phương trình: %(\\sqrt{x^{2}+3 x+2}+\\sqrt{x^{2}-1}+6=3 \\sqrt{x+1}+2 \\sqrt{x+2}+2 \\sqrt{x-1}, \\quad(x \\in \\mathbb{R}))%.",
+        "question_images": [],
+        "solution": "Giải phương trình %(\\sqrt{x^{2}+3 x+2}+\\sqrt{x^{2}-1}+6=3 \\sqrt{x+1}+2 \\sqrt{x+2}+2 \\sqrt{x-1}, \\quad(x \\in \\mathbb{R}))%<br>Điều kiện xác định %(x \\geq 1)%. Khi đó ta có<br>\\[\\begin{array}{l}\\sqrt{x^{2}+3 x+2}+\\sqrt{x^{2}-1}+6=3 \\sqrt{x+1}+2 \\sqrt{x+2}+2 \\sqrt{x-1} \\\\Leftrightarrow \\sqrt{(x+1)(x+2)}+\\sqrt{(x-1)(x+1)}+6=3 \\sqrt{x+1}+2 \\sqrt{x+2}+2 \\sqrt{x-1}\\end{array}\\]<br>\\[\\begin{array}{l}\\Leftrightarrow \\sqrt{(x+1)(x+2)}+\\sqrt{(x-1)(x+1)}-3 \\sqrt{x+1}=2 \\sqrt{x-1}+2 \\sqrt{x+2}-6 \\\\Leftrightarrow \\sqrt{x+1}(\\sqrt{x+2}+\\sqrt{x-1}-3)=2(\\sqrt{x-1}+\\sqrt{x+2}-3) \\\\Leftrightarrow(\\sqrt{x+1}-2)(\\sqrt{\\mathrm{x}+2}+\\sqrt{x-1}-3)=0 \\\\* \\sqrt{x+2}+\\sqrt{x-1}-3=0 \\Leftrightarrow x+2+x-1+2 \\sqrt{(x+2)(x-1)}=9 \\Leftrightarrow \\sqrt{x^{2}+x-2}=4-x \\\\Leftrightarrow\\left\\{\\begin{array}{l}x \\leq 4 \\x^{2}+x-2=x^{2}-8 x+16\\end{array} \\Leftrightarrow x=2\\right.\\end{array}\\]<br>*) %(\\sqrt{x+1}=2 \\Leftrightarrow x+1=4 \\Leftrightarrow x=3)%.<br>Vậy phương trình đã cho có tập nghiệm là %(S=\\{2,3\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng nếu %(n)% là số nguyên dương thì %(2\\left(1^{2013}+2^{2013}+\\ldots+n^{2013}\\right))% chia hết cho %(n(n+1))%.",
+        "question_images": [],
+        "solution": "Chứng minh rằng nếu %(n)% là số nguyên dương thì %(2\\left(1^{2013}+2^{2013}+\\ldots+n^{2013}\\right))% chia hết cho %(n(n+1))%.<br>Nhận xét. Nếu %(a, b)% là hai số nguyên dương thì %(a^{2013}+b^{2013}:(a+b))%.<br>Khi đó ta có<br>\\[2\\left(1^{2013}+2^{2013}+\\ldots+n^{2013}\\right)=\\left(1^{2013}+n^{2013}\\right)+\\left(2^{2013}+(n-1)^{2013}\\right)+\\ldots+\\left(n^{2013}+1^{2013}\\right):(n+1)\\]<br>(1)<br>Mặt khác<br>\\[\\begin{array}{l}2\\left(1^{2013}+2^{2013}+\\ldots+n^{2013}\\right) \\\\=\\left(1^{2013}+(n-1)^{2013}\\right)+\\left(2^{2013}+(n-2)^{2013}\\right)+\\ldots+\\left((n-1)^{2013}+1^{2013}\\right)+2 . n^{2013}: n(2)\\end{array}\\]<br>Do %((n, n+1)=1)% và kết hợp với (1), (2) ta được %(2\\left(1^{2013}+2^{2013}+\\ldots+n^{2013}\\right))% chia hết cho<br>\\[n(n+1) \\text {. }\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các số nguyên tố %(p, q)% thỏa mãn điều kiện %(p^{2}-2 q^{2}=1)%.",
+        "question_images": [],
+        "solution": "Tìm tất cả các số nguyên tố %(p, q)% thỏa mãn điều kiện %(p^{2}-2 q^{2}=1)%<br>Nếu %(p, q)% đều không chia hết cho 3 thì%(p^{2} \\equiv 1(\\bmod 3), q^{2} \\equiv 1(\\bmod 3) \\Rightarrow p^{2}-2 q^{2} \\equiv-1(\\bmod 3))% vô lý.<br>Do đó trong hai số %(p, q)% phải có một số bằng 3 .<br>+) Nếu %(p=3 \\Rightarrow 9-2 q^{2}=1 \\Leftrightarrow q^{2}=4 \\Leftrightarrow q=2)%.<br>Do đó %((p, q)=(3,2))%.<br>+) Nếu %(q=3 \\Rightarrow p^{2}-18=1 \\Leftrightarrow p^{2}=19)% vô lí.<br>Vậy %((p, q)=(3,2))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho %(a, b, c)% là các số thực dương thỏa mãn %(a b c=1)%.<br>Chứng minh:<br>\\[\\frac{a}{(a+1)(b+1)}+\\frac{b}{(b+1)(c+1)}+\\frac{c}{(c+1)(a+1)} \\geq \\frac{3}{4}\\]",
+        "question_images": [],
+        "solution": "Ta có %(\\frac{a}{(a+1)(b+1)}+\\frac{b}{(b+1)(c+1)}+\\frac{c}{(c+1)(a+1)} \\geq \\frac{3}{4})%<br>\\[\\begin{array}{l}\\Leftrightarrow 4 a(c+1)+4 b(a+1)+4 c(b+1) \\geq 3(a+1)(b+1)(c+1) \\\\Leftrightarrow 4(a b+b c+c a)+4(a+b+c) \\geq 3 a b c+3(a b+b c+c a)+3(a+b+c)+3 \\\\Leftrightarrow a b+b c+c a+a+b+c \\geq 6\\end{array}\\]<br>Áp dụng bất đẳng thức AM-GM cho 3 số dương ta được:%(a b+b c+c a \\geq 3 \\sqrt[2]{(a b c)^{2}}=3 ; a+b+c \\geq 3 \\sqrt[2]{a b c}=3)% cộng từng vế hai bất đẳng thức này ta được (1).<br>Do đó bất đẳng thức ban đầu được chứng minh.<br>Dấu đẳng thức xảy ra khi và chỉ khi %(a=b=c=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho tam giác nhọn %(A B C, A B\\lt A C)%. Gọi %(D, E, F)% lần lượt là chân đường cao kẻ từ %(A, B, C)%. Gọi %(P)% là giao điểm của đường thẳng %(B C)% và %(E F)%. Đường thẳng qua %(D)% song song với %(E F)% lần lượt cắt các đường thẳng %(A B, A C, C F)% tại %(Q,P,R)%. Chứng minh:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tứ giác %(B Q C R)% nội tiếp.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9310cc0ad8c592202b7939c8875b2b47.png\" srcset=\"https://docdn.giainhanh.io/media/test/55f5e52df866dbb57b4bb742b5888f17.png 245w\" width=\"245\"/><br>Do %(A B\\lt A C)% nên %(Q)% nằm trên tia đối của tia %(B A)% và %(R)% nằm trong đoạn %(C A)%, từ đó %(Q, C)% nằm về cùng một phía của đường thẳng %(B R)%.<br>Do tứ giác %(B F E C)% nôi tiếp nên %(A F E=B C A)%,Do %(Q R)% song song với %(E F)% nên %(A F E=B Q R)%<br>Từ đó suy ra %(B C A=B Q R)% hay tứ giác %(B Q C R)% nội tiếp.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b)  %(\\frac{P B}{P C}=\\frac{D B}{D C})% và %(D)% là trung điểm của %(Q S)%.",
+        "question_images": [],
+        "solution": "%(\\frac{P B}{P C}=\\frac{D B}{D C})% và %(D)% là trung điểm của %(Q S)%.<br>Tam giác %(D H B)% đồng dạng tam giác %(E H A)% nên %(\\frac{D B}{A E}=\\frac{H B}{H A})%<br>Tam giác %(D H C)% đồng dạng tam giác %(F H A)% nên %(\\frac{D C}{A F}=\\frac{H C}{H A})%<br>Từ hai tỷ số trên ta được %(\\frac{D B}{D C}=\\frac{A E}{A F} \\cdot \\frac{H B}{H C}=\\frac{A E}{A F} \\cdot \\frac{F B}{E C})% (1)<br>Áp dụng định lí Menelaus cho tam giác %(A B C)% với cát tuyến %(P E F)% ta được:<br>\\[\\frac{P B}{P C} \\cdot \\frac{E C}{E A} \\cdot \\frac{F A}{F B}=1 \\Leftrightarrow \\frac{P B}{P C}=\\frac{A E}{A F} \\cdot \\frac{F B}{E C} \\text { (2) }\\]<br>Từ (1) và (2) ta được %(\\frac{P B}{P C}=\\frac{D B}{D C}(3))%<br>Do %(Q R)% song song với %(E F)% nên theo định lí Thales: %(\\frac{D Q}{P F}=\\frac{B D}{B P}, \\frac{D S}{P F}=\\frac{C D}{C P})%.<br>Kết hợp với (3) ta được %(D Q=D S)% hay %(D)% là trung điểm của %(Q S)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Đường tròn ngoại tiếp tam giác %(P Q R)% đi qua trung điểm của %(B C)%.",
+        "question_images": [],
+        "solution": "Đường tròn ngoại tiếp tam giác %(P Q R)% đi qua trung điểm của %(B C)%.<br>Gọi %(M)% là trung điểm của %(B C)%. Ta sẽ chứng minh %(D P \\cdot D M=D Q . D R)%.<br>Thật vậy, do tứ giác %(B Q C R)% nội tiếp nên %(D Q . D R=D B \\cdot D C)% (4).<br>Tiếp theo ta chứng minh %(D P \\cdot D M=D B \\cdot D C \\Leftrightarrow D P\\left(\\frac{D C-D B}{2}\\right)=D B \\cdot D C)%<br>\\[\\begin{array}{l}D P(D C-D B)=2 D B \\cdot D C \\Leftrightarrow D B(D P+D C)=D C(D P-D B) \\Leftrightarrow D B \\cdot P C=D C \\cdot P B \\\\Leftrightarrow \\frac{P B}{P C}=\\frac{D B}{D C} \\text { (đúng theo phần b). Do đó } D P \\cdot D M=D B \\cdot D C \\text { (5) }\\end{array}\\]<br>Từ (4) và (5) ta được %(D P . D M=D Q . D R)%<br>suy ra tứ giác %(P Q M R)% nội tiếp hay đường tròn ngoại tiếp tam giác %(P Q R)% đi qua trung điểm của %(B C)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Hỏi có hay không 16 số tự nhiên, mỗi số có ba chữ số được tạo thành từ ba chữ số %(a, b, c)% thỏa mãn hay bất kỳ trong chúng không có cùng số dư khi chia cho 16 ?",
+        "question_images": [],
+        "solution": "Không tồn tại 16 số như vậy.<br>Thật vậy, giả sử trái lại, tìm được 16 số thỏa mãn.<br>Khi đó, ta có 16 số dư phân biệt khi chia cho 16: 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15; trong đó có 8 số chẵn, 8 số lẻ.<br>Do đó, ba chữ số %(a, b, c)% khác tính chẵn lẻ, giả sử hai chữ số chẵn là %(a, b)% và chữ số lẻ là %(c)%.<br>Có 9 số lẻ được tạo thành từ những chữ số này: %(\\overline{a a c}, \\overline{a b c}, \\overline{a c c}, \\overline{b a c}, \\overline{b b c}, \\overline{b c c}, \\overline{c a c}, \\overline{c b c}, \\overline{c c c})%.<br>Gọi %(x_{1}, x_{2}, \\ldots, x_{9})% là các số có hai chữ số thu được từ các số ở trên bằng cách bỏ đi chữ số %(c)%(ở hàng đơn vị).<br>Khi đó%(\\overline{x_{i} c} \\not \\equiv \\overline{x_{j} c} \\quad(\\bmod 16) \\Leftrightarrow 16)% không là ước của %(\\overline{x_{i} c}-\\overline{x_{j} c})% tức là %(x_{i}-x_{j})% không chia hết cho 8<br>Nhưng trong 9 số %(x_{1}, x_{2}, \\ldots, x_{9})% chỉ có ba số lẻ %(\\overline{a c}, \\overline{b c}, \\overline{c c})% nên 8 số bất kỳ trong 9 số%(x_{1}, x_{2}, \\ldots, x_{9})% luôn có hai số có cùng số dư khi chia cho 8 , mâu thuẫn.<br>Tương tự, trường hợp trong ba số %(a, b, c)% có hai số lẻ, một số chẵn cũng không xảy ra",
+        "question_type": "essay"
+    }
+]

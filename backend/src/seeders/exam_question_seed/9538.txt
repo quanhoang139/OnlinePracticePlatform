@@ -1,0 +1,112 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(P=\\left(\\frac{x^{3}+8}{x^{3}-8} \\cdot \\frac{4 x^{2}+8 x+16}{x^{2}-4}-\\frac{4 x}{x-2}\\right): \\frac{-16}{x^{4}-6 x^{3}+12 x^{2}-8 x})%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Tìm điều kiện xác định và rút gọn biểu thức P",
+        "question_images": [],
+        "solution": "Điều kiện để P xác định là:<br>%(\\left\\{\\begin{array}{l}x^{3}-8 \\neq 0 \\\\ x^{2}-4 \\neq 0 \\\\ x-2 \\neq 0 \\\\ x^{4}-6 x^{3}+12 x^{2}-8 x \\neq 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x^{3} \\neq 8 \\\\ x^{2}-4 \\neq 0 \\\\ x \\neq 2 \\\\ x(x-2)^{3} \\neq 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\neq 0 \\\\ x \\neq \\pm 2\\end{array}\\right.\\right.\\right.)%<br>Với điều kiện trên:<br>%(\\begin{array}{l}P=\\left[\\frac{(x+2)\\left(x^{2}-2 x+4\\right)}{(x-2)\\left(x^{2}+2 x+4\\right)}-\\frac{4\\left(x^{2}+2 x+4\\right)}{(x-2)(x+2)}-\\frac{4 x(x-2)}{(x-2)^{2}}\\right] \\cdot \\frac{x\\left(x^{3}-6 x^{2}+12 x-8\\right)}{-16} \\\\ =\\frac{4 x^{2}-8 x+16-4 x^{2}+8 x}{(x-2)^{2}} \\cdot \\frac{x(x-2)^{3}}{-16}=-x(x-2)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Tìm x để %(|P|=1)%",
+        "question_images": [],
+        "solution": "Để %(|P|=1 \\Rightarrow\\left[\\begin{array}{l}x(x-2)=1 \\\\ x(x-2)=-1\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x^{2}-2 x-1=0 \\\\ x^{2}-2 x+1=0\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=1 \\pm \\sqrt{2}(\\mathrm{tm}) \\\\ x=1(\\mathrm{tm})\\end{array}\\right.\\right.\\right.)%<br>Vậy để %(|P|=1)% thì %(x \\in\\{0 ; 1 \\pm \\sqrt{2}\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Xác định các giá trị nguyên của %(x)% để biểu thức %(\\frac{P+2}{x-1})% với %(x \\neq 1)% nhận giá trị nguyên",
+        "question_images": [],
+        "solution": "Ta có %(: \\frac{P+2}{x-1}=\\frac{-x(x-2)+2}{x-1}=\\frac{-x^{2}+2 x+2}{x-1})%<br>%(=\\frac{-x^{2}+x+x-1}{x-1}=-x+1+\\frac{3}{x-1})%<br>Để %(\\frac{P+2}{x-1})% là một số nguyên thì %(\\frac{3}{x-1} \\in \\mathrm{Z} \\Rightarrow(x-1) \\in U(3)=\\{ \\pm 1 ; \\pm 3\\})%. Ta có bảng<br>Vậy %(x=4)% thì %(\\frac{P+2}{x-1})% là một số nguyên.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3ee3564e77a90c1ec3e617b7e8d5e3c8.png\" srcset=\"https://docdn.giainhanh.io/media/test/e12998db91fcb552233b5995ca7bb7e8.png 245w, https://docdn.giainhanh.io/media/test/b1461ce01e771908ec96694497a13da0.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Cho đa thức %(f(x)=a x^{2021}+b x^{2019}+c x-5)% với %(a, b, c)% là các số hữu tỷ. Biết %(f(-7)=7)%. Tính %(f(7))%",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{l}f(-7)=a \\cdot(-7)^{2021}+b \\cdot(-7)^{2019}+c \\cdot(-7)-5 \\\\Rightarrow f(7)=a .7^{2021}+b .7^{2019}+c .7-5 \\Rightarrow f(-7)+f(7)=-10\\end{array}\\]<br>Mà %(f(-7)=7 \\Rightarrow f(7)=-10-7=-17)%<br>Vậy %(f(7)=-17)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Chứng minh rằng với mọi %(n \\in \\mathbb{N} . n\\gt 0)% thì %(A=n^{4}+2 n^{3}+2 n^{2}+2 n+1)% không là số chính phương",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}A=n^{4}+2 n^{3}+2 n^{2}+2 n+1=n^{4}+2 n^{3}+n^{2}+n^{2}+2 n+1 \\\\=n^{2}\\left(n^{2}+2 n+1\\right)+\\left(n^{2}+2 n+1\\right)=\\left(n^{2}+2 n+1\\right)\\left(n^{2}+1\\right)\\end{array}\\]<br>Do %(n^{2}+1)% không là số chính phương với %(n\\gt 0, n \\in N)% nên:<br>%((n+1)^{2}\\left(n^{2}+1\\right))% không là số chính phương với<br>%(\\Rightarrow n^{4}+2 n^{3}+2 n^{2}+2 n+1)% không là số chính phương với %(n>0, n \\in N)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Cho %(5 a^{2}+2 b^{2}=11 a b)% với %(a\\gt \\frac{b}{5}>0)%, tìm giá trị biểu thức %(A=\\frac{4 a^{2}-5 b^{2}}{a^{2}+3 a b})%",
+        "question_images": [],
+        "solution": "Ta có%(: 5 a^{2}+2 b^{2}=11 a b)%<br>%(\\begin{array}{l}\\Rightarrow 5 a^{2}-10 a b-a b+2 b^{2}=0 \\Leftrightarrow 5 a(a-2 b)-b(a-2 b)=0 \\\\ \\Leftrightarrow(a-2 b)(5 a-b)=0 \\Leftrightarrow\\left[\\begin{array}{l}a=2 b \\\\ 5 a=b\\left(k t m \\text { do } a\\gt \\frac{b}{5}>0\\right)\\end{array}\\right. \\\\ \\Rightarrow A=\\frac{4 \\cdot(2 b)^{2}-5 b^{2}}{(2 b)^{2}+3.2 b \\cdot b}=\\frac{8 b^{2}-5 b^{2}}{4 b^{2}+6 b^{2}}=\\frac{3}{10}\\end{array})%<br>Vậy %(A=\\frac{3}{10})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Với %(a, b)% là các số nguyên dương sao cho %(a+1)% và %(b+2007)% chia hết cho 6 . Chứng minh rằng %(4^{n}+a+b)% cũng chia hết cho 6 (với %(n \\in N)%)",
+        "question_images": [],
+        "solution": "Ta có: %((a+1) \\vdots 6,(b+2007) \\vdots 6)%<br>%(\\begin{array}{l}*) \\Rightarrow(a+1) \\vdots 2,(b+2007) \\vdots 2 \\Rightarrow a+b+2008 \\vdots 2 \\Rightarrow a+b \\vdots 2 \\\\ \\Rightarrow 4^{n}+a+b \\vdots 2 \\\\ *)(a+1) \\vdots 3,(b+2007) \\vdots 3 \\\\ \\Rightarrow a+b+2008 \\vdots 3 \\Rightarrow a+b+1 \\vdots 3(d o 2008=1+2007) \\\\ \\Rightarrow 4^{n}-1+a+b+1 \\vdots 3\\left(d o 4^{n}-1=(4-1)\\left(4^{n-1}+4^{n-2}+\\ldots .+1\\right)\\right) \\\\ =3 .\\left(4^{n-1}+4^{n-2}+\\ldots .+1\\right) \\vdots 3\\end{array})%<br>Vậy %(\\left.\\begin{array}{c}4^{n}+a+b \\vdots 2 \\\\ 4^{n}+a+b \\vdots 3 \\\\ (2,3)=1\\end{array}\\right\\} \\Rightarrow 4^{n}+a+b \\vdots 6(d f c m))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.5,
+        "content": "Cho %(a, b, c)% là bộ ba số dương. Chứng minh rằng %(\\frac{1}{2 a+b+c}+\\frac{1}{a+2 b+c}+\\frac{1}{a+b+2 c} \\leq \\frac{1}{4}\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right))%",
+        "question_images": [],
+        "solution": "Ta chứng minh %((x+y)\\left(\\frac{1}{x}+\\frac{1}{y}\\right) \\geq 4)% với %(x\\gt 0, y>0)%<br>Thật vậy, theo BĐT Cô-si với %(x, y>0)%<br>%(\\left.\\begin{array}{l}x+y \\geq 2 \\sqrt{x y} \\\\ \\frac{1}{x}+\\frac{1}{y} \\geq \\frac{2}{\\sqrt{x y}}\\end{array}\\right\\} \\Rightarrow(x+y)\\left(\\frac{1}{x}+\\frac{1}{y}\\right) \\geq 4(\\forall x, y\\gt 0) \\Rightarrow \\frac{1}{x+y} \\leq \\frac{1}{4}\\left(\\frac{1}{x}+\\frac{1}{y}\\right))%<br>Ta có: %(\\begin{array}{l}V T=\\frac{1}{(a+b)+(a+c)}+\\frac{1}{(a+b)+(b+c)}+\\frac{1}{(c+a)+(c+b)} \\\\ \\leq \\frac{1}{4}\\left(\\frac{2}{a+b}+\\frac{2}{a+c}+\\frac{2}{b+c}\\right)=\\frac{1}{2}\\left(\\frac{1}{a+b}+\\frac{1}{a+c}+\\frac{1}{b+c}\\right) \\\\ \\leq \\frac{1}{2} \\cdot \\frac{1}{4}\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)=\\frac{1}{2} \\cdot 2 \\cdot \\frac{1}{4}\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)=\\frac{1}{4} \\cdot\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)\\end{array})%<br>Vậy BĐT được chứng minh. Dấu bằng xảy ra khi và chỉ khi %(a=b=c)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác %(A B C)% vuông tại %(\\mathbf{A}(A B\\lt A C))%, vẽ đường cao %(A H)% (H thuộc %(\\mathbf{B C})% ). Trên tia %(H C)% lấy điểm %(\\mathbf{D})% sao cho %(H D=H A)%. Từ %(D)% vẽ đường thắng song song với %(A H)% cắt %(A C)% tại %(\\mathbf{E})%. Gọi %(M)% là trung điểm của %(B E)%. Chứng minh:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) %(\\triangle A B C \\sim \\triangle H A C, A E=A B)%",
+        "question_images": [],
+        "solution": "Xét %(\\triangle A B C)% và %(\\triangle H A C)% ta có %(: \\angle B A C=\\angle A H C=90^{\\circ} \\Rightarrow \\triangle A B C \\sim \\triangle H A C(\\mathrm{~g} . \\mathrm{g}))%<br>Chứng minh %(A E=A B)%<br>Ta có : Gọi M là trung điểm của %(B E)%<br>%(\\Rightarrow D M=A M=\\frac{1}{2} B E=B M=M E \\Rightarrow \\triangle M B D)% cân tại %(\\mathrm{M} \\Rightarrow \\angle M B D=\\angle M D B)% (1)<br>Và %(\\triangle A H M=\\triangle D H M)% (c.c.c) %(\\Rightarrow \\angle H A M=\\angle M D B)% (2)<br>Từ (1) và (2) ta có %(\\angle M B D=\\angle H A M)%<br>Gọi I là giao điểm của %(B M, A H)%.<br>Xét %(\\triangle B I H)% và %(\\triangle A I M)% có:<br>%(\\angle M B D=\\angle H A M(c m t), \\angle B I H=\\angle A I M)% (đối đỉnh)<br>%(\\Rightarrow \\angle B H I=\\angle A I M=90^{\\circ} \\Rightarrow A M \\perp B E \\Rightarrow A M)% là đường cao %(\\triangle A B E)%<br>%(\\Rightarrow \\triangle A B E)% cân tại A nên %(A E=A B)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/664f68a20c8920ead2eab9121d4099cc.png\" srcset=\"https://docdn.giainhanh.io/media/test/63409a72fd8da7075b2c48553464055c.png 223w, https://docdn.giainhanh.io/media/test/6380650f6ba05346b6ed3e6685ba749a.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) %(\\angle H A M=\\angle D A E)%",
+        "question_images": [],
+        "solution": "Xét %(\\triangle H A D)% vuông cân tại %(\\mathrm{H} \\Rightarrow \\angle H A D=\\angle H A M+\\angle M A D=45^{\\circ})%<br>Xét %(\\triangle M A E)% vuông cân tại M nên %(\\angle M A E=\\angle D A E+\\angle M A D=45^{\\circ})%<br>Vậy %(\\angle H A E=\\angle D A E\\left(=45^{\\circ}-\\angle M A D\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) %(A M \\cdot B M=A B \\cdot H M+A M \\cdot B H)%",
+        "question_images": [],
+        "solution": "Gọi F nằm trên cạnh %(A H)% sao cho %(\\angle A M F=\\angle B M H)%.<br>Ta có :<br>%(90^{\\circ}=\\angle A M B=\\angle A M F+\\angle F M B=\\angle B M H+\\angle F M B=\\angle F M H)%<br>%(\\Rightarrow \\triangle F M H)% vuông cân tại M<br>Lại có, Xét %(\\triangle A M F)% và %(\\triangle B M H)% ta có :<br>%(\\angle A M F=\\angle B M H)% (cách lấy điểm F ),<br>%(A M=B M\\left(=\\frac{1}{2} B E\\right), \\angle M B D=\\angle H A M)%<br>%(\\Rightarrow \\triangle A M F \\backsim \\triangle B M H(\\mathrm{~g} . \\mathrm{g}) \\Rightarrow A M \\cdot B H=A M \\cdot B F=B M \\cdot A F(3))%<br>Từ %(M F=M H \\Rightarrow \\triangle M H F)% vuông cân tại %(M)%<br>%(\\Rightarrow \\triangle M H F \\sim \\triangle M A B)% (hai tam giác vuông cân đồng dạng)<br>%(\\Rightarrow H F \\cdot M A=A B \\cdot M H \\Rightarrow A B \\cdot H M=B M \\cdot H F(4))%<br>Từ (3), (4)<br>%(\\Rightarrow A B \\cdot H M+A M \\cdot B H=B M \\cdot H F+B M \\cdot A F=B M \\cdot(H F+A F)=B M \\cdot A H)%<br>Vậy %(A B \\cdot H M+A M \\cdot B H=B M \\cdot A H)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho một hình vuông và 2021 đường thẳng, mỗi đường thẳng đều chia hình vuông thành hai tứ giác có tỷ số diện tích %(2: 3)%. Chứng minh rằng trong các số 2021 đường thẳng đó, có ít nhất 506 đường thẳng cùng đi qua môt điểm",
+        "question_images": [],
+        "solution": "Giả sử %(M N)% là một đường trung bình của hình vuông %(A B C D)%<br>Trên %(M N)% lấy hai điểm %(P, Q)% sao cho %(M Q=N P=\\frac{1}{2} M N)%<br>Kẻ 1 đường thẳng đi qua điểm %(Q)% và cắt %(A B, D C)% lần lượt tại %(R, S)%. Ta có :<br>%(S_{A R S D}=(A R+D S) \\cdot \\frac{A D}{2}, S_{B R S C}=(B R+S C) \\cdot \\frac{A D}{2})%<br>Do %(M Q, N G)% lần lượt là đường trung bình của hình thang %(A R S D, B R S C)%<br>Nên %(\\frac{A R+S D}{2}=M Q, \\frac{B R+S C}{2}=N Q)%<br>Và %(S_{A R S D}=M Q \\cdot A D, S_{B R S C}=N Q \\cdot A D \\Rightarrow \\frac{S_{A R S D}}{S_{B R S C}}=\\frac{M Q}{N Q}=\\frac{2}{3})%<br>Ta được 1 đường thẳng RS thỏa mãn đề bài<br>Chứng minh tương tự ta cũng có một đường thẳng đi qua P cùng thỏa mãn yêu cầu của đề bài. Suy ra 1 đường trung bình sẽ có 2 điểm nằm trên nó mà các đường thẳng đi qua nó cắt hai cạnh của hình vuông thỏa mãn yêu cầu đề bài.<br>Mà hình vuông có hai đường trung bình nên sẽ có 4 điểm mà các đường thẳng đi qua thỏa mãn tính chất trên.<br>Vì vậy các đường thẳng muốn thỏa mãn yêu cầu của bài toán thì phải đi qua 1 trong 4 điểm trên. Lại có 2021 chia 4 được thương 505 và dư 1 . Theo nguyên lý Dirichlet, có ít nhất 506 đường thẳng đồng quy tại 1 trong số 4 điểm.<br>Bài toán được chứng minh.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/806b36060352b0386f7f859f3721e9fa.png\" srcset=\"https://docdn.giainhanh.io/media/test/24427a32d40b17fa92227bc6eb6e56db.png 180w, https://docdn.giainhanh.io/media/test/c336f73dadf039c41599e7dae93abe74.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

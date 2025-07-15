@@ -1,0 +1,110 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Tính tống %(S=\\frac{1}{\\sqrt{3}+1}+\\frac{1}{\\sqrt{5}+\\sqrt{3}}+\\frac{1}{\\sqrt{7}+\\sqrt{5}}+\\ldots+\\frac{1}{\\sqrt{2019^{2}}+\\sqrt{2019^{2}-2}})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Ta có: } S=\\frac{1}{1+\\sqrt{3}}+\\frac{1}{\\sqrt{3}+\\sqrt{5}}+\\frac{1}{\\sqrt{5}+\\sqrt{7}}+\\ldots+\\frac{1}{\\sqrt{2019^{2}-2}+\\sqrt{2019^{2}}} \\\\Rightarrow S=\\frac{1-\\sqrt{3}}{1-3}+\\frac{\\sqrt{3}-\\sqrt{5}}{3-5}+\\frac{\\sqrt{5}-\\sqrt{7}}{5-7}+\\ldots+\\frac{\\sqrt{2019^{2}-2}-\\sqrt{2019^{2}}}{2019^{2}-2-2019^{2}} \\\\Rightarrow S=\\frac{1-\\sqrt{3}+\\sqrt{3}-\\sqrt{5}+\\sqrt{5}-\\sqrt{7}+\\ldots+\\sqrt{2019^{2}-2}-\\sqrt{2019^{2}}}{-2} \\\\Rightarrow S=\\frac{1-\\sqrt{2019^{2}}}{-2}=\\frac{1-2019}{-2}=1009\\end{array}\\]<br>Vậy %(S=1009)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Cho phương trình %(x^{2}-2 m x+m-4)% (1) (m là tham số).",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chúng minh rằng phương trình (1) luôn có hai nghiệm phân biệt với mọi giá trị của %(\\mathrm{m})%.",
+        "question_images": [],
+        "solution": "Phưong trình: %(x^{2}-2 m x+m-4)% (1)<br>Phương trình (1) là phương trình bậc hai của %(x)% có:<br>\\[\\begin{array}{l}\\Delta^{\\prime}=(-\\mathrm{m})^{2}-1 \\cdot(\\mathrm{m}-4)=\\mathrm{m}^{2}-\\mathrm{m}+4 \\\\Rightarrow \\Delta^{\\prime}=\\left(\\mathrm{m}-\\frac{1}{2}\\right)^{2}+\\frac{15}{4}\\gt 0 \\text { vói mọi m }\\end{array}\\]<br>Vậy phương trình (1) luôn có hai nghiệm phân biệt với mọi m",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Vói giá trị nào của %(m)% thì phương trình (1) có hai nghiệm %(x_{1} ; x_{2})% thóa mãn:<br>\\[x_{1}+x_{2}=\\frac{x_{1}^{2}}{x_{2}}+\\frac{x_{2}^{2}}{x_{1}}\\]",
+        "question_images": [],
+        "solution": "Vói mọi m phuoong trình (1) luôn có hai nghiệm phân biệt %(x_{1})%; %(x_{2})%.<br>Theo dịnh li Vi-ét, ta có: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=2 m \\\\ x_{1} x_{2}=m-4\\end{array}\\right.)%<br>Ta lại có:<br>\\[\\begin{array}{l}x_{1}+x_{2}=\\frac{x_{1}^{2}}{x_{2}}+\\frac{x_{2}^{2}}{x_{1}} \\Leftrightarrow x_{1}+x_{2}=\\frac{x_{1}^{3}+x_{2}^{3}}{x_{1} x_{2}} \\Leftrightarrow x_{1}+x_{2}=\\frac{\\left(x_{1}+x_{2}\\right)\\left(x_{1}^{2}-x_{1} x_{2}+x_{2}^{2}\\right)}{x_{1} x_{2}} \\\\Leftrightarrow\\left(x_{1}+x_{2}\\right)\\left(\\frac{x_{1}^{2}-x_{1} x_{2}+x_{2}^{2}}{x_{1} x_{2}}-1\\right)=0 \\Leftrightarrow\\left(x_{1}+x_{2}\\right) \\cdot \\frac{\\left(x_{1}-x_{2}\\right)^{2}}{x_{1} x_{2}}=0 \\\\Leftrightarrow x_{1}+x_{2}=0 \\text { hoăcc } \\frac{\\left(x_{1}-x_{2}\\right)^{2}}{x_{1} x_{2}}\\end{array}\\]<br>- TH1: %(x_{1}+x_{2}=0 \\Leftrightarrow 2 m=0 \\Leftrightarrow m=0)%<br>- TH2: %(\\frac{\\left(x_{1}-x_{2}\\right)^{2}}{x_{1} x_{2}} \\Leftrightarrow\\left\\{\\begin{array}{l}x_{1}=x_{2} \\\\ x_{1} x_{2} \\neq 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}\\Delta^{\\prime}=0 \\\\ x_{1} x_{2} \\neq 0\\end{array}\\right.\\right.)% (vô nghiệm vì %(\\Delta^{\\prime}\\gt 0, \\forall m)% )<br>Vậy với %(m=0)% thì thì phuoong trình (1) có hai nghiệm %(x_{1} ; x_{2})% thóa mãn:<br>\\[x_{1}+x_{2}=\\frac{x_{1}^{2}}{x_{2}}+\\frac{x_{2}^{2}}{x_{1}}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Giải phương trình và hệ phương trình sau:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(\\sqrt{2 x-1}+\\sqrt{5-x}=x-2+2 \\sqrt{-2 x^{2}+11 x-5})%;",
+        "question_images": [],
+        "solution": "Phuoong trình xác định %(\\Leftrightarrow\\left\\{\\begin{array}{l}2 x-1 \\geq 0 \\\\ 5-x \\leq 0\\end{array} \\Leftrightarrow \\frac{1}{2} \\leq x \\leq 5\\right.)%<br>Khi đó phuong trinh (2) %(\\Leftrightarrow \\sqrt{2 x-1}+\\sqrt{5-x}=x-2+2 \\sqrt{(2 x-1)(5-x)})%<br>Đăt %(\\left\\{\\begin{array}{l}\\sqrt{2 x-1}=a \\\\ \\sqrt{5-x}=b\\end{array} \\quad(a ; b \\geq 0) \\Rightarrow x+4=a^{2}+b^{2} \\Rightarrow x-2=a^{2}+b^{2}-6\\right.)%<br>Ta có phuong trình: %(\\mathrm{a}+\\mathrm{b}=\\mathrm{a}^{2}+\\mathrm{b}^{2}-6+2 \\mathrm{ab} \\Leftrightarrow(\\mathrm{a}+\\mathrm{b})^{2}-(\\mathrm{a}+\\mathrm{b})-6=0)% %(\\Leftrightarrow(\\mathrm{a}+\\mathrm{b}-3)(\\mathrm{a}+\\mathrm{b}+2)=0 \\Leftrightarrow \\mathrm{a}+\\mathrm{b}-3=0)% (do %(\\mathrm{a}+\\mathrm{b}+2\\gt 0, \\forall \\mathrm{a} ; \\mathrm{b} \\geq 0)% ) %(\\Leftrightarrow a+b=3 \\Leftrightarrow a^{2}+b^{2}+2 a b=9 \\Leftrightarrow x+4+2 \\sqrt{(2 x-1)(5-x)}=9)%<br>\\[\\begin{array}{l}\\Leftrightarrow 2 \\sqrt{(2 x-1)(5-x)}-(5-x)=0 \\Leftrightarrow \\sqrt{5-x}(2 \\sqrt{2 x-1}-\\sqrt{5-x})=0 \\\\Leftrightarrow\\left[\\begin{array}{l}\\sqrt{5-x}=0 \\Leftrightarrow x=5 \\text { (thỏa mãn) } \\\\4(2 x-1)=5-x \\Leftrightarrow 9 x=9 \\Leftrightarrow x=1 \\text { (thỏa mãn) }\\end{array}\\right.\\end{array}\\]<br>Vây phương trình có tập nghiệm %(\\mathrm{S}=\\{1: 5\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(\\left\\{\\begin{array}{l}2 \\sqrt{x+y}+2 \\sqrt{x-y}=4+\\sqrt{x^{2}-y^{2}} \\\\ \\sqrt{x}+\\sqrt{y}=2\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "ĐKXĐ: %(x \\geq y \\geq 0)%. Đặt %(\\left\\{\\begin{array}{l}a=\\sqrt{x+y} \\\\ b=\\sqrt{x-y}\\end{array}(a \\geq b \\geq 0)\\right.)%. Ta có: %(2 a+2 b=4+a b)%<br>\\[\\begin{array}{l}\\Leftrightarrow(a b-2 a)-(2 b-4)=0 \\Leftrightarrow a(b-2)-2(b-2)=0 \\Leftrightarrow(a-2)(b-2)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}a-2=0 \\Leftrightarrow \\sqrt{x+y}=2 \\Leftrightarrow x+y=4 \\b-2=0 \\Leftrightarrow \\sqrt{x-y}=2 \\Leftrightarrow x-y=4\\end{array}\\right.\\end{array}\\]<br>- TH1: %(\\left\\{\\begin{array}{l}x+y=4 \\\\ \\sqrt{x}+\\sqrt{y}=2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x+y=4 \\\\ x+y+2 \\sqrt{x y}=4\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x+y=4 \\\\ \\sqrt{x y}=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=4 \\\\ y=0\\end{array}\\right.\\right.\\right.\\right.)% (do %(x \\geq y \\geq 0)% )<br>- TH2: %(\\left\\{\\begin{array}{l}x-y=4 \\\\ \\sqrt{x}+\\sqrt{y}=2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=y+4 \\\\ x+y+2 \\sqrt{x y}=4\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=y+4 \\\\ y+\\sqrt{x y}=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=4 \\\\ y=0\\end{array}\\right.\\right.\\right.\\right.)%<br>\\[\\text { (do } x \\geq y \\geq 0 \\text { ) }\\]<br>Vây hệ phưong trìhh có nghiệm duy nhẵt %(\\left\\{\\begin{array}{l}x=4 \\\\ y=0\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho đường tròn %((\\mathrm{O}))% cố định và điểm %(\\mathrm{A})% cố định ở ngoài đường tròn %((\\mathrm{O}))%. Từ %(\\mathrm{A})% kẻ đường thẳng tiếp xúc vói đường tròn %((\\mathrm{O}))% tại %(\\mathrm{B})%. Một tia %(\\mathrm{Ax})% thay đối, nằm trong miền %(\\widehat{\\mathrm{OAB}})%, cắt đường tròn %((\\mathrm{O}))% tại hai điếm %(\\mathrm{C}, \\mathrm{D}(\\mathrm{C})% ò giũa %(\\mathrm{A})% và %(\\mathrm{D}))%. Từ %(\\mathrm{B})% kẻ %(\\mathrm{BH})% vuông góc với %(\\mathrm{AO})% tại %(\\mathrm{H})%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tích AC.AD không đối;",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { a) Xét } \\triangle \\mathrm{ABC} \\text { và } \\triangle \\mathrm{ADB} \\text { có: } \\widehat{\\mathrm{BAD}} \\text { chung; } \\widehat{\\mathrm{ABC}}=\\widehat{\\mathrm{ADB}}=\\frac{1}{2} \\text { sd } \\overparen{B C} \\\\Rightarrow \\triangle \\mathrm{ABC} \\sim \\triangle \\mathrm{ADB} \\text { (góc-góc) } \\\\Rightarrow \\frac{\\mathrm{AB}}{\\mathrm{AC}}=\\frac{\\mathrm{AD}}{\\mathrm{AB}} \\Rightarrow \\mathrm{AC} \\cdot \\mathrm{AD}=\\mathrm{AB}^{2} \\text { (3) }\\end{array}\\]<br>Do đường tròn %((\\mathrm{O}), \\mathrm{A})% cố định %(\\Rightarrow \\mathrm{AB})% không đồi %(\\Rightarrow \\mathrm{AC})%. %(\\mathrm{AD})% không đối<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f2bd5421eebaaa976f11c536d79f6750.png\" srcset=\"https://docdn.giainhanh.io/media/test/42f84ba0a5faa6c86a21625901ce8931.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) CHOD là tứ giác nội tiếp;",
+        "question_images": [],
+        "solution": "%(\\triangle A B O)%  vuông taii %(\\mathrm{B})%, dường cao %(\\mathrm{BH} \\Rightarrow \\mathrm{AB}^{2}=\\mathrm{AH} . \\mathrm{AO})% (4)<br>Từ (3) và %((4) \\Rightarrow \\mathrm{AC} . \\mathrm{AD}=\\mathrm{AH} . \\mathrm{AO} \\Rightarrow \\frac{\\mathrm{AC}}{\\mathrm{AH}}=\\frac{\\mathrm{AO}}{\\mathrm{AD}})%, mà %(\\widehat{\\mathrm{OAD}})% chung<br>\\[\\begin{array}{l}\\Rightarrow \\triangle \\mathrm{AHC}-\\triangle \\mathrm{ADO} \\text { (cạnh-góc-cạnh) } \\\\Rightarrow \\widehat{\\mathrm{AHC}}=\\widehat{\\mathrm{ADO}}(5) \\Rightarrow \\text { Tú giác CHOD nội tiếp }\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Phân giác của %(\\widehat{\\mathrm{CHD}})% cố định.",
+        "question_images": [],
+        "solution": "c)Tứ giác %(\\mathrm{CHOD})% nội tiếp %(\\Rightarrow \\widehat{\\mathrm{OHD}}=\\widehat{\\mathrm{OCD}})% (6)<br>%(\\triangle \\mathrm{COD})% cân tại %(\\mathrm{O} \\Rightarrow \\widehat{\\mathrm{OCD}}=\\widehat{\\mathrm{ODC}})% hay %(\\widehat{\\mathrm{OCD}}=\\widehat{\\mathrm{ADO}})%  (7)<br>Từ (5); (6) và (7) %(\\Rightarrow \\widehat{\\mathrm{AHC}}=\\widehat{\\mathrm{OHD}})%<br>Mà %(\\widehat{\\mathrm{AHC}}+\\widehat{\\mathrm{BHC}}=\\widehat{\\mathrm{OHD}}+\\widehat{\\mathrm{BHD}}=90^{\\circ} \\Rightarrow \\widehat{\\mathrm{BHC}}=\\widehat{\\mathrm{BHD}})%<br>%(\\Rightarrow \\mathrm{BH})% là phân giác của %(\\widehat{\\mathrm{CHD}}, \\mathrm{BH})% cố định %(\\Rightarrow \\mathrm{DPCM})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tìm tất cả các giá trị nguyên của %(x)% để %(\\mathrm{A}=\\frac{\\mathrm{x}^{4}+\\mathrm{x}^{2}+\\mathrm{x}+2}{\\mathrm{x}^{4}+3 \\mathrm{x}^{3}+7 \\mathrm{x}^{2}+3 \\mathrm{x}+6})% nhận giá trị là một sỗ nguyên.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { a)Ta có: } A=\\frac{x^{4}+x^{2}+x+2}{x^{4}+3 x^{3}+7 x^{2}+3 x+6}=\\frac{x^{2}\\left(x^{2}+1\\right)+(x+2)}{\\left(x^{4}+x^{2}\\right)+\\left(3 x^{3}+3 x\\right)+\\left(6 x^{2}+6\\right)} \\\\ \\Rightarrow A=\\frac{x^{2}\\left(x^{2}+1\\right)+(x+2)}{x^{2}\\left(x^{2}+1\\right)+3 x\\left(x^{2}+1\\right)+6\\left(x^{2}+1\\right)}=\\frac{x^{2}\\left(x^{2}+1\\right)+(x+2)}{\\left(x^{2}+1\\right)\\left(x^{2}+3 x+6\\right)}\\end{array})%<br>Do %(\\mathrm{A} ; \\mathrm{x})% nguyên %(\\Rightarrow \\mathrm{x}^{2}\\left(\\mathrm{x}^{2}+1\\right)+(\\mathrm{x}+2))% chia hết cho %(\\left(\\mathrm{x}^{2}+1\\right)\\left(\\mathrm{x}^{2}+3 \\mathrm{x}+6\\right))%<br>%(\\Rightarrow \\mathrm{x}^{2}\\left(\\mathrm{x}^{2}+1\\right)+(\\mathrm{x}+2))% chia hết cho %(\\mathrm{x}^{2}+1 \\Rightarrow \\mathrm{x}+2)% chia hết cho %(\\mathrm{x}^{2}+1)%<br>%(\\Rightarrow(\\mathrm{x}+2)(\\mathrm{x}-2))% chia hết cho %(\\mathrm{x}^{2}+1 \\Rightarrow \\mathrm{x}^{2}-4)% chia hết cho %(\\mathrm{x}^{2}+1)%<br>%(\\Rightarrow\\left(x^{2}+1\\right)-5)% chia hết cho %(x^{2}+1 \\Rightarrow 5)% chia hết cho %(x^{2}+1)%<br>%(\\Rightarrow x^{2}+1)% là uớc dương của %(5 \\Rightarrow x^{2}+1 \\in\\{1 ; 5\\} \\Rightarrow x^{2} \\in\\{0 ; 4\\} \\Rightarrow x \\in\\{0 ; \\pm 2\\})%<br>Thứ lại: Với %(x=-2)% thì %(\\mathrm{A})% nguyên<br>Vầy với %(\\mathrm{x}=-2)% thì %(\\mathrm{A})% nhận giá trị là một số nguyên.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Cho các số dương %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% thỏa mãn %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}=4)%.Tim giá trỉ nhỏ nhất của biếu thức: %(\\mathrm{P}=\\frac{\\mathrm{a} \\sqrt{\\mathrm{a}}}{\\sqrt{\\mathrm{a}}+3 \\sqrt{\\mathrm{b}}}+\\frac{\\mathrm{b} \\sqrt{\\mathrm{b}}}{\\sqrt{\\mathrm{b}}+3 \\sqrt{\\mathrm{c}}}+\\frac{\\mathrm{c} \\sqrt{\\mathrm{c}}}{\\sqrt{\\mathrm{c}}+3 \\sqrt{\\mathrm{a}}})%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\mathrm{P}=\\frac{\\mathrm{a}^{2}}{\\mathrm{a}+3 \\sqrt{\\mathrm{ab}}}+\\frac{\\mathrm{b}^{2}}{\\mathrm{~b}+3 \\sqrt{\\mathrm{bc}}}+\\frac{\\mathrm{c}^{2}}{\\mathrm{c}+3 \\sqrt{c a}})%<br>Theo băt đẳng thúc Bunhiacốpxki (dạng phân thức).<br>Ta có:<br>\\[\\begin{array}{c}P=\\frac{a^{2}}{a+3 \\sqrt{a b}}+\\frac{b^{2}}{b+3 \\sqrt{b c}}+\\frac{c^{2}}{c+3 \\sqrt{c a}} \\geq \\frac{(a+b+c)^{2}}{a+b+c+3(\\sqrt{a b}+\\sqrt{b c}+\\sqrt{c a})} \\P=\\frac{a^{2}}{a+3 \\sqrt{a b}}+\\frac{b^{2}}{b+3 \\sqrt{b c}}+\\frac{c^{2}}{c+3 \\sqrt{c a}} \\geq \\frac{16}{4+3(\\sqrt{a b}+\\sqrt{b c}+\\sqrt{c a})} \\\\text { (do } a+b+c=4 \\text { ) }\\end{array}\\]<br>(do %(a+b+c=4)% )<br>Theo bắt đẳng thức Cô-si. Ta có:<br>\\[\\begin{array}{l}a+b \\geq 2 \\sqrt{a b} ; b+c \\geq 2 \\sqrt{b c} ; c+a \\geq 2 \\sqrt{c a} \\\\Rightarrow 2 a+2 b+2 c \\geq 2 \\sqrt{a b}+2 \\sqrt{b c}+2 \\sqrt{c a} \\\\Rightarrow \\sqrt{a b}+\\sqrt{b c}+\\sqrt{c a} \\leq a+b+c=4 \\Rightarrow P \\geq \\frac{16}{4+3.4}=1 \\\\text { Dãu \" }=\\text { \" xày ra } \\Leftrightarrow\\left\\{\\begin{array}{l}a ; b ; c\\gt 0 \\a+b+c=4 \\Leftrightarrow a=b=c=\\frac{4}{3} \\a=b=c\\end{array}\\right.\\end{array}\\]<br>Vầy giá trị nhó nhât của %(\\mathrm{P})% là 1 khi %(\\mathrm{a}=\\mathrm{b}=\\mathrm{c}=\\frac{4}{3})%",
+        "question_type": "essay"
+    }
+]

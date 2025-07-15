@@ -1,0 +1,135 @@
+[
+    {
+        "title": "1.1 ",
+        "point": 1.0,
+        "content": "Cho biểu thức %(A=\\frac{15 \\sqrt{x}-11}{x+2 \\sqrt{x}-3}-\\frac{3 \\sqrt{x}-2}{\\sqrt{x}-1}-\\frac{2 \\sqrt{x}+3}{\\sqrt{x}+3})% với %(x \\geq 0, x \\neq 1)%<br>Rút gọn biểu thức %(\\mathrm{A})% và tìm tất cả các giá trị của %(\\mathrm{x})% sao cho %(A\\lt -\\frac{8}{5})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\ x \\geq 0, x \\neq 1 \\\\\\ \\qquad A=\\frac{15 \\sqrt{x}-11}{x+2 \\sqrt{x}-3}-\\frac{3 \\sqrt{x}-2}{\\sqrt{x}-1}-\\frac{2 \\sqrt{x}+3}{\\sqrt{x}+3}\\end{array})%<br>\\[\\begin{array}{l}=\\frac{15 \\sqrt{x}-11}{(\\sqrt{x}-1)(\\sqrt{x}+3)}-\\frac{(3 \\sqrt{x}-2)(\\sqrt{x}+3)}{(\\sqrt{x}-1)(\\sqrt{x}+3)}-\\frac{(2 \\sqrt{x}+3)(\\sqrt{x}-1)}{(\\sqrt{x}-1)(\\sqrt{x}+3)} \\\\=\\frac{15 \\sqrt{x}-11-(3 x+7 \\sqrt{x}-6)-(2 x+\\sqrt{x}-3)}{(\\sqrt{x}-1)(\\sqrt{x}+3)} \\\\=\\frac{-5 x+7 \\sqrt{x}-2}{(\\sqrt{x}-1)(\\sqrt{x}+3)} \\\\=\\frac{(\\sqrt{x}-1)(-5 \\sqrt{x}+2)}{(\\sqrt{x}-1)(\\sqrt{x}+3)}\\end{array}\\]<br>Để %(A\\lt \\frac{-8}{5} \\Leftrightarrow \\frac{-5 \\sqrt{x}+2}{\\sqrt{x}+3}\\lt \\frac{-8}{5} \\Leftarrow-25 \\sqrt{x}+10\\lt -8 \\sqrt{x}-24)% (do %(\\sqrt{x}+3\\gt 0)% )<br>Suy ra %(\\sqrt{x}>2 \\Leftrightarrow x>4)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.2 ",
+        "point": 0.5,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b})% là các số hữu tỉ. Chứng minh %(\\sqrt{\\left(a^{2}+b^{2}\\right)(a-b)^{2}+a^{2} b^{2}})% là số hữu tỉ",
+        "question_images": [],
+        "solution": "Ta có: %(\\sqrt{\\left(a^{2}+b^{2}\\right)(a-b)^{2}+a^{2} b^{2}})%<br>\\[\\begin{array}{l}=\\sqrt{a^{4}-2 a^{3} b+3 a^{2} b^{2}-2 a b^{3}+b^{4}} \\\\=\\sqrt{\\left(a^{2}-a b+b^{2}\\right)^{2}}=\\left|a^{2}-a b+b^{2}\\right|\\end{array}\\]<br>Do %(\\mathrm{a}, \\mathrm{b})% là các số hữu tỉ nên %(a^{2}, a b, b^{2})%  cũng là các số hữu tỉ<br>Suy ra %(\\left|a^{2}-a b+b^{2}\\right|)% là số hữu tỉ<br>Vậy %(\\sqrt{\\left(a^{2}+b^{2}\\right)(a-b)^{2}+a^{2} b^{2}})% là số hữu tỉ.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.1 ",
+        "point": 0.5,
+        "content": "Tìm tất cả các giá trị của %(\\mathrm{m})% đề phương trình %(x^{2}-4 m x-3=0)% có hai nghiệm nguyên phân biệt.",
+        "question_images": [],
+        "solution": "Phương trình %(x^{2}-4 m x-3=0)% là phương trình bậc hai theo %(\\mathrm{x})% có biệt thức<br>\\[\\Delta^{\\prime}=(-2 m)^{2}+3=4 m^{2}+3 \\geq 3\\gt 0\\]<br>Phương trình luôn có hai nghiệm (thực) phân biệt<br>\\[\\begin{array}{l}x_{1}=2 m-\\sqrt{4 m^{2}+3} \\x_{1}=2 m+\\sqrt{4 m^{2}+3}\\end{array}\\]<br>Do %(x_{1}+x_{2}=4 m)% nên để %(x_{1}, x_{2} \\in Z)% thì %(m=\\frac{a}{4}(a \\in Z))%<br>Khi đó:<br>\\[x_{1}=\\frac{a+\\sqrt{a^{2}+12}}{2}, x_{2}=\\frac{a-\\sqrt{a^{2}+12}}{2}\\]<br>Vì %(a \\in Z)% nên điều kiện cần để %(x_{1}, x_{2} \\in Z)% là %(12+a^{2})% là số chính phương (vì căn bậc hai của một số tự nhiêı là số tự nhiên hoặc số vô tỉ)<br>Suy ra, tồn tại số nguyên dương %(\\mathrm{b})% sao cho<br>\\[12+a^{2}=b^{2} \\Leftrightarrow(a-b)(a+b)=-12\\]<br>Do %(\\mathrm{a}-\\mathrm{b}\\lt \\mathrm{a}+\\mathrm{b})% và %((\\mathrm{a}-\\mathrm{b})+(\\mathrm{a}+\\mathrm{b})=2 \\mathrm{a})% là số chẵn nên suy ra<br>\\[\\left\\{\\begin{array} { l } { a - b = - 6 } \\\\{ a + b = 2 }\\end{array} \\text { or } \\left\\{\\begin{array}{l}a-b=-2 \\a+b=6\\end{array}\\right.\\right.\\]<br>Suy ra %(a=-2, b=4)% hoặc %(a=2, b=4)%<br>Như thế, %(4 m \\in\\{-2 ; 2\\})% nên %(m \\in\\left\\{-\\frac{1}{2} ; \\frac{1}{2}\\right\\})%<br>Thử lại với %(m=-\\frac{1}{2})% thì phương trình có 2 nghiệm nguyên là 1 và -3 Với %(m=\\frac{1}{2})% thì phương trình có hai nghiệm nguyên là -1 và 3",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.2 ",
+        "point": 1.0,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b})% là các số nguyên dương thỏa mã̃n %(a^{3}=2 b^{4}+a^{2} b)%. Chứng minh a chia hết cho %(\\mathrm{b})%.",
+        "question_images": [],
+        "solution": "Trước hết, ta sẽ chứng minh %(a)% và %(b)% cùng tính chẵn lẻ.<br>Thật vậy, nếu %(a)% là số lẻ thì dể dàng chứmg minh được %(b)% cũng là số lẻ. Nếu %(a)% là số chẵn thì từ %(2 b^{4}=a^{2}(a-b))% chia hết cho 4 ta thu được %(b)% là số chẵn.<br>Ta có %(a^{3}=2 b^{4}+a^{2} b=b\\left(2 b^{3}+a^{2}\\right))% nên %(a^{3})% chia hết cho %(b)%.<br>Ngoài ra,do %(\\frac{a-b}{2}=\\left(\\frac{b^{2}}{a}\\right)^{2})%và %(a, b)% cùng tính chẵn lẻ nên %(b^{2})%chia hết cho a<br>Vì vậy %(a)% và %(b)% có cùng tập ước nguyên tố, giả sử đó là %(\\left\\{p_{1}, p_{2}, \\ldots, p_{n}\\right\\})%. Đặt<br>\\[a=p_{1}^{\\alpha_{1}} p_{2}^{\\alpha_{2}} \\cdots p_{n}^{\\alpha_{n}}, b=p_{1}^{\\beta_{1}} p_{2}^{\\beta_{2}} \\cdots p_{n}^{\\beta_{n}}\\]<br>trong đó %(\\alpha_{i}, \\beta_{i})% là các số nguyên dương.<br>Ta có<br>\\[\\prod_{i=1}^{n} p_{i}^{3 \\alpha_{i}}=a^{3}=2 b^{4}+a^{2} b=2 \\prod_{i=1}^{n} p_{i}^{4 \\beta_{i}}+\\prod_{i=1}^{n} p_{i}^{2 \\alpha_{i}+\\beta_{i}} .\\]<br>Nếu tồn tại %(i \\in\\{1,2, \\ldots, n\\})% sao cho %(\\alpha_{i}\\lt \\beta_{i})%, chia hai vế của đẳng thức (1) cho %(p_{i}^{3 \\alpha_{4}})%,<br>\\[\\prod_{1 \\leq j \\leq n, j \\notin i} p_{j}^{3 \\alpha_{j}}=2 p_{i}^{4 \\beta_{i}-3 a_{i}} \\prod_{1 \\leq j \\leq n, j \\notin i} p_{j}^{4 \\beta_{j}}+p_{i}^{\\beta_{i}-\\alpha_{i}} \\prod_{1 \\leq j \\leq n, j \\ngtr i} p_{j}^{2 \\alpha_{j}+\\beta_{j}} .\\]<br>Ta nhận thấy vế trái của (2) không chia hết cho %(p_{i})%, trong khi đó vế phải của (2) chia hết cho %(p_{i})% (do %(\\beta_{i}\\gt \\alpha_{i})% ).<br>Từ đó, ta có điều mâu thuẫn.<br>Vì vậy %(\\alpha_{i} \\geq \\beta_{i})%, với mọi %(i=\\overline{1, n})%.<br>Vậy %(a)% chia hét cho %(b)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.1 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các cặp số nguyên tố %((\\mathrm{p} ; \\mathrm{q}))% sao cho %(p^{2}+q^{2}+4 p q+52)% là số chính phương.",
+        "question_images": [],
+        "solution": "Giả sử trong hai số %(p, q)% không có số nào bằng 2 ,<br>khi đó do %(p, q)% là các số nguyên tố nên %(p, q)% lẻ,<br>Do đó %(p^{2} \\equiv 1(\\bmod 4), q^{2} \\equiv 1(\\bmod 4))%<br>Nên %(p^{2}+q^{2}+4 p q+52 \\equiv 2(\\bmod 4))% không thể là số chính phương, vì số chính phương chia 4 chỉ có thể có số dư là 0 hoặc 1 .<br>Do đó phải có một số bằng 2 , giả sử đó là %(p)%.<br>Khi đó %(q^{2}+8 q+56)% là số chính phương, đặt %(q^{2}+8 q+56=t^{2}(t \\in \\mathbb{N}))%.<br>Suy ra %((t-q-4)(t+)% %(q+4)=40)%.<br>Vì vậy, %(t-q-4)% và %(t+q+4)% đều là ước của 40 , hơn nữa %(t-q-4\\lt t+q+4)% và %(t-q-4, t+q+4)% cùng tính chẵn lẻ.<br>Xét bảng sau<br>Vậy %((p, q) \\in\\{(2 ; 5),(5 ; 2)\\})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7965110a941542252d27f1d05149327c.png\" srcset=\"https://docdn.giainhanh.io/media/test/045edaab94c079db89eb5e0c32405d41.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.2 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các cặp số nguyên dương %((\\mathrm{x} ; \\mathrm{y}))% sao cho %(5^{x}-1=4 y^{4})%",
+        "question_images": [],
+        "solution": "Ta có: %(5^{x}-1=4 y^{4})%<br>\\[\\begin{array}{l}\\Leftrightarrow 5^{x}=4 y^{4}+1 \\\\Leftrightarrow 5^{x}=\\left(2 y^{2}+1\\right)^{2}-(2 y)^{2} \\\\Leftrightarrow 5^{x}=\\left(2 y^{2}-2 y+1\\right)\\left(2 y^{2}+2 y+1\\right)\\end{array}\\]<br>Do đó %(\\left\\{\\begin{array}{l}2 y^{2}-2 y+1=5^{a} \\\\ 2 y^{2}+2 y+1=5^{b}\\end{array}(a, b \\in N, a\\lt b, a+b=x)\\right.)%<br>Suy ra %(\\left(2 y^{2}-2 y+1\\right) \\mid\\left(2 y^{2}+2 y+1\\right))%Hay %(\\left(2 y^{2}-2 y+1\\right) \\mid 4 y)%<br>Thử với %(\\mathrm{y}=1,2,3)% được cặp %((\\mathrm{x}, \\mathrm{y})=(1,1))% thỏa mãn<br>Với %(\\mathrm{y}\\gt 3)% thì %(4 y-\\left(2 y^{2}-2 y+1\\right)=-2 y(y-4)-1\\lt 0)%<br>Mà %(\\left(2 y^{2}-2 y+1\\right), 4 \\mathrm{y})% đều dương nên %(\\left(2 y^{2}-2 y+1\\right))% không là ước của %(4 \\mathrm{y})%, mâu thuẫn (1)<br>Vậy %((x, y)=(1,1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho các số thực dương %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% thỏa mãn %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}=4)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Chứng minh %(4 a b+a c+b c \\geq 4 a b c)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\ \\quad 4 a b+a c+b c \\geq 4 a b c \\\\ \\Leftrightarrow \\frac{4}{c}+\\frac{1}{a}+\\frac{1}{b} \\geq 4 \\\\ \\text { Mà } V T \\geq \\frac{(2+1+1)^{2}}{a+b+c}=4=V P(d p c m) \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Chứng minh %(\\frac{2 a}{4 a+b c}+\\frac{2 b}{4 b+a c}+\\frac{3 c}{4 c+a b} \\leq \\frac{4}{3})%",
+        "question_images": [],
+        "solution": "\\[\\begin{aligned}& \\frac{2 a}{4 a+b c}+\\frac{2 b}{4 b+a c}+\\frac{3 c}{4 c+a b} \\leq \\frac{4}{3} \\\\Leftrightarrow & \\frac{2 a}{(a+b+c) a+b c}+\\frac{2 b}{(a+b+c) b+a c}+\\frac{3 c}{(a+b+c) c+a b} \\leq \\frac{4}{3} \\\\Leftrightarrow & \\frac{2 a(b+c)+2 b(a+c)+2 c(a+b)}{(a+c)(b+c)(a+b)} \\leq \\frac{4}{3} \\\\Leftrightarrow & \\frac{5 a c+5 b c+4 a b}{(a+c)(b+c)(a+b)} \\leq \\frac{4}{3} \\\\Leftrightarrow & 15 a c+15 b c+12 a b \\leq 4(a+c)(b+c)(c+b) \\\\Leftrightarrow & 0 \\leq 4(4-a)(4-b)(4-c)-(15 a c+15 b c+12 a b) \\\\Leftrightarrow & 0 \\leq-4 a b c+4 a b+a c+b c-64(a+b+c)+256 \\\\Leftrightarrow & 4 a b c \\leq 4 a b+a c+b c\\end{aligned}\\]<br>Bất đẳng thức cuối cùng đã được chứng minh ở câu a<br>Dấu bằng xảy ra khi %((\\mathrm{a}, \\mathrm{b}, \\mathrm{c})=(1,1,2))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho một bảng %(4 \\times 5)% ô vuông gồm 4 hàng và 5 cột (như hình vẽ bên). Ta ghi các số tự nhiên từ 1 đến 20 vào các ô, mỗi ô chứa đúng một số và các số ở mỗi ô là khác nhau. Gọi %(d_{1})% với %(i \\in\\{1 ; 2 ; 3 ; 4\\})% là hiệu của số lớn nhất và số nhỏ nhất ở hàng thứ i. Gọi %(\\mathrm{D})% là giá trị lớn nhất trong các giá trị %(d_{1}, d_{2}, d_{3}, d_{4})%. Ta gọi %(\\mathrm{D})% là \"độ lệch\" của hàng",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.25,
+        "content": "a) Hãy chỉ ra một cách ghi để %(\\mathrm{D}=4)%",
+        "question_images": [],
+        "solution": "Dễ thấy, bảng sau có %(\\mathrm{D}=4)%<br><img alt=\"image.png\" src=\"https://docdn.giainhanh.io/media/test/e0e3d4773ddf75dc578b985819ead1a9.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.25,
+        "content": "b) Hãy chỉ ra một cách ghi đề %(d_{1}=d_{2}=d_{3}=d_{4}=5)%",
+        "question_images": [],
+        "solution": "Dễ thấy, bảng sau có %(d_{1}=d_{2}=d_{3}=d_{4}=5)%<br><img alt=\"image.png\" src=\"https://docdn.giainhanh.io/media/test/195bc54f961624ae13ed6359e40172cb.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Với mỗi cách ghi bất kì, ta tiến hành sắp xếp lại các số trong bảng theo quy luật: ở mỗi cô̂t, các số được xếp giảm dần (số trên cùng là lớn nhất, số dưới cùng là nhỏ nhất). Chứng minh sau khi sắp xếp lại thì \"độ lệch\" của bảng mới không lớn hơn \"độ lệch\" của bảng cũ.",
+        "question_images": [],
+        "solution": "Ta đánh số của bảng ban đầu như sau:<br>Sau khi sắp xếp lại bảng, ta có bảng như sau:<br>Gọi %(d_{i}^{\\prime})% là hiệu số giữa số lớn nhất và số nhỏ nhất của hàng i ở bảng ban đầu; %(d_{i})% là hiệu số giữa số lớn nhất và số nhỏ nhất của hàng i ở bảng lúc sau;<br>\\[D^{\\prime}=\\max \\left\\{d_{i}^{\\prime}\\right\\},\\mathrm{i}=1,2,3,4 ; \\mathrm{D}=\\max \\left\\{d_{i}\\right\\} \\ ,\\mathrm{i}=1,2,3,4\\]<br>Giả sử hàng %(\\mathrm{j})% có %(d_{j})% lớn nhất ở bảng lúc sau, gọi hai số lớn nhất và nhỏ nhất lần lượt là %(a_{l}, a_{k})%.<br>Không mất tính tổng quát, ta cố định cột chứa số lớn nhất của hàng %(\\mathrm{j})% (cột chứa số %(a_{l})% ) và xếp lại vị trí của các số còn lại sao cho giống với ban đầu.<br>Khi đó, giả sử số %(a_{k})% được thay vị trí bởi số %(b_{k})%<br>Do sự sắp xếp chi diễn ra trên cùng một côt nên %(a_{k})% với %(b_{k})% cùng cột.<br>Nếu %(b_{k}\\lt a_{k})%.<br>Giả sử %(b_{k})% cùng hàng với %(b_{l})% mà %(b_{l})% cùng cột với %(a_{l})%, ta có %(b_{l}\\gt a_{l}>a_{k})%<br>Gọi %(d_{l}^{\\prime})% là hiệu giữa số lớn nhất và số nhỏ nhất của hàng chứa %(b_{l})%, ta có:<br>\\[d_{j}=a_{l}-a_{k}\\lt b_{l}-b_{k} \\leq d_{l}^{\\prime} \\leq D^{\\prime}\\]<br>Nếu %(a_{k})% giữ nguyên vị trí thì %(a_{i}-a_{k}=d_{j}=d_{j}^{\\prime} \\leq D^{\\prime})%<br>Vậy nếu hàng j có %(d_{j})% lớn nhất thì %(d_{j} \\leq D^{\\prime})%<br>Điều này cho thấy %(D \\leq D^{\\prime})%<br><img alt=\"image.png\" src=\"https://docdn.giainhanh.io/media/test/63da1913cfaf05924b1e6b595ef3673f.png\"/><br><img alt=\"image.png\" src=\"https://docdn.giainhanh.io/media/test/928ba990350ac83393baf1443ae66d0b.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho tam giác nhọn %(\\mathrm{ABC})% có %(\\mathrm{BC}\\lt \\mathrm{AB}\\lt \\mathrm{AC})%. Gọi %(\\mathrm{BD}, \\mathrm{CE})% là các đường cao, %(\\mathrm{H})% là trực tâm của tam giác %(\\mathrm{ABC})%. Trên đoạn thẳng %(\\mathrm{HC})% lấy điểm %(\\mathrm{P}(\\mathrm{P})% khác %(\\mathrm{H})% và %(\\mathrm{C}), \\mathrm{M})% là điểm trên cạnh %(\\mathrm{AC})% sao cho tia %(\\mathrm{BD})% là phân giác của góc %(\\mathrm{MBP})%. Gọi %(\\mathrm{N})% là điểm đối xứng với %(\\mathrm{B})% qua %(\\mathrm{E})%. Đường tròn ngoại tiếp tam giác %(\\mathrm{MHC})% cắt %(\\mathrm{BM})% tại %(\\mathrm{K})% (K khác M).",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(\\mathrm{BHKN})% là tứ giác nội tiếp",
+        "question_images": [],
+        "solution": "Ta có: %(B N H=N B H=A B H=A C H=M C H=B K H)%Suy ra tứ giác BHKN nội tiếp<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/17fc5abf4fbe5fe25e3f1b843eaa5f8a.png\" srcset=\"https://docdn.giainhanh.io/media/test/9b2abf5ff05395872e70c7a87ce13937.png 193w, https://docdn.giainhanh.io/media/test/0a003edb5a2426568ec3f3c2f4edca53.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh %(\\mathrm{H})% là tâm đường tròn nội tiếp tam giác %(\\mathrm{BKP})%.",
+        "question_images": [],
+        "solution": "Ta có: %(K H P=K H C=180^{\\circ}-K M C=180^{\\circ}-B M D)%<br>Mặt khác, %(\\frac{K B P}{2}=K B H=M B D)%<br>Suy ra, %(K H P-\\frac{K B P}{2}=180^{\\circ}-B M D-M B D=90^{\\circ})%<br>Hay %(K H P=90^{\\circ}+\\frac{K B P}{2})%<br>Kết hợp với %(\\mathrm{BH})% là phân giác của góc %(\\mathrm{KBP})% ta thu được %(\\mathrm{H})% là tâm đường tròn nội tiếp của tam giác %(\\mathrm{BKP})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Gọi %(\\mathrm{I})% là tâm đường tròn ngoại tiếp tam giác %(\\mathrm{AMN})%. Chứng minh %(\\mathrm{I}, \\mathrm{K}, \\mathrm{H})% thẳng hàng.",
+        "question_images": [],
+        "solution": "Vì H là tâm đường tròn nội tiệp của tam giác %(\\mathrm{BKP})% nên %(\\mathrm{PH})% là tia phân giác của góc %(\\mathrm{KPB})%.<br>Hay nói cách khác, đường thẳng %(\\mathrm{PK})% và %(\\mathrm{PB})% đối xứng với nhau qua %(\\mathrm{CH})%.<br>Kết hợp với %(\\mathrm{n})% và %(\\mathrm{B})% đối xứng nhau qua %(\\mathrm{HC})%, ta thu được ba điểm %(\\mathrm{P}, \\mathrm{K}, \\mathrm{N})% thẳng hàng.<br>Ta có: %(M K N=B K P=90^{\\circ}+\\frac{B H P}{2}=90^{\\circ}+\\frac{180^{\\circ}-B A C}{2}=180^{\\circ}-\\frac{M A N}{2}=180^{\\circ}-M I N)%Do đó tứ giác MINK nội tiếp<br>Cuối cùng, %(I K N=I M N=90^{\\circ}-M A N=90^{\\circ}-B A D=A B D=N B H=180^{\\circ}-N K H)%Vậy ba điểm %(\\mathrm{I}, \\mathrm{K}, \\mathrm{N})% thẳng hàng<br>Nhận xét: Đây là một câu hình hay với ý tưởng chủ yếu biến đổi góc. Vấn đề đặt ra không quá khó nhưng có thể \"giữ chân\" một số bạn do yếu tô thời gian và tâm lý. Tuy nhiên, điểm %(\\mathrm{E})% trong bài toán này dường như không có vai trò gì hết.",
+        "question_type": "essay"
+    }
+]

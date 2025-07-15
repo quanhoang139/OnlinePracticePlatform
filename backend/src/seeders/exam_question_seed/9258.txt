@@ -1,0 +1,89 @@
+[
+    {
+        "title": "Câu 1 ",
+        "point": 2.0,
+        "content": "Thực hiện phép tính: %(B=\\frac{2^{10} \\cdot 3^{6}-6^{5} \\cdot 4^{3}}{12^{5}+2^{7} \\cdot 18^{3}}-\\frac{3^{10} \\cdot 5^{9}-15^{9}}{45^{5} \\cdot 25^{2}-15^{10}})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { } B=\\frac{2^{10} \\cdot 3^{6}-6^{5} \\cdot 4^{3}}{12^{5}+2^{7} \\cdot 18^{3}}-\\frac{3^{10} \\cdot 5^{9}-15^{9}}{45^{5} \\cdot 25^{2}-15^{10}} \\\\ B=\\frac{2^{10} \\cdot 3^{6}-2^{5} \\cdot 3^{5} \\cdot 2^{6}}{3^{5} \\cdot 2^{10}+2^{7} \\cdot 2^{3} \\cdot 3^{6}}-\\frac{3^{10} \\cdot 5^{9}-3^{9} \\cdot 5^{9}}{5^{5} \\cdot 3^{10} \\cdot 5^{4}-3^{10} \\cdot 5^{10}} \\\\ B=\\frac{2^{10} \\cdot 3^{6}-2^{11} \\cdot 3^{5}}{3^{5} \\cdot 2^{10}+2^{10} \\cdot 3^{6}}-\\frac{3^{10} \\cdot 5^{9}-3^{9} \\cdot 5^{9}}{5^{9} \\cdot 3^{10}-3^{10} \\cdot 5^{10}} \\\\ B=\\frac{2^{10} \\cdot 3^{5}(3-2)}{3^{5} .2^{10}(1+3)}-\\frac{3^{9} \\cdot 5^{9}(3-1)}{5^{9} .3^{10}(1-5)} \\\\ B=\\frac{1}{4}+\\frac{2}{12}=\\frac{5}{12} \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 2.0,
+        "content": "Tìm các cặp số nguyên dương %((x, y))% thỏa mãn: %(2 x^{2}+2 x y-x+y=2022)%.",
+        "question_images": [],
+        "solution": "Ta có %(2 x^{2}+2 x y-x+y=2022)%<br>\\[\\begin{array}{l}x^{2}+2 x y+y^{2}+x^{2}-y^{2}-(x-y)=2022 \\\\(x+y)^{2}+(x-y)(x+y)-(x-y)=2022 \\\\(x+y)^{2}-1+(x-y)(x+y-1)=2021 \\\\(x+y+1)(x+y-1)+(x-y)(x+y-1)=2021 \\\\(x+y-1)(2 x+1)=2021=43.47\\end{array}\\]<br>Trường hợp 1: %(\\left\\{\\begin{array}{l}x+y-1=43 \\\\ 2 x+1=47\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=23 \\\\ y=21\\end{array}\\right.\\right.)%<br>Trường hợp 2: %(\\left\\{\\begin{array}{l}x+y-1=47 \\\\ 2 x+1=43\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=21 \\\\ y=27\\end{array}\\right.\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 2.0,
+        "content": "Chứng minh rằng: %(5^{x+1}+5^{x+2}+5^{x+3}+\\ldots+5^{x+2020})% chia hết cho 30 (với %(x \\in N)% )",
+        "question_images": [],
+        "solution": "%(5^{x+1}+5^{x+2}+5^{x+3}+\\ldots+5^{x+2220})% có 2020 số hạng, chia thành từng nhóm, mỗi nhóm 2 số hạng thì được 1010 nhóm.<br>\\[\\begin{array}{l}5^{x+1}+5^{x+2}+5^{x+3}+\\ldots+5^{x+2220} \\\\=\\left(5^{x+1}+5^{x+2}\\right)+\\left(5^{x+3}+5^{x+4}\\right)+\\ldots+\\left(5^{x+2019}+5^{x+2220}\\right) \\\\=5^{x+1}(1+5)+5^{x+3}(1+5)+\\ldots+5^{x+2019}(1+5) \\\\=6.5^{x+1}+6.5^{x+3}+\\ldots+6.5^{x+2019} \\\\=6.5 \\cdot\\left(5^{x}+5^{x+2}+\\ldots 5^{x+2018}\\right) \\\\=30\\left(5^{x}+5^{x+2}+\\ldots 5^{x+2018}\\right) \\vdots 30\\end{array}\\]<br>Vậy %(5^{x+1}+5^{x+2}+5^{x+3}+\\ldots+5^{x+2020})% chia hết cho 30 (với %(x \\in N)% )",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 2.0,
+        "content": "Tìm %(x)%, biết rằng: %(x+2 x+3 x+\\ldots+2020 x=2020.2021)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { } x+2 x+3 x+\\ldots+2020 x=2020.2021 \\\\Leftrightarrow \\frac{2021 x}{2}\\left(\\frac{2020 x-x}{x}+1\\right)=2020.2021 \\\\Leftrightarrow \\frac{2021 x}{2} .2020=2020.2021 \\\\Leftrightarrow x=2\\end{array}\\]<br>Vậy %(x=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 2.0,
+        "content": "Tìm %(x, y)% biết rằng: %(\\frac{2 x+3}{3}=\\frac{3 y-2}{6}=\\frac{2 x+6 y-1}{5 x})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Đặt } \\frac{2 x+3}{3}=\\frac{3 y-2}{6}=\\frac{2 x+6 y-1}{5 x}=k \\\\ \\Rightarrow\\left\\{\\begin{array}{l}2 x+3=3 k \\\\ 3 y-2=6 k \\\\ 2 x+6 y-1=5 x k\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}x=\\frac{3 k-3}{2} \\\\ y=\\frac{6 k+2}{3} \\\\ 2 \\cdot \\frac{3 k-3}{2}+6 \\frac{6 k+2}{3}-1=5 \\frac{3 k-3}{2} \\cdot k(*)\\end{array}\\right.\\right.\\end{array})%%(\\begin{array}{l}\\text { Giải(*) ta có } 2 \\cdot \\frac{3 k-3}{2}+6 \\frac{6 k+2}{3}-1=5 \\frac{3 k-3}{2} \\cdot k \\\\ \\Leftrightarrow 3 k-3+12 k+4-1=\\frac{15 k^{2}-15 k}{2} \\\\ \\Leftrightarrow \\frac{15 k^{2}-15 k}{2}-15 k=0 \\\\ \\Leftrightarrow 15 k^{2}-15 k-30 k=0 \\\\ \\Leftrightarrow 15 k^{2}-45 k=0 \\\\ \\Leftrightarrow 15 k(k-3)=0\\end{array})%<br>\\[\\Leftrightarrow\\left[\\begin{array}{l}k=0 \\k=3\\end{array}\\right.\\]<br>Trường hợp %(1: k=0 \\Rightarrow\\left\\{\\begin{array}{l}x=\\frac{-3}{2} \\\\ y=\\frac{2}{3}\\end{array}\\right.)%<br>Trường hợp 2: %(k=3 \\Rightarrow\\left\\{\\begin{array}{l}x=3 \\\\ y=\\frac{20}{3}\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6 ",
+        "point": 2.0,
+        "content": "Trong một trận thi đấu cờ vua có 30 vận động viên tham gia. Mỗi vận động viên sẽ bốc thăm thi đấu 9 trận. Biết rằng mỗi trận thắng sẽ được 1,0 điểm, hòa được 0,5 điểm và thua không được điểm. Hỏi trong giải thi đấu đó các vận động viên ghi được tất cả bao nhiêu điểm?",
+        "question_images": [],
+        "solution": "Vì mỗi vận động viên bốc thăm thi đấu 9 trận, cứ hai người thì tạoo thành một trận đấu nên số trận đấu là %(30.9: 2=135)% trận đấu.<br>Mỗi trận đấu sẽ nếu thắng thua, hoặc hòa thì đều ghi được tổng 1 điểm, nên trong giải thi đấu đó các vận động viên ghi được tất cả 135 điểm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7",
+        "group_content": "Cho tam giác %(A B C)% vuông tại %(A(A B\\gt A C))%. Tia phân giác góc %(B)% cắt %(A C)% ở %(D)%. Kẻ %(D H)% vuông góc với %(B C)%. Trên tia %(A C)% lấy điểm %(E)% sao cho %(A E=A B)%. Đường thẳng vuông góc với %(A E)% tại %(E)% cắt tia %(D H)% ở %(K)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Tam giác %(A B H)% là tam giác gì? Tại sao?",
+        "question_images": [],
+        "solution": "Xét tam giác %(A B D)% và tam giác %(H B D)% có: %(\\left\\{\\begin{array}{l}\\widehat{B A D}=\\widehat{B H D}=90^{\\circ} \\\\ B D \\text { chung } \\\\ \\widehat{A B D}=\\widehat{H B D}\\end{array}\\right.)%<br>%(\\Rightarrow \\triangle A B D=\\triangle H B D)% (g.c.g)<br>%(\\Rightarrow A B=B H)% (hai cạnh tương ứng)<br>%(\\Rightarrow \\triangle A B H)% là tam giác cân.<br><img alt=\"Screenshot 2024-07-14 100227.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/37fd5aed767e480a15cff4c6cfb80a2c.png\" srcset=\"https://docdn.giainhanh.io/media/test/41b7e5dcbac7aac25b1819959ff47ab3.png 164w\" width=\"164\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Tính số đo góc %(D B K)% ?",
+        "question_images": [],
+        "solution": "Tính số đo góc %(D B K)% ?Kẻ %(B M \\perp E K)% tại %(M)%<br>Khi đó %(\\left\\{\\begin{array}{l}B M / / A E \\\\ A B / / M E\\end{array} \\Rightarrow B M=A E\\right.)% (tính chất đoạn chắn)<br>Mà %(\\left\\{\\begin{array}{l}B H=A B \\\\ A E=A B\\end{array} \\Rightarrow B M=B H\\right.)%Xét tam giác %(B H K)% và tam giác %(B M K)% có: %(\\left\\{\\begin{array}{l}\\widehat{B H K}=\\widehat{B M K}=90^{\\circ} \\\\ B K \\text { chung } \\\\ B H=B M\\end{array}\\right.)%<br>%(\\Rightarrow \\triangle B H K=\\triangle B M K)% (cạnh huyền - cạnh góc vuông) %(\\Rightarrow \\widehat{H B K}=\\widehat{M B K})% (hai góc tương ứng)<br>Khi đó %(\\widehat{D B K}=\\widehat{H B D}+\\widehat{H B K}=\\frac{1}{2}(\\widehat{A B C}+\\widehat{C B M})=\\frac{1}{2} 90^{\\circ}=45^{\\circ})%<br>Vậy %(\\widehat{D B K}=45^{\\circ})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) Cho chu vi tam giác %(D E K)% bằng 16 cm , tính độ dài %(A B)%",
+        "question_images": [],
+        "solution": "Cho chu vi tam giác %(D E K)% bằng 16 cm , tính độ dài %(A B)%.<br>Theo câu a) ta có %(\\triangle A B D=\\triangle H B D \\Rightarrow A D=D H)% (hai cạnh tương ứng)<br>Theo câu b)<br>%(\\triangle B H K=\\triangle B M K \\Rightarrow H K=M K)% (hai cạnh tương ứng)<br>Khi đó %(16=D E+K E+D K)%<br>\\[\\begin{array}{l}=D E+D H+H K+K E \\\\=D E+D H+K M+K E \\\\=A B+B M \\\\=2 A B \\\\Rightarrow A B=8 \\mathrm{~cm}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8 ",
+        "point": 2.0,
+        "content": "Cho biểu thức %(P=\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a})% (với %(a, b, c)% là các số nguyên dương). Chứng tỏ rằng %(P)% không phải là số nguyên.",
+        "question_images": [],
+        "solution": "Vì %(a, b, c)% là các số nguyên dương, không mất tính tổng quát, giả sử %(a \\geq b \\geq c)%<br>\\[\\begin{array}{l}+\\left\\{\\begin{array} { l } { a + b + c \\gt a + b } \\\\{ a + b + c > b + c } \\\\{ a + b + c > a + c }\\end{array} \\Rightarrow \\left\\{\\begin{array}{l}\\frac{a}{a+b+c}\\lt \\frac{a}{a+b} \\\\frac{b}{a+b+c}\\lt \\frac{b}{b+c} \\\\frac{c}{a+b+c}\\lt \\frac{c}{c+a}\\end{array}\\right.\\right. \\\\Rightarrow \\frac{a}{a+b+c}+\\frac{b}{a+b+c}+\\frac{c}{a+b+c}\\lt \\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a} \\\\Rightarrow 1\\lt P(1) \\\\+) a \\geq b \\Leftrightarrow a+c \\geq b+c \\Leftrightarrow \\frac{c}{b+c} \\geq \\frac{c}{a+c} \\Leftrightarrow \\frac{c}{b+c}+\\frac{a}{c+a} \\geq \\frac{c}{c+a}+\\frac{a}{c+a}=1 \\\\Rightarrow \\frac{b}{a+b}+\\left(\\frac{c}{b+c}+\\frac{a}{c+a}\\right) \\geq \\frac{b}{a+b}+1>1\\end{array}\\]<br>Mà %(P+\\frac{b}{a+b}+\\frac{c}{b+c}+\\frac{a}{c+a}=\\frac{a+b}{a+b}+\\frac{b+c}{b+c}+\\frac{c+a}{c+a}=3)%<br>\\[\\Rightarrow P\\lt 2 \\text { (2) }\\]<br>Từ (1) và (2) suy ra %(1\\lt P\\lt 2)% nên %(P)% không phải là số nguyên.",
+        "question_type": "essay"
+    }
+]

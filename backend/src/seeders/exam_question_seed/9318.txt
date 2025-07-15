@@ -1,0 +1,58 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Đa thức bậc 4 có hệ số cao nhất là 1 và thỏa mãn %(f(1)=5 ; f(2)=11 ; f(3)=21)%<br>Tính %(f(-1)+f(5))%",
+        "question_images": [],
+        "solution": "Nhận xét: %(g(x)=2 x^{2}+3)% thỏa mãn %(g(1)=5 ; g(2)=11 ; g(3)=21)%<br>%(Q(x)=f(x)-g(x))% là đa thức bậc 4 có 3 nghiệm %(x=1 ; x=2 ; x=3)%<br>Vậy %(Q(x)=(x-1)(x-1)(x-3)(x-a))% ta có:<br>%(\\begin{array}{l}f(-1)=Q(-1)+2 \\cdot(-1)^{2}+3=29+24 a \\f(5)=Q(5)+2 \\cdot 5^{2}+3=173-24 a \\\\Rightarrow f(-1)+f(5)=202\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các số nguyên %(n)% sao cho: %(n^{4}+2 n^{3}+2 n^{2}+n+7)% là số chính phương.",
+        "question_images": [],
+        "solution": "Giả sử %(n^{4}+2 n^{3}+2 n^{2}+n+7=y^{2} \\quad(y \\in R))%<br>Ta có: %(y^{2}=\\left(n^{2}+n\\right)^{2}+n^{2}+n+7)%<br>%(\\begin{array}{l}\\Rightarrow y^{2}\\gt \\left(n^{2}+n\\right)^{2} \\\\Rightarrow y>\\left|n^{2}+n\\right| \\\\Rightarrow y \\geq\\left|n^{2}+n\\right|+1 \\quad(\\text { Vi } \\quad y \\in R) \\\\Rightarrow y^{2} \\geq\\left|n^{2}+n+1\\right| \\\\Rightarrow y^{2} \\geq\\left(n^{2}+n+1\\right)^{2} \\\\end{array})%<br>Thay %(y^{2}=\\left(n^{2}+n\\right)^{2}+n^{2}+n+7)%<br>%(\\begin{array}{l}\\Rightarrow n^{2}+n-6\\lt 0 \\\\Leftrightarrow(n-2)(n+3) \\leq 0 \\\\Leftrightarrow-3 \\leq n \\leq 2\\end{array})%<br>Thử trực tiếp %(n=2 ; n=-3)% thỏa mãn<br>Vậy số nguyên n cần tìm là %(n \\in\\{2 ;-3\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tìm nghiệm nguyên của phương trình: %(x^{2}+x y+y^{2}=x^{2} y^{2})%",
+        "question_images": [],
+        "solution": "Thêm %(x y)% vào hai vế của phương trình ta có:<br>%(\\begin{array}{l}x^{2}+2 x y+y^{2}=x^{2} y^{2}+x y \\\\Leftrightarrow(x+y)^{2}=x y(x y+1)\\end{array})%<br>Ta thấy %(x y \\& x y+1)% là hai số nguyên liên tiếp có tích là một số chính phương nên tồn tại một số bằng 0<br>TH1: %(x y=0 \\Rightarrow x^{2}+y^{2} \\Rightarrow x=y=0)%<br>TH2: %(x y+1=0)% ta có %(x y=-1)% nên %((x ; y) \\in\\{(1 ;-1) ;(-1 ; 1)\\})%<br>Thử lại ba cặp số %((0 ; 0) ;(-1 ; 1) ;(1 ;-1))% đều là nghiệm của phương trình đã cho.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng : %((x-1)(x-3)(x-4)(x-6)+10\\gt 0)% với mọi %(x)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Ta có: }(x-1)(x-3)(x-4)(x-6)+10=(x-1)(x-6)(x-3)(x-4)+10 \\\\=\\left(x^{2}-7 x+6\\right)\\left(x^{2}-7 x+12\\right)+10 \\\\=\\left(x^{2}-7 x+9-3\\right)\\left(x^{2}-7 x+9+3\\right)+10 \\\\=\\left(x^{2}-7 x+9\\right)^{2}-9+10=\\left(x^{2}-7 x+9\\right)^{2}+1\\gt 0 \\quad(\\forall x) \\\\text { Vì }\\left(x^{2}-7 x+9\\right)^{2} \\geq 0 \\text { với mọi } x\\end{array}\\]<br>Do đó : %(\\left(x^{2}-7 x+9\\right)^{2}+1>0)% với mọi %(x)% (bài toán được chứng minh).",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C)%, gọi %(\\mathrm{M}, \\mathrm{N})% lần lượt là trung diểm của %(B C, A C)%. Gọi %(\\mathrm{O}, \\mathrm{G}, \\mathrm{H})% lần lượt là giao điểm ba đường trung trực, ba đường cao, ba đường trung tuyến của tam giác ABC . Tính tỉ số %(G H: G O)%",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a0c0497a3a82e2901abad997b85607e4.png\" srcset=\"https://docdn.giainhanh.io/media/test/af40327d16e5a2979b1986947f0d9e70.png 245w, https://docdn.giainhanh.io/media/test/528ca7db438c38641f9d4716569227d8.png 500w\" width=\"500\"/><br>Ta có: %(O M / / A H)% (vì cùng vuông góc với BC )<br>%(O N / / B H)% (vì cùng vuông góc với AC )<br>%(N M / / A B)% (đường trung bình của tam giác)<br>Xét %(\\triangle A B H)% và %(\\triangle M N O)%<br>Có: %(\\widehat{B A H}=\\widehat{N M O})% (góc có cạnh tương ứng song song)<br>%(\\widehat{A B H}=\\widehat{M N O})% (góc có cạnh tương ứng song song)<br>%(\\Rightarrow \\triangle A B H \\sim \\triangle M N O(g . g) \\Rightarrow \\frac{N M}{B A}=\\frac{O M}{A H}=\\frac{1}{2})%<br>Xét %(\\triangle A G H)% và %(\\triangle M O G)% có:%(G A H=G M O)% (so le trong) (1)<br>%(\\frac{G M}{G A}=\\frac{1}{2})% (tính chất trọng tâm ) (2)<br>%(\\frac{O M}{A H}=\\frac{1}{2} \\quad(\\mathrm{cmt}))%<br>Từ %((1) ;(2) ;(3) \\Rightarrow \\triangle A H G \\square \\triangle M O G()% c.g.c)<br>%(\\Rightarrow \\widehat{A G H}=\\widehat{M G O}\\space (4))%<br>Mặt khác : %(A, G, M)% thẳng hàng %((5))%<br>Từ (4),(5) %(\\Rightarrow H, G, O)% thẳng hàng và %(\\frac{G H}{G O}=\\frac{A H}{O M}=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Cho hình thang %(A B C D)% có hai đáy %(A B=2 a, C D=a)%. Hãy dựng điểm M trên đường thẳng CD sao cho đường thẳng AM cắt hình thang làm hai phần có diện tích bằng nhau.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/96d191d83613c406076bf74b01d338b7.png\" srcset=\"https://docdn.giainhanh.io/media/test/8cb73cd45262fb8f36a5fcc4cfb5e517.png 245w, https://docdn.giainhanh.io/media/test/d84a95ee0f0d94aaa8f1b61545fbaa58.png 500w\" width=\"500\"/><br>Gọi %(h)% là đường cao của hình thang ABCD<br>Giả sử đã dựng được điểm M thuộc CD sao cho đường thẳng AM cắt hình thang thành hai phần có diện tích bằng nhau.<br>Gọi N là giao điểm của AM và BC<br>Đặt %(S_{1}=S_{A D C N} ; S_{2}=S_{A N B} ; S=S_{A B C D})%.<br>Ta có: %(\\left\\{\\begin{array}{l}s_{1}+s_{2}=s \\\\ s_{1}=s_{2}\\end{array} \\Rightarrow S_{2}=S: 2\\right.)%<br>Kẻ đường cao NH của tam giác ANB và đặt %(N H=x)% ta có:<br>%(\\begin{array}{l}s=\\frac{1}{2}(2 a+a) h=\\frac{3 a h}{2} \\s_{2}=\\frac{1}{2} \\cdot 2 a \\cdot x=a x\\end{array})%<br>Thay vào (1) : %(a x=\\frac{1}{2} \\cdot \\frac{3 a h}{2} \\Rightarrow x=\\frac{3 h}{4})%<br>Áp dụng định lý Talet %(\\Rightarrow \\frac{N B}{N C}=\\frac{1}{3})% suy ra cách dựng:<br>Chia đoạn BC làm 4 phần bằng nhau, lấy điểm N trên BC sao cho %(N C=\\frac{1}{4} B C)%<br>Đường thẳng AN cắt đường thẳng CD tại điểm M cần dựng",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Cho %(x \\geq 0, y \\geq 0, z \\geq 0)% và %(x+y+z=1)%. Chứng minh rằng %(x y+y z+z x-2 x y z \\leq \\frac{7}{27})%",
+        "question_images": [],
+        "solution": "Áp dụng bất đẳng thức Cô si ta có: %(x y z \\leq\\left(\\frac{x+y+z}{3}\\right)^{3}=\\frac{1}{27})%<br>Mặt khác:<br>%(\\begin{array}{l}\\Leftrightarrow x y z \\geq(x+y-z)(y+z-x)(z+x-y) \\\\Leftrightarrow x y z \\geq(1-2 z)(1-2 x)(1-2 y) \\\\Leftrightarrow x y z \\geq 1-2(x+y+z)+4(x y+y z+x z)-8 x y z \\\\Leftrightarrow x y z \\geq 1-2+4(x y+y z+z x)-8 x y z \\\\Leftrightarrow 1+x y z \\geq 4(x y+y z+z x)-8 x y z \\\\Leftrightarrow 1+\\frac{1}{27} \\geq 4(x y+y z+z x)-8 x y z \\\\Leftrightarrow \\frac{7}{27} \\geq x y+y z+z x-2 x y z(d f c m)\\end{array})%",
+        "question_type": "essay"
+    }
+]

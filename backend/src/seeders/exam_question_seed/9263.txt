@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Cho biểu thức: %(M=a+2 a b-b)%. Tính giá trị %(M)% với %(|a|=1,5 ; b=-0,75)%",
+        "question_images": [],
+        "solution": "%(|a|=1,5 \\Rightarrow\\left[\\begin{array}{l}a=1,5 ; b=-0,75 \\Rightarrow M=a+2 a b-b=1,5+2 \\cdot 1,5 \\cdot(-0,75)=0 \\\\ a=-1,5 ; b=-0,75 \\Rightarrow M=a+2 a b-b=-1,5+2 \\cdot(-1,5) \\cdot(-0,75)=\\frac{3}{2}\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Xác định dấu của %(c)% biết rằng %(2 a^{3} b c)% trái dấu với %(-3 a^{3} b^{3} c^{2})%",
+        "question_images": [],
+        "solution": "Do %(2 a^{3} b c)% và %(-3 a^{5} b^{3} c^{2})% trái dấu nên %(a \\neq 0 ; b \\neq 0 ; c \\neq 0)%<br>%(2 a^{3} b c \\cdot\\left(-3 a^{5} b^{3} c^{2}\\right)\\lt 0)%<br>%(\\Leftrightarrow-6 a^{8} b^{4} c^{3}\\lt 0 \\Leftrightarrow a^{8} b^{4} c^{3}\\gt 0)%<br>%(\\Leftrightarrow c^{3}\\gt 0 \\Leftrightarrow c>0)% (vì %(a^{8} b^{4}>0)% với mọi %(a \\neq 0 ; b \\neq 0)% )<br>Vậy %(c>0)% tức là mang dấu dương",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Tìm các số %(x, y, z)% biết rằng: %(\\frac{x}{3}=\\frac{y}{4} ; \\frac{y}{3}=\\frac{z}{5})% và %(2 x-3 y+z=6)%",
+        "question_images": [],
+        "solution": "Vì %(\\frac{x}{3}=\\frac{y}{4} \\Rightarrow \\frac{x}{9}=\\frac{y}{12} ; \\frac{y}{3}=\\frac{z}{5} \\Rightarrow \\frac{y}{12}=\\frac{z}{20} \\Rightarrow \\frac{x}{9}=\\frac{y}{12} \\Rightarrow \\frac{2 x}{18}=\\frac{3 y}{36}=\\frac{z}{20})%<br>Theo tính chất dãy tỉ số bằng nhau, ta có:<br>\\[\\frac{2 x}{18}=\\frac{3 y}{36}=\\frac{z}{20}=\\frac{2 x-3 y+z}{18-36+20}=\\frac{6}{2}=3 \\Rightarrow x=27, y=36, z=60\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Cho dãy tỉ số bằng nhau:<br>\\[\\frac{2 a+b+c+d}{a}=\\frac{a+2 b+c+d}{b}=\\frac{a+b+2 c+d}{c}=\\frac{a+b+c+2 d}{d}\\]<br>Tính giá trị của biểu thức %(M)%, với %(M=\\frac{a+b}{c+d}+\\frac{b+c}{d+a}+\\frac{c+d}{a+b}+\\frac{d+a}{b+c})%",
+        "question_images": [],
+        "solution": "Từ giả thiết suy ra<br>\\[\\begin{array}{l}\\frac{2 a+b+c+d}{a}-1=\\frac{a+2 b+c+d}{b}-1=\\frac{a+b+2 c+d}{c}-1=\\frac{a+b+c+2 d}{d}-1 \\\\Rightarrow \\frac{a+b+c+d}{a}=\\frac{a+b+c+d}{b}=\\frac{a+b+c+d}{c}=\\frac{a+b+c+d}{d}\\end{array}\\]<br>Nếu %(a+b+c+d=0)% thì %(a+b=-(c+d) ; b+c=-(d+a) ; c+d=-(a+b) ; d+a=-(b+c))%<br>Khi đó %(M=(-1)+(-1)+(-1)+(-1)=-4)%<br>Nếu %(a+b+c+d \\neq 0)% thì %(\\frac{1}{a}=\\frac{1}{b}=\\frac{1}{c}=\\frac{1}{d})% nên %(a=b=c=d)%<br>Khi đó %(M=1+1+1+1=4)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho hàm số %(y=f(x)=2-x^{2})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Hãy tính %(f(0) ; f\\left(-\\frac{1}{2}\\right))%",
+        "question_images": [],
+        "solution": "%(f(0)=2-0^{2}=2)%<br>%(f\\left(-\\frac{1}{2}\\right)=2-\\left(-\\frac{1}{2}\\right)^{2}=\\frac{7}{4})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Chứng minh : %(f(x-1)=f(1-x))%",
+        "question_images": [],
+        "solution": "%(f(x-1)=2-(x-1)^{2} ; f(1-x)=2-(1-x)^{2})%<br>Do %((x-1))% và %((1-x))% là hai số đối nhau nên bình phương bằng nhau<br>Vậy %(2-(x-1)^{2}=2-(1-x)^{2})%<br>hay %(f(x-1)=f(1-x))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho tam giác %(A B C)% vuông tại %(A)%, đường trung tuyến %(A M)%. Qua %(A)% kẻ đường thẳng %(d)% vuông góc với %(A M)%. Qua %(M)% kẻ các đường vuông góc với %(A B, A C)%, chúng cắt %(d)% theo thứ tự ở %(D)% và %(E)%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) %(B D / / C E)%",
+        "question_images": [],
+        "solution": "Theo tính chất đường trung tuyến ứng với cạnh huyền của tam giác vuông: %(M A=M B)%<br>Gọi %(H)% là giao điểm của %(M D)% và %(A B)%<br>Tam giác cân %(A M B)% có %(M H)% đường cao ứng với đáy nên là đường trung trực, suy ra %(D A=D B)%<br>Chứng minh được %(\\triangle M B D=\\triangle M A D)% (c.c.c)<br>%(\\Rightarrow \\widehat{M B D}=\\widehat{M A D}=90^{\\circ})%, do đó: %(D B \\perp B C)%<br>Tương tự ta có: %(E C \\perp B C)%<br>Vậy %(B D / / C E)% ( cùng vuông góc với %(BC)% ), (đpcm)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ea16324d3119409422d4ea99e1fb6fbc.png\" srcset=\"https://docdn.giainhanh.io/media/test/38bdab46d5ece3eeba725294dd5def66.png 245w, https://docdn.giainhanh.io/media/test/8c5621ad54bd5a9da0778cd9daa0a94c.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) %(D E=B D+C E)%",
+        "question_images": [],
+        "solution": "Theo câu a, %(D B=D A)%.<br>Tương tự: %(E C=E A)%<br>Suy ra %(D E=D A+A E=B D+C E)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Tìm tỉ số của %(A)% và %(B)%, biết rằng:<br>\\[\\begin{array}{l}A=\\frac{1}{1.1981}+\\frac{1}{2.1982}+\\ldots .+\\frac{1}{n \\cdot(1980+n)}+\\ldots .+\\frac{1}{25.2005} \\B=\\frac{1}{1.26}+\\frac{1}{2.27}+\\ldots .+\\frac{1}{m \\cdot(25+m)}+\\ldots .+\\frac{1}{1980.2005}\\end{array}\\]",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\frac{1}{n(1980+n)}=\\frac{1}{1980}\\left(\\frac{1}{n}-\\frac{1}{1980+n}\\right) ; \\frac{1}{m(25+m)}=\\frac{1}{25}\\left(\\frac{1}{m}-\\frac{1}{25+m}\\right)\\]<br>Áp dụng tính %(A)% và %(B)% ta được:<br>\\[\\begin{aligned}A & =\\frac{1}{1980} \\cdot\\left(\\frac{1}{1}-\\frac{1}{1981}+\\frac{1}{2}-\\frac{1}{1980}+\\ldots . .+\\frac{1}{25}-\\frac{1}{2005}\\right) \\\\& =\\frac{1}{1980} \\cdot\\left[\\left(\\frac{1}{1}-\\frac{1}{2}+\\ldots .+\\frac{1}{25}\\right)-\\left(\\frac{1}{1981}+\\frac{1}{1982}+\\ldots . .+\\frac{1}{2005}\\right)\\right] \\B & =\\frac{1}{25} \\cdot\\left(\\frac{1}{1}-\\frac{1}{26}+\\frac{1}{2}-\\frac{1}{27}+\\ldots .+\\frac{1}{1980}-\\frac{1}{2005}\\right) \\\\& =\\frac{1}{25} \\cdot\\left[\\left(\\frac{1}{1}+\\frac{1}{2}+\\ldots . .+\\frac{1}{25}\\right)-\\left(\\frac{1}{1981}+\\frac{1}{1982}+\\ldots . .+\\frac{1}{2005}\\right)\\right]\\end{aligned}\\]<br>Vậy %(\\frac{A}{B}=\\frac{1}{1980}: \\frac{1}{25}=\\frac{5}{396})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C)% cân. Trên cạnh đáy %(B C)% lấy điểm %(D)% sao cho %(C D=2 B D)%. Chứng minh rằng %(B D A\\lt \\frac{1}{2} C A D)%",
+        "question_images": [],
+        "solution": "Gọi %(M)% là trung điểm của DC<br>Trên tia đối của tia %(M A)% lấy điểm %(E)% sao cho %(M E=M A)%<br>Ta có hai tam giác %(A M C)% và %(E M D)% bằng nhau vì %(M D=M C, M A=M E, \\widehat{A M C}=\\widehat{E M D})% nên %(D E=A C)% và %(\\widehat{A_{3}}=\\widehat{D E M})%<br>Mặt khác: %(\\widehat{D_{1}}=\\hat{B})% (do tính chất góc ngoài tam giác)<br>Mà %(\\hat{B}=\\widehat{C})% (vì %(\\triangle A B C)% cân, đáy %(B C)% ) nên %(\\widehat{D_{1}}\\gt \\widehat{C} \\Rightarrow A C>A D)%<br>Từ đó %(D E>D A \\Rightarrow \\widehat{A_{2}}>\\widehat{D E M})% hay %(A_{2}>A_{3})%<br>Vì %(A_{3}=A_{1})% (do %(\\triangle A B D=\\triangle A C M)% )<br>Nên %(A_{2}+A_{3}>A_{1}+A_{3})% hay %(2 A\\lt A_{2}+A_{3} \\Rightarrow B A D\\lt \\frac{1}{2} C A D)% (đpcm)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/aeb3010ca7738d907121b372b8491c48.png\" srcset=\"https://docdn.giainhanh.io/media/test/9452d1b804ae1a95e6e3ddb00aefa045.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    }
+]

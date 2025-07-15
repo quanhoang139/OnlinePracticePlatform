@@ -1,0 +1,128 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Phân tích đa thức sau thành nhân tử: %(A=x^{3}+y^{3}+z^{3}-3 x y z)%",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} & A=x^{3}+y^{3}+z^{3}-3 x y z \\\\ = & x^{3}+y^{3}+3 x y(x+y)+z^{3}-3 x y(x+y)-3 x y z \\\\ = & (x+y)^{3}+z^{3}-3 x y(x+y+z) \\\\ = & (x+y+z)\\left[(x+y)^{2}-(x+y) z+z^{2}\\right]-3 x y(x+y+z) \\\\ = & (x+y+z)\\left(x^{2}+y^{2}+z^{2}-x y-y z-x z\\right)\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Chứng minh rằng: %(\\frac{1}{a}+\\frac{1}{b} \\geq \\frac{4}{a+b} \\forall a, b\\gt 0)%",
+        "question_images": [],
+        "solution": "Xét hiệu:<br>%(\\begin{array}{l}A=\\left(\\frac{1}{a}+\\frac{1}{b}\\right)-\\frac{4}{a+b} \\\\=\\frac{b(a+b)+a(a+b)-4 a b}{a b(a+b)} \\\\=\\frac{a^{2}-2 a b+b^{2}}{a b(a+b)}=\\frac{(a-b)^{2}}{a b(a+b)} \\geq 0 \\text { (Dấu \" }=\\text { \" xảy ra } \\Leftrightarrow a=b \\text { ) }\\end{array})%<br>Vậy %(\\frac{1}{a}+\\frac{1}{b} \\geq \\frac{4}{a+b})% (dấu \" = \" xảy ra %(\\Leftrightarrow a=b)% )",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Giải phương trình sau: %(\\left(2 x^{2}-3 x-1\\right)^{2}-3\\left(2 x^{2}-3 x-5\\right)-16=0)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\left(2 x^{2}-3 x-1\\right)^{2}-3\\left(2 x^{2}-3 x-5\\right)-16=0 \\\\ \\Leftrightarrow\\left(2 x^{2}-3 x-1\\right)^{2}-3\\left(2 x^{2}-3 x-1\\right)-4=0\\left(^{*}\\right)\\end{array})%<br>Đặt %(t=2 x^{2}-3 x-1)%<br>%(\\begin{array}{l}\\Rightarrow P t\\left({ }^{*}\\right) \\Leftrightarrow t^{2}-3 t-4=0 \\Leftrightarrow\\left[\\begin{array}{l}t=-1 \\t=4\\end{array}\\right. \\\\Leftrightarrow\\left[\\begin{array} { l } { 2 x ^ { 2 } - 3 x - 1 = - 1 } \\\\{ 2 x ^ { 2 } - 3 x - 1 = 4 }\\end{array} \\Leftrightarrow \\left[\\begin{array} { l } { x ( 2 x - 3 ) = 0 } \\\\{ ( x + 1 ) ( 2 x - 5 ) = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=0 \\x=\\frac{3}{2} \\x=-1 \\x=\\frac{5}{2}\\end{array}\\right.\\right.\\right.\\end{array})%<br>Vậy %(S=\\left\\{-1 ; 0 ; \\frac{3}{2} ; \\frac{5}{2}\\right\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Giải phương trình sau: %(\\frac{x+9}{10}+\\frac{x+10}{9}=\\frac{9}{x+10}+\\frac{10}{x+9})%",
+        "question_images": [],
+        "solution": "%(\\frac{x+9}{10}+\\frac{x+10}{9}=\\frac{9}{x+10}+\\frac{10}{x+9}\\left({ }^{*}\\right))%<br>ĐKXĐ: %(x \\neq-9 ; x \\neq-10)%<br>%(\\begin{array}{l}(*) \\Leftrightarrow x(x+19)(19 x+181)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x=0 \\x=-19 \\x=\\frac{-181}{19}\\end{array}\\right. \\text { (TMDK) }\\end{array})%<br>Vậy %(S=\\left\\{0 ;-19 ; \\frac{-181}{19}\\right\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Thực hiện phép tính: %(\\frac{1}{1-x}+\\frac{1}{x+1}+\\frac{2}{1+x^{2}}+\\frac{4}{1+x^{4}}+\\frac{8}{1+x^{8}})%",
+        "question_images": [],
+        "solution": "%(A=\\frac{1}{1-x}+\\frac{1}{x+1}+\\frac{2}{1+x^{2}}+\\frac{4}{1+x^{4}}+\\frac{8}{1+x^{8}})%<br>Ta có: %(\\frac{1}{1-x}+\\frac{1}{1+x}=\\frac{2}{1-x^{2}})%<br>%(\\begin{array}{l}\\Rightarrow A=\\frac{2}{1-x^{2}}+\\frac{2}{1+x^{2}}+\\frac{4}{1+x^{4}}+\\frac{8}{1+x^{8}} \\\\ =\\frac{4}{1-x^{4}}+\\frac{4}{1+x^{4}}+\\frac{8}{1+x^{8}} \\\\ =\\frac{8}{1-x^{8}}+\\frac{8}{1+x^{8}} \\\\ =\\frac{16}{1-x^{16}}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.5,
+        "content": "Thực hiện phép tính: %(\\frac{1}{1.3}+\\frac{1}{3.5}+\\frac{1}{5.7}+\\ldots . .+\\frac{1}{49.51})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l} B=\\frac{1}{1.3}+\\frac{1}{3.5}+\\frac{1}{5.7}+\\ldots .+\\frac{1}{49.51} \\\\ =\\frac{1}{2}\\left[\\left(1-\\frac{1}{3}\\right)+\\left(\\frac{1}{3}-\\frac{1}{5}\\right)+\\left(\\frac{1}{5}-\\frac{1}{7}\\right)+\\ldots .+\\left(\\frac{1}{49}-\\frac{1}{51}\\right)\\right] \\\\ =\\frac{1}{2}\\left(1-\\frac{1}{3}+\\frac{1}{3}-\\frac{1}{5}+\\frac{1}{5}-\\frac{1}{7}+\\ldots . .+\\frac{1}{49}-\\frac{1}{51}\\right) \\\\ =\\frac{1}{2} \\cdot\\left(1-\\frac{1}{51}\\right)=\\frac{25}{51}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Tìm giá trị nhỏ nhất của biểu thức %(A=(x-2)(x-5)\\left(x^{2}-7 x-10\\right))%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=(x-2)(x-5)\\left(x^{2}-7 x-10\\right) \\\\=\\left(x^{2}-7 x+10\\right)\\left(x^{2}-7 x-10\\right)\\end{array})%<br>Đặt %(x^{2}-7 x=t)%, ta có biểu thức:<br>%(\\begin{array}{l}A=(t-10)(t+10)=t^{2}-100 \\geq-100 \\\\text { Dấu \" = \" xảy ra } \\Leftrightarrow t=0 \\\\Leftrightarrow x^{2}-7 x=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\x=7\\end{array}\\right.\\end{array})%<br>Với %(\\left[\\begin{array}{l}x=0 \\\\ x=7\\end{array}\\right.)% thì %(A)% đạt giá trị nhỏ nhất bằng %(-100)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho biểu thức: %(M=\\left(\\frac{x^{2}}{x^{3}-4 x}+\\frac{6}{6-3 x}+\\frac{1}{x+2}\\right):\\left(x-2+\\frac{10-x^{2}}{x+2}\\right))%",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Rút gọn %(M)%",
+        "question_images": [],
+        "solution": "Điều kiện %(x \\neq 0, x \\neq \\pm 2)%<br>%(\\begin{array}{l}M=\\left(\\frac{x^{2}}{x^{3}-4 x}+\\frac{6}{6-3 x}+\\frac{1}{x+2}\\right):\\left(x-2+\\frac{10-x^{2}}{x+2}\\right) \\\\=\\left[\\frac{x}{(x-2)(x+2)}+\\frac{2}{2-x}+\\frac{1}{x+2}\\right]: \\frac{x^{2}-4+10-x^{2}}{x+2} \\\\=\\frac{x-2(2+x)+x-2}{(x-2)(x+2)}: \\frac{6}{x+2} \\\\=\\frac{-6}{(x-2)(x+2)} \\cdot \\frac{x+2}{6}=\\frac{-1}{x-2}=\\frac{1}{2-x}\\end{array}\\)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tính giá trị của biểu thức %(M)% khi %(x=-1)%",
+        "question_images": [],
+        "solution": "%(x=-1 \\Rightarrow M=\\frac{1}{2-x}=\\frac{1}{2-(-1)}=\\frac{1}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Với giá trị nào của %(x)% thì %(M=-2)%",
+        "question_images": [],
+        "solution": "%(M=2 \\Leftrightarrow \\frac{1}{2-x}=2 \\Leftrightarrow 2(2-x)=1 \\Leftrightarrow 2-x=\\frac{1}{2} \\Leftrightarrow x=\\frac{3}{2}(T M D K))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 1.0,
+        "content": "d) Tìm giá trị nguyên của %(x)% để %(M)% có giá trị nguyên.",
+        "question_images": [],
+        "solution": "Để %(M)% nhận giá trị nguyên thì %(\\frac{1}{2-x})% nhận giá trị nguyên<br>%(\\begin{array}{l}\\Leftrightarrow 2-x \\in U(1)=\\{-1 ; 1\\} \\\\{\\left[\\begin{array}{l}2-x=-1 \\Rightarrow x=3(\\mathrm{tm}) \\\\2-x=1 \\Rightarrow x=1(\\mathrm{tm})\\end{array}\\right.}\\end{array})%<br>Vậy với %(x \\in\\{1 ; 3\\})% thì %(M)% nhận giá trị nguyên.",
+        "question_type": "essay"
+    },
+    {
+        "title": "9",
+        "group_content": "Cho tam giác %(A B C)%, các góc %(B)% và %(C)% nhọn. Hai đường cao %(B E)% và %(C F)% cắt nhau tại %(H)% . Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) %(A B \\cdot A F=A C \\cdot A E)%",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" class=\"image_resized\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d74a27d4aa15162ae0f0cef4834d98c4.png\" srcset=\"https://docdn.giainhanh.io/media/test/4e37d4c32fcc03e893bb96d15286bca4.png 184w, https://docdn.giainhanh.io/media/test/23219079154b8fd6e358ac468cf96cee.png 500w\" style=\"width:38.64%;\" width=\"500\"/><br>%(\\triangle A B E \\sim \\triangle A C F(g . g) \\Rightarrow \\frac{A B}{A C}=\\frac{A E}{A F} \\Rightarrow A B \\cdot A F=A C \\cdot A E)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) %(\\triangle A E F \\sim \\triangle A B C)%",
+        "question_images": [],
+        "solution": "%(\\frac{A B}{A C}=\\frac{A E}{A F} \\Rightarrow \\frac{A E}{A B}=\\frac{A F}{A C})%<br>%(\\triangle A E F, \\triangle A B C)% có %(\\hat{A})% chung và %(\\frac{A E}{A B}=\\frac{A F}{A C} \\Rightarrow \\triangle A E F \\sim \\triangle A B C)% (c.g.c)",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) %(B H \\cdot B E+C H \\cdot C F=B C^{2})%",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" class=\"image_resized\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/2688cab3160cb55f5f1ddb16e74d0061.png\" srcset=\"https://docdn.giainhanh.io/media/test/0a943428ee07c420a880c2688a346296.png 187w, https://docdn.giainhanh.io/media/test/93c13e4d3ac20191f694d4cbf9b1597b.png 500w\" style=\"width:37.35%;\" width=\"500\"/><br>Vẽ %(H D \\perp B C)%<br>%(\\begin{array}{l}\\triangle B H D \\sim \\triangle B C E(\\mathrm{~g} \\cdot g) \\Rightarrow \\frac{B H}{B C}=\\frac{B D}{B E} \\Rightarrow B H \\cdot B E=B C \\cdot B D \\quad (1)   \\\\ \\triangle C H D \\sim \\triangle C B F(\\mathrm{~g} \\cdot g) \\Rightarrow \\frac{C H}{B C}=\\frac{C D}{C F} \\Rightarrow C H \\cdot C F=B C \\cdot C D \\quad(2)\\end{array})%<br>Cộng từng vế (1) và (2) ta được:<br>%(B H \\cdot B E+C H \\cdot C F=B C \\cdot(B D+C D)=B C \\cdot B C=B C^{2})%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,88 @@
+[
+    {
+        "title": "1 ",
+        "point": 4.0,
+        "content": "Cho hàm số %(y=x^{4}-2(m+1) x^{2}+3 m+2)%. Tìm %(m)% để đồ thị hàm số có ba điểm cực trị là ba đình của một tam giác vuông cân.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { +) TXĐ: } D=\\mathbb{R} \\\\text { +) } y^{\\prime}=4 x^{3}-4(m+1) x \\quad \\forall x \\in \\mathbb{R} \\\\text { +) } y^{\\prime}=0 \\Leftrightarrow x=0 \\text { hoặc } x^{2}=m+1\\end{array}\\]<br>Đồ thị hàm số có ba điểm cực trị %(\\Leftrightarrow y^{\\prime}=0)% có đúng ba nghiệm phân biệt<br>%(\\Leftrightarrow x^{2}=m+1)% có hai nghiệm phân biệt khác %(0 \\Leftrightarrow m+1\\gt 0 \\Leftrightarrow m>-1)%<br>Khi đó ba điểm cực trị của đồ thị hàm số là<br>\\[A(0 ; 3 m+2) ; B\\left(-\\sqrt{m+1} ;-m^{2}+m+1\\right) ; C\\left(\\sqrt{m+1} ;-m^{2}+m+1\\right)\\]<br>Ta thấy %(A B=A C)% nên để tam giác rày vuông cân thì nó phải vuông tại %(A)%<br>\\[\\begin{array}{c}\\Leftrightarrow A B \\perp A C \\Leftrightarrow \\overrightarrow{A B} \\cdot \\overrightarrow{A C}=0 \\\\Leftrightarrow(-\\sqrt{m+1})(\\sqrt{m+1})+\\left(3 m+2+m^{2}-m-1\\right)^{2}=0 \\\\Leftrightarrow(m+1)^{4}-(m+1)=0(*) .\\end{array}\\]<br>Mà %(m+1>0)% nên: %((*) \\Leftrightarrow(m+1)^{3}=1 \\Leftrightarrow m+1=1 \\Leftrightarrow m=0)%<br>Vậy %(m=0)% là giá trị cần tìm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.5,
+        "content": "Giäi phương trình %(\\quad \\sqrt{2 x^{2}-2 x+4}+\\sqrt{5 x^{2}+4}+x^{2}-7 x+1=0)%.",
+        "question_images": [],
+        "solution": "\\[\\sqrt{2 x^{2}-2 x+4}+\\sqrt{5 x^{2}+4}=-x^{2}+7 x-1(*)\\]<br>Do đó %(x^{2}-7 x+1 \\leq 0 \\Leftrightarrow \\frac{7-3 \\sqrt{5}}{2} \\leq x \\leq \\frac{7+3 \\sqrt{5}}{2})%<br>\\[(*) \\Leftrightarrow \\sqrt{2 x^{2}-2 x+4}-(x+1)+\\sqrt{5 x^{2}+4}-(2 x+1)+\\left(x^{2}-4 x+3\\right)=0\\]<br>Mà với điều kiện trên của %(x)% thì %(x+1 ; 2 x+1)% đều dương nên %(\\sqrt{2 x^{2}-2 x+4}+)% %((x+1))% và %(\\sqrt{5 x^{2}+4}+(2 x+1))% đều dương, nên phương trình trên tương đương với<br>\\[\\begin{array}{c}\\frac{\\left(x^{2}-4 x+3\\right)}{\\sqrt{2 x^{2}-2 x+4}+(x+1)}+\\frac{\\left(x^{2}-4 x+3\\right)}{\\sqrt{5 x^{2}+4}+(2 x+1)}+\\left(x^{2}-4 x+3\\right)=0 \\\\Leftrightarrow\\left(x^{2}-4 x+3\\right)\\left[\\frac{1}{\\sqrt{2 x^{2}-2 x+4}+(x+1)}+\\frac{1}{\\sqrt{5 x^{2}+4}+(2 x+1)}+1\\right]=0 \\\\Leftrightarrow\\left(x^{2}-4 x+3\\right)=0\\left(\\text { do } \\frac{1}{\\sqrt{2 x^{2}-2 x+4}+(x+1)}+\\frac{1}{\\sqrt{5 x^{2}+4}+(2 x+1)}+1\\gt 0(*)\\right)\\end{array}\\]<br>\\[\\begin{array}\\\\Leftrightarrow x=1 \\text { hoặc } x=3\\end{array}\\]<br>Vậy phương trình đã cho có hai nghiệm %(x=1)% và %(x=3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.5,
+        "content": "Giải hệ phương trình %(\\quad\\left\\{\\begin{array}{l}\\sqrt{2 x+y}+\\sqrt{x+4 y}=5 \\\\ \\sqrt{x+4 y}+2 x-y=3\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "2) ĐКХĐ: %(x+4 y \\geq 0 ; 2 x+y \\geq 0)%<br>Hệ đã cho tương đương với<br>\\[\\left\\{\\begin{array} { c } { \\sqrt { 2 x + y } = 2 - y + 2 x } \\\\{ \\sqrt { x + 4 y } = 3 + y - 2 x }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{c}-2 \\leq 2 x-y \\leq 3 \\\\2 x+y=(2-y+2 x)^{2}(*) \\x+4 y=(3+y-2 x)^{2}(* *)\\end{array}\\right.\\right.\\]<br>Trừ từng vế của pt %((*))% cho %((* *))% ta được<br>\\[\\Rightarrow x-3 y=5(-1-2 y+4 x) \\Leftrightarrow y=\\frac{19 x-5}{7}\\]<br>Thay vào %((*))% ta thu được<br>\\[\\begin{array}{l}\\qquad \\Rightarrow 2 x+\\frac{19 x-5}{7}=\\left(2-\\frac{19 x-5}{7}+2 x\\right)^{2} \\\\Leftrightarrow 25 x^{2}-421 x+396=0 \\\\Leftrightarrow x=1 \\text { hoặc } x=\\frac{396}{25} \\\\+) x=1 \\Rightarrow y=2 \\text {. Thử lại thỏa mãn. } \\\\+) x=\\frac{396}{25} \\Rightarrow y=\\frac{1057}{25} \\text {. Thử lại không thỏa mãn. }\\end{array}\\]<br>Vậy %(x=1 ; y=2)% là nghiệm duy nhất của hệ.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho dãy số %(\\left(u_{n}\\right))% có %(u_{1}=1 ; u_{n}=\\frac{n}{n-1} u_{n-1}+n, \\forall n \\geq 2)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "a) Xác định công thức tính số hạng tổng quát %(u_{n})%.",
+        "question_images": [],
+        "solution": "Ta có %(u_{1}=1=1^{2} ; u_{2}=\\frac{2}{2-1} u_{1}+2=4=2^{2})%<br>Ta chứng minh theo quy nạp %(u_{n}^{0}=n^{2} ; \\forall n \\in \\mathbb{N}^{*})%Với %(n=1 ; n=2)% thì mệnh đề đúng.<br>Giả sử mệnh đề đúng tới %(u_{n}(n \\geq 2))%, khi đó<br>\\[u_{n+1}=\\frac{n+1}{n+1-1} u_{n}+n+1=\\frac{n+1}{n} \\cdot n^{2}+n+1=(n+1)^{2}\\]<br>Vậy mênh đề cũng đúng với %(u_{n+1})%, do đó đúng %(\\forall n \\in N^{*})% theo nguyên lý quy nạp.<br>Vậy công thức tính số hạng tổng quát của %(u_{n})% là %(u_{n}=n^{2} ; \\forall n \\in \\mathbb{N})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "b) Chứng minh %(u_{1}+u_{2}+\\ldots+u_{2016}\\lt 2016^{3})%.",
+        "question_images": [],
+        "solution": "Ta có<br>\\[\\begin{array}{l}u_{1}+u_{2}+\\cdots+u_{2016}=1^{2}+2^{2}+\\cdots+2016^{2} \\\\left.\\lt 2016^{2}+2016^{2}+\\cdots+2016^{2} \\text { (2016 số hạng }\\right)\\end{array}\\]<br>%(=2016.2016^{2}=2016^{3}()%đpcm%())%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Trong mặt phẳng tọa độ %(O x y)% cho tam giác %(A B C)% có đường cao %(A D)%, trực tâm %(H)%. Gọi %(E, F)% lần lượt là hình chiếu của %(D)% trên %(B H, C H)%. Gọi %(P)% là giao điểm của %(E F)% với %(A C)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "a) Chứng minh %(D P)% vuông góc với %(A C)%.",
+        "question_images": [],
+        "solution": "Ta chứng minh cho trường hợp tam giác %(A B C)% nhọn, các trường hợp khác chứng minh tương tự.<br>Vì %(D E \\perp H B ; D F \\perp H C)% nên từ đây suy ra %(D E H F)% là tứ giác nội tiếp<br>Do đó %(\\widehat{E F D}=\\widehat{B H D})%.<br>Mà %(H D \\perp B C ; B H \\perp A C)% theo đề bài và %(H)% là trực tâm của tam giác %(A B C)% nên ta cũng có %(\\widehat{B H D}=\\widehat{A C D})% do cùng phụ với %(\\widehat{H B D})%.<br>Từ đây suy ra %(\\widehat{E F D}=\\widehat{A C D})% và suy ra %(D F P C)% là tứ giác nội tiếp.<br>Vì thế %(\\widehat{D P C}=\\widehat{C F D}=90^{\\circ})% nên %(D P \\perp A C)% (đpcm).<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/200a071a1ac9ddc42172e2f42874bdf7.png\" srcset=\"https://docdn.giainhanh.io/media/test/3347783e2701f1f1ff1efd68a5366453.png 220w, https://docdn.giainhanh.io/media/test/2e09c75dd160f5e2bdbd2886f0a12aad.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "b) Tìm tọa độ các đỉnh của tam giác %(A B C)% biết %(D(1 ;-1) ; P(3 ; 1))% và tam giác %(A B C)% có tâm đường tròn ngoại tiếp là %(I(2 ; 0))%.",
+        "question_images": [],
+        "solution": "Nhận xét ră̆ng theo giả thiết Ila trung điểm %(D P)%<br>.Theo câu 1 ta có %(D P \\perp A C)% nên %(I P \\perp A C)% mà %(I)% là tâm đường tròn ngoại tiếp tam giác %(A B C)% nên %(P)% phải là trung điểm của %(A C)%.<br>Ta có %(\\overrightarrow{I P}(1 ; 1))%.<br>Đường thẳng %(A C)% qua %(P(3 ; 1))% và nhận %(\\overrightarrow{I P})% làm một vectơ pháp tuyến có phương trình là %(x+y-4=0)%<br>Tham số hóa tọa độ %(A(t ; 4-t) ; t \\in \\mathbb{R})% thì vì %(P(3 ; 1))% là trung điểm của %(A C)% nên %(C(6-t ; t-2))%.<br>Theo giả thiết %(D A \\perp D C)% nên ta có %(\\overrightarrow{D A} \\cdot \\overrightarrow{D C}=0)%<br>\\[\\Leftrightarrow(t-1)(5-t)+(5-t)(t-1)=0 \\Leftrightarrow t=1 \\text { hoặc } t=5\\]<br>Kẻ %(I M)% vuông góc với %(D C)% tại %(M)% thì %(M)% là trung điềm %(B C)% do %(I)% là tâm đường tròn ngoại tiếp tam giác %(A B C)%.<br>+) %(\\mathrm{TH} 1: t=1 \\Rightarrow A(1 ; 3) ; C(5 ;-1))%.<br>Khi đó pt đường thẳng %(D C)% chính là %(y=-1)% nên pt đường thẳng %(I M)% chính là %(x=2)%.<br>Vì thế %(M(2 ;-1))% và do đó %(B)% có tọa độ %((-1 ;-1))%<br>+) %(\\mathrm{TH} 2)% : %(t=5 \\Rightarrow A(5 ;-1) ; C(1 ; 3))%.<br>Khi đó pt đường thẳng %(D C)% chính là %(x=1)% nên pt đường thẳng %(I M)% chính là %(y=0)%.<br>Vì thế %(M(1 ; 0))% và do đó %(B)% có tọa độ %((1 ;-3))%<br>Vậy bài toán có hai đáp số %(A(1 ; 3) ; B(-1 ;-1) ; C(5 ;-1))% hoặc %(A(5 ;-1) ; B(1 ;-3) ; C(1 ; 3))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 3.0,
+        "content": "Cho tứ diện %(O A B C)% có ba góc tại đỉnh %(O)% vuông. Gọi %(H)% là hình chiếu của %(O)% trên mặt phẳng %((A B C), P)% là điềm bất kì nằm trong tam giác %(A B C)%.<br>Chứng minh %(\\frac{P A^{2}}{O A^{2}}+\\frac{P B^{2}}{O B^{2}}+\\frac{P C^{2}}{O C^{2}}=1+\\frac{O P^{2}}{O H^{2}})%.",
+        "question_images": [],
+        "solution": "Ta có phép biến đổi<br>\\[\\begin{aligned}& \\frac{P A^{2}}{O A^{2}}+\\frac{P B^{2}}{O B^{2}}+\\frac{P C^{2}}{O C^{2}}=\\frac{(\\overrightarrow{O A}-\\overrightarrow{O P})^{2}}{O A^{2}}+\\frac{(\\overrightarrow{O B}-\\overrightarrow{O P})^{2}}{O B^{2}}+\\frac{(\\overrightarrow{O C}-\\overrightarrow{O P})^{2}}{O C^{2}} \\\\= & 3-2\\left(\\frac{\\overrightarrow{O A} \\cdot \\overrightarrow{O P}}{O A^{2}}+\\frac{\\overrightarrow{O B} \\cdot \\overrightarrow{O P}}{O B^{2}}+\\frac{\\overrightarrow{O C} \\cdot \\overrightarrow{O P}}{O C^{2}}\\right)+O P^{2}\\left(\\frac{1}{O A^{2}}+\\frac{1}{O B^{2}}+\\frac{1}{O C^{2}}\\right)\\end{aligned}\\]<br>Do %(P)% nằm bất kì trong tam giác %(A B C)% nên %(A, B, C, P)% đồng phẳng vì thế tồn tại các số thực %(x, y, z\\gt 0 ; x+y+z=1)% thỏa mãn<br>\\[\\overrightarrow{O P}=x \\overrightarrow{O A}+y \\overrightarrow{O B}+z \\overrightarrow{O C}\\]<br>Mà theo giả thiết %(O A, O B, O C)% đôi một vuông góc với nhau nên<br>\\[\\overrightarrow{O A} \\cdot \\overrightarrow{O B}=\\overrightarrow{O B} \\cdot \\overrightarrow{O C}=\\overrightarrow{O C} \\cdot \\overrightarrow{O A}=0\\]<br>Từ đó thay vào trên ta có biểu thức ban đầu bằng<br>\\[\\begin{array}{c}=3-2(x+y+z)+O P^{2}\\left(\\frac{1}{O A^{2}}+\\frac{1}{O B^{2}}+\\frac{1}{O C^{2}}\\right) \\\\=1+O P^{2}\\left(\\frac{1}{O A^{2}}+\\frac{1}{O B^{2}}+\\frac{1}{O C^{2}}\\right)\\end{array}\\]<br>Bây giờ đpcm tương đương với<br>\\[\\left(\\frac{1}{O A^{2}}+\\frac{1}{O B^{2}}+\\frac{1}{O C^{2}}\\right)=\\frac{1}{O H^{2}}\\]<br>Đây là tính chất quen thuộc của tứ diện vuông, bạn đoc tưr chững minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Cho các số thực dương %(a, b, c)% thỏa mãn %(a b+b c+c a+2 a b c=1)%. Tìm giá trị nhỏ nhất của biều thức %(P=\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}-2(a+b+c))%.",
+        "question_images": [],
+        "solution": "Ta có %(\\quad P=\\frac{a b+b c+c a-2(a+b+c) a b c}{a b c})%<br>Mặt khác:<br>\\[\\begin{array}{c}(a b-b c)^{2}+(b c-c a)^{2}+(c a-a b)^{2} \\geq 0 \\\\Leftrightarrow(a b+b c+c a)^{2} \\geq 3(a+b+c) a b c \\\\Rightarrow P \\geq \\frac{a b+b c+c a-\\frac{2}{3}(a b+b c+c a)^{2}}{a b c}=\\frac{1-2 x-\\frac{2}{3}(1-2 x)^{2}}{x}=f(x)\\end{array}\\]<br>Với %(x=a b c)% và do %(a b+b c+c a+a b c=1 ; a, b, c\\gt 0)%. Nên %(x>0)%<br>Áp dụng bđt Cauchy cho ba số dương<br>\\[\\begin{array}{c}\\Rightarrow a b+b c+c a \\geq \\sqrt[3]{x^{2}} \\Rightarrow 1=a b+b c+c a+a b c \\geq x+\\sqrt[3]{x^{2}} \\\\Leftrightarrow 0 \\geq x+\\sqrt[3]{x^{2}}-1=(2 \\sqrt[3]{x}-1) \\cdot(\\sqrt[3]{x}+1)^{2}\\end{array}\\]<br>Do %(x>0)% nên suy ra %(2 \\sqrt[3]{x}-1 \\leq 0 \\Leftrightarrow x \\leq 1 / 8)%",
+        "question_type": "essay"
+    }
+]

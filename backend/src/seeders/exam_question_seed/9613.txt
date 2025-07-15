@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(M=\\left(\\frac{x+2}{3 x}+\\frac{2}{x+1}-3\\right): \\frac{2-4 x}{x+1}-\\frac{3 x-x^{2}+1}{3 x})%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Rút gọn biểu thức %(M)%",
+        "question_images": [],
+        "solution": "Điều kiện : %(x \\neq 0 ; x \\neq-1 ; x \\neq \\frac{1}{2})%<br>\\[\\begin{array}{l}M=\\left(\\frac{x+2}{3 x}+\\frac{2}{x+1}-3\\right): \\frac{2-4 x}{x+1}-\\frac{3 x-x^{2}+1}{3 x} \\\\=\\frac{(x+2)(x+1)+6 x-9 x(x+1)}{3 x(x+1)} \\cdot \\frac{x+1}{2(1-2 x)}-\\frac{3 x-x^{2}+1}{3 x} \\\\=\\frac{x^{2}+3 x+2+6 x-9 x^{2}-9 x}{3 x} \\cdot \\frac{1}{2(1-2 x)}-\\frac{3 x-x^{2}+1}{3 x} \\\\=\\frac{2-8 x^{2}}{3 x} \\cdot \\frac{1}{2(1-2 x)}-\\frac{3 x-x^{2}+1}{3 x}=\\frac{1+2 x-3 x+x^{2}-1}{3 x}=\\frac{x^{2}-x}{3 x}=\\frac{x-1}{3}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Tìm x để %(\\mathrm{M}\\lt 0)%",
+        "question_images": [],
+        "solution": "Để %(M\\lt 0 \\Rightarrow \\frac{x-1}{3}\\lt 0 \\Leftrightarrow x-1\\lt 0 \\Leftrightarrow x\\lt 1)%<br>Kết hợp điều kiện %(x \\neq 0 ; x \\neq-1 ; x \\neq \\frac{1}{2} \\Rightarrow x\\lt 1, x \\neq 0 ; x \\neq-1 ; x \\neq \\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Tìm %(x)% để %(M)% nhận giá trị nguyên",
+        "question_images": [],
+        "solution": "Để M nhận giá trị nguyên thì %((x-1) )% chia hết cho 3<br>\\[\\Rightarrow x-1 \\in B(3)=\\{0 ; 3 ; 6 ; 9 ; 12 ; 15 ; 18 ; 21 ; 24 \\ldots\\} \\Rightarrow x \\in\\{; 4 ; 7 ; 10 ; 13 ; 16 ; 19 ; 22 ; 25 \\ldots\\}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho 2 số %(\\mathrm{x}, \\mathrm{y})% thỏa mãn %(x+y=1)%. Chứng minh rằng %(x^{3}+y^{3}+x y \\geq \\frac{1}{2})%",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{l}x^{3}+y^{3}+x y \\geq \\frac{1}{2} \\Leftrightarrow x^{3}+y^{3}+x y-\\frac{1}{2} \\geq 0 \\Leftrightarrow(x+y)\\left(x^{2}-x y+y^{2}\\right)+x y-\\frac{1}{2} \\geq 0 \\\\Leftrightarrow x^{2}+y^{2}-\\frac{1}{2} \\geq 0 \\Leftrightarrow 2 x^{2}+2 y^{2}-1 \\geq 0 \\Leftrightarrow 2 x^{2}+2\\left(1-x^{2}\\right)-1 \\geq 0(\\text { do } y=1-x) \\\\Leftrightarrow 4 x^{2}-4 x+1 \\geq 0 \\Leftrightarrow(2 x-1)^{2} \\geq 0 \\text { (luôn đúng với mọi } \\mathrm{x} \\text { ) }\\end{array}\\]<br>Vậy %(x^{3}+y^{3}+x y \\geq \\frac{1}{2})%. Dấu bằng xảy ra khi %(x=y=\\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Cho %(a^{2}+b^{2}+c^{2}=2021)%. Tính giá trị của biểu thức<br>\\[A=(2 a+2 b-c)^{2}+(2 b+2 c-a)^{2}+(2 c+2 a-b)^{2}\\]",
+        "question_images": [],
+        "solution": "\\[A=(2 a+2 b-c)^{2}+(2 b+2 c-a)^{2}+(2 c+2 a-b)^{2}\\]<br>Ta có :<br>\\[\\begin{array}{l}A=(2 a+2 b-c)^{2}+(2 b+2 c-a)^{2}+(2 c+2 a-b)^{2} \\\\=(2 a+2 b+2 c-3 c)^{2}+(2 b+2 c+2 a-3 a)^{2}+(2 c+2 a+2 b-3 b)^{2} \\\\=[2(a+b+c)-3 c]^{2}+[2(a+b+c)-3 a]^{2}+[2(a+b+c)-3 b]^{2} \\\\=12(a+b+c)^{2}-12(a+b+c) \\cdot c-12(a+b+c) \\cdot a-12(a+b+c) \\cdot b+9\\left(a^{2}+b^{2}+c^{2}\\right) \\\\=12(a+b+c)^{2}-12 \\cdot(a+b+c)(a+b+c)+9\\left(a^{2}+b^{2}+c^{2}\\right) \\\\=9\\left(a^{2}+b^{2}+c^{2}\\right)=9 \\cdot 2021=18189\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Tìm các hằng số %(a, b, c)% sao cho %(A(x)=a x^{3}+b x^{2}+c)% chia hết cho %(x+2)%, chia cho %(x^{2}-1)% thì dư %(x+5)%",
+        "question_images": [],
+        "solution": "Vì %(A(x) )% chia hết cho %(( x+2) )% %(\\Rightarrow A(x)=(x+2) \\cdot P(x))% suy ra :<br>\\[A(-2)=-8 a+4 b+c=0(1)\\]<br>Vì %(A(x))% chia cho %(x^{2}-1)% thì dư %(x+5)% nên : %(A(x)=(x+1)(x-1) Q(x)+(x+5))% suy ra<br>\\[A(1)=a+b+c=6(2) ; A(-1)=-a+b+c=4(3)\\]<br>Từ (1), (2), (3) suy ra được %(a=1, b=1, c=4)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Giải phương trình sau : %(\\left(x^{2}-1\\right)\\left(x^{2}+4 x+3\\right)=192)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\left(x^{2}-1\\right)\\left(x^{2}+4 x+3\\right)=192 \\Leftrightarrow(x-1)(x+1)(x+1)(x+3)=192 \\\\Leftrightarrow\\left(x^{2}+2 x+1\\right)\\left(x^{2}+2 x-3\\right)=192 \\Leftrightarrow\\left(x^{2}+2 x-1+2\\right)\\left(x^{2}+2 x-1-2\\right)=192 \\\\Leftrightarrow\\left(x^{2}+2 x-1\\right)^{2}-4=192 \\Rightarrow\\left[\\begin{array} { l } { x ^ { 2 } + 2 x - 1 = 1 4 } \\\\{ x ^ { 2 } + 2 x - 1 = - 1 4 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=3 ; x=-5 \\V N\\end{array}\\right.\\right.\\end{array}\\]<br>Vậy %(x=3 ; x=-5)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Chứng minh rằng với mọi số nguyên %(n)% chẵn thì %(n^{3}+20 n+96)% chia hết cho 48",
+        "question_images": [],
+        "solution": "Ta có %(n)% chẵn nên %(n=2 k, k \\in Z)%. Suy ra<br>%(\\begin{array}{l}n^{3}+20 n+96=(2 k)^{3}+20.2 k+96=8\\left(k^{3}+5 k\\right)+96=\\left[8\\left(k^{3}-k\\right)+6 k\\right]+96 \\\\=8\\left(k^{3}-k\\right)+48 k+48.2=8(k-1) k(k+1)+48(k+2)\\end{array})%<br>Do %((k-1) k(k+1))% %(\\vdots)% 6 nên %(8(k-1) k(k+1))% %(\\vdots)% 48<br>Vậy với %(n)% chã̃n thì %(n^{3}+20 n+96)% %(\\vdots)% 48",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho hình vuông %(A B C D)%, trên cạnh %(AB)% lấy điểm %(E)% và trên cạnh %(AD)% lấy điểm %(F)% sao cho %(A E=A F)%. Vẽ %(AH)% vuông góc với %(\\mathrm{BF}(\\mathrm{H})% thuộc %(BF)%%(), \\mathrm{AH})% cắt %(DC)% và %(BC)% lần lượt tại hai điểm %(M, N)%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng tứ giác %(A E M D)% là hình chữ nhật",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/6b900c8444cc85b9af7522856139725a.png\" srcset=\"https://docdn.giainhanh.io/media/test/bff92fd58ca3093dc3fd65b6022682e6.png 130w, https://docdn.giainhanh.io/media/test/a0f6f704bcd9c93bf0af1566621f5729.png 418w\" width=\"418\"/><br>Ta có : %(\\angle M A D=\\angle A B F)% (cùng phụ với %(\\angle B A H))% ); %(A B=A D(g t) ; \\angle B A F=\\angle A D M=90^{\\circ}(g t))%<br>Suy ra %(\\triangle A D M=\\triangle B A F)% (g.c.g) %(\\Rightarrow D M=A F)%<br>Ta lại có %(A E / / D M)% (vì %(\\mathrm{AB} / / \\mathrm{DC}))% suy ra tứ giác %(AEMD)% là hình bình hành Mà %(\\angle D A E=90^{\\circ}(\\mathrm{gt}))%.<br>Vậy tứ giác %(A E M D)% là hình chữ nhật",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Chứng minh rằng %(A C=2 E F)%, biết rằng %(S_{B C H}=4 S_{A E H})%",
+        "question_images": [],
+        "solution": "Chứng minh %(\\triangle A B H \\sim \\triangle F A H(g . g) \\Rightarrow \\frac{A B}{A F}=\\frac{B H}{A H})% hay %(\\frac{B C}{A E}=\\frac{B H}{A H}()% do %(A B=B C, A E=A F))%<br>Mà %(\\angle H A B=\\angle H B C)% (cùng phụ với %(\\angle A B H))%.<br>Suy ra %(\\triangle C B H \\sim \\triangle E A H)% (c.g.c)<br>\\[\\Rightarrow \\frac{S_{C B H}}{S_{E A H}}=\\left(\\frac{B C}{A E}\\right)^{2} ; M a^{\\circ} \\frac{S_{C B H}}{S_{E A H}}=4 \\Rightarrow\\left(\\frac{B C}{A E}\\right)^{2}=4 \\Rightarrow B C^{2}=(2 A E)^{2} \\Rightarrow B C=2 A E\\]<br>Nên E là trung điểm %(\\mathrm{AB}, \\mathrm{F})% là trung điểm của %(AD)%<br>Do đó %(B D=2 E F \\Rightarrow A C=2 E F)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) Chứng minh %(\\frac{1}{A D^{2}}=\\frac{1}{A M^{2}}+\\frac{1}{A N^{2}})%",
+        "question_images": [],
+        "solution": "Vì %(A D / / C N(g t))% nên áp dụng hệ quả định lý Talet ta có : %(\\frac{A D}{C N}=\\frac{A M}{M N} \\Rightarrow \\frac{A D}{A M}=\\frac{C N}{M N})%<br>Vì %(M C / / A B(g t))% nên áp dụng hệ quả định lý Talet ta có :<br>\\[\\frac{A D}{C N}=\\frac{A M}{M N} \\Rightarrow \\frac{A D}{A M}=\\frac{C N}{M N}\\]<br>Vì %(\\mathrm{MC} / / \\mathrm{AB})% (gt) nên áp dụng hệ quả định lý Talet ta có :<br>%(\\frac{M N}{A N}=\\frac{M C}{A B} \\Rightarrow \\frac{A B}{A N}=\\frac{M C}{M N})% hay %(\\frac{A D}{A N}=\\frac{M C}{M N})%.<br>Ta có :<br>\\[\\begin{array}{l}\\left(\\frac{A D}{A M}\\right)^{2}+\\left(\\frac{A D}{A N}\\right)^{2}=\\left(\\frac{C N}{M N}\\right)^{2}+\\left(\\frac{C M}{M N}\\right)^{2}=\\frac{C N^{2}+C M^{2}}{M N^{2}}=\\frac{M N^{2}}{M N^{2}}=1 \\\\Rightarrow A D^{2} \\cdot\\left(\\frac{1}{A M^{2}}+\\frac{1}{A N^{2}}\\right)=1 \\Rightarrow \\frac{1}{A M^{2}}+\\frac{1}{A N^{2}}=\\frac{1}{A D^{2}}\\end{array}\\]",
+        "question_type": "essay"
+    }
+]

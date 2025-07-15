@@ -1,0 +1,112 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Tìm %(m)% để hàm số %(f(x)=\\frac{x-2}{m x-2})% đồng biến trên khoảng %((0 ; 1))%.",
+        "question_images": [],
+        "solution": "+ Điều kiện xác định của hàm số %(f(x))% là %(m x \\neq 2)%.<br>+ Xét %(m=0)% không thỏa mãn bài toán.<br>+Xét %(m \\neq 0)% hàm số trở thành %(f(x)=\\frac{1}{m} \\cdot \\frac{x-2}{x-\\frac{2}{m}})%và %(f^{\\prime}(x)=\\frac{1}{m} \\cdot \\frac{-\\frac{2}{m}+2}{\\left(x-\\frac{2}{m}\\right)^{2}}=\\frac{-2+2 m}{m^{2}\\left(x-\\frac{2}{m}\\right)^{2}})%.<br>+ Để thỏa mãn bài toán ta có điều kiện %(\\left\\{\\begin{array}{l}\\frac{2}{m} \\notin(0 ; 1) \\\\ -2+2 m\\gt 0 .\\end{array}\\right.)%<br>+Rút ra được điều kiền là %(1\\lt m \\leq 2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho hàm số %(y=\\frac{2 x+3}{x+2})% có đồ thị là đường cong %((C))% và đường thẳng %((d): y=-2 x+m)%. Tìm %(m)% để đường thẳng %((d))% cắt %((C))% tại hai điểm phân biệt %(A, B)% sao cho biểu thức %(P=k_{1}^{2017}+k_{2}^{2017})% đạt giá trị nhỏ nhất với %(k_{1}=y^{\\prime}\\left(x_{A}\\right), k_{2}=y^{\\prime}\\left(x_{B}\\right))%.",
+        "question_images": [],
+        "solution": "+ Xét phương trình hoành độ giao điểm của đồ thị %((\\mathrm{C}))% và %(\\mathrm{d}:)%<br>\\[\\frac{2 x+3}{x+2}=-2 x+m \\Leftrightarrow\\left\\{\\begin{array}{l}x \\neq-2 \\\\2 x^{2}+(6-m) x+3-2 m=0\\end{array}\\right.\\]<br>+Điều kiện để có hai giao điểm là phương trình (1) có hai nghiệm phân biệt khác -2 hay<br>\\[\\left\\{\\begin{array} { l } { \\Delta _ { ( 1 ) } \\gt 0 } \\\\{ 2 . ( - 2 ) ^ { 2 } + ( 6 - m ) \\cdot ( - 2 ) + 3 - 2 m \\neq 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}m^{2}+4 m+12>0 \\\\-1 \\neq 0\\end{array} \\Leftrightarrow \\forall m \\in \\mathbb{R}\\right.\\right.\\]<br>+ Giả sử các hoành độ giao điểm là %(x_{1}, x_{2})%.<br>Ta có %(k_{1}=\\frac{1}{\\left(x_{1}+1\\right)^{2}}, k_{2}=\\frac{1}{\\left(x_{2}+1\\right)^{2}})%.<br>Ta có %(k_{1} \\cdot k_{2}=\\frac{1}{\\left(x_{1}+2\\right)^{2}\\left(x_{2}+2\\right)^{2}}=\\frac{1}{\\left(x_{1} x_{2}+2 x_{1}+2 x_{2}+4\\right)^{2}}=4)%.<br>\\[+P=\\left(k_{1}\\right)^{2017}+\\left(k_{2}\\right)^{2017} \\geq 2 \\cdot \\sqrt{\\left(k_{1} k_{2}\\right)^{2017}}=2^{2018} \\text {. }\\]<br>+ Dấu bằng xảy ra khi %(\\Leftrightarrow \\frac{1}{\\left(x_{1}+2\\right)^{2}}=\\frac{1}{\\left(x_{2}+2\\right)^{2}} \\Leftrightarrow\\left(x_{1}+2\\right)^{2}=\\left(x_{2}+2\\right)^{2} \\Rightarrow m=-2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Giải phương trình %(2 \\sqrt{3} \\cdot \\sin ^{3} x+(\\cos x+1)(6 \\cos x-9)+3 \\sin 2 x \\cdot \\sin x+6=0)%.",
+        "question_images": [],
+        "solution": "Phương trình tương đương<br>\\[\\begin{array}{l}\\Leftrightarrow 2 \\sqrt{3} \\cdot \\sin ^{3} x-3\\left(2 \\cos ^{3} x-2 \\cos ^{2} x-\\cos x+1\\right)=0 \\\\Leftrightarrow 2 \\sqrt{3} \\cdot \\sin x \\cdot(1-\\cos x)(1+\\cos x)-3(\\cos x-1)\\left(2 \\cos ^{2} x-1\\right)=0 \\\\Leftrightarrow \\sqrt{3}(1-\\cos x)[2 \\sin x(1+\\cos x)+\\sqrt{3} \\cdot \\cos 2 x]=0 \\\\Leftrightarrow\\left[\\begin{array}{l}\\cos x=1 \\\\2 \\sin x+\\sin 2 x+\\sqrt{3} \\cdot \\cos 2 x=0\\end{array}\\right.\\end{array}\\]<br>Với %(\\cos x=1 \\Leftrightarrow x=k .2 \\pi)%<br>Với %(2 \\sin x+\\sin 2 x+\\sqrt{3} \\cdot \\cos 2 x=0 \\Leftrightarrow \\sin \\left(2 x+\\frac{\\pi}{3}\\right)=\\sin (-x) \\Leftrightarrow\\left[\\begin{array}{l}2 x+\\frac{\\pi}{3}=-x+k \\cdot 2 \\pi \\\\ 2 x+\\frac{\\pi}{3}=\\pi+x+k \\cdot 2 \\pi\\end{array}\\right.)%<br>\\[\\Leftrightarrow\\left[\\begin{array}{l}x=-\\frac{\\pi}{9}+k \\frac{2 \\pi}{3} \\x=\\frac{2 \\pi}{3}+k 2 \\pi\\end{array}\\right.\\]<br>Kết luận: phương trình có nghiệm %(x=k 2 \\pi ; x=-\\frac{\\pi}{9}+k \\frac{2 \\pi}{3} ; x=\\frac{2 \\pi}{3}+k 2 \\pi)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Cho %(a=\\log 196, b=\\log 56)%. Tính %(\\log 0.175)% theo %(a, b)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}+ \\text { Ta có } \\log 0.175=\\log \\left(175.10^{-3}\\right)=\\log 175-3 \\text {. } \\\\ \\text { + Giả sử tồn tại ba số } m, n, p \\text { sao cho } 175=10^{m} .196^{n} .56^{p} \\\\ \\Leftrightarrow 5^{2} .7^{1}=(2.5)^{m} .\\left(2^{2} .7^{2}\\right)^{n} .\\left(2^{3} .7\\right)^{p} \\\\ \\Leftrightarrow 2^{0} \\cdot 5^{2} .7^{1}=2^{m+2 n+3 p} \\cdot 5^{m} \\cdot 7^{2 n+p}(*) \\\\ + \\text { Vì } 2,5 \\text { và } 7 \\text { là các số nguyên tố cùng nhau nên } \\\\ \\left(^{*}\\right) \\Leftrightarrow\\left\\{\\begin{array}{l}m+2 n+3 p=0 \\\\ m=2 \\\\ 2 n+p=1\\end{array} \\Leftrightarrow m=2, n=\\frac{5}{4}, p=-\\frac{3}{2}\\right. \\\\ \\text { + Do đó } \\log 175=\\log \\left(10^{2} \\cdot 196^{\\frac{5}{4}} \\cdot 56^{-\\frac{3}{2}}\\right)=2+\\frac{5}{4} \\log 196-\\frac{3}{2} \\log 56=2+\\frac{5}{4} a-\\frac{3}{2} b \\\\ + \\text { Vậy } \\log 0.175=\\frac{5}{4} a-\\frac{3}{2} b-1 \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình<br>\\[\\left\\{\\begin{array}{l}\\sqrt{2 x^{2}+6 x y+5 y^{2}}+5=\\sqrt{2 x^{2}+6 x y+5 y^{2}+14 x+20 y+25}(1) \\\\7^{2 x+5 y-1}=6 \\log _{7}(5 x-5 y-5)+1(2)\\end{array}\\right.\\]",
+        "question_images": [],
+        "solution": "Phương trình (1) tương đương<br>\\[\\sqrt{(x+y)^{2}+(x+2 y)^{2}}+\\sqrt{4^{2}+3^{2}}=\\sqrt{(x+y+4)^{2}+(x+2 y+3)^{2}}(*)\\]<br>Giả sử %(\\vec{a}=(x+y ; x+2 y), \\vec{b}=(4 ; 3) \\Rightarrow \\vec{a}+\\vec{b}=(x+y+4 ; x+2 y+3))%.<br>Phương trình %(\\left({ }^{*}\\right))% có dạng %(|\\vec{a}|+|\\vec{b}|=|\\vec{a}+\\vec{b}|)%<br>Ta luôn có %(|\\vec{a}|+|\\vec{b}| \\geq|\\vec{a}+\\vec{b}|)%.<br>Do đó (*) xảy ra khi và chỉ khi %(\\vec{a}=(x+y ; x+2 y), \\vec{b}=(4 ; 3))% cùng hướng.Khi đó %(\\frac{x+y}{4}=\\frac{x+2 y}{3} \\Leftrightarrow x=-5 y)%<br>Thay vào phương trình (2) ta được %(7^{x-1}=6 \\log _{7}(6 x-5)+1)%<br>Điều kiện: %(x\\gt \\frac{5}{6})%<br>Đặt %(t-1=\\log _{7}(6 x-5))%. Khi đó ta có hệ phương trình %(\\left\\{\\begin{array}{l}7^{x-1}=6(t-1)+1 \\\\ 7^{t-1}=6 x-5\\end{array}\\right.)%<br>Trừ theo vế hai phương trình ta được %(7^{x-1}+6 x=7^{t-1}+6 t(*))%<br>Xét hàm số %(f(u)=7^{u-1}+6 u)% trên %(\\mathbb{R})%.<br>Ta dễ dàng thấy %(f(u))% đồng biến trên %(\\mathbb{R})%.<br>Khi đó<br>\\[(*) \\Leftrightarrow f(x)=f(t) \\Leftrightarrow x=t \\Leftrightarrow \\log _{7}(6 x-5)=x-1 \\Leftrightarrow 6 x-5=7^{x-1} \\Leftrightarrow 7^{x-1}-6 x+5=0\\]<br>Xét hàm số %(g(x)=7^{x-1}-6 x+5)% trên %(\\mathbb{R})%.Ta có %(g^{\\prime}(x)=7^{x-1} \\cdot \\ln 7-6)%<br>\\[g^{\\prime \\prime}(x)=7^{x-1} \\cdot \\ln ^{2} 7\\gt 0 \\quad \\forall x \\in \\mathbb{R}\\]<br>Do %(g^{\\prime \\prime}(x)>0 \\quad \\forall x \\in \\mathbb{R})% nên %(g^{\\prime}(x))% là hàm số đồng biến trên %(\\mathbb{R})%.<br>Do đó %(g^{\\prime}(x)=0)% có tối đa 1 nghiệm.<br>Như thế phương trình %(g(x)=0)% có tối đa 2 nghiệm.<br>Mặt khác %(g(1)=g(2)=0)%, vì vậy phương trình (3) có đúng hai nghiệm %(x=1 ; x=2)%.<br>Vậy hệ phương trình có hai nghiệm %(\\left(1 ;-\\frac{1}{5}\\right))% và %(\\left(2 ;-\\frac{2}{5}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Tính tích phân %(I=\\int_{1}^{\\sqrt{3}+\\sqrt{2}}\\left(1-\\frac{1}{x^{2}}\\right) \\sqrt{14-x^{2}-\\frac{1}{x^{2}}} d x)%",
+        "question_images": [],
+        "solution": "\\[I=\\int_{1}^{\\sqrt{3}+\\sqrt{2}} \\sqrt{16-\\left(x+\\frac{1}{x}\\right)^{2}} d\\left(x+\\frac{1}{x}\\right)\\]<br>Đặt %(x+\\frac{1}{x}=4 \\sin t)% với %(t \\in\\left[-\\frac{\\pi}{2} ; \\frac{\\pi}{2}\\right])%.<br>Đổi cận: %(x=1 \\Rightarrow t=\\frac{\\pi}{6}, x=\\sqrt{3}+\\sqrt{2} \\Rightarrow t=\\frac{\\pi}{3})%.<br>Ta có %(I=\\int_{\\frac{\\pi}{6}}^{\\frac{\\pi}{3}} \\sqrt{16-16 \\sin ^{2} t} d(4 \\sin t)=\\int_{\\frac{\\pi}{6}}^{\\frac{\\pi}{3}} 16 \\cos ^{2} t d t)%<br>\\[\\left.=\\int_{\\frac{\\pi}{6}}^{\\frac{\\pi}{3}}(8+8 \\cos 2 t) d t=(8 t+4 \\sin 2 t) \\right\\rvert\\, \\frac{\\frac{\\pi}{3}}{\\frac{\\pi}{6}}=\\frac{4 \\pi}{3}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Một hộp đựng 50 quả cầu được đánh số theo thứ tự từ 1 đến 50 . Lấy ngẫu nhiên 3 quả cầu từ hộp đó. Tính xác suất để tích 3 số ghi trên 3 quả cầu lấy được là một sồ chia hết cho 8 .",
+        "question_images": [],
+        "solution": "Có %(C_{50}^{3})% cách lấy ra 3 quả cầu từ hộp đã cho.Chia 50 quả cầu trong hộp thành 4 nhóm:<br>+ Nhóm I: gồm 25 quả cầu mang số lẻ<br>+ Nhóm II: gồm 13 quả cầu mang số chia hết cho 2 mà không chia hết cho 4 .<br>+ Nhóm III: gồm 6 quả cầu mang số chia hết cho 4 mà không chia hết cho 8 .<br>+ Nhóm IV: gồm 6 quả cầu mang số chia hết cho 8 .<br>Đế tích 3 số ghi trên 3 quả cầu lấy được là một số không chia hết cho 8 thì có 4 trường hợp sau xảy ra:<br>1) 1 quả thuộc nhóm %(\\mathrm{I}, 2)% quả thuộc nhóm II: có %(C_{25}^{1} \\cdot C_{13}^{2})% cách lấy.<br>2) 2 quả thuộc nhóm I, 1 quả thuộc nhóm II: có %(C_{25}^{2} \\cdot C_{13}^{1})% cách lấy.<br>3) 2 quả thuộc nhóm %(\\mathrm{I}, 1)% quả thuộc nhóm III: có %(C_{25}^{2} . C_{6}^{1})% cách lấy.<br>4) 3 quả thuộc nhóm I: có %(C_{25}^{3})% cách lấy.<br>Vậy xác suất cần tính là %(1-\\frac{C_{25}^{1} \\cdot C_{13}^{2}+C_{25}^{2} \\cdot C_{13}^{1}+C_{25}^{2} \\cdot C_{6}^{1}+C_{25}^{3}}{C_{50}^{3}}=\\frac{193}{392})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho hình lăng trụ %(A B C . A^{\\prime} B^{\\prime} C^{\\prime})% có đáy %(A B C)% là tam giác đều cạnh %(a)%. Hình chiếu vuông góc hạ từ %(A^{\\prime})% xuống %((A B C))% là trọng tâm của tam giác %(A B C)%. Mặt phẳng %(\\left(B C C^{\\prime} B^{\\prime}\\right))% hợp với mặt phẳng đáy góc %(45^{\\circ})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Tính thể tích khối lăng trụ %(A B C \\cdot A^{\\prime} B^{\\prime} C^{\\prime})%",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{M}, \\mathrm{M}^{\\prime})% lần lượt là trung điểm của %(\\mathrm{BC}, \\mathrm{B}^{\\prime} \\mathrm{C}^{\\prime})%.%(\\mathrm{G})% là trọng tâm của tam giác %(\\mathrm{ABC})%<br>Ta chứng minh được góc giũa hai mặt phẳng %(\\left(B C C^{\\prime} B^{\\prime}\\right))% và %((A B C))% là góc giữa hai đường thằng thẳng %(M M^{\\prime})% và %(A M)% hay là góc giữa %(A A^{\\prime})% và %(A M)% bằng %(\\widehat{A^{\\prime} A G}=45^{\\circ})%<br>Tính được %(A^{\\prime} G=A G=\\frac{2}{3} A M=\\frac{a \\sqrt{3}}{3})%<br>\\[S_{\\triangle A B C}=\\frac{a^{2} \\sqrt{3}}{4}(đ v d t)\\]<br>Thể tích khối lăng trụ %(\\mathrm{ABC} . \\mathrm{A}^{\\prime} \\mathrm{B}^{\\prime} \\mathrm{C})% ' là<br>\\[V=S_{\\triangle A B C} \\cdot A^{\\prime} G=\\frac{a^{2} \\sqrt{3}}{4} \\cdot \\frac{a \\sqrt{3}}{3}=\\frac{a^{3}}{4}(đ v t t)\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a19964fc64905c21f801220eb7427a91.png\" srcset=\"https://docdn.giainhanh.io/media/test/aac2fbeb58dbf415d3a3ec9911042e9d.png 203w, https://docdn.giainhanh.io/media/test/d960f30b338c0b1444705ae76ccdf0ee.png 500w, https://docdn.giainhanh.io/media/test/546345c9f66551fbbb2b327496a5e84a.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Gọi %(I, J)% lần lượt là trung điểm của đoạn thẳng %(A B)% và %(C C^{\\prime})%. Tính khoảng cách giữa hai đường thẳng %(A A^{\\prime})% và %(I J)%.",
+        "question_images": [],
+        "solution": "Kẻ Ax song song với CI<br>Kẻ %(\\mathrm{GH})% vuông góc với %(\\mathrm{Ax})% tại %(\\mathrm{H})%<br>Kẻ GK vuông góc với %(A^{\\prime} H)% tại %(\\mathrm{K})%<br>Ta chứng minh được%(\\left(A^{\\prime} A H\\right) / /\\left(C^{\\prime} C I\\right))% mà %(\\mathrm{AA}^{\\prime} \\subset\\left(A^{\\prime} A H\\right) ; I J \\subset\\left(C^{\\prime} C I\\right))%<br>Suy ra %(d\\left(A A^{\\prime}, I J\\right)=d\\left(\\left(A^{\\prime} A H\\right),\\left(C^{\\prime} C I\\right)\\right)=d\\left(G,\\left(A^{\\prime} A H\\right)\\right)=G K)%<br>Tính được %(G H=\\frac{a}{2}, \\frac{1}{G K^{2}}=\\frac{1}{A^{\\prime} G^{2}}+\\frac{1}{G H^{2}} \\Rightarrow G K=\\frac{a \\sqrt{7}}{7})%<br>Vậy %(d\\left(A A^{\\prime}, I J\\right)=\\frac{a \\sqrt{7}}{7})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "9",
+        "group_content": "Cho hình chóp %(S . A B C D)% có đáy %(A B C D)% là hình vuông cạnh %(3 a)%. Điểm %(H)% nằm trên cạnh %(A B)% thỏa mãn %(H B=2 H A, S H)% vuông góc với %(A B)%. Mặt phẳng %((S A B))% vuông góc với mặt phẳng chứa đáy, %(S A)% hợp với đáy góc %(60^{\\circ})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Xác định tâm và bán kính của mặt cầu %((S))% ngoại tiếp hình chóp %(S . A B C D)%.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{O})% là giao điểm của %(\\mathrm{AC})% và %(\\mathrm{BD})%<br>Gọi %(\\mathrm{I})% là trung điểm của %(\\mathrm{AB}, \\mathrm{K})% là tâm đường tròn ngoại tiếp tam giác %(\\mathrm{SAB})%<br>Dựng %((\\Delta))% đi qua %(\\mathrm{O})% và vuông góc với mặt phẳng %((\\mathrm{ABCD}))%<br>Dựng ( %(\\left.\\Delta^{\\prime}\\right))% đi qua %(K)% và vuông góc với %((\\mathrm{SAB}))%%((\\Delta))% cắt %(\\left(\\Delta^{\\prime}\\right))% tại %(\\mathrm{J})%.<br>Suy ra %(\\mathrm{J})% là tâm mặt cầu ngoại tiếp hình chóp %(\\mathrm{S} . \\mathrm{ABCD})%<br>Tính được %(S H=a \\sqrt{3}, S_{\\triangle S A B}=\\frac{1}{2} A B . S H=\\frac{3 \\sqrt{3} a^{2}}{2}(đ v d t))%<br>\\[S A=2 a, S B=a \\sqrt{7}\\]<br>Bán kính đường tròn ngoại tiếp tam giác<br>%(\\mathrm{SAB} r=\\frac{S A \\cdot S B \\cdot A B}{4 S_{\\triangle A B C}}=\\frac{4 a \\sqrt{21}}{3} \\Rightarrow K A=\\frac{4 a \\sqrt{21}}{3})%<br>\\[I K=\\sqrt{A K^{2}-A I^{2}}=\\sqrt{\\left(\\frac{4 a \\sqrt{21}}{3}\\right)^{2}-\\left(\\frac{3 a}{2}\\right)^{2}}=a \\sqrt{\\frac{421}{12}}\\]<br>Bán kính mặt cầu ngoại tiếp hình chóp %(\\mathrm{S} . \\mathrm{ABCD})% là<br>\\[R=J A=\\sqrt{A O^{2}+J O^{2}}=\\sqrt{A O^{2}+I K^{2}}=\\sqrt{\\left(\\frac{3 a \\sqrt{2}}{2}\\right)^{2}+\\left(a \\sqrt{\\frac{421}{12}}\\right)^{2}}=a \\sqrt{\\frac{475}{12}}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/efa1f5ea364dd1d710a078768f192db3.png\" srcset=\"https://docdn.giainhanh.io/media/test/8202ba1ad484a3a96c4801131662ccea.png 219w, https://docdn.giainhanh.io/media/test/4348368202edad1b6cebeab10f7a4e8d.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Mặt phẳng %((P))% đi qua trung điểm của %(S A)% và song song với mặt phẳng %((A B C D))%, mặt phẳng %((P))% cắt mă̆t cầu %((S))% theo giao tuyến là đường tròn %((C))%. Tính bán kính đường tròn %((C))%.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{M})% là trung điểm của %(\\mathrm{SA})%<br>Khoảng cách từ %(\\mathrm{M})% đến %((\\mathrm{ABCD}))% bằng %(\\frac{1}{2} S H=\\frac{a \\sqrt{3}}{2})%<br>Khoảng cách từ %(\\mathrm{J})% đến mặt phẳng %((\\mathrm{P}))% bằng %(d=\\left|\\frac{a \\sqrt{3}}{2}-a \\sqrt{\\frac{421}{12}}\\right|=a\\left(\\sqrt{\\frac{421}{12}}-\\frac{\\sqrt{3}}{2}\\right))%<br>Bán kính đường tròn %((C))% là<br>\\[r_{1}=\\sqrt{R^{2}-d^{2}}=a \\sqrt{\\frac{475}{12}-\\left(\\sqrt{\\frac{421}{12}}-\\frac{\\sqrt{3}}{2}\\right)^{2}}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "10 ",
+        "point": 1.0,
+        "content": "Cho %(x, y, z)% là các số thực dương thỏa mãn %(y+z=x\\left(y^{2}+z^{2}\\right))%.Tìm giá trị nhỏ nhất của biểu thức<br>\\[P=\\frac{1}{(x+1)^{2}}+\\frac{1}{(y+1)^{2}}+\\frac{1}{(z+1)^{2}}+\\frac{4}{(x+1)(y+1)(z+1)} .\\]",
+        "question_images": [],
+        "solution": "Theo giả thiết %(y+z=x\\left(y^{2}+z^{2}\\right) \\geq \\frac{1}{2} x(y+z)^{2} \\Rightarrow y+z \\leq \\frac{2}{x})%.<br>Ta có:<br>\\[\\begin{array}{l}\\frac{1}{(y+1)^{2}}+\\frac{1}{(z+1)^{2}} \\geq \\frac{2}{(y+1)(z+1)} \\geq \\frac{8}{(y+z+2)^{2}} \\geq \\frac{8}{\\left(\\frac{2}{x}+2\\right)^{2}}=\\frac{2 x^{2}}{(x+1)^{2}} . \\\\frac{1}{(x+1)(y+1)(z+1)} \\geq \\frac{4}{(x+1)(y+z+2)^{2}} \\geq \\frac{4}{(1+x)\\left(\\frac{2}{x}+2\\right)^{2}}=\\frac{x^{2}}{(x+1)^{3}} .\\end{array}\\]<br>Suy ra %(P \\geq \\frac{1}{(1+x)^{2}}+\\frac{2 x^{2}}{(1+x)^{2}}+\\frac{4 x^{2}}{(1+x)^{3}}=\\frac{2 x^{3}+6 x^{2}+x+1}{(1+x)^{3}})%<br>Xét hàm số %(f(x)=\\frac{2 x^{3}+6 x^{2}+x+1}{(1+x)^{3}})% với %(x\\gt 0)% tìm được giá trị nhỏ nhất của %(f(x))% là %(\\frac{91}{108})%khi %(x=\\frac{1}{5})%.<br>Vậy giá trị nhỏ nhất của %(P)% là %(\\frac{91}{108})% đạt được khi %(x=\\frac{1}{5}, y=z=5)%.",
+        "question_type": "essay"
+    }
+]

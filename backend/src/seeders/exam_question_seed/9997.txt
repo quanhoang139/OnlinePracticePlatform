@@ -1,0 +1,81 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng %(\\mathrm{n}^{5}+9 n+3^{2025})% không phải là số chính phương với %(n)% là số tự nhiên.<br>Ta có %(\\mathrm{n}^{5}+9 n+3^{2025}=\\left(n^{5}-n\\right)+10 n+3.3^{2024})%%(\\left(\\mathrm{n}^{5}-\\mathrm{n}\\right)+10 \\mathrm{n}: 5)% nên nó có chữ số tận cùng là 0 hoặc %(5,3.3^{2024})% có chữ số tận cùng là 3 .<br>Nên %(n^{5}+9 n+3^{2025})% có chữ số tận cùng là 3 hoặc %(8 \\Rightarrow n^{5}+9 n+3^{2025})% không phải là số chính phương.",
+        "question_images": [],
+        "solution": "Ta có %(\\mathrm{n}^{5}+9 n+3^{2025}=\\left(n^{5}-n\\right)+10 n+3.3^{2024})%%(\\left(\\mathrm{n}^{5}-\\mathrm{n}\\right)+10 \\mathrm{n}: 5)% nên nó có chữ số tận cùng là 0 hoặc %(5,3.3^{2024})% có chữ số tận cùng là 3 .<br>Nên %(n^{5}+9 n+3^{2025})% có chữ số tận cùng là 3 hoặc %(8 \\Rightarrow n^{5}+9 n+3^{2025})% không phải là số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các cặp số nguyên %((\\mathrm{m}, \\mathrm{n}))% thỏa mãn: %(\\mathrm{m}^{2}+\\mathrm{m}=3^{2024 \\mathrm{n}}+19)%.",
+        "question_images": [],
+        "solution": "Trường hợp 1: với %(\\mathrm{n}\\lt 0, \\mathrm{~m}^{2}+\\mathrm{m})% là số nguyên, %(3^{2024 \\mathrm{n}}+19)% không phải số nguyên ( loại)<br>Trường hợp 2: Với %(\\mathrm{n}=0 \\Rightarrow \\mathrm{m}^{2}+\\mathrm{m}=2 \\Rightarrow \\mathrm{m}^{2}+\\mathrm{m}-20=0 \\Rightarrow(\\mathrm{m}-4)(\\mathrm{m}+5)=0)%%(\\Rightarrow \\mathrm{m}=4)% ( thỏa mãn), %(\\mathrm{m}=-5)% ( thỏa mãn)<br>Trường hợp 3: Với %(n\\gt 0)% : Ta có %(3^{2024 \\mathrm{n}}+19)% chia 3 dư 1<br>Ta có %(\\mathrm{m}^{2}+\\mathrm{m}=\\mathrm{m}(\\mathrm{m}+1))%, nếu %(\\mathrm{m}=3 \\mathrm{k}, \\mathrm{m}=3 \\mathrm{k}+2 \\Rightarrow \\mathrm{m}(\\mathrm{m}+1))% : 3<br>Nếu %(\\mathrm{m}=3 \\mathrm{k}+1 \\Rightarrow \\mathrm{m}(\\mathrm{m}+1))% chia %(3 \\mathrm{du} 2 \\Rightarrow \\mathrm{m}^{2}+\\mathrm{m}=3^{2024 \\mathrm{n}}+19)% ( vô lí)<br>Vậy %((m, n)=(4,0),(m, n)=(-5,0))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 3.5,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}(x-y)^{3}+(x-y)(x y+x-y)+x y=0 \\\\ \\left(y^{2}+1\\right)\\left(3 x^{2}+6 x+8\\right)=2 y^{2}+5\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}(x-y)^{3}+(x-y)(x y+x-y)+x y=0(1) \\\\ \\left(y^{2}+1\\right)\\left(3 x^{2}+6 x+8\\right)=2 y^{2}+5(2)\\end{array}\\right.)%<br>Từ PT %((1) \\Leftrightarrow(x-y)^{3}+(x-y)^{2}+(x-y) x y+x y=0 \\Leftrightarrow(x-y+1)\\left(x^{2}-x y+y^{2}\\right)=0)%<br>Trường hợp 1: %(\\mathrm{x}^{2}-\\mathrm{xy}+\\mathrm{y}^{2}=0 \\Leftrightarrow\\left(\\mathrm{x}-\\frac{1}{2} \\mathrm{y}\\right)^{2}+\\frac{3}{4} \\mathrm{y}^{2}=0 \\Rightarrow \\mathrm{x}=\\mathrm{y}=0)% không thỏa mãn PT (2)<br>Trường hợ 2: %(\\mathrm{x}-\\mathrm{y}+1=0 \\Leftrightarrow \\mathrm{y}=\\mathrm{x}+1)% thay vào PT (2) ta có: %(\\left(\\mathrm{y}^{2}+1\\right)\\left(3 \\mathrm{y}^{2}+5\\right)=2 \\mathrm{y}^{2}+5)%<br>\\[3 y^{4}+6 y^{2}=0 \\Leftrightarrow\\left[\\begin{array}{l}y^{2}=0 \\Rightarrow y=0 \\Rightarrow x=-1 \\y^{2}=-2\\end{array} \\quad \\text { với } y^{2}=-2\\right. \\text { ( loại) }\\]<br>Vậy hệ phương trình có nghiệm là: %((-1 ; 0))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 3.5,
+        "content": "Giải phương trình %(\\sqrt{3 \\mathrm{x}+1}-\\sqrt{6-x}+3 x^{2}-35 x+97=0)%.",
+        "question_images": [],
+        "solution": "ĐКХĐ: %(-\\frac{1}{3} \\leq \\mathrm{x} \\leq 6)%<br>Phương trình %(\\Leftrightarrow(\\sqrt{3 x+1}-4)+(1-\\sqrt{6-x})+3 x^{2}-35 x+100=0)%<br>%(\\Leftrightarrow(\\sqrt{3 x+1}-4)+(1-\\sqrt{6-x})+(x-5)(3 x-20)=0)%.<br>%(\\frac{3 x-15}{\\sqrt{3 x+1}+4}+\\frac{x-5}{1+\\sqrt{6-x}}+(x-5)(3 x-20)=0)%<br>Xét phương trình %(\\frac{3}{\\sqrt{3 \\mathrm{x}+1}+4}+\\frac{1}{1+\\sqrt{6-\\mathrm{x}}}+3 \\mathrm{x}-20=0)%%(\\frac{3}{\\sqrt{3 x+1}+4} \\leq \\frac{3}{4}, \\frac{1}{1+\\sqrt{6-x}} \\leq 1, \\quad 3 x \\leq 18 \\Rightarrow)% Phương trình %(\\left(^{*}\\right))% vô nghiệm<br>Vậy phương trình có nghiệm %(\\mathrm{x}=5)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là độ dài ba cạnh của một tam giác thỏa mãn %(\\mathrm{b}=\\frac{\\mathrm{c}(\\mathrm{ab}-1)}{2})%.<br>Chứng minh rằng %(\\frac{3}{\\mathrm{~b}+\\mathrm{c}-\\mathrm{a}}+\\frac{5}{\\mathrm{a}+\\mathrm{c}-\\mathrm{b}}+\\frac{4}{\\mathrm{a}+\\mathrm{b}-\\mathrm{c}} \\geq 4 \\sqrt{3})%.",
+        "question_images": [],
+        "solution": "Đặt %(M=\\frac{3}{b+c-a}+\\frac{5}{a+c-b}+\\frac{4}{a+b-c})%<br>\\[=\\left(\\frac{1}{b+c-a}+\\frac{1}{a+b-c}\\right)+2\\left(\\frac{1}{b+c-a}+\\frac{1}{a+c-b}\\right)+3\\left(\\frac{1}{a+c-b}+\\frac{1}{a+b-c}\\right)\\]<br>Áp dụng %(\\mathrm{B} Đ \\mathrm{~T}: \\frac{1}{\\mathrm{x}}+\\frac{1}{\\mathrm{y}} \\geq \\frac{4}{\\mathrm{x}+\\mathrm{y}}(\\mathrm{x}, \\mathrm{y}\\gt 0) . \\Rightarrow \\mathrm{M} \\geq \\frac{4}{2 \\mathrm{~b}}+\\frac{8}{2 \\mathrm{c}}+\\frac{12}{2 \\mathrm{a}}=2\\left(\\frac{1}{\\mathrm{~b}}+\\frac{2}{\\mathrm{c}}+\\frac{3}{\\mathrm{a}}\\right))%<br>Từ %(\\mathrm{b}=\\frac{\\mathrm{c}(\\mathrm{ab}-1)}{2} \\Rightarrow \\frac{1}{\\mathrm{~b}}+\\frac{2}{\\mathrm{c}}=\\mathrm{a})%.%(\\mathrm{M} \\geq 2\\left(\\mathrm{a}+\\frac{3}{\\mathrm{a}}\\right) \\geq 2.2 \\sqrt{\\mathrm{a} \\cdot \\frac{3}{\\mathrm{a}}}=4 \\sqrt{3})% ( Bất đẳng thức Cosi).<br>Dấu bằng xảy ra khi %(\\mathrm{a}=\\mathrm{b}=\\mathrm{c}=\\sqrt{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho đường tròn %((\\mathrm{O} ; \\mathrm{R}))% cố định và điểm A cố định nằm ngoài đường tròn %((\\mathrm{O} ; \\mathrm{R}))%. Từ điểm A vẽ hai tiếp tuyến %(\\mathrm{AB}, \\mathrm{AC})% tới đường tròn %((\\mathrm{O} ; \\mathrm{R})(\\mathrm{B}, \\mathrm{C})% là các tiếp điểm %())%. Qua A vẽ đường thẳng cố định cắt đường tròn %((\\mathrm{O} ; \\mathrm{R}))% tại hai điểm phân biệt I và E ( I nằm giữa hai điểm %(\\mathrm{A}, \\mathrm{E})% và %(\\mathrm{EBC}\\lt 90^{\\circ})% ). Gọi H là giao điểm của AO và BC . Qua H vẽ đường thẳng %((\\mathrm{d}))% song song với BE , biết %((\\mathrm{d}))% cắt các đường thẳng %(\\mathrm{BI}, \\mathrm{BA})% lần lượt tại Q và N .<br><br>c) Vẽ đường tròn %(\\left(\\mathrm{P} ; \\mathrm{R}_{1}\\right))% thay đổi nhưng luôn đi qua hai điểm I và E . Từ Avẽ hai tiếp tuyến %(\\mathrm{AD}, \\mathrm{AJ})% với đường tròn %(\\left(\\mathrm{P} ; \\mathrm{R}_{1}\\right)(\\mathrm{D}, \\mathrm{J})% là các tiếp điểm %())%. Chứng minh đường thẳng DJ luôn đi qua một điểm cố định.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 4.0,
+        "content": "a) Chứng minh rằng %(\\frac{\\mathrm{BI}}{\\mathrm{BE}}=\\frac{\\mathrm{CI}}{\\mathrm{CE}})%.",
+        "question_images": [],
+        "solution": "Xét hai tam giác ABI và tam giác AEB có BAE chung, và %(\\mathrm{ABI}=\\mathrm{BEI}=\\frac{1}{2} \\mathrm{sdBI})%<br>%(\\Rightarrow \\triangle \\mathrm{ABI} \\sim \\triangle \\mathrm{AEB}(\\mathrm{g} \\cdot \\mathrm{g}) \\Rightarrow \\frac{\\mathrm{BI}}{\\mathrm{BE}}=\\frac{\\mathrm{AB}}{\\mathrm{AE}})%<br>Tương tự %(\\triangle \\mathrm{ACI} \\sim \\triangle \\mathrm{AEC}(\\mathrm{g} . \\mathrm{g}) \\Rightarrow \\frac{\\mathrm{CI}}{\\mathrm{CE}}=\\frac{\\mathrm{AC}}{\\mathrm{AE}} \\quad)% (2) mà %(\\mathrm{AB}=\\mathrm{AC})%<br>Kết hợp (1), (2) %(\\Rightarrow \\frac{\\mathrm{BI}}{\\mathrm{BE}}=\\frac{\\mathrm{CI}}{\\mathrm{CE}})% ( điều phải chứng minh)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7731a1fe55161340dac5906a4475ac15.png\" srcset=\"https://docdn.giainhanh.io/media/test/fe1c0a2568e99732d6874fc1f1e78e18.png 245w, https://docdn.giainhanh.io/media/test/9f4993c07e75161e1d14c151bcd3b77d.png 500w, https://docdn.giainhanh.io/media/test/b862c4e4981b4403323b201f2cc0a7be.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.5,
+        "content": "b) Chứng minh rằng Q là trung điểm của NH .",
+        "question_images": [],
+        "solution": "Xét hai %(\\Delta \\mathrm{BQN})% và %(\\Delta \\mathrm{EBI})% có %(\\mathrm{NBQ}=\\mathrm{BEI}, \\mathrm{NQB}=\\mathrm{EBI})% ( so le trong)<br>\\[\\Rightarrow \\triangle \\mathrm{BQN} \\sim \\Delta \\mathrm{EBI}(\\mathrm{g} \\cdot \\mathrm{g}) \\Rightarrow \\frac{\\mathrm{BQ}}{\\mathrm{NQ}}=\\frac{\\mathrm{EB}}{\\mathrm{IB}}\\]<br>Xét %(\\triangle \\mathrm{BHQ})% và %(\\triangle \\mathrm{EIC})% có %(\\mathrm{QBH}=\\mathrm{IEC}=\\frac{1}{2} s \\mathrm{IIC})%, và %(\\mathrm{ECI}=\\mathrm{BQH})% ( cùng bù IBE )<br>\\[\\Rightarrow \\triangle \\mathrm{BHQ} \\sim \\Delta \\mathrm{EIC}(\\mathrm{g} \\cdot \\mathrm{g}) \\Rightarrow \\frac{\\mathrm{QB}}{\\mathrm{QH}}=\\frac{\\mathrm{EC}}{\\mathrm{IC}}\\]<br>Từ (3), (4) kết hợp %(\\frac{\\mathrm{BI}}{\\mathrm{BE}}=\\frac{\\mathrm{CI}}{\\mathrm{CE}} \\Rightarrow \\mathrm{QH}=\\mathrm{QN} \\Rightarrow \\mathrm{Q})% là trung điểm HN ( điều phải chứng minh)",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Gọi T là giao điê̂m của DJ và AE , gọi G là trung điểm của %(\\mathrm{IE} \\Rightarrow \\mathrm{G})% là điê̂m cố định<br>Gọi L là giao điểm của AP và %(\\mathrm{DJ} \\Rightarrow \\mathrm{DJ} \\perp \\mathrm{AP})%%(\\triangle \\mathrm{APG} \\sim \\triangle \\mathrm{ATL}(\\mathrm{g} . \\mathrm{g}) \\Rightarrow \\mathrm{AL} . \\mathrm{AP}=\\mathrm{AT} . \\mathrm{AG})%<br>Tam giác ADP vông tại D có DL là đường cao<br>%(\\Rightarrow \\mathrm{AL} . \\mathrm{AP}=\\mathrm{AD}^{2})%%(\\Delta \\mathrm{ADI})% và %(\\triangle \\mathrm{AED})% có góc A chung, và %(\\mathrm{ADI}=\\mathrm{AED})% ( cùng chắn cung DI của đường tròn tâm P )%(\\Delta \\mathrm{ADI} \\sim \\Delta \\mathrm{AED}(\\mathrm{g} . \\mathrm{g}) \\Rightarrow \\frac{\\mathrm{AD}}{\\mathrm{AE}}=\\frac{\\mathrm{AI}}{\\mathrm{AD}} \\Rightarrow \\mathrm{AD}^{2}=\\mathrm{AI} . \\mathrm{AE})% ( không đổi)<br>%(\\Rightarrow)% AT.AG không đổi, mà AG không đồi nên AT không đổi<br>%(\\Rightarrow)% điểm T cố định.<br>Vậy đường đường thẳng DJ luôn đi qua điểm T cố định.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ebfc4e5379c674895b280269fed9509c.png\" srcset=\"https://docdn.giainhanh.io/media/test/d4925469dec70a3ab32d8d7a166d4895.png 245w, https://docdn.giainhanh.io/media/test/641dfb2724651e97eef13c15f41196e3.png 500w, https://docdn.giainhanh.io/media/test/b80e25e34f439626272aec687cbaf753.png 750w, https://docdn.giainhanh.io/media/test/b1f2d8314135c996143f7553a64530f5.png 1000w\" width=\"1000\"/>",
+        "question_images": [],
+        "solution": "",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Trong phòng có 121 người, biết mỗi người quen với ít nhất 81 người khác. Chứng minh rằng trong phòng phải có 4 người từng đôi một quen nhau.",
+        "question_images": [],
+        "solution": "Xét A là một người bất kì trong phòng chứa 121 người đó suy ra A quen với ít nhất 81 người khác.<br>Ta mời tất cả các người không quen A ra khỏi phòng thì số người được mời ra nhiều nhất là %(120-81=39)% (người).<br>Khi đó trong phòng còn chỉ A và 81 người quen A , tức là còn lại trong phòng có ít nhất 82 người.<br>Gọi B là một người khác A là 1 người trong phòng chứa 82 người.<br>Ta mời tất cả những người không quen B ra khỏi phòng suy ra số người trong phòng còn lại ít nhất là %(82-39=43)% (người).<br>Gọi C là một người khác 2 người A và B trong 43 người còn lại.<br>Ta mời tất cả những người không quen C ra khỏi phòng suy ra số người còn lại ít nhất ở trong phòng là %(43-39=4)% (người).<br>Tức là trong phòng có ít nhất 4 người đôi 1 quen nhau.",
+        "question_type": "essay"
+    }
+]

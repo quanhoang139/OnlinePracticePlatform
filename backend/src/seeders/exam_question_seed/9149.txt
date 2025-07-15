@@ -1,0 +1,112 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Chứng minh rằng: %(\\left(2019^{2019}+2021^{2020}\\right) ~\\vdots~ 2020)%",
+        "question_images": [],
+        "solution": "Ta có: %(\\left(2019^{2019}+1\\right)+\\left(2021^{0020}-1\\right)=2019^{2019}+2021^{2020})%<br>Mà %(2019^{2019}+1=(2019+1)\\left(2019^{2018}-2019^{2017}+2019^{2016}-\\ldots-1\\right)~~~~~(1))%<br>\\[2021^{2020}-1=(2021-1)\\left(2021^{2019}+2021^{2018}+2021^{2017}+\\ldots+1\\right)~~~~~(2)\\]<br>Cộng vế (1) và (2) ta được:<br>\\[\\text { 2020.}\\left[\\left(2019^{2018}-2019^{2017}+2019^{2016}-\\ldots-1\\right)+\\left(2021^{2019}+2021^{2018}+2021^{2017}+\\ldots+1\\right)\\right] \\vdots: 2020\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Tìm các số tự nhiên %(n)% để %(n+24)% và %(n-65)% là số chính phương.",
+        "question_images": [],
+        "solution": "Đặt %(\\left\\{\\begin{array}{l}n+24=k^{2} \\\\ n-65=h^{2}\\end{array}\\right.)%<br>\\[\\Rightarrow k^{2}-24=h^{2}+65\\]<br>Với %(k, h\\gt 0)% ta có: %((k-h)(k+h)=89=1.89=89.1)%<br>+) TH1: %(\\left\\{\\begin{array}{l}k-h=1 \\\\ k+h=89\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}k=45 \\\\ h=44\\end{array}\\right.\\right.)%<br>Khi %(k=45 \\Rightarrow n+24=45^{2} \\Rightarrow n=2001)%<br>+) TH2: %(\\left\\{\\begin{array}{l}k-h=89 \\\\ k+h=1\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}k=45 \\\\ h=-44~(ktm)\\end{array}\\right.\\right.)%<br>Vậy với %(n=2001)% thì %(n+24)% và %(n-65)% là số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 3.0,
+        "content": "Cho %(H=\\frac{x}{\\sqrt{x}+\\sqrt{y}-\\sqrt{x y}-y}-\\frac{y}{x+\\sqrt{x y}+\\sqrt{x}+\\sqrt{y}}-\\frac{x y}{\\sqrt{x}+1-\\sqrt{x y}-\\sqrt{y}})%. Tìm %(x, y)% nguyên để %(H=20)%",
+        "question_images": [],
+        "solution": "ĐКХĐ: %(x, y \\neq 1 ; x, y\\gt 0)%.<br>Ta có: %(\\sqrt{x}+\\sqrt{y}-\\sqrt{x y}-y=(\\sqrt{x}+\\sqrt{y})-\\sqrt{y}(\\sqrt{x}+\\sqrt{y})=(\\sqrt{x}+\\sqrt{y})(1-\\sqrt{y}))%<br>\\[\\begin{array}{l}x+\\sqrt{x y}+\\sqrt{x}+\\sqrt{y}=\\sqrt{x}(\\sqrt{x}+\\sqrt{y})+(\\sqrt{x}+\\sqrt{y})=(\\sqrt{x}+\\sqrt{y})(\\sqrt{x}+1) \\\\sqrt{x}+1-\\sqrt{x y}-\\sqrt{y}=(\\sqrt{x}+1)-\\sqrt{y}(\\sqrt{x}+1)=(\\sqrt{x}+1)(1-\\sqrt{y})\\end{array}\\]<br>Khi đó %(H=\\frac{x(\\sqrt{x}+1)-y(1-\\sqrt{y})-x y(\\sqrt{x}+\\sqrt{y})}{(\\sqrt{x}+\\sqrt{y})(1-\\sqrt{y})(\\sqrt{x}+1)})%<br>\\[H=\\frac{x \\sqrt{x}+x-y+y \\sqrt{y}-x y \\sqrt{x}-x y \\sqrt{y}}{(\\sqrt{x}+\\sqrt{y})(1-\\sqrt{y})(\\sqrt{x}+1)}\\]<br>\\[\\begin{array}{l}H=\\frac{(\\sqrt{x}+\\sqrt{y})[\\sqrt{x}-\\sqrt{y}+x-\\sqrt{x y}+y-x y]}{(\\sqrt{x}+\\sqrt{y})(1-\\sqrt{y})(\\sqrt{x}+1)} \\H=\\frac{\\sqrt{x}-\\sqrt{y}+x-\\sqrt{x y}+y-x y}{(1-\\sqrt{y})(\\sqrt{x}+1)} \\H=\\frac{(x+\\sqrt{x})-(\\sqrt{y}+\\sqrt{x y})+y(1-\\sqrt{x})(1+\\sqrt{x})}{(1-\\sqrt{y})(\\sqrt{x}+1)} \\H=\\frac{\\sqrt{x}(\\sqrt{x}+1)-\\sqrt{y}(\\sqrt{x}+1)+y(1-\\sqrt{x})(1+\\sqrt{x})}{(1-\\sqrt{y})(\\sqrt{x}+1)} \\H=\\frac{\\sqrt{x}-\\sqrt{y}+y(1-\\sqrt{x})}{1-\\sqrt{y}}=\\frac{\\sqrt{x}-\\sqrt{y}+y-y \\sqrt{x}}{1-\\sqrt{y}} \\H=\\frac{\\sqrt{x}(1-\\sqrt{y})(1+\\sqrt{y})-\\sqrt{y}(1-\\sqrt{y})}{1-\\sqrt{y}} \\H=\\sqrt{x}(1+\\sqrt{y})-\\sqrt{y}=\\sqrt{x}+\\sqrt{x y}-\\sqrt{y}\\end{array}\\]<br>Ta có: %(H=20 \\Rightarrow \\sqrt{x}+\\sqrt{x y}-\\sqrt{y}=20 \\Rightarrow \\sqrt{x}(\\sqrt{y}+1)-(\\sqrt{y}+1)=19)%<br>\\[\\Rightarrow(\\sqrt{y}+1)(\\sqrt{x}-1)=19=19 \\cdot 1=1 . 19=(-1).(-19)=(-19) .(-1)\\]<br>+) TH1: %(\\left\\{\\begin{array}{l}\\sqrt{y}+1=1 \\\\ \\sqrt{x}-1=19\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}y=0 \\\\ x=400\\end{array}\\right.\\right.)%<br>+) TH2: %(\\left\\{\\begin{array}{l}\\sqrt{y}+1=19 \\\\ \\sqrt{x}-1=1\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}y=324 \\\\ x=4\\end{array}\\right.\\right.)%<br>+) TH3: %(\\left\\{\\begin{array}{l}\\sqrt{y}+1=-1 \\\\ \\sqrt{x}-1=-19\\end{array} \\Rightarrow\\right.)% loại<br>+) TH4: %(\\left\\{\\begin{array}{l}\\sqrt{y}+1=-19 \\\\ \\sqrt{x}-1=-1\\end{array} \\Rightarrow\\right.)% loại<br>Vậy với %(x=400 ; y=0)% hoặc %(x=4, y=324)% thì %(H=20)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Cho các số %(a, b, c, x, y, z)% dương thỏa mãn: %(\\frac{\\sqrt{x}}{\\sqrt{a}}+\\frac{\\sqrt{y}}{\\sqrt{b}}+\\frac{\\sqrt{z}}{\\sqrt{c}}=1)% và %(\\frac{\\sqrt{a}}{\\sqrt{x}}+\\frac{\\sqrt{b}}{\\sqrt{y}}+\\frac{\\sqrt{c}}{\\sqrt{z}}=0)%. Tính giá trị của biểu thức %(M=\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}+2019)%.",
+        "question_images": [],
+        "solution": "Từ %(\\frac{\\sqrt{x}}{\\sqrt{a}}+\\frac{\\sqrt{y}}{\\sqrt{b}}+\\frac{\\sqrt{z}}{\\sqrt{c}}=1 \\Rightarrow \\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}+\\frac{2 \\sqrt{x y}}{\\sqrt{a b}}+\\frac{2 \\sqrt{y z}}{\\sqrt{b c}}+\\frac{2 \\sqrt{x z}}{\\sqrt{a c}}=1)%<br>\\[\\begin{array}{l} \\Rightarrow \\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}+2.\\frac{\\sqrt{a y z}+\\sqrt{b x z}+\\sqrt{c x y}}{\\sqrt{a b c}}=1~~~~~(1) \\\\text { Mà } \\frac{\\sqrt{a}}{\\sqrt{x}}+\\frac{\\sqrt{b}}{\\sqrt{y}}+\\frac{\\sqrt{c}}{\\sqrt{z}}=0 \\Rightarrow \\frac{\\sqrt{a y z}+\\sqrt{b x z}+\\sqrt{c x y}}{\\sqrt{x y z}}=0 \\\\Rightarrow \\sqrt{a y z}+\\sqrt{b x z}+\\sqrt{c x y}=0~~~~~(2)\\end{array}\\]<br>Từ (1) và (2) suy ra %(\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}=1)%.<br>Do đó %(M=\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}+2019=1+2019=2020)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Giải phương trình: %(2 x^{2}+16 x-6=4 \\sqrt{x(x+8)})%",
+        "question_images": [],
+        "solution": "Đk: %(x \\geq 0)% hoặc %(x \\leq-8)%<br>\\[\\begin{array}{l}2 x^{2}+16 x-6=4 \\sqrt{x(x+8)} \\\\Leftrightarrow x^{2}+8 x-3=2 \\sqrt{x(x+8)}~~~~~(1)\\end{array}\\]<br>Đặt %(t=\\sqrt{x(x+8)}(t \\geq 0) \\Rightarrow t^{2}=x^{2}+8 x)%%((1)~\\Leftrightarrow t^{2}-3=2 t \\Leftrightarrow t^{2}-2 t-3=0 \\Leftrightarrow\\left[\\begin{array}{l}t=-1 \\\\ t=3\\end{array}\\right.)%<br>Ta thấy %(t=-1)% không thỏa mãn đk.<br>Với %(t=3 \\Rightarrow x^{2}+8 x=9 \\Leftrightarrow\\left[\\begin{array}{l}x=1 \\\\ x=-9\\end{array}~(\\right.tmđk))%<br>Vậy tập nghiệm của phương trình là %(S=\\{1 ;-9\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Tìm %(a, b)% để %(f(x)=x^{4}+2 x^{3}-x^{2}+x(a-4)+b+2)% viết thành bình phương của một đa thức.",
+        "question_images": [],
+        "solution": "\\[\\begin{aligned}f(x) & =x^{4}+x^{2}+1+2 x^{3}-2 x-2 x^{2}-a x-2 x+b+1 \\\\& =\\left(x^{2}+x-1\\right)^{2}+(a-2) x+(b+1)\\end{aligned}\\]<br>Để %(f(x))% trở thành bình phương của một đa thức thì %(\\left\\{\\begin{array}{l}a-2=0 \\\\ b+1=0\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}a=2 \\\\ b=-1\\end{array}\\right.\\right.)%<br>Vậy với %(a=2, b=-1)% thì %(f(x))% trở thành bình phương của một đa thức.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Cho %(a, b)% là các số dương thỏa mãn %((1+a)(1+b)=4,5)%. Tìm giá trị nhỏ nhất của biểu thức %(Q=\\sqrt{a^{4}+1}+\\sqrt{b^{4}+1})%.",
+        "question_images": [],
+        "solution": "Ta có: %((1+a)(1+b)=4,5 \\Leftrightarrow a+b+a b=\\frac{7}{2})%.<br>Ta xét 4 số thực %(a, b, x, y)% ta có bất đẳng thức sau:<br>\\[\\begin{array}{l}\\left(\\sqrt{a^{2}+b^{2}}+\\sqrt{x^{2}+y^{2}}\\right)^{2}=a^{2}+b^{2}+x^{2}+y^{2}+2 \\sqrt{\\left(a^{2}+b^{2}\\right)\\left(x^{2}+y^{2}\\right)} \\\\geq a^{2}+b^{2}+x^{2}+y^{2}+2|a x+b y| \\geq a^{2}+b^{2}+x^{2}+y^{2}+2 a x+2 b y=(a+x)^{2}+(b+y)^{2} \\\\Rightarrow \\sqrt{a^{2}+b^{2}}+\\sqrt{x^{2}+y^{2}} \\geq \\sqrt{(a+x)^{2}+(b+y)^{2}}\\end{array}\\]<br>Áp dụng vào bài toán, ta có:<br>\\[Q=\\sqrt{\\left(a^{2}\\right)^{2}+1^{2}}+\\sqrt{\\left(b^{2}\\right)^{2}+1^{2}} \\geq \\sqrt{\\left(a^{2}+b^{2}\\right)^{2}+(1+1)^{2}}\\]<br>Mà %(a^{2}+\\left(\\frac{3-\\sqrt{2}}{\\sqrt{2}}\\right)^{2} \\geq 2 a .\\left(\\frac{3-\\sqrt{2}}{\\sqrt{2}}\\right)=(3 \\sqrt{2}-2) a~~~~~(1))%<br>\\[\\begin{array}{l}b^{2}+\\left(\\frac{3-\\sqrt{2}}{\\sqrt{2}}\\right)^{2} \\geq(3 \\sqrt{2}-2) b~~~~~(2) \\\\frac{a^{2}+b^{2}}{2} \\geq a b \\Rightarrow \\frac{3 \\sqrt{2}-2}{2}\\left(a^{2}+b^{2}\\right) \\geq(3 \\sqrt{2}-2) a b~~~~~(3)\\end{array}\\]<br>Cộng (1), (2) và (3) lại ta được:<br>\\[\\begin{array}{l}\\frac{3 \\sqrt{2}}{2}\\left(a^{2}+b^{2}\\right)+2\\left(\\frac{3-\\sqrt{2}}{\\sqrt{2}}\\right)^{2} \\geq(3 \\sqrt{2}-2)(a b+a+b) \\\\Leftrightarrow \\frac{3 \\sqrt{2}}{2}\\left(a^{2}+b^{2}\\right)+11-6 \\sqrt{2} \\geq(3 \\sqrt{2}-2) .\\frac{7}{2}\\end{array}\\]<br>Hay %(a^{2}+b^{2} \\geq 11-6 \\sqrt{2})%<br><strong>Cách khác: </strong><br>%(\\frac{9}{2}=(1+a)(1+b) \\leq\\left(\\frac{1+a+1+b}{2}\\right)^{2} \\Rightarrow \\frac{2+a+b}{2} \\geq \\frac{3}{\\sqrt{2}} \\Rightarrow a+b \\geq 3 \\sqrt{2}-2)%<br>Mặt khác: %(\\left.(a+b)^{2} \\leq 2\\left(a^{2}+b^{2}\\right) \\Rightarrow a^{2}+b^{2} \\geq \\frac{(3 \\sqrt{2}-2)^{2}}{2}=11-6 \\sqrt{2}\\right))%<br>Do đó %(Q \\geq \\sqrt{(11-6 \\sqrt{2})^{2}+4}=\\sqrt{87-12 \\sqrt{2}})%<br>Dấu \"%(=)%\" xày ra %(\\Leftrightarrow a=b=\\frac{3 \\sqrt{2}-2}{2})%<br>Vậy %(\\operatorname{Min} _Q=\\sqrt{87-12 \\sqrt{2}})% khi %(a=b=\\frac{3 \\sqrt{2}-2}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho tam giác %(A B C)% vuông tại %(A~(A B\\lt A C))%, đường cao %(A H)% (%(H)% thuộc %(B C)%). Kẻ %(H D, H E)% lần lượt vuông góc với %(A B, A C)% (%(D)% thuộc %(A B, E)% thuộc %(A C)%). Đường thẳng qua %(A)% vuông góc với %(D E)% cắt %(B C)% tại %(I)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.75,
+        "content": "a) Chứng minh: %(I)% là trung điểm của %(B C)%.",
+        "question_images": [],
+        "solution": "+) Gọi giao điểm của %(D E)% với %(A H, A I)% lần lượt tại %(J ; G)%<br>+) Tứ giác %(A D H E)% là hình chữ nhật<br>+) Mà %(\\widehat{A_{1}}+\\widehat{H A E}=90^{\\circ})% (hai góc phụ nhau)<br>%(\\widehat{A_{3}}+~\\widehat{J E A}=90^{\\circ}~(\\triangle A G E~vuông ))%<br>Do đó %(\\widehat{A_{1}}=\\widehat{A_{3}})%<br>+) Vì %(\\widehat{A_{1}}=\\widehat{C})% (cùng phụ %(\\widehat {H A C})% )<br>%(\\Rightarrow \\widehat{A_{3}}=\\widehat C \\Rightarrow \\triangle A I C)% cân tại %(I \\Rightarrow A I=I C)%<br>+) Tương tự: %(A I=B I)%<br>Vậy %(I B=I C(=I A))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e6df6674449ae7a07801d93b02c12b27.png\" srcset=\"https://docdn.giainhanh.io/media/test/cf776e06d9c2f654d46375f4a2122674.png 245w, https://docdn.giainhanh.io/media/test/bef611cc51513e769abaa7b30dc4863c.png 500w, https://docdn.giainhanh.io/media/test/e515d4d8e9767a34ab1121c72ca3ee72.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.25,
+        "content": "b) Kẻ đường thẳng vuông góc với %(A I)% tại %(A)% cắt đường thẳng %(B C)% tại %(K)%. Chứng minh %(A B)% là tia phân giác của góc %(K A H)%",
+        "question_images": [],
+        "solution": "+) Ta có %(\\triangle A I B)% cân tại %(I \\Rightarrow I B A=I A B)%<br>\\[\\text {+)~ Mà }\\left\\{\\begin{array}{l}A_{4}+I A B=90^{\\circ} \\A_{1}+H A C=90^{\\circ}\\end{array} \\text { và } H A C=I B A \\text { (cùng phụ } A_{1}\\right. \\text { ) }\\]<br>Do đó: %(A_{1}=A_{4})%<br>%(\\Rightarrow A B)% là phân giác của %(\\widehat{H A K})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Chứng minh: %(A D. B D+A E . E C \\leq A I^{2})%",
+        "question_images": [],
+        "solution": "+) Ta có: %(\\left.\\begin{array}{l}A D. D B=H D^{2} \\\\ A E .E C=H E^{2}\\end{array}\\right\\} \\Rightarrow A D. D B+A E. E C=H D^{2}+H E^{2}=D E^{2}=A H^{2})%<br>+) Xét %(\\triangle A H I)% vuông tại %(H)%, ta có:<br>%(A H^{2} \\leq A I^{2})%<br>Do đó %(A D.D B+A E .E C \\leq A I^{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "9",
+        "group_content": "Cho tam giác %(A B C)%, kẻ các đường phân giác trong %(A D, B E, C F)% của tam giác %(A B C)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh %(A B. B D-B D. D C=A D^{2})%",
+        "question_images": [],
+        "solution": "+) Lấy %(K)% thuộc tia đối của tia %(D A)% sao cho %(\\widehat{A K B}=\\widehat{A C B})%<br>\\[\\begin{array}{l}\\text { Vì } \\triangle A C D \\sim \\triangle A K B \\Rightarrow \\text { (g.g) } \\Rightarrow \\frac{A D}{A B}=\\frac{A C}{A K} \\Rightarrow A B .A C=A D. A K~~~~~(1) \\\\text { Vì } \\triangle D A C \\sim \\triangle D B K \\quad \\Rightarrow \\frac{D C}{D K}=\\frac{A C}{B K}=\\frac{A D}{B D} \\Rightarrow D C. B D=D K. A D~~~~~(2)\\end{array}\\]<br>Từ (1) và (2) suy ra %(A B. A C-D C . B D=A D .(A K-K D)=A D . A D=A D^{2})%<br><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7a1dee95d56e0439cbb2a4125094623b.png\" srcset=\"https://docdn.giainhanh.io/media/test/c195520acf2bf52f379e9dc08d9a0bbe.png 139w\" width=\"139\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh: %(\\frac{1}{A B}+\\frac{1}{A C}+\\frac{1}{B C}\\lt \\frac{1}{A D}+\\frac{1}{B E}+\\frac{1}{C F})%",
+        "question_images": [],
+        "solution": "+) Kẻ %(B M / / A D)%, cắt đường thẳng %(A C)% tại %(M)%<br>%(\\Rightarrow \\triangle A B M)% cân tại %(A \\Rightarrow A M=A B)%<br>+) Theo BĐT tam giác: %(M B\\lt A M+A B \\Rightarrow M B\\lt 2 A B)%<br>\\[+)\\text { Do } A D / / B M \\Rightarrow \\frac{A D}{B M}=\\frac{C A}{C M}=\\frac{A C}{A C+A M}=\\frac{A C}{A C+A B} \\text { (do }C M=A C+A M ; A M=A B \\text { ) }\\]<br>\\[\\begin{array}{l}\\Rightarrow \\frac{A D}{B M}=\\frac{A C}{A C+A B} \\\\Rightarrow A D=\\frac{A C}{A C+A B}.B M\\lt \\frac{A C . 2 A B}{A C+A B}=\\frac{2 A B.A C}{A C+A B} \\\\Rightarrow \\frac{1}{A D}\\gt \\frac{A C+A B}{2 A B. A C}=\\frac{1}{2 A C}+\\frac{1}{2 A B}=\\frac{1}{2}.\\left(\\frac{1}{A C}+\\frac{1}{A B}\\right) \\\\text { +)~Tương tự: } \\frac{1}{B E}>\\frac{1}{2} .\\left(\\frac{1}{A B}+\\frac{1}{B C}\\right) \\\\frac{1}{C F}>\\frac{1}{2} .\\left(\\frac{1}{A C}+\\frac{1}{B C}\\right)\\end{array}\\]<br>+) Cộng vế với vế, ta được:<br>%(\\frac{1}{A D}+\\frac{1}{B E}+\\frac{1}{C F}>\\frac{1}{A B}+\\frac{1}{B C}+\\frac{1}{A C})%",
+        "question_type": "essay"
+    }
+]

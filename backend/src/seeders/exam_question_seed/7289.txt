@@ -1,0 +1,90 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Cho đa thức %(f(x)=x^{3}+a x^{2}+b x+c)% trong đó %(a, b, c \\in \\mathbb{R})%. Biết rằng khi chia đa thức %(f(x))% cho đa thức %(x-2)% thì được dư là 5 , còn chia đa thức %(f(x))% cho đa thức %(x+1)% thì được dư là -4 . Tính giá trị biểu thức %(\\left(a^{2019}+b^{2019}\\right)\\left(b^{2020}+c^{2020}\\right)\\left(c^{2021}+a^{2021}\\right))%.",
+        "question_images": [],
+        "solution": "Gọi thương trong phép chia đa thức %(f(x))% cho đa thức %(x-2)% và %(x+1)% lần lượt là %(P(x))% và %(Q(x))%<br>Theo đề ra ta có %(f(x)=(x-2) P(x)+5)%<br>%(f(x)=(x+1) Q(x)-4)%<br>do với mọi %(x)% nên:<br>- Thay %(x=2)% vào (1) ta có: %(8+4 a-2 b+c=5)%      ( 3 )<br>- Thay %(x=-1)% vào (2) ta có: %(-1+a-b+c=-4)%      ( 4 )<br>Từ (3) và (4) suy ra %(4 a+2 b+c=a-b+c(=-3) \\Leftrightarrow 3 a=-3 b \\Leftrightarrow a=-b)%<br>%(\\Rightarrow a^{2019}=-b^{2019} \\Leftrightarrow a^{2019}+b^{2019}=0 \\Rightarrow\\left(a^{2019}+b^{2019}\\right)\\left(b^{2020}+c^{2020}\\right)\\left(c^{2021}+a^{2021}\\right)=0 .)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Giải phương trình sau:<br>%(\\sqrt{x-2 \\sqrt{x-1}}=\\sqrt{x-1}-1)%",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq 1)%<br>Ta có: %(\\sqrt{x-2 \\sqrt{x-1}}=\\sqrt{x-1}-1)%<br>%(\\begin{array}{l}\\Leftrightarrow \\sqrt{x-1-2 \\sqrt{x-1}+1}=\\sqrt{x-1}-1 \\\\Leftrightarrow \\sqrt{(\\sqrt{x-1}-1)^{2}}=\\sqrt{x-1}-1 \\\\Leftrightarrow|\\sqrt{x-1}-1|=\\sqrt{x-1}-1 \\\\Rightarrow \\sqrt{x-1}-1 \\geq 0 \\Leftrightarrow \\sqrt{x-1} \\geq 1 \\Leftrightarrow x \\geq 2 \\text { (TMĐK) }\\end{array})%<br>Vậy tập nghiệm của phương trình là %(S=\\{x \\in \\mathbb{R} / x \\geq 2\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải phương trình sau<br>%(x^{3}+\\frac{x^{3}}{(x-1)^{3}}+\\frac{3 x^{3}}{x-1}=2)%.",
+        "question_images": [],
+        "solution": "ĐK: %(x \\neq 1)%<br>Ta có: %(x^{3}+\\frac{x^{3}}{(x-1)^{3}}+\\frac{3 x^{2}}{x-1}=2)%<br>%(\\begin{array}{l}\\Leftrightarrow\\left(x+\\frac{x}{x-1}\\right)^{3}-3 x \\cdot \\frac{x}{x-1} \\cdot\\left(x+\\frac{x}{x-1}\\right)+\\frac{3 x^{2}}{x-1}=2 \\\\Leftrightarrow\\left(\\frac{x^{2}}{x-1}\\right)^{3}-3 \\cdot \\frac{x^{2}}{x-1} \\cdot \\frac{x^{2}}{x-1}+\\frac{3 x^{2}}{x-1}=2 \\\\Leftrightarrow\\left(\\frac{x^{2}}{x-1}\\right)^{3}-3 \\cdot\\left(\\frac{x^{2}}{x-1}\\right)^{2}+\\frac{3 x^{2}}{x-1}-1=1 \\\\Leftrightarrow\\left(\\frac{x^{2}}{x-1}-1\\right)^{3}=1 \\Leftrightarrow \\frac{x^{2}}{x-1}-1=1 \\Leftrightarrow \\frac{x^{2}}{x-1}=2 \\Leftrightarrow x^{2}=2 x-2 \\\\Leftrightarrow(x-1)^{2}+1=0 \\text { (phương trình vô nghiệm) }\\end{array})%<br>Vậy tập nghiệm của phương trình đã cho là %(S=\\varnothing)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Cho %(f(n)=\\frac{5+3 \\sqrt{5}}{10}\\left(\\frac{1+\\sqrt{5}}{2}\\right)^{n}+\\frac{5-3 \\sqrt{5}}{10} \\cdot\\left(\\frac{1-\\sqrt{5}}{2}\\right)^{n})% với %(n \\in \\mathbb{N}^{*})%.<br>Tính %(f(n+1)-f(n-1))%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}f(n+1)-f(n-1) \\\\=\\frac{5+3 \\sqrt{5}}{10}\\left(\\frac{1+\\sqrt{5}}{2}\\right)^{n+1}+\\frac{5-3 \\sqrt{5}}{10}\\left(\\frac{1-\\sqrt{5}}{2}\\right)^{n+1}-\\frac{5+3 \\sqrt{5}}{10}\\left(\\frac{1+\\sqrt{5}}{2}\\right)^{n-1}-\\frac{5+3 \\sqrt{5}}{10}\\left(\\frac{1+\\sqrt{5}}{2}\\right)^{n-1} \\\\=\\frac{5+3 \\sqrt{5}}{10}\\left(\\frac{1+\\sqrt{5}}{2}\\right)^{n-1}\\left[\\left(\\frac{1+\\sqrt{5}}{2}\\right)^{2}-1\\right]+\\frac{5-3 \\sqrt{5}}{10}\\left(\\frac{1-\\sqrt{5}}{2}\\right)^{n-1}\\left[\\left(\\frac{1-\\sqrt{5}}{2}\\right)^{2}-1\\right] \\\\=\\frac{5+3 \\sqrt{5}}{10}\\left(\\frac{1+\\sqrt{5}}{2}\\right)^{n-1} \\cdot \\frac{1+\\sqrt{5}}{2}+\\frac{5-3 \\sqrt{5}}{10}\\left(\\frac{1-\\sqrt{5}}{2}\\right)^{n-1} \\cdot \\frac{1-\\sqrt{5}}{2} \\\\=\\frac{5+3 \\sqrt{5}}{10}\\left(\\frac{1+\\sqrt{5}}{2}\\right)^{n}+\\frac{5-3 \\sqrt{5}}{10}\\left(\\frac{1-\\sqrt{5}}{2}\\right)^{n}=f(n)\\end{array})%<br>Vậy %(f(n+1)-f(n-1)=f(n))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Tìm số tự nhiên %(x)%, biết<br>\\[\\left(\\sqrt{1+\\frac{1}{2^{2}}+\\frac{1}{3^{2}}}+\\sqrt{1+\\frac{1}{3^{2}}+\\frac{1}{4^{2}}}+\\cdots+\\sqrt{1+\\frac{1}{14^{2}}+\\frac{1}{15^{2}}}\\right) \\cdot(1+2+\\cdots+x)=1612 .\\]",
+        "question_images": [],
+        "solution": "Ta thấy %(1+\\frac{1}{n^{2}}+\\frac{1}{(n+1)^{2}}=\\frac{n^{2}(n+1)^{2}+(n+1)^{2}+n^{2}}{n^{2}(n+1)^{2}}=\\frac{n^{4}+n^{2}+1+2 n^{3}+2 n^{2}+2 n}{n^{2}(n+1)^{2}})%<br>%(=\\frac{\\left(n^{2}+n+1\\right)^{2}}{n^{2}(n+1)^{2}} \\Rightarrow \\sqrt{1+\\frac{1}{n^{2}}+\\frac{1}{(n+1)^{2}}}=\\frac{n^{2}+n+1}{n(n+1)}=1+\\frac{1}{n}-\\frac{1}{n+1})%<br>Áp dụng với %(n=2,3,4 \\ldots, 14)% ta có:<br>%(\\begin{array}{l}\\sqrt{1+\\frac{1}{2^{2}}+\\frac{1}{3^{2}}}+\\sqrt{1+\\frac{1}{3^{2}}+\\frac{1}{4^{2}}}+\\sqrt{1+\\frac{1}{4^{2}}+\\frac{1}{5^{2}}}+\\ldots+\\sqrt{1+\\frac{1}{14^{2}}+\\frac{1}{15^{2}}} \\\\=1+\\frac{1}{2}-\\frac{1}{3}+1+\\frac{1}{3}-\\frac{1}{4}+1+\\frac{1}{4}-\\frac{1}{5}+\\ldots+1+\\frac{1}{14}-\\frac{1}{15}=13+\\frac{1}{2}-\\frac{1}{15}=13 \\frac{13}{30}\\end{array})%<br>Khi đó phương trình đã cho %(\\Leftrightarrow 13 \\frac{13}{30} \\cdot \\frac{x(x+1)}{2}=1612 \\Leftrightarrow \\frac{403 x(x+1)}{60}=1612)%<br>%(\\begin{array}{l}\\Leftrightarrow x(x+1)=240 \\Leftrightarrow x^{2}+2-240=0 \\Leftrightarrow(x-15)(x+16)=0 \\\\Leftrightarrow x-15=0(\\text { do } x+16 \\geq 16\\gt 0) \\Leftrightarrow x=15\\end{array})%<br>Vậy %(x=15)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Cho các số %(p)% và %(p^{2}+2)% là các số nguyên tố. Chứng minh rằng %(p^{3}+2)% cũng là số nguyên tố.",
+        "question_images": [],
+        "solution": "- Xét %(p=2)% thì %(p^{2}+2=4+2=6)% (loại).<br>Vì 6 không là số nguyên tố.<br>- Xét %(p=3)% thì %(p^{2}+2=9+2=11)% (nhận).<br>Vì 11 là số nguyên tố.<br>Suy ra, %(p^{3}+2=3^{3}+2=29)% (nhận).<br>Vì 29 là số nguyên tố.- Xét %(p\\gt 3)%.<br>Vi %(p)% là số nguyên tố nên %(p)% không chia hết cho 3 (1).<br>Mà %(p \\in \\mathbb{Z})% suy ra %(p^{2})% là số chính phương (2).<br>Từ (1), (2) suy ra %(p^{2})% chia cho %(3 \\mathrm{du} 1)%.%(\\Rightarrow p^{2}+2)% chia hết cho 3 . (3)<br>Mặt khác, %(p>3 \\Rightarrow p^{2}>9 \\Rightarrow p^{2}+2>11)%<br>Từ (3), (4) suy ra %(p^{2}+2)% là hợp số (trái với đề bài).<br>Vậy %(p=3)% thỏa mãn bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Cho %(P)% là một điểm nằm trong hình chữ nhật %(A B C D)% sao cho %(P A=3 \\mathrm{~cm})%, %(P D=4 \\mathrm{~cm}, P C=5 \\mathrm{~cm})%. Tính độ dài đoạn thẳng %(P B)%.",
+        "question_images": [],
+        "solution": "Qua %(P)% kẻ đường thẳng %(H K / / C D, H \\in A D, K \\in B C \\Rightarrow H K \\perp A D, H K \\perp B C)%<br>Áp dụng định lý Pytago vào các tam giác vuông ta có:<br>%(\\begin{array}{l}P A^{2}-P D^{2}=\\left(P H^{2}+H A^{2}\\right)-\\left(P H^{2}+H D^{2}\\right)=H A^{2}-H D^{2} \\P B^{2}-P C^{2}=\\left(P K^{2}+K B^{2}\\right)-\\left(P K^{2}+K C^{2}\\right)=K B^{2}-K C^{2}\\end{array})%<br>Ta chứng minh được %(H A=K B, H D=K C)%<br>%(\\begin{array}{l}\\Rightarrow P A^{2}-P D^{2}=P B^{2}-P C^{2} \\Rightarrow P B^{2}=P A^{2}-P D^{2}+P C^{2} \\Rightarrow P B^{2}=3^{2}-4^{2}+5^{2}=18 \\\\Rightarrow P B=\\sqrt{18}=3 \\sqrt{2} \\mathrm{~cm} .\\end{array})%<br><img alt=\"https://docdn.giainhanh.io/media/test/5c6a75291383c16270944375c0b8c557.PNG\" src=\"https://docdn.giainhanh.io/media/test/5c6a75291383c16270944375c0b8c557.PNG\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.0,
+        "content": "Tại khu điều trị bệnh nhân mắc COVID - 19 của một bệnh viện chỉ có bác sĩ và bệnh nhân. Biết rằng nhiệt độ trung bình của các bác sĩ khác với nhiệt độ trung bình của các bệnh nhân, nhưng trung bình của hai số này bằng nhiệt độ trung bình của tất cả các bệnh nhân và các bác sĩ trong khu điều trị. Hỏi bác sĩ nhiều hơn hay số bệnh nhân nhiều hơn.",
+        "question_images": [],
+        "solution": "Gọi số bác sỹ là %(a)% (người) %(\\left(a \\in N^{*}\\right))%<br>Nhiệt độ trung bình của các bác sỹ là %(x)% (độ)<br>Số bệnh nhân là %(y)% (người) %(\\left(y \\in N^{*}\\right))%<br>Nhiệt độ trung bình của bệnh nhân là %(y)% (độ) %((y \\neq x))%<br>Theo đề bài ta có:<br>%(\\begin{aligned}\\frac{x+y}{2}=\\frac{a x+b y}{a+b} & \\Leftrightarrow(x+y)(a+b)=2(a x+b y) \\Leftrightarrow a x+a y+b x+b y=2 a x+2 b y \\\\& \\Leftrightarrow a x+b y-b x-a y=0 \\Leftrightarrow(a-b)(x-y)=0\\end{aligned})%<br>Mà %(x)% khác %(y)% nên %(a-b=0 \\Leftrightarrow a=b)%<br>Vậy số bác sỹ và số bệnh nhân bằng nhau.",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 2.0,
+        "content": "Cho %(\\tan x=\\frac{2 a b}{a^{2}-b^{2}})%, trong đó %(a\\gt b>0)% và %(0^{\\circ}\\lt x\\lt 90^{\\circ})%.<br>Hãy biểu diễn %(\\sin x)% theo %(a ; b)%.",
+        "question_images": [],
+        "solution": "Vẽ tam giác %(A B C)% vuông tại %(A)% có %(A C=2 a b, A B=a^{2}-b^{2})%<br>Khi đó số đo góc %(B)% chính là số đo %(x)%<br>Áp dụng định lý Pytago vào tam giác %(A B C)% ta có: %(B C^{2}=A B^{2}+A C^{2})%<br>%(\\Leftrightarrow B C=\\sqrt{A B^{2}+A C^{2}}=\\sqrt{\\left(a^{2}-b^{2}\\right)^{2}+4 a^{2} b^{2}}=\\sqrt{\\left(a^{2}+b^{2}\\right)^{2}} \\Leftrightarrow B C=a^{2}+b^{2})%<br>Khi đó ta có %(\\sin x=\\frac{2 a b}{a^{2}+b^{2}})%.<br><img alt=\"https://docdn.giainhanh.io/media/test/9fdd5a0aeca9305c6d35c84521d9ee4a.PNG\" src=\"https://docdn.giainhanh.io/media/test/9fdd5a0aeca9305c6d35c84521d9ee4a.PNG\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "10 ",
+        "point": 2.0,
+        "content": "Cho các số dương %(a, b, c)% thỏa mãn điều kiện %(a+b+c=2020)%. Tìm giá trị nhỏ nhất của biểu thức %(P=\\sqrt{2 a^{2}+a b+2 b^{2}}+\\sqrt{2 b^{2}+b c+2 c^{2}}+\\sqrt{2 c^{2}+c a+2 a^{2}})%",
+        "question_images": [],
+        "solution": "Ta có %(4\\left(2 a^{2}+a b+2 b^{2}\\right)=5\\left(a^{2}+2 a b+b^{2}\\right)+3\\left(a^{2}-2 a b+b^{2}\\right))%<br>%(\\begin{array}{c}=5(a+b)^{2}+3(a-b)^{2} \\geq 5(a+b)^{2} \\\\Rightarrow 2 \\sqrt{2 a^{2}+a b+b^{2}} \\geq \\sqrt{5}(a+b) \\Leftrightarrow \\sqrt{2 a^{2}+a b+b^{2}} \\geq \\frac{\\sqrt{5}}{2}(a+b)(1)\\end{array})%<br>Dấu bằng xảy ra khi %(a=b)%.Tương tự ta có: %(\\Rightarrow 2 \\sqrt{2 b^{2}+b c+c^{2}} \\geq \\sqrt{5}(b+c) \\Leftrightarrow \\sqrt{2 b^{2}+b c+c^{2}} \\geq \\frac{\\sqrt{5}}{2}(b+c)(2))%<br>%(\\Rightarrow 2 \\sqrt{2 c^{2}+a c+a^{2}} \\geq \\sqrt{5}(c+a) \\Leftrightarrow \\sqrt{2 c^{2}+a c+a^{2}} \\geq \\frac{\\sqrt{5}}{2}(c+a)(3))%<br>Cộng vế với vế của (1); (2) và (3) ta có:<br>%(P=\\sqrt{2 a^{2}+a b+b^{2}}+\\sqrt{2 b^{2}+b c+c^{2}}+\\sqrt{2 c^{2}+c a+a^{2}} \\geq \\frac{\\sqrt{5}}{2} \\cdot 2(a+b+c)=2020 \\sqrt{5})%<br>Dấu bằng xảy ra khi %(a=b=c=\\frac{2020}{3})%.<br>Vậy %(\\min P=2020 \\sqrt{5} \\Leftrightarrow a=b=c=\\frac{2020}{3})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "11 ",
+        "point": 2.0,
+        "content": "Cho %(S)% là tập hợp gồm 3 số tự nhiên có tính chất: Tổng của hai phần tử tùy ý của %(S)% là một số chính phương. (Ví dụ %(S=\\{5 ; 20 ; 44\\})% hoặc %(S=\\{10 ; 5 ; 90\\})% là các tập hợp thỏa mãn điều kiện trên). Chứng minh rằng tập hợp %(S)% có không quá một phần tử là số lẻ.",
+        "question_images": [],
+        "solution": "Ta đã biết số chính phương hoặc chia hết cho 4 hoặc chia cho 4 dư 1 .<br>Xét tập %(S=\\{a, b, c\\})% thỏa yêu cầu.<br>Nếu %(a, b, c)% là các số lẻ thì %((a+b) \\vdots 4,(b+c) \\vdots 4)% và %((a+c) \\vdots 4)%.<br>Khi đó %(a+b+b+c-(a+c)=2 b)% : 4 .Suy ra %(b)% là số chẵn (mâu thuẫn với %(b)% lẻ).<br>Nếu %(a, b)% là các số lẻ và %(c)% chẵn thì %((a+b) \\vdots 4,(b+c)-(a+c) \\vdots 4)%.<br>Khi đó %(a+b+(b+c)-(a+c)=2 b \\vdots 4)%.<br>Suy ra %(b)% là số chẵn (mâu thuẫn với %(b)% lẻ).",
+        "question_type": "essay"
+    }
+]

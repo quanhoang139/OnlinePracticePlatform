@@ -1,0 +1,89 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 2.0,
+        "content": "Cho hàm số %(y=\\frac{2 x-1}{x-1})% có đồ thị %((C))%. Viết phương trình tiếp tuyến của %((C))% tại giao điểm của nó và đường thẳng %(y=2 x+1)%.",
+        "question_images": [],
+        "solution": "Xét hàm số %(y=\\frac{2 x-1}{x-1})%.<br>Với %(\\forall x \\neq 1)%, ta có %(y^{\\prime}=\\frac{-1}{(x-1)^{2}})%<br>Phương trình hoành độ giao điểm của %((C))% và đường thẳng:<br>\\[\\begin{aligned}\\frac{2 x-1}{x-1}=2 x+1 & \\Leftrightarrow\\left\\{\\begin{array}{l}x \\neq 1 \\\\2 x^{2}-3 x=0\\end{array}\\right. \\\\& \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\x=\\frac{3}{2}\\end{array}\\right.\\end{aligned}\\]<br>Với %(x=0)% tọa độ giao điểm %(A(0 ; 1))%<br>Phương trình tiếp tuyến của %((C))% tại %(A(0 ; 1))% là: %(y=-x+1)%<br>Với %(x=\\frac{3}{2})% tọa độ giao điểm %(B\\left(\\frac{3}{2} ; 4\\right))%<br>Phương trình tiếp tuyến của %((C))% tại %(B\\left(\\frac{3}{2} ; 4\\right))% là: %(y=-4 x+10)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 3.0,
+        "content": "Cho hàm số %(y=x^{3}-3 x^{2}+(m+1) x-4, m)% là tham số. Tìm các giá trị của %(m)% để đồ thị hàm số có 2 điểm cực trị và khoảng cách từ điểm %(A\\left(\\frac{7}{2} ; 1\\right))% đến đường thẳng đi qua hai điểm cực trị đó lớn nhất.",
+        "question_images": [],
+        "solution": "Với %(\\forall x \\in \\mathbb{R})%, ta có %(y^{\\prime}=3 x^{2}-6 x+m+1)%<br>Điều kiện để hàm số có hai cực trị là phương trình %(y^{\\prime}=0)% có hai nghiệm phân biệt %(\\Leftrightarrow)% phương trình %(3 x^{2}-6 x+m+1=0)% có hai nghiệm phân biệt<br>\\[\\Leftrightarrow \\Delta^{\\prime}\\gt 0 \\Leftrightarrow m\\lt 2\\]<br>Khi đó, ta có %(y=y^{\\prime}\\left(\\frac{1}{3} x-\\frac{1}{3}\\right)+\\frac{2 m-4}{3} x+\\frac{m-11}{3})%<br>Phương trình đường thẳng qua các điểm cực trị của đồ thị hàm số là<br>\\[y=\\frac{2 m-4}{3} x+\\frac{m-11}{3}(d) .\\]<br>Đường thẳng %((d))% đi qua điểm %(M\\left(-\\frac{1}{2} ;-3\\right))% với mọi %(m)%.<br>Ta có: %(\\overrightarrow{A M}(-4 ;-4))%, đường thẳng %((d))% có vtcp %(\\vec{u}\\left(1 ; \\frac{2 m-4}{3}\\right))%<br>Dựng %(A H \\perp d)% suy ra %(d(A ; d)=A H \\leq A M)%<br>Dấu bằng xảy %(\\mathrm{ra} \\Leftrightarrow H \\equiv M \\Leftrightarrow A M \\perp d)%<br>\\[\\Leftrightarrow \\overrightarrow{A M} \\cdot \\vec{u}=0 \\Leftrightarrow m=\\frac{1}{2}\\]<br>Kết hợp điều kiện suy ra %(m=\\frac{1}{2})% thỏa mãn điều kiện bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.0,
+        "content": "Tìm nghiệm dương của phương trình %(4^{x}-2 x-1=\\frac{1}{2} \\log _{2} \\frac{(3 x+1) \\log _{4}(3 x+1)}{x})%",
+        "question_images": [],
+        "solution": "Với %(x\\gt 0)%, phương trình tương đương<br>\\[\\begin{aligned}& 4^{x}-2 x-1=\\log _{4}(3 x+1)+\\log _{4}\\left[\\log _{4}(3 x+1)\\right]-\\log _{4} x \\\\Leftrightarrow & 4^{x}+x+\\log _{4} x=3 x+1+\\log _{4}(3 x+1)+\\log _{4}\\left[\\log _{4}(3 x+1)\\right]\\end{aligned}\\]<br>Đặt %(\\log _{4}(3 x+1)=y \\Leftrightarrow 3 x+1=4^{y})%<br>Phương trình trở thành: %(\\Leftrightarrow 4^{x}+x+\\log _{4} x=4^{y}+y+\\log _{4} y)%<br>Xét hàm số %(f(t)=4^{t}+t+\\log _{4} t)% trên %((0 ;+\\infty))%.<br>Hàm số %(f(t))% đồng biến trên %((0 ;+\\infty))%.<br>Phương trình %((1) \\Leftrightarrow f(x)=f(y) \\Leftrightarrow x=y)%<br>Trở lại phép đặt ta được: %(4^{x}=3 x+1 \\Leftrightarrow 4^{x}-3 x-1=0)%<br>Xét hàm số %(g(x)=4^{x}-3 x-1)% trên %(\\mathbb{R})%.<br>Chứng minh phương trình %(g(x)=0)% có nhiều nhất hai nghiệm trên %(\\mathbb{R})%.<br>Có %(g(0)=g(1)=0)% nên phương trình %(g(x)=0)% có nghiệm %(x=0 ; x=1)%.<br>Kết hợp điều kiện, phương trình có nghiệm %(x=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 2.0,
+        "content": "Giải phương trình %(2 \\sqrt{2}\\left[\\cos \\left(\\frac{3 x}{2}-\\frac{\\pi}{8}\\right) \\cos \\left(\\frac{x}{2}-\\frac{\\pi}{8}\\right)+\\sin x\\right]=\\frac{1}{2} \\sin 2 x+\\sin ^{2} x)%.",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} & 2 \\sqrt{2}\\left[\\cos \\left(\\frac{3 x}{2}-\\frac{\\pi}{8}\\right) \\cos \\left(\\frac{x}{2}-\\frac{\\pi}{8}\\right)+\\sin x\\right]=\\frac{1}{2} \\sin 2 x+\\sin ^{2} x \\\\ \\Leftrightarrow & 2 \\sqrt{2} \\cos \\left(\\frac{3 x}{2}-\\frac{\\pi}{8}\\right) \\cos \\left(\\frac{x}{2}-\\frac{\\pi}{8}\\right)+2 \\sqrt{2} \\sin x=\\sin x \\cos x+\\sin ^{2} x \\\\ \\Leftrightarrow & \\sqrt{2} \\cos \\left(2 x-\\frac{\\pi}{4}\\right)+\\sqrt{2} \\cos x+2 \\sqrt{2} \\sin x=\\sin x \\cos x+\\sin ^{2} x\\end{aligned})%<br>\\[\\begin{array}{l}\\Leftrightarrow \\cos 2 x+\\sin 2 x+\\sqrt{2}(\\cos x+2 \\sin x)=\\sin x \\cos x+\\sin ^{2} x \\\\Leftrightarrow \\cos ^{2} x+\\sin x \\cos x-2 \\sin ^{2} x+\\sqrt{2}(\\cos x+2 \\sin x)=0 \\\\Leftrightarrow(\\cos x-\\sin x)(\\cos x+2 \\sin x)+\\sqrt{2}(\\cos x+2 \\sin x)=0 \\\\Leftrightarrow(\\cos x+2 \\sin x)(\\cos x-\\sin x+\\sqrt{2})=0 \\\\Leftrightarrow\\left[\\begin{array}{l}\\cos x+2 \\sin x=0 \\quad(1) \\\\cos x-\\sin x+\\sqrt{2}=0 \\quad(2)\\end{array}\\right.\\end{array}\\]<br>Giải (1): %(\\cot x=-2 \\Leftrightarrow x=\\operatorname{acr} \\cot (-2)+k \\pi)%<br>Giải (2): %(\\sin x-\\cos x=\\sqrt{2} \\Leftrightarrow \\sin \\left(x-\\frac{\\pi}{4}\\right)=1 \\Leftrightarrow x=\\frac{3 \\pi}{4}+k 2 \\pi)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 2.0,
+        "content": "Cho hình chóp %(S . A B C D)% có đáy %(A B C D)% là hình chữ nhật với %(A B=a, A D=2 a)%. Mặt bên %((S A B))% là tam giác cân tại %(S)% và vuông góc với mặt phẳng đáy. Khoảng cách từ %(B)% đến mặt phẳng %((S A C))% bằng %(\\frac{a \\sqrt{6}}{3})%. Tính thể tích khối chóp %(S \\cdot A B C D)% theo %(a)%.",
+        "question_images": [],
+        "solution": "Gọi %(H)% là trung điểm của %(A B)% suy ra %(S H \\perp A B)%.<br>Mà %((S A B) \\perp(A B C D))% nên %(S H \\perp(A B C D))%.<br>\\[d(B ;(S A C))=2 d(H ;(S A C))\\]<br>Suy ra %(d(H ;(S A C))=\\frac{a \\sqrt{6}}{6})%<br>Trong mặt phẳng %((A B C D))%, dựng %(H E \\perp A C)%<br>Chứng minh %((S H E) \\perp(S A C))%<br>Trong mặt phẳng %((S H E))%, dựng %(H K \\perp S E)%<br>Suy ra %(H K \\perp(S A C) \\Rightarrow H K=d(H ;(S A C))=\\frac{a \\sqrt{6}}{6})%<br>Trong mặt phẳng %((A B C D))%, dựng %(B F \\perp A C)%.<br>Tính %(B F=\\frac{2 a}{\\sqrt{5}})%.Suy ra %(H E=\\frac{1}{2} B F=\\frac{a}{\\sqrt{5}})%.<br>Xét tam giác %(S H E)% có %(\\frac{1}{S H^{2}}=\\frac{1}{H K^{2}}-\\frac{1}{H E^{2}}=\\frac{1}{a^{2}} \\Rightarrow S H=a)%.<br>Vậy %(V_{S . A B C D}=\\frac{1}{3} S H \\cdot S_{A B C D}=\\frac{2 a^{3}}{3})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5758dc3d9a50d06539925d15c5502a7d.png\" srcset=\"https://docdn.giainhanh.io/media/test/c38b7a2e56b70f85fb47fff638bc4ba2.png 184w, https://docdn.giainhanh.io/media/test/d585024444114a6df33640f9e318553a.png 500w, https://docdn.giainhanh.io/media/test/1d7bf8a30c9400da2ed9208a5a2cdecd.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 2.0,
+        "content": "Cho hình lăng trụ tam giác đều %(A B C \\cdot A^{\\prime} B^{\\prime} C^{\\prime})% có độ dài cạnh đáy bằng %(2 a)%, góc giữa mặt phẳng %(\\left(A^{\\prime} B C\\right))% và mặt phẳng đáy bằng %(60^{\\circ})%. Gọi %(M, N)% lần lượt là trung điểm của các cạnh %(B C)% và %(C C^{\\prime})%. Tính khoảng cách giữa hai đường thẳng %(A^{\\prime} M)% và %(A N)% theo %(a)%.",
+        "question_images": [],
+        "solution": "Trong mặt phẳng %(\\left(A C C^{\\prime} A^{\\prime}\\right))%, dựng %(A^{\\prime} E)% song song với %(A N(E \\in A C))%<br>Khi đó, %(A N)% song song với mặt phẳng %(\\left(A^{\\prime} M E\\right))%<br>suy ra %(d\\left(A N ; A^{\\prime} M\\right)=d\\left(A N ;\\left(A^{\\prime} M E\\right)\\right)=d\\left(A ;\\left(A^{\\prime} M E\\right)\\right))%<br>Trong mặt phẳng %((A B C))%, dựng %(A K \\perp E M)%<br>Chứng minh %(\\left(A A^{\\prime} K\\right) \\perp\\left(A^{\\prime} M E\\right))%.<br>Trong mặt phẳng %(\\left(A A^{\\prime} K\\right))%, dựng %(A H \\perp A^{\\prime} K)%<br>Suy ra %(A H \\perp\\left(A^{\\prime} M E\\right) \\Rightarrow d\\left(A ;\\left(A^{\\prime} M E\\right)\\right)=A H)%.<br>Tính %(M E=a \\sqrt{31} ; A K=\\frac{2 S_{A M E}}{M E}=\\frac{2 a \\sqrt{93}}{31})%<br>Góc giữa %(\\left(A^{\\prime} B C\\right))% và mặt phẳng đáy là %(\\widehat{A^{\\prime} M A}=60^{\\circ})%<br>suy ra %(A A^{\\prime}=A M \\cdot \\tan 60^{\\circ}=3 a)%<br>Xét tam giác %(A A^{\\prime} K)%, có %(\\frac{1}{A H^{2}}=\\frac{1}{A K^{2}}+\\frac{1}{A A^{\\prime 2}}=\\frac{97}{36 a^{2}} \\Rightarrow A H=\\frac{6 a \\sqrt{97}}{97})%<br>Vậy %(d\\left(A N ; A^{\\prime} M\\right)=\\frac{6 a \\sqrt{97}}{97})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/76d2233b2175139de565b33ca4cd9063.png\" srcset=\"https://docdn.giainhanh.io/media/test/74a660df1b0383246f0f59785a7c670b.png 245w, https://docdn.giainhanh.io/media/test/6977b9d00707bcecdf252a39830fc279.png 500w, https://docdn.giainhanh.io/media/test/d1c01821bf8d7d10c8414708de81708e.png 750w, https://docdn.giainhanh.io/media/test/cfbcc4514428a10e96ba51b9954d2906.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 3.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}3 x^{2}-2 y^{2}-x y+12 x-17 y-15=0~~~(1) \\\\ \\sqrt{2-x}+\\sqrt{6-x-x^{2}}=y+\\sqrt{2 y+5}-\\sqrt{y+4}~~~(2)\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Điều kiện: %(\\left\\{\\begin{array}{l}-3 \\leq x \\leq 2 \\\\ y \\geq-\\frac{5}{2}\\end{array}\\right.)%%((1) \\Leftrightarrow(x-y-1)(3 x+2 y+15)=0)%<br>\\[\\Leftrightarrow\\left[\\begin{array}{l}y=x-1 \\\\3 x+2 y+15=0\\end{array}\\right.\\]<br>TH %(3 x+2 y+15=0)%<br>Từ điều kiện, %(3 x+2 y+15 \\geq-9-5+15\\gt 0)% (loại)<br>%(\\mathrm{TH} y=x-1)%, thay vào phương trình (2) ta được:<br>\\[\\sqrt{2-x}+\\sqrt{6-x-x^{2}}=x-1+\\sqrt{2 x+3}-\\sqrt{x+3}\\]<br>\\[\\Leftrightarrow \\sqrt{2-x}+\\sqrt{3+x}+\\sqrt{(2-x)(3+x)}=x-1+\\sqrt{2 x+3}\\left(Ð \\mathrm{O}:-\\frac{3}{2} \\leq x \\leq 2\\right)\\]<br>Đặt %(\\sqrt{2-x}+\\sqrt{3+x}=t \\Rightarrow \\sqrt{(2-x)(3+x)}=\\frac{t^{2}-5}{2})%<br>Phương trình trở thành %(t+\\frac{t^{2}-5}{2}=\\sqrt{2 x+3}+\\frac{(2 x+3)-5}{2})% (3)<br>Xét hàm số %(f(u)=u+\\frac{u^{2}-5}{2})% trên %((0 ;+\\infty))%.<br>Hàm số %(f(u))% đồng biến trên %((0 ;+\\infty))%.<br>Phương trình %((3) \\Leftrightarrow f(t)=f(\\sqrt{2 x+3}) \\Leftrightarrow t=\\sqrt{2 x+3})%<br>Trở lại phép đặt: %(\\sqrt{2-x}+\\sqrt{3+x}=\\sqrt{2 x+3})%<br>\\[\\begin{array}{l}\\Leftrightarrow \\sqrt{6-x-x^{2}}=x-1 \\\\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 1 \\\\2 x^{2}-x-5=0\\end{array} \\Leftrightarrow x=\\frac{1+\\sqrt{41}}{4}\\right.\\end{array}\\]<br>Với %(x=\\frac{1+\\sqrt{41}}{4} \\Rightarrow y=\\frac{-3+\\sqrt{41}}{4})% (thỏa mãn).<br>Vậy hệ phương trình có nghiệm %((x ; y)=\\left(\\frac{1+\\sqrt{41}}{4} ; \\frac{-3+\\sqrt{41}}{4}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C)% nhọn. Tìm giá trị lớn nhất của biểu thức<br>\\[T=\\left(\\cos A+\\sqrt{\\cos ^{2} A+2}\\right)\\left(\\cos B+\\sqrt{\\cos ^{2} B+2}\\right)\\left(\\cos C+\\sqrt{\\cos ^{2} C+2}\\right)\\]",
+        "question_images": [],
+        "solution": "Đặt %(\\cos A=x ; \\cos B=y, \\cos C=z)%.<br>Ta có: %(0\\lt x, y, z\\lt 1)%<br>Biểu thức trở thành: %(T=\\left(x+\\sqrt{x^{2}+2}\\right)\\left(y+\\sqrt{y^{2}+2}\\right)\\left(z+\\sqrt{z^{2}+2}\\right))%<br>Chứng minh: %(x+y+z \\leq \\frac{3}{2})%<br>\\[\\begin{array}{l} T=\\left(x+\\sqrt{x^{2}+2}\\right)\\left(y+\\sqrt{y^{2}+2}\\right)\\left(z+\\sqrt{z^{2}+2}\\right) \\\\Leftrightarrow \\ln T=\\ln \\left(x+\\sqrt{x^{2}+2}\\right)+\\ln \\left(y+\\sqrt{y^{2}+2}\\right)+\\ln \\left(z+\\sqrt{z^{2}+2}\\right)\\end{array}\\]<br>Ta chứng minh: %(\\ln \\left(x+\\sqrt{x^{2}+2}\\right) \\leq \\frac{2}{3} x+\\ln 2-\\frac{1}{3})% với %(x \\in(0 ; 1))%.<br>Tương tự: %(\\quad \\ln \\left(y+\\sqrt{y^{2}+2}\\right) \\leq \\frac{2}{3} y+\\ln 2-\\frac{1}{3})% với %(y \\in(0 ; 1))%.<br>\\[\\ln \\left(z+\\sqrt{z^{2}+2}\\right) \\leq \\frac{2}{3} z+\\ln 2-\\frac{1}{3} \\text { với } z \\in(0 ; 1) \\text {. }\\]<br>Suy ra %(\\ln T \\leq \\frac{2}{3}(x+y+z)+3 \\ln 2-1 \\leq 3 \\ln 2 \\Leftrightarrow T \\leq 8)%.<br>Dấu bằng xảy ra khi %(x=y=z=\\frac{1}{2} \\Leftrightarrow A=B=C=\\frac{\\pi}{3})%.<br>Vậy %(\\max T=8)% khi tam giác %(A B C)% đều.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 9:",
+        "group_content": "Cho dãy số %(\\left(x_{n}\\right))% được xác định bởi %(\\left\\{\\begin{array}{l}x_{1}=\\frac{1}{2} \\\\ x_{n}+\\frac{x_{n-1}^{2}}{2}=\\frac{1}{2}, \\forall n \\geq 2 .\\end{array}\\right.)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng %(-\\frac{1}{8} \\leq x_{n} \\leq \\frac{1}{2})% với mọi %(n \\geq 1)%.",
+        "question_images": [],
+        "solution": "Ta chứng minh quy nạp %(-\\frac{1}{8} \\leq x_{n} \\leq \\frac{1}{2})% với mọi %(n \\geq 1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Tìm giới hạn của dãy số %(\\left(x_{n}\\right))% khi %(n \\rightarrow+\\infty)%.",
+        "question_images": [],
+        "solution": "Xét %(x)% là nghiệm của phương trình %(x+\\frac{x^{2}}{2}=\\frac{1}{2})% với %(-\\frac{1}{8} \\leq x \\leq \\frac{1}{2})%.<br>Khi đó %(x-x_{1}=\\frac{1}{2}-\\frac{x^{2}}{2}-\\frac{1}{2}=-\\frac{x^{2}}{2})%<br>\\[x-x_{n}=-\\frac{1}{2}\\left(x^{2}-x_{n-1}^{2}\\right)=\\frac{(-1)^{n}}{2^{n}} x^{2}\\left(x+x_{1}\\right)\\left(x+x_{2}\\right) \\ldots\\left(x+x_{n-1}\\right)\\]<br>Ta có %(x=\\sqrt{2}-1)%, nên %(\\left|x+x_{n}\\right| \\leq|x|+\\left|x_{n}\\right| \\leq \\sqrt{2}-1+\\frac{1}{2}\\lt 1)% với mọi %(n \\geq 1)%.<br>Nên %(\\left|x-x_{n}\\right| \\leq \\frac{1}{2^{n}})% với mọi %(n \\geq 1)%<br>Có %(\\lim \\frac{1}{2^{n}}=0)% do đó %(\\lim x_{n}=x=\\sqrt{2}-1)%.",
+        "question_type": "essay"
+    }
+]

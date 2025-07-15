@@ -1,0 +1,150 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức: %(P=\\frac{\\sqrt{x}+1}{x-1}-\\frac{x+2}{x \\sqrt{x}-1}-\\frac{\\sqrt{x}+1}{x+\\sqrt{x}+1}(x\\gt 0 ; x \\neq 1))%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.75,
+        "content": "a) Rút gọn biểu thức %(P)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}P=\\frac{1}{\\sqrt{x}-1}-\\frac{x+2}{(\\sqrt{x}-1)(x+\\sqrt{x}+1)}-\\frac{\\sqrt{x}+1}{x+\\sqrt{x}+1} \\\\ =\\frac{(x+\\sqrt{x}+1)-(x+2)-(\\sqrt{x}-1)(\\sqrt{x}+1)}{(\\sqrt{x}-1)(x+\\sqrt{x}+1)} \\\\ =\\frac{-x+\\sqrt{x}}{(\\sqrt{x}-1)(x+\\sqrt{x}+1)} \\\\ =\\frac{-\\sqrt{x}(\\sqrt{x}-1)}{(\\sqrt{x}-1)(x+\\sqrt{x}+1)} \\\\ =\\frac{-\\sqrt{x}}{x+\\sqrt{x}+1}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) Tìm giá trị lớn nhất của biểu thức %(Q=\\frac{2}{P}+\\sqrt{x})%.",
+        "question_images": [],
+        "solution": "%(Q=\\frac{2}{P}+\\sqrt{x}=\\frac{2 x+2 \\sqrt{x}+2}{-\\sqrt{x}}-\\frac{x}{-\\sqrt{x}}=-\\left(\\sqrt{x}+\\frac{2}{\\sqrt{x}}+2\\right))%<br>Theo BĐT Cauchy ta có: %(\\sqrt{x}+\\frac{2}{\\sqrt{x}} \\geq 2 \\sqrt{2} \\Leftrightarrow \\sqrt{x}+\\frac{2}{\\sqrt{x}}+2 \\geq 2 \\sqrt{2}+2)%<br>Suy ra Max %(Q=-(2 \\sqrt{2}+2))%. Dấu \" %(=)% \" xảy ra khi %(\\sqrt{x}=\\frac{2}{\\sqrt{x}} \\Leftrightarrow x=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Cho %(a, b, c)% là các số thực khác 0 thỏa mãn %(a+b+c=11)% và %(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=1)%.Tính giá trị của biểu thức %(P=a^{2}+b^{2}+c^{2}+2 a b c)%.",
+        "question_images": [],
+        "solution": "Ta có %(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=1 \\Leftrightarrow \\frac{a b+b c+c a}{a b c}=1 \\Leftrightarrow a b+b c+c a=a b c)%<br>Khi đó %(P=a^{2}+b^{2}+c^{2}+2 a b c=a^{2}+b^{2}+c^{2}+2(a b+b c+c a))% %(=(a+b+c)^{2}=11^{2}=121)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Chứng minh rằng %(n^{4}-10 n^{2}+9)% chia hết cho 384 với mọi %(n)% là số nguyên lẻ.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Đặt } A=n^{4}-10 n^{2}+9=\\left(n^{4}-n^{2}\\right)-\\left(9 n^{2}-9\\right) . \\\\=\\left(n^{2}-1\\right)\\left(n^{2}-9\\right)=(n-3)(n-1)(n+1)(n+3) .\\end{array}\\]<br>Vì %(n)% lẻ nên đặt %(n=2 k+1(k \\in \\mathbb{Z}))%.<br>Suy ra %(A=(2 k-2) 2 k(2 k+2)(2 k+4)=16(k-1) k(k+1)(k+2))%.<br>%(\\Rightarrow)% A chia hết cho 16 .<br>Vì %((k-1) ; k ;(k+1) ;(k+2))% là 4 số nguyên liên tiếp nên có một số chia hết cho 2 , một số chia hết cho 3 , một số chia hết cho 4 nên %((k-1) k(k+1)(k+2))% chia hết cho 24 .(2)<br>Từ (1) và %((2))% suy ra %(A)% chia hết cho %(16.24=384)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng với mọi %(a, b)% là số thực dương, ta luôn có: %(4\\left(a^{3}+b^{3}\\right) \\geq(a+b)^{3})%. Dấu \"=\" xảy ra khi nào?",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}4\\left(a^{3}+b^{3}\\right) \\geq(a+b)^{3} \\Leftrightarrow 3\\left(a^{3}+b^{3}\\right)-3 a b(a+b) \\geq 0 \\\\ \\Leftrightarrow(a+b)\\left(a^{2}-2 a b+b^{2}\\right) \\geq 0 . \\\\ \\Leftrightarrow(a+b)(a-b)^{2} \\geq 0 \\text { (luôn đúng). }\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho hai số thực dương %(a, b)% thỏa mãn %(a+b=4 a b)%. Tìm giá trị nhỏ nhất của biểu thức:<br>\\[P=\\frac{a^{3}+b^{3}}{a^{2} b(a+b)^{2}}+\\frac{4 a b}{a b+b^{2}} .\\]",
+        "question_images": [],
+        "solution": "%(P=\\frac{a^{3}+b^{3}}{a^{2} b(a+b)^{2}}+\\frac{4 a b}{a b+b^{2}}=\\frac{a^{3}+b^{3}}{a \\cdot a b(a+b)^{2}}+\\frac{4 a b}{b(a+b)})%<br>%(\\begin{array}{l}\\geq \\frac{\\frac{1}{4}(a+b)^{3}}{a \\cdot \\frac{1}{4}(a+b) \\cdot(a+b)^{2}}+\\frac{1}{b} . \\\\ =\\frac{1}{a}+\\frac{1}{b}=\\frac{a+b}{a b}=4 .\\end{array})%<br>Dấu \" %(=)% \" xảy ra khi và chỉ khi %(a=b=\\frac{1}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Giải phương trình %((\\sqrt{1+x}+\\sqrt{1-x})\\left(1+\\sqrt{1-x^{2}}\\right)=4)%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(-1 \\leq x \\leq 1)%.<br>Ta có: %((\\sqrt{1+x}+\\sqrt{1-x})^{2}=2+2 \\sqrt{1-x^{2}})%.<br>Do đó phương trình đã cho tương dương với<br>\\[(\\sqrt{1+x}+\\sqrt{1-x})^{2}=8 \\Leftrightarrow \\sqrt{1+x}+\\sqrt{1-x}=2 \\text {. }\\]<br>%(\\begin{array}{l}\\Leftrightarrow 2+2 \\sqrt{1-x^{2}}=4 . \\\\ \\Leftrightarrow \\sqrt{1-x^{2}}=1 \\Leftrightarrow x=0 .\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho phương trình %(x^{2}-2(m-2) x-2 m=0)% với %(x)% là ẩn số.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Chứng minh phương trình đã cho luôn có hai nghiệm phân biệt với mọi %(m)%.",
+        "question_images": [],
+        "solution": "\\[\\Delta^{\\prime}=(m-2)^{2}+2 m=m^{2}-2 m+4=(m-1)^{2}+3\\gt 0, \\forall m\\]<br>Suy ra phương trình đã cho luôn có hai nghiệm phân biệt với mọi %(m)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Tìm giá trị của %(m)% để hai nghiệm %(x_{1}, x_{2})% của phương trình thỏa mãn: %(x_{2}^{2}+4 x_{1}=2 m\\left(x_{1}+1\\right))%",
+        "question_images": [],
+        "solution": "Theo định lý Vi-et, ta có: %(x_{1}+x_{2}=-\\frac{b}{a}=2 m-4)%.<br>Vì %(x_{1})% là nghiệm của phương trình đã cho nên %(x_{1}^{2}-2(m-2) x_{1}-2 m=0 \\Leftrightarrow(2 m-4) x_{1}=x_{1}^{2}-2 m)%<br>Ta có %(x_{2}^{2}+4 x_{1}=2 m\\left(x_{1}+1\\right) \\Leftrightarrow x_{2}^{2}=(2 m-4) x_{1}+2 m)%.<br>%(\\Leftrightarrow x_{2}^{2}=x_{1}^{2}-2 m+2 m \\Leftrightarrow x_{2}^{2}=x_{1}^{2} \\Leftrightarrow x_{1}+x_{2}=0)%<br>%(\\Leftrightarrow 2 m-4=0 \\Leftrightarrow m=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Trong mặt phẳng tọa độ %(O x y)%, cho parabol %((P): y=x^{2})% và đường thẳng (d): %(y=2 x+3)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.75,
+        "content": "a) Vẽ đồ thị %((P))% và %((d))% trên cùng một hệ tọa độ %(O x y)%.",
+        "question_images": [],
+        "solution": "Bảng giá trị của %(y=x^{2})% và %(y=2 x+3)%<br>Vẽ %((P))% và %((d))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f29e10466e590438e99b96891347b747.png\" srcset=\"https://docdn.giainhanh.io/media/test/88f5add0cd940824adfbeefcce05b133.png 245w, https://docdn.giainhanh.io/media/test/ac887d7ea9794ff871de7957c41760e7.png 500w\" width=\"500\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e104ac3a0ca0cbd3f9f1d342f9eed2cb.png\" srcset=\"https://docdn.giainhanh.io/media/test/cf0b354ba34684ce93410b6c9f1829e4.png 245w, https://docdn.giainhanh.io/media/test/33f93ae68ef1f5d1089f7e17575b6dbd.png 500w\" width=\"500\"/><br><img alt=\"image.png\" src=\"https://docdn.giainhanh.io/media/test/f702a77500c65cc21f6bde8b3780bb3c.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.25,
+        "content": "b) Gọi %(A, B)% là giao điểm của %((P))% và %((d))%. Điểm %(M)% là một điểm thay đổi trên %((P))% và có hoành độ là %(\\mathrm{m}(-1\\lt m\\lt m))%. Tìm %(m)% để tam giác %(M A B)% có diện tích lớn nhất.",
+        "question_images": [],
+        "solution": "Gọi %(M\\left(m ; m^{2}\\right) \\in(P))% với %(-1\\lt m\\lt 3)%. Các điểm %(A^{\\prime}, B^{\\prime}, M^{\\prime})% lần lượt là hình chiếu vuông góc của %(A, B, M)% trên trục hoành<br>Ta có %(S_{A B B^{\\prime} A^{\\prime}}=\\frac{1}{2}\\left(\\mathrm{AA}^{\\prime}+\\mathrm{BB}^{\\prime}\\right) A^{\\prime} B^{\\prime}=\\frac{1}{2}(1+9) \\cdot 4=20)%.<br>\\[\\begin{array}{l}S_{A M M^{\\prime} A^{\\prime}}=\\frac{1}{2}\\left(\\mathrm{AA}^{\\prime}+\\mathrm{MM}^{\\prime}\\right) A^{\\prime} M^{\\prime}=\\frac{1}{2}\\left(1+m^{2}\\right) \\cdot(1+m) . \\S_{M B B^{\\prime} M^{\\prime}}=\\frac{1}{2}\\left(\\mathrm{MM}^{\\prime}+\\mathrm{BB}^{\\prime}\\right) B^{\\prime} M^{\\prime}=\\frac{1}{2}\\left(m^{2}+9\\right) \\cdot(3-m) . \\S_{M A B}=S_{A B B^{\\prime} A^{\\prime}}-S_{A M M^{\\prime} A^{\\prime}}-S_{M B B^{\\prime} M^{\\prime}}=8-2(m-1)^{2} \\leq 8, \\text { với mọi }-1\\lt m\\lt 3 .\\end{array}\\]<br>Suy ra tam giác MAB có diện tích lớn nhất bằng %(8 \\Leftrightarrow m=1)%.<br>Vậy %(\\mathrm{m}=1)% là giá trị cần tìm<br><img alt=\"image.png\" src=\"https://docdn.giainhanh.io/media/test/a8ef3b3f436d1508e69af76dceed3204.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 2.0,
+        "content": "Trong một kỳ thi chọn đội tuyển học sinh giỏi của trường, nếu sắp xếp mỗi phòng thi 12 học sinh thì còn thừa một em, còn nếu giảm một phòng thi thì số học sinh được chia đều cho mỗi phòng. Hỏi có bao nhiêu học sinh tham dự kỳ thi, biết rằng mỗi phòng thi có không quá 24 học sinh?",
+        "question_images": [],
+        "solution": "Gọi số phòng thi ban đầu là x (phòng), với %(x \\in \\mathbb{N}^{*}, x \\geq 2)%.<br>Số học sinh tham dự kỳ thi là %(12 x+1)%.<br>Số phòng sau khi giảm là %(x-1)% (phòng).<br>Nếu giảm một phòng thi thì số học sinh được chia đều cho mỗi phòng, khi đó mỗi phòng có y học sinh với %(y \\in \\mathbb{N}^{*}, y \\leq 24)%.<br>Ta có %((x-1) y=12 x+1 \\Leftrightarrow y=\\frac{12 x+1}{x-1}=12+\\frac{13}{x-1})%.<br>Vì %(x, y \\in \\mathbb{N} *)% nên %((x-1) \\in \\mathbf{U}^{\\prime}(13)=\\{1 ; 13\\})% hay %(x \\in\\{2 ; 14\\})%.<br>- Nếu %(x=2)% suy ra %(y=25)% (loại)<br>- Nếu %(\\mathrm{x}=14)% suy ra %(\\mathrm{y}=13)% (thỏa).<br>Vậy số học sinh tham dự kỳ thi là %(12.14+1=169)% học sinh",
+        "question_type": "essay"
+    },
+    {
+        "title": "10",
+        "group_content": "Cho đường tròn %((O ; R))% và dây cung %(B C)% cố định của đường tròn thỏa mãn %(B C\\lt 2 R)%. Một điểm %(A)% di chuyển trên %((O ; R))% sao cho tam giác %(A B C)% có ba góc nhọn. Các đường cao %(A D, B E, C F)% của tam giác %(A B C)% cắt nhau tại %(H)%. Đường phân giác của %(C H E)% kéo dài về hai phía cắt %(A B)% và %(A C)% lần lượt tại %(M)% và %(N)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh tam giác %(A M N)% cân tại %(A)%.",
+        "question_images": [],
+        "solution": "Ghi chú: Hình vẽ ít nhất thể hiện được đường phân giác và 3 đường cao.<br>Ta có %(H E C=H F B=90^{\\circ})% nên %(\\left\\{\\begin{array}{l}M H F+F M H=90^{\\circ} \\\\ E N H+N H E=90^{\\circ}\\end{array}\\right.)% (1).<br>Vì HN là phân giác của %(C H E)% nên %(C H N=N H E)%.<br>Lại có %(C H N=M H F)% (đối đỉnh) nên %(N H E=M H F)% (2).<br>Từ (1) và (2) suy ra %(F M H=E N H)% hay %(A M N=A N M)%.<br>Vậy %(\\triangle A M N)% cân tại A.<br><img alt=\"image.png\" src=\"https://docdn.giainhanh.io/media/test/149fdfefb37ead5cd7e6f90074c259b3.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Gọi %(I, P, Q)% lần lượt là hình chiếu của %(D)% trên các cạnh %(A B, B E, C F)%. Chứng minh rằng ba điểm %(I, P, Q)% cùng nằm trên một đường thẳng vuông góc với %(A O)%.",
+        "question_images": [],
+        "solution": "Tứ giác %(B I P D)% nội tiếp nên %(I B D+I P D=180^{\\circ}(3))%.<br>Ta có %(I B D=F H A)% (cùng phụ với %(F A H)% ), %(F H A=Q H D)% (đối đỉnh)<br>Suy ra %(I B D=Q H D)%.<br>Vì tứ giác %(D P H Q)% nội tiếp nên %(Q H D=Q P D)% nên %(I B D=Q P D(4))%.<br>Từ (3) và (4) suy ra %(Q P D+I P D=180^{\\circ})% nên ba điểm %(I, P, Q)% thẳng hàng.<br>Ta có %(\\mathrm{PD} / / \\mathrm{AC})% (cùng vuông góc với BE ) nên %(P D B=A C B)%.<br>Qua %(A)% kẻ tiếp tuyến %(t A t^{\\prime})% của %((O))%.<br>Suy ra %(O A \\perp A t)% và %(t A B=A C B)% (cùng bằng %(\\frac{1}{2})% sđ %(A B)% ).<br>Khi đó %(P D B=t A B)%. Mà %(M I P=P D B)% (Tứ giác BIPD nội tiếp)<br>Suy ra %(M I P=t A B)% nên %(I P / / A t)%.<br>Vậy %(I P \\perp A O)% (đpcm).",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) Đường tròn ngoại tiếp tam giác %(A M N)% că̆t đường phân giác trong của %(B A C)% tại điểm thứ hai %(K)%. Chứng minh rằng đường thẳng %(H K)% luôn đi qua một điểm cố định.",
+        "question_images": [],
+        "solution": "Vì %(\\triangle A M N)% cân tại %(A)% và %(A K)% là tia phân giác của góc %(M A N)% nên %(A K)% là trung trực của %(M N)%, suy ra %(A K)% là đường kính của đường tròn ngoại tiếp %(\\triangle A M N)%.<br>Do đó %(A M K=A N K=90^{\\circ} \\Rightarrow K M\\|C F, K N\\| B E)%.<br>Gọi %(R=K M \\cap B H, S=K N \\cap H C)%.<br>Suy ra %(H R K S)% là hình bình hành hay %(H K)% đi qua trung điểm %(G)% của %(R S)%.<br>Từ %(M R \\| F H \\Rightarrow \\frac{H R}{R B}=\\frac{F M}{M B})%<br>Vì %(H N)% là phân giác của %(C H E)% nên %(H M)% là phân giác của %(B H F)%<br>\\[\\Rightarrow \\frac{F M}{M B}=\\frac{F H}{H B} .\\]<br>Vì %(H N)% là phân giác của %(C H E)% nên %(\\frac{E N}{N C}=\\frac{H E}{H C})%.<br>Ta có %(\\triangle F H B \\sim \\triangle E H C(g . g))% nên %(\\frac{F H}{H B}=\\frac{H E}{H C})%.<br>Suy ra %(\\frac{H R}{R B}=\\frac{H S}{S C})% hay %(R S \\| B C)%.<br>Gọi %(J)% là giao điểm của %(H K)% và %(B C)%.<br>Vì %(R G / / B J)% và %(G S / / J C)% nên %(\\frac{R G}{B J}=\\frac{H G}{H J}=\\frac{G S}{J C})%.<br>Mà %(R G=G S)% ( %(G)% là trung điểm của %(R S)% ) nên %(B J=J C)% hay %(J)% là trung điểm %(B C)%.<br>Vậy %(H K)% luôn đi qua trung điểm của %(B C)% cố định.<br><img alt=\"image.png\" src=\"https://docdn.giainhanh.io/media/test/3e3221088969472daf8b5ce17ea97330.png\"/>",
+        "question_type": "essay"
+    }
+]

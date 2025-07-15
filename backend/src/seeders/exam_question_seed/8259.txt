@@ -1,0 +1,80 @@
+[
+    {
+        "title": "1",
+        "group_content": "Tìm các nguyên hàm sau",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(\\int(2+\\cos 2 x) d x)%",
+        "question_images": [],
+        "solution": "%(\\int(2+\\cos 2 x) d x=2 x+\\frac{1}{2} \\sin 2 x+C)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(\\int\\left(\\frac{1}{x}+e^{2 x}-x^{2}\\right) d x)%",
+        "question_images": [],
+        "solution": "%(\\int\\left(\\frac{1}{x}+e^{2 x}-x^{2}\\right) d x=\\ln |x|+\\frac{1}{2} e^{2 x}-\\frac{x^{3}}{3}+C)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm nguyên hàm %(F(x))% của hàm số %(\\mathrm{f}(\\mathrm{x})=\\mathrm{x}^{3}-2 x+5)% biết %(\\mathrm{F}(2)=5)%.",
+        "question_images": [],
+        "solution": "Ta có %(\\mathrm{F}(\\mathrm{x})=\\frac{x^{4}}{4}-x^{2}+5 x+C)%<br>Lại có %(F(2)=5 \\Leftrightarrow \\frac{2^{4}}{4}-2^{2}+5.2+C=5)%<br>%(\\Leftrightarrow C=-5)%<br>Vậy %(\\mathrm{F}(\\mathrm{x})=\\frac{x^{4}}{4}-x^{2}+5 x-5)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng hàm số %(F(x)=\\ln \\left(x^{2}+4\\right))%là nguyên hàm của hàm số %(f(x)=\\frac{2 x}{x^{2}+4})% trên R.",
+        "question_images": [],
+        "solution": "Do %(: x^{2}+4\\gt 0, \\forall x \\in \\mathbb{R} \\Rightarrow)% hàm số %(F(x)=\\ln \\left(x^{2}+4\\right))% X.Đ trên %(\\mathrm{R})%<br>Ta có %((F(x))^{\\prime}=\\left(\\ln \\left(x^{2}+4\\right)\\right)^{\\prime}=\\frac{\\left(x^{2}+4\\right)^{\\prime}}{x^{2}+4})%<br>\\[=\\frac{2 x}{x^{2}+4}=f(x), \\forall x \\in \\mathbb{R}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Tính các tích phân sau",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) %(\\int_{0}^{\\frac{\\pi}{4}}\\left(e^{4 x}+\\sin 2 x-\\frac{1}{\\cos ^{2} x}\\right) d x)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\int_{0}^{\\frac{\\pi}{4}}\\left(e^{4 x}+\\sin 2 x-\\frac{1}{\\cos ^{2} x}\\right) d x=\\left.\\left(\\frac{1}{4} e^{4 x}-\\frac{1}{2} \\cos 2 x-\\tan x\\right)\\right|_{0} ^{\\frac{\\pi}{4}} \\\\ =\\frac{e^{\\pi}-3}{4}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) %(\\int_{1}^{e} \\frac{\\ln ^{3} x}{x} d x)%",
+        "question_images": [],
+        "solution": "Đặt %(u=\\ln x \\Rightarrow d u=\\frac{d x}{x})%<br>Đổi cận :<br>%(C=\\int_{0}^{1} u^{3} d u=\\left.\\frac{u^{4}}{4}\\right|_{0} ^{1}=\\frac{1}{4})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/82c264734c0f972f1ab6450d1c05180b.png\" srcset=\"https://docdn.giainhanh.io/media/test/8f8df167b5c12eed1a882932c3e4a696.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Tính diện tích của hình phẳng giới hạn bởi đồ thị các hàm số: %(y=x^{2}-x, y=x)%",
+        "question_images": [],
+        "solution": "Xét phương trình hoành độ giao điểm của đồ thị hai hàm số %(\\mathrm{y}=\\mathrm{x}^{2}-\\mathrm{x})% và %(\\mathrm{y}=\\mathrm{x})% :<br>\\[x^{2}-x=x \\Leftrightarrow x^{2}-2 x=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\x=2\\end{array}\\right.\\]<br>Diện tích hình phẳng đã cho là :<br>\\[\\left.S=\\int_{0}^{2}\\left|x^{2}-2 x\\right| d x=\\left|\\int_{0}^{2}\\left(x^{2}-2 x\\right) d x\\right|=\\left|\\left(\\frac{x^{3}}{3}-x^{2}\\right)\\right|_{0}^{2} \\right\\rvert\\,=\\frac{4}{3}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.5,
+        "content": "Tính thể tích vật thể tạo thành khi quay hình phẳng %((H))% quanh trục %(O x)%, biết %((H))% được giới hạn bởi các đường<br>\\[y=0, y=\\sqrt{\\sin ^{4} x+\\cos ^{4} x-\\frac{3}{4}}, \\quad x=0 \\quad \\text { và } \\quad x=\\frac{\\pi}{12} \\text {. }\\]",
+        "question_images": [],
+        "solution": "Ta có: %(\\sin ^{4} x+\\cos ^{4} x=\\frac{3}{4}+\\frac{1}{4} \\cos 4 x)%<br>\\[V_{O x}=\\pi \\int_{0}^{\\frac{\\pi}{12}} \\frac{\\cos 4 x}{4} d x=\\left.\\frac{\\pi}{16} \\sin 4 x\\right|_{0} ^{\\frac{\\pi}{12}}=\\frac{\\pi \\sqrt{3}}{2}\\]",
+        "question_type": "essay"
+    }
+]

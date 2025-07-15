@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 2.0,
+        "content": "Cho hàm số %(y=x^{3}-3 m x^{2}+3)% có đồ thị %((C))%. Tìm tất cả các giá trị thực của tham số %(m)% để đường thẳng %(d: y=x)% cắt đồ thị %((C))% tại ba điểm phân biệt có hoành độ lập thành cấp số cộng.",
+        "question_images": [],
+        "solution": "Ta có phương trình hoành độ %(x^{3}-3 m x^{2}+3=x \\Leftrightarrow x^{3}-3 m x^{2}-x+3=0)%, (1)<br>Do phương trình (1) có ba nghiệm phân biệt %(x_{1}, x_{2}, x_{3})% theo thứ tự lập thành cấp số cộng suy ra:<br>\\[2 x_{2}=x_{1}+x_{3},(2) \\text {. }\\]<br>Mặt khác theo định lí Vi-ét cho phương trình bậc ba ta có %(\\left\\{\\begin{array}{l}x_{1}+x_{2}+x_{3}=3 m \\\\ x_{1} x_{2}+x_{2} x_{3}+x_{3} x_{1}=-1 \\text {. } \\\\ x_{1} x_{2} x_{3}=-3\\end{array}\\right.)%<br>Thay (2) vào phương trình đầu tiên ta được %(x_{2}=m)%, mà %(x_{2})% là nghiệm của phương trình (1) ta được %(-2 m^{3}-m+3=0 \\Leftrightarrow\\left[\\begin{array}{l}m=1 \\\\ 2 m^{2}+2 m+3=0\\end{array} \\Leftrightarrow m=1\\right.)%.<br>Thử lại với %(m=1)% ta được phương trình hoành độ %(x^{3}-3 x^{2}-x+3=0 \\Leftrightarrow\\left[\\begin{array}{l}x_{1}=-1 \\\\ x_{2}=1 \\\\ x_{3}=3\\end{array}\\right.)% dễ thấy ba nghiệm này lập thành cấp số cộng với công sai %(d=2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Giải phương trình sau trên tập số thực %(2\\left(x^{2}+1\\right) \\sqrt{x-1}+8=(5+4 \\sqrt{x-1}) x)%",
+        "question_images": [],
+        "solution": "<strong>Cách 1:</strong><br>Điều kiện %(x \\geq 1)%<br>\\[\\begin{array}{l}\\text { PT } \\Leftrightarrow\\left(2 x^{2}+2\\right) \\sqrt{x-1}+8=5 x+4 x \\sqrt{x-1} \\\\Leftrightarrow 2(x-1)^{2} \\sqrt{x-1}-5(x-1)+3=0\\end{array}\\]<br>Đặt %(t=\\sqrt{x-1}(t \\geq 0))%, phương trình trở thành<br>\\[\\begin{array}{l}2 t^{5}-5 t^{2}+3=0 \\Leftrightarrow(t-1)^{2}\\left(2 t^{3}+4 t^{2}+6 t+3\\right)=0 \\Leftrightarrow t=1 \\text { vì } 2 t^{3}+4 t^{2}+6 t+3\\gt 0, \\forall t \\geq 0 \\\\Rightarrow \\sqrt{x-1}=1 \\Leftrightarrow x=2\\end{array}\\]<br><strong>Cách 2:</strong><br>Điều kiện %(x \\geq 1)%<br>%(\\begin{array}{l}\\mathrm{PT} \\Leftrightarrow\\left(2 x^{2}+2\\right) \\sqrt{x-1}+8=5 x+4 x \\sqrt{x-1} \\\\ \\Leftrightarrow\\left(2 x^{2}-4 x+2\\right) \\sqrt{x-1}-5 x+8=0 \\\\ \\Leftrightarrow\\left(x^{2}-2 x+1\\right)(2 \\sqrt{x-1}-x)+x^{3}-2 x^{2}+x-5 x+8=0\\end{array})%<br>%(\\begin{array}{l}\\Leftrightarrow\\left(x^{2}-2 x+1\\right)(2 \\sqrt{x-1}-x)+x^{3}-2 x^{2}-4 x+8=0 \\\\ \\Leftrightarrow\\left(x^{2}-2 x+1\\right) \\cdot \\frac{4 x-4-x^{2}}{2 \\sqrt{x-1}+x}+(x-2)^{2}(x+2)=0 \\\\ \\Leftrightarrow-\\frac{\\left(x^{2}-2 x+1\\right)(x-2)^{2}}{2 \\sqrt{x-1}+x}+(x-2)^{2}(x+2)=0\\end{array})%<br>%(\\begin{array}{l}\\Leftrightarrow(x-2)^{2}\\left(\\frac{-x^{2}+2 x-1}{2 \\sqrt{x-1}+x}+x+2\\right)=0 \\\\ \\Leftrightarrow(x-2)^{2} \\cdot \\frac{-x^{2}+2 x-1+2(x+2) \\sqrt{x-1}+x^{2}+2 x}{2 \\sqrt{x-1}+x}=0\\end{array})%<br>%(\\begin{array}{l}\\Leftrightarrow(x-2)^{2} \\cdot \\frac{2(x+2) \\sqrt{x-1}+4 x-1}{2 \\sqrt{x-1}+x}=0 \\\\ \\Leftrightarrow x-2=0 \\text { vì } \\frac{2(x+2) \\sqrt{x-1}+4 x-1}{2 \\sqrt{x-1}+x}\\gt 0, \\forall x>1\\end{array})%<br>%(\\Leftrightarrow x=2)% (TM)<br>Vậy phương trình có nghiệm %(x=2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình trên tập số thực %(\\left\\{\\begin{array}{l}2019^{y^{2}-x^{2}}=\\frac{x^{2}+2020}{y^{2}+2020}\\quad (1) \\\\ y^{2}+2 x \\sqrt{3 x-1}=9 y-3\\quad(2)\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Điều kiện %(\\left\\{\\begin{array}{l}3 x-1 \\geq 0 \\\\ 9 y-3 \\geq 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq \\frac{1}{3} \\\\ y \\geq \\frac{1}{3}\\end{array}\\right.\\right.)%.<br>Từ (1) ta có %(\\frac{2019^{y^{2}}}{2019^{x^{2}}}=\\frac{x^{2}+2020}{y^{2}+2020} \\Leftrightarrow 2019^{x^{2}}\\left(x^{2}+2020\\right)=2019^{y^{2}}\\left(y^{2}+2020\\right)\\quad({}^{*}))%.<br>Nếu %(x\\gt y \\Rightarrow V T\\left({ }^{*}\\right)>V P\\left({ }^{*}\\right))%. Ngược lại nếu %(x\\lt y \\Rightarrow V T\\left({ }^{*}\\right)\\lt V P\\left({ }^{*}\\right))%.<br>Mặt khác với %(x=y \\Rightarrow V T\\left({ }^{*}\\right)=V P\\left({ }^{*}\\right))%. Vậy %(x=y)%.<br>Thay %(x=y)% vào phương trình (2), ta có:<br>%(\\begin{array}{l}x^{2}+2 x \\sqrt{3 x-1}=9 x-3 \\Leftrightarrow(x+\\sqrt{3 x-1})^{2}=(2 \\sqrt{3 x-1})^{2} \\\\ \\Leftrightarrow(x-\\sqrt{3 x-1})(x+3 \\sqrt{3 x-1})=0 \\Leftrightarrow x-\\sqrt{3 x-1}=0\\left(x \\geq \\frac{1}{3}\\right) . \\\\ \\Leftrightarrow x^{2}-3 x+1=0 \\Leftrightarrow x=\\frac{3 \\pm \\sqrt{5}}{2} .\\end{array})%<br>Kết luận: Hệ phương trình có hai nghiệm %(\\left(\\frac{3+\\sqrt{5}}{2} ; \\frac{3+\\sqrt{5}}{2}\\right) ;\\left(\\frac{3-\\sqrt{5}}{2} ; \\frac{3-\\sqrt{5}}{2}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 2.0,
+        "content": "Tìm hệ số của %(x^{10})% trong khai triển %(f(x)=\\left(\\frac{1}{4} x^{2}+x+1\\right)^{2}(x+2)^{3 n})% với %(n)% là số tự nhiên thỏa mãn %(A_{n}^{3}+C_{n}^{n-2}=14 n)%",
+        "question_images": [],
+        "solution": "Ta có %(A_{n}^{3}+C_{n}^{n-2}=14 n \\Leftrightarrow \\frac{n!}{(n-3)!}+\\frac{n!}{(n-2)!.2!}=14 n)%, với %(n \\geq 3, n \\in \\mathbb{N})%.<br>%(\\begin{array}{l}\\Leftrightarrow n(n-1)(n-2)+\\frac{n(n-1)}{2}=14 n \\\\ \\Leftrightarrow 2(n-1)(n-2)+n-1=28 \\text {, vì } n \\geq 3 .\\end{array})%<br>%(\\Leftrightarrow 2 n^{2}-5 n-25=0 \\Leftrightarrow\\left[\\begin{array}{l}n=5(\\mathrm{tm}) \\\\ n=-\\frac{5}{2}(l)\\end{array}\\right.)%<br>Với %(n=5)% suy ra %(f(x)=\\left(\\frac{1}{4} x^{2}+x+1\\right)^{2}(x+2)^{15}=\\frac{1}{16}\\left(x^{2}+4 x+4\\right)^{2}(x+2)^{15})%<br>%(\\Leftrightarrow f(x)=\\frac{1}{16}(x+2)^{19}=\\frac{1}{16} \\sum_{k=1}^{19} C_{19}^{k} x^{19-k} 2^{k})%.<br>%(\\Rightarrow)% số hạng tổng quát %(T_{k+1}=\\frac{1}{16} C_{19}^{k} 2^{k} x^{19-k})%.<br>Cho %(19-k=10 \\Rightarrow k=9)% ta được số hạng chứa %(x^{10})% là %(T_{10}=\\frac{1}{16} C_{19}^{9} 2^{9} x^{10}=C_{19}^{9} 2^{5} x^{10})%.<br>Vậy hệ số của số hạng chứa %(x^{10})% là %(C_{19}^{9} 2^{5}=2956096)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C)% có %(\\sin A+\\sin C=2 \\sin B)% và %(\\tan \\frac{A}{2}+\\tan \\frac{C}{2}=\\frac{2 \\sqrt{3}}{3})%. Chứng minh rằng tam giác %(A B C)% đều.",
+        "question_images": [],
+        "solution": "Vì %(A+B+C=\\pi \\Rightarrow \\sin \\frac{A+C}{2}=\\cos \\frac{B}{2} ; \\cos \\frac{A+C}{2}=\\sin \\frac{B}{2})%.<br>Ta có %(\\sin A+\\sin C=2 \\sin B \\Leftrightarrow 2 \\sin \\frac{A+C}{2} \\cos \\frac{A-C}{2}=4 \\sin \\frac{B}{2} \\cos \\frac{B}{2} \\Leftrightarrow \\cos \\frac{A-C}{2}=2 \\sin \\frac{B}{2}\\quad(1))%<br>Và %(\\tan \\frac{A}{2}+\\tan \\frac{C}{2}=\\frac{2 \\sqrt{3}}{3} \\Leftrightarrow \\frac{\\sin \\frac{A+C}{2}}{\\cos \\frac{A}{2} \\cos \\frac{C}{2}}=\\frac{2 \\sqrt{3}}{3} \\Leftrightarrow 3 \\cos \\frac{B}{2}=2 \\sqrt{3} \\cos \\frac{A}{2} \\cos \\frac{C}{2})%<br>%(\\Leftrightarrow \\sqrt{3} \\cos \\frac{B}{2}=\\cos \\frac{A+C}{2}+\\cos \\frac{A-C}{2} \\Leftrightarrow \\sqrt{3} \\cos \\frac{B}{2}=\\sin \\frac{B}{2}+\\cos \\frac{A-C}{2}\\quad(2))%<br>Từ (1) và (2) ta có %(\\sqrt{3} \\cos \\frac{B}{2}=3 \\sin \\frac{B}{2} \\Leftrightarrow \\tan \\frac{B}{2}=\\frac{1}{\\sqrt{3}} \\Rightarrow B=\\frac{\\pi}{3})%.<br>Thay %(B=\\frac{\\pi}{3})% vào (1) suy ra %(\\cos \\frac{A-C}{2}=1 \\Leftrightarrow A-C=k 4 \\pi \\Rightarrow A=C)%.<br>Vậy tam giác %(A B C)% có %(A=C, B=\\frac{\\pi}{3})% suy ra tam giác %(A B C)% đều.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 2.0,
+        "content": "Cho dãy số (un) xác định bởi %(\\left\\{\\begin{array}{l}u_{1}=2 \\\\ u_{n+1}=\\frac{4 u_{n}-3}{3 u_{n}-2}\\end{array}, \\forall n \\geq 1\\right.)%<br>Tính %(A=\\lim \\frac{\\frac{1}{u_{1}-1}+\\frac{1}{u_{1}-2}+\\ldots+\\frac{1}{u_{n}-1}}{n^{2}})% là một CSN.",
+        "question_images": [],
+        "solution": "%(u_{n+1}-1=\\frac{4 u_{n}-3}{3 u_{n}-2}-1=\\frac{u_{n}-1}{3\\left(u_{n}-1\\right)+1})%<br>Đặt %(v_{n}=u_{n}-1 \\Rightarrow v_{n+1}=\\frac{v_{n}}{3 v_{n}+1} \\Rightarrow \\frac{1}{v_{n+1}}=\\frac{1}{v_{n}}+3)%. Vậy %(\\left(\\frac{1}{v_{n}}\\right))% là 1 CSC %(d=3, \\frac{1}{v_{1}}=1)%<br>%(\\frac{1}{v_{n}}=1+3(n-1)=3 n-2)%<br>Nên %(\\frac{1}{u_{n}-1}=3 n-2)%<br>%(\\begin{array}{l}\\text { Ta có } \\frac{1}{u_{1}-1}+\\frac{1}{u_{1}-2}+\\ldots+\\frac{1}{u_{n}-1}=3.1-2+3.2-2+\\ldots+3 n-2 \\\\ =3 .(1+2+3+\\ldots+n)-2 n\\end{array})%<br>%(=3 \\cdot \\frac{n(1+n)}{2}-2 n=\\frac{3 n^{2}-n}{2})%<br>Do đó %(A=\\lim \\frac{\\frac{1}{u_{1}-1}+\\frac{1}{u_{1}-2}+\\ldots+\\frac{1}{u_{n}-1}}{n^{2}}=\\lim \\frac{3 n^{2}-n}{2 n^{2}}=\\frac{3}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 2.0,
+        "content": "Trong mặt phẳng với hệ tọa độ %(O x y)%, cho hình chữ nhật %(A B C D)%. Gọi %(H)% là hình chiếu vuông góc của %(B)% lên %(A C, M)% và %(N)% lần lượt là trung điểm của %(B H)% và %(A H)%. Trên cạnh %(C D)% lấy điểm %(K)% sao cho tứ giác %(M N C K)% là hình bình hành. Biết %(M\\left(\\frac{9}{5} ; \\frac{2}{5}\\right), K(9 ; 2), \\quad)%điểm %(B)% thuộc đường thẳng %(d_{1}: 2 x-y+2=0)% và điểm %(C)% thuộc %(d_{2}: x-y-5=0)% và hoành độ đỉnh %(C)% lớn hơn 4. Tìm tọa độ các đỉnh của hình chữ nhật %(A B C D)%.",
+        "question_images": [],
+        "solution": "%(B(b ; 2 b+2) ; C(c ; c-5),(c\\gt 4))%. Ta có %(M N / / C K)% nên %(M N \\perp B C)%, mà %(B H \\perp A C)% nên %(N)% là trực tâm tam giác %(M B C)%. Vậy %(C N \\perp B M \\Rightarrow M K \\perp B M)%.<br>+) %(\\overrightarrow{M K}=\\left(\\frac{36}{5} ; \\frac{8}{5}\\right) ; \\overrightarrow{M B}=\\left(b-\\frac{9}{5} ; 2 b+\\frac{8}{5}\\right))%.<br>%(M K \\perp B M \\Rightarrow \\overrightarrow{M K} \\cdot \\overrightarrow{B M}=0 \\Leftrightarrow \\frac{36}{5}\\left(b-\\frac{9}{5}\\right)+\\frac{8}{5}\\left(2 b+\\frac{8}{5}\\right)=0 \\Leftrightarrow b=1 \\Rightarrow B(1 ; 4))%.<br>%(+\\overrightarrow{K C}=(c-9 ; c-7) ; \\overrightarrow{B C}=(c-1 ; c-9))%.<br>%(C K \\perp C B \\Rightarrow \\overrightarrow{K C} \\cdot \\overrightarrow{B C}=0 \\Leftrightarrow(c-9)(c-1)+(c-7)(c-9)=0 \\Leftrightarrow(c-9)(2 c-8)=0)%<br>%(\\Leftrightarrow\\left[\\begin{array}{l}c=9 \\text { (Nhận) } \\\\ c=4(\\text { Loại) }\\end{array}\\right.)%. Vậy %(C(9 ; 4))%.<br>+) %(K)% là trung điểm %(C D)% nên ta được %(D(9 ; 0))%.<br>%(+))% Giả sử %(A(x ; y))%, ta có %(\\overrightarrow{B A}=\\overrightarrow{C D} \\Leftrightarrow\\left\\{\\begin{array}{l}x-1=0 \\\\ y-4=-4\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=1 \\\\ y=0\\end{array}\\right.\\right.)%. Vậy %(A(1 ; 0))%.<br>Kết luận: %(A(1 ; 0), B(1 ; 4), C(9 ; 4), D(9 ; 0))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a5a95f031612368e6cac05e22534597e.png\" srcset=\"https://docdn.giainhanh.io/media/test/765d16440e74437b40bd635d103f9a99.png 245w, https://docdn.giainhanh.io/media/test/139947727db3d219250d8527bd2b53ef.png 500w, https://docdn.giainhanh.io/media/test/f8125e2a38a35c2b3478b9cafde3390d.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 2.0,
+        "content": "(2 điểm). Cho tứ diện %(A B C D)% có thể tích %(V)%. Gọi %(I)% là điểm thuộc miền trong của tứ diện %(A B C D)%, các đường thẳng %(A I, B I, C I, D I)% lần lượt cắt các mặt phẳng %((B C D))%, %((A C D),(A B D),(A B C))% tại các điểm %(M, N, P, Q)% thỏa mãn %(\\frac{A I}{M I}=\\frac{M I}{N I}=\\frac{C I}{P I}=\\frac{D I}{Q I})%. Biết %(V_{I B C D}=\\frac{a}{b} V)%, vói %(a, b \\in \\mathbb{N}^{*})% và %(\\frac{a}{b})% tối giản. Tính %(S=a+b)%.",
+        "question_images": [],
+        "solution": "- Đặt %(V_{I B C D}=V_{1}, V_{I A C D}=V_{2}, V_{I A B D}=V_{3}, V_{I A B C}=V_{4})%, ta có: %(V=V_{1}+V_{2}+V_{3}+V_{4})%<br>- Ta có: %(\\frac{A I}{M I}+1=\\frac{A M}{I M}=\\frac{d(A,(B C D))}{d(I,(B C D))}=\\frac{V_{A B C D}}{V_{I B C D}}=\\frac{V}{V_{1}} \\Rightarrow \\frac{A I}{M I}=\\frac{V}{V_{1}}-1)%.<br>- Tương tự: %(\\frac{B I}{N I}=\\frac{V}{V_{2}}-1 ; \\frac{C I}{P I}=\\frac{V}{V_{3}}-1 ; \\frac{D I}{Q I}=\\frac{V}{V_{4}}-1)%.<br>- Theo giả thiết: %(\\frac{A I}{M I}=\\frac{M I}{N I}=\\frac{C I}{P I}=\\frac{D I}{Q I} \\Rightarrow \\frac{V}{V_{1}}=\\frac{V}{V_{2}}=\\frac{V}{V_{3}}=\\frac{V}{V_{4}} \\Rightarrow V_{1}=V_{2}=V_{3}=V_{4}=\\frac{1}{4} V)%.<br>Hay %(V_{I B C D}=\\frac{1}{4} V \\Rightarrow\\left\\{\\begin{array}{l}a=1 \\\\ b=4\\end{array}\\right.)%.<br>Vậy %(S=a+b=5)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ec3601887049307920bee99e4b5f0573.png\" srcset=\"https://docdn.giainhanh.io/media/test/ea24ceb38c199e9d587ff08fa2fe59a8.png 165w, https://docdn.giainhanh.io/media/test/931e8b0e7580879c61953c2565624aff.png 500w, https://docdn.giainhanh.io/media/test/ad9a3a5ae8975b8fdd666aa9039ef0bd.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 9: ",
+        "point": 4.0,
+        "content": "Cho hai số thực dương %(a, b)% thỏa mãn %(8 a b-2=3\\left(a^{4}+b^{4}\\right))%. Tìm giá trị lớn nhất của biểu thức %(P=\\frac{1}{1+a^{2}}+\\frac{1}{1+b^{2}}+\\frac{a b}{1+3 a^{2} b^{2}})%.",
+        "question_images": [],
+        "solution": "Từ giả thiết suy ra %(8 a b-2=3\\left(a^{4}+b^{4}\\right) \\underset{A M-G M}{\\geq} 6(a b)^{2}(1))%.<br>Đặt %(a b=t, t\\gt 0)%. Từ (1) suy ra %(-3 t^{2}+4 t-1 \\geqslant 0 \\Leftrightarrow \\frac{1}{3} \\leqslant t \\leqslant 1)% (2).<br>Với %(a, b\\gt 0, a b \\leqslant 1)% ta chứng minh được %(\\frac{1}{1+a^{2}}+\\frac{1}{1+b^{2}} \\leqslant \\frac{2}{1+a b})% (3).<br>Thật vậy (3) %(\\Leftrightarrow\\left(\\frac{1}{1+a^{2}}-\\frac{1}{1+a b}\\right)+\\left(\\frac{1}{1+b^{2}}-\\frac{1}{1+a b}\\right) \\leqslant 0)%<br>%(\\Leftrightarrow \\frac{a(b-a)}{\\left(1+a^{2}\\right)(1+a b)}+\\frac{b(a-b)}{\\left(1+b^{2}\\right)(1+a b)} \\leqslant 0)%<br>%(\\Leftrightarrow(a-b)^{2}(a b-1) \\leqslant 0)% (đúng).<br>Khi đó, %(P \\leqslant \\frac{2}{1+t}+\\frac{t}{1+3 t^{2}} \\leqslant \\frac{t+2}{t+1}=f(t))% với %(t \\in\\left[\\frac{1}{3} ; 1\\right])%.<br>Do %(f^{\\prime}(t)=-\\frac{1}{(1+t)^{2}}\\lt 0, t \\in\\left[\\frac{1}{3} ; 1\\right])% nên %(\\underset{\\left[\\frac{1}{3}, 1\\right]}{ } f(t)=f\\left(\\frac{1}{3}\\right)=\\frac{7}{4})%. Suy ra, %(P \\leqslant \\frac{7}{4})%.<br>Vậy giá trị lớn nhất của %(P)% bằng %(\\frac{7}{4})% đạt được khi %(a=b=\\frac{\\sqrt{3}}{3})%.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Phân tích đa thức sau thành nhân tử: %(x^{3}\\left(x^{2}-7\\right)^{2}-36 x)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text {} x^{3}\\left(x^{2}-7\\right)^{2}-36 x=x\\left[\\left(x^{3}-7 x\\right)^{2}-36\\right] \\\\ =x\\left(x^{3}-7 x-6\\right)\\left(x^{3}-7 x+6\\right)=x\\left(x^{3}-x-6 x-6\\right)\\left(x^{3}-x-6 x+6\\right) \\\\ \\cdots \\cdots \\\\ =x(x+1)(x-1)(x-3)(x+2)(x-2)(x+3)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Dựa vào kết quả trên hãy chứng minh : %(A=n^{3}\\left(n^{2}-7\\right)^{2}-36 n)% chia hết cho 210 với mọi số tự nhiên n",
+        "question_images": [],
+        "solution": "Theo phần a ta có:<br>\\[A=n^{3}\\left(n^{2}-7\\right)^{2}-36 n=(n-3)(n-2)(n-1) n(n+1)(n+2)(n+3)\\]<br>Đây là tích của 7 số nguyên liên tiếp nên có một bộ của 2,1 bội của 3,1 bội của 5 , 1 bội của 7<br>\\[\\text { Mà }(2,3,5,7)=1 \\text { nên } A \\vdots(2 \\cdot 3.5 .7) \\Rightarrow A \\vdots 210\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho biểu thức %(A=\\left(\\frac{1-x^{3}}{1-x}-x\\right): \\frac{1-x^{2}}{1-x-x^{2}+x^{3}}(x \\neq-1 ; 1))%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Rút gọn biểu thức A",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Với } x \\neq \\pm 1 \\text { thì } \\\\ A=\\frac{1-x^{3}-x+x^{2}}{1-x}: \\frac{(1-x)(1+x)}{(1+x)\\left(1-x+x^{2}\\right)-x(1+x)} \\\\ =\\frac{(1-x)\\left(1+x+x^{2}-x\\right)}{1-x}: \\frac{(1-x)(1+x)}{(1+x)\\left(1-2 x+x^{2}\\right)} \\\\ =\\left(1+x^{2}\\right): \\frac{1}{1-x}=\\left(1+x^{2}\\right)(1-x)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Tính giá trị của biểu thức %(A)% tại %(x=-1 \\frac{2}{3})%",
+        "question_images": [],
+        "solution": "Tại %(x=-1 \\frac{2}{3} \\Rightarrow A=10 \\frac{2}{27})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Tìm giá trị của %(x)% để %(A\\lt 0)%",
+        "question_images": [],
+        "solution": "Với %(x \\neq \\pm 1)% thì %(A\\lt 0 \\Leftrightarrow\\left(1+x^{2}\\right)(1-x)\\lt 0 \\Leftrightarrow 1-x\\lt 0 \\Leftrightarrow x\\gt 1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Cho ba số %(a, b, c)% thỏa mãn %(a b c=2004)%<br>Tính %(M=\\frac{2004 a}{a b+2004 a+2004}+\\frac{b}{b c+b+2004}+\\frac{c}{a c+c+1})%",
+        "question_images": [],
+        "solution": "Thay %(2004=a b c)% vào M ta có:<br>\\[\\begin{array}{l}M=\\frac{a^{2} b c}{a b+a^{2} b c+a b c}+\\frac{b}{b c+b+a b c}+\\frac{c}{a c+c+1} \\\\=\\frac{a^{2} b c}{a b(1+a c+c)}+\\frac{b}{b(c+1+a c)}+\\frac{c}{a c+c+1} \\\\=\\frac{a c}{1+a c+c}+\\frac{1}{c+1+a c}+\\frac{c}{a c+c+1}=\\frac{a c+c+1}{1+a c+c}=1\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho hình vuông ABCD có cạnh bằng 4 cm . Gọi %(M, N)% lần lượt là trung điểm của %(A B, B C)%. Gọi P là giao điểm của AN với DM",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh %(\\triangle A P M)% là tam giác vuông",
+        "question_images": [],
+        "solution": "Chứng minh %(\\triangle A D M=\\triangle B A N(\\operatorname{cgc}) \\Rightarrow A_{1}=D_{1})%<br>Mà %(D_{1}+M_{1}=90^{\\circ}(\\triangle A D M)% vuông tại A%())%<br>Do đó: %(A_{1}+M_{1}=90^{\\circ} \\Rightarrow A P M=90^{\\circ})%. Hay %(\\triangle A P M)% vuông tại P<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/632d14cf25ea9892e8066e4b8fef235f.png\" srcset=\"https://docdn.giainhanh.io/media/test/c38e359400b827a4fc9e77dc7f9366ba.png 177w, https://docdn.giainhanh.io/media/test/8ee1b4cface1bf1c2086659d1145b5d9.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tính diện tích của tam giác %(A P M)%",
+        "question_images": [],
+        "solution": "Tính được %(A P=\\frac{4 \\sqrt{5}}{5}(\\mathrm{~cm}), A M=\\frac{2 \\sqrt{5}}{5} \\mathrm{~cm}, S_{A P M}=\\frac{4}{5}\\left(\\mathrm{~cm}^{2}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Chứng minh tam giác %(C P D)% là tam giác cân",
+        "question_images": [],
+        "solution": "Gọi I là trung điểm của AD .<br>Nối C với %(\\mathrm{I} ; \\mathrm{CI})% cắt DM tại H<br>Chứng minh tứ giác %(A I C N)% là hình bình hành<br>\\[\\Rightarrow A N / / C I \\text { mà } A N \\perp D M \\Rightarrow C I \\perp D M\\]<br>Hay %(C H)% là đường cao trong %(\\triangle C P D(1))%<br>Vận dụng định lý về đường trung bình trong %(\\triangle A D P)% chứng minh được H là trung điểm DP suy ra CH là trung tuyến trong %(\\triangle C P D(2))%<br>Từ (1) và (2) suy ra %(\\triangle C P D)% cân tại C",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Tìm các giá trị %(x, y)% nguyên dương sao cho %(x^{2}=y^{2}+2 y+13)%",
+        "question_images": [],
+        "solution": "Biến đổi đẳng thức đã cho về dạng %((x+y+1)(x-y-1)=12)%<br>Lập luận để có %(x+y+1\\gt x-y-1)% và %(x+y+1 ; x-y-1)% là các ước dương của 12 từ đó có các trường hợp<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a263207b92f12964a33c9a3a41687742.png\" srcset=\"https://docdn.giainhanh.io/media/test/714e815d47427601b0308613f3dfc04a.png 245w, https://docdn.giainhanh.io/media/test/533317b7da9b1de2cd16e1c5a301d7cf.png 500w, https://docdn.giainhanh.io/media/test/aadcbdc39e2d134e99cf55d9c169ed0c.png 750w, https://docdn.giainhanh.io/media/test/8cec8cf4b2c60ec2a918a9d2e9d5bc38.png 1000w\" width=\"1000\"/><br>Mà %(x, y)% nguyên dương nên %((x ; y)=(4 ; 1))%",
+        "question_type": "essay"
+    }
+]

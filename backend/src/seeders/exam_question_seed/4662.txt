@@ -1,0 +1,120 @@
+[
+    {
+        "title": "1",
+        "group_content": "Tính đạo hàm các hàm số:",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a.) %(y=2 x^{3}-5 x^{2}+4 x-3)%",
+        "question_images": [],
+        "solution": "%(y^{\\prime}=6 x^{2}-10 x+4)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b.) %(y=\\frac{2 x-1}{x+3})%",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} y^{\\prime} & =\\frac{(2 x-1)^{\\prime}(x+3)-(x+3)^{\\prime}(2 x-1)}{(x+3)^{2}} \\\\ & =\\frac{2(x+3)-1(2 x+1)}{(x+3)^{2}}=\\frac{7}{(x+3)^{2}}\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c.) %(y=\\sqrt{3 x^{2}-4 x+1})%",
+        "question_images": [],
+        "solution": "%(y^{\\prime}=\\frac{\\left(3 x^{2}-4 x+1\\right)^{\\prime}}{2 \\sqrt{3 x^{2}-4 x+1}}=\\frac{3 x-2}{\\sqrt{3 x^{2}-4 x+1}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 0.5,
+        "content": "d.) %(y=\\sin 3 x+3 \\cos (3-x))%",
+        "question_images": [],
+        "solution": "%(y^{\\prime}=(3 x)^{\\prime} \\cos 3 x-3(3-x)^{\\prime} \\sin (3-x)=3 \\cos 3 x+3 \\sin (3-x))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Xét tính liên tục của hàm số: %(y=f(x)=\\left\\{\\begin{array}{ll}\\frac{3 x^{2}-5 x-2}{x-2} & (\\text { khi } x\\lt 2) \\\\ 4 x-1 & (\\text { khi } x \\geq 2)\\end{array}\\right.)% tại điểm %(x_{0}=2)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}* f(2)=7 \\\\* \\lim _{x \\rightarrow 2^{-}} f(x)=\\lim _{x \\rightarrow 2^{-}}(4 x-1)=7 \\\\* \\lim _{x \\rightarrow 2^{+}} f(x)=\\lim _{x \\rightarrow 2^{+}} \\frac{3 x^{2}-5 x-2}{x-2}=\\lim _{x \\rightarrow 2^{+}}(3 x+1)=7\\end{array}\\]<br>Từ %((1),(2),(3))% suy ra hàm số liên tục tại %(x_{0}=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Viết phương trình tiếp tuyến của đồ thị %((C))% hàm số: %(y=x^{4}-3 x^{2}+2)% tại điểm thuộc đồ thị có hoành độ %(x_{0}=2)%.",
+        "question_images": [],
+        "solution": "* %(y^{\\prime}=4 x^{3}-6 x)%<br>* Hệ số góc k = 20<br>* Tiếp điểm %((2 ; 6))%<br>PT Tiếp tuyến : %(y-6=20(x-2) \\Leftrightarrow y=20 x-34)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Viết phương trình tiếp tuyến của đồ thị %((C))% hàm số: %(y=f(x)=\\frac{x+1}{x-1})%. Biết rằng tiếp tuyến song song với đường thẳng %((d): y=-2 x+4)%.",
+        "question_images": [],
+        "solution": "%(* y^{\\prime}=\\frac{-2}{(x-1)^{2}})%<br>*Hệ số góc tiếp tuyến %(\\mathrm{k}_{\\mathrm{tt}}=\\mathrm{k}_{\\mathrm{d}}=-2 \\Leftrightarrow \\frac{-2}{\\left(x_{0}-1\\right)^{2}}=-2 \\Leftrightarrow\\left[\\begin{array}{l}x_{0}=2 \\\\ x_{0}=0\\end{array}\\right.)%<br>*Tiếp điểm %((2 ; 3) \\Rightarrow)% PT Tiếp tuyến : %(\\mathrm{y}=-2 \\mathrm{x}+7)%<br>%(*)% Tiếp điểm %((0 ;-1) \\Rightarrow)% PT Tiếp tuvến : %(\\mathrm{y}=-2 \\mathrm{x}-1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho hàm số %(f(x)=2 x \\sqrt{x+1})%. Giải phương trình :2. %(f^{\\prime \\prime}(x)=3 x+2)%.",
+        "question_images": [],
+        "solution": "%(f^{\\prime}(x)=(2 x)^{\\prime} \\sqrt{x+1}+(\\sqrt{x+1})^{\\prime} 2 x=\\frac{3 x+2}{\\sqrt{x+1}})%<br>\\[f^{\\prime \\prime}(x)=\\frac{(3 x+2)^{\\prime} \\sqrt{x+1}-(\\sqrt{x+1})^{\\prime}(3 x+2)}{x+1}=\\frac{3 x+2}{2(\\sqrt{x+1})^{3}}\\]<br>2. %(f^{\\prime \\prime}(x)=3 x+2 \\Leftrightarrow 2 \\cdot \\frac{3 x+2}{2(\\sqrt{x+1})^{3}}=3 x+2 \\Leftrightarrow\\left[\\begin{array}{l}3 x+2=0 \\\\ (\\sqrt{x+1})^{3}=1\\end{array}\\right.)%, điều kiện %(\\mathrm{x}\\gt -1)%<br>\\[\\Leftrightarrow\\left[\\begin{array}{l}x=-\\frac{2}{3}(n h) \\x=0(n h)\\end{array}\\right.\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho hàm số %(y=f(x)=-x^{3}+3 m x^{2}+\\left(2 m^{2}-1\\right) x+2 m-3)% có đồ thị là %(\\left(C_{m}\\right))%. Gọi %(k_{1})% là hệ số góc của tiếp tuyến của đồ thị tại điểm có hoành độ bằng -1 , gọi %(k_{2})% là hệ số góc của tiếp tuyến của đồ thị tại điểm có hoành độ bằng 0 . Tìm %(m)% để tổng %(k_{1}+k_{2})% đạt giá trị nhỏ nhất.",
+        "question_images": [],
+        "solution": "\\[y^{\\prime}=-3 x^{2}+6 m x+2 m^{2}-1\\]<br>Ta có:<br>\\[\\begin{array}{l}k_{1}=f^{\\prime}(-1)=2 m^{2}-6 m-4 \\k_{2}=f^{\\prime}(0)=2 m^{2}-1\\end{array}\\]<br>Ta có %(k_{1}+k_{2}=4 m^{2}-6 m-5=4\\left(m-\\frac{3}{4}\\right)^{2}-\\frac{29}{4} \\geq-\\frac{29}{4})%<br>Vậy tổng hệ số góc nhỏ nhất bằng %(-\\frac{29}{4})% khi %(m=\\frac{3}{4})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho hình chóp %(S . A B C D)% với đáy %(A B C D)% là hình vuông cạnh %(2 a)% và có tâm %(O)%. Cạnh bên %(S A=a \\sqrt{2})% và vuông góc mặt đáy %((A B C D))%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.75,
+        "content": "a.) Chứng minh: %(C D \\perp(S A D))%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/73f9414448e69d69099d711d6da4a9a1.png\" srcset=\"https://docdn.giainhanh.io/media/test/03d6adb33949a2359f49e1ed760f41d0.png 245w, https://docdn.giainhanh.io/media/test/bf1512c19fe8104c42f11df8036e8e9a.png 500w, https://docdn.giainhanh.io/media/test/186318c5c64aa4adf21a87ceee0675bb.png 750w\" width=\"750\"/><br>Ta có :<br>\\[\\begin{array}{l}\\left\\{\\begin{array}{l}C D \\perp A D \\C D \\perp S A \\A D, S A \\subset(S A D), A D \\cap S A=A\\end{array}\\right. \\\\Rightarrow C D \\perp(S A D)\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b.) Chứng minh hai mặt phẳng %((S A C))% và %((S B D))% vuông góc với nhau.",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{l}\\left\\{\\begin{array}{l}B D \\perp A C \\B D \\perp S A \\A H, S A \\subset(S A H), A H \\cap S A=A\\end{array}\\right. \\\\Rightarrow B D \\perp(S A C) \\\\Rightarrow(S B D) \\perp(S A C)\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c (null điểm)",
+        "point": 0.0,
+        "content": "c) Tính số đo của góc hợp bởi đường thẳng %(S O)% và mặt đáy %((A B C D))%.",
+        "question_images": [],
+        "solution": "Hình chiếu của %(S O)% lên (ABCD) là %(A O)%<br>\\[\\begin{array}{l}\\Rightarrow[S O,(A B C D)]=\\widehat{S O A} \\A C=A B \\sqrt{2}=2 a \\sqrt{2} \\Rightarrow A O=a \\sqrt{2} \\\\tan \\widehat{S O A}=\\frac{S A}{A O}=1 \\Rightarrow[S O,(A B C D)]=45^{0}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 0.75,
+        "content": "d) Tính khoảng cách giữa hai đường thẳng %(S O)% và %(B M)%, với %(M)% là trung điểm %(S C)%.",
+        "question_images": [],
+        "solution": "Kẻ %(M N / / S O \\Rightarrow S O / /(B M N) \\Rightarrow d(S O, B M)=d[O,(B M N)])%<br>Kẻ %(O K \\perp B N)%, mà %(B N \\perp M O, \\Rightarrow B N \\perp(M N K) \\Rightarrow(B M N) \\perp(M O K))%<br>Mà %((B M N) \\cap(O N K)=M K)%<br>Kẻ %(O H \\perp M K \\Rightarrow O H \\perp(B M N))%<br>\\[\\Rightarrow d(S O, B M)=d[O,(B M N)]=O H=\\frac{M O . O K}{\\sqrt{M O^{2}+O K^{2}}}\\]<br>Ta có %(O K=\\frac{O N \\cdot O B}{\\sqrt{O N^{2}+O B^{2}}}=\\frac{2}{\\sqrt{10}} a ; M O=\\frac{S A}{2}=\\frac{a \\sqrt{2}}{2})%<br>\\[\\Rightarrow d(S O, B M)=\\frac{2 a \\sqrt{2}}{3}\\]",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Cho bộ số gồm 8 số %(\\mathrm{D}=\\{\\mathrm{T}, \\mathrm{R}, \\mathrm{A}, \\mathrm{I}, \\mathrm{H}, \\mathrm{E}, \\mathrm{P}, \\mathrm{N}\\})% và<br>%(T=\\left\\{\\frac{T+R}{2} ; \\frac{R+A}{2} \\frac{A+I}{2} \\frac{I+H}{2} \\frac{H+E}{2} \\frac{E+P}{2} \\frac{P+N}{2} \\frac{N+T}{2}\\right\\})%<br>Là một hoán vị của D. Biết rằng %(\\mathrm{T}+\\mathrm{R}+\\mathrm{A}+\\mathrm{I}+\\mathrm{H}+\\mathrm{E}+\\mathrm{P}+\\mathrm{N}=2014)%.<br>Hãy xác định các giá trị N",
+        "question_images": [],
+        "solution": "Sử dụng các bất đă̆ng thức cauchy quen biết cho hai số<br>%(\\left(\\frac{T+R}{2}\\right)^{2} \\leq \\frac{T^{2}+R^{2}}{2})%, dấu \"=\" xảy ra %(\\Leftrightarrow T=R)%<br>%(\\left(\\frac{R+A}{2}\\right)^{2} \\leq \\frac{R^{2}+A^{2}}{2})%, dấu \"=\" xảy ra %(\\Leftrightarrow R=A)%<br>%(\\left(\\frac{N+T}{2}\\right)^{2} \\leq \\frac{N^{2}+T^{2}}{2})%, dấu \"=\" xảy ra %(\\Leftrightarrow N=T)%<br>Ta thu được %(\\left(\\frac{T+R}{2}\\right)^{2}+\\left(\\frac{R+A}{2}\\right)^{2}+\\ldots+\\left(\\frac{N+T}{2}\\right)^{2} \\leq T^{2}+R^{2}+\\ldots+N^{2})%<br>Mặt khác, theo giả thiết thì T là hoán vị của D nên<br>Suy ra %(\\mathrm{T}=\\mathrm{R}=\\mathrm{A}=\\mathrm{I}=\\mathrm{H}=\\mathrm{E}=\\mathrm{P}=\\mathrm{N}=\\frac{2014}{8})% nên %(\\mathrm{N}=\\frac{1007}{4})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Giải phương trình: %(x^{2}+x-3=\\sqrt{3-2 x})%",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\leq \\frac{3}{2})%.<br>Biến đổi phương trình về dạng %((x+r 3-2 x) \\cdot(x-\\sqrt{3-2 x}-1)=0)%<br>Từ đó tìm được %(\\mathrm{x}=-3)% hoặc %(x=\\sqrt{2})%, đều thỏa mãn.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}\\sqrt{12-2 x^{2}}=4+y \\\\ \\sqrt{1-2 y-y^{2}}=5-2 x\\end{array}\\right.)%(1)",
+        "question_images": [],
+        "solution": "Ta có %((1) \\Leftrightarrow)%%(\\left\\{\\begin{array}{l}2 x^{2}+y^{2}+8 y+4=0(2) \\\\ 4 x^{2}+y^{2}-20 x+2 y+24=0(3) \\\\ y \\geq-4 ; x \\leq \\frac{5}{2}\\end{array}\\right.)%<br>Nhân hai vế của (3) với 2 cộng với các về tương ứng (2), ta thu đượcc phương trình<br>\\[10 x^{2}+3 y^{2}-40 x+12 y+52=0 \\Leftrightarrow 10(x-2)^{2}+3(y+2)^{2}=0\\]<br>Suy ra %(x=2 ; y=-2)%.<br>Nghiệm %((x ; y)=(2 ;-2))% thỏa mãn.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.5,
+        "content": "Cho tam giác ABC nội tiếp đường tròn O . Phân giác trong của góc A cắt BC tai %(\\mathrm{A}_{1})% và cắt đường tròn O tại %(\\mathrm{A}_{2})%. Tương tự ta thu được các điểm %(\\mathrm{B}_{1}, \\mathrm{~B}_{2}, \\mathrm{C}_{1}, \\mathrm{C}_{2})%, tương ứng.Chứn gminh rằng %(\\frac{A_{1} A_{2}}{B A_{2}+A_{2} C}+\\frac{B_{1} B_{2}}{C B_{2}+B_{2} A}+\\frac{C_{1} C_{2}}{A C_{2}+C_{2} B} \\geq \\frac{3}{4})%",
+        "question_images": [],
+        "solution": "Áp dụng định lý Ptoleme cho tứ giác nội tiếp %(\\mathrm{CA}_{2} \\mathrm{BA})% ta thu được<br>%(\\mathrm{CA}_{2} \\cdot \\mathrm{BA}+\\mathrm{BA}_{2} \\cdot \\mathrm{AC}=\\mathrm{BC} . \\mathrm{AA}_{2})%<br>Vì %(\\mathrm{BA}_{2}=\\mathrm{CA}_{2})% nên suy ra %(\\mathrm{CA}_{2}(\\mathrm{AB}+\\mathrm{AC})=\\mathrm{BC})%. %(\\mathrm{AA}_{2})% và %(\\mathrm{AA}_{2}=\\frac{B C}{A B+A C})%<br>Ngoài ra, ta có %(\\frac{\\mathrm{A}_{1} \\mathrm{~A}_{2}}{B A_{2}+A_{2} C}=\\frac{\\mathrm{A}_{1} \\mathrm{~A}_{2}}{2 C A_{2}})%<br>Mặt khác do %(\\triangle C A_{1} A_{2})% đồng dạng với %(\\triangle A C A_{2})% nên suy ra %(\\frac{\\mathrm{A}_{1} \\mathrm{~A}_{2}}{2 C A_{2}}=\\frac{C A_{2}}{2 \\mathrm{~A}_{1} \\mathrm{~A}_{2}})%<br>Từ đó, ta có %(\\frac{\\mathrm{A}_{1} \\mathrm{~A}_{2}}{B A_{2}+A_{2} C}=\\frac{B C}{2(A B+A C)})%(1)<br>Tương tự, ta có %(\\frac{B_{1} B_{2}}{C B_{2}+B_{2} A}=\\frac{A C}{2(A B+B C)})%(2)<br>Và %(\\frac{C_{1} C_{2}}{A C_{2}+C_{2} B}=\\frac{A B}{2(A C+B C)})%(3)<br>Cộng (1), (2), (3) vế theo vế ta thu được<br>%(\\frac{\\mathrm{A}_{1} \\mathrm{~A}_{2}}{B A_{2}+A_{2} C}+\\frac{B_{1} B_{2}}{C B_{2}+B_{2} A}+\\frac{C_{1} C_{2}}{A C_{2}+C_{2} B}=\\frac{B C}{2(A B+A C)}+\\frac{A C}{2(A B+B C)}+\\frac{A B}{2(A C+B C)})%<br>Áp dụng bất đẳng thức Nesbit cho ba số dương %(\\mathrm{AB}, \\mathrm{AC}, \\mathrm{BC})%, ta được bất đẳng thứ cần phải chứng minh<br>%(\\frac{A_{1} A_{2}}{B A_{2}+A_{2} C}+\\frac{B_{1} B_{2}}{C B_{2}+B_{2} A}+\\frac{C_{1} C_{2}}{A C_{2}+C_{2} B} \\geq \\frac{3}{4})%<br>Đẳng thức xảy ra khi và chỉ khi %(\\triangle \\mathrm{ABC})% là tam giác đều.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/2a8b22b8708e553a1159751fe334463f.png\" srcset=\"https://docdn.giainhanh.io/media/test/e0ec4dc3fc9da4d9e4314f6838b67f34.png 151w\" width=\"151\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho số nguyên tố có 4 chư số %(\\mathrm{p}=\\overline{a b c d})%. Chứng minh rằng đa thức: %(\\mathrm{P}(\\mathrm{x})=\\mathrm{ax} 3+\\mathrm{bx} 2+\\mathrm{cx}+\\mathrm{d})% không phân tích được thành tích của hai đa thức với hệ số nguyên",
+        "question_images": [],
+        "solution": "Giả sử ngược %(\\mathrm{P}(\\mathrm{x}))% phân tích được thành tích của hai đa thức bậc hớn hơn 0 với hệ số nguyên thì một thừa số là đa thức bậc nhất.<br>%(\\mathrm{P}(\\mathrm{x})=a x^{3}+b x^{2}+c x+d=(m x+n)\\left(r x^{2}+u x+s\\right))%<br>Với %(m, n, r, u, s \\in \\mathbb{Z})%<br>Nhận xét rằng phương trình %(\\mathrm{P}(\\mathrm{x})=0)% không thể có nghiệm dương và nghiệm bằng 0 (do %(a, b, c, d \\in\\{0 ; 1 ; 2 \\ldots 9\\})% và %(a, d)% khác 0 ) nên %(m, n)% cùng dấu.<br>Đồng nhất thức hệ số, ta thu được %(\\mathrm{mr}=\\mathrm{a}, \\mathrm{nr}=\\mathrm{d})% nên không mất tính tổng quát có thể coi %(\\mathrm{m}, \\mathrm{n}, \\mathrm{r}, \\mathrm{s} \\in \\mathbb{N}^{*})% )<br>Vậy %(|P(x)|=\\left|a x^{3}+b x^{2}+c x+d\\right|=|(m x+n)|\\left|\\left(r x^{2}+u x+s\\right)\\right|)%<br>Thế %(\\mathrm{x}=10)% vào (1) ta thu được: %(\\mathrm{p}=(10 \\mathrm{~m}+\\mathrm{n})|100 r+10 u+s|)%<br>Với %(0\\lt 10 \\mathrm{~m}\\lt \\mathrm{n}\\lt 100\\lt \\mathrm{p})%, trái với giả thuyết nên p là số nguyên tố",
+        "question_type": "essay"
+    }
+]

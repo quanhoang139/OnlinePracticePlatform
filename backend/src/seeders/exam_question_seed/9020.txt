@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1.1 ",
+        "point": 2.0,
+        "content": "Rút gọn biểu thức: %(A=\\frac{\\sqrt{1-\\sqrt{1-x^{2}}} \\cdot\\left(\\sqrt{(1+x)^{3}}+\\sqrt{(1-x)^{3}}\\right)}{2-\\sqrt{1-x^{2}}})% với %(-1 \\leq x \\leq 1 )%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{aligned}A & =\\frac{\\sqrt{1-\\sqrt{1-x^{2}}} \\cdot\\left(\\sqrt{(1+x)^{3}}+\\sqrt{(1-x)^{3}}\\right)}{2-\\sqrt{1-x^{2}}}=\\frac{\\sqrt{1-\\sqrt{1-x^{2}}} \\cdot(\\sqrt{1+x}+\\sqrt{1-x})(1+x-\\sqrt{(1+x)(1-x)}+1-x)}{2-\\sqrt{1-x^{2}}} \\\\& =\\frac{\\sqrt{1-\\sqrt{1-x^{2}}} \\cdot(\\sqrt{1+x}+\\sqrt{1-x})\\left(2-\\sqrt{1-x^{2}}\\right)}{2-\\sqrt{1-x^{2}}}=\\sqrt{1-\\sqrt{1-x^{2}}} \\cdot(\\sqrt{1+x}+\\sqrt{1-x}) \\\\& =\\sqrt{\\left(1-\\sqrt{1-x^{2}}\\right)(\\sqrt{1+x}+\\sqrt{1-x})^{2}}=\\sqrt{\\left(1-\\sqrt{1-x^{2}}\\right)(2+2 \\sqrt{(1+x)(1-x)})}=\\sqrt{2\\left(1-\\sqrt{1-x^{2}}\\right)\\left(1+\\sqrt{1-x^{2}}\\right)} \\\\& =\\sqrt{2 x^{2}}=\\sqrt{2}|x|\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.2 ",
+        "point": 2.0,
+        "content": "Tính giá trị biểu thức: %(P=\\frac{x^{5}-4 x^{3}-17 x+9}{x^{4}+3 x^{2}+2 x+11})% với %(x)% thỏa mãn %(\\frac{x}{x^{2}+x+1}=\\frac{1}{4})%.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\frac{x}{x^{2}+x+1}=\\frac{1}{4} \\Leftrightarrow 4 x=x^{2}+x+1 \\Leftrightarrow x^{2}=3 x-1\\]<br>Khi đó:<br>\\[\\begin{array}{l}x^{3}=x^{2} \\cdot x=(3 x-1) \\cdot x=3 x^{2}-x=3(3 x-1)-x=8 x-3 \\x^{4}=x^{3} \\cdot x=(8 x-3) \\cdot x=8 x^{2}-3 x=8(3 x-1)-3 x=21 x-8 \\x^{5}=x^{4} \\cdot x=(21 x-8) \\cdot x=21 x^{2}-8 x=21(3 x-1)-8 x=55 x-21\\end{array}\\]<br>Suy ra:<br>\\[P=\\frac{x^{5}-4 x^{3}-17 x+9}{x^{4}+3 x^{2}+2 x+11}=\\frac{55 x-21-4(8 x-3)-17 x+9}{21 x-8+3(3 x-1)+2 x+11}=\\frac{6 x}{32 x}=\\frac{3}{16} \\text {. }\\]<br>Vậy với %(x \\neq 0 \\Rightarrow P=\\frac{3}{16})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.1 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(\\frac{1}{x^{2}+9 x+20}+\\frac{1}{x^{2}+11 x+30}+\\frac{1}{x^{2}+13 x+42}=\\frac{1}{8})%.",
+        "question_images": [],
+        "solution": "Điều kiện xác định: %(x \\neq-4 ; x \\neq-5 ; x \\neq-6 ; x \\neq-7)%<br>%(\\begin{array}{l}\\frac{1}{x^{2}+9 x+20}+\\frac{1}{x^{2}+11 x+30}+\\frac{1}{x^{2}+13 x+42}=\\frac{1}{18} \\\\ \\Leftrightarrow \\frac{1}{(x+4)(x+5)}+\\frac{1}{(x+5)(x+6)}+\\frac{1}{(x+6)(x+7)}=\\frac{1}{18} \\\\ \\Leftrightarrow \\frac{1}{x+4}-\\frac{1}{x+5}+\\frac{1}{x+5}-\\frac{1}{x+6}+\\frac{1}{x+6}-\\frac{1}{x+7}=\\frac{1}{18} \\\\ \\Leftrightarrow \\frac{1}{x+4}-\\frac{1}{x+7}=\\frac{1}{18}\\end{array})%<br>%(\\begin{array}{l}\\Rightarrow 18(x+7-x-4)=(x+4)(x+7) \\\\ \\Leftrightarrow 54=x^{2}+11 x+28 \\\\ \\Leftrightarrow x^{2}+11 x-26=0 \\Leftrightarrow(x+13)(x-2)=0\\end{array})%<br>%(\\Leftrightarrow\\left[\\begin{array}{l}x-2=0 \\\\ x+13=0\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=2 \\text { (thoả mãn)} \\\\ x=-13(\\text { thoả mãn})\\end{array}\\right.\\right.)%<br>Vậy tập nghiệm của phương trình là %(S=\\{-13 ; 2\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.2 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(2 x^{2}-x+3=3 \\sqrt{x^{3}+1})%.",
+        "question_images": [],
+        "solution": "Điều kiện xác định: %(x \\geq-1)%%(2 x^{2}-x+3=3 \\sqrt{x^{3}+1} \\Leftrightarrow(x+1)+2\\left(x^{2}-x+1\\right)=3 \\sqrt{(x+1)\\left(x^{2}-x+1\\right)})%<br>Đặt: %(\\left\\{\\begin{array}{l}a=\\sqrt{x^{2}-x+1} \\geq \\frac{\\sqrt{3}}{2} . \\\\ b=\\sqrt{x+1} \\geq 0\\end{array} \\quad\\right.)%<br>Khi đó phương trình trở thành:<br>%(b^{2}+2 a^{2}-3 a b=0 \\Leftrightarrow(a-b)(2 a-b)=0 \\Leftrightarrow\\left[\\begin{array}{l}a=b \\\\ 2 a=b\\end{array}\\right.)%<br>+) TH1: Nếu %(a=b)%, ta có:%(\\sqrt{x^{2}-x+1}=\\sqrt{x+1} \\Rightarrow x^{2}-x+1=x+1 \\Leftrightarrow x^{2}-2 x=0 \\Leftrightarrow x(x-2)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\text { (thỏa mãn )} \\\\ x=2 \\text { (thỏa mãn)}\\end{array}\\right.)%+) TH2: Nếu %(2 a=b)%, ta có:<br>\\[2 \\sqrt{x^{2}-x+1}=\\sqrt{x+1} \\Rightarrow 4 x^{2}-4 x+4=x+1 \\Leftrightarrow 4 x^{2}-5 x+3=0 \\Leftrightarrow 4\\left(x-\\frac{5}{8}\\right)^{2}+\\frac{23}{16}=0\\]<br>(vô nghiệm, vì %(4\\left(x-\\frac{5}{8}\\right)^{2}+\\frac{23}{16}\\gt 0, \\forall x)% )<br>Vậy tập nghiệm của phương trình là: %(S=\\{0 ; 2\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.1 ",
+        "point": 2.0,
+        "content": "Cho %(x,y )% là các số nguyên %((x \\neq 1 ; y \\neq 1))% sao cho %(\\frac{x^{4}-1}{y+1}=\\frac{y^{4}-1}{x+1})% là số nguyên. Chứng minh %(x^{4} y^{4}-1)% chia hết cho %(y+1)%.",
+        "question_images": [],
+        "solution": "Đặt %(\\frac{x^{4}-1}{y+1}=\\frac{a}{b} ; \\frac{y^{4}-1}{x+1}=\\frac{m}{n} ; \\quad(a, b)=(m, n)=1 \\quad)% và %(b, n \\gt 0)%<br>Theo đề bài, ta có:<br>\\[\\frac{a}{b}+\\frac{m}{n}=\\frac{a n+b m}{b n} \\in \\mathbb{Z} \\Rightarrow\\left\\{\\begin{array} { l } { a n + b m \\vdots  b } \\\\{ a n + b m \\vdots  n }\\end{array} \\Rightarrow \\left\\{\\begin{array} { l } { a n \\vdots  b } \\\\{ b m \\vdots n }\\end{array} \\Rightarrow \\left\\{\\begin{array}{l}n\\vdots  b \\b \\vdots n\\end{array} \\Rightarrow b=n\\right.\\right.\\right.\\]<br>Mặt khác: %(x^{4}-1: y+1 ; y^{4}-1: x+1 \\quad)% (với %({x}, y)% là số nguyên)<br>\\[\\begin{array}{l}\\Rightarrow \\frac{a}{b} \\cdot \\frac{m}{n} \\in \\mathbb{Z} \\text { nên } \\Rightarrow a m \\vdots n \\Rightarrow a\\vdots n ~~\\text{hay}~~ a \\vdots b \\\\Rightarrow x^{4}-1\\vdots y+1 \\\\Rightarrow y^{4}\\left(x^{4}-1\\right)+y^{4}-1\\vdots y+1 \\Rightarrow x^{4} y^{4}-1\\vdots y+1\\end{array}\\]<br>Vậy %(x^{4} y^{4}-1\\vdots y+1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.2 ",
+        "point": 2.0,
+        "content": "Tìm số nguyên tố %(x, y, z)% thỏa mãn: %(x^{y}+1=z^{2})%.",
+        "question_images": [],
+        "solution": "Ta có:<br>%(x^{y}+1=z^{2} \\Rightarrow z^{2})% và %(x^{y})% khác tính chẵn, lẻ %(\\Rightarrow x)%; %(z)% khác tính chẵn, lẻ.<br>Mà %({x} ;{z})% là các số nguyên tố nên ta xét các trường hợp sau:<br>%(+))% TH1: %(x=2, z \\neq 2)% ta có:<br>%(2^{y}+1=z^{2} \\Rightarrow 2^{y}=z^{2}-1=(z-1)(z+1) \\Rightarrow z-1)% và %({ }^{z+1})% là lũy thừa của 2<br>Đặt %(\\left\\{\\begin{array}{l}z-1=2^{u} \\\\ z+1=2^{v}\\end{array} \\quad\\left(u, v \\in \\mathbb{N}^{*}, v\\gt u, u+v=y\\right)\\right.)%.<br>Khi đó: %(2^{\\nu}-2^{u}=2 \\Leftrightarrow 2^{u}\\left(2^{v-u}-1\\right)=2 \\Leftrightarrow\\left\\{\\begin{array}{l}2^{u}=2 \\\\ 2^{v-u}-1=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}u=1 \\quad \\\\ v=1\\end{array}\\right.\\right.)% (vì %(2^{v-u}-1)% là số lẻ)<br>Suy ra %({z=3})% và %(y=3)% (thỏa mãn )<br>%(+))% TH2: %(z=2, x \\neq 2)%, ta có:<br>%(x^{y}+1=4 \\Leftrightarrow x^{y}=3)%<br>Do %({x})% là số lẻ nên suy ra %(x=3, y=1)% (loại)<br>Vậy %((x, y, z)=(2 ; 3 ; 3))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho %(\\triangle A B C)% nhọn, các đường cao %(A D, B E, C F)% cắt nhau tại %(H)%. Trên %(H B, H C)% lấy %(M, N)% sao cho %(A M \\perp C M ; A N \\perp B N)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "4a ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng: %(A M=A N)%.",
+        "question_images": [],
+        "solution": "Xét %(\\triangle A M C)% vuông tại %(M)%, đường cao %(M E)%.<br>Áp dụng hệ thức lượng trong tam giác vuông, có: %(A M^{2}=A E \\cdot A C)% (1)<br>Xét %(\\triangle A N B)% vuông tại %(N)%, đường cao %(N F)%.<br>Áp dụng hệ thức lượng trong tam giác vuông, có: %(A N^{2}=A F . A B)% (2)<br>Xét %(\\triangle A E B)% và %(\\triangle A F C)%, có:<br>%(AEB = AFC = 90^{\\circ})%<br>%(CAB)% chung<br>%(\\Rightarrow \\triangle A E B)% %(ᔕ)% %(\\triangle A F C)% (g.g)<br>%(\\Rightarrow \\frac{A B}{A C}=\\frac{A E}{A F} \\Rightarrow A E \\cdot A C=A F \\cdot A C)%<br>Từ (1), (2) và (3), suy ra: %(A N=A M)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4c942d284d6f5232694803f2fe95452b.png\" srcset=\"https://docdn.giainhanh.io/media/test/ebc849c25ae5c89b80accc234e6ee7ef.png 192w, https://docdn.giainhanh.io/media/test/8024aef1447aae1dcc91807dca7ce02e.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "4b ",
+        "point": 2.0,
+        "content": "b) Gọi %(G)% là giao điểm của đường thẳng %(E F)% và đường thẳng %(B C)%. Chứng minh: %(B G . C D=C G . B D)%.",
+        "question_images": [],
+        "solution": "Xét %(\\triangle A E F)% và %(\\triangle A B C)%, có:%(\\frac{A B}{A C}=\\frac{A E}{A F})% (chứng minh trên)<br>%(CAB)% chung<br>%(\\Rightarrow \\triangle A E F \\sim \\triangle A C B)% (c.g.c) %( \\Rightarrow A F E=A C B)%<br>Chứng minh tương tự, ta có: %(AFD=ACB)%<br>%(\\Rightarrow G F B=B F D \\Rightarrow F B, F C)% lần lượt là phân giác trong và phân giác ngoài tại đỉnh %(F)% của %(\\triangle F G D)%<br>\\[\\Rightarrow \\frac{B G}{B D}=\\frac{C G}{C D}\\left(=\\frac{F G}{F D}\\right) \\Rightarrow B G \\cdot C D=C G \\cdot B D\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4de97b4e28600ea8d9e863ddc0df448a.png\" srcset=\"https://docdn.giainhanh.io/media/test/23251e1a7ee0809dd4fed01a55858570.png 245w, https://docdn.giainhanh.io/media/test/b0a7200ae57ff070f35f0c45a91b7d09.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "4c ",
+        "point": 2.0,
+        "content": "c) Chứng minh đường thẳng đi qua điểm %(A)% vuông góc với %(E F)%, đường thẳng đi qua điểm %(B)% vuông góc với %(D F)% và đường thẳng đi qua điểm %(C)% vuông góc với %(D E)% đồng quy tại một điểm.",
+        "question_images": [],
+        "solution": "Gọi %(O)% là giao điểm của ba đường trung trực của %(\\triangle A B C \\Rightarrow O A=O B=O C)%<br>%(\\Rightarrow B A O=A B O)% (vì %(\\triangle A B O)% cân tại %(O)% ); %(BCO = CBO)% (vì %(\\triangle C B O)% cân tại %(O)% ); %(CAO = ACO)% (vì %(\\triangle A B O)% cân tại %(O)% )<br>\\[\\Rightarrow 2(A B B+B A O)=A CB+A B C+C A B=180^{\\circ} \\Rightarrow A C B+B A O=90^{\\circ}\\]<br>Lại có: %(A E F=ACB \\Rightarrow AEF+BAO=90^{\\circ} \\Rightarrow A O \\perp E F)%<br>Chứng minh tương tự, ta có: %(A O \\perp F D ; O C \\perp D E)%.<br>Vậy đường thẳng đi qua điểm %(A)% vuông góc với %(E F)%, đường thẳng đi qua điểm %(B)% vuông góc với %(D F)% và đường thẳng đi qua điểm %(C)% vuông góc với %(D E)% đồng quy tại điểm %(O)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho %({ }^{a}, b,{ }^{c})% là các số thực dương thỏa mãn: %(\\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}}=1 . )%<br>Chứng minh rằng: %(\\frac{1}{\\sqrt{5 a^{2}+2 a b+2 b^{2}}}+\\frac{1}{\\sqrt{5 b^{2}+2 b c+2 c^{2}}}+\\frac{1}{\\sqrt{5 c^{2}+2 c a+2 a^{2}}} \\leq \\frac{\\sqrt{3}}{3})%.",
+        "question_images": [],
+        "solution": "Áp dụng bất đẳng thức %(\\mathrm{Bunhiacopxki})%, ta có:<br>\\[\\begin{array}{l}\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)^{2} \\leq\\left(1^{2}+1^{2}+1^{2}\\right)\\left(\\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}}\\right) \\\\Rightarrow 1=\\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}} \\geq \\frac{1}{3}\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)^{2} \\Rightarrow \\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c} \\leq \\sqrt{3}\\end{array}\\]<br>Mặt khác, ta có: %(5 a^{2}+2 a b+2 b^{2}=(2 a+b)^{2}+(a-b)^{2} \\geq(2 a+b)^{2})%<br>\\[\\Rightarrow \\frac{1}{\\sqrt{5 a^{2}+2 a b+2 b^{2}}} \\leq \\frac{1}{2 a+b} \\quad(1)\\]<br>Áp dụng bất đẳng thức Cô-si, có:<br>\\[\\begin{array}{l}\\left(\\frac{1}{a}+\\frac{1}{a}+\\frac{1}{b}\\right)(a+a+b) \\geq 3 \\sqrt[3]{\\frac{1}{a b c}} \\cdot 3 \\sqrt[3]{a b c}=9 \\\\Rightarrow\\left(\\frac{2}{a}+\\frac{1}{b}\\right)(2 a+b) \\geq 9 \\Rightarrow \\frac{1}{2 a+b} \\leq \\frac{1}{9}\\left(\\frac{2}{a}+\\frac{1}{b}\\right)\\end{array}\\]<br>Từ (1) và (2), suy ra: %(\\frac{1}{\\sqrt{5 a^{2}+2 a b+2 b^{2}}} \\leq \\frac{1}{9}\\left(\\frac{2}{a}+\\frac{1}{b}\\right))%<br>Chứng minh tương tự, ta có:<br>\\[\\frac{1}{\\sqrt{5 b^{2}+2 b c+2 c^{2}}} \\leq \\frac{1}{9}\\left(\\frac{2}{b}+\\frac{1}{c}\\right) ; \\frac{1}{\\sqrt{5 c^{2}+2 a c+2 a^{2}}} \\leq \\frac{1}{9}\\left(\\frac{2}{c}+\\frac{1}{a}\\right)\\]<br>Do đó:<br>\\[\\frac{1}{\\sqrt{5 a^{2}+2 a b+2 b^{2}}}+\\frac{1}{\\sqrt{5 b^{2}+2 b c+2 c^{2}}}+\\frac{1}{\\sqrt{5 c^{2}+2 c a+2 a^{2}}} \\leq \\frac{1}{3}\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right) \\leq \\frac{\\sqrt{3}}{3}\\]<br>Dấu \" =\" xảy ra khi: %(a=b=c=\\sqrt{3})%.",
+        "question_type": "essay"
+    }
+]

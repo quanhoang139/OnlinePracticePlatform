@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Cho biểu thức %(A=\\left(\\frac{\\sqrt{a}+1}{\\sqrt{a b}+1}+\\frac{\\sqrt{a b}+\\sqrt{a}}{1-\\sqrt{a b}}+1\\right):\\left(\\frac{2 a \\sqrt{b}+2 \\sqrt{a b}}{1-a b}\\right))%. với %(a\\gt 0 ; b>0)% và %(a b \\neq 1)%.<br>Rút gọn biểu thức %(A)% và tìm giá trị lớn nhất của %(A)% khi %(\\sqrt{a}+\\sqrt{b}=\\sqrt{a b})%.",
+        "question_images": [],
+        "solution": "%(\\begin{aligned}A & =\\frac{2+2 \\sqrt{a}}{1-a b}: \\frac{2 a \\sqrt{b}+2 \\sqrt{a b}}{1-a b} \\\\& =\\frac{2(1+\\sqrt{a})}{2 \\sqrt{a b}(1+\\sqrt{a})}=\\frac{1}{\\sqrt{a b}}\\end{aligned})%<br>Khi %(a\\gt 0 ; b>0, \\sqrt{a}+\\sqrt{b}=\\sqrt{a b} \\Leftrightarrow \\frac{\\sqrt{a}+\\sqrt{b}}{\\sqrt{a b}}=1 \\Leftrightarrow \\frac{1}{\\sqrt{a}}+\\frac{1}{\\sqrt{b}}=1 \\Leftrightarrow \\frac{1}{\\sqrt{a}}=1-\\frac{1}{\\sqrt{b}})%Do đó %(A=\\frac{1}{\\sqrt{b}}\\left(1-\\frac{1}{\\sqrt{b}}\\right)=\\frac{1}{4}-\\left(\\frac{1}{\\sqrt{b}}-\\frac{1}{2}\\right)^{2} \\leq \\frac{1}{4})%.<br>Dấu \" = \" xảy ra %(\\Leftrightarrow b=4 ; a=4)%.<br>Vậy giá trị lớn nhất của %(A)% là %(\\frac{1}{4})% khi %(a=b=4)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các cặp số nguyên %((x ; y))% thỏa mãn đẳng thức %(x^{2} y^{2}-x^{2}-6 y^{2}=2 x y)%.",
+        "question_images": [],
+        "solution": "- Với %(y=0)%, ta có %(x=0)%.<br>- Với %(y \\neq 0)%, ta có:<br>\\[x^{2} y^{2}-x^{2}-6 y^{2}=2 x y \\Leftrightarrow x^{2} y^{2}-5 y^{2}=(x+y)^{2} \\Leftrightarrow x^{2}-5=\\frac{(x+y)^{2}}{y^{2}}=a^{2}(a \\in \\mathbb{Z}) .\\]<br>%(x^{2}-a^{2}=5 \\Leftrightarrow\\left\\{\\begin{array}{l}|x|+|a|=5 \\\\|x|-|a|=1\\end{array} \\Rightarrow|x|=3 \\Leftrightarrow\\left[\\begin{array}{l}x=3 \\x=-3\\end{array}\\right.\\right.)%<br>Khi %(x=3 \\Rightarrow 3 y^{2}-6 y-9=0 \\Leftrightarrow\\left[\\begin{array}{l}y=-1 \\\\ y=3\\end{array}\\right.)%Khi %(x=-3 \\Rightarrow 3 y^{2}+6 y-9=0 \\Leftrightarrow\\left[\\begin{array}{l}y=1 \\\\ y=-3\\end{array}\\right.)%Vậy %((x ; y) \\in\\{(0 ; 0) ;(3 ;-1) ;(3 ; 3) ;(-3 ; 1) ;(-3 ;-3)\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải phương trình %(\\sqrt[3]{x^{2}+4 x+3}-\\sqrt[3]{2 x^{2}-3 x-2}=\\sqrt[3]{3 x^{2}-2 x+2}-\\sqrt[3]{4 x^{2}-9 x-3})%",
+        "question_images": [],
+        "solution": "Đặt %(a=\\sqrt[3]{x^{2}+4 x+3} ; b=\\sqrt[3]{2 x^{2}-3 x-2} ; c=\\sqrt[3]{3 x^{2}-2 x+2} ; d=\\sqrt[3]{4 x^{2}-9 x-3})%<br>Ta có %(\\left\\{\\begin{array}{l}a-b=c-d (1) \\\\ a^{3}-b^{3}=c^{3}-d^{3} (2)\\end{array}\\right.)%<br>\\[\\begin{array}{l}(2) \\Rightarrow(a-b)^{3}+3 a b(a-b)=(c-d)^{3}+3 c d(c-d) \\\\Rightarrow a b(a-b)=c d(a-b) \\Leftrightarrow\\left[\\begin{array}{l}a=b \\a b=c d\\end{array}\\right.\\end{array}\\]<br>-Với %(a=b)%, ta có %(\\sqrt[3]{x^{2}+4 x+3}=\\sqrt[3]{2 x^{2}-3 x-2} \\Leftrightarrow x^{2}-7 x-5=0 \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{7+\\sqrt{69}}{2} \\\\ x=\\frac{7-\\sqrt{69}}{2}\\end{array}\\right.)%<br>-Với %(a b=c d)%, ta có<br>\\[\\left(x^{2}+4 x+3\\right)\\left(2 x^{2}-3 x-2\\right)=\\left(3 x^{2}-2 x+2\\right)\\left(4 x^{2}-9 x-3\\right) \\Leftrightarrow x \\in\\left\\{0 ; 1 ; \\frac{3-\\sqrt{11}}{2} ; \\frac{3+\\sqrt{11}}{2}\\right\\}\\]<br>Vậy pt có 6 nghiệm %(x=0 ; x=1 ; x=\\frac{3-\\sqrt{11}}{2} ; x=\\frac{3+\\sqrt{11}}{2} ; x=\\frac{7+\\sqrt{69}}{2} ; x=\\frac{7-\\sqrt{69}}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left \\lbrace \\begin{matrix} 8 x^{3} + \\frac{27}{y^{3}} = 18 \\\\ \\frac{4 x^{2}}{y} + \\frac{6 x}{y^{2}} = 1 \\end{matrix} \\right .)%",
+        "question_images": [],
+        "solution": "\\[\\left\\{\\begin{array} { l } { 8 x ^ { 3 } + \\frac { 2 7 } { y ^ { 3 } } = 1 8 } \\\\{ \\frac { 4 x ^ { 2 } } { y } + \\frac { 6 x } { y ^ { 2 } } = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}(2 x)^{3}+\\left(\\frac{3}{y}\\right)^{3}=18 \\\\2 x \\cdot \\frac{3}{y}\\left(2 x+\\frac{3}{y}\\right)=3\\end{array}\\right.\\right.\\]<br>Đặt %(a=2 x ; b=\\frac{3}{y})%.<br>Ta có %(\\left\\{\\begin{array}{l}a^{3}+b^{3}=18 \\\\ a b(a+b)=3\\end{array} \\Leftrightarrow \\ldots \\Leftrightarrow\\left\\{\\begin{array}{l}a+b=3 \\\\ a b=1\\end{array}\\right.\\right.)%<br>Giải tìm được %(\\left(a=\\frac{3+\\sqrt{5}}{2} ; b=\\frac{3-\\sqrt{5}}{2}\\right))% hoặc %(\\left(a=\\frac{3-\\sqrt{5}}{2} ; b=\\frac{3+\\sqrt{5}}{2}\\right))%<br>Tìm được nghiệm %((x ; y))% của hệ là %(\\left(\\frac{3+\\sqrt{5}}{4} ; \\frac{6}{3-\\sqrt{5}}\\right) ;\\left(\\frac{3-\\sqrt{5}}{4} ; \\frac{6}{3+\\sqrt{5}}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho hai hàm số %(y=2 x^{2})% và %(y=|m x|)%. Tìm %(m)% để hai đồ thị của hai hàm số đã cho cắt nhau tại ba điểm phân biệt là ba đỉnh của tam giác đều.",
+        "question_images": [],
+        "solution": "Phương trình hoành độ giao điểm<br>\\[2 x^{2}=|m x| \\Leftrightarrow 2|x|^{2}-|m| \\cdot|x|=0 \\Leftrightarrow x=0 ; x=\\frac{m}{2} ; x=-\\frac{m}{2}\\]<br>Gọi ba giao điểm là %(O(0 ; 0) ; A\\left(\\frac{m}{2} ; \\frac{m^{2}}{2}\\right) ; B\\left(-\\frac{m}{2} ; \\frac{m^{2}}{2}\\right))% và %(H)% là giao điểm của %(A B)% và trục tung, suy ra %(A B=|m| ; O H=\\frac{m^{2}}{2})%<br>Tam giác %(\\mathrm{OAB})% đều %(\\Rightarrow O H=\\frac{\\sqrt{3}}{2} A B \\Leftrightarrow \\frac{m^{2}}{2}=\\frac{\\sqrt{3}}{2}|m|)%<br>Giải và tìm được %(m=0 ; m=\\sqrt{3} ; m=-\\sqrt{3})%, loại %(m=0)%.<br>Vậy %(m=\\sqrt{3} ; m=-\\sqrt{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình vuông %(A B C D)% có cạnh bằng %(a)%. Trên cạnh %(A D)% lấy điểm %(M)% sao cho %(A M=3 M D)%. Kẻ tia %(B x)% cắt cạnh %(C D)% tại %(I)% sao cho %(A B M=M B I)%. Kẻ tia phân giác của %(C B I)%, tia này cắt cạnh %(C D)% tại %(N)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) So sánh %(M N)% với %(A M+N C)%.",
+        "question_images": [],
+        "solution": "Trên cạnh %(BI)%  lấy điểm %(H)% sao cho %(B H=B A=a)%. %(\\Rightarrow \\triangle A B M=\\triangle H B M)% và %(\\triangle H B N=\\triangle C B N)%<br>Suy ra %(B H M=B A M=90^{\\circ} ; B H N=B C N=90^{\\circ})%<br>Suy ra %(M ; H ; N)% thẳng hàng, do đó%(M N=M H+H N=A M+N C)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a27aee03745c14274474699269aa4b91.png\" srcset=\"https://docdn.giainhanh.io/media/test/785ac9da6ebb6aa59845c73523b9cb33.png 188w\" width=\"188\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tính diện tích tam giác %(B M N)% theo %(a)%.",
+        "question_images": [],
+        "solution": "Đặt %(N C=x \\Rightarrow M N=A M+N C=\\frac{3}{4} a+x ; D N=a-x)%<br>Theo định lí Pitago %(M N^{2}=M D^{2}+D N^{2} \\Rightarrow\\left(\\frac{3}{4} a+x\\right)^{2}=\\frac{a^{2}}{16}+(a-x)^{2})%<br>Giải và tìm được %(x=\\frac{a}{7})%<br>Diện tích tam giác %(B M N)% bằng %(\\frac{1}{2} B H \\cdot M N=\\frac{1}{2} a\\left(\\frac{3}{4} a+\\frac{a}{7}\\right)=\\frac{25}{56} a^{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho đường tròn tâm %(O)%, dây cung %(A B)% không qua %(O)%. Điểm %(M)% nằm trên cung lớn %(A B)%. Các đường cao %(A E, B F)% của tam giác %(A B M)% cắt nhau ở %(H)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(O M)% vuông góc với %(E F)%.",
+        "question_images": [],
+        "solution": "Tứ giác %(A B E F)% có %(A E B=A F B=90^{\\circ})% nên nội tiếp đường tròn %(\\Rightarrow M E F=F A B)%<br>Từ %(M)% kẻ tia tiếp tuyến %(M x)% với đường tròn tâm %(O)% (như hình vẽ), ta có %(x M B=M A B=F A B)%.<br>Suy ra %(x M B=M E F \\Rightarrow M x / / E F)%<br>Theo tính chất của tiếp tuyến đường tròn, ta có %(M O \\perp M x \\Rightarrow M O \\perp E F)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/efbfed5d14e9661a144c409d1cfd0195.png\" srcset=\"https://docdn.giainhanh.io/media/test/3e2223241acd14ee90834fb28028068b.png 191w\" width=\"191\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Đường tròn tâm %(H)% bán kính %(H M)% cắt %(M A, M B)% lần lượt tại %(C)% và %(D)%. Chứng minh rằng khi %(M)% di động trên cung lớn %(A B)% thì đường thẳng kẻ từ %(H)% vuông góc với %(C D)% luôn đi qua một điểm cố định.",
+        "question_images": [],
+        "solution": "Kẻ đường kính %(\\mathrm{MN})% của đường tròn tâm %(O)%.<br>Tứ giác %(A H B N)% có %(A H)% song song với %(N B)% (cùng vuông góc với %(M B)% ), có %(B H)% song song với %(N A)% (cùng vuông góc với %(M A)% ) nên là hình bình hành. Suy ra %(H N)% cắt %(A B)% tại trung điểm / của mỗi đoạn.<br>Do đó %(M H / / O I ; M H=2 . O I)%<br>Gọi %(K)% là điểm đối xứng của %(O)% qua %(I)%, suy ra %(O K=2 O I)% và điểm %(K)% cố định<br>Tứ giác %(M H K O)% có %(M H, O K)% song song và bằng nhau ( cùng gấp đôi %(O I)% ) nên là hình bình hành. Suy ra %(H K / / M O)%<br>Xét đường tròn tâm %(H)% bán kính %(H M)%, theo tính chất đường kính vuông góc với dây cung, suy ra %(E)% là trung điểm của %(M D)% và %(F)% là trung điểm của %(M C)%.<br>Do đó %(E F / / C D \\Rightarrow M O \\perp C D \\Rightarrow H K \\perp C D)%.<br>Vậy khi %(M)% đi động trên cung lớn %(A B)% thì đường thẳng kẻ từ %(H)% vuông góc với %(C D)% luôn đi qua điểm cố định %(K)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f5f29b0393e07e4cf44b0904460ec169.png\" srcset=\"https://docdn.giainhanh.io/media/test/ebb2a1581518a9fb21209141223aeb3b.png 158w\" width=\"158\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho ba số thực dương %(a, b, c)%. Chứng minh rằng;<br>\\[\\frac{a^{2}+b^{2}}{a+b}+\\frac{b^{2}+c^{2}}{b+c}+\\frac{c^{2}+a^{2}}{c+a} \\leq \\frac{3\\left(a^{2}+b^{2}+c^{2}\\right)}{a+b+c}\\]",
+        "question_images": [],
+        "solution": "Với ba số thực dương %(a, b, c)% ta có %(\\frac{a^{2}+b^{2}}{a+b}+\\frac{b^{2}+c^{2}}{b+c}+\\frac{c^{2}+a^{2}}{c+a} \\leq \\frac{3\\left(a^{2}+b^{2}+c^{2}\\right)}{a+b+c}(1))%.<br>\\[\\begin{array}{l}\\Leftrightarrow(a+b+c)\\left(\\frac{a^{2}+b^{2}}{a+b}+\\frac{b^{2}+c^{2}}{b+c}+\\frac{c^{2}+a^{2}}{c+a}\\right) \\leq 3\\left(a^{2}+b^{2}+c^{2}\\right) \\\\Leftrightarrow \\frac{c\\left(a^{2}+b^{2}\\right)}{a+b}+\\frac{a\\left(b^{2}+c^{2}\\right)}{b+c}+\\frac{b\\left(c^{2}+a^{2}\\right)}{c+a} \\leq a^{2}+b^{2}+c^{2} \\\\Leftrightarrow c^{2}-\\frac{c\\left(a^{2}+b^{2}\\right)}{a+b}+a^{2}-\\frac{a\\left(b^{2}+c^{2}\\right)}{b+c}+b^{2}-\\frac{b\\left(c^{2}+a^{2}\\right)}{c+a} \\geq 0 \\\\Leftrightarrow \\frac{a c(c-a)}{a+b}+\\frac{b c(c-b)}{a+b}+\\frac{a b(b-a)}{c+a}+\\frac{b c(b-c)}{c+a}+\\frac{a b(a-b)}{b+c}+\\frac{a c(a-c)}{b+c} \\geq 0 \\\\Leftrightarrow \\frac{a c(c-a)^{2}}{(a+b)(b+c)}+\\frac{b c(c-b)^{2}}{(a+b)(a+c)}+\\frac{a b(b-a)^{2}}{(a+c)(b+c)} \\geq 0 .(2)\\end{array}\\]<br>Với ba số thực dương %(a, b, c)% ta có (2) luôn đúng. Vậy (1) luôn đúng (đpcm)",
+        "question_type": "essay"
+    }
+]

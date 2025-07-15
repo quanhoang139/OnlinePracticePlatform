@@ -1,0 +1,95 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 3.0,
+        "content": "Giải phương trình %(x^{4} - 4 x^{3} + 6 x^{2} - 4 x - 3 = 0)%",
+        "question_images": [],
+        "solution": "<img/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 3.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}2 x-\\sqrt{x+y}=\\sqrt{2 y-x^{2}+2 x} \\\\ (2-\\sqrt{x+y}) \\sqrt{x^{2}+4}=2 \\sqrt{3 x}\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Điều kiện xác định: %(x+y \\geq 0,2 y-x^{2}+2 x \\geq 0)%<br>Trước hết ta có biến đổi sau<br>\\[\\begin{aligned}2 x-\\sqrt{x+y}=\\sqrt{2 y-x^{2}+2 x} & \\Leftrightarrow(2 x-\\sqrt{x+y})^{2}=2 y-x^{2}+2 x \\\\& \\Leftrightarrow 4 x^{2}-4 x \\sqrt{x+y}+x+y=2 y-x^{2}+2 x \\\\& \\Leftrightarrow 5 x^{2}-4 x \\sqrt{x+y}-(x+y)=0 \\\\& \\Leftrightarrow 5 x(x-\\sqrt{x+y})+\\sqrt{x+y}(x-\\sqrt{x+y})=0\\end{aligned}\\]<br>\\[\\Leftrightarrow(x-\\sqrt{x+y})(5 x=\\sqrt{x+y})=0\\]<br>Lúc này, ta xét hai trường hợp sau<br>Trường hợp 1. %(x-\\sqrt{x+y}=0)% suy ra %(x=\\sqrt{x+y}(x \\geq 0))%<br>Thay vào phương trình thứ hai của hệ, ta được<br>\\[\\begin{aligned}(2-x) \\sqrt{x^{2}+4}=2 \\sqrt{3} x & \\Leftrightarrow(2-x)^{2}\\left(x^{2}+4\\right)=12 x^{2} \\\\& \\Leftrightarrow\\left(x^{2}-4 x+4\\right)\\left(x^{2}+4\\right)=12 x^{2} \\\\& \\Leftrightarrow x^{4}+4 x^{2}-4 x^{3}-16 x+4 x^{2}+16=12 x^{2}\\end{aligned}\\]<br>%(\\begin{array}{l}\\Leftrightarrow x^{4}-4 x^{3}-4 x^{2}-16 x+16=0 \\\\ \\Leftrightarrow\\left(x^{2}+2 x+2\\right)\\left(x^{2}-6 x+4\\right)=0 \\\\ \\Leftrightarrow x^{2}-6 x+4=0\\left(v i x^{2}+2 x+2=(x+1)^{2}+1\\gt 1>0\\right) \\\\ \\Leftrightarrow x \\in\\{3-\\sqrt{5}, 3+\\sqrt{5}\\}\\end{array})%<br>Để ý điều kiện %(0 \\leq x \\leq 2)% nên %(x=3+\\sqrt{5})% loại suy ra %(x=3-\\sqrt{5})%<br>Khi đó, thay vào biểu thức ta được %(3-\\sqrt{5}=\\sqrt{3-\\sqrt{5}+y})% suy ra %(y=11-5 \\sqrt{5})%<br>Thử lại, ta thấy nghiệm trên thỏa mãn<br>○ Trường hợp 2. %(5 x+\\sqrt{x+y}=0)% suy ra %(\\sqrt{x+y}=-5 x(x \\leq 0))%<br>Thay vào phương trình đầu của hệ, ta có<br>\\[7 x=\\sqrt{2 y-x^{2}+2 x}\\]<br>Từ đây kết hợp %(x \\leq 0)% suy ra %(x=y=0)%.<br>Thử lại, ta thấy nghiệm trên không thỏa<br>Như vậy, tất cả các nghiệm của hệ phương trình là %((x, y)=\\{3-\\sqrt{5}, 11-5 \\sqrt{5}\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2:",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "Tìm %(x \\in \\mathbb{R})% sao cho %(x+\\sqrt{2024})% và %(\\frac{1}{x}-\\sqrt{2024})% đều là các số nguyên",
+        "question_images": [],
+        "solution": "Theo giả thiết ta có thể đặt như sau %(x+\\sqrt{2024}=a, \\frac{1}{x}-\\sqrt{2024}=b)% thì %(a, b \\in \\mathbb{Z})%Bằng các phép biến đổi ta được<br>\\[(a-\\sqrt{2024})(b+\\sqrt{2024})=1 \\Leftrightarrow \\sqrt{2024}(a-b)=2025-a b\\]<br>Vì %(\\sqrt{2024})% vô tỷ và %(a-b, 2025-a b)% nguyên nên %(a=b)% và %(2025=a b)% suy ra %(a=b= \\pm 45)%<br>Khi đó bằng phép thế ta được<br><img/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "Tìm số nguyên dương a nhỏ nhất sao cho 2a là số lập phương và 5a là số chính phương",
+        "question_images": [],
+        "solution": "Theo giả thiết %(2 a=b^{3}(1))% và %(5 a=c^{2}(2))% với %(\\mathrm{b}, \\mathrm{c})% là các số nguyên dương.<br>Từ (1) suy ra %(b^{3})% chia hết cho 2 , mà 2 là số nguyên tố nên %(\\mathrm{b})% chia hết cho 2 .<br>Đặt %(\\mathrm{b}=2 \\mathrm{~d})%, thay vào (1) được %(2 a=8 d^{3})%, hay là %(a=4 d^{3}(3))%.<br>Từ (2) suy ra %(c^{2})% chia hết cho 5 , mà 5 là số nguyên tố nên %(\\mathrm{c})% chia hết cho 5<br>Đặt %(\\mathrm{c}=5 \\mathrm{e})%, thay vào (2) được %(5 a=25 e^{2})%, hay là %(a=5 e^{2}(4))%<br>Từ (3) và (4) có %(a=4 d^{3}=5 e^{2}(5))% với d,e là các số nguyên dương.<br>Do 4 và 5 là hai số nguyên tố cùng nhau nên từ (5) thì %(d^{3})% chia hết cho 5 , suy ra d chia hết cho 5<br>Đặt %(\\mathrm{d}=5 \\mathrm{k})%, thay vào (5) được %(a=5 e^{2}=500 k^{3})% với %(\\mathrm{k})% là số nguyên dương<br>Từ đó %(e^{2}=100 k^{3}=10^{2} k^{3})%.<br>Điều này xảy ra với số %(\\mathrm{k})% nhỏ nhất là %(\\mathrm{k}=1, \\mathrm{e}=10)% và %(\\mathrm{a}=)% 500<br>Lúc đó %(2 a=1000=10^{3})% và %(5 a=2500=50^{2})% thỏa mãn bài toán<br>Vậy số nguyên dương a nhỏ nhất thỏa mãn là %(\\mathrm{a}-500)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.0,
+        "content": "Cho các số thực a,b,c thỏa mãn %(a, b, c \\geq 1)% và %(a^{2}+4 b^{2}+c^{2}+2 a b+12=3(a+5 b+c))%. Tìm giá trị nhỏ nhất của biểu thức<br>\\[T=\\frac{a^{2}}{a+(a+b)^{2}}+\\frac{a^{2}}{a+c^{2}}\\]",
+        "question_images": [],
+        "solution": "Bằng các phép biến đổi giả thiết, ta có<br>\\[\\begin{aligned}3(a+b+c) & =a^{2}+4 b^{2}+c^{2}+2 a b+12-12 b \\\\& =(a+b)^{2}+c^{2}+3(b-2)^{2} \\geq(a+b)^{2}+c^{2}\\end{aligned}\\]<br>Bằng biến đổi bất đẳng thức kết hợp cộng mẫu, ta được<br>\\[3(a+b+c) \\geq(a+b)^{2}+c^{2} \\geq \\frac{(a+b+c)^{2}}{2}\\]<br>Do đó %(a+b+c \\leq 6)% suy ra %((a+b)^{2}+c^{2} \\leq 18)%.<br>Khi đó, bằng các phép biến đổi ta có<br>%(T=\\frac{a^{3}}{a+(a+b)^{2}}+\\frac{a^{2}}{a+c^{2}} \\geq \\frac{a^{2}}{a+(a+b)^{2}}+\\frac{a^{2}}{a+c^{2}})%<br>\\[\\begin{array}{l}\\geq \\frac{4 a^{2}}{2 a+(a+b)^{2}+c^{2}} \\\\geq \\frac{4 a^{2}}{2 a+18}=\\frac{2 a^{2}}{a+9} \\geq \\frac{2 a^{2}}{10 a}=\\frac{a}{5} \\geq \\frac{1}{5}\\end{array}\\]<br>Từ đây ta được %(\\operatorname{Min} T=\\frac{1}{5})%.<br>Dấu bằng xảy ra khi và chỉ khi %((a, b, c)=(1,2,3))%<br>Vậy giá trị nhỏ nhất của %(T=\\frac{1}{5})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4:",
+        "group_content": "Cho tam giác ABC vuông tại A ( AB < AC ) nội tiếp đường tròn tâm O. Trên đường tròn (O) lấy điểm D khác phía A so với đường BC ( BD > AC ). Qua B kẻ đường thẳng d song song với CD. Đường thẳng d cắt đường thẳng AC tại E, cắt đường tròn (O) tại F ( F khác B ).",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "Gọi J là trung điểm của EC. Chứng minh rằng 4 điểm A,F,O,J cùng nằm trên một đường tròn",
+        "question_images": [],
+        "solution": "Vì tứ giác %(A F B C)% nội tiếp, ta có đẳng thức sau<br>\\[180^{\\circ}-F A J=E A F=F B C=\\frac{1}{2} F O C\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/2e923eadc941de595d335db3e03a54b2.png\" srcset=\"https://docdn.giainhanh.io/media/test/3ae04f0ba6d3f6fed2b0962ffefc9cf1.png 245w, https://docdn.giainhanh.io/media/test/8a3d4b12a0f4174593b694b280d38370.png 500w, https://docdn.giainhanh.io/media/test/22929fd2e9848e0dcafbfd1b3edadf2b.png 750w\" width=\"750\"/><br><img/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.5,
+        "content": "Đường thẳng OE cắt đường thẳng AD tại I. Chứng minh rằng IBA = BDA",
+        "question_images": [],
+        "solution": "Gọi %(T)% là giao điểm của %(B D = C F)% và %(O E)%.<br>Trước hết, ta chỉ ra %(I T O)%<br>Thật vậy, áp dụng định lý Menelaus cho tam giác %(\\frac{I D}{I A} = \\frac{B D^{2}}{B A^{2}})%, cát tuyến %(O F = O D , \\triangle A E B \\frac{∼}{\\_} F E C \\left( g{\\cdot} g \\right ))% ta có%(A F)%<br>Từ đây kết hợp %(\\frac{I D}{I A} = \\frac{T F}{T A} = \\frac{E F \\cdot \\sin{F} E T}{E A \\cdot \\sin{A} E T} = \\frac{E F}{E A} \\cdot \\frac{\\sin{B} E O}{\\sin{C} E O} = \\frac{E F}{E A} \\cdot \\frac{C E}{B E} = \\left( \\frac{C F}{B A} \\right )^{2} = \\left( \\frac{B D}{B A} \\right )^{2})% và %(\\frac{I D}{I A} \\cdot \\frac{T A}{T F} \\cdot \\frac{O F}{O D} = 1)%, ta có%(A F D)%<br>Bằng các phép biến đổi góc, ta được<br>\\[O F A=O A F=90^{\\circ}-A D F=90^{\\circ}-A C F=A E F\\]<br>Do đó %(O F)% và %(O A)% là hai tiếp tuyến của đường tròn %((A E F))%<br>Gọi %(I)% ' là giao điểm của tiếp tuyến tại %(B)% của %((O))% với %(A D)%, ta có<br>\\[\\begin{aligned}\\Delta I^{\\prime} B A \\sim \\Delta I^{\\prime} D B(g . g) & \\Rightarrow \\frac{I^{\\prime} A}{I^{\\prime} B}=\\frac{I^{\\prime} B}{I^{\\prime} D}=\\frac{B A}{B D} \\\\& \\Leftrightarrow \\frac{I^{\\prime} D}{I^{\\prime} A}=\\frac{I^{\\prime} D}{I^{\\prime} B} \\cdot \\frac{I^{\\prime} B}{I^{\\prime} A}=\\frac{B D^{2}}{B A^{2}}=\\frac{I D}{I A} \\\\& \\Rightarrow I \\equiv I^{\\prime}\\end{aligned}\\]<br>Từ đây ta được %(I B)% là tiếp tuyến của %((O))% suy ra %(I B A=B D A)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.5,
+        "content": "<img/>",
+        "question_images": [],
+        "solution": "\\[D N M+D M N=B A M+C A N=90^{\\circ}, B A M=B M A\\]<br>Do đó %(C A N=C N A)% hay tam giác %(C A N)% cân tại %(C)% suy ra %(C A=C N)%<br>Theo hệ thức lượng ta có %(C A^{2}=C H . C B)% nên %(C N^{2}=C H . C B)% suy ra %(\\frac{C N}{C H}=\\frac{C B}{C N})%<br>Từ đây ta được %(\\triangle C N H \\sim \\triangle C B N()% c.g.c %())% dẫn đến %(C H N=C N B=C Q D)%<br>Do đó tứ giác %(C Q P H)% nội tiếp, ta có các biến đổi sau<br>\\[B P \\cdot B Q=B H \\cdot B C=B A^{2} \\Leftrightarrow B M^{2}=B P \\cdot B Q\\]<br>%(\\begin{array}{l}\\Leftrightarrow \\frac{B M}{B P}=\\frac{B Q}{B M} \\\\ \\Leftrightarrow \\frac{P M}{B P}=\\frac{M Q}{B Q} \\\\ \\Leftrightarrow P M \\cdot B Q=M Q \\cdot B M \\\\ \\Leftrightarrow(M B+M Q) M P=M Q \\cdot M B \\\\ \\Leftrightarrow \\frac{M B+M Q}{M B \\cdot M Q}=\\frac{1}{M P}\\end{array})%<br>\\[\\Leftrightarrow \\frac{1}{M P}=\\frac{1}{M Q}+\\frac{1}{M B}\\]<br>Vậy bài toán được chứng minh<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/18954b64bd266376482b5ccf7ebf6c56.png\" srcset=\"https://docdn.giainhanh.io/media/test/890560ec8783845544397c6f37349ffe.png 232w, https://docdn.giainhanh.io/media/test/538662cf04d82ec1fce619ebdad7bda3.png 500w, https://docdn.giainhanh.io/media/test/fb87bfc037f071b7bdb63d161411bcc3.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5:  ",
+        "point": 2.0,
+        "content": "Cho một đa giác lồi có diện tích %(2024 \\mathrm{~cm}^{2})%. Chứng minh rằng bao giờ cũng vẽ được trong đa giác đó một tam giác có diện tích không nhỏ hơn %(759 \\mathrm{~cm}^{2})%",
+        "question_images": [],
+        "solution": "Bài toán ta cần giải quyết tương đương bài toán tổng quát sau<br>Cho một đa giác lồi có diện tích bằng %(\\mathrm{S})%.<br>Chứng minh rằng bao giờ cũng vẽ được trong đa giác đó một tam giác lồi có diện tích không nhỏ hơn %(\\frac{3}{8} S)%<br>Gọi a là đường thẳng chứa cạnh %(A B)% của đa giác.<br>Gọi %(C)% là đỉnh của đa giác cách %(x a)% %(A B)% nhất.<br>Qua %(C)% kẻ đường thẳng %(b / / a)%<br>Kẻ đường thẳng %(d)% song song cách đều %(a)% và %(b)%, kẻ đường thẳng %(d_{1})% song song cách đều %(a)% và %(d)%, kẻ đường thẳng %(d_{2})% song song cách đều %(b)% và %(d)%. Gọi %(h)% là khoảng cách giữa %(a)% và %(b)%<br>Gọi giao điểm của %(d_{1})% với biên của đa giác là %(M)% và %(N)%.<br>Kéo dài các cạnh của đa giác chứa %(M)% và %(N)% cho cắt %(a)% và %(d)%, ta được một hình thang có diện tích bằng %(M N \\cdot \\frac{h}{2})%<br>Gọi giao điểm của %(d_{2})% với biên của đa giác là %(D)% và %(E)%.<br>Kéo dài các cạnh của đa giác chứa %(D)% và %(E)% cho cắt %(b)% và %(d)%, ta được một hình thang ( cũng có thể làm tam giác ) có diện tích bằng %(D E \\cdot \\frac{h}{2})%<br>Hai hình thang nói trên phủ toàn bộ đa giác nên tổng các diện tích của hai hình thang lớn hơn hoặc bằng %(S)%, do đó: %((M N+D E) \\cdot \\frac{h}{2} \\geq S)%<br>Ta sẽ chứng minh rằng một trong hai tam giác %(A D E)% và %(C M N)% là tam giác phải tìm.<br>Xét tổng diện tích hai tam giác đó:<br>%(S_{A D E}+S_{C M N}=\\frac{1}{2} D E \\cdot \\frac{3 h}{4}+\\frac{1}{2} M N \\cdot \\frac{3 h}{4}=\\frac{3 h}{8}(D E+M N))%<br>\\[=\\frac{3}{4} \\cdot \\frac{h}{2}(D E+M N) \\geq \\frac{3}{4} S\\]<br>Tồn tại một trong hai tam giác %(A D E, C M N)% có diện tích lớn hơn hoặc bằng %(\\frac{3}{8} S)% đó là tam giác cần tìm.<br>Vậy bài toán được chứng minh<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b33de8c89cc24887cd3f40b0bed047b8.png\" srcset=\"https://docdn.giainhanh.io/media/test/cfa33ea756b2be4af7d623e9c68eead2.png 245w, https://docdn.giainhanh.io/media/test/13ba220dfffca2b6060443bdc57cc78f.png 500w, https://docdn.giainhanh.io/media/test/c047b09765979beb400f51bdfad05e08.png 750w, https://docdn.giainhanh.io/media/test/d2eaff6e7eb6c92f2a0da785de90f01e.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    }
+]

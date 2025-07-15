@@ -1,0 +1,128 @@
+[
+    {
+        "title": "Câu 1 ",
+        "point": 1.5,
+        "content": "Cho biểu thức %(A=n^{3}+2025 n^{2}+2024 n)%. Chứng minh rằng %(\\mathrm{A})% chia hết cho 6 với mọi số nguyên %(\\mathrm{n})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}A=n^{3}+2025 n^{2}+2024 n \\\\=n^{3}-n+2025\\left(n^{2}+n\\right)\\end{array}\\]<br>Ta có: %(n^{3}-n=n(n-1)(n+1))% là tích của 3 số nguyên liên tiếp<br>%(\\left.\\begin{array}{l}n(n-1)(n+1) \\vdots 2 \\\\ n(n-1)(n+1) \\vdots 3 \\\\ U C L N(2,3)=1\\end{array}\\right\\} \\Rightarrow\\left(n^{3}-n\\right) \\vdots 6)% và %(\\left\\{\\begin{array}{l}2025 \\vdots 3 \\\\ n(n+1) \\vdots 2\\end{array} \\Rightarrow2025\\left(n^{2}+n\\right) \\vdots 6 \\Rightarrow A \\vdots 6\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 1.5,
+        "content": "Tìm số tự nhiên %(\\mathrm{n})% để biểu thức %(A=n^{2}+2 n+12)% là số chính phương",
+        "question_images": [],
+        "solution": "Để biểu thức %(A)% là số chính phương thì %(A=n^{2}+2 n+12=m^{2})% với %(m \\in N)%<br>\\[\\begin{array}{l}\\Leftrightarrow(n+1)^{2}+11=m^{2}, \\text { đặt } k=n+1, k \\in N \\\\Leftrightarrow k^{2}+11=m^{2} \\quad(\\mathrm{~m}\\gt \\mathrm{k}) \\\\Leftrightarrow(m-k)(m+k)=11\\end{array}\\]<br>Mà %(m>k \\Rightarrow m-k>0 ; m+k \\geq m-k ; m, k \\in N)%<br>\\[\\Rightarrow\\left\\{\\begin{array}{l}m-k=1 \\m+k=11\\end{array} \\Rightarrow 2 k=10 \\Rightarrow k=5\\right.\\]<br>Ta lại có %(n+1=k \\Rightarrow n+1=5 \\Rightarrow n=4)%<br>Vậy %(n=4)% thì %(A=n^{2}+2 n+12)% là số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 1.0,
+        "content": "Tìm các số nguyên dương %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% sao cho %(\\mathrm{a}^{2}=2(\\mathrm{~b}+\\mathrm{c}))% và %(\\mathrm{a}^{3}+\\mathrm{b}^{3}+\\mathrm{c}^{3}=3 \\mathrm{abc})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\mathrm{a}^{3}+\\mathrm{b}^{3}+\\mathrm{c}^{3}=3 \\mathrm{abc}=\\gt (\\mathrm{a}+\\mathrm{b}+\\mathrm{c})\\left(\\mathrm{a}^{2}+\\mathrm{b}^{2}+\\mathrm{c}^{2}-\\mathrm{ab}-\\mathrm{bc}-\\mathrm{ca}\\right)=0 \\\\=>\\mathrm{a}^{2}+\\mathrm{b}^{2}+\\mathrm{c}^{2}-\\mathrm{ab}-\\mathrm{bc}-\\mathrm{ca}=0(\\text { vì } a, b, c>0) \\\\Rightarrow(\\mathrm{a}-\\mathrm{b})^{2}+(\\mathrm{b}-\\mathrm{c})^{2}+(\\mathrm{c}-\\mathrm{a})^{2}=0 \\\\Rightarrow \\mathrm{a}=\\mathrm{b}=\\mathrm{c}\\end{array}\\]<br>Ta có %(: \\mathrm{a}^{2}=2(\\mathrm{~b}+\\mathrm{c})=>\\mathrm{a}^{2}=4 \\mathrm{a}=>\\mathrm{a}=4)% ( vì %(\\mathrm{a}>0)% )<br>\\[\\Rightarrow \\mathrm{b}+\\mathrm{c}=8 \\Rightarrow \\mathrm{a}=\\mathrm{b}=\\mathrm{c}=4\\]<br>Vậy %(a=b=c=4)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4",
+        "group_content": "Cho biểu thức: %(P=\\left[\\frac{a^{2}-2 a+4}{a-2}:\\left(a^{3}+8\\right)+\\frac{a-2}{a^{3}+8} \\cdot\\left(\\frac{a}{a+2}+\\frac{4}{a^{2}-4}\\right)\\right] \\cdot\\left(a^{2}-4\\right))%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Rút gọn %(\\mathrm{P})%.",
+        "question_images": [],
+        "solution": "ĐKXĐ: %(\\mathrm{a} \\neq \\pm 2)%<br>\\[\\begin{array}{l}P=\\left[\\frac{a^{2}-2 a+4}{a-2}:\\left(a^{3}+8\\right)+\\frac{a-2}{a^{3}+8} \\cdot\\left(\\frac{a}{a+2}+\\frac{4}{a^{2}-4}\\right)\\right] \\cdot\\left(a^{2}-4\\right) \\\\=\\left[\\frac{a^{2}-2 a+4}{a-2} \\cdot \\frac{1}{(a+2)\\left(a^{2}-2 a+4\\right)}+\\frac{a-2}{(a+2)\\left(a^{2}-2 a+4\\right)} \\cdot \\frac{a^{2}-2 a+4}{(a+2)(a-2)}\\right] \\cdot\\left(a^{2}-4\\right) \\\\=\\left[\\frac{1}{(a+2)(a-2)}+\\frac{1}{(a+2)^{2}}\\right] \\cdot\\left(a^{2}-4\\right) \\\\=\\frac{2 a}{(a+2)^{2}(a-2)}(a+2)(a-2)=\\frac{2 a}{a+2} .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm tất cả các giá trị nguyên của a để %(\\mathrm{P})% nhận giá trị nguyên.",
+        "question_images": [],
+        "solution": "Ta có: %(\\mathrm{P}=\\frac{2 a}{a+2}=2-\\frac{4}{a+2})%.<br>Để P nhận giá trị nguyên thì %(4:(\\mathrm{a}+2))%.<br>Suy ra %((a+2) \\in\\{ \\pm 1 ; \\pm 2 ; \\pm 4\\})%<br>Ta có bảng sau:<br>Vậy, a %(\\in\\{-6 ;-4 ;-3 ;-1 ; 0\\})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/146d1e04325fd569a98bd49807abd065.png\" srcset=\"https://docdn.giainhanh.io/media/test/f463d3ac17daf98f64010062ea941700.png 245w, https://docdn.giainhanh.io/media/test/9ee72d9a839e9ca1f4f6cd3193a21350.png 500w, https://docdn.giainhanh.io/media/test/902cea6d60abc18bfecf7f0761b4be57.png 750w, https://docdn.giainhanh.io/media/test/ad5ff13c6cbe2eed6fee0b891e648b09.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 1.5,
+        "content": "Giải phương trình : %(\\left(x^{2}-1\\right)\\left(x^{2}+4 x+3\\right)=192)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\left(\\mathrm{x}^{2}-1\\right)\\left(\\mathrm{x}^{2}+4 \\mathrm{x}+3\\right)=192 \\\\ (\\mathrm{x}+1)^{2}(\\mathrm{x}-1)(\\mathrm{x}+3)=192 \\\\ \\left(x^{2}+2 x+1\\right)\\left(x^{2}+2 x-3\\right)=192\\end{array})%<br>Đặt %(\\mathrm{a}=x^{2}+2 x+1(\\mathrm{a} \\geq 0))%, phương trình trở thành:<br>\\[\\begin{array}{l}a(a-4)=192 \\a^{2}-4 a+4=196 \\\\(a-2)^{2}=196 \\a=16 ; \\quad(\\text { vì } a \\geq 0)\\end{array}\\]<br>Suy ra %(x^{2}+2 x+1=16)%, do đó %(\\mathrm{x}=3)% hoặc %(\\mathrm{x}=-5)%<br>Vậy %(S=\\{-5 ; 3\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6 ",
+        "point": 0.5,
+        "content": "Một thùng mì mua gốc giá 80000 đồng, giá bán 88000 đồng. Hỏi tiền lãi một thùng là bao nhiêu phần trăm so với giá gốc?",
+        "question_images": [],
+        "solution": "Phần trăm tiền lãi so với giá gốc là %(8000: 80000.100 \\%=10 \\%)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7 ",
+        "point": 1.0,
+        "content": "Khi mua 50 thùng thì được đại lý giảm giá %(1 \\%)% trên tổng số tiền trả. Hỏi người bán vẫn muốn lời 8000 đồng/ thùng thì phải bán với giá bao nhiêu một thùng?",
+        "question_images": [],
+        "solution": "Khi mua 50 thùng thì được đại lý giảm giá %(1 \\%)% trên tổng số tiền trả. Vậy một thùng được giảm giá %(1 \\%)% so với lúc đầu.<br>Gọi %(x)% (đồng) là số tiền bán một thùng (chưa giảm giá) mà vẫn lời 8000 đồng %((x\\gt 0))%.<br>Số tiền được giảm %(1 \\%)% là %(1 \\% . x=0.01 \\mathrm{x})% đồng.<br>Số tiền bán một thùng (đã giảm giá) là %(\\mathrm{x}-0,01 \\mathrm{x}=0.99 \\mathrm{x})% đồng.<br>Theo đề bài ta có 0.99. %(\\mathrm{x}=88000 \\Leftrightarrow \\mathrm{x} \\approx 88889)% (thỏa mãn).<br>Vậy người bán vẫn muốn lời 8000 đồng mỗi thùng thì phải bán với giá 88.889 đồng một thùng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8 ",
+        "point": 2.0,
+        "content": "Cho đa thức: %(H(x)=x^{3}+\\mathrm{ax}^{2}+b x+c)% với %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là các số thực. Biết đa thức %(H(\\mathrm{x}))% chia cho đa thức %(\\mathrm{x}+1)% dư -4 và chia cho đa thức %(\\mathrm{x}-2)% dư 5 . Tính giá trị của biểu thức:<br>%(A=\\left(a^{2025}+b^{2025}\\right)\\left(b^{2025}-c^{2025}\\right)\\left(c^{2025}+a^{2025}\\right))%",
+        "question_images": [],
+        "solution": "Đa thức %(\\mathrm{f}(\\mathrm{x}))% chia cho đa thức %(\\mathrm{x}+1)% dư -4 nên %(f(-1)=-4 \\Leftrightarrow a-b+c=-3)% (1)<br>Đa thức %(\\mathrm{f}(\\mathrm{x}))% chia cho đa thức %(\\mathrm{x}-2)% dư 5 nên %(f(2)=5 \\Leftrightarrow 4 a+2 b+c=-3(2))%<br>Từ (1) và (2)<br>\\[\\begin{array}{l}\\Rightarrow a-b+c=4 a+2 b+c \\Leftrightarrow 3 a+3 b=0 \\Leftrightarrow a=-b \\\\Rightarrow a^{2025}+b^{2025}=(-b)^{2025}+b^{2025}=0\\end{array}\\]<br>Vậy : %(A=\\left(a^{2025}+b^{2025}\\right)\\left(b^{2025}-c^{2025}\\right)\\left(c^{2025}+a^{2025}\\right)=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 9 ",
+        "point": 2.0,
+        "content": "Bốn bạn An, Bình, Nam và Hoa ngồi một cách ngẫu nhiên vào một cái bàn vuông, mỗi người ngồi một phía. Tính xác xuất để An và Nam ngồi đối diện nhau.",
+        "question_images": [],
+        "solution": "Đánh số %(1,2,3)% và 4 theo chiều kim đồng hồ. Khi đó, vị trí số 1 đối diện với vị trí số 3 và vị trí số 2 đối diện với vị trí số 4.<br>Đầu tiên, có tất cả 4.3.2.1 = 24 cách ngồi của bốn bạn An, Bình , Nam và Hoa<br>Để An và Nam ngồi đối diện nhau thì An và Nam phải ngồi ở vị trí số 1 và 3 hoặc vị trí số 2 và 4.<br>Có 4 cách ngồi để An và Nam ngồi đối diện nhau là .Xác xuất cần tìm là %(\\frac{4}{24}=\\frac{1}{6})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 10",
+        "group_content": "Cho hình vuông %(A B C D)% có cạnh bằng %(\\mathrm{a})%. Trên các cạnh %(\\mathrm{AB}, \\mathrm{BC}, \\mathrm{CD}, \\mathrm{DA})% lấy lần lượt các điểm %(\\mathrm{E}, \\mathrm{F}, \\mathrm{G}, \\mathrm{H})% sao cho %(\\mathrm{AE}=\\mathrm{BF}=\\mathrm{CG}=\\mathrm{DH})%. Gọi %(\\mathrm{M})% là giao điểm của %(\\mathrm{CE})% và %(\\mathrm{DF})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh: Tứ giác EFGH là hình vuông",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ded18387539f3b513bd08433c5a75a54.png\" srcset=\"https://docdn.giainhanh.io/media/test/e8f455249033e71bdaeece06fbd9d586.png 161w\" width=\"161\"/><br>\\[\\begin{array}{l}\\text { * Chứng minh } 4 \\text { tam giác } \\mathrm{AHE} \\text {; BEF; } \\mathrm{CFG} ; \\mathrm{DGH} \\text { bằng nhau ( c-g-c) } \\\\Rightarrow \\mathrm{HE}=\\mathrm{EF}=\\mathrm{FG}=\\mathrm{GH} \\\\=\\gt \\mathrm{EFGH} \\text { là hình thoi } \\\\text { * } \\triangle \\mathrm{AHE}=\\triangle \\mathrm{BEF} \\Rightarrow \\mathrm{AHE}=\\mathrm{BEF} \\text { mà } \\mathrm{AHE}+\\mathrm{AEH}=90^{\\circ} \\\\=>\\mathrm{BEF}+\\mathrm{AEH}=90^{\\circ} \\Rightarrow \\mathrm{HEF}=90^{\\circ}\\end{array}\\]<br>Hình thoi %(\\mathrm{EFGH})% có %(\\mathrm{HEF}=90^{\\circ})% nên %(\\mathrm{EFGH})% là hình vuông",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Chứng minh : %(\\mathrm{CE})% vuông góc với %(\\mathrm{DF})% và %(\\frac{1}{\\mathrm{CD}^{2}}+\\frac{1}{\\mathrm{GD}^{2}}=\\frac{1}{\\mathrm{CM}^{2}})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\triangle B E C=\\triangle C F D \\Rightarrow E C B=F D C \\text { mà } \\triangle C D F \\text { vuông tại } \\mathrm{C} \\text { nên: } \\\\ \\Rightarrow C D F+D F C=90^{\\circ} \\Rightarrow D F C+E C B=90^{\\circ} \\Rightarrow \\triangle C M F \\text { vuông tại } \\mathrm{M} \\text { hay } \\\\ C E \\perp D F \\\\ \\text { * } S_{\\triangle C \\mathrm{D} F}=\\frac{1}{2} C D \\cdot C F=\\frac{1}{2} C M \\cdot \\mathrm{D} F \\\\ \\Rightarrow C D . C F=C M . \\mathrm{D} F \\\\ * \\frac{1}{\\mathrm{CD}^{2}}+\\frac{1}{\\mathrm{CF}^{2}}=\\frac{\\mathrm{CD}^{2}+\\mathrm{CF}^{2}}{\\mathrm{CD}^{2} \\mathrm{CF}^{2}}=\\frac{\\mathrm{DF}^{2}}{\\mathrm{CM}^{2} \\mathrm{DF}^{2}}=\\frac{1}{\\mathrm{CM}^{2}} \\\\ \\text { Mà } \\mathrm{CF}=\\mathrm{GD} \\\\ =\\gt \\frac{1}{\\mathrm{CD}^{2}}+\\frac{1}{\\mathrm{GD}^{2}}=\\frac{1}{\\mathrm{CM}^{2}} \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) Xác định vị trí của điểm %(\\mathrm{E})% trên cạnh %(\\mathrm{AB})% để diện tích hình vuông %(\\mathrm{EFGH})% đạt giá trị nhỏ nhất.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Đặt } \\mathrm{AE}=\\mathrm{x} \\Rightarrow \\mathrm{AH}=\\mathrm{a}-\\mathrm{x} \\\\ \\mathrm{S}_{\\mathrm{EFGH}}=\\mathrm{S}_{\\mathrm{EFGH}}-4 S_{\\triangle A E H}=a^{2}-2 x(a-x)=2 \\mathrm{x}^{2}-2 \\mathrm{ax}+\\mathrm{a}^{2} \\\\ =2\\left(x^{2}-\\mathrm{a} x+\\frac{1}{2} \\mathrm{a}^{2}\\right)=2\\left(x-\\frac{1}{2} \\mathrm{a}\\right)^{2}+\\frac{1}{2} \\mathrm{a}^{2} \\geq \\frac{1}{2} \\mathrm{a}^{2}\\end{array})%<br>Dấu bằng xảy ra khi %(x=\\frac{1}{2} \\mathrm{a})%<br>Khi đó: %(\\mathrm{E})% là trung điểm của %(\\mathrm{AB})%<br>Vậy diện tích hình vuông %(\\mathrm{EFGH})% đạt giá trị nhỏ nhất khi %(\\mathrm{E})% là trung điểm của %(\\mathrm{AB})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 11 ",
+        "point": 2.0,
+        "content": "Cho tam giác %(\\mathrm{ABC})%. Từ điểm %(\\mathrm{M})% thuộc cạnh %(\\mathrm{AC})% kẻ các đường thẳng song song với các cạnh %(A B)% và %(B C)% cắt %(B C)% tại %(E)% và %(A B)% tại %(F)%. Hãy xác định vị trí của %(M)% trên %(A C)% sao cho hình bình hành %(\\mathrm{BEMF})% có diện tích lớn nhất.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4f06e5a97297b46633e77ae0a509cc94.png\" srcset=\"https://docdn.giainhanh.io/media/test/39c2e1981b89e2e1b0bfa73e8617f667.png 193w, https://docdn.giainhanh.io/media/test/388c978003288d532360e0bb5d26b9ab.png 500w\" width=\"500\"/><br>Ta có tứ giác %(\\mathrm{BEMF})% là hình bình hành. %(\\mathrm{Kẻ} \\mathrm{AH} \\perp \\mathrm{BC}, \\mathrm{AH})% cắt %(\\mathrm{MF})% tại %(\\mathrm{I}, \\mathrm{AI})% %(\\perp M F)%. Gọi %(\\mathrm{S})% ' là diện tích hình bình hành %(\\mathrm{BEMF})% và %(\\mathrm{S})% là diện tích tam giác %(\\mathrm{ABC})%<br>\\[S^{\\prime}=I H \\cdot M F \\text { và } S=\\frac{1}{2} \\cdot B C \\cdot A H\\]<br>Ta có %(\\frac{S^{\\prime}}{S}=\\frac{I H \\cdot M F}{\\frac{1}{2} \\cdot B C \\cdot A H}=2 \\frac{M F}{B C} \\cdot \\frac{I H}{A H}(1))%<br>Đặt %(A M=x)% và %(\\mathrm{MC}=\\mathrm{y})%<br>Vì MF//BC nên ta có: %(\\frac{M F}{B C}=\\frac{A M}{A C}=\\frac{x}{x+y} ; \\frac{I H}{A H}=\\frac{M C}{A C}=\\frac{y}{x+y})%<br>Thay vào (1) ta có: %(\\frac{S}{S}=2 \\cdot \\frac{x}{x+y} \\cdot \\frac{y}{x+y}=\\frac{2 x y}{(x+y)^{2}})%<br>Vì x,y là 2 số không âm nên ta có: %(x+y \\geq 2 \\sqrt{x y} \\Rightarrow(x+y)^{2} \\geq 4 x y)%<br>\\[\\Rightarrow \\frac{S^{\\prime}}{S}=\\frac{2 x y}{(x+y)^{2}} \\leq \\frac{2 x y}{4 x y}=\\frac{1}{2}\\]<br>%(\\Rightarrow \\frac{S^{\\prime}}{S}\\lt \\frac{1}{2} \\Leftrightarrow S^{\\prime}\\lt \\frac{1}{2} S \\Rightarrow S^{\\prime}=\\frac{1}{2} S)% là lớn nhất<br>Dấu \"=\" xảy ra khi %(\\mathrm{x}=\\mathrm{y})%, tức khi %(\\mathrm{M})% là trung điểm của cạnh %(\\mathrm{AC})% thì diện tích hình bình hành BEMF đạt giá trị lớn nhất là %(\\frac{1}{2} S)% không đổi",
+        "question_type": "essay"
+    }
+]

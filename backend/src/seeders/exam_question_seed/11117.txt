@@ -1,0 +1,210 @@
+[
+    {
+        "title": "Câu 1 ",
+        "point": 0.25,
+        "content": "Tìm trung vị của mẫu số liệu ghép nhóm dưới đây.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/9ab841b6cce95e36b394ceb18cd81bf2.PNG"
+        ],
+        "labelA": "7,42.",
+        "labelB": "7,38.",
+        "labelC": "7,03.",
+        "labelD": "7,21.",
+        "correct_label": "labelB",
+        "solution": "Lập lại bảng số liệu có tần số tích lũy ta có bảng sau:<br>Do mẫu số liệu có 83 số liệu nên trung vị là số liệu nằm trong nhóm thứ 3 là nhóm %([6 ; 8))%.<br>Khi đó ta có<br>Số số liệu %(n=83)%.<br>Đầu mút trái %(r=6)%.<br>Tần số nhóm thứ 3 là %(n_{3}=21)%.<br>Độ dài nhóm thứ 3 là %(d=2)%.<br>Tần số tích lũy nhóm thứ 2 là %(c f_{2}=27)%.<br>Áp dụng công thức ta có: %(M_{e}=r+\\left(\\frac{\\frac{n}{2}-c f_{k-1}}{n_{k}}\\right) \\cdot d=6+\\left(\\frac{\\frac{83}{2}-27}{21}\\right) \\cdot 2 \\approx 7,38)%.<br>Vậy trung vị của mẫu ghép nhóm là %(M_{e} \\approx 7,38)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3b54c198aac4a840668de95b77f1d1e1.png\" srcset=\"https://docdn.giainhanh.io/media/test/3b54c198aac4a840668de95b77f1d1e1.png 245w\" width=\"245\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 0.25,
+        "content": "Chọn ngẫu nhiên một học sinh trong trường THPT X. Gọi biến cố %(P)% : \"Học sinh đó bị cận thị\" và biến cố %(Q)% : \"Học sinh đó học giỏi môn Toán\". Xác định biến cố %(P \\cup Q)%.",
+        "question_images": [],
+        "labelA": "Học sinh đó vừa bị cận thị vừa học giỏi môn Toán.",
+        "labelB": "Học sinh đó học giỏi môn Toán nhưng không bị cận thị.",
+        "labelC": "Học sinh đó bị cận thị nhưng không học giỏi môn Toán.",
+        "labelD": "Học sinh đó bị cận thị hoặc học giỏi môn Toán.",
+        "correct_label": "labelD",
+        "solution": "Biến cố %(P \\cup Q)% : \"Học sinh đó bị cận thị hoặc học giỏi môn Toán\".",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 0.25,
+        "content": "Một xạ thủ bắn liên tiếp ba mũi tên vào bia ngắm. Biết rằng xác suất bắn trúng bia ngắm của xạ thủ là 0,6 . Xác suất để trong ba lần bắn tên có đúng hai lần tên trúng bia ngắm là:",
+        "question_images": [],
+        "labelA": "%(\\frac{81}{125})%.",
+        "labelB": "%(\\frac{54}{125})%.",
+        "labelC": "%(\\frac{24}{125})%.",
+        "labelD": "%(\\frac{18}{125})%.",
+        "correct_label": "labelB",
+        "solution": "Gọi %(A_{1})% là biến cố \"Mũi tên thứ nhất của xạ thủ bắn trúng bia\".<br>%(A_{2})% là biến cố \"Mũi tên thứ hai của xạ thủ bắn trúng bia\".<br>%(A_{3})% là biến cố \"Mũi tên thứ ba của xạ thủ bắn trúng bia\".<br>\\[\\Rightarrow P\\left(A_{1}\\right)=P\\left(A_{2}\\right)=P\\left(A_{3}\\right)=0,6 \\text { và } P\\left(\\overline{A_{1}}\\right)=P\\left(\\overline{A_{2}}\\right)=P\\left(\\overline{A_{3}}\\right)=0,4 \\text {. }\\]<br>Gọi %(X)% là biến cố \"Trong ba lần bắn tên có đúng hai lần tên trúng bia ngắm\".<br>\\[\\Rightarrow P(X)=P\\left(A_{1} A_{2} \\overline{A_{3}}\\right)+P\\left(A_{1} \\overline{A_{2}} A_{3}\\right)+P\\left(\\overline{A_{1}} A_{2} A_{3}\\right)\\]<br>Rõ ràng các biến cố %(A_{1}, A_{2}, A_{3})% đôi một độc lập với nhau nên.<br>\\[P(X)=P\\left(A_{1}\\right) P\\left(A_{2}\\right) P\\left(\\overline{A_{3}}\\right)+P\\left(A_{1}\\right) P\\left(\\overline{A_{2}}\\right) P\\left(A_{3}\\right)+P\\left(A_{1}\\right) P\\left(A_{2}\\right) P\\left(\\overline{A_{3}}\\right)=3.0,6 \\cdot 0,6 \\cdot 0,4=\\frac{54}{125} .\\]",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 0.25,
+        "content": "Tính giá trị của biểu thức %(P=(7+4 \\sqrt{3})^{2025}(4 \\sqrt{3}-7)^{2024})%",
+        "question_images": [],
+        "labelA": "%(P=(7+4 \\sqrt{3})^{2016})%.",
+        "labelB": "%(P=1)%.",
+        "labelC": "%(P=7-4 \\sqrt{3})%.",
+        "labelD": "%(P=7+4 \\sqrt{3})%.",
+        "correct_label": "labelD",
+        "solution": "\\[\\begin{array}{l}P=(7+4 \\sqrt{3})^{2025}(4 \\sqrt{3}-7)^{2024}=(7+4 \\sqrt{3}) \\cdot[(7+4 \\sqrt{3})(4 \\sqrt{3}-7)]^{2024} \\\\=(7+4 \\sqrt{3})(-1)^{2024}=7+4 \\sqrt{3} .\\end{array}\\]",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 0.25,
+        "content": "Cho %(a)% là một số thực dương khác 1 . Biểu thức %(M=\\log _{a^{3}} a)% có giá trị bằng",
+        "question_images": [],
+        "labelA": "-3 .",
+        "labelB": "3 .",
+        "labelC": "%(\\frac{1}{3})%.",
+        "labelD": "%(-\\frac{1}{3})%.",
+        "correct_label": "labelC",
+        "solution": "Ta có %(M=\\log _{a^{2}} a=\\frac{1}{3} \\log _{a} a=\\frac{1}{3})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 6 ",
+        "point": 0.25,
+        "content": "Cho %(\\log _{2} 3=a)%. Khi đó %(\\log _{3} 18)% tính theo %(a)% là",
+        "question_images": [],
+        "labelA": "%(\\frac{a}{2 a+1})%.",
+        "labelB": "%(\\frac{2 a+1}{a})%.",
+        "labelC": "%(2 a+1)%.",
+        "labelD": "%(\\frac{a+1}{a})%.",
+        "correct_label": "labelB",
+        "solution": "Ta có %(\\log _{3} 18=\\log _{3} 9+\\log _{3} 2=2+\\log _{3} 2=2+\\frac{1}{\\log _{2} 3}=2+\\frac{1}{a}=\\frac{2 a+1}{a})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 7 ",
+        "point": 0.25,
+        "content": "Cho hàm số %(y=(\\sqrt{2})^{x})%. Khẳng định nào sau đây là đúng?",
+        "question_images": [],
+        "labelA": "Hàm số có tập giá trị là %(\\mathbb{R})%.",
+        "labelB": "Đồ thị hàm số đi qua điểm %((2 ; 1))%.",
+        "labelC": "Hàm số đồng biến trên %(\\mathbb{R})%.",
+        "labelD": "%(\\lim _{x \\rightarrow+\\infty}(\\sqrt{2})^{x}=0)%.",
+        "correct_label": "labelC",
+        "solution": "Vì cơ số %(a=\\sqrt{2}\\gt 1)% nên hàm số đồng biến trên %(\\mathbb{R})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 8  ",
+        "point": 0.25,
+        "content": "Có tất cả bao nhiêu giá trị nguyên của tham số %(m)% để hàm số %(y=\\ln \\left(x^{2}-2 x+10-m^{2}\\right))% xác định với mọi %(x \\in \\mathbb{R})%.",
+        "question_images": [],
+        "labelA": "5",
+        "labelB": "7",
+        "labelC": "4",
+        "labelD": "0",
+        "correct_label": "labelA",
+        "solution": "Hàm số %(y=\\ln \\left(x^{2}-2 x+10-m^{2}\\right))% xác định với mọi %(x \\in \\mathbb{R} \\Leftrightarrow x^{2}-2 x+10-m^{2}\\gt 0 \\quad \\forall x \\in \\mathbb{R})%<br>\\[\\Leftrightarrow\\left\\{\\begin{array} { l } { a > 0 } \\\\{ \\Delta ^ { \\prime } \\lt 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}1>0 \\\\1-\\left(10-m^{2}\\right)\\lt 0\\end{array} \\Leftrightarrow m^{2}-9\\lt 0 \\Leftrightarrow-3\\lt m\\lt 3 .\\right.\\right.\\]<br>Do %(m)% nguyên nên ta có 5 giá trị của %(m)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 9 ",
+        "point": 0.25,
+        "content": "Cho tứ diện đều %(A B C D)% (Tứ diện có tất cả các cạnh bằng nhau). Số đo góc giữa hai đường thẳng %(A B)% và %(C D)% bằng",
+        "question_images": [],
+        "labelA": "%(30^{\\circ})%.",
+        "labelB": "%(45^{\\circ})%.",
+        "labelC": "%(60^{\\circ})%.",
+        "labelD": "%(90^{\\circ})%.",
+        "correct_label": "labelD",
+        "solution": "Gọi %(H)% là tâm đường tròn ngoại tiếp %(\\triangle B C D \\Rightarrow A H \\perp(B C D))%.<br>Gọi %(E)% là trung điểm %(C D \\Rightarrow B E \\perp C D)% (do %(\\triangle B C D)% đều).<br>Do %(A H \\perp(B C D) \\Rightarrow A H \\perp C D)%.<br>Ta có: %(\\left\\{\\begin{array}{l}C D \\perp B E \\\\ C D \\perp A H\\end{array} \\Rightarrow C D \\perp(A B E) \\Rightarrow C D \\perp A B \\Rightarrow(A B, C D)=90^{\\circ}\\right.)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ec6b7cd6fd4fb148c82a3debbde0f34d.png\" srcset=\"https://docdn.giainhanh.io/media/test/ec6b7cd6fd4fb148c82a3debbde0f34d.png 185w\" width=\"185\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 10 ",
+        "point": 0.25,
+        "content": "Khẳng định nào sau đây sai?",
+        "question_images": [],
+        "labelA": "Nếu đường thẳng %(d)% vuông góc với mặt phẳng %((\\alpha))% thì %(d)% vuông góc với hai đường thẳng trong mặt phẳng %((\\alpha))%.",
+        "labelB": "Nếu đường thẳng %(d)% vuông góc với hai đường thẳng nằm trong mặt phẳng %((\\alpha))% thì %(d)% vuông góc với mặt phẳng %((\\alpha))%.",
+        "labelC": "Nếu đường thẳng %(d)% vuông góc với hai đường thẳng cắt nhau nằm trong mặt phẳng %((\\alpha))% thì %(d)% vuông góc với bất kỳ đường thẳng nào nằm trong mặt phẳng %((\\alpha))%.",
+        "labelD": "Nếu %(d \\perp(\\alpha))% và đường thẳng %(\\mathrm{a} / /(\\alpha))% thì %(d \\perp a)%.",
+        "correct_label": "labelB",
+        "solution": "Nếu đường thẳng %(d)% vuông góc với hai đường thẳng cắt nhau nằm trong mặt phẳng %((\\alpha))% thì %(d)% vuông góc với bất kỳ đường thẳng nào nằm trong mặt phẳng %((\\alpha))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 11 ",
+        "point": 0.25,
+        "content": "Cho hình chóp %(S . A B C)% có %(S A)% vuông với đáy. Xác định góc giữa %(S C)% và %((A B C))%.",
+        "question_images": [],
+        "labelA": "%(\\widehat {S A C})%.",
+        "labelB": "%(\\widehat {S C A})%.",
+        "labelC": "%(\\widehat {A S C})%.",
+        "labelD": "%(\\widehat {S C B})%.",
+        "correct_label": "labelB",
+        "solution": "Ta có %(\\left\\{\\begin{array}{l}S A \\perp(A B C) \\\\ S C \\cap(A B C)=C\\end{array}\\right.)%<br>%(\\Rightarrow A C)% là hình chiếu của %(S C)% trên %((A B C))%.<br>Do đó %((S C,(A B C))=(S C, A C)=\\widehat {S C A})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a2b5503189caf1d43828ad3ca6dec4b3.png\" srcset=\"https://docdn.giainhanh.io/media/test/a2b5503189caf1d43828ad3ca6dec4b3.png 157w\" width=\"157\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 12 ",
+        "point": 0.25,
+        "content": "Cho hình chóp %(S \\cdot A B C D)% có đáy là hình vuông tâm %(O)% cạnh %(a, S A=a)% và vuông góc với đáy. Tính góc giữa %(S B)% và %((S A C))%.",
+        "question_images": [],
+        "labelA": "%(30^{\\circ})%.",
+        "labelB": "%(45^{\\circ})%.",
+        "labelC": "%(60^{\\circ})%.",
+        "labelD": "%(90^{\\circ})%.",
+        "correct_label": "labelA",
+        "solution": "Ta có %(\\left\\{\\begin{array}{l}B O \\perp A C \\\\ B O \\perp S A\\end{array} \\Rightarrow B O \\perp(S A C)(1)\\right.)%<br>Mà %(S B \\cap(S A C)=S)%<br>Từ (1) và (2) %(\\Rightarrow S O)% là hình chiếu của %(S B)% lên %((S A C))%.<br>Do đó %((S B,(S A C))=(S B, S O))%.<br>Ta có %(B O=\\frac{B D}{2}=\\frac{A B \\sqrt{2}}{2}=\\frac{a \\sqrt{2}}{2})%.<br>Mặt khác %(S B=\\sqrt{S A^{2}+A B^{2}}=a \\sqrt{2})%.<br>Trong tam giác %(S O B)% vuông tại %(O)%, ta có %(\\sin \\widehat {B S O}=\\frac{B O}{S B}=\\frac{1}{2} \\Rightarrow \\widehat {B S O}=30^{\\circ})%.<br>Vậy %((S B,(S A C))=\\widehat {B S O}=30^{\\circ})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ea02d91aeed5d044a64c512e19e47527.png\" srcset=\"https://docdn.giainhanh.io/media/test/ea02d91aeed5d044a64c512e19e47527.png 186w\" width=\"186\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 17 ",
+        "point": 0.5,
+        "content": "Cho hai số thực dương %(a, b)%. Rút gọn biểu thức %(A=\\frac{a^{\\frac{1}{3}} \\sqrt{b}+b^{\\frac{1}{3}} \\sqrt{a}}{\\sqrt[6]{a}+\\sqrt[6]{b}})% ta thu được %(A=a^{m} . b^{n})%. Khi đó %(\\frac{m}{n})% là bao nhiêu?",
+        "question_images": [],
+        "solution": "Ta có %(A=\\frac{a^{\\frac{1}{3}} \\sqrt{b}+b^{\\frac{1}{3}} \\sqrt{a}}{\\sqrt[6]{a}+\\sqrt[6]{b}}=\\frac{a^{\\frac{1}{3}} \\cdot b^{\\frac{1}{2}}+b^{\\frac{1}{3}} \\cdot a^{\\frac{1}{2}}}{a^{\\frac{1}{6}}+b^{\\frac{1}{6}}}=\\frac{a^{\\frac{1}{3}} \\cdot b^{\\frac{1}{3}}\\left(b^{\\frac{1}{6}}+a^{\\frac{1}{6}}\\right)}{a^{\\frac{1}{6}}+b^{\\frac{1}{6}}}=a^{\\frac{1}{3}} \\cdot b^{\\frac{1}{3}} \\Rightarrow m=\\frac{1}{3}, n=\\frac{1}{3} \\Rightarrow \\frac{m}{n}=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 18 ",
+        "point": 0.5,
+        "content": "Một hộp chứa 52 chiếc thẻ được đánh số từ %(1,2,3, \\ldots, 52)% (mỗi thẻ đánh một số). Chọn ngẫu nhiên một chiếc thẻ trong hộp. Gọi biến cố %(A)% : \"Chọn được thẻ có đánh số chia hết cho 3 \" và biến cố %(B)% : \"Chọn được thẻ có đánh số chia hết cho 4 \". Biến cố %(A \\cap B)% có bao nhiêu phần tử?",
+        "question_images": [],
+        "solution": "Ta có %(A=\\{3,6,9,12, \\ldots, 45,48,51\\})%;<br>\\[B=\\{4 ; 8 ; 12 ; \\ldots ; 44,48,52\\}\\]<br>Khi đó %(A \\cap B)% là tập hợp gồm các phần tử chia hết cho 12 ( vì 3 và 4 là hai số nguyên tố cùng nhau).<br>Do đó %(A \\cap B=\\{12,24,36,48\\})%.<br>Vậy %(A \\cap B=\\{12,24,36,48\\})% có 4 phần tử.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 19 ",
+        "point": 0.5,
+        "content": "Ông A gửi 300 triệu đồng vào ngân hàng theo hình thức lãi kép trong một thời gian khá lâu với lãi suất ổn định trong suốt thời gian tiết kiệm là %(5 \\% / 1)% năm. Sau khi rút cả vốn lẫn lãi, ông trích ra 30 triệu đồng để mua sắm. Tính thời gian tối thiểu ông A gửi tiết kiệm để sau khi mua sắm ông còn ít nhất 350 triệu đồng?",
+        "question_images": [],
+        "solution": "Số tiền tối thiểu ông A đã nhận được là 380 triệu.<br>Giả sử ông A đã gửi tiết kiệm trong %(n)% năm.<br>Theo công thức lãi suất kép, ta có: %(380 \\cdot 10^{6}=300 \\cdot 10^{6}(1+0,05)^{n} \\Leftrightarrow n=\\log _{1,05} \\frac{380}{300} \\Leftrightarrow n \\approx 4.85)%.<br>Vậy, ông %(A)% đã gửi tiết kiệm ít nhất trong 5 năm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 20 ",
+        "point": 0.5,
+        "content": "Cho hình chóp %(S . A B C)% có %(S A \\perp(A B C))%. Tam giác %(A B C)% vuông tại %(A, \\widehat {A B C}=30^{\\circ})%, %(A C=a, S A=\\frac{a \\sqrt{3}}{2})%. Tính số đo góc phẳng nhị diện %([S, B C, A])%.",
+        "question_images": [],
+        "solution": "Dựng %(A H \\perp B C)%.<br>Ta có %(\\left\\{\\begin{array}{l}B C \\perp A H \\\\ B C \\perp S A\\end{array} \\Rightarrow B C \\perp(S A H)\\right.)%.<br>Mà %(S H \\subset(S A H))%, nên %(B C \\perp S H)%.<br>Ta có %(\\left\\{\\begin{array}{l}S H \\perp B C \\\\ A H \\perp B C\\end{array} \\Rightarrow S H A\\right.)% là góc phẳng nhị diện %([S, B C, A])%.<br>Ta có %(\\widehat {A C B}=90^{\\circ}-\\widehat {A B C}=60^{\\circ})%.<br>Trong tam giác %(A H C)% vuông tại %(H)% có %(\\sin \\widehat {A C B}=\\frac{A H}{A C} \\Rightarrow A H=A C \\cdot \\sin 60^{\\circ}=\\frac{a \\sqrt{3}}{2})%.<br>Trong tam giác %(S A H)% vuông tại %(A)% có %(\\tan \\widehat {S H A}=\\frac{S A}{A H}=1 \\Rightarrow \\widehat {S H A}=45^{\\circ})%.<br>Vậy %(\\widehat {S H A}=45^{\\circ})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d6b7103e47699bced8caae4bb242ebc8.png\" srcset=\"https://docdn.giainhanh.io/media/test/d6b7103e47699bced8caae4bb242ebc8.png 162w\" width=\"162\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 21 ",
+        "point": 0.5,
+        "content": "Cho hình chóp %(S \\cdot A B C D)% có đáy là hình vuông cạnh %(a, S A)% vuông góc với đáy và %(S A=\\frac{a \\sqrt{6}}{2})%. Góc giữa hai mặt phẳng %((S B D))% và %((A B C D))% bằng",
+        "question_images": [],
+        "solution": "Gọi %(O)% là giao điểm của %(A C)% và %(B D)%.<br>Suy ra %(B D \\perp A O)%.<br>Vì %(\\left\\{\\begin{array}{l}B D \\perp A C \\\\ B D \\perp S A\\end{array} \\Rightarrow B D \\perp(S A C)\\right.)%.<br>Mà %(S O \\subset(S A C))% suy ra %(B D \\perp S O)%.<br>Ta có %(\\left\\{\\begin{array}{l}B D=(S B D) \\cap(A B C D) \\\\ S O \\subset(S B D), S O \\perp B D \\\\ A O \\subset(A B C D), A O \\perp B D\\end{array} \\Rightarrow((S B D),(A B C D))=(S O, A O)=\\widehat {S O A}\\right.)%.<br>Vì %(A B C D)% là hình vuông cạnh %(a)% nên có %(A C=a \\sqrt{2} ; A O=\\frac{A C}{2}=\\frac{a \\sqrt{2}}{2})%.<br>Xét tam giác %(S A O)% vuông tại %(A)% có %(\\tan \\widehat {S O A}=\\frac{S A}{A O}=\\frac{a \\sqrt{6}}{2}: \\frac{a \\sqrt{2}}{2}=\\sqrt{3} \\Rightarrow \\widehat {S O A}=60^{\\circ})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/906048261676d3669ecc3c8ed48a6691.png\" srcset=\"https://docdn.giainhanh.io/media/test/906048261676d3669ecc3c8ed48a6691.png 193w\" width=\"193\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 22 ",
+        "point": 0.5,
+        "content": "Cho một khối lăng trụ lục giác đều %(M N P Q R S \\cdot M^{\\prime} N^{\\prime} P^{\\prime} Q^{\\prime} R^{\\prime} S^{\\prime})% có thể tích bằng %(810 \\sqrt{3} \\mathrm{~cm}^{3})% và độ dài cạnh đáy là 6 cm nội tiếp trong một khối hộp chữ nhật %(A B C D \\cdot A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime})% ' (hai đáy lăng trụ nội tiếp hai đáy khối hộp, minh họa đáy dưới %(M N P Q R S)% nội tiếp đáy dưới hộp %(A B C D)% như hình dưới đây). Tính tan góc giữa %(A^{\\prime} B)% và mặt phẳng %(B C C^{\\prime})%.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/219be451c7df7caac580690294c40a19.PNG"
+        ],
+        "solution": "Gọi %(O)% tâm lục giác đều %(M N P Q R S)%, khi đó %(S_{M N P Q R S}=6 S_{M N O}=6 \\frac{6^{2} \\sqrt{3}}{4}=54 \\sqrt{3}\\left(\\mathrm{~cm}^{2}\\right))%.<br>Suy ra chiều cao của khối lăng trụ lục giác đều là %(15(\\mathrm{~cm}))%.<br>Ta có %(A^{\\prime} B^{\\prime} \\perp\\left(B C C^{\\prime}\\right))% nên %(B^{\\prime})% là hình chiếu của %(A^{\\prime})% trên %(\\left(B C C^{\\prime}\\right))%.<br>Khi đó %(\\left(A^{\\prime} B,\\left(B C C^{\\prime}\\right)\\right)=\\left(A^{\\prime} B, B B^{\\prime}\\right)=\\widehat {A^{\\prime} B B^{\\prime}})%<br>Tam giác %(A^{\\prime} B B^{\\prime})% vuông tại %(B^{\\prime})% nên %(\\tan \\widehat {A^{\\prime} B B^{\\prime}}=\\frac{A^{\\prime} B^{\\prime}}{B B^{\\prime}}=\\frac{12}{15}=\\frac{4}{5}=0,8)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e80f028adea539f99eefbaaed7a1a37f.png\" srcset=\"https://docdn.giainhanh.io/media/test/e80f028adea539f99eefbaaed7a1a37f.png 174w\" width=\"174\"/>",
+        "question_type": "essay"
+    }
+]

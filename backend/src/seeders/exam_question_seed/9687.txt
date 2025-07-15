@@ -1,0 +1,56 @@
+[
+    {
+        "title": "1",
+        "group_content": "Tính các nguyên hàm sau:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) %(A=\\int\\left(3 x^{2}+2 x+1\\right) d x)%",
+        "question_images": [],
+        "solution": "%(A=x^{3}+x^{2}+x+C)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) %(B=\\int x \\cdot e^{x} d x)%",
+        "question_images": [],
+        "solution": "Đặt %(\\left\\{\\begin{array}{l}u=x \\\\ d v=e^{x} d x\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}d u=d x \\\\ v=e^{x}\\end{array}\\right.\\right.)%<br>Suy ra:<br>\\[\\begin{aligned}B & =x \\cdot e^{x}-\\int e^{x} d x \\\\& =x \\cdot e^{x}-e^{x}+C\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Tính các tích phân sau:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) %(I=\\int_{0}^{1} x(x-1)^{8} d x)%",
+        "question_images": [],
+        "solution": "Đặt %(u=x-1 \\Rightarrow\\left\\{\\begin{array}{l}d u=d x \\\\ x=u+1\\end{array}\\right.)%<br>Đổi cận:<br>Suy ra:<br>%(\\begin{aligned} I=\\int_{-1}^{0}(u+1) u^{8} d u= & \\int_{-1}^{0}\\left(u^{9}+u^{8}\\right) d u \\\\ & =\\left.\\left(\\frac{u^{10}}{10}+\\frac{u^{9}}{9}\\right)\\right|_{-1} ^{0} \\\\ & =\\frac{1}{90}\\end{aligned})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/80957847929018105dd006438fe84761.png\" srcset=\"https://docdn.giainhanh.io/media/test/9ca18c6a3ed64828beffd6a299bba6a4.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) %(J=\\int_{1}^{2} x \\cdot \\ln x)%",
+        "question_images": [],
+        "solution": "Đặt %(\\left\\{\\begin{array}{l}u=\\ln x \\\\ d v=x d x\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}d u=\\frac{1}{x} d x \\\\ v=\\frac{x^{2}}{2}\\end{array}\\right.\\right.)%<br>Suy ra:<br>\\[\\begin{aligned}B & =\\left.\\frac{x^{2}}{2} \\cdot \\ln x\\right|_{1} ^{2}-\\int_{1}^{2} \\frac{x}{2} d x \\\\& =\\left.\\frac{x^{2}}{2} \\cdot \\ln x\\right|_{1} ^{2}-\\left.\\frac{x^{2}}{4}\\right|_{1} ^{2} \\\\& =2 \\ln 2-\\frac{3}{4}\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Tính diện tích hình phẳng được giới hạn bời đồ thị của hàm số %(y=4 x^{3})%, trục hoành và các đường thẳng %(\\mathrm{x}=-1, \\mathrm{x}=2)%",
+        "question_images": [],
+        "solution": "Ta có: %(4 x^{3} \\leq 0)% trên đoạn %([-1 ; 0])% và %(4 x^{3} \\geq 0)% trên đoạn %([0 ; 2])%<br>Áp dụng công thức:<br>\\[\\begin{aligned}S=\\int_{-1}^{2}\\left|4 x^{3}\\right| d x & =\\int_{-1}^{0}\\left(-4 x^{3}\\right) d x+\\int_{0}^{2} 4 x^{3} d x \\\\& =-\\left.x^{4}\\right|_{-1} ^{0}+\\left.x^{4}\\right|_{0} ^{2}=17\\end{aligned}\\]",
+        "question_type": "essay"
+    }
+]

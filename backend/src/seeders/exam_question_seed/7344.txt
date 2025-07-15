@@ -1,0 +1,95 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Không sử dụng máy tính cầm tay, rút gọn biểu thức:<br>%(A = \\frac{4}{\\sqrt{6} + \\sqrt{2}} + 2 \\sqrt{2 + \\sqrt{2} + \\sqrt{5 - \\sqrt{24}}} .)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=\\frac{4}{\\sqrt{6}+\\sqrt{2}}+2 \\sqrt{2+\\sqrt{2}+\\sqrt{5-\\sqrt{24}}} \\\\ =\\frac{4(\\sqrt{6}-\\sqrt{2})}{(\\sqrt{6}+\\sqrt{2})(\\sqrt{6}-\\sqrt{2})}+2 \\sqrt{2+\\sqrt{2}+\\sqrt{(\\sqrt{3}-\\sqrt{2})^{2}}} \\\\ =\\sqrt{6}-\\sqrt{2}+2 \\sqrt{2+\\sqrt{2}+\\sqrt{3}-\\sqrt{2}} \\\\ =\\sqrt{6}-\\sqrt{2}+2 \\sqrt{2+\\sqrt{3}} \\\\ =\\sqrt{6}-\\sqrt{2}+\\sqrt{2} \\sqrt{4+2 \\sqrt{3}} \\\\ =\\sqrt{6}-\\sqrt{2}+\\sqrt{2} \\sqrt{(\\sqrt{3}+1)^{2}} \\\\ =\\sqrt{6}-\\sqrt{2}+\\sqrt{2}(\\sqrt{3}+1) \\\\ =\\sqrt{6}-\\sqrt{2}+\\sqrt{6}+\\sqrt{2}=2 \\sqrt{6} .\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các giá trị nguyên của tham số %(m)% sao cho phương trình %(x^{3}-(m-1) x^{2}-2 x+2 m-9=0)% có nghiệm nguyên.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Ta có: } x^{3}-(m-1) x^{2}-2 x+2 m-9=0 \\\\Leftrightarrow\\left(x^{3}-2 x\\right)-\\left[(m-1) x^{2}-2(m-1)\\right]=7 \\\\Leftrightarrow\\left(x^{2}-2\\right)(x-m+1)=7\\end{array}\\begin{array}{l}\\text { Ta có: } x^{3}-(m-1) x^{2}-2 x+2 m-9=0 \\\\Leftrightarrow\\left(x^{3}-2 x\\right)-\\left[(m-1) x^{2}-2(m-1)\\right]=7 \\\\Leftrightarrow\\left(x^{2}-2\\right)(x-m+1)=7\\end{array}\\]<br>Vì %(7=1.7=(-1) \\cdot(-7))% nên để phương trình có nghiệm nguyên thì có thể xảy ra các trường hợp sau:<br>Trường hợp 1: %(\\left\\{\\begin{array}{l}x^{2}-2=1 \\\\ x-m+1=7\\end{array}\\right.)%<br>Vậy %(m=-6+\\sqrt{3}, m=-6-\\sqrt{3})% không thỏa mãn yêu cầu bài toán.<br>Trường hợp 2: %(\\left\\{\\begin{array}{l}x^{2}-2=7 \\\\ x-m+1=1\\end{array}\\right.)%Vậy %(m=3, m=-3)% thỏa mãn yêu cầu bài toán.<br>Trưò̀ng hợp 3: %(\\left\\{\\begin{array}{l}x^{2}-2=-1 \\\\ x-m+1=-7\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}m=x+8 \\\\ {\\left[\\begin{array}{l}x=1 \\\\ x=-1\\end{array}\\right.}\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}m=9 \\\\ x=1\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}m=7 \\\\ x=-1\\end{array}\\right.\\end{array}\\right.\\right.\\right.)%<br>Vậy %(m=7, m=9)% thỏa mãn yêu cầu bài toán.<br>Trường hợp 4: %(\\left\\{\\begin{array}{l}x^{2}-2=-7 \\\\ x-m+1=-1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x^{2}=-5 \\\\ m=x+2\\end{array}\\right.\\right.)%.<br>Trường hợp này, không có giá trị %(m)% thỏa mãn yêu cầu bài toán.<br>Tóm lại %(m=-3, m=3, m=7, m=9)% là tất cả các giá trị nguyên của tham số %(m)% để phương trình đã cho có nghiệm nguyên.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng %(2025^{n}+n^{2}+2024 n+5)% không phải là số chính phương với mọi số tự nhiên %(n)%.",
+        "question_images": [],
+        "solution": "Ta có nhận xét sau:<br>Một số chính phương sẽ có dạng %(4 k)% hoặc %(4 k+1)% với %(k \\in \\mathbb{N})%.<br>Vì 2025 chia cho 4 dư 1 nên %(2025^{n})% chia cho 4 dư 1 (với mọi số tự nhiên %(n)% ).%(2024 n)% chia hết cho 4 (với mọi số tự nhiên %(n)% ).5 chia cho 4 dư 1 .<br>Vì %(n^{2})% là số chính phương nên xảy ra các trường hợp sau:<br>Trường hợp 1: %(n^{2})% chia hết cho 4 .Khi đó, %(2025^{n}+n^{2}+2024 n+5)% chia cho 4 dư 2 .<br>Theo nhận xét trên thì %(2025^{n}+n^{2}+2024 n+5)% không phải là số chính phương.<br>Trường hợp 2: %(n^{2})% chia cho 4 dư 1 .Khi đó, %(2025^{n}+n^{2}+2024 n+5)% chia cho 4 dư 3 .<br>Theo nhận xét trên thì %(2025^{n}+n^{2}+2024 n+5)% không phải là số chính phương.<br>Tóm lại %(2025^{n}+n^{2}+2024 n+5)% không phải là số chính phương với mọi số tự nhiên %(n)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho tập hợp %(S)% gồm có 18 số tự nhiên khác nhau bất kỳ.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Lấy ra 5 phần tử bất kỳ của tập hợp %(S)%. Chứng minh rằng trong 5 phần tử lấy ra đó luôn tồn tại 3 phần tử có tổng chia hết cho 3 .",
+        "question_images": [],
+        "solution": "Một số tự nhiên bất kỳ khi chia cho 3 sẽ có số dư là một trong các số: %(0 ; 1 ; 2)%.<br>Theo nguyên lý Dirichlet, trong 5 phần tử bất kỳ của tập hợp %(S)% khi chia cho 3 sẽ có ít nhất 2 số có cùng số dư. Khi đó, có thể xảy ra các trường hợp sau:<br>Trường hợp 1:<br>Có 2 số chia cho 3 có cùng số dư %(r_{1}, 2)% số chia cho 3 có cùng số dư %(r_{2})% và 1 số chia cho 3 có số dư %(r_{3})%.<br>Trong đó %(r_{1}, r_{2}, r_{3})% là 3 số đôi một khác nhau và %(r_{1}+r_{2}+r_{3}=3)%.<br>Khi đó, chọn ra 3 số gồm: 1 số chia cho 3 có số dư %(r_{1}, 1)% số chia cho 3 có số dư %(r_{2})% và 1 số chia cho 3 có số dư %(r_{3})%.<br>Tổng của 3 số đó chia hết cho 3 .<br>Trường hợp 2:<br>Có ít nhất 3 số khi chia cho 3 có cùng số dư.Khi đó, luôn lấy ra được 3 số mà khi chia cho 3 có cùng số dư.<br>Tổng của 3 số đó chia hết cho 3 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh rằng luôn tồn tại 9 phần tử của tập hợp %(S)% có tổng chia hết cho 9 .",
+        "question_images": [],
+        "solution": "Chia tập hợp %(S)% thành 3 tập hợp con là:<br>Tập hợp %(S_{1})% có 5 phần tử, %(S_{2})% có 5 phần tử, %(S_{3})% có 8 phần tử %(\\left(S_{1}, S_{2}, S_{3}\\right.)% đôi một không có phần tử chung).<br>Theo ý a, ta có:<br>Trong %(S_{1})% ta lấy ra được 3 phần tử có tổng chia hết cho 3 .<br>Kí hiệu là %(a_{1}, a_{2}, a_{3})%.<br>Trong %(S_{2})% ta lấy ra được 3 phần tử có tổng chia hết cho 3 .<br>Kí hiệu là %(a_{4}, a_{5}, a_{6})%.<br>Trong %(S_{3})% ta lấy ra được 3 phần tử có tổng chia hết cho 3 .<br>Kí hiệu là %(a_{7}, a_{8}, a_{9})%.Số phần tử còn lại của các tập hợp %(S_{1}, S_{2}, S_{3})% là: 9 phần tử.<br>Trong 9 phần tử đó, ta lấy ra được 3 phần tử có tổng chia hết cho 3 .<br>Kí hiệu là %(a_{10}, a_{11}, a_{12})%.<br>Trong 6 phần tử còn lại, ta lấy ra được 3 phần tử có tống chia hết cho 3 .Kí hiệu là %(a_{13}, a_{14}, a_{15})%.<br>Giả sử %(a_{1}+a_{2}+a_{3}=3 n_{1} ; a_{4}+a_{5}+a_{6}=3 n_{2} ; a_{7}+a_{8}+a_{9}=3 n_{3})%;<br>%(a_{10}+a_{11}+a_{12}=3 n_{4} ; a_{13}+a_{14}+a_{15}=3 n_{5} \\text { với } n_{1}, n_{2}, n_{3}, n_{4}, n_{5} \\in \\mathbb{N} \\text {. })%<br>Trong 5 số tự nhiên %(n_{1}, n_{2}, n_{3}, n_{4}, n_{5})% (có thể có các số bằng nhau) ta lấy được 3 số có tổng chia hết cho 3 .<br>Không mất tính tổng quát, giả sử 3 số đó là %(n_{1}, n_{2}, n_{3})%.Ta có: %(n_{1}+n_{2}+n_{3}=3 k(k \\in \\mathbb{N}))%.<br>Khi đó %(a_{1}+a_{2}+a_{3}+a_{4}+a_{5}+a_{6}+a_{7}+a_{8}+a_{9}=3\\left(n_{1}+n_{2}+n_{3}\\right)=9 k)% chia hết cho 9 (điều phải chứng minh).",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho tam giác %(A B C)% vuông tại %(A)% có đường cao %(A H)%. Trên đoạn thẳng %(A B)% lấy điểm %(K)% sao cho %(A B=4 A K)%. Trên tia đối của tia %(H A)% lấy điểm %(I)% sao cho %(H I=\\frac{1}{4} A H)%. Kẻ %(K P)% vuông góc với đường thẳng %(A H(P \\in A H))%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a. %(A H=P I)%;",
+        "question_images": [],
+        "solution": "Ta có %(\\left\\{\\begin{array}{l}K P \\perp A H \\text { (gt) } \\\\ B C \\perp A H \\text { (gt) }\\end{array}\\right.)% suy ra %(P K / / B C)%.<br>Áp dụng Định lý Ta-lét ta có: %(\\frac{A K}{A B}=\\frac{A P}{A H}=\\frac{1}{4})%.<br>Theo giả thiết %(\\frac{H I}{A H}=\\frac{1}{4})%.<br>Từ (1), (2) suy ra %(A P=H I)%.<br>Mặt khác %(P I=P H+H I, A H=A P+P H)% do đó %(P I=A H)%.<br><img alt=\"https://docdn.giainhanh.io/media/test/f37c9093d15ea3c3e5bd2d4e86bcfcff.PNG\" src=\"https://docdn.giainhanh.io/media/test/f37c9093d15ea3c3e5bd2d4e86bcfcff.PNG\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b. Tam giác %(I K C)% vuông tại %(I)%.",
+        "question_images": [],
+        "solution": "Vî %(\\left\\{\\begin{array}{l}C H A=A P K=90^{\\circ} \\\\ P K A=C A H \\text { (hai góc cùng phụ với } H A B \\text { ) }\\end{array}\\right.)% nên tam giác %(A P K)% đồng dạng với tam giác %(C H A)% (g.g)<br>suy ra %(\\frac{P K}{A H}=\\frac{A K}{A C} \\Rightarrow \\frac{P K}{P I}=\\frac{A K}{A C})%.<br>Vì %(\\left\\{\\begin{array}{l}\\frac{P K}{P I}=\\frac{A K}{A C} \\\\ C A K=I P K=90^{\\circ}\\end{array}\\right.)% nên tam giác %(A C K)% đồng dạng với tam giác %(P I K)%.<br>Suy ra %(A C K=P I K=A I K)%.<br>Suy ra tứ giác %(A C I K)% nội tiếp được trong một đường tròn.Ta có %(C A K+C I K=180^{\\circ})%.<br>Mặt khác %(C A K=90^{\\circ})% nên %(C I K=90^{\\circ})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho tam giác %(A B C)% có ba góc nhọn nội tiếp đường tròn %((O))%. Kẻ %(B E)% vuông góc với %(A C)% tại điểm %(E, C F)% vuông góc với %(A B)% tại điểm %(F)%. Các đường thẳng %(B E, C F)% lần lượt cắt đường tròn %((O))% tại hai điểm %(P, Q(P \\neq B, Q \\neq C))%. Tiếp tuyến của đường tròn %((O))% tại các điểm %(B, C)% cắt đường thẳng %(E F)% lần lượt tại các điểm %(M, N)%. Đường thẳng %(N P)% cắt đường tròn %((O))% tại điểm %(K(K \\neq P))%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a. Tam giác %(N C E)% là tam giác cân;",
+        "question_images": [],
+        "solution": "Ta có %(N C E=N C A=A B C=\\frac{1}{2})% sđ %(A C)% ( 1 )<br>Vì %(B F C=B E C=90^{\\circ})% nên tứ giác %(B C E F)% nội tiếp được trong một đường tròn.<br>Suy ra %(N E C=F B C=A B C)%. ( 2 )<br>Từ (1) và (2) suy ra %(N E C=N C E)%, từ đó ta có tam giác %(N E C)% cân tại %(N)%.<br><img alt=\"https://docdn.giainhanh.io/media/test/b1b35e5ab0a9a963a8c894fe8a37ae29.PNG\" src=\"https://docdn.giainhanh.io/media/test/b1b35e5ab0a9a963a8c894fe8a37ae29.PNG\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b. Các điểm %(M, Q, K)% thẳng hàng.",
+        "question_images": [],
+        "solution": "Do tam giác %(N E C)% cân tại %(N)% nên %(N C=N E)%.<br>Vì %(\\left\\{\\begin{array}{l}P N C=K N C \\\\ N C P=N K C=\\frac{1}{2} \\text { sđ } P C\\end{array}\\right.)%nên tam giác %(N P C)% đồng dạng với tam giác %(N C K)%.<br>Suy ra %(\\frac{N C}{N K}=\\frac{N P}{N C} \\Leftrightarrow N C^{2}=N P . N K \\Leftrightarrow N E^{2}=N P . N K \\Leftrightarrow \\frac{N E}{N P}=\\frac{N K}{N E})%.<br>Vì %(\\left\\{\\begin{array}{l}P N E=K N E \\\\ \\frac{N E}{N P}=\\frac{N K}{N E}\\end{array}\\right.)% nên tam giác %(N P E)% đồng dạng với tam giác %(N E K)%.<br>Suy ra %(N P E=N E K)%.<br>Suy ra %(K P E=K E F)%.<br>Do đó %(K E F=K P B=K A B=K A F)%.<br>Suy ra tứ giác %(A E F K)% nội tiếp được trong một đường tròn.<br>Do đó %(K)% là một giao điểm của đường tròn ngoại tiếp tam giác %(A E F)% với đường tròn %((O))%. ( 3 )<br>Giả sử %(M Q)% cắt đường tròn %((O))% tại %(H)%.<br>Chứng minh tương tự, ta suy ra được tứ giác %(A E F H)% nội tiếp được trong một đường tròn.<br>Suy ra %(H)% là một giao điểm của đường tròn ngoại tiếp tam giác %(A E F)% với đường tròn %((O))%. ( 4 )<br>Từ (3) và (4) suy ra %(H \\equiv K)%, hay %(M, Q, K)% thẳng hàng.",
+        "question_type": "essay"
+    }
+]

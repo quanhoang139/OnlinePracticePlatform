@@ -1,0 +1,50 @@
+[
+    {
+        "title": "1 ",
+        "point": 3.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}2 x^{2}+x y-y^{2}=5 x-y-2 \\\\ x^{2}+y^{2}+x+y=4\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Từ %(2 x^{2}+x y-y^{2}=5 x-y-2 \\Leftrightarrow(x+y-2)(2 x-y-1)=0)%<br>%(\\mathrm{TH1})% : %(\\mathrm{x}+\\mathrm{y}-2=0)% thế vào pt còn lại của hệ : %(\\mathrm{xy}=1 \\Rightarrow \\mathrm{x}=\\mathrm{y}=1)%<br>%(\\mathrm{TH} 2)% : %(\\mathrm{y}=2 \\mathrm{x}-1)% thế vào pt còn lại của hệ : %(5 \\mathrm{x}^{2}-\\mathrm{x}-4=0)%<br>\\[\\Rightarrow\\left\\{\\begin{array} { l } { x = 1 } \\\\{ y = 1 }\\end{array} \\vee \\left\\{\\begin{array}{l}x=-\\frac{4}{5} \\y=-\\frac{13}{5}\\end{array}\\right.\\right.\\]<br>Vậy nghiệm của hệ %((1 ; 1),\\left(\\frac{-4}{5} ; \\frac{-13}{5}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 3.0,
+        "content": "Giải phương trình: %(\\sin ^{3} x+\\cos ^{3} x-\\sqrt{3} \\sin 2 x(\\sin x-\\cos x)=\\sin x \\cos x(\\sin x+\\cos x))%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\sin ^{3} x+\\cos ^{3} x-\\sqrt{3} \\sin 2 x(\\sin x-\\cos x)=\\sin x \\cos x(\\sin x+\\cos x) \\\\ \\text { TH1: } \\cos x=0 \\Rightarrow \\sin x=0 \\text { (L) } \\\\ \\text { TH2: } \\cos x \\neq 0 \\\\ \\sin ^{3} x+\\cos ^{3} x-\\sqrt{3} \\sin 2 x(\\sin x-\\cos x)=\\sin x \\cos x(\\sin x+\\cos x) \\\\ \\Leftrightarrow(\\tan x-1)\\left(\\tan ^{2}-2 \\sqrt{3} \\tan x-1\\right)=0 \\\\ \\Leftrightarrow\\left[\\begin{array}{l}\\tan x=1 \\\\ \\tan x=\\sqrt{3}-2 \\\\ \\tan x=\\sqrt{3}+2\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{\\pi}{4}+k \\pi \\\\ x=\\operatorname{acr} \\tan (\\sqrt{3}-2)+k \\pi \\\\ x=\\operatorname{acr} \\tan (\\sqrt{3}+2)+k \\pi\\end{array} \\quad(k \\in Z)\\right.\\right. \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 3.0,
+        "content": "Cho dãy số %(\\left(a_{n}\\right))% xác định như sau: %(\\left\\{\\begin{array}{l}a_{1}=\\frac{1}{2} \\\\ a_{n}=\\frac{a_{n-1}}{2 n \\cdot a_{n-1}+1}\\end{array} \\quad(n \\in N, n \\geq 2)\\right.)%<br>Tính tổng %(\\mathrm{S}=\\mathrm{a}_{1}+\\mathrm{a}_{2}+\\ldots+\\mathrm{a}_{2016})%.",
+        "question_images": [],
+        "solution": "- Ta có<br>\\[\\mathrm{a}_{\\mathrm{n}}\\gt 0, \\forall \\mathrm{n} \\geq 1; \\quad \\frac{1}{\\mathrm{a}_{\\mathrm{n}}}=\\mathrm{b}_{\\mathrm{n}} \\Rightarrow \\mathrm{b}_{1}=2\\]<br>và<br>\\[\\begin{array}{l}a_{n}=\\frac{a_{n-1}}{2 n \\cdot a_{n-1}+1} \\Rightarrow b_{n}=b_{n-1}+2 n \\Rightarrow b_{n}=n(n+1) \\\\Rightarrow a_{n}=\\frac{1}{n(n+1)}=\\frac{1}{n}-\\frac{1}{n+1} \\\\text { Vậy : }=a_{1}+a_{2}+\\ldots+a_{2016}=\\frac{2015}{2016}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 3.0,
+        "content": "Có bao nhiêu cách sắp xếp 10 học sinh nam và 20 học sinh nữ thành một hàng dọc sao cho giữa hai học nam bất kỳ luôn có ít nhất 1 học sinh nữ?",
+        "question_images": [],
+        "solution": "Xếp 20 học sinh nữ trước ta có 20 ! cách xếp. Cố định mỗi cách xếp các học sinh nữ trên, ta có 21 vị trí có thể xếp các học sinh nam thỏa mãn đầu bài. Số cách xếp học sinh nam là: %(\\mathrm{A}_{21}^{10})%<br>Vậy có 20 !. %(\\mathrm{A}_{21}^{10})% cách xếp thỏa mãn.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 5.0,
+        "content": "Cho tam giác %(\\mathrm{ABC})% vuông cân tại %(\\mathrm{C}, \\mathrm{AB}=10)%. Biết đường thẳng %(\\mathrm{BC})% có phương trình %(\\mathrm{d}_{1}: 7 \\mathrm{x}-\\mathrm{y}+31=0)% và trung điểm %(\\mathrm{I})% của %(\\mathrm{AB})% thuộc đường thẳng %(\\mathrm{d}_{2}: \\mathrm{x}+\\mathrm{y}+2=0)%. Tìm tọa độ %(\\mathrm{A}, \\mathrm{B}, \\mathrm{C})% biết %(\\mathrm{I})% có tung độ âm.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{E})% là trung điểm của %(\\mathrm{BC})% ta có tam giác %(\\mathrm{BEI})% vuông cân tại %(\\mathrm{E})% và có %(\\mathrm{IB}=)% 5 do đó %(\\mathrm{EB}=\\mathrm{IE}=\\mathrm{d}(\\mathrm{I}, \\mathrm{BC})=\\frac{5 \\sqrt{2}}{2})%<br>Gọi %(\\mathrm{I}(\\mathrm{x} ;-\\mathrm{x}-2) \\Rightarrow \\mathrm{d}\\left(\\mathrm{I}, \\mathrm{d}_{1}\\right)=\\frac{|7 \\mathrm{x}+\\mathrm{x}+2+31|}{\\sqrt{50}}=\\frac{5 \\sqrt{2}}{2})%<br>%(\\Rightarrow\\left[\\begin{array}{l}\\mathrm{x}=-1 \\\\ \\mathrm{x}=-\\frac{28}{4} \\text { (loai) }\\end{array} \\Rightarrow \\mathrm{I}(-1 ;-1) \\Rightarrow \\mathrm{E}\\left(-\\frac{9}{2} ;-\\frac{1}{2}\\right)\\right.)%<br>Gọi %(\\mathrm{B}(\\mathrm{x} ; 7 \\mathrm{x}+31))% từ %(\\mathrm{IB}=5)%<br>%(\\Rightarrow\\left\\{\\begin{array}{l}\\mathrm{B}(-4 ; 3) \\\\ \\mathrm{C}(-5 ;-4) \\\\ \\mathrm{A}(2 ;-5)\\end{array} \\vee\\left\\{\\begin{array}{l}\\mathrm{B}(-5 ;-4) \\\\ \\mathrm{C}(-4 ; 3) \\\\ \\mathrm{A}(3 ; 2)\\end{array}\\right.\\right.)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b3ba8d4ef76d5f8cee80ce681add2e0f.png\" srcset=\"https://docdn.giainhanh.io/media/test/8050089c74cd864f14e378c923e929d7.png 167w, https://docdn.giainhanh.io/media/test/7fc3f0b4fa08a250ea0a969468a666b0.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 3.0,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là 3 số thực dương thỏa mãn:<br>\\[\\frac{1}{\\mathrm{a}^{2}+\\mathrm{b}^{2}+4}+\\frac{1}{\\mathrm{c}^{2}+\\mathrm{b}^{2}+4}+\\frac{1}{\\mathrm{a}^{2}+\\mathrm{c}^{2}+4} \\geq \\frac{2}{3}\\]<br>Chứng minh rằng: %(\\mathrm{ab}+\\mathrm{bc}+\\mathrm{ca} \\leq \\frac{3}{4})%",
+        "question_images": [],
+        "solution": "Ta chứng minh bằng phương pháp phản chứng:<br>Bài toán được phát biểu lại<br>Cho %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là 3 số thực dương thỏa mãn: %(\\mathrm{ab}+\\mathrm{bc}+\\mathrm{ca}\\gt \\frac{3}{4})% Chứng minh rằng:<br>\\[\\frac{1}{\\mathrm{a}^{2}+\\mathrm{b}^{2}+4}+\\frac{1}{\\mathrm{c}^{2}+\\mathrm{b}^{2}+4}+\\frac{1}{\\mathrm{a}^{2}+\\mathrm{c}^{2}+4}\\lt \\frac{2}{3}\\]<br>Thật vậy:<br>\\[\\sum \\frac{1}{a^{2}+b^{2}+4}\\lt \\frac{2}{3} \\Leftrightarrow \\sum \\frac{a^{2}+b^{2}}{a^{2}+b^{2}+4}>\\frac{1}{3}\\]<br>Áp dụng bất đẳng thức Cauchy-Schwarz ta có<br>\\[\\begin{array}{l}\\sum \\frac{\\mathrm{a}^{2}+\\mathrm{b}^{2}}{\\mathrm{a}^{2}+\\mathrm{b}^{2}+4} \\geq \\frac{\\left(\\sum \\sqrt{\\mathrm{a}^{2}+\\mathrm{b}^{2}}\\right)^{2}}{\\sum\\left(\\mathrm{a}^{2}+\\mathrm{b}^{2}+4\\right)}=\\frac{\\left(\\sum \\mathrm{a}^{2}+\\sum \\sqrt{\\mathrm{a}^{2}+\\mathrm{b}^{2}} \\sqrt{\\mathrm{a}^{2}+\\mathrm{c}^{2}}\\right.}{\\sum \\mathrm{a}^{2}+6} \\\\geq \\frac{\\sum \\mathrm{a}^{2}+\\sum\\left(\\mathrm{a}^{2}+\\mathrm{bc}\\right)}{\\sum \\mathrm{a}^{2}+6}=\\frac{2 \\sum \\mathrm{a}^{2}+\\sum \\mathrm{bc}}{\\sum \\mathrm{a}^{2}+6} \\\\end{array}\\]<br>Mặt khác ta có %(\\frac{2 \\sum \\mathrm{a}^{2}+\\sum \\mathrm{bc}}{\\sum \\mathrm{a}^{2}+6}>\\frac{1}{3})% (đúng) vì %(5 \\sum \\mathrm{a}^{2}+3 \\sum \\mathrm{bc}\\gt 8 \\sum \\mathrm{bc}>6 \\Leftrightarrow \\sum \\mathrm{bc}>\\frac{3}{4})% (đúng)<br>Vậy đpcm dấu \" =\" xảy ra khi %(\\mathrm{a}=\\mathrm{b}=\\mathrm{c}=\\frac{1}{2})%",
+        "question_type": "essay"
+    }
+]

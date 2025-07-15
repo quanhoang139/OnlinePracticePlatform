@@ -1,0 +1,88 @@
+[
+    {
+        "title": "Câu 1",
+        "group_content": "Cho biểu thức: %(P=\\frac{2 m+\\sqrt{16 m}+6}{m+2 \\sqrt{m}-3}+\\frac{\\sqrt{m}-2}{\\sqrt{m}-1}+\\frac{3}{\\sqrt{m}+3}-2)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Rút gọn %(P)%.",
+        "question_images": [],
+        "solution": "Rút gọn được %(P=\\frac{\\sqrt{m}+1}{\\sqrt{m}-1})% (với %(m \\geq 0, m \\neq 1)% )",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Tìm giá trị tự nhiên của m để P là số tự nhiên.",
+        "question_images": [],
+        "solution": "%(P=\\frac{\\sqrt{m}+1}{\\sqrt{m}-1}=1+\\frac{2}{\\sqrt{m}-1})%<br>Ta có: %(P \\in N \\Leftrightarrow \\frac{2}{\\sqrt{m}-1} \\in N \\Leftrightarrow \\sqrt{m}-1)% là ước dương của %(2 \\Rightarrow m \\in\\{4 ; 9\\})% (TMĐK)<br>Vậy %(m=4 ; m=9)% là giá trị cần tìm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 2.0,
+        "content": "Cho biểu thức: %(P=(a+b)(b+c)(c+a)-a b c)% với %(a, b, c)% là các số nguyên. Chứng minh rằng nếu %(a+b+c)% chia hết cho 4 thì %(P)% chia hết cho 4 .",
+        "question_images": [],
+        "solution": "%(a+b+c\\vdots 4(a, b, c \\in Z))%<br>Đặt %(a+b+c=4 k(k \\in Z) \\Rightarrow a+b=4 k-c ; b+c=4 k-a, a+c=4 k-b)%<br>Ta có: %(P=(a+b)(b+c)(c+a)-a b c=(4 k-c)(4 k-a)(4 k-b)-a b c)%<br>%(\\begin{array}{l}=\\left(16 k^{2}-4 a k-a c k+a c\\right)(4 k-b)-a b c \\\\ =64 k^{3}-16 b k^{2}-16 a k^{2}+4 a b c-16 c k^{2}+4 b c k+4 a c k-a b c-a b c \\\\ \\left.=4\\left(16 k^{3}-4 b k^{2}-4 a k^{2}+a b k-4 c k^{2}+b c k+a c k\\right)-2 a b c \\quad \\quad^{*}\\right)\\end{array})%<br>Giả sử %(a, b, c)% đều chia 2 dư %(1 \\Rightarrow a+b+c)% chia 2 dư 1<br>Mà: %(a+b+c\\vdots 4 \\Rightarrow a+b+c \\vdots 2)% (theo giả thiết)<br>Do đó (1) và (2) mâu thuẫn %(\\Rightarrow)% Điều giả sử là sai<br>%(\\Rightarrow)% Trong ba số %(a, b, c)% ít nhất có một số chia hết cho 2<br>%(\\Rightarrow 2 a b c\\vdots 4 \\quad\\left({ }^{* *}\\right))%<br>Từ %((*))% và %(\\left({ }^{* *}\\right) \\Rightarrow P\\vdots 4)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 2.5,
+        "content": "Chứng minh rằng: với mọi số thực %(x, y)% dương, ta luôn có: %(\\frac{1}{x}+\\frac{1}{y} \\geq \\frac{4}{x+y})%",
+        "question_images": [],
+        "solution": "%(\\frac{1}{x}+\\frac{1}{y} \\geq \\frac{4}{x+y} \\Leftrightarrow \\frac{a+b}{a b} \\geq \\frac{4}{a+b} \\Leftrightarrow(a+b)^{2} \\geq 4 a b \\Leftrightarrow(a-b)^{2} \\geq 0)% (đúng)",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 2.5,
+        "content": "Cho phương trình: %(2 x^{2}+3 m x-\\sqrt{2}=0)% (m là tham số). Có hai nghiệm %(x_{1})% và %(x_{2})%. Tìm giá trị nhỏ nhất của biểu thức: %(M=\\left(x_{1}-x_{2}\\right)^{2}+\\left(\\frac{1+x_{1}^{2}}{x_{1}}-\\frac{1+x_{2}^{2}}{x_{2}}\\right)^{2})%",
+        "question_images": [],
+        "solution": "PT có %(a, c)% trái dấu nên luôn có hai nghiệm phân biệt %(x_{1})% và %(x_{2})%<br>Ta có: %(x_{1}+x_{2}=-\\frac{3 m}{2})% và %(x_{1} x_{2}=-\\frac{\\sqrt{2}}{2} \\quad M=\\left(x_{1}-x_{2}\\right)^{2}+\\left(\\frac{1+x_{1}^{2}}{x_{1}}-\\frac{1+x_{2}^{2}}{x_{2}}\\right)^{2}=\\ldots \\ldots .=)%<br>\\[\\begin{array}{l}\\left(x_{1}-x_{2}\\right)^{2}\\left[1+\\frac{\\left(1-x_{1} x_{2}\\right)^{2}}{\\left(x_{1} x_{2}\\right)^{2}}\\right]=\\left[\\left(x_{1}+x_{2}\\right)^{2}-4 x_{1} x_{2}\\right]\\left[1+\\frac{\\left(1-x_{1} x_{2}\\right)^{2}}{\\left(x_{1} x_{2}\\right)^{2}}\\right] \\\\=\\left(9+\\frac{9 \\sqrt{2}}{2}\\right) m^{2}+8 \\sqrt{2}+8 \\geq 8 \\sqrt{2}+8\\end{array}\\]<br>Dấu \" %(=)% \" xảy ra khi %(m=0)%<br>Vậy GTNN của %(M)% là %(8 \\sqrt{2}+8)% khi %(m=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 2.0,
+        "content": "Cho %(x, y, z)% là ba số dương. Chứng minh rằng:<br>\\[\\frac{1}{x^{2}+y z}+\\frac{1}{y^{2}+x z}+\\frac{1}{z^{2}+x y} \\leq \\frac{1}{2}\\left(\\frac{1}{x y}+\\frac{1}{y z}+\\frac{1}{z x}\\right)\\]",
+        "question_images": [],
+        "solution": "Áp dụng B TT Côsi cho các số dương %(x^{2})% và %(y z)%, ta có:<br>\\[x^{2}+y z \\geq 2 \\sqrt{x^{2} y z}=2 x \\sqrt{y z} \\Rightarrow \\frac{1}{x^{2}+y z} \\leq \\frac{1}{2 x \\sqrt{y z}}=\\frac{1}{2} \\cdot \\frac{1}{x \\sqrt{y z}}\\]<br>Tương tự, ta có: %(\\frac{1}{y^{2}+x z} \\leq \\frac{1}{2} \\cdot \\frac{1}{y \\sqrt{x z}})% và %(\\frac{1}{z^{2}+x y} \\leq \\frac{1}{2} \\cdot \\frac{1}{z \\sqrt{x y}})%<br>Suy ra: %(\\frac{1}{x^{2}+y z}+\\frac{1}{y^{2}+x z}+\\frac{1}{z^{2}+x y} \\leq \\frac{1}{2}\\left(\\frac{1}{x \\sqrt{y z}}+\\frac{1}{y \\sqrt{x z}}+\\frac{1}{z \\sqrt{x y}}\\right))%<br>Ta có: %(\\frac{1}{x \\sqrt{y z}}+\\frac{1}{y \\sqrt{x z}}+\\frac{1}{z \\sqrt{x y}}=\\frac{\\sqrt{y z}+\\sqrt{x z}+\\sqrt{x y}}{x y z})%<br>Ta có: %(\\sqrt{y z}+\\sqrt{x z}+\\sqrt{x y} \\leq x+y+z)%<br>Thật vậy: %(\\left({ }^{*}\\right) \\Leftrightarrow 2 \\sqrt{y z}+2 \\sqrt{x z}+2 \\sqrt{x y} \\leq 2 x+2 y+2 z)%%(\\Leftrightarrow(\\sqrt{x}-\\sqrt{y})^{2}+(\\sqrt{z}-\\sqrt{x})^{2}+(\\sqrt{y}-\\sqrt{x})^{2} \\geq 0)% (BĐT đúng)<br>Dấu \" %(=)% \" xảy ra khi %(x=y=z)%.<br>Từ (2) và (3) suy ra: %(\\frac{1}{x \\sqrt{y z}}+\\frac{1}{y \\sqrt{x z}}+\\frac{1}{z \\sqrt{x y}} \\leq \\frac{x+y+z}{x y z}=\\frac{1}{y z}+\\frac{1}{x z}+\\frac{1}{x y})%<br>Từ (1) và (4) suy ra: %(\\frac{1}{x^{2}+y z}+\\frac{1}{y^{2}+x z}+\\frac{1}{z^{2}+x y} \\leq \\frac{1}{2}\\left(\\frac{1}{x y}+\\frac{1}{y z}+\\frac{1}{z x}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6",
+        "group_content": "Cho tam giác đều %(A B C)% nội tiếp đường tròn tâm %(O)% bán kính %(R . M)% là một điểm di động trên cung nhỏ %(B C)% của đường tròn đó.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Chứng minh %(M B+M C=M A)%.",
+        "question_images": [],
+        "solution": "Cách 1: Trên tia đối của tia %(M C)% lấy điểm %(E)% sao cho %(M E=M B)%<br>\\[\\begin{array}{l}\\Rightarrow B E=B M=E M \\\\triangle M B C=\\triangle E B A \\text { (c.g.c) } \\Rightarrow M C=A E\\end{array}\\]<br>Do đó: %(M B+M C=M A)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/eccc5a3af470ff90c45805d93ae0a9da.png\" srcset=\"https://docdn.giainhanh.io/media/test/693c89c89c3897da6e3d4b6b17b8e5ef.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 3.0,
+        "content": "Gọi %(H, I, K)% lần lượt là chân đường vuông góc hạ từ %(M)% xuống %(A B, B C, C A)%. Gọi %(S, S)% lần lượt là diện tích của tam giác %(A B C, M B C)%. Chứng minh rằng: Khi %(M)% di động ta luôn có đẳng thức:<br>\\[M H+M I+M K=\\frac{2 \\sqrt{3}\\left(\\mathrm{~S}+2 \\mathrm{~S}^{\\prime}\\right)}{3 \\mathrm{R}}\\]",
+        "question_images": [],
+        "solution": "Kẻ %(A N)% vuông góc với %(B C)% tại %(N)%<br>Vi %(\\triangle A B C)% là tam giác đều nên %(O)% là trọng tâm của tam giác%(\\Rightarrow A, O, N)% thẳng hàng %(\\Rightarrow A N=\\frac{3}{2} R)%<br>Ta có: %(A N=A B \\cdot \\sin \\widehat{A B N} \\Rightarrow A B=\\frac{A N}{\\sin \\widehat{A B N}}=\\frac{3}{2} R: \\frac{\\sqrt{3}}{2}=R \\sqrt{3})%<br>Ta có: %(\\frac{1}{2} M H \\cdot A B=S_{A B M} \\Leftrightarrow M H=\\frac{2 S_{A B M}}{A B}=\\frac{2 S_{A B M}}{R \\sqrt{3}})%<br>\\[\\begin{array}{l}\\frac{1}{2} M K \\cdot A C=S_{A C M} \\Leftrightarrow M K=\\frac{2 S_{A C M}}{A C}=\\frac{2 S_{A C M}}{R \\sqrt{3}} \\\\frac{1}{2} M \\cdot B C=S_{B C M} \\Leftrightarrow M I=\\frac{2 S_{B C M}}{B C}=\\frac{2 S_{B C M}}{R \\sqrt{3}}=\\frac{2 S^{\\prime}}{R \\sqrt{3}}\\end{array}\\]<br>Do đó: %(M H+M K+M I=\\frac{2 S^{\\prime}}{R \\sqrt{3}}+\\frac{2}{R \\sqrt{3}}\\left(S_{A B M}+S_{A C M}\\right)=\\frac{2 S^{\\prime}}{R \\sqrt{3}}+\\frac{2}{R \\sqrt{3}} S_{A B M C})%<br>\\[\\frac{2 S^{\\prime}}{R \\sqrt{3}}+\\frac{2}{R \\sqrt{3}} \\cdot\\left(S+S^{\\prime}\\right)=\\frac{2 \\sqrt{3}\\left(S+2 S^{\\prime}\\right)}{3 R}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f6ab5622a0d597f9540c08cb2fa4f6b5.png\" srcset=\"https://docdn.giainhanh.io/media/test/8961149bc6874cd02e0a9c70e5c30b12.png 165w\" width=\"165\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7 ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C)% có ba góc nhọn. %(A D, B E, C F)% là các đường cao. Lấy %(M)% trên đoạn %(F D)%, lấy %(N)% trên tia %(D E)% sao cho %(\\mathrm{MAN}=\\mathrm{BAC})%. Chứng minh %(M A)% là tia phân giác của góc NMF .",
+        "question_images": [],
+        "solution": "Qua %(M)% kẻ đường thẳng song song với %(B C)% cắt %(D E)% tại %(K)%.<br>Tứ giác %(A E D B)% nội tiếp %(\\Rightarrow \\widehat{C D E}=\\widehat{B A C})%<br>Mà: %(\\widehat{M K D}=\\widehat{C D E})% (vì %(M K / / B C)% ).<br>Do đó: %(\\widehat{M K D}=\\widehat{M A N} \\Rightarrow)% Tứ giác %(A M K N)% nội tiếp<br>\\[\\Rightarrow \\widehat{A M N}=\\widehat{A K N}\\]<br>Ta có: %(\\widehat{D_{3}}=\\widehat{D_{4}}(=\\widehat{B A C}) \\Rightarrow \\widehat{D_{1}}=\\widehat{D_{2}})%<br>%(\\triangle D M K)% có %(D A)% là phân giác vừa là đường cao nên cân tại %(D)%<br>\\[\\Rightarrow D M=D K\\]<br>%(\\triangle A M D=\\triangle A K D)% (c.g.c) %(\\Rightarrow \\widehat{A M D}=\\widehat{A K D})%<br>Nên: %(\\widehat{A M F}=\\widehat{A K N})%. Ta có: %(\\widehat{A M F}=\\widehat{A M N}(=\\widehat{A K N}))%<br>Vậy: %(M A)% là phân giác của góc %(\\widehat{N M F})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/da412d261041ff1789d63420376cd457.png\" srcset=\"https://docdn.giainhanh.io/media/test/8733125b3b6a807f42ac0a59bfbfc247.png 198w, https://docdn.giainhanh.io/media/test/f0af302c1969147ebb5577a5fa627797.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

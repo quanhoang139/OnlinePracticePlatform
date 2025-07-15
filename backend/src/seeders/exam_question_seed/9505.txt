@@ -1,0 +1,143 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Phân tích đa thức sau thành nhân tử: %(x^{4}+2013 x^{2}+2012 x+2013)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}x^{4}+2013 x^{2}+2012 x+2013=\\left(x^{4}-x\\right)+2013 x^{2}+2013 x+2013 \\\\ =x\\left(x^{3}-1\\right)+2013\\left(x^{2}+x+1\\right)=x(x-1)\\left(x^{2}+x+1\\right)+2013\\left(x^{2}+x+1\\right) \\\\ =\\left(x^{2}+x+1\\right)\\left(x^{2}-x+2013\\right)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm các cặp số nguyên %((x, y))% sao cho %(3 x^{2}-y^{2}-2 x y-2 x-2 y+40=0)%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}3 x^{2}-y^{2}-2 x y-2 x-2 y+40=0 \\Leftrightarrow 4 x^{2}-\\left(x^{2}+y^{2}+2 x y+2 x+2 y+1\\right)=-41 \\\\Leftrightarrow(x+y+1)^{2}-(2 x)^{2}=41 \\Leftrightarrow(3 x+y+1)(y-x+1)=41=1.41=-1 .-41=41.1=-41 .-1\\end{array}\\]<br>Vậy các cặp số nguyên %(({x} ; \\mathrm{y}))% cần tìm là %((-10 ;-12) ;(10 ;-32) ;(-10 ; 30) ;(10 ; 10))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/84d641d02b74e898f2e65db8fe27def7.png\" srcset=\"https://docdn.giainhanh.io/media/test/ae36f6347a4d0ce3833e837ff043bb55.png 245w, https://docdn.giainhanh.io/media/test/323f5425b6fa037c500a2678c597b37c.png 500w, https://docdn.giainhanh.io/media/test/186e24ef21ed1185049376ca3b76f07a.png 750w, https://docdn.giainhanh.io/media/test/54ea401279d592a6cfd4a146a82e663a.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho %(f(x)=a x^{2}+b x+c)% với %(a, b, c)% là các số thỏa mãn %(13 a+b+2 c=0)%. Chứng tỏ rằng %(f(-2) .f(3) \\leq 0)%",
+        "question_images": [],
+        "solution": "Ta có: %(f(-2)=4 a-2 b+c ; f(3)=9 a+3 b+c ; f(-2)+f(3)=13 a+b+2 c=0)%<br>Hoặc %(f(-2)=0)% và %(f(3)=0 \\Rightarrow f(-2) . f(3)=0~~~~~(1))%<br>Hoặc %(f(-2))% và %(f(3))% là hai số đối nhau nên %(f(-2) . f(3)\\lt 0~~~~~(2))%<br>Từ (1) và (2) được %(f(-2) . f(3) \\leq 0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho biểu thức %(A=\\left(\\frac{x^{4}+x^{2}-4 x+1}{x^{2}-1}-\\frac{x-1}{x+1}+\\frac{x+1}{x-1}\\right). \\frac{x^{2}-1}{x^{3}-1}~(x \\neq \\pm 1))%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Rút gọn biểu thức A.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=\\left(\\frac{x^{4}+x^{2}-4 x+1}{x^{2}-1}-\\frac{x-1}{x+1}+\\frac{x+1}{x-1}\\right) . \\frac{x^{2}-1}{x^{3}-1}(x \\neq \\pm 1) \\\\ =\\frac{x^{4}+x^{2}-4 x+1-x^{2}+2 x-1+x^{2}+2 x+1}{x^{2}-1} . \\frac{x^{2}-1}{x^{3}-1}=\\frac{x^{4}+x^{2}+1}{x^{3}-1} \\\\ =\\frac{\\left(x^{4}-x\\right)+\\left(x^{2}+x+1\\right)}{(x-1)\\left(x^{2}+x+1\\right)}=\\frac{\\left(x^{2}+x+1\\right)(x(x-1)+1)}{(x-1)\\left(x^{2}+x+1\\right)}=\\frac{x^{2}-x+1}{x-1}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm giá trị nguyên của %(x)% để giá trị của biểu thức A là số nguyên.",
+        "question_images": [],
+        "solution": "Với %(x \\neq \\pm 1)% ta có:<br>\\[A=\\frac{x^{2}-x+1}{x-1}=\\frac{x^{2}-x}{x-1}+\\frac{1}{x-1}=x+\\frac{1}{x-1}\\]<br>Với %(x \\in Z \\Leftrightarrow A \\in Z \\Leftrightarrow \\frac{1}{x-1} \\in Z \\Rightarrow(x-1) \\in Ư(1)=\\{1 ;-1\\} \\Rightarrow x \\in\\{0 ; 2\\}~ (tmđk))%<br>Vậy %(x \\in\\{0 ; 2\\})% thì A nguyên.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(\\frac{4}{2 x^{3}+3 x^{2}-8 x-12}-\\frac{1}{x^{2}-4}-\\frac{4}{2 x^{2}+7 x+6}+\\frac{1}{2 x+3}=0)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\frac{4}{2 x^{3}+3 x^{2}-8 x-12}-\\frac{1}{x^{2}-4}-\\frac{4}{2 x^{2}+7 x+6}+\\frac{1}{2 x+3}=0\\left(x \\neq \\pm 2 ; x \\neq \\frac{-3}{2}\\right) \\\\Leftrightarrow \\frac{4}{(2 x+3)(x+2)(x-2)}-\\frac{1}{(x-2)(x+2)}-\\frac{4}{(2 x+3)(x+2)}+\\frac{1}{2 x+3}=0 \\\\Leftrightarrow \\frac{4-(2 x+3)-4(x-2)+(x+2)(x-2)}{(2 x+3)(x+2)(x-2)}=0 \\\\rightarrow 4-2 x-3-4 x+8+x^{2}-4=0 \\Leftrightarrow x^{2}-6 x+5=0 \\Leftrightarrow\\left[\\begin{array}{l}x=1~(\\mathrm{tm}) \\x=5~(\\mathrm{tm})\\end{array}\\right.\\end{array}\\]<br>Vậy phương trình có tập nghiệm %(S=\\{1 ; 5\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.75,
+        "content": "Hưởng ứng ngày chủ nhật xanh - sạch - đẹp. Học sinh khối lớp 8 nhận làm vệ sinh một đoạn đường em chăm. Lớp 8 A nhận 10 mét và %(10 \\%)% của phần còn lại, lớp %(8 B)% nhận 20 mét và %(10 \\%)% của phần còn lại, lớp 8C nhận 30 mét và %(10 \\%)% của phần còn lại ... cứ chia như vậy cho đến lớp cuối cùng thì vừa đủ và phần đường của mỗi lớp dài bằng nhau. Hỏi khối 8 có bao nhiêu lớp và đoạn đường mỗi lớp nhận dài bao nhiêu mét?",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{x}(\\mathrm{m}))% là chiều dài đoạn đường cả khối 8 làm vệ %(\\sinh ~(x\\gt 0))%<br>Lớp 8A nhận đoạn đường dài: %(10+0,1(x-10)=0,1 x+9)%<br>Sau khi lớp 8A nhận đoạn đường còn lại: %(x-(0,1 x+9)=0,9 x-9)%<br>Lớp 8B nhận đoạn đường dài: %(20+0,1.(0,9 x-9-20)=0,09 x+17,1)%<br>Ta có phương trình: %(0,1 x+9=0,09 x+17,1 \\Leftrightarrow \\ldots . . \\Leftrightarrow x=810~(\\mathrm{tm}))%<br>Vậy khối 8 có 9 lớp.<br>Mỗi lớp nhận làm đoạn đường dài 90 m.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.75,
+        "content": "Chứng minh rằng: %(\\frac{1}{p-a}+\\frac{1}{p-b}+\\frac{1}{p-c} \\geq 2\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right))%",
+        "question_images": [],
+        "solution": "Áp dụng bất đẳng thức %(\\frac{m^{2}}{x}+\\frac{n^{2}}{y} \\geq \\frac{(m+n)^{2}}{x+y})%, với %(x, y\\gt 0)%<br>Ta có với p là nửa chu vi và %(a, b, c)% là độ dài ba cạnh của một tam giác nên:<br>\\[p-a>0 ; p-b>0 ; p-c>0 \\Rightarrow\\left\\{\\begin{array}{l}\\frac{1}{p-a}+\\frac{1}{p-b} \\geq \\frac{(1+1)^{2}}{p-a+p-b}=\\frac{4}{c} \\\\frac{1}{p-a}+\\frac{1}{p-c} \\geq \\frac{(1+1)^{2}}{p-a+p-c}=\\frac{4}{b} \\\\frac{1}{p-b}+\\frac{1}{p-c} \\geq \\frac{(1+1)^{2}}{p-b+p-c}=\\frac{4}{a}\\end{array}\\right.\\]<br>Cộng từng vế của ba bất đẳng thức trên, ta được:<br>\\[2\\left(\\frac{1}{p-a}+\\frac{1}{p-b}+\\frac{1}{p-c}\\right) \\geq 4\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right) \\Rightarrow \\frac{1}{p-a}+\\frac{1}{p-b}+\\frac{1}{p-c} \\geq 2\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)\\]<br>Dấu bằng xảy ra khi %(p-a=p-b=p-c \\Leftrightarrow a=b=c \\Leftrightarrow \\triangle A B C)% là tam giác đều",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho hình vuông %(A B C D)%, trên cạnh AB lấy điểm E và trên cạnh AD lấy điểm F sao cho %(A E=A F)%. Vẽ AH vuông góc với %(\\mathrm{BF}~(\\mathrm{H})% thuộc BF%(), \\mathrm{AH})% cắt DC và BC lần lượt tại hai điểm %(\\mathrm{M}, \\mathrm{N})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng tứ giác %(A E M D)% là hình chữ nhật.",
+        "question_images": [],
+        "solution": "+) Ta có %(\\widehat{D A M}=\\widehat{ A B F})% (cùng phụ với %(\\widehat{ B A H})% )<br>+) %(A B=A D~(g t) ; \\widehat{ B A F}=\\widehat{ A D M}=90^{\\circ})% (ABCD là hình vuông)<br>%(\\Rightarrow \\triangle A D M=\\triangle B A F~(g.c.g)%%() \\Rightarrow D M=A F)%<br>+) Mà %(A F=A E~(g t) \\Rightarrow A E=D M)%<br>+) Lại có: %(A E / / D M~(vì~ A B / / D C))%<br>Suy ra tứ giác %(A E M D)% là hình bình hành.<br>+) Mặt khác %(\\widehat{ D A E}=90^{\\circ}~(g t))%<br>Vậy tứ giác %(A E M D)% là hình chữ nhật<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0446a0b97b326ba30453b33fc234e011.png\" srcset=\"https://docdn.giainhanh.io/media/test/0a99b568c6b400063bd9800fd4037b83.png 114w, https://docdn.giainhanh.io/media/test/bb108c630104ae0cc40c6be4813bc4ea.png 366w\" width=\"366\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.25,
+        "content": "b) Biết diện tích tam giác BCH gấp bốn lần diện tích tam giác AEH. Chứng minh rằng %(A C=2 E F)%.",
+        "question_images": [],
+        "solution": "+) Chứng minh %(\\triangle A B H \\backsim \\triangle F A H~(g . g) \\Rightarrow \\frac{A B}{A F}=\\frac{B H}{A H})%<br>Hay %(\\frac{B C}{A E}=\\frac{B H}{A H}(A B=B C ; A E=A F))%<br>+) Lại có %(\\widehat{ H A B}=\\widehat{ H B C})% (cùng phụ với %(\\widehat{ A B H}) \\Rightarrow \\triangle C B H \\backsim \\triangle A E H~ (c.g.c) )%<br>%(\\Rightarrow \\frac{S_{C B H}}{S_{E A H}}=\\left(\\frac{B C}{A E}\\right)^{2})%<br>+) Mà %(\\frac{S_{C B H}}{S_{E A H}}=4(g t) \\Rightarrow\\left(\\frac{B C}{A E}\\right)^{2}=4 \\Rightarrow B C^{2}=(2 A E)^{2} \\Rightarrow B C=2 A E \\Rightarrow E)% là trung điểm của %(\\mathrm{AB}, \\mathrm{F})% là trung điểm của AD<br>Do dó %(B D=2 E F)%<br>Hay %(A C=2 E F~(đp c m))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.75,
+        "content": "c) Chứng minh rằng %(\\frac{1}{A D^{2}}=\\frac{1}{A M^{2}}+\\frac{1}{A N^{2}})%",
+        "question_images": [],
+        "solution": "+) Do %(A D / / C N~(g t))%.<br>+) Áp dụng hệ quả định lý Talet, ta có:<br>\\[\\frac{A D}{C N}=\\frac{A M}{M N} \\Rightarrow \\frac{A D}{A M}=\\frac{C N}{M N}\\]<br>+) Lại có: %(M C / / A B~(g t))%<br>+) Áp dụng hệ quả định lý Talet, ta có:<br>\\[\\begin{array}{l}\\frac{M N}{A N}=\\frac{M C}{A B} \\Rightarrow \\frac{A B}{A N}=\\frac{M C}{M N} \\text { hay } \\frac{A D}{A N}=\\frac{M C}{M N} \\\\Rightarrow\\left(\\frac{A D}{A M}\\right)^{2}+\\left(\\frac{A D}{A N}\\right)^{2}=\\left(\\frac{C N}{M N}\\right)^{2}+\\left(\\frac{C M}{M N}\\right)^{2}=\\frac{C N^{2}+C M^{2}}{M N^{2}}=\\frac{M N^{2}}{M N^{2}}=1(\\text { Pytago }) \\\\Rightarrow\\left(\\frac{A D}{A M}\\right)^{2}+\\left(\\frac{A D}{A N}\\right)^{2}=1 \\Rightarrow \\frac{1}{A M^{2}}+\\frac{1}{A N^{2}}=\\frac{1}{A D^{2}}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "9",
+        "group_content": "Cho tam giác %(A B C)% vuông tại A, đường cao AH. Gọi D và E lần lượt là hình chiếu của H trên %(\\mathrm{AB}, \\mathrm{AC})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh %(A H^{2}=H B . H C)%",
+        "question_images": [],
+        "solution": "+) Chứng minh được %(\\triangle B H A \\backsim \\triangle A H C~(g . g) \\Rightarrow \\frac{A H}{H C}=\\frac{H B}{A H} \\rightarrow A H^{2}=H B . H C)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3412a8a356a1cb9f80a3450c9fdcc262.png\" srcset=\"https://docdn.giainhanh.io/media/test/5f9a13ad2eca9f4b70cda9baf60a6272.png 245w, https://docdn.giainhanh.io/media/test/16823bd3a3b05059460fb8b5a0f35741.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.25,
+        "content": "b) Chứng minh %(A H^{3}=B D . C E . B C)%",
+        "question_images": [],
+        "solution": "+) chứng minh câu a, ta có: %(A H^{2}=H B . H C \\Rightarrow A H^{4}=H B^{2} . H C^{2}~~~~~(1))%<br>+) Chứng minh %(\\triangle B D H \\backsim \\triangle B H A \\Rightarrow \\frac{B H}{A B}=\\frac{B D}{B H} \\Rightarrow B H^{2}=B D.A B~~~~~(2))%<br>+) Chứng minh tương tự, ta có: %(H C^{2}=C E . A C~~~~~(3))%<br>+) Thay (2) và (3) vào (1), ta có: %(A H^{4}=B D . C E . A B. A C)%<br>+) Mà %(A B . A C=B C. A H\\left(=2 S_{A B C}\\right) \\Rightarrow A H^{4}=B D. C E .B C.A H \\Rightarrow A H^{3}=B D . C E . B C)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.75,
+        "content": "c) Giả sử diện tích tam giác ABC gấp đôi diện tích tứ giác %(A D H E)%, chứng tỏ tam giác %(A B C)% vuông cân.",
+        "question_images": [],
+        "solution": "+) Tứ giác ADHE là hình chữ nhật %(\\left(\\widehat { A D H}=\\widehat {A E H}=\\widehat {D A E}=90^{\\circ}\\right))%<br>Nên %(S_{A D H B}=2 S_{D H A})%<br>+) Mà %(S_{A B C}=2 S_{A D H B}(g t) \\Rightarrow S_{A B C}=4 S_{D H A} \\Rightarrow \\frac{S_{D H A}}{S_{A B C}}=\\frac{1}{4})%<br>+) Chứng minh %(\\triangle D H A \\backsim \\triangle A B C~(g . g) \\Rightarrow\\left(\\frac{A H}{B C}\\right)^{2}=\\frac{S_{D H A}}{S_{A B C}}=\\frac{1}{4}~~~~~(1))%<br>+) Gọi M là trung điểm của %(\\mathrm{BC}, \\triangle A B C)% vuông tại A nên:%(A M=\\frac{1}{2} B C \\Rightarrow \\frac{A M}{B C}=\\frac{1}{2} \\Rightarrow\\left(\\frac{A M}{B C}\\right)^{2}=\\frac{1}{4}~~~~~(2))%<br>Từ (1) và (2) %(\\Rightarrow\\left(\\frac{A H}{B C}\\right)^{2}=\\left(\\frac{A M}{B C}\\right)^{2} \\Rightarrow A H=A M \\Leftrightarrow H \\equiv M \\Leftrightarrow \\triangle A B C)% vuông cân tại A<br>Vậy, nếu %(S_{A B C}=2 S_{A D H E})% thì tam giác %(\\triangle A B C)% vuông cân tại A",
+        "question_type": "essay"
+    },
+    {
+        "title": "10 ",
+        "point": 1.0,
+        "content": "Cho %(A=(p-1)(p+1))%. Chứng minh rằng nếu p là số nguyên tố lớn hơn 3 thì A chia hết cho 24.",
+        "question_images": [],
+        "solution": "Vì p là số nguyên tố lớn hơn 3 nên p là số lẻ.<br>Do đó: %(p=2 k+1(k \\in Z, k\\gt 1))%<br>Suy ra: %(A=(p-1)(p+1)=2 k(2 k+2)=4 k(k+1))%<br>Vì k và %(\\mathrm{k}+1)% là hai số nguyên liên tiếp nên %(k(k+1)~\\vdots~ 2 \\Rightarrow A~\\vdots~8)%<br>Vì p là số nguyên tố lớn hơn 3 nên p không chia hết cho 3.<br>Do đó %(\\left[\\begin{array}{l}p=3 m+1 \\\\ p=3 m+2\\end{array}\\right.)%<br>Nếu %(p=3 m+1 \\Rightarrow(p-1)~ \\vdots ~3)%<br>Nếu %(p=3 m+2 \\Rightarrow(p+1) ~\\vdots ~3 \\Rightarrow A ~\\vdots~ 3)%<br>Do đó A luôn chia hết cho 3.<br>Vì %(A: 8, A~ \\vdots~ 3 ~ và~ Ư C L N(3,8)=1 \\Rightarrow A~ \\vdots ~24)%",
+        "question_type": "essay"
+    }
+]

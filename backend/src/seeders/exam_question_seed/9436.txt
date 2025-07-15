@@ -1,0 +1,112 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Cho %(x, y, z)% là các số thực khác 0 thỏa %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=2)% và %(x y z=x+y+z)%. Tính giá trị biểu thức %(A=\\frac{1}{x^{2}}+\\frac{1}{y^{2}}+\\frac{1}{z^{2}})%.",
+        "question_images": [],
+        "solution": "Với %(x, y, z \\neq 0)%. Ta có:<br>\\[\\begin{array}{l}\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=2 \\Rightarrow\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)^{2}=\\frac{1}{x^{2}}+\\frac{1}{y^{2}}+\\frac{1}{z^{2}}+2\\left(\\frac{1}{x y}+\\frac{1}{y z}+\\frac{1}{z x}\\right)=4 \\\\Rightarrow A=\\frac{1}{x^{2}}+\\frac{1}{y^{2}}+\\frac{1}{z^{2}}=4-2\\left(\\frac{1}{x y}+\\frac{1}{y z}+\\frac{1}{z x}\\right)=4-2 \\frac{x+y+z}{x y z}=2\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Cho số nguyên tố có ba chữ số %(\\overline{a b c})%, chứng minh rằng %(b^{2}-4 a c)% không thể là số chính phương.",
+        "question_images": [],
+        "solution": "Giả sử %(b^{2}-4 a c)% là số chính phương, suy ra tồn tại số tự nhiên %(n)% sao cho:<br>\\[\\begin{array}{l}b^{2}-4 a c=n^{2} \\Rightarrow 4 a c=b^{2}-n^{2} . \\text { Ta có: } \\\\4 a . \\overline{a b c}=4 a(100 a+10 b+c)=400 a^{2}+40 a b+4 a c \\\\Rightarrow 4 a .\\overline{a b c}=400 a^{2}+40 a b+b^{2}-n^{2}=(20 a+b)^{2}-n^{2}=(20 a+b-n)(20 a+b+n)\\end{array}\\]<br>Hay %(4 a . \\overline{a b c}=(20 a+b-n)(20 a+b+n))%<br>Vì %(4 a c=b^{2}-n^{2})% nên %(n\\lt b)%, do đó:<br>\\[20 a+b-n\\lt 20 a+b+n\\lt 20 a+2 b\\lt 100 a+10+c=\\overline{a b c}\\]<br>Mặt khác %(\\overline{a b c})% là số nguyên tố mà %(4 a .\\overline{a b c}=(20 a+b-n)(20 a+b+n))% nên một trong hai số %(20 a+b-n, 20 a+b+n)% phải chia hết cho %(\\overline{a b c})%.<br>Điều này vô lý vì cả hai số đều nhỏ hơn %(\\overline{a b c})%<br>Vậy %(b^{2}-4 a c)% không thể là số chính phương",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Tìm cặp số nguyên dương %((x ; y))% thỏa %(3 x^{2}+4 y^{2}=6 x+13)%",
+        "question_images": [],
+        "solution": "Ta có: %(3 x^{2}+4 y^{2}=6 x+13 \\Leftrightarrow 3 x^{2}-6 x+3+4 y^{2}=16 \\Leftrightarrow 3(x-1)^{2}+(2 y)^{2}=16)% %(\\Rightarrow 0 \\leq(2 y)^{2} \\leq 16 \\Rightarrow(2 y)^{2} \\in\\{0 ; 1 ; 4 ; 9 ; 16\\} \\Rightarrow 2 y \\in\\{0 ; 2 ; 4\\})% (do 2 y chẵn và dương)%(\\Rightarrow y \\in\\{1 ; 2\\})% (do y nguyên dương)<br>+) Với %(y=1 \\Rightarrow 3(x-1)^{2}+4=16 \\Leftrightarrow(x-1)^{2}=4 \\Leftrightarrow\\left[\\begin{array}{l}x-1=2 \\\\ x-1=-2\\end{array} \\Rightarrow\\left[\\begin{array}{l}x=3 \\\\ x=-1\\end{array}\\right.\\right.)%<br>+) Với %(y=2 \\Rightarrow 3(x-1)^{2}+16=16 \\Leftrightarrow(x-1)^{2}=0 \\Rightarrow x=1)%<br>Vì %(x, y)% nguyên dương nên %(\\left[\\begin{array}{l}x=3 ; y=1 \\\\ x=1 ; y=2\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Cho %(a, b, c, d)% là các số nguyên thỏa %(a^{3}+d^{3}=11\\left(b^{3}-5 c^{3}\\right))%. Chứng minh rằng: %(M=a+b+c+d)% chia hết cho 6.",
+        "question_images": [],
+        "solution": "Ta có: %(a^{3}+d^{3}=11\\left(b^{3}-5 c^{3}\\right) \\Leftrightarrow a^{3}+b^{3}+c^{3}+d^{3}=11 b^{3}-54 c^{3})%<br>\\[\\left.\\begin{array}{l}12 b^{3}~\\vdots~ 6 \\\\54 c^{3}~\\vdots~6\\end{array}\\right\\} \\Rightarrow\\left(12 b^{3}-54 c^{3}\\right) \\vdots 6 \\Rightarrow\\left(a^{3}+b^{3}+c^{3}+d^{3}\\right)~ \\vdots~ 6\\]<br>Lại có: %(n^{3}-n=(n-1) n(n+1))%<br>Lập luận chứng minh được %((n-1) n(n+1) ~\\vdots ~6 \\Rightarrow\\left(n^{3}-n\\right): 6~(\\forall n \\in Z)~~~~~(1))%<br>\\[\\begin{array}{l}\\Rightarrow\\left[\\left(a^{3}-a\\right)+\\left(b^{3}-b\\right)+\\left(c^{3}-c\\right)+\\left(d^{3}-d\\right)\\right] ~\\vdots~ 6 \\\\Rightarrow\\left[\\left(a^{3}+b^{3}+c^{3}+d^{3}\\right)-(a+b+c+d)\\right]~ \\vdots~ 6~~~~~(2)\\end{array}\\]<br>Kết hợp (1) và (2), ta có điều phải chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Tìm %(n \\in N)% để %(B=n^{3}-n^{2}+n-1)% là số nguyên tố.",
+        "question_images": [],
+        "solution": "Phân tích được %(B=n^{3}-n^{2}+n-1=n^{2}(n-1)+(n-1)=(n-1)\\left(n^{2}+1\\right))%<br>Lập luận có được %(\\left[\\begin{array}{l}n^{2}+1=1 \\\\ n-1=1\\end{array} \\Rightarrow\\left[\\begin{array}{l}n=0~(\\mathrm{kmm}) \\\\ n=2 \\Rightarrow B=5\\end{array}\\right.\\right.)%<br>Vậy %(n=2)% thì %(\\mathrm{B}=5)% là số nguyên tố.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.5,
+        "content": "Cho đa thức %(f(x)=a x^{2}+b x+c)% với %(2 a+b=0)%. Chứng minh rằng %(f(-3).f(5) \\geq 0)%",
+        "question_images": [],
+        "solution": "Xét đa thức %(f(x)=a x^{2}+b x+c)%, ta có:<br>\\[\\begin{array}{l}f(-3)=a .(-3)^{2}+b(-3)+c=9 a-3 b+c \\f(5)=a . 5^{2}+b .5+c=25 a+5 b+c \\\\Rightarrow f(5)-f(-3)=16 a+8 b=8(2 a+b)=0 \\\\Rightarrow f(5)=f(-3) \\Rightarrow f(-3) . f(5)=[f(-3)]^{2} \\geq 0\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là các số thực dương thỏa mãn %(a+b+c=6)%. Tìm giá trị nhỏ nhất của biểu thức: %(A=\\frac{a^{3}}{a^{2}+b^{2}}+\\frac{b^{3}}{b^{2}+c^{2}}+\\frac{c^{3}}{c^{2}+a^{2}})%",
+        "question_images": [],
+        "solution": "Chứng minh được bất đẳng thức %(a^{2}+b^{2} \\geq 2 a b)%<br>Dấu bằng xảy ra khi %(a=b)%<br>Ta có: %(\\frac{a^{3}}{a^{2}+b^{2}}=a-\\frac{a b^{2}}{a^{2}+b^{2}} \\geq a-\\frac{a b^{2}}{2 a b}=a-\\frac{b}{2})%<br>Dấu bằng xảy ra khi %(a=b)%<br>Chứng minh tương tự: %(\\frac{b^{3}}{b^{2}+c^{2}} \\geq b-\\frac{c}{2})%<br>Dấu bằng xảy ra khi %(b=c ; \\frac{c^{3}}{a^{2}+b^{2}} \\geq c-\\frac{a}{2})%<br>Dấu bằng xảy ra khi %(c=a)% %(\\Rightarrow A=\\frac{a^{3}}{a^{2}+b^{2}}+\\frac{b^{3}}{b^{2}+c^{2}}+\\frac{c^{3}}{a^{2}+c^{2}} \\geq a+b+c-\\left(\\frac{a}{2}+\\frac{b}{2}+\\frac{c}{2}\\right)=\\frac{a+b+c}{2}=\\frac{6}{2}=3)%<br>Dấu bằng xảy ra khi %(\\left\\{\\begin{array}{l}a=b=c \\\\ a+b+c=6\\end{array} \\Rightarrow a=b=c=2\\right.)%<br>Vậy %(\\operatorname{Min}_ A=3 \\Leftrightarrow a=b=c=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(\\frac{3 x}{x^{2}+x+1}+\\frac{2 x}{x^{2}-x+1}=3)%",
+        "question_images": [],
+        "solution": "Điều kiện %(x \\in R)% vì %(x^{2}+x+1\\gt 0)% và %(x^{2}-x+1>0)% với mọi %(x \\in R)%<br>+) Với %(x=0 \\Rightarrow 0=3)% (vô lý)<br>+) Với %(x \\neq 0)%, ta có: %(\\frac{3 x}{x^{2}+x+1}+\\frac{2 x}{x^{2}-x+1}=3 \\Leftrightarrow \\frac{3}{x+1+\\frac{1}{x}}+\\frac{2}{x-1+\\frac{1}{x}}=3)%<br>Đặt %(x+\\frac{1}{x}=y)%.<br>Điều kiện %(y \\neq \\pm 1)%.<br>Khi đó ta có phương trình %(\\frac{3}{y+1}+\\frac{2}{y-1}=3)%<br>\\[\\begin{array}{l}\\Leftrightarrow 3(y-1)+2(y+1)=3(y-1)(y+1) \\Leftrightarrow 3 y-3+2 y+2=3 y^{2}-3 \\Leftrightarrow 3 y^{2}-5 y-2=0 \\\\Leftrightarrow(y-2)(3 y+1)=0 \\Leftrightarrow\\left[\\begin{array}{l}y=2 \\Rightarrow x+\\frac{1}{x}=2 \\Rightarrow x=1 \\y=-\\frac{1}{3} \\Rightarrow x+\\frac{1}{x}=-\\frac{1}{3}~(V N)\\end{array}\\right.\\end{array}\\]<br>Vậy phương trình có nghiệm duy nhất %(x=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "9",
+        "group_content": "Cho tứ giác %(A B C D)%, đường thẳng qua A song song với %(B C)% cắt BD ở E, đường thẳng qua B song song với %(A D)% cắt %(A C~ ở \\mathrm{~F})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.25,
+        "content": "a) Chứng minh %(E F / / C D)%.",
+        "question_images": [],
+        "solution": "+) Gọi O là giao điểm của AC và BD.<br>+) Áp dụng định lý Talet với %(\\triangle O B C)%, có:<br>%(A E / / B C)% nên %(\\frac{O E}{O B}=\\frac{O A}{O C}~~~~~(1))%<br>+) Tương tự với %(\\triangle O A D)%, có:<br>%(B F / / A D)% nên %(\\frac{O B}{O D}=\\frac{O F}{O A}~~~~~(2))%<br>+) Nhân (1) và (2) vế theo vế, ta có: %(\\frac{O E}{O D}=\\frac{O F}{O C})%.<br>+) Theo định lý Talet đảo ta có %(E F / / C D)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4890488b6462f079886fe079731764f9.png\" srcset=\"https://docdn.giainhanh.io/media/test/9c23294f525e29354d284b919c1c9ae3.png 198w, https://docdn.giainhanh.io/media/test/60cd7c319f8c55a4cbd82c39e987fac6.png 500w, https://docdn.giainhanh.io/media/test/76140a3387650587c328f1e88bccb09a.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.75,
+        "content": "b) Giả sử %(A B / / C D)%, chứng minh rằng %(A B^{2}=C D . E F)%",
+        "question_images": [],
+        "solution": "+) Áp dụng hệ quả Talet với %(\\triangle O D C)%, có:<br>%(A B / / C D)% nên %(\\frac{A B}{D C}=\\frac{O A}{O C}~~~~~(3))%<br>+) Tương tự vì %(A B / / C D \\Rightarrow A B / / E F \\Rightarrow \\frac{E F}{A B}=\\frac{O E}{O B}~~~~~(4))%<br>Kết hợp (1),(3) và (4), ta được: %(\\frac{A B}{C D}=\\frac{E F}{A B} \\Rightarrow A B^{2}=C D . E F)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "10",
+        "group_content": "Cho %(\\triangle A B C)% có %(\\widehat B=2 \\alpha ; \\widehat C=\\alpha)%. Đặt %(A B=c, B C=a, C A=b)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.75,
+        "content": "a) Chứng minh rằng %(b^{2}=c(c+a))%",
+        "question_images": [],
+        "solution": "+) Trên tia đối của tia BA lấy D sao cho %(B D=B C \\Rightarrow \\triangle B D C)% cân tại B, có %(\\widehat{ A B C}=2 \\alpha)% là góc ngoài nên %(\\widehat{ B C D}=\\widehat{ B D C}=\\alpha \\Rightarrow \\widehat{ A C D}=2 \\alpha)%<br>+) Chứng minh được %(\\triangle A C D \\backsim \\triangle A B C~(g . g))%<br>\\[\\Rightarrow \\frac{A C}{A B}=\\frac{A D}{A C} \\Rightarrow A C^{2}=A B .A D=A B(A B+B D)=A B .(A B+B C) \\Rightarrow b^{2}=c(a+c)\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f89f48faa4def0b407428661eb54ca8e.png\" srcset=\"https://docdn.giainhanh.io/media/test/9604ba5e2eded0facd512c39c8e14b79.png 202w, https://docdn.giainhanh.io/media/test/5353a4667240f4c3d83c967807e9abf4.png 500w, https://docdn.giainhanh.io/media/test/9bdc7142609b26a454ad2ae3e1e0aa6f.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.25,
+        "content": "b) Tính độ dài các cạnh của tam giác, biết rằng số đo các cạnh của tam giác là ba số tự nhiên liên tiếp.",
+        "question_images": [],
+        "solution": "+) Theo kết quả câu a, ta có %(b^{2}=c(c+a)=c^{2}+a c \\Rightarrow b\\gt c)%<br>+) Lại có %(a, b, c)% là ba số tự nhiên liên tiếp nên %(b=c+1)% hoặc %(b=c+2)%<br>+) Với %(b=c+1 \\Rightarrow(c+1)^{2}=c^{2}+a c \\Rightarrow c(a-2)=1 \\Rightarrow c=1 ; a=3 ; b=2~(\\mathrm{ktm}))%(vì ko là 3 cạnh %(\\Delta)%)<br>+) Với %(b=c+2 \\Rightarrow(c+2)^{2}=c^{2}+a c \\Rightarrow c(a-4)=4 \\Rightarrow c \\in\\{1 ; 2 ; 4\\})%<br>Lập luận xác định được %(a=5, b=6, c=4)% thỏa mãn điều kiện đề bài.",
+        "question_type": "essay"
+    }
+]

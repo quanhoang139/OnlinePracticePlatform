@@ -1,0 +1,120 @@
+[
+    {
+        "title": "1.1 ",
+        "point": 1.0,
+        "content": "Rút gọn biểu thức %(A=\\frac{a+2 \\sqrt{a}+1}{\\sqrt{a}-1} \\cdot\\left(\\frac{1}{\\sqrt{a}+1}-\\frac{2 \\sqrt{a}}{a \\sqrt{a}+\\sqrt{a}+a+1}\\right))%, với %(a \\geq 0, a \\neq 1)%.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{aligned}A & =\\frac{a+2 \\sqrt{a}+1}{\\sqrt{a}-1} \\cdot\\left(\\frac{1}{\\sqrt{a}+1}-\\frac{2 \\sqrt{a}}{(a+1)(\\sqrt{a}+1)}\\right) \\\\& =\\frac{(\\sqrt{a}+1)^{2}}{\\sqrt{a}-1} \\cdot \\frac{a+1-2 \\sqrt{a}}{(a+1)(\\sqrt{a}+1)} \\\\& =\\frac{(\\sqrt{a}+1)^{2}(\\sqrt{a}-1)^{2}}{(\\sqrt{a}-1)(a+1)(\\sqrt{a}+1)}=\\frac{a-1}{a+1}\\end{aligned}\\]<br>* Vậy %(A=\\frac{a-1}{a+1})%, với %(a \\geq 0, a \\neq 1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.2 ",
+        "point": 0.5,
+        "content": "Cho hai đường thẳng %(\\left(d_{1}\\right): y=2 x+4)% và %(\\left(d_{2}\\right): y=\\left(m^{2}-2\\right) x+m+2)%. Tìm %(m)% để %(\\left(d_{1}\\right))% và %(\\left(d_{2}\\right))% cắt nhau tai một điểm thuộc trục hoành.",
+        "question_images": [],
+        "solution": "%(+))% Điều kiện %(\\left(d_{1}\\right))% và %(\\left(d_{2}\\right))% cắt nhau: %(m \\neq-2, m \\neq 2)%<br>%(+)\\left(d_{1}\\right))% cắt %(O x)% tại tại %(A(-2 ; 0))%<br>%(+)\\left(d_{2}\\right))% qua %(A(-2 ; 0) \\Leftrightarrow 0=-2\\left(m^{2}-2\\right)+m+2 \\Leftrightarrow\\left[\\begin{array}{l}m=2 \\quad(L) \\\\ m=-\\frac{3}{2}\\end{array}\\right.)%<br>Vậy %(m=-\\frac{3}{2})% là giá trị cần tìm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.1 ",
+        "point": 1.0,
+        "content": "Cho số nguyên a , biết a chia cho 3 dư 2 và a chia cho 7 dư 3. Tìm số dư khi a chia cho 21.",
+        "question_images": [],
+        "solution": "Vì %(a)% chia cho 7 dư 3 nên %(a=7 k+3, k \\in \\mathbb{Z})%.<br>Đặt %(k=3 t+r(t, r \\in \\mathbb{Z} ; 0 \\leq r \\leq 2))%<br>Khi đó %(a=7(3 t+r)+3=21 t+7 r+3(t, r \\in \\mathbb{Z} ; 0 \\leq r \\leq 2))%<br>Vì %(a)% chia cho 3 dư 2 nên %(r=2)%.<br>Lúc đó %(a=21 t+14+3=21 t+17)%.<br>Vậy %(a)% chia cho 21 dư 17 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.2 ",
+        "point": 0.5,
+        "content": "Tìm tất cả các cặp số nguyên %((x ; y))% thỏa mãn %(x^{2}-x y=-4 x+2 y+1)%.",
+        "question_images": [],
+        "solution": "%({ }^{*})% Ta có %(x^{2}-x y=-4 x+2 y+1 \\Leftrightarrow x^{2}+4 x-1=(x+2) y)%.<br>%(* x=-2)% không thỏa, suy ra %(y=\\frac{x^{2}+4 x-1}{x+2}=x+2-\\frac{5}{x+2})%<br>Suy ra được %(x+2)% là ước của 5.<br>+) Tìm được các nghiệm %((-7 ;-4),(-3 ; 4),(-1 ;-4),(3 ; 4))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.1 ",
+        "point": 1.0,
+        "content": "Giải phương trình %((x-1)^{2}-x \\sqrt{x-1}+1=0)%.",
+        "question_images": [],
+        "solution": "Điều kiện %(x \\geq 1)%.<br>+ Pt tương đương %(x^{2}-x \\sqrt{x-1}-2(x-1)=0)%.<br>* Dễ thấy %(x=1)% không là nghiệm phương trình nên pt tương đương %(\\left(\\frac{x}{\\sqrt{x-1}}\\right)^{2}-\\frac{x}{\\sqrt{x-1}}-2=0)%.<br>* Giải được %(\\frac{x}{\\sqrt{x-1}}=2 \\Leftrightarrow x=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.2 ",
+        "point": 1.0,
+        "content": "Cho phương trình %(x^{2}-2(m+1) x+m^{2}+4 m-1=0)%, với %(m)% là tham số. Tìm tất cả các giá trị nguyên của %(m)% để phương trình có hai nghiệm phân biệt %(x_{1}, x_{2})% thỏa mãn giá trị của biểu thức %(\\frac{x_{1} \\cdot x_{2}}{x_{1}+x_{2}})% là số nguyên.",
+        "question_images": [],
+        "solution": "* %(\\Delta^{\\prime}=-2 m+2)%. Phương trình có hai nghiệm phân biệt %(\\Leftrightarrow m\\lt 1)%.<br>* %(\\frac{x_{1} \\cdot x_{2}}{x_{1}+x_{2}}=\\frac{m^{2}+4 m-1}{2(m+1)})%<br>* Ta có %(2 \\cdot \\frac{x_{1} \\cdot x_{2}}{x_{1}+x_{2}}=m+3-\\frac{4}{m+1})% là số nguyên nếu %((m+1) \\mid 4)%.<br>* Tìm được %(m=-3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.3 ",
+        "point": 0.5,
+        "content": "Cho 2 số dương %(a, b)% thỏa mãn điều kiện %(2024 a+1011 b \\leq 2023)%. Tìm giá trị nhỏ nhất của biểu thức %(P=\\frac{20}{a}+\\frac{23}{b}-1944 a-988 b)%.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}P=\\frac{20}{a}+\\frac{23}{b}-1944 a-988 b \\\\=20\\left(\\frac{1}{a}+4 a\\right)+23\\left(\\frac{1}{b}+b\\right)-1944 a-988 b-80 a-23 b \\\\=20\\left(\\frac{1}{a}+4 a\\right)+23\\left(\\frac{1}{b}+b\\right)-2024 a-1011 b \\\\geq 20.2 \\sqrt{\\frac{1}{a} \\cdot 4 a}+23.2 \\sqrt{\\frac{1}{b} \\cdot b}-(2024 a+1011 b) \\\\geq 20.2 .2+23.2-2023=-1897 \\\\text { Dấu \" }=\\text { \" xảy ra } \\Leftrightarrow\\left\\{\\begin{array} { l } { 2 0 2 4 a + 1 0 1 1 b = 2 0 2 3 } \\\\{ \\frac { 1 } { a } = 4 a } \\\\{ \\frac { 1 } { b } = b }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}a=\\frac{1}{2} \\b=1\\end{array}\\right.\\right. \\\\end{array}\\]<br>Vậy %(\\operatorname{Min} P=-1897)%, đạt được khi %(a=\\frac{1}{2}, b=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4.1 ",
+        "point": 1.0,
+        "content": "Cho tứ giác %(A B C D)% nội tiếp đường tròn %((O))%. Hai tia %(A B)% và %(D C)% cắt nhau tại %(E)% sao cho %(A E D=40^{\\circ})%, hai tia %(B C)% và %(A D)% cắt nhau tại %(F)% sao cho %(A F B=30^{\\circ})%. Tính số đo các góc trong của tứ giác %(A B C D)%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5b1f6ea66d8ed5ecba111813853752d6.png\" srcset=\"https://docdn.giainhanh.io/media/test/9e45069c6c9cd04df40c16bac6f56da9.png 224w, https://docdn.giainhanh.io/media/test/a33ae78903019e0329c21b49020078f7.png 500w\" width=\"500\"/><br>%(\\begin{array}{l}\\text { Ta có }\\left\\{\\begin{array}{l}A+B+30^{\\circ}=180^{\\circ} \\\\ A+D+40^{\\circ}=180^{\\circ} \\\\ B+D=180^{\\circ}\\end{array}\\right. \\\\ \\Rightarrow A=55^{\\circ} \\\\ \\Rightarrow B=95^{\\circ}, C=125^{\\circ}, D=85^{\\circ}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4.2",
+        "group_content": "Cho đường tròn %((O))% và %(B C)% là đây cung cố định khác đường kính của %((O), A)% là điểm di động trên cung lớn %(B C)% sao cho tam giác %(A B C)% có ba góc nhọn. Gọi %((I))% là đường tròn nội tiếp tam giác %(A B C)%. Tia phân giác của góc %(B A C)% cắt %((O))% tại %(D)% (khác %(A)% ).",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh tam giác %(D B I)% cân. Từ đó suy ra %(D)% là tâm đường tròn ngoại tiếp tam giác %(I B C)%.",
+        "question_images": [],
+        "solution": "<img/><img/><img/><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/084dabd19b143b085706ac5791c6d119.png\" srcset=\"https://docdn.giainhanh.io/media/test/4d2f8f665ed775e41fab7140559d1e5b.png 153w\" width=\"153\"/><br>Ta có %(B I D=I A B+I B A)% (tính chất góc ngoài của tam giác)%(=I A C+I B C)% (tính chất phân giác)%(=D B C+I B C=I B D)%<br>Vậy tam giác %(D B I)% cân tại %(D)%.<br>Vì %(A D)% là tia phân giác trong góc %(A)% nên %(D)% là điểm chính giữa của cung nhỏ %(B C)% hay %(D B=D C)%.<br>Vậy %(D B=D I=D C)% hay %(D)% là tâm đường tròn ngoại tiếp tam giác %(I B C)%.<br><img/><br><img/><br><img/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Gọi %(E, P, Q)% lần lượt là các tiếp điềm của %((I))% với %(B C, C A, A B)%. Đường thằng qua %(A)% và song song với %(B C)% cắt các tia %(E P, E Q)% lần lượt tại %(M, N)%. Gọi %(F)% là điểm đối xứng với %(E)% qua %(I)%. Chứng minh %(A M=A N)% và %(F)% là trực tâm tam giác %(E M N)%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/8b90ad73d9622d7c708fd57e275a8720.png\" srcset=\"https://docdn.giainhanh.io/media/test/8c2ff843433d15de6e346bb39d5561c9.png 186w, https://docdn.giainhanh.io/media/test/7c46f67f6f582bb0bc027da0b442f589.png 500w\" width=\"500\"/><br>Ta có:<br>%(A N Q=Q E B)% (so le trong)<br>%(Q E B=E Q B)% (tính chất tiếp tuyến)<br>%(E Q B=N Q A)% (đối đỉnh)<br>Vì thế %(A N Q=N Q A)%, nên tam giác %(A N Q)% cân tại %(A)% hay %(A N=A Q)%.<br>Chứng minh tương tự ta có %(A M=A P)%.<br>Mà %(A Q=A P)% (tính chất tiếp tuyến). Do đó %(A M=A N)% (đpcm).<br>* Tam giác %(Q M N)% có %(A M=A N=A Q)% nên vuông tại %(Q)%. Suy ra %(M Q \\perp N E)%<br>Mà %(F Q E=90^{\\circ} \\Rightarrow F Q \\perp N E)%. Từ đó ta có %(M, F, Q)% thẳng hàng. (1)<br>Lại có %(\\left\\{\\begin{array}{l}E F \\perp B C \\\\ B C / / M N\\end{array}\\right.)% nên %(E F \\perp M N)% (2)<br>Từ (1) và (2) suy ra %(F)% là trực tâm tam giác %(E M N)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Tiếp tuyến tại %(B)% và %(C)% của đường tròn %((O))% cắt nhau tại %(K)%. Gọi %(X, Y)% lần lượt là hình chiếu của %(K)% trên các đường thẳng %(A B)% và %(A C)%. Chứng minh rằng đường thẳng %(X Y)% luôn qua điểm cố định khi %(A)% thay đổi.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e6994ebb6f9af7df50475515e7b553bf.png\" srcset=\"https://docdn.giainhanh.io/media/test/2a29268cfc115ca4d53261cdd84b920c.png 142w, https://docdn.giainhanh.io/media/test/a1059a084271ddb6c6e8e7bba05e4b1b.png 454w\" width=\"454\"/><br>Gọi %(T)% là trung điểm của %(B C)%.<br>Rõ ràng các tứ giác %(B X K T, C Y K T)% nội tiếp.<br>Khi đó %(X B K=X T K)% và %(A C B=T K Y)%.<br>Ta có %(X B K=180^{\\circ}-A B C-C B K=180^{\\circ}-A B C-C A B=A C B)%<br>Từ đó suy ra %(X T K=T K Y)% suy ra %(X T / / K Y)%.<br>Chứng minh tương tự %(T Y / / X K)%.<br>Vậy %(X T Y K)% là hình bình hành nên %(X Y)% qua trung điểm %(Z)% của đoạn %(T K)%. Mà %(T K)% cố định %(Z)% cố định.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho số nguyên %(n \\geq 6)%. Xét một đa giác lồi %(n)% cạnh %(A_{1} A_{2} \\cdots A_{n})%. Người ta muốn kẻ một số đường chéo của đa giác sao cho các đường chéo này chia đa giác thành đúng %(k)% lục giác lồi không có điểm trong chung.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Với %(n=2022)% và %(k=505)%, hãy chỉ ra một cách chia đa giác đó.",
+        "question_images": [],
+        "solution": "Ta chia được như sau: Kẻ các đường chéo %(A_{1} A_{6}, A_{1} A_{10}, \\cdots, A_{1} A_{2018})%<br>Khi đó đa giác này được chia thành %(k=(2022-6): 4+1=505)% miền lục giác.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Với %(n=2023)% và %(k=505)%, ta có thể chia đa giác được không? Hãy giải thích.",
+        "question_images": [],
+        "solution": "Giả sử ta có thế chia đa giác lồi 2023 cạnh thành 505 lục giác lồi không có điểm trong chung bởi các đường chéo của nó. Gọi %(m)% là số giao điểm của các đường chéo nằm trong đa giác. Do mỗi đỉnh của lục giác lồi là đỉnh của đa giác đã cho hoặc là một trong %(m)% giao điểm của các đường chéo đã nêu nên tổng số đo tất cả các góc ở đỉnh của các lục giác này là %(m \\cdot 360^{\\circ}+(2023-2) \\cdot 180^{\\circ}=180^{\\circ}(2 m+2021))%.<br>Tổng số đo các góc ở đỉnh của 505 lục giác là %(505 \\cdot 4 \\cdot 180^{\\circ})%.<br>Ta có phương trình %(180^{\\circ}(2 m+2021)=505 \\cdot 4 \\cdot 180^{\\circ} \\Rightarrow m=-\\frac{1}{2})% (không thỏa).<br>Vậy ta không thể thực hiện được với %(n=2023)% và %(k=505)%.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "title": "1 ",
+        "point": 5.0,
+        "content": "Giải phương trình sau: %(\\left\\{\\begin{array}{l}y^{3}+3 x^{2} y=-28 \\\\ x^{2}-6 x y+y^{2}=6 x-10 y\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Ta có: %(\\left\\{\\begin{array}{l}y^{3}+3 x^{2} y=-28 \\\\ x^{2}-6 x y+y^{2}=6 x-10 y\\end{array}\\right.)%<br>Nhận xét<br>\\[\\begin{array}{l}y^{3}+3 x^{2} y=\\frac{\\left(y^{3}+3 y^{2} x+3 y x^{2}+x^{3}\\right)+\\left(y^{3}-3 y^{2} y+3 y x^{2}-x^{3}\\right)}{2}=\\frac{(y+x)^{3}+(y-x)^{3}}{2} \\y^{3}+3 x^{2} y=-28 \\Leftrightarrow \\frac{(y+x)^{3}+(y-x)^{3}}{2}=-28 \\Leftrightarrow\\left(\\frac{y+x}{2}\\right)^{3}+\\left(\\frac{y-x}{2}\\right)^{3}=-7 \\x=\\frac{y+x}{2}-\\frac{y-x}{2}, y=\\frac{y+x}{2}+\\frac{y-x}{2} . \\text { Đặt } a=\\frac{y+x}{2}, \\mathrm{~b}=\\frac{y-x}{2}\\end{array}\\]<br>Biến đổi hệ ban đầu về hệ: %(\\left\\{\\begin{array}{l}a^{3}+b^{3}=-7 \\\\ a^{2}-a=2\\left(b^{2}+2 b\\right)\\end{array}\\right.)%<br>\\[\\begin{array}{l}\\Leftrightarrow\\left\\{\\begin{array} { l } { a ^ { 3 } + b ^ { 3 } = - 7 } \\\\{ a ^ { 3 } - 3 a ^ { 2 } + 3 a - 1 = - ( b ^ { 3 } + 6 b ^ { 2 } + 1 2 b + 8 ) }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}a^{3}+b^{3}=-7 \\\\(a-1)^{3}=-(b+2)^{3}\\end{array}\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { b ^ { 2 } + b - 2 = 0 } \\\\{ a = - b - 1 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}a=1, b=-2 \\a=-2, b=1\\end{array}\\right.\\right.\\end{array}\\]<br>Tìm được %(\\left[\\begin{array}{l}x=3, y=-1 \\\\ x=-3, y=-1\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 5.0,
+        "content": "Cho tia Ax và điểm B cố định sao cho góc Bax nhọn, điểm C chạy trên tia Ax . Đường tròn nội tiếp tam giác %(A B C)% tiếp xúc với %(B C)% va %(f A C)% theo thứ tự của %(M)% và %(N)%. Chứng minh rằng, đường thẳng MN luôn đi qua một điểm cố định.",
+        "question_images": [],
+        "solution": "Gọi O là tâm đường tròn ngoại tiếp tam giác ABC , P là tiếp điểm đường tròn %((\\mathrm{O}))% với AB , giao điểm của MN với AO là I .<br>Do AO là tia phân giác góc BAx nên hai điểm P và N đối xứng nhau qua AO .<br>Suy ra %((\\mathrm{PI} ; \\mathrm{PO})=(\\mathrm{NI} ; \\mathrm{NO})=(\\mathrm{MI} ; \\mathrm{MO})(\\bmod \\pi)()% do tam giác MIN cân).<br>Từ đó suy ra 4 điểm %(\\mathrm{P}, \\mathrm{I}, \\mathrm{O}, \\mathrm{M})%, cùng thuộc một đường tròn (1).<br>Mặt khác %((\\mathrm{O}))% tiếp xúc với cạnh %(\\mathrm{AB}, \\mathrm{BC})% ở P và M nên %(\\overparen{O P B}=\\overparen{O B M}=90^{\\circ})% suy ra tứ giác AMBP nội tiếp đường tròn đường kính %(\\mathrm{BO}(2))%<br>Từ (1) và (2) suy ra 5 điểm %(\\mathrm{B}, \\mathrm{M}, \\mathrm{I}, \\mathrm{O})% và P cùng thuộc đường tròn bán kính BO .<br>Do đó %(\\overparen{B I O}=\\overparen{B P O}=90^{\\circ})% dẫn đến I là hình chiếu của P trên AO .<br>do góc BAx cố định và B cố định trên đường thẳng AO cố định và suy ra điểm I cố định.<br>Vậy đường thẳng MN đi qua điểm I cố định.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1baa1d5ee17e4cbdb1d83699139992b1.png\" srcset=\"https://docdn.giainhanh.io/media/test/c758c1f808338598757573eaeae2d110.png 245w, https://docdn.giainhanh.io/media/test/6c9c8661d10f2f51e2ec6604ea14be4a.png 500w, https://docdn.giainhanh.io/media/test/e1fc4d4ecf74ab326b2791471c59f9d9.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "3  ",
+        "point": 4.0,
+        "content": "Cho %(\\mathrm{x}, \\mathrm{y}, \\mathrm{z} \\in(0 ; 1))%. Chứng minh rằng:<br>\\[\\left(x-x^{2}\\right)\\left(y-y^{2}\\right)\\left(z-z^{2}\\right) \\geq(x-y z)(y-x z)(z-y x)\\]",
+        "question_images": [],
+        "solution": "Không mất tổng quát, giả sử %(x \\geq y \\geq z \\Rightarrow\\left\\{\\begin{array}{l}x-z y \\geq 0 \\\\ y-z x \\geq 0\\end{array}\\right.)% do %(x, y, z \\in(0 ; 1))%<br>+) Nếu %(\\mathrm{z}-\\mathrm{xy}\\lt 0)% khi đó VT %(\\leq 0 \\leq \\mathrm{VP})%, bất đẳn thức đúng.<br>+) Nếu %(\\mathrm{z}-\\mathrm{xy} \\geq 0)%, ta chứng minh bất đẳng thức sau: với mọi %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% thuộc %((0 ; 1))% ta có:<br>\\[\\sqrt{b c}(1-a) \\geq \\sqrt{(b-a c)(c-a b)}\\]<br>Thật vậy: %(\\sqrt{b c}(1-a) \\geq \\sqrt{(b-a c)(c-a b)} \\Leftrightarrow b c(1-a)^{2} \\geq(b-a c)(c-a b))%<br>\\[\\Leftrightarrow b c\\left(1-2 a+a^{2}\\right) \\geq b c-a b^{2}-a c^{2}+a^{2} b c \\Leftrightarrow a(b-c)^{2} \\geq 0\\]<br>Áp dụng bất đẳng thức trên cho %(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})% thuộc %((0 ; 1))% ta được<br>\\[\\begin{array}{l}\\sqrt{y z}(1-x) \\geq \\sqrt{(y-x z)(z-x y)} \\\\sqrt{z x}(1-y) \\geq \\sqrt{(z-x y)(x-y z)} \\\\sqrt{x y}(1-z) \\geq \\sqrt{(x-y z)(y-x z)}\\end{array}\\]<br>Nhân vế với vế của ba bất đẳng thức trên ta thu được:<br>\\[x y z(1-x)(1-y)(1-z) \\geq(x-y z)(y-x z)(z-x y) \\text { (điều phải chứng minh) }\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 4.0,
+        "content": "Tìm tất cả các cặp số nguyên dương %((\\mathrm{m} ; \\mathrm{n}))% sao cho %(m^{2}+n^{2}=p)% là số nguyên tố và %(m^{3}+n^{3}-4)% chi hết cho %(p)%.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}m^{3}+n^{3}-4 \\equiv 0(\\bmod p) \\Leftrightarrow-m n(m+n)-4 \\equiv 0(\\bmod p) \\\\Leftrightarrow 3 m n(m+n)+12 \\equiv 0(\\bmod p)\\end{array}\\]<br>Kết hợp %(m^{3}+n^{3}-4 \\equiv 0(\\bmod p))% suy ra %((m+n)^{3}+8 \\equiv 0(\\bmod p))%<br>\\[(m+n+2)\\left(m^{2}+n^{2}+2 m n-2 m-2 n+4\\right) \\equiv 0(\\bmod p)\\]<br>Do p là số nguyên tố nên có hai khả năng xảy ra:<br><strong>Trường hợp 1:</strong><br>Nếu %(m+n+2 \\vdots m^{2}+n^{2} \\leq m+n+2 \\Leftrightarrow m(m-1)+n(n-1) \\leq 2 \\Leftrightarrow\\left\\{\\begin{array}{l}m \\leq 2 \\\\ n \\leq 2\\end{array}\\right.)%Thử lại thấy %((m ; n)=(1 ; 2),(2 ; 1),(1 ; 1))% thỏa mãn<br><strong>Trường hợp 2:</strong> %(m^{2}+n^{2}+2 m n-2 m-2 n+4: m^{2}+n^{2})%, viết lại:<br>\\[\\begin{array}{l}m^{2}+n^{2}+2 m n-2 m-2 n+4=2[(m-1)(n-1)+1] \\\\leq(m-1)^{2}+(n-1)^{2}+2=\\left[(m-1)^{2}+1\\right]+\\left[(n-1)^{2}+1\\right] \\leq m^{2}+n^{2}\\end{array}\\]<br>Dấu bằng chỉ xảy ra khi %(\\mathrm{m}=\\mathrm{n}=1)%.<br>Vậy trong mọi trường hợp ta tìm các bộ số thỏa mãn là %((1 ; 2),(2 ; 1),(1 ; 1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Trên mạng lưới ô vuông vô hạn người ta điền vào mỗi ô vuông cơ sở 1 số thực sao cho mỗi số này bằng trung bình cộng với 4 số ở 4 hình vuông ở cơ sở có cạnh kề với nó.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng: nếu các số được điện vào các ô vuông cơ sở là những số nguyên dương thì các số đó phải bằng nhau.",
+        "question_images": [],
+        "solution": "Giả sử tồn tại một ô vuông cơ sở có chứa a mà 4 ô vuông cơ sở có cạnh liền kề có ít nhất một ô vuông có chứa số b a.<br>gọi c d e là ba số ở ba ô vuông cơ sở có cạnh liền kề còn lại.<br>Khi đó %(\\left\\{\\begin{array}{l}b\\gt a \\\\ c, d, e \\geq a\\end{array} \\Rightarrow \\frac{1}{4}(\\mathrm{~b}+\\mathrm{x}+\\mathrm{d}+\\mathrm{e})>\\mathrm{a}\\right.)% trái với giá thiết.<br>Như vậy nếu có một ô vuông có chứa số a thì 4 ô vuông có cạnh liền kề với nó cũng chứa số a.<br>Do đó tất cả các ô vuông đều chứa số a.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f108576a86b2fbb24aa5c73ab5a96440.png\" srcset=\"https://docdn.giainhanh.io/media/test/ac6da280b4fc8b0adc23dbdbad1838a7.png 155w\" width=\"155\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Nếu các số được điện là các số hữu tỉ thì các số được điền vào các ô vuông cơ sở đó cạnh kề với nó, có nhất thiết phải bằng nhau không? Giải thích?",
+        "question_images": [],
+        "solution": "Nếu các số được điền là các số hữu tỉ thì 4 số ở 4 ô vuông có cạnh liền kề với ô vuông cơ sở không nhất thiết phải bằng nhau.<br>Ta xây dựng một hệ trục tọa độ vuông góc có các trục tọa độ song song hoặc trùng với các cạnh của lưới ô vuông và có đơn vị trên mỗi trục bằng độ dài cạnh của ô vuông cơ sở. Ở mỗi hình vuông cơ sở ta điền một số bằng trung bình cộng hai tọa độ tâm của hình vuông đó.<br>Khi đó do tọa độ của tâm các hình vuông cơ sở đều là số hữu tỉ nên số đặt vào đó cũng là số hữu tỉ.Và số đặt vào 4 ô vuông cơ sở có cạnh kề với nó không bằng nhau.<br>Ta chứng minh số điền vào các ô vuông cơ sở bằng trung bình cộng của 4 số ở 4 ô vuông có cạnh liền kề với nó như sau:<br>Không mất tổng quát giả sử có hình vẽ bên.<br>Khi có tâm của 4 hình vuông cơ sở A B C D là 4 đỉnh của một hình vuông nhận tâm I của hình vuông cơ sở ở giữa làm tâm, nên dẫn đến tọa độ điểm I là trung bình cộng của độ của các điểm %(\\mathrm{A} B \\mathrm{C} \\mathrm{D})% do đó được đặt trong hình vuông tâm I là số hữu tỉ và là trung bình cộng của 4 số hữu tỉ được đặt trong các hình vuông tâm A B C D",
+        "question_type": "essay"
+    }
+]

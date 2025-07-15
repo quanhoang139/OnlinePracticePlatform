@@ -1,0 +1,42 @@
+[
+    {
+        "title": "1 ",
+        "point": 5.0,
+        "content": "Giải phương trình sau trên tập số thực:<br>\\[(6 x-3) \\sqrt{7-3 x}+(15-6 x) \\sqrt{3 x-2}=2 \\sqrt{-9 x^{2}+27 x-14}+11\\]",
+        "question_images": [],
+        "solution": "Điều kiện: %(\\frac{2}{3} \\leq x \\leq \\frac{7}{3})%<br>Đặt %(a=\\sqrt{7-3 x}, b=\\sqrt{3 x-2}(a, b \\geq 0))%. Suy ra<br>\\[\\begin{array}{l}\\left\\{\\begin{array}{l}a^{2}+b^{2}=5 \\\\left(2 b^{2}+1\\right) \\cdot a+\\left(2 a^{2}+1\\right) b=2 a b+11\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { s ^ { 2 } - 2 p = 5 } \\\\{ 2 s p + s = 2 p + 1 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { 2 p = s ^ { 2 } - 5 } \\\\{ s ( s ^ { 2 } - 5 ) + s = s ^ { 2 } - 5 + 1 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}2 p=s^{2}-5 \\s^{3}-s^{2}-4 s-6=0\\end{array}\\right.\\right.\\right. \\\\(s=a+b, p=a b) \\\\Leftrightarrow\\left\\{\\begin{array} { l } { 2 p = s ^ { 2 } - 5 } \\\\{ ( s - 3 ) ( s ^ { 2 } + 2 s + 2 ) = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { p = 2 } \\\\{ s = 3 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}\\left\\{\\begin{array} { l } { a = 2 } \\\\{ b = 1 } \\\\{ \\{ \\begin{array} { l } { a = 1 } \\\\{ b = 2 }\\end{array} }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=1 \\x-2\\end{array}\\right.\\right.\\end{array}\\right.\\right.\\right.\\end{array}\\]<br>Thử lại thỏa mãn. Vậy nghiệm phương trình là %(x=1)% hoặc %(x=2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 4.0,
+        "content": "Cho tam giác %(\\mathrm{ABC}(\\mathrm{BC}\\lt \\mathrm{AC}))%. Gọi M là trung điểm của %(\\mathrm{AB}, \\mathrm{AP})% vuông góc với BC tại P , BQ vuông góc với AC tại Q . Giả sử đường thẳng PQ cắt đường thẳng AB tại T . chứng minh rằng %(\\mathrm{TH} \\perp \\mathrm{CM})%, trong đó H là trực tâm tam giác ABC .",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{CD} \\perp \\mathrm{AB})% tại D . Khi đó %(\\mathrm{AP}, \\mathrm{BQ}, \\mathrm{CD})% đồng quy nên %(\\mathrm{T}, \\mathrm{B}, \\mathrm{D}, \\mathrm{A})% là hàng điểm điều hòa %(((T D B A)=-1))%.<br>Do đó ta có TM.TD = TA.TB.<br>Xét hai đường tròn ngoại tiếp hai tam giác CDM và ngoại tiếp tứ giác ABPQ , tâm của hai đường tròn này đều nằm trên CM .<br>Nhưng %(\\mathrm{TM} . \\mathrm{TD}=\\mathrm{TA} . \\mathrm{TB})% và %(\\mathrm{HP} . \\mathrm{HA}=\\mathrm{HQ} . \\mathrm{HB})% nên %(\\mathrm{H}, \\mathrm{T})% nằm trên trục đẳng phương của hai đường tròn nói trên.<br>Vậy %(\\mathrm{HT} \\perp \\mathrm{CM})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 4.0,
+        "content": "Cho hàm số %(f: \\mathbb{R} \\rightarrow \\mathbb{R})% ( %(\\mathbb{R})% là tập số thực) thỏa mãn %(f(f(x))=x^{3}+\\frac{3}{4} x)% với mọi %(x \\in \\mathbb{R})%.Chứng minh rằn tồn tại 3 số thực phân biệt %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% sao cho %(\\mathrm{f}(\\mathrm{a})+\\mathrm{f}(\\mathrm{b})+\\mathrm{f}(\\mathrm{c})=0)%",
+        "question_images": [],
+        "solution": "Đặt %(g(x)=x^{3}+\\frac{3}{4} x)% thì %(f(f(x))=g(x))%. Suy ra<br>\\[f(g(x))=f(f(f(x)))=g(f(x))\\]<br>Dễ thấy %(g(x))% là đơn ánh nên từ %(f(f(x))=g(x))% suy ra %(f(x))% cũng là đơn ánh.<br>Gọi %(x_{0})% là một điểm cố định của hàm %(g(x) \\Rightarrow g\\left(x_{0}\\right)=x_{o} \\Rightarrow x_{0} \\in\\left\\{0 ;-\\frac{1}{2} ; \\frac{1}{2}\\right\\})%.<br>Ta có %(f\\left(x_{0}\\right)=f\\left(g\\left(x_{0}\\right)\\right)=g\\left(f\\left(x_{0}\\right)\\right))%.<br>Suy ra %(f\\left(x_{0}\\right))% cũng là một điểm cố định của hàm %(g(x), f(x))% là một song ánh trên tâp %(D=\\left\\{0 ;-\\frac{1}{2} ; \\frac{1}{2}\\right\\})% nên:<br>\\[f\\left(-\\frac{1}{2}\\right)+f(0)+f\\left(\\frac{1}{2}\\right)=-\\frac{1}{2}+0+\\frac{1}{2}=0\\]<br>Từ đó ta có điều phải chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 4.0,
+        "content": "Giả sử %(\\mathrm{m}, \\mathrm{n})% là các số tự nhiên thỏa mãn: %(4 \\mathrm{~m}^{3}+\\mathrm{m}=12 \\mathrm{~m}^{3}+\\mathrm{n})%. Chứng minh rằng %(\\mathrm{m}-\\mathrm{n})% là lập phương của một số nguyên.",
+        "question_images": [],
+        "solution": "Ta có: %(a^{4}+b^{4}+c^{4}+a b c(a+b+c) \\geq k(a b+b c+c a)^{2})%<br>Vì bất đẳng thức đúng với mọi giá trị %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% nên đúng với %(a=b=c=1 \\Rightarrow k \\leq \\frac{2}{3})%<br>Ta chứng minh %(k=\\frac{2}{3})% là giá trị lớn nhất<br>Xét %(k=\\frac{2}{3})% bất đẳng thức trở thành %(a^{4}+b^{4}+c^{4}+a b c(a+b+c) \\geq \\frac{2}{3}(a b+b c+c a)^{2})%<br>\\[\\Leftrightarrow 3\\left(a^{4}+b^{4}+c^{4}\\right) \\geq\\left(a^{2} b^{2}+b^{2} c^{2}+c^{2} a^{2}\\right)+a b c(a+b+c)\\]<br>Áp dụng bất đẳng thức %(\\mathrm{AM}-\\mathrm{GM})% ta có:<br>\\[\\left(a^{4}+b^{4}\\right)+\\left(b^{4}+c^{4}\\right)+\\left(a^{4}+c^{4}\\right) \\geq 2 a^{2} b^{2}+2 b^{2} c^{2}+2 c^{2} a^{2}\\]<br>Suy ra %(\\Leftrightarrow 3\\left(a^{4}+b^{4}+c^{4}\\right) \\geq 3\\left(a^{2} b^{2}+b^{2} c^{2}+c^{2} a^{2}\\right))%<br>Mặt khác<br>\\[\\left(a^{2} b^{2}+b^{2} c^{2}+c^{2} a^{2}\\right)-a b c(a+b+c)=\\frac{1}{2}(a b-b c)^{2}+\\frac{1}{2}(b c-c a)^{2}+\\frac{1}{2}(c a-a b)^{2} \\geq 0\\]<br>Từ (2) và (3) suy ra (1) được chứng minh.<br>Vậy số %(k)% lớn nhất %(k=\\frac{2}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 3.0,
+        "content": "Tìm số nguyên dương %(n)% nhỏ nhất để %(2013^{n}-1)% chia hết cho %(2^{2014})%.",
+        "question_images": [],
+        "solution": "Xét %(n=2^{k} t)% với %(k, t)% là cac số tự hiên và %(t)% là số lẻ.<br>Đặt %(2013^{n}-1=a^{n}-1)%<br>\\[a^{n}-1=a^{2^{k} t}-1=\\left(a^{2^{k}}\\right)^{t}-1=\\left(a^{2^{k}}-1\\right)\\left[\\left(a^{2^{k}}\\right)^{t-1}+\\ldots+a^{2^{k}}+1\\right]\\]<br>Do %(t)% là số lẻ nên %(a^{n}-1: 2^{2014} \\Leftrightarrow a^{2^{k}}-1: 2^{2014})%<br>Ta có %(a^{2^{k}}-1=\\left(a^{2}-1\\right)\\left(a^{2}+1\\right)\\left(a^{k}+1\\right) \\ldots\\left(a^{2^{k-1}}+1\\right) a)% chia 4 dư 1 nên %(a^{2^{k-1}}+1)% chia 4 dư 2 .<br>Do đó %(a^{n}-1: 2^{2014} \\Leftrightarrow(k-1)+3 \\geq 2014)%<br>Từ đó suy ra giá trị nhỏ nhất của n cần tìm là %(n=2^{2012})%",
+        "question_type": "essay"
+    }
+]

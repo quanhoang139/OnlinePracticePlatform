@@ -1,0 +1,208 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.25,
+        "content": "Từ các chữ số 0,1, 2,3, 4,5 có thể lập được bao nhiêu số tự nhiên có hai chữ số khác nhau và chia hết cho 5 ?",
+        "question_images": [],
+        "labelA": "25",
+        "labelB": "10",
+        "labelC": "9",
+        "labelD": "20",
+        "correct_label": "labelC",
+        "solution": "Số tự nhiên có hai chữ số có dạng %(\\overline{a b})%.<br>Do %(\\overline{a b}: 5)% nên %(b=0)% hoặc %(b=5)%.<br>Với %(b=0)% thì có 5 cách chọn %(a)% (vì %(a \\neq b)% ).<br>Với %(b=5)% thì có 4 cách chọn %(a()% vì %(a \\neq b, a \\neq 0)% ).<br>Theo quy tắc cộng, có tất cả %(5+4=9)% số tự nhiên cần tìm.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "2 ",
+        "point": 0.25,
+        "content": "Từ một nhóm 5 người, chọn ra các nhóm ít nhất 2 người. Hỏi có bao nhiêu cách chọn?",
+        "question_images": [],
+        "labelA": "25",
+        "labelB": "26",
+        "labelC": "31",
+        "labelD": "32",
+        "correct_label": "labelB",
+        "solution": "Chọn nhóm có %(2,3,4,5)% người, ta lần lượt có %(C_{5}^{2}, C_{5}^{3}, C_{5}^{4}, C_{5}^{5})% cách chọn.<br>Vậy số cách chọn thỏa mãn là: %(C_{5}^{2}+C_{5}^{3}+C_{5}^{4}+C_{5}^{5}=26)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "3 ",
+        "point": 0.25,
+        "content": "Sai số tương đối %(\\delta_{a})% của số gần đúng %(a)% được cho bởi công thức nào sau đây? (Biết %(\\Delta_{a})% là sai số tuyệt đối của số gần đúng %(a)% ).",
+        "question_images": [],
+        "labelA": "%(\\delta_{a}=\\frac{\\Delta_{a}}{a})%.",
+        "labelB": "%(\\delta_{a}=\\frac{\\Delta_{a}}{|a|})%.",
+        "labelC": "%(\\delta_{a} \\leqslant \\frac{\\Delta_{a}}{a})%.",
+        "labelD": "%(\\delta_{a}=\\left|\\Delta_{a}-a\\right|)%.",
+        "correct_label": "labelB",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "4 ",
+        "point": 0.25,
+        "content": "Cho các số liệu thống kê về sản lượng chè thu được trong 1 năm (kg/sào) của 20 hộ gia đình. Tìm số trung bình của mẫu số liệu trên?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/8231b9f456cb1d1bce3938408dda4611.png"
+        ],
+        "labelA": "111.",
+        "labelB": "113,8",
+        "labelC": "113,6.",
+        "labelD": "113,9.",
+        "correct_label": "labelD",
+        "solution": "Số trung bình:<br>\\[\\bar{x}=\\frac{1.111+3.112+4.113+5.114+4.115+2.116+1.117}{20}=\\frac{1139}{10}=113,9 .\\]",
+        "question_type": "quiz"
+    },
+    {
+        "title": "5 ",
+        "point": 0.25,
+        "content": "Số nào sau đây mà giá trị của nó có tỉ lệ xuất hiện nhiều nhất trong mẫu số liệu?",
+        "question_images": [],
+        "labelA": "Số trung bình.",
+        "labelB": "Trung vị.",
+        "labelC": "Mốt.",
+        "labelD": "Một trong ba số của tứ phân vị.",
+        "correct_label": "labelC",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "6 ",
+        "point": 0.25,
+        "content": "Trong một chiếc hộp đựng 6 viên bi đỏ, 8 viên bi xanh, 10 viên bi trắng. Lấy ngẫu nhiên 4 viên bi. Tính số phần tử củabiến cố %(C)% : \" 4 viên bi lấy ra có đủ 3 màu\"?",
+        "question_images": [],
+        "labelA": "%(n(C)=4859)%.",
+        "labelB": "%(n(C)=58552)%.",
+        "labelC": "%(n(C)=5859)%.",
+        "labelD": "%(n(C)=8859)%.",
+        "correct_label": "labelC",
+        "solution": "Số cách lấy 4 viên bi chỉ có một màu là: %(C_{6}^{4}+C_{8}^{4}+C_{10}^{4})%.<br>Số cách lấy 4 viên bi có đúng hai màu là: %(C_{14}^{4}+C_{18}^{4}+C_{14}^{4}-2\\left(C_{6}^{4}+C_{8}^{4}+C_{10}^{4}\\right))%.<br>Số cách lấy 4 viên bi có đủ ba màu là: %(C_{24}^{4}-\\left(C_{14}^{4}+C_{18}^{4}+C_{14}^{4}\\right)+\\left(C_{6}^{4}+C_{8}^{4}+C_{10}^{4}\\right)=5859)%.<br>Suy ra %(n(C)=5859)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "7 ",
+        "point": 0.25,
+        "content": "Rút ngẫu nhiên một lá bài từ bộ bài 52 lá. Xác suất để được lá bích là:",
+        "question_images": [],
+        "labelA": "%(\\frac{1}{13})%.",
+        "labelB": "%(\\frac{1}{4})%.",
+        "labelC": "%(\\frac{12}{13})%.",
+        "labelD": "%(\\frac{3}{4})%.",
+        "correct_label": "labelB",
+        "solution": "Số phần tử của không gian mẫu là %(n(\\Omega)=C_{52}^{1})%.<br>Một bộ bài gồm có 13 lá bài bích.<br>Biến cố xuất hiện có số phần tử %(n(A)=C_{13}^{1})%.<br>Vậy xác suất cần tính là %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{C_{13}^{1}}{C_{52}^{1}}=\\frac{1}{4})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "8 ",
+        "point": 0.25,
+        "content": "Trong mặt phẳng %(O x y)%, cho %(A\\left(x_{A} ; y_{A}\\right), B\\left(x_{B} ; y_{B}\\right))% và %(C\\left(x_{C} ; y_{C}\\right))%. Tọa độ trọng tâm %(G)% của tam giác %(A B C)% là:",
+        "question_images": [],
+        "labelA": "%(G\\left(\\frac{x_{A}-x_{B}+x_{C}}{3} ; \\frac{y_{A}+y_{B}+y_{C}}{3}\\right))%.",
+        "labelB": "%(G\\left(\\frac{x_{A}+x_{B}+x_{C}}{3} ; \\frac{y_{A}+y_{B}+y_{C}}{2}\\right))%.",
+        "labelC": "%(G\\left(\\frac{x_{A}+x_{B}+x_{C}}{3} ; \\frac{y_{A}+y_{B}+y_{C}}{3}\\right))%.",
+        "labelD": "%(G\\left(\\frac{x_{A}+x_{B}+x_{C}}{2} ; \\frac{y_{A}+y_{B}+y_{C}}{3}\\right))%.",
+        "correct_label": "labelC",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "9 ",
+        "point": 0.25,
+        "content": "Hệ số góc của đường thẳng đi qua %(O(0 ; 0) ; A(2 ;-3))% là:",
+        "question_images": [],
+        "labelA": "-3",
+        "labelB": "-2",
+        "labelC": "%(\\frac{-3}{2})%",
+        "labelD": "%(\\frac{-2}{3})%",
+        "correct_label": "labelC",
+        "solution": "VTCP của đường thẳng %(O A)% là %(\\overrightarrow{O A}=(2 ;-3) \\Rightarrow)% hệ số góc là %(\\frac{-3}{2})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "10 ",
+        "point": 0.25,
+        "content": "Xác định vị trí tương đối của hai đường thẳng %(\\Delta_{1})% : %(\\left\\{\\begin{array}{l}x=3+\\sqrt{2} t \\\\ y=1-\\sqrt{3} t\\end{array}\\right.)% và %(\\Delta_{2}:\\left\\{\\begin{array}{l}x=2+\\sqrt{3} t \\\\ y=1+\\sqrt{2} t\\end{array}\\right.)%",
+        "question_images": [],
+        "labelA": "Song song.",
+        "labelB": "Cắt nhau nhưng không vuông góc",
+        "labelC": "Trùng nhau.",
+        "labelD": "Vuông góc.",
+        "correct_label": "labelD",
+        "solution": "Hai đường thẳng có cặp vectơ chỉ phương %(\\vec{u}_{1}=(\\sqrt{2} ;-\\sqrt{3}), \\vec{u}_{2}=(\\sqrt{3} ; \\sqrt{2}))%<br>Ta có: %(\\overrightarrow{u_{1}} \\cdot \\overrightarrow{u_{2}}=\\sqrt{2} \\cdot \\sqrt{3}-\\sqrt{3} \\cdot \\sqrt{2}=0)% nên hai đường thẳng %(\\Delta_{1}, \\Delta_{2})% vuông góc nhau.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "11 ",
+        "point": 0.25,
+        "content": "Cho đường tròn %(x^{2}+y^{2}+5 x+7 y-3=0)%. Tìm khoảng cách %(d)% từ tâm đường tròn tới trục %(O x)%.",
+        "question_images": [],
+        "labelA": "%(d=5)%.",
+        "labelB": "%(d=\\frac{7}{2})%.",
+        "labelC": "%(d=\\frac{5}{2})%.",
+        "labelD": "%(d=7)%.",
+        "correct_label": "labelB",
+        "solution": "Đường tròn có tâm %(I\\left(-\\frac{5}{2} ;-\\frac{7}{2}\\right))%; khoảng cách từ %(I)% đến trục %(O x)% là %(d=\\frac{7}{2})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "12 ",
+        "point": 0.25,
+        "content": "Trong mặt phẳng %(O x y)%, tìm tiêu cự của elip %((E): \\frac{x^{2}}{25}+\\frac{y^{2}}{16}=1)%.",
+        "question_images": [],
+        "labelA": "3",
+        "labelB": "6",
+        "labelC": "4",
+        "labelD": "5",
+        "correct_label": "labelB",
+        "solution": "Ta có: %(\\left\\{\\begin{array}{l}a^{2}=25 \\\\ b^{2}=16\\end{array} \\Rightarrow c^{2}=a^{2}-b^{2}=9 \\Rightarrow c=3\\right.)%. Vậy tiêu cự %(2 c=6)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "17 ",
+        "point": 0.5,
+        "content": "Với giá trị nào của %(m)% thì hai đường thẳng %(\\Delta_{1}: 2 x-3 m y+10=0)% và %(\\Delta_{2}: m x+4 y+1=0)% cắt nhau?",
+        "question_images": [],
+        "solution": "Hai đường thẳng %(\\Delta_{1}, \\Delta_{2})% có cặp vectơ pháp tuyến %(\\vec{n}_{1}=(2 ;-3 m), \\vec{n}_{2}=(m ; 4))%.<br>Điều kiện để %(\\Delta_{1})% cắt %(\\Delta_{2})% là %(\\vec{n}_{1}, \\vec{n}_{2})% không cùng phương<br>%(\\Leftrightarrow 2.4 \\neq-3 m \\cdot m \\Leftrightarrow m^{2} \\neq-\\frac{8}{3})% (đúng với mọi %(m \\in \\mathbb{R})% ).<br>Vậy với mọi số thực %(m)% thì %(\\Delta_{1}, \\Delta_{2})% luôn cắt nhau tại một điểm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "18 ",
+        "point": 0.5,
+        "content": "Cho Parabol %((P): y^{2}=16 x)% và đường thẳng %((d): x=a(a\\gt 0))%. Tìm %(a)% để %((d))% cắt %((P))% tại hai điểm phân biệt %(A)% và %(B)% sao cho %(\\widehat{A O B}=120^{\\circ})%.",
+        "question_images": [],
+        "solution": "Tìm %(a)% để %((d))% cắt %((P))% tại hai điểm phân biệt %(A)% và %(B)% sao cho %(\\widehat{A O B}=120^{\\circ})%.<br>Ta có: %(x=a \\Rightarrow y^{2}=16 a \\Rightarrow y= \\pm 4 \\sqrt{a}(a\\gt 0) \\Rightarrow A(a ;-4 \\sqrt{a}), B(a ; 4 \\sqrt{a}))%.<br>\\[\\begin{array}{l}\\widehat{A O B}=120^{\\circ} \\Leftrightarrow(\\overrightarrow{O A}, \\overrightarrow{O B})=120^{\\circ} \\Leftrightarrow \\cos (\\overrightarrow{O A}, \\\\Leftrightarrow \\frac{a^{2}-16 a}{\\sqrt{a^{2}+16 a} \\cdot \\sqrt{a^{2}+16 a}}=-\\frac{1}{2} \\Leftrightarrow a=\\frac{16}{3}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "19 ",
+        "point": 0.5,
+        "content": "Tính tổng sau %(S=C_{10}^{0}+C_{10}^{1}+\\ldots+C_{10}^{10})%.",
+        "question_images": [],
+        "solution": "Xét khai triển %((a+b)^{10}=\\sum_{k=0}^{10} C_{10}^{k} a^{10-k} b^{k})%.<br>Ta chọn %(a=b=1)%, thu được %((1+1)^{10}=C_{10}^{0}+C_{10}^{1}+\\ldots+C_{10}^{10})%.<br>Vậy %(S=2^{10}=1024)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "20 ",
+        "point": 0.5,
+        "content": "Gieo đồng thời hai viên xúc xắc cân đối và đồng chất. Tính xác suất để tổng số chấm xuất hiện trên hai viên xúc xắc bằng: 12 .",
+        "question_images": [],
+        "solution": "Ta có %(n(\\Omega)=36)%.<br>Gọi %(B)% là biến cố tổng số chấm trên hai viên xúc xắc bằng 12 .<br>%(B=\\{(6 ; 6)\\})%. Do đó, ta có %(n(B)=1)%.<br>Vậy xác suất của biến cố %(B)% là: %(P(B)=\\frac{n(B)}{n(\\Omega)}=\\frac{1}{36})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "21 ",
+        "point": 0.5,
+        "content": "Mẫu số liệu sau là thống kê số tiền (triệu đồng) mua phân bón %(X Y Z)% trong một vụ mùa của 15 hộ nông dân ở một khu vực nông thôn được khảo sát:<br>\\[\\begin{array}{lllllllllllllll}2,4 & 1,2 & 1,1 & 0,8 & 3,5 & 1,6 & 1,8 & 1,2 & 1,3 & 0,7 & 4,1 & 4,8 & 3,6 & 2,9 & 2,6\\end{array}\\]<br>Tìm độ lệch chuẩn của mẫu số liệu đã cho?",
+        "question_images": [],
+        "solution": "Giá trị trung bình là: %(\\bar{x}=\\frac{2,4+1,2+\\ldots+2,9+2,6}{15}=2,24)% (triệu đồng).<br>Phương sai là: %(s^{2}=\\frac{1}{15}\\left[\\left(x_{1}-\\bar{x}\\right)^{2}+\\left(x_{2}-\\bar{x}\\right)^{2}+\\ldots+\\left(x_{15}-\\bar{x}\\right)^{2}\\right]=1,5624)%.<br>Độ lệch chuẩn: %(s=\\sqrt{s^{2}} \\approx 1,25)% (triệu đồng).",
+        "question_type": "essay"
+    },
+    {
+        "title": "22 ",
+        "point": 0.5,
+        "content": "Cho %(A(-1 ; 0), B(2 ; 4))% và %(C(4 ; 1))%. Biết rằng tập hợp các điểm %(M)% thoả mãn %(3 M A^{2}+M B^{2}=2 M C^{2})% là một đường tròn %((C))%. Tìm tính bán kính của %((C))%.",
+        "question_images": [],
+        "solution": "Gọi %(M(x ; y))%. Ta có: %(3 M A^{2}+M B^{2}=2 M C^{2})%<br>\\[\\begin{array}{l}\\Leftrightarrow 3\\left[(x+1)^{2}+y^{2}\\right]+(x-2)^{2}+(y-4)^{2}=2\\left[(x-4)^{2}+(y-1)^{2}\\right] \\\\Leftrightarrow 3 x^{2}+3 y^{2}+6 x+3+x^{2}+y^{2}-4 x-8 y+20=2 x^{2}+2 y^{2}-16 x-4 y+34 \\\\Leftrightarrow 2 x^{2}+2 y^{2}+18 x-4 y-11=0 \\Leftrightarrow x^{2}+y^{2}+9 x-2 y-\\frac{11}{2}=0\\left(^{*}\\right)\\end{array}\\]<br>Đặt %(a=-\\frac{9}{2}, b=1, c=-\\frac{11}{2})%.<br>Ta có %(a=-\\frac{9}{2}, b=1, c=-\\frac{11}{2} a^{2}+b^{2}-c=\\frac{107}{4}\\gt 0)% nên %((*))% là phương trình của một đường tròn (tức đường tròn %((C))% ).<br>Bán kính của %((C))% là: %(R=\\frac{\\sqrt{107}}{2})%.",
+        "question_type": "essay"
+    }
+]

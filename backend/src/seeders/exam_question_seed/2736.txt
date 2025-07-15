@@ -1,0 +1,57 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %((x-2012)^{3}+(2 x-2013)^{3}+(4025-3 x)^{3}=0)%.",
+        "question_images": [],
+        "solution": "Đặt %(a=x-2012 ; b=2 x-2013 \\Rightarrow 4025-3 x=-(a+b))%.<br>Khi đó PT đã cho trở thành: %(a^{3}+b^{3}=(a+b)^{3})%<br>\\[\\Leftrightarrow(a+b)\\left(a^{2}+b^{2}-a b\\right)=(a+b)^{3} \\Leftrightarrow(a+b) a b=0 \\Leftrightarrow\\left[\\begin{array}{ll}a+b=0 & (1) \\a b=0 & (2)\\end{array}\\right.\\]<br>(1) %(\\Leftrightarrow 3 x-4025=0 \\Leftrightarrow x=\\frac{4025}{3})%<br>%((2) \\Leftrightarrow\\left[\\begin{array}{l}x-2012=0 \\\\ 2 x-2013=0\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=2012 \\\\ x=\\frac{2013}{2}\\end{array}\\right.\\right.)%<br>Vậy phương trình có nghiệm %(x=\\frac{4025}{3}, x=2012)% và %(x=\\frac{2013}{2})%.<br><img/><br><img/><br><img/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các bộ hai số chính phương %((n ; m))%, mỗi số có đúng 4 chữ số, biết rằng mỗi chữ số của %(m)% bằng chữ số tương ứng của %(n)% cộng thêm với %(d)%, ở đây %(d)% là một số nguyên dương nào đó cho trước.",
+        "question_images": [],
+        "solution": "Đặt %(n=x^{2}=p \\cdot 10^{3}+q \\cdot 10^{2}+r \\cdot 10+s, m=y^{2}=(p+d) \\cdot 10^{3}+(q+d) \\cdot 10^{2}+(r+d) \\cdot 10+(s+d))% Ở đây %(x, y, p, q, r, s \\in \\mathbb{N})%;<br>\\[1 \\leq p\\lt p+d \\leq 9 ; 0 \\leq q\\lt q+d \\leq 9 ; 0 \\leq r\\lt r+d \\leq 9 ; 0 \\leq s\\lt s+d \\leq 9\\]<br>Khi đó %((y+x)(y-x)=y^{2}-x^{2}=d \\times 1111=d \\times 11 \\times 101)%<br>Từ (1) suy ra số nguyên tố 101 là ước của %(y-x)% hoặc %(y+x)%.<br>Do %(10^{3} \\leq n\\lt m\\lt 10^{4})% nên %(32 \\leq x\\lt y \\leq 99)%.<br>Do đó, %(64 \\leq x+y\\lt 200,0\\lt y-x \\leq 67)%<br>%(\\Rightarrow y+x=101, y-x=11 \\times d)%. Do đó %(x)% và %(y)% khác tính chắn lẻ, %(d)% lẻ.<br>Do %(64 \\leq 2 x=101-11 d)% nên %(11 d \\leq 37)%. Suy ra %(d \\leq 3)%, vậy %(d=1)% hoặc %(d=3)%.<br>Với %(d=1)% thì %(x+y=101, y-x=11)% suy ra %((x ; y)=(45 ; 56))% do đó%((n ; m)=(2025 ; 3136))%<br>Với %(d = 3)% thì %(\\left( n ; m \\right ) = \\left( 1156 ; 4489 \\right ))% suy ra %(\\left( x ; y \\right ) = \\left( 34 ; 67 \\right ))% do đó %(\\left( 1156 ; 4489 \\right ))%<br>Vậy có 2 bộ số thoả mãn: %(\\left( 2025 ; 3136 \\right ))% và %(x + y = 101 , y - x = 33)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Cho các số thực dương %(a, b, c)% thỏa mãn %(a b c \\leq 1)%. Chứng minh rằng:<br>%(\\frac{a}{b^{3}}+\\frac{b}{c^{3}}+\\frac{c}{a^{3}} \\geq a+b+c)%.",
+        "question_images": [],
+        "solution": "Do %(1 \\geq a b c)%, suy ra %(\\frac{1 . a}{b^{3}}+\\frac{1 . b}{c^{3}}+\\frac{1 . c}{a^{3}} \\geq \\frac{a^{2} c}{b^{2}}+\\frac{b^{2} a}{c^{2}}+\\frac{c^{2} b}{a^{2}})% Ta có: %(\\frac{a^{2} c}{b^{2}}+\\frac{b^{2} a}{c^{2}}+c \\geq 3 a ; \\frac{b^{2} a}{c^{2}}+\\frac{c^{2} b}{a^{2}}+a \\geq 3 b ; \\frac{c^{2} b}{a^{2}}+\\frac{a^{2} c}{b^{2}}+b \\geq 3 c)%<br>%(\\begin{array}{l}\\Rightarrow 2\\left(\\frac{a^{2} c}{b^{2}}+\\frac{b^{2} a}{c^{2}}+\\frac{c^{2} b}{a^{2}}\\right)+a+b+c \\geq 3(a+b+c) \\Leftrightarrow \\frac{a^{2} c}{b^{2}}+\\frac{b^{2} a}{c^{2}}+\\frac{c^{2} b}{a^{2}} \\geq a+b+c \\\\ \\Rightarrow \\frac{a}{b^{3}}+\\frac{b}{c^{3}}+\\frac{c}{a^{3}} \\geq a+b+c . \\\\ \\text { Dấu \" }=\\text { \" xảy ra } \\Leftrightarrow a=b=c=1 .\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Gọi %(I)% là tâm đường tròn nội tiếp của tam giác %(A B C)%. Đường thẳng đi qua %(I)% và vuông góc với %(C I)% theo thứ tự cắt các cạnh %(C A)% và %(C B)% tại %(M)% và %(N)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng các tam giác %(A M I, A I B)% và %(I N B)% đôi một đồng dạng.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/eb577bf37ae1f903532bf4f9233a9733.png\" srcset=\"https://docdn.giainhanh.io/media/test/5a50e62fa9b3cd5d75312b2f51a5be48.png 245w\" width=\"245\"/><br><br>Gọi %(D)% là chân đường phân giác trong của góc %(\\angle B C A)%.<br>Theo tính chất góc ngoài của tam giác, ta có<br>\\[\\begin{array}{l}\\angle A M I=\\angle M I C+\\angle I C M=90^{\\circ}+\\frac{C}{2} ; \\angle I N B=\\angle N I C+\\angle I C N=90^{\\circ}+\\frac{C}{2} \\\\angle A I B=\\angle A I D+\\angle D I B=(\\angle I A C+\\angle A C I)+(\\angle I B C+\\angle I C B)=\\frac{C}{2}+90^{\\circ} \\\\Rightarrow \\angle A M I=\\angle I N B=\\angle A I B . \\text { Mặt khác do } \\angle I A M=\\angle I A D ; \\angle I B N=\\angle I B A \\\\text { Từ đó suy ra } \\triangle A M I \\sim \\triangle A I B \\sim \\triangle I N B \\text { (g.g) }\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b)  Chứng minh rằng %(B C \\cdot A I^{2}+C A \\cdot B I^{2}+A B \\cdot C I^{2}=A B \\cdot B C \\cdot C A)%",
+        "question_images": [],
+        "solution": "Do %(\\triangle A M I \\sim \\triangle I N B)% nên %(\\frac{A M}{M I}=\\frac{I N}{N B} \\Rightarrow A M \\cdot N B=M I \\cdot I N=I M^{2})%<br>Suy ra<br>\\[\\begin{aligned}A M \\cdot N B & =C M^{2}-C I^{2}=C M \\cdot C N-C I^{2}=(C A-A M)(C B-B N)-C I^{2} \\\\& =C A \\cdot C B-A M \\cdot B C-C A \\cdot B N+A M \\cdot B N-C I^{2}\\end{aligned}\\]<br><br>\\[C A \\cdot B C=A M \\cdot B C+B N \\cdot C A+C I^{2}\\]<br>Do đó<br>\\[\\Rightarrow C A \\cdot B C \\cdot A B=A M \\cdot B C \\cdot A B+B N \\cdot C A \\cdot A B+C I^{2} \\cdot A B\\]<br>Mặt khác, do %(\\triangle A M I \\sim \\triangle A I B \\sim \\triangle I N B)% nên %(\\frac{A I}{A M}=\\frac{A B}{A I} ; \\frac{I B}{A B}=\\frac{N B}{I B})%<br>\\[\\Rightarrow A M \\cdot A B=A I^{2} ; B N \\cdot A B=B I^{2}\\]<br>Từ (1) và (2) suy ra điều phải chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho trước số nguyên dương %(n)% lẻ. Tại mỗi ô vuông của bàn cờ kích thước %(n \\times n)% người ta viết một số +1 hoặc -1 . Gọi %(a_{k})% là tích của tất cả những số ghi trên hàng thứ %(k)% (tính từ trên xuống) và %(b_{k})% là tích của tất cả những số ghi trên cột thứ %(k)% (tính từ trái sang). Chứng minh rằng với mọi cách điền số như trên, đều có: %(a_{1}+a_{2} \\cdots+a_{n}+b_{1}+b_{2}+\\cdots+b_{n} \\neq 0)%.",
+        "question_images": [],
+        "solution": "+ Chỉ ra %(a_{k} \\in\\{-1 ;+1\\}, b_{k} \\in\\{-1 ;+1\\}, a_{k}+b_{l} \\in\\{-2 ; 0 ;+2\\}(k, l \\in\\{1,2, \\ldots n\\}))%.<br>+ Nếu đổi dấu của số ở một ô vuông thuộc hàng %(k)% và cột %(/)% thì các số %(a_{k})% và %(b_{l})% cũng đổi dấu theo, các số còn lại (của dãy %(a_{1}, a_{2}, \\ldots, a_{n}, b_{1}, b_{2}, \\ldots, b_{n})% ) không đổi dấu. Hơn nữa, khi đó tổng %(a_{k}+b_{l})% không đổi, hoăc tăng thêm 4 hoăc giảm đi 4.<br>+ Môi bảng với một cách điền số nào đó, đều được suy ra từ bảng gồm toàn số +1 bănng cách thực hiện đổi dấu một số phần tử. Tổng %(a_{1}+a_{2}+\\cdots+a_{n}+b_{1}+b_{2}+\\cdots+b_{n})% của bảng sau khi đổi kém tổng %(a_{1}+a_{2}+\\cdots+a_{n}+b_{1}+b_{2}+\\cdots+b_{n})% của bảng toàn số 1 một số là bội của 4 .+ Khi đó tổng của bảng sau khi đổi %(a_{1}+a_{2}+\\cdots+a_{n}+b_{1}+b_{2}+\\cdots+b_{n} \\equiv 2 n(\\bmod 4))%<br>Do %(n)% lẻ nên %(a_{1}+a_{2}+\\cdots+a_{n}+b_{1}+b_{2}+\\cdots+b_{n} \\equiv 2(\\bmod 4))%<br>Vậy, với mọi cách điền số, luôn có %(a_{1}+a_{2}+\\cdots+a_{n}+b_{1}+b_{2}+\\cdots+b_{n} \\neq 0)%.",
+        "question_type": "essay"
+    }
+]

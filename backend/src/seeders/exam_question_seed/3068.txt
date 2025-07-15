@@ -1,0 +1,119 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "Cho hai biểu thức : %(A=\\frac{x+2}{\\sqrt{x}})% và %(B=\\frac{2 \\sqrt{x}-3}{\\sqrt{x}-1}+\\frac{3-\\sqrt{x}}{x-1})% với %(x\\gt 0 ; x \\neq 1)%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.75,
+        "content": "a)Tính giá trị của biểu thức %(\\mathrm{A})% khi %(\\mathrm{x}=9)%",
+        "question_images": [],
+        "solution": "a) Thay %(x=9)% (thỏa mãn điều kiện) vào biểu thức %(\\mathrm{A})% ta được:<br>\\[A=\\frac{9+2}{\\sqrt{9}} \\Rightarrow A=\\frac{9+2}{3}=\\frac{11}{3}\\]<br>Vậy khi %(x=9)% thì %(A=\\frac{11}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.75,
+        "content": "b)Chứng minh %(\\mathrm{B}=\\frac{2 \\sqrt{\\mathrm{x}}}{\\sqrt{\\mathrm{x}}+1})%",
+        "question_images": [],
+        "solution": "Với %(x\\gt 0, x \\neq 1)%.<br>ta có: %(B=\\frac{2 \\sqrt{x}-3}{\\sqrt{x}-1}+\\frac{3-\\sqrt{x}}{x-1})% %(=\\frac{(2 \\sqrt{x}-3)(\\sqrt{x}+1)}{(\\sqrt{x}-1)(\\sqrt{x}+1)}+\\frac{3-\\sqrt{x}}{(\\sqrt{x}-1)(\\sqrt{x}+1)})% %(=\\frac{2 x+2 \\sqrt{x}-3 \\sqrt{x}-3+3-\\sqrt{x}}{(\\sqrt{x}-1)(\\sqrt{x}+1)})% %(=\\frac{2 x-2 \\sqrt{x}}{(\\sqrt{x}-1)(\\sqrt{x}+1)}=\\frac{2 \\sqrt{x}(\\sqrt{x}-1)}{(\\sqrt{x}-1)(\\sqrt{x}+1)})% %(=\\frac{2 \\sqrt{x}}{\\sqrt{x}+1})%<br>Vậy %(B=\\frac{2 \\sqrt{x}}{\\sqrt{x}+1}(\\mathrm{dpcm}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 0.5,
+        "content": "c)Tìm tất cả các giá trị của %(x)% để %(A \\cdot B=4)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { c) với } x\\gt 0, x \\neq 1 \\text {. ta có: } A \\cdot B=\\frac{x+2}{\\sqrt{x}} \\cdot \\frac{2 \\sqrt{x}}{\\sqrt{x}+1}=\\frac{2 x+4}{\\sqrt{x}+1} \\\\text { đề } A \\cdot B=4 \\Leftrightarrow \\frac{2 x+4}{\\sqrt{x}+1}=4 \\Leftrightarrow \\frac{2 x+4}{\\sqrt{x}+1}=\\frac{4(\\sqrt{x}+1)}{\\sqrt{x}+1} \\\\Rightarrow 2 x+4=4 \\sqrt{x}+4 \\Leftrightarrow 2 x-4 \\sqrt{x}=0 \\\\Leftrightarrow 2 \\sqrt{x}(\\sqrt{x}-2)=0 \\Leftrightarrow\\left[\\begin{array} { l } { 2 \\sqrt { x } = 0 } \\\\{ \\sqrt { x } - 2 = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=0 \\x=4\\end{array}\\right.\\right.\\end{array})%<br>Đối chiếu với điều kiện ta được %(x=4)% là giá trị cần tìm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 1.0,
+        "content": "Giải bài toán bằng cách lập phuơng trình hoặc hệ phuơng trình:<br>Theo kế hoạch, một phân xưởng phải làm xong 900 sản phẩm trong một số ngày quy định. Thực tế, mỗi ngày phân xưởng đã làm nhiều hơn 15 sản phẩm so với số sản phẩm phải làm trong một ngày theo kế hoạch. Vì thế 3 ngày trước khi hết thời hạn, phân xưởng đã làm xong 900 sản phẩm. Hỏi theo kế hoạch, mỗi ngày phân xưởng phải làm bao nhiêu sản phẩm ?( Giả định số sản phẩm phân xưởng làm được trong mỗi ngày là bằng nhau).",
+        "question_images": [],
+        "solution": "Gọi số sản phẩm mỗi ngày phân xưởng phải làm theo kế hoạch là %(x)% (sản phẩm), %(x \\in \\mathbb{N}^{*}, x\\lt 900)%.<br>Thời gian phân xưởng phải hoàn thành theo kế hoạch là %(\\frac{900}{x})% (ngày)<br>Thực tế, mỗi ngày phân xưởng làm được %(x+15)% (sản phẩm)<br>Thời gian phân xưởng hoàn thành trên thực tế là %(\\frac{900}{x+15})% (ngày)<br>Vì phân xưởng hoàn thành trước thời hạn 3 ngày nên ta có phương trình:<br>\\[\\begin{array}{l}\\frac{900}{x}-\\frac{900}{x+15}=3 \\\\Rightarrow 900(x+15)-900 x=3 x(x+15) \\\\Leftrightarrow 3 x^{2}+45 x-13500=0 \\\\Leftrightarrow x^{2}+15 x-4500=0\\end{array}\\]<br>Tìm được %(x=60)% (thoả mãn), %(x=-75)% (loại)<br>Vậy theo kế hoạch, mỗi ngày phân xưởng phải làm 60 sản phẩm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 1.0,
+        "content": "Một khối gỗ dạng hình trụ có bản kính đáy lả %(30 \\mathrm{~cm})% vá chiều cao là %(120 \\mathrm{~cm})%. Tính thể tích của khối gỗ đó ( lấy %(\\pi \\approx 3,14)% )",
+        "question_images": [],
+        "solution": "Thể tích khối gỗ: %(V=\\pi r^{2} h \\approx 3,14.30^{2} .120=339120\\left(\\mathrm{~cm}^{3}\\right))%<br>Vậy thể tích khối gỗ khoảng %(339120\\left(\\mathrm{~cm}^{3}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}\\frac{2}{x-3}-3 y=1 \\\\ \\frac{3}{x-3}+2 y=8\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}\\frac{2}{x-3}-3 y=1 \\\\ \\frac{3}{x-3}+2 y=8\\end{array}\\right.)% điều kiện: %(x \\neq 3)%.<br>Đặt %(\\frac{1}{x-3}=a)% hệ phương trình trở thành: %(\\left\\{\\begin{array}{l}2 a-3 y=1 \\\\ 3 a+2 y=8\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a=2 \\\\ y=1\\end{array}\\right.\\right.)%.<br>Với %(a=2 \\Rightarrow \\frac{1}{x-3}=2 \\Rightarrow x=\\frac{7}{2})%.<br>Vậy hệ phương trình có nghiệm %((x ; y)=\\left(\\frac{7}{2} ; 1\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5:",
+        "group_content": "Trong mặt phẳng tọa độ %(O x y)%, cho parabol %((\\mathrm{P}): \\mathrm{y}=\\mathrm{x}^{2})% và đường thẳng(d): %(y=(m+2) x-m)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.75,
+        "content": "a)Chứng minh %((\\mathrm{d}))% luôn cắt %((\\mathrm{P}))% tại 2 điểm phân biệt.",
+        "question_images": [],
+        "solution": "Xét phương trình hoành độ giao điểm %((d))% và %((P))%.<br>\\[\\begin{array}{l}x^{2}=(m+2) x-m \\\\Leftrightarrow x^{2}-(m+2) x+m=0\\left(^{*}\\right)\\end{array}\\]<br>Ta có %(\\Delta=(m+2)^{2}-4.1 . m \\Rightarrow \\Delta=m^{2}+4)%.<br>Do %(m^{2} \\geq 0)% với mọi %(m \\Rightarrow m^{2}+4\\gt 0)% với mọi %(m)%<br>%(\\Rightarrow \\Delta>0)% với mọi %(m)%,<br>Phương trình (*) luôn có hai nghiệm phân biệt với mọi %(m)%.<br>Vậy %((d))% luôn cắt %((P))% tại hai điểm phân biệt với mọi %(m)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.75,
+        "content": "b)Gọi %(x_{1})% và %(x_{2})% là hoành độ giao điểm của %((\\mathrm{d}))% và %((\\mathrm{P}))%. Tìm tất cả các giá trị của %(\\mathrm{m})% để :<br>\\[\\frac{1}{\\mathrm{x}_{1}}+\\frac{1}{\\mathrm{x}_{2}}=\\frac{1}{\\mathrm{x}_{1}+\\mathrm{x}_{2}-2}\\]",
+        "question_images": [],
+        "solution": "Theo hệ thữc Vi - et tacó: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=m+2 \\\\ x_{1} x_{2}=m\\end{array}\\right.)%<br>Điều kiện để biểu thức %(\\frac{1}{x_{1}}+\\frac{1}{x_{2}}=\\frac{1}{x_{1}+x_{2}-2})% có nghĩa: %(\\left\\{\\begin{array}{l}x_{1} \\neq 0 \\\\ x_{2} \\neq 0 \\\\ x_{1}+x_{2} \\neq 2\\end{array}\\right.)%<br>Khi đó: %(\\left\\{\\begin{array}{l}m+2 \\neq 2 \\\\ m \\neq 0\\end{array} \\Leftrightarrow m \\neq 0\\right.)%<br>Xét: %(\\frac{1}{x_{1}}+\\frac{1}{x_{2}}=\\frac{1}{x_{1}+x_{2}-2})%<br>\\[\\Leftrightarrow \\frac{x_{1}+x_{2}}{x_{1} \\cdot x_{2}}=\\frac{1}{x_{1}+x_{2}-2}\\]<br>%(\\begin{array}{c}\\Leftrightarrow \\frac{m+2}{m}=\\frac{1}{m+2-2} \\\\ \\Leftrightarrow \\frac{m+2}{m}=\\frac{1}{m}\\end{array})%<br>\\[\\Leftrightarrow m+2=1\\]<br>%(\\Leftrightarrow m=-1)% (Thỏa mãn điều kiện)<br>Vậy với %(m=-1)% thì thỏa mãn yêu cầu bài toán",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6:",
+        "group_content": "Cho tam giác %(\\mathrm{ABC})% có ba góc nhọn %((\\mathrm{AB}\\lt \\mathrm{AC}))%, nội tiếp đường tròn tâm %((\\mathrm{O}))%. Tiếp tuyến tại %(\\mathrm{A})% của đường tròn %((\\mathrm{O}))% cắt đường thẳng %(\\mathrm{BC})% tại điểm %(\\mathrm{S})%. Gọi %(\\mathrm{I})% là chân đường vuông góc kẻ từ %(\\mathrm{O})% đến đường thẳng %(\\mathrm{BC})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Chứng minh tứ giác %(\\mathrm{SAOI})% là tứ giác nội tiếp.",
+        "question_images": [],
+        "solution": "Tứ giác %(S A O I)% có: %(\\widehat{S A O}=90^{\\circ})% (tính chất của tiếp tuyến); %(S I O=90^{\\circ}(O I \\perp B C))%;<br>\\[\\widehat{S A O}+\\widehat{S I O}=90^{\\circ}+90^{\\circ}=180^{\\circ}\\]<br>Hai góc %(\\widehat{S A O})% và %(\\widehat{S I O})% đối nhau<br>%(\\Rightarrow)% Tứ giác %(S A O I)% nội tiếp đường tròn đường kính %(S O)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b10f386b3cb21dc21b048dc01384b8bb.png\" srcset=\"https://docdn.giainhanh.io/media/test/0a688ebb1148673e9cff2498e0354969.png 245w, https://docdn.giainhanh.io/media/test/4fd230748309aa84a1da2d127124d364.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Gọi %(\\mathrm{H})% và %(\\mathrm{D})% lần lượt là chân các đường vuông góc kẻ từ %(\\mathrm{A})% đến các đường thẳng %(\\mathrm{SO})% và %(\\mathrm{SC})%. Chứng minh %(\\widehat{\\mathrm{OAH}}=\\widehat{\\mathrm{IAD}})%",
+        "question_images": [],
+        "solution": "Theo ý a), ta có: Tứ giác %(S A O I)% nội tiếp nên %(S O A=S I A)% (hai góc nội tiếp cùng chắn %(\\overparen{S A})% );<br>\\[\\Rightarrow 90^{\\circ}-\\widehat{S O A}=90^{\\circ}-\\widehat{S I A}\\]<br>Mà %(90^{\\circ}-\\widehat{S O A}=\\widehat{O A H}(\\triangle A H O)% vuông tại %(H) ; 90^{\\circ}-\\widehat{S I A}=\\widehat{I A D}(\\triangle A D I)% vuông tại D)<br>\\[\\Rightarrow \\widehat{O A H}=\\widehat{I A D} \\text {. }\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c4f3f52e36e25d16056f9c3716b23aa4.png\" srcset=\"https://docdn.giainhanh.io/media/test/458b8edccaad620d9c4222bbefff24f3.png 245w, https://docdn.giainhanh.io/media/test/06314be9563112d94c5e48c5bc10075d.png 500w, https://docdn.giainhanh.io/media/test/a3adf6295e9fdf2a5a4569256b12838a.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Vẽ đường cao %(A B C)% của tam giác %(Q)%. Qua %(C E)% là trung điểm của %(C K)%. Đường thẳng %(Q D)% cắt đường thẳng %(K)% tại %(A H)%. Chứng minh %(B Q . B A = B D . B I)% và đường thẳng %(S O)% song song với đường thẳng %(B E)%.",
+        "question_images": [],
+        "solution": "Vì %(O I \\perp B C \\Rightarrow I)% là trung điêm của %(B C)% (quan hệ vuông góc giữa đường kính và dây),mà %(Q)% là trung điểm của %(B E \\Rightarrow I Q)% là đường trung bình của %(\\triangle B E C \\Rightarrow I Q / / C E)%<br>mà %(C E \\perp A B \\Rightarrow I Q \\perp A B \\Rightarrow \\widehat{I Q A}=90^{\\circ})%,<br>lại có %(\\widehat{I D A}=90^{\\circ}(A D \\perp S C) \\Rightarrow)% Tứ giác %(A Q D I)% nội tiếp đường tròn đường kính %(A I \\Rightarrow \\widehat{Q A I}+\\widehat{Q D I}=180^{\\circ})%<br>mà %(\\widehat{B D Q}+\\widehat{Q D I}=180^{\\circ})% (hai góc kề bù) %(\\Rightarrow \\widehat{B D Q}=\\widehat{Q A I}\\left(=180^{\\circ}-\\widehat{Q D I}\\right))%.<br>Xét %(\\triangle B D Q)% và %(\\triangle B A I)% có:<br>%(\\widehat{B})% chung; %(\\widehat{B D Q}=\\widehat{B A I})% (chứng minh trên);%(\\Rightarrow \\triangle B D Q \\backsim \\triangle B A I(g \\cdot g))%%(\\Rightarrow \\frac{B D}{B Q}=\\frac{B A}{B I} \\Rightarrow B Q \\cdot B A=B D \\cdot B I)%.<br>Vì %(\\widehat{B D Q}=\\widehat{K D C})% (hai góc đối đỉnh) %(\\Rightarrow \\widehat{K D C}=\\widehat{B A I})% (1);<br>Ta có: %(\\widehat{S A B}+\\widehat{B A O}=90^{\\circ}(S A \\perp O A) ; \\widehat{D A C}+\\widehat{ACD}=90^{\\circ}(\\triangle ADC)%vuông tại %(D))%;<br>mà %(\\widehat{B C A}=\\widehat{S A B})% (góc nội tiếp và góc tạo bởi tia tiếp tuyến và dây cung cùng chắn %(\\overparen{A B})% )<br>\\[\\Rightarrow \\widehat{B A O}=\\widehat{D A C} \\text { hay } \\widehat{B A D}=\\widehat{O A C} \\text { lại có } \\widehat{D A I}=\\widehat{H A O} \\text { (ý } 2)) \\Rightarrow \\widehat{B A I}=\\widehat{K A C} \\text { (2); }\\]<br>Từ (1) và (2), ta có: %(\\widehat{K A C}=\\widehat{K D C} \\Rightarrow)% tứ giác %(D K C A)% nội tiếp<br>\\[\\Rightarrow \\widehat{A D C}=\\widehat{A K C}=90^{\\circ} \\Rightarrow A K \\perp C K \\text {, mà } A K \\perp S O \\Rightarrow S O / / K C \\text {. }\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 0.5,
+        "content": "Cho hai số thực dương %(a)% và %(b)% thỏa mãn %(a+b \\leq 2)%. Chứng minh %(\\frac{a^{2}}{a^{2}+b}+\\frac{b^{2}}{b^{2}+a} \\leq 1)%",
+        "question_images": [],
+        "solution": "Cách 1: Ta có %(\\frac{a^{2}}{a^{2}+b}+\\frac{b^{2}}{b^{2}+a} \\leq 1)%%(\\Leftrightarrow a^{2}\\left(b^{2}+a\\right)+b^{2}\\left(a^{2}+b\\right) \\leq\\left(a^{2}+b\\right)\\left(b^{2}+a\\right))% hay %(a^{2} b^{2} \\leq a b)%<br>Sử dụng bất đẳng thức Cô si, ta có %(2 \\geq a+b \\geq 2 \\sqrt{a b})%.<br>Suy ra %(a b \\leq 1)%.<br>Từ đó %(a^{2} b^{2} \\leq a b)%.<br>Ta có điều phải chứng minh.<br>Dấu đẳng thức xảy ra khi và chỉ khi %(a=b=1)%.<br>Cách 2: Có %(P=\\frac{a^{2}}{a^{2}+b}+\\frac{b^{2}}{b^{2}+a}=\\frac{a^{2}+b-b}{a^{2}+b}+\\frac{b^{2}+a-a}{b^{2}+a}=2-\\left(\\frac{b}{a^{2}+b}+\\frac{a}{b^{2}+a}\\right))%<br>Ta có: %(\\frac{b}{a^{2}+b}+\\frac{a}{b^{2}+a}=\\frac{b^{2}}{a^{2} b+b^{2}}+\\frac{a^{2}}{b^{2} a+a^{2}} \\geq \\frac{(a+b)^{2}}{a^{2}+b^{2}+a b(a+b)})%<br>Mà %(a+b \\leq 2 \\Rightarrow a^{2}+b^{2}+a b(a+b) \\leq(a+b)^{2})%<br>\\[\\Rightarrow \\frac{b}{a^{2}+b}+\\frac{a}{b^{2}+a} \\geq 1 \\Rightarrow P \\leq 1\\]<br>Dấu đẳng thức xảy ra khi lvà chỉ khi %(a=b=1)%.",
+        "question_type": "essay"
+    }
+]

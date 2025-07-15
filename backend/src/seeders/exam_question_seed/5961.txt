@@ -1,0 +1,89 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 2.0,
+        "content": "Rút gọn biểu thức %(P=\\left(1-\\frac{x-3 \\sqrt{x}}{x-9}\\right):\\left(\\frac{3-\\sqrt{x}}{\\sqrt{x}-2}+\\frac{\\sqrt{x}-2}{3+\\sqrt{x}}-\\frac{9-x}{x+\\sqrt{x}-6}\\right))% với %(x \\geq 0, x \\neq 4, x \\neq 9)%",
+        "question_images": [],
+        "solution": "Với điều kiện %(x \\geq 0, x \\neq 4, x \\neq 9)%, ta có:<br>\\[\\begin{array}{l}P=\\left(1-\\frac{x-3 \\sqrt{x}}{\\sqrt{x}+3}\\right):\\left(\\frac{3-\\sqrt{x}}{\\sqrt{x}-2}+\\frac{\\sqrt{x}-2}{3+\\sqrt{x}}-\\frac{9-x}{(\\sqrt{x}+3)(\\sqrt{x}-2)}\\right) \\\\=\\left(1-\\frac{\\sqrt{x}(\\sqrt{x}-3)}{(\\sqrt{x}-3)(\\sqrt{x}+3)}\\right):\\left(\\frac{(3-\\sqrt{x})(3+\\sqrt{x})}{(\\sqrt{x}-2)(\\sqrt{x}+3)}+\\frac{(\\sqrt{x}-2)^{2}}{(\\sqrt{x}-2)(\\sqrt{x}-3)}-\\frac{9-x}{(\\sqrt{x}-2)(3+\\sqrt{x})}\\right) \\\\=\\left(1-\\frac{\\sqrt{x}}{(3+\\sqrt{x})}\\right):\\left(\\frac{9-x}{(\\sqrt{x}-2)(\\sqrt{x}+3)}+\\frac{x-4 \\sqrt{x}+4}{(\\sqrt{x}-2)(3+\\sqrt{x})}-\\frac{9-x}{(\\sqrt{x}-2)(3+\\sqrt{x})}\\right) \\\\=\\frac{3}{3+\\sqrt{x}} \\cdot \\frac{(3+\\sqrt{x})(\\sqrt{x}-2)}{(\\sqrt{x}-2)^{2}}=\\frac{3}{\\sqrt{x}-2}\\end{array}\\]<br>Vậy %(P=\\frac{3}{\\sqrt{x}-2} \\quad(x \\geq 0, x \\neq 4 ; x \\neq 9))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Cho a, b,c là các số thực đôi một khác nhau thỏa mãn %(a^{3}+1=3 a ; b^{3}+1=3 b ; c^{3}+1=3 c)%. Tính giá trị biểu thức : %(Q=a^{2}+b^{2}+c^{2})%",
+        "question_images": [],
+        "solution": "Từ giả thiết : %(\\quad a^{3}+1=3 a ; b^{3}+1=3 b ; c^{3}+1=3 c)% ta có,<br>\\[\\left\\{\\begin{array} { l } { a ^ { 3 } - b ^ { 3 } = 3 ( a - b ) } \\\\{ b ^ { 3 } - c ^ { 3 } = 3 ( b - c ) } \\\\{ c ^ { 3 } - a ^ { 3 } = 3 ( c - a ) }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}a^{2}+a b+b^{2}=3~~~(1) \\b^{2}+b c+c^{2}=3~~~~(2) \\c^{2}+c a+a^{2}=3~~~(3)\\end{array}\\right.\\right.\\]<br>(vì a, b, c đôi một khác nhau)<br>Từ (1) và (2) suy ra:<br>\\[a^{2}-c^{2}+a b-b c=0 \\Leftrightarrow(a-c)(a+b+c)=0 \\Leftrightarrow a+b+c=0\\]<br>(vì %(\\mathrm{a}_{2} \\mathrm{~b}_{2} \\mathrm{c})% đôi một khác nhau)<br>Cộng (1); (2); (3) vế với vế ta có<br>\\[2 a^{2}+2 b^{2}+2 c^{2}+a b+b c+c a=9\\]<br>\\[\\begin{array}{l}\\Leftrightarrow 4\\left(a^{2}+b^{2}+c^{2}\\right)+2 a b+2 b c+2 c a=18 \\Leftrightarrow 3\\left(a^{2}+b^{2}+c^{2}\\right)+(a+b+c)^{2}=18 . \\\\Leftrightarrow 3 .\\left(a^{2}+b^{2}+c^{2}\\right)+0=18\\end{array}\\]<br>Vậy %(Q=6)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.0,
+        "content": "Giải phương trình : %(15\\left(x^{3}+x^{2}+2 x\\right)=4 \\sqrt{5}\\left(x^{2}+2\\right) \\sqrt{x^{4}+4})%.",
+        "question_images": [],
+        "solution": "Điều kiện %(\\mathrm{x}{\\epsilon} \\mathrm{R})%.<br>Phương trình tương đương: %(15 x\\left(x^{2}+x+2\\right)=4 \\sqrt{5}\\left(x^{2}+2\\right) \\sqrt{x^{4}+4})%<br>Vì %(x^{2}+x+2=\\left(x+\\frac{1}{2}\\right)^{2}+\\frac{7}{4} \\geq \\frac{7}{4}\\gt 0 ; x^{2}+2>0 ; \\sqrt{x^{4}+4}>0)% với mọi %(\\mathrm{x} \\in \\mathrm{R})%.<br>Suy ra %(x>0)%<br>Chia cả hai vế của phương trình cho %(x^{2})% ta được:<br>\\[15\\left(x+\\frac{2}{x}+1\\right)=4 \\sqrt{x}\\left(x+\\frac{1}{2}\\right) \\sqrt{\\left(x+\\frac{2}{x}\\right)^{2}-4}\\]<br>Đặt %(t=x+\\frac{2}{x})%, vì %(\\mathrm{x}>0)% suy ra %(t \\geq 2 \\sqrt{2})%<br>Phương trình : %(15(t+1)=4 \\sqrt{5} t \\sqrt{t^{2}-4})%<br>\\[\\begin{array}{l}\\Leftrightarrow 4 \\sqrt{5} t \\sqrt{t^{2}-4}-20 t+5 t-15=0 \\Leftrightarrow 4 \\sqrt{t}\\left(\\sqrt{t^{2}-4}-\\sqrt{5}\\right)+5(t-3)=0 \\\\Leftrightarrow \\frac{4 \\sqrt{5} t\\left(t^{2}-9\\right)}{\\sqrt{t^{2}-4}+\\sqrt{5}}+5(t-3)=0 \\Leftrightarrow(t-3)\\left[\\frac{4 \\sqrt{5} t(t+3)}{\\sqrt{t^{2}-4}+\\sqrt{5}}+5\\right]=0 \\\\Leftrightarrow t-3=0 \\text { hoặc } \\frac{4 \\sqrt{5} t(t+3)}{\\sqrt{t^{2}-4}+\\sqrt{5}}+5=0\\end{array}\\]<br>Th1: Với %(t-3=0 \\Leftrightarrow t=3)% ( thỏa mãn đk %(t \\geq 2 \\sqrt{2})% ). Khi đó: %(x+\\frac{2}{x}=3 \\Leftrightarrow x^{2}-3 x+2=0 \\Leftrightarrow(x-1)(x-2)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=1 \\\\ x=2\\end{array}\\right.)%  thỏa mãn %(\\mathrm{x}\\gt 0)%.<br>Th 2: %(\\frac{4 \\sqrt{5} t(t+3)}{\\sqrt{t^{2}-4}+\\sqrt{5}}+5=0~~~(1))%<br>Vì %(t \\geq 2 \\sqrt{2} \\Rightarrow \\frac{4 \\sqrt{5} t(t+3)}{\\sqrt{t^{2}-4}+\\sqrt{5}} \\geq 0 \\Rightarrow \\mathrm{VT}(1)>5>0)%. Do đó pt (1) vô nghiệm.<br>Vậy phương trình đã cho có hai nghiệm: %(\\mathrm{x}=1 ; \\mathrm{x}=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x^{2}+x y+y^{2}-4 y+1=0 \\\\ \\left(x^{2}+1\\right)(x+y-2)=y\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Ta có %(:\\left\\{\\begin{array}{l}x^{2}+x y+y^{2}-4 y+1=0 \\\\ \\left(x^{2}+1\\right)(x+y-2)=y\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x^{2}+1+y(x+y)=4 y \\\\ \\left(x^{2}+1\\right)(x+y-2)=y\\end{array}\\right.\\right.)%<br>Với %(\\mathrm{y}=0)%, phươg trình thứ nhầt vô nghiệm nên hpt vô nghiệm.<br>Với %(\\mathrm{y} \\neq 0)%, chia từng vế của mỗi phương trình cho %(\\mathrm{y})% ta được.<br>Hệ phương trình %(\\Leftrightarrow\\left\\{\\begin{array}{l}\\frac{x^{2}+1}{y}+(x+y-2)=2 \\\\ \\left(\\frac{x^{2}+1}{y}\\right)(x+y-2)=1\\end{array}\\right.)%<br>Đặt %(\\left\\{\\begin{array}{l}\\frac{x^{2}+1}{y}=m \\\\ x+y-2=n\\end{array}\\right.)% hệ phương trình trở thành:<br>\\[\\left\\{\\begin{array} { l } { m + n = 2 } \\\\{ m \\cdot n = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { n = 2 - m } \\\\{ m ( 2 - m ) = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { n = 2 - m } \\\\{ ( m - 1 ) ^ { 2 } = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}m=1 \\n=1\\end{array}\\right.\\right.\\right.\\right.\\]<br>Suy ra: %(\\left\\{\\begin{array}{l}\\frac{x^{2}+1}{y}=1 \\\\ x+y-2=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}y=x^{2}+1 \\\\ x^{2}+x-2=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}y=x^{2}+1 \\\\ (x-1)(x-2)=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}y=x^{2}+1 \\\\ {\\left[\\begin{array}{l}x=1 \\\\ x=-2\\end{array}\\right.}\\end{array}\\right.\\right.\\right.\\right.)%<br>Vậy nghiệm của hệ phương trình là: %(\\left\\{\\begin{array}{l}x=1 \\\\ y=2\\end{array}\\right.)% và %(\\left\\{\\begin{array}{l}x=-2 \\\\ y=5\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 2.0,
+        "content": "Tìm tất cả các cặp số nguyên dương %((\\mathrm{x}, \\mathrm{y}))% thỏa mãn phương trình:<br>\\[2^{x} x^{2}=9 y^{2}-12 y+19\\]",
+        "question_images": [],
+        "solution": "Ta có %(: 2^{x} x^{2}=9 y^{2}-12 y+19 \\Leftrightarrow 2^{x} x^{2}=(3 y-2)^{2}+15)%<br>\\[\\begin{array}{l}\\text { +) Nếu x lẻ thì } x=2 k+1 \\quad(\\mathrm{k} \\in \\mathrm{N}) . \\\\Rightarrow 2^{x} x^{2}=2^{2 k+1} \\cdot x^{2}=4^{k} \\cdot 2 x^{2}=(3+1)^{k} .2 x^{2} \\equiv 2 x^{2}(\\bmod 3) . \\text { Mà } x^{2} \\equiv 0 ; 1(\\bmod 3) \\\\Rightarrow 2.4^{k} \\cdot x^{2} \\equiv 0 ; 2(\\bmod 3)\\end{array}\\]<br>Mặt khác : %((3 y-2)^{2} \\equiv 1(\\bmod 3))%<br>Vậy x không thể là số lẻ<br>\\[x=2 k\\left(k \\in N^{*}\\right)\\]<br>+) Nếu %(x)% chẵn thì<br>Ta có phương trình:<br>\\[2^{2 k} \\cdot 4^{2}-(3 y-2)^{2}=15 \\Leftrightarrow\\left(2^{k} \\cdot 2 k-3 y+2\\right) \\cdot\\left(2^{k} \\cdot 2 k+3 y-2\\right)=15 \\text { (*) }\\]<br>Vì %(k, y \\in N^{*})% nên %(2^{k} .2 k+3 y-2\\gt 2^{k} .2 k-3 y+2)%.<br>Và %(2^{k} .2 k+3 y-2>0)% nên %(2^{k} .2 k-3 y+2>0)%<br>Do đó %((*) \\Leftrightarrow\\left\\{\\begin{array}{l}2^{k} .2 k+3 y-2=15 \\\\ 2^{k} .2 k-3 y+2=1\\end{array}\\right.)% hoặc %(\\Leftrightarrow\\left\\{\\begin{array}{l}2^{k} .2 k+3 y-2=5 \\\\ 2^{k} .2 k-3 y+2=3\\end{array}\\right.)%<br>Trường hợp %(1: \\Leftrightarrow\\left\\{\\begin{array}{l}2^{k} .2 k+3 y-2=15 \\\\ 2^{k} .2 k-3 y+2=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}2^{k} .2 k=8 \\\\ y=3\\end{array}\\right.\\right.)% (vô nghiệm)<br>Truờng hợp 2: %(\\Leftrightarrow\\left\\{\\begin{array}{l}2^{k} .2 k+3 y-2=5 \\\\ 2^{k} .2 k-3 y+2=3\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}2^{k} .2 k=4 \\\\ y=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}k=1 \\\\ y=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=2 \\\\ y=1\\end{array}\\right.\\right.\\right.\\right.)%<br>Vậy nghiệm nguyên dương cúa phương trình là %((\\mathrm{x}, \\mathrm{y})=(2 ; 1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 2.0,
+        "content": "Cho %(\\mathrm{x}, \\mathrm{y})% là hai số nguyên dương thỏa mãn %(x^{2}+y^{2}+58)% chia hết cho %(x y)%. Chứng minh: %(\\frac{x^{2}+y^{2}+58}{x y})% chia hết cho 12.",
+        "question_images": [],
+        "solution": "Đặt %(\\mathrm{k}=\\frac{x^{2}+y^{2}+58}{x y}, \\mathrm{k} \\in N^{*} \\Rightarrow k x y=x^{2}+y^{2}+58)%. Ta chứng minh %(k \\vdots 12 \\Leftrightarrow\\left\\{\\begin{array}{l}k \\vdots 3 \\\\ k \\vdots 4\\end{array}\\right.)%<br>+ Nếu trong hai số %(\\mathrm{x}, \\mathrm{y})% có một số chia hết cho 3 .<br>Do vai trò %(\\mathrm{x})%, %(\\mathrm{y})% bình đẳng, giả sử %(x: 3 \\Rightarrow x y: 3)%<br>Ta có: %(x^{2}+y^{2}+58 \\vdots x y \\Rightarrow x^{2}+y^{2}+58 \\vdots 3 \\Rightarrow y^{2}+1 \\vdots 3 \\Rightarrow y^{2} \\equiv 2(\\bmod 3))%<br>Vô lí vì %(y^{2})% là số chính phương<br>Vì vậy cả %(\\mathrm{x})%, %(\\mathrm{y})% đều không chia hết cho 3 mà 3 là nguyên tố.<br>%(\\Rightarrow(x y, 3)=1)% và %(x^{2} \\equiv 1(\\bmod 3) ; y^{2} \\equiv 1(\\bmod 3) \\Rightarrow x^{2}+y^{2}+58 \\equiv 1+1+1 \\equiv 0(\\bmod 3))%<br>%(\\Rightarrow x^{2}+y^{2}+58: 3 \\Rightarrow k x y=x^{2}+y^{2}+58)% mà %((x y, 3)=1 \\Rightarrow k \\vdots 3)%<br>+ Nếu trong hai số %(\\mathrm{x}, \\mathrm{y})% có một số chia hết cho 2.<br>Do vai trò %(\\mathrm{x})%, %(\\mathrm{y})% như nhau, không mất tính tổng quát giả sử %(x: 2 \\Rightarrow x y: 2)%<br>Ta có: %(x^{2}+y^{2}+58 \\vdots x y \\Rightarrow x^{2}+y^{2}+58 \\vdots 2)% mà %(x \\vdots 2,58 \\vdots 2 \\Rightarrow y^{2} \\vdots 2 \\Rightarrow y \\vdots 2 \\Rightarrow x y \\vdots 4)%<br>%(\\Rightarrow x^{2}+y^{2}+58: 4)% vô lí vì %(x: 4, y: 4)% do %(x: 2, y: 2)% mà 58 không chia hết cho 4.<br>Vì vậy cả %(\\mathrm{x}, \\mathrm{y})% đều không chia hết cho 2.<br>%(\\Rightarrow x, y)% đều lẻ %(\\Rightarrow x-1, x+1, y-1, y+1)% đều chia hết cho 2 .%(\\Rightarrow x^{2}-1=(x-1)(x+1))% và %(y^{2}-1=(y-1)(y+1))% đều chia hết cho 4 .<br>\\[\\Rightarrow x^{2}+y^{2}+58=x^{2}-1+y^{2}-1+60 \\vdots 4 \\Rightarrow k x y=x^{2}+y^{2}+58 \\vdots 4\\]<br>Mà %((\\mathrm{xy}, 4)=1)% do %(\\mathrm{x}, \\mathrm{y})% lẻ %(\\Rightarrow k \\vdots 4)%<br>Từ %((1))% và %((2))% kết hợp với %((3,4)=1 \\Rightarrow k \\vdots 12)% (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7:",
+        "group_content": "Cho đường tròn (I,r) có hai bán kính IE, IF vuông góc với nhau. Kẻ hai tiếp tuyến với đường tròn (I) tại %(\\mathrm{E})% và %(\\mathrm{F})%, cắt nhau tại %(\\mathrm{A})%. Trên tia đối của tia %(\\mathrm{EA})% lấy điểm %(\\mathrm{B})% sao cho %(\\mathrm{EB}\\gt \\mathrm{r})%, qua %(\\mathrm{B})% kẻ tiếp tuyến thứ hai với đường tròn (I), %(\\mathrm{D})% là tiếp điểm, %(\\mathrm{BD})% cắt tia %(\\mathrm{A})% tại %(\\mathrm{G})%. Gọi %(\\mathrm{K})% là giao điểm của %(\\mathrm{AI})% với %(\\mathrm{FD})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Chứng minh hai tam giác %(\\mathrm{IAB})% và %(\\mathrm{FAK})% đồng dạng.",
+        "question_images": [],
+        "solution": "Theo tính chất hai tiếp tuyến cắt nhau, ta có: %(C D=C F \\Rightarrow \\triangle C D F)% cân tại %(\\mathrm{C})%.<br>\\[\\Rightarrow \\widehat{C F D}=\\frac{180^{\\circ}-\\widehat{C}}{2} \\Rightarrow \\widehat{\\mathrm{AFK}}=180^{\\circ}-\\widehat{C F K}=180^{\\circ}-\\frac{180^{\\circ}-\\widehat{C}}{2}=\\frac{180^{\\circ}+\\widehat{C}}{2}~~~(1)\\]<br>Tứ giác AEIF có ba góc vuông nên là hình chữ nhật %(\\gt)% Hình chữ nhật AEIF có %(\\mathrm{IE}=\\mathrm{IF})% nên là hình vuông. Suy ra %(\\widehat{I A B}=\\widehat{F A K}=45^{\\circ})%<br>\\[\\Rightarrow \\widehat{A I B}=180^{\\circ}-(\\widehat{I A B}+\\widehat{A B I})=180^{\\circ}-\\left(45^{\\circ}+\\frac{\\widehat{A B C}}{2}\\right)=180^{\\circ}-\\left(45^{\\circ}+\\frac{90^{\\circ}-\\widehat{C}}{2}\\right)=\\frac{180^{\\circ}+\\widehat{C}}{2}~~~(2)\\]<br>Từ (1) và (2) suy ra : %(\\widehat{A B I}=\\widehat{A F K})% kết hợp với %(\\widehat{I A B}=\\widehat{A F K} \\Rightarrow \\triangle I A B \\sim \\triangle F A K)% (g.g)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5b65cf53575ad903034d4a335a5cfddd.png\" srcset=\"https://docdn.giainhanh.io/media/test/c6c74d61591d47ae20ae816fb1add773.png 239w, https://docdn.giainhanh.io/media/test/712c323fd7d9eba6725bd9afea58a334.png 500w, https://docdn.giainhanh.io/media/test/6b3cd1677a5439c53581f6c710fdb036.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Qua %(\\mathrm{A})% kẻ đường thẳng vuông góc với %(\\mathrm{BC})%, cắt %(\\mathrm{FD})% tại %(\\mathrm{P})%. Gọi %(\\mathrm{M})% là trung điểm của %(\\mathrm{AB}, \\mathrm{MI})% cắt %(\\mathrm{AC})% tại %(\\mathrm{Q})%. Chứng minh tam giác %(\\mathrm{APQ})% là tam giác cân.",
+        "question_images": [],
+        "solution": "Vì %(\\Rightarrow \\triangle I A B \\sim \\triangle F A K)% nên %(\\frac{I A}{A B}=\\frac{F A}{A K} \\Rightarrow \\frac{I A}{A B}=\\frac{E A}{A K}()% vì FA %(=\\mathrm{EA}))%. Đẳng thức này kết hợp với điều kiện %(\\widehat{I A E})% chung, suy ra: %(\\Rightarrow \\triangle A K B \\sim \\triangle A E I)% (c.g.c)<br>%(\\triangle A E I)% vuông cân tại %(\\mathrm{E})% nên %(\\triangle A K B)% vuông tại %(\\mathrm{K})%. Suy ra đường trung tuyên %(\\mathrm{KM})% cũng là đường cao nên %(K M \\perp A B)%.<br>Ta có: %(K M \\perp A B, I E \\perp A B, A C \\perp A B \\Rightarrow K M / / I E / / A C)%.%(\\Rightarrow I D \\perp B C, A P \\perp B C \\Rightarrow I D / / A P)%.<br>Áp dụng định lí Talet và hệ quả Talet, kết hợp ID %(=\\mathrm{IE})%.<br>\\[\\frac{I D}{A p}=\\frac{K I}{K A}=\\frac{M E}{M A}=\\frac{I E}{A Q} \\Rightarrow A P=A Q=\\triangle A P Q  \\text { cân tại } \\mathrm{A} \\text {. }\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) Xác định vị trí của điểm %(\\mathrm{B})% để chu vi tam giác %(\\mathrm{AMQ})% đạt giá trị nhỏ nhất. Tính giá trị nhỏ nhất theo r.",
+        "question_images": [],
+        "solution": "Đặt: %(M E=x, P Q=y)% với %(\\mathrm{x}\\gt 0, \\mathrm{y}>0)%<br>\\[\\Rightarrow \\triangle M E I \\sim \\Delta I F Q \\text { (g.g) } \\Rightarrow \\frac{M E}{I F}=\\frac{E I}{F Q} \\Rightarrow \\frac{x}{r}=\\frac{r}{y} \\Leftrightarrow x y=r^{2}\\]<br>Chu vi của %(\\triangle A M Q)% là:<br>\\[\\begin{aligned}C_{A M Q} & =A M+A Q+M Q+\\sqrt{A M^{2}+A Q^{2}} \\C_{A M Q} & =(r+x)+(r+y)+\\sqrt{(r+x)^{2}+(r+y)^{2}}=2 r+(x+y)+\\sqrt{\\left(x^{2}+y^{2}\\right)+2 r(x+y)+2 r^{2}}\\end{aligned}\\]<br>Áp dụng bất đằng thức cho hai số thực dương %(\\mathrm{x}, \\mathrm{y})% ta có:<br>\\[2 r+(x+y)+\\sqrt{\\left(x^{2}+y^{2}\\right)+2 r(x+y)+2 r^{2}} \\geq 2 r+2 \\sqrt{x y}+\\sqrt{2 \\sqrt{x^{2} y^{2}+2 r .2 \\sqrt{x y}}+2 r^{2}}\\]<br>Từ (1) và (2) suy ra: %(C_{A M Q} \\geq 2 r+2 r+\\sqrt{2 r^{2}+2 r \\cdot 2 r+2 r^{2}}=4 r+\\sqrt{8 r^{2}}=(4+2 \\sqrt{2}) . r)%<br>Dấu %((=))% xảy %(\\mathrm{ra} \\Leftrightarrow \\mathrm{x}=\\mathrm{y}=\\mathrm{r} \\Rightarrow E B=3 r)%.<br>Vậy khi %(\\mathrm{EB}=3 \\mathrm{r})% thì chu vi tam giác %(\\mathrm{AMQ})% nhỏ nhất. Giá trị nhỏ nhất bằng %((4+2 \\sqrt{2}) \\cdot r)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 2.0,
+        "content": "Cho các số thực dương %(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})% thỏa mãn %(x^{2}+y^{2}+4 x y z=2(x y+y z+z x))%. Tính giá trị lớn nhất của biểu thức %(P=x(1-y)(1-z))%.",
+        "question_images": [],
+        "solution": "\\[+ \\text { Ta có } P \\leq x\\left[1-(y+z)+\\frac{(y+z)^{2}}{4}\\right] \\Leftrightarrow 4 p \\leq[2-(y+z)]^{2}\\]<br>+ Từ giả thiết ta có %(x^{2}+y^{2}+2 x y+z^{2}+4 x y z=2 x(y+z)+4 y z)%<br>\\[\\Leftrightarrow x^{2}+(y+z)^{2}-2 x(y+z)=(1-x) 4 y z \\text {. }\\]<br>+ Nhận thấy %(x^{2}+(y+z)^{2}-2 x(y+z)=(x-y-z)^{2} \\geq 0)% nên %(x \\leq 1)%<br>+ Vì vậy %(x^{2}+(y+z)^{2}-2 x(y+z)=(1-x) 4 y z)%%(\\Rightarrow x^{2}+(y+z)^{2}-2 x(y+z) \\leq(1-x)(y+z)^{2})%%(\\Rightarrow x^{2}-2 x(y+z) \\leq-x(y+z)^{2} \\Rightarrow x-2(y+z) \\leq-(y+z)^{2})%%(\\Rightarrow x \\leq(y+z)[2-(y+z)])%.+ Suy ra %(4 P \\leq(y+z)[2-(y+z)]^{2})%<br>Đặt %(2-(y+z)=t ;)% ta có %(\\left\\{\\begin{array}{l}x \\leq(y+z)[2-(y+z)] \\\\ x\\gt 0 \\\\ y+z>0\\end{array} \\Rightarrow 2-(y+z)>0 \\Rightarrow 0\\lt t\\lt 2\\right.)% (*)<br>Khi đó ta có %(4 P \\leq(2-t) t^{3} \\Rightarrow 12 P \\leq(6-3 t))%.t.t.t %(\\leq\\left(\\frac{6-3 t+t+t+t}{4}\\right)^{4}=\\frac{81}{16} \\Rightarrow P \\leq \\frac{27}{64})%<br>Dấu \"=\" xảy ra khi %(6-3 t=t \\Leftrightarrow t=\\frac{3}{2})% thỏa mãn %(\\left({ }^{*}\\right))%<br>Vậy max %(P=\\frac{27}{64})% khi và chỉ khi %(\\left\\{\\begin{array}{l}y=z \\\\ 2-(y+x)=\\frac{3}{2} \\\\ x=(y+z)[2-(y+z)]\\end{array} \\quad \\Leftrightarrow x=\\frac{3}{4} ; y=z=\\frac{1}{4}\\right.)%",
+        "question_type": "essay"
+    }
+]

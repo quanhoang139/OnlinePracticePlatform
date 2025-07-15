@@ -1,0 +1,72 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 4.0,
+        "content": "Cho %(a, b, c)% là các số thực dương. Chứng minh rằng<br>\\[\\left(\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\right)^{2} \\geq(a+b+c)\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)\\]",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\left(\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\right)^{2} \\geq(a+b+c)\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right) \\\\Leftrightarrow\\left(\\frac{a}{b}\\right)^{2}+\\left(\\frac{b}{c}\\right)^{2}+\\left(\\frac{c}{a}\\right)^{2}+2 \\frac{a}{c}+2 \\frac{b}{a}+2 \\frac{c}{b} \\geq 3+\\frac{a}{b}+\\frac{a}{c}+\\frac{b}{a}+\\frac{b}{c}+\\frac{c}{a}+\\frac{c}{b} \\\\Leftrightarrow\\left(\\frac{a}{b}\\right)^{2}+\\left(\\frac{b}{c}\\right)^{2}+\\left(\\frac{c}{a}\\right)^{2}+\\frac{a}{c}+\\frac{b}{a}+\\frac{c}{b} \\geq 3+\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\end{array}\\]<br>Theo AM - GM có %(\\frac{a}{c}+\\frac{b}{a}+\\frac{c}{b} \\geq 3)%<br>\\[\\left(\\frac{a}{b}\\right)^{2}+1 \\geq 2 \\frac{a}{b} \\Rightarrow\\left(\\frac{a}{b}\\right)^{2} \\geq 2 \\frac{a}{b}-1\\]<br>Tương tự %(\\left(\\frac{b}{c}\\right)^{2} \\geq 2 \\frac{b}{c}-1)% và %(\\left(\\frac{c}{a}\\right)^{2} \\geq 2 \\frac{c}{a}-1)%<br>\\[\\Rightarrow\\left(\\frac{a}{b}\\right)^{2}+\\left(\\frac{b}{c}\\right)^{2}+\\left(\\frac{c}{a}\\right)^{2} \\geq \\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}+\\left(\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}-3\\right) \\geq \\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\]<br>Cộng từng về (1) và (2) ta có điều phải chứng minh. Dấu bằng xảy ra khi %(a=b=c)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 4.0,
+        "content": "Cho dãy số %(\\left(x_{n}\\right), n \\in \\mathbb{N}^{*})% được xác định bởi<br>\\[x_{1}=2 ; x_{n+1}=\\frac{x_{n}^{2}+x_{n}-1}{x_{n}}, \\forall n \\in \\mathbb{N}^{*} \\text {. }\\]<br>Tìm %(\\lim \\sum_{i=1}^{n} \\frac{1}{x_{i}^{2}-1})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Xét } x_{n+1}-1=\\frac{x_{n}^{2}+x_{n}-1}{x_{n}}-1=\\frac{x_{n}^{2}-1}{x_{n}} \\Rightarrow \\frac{1}{x_{n+1}-1}=\\frac{x_{n}}{x_{n}^{2}-1}=\\frac{1}{x_{n}-1}-\\frac{1}{x_{n}^{2}-1} \\\\Rightarrow \\frac{1}{x_{n}^{2}-1}=\\frac{1}{x_{n}-1}-\\frac{1}{x_{n+1}-1} \\\\Rightarrow \\sum_{i=1}^{n} \\frac{1}{x_{i}^{2}-1}=\\sum_{i=1}^{n}\\left(\\frac{1}{x_{i}-1}-\\frac{1}{x_{i+1}-1}\\right)=\\frac{1}{x_{1}-1}-\\frac{1}{x_{n+1}-1}=1-\\frac{1}{x_{n+1}-1}\\end{array}\\]<br>Quy nạp được %(x_{n}\\gt 1, \\forall n \\geq 1 \\Rightarrow x_{n+1}-x_{n}=\\frac{x_{n}-1}{x_{n}}>0, \\forall n \\geq 1 \\Rightarrow x_{n+1}>x_{n}, \\forall n \\geq 1)%<br>Giả sử dãy %(\\left(x_{n}\\right))% bị chặn trên suy ra dãy %(\\left(x_{n}\\right))% có giới hạn hữu hạn và giả sử %(\\lim x_{n}=a \\Rightarrow a \\geq 2)%.<br>Từ %(x_{n+1}=\\frac{x_{n}^{2}+x_{n}-1}{x_{n}})% chuyển qua giới hạn ta được %(a=\\frac{a^{2}+a-1}{a} \\Leftrightarrow a=1)% vô lí<br>Do đó dãy số %(\\left(x_{n}\\right))% không bị chặn trên suy ra %(\\lim x_{n}=+\\infty)%, kết hợp với (1) ta được<br>\\[\\lim \\sum_{i=1}^{n} \\frac{1}{x_{i}^{2}-1}=1\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3:",
+        "group_content": "Cho hình chữ nhật %(A B C D)% nội tiếp đường tròn %((O))%. Gọi %(M, N)% lần lượt là trung điểm các cung nhỏ %(\\overparen{B C}, \\overparen{A D})%. Gọi %(I, J)% lần lượt là trung điểm của %(O M, O N)%. Gọi %(K)% là điểm đối xứng với %(O)% qua %(M)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a)  ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng tứ giác %(B J D K)% nội tiếp đường tròn.",
+        "question_images": [],
+        "solution": "Dễ thấy rằng %(O J=\\frac{1}{2} O N ; O K=2 O M)%.<br>Do đó ta được %(O B \\cdot O D=O J \\cdot O K)%.<br>Theo tính chất phương tích thì ta có %(K B J D)% nội tiếp.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/65d2a83030d72676d5ba16b6469f897e.png\" srcset=\"https://docdn.giainhanh.io/media/test/01eafec789c4b31542483932dc5768c5.png 245w, https://docdn.giainhanh.io/media/test/817940066c32d18e76c53d635475a123.png 500w, https://docdn.giainhanh.io/media/test/3d92a5df3cfd0cc3af346b4e2439a9da.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 3.0,
+        "content": "b) Gọi %(P, Q)% lần lượt là hình chiếu vuông góc của %(I)% lên %(A B, A C)%. Chứng minh rằng %(A K \\perp P Q)%.",
+        "question_images": [],
+        "solution": "Ta có %(O I . O K=\\frac{1}{2} O A \\cdot 2 O A=O A^{2})%<br>nên %(O A)% là tiếp tuyến của %((A I K))%.<br>Do đó ta có %(\\widehat{O A I}=\\widehat{A K O})%, do đó %(\\widehat{K A M}=\\widehat{A M O}-\\widehat{A K O}=\\widehat{M A O}-\\widehat{O A I}=\\widehat{M A I})%.<br>Do đó, %(A I, A K)% liên hợp đẳng giác với góc %(\\widehat{B A C})%.<br>Tứ giác %(A P I Q)% nội tiếp và nhận %(A I)% là đường kính.<br>Do %(A K, A I)% liên hợp góc nên %(A K)% là đường cao tam giác %(A P Q)% tức là %(A K \\perp P Q)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4:",
+        "group_content": "Cho đa thức %(P(x))% có hệ số nguyên, bậc 2 và hệ số bậc 2 bằng 1 thỏa mãn tồn tại đa thức %(Q(x))% có hệ số nguyên sao cho %(P(x) \\cdot Q(x))% là đa thức có tất cả các hệ số đều là %(\\pm 1)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng nếu đa thức %(P(x))% có nghiệm thực %(x_{0})% thì %(\\left|x_{0}\\right|\\lt 2)%.",
+        "question_images": [],
+        "solution": "Đồng nhất hệ số tự do trong đa thức %(P(x) \\cdot Q(x))% suy ra %(P(x)=x^{2}+a x \\pm 1)% với %(a \\in \\mathbb{Z})%.<br>Với %(a=0)% hay %(a= \\pm 1)%, nghiệm nếu có thỏa mãn.<br>Nếu %(|a| \\geq 2)% thì %(P(x))% có hai nghiệm %(x_{1}, x_{2})%, cũng là nghiệm của<br>\\[H(x)=P(x) \\cdot Q(x)=x^{n}+a_{n-1} x^{n-1}+\\cdots+a_{0}, a_{i}= \\pm 1\\]<br>Hay %(H\\left(x_{i}\\right)=x_{i}^{n}+a_{n-1} x_{i}^{n-1}+\\cdots+a_{0}=0, i \\in\\{1 ; 2\\})%<br>\\[\\begin{array}{l}\\text { Vì } x_{i} \\neq 0 \\text {, suy ra } \\\\1=\\left|\\frac{a_{n-1}}{x_{i}}+\\frac{a_{n-2}}{x_{i}^{2}}+\\cdots+\\frac{a_{0}}{x_{i}^{n}}\\right| \\leq\\left|\\frac{a_{n-1}}{x_{i}}\\right|+\\left|\\frac{a_{n-2}}{x_{i}^{2}}\\right|+\\cdots+\\left|\\frac{a_{0}}{x_{i}^{n}}\\right| \\leq \\frac{1}{\\left|x_{i}\\right|}+\\frac{1}{\\left|x_{i}\\right|^{2}}+\\cdots+\\frac{1}{\\left|x_{i}\\right|^{n}} \\\\=\\frac{\\frac{1}{\\left|x_{i}\\right|}\\left(1-\\frac{1}{\\left|x_{i}\\right|^{n}}\\right)}{1-\\frac{1}{\\left|x_{i}\\right|}}=\\frac{1-\\frac{1}{\\left|x_{i}\\right|^{n}}}{\\left|x_{i}\\right|-1}\\lt \\frac{1}{\\left|x_{i}\\right|-1}\\end{array}\\]<br>Suy ra %(\\left|x_{i}\\right|\\lt 2)% với %(i \\in\\{1 ; 2\\}(*))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Tìm tất cả các đa thức %(P(x))%.",
+        "question_images": [],
+        "solution": "Với %(a=0)% hay %(a= \\pm 1)%, ta có thể chọn %(Q(x)=1)%.<br>Vậy %(a=0, a= \\pm 1)% thỏa mãn.<br>Nếu %(|a| \\geq 2)% thì %(P(x))% có hai nghiệm %(x_{1}, x_{2})%, với %(\\left|x_{i}\\right|\\lt 2)% với %(i \\in\\{1 ; 2\\})%<br>Khi đó %(|a|=\\left|x_{1}+x_{2}\\right| \\leq\\left|x_{1}\\right|+\\left|x_{2}\\right|\\lt 4)%<br>Với %(a= \\pm 2)% suy ra %(P(x)=x^{2} \\pm 2 x \\pm 1)%<br>%(P(x)=x^{2} \\pm 2 x-1)% có nghiệm %(x_{1,2}= \\pm 1 \\pm \\sqrt{2})% không thỏa mãn %(\\left(^{*}\\right))%<br>Với %(P(x)=x^{2} \\pm 2 x+1=(x \\pm 1)^{2})% ta chọn %(Q(x)=x \\mp 1)% tương ứng thỏa mãn.<br>Với %(a= \\pm 3)% thử nghiệm, không thỏa mãn %((*))%.<br>Vậy các đa thức %(P(x))% thỏa mãn là<br>\\[P(x)=x^{2}+1 ; P(x)=x^{2} \\pm x \\pm 1, P(x)=x^{2} \\pm 2 x+1\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 3.0,
+        "content": "Trên mặt phẳng cho %(2 n^{2}(n \\geq 2))% đường thẳng sao cho không có hai đường nào song song và không có ba đường nào đồng quy. Các đường thẳng này chia mặt phẳng ra thành các miền rời nhau. Trong các miền đó, gọi %(F)% là tập tất cả các miền đa giác có diện tích hữu hạn. Chứng minh rằng có thể tô %(n)% đường thẳng trong số %(2 n^{2})% đường thẳng đã cho bằng màu xanh sao cho không có miền nào trong tập %(F)% có tất cả các cạnh màu xanh.",
+        "question_images": [],
+        "solution": "Đặt %(|B|=k)%, ta sẽ chỉ ra %(k \\geq n)% là bài toán được giải quyết.<br>Ta làm như sau:<br>Tô các đường trong tập %(L \\backslash B)% bằng màu đỏ.<br>Một điểm được gọi là xanh nếu nó là giao của hai đường thẳng màu xanh.<br>Thế thì có %(C_{k}^{2})% điểm màu xanh.<br>Ta xét một đường màu đỏ %(l)% bất kì.<br>Bởi tính lớn nhất của %(B)% nên phải có ít nhất một miền %(A \\in F)% có duy nhất một cạnh màu đỏ và nằm trên %(l)% (vì nếu ngược lại miền nào cũng có hai cạnh đỏ và có một cạnh nằm trên %(l)% thì ta tô %(l)% màu xanh vẫn thỏa mãn, điều này vi phạm tính lớn nhất của %(B)% ).<br>Vì %(A)% có ít nhất ba cạnh, nên ít nhất hai cạnh nào đó màu xanh cắt nhau, nên %(A)% có ít nhất một đỉnh xanh, gọi đây là đỉnh xanh liên kết với đường đỏ %(l)%.<br>Vì mỗi điềm xanh thuộc bôn miền (giao của hai đường xanh), nó sẽ liên kêt với nhiều nhất 4 đường đỏ.<br>Vì thế số đường thẳng đỏ nhiều nhất chỉ có thể là %(4 C_{k}^{2})%.<br>Mặt khác , số đường thẳng màu đỏ là %(2 n^{2}-k)%, vì thế ta được %(2 n^{2}-k \\leq 2 k(k-1))%, suy ra %(2 n^{2} \\leq 2 k^{2}-k \\leq 2 k^{2} \\Rightarrow k \\geq n)%",
+        "question_type": "essay"
+    }
+]

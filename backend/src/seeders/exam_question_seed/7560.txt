@@ -1,0 +1,98 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "So sánh hai số sau: %(4^{127})% và %(81^{43})%",
+        "question_images": [],
+        "solution": "Ta có: %(4^{127}=2^{254}\\lt 2^{255}=\\left(2^{3}\\right)^{85}=8^{85})%<br>Mà %(81^{43}=3^{172}\\gt 3^{170}=9^{85})%<br>Do %(8^{85}\\lt 9^{85})% nên %(4^{127}\\lt 81^{43})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "%(\\frac{3}{1}+\\frac{3}{3}+\\frac{3}{6}+\\frac{3}{10}+\\ldots+\\frac{3}{x(x+1): 2}=\\frac{2015}{336})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\frac{6}{2}+\\frac{6}{6}+\\frac{6}{12}+\\frac{6}{20}+\\ldots+\\frac{6}{x(x+1)}=\\frac{2015}{336} \\\\ 6\\left(\\frac{1}{1.2}+\\frac{1}{2.3}+\\frac{1}{3.4}+\\frac{1}{4.5}+\\ldots+\\frac{1}{x(x+1)}\\right)=\\frac{2015}{336} \\\\ 6\\left(\\frac{1}{1}-\\frac{1}{2}+\\frac{1}{2}-\\frac{1}{3}+\\ldots+\\frac{1}{x}-\\frac{1}{(x+1)}\\right)=\\frac{2015}{336} \\\\ 1-\\frac{1}{x+1}=\\frac{2015}{336}: 6 \\\\ 1-\\frac{1}{x+1}=\\frac{2015}{2016} \\\\ \\frac{1}{x+1}=1-\\frac{2015}{2016}=\\frac{1}{2016} \\\\ x=2015\\end{array})%<br>Vậy x = 2015",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho phân số %(A=\\frac{6 n+1}{4 n+3})% (với n nguyên).",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tìm giá trị n nguyên âm để A có giá trị là số nguyên.",
+        "question_images": [],
+        "solution": "Với n nguyên giả sử A nguyên thì<br>\\[\\begin{array}{l}6 n+1: 4 n+3 \\\\Rightarrow 12 n+2: 4 n+3\\end{array}   (1)\\]<br>Mặt khác ta có<br>\\[\\begin{array}{l}4 n+3 \\vdots 4 n+3 \\\\Rightarrow 12 n+9: 4 n+3\\end{array} với \\ mọi \\ n \\ nguyên\\ (2)\\]<br>Từ (1) và (2) ta có: %(7 \\vdots 4 n+3 \\Rightarrow 4 n+3 \\in U(7)=\\{ \\pm 1 ; \\pm 7\\})%<br>Ta có bảng sau<br>Vậy với %(\\mathrm{n}=-1)% thì A có giá trị nguyên.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/204b1cdc014e05ff820233c4570f3fc0.png\" srcset=\"https://docdn.giainhanh.io/media/test/3b6b4c4aa266bd5086fa7c5fc6daa8cc.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm giá trị n để A là phân số không rút gọn được.",
+        "question_images": [],
+        "solution": "Gọi %(d)% là ước nguyên tố của %(6 n+1)% và %(4 n+3)%<br>\\[\\left\\{\\begin{array} { l } { 6 n + 1 \\vdots d } \\\\{ 4 n + 3 \\vdots d }\\end{array} \\Rightarrow \\left\\{\\begin{array}{l}12 n+2 \\vdots d \\\\12 n+9 \\vdots d\\end{array}\\right.\\right.\\]<br>Suy ra %((12 \\mathrm{n}+9)-(12 \\mathrm{n}+2) \\vdots d)% %(7 \\vdots d)%<br>Từ thấy %(\\mathrm{A})% là phân số rút gọn được khi %(\\mathrm{d}=7)%<br>Xét %(6 \\mathrm{n}+1 \\vdots 7 \\Rightarrow 6 n+1-7 \\vdots 7 \\Rightarrow 6(n-1) \\vdots 7)%<br>%(\\Rightarrow n-1 \\vdots 7)% ( vì UCLN(6,7)=1)<br>Suy ra %(\\mathrm{n}=7 \\mathrm{k}+1)% (với %(\\mathrm{k})% nguyên)<br>Với %(n=7 k+1)% thì %(4 n+3=28 k+7)% cũng chia hết cho 7<br>Vậy với %(n \\neq 7 k+1)% ( %(\\mathrm{k})% nguyên) thì %(\\mathrm{A})% là phân số không rút gọn được.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.25,
+        "content": "Tìm các cặp giá trị %(x, y)% nguyên thỏa mãn:<br>%(\\frac{x}{8}-\\frac{2}{2 y+3}=\\frac{7}{12})%",
+        "question_images": [],
+        "solution": "Giả sử %(\\mathrm{x})%, %(\\mathrm{y})% nguyên thỏa mãn: %(\\frac{2}{2 y+3}=\\frac{x}{8}-\\frac{7}{12})%<br>\\[\\begin{array}{l}\\frac{2}{2 y+3}=\\frac{3 x-14}{24} \\\\(2 y+3)(3 x-14)=48 \\quad(*)\\end{array}\\]<br>Do %(\\mathrm{x}, \\mathrm{y})% là các số nguyên nên từ %(\\left({ }^{*}\\right))% suy ra<br>\\[2 y+3 \\in U(48)=\\{ \\pm 1 ; \\pm 2 ; \\pm 3 ; \\pm 4 ; \\pm 6 ; \\pm 8 ; \\pm 12 ; \\pm 16 ; \\pm 24 ; \\pm 48\\}\\]<br>Mà ta thấy %(2 \\mathrm{y}+3)% là số lẻ nên %(2 y+3 \\in\\{ \\pm 1 ; \\div \\pm 3\\})%<br>Ta có bảng sau<br>Vậy %((x, y)=(10 ; 0))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/afc3b4bd6389e726bf54dbdb8b74ac85.png\" srcset=\"https://docdn.giainhanh.io/media/test/49b81e52da9189d1f3a2c95f04ced549.png 245w, https://docdn.giainhanh.io/media/test/6050fbd10e89e42d3bd0600238abc98e.png 500w\" width=\"500\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0e8c70f4e7160e39b972ce65637f12a1.png\" srcset=\"https://docdn.giainhanh.io/media/test/d5eb5fda46c3996d388730e00f43e365.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.25,
+        "content": "Cho phép toán * thỏa mãn: với hai số tự nhiên a và %(\\mathrm{b})% ta có:%(\\mathrm{a} * \\mathrm{~b}=3 \\mathrm{a}+\\mathrm{b}^{\\mathrm{a}})%<br>Tìm các số nguyên tố %(\\mathrm{x}, \\mathrm{y})% sao cho %(2 * \\mathrm{x}+\\mathrm{y} * 4-8)% cũng là số nguyên tố.",
+        "question_images": [],
+        "solution": "Theo bài ra ta có:<br>\\[\\begin{aligned}2^{*} \\mathrm{x}+\\mathrm{y}^{*} 4-8 & =6+\\mathrm{x}^{2}+3 \\mathrm{y}+4^{\\mathrm{y}}-8 \\\\& =\\mathrm{x}^{2}+3 \\mathrm{y}+4^{\\mathrm{y}}-2 \\text { là số nguyên tố }\\end{aligned}\\]<br>Do %(\\mathrm{x})%, %(\\mathrm{y})% là các số nguyên tố nên %(x \\geq 2 ; y \\geq 2)% suy %(\\mathrm{ra} \\mathrm{A}=\\mathrm{x}^{2}+3 \\mathrm{y}+4^{\\mathrm{y}}-2 \\geq 3)%<br>Nếu %(\\mathrm{x})% và %(\\mathrm{y})% cùng tính chẵn lẻ thì %(\\mathrm{x}^{2}+3 \\mathrm{y})% là số chẵn nên %(\\mathrm{A}=\\mathrm{x}^{2}+3 \\mathrm{y}+4^{\\mathrm{y}}-2)% là số chẵn, mà %(\\mathrm{A}\\gt 2)% nên %(\\mathrm{A})% là hợp số (vô lý)<br>Do đó %(\\mathrm{x})% chẵn hoặc %(\\mathrm{y})% chẵn, mà %(\\mathrm{x}, \\mathrm{y})% là các số nguyên tố nên %(\\mathrm{x}=2)% hoặc %(\\mathrm{y}=)% 2.<br>Nếu %(x=2)% ta có: %(\\mathrm{A}=3 \\mathrm{y}+4^{y}+2)%<br>Do %(4^{y})% chia 3 luôn dư 1 nên %(3 y+4^{y}+2)% chia hết cho 3 mà %(3 y+4^{y}+2>)% 3 nên %(\\mathrm{A})% là hợp số (vô lý)<br>Nếu %(\\mathrm{y}=2)% thì %(\\mathrm{A}=\\mathrm{x}^{2}+20)%.<br>Nếu %(x)% không chia hết cho 3 thì %(x^{2})% chia 3 dư 1 nên %(x^{2}+20)% chia hết cho 3 nên %(\\mathrm{A})% là hợp số (vô lý)<br>Do đó %(\\mathrm{x})% chia hết cho 3 mà %(\\mathrm{x})% là số nguyên tố nên %(\\mathrm{x}=3)%<br>Thử lại với %(\\mathrm{x}=3 ; \\mathrm{y}=2)% thì %(\\mathrm{A}=\\mathrm{x}^{2}+3 \\mathrm{y}+4^{\\mathrm{y}}-2=29)% (là số nguyên tố)<br>Vậy %(x=3)% và %(y=2)%<br><img/><br><img/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho 3 điểm %(\\mathrm{B}, \\mathrm{C}, \\mathrm{D})% nằm trên đường thẳng %(\\mathrm{xy}(\\mathrm{C})% nằm giữa %(\\mathrm{B})% và %(\\mathrm{D})% ) và điểm %(\\mathrm{A})% nằm ngoài %(\\mathrm{xy})% sao cho %(\\angle B A C=50^{\\circ} ; \\angle C A D=65^{\\circ})%. Kẻ tia %(\\mathrm{Az})% là tia phân giác của góc %(\\mathrm{BAC})% cắt xy tại điểm %(\\mathrm{E})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tính số đo góc EAD và cho biết góc EAD là góc gì?",
+        "question_images": [],
+        "solution": "Theo bài ra %(\\mathrm{AE})% là tia phân giác của góc %(\\mathrm{BAC})% nên<br>\\[\\angle B A E=\\angle E A C=\\frac{1}{2} \\angle B A C=\\frac{1}{2} .50^{\\circ}=25^{\\circ}\\]<br>Vì điểm %(\\mathrm{C})% nằm giữa %(\\mathrm{B})% và %(\\mathrm{D})% nên tia %(\\mathrm{AC})% nằm giữa hai tia %(\\mathrm{AB})% và %(\\mathrm{AD})% Lại có %(\\mathrm{AE})% là tia phân giác của góc %(\\mathrm{BAC})% nên tia %(\\mathrm{AB})% và tia %(\\mathrm{AE})% nằm trên cùng nửa mặt phẳng bờ là %(\\mathrm{AC})%<br>Từ đó suy ra tia %(\\mathrm{AC})% nằm giữa hai tia %(\\mathrm{AE})% và %(\\mathrm{AD})%<br>\\[\\angle D A E=\\angle E A C+\\angle D A C=25^{\\circ}+65^{\\circ}=90^{\\circ}\\]<br>Vậy góc %(E A D=90^{\\circ})% và là góc vuông.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9b835396df4f14648da7dfeae6fc15cb.png\" srcset=\"https://docdn.giainhanh.io/media/test/85727f11192a2e29ed14e5f18f6a1c6a.png 215w\" width=\"215\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) Từ điểm A vẽ thêm 50 tia phân biệt không đi qua B, C, D, E. Hỏi có bao nhiêu góc đỉnh A được tạo thành.",
+        "question_images": [],
+        "solution": "Từ điểm %(\\mathrm{A})% vẽ thêm 50 tia phân biệt không đi qua %(\\boldsymbol{B}, \\boldsymbol{C}, \\boldsymbol{D}, \\boldsymbol{E})% Ta có số tia gốc %(\\mathrm{A})% là: %(50+4=54)% (tia)<br>Từ 1 tia tạo với 53 tia còn lại được 53 góc đỉnh %(\\mathrm{A})%.<br>Làm tương tự như vậy với 54 tia ta được số góc: %(53.54=2862)% (góc)<br>Nhưng như vậy mỗi góc được tính làm hai lần nên có số góc thực tế tại đỉnhA là: %(2862: 2=1431)% (góc)",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.75,
+        "content": "c) Trên tia %(\\mathrm{BA})% lấy thêm 3 điểm phân biệt %(\\mathrm{M}, \\mathrm{N}, \\mathrm{P})% không trùng với %(\\mathrm{B})% và %(\\mathrm{A})%. Hỏi có bao nhiêu tam giác mà các đỉnh là 3 trong 8 đỉnh %(\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D}, \\mathrm{E}, \\mathrm{M})%, %(\\mathrm{N}, \\mathrm{P})% ?",
+        "question_images": [],
+        "solution": "Trên tia BA có 5 điểm nên có 10 đoạn thẳng, Từ mỗi điểm %(\\mathrm{E}, \\mathrm{C}, \\mathrm{D})% nối với hai đầu mút mỗi đoạn thẳng ta được một tam giác nên sẽ có 30 tam giác Trên tia BE có 4 điểm nên có 6 đoạn thẳng, Từ mỗi điểm %(\\mathrm{A}, \\mathrm{M}, \\mathrm{N}, \\mathrm{P})% nối với hai đầu mút mỗi đoạn thẳng ta được một tam giác nên sẽ có 24 tam giác.<br>Nhưng mỗi tam giác có một đỉnh là diểm B được lặp lại hai lần và số tam giác có một đỉnh là %(B)% là: %(3.4=12)% (tam giác)<br>Vậy số tam giác mà các đỉnh là 3 trong tám đỉnh %(A, B, C, D, E, M, N, P)%<br>Là: %(30+24-12=42)% (tam giác)",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Một quả bóng đá được khâu từ 32 miếng da. Mỗi miếng ngũ giác màu đen khâu với 5 miếng màu trắng, và mỗi miếng màu trắng khâu với 3 miếng màu đen, như hình vẽ. Hỏi có bao nhiêu miếng màu trắng?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/b1d2d84cb428e909c23829cee4ae0516.png"
+        ],
+        "solution": "Ta gọi số miếng trắng là %(\\mathrm{x}(\\mathrm{x})% là số tự nhiên, %(\\mathrm{x}\\lt 32)% )<br>gọi số miếng đen là %(\\mathrm{y}(\\mathrm{y})% là số tự nhiên, %(\\mathrm{x}\\lt 32)% )<br>Vì tổng có 32 miếng nên ta có %(\\mathrm{x}+\\mathrm{y}=32)%<br>Ta xét các đoạn thẳng là các cạnh của ngũ giác và lục giác.<br>Ta tính tổng số đoạn thẳng theo hai cách:<br>Có %(\\mathrm{x})% miếng trắng và mỗi miếng có 6 đoạn thẳng,nhưng trong đó mỗi miếng có 3 đoạn thẳng mà được lặp hai lần nên số đoạn thẳng có là:<br>\\[6 \\mathrm{x}-3 \\mathrm{x}: 2=9 \\mathrm{x}: 2\\]<br>Có y miếng đen và mỗi miếng có 5 đoạn thẳng, nhưng trong đó mỗi đoạn thẳng mà nối hai đỉnh gẩn nhất của hai ngũ giác được lặp hai lần nên số đoạn thẳng có là:<br>\\[5 y+5 y: 2=15 y: 2\\]<br>Từ đó ta có %(3 \\mathrm{x}=5 \\mathrm{y})%<br>Mà %(5 x+5 y=160)% nên %(8 x=160)% nên %(x=20)%<br>Vậy có 20 miếng da màu trắng",
+        "question_type": "essay"
+    }
+]

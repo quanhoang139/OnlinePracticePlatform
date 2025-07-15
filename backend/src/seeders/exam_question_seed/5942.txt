@@ -1,0 +1,96 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 3.0,
+        "content": "Tìm cực trị của hàm số %(y=x+2 \\sqrt{x^{2}+x+1})%.",
+        "question_images": [],
+        "solution": "\\[y=x+2 \\sqrt{x^{2}+x+1}\\]<br>ТХĐ: %(D=\\mathbb{R})%.<br>\\[\\begin{array}{l}y^{\\prime}=1+\\frac{2 x+1}{\\sqrt{x^{2}+x+1}}=\\frac{\\sqrt{x^{2}+x+1}+2 x+1}{\\sqrt{x^{2}+x+1}} . \\y^{\\prime}=0 \\Leftrightarrow \\sqrt{x^{2}+x+1}+2 x+1=0 \\Leftrightarrow \\sqrt{x^{2}+x+1}=-(2 x+1) \\Leftrightarrow\\left\\{\\begin{array}{l}-(2 x+1) \\geq 0 \\x^{2}+x+1=(2 x+1)^{2}\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}x \\leq-\\frac{1}{2} \\\\3 x^{2}+3 x=0\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}x \\leq-\\frac{1}{2} \\x=0 \\vee x=-1\\end{array}\\right. \\\\Leftrightarrow x=-1 \\Rightarrow y=1 .\\end{array}\\]<br>Vậy hàm số đạt cực tiểu tại %(x=-1, y_{\\mathrm{CT}}=1)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0ae3359a0bdf6e0a10721f99b34eff44.png\" srcset=\"https://docdn.giainhanh.io/media/test/a2b034b0a32cb7c4617056bc42065a44.png 245w, https://docdn.giainhanh.io/media/test/e566bacbfade09731d3b34f4b5810063.png 500w, https://docdn.giainhanh.io/media/test/d72fd9a78881bfb49e1fe53559f4b158.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 3.0,
+        "content": "Cho hàm số %(y=-x^{7}+m(2 m-3) x^{4}+m\\left(2 m^{2}-5 m+3\\right) x^{2}+2020)%. Tìm tất cả các giá trị thực của tham số %(m)% để hàm số nghịch biến trên %(\\mathbb{R})%.",
+        "question_images": [],
+        "solution": "\\[y=-x^{7}+m(2 m-3) x^{4}+m\\left(2 m^{2}-5 m+3\\right) x^{2}+2020\\]<br>TXĐ: %(D=\\mathbb{R})%.<br>\\[\\begin{array}{l}y^{\\prime}=-7 x^{6}+4 m(2 m-3) x^{3}+2 m\\left(2 m^{2}-5 m+3\\right) x \\text {. } \\y^{\\prime}=0 \\Leftrightarrow-7 x^{6}+4 m(2 m-3) x^{3}+2 m\\left(2 m^{2}-5 m+3\\right) x=0 \\\\Leftrightarrow x\\left[-7 x^{5}+4 m(2 m-3) x^{2}+2 m\\left(2 m^{2}-5 m+3\\right)\\right]=0 \\\\Leftrightarrow\\left\\{\\begin{array}{l}x=0 \\\\-7 x^{5}+4 m(2 m-3) x^{2}+2 m\\left(2 m^{2}-5 m+3\\right)=0~~~(1)\\end{array}\\right. \\text { } \\\\end{array}\\]<br>Hàm số nghịch biến trên %(\\mathbb{R} \\Leftrightarrow y^{\\prime} \\leq 0, \\forall x \\in \\mathbb{R})% (Dấu bằng xảy ra tại hữu hạn điểm).<br>\\[\\begin{array}{l}\\Rightarrow(1) \\text { có nghiệm bằng } x=0 \\\\Rightarrow 2 m\\left(2 m^{2}-5 m+3\\right)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}m=0 \\\\2 m^{2}-5 m+3=0\\end{array}\\right. \\\\Leftrightarrow\\left[\\begin{array}{l}m=0 \\m=1 \\m=\\frac{3}{2}\\end{array}\\right.\\end{array}\\]<br>Thử lại:<br>Với %(m=0: y=-x^{7}+2020 \\Rightarrow y^{\\prime}=-7 x^{6}\\lt 0, \\forall x \\in \\mathbb{R} \\Rightarrow)% Hàm số nghịch biến trên %(\\mathbb{R})%.<br>Với %(m=1: y=-x^{7}-x^{4} \\Rightarrow y^{\\prime}=-7 x^{6}-4 x^{3})%.<br>\\[y^{\\prime}=0 \\Leftrightarrow-7 x^{6}-4 x^{3}=0 \\Leftrightarrow-x^{3}\\left(7 x^{3}+4\\right)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\x=-\\frac{\\sqrt[3]{196}}{7}\\end{array}\\right.\\]<br>Đặt %(x_{1}=-\\frac{\\sqrt[3]{196}}{7})% và %(x_{2}=0)%.<br>Hàm số đồng biến trên %(\\left(-\\frac{\\sqrt[3]{196}}{7} ; 0\\right))%.<br>Với %(m=\\frac{3}{2}: y=-x^{7}+2020 \\Rightarrow y^{\\prime}=-7 x^{6}\\lt 0, \\forall x \\in \\mathbb{R} \\Rightarrow)% Hàm số nghịch biến trên %(\\mathbb{R})%.<br>Vậy %(m=0, m=\\frac{3}{2})% thì hàm số nghịch biến trên %(\\mathbb{R})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/46dc1c26a9977a367496e8716ae45f51.png\" srcset=\"https://docdn.giainhanh.io/media/test/047925c1f6252f0463e2f1076c17f277.png 245w, https://docdn.giainhanh.io/media/test/bb00babf28c44c7000121d9a4be11900.png 500w, https://docdn.giainhanh.io/media/test/ed12773d1c787580d40e4c95b34ee8d0.png 750w, https://docdn.giainhanh.io/media/test/3ec5dcf24f51c524264254bf518ff1e4.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 3.0,
+        "content": "Giải bất phương trình %(\\sqrt{2 x+4}-2 \\sqrt{2-x} \\geq \\frac{6 x-4}{5 \\sqrt{x^{2}+1}})%.",
+        "question_images": [],
+        "solution": "Điều kiện xác định: %(-2 \\leq x \\leq 2)%.<br>Do %(\\sqrt{2 x+4}+2 \\sqrt{2-x}\\gt 0, \\forall \\in[-2 ; 2])% nên bất phương trình đã cho tương đương với bất phương trình %(\\frac{2 x+4-4(2-x)}{\\sqrt{2 x+4}+2 \\sqrt{2-x}} \\geq \\frac{6 x-4}{5 \\sqrt{x^{2}+1}} \\Leftrightarrow \\frac{6 x-4}{\\sqrt{2 x+4}+2 \\sqrt{2-x}} \\geq \\frac{6 x-4}{5 \\sqrt{x^{2}+1}})% %(\\left.\\Leftrightarrow(6 x-4)\\left(5 \\sqrt{x^{2}+1}-\\sqrt{2 x+4}-2 \\sqrt{2-x}\\right) \\geq 0 \\quad{ }^{*}\\right))%.<br>Ta có %((\\sqrt{2 x+4}+2 \\sqrt{2-x})^{2}=(\\sqrt{2 x+4}+\\sqrt{2} \\sqrt{4-2 x})^{2} \\leq(1+2)(2 x+4+4-2 x)=24)%<br>Suy ra %(\\sqrt{2 x+4}+2 \\sqrt{2-x} \\leq \\sqrt{24}\\lt 5, \\forall x \\in[-2 ; 2])%<br>Mặt khác %(5 \\sqrt{x^{2}+1} \\geq 5, \\forall x \\in[-2 ; 2])%, do đó %(5 \\sqrt{x^{2}+1}-\\sqrt{2 x+4}-2 \\sqrt{2-x}>0, \\forall x \\in[-2 ; 2])%.<br>Do đó %((*) \\Leftrightarrow 6 x-4>0 \\Leftrightarrow x>\\frac{2}{3})%.<br>Đối chiếu với điều kiện ta được tập nghiệm của bất phương trình đã cho là: %(S=\\left[-2 ; \\frac{2}{3}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 3.0,
+        "content": "Giải phương trình: %(32 \\cos ^{6}\\left(\\frac{x}{2}\\right)+\\sin 3 x=3 \\sin x)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Ta có } 32 \\cos ^{6}\\left(\\frac{x}{2}\\right)+\\sin 3 x=3 \\sin x \\Leftrightarrow 32\\left(\\cos ^{2}\\left(\\frac{x}{2}\\right)\\right)^{3}+3 \\sin x-4 \\sin ^{3} x=3 \\sin x \\\\Leftrightarrow 4(1+\\cos x)^{3}-4 \\sin ^{3} x=0 \\Leftrightarrow 1+\\cos x=\\sin x \\Leftrightarrow \\sin x-\\cos x=1 \\\\Leftrightarrow \\sin \\left(x-\\frac{\\pi}{4}\\right)=\\frac{\\sqrt{2}}{2} \\Leftrightarrow\\left[\\begin{array} { l } { x - \\frac { \\pi } { 4 } = \\frac { \\pi } { 4 } + k 2 \\pi } \\\\{ x - \\frac { \\pi } { 4 } = \\frac { 3 \\pi } { 4 } + k 2 \\pi }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=\\frac{\\pi}{2}+k 2 \\pi \\x=\\pi+k 2 \\pi\\end{array}(k \\in \\mathbb{Z}) .\\right.\\right.\\end{array}\\]<br>Vậy phương trình đã cho có các nghiệm là %(x=\\frac{\\pi}{2}+k 2 \\pi ; x=\\pi+k 2 \\pi(k \\in \\mathbb{Z}))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5:",
+        "group_content": "Cho hình chóp %(\\mathrm{S} . \\mathrm{ABCD})% có đáy %(A B C D)% là hình chữ nhật với %(A B=3 a, A D=3 a \\sqrt{2}, S A \\perp(A B C D))%, %(S A=4 a)%. Gọi %(\\mathrm{M}, \\mathrm{N})% lần lượt là trung điểm của các cạnh %(S D)% và %(A D)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Tính góc giữa đường thẳng %(A C)% và mặt phẳng %((B M N))%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\tan \\widehat{A}_{1}=\\frac{D C}{A D}=\\frac{3 a}{3 a \\sqrt{2}}=\\frac{1}{\\sqrt{2}} ; \\tan \\widehat{N}_{1}=\\frac{A B}{A N}=\\frac{3 a \\cdot 2}{3 a \\sqrt{2}}=\\sqrt{2} \\\\Rightarrow \\tan \\widehat{A}_{1} \\cdot \\tan \\widehat{N}_{1}=1 \\Rightarrow \\widehat{A}_{1}+\\widehat{N}_{1}=90^{\\circ} \\Rightarrow \\widehat{A_{1}}+\\widehat{N}_{1}=90^{\\circ} \\Rightarrow A C \\perp B N .\\end{array}\\]<br>Ta có: %(\\left\\{\\begin{array}{l}A C \\perp B N \\\\ A C \\perp M N \\quad(\\mathrm{MN} / / \\mathrm{SA})\\end{array} \\Rightarrow A C \\perp(B M N) \\Rightarrow(A C,(B M N))=90^{\\circ}\\right.)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c722537b677a39570b49a4963674611c.png\" srcset=\"https://docdn.giainhanh.io/media/test/daba07608cea4b36923b282a84147842.png 245w, https://docdn.giainhanh.io/media/test/e3a54e6d56d0bf6f06ae0f18fe54a83d.png 500w, https://docdn.giainhanh.io/media/test/27a6767120fc00baac65f0fc2ece2d2a.png 750w, https://docdn.giainhanh.io/media/test/1cd02c64cbbfc2edf816e7042335d42c.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Mặt phẳng %((\\alpha))% đi qua hai điểm %(B, M)% và song song với %(A C)%. Biết mặt phẳng %((\\alpha))% cắt các cạnh %(S A, S C)% lần lượt tại hai điểm %(E, F)%. Tính khoảng cách từ điểm %(C)% đến mặt phẳng %((B E M F))%.",
+        "question_images": [],
+        "solution": "Trong %((\\mathrm{SAC}))% qua %(\\mathrm{H})% kẻ đường thẳng song song với %(\\mathrm{SA})% cắt %(\\mathrm{SC})% tại %(\\mathrm{T})%.<br>Vì HT // MN (//SA) %(\\Rightarrow T \\in(\\alpha))%.<br>Trong (BMN) gọi %(R=H T \\cap E F)%.<br>Trong %((\\mathrm{SAC}))% qua %(R)% kẻ đường thẳng song song với %(\\mathrm{AC})% cắt %(\\mathrm{SA}, \\mathrm{SC})% theo thứ tự tại %(\\mathrm{E}, \\mathrm{F})%.<br>%(\\Rightarrow(\\alpha) \\equiv(B E M F))%.<br>Kẻ %(H K \\perp B M, N Q \\perp B M \\Rightarrow H K / / N Q)%.<br>\\[\\text { Vì } \\Rightarrow A C / / E F, E F \\subset(\\alpha) \\Rightarrow d(C,(\\alpha))=d(H,(\\alpha))\\]<br>Ta có: %(\\left\\{\\begin{array}{l}H K \\perp B M \\\\ H Q \\perp E F(H Q \\perp A C, A C / / E F)\\end{array}\\right.)%<br>\\[\\begin{array}{l}\\Rightarrow N Q \\perp(B E M F) \\Rightarrow d(H,(\\alpha))=H K \\Rightarrow d(C,(\\alpha))=H K \\B N=\\sqrt{A B^{2}+A N^{2}}=\\sqrt{9 a^{2}+\\frac{9 a^{2}}{2}}=\\frac{3 a \\sqrt{3}}{\\sqrt{2}}\\end{array}\\]<br>\\[\\begin{array}{l}A B^{2}=B H \\cdot B N \\Rightarrow B H=\\frac{A B^{2}}{B N}=\\frac{3 a \\sqrt{2}}{\\sqrt{3}}=a \\sqrt{6} \\\\frac{1}{N Q^{2}}=\\frac{1}{N B^{2}}+\\frac{1}{N M^{2}}=\\frac{2}{27 a^{2}}+\\frac{1}{4 a^{2}}=\\frac{35}{108 a^{2}} \\Rightarrow N Q=\\frac{6 a \\sqrt{3}}{\\sqrt{35}}\\end{array}\\]<br>Ta có: %(\\frac{H K}{N Q}=\\frac{B H}{B N} \\Rightarrow H K=\\frac{N Q \\cdot B H}{B N})%<br>\\[\\Rightarrow d(C,(\\alpha))=H K=\\frac{4 a \\sqrt{3}}{\\sqrt{35}} \\text {. }\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C)% có ba góc nhọn và %(A B\\lt A C)% (tam giác %(A B C)% không cân ). Gọi %(O, I)% lần lượt là tâm đường tròn ngoại tiếp, nội tiếp của tam giác %(A B C . A D(D \\in B C))% là đường phân giác trong của %(\\widehat{B A C})%. Đường thẳng %(A D)% cắt đường tròn %((O))% tại điểm %(E(E \\neq A))%. Đường thẳng %(d)% đi qua điểm %(I)% và vuông góc với %(A E)% cắt đường thẳng %(B C)% tại điểm %(K)%. Đường thẳng %(K A, K E)% cắt đường tròn %((O))% lần lượt tại các điểm %(M, N(M \\neq A ; N \\neq E))%. Đường thẳng %(N D, N I)% cắt đường tròn %((O))% lần lượt tại các điểm %(P, Q(P \\neq N ; Q \\neq N))%. Chứng minh rằng %(E Q)% là đường trung trực của đoạn thẳng %(M P)%.",
+        "question_images": [],
+        "solution": "Từ bài toán, chú ý %(A B, A C \\perp A I \\Rightarrow N I)% là phân giác góc %(\\widehat{B N C})%<br>%(\\Rightarrow P)% là điểm chính giữa %(\\widehat{B A C} \\Rightarrow E Q)% là đường kính của %((O))%<br>\\[\\begin{array}{l}\\Rightarrow I N \\perp K E \\Rightarrow K M \\cdot K A=K N \\cdot K E=K I^{2} \\Rightarrow I M \\perp K A \\Rightarrow \\operatorname{IMKN} n t(K I) \\\\Rightarrow \\widehat{Q N M}=\\widehat{A K I}\\end{array}\\]<br>Có %(\\overparen{B K N}=\\frac{1}{2} s \\mathrm{~d} \\overparen{C E}=\\frac{1}{2} s \\mathrm{~d} \\overparen{B N}=\\frac{1}{2} s \\mathrm{~d} \\overparen{N E}=\\overparen{B A N})%<br>\\[\\Rightarrow A D N K n t \\Rightarrow \\widehat{A K D}=\\widehat{A N D}\\]<br>Lại có %(\\widehat{I K D}=90^{\\circ}-\\widehat{I D K}=90^{\\circ}-\\widehat{I A C}-\\widehat{A C B})% %(=\\frac{1}{2} s d \\overparen{Q B E}-\\frac{1}{2} s d \\overparen{C E}-\\frac{1}{2} s d \\overparen{A E}=\\frac{1}{2} s d \\overparen{Q B E}-\\frac{1}{2} s d \\overparen{B E}-\\frac{1}{2} s d \\overparen{A B}=\\frac{1}{2} s d \\overparen{A Q}=\\widehat{A N Q})% %(\\Rightarrow \\widehat{A K I}=\\widehat{I N Q} \\Rightarrow \\widehat{M N I}=\\widehat{I N P} \\Rightarrow Q)% là điểm chính giữa %(M P)%<br>Mà %(Q E)% là đường kính<br>%(\\Rightarrow E Q)% là đường trung trực của đoạn thẳng %(M P)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1aa0f691d259ba244852f901d3310b56.png\" srcset=\"https://docdn.giainhanh.io/media/test/6b4270c7aca31ad0b77c6859bc58bbd8.png 245w, https://docdn.giainhanh.io/media/test/612fb313166a63f214b08467ddba6aa8.png 500w, https://docdn.giainhanh.io/media/test/e755418090635a609275db528e3c196b.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7:",
+        "group_content": "Cho dãy số %(\\left(u_{n}\\right))% với %(\\left\\{\\begin{array}{c}u_{1}=2020 \\\\ u_{n+1}=u_{n}^{2221}+2020 u_{n}^{2020}+u_{n}\\left({ }^{*}\\right)\\end{array}\\right.)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(\\lim u_{n}=+\\infty)%.",
+        "question_images": [],
+        "solution": "Từ giả thiết dễ dàng suy ra %(u_{n}\\gt 0)% với mọi %(n \\geq 1)%. Do đó ta có %(u_{n+1}>u_{n} \\geq 2020)% với mọi %(n \\geq 1)%. Hay ta có dãy %(\\left(u_{n}\\right))% đơn điệu tăng. Suy ra<br>\\[\\left[\\begin{array}{l}\\lim u_{n}=+\\infty \\\\lim u_{n}=a>2020\\end{array}\\right.\\]<br>Giả sử %(\\lim u_{n}=a>2020)%. Qua giới hạn hai vế của (*) ta được %(a=a^{2021}+2020 a^{2020}+a)%. Điều này tương đương %(a=0)% hoặc %(a=-2020)% (Vô lý)<br>Vậy %(\\lim u_{n}=+\\infty)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Tính %(\\lim \\left(\\frac{u_{1}^{2020}}{u_{2}+2020}+\\frac{u_{2}^{2020}}{u_{3}+2020}+\\cdots+\\frac{u_{n}^{2020}}{u_{n+1}+2020}\\right))%.",
+        "question_images": [],
+        "solution": "Từ điều kiện %(\\left({ }^{*}\\right))% ta có với mọi %(k \\geq 1)%<br>\\[\\begin{array}{c}u_{k+1}=u_{k}^{2021}+2020 u_{k}^{2020}+u_{k} \\\\Leftrightarrow u_{k}^{2020}\\left(u_{k}+2020\\right)=u_{k+1}-u_{k}\\end{array}\\]<br>Từ đó suy ra<br>\\[\\begin{aligned}\\frac{u_{k}^{2020}}{u_{k+1}+2020} & =\\frac{u_{k}^{2020}\\left(u_{k}+2020\\right)}{\\left(u_{k+1}+2020\\right)\\left(u_{k}+2020\\right)}=\\frac{u_{k+1}-u_{k}}{\\left(u_{k+1}+2020\\right)\\left(u_{k}+2020\\right)} \\\\& =\\frac{1}{u_{k}+2020}-\\frac{1}{u_{k+1}+2020}\\end{aligned}\\]<br>Suy ra %(\\lim \\left(\\frac{u_{1}^{2020}}{u_{2}+2020}+\\frac{u_{2}^{2020}}{u_{3}+2020}+\\cdots+\\frac{u_{n}^{2020}}{u_{n+1}+2020}\\right))%<br>\\[=\\lim \\left(\\frac{1}{u_{1}+2020}-\\frac{1}{u_{2}+2020}+\\frac{1}{u_{2}+2020}-\\frac{1}{u_{3}+2020}+\\cdots+\\frac{1}{u_{n}+2020}-\\frac{1}{u_{n+1}+2020}\\right)\\]<br>%(=\\lim \\left(\\frac{1}{u_{1}+2020}-\\frac{1}{u_{n+1}+2020}\\right)=\\frac{1}{4040})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 1.0,
+        "content": "Cho %(x, y, z)% là các số thực dương thay đổi thỏa mãn: %(x+y+z=3)%. Chứng minh rằng:<br>\\[3\\left(x^{2}+y^{2}+z^{2}\\right) \\geq 2\\left(x^{2} y^{2}+y^{2} z^{2}+z^{2} x^{2}\\right)+3 .\\]",
+        "question_images": [],
+        "solution": "Vì %(x, y, z)% vai trò như nhau, không mất tính tổng quát giả sử %(x \\leq y \\leq z)%.<br>Suy ra %(x+y+z \\geq 3 x \\Leftrightarrow 3 \\geq 3 x \\Rightarrow x \\leq 1~~~(*))%<br>Ta có %(3\\left(x^{2}+y^{2}+z^{2}\\right) \\geq 2\\left(x^{2} y^{2}+y^{2} z^{2}+z^{2} x^{2}\\right)+3)%<br>\\[\\begin{array}{l}\\Leftrightarrow 3\\left(x^{2}+y^{2}+z^{2}\\right)-2\\left(x^{2} y^{2}+y^{2} z^{2}+z^{2} x^{2}\\right)-3 \\geq 0 \\Leftrightarrow 3 x^{2}+3\\left(y^{2}+z^{2}\\right)-2 x^{2}\\left(y^{2}+z^{2}\\right)-2 y^{2} z^{2}-3 \\geq 0 \\\\Leftrightarrow\\left(y^{2}+z^{2}\\right)\\left(3-2 x^{2}\\right)-2 y^{2} z^{2}+3 x^{2}-3 \\geq 0 \\Leftrightarrow(y+z)^{2}\\left(3-2 x^{2}\\right)-2 y z\\left(3-2 x^{2}\\right)-2 y^{2} z^{2}+3 x^{2}-3 \\geq 0~~~(1)\\end{array}\\]<br>Áp dụng BĐT AM-GM cho 2 số dương %(y)% và %(z)% ta được:<br>\\[\\begin{array}{l}y z \\leq\\left(\\frac{y+z}{2}\\right)^{2}=\\left(\\frac{3-x}{2}\\right)^{2} \\Rightarrow-y z \\geq-\\left(\\frac{3-x}{2}\\right)^{2} \\V T(1) \\geq(3-x)^{2}\\left(3-2 x^{2}\\right)-2\\left(\\frac{3-x}{2}\\right)^{2}\\left(3-2 x^{2}\\right)-2\\left(\\frac{3-x}{2}\\right)^{4}+3 x^{2}-3=f(x)\\end{array}\\]<br>Xét %(f(x)=(3-x)^{2}\\left(3-2 x^{2}\\right)-2\\left(\\frac{3-x}{2}\\right)^{2}\\left(3-2 x^{2}\\right)-2\\left(\\frac{3-x}{2}\\right)^{4}+3 x^{2}-3)%<br>\\[\\begin{array}{l}=\\frac{1}{2}(3-x)^{2}\\left(3-2 x^{2}\\right)-\\frac{1}{8}(3-x)^{4}+3 x^{2}-3=\\frac{1}{2}(3-x)^{2}\\left(3-2 x^{2}-\\frac{9}{4}+\\frac{6}{4} x-\\frac{1}{4} x^{2}\\right)+3 x^{2}-3 \\\\=\\frac{1}{2}(3-x)^{2}\\left(-\\frac{9}{4} x^{2}+\\frac{3}{2} x+\\frac{3}{4}\\right)+3 x^{2}-3=\\frac{1}{2}(3-x)^{2} \\cdot \\frac{3}{4}(1-x)(3 x+1)+3(x-1)(x+1) \\\\=(1-x)\\left[\\frac{3}{8}\\left(9-6 x+x^{2}\\right)(3 x+1)-3(1+x)\\right]=\\frac{3}{8}(1-x)\\left(3 x^{3}-17 x^{2}+13 x+1\\right)=\\frac{3}{8}(1-x)^{2}\\left(-3 x^{2}+14 x+1\\right)\\end{array}\\]<br>Mà %(-3 x^{2}+14 x+1=3 x(1-x)+11 x+1\\gt 0)% với %(\\forall x \\in(0 ; 1])%<br>Vậy %(\\frac{3}{8}(1-x)^{2}\\left(-3 x^{2}+14 x+1\\right) \\geq 0)% với %(\\forall x \\in(0 ; 1])%.<br>Từ đó suy ra %(f(x) \\geq 0)% với %(\\forall x \\in(0 ; 1])%, hay %(V T(1) \\geq 0)% với %(\\forall x \\in(0 ; 1])%.<br>Đẳng thức xảy ra khi %(x=y=z=1)%.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho các số thực %(a, b)% khác 0 thỏa mãn: %(\\frac{1}{a}+\\frac{1}{b}=1)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tính giá trị của biểu thức %(A=\\frac{\\left(a^{2}-b^{2}\\right)^{2}}{a^{4} b^{4}}+\\frac{4}{a b})%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=\\left(\\frac{a^{2}-b^{2}}{a^{2} b^{2}}\\right)^{2}+\\frac{4}{a b}=\\left(\\frac{1}{a^{2}}-\\frac{1}{b^{2}}\\right)^{2}+\\frac{4}{a b} \\\\ A=\\left[\\left(\\frac{1}{a}-\\frac{1}{b}\\right)\\left(\\frac{1}{a}+\\frac{1}{b}\\right)\\right]^{2}+\\frac{4}{a b} \\\\ A=\\left(\\frac{1}{a}-\\frac{1}{b}\\right)^{2}+\\frac{4}{a b}=\\left(\\frac{1}{a}+\\frac{1}{b}\\right)^{2}=1\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh rằng: %((a+b-2)^{3}-(a-1)^{3}-(b-1)^{3}-3(a+b)+6=0)%.",
+        "question_images": [],
+        "solution": "Từ giả thiết:<br>%(\\begin{array}{l}\\frac{1}{a}+\\frac{1}{b}=1 \\Rightarrow a+b=a b \\\\ \\Rightarrow a b-a-b+1=1 \\Leftrightarrow(a-1)(b-1)=1\\end{array})%<br>Áp dụng hằng dẳng thức %((x+y)^{3}=x^{3}+y^{3}+3 x y(x+y))%<br>%(\\begin{array}{l}{[(a-1)+(b-1)]^{3}} \\\\ =(a-1)^{3}+(b-1)^{3}+3(a-1)(b-1)[(a-1)+(b-1)]\\end{array})%<br>%(\\begin{array}{l}\\Rightarrow(a+b-2)^{3}=(a-1)^{3}+(b-1)^{3}+3[a+b-2] \\\\ \\Leftrightarrow(a+b-2)^{3}-(a-1)^{3}-(b-1)^{3}-3(a+b)+6=0\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Giải phương trình: %(\\sqrt{x+2}-2 \\sqrt{x-1}=3 x-3 \\cdot \\sqrt{(x+2)(x-1)})%",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq 1)%<br>%(\\begin{array}{l}\\sqrt{x+2}-2 \\sqrt{x-1}=3 x-3 \\cdot \\sqrt{(x+2)(x-1)} \\\\ \\Leftrightarrow \\sqrt{x+2}-2 \\sqrt{x-1}=(x+2)+2(x-1)-3 \\cdot \\sqrt{(x+2)(x-1)}\\end{array})%<br>Đặt %(a=\\sqrt{x+2} ; b=\\sqrt{x-1}(a ; b \\geq 0))%<br>Ta được phương trình:<br>%(\\begin{array}{l}a-2 b=a^{2}+2 b^{2}-3 a b \\\\ \\Leftrightarrow(a-2 b)(a-b-1)=0 \\\\ \\Leftrightarrow\\left[\\begin{array}{l}a=2 b \\\\ a=b+1\\end{array}\\right.\\end{array})%<br>Với %(a=2 b \\Rightarrow \\sqrt{x+2}=2 \\sqrt{x-1} \\Leftrightarrow x=2)%<br>Với %(a=b+1)%<br>%(\\Rightarrow \\sqrt{x+2}=\\sqrt{x-1}+1 \\Leftrightarrow x+2=x+2 \\sqrt{x-1} \\Leftrightarrow x=2)%<br>Vậy phương trình có nghiệm là %(x=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Giải hệ phương trình: %(\\left\\{\\begin{array}{l}y+2 \\cdot \\sqrt{x^{2}+y}=4 x+3 \\\\ (x-3) \\sqrt{y+4}+(y-4) \\sqrt{x-1}+2=0\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}y+2 \\cdot \\sqrt{x^{2}+y}=4 x+3(1) \\\\ (x-3) \\sqrt{y+4}+(y-4) \\sqrt{x-1}+2=0(2)\\end{array}\\right.)%<br>Điều kiện: %(x \\geq 1 ; y \\geq-4 ; x^{2}+y \\geq 0)%<br>Biến đổi phương trình (1):<br>%((1) \\Leftrightarrow x^{2}+y+2 \\cdot \\sqrt{x^{2}+y}+1=x^{2}+4 x+4)%<br>%(\\Leftrightarrow\\left(\\sqrt{x^{2}+y}+1\\right)^{2}=(x+2)^{2})%<br>%(\\Leftrightarrow\\left[\\begin{array}{l}\\sqrt{x^{2}+y}=x+1 \\\\ \\sqrt{x^{2}+y}=-x-3(\\text { loai do } x \\geq 1)\\end{array}\\right.)%<br>Với %(\\sqrt{x^{2}+y}=x+1 \\Leftrightarrow y=2 x+1)% thay vào (2) ta được:<br>%(\\begin{array}{l}(x-3) \\sqrt{2 x+5}+(2 x-3) \\sqrt{x-1}+2=0 \\\\ \\Leftrightarrow(x-3)(\\sqrt{2 x+5}-3)+(2 x-3)(\\sqrt{x-1}-1)+5 x-10=0 \\\\ \\Leftrightarrow \\frac{(x-3)(2 x-4)}{\\sqrt{2 x+5}+3}+\\frac{(2 x-3)(x-2)}{\\sqrt{x-1}+1}+5(x-2)=0 \\\\ \\Leftrightarrow(x-2)\\left[\\frac{2 x-6}{\\sqrt{2 x+5}+3}+\\frac{2 x-3}{\\sqrt{x-1}+1}+5\\right]=0\\end{array})%<br>%(\\begin{array}{l}\\Leftrightarrow(x-2)\\left[\\frac{2 x-6}{\\sqrt{2 x+5}+3}+2+\\frac{2 x-3}{\\sqrt{x-1}+1}+3\\right]=0 \\\\ \\Leftrightarrow(x-2)\\left[\\frac{2 x+2 \\sqrt{2 x+5}}{\\sqrt{2 x+5}+3}+\\frac{2 x+3 \\sqrt{x-1}}{\\sqrt{x-1}+1}\\right]=0 \\\\ \\Leftrightarrow x=2\\end{array})%<br>Do %(\\frac{2 x+2 \\sqrt{2 x+5}}{\\sqrt{2 x+5}+3}+\\frac{2 x+3 \\sqrt{x-1}}{\\sqrt{x-1}+1}\\gt 0, \\forall x \\geq 1)%<br>Vậy hệ phương trình có nghiệm %(\\Leftrightarrow\\left\\{\\begin{array}{l}x=2 \\\\ y=5\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho hình vuông %(A B C D)% nội tiếp đường tròn tâm %(O)%, bán kính %(R)%. Trên cung nhỏ%(A D)% lấy điềm %(E)% bất kì ( %(E)% không trùng với %(A)% và %(D))%. Tia %(E B)% cắt các đường thẳng %(A D)%, %(A C)% lần lượt tại %(I)% và %(K)%. Tia %(E C)% cắt các đường thằng %(D A, D B)% lần lượt tại %(M)% và %(N)%. Hai đường thẳng %(A N, D K)% cắt nhau tại %(P)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh: Tứ giác %(E P N D)% nội tiếp một đường tròn.",
+        "question_images": [],
+        "solution": "Ta có: %(\\widehat{P N E}=\\widehat{N A C}+\\widehat{N C A}=2 \\widehat{N C A}=s d \\widehat{d E A})%<br>Chứng minh %(\\widehat{P D A})%%(=\\widehat{A B E})%<br>Suy ra %(\\widehat{P D E}=\\widehat{P D A}+\\widehat{A D E}=\\widehat{A B E}+\\widehat{A D E}=2 \\widehat{A B E}=s d \\widehat{d E A})%<br>Xét tứ giác %(E P N D)% có: %(P N E=\\widehat{P D E})% và hai đỉnh %(N ; D)% là hai đinh liên tiếp nên %(E P N D)% là tứ giác nội tiếp đường tròn.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5f613ec5d6537e85afe6aea66015b165.png\" srcset=\"https://docdn.giainhanh.io/media/test/9b23a7415aba01bb9cb1e41dd894edec.png 181w, https://docdn.giainhanh.io/media/test/9e0d58f19748ff04389b4f77d6c478f6.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh: %(\\widehat{E K M}=\\widehat{D K M})%.",
+        "question_images": [],
+        "solution": "Ta thấy tứ giác %(A K M E)% là tứ giác nội tiếp do %(\\widehat{M E K}=\\widehat{M A K}=45^{0})%<br>Suy ra %(\\widehat{M E A}=\\widehat{M K A}=90^{\\circ})%<br>Do đó %(M K / / B D \\Rightarrow \\widehat{M K D}=\\widehat{K D B}=\\widehat{K B D}=\\widehat{E K M})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) Khi %(M)% là trung điềm của %(A D)%, tính độ dài đoạn thẳng %(A E)% theo %(R)%.",
+        "question_images": [],
+        "solution": "Chứng minh %(\\triangle M D C)% dồng dạng %(\\triangle M E A(\\mathrm{~g} . \\mathrm{g}))%<br>Suy ra %(\\frac{M D}{M C}=\\frac{M E}{M A} \\Rightarrow M C \\cdot M E=M D \\cdot M A=M D^{2}=\\frac{C D^{2}}{4})%<br>Mặt khác ta có: %(M C^{2}=C D^{2}+M D^{2}=C D^{2}+\\frac{C D^{2}}{4}=\\frac{5 C D^{2}}{4})%<br>Suy ra: %(M C=\\frac{\\sqrt{5} C D}{2} \\Rightarrow M E=\\frac{\\sqrt{5} C D}{10})%<br>Mà %(\\frac{E A}{C D}=\\frac{A M}{M C} \\Rightarrow E A=\\frac{A M \\cdot C D}{M C}=\\frac{\\sqrt{5}}{5} C D=\\frac{\\sqrt{10}}{5} R)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tìm các nghiệm nguyên %((x ; y))% của phương trình %(\\sqrt{x}+\\sqrt{y}=\\sqrt{2020})%.",
+        "question_images": [],
+        "solution": "Tìm các nghiệm nguyên %((x ; y))% của phương trình<br>%(\\sqrt{x}+\\sqrt{y}=\\sqrt{2020}(1))%.<br>Điều kiện: %(x \\geq 0 ; y \\geq 0)%<br>(1) %(\\Leftrightarrow \\sqrt{x}=\\sqrt{2020}-\\sqrt{y} \\Leftrightarrow x=2020+y-2 \\sqrt{2020 y})%<br>%(\\Leftrightarrow x=2020+y-4 \\sqrt{5.101 y})%<br>Do %(x ; y)% nguyên nên %(\\sqrt{5.101 y})% nguyên hay %(5.101 y)% là số chính phương.<br>Suy ra: %(5.101 y=k^{2} \\Rightarrow y=5.101 \\cdot a^{2}=505 a^{2})% ( %(a)% là số nguyên %())%<br>Tương tự %(x=5.101 . b^{2}=505 b^{2})% ( %(b)% là số nguyên)<br>Thay %(x ; y)% theo %(a ; b)% vào (1) ta được:<br>%(|a| \\sqrt{505}+|b| \\sqrt{505}=2 \\sqrt{505} \\Leftrightarrow|a|+|b|=2)%<br>Vậy phương trình có các nghiệm là:%((2020 ; 0) ;(505 ; 505) ;(0 ; 2020))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f174d78e48bb7263624619f87a62f116.png\" srcset=\"https://docdn.giainhanh.io/media/test/39b250f7e25d2418e45b996926434cae.png 245w, https://docdn.giainhanh.io/media/test/88e7ecded0ab3c7a84e21a0616f87429.png 500w, https://docdn.giainhanh.io/media/test/9c0e5472b751711030a59797c1779483.png 750w, https://docdn.giainhanh.io/media/test/9edf656e0d56b8497a53ae94cc719f5d.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Cho các số thực %(a, b, c)% thỏa mãn: %(\\left\\{\\begin{array}{l}0\\lt a, b, c\\lt \\frac{1}{2} \\\\ 2 a+3 b+4 c=3\\end{array}\\right.)%. Tìm giá trị nhỏ nhất của biểu thức: %(P=\\frac{2}{a(3 b+4 c-2)}+\\frac{9}{b(4 a+8 c-3)}+\\frac{8}{c(2 a+3 b-1)})%",
+        "question_images": [],
+        "solution": "Cho các số thực %(a, b, c)% thỏa mãn: %(\\left\\{\\begin{array}{l}0\\lt a, b, c\\lt \\frac{1}{2} \\\\ 2 a+3 b+4 c=3\\end{array}\\right.)%.<br>Tìm giá trị nhỏ nhất của biểu thức:<br>%(P=\\frac{2}{a(3 b+4 c-2)}+\\frac{9}{b(4 a+8 c-3)}+\\frac{8}{c(2 a+3 b-1)})%<br>Ta có:<br>%(\\begin{array}{l}P=\\frac{2}{a(1-2 a)}+\\frac{3}{b(1-2 b)}+\\frac{4}{c(1-2 c)} \\\\ =\\frac{2 a}{a^{2}(1-2 a)}+\\frac{3 b}{b^{2}(1-2 b)}+\\frac{4 c}{c^{2}(1-2 c)}\\end{array})%<br>Áp dụng bất đằng thức %(\\mathrm{AG}-\\mathrm{GM})%, ta có:<br>%(a^{2}(1-2 a) \\leq\\left[\\frac{a+a+1-2 a}{3}\\right]^{3}=\\frac{1}{27})%<br>Tương tự: %(b^{2}(1-2 b) \\leq \\frac{1}{27} ; c^{2}(1-2 c) \\leq \\frac{1}{27})%<br>Suy ra %(P \\geq 27(2 a+3 b+4 c)=81)%<br>Dấu \"=\" xảy ra khi %(a=b=c=\\frac{1}{3})%.<br>Vậy giá trị nhỏ nhất của %(P)% là 81",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Trong mặt phẳng tọa độ %(\\mathrm{Oxy})%, điểm %(M(a ; b))% được gọi là điểm nguyên nếu cả %(a)% và %(b)% đều là số nguyên. Chứng minh rằng tồn tại điểm %(I)% trong mặt phẳng tọa độ và 2019 số thực dương %(R_{1} ; R_{2} ; \\ldots R_{2019})% sao cho có đúng %(k)% điểm nguyên nằm trong đường tròn %(\\left(I ; R_{k}\\right))% với mọi %(k)% là số nguyên dương không vượt quá 2019 .",
+        "question_images": [],
+        "solution": "Xét điểm %(I(\\sqrt{2} ; \\sqrt{3}))%. Ta chứng minh khoảng cách từ %(I)% đến hai điềm nguyên khác nhau là khác nhau.<br>Xét hai điểm nguyên %(M(a ; b) ; M^{\\prime}\\left(a^{\\prime} ; b^{\\prime}\\right))%<br>%(I M=I M^{\\prime} \\Leftrightarrow I M^{2}=I M^{\\prime 2})%<br>%(\\begin{array}{l}\\Leftrightarrow(a-\\sqrt{2})^{2}+(b-\\sqrt{3})^{2}=\\left(a^{\\prime}-\\sqrt{2}\\right)^{2}+\\left(b^{\\prime}-\\sqrt{3}\\right)^{2} \\\\ \\Leftrightarrow a^{2}+b^{2}-a^{\\prime 2}-b^{\\prime 2}+2\\left(a^{\\prime}-a\\right) \\sqrt{2}+2\\left(b^{\\prime}-b\\right) \\sqrt{3}=0\\end{array})%<br>Nhận xét nếu các số nguyên %(m ; n ; p)% thỏa mãn: %(m+n \\sqrt{2}+p \\sqrt{3}=0)% thì: %(m=n=p=0)%<br>%(\\left\\{\\begin{array}{l}\\sqrt{2} ; \\sqrt{3} ; \\sqrt{6} \\notin Q ; m, n, p \\in Q \\\\ 2 m n \\sqrt{2}=3 p^{2}-m^{2}-2 n^{2} \\\\ 2 m p \\sqrt{3}=2 n^{2}-m^{2}-3 p^{2} \\\\ 2 p n \\sqrt{6}=m^{2}-2 n^{2}-3 p^{2} \\\\ m+n \\sqrt{2}+p \\sqrt{3}=0\\end{array}\\right.)%<br>%(\\Rightarrow\\left\\{\\begin{array}{l}m n=n p=p m=0 \\\\ m+n \\sqrt{2}+p \\sqrt{3}=0\\end{array} \\Rightarrow m=n=p=0\\right.)%<br>Ta có:<br>%(I M=I M^{\\prime} \\Leftrightarrow I M^{2}=I M^{\\prime 2})%<br>%(\\Leftrightarrow\\left\\{\\begin{array}{l}a^{2}+b^{2}-a^{\\prime 2}-b^{\\prime 2}=0 \\\\ 2\\left(a^{\\prime}-a\\right)=0 \\\\ 2\\left(b^{\\prime}-b\\right)=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}b=b^{\\prime} \\\\ a=a^{\\prime}\\end{array} \\Leftrightarrow M \\equiv M^{\\prime}\\right.\\right.)%<br>Xét tất cả các khoảng cách từ các điểm nguyên đến %(I)%, các khoảng cách này đôi một phân biệt. Gọi S là tập hợp các số thực bằng các khoảng cách từ tất cả các điểm nguyên đến %(I)%. Ta có thể chọn được 2020 số dương nhỏ nhất thuộc %(\\mathrm{S})% và được sắp theo thứ tự tăng dần, nghĩa là tồn tại các số dương %(s_{1} ; s_{2} ; \\ldots s_{2020})% thuộc tập %(\\mathrm{S})% thoả mãn %(s_{p}\\lt s_{q})% nếu %(p\\lt q)%, các số thuộc%(S \\backslash\\left\\{s_{1} ; s_{2} ; \\ldots s_{2020}\\right\\})% đều lớn hơn %(s_{1} ; s_{2} ; \\ldots s_{2020})%. Đặt%(R_{k}=\\frac{s_{k}+s_{k+1}}{2}, k=1 ; 2 ; 3 ; \\ldots 2019)%. Ta có điều phải chứng minh.",
+        "question_type": "essay"
+    }
+]

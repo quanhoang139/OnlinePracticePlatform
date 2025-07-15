@@ -1,0 +1,127 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Cho các số thực dương %(a, b)% thỏa mãn: %(b(a+1)=1-a)%.<br>Tính giá trị của biểu thức: %(P=a \\sqrt{\\frac{1+b^{2}}{1+a^{2}}}+b \\sqrt{\\frac{1+a^{2}}{1+b^{2}}}+\\sqrt{\\frac{\\left(1+a^{2}\\right)\\left(1+b^{2}\\right)}{4}})%.",
+        "question_images": [],
+        "solution": "Từ giả thiết, ta có %(a b+a+b=1)%. Thế vào %(P)% ta có:<br>\\[\\begin{array}{l}P=a \\sqrt{\\frac{1+b^{2}}{1+a^{2}}}+b \\sqrt{\\frac{1+a^{2}}{1+b^{2}}}+\\sqrt{\\frac{\\left(1+a^{2}\\right)\\left(1+b^{2}\\right)}{4}} \\\\=a \\sqrt{\\frac{a b+a+b+b^{2}}{a b+a+b+a^{2}}}+b \\sqrt{\\frac{a b+a+b+a^{2}}{a b+a+b+b^{2}}}+\\sqrt{\\frac{\\left(a b+a+b+a^{2}\\right)\\left(a b+a+b+b^{2}\\right)}{4}} \\\\=a \\sqrt{\\frac{(a+b)(b+1)}{(a+b)(a+1)}}+b \\sqrt{\\frac{(a+b)(a+1)}{(a+b)(b+1)}}+\\sqrt{\\frac{(a+b)(a+1)(a+b)(b+1)}{4}} \\\\=a \\sqrt{\\frac{b+1}{a+1}}+b \\sqrt{\\frac{a+1}{b+1}}+(a+b) \\sqrt{\\frac{(a+1)(b+1)}{4}}=\\sqrt{(a+1)(b+1)}\\left(\\frac{a}{a+1}+\\frac{b}{b+1}+\\frac{a+b}{2}\\right) \\\\=\\sqrt{a b+a+b+1}\\left(2+\\frac{a+b}{2}-\\left(\\frac{1}{a+1}+\\frac{1}{b+1}\\right)\\right)=\\sqrt{2}\\left(2+\\frac{a+b}{2}-\\frac{a+b+2}{2}\\right)=\\sqrt{2}(2-1)=\\sqrt{2}\\end{array}\\]<br>Vậy %(P=\\sqrt{2})% khi tồn tại các số thực dương %(a, b)% thỏa mãn %(b(a+1)=1-a)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Chứng minh: %(B=\\sqrt{1+2023^{2}+\\frac{2023^{2}}{2024^{2}}}+\\frac{2023}{2024})% là số tự nhiên.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}B=\\sqrt{1+2023^{2}+\\frac{2023^{2}}{2024^{2}}}+\\frac{2023}{2024}=\\sqrt{(1+2023)^{2}-2.2023+\\frac{2023^{2}}{2024^{2}}}+\\frac{2023}{2024} \\\\=\\sqrt{2024^{2}-2.2024 \\cdot \\frac{2023}{2024}+\\frac{2023^{2}}{2024^{2}}}+\\frac{2023}{2024}=\\sqrt{\\left(2024-\\frac{2023}{2024}\\right)^{2}}+\\frac{2023}{2024} \\\\=2024-\\frac{2023}{2024}+\\frac{2023}{2024}=2024\\end{array}\\]<br>Do 2024 là số tự nhiên nên ta có đpcm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Trên hệ trục tọa độ %(O x y)% cho hai điểm %(A(-1 ; 1), B(-5 ;-3))% và đường thẳng%((d): y=a x+b)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Tính diện tích tam giác %(O A B)%.",
+        "question_images": [],
+        "solution": "Dựng hình chữ nhật %(G E T B)% như hình vẽ dưới đây<br>Theo bài ra, ta có: %(A G=\\left|x_{G}-x_{A}\\right|=|-5-(-1)|=4)%.<br>Tương tự ta có: %(A E=O E=1 ; B G=4 ; O T=3 ; B T=5)%<br>%(\\Rightarrow S_{G E B T}=B G . B T=4.5=20 ; S_{G A B}=\\frac{B G . A G}{2}=\\frac{4.4}{2}=8)%;<br>%(S_{O A E}=\\frac{O E \\cdot A E}{2}=\\frac{1.1}{2}=\\frac{1}{2} ; S_{O T B}=\\frac{O T \\cdot B T}{2}=\\frac{3.5}{2}=\\frac{15}{2})%.<br>%(\\Rightarrow S_{O A B}=S_{G E B T}-S_{G A B}-S_{O A E}-S_{O T B}=20-8-\\frac{1}{2}-\\frac{15}{2}=4)% (đơn vị diện tích)<br>Vậy %(S_{O A B}=4(d v d t))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a54425ff7cd5d62e3fcb1908d96ecf60.png\" srcset=\"https://docdn.giainhanh.io/media/test/a11b3ea273a64584559b9e547ec8a8cd.png 245w, https://docdn.giainhanh.io/media/test/11a611a3b9e40e35e63cd4ef423a958a.png 500w, https://docdn.giainhanh.io/media/test/9288ad69a4f2f1d196576542d050c5a7.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Tìm %(a, b)% biết đường thẳng %((d))% vuông góc với đường thẳng %(A B)% và tiếp xúc với đường tròn tâm %(O(0 ; 0))% bán kính %(R=4 \\sqrt{2})%.",
+        "question_images": [],
+        "solution": "Gọi đường thẳng %((A B): y=m x+k)% đi qua %(A(-1 ; 1), B(-5 ;-3))% nên %(\\left\\{\\begin{array}{c}-m+k=1 \\\\ -5 m+k=-3\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}m=1 \\\\ k=2\\end{array} \\Rightarrow(A B): y=x+2\\right.\\right.)%.<br>Vì %((d) \\perp(A B))% nên %(a=-1)%, khi đó %((d): y=-x+b)%<br>Giả sử %((d))% tiếp xúc với %((O ; 4 \\sqrt{2}))% tại %(K)% và vuông góc với %((A B))% tại %(H)%.<br>Dễ thấy %(A O K H)% là hình chữ nhật, suy ra %(A H=O K=4 \\sqrt{2})%.<br>Tọa độ %(H)% là nghiệm của hệ phương trình. %(\\left\\{\\begin{array}{c}y=x+2 \\\\ y=-x+b\\end{array} \\Leftrightarrow x=\\frac{b-2}{2} ; y=\\frac{b+2}{2}\\right.)%.<br>Suy ra %(H\\left(\\frac{b-2}{2} ; \\frac{b+2}{2}\\right) \\Rightarrow A H=\\frac{|b|}{\\sqrt{2}})% %(\\Rightarrow 4 \\sqrt{2}=\\frac{|b|}{\\sqrt{2}} \\Leftrightarrow|b|=8 \\Leftrightarrow b= \\pm 8)%.<br>Vậy %((a ; b) \\in\\{(-1 ;-8),(-1 ; 8)\\})% là giá trị cần tìm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Cho đa thức %(f(x)=x^{3}+a x^{2}+b x+2)% với %(a, b)% là các số hữu tỉ. Biết đa thức đã cho có một nghiệm là %(x=2-\\sqrt{3})%, tìm các nghiệm còn lại của đa thức.",
+        "question_images": [],
+        "solution": "Do %(x=2-\\sqrt{3})% là 1 nghiệm của %(f(x) \\Rightarrow f(2-\\sqrt{3})=0)%<br>Thế %(x=2-\\sqrt{3})% vào %(f(x))%, ta có:<br>\\[\\begin{array}{l}f(2-\\sqrt{3})=(2-\\sqrt{3})^{3}+a(2-\\sqrt{3})+2=0 \\\\Leftrightarrow 7 a+2 b+28=(4 a+b+15) \\sqrt{3}\\end{array}\\]<br>Do %(a, b \\in \\mathbb{Q} \\rightarrow 7 a+2 b+28 \\in \\mathbb{Q}, 4 a+b+15 \\in \\mathbb{Q})%<br>Từ đó để phương trình thỏa mãn thì %(\\left\\{\\begin{array}{c}7 a+2 b+28=0 \\\\ 4 a+b+15=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a=-2 \\\\ b=-7\\end{array}\\right.\\right.)%<br>\\[\\Rightarrow f(x)=x^{3}+a x^{2}+b x+2=x^{3}-2 x^{2}-7 x+2=(x+2)\\left(x^{2}-4 x+1\\right)\\]<br>Gọi %(k)% là một nghiệm của %(f(x))%, ta có:<br>\\[(k+2)\\left(k^{2}-4 k+1\\right)=0 \\Leftrightarrow\\left\\{\\begin{array} { c } { k + 2 = 0 } \\\\{ k ^ { 2 } - 4 k + 1 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{c}k=-2 \\k=2 \\pm \\sqrt{3}\\end{array}\\right.\\right.\\]<br>Vậy nghiệm còn lại của %(f(x))% là %(-2 ; 2+\\sqrt{3})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(4 x^{2}+3 x+2=3 \\sqrt{x^{3}+3 x^{2}+3 x+2})%",
+        "question_images": [],
+        "solution": "ĐКХĐ: %(x \\geq-2)%.<br>Phương trình tương đương:<br>\\[4 x^{2}+3 x+2=3 \\sqrt{\\left(x^{3}+3 x^{2}+3 x+1\\right)+1}=3 \\sqrt{(x+1)^{3}+1}=3 \\sqrt{(x+2)\\left(x^{2}+x+1\\right)}\\]<br>Đặt %(\\sqrt{x+2}=a, \\sqrt{x^{2}+x+1}=b\\left(D K: a \\geq 0, b \\geq \\frac{\\sqrt{3}}{2}\\right) \\Rightarrow 4 b^{2}-a^{2}=4 x^{2}+3 x+2)%<br>Do %(a \\geq 0 ; b \\geq \\frac{\\sqrt{3}}{2} \\Rightarrow a+4 b \\geq 0+4 \\cdot \\frac{\\sqrt{3}}{2}=2 \\sqrt{3}\\gt 0)%.<br>Kết hợp phương trình trên ta có %(a-b=0 \\Leftrightarrow a=b)%<br>%(\\rightarrow \\sqrt{x+2}=\\sqrt{x^{2}+x+1} \\Leftrightarrow x^{2}=1 \\Leftrightarrow x= \\pm 1)% (Thỏa mãn ĐKXĐ).<br>Vậy phương trình có tập nghiệm %(S=\\{ \\pm 1\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{c}x+\\sqrt{x-y}=2 y+1+\\sqrt{y+1} \\\\ 8 x^{3}-52 y^{2}-15 x+11=(x+3) \\sqrt[3]{12 y^{2}+6 x-5}\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "ĐKХĐ: %(x \\geq y \\geq-1)%<br>Xét phương trình đầu tiên, ta có:<br>\\[\\begin{array}{l}x+\\sqrt{x+y}-2 y-1-\\sqrt{y+1}=0 \\Leftrightarrow(x-2 y-1)+(\\sqrt{x-y}-\\sqrt{y+1})=0 \\\\Leftrightarrow(x-2 y-1)+\\frac{(x-y)-(y+1)}{\\sqrt{x-y}+\\sqrt{y+1}}=0 \\Leftrightarrow(x-2 y-1)+\\frac{x-2 y-1}{\\sqrt{x-y}+\\sqrt{y+1}}=0 \\\\Leftrightarrow(x-2 y-1)\\left(1+\\frac{1}{\\sqrt{x-y}+\\sqrt{y+1}}\\right)=0\\end{array}\\]<br>Vì %(1+\\frac{1}{\\sqrt{x-y}+\\sqrt{y+1}}\\gt 1>0 \\Rightarrow x-2 y-1=0 \\Leftrightarrow 2 y=x-1(1))%<br>Thế (1) vào phương trình thứ hai, ta có:<br>%(\\begin{array}{l}8 x^{3}-13(x-1)^{2}-15 x+11=(x+3) \\sqrt[3]{3(x-1)^{2}+6 x-5} \\\\ \\Leftrightarrow 8 x^{3}-13 x^{2}+11 x-2=(x+3) \\sqrt[3]{3 x^{2}-2} \\\\ \\Leftrightarrow 8 x^{3}-13 x^{2}+11 x-2-(x+3)(2 x-1)+(x+3)\\left(2 x-1-\\sqrt[3]{3 x^{2}-2}\\right)=0 \\\\ \\Leftrightarrow 8 x^{3}-15 x^{2}+6 x+1+(x+3) \\cdot \\frac{(2 x-1)^{3}-\\left(3 x^{2}-2\\right)}{(2 x-1)^{2}+(2 x-1) \\sqrt[3]{3 x^{2}-2}+\\sqrt[3]{\\left(3 x^{2}-2\\right)^{2}}}=0 \\\\ \\Leftrightarrow 8 x^{3}-15 x^{2}+6 x+1+(x+3) \\cdot \\frac{8 x^{3}-15 x^{2}+6 x+1}{(2 x-1)^{2}+(2 x-1) \\sqrt[3]{3 x^{2}-2}+\\sqrt[3]{\\left(3 x^{2}-2\\right)^{2}}}=0 \\\\ \\Leftrightarrow\\left(8 x^{3}-15 x^{2}+6 x+1\\right)\\left(1+\\frac{x+3}{(2 x-1)^{2}+(2 x-1) \\sqrt[3]{3 x^{2}-2}+\\sqrt[3]{\\left(3 x^{2}-2\\right)^{2}}}\\right)=0\\end{array})%<br>%(\\begin{array}{l}\\text { Với } x \\geq-1 \\rightarrow 1+\\frac{x+3}{(2 x-1)^{2}+(2 x-1) \\sqrt[3]{3 x^{2}-2}+\\sqrt[3]{\\left(3 x^{2}-2\\right)^{2}}}\\gt 1>0 \\\\ \\Rightarrow 8 x^{3}-15 x^{2}+6 x+1=0 \\Leftrightarrow(x-1)^{2}(8 x+1)=0 \\Leftrightarrow\\left[\\begin{array}{c}x=1 \\rightarrow y=0 \\\\ x=-\\frac{1}{8} \\rightarrow y=-\\frac{9}{16}\\end{array}\\right. \\\\ \\text { Vậy }(x ; y) \\in\\left\\{(1 ; 0) ;\\left(\\frac{-1}{8} ; \\frac{-9}{16}\\right)\\right\\} .\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Cho các số thực dương %(x, y, z)% thỏa mãn %(\\sqrt{x}+\\sqrt{y}+\\sqrt{z}=1)%. Tìm giá trị nhỏ nhất của biểu thức<br>\\[Q=\\frac{x^{2}+y z}{x \\sqrt{y+z}}+\\frac{y^{2}+z x}{y \\sqrt{z+x}}+\\frac{z^{2}+x y}{z \\sqrt{x+y}}\\]",
+        "question_images": [],
+        "solution": "Đặt %(\\sqrt{x}=a, \\sqrt{y}=b ; \\sqrt{z}=c(D K: a, b, c\\gt 0 ; a+b+c=1))%.<br>\\[\\begin{array}{l}\\Rightarrow Q=\\frac{x^{2}+y z}{x \\sqrt{y+z}}+\\frac{y^{2}+z x}{y \\sqrt{z+x}}+\\frac{z^{2}+x y}{z \\sqrt{x+y}}=\\frac{a^{4}+b^{2} c^{2}}{a^{2} \\sqrt{b^{2}+c^{2}}}+\\frac{b^{4}+c^{2} a^{2}}{b^{2} \\sqrt{c^{2}+a^{2}}}+\\frac{c^{4}+a^{2} b^{2}}{c^{2} \\sqrt{a^{2}+b^{2}}} \\\\=\\left(\\frac{\\left(a^{2}+b^{2}\\right)\\left(a^{2}+c^{2}\\right)}{a^{2} \\sqrt{b^{2}+c^{2}}}-\\sqrt{b^{2}+c^{2}}\\right)+\\left(\\frac{\\left(a^{2}+b^{2}\\right)\\left(b^{2}+c^{2}\\right)}{b^{2} \\sqrt{c^{2}+a^{2}}}-\\sqrt{c^{2}+a^{2}}\\right)+\\left(\\frac{\\left(a^{2}+c^{2}\\right)\\left(b^{2}+c^{2}\\right)}{c^{2} \\sqrt{a^{2}+b^{2}}}-\\sqrt{a^{2}+b^{2}}\\right) \\\\=\\left(\\frac{\\left(a^{2}+b^{2}\\right)\\left(a^{2}+c^{2}\\right)}{a^{2} \\sqrt{b^{2}+c^{2}}}+\\frac{\\left(a^{2}+c^{2}\\right)\\left(b^{2}+c^{2}\\right)}{c^{2} \\sqrt{a^{2}+b^{2}}}+\\frac{\\left(a^{2}+b^{2}\\right)\\left(b^{2}+c^{2}\\right)}{b^{2} \\sqrt{c^{2}+a^{2}}}\\right)-\\left(\\sqrt{b^{2}+c^{2}}+\\sqrt{c^{2}+a^{2}}+\\sqrt{a^{2}+b^{2}}\\right)\\end{array}\\]<br>Áp dụng BDT Bunhia, ta có:<br>\\[\\begin{array}{l}\\frac{\\left(a^{2}+b^{2}\\right)\\left(a^{2}+c^{2}\\right)}{a^{2} \\sqrt{b^{2}+c^{2}}}=\\frac{\\sqrt{\\left(a^{2}+b^{2}\\right)\\left(a^{2}+c^{2}\\right)} \\sqrt{\\left(a^{2}+b^{2}\\right)\\left(a^{2}+c^{2}\\right)}}{a^{2} \\sqrt{b^{2}+c^{2}}} \\\\geq \\frac{\\left(a^{2}+b c\\right) \\sqrt{\\left(a^{2}+b^{2}\\right)\\left(a^{2}+c^{2}\\right)}}{a^{2} \\sqrt{b^{2}+c^{2}}}=\\frac{\\sqrt{\\left(a^{2}+b^{2}\\right)\\left(a^{2}+c^{2}\\right)}}{\\sqrt{b^{2}+c^{2}}}+\\frac{b c \\sqrt{\\left(a^{2}+b^{2}\\right)\\left(a^{2}+c^{2}\\right)}}{a^{2} \\sqrt{b^{2}+c^{2}}}\\end{array}\\]<br>Tương tự với các hạng tử còn lại, cộng dồn, ta được:<br>\\[\\begin{array}{l}\\Rightarrow \\frac{\\left(a^{2}+b^{2}\\right)\\left(a^{2}+c^{2}\\right)}{a^{2} \\sqrt{b^{2}+c^{2}}}+\\frac{\\left(a^{2}+b^{2}\\right)\\left(b^{2}+c^{2}\\right)}{b^{2} \\sqrt{c^{2}+a^{2}}}+\\frac{\\left(a^{2}+c^{2}\\right)\\left(b^{2}+c^{2}\\right)}{c^{2} \\sqrt{a^{2}+b^{2}}} \\geq \\frac{\\sqrt{\\left(a^{2}+b^{2}\\right)\\left(a^{2}+c^{2}\\right)}}{\\sqrt{b^{2}+c^{2}}}+\\frac{b c \\sqrt{\\left(a^{2}+b^{2}\\right)\\left(a^{2}+c^{2}\\right)}}{a^{2} \\sqrt{b^{2}+c^{2}}} \\\\+\\frac{\\sqrt{\\left(a^{2}+b^{2}\\right)\\left(b^{2}+c^{2}\\right)}}{\\sqrt{c^{2}+a^{2}}}+\\frac{c a \\sqrt{\\left(a^{2}+b^{2}\\right)\\left(b^{2}+c^{2}\\right)}}{b^{2} \\sqrt{c^{2}+a^{2}}} \\\\+\\frac{\\sqrt{\\left(a^{2}+c^{2}\\right)\\left(b^{2}+c^{2}\\right)}}{\\sqrt{a^{2}+b^{2}}}+\\frac{a b \\sqrt{\\left(a^{2}+c^{2}\\right)\\left(b^{2}+c^{2}\\right)}}{c^{2} \\sqrt{a^{2}+b^{2}}} \\\\=\\left(\\frac{\\sqrt{\\left(a^{2}+b^{2}\\right)\\left(a^{2}+c^{2}\\right)}}{\\sqrt{b^{2}+c^{2}}}+\\frac{\\sqrt{\\left(a^{2}+c^{2}\\right)\\left(b^{2}+c^{2}\\right)}}{\\sqrt{a^{2}+b^{2}}}+\\frac{\\sqrt{\\left(a^{2}+b^{2}\\right)\\left(b^{2}+c^{2}\\right)}}{\\sqrt{c^{2}+a^{2}}}\\right) \\\\+\\left(\\frac{b c \\sqrt{\\left(a^{2}+b^{2}\\right)\\left(a^{2}+c^{2}\\right)}}{a^{2} \\sqrt{b^{2}+c^{2}}}+\\frac{c a \\sqrt{\\left(a^{2}+b^{2}\\right)\\left(b^{2}+c^{2}\\right)}}{b^{2} \\sqrt{c^{2}+a^{2}}}+\\frac{a b \\sqrt{\\left(a^{2}+c^{2}\\right)\\left(b^{2}+c^{2}\\right)}}{c^{2} \\sqrt{a^{2}+b^{2}}}\\right) \\\\end{array}\\]<br>Áp dụng bất đẳng thức Cauchy, ta có:<br>\\[\\frac{\\sqrt{\\left(a^{2}+b^{2}\\right)\\left(a^{2}+c^{2}\\right)}}{\\sqrt{b^{2}+c^{2}}}+\\frac{\\sqrt{\\left(a^{2}+b^{2}\\right)\\left(b^{2}+c^{2}\\right)}}{\\sqrt{c^{2}+a^{2}}}+\\frac{\\sqrt{\\left(a^{2}+c^{2}\\right)\\left(b^{2}+c^{2}\\right)}}{\\sqrt{a^{2}+b^{2}}}\\]<br>%(\\begin{array}{l}=\\frac{1}{2}\\left(\\frac{\\sqrt{\\left(a^{2}+b^{2}\\right)\\left(a^{2}+c^{2}\\right)}}{\\sqrt{b^{2}+c^{2}}}+\\frac{\\sqrt{\\left(a^{2}+b^{2}\\right)\\left(b^{2}+c^{2}\\right)}}{\\sqrt{c^{2}+a^{2}}}\\right)+\\frac{1}{2}\\left(\\frac{\\sqrt{\\left(a^{2}+b^{2}\\right)\\left(b^{2}+c^{2}\\right)}}{\\sqrt{c^{2}+a^{2}}}+\\frac{\\sqrt{\\left(a^{2}+c^{2}\\right)\\left(b^{2}+c^{2}\\right)}}{\\sqrt{a^{2}+b^{2}}}\\right) \\\\ +\\frac{1}{2}\\left(\\frac{\\sqrt{\\left(a^{2}+b^{2}\\right)\\left(a^{2}+c^{2}\\right)}}{\\sqrt{b^{2}+c^{2}}}+\\frac{\\sqrt{\\left(a^{2}+c^{2}\\right)\\left(b^{2}+c^{2}\\right)}}{\\sqrt{a^{2}+b^{2}}}\\right) \\\\ \\geq \\sqrt{\\frac{\\sqrt{\\left(a^{2}+b^{2}\\right)\\left(a^{2}+c^{2}\\right)}}{\\sqrt{b^{2}+c^{2}}} \\cdot \\frac{\\sqrt{\\left(a^{2}+b^{2}\\right)\\left(b^{2}+c^{2}\\right)}}{\\sqrt{c^{2}+a^{2}}}}+\\sqrt{\\frac{\\sqrt{\\left(a^{2}+b^{2}\\right)\\left(b^{2}+c^{2}\\right)}}{\\sqrt{c^{2}+a^{2}}} \\cdot \\frac{\\sqrt{\\left(a^{2}+c^{2}\\right)\\left(b^{2}+c^{2}\\right)}}{\\sqrt{a^{2}+b^{2}}}} \\\\ +\\sqrt{\\frac{\\sqrt{\\left(a^{2}+b^{2}\\right)\\left(a^{2}+c^{2}\\right)}}{\\sqrt{b^{2}+c^{2}}}} \\cdot \\frac{\\sqrt{\\left(a^{2}+c^{2}\\right)\\left(b^{2}+c^{2}\\right)}}{\\sqrt{a^{2}+b^{2}}} \\\\ =\\sqrt{a^{2}+b^{2}}+\\sqrt{b^{2}+c^{2}}+\\sqrt{c^{2}+a^{2}}\\end{array})%<br>Tương tự ta có:<br>\\[\\begin{array}{l}\\frac{b c \\sqrt{\\left(a^{2}+b^{2}\\right)\\left(a^{2}+c^{2}\\right)}}{a^{2} \\sqrt{b^{2}+c^{2}}}+\\frac{c a \\sqrt{\\left(a^{2}+b^{2}\\right)\\left(b^{2}+c^{2}\\right)}}{b^{2} \\sqrt{a^{2}+c^{2}}}+\\frac{a b \\sqrt{\\left(a^{2}+c^{2}\\right)\\left(b^{2}+c^{2}\\right)}}{c^{2} \\sqrt{a^{2}+b^{2}}} \\\\geq a \\sqrt{\\frac{b^{2}+c^{2}}{b c}}+b \\sqrt{\\frac{c^{2}+a^{2}}{c a}}+c \\sqrt{\\frac{a^{2}+b^{2}}{a b}} \\\\Rightarrow V P_{(1)} \\geq \\sqrt{a^{2}+b^{2}}+\\sqrt{b^{2}+c^{2}}+\\sqrt{c^{2}+a^{2}}+a \\sqrt{\\frac{b^{2}+c^{2}}{b c}}+b \\sqrt{\\frac{c^{2}+a^{2}}{c a}}+c \\sqrt{\\frac{a^{2}+b^{2}}{a b}} \\\\left.\\geq \\sqrt{a^{2}+b^{2}}+\\sqrt{b^{2}+c^{2}}+\\sqrt{c^{2}+a^{2}}+a \\sqrt{\\frac{2 b c}{b c}}+b \\sqrt{\\frac{2 c a}{c a}}+c \\sqrt{\\frac{2 a b}{a b}} \\text { (Cauchy }\\right)\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho tam giác %(A B C)% nhọn có %(A B\\lt A C)% và nội tiếp đường tròn %((O))%. Các đường cao %(A M, B N, C P)% cắt nhau tại %(H)%. Gọi %(K, Q)% lần lượt là giao điểm của %(N P)% với %(A H)% và %(A O, I)% là trung điểm của %(A H)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Chứng minh: %(I N^{2}=I K . I M)%.",
+        "question_images": [],
+        "solution": "Xét %(\\triangle A N B)% và %(\\triangle A P C)% có %(B A C ; A N B=A P C=90^{\\circ} \\Rightarrow \\triangle A N B \\sim \\triangle A P C(g-g) \\Rightarrow \\frac{A N}{A P}=\\frac{A B}{A C}(1))%<br>Xét %(\\triangle A N P)% và %(\\triangle A B C)% có (1) và %(B A C)% chung %(\\Rightarrow \\triangle A N B \\sim \\triangle A P C(c-g-c) \\Rightarrow A N P=A B C)%.<br>Tương tự ta có %(M N C=A B C \\Rightarrow M N C=A N P \\Leftrightarrow 90^{\\circ}-M N C=90^{\\circ}-A N P \\Leftrightarrow P N H=M N H)% (2).<br>Xét %(\\triangle A N H)% vuông ở %(N)% có %(I)% là trung điểm %(A K \\Rightarrow I N=I A=I K)% hay %(\\triangle I N H)% cân ở %(I)%<br>\\[\\begin{array}{l}\\Rightarrow I N H=I H N \\\\Leftrightarrow I N K+K N H=I H N \\text {. Mà } I H N=I M N+M N H \\text { (góc ngoài của } \\triangle M N H \\text { ) } \\\\Rightarrow I N K+K N H=I M N+M N H .\\end{array}\\]<br>Kết hợp với %((2) \\Rightarrow I N K=I M N(3))%.<br>Xét %(\\triangle I N K)% và %(\\triangle I M N)% có (3) và MIN chung<br>\\[\\Rightarrow \\triangle I N K \\sim \\Delta I M N(g-g) \\Rightarrow \\frac{I N}{I K}=\\frac{I M}{I N} \\Rightarrow I N^{2}=I K \\cdot I M(d p c m)\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/65d4ad50d207b9a41fb04f60f5c385e7.png\" srcset=\"https://docdn.giainhanh.io/media/test/8d8230692de63d4c3d1461cb11c3826e.png 245w, https://docdn.giainhanh.io/media/test/f7a5acbc62e4a84fb469d98dc1270e6e.png 500w, https://docdn.giainhanh.io/media/test/0e444c5cf38548583c6f994a42fd787b.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Gọi %(E, F)% lần lượt là trung điểm của %(B N, C P)%. Chứng minh %(E F)% vuông góc với %(Q M)%.",
+        "question_images": [],
+        "solution": "Trước hết, ta chứng minh bổ đề sau:<br>Bổ đề: Cho tam giác %(A B C)% nhọn có %(A B\\lt A C)% và nội tiếp đường tròn %((O))%. Các đường cao %(A H, B D, C E)% cắt nhau ở %(G)%. Gọi %(F)% là trung điểm %(B D, Q)% là giao điểm của %(A O)% và %(D E)%. Chứng minh rằng %(Q F=H F)%.<br>Chứng minh:<br>Kẻ tiếp tuyến %(A x)% (Tia %(A x)% khác phía %(B)% với bờ %(A C))%.<br>Qua %(B)% kẻ đường thẳng song song với %(D E)%, cắt %(A O)% tại %(S)%.<br>Gọi %(P, T, L, N)% lần lượt là giao điểm của %(D S)% và %(B C, B D)% và %(A O, Q F)% và %(B S, S H)% và %(P F)%.<br>Chứng minh tương tự câu a ta có %(A D E=A B C)%, mà %(x A D=A B C)% (góc tạo bởi tiếp tuyến và dây cung)<br>%(\\Rightarrow A D E=x A D)% và ở vị trí so le trong<br>%(\\Rightarrow A x / / D E)%, mà %(D E / / B S, A x \\perp A O \\Rightarrow D E \\perp A O ; B S \\perp A O)%.<br>Do %(D E / / B S \\Rightarrow \\frac{Q F}{F L}=\\frac{D F}{B F}=1 \\Rightarrow Q F=L F)%.<br>Xét %(\\triangle Q L S)% vuông ở %(S)% có %(Q F=L F \\Rightarrow Q F=L F=F S(1))%.<br>Xét %(\\triangle B T S)% và %(\\triangle A T D)% có %(B T S=A T D)% (hai góc đối đỉnh),<br>\\[B S T=A D T=90^{\\circ} \\Rightarrow \\triangle B T S \\sim \\triangle A T D(g-g)\\]<br>%(\\Rightarrow \\frac{B T}{S T}=\\frac{A T}{D T}(2), T B S=T A D(3))%.<br>Xét %(\\triangle B T A)% và %(\\triangle S T D)% có (2) và %(A T B=D T S)% (hai góc đối đỉnh)<br>%(\\Rightarrow \\triangle B T A \\sim \\triangle S T D(c-g-c) \\Rightarrow B A T=T D S(4))%.<br>Tương tự ta có: %(B S H=B A H(5))%.<br>Dễ dàng nhận thấy rằng %(B A H=Q A D(6))%, kết hợp (3) và %((5) \\Rightarrow T B S=B S H)% và ở vị trí so le trong %(\\Rightarrow B D / / H S)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/6743a13fa63d79120783b3573e3ccaa4.png\" srcset=\"https://docdn.giainhanh.io/media/test/672091a35916613973412bf83e9f810f.png 245w, https://docdn.giainhanh.io/media/test/788d9d1817d206381d8306c33ce78c02.png 500w, https://docdn.giainhanh.io/media/test/592467c2861a462763cbc49058533519.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "9",
+        "group_content": "Cho đường thẳng %((\\mathrm{d}))% và đường tròn %((O ; R))% không giao nhau. Trên đường thẳng %((\\mathrm{d}))% lấy điểm %(A)%. Từ điểm %(A)% kẻ tiếp tuyến %(A B, A C)% với %((O ; R),(B, C)% là tiếp điểm) và cát tuyến %(A D E)% không đi qua tâm %(O,(D)% nằm giữa %(A)% và %(E))%. Gọi %(I)% là trung điểm của %(D E)%. Đường thẳng %(B C)% cắt %(O A)% và %(O I)% lần lượt tại %(H, K)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Chứng minh rằng %(K E)% là tiếp tuyến của %((O ; R))%.",
+        "question_images": [],
+        "solution": "Xét %((O))% có %(I)% là trung điểm của dây cung %(D E \\Rightarrow O I \\perp D E)% hay %(O I D=90^{\\circ})%.<br>Theo tính chất tiếp tuyến ta có %(A B=A C)%, lại có %(O B=O C=R \\Rightarrow O A)% là đường trung trực của %(B C \\Rightarrow O A \\perp B C)%<br>Xét %(\\triangle O H K)% và %(\\triangle O I A)% có %(O I D=O H K=90^{\\circ} ; A O K)% chung<br>%(\\Rightarrow \\triangle O H K \\sim \\triangle O I A(g-g))% %(\\Rightarrow \\frac{O H}{O K}=\\frac{O I}{O A} \\Rightarrow O I \\cdot O K=O H \\cdot O A(1))%.<br>Xét %(\\triangle O A C)% vuông ở %(C)% có đường cao %(\\mathrm{CH} \\Rightarrow O H . O A=O C^{2}=R^{2})%.<br>Kết hợp với %((1) \\Rightarrow O I . O K=R^{2}=O E^{2} \\Rightarrow \\frac{O I}{O E}=\\frac{O E}{O K}(2))%.<br>Xét %(\\triangle O E K)% và %(\\triangle O I E)% có(2) và %(E O K)% chung<br>%(\\Rightarrow \\triangle O E K \\sim \\triangle O I E(c-g-c) \\Rightarrow O E K=O I E=90^{\\circ})%.<br>Từ đó suy ra đpcm.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/72705f0dce1e052a4ec3994909855890.png\" srcset=\"https://docdn.giainhanh.io/media/test/d13d6747c352fd6bf83d06a6eb8af287.png 245w, https://docdn.giainhanh.io/media/test/326ecf15b7f26616b1bcf4bdc57812c6.png 500w, https://docdn.giainhanh.io/media/test/d79b0d663216c3e4aa1bee0f14763823.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Chứng minh rằng khi %(A)% di động trên %((d))% thì %(H)% di động trên một đường tròn cố định.",
+        "question_images": [],
+        "solution": "Kẻ %(O L \\perp(d)(L \\in(d)), O L)% cắt %(B K)% ở %(G)%. Gọi %(N)% là trung điểm của %(O L)%<br>Xét %(\\triangle O H G)% và %(\\triangle O L A)% có %(A O L)% chung;<br>\\[O H G=O L A=90^{\\circ} \\Rightarrow \\triangle O H G \\sim \\triangle O L A(g-g) \\Rightarrow \\frac{O H}{O G}=\\frac{O L}{O A} \\Rightarrow O H \\cdot O A=O G . O L\\]<br>Lại có %(O G H . O A=R^{2} \\Rightarrow O G . O L=R^{2}(3))%.<br>Do %(R)% cố định và %((d))% cố định %(\\Rightarrow O L)% cố định. Kết hợp các điều trên với %((3) \\Rightarrow O G)% cố định.<br>Xét %(\\triangle O H G)% vuông ở %(H)% có %(N)% là trung điểm %(O G)%<br>\\[\\Rightarrow O N=G N=H N \\Rightarrow H \\in\\left(N ; \\frac{O G}{2}\\right)\\]<br>Do %(O G)% cố định và %(N)% là trung điểm %(O G)% nên suy ra %(N)% cố định, từ đó ta có đpcm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "10 ",
+        "point": 2.0,
+        "content": "Cho %(a, b)% là các số nguyên, %(a \\neq-1, b \\neq-1)% thỏa mãn: %(\\frac{(a-1)(a+1)^{2}+(b-1)(b+1)^{2}}{a+b+a b+1})% là số nguyên. Chứng minh: %(a^{2023} b^{2024}-a)% chia hết cho %(a^{2}+a)%.",
+        "question_images": [],
+        "solution": "Điều cần chứng minh tương đương: %(\\left(a^{2022} \\cdot b^{2024}-1\\right) \\vdots(a+1) \\Leftrightarrow\\left(\\left(a^{2022} b^{2024}-1\\right)+(a+1)\\right) \\vdots:(a+1))%<br>\\[\\Leftrightarrow\\left(a^{2022} b^{2024}+a\\right) \\vdots(a+1) \\Leftrightarrow a\\left(a^{2021} b^{2024}+1\\right) \\vdots(a+1) \\Leftrightarrow\\left(a^{2021} b^{2024}+1\\right) \\vdots(a+1) \\text { (Do }(a, a+1)=1 \\text { ) }\\]<br>Cứ làm như vậy tương tự, cuối cùng điều cần chứng minh tương đương %(\\left(b^{2024}-1\\right):(a+1)(1))%.<br>Do %(\\frac{(a-1)(a+1)^{2}+(b-1)(b+1)^{2}}{a+b+a b+1})% là số nguyên %(\\Rightarrow\\left((a-1)(a+1)^{2}+(b-1)(b+1)^{2}\\right):(a+b+a b+1))%<br>%(\\Leftrightarrow\\left((a-1)(a+1)^{2}+(b-1)(b+1)^{2}\\right) \\vdots(a+1)(b+1)(2))%.<br>Gọi %((a+1, b+1)=d)% (ĐK: %(d \\geq 1) \\Rightarrow a+1=d q ; b+1=d k)%<br>\\[\\rightarrow a=d q-1 ; b=d k-1\\]<br>Lúc này (2) trở thành %(\\left((d q-2) d^{2} q^{2}+(d k-2) d^{2} k^{2}\\right) \\vdots d q . d k \\Leftrightarrow\\left((d q-2) q^{2}+(d k-2) k^{2}\\right) \\vdots q k)%<br>Mà %(q k \\vdots q \\Rightarrow\\left((d q-2) q^{2}+(d k-2) k^{2}\\right) \\vdots q \\Leftrightarrow(d k-2) k^{2} \\vdots q(3))%.<br>Vì %((q, k)=1 \\Rightarrow\\left(q, k^{2}\\right)=1)%.Kết hợp với %((3) \\Rightarrow(d k-2) \\vdots q(4))%.<br>Do %(a=d q-1 ; b=d k-1)% nên điều (1) tương đương: %(\\left((d k-1)^{2024}-1\\right) \\vdots d q(5))%.<br>Ta lại có: %((d k-1)^{2024}-1=\\left((d k-1)^{2}\\right)^{1012}-1:\\left((d k-1)^{2}-1\\right)(6))%.<br>Lại có: %((d k-1)^{2}-1=((d k-1)+1)((d k-1)-1)=d k(d k-2) \\vdots d k q)% (Do có %(\\left.(4)\\right))%<br>Mà %(d k q \\vdots d q \\Rightarrow\\left((d k-1)^{2}-1\\right) \\vdots d q)%.<br>Kết hợp với (6) ta suy ra được điều (5) được chứng minh hay bài toán được chứng minh.<br>Vậy bài toán được chứng minh.",
+        "question_type": "essay"
+    }
+]

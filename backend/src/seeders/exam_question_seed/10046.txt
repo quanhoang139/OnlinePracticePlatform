@@ -1,0 +1,82 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Tìm tập xác định của hàm số: %(f(x)=\\frac{2014}{\\sqrt{-x^{2}+2 x+3}}+\\frac{2015}{\\sqrt{x^{2}-2 x}})%",
+        "question_images": [],
+        "solution": "Hàm số %(\\mathrm{f}(\\mathrm{x}))% xác định khi và chỉ khi<br>%(\\left\\{\\begin{array} { l } { - x ^ { 2 } + 2 x + 3 } \\\\{ x ^ { 2 } - 2 x }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { - 1 \\lt x \\lt 3 } \\\\{ x \\gt 2 } \\\\{ x \\lt 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}2\\lt x\\lt 3 \\\\-1\\lt x\\lt 0\\end{array}\\right.\\right.\\right.)%<br>Vậy tập xác định cảu hàm số %(f(x))% là %(S=(-1 ; 0) \\cup(2 ; 3))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 0.5,
+        "content": "Chứng minh rằng hàm số %(f(x)=\\frac{x}{x+1})% đồng biến trên khoảng %((-1 ;+\\infty))%",
+        "question_images": [],
+        "solution": "Với mọi %(x_{1} \\cdot x_{2} \\in(-1 ;+\\infty), x_{1} \\neq x_{2})% ta có:<br>%(\\begin{aligned}K & =\\frac{f\\left(x_{1}\\right)-f\\left(x_{2}\\right)}{x_{1}-x_{2}}=\\frac{\\frac{x_{1}}{x_{1}+1}-\\frac{x_{2}}{x_{2}+1}}{x_{1}-x_{2}} \\\\& =\\frac{x_{1}\\left(x_{2}+1\\right)-x_{2}\\left(x_{1}+1\\right)}{\\left(x_{1}-x_{2}\\right)\\left(x_{1}+1\\right)\\left(x_{2}+1\\right)}=\\frac{x_{1}-x_{2}}{\\left(x_{1}-x_{2}\\right)\\left(x_{1}+1\\right)\\left(x_{2}+1\\right)}=\\frac{1}{\\left(x_{1}+1\\right)\\left(x_{2}+1\\right)}\\gt 0\\end{aligned})%<br>(Do %(x_{1} \\cdot x_{2} \\in(-1 ;+\\infty))%)<br>Do đó %(K>0 \\Rightarrow f(x))% đồng biến trên khoảng %((-1 ;+\\infty))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 0.5,
+        "content": "Chứng minh rằng hàm số %(f(x)=\\sqrt{2015-x}-\\sqrt{2015+x})% là một hàm số lẻ",
+        "question_images": [],
+        "solution": "Tập xác định hàm số là %(D[-2015 ; 2015])%<br>Với mọi %(x \\in D)%, ta có %(-x \\in D)%,<br>%(f(-x)=\\sqrt{2015+x}-\\sqrt{2015-x}=-(\\sqrt{2015-x}-\\sqrt{2015+x})=-f(x))%<br>Suy ra %(\\mathrm{f}(\\mathrm{x}))% là hàm số lẻ",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải phương trình %(19+3 x+4 \\sqrt{-x^{2}-x+6}=6 \\sqrt{2-x}+12 \\sqrt{3+x})%",
+        "question_images": [],
+        "solution": "Điều kiện: %(\\left\\{\\begin{array}{l}-x^{2}-x+6 \\geq 0 \\\\ 2-x \\geq 0 \\\\ 3+x \\geq 0\\end{array} \\Leftrightarrow-3 \\leq x \\leq 2\\right.)%<br>Bất phương trình đã cho tương đương với:<br>%(19+3 x+4 \\sqrt{(2-x)(3+x)}=6(\\sqrt{2-x}+2 \\sqrt{3+x}))%<br>Đặt %(t=\\sqrt{2-x}+2 \\sqrt{3+x}, t\\gt 0)% ta có:<br>%(t^{2}=2-x+4(3+x)+4 \\sqrt{(2-x)(3+x)}=14+3 x+4 \\sqrt{(2-x)(3+x)})%<br>Thay vào phương trình trên ta được: %(5+t^{2}=6 t \\Leftrightarrow t^{2}-6 t+5=0 \\Leftrightarrow\\left[\\begin{array}{l}t=1 \\\\ t=5\\end{array}\\right.)%<br>+) %(t=1 \\Leftrightarrow \\sqrt{2-x}+2 \\sqrt{3+x}=1 \\Leftrightarrow 2-x+4(3+x)+4 \\sqrt{(2-x)(3+x)}=1)%<br>%(\\Leftrightarrow 3 x+13+4 \\sqrt{-x^{2}-x+6}=0)% vô nghiệm do %(-3 \\leq x \\leq 2)%<br>%(\\begin{array}{l}\\text { +) } t=5 \\Leftrightarrow \\sqrt{2-x}+2 \\sqrt{3+x}=5 \\Leftrightarrow 2-x+4(3+x)+4 \\sqrt{(2-x)(3+x)}=25 \\\\ \\Leftrightarrow 4 \\sqrt{-x^{2}-x+6}=11-3 x \\Leftrightarrow\\left\\{\\begin{array}{l}16\\left(-x^{2}-x+6\\right)=(11-3 x)^{2} \\\\ 11-3 x \\geq 0\\end{array}\\right.\\end{array})%<br>%(\\Leftrightarrow\\left\\{\\begin{array}{l}25 x^{2}-50 x+25=0 \\\\ x \\leq \\frac{11}{3}\\end{array} \\Leftrightarrow\\right.)% %(x=1)% thỏa mãn điều kiện<br>Vậy tập nghiệm của phương trình đã cho là %(S=\\{1\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x^{2}+2 y^{2}-3 x y-y-1=0 \\\\ x^{2}+y^{2}-y-3=0\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Ta có: %(\\left\\{\\begin{array}{l}x^{2}+2 y^{2}-3 x y-y-1=0(1) \\\\ x^{2}+y^{2}-y-3=0(2)\\end{array}\\right.)%(I)<br>Ta có %((1) \\Leftrightarrow(x-y+1)(x-2 y-1)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=y-1 \\\\ x=2 y+1\\end{array}\\right.)%<br>Với %(x=y-1)% thay vào (2) ta được %(2 y^{2}-3 y-2=0 \\Leftrightarrow\\left[\\begin{array}{l}y=2 \\\\ y=-\\frac{1}{2}\\end{array}\\right.)%<br>+) %(y=2 \\Rightarrow x=1)%<br>+) %(y=-\\frac{1}{2} \\Rightarrow x=-\\frac{3}{2})%<br>Với %(x=2 y+1)% thay vào (2) ta được %(5 y^{2}+3 y-2=0 \\Leftrightarrow\\left[\\begin{array}{l}y=-1 \\\\ y=\\frac{2}{5}\\end{array}\\right.)%<br>+) %(y=-1 \\Rightarrow x=-1)%<br>+) %(y=\\frac{2}{5} \\Rightarrow x=\\frac{9}{5})%<br>Vậy (I) có nghiệm (x;y) là: %((1 ; 2),(-1 ;-1),\\left(-\\frac{3}{2} ;-\\frac{1}{2}\\right),\\left(\\frac{9}{5} ; \\frac{2}{5}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các giá trị m sao cho bất phươg trình %((m-1)^{2}=2(m+2)+2 m+2 \\geq 0)% vô nghiệm ( %(x)% là ẩn, m là tham số)",
+        "question_images": [],
+        "solution": "Bất phương trình đã cho vô nghiệm khi và chỉ khi<br>%((m-1) x^{2}+2(m+2) x+2 m+2\\lt 0 \\forall x \\in \\mathbb{R})%<br>Trường hợp 1: Nếu %(\\mathrm{m}=1)% thì %(6 \\mathrm{x}+4\\lt 0, \\forall x \\in \\mathbb{R} \\Leftrightarrow x\\lt -\\frac{2}{3}, \\forall x \\in \\mathbb{R})% vô lí.<br>Trường hợp 2: Nếu %(\\mathrm{m} \\neq 1)% thì %((m-1) x^{2}+2(m+2) x+2 m+2\\lt 0 \\forall x \\in \\mathbb{R})%<br>%(\\left\\{\\begin{array}{l}m-1\\lt 0 \\\\ \\Delta^{\\prime}=(m+2)^{2}-(m-1)(2 m+2)\\lt 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}m\\lt 1 \\\\ -m^{2}+4 m+6\\lt 0\\end{array} \\Leftrightarrow\\right.\\right.)% %(\\left\\{\\begin{array}{l}m\\lt 1 \\\\ {\\left[\\begin{array}{l}m\\gt 2+\\sqrt{10} \\\\ m\\lt 2-\\sqrt{10}\\end{array}\\right.}\\end{array}\\right.)% %(\\Leftrightarrow m\\lt 2-\\sqrt{10})%<br>Vậy tập hợp các giá trị của m là %(S=(-\\infty ; 2-\\sqrt{10}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Cho tam giác ABC không cân nội tiếp đường tròn tâm O và G là trọng tâm của tam giác ABC . Gọi %(\\mathrm{M}, \\mathrm{N}, \\mathrm{P})% lần lượt là trọng tâm tam giác %(\\mathrm{OBC}, \\mathrm{OCA}, \\mathrm{OAB})%, và %(\\mathrm{G}^{\\prime})% là trọng tâm tam giác MNP. Chứng minh rằng %(\\mathrm{O}, \\mathrm{G}, \\mathrm{G}^{\\prime})% thẳng hàng.",
+        "question_images": [],
+        "solution": "<strong>Cách 1:</strong><br>Kết quả cơ bản: cho tam giác ABC trọng tâm G.<br>Khi đó với mọi điểm O ta có %(\\overrightarrow{O A}+\\overrightarrow{O B}+\\overrightarrow{O C}=3 \\cdot \\overrightarrow{O G})%<br>Do %( \\mathrm{M}, \\mathrm{N}, \\mathrm{P})% lần lượt là trọng tâm các tam giác %(\\mathrm{OBC}, \\mathrm{OCA}, \\mathrm{OAB})% nên:<br>%(\\overrightarrow{O B}+\\overrightarrow{O C}=3 \\cdot \\overrightarrow{O M}, \\overrightarrow{O C}+\\overrightarrow{O A}=3 \\cdot \\overrightarrow{O N}, \\overrightarrow{O A}+\\overrightarrow{O B}+=3 \\cdot \\overrightarrow{O P})%<br>Cộng từng vế 3 hệ thức trên ta được: %(2(\\overrightarrow{O A}+\\overrightarrow{O B}+\\overrightarrow{O C})=3(\\overrightarrow{O M}+\\overrightarrow{O N}+\\overrightarrow{O P}))%<br>%(\\Leftrightarrow 2.3 \\cdot \\overrightarrow{O G}=3.3 \\cdot \\overrightarrow{O G}{ }^{\\prime} \\Leftrightarrow 2 \\cdot \\overrightarrow{O G}=3 \\cdot \\overrightarrow{O G^{\\prime}} \\Rightarrow O, G, \\mathrm{G}^{\\prime})% thẳng hàng<br><strong>Cách 2:</strong><br>Vì M, N, P lần lượt là trọng tâm của tam giác %(\\mathrm{OBC}, \\mathrm{OCA}, \\mathrm{OAB})% nên ta có%(\\left(A^{\\prime}, B^{\\prime}, C^{\\prime}\\right.)% lần lượt là trung điểm của %(\\left.\\mathrm{BC}, \\mathrm{CA}, \\mathrm{AB}\\right))%<br>Xét vị tự %(V_{o}^{\\frac{3}{2}}: \\Delta M N P \\rightarrow \\Delta A^{\\prime} B^{\\prime} C^{\\prime})%.<br>Vậy trọng tâm %(\\mathrm{G}^{\\prime})% của tam giác MNP biến thành trọng tâm G của tam giác %(A^{\\prime}, B^{\\prime}, C^{\\prime})%.<br>Mà trong tâm G của tam giác %(A^{\\prime}, B^{\\prime}, C^{\\prime})% chính là trọng tâm G của tam giác ABC.<br>Vậy %(O, G, \\mathrm{G}^{\\prime})% thẳng hàng<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/802aea50e2acb99758ab137e2f46fe1c.png\" srcset=\"https://docdn.giainhanh.io/media/test/8f36d09b4cacceb59960cba5199ba34a.png 188w\" width=\"188\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho tam giác ABC không vuông và có cạnh %(\\mathrm{BC}=\\mathrm{a}, \\mathrm{CA}=\\mathrm{b}, \\mathrm{AB}=\\mathrm{c})%. Chứng minh rằng nếu tam giác ABC thỏa mãn %(a^{2}+b^{2}=2 c^{2})% và %(\\tan \\mathrm{A}+\\tan \\mathrm{C}=2 \\tan \\mathrm{B})% thì tam giác ABC đều.",
+        "question_images": [],
+        "solution": "Theo định lí hàm số sin và côsin ta có:<br>%(\\tan A=\\frac{\\sin A}{\\cos A}=\\frac{\\frac{a}{2 R}}{\\frac{b^{2}+c^{2}-a^{2}}{2 b c}}=\\frac{a b c}{R\\left(b^{2}+c^{2}-a^{2}\\right)})%<br>Tương tự ta có %(\\tan B=\\frac{a b c}{R\\left(c^{2}+a^{2}-b^{2}\\right)}, \\tan C=\\frac{a b c}{R\\left(a^{2}+b^{2}-c^{2}\\right)})%<br>%(\\begin{array}{l}\\Rightarrow \\tan A+\\tan C=2 \\cdot \\tan B \\Leftrightarrow \\frac{a b c}{R\\left(b^{2}+c^{2}-a^{2}\\right)}+\\frac{a b c}{R\\left(a^{2}+b^{2}-c^{2}\\right)}=2 \\cdot \\frac{a b c}{R\\left(a^{2}+c^{2}-b^{2}\\right)} \\\\ \\Leftrightarrow \\frac{1}{b^{2}+c^{2}-a^{2}}+\\frac{1}{a^{2}+b^{2}-c^{2}}=2 \\cdot \\frac{1}{a^{2}+c^{2}-b^{2}} \\\\ \\Leftrightarrow\\left(c^{2}+a^{2}-b^{2}\\right)\\left(a^{2}+b^{2}-c^{2}\\right)+\\left(b^{2}+c^{2}-a^{2}\\right)\\left(a^{2}+c^{2}-b^{2}\\right) \\\\ =2\\left(b^{2}+c^{2}-a^{2}\\right)\\left(a^{2}+b^{2}-c^{2}\\right) \\Leftrightarrow a^{4}-\\left(b^{2}-c^{2}\\right)^{2}+c^{4}-\\left(a^{2}-b^{2}\\right)^{2}=2\\left(b^{4}-\\left(a^{2}-c^{2}\\right)^{2}\\right) \\\\ \\Leftrightarrow a^{2}\\left(a^{2}+b^{2}-2 c^{2}\\right)+\\left(c^{2}-b^{2}\\right)\\left(c^{2}+2 b^{2}\\right)=0 \\Leftrightarrow b=c\\left(\\text { do a }{ }^{2}+\\mathrm{b}^{2}=2 \\mathrm{c}^{2}\\right)\\end{array})%<br>Kết hợp với %(\\mathrm{a}^{2}+\\mathrm{b}^{2}=2 \\mathrm{c}^{2} \\Rightarrow a=b=c)%<br>Vậy tam giác ABC đều.",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 1.0,
+        "content": "Trong mặt phẳng với hệ tọa độ Oxy , cho tam giác ABC không là tam giác vuông và nội tiếp đường tròn %((\\mathrm{I}))% (đường tròn %((\\mathrm{I}))% có tâm là I ); điểm %(\\mathrm{H}(2 ; 2))% là trực tâm tam giác ABC. Kẻ các đường kính %(\\mathrm{AM}, \\mathrm{BN})% của đường tròn (I). tìm tọa độ các đỉnh của tam giác ABC biết %(\\mathrm{M}(5 ; 3) \\mathrm{N}(1 ; 3))% và đường thẳng BC đi qua điểm %(\\mathrm{P}(4 ; 2))%.",
+        "question_images": [],
+        "solution": "<strong>Nhận xét.</strong>Các tứ giác %(\\mathrm{BHCM}, \\mathrm{AHCN})% là các hình bình hành suy ra nếu gọi %(\\mathrm{E}, \\mathrm{F})% lần lượt là trung điểm của %(\\mathrm{BC}, \\mathrm{CA})% thì %(\\mathrm{E}, \\mathrm{F})% cũng tương tựng là trung điểm của %(\\mathrm{HM}, \\mathrm{HN})%.<br>Do đó %(E\\left(\\frac{7}{2} ; \\frac{5}{2}\\right), F\\left(\\frac{3}{2} ; \\frac{5}{2}\\right))%<br>Đường thẳng BC đi qua điểm %(\\mathrm{P}(4 ; 2), E\\left(\\frac{7}{2} ; \\frac{5}{2}\\right))% nên:<br>%(B C: \\frac{x-4}{\\frac{7}{2}-4}=\\frac{y-2}{\\frac{5}{2}-2} \\Leftrightarrow x+y-6=0)%<br>%(A H)% vuông góc với %(B C)% suy ra %(A H)% co vecto pháp tuyến %(\\vec{n}_{A H}=(1 ;-1))%<br>Kết hợp với AH đi qua điểm H(2;2) suy ra: %(\\mathrm{AH}: 1(\\mathrm{x}-2)-1(\\mathrm{y}-2)=0 \\Leftrightarrow \\mathrm{x}-\\mathrm{y}=0)%<br>%(A \\in A H \\Rightarrow A(a ; a), \\mathrm{C} \\in B C \\Rightarrow C(\\mathrm{~b} ; 6-\\mathrm{b}) \\text {, })%<br>Do F là trung điểm AC nên:<br>%(\\left\\{\\begin{array}{l}x_{F}=\\frac{x_{A}+x_{C}}{2} \\\\ y_{F}=\\frac{y_{A}+y_{C}}{2}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a+b=3 \\\\ a+6-b=5\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a=1 \\\\ b=2\\end{array} \\Leftrightarrow A(1 ; 1), C(2 ; 4)\\right.\\right.\\right.)%<br>Do E là trung điểm BC nên:<br>%(\\left\\{\\begin{array}{l}x_{E}=\\frac{x_{B}+x_{C}}{2} \\\\ y_{E}=\\frac{y_{B}+y_{C}}{2}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x_{B}=2 x_{E}-x_{C} \\\\ y_{B}=2 y_{E}-y_{C}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x_{B}=5 \\\\ y_{B}=1\\end{array} \\Leftrightarrow B(5 ; 1)\\right.\\right.\\right.)%<br>Vậy %(A(1 ; 1), B(5 ; 1), C(2 ; 4))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/6451226b79da7de4bf4feea517cfdeda.png\" srcset=\"https://docdn.giainhanh.io/media/test/0b4489733469a505f99b234cde265846.png 151w\" width=\"151\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "10 ",
+        "point": 1.0,
+        "content": "Cho a b c là các số thực dương thỏa mãn điều kiện %(\\mathrm{A}+\\mathrm{B}+\\mathrm{C}=2015)% chứng minh rằng<br>\\[\\frac{2015 a-a^{2}}{b c}+\\frac{2015 b-b^{2}}{c a}+\\frac{2015 c-c^{2}}{a b}+6 \\geq 2 \\sqrt{2}\\left(\\sqrt{\\frac{2015-a}{a}}+\\sqrt{\\frac{2015-b}{b}}+\\sqrt{\\frac{2015-c}{c}}\\right)\\]",
+        "question_images": [],
+        "solution": "Thay %(2015=a+b+c)% thì bất đẳng thức cần chứng minh có dạng:<br>%(\\frac{a(b+c)}{b c}+\\frac{b(c+a)}{c a}+\\frac{c(a+b)}{a b}+6 \\geq 2 \\sqrt{2}\\left(\\sqrt{\\frac{b+c}{a}}+\\sqrt{\\frac{c+a}{b}}+\\sqrt{\\frac{a+b}{c}}\\right))%<br>Ta có: %(\\frac{a(b+c)}{b c}+\\frac{b(c+a)}{c a}+\\frac{c(a+b)}{a b}+6=\\frac{a}{b}+\\frac{a}{c}+\\frac{b}{a}+\\frac{b}{c}+\\frac{c}{a}+\\frac{c}{b}+6)%<br>%(\\begin{array}{l}=\\frac{b+c}{a}+2+\\frac{c+a}{b}+2+\\frac{a+b}{c}+2 \\geq 2 \\sqrt{\\frac{b+c}{a} \\cdot 2}+2 \\sqrt{\\frac{c+a}{b} \\cdot 2}+2 \\sqrt{\\frac{a+b}{c} \\cdot 2} \\\\ =2 \\sqrt{2}\\left(\\sqrt{\\frac{b+c}{a}}+\\sqrt{\\frac{c+a}{b}}+\\sqrt{\\frac{a+b}{c}}\\right)\\end{array})%<br>Dấu bằng xảy ra khi và chỉ khi %(\\mathrm{a}=\\mathrm{b}=\\mathrm{c}=\\frac{2015}{3})%",
+        "question_type": "essay"
+    }
+]

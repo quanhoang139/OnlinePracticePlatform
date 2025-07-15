@@ -1,0 +1,75 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.25,
+        "content": "Cho %(A=\\sqrt{11-6 \\sqrt{2}}+\\sqrt{11+6 \\sqrt{2}})%.  Tính %(A^{3})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=\\sqrt{11-6 \\sqrt{2}}+\\sqrt{11+6 \\sqrt{2}} \\\\ A=\\sqrt{(3-\\sqrt{2})^{2}}+\\sqrt{(3+\\sqrt{2})^{2}}=3-\\sqrt{2}+3+\\sqrt{2}=6 \\\\ \\Rightarrow A^{3}=6^{3}=216\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.25,
+        "content": "Cho các số thực %(\\mathrm{b}, \\mathrm{c})% thỏa mãn %(24 \\mathrm{~b}+\\mathrm{c}=-523)%. Biết phương trình %(x^{2}+b x+c=0)% có 2 nghiệm %(x_{1}, x_{2})% là các số nguyên dương. Tìm %(x_{1}, x_{2})%.",
+        "question_images": [],
+        "solution": "Theo định lý Viet ta có %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=-b \\\\ x_{1} x_{2}=c\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}24\\left(x_{1}+x_{2}\\right)=-24 b(1) \\\\ x_{1} x_{2}=c(2)\\end{array}\\right.\\right.)%<br>Lấy -1.(1) + (2) ta được: %(-24\\left(x_{1}+x_{2}\\right)+x_{1} x_{2}=-523)%<br>\\[\\Leftrightarrow x_{1}\\left(x_{2}-24\\right)=24 x_{2}-523\\]<br>Dễ thấy %(x_{2}=24)% không thỏa mãn (3)<br>\\[\\Rightarrow x_{1}=\\frac{24 x_{2}-523}{x_{2}-24}=\\frac{24\\left(x_{2}-24\\right)+53}{x_{2}-24}=24+\\frac{53}{x_{2}-24}\\]<br>Để %(x_{1}, x_{2})% nguyên thì %(x_{2}-24 \\in\\{ \\pm 1 ; \\pm 53\\} \\Rightarrow x_{2} \\in\\{25 ; 23 ; 77 ;-29\\})%<br>Với %(x_{2}=25 \\Rightarrow x_{1}=77)%Với %(x_{2}=23 \\Rightarrow x_{1}=-29(l))%<br>Với %(x_{2}=77 \\Rightarrow x_{1}=25)%Với %(x_{2}=-29 \\Rightarrow x_{1}=23(l))%<br>Vậy %(\\left(x_{1} ; x_{2}\\right) \\in\\{(25 ; 77) ;(77 ; 25)\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Trong hình vẽ, hình lục giác đều nội tiếp đường tròn tâm %(\\mathrm{O})% có bán kính bằng %(2 \\mathrm{~cm})%. Trên mỗi cung nhỏ được chắn bởi một cạnh hình lục giác, lấy đối xứng cung qua cạnh đó. Tính diện tích phần gạch chéo (cho %(\\pi=3,14 ; \\sqrt{3}=1,73))%",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/b6870c86a2cb39333f8d33501272325a.png"
+        ],
+        "solution": "Diện tích của hình tròn là %(S=\\pi R^{2}=4 \\pi\\left(\\mathrm{cm}^{2}\\right))%<br>Gọi %(S_{1})% là phần diện tích được gạch sọc đó<br>Khi đó diện tích %(S_{1}=)% diện tích hình quạt %(\\mathrm{OAB})% - diện tích tam giác %(\\mathrm{OAB})%<br>\\[S_{1}=\\frac{1}{6} S-\\frac{O A^{2} \\sqrt{3}}{4}=\\frac{4 \\pi}{6}-\\sqrt{3}=\\frac{2 \\pi}{3}-\\sqrt{3}\\]<br>Diện tích phần gạch chéo là %(S-12 S_{1}=4 \\pi-12\\left(\\frac{2 \\pi}{3}-\\sqrt{3}\\right)=12 \\sqrt{3}-4 \\pi\\left(\\mathrm{cm}^{2}\\right))%<br>Vậy diện tích cần tìm là %(12 \\sqrt{3}-4 \\pi\\left(\\mathrm{cm}^{2}\\right)=12.1,73-3.3,14=8,2\\left(\\mathrm{~cm}^{2}\\right))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/61eee4e54d58c38efc0acfb01263f733.png\" srcset=\"https://docdn.giainhanh.io/media/test/2a2474994aa7f90ccde1c1732e283ea4.png 151w\" width=\"151\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho tam giác ABC cân tại A. Lấy D thuộc BC sao cho DB = 2DC. Đường thẳng qua D song song với AC cắt AB tại E, đường thẳng qua E song song với BC cắt AC tại F. Đường tròn ngoại tiếp tam giác AFE cắt AD tại M khác A.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a)Chứng minh BDME, CDMF là tứ giác nội tiếp",
+        "question_images": [],
+        "solution": "a) Tam giác %(A B C)% cân tại %(A)% nên %(A B=A C)%<br>Vì %(\\mathrm{EF} / / \\mathrm{CB}, \\mathrm{AB}=\\mathrm{AC})% nên %(\\mathrm{AE}=\\mathrm{AF} \\Rightarrow A E F=A F E)%<br>Mà %(\\left\\{\\begin{array}{l}A E F=A B C \\\\ A F E=A M E \\Rightarrow A B C=A M E\\end{array}\\right.)%%(\\Rightarrow)% Tứ giác BDME nội tiếp<br>Chứng minh tương tự%(A C B=A F E=A E F=A M F)% nên CDMF là tứ giác nội tiếp<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0a162e3f9cadb0f4071dcf17b3583564.png\" srcset=\"https://docdn.giainhanh.io/media/test/247398646b9dde6233c6e60b6ee4b540.png 147w, https://docdn.giainhanh.io/media/test/3079f015643a39f4dc1e2594edd9a0ab.png 470w\" width=\"470\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b)Chứng minh MB = 2MA",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { } E M B=E D B=A C B=A F E=A E F=A M F \\\\Rightarrow A M B=E M B+E M A=A M F+E M A=E M F\\end{array}\\]<br>Ta được %(\\triangle A M B \\sim \\triangle F M E(g-g))% vì %(A M B=F M E, E A M=E F M=\\frac{1}{2} s d E M)%<br>\\[\\Rightarrow \\frac{M A}{M B}=\\frac{M F}{M E}(1)\\]<br>Ta lại có: %(\\triangle A M F \\sim \\triangle A C D(g-g))% vì chung %(C A D)% và %(A C D=A M F)%<br>\\[\\Rightarrow \\frac{M F}{C D}=\\frac{A M}{A C}\\]<br>%(\\triangle A M E \\sim \\triangle A B D(g-g))% vì chung %(B A D)% và %(A B C=A M E)%<br>\\[\\Rightarrow \\frac{M E}{B D}=\\frac{A M}{A B}\\]<br>Từ (2) và (3) suy ra %(\\frac{M F}{C D}=\\frac{A M}{A B} \\cdot \\frac{A B}{A C}=\\frac{M E}{B D} \\Rightarrow \\frac{M F}{M E}=\\frac{C D}{B D}=\\frac{1}{2})%<br>Thay vào (1) ta được %(\\frac{M A}{M B}=\\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c)Chứng minh %(B M D=2 C M D)%",
+        "question_images": [],
+        "solution": "Vẽ đường cao %(\\mathrm{AT})% ta được %(\\frac{A F}{A C}=\\frac{1}{3}=\\frac{T D}{T C} \\Rightarrow F D \\perp B C, \\triangle E B D)% cân Lấy %(\\mathrm{H})% là trung điểm %(\\mathrm{BD})%<br>Ta có:<br>\\[\\begin{array}{l}\\triangle E H D=\\triangle F D C(\\text { c.c.c }) \\Rightarrow H E D=D F C \\\\left\\{\\begin{array}{l}D F C=\\frac{1}{2} B E D \\D F C=D M C \\Rightarrow D M C=\\frac{1}{2} B M D \\B E D=B M D\\end{array}\\right. \\\\Rightarrow B M D=2 C M D\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Tìm số thực %(\\mathrm{x})% thỏa mãn %(x+\\sqrt{2024})% và %(\\frac{185}{x}-\\sqrt{2024})% đều là số nguyên",
+        "question_images": [],
+        "solution": "Đặt %(\\left\\{\\begin{array}{l}x+\\sqrt{2024}=m(1) \\\\ \\frac{185}{x}-\\sqrt{2024}=n(2)\\end{array}, m, n \\in Z\\right.)%<br>Từ (1) ta được %(x=m-\\sqrt{2024})%, thay vào (2) ta được%(\\frac{185}{m-\\sqrt{2024}}-\\sqrt{2024}=n)%, biến đổi ta được %(2209-m n=(m-n) \\sqrt{2024})%<br>*TH1: %(m-n=0)%, khi đó phương trình (3) có dạng:<br>\\[2209-m^{2}=0 \\Leftrightarrow m= \\pm 47(\\mathrm{tm})\\]<br>*TH2: %(m-n \\neq 0)%, khi đó ta có %(\\frac{2209-m n}{m-n}=\\sqrt{2024})%<br>Do %(m, n \\in Z \\Rightarrow \\frac{2209-m n}{m-n} \\in Z)% và %(\\sqrt{2024})% là số vô tỉ, nên không tồn tại %(\\mathrm{m}, \\mathrm{n})% thỏa mãn<br>Vậy %(x \\in\\{47-\\sqrt{2024} ;-47-\\sqrt{2024}\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.5,
+        "content": "Cho 45 số %(a_{1} ; a_{2} ; \\ldots ; a_{45})% sao cho mỗi số chỉ nhận một trong ba giá trị %(0,2,3)%. Biết %(\\left(a_{1}-2\\right)^{2}+\\left(a_{2}-2\\right)^{2}+\\ldots+\\left(a_{45}-2\\right)^{2}=65 ;\\left(a_{1}-3\\right)^{2}+\\left(a_{2}-3\\right)^{2}+\\ldots+\\left(a_{45}-3\\right)^{2}=-280)%. Trong 45 số trên, có bao nhiêu số nhận giá trị 0 ?",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})% lần lượt là số ghi giá trị a nhận giá trị %(0,2,3(x, y, z \\in N ; x, y, z \\leq 45))%<br>Ta có: %(\\left\\{\\begin{array}{l}x+y+z=45 \\\\ x(0-2)^{2}+y(2-2)^{2}+z(3-2)^{2}=65 \\\\ x(0-3)^{3}+y(2-3)^{3}+z(3-3)^{3}=-280\\end{array}\\right.)%<br>\\[\\Leftrightarrow\\left\\{\\begin{array} { l } { x + y + z = 4 5 } \\\\{ 4 x + 0 y + z = 6 5 } \\\\{ - 2 7 x - y + 0 z = - 2 8 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x + y + z = 4 5 } \\\\{ 4 x + z = 6 5 } \\\\{ - 2 7 x - y = - 2 8 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=10 \\y=10 \\z=25\\end{array}\\right.\\right.\\right.\\]<br>Vậy có 10 số nhận giá trị 0 .",
+        "question_type": "essay"
+    }
+]

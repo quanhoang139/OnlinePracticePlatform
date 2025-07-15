@@ -1,0 +1,89 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 2.0,
+        "content": "Cho hàm số: %(y=\\frac{2 x-1}{x+1})% có đồ thị là %((\\mathrm{C}))%. Tìm tọa độ điểm %(\\mathrm{M})% thuộc đồ thị %((\\mathrm{C}))% sao cho tổng khoảng cách từ điểm %(\\mathrm{M})% đến hai đường tiệm cận đạt giá trị nhỏ nhất.",
+        "question_images": [],
+        "solution": "Ta có: %(\\lim _{x \\rightarrow+\\infty} y=2 ; \\lim _{x \\rightarrow-\\infty} y=2)% nên %(\\mathrm{y}=2)% là đường tiệm cận ngang<br>%(\\lim _{x \\rightarrow-1^{+}} y=-\\infty ; \\lim _{x \\rightarrow-1^{-}} y=+\\infty)% nên %(\\mathrm{x}=-1)% là đường tiệm cận đứng<br>Giả sử điểm %(M\\left(x_{0} ; \\frac{2 x_{0}-1}{x_{0}+1}\\right) \\in(C) ; x_{0} \\neq-1)%<br>\\[d_{(M, T C D)}=\\left|x_{0}+1\\right| ; d_{(M, T C N)}=\\frac{3}{\\left|x_{0}+1\\right|}\\]<br>Suy ra: %(d_{(M, T C D)}+d_{(M, T C N)}=\\left|x_{0}+1\\right|+\\frac{3}{\\left|x_{0}+1\\right|} \\geq 2 \\sqrt{3})%<br>Dấu bằng xảy ra khi %(\\left[\\begin{array}{l}x_{0}=\\sqrt{3}-1(\\mathrm{tm}) \\\\ x_{0}=-\\sqrt{3}-1(\\mathrm{tm})\\end{array}\\right.)%.<br>Các điểm %(M)% cần tìm: %(\\left[\\begin{array}{l}M=(\\sqrt{3}-1 ; 2-\\sqrt{3}) \\\\ M=(-\\sqrt{3}-1 ; 2+\\sqrt{3})\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Cho hàm số: %(y=2 x^{3}-(m+6) x^{2}-\\left(m^{2}-3 m\\right) x+3 m^{2})% có đồ thị là %(\\left(C_{m}\\right)(m)% là tham số). Tìm tất cả các giá trị của %(\\mathrm{m})% sao cho đồ thị %(\\left(C_{m}\\right))% cắt trục hoành tại ba điểm phân biệt có hoành độ %(x_{1} ; x_{2} ; x_{3})% thỏa mãn: %(\\left(x_{1}-1\\right)^{2}+\\left(x_{2}-1\\right)^{2}+\\left(x_{3}-1\\right)^{2}=6)%.",
+        "question_images": [],
+        "solution": "Xét phương trình hoành độ giao điểm: %(2 x^{3}-(m+6) x^{2}-\\left(m^{2}-3 m\\right) x+3 m^{2}=0(1))%<br>\\[\\begin{array}{l}\\Leftrightarrow(x-3)\\left(2 x^{2}-m x-m^{2}\\right)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x=3 \\x=m \\x=\\frac{-m}{2}\\end{array}\\right.\\end{array}\\]<br>Để đồ thị hàm số cắt %(\\mathrm{Ox})% tại ba điểm phân biệt khi và chỉ khi phương trình (1) có 3 nghiệm phân biệt %(\\Leftrightarrow\\left\\{\\begin{array}{l}m \\neq 3 \\\\ m \\neq 0 \\\\ m \\neq-6\\end{array}\\right.)%<br>Khi đó: %(\\left(x_{1}-1\\right)^{2}+\\left(x_{2}-1\\right)^{2}+\\left(x_{3}-1\\right)^{2}=6 \\Leftrightarrow\\left[\\begin{array}{l}m=0~(\\text {loại}) \\\\ m=\\frac{4}{5}~(\\mathrm{tm})\\end{array}\\right.)%<br>Vậy %(m=\\frac{4}{5})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.0,
+        "content": "Cho %((\\mathrm{H}))% là đa giác đều %(2 \\mathrm{n})% đỉnh nội tiếp đường tròn tâm %(\\mathrm{O}\\left(n \\in N^{*}, n \\geq 2\\right))%. Gọi %(\\mathrm{S})% là tập hợp các tam giác có ba đỉnh là các đỉnh của đa giác %((\\mathrm{H}))%. Chọn ngẫu nhiên một tam giác thuộc tập %(\\mathrm{S})%, biết rằng xác suất chọn được một tam giác vuông trong tập %(\\mathrm{S})% là %(\\frac{1}{13})%. Tìm %(\\mathrm{n})%.",
+        "question_images": [],
+        "solution": "Số phần tử của tập hợp %(\\mathrm{S})% là: %(C_{2 n}^{3})%<br>Số phần tử không gian mẫu: %(n(\\Omega)=C_{2 n}^{3})%<br>Gọi A là biến cố: \"Chọn được tam giác vuông\"<br>Đa giác đều %(2 \\mathrm{n})% đỉnh có %(\\mathrm{n})% đường chéo qua tâm %(\\mathrm{O})%.<br>Mỗi tam giác vuông được tạo bởi hai đỉnh nằm trên cùng một đường chéo qua tâm %(\\mathrm{O})% và một đỉnh trong %(2 \\mathrm{n}-2)% đỉnh còn lại.<br>%(\\Rightarrow)% Số tam giác vuông được tạo thành: %(C_{n}^{1} \\cdot C_{2 n-2}^{1})%<br>Theo bài ra ta có: %(P(A)=\\frac{C_{n}^{1} \\cdot C_{2 n-2}^{1}}{C_{2 n}^{3}}=\\frac{1}{13} \\Leftrightarrow n=20)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 2.0,
+        "content": "Tính tổng tất cả các nghiệm thuộc %([0 ; 100 \\pi])% của phương trình:<br>\\[\\frac{3-\\cos 2 x+\\sin 2 x-5 \\sin x-\\cos x}{2 \\cos x+\\sqrt{3}}=0\\]",
+        "question_images": [],
+        "solution": "Điều kiện: %(\\cos x \\neq \\frac{-\\sqrt{3}}{2})%<br>\\[\\begin{array}{l}3-\\cos 2 x+\\sin 2 x-5 \\sin x-\\cos x=0 \\\\Leftrightarrow 2 \\sin ^{2} x-5 \\sin x+2+2 \\sin x \\cdot \\cos x-\\cos x=0 \\\\Leftrightarrow(2 \\sin x-1)(\\sin x+\\cos x-2)=0 \\Leftrightarrow\\left[\\begin{array}{l}2 \\sin x-1=0 \\\\sin x+\\cos x-2=0\\end{array}\\right.\\end{array}\\]<br>%(\\sin x+\\cos x-2=0)% (phương trình vô nghiệm)<br>\\[2 \\sin x-1=0 \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{\\pi}{6}+k 2 \\pi \\x=\\frac{5 \\pi}{6}+k 2 \\pi\\end{array}(k \\in Z)\\right.\\]<br>Đối chiếu điều kiện nghiệm phương trình là: %(x=\\frac{\\pi}{6}+k 2 \\pi, k \\in Z)%<br>\\[x \\in[0 ; 100 \\pi] \\Rightarrow 0 \\leq \\frac{\\pi}{6}+k 2 \\pi \\leq 100 \\pi \\Rightarrow 0 \\leq k \\leq 49, k \\in Z\\]<br>Tổng tất cả các nghiệm của phương trình là:<br>\\[\\frac{\\pi}{6}+\\left(\\frac{\\pi}{6}+2 \\pi\\right)+\\left(\\frac{\\pi}{6}+4 \\pi\\right)+\\ldots+\\left(\\frac{\\pi}{6}+98 \\pi\\right)=\\left(\\frac{\\pi}{6}+\\frac{\\pi}{6}+98 \\pi\\right) \\cdot \\frac{50}{2}=\\frac{7375}{3} \\pi\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 2.0,
+        "content": "Tìm tất cả các giá trị của %(m)% để hàm số %(y=\\log _{2018}\\left(2017^{x}-x-\\frac{x^{2}}{2}-m\\right))% xác định với mọi %(x)% thuộc %([0 ;+\\infty))%.",
+        "question_images": [],
+        "solution": "Hàm số xác định với mọi x thuộc %([0 ;+\\infty))% khi và chỉ khi<br>\\[2017^{x}-x-\\frac{x^{2}}{2}-m\\gt 0, \\forall x \\in[0 ;+\\infty) \\Leftrightarrow 2017^{x}-x-\\frac{x^{2}}{2}>m, \\forall x \\in[0 ;+\\infty)(*)\\]<br>Xét hàm số: %(f(x)=2017^{x}-x-\\frac{x^{2}}{2})% trên %([0 ;+\\infty))%.<br>Hàm số liên tục trên %([0 ;+\\infty))%<br>%(f^{\\prime}(x)=2017^{x} \\cdot \\ln 2017-1-x)% và liên tục trên %([0 ;+\\infty))%<br>%(f^{\\prime \\prime}(x)=2017^{x} .(\\ln 2017)^{2}-1>0, \\forall x \\in[0 ;+\\infty))%<br>%(\\Rightarrow f^{\\prime}(x))% đồng biến trên %([0 ;+\\infty) \\Rightarrow f^{\\prime}(x) \\geq f^{\\prime}(0)=\\ln 2017-1>0, \\forall x \\in[0 ;+\\infty))%<br>%(\\Rightarrow f(x))% là hàm số đồng biến trên %([0 ;+\\infty) \\Rightarrow \\min _{[0 ;+\\infty)} f(x)=1)%<br>Bất phương trình %((*) \\Leftrightarrow f(x)>m, \\forall x \\in[0 ;+\\infty) \\Leftrightarrow \\min _{[0 ;+\\infty)} f(x)>m \\Leftrightarrow m\\lt 1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6:",
+        "group_content": "Cho hình chóp %(\\mathrm{S} . \\mathrm{ABCD})% có đáy %(\\mathrm{ABCD})% là hình thoi tâm %(\\mathrm{O})% cạnh bằng %(a, \\widehat{A B C}=60^{\\circ})%, %(S A=S B=S C, S D=2 a)%. Gọi %((\\mathrm{P}))% là mặt phẳng qua %(\\mathrm{A})% và vuông góc với %(\\mathrm{SB})% tại %(\\mathrm{K})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Tính khoảng cách từ điểm %(\\mathrm{A})% đến mặt phẳng %((SCD))%.",
+        "question_images": [],
+        "solution": "Tính khoảng cách từ %(\\mathrm{A})% đến (SCD)<br>Gọi %(\\mathrm{H})% là trọng tâm %(\\triangle A B C)%.<br>Chứng minh %(S H \\perp(A B C D))% và tính được %(S H=\\frac{2 \\sqrt{6} a}{3})%<br>Lập luận được %(d_{(A,(S C D))}=\\frac{3}{2} d_{(H,(S C D))})%<br>Tính được %(d_{(H, S C D))}=\\frac{2 \\sqrt{6} a}{9})%<br>Suy ra %(d_{(A,(S C D))}=\\frac{a \\sqrt{6}}{3})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/eb5f69ba2df8de364158bbb2f40bb9ce.png\" srcset=\"https://docdn.giainhanh.io/media/test/9548097025a44b3ebef1b31dcc49d9bc.png 212w, https://docdn.giainhanh.io/media/test/2299396152e7f5d2456bb22ec5f9ca61.png 500w, https://docdn.giainhanh.io/media/test/fd7388f907716d9bf71cc0bf2fce57b2.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Mặt phẳng %((\\mathrm{P}))% chia khối chóp %(\\mathrm{S} . \\mathrm{ABCD})% thành hai phần có thể tích %(V_{1} ; V_{2})% trong đó %(V_{1})% là thể tích khối đa diện chứa đỉnh %(\\mathrm{S})%. Tính %(\\frac{V_{1}}{V_{2}})%.",
+        "question_images": [],
+        "solution": "Mặt phẳng %((\\mathrm{P}))% chia khối chóp %(\\mathrm{S} . \\mathrm{ABCD})% thành 2 phần có thể tích %(V_{1} ; V_{2})% trong đó %(V_{1})% là thể tích khối đa diện chứa đỉnh %(\\mathrm{S})%.<br>Tính %(\\frac{V_{1}}{V_{2}})%Trong mặt phă̆ng %((\\mathrm{SAB}))%, dựng đường thẳng đi qua %(\\mathrm{A})% và vuông góc với %(\\mathrm{SB})% tại %(\\mathrm{K})%.<br>Chứng minh %((A K C) \\perp S B)%.<br>Suy ra %((\\mathrm{P}))% là mặt phẳng %((\\mathrm{AKC}))%<br>Tính được %(S B=\\sqrt{3} a ; B K=\\frac{a \\sqrt{3}}{6} \\Rightarrow \\frac{S K}{S B}=\\frac{5}{6})%<br>\\[\\begin{array}{l}\\Rightarrow \\frac{V_{S A K C}}{V_{S A B C}}=\\frac{S K}{S B}=\\frac{5}{6} \\Rightarrow V_{S A K C}=\\frac{5}{6} V_{S A B C}=\\frac{5}{12} V_{S A B C D} \\Rightarrow V_{2}=\\frac{1}{12} V_{S A B C D} \\\\Rightarrow V_{1}=\\frac{11}{12} V_{S A B C D} \\Rightarrow \\frac{V_{1}}{V_{2}}=11\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) Gọi %(\\mathrm{M}, \\mathrm{N})% theo thứ tự là hình chiếu vuông góc của %(\\mathrm{K})% trên %(\\mathrm{SC})% và %(\\mathrm{SA})%. Tính diện tích mặt cầu ngoại tiếp khối chóp %(K.ACMN.)%",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{M}, \\mathrm{N})% theo thứ tự là hình chiếu vuông góc của %(\\mathrm{K})% trên %(\\mathrm{SC})% và %(\\mathrm{SA})%.<br>Tính diện tích mặt cầu ngoại tiếp khối chóp %(\\text{K.ACMN.})%<br>Trong mặt phẳng %((\\mathrm{AKC}))% dựng %(d_{1})% là đường trung trực của đoạn %(\\mathrm{AK} ;~ d_{2})% là đường trung trực của đoạn %(\\mathrm{KC}, d_{1})% cắt %(d_{2})% tại điểm %(\\mathrm{I})%.<br>Chứng minh được %(\\mathrm{I})% cách đều 5 đỉnh của hình chóp %(\\mathrm{K.ACMN})%<br>Suy ra %(I)% là tâm mặt cầu ngoại tiếp hình chóp %(K.ACMN.)%<br>Do đó bán kính mặt cầu bằng bán kính đường tròn ngoại tiếp tam giác %(\\mathrm{AKC})%<br>Tính được %(K A=K C=\\frac{a \\sqrt{33}}{6})%<br>Diện tích tam giác KAC: %(S_{\\triangle K A C}=\\frac{a^{2} \\sqrt{6}}{6})%<br>Bán kính mặt cầu là : %(R=\\frac{K A \\cdot K C \\cdot A C}{4 S_{\\triangle K A C}}=\\frac{11 \\sqrt{6} a}{48})%<br>Diện tích mặt cầu: %(S_{m c}=4 \\pi R^{2}=\\frac{121 \\pi a^{2}}{96})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/2962abb1ebfedea1692497ffa6f931b6.png\" srcset=\"https://docdn.giainhanh.io/media/test/f695a74c6cf693a17a2db49e553b647e.png 173w, https://docdn.giainhanh.io/media/test/37deb0d960c2b082dc733ddcff1bfbe8.png 500w, https://docdn.giainhanh.io/media/test/6a94781fb9a104dbc532dbceedd5b714.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình:<br>\\[\\left\\{\\begin{array}{l}x^{3}-y^{3}-3\\left(2 x^{2}-y^{2}+2 y\\right)+15 x-10=0 \\\\sqrt{x^{2}+y-5}+3 \\sqrt{y}-\\sqrt{3 x^{2}-6 y+13}=0\\end{array}\\right.\\]",
+        "question_images": [],
+        "solution": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x^{3}-y^{3}-3\\left(2 x^{2}-y^{2}+2 y\\right)+15 x-10=0~~~(1) \\\\ \\sqrt{x^{2}+y-5}+3 \\sqrt{y}-\\sqrt{3 x^{2}-6 y+13}=0~~~~(2)\\end{array}\\right.)%<br>Điều kiện: %(\\left\\{\\begin{array}{l}x^{2}+y-5 \\geq 0 \\\\ y \\geq 0 \\\\ 3 x^{2}-6 y+13 \\geq 0\\end{array}\\right.)%<br>Biến đổi phương trình %((1) \\Leftrightarrow(x-2)^{3}+3(x-2)=(y-1)^{3}+3(y-1))%<br>Phương trình có dạng: %(f(x-2)=f(y-1))% với %(f(t)=t^{3}+3 t, t \\in R)%<br>%(f^{\\prime}(t)=3 t^{2}+3\\gt 0, t \\in R)% nên hàm số %(f(t))% đồng biến trên %(\\mathrm{R})%<br>Do đó: %(f(x-2)=f(y-1) \\Leftrightarrow x-2=y-1 \\Leftrightarrow y=x-1)%<br>Thay vào phương trình (2) ta được: %(\\sqrt{x^{2}+x-6}+3 \\sqrt{x-1}-\\sqrt{3 x^{2}-6 x+19}=0~~~(3))%<br>Điều kiện: %(x \\geq 2)%<br>Khi đó phương trình %((3) \\Leftrightarrow \\sqrt{x^{2}+x-6}+3 \\sqrt{x-1}=\\sqrt{3 x^{2}-6 x+19})%<br>\\[\\begin{array}{l}\\Leftrightarrow 3 \\sqrt{x-1} \\sqrt{x^{2}+x-6}=x^{2}-8 x+17 \\\\Leftrightarrow 3 \\sqrt{x-2} \\sqrt{x^{2}+2 x-3}=\\left(x^{2}+2 x-3\\right)-10(x-2) \\\\Leftrightarrow 10\\left(\\frac{x-2}{x^{2}+2 x-3}\\right)+3 \\sqrt{\\frac{x-2}{x^{2}+2 x-3}}-1=0 \\\\Leftrightarrow\\left[\\begin{array}{l}\\sqrt{\\frac{x-2}{x^{2}+2 x-3}}=\\frac{1}{5} \\\\sqrt{\\frac{x-2}{x^{2}+2 x-3}}=\\frac{-1}{2}(v n)\\end{array}\\right. \\\\end{array}\\]<br>\\[\\sqrt{\\frac{x-2}{x^{2}+2 x-3}}=\\frac{1}{5} \\Leftrightarrow x^{2}-23 x+47=0 \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{23+\\sqrt{341}}{2}(\\mathrm{tm}) \\x=\\frac{23-\\sqrt{341}}{2}(\\mathrm{tm})\\end{array}\\right.\\]<br>Suy ra nghiệm của hệ phương trình là: %(\\left\\{\\begin{array}{l}x=\\frac{23+\\sqrt{341}}{2} \\\\ y=\\frac{21+\\sqrt{341}}{2}\\end{array}\\right.)% hoặc %(\\left\\{\\begin{array}{l}x=\\frac{23-\\sqrt{341}}{2} \\\\ y=\\frac{21-\\sqrt{341}}{2}\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c, d)% là các số thực không âm và có tổng bằng 1 . Tìm giá trị nhỏ nhất của biểu thức: %(\\mathrm{P}=\\left(1+a^{2}+b^{2}+a^{2} b^{2}\\right)\\left(1+c^{2}+d^{2}+c^{2} d^{2}\\right))%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}P=\\left(1+a^{2}\\right)\\left(1+b^{2}\\right)\\left(1+c^{2}\\right)\\left(1+d^{2}\\right) \\\\Rightarrow \\ln P=\\ln \\left(1+a^{2}\\right)+\\ln \\left(1+b^{2}\\right)+\\ln \\left(1+c^{2}\\right)+\\ln \\left(1+d^{2}\\right)\\end{array}\\]<br>Chứng minh được bất đẳng thức: %(\\ln \\left(1+t^{2}\\right) \\geq \\frac{8}{17} t-\\frac{2}{17}+\\ln \\frac{17}{16}, \\forall t \\in[0 ; 1]~~~(*))%<br>Áp dụng (*) ta có:<br>\\[\\begin{array}{l}\\ln \\left(1+a^{2}\\right)+\\ln \\left(1+b^{2}\\right)+\\ln \\left(1+c^{2}\\right)+\\ln \\left(1+d^{2}\\right) \\geq \\frac{8}{17}(a+b+c+d)-\\frac{8}{17}+4 \\ln \\frac{17}{16} \\\\Leftrightarrow \\ln P \\geq 4 \\ln \\frac{17}{16} \\Leftrightarrow P \\geq\\left(\\frac{17}{16}\\right)^{4}\\end{array}\\]<br>Dấu bằng xảy ra khi %(a=b=c=d=\\frac{1}{4})%<br>Vậy %(\\min P=\\left(\\frac{17}{16}\\right)^{4})%",
+        "question_type": "essay"
+    }
+]

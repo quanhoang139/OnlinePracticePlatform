@@ -1,0 +1,119 @@
+[
+    {
+        "title": "1",
+        "group_content": "Giải các phương trình lượng giác sau:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) %(\\sin ^{2} x+3 \\cos x=3)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\left(1-\\cos ^{2} x\\right)+3 \\cos x=3 \\Leftrightarrow \\cos ^{2} x-3 \\cos x+2=0 \\Leftrightarrow\\left[\\begin{array}{l}\\cos x=1(N) \\\\ \\cos x=2(L)\\end{array}\\right. \\\\ \\cos x=1 \\Leftrightarrow x=k 2 \\pi, k \\in \\mathbb{Z} .\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) %(\\sqrt{3} \\cos 3 x-\\sin 3 x=2)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\frac{\\sqrt{3}}{2} \\cos 3 x-\\frac{1}{2} \\sin 3 x=1 \\Leftrightarrow \\sin \\left(\\frac{\\pi}{3}-3 x\\right)=1 \\\\ \\Leftrightarrow \\frac{\\pi}{3}-3 x=\\frac{\\pi}{2}+k 2 \\pi \\Leftrightarrow x=-\\frac{\\pi}{18}-\\frac{k 2 \\pi}{3}, k \\in \\mathbb{Z}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm hệ số của số hạng không chứa %(\\mathrm{x})% trong khai triển của %(\\left(x^{2}+\\frac{2}{x}\\right)^{9})%.",
+        "question_images": [],
+        "solution": "Số hạng tổng quát: %(C_{9}^{k} \\cdot\\left(x^{2}\\right)^{9-k} \\cdot\\left(\\frac{2}{x}\\right)^{k})%<br>\\[=C_{9}^{k} \\cdot 2^{k} \\cdot x^{18-3 k}\\]<br>Theo yêu cầu bài toán: %(18-3 k=0 \\Leftrightarrow k=6)%.<br>Hệ số cần tìm là: %(C_{9}^{6} \\cdot 2^{6})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho tập hợp %(A=\\{0 ; 1 ; 2 ; 3 ; 4 ; 5 ; 6 ; 7\\})%, có bao nhiêu số tự nhiên không chia hết cho 2 có 5 chữ số khác nhau lập từ tập %(\\mathrm{A})% ?",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Gọi số cần tìm là } \\overline{a b c d e}: \\\\ +e \\text { có } 4 \\text { cách. } \\\\ +a \\text { có } 6 \\text { cách. } \\\\ +b \\text { có } 6 \\text { cách. } \\\\ +c \\text { có } 5 \\text { cách. } \\\\ +d \\text { có } 4 \\text { cách }\\end{array})%<br>Vậy có: 4.6.6.5.4 = 2880 số.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Trên một kệ sách có 8 cuốn sách Toán, 7 cuốn sách Văn và 5 cuốn sách tiếng Anh. Chọn ngẫu nhiên 5 cuốn sách trên kệ. Tính xác suất để 5 cuốn sách được chọn:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Cùng một loại sách.",
+        "question_images": [],
+        "solution": "\\[n(\\Omega)=C_{20}^{5}\\]<br>Gọi A là biến cố cần tìm: %(n(A)=C_{5}^{5}+C_{7}^{5}+C_{8}^{5})%.<br>\\[P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{13}{2584} .\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Có đủ ba loại sách và số sách Toán có ít nhất là 2 cuốn.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{B})% là biến cố cần tìm: %(n(B)=C_{8}^{2} \\cdot C_{5}^{2} \\cdot C_{7}^{1}+C_{8}^{2} \\cdot C_{5}^{1} \\cdot C_{7}^{2}+C_{8}^{3} \\cdot C_{5}^{1} \\cdot C_{7}^{1})%.<br>%(P(B)=\\frac{n(B)}{n(\\Omega)}=\\frac{1715}{3875})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng %(\\forall n \\in N^{*})%, ta có: %(1.4+2.7+\\ldots+n(3 n+1)=n \\cdot(n+1)^{2})%",
+        "question_images": [],
+        "solution": "Với %(n=1,(*) \\Leftrightarrow 1.4=1 .(1+1)^{2})% (đúng)Giả sử %((*))% đúng với %(n=k\\left(k \\in \\mathbb{N}^{*}\\right))%, ta được:<br>\\[1.4+\\ldots+k(3 k+1)=k \\cdot(k+1)^{2}\\]<br>Ta cần chứng minh %((*))% đúng với %(n=k+1\\left(k \\in \\mathbb{N}^{*}\\right))% nghĩa là chứng minh:<br>\\[\\begin{array}{l}1.4+\\ldots+k(3 k+1)+(k+1)(3 k+4)=(k+1) \\cdot(k+2)^{2} . \\V T=1 \\cdot 4+\\ldots+k(3 k+1)+(k+1)(3 k+4) . \\\\=k \\cdot(k+1)^{2}+(k+1)(3 k+4) . \\\\=(k+1)^{2} \\cdot\\left(k^{2}+4 k+4\\right)=(k+1)^{2} \\cdot(k+2)^{2}=V P\\end{array}\\]<br>\\[\\Rightarrow(*) \\text { đúng } \\forall n \\in \\mathbb{N}^{*}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Tìm số hạng đầu %(u_{1})% và công sai %(d)% của cấp số cộng: %(\\left\\{\\begin{array}{l}u_{1}-u_{5}+u_{7}=11 \\\\ S_{6}=75\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\left\\{\\begin{array}{l}u_{1}-u_{5}+u_{7}=11 \\\\ S_{6}=75=\\frac{\\left(2 u_{1}+5 d\\right) 6}{2}\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}u_{1}+2 d=11 \\\\ 2 u_{1}+5 d=25\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}u_{1}=5 \\\\ d=3\\end{array} .\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho hình chóp S.ABCD có đáy %(A B C D)% là hình bình hành. Gọi %(M)%,N lần lượt là trung điểm các cạnh %(A B)% và %(C D)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tìm giao tuyến của (SMN) với (SAC)",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/6ddeea9038a4dff841358874386cce65.png\" srcset=\"https://docdn.giainhanh.io/media/test/4bfcff645952fec74e67c2fbf68d7768.png 171w, https://docdn.giainhanh.io/media/test/a0f68922e07122b845439ef2934427cc.png 500w\" width=\"500\"/><br>Trong %((A B C D): M N \\cap A C=O)%.<br>Ta có: %(O \\in M N \\subset(S M N) ; O \\in A C \\subset(S A C) \\Rightarrow O \\in(S M N) \\cap(S A C))%.<br>Mặt khác: %(S \\in(S M N) \\cap(S A C))%.<br>\\[\\Rightarrow S O=(S A C) \\cap(S M N)\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Gọi P là trung điểm cạnh %(\\mathrm{SA})%. Chứng minh (SBC) song song (MNP).",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/20abe04f6a2b4b62b912a40ca042743e.png\" srcset=\"https://docdn.giainhanh.io/media/test/05193c75cd0336e97bdeb21282c7f8cd.png 186w, https://docdn.giainhanh.io/media/test/4512731937b4db4a0b067c91c745f89a.png 500w\" width=\"500\"/><br>Ta có: %(M P / / S B)% (đường trung bình %(\\triangle S A B)% ).<br>%(M N / / B C)% (đường trung bình hình bình hành %(A B C D)% ).<br>Trong %((M N P): M P \\cap M N=M)%.<br>Trong %((S B C): S B \\cap B C=B)%.%(\\Rightarrow(M N P) / /(S B C))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Gọi G1, G2 lần lượt là trọng tâm của %(\\triangle \\mathrm{ABC})% và %(\\Delta \\mathrm{SBC})%.Chứng minh: G1G2 // (SAB).",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/82c55072de16470c605ca4a03679d877.png\" srcset=\"https://docdn.giainhanh.io/media/test/b4c1bb0eca6c978486dd55a174ec719a.png 177w, https://docdn.giainhanh.io/media/test/50837ac72e0d1907921ae7d3d946c5b2.png 500w\" width=\"500\"/><br>%(\\begin{array}{l}\\text { Gọi } E \\text { là trung điểm } B C \\text {. Ta có: } \\frac{E G_{1}}{E A}=\\frac{E G_{2}}{E S}=\\frac{1}{3}(g t) \\\\ \\Rightarrow G_{1} G_{2} / / S A \\text { (ta-lét đảo) và } S A \\subset(S A B) \\\\ \\Rightarrow G_{1} G_{2} / /(S A B)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho lăng trụ tam giác %(A B C \\cdot A^{\\prime} B^{\\prime} C^{\\prime})%. Gọi %(I)% là giao điểm của %(A^{\\prime} B)% và %(A B^{\\prime})%, và %(J)% là giao điểm của %(\\mathrm{A}^{\\prime} \\mathrm{C})% và %(\\mathrm{AC} \\mathrm{C}^{\\prime})%. Chứng minh: %(\\mathrm{IJ} / /\\left(\\mathrm{BB}^{\\prime} \\mathrm{C}^{\\prime} \\mathrm{C}\\right))%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5f322a2fd44520ee657bf42b97a0e16e.png\" srcset=\"https://docdn.giainhanh.io/media/test/b3c0c34a8c5338e4cf63ec039bbd6eea.png 152w\" width=\"152\"/><br>Theo tính chất hình lăng trụ ta có:<br>Tứ giác %(A B B^{\\prime} A^{\\prime})% là hình bình hành có %(I=A B^{\\prime} \\cap A^{\\prime} B \\Rightarrow I)% là trung điểm %(A B^{\\prime})%.<br>Tứ giác %(A C C^{\\prime} A^{\\prime})% là hình bình hành có %(J=A C^{\\prime} \\cap A^{\\prime} C \\Rightarrow J)% là trung điểm %(A C^{\\prime})%.<br>Từ đó ta có: %(J I / / B^{\\prime} C^{\\prime}\\left(J I\\right.)% là đường trung bình %(\\left.\\triangle A B^{\\prime} C^{\\prime}\\right))%.<br>Và: %(B^{\\prime} C^{\\prime} \\subset\\left(B C C^{\\prime} B^{\\prime}\\right))%%(\\Rightarrow J I / /\\left(B C C^{\\prime} B^{\\prime}\\right))%",
+        "question_type": "essay"
+    }
+]

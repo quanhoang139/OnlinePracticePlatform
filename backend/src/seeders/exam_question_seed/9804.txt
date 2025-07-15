@@ -1,0 +1,208 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.25,
+        "content": "Với %(a)% là số thực dương, biểu thức %(a^{\\frac{7}{3}} \\cdot a^{\\frac{2}{3}})% là",
+        "question_images": [],
+        "labelA": "%(a^{\\frac{5}{3}})%.",
+        "labelB": "%(a^{2})%.",
+        "labelC": "%(a^{\\frac{14}{9}})%.",
+        "labelD": "%(a^{3})%",
+        "correct_label": "labelD",
+        "solution": "Ta có %(a^{\\frac{7}{3}} \\cdot a^{\\frac{2}{3}}=a^{\\frac{7}{3}+\\frac{2}{3}}=a^{3})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "2 ",
+        "point": 0.25,
+        "content": "Hàm số nào sau đây đồng biến trên tập xác định của nó",
+        "question_images": [],
+        "labelA": "%(y=\\left(\\frac{1}{\\pi}\\right)^{x})%.",
+        "labelB": "%(y=\\left(\\frac{2}{3}\\right)^{x})%.",
+        "labelC": "%(y=(\\sqrt{3})^{x})%",
+        "labelD": "%(y=(0.5)^{x})%",
+        "correct_label": "labelC",
+        "solution": "Vì %(a=\\sqrt{3}\\gt 1)% nên hàm số %(y=(\\sqrt{3})^{x})% đồng biến trên tập xác định.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "3 ",
+        "point": 0.25,
+        "content": "Nghiệm của phương trình %(\\log _{2}(x-1)=1)% là",
+        "question_images": [],
+        "labelA": "%(x=4)%.",
+        "labelB": "%(x=3)%",
+        "labelC": "%(x=2)%.",
+        "labelD": "%(x=5)%.",
+        "correct_label": "labelB",
+        "solution": "Ta có %(\\log _{2}(x-1)=1 \\Leftrightarrow x-1=2^{1} \\Leftrightarrow x=3)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "4 ",
+        "point": 0.25,
+        "content": "Cho hàm số %(y=f(x))% xác định trên %(\\mathbb{R})% và thỏa mãn %(\\lim _{x \\rightarrow 2} \\frac{f(x)-f(2)}{x-2}=3)%. Khẳng định nào sau đây đúng?",
+        "question_images": [],
+        "labelA": "%(f^{\\prime}(x)=4)%.",
+        "labelB": "%(f^{\\prime}(2)=3)%",
+        "labelC": "%(f^{\\prime}(2)=2)%.",
+        "labelD": "%(f^{\\prime}(x)=3)%.",
+        "correct_label": "labelB",
+        "solution": "Theo định nghĩa đạo hàm của hàm số tại điểm %(x_{0}=2)% ta có %(f^{\\prime}(2)=\\lim _{x \\rightarrow 2} \\frac{f(x)-f(2)}{x-2}=3)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "5 ",
+        "point": 0.25,
+        "content": "Cho hàm số %(f(x)=\\sin \\left(x^{2}\\right))%. Khi đó, %(f^{\\prime}(x))% bằng",
+        "question_images": [],
+        "labelA": "%(2 x \\cos \\left(x^{2}\\right))%.",
+        "labelB": "%(\\cos \\left(x^{2}\\right))%.",
+        "labelC": "%(x^{2} \\cos \\left(x^{2}\\right))%.",
+        "labelD": "%(2 x \\cos (2 x))%.",
+        "correct_label": "labelA",
+        "solution": "Ta có %(f^{\\prime}(x)=2 x \\cdot \\cos \\left(x^{2}\\right))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "6 ",
+        "point": 0.25,
+        "content": "Cho hàm số %(f(x)=\\frac{1}{3} x^{3}-\\frac{1}{2} x^{2}-12 x)%. Khi đó, %(f^{\\prime \\prime}(x))% bằng",
+        "question_images": [],
+        "labelA": "%(x^{2}-12)%.",
+        "labelB": "%(2 x-1)%.",
+        "labelC": "%(x^{2}-x-12)%.",
+        "labelD": "%(2 x+1)%.",
+        "correct_label": "labelB",
+        "solution": "Ta có %(f^{\\prime}(x)=x^{2}-x-12)%. Khi đó %(f^{\\prime \\prime}(x)=2 x-1)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "7 ",
+        "point": 0.25,
+        "content": "Cho hình chóp %(S . A B C D)% có %(S A)% vuông góc với mặt phẳng %((A B C D))%, tứ giác %(A B C D)% là hình vuông. Khẳng định nào sau đây sai ?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/f366754172f38f87764fcfecd6b06c34.PNG"
+        ],
+        "labelA": "%((S A B) \\perp(A B C D))%.",
+        "labelB": "%((S A C) \\perp(A B C D))%.",
+        "labelC": "%((S A C) \\perp(S B D))%.",
+        "labelD": "%((S A B) \\perp(S A C))%.",
+        "correct_label": "labelD",
+        "solution": "Ta có:%(S A \\perp(A B C D), S A \\subset(S A B) \\Rightarrow(S A B) \\perp(A B C D))%.<br>Suy ra A đúng.%(S A \\perp(A B C D), S A \\subset(S A C) \\Rightarrow(S A C) \\perp(A B C D))%.<br>Suy ra B đúng.<br>\\[\\left\\{\\begin{array}{l}B D \\perp A C \\B D \\perp S A \\S A \\cap A C=\\{A\\} \\A C, S A \\subset(S A C)\\end{array} \\Rightarrow B D \\perp(S A C)\\right.\\]<br>Mà %(B D \\subset(S B D) \\Rightarrow(S A C) \\perp(S B D))%.<br>Suy ra %(C)% đúng.<br>Ta có %(((S A B),(S A C))=(A D, B D)=45^{\\circ})%.<br>Suy ra D sai.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "8 ",
+        "point": 0.25,
+        "content": "Cho hộp chữ nhật %(A B C D \\cdot A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime})% có cạnh %(A B=a, A D=2 a ; A A^{\\prime}=3 a)%. Khoảng cách giữa đường thẳng %(B^{\\prime} C^{\\prime})% và mặt phẳng %((A B C D))% bằng",
+        "question_images": [],
+        "labelA": "%(a)%.",
+        "labelB": "%(2 a)%.",
+        "labelC": "%(3 a)%.",
+        "labelD": "%(5 a)%.",
+        "correct_label": "labelC",
+        "solution": "Ta có %(d\\left(B^{\\prime} C^{\\prime} ;(A B C D)\\right)=A A^{\\prime}=3 a)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a9a1514a358d73a71ff96b40f7041cb4.png\" srcset=\"https://docdn.giainhanh.io/media/test/cc2740b75fde297902faa69fa15ea7ee.png 245w\" width=\"245\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "9 ",
+        "point": 0.25,
+        "content": "Cho khối chóp %(S \\cdot A B C)% có chiều cao bằng 6 , đáy %(A B C)% có diện tích bằng 10 . Thể tích khối chóp %(S . A B C)% bằng",
+        "question_images": [],
+        "labelA": "20 .",
+        "labelB": "15.",
+        "labelC": "60.",
+        "labelD": "30.",
+        "correct_label": "labelA",
+        "solution": "Thể tích khối chốp %(S \\cdot A B C)% là %(V=\\frac{1}{3} B \\cdot h=\\frac{1}{3} \\cdot 10 \\cdot 6=20)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "10 ",
+        "point": 0.25,
+        "content": "Cho hàm số %(y=x^{3}-3 x^{2}+1)% với %(x \\in \\mathbb{R})%. Đạo hàm %(y^{\\prime \\prime})% của hàm số là",
+        "question_images": [],
+        "labelA": "%(y^{\\prime \\prime}=3 x^{2}-6 x)%.",
+        "labelB": "%(y^{\\prime \\prime}=3 x^{2}-6 x+1)%.",
+        "labelC": "%(y^{\\prime \\prime}=6 x-6)%.",
+        "labelD": "%(y^{\\prime \\prime}=6 x)%.",
+        "correct_label": "labelC",
+        "solution": "Ta có %(y=x^{3}-3 x^{2}+1 \\Rightarrow y^{\\prime}=3 x^{2}-6 x \\Rightarrow y^{\\prime \\prime}=6 x-6)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "11 ",
+        "point": 0.25,
+        "content": "Cho hàm số %(y=x^{3}-2 x+1)% có đồ thị %((C))%. Hệ số góc %(k)% của tiếp tuyến với %((C))% tại điểm có hoành độ %(x=2)% là",
+        "question_images": [],
+        "labelA": "%(k=5)%.",
+        "labelB": "%(k=10)%.",
+        "labelC": "%(k=2)%.",
+        "labelD": "%(k=12)%.",
+        "correct_label": "labelB",
+        "solution": "Ta có %(y^{\\prime}=3 x^{2}-2)%.Hệ số góc %(k)% của tiếp tuyến với %((C))% tại điểm có hoàng độ %(x=2)% là %(k=y^{\\prime}(2)=3.2^{2}-2=10)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "12 ",
+        "point": 0.25,
+        "content": "Cho khối chóp %(S . A B C)% có đáy %(A B C)% là tam giác vuông tại %(B, A B=a, A C=2 a, S A \\perp(A B C))% và %(S A=a)%. Thể tích của khối chóp đã cho bằng",
+        "question_images": [],
+        "labelA": "%(\\frac{a^{3} \\sqrt{3}}{3})%.",
+        "labelB": "%(\\frac{a^{3} \\sqrt{3}}{6})%.",
+        "labelC": "%(\\frac{a^{3}}{3})%.",
+        "labelD": "%(\\frac{2 a^{3}}{3})%.",
+        "correct_label": "labelB",
+        "solution": "Xét tam giác %(A B C)% vuông tại %(B)% có: %(B C^{2}=A C^{2}-A B^{2}=(2 a)^{2}-a^{2}=3 a^{2} \\Rightarrow B C=a \\sqrt{3})%.<br>Diện tích tam giác %(A B C)% là: %(S_{\\triangle A B C}=\\frac{1}{2} B A \\cdot B C=\\frac{1}{2} a \\cdot a \\sqrt{3}=\\frac{a^{2} \\sqrt{3}}{2})%.<br>Vậy thể tích khối chóp %(S \\cdot A B C)% là: %(V_{S \\cdot A B C}=\\frac{1}{3} S_{\\triangle A B C} S A=\\frac{1}{3} \\cdot \\frac{a^{2} \\sqrt{3}}{2} \\cdot a=\\frac{a^{3} \\sqrt{3}}{6})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/65a6035362516ccf78bd9f5a217415a5.png\" srcset=\"https://docdn.giainhanh.io/media/test/d758e7e2dbd58cd2ea0dddd179573447.png 199w\" width=\"199\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "17 ",
+        "point": 0.5,
+        "content": "Cho hình chóp %(S . A B C)% có đáy là tam giác đều cạnh 2. Cạnh bên %(S A)% vuông góc với mặt phẳng %((A B C), S A=\\sqrt{5})%. Gọi %(M)% là trung điểm cạnh %(A C)%. Khoảng cách giữa hai đường thẳng %(B M)% và %(S C)% có dạng %(\\sqrt{\\frac{a}{b}})% với %(a, b)% là các số nguyên dương, %(\\frac{a}{b})% là phân số tối giản. Giá trị biểu thức %(a+b)% bằng",
+        "question_images": [],
+        "solution": "Do tam giác %(A B C)% đều nên %(B M \\perp A C)%; mặt khác %(B M \\perp S A)% nên %(B M \\perp(S A C))%.Trong tam giác %(S A C)% dựng %(M H \\perp S C)%.<br>Vì %(B M \\perp(S A C))% nên %(B M \\perp M H)%.Do đó %(M H)% là đoạn vuông góc chung của %(B M)% và %(S C)% hay %(d(B M ; S C)=M H)%.<br>Ta có: %(S C=\\sqrt{S A^{2}+A C^{2}}=3)%.%(\\triangle S A C)% đồng dạng với %(\\triangle M H C)% nên %(\\frac{S A}{M H}=\\frac{S C}{M C} \\Leftrightarrow M H=\\frac{S A \\cdot M C}{S C}=\\frac{\\sqrt{5} \\cdot 1}{3}=\\frac{\\sqrt{5}}{3})%.<br>Vậy %(d(B M ; S C)=\\frac{\\sqrt{5}}{3}=\\sqrt{\\frac{5}{9}})%. Vậy %(a=5, b=9)%. Do đó %(a+b=14)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/bae17b8503fe44cb5e347c1bfbd9eba1.png\" srcset=\"https://docdn.giainhanh.io/media/test/0d3a8950de0ad676bde033a58ac33b12.png 203w\" width=\"203\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "18 ",
+        "point": 0.5,
+        "content": "Cho hình chóp đều %(S . A B C D)% có cạnh đáy bằng %(a)% và chiều cao %(S O=6 a)%. Gọi %(M, N, P, Q)% lần lượt là trung điểm của %(S A, S B, S C, S D)%. Thể tích khối chóp cụt đều %(A B C D \\cdot M N P Q)% bằng %(k a^{3}, k \\in \\mathbb{R})%. Giá trị của %(k)% là bao nhiêu.",
+        "question_images": [],
+        "solution": "Gọi %(O, O^{\\prime})% lần lượt là tâm hình vuông %(A B C D, M N P Q)%.<br>Ta có<br>\\[\\begin{array}{l}V=\\frac{1}{3}\\left(S_{A B C D}+S_{M N P Q}+\\sqrt{S_{A B C D} \\cdot S_{M N P Q}}\\right) \\cdot O O^{\\prime} \\S_{A B C D}=a^{2} \\S_{M N P Q}=\\left(\\frac{1}{2} a\\right)^{2}=\\frac{1}{4} a^{2} \\O O^{\\prime}=\\frac{6 a}{2}=3 a \\\\Rightarrow V=\\frac{1}{3}\\left(a^{2}+\\frac{1}{4} a^{2}+\\sqrt{a^{2} \\cdot \\frac{1}{4} a^{2}}\\right) \\cdot 3 a=\\frac{7}{4} a^{3} .\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/99cfd406393ab57236d6748e15c42625.png\" srcset=\"https://docdn.giainhanh.io/media/test/d903136a51d878956550053759f17027.png 184w\" width=\"184\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "19 ",
+        "point": 0.5,
+        "content": "Sau khi phát hiện một bệnh dịch, các chuyên gia y tế ước tính số người nhiễm bệnh kể từ ngày xuất hiện bệnh nhân đầu tiên đến ngày thứ %(t)% là %(f(t)=40 t^{2}-\\frac{5}{3} t^{3}(t=0,1,2, \\ldots, 24))%. Nếu xem %(f^{\\prime}(t))% là tốc độ truyền bệnh (người/ngày) tại thời điểm %(t)% thì tốc độ truyền bệnh lớn nhất vào ngày thứ bao nhiêu?",
+        "question_images": [],
+        "solution": "Phần giải chi tiếtTa có, với %(t=0,1,2, \\ldots, 24, f(t)=40 t^{2}-\\frac{5}{3} t^{3})% thì %(f^{\\prime}(t)=80 t-5 t^{2}=-5(t-8)^{2}+320 \\leq 320)%.<br>Do đó %(f^{\\prime}(t))% đạt giá trị lớn nhất tại %(t-8=0)% hay %(t=8(\\mathrm{TM}))%.<br>Vậy vào ngày thứ 8 tốc độ truyền bệnh là lớn nhất.",
+        "question_type": "essay"
+    },
+    {
+        "title": "20 ",
+        "point": 0.5,
+        "content": "Một vật chuyển động có phương trình %(S(t)=4 t^{2}+t^{3})%, trong đó %(t\\gt 0, t)% tính bằng giây, %(S(t))% tính bằng mét. Tại thời điểm vận tốc của vật bằng 11 , gia tốc của vật bằng bao nhiêu %(\\mathrm{m} / \\mathrm{s}^{2})% ?",
+        "question_images": [],
+        "solution": "Ta có %(v(t)=S^{\\prime}(t)=3 t^{2}+8 t)% và %(a(t)=v^{\\prime}(t)=6 t+8)%.<br>Theo đề bài, ta có: %(v(t)=11 \\Rightarrow 3 t^{2}+8 t=11 \\Rightarrow t=1(t\\gt 0))%.<br>Vậy gia tốc của vật tại thời điểm vận tốc của vật bằng 11 là %(a(1)=14 \\mathrm{~m} / \\mathrm{s}^{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "21 ",
+        "point": 0.5,
+        "content": "Sự tăng trưởng của một loại vi khuẩn tuân theo công thức %(S=A \\cdot e^{r . t})%, trong đó %(A)% là số lượng vi khuẩn ban đầu, %(r)% là tỉ lệ tăng trưởng %((r\\gt 0), t)% là thời gian tăng trưởng. Biết số lượng vi khuẩn ban đầu là 50 con và sau 5 giờ có được 250 con. Hỏi sau ít nhất bao nhiêu giờ thì số vi khuẩn có được là trên 2 triệu con ? ( Lấy số giờ là số nguyên.)",
+        "question_images": [],
+        "solution": "Sự tăng trưởng của một loại vi khuẩn tuân theo công thức %(S=A \\cdot e^{r t})%, trong đó %(A)% là số lượng vi khuẩn ban đầu, %(r)% là tỉ lệ tăng trưởng %((r\\gt 0), t)% là thời gian tăng trưởng.<br>Số lượng vi khuẩn ban đầu là 50 con và sau 5 giờ là 250 con, tức là: %(250=50 . e^{r 5} \\Leftrightarrow r=\\frac{1}{5} \\ln 5)%.<br>Số vi khuẩn có được là trên 2 triệu con, nên ta có:<br>\\[50 . e^{\\left(\\frac{1}{5} 5\\right) t}>2.000 .000 \\Leftrightarrow e^{\\left(\\frac{1}{5} \\ln 5\\right) t}>40.000 \\Leftrightarrow t>\\frac{5 \\ln 40.000}{\\ln 5} \\Leftrightarrow t>32,92 \\text {. }\\]<br>Vậy sau ít nhất 33 giờ thì số vi khuấn có được là trên 2 triệu con.",
+        "question_type": "essay"
+    },
+    {
+        "title": "22 ",
+        "point": 0.5,
+        "content": "Chị Hoa mới được nhận vào một Tập đoàn và nhận lương khởi điểm là 9 triệu đồng/tháng. Biết rằng cứ sau ba năm lương mỗi tháng của chị tăng thêm %(15 \\%)% so với mức lương hiện tại. Hỏi sau 8 năm làm việc tổng tiền lương chị Hoa nhận được là bao nhiêu triệu đồng (làm tròn kết quả đến hàng đơn vị)?",
+        "question_images": [],
+        "solution": "Tiền lương ba năm đầu tiên chị Hoa nhận được là %(T_{1}=36.9=324)% (triệu đồng).<br>Theo công thức lãi kép, tiền lương ba năm tiếp theo chi Hoa nhận được là %(T_{2}=36.9 .(1+15 \\%)^{1}=372,6)% (triệu đồng).<br>Tiền lương hai năm cuối cùng chị Hoa nhận được là %(T_{3}=24.9 .(1+15 \\%)^{2}=285,66)% (triệu đồng).<br>Tổng số tiền lương chị Hoa nhận được sau 8 năm làm việc là %(T=T_{1}+T_{2}+T_{3}=324+372,6+285,66=982,26 \\approx 982)% (triệu đồng).",
+        "question_type": "essay"
+    }
+]

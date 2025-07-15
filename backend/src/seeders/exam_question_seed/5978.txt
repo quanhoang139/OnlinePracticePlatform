@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 4.0,
+        "content": "Tìm tất cả giá trị của tham số %(m)% sao cho điểm cực tiểu của đồ thị hàm số %(y=x^{3}+x^{2}+m x-1)% nằm bên phải trục tung.",
+        "question_images": [],
+        "solution": "Ta có %(y^{\\prime}=3 x^{2}+2 x+m)%<br>Để hàm số có cực tiểu thì phương trình %(y^{\\prime}=0)% (1) có hai nghiệm phân biệt khi và chỉ khi %(\\Delta^{\\prime}=1-3 m\\gt 0 \\Leftrightarrow m\\lt \\frac{1}{3})%.<br>Khi đó (1) có hai nghiệm phân biệt %(x_{C D}, x_{C T})% là hoành độ hai điểm cực trị. Theo định lí Vi-et ta có %(\\left\\{\\begin{array}{l}x_{C D}+x_{C T}=-\\frac{2}{3}\\lt 0 \\text { (2) } \\\\ x_{C D} x_{C T}=\\frac{m}{3}(3)\\end{array}\\right.)%, trong đó %(x_{C D}\\lt x_{C T})% vì hệ số của %(x^{3})% lớn hơn 0 .<br>Để cực tiểu của đồ thị hàm số nằm bên phải trục tung thì phải có: %(x_{c T}>0)%, kết hợp (2) và (3) suy ra (1) có hai nghiệm trái dấu %(\\Leftrightarrow x_{C \\theta} x_{C T}=\\frac{m}{3}\\lt 0 \\Leftrightarrow m\\lt 0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 4.0,
+        "content": "Tìm tất cả giá trị của %(m)% để bất phương trình %(1+\\log _{5}\\left(x^{2}+1\\right) \\geq \\log _{5}\\left(m x^{2}+4 x+m\\right))% thỏa mãn với mọi %(x \\in \\mathbb{R})%.",
+        "question_images": [],
+        "solution": "BPT thỏa mãn với mọi %(x \\in \\mathbf{R})% khi và chỉ khi<br>\\[\\left\\{\\begin{array} { l } { m x ^ { 2 } + 4 x + m \\gt 0 } \\\\{ 5 ( x ^ { 2 } + 1 ) \\geq m x ^ { 2 } + 4 x + m }\\end{array} \\quad ( \\forall x \\in \\mathbb { R } ) \\Leftrightarrow \\left\\{\\begin{array}{l}m x^{2}+4 x+m>0 \\\\(5-m) x^{2}-4 x+5-m \\geq 0\\end{array} \\quad(\\forall x \\in \\mathbb{R})\\right.\\right.\\]<br>Trường hợp 1: %(m=0)% hoặc %(m=5)% không thỏa.<br>Trường hợp 2: %(m \\neq 0)% và %(m \\neq 5)%, để thỏa yêu cầu bài toán ta có<br>\\[\\left\\{\\begin{array} { l } { m > 0 } \\\\{ 1 6 - 4 m ^ { 2 } \\lt 0 } \\\\{ 5 - m > 0 } \\\\{ 1 6 - 4 ( 5 - m ) ^ { 2 } \\leq 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}m>0 \\m\\lt -2 \\m>2 \\m\\lt 5 \\\\{\\left[\\begin{array}{l}m \\leq 3 \\m \\geq 7\\end{array}\\right.}\\end{array} \\Leftrightarrow 2\\lt m \\leq 3 .\\right.\\right.\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 4.0,
+        "content": "Cho hình chóp tứ giác đều %(S . A B C D)% có tất cá các cạnh bằng %(\\mathrm{a})%. Gọi %(M, N)% lần lượt là trung điểm của các cạnh %(B C, S A)% và %(\\alpha)% là góc tạo bởi đường thẳng %(M N)% với mặt phẳng %((S B D))%. Tính %(\\tan \\alpha)%.",
+        "question_images": [],
+        "solution": "Gọi %(O)% là tâm cùa đáy %(A B C D ; P, F)% lần lượt là trung điềm của %(S O, B O)%.<br>Mặt khác %(A O \\perp(S B D))% mà %(A O \\| N P \\Rightarrow N P \\perp(S B D))%, tương tự %(M F \\perp(S B D))%<br>Tứ giác %(M F N P)% là hình bình hành; Gọi %(E)% là giao điểm của hai đường chéo %(M N)% và %(P F \\Rightarrow)% Góc giữa đường thẳng %(M N)% với mặt phẳng %((S B D))% là %(\\widehat{N E P})%.<br>Trong tam giác %(N E P)% vuông tại %(\\mathrm{P})% ta có:<br>\\[\\begin{array}{l}N P=\\frac{a \\sqrt{2}}{4} \\S O^{2}=S A^{2}-A O^{2}=a^{2}-\\frac{a^{2}}{2}=\\frac{a^{2}}{2} \\Rightarrow O P^{2}=\\frac{a^{2}}{8} \\P F^{2}=O P^{2}+O F^{2}=\\frac{a^{2}}{8}+\\frac{a^{2}}{8}=\\frac{a^{2}}{4} \\Rightarrow P F=\\frac{a}{2} \\Rightarrow P E=\\frac{a}{4} \\\\tan \\alpha=\\tan \\widehat{N E P}=\\frac{N P}{P E}=\\frac{\\frac{a \\sqrt{2}}{4}}{\\frac{a}{4}}=\\sqrt{2}\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/2c4a8eaee379c70e6fa6afa42d4c26b9.png\" srcset=\"https://docdn.giainhanh.io/media/test/753c285d0b97bf5c7f1f75fdd90ce7cc.png 181w, https://docdn.giainhanh.io/media/test/dd198ba7c1b382d34e7dda5e8c5e34c0.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 4.0,
+        "content": "Tính các góc của tam giác %(A B C)% biết %(\\sin \\frac{3 A}{2}+\\sin \\frac{A-C}{2}+\\sin \\frac{A-B}{2}=\\frac{3}{2})%.",
+        "question_images": [],
+        "solution": "Do %(\\sin \\frac{3 A}{2}=\\cos \\left(\\frac{\\pi}{2}-\\frac{3 A}{2}\\right))% nên bài toán trờ thành:<br>\\[\\begin{array}{l}\\cos \\left(\\frac{\\pi}{2}-\\frac{3 A}{2}\\right)+2 \\sin \\left(\\frac{2 A-B-C}{4}\\right) \\cos \\left(\\frac{B-C}{4}\\right)=\\frac{3}{2} \\\\Leftrightarrow 1-2 \\sin ^{2}\\left(\\frac{\\pi}{4}-\\frac{3 A}{4}\\right)-2 \\sin \\left(\\frac{\\pi}{4}-\\frac{3 A}{4}\\right) \\cos \\left(\\frac{B-C}{4}\\right)=\\frac{3}{2} \\\\Leftrightarrow 2\\left[\\sin ^{2}\\left(\\frac{\\pi}{4}-\\frac{3 A}{4}\\right)+\\sin \\left(\\frac{\\pi}{4}-\\frac{3 A}{4}\\right) \\cos \\left(\\frac{B-C}{4}\\right)+\\frac{1}{4} \\cos ^{2}\\left(\\frac{B-C}{4}\\right)\\right]+\\frac{1}{2}-\\frac{1}{2} \\cos ^{2}\\left(\\frac{B-C}{4}\\right)=0 \\\\Leftrightarrow 2\\left[\\sin \\left(\\frac{\\pi}{4}-\\frac{3 A}{4}\\right)+\\frac{1}{2} \\cos \\left(\\frac{B-C}{4}\\right)\\right]^{2}+\\frac{1}{2} \\sin ^{2}\\left(\\frac{B-C}{4}\\right)=0(*)\\end{array}\\]<br>Do %(\\left[\\sin \\left(\\frac{\\pi}{4}-\\frac{3 A}{4}\\right)+\\frac{1}{2} \\cos \\left(\\frac{B-C}{4}\\right)\\right]^{2} \\geq 0 ; \\sin ^{2}\\left(\\frac{B-C}{4}\\right) \\geq 0)% nên VT của (*) không âm.<br>Suy ra (*) xảy ra dấu \" %(=)% \" %(\\Leftrightarrow\\left\\{\\begin{array}{l}\\sin \\left(\\frac{B-C}{4}\\right)=0 \\\\ \\sin \\left(\\frac{\\pi}{4}-\\frac{3 A}{4}\\right)+\\frac{1}{2} \\cos \\left(\\frac{B-C}{4}\\right)=0\\end{array}\\right.)%<br>Giải hệ phương trình trên ta được %(\\left\\{\\begin{array}{l}A=100^{\\circ} \\\\ B=C=40^{\\circ}\\end{array}\\right.)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 4.0,
+        "content": "Cho %(\\left\\{\\begin{array}{l}x, y, z\\gt 0 \\\\ x+y+z=x y z\\end{array}\\right.)%Chứng minh rằng %(\\frac{1}{\\sqrt{x^{2}+1}}+\\frac{1}{\\sqrt{y^{2}+1}}+\\frac{1}{\\sqrt{z^{2}+1}} \\leq \\frac{3}{2})%",
+        "question_images": [],
+        "solution": "Ta có %(\\frac{1}{\\sqrt{x^{2}+1}}=\\sqrt{\\frac{x y z}{x^{2}(x+y+z)+x y z}} \\leq \\sqrt{\\frac{y z}{(x+y)(x+z)}} \\leq \\frac{y}{2(x+y)}+\\frac{z}{2(x+z)})%<br>Tương tự %(\\frac{1}{\\sqrt{y^{2}+1}} \\leq \\frac{x}{2(x+y)}+\\frac{z}{2(y+z)} ; \\frac{1}{\\sqrt{z^{2}+1}} \\leq \\frac{z}{2(x+z)}+\\frac{y}{2(y+z)})%<br>Cộng các vế lại ta có %(\\frac{1}{\\sqrt{x^{2}+1}}+\\frac{1}{\\sqrt{y^{2}+1}}+\\frac{1}{\\sqrt{z^{2}+1}} \\leq \\frac{3}{2})%.<br>Dấu \" %(=)% \" xảy ra khi %(x=y=z=\\sqrt{3})%.",
+        "question_type": "essay"
+    }
+]

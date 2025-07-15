@@ -1,0 +1,112 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(A=\\left(\\frac{2 x^{2}+2}{x^{3}-1}+\\frac{x^{2}-x+1}{x^{4}+x^{2}+1}-\\frac{x^{2}+3}{x^{3}-x^{2}+3 x-3}\\right): \\frac{1}{x-1}(x \\neq 1))%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Rút gọn biểu thức A",
+        "question_images": [],
+        "solution": "Với %(x \\neq 1)%, ta có :<br>\\[\\begin{array}{l}A=\\left[\\frac{2 x^{2}+2}{x^{3}-1}+\\frac{1}{x^{2}+x+1}-\\frac{1}{x-1}\\right]: \\frac{1}{x-1}=\\frac{2 x^{2}+2 x+x-1-x^{2}-x-1}{(x-1)\\left(x^{2}+x+1\\right)}: \\frac{1}{x-1} \\\\=\\frac{x^{2}}{(x-1)\\left(x^{2}+x+1\\right)} \\cdot(x-1)=\\frac{x^{2}}{x^{2}+x+1}\\end{array}\\]<br>Vậy %(A=\\frac{x^{2}}{x^{2}+x+1})% với %(\\quad x \\neq 1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Tìm %(x)% để biểu thức %(A)% có giá trị nguyên",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[x^{2}+x+1=\\left(x+\\frac{1}{2}\\right)^{2}+\\frac{3}{4}\\gt 0(\\forall x) ; x^{2} \\geq 0 \\Rightarrow A=\\frac{x^{2}}{x^{2}+x+1} \\geq 0(1)\\]<br>Xét %(\\frac{4}{3}-A=\\frac{4}{3}-\\frac{x^{2}}{x^{2}+x+1}=\\frac{(x+2)^{2}}{3\\left(x^{2}+x+1\\right)} \\geq 0 \\Rightarrow A \\leq \\frac{4}{3}(2))%<br>Từ (1) và (2) ta có : %(0 \\leq A \\leq \\frac{4}{3})% mà A có giá trị nguyên nên<br>\\[A \\in\\{0 ; 1\\}\\]<br>Xét %(A=0)% tìm được %(x=0(\\mathrm{tm}))%<br>Xét %(A=1 \\Leftrightarrow \\frac{x^{2}}{x^{2}+x+1}=1 \\Leftrightarrow x+1=0 \\Leftrightarrow x=-1()% tmdk)<br>Vậy khi %(x \\in\\{0 ;-1\\})% thì biểu thức A có giá trị nguyên",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho ba số thực %(a, b, c)% khác 1 và thỏa mãn %(a+b+c=3)%<br>Tính giá trị của biểu thức %(B=\\frac{(a-1)^{2}}{(b-1)(c-1)}+\\frac{(b-1)^{2}}{(c-1)(a-1)}+\\frac{(c-1)^{2}}{(a-1)(b-1)})%",
+        "question_images": [],
+        "solution": "Từ giả thiết ta có %(a+b+c=3 \\Rightarrow(a-1)+(b-1)+(c-1)=0)%<br>Đặt %(x=a-1 ; y=b-1 ; z=c-1)% ta có %(x+y+z=0)% và %(x \\neq 0, y \\neq 0, z \\neq 0)%<br>Khi đó %(B=\\frac{x^{2}}{y z}+\\frac{y^{2}}{z x}+\\frac{z^{2}}{x y}=\\frac{x^{3}+y^{3}+z^{3}}{x y z})%<br>Vì %(x+y+z=0 \\Leftrightarrow x+y=-z \\Leftrightarrow x^{3}+y^{3}+3 x y(x+y)=-z^{3})%<br>\\[\\left.x^{3}+y^{3}+3 x y(-z)+z^{3}=0 \\text { (vì } x+y=-z\\right) \\rightarrow x^{3}+y^{3}+z^{3}=3 x y z\\]<br>Thay %(x^{3}+y^{3}+z^{3}=3 x y z)% vào biểu thức ta có : %(B=\\frac{3 x y z}{x y z}=3)%<br>Vậy khi ba số thực %(a, b, c)% khác 1 và thỏa mãn %(a+b+c=3)% thì %(B=3)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Giải phương trình %(\\left(x^{2}+5 x-2\\right)^{2}=4\\left(x^{2}+2\\right)(5 x-4))%",
+        "question_images": [],
+        "solution": "%(\\left(x^{2}+5 x-2\\right)^{2}=4\\left(x^{2}+2\\right)(5 x-4)(1))%<br>Đặt %(\\left\\{\\begin{array}{l}x^{2}+2=a \\\\ 5 x-4=b\\end{array} \\Rightarrow a+b=x^{2}+5 x-2\\right.)%.<br>Khi đó phương trình (1) trở thành :<br>%((a+b)^{2}=4 a b \\Leftrightarrow(a-b)^{2}=0 \\Rightarrow a=b)%<br>\\[\\Rightarrow x^{2}+2=5 x-4 \\Leftrightarrow x^{2}-5 x+6=0 \\Leftrightarrow\\left[\\begin{array}{l}x=2 \\x=3\\end{array}\\right.\\]<br>Vậy phương trình đã cho có tập nghiệm %(S=\\{2 ; 3\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Tìm các cặp số nguyên %((x ; y))% thỏa mãn %(\\frac{x+y}{x^{2}+x y+y^{2}}=\\frac{5}{19})%",
+        "question_images": [],
+        "solution": "Ta có %(\\frac{x+y}{x^{2}+x y+y^{2}}=\\frac{5}{19} \\Leftrightarrow 19(x+y)=5\\left(x^{2}+x y+y^{2}\\right)(1))%<br>Từ (1) ta có %(19(x+y) \\vdots 5)% mà %((19 ; 5)=1 \\Rightarrow(x+y) \\vdots 5 \\Rightarrow x+y=5 m(m \\in Z))%<br>Thay vào (1) tính được %(x^{2}+x y+y^{2}=19 m)%<br>\\[x+y=5 m \\Leftrightarrow x^{2}+2 x y+y^{2}=25 m^{2} \\text {, ta có } x y=\\left(x^{2}+2 x y+y^{2}\\right)-\\left(x^{2}+x y+y^{2}\\right)=25 m^{2}-19 m\\]<br>%(\\begin{array}{l}\\text { Xét }(x+y)^{2}-4 x y=(x-y)^{2} \\geq 0 \\Leftrightarrow 25 m^{2}-4\\left(25 m^{2}-19 m\\right) \\geq 0 \\Leftrightarrow 75 m^{2}-76 m \\leq 0 \\\\ \\Leftrightarrow 0 \\leq m \\leq \\frac{76}{75} \\text { mà } \\quad m \\in Z \\Rightarrow m \\in\\{0 ; 1\\} \\\\ *) m=0 \\Rightarrow\\left\\{\\begin{array}{l}x+y=0 \\\\ x y=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=0 \\\\ y=0\\end{array}\\right.\\right. \\\\ *) m=1 \\Rightarrow\\left\\{\\begin{array}{l}x+y=5 \\\\ x y=6\\end{array} \\Rightarrow(x ; y)=(2 ; 3) ;(3 ; 2)\\right. \\\\ \\text { Vậy }(x ; y)=(0 ; 0) ;(2 ; 3) ;(3 ; 2)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Tìm đa thức %(P(x))%, biết khi chia %(P(x))% cho %({ }^{x+1})% dư 1 , chia cho %(x-3)% dư 9 và khi chia cho %(x^{2}-2 x-3)% thì được thương là %(x^{2}-x+1)% và còn dư",
+        "question_images": [],
+        "solution": "Vì %(P(x))% chia cho %((x+1))% dư 1 , chia cho %((x-3))% dư 9 nên theo định lý Bơ zu ta có<br>\\[P(-1)=1, P(3)=9\\]<br>Vì đa thức chia cho %(x^{2}-2 x-3)% bậc hai nên đa thức dư có dạng %(a x+b)% khi đó ta có :<br>%(\\begin{aligned} P(x)=\\left(x^{2}-2 x-3\\right)\\left(x^{2}-x+1\\right)+a x+b \\Leftrightarrow P(x)=(x+1)(x-3)\\left(x^{2}-x+1\\right)+a x+b \\\\ \\left\\{\\begin{array}{l}P(-1)=1 \\\\ P(3)=9\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}-a+b=1 \\\\ 3 a+b=9\\end{array} \\Rightarrow a=2, b=3\\right.\\right.\\end{aligned})%<br>Ta có:<br>%(P(x)=\\left(x^{2}-2 x-3\\right)\\left(x^{2}-x+1\\right)+2 x+3=x^{4}-3 x^{2}+3 x)%<br>Vậy %(\\mathrm{P}(\\mathrm{x})=x^{4}-3 x^{2}+3 x)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Tìm các số tự nhiên %({ }^{n})% sao cho %(2 n+1)% và %(3 n+1)% là các số chính phương và %(2 n+9)% là số nguyên tố",
+        "question_images": [],
+        "solution": "Ta có %(2 n+1)% và %(3 n+1)% là các số chính phương nên ta có :<br>\\[2 n+1=a^{2}(a \\in N)(1), 3 n+1=b^{2}(b \\in N)(2)\\]<br>Từ (1) và %((2))% ta có : %(3 a^{2}-2 b^{2}=1(3))%<br>Ta có %(2 n+9=(2 n+1)+8=a^{2}+8\\left(3 a^{2}-2 b^{2}\\right)=25 a^{2}-16 b^{2}=(5 a-4 b)(5 a+4 b)(4))%Do %(2 n+9)% là số nguyên tố mà %(5 a-4 b \\leq 5 a+4 b)% nên từ (4) ta có :<br>%(5 a-4 b=1 \\Leftrightarrow a=\\frac{4 b+1}{5})%, thay %(a=\\frac{4 b+1}{5})% vào (3)<br>%(3\\left(\\frac{4 b+1}{5}\\right)^{2}-2 b^{2}=1 \\Leftrightarrow b^{2}-12 b+11=0 \\Leftrightarrow\\left[\\begin{array}{l}b=1 \\Rightarrow a=1 \\Rightarrow\\left\\{\\begin{array}{l}n=0 \\\\ 2 n+9=9(\\mathrm{ktm})\\end{array}\\right. \\\\ b=11 \\Rightarrow a=9 \\Rightarrow\\left\\{\\begin{array}{l}n=40 \\\\ 2 n+9=89(\\mathrm{tmd})\\end{array}\\right.\\end{array}\\right.)%<br>Vậy %(n=40)% là giá trị cần tìm",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác %({A B C})% cân tại %(\\mathrm{C}(A B\\lt A C))%. Kẻ ba đường thẳng %(A D, B E, C F)% cắt nhau tại H %((D \\in B C, E \\in A C, F \\in A B))%",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh %(A E \\cdot A C=\\frac{A B^{2}}{2})%",
+        "question_images": [],
+        "solution": "Xét %(\\triangle A E B \\sim \\triangle A F C)% có :<br>\\[\\left\\{\\begin{array}{l}\\angle A E B=\\angle A F C=90^{\\circ} \\\\angle E A B \\text { chung }\\end{array} \\Rightarrow \\triangle A E B \\sim \\triangle A F C(\\mathrm{~g} . \\mathrm{g})\\right.\\]<br>%(\\Rightarrow \\frac{A E}{A F}=\\frac{A B}{A C} \\Rightarrow A E \\cdot A C=A F \\cdot A B (1))%<br>%(\\triangle A B C)% cân tại C có %(C F)% là đường caoo nên %(C F)% là đường trung tuyến<br>%(\\Rightarrow A F=F B=\\frac{A B}{2}(2))%<br>Từ (1) và (2) ta có %(A E \\cdot A C=\\frac{A B^{2}}{2})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ca9c990dffbff6c404266e1663a44e04.png\" srcset=\"https://docdn.giainhanh.io/media/test/28d6562087ae491a84ff9795d16e2c34.png 245w, https://docdn.giainhanh.io/media/test/a16842a9a4eef0c07cd94c3df9895870.png 500w, https://docdn.giainhanh.io/media/test/a9ccf183289c2e08c216af907b0d651a.png 750w, https://docdn.giainhanh.io/media/test/c7555e6be59b59ec9dd0fc9267c9b396.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Kẻ %(D M \\perp C F)% tại %(\\mathrm{M}, D K \\perp A C)% tại K . Chứng minh %(M K / / F E)%",
+        "question_images": [],
+        "solution": "Chứng minh được %(M D / / B F)% (cùng vuông góc với CF )<br>Xét  %(\\triangle C F B)% có %(M D / / B F)% (cmt) nên %(\\frac{C M}{C F}=\\frac{C D}{C B})% (định lý Ta let) (3)<br>Chứng minh được %(D K / / B E)% (cùng vuông góc với AC )<br>Xét %(\\quad \\triangle C F B)% có %(D K / / B E(\\mathrm{cmt}) \\Rightarrow \\frac{C D}{C B}=\\frac{C K}{C E})% (định lý Talet) (4)<br>Từ (3) và (4) %(\\Rightarrow \\frac{C M}{C F}=\\frac{C K}{C E})%<br>Xét %(\\triangle C F E)%  có : %(\\frac{C M}{C F}=\\frac{C K}{C E}(\\mathrm{cmt}) \\Rightarrow M K / / F E)% (định lý Talet đảo)",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) Tính giá trị của tổng %(\\frac{A H}{A D}+\\frac{B H}{B E}+\\frac{C H}{C F})%",
+        "question_images": [],
+        "solution": "Chỉ ra được : %(\\frac{H D}{A D}=\\frac{S_{H B C}}{S_{A B C}} ; \\frac{H E}{B E}=\\frac{S_{H A C}}{S_{A B C}} ; \\frac{H F}{C F}=\\frac{S_{H A B}}{S_{A B C}})%<br>Tính được %(\\frac{H D}{A D}+\\frac{H E}{B E}+\\frac{H F}{C F}=\\frac{S_{H B C}+S_{H A C}+S_{H A B}}{S_{A B C}}=\\frac{S_{A B C}}{S_{A B C}}=1)%<br><br>\\[\\left(1-\\frac{H D}{A D}\\right)+\\left(1-\\frac{H E}{B E}\\right)+\\left(1-\\frac{H F}{C F}\\right)=3-1 \\Rightarrow \\frac{A H}{A D}+\\frac{B H}{B E}+\\frac{C H}{C F}=2\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 1.5,
+        "content": "d) Gọi N là giao diểm của %(E F)% với tia %(C B)%. Chứng minh %(C E . C N=F E \\cdot F N+C F^{2})%",
+        "question_images": [],
+        "solution": "Trên tia đối của tia FC lấy điểm Q sao cho %(\\angle F N Q=\\angle F C E)%<br>Chứng minh được %(\\triangle C E F \\sim \\triangle N Q F(\\mathrm{~g} \\cdot \\mathrm{g}) \\Rightarrow E F \\cdot F N=F Q \\cdot C F(5))%<br>Chỉ ra CF là phân giác của %(\\triangle A B C \\Rightarrow \\angle F C N=\\angle F C E)%<br>Chứng minh được %(\\triangle C N Q \\sim \\triangle C F E(g . g) \\Rightarrow C E . C N=C Q . C F(6))%<br>Từ (5) và (6) ta có :<br>\\[\\begin{array}{l}C E \\cdot C N-F E \\cdot E N=C Q \\cdot C F-F Q \\cdot C F=C F \\cdot(C Q-F Q)=C F \\cdot C F=C F^{2} \\\\Rightarrow C E \\cdot C N=F E \\cdot F N+C F^{2}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho %(a, b)% là hai số thực dương thỏa mãn %(a+b \\leq 1)%Tìm giá trị nhỏ nhất của biểu thức %(Q=\\frac{1}{a^{2}+b^{2}}+\\frac{2012 a b+1}{a b}+4 a b)%",
+        "question_images": [],
+        "solution": "%(Q=\\left(\\frac{1}{a^{2}+b^{2}}+\\frac{1}{2 a b}\\right)+\\left(4 a b+\\frac{1}{4 a b}\\right)+\\frac{1}{4 a b}+2012)%<br>Chứng minh được bất đẳng thức %(\\frac{1}{x}+\\frac{1}{y} \\geq \\frac{4}{x+y}(*) ;(x+y)^{2} \\geq 4 x y(* *))%<br>Với %(x\\gt 0, y>0)%. Dấu bằng xảy ra khi %(x=y)%<br>Với %(a, b)% là hai số thực dương, %(0\\lt a+b \\leq 1)%<br>Áp dụng bất đẳng thức %(\\left({ }^{*}\\right))% và %(\\left({ }^{* *}\\right))% ta có :<br>%(\\frac{1}{a^{2}+b^{2}}+\\frac{1}{2 a b} \\geq \\frac{4}{a^{2}+b^{2}+2 a b}=\\frac{4}{(a+b)^{2}} \\geq \\frac{4}{1}=4(1))%<br>%(\\left(4 a b+\\frac{1}{4 a b}\\right)^{2} \\geq 4.4 a b \\cdot \\frac{1}{4 a b}=4 \\Rightarrow 4 a b+\\frac{1}{4 a b} \\geq 2(2))%<br>%((a+b)^{2} \\geq 4 a b \\Rightarrow \\frac{1}{a b} \\geq \\frac{4}{(a+b)^{2}} \\geq \\frac{4}{1^{2}}=4 \\Rightarrow \\frac{1}{4 a b} \\geq 1(3))%<br>Từ (1), (2) và (3) suy ra %(Q \\geq 4+2+1+2012=2019)%<br>Dấu bằng xảy ra khi và chỉ khi %(a=b=\\frac{1}{2})%<br>Vậy %(\\operatorname{Min} Q=2019 \\Leftrightarrow a=b=1)%",
+        "question_type": "essay"
+    }
+]

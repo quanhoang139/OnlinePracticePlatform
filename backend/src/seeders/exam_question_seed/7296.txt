@@ -1,0 +1,113 @@
+[
+    {
+        "title": "1.1 ",
+        "point": 1.5,
+        "content": "Tính giá trị biểu thức: %(\\mathbf{A}=\\frac{2^{12} \\cdot 3^{5}-4^{6} \\cdot 9^{2}}{\\left(2^{2} \\cdot 3\\right)^{6}+8^{4} \\cdot 3^{5}}-\\frac{5^{10} \\cdot 7^{3}-25^{5} \\cdot 49^{2}}{(125 \\cdot 7)^{3}+5^{9} \\cdot 14^{3}})%",
+        "question_images": [],
+        "solution": "\\[\\begin{aligned}& \\frac{2^{12} \\cdot 3^{5}-4^{6} \\cdot 9^{2}}{\\left(2^{2} \\cdot 3\\right)^{6}+8^{4} \\cdot 3^{5}}-\\frac{5^{10} \\cdot 7^{3}-25^{5} \\cdot 49^{2}}{(125 \\cdot 7)^{3}+5^{9} \\cdot 14^{3}} \\\\= & \\frac{2^{12} \\cdot 3^{5}-2^{12} \\cdot 3^{4}}{2^{12} \\cdot 3^{6}+2^{12} \\cdot 3^{5}}-\\frac{5^{10} \\cdot 7^{3}-5^{10} \\cdot 7^{4}}{5^{9} \\cdot 7^{3}+5^{9} \\cdot 2^{3} \\cdot 7^{3}} \\\\= & \\frac{2^{12} \\cdot 3^{4}(3-1)}{2^{12} \\cdot 3^{5}(3+1)}-\\frac{5^{10} \\cdot 7^{3}(1-7)}{5^{9} \\cdot 7^{3}(1+8)} \\\\= & \\frac{2^{12} \\cdot 3^{4} \\cdot 2}{2^{12} \\cdot 3^{5} \\cdot 4}-\\frac{5^{10} \\cdot 7^{3} \\cdot(-6)}{5^{9} \\cdot 7^{3} \\cdot 9} \\\\= & \\frac{1}{6}-\\frac{-10}{3}=\\frac{7}{2}\\end{aligned}\\]<br>Vậy %(\\mathrm{A}=\\frac{7}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.2 ",
+        "point": 1.5,
+        "content": "Cho tỉ lệ thức %(\\frac{a}{b}=\\frac{c}{d})% với %(a \\neq 0, b \\neq 0, c \\neq 0, d \\neq 0, a \\neq \\pm b, c \\neq \\pm d)%. Chứng minh:<br>\\[\\left(\\frac{a-b}{c-d}\\right)^{2013}=\\frac{a^{2013}+b^{2013}}{c^{2013}+d^{2013}}\\]",
+        "question_images": [],
+        "solution": "Ta có: %(\\frac{a}{b}=\\frac{c}{d}=\\frac{a-c}{b-d} \\Rightarrow\\left(\\frac{a}{b}\\right)^{2013}=\\left(\\frac{c}{d}\\right)^{2013}=\\left(\\frac{a-c}{b-d}\\right)^{2013})%Mà: %(\\left(\\frac{a}{b}\\right)^{2013}=\\left(\\frac{c}{d}\\right)^{2013}=\\frac{a^{2013}}{b^{2013}}=\\frac{c^{2013}}{d^{2013}}=\\frac{a^{2013}+c^{2013}}{b^{2013}+d^{2013}})%<br>Từ (1) và (2) %(\\Rightarrow\\left(\\frac{a-b}{c-d}\\right)^{2013}=\\frac{a^{2013}+b^{2013}}{c^{2013}+d^{2013}} \\quad)% (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.3 ",
+        "point": 1.0,
+        "content": "Tìm đa thức %(\\mathbf{M})% biết rằng: %(M+\\left(5 x^{2}-2 x y\\right)=6 x^{2}+9 x y-y^{2})%. Tính giá trị của %(\\mathbf{M})% khi %(\\mathbf{x})%, %(\\mathbf{y})% thỏa mãn: %((2 x-5)^{2018}+(3 y+4)^{2020} \\leq 0)%",
+        "question_images": [],
+        "solution": "Ta có: %(M+\\left(5 x^{2}-2 x y\\right)=6 x^{2}+9 x y-y^{2} \\Rightarrow M=6 x^{2}+9 x y-y^{2}-\\left(5 x^{2}-2 x y\\right))%<br>\\[\\Rightarrow M=6 x^{2}+9 x y-y^{2}-5 x^{2}+2 x y=x^{2}+11 x y-y^{2}\\]<br>\\[\\begin{array}{l}\\text { Lai có: }\\left\\{\\begin{array}{l}(2 x-5)^{2018} \\geq 0 \\\\(3 y+4)^{2020} \\geq 0\\end{array} \\Rightarrow(2 x-5)^{2018}+(3 y+4)^{2020} \\geq 0\\right. \\\\text { Mà: }(2 x-5)^{2018}+(3 y+4)^{2020} \\leq 0 \\Rightarrow(2 x-5)^{2018}+(3 y+4)^{2020}=0 \\\\Rightarrow\\left\\{\\begin{array} { l } { ( 2 x - 5 ) ^ { 2 0 1 8 } = 0 } \\\\{ ( 3 y + 4 ) ^ { 2 0 2 0 } = 0 }\\end{array} \\Rightarrow \\left\\{\\begin{array}{l}x=\\frac{5}{2} \\y=-\\frac{4}{3}\\end{array} .\\right.\\right. \\text { Thay vào ta được } \\\\mathrm{M}=\\left(\\frac{5}{2}\\right)^{2}+11 \\cdot \\frac{5}{2} \\cdot\\left(-\\frac{4}{3}\\right)-\\left(\\frac{-4}{3}\\right)^{2}=\\frac{25}{4}-\\frac{110}{3}-\\frac{16}{9}=\\frac{-1159}{36}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.1 ",
+        "point": 1.5,
+        "content": "Tìm x, biết: %(\\left|x+\\frac{1}{101}\\right|+\\left|x+\\frac{2}{101}\\right|+\\left|x+\\frac{3}{101}\\right|+\\ldots+\\left|x+\\frac{100}{101}\\right|=101 x)%",
+        "question_images": [],
+        "solution": "Ví %(\\left|x+\\frac{1}{101}\\right|+\\left|x+\\frac{2}{101}\\right|+\\left|x+\\frac{3}{101}\\right|+\\ldots+\\left|x+\\frac{100}{101}\\right|\\gt 0)% nên %(101 \\mathrm{x}>0)%<br>Suy ra: %(x>0)%<br>Từ đó ta bó được dấu giá trị tuyệt đối thu được phương trình sau:<br>\\[\\begin{aligned}& \\left(x+\\frac{1}{101}\\right)+\\left(x+\\frac{2}{101}\\right)+\\left(x+\\frac{3}{101}\\right)+\\ldots+\\left(x+\\frac{100}{101}\\right)=101 . x \\\\Rightarrow & (\\mathrm{x}+\\mathrm{x}+\\ldots+\\mathrm{x})+\\left(\\frac{1}{101}+\\frac{2}{101}+\\frac{3}{101}+\\ldots+\\frac{100}{101}\\right)=101 . \\mathrm{x} \\\\Rightarrow & 100 \\mathrm{x}+\\frac{1}{101}(1+2+3+\\ldots+100)=101 . \\mathrm{x} \\\\Rightarrow & \\frac{1}{101} \\frac{(1+100) \\cdot[(100-1): 1+1]}{2}=\\mathrm{x} \\Rightarrow \\mathrm{x}=50 \\text { (TM) }\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.2 ",
+        "point": 1.5,
+        "content": "Số A được chia thành ba phần số tỉ lệ theo %(\\frac{2}{5}: \\frac{3}{4}: \\frac{1}{6})%. Biết rằng tổng các bình phương của ba số đó bằng 24309 . Tìm số %(\\mathrm{A})%.",
+        "question_images": [],
+        "solution": "Gọi ba phần được chia lần lượt là: %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})%<br>Theo bài ra ta có: %(a: b: c=\\frac{2}{5}: \\frac{3}{4}: \\frac{1}{6})% và %(a^{2}+b^{2}+c^{2}=24309)%<br>Ta có: %(a: b: c=\\frac{2}{5}: \\frac{3}{4}: \\frac{1}{6} \\Rightarrow \\frac{a}{24}=\\frac{b}{45}=\\frac{c}{10})%<br>Ap dụng tính chất dãy ti sô bằng nhau ta có:%(\\frac{a}{24}=\\frac{b}{45}=\\frac{c}{10} \\Rightarrow \\frac{a^{2}}{576}=\\frac{b^{2}}{2025}=\\frac{c^{2}}{100}=\\frac{a^{2}+b^{2}+c^{2}}{576+2025+100}=\\frac{24309}{2701}=9)%%(\\Rightarrow a^{2}=576.9=5184 \\Rightarrow a= \\pm 72)%%(b^{2}=2025.9=18225 \\Rightarrow b= \\pm 135)%%(c^{2}=100.9=900 \\Rightarrow c= \\pm 30)%Vi: %(\\frac{a}{24}=\\frac{b}{45}=\\frac{c}{10} \\Rightarrow \\mathrm{a}, \\mathrm{b}, \\mathrm{c})% cùng dấu.%(\\Rightarrow A=-72+(-135)+(-30)=-237)%<br>Hoă̆c: %(A=72+135+30=235)%<br>Vậy: %(A=-135)% hoặc %(A=135)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.3 ",
+        "point": 1.0,
+        "content": "Biết %(f(x))% chia cho %(x-3)% thì dư 7 ; chia cho %(x-2)% thì dư 5 ; chia cho %((\\mathbf{x}-3) .(\\mathbf{x}-2))% dược thương là %(3 \\mathbf{x})% và còn dư. Tìm %(f(x))%.",
+        "question_images": [],
+        "solution": "Theo bài ra, ta có:<br>\\[\\begin{array}{l}f(x)=(\\mathrm{x}-3) \\cdot A(x)+7 \\f(x)=(\\mathrm{x}-2) \\cdot B(x)+5 \\f(x)=3 \\mathrm{x}(\\mathrm{x}-3)(x-2)+\\mathrm{ax}+\\mathrm{b}\\end{array}\\]<br>Các đẳng thức trên đúng với mọi %(\\mathrm{x})% nên:<br>+) Thay %(\\mathrm{x}=2)% vào (2); (3) được: %(2 \\mathrm{a}+\\mathrm{b}=5)%<br>+ Thay %(\\mathrm{x}=3)% vào (1); (3) được: %(3 \\mathrm{a}+\\mathrm{b}=7)%<br>Từ (4) và %((5))%, suy ra: %(a=2 ; b=1)%<br>Do đó dư là %(2 \\mathrm{x}+1)%<br>Vậy %(f(x)=3 \\mathrm{x}(\\mathrm{x}-3)(x-2)+2 \\mathrm{x}+1=3 \\mathrm{x}^{3}-15 \\mathrm{x}^{2}-20 \\mathrm{x}+1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.1 ",
+        "point": 2.0,
+        "content": "Tìm các số tự nhiên a; b sao cho:<br>\\[(2008 \\cdot a+3 \\cdot b+1) \\cdot\\left(2008^{a}+2008 \\cdot a+b\\right)=225\\]",
+        "question_images": [],
+        "solution": "Theo đề bài %(\\Rightarrow 2008 \\mathrm{a}+3 \\mathrm{~b}+1)% và %(2008^{\\mathrm{a}}+2008 \\mathrm{a}+\\mathrm{b})% là 2 số lẻ.<br>Nếu %(\\mathrm{a} \\neq 0 \\Rightarrow 2008^{\\mathrm{a}}+2008 \\mathrm{a})% là số chẵn<br>Đề %(2008^{\\mathrm{a}}+2008 \\mathrm{a}+\\mathrm{b})% lé %(\\Rightarrow \\mathrm{b})% lẻ<br>Nếu b lẻ %(\\Rightarrow 3 b+1)% chẵn do đó %(2008 \\mathrm{a}+3 \\mathrm{~b}+1)% chẵn (không thoả mãn)<br>Với %(\\mathrm{a}=0 \\Rightarrow(3 \\mathrm{~b}+1)(\\mathrm{b}+1)=225)%<br>Vì %(\\mathrm{b} \\in \\mathrm{N} \\Rightarrow(3 \\mathrm{~b}+1)(\\mathrm{b}+1)=3.75=5.45=9.25)%<br>Mặt khác: %(3 \\mathrm{~b}+1)% không chia hết cho 3 và %(3 \\mathrm{~b}+1\\gt \\mathrm{b}+1)%<br>\\[\\Rightarrow\\left\\{\\begin{array}{l}3 b+1=25 \\b+1=9\\end{array} \\Rightarrow b=8\\right.\\]<br>Vậy %(\\mathrm{a}=0 ; \\mathrm{b}=8)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.2 ",
+        "point": 2.0,
+        "content": "Cho a,b,c,d %(\\in Z)% thỏa mãn %(a^{3}+b^{3}=2\\left(c^{3}-8 \\mathrm{~d}^{3}\\right))%.Chứng minh %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}+\\mathrm{d})% chia hết cho 3",
+        "question_images": [],
+        "solution": "Ta có %(a^{3}+b^{3}=2\\left(c^{3}-8 \\mathrm{~d}^{3}\\right) \\Leftrightarrow a^{3}+b^{3}+c^{3}+\\mathrm{d}^{3}=3 c^{3}-15 \\mathrm{~d}^{3})%Mà %(3 c^{3}-15 \\mathrm{~d}^{3}: 3)% nên %(a^{3}+b^{3}+c^{3}+\\mathrm{d}^{3}: 3)% (1)<br>Du trong phép chia a cho 3 là %(\\{0 ; \\pm 1\\})% suy ra dư trong phép chia %(\\mathrm{a}^{3})% cho 3 cũng là %(\\{0 ; \\pm 1\\})% hay %(a \\equiv a^{3}(\\bmod 3))%Tương tự ta có %(b \\equiv b^{3}(\\bmod 3) ; c \\equiv c^{3}(\\bmod 3) ; d \\equiv d^{3}(\\bmod 3))%%(\\Rightarrow a+b+c+d \\equiv a^{3}+b^{3}+c^{3}+d^{3}(\\bmod 3)(2))%<br>Từ (1) và (2) suy %(\\mathrm{ra} \\mathrm{}+\\mathrm{b}+\\mathrm{c}+\\mathrm{d})% chia hết cho 3",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho tam giác ABC có ba góc nhọn (AB < AC). Vẽ về phía ngoài tam giác ABC các tam giác đều ABD và ACE. Gọi I là giao của CD và BE, K là giao của AB và DC.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh rằng: ∆ADC = ∆ABE.",
+        "question_images": [],
+        "solution": "Ta có: %(\\mathrm{AD}=\\mathrm{AB} ; \\widehat{\\mathrm{DAC}}=\\widehat{\\mathrm{BAE}})% và %(\\mathrm{AC}=\\mathrm{AE})%<br>Suy ra: %(\\triangle \\mathrm{ADC}=\\triangle \\mathrm{ABE})% (c.g.c)<br><img alt=\"https://docdn.giainhanh.io/media/test/0a4c7d416c9df941b47c1349ac73f62e.PNG\" src=\"https://docdn.giainhanh.io/media/test/0a4c7d416c9df941b47c1349ac73f62e.PNG\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Chứng minh rằng: %(\\widehat{\\mathrm{DIB}}=60^{\\circ})%.",
+        "question_images": [],
+        "solution": "Từ %(\\triangle \\mathrm{ADC}=\\triangle \\mathrm{ABE})% (câu a) %(\\Rightarrow \\widehat{\\mathrm{ABE}}=\\widehat{\\mathrm{ADC}})%<br>Lại có: %(\\widehat{\\mathrm{BKI}}=\\widehat{\\mathrm{AKD}})% (đối đỉnh)<br>Khi đó xét %(\\triangle \\mathrm{BIK})% và %(\\triangle \\mathrm{DAK})%<br>suy ra %(\\widehat{\\mathrm{BIK}}=\\widehat{\\mathrm{DAK}}=60^{\\circ})% (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) Gọi M và N lần lượt là trung điểm của CD và BE. Chứng minh rằng ∆AMN đều.",
+        "question_images": [],
+        "solution": "Từ %(\\triangle \\mathrm{ADC}=\\triangle \\mathrm{ABE})% (câu a) %(\\Rightarrow \\mathrm{CM}=\\mathrm{EN})% và %(\\widehat{\\mathrm{ACM}}=\\widehat{\\mathrm{AEN}})% %(\\Rightarrow \\triangle \\mathrm{ACM}=\\triangle \\mathrm{AEN})% (c.g.c) %(\\Rightarrow \\mathrm{AM}=\\mathrm{AN})% và %(\\widehat{\\mathrm{CAM}}=\\widehat{\\mathrm{EAN}})% %(\\widehat{\\mathrm{MAN}}=\\widehat{\\mathrm{CAE}}=60^{\\circ})%.<br>Do đó %(\\triangle \\mathrm{AMN})% đều.",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 1.5,
+        "content": "d) Chứng minh rằng IA là phân giác của góc DIE.",
+        "question_images": [],
+        "solution": "Trên tia ID lấy điểm %(\\mathrm{J})% sao cho %(\\mathrm{IJ}=\\mathrm{IB} \\Rightarrow \\Delta \\mathrm{BIJ})% đều %(\\Rightarrow \\mathrm{BJ}=\\mathrm{BI})% và %(\\widehat{\\mathrm{JBI}}=\\widehat{\\mathrm{DBA}}=60^{\\circ})%<br>Suy ra: %(\\widehat{\\mathrm{IBA}}=\\widehat{\\mathrm{JBD}})%, kết hợp %(\\mathrm{BA}=\\mathrm{BD})%%(\\Rightarrow \\triangle \\mathrm{IBA}=\\Delta \\mathrm{JBD})% (c.g.c) %(\\Rightarrow \\widehat{\\mathrm{AIB}}=\\widehat{\\mathrm{DJB}}=120^{\\circ} \\mathrm{mà} \\widehat{\\mathrm{BID}}=60^{\\circ})%%(\\Rightarrow \\widehat{\\mathrm{DIA}}=60^{\\circ})%.<br>Từ đó suy ra IA là phân giác của góc DIE",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho ba số dương %(0 \\leq a \\leq b \\leq c \\leq 1)%. Chứng minh rằng:<br>\\[\\frac{a}{b c+1}+\\frac{b}{a c+1}+\\frac{c}{a b+1} \\leq 2\\]",
+        "question_images": [],
+        "solution": "Vì %(0 \\leq a \\leq b \\leq c \\leq 1 \\Rightarrow\\left\\{\\begin{array}{l}a-1 \\leq 0 \\\\ b-1 \\leq 0\\end{array} \\Rightarrow(a-1)(b-1) \\geq 0 \\Rightarrow a b-a-b+1 \\geq 0\\right.)% %(\\Rightarrow a b+1 \\geq a+b \\Rightarrow \\frac{1}{a b+1} \\leq \\frac{1}{a+b} \\Rightarrow \\frac{c}{a b+1} \\leq \\frac{c}{a+b} \\quad(c \\geq 0))%Mà: %(\\frac{c}{a+b} \\leq \\frac{2 c}{a+b+c} \\Rightarrow \\frac{c}{a b+1} \\leq \\frac{2 c}{a+b+c})%<br>Chứng minh tương tự, ta có: %(\\frac{b}{a c+1} \\leq \\frac{2 b}{a+b+c})% và %(\\frac{a}{b c+1} \\leq \\frac{2 a}{a+b+c})%<br>Cộng theo vế, ta được: %(\\frac{a}{b c+1}+\\frac{b}{a c+1}+\\frac{c}{a b+1} \\leq \\frac{2 a+2 b+2 c}{a+b+c}=2)% (đpcm)<br>Vậy với ba số dương %(0 \\leq a \\leq b \\leq c \\leq 1)% thì %(\\frac{a}{b c+1}+\\frac{b}{a c+1}+\\frac{c}{a b+1} \\leq 2)%",
+        "question_type": "essay"
+    }
+]

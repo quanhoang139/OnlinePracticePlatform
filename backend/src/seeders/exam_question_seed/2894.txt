@@ -1,0 +1,65 @@
+[
+    {
+        "title": "1 ",
+        "point": 4.0,
+        "content": "Tìm các nghiệm nguyên của phương trình: %(5 x^{2}+4 y^{2}=10 x+19)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}5 x^{2}+4 y^{2}=10 x+19 \\Leftrightarrow 5 x^{2}-10 x+5=24-4 y^{2} \\\\5(x-1)^{2}=4\\left(6-y^{2}\\right)\\end{array}\\]<br>Ta lại có: %(y \\in Z, 6-y^{2} \\geq 0)% và %(6-y^{2}: 5)% nên %(y^{2}=1 \\Rightarrow y= \\pm 1)%<br>Với %(\\mathrm{y}^{2}=1)%, ta được: %(5(\\mathrm{x}-1)^{2}=4\\left(6-1^{2}\\right)=20)%<br>\\[\\Rightarrow\\left[\\begin{array} { l } { x - 1 = 2 } \\\\{ x - 1 = - 2 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=3 \\x=-1\\end{array}\\right.\\right.\\]<br>Vậy phương trình đã cho có 4 nghiệm nguyên (x ; y), đó là:%((3 ; 1) ;(3 ;-1) ;(-1 ; 1) ;(-1 ;-1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Xét một hình vuông và một hình tam giác, nếu có cùng diện tích thì hình nào có chu vi lớn hơn?",
+        "question_images": [],
+        "solution": "Gọi %(a, b, c)% là độ đài các cạnh của tam giác, %(h_{a})% là độ dài đường cao ứng với cạnh %(a)% của tam giác, %(x)% là độ dài cạnh hình vuông, %(S)% là diện tích của mỗi hình.<br>Ta có:<br>\\[\\begin{array}{l}b+c\\gt 2 h_{a} \\Rightarrow a+b+c>a+2 h_{a} \\geq 2 \\sqrt{a \\cdot 2 h_{a}}=2 \\sqrt{4 S}=4 S \\\\=4 \\sqrt{x^{2}}=4 x\\end{array}\\]<br>Vậy chu vi của hình tam giác lớn hơn chu vi của hình vuông.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 5.0,
+        "content": "Tìm GTNN của biểu thức: %(\\frac{a^{2}}{1-a}+\\frac{b^{2}}{1-b}+\\frac{1}{a+b}+a+b)%, trong đó %(\\mathrm{a}, \\mathrm{b}\\gt 0)% và %(\\mathrm{a}+\\mathrm{b}\\lt 1)%",
+        "question_images": [],
+        "solution": "%(\\left( \\frac{1}{1 - a} + \\frac{1}{1 - b} + \\frac{1}{a + b} \\right ) \\cdot \\left( 1 - a + 1 - b + a + b \\right ) \\ge \\left( 1 + 1 + 1 \\right )^{2})%<br>Theo BDT Bunhiacopski ta có:%(\\left . \\begin{matrix} \\frac{a^{2}}{1 - a} + \\frac{b^{2}}{1 - b} + \\frac{1}{a + b} + a + b = \\frac{a^{2}}{1 - a} + 1 + a + \\frac{b^{2}}{1 - b} + 1 + b + \\frac{1}{a + b} - 2 \\\\ = \\frac{1}{1 - a} + \\frac{1}{1 - b} + \\frac{1}{a + b} - 2 \\end{matrix} \\right .)%<br>Nên : %(\\frac{a^{2}}{1-a}+\\frac{b^{2}}{1-b}+\\frac{1}{a+b}+a+b \\geq \\frac{9}{2}-2=\\frac{5}{2})%.<br>Vậy GTNN của biểu thức đã cho là  %( \\frac{5}{2})%, khi %(a=b=\\frac{1}{3})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 3.0,
+        "content": "Tìm %(x)% biết: %((\\sqrt{x-1}+1)^{3}+2 \\sqrt{x-1}=2-x)%",
+        "question_images": [],
+        "solution": "Điều kiện: %(1 \\leq x \\leq 2)%<br>Đặt %(\\mathrm{y}=\\sqrt{x-1} \\quad(y \\geq 0) \\Rightarrow \\mathrm{x}=\\mathrm{y}^{2}+1)%.<br>Khi đó ta có:%((\\mathrm{y}+1)^{3}+2 \\mathrm{y}=2-\\left(\\mathrm{y}^{2}+1\\right) \\Leftrightarrow \\mathrm{y}^{3}+4 \\mathrm{y}^{2}+5 \\mathrm{y}=0)%%(\\Leftrightarrow \\mathrm{y}\\left[(\\mathrm{y}+2)^{2}+1\\right]=0)%<br>Vì %((\\mathrm{y}+2)^{2}+1 \\geq 0 \\Rightarrow \\mathrm{y}=0 \\Rightarrow \\mathrm{x}=1)% (thỏa điều kiện)<br>Vậy phương trình có 1 nghiệm %(\\mathrm{x}=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho hình vuông %(A B C D)%. %(M)% là điểm trên đường chéo %(B D)%. Hạ %(M E)% vuông góc với %(A B)% và %(M F)% vuông góc với %(\\mathrm{AD})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.5,
+        "content": "a) Chứng minh %(\\mathrm{DE} \\perp \\mathrm{CF} ; \\mathrm{EF}=\\mathrm{CM})%",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/03af5c731620de1f974eb20f01e6ce9a.png\" srcset=\"https://docdn.giainhanh.io/media/test/96137d773c775185a2c9060f3c212c3b.png 211w\" width=\"211\"/><br>\\[\\mathrm{DF}=\\mathrm{AE} \\Rightarrow \\triangle \\mathrm{DFC}=\\triangle \\mathrm{AED}\\]<br>\\[\\Rightarrow \\mathrm{ADE}=\\mathrm{DCF}\\]<br>\\[\\Rightarrow \\mathrm{EDC}+\\mathrm{DCF}=\\mathrm{EDC}+\\mathrm{ADE}\\]<br>%(\\mathrm{EDC}+\\mathrm{ADE}=90^{\\circ})% nên %(\\mathrm{DE} \\perp \\mathrm{CF})%<br>%(\\mathrm{MC}=\\mathrm{MA}(\\mathrm{BD})% là trung trực của %(\\mathrm{AC}))%<br>%(\\mathrm{MA}=\\mathrm{FE})% nên %(\\mathrm{EF}=\\mathrm{CM})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Chứng minh ba đường thẳng %(\\mathrm{DE}, \\mathrm{BF})% và %(\\mathrm{CM})% đồng qui.",
+        "question_images": [],
+        "solution": "\\[\\Rightarrow \\triangle \\mathrm{MCF}=\\triangle \\mathrm{FED} \\Rightarrow \\mathrm{MCF}=\\mathrm{FED}\\]<br>Từ %(\\mathrm{MCF}=\\mathrm{FED})% chứng minh được %(\\mathrm{CM} \\perp \\mathrm{EF})%<br>Tương tự a) được %(\\mathrm{CE} \\perp \\mathrm{BF})%%(\\mathrm{ED}, \\mathrm{FB})% và %(\\mathrm{CM})% trùng với ba đường cao của %(\\triangle \\mathrm{FEC})% nên chúng đồng qui.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) Xác định vị trí của điểm %(\\mathrm{M})% để tứ giác %(\\mathrm{AEMF})% có diện tích lớn nhất.",
+        "question_images": [],
+        "solution": "%(\\mathrm{ME}+\\mathrm{MF}=\\mathrm{FA}+\\mathrm{FD})% là số không đổi.<br>%(\\Rightarrow)% ME.MF lớn nhất khi %(\\mathrm{ME}=\\mathrm{MF})%<br>Lúc đó %(\\mathrm{M})% là trung điểm của %(\\mathrm{BD})%",
+        "question_type": "essay"
+    }
+]

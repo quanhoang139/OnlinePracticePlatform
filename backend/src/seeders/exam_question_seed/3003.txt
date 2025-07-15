@@ -1,0 +1,80 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Cho biểu thức %(P=\\left(\\frac{\\sqrt{1+a}}{\\sqrt{1+a}-\\sqrt{1-a}}+\\frac{1-a}{\\sqrt{1-a^{2}}-1+a}\\right)\\left(\\sqrt{\\frac{1}{a^{2}}-1}-\\frac{1}{a}\\right))% với %(0\\lt \\mathrm{a}\\lt 1)%. Chứng minh rằng %(\\mathrm{P}=-1)%",
+        "question_images": [],
+        "solution": "Với %(0\\lt \\mathrm{a}\\lt 1)% ta có:<br>\\[\\begin{array}{l}P=\\left[\\frac{\\sqrt{1+a}}{\\sqrt{1+a}-\\sqrt{1-a}}+\\frac{(\\sqrt{1-a})^{2}}{\\sqrt{(1-a)(1+a)}-(\\sqrt{1-a})^{2}}\\right]\\left(\\sqrt{\\frac{1-a^{2}}{a^{2}}}-\\frac{1}{a}\\right) \\\\=\\left[\\frac{\\sqrt{1+a}}{\\sqrt{1+a}-\\sqrt{1-a}}+\\frac{(\\sqrt{1-a})^{2}}{\\sqrt{1-a}(\\sqrt{1+a}-\\sqrt{1-a})}\\right]\\left[\\sqrt{\\frac{(1-a)(1+a)}{a^{2}}}-\\frac{1}{a}\\right] \\\\=\\left[\\frac{\\sqrt{1+a}}{\\sqrt{1+a}-\\sqrt{1-a}}+\\frac{\\sqrt{1-a}}{\\sqrt{1+a}-\\sqrt{1-a}}\\right]\\left(\\frac{\\sqrt{1-a} \\cdot \\sqrt{1+a}}{a^{2}}-\\frac{1}{a}\\right) \\\\=\\frac{\\sqrt{1+a}+\\sqrt{1-a}}{\\sqrt{1+a}-\\sqrt{1-a}} \\cdot \\frac{2 \\sqrt{1-a} \\cdot \\sqrt{1+a}-(1-a)-(1+a)}{2 a} \\\\=\\frac{\\sqrt{1+a}+\\sqrt{1-a}}{\\sqrt{1+a}-\\sqrt{1-a}} \\cdot \\frac{-(\\sqrt{1+a}-\\sqrt{1-a})^{2}}{2 a} \\\\=-\\frac{(\\sqrt{1+a}+\\sqrt{1-a})(\\sqrt{1+a}-\\sqrt{1-a})}{2 a} \\\\=-\\frac{1+a-1+a}{2 a}=-\\frac{2 a}{2 a}=-1\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Cho parabol %((\\mathrm{P}): \\mathrm{y}=-\\mathrm{x}^{2})% và đường thẳng %(\\mathrm{d}: \\mathrm{y}=2 \\mathrm{mx}-1)% với %(\\mathrm{m})% là tham số.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.25,
+        "content": "a) Tìm tọa độ giao điểm của %(d)% và %(\\left( P \\right ))% khi %(m = 1)%",
+        "question_images": [],
+        "solution": "Khi %(m=1)% ta có %(d: y=2 x-1)% và %((P): y=-x^{2})%<br>Phương trình hoành độ giao điểm của %(\\mathrm{d})% và %((\\mathrm{P}))% là:<br>Với %(x=-1+\\sqrt{2} \\Rightarrow y=-3+2 \\sqrt{2})%<br>Với %(x=-1-\\sqrt{2} \\Rightarrow y=-3-2 \\sqrt{2})%<br>Vậy các giao điểm là %((-1+\\sqrt{2} ;-3+2 \\sqrt{2}) ;(-1-\\sqrt{2} ;-3-2 \\sqrt{2}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.25,
+        "content": "b) Chứng minh rằng với mỗi giá trị của %(\\mathrm{m}, \\mathrm{d})% luôn cắt %((\\mathrm{P}))% tại hai điểm phân biệt %(\\mathrm{A}, \\mathrm{B})%. Gọi %(\\mathrm{y}_{1}, \\mathrm{y}_{2})% là tung độ của %(\\mathrm{A}, \\mathrm{B})%. Tìm %(\\mathrm{m})% sao cho %(\\left|y_{1}^{2}-y_{2}^{2}\\right|=3 \\sqrt{5})%",
+        "question_images": [],
+        "solution": "Phương trình hoành độ giao điểm của %(\\mathrm{d})% và %((\\mathrm{P}):-x^{2}=2 m x-1 \\Leftrightarrow x^{2}+2 m x-1=0 \\quad(*))%<br>Phương trình %(\\left({ }^{*}\\right))% có %(\\Delta^{\\prime}=\\mathrm{m}^{2}+1\\gt 0 \\Rightarrow\\left(^{*}\\right))% luôn có hai nghiệm phân biệt %(\\mathrm{x}_{1}, \\mathrm{x}_{2} \\forall \\mathrm{m})% hay %(\\mathrm{d})% luôn cắt %((\\mathrm{P}))% tại hai điểm phân biệt.<br>Áp dụng Viét ta có: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=-2 m \\\\ x_{1} x_{2}=-1\\end{array} \\Rightarrow\\left|x_{1}-x_{2}\\right|=\\sqrt{\\left(x_{1}-x_{2}\\right)^{2}}=\\sqrt{\\left(x_{1}+x_{2}\\right)^{2}-4 x_{1} x_{2}}=\\sqrt{4 m^{2}+4}=2 \\sqrt{m^{2}+1}\\right.)% Khi đó ta có %(\\left\\{\\begin{array}{l}y_{1}=2 m x_{1}-1 \\\\ y_{2}=2 m x_{2}-1\\end{array} \\Rightarrow\\left|y_{1}^{2}-y_{2}^{2}\\right|=\\left|\\left(2 m x_{1}-1\\right)^{2}-\\left(2 m x_{2}-1\\right)^{2}\\right|\\right.)%<br>\\[\\begin{array}{l}\\Rightarrow\\left|y_{1}^{2}-y_{2}^{2}\\right|=\\left|\\left(2 m x_{1}-1-2 m x_{2}+1\\right)\\left(2 m x_{1}-1+2 m x_{2}-1\\right)\\right|=\\left|4 m\\left(x_{1}-x_{2}\\right)\\left[m\\left(x_{1}+x_{2}\\right)-1\\right]\\right| \\\\=\\left|4 m\\left(2 m^{2}+1\\right)\\left(x_{1}-x_{2}\\right)\\right|=4\\left|m\\left(2 m^{2}+1\\right)\\right|\\left|x_{1}-x_{2}\\right|=4|m|\\left(2 m^{2}+1\\right) 2 \\sqrt{m^{2}+1}\\end{array}\\]<br>Ta có %(\\left|y_{1}^{2}-y_{2}^{2}\\right|=3 \\sqrt{5} \\Leftrightarrow 64 m^{2}\\left(2 m^{2}+1\\right)^{2}\\left(m^{2}+1\\right)=45 \\Leftrightarrow 64\\left(4 m^{4}+4 m^{2}+1\\right)\\left(m^{4}+m^{2}\\right)=45)%Đặt %(m^{4}+m^{2}=t \\geq 0)% có phương trình %(64 t(4 t+1)=45 \\Leftrightarrow 256 t^{2}+64 t-45=0 \\Leftrightarrow t=\\frac{5}{16})% (vì %(\\mathrm{t} \\geq 0)% )<br>Suy ra %(m^{4}+m^{2}=\\frac{5}{16} \\Leftrightarrow 16 m^{4}+16 m^{2}-5=0 \\Leftrightarrow m= \\pm \\frac{1}{2})%<br>Vậy %(m= \\pm \\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Một người đi xe máy từ địa điểm %(\\mathrm{A})% đến địa điểm %(\\mathrm{B})% cách nhau %(120 \\mathrm{~km})%. Vận tốc trên %(\\frac{3}{4})% quãng đường %(A B)% dầu không đổi, vận tốc trên %(\\frac{1}{4})% quãng đường %(\\mathrm{AB})% sau bằng %(\\frac{1}{2})% vận tốc trên %(\\frac{3}{4})% quãng đường %(\\mathrm{AB})% đầu. Khi đến %(\\mathrm{B})%, người đó nghỉ 30 phút và trở lại %(\\mathrm{A})% với vận tốc lớn hơn vận tốc trên %(\\frac{3}{4})% quãng đường %(\\mathrm{AB})% đầu tiên lúc đi là %(10 \\mathrm{~km} / \\mathrm{h})%. Thời gian kể từ lúc xuất phát tại %(\\mathrm{A})% đến khi xe trở về %(\\mathrm{A})% là 8,5 giờ. Tính vận tốc của xe máy trên quãng đường người đó đi từ %(\\mathrm{B})% về %(\\mathrm{A})% ?",
+        "question_images": [],
+        "solution": "Gọi vận tốc của người đi xe máy trên %(\\frac{3}{4})% quãng đường %(A B)% đầu %((90 \\mathrm{~km}))% là %(x(k m / h)(x\\gt 0))%<br>Vận tốc của người đi xe máy trên %(\\frac{1}{4})% quãng đường %(A B)% sau là %(0,5 x(\\mathrm{~km} / \\mathrm{h}))%<br>Vận tốc của người đi xe máy khi quay trở lại %(A)% là %(x+10(\\mathrm{~km} / \\mathrm{h}))%<br>Tổng thời gian của chuyến đi là %(\\frac{90}{x}+\\frac{30}{0,5 x}+\\frac{120}{x+10}+\\frac{1}{2}=8,5)%<br>\\[\\begin{array}{l}\\Leftrightarrow \\frac{90}{x}+\\frac{60}{x}+\\frac{120}{x+10}=8 \\Leftrightarrow \\frac{150}{x}+\\frac{120}{x+10}=8 \\Leftrightarrow 75(x+10)+60 x=4 x(x+10) \\\\Leftrightarrow 4 x^{2}-95 x-750=0 \\Leftrightarrow x=30(\\text { do } \\mathrm{x}>0)\\end{array}\\]<br>Vậy vận tốc của xe máy trên quãng đường người đó đi từ %(B)% về %(A)% là %(30+10=40(\\mathrm{~km} / \\mathrm{h}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho ba điểm %(\\mathrm{A}, \\mathrm{M}, \\mathrm{B})% phân biệt, thẳng hàng và %(\\mathrm{M})% nằm giữa %(\\mathrm{A}, \\mathrm{B})%. Trên cùng một nửa mặt phẳng bờ là đường thẳng %(\\mathrm{AB})%, dựng hai tam giác đều %(A M C)% và %(B M D)% Goi %(P)% là giao điểm của %(A D)% và %(B C)%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(A M P C)% và %(B M P D)% là các tứ giác nội tiếp",
+        "question_images": [],
+        "solution": "Vì %(C M A=D M B=60^{\\circ} \\Rightarrow C M B=D M A=120^{\\circ})%. Xét %(\\triangle \\mathrm{CMB})% và %(\\triangle \\mathrm{AMD})% có:<br>\\[\\left\\{\\begin{array}{l}C M=A M \\C M B=D M A \\Rightarrow \\triangle C M B=\\triangle A M D(\\text { c.g.c }) \\Rightarrow\\left\\{\\begin{array}{l}M C B=M A D \\M B C=M D A\\end{array}\\right. \\M B=M D\\end{array}\\right.\\]<br>Suy ra %(A M P C)% và %(B M P D)% là các tứ giác nội tiếp<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e9db468ed7b63297b0a01e8266491d6b.png\" srcset=\"https://docdn.giainhanh.io/media/test/629e06740c319b64c74ee048ba49e559.png 239w\" width=\"239\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Chứng minh %(\\sqrt{C P \\cdot C B}+\\sqrt{D P \\cdot D A}=A B)%",
+        "question_images": [],
+        "solution": "Vì AMPC là tứ giác nội tiếp nên<br>\\[\\begin{array}{l}C P M=180^{\\circ}-C A M=120^{\\circ}=C M B \\Rightarrow \\triangle C P M \\sim \\Delta C M B(g \\cdot g) \\Rightarrow \\frac{C P}{C M}=\\frac{C M}{C B} \\\\Rightarrow C P \\cdot C B=C M^{2} \\Rightarrow \\sqrt{C P \\cdot C B}=C M . \\text { Tương tự } \\sqrt{D P \\cdot D A}=D M \\\\text { Vậy } \\sqrt{C P \\cdot C B}+\\sqrt{D P \\cdot D A}=C M+D M=A M+B M=A B\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Đường thắng nối tâm của hai đường tròn ngoại tiếp hai tứ giác AMPC và %(\\mathrm{BMPD})% cắt %(\\mathrm{PA}, \\mathrm{PB})% tương ứng tại %(\\mathrm{E}, \\mathrm{F})%. Chứng minh %(\\mathrm{CDFE})% là hình thang.",
+        "question_images": [],
+        "solution": "Ta có %(\\triangle E P M)% là đường trung trực của %(\\Rightarrow P E = P M)% cân tại %(P M \\Rightarrow E P = E M \\Rightarrow \\Delta E P M)%<br>Mặt khác %(E F)% (do %(P F = P M)% là tứ giác nội tiếp) nên %(E)% dều%(P C M = P B D)%. Tương tự %(A M P C)%Ta có %(P B D = P M D)% nên %(E P M = A C M = 60^{\\circ})%<br>Mà %(P C M = P M D)% là tứ giác nội tiếp nên %(B M P D)%. Suy ra %(C M / / D B)%<br>Ta lại có %(C P M = D P M = 120^{\\circ} \\frac{\\Rightarrow}{\\_} C P M \\frac{∼}{\\_} M P D \\left( g{\\cdot} g \\right ) \\Rightarrow \\frac{C P}{M P} = \\frac{P M}{P D} \\Rightarrow \\frac{C P}{P F} = \\frac{P E}{P D})%Theo định lý Talét đảo ta có %(C E / / D F \\Rightarrow C D F E)% là hình thang.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho %(a, b, c)% là ba số thực không âm và thỏa mãn: %(a+b+c=1)%. Chứng minh rằng<br>\\[\\sqrt{5 a+4}+\\sqrt{5 b+4}+\\sqrt{5 c+4} \\geq 7\\]",
+        "question_images": [],
+        "solution": "Vì %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% không âm và có tổng bằng 1 nên %(0 \\leq a, b, c \\leq 1 \\Rightarrow\\left\\{\\begin{array}{l}a(1-a) \\geq 0 \\\\ b(1-b) \\geq 0 \\\\ c(1-c) \\geq 0\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}a \\geq a^{2} \\\\ b \\geq b^{2} \\\\ c \\geq c^{2}\\end{array}\\right.\\right.)%<br>Suy ra %(\\sqrt{5 a+4} \\geq \\sqrt{a^{2}+4 a+4}=\\sqrt{(a+2)^{2}}=a+2)%<br>Tương tự %(\\sqrt{5 b+4} \\geq b+2 ; \\sqrt{5 c+4} \\geq c+2)%<br>Do đó %(\\sqrt{5 a+4}+\\sqrt{5 b+4}+\\sqrt{5 c+4} \\geq(a+b+c)+6=7)% (đpcm)",
+        "question_type": "essay"
+    }
+]

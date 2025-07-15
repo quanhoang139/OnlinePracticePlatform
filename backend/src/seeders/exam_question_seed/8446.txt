@@ -1,0 +1,91 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Tìm %(\\mathrm{x})% biết: %((x-1)^{5}=-243)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Ta có: }(x-1)^{5}=-243=(-3)^{5} \\\\ x-1=-3 \\\\ x=-2 \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tính : %(\\mathrm{A}=\\frac{16^{3} \\cdot 3^{10}+120 \\cdot 6^{9}}{4^{6} \\cdot 3^{12}+6^{11}})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}P=\\frac{\\left((2)^{4}\\right)^{3} \\cdot 3^{10}+3 \\cdot 2 \\cdot 5 \\cdot 2^{2} \\cdot(2 \\cdot 3)^{9}}{\\left((2)^{2}\\right)^{6} \\cdot 3^{12}+(2 \\cdot 3)^{11}}=\\frac{2^{12} \\cdot 3^{10}+3^{10} \\cdot 2^{12} \\cdot 5}{2^{12} \\cdot 3^{12}+2^{11} \\cdot 3^{11}} \\\\ =\\frac{2^{12} \\cdot 3^{10}(1+5)}{2^{11} 3^{11}(2 \\cdot 3+1)}=\\frac{6 \\cdot 2^{12} \\cdot 3^{10}}{7 \\cdot 2^{11} \\cdot 3^{11}}=\\frac{4 \\cdot 2^{11} \\cdot 3^{11}}{7 \\cdot 2^{11} \\cdot 3^{11}}=\\frac{4}{7}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tính tổng: %(S=(-3)^{0}+(-3)^{1}+(-3)^{2}+\\ldots+(-3)^{2018})%",
+        "question_images": [],
+        "solution": "%(S=(-3)^{0}+(-3)^{1}+(-3)^{2}+\\ldots+(-3)^{2018})%Nhân -3 vào 2 vế ta được<br>\\[\\begin{aligned}-3 S & =-3\\left[(-3)^{0}+(-3)^{1}+(-3)^{2}+\\ldots+(-3)^{2018}\\right] \\\\& =(-3)^{1}+(-3)^{2}+(-3)^{3}+\\ldots+(-3)^{2019} .\\end{aligned}\\]<br>Ta có:<br>\\[\\begin{aligned}-3 S-S & =\\left[(-3)^{1}+(-3)^{2}+(-3)^{3}+\\ldots+(-3)^{2019}\\right]-(-3)^{0}-(-3)^{1}-(-3)^{2}-\\ldots-(-3)^{2018} \\\\& =(-3)^{2019}-1\\end{aligned}\\]<br>Hay %(-4 S=(-3)^{2019}-1)%<br>\\[S=\\frac{(-3)^{2019}-1}{-4}=\\frac{3^{2019}+1}{4}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Cho hàm số: %(y=f(x)=\\mathrm{ax}^{2}+b x+c)%<br>Cho biết: %(f(0)=2011 ; \\quad f(1)=2012 ; \\quad f(-1)=2013)%. Tính %(\\mathrm{f}(-2))% ?",
+        "question_images": [],
+        "solution": "Theo giả thiết ta có: %(f(0)=2011 \\Rightarrow c=2011)%<br>\\[\\begin{array}{l}f(1)=2012 \\Rightarrow a+b+c=2012 \\Rightarrow a+b+2011=2012 \\Rightarrow a+b=1\\ (1) \\f(-1)=2013 \\Rightarrow a-b+c=2013 \\Rightarrow a-b+2011=2013 \\Rightarrow a-b=2\\ (2)\\end{array}\\]<br>Cộng vế với vế của (1) và (2) ta có: %(2 \\mathrm{a}=3 \\Rightarrow \\mathrm{a}=\\frac{3}{2})%<br>Thay vào (2) ta được: %(b=-\\frac{1}{2})%<br>Do đó: Hàm số đã cho có dạng: %(y=f(x)=\\frac{3}{2} \\mathrm{x}^{2}-\\frac{1}{2} x+2011)%<br>Vậy: %(f(-2)=\\frac{3}{2} \\cdot(-2)^{2}-\\frac{1}{2} \\cdot(-2)+2011=6+1+2011=2018)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho dãy tỉ số bằng nhau %(\\frac{2 b z-3 c y}{a}=\\frac{3 c x-a z}{2 b}=\\frac{a y-2 b x}{3 c})%. Chứng minh: %(\\frac{x}{a}=\\frac{y}{2 b}=\\frac{z}{3 c})%.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\frac{2 b z-3 c y}{a}=\\frac{3 c x-a z}{2 b}=\\frac{a y-2 b x}{3 c}\\]<br>.<br>Suy ra:<br>\\[\\frac{2 a b z-3 a c y}{a^{2}}=\\frac{6 b c x-2 a b z}{4 b^{2}}=\\frac{3 a c y-6 b c x}{9 c^{2}}\\]<br>.<br>Áp dụng tính chất dãy tỉ số bằng nhau ta có:<br>\\[\\begin{array}{l}\\frac{2 a b z-3 a c y}{a^{2}}=\\frac{6 b c x-2 a b z}{4 b^{2}}=\\frac{3 a c y-6 b c x}{9 c^{2}} \\\\=\\frac{2 a b z-3 a c y+6 b c x-2 a b z+3 a c y-6 b c x}{a^{2}+4 b^{2}+9 c^{2}}=0\\end{array}\\]<br>Suy ra: %(2 \\mathrm{bz}-3 \\mathrm{cy}=0 \\Rightarrow \\frac{z}{3 c}=\\frac{y}{2 b}\\ (1))%<br>\\[3 \\mathrm{cx}-\\mathrm{az}=0 \\Rightarrow \\frac{x}{a}=\\frac{z}{3 c}\\ (2)\\]<br>Từ (1) và (2) suy ra: %(\\frac{x}{a}=\\frac{y}{2 b}=\\frac{z}{3 c})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho hình vẽ bên, biết:<br>\\[{x} A C+{y} B C-{A} C B=180^{\\circ} \\text {. }\\]<br>Chứng tỏ %(A x / / B y)%.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/111d2ffec008aec6b41377d00043b942.png"
+        ],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4b34eff46ac2555d51bcccb7a785cb33.png\" srcset=\"https://docdn.giainhanh.io/media/test/babcbd1950f3e3ada250367833a4cc71.png 192w\" width=\"192\"/><br>Kẻ tia %(\\mathrm{Cz})% sao cho %(\\mathrm{Cz} / / \\mathrm{Ax})% %((\\mathrm{Cz})% và %(\\mathrm{Ax})% nằm cùng phía trên nửa mặt phẳng bờ AC).<br>Suy ra: %(\\widehat{A}_{1}+\\widehat{C}_{1}=180^{\\circ})% (trong cùng phía) nên %(\\widehat{A}_{1}=180^{\\circ}-\\widehat{C}_{1})%<br>Ta có %(\\widehat{A}_{1}+\\widehat{B}_{1}-\\widehat{C}_{2}=180^{\\circ})% (theo gt)<br>Suy ra: %(\\widehat{B}_{1}=180^{\\circ}-\\widehat{A}_{1}+\\widehat{C}_{2}=180^{\\circ}-\\left(180^{\\circ}-\\widehat{C}_{1}\\right)+\\widehat{C}_{2}=\\widehat{C}_{1}+\\widehat{C_{2}})% nên %(\\widehat{B_{1}}=\\widehat{B C z})%<br>%(\\Rightarrow \\mathrm{By} / / \\mathrm{Cz})% (cặp góc so le trong bằng nhau)<br>Mà %(\\mathrm{Cz} / / \\mathrm{Ax})% theo cách dựng nên %(\\mathrm{Ax} / / \\mathrm{By})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác %(\\mathrm{ABC})% cân tại %(\\mathrm{A}, \\mathrm{BH})% vuông góc với %(\\mathrm{AC})% tại %(\\mathrm{H})%. Trên cạnh %(\\mathrm{BC})% lấy điểm %(M)% bất kì ( khác %(B)% và %(C)% ). Gọi %(D, E, F)% là chân đường vuông góc hạ từ %(\\mathrm{M})% đến %(\\mathrm{AB}, \\mathrm{AC}, \\mathrm{BH})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(\\mathrm{BD}=\\mathrm{MF})%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/8b8f0750dd1304218e7afec445fccceb.png\" srcset=\"https://docdn.giainhanh.io/media/test/1c557b6ef4e228255812123b0fefc90c.png 169w, https://docdn.giainhanh.io/media/test/f9710a15b00b26cba24a8c78ba8f3c6d.png 500w\" width=\"500\"/><br>Vì %(\\mathrm{FM})% và %(\\mathrm{AC})% cùng vuông góc với %(\\mathrm{BH})% nên %(\\mathrm{FM} / / \\mathrm{AC})%.<br>Suy ra %(\\widehat{F M B}=\\widehat{H C B})% ( đồng vị ). (1)<br>Mặt khác %(\\widehat{D B M}=\\widehat{A B C}=\\widehat{A C B}=\\widehat{H C B})% ( %(\\triangle A B C)% cân). (2)<br>Từ (1) và (2) suy ra %(\\widehat{D B M}=\\widehat{F M B})%.<br>Xét %(\\triangle D B M)% và %(\\triangle F M B)% có:<br>\\[\\widehat{B D M}=\\widehat{M F B}=90^{\\circ}\\]<br>BM là cạnh chung.%(\\widehat{D B M}=\\widehat{F M B})% ( theo chứng minh trên)<br>Suy ra %(\\triangle D B M=\\triangle F M B(\\mathrm{ch}-\\mathrm{gn}))%.<br>Nên %(\\mathrm{BD}=\\mathrm{MF})% (2 cạnh tương ứng ) (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Trên tia đối của tia %(\\mathrm{CA})% lấy điểm %(\\mathrm{K})% sao cho %(\\mathrm{CK}=\\mathrm{EH})%. Chứng minh %(\\mathrm{BC})% đi qua trung điểm của %(\\mathrm{DK})%.",
+        "question_images": [],
+        "solution": "Vẽ %(\\mathrm{DP} \\perp \\mathrm{BC})% tại %(\\mathrm{P}, \\mathrm{KQ} \\perp \\mathrm{BC})% tại %(\\mathrm{Q})%, gọi %(\\mathrm{I})% là giao điểm của %(\\mathrm{DK})% và %(\\mathrm{BC})%.<br>+) Chứng minh: %(\\mathrm{BD}=\\mathrm{FM}=\\mathrm{EH}=\\mathrm{CK})%<br>+) Chứng minh: %(\\triangle B D P=\\triangle C K Q)% (ch-gn) %(\\Rightarrow D P=K Q)% (2 cạnh tương ứng)<br>+ ) Chứng minh: %(\\triangle D P I=\\triangle K Q I)% (g-c-g) %(\\Rightarrow \\mathrm{ID}=\\mathrm{IK})% ( 2 cạnh tương ứng)<br>Vậy %(\\mathrm{BD})% đi qua trung điểm của %(\\mathrm{CK})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng số có dạng %(\\overline{a b c a b c})% luôn chia hết cho 11",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{aligned}\\overline{a b c a b c} & =a .10^{5}+b .10^{4}+c .10^{3}+a .10^{2}+b .10+c \\\\& =a .10^{2}\\left(10^{3}+1\\right)+b .10\\left(10^{3}+1\\right)+c\\left(10^{3}+1\\right) \\\\& =\\left(10^{3}+1\\right)\\left(a .10^{2}+b \\cdot 10+c\\right) \\\\& =(1000+1)\\left(a .10^{2}+b .10+c\\right)=1001\\left(a .10^{2}+b \\cdot 10+c\\right) \\\\& =11.91\\left(a .10^{2}+b .10+c\\right) \\vdots 11\\end{aligned}\\]<br>Vậy %(\\overline{a b c a b c}\\ \\vdots 11)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 0.5,
+        "content": "Cho %(a)% và %(b)% là các số nguyên dương sao cho %(a^{2}+b^{2})% chia hết cho tích %(\\mathrm{ab})%.Hãy tính %(\\mathrm{A}=\\frac{a^{2018}+b^{2018}}{a^{1009} \\cdot b^{1009}})%.",
+        "question_images": [],
+        "solution": "Gọi d = (a, b);<br>Suy ra %(\\mathrm{a}=\\mathrm{dm}, \\mathrm{b}=\\mathrm{dn})% với %(\\mathrm{m}, \\mathrm{n} \\in \\mathrm{N})% và %((\\mathrm{m}, \\mathrm{n})=1)% %(\\mathrm{a}^{2}+\\mathrm{b}^{2}=\\mathrm{d}^{2}\\left(\\mathrm{~m}^{2}+\\mathrm{n}^{2}\\right))% và %(\\mathrm{ab}=\\mathrm{dmn})%<br>%(\\mathrm{a}^{2}+\\mathrm{b}^{2})% chia hết cho ab nên %(\\mathrm{m}^{2}+\\mathrm{n}^{2})% chia hết cho mn<br>%((\\mathrm{m}, \\mathrm{n})=1)% nên %(\\mathrm{m}^{2}+\\mathrm{n}^{2} \\vdots \\mathrm{m})% và %(\\mathrm{m}^{2}+\\mathrm{n}^{2} \\vdots \\mathrm{n})% %(\\Rightarrow \\mathrm{n}^{2}: \\mathrm{m})% và %(\\mathrm{m}^{2}: \\mathrm{n})%%(\\Rightarrow )% %(\\mathrm{n}: \\mathrm{m})% và %(\\mathrm{m}: \\mathrm{n})%<br>%(\\mathrm{m}=\\mathrm{n})% mà %((\\mathrm{m}, \\mathrm{n})=1)% nên %(\\mathrm{m}=\\mathrm{n}=1)%<br>Vậy<br>\\[\\frac{a^{2018}+b^{2018}}{a^{1009} \\cdot b^{1009}}=\\frac{d^{2018}\\left(m^{2018}+n^{2018}\\right)}{d^{2018} \\cdot \\mathrm{m}^{1009} \\cdot \\mathrm{n}^{1009}}=2\\]",
+        "question_type": "essay"
+    }
+]

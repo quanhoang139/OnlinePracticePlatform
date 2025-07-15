@@ -1,0 +1,66 @@
+[
+    {
+        "title": "1 ",
+        "point": 4.0,
+        "content": "Cho hàm số %(y=x^{2}-4 x+3)% có đồ thị %((C))%. Khảo sát sự biến thiên và vẽ đồ thị hàm số. Dựa vào đồ thị, tìm m để phương trình: %(\\left|x^{2}-4 x+3\\right|=2 m+1)% có đúng 2 nghiệm.",
+        "question_images": [],
+        "solution": "Tập xác định: R.<br>- Tọa độ đỉnh: %(I(2 ;-1))%.<br>Trục đối xứng: %(x=2)%.<br>- Giao điểm của đồ thị với %(\\mathrm{Ox}:(1 ; 0),(3 ; 0), \\mathrm{Oy}:(0 ; 3))%.<br>- Đồ thị là parabol quay bề lõm lên trên.<br>- Hàm số nghịch biến trên khoảng %((-\\infty ; 2))%, đồng biến trên khoảng %((2 ;+\\infty))%.<br>- Bảng biến thiên:<br>- Đồ thị:<br>- Vẽ đồ thị hàm số: %(y=\\left|x^{2}-4 x+3\\right|)%<br>- Số nghiệm của PT: %(\\left|x^{2}-4 x+3\\right|=2 m+1~~~~(1))% bằng số giao điểm của đồ thị hai hàm số %(y=\\left|x^{2}-4 x+3\\right|)% và %(y=2 m+1)%.<br>- Đồ thị hàm số %(y=2 m+1)% là đường thẳng song song với Ox, cắt Oy tại %(M(0 ; 2 m+1))%.<br>- Dựa vào đồ thị ta có: PT (1) có đúng hai nghiệm khi và chỉ khi:<br>%(\\left[\\begin{array}{l}2 m+1\\gt 1 \\\\ 2 m+1=0\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}m>0 \\\\ m=-\\frac{1}{2}\\end{array}\\right.\\right.)%<br>Vậy %(m>0)% hoặc %(m=-\\frac{1}{2})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/07cf7665d0095c85c6b38bfbfe6184ca.png\" srcset=\"https://docdn.giainhanh.io/media/test/17f4740383f0f928781da8f07b02cafa.png 245w, https://docdn.giainhanh.io/media/test/7da82359aaf44fe4ddf8807be4755139.png 500w\" width=\"500\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/003fdeb47f9222162afc771e9d8efdc6.png\" srcset=\"https://docdn.giainhanh.io/media/test/55eddc937a0ed7a52fba983e3b8e465b.png 207w\" width=\"207\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f650d0643b69e548f1e8243e440658d5.png\" srcset=\"https://docdn.giainhanh.io/media/test/0319a8b3c4a5186a606dece8b79477e8.png 206w\" width=\"206\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 3.0,
+        "content": "Tìm tất cả các giá trị của m để phương trình: %(m x^{2}-2(m-1) x+3(m-2)=0)% có hai nghiệm %(x_{1}, x_{2})% thỏa mãn: %(x_{1}+2 x_{2}=1)%.",
+        "question_images": [],
+        "solution": "+) Nếu m = 0, PT đã cho trở thành:<br>\\[2 x-6=0 \\Leftrightarrow x=3 \\text { (loại). }\\]<br>+) Nếu %(m \\neq 0)%, PT đã cho là một PT bậc hai.<br>\\[\\Delta^{\\prime}=(m-1)^{2}-m 3(m-2)=-2 m^{2}+4 m+1\\]<br>Điều kiện để PT có hai nghiệm là:<br>\\[A^{\\prime} \\geq 0 \\Leftrightarrow-2 m^{2}+4 m+1 \\geq 0 \\Leftrightarrow \\frac{2-\\sqrt{6}}{2} \\leq m \\leq \\frac{2+\\sqrt{6}}{2}~~~~\\left({ }{*}\\right)\\]<br>Với điều kiện %(\\left.{ }({*}\\right))%, giả sử %(x_{1}, x_{2})% là hai nghiệm của PT.<br>Từ yêu cầu bài toán và áp dụng định lí Vi-et, ta có:<br>%(\\left\\{\\begin{array}{l}x_{1}+x_{2}=\\frac{2(m-1)}{m} \\\\ x_{1}+2 x_{2}=1\\end{array} \\Rightarrow x_{2}=\\frac{2-m}{m}\\right.)%.<br>Thay %(x=\\frac{2-m}{m})% vào PT, ta có:<br>\\[(m-2)(6 m-4)=0 \\Leftrightarrow m=2 \\text { hoă้c } m=\\frac{2}{3}\\]<br>Đối chiếu điều kiện, ta có: %(\\mathrm{m}=2)% hoặc %(m=\\frac{2}{3})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}\\sqrt{7 x+y}+\\sqrt{2 x+y}=5 \\\\ \\sqrt{2 x+y}+x-y=1\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Điều kiện: %(7 x+y \\geq 0 ; 2 x+y \\geq 0)%.<br>Đặt %(u=\\sqrt{7 x+y}, v=\\sqrt{2 x+y}~,(u, v \\geq 0))%<br>Ta có: %(x=\\frac{u^{2}-v^{2}}{5} ; y=\\frac{7 v^{2}-2 u^{2}}{5})%.<br>Ta có hệ:<br>\\[\\begin{array}{l}\\left\\{\\begin{array} { l } { u + v = 5 } \\\\{ v + \\frac { u ^ { 2 } - v ^ { 2 } } { 5 } - \\frac { 7 v ^ { 2 } - 2 u ^ { 2 } } { 5 } = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}u=5-v \\v^{2}+5 v-14=0\\end{array}\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { u = 5 - v } \\\\{ [ \\begin{array} { l } { v = 2 } \\\\{ v = - 7 }\\end{array} }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}u=3 \\v=2\\end{array}\\right.\\right.\\end{array}\\]<br>Với %(u=3 ; v=2)%, ta có: %(x=1 ; y=2)%.<br>Vậy %(x=1 ; y=2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các giá trị của %(m)% để phương trình sau có nghiệm duy nhất:<br>\\[\\sqrt{x}+\\sqrt[4]{x}+\\sqrt{1-x}+\\sqrt[4]{1-x}=m\\]",
+        "question_images": [],
+        "solution": "Giả sử %(x_{0})% là nghiệm của PT, khi đó %(1-x_{0})% cũng là nghiệm của PT.<br>Do đó để PT có nghiệm duy nhất ta phải có: %(x_{0}=1-x_{0} \\Leftrightarrow x_{0}=\\frac{1}{2})%.<br>Thay %(x_{0}=\\frac{1}{2})% vào PT, ta có: %(m=\\sqrt{2}+\\sqrt[4]{8})%.<br>Với %(m=\\sqrt{2}+\\sqrt[4]{8})%, ta chứng minh PT có nghiệm duy nhất.<br>Áp dụng bất đẳng thức Côsi, ta có:<br>\\[\\begin{array}{l}\\left\\{\\begin{array}{l}x+\\frac{1}{2} \\geq 2 \\sqrt{x.\\frac{1}{2}} \\\\1-x+\\frac{1}{2} \\geq 2 \\sqrt{(1-x) \\frac{1}{2}}\\end{array} \\Rightarrow \\sqrt{x}+\\sqrt{1-x} \\leq \\sqrt{2}~~~(*)\\right. \\\\left\\{\\begin{array}{l}x+\\frac{1}{2}+\\frac{1}{2}+\\frac{1}{2} \\geq 4 \\sqrt[4]{\\frac{x}{8}} \\\\1-x+\\frac{1}{2}+\\frac{1}{2}+\\frac{1}{2} \\geq 4 \\sqrt[4]{\\frac{1-x}{8}}\\end{array} \\Rightarrow \\sqrt[4]{x}+\\sqrt[4]{1-x} \\leq \\sqrt[4]{8} \\quad(* *)\\right.\\end{array}\\]<br>\\[(*),(* *) \\Rightarrow \\sqrt{x}+\\sqrt[4]{x}+\\sqrt{1-x}+\\sqrt[4]{1-x} \\leq \\sqrt{2}+\\sqrt[4]{8}\\]<br>Dấu bằng xảy ra khi và chỉ khi: %(x=\\frac{1}{2})%.<br>Vậy %(m=\\sqrt{2}+\\sqrt[4]{8})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C)% có trọng tâm %(G, M)% là điểm bất kì. Chứng minh rằng:%(M A^{2}+M B^{2}+M C^{2}=3 M G^{2}+G A^{2}+G B^{2}+G C^{2})%. Khi M thuộc đường tròn ngoại tiếp tam giác ABC, tìm vị trí của M để %(M A^{2}+M B^{2}+M C^{2})% đạt giá trị bé nhất.",
+        "question_images": [],
+        "solution": "+) Ta có:<br>\\[\\begin{array}{l}\\overrightarrow{M A}=\\overrightarrow{M G}+\\overrightarrow{G A} \\Rightarrow M A^{2}=M G^{2}+G A^{2}+2 \\overrightarrow{M A}.\\overrightarrow{G A} \\\\overrightarrow{M B}=\\overrightarrow{M G}+\\overrightarrow{G B} \\Rightarrow M B^{2}=M G^{2}+G B^{2}+2 \\overrightarrow{M B} . \\overrightarrow{G B} \\\\overrightarrow{M C}=\\overrightarrow{M G}+\\overrightarrow{G C} \\Rightarrow M C^{2}=M G^{2}+G C^{2}+2 \\overrightarrow{M C}.\\overrightarrow{G C}\\end{array}\\]<br>+) Do đó:<br>%(\\begin{array}{l}M A^{2}+M B^{2}+M C^{2}=3 M G^{2}+2 \\overrightarrow{M G}(\\overrightarrow{G A}+\\overrightarrow{G B}+\\overrightarrow{G C}) \\\\ G A^{2}+G B^{2}+G C^{2}=3 M G^{2}+G A^{2}+G B^{2}+G C^{2} .\\end{array})%<br>+) Ta có: %(M A^{2}+M B^{2}+M C^{2})% bé nhất khi và chỉ khi %(M G)% bé nhất.<br>Điều này xảy ra khi và chỉ khi M là giao điểm của OG với đường tròn ngoại tiếp tam giác ABC.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c79d245732a16001e9bb9e80290df578.png\" srcset=\"https://docdn.giainhanh.io/media/test/e180f3253cec1198bd5917a277320e29.png 178w\" width=\"178\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Gọi M là một điểm bất kỳ nằm trong tam giác. Chứng minh rằng: %(S_{MCA} .\\overrightarrow{M A}+S_{MAC}. \\overrightarrow{A B}+S_{MAB}. \\overrightarrow{A C}=\\overrightarrow{0})%",
+        "question_images": [],
+        "solution": "+) Gọi %(E, F)% lần lượt là hình chiếu của M trên %(\\mathrm{AC}, \\mathrm{AB})%.<br>+) Qua %(M)% kẻ các đường thẳng song song với %(A B)%, %(A C)%, cắt %(A C)% tại %(L)%, cắt %(A C)% tại %(N)%.<br>+) %(P, Q)% lần lượt là chân đường cao hạ từ %(B, C)%.<br>+) Ta có: %(A L M N)% là hình bình hành nên: %(\\overrightarrow{M A}=\\overrightarrow{N A}+\\overrightarrow{L A})%.<br>+) Mặt khác:<br>%(\\begin{array}{l}\\overrightarrow{N A}=-\\frac{N A}{A B} \\overrightarrow{A B}=-\\frac{M E}{B P} \\overrightarrow{A B}=-\\frac{S_{M A C}}{S_{A B C}} \\overrightarrow{A B} \\\\ \\overrightarrow{L A}=-\\frac{L A}{A C} \\overrightarrow{A C}=-\\frac{M F}{A C} \\overrightarrow{A C}=-\\frac{S_{M A B}}{S_{A B C}} \\overrightarrow{A C} \\\\ \\Rightarrow S_{A B C} . \\overrightarrow{M A}=-S_{M A C}. \\overrightarrow{A B}-S_{M A B}. \\overrightarrow{A C} \\\\ \\Leftrightarrow\\left(S_{M A B}+S_{M B C}+S_{M C A}\\right) \\overrightarrow{M A}+S_{M A C} . \\overrightarrow{A B}+S_{M A B}.\\overrightarrow{A C}=\\overrightarrow{0} \\\\ \\Leftrightarrow S_{M C A}. \\overrightarrow{M A}+S_{M A C} .\\overrightarrow{A B}+S_{M A B} . \\overrightarrow{A C}=\\overrightarrow{0}\\end{array})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0552d52ba0b6b2b4717431fc5616eb44.png\" srcset=\"https://docdn.giainhanh.io/media/test/d0c5352ce61bf5b1e5851ddaab52f6b5.png 216w\" width=\"216\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 3.0,
+        "content": "Trong hệ trục Oxy cho %(\\triangle \\mathrm{ABC})% có %(B(2 ;-1))%, đường cao hạ từ A và phân giác góc C lần lượt có phương trình %(3 x-4 y+27=0)% và %(x+2 y-5=0)%. Tìm tọa độ điểm A và điểm C. Phân giác góc C nói trên là phân giác trong hay phân giác ngoài?",
+        "question_images": [],
+        "solution": "BC là đường thẳng đi qua B và vuông góc với đường cao hạ từ A nên có PT:<br>\\[4(x-2)+3(y+1)=0 \\Leftrightarrow 4 x+3 y-5=0 .\\]<br>Tọa độ điểm C là nghiệm của hệ:<br>\\[\\left\\{\\begin{array} { l } { 4 x + 3 y - 5 = 0 } \\\\{ x + 2 y - 5 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=-1 \\y=3\\end{array} \\Rightarrow C(-1 ; 3)\\right.\\right.\\]<br>Gọi d là đường thẳng đi qua B và vuông góc với đường phân giác góc C, d có phương trình:<br>\\[2(x-2)-(y+1)=0 \\Leftrightarrow 2 x-y-5=0 \\text {. }\\]<br>Tọa độ điểm H là giao điểm của d và phân giác góc C là nghiệm của hệ:<br>\\[\\left\\{\\begin{array} { l } { x + 2 y - 5 = 0 } \\\\{ 2 x - y - 5 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=3 \\y=1\\end{array} \\Rightarrow H(3 ; 1)\\right.\\right.\\]<br>Gọi B’ là điểm đối xứng với B qua đường phân giác góc C, khi đó B thuộc AC và H là trung điểm BB' nên ta có:<br>\\[x_{B^{\\prime}}=2 x_{H}-x_{B}=4 ; y_{B^{\\prime}}=2 y_{H}-y_{B}=3 \\Rightarrow B^{\\prime}(4 ; 3)\\]<br>AC là đường thẳng đi qua C và có vectơ chỉ phương %(\\overrightarrow{C B^{\\prime}}(5 ; 0))% nên có PT là:<br>\\[0(x+1)-5(y-3)=0 \\Leftrightarrow y-3=0 \\text {. }\\]<br>Tọa độ điểm A là nghiệm của hệ:<br>\\[\\left\\{\\begin{array} { l } { y - 3 = 0 } \\\\{ 3 x - 4 y + 2 7 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=-5 \\y=3\\end{array} \\Rightarrow A(-5 ; 3)\\right.\\right.\\]<br>Vậy %(A(-5 ; 3), C(-1 ; 3))%.<br>Thay tọa độ %(\\mathrm{A}, \\mathrm{B})% lần lượt vào vế trái phương trình đường phân giác góc C ta được các số: %(-4 ;-5)%<br>Do đó đường phân giác góc C đó là phân giác ngoài.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.0,
+        "content": "Cho ba số thực dương %(a, b, c)% thỏa mãn %(a+b+c=3)%. Chứng minh rằng:<br>\\[\\frac{a^{3}}{a+b c}+\\frac{b^{3}}{b+c a}+\\frac{c^{3}}{c+a b} \\geq \\frac{3}{2}\\]",
+        "question_images": [],
+        "solution": "Áp dụng bất dắng thức Côsi, ta có:<br>\\[\\begin{array}{c}\\frac{a^{3}}{a+b c}+\\frac{a+b c}{4}+\\frac{1}{2} \\geq \\frac{3}{2} a \\\\frac{b^{3}}{b+c a}+\\frac{b+c a}{4}+\\frac{1}{2} \\geq \\frac{3}{2} b \\\\frac{c^{3}}{c+a b}+\\frac{c+a b}{4}+\\frac{1}{2} \\geq \\frac{3}{2} c\\end{array}\\]<br>Suy ra:<br>\\[\\begin{array}{l}\\frac{a^{3}}{a+b c}+\\frac{b^{3}}{b+c a}+\\frac{c^{3}}{c+a b}+\\frac{a b+b c+c a}{4} \\geq \\frac{5}{4}(a+b+c) \\\\Rightarrow \\frac{a^{3}}{a+b c}+\\frac{b^{3}}{b+c a}+\\frac{c^{3}}{c+a b} \\geq \\frac{15}{4}-\\frac{a b+b c+c a}{4}\\end{array}\\]<br>Mặt khác: %(9=(a+b+c)^{2} \\geq a b+b c+c a)%<br>Do đó: %(\\frac{a^{3}}{a+b c}+\\frac{b^{3}}{b+c a}+\\frac{c^{3}}{c+a b} \\geq \\frac{15}{4}-\\frac{9}{4}=\\frac{3}{2})%.<br>Dấu bằng xảy ra khi và chỉ khi %(a=b=c=1)%.",
+        "question_type": "essay"
+    }
+]

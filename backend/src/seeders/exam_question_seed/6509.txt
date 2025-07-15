@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Tính giá trị của biểu thức: %(T=\\frac{\\sqrt{2}(1+\\sqrt[3]{10+6 \\sqrt{3}})}{2 \\sqrt{2}+\\sqrt{2+\\sqrt{3}}}+\\frac{\\sqrt{2}(1+\\sqrt[3]{10-6 \\sqrt{3}})}{2 \\sqrt{2}-\\sqrt{2-\\sqrt{3}}})%.",
+        "question_images": [],
+        "solution": "Ta có: %((\\sqrt{3}+1)^{3}=3 \\sqrt{3}+9+3 \\sqrt{3}+1=10+6 \\sqrt{3})%<br>và %((1-\\sqrt{3})^{3}=1-3 \\sqrt{3}+9-3 \\sqrt{3}=10-6 \\sqrt{3})%.<br>Suy ra:<br>\\[\\begin{array}{l}T=\\frac{\\sqrt{2}(1+\\sqrt[3]{10+6 \\sqrt{3}})}{2 \\sqrt{2}+\\sqrt{2+\\sqrt{3}}}+\\frac{\\sqrt{2}(1+\\sqrt[3]{10-6 \\sqrt{3}})}{2 \\sqrt{2}-\\sqrt{2-\\sqrt{3}}}=\\frac{\\sqrt{2}\\left[1+\\sqrt[3]{(1+\\sqrt{3})^{3}}\\right]}{2 \\sqrt{2}+\\sqrt{2+\\sqrt{3}}}+\\frac{\\sqrt{2}\\left[1+\\sqrt[3]{(1-\\sqrt{3})^{3}}\\right]}{2 \\sqrt{2}-\\sqrt{2-\\sqrt{3}}} \\\\=\\frac{2(2+\\sqrt{3})}{2+\\sqrt{4+2 \\sqrt{3}}}+\\frac{2(2-\\sqrt{3})}{2-\\sqrt{4-2 \\sqrt{3}}}=\\frac{4+2 \\sqrt{3}}{2+(\\sqrt{3}+1)}+\\frac{4-2 \\sqrt{3}}{2-(\\sqrt{3}-1)} \\\\=\\frac{(\\sqrt{3}+1)^{2}}{\\sqrt{3}(\\sqrt{3}+1)}+\\frac{(\\sqrt{3}-1)^{2}}{\\sqrt{3}(\\sqrt{3}-1)}=\\frac{\\sqrt{3}+1+\\sqrt{3}-1}{\\sqrt{3}}=2 .\\end{array}\\]<br>Vậy %(T=2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Với mọi số nguyên dương %(n)%, chứng minh %(A=\\sqrt{n^{2}+n^{2}(n+1)^{2}+(n+1)^{2}})% là số nguyên nhưng không thể là số chính phương.",
+        "question_images": [],
+        "solution": "Ta có: %(n^{2}+n^{2}(n+1)^{2}+(n+1)^{2}=\\left(n^{2}+n\\right)^{2}+2 n^{2}+2 n+1=\\left(n^{2}+n\\right)^{2}+2\\left(n^{2}+n\\right)+1=\\left(n^{2}+n+1\\right)^{2})%<br>Suy ra: %(A=n^{2}+n+1)%.<br>Do %(n^{2}\\lt A=n^{2}+n+1\\lt (n+1)^{2}, \\forall n \\in \\mathbb{N}^{*})% nên %(A)% không thể là số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho các phương trình (ẩn %(x) a x^{2}-b x+c=0(1))% và %(c x^{2}-b x+a=0(2))% với %(a, b, c)% là các số thực dương thỏa mãn %(a-b+4 c=0)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh các phương trình (1) và %((2))% đều có hai nghiệm dương phân biệt.",
+        "question_images": [],
+        "solution": "Phương trình (1) và %((2))% đều có: %(\\Delta=b^{2}-4 a c=(a+4 c)^{2}-4 a c=a^{2}+4 a c+16 c^{2}\\gt 0)% với %(a, b, c>0)%.<br>Gọi %(S_{1}, P_{1})% lần lượt là tổng và tích của hai nghiệm của phương trình (1).<br>Gọi %(S_{2}, P_{2})%. lần lượt là tổng và tích của hai nghiệm của phương trình %((1))%.<br>Theo định lý Viete, ta có: %(\\left\\{\\begin{array}{l}S_{1}=\\frac{b}{a}>0, P_{1}=\\frac{c}{a}>0 \\\\ S_{2}=\\frac{b}{c}>0, P_{2}=\\frac{a}{c}>0\\end{array}\\right.)%.<br>Do đó phương trình (1) và (2) đều có hai nghiệm dương phân biệt.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Gọi %(x_{1}, x_{2})% là hai nghiệm của phương trình (1) và %(x_{3}, x_{4})% là hai nghiệm của phương trình %((2))%.Tìm giá trị nhỏ nhất của biểu thức: %(T=\\frac{1}{x_{1} x_{2} x_{3}}+\\frac{1}{x_{2} x_{3} x_{4}}+\\frac{1}{x_{3} x_{4} x_{1}}+\\frac{1}{x_{4} x_{1} x_{2}})%.",
+        "question_images": [],
+        "solution": "Ta có: %(T=\\frac{1}{x_{1} x_{2} x_{3}}+\\frac{1}{x_{2} x_{3} x_{4}}+\\frac{1}{x_{3} x_{4} x_{1}}+\\frac{1}{x_{4} x_{1} x_{2}}=\\frac{x_{1}+x_{2}+x_{3}+x_{4}}{x_{1} x_{2} x_{3} x_{4}})%.<br>Theo định lý Viete, ta có: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=S_{1}=\\frac{b}{a}, x_{1} x_{2}=P_{1}=\\frac{c}{a} \\\\ x_{3}+x_{4}=S_{2}=\\frac{b}{c}, x_{3} x_{4}=P_{2}=\\frac{a}{c}\\end{array}\\right.)%.<br>Ta có:<br>\\[T=\\frac{\\frac{b}{a}+\\frac{b}{c}}{\\frac{c}{a} \\cdot \\frac{a}{2}}=b\\left(\\frac{1}{a}+\\frac{1}{c}\\right)=\\frac{b(a+c)}{a c}=\\frac{(a+4 c)(a+c)}{a c}=\\frac{a^{2}+5 a c+4 c^{2}}{a c}=\\frac{a}{c}+\\frac{4 c}{a}+5 \\geq 2 \\sqrt{\\frac{a}{c} \\cdot \\frac{4 c}{a}}+5=9 .\\]<br>Đẳng thức xảy ra khi và chỉ khi %(\\left\\{\\begin{array}{l}a=2 c \\\\ a-b+4 c=0\\end{array} \\Leftrightarrow a=b=2 c\\right.)%.<br>Vậy giá trị nhỏ nhất của %(T)% là 9 đạt được khi %(a=b=2 c)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Phân tích đa thức %(P(x, y)=4 x^{3}-3 x y^{2}+y^{3})% thành nhân tử. Từ đó chứng minh %(4 x^{3}+y^{3} \\geq 3 x y^{2})% với mọi số thực %(x, y)% thỏa mãn %(x+y \\geq 0)%.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}P(x, y)=4 x^{3}-3 x y^{2}+y^{3}=4\\left(x^{3}+x^{2} y\\right)-4\\left(x^{2} y+x y^{3}\\right)=\\left(x y^{3}+y^{3}\\right) \\\\=4 x^{2}(x+y)-4 x y(x+y)+y^{2}(x+y)=(x+y)\\left(4 x^{2}-4 x y+y^{2}\\right) \\\\=(x+y)(2 x-y)^{2}\\end{array}\\]<br>\\[\\text { Vì } x+y \\geq 0 \\Rightarrow 4 x^{3}-3 x y^{2}+y^{3} \\geq 0 \\Leftrightarrow 4 x^{3}+y^{3} \\geq 3 x y^{2} \\text {. }\\]<br>Đẳng thức xảy ra khi và chỉ khi %(x=-y)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 0.5,
+        "content": "Cho các số thực %(x_{1}, x_{2}, \\ldots, x_{21})% thỏa mãn %(x_{1}, x_{2}, \\ldots, x_{21} \\geq-2)% và %(x_{1}^{3}+x_{2}^{3}+x_{2}^{3}+\\ldots+x_{21}^{3}=12)%.Chứng minh rằng: %(x_{1}+x_{2}+\\ldots+x_{21} \\leq 18)%.",
+        "question_images": [],
+        "solution": "Với mọi %(x_{i} \\geq-2)%, ta có: %(\\left(x_{i}+2\\right)\\left(x_{i}-1\\right)^{2} \\geq 0 \\Leftrightarrow x_{i}^{3}-3 x_{i}+2 \\geq 0 \\Leftrightarrow x_{i} \\leq \\frac{x_{i}^{3}+2}{3})%.<br>Từ đây suy ra:<br>\\[x_{1}+x_{2}+\\ldots+x_{21} \\leq \\frac{\\left(x_{1}^{3}+2\\right)+\\left(x_{2}^{3}+2\\right)+\\ldots+\\left(x_{21}^{3}+2\\right)}{3}=\\frac{x_{1}^{3}+x_{2}^{3}+. .+x_{21}^{3}+21 \\cdot 2}{3}=\\frac{12+21 \\cdot 2}{3}=18 .\\]<br>Đẳng thức xảy ra khi và chỉ khi có một số -2 và 20 số còn lại bằng 1 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho tam giác %(A B C)% vuông tại %(A)%. Các đường tròn %((O))% đường kính %(A B)% và %((I))% đường kính %(A C)% cắt nhau tại điểm thứ hai %(H(H \\neq A))%. Đường thẳng %(d)% thay đổi đi qua %(A)% cắt đường tròn %((O))% tại %(M)% và cắt đường tròn %((I))% tại %(N(A)% nằm giữa %(M)% và %(N))%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Đoạn thẳng %(O I)% lần lượt cắt các đường tròn %((O),(I))% tại %(D, E)%. Chứng minh %(O I)% là đường trung trực của đoạn thẳng %(A H)% và %(A B+A C-B C=2 D E)%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\angle A H B+\\angle A H C=90^{\\circ}+90^{\\circ}=180^{\\circ} \\Rightarrow B, H, C)% thẳng hàng hay %(A H \\perp B C)%.<br>Do %(O A=O H, I A=I H)% nên %(O I)% là đường trung trực của %(A H)%.<br>Ta có: %(O I)% là đường trung bình của tam giác %(A B C \\Rightarrow O I=\\frac{B C}{2})%.<br>Do đó:<br>\\[2 D E=O D-O E+I E-I D=O D+I E-(O I-I E)-(O I-O D)=2 O D+2 O E-2 O I=A B+A C-B C .\\]<br>Vậy %(A B+A C-B C=2 D E)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/973d5a0a91039d45f906cf0f32c507ae.png\" srcset=\"https://docdn.giainhanh.io/media/test/a17d2809d002ac6828dfdc1b90e140ad.png 212w, https://docdn.giainhanh.io/media/test/f14e2aa55649bf05610157c79247cde3.png 500w, https://docdn.giainhanh.io/media/test/543ead0eb683b3b2bb8367d7b2cb01e8.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh giao điểm %(S)% của hai đường thẳng %(O M)% và %(I N)% di chuyên trên một đường tròn cố định khi đường thẳng %((d))% quay quanh %(A)%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\angle O S I=180^{\\circ}-\\angle O M A-\\angle N I A)%.<br>Mặt khác tam giác %(O M A)% cân tại %(O)% nên %(\\angle O M A=\\angle O A M)%.<br>Tương tự ta cũng có: %(\\angle I N A=\\angle N A I)%.<br>Từ đó suy ra: %(\\angle O S I=180^{\\circ}-(\\angle O A M+\\angle N A I)=180^{\\circ}-\\left(180^{\\circ}-\\angle O A I\\right)=90^{\\circ})%.<br>Suy ra %(S)% nằm trên đường tròn đường kính %(O I)%.<br>Vậy khi %((d))% quay quanh %(A)% thì %(S)% di chuyên trên đường tròn đường kính %(O I)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Giả sử đường thẳng %(M H)% cắt đường tròn %((I))% tại điểm thứ hai là %(T(T \\neq H))%. Chứng minh ba điểm %(N, I, T)% thẳng hàng và ba đường thẳng %(M S, A T, N H)% đồng quy.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}\\angle M H N=\\angle M H A+\\angle A H N=\\angle M B A+\\angle A C N=90^{\\circ}-\\angle M A O+90^{\\circ}-\\angle I A N \\\\=180^{\\circ}-\\angle M A O-\\angle I A N=\\angle O A I=90^{\\circ} .\\end{array}\\]<br>Do đó tam giác %(M N H)% vuông tại %(H)% hay %(N H \\perp M T)%.<br>Suy ra %(H)% nằm trên đường tròn đường kính %(N T)% hay %(N, T, I)% thẳng hàng.<br>Gọi %(R)% là giao điểm của %(M S)% và %(N H)% suy ra %(R)% là trực tâm tam giác %(M T N \\Rightarrow R T \\perp M N)%.<br>Mặt khác %(\\angle T A N=90^{\\circ})% do %(A)% nằm trên đường tròn đường kính %(N T \\Rightarrow T A \\perp M N)%.<br>Từ đó ta có %(A, T, R)% thẳng hàng hay ba đường thẳng %(M S, A T, N H)% đồng quy.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 0.5,
+        "content": "Hai số tự nhiên khác nhau được gọi là \"thân thiết\" nếu tổng bình phương của chúng chia hết cho 3 . Hỏi tập hợp %(X=\\{1 ; 2 ; 3 ; \\ldots ; 2021\\})% có bao nhiêu cặp số \"thân thiết\" không phân biệt thứ tự?",
+        "question_images": [],
+        "solution": "Số chính phương chia 3 dư 0 hoặc 1 , do đó %(a^{2}+b^{2})% chia 3 dư 0,1 hoặc 2 .<br>Do đó %(a^{2}+b^{2})% chia hết cho 3 khi và chỉ khi %(a)% và %(b)% cùng chia hết cho 3 .<br>Tập hợp %(X)% có %(\\left[\\frac{2021}{3}\\right]=673)% số chia hết cho 3 .<br>Do đó số cặp thân thiết trong tập hợp %(X)% là %(\\frac{673 \\times 672}{2}=226128)%.<br>Vậy có 226128 cặp thân thiết trong tập hợp %(X)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Trong kỳ thi chọn đội tuyển năng khiếu của trường %(T)% có %(n)% môn %((n \\in \\mathbb{N}, n \\geq 5))%, mọi môn thi đều có thí sinh tham gia và thỏa mãn đồng thời các điều kiện sau:<br>- Có ít nhất 5 môn có số lượng thí sinh tham gia thì đôi một khác nhau;<br>- Với 2 môn thi bất kỳ, luôn tìm được 2 môn khác có tổng số lượng thí sinh tham gia bằng với tổng số lượng thí sinh của 2 môn đó.<br>Hỏi kỳ thi có ít nhất bao nhiêu môn được tổ chức?",
+        "question_images": [],
+        "solution": "Không mất tính tổng quát, giả sử hai môn có số lượng thí sinh tham gia nhiều nhất lần lượt là %(a)% và %(b)% với %(a \\geq b, a, b \\in \\mathbb{N}^{*})%.<br>Nếu %(a\\gt b)% thì không tồn tại hai môn nào có tổng số lượng thí sinh bằng %(a+b)% do hai môn này có số lượng thí sinh đều nhỏ hơn hoặc bằng %(b)%.<br>Do đó %(a=b)%. Vì hai môn khác có tổng số thí sinh bằng %(2 a)% nên hai môn này đều có số thí sinh là %(a)%.<br>Xét một môn có số thí sinh khác %(a)% lớn nhất.<br>Gọi %(c\\left(c \\in \\mathbb{N}^{*}\\right))% là số lượng thí sinh của môn này, ta có %(c\\lt a)%.<br>Ta thấy tổng số thí sinh của môn này với một môn có %(a)% thí sinh sẽ có hai môn khác có tổng số thí sinh bằng như vậy.<br>Do đó tồn tại một môn nữa có số thí sinh là %(c)%.Như vậy có 4 môn có số thí sinh tham gia nhiều nhất là %(a)% và 2 môn có số thí sinh tham gia nhiều kế tiếp là %(c)%.<br>Tương tự cách lập luận trên ta có 4 môn có số thí sinh tham gia ít nhất là %(d)% và hai môn có số thí sinh khác %(d)% nhỏ nhất là %(e)%, với %(d, e \\in \\mathbb{N}^{*})%.<br>Nếu %(c=e)% thì chỉ có 4 môn có số thí sinh đôi một khác nhau là %((a ; c),(c ; d),(d ; e),(a ; e))%do đó phải có ít nhất 13 môn.<br>Ta xây dựng một cấu hình với 13 môn có số thí sinh thỏa mãn.<br>\\[1 ; 1 ; 1 ; 1 ; 2 ; 2 ; 3 ; 4 ; 4 ; 5 ; 5 ; 5 ; 5 \\text {. }\\]<br>Vậy có ít nhất 13 môn được tổ chức trong kỳ thi.",
+        "question_type": "essay"
+    }
+]

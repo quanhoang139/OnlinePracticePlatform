@@ -1,0 +1,79 @@
+[
+    {
+        "title": "1",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 3.5,
+        "content": "a) %((\\sin x+\\cos x)^{2}+2 \\sin ^{2} \\frac{x}{2}=\\sin x(2 \\sqrt{3} \\sin x+4-\\sqrt{3}))%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}(1) \\Leftrightarrow 1+2 \\sin x \\cos x+1-\\cos x=2 \\sqrt{3} \\sin ^{2} x+4 \\sin x-\\sqrt{3} \\sin x \\\\\\ \\Leftrightarrow(2-4 \\sin x)+(2 \\sin x \\cos x-\\cos x)=\\left(2 \\sqrt{3} \\sin ^{2} x-\\sqrt{3} \\sin x\\right) \\\\Leftrightarrow 2(1-2 \\sin x)+\\cos x(2 \\sin x-1)=\\sqrt{3} \\sin x(2 \\sin x-1) \\\\Leftrightarrow(2 \\sin x-1)(\\sqrt{3} \\sin x-\\cos x+2)=0 \\Leftrightarrow\\left[\\begin{array}{l}2 \\sin x-1=0 \\\\sqrt{3} \\sin x-\\cos x+2=0\\end{array}\\right. \\\\\\\\{3} \\sin x-\\cos x+2=0 \\Leftrightarrow \\sin \\left(x-\\frac{\\pi}{6}\\right)=-1 \\\\Leftrightarrow x-\\frac{\\pi}{6}=-\\frac{\\pi}{2}+k 2 \\pi \\Leftrightarrow x=-\\frac{\\pi}{3}+k 2 \\pi, k \\in \\mathbb{Z} . \\\\+2 \\sin x-1=0 \\Leftrightarrow \\sin x=\\frac{1}{2} \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{\\pi}{6}+k 2 \\pi \\x=\\frac{5 \\pi}{6}+k 2 \\pi\\end{array} \\quad(k \\in \\mathbb{Z}) .\\right.\\end{array}\\]<br>Vậy phương trình đã cho có nghiệm<br>\\[x=-\\frac{\\pi}{3}+k 2 \\pi, x=\\frac{\\pi}{6}+k 2 \\pi, x=\\frac{5 \\pi}{6}+k 2 \\pi(k \\in \\mathbb{Z})\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 3.5,
+        "content": "b) %(\\sqrt{x+4}+\\sqrt{3-x}+\\sqrt{12-x-x^{2}}=x-1+\\sqrt{2 x+5})%",
+        "question_images": [],
+        "solution": "ĐK: %(-\\frac{5}{2} \\leq x \\leq 3)%<br>Đặt %(t=\\sqrt{x+4}+\\sqrt{3-x} \\Rightarrow \\sqrt{12-x-x^{2}}=\\frac{t^{2}-7}{2}, \\quad(t\\gt 0))%<br>Khi đó phương trình trở thành: %(\\frac{t^{2}-7}{2}+t=x-1+\\sqrt{2 x+5})%<br>Suy ra %(\\mathrm{t}^{2}+2 \\mathrm{t}=\\mathrm{a}^{2}+2 \\mathrm{a})% với %(a=\\sqrt{2 x+5},(a \\geq 0) \\Rightarrow(t-a)(t+a+2)=0 \\Rightarrow t=a)%<br>Với %(t=a)%<br>ta có %(\\sqrt{x+4}+\\sqrt{3-x}=\\sqrt{2 x+5} \\Leftrightarrow \\sqrt{12-x-x^{2}}=x-1 \\Leftrightarrow x=\\frac{1+\\sqrt{89}}{4})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 3.5,
+        "content": "a) Có bao nhiêu số tự nhiên có 4 chữ số sao cho trong mồi số đó có một chữ số xuất hiện hai lần, các chữ số còn lại xuất hiện không quá một lần",
+        "question_images": [],
+        "solution": "TH1: Chữ số 0 xuất hiện 2 lầnCó %(C_{3}^{2})% cách chọn 2 vị trí cho chữ số 0Có %(A_{9}^{2})% cách xếp 2 chữ số trong 9 chữ số vào 2 vị trí còn lại<br>Vậy có %(C_{3}^{2} \\cdot A_{9}^{2})% số có 4 chữ số thỏa mãn trường hợp này<br>TH2: Chữ số %(\\mathrm{a})% (khác 0 ) xuất hiện 2 lần và %(\\mathrm{a})% ở vị trí đầu tiên (vị trí hàng nghìn)Có 9 cách chọn a<br>Có 3 cách chọn thêm một vị trí nữa cho %(\\mathrm{a})%<br>Có %(A_{9}^{2})% cách xếp 2 chữ số trong 9 chữ số vào 2 vị trí còn lạiVậy có %(9.3 . A_{9}^{2})% số có 4 chữ số thỏa mãn trường hợp này<br>TH3: Chữ số %(\\mathrm{a})% (khác 0 ) xuất hiện 2 lần và %(\\mathrm{a})% không xuất hiện ở vị trí hàng nghìn<br>Có 9 cách chọn aCó %(C_{3}^{2})% cách chọn 2 vị trí cho chữ số a<br>Có 8 cách chọn một chữ số (khác 0 và khác a) vào vị trí hàng nghìnCó 8 cách chọn một chữ số vào vị trí còn lại<br>Vậy có 9.8 .8 . %(\\mathrm{C}_{3}^{2})% số có 4 chữ số thỏa mãn trường hợp này<br>Vậy có %(C_{3}^{2} \\cdot A_{9}^{2}+9 \\cdot 3 \\cdot A_{9}^{2}+9 \\cdot 8 \\cdot 8 \\cdot C_{3}^{2}=3888)% số thỏa mãn đề bài",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 3.5,
+        "content": "b) Giải hệ phương trình %(\\left\\{\\begin{array}{l}x+3=2 \\sqrt{(3 y-x)(y+1)} \\\\ \\sqrt{3 y-2}-\\sqrt{\\frac{x+5}{2}}=x y-2 y-2\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "ĐK: %(y \\geq \\frac{2}{3} ; x \\geq-5 ; 3 y \\geq x)%<br>\\[P T(1) \\Leftrightarrow(x+3)^{2}=4(3 y-x)(y+1) \\Leftrightarrow(x+6 y+9)(x-2 y+1)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=-6 y-9 \\x=2 y-1\\end{array}\\right.\\]<br>TH1: %(x=-6 y-9)%<br>Từ PT (1), %(x \\geq-3 \\rightarrow-6 y-9 \\geq-3 \\Leftrightarrow y \\leq-1)%<br>Suy ra hệ %(\\mathrm{PT})% vô nghiệm<br>%(\\mathrm{TH} 2: x=2 y-1)%<br>Thay vào PT (2) ta có<br>\\[\\begin{array}{l}\\sqrt{3 y-2}-\\sqrt{y+2}=2 y^{2}-3 y-2 \\Leftrightarrow \\frac{2(y-2)}{\\sqrt{3 y-2}+\\sqrt{y+2}}=(2 y+1)(y-2) \\\\Leftrightarrow\\left[\\begin{array}{l}y=2 \\\\frac{2}{\\sqrt{3 y-2}+\\sqrt{y+2}}=2 y+1\\end{array}\\right. \\\\end{array}\\]<br>PT %(\\frac{2}{\\sqrt{3 y-2}+\\sqrt{y+2}}=2 y+1)% vô nghiệm vì %(\\frac{2}{\\sqrt{3 y-2}+\\sqrt{y+2}} \\leq \\sqrt{\\frac{3}{2}} ; 2 y+1 \\geq \\frac{7}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Trong mặt phẳng với hệ trục tọa độ %(O x y)%, cho tam giác %(A B C)% vuông tại %(C)%, có phân giác trong %(A D)% với %(D\\left(\\frac{7}{2} ;-\\frac{7}{2}\\right))% thuộc %(B C)%. Gọi %(E)% và %(F)% lần lượt thuộc các cạnh %(A B)% và %(A C)% sao cho %(A E=A F)% Đường thẳng %(E F)% cắt %(B C)% tại %(K)%. Biết %(E\\left(\\frac{3}{2} ;-\\frac{5}{2}\\right), F)% có hoành độ nhỏ hơn 3 và phương trình đường thẳng %(A K)% là %(x-2 y-3=0)%. Viết phương trình các canh của tam giác %(A B C)%",
+        "question_images": [],
+        "solution": "Gọi %(I)% là giao điểm của %(A D)% và %(E F)%, suy ra %(I)% là trung điểm của %(E F)%<br>Chứng minh %(D F \\perp A K)%<br>Phương trình của %(D F)% là: %(4 x+2 y-7=0)%<br>Gọi %(F\\left(t ; \\frac{7}{2}-2 t\\right) \\Rightarrow I\\left(\\frac{2 t+3}{4} ; \\frac{1-2 t}{2}\\right) \\Rightarrow \\overrightarrow{I E}=\\left(\\frac{3-2 t}{4} ;-3+\\mathrm{t}\\right), \\overrightarrow{I D}=\\left(\\frac{11-2 t}{4} ;-4+t\\right))%<br>Do %(\\overrightarrow{I E} \\cdot \\overrightarrow{I D}=0 \\Rightarrow(3-2 t)(11-2 t)+16(t-3)(t-4)=0)%<br>\\[20 t^{2}-140 t+225=0 \\Leftrightarrow\\left[\\begin{array}{l}t=\\frac{9}{2} \\t=\\frac{5}{2}\\end{array}\\right.\\]<br>Vì %(F)% có hoành độ nhỏ hơn 3 nên %(F\\left(\\frac{5}{2} ;-\\frac{3}{2}\\right) \\Rightarrow I(2 ;-2))%<br>Do đó đường thẳng %(A D)% có phương trình %(x+y=0 \\Rightarrow A(1 ;-1))%<br>Vậy phương trình đường thẳng chứa các cạnh của tam giác %(A B C)% là:<br>\\[A C: x+3 y+2=0 ; A B: 3 x+y-2=0 ; B C: 3 x-y-14=0\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/82575230d66dd08faf25719920aa9bb4.png\" srcset=\"https://docdn.giainhanh.io/media/test/db28d7544ba52a3d5c4836b8d1da5acb.png 245w, https://docdn.giainhanh.io/media/test/6b66ce3b0ee116ae57e2bf77e6fcd939.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Trong mặt phắng với hệ trục tọa độ %(O x y)%, cho tam giác %(A B C)% vuông tại %(C)%, có phân giác trong %(A D)% với %(D\\left(\\frac{7}{2} ;-\\frac{7}{2}\\right))% thuộc %(B C)%. Gọi %(E)% và %(F)% lần lượt thuộc các cạnh %(A B)% và %(A C)% sao cho %(A E=A F)% Đường thẳng %(E F)% cắt %(B C)% tại %(K)%. Biết %(E\\left(\\frac{3}{2} ;-\\frac{5}{2}\\right), F)% có hoành độ nhỏ hơn 3 và phương trình đường thẳng %(A K)% là %(x-2 y-3=0)%. Viết phương trình các cạnh của tam giác %(A B C)%",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{K})% trung điểm %(\\mathrm{DC})%, %(\\mathrm{I})% là tâm đường tròn %((\\mathrm{T}))%, khi đó %(\\mathrm{IK})% vuông góc %(\\mathrm{CD})%.<br>Mà %(\\mathrm{IA})% vuông góc %(\\mathrm{MA})% suy ra đường tròn đường kính %(\\mathrm{MI})% đi qua %(\\mathrm{I}, \\mathrm{K}, \\mathrm{A}, \\mathrm{B})%. (Kí hiệu là đường tròn %(\\left(\\mathrm{T}^{\\prime}\\right))% ).<br>Đường tròn %((\\mathrm{T}))% tâm %(\\mathrm{I}(1 ;-4), \\mathrm{R}^{2}=5)%<br><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d16cac499a043ffd3a5f6e33fa468d62.png\" srcset=\"https://docdn.giainhanh.io/media/test/979cb6a31779b381debd12d65d8ce6ac.png 245w, https://docdn.giainhanh.io/media/test/fd3e048c8b28efda4da5287657624ff2.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Cho %(x, y, z)% là các số thực dương thỏa mãn %(x+y+z=3)%. Chứng minh rằng:<br>\\[\\frac{x(y+z)}{4-y z}+\\frac{y(z+x)}{4-z x}+\\frac{z(x+y)}{4-x y} \\geq 2 x y z \\text { (1) }\\]",
+        "question_images": [],
+        "solution": "Ta có %((\\sqrt{y z}+\\sqrt{z x}+\\sqrt{x y})^{2} \\leq(x+y+z)^{2}=9 \\Rightarrow \\sqrt{y z}+\\sqrt{z x}+\\sqrt{x y} \\leq 3)%(1) %(\\Leftrightarrow \\frac{(y+z)}{y z(4-y z)}+\\frac{(z+x)}{z x(4-z x)}+\\frac{(x+y)}{x y(4-x y)} \\geq 2)%<br>Tacó<br>\\[\\frac{(y+z)}{y z(4-y z)} \\geq \\frac{2 \\sqrt{y z}}{y z(2-\\sqrt{y z})(2+\\sqrt{y z})}=\\frac{2}{[\\sqrt{y z}(2-\\sqrt{y z})](2+\\sqrt{y z})} \\geq \\frac{2}{2+\\sqrt{y z}}\\]<br>Do đó<br>\\[\\begin{array}{l}\\frac{(y+z)}{y z(4-y z)}+\\frac{(z+x)}{z x(4-z x)}+\\frac{(x+y)}{x y(4-x y)} \\geq 2\\left[\\frac{1}{2+\\sqrt{y z}}+\\frac{1}{2+\\sqrt{z x}}+\\frac{1}{2+\\sqrt{x y}}\\right] \\geq \\\\geq \\frac{18}{6+(\\sqrt{y z}+\\sqrt{z x}+\\sqrt{x y})} \\geq \\frac{18}{6+3}=2\\end{array}\\]<br>Vậy (2) đúng.<br>Suy ra đpcm.",
+        "question_type": "essay"
+    }
+]

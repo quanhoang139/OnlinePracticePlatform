@@ -1,0 +1,87 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1. ",
+        "point": 3.0,
+        "content": "Giải phương trình: %(\\sqrt{x-\\sqrt{x^{2}-1}}+\\sqrt{x+\\sqrt{x^{2}-1}}=2)%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(\\left\\{\\begin{array}{l}x^{2}-1 \\geq 0 \\\\ x+\\sqrt{x^{2}-1} \\geq 0 \\\\ x-\\sqrt{x^{2}-1} \\geq 0\\end{array}\\right.)%Ta có %(x+\\sqrt{x^{2}-1}=0 \\Leftrightarrow\\left\\{\\begin{array}{l}x \\leq 0 \\\\ x^{2}=x^{2}-1\\end{array}\\right.)% vô nghiệm.<br>Do đó có thể biết đổi phương trình như sau:<br>\\[\\sqrt{x-\\sqrt{x^{2}-1}}+\\sqrt{x+\\sqrt{x^{2}-1}}=2 \\Leftrightarrow \\frac{1}{\\sqrt{x+\\sqrt{x^{2}-1}}}+\\sqrt{x+\\sqrt{x^{2}-1}}=2 \\quad(*) .\\]<br>Cách 1:<br>\\[\\begin{aligned}(*) & \\Leftrightarrow\\left(\\sqrt{x+\\sqrt{x^{2}-1}}\\right)^{2}-2 \\sqrt{x+\\sqrt{x^{2}-1}}+1=0 \\Leftrightarrow\\left(\\sqrt{x+\\sqrt{x^{2}-1}}-1\\right)^{2}=0 \\\\& \\Leftrightarrow \\sqrt{x+\\sqrt{x^{2}-1}}-1=0 \\Leftrightarrow x+\\sqrt{x^{2}-1}=1 \\Leftrightarrow\\left\\{\\begin{array}{l}x \\leq 1 \\x^{2}-1=x^{2}-2 x+1\\end{array} \\Leftrightarrow x=1 \\text { (thỏa } Đ K\\right. \\text { ). }\\end{aligned}\\]<br>%(x=1)%<br>Cách 2:<br>Áp dụng bất đẳng thức Côsi, ta có: %(\\mathrm{VT}_{(*)} \\geq 2=\\mathrm{VP}_{(*)})%.<br>Đẳng thức xảy ra khi và chỉ khi:<br>\\[\\frac{1}{\\sqrt{x+\\sqrt{x^{2}-1}}}=\\sqrt{x+\\sqrt{x^{2}-1}} \\Leftrightarrow x+\\sqrt{x^{2}-1}=1 \\Leftrightarrow\\left\\{\\begin{array}{l}x \\leq 1 \\x^{2}-1=x^{2}-2 x+1\\end{array} \\Leftrightarrow x=1\\right. \\text { (thỏa ĐK). }\\]<br>%(x=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2. ",
+        "point": 2.0,
+        "content": "Cho các số thực %(a, b, c)% thỏa mãn %(\\frac{2 b-c}{a} \\geq 4)%.Chứng minh rằng phương trình: %(a x^{2}+b x+c=0)% luôn có nghiệm.",
+        "question_images": [],
+        "solution": "Ta có %(\\Delta=b^{2}-4 a c \\geq b^{2}-\\frac{2 b-c}{a} \\cdot a c=b^{2}-2 b c+c^{2}=(b-c)^{2} \\geq 0)% với mọi %(b, c)%.<br>Vậy phương trình đã cho luôn có nghiệm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2:",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1. ",
+        "point": 3.0,
+        "content": "Tìm nghiệm nguyên của phương trình: %(\\left(x^{2}+y\\right)\\left(x+y^{2}\\right)=(x-y)^{3})%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\left(x^{2}+y\\right)\\left(x+y^{2}\\right)=(x-y)^{3} \\Leftrightarrow 3 x^{2} y+x^{2} y^{2}+x y-3 x y^{2}+2 y^{3}=0)%.<br>\\[\\Leftrightarrow y\\left[2 y^{2}+\\left(x^{2}-3 x\\right) y+3 x^{2}+x\\right]=0 \\Leftrightarrow\\left[\\begin{array}{l}y=0 \\\\2 y^{2}+\\left(x^{2}-3 x\\right) y+3 x^{2}+x=0\\end{array}\\right. \\text {. }\\]<br>- Với %(y=0)%, ta được: %(x^{3}=x^{3})% luôn đúng với mọi %(x \\in \\mathbb{Z})%.<br>Do đó trong trường hợp này phương trình có vô số nghiệm nguyên %((x ; y))% là %((k ; 0))% với %(k \\in \\mathbb{Z})%.- Với %(2 y^{2}+\\left(x^{2}-3 x\\right) y+3 x^{2}+x=0)%, ta có: %(\\Delta_{y}=x^{4}-6 x^{3}+9 x^{2}-24 x^{2}-8 x=x(x+1)^{2}(x-8))%.<br>%(x=-1)%<br>%(y=\\frac{3 x-x^{2}}{4}=\\frac{-4}{4}=-1)%<br>%(x \\neq-1)%<br>%(\\Delta)%<br>\\[\\begin{aligned}& x(x-8)=a^{2} \\text { với } a \\in \\mathbb{Z} \\\\Leftrightarrow & (x-4+a)(x-4-a)=16 .\\end{aligned}\\]<br>Lập bảng, tìm được %((x ; a)=(9 ;-3),(8 ; 0),(9 ; 3),(-1 ; 3),(0 ; 0),(-1 ; 3))%.Do đó %(x \\in\\{-1 ; 0 ; 8 ; 9\\})%.<br>- Với %(x=0)% thì %(y=0)%.<br>- Với %(x=-1)% thì %(y=-1)%.<br>- Với %(x=8)% thì %(y=-10)%.<br>- Với %(x=9)% thì %(\\left[\\begin{array}{l}y=-6 \\\\ y=-21\\end{array}\\right.)%.<br>Do đó trong trường hợp này nghiệm của phưởg trình là:<br>\\[(x ; y)=(0 ; 0),(-1 ;-1),(8 ;-10),(9 ;-6),(9 ;-21) .\\]<br>Vậy nghiệm nguyên của phương trình là:<br>\\[(x ; y)=(x ; y)=(-1 ;-1),(8 ;-10),(9 ;-6),(9 ;-21),(k ; 0)(\\text { với } k \\in \\mathbb{Z}) \\text {. }\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2. ",
+        "point": 3.0,
+        "content": "Cho 69 số nguyên dương phân biệt không vượt quá 100 . Chứng minh rằng có thể chọn ra từ 69 số đó 4 số sao cho trong chúng có 1 số bằng tổng của 3 số còn lại.",
+        "question_images": [],
+        "solution": "Giả sử bộ 69 số là: %(1 \\leq a_{1}\\lt a_{2}\\lt a_{3}\\lt \\ldots\\lt a_{69} \\leq 100)%. Suy ra %(a_{1} \\leq 32 ; a_{3} \\geq 3)% và %(a_{2} \\geq 2)%.<br>Khi đó suy ra:<br>%(\\bullet 4 \\leq a_{1}+a_{3}\\lt a_{1}+a_{4}\\lt \\ldots\\lt a_{1}+a_{69} \\leq 132)% (1); dãy này có 67 số hạng.<br>%(\\bullet 1 \\leq a_{3}-a_{2}\\lt a_{4}-a_{2}\\lt \\ldots\\lt a_{69}-a_{2} \\leq 98)% (2); dãy này có 67 số hạng.<br>Do đó dãy (1) và dãy (2) có 134 số hạng nhận các giá trị từ 1 đến 132 (có 132 giá trị).<br>Theo nguyên tắc Đirichlet suy ra có ít nhất 2 số hạng bằng giá trị nhau.<br>Giả sử %(a_{1}+a_{m}=a_{n}-a_{2})% (với %(3 \\leq m, n \\leq 69)% và %(m, n \\in \\mathbb{N}^{*})% ), suy ra %(a_{1}+a_{2}+a_{m}=a_{n})%.<br>=>Vậy từ 69 số nguyên dương phân biệt không vượt quá 100 luôn chọn được 4 số sao cho trong chúng có 1 số bằng tổng của 3 số còn lại.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3:",
+        "group_content": "Cho nửa đường tròn tâm %(O)% đường kính %(A B)%, trên nửa đường tròn %((O))% lấy điểm %(C)% sao cho cung %(B C)% nhỏ hơn cung %(A C)%, qua %(C)% dựng tiếp tuyến với đường tròn %((O))% cắt %(A B)% tại %(D)%. Kẻ %(C H)% vuông góc với %(A B(H \\in A B))%, kẻ %(B K)% vuông góc với %(C D(K \\in C D) ; C H)% cắt %(B K)% tại %(E)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Chứng minh %(B K+B D\\lt E C)%.",
+        "question_images": [],
+        "solution": "%(\\cdot)% Tam giác %(C D E)% có %(B H \\perp C E ; E K \\perp C D)% nên %(B)% là trực tâm của %(\\triangle C D E \\Rightarrow B C \\perp E D)% (1).<br>- Ta có:%(\\widehat{H A C}=\\widehat{H C B})% (cùng phụ %(\\widehat{A B C})% ).%(\\widehat{H A C}=\\widehat{B C D})% (góc tạo bởi tiếp tuyến và dây cung - góc nội tiếp chắn cùng cung %(\\overparen{B C})% )<br>.Do đó: %(\\widehat{B C D}=\\widehat{H C B})%.<br>Suy ra %(B C)% là tia phân giác của %(\\triangle C D E)% (2).<br>Từ (1) và (2) suy ra: %(\\triangle C D E)% cân tại %(C \\longrightarrow B C)% là đường trung trực của %(E D \\Rightarrow B E=B D)%.<br>Khi đó: %(B K+B D=B K+B E=E K\\lt E C)% (vì %(\\triangle E K C)% vuông tại %(K)% ).<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/dcc027a44b6d3bf4837a64952970ad6b.png\" srcset=\"https://docdn.giainhanh.io/media/test/de8e66134eb1a4e692e4fd7650e1f60c.png 244w, https://docdn.giainhanh.io/media/test/6e8249de20132f192c86bd2b0f70fe3f.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Chứng minh %(B H \\cdot A D=A H \\cdot B D)%.",
+        "question_images": [],
+        "solution": "Gọi %(I)% là giao điểm của %(B C)% và %(E D)%.<br>- Ta có: %(\\quad B H \\cdot A D=B H \\cdot(A B+B D)=B H \\cdot A B+B H \\cdot B D)%.<br>- %(B H . A B=B C^{2})% (do %(\\triangle A B C)% vuông tại %(C)% và %(C H)% là đường cao).<br>- %(B H \\cdot B D=B I \\cdot B C)% (do %(\\triangle B H C \\sim \\triangle B I D)% ).<br>Suy ra: %(\\quad B H \\cdot A D=B H \\cdot A B+B H \\cdot B D=B C^{2}+B I \\cdot B C=B C \\cdot(B C+C I)=C B \\cdot C I)% (3).<br>- Ta có: %(\\quad A H . B D=A C . I D)% (do %(\\triangle A H C \\sim \\triangle B I D)(4))%.%(A C . I D=C B . C I)% (do %(\\triangle A B C \\sim \\triangle C D I)% ) %((5))%.<br>Từ %((3),(4))% và %((5))% suy ra: %(B H \\cdot A D=A H \\cdot B D)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/47bb33863b3cf067692d4e6137226168.png\" srcset=\"https://docdn.giainhanh.io/media/test/faaf7178dabe002f704f75fb90b8502f.png 244w, https://docdn.giainhanh.io/media/test/10380f5803b3bbc40c59e262d558ab1a.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4:  ",
+        "point": 3.0,
+        "content": "Cho tam giác %(A B C)% vuông cân tại %(A)% và %(M)% là điểm di động trên %(B C)% ( %(M)% khác %(B, C))%. Hình chiếu của %(M)% lên %(A B, A C)% lần lượt là %(H)% và %(K)%. Gọi %(I)% là giao điểm của %(B K)% và %(C H)%. Chứng minh rằng đường thẳng %(I M)% luôn đi qua một điểm cố định.",
+        "question_images": [],
+        "solution": "- Dựng hình vuông %(A B C D)%. Gọi %(E)% là giao điểm của %(H M)% và %(C D ; F)% là giao điểm của %(D M)% và %(A C)%.- Vì %(\\triangle B H M)% vuông cân tại %(H ; \\triangle M K C)% vuông cân tại %(K)% và tứ giác %(A H M K)% là hình chữ nhật nên:<br>\\[B H=H M=A K \\text { và } C K=M K=A H \\text {. }\\]<br>Chứng minh được: %(\\triangle B D H=\\triangle A B K(\\mathrm{c}-\\mathrm{g}-\\mathrm{c}))%, suy ra %(\\widehat{B H D}=\\widehat{A K B})%.<br>Lại có %(\\widehat{A K B}+\\widehat{A B K}=90^{\\circ})%, nên %(\\widehat{B H D}+\\widehat{A B K}=90^{\\circ} \\longrightarrow B K \\perp H D)% (1).<br>- Tương tự, chứng minh được: %(C H \\perp D K  )% (2).<br>Từ (1) và (2) suy ra: %(I)% là trực tâm của %(\\triangle D H K \\longrightarrow D I \\perp H K(*))%.<br>- Ta có: %(M E / / A C)% nên %(\\widehat{D M E}=\\widehat{D F C})% (so le trong) (3).<br>Vì %(A H M K)% là hình chữ nhật, %(C E M K)% là hình vuông nên %(H A=M K=M E=C K=C E)%.<br>Lại có: %(C D=C A)% nên %(C A-C K=C D-C E \\Leftrightarrow A K=D E)%.<br>Khi đó: %(\\triangle A H K=\\triangle E M D(\\mathrm{c}-\\mathrm{g}-\\mathrm{c}) \\longrightarrow \\widehat{A H K}=\\widehat{D M E})% (4).<br>Từ (3) và (4), suy ra: %(\\widehat{A H K}=\\widehat{D F C})% mà %(\\widehat{A H K}+\\widehat{A K H}=90^{\\circ})% nên %(\\widehat{D K C}+\\widehat{A K H}=90^{\\circ})%.<br>Do đó %(D M \\perp H K(* *))%.Từ %((*))% và %((* *))%, suy ra: %(D, I, M)% thẳng hàng; mà %(D)% là điểm cố định. Do đó đường thẳng %(I M)% luôn đi qua một điểm cố định.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/8547f89f2c05f20c70e74f02bcba2aa0.png\" srcset=\"https://docdn.giainhanh.io/media/test/2fb7681661eca7520f4499f6a7b95f41.png 156w\" width=\"156\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5:  ",
+        "point": 2.0,
+        "content": "Tìm tất cả các giá trị của %(x)% dể:<br>\\[\\sqrt[4]{(x-2)(4-x)}+\\sqrt[4]{x-2}+\\sqrt[4]{4-x}+6 x \\sqrt{3 x}-x^{3} \\leq 30 .\\]",
+        "question_images": [],
+        "solution": "Điều kiện: %(2 \\leq x \\leq 4)%.<br>Áp dụng bất đẳng thức Côsi, ta có:<br>%(\\sqrt[4]{(x-2)(4-x)}=\\sqrt{\\sqrt{x-2} \\cdot \\sqrt{4-x}} \\leq \\sqrt{\\frac{x-2+4-x}{2}}=1)%.<br>%(\\sqrt[4]{x-2} \\leq \\frac{\\sqrt{x-2}+1}{2} \\leq \\frac{\\frac{x-2+1}{2}+1}{2}=\\frac{x+1}{4})%.<br>%(\\sqrt[4]{4-x} \\leq \\frac{\\sqrt{4-x}+1}{2} \\leq \\frac{\\frac{4-x+1}{2}+1}{2}=\\frac{7-x}{4})%.<br>%(6 x \\sqrt{3 x}=2 \\cdot \\sqrt{27} \\cdot \\sqrt{x^{3}} \\leq 27+x^{3})% suy ra %(6 x \\sqrt{3 x}-x^{3} \\leq 27)%.<br>Cộng vế theo vế ta được:<br>\\[\\sqrt[4]{(x-2)(4-x)}+\\sqrt[4]{x-2}+\\sqrt[4]{4-x}+6 x \\sqrt{3 x}-x^{3} \\leq 1+\\frac{x+1}{4}+\\frac{7-x}{4}+27=30\\]<br>Do đó bất phương trình đã cho luôn đúng với %(2 \\leq x \\leq 4)%.<br>=> Vậy nghiệm của bất phương trình là: %(2 \\leq x \\leq 4)%.",
+        "question_type": "essay"
+    }
+]

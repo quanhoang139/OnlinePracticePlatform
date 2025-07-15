@@ -1,0 +1,125 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a. ",
+        "point": 1.0,
+        "content": "Cho %(x, y, z)% là ba số thực khác 0 thỏa mãn: %(x+\\frac{y}{2}+\\frac{z}{3}=1)% và %(\\frac{1}{x}+\\frac{2}{y}+\\frac{3}{z}=0)%. Chứng minh rằng: %(x^{2}+\\frac{y^{2}}{4}+\\frac{z^{2}}{9}=1)%",
+        "question_images": [],
+        "solution": "Bằng cách quy đồng mẫu số ta được:<br>\\[\\frac{1}{x}+\\frac{2}{y}+\\frac{3}{z} \\Rightarrow y z+2 z x+3 x y=0\\]<br>Lại có:<br>\\[\\begin{aligned}\\left(x+\\frac{y}{2}+\\frac{z}{3}\\right)^{2} & =x^{2}+\\frac{y^{2}}{4}+\\frac{z^{2}}{9}+2\\left(\\frac{x y}{2}+\\frac{y z}{6}+\\frac{z x}{3}\\right) \\\\& =x^{2}+\\frac{y^{2}}{4}+\\frac{z^{2}}{9}+\\frac{3 x y+y z+2 x z}{3}=1\\end{aligned}\\]<br>Kết hợp (1) và (2) ta được: %(x^{2}+\\frac{y^{2}}{4}+\\frac{z^{2}}{9}=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b. ",
+        "point": 1.0,
+        "content": "Cho %(f(n)=\\frac{2}{\\sqrt{2 n+1}+\\sqrt{2 n-1}})% với %(n)% là số nguyên dương. Tính giá trị của biểu thức:<br>\\[S=f(1)+f(2)+f(3)+\\cdots+f(40)\\]",
+        "question_images": [],
+        "solution": "Biến đổi:<br>\\[\\begin{aligned}f(n) & =\\frac{2}{\\sqrt{2 n+1}+\\sqrt{2 n-1}} \\\\& =\\frac{2(\\sqrt{2 n+1}-\\sqrt{2 n-1})}{(2 n+1)-(2 n-1)}(\\text { do } \\sqrt{2 n+1}-\\sqrt{2 n-1} \\neq 0 \\\\& =\\sqrt{2 n+1}-\\sqrt{2 n-1}\\end{aligned}\\]<br>Như vậy:<br>\\[\\begin{aligned}S & =f(1)+f(2)+f(3)+\\cdots+f(40) \\\\& =(\\sqrt{3}-\\sqrt{1})+(\\sqrt{5}-\\sqrt{3})+(\\sqrt{7}-\\sqrt{3})+\\cdots+(\\sqrt{81}-\\sqrt{79}) \\\\& =\\sqrt{81}-\\sqrt{1}=9-1=8\\end{aligned}\\]<br>Vậy giá trị %(S=8)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2:",
+        "group_content": "",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a. ",
+        "point": 1.0,
+        "content": "Giải phương trình %(2(\\sqrt{x-1}+1)=x+\\sqrt{x+2})%",
+        "question_images": [],
+        "solution": "Biến đổi:<br>\\[\\begin{aligned}& 2(\\sqrt{x-1}+1)=x+\\sqrt{x+2} \\\\Leftrightarrow & (2 \\sqrt{x+1}-\\sqrt{x+2})-(x-2)=0 \\\\Leftrightarrow & \\frac{3 x-6}{2 \\sqrt{x-1}+\\sqrt{x+2}}-(x-2)=0 \\\\Leftrightarrow & (x-2)\\left[\\frac{3}{2 \\sqrt{x-1}+\\sqrt{x+2}}-1\\right]=0 \\\\Leftrightarrow & {\\left[\\begin{array}{l}x=2 \\\\2 \\sqrt{x-1}+\\sqrt{x+2}=3\\end{array}\\right.}\\end{aligned}\\]<br>Từ %((*))% suy ra %((2 \\sqrt{x-1}+\\sqrt{x+2})^{2}=9 \\Leftrightarrow 5 x-2+4 \\sqrt{x^{2}+x-2}=9)%<br>\\[\\Leftrightarrow 4 \\sqrt{x^{2}+x-2}=11 \\Rightarrow 16\\left(x^{2}+x-2\\right)=(11-5 x)^{2} \\quad(* *)\\]<br>Giải (**) cho hai nghiệm %(x=7-4 \\sqrt{2})% và %(x=7+4 \\sqrt{2})%.<br>Thay các nghiệm này vào %(\\left({ }^{*}\\right))% thì %(x=7+4 \\sqrt{2})% không thỏa mãn.<br>Vậy phương trình đã cho có hai nghiệm: %(x=2 ; x=7-4 \\sqrt{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b. ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{c}x^{2}+y^{2}=x y+x-y+2 \\\\ x^{3}+y^{3}=y(x+y+4)+x\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Hệ phương trình %(\\Leftrightarrow\\left\\{\\begin{array}{l}x^{2}-x y+y^{2}=x-y+2 \\\\ (x+y)\\left(x^{2}-x y+y^{2}=x y+y^{2}+4 y+x\\right.\\end{array}\\right.)%<br>Thế (1) và (2) ta được: %((x+y)(x-y+2)=x y+y^{2}+4 y+x)%<br>\\[\\Leftrightarrow x^{2}-x y-2 y^{2}+x-2 y=0 \\Leftrightarrow(x-2 y)(x+y+1)=0 \\Leftrightarrow\\left[\\begin{array}{c}x=2 y \\x=-y-1\\end{array}\\right.\\]<br>Với %(x=2 y)%, thay vào (1) ta có:<br>\\[4 y^{2}-2 y^{2}+y^{2}=y+2 \\Leftrightarrow 3 y^{2}-y-2=0 \\Leftrightarrow\\left[\\begin{array}{c}y=1 \\y=-\\frac{2}{3}\\end{array}\\right.\\]<br>Khi đó %((x ; y)=(2 ; 1))% và %((x ; y)=\\left(-\\frac{4}{3} ;-\\frac{2}{3}\\right.)%Với %(x=-y-1)%, thế vào (1) ta được:<br>\\[(y+1)^{2}+(y+1) y+y^{2}=-y-1-y+2 \\Leftrightarrow 3 y^{2}+5 y=0 \\Leftrightarrow\\left[\\begin{array}{c}y=0 \\y=-\\frac{5}{3}\\end{array}\\right.\\]<br>Khi đó %((x ; y)=(-1 ; 0))% và %(x ; y)=\\left(\\frac{2}{3} ; \\frac{5}{3}\\right))%.<br>Vậy hệ đã cho có 4 nghiệm %((x ; y)=\\in\\left\\{(2 ; 1),\\left(-\\frac{4}{3} ;-\\frac{2}{3}\\right),(-1 ; 0),\\left(\\frac{2}{3} ; \\frac{5}{3}\\right)\\right\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3:",
+        "group_content": "Cho tam giác ABC nhọn (AB < AC) nội tiếp đường tròn (O), các đường cao AD, BE, CF đồng quy tại H. Gọi M là trung điểm cạnh BC, N là trung điểm đoạn AH, đường thẳng EF cắt đường tròn (O) tại P, Q và cắt đường thẳng BC tại S sao cho P nằm giữa S và F. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a. ",
+        "point": 1.0,
+        "content": "Tứ giác AOMN là hình bình hành.",
+        "question_images": [],
+        "solution": "Kẻ đường kính %(A K)% ( %(K)% nằm trên đường tròn %((O))% ).<br>Khi đó %(A C \\perp C K ; B K \\perp A B)%.<br>Dễ dàng suy ra %(B K / / C H)% và %(C K / / B H)% (cùng vuông góc với một đường thẳng).<br>Từ đó suy ra %(B H C K)% là hình bình hành.<br>Vì %(M)% là trung điểm %(B C)% nên %(M \\in H K)% và %(M H=M K)%.<br>Tam giác %(A H K)% có %(M)% và %(N)% lần lượt là trung điểm của %(H K)% và %(A H)% nên %(M N)% là đường trung bình của %(\\triangle A H K)%.<br>Suy ra %(M N / / A O)% và %(M N=\\frac{1}{2} A K=A O)%.<br>Vậy %(A O M N)% là hình bình hành.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/be7a0310cb09eb7e670ca5b58d7c9aea.png\" srcset=\"https://docdn.giainhanh.io/media/test/54e3cd951f6dbdc3d0dda4ed7b52af1e.png 234w, https://docdn.giainhanh.io/media/test/a7b6c31e7490551bad49aad478e8c6f0.png 500w, https://docdn.giainhanh.io/media/test/3c5dfdd8781c7edc1ac61093c79bd2a9.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b. ",
+        "point": 1.0,
+        "content": "%(A P^{2}=A Q^{2}=A E \\cdot A C)%.",
+        "question_images": [],
+        "solution": "Tam giác %(\\mathrm{AFH})% vuông tại %(\\mathrm{F})% suy ra %(F N=N H)%.<br>Tương tự, %(\\triangle A E H)% vuông tại %(\\mathrm{E})% nên %(N E=N H)%.<br>Như vậy %(N F=N E)% (1).<br>Lại có %(\\triangle B F C)% và %(\\triangle B E C)% lần lượt vuông tại %(\\mathrm{F})% và %(E)%, có các đường trung tuyến lần lượt là %(M F)% và %(M E)%.<br>Do đó %(M F=M E=\\frac{1}{2} B C)%<br>Từ (1) và (2) suy ra %(M N)% là trung trực của %(E F)%.<br>Suy ra %(E F \\perp M N)% (3).<br>Lại có %(M N / / A O)%, kết hợp với (3) suy ra %(A O \\perp E F)% hay %(A O \\perp P Q)%.<br>Suy ra %(A)% là điểm chính giữa cung %(P A Q)%, suy ra %(A P=A Q)% hay cung %(A Q)% bằng cung %(A P)%.<br>Mặt khác, %(\\widehat{A Q P}=\\widehat{A P Q}=\\widehat{A C Q})% (các góc nội tiếp chắn các cung bằng nhau).<br>Nên %(\\triangle A Q C \\backsim \\triangle)% %(A E Q)%.<br>Suy ra %(\\frac{A E}{A Q}=\\frac{A Q}{A C} \\Rightarrow A E \\cdot A C=A Q^{2})%<br>Vậy %(A P^{2}=A Q^{2}=A E \\cdot A C)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c. ",
+        "point": 1.0,
+        "content": "Tứ giác %(D M E F)% nội tiếp và %(\\frac{F P}{P S}=\\frac{Q E}{E S})%",
+        "question_images": [],
+        "solution": "Tứ giác %(B F E C)% nội tiếp suy ra %(\\widehat{A E F}=\\widehat{A B C})%.<br>Tam giác %(E M C)% cân tại %(\\mathrm{M})% nên %(\\widehat{M E C}=\\widehat{A C B})%.<br>Suy ra %(\\widehat{F E M}=180^{\\circ}-\\widehat{A E F}-\\widehat{M E C}=180^{\\circ}-\\widehat{A B C}-\\widehat{A C B}=\\widehat{B A C})%.<br>Tứ giác %(D F A C)% nội tiếp nên %(\\widehat{F D M}+\\widehat{B A C}=180^{\\circ})%.<br>Suy ra %(\\widehat{F E M}=\\widehat{F D M}=180^{\\circ})%<br>Vậy tứ giác %(D M E F)% là tứ giác nội tiếp.<br>Hai tam giác %(S D F)% và %(S E M)% có:%(\\widehat{S D F}=\\widehat{S E M})%; chung %(\\widehat{D S F})% nên chúng dồng dạng<br>Suy ra %(\\frac{S D}{S F}=\\frac{S E}{S M})% hay %(S D \\cdot S M=S E \\cdot S F)%.<br>Từ tứ giác %(B F E C)% nội tiếp, ta cũng suy %(\\mathrm{ra} S E \\cdot S F=S B \\cdot S C)%, tứ giác %(B C Q P)% nội tiếp ta cũng có %(S B \\cdot S Q=S P \\cdot S Q)%.<br>Suy ra %(S P \\cdot S Q=S E \\cdot S F \\Rightarrow \\frac{S F}{S P}=\\frac{S Q}{S E})%<br>Vậy %(\\frac{S F}{S P}-1=\\frac{S Q}{S E}-1)% hay %(\\frac{S F-S P}{S P}=\\frac{S Q-S E}{S E} \\Rightarrow \\frac{P F}{P S}=\\frac{E Q}{S E})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4:",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a. ",
+        "point": 1.0,
+        "content": "Cho hai số nguyên dương %(a, b)% thỏa mãn %(a^{3} \\vdots b ; b^{3} \\vdots a)%. Chứng minh %(\\left(a^{4}+b^{4}\\right) \\vdots a b)%",
+        "question_images": [],
+        "solution": "Vì %(a^{3} \\vdots b)% nên %(a^{3} . a \\vdots b . a)% hây %(a^{4} \\vdots a b)%. Tương tự, vì %(b^{3} \\vdots a)% nên %(b^{3} . b \\vdots a . b)% hay %(b^{4} \\vdots a b)%.<br>Từ đấy suy ra %(\\left(a^{4}+b^{4}\\right) \\vdots a b)%. %(\\quad)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b. ",
+        "point": 1.0,
+        "content": "Tìm tất cả các cặp số nguyên %((x ; y))% thỏa mãn %(x\\left(x^{2}-y\\right)+(y-3)\\left(x^{2}+1\\right)=0)%",
+        "question_images": [],
+        "solution": "Từ đề bài %(x\\left(x^{2}-y\\right)+(y-3)\\left(x^{2}+1\\right)=0)% ta rút ra %(y=\\frac{-x^{3}+3 x^{2}+3}{x^{2}-x+1}=-x+2+\\frac{3 x+1}{x^{2}-x+1})% (Vì %(x^{2}-x+1\\gt 0)% với mọi %(x)% )<br>Khi %(x)% nguyên, để %(y)% là nguyên thì %((3 x+1):\\left(x^{2}-x+1\\right))% do đó;<br>\\[\\begin{array}{l}(3 x+1)^{2}=\\left(9 x^{2}+6 x+1\\right)=9\\left(x^{2}-x+1\\right)+(15 x-8):\\left(x^{2}-x+1\\right) \\text { hay }(15 x-8) \\vdots \\\\left(x^{2}-x+1\\right)\\end{array}\\]<br>Suy ra %(3=[5(3 x+1)-(15 x-8)]:\\left(x^{2}-x+1\\right))%<br>Như vậy:* %(x^{2}-x+1=13 \\Rightarrow x^{2}-x-12=0 \\Rightarrow x=-3)% hoặc %(x=4)%<br>Với %(x=-3)% thì %(y=\\frac{57}{13})% (không nguyên); với %(x=4)% thì %(y=-1)% (nguyên).<br>%(\\star x^{2}-x+1=1 \\Rightarrow x^{2}-x=0 \\Rightarrow x=0)% hoặc<br>Với %(x=0)% thì %(y=3)% (nguyên); với %(x=1)% thì %(y=5)% (nguyên).<br>Thử lại thấy các nghiệm trên đều thỏa mãn.<br>Vậy có 3 cặp %((x ; y))% thỏa mãn yêu cầu bài toán là %((0 ; 3),(1 ; 5))% và %((4 ;-1))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5:",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a. ",
+        "point": 1.0,
+        "content": "Cho các số thực %(x ; y ; z)% thỏa mãn %(0 \\leq x, y, z \\leq 4)%. Chứng minh rằng:<br>\\[x^{2} y+y^{2} x+z^{2} x+16 \\geq x y^{2}+y z^{2}+z x^{2}\\]",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[x^{2} y+y^{2} z+z^{2} x+16 \\geq x y^{2}+y z^{2}+z x^{2}\\]<br>\\[\\begin{array}{l}\\Leftrightarrow x^{2} y+y^{2} z+z^{2} x+16-x y^{2}-y z^{2}-z x^{2} \\geq 0 \\\\Leftrightarrow) x-y)(x-z)(y-z)+16 \\geq 0\\end{array}\\]<br>Ta có bất đẳng thức: %(a b \\geq-\\frac{1}{4}(a-b)^{2}, \\forall a, b \\in \\mathbb{R})% và %(a b \\leq \\frac{(a+b)^{2}}{4}, \\forall a, b \\in \\mathbb{R})%<br>Trường hợp 1: Nếu %(x \\geq y)% ta có %((x-z)(y-z) \\geq-\\frac{1}{4}(x-y)^{2})% nên %((x-y)(x-z)(y-z)+16 \\geq-\\frac{1}{4}(x-y)^{3}+16 \\geq-\\frac{1}{4} 4^{3}+16 \\geq 0)%<br>Trường hợp 2: Nếu %(y\\gt x)% ta xét<br>Trường hợp 2.1: Nếu %(y \\geq z)%, ta có %((x-y)(x-z) \\geq-\\frac{1}{4}(y-z)^{2})% nên %((x-y)(x-z)(y-z)+16 \\geq-\\frac{1}{4}(y-z)^{3}+16 \\geq-\\frac{1}{4} 4^{3}+16 \\mp 0)%<br>Trường hợp 2.2: Nếu %(y\\lt z)%, ta có: %((x-y)(x-z)(y-z)+16=(y-z)(x-z)(x-y)=16)%<br>Kết hợp với %((y-x)(z-y) \\leq-\\frac{1}{4}(z-x)^{2})% và %(x\\lt y\\lt z)%<br>Ta được: %((y-x)(x-z)(z-y)+16 \\geq \\frac{1}{4}(z-x)^{2}(x-z)+16=-\\frac{1}{4}(z-x)^{3}+16 \\geq 0)%<br>Vậy với mọi trường hợp thì %((x-y)(x-z)(y-z)+16 \\geq 0)% hay<br>\\[x^{2} y+y^{2} z+z^{2} x+16 \\geq x y^{2}+y z^{2}+z x^{2}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b. ",
+        "point": 1.0,
+        "content": "Ban đầu trên bảng viết 2023 số thực. Mỗi lần biến đổi số trên bảng là việc thực hiện như sau: Chọn ra hai số %(a, b)% nào đó trên bảng, xóa hai số đi và viết thêm trên bảng số %(\\frac{a+b}{4})% Giả sử ban đầu trên bảng ghi 2023 số 1 và ta thực hiện liên tiếp các biến đổi cho đến khi trên bảng chỉ còn lại một số, chứng minh rằng số đó lớn hơn %(\\frac{1}{2^{11}})%",
+        "question_images": [],
+        "solution": "Trước hết ta thấy trên bảng luôn là các số dương. Thật vậy, ta sử dụng quy nạp. Ban đầu có 2023 số 1 đều là số dương. Giả sử sau lần biến đổi thứ %(i)%, trên bảng đều là số dương. Đến bước biến đổi thứ %(i+1)% : Ta chọn hai số %(a, b)% trên bảng (theo giả thiết quy nạp thì %(a, b\\gt 0)%, ta xóa hai số đó đi và viết thêm số %(\\frac{a+b}{4})% cùng là số dương. Vậy, mỗi số được viết trên bảng luôn là các số dương.Gọi %(T_{i})% là tổng các nghịch đảo của các số thực còn lại trên bảng sau bước biến đổi thứ %(i\\left(T_{0}\\right.)% là tổng nghịch đảo của các số thực trên bảng khi chưa thực hiện bước biến đổi nào) thì:<br>Ở bước thứ %(i)% ta có tổng %(T_{i})%. Đến bước thứ %(i+1)% ta xóa đi hai số %(a, b)% và viết lên bảng số %(\\frac{a+b}{4})% thì ta có tổng %(T_{i+1})% và:<br>\\[T_{i+1}=\\mathrm{T}_{\\mathrm{i}}-\\left(\\frac{1}{a}+\\frac{1}{b}\\right)+\\frac{1}{\\frac{a+b}{4}}\\]<br>Suy ra %(T_{i+1}-\\mathrm{T}_{\\mathrm{i}}=-\\frac{(a-b)^{2}}{a b(a+b)} \\leq 0)% (Vì %(a, b)% đều lớn hơn 0 )<br>Như vậy: %(T_{2022} \\leq T_{2021} \\leq \\cdots \\leq T_{0})%<br>Ban đầu, ta có trên bảng 2023 số 1 nên %(T_{0}=2023)%.<br>Sau 2022 bước thì ta được trên bảng một số %(x)% nào đó.<br>Khi đó %(T_{2022}=\\frac{1}{x} \\leq T_{0}=2023)%<br>Vì ban đầu các số trên bảng đều là 1 , các bước xóa bỏ và thay thể đều chỉ sử dụng phép toán cộng và chia, nên sau mỗi bước thay số trên bảng luôn còn lại tất cả các số đều là các số dương.<br>Như vậy %(x\\gt 0)%.<br>Từ đó ta có %(x \\geq \\frac{1}{2023} \\geq \\frac{1}{2048} \\geq \\frac{1}{2^{11}})%",
+        "question_type": "essay"
+    }
+]

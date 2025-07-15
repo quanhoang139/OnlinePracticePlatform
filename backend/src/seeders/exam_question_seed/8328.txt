@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.5,
+        "content": "Giải phương trình %(2\\left(\\cos ^{4} x-\\sin ^{4} x\\right)-(1+2 \\cos 2 x) \\sin x=\\sqrt{3} \\cos 3 x)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}2\\left(\\cos ^{4} x-\\sin ^{4} x\\right)-(1+2 \\cos 2 x) \\sin x=\\sqrt{3} \\cos 3 x \\\\ \\Leftrightarrow 2\\left(\\cos ^{2} x-\\sin ^{2} x\\right)\\left(\\cos ^{2} x+\\sin ^{2} x\\right)-\\sin x-2 \\sin x \\cos 2 x=\\sqrt{3} \\cos 3 x \\\\ \\Leftrightarrow 2 \\cos 2 x-\\sin x-\\sin 3 x+\\sin x=\\sqrt{3} \\cos 3 x \\\\ \\Leftrightarrow \\frac{\\sqrt{3}}{2} \\cos 3 x+\\frac{1}{2} \\sin 3 x=\\cos 2 x \\\\ \\Leftrightarrow \\cos \\frac{\\pi}{6} \\cos 3 x+\\sin \\frac{\\pi}{6} \\sin 3 x=\\cos 2 x \\Leftrightarrow \\cos \\left(3 x-\\frac{\\pi}{6}\\right)=\\cos 2 x \\\\ \\Leftrightarrow\\left[\\begin{array}{l}3 x-\\frac{\\pi}{6}=2 x+k 2 \\pi \\\\ 3 x-\\frac{\\pi}{6}=-2 x+k 2 \\pi\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{\\pi}{6}+k 2 \\pi \\\\ x=\\frac{\\pi}{30}+k \\frac{2 \\pi}{5}\\end{array}\\right.\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.5,
+        "content": "Cho tam giác %(A B C)% không tù và thỏa mãn %(2\\left(\\cos ^{3} A+\\cos ^{3} B+\\cos ^{3} C\\right)+3 \\cos A \\cos B \\cos C=\\frac{9}{8})%. Chứng minh %(A B C)% là một tam giác đều.",
+        "question_images": [],
+        "solution": "Ta có %(\\cos A \\cos B \\cos C=\\frac{1}{2}[\\cos (A+B)+\\cos (A-B)] \\cos C)%<br>\\[\\begin{array}{l}=\\frac{1}{2}\\left[-\\cos ^{2} C-\\cos (A-B) \\cos (A+B)\\right] \\\\=\\frac{1}{2}\\left[-\\cos ^{2} C-\\frac{1}{2}(\\cos 2 A+\\cos 2 B)\\right]=-\\frac{1}{2}\\left(\\cos ^{2} A+\\cos ^{2} B+\\cos ^{2} C-1\\right)\\end{array}\\]<br>\\[\\begin{array}{l}\\text { Do đó } g t \\Leftrightarrow 2\\left(\\cos ^{3} A+\\cos ^{3} B+\\cos ^{3} C\\right)-\\frac{3}{2}\\left(\\cos ^{2} A+\\cos ^{2} B+\\cos ^{2} C-1\\right)=\\frac{9}{8} \\\\ \\Leftrightarrow\\left(16 \\cos ^{3} A-12 \\cos ^{2} A+1\\right)+\\left(16 \\cos ^{3} B-12 \\cos ^{2} B+1\\right) \\\\+\\left(16 \\cos ^{3} C-12 \\cos ^{2} C+1\\right)=0 \\\\Leftrightarrow(2 \\cos A-1)^{2}(4 \\cos A+1)+(2 \\cos B-1)^{2}(4 \\cos B+1) \\\\+(2 \\cos C-1)^{2}(4 \\cos C+1)=0 \\\\left.\\Leftrightarrow \\cos A=\\cos B=\\cos C=\\frac{1}{2} \\text { (Do } 4 \\cos A+1\\gt 0,4 \\cos B+1>0,4 \\cos C+1>0\\right) . \\\\Leftrightarrow A=B=C=60^{\\circ} \\Leftrightarrow \\triangle A B C \\text { đều }(\\text { đpcm }) . \\\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Cho khai triển sau:<br>\\[\\left(\\frac{x^{2}+2 x+2}{x+1}\\right)^{2018}=a_{2018} x^{2018}+a_{2017} x^{2017}+\\ldots+a_{1} x+a_{0}+\\frac{b_{1}}{x+1}+\\frac{b_{2}}{(x+1)^{2}}+\\ldots+\\frac{b_{2018}}{(x+1)^{2018}} \\text { với } x \\neq-1 \\text {. }\\]<br>Hãy tính hệ số %(a_{0})% và tổng %(S=b_{1}+b_{2}+\\ldots+b_{2018})%.",
+        "question_images": [],
+        "solution": "Đặt %(f(x)=\\left(\\frac{x^{2}+2 x+2}{x+1}\\right)^{2018})% ta có %(f(0)=a_{0}+b_{1}+\\ldots+b_{2018}=2^{2018})%.<br>Vậy %(a_{0}+S=2^{2018})%. (1)<br>\\[\\begin{array}{l}f(x)=\\left(x+1+\\frac{1}{x+1}\\right)^{2018}=\\sum_{k=0}^{2018} C_{2018}^{k}(x+1)^{2 k-2018} \\\\=\\sum_{k=0}^{1008} \\frac{C_{2018}^{k}}{(x+1)^{2018-2 k}}+\\sum_{k=1009}^{2018} C_{2018}^{k}(x+1)^{2 k-2018} \\b_{1}=b_{3}=\\ldots=b_{2017}=0 \\Rightarrow S=b_{2}+b_{4}+\\ldots+b_{2018}=C_{2018}^{1008}+C_{2018}^{1007}+\\ldots+C_{2018}^{1}+C_{2018}^{0}\\end{array}\\]<br>\\[a_{0}=C_{2018}^{1009}+C_{2018}^{1010}+\\ldots+C_{2018}^{2017}+C_{2018}^{2018}=C_{2018}^{1009}+S,\\left(d o C_{n}^{k}=C_{n}^{n-k}\\right)(2)\\]<br>Từ (1) và (2) suy ra: %(S=2^{2017}-\\frac{2017!}{1009} ; \\quad a_{0}=2^{2017}+\\frac{2017!}{1009})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho đoạn %(A B)% vuông góc mặt phẳng %((P))% tại điểm %(B)%. Trong %((P))% lấy điểm %(H)% thỏa %(B H=B A=a(a\\gt 0))%. Vẽ đường thẳng %(d)% nằm trong %((\\mathrm{P}))% và qua %(H, d)% vuông góc với %(B H)%. Hai điểm %(M, N)% di động trên %(d)% và thỏa mãn %(\\widehat{M A N}=90^{\\circ})%. Đường thẳng qua %(A)% và vuông góc mặt phẳng (AMN) cắt %((P))% tại điểm %(K)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.5,
+        "content": "a) Chứng minh rằng %(B)% là trực tâm của tam giác %(K M N)%.",
+        "question_images": [],
+        "solution": "- Xác định vị trí %(M, N)% trên d: Tam giác %(A M N)% vuông tại %(A)% và có đường cao %(A H)% %((M N \\perp A B, B H))% nên %(M, N)% khác phía đối với %(H)%.<br>- Xác định vị trí %(K)% : trong %((A B H))% dựng %(K)% thuộc %(B H)% và %(\\widehat{K A H}=90^{\\circ}(B H=B A=a)% nên %(B)% là trung điểm %(K H))%,<br>- Chứng minh: %(A K \\perp(A M N))%.<br>- %(A M \\perp A N, A K \\Rightarrow A M \\perp K N)%.<br>Mà %(A B \\perp(P) \\Rightarrow K N \\perp A B)%,vậy %(K N \\perp B M)%.<br>- %(K H \\perp M N(c m t), K H \\cap B M=B)% nên %(B)% là trực tâm tam giác %(K M N)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c80e4a7909b850603860bf475a5aef4a.png\" srcset=\"https://docdn.giainhanh.io/media/test/b993d93749738036df0188983942b925.png 245w, https://docdn.giainhanh.io/media/test/d6d84337dda1d2dcabe044493058b103.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.5,
+        "content": "b) Gọi %(\\alpha, \\beta)% lần lượt là số đo các góc tạo bởi %(B M)% với %(\\mathrm{mp}(A K N), B N)% với %(\\mathrm{mp}(A K M))%. Chứng minh %(\\cos ^{2} \\alpha+\\cos ^{2} \\beta=\\frac{1}{2})% và tìm giá trị nhỏ nhất của %(\\alpha+\\beta)%.",
+        "question_images": [],
+        "solution": "%(A M \\perp(A K N) \\Rightarrow(B M,(A K N))=\\widehat{M E A}=\\widehat{M A B}=\\alpha)%, tương tự %(\\widehat{N A B}=\\beta)%. %(\\cos ^{2} \\alpha+\\cos ^{2} \\beta=\\left(\\frac{A B}{A M}\\right)^{2}+\\left(\\frac{A B}{A N}\\right)^{2}=\\frac{A B^{2}}{A H^{2}}=\\frac{1}{2})%, (do tam giác %(A B H)% vuông cân tại %(B)% ).<br>(Cách khác: chứng minh, áp dụng hệ thức<br>%(\\cos ^{2} \\alpha+\\cos ^{2} \\beta+\\cos ^{2} \\gamma=1, \\gamma=\\widehat{K A B}=45^{\\circ})% )<br>\\[\\begin{array}{l}\\cos ^{2} \\alpha+\\cos ^{2} \\beta=\\frac{1}{2} \\Leftrightarrow \\cos (\\alpha+\\beta) \\cdot \\cos (\\alpha-\\beta)=-\\frac{1}{2} . \\\\alpha, \\beta \\in\\left(0 ; \\frac{\\pi}{2}\\right) \\Rightarrow 0\\lt \\cos (\\alpha-\\beta) \\leq 1 . \\text { Vậy } \\cos (\\alpha+\\beta) \\leq-\\frac{1}{2} .\\end{array}\\]<br>%(\\alpha, \\beta \\in\\left(0 ; \\frac{\\pi}{2}\\right) \\Rightarrow 0\\lt \\alpha+\\beta\\lt \\pi)% và hàm số %(y=\\cos x)% nghịch biến trên %((0 ; \\pi))% nên từ (1) ta có %(\\alpha+\\beta \\geq \\frac{2 \\pi}{3})%.<br>Kết luận: %(\\min (\\alpha+\\beta)=\\frac{2 \\pi}{3})% đạt khi %(\\alpha=\\beta=\\frac{\\pi}{3} \\Leftrightarrow H M=H N=a \\sqrt{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho dãy số %(\\left(a_{n}\\right))% xác định bởi công thức:<br>\\[\\left\\{\\begin{array}{l}a_{1}=1 ; a_{2}=2 ; \\n a_{n+2}=(3 n+2) a_{n+1}-2(n+1) a_{n} ; n=1 ; 2 ; 3 ; \\ldots\\end{array}\\right.\\]",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Tìm công thức số hạng tổng quát của dãy %(\\left(a_{n}\\right))%.",
+        "question_images": [],
+        "solution": "\\[n a_{n+2}=(3 n+2) a_{n+1}-2(n+1) a_{n} \\Leftrightarrow n\\left(a_{n+2}-a_{n+1}\\right)=2(n+1)\\left(a_{n+1}-a_{n}\\right) \\Leftrightarrow \\frac{a_{n+2}-a_{n+1}}{n+1}=\\]<br>Đặt %(x_{n}=\\frac{a_{n+1}-a_{n}}{n})%, ta có %(x_{1}=a_{2}-a_{1}=1 ; x_{n+1}=2 x_{n} ; \\forall n \\in \\mathbb{N}^{*})%.<br>Vậy %(\\left(x_{n}\\right))% là cấp số nhân với công bội %(q=2)%, nên %(x_{n}=x_{1} \\cdot q^{n-1}=2^{n-1} ; \\forall n \\in \\mathbb{N}^{*})%.<br>\\[\\begin{array}{l}\\text { Suy ra } a_{n+1}-a_{n}=n .2^{n-1} ; \\forall n \\in \\mathbb{N}^{*} \\Rightarrow a_{n}=a_{1}+1.2^{0}+2.2^{1}+3.2^{2}+\\ldots+(n-1) 2^{n-2} \\\\Rightarrow a_{n}=2+\\left[2.2^{1}+3.2^{2}+\\ldots+(n-1) 2^{n-2}\\right] ; \\forall n \\in \\mathbb{N}^{*} \\\\text { Xét } 2 a_{n}=4+\\left[2.2^{2}+3.2^{3}+\\ldots+(n-2) 2^{n-2}+(n-1) 2^{n-1}\\right] \\\\Rightarrow 2 a_{n}-a_{n}=(n-1) 2^{n-1}-\\left(2+2^{2}+2^{3}+\\ldots+2^{n-2}\\right) \\Rightarrow a_{n}=(n-1) 2^{n-1}-\\left(2^{n-1}-2\\right)=(n\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh %(\\sqrt{a_{1}-1}+\\sqrt{a_{2}-1}+\\ldots+\\sqrt{a_{n}-1} \\geq \\frac{n(n-1)}{2} ; \\forall n \\in \\mathbb{N}^{*})%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}2^{n-1}=(1+1)^{n-1}=C_{n-1}^{0}+C_{n-1}^{1}+\\ldots+C_{n-1}^{n-1} \\geq 1+(n-1)=n ; \\forall n \\geq 2 \\\\ \\Rightarrow a_{n}=(n-2) 2^{n-1}+2 \\geq(n-2) n+2=(n-1)^{2}+1 ; \\forall n \\geq 2 \\Rightarrow \\sqrt{a_{n}-1} \\geq n-1 ; \\forall n \\geq 2 \\\\ \\sqrt{a_{1}-1}+\\sqrt{a_{2}-1}+\\ldots+\\sqrt{a_{n}-1} \\geq 0+1+2+\\ldots+(n-1)=\\frac{n(n-1)}{2} ; \\forall n \\in \\mathbb{N}^{*}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tính %(\\lim \\left(\\frac{a_{1}}{3}+\\frac{a_{2}}{3^{2}}+\\ldots+\\frac{a_{n}}{3^{n}}\\right))%.",
+        "question_images": [],
+        "solution": "Ta có %(\\frac{a_{k}}{3^{k}}=\\frac{(k-2) 2^{k-1}+2}{3^{k}}=\\frac{k}{2} \\cdot\\left(\\frac{2}{3}\\right)^{k}-\\left(\\frac{2}{3}\\right)^{k}+2 \\cdot\\left(\\frac{1}{3}\\right)^{k} ; \\forall k \\in \\mathbb{N}^{*})%<br>\\[\\begin{array}{l}\\Rightarrow \\frac{a_{1}}{3^{1}}+\\frac{a_{2}}{3^{2}}+\\ldots+\\frac{a_{n}}{3^{n}}=\\frac{1}{2} S_{n}-T_{n}+2 P_{n} \\text {, với } S_{n}=1\\left(\\frac{2}{3}\\right)^{1}+2\\left(\\frac{2}{3}\\right)^{2}+\\ldots+n\\left(\\frac{2}{3}\\right)^{n} \\T_{n}=\\left(\\frac{2}{3}\\right)^{1}+\\left(\\frac{2}{3}\\right)^{2}+\\ldots+\\left(\\frac{2}{3}\\right)^{n} ; P_{n}=\\left(\\frac{1}{3}\\right)^{1}+\\left(\\frac{1}{3}\\right)^{2}+\\ldots+\\left(\\frac{1}{3}\\right)^{n}\\end{array}\\]<br>Xét %(\\frac{2}{3} S_{n}=1\\left(\\frac{2}{3}\\right)^{2}+2\\left(\\frac{2}{3}\\right)^{3}+\\ldots+(n-1)\\left(\\frac{2}{3}\\right)^{n}+n\\left(\\frac{2}{3}\\right)^{n+1})%<br>\\[\\Rightarrow S_{n}-\\frac{2}{3} S_{n}=\\frac{2}{3}+\\left(\\frac{2}{3}\\right)^{2}+\\left(\\frac{2}{3}\\right)^{3}+\\ldots+\\left(\\frac{2}{3}\\right)^{n}-n\\left(\\frac{2}{3}\\right)^{n+1} \\Rightarrow S_{n}=3 T_{n}-2 n\\left(\\frac{2}{3}\\right)^{n} \\text {. }\\]<br>Vậy %(\\frac{a_{1}}{3^{1}}+\\frac{a_{2}}{3^{2}}+\\ldots+\\frac{a_{n}}{3^{n}}=\\frac{1}{2} T_{n}+2 P_{n}-n\\left(\\frac{2}{3}\\right)^{n})%.<br>\\[\\begin{array}{l}\\lim T_{n}=\\frac{\\frac{2}{3}}{1-\\frac{2}{3}}=2 ; \\lim P_{n}=\\frac{\\frac{1}{3}}{1-\\frac{1}{3}}=\\frac{1}{2} ; \\\\left(\\frac{3}{2}\\right)^{n}=\\left(1+\\frac{1}{2}\\right)^{n}=C_{n}^{0}+C_{n}^{1}\\left(\\frac{1}{2}\\right)+C_{n}^{2}\\left(\\frac{1}{2}\\right)^{2}+\\ldots \\geq C_{n}^{2}\\left(\\frac{1}{2}\\right)^{2}=\\frac{n(n-1)}{8} ; \\forall n \\geq 2 \\\\Rightarrow 0\\lt n\\left(\\frac{2}{3}\\right)^{n} \\leq \\frac{8}{n-1} ; \\forall n \\geq 2 \\Rightarrow \\lim n\\left(\\frac{2}{3}\\right)^{n}=0 . \\text { Vậy } \\lim \\left(\\frac{a_{1}}{3^{1}}+\\frac{a_{2}}{3^{2}}+\\ldots+\\frac{a_{n}}{3^{n}}\\right)=2 .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các giá trị của %(a)% để giới hạn %(\\lim _{x \\rightarrow+\\infty} x\\left(a x+\\sqrt{x^{2}+2 x}-2 \\sqrt{x^{2}+x}\\right))% có giá trị hữu hạn.",
+        "question_images": [],
+        "solution": "Nếu %(a \\neq 1)% thì %(\\lim _{x \\rightarrow+\\infty} x\\left(a x+\\sqrt{x^{2}+2 x}-2 \\sqrt{x^{2}+x}\\right)=\\lim _{x \\rightarrow+\\infty} x^{2}\\left(a+\\sqrt{1+\\frac{2}{x}}-2 \\sqrt{1+\\frac{1}{x}}\\right))%<br>\\[=\\left\\{\\begin{array}{l}+\\infty \\text { khi } a\\gt 1 \\\\-\\infty \\text { khi } a\\lt 1\\end{array}\\right. \\text {. }\\]<br>Nếu %(a=1)% thì<br>\\[\\begin{array}{l}\\lim _{x \\rightarrow+\\infty} x\\left(a x+\\sqrt{x^{2}+2 x}-2 \\sqrt{x^{2}+x}\\right)=\\lim _{x \\rightarrow+\\infty} x\\left(x+\\sqrt{x^{2}+2 x}-2 \\sqrt{x^{2}+x}\\right) \\\\=\\lim _{x \\rightarrow+\\infty} x\\left[\\left(\\sqrt{x^{2}+2 x}-(x+1)\\right)+(2 x+1)-2 \\sqrt{x^{2}+x}\\right] \\\\=\\lim _{x \\rightarrow+\\infty} x\\left[\\frac{-1}{\\sqrt{x^{2}+2 x}+x+1}+\\frac{1}{2 x+1+2 \\sqrt{x^{2}+x}}\\right]\\end{array}\\]<br>\\[=\\lim _{x \\rightarrow+\\infty}\\left[\\frac{-1}{\\sqrt{1+\\frac{2}{x}}+1+\\frac{1}{x}}+\\frac{1}{2+\\frac{1}{x}+2 \\sqrt{1+\\frac{1}{x}}}\\right]=-\\frac{1}{4} \\text {. }\\]<br>Vậy %(a=1)% là giá trị cần tìm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các hàm số %(f: \\mathbb{R} \\rightarrow \\mathbb{R})% thỏa mãn<br>\\[f(x+y)+f(x) f(y)=f(x y)+f(x)+f(y)+2 x y \\text { với mọi } x, y \\in \\mathbb{R} \\text {. }\\]",
+        "question_images": [],
+        "solution": "Giả sử %(f(x))% là một hàm số thỏa mãn giả thiết bài toán.<br>\\[\\begin{array}{l}f(x+y)+f(x) f(y)=f(x y)+f(x)+f(y)+2 x y \\\\Leftrightarrow f(x+y)-1+[f(x)-1][f(y)-1]=f(x y)-1+2 x y+1 .\\end{array}\\]<br>Đặt %(g(x)=f(x)-1)% ta có phương trình<br>\\[g(x+y)+g(x) g(y)=g(x y)+2 x y+1, \\forall x, y \\in \\mathbb{R} \\text { (2) }\\]<br>Kí hiệu %(P(a, b))% chỉ việc thay %(x)% bởi %(a)% và thay %(y)% bởi %(b)% vào phương trình (2) %(P(x, 0) \\Rightarrow g(x)+g(x) g(0)=g(0)+1 \\Leftrightarrow[g(0)+1][g(x)-1]=0)% (3) .<br>Nếu %(g(0)+1 \\neq 0)% thì từ (3) suy ra %(g(x)=1, \\forall x \\in \\mathbb{R})%.<br>Thay vào (2) ta thấy hàm số này không thỏa mãn, do đó %(g(0)=-1)%.<br>\\[P(1,-1) \\Rightarrow g(0)+g(1) g(-1)=g(-1)-1 \\Leftrightarrow[g(1)-1] g(-1)=0\\]<br>Nếu %(g(1)=1)% thì %(P(x ; 1) \\Rightarrow g(x+1)=2 x+1=2(x+1)-1 \\Rightarrow g(x)=2 x-1, \\forall x)%.<br>Ta thấy hàm số này thỏa mãn %((2))%.<br>Nếu %(g(1) \\neq 1)% thì %(g(-1)=0)%.<br>Đặt %(a=g(1))%.<br>\\[\\begin{array}{l}P(x, 1) \\Rightarrow g(x+1)+a g(x)=g(x)+2 x+1 \\Leftrightarrow g(x+1)=(1-a) g(x)+2 x+1, \\forall x \\in \\mathbb{F} \\P(-x,-1) \\Rightarrow g(-x-1)=g(x)+2 x+1 \\Leftrightarrow g(x)=g(-x-1)-(2 x+1) .\\end{array}\\]<br>Thay vào (4) ta được<br>\\[\\begin{array}{l}g(x+1)=(1-a)[g(-x-1)-(2 x+1)]+2 x+1=(1-a) g(-x-1)+a(2 x+1), \\forall x \\in \\\\Rightarrow g(x)=(1-a) g(-x)+a(2 x-1), \\forall x \\in \\mathbb{R} \\quad(5) \\\\Rightarrow g(-x)=(1-a) g(x)+a(-2 x-1), \\forall x \\in \\mathbb{R} \\text {. Thay vào (5) ta được } \\g(x)=(1-a)[(1-a) g(x)+a(-2 x-1)]+a(2 x-1) \\\\Leftrightarrow\\left(a^{2}-2 a\\right) g(x)=-2 a^{2} x-\\left(a^{2}-2 a\\right), \\forall x \\in \\mathbb{R} \\text { (6) }\\end{array}\\]<br>Rõ ràng từ (6) suy ra %(a \\neq 2)%.<br>Nếu %(a \\neq 0)% thì từ (6) suy ra %(g(x)=-\\frac{2 a}{a-2} x-1, \\forall x \\in \\mathbb{R})%<br>Thay vào (2) ta được %(\\frac{4\\left(a^{2}+a-2\\right)}{(a-2)^{2}} x y=0, \\forall x, y \\Leftrightarrow a=-2)% (Vì %(a=g(1) \\neq 1)% )<br>%(\\Rightarrow g(x)=-x-1, \\forall x \\in \\mathbb{R})%. Hàm số này thỏa mãn (2).<br>Nếu %(a=0)% thì từ (5) suy ra %(g(x)=g(-x), \\forall x \\in \\mathbb{R})%.<br>\\[\\begin{array}{l}P(x,-x) \\Rightarrow g(0)+g(x) g(-x)=g\\left(-x^{2}\\right)-2 x^{2}+1 \\\\Rightarrow-1+g^{2}(x)=g\\left(x^{2}\\right)-2 x^{2}+1(7) \\P(x, x) \\Rightarrow g(2 x)+g^{2}(x)=g\\left(x^{2}\\right)+2 x^{2}+1 \\text { (8) }\\end{array}\\]<br>Từ %((7))% và %((8) \\Rightarrow g(2 x)=4 x^{2}-1 \\Rightarrow g(x)=x^{2}-1, \\forall x \\in \\mathbb{R})%.<br>Hàm số này thỏa mãn (2).<br>Do %(f(x)=g(x)+1)% nên các hàm số cần tìm là<br>\\[f(x)=2 x, f(x)=-x, f(x)=x^{2}, \\forall x \\in \\mathbb{R}\\]",
+        "question_type": "essay"
+    }
+]

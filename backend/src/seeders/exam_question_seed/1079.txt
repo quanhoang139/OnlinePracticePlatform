@@ -1,0 +1,110 @@
+[
+    {
+        "title": "Bài 1: ",
+        "point": 1.5,
+        "content": "Cho biểu thức %(P=\\frac{x+y}{\\sqrt{x}-\\sqrt{y}}:\\left(\\frac{\\sqrt{x}}{\\sqrt{y}}-\\frac{x}{\\sqrt{x y}+y}-\\frac{\\sqrt{x y}}{\\sqrt{x y}-x}\\right))% và biểu thức %(Q=\\frac{x \\sqrt{x}-y \\sqrt{y}-x \\sqrt{y}+y \\sqrt{x}}{2(\\sqrt{x}-\\sqrt{y})})% ới %(x\\gt 0, y>0)% và %(x \\neq y)%. Rút gọn các biểu thức %(P, Q)% và chứng minh rằng với các số %(x, y)% dương phân biệt tuỳ ý thì %(4 \\mathrm{Q}+1>2 \\mathrm{P})%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}P=\\sqrt{x}+\\sqrt{y} \\rightarrow 2 P=2 \\sqrt{x}+2 \\sqrt{y} \\Q=\\frac{x+y}{2} \\rightarrow 4 Q+1=2(x+y)+1\\end{array}\\]<br>Nhân hai vế của biểu thức %(4 Q+1-2 P)% cho 2<br>\\[\\begin{aligned}2(4 Q+1-2 P) & =4 x+4 y+2-4 \\sqrt{x}-4 \\sqrt{y} \\\\& =(2 \\sqrt{x}-1)^{2}+(2 \\sqrt{y}-1)^{2}\\end{aligned}\\]<br>Ta có %(x \\neq y \\rightarrow 2(4 Q+1-2 P)\\gt 0)%<br>\\[\\rightarrow 4 Q+1>2 P\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài 2:",
+        "group_content": "Trên cùng một mặt phẳng toạ độ, cho parabol %((\\mathrm{P}): \\mathrm{y}=\\mathrm{x}^{2})% và đường thẳng %((\\mathrm{d}): \\mathrm{y}=\\mathrm{kx}+5)%. Đường thẳng %((\\mathrm{d}))% cắt parabol %((\\mathrm{P}))% tại hai điểm %(\\mathrm{A})% và %(\\mathrm{B})%. Gọi %(\\mathrm{C}, \\mathrm{D})% lần lượt là hình chiếu của %(\\mathrm{A}, \\mathrm{B})% trên trục %(\\mathrm{Ox})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.5,
+        "content": "Khi k=-4, tính diện tích hình thanh ABDC.",
+        "question_images": [],
+        "solution": "Phương trình hoành độ giao điểm của %((\\mathrm{d}))% và %((\\mathrm{P}))% :<br>\\[\\begin{array}{l}x^{2}=-4 x+5 \\\\Leftrightarrow x^{2}+4 x-5=0 \\a+b+c=1+4-5=0 \\x=1, x=-5 \\x=1 \\Rightarrow y=x^{2}=1 \\x=-5 \\Rightarrow y=x^{2}=2 \\A(-5 ; 25) \\text { và } B(1 ; 1)\\end{array}\\]<br>Diện tích hình thanh %(A B D C)% :<br>\\[\\frac{(A C+B D) \\cdot C D}{2}=\\frac{(25+1) \\cdot 6}{2}=78(\\mathrm{dvdt})\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/78665caed9f349795e9684fb61fd40bc.png\" srcset=\"https://docdn.giainhanh.io/media/test/10a81d5969ace8d5d65f690ad709e1ed.png 102w, https://docdn.giainhanh.io/media/test/5aae02567abcc668c7d007ecd5b5997c.png 328w, https://docdn.giainhanh.io/media/test/addd58ad7d5fffb5a6edf8261ee06b24.png 492w\" width=\"492\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Tìm tất cả các giá trị của k để AD và BC cắt nhau tại 1 điểm nằm trên đường tròn đường kính CD.",
+        "question_images": [],
+        "solution": "+ Gọi I là giao điểm của %(A D)% và %(B C)%.<br>Vì I thuộc đường tròn đường kính %(\\mathrm{CD})% nên:<br>%(\\widehat{C I D}=90^{\\circ})% (góc nội tiếp chắn nửa đường tròn)<br>\\[\\Rightarrow A D \\perp B C\\]<br>+ Phương trình hoành độ giao điểm của %((\\mathrm{d}))% và %((\\mathrm{P}))% :<br>\\[\\begin{array}{l}x^{2}=k x+5 \\\\Leftrightarrow x^{2}-k x-5=0\\end{array}\\]<br>%(c.a=-5\\lt 0)%<br>Do đó hai đồ thị luôn cắt nhau tại hai điểm phân biệt có hoành độ trái dấu.<br>Toạ độ hai giao điểm là %(A\\left(x_{1}, y_{1}\\right))% và %(B\\left(x_{2}, y_{2}\\right))%.<br>\\[\\text { + Theo định lí Vi-ét: }\\left\\{\\begin{array}{c}x_{1}+x_{2}=k \\x_{1} x_{2}=-5\\end{array}\\right.\\]<br>+ Phương trình đường thắng %(\\mathrm{AD})% có dạng: %(y=a x+b)%. Ta có:<br>\\[\\begin{array}{l}\\left\\{\\begin{array}{l}y_{1}=a x_{1}+b \\y_{D}=a x_{D}+b\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{c}k x_{1}+5=a x_{1}+b \\\\0=a x_{2}+b\\end{array}\\right. \\\\Rightarrow k x_{1}+5=a\\left(x_{1}-x_{2}\\right) \\text { (trừ theo vế) }\\end{array}\\]<br>+ Phương trình đường thẳng %(\\mathrm{BC})% có dạng: %(y=a^{\\prime} x+b^{\\prime})%. Tương tự như trên ta có:<br>\\[k x_{2}+5=a^{\\prime}\\left(x_{2}-x_{1}\\right)\\]<br>Nhân theo vế hai ý vừa có được:<br>\\[\\begin{array}{l}\\left(k x_{1}+5\\right)\\left(k x_{2}+5\\right)=\\underbrace{-a \\cdot a^{\\prime}}_{1} \\cdot\\left(x_{1}-x_{2}\\right)^{2} \\\\Leftrightarrow k^{2} x_{1} x_{2}+5 k\\left(x_{1}+x_{2}\\right)+25=\\left(x_{1}+x_{2}\\right)^{2}-4 x_{1} x_{2} \\\\Leftrightarrow-5 k^{2}+5 k^{2}+25=k^{2}+20\\end{array}\\]<br>%(\\begin{array}{l}\\Leftrightarrow k^{2}=5 \\\\ \\Leftrightarrow k= \\pm \\sqrt{5} \\\\ \\text { Vậy } k= \\pm \\sqrt{5}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài 3:",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Giải phương trình %(10 x^{2}+3 x+2=(6 x+1) \\sqrt{x^{2}+2})%",
+        "question_images": [],
+        "solution": "Cách 1: Bình phương hai vế rồi casio bậc 4.<br>Cách 2: Đặt %(t=\\sqrt{x^{2}+2} \\Leftrightarrow t^{2}=x^{2}+2(t\\gt 0))%. Ta được:<br>\\[\\begin{array}{l}9 x^{2}+3 x+t^{2}=(6 x+1) t \\\\Leftrightarrow\\left(9 x^{2}-6 x t+t^{2}\\right)+3 x-t=0 \\\\Leftrightarrow(3 x-t)^{2}+(3 x-t)=0 \\\\Leftrightarrow(3 x-t)(3 x-t+1)=0 \\\\Leftrightarrow\\left[\\begin{array}{c}3 x=t \\\\3 x+1=t\\end{array}\\right. \\\\Leftrightarrow\\left[\\begin{array}{c}3 x=\\sqrt{x^{2}+2} \\\\3 x+1=\\sqrt{x^{2}+2}\\end{array}\\right. \\\\Leftrightarrow\\left[\\begin{array}{c}9 x^{2}=x^{2}+2 \\quad(3 x \\geq 0) \\\\9 x^{2}+6 x+1=x^{2}+2 \\quad(3 x+1) \\geq 0\\end{array}\\right. \\\\Leftrightarrow\\left[\\begin{array}{c}x= \\pm \\frac{1}{2} \\quad(3 x \\geq 0) \\\\8 x^{2}+6 x-1=0 \\quad(3 x+1 \\geq 0)\\end{array}\\right. \\\\Leftrightarrow\\left[\\begin{array}{c}x=\\frac{1}{2} \\x=\\frac{-3+\\sqrt{17}}{8}\\end{array}\\right.\\end{array}\\]<br>Vây %(S=\\left\\{\\frac{1}{2} ; \\frac{-3+\\sqrt{17}}{8}\\right\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Giải hệ : %(\\left\\{\\begin{array}{c}\\left(x^{2}-y\\right) \\sqrt{x-2}=x(y-x+2) (1)\\\\ (y-1)(y-3 x-3)=x^{2}-3 x+3-8 \\sqrt{x-2} (2)\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Đk: %(x \\geq 2)%<br>Xét phương trình (1):<br>\\[\\begin{array}{l}\\left(x^{2}-y\\right) \\sqrt{x-2}=x(y-x+2) \\\\Leftrightarrow x^{2} \\sqrt{x-2}-y \\sqrt{x-2}=x y-x(x-2) \\\\Leftrightarrow x^{2} \\sqrt{x-2}-x y+x(x-2)-y \\sqrt{x-2}=0 \\\\Leftrightarrow x(x \\sqrt{x-2}-y)+\\sqrt{x-2}(x \\sqrt{x-2}-y)=0 \\\\Leftrightarrow(x \\sqrt{x-2}-y) \\underbrace{(x+\\sqrt{x-2})}_{\\gt 0 \\text { vi } x \\geq 2}=0 \\\\Leftrightarrow x \\sqrt{x-2}-y=0 \\\\Leftrightarrow y=x \\sqrt{x-2}\\end{array}\\]<br>Xét phương trình:<br>\\[\\begin{array}{l}(y-1)(y-3 x-3)=x^{2}-3 x+3-8 \\sqrt{x-2} \\\\Leftrightarrow y^{2}-3 x y-4 y+3 x+3=x^{2}-3 x+3-8 \\sqrt{x-2} \\\\Leftrightarrow x^{2}(x-2)-3 x^{2} \\sqrt{x-2}-4 x \\sqrt{x-2}-x^{2}+6 x+8 \\sqrt{x-2}=0\\end{array}\\]<br>\\[\\begin{array}{l}\\Leftrightarrow\\left(x^{3}-3 x^{2}+6 x\\right)-\\sqrt{x-2}\\left(3 x^{2}+4 x-8\\right)=0 \\\\Leftrightarrow x^{3}-3 x(x-2)-\\sqrt{x-2}\\left(3 x^{2}+4 x-8\\right)=0\\end{array}\\]<br>Đặt %(t=\\sqrt{x-2})% thì %(t^{2}=x-2)% và %(4 x-8=4 t^{2})%<br>\\[\\begin{array}{l}\\left(x^{3}-3 x t^{2}\\right)-t\\left(3 x^{2}+4 t^{2}\\right)=0 \\\\Leftrightarrow x^{3}-3 x^{2} t-3 x t^{2}-4 t^{3}=0 \\\\Leftrightarrow(x-4 t)\\left(x^{2}+t x+t^{2}\\right)=0\\end{array}\\]<br>Mà %(x^{2}+t x+t^{2}=\\left(x+\\frac{t}{2}\\right)^{2}+\\frac{3}{4} t^{2}\\gt 0)% (dấu bằng không xảy ra)<br>Ta được:<br>\\[x=4 t\\]<br>\\[\\begin{array}{l}\\Leftrightarrow x=4 \\sqrt{x-2} \\\\Leftrightarrow x^{2}=16(x-2) \\\\Leftrightarrow x^{2}-16 x+32=0 \\x=8 \\pm 4 \\sqrt{2}: \\text { nhận } \\x=8+4 \\sqrt{2} \\Rightarrow y=x \\sqrt{x-2}=(8+4 \\sqrt{2}) \\cdot \\sqrt{6+4 \\sqrt{2}}=(8+ \\\\4 \\sqrt{2}) \\cdot(2+\\sqrt{2})=32+16 \\sqrt{2} \\x=8-4 \\sqrt{2} \\Rightarrow y=x \\sqrt{x-2}=(8-4 \\sqrt{2}) \\cdot \\sqrt{6-4 \\sqrt{2}}=(8- \\\\4 \\sqrt{2}) \\cdot(2-\\sqrt{2})=32-16 \\sqrt{2}\\end{array}\\]<br>Vậy hệ phương trình có hai nghiệm :<br>\\[\\left\\{\\begin{array} { c } { x = 8 + 4 \\sqrt { 2 } } \\\\{ y = 3 2 + 1 6 \\sqrt { 2 } }\\end{array} \\text { và } \\left\\{\\begin{array}{c}x=8-4 \\sqrt{2} \\y=32-16 \\sqrt{2}\\end{array}\\right.\\right.\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài 4:",
+        "group_content": "Cho ΔABC nhọn, với AB < AC, nội tiếp đường tròn (O). Các tiếp tuyến tại B và C cắt nhau ở D. Đường tròn đường kính AD cắt đường tròn đường kính OD tại điểm E (khác D). Gọi F là giao điểm của đoạn thẳng OE và đường tròn (O).",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Chứng minh %(A, O, E)% và %(C F)% là tia phân giác của %(\\widehat{B C E})%.",
+        "question_images": [],
+        "solution": "+ Xét đường tròn đường kính %(\\mathrm{OD})% :%(\\widehat{O E D}=90^{\\circ})% (góc nội tiếp chắn nửa đường tròn)<br>+Xét đường tròn đường kính %(\\mathrm{AD})% :%(\\widehat{A E D}=90^{\\circ})% (góc nội tiếp chắn nửa đường tròn)<br>%(\\Rightarrow \\widehat{O E D}=\\widehat{A E D}=90^{\\circ})%<br>\\[\\Rightarrow \\overline{A, O, E}\\]<br>+Trong đường tròn đường kính %(\\mathrm{AD})% :%(\\widehat{B C E}=\\widehat{B O E})% (cùng chắn %(\\overparen{B E})% )<br>+ Trong đường tròn %((\\mathrm{O}))% :%(\\widehat{B C F}=\\frac{1}{2} \\widehat{B O E})% (góc nội tiếp và góc ở tâm cùng chắn %(\\overparen{B F})%%(\\Rightarrow \\widehat{B C F}=\\frac{1}{2} \\widehat{B C E})%<br>%(\\Rightarrow C F)% là tia phân giác của %(\\widehat{B C E})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3859ef00eeae6a9ad099968ef7f01117.png\" srcset=\"https://docdn.giainhanh.io/media/test/4337105c69d69622ccac0298fd68f400.png 167w, https://docdn.giainhanh.io/media/test/37c9c643459d8ff54400769969f44714.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Các tia AB, AC lần lượt cắt đường tròn đường kính AD tại các điểm G, K (khác A). Chứng minh rằng OD đi qua trung điểm của đoạn thẳng GK.",
+        "question_images": [],
+        "solution": "+ Gọi %(\\mathrm{I})% là giao điểm thức hai của %(\\mathrm{AD})% và %((\\mathrm{O}))% và %(\\mathrm{L})% là giao điểm của %(\\mathrm{GK})% và %(\\mathrm{OD})%.<br>+ Gọi %(\\mathrm{M})% là giao điểm của %(\\mathrm{OD})% và %(\\mathrm{BC})%.<br>Dễ dàng ta chứng minh được %(\\mathrm{OD})% là trung trực của %(\\mathrm{BC})%.%(\\widehat{C M D}=90^{\\circ})% mà %(\\widehat{C K D}=90^{\\circ})% (góc nội tiếp chắn nửa đường tròn đường kính %(\\mathrm{AD})% )<br>%(\\Rightarrow)% CMDK nộp tiếp<br>%(\\Rightarrow \\widehat{L D K}=\\widehat{A C B})%, mà %(\\widehat{A C B}=\\widehat{A I B})% (cùng chắn %(\\overparen{A B})% của %((\\mathrm{O}))% )<br>%(\\Rightarrow \\widehat{L D K}=\\widehat{A I B})%%(+\\widehat{B A I}=\\widehat{D K L})% (cùng chắn %(\\overparen{G D})% của đường tròn đường kính %(\\mathrm{AD})% )<br>Ta được: %(\\triangle A B I \\backsim \\triangle K L D(\\mathrm{~g}-\\mathrm{g}) \\Rightarrow \\frac{L K}{L D}=\\frac{B A}{B I})%<br>Tương tự: %(\\triangle A C I \\sim \\Delta G L D(\\mathrm{~g}-\\mathrm{g}) \\Rightarrow \\frac{L G}{L D}=\\frac{C A}{C I})%<br>Mà %(\\frac{B A}{B I}=\\frac{C A}{C I})%<br>Đây là bổ đề quen thuộc từ hai tiếp tuyến và một cát tuyến, ta chứng minh được như sau:<br>\\[\\Delta D I B \\sim \\triangle D B A(\\mathrm{~g}-\\mathrm{g}) \\Rightarrow \\frac{B A}{B I}=\\frac{B D}{D I}\\]<br>\\[\\begin{array}{l}\\triangle D I C \\sim \\Delta D C A(\\mathrm{~g}-\\mathrm{g}) \\Rightarrow \\frac{C A}{C I}=\\frac{C D}{D I} \\\\text { Mà } \\frac{B D}{D I}=\\frac{C D}{D I} \\text { nên } \\frac{B A}{B I}=\\frac{C A}{C I}\\end{array}\\]<br>Do đó: %(\\frac{L K}{L D}=\\frac{L G}{K D} \\Rightarrow L K=L G)%<br>Vậy OD đi qua trung điểm %(L)% của GK",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài 5: ",
+        "point": 1.5,
+        "content": "Cho tam giác nhọn %(\\mathrm{ABC})% có %(\\mathrm{AB}\\lt \\mathrm{AC}\\lt \\mathrm{BC})%, đường tròn %((\\mathrm{O}))% nội tiếp tam giác %(A B C)% tiếp xúc với cạnh %(A B)% tại %(M)%. Lấy điểm %(E)% nằm giữa %(A)% và %(\\mathrm{M})%. Trên cạnh %(\\mathrm{AC}, \\mathrm{BC})% lần lượt lấy điểm %(\\mathrm{D}, \\mathrm{F})% sao cho %(\\mathrm{AD}=\\mathrm{AE})% và %(\\mathrm{BF}=\\mathrm{BE})%. Đường tròn ngoại tiếp tam giác %(D E F)% lần lượt cắt %(A B)% và %(B C)% tại %(G)% (khác %(E)% ) và %(H)% (khác %(\\mathrm{F})% ). Chứng minh rằng %((\\mathrm{O}))% là tâm đường tròn ngoại tiếp tam giác %(\\mathrm{DEF})% và các đường thẳng %(\\mathrm{CM}, \\mathrm{ED}, \\mathrm{GH})% đồng quy.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{S})% là giao của %(\\mathrm{DE})% và %(\\mathrm{GH})%. Ta đi chứng minh %(\\mathrm{C}, \\mathrm{M}, \\mathrm{S})% thẳng hàng.<br>Ta có %(\\widehat{A D E}=\\widehat{A E D}=\\widehat{D H S} \\Rightarrow \\mathrm{CD})% là tiếp tuyến của (SHD) tại %(\\mathrm{D})%<br>Tương tự ta cũng có %(\\mathrm{CH})% là tiếp tuyến của (SHD) tại %(\\mathrm{H})%<br>Khi đó %(\\mathrm{SC})% là đường đối trung của tam giác %(\\mathrm{SHD})%<br>Gọi %(\\mathrm{N})% là trung điểm %(\\mathrm{HD})%.<br>Theo bổ đề đường đối trung, ta có: %(\\widehat{H S N}=\\widehat{C S D})% (1)<br>Lại có tam giác SEG %(\\backsim S H D)%%(\\Rightarrow)% Tam giác SEM đồng dạng SHN (Chia đôi tỉ số đường trung tuyến)<br>\\[\\Rightarrow \\widehat{S E M}=\\widehat{H S N}(2)\\]<br>Từ (1) và (2) ta có %(\\widehat{C S D}=\\widehat{E S M} \\Rightarrow(\\mathrm{dpcm}))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c9117e64e72982c9a1ab89131eb40193.png\" srcset=\"https://docdn.giainhanh.io/media/test/cdcb4d3a7829dbdf7bfacc68c3cd33e0.png 245w, https://docdn.giainhanh.io/media/test/6c3c33d657ae991052d0fc4338f98c1e.png 500w, https://docdn.giainhanh.io/media/test/519ef4b86d398bcc744f8a7c31a3f487.png 750w, https://docdn.giainhanh.io/media/test/83791ea1095508b27756c58ade443c13.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài 6:",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.75,
+        "content": "Cho các số thực dương %(x, y, z)% thoả mãn %(x y z=1)%. Chứng minh rằng:<br>\\[2008\\left(x^{2}+y^{2}+z^{2}\\right)+15\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right) \\geq 2023(x+y+z) .\\]",
+        "question_images": [],
+        "solution": "Cho %(x, y, z)% dương thoả mãn %(x y z=1)%. Chứng minh:<br>\\[\\begin{array}{l} 2008\\left(x^{2}+y^{2}+z^{2}\\right)+15\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right) \\geq 2023(x+y+z) \\\\+ \\text { AB.GM ba số: } x+y+z \\geq 3 \\sqrt[3]{x y z}=3 \\\\+ \\text { Ta có: } \\\\2008\\left(x^{2}+y^{2}+z^{2}\\right)+15\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right) \\geq 2008 \\frac{(x+y+z)^{2}}{3}+15 \\cdot \\frac{9}{x+y+z}\\end{array}\\]<br>Đặt %(t=x+y+z(t \\geq 3))%, ta phải chứng minh:<br>\\[2008 \\frac{(x+y+z)^{2}}{3}+15 \\cdot \\frac{9}{x+y+z} \\geq 2023(x+y+z)\\]<br>Tức là:<br>\\[2008 \\frac{t^{3}}{3}+15 \\cdot \\frac{9}{t} \\geq 2023 t\\]<br>\\[\\begin{array}{l}\\Leftrightarrow 2008 t^{3}+405 \\geq 6069 t^{2} \\\\Leftrightarrow(t-3)\\left(2008 t^{2}-45 t-135\\right) \\geq 0\\end{array}\\]<br>Trong đó<br>\\[\\begin{array}{l}2008 t^{2}-45 t-135 \\\\=1993 t^{2}+15 t^{2}-45 t-135 \\\\=1993 t^{2}+15 t(t-3)-135 \\\\geq 1993.3^{2}+15.3 .0-135\\gt 0\\end{array}\\]<br>\\[\\Rightarrow 2008 t^{2}-45 t-135\\gt 0\\]<br>Tức là (1) đúng<br>Vậy bài toán được chứng minh<br>Dấu bằng xảy ra khi %(x=y=z=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.75,
+        "content": "Cho phương trình %(x^{2}-4 m n^{2} x-4 m n^{3}-m=0)%, với %(m)% và %(n)% là các tham số. Tìm tất cả các cặp số nguyên dương %((m ; n))% để phương trình đã cho có 2 nghiệm phân biệt %(x_{1}, x_{2})% dều là số nguyên và %(\\quad x_{1}+x_{2}+1)% là số nguyên tố.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Ta có }: \\Delta^{\\prime}=4 a^{2} b^{4}+4 a b^{3}+a=\\left(4 a^{2} b^{4}+4 a b^{3}+b^{2}\\right)+a-b^{2}= \\\\left(2 a b^{2}+b\\right)^{2}+a-b^{2}\\end{array}\\]<br>Để phương trình có hai nghiệm nguyên ta cần %(\\Delta^{\\prime})% là số chính phương.<br>+ Xét hiệu:<br>\\[\\begin{array}{l}\\left(2 a b^{2}+b+1\\right)^{2}-\\Delta^{\\prime} \\\\=\\left(4 a^{2} b^{4}+b^{2}+1+4 a b^{3}+4 a b^{2}+2 b\\right)-\\left(4 a^{2} b^{4}+4 a b^{3}+a\\right) \\\\=\\left(b^{2}+1+4 a b^{2}+2 b\\right)-a \\\\=b^{2}+2 b+1+a\\left(4 b^{2}-1\\right)\\gt 0 \\text { vì } a, b \\in N^{*}\\end{array}\\]<br>+ Xét hiệu:<br>\\[\\begin{array}{l}\\left(2 a b^{2}+b-1\\right)^{2}-\\Delta^{\\prime} \\\\=\\left(4 a^{2} b^{4}+b^{2}+1+4 a b^{3}-4 a b^{2}-2 b\\right)-\\left(4 a^{2} b^{4}+4 a b^{3}+a\\right) \\\\=b^{2}+1-4 a b^{2}-2 b-a \\\\=b^{2} \\underbrace{(1-4 a)}_{\\lt 0}-2 b+\\underbrace{(1-a)}_{\\lt 0}\\lt 0\\end{array}\\]<br>Ta được: %(\\left(2 a b^{2}+b-1\\right)^{2}\\lt \\Delta^{\\prime}\\lt \\left(2 a b^{2}+b+1\\right)^{2})%<br>Mà %(\\Delta^{\\prime})% là số chính phương nên %(\\Delta^{\\prime}=\\left(2 a b^{2}+b\\right)^{2})%<br>\\[\\Rightarrow a=b^{2}\\]<br>+Xét biểu thức:<br>\\[\\begin{array}{l}x_{1}+x_{2}+1 \\\\=4 a b^{2}+1 \\\\=4 b^{4}+1 \\\\=\\left(4 b^{4}+4 b^{2}+1\\right)-4 b^{2} \\\\=\\left(2 b^{2}+1\\right)^{2}-(2 b)^{2} \\\\=\\left(2 b^{2}-2 b+1\\right)\\left(2 b^{2}+2 b+1\\right)\\end{array}\\]<br>Ta cần %(x_{1}+x_{2}+1)% là số nguyên tố, mà %(2 b^{2}+2 b+1 \\geq 5)% nên:<br>\\[\\begin{array}{l}2 b^{2}-2 b+1=1 \\\\Leftrightarrow b(b-1)=0 \\\\Leftrightarrow b=1(\\text { vì } b \\geq 1)\\end{array}\\]<br>Kiểm tra lại: %(x_{1}+x_{2}+1=4 b^{4}+1=5)% : là số nguyên tố<br>Vậy %(a=b=1)%",
+        "question_type": "essay"
+    }
+]

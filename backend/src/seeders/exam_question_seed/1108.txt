@@ -1,0 +1,133 @@
+[
+    {
+        "title": "Bài 1: ",
+        "point": 1.0,
+        "content": "Cho %(a, b)% là các số thực, %(b \\neq 0)% thỏa mãn điều kiện<br>\\[a^{2}+b^{2}=\\frac{4 b^{2}}{\\sqrt{a^{2}+b^{2}}+a}+a \\sqrt{a^{2}+b^{2}}\\]<br>Tính giá trị của biểu thức %(P=a^{2}+b^{2})%.",
+        "question_images": [],
+        "solution": "Vì %(b^{2}=\\left(a^{2}+b^{2}\\right)-a^{2}=\\left(\\sqrt{a^{2}+b^{2}}-a\\right)\\left(\\sqrt{a^{2}+b^{2}}+a\\right))% nên từ giả thiết, ta có: %(a^{2}+b^{2}=4\\left(\\sqrt{a^{2}+b^{2}}-a\\right)+a \\sqrt{a^{2}+b^{2}})%, hay %(a^{2}+b^{2}-4 \\sqrt{a^{2}+b^{2}}=a\\left(\\sqrt{a^{2}+b^{2}}-4\\right))%<br>Một cách tương đương, ta có:<br>\\[\\left(\\sqrt{a^{2}+b^{2}}-4\\right)\\left(\\sqrt{a^{2}+b^{2}}-a\\right)=0\\]<br>Vì %(\\sqrt{a^{2}+b^{2}}\\gt \\sqrt{a^{2}} \\geq a)% nên từ kết quả trên, ta suy ra %(\\sqrt{a^{2}+b^{2}}=4)%, tức %(P=16)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài 2:",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(x=\\frac{5}{x-1}+2 \\sqrt{x-2})%",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq 2)%.<br>Phương trình đã cho có thể được viết lại thành<br>\\[x^{2}-x-5=2(x-1)(\\sqrt{x-2}) \\text {, }\\]<br>Hay<br>\\[(x-1)^{2}+(x-2)-2(x-1) \\sqrt{x-2}=4 .\\]<br>Một cách tương đương, ta có<br>\\[(x-1-\\sqrt{x-2})^{2}=4 .\\]<br>Vì %((x-1)^{2}-(x-2)=x^{2}-3 x+3\\gt 0)% nên %(x-1-\\sqrt{x-2}>0)%.<br>Kết hợp với phương trình trên, ta được %(x-1-\\sqrt{x-2}=2)%, hay %(x-3=\\sqrt{x-2})%.<br>Từ đây, ta suy ra %(x \\geq 3)% và %((x-3)^{2}=x-2)%.<br>Giải ra, ta được %(x=\\frac{7+\\sqrt{5}}{2})% (thỏa mãn).<br>Vậy phương trình đã cho có nghiệm duy nhất %(x=\\frac{7+\\sqrt{5}}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}\\frac{9 y+49}{x+y}+x+y=23 \\\\ x \\sqrt{x}+y \\sqrt{y}=7(\\sqrt{x}+\\sqrt{y})\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq 0, y \\geq 0)% và %(x+y \\neq 0)%.<br>Với chú ý<br>\\[x \\sqrt{x}+y \\sqrt{y}=(\\sqrt{x}+\\sqrt{y})(x+y-\\sqrt{x y})\\]<br>Và %(\\sqrt{x}+\\sqrt{y}\\gt 0)%, phương trình thứ hai của hệ có thể được viết lại thành<br>\\[x+y-\\sqrt{x y}=7 .\\]<br>Phương trình thứ nhất của hệ có thể được viết lại thành %(9 y+49+(x+y)^{2}=23(x+y))%, hay<br>\\[9(7+\\sqrt{x y}-x)+49+(\\sqrt{x y}+7)^{2}=23(\\sqrt{x y}+7) .\\]<br>Sau khi thu gọn, ta được %(x(y-9)=0)%. Từ đó %(x=0)% hoặc %(y=9)%.<br>Kết hợp với (1), ta tìm được các nghiệm %((x ; y))% của hệ phương trình đã cho là %(\\left.(0,7),{ }^{*} 1,9\\right))% và %((4,9))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài 3:",
+        "group_content": "Cho tam giác %(A B C)% vuông tại %(A(A B\\lt A C))%, có đường cao %(A H)%. Đường tròn tâm %(I)% nội tiếp tam giác %(A B C)%, tiếp xúc với các cạnh %(B C, C A, A B)% lần lượt tại %(D, E, F)%. Gọi %(\\mathrm{J})% là giao điểm của Ai và %(D E ; K)% là trung điểm của %(A B)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Chứng minh tứ giác BIJD nội tiếp.",
+        "question_images": [],
+        "solution": "Ta có %(C D=C E)% nên tam giác %(C D E)% cân tại %(C)%.<br>Suy ra %(\\widehat{C D E}=\\widehat{C E D}=\\frac{180^{\\circ}-\\widehat{A C B}}{2})%.<br>Áp dụng tính chất góc ngoài trong tam giác %(A J E)%, ta thấy<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b46543c544f05032e2f7f61929b145d7.png\" srcset=\"https://docdn.giainhanh.io/media/test/0f87fd73f0fa1d4e69de56b0f42f41ef.png 236w, https://docdn.giainhanh.io/media/test/f9a069ec8a1de34d1a3987307690095e.png 500w, https://docdn.giainhanh.io/media/test/a3b53322cc6824634e03fdff2d37587a.png 750w, https://docdn.giainhanh.io/media/test/2b61d53d9d1584b1231d0b36dad5a570.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.75,
+        "content": "Gọi M là giao điểm của KI và AC, N là giao điểm của AH và ED. Chứng minh AM = AN",
+        "question_images": [],
+        "solution": "Do tứ giác %(B I J D)% nội tiếp nên %(\\widehat{B J I}=\\widehat{B D} I=90^{\\circ})%.<br>Vì %(\\widehat{A J B}=90^{\\circ})% và %(\\widehat{J A B}=\\frac{\\widehat{B A C}}{2}=45^{\\circ})% nên tam giác %(J A B)% vuông cân tại %(J)%.<br>Theo giả thiết %(K)% là trung điểm của %(A B)%, ta có %(J K \\perp A B)%<br>Chú ý rằng %(I F\\|A M\\| J K)% (cùng vuông góc với %(A B)% ) và %(I D \\| A H)% (cùng vuông góc với %(\\mathrm{BC})% ), ta có %(\\frac{I F}{A M}=\\frac{K I}{K M}=\\frac{J I}{J A}=\\frac{I D}{A N})%.<br>Vì %(I F=I D)% nên %(A M=A N)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 0.75,
+        "content": "Gọi Q là giao điểm của DI và EF, P là trung điểm của BC. Chứng minh ba điểm A, P, Q thẳng hàng.",
+        "question_images": [],
+        "solution": "Đường thẳng qua %(Q)% vuông góc với %(I D)% cắt %(A C, A B)% lần lượt lại %(R, S)%. điểm của %(R S)%.<br>Ta có %(R S \\| B C)% (cùng vuông góc với %(I D)% ) và %(P, Q)% lần lượt là trung điểm của %(B C, R S)% nên %(A, P, Q)% thẳng hàng (theo bồ đề hình thang).",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài 4:",
+        "group_content": "Cho các số thực dương %(x, y, z)% thỏa mãn %(\\sqrt{1+4 x y+2 x+2 y}+2 z=5)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Chứng minh %(\\frac{1}{\\sqrt{(2 x+1)(2 y+1)}}+\\frac{1}{2 z+1} \\geq \\frac{2}{3})%",
+        "question_images": [],
+        "solution": "Từ giả thiết ta có<br>\\[\\sqrt{(2 x+1)(2 y+1)}=5-2 z .\\]<br>Từ đó kết hợp sử dụng bất đẳng thức Cauchy Schwwarz, ta được:<br>\\[\\frac{1}{\\sqrt{(2 x+1)(2 y+1)}}+\\frac{1}{2 z+1}=\\frac{1}{5-2 z}+\\frac{1}{2 z+1} \\geq \\frac{4}{5-2 z+2 z-1}=\\frac{4}{6}=\\frac{2}{3} \\text {. }\\]<br>Dấu bằng xảy ra khi chẳng hạn %(x=y=z=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Tìm giá trị nhỏ nhất của biểu thức %(P=\\frac{x+1}{2 x+1}+\\frac{y+1}{2 y+1}+\\frac{2 z+3}{4 z+2})%.",
+        "question_images": [],
+        "solution": "Ta thấy rằng<br>\\[P=\\frac{1}{2}+\\frac{1}{2(2 x+1)}+\\frac{1}{2}+\\frac{1}{2(2 y+1)}+\\frac{1}{2}+\\frac{1}{2 z+1}=\\frac{3}{2}+\\frac{1}{2}\\left(\\frac{1}{2 x+1}+\\frac{1}{2 y+1}\\right)+\\frac{1}{2 z+1}\\]<br>Áp dụng bất đẳng thức Cauchy cho hai số dương và sử dụng kết quả ở ý (a) ta được<br>\\[\\mathrm{P} \\geq \\frac{3}{2}+\\frac{1}{\\sqrt{(2 x+1)(2 y+1)}+} \\frac{1}{2 z+1} \\geq \\frac{3}{2}+\\frac{2}{3}=\\frac{13}{6}\\]<br>Dấu bằng xảy ra khi và chỉ khi %(x=y=z=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài 5:",
+        "group_content": "Cho đường tròn tâm O nội tiếp hình thoi ABCD. Gọi E, F, G, H là các điểm lần lượt thuộc các cạnh AB, BC, CD, DA sao cho EF, GH cùng tiếp xúc với (O).",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.5,
+        "content": "Chứng minh %(C G \\cdot A H=A O^{2})%",
+        "question_images": [],
+        "solution": "Đường tròn %((O))% tiếp xúc với các cạnh của hình thoi %(A B C D)% nên %(O)% là trung điểm của hai đường chéo %(A C)% và %(B D)%.<br>Ta thấy %(O)% là tâm đường tròn bàng tiếp góc %(D)% của tam giác %(D G H)%.<br>Suy ra %(\\widehat{G O H}=180^{\\circ}-\\widehat{O G H}-)% %(\\widehat{O H G}=180^{\\circ}-\\frac{180^{\\circ}-\\widehat{D G H}}{2}-\\frac{180^{\\circ}-\\widehat{D H G}}{2}=\\frac{\\widehat{D H G}+\\widehat{D G H}}{2}=\\frac{180^{\\circ}-\\widehat{G D H}}{2})%.<br>Do tam giác %(D A C)% cân tại %(D)% nên %(\\widehat{D A C}=\\widehat{D C A}=\\frac{180^{\\circ}-\\widehat{A D C}}{2})%.<br>Kết hợp hai điều trên, ta thấy %(\\widehat{G O H}=\\widehat{D A C}=\\widehat{D C A})%.<br>Từ đó %(\\widehat{C O G}=180^{\\circ}-\\widehat{G O H}-\\widehat{A O H}=180^{\\circ}-\\widehat{O A H}-\\widehat{A O H}=\\widehat{A H O})%.<br>Suy ra hai tam giác %(O A H)% và %(G C O)% đồng dạng góc-góc.<br>Vì thế, %(\\frac{O A}{G C}=\\frac{A H}{C O})%.<br>Suy ra %(A H \\cdot C G=O A \\cdot O C=O A^{2})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7225186f47d7386175c58ec49df7ab8d.png\" srcset=\"https://docdn.giainhanh.io/media/test/b831a54acbd945b4c456a1c8266f1db8.png 245w, https://docdn.giainhanh.io/media/test/768b78e371bdd77ddeb1d3130345943d.png 500w, https://docdn.giainhanh.io/media/test/17ca603e52359fead2ac3964bd893289.png 750w, https://docdn.giainhanh.io/media/test/20bcac245fb8ba0bb86855bb06507ee2.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.5,
+        "content": "Chứng minh EH song song FG.",
+        "question_images": [],
+        "solution": "Chứng minh tương tự ý trên, ta có %(A E . C F=O A^{2}=A H)%. CG.<br>Suy ra %(\\frac{A E}{C K}=\\frac{A H}{C F})%.<br>Chú ý rằng %(\\widehat{E A H}=)% %(\\widehat{G C F})%, ta thu được hai tam giác %(A E H)% và %(C G F)% đồng dạng cạnh-góc-cạnh.<br>Suy ra %(\\widehat{A E H}=\\widehat{C G F})%.<br>Lại có %(\\widehat{A E G}=\\widehat{C G E})% (do %(A B \\| C D)% ).<br>Suy ra %(\\widehat{H E G}=\\widehat{F G E})%.<br>Vậy %(E H \\| F G)% (đpcm).",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài 6:",
+        "group_content": "Xét các số nguyên %(a\\lt b\\lt c)% thỏa mãn %(n=a^{3}+b^{3}=c^{3}=3 a b c)% là số nguyên tố.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.5,
+        "content": "Chứng minh %(a\\lt 0)%.",
+        "question_images": [],
+        "solution": "Giả sử %(a \\geq 0)%, khi đó %(b \\geq 1)% và %(c \\geq 2)%.<br>Ta có%(n=(a+b+c)\\left(a^{2}+b^{2}+c^{2}-a b-b c-c a\\right))% là số nguyên tố, mà %(a+b+c\\gt 1)%<br>Nên %(a^{2}+b^{2}+c^{2}-a b-b c-c a=1)%, hay %((b-a)^{2}+(c-b)^{2}+(c-a)^{2}=2)%.<br>Vì %(c>b>a)% nên %((b-a)^{2}+(c-b)^{2}+(c-a)^{2} \\geq 1^{2}+1^{2}+2^{2}>2)%.<br>Từ mâu thuẫn nhận được, ta suy ra %(a\\lt 0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.5,
+        "content": "Tìm tất cả các số nguyên a, b, c (a < b < c) sao cho n là một ước của 2023.",
+        "question_images": [],
+        "solution": "Nếu %(c \\leq 0)%, thì ta có %(a+b+c\\lt 0)%, suy ra %(n\\lt 0)%, mâu thuẩn.<br>Do đó %(c \\geq 1)%.<br>Như vậy<br>\\[\\begin{aligned}a^{2}+b^{2}+c^{2}-a b-b c-c a & =\\frac{1}{2}\\left[(b-a)^{2}+(c-b)^{2}+(c-a)^{2}\\right] \\\\& \\geq \\frac{1}{2}(c-a)^{2} \\geq \\frac{1}{2}[1-(-1)]^{2}=2\\gt 1 .\\end{aligned}\\]<br>Vì %(n)% là số nguyên tố và là ước của %(2023=7.17^{2})% nên %(n \\in\\{7,17\\})%.<br>Trường họ̣p 1: %(n=17)%.<br>Theo chứng minh ở trên, ta phải có %(a^{2}+b^{2}+c^{2}-a b-b c-c a=17)% và %(a+b+c=1)%.<br>Từ đó, ta dễ dàng tính được<br>\\[3\\left(a^{2}+b^{2}+c^{2}\\right)=2\\left(a^{2}+b^{2}+c^{2}-a b-b c-c a\\right)+(a+b+c)^{2}=35 .\\]<br>Mâu thuẩn vì 35 không chia hết cho 3<br>Trường hợp 2: %(n=7)%.<br>Theo chứng minh ở trên, ta phải có %(a^{2}+b^{2}+c^{2}-a b-b c-c a=7)% và %(a+b+c=1)%.<br>Từ đó %(3\\left(a^{2}+b^{2}+c^{2}=2\\left(a^{2}+b^{2}+c^{2}-a b-b c-c a\\right)+(a+b+c)^{2}=15\\right.)%, suy ra %(a^{2}+b^{2}+c^{2}=5)% và %(a b+b c+c a=-2)%.<br>Do %(5=a^{2}+b^{2}+c^{2} \\geq 1+c^{2})% nên %(c \\leq 2)%.<br>Mà %(c \\geq 1)% nên %(c \\in\\{1 ; 2\\})%.- Nếu %(c=2)%, thì ta có %(a^{2}+b^{2}=1)%.<br>Suy ra %(a^{2} \\leq 1)%, tức %(a \\geq-1)%. Mà %(a\\lt 0)% nên %(a=-1)% và %(b=)% 0 .<br>Thử lại, ta thấy thỏa mãn.<br>- Nếu %(c=1)%, thì ta có %(a^{2}+b^{2}=4)%.<br>Suy ra %(a^{2} \\leq 4)%, tức %(a \\geq-2)%.<br>Mà %(a\\lt 0)% nên %(a \\in\\{-1,-2\\})%.<br>Thử trực tiếp, ta được %(a=-2)% và %(b=0)%.<br>Tuy nhiên, các số %(a=-2, b=0)% và %(c=1)% không thỏa mãn %(a+b+c=1)%.<br>Vậy, có duy nhất một bộ số %((a, b, c))% thỏa mãn yêu cầu đề bài là %((-1,0,2))%.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,210 @@
+[
+    {
+        "title": "Câu 1 ",
+        "point": 0.25,
+        "content": "Có bao nhiêu cách chọn ra một tổ trưởng và một tổ phó từ một tổ có 10 người? Biết khả năng được chọn của mỗi người trong tổ là như nhau.",
+        "question_images": [],
+        "labelA": "100.",
+        "labelB": "90.",
+        "labelC": "50.",
+        "labelD": "45 .",
+        "correct_label": "labelB",
+        "solution": "Chọn một tổ trưởng từ 10 người có 10 cách chọn.<br>Chọn một tổ phó từ 9 người còn lại có 9 cách chọn.<br>Theo quy tắc nhân, ta có %(10.9=90)% cách chọn thỏa yêu cầu bài toán.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 0.25,
+        "content": "Có bao nhiêu cách sắp xếp 22 thí sinh vào một phòng thi có 22 bàn, mỗi bàn một thí sinh.",
+        "question_images": [],
+        "labelA": "22 .",
+        "labelB": "1 .",
+        "labelC": "22 !",
+        "labelD": "2.22 !",
+        "correct_label": "labelC",
+        "solution": "Số cách sắp xếp 22 thí sinh vào một phòng thi có 22 bàn, mỗi bàn một thí sinh là 22!.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 0.25,
+        "content": "Cho hai đường thẳng %(d_{1})% và %(d_{2})% song song với nhau. Trên %(d_{1})% có 10 điểm phân biệt, trên %(d_{2})% có %(n)% điểm phân biệt %((n \\geq 2))%. Biết rằng có 2800 tam giác có đỉnh là 3 điểm trong số các điểm đã cho, tìm %(n)%.",
+        "question_images": [],
+        "labelA": "30.",
+        "labelB": "25.",
+        "labelC": "20 .",
+        "labelD": "15.",
+        "correct_label": "labelC",
+        "solution": "Một tam giác được tạo bởi ba điểm phân biệt nên ta xét:<br>TH1. Chọn 1 điểm thuộc %(d_{1})% và 2 điểm thuộc %(d_{2} \\longrightarrow)% có %(C_{10}^{1} \\cdot C_{n}^{2})% tam giác.<br>TH2 . Chọn 2 điểm thuộc %(d_{1})% và 1 điểm thuộc %(d_{2} \\longrightarrow)% có %(C_{10}^{2} \\cdot C_{n}^{1})% tam giác.<br>Như vậy, ta có %(C_{10}^{1} \\cdot C_{n}^{2}+C_{10}^{2} \\cdot C_{n}^{1}=2800)%<br>%(\\begin{array}{l}\\Leftrightarrow 10 \\cdot \\frac{n!}{2!(n-2)!}+45 \\cdot \\frac{n!}{1!(n-1)!}=2800 \\Leftrightarrow 5 n(n-1)+45 n=2800 \\\\ \\Leftrightarrow 5 n^{2}+40 n-2800=0 \\Leftrightarrow\\left[\\begin{array}{l}n=20(\\mathrm{tm}) \\\\ n=-28(l)\\end{array}\\right.\\end{array})%<br>Vậy n = 20.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 0.25,
+        "content": "Trong một hộp đựng 8 cây bút xanh và 6 cây bút đỏ. Hỏi có bao nhiêu cách chọn 3 cây bút sao cho có đủ cả 2 màu?",
+        "question_images": [],
+        "labelA": "286 .",
+        "labelB": "288 .",
+        "labelC": "312.",
+        "labelD": "213.",
+        "correct_label": "labelB",
+        "solution": "Trường hợp 1: Chọn 2 cây bút xanh và 1 cây bút vàng, ta có: %(C_{8}^{2} \\cdot C_{6}^{1}=168)% cách.<br>Trường hợp 2 : Chọn 1 cây xanh và 2 cây bút vàng, ta có: %(C_{8}^{1} \\cdot C_{6}^{2}=120)% cách.<br>Theo quy tắc cộng, ta có: 168 + 120 = 288 cách chọn.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 0.25,
+        "content": "Viết khai triển theo công thức nhị thức Niu-tơn %((x-y)^{5})%.",
+        "question_images": [],
+        "labelA": "%(x^{5}-5 x^{4} y+10 x^{3} y^{2}-10 x^{2} y^{3}+5 x y^{4}-y^{5})%.",
+        "labelB": "%(x^{5}-5 x^{4} y-10 x^{3} y^{2}-10 x^{2} y^{3}-5 x y^{4}+y^{5})%",
+        "labelC": "%(x^{5}+5 x^{4} y+10 x^{3} y^{2}+10 x^{2} y^{3}+5 x y^{4}+y^{5})%",
+        "labelD": "%(x^{5}+5 x^{4} y-10 x^{3} y^{2}+10 x^{2} y^{3}-5 x y^{4}+y^{5})%.",
+        "correct_label": "labelA",
+        "solution": "Theo công thức nhị thức Niu-tơn:<br>%((x-y)^{5}=[x+(-y)]^{5}=C_{5}^{0} x^{5}+C_{5}^{1} x^{4}(-y)^{1}+C_{5}^{2} x^{3}(-y)^{2}+C_{5}^{3} x^{2}(-y)^{3}+C_{5}^{4} x^{1}(-y)^{4}+C_{5}^{5} \\cdot(-y)^{5})%<br>Hay %((x-y)^{5}=x^{5}-5 x^{4} y+10 x^{3} y^{2}-10 x^{2} y^{3}+5 x y^{4}-y^{5})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 6 ",
+        "point": 0.25,
+        "content": "Đo độ cao của một ngọn cây là %(h=17,15 \\mathrm{~m} \\pm 0,4 \\mathrm{~m})%. Hãy viết số quy tròn của số 17,15 ?",
+        "question_images": [],
+        "labelA": "17,2 .",
+        "labelB": "17,15.",
+        "labelC": "17,16 .",
+        "labelD": "17 .",
+        "correct_label": "labelD",
+        "solution": "Ta có độ chính xác d = 0,4 nên ta quy tròn số gần đúng đến hàng đơn vị.<br>Số quy tròn là 17m",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 7 ",
+        "point": 0.25,
+        "content": "Cho điểm kiểm tra môn toán của một nhóm học sinh như sau:<br>           4 ; 5 ; 6 ; 5 ; 8 ; 9 ; 10 ; 9 . Phương sai của các số liệu thống kê là",
+        "question_images": [],
+        "labelA": "8 .",
+        "labelB": "%(\\frac{9}{2})%.",
+        "labelC": "5 .",
+        "labelD": "%(\\frac{7}{2})%.",
+        "correct_label": "labelD",
+        "solution": "Giá trị trung bình của dãy số liệu thống kê đã cho là:<br>%(\\bar{x}=\\frac{4+5+6+5+8+9+10+9}{8}=7)%.<br>Phương sai của các số liệu thống kê là<br>%(\\begin{array}{l}S_{x}^{2}=\\frac{(\\bar{x}-4)^{2}+2(\\bar{x}-5)^{2}+(\\bar{x}-6)^{2}+(\\bar{x}-8)^{2}+2(\\bar{x}-9)^{2}+(\\bar{x}-10)^{2}}{8} \\\\ =\\frac{(7-4)^{2}+2(7-5)^{2}+(7-6)^{2}+(7-8)^{2}+2(7-9)^{2}+(7-10)^{2}}{8}=\\frac{7}{2} .\\end{array})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 8 ",
+        "point": 0.25,
+        "content": "Một em bé chơi trò chơi xếp chữ và em bé đó có bộ 6 thẻ chữ, trên mỗi thẻ có ghi một chữ cái, trong đó có 3 thẻ chữ %(\\mathbf{T})% có 3 màu đỏ, xanh, vàng, một thẻ chữ %(\\mathbf{N})%, một thẻ chữ %(\\mathbf{H})% và một thẻ chữ %(\\mathbf{P})%. Em bé đó xếp ngẫu nhiên 6 thẻ đó thành một hàng ngang. Tính xác suất em bé xếp được thành dãy <strong>TNTHPT</strong>",
+        "question_images": [],
+        "labelA": "%(\\frac{1}{20})%.",
+        "labelB": "%(\\frac{1}{6})%.",
+        "labelC": "%(\\frac{1}{720})%.",
+        "labelD": "%(\\frac{1}{120})%.",
+        "correct_label": "labelD",
+        "solution": "Ba chữ %(\\mathbf{T})% là riêng biệt nên ta có: %(n \\ \\Omega=6)% !.<br>Gọi %(A)% là biến cố:\"xếp ngẫu nhiên 6 thẻ đó thành dãy <strong>TNTHPT</strong>\", suy ra %(n \\ A=3)% !<br>( số hoán vị của %(\\mathbf{T}-\\mathbf{T}-\\mathbf{T})% và %(\\mathbf{N}, \\mathbf{H}, \\mathbf{P})% cố định).<br>Vậy xác suất của biến cố %(A: P A=\\frac{3!}{6!}=\\frac{1}{120})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 9 ",
+        "point": 0.25,
+        "content": "Trong mặt phẳng toạ độ %(O x y)%, cho điểm %(A)% như hình vẽ bên. Điểm %(A)% có tọa độ là",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/854c8efec7db41742bbeb4c2e3786edc.png"
+        ],
+        "labelA": "(2;4).",
+        "labelB": "(4;2).",
+        "labelC": "(2;0).",
+        "labelD": "(− 2; - 4).",
+        "correct_label": "labelB",
+        "solution": "Dựa vào hình vẽ ta thấy điểm A có toạ độ (4;2).",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 10 ",
+        "point": 0.25,
+        "content": "Trong mặt phẳng tọa độ %(O x y)%, cho hai điểm %(A(1 ; 0), B(-5 ; 8))%. Phương trình đường tròn đường kính %(A B)% là",
+        "question_images": [],
+        "labelA": "%((x-2)^{2}+(y+4)^{2}=5)%",
+        "labelB": "%((x-2)^{2}+(y+4)^{2}=25)%",
+        "labelC": "%((x+2)^{2}+(y-4)^{2}=25)%",
+        "labelD": "%((x+2)^{2}+(y-4)^{2}=5)%",
+        "correct_label": "labelC",
+        "solution": "Tâm %(I)% là trung điểm đoạn %(A B \\Rightarrow I(-2 ; 4))%.<br>Bán kính: %(R=I A=\\sqrt{(1+2)^{2}+(0-4)^{2}}=5)%<br>Vậy phương trình đường tròn là %((x+2)^{2}+(y-4)^{2}=25)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 11 ",
+        "point": 0.25,
+        "content": "Phương trình chính tắc của %((E))% có độ dài trục lớn gấp 3 lần độ dài trục nhỏ và tiêu cự bằng %(8 \\sqrt{2})% là:",
+        "question_images": [],
+        "labelA": "%(\\frac{x^{2}}{36}+\\frac{y^{2}}{9}=1)%.",
+        "labelB": "%(\\frac{x^{2}}{36}+\\frac{y^{2}}{4}=1)%.",
+        "labelC": "%(\\frac{x^{2}}{6}+\\frac{y^{2}}{2}=1)%",
+        "labelD": "%(\\frac{x^{2}}{16}+\\frac{y^{2}}{9}=1)%.",
+        "correct_label": "labelB",
+        "solution": "Gọi phương trình chính tắc của %((E))% có dạng %(\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a\\gt b>0))% ta có:<br>Do độ dài trục lớn gấp 3 lần độ dài trục nhỏ nên %(a=3 b)%.<br>Do tiêu cự bằng %(8 \\sqrt{2})% nên %(2 c=8 \\sqrt{2} \\Leftrightarrow c=4 \\sqrt{2})%.<br>Ta có : %(b^{2}=a^{2}-c^{2} \\Leftrightarrow b^{2}=9 b^{2}-32 \\Leftrightarrow b^{2}=4 \\Leftrightarrow b=2 \\Rightarrow a=6)%<br>%(\\Rightarrow(E): \\frac{x^{2}}{36}+\\frac{y^{2}}{4}=1)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 12 ",
+        "point": 0.25,
+        "content": "Trong hệ toạ độ %(O x y)%, cho hai điểm %(A, B)% thay đổi trên đường tròn %((C))% có phương trình %((x-3)^{2}+(y+4)^{2}=9)% sao cho %(A B=4)%. Tìm giá trị lớn nhất của biểu thức %(O A^{2}-O B^{2})%.",
+        "question_images": [],
+        "labelA": "20.",
+        "labelB": "40 .",
+        "labelC": "36 .",
+        "labelD": "30 .",
+        "correct_label": "labelB",
+        "solution": "Đường tròn %((C))% có tâm là %(I(3 ;-4))%, bán kính %(R=3)%. Ta có: %(O I=5)%.<br>Gọi %(H)% là trung điểm của đoạn thẳng %(A B)%, ta có: %(I H \\perp A B)%.<br>Xét: %(O A^{2}-O B^{2}=(\\overrightarrow{O A}-\\overrightarrow{O B}) \\cdot(\\overrightarrow{O A}+\\overrightarrow{O B}))%<br>%(=\\overrightarrow{B A} \\cdot 2 \\overrightarrow{O H}=2 \\overrightarrow{B A} \\cdot(\\overrightarrow{O I}+\\overrightarrow{I H})=2 \\overrightarrow{B A} \\cdot \\overrightarrow{O I})%<br>Mà %(2 \\overrightarrow{B A} \\cdot \\overrightarrow{O I}=2 \\cdot B A \\cdot O I \\cdot \\cos (\\overrightarrow{B A}, \\overrightarrow{O I}) \\leq 2 \\cdot B A \\cdot O I=40)%.<br>Dấu bằng xảy ra khi %(\\overrightarrow{B A}, \\overrightarrow{O I})% cùng hướng.<br>Vậy giá trị lớn nhất của biểu thức %(O A^{2}-O B^{2})% bằng 40 .<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/fe8252aca453c17bc4ec99c4ee71c35d.png\" srcset=\"https://docdn.giainhanh.io/media/test/cae8522ceb3378840c104941f23eed6f.png 144w, https://docdn.giainhanh.io/media/test/413c09d7faa59a337e440bb4b9be4138.png 460w\" width=\"460\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 17 ",
+        "point": 0.5,
+        "content": "Biết hàm số bậc hai %(y=a x^{2}+b x+c)% đạt giá trị nhỏ nhất là 4 tại %(x=2)% và đồ thị của nó cắt trục tung tại điểm có tung độ là 6 . Tính %(2 a+b-3 c)% ?",
+        "question_images": [],
+        "solution": "Vì đồ thị hàm số cắt trục tung tại điểm có tung độ là 6 nên %(c=6)%.<br>Mặt khác hàm số đạt giá trị nhỏ nhất là 4 tại %(x=2)% nên đồ thị hàm số có đỉnh<br>%(I(2 ; 4))%. Do đó ta có: %(\\left\\{\\begin{array}{l}-\\frac{b}{2 a}=2 \\\\ 4 a+2 b+c=4 \\\\ c=6\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}b=-4 a \\\\ 4 a+2 b=-2 \\\\ c=6\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a=\\frac{1}{2} \\\\ b=-2 \\\\ c=6\\end{array}\\right.\\right.\\right.)% (nhận).<br>Vậy %(2 a+b-3 c=-19)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 18 ",
+        "point": 0.5,
+        "content": "Nhà Ông bà ngoại của Tuấn có một ao cá dạng hình chữ nhật %(A B C D)% với chiều dài %(A D=29 \\mathrm{~m})%, chiều rộng %(A B=24 \\mathrm{~m})%. Phần tam giác %(D E F)% là nơi ông bà của Tuấn nuôi Vịt, %(A E=9 m, F C=12 \\mathrm{~m})% (với %(E, F)% lần lượt là các điểm nằm trên cạnh %(A D, D C)% ) (tham khảo hình bên dưới).<br>Tuấn đứng ở vị trí %(B)% để câu cá. Hỏi Tuấn có thể quăng lưỡi câu xa tối đa bao nhiêu mét (làm tròn đến hàng đơn vị) để lưỡi câu không thể rơi vào nơi nuôi Vịt.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/23935a0a604fbaf9991875fc6c84f299.png"
+        ],
+        "solution": "Xét hệ toạ độ %(O x y)% sao cho %(D \\equiv O)%, điểm %(A)% thuộc tia %(O x, B)% thuộc tia %(O y)%<br>Khi đó: %(E(20 ; 0), F(0 ; 12), B(29 ; 24))%<br>Ta có phương trình đường thẳng %(E F: \\frac{x}{20}+\\frac{y}{12}=1 \\Leftrightarrow 3 x+5 y-60=0)%<br>Khoảng cách từ %(B)% tới đường thẳng %(E F)% là:<br>%(d(B, E F)=\\frac{|3.29+5.24-60|}{\\sqrt{3^{2}+5^{2}}}=\\frac{147}{\\sqrt{34}} \\approx 25,21 \\mathrm{~m})%<br>Để Tuấn quăng lưỡi câu không vào ô nuôi Vịt thì có thể quăng tối đa là 25 mét.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 19 ",
+        "point": 0.5,
+        "content": "Từ các chữ số %(0,1,2,3,4,5,6,7,8)% có thể lập được bao nhiêu số tự nhiên chã̃n có 4 chữ số khác nhau đôi một và không lớn hơn 4568?",
+        "question_images": [],
+        "solution": "Gọi số cần tìm có dạng: %(a b c d)%. Xảy ra các trường hợp sau:<br>Trường hợp 1: %(a\\lt 4)%. Chọn %(a \\in\\{1,2,3\\})% xảy ra hai tình huống:<br>- %(a \\in\\{1,3\\})%. Chọn %(a)% có 2 cách. Chọn %(d \\in\\{0,2,4,6,8\\})% có 5 cách. Chọn %(b \\neq a, d)% có 7 cách. Chọn %(c \\neq a, b, d)% có 6 cách.<br>- %(a=2)%. Chọn %(d \\in\\{0,4,6,8\\})% có 4 cách. Chọn %(b \\neq a, d)% có 7 cách. Chọn %(c \\neq a, b, d)% có 6 cách.<br>Vậy số kết quả trong trường hợp này là: %(2 \\cdot 5.7 .6+4.7 .6=588)% (số).<br>Trường hợp 2: %(a=4, b\\lt 5)%. Chọn %(b \\in\\{0,1,2,3\\})% xảy ra hai tình huống:<br>- %(b \\in\\{1,3\\})%. Chọn %(b)% có 2 cách. Chọn %(d \\in\\{0,2,6,8\\})% có 4 cách. Chọn %(c \\neq a, b, d)% có 6 cách.<br>- %(b \\in\\{0,2\\})%. Chọn %(b)% có 2 cách. Chọn %(d \\in\\{0,2,6,8\\} \\backslash\\{b\\})% có 3 cách. Chọn %(c \\neq a, b, d)% có 6 cách.<br>Vậy số kết quả trong trường hợp này là: %(2 \\cdot 4.6+2.3 .6=84)% (số).<br>Trường hợp 3: %(a=4, b=5, c\\lt 6)%. Chọn %(c \\in\\{0,1,2,3\\})% xảy ra hai tình huống:<br>- %(c \\in\\{1,3\\})%. Chọn c có 2 cách. Chọn %(d \\in\\{0,2,6,8\\})% có 4 cách.<br>- %(c \\in\\{0,2\\})%. Chọn c có 2 cách. Chọn %(d \\in\\{0,2,6,8\\} \\backslash\\{c\\})% có 3 cách.<br>Vậy số kết quả trong trường hợp này là: %(2.4+2.3=14)% (số).<br>Trường hợp 4: %(a=4, b=5, c=6, d \\leq 8)%. Chọn %(d \\in\\{0,2,8\\})% có 3 cách.<br>Vậy số kết quả trong trường hợp này là: 3 (số).<br>Kết quả cần tìm là: %(588+84+14+3=689)% (số).",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 20 ",
+        "point": 0.5,
+        "content": "Cho phương trình %(x^{4}+m x^{3}-2\\left(m^{2}-1\\right) x^{2}+m x+1=0)% với %(m)% là tham số. Tìm tất cả các giá trị của tham số %(m)% để phương trình trên có đúng 4 nghiệm phân biệt.",
+        "question_images": [],
+        "solution": "%(x^{4}+m x^{3}-2\\left(m^{2}-1\\right) x^{2}+m x+1=0)% (1)<br>Nhận xét rằng %(x=0)% không phải là nghiệm của phương trình (1). Chia cả hai vế của phương trình cho %(x^{2} \\neq 0)% ta được:<br>%(x^{2}+m x-2\\left(m^{2}-1\\right)+m \\cdot \\frac{1}{x}+\\frac{1}{x^{2}}=0 \\Leftrightarrow\\left(x^{2}+\\frac{1}{x^{2}}\\right)+m\\left(x+\\frac{1}{x}\\right)-2 m^{2}+2=0)%.<br>Đặt %(t=x+\\frac{1}{x})%, điều kiện %(|t| \\geq 2)%, suy ra %(x^{2}+\\frac{1}{x^{2}}=t^{2}-2)%.<br>Khi đó, phương trình trở thành: %(f(t)=t^{2}+m t-2 m^{2}=0)%   (2)<br>Phương trình (1) có bốn nghiệm phân biệt tức (2) có nghiệm thỏa mãn<br>%(\\left[\\begin{array}{l}2\\lt t_{1}\\lt t_{2}(*) \\\\ t_{1}\\lt t_{2}\\lt -2(*) \\\\ t_{1}\\lt -2\\lt 2\\lt t_{2}(* *)\\end{array}\\right.)%.<br>Nhận xét: Phương trình (2) có %(a c=-2 m^{2} \\leq 0)% nên %(\\left(^{*}\\right))% không thể xảy ra.<br>Do đó, để có %((* *))% thì điều kiện là:<br>%(\\left\\{\\begin{array}{l}f(2)\\lt 0 \\\\ f(-2)\\lt 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}4+2 m-2 m^{2}\\lt 0 \\\\ 4-2 m-2 m^{2}\\lt 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}m^{2}-m-2\\gt 0 \\\\ m^{2}+m-2>0\\end{array} \\Leftrightarrow|m|>2\\right.\\right.\\right.)%.<br>Vậy với %(|m|\\gt 2)% thì thỏa mãn đề bài cho.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 21 ",
+        "point": 0.5,
+        "content": "Cho đường tròn %((C):(x-2)^{2}+(y-3)^{2}=2 ;(\\Delta): x-y-2=0)%. Tìm %(A, B \\in(C))% sao cho khoảng cách từ %(A, B)% đến ( %(\\triangle)% ) lần lượt đạt giá trị nhỏ nhất, lớn nhất. Hãy tính %(d(A ; \\Delta)+d(B ; \\Delta))% (Kết quả làm tròn đến hàng phằn trăm)",
+        "question_images": [],
+        "solution": "Đường tròn %((C):(x-2)^{2}+(y-3)^{2}=2)% có tâm %(I(2 ; 3))%, bán kính %(R=\\sqrt{2})%.<br>Ta có %(d(I ; \\Delta)=\\frac{|2-3-2|}{\\sqrt{2}}=\\frac{3}{\\sqrt{2}}\\gt \\sqrt{2} \\Rightarrow(\\Delta))% không cắt %((C))%.<br>Gọi %((d))% là đường thẳng đi qua tâm %(I)% và vuông góc với %((\\Delta))%.<br>Khi đó đường thẳng %((d))% có phương trình dạng %((d): x+y+c=0)%.Do %(I \\in(d) \\Rightarrow 2+3+c=0 \\Leftrightarrow c=-5)%.<br>Vậy %((d): x+y-5=0)%.<br>Xét hệ phương trình %(\\left\\{\\begin{array}{l}(d) \\\\ (C)\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x+y-5=0 \\\\ (x-2)^{2}+(y-3)^{2}=2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}y=5-x \\\\ (x-2)^{2}+(2-x)^{2}=2\\end{array}\\right.\\right.\\right.)%<br>%(\\Leftrightarrow\\left\\{\\begin{array}{l}y=5-x \\\\ (x-2)^{2}=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=3 ; y=2 \\\\ x=1 ; y=4\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}A(3 ; 2) \\\\ B(1 ; 4)\\end{array}\\right.\\right.\\right.)%<br>Tính thử %(d(A ; \\Delta)=\\frac{|3-2-2|}{\\sqrt{2}}=\\frac{1}{\\sqrt{2}} ; d(B ; \\Delta)=\\frac{|1-4-2|}{\\sqrt{2}}=\\frac{5}{\\sqrt{2}})%.<br>Vậy %(d(A ; \\Delta)+d(B ; \\Delta)=\\frac{1}{\\sqrt{2}}+\\frac{5}{\\sqrt{2}}=3 \\sqrt{2})%<br>Đáp án: 4, 24<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7bf60926589e3534305f7e05c9a17549.png\" srcset=\"https://docdn.giainhanh.io/media/test/1c77691f24e670343e4e0f58283ca66e.png 185w\" width=\"185\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 22 ",
+        "point": 0.5,
+        "content": "Thầy giáo chủ nhiệm có 15 quyển sách gồm 4 quyển sách Toán, 5 quyển sách Lý và 6 quyển sách Hóa. Các quyển sách đôi một khác nhau. Vào dịp cuối năm học thầy giáo chọn ngẫu nhiên 8 quyển sách để làm phần thưởng cho một em học sinh của lớp có hoàn cảnh khó khăn nhưng luôn cố gắng vươn lên trong học tập. Xác suất để số quyển sách còn lại của thầy giáo có đủ 3 môn Toán, Lý và Hóa là bao nhiêu?",
+        "question_images": [],
+        "solution": "Số phần tử của không gian mẫu: %(n(\\Omega)=C_{15}^{8})%<br>Gọi A là biến cố: “ Số quyển sách còn lại của thầy giáo có đủ 3 môn\".<br>%(\\bar{A})% là biến cố: \"Số quyển sách còn lại của thầy giáo không đủ 3 môn\".<br>Xét các khả năng xảy ra:<br>TH1: Số sách còn lại gồm 2 môn Lý, Hóa (tặng hết sách Toán). Số cách chọn là %(C_{11}^{4})%<br>TH 2 : Số sách còn lại gồm 2 môn Toán, Hóa (tặng hết sách Lý). Số cách chọn là %(C_{10}^{3})%<br>TH3: Số sách còn lại gồm 2 môn Toán, Lý (tặng hết sách Hóa): Số cách chọn là %(C_{9}^{2})%<br>Xác suất để số quyển sách còn lại của thầy giáo có đủ 3 môn Toán, Lý và Hóa là:<br>\\[P(A)=1-P(\\bar{A})=1-\\frac{C_{11}^{4}+C_{10}^{3}+C_{9}^{2}}{C_{15}^{8}}=\\frac{661}{715}\\]",
+        "question_type": "essay"
+    }
+]

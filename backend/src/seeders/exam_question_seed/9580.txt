@@ -1,0 +1,81 @@
+[
+    {
+        "title": "Câu 1 ",
+        "point": 1.5,
+        "content": "Cho biểu thức %(A=\\left(\\frac{x^{2}-2 x}{2 x^{2}+8}-\\frac{2 x^{2}}{8-4 x+2 x^{2}-x^{3}}\\right)\\left(1-\\frac{1}{x}-\\frac{2}{x^{2}}\\right))%. Tìm các giá trị nguyên của x để A có giá trị nguyên",
+        "question_images": [],
+        "solution": "Điều kiện : %(x \\neq 0 ; x \\neq 2)%. Ta có :<br>\\[\\begin{array}{l}A=\\left(\\frac{x^{2}-2 x}{2 x^{2}+8}-\\frac{2 x^{2}}{8-4 x+2 x^{2}-x^{3}}\\right)\\left(1-\\frac{1}{x}-\\frac{2}{x^{2}}\\right) \\\\=\\left(\\frac{x^{2}-2 x}{2\\left(x^{2}+4\\right)}-\\frac{2 x^{2}}{4(2-x)+x^{2}(2-x)}\\right) \\cdot \\frac{x^{2}-x-2}{x^{2}} \\\\=\\frac{x(x-2)^{2}+4 x^{2}}{2(x-2)\\left(x^{2}+4\\right)} \\cdot \\frac{(x+1)(x-2)}{x^{2}}=\\frac{x^{3}-4 x^{2}+4 x+4 x^{2}}{2\\left(x^{2}+4\\right)} \\cdot \\frac{x+1}{x^{2}} \\\\=\\frac{x\\left(x^{2}+4\\right)(x+1)}{2 x^{2}\\left(x^{2}+4\\right)}=\\frac{x+1}{2 x} \\A \\in Z \\Leftrightarrow \\frac{x+1}{2 x} \\in Z \\Rightarrow \\frac{2 x+2}{2 x} \\in Z \\Rightarrow 2 \\vdots 2 x \\Rightarrow 1 \\vdots x \\Rightarrow x= \\pm 1(\\mathrm{tm})\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 1.5,
+        "content": "Cho %(x, y, z)% đôi một khác nhau thỏa mãn %(x+y+z=0)%. Tính giá trị của biểu thức :<br>\\[B=\\frac{\\left(x y+2 z^{2}\\right)\\left(y z+2 x^{2}\\right)\\left(z x+2 y^{2}\\right)}{\\left(2 x y^{2}+2 y z^{2}+2 z x^{2}+3 x y z\\right)^{2}}\\]",
+        "question_images": [],
+        "solution": "Ta có %(x+y+z=0 \\Rightarrow x+y=-z)%. Do đó :<br>\\[x y+2 z^{2}=x y+z^{2}-z(x+y)=(z-x)(z-y)\\]<br>Tương tự : %(y z+2 x^{2}=(x-y)(x-z) ; \\quad z x+2 y^{2}=(y-z)(y-x))%<br>Nên tử số của %(B=-(x-y)^{2}(y-z)^{2}(z-x)^{2})%<br>Chứng minh được : %(2 x y^{2}+2 y z^{2}+2 z x^{2}+3 x y z=(x-y)(y-z)(z-x))%<br>Nên mẫu số của B là : %([(x-y)(y-z)(z-x)]^{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 1.5,
+        "content": "Giải phương trình nghiệm nguyên : %(x^{2}+x y-2014 x-2015 y-2016=0)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}x^{2}+x y-2014 x-2015 y-2016=0 \\Leftrightarrow x^{2}+x y+x-2015 x-2015 y-2015=1 \\\\Leftrightarrow x(x+y+1)-2015(x+y+1)=1 \\Leftrightarrow(x+y+1)(x-2015)=1=1.1=-1 .-1 \\\\*\\left\\{\\begin{array} { l } { x - 2 0 1 5 = 1 } \\\\{ x + y + 1 = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x = 2 0 1 6 } \\\\{ y = - 2 0 1 6 }\\end{array} * \\left\\{\\begin{array} { l } { x - 2 0 1 5 = - 1 } \\\\{ x + y + 1 = - 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=2014 \\y=-2016\\end{array}\\right.\\right.\\right.\\right.\\end{array}\\]<br>Vậy phương trình có nghiệm %(\\left\\{\\begin{array}{l}x=2016 \\\\ y=-2016\\end{array} ;\\left\\{\\begin{array}{l}x=2014 \\\\ y=-2016\\end{array}\\right.\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 1.0,
+        "content": "Cho các số nguyên %(a, b, c)% thỏa mãn %(2 a+b, 2 b+c, 2 c+a)% đều là các số chính phương. Biết rằng một trong 3 số chính phương trên chia hết cho 3 Chứng minh rằng %(P=(a-b)^{3}+(b-c)^{3}+(c-a)^{3})% chia hết cho 81",
+        "question_images": [],
+        "solution": "Vì 3 số %(2 a+b ; 2 b+c ; 2 c+a)% đều là các số chính phương nên 3 số này chia 3 chỉ có thể dư 0 hoặc 1. Chứng minh nếu %(x+y+z=0)% thì %(x^{3}+y^{3}+z^{3}=3 x y z)%<br>Vì trong 3 số trên có 1 số chia hết cho 3 và %((2 a+b)+(2 b+c)+(2 c+a)=3(a+b+c))% : 3 nên suy ra 3 số cùng chia hết cho 3 .<br>Mặt khác : %(2 a+b=3 a-(a-b) \\Rightarrow a-b \\vdots)%3<br>Tương tự chứng minh được %(b-c, c-a)% chia hết cho 3.<br>Suy ra %((a-b)(b-c)(c-a) \\vdots 27)%<br>Vì %((a-b)+(b-c)+(c-a)=0)% nên<br>\\[P=(a-b)^{3}+(b-c)^{3}+(c-a)^{3}=3(a-b)(b-c)(c-a) \\vdots 27.3 \\vdots 81\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 1.0,
+        "content": "Cho ba số %(a, b, c)% thỏa mãn %(a \\geq \\frac{4}{3} ; b \\geq \\frac{4}{3} ; c \\geq \\frac{4}{3})% và %(a+b+c=6)%Chứng minh rằng %(\\frac{a}{a^{2}+1}+\\frac{b}{b^{2}+1}+\\frac{c}{c^{2}+1} \\geq \\frac{6}{5})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Vì } a \\geq \\frac{4}{3} \\Rightarrow(3 a-4)(a-2)^{2} \\geq 0 \\\\Leftrightarrow 3 a^{3}-16 a^{2}+28 a-16 \\geq 0 \\Leftrightarrow 25 a^{2} \\geq 16 a^{2}+16-3 a^{3}-3 a \\Leftrightarrow 25 a \\geq\\left(a^{2}+1\\right)(16-3 a)(*)\\end{array}\\]<br>Chia cả 2 vế của %(\\left(^{*}\\right))% cho %(25\\left(a^{2}+1\\right))% ta được %(\\frac{a^{2}}{a^{2}+1} \\geq \\frac{16-3 a}{25})%<br>Tương tự ta có %(: \\frac{b}{b^{2}+1} \\geq \\frac{16-3 b}{25} ; \\frac{c}{c^{2}+1} \\geq \\frac{16-3 c}{25})%<br>Do đó : %(\\frac{a}{a^{2}+1}+\\frac{b}{b^{2}+1}+\\frac{c}{c^{2}+1} \\geq \\frac{48-3(a+b+c)}{25}=\\frac{30}{25}=\\frac{6}{5})%.<br>Dấu bằng xảy ra khi %(a=b=c=2)% Vậy %(\\frac{a}{a^{2}+1}+\\frac{b}{b^{2}+1}+\\frac{c}{c^{2}+1} \\geq \\frac{6}{5})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6",
+        "group_content": "Cho O là trung điểm của đoạn thẳng %(A B)%. Trên cùng một nửa mặt phẳng có bờ là AB vẽ tia %(A x, B y)% cùng vuông góc với AB . Trên tia Ax lấy điểm C (khác A%())%, qua O kẻ đường thẳng vuông góc với OC cắt tia By tại D",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(\\frac{A B}{4 B D}=\\frac{C D}{A B})%",
+        "question_images": [],
+        "solution": "Chứng minh %(\\triangle O A C \\sim \\triangle D B O(g \\cdot g) \\Rightarrow \\frac{O A}{D B}=\\frac{A C}{O B} \\Rightarrow O A \\cdot O B=A C \\cdot B D)%<br>%(\\Rightarrow \\frac{A B}{2} \\cdot \\frac{A B}{2}=A C \\cdot B D \\Rightarrow \\frac{A B}{4 B D}=\\frac{C D}{A B}(d pc m))%<br><img alt=\"Screenshot 2024-07-15 085527.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0fff8f0f618c9bfa474e91babfe90f48.png\" srcset=\"https://docdn.giainhanh.io/media/test/fb8f4a632892478935f50590d6485536.png 163w, https://docdn.giainhanh.io/media/test/a2150e1d711f7cb564838c97fa27696e.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.75,
+        "content": "b) Kẻ OM vuông góc với CD tại M , từ M kẻ %(M H)% vuông góc với AB tại H . Chứng minh BC đi qua trung điểm của MH",
+        "question_images": [],
+        "solution": "Kẻ OM vuông góc với CD tại M , từ M kẻ %(M H)% vuông góc với AB tại %(H)%. Chứng minh %(B C)% đi qua trung điểm của MH<br>Theo câu a) ta có %(\\triangle O A C \\sim \\triangle D B O(g . g) \\Rightarrow \\frac{O C}{O D}=\\frac{A C}{O B})% mà %(O A=O B \\Rightarrow \\frac{O C}{O D}=\\frac{A C}{O A} \\Rightarrow \\frac{O C}{A C}=\\frac{O D}{O A})%<br>Chứng minh %(\\triangle O A C \\sim \\triangle D O C)% (c.g.c) %(\\Rightarrow \\angle A C O=\\angle O C M)%<br>Chứng minh %(\\triangle O A C=\\triangle O M C(c h-g n) \\Rightarrow A C=M C)%<br>Ta có %(\\triangle O A C=\\triangle O M C \\Rightarrow O A=O M ; C A=C M \\Rightarrow O C)% là trung trực của %(\\mathrm{AM} \\Rightarrow O C \\perp A M)%<br>Mặt khác %(O A=O M=O B \\Rightarrow \\triangle A M B)% vuông tại M<br>Suy ra %(O C / / B M)% (vì cùng vuông góc với AM) suy ra %(O C / / B I)%<br>Xét %(\\triangle A B I)% có OM đi qua trung điểm AB , song song BI suy ra OM đi qua trung điểm AI<br>%(\\Rightarrow I C=A C)%%(M H / / A I)% theo hệ quả định lý Talet ta có %(: \\frac{M K}{I C}=\\frac{B K}{B C}=\\frac{K H}{A C})%<br>Mà %(I C=A C \\Rightarrow M K=H K \\Rightarrow B C)% đi qua trung điểm %(\\mathrm{MH}(\\mathrm{dpcm}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 0.75,
+        "content": "c) Tìm vị trí điểm C trên tia Ax để diện tích tứ giác %(A B D C)% nhỏ nhất",
+        "question_images": [],
+        "solution": "Tứ giác %(A B D C)% là hình thang vuông nên %(S_{A B C D}=\\frac{1}{2}(A C+B D) \\cdot A B)%<br>Ta thấy %(A C, B D\\gt 0)%, nên theo BĐT Cô si ta có :<br>\\[A C+B D \\geq 2 \\sqrt{A C \\cdot B D}=2 \\sqrt{\\frac{A B^{2}}{4}}=A B \\Rightarrow S_{A B C D} \\geq \\frac{1}{4} A B^{2}\\]<br>Dấu bằng xảy ra %(\\Leftrightarrow A B=C D=\\frac{A B}{2}=O A)%<br>Vậy C thuộc tia Ax và cách điểm A một đoạn bằng OA thì diện tích tứ giác %(A B D C)% nhỏ nhất",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7 ",
+        "point": 1.0,
+        "content": "Năm vận động viên mang số %(1 ; 2 ; 3 ; 4)% và 5 được chia bằng mọi cách thành 2 nhóm. Chứng tỏ rằng ở một trong hai nhóm ta luôn có hai vận động viên mà hiệu các số họ mang trùng với một trong các số mà người của nhóm đó mang",
+        "question_images": [],
+        "solution": "Ta chia các số %(1 ; 2 ; 3 ; 4 ; 5)% thành hai nhóm sao cho trong một nhóm hiệu hai số không trùng với một số nào trong nhóm<br>Ta có hai số 2 và 4 không thể ở trong cùng một nhóm vì %(4-2=2)%.<br>Số 1 cũng không thể ở trong cùng một nhóm với số 2 vì %(2-1=1)%<br>Như vậy số 1 phải ở cùng ở một nhóm với số 4<br>Số %(4-1=3)% phải ở cùng nhóm với số 2 . Ta có hai số 1 và 4 cùng nhóm; hai số 2 và 3 cùng một nhóm còn lại<br>Nhưng còn số 5 , số này không thể ở trong bất cứ nhóm nào vì %(5-1=4,5-2=3)% (mâu thuẫn)<br>Từ đó suy ra điều phải chứng minh",
+        "question_type": "essay"
+    }
+]

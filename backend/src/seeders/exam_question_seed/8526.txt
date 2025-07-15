@@ -1,0 +1,42 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Cho số tự nhiên %(n)% thỏa: %(C_{2 n+1}^{1}+C_{2 n+1}^{2}+\\ldots+C_{2 n+1}^{n}=1023)%. Tìm hệ số của số hạng chứa %(x^{8})% của khai triển %(\\left(1+x+x^{2}+x^{3}\\right)^{n})%.",
+        "question_images": [],
+        "solution": "\\[(1+x)^{2 n+1}=\\sum_{k=0}^{2 n+1} C_{2 n+1}^{k} x^{k} \\Rightarrow 2^{2 n+1}=\\sum_{k=0}^{2 n+1} C_{2 n+1}^{k}\\]<br>Ta có:<br>\\[\\begin{array}{c}\\Rightarrow \\quad \\Rightarrow 2^{2 n+1}=2\\left(\\sum_{k=0}^{2 n+1} C_{2 n+1}^{k}\\right)=2048 \\Rightarrow n=5 \\\\left(1+x+x^{2}+x^{3}\\right)^{5}=(1+x)^{5}\\left(1+x^{2}\\right)^{5}=\\sum_{k=0}^{5} C_{5}^{k} x^{k} \\cdot \\sum_{m=0}^{5} C_{5}^{m} x^{2 m}\\end{array}\\]<br>Vì hệ số chứa %(\\mathrm{x}^{8})% nên ta có %(\\mathrm{k}+2 \\mathrm{~m}=8)% suy ra %((k ; m)=(0 ; 4),(2 ; 3),(4 ; 2))%<br>Vậy hệ số cần tìm là %(C_{5}^{0} \\cdot C_{5}^{4}+C_{5}^{2} \\cdot C_{5}^{3}+C_{5}^{4} \\cdot C_{5}^{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 5.0,
+        "content": "Cho dãy số thực %(\\left\\{x_{n}\\right\\})% xác định bỡi %(\\left\\{\\begin{array}{l}x_{1}=2015 \\\\ x_{n+1}=\\sqrt{3}+\\frac{x_{n}}{\\sqrt{x_{n}^{2}-1}}, \\forall n \\in N^{*}\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Dễ thấy %(x_{n}\\gt \\sqrt{3}, \\forall n \\in \\mathbb{N}^{*})%%(x_{n+1}=\\sqrt{3}+\\frac{x_{n}}{\\sqrt{x_{n}^{2}-1}}=\\sqrt{3}+\\sqrt{1+\\frac{1}{x_{n}^{2}-1}}\\lt \\sqrt{3}+\\sqrt{2}, \\forall n \\geq 1)% nên dãy %(\\left\\{x_{n}\\right\\})% bị chặn.<br>Xét hàm số %(f(x)=\\sqrt{3}+\\frac{x}{\\sqrt{x^{2}-1}}, x \\in(\\sqrt{3} ; \\sqrt{3}+\\sqrt{2}))%<br>\\[\\begin{array}{l}f^{\\prime}(x)=\\frac{-1}{\\left(\\sqrt{x^{2}-1}\\right)^{3}}, x \\in(\\sqrt{3} ; \\sqrt{3}+\\sqrt{2}) \\\\left|f^{\\prime}(x)\\right|=\\frac{1}{\\left(\\sqrt{x^{2}-1}\\right)^{3}}\\lt \\frac{1}{\\left(\\sqrt{(\\sqrt{3})^{2}-1}\\right)^{3}}=\\frac{1}{2 \\sqrt{2}}, x \\in(\\sqrt{3} ; \\sqrt{3}+\\sqrt{2})\\end{array}\\]<br>Xét phương trình<br>\\[\\begin{array}{l}f(x)=x \\leftrightarrow \\sqrt{3}+\\frac{x}{\\sqrt{x^{2}-1}}=x(x \\in(\\sqrt{3} ; \\sqrt{3}+\\sqrt{2})) \\\\leftrightarrow x=\\frac{\\sqrt{3}+\\sqrt{15}}{2}=x_{o} \\in(\\sqrt{3} ; \\sqrt{3}+\\sqrt{2}) \\\\left|x_{n+1}-x_{o}\\right|=\\left|f\\left(x_{n}\\right)-f\\left(x_{o}\\right)\\right| \\\\=\\left|f^{\\prime}(c)\\right|\\left|x_{n}-x_{o}\\right|\\lt \\frac{1}{2 \\sqrt{2}}\\left|x_{n}-x_{o}\\right|\\lt \\cdots\\lt \\left(\\frac{1}{2 \\sqrt{2}}\\right)^{n}\\left|x_{1}-x_{o}\\right| \\rightarrow 0 \\quad \\text { khi } \\rightarrow \\rightarrow+\\infty\\end{array}\\]<br>Vậy %(\\lim _{n \\rightarrow+\\infty} x_{n}=x_{o}=\\frac{\\sqrt{3}+\\sqrt{15}}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 3.0,
+        "content": "Trong mặt phẳng với hệ tọa độ Oxy cho hai đuờng tròn %(\\left(C_{1}\\right),\\left(C_{2}\\right))% là̀n lượt có phương trình: %(x^{2}+y^{2}-2 x+4 y=0 ; \\quad x^{2}+y^{2}+2 x+6 y+1=0)%. Lâp phương trình đường thẳng tiếp xúc với %(\\left(C_{1}\\right))% và cắt %(\\left(C_{2}\\right))% tại %(A, B)% thỏa mãn %(\\widehat{A I_{2} B}=\\arccos \\frac{1}{9})% với %(I_{2})% là tâm của đường tròn %(\\left(C_{2}\\right))%.",
+        "question_images": [],
+        "solution": "Ta có %(I_{1}(1 ;-2) ; \\mathrm{R}_{1}=\\sqrt{5} ; I_{2}(-1 ;-3) ; \\mathrm{R}_{2}=3)%<br>Phương trình đt %(I_{I} I_{2}: x-2 y-5=0)%.<br>Do %(\\widehat{A I_{2} B}=\\arccos \\frac{1}{9})% nên %(\\cos \\widehat{\\mathrm{AI}_{2} B}=\\frac{1}{9})%<br>Ta có: %(A B^{2}=I_{2} A^{2}+I_{2} B^{2}-2 I_{2} A \\cdot I_{2} B \\cos \\widehat{A I_{2} B}=16)%<br>suy ra %(d\\left(I_{2} ; d\\right)=I_{2} H=\\sqrt{5})%.<br>Do %(d)% tiếp xúc với %(\\left(C_{1}\\right))% nên %(d\\left(I_{1} ; d\\right)=R_{1}=\\sqrt{5})%<br>Vì khoảng cách từ 2 điểm %(I_{1} ; I_{2})% đến %(d)% bằng nhau nên %(d)% song song %(I_{l} I_{2})% hoặc %(d)% đi qua trung điểm của %(I_{I} I_{2})%.<br>Nếu %(d / / I_{1} I_{2})% thì %(d)% có dạng: %(x-2 y+m=0 ;)% vì %(d\\left(I_{1} ; d\\right)=\\sqrt{5})% nên %(m=0 ; m=-10)%<br>Nếu %(d)% đi qua trung điểm của %(I_{l} I_{2})% thì %(d)% có dạng %(a x+b\\left(y+\\frac{5}{2}\\right)=0\\left(a^{2}+b^{2} \\neq 0\\right))% %(d\\left(I_{1} ; d\\right)=\\sqrt{5} \\Leftrightarrow \\frac{\\left|a+\\frac{b}{2}\\right|}{\\sqrt{a^{2}+b^{2}}}=\\sqrt{5} \\Leftrightarrow|a+2 b|=2 \\sqrt{5\\left(a^{2}+b^{2}\\right)})% %(\\Leftrightarrow a^{2}+4 a b+4 b^{2}=20 a^{2}+20 b^{2} \\Leftrightarrow 19 a^{2}-4 a b+16 b^{2}=0 \\Leftrightarrow a=b=0)% (vô lý)<br>ĐS: %(x-2 y=0 ; x-2 y-10=0)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0faa6cae804a9d22f4bd556a1ce8ae99.png\" srcset=\"https://docdn.giainhanh.io/media/test/075781a2ddac58219d51be9cfc9baaf1.png 165w\" width=\"165\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 4.0,
+        "content": "Cho hình chóp S.ABCD có đáy %(A B C D)% là hình thang vuông tại %(A)% và %(D)%, %(A B=2 a, A D=D C=a)%. Góc giũa măt phẳng %((S B C))% và mặt phẳng %((A B C D))% bằng %(60^{\\circ} ; I)% là %(t)%rung điểm của %(A D)%, mặt phẳng (SIB) và mặt phẳng (SIC) cùng vuông góc với mặt phẳng %((A B C D), H)% là hình chiếu của I lên SD. Tính thể tích khối chóp %(S . A B C D)% và khoảng cách từ %(H)% đến mặt phẳng (SBC) theo a.",
+        "question_images": [],
+        "solution": "Ta có %(\\left.\\begin{array}{c}(S I B) \\perp(A B C D) \\\\ (S I B) \\cap(A B C D) \\\\ (S I C)=S I\\end{array}\\right\\} \\Rightarrow S I \\perp(A B C D))%<br>Gọi %(E)% là hình chiếu của %(I)% lên %(B C)%, suy ra góc giữa ( %(S B C))% và %((A B C D))% %(\\widehat{S E I}=60^{\\circ})%.<br>Gọi %(M)% là giao điểm của %(I E)% và %(C D)%, suy ra %(M)% là trung điểm của %(C D)%.<br>Ta có tam giác IDM đồng dạng với tam giác CEM, suy ra %(E M=\\frac{a \\sqrt{2}}{4}, I M=\\frac{a \\sqrt{2}}{2} \\Rightarrow I E=\\frac{3 a \\sqrt{2}}{4} \\Rightarrow S I=I E \\cdot \\tan \\widehat{S E I}=\\frac{3 a \\sqrt{6}}{4})%<br>Vậy %(V_{S \\cdot A B C D}=\\frac{1}{3} \\cdot S_{A B C D} \\cdot S I=\\frac{1}{6} \\cdot(A B+C D) \\cdot A D \\cdot S I=\\frac{3 a^{3} \\sqrt{6}}{8})%<br>%(H)% là hình chiếu của %(I)% lên %(S D)% nên ta có<br>\\[\\begin{aligned}d(H,(S B C)) & =\\frac{S H}{S D} \\cdot d(D,(S B C))=\\frac{S I^{2}}{S D^{2}} d(D,(S B C))=\\frac{27}{29} d(D,(S B C)) \\\\& =\\frac{18}{29} d(I,(S B C))=\\frac{18}{29} \\cdot \\frac{I E \\cdot I S}{\\sqrt{I E^{2}+I S^{2}}}=\\frac{27 \\sqrt{6} a}{116}\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 6.0,
+        "content": "Tìm các số tư nhiên %(a_{1} ; a_{2} ; a_{3} \\ldots ; a_{n})% thỏa mãn %(a_{1}+a_{2}+a_{3}+\\ldots+a_{n}=)% 2015 sao cho biểu thức %(P=a_{1} \\cdot a_{2} \\cdot a_{3} \\ldots a_{n})% lớn nhá́t có thể.",
+        "question_images": [],
+        "solution": "Ta chứng tỏ trong các số %(a_{1} ; a_{2} ; a_{3} \\ldots ; a_{n})% không có số 1 .<br>Thật vậy, giả sử tồn tại một số bằng 1, chẳng hạn là %(\\mathrm{a}_{1}=1)%, khi đó trong các số còn lại phải có số %(\\mathrm{a}_{\\mathrm{j}}\\gt 2)%, ta giả sử là %(\\mathrm{a}_{2}>2)%, vì ngược lại dễ thấy điều vô lý.<br>Khi đó ta thay %(\\mathrm{a}_{1})% bởi số 2 và %(\\mathrm{a}_{2})% bởi %(\\mathrm{a}_{2}-1 \\geq 2)%<br>\\[\\rightarrow\\left\\{\\begin{array}{l}2+\\left(a_{2}-1\\right)+a_{3}+\\ldots+a_{n}=2015 \\\\2\\left(a_{2}-1\\right) a_{3} . a_{n}>1 a_{2} \\cdot a_{3} \\ldots a_{n}\\end{array} \\leftrightarrow a_{2}>2\\right.\\]<br>Vi phạm %(P=a_{1} \\cdot a_{2} \\cdot a_{3} \\ldots a_{n})% lớn nhất có thể.<br>Suy ra trong %(\\mathrm{n})% số tự nhiên cần tìm %(a_{1} ; a_{2} ; a_{3} \\ldots ; a_{n})% chỉ nhận các giá trị %(2,3,4)%.<br>Tuy nhiên %(4=2.2)% và %(4=2+2)% nên thay số 4 bởi hai số 2<br>Trong %(\\mathrm{n})% số có nhiều nhất là hai số 2 vì nếu giả sử có ba số 2 thì<br>\\[\\left\\{\\begin{array}{l}2+2+2=6 \\\\3+3=6 \\\\2.2 .2=8\\lt 3.3=9\\end{array}\\right.\\]<br>Tức là có thể thay ba số 2 thành hai số 3 để có tích lớn hơn<br>Lại có %(2015=3.671+2)%<br>Từ đó suy ra có 672 số %(a_{1} ; a_{2} ; a_{3} \\ldots ; a_{672})% trong đó có 671 số 3 và một số 2 thì tích bằng %(3^{671} .2)% đạt giá trị lớn nhất có thể.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,81 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 2.0,
+        "content": "Chứng minh rằng %(A=\\left(2^{n}-1\\right)\\left(2^{n}+1\\right))% chia hết cho 3 với mọi số tự nhiên %(n)%.",
+        "question_images": [],
+        "solution": "Theo giả thiết n là số tự nhiên nên %(2^{n}-1 ; 2^{n} ; 2^{n}+1)% là 3 số tự nhiên liên tiếp.<br>Vì tích của 3 số tự nhiên liên tiếp luôn chia hết cho 3 nên %(\\left(2^{n}-1\\right) \\cdot 2^{n} \\cdot\\left(2^{n}+1\\right))% chia hết cho 3.<br>Mặt khác %(\\left(2^{n} ; 3\\right)=1)% nên %(\\left(2^{n}-1\\right)\\left(2^{n}+1\\right))% chia hết cho 3 .<br>Vậy A chia hết cho 3 với mọi số tự nhiên %(n)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Tìm số các số nguyên %(n)% sao cho %(B=n^{2}-n+13)% là số chính phương.",
+        "question_images": [],
+        "solution": "Ta thấy B là số chính phương %(\\Leftrightarrow 4 \\mathrm{~B})% là số chính phương.<br>Đặt %(4 B=k^{2} (k \\in \\mathbb N))% thì %(4 B=4 n^{2}-4 n+52=k^{2} \\Leftrightarrow(2 n-1-k) \\cdot(2 n-1+k)=-51)%<br>Vì %(2 n-1+k \\geq 2 n+1+k)% nên ta có các hệ:<br>%((1):)% %(\\left\\{\\begin{array}{l}2 n-1+k=1 \\\\ 2 n-1-k=-51\\end{array}\\right.)%<br>%((2):)% %(\\left\\{\\begin{array}{l}2 n-1+k=3 \\\\ 2 n-1-k=-17\\end{array}\\right.)%<br>%((3):)% %(\\begin{array}{l}2 n-1+k=51 \\\\ 2 n-1-k=-1\\end{array})%<br>%((4):)% %(\\left\\{\\begin{array}{l}2 n-1+k=17 \\\\ 2 n-1-k=-3\\end{array}\\right.)%<br>Giải hệ %((1) (2) (3) (4))% ta tìm được %(n=-12 ; n=-3 ; n=13 ; n=4)%<br>Vậy các số nguyên cần tìm là %(n \\in\\{-12 ;-3 ; 4 ; 13\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.5,
+        "content": "Giải phương trình: %(x^{2}-2 x+3=2 \\sqrt{2 x^{2}-4 x+3})%",
+        "question_images": [],
+        "solution": "Ta có %(2 x^{2}-4 x+3=2(x-1)^{2}+1 \\geq 1)% nên tập xác định của phương trình là %(\\mathbb R)%.<br>Phương trình đã cho tương đương với: %(2 x^{2}-4 x+3-4 \\sqrt{2 x^{2}-4 x+3}+3=0)%<br>Đặt %(y=\\sqrt{2 x^{2}-4 x+3} \\geq 1)% thì phương trình đã cho trở thành<br>%(y^{2}-4 y+3=0 \\Leftrightarrow\\left[\\begin{array}{l}y=1 \\\\ y=3\\end{array}\\right.)% (thỏa mãn điều kiện).<br>Với %(y=1)% ta có %(\\sqrt{2 x^{2}-4 x+3}=1 \\Leftrightarrow 2 x^{2}-4 x+3=1 \\Leftrightarrow x=1)%<br>Với %(y=3)% ta có %(\\sqrt{2 x^{2}-4 x+3}=3 \\Leftrightarrow 2 x^{2}-4 x+3=9 \\Leftrightarrow\\left[\\begin{array}{l}x=-1 \\\\ x=3\\end{array}\\right.)%<br>Vậy phương trình đã cho có 3 nghiệm %(x=1, x=-1, x=3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 2.5,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x^{2}-y^{2}=1-x y \\\\ x^{2}+y^{2}=3 x y+11\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Hệ đã cho tương đương với:<br>%(\\left\\{\\begin{array}{l}11\\left(x^{2}+x y-y^{2}\\right)=11 \\\\ x^{2}-3 x y+y^{2}=11\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x^{2}+x y-y^{2}=1 \\\\ 11\\left(x^{2}+x y-y^{2}\\right)=x^{2}-3 x y+y^{2}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x^{2}+x y-y^{2}=1 \\\\ (x+2 y)(5 x-3 y)=0\\end{array}\\right.\\right.\\right.\\ (^*))%<br>Từ hệ %((^*))% ta suy ra.<br>%(\\left\\{\\begin{array}{l}x^{2}+x y-y^{2}=1 \\\\ x+2 y=0\\end{array}(I)\\right.)% hoặc %(\\left\\{\\begin{array}{l}x^{2}+x y-y^{2}=1 \\\\ (x+2 y) \\cdot(5 x-3 y)=0\\end{array}\\right.)%<br>Giải hệ %((I))% ta tìm được %((x ; y)=(2 ;-1) ;(-2 ; 1))%<br>Hệ %((II))% vô nghiệm.<br>Vậy hệ có nghiệm %((x ; y)=(2 ;-1) ;(-2 ; 1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 3.0,
+        "content": "Cho ba số %(x ; y ; z)% thỏa mãn %(\\left\\{\\begin{array}{l}x+y+z=2010 \\\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=\\frac{1}{2010}\\end{array}\\right.)%<br>Tính giá trị của biểu thức %(P=\\left(x^{2007}+y^{2007}\\right)\\left(y^{2009}+z^{2009}\\right)\\left(z^{2011}+x^{2011}\\right))%.",
+        "question_images": [],
+        "solution": "%(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=\\frac{1}{x+y+z} \\Leftrightarrow\\left(\\frac{1}{x}+\\frac{1}{y}\\right)+\\left(\\frac{1}{z}-\\frac{1}{x+y+z}\\right)=0)%<br>%(\\Leftrightarrow \\frac{x+y}{x y}+\\frac{x+y}{z(x+y+z)}=0)%<br>%(\\begin{array}{l}\\Leftrightarrow(x+y)\\left(\\frac{1}{x y}+\\frac{1}{x z+y z+z^{2}}\\right)=0 \\Leftrightarrow(x+y)\\left(x z+y z+z^{2}+x y\\right)=0 \\\\ \\Leftrightarrow(x+y)[z(z+x)+y(z+x)]=0 \\Leftrightarrow(x+y)(y+z)(z+x)=0 \\\\ \\Leftrightarrow\\left[\\begin{array}{l}x+y=0 \\\\ z+y=0 \\\\ x+z=0\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=-y \\\\ y=-z \\\\ z=-x\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x^{2007}=-y^{2007} \\\\ y^{2009}=-z^{2009} \\\\ z^{2011}=-x^{2011}\\end{array}\\right.\\right.\\right. \\\\end{array})%<br>%(\\Leftrightarrow\\left[\\begin{array}{l}x^{2007}+y^{2007}=0 \\\\ y^{2009}+z^{2009}=0 \\Leftrightarrow P=0 \\\\ z^{2011}+x^{2011}=0\\end{array} \\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6:",
+        "group_content": "Cho đường tròn %((O ; R))% và dây cung %(A B)% cố định, %(A B=R \\sqrt{2})%. Điểm %(P)% di động trên dây %(A B)% ( %(P)% khác %(A)% và %(B)% ). Gọi %(\\left(C ; R_{1}\\right))% là đường tròn đi qua %(P)% và tiếp xúc với đường tròn %((\\mathrm{O} ; \\mathrm{R}))% tại %(\\mathrm{A},\\left(D ; R_{2}\\right))% là đường tròn đi qua %(P)% và tiếp xúc với đường tròn %((\\mathrm{O} ; \\mathrm{R}))% tại %(B)%. Hai đường tròn %(\\left(C ; R_{1}\\right))% và %(\\left(D ; R_{2}\\right))% cắt nhau tại điểm thứ hai là %(M)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Trong trường hợp %(P)% không trùng với trung điểm dây %(A B)%, chứng minh %(O M / / \\mathrm{CD})% và 4 điểm %(C ; D ; O ; M)% cùng thuộc một đường tròn.",
+        "question_images": [],
+        "solution": "Nối %(C P ; P D)% ta có %(\\triangle A C P ; \\triangle O A B)% lần lượt cân tại %(C ; O)% nên %(\\angle C P A=\\angle C A P=\\angle O B P)% do đó %(C P / / O D(1))%.<br>Tương tự %(\\triangle D P B ; \\triangle O A B)% lần lượt cân tại %(D, O)% nên %(\\angle D P B=\\angle D B P=\\angle O A B)% nên %(\\mathrm{OD} / / \\mathrm{CP})% %((2))%. Từ %((1))% và %((2))% suy ra %(O D P C)% là hình bình hành.<br>Gọi %(C D)% cắt %(M P)% tại %(H)% cắt %(O P)% tại %(K)% thì %(K)% là trung điểm của %(O P)%.<br>Vì tứ giác %(C D O M)% là hình bình hành nên %(O C=D P, D P=D M=R_{2})% nên tứ giác %(C D O M)% là hình thang cân do đó 4 điểm %(C ; D ; O ; M)% cùng thuộc một đường tròn.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c897957f6f6824ca562895358c0ab37f.png\" srcset=\"https://docdn.giainhanh.io/media/test/603eb206e961a4cf361472afde2938cf.png 119w\" width=\"119\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Chứng minh khi %(P)% di động trên dây %(A B)% thì điểm %(M)% di động trên đường tròn cố định và đường thẳng %(M P)% luôn đi qua một điểm cố định %(N)%.",
+        "question_images": [],
+        "solution": "Xét tam giác %(AOB)% có %(O A^{2}+O B^{2}=2 R^{2}=A B^{2})% nên tam giác %(O A B)% vuông cân tại %(O)%. Vì 4 điểm %(C ; D ; O ; M)% cùng thuộc một đường tròn (kể cả %(M \\equiv O)% ) nên.<br>%(\\angle CO B=\\angle CM D \\text {(1)})%<br>Xét %(\\triangle M A B)% và %(\\triangle M C D)% có: %(\\angle M A B=\\angle M C D)% (cùng bằng %(\\frac{1}{2})% sđ cung %(\\overparen{M P})% của %(\\left.(\\mathrm{C})\\right))%.<br>%(\\angle  M B D=\\angle M D C)% (cùng bằng %(\\frac{1}{2} \\text{ sd } \\overparen{MP})% của %((D))%).<br>Nên %(\\triangle M A B \\sim \\triangle M C D)% (g.g).<br>Vì %(\\triangle M A B \\sim \\triangle M C D)% suy ra %(\\angle A M B=\\angle C O D)% hay %(\\angle A M B=\\angle A O B=90^{\\circ})%.<br>Do %(A B)% cố định nên điểm %(M)% thuộc đường tròn tâm %(I)% đường kính %(A B)%.<br>Ta có %(\\angle A C P=\\angle B D P=\\angle A O B=90^{\\circ})% nên<br>%(\\angle A M P=\\frac{1}{2}\\angle A C P=45^{\\circ})% (Góc nội tiếp và góc ở tâm của %((C))%).<br>%(\\angle B M P=\\frac{1}{2}\\angle B D P=45^{\\circ})% (góc nội tiếp và góc ở tâm của %((D))%).<br>Do đó %(M P)% là phân giác %(\\angle A M B)%.<br>Mà %(\\angle A M B=\\angle A O B=90^{\\circ})% nên %(M)% thuộc đường tròn %((I))% ngoại tiếp tam giác %(A O B)%.<br>Giả sử %(M P)% cắt đường tròn %((I))% tại %(N)% thì %(N)% là trung điểm cung %(A B)% không chứa điểm %(O)% nên %(N)% cố định.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/75fe211f966d8a63ee40fb14ab577c46.png\" srcset=\"https://docdn.giainhanh.io/media/test/f3ef9f62feca39fa208a406c1f47a967.png 119w\" width=\"119\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Tìm vị trí của %(P)% để tích %(P M . P N)% lớn nhất? diện tích tam giác %(A M B)% lớn nhất?",
+        "question_images": [],
+        "solution": "Xét %(\\triangle M A P)% và %(\\triangle B N P)% có %(\\angle M P A=\\angle B P N)% (đối đỉnh); %(\\angle A M P=\\angle P B N)% (góc nội tiếp cùng chắn 1 cung) nên %(\\triangle M A P \\sim \\triangle B N P)% (g.g).<br>Do đó %(\\frac{P A}{P N}=\\frac{P M}{P B} \\Leftrightarrow P M \\cdot P N=P A \\cdot \\mathrm{PB} \\leq\\left(\\frac{P A+P B}{2}\\right)^{2}=\\frac{A B^{2}}{4}=\\frac{R^{2}}{2})% (không đổi).<br>Vậy %(P M \\cdot P N)% lớn nhất bằng %(\\frac{R^{2}}{2})% khi %(P A=P B)% hay %(P)% là trung điểm dây %(A B)%.<br>Vì tam giác %(A M B)% vuông tại %(M)% nên %(S_{A M B}=\\frac{1}{2} A M \\cdot B M \\leq \\frac{1}{4}\\left(A M^{2}+B M^{2}\\right)=\\frac{A B^{2}}{4}=\\frac{R^{2}}{2} .)%<br>Diện tích tam giác %(A M B)% lớn nhất bằng %(\\frac{R^{2}}{2})% khi %(P A=P B)% hay %(P)% là trung điểm dây %(A B)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/865e6567e2d278eb66f84edf8d0f6003.png\" srcset=\"https://docdn.giainhanh.io/media/test/3719177ca0a390d15623dea94f433986.png 119w\" width=\"119\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 2.0,
+        "content": "Cho các số dương %(x ; y ; z)% thỏa mãn điều kiện %(x y+y z+z x=670)%. Chứng minh rằng:<br>\\[\\frac{x}{x^{2}-y z+2010}+\\frac{y}{y^{2}-z x+2010}+\\frac{z}{z^{2}-x y+2010} \\geq \\frac{1}{x+y+z}\\]",
+        "question_images": [],
+        "solution": "Trước tiên ta chứng minh bất đẳng thức: Với mọi %(a, b, c \\in \\mathbb{R})% và %(x, y, z\\gt 0)% ta có.<br>%(\\frac{a^{2}}{x}+\\frac{b^{2}}{y}+\\frac{c^{2}}{z} \\geq \\frac{(a+b+c)^{2}}{x+y+z}\\ (*))%<br>Dấu \" %(=)% \" xảy ra %(\\Leftrightarrow \\frac{a}{x}=\\frac{b}{y}=\\frac{c}{z})%<br>Thật vậy, với %(a, \\mathrm{~b} \\in \\mathbb{R})% và %(x, y\\gt 0)% ta có:<br>%(\\frac{a^{2}}{x}+\\frac{b^{2}}{y} \\geq \\frac{(a+b)^{2}}{x+y}\\ (**))%<br>%(\\Leftrightarrow\\left(a^{2} y+b^{2} x\\right)(x+y) \\geq x y(a+b)^{2})%<br>%(\\Leftrightarrow(b x-a y)^{2} \\geq 0)% (luôn đúng ). Dấu \" %(=)% \" xảy %(\\mathrm{ra} \\Leftrightarrow \\frac{a}{x}=\\frac{b}{y})%<br>Áp dụng bất đẳng thức %(\\left({ }^{* *}\\right))% ta có:<br>%(\\frac{a^{2}}{x}+\\frac{b^{2}}{y}+\\frac{c^{2}}{z} \\geq \\frac{(a+b)^{2}}{x+y}+\\frac{c^{2}}{z} \\geq \\frac{(a+b+c)^{2}}{x+y+z})%<br>Dấu \"=\" xảy ra %(\\Leftrightarrow \\frac{a}{x}=\\frac{b}{y}=\\frac{c}{z})%<br>Áp dụng bất đẳng thức %(\\left({ }^{*}\\right))% ta có:<br>%(\\begin{array}{l} V T=  \\frac{x}{x^{2}-y z+2010}+\\frac{y}{y^{2}-z x+2010}+\\frac{z}{z^{2}-x y+2010} \\\\  =\\frac{x^{2}}{x\\left(x^{2}-y z+2010\\right)}+\\frac{y^{2}}{y\\left(y^{2}-z x+2010\\right)}+\\frac{z^{2}}{z\\left(z^{2}-x y+2010\\right)} \\\\  \\geq \\frac{(x+y+z)^{2}}{x^{3}+y^{3}+z^{3}-3 x y z+2010(x+y+z)}(1)\\end{array})%<br>Chú ý: %(x\\left(x^{2}-y z+2010\\right)=x\\left(x^{2}+x y+z x+1340\\right)\\gt 0 ; y\\left(y^{2}-z x+2010\\right)>0)% và %(z\\left(z^{2}-x y+2010\\right)>0)%<br>Chứng minh được dễ dàng<br>%(\\begin{array}{l}x^{3}+y^{3}+z^{3}-3 x y z=(x+y+z)\\left(x^{2}+y^{2}+z^{2}-x y-y z-x z\\right) \\\\ =(x+y+z)\\left[(x+y+z)^{2}-3(x y+y z+z x)\\right]\\ (2)\\end{array})%<br>Do đó<br>%(\\begin{array}{l}x^{3}+y^{3}+z^{3}-3 x y z+2010(x+y+z) \\\\ =(x+y+z)\\left[(x+y+z)^{2}-3(x y+y z+z x)+2010\\right]=(x+y+z)^{3}(3)\\end{array})%<br>Từ %((1))% và %((3))% ta suy ra<br>%(V T \\geq \\frac{(x+y+z)^{2}}{(x+y+z)^{3}}=\\frac{1}{x+y+z})%.<br>Dấu \" %(=)% \" xảy ra %(\\Leftrightarrow x=y=z=\\frac{\\sqrt{2010}}{3})%.",
+        "question_type": "essay"
+    }
+]

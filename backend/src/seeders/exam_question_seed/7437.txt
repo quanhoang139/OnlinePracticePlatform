@@ -1,0 +1,112 @@
+[
+    {
+        "title": "1.a ",
+        "point": 1.0,
+        "content": "Biết %(x=\\sqrt{2}+1)%, tính %(A=\\sqrt{\\sqrt{2}(x+1)\\left(x^{2}+1\\right)\\left(x^{4}+1\\right)+x-\\sqrt{2}})%",
+        "question_images": [],
+        "solution": "Từ %(x=\\sqrt{2}+1 \\Leftrightarrow x-\\sqrt{2}=1 \\Leftrightarrow x-1=\\sqrt{2})%<br>Áp dụng kết quả này ta có:<br>\\[\\begin{array}{l}A=\\sqrt{\\sqrt{2}(x+1)\\left(x^{2}+1\\right)\\left(x^{4}+1\\right)+x-\\sqrt{2}} \\A=\\sqrt{(x-1)(x+1)\\left(x^{2}+1\\right)\\left(x^{4}+1\\right)+1} \\A=\\sqrt{\\left(x^{2}-1\\right)\\left(x^{2}+1\\right)\\left(x^{4}+1\\right)+1} \\A=\\sqrt{\\left(x^{4}-1\\right)\\left(x^{4}+1\\right)+1} \\A=\\sqrt{x^{8}-1+1} \\A=\\sqrt{x^{8}}=x^{4}=(\\sqrt{2}+1)^{4}\\end{array}\\]<br>Lưu ý: Có thể thí sinh tính ra kết quả tương đương %(A=17+12 \\sqrt{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.b ",
+        "point": 0.5,
+        "content": "Rút gọn biểu thức: %(B=\\frac{2 \\sqrt{2}+\\sqrt{3}+\\sqrt{4}+\\sqrt{5}+\\sqrt{6}+\\sqrt{8}+\\sqrt{9}+\\sqrt{10}}{\\sqrt{1}+\\sqrt{2}+\\sqrt{3}+\\sqrt{4}+\\sqrt{5}})%",
+        "question_images": [],
+        "solution": "Ta có: %(\\begin{aligned} B= & \\frac{2 \\sqrt{2}+\\sqrt{3}+\\sqrt{4}+\\sqrt{5}+\\sqrt{6}+\\sqrt{8}+\\sqrt{9}+\\sqrt{10}}{\\sqrt{1}+\\sqrt{2}+\\sqrt{3}+\\sqrt{4}+\\sqrt{5}} \\\\ & =\\frac{\\sqrt{1}+\\sqrt{2}+\\sqrt{3}+\\sqrt{4}+\\sqrt{5}+(\\sqrt{2}+\\sqrt{6}+\\sqrt{8}+2+\\sqrt{10})}{\\sqrt{1}+\\sqrt{2}+\\sqrt{3}+\\sqrt{4}+\\sqrt{5}} \\\\ & =1+\\frac{\\sqrt{2}+2+\\sqrt{6}+\\sqrt{8}+\\sqrt{10}}{\\sqrt{1}+\\sqrt{2}+\\sqrt{3}+\\sqrt{4}+\\sqrt{5}} \\\\ & =1+\\frac{\\sqrt{2}(1+\\sqrt{2}+\\sqrt{3}+\\sqrt{4}+\\sqrt{5})}{\\sqrt{1}+\\sqrt{2}+\\sqrt{3}+\\sqrt{4}+\\sqrt{5}} \\\\ & =1+\\sqrt{2}\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.b ",
+        "point": 0.5,
+        "content": "Cho biết %(\\left(x+\\sqrt{x^{2}+1}\\right)\\left(y+\\sqrt{y^{2}+1}\\right)=1, \\forall x, y \\in R)%. Tính %(\\mathrm{x}+\\mathrm{y})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Do }\\left(\\sqrt{y^{2}+1}-y\\right)\\left(\\sqrt{y^{2}+1}+y\\right)=1 \\Rightarrow \\sqrt{y^{2}+1}-y \\neq 0 \\text { ta có } \\x+\\sqrt{x^{2}+1}=\\frac{1}{y+\\sqrt{y^{2}+1}} \\cdot \\frac{y-\\sqrt{y^{2}+1}}{y-\\sqrt{y^{2}+1}}=\\sqrt{y^{2}+1}-y \\\\Leftrightarrow x+y=\\sqrt{y^{2}+1}-\\sqrt{x^{2}+1}\\end{array}\\]<br>Tương tự, %(y+\\sqrt{y^{2}+1}=\\sqrt{x^{2}+1}-x \\Leftrightarrow x+y=\\sqrt{x^{2}+1}-\\sqrt{y^{2}+1})%Cộng %((1))% và (2) vế theo vế ta được %(\\mathrm{x}+\\mathrm{y}=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Cho tam giác %(\\mathrm{ABC}(\\mathrm{AB}\\lt \\mathrm{AC}\\lt \\mathrm{BC}))% ngoại tiếp đường tròn (I) với các tiếp điểm trên %(\\mathrm{BC}, \\mathrm{CA}, \\mathrm{AB})% lần lượt là %(\\mathrm{D}, \\mathrm{E}, \\mathrm{F})%. Gọi %(\\mathrm{G})% và %(\\mathrm{H})% lần lượt là chân đường vuông góc hạ từ %(\\mathrm{B})% và %(\\mathrm{C})% xuống %(\\mathrm{CI})% và %(\\mathrm{BI})%. Chứng minh rằng",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tứ giác BGED là hình thang",
+        "question_images": [],
+        "solution": "Ta có: %(B G \\perp I C(g t), I C \\perp D E)% (tính chất tiếp tuyến)<br>%(\\Rightarrow \\mathrm{BG} / / \\mathrm{DE})%<br>Do đó tứ giác BGED là hình thang.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/dcb24ed5fdb006a2a530660445940d07.png\" srcset=\"https://docdn.giainhanh.io/media/test/e997abb5f3f32d6ac355aad69ef9f487.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Tứ giác BGFD nội tiếp",
+        "question_images": [],
+        "solution": "Do %(\\mathrm{AB}\\lt \\mathrm{AC}\\lt \\mathrm{BC})% nên %(A C B\\lt A B C\\lt B A C)%<br>Do %(\\frac{A C B}{2}+A B C\\lt \\frac{A B C+A C B+B A C}{2}=90^{\\circ})%<br>Nên tia %(\\mathrm{BF})% nằm giữ hai tia %(\\mathrm{BE})% và %(\\mathrm{BG})%.<br>Tương tự ta cũng chứng minh được tia %(\\mathrm{CE})% nằm giữa hai tia %(\\mathrm{CF})% và %(\\mathrm{CH})%<br>Ta có: %(B G I=B D I=90^{\\circ})%%(\\Rightarrow \\mathrm{BGID})% nội tiếp đường tròn đường kính %(\\mathrm{BI})%<br>Ta có: %(B F I=90^{\\circ})%%(\\Rightarrow \\mathrm{F})% nằm trên đường tròn đường kính %(\\mathrm{BI})%<br>Từ (1) và (2) suy ra %(\\mathrm{B}, \\mathrm{G}, \\mathrm{F}, \\mathrm{I}, \\mathrm{D})% cùng nằm trên đường tròn đường kính %(\\mathrm{BI})% Hay %(\\mathrm{BGFD})% là tứ giác nội tiếp",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Các điểm %(\\mathrm{E}, \\mathrm{F}, \\mathrm{G}, \\mathrm{H})% thẳng hàng",
+        "question_images": [],
+        "solution": "BGFD là tứ giác nội tiếp (cmt)<br>\\[\\Rightarrow G F D+G B D=180^{\\circ}\\]<br>Lai có %(E F D=E D C)% vì cùng chắn cung %(\\mathrm{ED})% của đường tròn (I)           (4)<br>Hơn nữa, do %(\\mathrm{BG} / / \\mathrm{ED})% (cmt) nên %(G B D=E D C)%       (5)<br>Từ (3), (4) và (5) %(\\Rightarrow G F D+E F D=180^{\\circ})%<br>Hay %(\\mathrm{G}, \\mathrm{F}, \\mathrm{E})% thẳng hàngTương tự %(\\mathrm{H}, \\mathrm{E}, \\mathrm{F})% thẳng hàng<br>Suy ra đpcm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.a ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}|x-y|=4 \\\\ \\left|x^{2}-y^{2}\\right|+|x+y|=10\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "a) Ta có: %(\\left\\{\\begin{array}{l}|x-y|=4 \\\\ \\left|x^{2}-y^{2}\\right|+|x+y|=10\\end{array}\\right.)%<br>\\[\\begin{array}{l}\\Leftrightarrow\\left\\{\\begin{array}{l}|x-y|=4 \\\\|x-y||x+y|+|x+y|=10\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}|x-y|=4 \\\\5|x+y|=10\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}|x-y|=4 \\\\|x+y|=2\\end{array}\\right.\\end{array}\\]<br>TH1: %(\\left\\{\\begin{array}{l}x-y=4 \\\\ x+y=2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=3 \\\\ y=-1\\end{array}\\right.\\right.)%<br>TH2: %(\\left\\{\\begin{array}{l}x-y=4 \\\\ x+y=-2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=1 \\\\ y=-3\\end{array}\\right.\\right.)%<br>TH3: %(\\left\\{\\begin{array}{l}x-y=-4 \\\\ x+y=2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=-1 \\\\ y=3\\end{array}\\right.\\right.)%<br>TH4: %(\\left\\{\\begin{array}{l}x-y=-4 \\\\ x+y=-2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=-3 \\\\ y=1\\end{array}\\right.\\right.)%<br>Vậy nghiệm của hệ phương trình %((x ; y))% là %((3 ;-1) ;(1 ;-3) ;(-1 ; 3) ;(-3 ; 1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.b ",
+        "point": 1.0,
+        "content": "Không giải phương trình, tìm %(M^{2})% với %(\\mathrm{M})% là tổng các giá trị tuyệt đối của tất cả các nghiệm của phương trình: %(x=\\sqrt{3}+\\frac{7}{\\sqrt{3}+\\frac{7}{\\sqrt{3}+\\frac{7}{x}}})%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\neq 0)%<br>Ta có: %(\\frac{7}{\\sqrt{3}+\\frac{7}{\\sqrt{3}+\\frac{7}{x}}}=\\frac{7\\left(\\sqrt{3}+\\frac{7}{x}\\right)}{\\sqrt{3}\\left(\\sqrt{3}+\\frac{7}{x}\\right)+7}=\\frac{7 \\sqrt{3} x+49}{10 x+7 \\sqrt{3}})%<br>Do đó %(x=\\sqrt{3}+\\frac{7 \\sqrt{3} x+49}{10 x+7 \\sqrt{3}})%<br>\\[\\Leftrightarrow x^{2}-\\sqrt{3} x-7=0\\]<br>(1) là phương trình bậc hai, có %(\\mathrm{ac}=-7)% nên luôn có hai nghiệm phân biệt %(x_{1}, x_{2})%.<br>Áp dụng định lý Vi-et ta được: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=\\sqrt{3} \\\\ x_{1} x_{2}=-7\\end{array}\\right.)%<br>Ta có: %(M^{2}=\\left(\\left|x_{1}\\right|+\\left|x_{2}\\right|\\right)^{2}=x_{1}^{2}+x_{2}^{2}+2\\left|x_{1}\\right|\\left|x_{2}\\right|=\\left(x_{1}+x_{2}\\right)^{2}-2 x_{1} x_{2}+2\\left|x_{1} x_{2}\\right|)%<br>\\[=(\\sqrt{3})^{2}-2 \\cdot(-7)+2 .|-7|=31\\]<br>Vậy %(M^{2}=31)% là kết quả cần tìm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho tam giác %(\\mathrm{ABC})% cân tại %(\\mathrm{A})%, có đường cao %(\\mathrm{AH})%. Gọi %(\\mathrm{M})% là trung điềm của %(\\mathrm{AH} ; \\mathrm{E}, \\mathrm{F})% lần lượt là hình chiếu vuông góc của %(\\mathrm{H})% trên %(\\mathrm{BM}, \\mathrm{AC})%. Đường thẳng %(\\mathrm{CE})% cắt các đường thẳng %(\\mathrm{HF})% và %(\\mathrm{BF})% lần lượt tại %(\\mathrm{G})% và %(\\mathrm{K})%. Chứng minh rằng",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(B E C=H E A)%",
+        "question_images": [],
+        "solution": "Do %(H E \\perp B M, A H \\perp B C(g t) \\Rightarrow H B E=M H E)%<br>Suy ra hai tam giác vuông %(\\mathrm{HBE})% và MHE đồng dạng<br>Suy ra %(\\frac{B H}{B E}=\\frac{H M}{H E})%<br>Do %(\\mathrm{M}, \\mathrm{H})% lần lượt là trung điểm của %(\\mathrm{AH}, \\mathrm{BC})% nên %(\\mathrm{BC}=2 \\mathrm{BH})% và %(\\mathrm{HA}=2 \\mathrm{HM}(3))%<br>Từ (2) và (3) suy ra %(\\frac{B C}{B E}=\\frac{H A}{H E})%<br>Từ (1) và %((4) \\Rightarrow \\triangle E B C \\sim \\triangle E H A(c-g-c))%<br>Do vậy %(B E C=H E A)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/041bef034a58add382f71c15918fa1ba.png\" srcset=\"https://docdn.giainhanh.io/media/test/28b9958795dbb4e2a0d2631cdd1c5407.png 245w, https://docdn.giainhanh.io/media/test/a71176d13c09202b4c19e0546789a0c5.png 500w, https://docdn.giainhanh.io/media/test/b059aa1f5320644e6dd8a8f4d4c3fd35.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(\\mathrm{AG})% vuông góc với %(\\mathrm{BF})%.",
+        "question_images": [],
+        "solution": "b) Do %(\\triangle E B C \\sim \\triangle E H A)% (cmt) nên %(H C E=B C E=H A E)%<br>=> Tứ giác %(\\mathrm{AEHC})% nội tiếp<br>Do tứ giác %(\\mathrm{AEHC})% nội tiếp nên %(H E A+H C A=180^{\\circ})%  (5)<br>Do %(\\mathrm{M}, \\mathrm{E}, \\mathrm{B})% thẳng hàng nên %(M E G+B E C=180^{\\circ})%   (6)<br>Do %(\\triangle E B C \\sim \\triangle E H A)% nên %(B E C=H E A)%      (7)<br>Từ (5), (6), (7) suy ra %(H C A=M E G)% (8)<br>Lại có %(H C A=M H G)%   (9)   vì cùng phụ %(H A C)%<br>Từ (8) và (9) suy ra %(M E G=M H G)%<br>\\[\\begin{array}{l}\\Rightarrow \\text { Tứ giác MEHG nội tiếp } \\\\Rightarrow H G M=M E H=90^{\\circ} \\\\Rightarrow M G \\perp H F \\\\Rightarrow \\mathrm{MG} / / \\mathrm{AF}\\end{array}\\]<br>Mà %(\\mathrm{M})% là trung điểm của %(\\mathrm{HA})% nên %(\\mathrm{G})% là trung điểm của %(\\mathrm{HE})%<br>Ta có: %(A H F=A C H)% vì cùng phụ %(C H F)%<br>\\[\\begin{array}{l}\\Rightarrow \\triangle H F A \\sim \\triangle C F H \\\\Rightarrow \\frac{H A}{H F}=\\frac{C H}{C F}\\end{array}\\]<br>Do %(\\mathrm{H}, \\mathrm{G})% lần lượt là trung điểm của %(\\mathrm{BC}, \\mathrm{HF})% nên %(\\mathrm{BC}=2 \\mathrm{CH})% và %(\\mathrm{HF}=2 \\mathrm{HG})%<br>Khi đó %(\\frac{H A}{2 H G}=\\frac{B C}{2 C F} \\Leftrightarrow \\frac{H A}{H G}=\\frac{B C}{C F})%<br>Kết hợp với (9) dẫn đến %(\\triangle B C F \\sim \\triangle A H G)%%(\\Rightarrow H B I=C B F=H A G=H A I)% (với %(\\mathrm{I})% là giao điểm của %(\\mathrm{AG})% và %(\\mathrm{BF})% )<br>Từ đó suy ra %(\\mathrm{ABHI})% nội tiếp, vì thế %(A I K=A I B=A H B=90^{\\circ})% (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho %(x \\geq 0, y \\geq 0, x y \\leq \\frac{1}{4})%. Chứng minh rằng: %(\\frac{2}{1+2 \\sqrt{x y}} \\geq \\frac{1}{1+2 x}+\\frac{1}{1+2 y})%",
+        "question_images": [],
+        "solution": "Đặt %(a=\\sqrt{x}, b=\\sqrt{y}\\left(a, b \\geq 0 ; a b \\leq \\frac{1}{2}\\right))%. Ta cần chứng minh<br>\\[\\begin{array}{l} \\frac{2}{1+2 a b} \\geq \\frac{1}{1+2 a^{2}}+\\frac{1}{1+2 b^{2}}(1) \\\\Leftrightarrow \\frac{1}{1+2 a b}-\\frac{1}{1+2 a^{2}} \\geq \\frac{1}{1+2 a b}-\\frac{1}{1+2 b^{2}} \\\\Leftrightarrow \\frac{a^{2}-a b}{1+2 a^{2}} \\geq \\frac{a b-b^{2}}{1+2 b^{2}}(\\text { do } 1+2 a b\\gt 0) \\\\Leftrightarrow a(a-b)\\left(1+2 b^{2}\\right) \\geq b(a-b)\\left(1+2 a^{2}\\right)\\left(\\text { do } 1+2 a^{2}>0 ; 1+2 b^{2}>0\\right) \\\\Leftrightarrow(a-b)\\left(a+2 a b^{2}-b-2 a^{2} b\\right) \\geq 0\\end{array}\\]<br>\\[\\begin{array}{l}\\Leftrightarrow(a-b)((a-b)-2 a b(a-b)) \\geq 0 \\\\Leftrightarrow(a-b)^{2}(1-2 a b) \\geq 0\\end{array}\\]<br>Do %((a-b)^{2} \\geq 0)% và %(1-2 a b \\geq 0)% nên (2) đúng %(\\Leftrightarrow)% (1) đúng<br>Dấu \" %(=)% \" xảy ra khi và chỉ khi %(x=y \\geq 0)% hoặc %(\\mathrm{x}, \\mathrm{y})% không âm và %(x y=\\frac{1}{4})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Hãy xác định %(\\mathrm{n})% số nguyên dương liên tiếp, biết rằng tổng của %(\\mathrm{n})% số đó bằng 2024 .",
+        "question_images": [],
+        "solution": "Ta có: %(S=1+2+3+\\ldots+n)%<br>Và %(\\quad S=n+(n-1)+\\ldots+1)%<br>Cộng %(\\quad 2 S=(n+1) n \\Leftrightarrow S=\\frac{n(n+1)}{2})%<br>Giả sử %(\\mathrm{n})% số nguyên dương liên tiếp thỏa mãn yêu cầu đề bài bắt đầu từ số nguyên dương %(\\mathrm{k}+1)%.<br>Ta có: %((k+1)+(k+2)+\\ldots+(k+n-1)+(k+n)=2024)%<br>\\[\\begin{array}{l}\\Leftrightarrow n k+\\frac{n(n+1)}{2}=2024 \\\\Leftrightarrow 2 n k+n(n+1)=4048 \\\\Leftrightarrow n(2 k+n+1)=2^{4} .253\\end{array}\\]<br>Do %(\\mathrm{n}, \\mathrm{n}+1)% có tính chẵn lẻ khác nhau nên %(\\mathrm{n})% và %(2 \\mathrm{k}+\\mathrm{n}+1)% có tính chẵn lẻ khác nhau.<br>+) Nếu %(n)% lẻ thì %(2 k+n+1)% chẵn.<br>Khi đó %(\\left\\{\\begin{array}{l}n=253 \\\\ 2 k+n+1=16\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}n=253 \\\\ k=-119\\end{array}(l)\\right.\\right.)%<br>+) Nếu n chẵn thì %(2 \\mathrm{k}+\\mathrm{n}+1)% lẻ<br>Khi đó %(\\left\\{\\begin{array}{l}n=16 \\\\ 2 k+n+1=253\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}n=16 \\\\ k=118\\end{array}(n)\\right.\\right.)%<br>Chú ý: Học sinh có thể không xét 2 trường hợp như trên mà có thể làm như sau:<br>Do %(\\mathrm{n}\\lt 2 \\mathrm{k}+\\mathrm{n}+1)% nên %(\\left\\{\\begin{array}{l}n=16 \\\\ 2 k+n+1=253\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}n=16 \\\\ k=118\\end{array}\\right.\\right.)%<br>Vậy các số cần tìm là 16 số liên tiếp: %(119,120, \\ldots, 134)%.",
+        "question_type": "essay"
+    }
+]

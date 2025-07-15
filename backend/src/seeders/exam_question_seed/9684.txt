@@ -1,0 +1,80 @@
+[
+    {
+        "title": "1",
+        "group_content": "Tính các tích phân sau:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(A=\\int_{0}^{\\frac{\\pi}{2}}(x-1) \\sin 2 x d x)%",
+        "question_images": [],
+        "solution": "Đặt:%(\\left\\{\\begin{array}{l}u=x-1 \\\\ d v=\\sin 2 x d x\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}d u=d x \\\\ v=-\\frac{1}{2} \\cos 2 x\\end{array}\\right.\\right.)% %(I=-\\left.\\frac{1}{2}(x-1) \\cos 2 x\\right|_{0} ^{\\frac{\\pi}{2}}+\\frac{1}{2} \\int_{0}^{\\frac{\\pi}{2}} \\cos 2 x d x)% %(=-\\frac{1}{2}\\left(\\frac{\\pi}{2}-1\\right) \\cos \\pi+\\frac{1}{2}(0-1) \\cos 0+\\left.\\frac{1}{4} \\sin 2 x\\right|_{0} ^{\\frac{\\pi}{2}})% %(=\\frac{\\pi}{4}-1+\\frac{1}{4}(\\sin \\pi-\\sin 0)=\\frac{\\pi}{4}-1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(B=\\int_{-1}^{1} \\frac{x^{2}+x}{(x+2)^{2}} d x)%",
+        "question_images": [],
+        "solution": "Đăt: %(\\mathrm{u}=\\mathrm{x}+2 \\Rightarrow \\mathrm{du}=\\mathrm{dx})% và %(x=u-2)%<br>Đổi can: %(x=-1 \\Rightarrow u=1 ; \\quad x=1 \\Rightarrow u=3)%<br>\\[\\begin{aligned}\\mathrm{B} & =\\int_{1}^{3} \\frac{(u-2)^{2}+(u-2)}{u^{2}} d u=\\int_{1}^{3} \\frac{u^{2}-3 u+2}{u^{2}} d u=\\int_{1}^{3}\\left(1-\\frac{3}{u}+\\frac{2}{u^{2}}\\right) d u \\\\& =\\left.\\left(u-3 \\ln |u|-\\frac{2}{u}\\right)\\right|_{1} ^{3} \\\\& =\\left(3-3 \\ln 3-\\frac{2}{3}\\right)-(1-3 \\ln 1-2)=\\frac{\\mathbf{1 0}}{\\mathbf{3}}-3 \\ln 3\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Tính diện tích hình phẳng %((\\mathrm{H}))% giới hạn bởi các đường %(y=x^{2}-3 x)% và %(y=6-2 x)%.",
+        "question_images": [],
+        "solution": "Giải phương trình hoành độ giao điềm %(x^{2}-3 x=6-2 x)% được %(x=-2, x=3)%<br>Diện tích cần tìm là:<br>\\[\\begin{aligned}S & =\\int_{-2}^{3}\\left|x^{2}-3 x-(6-2 x)\\right| d x \\\\& =\\int_{-2}^{3}\\left|x^{2}-x-6\\right| d x\\end{aligned}\\]<br>Xét dấu:<br>\\[x^{2}-x-\\left.6\\right|^{-\\infty}+2-213++\\infty\\]<br>\\[\\begin{aligned}\\Rightarrow S & =\\int_{-2}^{3}\\left(-x^{2}+x+6\\right) d x \\\\& =\\left.\\left(-\\frac{x^{3}}{3}+\\frac{x^{2}}{2}+6 x\\right)\\right|_{-2} ^{3}=\\frac{27}{2}+\\frac{22}{3}=\\frac{125}{6}\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tìm số phức z thỏa mãn điều kiện %(|\\mathrm{z}|^{2}-(1+\\mathrm{i}) \\mathrm{z}=0)%",
+        "question_images": [],
+        "solution": "Đăt: %(z=x+y i,(x, y \\in R))%<br>Phương trình đã cho tương đương với<br>\\[\\begin{array}{l}x^{2}+y^{2}-(1+i)(x+y i)=0 \\\\Leftrightarrow x^{2}+y^{2}-x+y-(x+y) i=0 \\\\Leftrightarrow\\left\\{\\begin{array} { l } { x ^ { 2 } + y ^ { 2 } - x + y = 0 } \\\\{ x + y = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x^{2}+y^{2}-x+y=0 \\y=-x\\end{array}\\right.\\right. \\\\end{array}\\]<br>Thay (2) vào (1) và giải ra được: %(x=0, x=1)%<br>Vây: %(z=0, z=1-i)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Giải phương trình sau trên tập số phức %(z^{2}-2 z+5=0)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Ta co: } \\Delta^{\\prime}=1-5=-4 \\\\ \\left.=(2 i)^{2} \\quad \\text { (hoac } \\boldsymbol{H S} \\text { tra loi: } \\Delta^{\\prime} \\text { co can bac hai la } \\pm 2 i\\right) \\\\ \\text { Phuong trinh co } 2 \\text { nghiem: } z=1+2 i \\\\ \\text { và } z=1-2 i\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Trong không gian tọa độ Oxyz cho điểm %(M(2 ;-3 ; 1))%, mặt phẳng %((\\mathrm{P}): \\mathrm{x}+2 \\mathrm{y}-2 \\mathrm{z}-3=0)% và đường thẳng%((\\Delta): \\frac{x+1}{2}=\\frac{y-2}{-1}=\\frac{z}{3})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Viết phương trình mặt phẳng %((\\alpha))% đi qua điểm M và song song với mặt phẳng %((\\mathrm{P}))%.",
+        "question_images": [],
+        "solution": "Mặt phẳng %((\\alpha) / /(\\mathrm{P}))% nên phương trình có dạng: %(\\mathrm{x}+2 \\mathrm{y}-2 \\mathrm{z}+\\mathrm{d}=0,(\\mathrm{~d} \\neq-3))%<br>Mặt phẳng %((\\alpha))% đi qua %(M(2 ;-3 ; 1))% nên khi thay tọa độ vào phương trình ta được: %(2+2 .(-3)-2 \\cdot 1+\\mathrm{d}=0 \\Rightarrow \\mathrm{d}=6)% (thỏa mãn đk)<br>Vây, mặt phẳng %((\\alpha))% có phương trình: %(\\mathrm{x}+2 \\mathrm{y}-2 \\mathrm{z}+6=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Tìm tọa độ điểm H là hình chiếu vuông góc của M lên mặt phẳng (P).",
+        "question_images": [],
+        "solution": "VTPT của %((\\mathrm{P}))% là: %(\\overrightarrow{n_{P}}=(1 ; 2 ;-2))%<br>Gọi %((\\mathrm{d}))% là đường thẳng đi qua M và vuông góc với %((\\mathrm{P}))%, có VTCP là %(\\overrightarrow{n_{P}}=(1 ; 2 ;-2))%<br>Phương trình tham số của (d) là: %(\\left\\{\\begin{array}{l}x=2+t \\\\ y=-3+2 t \\\\ z=1-2 t\\end{array}\\right.)%<br>Điểm H là giao điểm của đường thẳng %((\\mathrm{d}))% và mặt phẳng %((\\mathrm{P}))%.<br>Tọa độ của điểm H là nghiệm của hệ pt: %(\\left\\{\\begin{array}{l}x=2+t \\\\ y=-3+2 t \\\\ z=1-2 t \\\\ x+2 y-2 z-3=0\\end{array}\\right.)%<br>\\[\\Rightarrow \\mathrm{t}=1 \\quad \\Rightarrow \\mathrm{x}=3, \\mathrm{y}=-1, \\mathrm{z}=-1\\]<br>Vây: %(H(3 ;-1 ;-1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) Viết phương trì̀h mặt cầu %((\\mathrm{S}))% có tâm M và tiếp xúc với đường thẳng %((\\Delta))%.",
+        "question_images": [],
+        "solution": "Gọi %((\\mathrm{Q}))% là mặt phẳng đi qua %(M(2 ;-3 ; 1))% và vuông góc với %((\\Delta))%<br>\\[\\Rightarrow(Q): 2 x-y+3 z-10=0\\]<br>Gọi I là giao điểm của %((\\mathrm{Q}))% và %((\\Delta))%.<br>Tìm được tọa độ của %(\\mathrm{I}(1 ; 1 ; 3))%<br>Suy ra: %(I M=\\sqrt{21})%<br>Vì mặt cầu %((S))% có tâm M và tiếp xúc với đường thẳng %((\\Delta))% nên có bán kính<br>\\[R=I M=\\sqrt{21} \\text {. }\\]<br>Vây, phương trình của mặt cầu %((\\mathrm{S}))% là:<br>\\[(x-2)^{2}+(y+3)^{2}+(z-1)^{2}=21\\]",
+        "question_type": "essay"
+    }
+]

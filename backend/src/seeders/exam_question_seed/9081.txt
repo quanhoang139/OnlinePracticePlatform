@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho %(A=\\left(1-\\frac{x-\\sqrt{x}}{x-1}\\right):\\left(\\frac{\\sqrt{x}+3}{\\sqrt{x}-2}-\\frac{\\sqrt{x}+2}{\\sqrt{x}-3}+\\frac{\\sqrt{x}+2}{x-5 \\sqrt{x}+6}\\right))%. Với %((x \\geq 0 ; x \\neq 1 ; x \\neq 4 ; x \\neq 9))%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Rút gọn biểu thức",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=\\left(1-\\frac{x-\\sqrt{x}}{x-1}\\right):\\left(\\frac{\\sqrt{x}+3}{\\sqrt{x}-2}-\\frac{\\sqrt{x}+2}{\\sqrt{x}-3}+\\frac{\\sqrt{x}+2}{x-5 \\sqrt{x}+6}\\right) \\\\ =\\left[1-\\frac{\\sqrt{x}(\\sqrt{x}-1)}{(\\sqrt{x}-1)(\\sqrt{x}+1)}\\right]: \\frac{x-9-x+4+\\sqrt{x}+2}{(\\sqrt{x}-2)(\\sqrt{x}-3)} \\\\ =\\frac{\\sqrt{x}+1-\\sqrt{x}}{\\sqrt{x}+1} .\\frac{(\\sqrt{x}-2)(\\sqrt{x}-3)}{\\sqrt{x}-3} \\\\ =\\frac{\\sqrt{x}-2}{\\sqrt{x}+1} .\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Tìm tất cả các giá trị của %(x)% sao cho biểu thức %(A)% có giá trị nguyên.",
+        "question_images": [],
+        "solution": "Với %(x \\geq 0 ; x \\neq 1 ; x \\neq 4 ; x \\neq 9)%<br>Ta có: %(A=\\frac{\\sqrt{x}-2}{\\sqrt{x}+1}=1+\\frac{-3}{\\sqrt{x}+1})%<br>Ta có: %(\\frac{-3}{\\sqrt{x}+1}\\lt 0 \\Rightarrow 1+\\frac{-3}{\\sqrt{x}+1}\\lt 1~~~~~ (1))%<br>Lại có: %(\\sqrt{x}+1 \\geq 1 \\Rightarrow \\frac{1}{\\sqrt{x}+1} \\leq 1 \\Rightarrow \\frac{-3}{\\sqrt{x}+1} \\geq-3 \\Rightarrow 1+\\frac{-3}{\\sqrt{x}+1} \\geq-2~~~~~(2))%<br>Từ (1) và (2) ta có %(-2 \\leq A\\lt 1)%<br>Mà %(A)% nguyên nên %(A \\in\\{-2 ;-1 ; 0\\})%<br>\\[A=-2 \\Rightarrow \\frac{-3}{\\sqrt{x}+1}=-3 \\Rightarrow \\sqrt{x}+1=1 \\Rightarrow x=0~(\\mathrm{tm})\\]<br>\\[\\begin{array}{l}A=-1 \\Rightarrow \\frac{-3}{\\sqrt{x}+1}=-2 \\Rightarrow \\sqrt{x}+1=\\frac{3}{2} \\Rightarrow \\sqrt{x}=\\frac{1}{2} \\Rightarrow x=\\frac{1}{4}~(\\mathrm{tm}) \\A=0 \\Rightarrow \\frac{-3}{\\sqrt{x}+1}=-1 \\Rightarrow \\sqrt{x}+1=3 \\Rightarrow \\sqrt{x}=2 \\Rightarrow x=4~(\\mathrm{ktm})\\end{array}\\]<br>Vậy %(x \\in\\left\\{0 ; \\frac{1}{4}\\right\\})% thì %(A)% nhận giá trị nguyên.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(\\sqrt{x^{4}+2 x^{2}+9}=2 x^{2}+x-6)%.",
+        "question_images": [],
+        "solution": "ĐKXĐ: %(2 x^{2}+x-6 \\geq 0 \\Leftrightarrow\\left[\\begin{array}{l}x \\geq \\frac{3}{2} \\\\ x \\leq-2\\end{array}\\right.)%<br>\\[\\sqrt{x^{4}+2 x^{2}+9}=2 x^{2}+x-6 \\Leftrightarrow x^{4}+2 x^{2}+9=\\left(2 x^{2}+x-6\\right)^{2}\\]<br>Ta thấy %(x=0)% không phải là nghiệm của PT, chia cả 2 vế của PT cho %(x^{2})%, ta có:<br>\\[\\frac{x^{4}+2 x^{2}+9}{x^{2}}=\\frac{\\left(2 x^{2}+x-6\\right)^{2}}{x^{2}} \\Leftrightarrow x^{2}+\\frac{9}{x^{2}}+2=\\left[2\\left(x-\\frac{3}{x}\\right)+1\\right]^{2}~~~~~(*)\\]<br>Đặt %(x-\\frac{3}{x}=y \\Rightarrow x^{2}+\\frac{9}{x^{2}}=y^{2}+6)%, thay vào %(\\mathrm{PT}(*))% ta có:<br>\\[y^{2}+8=(2 y+1)^{2} \\Leftrightarrow 3 y^{2}+4 y-7=0 \\Leftrightarrow\\left[\\begin{array}{l}y=1 \\y=\\frac{-7}{3}\\end{array}\\right.\\]<br>Với %(y=1 \\Rightarrow x-\\frac{3}{x}=1 \\Leftrightarrow x^{2}-x-3=0 \\Leftrightarrow\\left[\\begin{array}{l}x_{1}=\\frac{1-\\sqrt{13}}{2} \\\\ x_{2}=\\frac{1+\\sqrt{13}}{2}\\end{array}\\right.)%<br>Với %(y=\\frac{-7}{3} \\Rightarrow x-\\frac{3}{x}=\\frac{-7}{3} \\Leftrightarrow 3 x^{2}+7 x-9=0 \\Leftrightarrow\\left[\\begin{array}{l}x_{1}=\\frac{-7-\\sqrt{157}}{6} \\\\ x_{2}=\\frac{-7+\\sqrt{157}}{6}\\end{array}\\right.)%<br>Kết hợp ÐKXĐ suy ra tập nghiệm của PT là %(S=\\left\\{\\frac{1+\\sqrt{13}}{2} ; \\frac{-7-\\sqrt{157}}{6}\\right\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}y^{3}-(1+3 x) y^{2}+3 x y-3 x+y=0~~~~~(1) \\\\ x^{2}+9 x+20=2 \\sqrt{y+10}~~~~~(2)\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "ĐK: %(y+10 \\geq 0)%<br>Xét PT (1) ta có<br>\\[\\begin{array}{l}y^{3}-(1+3 x) y^{2}+3 x y-3 x+y=0 \\Leftrightarrow y^{3}+1-(1+3 x)\\left(y^{2}-y+1\\right)=0 \\\\Leftrightarrow(y+1)\\left(y^{2}-y+1\\right)-(1+3 x)\\left(y^{2}-y+1\\right)=0 \\\\Leftrightarrow(y-3 x)\\left(y^{2}-y+1\\right)=0 \\text { mà } y^{2}-y+1\\gt 0 \\Rightarrow y=3 x\\end{array}\\]<br>Thay %(y=3 x)% vào %(\\mathrm{PT}~(2))%, ta có:<br>\\[\\begin{array}{l}\\text { (2) } \\Leftrightarrow x^{2}+9 x+20-2 \\sqrt{3 x+10}=0 \\Leftrightarrow(x+3)^{2}+3 x+11-2 \\sqrt{3 x+10}=0 \\\\Leftrightarrow(x+3)^{2}+\\frac{9 x^{2}+66 x+121-12 x-40}{3 x+11+2 \\sqrt{3 x+10}}=0 \\Leftrightarrow(x+3)^{2}+\\frac{9 x^{2}+54 x+81}{3 x+11+2 \\sqrt{3 x+10}}=0 \\\\Leftrightarrow(x+3)^{2}\\left(1+\\frac{9}{3 x+11+2 \\sqrt{3 x+10}}\\right)=0\\end{array}\\]<br>Mặt khác: %(3 x+11+2 \\sqrt{3 x+10}=3 x+10+2 \\sqrt{3 x+10}+1=(\\sqrt{3 x+10}+1)^{2}>0)%<br>\\[\\Rightarrow 1+\\frac{9}{3 x+11+2 \\sqrt{3 x+10}}>0\\]<br>Suy ra %(x+3=0 \\Leftrightarrow x=-3 \\Rightarrow y=-9~ (thỏa~ mãn ~đk))%<br>Vậy hệ phương trình có nghiệm là %(\\left\\{\\begin{array}{l}x=-3 \\\\ y=-9\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các cặp số nguyên %((x, y))% thỏa mãn: %(3(x-2 y+1)(6 x-y+2)+11 y=8)%.",
+        "question_images": [],
+        "solution": "Ta có: %(3(x-2 y+1)(6 x-y+2)+11 y=8)%<br>\\[\\begin{array}{l}\\Leftrightarrow 3[(x-2 y)(6 x-y)+2 x-4 y+6 x-y+2]+11 y=8 \\\\Leftrightarrow 3(x-2 y)(6 x-y)+24 x-4 y+6=8 \\\\Leftrightarrow(3 x-6 y)(6 x-y)+4(6 x-y)=2\\end{array}\\]<br>\\[\\Leftrightarrow(3 x-6 y+4)(6 x-y)=2\\]<br>Vì %(x, y \\in)% Z nên %((x, y)=(0 ; 1))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/048898f9e8e39a29d4360c77bcbb3585.png\" srcset=\"https://docdn.giainhanh.io/media/test/ebd27f7a58bf442a98258973c1fc5c55.png 245w, https://docdn.giainhanh.io/media/test/29fcb874fb235548317e7246a94d4302.png 500w, https://docdn.giainhanh.io/media/test/b21a622daf3711c9b19149cbd3bad6a7.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Chứng minh rằng nếu %(\\overline{a b c})% là số nguyên tố thì %(b^{2}-4 a c)% không phải là số chính phương.",
+        "question_images": [],
+        "solution": "Giả sử %(b^{2}-4 a c)% là số chính phương, đặt %(b^{2}-4 a c=n^{2} \\Rightarrow 4 a c=b^{2}-n^{2})%<br>Ta có: %(4 a .\\overline{a b c}=400 a^{2}+40 a b+4 a c=(20 a)^{2}+2 .(20 a) . b+b^{2}-n^{2})%<br>\\[=(20 a+b)^{2}-n^{2}=(20 a+b-n)(20 a+b+n)\\]<br>Trong hai số %(20 a+b-n)% và %(20 a+b+n)% có một số chia hết cho số nguyên tố %(\\overline{a b c})%<br>Mặt khác, %(b^{2}-n^{2}=4 a c\\gt 0 \\Rightarrow n\\lt b)%<br>Do đó, %(20 a+b-n\\lt 20 a+b+n\\lt 100 a+10 b+c=\\overline{a b c})%<br>Cả hai số %(20 a+b-n)% và %(20 a+b+n)% đều nhỏ hơn %(\\overline{a b c})%.<br>Vậy %(b^{2}-4 a c)% không phải là số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho đường tròn %((O ; R))% và điểm %(M)% cố định ở bên ngoài đường tròn. Từ %(M)% kẻ các tiếp tuyến %(M A, M B)% và cát tuyến %(M C D)% đến đường tròn %((O ; R))%, với %(A, B)% là các tiếp điểm. %(C, D)% thuộc đường tròn %((O))% sao cho %(M C\\lt M D, C D\\lt 2 R)%. Gọi %(E)% là trung điểm của %(C D)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 3.0,
+        "content": "a) Chứng minh bốn điểm %(A, E, O, B)% cùng nằm trên một đường tròn.",
+        "question_images": [],
+        "solution": "Xét tứ giác %(A O B M)% có:<br>%(\\widehat{M A O}=90^{\\circ})% (vì %(M A)% là tiếp tuyến của đường tròn tâm %(O)% )<br>%(\\widehat{M B O}=90^{\\circ})% (vì %(M B)% là tiếp tuyến của đường tròn tâm %(O)% )<br>%(\\Rightarrow \\widehat{M A O}+\\widehat{M B O}=90^{\\circ}+90^{\\circ}=180^{\\circ})%<br>%(\\Rightarrow)% Tứ giác %(A O M B)% nội tiếp đường tròn đường kính %(M O~~~~~(1))%<br>Vì %(E)% là trung điểm của đoạn thẳng %(C D)% nên %(O E \\perp C D)%<br>Xét %(\\triangle M O E)% vuông tại %(E)% nên %(\\triangle M O E)% nội tiếp đường tròn đường kính %(M O~~~~~(2))%Từ (1) và (2) suy ra 5 điểm %(A, E, O, B, M)% cùng nằm trên đường tròn đường kính MO.<br>Vậy bốn điểm %(A, E, O, B)% cùng nằm trên một đường tròn.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/42af5f495c7da19dbae0aa29d93bd3be.png\" srcset=\"https://docdn.giainhanh.io/media/test/49cf0b290b797ce8ce144ab1544391a0.png 212w, https://docdn.giainhanh.io/media/test/0ffb29a33a3b44f87b4f466106bd632b.png 500w, https://docdn.giainhanh.io/media/test/3b36086133efc32646265e02677613ae.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "2) Gọi %(F)% là giao điểm của %(A B)% và %(O E)%. Chứng minh %(F C)% là tiếp tuyến của đường tròn %((O ; R))%.",
+        "question_images": [],
+        "solution": "Gọi %(\\{H\\}=A B \\cap M O ;\\{G\\}=A B \\cap C D)%.<br>Ta có: %(M A=M B)% (tính chất hai tiếp tuyến cắt nhau)<br>\\[O A=O B(=R)\\]<br>Suy ra: %(O M)% là đường trung trực của đoạn thẳng %(A B \\Rightarrow O M)% vuông góc %(A B)% tại %(H)%Xét tam giác %(O A M)% vuông tại %(A)% có đường cao %(A H)%, ta có:<br>%(M A^{2}=M H . M O)%<br>Ta chứng minh được %(\\triangle M A C \\sim \\triangle M D A)% (g.g)<br>%(\\Rightarrow M A^{2}=M C . M D)%<br>Suy ra: %(M H. M O=M C . M D)%<br>Khi đó %(\\triangle M C H \\sim \\triangle M O D)% (c.g.c)<br>\\[\\Rightarrow M H C=M D O\\]<br>%(\\Rightarrow)% Tứ giác %(C H O D)% nội tiếp đường tròn<br>%(\\Rightarrow \\widehat{D H O}=\\widehat{O C D})% (hai góc nội tiếp cùng chắn cung %(O D)% )<br>Mà %(\\widehat{OC D}=\\widehat{O D C})%<br>%(\\Rightarrow \\widehat{OH D}=\\widehat{O D C})% hay %(\\widehat{OH D}=\\widehat{O D M} \\Rightarrow \\triangle O H D \\sim \\triangle O D M)% (g.g)%(\\Rightarrow \\widehat{O D H}=\\widehat{O M D})% hay %(\\widehat{O D H}=\\widehat{O M G}~~~~~~(3))%<br>Xét %(\\triangle M H G)% và %(\\triangle F E G)%, có:<br>%(\\widehat{M G H}=\\widehat{F G E})% (hai góc đối đỉnh)<br>%(\\widehat{M H G}=\\widehat{F E G}=90^{\\circ})%<br>Suy ra: %(\\widehat{H M G}=\\widehat{E F G})% hay %(\\widehat{O M E}=\\widehat{O F H}~~~~~(4))%<br>Từ (3) và (4) suy ra: %(\\widehat{O D H}=\\widehat{OF H})%<br>%(\\Rightarrow)% Tứ giác %(O H D F)% nội tiếp đường tròn đường kính %(O F)%<br>Mà tứ giác %(O H C D)% nội tiếp đường tròn (cmt)<br>Suy ra 5 điểm %(O, H, C, F, D)% cùng nằm trên đường tròn đường kính %(O F)%%(\\Rightarrow \\widehat{O C F}=90^{\\circ})% hay %(F C \\perp C O)%<br>%(\\Rightarrow F C)% là tiếp tuyến của đường tròn %((O ; R))% (đpcm).",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Gọi %(T)% là điểm thay đổi trên cung nhỏ %(A B)% của đường tròn %((O))%. Tiếp tuyến qua %(T)% của đường tròn %((O))% lần lượt cắt %(M A, M B)% tại các điểm %(I, K)%. Chứng minh chu vi tam giác %(M I K)% không đổi. Xác định vị trí của điểm %(T)% trên cung nhỏ %(A B)% sao cho tam giác %(M I K)% có diện tích lớn nhất.",
+        "question_images": [],
+        "solution": "Do %(I K)% là tiếp tuyến của đường tròn tâm %(O)% tại %(T)%<br>Nên %(I T=I A)% và %(K T=K B)%<br>%(\\Rightarrow I K=I T+K T=I A+K B)%<br>Ta có: %(C_{M \\mathbb{K}}=M I+M K+I K=M I+M K+I A+K B=M A+M B=2 M A)%<br>Mà điểm %(O)% và %(M)% cố định nên %(M A)% không đổi.<br>Do đó %(C_{M I K})% không đổi (đpcm)<br>Qua %(O)% kẻ đường thẳng song song %(A B)% cắt %(M A)% tại %(A_{1})%, cắt %(M B)% tại %(B_{1})%.<br>Ta có: %(\\widehat{K O I}=\\widehat{K O T}+\\widehat{F O I}=\\frac{1}{2} \\widehat{B O T}+\\frac{1}{2} \\widehat{F O A}=\\frac{1}{2} \\widehat{A O B}=\\widehat{A O M}=\\widehat{M A_{1} B_{1}}=\\widehat{M B_{1} A_{1}})%<br>Từ đó suy ra %(\\triangle I O A_{1} \\sim \\triangle I O K \\sim \\triangle O B_{1} K~(g.g))%<br>%(\\Rightarrow \\frac{I A_{1}}{O A_{1}}=\\frac{O B_{1}}{B_{1} K})% hay %(I A_{1}.B_{1} K=O A_{1} .O B_{1}=\\frac{A_{1} B_{1}^{2}}{4})% (không đổi)<br>Ta có: %(S_{M I K}=S_{M A_{1} B_{1}}-S_{K O I}-S_{I O A_{1}}-S_{K O B_{1}}=\\frac{1}{2}\\left[M O. A_{1} B_{1}-R\\left(I K+I A_{1}+K B_{1}\\right)\\right])%Mà %(M I+I K+K M=2 M A)% (chứng minh trên)%(\\Rightarrow I K=2 M A-M I-M K=2 M A-\\left(M A_{1}-I A_{1}\\right)-\\left(M B_{1}-K B_{1}\\right)=2 M A-2 M A_{1}+I A_{1}+K B_{1})%<br>\\[\\begin{array}{l}\\Rightarrow S_{I M K}=\\frac{1}{2}\\left[M O. A_{1} B_{1}-R\\left(2 M A-2 M A_{1}+2 I A_{1}+2 K B_{1}\\right)\\right] \\\\=\\frac{1}{2} M O . A_{1} B_{1}+R . A A_{1}-R\\left(I A_{1}+K B_{1}\\right)\\end{array}\\]<br>Áp dụng bất đẳng thức %(\\mathrm{AM}-\\mathrm{GM})%, ta có:<br>%(I A_{1}+K B_{1} \\geq 2 \\sqrt{I A_{1}.K B_{1}}=2 \\sqrt{\\frac{A_{1} B_{1}{ }^{2}}{4}}=A_{1} B_{1})%<br>\\[\\Rightarrow S_{I M K} \\leq \\frac{1}{2} M O . A_{1} B_{1}+R .A A_{1}-R A_{1} B_{1} \\]<br>Dấu \"=\" xảy ra %(\\Leftrightarrow I A_{1}=K B_{1} \\Rightarrow I K / / A B)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Cho các số %(a, b, c)% là các số thực không âm thỏa mãn %(a b+b c+c a+a b c=4)%.<br>Chứng minh rằng: %(\\sqrt{a^{2}+8}+\\sqrt{b^{2}+8}+\\sqrt{c^{2}+8} \\leq a+b+c+6)%",
+        "question_images": [],
+        "solution": "Cộng thêm hai vế của %(a b+b c+c a+a b c=4)% cho %(a b+b c+c a+4(a+b+c)+8)%, ta được:<br>\\[\\begin{array}{l}a b c+2(a b+b c+c a)+4(a+b+c)+8=12+4(a+b+c)+a b+b c+c a \\\\Leftrightarrow(a+2)(b+2)(c+2)=(a+2)(b+2)+(b+2)(c+2)+(c+2)(a+2) \\\\Rightarrow \\frac{1}{a+2}+\\frac{1}{b+2}+\\frac{1}{c+2}=1\\end{array}\\]<br>Do vậy, ta có: %(\\frac{6}{a+2}+\\frac{6}{b+2}+\\frac{6}{c+2}=6)%<br>Ta sẽ đi chứng minh mệnh đề sau: %(\\sqrt{a^{2}+8} \\leq a+\\frac{6}{a+2} \\Leftrightarrow(a+2) \\sqrt{a^{2}+8} \\leq a^{2}+2 a+6)%<br>Thật vậy theo bđt Cô - si, ta có:<br>%((a+2) \\sqrt{a^{2}+8} \\leq \\frac{(a+2)^{2}+a^{2}+8}{2}=a^{2}+2 a+6)%<br>Như vậy mệnh đề được chứng minh<br>Tương tự ta thu được: %(\\sqrt{b^{2}+8} \\leq b+\\frac{6}{b+2})% và %(\\sqrt{c^{2}+8} \\leq c+\\frac{6}{c+2})%<br>Cộng lại ta có:<br>\\[\\sqrt{a^{2}+8}+\\sqrt{b^{2}+8}+\\sqrt{c^{2}+8} \\leq a+b+c+6\\left(\\frac{1}{a+2}+\\frac{1}{b+2}+\\frac{1}{c+2}\\right)=a+b+c+6(\\text { đpcm })\\]",
+        "question_type": "essay"
+    }
+]

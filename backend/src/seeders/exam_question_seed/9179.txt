@@ -1,0 +1,97 @@
+[
+    {
+        "title": "1.1 ",
+        "point": 2.0,
+        "content": "Tính giá trị của biểu thức: %(A=\\sqrt{7-\\sqrt{13}}-\\sqrt{7+\\sqrt{13}}+\\sqrt{2})%.",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} A=\\sqrt{7-\\sqrt{13}}-\\sqrt{7+\\sqrt{13}}+\\sqrt{2} & \\Rightarrow \\sqrt{2} A=\\sqrt{14-2 \\sqrt{13}}-\\sqrt{14+2 \\sqrt{13}}+2 \\\\ & \\Rightarrow \\sqrt{2} A=\\sqrt{(\\sqrt{13}-1)^{2}}-\\sqrt{(\\sqrt{13}+1)^{2}}+2 \\\\ & \\Rightarrow \\sqrt{2} A=\\sqrt{13}-1-\\sqrt{13}-1+2\\end{aligned})%<br>%(\\Rightarrow A=0)%.<img/><img/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.b ",
+        "point": 2.0,
+        "content": "Tính giá trị của biểu thức: %(B=\\frac{\\sqrt{x^{2} y^{2}}}{x y}+\\frac{\\sqrt{4(x-y)^{2} x^{2}}}{x(x-y)}-\\frac{\\sqrt{(x-y)^{2} y^{2}}}{y(x-y)})% (Điều kiện: %(x\\lt y\\lt 0)% ).",
+        "question_images": [],
+        "solution": "Vì %(x\\lt y\\lt 0)% nên %(x y\\gt 0)% và %(x-y\\lt 0)%. Khi đó:<br>\\[\\begin{aligned}B & =\\frac{\\sqrt{x^{2} y^{2}}}{x y}+\\frac{\\sqrt{4(x-y)^{2} x^{2}}}{x(x-y)}-\\frac{\\sqrt{(x-y)^{2} y^{2}}}{y(x-y)}=\\frac{x y}{x y}+\\frac{2(y-x)(-x)}{x(x-y)}-\\frac{(y-x)(-y)}{y(x-y)} \\\\& =1+2-1=2 .\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.1 ",
+        "point": 2.0,
+        "content": "Tìm số tự nhiên %(n)% sao cho các số %(2 n+2017)% và %(n+2019)% đều là các số chính phương.",
+        "question_images": [],
+        "solution": "<strong><u>Cách 1:</u> </strong>Với %(2 n+2017)% và %(n+2019)% là các số chính phương.<br>Đặt %(\\left\\{\\begin{array}{l}2 n+2017=a^{2} \\\\ n+2019=b^{2}\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}2 n+2017=a^{2} \\\\ 2 n+4038=2 b^{2}\\end{array} \\Rightarrow 2 b^{2}-a^{2}=2021 \\Rightarrow(\\sqrt{2} b-a)(\\sqrt{2} b+a)=2021\\right.\\right.)%<br>Ta xét các trường hợp:<br>\\[\\begin{array}{l}\\text { + TH1: }\\left\\{\\begin{array} { l } { \\sqrt { 2 } b - a = 4 3 } \\\\{ \\sqrt { 2 } b + a = 4 7 }\\end{array} \\Rightarrow \\left\\{\\begin{array}{l}b=\\frac{45}{\\sqrt{2}} \\a=2\\end{array} \\Rightarrow n=\\frac{-2013}{2}\\right.\\right. \\text { (loại). } \\\\text { + TH2: } \\begin{array}{l}\\sqrt{2} b-a=47 \\\\sqrt{2} b+a=43\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}b=\\frac{45}{\\sqrt{2}} \\a=-2\\end{array} \\Rightarrow n=\\frac{-2013}{2}\\right. \\text { (loại). } \\\\text { + TH3: }\\left\\{\\begin{array} { l } { \\sqrt { 2 } b - a = 2 0 2 1 } \\\\{ \\sqrt { 2 } b + a = 1 }\\end{array} \\Rightarrow \\left\\{\\begin{array}{l}b=\\frac{1011}{\\sqrt{2}} \\a=-1010\\end{array} \\Rightarrow n=\\frac{1018083}{2}\\right.\\right. \\text { (loại). } \\\\text { + TH4: }\\left\\{\\begin{array} { l } { \\sqrt { 2 } b - a = 1 } \\\\{ \\sqrt { 2 } b + a = 2 0 2 1 }\\end{array} \\Rightarrow \\left\\{\\begin{array}{l}b=\\frac{1011}{\\sqrt{2}} \\a=1011\\end{array} \\Rightarrow n=\\frac{1018083}{2}\\right.\\right. \\text { (loại). }\\end{array}\\]<br>Vậy không tồn tại số tự nhiên %(n)% nào thỏa mãn yêu cầu bài toán.<br><strong><u>Cách 2:</u></strong> Đặt %(\\left\\{\\begin{array}{l}2 n+2017=a^{2} \\\\ n+2019=b^{2}\\end{array} \\Rightarrow 2 b^{2}=a^{2}+2021 \\quad\\right.)% (với %(a, b \\in \\mathbb{N})% ).<br>Ta có %(a^{2}=2 n+2017 \\Rightarrow a)% là số lẻ.<br>Đặt %(a=2 k+1(k \\in \\mathbb{N}))%.<br>Suy ra %(2 b^{2}=(2 k+1)^{2}+2021 \\Rightarrow b^{2}=2 k(k+1)+1011)%.<br>Ta thấy vế trái của (1) là số chính phương nên chia cho 4 dư 0 hoặc dư 1, vế phải của (1) cho 4 dư 3.<br>Do đó không tồn tại số tự nhiên %(n)% nào thỏa mãn yêu cầu bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.2 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(2 x^{2}+3 x+\\sqrt{2 x^{2}+3 x+9}=33)%.",
+        "question_images": [],
+        "solution": "Ta thấy: %(2 x^{2}+3 x+9\\gt 0, \\forall x)%.<br>Phương trình %(2 x^{2}+3 x+\\sqrt{2 x^{2}+3 x+9}=33 \\Leftrightarrow 2 x^{2}+3 x+9+\\sqrt{2 x^{2}+3 x+9}=42)%<br>Đặt %(t=2 x^{2}+3 x+9(t \\geq 0))%.<br>Phương trình trở thành: %(t^{2}+t-42=0 \\Leftrightarrow\\left[\\begin{array}{l}t=6 \\\\ t=-7\\end{array}\\right.)%, chọn %(t=6)%.<br>Với %(t=6 \\Leftrightarrow 2 x^{2}+3 x+9=36 \\Leftrightarrow\\left[\\begin{array}{l}x=3 \\\\ x=\\frac{-9}{2}\\end{array}\\right.)%<br>Vậy phương trình đã cho có tập nghiệm là: %(S=\\left\\{3 ; \\frac{-9}{2}\\right\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.3 ",
+        "point": 2.0,
+        "content": "Chứng minh rằng: %(A=n^{3}+3 n^{2}-n-3)% chia hết cho 48 với %(n)% là số tự nhiên lẻ.",
+        "question_images": [],
+        "solution": "Ta có %(A=n^{3}+3 n^{2}-n-3=n^{2}(n+3)-(n+3)=(n-1)(n+1)(n+3))%.<br>Với %(n)% là số tự nhiên lẻ %((n-1)(n+1)(n+3))% là tích của 3 số chẵn liên tiếp nên %(A: 8, A: 3 ; A: 2)%.<br>Suy ra %(A: 48)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.1 ",
+        "point": 1.5,
+        "content": "Cho %(a, b)% là các số dương thỏa mãn: %(\\frac{1}{a}+\\frac{1}{b}=\\frac{1}{2019})%. Chứng minh: %(\\sqrt{a+b}=\\sqrt{a-2019}+\\sqrt{b-2019})%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(a \\geq 2019, b \\geq 2019)%.<br>Ta có: %(\\frac{1}{a}+\\frac{1}{b}=\\frac{1}{2019} \\Rightarrow \\frac{a b}{a+b}=2019)%.<br>Khi đó: %(\\sqrt{a-2019}+\\sqrt{b-2019}=\\sqrt{a-\\frac{a b}{a+b}}+\\sqrt{b-\\frac{a b}{a+b}}=\\frac{a}{\\sqrt{a+b}}+\\frac{b}{\\sqrt{a+b}})% %(=\\frac{a+b}{\\sqrt{a+b}}=\\sqrt{a+b})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.2 ",
+        "point": 1.5,
+        "content": "Cho %(a, b, c)% là các số dương thỏa mãn: %(a+b+c=3)%. Tìm giá trị nhỏ nhất của biểu thức: %(M=\\sqrt{a^{2}+a b+b^{2}}+\\sqrt{b^{2}+b c+c^{2}}+\\sqrt{c^{2}+c a+a^{2}})%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\sqrt{a^{2}+a b+b^{2}} \\geq \\frac{\\sqrt{3}}{2}(a+b) \\quad(1))%<br>\\[\\begin{array}{l}\\sqrt{b^{2}+b c+c^{2}} \\geq \\frac{\\sqrt{3}}{2}(b+c) \\quad (2)\\\\sqrt{c^{2}+c a+a^{2}} \\geq \\frac{\\sqrt{3}}{2}(c+a)\\quad(3)\\end{array}\\]<br>Cộng vế theo vế của (1), (2), (3) ta được: %(M \\geq \\sqrt{3}(a+b+c)=3 \\sqrt{3})%.<br>Dấu \"=\" xảy ra khi %(a=b=c=1)%.<br>Vậy GTNN %(M=3 \\sqrt{3})% đạt được khi %(a=b=c=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho tam giác %(A B C)% có các góc đều nhọn. Các đường cao %(A D, B E, C F)% cắt nhau tại %(H)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh %(\\triangle A E F \\sim \\triangle D B F)%.",
+        "question_images": [],
+        "solution": "Xét %(\\triangle A E F)% và %(\\triangle A B C)% có: %(\\hat{A})% chung; %(\\frac{A E}{A B}=\\frac{A F}{A C}(=\\cos A))%.<br>Suy ra %(\\triangle A E F \\sim \\triangle A B C)% (c.g.c).<br>Tương tự cũng có: %(\\triangle D B F \\sim \\triangle A B C)% (c.g.c).<br>Do đó: %(\\triangle A E F \\sim \\triangle D B F)% (đpcm).<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/125857649fa616994b1a3d6320b02c7a.png\" srcset=\"https://docdn.giainhanh.io/media/test/8498f36cade28cd9ab684f5a0c5dbf45.png 199w\" width=\"199\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Tính: %(\\tan \\widehat{A B C} \\cdot \\tan \\widehat{A C B})% theo %(k)%. Biết %(k=\\frac{A H}{H D})%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\widehat{A C B}=\\widehat{B H D})% (cùng phụ với %(\\widehat{H B D})%).<br>Suy ra: %(\\tan \\widehat{A C B}=\\tan \\widehat{B H D}=\\frac{B D}{H D})% (vì %(\\triangle B H D)% vuông tại D);<br>%(\\tan \\widehat{A B C}=\\frac{A D}{B D})% (vì %(\\triangle A B D)% vuông tại %(D)% ).<br>Khi đó: %(\\tan \\widehat{A B C} \\cdot \\tan \\widehat{A C B}=\\frac{A D}{B D} \\cdot \\frac{B D}{H D}=\\frac{A D}{H D})%<br>Mặt khác: %(k=\\frac{A H}{H D} \\Rightarrow \\frac{A H+H D}{H D}=k+1)% hay %(\\frac{A D}{H D}=k+1)%<br>Từ (1) và (2) suy ra: %(\\tan \\widehat{A B C} \\cdot \\tan \\widehat{A C B}=k+1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Chứng minh: %(\\frac{S_{A B F}}{A H^{2}}=\\frac{S_{D B F}}{B H^{2}}=\\frac{S_{D E C}}{C H^{2}})%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\triangle A E H \\sim \\triangle B D H)% (g.g) %(\\Rightarrow \\frac{A H}{B H}=\\frac{A E}{B D} \\Rightarrow \\frac{A H^{2}}{B H^{2}}=\\frac{A E^{2}}{B D^{2}})%.<br>Tương tự: %(\\frac{B H^{2}}{C H^{2}}=\\frac{F B^{2}}{C E^{2}})%.<br>Theo câu a) ta có: %(\\triangle A E F \\sim \\triangle D B F \\Rightarrow \\frac{S_{A B F}}{S_{D B F}}=\\frac{A E^{2}}{B D^{2}}=\\frac{A H^{2}}{B H^{2}})%.<br>Chứng minh tương tự câu a) ta được: 14-7-2024.<br>Do đó: %(\\frac{S_{A B F}}{S_{D B F}}=\\frac{A H^{2}}{B H^{2}} ; \\frac{S_{D B F}}{S_{D C E}}=\\frac{B H^{2}}{C H^{2}} \\Rightarrow \\frac{S_{A B F}}{A H^{2}}=\\frac{S_{D B F}}{B H^{2}}=\\frac{S_{D E C}}{C H^{2}})% (đpcm).",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Tính %(\\tan 36^{\\circ})% (không được sử dụng bảng số và máy tính).",
+        "question_images": [],
+        "solution": "Vẽ %(\\triangle A B C)% cân tại %(A)%, có %(B C=1 ; \\hat{A}=36^{\\circ} ; \\hat{B}=\\hat{C}=72^{\\circ})%.<br>Vẽ phân giác %(C D)% của góc %(C \\Rightarrow \\triangle A D C)% cân tại %(D)% và %(\\triangle D C B)% cân tại %(C)% %(\\Rightarrow D A=D C=B C=1)%.<br>Kẻ %(D E \\perp A C)% tại %(E)%.<br>Đặt %(A E=x \\Rightarrow E C=x ; A C=A B=2 x ; B D=2 x-1)%.<br>Mặt khác %(C D)% là phân giác của góc %(C \\Rightarrow \\frac{D A}{D B}=\\frac{A C}{C B})% hay %(\\frac{1}{2 x-1}=2 x)%%(\\Rightarrow 4 x^{2}-2 x-1=0 \\Rightarrow\\left(2 x-\\frac{1}{2}\\right)^{2}=\\frac{5}{4}\\quad(*))%<br>Nghiệm dương của phương trình %(\\left({ }^{*}\\right))% là: %(x=\\frac{1+\\sqrt{5}}{4})%.<br>Ta có: %(\\cos 36^{\\circ}=\\frac{x}{A D}=x=\\frac{1+\\sqrt{5}}{4})%.<br>Mà %(\\sin ^{2} 36^{\\circ}+\\cos ^{2} 36^{\\circ}=1 \\Rightarrow \\sin ^{2} 36^{\\circ}=\\frac{10-2 \\sqrt{5}}{16} \\Rightarrow \\sin 36^{\\circ}=\\frac{\\sqrt{10-2 \\sqrt{5}}}{4})%.<br>Suy ra %(\\tan 36^{\\circ}=\\frac{\\sqrt{10-2 \\sqrt{5}}}{4}: \\frac{1+\\sqrt{5}}{4}=\\frac{\\sqrt{10-2 \\sqrt{5}}}{1+\\sqrt{5}})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/fcf10c04ceac26a24efdad5271b2e730.png\" srcset=\"https://docdn.giainhanh.io/media/test/89b808b74fb9db6bc37b8d38369eada3.png 111w\" width=\"111\"/>",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{c}2 x=4 \\\\ x+y=5\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array} { l } { 2 x = 4 } \\\\{ x + y = 5 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x = 2 } \\\\{ x + y = 5 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=2 \\y=3\\end{array}\\right.\\right.\\right.)%<br>Vậy nghiệm của hệ phương trình là %((2 ; 3))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Rút gọn biểu thức %(P=\\frac{x-2}{x+2 \\sqrt{x}}-\\frac{1}{\\sqrt{x}}+\\frac{1}{\\sqrt{x}+2})% với %(x\\gt 0)%",
+        "question_images": [],
+        "solution": "%(\\begin{aligned}P & =\\frac{x-2}{x+2 \\sqrt{x}}-\\frac{1}{\\sqrt{x}}+\\frac{1}{\\sqrt{x}+2}=\\frac{x-2-\\sqrt{x}-2+\\sqrt{x}}{\\sqrt{x}(\\sqrt{x}+2)} \\\\& =\\frac{x-4}{\\sqrt{x}(\\sqrt{x}+2)}=\\frac{(\\sqrt{x}+2)(\\sqrt{x}-2)}{\\sqrt{x}(\\sqrt{x}+2)}=\\frac{\\sqrt{x}-2}{\\sqrt{x}}\\end{aligned})%<br>Vậy %(\\mathrm{P}=\\frac{\\sqrt{\\mathrm{x}}-2}{\\sqrt{\\mathrm{x}}})% với %(\\mathrm{x}\\gt 0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho phương trình %(x^{2}-2 m x+m^{2}-1=0)%(1), với %(m)% là tham số",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.75,
+        "content": "a) Giải phương trình (1) với %(m=2)%.",
+        "question_images": [],
+        "solution": "Khi %(\\mathrm{m}=2)%, ta có phương trình:<br>%(x^{2}-4 x+3=0)%<br>Vì %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}=1-4+3=0)% nên phương trình có hai nghiệm:<br>%(\\mathrm{x}_{1}=1 ; \\mathrm{x}_{2}=3)%<br>Vậy khi %(\\mathrm{m}=2)% thì phương trình có hai nghiệm: %(\\mathrm{x}_{1}=1 ; \\mathrm{x}_{2}=3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.25,
+        "content": "b) Chứng minh rằng phương trình (1) luôn có hai nghiệm phân biệt với mọi %(m)%. Gọi %(x_{1}, x_{2})% là hai nghiệm của phương trình (1), lập phương trình bậc hai nhận %(x_{1}^{3}-2 m x_{1}^{2}+m^{2} x_{1}-2)% và %(x_{2}^{3}-2 m x_{2}^{2}+m^{2} x_{2}-2)% là nghiệm.",
+        "question_images": [],
+        "solution": "Áp dụng hệ thức Vi-ét, ta có: %(\\left\\{\\begin{array}{l}\\mathrm{x}_{1}+\\mathrm{x}_{2}=2 \\mathrm{~m} \\\\ \\mathrm{x}_{1} \\mathrm{x}_{2}=\\mathrm{m}^{2}-1\\end{array}\\right.)%<br>Biến đổi phương trình:<br>\\[\\begin{aligned}& x^{2}-2 m x+m^{2}-1=0 \\\\Leftrightarrow & x^{2}-2 m x+m^{2}=1 \\\\Rightarrow & x^{3}-2 m x^{2}+m^{2} x=x \\\\Leftrightarrow & x^{3}-2 m x^{2}+m^{2} x-2=x-2\\end{aligned}\\]<br>Vì %(x_{1}, x_{2})% là các nghiệm của phương trình nên:<br>\\[\\begin{aligned}& \\left(\\mathrm{x}_{1}^{3}-2 \\mathrm{mx}_{1}^{2}+\\mathrm{m}^{2} \\mathrm{x}_{1}-2\\right)+\\left(\\mathrm{x}_{2}^{3}-2 \\mathrm{mx}_{2}^{2}+\\mathrm{m}^{2} \\mathrm{x}_{2}-2\\right)=\\left(\\mathrm{x}_{1}-2\\right)+\\left(\\mathrm{x}_{2}-2\\right) \\\\= & \\mathrm{x}_{1}+\\mathrm{x}_{2}-4=2 \\mathrm{~m}-4 \\\\& \\left(\\mathrm{x}_{1}^{3}-2 \\mathrm{mx} \\mathrm{x}_{1}^{2}+\\mathrm{m}^{2} \\mathrm{x}_{1}-2\\right) \\cdot\\left(\\mathrm{x}_{2}^{3}-2 \\mathrm{mx}_{2}^{2}+\\mathrm{m}^{2} \\mathrm{x}_{2}-2\\right)=\\left(\\mathrm{x}_{1}-2\\right) \\cdot\\left(\\mathrm{x}_{2}-2\\right) \\\\= & \\mathrm{x}_{1} \\mathrm{x}_{2}-2\\left(\\mathrm{x}_{1}+\\mathrm{x}_{2}\\right)+4=\\mathrm{m}^{2}-1-2 \\cdot 2 \\mathrm{~m}+4=\\mathrm{m}^{2}-4 \\mathrm{~m}+3\\end{aligned}\\]<br>Ta có %((2 m-4)^{2}-4\\left(m^{2}-4 m+3\\right) \\geq 0)%<br>%(\\Rightarrow)% Phương trình cần lập là:<br>\\[x^{2}-(2 m-4) x+m^{2}-4 m+3=0\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "<i>Giải bài toán bằng cách lập phương trình, hệ phương trình.</i><br>Một nhóm gồm 15 học sinh (cả nam và nữ) tham gia buổi lao động trồng cây. Các bạn nam trồng được 30 cây, các bạn nữ trồng được 36 cây. Mỗi bạn nam trồng được số cây như nhau và mỗi bạn nữ trồng được số cây như nhau. Tính số học sinh nam và số học sinh nữ của nhóm, biết rằng mỗi bạn nam trồng được nhiều hơn mỗi bạn nữ 1 cây.",
+        "question_images": [],
+        "solution": "Gọi số học sinh nam là %(\\mathrm{x}\\left(\\mathrm{x} \\in \\mathrm{N}^{*} ; \\mathrm{x}\\lt 15\\right))%<br>%(\\Rightarrow)% Số học sinh nữ là %(15-\\mathrm{x})%.<br>Mỗi bạn nam trồng được %(\\frac{30}{x})% (cây), mỗi bạn nữ trồng được %(\\frac{36}{15-x})% (cây).<br>Vì mỗi bạn nam trồng được nhiều hơn mỗi bạn nữ 1 cây nên ta có phương trình: %(\\frac{30}{\\mathrm{x}}-\\frac{36}{15-\\mathrm{x}}=1)%<br>Giải phương trình được: %(\\mathrm{x}_{1}=75)% (loại) %(; \\mathrm{x}_{2}=6)% (nhận)<br>Vây nhóm có 6 hoc sinh nam và 9 hoc sinh nữ.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Từ điểm %(M)% nằm ngoài đường tròn %((O))% kẻ hai tiếp tuyến %(M A, M B)% với đường tròn %((A, B)% là các tiếp điểm). Lấy điểm %(C)% trên cung nhỏ %(A B)% ( %(C)% không trùng với %(A)% và %(B)% ). Từ điểm %(C)% kẻ %(C D)% vuông góc với %(A B, C E)% vuông góc với %(M A, C F)% vuông góc với %(M B(D \\in A B, E \\in M A, F \\in M B))%. Gọi %(I)% là giao điểm của %(A C)% và %(D E, K)% là giao điểm của %(B C)% và %(D F)%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.25,
+        "content": "a) Tứ giác %(A D C E)% nội tiếp một đường tròn.",
+        "question_images": [],
+        "solution": "Tứ giác %(\\mathrm{ADCE})% có:<br>%(\\begin{array}{l}\\angle\\mathrm{ADC}=90^{\\circ}(\\mathrm{CD} \\perp \\mathrm{AB}) \\\\angle\\mathrm{A} E C=90^{\\circ}(\\mathrm{CE} \\perp \\mathrm{MA}) \\\\Rightarrow \\angle\\mathrm{ADC}+\\angle\\mathrm{A} E C=180^{\\circ} \\\\Rightarrow \\text { Tứ giác } \\mathrm{ADCE} \\text { nội tiếp }\\end{array})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e062159c9833970516ce29fbfa849263.png\" srcset=\"https://docdn.giainhanh.io/media/test/c5bd88137ccf315b59d4ef19a05d97f2.png 245w, https://docdn.giainhanh.io/media/test/ab7a9342f35b64820e8d93b966307443.png 500w, https://docdn.giainhanh.io/media/test/38a290cbd78f869c617bed5ad875a06d.png 750w, https://docdn.giainhanh.io/media/test/3dc6c874b9142fea997771c7dae2ad22.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) Hai tam giác %(C D E)% và %(C F D)% đồng dạng.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Tứ giác } \\mathrm{ADCE} \\text { nội tiếp } \\Rightarrow \\angle{\\mathrm{A}}_{1}=\\angle{\\mathrm{B}}_{1} \\text { và } \\angle{\\mathrm{A}}_{2}=\\angle{\\mathrm{E}}_{1} \\\\ \\text { Chứng minh tương tự, ta có } \\angle{\\mathrm{B}}_{2}=\\angle{\\mathrm{B}}_{2} \\text { và } \\angle{\\mathrm{B}}_{1}=\\hat{\\mathrm{F}}_{1} \\\\ \\text { Mà } \\angle{\\mathrm{A}}_{1}=\\angle{\\mathrm{B}}_{1}\\left(=\\frac{1}{2} \\mathrm{sđ} \\angle{\\mathrm{A}} \\mathrm{C}\\right) \\text { và } \\angle{\\mathrm{A}}_{2}=\\angle{\\mathrm{B}}_{2}\\left(=\\frac{1}{2} \\text {sđ}  \\angle{BC}\\right) \\\\ \\Rightarrow \\angle{\\mathrm{B}}_{1}=\\hat{\\mathrm{F}}_{1} \\text { và } \\angle{\\mathrm{B}}_{2}=\\angle{\\mathrm{E}}_{1} \\\\ \\Rightarrow \\Delta \\mathrm{CDE} \\propto \\Delta \\mathrm{CFD}(\\mathrm{g} . \\mathrm{g})\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.75,
+        "content": "c) Tia đối của %(C D)% là tia phân giác của góc %(\\overline{E C F})%.",
+        "question_images": [],
+        "solution": "Vẽ %(\\mathrm{Cx})% là tia đối của tia %(\\mathrm{CD})%<br>%(\\triangle \\mathrm{CDE} \\backsim \\triangle \\mathrm{CFD} \\Rightarrow\\angle \\mathrm{DCE}=\\angle{\\mathrm{D}} \\mathrm{CF})%<br>Mà %(\\angle{C}_{1}+\\angle{\\operatorname{B} C E}=\\angle{C}_{2}+\\angle{\\operatorname{B} C F}\\left(=180^{\\circ}\\right))%<br>%(\\Rightarrow \\angle{C}_{1}=\\angle{C}_{2})%<br>%(\\Rightarrow \\mathrm{Cx})% là tia phân giác của %(\\mathrm{ECF})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 0.75,
+        "content": "d) Đường thẳng %(I K)% song song với đường thẳng %(A B)%.",
+        "question_images": [],
+        "solution": "Tứ giác CIDK có:<br>\\[\\angle{\\mathrm{I}} \\mathrm{FK}+\\angle{\\mathrm{IDK}}=\\angle{\\mathrm{ICK}}+\\angle{\\mathrm{D}}_{1}+\\angle{\\mathrm{D}}_{2}=\\angle{\\mathrm{ICK}}+\\angle{\\mathrm{B}}_{1}+\\angle{\\mathrm{A}}_{2}=180^{\\circ}\\]<br>%(\\Rightarrow \\mathrm{CIDK})% là tứ giác nội tiếp<br>%(\\begin{array}{l}\\Rightarrow \\hat{\\mathrm{I}}_{1}=\\hat{\\mathrm{D}}_{2} \\Rightarrow \\hat{\\mathrm{I}}_{1}=\\hat{\\mathrm{A}}_{2} \\\\Rightarrow \\mathrm{IK} / / \\mathrm{AB}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 0.5,
+        "content": "Giải phương trình %(\\left(x^{2}-x+1\\right)\\left(x^{2}+4 x+1\\right)=6 x^{2})%.",
+        "question_images": [],
+        "solution": "Đặt %(\\mathrm{y}=\\mathrm{x}^{2}+1)%, phương trình trờ thành:<br>%(\\begin{array}{l}(y-x)(y+4 x)=6 x^{2} \\\\Leftrightarrow y^{2}+3 x y-4 x^{2}=6 x^{2} \\\\Leftrightarrow \\mathrm{y}^{2}+3 \\mathrm{xy}-10 \\mathrm{x}^{2}=0 \\\\Leftrightarrow(y-2 x)(y+5 x)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}y=2 x \\y=-5 x\\end{array}\\right. \\\\end{array})%<br>Với %(y=2 x)% thì %(x^{2}+1=2 x \\Leftrightarrow x^{2}-2 x+1=0 \\Leftrightarrow(x-1)^{2}=0 \\Leftrightarrow x=1)%<br>Với %(y=-5 x)% thì %(x^{2}+1=-5 x \\Leftrightarrow x^{2}+5 x+1=0 \\Leftrightarrow x=\\frac{-5 \\pm \\sqrt{21}}{2})%<br>Vậy tập nghiệm của phương trình là %(\\mathrm{S}=\\left\\{1 ; \\frac{-5 \\pm \\sqrt{21}}{2}\\right\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 0.5,
+        "content": "Cho bốn số thực dương %(x, y, z, t)% thỏa mãn %(x+y+z+t=2)%. Tìm giá trị nhỏ nhất của biểu thức %(A=\\frac{(x+y+z)(x+y)}{x y z t})%.",
+        "question_images": [],
+        "solution": "Với %(\\mathrm{x}, \\mathrm{y}, \\mathrm{z}, \\mathrm{t}\\gt 0)%, theo bất đằng thức Cô si ta có :<br>\\[x+y \\geq 2 \\sqrt{x y} ;(x+y)+z \\geq 2 \\sqrt{(x+y) z} ;(x+y+z)+t \\geq 2 \\sqrt{(x+y+z) t}\\]<br>Suy ra %((x+y)(x+y+z)(x+y+z+t) \\geq 8 \\sqrt{x y z t(x+y)(x+y+z)})%Mà %(x+y+z+t=2)%, suy ra<br>\\[\\begin{aligned}& (x+y)(x+y+z) \\cdot 2 \\geq 8 \\sqrt{x y z t(x+y)(x+y+z)} \\\\Leftrightarrow & (x+y)(x+y+z) \\geq 4 \\sqrt{x y z t(x+y)(x+y+z)} \\\\Leftrightarrow & \\sqrt{(x+y)(x+y+z)} \\geq 4 \\sqrt{x y z t} \\\\Leftrightarrow & (x+y)(x+y+z) \\geq 16 x y z t\\end{aligned}\\]<br>Nên %(A=\\frac{(x+y+z)(x+y)}{x y z t} \\geq \\frac{16 x y z t}{x y z t}=16)%Dấu %(=)% xảy ra khi %(\\left\\{\\begin{array}{l}x=y \\\\ x+y=z \\\\ x+y+z=t \\\\ x+y+z+t=2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=y=\\frac{1}{4} \\\\ z=\\frac{1}{2} \\\\ t=1\\end{array}\\right.\\right.)%Vậy %(\\operatorname{Min} A=16 \\Leftrightarrow x=y=\\frac{1}{4} ; z=\\frac{1}{2} ; t=1)%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,223 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.25,
+        "content": "Với %(a)% là số thực dương tùy ý,%(\\sqrt[2022]{a})%   bằng",
+        "question_images": [],
+        "labelA": "%(a^{\\frac{1}{2022}})%.",
+        "labelB": "%(a^{\\sqrt{2022}})%.",
+        "labelC": "%(a^{2022})%.",
+        "labelD": "%(\\sqrt{a^{2022}})%.",
+        "correct_label": "labelA",
+        "solution": "Ta có: %(\\sqrt[2022]{a}=a^{\\overline{2022}})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "2 ",
+        "point": 0.25,
+        "content": "Cho %(a)% là số thực dương khác 1 , giá trị %(\\log _{a} a^{5})% bằng",
+        "question_images": [],
+        "labelA": "1.",
+        "labelB": "5.",
+        "labelC": "%(2 a)%.",
+        "labelD": "%(a)%.",
+        "correct_label": "labelB",
+        "solution": "Ta có: %(\\log _{a} a^{5}=5 \\log _{a} a=5)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "3 ",
+        "point": 0.25,
+        "content": "Với %(a, b)% là hai số dương tùy ý, %(\\ln \\left(a b^{2}\\right))% bằng",
+        "question_images": [],
+        "labelA": "%(\\ln a-2 \\ln b)%.",
+        "labelB": "%(2 \\ln a+\\ln b)%.",
+        "labelC": "%(2 \\ln a \\cdot \\ln b)%.",
+        "labelD": "%(\\ln a+2 \\ln b)%.",
+        "correct_label": "labelD",
+        "solution": "Ta có %(\\ln \\left(a b^{2}\\right)=\\ln a+\\ln b^{2}=\\ln a+2 \\ln b)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "4 ",
+        "point": 0.25,
+        "content": "Tập xác định của hàm số %(y=\\log _{2} x)% là",
+        "question_images": [],
+        "labelA": "%((0 ;+\\infty))%.",
+        "labelB": "%([2 ;+\\infty))%.",
+        "labelC": "%([0 ;+\\infty))%.",
+        "labelD": "%(\\mathbb{R})%.",
+        "correct_label": "labelA",
+        "solution": "Điều kiện xác định của hàm số %(y=\\log _{2} x)% là %(x\\gt 0)%.<br>Vậy tập xác định của hàm số %(y=\\log _{2} x)% là %(D=(0 ;+\\infty))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "5 ",
+        "point": 0.25,
+        "content": "Nghiệm của phương trình %(\\log _{3}(2 x+1)=2)%",
+        "question_images": [],
+        "labelA": "%(x=5)%.",
+        "labelB": "%(x=4)%.",
+        "labelC": "%(x=\\frac{7}{2})%.",
+        "labelD": "%(x=\\frac{9}{2})%.",
+        "correct_label": "labelB",
+        "solution": "Điều kiện: %(2 x+1\\gt 0 \\Leftrightarrow x>-\\frac{1}{2})%<br>Ta có %(\\log _{3}(2 x+1)=2 \\Leftrightarrow 2 x+1=3^{2} \\Leftrightarrow x=4)% (thỏa mãn)<br>Vậy phương trình có nghiệm %(x=4)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "6 ",
+        "point": 0.25,
+        "content": "Số nghiệm nguyên dương thỏa mãn bất phương trình %(9^{x}-3^{x}-6 \\leq 0)% là.",
+        "question_images": [],
+        "labelA": "0.",
+        "labelB": "1.",
+        "labelC": "2.",
+        "labelD": "3.",
+        "correct_label": "labelB",
+        "solution": "%(9^{x}-3^{x}-6 \\leq 0 \\Leftrightarrow\\left(3^{x}\\right)^{2}-3^{x}-6 \\leq 0 \\Leftrightarrow\\left(3^{x}-3\\right)\\left(3^{x}+2\\right) \\leq 0)%<br>Mà %(3^{x}+2\\gt 0 \\forall x \\in \\mathbb{R})% (vì %(\\left.3^{x}>0, \\forall x \\in \\mathbb{R}\\right))%<br>Nên %(3^{x}-3 \\leq 0 \\Leftrightarrow x \\leq 1)%.<br>Mà %(x \\in \\mathbb{Z}^{+} \\Rightarrow x=1)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "7 ",
+        "point": 0.25,
+        "content": "Cho hình lập phương %(A B C D \\cdot A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime})%. Đường thẳng nào sau đây vuông góc với đường thẳng %(B C^{\\prime})%?",
+        "question_images": [],
+        "labelA": "%(A C)%.",
+        "labelB": "%(A^{\\prime} D)%.",
+        "labelC": "%(B B^{\\prime})%.",
+        "labelD": "%(A D^{\\prime})%.",
+        "correct_label": "labelB",
+        "solution": "<img alt=\"Capture.PNG\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/cf4282708486285d284d25c2d2b5e3c4.PNG\" srcset=\"https://docdn.giainhanh.io/media/test/41eba077f2e596491aab9b30bf0675e3.PNG 215w,\" width=\"313\"/><br>Ta có %(B C^{\\prime} / / A D^{\\prime} \\Rightarrow\\left(B C^{\\prime}, A^{\\prime} D\\right)=\\left(A D^{\\prime}, A^{\\prime} D\\right)=90^{\\circ} \\Rightarrow B C^{\\prime} \\perp A^{\\prime} D)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "8 ",
+        "point": 0.25,
+        "content": "Mệnh đề nào sau đây có thể sai?",
+        "question_images": [],
+        "labelA": "Hai đường thẳng phân biệt cùng vuông góc với một mặt phẳng thì song song.",
+        "labelB": "Hai mặt phẳng phân biệt cùng vuông góc với một đường thẳng thì song song.",
+        "labelC": "Hai đường thẳng phân biệt cùng vuông góc với một đường thẳng thứ ba thì song song.",
+        "labelD": "Một đường thẳng và một mặt phẳng (không chứa đường thẳng đã cho) cùng vuông góc với một đường thẳng thì song.",
+        "correct_label": "labelC",
+        "solution": "Vì A, B, D đúng %(\\Rightarrow)% Chọn C.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "9 ",
+        "point": 0.25,
+        "content": "Cho hình chóp %(S \\cdot A B C D)% có đáy %(A B C D)% là hình thoi tâm %(O)%. Biết %(S A=S C)% và %(S B=S D)%. Khẳng định nào sau đây đúng?",
+        "question_images": [],
+        "labelA": "%(S O \\perp(A B C D))%.",
+        "labelB": "%(C D \\perp(S B D))%.",
+        "labelC": "%(A B \\perp(S A C))%.",
+        "labelD": "%(C D \\perp A C)%.",
+        "correct_label": "labelA",
+        "solution": "<img alt=\"Capture.PNG\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3985693510813db73b7bbc8a568c8c26.PNG\" srcset=\"https://docdn.giainhanh.io/media/test/7df97729c7edc7316819bff6ac4d7ace.PNG 245w,\" width=\"470\"/><br>Ta có %(S A=S C \\Rightarrow \\triangle S A C)% cân tại %(S \\Rightarrow S O \\perp A C)%. (1)<br>%(S B=S D \\Rightarrow \\triangle S B D)% cân tại %(S \\Rightarrow S O \\perp B D)%. (2)<br>Từ (1) và (2) suy ra %(S O \\perp(A B C D))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "10 ",
+        "point": 0.25,
+        "content": "Cho hình chóp %(S . A B C D)% có %(S A \\perp(A B C D), A B C D)% là hình vuông tâm %(O)%. Hình chiếu của điểm %(S)% trên mặt phẳng %((A B C D))% là điểm",
+        "question_images": [],
+        "labelA": "%(B)%.",
+        "labelB": "%(D)%.",
+        "labelC": "%(O)%.",
+        "labelD": "%(A)%.",
+        "correct_label": "labelD",
+        "solution": "<img alt=\"Capture.PNG\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/dace17601abb14e8e9e4a71f6ca05efa.PNG\" srcset=\"https://docdn.giainhanh.io/media/test/e020d06be9a74ee93e3863681f8fef18.PNG 245w,\" width=\"413\"/><br>Vì %(S A \\perp(A B C D))% nên %(A)% là hình chiếu của điểm %(S)% trên mặt phẳng %((A B C D))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "11 ",
+        "point": 0.25,
+        "content": "Cho hình chóp %(S . A B C D)% có đáy %(A B C D)% là hình vuông cạnh %(a)%, tâm %(O, S A \\perp(A B C D))% (như hình vẽ). Mệnh đề nào sau đây là đúng?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/2c22a490cc642df0ca1c04e172450c11.PNG"
+        ],
+        "labelA": "%((S B C) \\perp(A B C D))%.",
+        "labelB": "%((S B C) \\perp(S C D))%.",
+        "labelC": "%((S B C) \\perp(S A D))%.",
+        "labelD": "%((S B C) \\perp(S A B))%.",
+        "correct_label": "labelD",
+        "solution": "%(\\begin{array}{l}\\left\\{\\begin{array}{l}B C \\perp S A(\\text { do } S A \\perp(A B C D)) \\\\ B C \\perp A B(\\mathrm{gt}) \\\\ S A \\cap A B=\\{A\\}\\end{array} \\Rightarrow B C \\perp(S A B) \\text { mà } B C \\subset(S B C) .\\right. \\\\ \\text { Vậy }(S B C) \\perp(S A B) .\\end{array})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "12 ",
+        "point": 0.25,
+        "content": "Cho tứ diện %(S \\cdot A B C)% có các cạnh %(S A, S B, S C)% dôi một vuông góc và %(S A=S B=S C=1)%. Tính %(\\cos \\alpha)%, trong đó %(\\alpha)% là góc giữa hai mặt phẳng %((S B C))% và %((A B C))%?",
+        "question_images": [],
+        "labelA": "%(\\cos \\alpha=\\frac{1}{\\sqrt{2}})%.",
+        "labelB": "%(\\cos \\alpha=\\frac{1}{2 \\sqrt{3}})%.",
+        "labelC": "%(\\cos \\alpha=\\frac{1}{3 \\sqrt{2}})%.",
+        "labelD": "%(\\cos \\alpha=\\frac{1}{\\sqrt{3}})%.",
+        "correct_label": "labelD",
+        "solution": "<img alt=\"Capture.PNG\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ea2490a0c5f9cec414653dbe1906a5c6.PNG\" srcset=\"https://docdn.giainhanh.io/media/test/74a225c86b3ccbc8c7b4937d9431e03b.PNG 245w,https://docdn.giainhanh.io/media/test/d517c34c815895012ea928f0f7ad00f8.PNG 500w,\" width=\"733\"/><br>Gọi %(D)% là trung điểm cạnh %(B C)%.<br>Ta có %(\\left\\{\\begin{array}{l}S A \\perp S B \\\\ S A \\perp S C\\end{array} \\Rightarrow S A \\perp(S B C) \\Rightarrow S A \\perp B C\\right.)%.<br>Mà %(S D \\perp B C)% nên %(B C \\perp(S A D))% nên %(((S B C),(A B C))=\\widehat{S D A}=\\alpha)%.<br>Khi đó tam giác %(S A D)% vuông tại %(S)% có %(S D=\\frac{1}{\\sqrt{2}} ; A D=\\frac{\\sqrt{3}}{\\sqrt{2}})% và %(\\cos \\alpha=\\frac{S D}{A D} \\Rightarrow \\cos \\alpha=\\frac{1}{\\sqrt{3}})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "17 ",
+        "point": 0.5,
+        "content": "Anh Toàn được tuyển dụng vào một công ty đầu năm 2013. Công ty trả lương cho anh theo hình thức: Lương khởi điểm anh nhận là 6 triệu đồng/tháng và cứ sau 3 năm công ty lại tăng lương cho anh thêm %(25 \\%)% số lương đang hưởng. Hiện nay (năm 2024) anh đang được hưởng lương là ....................",
+        "question_images": [],
+        "solution": "Tính từ năm 2013 đến 2024 , anh Toàn đã được 3 lần tăng lương.<br>Lương của anh Toàn sau lần tăng đầu tiên là: %(L_{1}=6.1,25)% triệu.<br>Lương của anh Toàn sau lần tăng thứ 2 là: %(L_{2}=L_{1}+25 \\% L_{1}=L_{1} \\cdot 1,25=6.1,25^{2})%triệu.<br>Lương của anh Toàn sau lần tăng thứ 3 là: %(L_{3}=L_{2}+25 \\% L_{2}=L_{2} \\cdot 1,25=6.1,25^{3} \\approx 11,7)% triệu.<br>Vậy lương của anh Toàn hiện đang hưởng là 11,7 triệu mỗi tháng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "18 ",
+        "point": 0.5,
+        "content": "Có... số nguyên thuộc tập xác định của hàm số %(y=\\frac{1}{\\log _{3}\\left(-x^{2}+6 x-4\\right)})%.",
+        "question_images": [],
+        "solution": "Điều kiện xác định %(\\left\\{\\begin{array}{l}-x^{2}+6 x-4\\gt 0 \\\\ \\log _{3}\\left(-x^{2}+6 x-4\\right) \\neq 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}3-\\sqrt{5}\\lt x\\lt 3+\\sqrt{5} \\\\ -x^{2}+6 x-4 \\neq 1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}3-\\sqrt{5}\\lt x\\lt 3+\\sqrt{5} \\\\ x \\notin\\{1 ; 5\\}\\end{array}\\right.\\right.\\right.)%.<br>Tập xác định %((3-\\sqrt{5} ; 3+\\sqrt{5}) \\backslash\\{1 ; 5\\})%.<br>Các số nguyên thuộc tập xác định là: %(\\{2 ; 3 ; 4\\})% và do đó có 3 số nguyên thuộc tập xác định của hàm số đã cho.",
+        "question_type": "essay"
+    },
+    {
+        "title": "19 ",
+        "point": 0.5,
+        "content": "Cho %(a, b, x\\gt 0 ; a>b)% và %(b, x \\neq 1)% thỏa mãn %(\\log _{x} \\frac{a+2 b}{3}=\\log _{x} \\sqrt{a}+\\frac{1}{\\log _{b} x^{2}})%.<br>Khi đó biểu thức %(P=\\frac{2 a^{2}+3 a b+b^{2}}{(a+2 h)^{2}})% có giá trị bằng bao nhiêu?",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\log _{x} \\frac{a+2 b}{3}=\\log _{x} \\sqrt{a}+\\frac{1}{\\log _{b} x^{2}} \\Leftrightarrow \\log _{x} \\frac{a+2 b}{3}=\\log _{x} \\sqrt{a}+\\log _{x} \\sqrt{b} \\\\ \\Leftrightarrow a+2 b=3 \\sqrt{a b} \\Leftrightarrow a^{2}-5 a b+4 b^{2}=0 \\Leftrightarrow(a-b)(a-4 b)=0 \\Leftrightarrow a=4 b(\\text { do } a\\gt b) . \\\\ P=\\frac{2 a^{2}+3 a b+b^{2}}{(a+2 b)^{2}}=\\frac{32 b^{2}+12 b^{2}+b^{2}}{36 b^{2}}=\\frac{5}{4} .\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "20 ",
+        "point": 0.5,
+        "content": "Cho hình chóp %(S . A B C)% có đáy là tam giác đều, cạnh đáy là %(a=4 \\sqrt{2} \\mathrm{~cm})%, cạnh bên %(S B)% vuông góc với mặt phẳng đáy và %(S B=2 \\mathrm{~cm})%. Gọi %(M)% và %(N)% lần lượt là trung điểm của %(A B)% và %(A C)%. Số đo góc giữa đường thẳng %(S M)% và %(B N)% bằng bao nhiêu độ?",
+        "question_images": [],
+        "solution": "<img alt=\"Capture.PNG\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d1fd4e22ee4b13f76acfb214cc39c487.PNG\" srcset=\"https://docdn.giainhanh.io/media/test/1f585afb2c771e9b3059fbe2720d6568.PNG 151w,\" width=\"396\"/><br>Gọi %(D)% là trung diểm của %(A N)%.<br>+) Xét %(\\triangle A B N)% có: %(M)% là trung điểm của %(A B)% và %(D)% là trung điểm của %(A N)%.<br>%(\\Rightarrow M D)% là đường trung bình của %(\\triangle A B N \\Rightarrow M D / / B N)%.<br>%(\\Rightarrow)% Góc giữa %(S M)% và %(B N)% bằng góc giữa %(S M)% và %(M D)%.<br>+) Xét %(\\triangle A B C)% đều có cạnh là %(a=4 \\sqrt{2} \\mathrm{~cm}, B N)% vừa là trung tuyến vừa là đường cao.<br>%(\\Rightarrow B N=\\frac{a \\sqrt{3}}{2}=\\frac{4 \\sqrt{2} \\cdot \\sqrt{3}}{2}=2 \\sqrt{6} \\mathrm{~cm})%.<br>Mà %(M D=\\frac{1}{2} B N)% (tính chất đường trung bình) %(\\Rightarrow M D=\\frac{1}{2} \\cdot 2 \\sqrt{6}=\\sqrt{6} \\mathrm{~cm})%.<br>+) Ta có: %(S B \\perp(A B C) \\Rightarrow S B \\perp B M \\Rightarrow \\triangle S B M)% là tam giác vuông tại %(B)% %(\\Rightarrow S M=\\sqrt{S B^{2}+B M^{2}}=\\sqrt{2^{2}+\\left(\\frac{4 \\sqrt{2}}{2}\\right)^{2}}=2 \\sqrt{3} \\mathrm{~cm})%.<br>+) %(\\triangle B N D)% vuông tại %(N \\Rightarrow B D=\\sqrt{B N^{2}+N D^{2}}=\\sqrt{(2 \\sqrt{6})^{2}+\\left(\\frac{4 \\sqrt{2}}{4}\\right)^{2}}=\\sqrt{26} \\mathrm{~cm})%.<br>+) %(\\triangle S B D)% vuông tại %(B \\Rightarrow S D=\\sqrt{S B^{2}+B N^{2}}=\\sqrt{2^{2}+(\\sqrt{26})^{2}}=\\sqrt{30} \\mathrm{~cm})%.<br>+) %(\\cos \\widehat{S M D}=\\frac{S M^{2}+M D^{2}-S D^{2}}{2 \\cdot S M \\cdot M D}=\\frac{(2 \\sqrt{3})^{2}+(\\sqrt{6})^{2}-(\\sqrt{30})^{2}}{2 \\cdot 2 \\sqrt{3} \\cdot \\sqrt{6}}=-\\frac{\\sqrt{2}}{2})%<br>%(\\Rightarrow \\widehat{S M D}=\\cos ^{-1}\\left(-\\frac{\\sqrt{2}}{2}\\right)=135^{\\circ})%.<br>%(\\Rightarrow)% Góc giữa đường thẳng %(S M)% và %(B N)% bằng %(180^{\\circ}-135^{\\circ}=45^{\\circ})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "21 ",
+        "point": 0.5,
+        "content": "Tam giác %(A B C)% có %(B C=2 a)%, đường cao %(A D=a \\sqrt{2})%. Trên đường thẳng vuông góc với %((A B C))% tại %(A)%, lấy điểm %(S)% sao cho %(S A=a \\sqrt{2})%. Gọi %(E, F)% lần lượt là trung điểm của %(S B)% và %(S C)%. Diện tích tam giác %(A E F)% bằng?",
+        "question_images": [],
+        "solution": "<img alt=\"Capture.PNG\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/bb85836b060e0c55ea02a2926fac16cf.PNG\" srcset=\"https://docdn.giainhanh.io/media/test/c927bb08fceffafefb5cc930148e2a3c.PNG 143w,\" width=\"272\"/><br>Do %(A D \\perp B C, S A \\perp B C \\Rightarrow B C \\perp(S A D))%<br>\\[\\begin{array}{l}\\Rightarrow B C \\perp A H \\Rightarrow E F \\perp A H \\\\Rightarrow S_{\\triangle A E F}=\\frac{1}{2} E F . A H\\end{array}\\]<br>Mà %(E F=\\frac{1}{2} B C=a)%. Do %(H)% là trung điểm %(S D \\Rightarrow A H=a)% %(\\Rightarrow S_{\\text {MAEF }}=\\frac{1}{2} a^{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "22",
+        "group_content": "Cho hình chóp %(S \\cdot A B C)% có đáy %(A B C)% là tam giác đều cạnh %(a, S A \\perp(A B C), S A=a \\sqrt{3})%. Gọi %(M)% là trung điểm cạnh %(B C)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.25,
+        "content": "a) Trong các mặt bên của hình chóp %(S . A B C)%, mặt phẳng vuông góc với mặt phẳng %((S A M))% là ............",
+        "question_images": [],
+        "solution": "<img alt=\"Capture.PNG\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a968de85c37e5f01638e5d8cb195ca5c.PNG\" srcset=\"https://docdn.giainhanh.io/media/test/bac2bec7f62a18e38a08e340aa59dd2e.PNG 156w,\" width=\"333\"/><br>Trong các mặt bên của hình chóp %(S . A B C)%, mặt phẳng vuông góc với mặt phẳng %((S A M))% là %((S B C))%<br>Ta có:<br>%(B C \\perp A M(\\triangle A B C)% đều%())%<br>%(B C \\perp S A(S A \\perp(A B C)))%<br>Suy ra %(B C \\perp(S A M))%<br>Mà %(B C \\subset(S B C))%<br>Vậy %((S A M) \\perp(S B C))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.25,
+        "content": "b) Góc giữa hai mặt phẳng %((S B C))% và %((A B C))% là .......",
+        "question_images": [],
+        "solution": "Góc giữa hai mặt phẳng %((S B C))% và %((A B C))% là %(45^{\\circ})%.<br>Ta có<br>\\[\\begin{array}{l}A M \\perp B C \\S M \\perp B C(B C \\perp(S A M))\\end{array}\\]<br>Suy ra %(((S B C),(A B C))=(S M, A M)=\\widehat{S M A})%<br>Xét tam giác %(S A M)% vuông tại %(A)%, ta có:<br>\\[\\tan \\widehat{S M A}=\\frac{S A}{A M}=\\frac{a \\sqrt{3}}{a \\sqrt{3}}=1\\]<br>Vậy %(\\widehat{S M A}=45^{\\circ})%.",
+        "question_type": "essay"
+    }
+]

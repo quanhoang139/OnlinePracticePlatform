@@ -1,0 +1,210 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.25,
+        "content": "Cho tam thức bậc hai %(f(x)=x^{2}-4 x+4)%. Hỏi khẳng định nào sau đây là đúng?",
+        "question_images": [],
+        "labelA": "%(f(x)\\gt 0, \\forall x \\neq 2)%.",
+        "labelB": "%(f(x)>0, \\forall x \\in \\mathbb{R})%.",
+        "labelC": "%(f(x)\\lt 0, \\forall x \\in(-\\infty ; 2) ; f(x)>0, \\forall x \\in(2 ;+\\infty))%.",
+        "labelD": "%(f(x) \\geq 0, \\forall x \\neq 2)%.",
+        "correct_label": "labelA",
+        "solution": "Ta có: %(f(x)=x^{2}-4 x+4=0 \\Leftrightarrow x=2)% (nghiệm kép, tức %(\\Delta=0)% ).<br>Bảng xét dấu:<br>Từ đây, ta có: %(f(x)\\gt 0, \\forall x \\neq 2)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/753598cca6bfb34281e909f7fbee9baf.png\" srcset=\"https://docdn.giainhanh.io/media/test/e457f12ba81e3e7f2f1e213e46f03790.png 245w, https://docdn.giainhanh.io/media/test/9b1653f166b8f12daed1d8a843510853.png 500w, https://docdn.giainhanh.io/media/test/9084409c2bca6abe986a13e657ce2e34.png 750w\" width=\"750\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "2 ",
+        "point": 0.25,
+        "content": "Từ các chữ số %(0,1,2,3,4,5)% có thể lập được bao nhiêu số tự nhiên có hai chữ số khác nhau và chia hết cho 5 ?",
+        "question_images": [],
+        "labelA": "25.",
+        "labelB": "10.",
+        "labelC": "9.",
+        "labelD": "20.",
+        "correct_label": "labelC",
+        "solution": "Số tự nhiên có hai chữ số có dạng %(\\overline{a b})%.<br>Do %(\\overline{a b}: 5)% nên %(b=0)% hoặc %(b=5)%.<br>Với %(b=0)% thì có 5 cách chọn %(a)% (vì %(a \\neq b)% ).<br>Với %(b=5)% thì có 4 cách chọn %(a()% vì %(a \\neq b, a \\neq 0)% ).<br>Theo quy tắc cộng, có tất cả %(5+4=9)% số tự nhiên cần tìm.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "3 ",
+        "point": 0.25,
+        "content": "Từ một nhóm 5 người, chọn ra các nhóm ít nhất 2 người. Hỏi có bao nhiêu cách chọn?",
+        "question_images": [],
+        "labelA": "25.",
+        "labelB": "26.",
+        "labelC": "31.",
+        "labelD": "32.",
+        "correct_label": "labelB",
+        "solution": "Chọn nhóm có %(2,3,4,5)% người, ta lần lượt có %(C_{5}^{2}, C_{5}^{3}, C_{5}^{4}, C_{5}^{5})% cách chọn.<br>Vậy số cách chọn thỏa mãn là: %(C_{5}^{2}+C_{5}^{3}+C_{5}^{4}+C_{5}^{5}=26)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "4 ",
+        "point": 0.25,
+        "content": "Có bao nhiêu cách xếp 5 sách Văn khác nhau và 7 sách Toán khác nhau trên một kệ sách dài nếu các sách Văn phải xếp kề nhau?",
+        "question_images": [],
+        "labelA": "%(5!.7!)%.",
+        "labelB": "%(2.5!.7!.)%",
+        "labelC": "%(5!.8!.)%",
+        "labelD": "%(12!.)%",
+        "correct_label": "labelC",
+        "solution": "Sắp xếp 5 quyển Văn chung một nhóm ngang (nhóm %(V)% ): có 5 ! cách.<br>Sắp xếp 7 quyển Toán với %(V)% (ta xem như sắp xếp 8 phần tử): có 8 ! cách. Vậy có tất cả 5 !.8! cách sắp xếp thỏa mãn đề bài.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "5 ",
+        "point": 0.25,
+        "content": "Số hạng không chứa %(x)% trong khai triển nhị thức Newton của %(\\left(x-\\frac{1}{x}\\right)^{4})% là:",
+        "question_images": [],
+        "labelA": "4.",
+        "labelB": "0.",
+        "labelC": "6.",
+        "labelD": "-4.",
+        "correct_label": "labelC",
+        "solution": "Ta có: %(\\left(x-\\frac{1}{x}\\right)^{4}=C_{4}^{0} x^{4}+C_{4}^{1} x^{3}\\left(-\\frac{1}{x}\\right)+C_{4}^{2} x^{2}\\left(-\\frac{1}{x}\\right)^{2}+C_{4}^{3} x\\left(-\\frac{1}{x}\\right)^{3}+C_{4}^{4}\\left(-\\frac{1}{x}\\right)^{4})%.<br>Số hạng không chứa %(x)% là %(C_{4}^{2} x^{2}\\left(-\\frac{1}{x}\\right)^{2}=C_{4}^{2}=6)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "6 ",
+        "point": 0.25,
+        "content": "Cho khai triển %((x-1)^{5}=a_{5} x^{5}+a_{4} x^{4}+a_{3} x^{3}+a_{2} x^{2}+a_{1} x+a_{0})% thì tổng %(a_{5}+a_{4}+a_{3}+a_{2}+a_{1}+a_{0})% bằng:",
+        "question_images": [],
+        "labelA": "-32.",
+        "labelB": "0.",
+        "labelC": "1.",
+        "labelD": "32.",
+        "correct_label": "labelB",
+        "solution": "Thay %(x=1)% vào khai triển %((x-1)^{5}=a_{5} x^{5}+a_{4} x^{4}+a_{3} x^{3}+a_{2} x^{2}+a_{1} x+a_{0})%.<br>Ta được: %(a_{5}+a_{4}+a_{3}+a_{2}+a_{1}+a_{0}=(1-1)^{5}=0)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "7 ",
+        "point": 0.25,
+        "content": "Cho đường thẳng %(\\Delta)% có một vectơ chỉ phương là %(\\vec{u}=(-3 ; 5))%. Vectơ nào dưới đây không phải là vectơ chỉ phương của %(\\Delta)% ?",
+        "question_images": [],
+        "labelA": "%(\\overrightarrow{u_{1}}=(3 ;-5))%.",
+        "labelB": "%(\\overrightarrow{u_{2}}=(-6 ; 10))%.",
+        "labelC": "%(\\overrightarrow{u_{3}}=\\left(1 ;-\\frac{5}{3}\\right))%.",
+        "labelD": "%(\\overrightarrow{u_{4}}=(5 ; 3))%.",
+        "correct_label": "labelD",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "8 ",
+        "point": 0.25,
+        "content": "Cho đường tròn %(x^{2}+y^{2}+5 x+7 y-3=0)%. Tìm khoảng cách %(d)% từ tâm đường tròn tới trục %(O x)%.",
+        "question_images": [],
+        "labelA": "%(d=5)%.",
+        "labelB": "%(d=\\frac{7}{2})%.",
+        "labelC": "%(d=\\frac{5}{2})%.",
+        "labelD": "%(d=7)%.",
+        "correct_label": "labelB",
+        "solution": "Đường tròn có tâm %(I\\left(-\\frac{5}{2} ;-\\frac{7}{2}\\right))%; khoảng cách từ %(I)% đến trục %(O x)% là %(d=\\frac{7}{2})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "9 ",
+        "point": 0.25,
+        "content": "Trong mặt phẳng %(O x y)%, tìm tiêu cự của elip %((E): \\frac{x^{2}}{25}+\\frac{y^{2}}{16}=1)%.",
+        "question_images": [],
+        "labelA": "3.",
+        "labelB": "6.",
+        "labelC": "4.",
+        "labelD": "5.",
+        "correct_label": "labelB",
+        "solution": "Ta có: %(\\left\\{\\begin{array}{l}a^{2}=25 \\\\ b^{2}=16\\end{array} \\Rightarrow c^{2}=a^{2}-b^{2}=9 \\Rightarrow c=3\\right.)%. Vậy tiêu cự %(2 c=6)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "10 ",
+        "point": 0.25,
+        "content": "Cho parabol %((P): y^{2}=4 x)% và đường thẳng %((d): y=x+1)%. Tọa độ giao điểm của %((d))% và %((P))% là:",
+        "question_images": [],
+        "labelA": "%((0 ; 0)(2 ; 3))%.",
+        "labelB": "%((1 ; 2))%.",
+        "labelC": "%((1 ; 2),(3 ; 4))%.",
+        "labelD": "%((3 ; 4))%.",
+        "correct_label": "labelB",
+        "solution": "%(y=x+1 \\Rightarrow(x+1)^{2}=4 x \\Leftrightarrow x=1 \\Rightarrow y=2)%. Tọa độ giao điềm của %((d))% và %((P))% là %((1 ; 2))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "11 ",
+        "point": 0.25,
+        "content": "Gieo đồng tiền hai lần. Số phần tử của biến cố để mặt ngửa xuất hiện đúng 1 lần là:",
+        "question_images": [],
+        "labelA": "2.",
+        "labelB": "4.",
+        "labelC": "5.",
+        "labelD": "6.",
+        "correct_label": "labelA",
+        "solution": "Gọi %(A)% là biến cố: \"Mặt ngửa xuất hiện đúng 1 lần\". Ta có: %(A=\\{N S, S N\\})%.<br>Số phần tử của %(A)% là %(n(A)=2)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "12 ",
+        "point": 0.25,
+        "content": "Rút ngẫu nhiên một lá bài từ bộ bài 52 lá. Xác suất để được lá bích là:",
+        "question_images": [],
+        "labelA": "%(\\frac{1}{13})%.",
+        "labelB": "%(\\frac{1}{4})%.",
+        "labelC": "%(\\frac{12}{13})%.",
+        "labelD": "%(\\frac{3}{4})%.",
+        "correct_label": "labelB",
+        "solution": "Số phần tử của không gian mẫu là %(n(\\Omega)=C_{52}^{1})%.<br>Một bộ bài gồm có 13 lá bài bích. Biến cố xuất hiện có số phần tử %(n(A)=C_{13}^{1})%.<br>Vậy xác suất cần tính là %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{C_{13}^{1}}{C_{52}^{1}}=\\frac{1}{4})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "17 ",
+        "point": 0.5,
+        "content": "Cho tam giác %(A B C)% có cạnh %(B C=10)%, góc %(A B C)% bằng %(60^{\\circ})%. Trên cạnh %(A B)% ta lấy điểm %(M)% sao cho %(A M=3)% (như hình vẽ).<br>Tính độ dài đoạn thẳng %(B M)% biết rằng %(C M=\\frac{8}{9} C A)% (đáp số gần đúng đến hàng phần trăm).",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/d41073f9b007c6e761fd87e04a440d4a.png"
+        ],
+        "solution": "Đặt %(B M=x(x \\geq 0))%.<br>Ta có %(A C=\\sqrt{A N^{2}+N C^{2}-2 A N \\cdot N C \\cdot \\cos 60^{\\circ}}=\\sqrt{x^{2}+100-10 x})%<br>%( \\begin{array}{l}C M=\\sqrt{B M^{2}+B C^{2}-2 B M \\cdot B C \\cdot \\cos 60^{\\circ}}=\\sqrt{(x+3)^{2}+100-10(x+3)} \\\\=\\sqrt{x^{2}-4 x+79}\\end{array})%<br>Theo đề bài ta có: %(A C=\\frac{8}{9} B C \\Rightarrow \\sqrt{x^{2}-10 x+100}=\\frac{8}{9} \\sqrt{x^{2}-4 x+79})%<br>%(\\Rightarrow 81\\left(x^{2}-10 x+100\\right)=64\\left(x^{2}-4 x+79\\right))%<br>%(\\Rightarrow 17 x^{2}-554 x+3044=0 \\Rightarrow x \\approx 25,59)% hoặc %(x \\approx 6,99)%.<br>Vậy %(B M \\approx 25,59)% hoặc %(B M \\approx 6,99)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "18 ",
+        "point": 0.5,
+        "content": "Cho hai đường thẳng %(\\Delta_{1}: x+y-10=0)% và %(\\Delta_{1}: 2 x+m y+999=0)%. Tìm %(m)% để góc tạo bởi hai đường thẳng trên bằng %(45^{\\circ})%.",
+        "question_images": [],
+        "solution": "Hai đường thẳng %(\\Delta_{1}, \\Delta_{2})% có cặp vectơ pháp tuyến %(\\vec{n}_{1}=(1 ; 1), \\vec{n}_{2}=(2 ; m))%.<br>Ta có: %(\\cos \\left(\\Delta_{1}, \\Delta_{2}\\right)=\\frac{\\left|\\vec{n}_{1} \\cdot \\vec{n}_{2}\\right|}{\\left|\\vec{n}_{1}\\right| \\cdot\\left|\\vec{n}_{2}\\right|}=\\frac{|1 \\cdot 2+1 \\cdot m|}{\\sqrt{2} \\cdot \\sqrt{4+m^{2}}}=\\cos 45^{\\circ} \\Rightarrow \\frac{|1 \\cdot 2+1 \\cdot m|}{\\sqrt{2} \\cdot \\sqrt{4+m^{2}}}=\\frac{\\sqrt{2}}{2})% .<br>%(\\Rightarrow 4+m^{2}=4+4 m+m^{2} \\Rightarrow m=0)%. Vậy %(m=0)% thỏa mãn đề bài.",
+        "question_type": "essay"
+    },
+    {
+        "title": "19 ",
+        "point": 0.5,
+        "content": "Một đường hầm có mặt cắt nửa hình elip cao %(5 m)%, rộng 12 m . Viết phương trình chính tắc của elip đó?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/d4112fb40ec491cb7884109e9ef03819.png"
+        ],
+        "solution": "Vẽ hệ trục %(O x y)% như hình vẽ:<br>Phương trình chính tắc của elip có dạng: %(\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a\\gt b>0))%<br>Elip có chiều cao %(5 m)% nên %(b=5)%.<br>Elip có chiều rộng %(12 m)% nên %(2 a=12 \\Rightarrow a=6)%.<br>Phương trình chính tắc của elip: %(\\frac{x^{2}}{36}+\\frac{y^{2}}{25}=1)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/8ac39bada9aeed87c5bbd09441f4847d.png\" srcset=\"https://docdn.giainhanh.io/media/test/83529793ef4049c0a31daae443d58ec5.png 245w, https://docdn.giainhanh.io/media/test/a30247677e8384b98e9ee859c7d383f0.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "20 ",
+        "point": 0.5,
+        "content": "Lớp 10B có 15 bạn (trong đó có lớp trưởng) tham gia hoạt động trò chơi do Đoàn trường tổ chức. Trong trò chơi chạy tiếp sức, cô giáo phải xếp đội hình gồm 6 bạn và thứ tự chạy của họ. Hỏi cô giáo có bao nhiêu cách xếp đội hình để lớp trưởng là người chạy cuối.",
+        "question_images": [],
+        "solution": "Lớp trưởng là người chạy cuối: có 1 cách xếp.<br>Mỗi cách xếp đội hình 5 bạn còn lại trong 14 bạn là một chỉnh hợp chập 5 của 14 phần tử nên số cách xếp đội hình theo yêu cầu là: %(A_{14}^{5} \\cdot 1=240240)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "21 ",
+        "point": 0.5,
+        "content": "Cho khai triển %((1+2 x)^{n}=a_{0}+a_{1} x+a_{2} x^{2}+\\ldots+a_{n} x^{n})% thỏa mãn %(a_{0}+8 a_{1}=2 a_{2}+1)%. Tìm giá trị của số nguyên dương %(n)%.",
+        "question_images": [],
+        "solution": "Ta có: %((1+2 x)^{n}=\\sum_{k=0}^{n} 2^{k} C_{n}^{k} x^{k} ;(k \\in N))%. Suy ra: %(a_{k}=2^{k} C_{n}^{k})%. Thay %(a_{0}=2^{0} C_{n}^{0}=1, a_{1}=2 C_{n}^{1}, a_{2}=4 C_{n}^{2})% vào giả thiết ta có: %(1+16 C_{n}^{1}=8 C_{n}^{2}+1 \\Leftrightarrow 2 C_{n}^{1}=C_{n}^{2})%<br>%( \\Leftrightarrow 2 \\frac{n!}{(n-1)!}=\\frac{n!}{(n-2)!2!} \\Leftrightarrow 2 n=\\frac{n(n-1)}{2} \\Leftrightarrow n^{2}-5 n=0 \\Leftrightarrow\\left[\\begin{array}{l}n=0 \\n=5\\end{array}\\right. \\text {. })%<br>Do %(n)% là số nguyên dương nên %(n=5)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "22 ",
+        "point": 0.5,
+        "content": "Gieo đồng thời hai viên xúc xắc cân đối và đồng chất. Tính xác suất để tổng số chấm xuất hiện trên hai viên xúc xắc bằng: 9 ;",
+        "question_images": [],
+        "solution": "Ta có %(n(\\Omega)=36)%.<br>Gọi %(A)% là biến cố tổng số chấm trên hai viên xúc xắc bằng 9 .<br>%(A=\\{(3 ; 6),(4 ; 5) ;(5 ; 4) ;(6 ; 3)\\})%. Do đó, ta có %(n(A)=4)%.<br>Vậy xác suất của biến cố %(A)% là: %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{4}{36}=\\frac{1}{9})%.",
+        "question_type": "essay"
+    }
+]

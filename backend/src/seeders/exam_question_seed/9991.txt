@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(A=\\left(\\frac{\\sqrt{x}+3}{\\sqrt{x}-1}-\\frac{\\sqrt{x}+1}{3-\\sqrt{x}}+\\frac{\\sqrt{x}+7}{x-4 \\sqrt{x}+3}\\right):\\left(1-\\frac{\\sqrt{x}}{\\sqrt{x}+1}\\right))% với %(x \\geq 0, x \\neq 1, x \\neq 9)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "a) Rút gọn và tính giá trị của biểu thức %(A)% khi %(x=7-4 \\sqrt{3})%.",
+        "question_images": [],
+        "solution": "\\[\\begin{aligned}A & =\\left(\\frac{\\sqrt{x}+3}{\\sqrt{x}-1}-\\frac{\\sqrt{x}+1}{3-\\sqrt{x}}+\\frac{\\sqrt{x}+7}{x-4 \\sqrt{x}+3}\\right):\\left(1-\\frac{\\sqrt{x}}{\\sqrt{x}+1}\\right) \\\\& =\\frac{(\\sqrt{x}+3)(\\sqrt{x}-3)-(\\sqrt{x}+1)(\\sqrt{x}-1)+\\sqrt{x}+7}{(\\sqrt{x}-1)(\\sqrt{x}-3)}: \\frac{1}{\\sqrt{x}+1} \\\\& =\\frac{x-9-x+1+\\sqrt{x}+7}{(\\sqrt{x}-1)(\\sqrt{x}-3)} \\cdot(\\sqrt{x}+1) \\\\& =\\frac{\\sqrt{x}-1}{(\\sqrt{x}-1)(\\sqrt{x}-3)} \\cdot(\\sqrt{x}+1) \\\\& =\\frac{\\sqrt{x}+1}{\\sqrt{x}-3}\\end{aligned}\\]<br>Vậy %(A=\\frac{\\sqrt{x}+1}{\\sqrt{x}-3})% với %(x \\geq 0, x \\neq 1, x \\neq 9)%.<br>Ta có:<br>\\[x=7-4 \\sqrt{3}=(2-\\sqrt{3})^{2} \\text { nên } \\sqrt{x}=2-\\sqrt{3} \\text {. }\\]<br>Thay %(\\sqrt{x}=2-\\sqrt{3})% vào biểu thức %(A=\\frac{\\sqrt{x}+1}{\\sqrt{x}-3})% ta được:<br>\\[A=\\frac{2-\\sqrt{3}+1}{2-\\sqrt{3}-3}=\\frac{3-\\sqrt{3}}{-1-\\sqrt{3}}=3-2 \\sqrt{3}\\]<br>Vậy %(A=3-2 \\sqrt{3})% tại %(x=7-4 \\sqrt{3})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "b) Tìm giá trị nhỏ nhất của biểu thức %(\\frac{1}{A})%.",
+        "question_images": [],
+        "solution": "\\[\\frac{1}{A}=\\frac{\\sqrt{x}-3}{\\sqrt{x}+1}=1-\\frac{4}{\\sqrt{x}+1}\\]<br>Vì %(\\sqrt{x}+1 \\geq 1)% nên %(\\frac{4}{\\sqrt{x}+1} \\leq 4 \\Rightarrow \\frac{1}{A}=1-\\frac{4}{\\sqrt{x}+1} \\geq 1-4=-3)%.<br>Dấu \"=\" xảy ra %(\\Leftrightarrow \\sqrt{x}+1=1 \\Leftrightarrow x=0)% (thỏa mãn DKXD ).<br>Vậy giá trị nhỏ nhất của biểu thức %(\\frac{1}{A})% là -3 khi %(x=0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Trong mặt phắng tọa độ %(O x y)%, cho điềm %(M(3 ; 5))%. Lập phương trình đường thăng %(d)% đi qua %(M)% và cắt các trục tọa độ %(O x, O y)% tại hai điểm phân biệt %(A, B)% sao cho diện tích tam giác %(O A B)% bằng 30 (đvdt).",
+        "question_images": [],
+        "solution": "Gọi %((d): y=a x+b(a \\neq 0))% là đường thẳng đi qua %(M)% và cắt các tia %(O x, O y)% tại %(A, B)%.<br>Vì (d) cắt tia %(O x)% tại %(A)% nên %(A)% có hoành độ dương, tọa độ điểm %(A)% là %(\\left(-\\frac{b}{a} ; 0\\right))%<br>\\[\\Rightarrow O A=\\left|-\\frac{b}{a}\\right|=\\frac{b}{a}(1)\\]<br>Vì %((d))% cắt tia %(O y)% tại %(B)% nên %(B)% có tung độ dương, tọa độ điểm %(B)% là %((0 ; b))%<br>\\[\\Rightarrow O B=|b|=b(2)\\]<br>Từ (1), (2) %(\\Rightarrow a\\lt 0, b\\gt 0)%.<br>Vì (d) đi qua %(M(3 ; 5))% nên %(3 a+b=5 \\Leftrightarrow b=5-3 a\\left({ }^{*}\\right))%.<br>Vì diện tích tam giác %(O A B)% bằng 30 (đvdt) nên ta có:<br>\\[\\frac{1}{2} O A \\cdot O B=30 \\Leftrightarrow \\frac{1}{2} \\cdot \\frac{-b}{a} \\cdot b=30 \\Leftrightarrow b^{2}=-60 a \\Leftrightarrow(5-3 a)^{2}=-60 a \\Leftrightarrow(3 a+5)^{2}=0 \\Leftrightarrow a=-\\frac{5}{3}\\]<br>Thay %(a=-\\frac{5}{3})% vào %((*))% ta được: %(b=5-3\\left(-\\frac{5}{3}\\right)=10)%.<br>Vậy %((d): y=-\\frac{5}{3} x+10)% là đường thẳng cần tìm.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5000772607d53b40891e37da47dfee74.png\" srcset=\"https://docdn.giainhanh.io/media/test/339ca611a9593b52277e66ddf182ccfc.png 135w, https://docdn.giainhanh.io/media/test/5f30341918192d5494ddfc8284dd908a.png 432w, https://docdn.giainhanh.io/media/test/0adc6b3605d9b56663d66e1edf2494bb.png 647w\" width=\"647\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các cặp số nguyên %((x, y))% thỏa mãn: %(y^{2}(x-4)^{2}-x^{3}+10 x^{2}-32 x+14=0)%.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}y^{2}(x-4)^{2}-x^{3}+10 x^{2}-32 x+14=0 \\\\Rightarrow y^{2}(x-4)^{2}=x^{3}-10 x^{2}+32 x-14 \\text { (1) }\\end{array}\\]<br>Với %(x=4)% thì không có giá trị %(y)% thỏa mãn.<br>Với %(x \\neq 4)% thì ta có:(1) %(\\Rightarrow y^{2}=\\frac{x^{3}-10 x^{2}+32 x-14}{(x-4)^{2}}=\\frac{\\left(x^{3}-8 x^{2}+16 x\\right)-\\left(2 x^{2}-16 x+32\\right)}{(x-4)^{2}}=x-2+\\frac{18}{(x-4)^{2}})%<br>Vì %(x, y \\in \\mathbb{Z})% nên %(\\frac{18}{(x-4)^{2}} \\in \\mathbb{Z} \\Leftrightarrow(x-4)^{2} \\in U_{18}=\\{ \\pm 1 ; \\pm 2 ; \\pm 3 ; \\pm 6 ; \\pm 9 ; \\pm 18\\})%<br>Mà %((x-4)^{2})% là số chính phương nên %((x-4)^{2} \\in\\{1 ; 9\\})%<br>*TH1: %((x-4)^{2}=1 \\Leftrightarrow\\left[\\begin{array}{l}x-4=1 \\\\ x-4=-1\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=5 \\\\ x=3\\end{array}\\right.\\right.)%Với %(x=5)% thì %(y^{2}=21 \\Rightarrow y= \\pm \\sqrt{21})% (loại vì %(y \\in \\mathbb{Z})% )<br>Với %(x=3)% thì %(y^{2}=19 \\Rightarrow y= \\pm \\sqrt{19})% (loại vì %(y \\in \\mathbb{Z})% )<br>TH 2 :<br>\\[(x-4)^{2}=9 \\Leftrightarrow\\left[\\begin{array} { l } { x - 4 = 3 } \\\\{ x - 4 = - 3 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=7 \\x=1\\end{array}\\right.\\right.\\]<br>Với %(x=7)% thì %(y^{2}=7 \\Rightarrow y= \\pm \\sqrt{7})% (loại vì %(y \\in \\mathbb{Z})% )Với %(x=1)% thì %(y^{2}=1 \\Rightarrow y= \\pm 1)% (thỏa mãn).<br>Vậy %((x, y) \\in\\{(1 ; 1) ;(1 ;-1)\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Giải phương trì̀h: %(3 \\sqrt{x-1}-\\sqrt{x}+3 \\sqrt{x}+2 x-3=5 x-3)%.",
+        "question_images": [],
+        "solution": "\\[3 \\sqrt{x-1}-\\sqrt{x}+3 \\sqrt{x}+2 x-3=5 x-3(1)\\]<br>ĐКХĐ: %(x \\geq 1)%<br>Đặt %(\\left\\{\\begin{array}{l}\\sqrt{x-1}=a \\\\ \\sqrt{x+3}=b\\end{array}\\right.)%%((a, b \\geq 0))% thì %(\\sqrt{x^{2}+2 x-3}=a b)%.<br>Ta có: %(5 x-3=\\frac{9}{2}(x-1)+\\frac{1}{2}(x+3)=\\frac{9}{2} a^{2}+\\frac{1}{2} b^{2})%<br>Phương trình (1) trở thành:<br>\\[\\begin{array}{l}3 a-b+3 a b=\\frac{9}{2} a^{2}+\\frac{1}{2} b^{2} \\\\Leftrightarrow 6 a-2 b+6 a b=9 a^{2}+b^{2} \\\\Leftrightarrow(3 a-b)^{2}-2 \\cdot(3 a-b)=0 \\\\Leftrightarrow(3 a-b)(3 a-b-2)=0 \\\\Leftrightarrow\\left\\{\\begin{array}{l}3 a=b \\\\3 a=b+2\\end{array}\\right.\\end{array}\\]<br>%(\\mathrm{TH} 1: 3 a=b)%, tức là<br>%(3 \\sqrt{x-1}=\\sqrt{x+3})%%(\\Leftrightarrow 9 x-9=x+3 \\Leftrightarrow x=\\frac{3}{2})% (TM)<br>%(\\mathrm{TH} 2: 3 a=b+2)%, tức là<br>\\[\\begin{array}{l}3 \\sqrt{x-1}=\\sqrt{x+3}+2 \\\\Leftrightarrow 9 x-9=x+7+4 \\sqrt{x+3}+3 \\\\Leftrightarrow 2 x-4=\\sqrt{x+3} \\\\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 2 \\\\4 x^{2}-16 x+16=x+3\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 2 \\\\4 x^{2}-17 x+13=0\\end{array}\\right.\\end{array}\\]<br>Vậy phương trình có nghiệm %(x=\\frac{3}{2})% và %(x=\\frac{13}{4})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}\\sqrt{x+1}+\\sqrt{x y-2 x+y-2}+x+5=2 y+\\sqrt{y-2} \\\\ \\frac{x y+3 x-6 y-18}{x^{2}-6 x+12}=(y-3)(\\sqrt{x+3}-3)\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "ĐK: %(\\left\\{\\begin{array}{l}x \\geq-1 \\\\ y \\geq 2\\end{array}\\right.)%<br>Ta có:<br>\\[\\begin{array}{l}\\left\\{\\begin{array}{l}\\sqrt{x+1}+\\sqrt{x y-2 x+y-2}+x+5=2 y+\\sqrt{y-2} \\\\frac{x y+3 x-6 y-18}{x^{2}-6 x+12}=(y-3)(\\sqrt{x+3}-3)\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}\\sqrt{x+1}+\\sqrt{(x+1)(y-2)}+x+5=2 y+\\sqrt{y-2} (1)\\\\frac{(y+3)(x-6)}{x^{2}-6 x+12}=(y-3)(\\sqrt{x+3}-3)(2)\\end{array}\\right. \\\\+ \\text { Giải pt (1): } \\\\text { Đặt }\\left\\{\\begin{array}{l}\\sqrt{x+1}=a(a \\geq 0) \\Rightarrow x=a^{2}-1 \\\\sqrt{y-2}=b(b \\geq 0) \\Rightarrow y=b^{2}+2\\end{array}\\right.\\end{array}\\]<br>Khi đó pt (1) trở thành:<br>\\[\\begin{array}{l}a+a b+a^{2}+4=2\\left(b^{2}+2\\right)+b \\\\Leftrightarrow a^{2}-2 b^{2}+a-b+a b=0 \\\\Leftrightarrow\\left(a^{2}-b^{2}\\right)+(a-b)+\\left(a b-b^{2}\\right)=0 \\\\Leftrightarrow(a-b)(a+2 b+1)=0\\end{array}\\]<br>\\[\\begin{array}{l}\\Leftrightarrow(a-b)(a+2 b+1)=0 \\\\Leftrightarrow a-b=0(v i ̀ ~ a+2 b+1\\gt 1>0) \\\\Leftrightarrow a=b \\Leftrightarrow \\sqrt{x+1}=\\sqrt{y-2} \\Leftrightarrow y=x+3\\end{array}\\]<br>+ Thay %(\\mathrm{y}=\\mathrm{x}+3)% vào phương trình (2) ta được<br>\\[\\begin{array}{l}\\frac{(x+6)(x-6)}{x^{2}-6 x+12}=x(\\sqrt{x+3}-3) \\Leftrightarrow \\frac{(x+6)(x-6)}{x^{2}-6 x+12}=\\frac{x(\\sqrt{x+3}-3)(\\sqrt{x+3}+3)}{\\sqrt{x+3}+3} \\Leftrightarrow \\frac{(x+6)(x-6)}{x^{2}-6 x+12}=\\frac{x(x-6)}{\\sqrt{x+3}+3} \\\\Leftrightarrow(\\mathrm{x}-6)\\left(\\frac{\\mathrm{x}+6}{\\mathrm{x}^{2}-6 \\mathrm{x}+12}-\\frac{\\mathrm{x}}{\\sqrt{\\mathrm{x}+3}+3}\\right)=0 \\\\Leftrightarrow\\left[\\begin{array} { l } { x - 6 = 0 } \\\\{ \\frac { x + 6 } { x ^ { 2 } - 6 x + 1 2 } - \\frac { x } { \\sqrt { x + 3 } + 3 } = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=6 \\text { (TMĐK) } \\\\frac{x+6}{x^{2}-6 x+12}-\\frac{x}{\\sqrt{x+3}+3}=0\\end{array}\\right.\\right. \\\\end{array}\\]<br>+ Giải phương trình %((3))% :<br>\\[\\text { (3) } \\Rightarrow(x+6)(\\sqrt{x+3}+3)=x\\left(x^{2}-6 x+12\\right) \\Leftrightarrow\\left[(\\sqrt{x+3})^{2}+3\\right](\\sqrt{x+3}+3)=[(x-3)+3]\\left[(x-3)^{2}+3\\right]\\]<br>Đặt %(\\sqrt{x+3}=c(c \\geq 0) ; x-3=d)%<br>Khi đó ta có pt:<br>\\[\\begin{array}{l}\\left(\\mathrm{c}^{2}+3\\right)(\\mathrm{c}+3)=(\\mathrm{d}+3)\\left(\\mathrm{d}^{2}+3\\right) \\\\Leftrightarrow \\mathrm{c}^{3}+3 \\mathrm{c}^{2}+3 \\mathrm{c}+9=\\mathrm{d}^{3}+3 \\mathrm{~d}^{2}+3 \\mathrm{~d}+9 \\\\Leftrightarrow \\mathrm{c}^{3}+3 \\mathrm{c}^{2}+3 \\mathrm{c}+1=\\mathrm{d}^{3}+3 \\mathrm{~d}^{2}+3 \\mathrm{~d}+1 \\\\Leftrightarrow(\\mathrm{c}+1)^{3}=(\\mathrm{d}+1)^{3} \\Leftrightarrow \\mathrm{c}+1=\\mathrm{d}+1 \\Leftrightarrow \\mathrm{c}=\\mathrm{d} \\\\Rightarrow \\sqrt{\\mathrm{x}+3}=\\mathrm{x}-3 \\\\Leftrightarrow\\left\\{\\begin{array} { l } { x \\geq 3 } \\\\{ x + 3 = x ^ { 2 } - 6 x + 9 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x \\geq 3 } \\\\{ x ^ { 2 } - 7 x + 6 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x \\geq 3 } \\\\{ ( x - 1 ) ( x - 6 ) = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x \\geq 3 \\x=1 \\text { (loai) } \\x=6 \\text { (TMĐK) }\\end{array} \\Leftrightarrow x=6 \\Rightarrow y=9(\\mathrm{TM})\\right.\\right.\\right.\\right.\\end{array}\\]<br>Vậy hệ phương trình đã cho có nghiệm duy nhất %((x, y)=(6 ; 9))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Cho tam giác nhọn %(A B C)% có %(H, G)% lần lượt là trực tâm, trọng tâm và %(H G)% song song với %(B C)%. Tính %(\\tan B \\cdot \\tan C)%.",
+        "question_images": [],
+        "solution": "Vì %(G)% là trọng tâm %(\\triangle A B C)% nên %(A M=3 G M)%.<br>Vì %(H G / / B C)%, áp dụng định lý Thales vào %(\\triangle A D M)% có: %(\\frac{A D}{H D}=\\frac{A M}{G M}=3)%<br>Ta có:<br>\\[\\left\\{\\begin{array}{l}H B C+B H D=90^{\\circ} \\H B C+A C B=90^{\\circ}\\end{array} \\Rightarrow B H D=A C B \\Rightarrow \\tan A C B=\\tan B H D=\\frac{B D}{H D}\\right.\\]<br>Lại có: %(\\tan A B C=\\frac{A D}{B D})%<br>Từ đó, ta có: %(\\tan A B C \\cdot \\tan A C B=\\frac{A D}{H D}=3)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5a551dd9183d832f50511f05ad9e7f0b.png\" srcset=\"https://docdn.giainhanh.io/media/test/11440bac314d93918cb6e0b2989dce1a.png 180w, https://docdn.giainhanh.io/media/test/90c32704050a74b7641d12cd58ec3ae0.png 500w, https://docdn.giainhanh.io/media/test/2e0f1d6ad02e7ddbe5fc8a9d33ca4e03.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho nửa đường tròn tâm %(O)% đường kính %(A B)%. Lây điêm %(H)% cô định thuộc đoạn thăng %(O A)% %((\\mathrm{H})% không trùng với %(O)% và %(A)% ). Đường thẳng vuông góc với %(A B)% tại %(H)% cắt nửa đường tròn tâm %(O)% tại %(C)%. Gọi %(D)% là điểm đối xứng với %(H)% qua %(C ; I, J)% lần lượt là trung điểm của %(C H)% và %(D H)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "a) Chứng minh hai tam giác %(C H J)% và %(H B I)% dồng dạng.",
+        "question_images": [],
+        "solution": "Vì %(D)% là điểm đối xứng với %(A)% qua %(C)% nên %(C A=C D)%.Xét %(\\triangle D A H)% có:%(\\left.\\begin{array}{l}A C=C D \\\\ D J=I H\\end{array}\\right\\} \\Rightarrow C J)% là đường trung bình của %(\\triangle D A H)%<br>%(\\Rightarrow C J / / A H)% và %(C J=\\frac{1}{2} A H)%<br>Mà %(A H \\perp C H)% nên %(C J \\perp C H \\Rightarrow H C J=90^{\\circ})%<br>Vì %(A C B)% nội tiếp chắn nửa đường tròn nên %(A C B=90^{\\circ})%.<br>Áp dụng hệ thức cạnh và đường cao vào %(\\triangle A C B)% vuông tại %(C)% có %(C H \\perp A B)% %(C H^{2}=A H \\cdot H B)%.<br>\\[\\Rightarrow \\frac{C H}{A H}=\\frac{H B}{C H}\\]<br>Mà %(A H=2 C J, H B=2 H I)% nên %(\\frac{C H}{C J}=\\frac{H B}{H I})%.<br>Xét %(\\triangle C H J)% và %(\\triangle H B I)% ta có:<br>\\[\\left.\\begin{array}{l}H C J=B H I=90^{\\circ} \\\\frac{C H}{C J}=\\frac{H B}{H I}\\end{array}\\right\\} \\Rightarrow \\triangle C H J \\sim \\triangle H B I \\text { (c.g.) }\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5678a245590dc1832f84a5112e1f3660.png\" srcset=\"https://docdn.giainhanh.io/media/test/3c0f604533d231bd579aa3f5cd8afe11.png 183w, https://docdn.giainhanh.io/media/test/96ec99f94f22d49fdb72ae54d8fcb2f8.png 500w, https://docdn.giainhanh.io/media/test/0d9ca892614e167b935252b394ed0f56.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "b) Gọi %(B x)% là tia tiếp tuyến của nửa đường tròn tâm %(O)%. Lấy điểm %(E)% di động trên %(B x(\\mathrm{E})% không trùng với %(B)% ). Đường thẳng qua %(H)% vuông góc với %(A E)% cắt đường thẳng %(B E)% tại %(F)%. Chứng minh đường tròn đường kính %(E F)% luôn đi qua hai điểm cố định khi %(E)% di động trên tia %(B x)%.",
+        "question_images": [],
+        "solution": "Gọi %(Q)% là giao điểm của %(H F)% và %(A E \\Rightarrow Q F \\perp Q E)%<br>Gọi %(M, N)% là giao điểm của đường tròn ngoại tiếp %(\\triangle Q E F)% với %(A B)%.<br>Ta có:<br>\\[\\left.\\begin{array}{l}A Q M+M Q E=180^{\\circ} \\M Q E+A N E=\\frac{1}{2} \\mathrm{sd} M F E+\\frac{1}{2} \\mathrm{sd} M C E=180^{\\circ}\\end{array}\\right\\} \\Rightarrow A Q M=A N E\\]<br>Xét %(\\triangle A Q M)% và %(\\triangle A N E)% có: %(E A N)% chung<br>%(\\Rightarrow \\triangle A Q M \\sim \\triangle A N E)% (góc - góc)<br>\\[\\frac{A Q}{A N}=\\frac{A M}{A E} \\Rightarrow A M \\cdot A N=A Q \\cdot A E\\]<br>Xét %(\\triangle A Q H)% và %(\\triangle A B E)% có: %(E A B)% chung<br>%(\\Rightarrow \\triangle A Q H \\sim \\triangle A B E)% (góc - góc)<br>\\[\\frac{A Q}{A B}=\\frac{A H}{A E} \\Rightarrow A B \\cdot A H=A Q \\cdot A E=A M \\cdot A N\\]<br>Mà %(A B, A H)% cố định nên %(A M \\cdot A N)% cố định.<br>Vì %(E F \\perp M N)% tại %(B, E F)% là đường kính nên %(B M=B N)%<br>\\[\\Rightarrow A M \\cdot A N=(A B-B M)(A B+B N)=A B^{2}-B M^{2}\\]<br>Vì %(A M \\cdot A N, A B)% cố định nên %(B M)% cố định<br>%(\\Rightarrow M)% cố định, kéo theo %(N)% cố định.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là các số thực dương thỏa mãn %(a+b+c=3)%. Tìm giá trị nhỏ nhất của biểu thức %(A=12\\left(a^{2}+b^{2}+c^{2}\\right)+\\frac{4(a b+b c+c a)}{a^{2}+b^{2}+c^{2}}+2024)%.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}A=12\\left(a^{2}+b^{2}+c^{2}\\right)+\\frac{4(a b+b c+c a)}{a^{2}+b^{2}+c^{2}}+2024 \\A=12\\left(a^{2}+b^{2}+c^{2}\\right)+\\frac{2(a+b+c)^{2}}{a^{2}+b^{2}+c^{2}}+2022 \\A=12\\left(a^{2}+b^{2}+c^{2}\\right)+\\frac{18}{a^{2}+b^{2}+c^{2}}+2022 \\A=2\\left(a^{2}+b^{2}+c^{2}\\right)+\\frac{18}{a^{2}+b^{2}+c^{2}}+10\\left(a^{2}+b^{2}+c^{2}\\right)+2022\\end{array}\\]<br>Áp dụng bất đẳng thức %(\\mathrm{AM}-\\mathrm{GM})%, ta có:<br>\\[2\\left(a^{2}+b^{2}+c^{2}\\right)+\\frac{18}{a^{2}+b^{2}+c^{2}} \\geq 2 \\sqrt{2\\left(a^{2}+b^{2}+c^{2}\\right) \\cdot \\frac{18}{a^{2}+b^{2}+c^{2}}}=12\\]<br>Lại có:<br>\\[a^{2}+b^{2}+c^{2} \\geq \\frac{(a+b+c)^{2}}{3}=3 \\Rightarrow 10\\left(a^{2}+b^{2}+c^{2}\\right) \\geq 30\\]<br>Từ (1), (2), (3) ta suy ra:<br>\\[A=2\\left(a^{2}+b^{2}+c^{2}\\right)+\\frac{18}{a^{2}+b^{2}+c^{2}}+10\\left(a^{2}+b^{2}+c^{2}\\right)+2022 \\geq 12+30+2022=2064\\]<br>Dấu \"=\" xảy ra khi<br>\\[\\left\\{\\begin{array}{l}2\\left(a^{2}+b^{2}+c^{2}\\right)=\\frac{18}{a^{2}+b^{2}+c^{2}} \\\\3\\left(a^{2}+b^{2}+c^{2}\\right)=(a+b+c)^{2}\\end{array} \\Leftrightarrow a=b=c=1\\right.\\]<br>Vậy %(A_{\\min }=2064)% khi %(a=b=c=1)%.",
+        "question_type": "essay"
+    }
+]

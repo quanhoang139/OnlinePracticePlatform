@@ -1,0 +1,128 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "Cho biểu thức: %(P=\\left(\\frac{x^{4}+x^{2}-4 x+1}{x^{2}-1}-\\frac{x-1}{x+1}+\\frac{x+1}{x-1}\\right) \\cdot \\frac{x(x+1)-(1+x)}{x^{3}-1})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Rút gọn %(P)%",
+        "question_images": [],
+        "solution": "ĐKXĐ: %(x \\neq \\pm 1)%<br>%(P=\\left(\\frac{\\left(x^{4}+x^{2}-4 x+1\\right)-\\left(x^{2}-2 x+1\\right)+\\left(x^{2}+2 x+1\\right)}{x^{2}-1}\\right) \\cdot \\frac{x^{2}-1}{x^{3}-1})%<br>%(\\begin{array}{l}=\\frac{x^{4}+x^{2}+1}{x^{2}-1} \\cdot \\frac{x^{2}-1}{x^{3}-1} \\\\ =\\frac{\\left(x^{4}-x\\right)+\\left(x^{2}+x+1\\right)}{x^{2}-1} \\cdot \\frac{x^{2}-1}{x^{3}-1} \\\\ =\\frac{\\mathrm{x}(\\mathrm{x}-1)\\left(x^{2}+x+1\\right)+\\left(x^{2}+x+1\\right)}{x^{2}-1} \\cdot \\frac{x^{2}-1}{x^{3}-1} \\\\ =\\frac{\\left(\\mathrm{x}^{2}-x+1\\right)\\left(x^{2}+x+1\\right)}{x^{2}-1} \\cdot \\frac{x^{2}-1}{(x-1)\\left(x^{2}+x+1\\right)} \\\\ =\\frac{\\mathrm{x}^{2}-x+1}{x-1}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm giá trị nguyên của %(x)% để %(P)% nhận giá trị nguyên ?",
+        "question_images": [],
+        "solution": "%(P=\\frac{\\mathrm{x}^{2}-x+1}{x-1}=\\frac{\\mathrm{x}(\\mathrm{x}-1)+1}{x-1}=x+\\frac{1}{x-1})%<br>Để %(\\mathrm{P} \\in \\mathrm{Z})% thì %(\\frac{1}{x-1} \\in \\mathrm{Z} \\Rightarrow \\mathrm{x}-1 \\in \\mathrm{U}(1)=\\{1 ;-1\\})%<br>Với %(\\mathrm{x}-1=1)% thì %(\\mathrm{x}=2)% (TMĐKXĐ)<br>Với %(\\mathrm{x}-1=-1)% thì %(\\mathrm{x}=0)% (TMĐКХĐ)<br>Vậy %(P)% nguyên khi %(\\mathrm{x} \\in\\{2 ; 0\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 1.5,
+        "content": "Phân tích đa thức sau thành nhân tử: %(\\mathrm{x}(\\mathrm{x}+4)(\\mathrm{x}+6)(\\mathrm{x}+10)+128)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}x(x+4)(x+6)(x+10)+128 \\\\ =[x(x+10)] \\cdot[(x+4)(x+6)]+128 \\\\ =\\left(x^{2}+10 x\\right) \\cdot\\left(x^{2}+10 x+24\\right)+128\\end{array})%<br>Đặt %(x^{2}+10 \\mathrm{x}=\\mathrm{a})%, ta có:<br>%(\\begin{array}{l}a(a+24)+128 \\\\ =a^{2}+24 a+128 \\\\ =(a+8)(a+16) \\\\ =\\left(x^{2}+10 x+8\\right)\\left(x^{2}+10 x+16\\right) \\\\ =(x+2)(x+8)(x+5+\\sqrt{17})(x+5-\\sqrt{17})\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 1.5,
+        "content": "Cho %(n)% là số nguyên dương, chứng minh rằng %(16^{\\mathrm{n}}-15 \\mathrm{n}-1)% chia hết cho %(225)%.",
+        "question_images": [],
+        "solution": "Với %(\\mathrm{n}=1)% ta có: %(16-15-1=0 \\vdots 225)%<br>Giả sử bài toán đúng với %(\\mathrm{n}=\\mathrm{k})% tức là ta có: %(16^{k}-15 k-1 \\vdots 225)%<br>Ta chứng minh bài toán đúng với %(\\mathrm{n}=\\mathrm{k}+1)%<br>Thật vậy:<br>%(\\begin{aligned} 16^{k+1}-15(\\mathrm{k}+1)-1 & =16.16^{k}-15 \\mathrm{k}-15-1 \\\\ & =16^{k}(15+1)-15 \\mathrm{k}-15-1 \\\\ & =\\left(16^{\\mathrm{k}}-15 \\mathrm{k}-1\\right)+15\\left(15^{\\mathrm{k}}-1\\right) \\\\ & =\\left(16^{\\mathrm{k}}-15 \\mathrm{k}-1\\right)+225 . \\mathrm{A}(\\mathrm{k}) \\vdots 225\\end{aligned})%<br>Vậy %(16^{\\mathrm{n}}-15 \\mathrm{n}-1)% chia hết cho 225 với mọi %(n)% là số nguyên dương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 1.5,
+        "content": "Đa thức %(\\mathrm{f}(\\mathrm{x}))% chia cho %(\\mathrm{x}+1)% dư 4 , chia cho %(\\mathrm{x}^{2}+1)% dư %(2 \\mathrm{x}+3)%. Tìm phần dư khi chia %(f(x))% cho %( (x+1)\\left(x^{2}+1\\right))%.",
+        "question_images": [],
+        "solution": "Theo định lí Bê-du ta có: %(\\mathrm{f}(\\mathrm{x}))% chia %(\\mathrm{x}+1)% dư %(4 \\Rightarrow \\mathrm{f}(-1)=4)%<br>Do bậc đa thức chia %((x+1)\\left(x^2+1\\right))% là 3 nên đa thức dư có dạng %(a x^{2}+b x+c)%<br>Gọi thương là %(Q)%, ta có:<br>%(\\begin{array}{l}f(x)=(x+1)\\left(x^{2}+1\\right) Q+a x^{2}+b x+c \\\\ =(x+1)\\left(x^{2}+1\\right) Q+a x^{2}+a-a+b x+c \\\\ =(x+1)\\left(x^{2}+1\\right) Q+a\\left(x^{2}+1\\right)-a+b x+c \\\\ =[(x+1) Q+a]\\left(x^{2}+1\\right)+b x+c-a\\end{array})%<br>Vì %(\\mathrm{f}(\\mathrm{x}))% chia %(\\mathrm{x}^{2}+1)% dư %(2 \\mathrm{x}+3 \\Rightarrow\\left\\{\\begin{array}{l}b=2 \\\\ c-a=3\\end{array}\\right.)% %((1))%<br>Mặt khác %(f(-1)=4 \\Rightarrow \\mathrm{a}-\\mathrm{b}+\\mathrm{c}=4)% %((2))%<br>Từ %((1))% và %((2))% %(\\Rightarrow\\left\\{\\begin{array}{l}a=\\frac{3}{2} \\\\ b=2 \\\\ c=\\frac{9}{2}\\end{array}\\right.)%<br>Vậy đa thức dư là: %(\\frac{3}{2} x^{2}+2 x+\\frac{9}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 1.5,
+        "content": "Chứng minh rằng tổng hai số chính phương liên tiếp cộng với tích của chúng là một số chính phương lẻ.",
+        "question_images": [],
+        "solution": "Gọi hai số chính phương liên tiếp đó là %(\\mathrm{k}^{2})% và %((\\mathrm{k}+1)^{2})%.<br>Ta có: %(\\mathrm{k}^{2}+(\\mathrm{k}+1)^{2}+\\mathrm{k}^{2} \\cdot(\\mathrm{k}+1)^{2}=\\mathrm{k}^{4}+2 \\mathrm{k}^{3}+3 \\mathrm{k}^{2}+2 \\mathrm{k}+1=\\left(\\mathrm{k}^{2}+\\mathrm{k}+1\\right)^{2}=[\\mathrm{k}(\\mathrm{k}+1)+1]^{2})% là số chính phương. %((1))%<br>Vì %(\\mathrm{k}(\\mathrm{k}+1))% là tích hai số tự nhiên liên tiếp nên %(\\mathrm{k}(\\mathrm{k}+1))% chẵn %(\\Rightarrow \\mathrm{k}(\\mathrm{k}+1)+1)% lẻ %(\\Rightarrow[\\mathrm{k}(\\mathrm{k})% %(+1)+1]^{2})% lẻ %((2))%<br>Từ %((1))% và %((2))% suy ra đpcm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 2.0,
+        "content": "Tìm các số nguyên %(x ; y)% thỏa mãn: %(\\mathrm{x}^{2}+\\mathrm{y}^{2}+5 \\mathrm{x}^{2} \\mathrm{y}^{2}+60=37 \\mathrm{xy})%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}x^{2}+y^{2}+5 x^{2} y^{2}+60=37 x y \\text {. } \\\\ \\Leftrightarrow x^{2}+y^{2}-2 x y=35 x y-5 x^{2} y^{2}-60 \\\\ \\Leftrightarrow(x-y)^{2}=5(3-x y)(x y-4)(1) \\\\end{array})%<br>Vì %((x-y)^{2} \\geq 0)% nên %(5(3-x y)(x y-4) \\geq 0 \\Leftrightarrow 3 \\leq x y \\leq 4 \\Leftrightarrow x y \\in\\{3 ; 4\\})%<br>Đẳng thức %((1))% xảy ra %(\\Leftrightarrow\\left\\{\\begin{array}{l}x y=4 \\\\ x, y \\in \\mathbb{Z} \\\\ x=y\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}x=2 \\\\ y=2\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}x=-2 \\\\ y=-2\\end{array}\\right.\\end{array}\\right.\\right.)%.<br>Vậy %((\\mathrm{x}, \\mathrm{y}) \\in\\{(2 ; 2) ;(-2 ;-2)\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 1.5,
+        "content": "Tìm giá trị lớn nhất và giá trị nhỏ nhất của biểu thức: %(C=\\frac{3 x^{2}-2 x+3}{x^{2}+1})%.",
+        "question_images": [],
+        "solution": "%(C=\\frac{3 x^{2}-2 x+3}{x^{2}+1}=\\frac{2\\left(x^{2}+1\\right)+\\left(\\mathrm{x}^{2}-2 x+1\\right)}{x^{2}+1}=2+\\frac{(\\mathrm{x}-1)^{2}}{x^{2}+1} \\geq 2)%<br>Vậy %(\\min C=2 \\Leftrightarrow x=1)%<br>%(C=\\frac{3 x^{2}-2 x+3}{x^{2}+1}=\\frac{4\\left(x^{2}+1\\right)-\\left(x^{2}+2 x+1\\right)}{x^{2}+1}=4-\\frac{(\\mathrm{x}+1)^{2}}{x^{2}+1} \\leq 4)%<br>Vậy %(\\max C=4 \\Leftrightarrow x=-1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 1.5,
+        "content": "Cho ba số %(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})% đôi một khác nhau, thỏa mãn %(\\mathrm{x}^{3}+\\mathrm{y}^{3}+\\mathrm{z}^{3}=3 \\mathrm{xyz})% và %(\\mathrm{xyz} \\neq 0)%. Tính giá trị của biểu thức: %(B=\\frac{16(x+y)}{z}+\\frac{3(y+z)}{x}-\\frac{2038(z+x)}{y})%.",
+        "question_images": [],
+        "solution": "%(x^{3}+y^{3}+z^{3}=3 x y z(x \\neq y \\neq z ; x y z \\neq 0))%<br>%(\\begin{array}{l}\\Leftrightarrow(x+y)^{3}-3 x y(x+y)+z^{3}-3 x y z=0 \\\\ \\Leftrightarrow(x+y+z)^{3}-3 z(x+y)(x+y+z)-3 x y(x+y+z)=0 \\\\ \\Leftrightarrow(x+y+z)\\left(x^{2}+y^{2}+z^{2}-x y-y z-z x\\right)=0 \\\\ \\Leftrightarrow \\frac{1}{2}(x+y+z)\\left[(x-y)^{2}+(y-z)^{2}+(z-x)^{2}\\right]=0\\end{array})%<br>%(\\Leftrightarrow\\left[\\begin{array}{l}x+y+z=0 \\\\ \\left\\{\\begin{array}{l}x-y=0 \\\\ y-z=0 \\\\ z-x=0\\end{array}\\right.\\end{array}\\right.)% %(\\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}x+y=-z \\\\ y+z=-x \\\\ z+x=-y\\end{array}\\right. \\\\ x=y=z\\ (\\text {loai}, \\text { vi } x \\neq y \\neq z)\\end{array}\\right.)%<br>Vậy %(B=\\frac{16(x+y)}{z}+\\frac{3(y+z)}{x}-\\frac{2038(z+x)}{y}=\\frac{16(-\\mathrm{z})}{z}+\\frac{3(-\\mathrm{x})}{x}-\\frac{2038(-\\mathrm{y})}{y}=(-16)+(-13)+2038=2019)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 9:",
+        "group_content": "Cho hình vuông %(ABCD )%. Gọi %(E)% là một điểm trên cạnh %(BC )%. Qua %(A)% kẻ tia %(Ax)% vuông góc với %(\\mathrm{AE}, \\mathrm{Ax})% cắt %(CD)% tại %(F)%. Trung tuyến %(AI)% của tam giác %(AEF)% cắt %(CD)% ở %(K )%. Đường thẳng kẻ qua %(E)%, song song với %(AB)% cắt %(AI)% ở %(G )%. Chứng minh:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Tứ giác %(EGFK)% là hình thoi.",
+        "question_images": [],
+        "solution": "Xét %(\\triangle A B E)% và %(\\triangle A D F)% có:<br>%(\\widehat{\\mathrm{ABE}}=\\widehat{\\mathrm{ADF}}\\left(=90^{\\circ}\\right))%<br>%(\\mathrm{AB}=\\mathrm{AD})% ( %(ABCD)% là hình vuông)<br>%(\\widehat{\\mathrm{BAE}}=\\widehat{\\mathrm{DAF}})% (cùng phụ %(\\widehat{\\mathrm{DAE}})% )<br>Do đó %(\\triangle \\mathrm{ABE}=\\triangle \\mathrm{ADF}(\\mathrm{g}-\\mathrm{c}-\\mathrm{g}))%<br>%(\\Rightarrow \\mathrm{AE}=\\mathrm{AF})%<br>%(\\Rightarrow \\triangle \\mathrm{AEF})% vuông cân tại %(A)%<br>Mà %(AI)% là trung tuyến của %(\\triangle AEF)%<br>%(\\Rightarrow A I)% cũng là đường cao của %(\\triangle \\mathrm{AEF})%<br>%(\\Rightarrow \\mathrm{AI} \\perp \\mathrm{EF})% hay %(\\mathrm{GK} \\perp \\mathrm{EF})%<br>Xét %(\\triangle I E G)% và %(\\triangle I F K)% có:<br>%(\\widehat{\\mathrm{GIE}}=\\widehat{\\mathrm{KIF}})% (đối đỉnh)<br>%(\\mathrm{IE}=\\mathrm{IF}(\\mathrm{gt}))%<br>%(\\widehat{\\mathrm{IEG}}=\\widehat{\\mathrm{IFK}})% (so le trong)<br>Do đó %(\\triangle \\mathrm{IEG}=\\Delta \\mathrm{IFK})% (g-c-g)<br>%(\\Rightarrow \\mathrm{IG}=\\mathrm{IK})%<br>Tứ giác %(EGFK)% có hai đường chéo cắt nhau tại trung điểm mỗi đường (%(IE=IF)%(gt); %(\\mathrm{IG}=\\mathrm{IK}(\\mathrm{cmt}))%) đồng thời vuông góc với nhau %((\\mathrm{GK} \\perp \\mathrm{EF}))% nên là hình thoi.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/6484710834be427ee0f496a27cae5422.png\" srcset=\"https://docdn.giainhanh.io/media/test/add205744909c2ea36a3bd0469e2eccb.png 136w\" width=\"136\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) %(\\mathrm{AF}^{2}=\\mathrm{FK} . \\mathrm{FC})%",
+        "question_images": [],
+        "solution": "Xét %(\\triangle \\mathrm{AFK})% và %(\\triangle \\mathrm{CAF})% có:<br>%(\\widehat{\\mathrm{KAF}}=\\widehat{\\mathrm{FCA}}\\left(=45^{\\circ}\\right))%<br>%(\\hat{\\mathrm{F}})% : góc chung<br>Do đó %(\\triangle \\mathrm{AFK} \\sim \\triangle \\mathrm{CAF}(\\mathrm{g}-\\mathrm{g}))%<br>%(\\Rightarrow \\frac{\\mathrm{AF}}{\\mathrm{CF}}=\\frac{\\mathrm{KF}}{\\mathrm{AF}} \\Rightarrow \\mathrm{AF}^{2}=\\mathrm{KF} . \\mathrm{CF})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f168caf08e248084ed703526610dd90a.png\" srcset=\"https://docdn.giainhanh.io/media/test/f0cc58486a77dcf1a2285f0f323bd2ec.png 136w\" width=\"136\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Chu vi tam giác %(EKC)% không đổi khi %(E)% thay đổi trên %(BC )%.",
+        "question_images": [],
+        "solution": "Đặt %(a)% là độ dài cạnh hình vuông %(\\mathrm{ABCD} \\Rightarrow)% %(a)% không đổi<br>%(\\triangle \\mathrm{ABE}=\\triangle \\mathrm{ADF})% (theo %(a)%) %(\\Rightarrow \\mathrm{BE}=\\mathrm{DF})%<br>Ta có: %(EGFK)% là hình thoi (theo %(a)%) nên %(\\mathrm{KE}=\\mathrm{KF}=\\mathrm{KD}+\\mathrm{DF}=\\mathrm{KD}+\\mathrm{BE})%<br>Chu vi %(\\Delta \\mathrm{EKC})% là: %(\\mathrm{C}_{\\mathrm{EKC}}=\\mathrm{KC}+\\mathrm{EK}+\\mathrm{EC}=\\mathrm{KC}+\\mathrm{KD}+\\mathrm{BE}+\\mathrm{CE}=\\mathrm{CD}+\\mathrm{BE}=2 \\mathrm{a})% không đổi.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/08543842697a26126d77f8586d30b258.png\" srcset=\"https://docdn.giainhanh.io/media/test/27e2c51c78a4ea0b869d75da9560fa9f.png 136w\" width=\"136\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 10: ",
+        "point": 1.0,
+        "content": "Cho tam giác %(ABC)% vuông tại %(A)% có %(\\mathrm{AB}=\\mathrm{c}, \\mathrm{AC}=\\mathrm{b})% và đường phân giác của góc %(A)% là %(\\mathrm{AD}=\\mathrm{d})%. Chứng minh rằng: %(\\frac{1}{b}+\\frac{1}{c}=\\frac{\\sqrt{2}}{d})%.",
+        "question_images": [],
+        "solution": "Kẻ %(\\mathrm{DE} \\perp \\mathrm{AB}(\\mathrm{E} \\in \\mathrm{AB}) ; \\mathrm{DF} \\perp \\mathrm{AC}(\\mathrm{F} \\in \\mathrm{AC}))%<br>Dễ thấy %(A E D F)% là hình chữ nhật<br>Mà %(AD)% là tia phân giác %(\\widehat{\\mathrm{EAF}})%<br>Nên %(A E D F)% là hình vuông<br>Biến đổi qua Pi-ta-go ta được: %(\\mathrm{DE}=\\mathrm{DF}=\\frac{\\mathrm{AD}}{\\sqrt{2}})%<br>Vì %(\\mathrm{AB} / / \\mathrm{DF})% (cùng vuông góc với %(AC)%)<br>%(\\Rightarrow \\triangle \\mathrm{DFC} \\sim \\triangle \\mathrm{BAC})% (tính chất đồng dạng)<br>%(\\Rightarrow \\frac{\\mathrm{DF}}{\\mathrm{AB}}=\\frac{\\mathrm{CD}}{\\mathrm{BC}}(1))%<br>Tương tự chứng minh %(\\frac{\\mathrm{DE}}{\\mathrm{AC}}=\\frac{\\mathrm{BD}}{\\mathrm{CD}}(2))%<br>Cộng hai vế tương ứng của %((1))% và %((2))% ta được: %(\\frac{\\mathrm{DF}}{\\mathrm{AB}}+\\frac{\\mathrm{DE}}{\\mathrm{AC}}=\\frac{\\mathrm{CD}+\\mathrm{BD}}{\\mathrm{BC}})%<br>%(\\Rightarrow \\frac{\\frac{\\mathrm{AD}}{\\sqrt{2}}}{\\mathrm{AB}}+\\frac{\\frac{\\mathrm{AD}}{\\sqrt{2}}}{\\mathrm{AC}}=\\frac{\\mathrm{BC}}{\\mathrm{BC}} \\Rightarrow \\frac{\\mathrm{AD}}{\\sqrt{2}}\\left(\\frac{1}{\\mathrm{AB}}+\\frac{1}{\\mathrm{AC}}\\right)=1 \\Rightarrow \\frac{1}{\\mathrm{AB}}+\\frac{1}{\\mathrm{AC}}=\\frac{\\sqrt{2}}{\\mathrm{AD}} \\Rightarrow \\frac{1}{b}+\\frac{1}{c}=\\frac{\\sqrt{2}}{d})% (đpcm)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/83a70f6b2f120e443c2ddeb456d32bfb.png\" srcset=\"https://docdn.giainhanh.io/media/test/2bb124b3fc11b580f06c82f350b5a7e7.png 154w\" width=\"154\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 11: ",
+        "point": 1.0,
+        "content": "Cho các số dương %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% thỏa mãn %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}=1)%. Chứng minh: %(\\frac{\\mathrm{a}}{1+\\mathrm{b}-\\mathrm{a}}+\\frac{\\mathrm{b}}{1+\\mathrm{c}-\\mathrm{b}}+\\frac{\\mathrm{c}}{1+\\mathrm{a}-\\mathrm{c}} \\geq 1)%",
+        "question_images": [],
+        "solution": "Áp dụng hệ quả bất đẳng thức Bu-nhi-a Cốp-xki, ta có:<br>%(\\frac{a}{1+b-a}+\\frac{b}{1+c-b}+\\frac{c}{1+a-c}=\\frac{a}{2 b+c}+\\frac{b}{2 c+a}+\\frac{c}{2 a+b}=\\frac{a^{2}}{2 a b+a c}+\\frac{b^{2}}{2 b c+a b}+\\frac{c^{2}}{2 a c+b c} \\geq \\\\ \\frac{(a+b+c)^{2}}{3(a b+b c+a c)})%<br>Ta chứng minh<br>%(\\begin{array}{l}(a+b+c)^{2} \\geq 3(a b+b c+c a) \\\\ \\Leftrightarrow a^{2}+b^{2}+c^{2}+2 a b+2 b c+2 c a \\geq 3 a b+3 b c+3 c a \\\\ \\Leftrightarrow a^{2}+b^{2}+c^{2}-a b-b c-c a \\geq 0\\end{array})%<br>%(\\Leftrightarrow \\frac{1}{2}\\left[(\\mathrm{a}-\\mathrm{b})^{2}+(\\mathrm{b}-\\mathrm{c})^{2}+(\\mathrm{c}-\\mathrm{a})^{2}\\right] \\geq 0)% (luôn đúng)<br>Vậy %(\\frac{a}{1+b-a}+\\frac{b}{1+c-b}+\\frac{c}{1+a-c} \\geq 1)%<br>Dấu \"=\" xảy ra %(\\Leftrightarrow\\left\\{\\begin{array}{l}a=b=c \\\\ a+b+c=1 \\\\ a, b, c\\gt 0\\end{array} \\Leftrightarrow a=b=c=\\frac{1}{3}\\right.)%.",
+        "question_type": "essay"
+    }
+]

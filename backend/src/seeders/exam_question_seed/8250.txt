@@ -1,0 +1,57 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Tìm số phức liên hợp %(\\bar{z})% của %( z=i(2-i)+(1+i)(3-2 i))%",
+        "question_images": [],
+        "solution": "\\[\\begin{aligned}z & =2 i-i^{2}+3-2 i+3 i-2 i^{2} \\\\& =2 i+1+3-2 i+3 i+2 \\\\& =6+3 i\\end{aligned}\\]<br>Vậy: %(\\bar{z}=6-3 i)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Tìm phần thực, phần ảo, mô-đun của số phức sau: %(z=2 i-\\frac{5-3 i}{1+i})%",
+        "question_images": [],
+        "solution": "\\[\\begin{aligned}z & =2 i-\\frac{(5-3 i)(1-i)}{1+1}=2 i-\\frac{5-5 i-3 i+3 i^{2}}{2} \\\\& =2 i-\\frac{5-5 i-3 i-3}{2}=2 i-\\frac{2-8 i}{2} \\\\& =-1+6 i\\end{aligned}\\]<br>Phần thực: %(-1)%<br>Phần ảo: 6Mô-đun: %(|z|=\\sqrt{(-1)^{2}+6^{2}}=\\sqrt{37})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Tìm số phức %(\\mathrm{z})% thoà mãn: %(|z-(2+i)|=\\sqrt{10})% và %(z \\cdot \\bar{z}=25)%",
+        "question_images": [],
+        "solution": "Giả sử: %(z=a+b i, \\bar{z}=\\mathrm{a}-\\mathrm{bi},(a, b \\in R))%;<br>Ta có:<br>\\[\\begin{array}{l}|z-(2+i)|=\\sqrt{10} \\Leftrightarrow(a-2)^{2}+(b-1)^{2}=10 \\\\Leftrightarrow a^{2}+b^{2}-4 a-2 b-5=0 \\z . \\bar{z}=25 \\Leftrightarrow a^{2}+b^{2}=25 \\\\end{array}\\]<br>Vậy: %(z=3+4 i)% hoặc %(z=5+0 i)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Tìm tập hợp các điểm %(\\mathrm{M})% trong mặt phẳng phức biểu diễn số phức %(\\mathrm{z})% thỏa mãn điều kiện:<br>\\[|2 z+i|=|z-\\bar{z}|\\]",
+        "question_images": [],
+        "solution": "Giả sử: %(z=x+y i,(x, y \\in R) ;)%<br>Ta có:<br>\\[\\begin{aligned}& |2 \\mathrm{z}+\\mathrm{i}|=|\\mathrm{z}-\\overline{\\mathrm{z}}| \\Leftrightarrow|2 x+2 y i+i|=|x+y i-(x-y i)| \\\\Leftrightarrow & |2 x+(2 y+1) i|=|2 y i| \\\\Leftrightarrow & 4 x^{2}+(2 y+1)^{2}=4 y^{2} \\\\Leftrightarrow & 4 x^{2}+4 y^{2}+4 y+1=4 y^{2} \\Leftrightarrow 4 x^{2}+4 y+1=0 \\Leftrightarrow y=-x^{2}-\\frac{1}{4}\\end{aligned}\\]<br>Vậy: Tập hợp các điểm %(\\mathrm{M})% trong mặt phẳng biểu diễn số phức %(\\mathrm{z})% là parabol %((P): y=-x^{2}-\\frac{1}{4})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Giải các phương trình sau trên tập hợp số phức %(\\mathrm{C})% :",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) %(z^{2}-4 z+5=0)%",
+        "question_images": [],
+        "solution": "\\[\\text {  } \\begin{aligned}& z^{2}-4 z+5=0 \\\\Delta & =16-20=-4 \\\\& =4 i^{2}\\end{aligned}\\]<br>Phương trình có 2 nghiệm: %(z=2+i, z=2-i)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) %(z^{3}-1=0)%",
+        "question_images": [],
+        "solution": "%(z^{3}-1=0)%<br>%(\\Leftrightarrow\\left[\\begin{array}{l}z=1 \\z^{2}+z+1=0(*)\\end{array}\\right.)%<br>Giải( %({ }^{*})% ): %(\\Delta=1-4=-3=3 i^{2})%<br>Phương trình %(\\left({ }^{*}\\right))% có 2 nghiệm:<br>\\[z=-\\frac{1}{2}+\\frac{\\sqrt{3} i}{2}, \\quad z=-\\frac{1}{2}-\\frac{\\sqrt{3} i}{2}\\]<br>Vậy, phương trình có 3 nghiệm:<br>\\[z=1, \\quad z=-\\frac{1}{2}+\\frac{\\sqrt{3} i}{2}, \\quad z=-\\frac{1}{2}-\\frac{\\sqrt{3} i}{2}\\]",
+        "question_type": "essay"
+    }
+]

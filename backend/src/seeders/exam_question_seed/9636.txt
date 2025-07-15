@@ -1,0 +1,82 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Phân tích đa thức thành nhân tử : %(A=x^{4}-13 x^{2} y^{2}+4 y^{4})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=x^{4}-13 x^{2} y^{2}+4 y^{4}=\\left(x^{4}-4 x^{2} y^{2}+4 y^{4}\\right)-9 x^{2} y^{2} \\\\ =\\left(x^{2}+2 y^{2}\\right)^{2}-(3 x y)^{2}=\\left(x^{2}+2 y^{2}-3 x y\\right)\\left(x^{2}+2 y^{2}+3 x y\\right)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Rút gọn biểu thức %(B=\\frac{a^{4}-a^{5}+a-1}{a^{4}-a^{3}+2 a^{2}-a+1})%",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{l}B=\\frac{a^{4}-a^{5}+a-1}{a^{4}-a^{3}+2 a^{2}-a+1}=\\frac{-a^{4}(-1+a)+a-1}{\\left(a^{4}-a^{3}+a^{2}\\right)+\\left(a^{2}-a+1\\right)} \\\\=\\frac{(a-1)\\left(1-a^{2}\\right)\\left(1+a^{2}\\right)}{\\left(a^{2}+1\\right)\\left(a^{2}-a+1\\right)}=\\frac{-a^{3}+a^{2}+a-1}{a^{2}-a+1}\\end{array}\\]<br>Vậy %(B=\\frac{-a^{3}+a^{2}+a-1}{a^{2}-a+1})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Cho các số %(a, b, x, y)% là các số thực thỏa mãn %(x^{2}+y^{2}=1)% và %(\\frac{x^{4}}{a}+\\frac{y^{4}}{b}=\\frac{1}{a+b})% Chứng minh rằng %(\\frac{x^{6}}{a^{3}}+\\frac{y^{6}}{b^{3}}=\\frac{2}{(a+b)^{3}})%",
+        "question_images": [],
+        "solution": "Từ giả thiết %(\\frac{x^{4}}{a}+\\frac{y^{4}}{b}=\\frac{1}{a+b})%<br>\\[\\begin{array}{l}\\Rightarrow\\left\\{\\begin{array}{l}a b \\neq 0 ; a+b \\neq 0 \\\\frac{b x^{4}+a y^{4}}{a b}=\\frac{1}{a+b}\\end{array} \\Rightarrow(a+b)\\left(b x^{4}+a y^{4}\\right)=a b\\right. \\\\Leftrightarrow a^{2} y^{4}+b^{2} x^{4}+a b x^{4}+a b y^{4}=a b \\\\Leftrightarrow\\left\\{\\begin{array}{l}a^{2} y^{4}+b^{2} x^{4}+a b\\left(x^{4}+y^{4}-1\\right)=0 \\x^{2}+y^{2}=1 \\Rightarrow\\left(x^{2}+y^{2}\\right)^{2}=1 \\Leftrightarrow x^{4}+y^{4}+2 x^{2} y^{2}=1\\end{array}\\right. \\\\Rightarrow a^{2} y^{4}+b^{2} x^{4}-2 a b x^{2} y^{2}=0 \\Leftrightarrow\\left(a y^{2}-b x^{2}\\right)^{2}=0 \\Leftrightarrow a y^{2}=b x^{2} \\Leftrightarrow \\frac{x^{2}}{a}=\\frac{y^{2}}{b}\\end{array}\\]<br>Áp dung tính chất dãy tỉ số bằng nhau, ta có :<br>%(\\begin{array}{l}\\frac{x^{2}}{a}=\\frac{y^{2}}{b}=\\frac{x^{2}+y^{2}}{a+b}=\\frac{1}{a+b}\\left(d o x^{2}+y^{2}=1\\right) \\\\ \\Rightarrow \\frac{x^{6}}{a^{3}}=\\frac{y^{6}}{b^{3}}=\\frac{1}{(a+b)^{3}} \\Rightarrow \\frac{x^{6}}{a^{3}}+\\frac{y^{6}}{b^{3}}=\\frac{2}{(a+b)^{3}}(d f c m)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Tìm các số tự nhiên %(x, y, z(x\\gt y>z))% sao cho %(x y z-x y-y z-z x+x+y+z=2020)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}x y z-x y-y z-z x+x+y+z=2020 \\\\Leftrightarrow(x y z-x y)-(y z-y)-(z x-x)+z-1=2019 \\\\Leftrightarrow(z-1)(x y-y-x+1)=2019 \\Leftrightarrow(x-1)(y-1)(z-1)=2019(1)\\end{array}\\]<br>Mà %(x, y, z \\in N, x\\gt y>z \\Rightarrow x-1>y-1>z-1 \\geq-1)% (2)<br>Vậy %((x ; y ; z)=(674 ; 4 ; 2))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Giải phương trình %(\\frac{137-x}{17}+\\frac{150-x}{15}+\\frac{159-x}{13}+\\frac{164-x}{11}=10)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\frac{137-x}{17}+\\frac{150-x}{15}+\\frac{159-x}{13}+\\frac{164-x}{11}=10 \\\\Leftrightarrow\\left(\\frac{137-x}{17}-1\\right)+\\left(\\frac{150-x}{15}-2\\right)+\\left(\\frac{159-x}{13}-3\\right)+\\left(\\frac{164-x}{11}-4\\right)=0 \\\\Leftrightarrow \\frac{120-x}{17}+\\frac{120-x}{15}+\\frac{120-x}{13}+\\frac{120-x}{11}=0 \\\\Leftrightarrow(120-x)\\left(\\frac{1}{17}+\\frac{1}{15}+\\frac{1}{13}+\\frac{1}{11}\\right)=0 \\Leftrightarrow x=120\\end{array}\\]<br>Vậy phương trình đã cho có tập nghiệm %(S=\\{120\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.5,
+        "content": "Một người đi xe đạp từ A đến B đúng giờ quy định. Sau khi đi 10 km đầu trong 12 phút, anh ta tính ra rằng nếu tiếp tục đi với như vậy thì sẽ đến sớm hơn dự định là 24 phút. Còn nếu giảm vận tốc đi %(5 \\mathrm{~km} / \\mathrm{h})% thì anh ta vẫn đến B sớm hơn 10 phút so với giờ dự định. Hãy tính khoảng cách AB",
+        "question_images": [],
+        "solution": "Đổi %(12 '=\\frac{1}{5} h, 24^{\\prime}=\\frac{2}{5} h, 10^{\\prime}=\\frac{1}{6} h)%<br>Gọi khoảng cách từ A đến B là %(x(k m)(x\\gt 10))%. Khi đó :<br>Vận tốc xe đi 10 km đầu trong 12 phút là : %(10: \\frac{1}{5}=50(\\mathrm{~km} / \\mathrm{h}))%<br>Quãng đường còn lại xe đi với vận tốc giữ nguyên là %((x-10) \\mathrm{km})%<br>Thời gian xe đi hết quãng đường còn lại khi giữ nguyên vận tốc là : %(\\frac{x-10}{50}(h))%<br>Thời gian xe đi hết quãng đường còn lại khi giảm vận tốc %(5 \\mathrm{~km} / \\mathrm{h})% là : %(\\frac{x-10}{50-5}=\\frac{x-10}{45}(h))%<br>Theo bài ra ta có phương trình : %(\\frac{x-10}{45}-\\frac{x-10}{50}=\\frac{2}{5}-\\frac{1}{6})%<br>\\[\\begin{array}{l}\\Rightarrow \\frac{x-10}{45}-\\frac{x-10}{50}=\\frac{7}{30} \\Leftrightarrow(x-10)\\left(\\frac{1}{45}-\\frac{1}{50}\\right)=\\frac{7}{30} \\\\Rightarrow x=\\frac{\\frac{7}{30}}{\\frac{1}{45}-\\frac{1}{50}}+10=115(\\mathrm{tm})\\end{array}\\]<br>Vậy quãng đường AB dài 115 km",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.5,
+        "content": "Cho tam giác %(A B C)% vuông tại A , có đường cao AH . Gọi D và E lần lượt là hình chiếu của H trên AB và AC . Đường thẳng vuông góc với DE tại E cắt BC tại K . Chứng minh %(A D \\cdot A B=A E \\cdot A C)% và K là trung điểm của %(H C)%",
+        "question_images": [],
+        "solution": "Xét %(\\triangle A D H \\& \\triangle A H B:\\left\\{\\begin{array}{l}\\angle A D H=\\angle A H B=90^{\\circ} \\\\ \\angle D A H \\text { chung }\\end{array} \\Rightarrow \\triangle A D H \\sim \\triangle A H B\\right.)% (g.g)<br>%(\\Rightarrow \\frac{A D}{A H}=\\frac{A H}{A B} \\Rightarrow A H^{2}=A D \\cdot A B(1))%.<br>Chứng minh tương tự : %(A H^{2}=A E \\cdot A C(2))%<br>Từ (1) và (2) suy ra %(A D \\cdot A B=A E \\cdot A C\\left(=A H^{2}\\right) \\Rightarrow \\frac{A D}{A C}=\\frac{A E}{A B})%<br>Xét %(\\triangle A D E \\& \\triangle A C B)% co':<br>%(\\angle D A E)% chung, %(\\frac{A D}{A C}=\\frac{A E}{A B}(\\mathrm{cmt}) \\Rightarrow \\triangle A D E \\sim \\triangle A C B()% c.g.c) %(\\Rightarrow \\angle A D E=\\angle C)% (hai góc tương ứng)<br>Có : %(\\left.\\begin{array}{l}H E \\perp A C \\\\ A B \\perp A C\\end{array}\\right\\} \\Rightarrow H E / / A B \\Rightarrow \\angle A D E=\\angle D E H)% (so le trong)<br>Mà %(\\angle D E H+\\angle H E K=\\angle D E K=90^{\\circ}, \\angle E H K+\\angle C=90^{\\circ}(\\triangle H E C)% vuông tại E)<br>%(\\angle A D E=\\angle C(c m t) \\Rightarrow \\angle H E K=\\angle E H K \\Rightarrow \\triangle K H E)% cân tại K suy ra %(\\mathrm{KH}=\\mathrm{KE})% (3)<br>Tương tự %(\\angle K E C=\\angle C \\Rightarrow \\triangle K E C)% cân tại K nên %(\\mathrm{KC}=\\mathrm{KE})% (4)<br>Từ (3) và (4) suy ra %(\\mathrm{KH}=\\mathrm{KC}(=\\mathrm{KE}))%<br>Suy ra K là trung điểm của HC<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5cee4b22b63e712427daa1a272bd44b5.png\" srcset=\"https://docdn.giainhanh.io/media/test/8db5fa9e586a4203266cc31a3ea0b118.png 245w, https://docdn.giainhanh.io/media/test/e651144ee260ca33576a21148ba4e333.png 500w, https://docdn.giainhanh.io/media/test/6d424d98ba75c721a46a9dee7b16665e.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.5,
+        "content": "Cho tam giác đều ABC . Đường thẳng song song với AC cắt AB và BC lần lượt tại D và E . Gọi M là trọng tâm của tam giác %(B D E)% và N là trung điểm của AE . Chứng minh %(\\angle N M C=60^{\\circ})%",
+        "question_images": [],
+        "solution": "Ta có %(\\triangle A B C)% đều (gt) %(\\Rightarrow\\left\\{\\begin{array}{l}A B=B C \\\\ \\angle A B C=\\angle B A C=\\angle B C A=60^{\\circ}\\end{array}\\right.)%,<br>Có %(D E / / A C \\Rightarrow\\left\\{\\begin{array}{l}\\angle B D E=\\angle B A C \\\\ \\angle B E D=\\angle B C A\\end{array} \\Rightarrow \\angle B E D=\\angle B D E=\\angle D B E=60^{\\circ} \\Rightarrow \\triangle B D E\\right.)% đều<br>Mà M là trọng tâm của %(\\triangle B D E)% nên M đồng thời là trực tâm, tâm đường tròn nội tiếp, ngoại tiếp của %(\\triangle B D E)%<br>Gọi H là trung điểm của DE . Khi đó HN là đường trung bình của %(\\triangle A D E)%<br>\\[\\Rightarrow\\left\\{\\begin{array} { l } { H N / / A D } \\\\{ H N = \\frac { 1 } { 2 } A D }\\end{array} \\Rightarrow \\left\\{\\begin{array}{l}\\angle N H D=\\angle H D B=60^{\\circ}(s l t) \\\\frac{H N}{A D}=\\frac{1}{2}\\end{array}\\right.\\right.\\]<br>M là trọng tâm của %(\\triangle B D E, H)% là trung điểm của %(\\mathrm{DE} \\Rightarrow B M=\\frac{2}{3} B H \\Rightarrow \\frac{M H}{B H}=\\frac{1}{2})%<br>Mà M là tâm đường tròn ngoại tiếp tam giác BDE nên %(\\frac{M H}{M E}=\\frac{M H}{M D}=\\frac{M H}{M B}=\\frac{1}{2})%<br>Lại có M là tâm đường tròn ngoại tiếp %(\\triangle B D E)% nên : %(\\left\\{\\begin{array}{l}\\angle B D M=\\frac{1}{2} \\angle B D E=30^{\\circ} \\\\ \\angle A B M=\\angle C B M\\end{array}\\right.)%.<br>Do đó :<br>\\[\\begin{array}{l}\\angle M D A=\\angle B D A-\\angle B D M=180^{\\circ}-30^{\\circ}=150^{\\circ} \\\\angle M H N=\\angle M H D+\\angle D H N=90^{\\circ}+60^{\\circ}=150^{\\circ} \\Rightarrow \\angle M D A=\\angle M H N \\\\text { Xét } \\triangle M D A \\& \\triangle M H N:\\left\\{\\begin{array}{l}\\angle M D A=\\angle M H N \\\\frac{M H}{M D}=\\frac{N H}{D A}\\end{array} \\Rightarrow \\triangle M D A \\sim \\triangle M H N\\right. \\text { (c.g.c) }\\end{array}\\]<br>\\[\\Rightarrow \\frac{M N}{M A}=\\frac{M H}{M D}=\\frac{N H}{D A}(1)\\]<br>Ta chứng minh được : %(\\triangle M B A=\\triangle M B C)% (c.g.c)<br>%(\\Leftrightarrow M A=M C)% (hai cạnh tương ứng) (2)<br>Lại có %(\\left\\{\\begin{array}{l}A B=B C \\\\ B D=B E\\end{array} \\Rightarrow A D=E C(3)\\right.)%<br>Từ (1), (2), (3) suy ra %(\\frac{M N}{M C}=\\frac{M H}{M E}=\\frac{H N}{E C}\\left(=\\frac{1}{2}\\right) \\Rightarrow \\triangle M N H \\sim \\triangle M C E)% (c.c.c)<br>\\[\\Rightarrow \\angle N M H=\\angle E M C \\Rightarrow \\angle N M C=\\angle N H M+\\angle H M C=\\angle E M C+\\angle H M C=\\angle H M E\\]<br>Mặt khác , %(\\triangle M H E)% vuông tại H (do %(M H \\perp D E)% )<br>Và %(\\angle M E H=\\frac{1}{2} \\angle B E H=\\frac{1}{2} \\cdot 60^{\\circ}=30^{\\circ}(E M)% là tia phân giác của %(\\left.\\angle B E D)\\right))%<br>Suy ra %(\\angle N M C=\\angle H M E=60^{\\circ})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 2.0,
+        "content": "Cho %(f(x)=a x^{4}+b x^{3}+c x^{2}+d x+e(a, b, c, d, e \\in Z))%. Chứng minh rằng %(f(x))% %(\\vdots)%5 với moi %(x \\in Z)% khi và chỉ khi các hệ số %(a, b, c, d, e)% đều chia hết cho 5",
+        "question_images": [],
+        "solution": "Th1: Nếu a,b,c,d,e: %(\\vdots5)% thì %(a x^{4}\\vdots 5, b x^{3}\\vdots 5, c x^{2}\\vdots 5, d x\\vdots 5, e\\vdots5 \\forall x)%<br>\\[\\Rightarrow f(x)=a x^{4}+b x^{3}+c x^{2}+d x+e\\vdots 5 \\forall x\\]<br>Th2: Ngược lại %(f(x))% %(\\vdots)%5 với moi x thì %(a, b, c, d, e\\vdots 5)%Ta có :<br>\\[f(x)\\vdots 5 \\forall x \\Rightarrow\\left\\{\\begin{array} { l } { f ( 0 ) \\vdots 5 } \\\\{ f ( 1 ) \\vdots 5 } \\\\{ f ( - 1 ) \\vdots5 } \\\\{ f ( 2 ) \\vdots 5 } \\\\{ f ( - 2 ) \\vdots 5 }\\end{array} \\Rightarrow \\left\\{\\begin{array} { l } { e \\vdots 5 } \\\\{ a + b + c + d + e v 5 } \\\\{ a - b + c - d + e \\vdots5 } \\\\{ 1 6 a + 8 b + 4 c + 2 d + e \\vdots 5 } \\\\{ 1 6 a - 8 b + 4 c - 2 d + e \\vdots5 }\\end{array} \\Rightarrow \\left\\{\\begin{array} { l } { e \\vdots 5 } \\\\{ 2 ( a + c ) \\vdots 5 } \\\\{ 2 ( b + d ) \\vdots 5 } \\\\{ 8 ( 4 a + c ) \\vdots 5 } \\\\{ 4 ( 4 b + d ) \\vdots 5 }\\end{array} \\Rightarrow \\left\\{\\begin{array} { l } { e \\vdots 5 } \\\\{ a + c \\vdots 5 } \\\\{ b + d \\vdots 5 } \\\\{ 4 a + c \\vdots 5 } \\\\{ 4 b + d \\vdots 5 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}a\\vdots 5 \\b\\vdots 5 \\c \\vdots 5 \\d \\vdots 5 \\e \\vdots 5\\end{array}\\right.\\right.\\right.\\right.\\right.\\]<br>Vậy %(f(x)=a x^{4}+b x^{3}+c x^{2}+d x+e\\vdots 5 \\forall x \\in Z \\Leftrightarrow a, b, c, d, e\\vdots5)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "10 ",
+        "point": 2.0,
+        "content": "Cho 5 đoạn thẳng có độ dài từ 10 cm đến 45 cm . Chứng minh rằng luôn chọn được 3 đoạn thẳng trong 5 đoạn thẳng đã cho lập thành ba cạnh của một tam giác",
+        "question_images": [],
+        "solution": "Giả sử ngược lại, tồn tại 5 đoạn thẳng a,b,c,d,e có độ dài từ 10 cm đến 45 cm sao cho 3 đoạn thẳng bất kỳ trong 5 đoạn đó đều không lập thành 3 cạnh của một tam giác.<br>Không mất tính tổng quát, giả sử %(10 \\leq a \\leq b \\leq c \\leq d \\leq e \\leq 45)%<br>Khi đó ta có: %(a+b \\leq c, b+c \\leq d, c+d \\leq e)%<br>Từ %(10 \\leq a \\leq b \\Rightarrow c \\geq a+b \\geq 10+10=20 \\Rightarrow d \\geq c+b \\geq 20+10=30)%%(\\Rightarrow e \\geq c+d \\geq 20+30=50)% trái với giả thiết %(e \\leq 45)%<br>Vậy trong 5 đoạn thẳng có độ dài từ 10 đến 45 luôn chọn được 3 trong 5 đoạn thẳng đã cho lập thành 3 cạnh của một tam giác.",
+        "question_type": "essay"
+    }
+]

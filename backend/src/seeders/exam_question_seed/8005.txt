@@ -1,0 +1,73 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 2.5,
+        "content": "Giải phương trình %(3 \\tan 2 x+2 \\cos 2 x=\\frac{3}{\\cos 2 x}+2 \\frac{\\sin x-\\cos x}{\\sin x+\\cos x})%.",
+        "question_images": [],
+        "solution": "ĐK %(\\left\\{\\begin{array}{l}\\cos 2 x \\neq 0 \\\\ \\cos x+\\sin x \\neq 0\\end{array} \\Leftrightarrow \\cos 2 x \\neq 0\\right.)%<br>Khi đó phương trình đã cho trở thành:<br>\\[\\begin{array}{l}\\frac{3 \\sin 2 x-3}{\\cos 2 x}-2 \\frac{\\sin x-\\cos x}{\\sin x+\\cos x}+2 \\cos 2 x=0 \\Leftrightarrow \\frac{3 \\sin 2 x-3}{(\\cos x-\\sin x)(\\cos x+\\sin x)}+2 \\frac{\\cos x-\\sin x}{\\sin x+\\cos x}+2 \\cos 2 x=0 \\\\3 \\sin 2 x-3+2(\\cos x-\\sin x)^{2}+2 \\cos ^{2} 2 x=0 \\Leftrightarrow 3 \\sin 2 x-3+2(1-\\sin 2 x)+2\\left(1-\\sin ^{2} 2 x\\right)=0 \\\\Leftrightarrow-2 \\sin ^{2} 2 x+\\sin 2 x+1=0 \\Leftrightarrow \\sin 2 x=1 ; \\sin 2 x=-\\frac{1}{2}\\end{array}\\]<br>+) %(\\sin 2 x=1 \\Rightarrow \\cos 2 x=0)% không thỏa mãn ĐK<br>+ ) %(\\sin 2 x=-\\frac{1}{2})% (thỏa mãn %(\\mathrm{OK})%)<br>%(\\Leftrightarrow\\left[\\begin{array}{l}2 x=-\\frac{\\pi}{6}+k 2 \\pi \\\\ 2 x=\\pi+\\frac{\\pi}{6}+k 2 \\pi\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=-\\frac{\\pi}{12}+k \\pi \\\\ x=\\frac{7 \\pi}{12}+k \\pi\\end{array} \\quad(k \\in \\mathbb{Z})\\right.\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.5,
+        "content": "Tính giới hạn %(\\mathrm{L}=\\lim _{x \\rightarrow 0} \\frac{\\left(x^{2}+2017\\right) \\sqrt[5]{1-5 x}-2017}{x})%.",
+        "question_images": [],
+        "solution": "%(\\mathrm{I}=\\lim _{x \\rightarrow 0} \\frac{\\left(x^{2}+2017\\right) \\sqrt[5]{1-5 x}-2017}{x}=\\lim _{x \\rightarrow 0}\\left[x \\sqrt[5]{1-5 x}+\\frac{2017(\\sqrt[5]{1-5 x}-1)}{x}\\right])%<br>Ta có: %(\\lim _{x \\rightarrow 0} x \\sqrt[5]{1-5 x}=0)%<br>\\[\\begin{array}{l}\\lim _{x \\rightarrow 0} \\frac{2017(\\sqrt[5]{1-5 x}-1)}{x}=\\lim _{x \\rightarrow 0} \\frac{2017(-5 x)}{\\left(\\sqrt[5]{(1-5 x)^{4}}+\\sqrt[5]{(1-5 x)^{3}}+\\sqrt[5]{(1-5 x)^{2}}+\\sqrt[5]{(1-5 x)}+1\\right) x} \\\\=\\lim _{x \\rightarrow 0} \\frac{-5.2017}{\\left(\\sqrt[5]{(1-5 x)^{4}}+\\sqrt[5]{(1-5 x)^{3}}+\\sqrt[5]{(1-5 x)^{2}}+\\sqrt[5]{(1-5 x)}+1\\right)}=-2017\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.5,
+        "content": "Năm 2018 là năm kỷ niệm 50 năm Chiến thắng Đồng Lộc (24/7/1968-24/7/2018), trường học %(\\mathrm{X})% cho học sinh trong các đội tuyển học sinh giỏi Toán khối 10 , khối 11 của trường vể tham quan khu di tích Ngã ba Đồng lộc. Biết rằng đội tuyển Toán khối 10 có 4 em gồm 2 nam, 2 nữ; đội tuyển Toán khối 11 có 4 em gồm 3 nam, 1 nữ. Trong đợt tham quan thứ nhất, trường chọn 3 học sinh với yêu cầu có cả đội tuyển 10, cả đội tuyển 11; có cả nam và cả nữ. Hỏi có bao nhiêu cách chọn.",
+        "question_images": [],
+        "solution": "Ta xét các trường hợp<br>TH1: 2 học sinh khối 10, 1 học sinh khối 11<br>%(\\mathrm{KN} 1: 2)% nam khối 10,1 nữ khối 11 có %(C_{2}^{2} \\cdot C_{1}^{1}=1)% cách<br>%(KN2: 2)% nữ khối 10,1 nam khối 11 có %(C_{2}^{2} \\cdot C_{3}^{1}=3)% cách<br>%(\\mathrm{KN} 3: 1)% nữ và 1 nam khối 10,1 học sinh khối 11 có %(C_{2}^{1} \\cdot C_{2}^{1} \\cdot C_{4}^{1}=16)% cách<br>Vậy TH1 có 20 cách chọnTH2: 2 học sinh khối 11, 1 học sinh khối 10<br>%(\\mathrm{KN} 1: 2)% nam khối 11,1 nữ khối 10 có %(C_{3}^{2} \\cdot C_{2}^{1}=6)% cách<br>%(\\mathrm{KN} 2)% : 1 nữ và 1 nam khối 11,1 học sinh khối 10 có %(C_{3}^{1} \\cdot C_{1}^{1} \\cdot C_{4}^{1}=12)% cách<br>Vậy TH2 có 18 cách chọn<br>Kết hợp hai trường hợp ta thấy có 38 cách chọn",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 2.5,
+        "content": "Cho %(n)% là số tự nhiên thỏa mãn %(C_{2017}^{0}+3^{2} C_{2017}^{2}+\\ldots .+3^{2016} C_{2017}^{2016}=2^{n}\\left(2^{n+1}-1\\right))%. Tìm hệ số của số hạng chứa %(x^{2016})% trong khai triển %((x+2)^{n}\\left(x^{2}+x+4\\right))%.",
+        "question_images": [],
+        "solution": "Ta có %(C_{2017}^{0}+3 C_{2017}^{1}+3^{2} C_{2017}^{2}+\\ldots .+3^{2016} C_{2017}^{2016}+3^{2017} C_{2017}^{2017}=(1+3)^{2017}=4^{2017})%<br>\\[C_{2017}^{0}-3 C_{2017}^{1}+3^{2} C_{2017}^{2}+\\ldots .+3^{2016} C_{2017}^{2016}-3^{2017} C_{2017}^{2017}=(1-3)^{2017}=-2^{2017}\\]<br>Cộng vế theo vế hai đẳng thức trên ta có<br>\\[C_{2017}^{0}+3^{2} C_{2017}^{2}+\\ldots .+3^{2016} C_{2017}^{2016}=\\frac{1}{2}\\left(4^{2017}-2^{2017}\\right)=2^{2016}\\left(2^{2017}-1\\right)\\]<br>Từ giả thiết suy ra %(C_{2017}^{0}+3^{2} C_{2017}^{2}+\\ldots .+3^{2016} C_{2017}^{2016}=2^{n}\\left(2^{n+1}-1\\right))%<br>\\[\\begin{array}{l}2^{n}\\left(2^{n+1}-1\\right)=2^{2016}\\left(2^{2017}-1\\right) \\text { hay } n=2016 \\\\(x+2)^{n}\\left(x^{2}+x+4\\right)=(x+2)^{n+2}-3 x(x+2)^{n}=(x+2)^{2018}-3 x(x+2)^{2016}\\end{array}\\]<br>Xét khai triển %((x+2)^{2018})%, số hạng chứa %(x^{2016})% là %(C_{2018}^{2} 2^{2} x^{2016})%<br>Xét khai triển %((x+2)^{2016})%, số hạng chứa %(x^{2015})% là %(C_{2016}^{1} 2 x^{2015})%<br>Số hạng chứa %(x^{2016})% trong khai triển %((x+2)^{n}\\left(x^{2}+x+4\\right))% là %(C_{2018}^{2} 2^{2} x^{2016}-3 C_{2016}^{1} 2 x^{2016})%<br>Do đó hệ số cần tìm là : %(4 C_{2018}^{2}-6 C_{2016}^{1})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5:",
+        "group_content": "Cho hình chóp %(S . A B C)% có đáy là tam giác đều cạnh %(2 a, H)% là trung điểm của %(A B)%, %(S H \\perp(A B C), S H=x)%. Gọi %(M)% là hình chiếu vuông góc của %(H)% lên đường thẳng %(A C)% và %(N)% là điểm thỏa mãn %(\\overrightarrow{M H}=\\overrightarrow{H N})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.5,
+        "content": "a) Khi %(x=\\frac{a \\sqrt{3}}{2})%, chứng minh đường thẳng %(S N)% vuông góc với mặt phẳng %((S A C))%.",
+        "question_images": [],
+        "solution": "Ta có %(A C \\perp H M, A C \\perp S H \\Rightarrow A C \\perp S N~~~(1))%<br>Từ giả thiết ta có %(\\mathrm{H})% là trung điểm của %(\\mathrm{MN})%<br>Gọi %(\\mathrm{K})% là trung điểm của %(\\mathrm{AC})%, ta có %(H M=\\frac{1}{2} B K=\\frac{a \\sqrt{3}}{2})%<br>Do đó ta có %(H M=H N=S H=\\frac{a \\sqrt{3}}{2} \\Rightarrow \\Delta N S M)% vuông tại %(\\mathrm{S})%<br>Suy ra %(S M \\perp S N~~~(2))%<br>Từ (1) và (2) ta có %(S N \\perp(S A C))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.5,
+        "content": "b) Tìm %(x)% theo %(a)% để góc giữa đường thẳng %(S B)% và mặt phẳng %((S A C))% bằng %(45^{\\circ})%.",
+        "question_images": [],
+        "solution": "Gọi I là hình chiếu vuông góc của %(\\mathrm{H})% lên %(\\mathrm{SM})%, ta có %(H I \\perp(S A C))%<br>Trong mặt %((\\mathrm{ABI}))% kẻ đường thẳng qua %(\\mathrm{B})%, song song với %(\\mathrm{HI})% cắt %(\\mathrm{AI})% tại %(\\mathrm{P})%.<br>Ta có %(B P \\perp(S A C))%<br>Gọi %(\\varphi)% là góc giữa %(\\mathrm{SB})% và %((\\mathrm{SAC}))%, ta có %(\\varphi=\\angle \\mathrm{BSP})%.<br>Tam giác %(\\mathrm{SHM})% vuông tại %(\\mathrm{H})% và %(\\mathrm{HI})% là đường cao nên<br>\\[\\begin{array}{l}\\mathrm{HI}=\\frac{\\mathrm{SH} \\cdot \\mathrm{HM}}{\\mathrm{SM}}=\\frac{\\sqrt{3} \\mathrm{ax}}{\\sqrt{3 \\mathrm{a}^{2}+4 \\mathrm{x}^{2}}} \\Rightarrow \\mathrm{BP}=\\frac{2 \\sqrt{3} \\mathrm{ax}}{\\sqrt{3 \\mathrm{a}^{2}+4 \\mathrm{x}^{2}}} . \\S B=\\sqrt{S H^{2}+H B^{2}}=\\sqrt{x^{2}+a^{2}} \\\\sin \\varphi=\\frac{B P}{S B}=\\frac{2 \\sqrt{3} a x}{\\sqrt{\\left(4 x^{2}+3 a^{2}\\right)\\left(x^{2}+a^{2}\\right)}}\\end{array}\\]<br>Theo giả thiết ta có %(\\frac{2 \\sqrt{3} a x}{\\sqrt{\\left(4 x^{2}+3 a^{2}\\right)\\left(x^{2}+a^{2}\\right)}}=\\frac{\\sqrt{2}}{2} \\Leftrightarrow 24 a^{2} x^{2}=4 x^{4}+3 x^{4}+7 x^{2} a^{2})%<br>\\[\\begin{array}{l}4 x^{4}-17 x^{2} a^{2}+3 x^{4}=0 \\Leftrightarrow x^{2}=\\frac{17 \\pm \\sqrt{241}}{8} a^{2} \\\\Rightarrow \\mathbf{x}=\\mathbf{a} \\sqrt{\\frac{17 \\pm \\sqrt{241}}{8}}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 2.5,
+        "content": "Cho %(a\\gt 1)% và dãy số %(\\left(x_{n}\\right))% xác định như sau:<br>\\[x_{1}=a ; x_{n+1}=\\sqrt{a . x_{n}^{2}+3 x_{n}+2018} \\text { với } n=1,2, \\ldots\\]<br>Tìm %(a)% để %(\\lim \\frac{x_{n+1}}{x_{n}}=2018)%.",
+        "question_images": [],
+        "solution": "Bằng quy nạp ta chứng minh được %(x_{n}\\gt 0 \\forall n)%<br>Vì %(x_{n+1}=\\sqrt{a x_{n}^{2}+3 x_{n}+2018})% và %(a>1)% nên %(x_{n+1}>x_{n} \\forall n)% suy ra %(\\left(x_{n}\\right))% là dãy số tăng<br>Giả sử dãy %(\\left(x_{n}\\right))% bị chặn trên %(\\Rightarrow \\exists \\alpha>1)% để %(\\lim x_{n}=\\alpha)%.<br>Khi đó:<br>%(\\alpha=\\sqrt{a \\cdot \\alpha^{2}+3 \\alpha+2018} \\Leftrightarrow(a-1) \\alpha^{2}+3 \\alpha+2018=0)%, vô lý vì %(a>1)%<br>Vậy %(\\lim x_{n}=+\\infty)% (1)<br>Ta có %(x_{n+1}=\\sqrt{a x_{n}^{2}+3 x_{n}+2018} \\Leftrightarrow \\frac{x_{n+1}}{x_{n}}=\\sqrt{a+\\frac{3}{x_{n}}+\\frac{2018}{x_{n}^{2}}}~~~(2))%<br>Từ (1) và (2) suy ra : %(\\lim \\frac{x_{n+1}}{x_{n}}=\\sqrt{a})%<br>Do đó %(\\sqrt{a}=2018 \\Leftrightarrow a=2018^{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 2.5,
+        "content": "Cho các số thực %(x, y, z)% thỏa mãn %(x^{4}+y^{4}+z^{4}+2 x^{2} y^{2} z^{2}=1)%. Tìm giá trị nhỏ nhất của biểu thức %(P=x^{2}+y^{2}+z^{2}-\\sqrt{2}|x y z|)%.",
+        "question_images": [],
+        "solution": "TH1: Nếu có một số bằng 0 , giả sử là %(z)%, khi đó ta có %(x^{4}+y^{4}=1)% và %(P=x^{2}+y^{2} \\geq \\sqrt{x^{4}+y^{4}}=1)%, có “ %(=)% \" khi một số %(=0)%; một số %(= \\pm 1)%.<br>TH2 : Nếu các số đều khác không.Từ giả thiết suy ra tồn tại %(\\triangle A B C)% nhọn sao cho:<br>\\[\\begin{array}{l}x^{2}=\\cos \\mathrm{A} ; \\quad y^{2}=\\cos \\mathrm{B} ; z^{2}=\\cos \\mathrm{C} ; \\P=\\cos \\mathrm{A}+\\cos \\mathrm{B}+\\cos \\mathrm{C}-\\sqrt{2 \\cos A \\cos B \\cos C}=1+4 \\sin \\frac{A}{2} \\sin \\frac{B}{2} \\sin \\frac{C}{2}-\\sqrt{2 \\cos A \\cos B \\cos C}\\end{array}\\]<br>Ta sẽ chứng minh %(4 \\sin \\frac{A}{2} \\sin \\frac{B}{2} \\sin \\frac{C}{2} \\geq \\sqrt{2 \\cos A \\cos B \\cos C})%<br>Ta có (1) %(\\Leftrightarrow 8 \\sin ^{2} \\frac{A}{2} \\sin ^{2} \\frac{B}{2} \\sin ^{2} \\frac{C}{2} \\geq \\cos A \\cos B \\cos C)%<br>\\[\\begin{array}{l}\\Leftrightarrow \\frac{8 \\sin ^{2} \\frac{A}{2} \\sin ^{2} \\frac{B}{2} \\sin ^{2} \\frac{C}{2}}{\\sin A \\cdot \\sin B \\cdot \\sin C} \\geq \\frac{\\cos A \\cos B \\cos C}{\\sin A \\cdot \\sin B \\cdot \\sin C} \\Leftrightarrow \\cot A \\cdot \\cot B \\cdot \\cot C \\leq \\tan \\frac{A}{2} \\cdot \\tan \\frac{B}{2} \\cdot \\tan \\frac{C}{2} \\\\Leftrightarrow \\tan A \\cdot \\tan B \\cdot \\tan C \\geq \\cot \\frac{A}{2} \\cdot \\cot \\frac{B}{2} \\cdot \\cot \\frac{C}{2} \\Leftrightarrow \\tan A+\\tan B+\\tan C \\geq \\cot \\frac{A}{2}+\\cot \\frac{B}{2}+\\cot \\frac{C}{2}\\end{array}\\]<br>Bất đẳng thức (2) đúng do %(\\tan A+\\tan B \\geq 2 \\cot \\frac{C}{2})% và hai bất đẳng thức tương tự<br>Có dấu \" %(=)% \" khi tam giác đều %(\\Leftrightarrow x^{2}=y^{2}=z^{2}=\\frac{1}{2})%.<br>Suy ra %(P \\geq 1)%, có \" %(=)% \" khi hai số %(=0)%; một số %(= \\pm 1)% hoặc %(x^{2}=y^{2}=z^{2}=\\frac{1}{2})%.<br>Vậy GTNN của P là 1",
+        "question_type": "essay"
+    }
+]

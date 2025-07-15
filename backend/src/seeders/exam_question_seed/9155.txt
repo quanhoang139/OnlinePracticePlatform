@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Rút gọn biểu thức %(A=\\frac{\\sqrt{1-\\sqrt{1-x^{2}}} \\cdot\\left(\\sqrt{(1+x)^{3}}+\\sqrt{(1-x)^{3}}\\right)}{2-\\sqrt{1-x^{2}}})% với %(-1 \\leq x \\leq 1)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l} A=\\frac{\\sqrt{1-\\sqrt{1-x^{2}}} \\cdot(\\sqrt{1+x}+\\sqrt{1-x})\\left(2-\\sqrt{1-x^{2}}\\right)}{2-\\sqrt{1-x^{2}}} \\\\ =\\sqrt{1-\\sqrt{1-x^{2}}} \\cdot(\\sqrt{1+x}+\\sqrt{1-x}) \\\\ = \\sqrt{\\left(1-\\sqrt{1-x^{2}}\\right)(\\sqrt{1+x}+\\sqrt{1-x})^{2}}=\\sqrt{\\left(1-\\sqrt{1-x^{2}}\\right)\\left(2+2 \\sqrt{1-x^{2}}\\right)} \\\\ = \\sqrt{2 x^{2}}=|x| \\sqrt{2} .\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho %(a)% và %(b)% là các số thỏa mãn %(a\\gt b>0)% và %(a^{3}-a^{2} b+a b^{2}-6 b^{3}=0)%. Tính giá trị của biểu thức %(B=\\frac{a^{4}-4 b^{4}}{b^{4}-4 a^{4}})%.",
+        "question_images": [],
+        "solution": "%(a^{3}-a^{2} b+a b^{2}-6 b^{3}=0 \\Leftrightarrow(a-2 b)\\left(a^{2}+a b+3 b^{2}\\right)=0)%<br>Vì %(a\\gt b>0 \\Rightarrow a^{2}+a b+3 b^{2}>0)% nên từ (*) ta có %(a=2 b)%<br>Vậy biểu thức %(B=\\frac{a^{4}-4 b^{4}}{b^{4}-4 a^{4}}=\\frac{16 b^{4}-4 b^{4}}{b^{4}-64 b^{4}})%<br>\\[B=\\frac{12 b^{4}}{-63 b^{4}}=\\frac{-4}{21}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải phương trình %(x^{2}\\left(x^{2}+2\\right)=4-x \\sqrt{2 x^{2}+4})%.",
+        "question_images": [],
+        "solution": "Đặt %(t=x \\sqrt{2 x^{2}+4} \\Rightarrow t^{2}=2\\left(x^{4}+2 x^{2}\\right) \\Rightarrow x^{2}\\left(x^{2}+2\\right)=\\frac{t^{2}}{2})%<br>ta được phương trình %(\\frac{t^{2}}{2}=4-t \\Leftrightarrow t^{2}+2 t-8=0 \\Leftrightarrow\\left[\\begin{array}{l}t=-4 \\\\ t=2\\end{array}\\right.)%<br>Với %(t=-4)% ta có %(x \\sqrt{2 x^{2}+4}=-4 \\Leftrightarrow\\left\\{\\begin{array}{l}x\\lt 0 \\\\ 2\\left(x^{4}+2 x^{2}\\right)=16\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x\\lt 0 \\\\ x^{4}+2 x^{2}-8=0\\end{array}\\right.\\right.)%<br>\\[\\Leftrightarrow\\left\\{\\begin{array}{l}x\\lt 0 \\x^{2}=2\\end{array} \\Leftrightarrow x=-\\sqrt{2}\\right.\\]<br>Với %(t=2)% ta có %(x \\sqrt{2 x^{2}+4}=2 \\Leftrightarrow\\left\\{\\begin{array}{l}x\\gt 0 \\\\ 2\\left(x^{4}+2 x^{2}\\right)=4\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x>0 \\\\ x^{4}+2 x^{2}-2=0\\end{array}\\right.\\right.)% %(\\Leftrightarrow\\left\\{\\begin{array}{l}x>0 \\\\ x^{2}=\\sqrt{3-1}\\end{array} \\Leftrightarrow x=\\sqrt{\\sqrt{3}-1}\\right.)%.<br>Kết luận nghiệm của phương trình.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x^{3}=2 x+y \\\\ y^{3}=2 y+x\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Từ hệ ta có %(x^{3}(2 y+x)=y^{3}(2 x+y) \\Leftrightarrow\\left(x^{2}-y^{2}\\right)\\left(2 x y+x^{2}+y^{2}\\right)=0)%<br>\\[\\Leftrightarrow(x+y)^{3}(x-y)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=y \\x=-y\\end{array}\\right.\\]<br>* Với %(x=y)% ta tìm được %((x ; y)=(0 ; 0) ;(\\sqrt{3} ; \\sqrt{3}) ;(-\\sqrt{3} ;-\\sqrt{3}))%<br>* Với %(x=-y)% ta tìm được %((x ; y)=(0 ; 0) ;(1 ;-1) ;(-1 ; 1))%<br>Vậy hệ phương trình có nghiệm<br>\\[(x ; y)=(0 ; 0) ;(\\sqrt{3} ; \\sqrt{3}) ;(-\\sqrt{3} ;-\\sqrt{3}) ;(1 ;-1) ;(-1 ; 1)\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Tìm các số nguyên dương %(x, y)% thỏa mãn phương trình %(x y^{2}+2 x y+x=32 y)%.",
+        "question_images": [],
+        "solution": "a) %(x y^{2}+2 x y+x=32 y \\Leftrightarrow x(y+1)^{2}=32 y)%<br>Do y nguyên dương %(\\Rightarrow y+1 \\neq 0 \\Rightarrow x=\\frac{32 y}{(y+1)^{2}})%<br>Vì %((y, y+1)=1 \\Rightarrow(y+1)^{2} \\in U(32))%<br>mà %(32=2^{5} \\Rightarrow(y+1)^{2}=2^{2})% và %((y+1)^{2}=2^{4})% (Do %(\\left.(y+1)^{2}\\gt 1\\right))%<br>*Nếu %((y+1)^{2}=2^{2} \\Rightarrow y=1 ; x=8)%<br>*Nếu %((y+1)^{2}=2^{4} \\Rightarrow y=3 ; x=6)%<br>Vậy nghiệm nguyên dương của phương trình là:<br>\\[\\left\\{\\begin{array} { l } { x = 8 } \\\\{ y = 1 }\\end{array} \\text { và } \\quad \\left\\{\\begin{array}{l}x=6 \\y=3\\end{array}\\right.\\right.\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "b) Cho hai số tự nhiên %(a, b)% thỏa mãn %(2 a^{2}+a=3 b^{2}+b)%. Chứng minh rằng %(2 a+2 b+1)% là số chính phương.",
+        "question_images": [],
+        "solution": "%(2 a^{2}+a=3 b^{2}+b \\Leftrightarrow(a-b)(2 a+2 b+1)=b^{2} \\quad\\left(^{*}\\right))%<br>Gọi %(d)% là ước chung của %((a-b, 2 a+2 b+1)\\left(d \\in \\mathbb{N}^{*}\\right))%.<br>Thì<br>\\[\\begin{array}{l}\\left\\{\\begin{array}{l}(a-b) \\vdots d \\\\(2 a+2 b+1) \\vdots d\\end{array} \\Rightarrow(a-b)(2 a+2 b+1) \\vdots d^{2}\\right. \\\\Rightarrow b^{2} \\vdots d^{2} \\Rightarrow b \\vdots d\\end{array}\\]<br>Mà %((a-b) \\vdots d \\Rightarrow a \\vdots d \\Rightarrow(2 a+2 b) \\vdots d)%, mà %((2 a+2 b+1) \\vdots d \\Rightarrow 1 \\vdots d \\Rightarrow d=1)%<br>Do đó %((a-b, 2 a+2 b+1)=1)%.<br>Từ %(\\left({ }^{*}\\right))% ta được %(a-b)% và %(2 a+2 b+1)% là số chính phương %(\\Rightarrow 2 a+2 b+1)% là số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác đều %(A B C)% nội tiếp đường tròn %((O, R))%. %(H)% là một điểm di động trên đoạn %(O A(H)% khác %(A))%. Đường thẳng đi qua %(H)% và vuông góc với %(O A)% cắt cung nhỏ %(A B)% tai %(M)%. Goi %(K)% là hình chiếu của %(M)% trên %(O B)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(\\widehat{H K M}=2 \\widehat{A M H})%.",
+        "question_images": [],
+        "solution": "Qua %(A)% kẻ tia tiếp tuyến %(A x)% của %((O, R))%.<br>Ta có<br>\\[\\widehat{A}_{1}=\\frac{1}{2} \\widehat{O}_{1}=\\frac{1}{2} s đ \\overparen{A M}(1)\\]<br>Có %(A x / / M H)% (cùng vuông góc với %(O A)% ) %(\\Rightarrow \\widehat{A}_{1}=\\widehat{M}_{1})%(2)<br>Tứ giác %(M H O K)% nội tiếp %(\\Rightarrow \\widehat{O}_{1}=\\widehat{K_{1}})% (cùng chắn %(\\overparen{M H})% )(3)<br>Từ %((1) ;(2) ;(3))% ta có %(\\widehat{M}_{1}=\\frac{1}{2} \\widehat{K_{1}})% hay %(\\widehat{H K M}=2 \\widehat{A M H})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/03816cbcde1c4005d4d162d7ff7b0fc8.png\" srcset=\"https://docdn.giainhanh.io/media/test/2ed9f58800cb77901a5150f9e7f4aeaf.png 185w\" width=\"185\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Các tiếp tuyến của %((O, R))% tai %(A)% và %(B)% cắt tiếp tuyến tai %(M)% của %((O, R))% lần lượt tai %(D)% và %(E . O D, O E)% cắt %(A B)% lần lượt tai %(F)% và %(G)%. Chứng minh %(O D . G F=O G . D E)%.",
+        "question_images": [],
+        "solution": "Có tứ giác %(A O M D)% nội tiếp (4)<br>\\[\\widehat{A_{1}}=\\frac{1}{2} s む \\overparen{B M} ; \\widehat{O_{1}}=\\widehat{O_{2}}=\\frac{1}{2} \\mathrm{sd} \\overparen{B M}\\]<br>%(\\Rightarrow \\widehat{A_{1}}=\\widehat{O_{1}} \\Rightarrow \\widehat{G_{1}}=\\widehat{D_{2}}=\\widehat{D_{1}})% tứ giác %(A M G O)% nội tiếp (5)<br>Từ (4), (5) ta có 5 điểm %(A, D, M, G, O)% cùng nằm trên một đường tròn<br>\\[\\begin{array}{l}\\Rightarrow \\widehat{G_{1}}=\\widehat{D_{2}}=\\widehat{D_{1}} \\\\Rightarrow \\triangle O G F \\text { và } \\triangle O D E \\text { dồng dang } \\\\Rightarrow \\frac{O G}{O D}=\\frac{G F}{D E} \\text { hay } O D \\cdot G F=O G \\cdot D E\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/84430b811b79a1d0491ed0adc71ec983.png\" srcset=\"https://docdn.giainhanh.io/media/test/f0bb85eb31a3e9157915cc46cd6e7c13.png 202w\" width=\"202\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tìm giá trị lớn nhất của chu vi tam giác %(M A B)% theo %(R)%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9d6bb0d32fedc06d65ad9854ab0c61f8.png\" srcset=\"https://docdn.giainhanh.io/media/test/02b6ed863de6c2ab33c24972eb63dfdb.png 194w\" width=\"194\"/><br>Trên đoạn %(M C)% lấy điểm %(A^{\\prime})% sao cho<br>\\[\\begin{array}{l}M A^{\\prime}=M A \\Rightarrow \\Delta \\mathrm{AMA} \\text { đều } \\\\Rightarrow \\widehat{A_{1}}=\\widehat{A_{2}}\\left(=60^{\\circ}-\\widehat{\\mathrm{BAA}^{\\prime}}\\right) \\\\Rightarrow \\triangle M A B=\\Delta A^{\\prime} A C \\Rightarrow M B=A^{\\prime} C \\\\Rightarrow M A+M B=M C\\end{array}\\]<br>Chu vi tam giác %(M A B)% là<br>\\[M A+M B+A B=M C+A B \\leq 2 R+A B\\]<br>Đẳng thức xảy ra khi %(M C)% là đường kính của %((O, R))%%(\\Rightarrow M)% là điểm chính giữa cung %(A M \\Rightarrow H)% là trung điểm đoạn %(A O)%<br>Vậy giá trị lớn nhất của chu vi tam giác %(M A B)% là %(2 R+A B)%<br>Gọi %(I)% là giao điểm của %(A O)% và %(B C \\Rightarrow A I=\\frac{3}{2} R=\\frac{A B \\sqrt{3}}{2} \\Rightarrow A B=R \\sqrt{3})%<br>Giá trị lớn nhất của chu vi tam giác %(M A B)% là %(2 R+A B=(2+\\sqrt{3}) R)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho %(a, b, c)% là các số thực dương thỏa mãn %(2 a b+6 b c+2 a c=7 a b c)%.<br>Tìm giá trị nhỏ nhất của biểu thức %(C=\\frac{4 a b}{a+2 b}+\\frac{9 a c}{a+4 c}+\\frac{4 b c}{b+c})%.",
+        "question_images": [],
+        "solution": "Từ gt: %(2 a b+6 b c+2 a c=7 a b c)% và %(a, b, c\\gt 0)%<br>Chia cả hai vế cho %(a b c>0 \\Rightarrow \\frac{2}{c}+\\frac{6}{a}+\\frac{2}{b}=7)%<br>đặt %(x=\\frac{1}{a}, y=\\frac{1}{b}, z=\\frac{1}{c} \\Rightarrow\\left\\{\\begin{array}{l}x, y, z>0 \\\\ 2 z+6 x+2 y=7\\end{array}\\right.)%<br>Khi đó %(C=\\frac{4 a b}{a+2 b}+\\frac{9 a c}{a+4 c}+\\frac{4 b c}{b+c}=\\frac{4}{2 x+y}+\\frac{9}{4 x+z}+\\frac{4}{y+z})%<br>\\[\\begin{aligned}\\Rightarrow & C=\\frac{4}{2 x+y}+2 x+y+\\frac{9}{4 x+z}+4 x+z+\\frac{4}{y+z}+y+z-(2 x+y+4 x+z+y+z) \\\\& =\\left(\\frac{2}{\\sqrt{x+2 y}}-\\sqrt{x+2 y}\\right)^{2}+\\left(\\frac{3}{\\sqrt{4 x+z}}-\\sqrt{4 x+z}\\right)^{2}+\\left(\\frac{2}{\\sqrt{y+z}}-\\sqrt{y+z}\\right)^{2}+17 \\geq 17\\end{aligned}\\]<br>Khi %(x=\\frac{1}{2}, y=z=1)% thì %(C=7)%<br>Vậy GTNN của C là 7 khi %(a=2 ; b=1 ; c=1)%",
+        "question_type": "essay"
+    }
+]

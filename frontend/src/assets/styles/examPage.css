@@ -1,0 +1,23 @@
+.fixed-pagination {
+    position: fixed; /* Cố định vị trí */
+    bottom: 20px; /* Cách đáy màn hình 20px */
+    left: 0; /* Căn giữa theo chiều ngang */
+    width: 100%; /* Chiếm toàn bộ chiều rộng */
+    text-align: center; /* Căn giữa nội dung */
+    z-index: 1000; /* Đảm bảo nằm trên các phần tử khác */
+  }
+  
+  .custom-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custom-pagination .ant-pagination-options {
+    order: -1; /* Đưa phần chọn pageSize lên đầu */
+    margin-right: 10px; /* Khoảng cách với danh sách trang */
+  }
+  
+  .custom-pagination .ant-pagination-item-container {
+    order: 0; /* Giữ danh sách trang ở sau */
+  }

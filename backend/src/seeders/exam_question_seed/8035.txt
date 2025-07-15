@@ -1,0 +1,89 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 1.5,
+        "content": "Chứng minh %(n^{3}+17 n)% chia hết cho 6 với mọi %(n \\in Z)%",
+        "question_images": [],
+        "solution": "%(n^{3}+17 n=n^{3}-n+18 n=n(n-1)(n+1)+18 n)%<br>%(n(n-1)(n+1))% là tích 3 số nguyên liên tiếp nên chia hết cho 2<br>Và %(3,(2,3)=1)% nên chia hết cho 6%(18 n)% chia hết cho 6<br>Suy ra điều chứng minh",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Rút gọn biểu thức %(\\frac{\\left(x^{2}+a\\right)(1+a)+a^{2} x^{2}+1}{\\left(x^{2}-a\\right)(1-a)+a^{2} x^{2}+1})%",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} & \\frac{\\left(x^{2}+a\\right)(1+a)+a^{2} x^{2}+1}{\\left(x^{2}-a\\right)(1-a)+a^{2} x^{2}+1}=\\frac{x^{2}+x^{2} a+a+a^{2}+a^{2} x^{2}+1}{x^{2}-x^{2} a-a+a^{2}+a^{2} x^{2}+1} \\\\ = & \\frac{x^{2}+x^{2} a+a^{2} x^{2}+1+a+a^{2}}{x^{2}-x^{2} a+a^{2} x^{2}+1-a+a^{2}}=\\frac{x^{2}\\left(1+a+a^{2}\\right)+\\left(1+a+a^{2}\\right)}{x^{2}\\left(1-a+a^{2}\\right)+\\left(1-a+a^{2}\\right)} \\\\ = & \\frac{\\left(x^{2}+1\\right)\\left(1+a+a^{2}\\right)}{\\left(x^{2}+1\\right)\\left(1-a+a^{2}\\right)}=\\frac{1+a+a^{2}}{1-a+a^{2}}\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.5,
+        "content": "Một vật thể chuyển động từ %(\\mathrm{A})% đến %(\\mathrm{B})% theo cách sau: đi được %(4 \\mathrm{~m})% thì dừng lại 1 giây, rồi đi tiếp %(8 \\mathrm{~m})% dừng lại 2 giây, rồi đi tiếp %(12 \\mathrm{~m})% dừng lại 3 giây, %(\\ldots)% Cứ như vậy đi từ %(\\mathrm{A})% đến %(\\mathrm{B})% kể cả dừng hết tất cả 155 giây. Biết rằng khi đi vật thể luôn có vận tốc %(2 \\mathrm{~m} /)%giây. Tính khoảng cách từ %(\\mathrm{A})% đến %(\\mathrm{B})%.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{x})% là số lần đi %((x \\in N, x\\gt 0))%, số lần dừng là %(x-1)%<br>Thời gian đi %(\\frac{4}{2}+\\frac{8}{2}+\\frac{12}{2}+\\ldots . . .+\\frac{4 x}{2})%<br>\\[=2+4+6+\\ldots+2 x=2(1+2+3+\\ldots+x)=x(x+1)\\]<br>Thời gian dừng %(1+2+3+\\ldots+(\\mathrm{x}-1)=\\frac{(x-1+1)(x-1)}{2}=\\frac{x(x-1)}{2})%<br>Lập được pt %(\\quad \\frac{x(x-1)}{2}+x(x+1)=155)%<br>Biến đổi được %(3 x^{2}+x-310=0)%<br>Giải tìm đúng %(\\mathrm{x}=10)% (chọn), %(\\mathrm{x}=-31 / 3)% (loại)<br>Khoảng cách %(\\mathrm{AB})% là %(10(10+1) \\cdot 2=220(\\mathrm{~m}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 2.0,
+        "content": "Biết %(a^{3}-3 a b^{2}=5)% và %(b^{3}-3 a^{2} b=10)%. Tính %( \\mathrm{M}=\\frac{a^{2}+b^{2}}{2018})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text {} a^{3}-3 a b^{2}=5 \\quad \\Rightarrow a^{6}-6 a^{4} b^{2}+9 a^{2} b^{4}=25 \\\\ b^{3}-3 a^{2} b=10 \\quad \\Rightarrow b^{6}-6 a^{2} b^{4}+9 a^{4} b^{2}=100 \\\\ \\Rightarrow a^{6}+3 a^{4} b^{2}+3 a^{2} b^{4}+b^{6}=125 \\\\ \\Rightarrow\\left(a^{2}+b^{2}\\right)^{3}=5^{3} \\Rightarrow \\frac{a^{2}+b^{2}}{2018}=\\frac{5}{2018} \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 2.0,
+        "content": "Giải phương trình %(\\left(x^{2}-x+1\\right)\\left(x^{2}-x+2\\right)=12)%",
+        "question_images": [],
+        "solution": "%(\\quad\\left(x^{2}-x+1\\right)\\left(x^{2}-x+2\\right)=12)%<br>Đặt %(x^{2}-x+1=X)% có %(X^{2}+X-12=0)%<br>\\[\\begin{aligned}& X^{2}+4 X-3 X-12=0 \\Rightarrow(X+4)(X-3)=0 \\\\Rightarrow & X=-4 ; X=3\\end{aligned}\\]<br>%(X=-4 \\Rightarrow x^{2}-x+5=0 \\Rightarrow\\left(x-\\frac{1}{2}\\right)^{2}+\\frac{19}{4}=0)% Vô nghiệm<br>\\[\\begin{array}{l}X=3 \\Rightarrow x^{2}-x-2=0 \\Rightarrow\\left(x^{2}-2 x\\right)+(x-2)=0 \\\\Rightarrow(x+1)(x-2)=0 \\Rightarrow x=-1 ; x=2\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 2.0,
+        "content": "Tìm giá trị nhỏ nhất của %(\\mathrm{P}=x^{2}+y^{2}-4(x+y)-2010)%",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} \\mathrm{P}= & x^{2}+y^{2}-4(x+y)-2010 \\\\ = & x^{2}-4 x+4+y^{2}-4 y+4-2018 \\\\ = & (x-2)^{2}+(y-2)^{2}-2018 \\geq-2018 \\\\ & \\quad \\text { min }=-2018 \\text { khi } \\mathrm{x}=\\mathrm{y}=2\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7:",
+        "group_content": "Cho tam giác %(\\mathrm{ABC})% vuông tại %(\\mathrm{A})%, phân giác %(\\mathrm{BD})%. Gọi %(\\mathrm{P}, \\mathrm{Q}, \\mathrm{R})% lần lượt là trung điểm của %(\\mathrm{BD}, \\mathrm{BC}, \\mathrm{DC})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.25,
+        "content": "a) Chứng minh %(\\mathrm{APQR})% là hình thang cân.",
+        "question_images": [],
+        "solution": "%(\\mathrm{PQ})% là đường trung bình tam giác %(\\mathrm{BDC})%, suy ra %(\\mathrm{PQ} / / \\mathrm{AR})% nên %(\\mathrm{APQR})% là hình thang.<br>%(\\mathrm{AQ}=1 / 2 \\mathrm{BC})% (trung tuyến tam giác vuông %(\\mathrm{ABC})%)<br>%(\\mathrm{PR}=1 / 2 \\mathrm{BC})% ( đường trung bình tam giác %(\\mathrm{DBC})%)<br>Suy ra %(A Q=P R)%<br>Kết luận %(\\mathrm{APQR})% là hình thang cân",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.25,
+        "content": "b) Biết %(\\mathrm{AB}=6 \\mathrm{~cm}, \\mathrm{AC}=8 \\mathrm{~cm})% Tính độ dài của %(\\mathrm{AR})%.",
+        "question_images": [],
+        "solution": "Tính được %(\\mathrm{BC}=10 \\mathrm{~cm})%<br>Tính chất đường phân giác trong của %(\\mathrm{Tg} \\mathrm{ABC})%<br>\\[\\frac{D A}{D C}=\\frac{B A}{B C}\\]<br>Suy ra %(\\frac{D A}{A C}=\\frac{B A}{B C+B C})%<br>Thay số tính đúng %(\\mathrm{AD}=3 \\mathrm{~cm} ; \\mathrm{DC}=5 \\mathrm{~cm} ; \\mathrm{DR}=2,5 \\mathrm{~cm})%<br>Kết quả %(\\mathrm{AR}=5,5 \\mathrm{~cm})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 2.5,
+        "content": "Cho hình bình hành %(\\mathrm{ABCD})%. Một đường thẳng qua %(\\mathrm{B})% cắt cạnh %(\\mathrm{CD})% tại %(\\mathrm{M})%, cắt đường chéo %(\\mathrm{AC})% tại %(\\mathrm{N})% và cắt đường thẳng %(\\mathrm{AD})% tại %(\\mathrm{K})%. Chứng minh<br>\\[\\frac{1}{B N}=\\frac{1}{B M}+\\frac{1}{B K}\\]",
+        "question_images": [],
+        "solution": "%(\\mathrm{AB} / / \\mathrm{AC})% (hai cạnh đối hình bình hành).<br>Theo định lí Talét có:<br>\\[\\begin{array}{l}\\frac{M C}{A B}=\\frac{N C}{A N}=\\frac{M N}{N B} \\Rightarrow \\frac{M C+A B}{A B}=\\frac{M N+N B}{B N}=\\frac{B M}{B N} \\\\frac{. K M}{B K}=\\frac{K D}{K A}=\\frac{M D}{A B} \\Rightarrow \\frac{B K-K M}{B K}=\\frac{A B-M D}{A B} \\Rightarrow \\frac{B M}{B K}=\\frac{A B-M D}{A B} \\text { (2) }\\end{array}\\]<br>Từ (1) và (2)<br>%(\\Rightarrow \\frac{B M}{B N}-\\frac{B M}{B K}=\\frac{A B+M C}{A B}-\\frac{A B-M D}{A B}=\\frac{M C+M D}{A B})%<br>Mà %(\\mathrm{MC}+\\mathrm{MD}=\\mathrm{CD}=\\mathrm{AB})% nên%(\\frac{B M}{B N}-\\frac{B M}{B K}=1)%<br>Suy ra điều cần chứng minh",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 9: ",
+        "point": 1.0,
+        "content": "Biết %(a, b, c)% là độ dài ba cạnh của một tam giác. Chứng minh rằng:<br>\\[\\left(a^{2}+b^{2}-c^{2}\\right)^{2}-4 a^{2} b^{2}\\lt 0\\]",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\left(a^{2}+b^{2}-c^{2}\\right)^{2}-4 a^{2} b^{2}=\\left(a^{2}+b^{2}-c^{2}+2 a b\\right)\\left(a^{2}+b^{2}-c^{2}-2 a b\\right) \\\\quad=\\left[(a+b)^{2}-c^{2}\\right]\\left[(a-b)^{2}-c^{2}\\right] \\\\quad=-(a+b+c)(a+b-c)(a+c-b)(b+c-a)\\end{array}\\]<br>Tổng 2 cạnh tam giác lớn hơn cạnh thứ ba nên cả 4 thừa số của tích dều dương, suy ra điều chứng minh",
+        "question_type": "essay"
+    }
+]

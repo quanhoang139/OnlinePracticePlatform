@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1",
+        "group_content": "Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) %(A=1+3+3^{2}+3^{3}+\\ldots .+3^{11})%%(\\vdots)%40",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}A=1+3+3^{2}+3^{3}+\\ldots \\ldots .+3^{11} \\\\=\\left(1+3+3^{2}+3^{3}\\right)+\\left(3^{4}+3^{5}+3^{6}+3^{7}\\right)+\\left(3^{8}+3^{9}+3^{10}+3^{11}\\right) \\\\=\\left(1+3+3^{2}+3^{3}\\right)+3^{4} \\cdot\\left(1+3+3^{2}+3^{3}\\right)+3^{8} \\cdot\\left(1+3+3^{2}+3^{3}\\right) \\\\=40+3^{4} \\cdot 40+3^{8} \\cdot 40 \\\\=40 \\cdot\\left(1+3^{4}+3^{8}\\right)\\vdots 40\\end{array}\\]<br>Vậy %(A)% %(\\vdots)% 40",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) %(B=\\frac{1}{2^{2}}+\\frac{1}{3^{2}}+\\frac{1}{4^{2}}+\\ldots . .+\\frac{1}{100^{2}}\\lt 1)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}B=\\frac{1}{2^{2}}+\\frac{1}{3^{2}}+\\frac{1}{4^{2}}+\\ldots . .+\\frac{1}{100^{2}} \\\\=\\frac{1}{2.2}+\\frac{1}{3.3}+\\frac{1}{4.4}+\\ldots . .+\\frac{1}{100.100} \\\\lt \\frac{1}{1.2}+\\frac{1}{2.3}+\\frac{1}{3.4}+\\ldots . .+\\frac{1}{99.100}=1-\\frac{1}{2}+\\frac{1}{2}-\\frac{1}{3}+\\ldots . .+\\frac{1}{99}-\\frac{1}{100}=1-\\frac{1}{100}\\lt 1\\end{array}\\]<br>Vậy %(B\\lt 1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho %(a+b+c=0)%, chứng minh rằng : %(a^{3}+b^{3}+c^{3}=3 a b c)%",
+        "question_images": [],
+        "solution": "Ta có: %(a+b+c=0 \\Rightarrow a+b=-c)%<br>Mặt khác<br>\\[\\begin{array}{l}(a+b)^{3}=a^{3}+b^{3}+3 a b(a+b) \\\\Rightarrow(-c)^{3}=a^{3}+b^{3}+3 a b(-c) \\a^{3}+b^{3}+c^{3}=3 a b c\\ (đ p c m)\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "So sánh hai số sau: %(C=(2+1)\\left(2^{2}+1\\right)\\left(2^{4}+1\\right)\\left(2^{8}+1\\right)\\left(2^{16}+1\\right))% và %(D=2^{32})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}C=(2+1)\\left(2^{2}+1\\right)\\left(2^{4}+1\\right)\\left(2^{8}+1\\right)\\left(2^{16}+1\\right) \\\\ (2-1) C=(2-1)(2+1)\\left(2^{2}+1\\right)\\left(2^{4}+1\\right)\\left(2^{8}+1\\right)\\left(2^{16}+1\\right) \\\\ C=\\left(2^{2}-1\\right)\\left(2^{2}+1\\right)\\left(2^{4}+1\\right)\\left(2^{8}+1\\right)\\left(2^{16}+1\\right) \\\\ C=\\left(2^{4}-1\\right)\\left(2^{4}+1\\right)\\left(2^{8}+1\\right)\\left(2^{16}+1\\right)\\end{array})%<br>\\[\\begin{array}{l}C=\\left(2^{8}-1\\right)\\left(2^{8}+1\\right)\\left(2^{16}+1\\right) \\C=\\left(2^{16}-1\\right)\\left(2^{16}+1\\right)=2^{32}-1\\end{array}\\]<br>Vì %(2^{32}-1\\lt 2^{32})% nên %(C\\lt D)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Phân tích đa thức sau thành nhân tử: %(x^{4}+2019 x^{2}+2018 x+2019)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}x^{4}+2019 x^{2}+2018 x+2019 \\\\ =x^{4}+\\left(x^{2}+2018 x^{2}\\right)+2018 x+(2018+1)+x^{3}-x^{3} \\\\ =\\left(x^{4}+x^{3}+x^{2}\\right)+\\left(2018 x^{2}+2018 x+2018\\right)-\\left(x^{3}-1\\right) \\\\ =x^{2}\\left(x^{2}+x+1\\right)+2018\\left(x^{2}+x+1\\right)-(x-1)\\left(x^{2}+x+1\\right) \\\\ =\\left(x^{2}+x+1\\right)\\left(x^{2}+2018-x+1\\right) \\\\ =\\left(x^{2}+x+1\\right)\\left(x^{2}-x+2019\\right)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Tìm giá trị nhỏ nhất của %(E=2 x^{2}-8 x+1)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}E=2 x^{2}-8 x+1 \\\\=2 x^{2}-8 x+8-7 \\\\=2(x-2)^{2}-7 \\geq-7 \\quad(\\forall x)\\end{array}\\]<br>Vậy giá trị nhỏ nhất của %(E=-7 \\Leftrightarrow x=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 3.0,
+        "content": "Chứng minh rằng trong một tứ giác, tổng hai đường chéo lớn hơn nửa chu vi nhưng nhỏ hơn chu vi của tứ giác ấy.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f04bc3886747e00bae0adec7707fac7b.png\" srcset=\"https://docdn.giainhanh.io/media/test/881dbc16bc48e187f836c7c23ba17101.png 176w, https://docdn.giainhanh.io/media/test/943459560b5d16cb563099a32b74cec2.png 500w\" width=\"500\"/><br>Gọi O là giao điểm của hai đường chéo %(A C, B D)% của tứ giác %(A B C D)%.<br>Đặt %(A B=a, B C=b, C D=c, D A=d)%<br>Xét %(\\triangle A O B)%, ta có: %(O A+O B\\gt A B)% (quan hệ giữa ba cạnh của tam giác)<br>Xét %(\\triangle C O D)%, ta có: %(O C+O D\\gt C D)% (quan hệ giữa ba cạnh của tam giác)<br>Suy ra:<br>\\[\\begin{array}{l}O A+O B+O C+O D>A B+C D \\\\Rightarrow A C+B \\mathrm{D}>A B+C D \\\\Rightarrow A C+B D>a+c\\ (1)\\end{array}\\]<br>Chứng minh tương tự : %(A C+B D>A D+B C \\Rightarrow A C+B D>d+b\\ (2))%<br>Từ (1) và (2) suy ra<br>\\[2(A C+B D)\\gt a+b+c+d \\Rightarrow A C+B D>\\frac{a+b+c+d}{2}(*)\\]<br>Xét %(\\triangle A B C)%, ta có: %(A C\\lt a+b)%<br>Xét %(\\triangle A D C)%, ta có: %(A C\\lt d+c)%<br>Suy ra : %(2 A C\\lt a+b+c+d \\Rightarrow A C\\lt \\frac{a+c+d+b}{2}\\ (3))%<br>Chứng minh tương tự: %(B D\\lt \\frac{a+c+d+b}{2})% (**) %((4))%<br>Từ (3);(4) suy ra %(A C+B D\\lt a+b+c+d)%<br>Từ (*) và (**) suy ra %(\\frac{a+c+d+b}{2}\\lt A C+B D\\lt a+b+c+d)% (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác %(A B C)% vuông tại %(A(A B\\lt A C))%. Gọi %(I)% là trung điểm của cạnh %(B C)%. Qua %(I)% vẽ %(I M)% vuông góc với %(A B)% tại M và %(I N)% vuông góc với %(AC)% tại %(N)% .",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.25,
+        "content": "a) Chứng minh tứ giác %(A M I N)% là hình chữ nhật",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/efc098bc7bcced4bb06039357b88f58d.png\" srcset=\"https://docdn.giainhanh.io/media/test/04c5c277d78c016018b9ba7afdad557c.png 245w, https://docdn.giainhanh.io/media/test/bef5626364e5421dc58430c48d1eed91.png 500w, https://docdn.giainhanh.io/media/test/06625653eecd232d72742700961aafe9.png 750w\" width=\"750\"/><br>Xét tứ giác %(A M N I)% có:<br>\\[\\begin{array}{l}{M A N}=90^{\\circ} \\text { (vì } \\triangle A B C \\text { vuông ở A) } \\\\{A} M I=90^{\\circ} \\text { (Vì } I M \\text { vuông góc với } A B \\text { ) } \\\\{A} N I=90^{\\circ} \\text { (Vì } I N \\text { vuông góc với } A C \\text { ) }\\end{array}\\]<br>Vậy tứ giác %(A M I N)% là hình chữ nhật (vì có 3 góc vuông)",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.25,
+        "content": "b) Gọi D là điểm đối xứng của %(I)% qua %(N)%. Chứng minh tứ giác %(A D C I)% là hình thoi.",
+        "question_images": [],
+        "solution": "%(\\triangle A B C)% vuông tại A , có %(A I)% là trung tuyến nên %(A I=I C=\\frac{1}{2} B C)%<br>Do đó %(\\triangle A I C)% cân tại I , có đường cao %(I N)% đồng thời là trung tuyến %(\\Rightarrow N A=N C)%<br>Mặt khác : %(N I=N D)% (tính chất đối xứng) nên %(A D C I)% là hình bình hành (1)<br>\\[\\text { Mà } A C \\perp I D\\ (2)\\]<br>Từ (1) và (2) suy ra tứ giác %(A D C I)% là hình thoi.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.5,
+        "content": "c) Đường thẳng %(B N)% cắt %(D C)% tại %(K)%. Chứng minh rằng %(D K=\\frac{1}{3} D C)%.",
+        "question_images": [],
+        "solution": "Kẻ qua I đường thẳng %(I H)% song song với %(B K)% cắt CD tại H%(\\Rightarrow I H)% là đường trung bình %(\\triangle B K C)%%(\\Rightarrow H)% là trung điểm của %(C K)% hay %(K H=H C\\ (3))%<br>Xét %(\\triangle D I H)% có %(N)% là trung điểm của %(\\mathrm{DI}, N K / / I H(I H / / B K))%<br>Do đó %(K)% là trung điểm của %(D H)% hay %(D K=K H\\ (4))%<br>Từ %((3),(4) \\Rightarrow D K=K H=H C \\Rightarrow D K=\\frac{1}{3} D C)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng: %(a^{2}+b^{2}+c^{2}+d^{2}+e^{2} \\geq a(b+c+d+e))%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}\\left(\\frac{1}{2} a-b\\right)^{2} \\geq 0 \\Rightarrow \\frac{1}{4} a^{2}+b^{2} \\geq a b\\ (1) \\\\left(\\frac{1}{2} a-c\\right)^{2} \\geq 0 \\Rightarrow \\frac{1}{4} a^{2}+c^{2} \\geq a c\\ (2) \\\\left(\\frac{1}{2} a-d\\right)^{2} \\geq 0 \\Rightarrow \\frac{1}{4} a^{2}+d^{2} \\geq a d\\ (3) \\\\left(\\frac{1}{2} a-e\\right)^{2} \\geq 0 \\Rightarrow \\frac{1}{4} a^{2}+e^{2} \\geq a e\\ (4)\\end{array}\\]<br>Ta cộng %((1),(2),(3),(4))% vế theo vế ta được:<br>%(\\begin{array}{l}\\text { 4. } \\frac{1}{4} a^{2}+b^{2}+c^{2}+d^{2}+e^{2} \\geq a b+a c+a d+a e \\\\ \\Leftrightarrow a^{2}+b^{2}+c^{2}+d^{2}+e^{2} \\geq a(b+c+d+e)\\end{array})%",
+        "question_type": "essay"
+    }
+]

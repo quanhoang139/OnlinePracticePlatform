@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Cho biểu thức %(A)% (với %(x \\ne 1 ; x \\ge 0)% ). Rút gọn %(A = \\frac{x \\sqrt{x} + 1}{x - 1} - \\frac{x - 1}{\\sqrt{x} + 1})%, sau đó tính giá trị %(A)% -1 khi %(A)%",
+        "question_images": [],
+        "solution": "Với %(x \\geq 0, x \\neq 1)% ta có<br>\\[\\begin{array}{l}A=\\frac{(\\sqrt{x})^{3}+1}{(\\sqrt{x}+1)(\\sqrt{x}-1)}-\\frac{(\\sqrt{x}-1)(\\sqrt{x}+1)}{\\sqrt{x}+1}=\\frac{x-\\sqrt{x}+1}{\\sqrt{x}-1}-(\\sqrt{x}-1) \\\\=\\frac{x-\\sqrt{x}+1-(\\sqrt{x}-1)^{2}}{\\sqrt{x}-1}=\\frac{\\sqrt{x}}{\\sqrt{x}-1} \\A-1=\\frac{\\sqrt{x}-(\\sqrt{x}-1)}{\\sqrt{x}-1}=\\frac{1}{\\sqrt{x}-1}\\end{array}\\]<br>Ta có %(x=2016+2 \\sqrt{2015})% thỏa mãn điều kiện %(\\mathrm{x} \\geq 0)% và %(\\mathrm{x} \\neq 1)%<br>Có %(x=2015+2 \\sqrt{2015}+1=(\\sqrt{2015}+1)^{2} \\Rightarrow \\sqrt{x}=\\sqrt{2015}+1)%.<br>Thay vào biểu thức %(\\mathrm{A}-1)% ta được:<br>\\[A-1=\\frac{1}{\\sqrt{2015}}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho %(n)% với %(A = 2 \\left( 1^{2015} + 2^{2015} + ..... + n^{2015} \\right ))% là số nguyên dương. Chứng minh rằng %(x = 2016 + 2 \\sqrt{2015})% chia hết cho %(n \\left( n + 1 \\right ))%",
+        "question_images": [],
+        "solution": "Với 2 số nguyên dương %(a, b)% bất kì ta có:<br>\\[a^{2015}+b^{2015}=(a+b)\\left(a^{2014}+a^{2013} b+\\ldots+a b^{2013}+b^{2014}\\right) \\Rightarrow a^{2015}+b^{2015}:(a+b)\\]<br>+ Xét trường hợp %(\\mathrm{n})% là số lẻÁp dụng khẳng định trên ta có:<br>\\[\\begin{array}{l}2\\left[1^{2015}+(n-1)^{2015}\\right] \\vdots n \\\\2\\left[2^{2015}+(n-2)^{2015}\\right] \\vdots n \\\\2\\left[\\left(\\frac{n-1}{2}\\right)^{2015}+\\left(\\frac{n+1}{2}\\right)^{2015}\\right] \\vdots n\\end{array}\\]<br>Suy ra<br>\\[A=n^{2015}+2\\left[1^{2015}+(n-1)^{2015}\\right]+2\\left[2^{2015}+(n-2)^{2015}\\right]+\\ldots+2\\left[\\left(\\frac{n-1}{2}\\right)^{2015}+\\left(\\frac{n+1}{2}\\right)^{2015}\\right]: n\\]<br>Tương tự<br>\\[A=2\\left(1^{2015}+n^{2015}\\right)+2\\left[2^{2015}+(n-1)^{2015}\\right]+\\ldots+2\\left[\\left(\\frac{n-1}{2}\\right)^{2015}+\\left(\\frac{n+3}{2}\\right)^{2015}\\right]+\\left[\\left(\\frac{n+1}{2}\\right)^{2015}+\\left(\\frac{n+1}{2}\\right)^{2015}\\right]:(n+1)\\]<br>Mặt khác %(n)% và %(n+1)% nguyên tố cùng nhau nên %(A: n(n+1))%<br>Tương tự với trường hợp %(n)% chã̃n ta cũng có %(\\mathrm{A} \\vdots \\mathrm{n}(\\mathrm{n}+1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải phương trình sau: %(\\frac{6}{x^{2}-9}+\\frac{4}{x^{2}-11}-\\frac{7}{x^{2}-8}-\\frac{3}{x^{2}-12}=0)%",
+        "question_images": [],
+        "solution": "Điều kiện: %(x^{2} \\neq 8 ; x^{2} \\neq 9 ; x^{2} \\neq 11 ; x^{2} \\neq 12)%<br>Phương trình đã cho tương đương với<br>\\[\\begin{array}{l}\\left(\\frac{6}{x^{2}-9}-\\frac{7}{x^{2}-8}\\right)+\\left(\\frac{4}{x^{2}-11}-\\frac{3}{x^{2}-12}\\right)=0 \\\\Leftrightarrow \\frac{6\\left(x^{2}-8\\right)-7\\left(x^{2}-9\\right)}{\\left(x^{2}-9\\right)\\left(x^{2}-8\\right)}+\\frac{4\\left(x^{2}-12\\right)-3\\left(x^{2}-11\\right)}{\\left(x^{2}-11\\right)\\left(x^{2}-12\\right)}=0 \\\\Leftrightarrow \\frac{-x^{2}+15}{\\left(x^{2}-9\\right)\\left(x^{2}-8\\right)}+\\frac{x^{2}-15}{\\left(x^{2}-11\\right)\\left(x^{2}-12\\right)}=0 \\\\{\\left[x^{2}-15=0(2)\\right.} \\\\-\\frac{1}{\\left(x^{2}-9\\right)\\left(x^{2}-8\\right)}+\\frac{1}{\\left(x^{2}-11\\right)\\left(x^{2}-12\\right)}=0(3) \\\\end{array}\\]<br>Phương trình %((2) \\Leftrightarrow x= \\pm \\sqrt{15} \\quad)% (thỏa mãn)<br>Phương trình %((3) \\Leftrightarrow\\left(x^{2}-9\\right)\\left(x^{2}-8\\right)=\\left(x^{2}-11\\right)\\left(x^{2}-12\\right))%<br>%(\\Leftrightarrow 6 x^{2}-60=0 \\Leftrightarrow x^{2}=10 \\Leftrightarrow x= \\pm \\sqrt{10})% (thỏa mãn)<br>Vậy tập nghiệm của phương trình đã cho là %(\\{ \\pm \\sqrt{15} ; \\pm \\sqrt{10}\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x(x+4)(4 x+y)=6 \\\\ x^{2}+8 x+y=-5\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Hệ đã cho tương đương với<br>\\[\\left\\{\\begin{array}{l}\\left(x^{2}+4 x\\right) \\cdot(4 x+y)=6 \\\\left(x^{2}+4 x\\right)+(4 x+y)=-5\\end{array}\\right.\\]<br>Suy ra %(x^{2}+4 x)% và %(4 x+y)% là 2 nghiệm của phương trình<br>\\[t^{2}+5 x+6=0 \\Leftrightarrow(t+2)(t+3)=0 \\Leftrightarrow\\left[\\begin{array}{l}t=-2 \\t=-3\\end{array}\\right.\\]<br>Vậy hệ đã cho tương đương với %(\\left\\{\\begin{array}{l}x^{2}+4 x=-2 \\\\ 4 x+y=-3\\end{array}\\right.)% (I) hoặc %(\\left\\{\\begin{array}{l}x^{2}+4 x=-3 \\\\ 4 x+y=-2\\end{array}(I I)\\right.)%<br>Giải (I): %(x^{2}+4 x=-2 \\Leftrightarrow(x+2)^{2}=2 \\Leftrightarrow\\left[\\begin{array}{l}x=-2+\\sqrt{2} \\Rightarrow y=-3-4 x=5-4 \\sqrt{2} \\\\ x=-2-\\sqrt{2} \\Rightarrow y=-3-4 x=5+4 \\sqrt{2}\\end{array}\\right.)%<br>Giải (II): %(x^{2}+4 x+3=0 \\Leftrightarrow(x+1)(x+3) \\Leftrightarrow\\left[\\begin{array}{l}x=-1 \\Rightarrow y=-2-4 x=2 \\\\ x=-3 \\Rightarrow y=-2-4 x=10\\end{array}\\right.)%<br>Vậy hệ đã cho có 4 nghiệm %((-2+\\sqrt{2} ; 5-4 \\sqrt{2}),(-2-\\sqrt{2} ; 5+4 \\sqrt{2}),(-1 ; 2),(-3 ; 10))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho parabol %((\\mathrm{P}))% : %(\\mathrm{y}=\\mathrm{ax^{2 }})% và đường thẳng %((\\mathrm{d}))% : %(\\mathrm{y}=\\mathrm{bx}+\\mathrm{c})% với %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là độ dài ba cạnh của tam giác vuông trong đó %(\\mathrm{a})% là độ dài cạnh huyền. Chứng minh rằng (d) luôn cắt %((\\mathrm{P}))% tại hai điểm phân biệt %(\\mathrm{A}, \\mathrm{B})% có hoành độ lần lượt là %(\\mathrm{x} 1)% và %(\\mathrm{x} 2)% thỏa mãn %(x_{1}^{2}+x_{2}^{2}\\lt 2)%",
+        "question_images": [],
+        "solution": "Xét phương trình hoành độ giao điểm của %((\\mathrm{P}))% và %((\\mathrm{d}): a x^{2}=b x+c \\Leftrightarrow a x^{2}-b x-c=0(1))%<br>Vì %(a, b, c)% là 3 cạnh của tam giác vuông với cạnh huyền là a nên %(a, b, c\\gt 0, a^{2}=b^{2}+c^{2})%(d) cắt %((\\mathrm{P}))% tại 2 điểm phân biệt<br>%(\\Leftrightarrow)% Phương trình (1) có 2 nghiệm phân biệt<br>%(\\Leftrightarrow)% %(\\Delta=b^{2}+4 a c>0)% (luôn đúng %(\\forall \\mathrm{a}, \\mathrm{b}, \\mathrm{c}>0)% )<br>Gọi 2 giao điểm có hoành độ là %(x_{1}, x_{2})%, là 2 nghiệm của (1). Theo Viét ta có:<br>\\[\\left\\{\\begin{array}{l}x_{1}+x_{2}=\\frac{b}{a} \\x_{1} x_{2}=-\\frac{c}{a}\\end{array}\\right.\\]<br>Xét %(P=x_{1}^{2}+x_{2}^{2}-2=\\left(x_{1}+x_{2}\\right)^{2}-2 x_{1} x_{2}-2=\\left(\\frac{b}{a}\\right)^{2}+2 \\cdot \\frac{c}{a}-2=\\frac{b^{2}-2 a c-2 a^{2}}{a^{2}})%<br>Có %(b^{2}+2 a c-2 a^{2}=b^{2}+2 a c-\\left(b^{2}+c^{2}\\right)-a^{2}=2 a c-c^{2}-a^{2}=-(c-a)^{2}\\lt 0, \\forall a, c, 0\\lt c\\lt a)%<br>Suy ra %(\\mathrm{P}\\lt 0 \\Rightarrow)% đpcm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho tam giác nhọn %(\\mathrm{ABC})% có hai đường cao %(\\mathrm{BD})% và %(\\mathrm{CE})% cắt nhau tại %(\\mathrm{H})%. Các tia phân giác các góc %(\\mathrm{EHB}, \\mathrm{DHC})% cắt %(A B, A C)% lần lượt tại %(I)% và %(K)%. Qua %(I)% và %(K)% lần lượt vẽ các đường vuông góc với %(\\mathrm{AB}, \\mathrm{AC})% chúng cắt nhau tại %(\\mathrm{M})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh %(\\mathrm{AI}=\\mathrm{AK})%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" src=\"https://docdn.giainhanh.io/media/test/185f765aee419cdca0e1b80fea37ec6d.png\"/><br>Vì HI, HK là phân giác của góc %(\\mathrm{EHB})% và góc %(\\mathrm{DHC})% nên<br>%(E H I=\\frac{1}{2} E H B ; D H K=C H K=\\frac{1}{2} D H C . M a ̀ ~ E H B=\\mathrm{DHC})% (đối đỉnh)<br>%(=\\gt \\mathrm{EHI}=\\mathrm{DHK}=\\mathrm{CHK})%<br>Có %(\\mathrm{AIH}=90^{\\circ}-\\mathrm{EHI} ; \\mathrm{AKH}=90^{\\circ}-\\mathrm{DHK} \\Rightarrow \\mathrm{AIH}=\\mathrm{AKH})% (2)<br>Từ (1) suy ra %(\\mathrm{EHI}+\\mathrm{EHK}=\\mathrm{CHK}+\\mathrm{EHK}=180 \\mathrm{o}=>\\mathrm{I}, \\mathrm{H}, \\mathrm{K})% thẳng hàng (3)<br>Từ (2) và %((3) \\Rightarrow \\Delta \\mathrm{AIK})% cân tại %(\\mathrm{A} \\Rightarrow \\mathrm{AI}=\\mathrm{AK})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Giả sử tam giác nhọn %(\\mathrm{ABC})% có hai đỉnh %(\\mathrm{B}, \\mathrm{C})% cố định, đỉnh %(\\mathrm{A})% di động . Chứng minh đường thẳng HM luôn đi qua một điểm cố định",
+        "question_images": [],
+        "solution": "Gọi giao %(I M)% và %(B H)% là %(P)%, giao %(K M)% và %(C H)% là %(Q)%, giao %(H M)% và %(P Q)% là %(J)%, giao %(H M)% và %(B C)% là %(\\mathrm{N})%.<br>Ta có:%(\\Delta \\mathrm{HEI} \\sim \\Delta \\mathrm{HDK}(\\mathrm{g} . \\mathrm{g})=>\\frac{H E}{H D}=\\frac{E I}{D K})%%(\\Delta \\mathrm{HEB} \\sim \\Delta \\mathrm{HDC}(\\mathrm{g} \\cdot \\mathrm{g})=>\\frac{H E}{H D}=\\frac{E B}{D C})%<br>%(\\Rightarrow \\frac{E I}{D K}=\\frac{E B}{D C} \\Rightarrow \\frac{E I}{E B}=\\frac{D K}{D C})%<br>Vì IP %(\\perp \\mathrm{AB}, \\mathrm{HE} \\perp \\mathrm{AB} \\Rightarrow \\mathrm{IP} / / \\mathrm{HE} \\Rightarrow \\frac{E I}{E B}=\\frac{H P}{H B})% (5).<br>Tương tự %(\\frac{D K}{D C}=\\frac{H Q}{H C}(6))%Từ (4), (5), (6)<br>%(\\Rightarrow \\frac{H P}{H B}=\\frac{H Q}{H C} \\Rightarrow \\mathrm{PQ} / / \\mathrm{BC})%<br>Suy ra %(\\frac{P J}{B N}=\\frac{H J}{H N}=\\frac{J Q}{N C} \\Rightarrow \\frac{P J}{J Q}=\\frac{B N}{N C})%<br>Vì %(\\mathrm{HP} / / \\mathrm{MQ}, \\mathrm{HQ} / / \\mathrm{PM})% nên %(\\mathrm{HQMP})% là hình bình hành %(\\Rightarrow \\mathrm{J})% là trung điểm %(\\mathrm{PQ} \\Rightarrow \\mathrm{PJ}=)% %(\\mathrm{JQ})%%(\\Rightarrow \\mathrm{BN}=\\mathrm{NC} \\Rightarrow \\mathrm{N})% là trung điểm %(\\mathrm{BC})%<br>Vậy HM luôn đi qua trung điểm %(\\mathrm{BC})% là điểm cố định.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho đường tròn %((\\mathrm{O}))% đường kính %(\\mathrm{AB})%. Qua %(\\mathrm{A})% và %(\\mathrm{B})% lần lượt vẽ các tiếp tuyến %(\\mathrm{d}_{1})% và %(\\mathrm{d}_{2})% với %((O))%. Từ điểm %(M)% bất kì trên %((O))% vẽ tiếp tuyến với đường tròn cắt %(\\mathrm{d}_{1})% tại %(\\mathrm{C})% và cắt %(\\mathrm{d}_{2})% tại %(\\mathrm{D})%. Đường tròn đường kính %(\\mathrm{CD})% cắt đường tròn %((\\mathrm{O}))% tại %(\\mathrm{E})% và %(\\mathrm{F}(\\mathrm{E})% thuộc cung %(A M))%, gọi %(I)% là giao điểm của %(A D)% và %(B C)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(\\mathrm{AB})% là tiếp tuyến của đường tròn đường kính %(\\mathrm{CD})%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a116b96cc61dc0726db1534ca75105bf.png\" srcset=\"https://docdn.giainhanh.io/media/test/b671b5ac5c7c3b3d2e3a7c038f2c5feb.png 172w\" width=\"172\"/><br>Vì %(\\mathrm{AC} \\perp \\mathrm{AB}, \\mathrm{BD} \\perp \\mathrm{AB} \\Rightarrow \\mathrm{AC} / / \\mathrm{BD} \\Rightarrow \\mathrm{ACDB})% là hình thang<br>Vì %(\\mathrm{CM}, \\mathrm{CA})% là tiếp tuyến của %((\\mathrm{O}))% nên %(\\mathrm{CM}=\\mathrm{CA})%.<br>Tương tự %(\\mathrm{DM}=\\mathrm{DB})%<br>Gọi %(\\mathrm{J})% là trung điểm của %(\\mathrm{CD})% thì %(\\mathrm{JO})% là đường trung bình của hình thang %(\\mathrm{ACDB})%<br>suy ra %(\\mathrm{JO} / / \\mathrm{BD})% và<br>\\[O J=\\frac{A C+B D}{2}=\\frac{C M+M D}{2}=\\frac{C D}{2}=I C=I D (1)\\]<br>Vì %(\\mathrm{BD} \\perp \\mathrm{AB})% nên %(\\mathrm{JO} \\perp \\mathrm{AB})% tại %(\\mathrm{O})%(2)<br>Từ (1) và (2) suy ra %(A B)% là tiếp tuyến của đường tròn %((\\mathrm{J}))% đường kính %(\\mathrm{CD})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh %(\\mathrm{MI})% vuông góc với %(\\mathrm{AB})% và ba điểm %(\\mathrm{E}, \\mathrm{I}, \\mathrm{F})% thẳng hàng.",
+        "question_images": [],
+        "solution": "Vì CA // BD nên theo định lý Talét ta có: %(\\frac{C I}{I B}=\\frac{C A}{C D}=\\frac{C M}{M D} \\Rightarrow \\mathrm{IM} / / \\mathrm{BD})%<br>Mà %(\\mathrm{BD} \\perp \\mathrm{AB})% nên %(\\mathrm{MI} \\perp \\mathrm{AB})%<br>Gọi %(\\mathrm{P}, \\mathrm{Q})% lần lượt là giao của %(\\mathrm{AD})% và %((\\mathrm{O}), \\mathrm{BC})% và %((\\mathrm{J}))%<br>Có %(\\mathrm{APB}=\\mathrm{CQD}=90^{\\circ})% (góc nội tiếp chắn nửa đường tròn) %(=\\gt \\mathrm{DPB}=\\mathrm{BQD}=90^{\\circ})%<br>Suy ra %(\\mathrm{BQPD})% là tứ giác nội tiếp %(=>\\mathrm{PDB}=\\mathrm{PQI})%Vì %(\\mathrm{AC} / / \\mathrm{BD})% nên %(\\mathrm{PDB}=\\mathrm{IAC})%<br>\\[\\Rightarrow \\mathrm{PQI}=\\mathrm{IAC}=\\gt \\Delta \\mathrm{PQI} \\sim \\Delta \\mathrm{CAI}(\\mathrm{g} \\cdot \\mathrm{g})=>\\frac{P I}{C I}=\\frac{Q I}{A I} \\Rightarrow I P \\cdot I A=I C \\cdot I Q\\]<br>Suy ra phương tích của điểm %(I)% đối với 2 đường tròn %((O))% và %((\\mathrm{J}))% là bằng nhau Suy ra I nằm trên trục đẳng phương %(\\mathrm{EF})% của 2 đường tròn. Vậy I, E, F thẳng hàng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho ba số thực %(x ; y ; z)% thỏa mãn: %(x^{2}+y^{2}+z^{2} \\leq 9)% Tìm giá trị lớn nhất của biểu thức %(\\mathrm{P}=\\mathrm{x}+\\mathrm{y}+\\mathrm{z}-(\\mathrm{xy}+\\mathrm{yz}+\\mathrm{zx}))%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}(x+y+z)^{2}=\\left(x^{2}+y^{2}+z^{2}\\right)+2(x y+y z+z x) \\leq 9+2(x y+y z+z x) \\\\Rightarrow x y+y z+z x \\geq \\frac{(x+y+z)^{2}-9}{2} \\\\Rightarrow P \\leq x+y+z+\\frac{9-(x+y+z)^{2}}{2}\\end{array}\\]<br>Đặt %(x+y+z=t \\Rightarrow P \\leq t+\\frac{9-t^{2}}{2}=-\\frac{t^{2}-2 t+1}{2}+5=-\\frac{1}{2}(t-1)^{2}+5 \\leq 5)%<br>Dấu bằng xảy ra khi và chỉ khi %(\\left\\{\\begin{array}{l}x+y+z=1 \\\\ x^{2}+y^{2}+z^{2}=9,\\end{array}\\right.)% chẳng hạn khi %(\\mathrm{x}=1, \\mathrm{y}=2, \\mathrm{z}=-2)%<br>Vậy giá trị lớn nhất của %(\\mathrm{P})% là 5 .",
+        "question_type": "essay"
+    }
+]

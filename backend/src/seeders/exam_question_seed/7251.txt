@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(P=\\frac{x+1}{\\sqrt{x}}+\\frac{x \\sqrt{x}-1}{x-\\sqrt{x}}+\\frac{x^{2}-x \\sqrt{x}+\\sqrt{x}-1}{\\sqrt{x}-x \\sqrt{x}})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "a) Rút gọn biểu thức %(P)%.",
+        "question_images": [],
+        "solution": "Điều kiện %(x\\gt 0 ; x \\neq 1)%.Ta có %(\\frac{x \\sqrt{x}-1}{x-\\sqrt{x}}=\\frac{(\\sqrt{x}-1)(x+\\sqrt{x}+1)}{\\sqrt{x}(\\sqrt{x}-1)}=\\frac{x+\\sqrt{x}+1}{\\sqrt{x}})%<br>\\[\\frac{x^{2}-x \\sqrt{x}+\\sqrt{x}-1}{\\sqrt{x}-x \\sqrt{x}}=\\frac{(x-1)(x-\\sqrt{x}+1)}{\\sqrt{x}(1-x)}=\\frac{-x+\\sqrt{x}-1}{\\sqrt{x}} \\text {. }\\]<br>Thay vào %(P)% ta được:<br>\\[P=\\frac{x+1}{\\sqrt{x}}+\\frac{x+\\sqrt{x}+1}{\\sqrt{x}}+\\frac{-x+\\sqrt{x}-1}{\\sqrt{x}}=\\frac{x+1}{\\sqrt{x}}+2 .\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "b) Chứng minh rằng %(P\\gt 4)%.",
+        "question_images": [],
+        "solution": "Ta có với %(x\\gt 0 ; x \\neq 1)% thì %((\\sqrt{x}-1)^{2}>0)%.<br>Suy ra %(x+1>2 \\sqrt{x})%.<br>Do đó, %(P=\\frac{x+1}{\\sqrt{x}}+2>\\frac{2 \\sqrt{x}}{\\sqrt{x}}+2)%.<br>Suy ra %(P>4)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "c) Với những giá trị nào của %(x)% thì biểu thức %(\\frac{6}{P})% nhận giá trị nguyên.",
+        "question_images": [],
+        "solution": "Ta có %(P\\gt 4 \\Rightarrow 0\\lt \\frac{6}{P}\\lt \\frac{3}{2})%.<br>Do đó %(\\frac{6}{P})% nhận giá trị nguyên bằng 1 .<br>Khi đó %(P=6 \\Leftrightarrow \\frac{x+1}{\\sqrt{x}}+2=6 \\Leftrightarrow \\frac{x-4 \\sqrt{x}+1}{\\sqrt{x}}=0)%.<br>\\[\\Leftrightarrow(\\sqrt{x}-2)^{2}=3 \\Leftrightarrow\\left[\\begin{array}{l}\\sqrt{x}=2+\\sqrt{3} \\\\sqrt{x}=2-\\sqrt{3}\\end{array}\\right.\\]<br>Vậy với %(\\left[\\begin{array}{l}x=7+4 \\sqrt{3} \\\\ x=7-4 \\sqrt{3}\\end{array}\\right.)% thì %(\\frac{6}{P})% nhận giá trị nguyên.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Hàm số %(f(x)=\\left(2 x^{3}+24 x-65\\right)^{2020})%. Tính giá trị của %(f(a))% tại %(a=\\sqrt[3]{16-8 \\sqrt{5}}+\\sqrt[3]{16+8 \\sqrt{5}})%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Ta có } a=\\sqrt[3]{16-8 \\sqrt{5}}+\\sqrt[3]{16+8 \\sqrt{5}} \\\\Rightarrow a^{3}=32+3(\\sqrt[3]{(16-8 \\sqrt{5})(16+8 \\sqrt{5})})[\\sqrt[3]{16-8 \\sqrt{5}}+\\sqrt[3]{16+8 \\sqrt{5}}] \\\\Rightarrow a^{3}=32+3(-4)[\\sqrt[3]{16-8 \\sqrt{5}}+\\sqrt[3]{16+8 \\sqrt{5}}] \\\\Rightarrow a^{3}=32-12 a\\end{array}\\]<br>Khi đó %(a^{3}+12 a=32 \\Rightarrow 2\\left(a^{3}+12 a\\right)=64)%.<br>Do đó %(f(a)=\\left[2\\left(a^{3}+12 a\\right)-65\\right]^{2020}=(64-65)^{2220}=1)%.<br>Vậy %(f(a)=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Tìm số tự nhiên %(n)% sao cho %(n^{2}+2021)% là số chính phương.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Giả sử } n^{2}+2021=k^{2} ; k \\in \\mathbb{N}^{*}, k\\gt n . \\\\Rightarrow k^{2}-n^{2}=2021 \\Leftrightarrow(k-n)(k+n)=2021 \\\\Leftrightarrow\\left\\{\\begin{array}{l}k+n=2021 \\k-n=1\\end{array} \\Rightarrow n=1010 .\\right.\\end{array}\\]<br>Với %(n=1010)%, ta có %(n^{2}+2021=(1010)^{2}+2.1010+1=(1011)^{2})%.<br>Vậy %(n=1010)% thỏa mãn yêu cầu bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 3.0,
+        "content": "Tìm các cặp số nguyên dương %((x ; y))% thỏa mãn %(x y+2 x+3 y=27)%.",
+        "question_images": [],
+        "solution": "Ta có %(x y+2 x+3 y=27 \\Leftrightarrow x(y+2)+3(y+2)=33)%.<br>%(\\Leftrightarrow(y+2)(x+3)=33)% (do %(x, y)% nguyên dương).<br>%(\\Leftrightarrow\\left[\\begin{array}{l}y+2=1 \\\\ x+3=33 \\\\ y+2=33 \\\\ x+3=1\\end{array}\\right.)%(1) hoặc %(\\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}y+2=11 \\\\ x+3=3\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}y+2=3 \\\\ x+3=11\\end{array}\\right.\\end{array}\\right.)%(2)<br>Hệ phương trình %((1) \\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}y=-1 \\\\ x=30\\end{array} \\text { (loại do } x\\gt 0 ; y>0\\right) \\\\ \\left\\{\\begin{array}{l}y=31 \\\\ x=-2\\end{array}\\right.\\end{array}\\right.)%<br>Hệ phương trình (2) %(\\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}y=9 \\\\ x=0\\end{array} \\text { (loai) }\\right. \\\\ \\left\\{\\begin{array}{l}y=1 \\\\ x=8\\end{array}\\right.\\end{array}\\right.)%<br>Theo điều kiện bài toán thì cặp số nguyên cần tìm là %((x ; y)=(8 ; 1))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho tam giác %(A B C)% nhọn; các đường cao %(A K ; B D ; C E)% cắt nhau tại %(H)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng: %(\\frac{K C}{K B}=\\frac{A C^{2}+C B^{2}-B A^{2}}{C B^{2}+B A^{2}-A C^{2}})%.",
+        "question_images": [],
+        "solution": "Sử dụng định lý Pytago trong tam giác vuông %(\\triangle A K C)% và %(\\triangle A K B)% ta có<br>\\[A C^{2}=A K^{2}+K C^{2} ; A B^{2}=A K^{2}+K B^{2} \\text {; lại có } B C=B K+K C\\]<br>Thay vào ta được %(\\frac{A C^{2}+C B^{2}-B A^{2}}{C B^{2}+B A^{2}-A C^{2}}=\\frac{A K^{2}+K C^{2}+(B K+K C)^{2}-B A^{2}}{(B K+K C)^{2}+B A^{2}-\\left(A K^{2}+K C^{2}\\right)})%<br>\\[\\begin{array}{l}=\\frac{2 K C^{2}+2 B K \\cdot K C}{2 B K^{2}+2 B K \\cdot K C} \\\\=\\frac{2 K C(B K+K C)}{2 B K(B K+K C)}\\end{array}\\]<br>%(=\\frac{K C}{B K})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/db3b2659d434fe7183ea838c58864979.png\" srcset=\"https://docdn.giainhanh.io/media/test/1adc169c807688e819ca6e60f56633bf.png 200w, https://docdn.giainhanh.io/media/test/205cbfcd33c847234ee769f3087e940e.png 500w, https://docdn.giainhanh.io/media/test/4b6e19ab1e08f9e427fd22e259901aea.png 750w, https://docdn.giainhanh.io/media/test/3348dbb13e33a52365f3e14dbf84fc34.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "b) Giả sử %(H K=\\frac{1}{3} A K)%. Chứng minh rằng: %(\\tan B \\cdot \\tan C=3)%.",
+        "question_images": [],
+        "solution": "Xét trong các tam giác vuông %(\\triangle A K C)% và %(\\triangle A K B)% ta có %(\\tan B=\\frac{A K}{K B} ; \\tan C=\\frac{A K}{K C})%.<br>Do đó, %(\\tan B \\cdot \\tan C=\\frac{A K^{2}}{K B \\cdot K C})%(1) .<br>Ta lại có %(\\hat{B}=\\widehat{K H C} ; \\tan K H C=\\frac{K C}{K H} ; \\hat{C}=\\widehat{K H B} ; \\tan K H B=\\frac{K B}{K H})%.<br>Khi đó %(\\tan B \\cdot \\tan C=\\frac{K B \\cdot K C}{K H^{2}})%.<br>Từ (1) & (2), ta được %((\\tan B \\cdot \\tan C)^{2}=\\left(\\frac{A K}{K H}\\right)^{2})%.<br>Theo đề bài, ta có %(H K=\\frac{1}{3} A K)%.<br>Vậy %(\\tan B \\cdot \\tan C=3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "c) Giả sử diện tích tam giác %(A B C)% bằng %(120 \\mathrm{~cm}^{2})% và %(\\widehat{B A C}=60^{\\circ})%. Tính diện tích tam giác %(A D E)%.",
+        "question_images": [],
+        "solution": "Ta có %(\\widehat{B A C}=60^{\\circ} \\Rightarrow \\widehat{A B D}=30^{\\circ} ; \\widehat{A C E}=30^{\\circ})%.<br>Suy ra %(\\frac{A D}{A B}=\\frac{A E}{A C}=\\frac{1}{2})%.<br>Do đó, %(\\triangle A B C \\sim \\triangle A D E)%.<br>Suy ra %(\\frac{S_{\\triangle A D E}}{S_{\\triangle A B C}}=\\left(\\frac{1}{2}\\right)^{2})%.<br>Vây %(S_{\\triangle A D E}=\\frac{1}{4} S_{\\triangle A B C}=30 \\mathrm{~cm}^{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Cho %(x\\gt 0, y>0, z>0)% và %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=4)%. Chứng minh rằng:<br>\\[\\frac{1}{2 x+y+z}+\\frac{1}{x+2 y+z}+\\frac{1}{x+y+2 z} \\leq 1 .\\]",
+        "question_images": [],
+        "solution": "Ta có với %(x, y\\gt 0: \\frac{1}{x}+\\frac{1}{y} \\geq \\frac{4}{x+y} \\Leftrightarrow \\frac{1}{x+y} \\leq \\frac{1}{4}\\left(\\frac{1}{x}+\\frac{1}{y}\\right))%<br>Áp dụng bất đẳng thức trên ta được<br>\\[\\frac{1}{2 x+y+z} \\leq \\frac{1}{4}\\left(\\frac{1}{2 x}+\\frac{1}{y+z}\\right) ; \\frac{1}{y+z} \\leq \\frac{1}{4 y}+\\frac{1}{4 z}\\]<br>Suy ra %(\\frac{1}{2 x+y+z} \\leq \\frac{1}{4}\\left(\\frac{1}{2 x}+\\frac{1}{4 y}+\\frac{1}{4 z}\\right))%<br>Tương tự ta cũng có %(\\frac{1}{x+2 y+z} \\leq \\frac{1}{4}\\left(\\frac{1}{4 x}+\\frac{1}{2 y}+\\frac{1}{4 z}\\right))%<br>\\[\\frac{1}{x+y+2 z} \\leq \\frac{1}{4}\\left(\\frac{1}{4 x}+\\frac{1}{4 y}+\\frac{1}{2 z}\\right)\\]<br>Từ (1), (2), (3) ta được %(\\frac{1}{2 x+y+z}+\\frac{1}{x+2 y+z}+\\frac{1}{x+y+2 z} \\leq \\frac{1}{4}\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right))%.<br>Vậy %(\\frac{1}{2 x+y+z}+\\frac{1}{x+2 y+z}+\\frac{1}{x+y+2 z} \\leq 1)%; dấu \" %(=)% \" xẩy ra khi %(x=y=z=\\frac{3}{4})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Không dùng máy tính điện tử, hãy tính giá trị của biểu thức:<br>%(P=\\frac{\\left(1^{4}+4\\right)\\left(5^{4}+4\\right)\\left(9^{4}+4\\right) \\ldots\\left(21^{4}+4\\right)}{\\left(3^{4}+4\\right)\\left(7^{4}+4\\right)\\left(11^{4}+4\\right) \\ldots\\left(23^{4}+4\\right)})%.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{aligned}n^{4}+4 & =\\left(n^{2}+2\\right)^{2}-4 n^{2}=\\left(n^{2}+2-2 n\\right)\\left(n^{2}+2-2 n\\right) \\\\& =\\left[(n-1)^{2}+1\\right]\\left[(n+1)^{2}+1\\right]\\end{aligned}\\]<br>Áp dụng vào bài toán, ta có:<br>\\[\\begin{array}{l}1^{4}+4=\\left(0^{2}+1\\right)\\left(2^{2}+1\\right) ; 5^{4}+4=\\left(4^{2}+1\\right)\\left(6^{2}+1\\right) ; \\ldots ; 21^{4}+4=\\left(20^{2}+1\\right)\\left(22^{2}+1\\right) \\\\3^{4}+4=\\left(2^{2}+1\\right)\\left(4^{2}+1\\right) ; 7^{4}+4=\\left(6^{2}+1\\right)\\left(8^{2}+1\\right) ; \\ldots ; 23^{4}+4=\\left(22^{2}+1\\right)\\left(24^{2}+1\\right)\\end{array}\\]<br>Thay vào ta được %(P=\\frac{\\left(0^{2}+1\\right)\\left(2^{2}+1\\right)\\left(4^{2}+1\\right)\\left(6^{2}+1\\right) \\ldots\\left(20^{2}+1\\right)\\left(22^{2}+1\\right)}{\\left(2^{2}+1\\right)\\left(4^{2}+1\\right)\\left(6^{2}+1\\right)\\left(8^{2}+1\\right) \\ldots\\left(22^{2}+1\\right)\\left(24^{2}+1\\right)})%.<br>Vậy %(P=\\frac{1}{\\left(24^{2}+1\\right)}=\\frac{1}{577})%.",
+        "question_type": "essay"
+    }
+]

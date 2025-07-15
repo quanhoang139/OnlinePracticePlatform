@@ -1,0 +1,208 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.25,
+        "content": "Các giá trị %(m)% để tam thức %(f(x)=x^{2}-(m+2) x+8 m+1)% đổi dấu hai lần là",
+        "question_images": [],
+        "labelA": "%(m \\leq 0)% hoặc %(m \\geq 28)%.",
+        "labelB": "%(m\\lt 0)% hoặc %(m\\gt 28)%.",
+        "labelC": "%(0\\lt m\\lt 28)%",
+        "labelD": "%(m\\gt 0)%.",
+        "correct_label": "labelB",
+        "solution": "Tam thức %(f(x)=x^{2}-(m+2) x+8 m+1)% đổi dấu hai lần<br>\\[\\begin{array}{l}\\Leftrightarrow \\Delta\\gt 0 \\Leftrightarrow(m+2)^{2}-4(8 m+1)>0 \\\\Leftrightarrow m^{2}-28 m>0 \\text {. Đặt } f(m)=m^{2}-28 m ; f(m)=0 \\Leftrightarrow\\left[\\begin{array}{l}m=0 \\m=28\\end{array}\\right.\\end{array}\\]<br>Bảng xét dấu:<br>Ta có: %(f(m)=m^{2}-28 m\\gt 0 \\Leftrightarrow\\left[\\begin{array}{l}m>28 \\\\ m\\lt 0\\end{array}\\right.)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/96ff0a22ff25b9fbe69d0f6f626e7506.png\" srcset=\"https://docdn.giainhanh.io/media/test/f842d8e2fa91ec7e9f7e15090d0f0dae.png 245w, https://docdn.giainhanh.io/media/test/6da28e46234e223b2f98642353060c38.png 500w, https://docdn.giainhanh.io/media/test/73c840c3fea10bafa0e99efce4100063.png 750w, https://docdn.giainhanh.io/media/test/03d6821df0463422370fd5cea65f1c22.png 1000w\" width=\"1000\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "2 ",
+        "point": 0.25,
+        "content": "Có 10 cái bút khác nhau và 8 quyển sách giáo khoa khác nhau. Một bạn học sinh cần chọn 1 cái bút và 1 quyển sách. Hỏi bạn học sinh đó có bao nhiêu cách chọn?",
+        "question_images": [],
+        "labelA": "90",
+        "labelB": "70",
+        "labelC": "80",
+        "labelD": "60",
+        "correct_label": "labelC",
+        "solution": "Số cách chọn 1 cái bút có 10 cách, số cách chọn 1 quyển sách có 8 cách.<br>Vậy theo quy tắc nhân, số cách chọn 1 cái bút và 1 quyển sách là: %(10.8=80)% cách.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "3 ",
+        "point": 0.25,
+        "content": "Tập hợp tất cả giá trị của %(n)% thoả mãn %(C_{n+2}^{n-1}+C_{n+2}^{n}\\gt \\frac{5}{2} A_{n}^{2})% là:",
+        "question_images": [],
+        "labelA": "%(n \\geq 5)%",
+        "labelB": "%(n \\geq 3)%",
+        "labelC": "%(n \\geq 2)%",
+        "labelD": "%(n \\geq 4)%",
+        "correct_label": "labelC",
+        "solution": "Điều kiện: %(n \\geq 2, n \\in \\mathbb{N})%.<br>Ta có: %(C_{n+2}^{n-1}+C_{n+2}^{n}\\gt \\frac{5}{2} A_{n}^{2})%<br>\\[\\begin{array}{l}\\Leftrightarrow C_{n+3}^{n}>\\frac{5}{2} A_{n}^{2} \\Leftrightarrow \\frac{(n+3)!}{n!3!}>\\frac{5}{2} \\cdot \\frac{n!}{(n-2)!} \\Leftrightarrow \\frac{(n+1)(n+2)(n+3)}{6}>\\frac{5}{2} \\cdot(n-1) n \\\\Leftrightarrow n^{3}+6 n^{2}+11 n+6>15 n^{2}-15 n \\Leftrightarrow n^{3}-9 n^{2}+26 n+6>0 \\\\Leftrightarrow n\\left(n^{2}-9 n+26\\right)+6>0 \\Leftrightarrow n\\left[\\left(n-\\frac{9}{2}\\right)^{2}+\\frac{23}{4}\\right]+6>0\\left(^{*}\\right) .\\end{array}\\]<br>Dễ thấy %(\\left({ }^{*}\\right))% luôn đúng với mọi %(n \\geq 2)%.<br>Vậy nghiệm của bất phương trình là %(n \\geq 2)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "4 ",
+        "point": 0.25,
+        "content": "Số cách chọn ra 3 học sinh trong 10 học sinh bất kì là",
+        "question_images": [],
+        "labelA": "120",
+        "labelB": "6",
+        "labelC": "30",
+        "labelD": "720",
+        "correct_label": "labelA",
+        "solution": "Số cách chọn ra 3 học sinh trong 10 học sinh bất kì là %(C_{10}^{3}=120)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "5 ",
+        "point": 0.25,
+        "content": "Tìm hệ số của %(x^{2})% trong khai triển: %(f(x)=\\left(x^{3}+\\frac{1}{x^{2}}\\right)^{n})%, với %(x\\gt 0)%, biết: %(C_{n}^{0}+C_{n}^{1}+C_{n}^{2}=11)%.",
+        "question_images": [],
+        "labelA": "20.",
+        "labelB": "6.",
+        "labelC": "7.",
+        "labelD": "15.",
+        "correct_label": "labelB",
+        "solution": "Ta có: %(C_{n}^{0}+C_{n}^{1}+C_{n}^{2}=11 \\Leftrightarrow 1+n+\\frac{n(n-1)}{2}=11 \\Leftrightarrow\\left[\\begin{array}{l}n=4 \\\\ n=-5\\end{array}\\right.)%.<br>Số hạng tổng quát của khai triển %(\\left(x^{3}+\\frac{1}{x^{2}}\\right)^{4})% là %(T_{k+1}=C_{4}^{k}\\left(x^{3}\\right)^{4-k}\\left(\\frac{1}{x^{2}}\\right)^{k}=C_{4}^{k} x^{12-5 k})%.<br>Số hạng chứa %(x^{2})% trong khai triển ứng với số mũ của %(x)% là: %(12-5 k=2 \\Leftrightarrow k=2)%.<br>Vậy hệ số của %(x^{2})% trong khai triển là: %(C_{4}^{2}=6)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "6 ",
+        "point": 0.25,
+        "content": "Tính tổng các hệ số trong khai triển nhị thức Niu-tơn của %((1-2 x)^{4})%.",
+        "question_images": [],
+        "labelA": "1.",
+        "labelB": "−1.",
+        "labelC": "81.",
+        "labelD": "−81.",
+        "correct_label": "labelA",
+        "solution": "Tổng các hệ số trong khai triển nhị thức Niu-tơn của %((2 x-3)^{4})% chính là giá trị của biểu thức %((2 x-3)^{4})% tại %(x=1)%.<br>Vậy %(S=(1-2 \\cdot 1)^{4}=1)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "7 ",
+        "point": 0.25,
+        "content": "Cho 2 điểm %(A(1 ;-4), B(3 ; 2))%. Viết phương trình tổng quát đường trung trực của đoạn thẳng %(A B)%",
+        "question_images": [],
+        "labelA": "%(3 x+y+1=0)%",
+        "labelB": "%(x+3 y+1=0)%",
+        "labelC": "%(3 x-y+4=0)%",
+        "labelD": "%(x+y-1=0)%",
+        "correct_label": "labelB",
+        "solution": "Gọi %(I(2 ;-1))% là trung điểm %(A B ; \\overrightarrow{A B}=(2 ; 6)=2(1 ; 3))%.<br>Đường trung trực của đoạn %(A B)% đi qua %(I)% và nhận %(\\vec{n}=(1 ; 3))% làm vectơ pháp tuyến nên có phương trình tổng quát: %(1(x-2)+3(y+1)=0 \\Leftrightarrow x+3 y+1=0)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "8 ",
+        "point": 0.25,
+        "content": "Cho đường tròn %((C): x^{2}+y^{2}-4 x-2 y+4-m^{2}=0)% và %(\\Delta: x+y-1=0)%",
+        "question_images": [],
+        "labelA": "Với %(m\\lt -1 \\vee m\\gt 1)% thì %(\\Delta)% cắt %((C))%.",
+        "labelB": "%(\\Delta)% luôn tiếp xúc với %((C) \\forall m)%.",
+        "labelC": "%(\\Delta)% đi qua tâm của %((C) \\forall m)%.",
+        "labelD": "Với %(m\\gt 3)% thì %(\\Delta)% không cắt (C).",
+        "correct_label": "labelA",
+        "solution": "%((C))% : có tâm %(I(2 ; 1), R=\\sqrt{m^{2}+1})% và %(d[I, \\Delta]=\\sqrt{2})%<br>Để %(\\Delta)% cắt %((C))% thì %(d[I, \\Delta]\\lt R \\Leftrightarrow \\sqrt{2}\\lt \\sqrt{m^{2}+1} \\Leftrightarrow m^{2}\\gt 1 \\Leftrightarrow m\\lt -1 \\vee m>1)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "9 ",
+        "point": 0.25,
+        "content": "Phương trình chính tắc của parabol %((P))% có đường chuẩn %(x=-2)% là:",
+        "question_images": [],
+        "labelA": "%(y^{2}=8 x)%",
+        "labelB": "%(y^{2}=6 x)%",
+        "labelC": "%(y^{2}=4 x)%",
+        "labelD": "%(y^{2}=x)%",
+        "correct_label": "labelA",
+        "solution": "%((P))% có đường chuẩn %(x=-2 \\Rightarrow \\frac{p}{2}=2 \\Rightarrow p=4 \\Rightarrow(P): y^{2}=8 x)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "10 ",
+        "point": 0.25,
+        "content": "Đường Elip %(\\frac{x^{2}}{16}+\\frac{y^{2}}{7}=1)% có tiêu cự bằng:",
+        "question_images": [],
+        "labelA": "18.",
+        "labelB": "6.",
+        "labelC": "9.",
+        "labelD": "3.",
+        "correct_label": "labelB",
+        "solution": "Từ giả thiết suy ra %(a^{2}=16, b^{2}=7 \\Rightarrow c^{2}=9 \\Rightarrow c=3)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "11 ",
+        "point": 0.25,
+        "content": "Gieo một đồng tiền 5 lần. Số phần tử của biến cố B: \"Mặt sấp xuất hiện ít nhất một lần\"?",
+        "question_images": [],
+        "labelA": "%(n(B)=31)%",
+        "labelB": "%(n(B)=32)%",
+        "labelC": "%(n(B)=33)%",
+        "labelD": "%(n(B)=34)%",
+        "correct_label": "labelA",
+        "solution": "%(n(\\Omega)=2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 2=32)%. Kết quả 5 lần gieo mà không có lần nào xuất hiện mặt sấp là 1 .<br>Vậy %(n(B)=32-1=31)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "12 ",
+        "point": 0.25,
+        "content": "Gieo ngẫu nhiên hai con súc sắc cân đối và đồng chất. Xác suất để sau hai lần gieo kết quả như nhau là:",
+        "question_images": [],
+        "labelA": "%(\\frac{5}{36})%",
+        "labelB": "%(\\frac{1}{6})%",
+        "labelC": "%(\\frac{1}{2})%",
+        "labelD": "1",
+        "correct_label": "labelB",
+        "solution": "%(n(\\Omega)=6.6=36, A=\\{(1 ; 1) ;(2 ; 2) ;(3 ; 3) ;(4 ; 4) ;(5 ; 5) ;(6 ; 6)\\})%<br>%(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{6}{36}=\\frac{1}{6})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "17 ",
+        "point": 0.5,
+        "content": "Cho tam giác %(A B C)% vuông tại %(A)% có %(B C=6 \\mathrm{~cm})%. Điểm %(D)% nằm trên tia %(A B)% sao cho %(D B=3 \\mathrm{~cm}, D C=8 \\mathrm{~cm})% (xem hình vẽ). Đặt %(A C=x)%. Tính diện tích tam giác %(B C D)% (làm tròn kết quả đến hàng phân mười).",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/99ae6da9b08112c384899bdd5960fe94.PNG"
+        ],
+        "solution": "Áp dụng định lí Pytago cho tam giác %(A B C)% vuông tại %(A)%, ta được: %(A C^{2}+A B^{2}=B C^{2})%.<br>Suy ra %(A B=\\sqrt{B C^{2}-A C^{2}}=\\sqrt{6^{2}-x^{2}}=\\sqrt{36-x^{2}}(\\mathrm{~cm}))%.<br>Áp dụng định lí Pytago cho tam giác %(A C D)% vuông tại %(A)%, ta được: %(A C^{2}+A D^{2}=C D^{2})%.<br>Suy ra %(A D=\\sqrt{C D^{2}-A C^{2}}=\\sqrt{8^{2}-x^{2}}=\\sqrt{64-x^{2}}(\\mathrm{~cm}))%.<br>Mà %(A B+B D=A D)% nên %(\\sqrt{36-x^{2}}+3=\\sqrt{64-x^{2}})%<br>Bình phương hai vế của phương trình (1), ta được:<br>\\[36-x^{2}+6 \\sqrt{36-x^{2}}+9=64-x^{2} \\Rightarrow \\sqrt{36-x^{2}}=\\frac{19}{6} \\Rightarrow x^{2}=\\frac{935}{36} \\Rightarrow x \\approx 5,1 \\text {. }\\]<br>Diện tích của tam giác %(B C D)% là: %(\\frac{1}{2} \\cdot 5,1 \\cdot 3=7,65\\left(\\mathrm{~cm}^{2}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "18 ",
+        "point": 0.5,
+        "content": "Câu 2. Cho đường thẳng %(\\Delta: 3 x+4 y-6=0)% và %(\\Delta^{\\prime}: x+y=1)%. Tìm tọa độ điểm %(M)% thuộc %(\\Delta^{\\prime})% sao cho khoảng cách từ %(M)% đến %(\\Delta)% bằng %(\\frac{4}{5})%.",
+        "question_images": [],
+        "solution": "Viết phương trình tham số %(\\Delta^{\\prime}:\\left\\{\\begin{array}{l}x=t \\\\ y=1-t\\end{array}\\right.)%; gọi %(M(t ; 1-t) \\in \\Delta^{\\prime})%.<br>Ta có: %(d(M, \\Delta)=\\frac{|3 t+4(1-t)-6|}{\\sqrt{3^{2}+4^{2}}}=\\frac{|-t-2|}{5}=\\frac{4}{5} \\Rightarrow|t+2|=4 \\Rightarrow\\left[\\begin{array}{l}t+2=4 \\\\ t+2=-4\\end{array} \\Rightarrow\\left[\\begin{array}{l}t=2 \\\\ t=-6\\end{array}\\right.\\right.)%.<br>Vậy có hai điểm thỏa mãn đề bài là: %((2 ;-1),(-6 ; 7))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "19 ",
+        "point": 0.5,
+        "content": "Cho parabol %((P))% có tiêu điểm %(F(1 ; 0))% và đường thẳng %(d: x+6 m=0)%. Xác định %(m)% để parabol %((P))% và đường thẳng %(d)% cắt nhau tại hai điểm phân biệt.",
+        "question_images": [],
+        "solution": "Gọi phương trình parabol %((P))% có dạng: %(y^{2}=2 p x(p\\gt 0))%.<br>Parabol %((P))% có tiêu điểm %(F(1 ; 0) \\Rightarrow \\frac{p}{2}=1 \\Rightarrow p=2 \\Rightarrow y^{2}=4 x \\Rightarrow x=\\frac{y^{2}}{4})%.<br>Ta có phương trình đường thẳng %(d: x+6 m=0 \\Rightarrow x=-6 m)%.<br>Phương trình tung độ giao điểm của %((P))% và %(d)% là: %(\\frac{y^{2}}{4}=-6 m \\Leftrightarrow y^{2}=-24 m \\cdot\\left({ }^{*}\\right))%<br>Để %((P))% và %(d)% có hai giao điểm phân biệt thì phương trình %(\\left({ }^{*}\\right))% có hai nghiệm phân biệt hay %(-24 m>0 \\Leftrightarrow m\\lt 0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "20 ",
+        "point": 0.5,
+        "content": "Có bao nhiêu số tự nhiên có bảy chữ số khác nhau từng đôi một, trong đó chữ số 2 đứng liền giữa hai chữ số 1 và 3 .",
+        "question_images": [],
+        "solution": "Vì chữ số 2 đứng liền giữa hai chữ số 1 và 3 nên số cần lập có bộ ba số 123 hoặc 321 ,<br><strong>TH1: </strong>Số cần lập có bộ ba số 123 .Nếu bộ ba số 123 đứng đầu thì số có dạng %(\\overline{123 a b c d})%.<br>Có %(A_{7}^{4}=840)% cách chọn bốn số %(a, b, c, d)% nên có %(A_{7}^{4}=840)% số,<br>Nếu bộ ba số 123 không đứng đầu thì số có 4 vị trí đặt bộ ba số 123 ,<br>Có 6 cách chọn số đứng đầu và có %(A_{6}^{3}=120)% cách chọn ba số %(b, c, d)%,<br>Theo quy tắc nhân có %(6 \\cdot 4 \\cdot A_{6}^{3}=2880)% số.<br>Theo quy tắc cộng có %(840+2880=3720)% số.<br><strong>TH2:</strong> Số cần lập có bộ ba số 321 .<br>Do vai trò của bộ ba số 123 và 321 như nhau nên có %(2(840+2880)=7440)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "21 ",
+        "point": 0.5,
+        "content": "Bác An gửi vào ngân hàng 200 000 000 đồng với lãi suất %(7 \\%)% /năm. Hãy ước tính số tiền (cả vốn lẫn lãi) mà bác An nhận được sau 5 năm gửi ngân hàng.",
+        "question_images": [],
+        "solution": "Số tiền (cả vốn lẫn lãi) mà bác An nhận được sau 1 năm là: %(200000000+7 \\% \\cdot 200000000=200000000 \\cdot\\left(1+\\frac{7}{100}\\right))% (đồng)<br>Số tiền (cả vốn lẫn lãi) mà bác An nhận được sau 2 năm là:<br>\\[\\left[200000000 \\cdot\\left(1+\\frac{7}{100}\\right)\\right]+7 \\% \\cdot\\left[200000000 \\cdot\\left(1+\\frac{7}{100}\\right)\\right]=200000000 \\cdot\\left(1+\\frac{7}{100}\\right)^{2} \\text { (dồng) }\\]<br>Từ đó suy ra số tiền (cả vốn lẫn lãi) mà bác An nhận được sau 5 năm là: %(200000000 \\cdot\\left(1+\\frac{7}{100}\\right)^{5})% (đồng)<br>Vì %(\\left(1+\\frac{7}{100}\\right)^{5} \\approx 1^{5}+5 \\cdot 1^{4} \\cdot \\frac{7}{100}+10 \\cdot 1^{3} \\cdot\\left(\\frac{7}{100}\\right)^{2}=1,399)% nên số tiền mà bác An nhận được sau 5 năm gửi ngân hàng khoảng: %(200000000 \\cdot 1,399=279800000)% (đồng)",
+        "question_type": "essay"
+    },
+    {
+        "title": "22 ",
+        "point": 0.5,
+        "content": "Chọn ngẫu nhiên 2 số trong tập hợp %(X=\\{1 ; 2 ; 3 ; \\ldots ; 50\\})%. Tính xác suất của biến cố sau: A : \"Hai số được chọn là số chẵn\";",
+        "question_images": [],
+        "solution": "Số cách chọn 2 số từ tập hợp %(X)% gồm 50 số là: %(C_{50}^{2}=1225)% (cách).<br>Do đó, %(n(\\Omega)=1225)%.<br>Trong tập hợp X có 25 số chẵn %(\\{2 ; 4 ; 6 \\ldots ; 50\\})%, nên số cách lấy ra 2 số chẵn là: %(C_{25}^{2}=300)% (cách).<br>Do đó, %(n(A)=300)%.<br>Xác suất của biến cố %(A)% là: %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{300}{1225}=\\frac{12}{49})%.",
+        "question_type": "essay"
+    }
+]

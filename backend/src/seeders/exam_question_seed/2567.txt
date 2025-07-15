@@ -1,0 +1,88 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(A=\\left(1-\\frac{a-3 \\sqrt{a}}{a-9}\\right):\\left(\\frac{\\sqrt{a}-2}{\\sqrt{a}+3}+\\frac{\\sqrt{a}-3}{2-\\sqrt{a}}-\\frac{9-a}{a+\\sqrt{a}-6}\\right)(a \\geq 0 ; a \\neq 4 ; a \\neq 9))%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Rút gọn %(\\mathrm{A})%.",
+        "question_images": [],
+        "solution": "Với %(\\mathrm{a} \\geq 0, \\mathrm{a} \\neq 4, \\mathrm{a} \\neq 9)%, ta có:<br>%(\\begin{array}{l}A=\\left(1-\\frac{a-3 \\sqrt{a}}{a-9}\\right):\\left(\\frac{\\sqrt{a}-2}{\\sqrt{a}+3}+\\frac{\\sqrt{a}-3}{2-\\sqrt{a}}-\\frac{9-a}{a+\\sqrt{a}-6}\\right) \\\\ =\\frac{a-9-a+3 \\sqrt{a}}{a-9}: \\frac{(\\sqrt{a}-2)^{2}-(\\sqrt{a}-3)(\\sqrt{a}+3)-9+a}{(\\sqrt{a}+3)(\\sqrt{a}-2)} \\\\ =\\frac{-9+3 \\sqrt{a}}{(\\sqrt{a}-3)(\\sqrt{a}+3)}: \\frac{(\\sqrt{a}-2)^{2}-(a-9)-(9-a)}{(\\sqrt{a}+3)(\\sqrt{a}-2)} \\\\ =\\frac{3(\\sqrt{a}-3)}{(\\sqrt{a}-3)(\\sqrt{a}+3)}: \\frac{(\\sqrt{a}-2)^{2}}{(\\sqrt{a}+3)(\\sqrt{a}-2)} \\\\ =\\frac{3}{\\sqrt{a}+3}: \\frac{\\sqrt{a}-2}{\\sqrt{a}+3} \\\\ =\\frac{3}{\\sqrt{a}+3} \\cdot \\frac{\\sqrt{a}+3}{\\sqrt{a}-2} \\\\ =\\frac{3}{\\sqrt{a}-2}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm %(\\mathrm{a})% để %(\\mathrm{A}+|\\mathrm{A}|=0)%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}A+|A|=0 \\\\lt =\\gt |A|=-A \\\\Leftrightarrow=A \\leq 0 \\\\Leftrightarrow>\\frac{3}{\\sqrt{a}-2} \\leq 0 \\\\Leftrightarrow>\\sqrt{a}-2\\lt 0 \\\\Leftrightarrow>0 x\\lt 4\\end{array}\\]<br>Kết hợp với điều kiện, ta có %(0 \\leq \\mathrm{a}\\lt 4)% là giá trị cần tìm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(\\sqrt{29-x}+\\sqrt{x+3}=x^{2}-26 x+177)%",
+        "question_images": [],
+        "solution": "%(\\sqrt{29-x}+\\sqrt{x+3}=x^{2}-26 x+177)% (1)<br>ĐK: %(-3 \\leq x \\leq 29)%.<br>Với mọi %(a , b \\ge 0)% ta có:<br>%(\\left . \\begin{matrix} \\left( a - b \\right )^{2} \\ge 0 \\\\ \\le a^{2} + b^{2} \\ge 2 a b \\\\ \\le 2 \\left( a^{2} + b^{2} \\right ) \\ge \\left( a + b \\right )^{2} \\\\ \\le a + b \\le \\sqrt{2 \\left( a^{2} + b^{2} \\right )} \\end{matrix} \\right .)%,<br>Thay %(a=\\sqrt{29-x} ; b=\\sqrt{x+3})% ta có:<br>Thay %(a=\\sqrt{29-x} ; b=\\sqrt{x+3})% ta có:<br>\\[\\begin{array}{l}\\sqrt{29-x}+\\sqrt{x+3} \\leq \\sqrt{2(29-x+x+3)}=8 \\x^{2}-26 x+177=(x-13)^{2}+8 \\geq 8 \\\\Rightarrow \\sqrt{29-x}+\\sqrt{x+3} \\leq x^{2}-26 x+177\\end{array}\\]<br>Dấu \"=\" xảy ra khi %(\\left\\{\\begin{array}{l}\\sqrt{29-x}=\\sqrt{x+3} \\\\ x-13=0\\end{array} \\Leftrightarrow\\gt x=13\\right.)%<br>Do đó (1) %(\\Leftrightarrow x=13)% (thỏa mãn)<br>Vậy tập nghiệm của phương trình (1) là %(\\{13\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x^{2}-2 y^{2}=x y+x+y \\\\ x \\sqrt{2 y}-y \\sqrt{x-1}=2 x-y+1\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "\\[\\left\\{\\begin{array}{l}x^{2}-2 y^{2}=x y+x+y(1) \\x \\sqrt{2 y}-y \\sqrt{x-1}=2 x-y+1(2)\\end{array}\\right.\\]<br>ĐK: %(\\mathrm{x} \\geq 1, \\mathrm{y} \\geq 0)%Ta có<br>\\[\\begin{array}{l}\\text { (1) } \\Leftrightarrow\\gt x^{2}-x y-2 y^{2}=x+y \\\\Leftrightarrow=(x+y)(x-2 y)=x+y \\\\Leftrightarrow>(x+y)(x-2 y-1)=0\\end{array}\\]<br>%(\\geq 1+0=1>0)%<br>\\[\\Leftrightarrow x-2 y-1=0\\]<br>%(\\Leftrightarrow x-2 y-1=0)%<br>Do đó:<br>\\[\\begin{array}{l}(I)\\lt =\\gt \\left\\{\\begin{array}{l}x=2 y+1 \\\\(2 y+1) \\sqrt{2 y}-y \\sqrt{2 y}=2(2 y+1)-y+1\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { x = 2 y + 1 } \\\\{ ( y + 1 ) \\sqrt { 2 y } = 2 y + 3 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=2 y+1 \\\\(y+1)(\\sqrt{2 y}-3)=0\\end{array}\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { x = 2 y + 1 } \\\\{ \\sqrt { 2 y } = 3 ( \\text { Do } y + 1 > 0 ) }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}y=\\frac{9}{2} \\x=10\\end{array}\\right.\\right.\\end{array}\\]<br>(thỏa mãn điều kiện)<br>Vậy hệ phương trình có nghiệm duy nhất %(\\left(10 ; \\frac{9}{2}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Cho hai phương trình: %(x^{2}+b x+c=0(1) ; x^{2}-b^{2} x+b c=0(2))% (trong đó %(\\mathrm{x})% là ẩn, %(\\mathrm{b})% và %(\\mathrm{c})% là các tham số). Biết phương trình (1) có hai nghiệm %(x_{1})% và %(x_{2})%, phương trình (2) có hai nghiệm %(x_{3})% và %(x_{4})% thỏa mãn điều kiện %(x_{3}-x_{1}=x_{4}-x_{2}=1)%. Xác định b và %(\\mathrm{c})%.<br>Chứng minh rằng nếu p là số nguyên tố lớn hơn 3 thì %((\\mathrm{p}+1)(\\mathrm{p}-1))% chia hết cho 24 .",
+        "question_images": [],
+        "solution": "Vì %(x_{3}-x_{1}=x_{4}-x_{2}=1 \\Rightarrow x_{3}=x_{1}+1 ; x_{4}=x_{2}+1)%<br>Áp dụng định lý Vi-ét cho phương trình (1) và phương trình (2) có:<br>\\[\\begin{array}{l}\\left\\{\\begin{array}{l}x_{1}+x_{2}=-b \\x_{1} x_{2}=c\\end{array}\\right. \\\\left\\{\\begin{array}{l}x_{3}+x_{4}=b^{2}=\\left(x_{1}+1\\right)+\\left(\\mathrm{x}_{2}+1\\right)=-b+2 \\x_{3} x_{4}=b c=\\left(x_{1}+1\\right)\\left(x_{2}+1\\right)=\\left(x_{1}+x_{2}\\right)+x_{1} x_{2}+1=-b+c+1\\end{array}\\right. \\\\=\\gt \\left\\{\\begin{array} { l } { b ^ { 2 } + b - 2 = 0 } \\\\{ b c + b - c - 1 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { ( b - 1 ) ( b + 2 ) = 0 } \\\\{ ( \\mathrm { c } + 1 ) ( \\mathrm { b } - 1 ) = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}{\\left[\\begin{array}{l}b=1 \\b=-2\\end{array}\\right.} \\c=-1\\end{array}\\right.\\right.\\right. \\\\end{array}\\]<br>Nếu %(\\mathrm{b}=1)% thì (1) có nghiệm %(\\lt =>\\Delta=1-4 c \\geq 0\\lt =>c \\leq \\frac{1}{4})%<br>Thử lại:<br>(1) %(\\lt =>x^{2}+x+c=0 \\Leftrightarrow x=\\frac{-1 \\pm \\sqrt{1-4 c}}{2})%<br>(2) %(\\lt =>x^{2}-x+c=0 \\Leftrightarrow x=\\frac{1 \\pm \\sqrt{1-4 c}}{2})%(thỏa mãn)<br>Nếu %(b=-2, c=-1)% thì<br>(1) %(\\Leftrightarrow\\gt x^{2}-2 x-1=0 \\Leftrightarrow x=1 \\pm \\sqrt{2})%<br>(2) %(\\lt =>x^{2}-4 x+2=0 \\Leftrightarrow x=2 \\pm \\sqrt{2})%(thỏa mãn)<br>Vậy %(\\mathrm{b}=1, c \\leq \\frac{1}{4})% hoặc %(\\mathrm{b}=-2, \\mathrm{c}=-1)%.<br>Đặt %(\\mathrm{A}=(\\mathrm{p}+1)(\\mathrm{p}-1))%<br>Vì p là số nguyên tố lớn hơn 3 nên p không chia hết cho 2 và 3 .<br>\\[\\begin{array}{l}p \\text { lé } \\Rightarrow p=2 k+1\\left(k \\in N^{*}\\right) \\\\Rightarrow A=(2 k+2) \\cdot 2 k=4 k(k+1)\\end{array}\\]<br>%(\\mathrm{k})% và %(\\mathrm{k}+1)% là hai số tự nhiên liên tiếp nên có một số chia hết cho %(2 \\Rightarrow \\mathrm{k}(\\mathrm{k}+1))% : 2<br>%(\\Rightarrow \\mathrm{A}: 8(1))%<br>Vì p không chia hết cho 3 nên %(p=3 m+1)% hoặc %(p=3 m-1\\left(m \\in N^{*}\\right))%<br>Nếu %(\\mathrm{p}=3 \\mathrm{~m}+1 \\Rightarrow \\mathrm{p}-1: 3 \\Rightarrow \\mathrm{A} \\vdots 3)%<br>Nếu %(p=3 m-1 \\Rightarrow p+1: 3 \\Rightarrow A \\vdots 3)%<br>Vậy A : 3 (2)<br>Từ (1) và (2), với chú ý %((3 ; 8)=1 \\Rightarrow \\mathrm{A} \\vdots 24)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho hai đường tròn %((O ; R))% và %(\\left(O^{\\prime} ; R^{\\prime}\\right))% cắt nhau tại hai điểm phân biệt %(A)% và %(B)%. Từ một điểm %(C)% thay đổi trên tia đối của tia %(A B)%, vẽ các tiếp tuyến %(C D, C E)% với đường tròn tâm %(O(D, E)% là các tiếp điểm và %(\\mathrm{E})% nằm trong đường tròn tâm %(\\mathrm{O}^{\\prime})% ). Hai đường thẳng %(\\mathrm{AD})% và %(\\mathrm{AE})% cắt đường tròn tâm %(\\mathrm{O})% ' lần lượt tại %(\\mathrm{M})% và %(\\mathrm{N}(\\mathrm{M})% và %(\\mathrm{N})% khác %(\\mathrm{A}))%. Đường thẳng %(\\mathrm{DE})% cắt %(\\mathrm{MN})% tại %(\\mathrm{I})%.Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.25,
+        "content": "a) Bốn điểm %(\\mathrm{B}, \\mathrm{D}, \\mathrm{M}, \\mathrm{I})% cùng thuộc một đường tròn.",
+        "question_images": [],
+        "solution": "Vì DAEB là tứ giác nội tiếp nên %(\\mathrm{DAB}=\\mathrm{DEB})%<br>Vì %(A B N M)% là tứ giác nội tiếp nên %(D A B=B N I)%<br>Do đó %(\\mathrm{DEB}=\\mathrm{BNI}=\\gt \\mathrm{BEI}+\\mathrm{BNI}=180^{\\circ})%<br>%(\\Rightarrow \\mathrm{BEIN})% là tứ giác nội tiếp<br>\\[\\Rightarrow \\mathrm{BEN}=\\mathrm{BIN}\\]<br>Vì %(\\mathrm{DAEB})% là tứ giác nội tiếp nên %(\\mathrm{BEN}=\\mathrm{ADB})%<br>Do đó %(\\mathrm{BIN}=\\mathrm{ADB}=>\\mathrm{BIM}+\\mathrm{MDB}=180^{\\circ})%<br>%(\\Rightarrow \\mathrm{BDMI})% là tứ giác nội tiếp<br>%(\\Rightarrow \\mathrm{B}, \\mathrm{D}, \\mathrm{I}, \\mathrm{M})% cùng thuộc một đường tròn.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f6fafdb0a8e515904fb207ec16fde78a.png\" srcset=\"https://docdn.giainhanh.io/media/test/4e57ee8b4987feff11a4836eb41eea7f.png 203w\" width=\"203\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) MI. %(B E=)% BI.AE",
+        "question_images": [],
+        "solution": "Vì %(\\mathrm{ABNM})% là tứ giác nội tiếp nên %(\\mathrm{BAE}=\\mathrm{BMI})% (1)<br>Vì DAEB và %(D M I B)% là các tứ giác nội tiếp nên<br>%(\\mathrm{ABE}=\\mathrm{ADE})% và %(\\mathrm{MBI}=\\mathrm{ADE} \\Rightarrow \\mathrm{ABE}=\\mathrm{MBI}(2))%<br>Từ (1) và %((2) \\Rightarrow \\operatorname{tam})% giác %(\\mathrm{BAE})% đồng dạng với tam giác %(\\mathrm{BMI}(\\mathrm{g} \\cdot \\mathrm{g}) \\Rightarrow \\frac{B E}{B I}=\\frac{A E}{M I} \\Rightarrow M I \\cdot B E=B I \\cdot A E)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.25,
+        "content": "c) Khi điểm %(\\mathrm{C})% thay đổi trên tia đối của tia %(\\mathrm{AB})% thì đường thẳng %(\\mathrm{DE})% luôn đi qua một điểm cố định.",
+        "question_images": [],
+        "solution": "Ta chứng minh %(\\mathrm{AD} . \\mathrm{BE}=\\mathrm{AE} . \\mathrm{BD})%<br>Vì %(\\mathrm{CD})% là tiếp tuyến của %((\\mathrm{O}))% nên<br>\\[\\mathrm{CDA}=\\mathrm{CBD}\\]<br>=> tam giác CDA đồng dạng với tam giác CBD (g.g)<br>\\[\\Rightarrow \\frac{D A}{B D}=\\frac{C D}{C B}\\]<br>Chứng minh tương tự ta có %(=>\\frac{E A}{E B}=\\frac{C E}{C B})%<br>Mà theo tính chất tiếp tuyến ta có %(\\mathrm{CD}=\\mathrm{CE})% nên %(\\frac{D A}{B D}=\\frac{E A}{E B} \\Rightarrow A D \\cdot B E=A E \\cdot B D)%<br>Ta chứng minh %(\\mathrm{DE})% đi qua điểm %(\\mathrm{K})% là giao hai tiếp tuyến tại %(\\mathrm{A})% và %(\\mathrm{B})% của %((\\mathrm{O}))%<br>Gọi %(K_{1}, K_{2})% lần lượt là giao điểm của %(D E)% với tiếp tuyến của %((O))% tại %(A)% và %(B)%.<br>Khi đó<br>\\[\\begin{array}{l}K_{1} A E=K_{1} D A=\\Delta K_{1} A E \\sim \\Delta K_{1} D A(g \\cdot g)=>\\frac{A E}{A D}=\\frac{K_{1} E}{K_{1} A}=\\frac{K_{1} A}{K_{1} D} \\\\Rightarrow\\left(\\frac{A E}{A D}\\right)^{2}=\\frac{K_{1} E}{K_{1} A} \\cdot \\frac{K_{1} A}{K_{1} D}=\\frac{K_{1} E}{K_{1} D}\\end{array}\\]<br>Chứng minh tương tự ta có:<br>\\[\\left(\\frac{B E}{B D}\\right)^{2}=\\frac{K_{2} E}{K_{2} D}\\]<br>\\[\\text { Mà } \\mathrm{AD} \\cdot \\mathrm{BE}=\\mathrm{AE} \\cdot \\mathrm{BD} \\Rightarrow \\frac{A E}{A D}=\\frac{B E}{B D} \\Rightarrow \\frac{K_{1} E}{K_{1} D}=\\frac{K_{2} E}{K_{2} D}\\]<br>Do %(K_{1})% và %(K_{2})% đều nằm ngoài đoạn %(D E)% nên %(K_{1})% và %(K_{2})% chia ngoài đoạn %(D E)% theo các tỷ số bằng nhau %(\\Rightarrow \\mathrm{K}_{1} \\equiv \\mathrm{K}_{2} \\equiv \\mathrm{K})%.<br>Vậy %(\\mathrm{DE})% luôn đi qua điểm %(\\mathrm{K})% cố định.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là các số dương thỏa mãn điều kiện %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}=3)%. Tìm giá trị lớn nhất của biểu thức:<br>\\[P=\\frac{5 b^{3}-a^{3}}{a b+3 b^{2}}+\\frac{5 c^{3}-b^{3}}{b c+3 c^{2}}+\\frac{5 a^{3}-c^{3}}{c a+3 a^{2}}\\]",
+        "question_images": [],
+        "solution": "Xét<br>\\[\\begin{array}{l}\\frac{5 b^{3}-a^{3}}{a b+3 b^{2}}-(2 b-a)=\\frac{5 b^{3}-a^{3}-\\left(a b+3 b^{2}\\right)(2 b-a)}{a b+3 b^{2}} \\\\=\\frac{5 b^{3}-a^{3}-\\left(2 a b^{2}-a^{2} b+6 b^{3}-3 b^{2} a\\right)}{a b+3 b^{2}}=\\frac{-b^{5}-a^{3}+a^{2} b+b^{2} a}{a b+3 b^{2}} \\\\=\\frac{-(a+b)(a-b)^{2}}{a b+3 b^{2}} \\leq 0 \\\\=\\gt \\frac{5 b^{3}-a^{3}}{a b+3 b^{2}} \\leq 2 b-a\\end{array}\\]<br>Ta có 2 BĐT tương tự:<br>\\[\\begin{array}{l}\\frac{5 c^{3}-b^{3}}{b c+3 c^{2}} \\leq 2 c-b \\\\frac{5 a^{3}-c^{3}}{c a+3 a^{2}} \\leq 2 a-c\\end{array}\\]<br>Cộng từng vế 3 BĐT trên ta được:<br>\\[P \\leq 2(a+b+c)-(a+b+c)=a+b+c=3\\]<br>Dấu bằng xảy ra %(\\Leftrightarrow\\left\\{\\begin{array}{l}a=b=c \\\\ a+b+c=3\\end{array} \\Leftrightarrow=\\gt a=b=c=1\\right.)%<br>Vậy giá trị lớn nhất của %(P)% là %(3 \\Leftrightarrow a=b=c=1)%.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,121 @@
+[
+    {
+        "title": "1 ",
+        "point": 3.0,
+        "content": "Một cái chậu gỗ khối lượng %(\\mathrm{M})%, có thành trong là nửa mặt cẩu bán kính %(\\mathrm{R}=32 \\mathrm{~cm})%. Một viên bi nhỏ, khối lượng %(\\mathrm{m}=\\frac{1}{5} \\mathrm{M})% nằm ở đáy chậu như hình vẽ (Hình 1). Truyền cho chậu vận tốc ban đầu %(\\vec{v}_{0})% theo phương ngang. Tìm điểu kiện của %(v_{0})% để bi không vượt khòi thành chậu. Bò qua mọi ma sát. Cho %(\\mathrm{g}=10 \\mathrm{~m} / \\mathrm{s}^{2})%.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/231fffaf9003331a48c662f6b95eb7be.png"
+        ],
+        "solution": "Gọi %(\\mathrm{O})% là điểm thấp nhất của thành trong chậu gỗ chọn gốc thế năng ở %(\\mathrm{O})%<br>Gọi h là độ cao cực đại của bi so với %(O)%.<br>Tại độ cao cực đại thì vận tốc của bi bằng vận tốc cùa chậu là %(\\mathrm{v}_{\\mathrm{x}})%<br>*Xét hệ bi và chậu gỗ:<br>+ Áp dụng ĐLBTĐL theo phương ngang:%(M \\cdot v_{0}=(M+m) v_{x} \\quad)%<br>Suy ra: %(v_{x}=\\frac{5}{6} v_{0}(1))%<br>+Áp dụng định luật bảo toàn cơ năng:<br>\\[\\frac{1}{2} M . v_{0}^{2}=\\frac{1}{2}(M+m) v_{x}^{2}+m g h\\]<br>Thay (1) vào (2) ta được: %(h=\\frac{5 v_{0}^{2}}{12 g})%<br>Điều kiện để bi không vượt qua chậu : %(h \\leq R)%<br>\\[\\Rightarrow v_{0} \\leq \\sqrt{\\frac{12 \\cdot g \\cdot R}{5}}=\\frac{8 \\sqrt{3}}{5}(\\mathrm{~m} / \\mathrm{s})\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/efbfd8e8bc9dc426db2289ba3d57cc7c.png\" srcset=\"https://docdn.giainhanh.io/media/test/4d454f89259d1250ee149541e991acd8.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.5,
+        "content": "Một bình thép kín có thể tích %(\\mathrm{V})% chứa khí lí tường ở áp suất %(\\mathrm{p}_{0}=800 \\mathrm{mmHg})% được nối với một bơm hút khí. Thể tích mỗi lần bơm hút %(\\mathrm{V}_{\\mathrm{b}}=\\frac{1}{20} \\mathrm{~V})%. Phài bơm bao nhiêu lần để áp suất của khí trong bình còn %(10 \\mathrm{mmHg})% ? Coi nhiệt độ khí không đổi trong quá trình bơm.",
+        "question_images": [],
+        "solution": "Áp dưng quá trình đẵng nhiệt cho lần hút thứ nhất:<br>\\[p_{0} \\cdot V=p_{1} \\cdot\\left(V+V_{b}\\right) \\Rightarrow p_{1}=p_{0} \\cdot \\frac{V}{V+V_{b}}\\]<br>Áp dưng quá trình đằng nhiệt cho lần hút thứ hai:<br>\\[p_{1} V=p_{2} \\cdot\\left(V+V_{b}\\right) \\Rightarrow p_{2}=p_{1} \\cdot \\frac{V}{V+V_{b}}=p_{0} \\cdot\\left(\\frac{V}{V+V_{b}}\\right)^{2}\\]<br>Tương tự cho lần thứ %(\\mathrm{n})% :<br>\\[p_{n}=p_{0} \\cdot\\left(\\frac{V}{V+V_{b}}\\right)^{n} \\quad \\text { Hay: } p_{n}=p_{0} \\cdot\\left(\\frac{1}{1+\\frac{1}{20}}\\right)^{n}\\]<br>%(\\begin{array}{l}\\frac{p_{0}}{p_{n}}=\\left(\\frac{21}{20}\\right)^{n} \\quad \\text { Lấy } \\ln \\text { hai vế: } \\ln \\left(\\frac{p_{0}}{p_{n}}\\right)=n \\cdot \\ln \\left(\\frac{21}{20}\\right) \\\\ \\Rightarrow n=\\frac{\\ln \\left(\\frac{p_{0}}{p_{n}}\\right)}{\\ln \\left(\\frac{21}{20}\\right)} \\approx 90 \\text { ( lần bơm) }\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Một thấu kính hội tụ móng có tiêu cự %(20 \\mathrm{~cm})%. Nguồn sáng điểm %(\\mathrm{S})% đặt trên trục chính cùa thấu kính.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1) ",
+        "point": 1.5,
+        "content": "1) Di chuyển nguồn sáng %(\\mathrm{S})% dọc theo trục chính, tìm khoàng cách nhỏ nhất giữa điềm sáng %(\\mathrm{S})% và ành thật cùa nó qua thấu kính.",
+        "question_images": [],
+        "solution": "Nguồn sáng %(\\mathrm{S})% cho ảnh thật thì %(\\mathrm{d}^{\\prime}\\gt 0)%<br>Theo BĐT Côsi ta có:<br>\\[\\mathrm{L}=d+d^{\\prime} \\geq 2 . \\sqrt{d \\cdot d^{\\prime}}\\]<br>%(\\qquad)%%(\\mathrm{S})%Hay: %(\\sqrt{d+d^{\\prime}} \\geq 2 \\sqrt{\\frac{d d^{\\prime}}{d+d^{\\prime}}}=2 \\sqrt{f})%<br>Suy ra: %(L \\geq 4 f)%<br>Vậy %(\\mathrm{L}_{\\min }=4 \\mathrm{f}=80(\\mathrm{~cm}))% khi %(d^{\\prime}=d^{\\prime}=40(\\mathrm{~cm}))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/22a7f7a3d08ff4c96c25e8cbcadead47.png\" srcset=\"https://docdn.giainhanh.io/media/test/37ceb721311e97aa89d3ca08e973ff8a.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2) ",
+        "point": 1.5,
+        "content": "2) Đặt nguồn sáng %(\\mathrm{S})% tại điểm %(\\mathrm{M})% thuộc trục chính cùa thấu kính, cách thấu kính %(30 \\mathrm{~cm})%. Cho %(\\mathrm{S})% dao động điều hòa quanh %(\\mathrm{M})% trong mặt phằng vuông góc với trục chính, biên độ dao động %(\\mathrm{A}=2 \\mathrm{~cm})%. Nêu đặc điểm chuyên động của ảnh %(\\mathrm{S})% ' của điểm sáng %(\\mathrm{S})% qua thấu kính.",
+        "question_images": [],
+        "solution": "Khi vật sáng %(\\mathrm{S})% đặt tại %(\\mathrm{M})% thì %(\\mathrm{d}=30(\\mathrm{~cm}))%;<br>\\[d^{\\prime}=\\frac{d . f}{d-f}=\\frac{30.20}{30-20}=60(\\mathrm{~cm})\\gt 0\\]<br>Ảnh thật tại M' cách thấu kính %(60(\\mathrm{~cm}))%.<br>Cho %(\\mathrm{S})% dao động điều hòa xung quanh %(\\mathrm{M})% thì ảnh %(\\mathrm{S})% ' cũng dao động điều hòa xung quanh %(\\mathrm{M}^{\\prime})% cùng tần số, ngược pha.<br>Có biên độ tỉ lệ theo công thức %(\\frac{A^{\\prime}}{A}=|k|=2)%.<br>Vậy biên độ dao động của ảnh %(S^{\\prime})% là %(4(\\mathrm{~cm}))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Treo lò xo nhẹ có độ cứng %(k=50 \\mathrm{~N} / \\mathrm{m})% vào một điểm cố định, đầu kia của lò xo gắn vật nhỏ có khối lượng %(m=500 \\mathrm{~g})%. Kích thích cho vật dao động điểu hòa theo phương thằng đứng. Tại gốc thời gian, vật đi qua li độ %(x_{0}=2,5 \\mathrm{~cm})% với vận tốc có độ lớn %(25 \\sqrt{3} \\mathrm{~cm} / \\mathrm{s})% hướng về vị trí cân bằng. Chọn trục ox thẳng đứng hướng xuống, gốc %(\\mathrm{O})% trùng vị trí cân bằng của vật.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1) ",
+        "point": 0.5,
+        "content": "1) Viết phương trình dao động của vât.",
+        "question_images": [],
+        "solution": "Tần số góc: %(\\omega=\\sqrt{\\frac{k}{m}}=\\sqrt{\\frac{50}{0,5}}=10(\\mathrm{rad} / \\mathrm{s}))%<br>Biên độ dao động: %(A=\\sqrt{x_{0}^{2}+\\left(\\frac{v_{0}}{\\omega}\\right)^{2}}=\\sqrt{2,5^{2}+\\left(\\frac{25 \\sqrt{3}}{10}\\right)^{2}}=5(\\mathrm{~cm}))%<br>Tại %(\\mathrm{t}=0)% có %(x_{0}=2,5(\\mathrm{~cm}))% và %(v_{0}\\lt 0)% tìm được %(\\varphi=\\frac{\\pi}{3})%<br>Phương trình dao động: %(x=5 \\cos \\left(10 t+\\frac{\\pi}{3}\\right)(\\mathrm{cm}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2) ",
+        "point": 1.0,
+        "content": "2) Tính tốc độ trung bình của vật kể từ thời điểm ban đầu đến khi vật qua vị trí cân bằng lần thứ 2015 .",
+        "question_images": [],
+        "solution": "Quãng đường vật đi được : %(s=1007.4 A+\\frac{A}{2}=20142,5(\\mathrm{~cm}))%<br>Thời gian chất điểm đi là: %(t=1007 . T+\\frac{T}{12}=\\frac{2417 \\pi}{12}(s))%<br>Tốc độ trung bình của vật là: %(v_{t b}=\\frac{s}{t} \\approx 31,83(\\mathrm{~cm} / \\mathrm{s}))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b49a5706b2ebf1d80513572272f2f249.png\" srcset=\"https://docdn.giainhanh.io/media/test/f16fa4131185f154ef7f8b2000cdb527.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "3) ",
+        "point": 1.0,
+        "content": "3) Giả sử khi qua vị trí lò xo dãn %(7 \\mathrm{~cm})% theo chiều dương, vật chịu thêm một lực %(\\vec{F})% có phương thẳng đứng hướng xuống và độ lớn không đổi bằng %(\\mathrm{IN})%. Tìm biên độ dao động mới của vật sau đó.",
+        "question_images": [],
+        "solution": "Độ dãn của lò xo ở VTCB: %(\\Delta \\ell=10(\\mathrm{~cm}))%<br>Tại thời điểm tác dưng lực lò xo dãn %(7(\\mathrm{~cm}))% thì:<br>%(+\\mathrm{Li})% độ của vật: %(x=-3(\\mathrm{~cm}))%<br>+ Tốc độ: %(|Y|=10 \\cdot \\sqrt{5^{2}-(-3)^{2}}=40(\\mathrm{~cm} / \\mathrm{s}))%<br>Vật chịu tác dụng lực F không đổi hướng xuống thì :<br>+ VTCB dịch xuống một đoạn %(O O^{\\prime}=\\frac{F}{k}=0,02(\\mathrm{~m})=2(\\mathrm{~cm}))%<br>+ Li độ dao động mới là: %(\\mathrm{X}=-5(\\mathrm{~cm}))%<br>+ Tốc độ góc không thay đồi: %(\\omega=10(\\mathrm{rad} / \\mathrm{s}))%<br>Biên độ dao động mới:<br>%(A^{\\prime}=\\sqrt{(-5)^{2}+\\left(\\frac{40}{10}\\right)^{2}}=\\sqrt{41} \\approx 6,4(\\mathrm{~cm}))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d089f50a2ed5e3d6949d1085a0e82619.png\" srcset=\"https://docdn.giainhanh.io/media/test/7d6c30cf9efda77f03774de3a036541c.png 80w\" width=\"80\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Trên mặt nước có hai nguồn phát sóng kết hợ %(\\mathrm{A})% và %(\\mathrm{B})% dao động theo phương vuông góc với mặt nước, phương trình dao động %(u_{A}=u_{s}=5 \\cos (20 \\pi)(\\mathrm{mm}))%. Khoảng cách hai nguồn %(\\mathrm{AB}=20 \\mathrm{~cm})%, tốc độ truyền sóng bằng %(60 \\mathrm{~cm} / \\mathrm{s})%. Coi biên độ sóng không đồi khi truyền đi.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1) ",
+        "point": 1.5,
+        "content": "1) Viết phương trình sóng tại điểm %(\\mathrm{O})% nằm trên mặt nước cách %(\\mathrm{A})% và %(\\mathrm{B})% lần lượt là %(16 \\mathrm{~cm} ; 26 \\mathrm{~cm})%.",
+        "question_images": [],
+        "solution": "Bưóc sóng : %(\\lambda=\\frac{v}{f}=6(\\mathrm{~cm}))%Phương trình sóng tổng hợp tại %(\\mathrm{O})% là:<br>\\[u_{0}=2 A \\cdot \\cos \\left(\\frac{\\pi\\left(d_{2}-d_{1}\\right)}{\\lambda}\\right) \\cos \\left(20 \\pi t-\\frac{\\pi\\left(d_{2}+d_{1}\\right)}{\\lambda}\\right)(*)\\]<br>Thay số ta được: %(u_{0}=5 \\cos (20 \\pi t-7 \\pi) \\quad(\\mathrm{mm}))% hay<br>\\[u_{0}=5 \\cos (20 \\pi-\\pi)(\\mathrm{mm})\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2) ",
+        "point": 1.5,
+        "content": "2)Cho điểm %(\\mathrm{M})% nằm trên mặt nước cách %(\\mathrm{A})% và %(\\mathrm{B})% lần lượt là %(25 \\mathrm{~cm} ; 15 \\mathrm{~cm})%. Tại thời điểm li độ của điểm %(\\mathrm{O})% là %(\\mathrm{u}_{\\mathrm{O}}=2,5 \\sqrt{3}(\\mathrm{~mm}))% và đang giảm, thì tốc độ của điểm %(\\mathrm{M})% bằng bao nhiêu?",
+        "question_images": [],
+        "solution": "Điểm %(\\mathrm{M}\\left(\\mathrm{d}_{1}=25(\\mathrm{~cm}) ; \\mathrm{d}_{2}^{\\prime}=15(\\mathrm{~cm})\\right))% thay vào %(\\left(^{*}\\right))%<br>Phương trình sóng tại %(\\mathrm{M})% :<br>\\[u_{M}=5 \\cos \\left(20 \\pi t-\\frac{20 \\pi}{3}\\right)(\\mathrm{mm})\\]<br>hay %(u_{M}=5 \\cos \\left(20 \\pi t-\\frac{2 \\pi}{3}\\right)(\\mathrm{mm}))%%(\\mathrm{u}_{\\mathrm{M}})% sớm pha hơn %(\\mathrm{u}_{\\mathrm{O}})% là %(\\pi / 3)%<br>Tại thời điểm %(\\mathrm{t})% có :<br>\\[u_{0}=2,5 \\sqrt{3}(\\mathrm{~mm})=A \\frac{\\sqrt{3}}{2}(\\mathrm{~mm})\\]<br>Liên hệ giữa dao động điều hòa và chuyển động tròn đều như hình vẽ.<br>\\[\\begin{array}{l}\\Rightarrow\\gt \\text { li độ của điểm } \\mathrm{M} \\text { là } \\mathrm{u}_{\\mathrm{M}}=0 \\\\Rightarrow>\\mathrm{M} \\text { có tốc độ: } v_{\\max }=5.20 \\pi=100 \\pi(\\mathrm{mm} / \\mathrm{s})\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5ec41d49e2a5424aff70eb20557db352.png\" srcset=\"https://docdn.giainhanh.io/media/test/b6210bca0d1ee5d2e6d8bd929a591087.png 170w\" width=\"170\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Đặt điện áp xoay chiều %(\\mathrm{u}=80 \\cos (a t)(\\mathrm{V}))% vào hai đầu đoạn mạch mắc nối tiếp gồm điện trở thuần %(\\mathrm{R})%, tụ điện %(\\mathrm{C})% và cuộn dây. Khi đó điện áp hiệu dưng trên điện trở %(\\mathrm{R})%, tụ điện và cuộn dây lần lượt là %(25 \\mathrm{~V} ; 60 \\mathrm{~V} ; 25 \\mathrm{~V})%. Mắc vôn kế vào hai đầu đoạn mạch chứa tụ điện và cuộn dây thì số chỉ vôn kế bằng bao nhiêu?",
+        "question_images": [],
+        "solution": "Có hệ phương trình: %(U_{r}^{2}+U_{L}^{2}=25^{2})% (1)<br>\\[\\text { và }\\left(25+U_{r}\\right)^{2}+\\left(U_{L}-60\\right)^{2}=(40 \\sqrt{2})^{2}\\]<br>Giải hệ phương trình tìm được %(U_{r}=15(\\mathrm{~V}) ; U_{L}=20(\\mathrm{~V}))%<br>Số chi Vôn kế %(U_{V}=\\sqrt{U_{r}^{2}+\\left(U_{L}-U_{c}\\right)^{2}}=5 \\sqrt{73} \\approx 42,72(V))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Đoạn mạch %(\\mathrm{AB})% theo thứ tự gồm các đoạn mạch %(\\mathrm{AM}, \\mathrm{MN})% và %(\\mathrm{NB})% mắc nối tiếp. Đoạn mạch %(\\mathrm{AM})% chứa điện trở thuần %(\\mathrm{R} ; \\mathrm{MN})% chứa tụ điện %(\\mathrm{C} ; \\mathrm{NB})% chứa cuộn dây. Biết điện áp hiệu đụng %(\\mathrm{U}_{\\mathrm{AB}}=\\mathrm{U}_{\\mathrm{NB}}=100 \\mathrm{~V}, \\mathrm{U}_{\\mathrm{MB}}=50 \\sqrt{2} \\mathrm{~V})%, điện áp tức thời trên đoạn %(\\mathrm{AN})% chậm pha %(\\frac{\\pi}{2})% so với điện áp tức thời trên đoạn %(\\mathrm{MB})%. Tìm hệ số công suất của đoạn mạch %(\\mathrm{AB})%.",
+        "question_images": [],
+        "solution": "Vì %(\\mathrm{U}_{\\mathrm{AB}}=\\mathrm{U}_{\\mathrm{NB}})% nên tam giác %(\\mathrm{OPK})% cânMà %(\\mathrm{U}_{\\mathrm{MB}})% vuông với %(\\mathrm{U}_{\\mathrm{AN}})% cho nên %(\\mathrm{PH})% vừa là đường cao vừa là đường phân giácvậy %(\\mathrm{U}_{\\mathrm{R}}=\\mathrm{U}_{\\mathrm{C}} \\Rightarrow)% tam giác %(\\mathrm{OQK})% vuông cân %(=\\gt)% góc %(O \\hat{Q} H=\\mathrm{P} \\hat{Q} \\mathrm{G})% %(=45^{\\circ})%<br>Tìm được %(\\mathrm{U}_{\\mathrm{LC}}=\\mathrm{U}_{\\mathrm{MB}} \\cdot \\sin 45^{\\circ}=50(\\mathrm{~V}))%<br>Từ đó tìm được %(\\mathrm{U}_{\\mathrm{R}}+\\mathrm{U}_{\\mathrm{r}}=\\sqrt{100^{2}-50^{2}}=50 \\sqrt{3}(\\mathrm{~V}))%<br>Vậy %(\\cos \\varphi=\\frac{U_{R}+U_{r}}{U_{A B}}=\\frac{\\sqrt{3}}{2})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f227f39ccec1eb1d7373b6b7e305f449.png\" srcset=\"https://docdn.giainhanh.io/media/test/315eb99145fca47e9acfad4640184bad.png 144w\" width=\"144\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.0,
+        "content": "Do có điện trở, dây dẫn điện tỏa nhiệt ra môi trường khi dòng điện chạy qua. Nhiệt lượng tỏa ra môi trường ti lệ với diện tích bề mặt xung quanh của dây dẫn, hệ số ti lệ phụ thuộc vào chất liệu của dây. Biết dây chì có dạng hình trụ, đường kính tiết diện %(0,5 \\mathrm{~mm})% chịu được dòng điện cực đại là %(3 \\mathrm{~A})%. Hãy xác định dòng điện cực đại có thể đi qua đây chì hình trụ có đường kính tiết điện %(1,2 \\mathrm{~mm})% để đây không bị nóng chảy.",
+        "question_images": [],
+        "solution": "Xét đoạn dây chì có chiểu dài %(l)%, đường kính %(\\mathrm{d})% có dòng điện chạy qua trong thời gian %(\\mathrm{t})%. Nhiet lượng tỏa ra trên đoạn dây trong thời gian %(\\mathrm{t}:)%%(\\mathrm{Q}=\\mathrm{I}^{2} \\mathrm{R} . \\mathrm{t}=\\mathrm{k} . \\mathrm{S}_{\\mathrm{xq}})% (với %(\\mathrm{S}_{\\mathrm{xq}})% là diện tích xung quanh của đoạn dây; %(\\mathrm{k})% là hệ số ti lẹ.)<br>Đối với 2 dây cùng chiểu dài, khác tiết diện, có:<br>\\[\\begin{aligned}& \\frac{I_{2}^{2} R_{2}}{I_{1}^{2} R_{1}}=\\frac{S_{⿰_{2}}}{S_{241}} \\\\Leftrightarrow & \\frac{I_{2}^{2}}{I_{1}^{2}} \\frac{\\rho l / S_{2}}{\\rho l / S_{1}}=\\frac{\\pi d_{2} I}{\\pi d_{1} I} \\\\Rightarrow & \\frac{I_{2}^{2}}{I_{1}^{2}}=\\left(\\frac{d_{2}}{d_{1}}\\right)^{3} \\\\Rightarrow & I_{2}=I_{1}\\left(\\frac{d_{2}}{d_{1}}\\right)^{3 / 2} \\quad \\Rightarrow I_{2} \\approx 11,15(A)\\end{aligned}\\]",
+        "question_type": "essay"
+    }
+]

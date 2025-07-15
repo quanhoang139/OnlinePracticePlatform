@@ -1,0 +1,119 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(A=\\frac{\\sqrt{x}+2}{\\sqrt{x}+1})% và %(B=\\frac{x+\\sqrt{x}+14}{x-4}-\\frac{5}{\\sqrt{x}-2})% với %(x \\geq 0 ; x \\neq 4)%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Tính giá trị biểu thức %(A)% khi %(x=16)%.",
+        "question_images": [],
+        "solution": "Thay %(x=16)% (thỏa mãn điều kiện) vào %(\\mathrm{A})% ta có:<br>\\[\\begin{array}{l}A=\\frac{\\sqrt{16}+2}{\\sqrt{16}+1} \\A=\\frac{6}{5}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh rằng %(B=\\frac{\\sqrt{x}-2}{\\sqrt{x}+2})%.3",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}B=\\frac{x+\\sqrt{x}+14}{x-4}-\\frac{5}{\\sqrt{x}-2} \\\\ B=\\frac{x+\\sqrt{x}+14}{(\\sqrt{x}-2)(\\sqrt{x}+2)}-\\frac{5(\\sqrt{x}+2)}{(\\sqrt{x}-2)(\\sqrt{x}+2)} \\\\ B=\\frac{x-4 \\sqrt{x}+4}{(\\sqrt{x}-2)(\\sqrt{x}+2)} \\\\ B=\\frac{(\\sqrt{x}-2)^{2}}{(\\sqrt{x}-2)(\\sqrt{x}+2)} \\\\ B=\\frac{\\sqrt{x}-2}{\\sqrt{x}+2}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Cho %(M=A \\cdot B)%. Tìm giá trị nhỏ nhất của %(\\mathrm{M})%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}P=A \\cdot B \\P=\\frac{\\sqrt{x}+2}{\\sqrt{x}+1} \\cdot \\frac{\\sqrt{x}-2}{\\sqrt{x}+2} \\P=\\frac{\\sqrt{x}-2}{\\sqrt{x}+1} \\P=1-\\frac{3}{\\sqrt{x}+1}\\end{array}\\]<br>Với mọi x thuộc ĐKXĐ ta có:<br>\\[\\begin{array}{l}\\sqrt{x} \\geq 0 \\\\Rightarrow \\sqrt{x}+1 \\geq 1 \\\\Rightarrow \\frac{3}{\\sqrt{x}+1} \\leq 3 \\\\Rightarrow 1-\\frac{3}{\\sqrt{x}+1} \\geq 1-3 \\\\Rightarrow P \\geq-2\\end{array}\\]<br>Vậy giá trị nhỏ nhất của %(P=-2)% khi %(x=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Giải bài toán bằng cách lập phuơng trình hoăc hệ phuơng trình. Một ca nô chạy xuôi dòng %(30 k m)% và ngược dòng %(42 k m)% hết tất cả 5 giờ. Nếu cũng trên khúc sông đó, ca nô chạy xuôi dòng %(45 k m)% và ngược dòng %(63 k m)% hết tất cả 5 giờ. Tính vận tốc thực của ca nô và vận tốc của dòng nước.",
+        "question_images": [],
+        "solution": "Gọi vận tốc thực của ca nô là %(x(\\mathrm{~km} / \\mathrm{h}))%<br>Gọi vận tốc của dòng nước là %(y(\\mathrm{~km} / \\mathrm{h} ; x\\gt y>0))%<br>Vận tốc ca nô đi xuôi dòng là %(x+y(\\mathrm{~km} / \\mathrm{h}))%Vận tốc ca nô đi ngược dòng là %(x-y(\\mathrm{~km} / \\mathrm{h}))%<br>Truờng hơp 1:<br>Thời gian ca nô đi xuôi dòng là %(\\frac{63}{x+y}(\\mathrm{~h}))%<br>Thời gian ca nô đi ngược dòng là %(\\frac{30}{x-y}(\\mathrm{~km}))%<br>Vì ca nô chạy xuôi dòng %(63 \\mathrm{~km})% và ngược dòng %(30 \\mathrm{~km})% hết tất cả 5 giờ nên ta có phương trình: %(\\frac{63}{x+y}+\\frac{30}{x-y}=5(1))%<br>Truờng hơp 2:<br>Thời gian ca nô đi xuôi dòng là %(\\frac{42}{x+y}(\\mathrm{~h}))%<br>Thời gian ca nô đi ngược dòng là %(\\frac{45}{x-y}(\\mathrm{~km}))%<br>Vì ca nô chạy xuôi dòng %(42 \\mathrm{~km})% và ngược dòng %(45 \\mathrm{~km})% hết tất cả 5 giờ nên ta có phương trình: %(\\frac{42}{x+y}+\\frac{45}{x-y}=5)% (2)<br>Từ (1), (2) ta có hệ phương trình: %(\\left\\{\\begin{array}{l}\\frac{63}{x+y}+\\frac{30}{x-y}=5 \\\\ \\frac{42}{x+y}+\\frac{45}{x-y}=5\\end{array}\\right.)%<br>\\[\\begin{array}{l}\\Leftrightarrow\\left\\{\\begin{array} { l } { \\frac { 1 8 9 } { x + y } + \\frac { 9 0 } { x - y } = 1 5 } \\\\{ \\frac { 8 4 } { x + y } + \\frac { 9 0 } { x - y } = 1 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { \\frac { 1 0 5 } { x + y } = 5 } \\\\{ \\frac { 4 2 } { x + y } + \\frac { 4 5 } { x - y } = 5 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x+y=21 \\\\frac{42}{21}+\\frac{45}{x-y}=5\\end{array}\\right.\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { x + y = 2 1 } \\\\{ x - y = 1 5 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { 2 x = 3 6 } \\\\{ x - y = 1 5 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x = 1 8 } \\\\{ 1 8 - y = 1 5 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=18 \\y=3\\end{array}\\right.\\right.\\right.\\right. \\text { (thoả mãn) }\\end{array}\\]<br>Vậy vận tốc của ca nô là %(18 \\mathrm{~km} / \\mathrm{h})%; vận tốc của dòng nước là %(3(\\mathrm{~km} / \\mathrm{h}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình : %(\\left\\{\\begin{array}{l}2 x+\\frac{4}{\\sqrt{y-1}}=4 \\\\ 5 x-\\frac{8}{\\sqrt{y-1}}=1\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "ĐKXĐ: %(\\mathrm{y}\\gt 1)%<br>\\[\\begin{array}{l}\\left\\{\\begin{array} { l } { 2 x + \\frac { 4 } { \\sqrt { y - 1 } } = 4 } \\\\{ 5 x - \\frac { 8 } { \\sqrt { y - 1 } } = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}4 x+\\frac{8}{\\sqrt{y-1}}=8 \\\\5 x-\\frac{8}{\\sqrt{y-1}}=1\\end{array}\\right.\\right. \\\\lt \\left\\{\\begin{array} { l } { 9 x = 9 } \\\\{ 2 x + \\frac { 4 } { \\sqrt { y - 1 } } = 4 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=1 \\\\2 x+\\frac{4}{\\sqrt{y-1}}=4 \\text { Giải hpt tìm được }\\left\\{\\begin{array}{l}a=2 \\b=2\\end{array}\\right.\\end{array}\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}x=1 \\y=5\\end{array}(T M)\\right.\\end{array}\\]<br>Vậy hệ phương trình đã cho có 1 nghiệm duy nhất %(\\left\\{\\begin{array}{l}x=1 \\\\ y=5\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho hàm số %(y=x^{2})% có đồ thị là parabol %((\\mathrm{P}))% và đường thẳng %((\\mathrm{d}): y=5 x-4)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Vẽ đồ thị hàm số %(y=x^{2})% trên mặt phẳng tọa độ.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/85bf9c92bcbb94f389818ecb78257675.png\" srcset=\"https://docdn.giainhanh.io/media/test/6cff0311e131b8cb2a9f309c80698b13.png 101w, https://docdn.giainhanh.io/media/test/9088943a197e087b9d633d2f2bb84392.png 322w\" width=\"322\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Tìm tọa độ giao điểm của %((\\mathrm{P}))% và %((\\mathrm{d}))% bằng phép toán.",
+        "question_images": [],
+        "solution": "* Hoành độ giao điểm của %((\\mathrm{P}))% và %((\\mathrm{d}))% là nghiệm của phương trình<br>\\[\\begin{array}{l}x^{2}=5 x-4 \\\\Leftrightarrow x^{2}-5 x+4=0 \\\\Leftrightarrow x^{2}-4 x-x+4=0 \\\\Leftrightarrow(x-4)(x-1)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x=1 \\x=4\\end{array}\\right.\\end{array}\\]<br>Với %(\\mathrm{x}=1)% thì %(\\mathrm{y}=1)%<br>\\[\\text { Với } x=4 \\text { thì } y=16\\]<br>Kết luận: Tọa độ giao điểm của 2 đồ thị là %(\\mathrm{A}(1 ; 1) ; \\mathrm{B}(4 ; 16))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 0.5,
+        "content": "Một con thuyền ở địa điểm %(D)% di chuyến từ bờ sông %(a)% sang bờ sông %(b)% với vận tốc trung bình là %(2 \\mathrm{~km} / \\mathrm{h})%, vượt qua khúc sông nước chảy mạnh trong 20 phút. Biết đường đi con thuyền là %(D E)%, tạo với bờ sông một góc %(60^{\\circ})%. Tính chiều rộng khúc sông.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{H})% là hình chiếu của %(\\mathrm{E})% lên %(\\mathrm{a} \\Rightarrow E H \\perp a)%<br>\\[D E=2 \\cdot \\frac{1}{3}=\\frac{2}{3}(\\mathrm{~km})\\]<br>\\[\\begin{array}{l}\\operatorname{Sin} 60^{\\circ}=\\frac{E H}{\\frac{2}{3}} \\E H=\\operatorname{Sin} 60^{\\circ} \\cdot \\frac{2}{3}=\\frac{\\sqrt{3}}{3}(\\mathrm{~km})\\end{array}\\]<br>Vậy khúc sông rộng %(\\frac{\\sqrt{3}}{3} \\mathrm{~km})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b2412ffafdbaa2dda84be8abe6b8d25d.png\" srcset=\"https://docdn.giainhanh.io/media/test/d29cf7f865e3805fcacb4dc54e0c7cf9.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho đường tròn %((\\mathrm{O}, \\mathrm{R}), \\mathrm{BC})% là dây không đi qua tâm. Các tiếp tuyến của đường tròn tâm %(\\mathrm{O})% tại %(\\mathrm{B})% và %(\\mathrm{C})% cắt nhau ở điểm %(\\mathrm{A})%. Lấy %(\\mathrm{M})% thuộc cung nhỏ %(\\mathrm{BC})%. Kẻ %(\\mathrm{MI}, \\mathrm{MK})%, %(\\mathrm{MH})% lần lượt vuông góc với %(\\mathrm{BC}, \\mathrm{AB}, \\mathrm{AC})%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tứ giác BIMK nội tiếp đường tròn.",
+        "question_images": [],
+        "solution": "Chứng minh được tứ giác %(\\mathrm{BKMI})% nội tiếp<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/6983249baa01bbe9edc17b55e24eef63.png\" srcset=\"https://docdn.giainhanh.io/media/test/f1bb670a437ea24fc6da51af228b7c68.png 245w, https://docdn.giainhanh.io/media/test/37300294c6b17096c3687f8aecbc85ff.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh: %(\\widehat{M K I}=\\widehat{M I H})% và %(\\mathrm{MH} \\cdot \\mathrm{MK}=\\mathrm{MI}^{2})%.",
+        "question_images": [],
+        "solution": "Chứng minh tứ giác %(\\mathrm{CMHI})% nội tiếp<br>Chứng minh được: %(\\widehat{M I E}=\\widehat{M B K}=\\widehat{M C B}=\\widehat{M H I})%<br>Chứng minh được: %(\\Delta M I H ∼ \\Delta M K I \\left( g{- g} \\right ))%<br>%(\\Rightarrow M I^{2} = M H \\cdot M K)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Gọi %(\\mathrm{BM})% cắt %(\\mathrm{KI})% tại %(\\mathrm{E}, \\mathrm{CM})% cắt %(\\mathrm{IH})% tại %(\\mathrm{F})%. Chứng minh: %(\\mathrm{FE} / / \\mathrm{BC})% và %(\\mathrm{FE})% là tiếp tuyến của đường tròn ngoại tiếp tam giác %(\\mathrm{MHF})%",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{BM})% căt %(\\mathrm{KI})% tại %(\\mathrm{E}, \\mathrm{CM})% căt %(\\mathrm{IH})% tại %(\\mathrm{F})%.<br>Chứng minh: %(\\mathrm{FE} / / \\mathrm{BC})% và %(\\mathrm{FE})% là tiêp tuyến của đường tròn ngoại tiếp tam giác MHF<br>Cm được: %(\\hat{E I F}=\\widehat{K I M}+H \\overparen{I M}=\\frac{1}{2} s d M B+\\frac{1}{2} s đ M C)%<br>\\[\\begin{aligned}\\widehat{E M F} & =\\frac{1}{2} s đ B C \\\\=\\gt \\widehat{E I F}+\\widehat{E M F} & =180^{\\circ}\\end{aligned}\\]<br>Từ đó chứng minh tứ giác EIFM nội tiếp được<br>\\[\\Rightarrow \\overline{M E F}=\\overline{M I F}\\]<br>Mà %(\\widehat{M I F}=\\widehat{M B I} \\Rightarrow \\widehat{M E F}=\\widehat{M B I})%hai góc ở vị trí đồng vị<br>=> EF//BC<br>- Kẻ Fx là tiếp tuyến của đường tròn ngoại tiếp tam giác MFH<br>\\[\\Rightarrow \\widehat{M F X}=\\widehat{M H F}\\]<br>Mà %(\\widehat{M H F}=\\widehat{M C I})% (do tg MHCI nội tiếp)<br>%(\\widehat{M C I}=\\widehat{M F E})% (hai góc đồng vị)<br>Nên<br>%(\\Rightarrow \\widehat{M F x}=\\widehat{M F E})%%(\\Rightarrow F x)% trùng %(F E)%<br>=> FE là tiếp tuyến của đường tròn ngoại tiếp tam giác %(\\mathrm{MFH})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 0.5,
+        "content": "Giải phương trình: %(\\sqrt{x+2}+\\sqrt{x-2}+2 \\sqrt{x^{2}-4}=2(3-x))%",
+        "question_images": [],
+        "solution": "ĐКXĐ: %(\\mathrm{x} \\geq 2)%Đặt ẩn phụ: %(t=\\sqrt{x+2}+\\sqrt{x-2}(t \\geq 0))%<br>\\[\\begin{array}{l}t^{2}=2 x+2 \\sqrt{x^{2}-4} \\\\text { PT (1) } \\Leftrightarrow t+t^{2}=6 \\Leftrightarrow t^{2}+t-6=0 \\Leftrightarrow\\left[\\begin{array}{l}t=2(T M) \\t=-3(K T M)\\end{array}\\right.\\end{array}\\]<br>Trả lại biến cũ:<br>\\[t=2 \\Leftrightarrow \\sqrt{x+2}+\\sqrt{x-2}=2 \\Leftrightarrow \\mathrm{x}=2 \\text { (TMĐK) }\\]<br>Vậy phương trình có nghiệm: %(\\mathrm{S}=\\{2\\})%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Chứng minh %(4.5^{n+1}-2^{n+3}-2.5^{n}-2^{n})% chia hết cho 18 với mọi số nguyên dương %(n)%",
+        "question_images": [],
+        "solution": "Với mọi sô nguyên dương %({ }^{n})% ta có :<br>\\[\\begin{array}{l}4.5^{n+1}-2^{n+3}-2.5^{n}-2^{n}=\\left(4.5^{n+1}-2.5^{n}\\right)-\\left(2^{n}+2^{n+3}\\right) \\\\=5^{n} .(4.5-2)-2^{n-1}\\left(2+2^{4}\\right)=5^{n} .18-2^{n-1} .18\\end{array}\\]<br>Vì %(5^{n} \\cdot 18: 18)% và %(2^{n-1} \\cdot 18: 18)% nên %(\\left(5^{n} \\cdot 18-2^{n-1} \\cdot 18\\right): 18)% hay %(4 \\cdot 5^{n+1}-2^{n+3}-2 \\cdot 5^{n}-2^{n})% chia hết cho 18",
+        "question_type": "essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Phân tích đa thức %(3 x^{3}+13 x^{2} y+13 y^{2}+3 y^{3})% thành nhân tử",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}3 x^{3}+13 x^{2} y+13 x y^{2}+3 y^{3}=3\\left(x^{3}+y^{3}\\right)+13 x y(x+y) \\\\ =3(x+y)\\left(x^{2}-x y+y^{2}\\right)+13 x y(x+y) \\\\ =3(x+y)\\left(x^{2}-x y+y^{2}+13 x y\\right)=3(x+y)\\left(x^{2}+12 x y+y^{2}\\right)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Cho biểu thức<br>\\[A=\\frac{x-y}{x y}:\\left[\\frac{y^{2}}{(x-y)^{2}(x+y)}-\\frac{2 x^{2} y}{\\left(x^{2}-y^{2}\\right)^{2}}-\\frac{x^{2}}{\\left(x^{2}-y^{2}\\right)(x+y)}\\right]_{\\text {với }} \\quad x y \\neq 0, x \\neq \\pm y\\]",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Rút gọn biểu thức A",
+        "question_images": [],
+        "solution": "Vơi %(x y \\neq 0, x \\neq \\pm y)% ta có :<br>\\[\\begin{array}{l}A=\\frac{x-y}{x y}:\\left[\\frac{y^{2}}{(x-y)^{2}(x+y)}-\\frac{2 x^{2} y}{\\left(x^{2}-y^{2}\\right)^{2}}-\\frac{x^{2}}{\\left(x^{2}-y^{2}\\right)(x+y)}\\right] \\\\=\\frac{x-y}{x y}:\\left[\\frac{y^{2}(x+y)}{(x-y)^{2}(x+y)^{2}}-\\frac{2 x^{2} y}{(x-y)^{2}(x+y)^{2}}-\\frac{x^{2}(x-y)}{(x-y)^{2}(x+y)^{2}}\\right] \\\\=\\frac{x-y}{x y}: \\frac{x y^{2}+y^{3}-2 x^{2} y-x^{3}+x^{2} y}{(x-y)^{2}(x+y)^{2}}=\\frac{x-y}{x y}: \\frac{x y^{2}+y^{3}-x^{2} y-x^{3}}{(x-y)^{2}(x+y)^{2}} \\\\=\\frac{x-y}{x y}: \\frac{(x+y)^{2} \\cdot(y-x)}{(x-y)^{2}(x+y)^{2}}=\\frac{x-y}{x y} \\cdot[-(x-y)]=-\\frac{(x-y)^{2}}{x y}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Tính giá trị của %({ }^{A})% khi %({ }^{x, y})% thỏa mãn %(x^{3}-6 y^{3}=x y(x-y))%",
+        "question_images": [],
+        "solution": "Ta có:<br>%(\\begin{array}{l}x^{3}-6 y^{3}=x y(x-y) \\Leftrightarrow x^{3}-6 y^{3}-x^{2} y+x y^{2}=0 \\\\ \\Leftrightarrow x^{3}-8 y^{3}-x y^{2}+2 y^{3}-x^{2} y+2 x y^{2}=0 \\\\ \\Leftrightarrow\\left(x^{3}-8 y^{3}\\right)-\\left(x y^{2}-2 y^{3}\\right)-\\left(x^{2} y-2 x y^{2}\\right)=0 \\\\ \\Leftrightarrow(x-2 y)\\left(x^{2}+2 x y+4 y^{2}\\right)-y^{2}(x-2 y)-x y(x-2 y)=0 \\\\ \\Leftrightarrow(x-2 y)\\left(x^{2}+x y+3 y^{2}\\right)=0 \\Leftrightarrow x=2 y\\left(d o x^{2}+x y+3 y^{2}\\gt 0\\right) \\\\ \\text { Thay } \\quad x=2 y \\Rightarrow A=-\\frac{(x-y)^{2}}{x y}=-\\frac{(2 y-y)^{2}}{2 y^{2}}=-\\frac{1}{2}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Giải phương trình %(\\frac{x^{2}-4 x+1}{x+1}+2=-\\frac{x^{2}-5 x+1}{2 x+1})%",
+        "question_images": [],
+        "solution": "ĐKXĐ: %(\\quad x \\neq-1, x \\neq-\\frac{1}{2})%. Khi đó :<br>\\[\\begin{array}{l}\\frac{x^{2}-4 x+1}{x+1}+2=\\frac{x^{2}-5 x+1}{2 x+1} \\Leftrightarrow \\frac{\\left(x^{2}-4 x+1\\right)(2 x+1)+2(x+1)(2 x+1)}{(x+1)(2 x+1)}=-\\frac{\\left(x^{2}-5 x+1\\right)(x+1)}{(x+1)(2 x+1)} \\\\Rightarrow\\left(x^{2}-4 x+1\\right)(2 x+1)+2(x+1)(2 x+1)=-\\left(x^{2}-5 x+1\\right)(x+1) \\\\Leftrightarrow 3 x^{3}-7 x^{2}+4=0 \\Leftrightarrow 3 x^{3}-3 x^{2}-4 x^{2}+4=0 \\\\Leftrightarrow(x-1)\\left(3 x^{2}-4 x-4\\right)=0 \\Leftrightarrow(x-1)(3 x+2)(x-2)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=1 \\x=2 \\quad(\\text { tmdk }) \\x=-\\frac{2}{3}\\end{array}\\right. \\\\text { Vậy tập nghiệm của phương trình là : } S=\\left\\{1 ; 2 ;-\\frac{2}{3}\\right\\}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Tìm tất cả các cặp số nguyên dương %((x ; y))% thỏa mãn phương trình %(x y^{2}+2 x y-27 y+x=0)%",
+        "question_images": [],
+        "solution": "Từ %(x y^{2}+2 x y-27 y+x=0 \\Leftrightarrow x=\\frac{27 y}{\\left(y^{2}+2 y+1\\right)}=\\frac{27 y}{(y+1)^{2}}(*))%<br>Vì %(y \\geq 1)% nên %((y+1)^{2} \\geq 4)% . Khi đó %(0\\lt \\frac{27 y}{(y+1)^{2}} \\leq \\frac{27}{4} \\Leftrightarrow 0\\lt x \\leq \\frac{27}{4})%<br>Mà %({ }^{x})% nguyên dương nên %(x \\in\\{1 ; 2 ; 3 ; 4 ; 5 ; 6\\})%Thay lần lượt %({ }^{x})% vào %(\\left(^{*}\\right))% thì khi %(x=6)% tìm được %({ }^{y=2})% thỏa mãn yêu cầu bài toán",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 3.0,
+        "content": "Tìm tất cả các số tự nhiên %({ }^{n})% sao cho %(n^{2}+3 n+8)% là số chính phương",
+        "question_images": [],
+        "solution": "Xét %(A=n^{2}+3 n+8)%, nếu %({ }^{A})% là số chính phương thì %({ }^{4} A)% là số chính phương<br>Khi đó giả sử %(4 A=a^{2}\\left(a \\in \\mathbb{N}^{*}\\right))%. Suy ra :<br>\\[\\begin{array}{l}4 n^{2}+12 n+32=a^{2} \\Leftrightarrow(2 n)^{2}+2.2 n \\cdot 3+3^{2}+23=a^{2} \\\\Leftrightarrow(2 n+3)^{2}+23=a^{2} \\Leftrightarrow a^{2}-(2 n+3)^{2}=23 \\\\Leftrightarrow(a+2 n+3)(a-2 n-3)=23=23.1\\end{array}\\]<br>Vì %(n \\in \\mathbb{N}, a \\in \\mathbb{N}^{*})% nên %(a+2 n+3\\gt 0 \\Rightarrow a+2 n+3>a-2 n-3)%<br>\\[\\left\\{\\begin{array} { l } { a + 2 n + 3 = 2 3 } \\\\{ a - 2 n - 3 = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}a=12 \\n=4\\end{array}\\right.\\right.\\]<br>Do đó Thử lại thấy %(n=4)% thì %(A=4^{2}+3.4+8=36)% là số chính phương",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho hình vuông %(A B C D)%. Gọi M là một điểm tùy ý trên cạnh %(B C)% %((\\mathrm{M})% khác B và C%())%. Kẻ tia %(A x)% vuông góc với tia %(A M)% và cắt %(C D)% tại N . Gọi H là trung điểm của %(M N)%, tia %(A H)% cắt CD tại K . Qua điểm %(M)% kẻ đường thẳng song song với %(A B)%, cắt %(A K)% ở %(E)%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "1) Chứng minh %(A M=A N)% và tứ giác %(E M K N)% là hình thoi",
+        "question_images": [],
+        "solution": "Xét %(\\triangle A B M)% và %(\\triangle A D N)% có :<br>\\[\\begin{array}{l}A B=A D, \\angle A B M=\\angle A D N=90^{\\circ}, \\angle B A M=\\angle D A N \\text { (cùng phụ với } \\angle D A M \\text { ) } \\\\text { Nên } \\triangle A B M=\\triangle A D N(c h-g n) \\Rightarrow A M=A N \\text { (cạnh tương ưng) (1) }\\end{array}\\]<br>Mà %(M E / / A B \\Rightarrow M E / / D C \\Rightarrow M E / / N K(2))%Từ (1) và (2) suy ra %(E M K N)% là hình bình hành (3)<br>Lại có %(A M=A N)% nên %(\\triangle A M N)% cân tại A , mà %(H)% là trung điểm của %(M N)% nên %(A H)% là đường trung tuyến đồng thời là đường cao. Suy ra %(A H \\perp M N)% hay %(E K \\perp M N(4))% Từ (3) và (4) suy ra %(E M K N)% là hình thoi<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/bed84b7ec2b002fae7a0e3191baa5317.png\" srcset=\"https://docdn.giainhanh.io/media/test/d0e3086ae4434e2726331af90650cf14.png 245w, https://docdn.giainhanh.io/media/test/6fc345e96a2a22ae32d29604be47acdb.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "2) Chứng minh %(N A^{2}=N C . N K)%",
+        "question_images": [],
+        "solution": "Ta có %(\\triangle H N K \\propto \\triangle C N M(\\mathrm{~g} . \\mathrm{g}) \\Rightarrow \\frac{N K}{M N}=\\frac{N H}{N C} \\Rightarrow N K \\cdot N C=M N \\cdot N H\\left({ }^{*}\\right))% %(\\triangle A N H \\sim \\triangle M N A(\\mathrm{~g} . \\mathrm{g}) \\Rightarrow \\frac{A N}{M N}=\\frac{N H}{N A} \\Rightarrow N A^{2}=M N \\cdot N H\\left({ }^{* *}\\right))%Từ %(\\left({ }^{*}\\right),\\left({ }^{* *}\\right))% suy ra %(N A^{2}=N C . N K)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "3) Khi điểm %(M)% thay đổi trên cạnh %(B C)%, chứng minh chu vi tam giác %(M K C)% không đổi",
+        "question_images": [],
+        "solution": "Ta có : Chu vi tam giác %(M K C)% bằng %(M K+M C+K C)%Vì %(\\triangle A B M=\\triangle A D N)% (câu 1) nên %(M B=N D)%Mặt khác %(E M K N)% là hình thoi nên %(M K=N K)%. Khi đó :<br>\\[\\begin{array}{l}M K+M C+K C=N K+M C+K C=(N D+D K)+K C+M C \\\\=M B+D K+K C+M C=(M B+M C)+(D K+K C)=B C+D C=2 B C(\\text { constast })\\end{array}\\]<br>Vì %(\\mathrm{B}, \\mathrm{C})% cố định nên %(B C)% cố định.Do đó, khi %(M)% di chuyển trên %(B C)% thì chu vi tam giác %(M K C)% không đồi",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Câu 6. (2,0 điểm) Cho hình bình hành %(A B C D)% có %(A C\\gt B D)%. Vẽ %(C E)% vuông góc với %(A B)% tại %(E)% và %(C F)% vuông góc với %(A D)% tại F . Cho biết đường chéo %(A C=a)%, hãy tính %(\\dot{A} B \\cdot A E+A D \\cdot A F)% theo a",
+        "question_images": [],
+        "solution": "Kẻ %(B H \\perp A C(H \\in A C))%Ta có<br>\\[\\triangle A E C \\sim \\triangle A B H(\\angle A \\text { chung }) \\text { nên } \\frac{A B}{A C}=\\frac{A H}{A E} \\Rightarrow A B \\cdot A E=A H \\cdot A C(1)\\]<br>Xét hai tam giác vuông %(\\triangle A F C)% và %(\\triangle C H B)% có %(\\angle C A F=\\angle B C H)% (so le trong)Nên<br>\\[\\triangle A F C \\sim \\triangle C H B(\\mathrm{~g} . \\mathrm{g}) \\Rightarrow \\frac{A F}{C H}=\\frac{A C}{B C} \\Rightarrow A F . B C=A C . C H\\]<br>Mà %(B C=A D \\Rightarrow A F \\cdot A D=A C \\cdot C H(2))%Từ (1) và (2) suy ra %(A B \\cdot A E+A F \\cdot A D=A C \\cdot A H+A C \\cdot C H=A C \\cdot(A H+C H)=A C^{2}=a^{2})%Vậy điều phải chứng minh<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/cadf3c376d413868fbc69c34c73eae85.png\" srcset=\"https://docdn.giainhanh.io/media/test/b1a4083f6b9df249288e88bd4fcf4daa.png 218w, https://docdn.giainhanh.io/media/test/92f16e66e6d53ea0627c24cbfe4c71be.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

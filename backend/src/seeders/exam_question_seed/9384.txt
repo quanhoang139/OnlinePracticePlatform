@@ -1,0 +1,73 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Rút gọn biểu thức :<br>\\[A=\\frac{1}{a^{2}+a}+\\frac{1}{a^{2}+3 a+2}+\\frac{1}{a^{2}+5 a+6}+\\frac{1}{a^{2}+7 a+12}+\\frac{1}{a^{2}+9 a+20}\\]",
+        "question_images": [],
+        "solution": "Điều kiện: %(a \\neq 0 ; a \\neq-1 ; a \\neq-2 ; a \\neq-3 ; a \\neq-4 ; a \\neq-5)%<br>\\[\\begin{array}{l}A=\\frac{1}{a^{2}+a}+\\frac{1}{a^{2}+3 a+2}+\\frac{1}{a^{2}+5 a+6}+\\frac{1}{a^{2}+7 a+12}+\\frac{1}{a^{2}+9 a+20} \\\\=\\frac{1}{a(a+1)}+\\frac{1}{(a+1)(a+2)}+\\frac{1}{(a+2)(a+3)}+\\frac{1}{(a+3)(a+4)}+\\frac{1}{(a+4)(a+5)} \\\\=\\frac{1}{a}-\\frac{1}{a+1}+\\frac{1}{a+1}-\\frac{1}{a+2}+\\frac{1}{a+2}-\\frac{1}{a+3}+\\frac{1}{a+3}-\\frac{1}{a+4}+\\frac{1}{a+4}-\\frac{1}{a+5} \\\\=\\frac{1}{a}-\\frac{1}{a+5}=\\frac{a+4}{a(a+5)}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Giải các phương trình sau:<br>%((x-2008)^{4}+(x-2010)^{4}=2)%",
+        "question_images": [],
+        "solution": "%((x-2008)^{4}+(x-2010)^{4}=2)% (I)Đặt %(y=x-2009)%<br>ta có:<br>\\[\\begin{array}{l}(I) \\Leftrightarrow(y+1)^{4}+(y-1)^{4}=2 \\\\Leftrightarrow 2 y^{4}+12 y^{2}=0 \\\\Leftrightarrow 2 y^{2}\\left(y^{2}+6\\right)=0 \\\\Leftrightarrow v=0 \\Leftrightarrow x-2009=0 \\Leftrightarrow x=2009\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải các phương trình sau:<br>%(|x-1|-2|x-2|+3|x-3|=4)%",
+        "question_images": [],
+        "solution": "%(|x-1|-2|x-2|+3|x-3|=4)%<br>+ Nếu %(x\\lt 1)% ta có %((I I) \\Leftrightarrow-2 x+6=4 \\Leftrightarrow x=1 \\quad(\\mathrm{ktm}))%<br>+ Nếu %(1 \\leq x\\lt 2)% ta có: %((I I) \\Leftrightarrow 0 . x+4=4)%, Phương trình nghiệm đúng với<br>+ Nếu %(2 \\leq x\\lt 3)% ta có: %((I I) \\Leftrightarrow-4 x=-8 \\Leftrightarrow x=2)% (thỏa mãn)<br>+ Nếu %(3 \\leq x)% ta có: %((I I) \\Leftrightarrow 2 x=10 \\Leftrightarrow x=5)% (thỏa mãn)<br>Vây nghiệm của phương trình %((I I))% là %(x=5)% hoăc %(1 \\leq x \\leq 2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Tìm giá trị lớn nhất của biểu thức:<br>%(B=\\frac{3 x^{2}+6 x+10}{x^{2}+2 x+3})%",
+        "question_images": [],
+        "solution": "\\[B=\\frac{3 x^{2}+6 x+10}{x^{2}+2 x+3}=3+\\frac{1}{x^{2}+2 x+3}=3+\\frac{1}{(x+1)^{2}+2}\\]<br>Mà %(3+\\frac{1}{(x+1)^{2}+2} \\leq 3+\\frac{1}{2}=\\frac{7}{2})%<br>Vậy giá trị lớn nhất của là %(\\frac{7}{2} \\Leftrightarrow x=-1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Giải bất phương trình:<br>%((a+1) x+\\frac{a x-1}{a}\\gt \\frac{1}{a} \\quad(a \\neq 0))%",
+        "question_images": [],
+        "solution": "Với %(\\quad a \\neq 0 \\quad)% ta có %((I I I) \\Leftrightarrow(a+2) x\\gt \\frac{2}{a}(*))%<br>%((*) \\Leftrightarrow x\\gt \\frac{2}{a(a+2)})% nếu %(a\\gt -2)% và %(a \\neq 0)%<br>%((*) \\Leftrightarrow 0 x\\gt \\frac{2}{-2})% đúng với mọi x nếu a=-2<br>%(\\left({ }^{*}\\right) \\Leftrightarrow x\\lt \\frac{2}{a(a+2)})% nếu %(a\\lt -2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho tam giác %(A B C)% (cân tại A ) vẽ đường cao AH , đường cao BK",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Tìm các cặp tam giác vuông đồng dạng ? Giải thích tại sao ?",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f62d9cdb24283ac007c9cbea925594d1.png\" srcset=\"https://docdn.giainhanh.io/media/test/b73e050fafaddd343f6bc506ce5d652e.png 237w, https://docdn.giainhanh.io/media/test/5ad18970f0ad72ceb2a9211ba3b834f4.png 500w\" width=\"500\"/><br>Các cặp tam giác vuông đồng dạng là :<br>%(\\triangle A B H \\sim \\triangle A C H)%(Vì có %(B A H=\\subset A H)% )%(\\triangle A B H \\sim \\triangle B C K)% (vì có %(A B H=B C K)% )<br>%(\\triangle A C H \\sim \\triangle B C K)% (vì cùng đồng dạng với %(\\triangle A B H)% )",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Cho %(A H=10 \\mathrm{~cm}, B K=12 \\mathrm{~cm})%. Hãy tính độ dài các cạnh của tam giác ABC",
+        "question_images": [],
+        "solution": "Từ %(\\triangle A B H \\sim \\triangle B C K \\Rightarrow \\frac{A B}{B C}=\\frac{A H}{B K}=\\frac{10}{12}=\\frac{5}{6})%<br>%(\\Rightarrow \\frac{A B}{2 B H}=\\frac{5}{6} \\Rightarrow B H=\\frac{3}{5} A B)% (H là chân đường cao, trung tuyến)<br>Ta lại có: %(A B^{2}-B H^{2}=A H^{2})% (Định lý Pytago)<br>\\[\\begin{array}{l}\\Rightarrow A B^{2}-\\left(\\frac{3}{5} A B\\right)^{2}=10^{2} \\Rightarrow A B=12,5 \\mathrm{~cm} \\\\Rightarrow A C=A B=12,5 \\mathrm{~cm} \\quad ; B C=15 \\mathrm{~cm}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.5,
+        "content": "c) Gọi I là giao điểm của %(A H)% và BK , hãy tìm điều kiện của tam giác ABC để tam giác %(B C I)% là tam giác đều?",
+        "question_images": [],
+        "solution": "Chỉ ra được %(\\triangle B I C)% cân tại I<br>%(\\triangle B I C)% cân tại I trở thành tam giác đều khi %(B C=60^{\\circ})%<br>Mà %(B C=F A B \\Rightarrow A A B=60^{\\circ} \\Rightarrow B A C=120^{\\circ})%.<br>Vậy để %(\\triangle B I C)% là tam giác đều thì %(\\triangle A B C)% phải cân tại A và %(R=120^{\\circ})%",
+        "question_type": "essay"
+    }
+]

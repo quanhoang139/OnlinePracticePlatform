@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức: %(P=\\frac{x}{x-\\sqrt{x}}+\\frac{2}{x+2 \\sqrt{x}}+\\frac{x+2}{(\\sqrt{x}-1)(x+2 \\sqrt{x})})%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.5,
+        "content": "a. Rút gọn biểu thức %(P)%.",
+        "question_images": [],
+        "solution": "ĐK: %(x \\succ 0 ; x \\neq 1)%<br>%(P=\\frac{x}{\\sqrt{x}(\\sqrt{x}-1)}+\\frac{2}{\\sqrt{x}(\\sqrt{x}+2)}+\\frac{x+2}{\\sqrt{x}(\\sqrt{x}-1)(\\sqrt{x}+2)})%<br>%(\\begin{array}{l}=\\frac{x(\\sqrt{x}+2)+2(\\sqrt{x}-1)+x+2}{\\sqrt{x}(\\sqrt{x}-1)(\\sqrt{x}+2)} \\\\ =\\frac{x \\sqrt{x}+2 x+2 \\sqrt{x}-2+x+2}{\\sqrt{x}(\\sqrt{x}-1)(\\sqrt{x}+2)}=\\frac{x \\sqrt{x}+3 x+2 \\sqrt{x}}{\\sqrt{x}(\\sqrt{x}-1)(\\sqrt{x}+2)} \\\\ =\\frac{\\sqrt{x}(x+3 \\sqrt{x}+2)}{\\sqrt{x}(\\sqrt{x}-1)(\\sqrt{x}+2)} \\\\ =\\frac{\\sqrt{x}(\\sqrt{x}+1)(\\sqrt{x}+2)}{\\sqrt{x}(\\sqrt{x}-1)(\\sqrt{x}+2)} \\\\ =\\frac{(\\sqrt{x}+1)}{(\\sqrt{x}-1)}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b. Tính giá trị của biểu thức %(P)% khi %(x=3+2 \\sqrt{2})%",
+        "question_images": [],
+        "solution": "Ta có %(x=3+2 \\sqrt{2} \\Leftrightarrow \\sqrt{x}=\\sqrt{2+2 \\sqrt{2}+1}=\\sqrt{(\\sqrt{2}+1)^{2}}=\\sqrt{2}+1)%<br>Thay vào biểu thức %(\\mathrm{P})% ta được %(P=\\frac{\\sqrt{2}+1+1}{\\sqrt{2}+1-1}=\\frac{\\sqrt{2}+2}{\\sqrt{2}}=1+\\sqrt{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c. Tìm các giá trị nguyên của %(x)% để biểu thức %(P)% nhận giá trị nguyên.",
+        "question_images": [],
+        "solution": "Ta có: %(P=\\frac{\\sqrt{x}+1}{\\sqrt{x}-1}=\\frac{(\\sqrt{x}-1)+2}{\\sqrt{x}-1}=1+\\frac{2}{\\sqrt{x}-1})%<br>Để %(P)% nguyên thì %((\\sqrt{x}-1))% là ước của 2 và %((\\sqrt{x}-1)\\gt -1)%<br>Do đó: %((\\sqrt{x}-1) \\in\\{0 ; 1 ; 2\\} \\Rightarrow \\sqrt{x} \\in\\{1 ; 2 ; 3\\} \\Rightarrow x \\in\\{1,4,9\\})%<br>Mặt khác theo điều kiện %(x\\gt 0, x \\neq 1 \\Rightarrow x=4)% và %(x=9)%<br>Vậy để %(\\mathrm{P})% nguyên thì %(\\mathrm{x}=4)% hoặc %(\\mathrm{x}=9)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho các số %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% bất kỳ. Chứng minh: %(\\mathrm{a}^{2}+\\mathrm{b}^{2}+\\mathrm{c}^{2}+1\\gt \\mathrm{a}+\\mathrm{b}+\\mathrm{c})%",
+        "question_images": [],
+        "solution": "Giả sử: %(a^{2}+b^{2}+c^{2}+1\\gt a+b+c)%<br>%(\\begin{array}{l}\\Leftrightarrow 4 a^{2}+4 b^{2}+4 c^{2}+4\\gt 4 a+4 b+4 c \\\\ \\Leftrightarrow 4 a^{2}-4 a+1+4 b^{2}-4 b+1+4 c^{2}-4 c+1+1>0 \\\\ \\Leftrightarrow(2 a-1)^{2}+(2 b-1)^{2}+(2 c-1)^{2}+1>0 \\text { luôn đúng với mọi } a, b, c\\end{array})%<br>%(\\Rightarrow)% Bất đẳng thức cần chứng minh luôn đúng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Tìm giá trị lớn nhất và giá trị nhỏ nhất của biểu thức: %(A=\\frac{3 x^{2}-2 x+3}{x^{2}+1})%",
+        "question_images": [],
+        "solution": "+ Tìm GTLN:<br>Ta có %(\\mathrm{A}=\\frac{3 \\mathrm{x}^{2}-2 \\mathrm{x}+3}{\\mathrm{x}^{2}+1}=\\frac{4 \\mathrm{x}^{2}+4-\\mathrm{x}^{2}-2 \\mathrm{x}-1}{\\mathrm{x}^{2}+1}=\\frac{\\left(4 \\mathrm{x}^{2}+4\\right)-\\left(\\mathrm{x}^{2}+2 \\mathrm{x}+1\\right)}{\\mathrm{x}^{2}+1})% %(=\\frac{4\\left(x^{2}+1\\right)-(x+1)^{2}}{x^{2}+1}=4-\\frac{(x+1)^{2}}{x^{2}+1} \\leq 4)%<br>Dấu \"=\" xảy ra %(\\Leftrightarrow(x+1)^{2}=0 \\Leftrightarrow x=-1)%<br>Vậy GTLN A %(=4 \\Leftrightarrow x=-1)%<br>+ Tìm GTNN:<br>Ta có %(\\mathrm{A}=\\frac{3 \\mathrm{x}^{2}-2 \\mathrm{x}+3}{\\mathrm{x}^{2}+1}=\\frac{\\mathrm{x}^{2}-2 \\mathrm{x}+1+2 \\mathrm{x}^{2}+2}{\\mathrm{x}^{2}+1}=\\frac{(\\mathrm{x}-1)^{2}+2\\left(\\mathrm{x}^{2}+1\\right)}{\\mathrm{x}^{2}+1})% %(=\\frac{(x-1)^{2}}{x^{2}+1}+2 \\geq 2)%<br>Dấu \"=\" xảy ra %(\\Leftrightarrow(x-1)^{2}=0 \\Leftrightarrow x=1)%<br>Vây GTNN %(A=2 \\Leftrightarrow x=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Giải phương trình : %(\\frac{1}{x^{2}+5 x+4}+\\frac{1}{x^{2}+11 x+28}+\\frac{1}{x^{2}+17 x+70}=\\frac{3}{4 x-2})%",
+        "question_images": [],
+        "solution": "ĐKXĐ: %(x \\neq-1 ; x \\neq-4 ; x \\neq-7 ; x \\neq-10)%.<br>Phương trình ban đầu trở thành:<br>%(\\frac{3}{(x+1)(x+4)}+\\frac{3}{(x+4)(x+7)}+\\frac{3}{(x+7)(x+10)}=\\frac{9}{4 x-2})%<br>%(\\Leftrightarrow \\frac{1}{x+1}-\\frac{1}{x+4}+\\frac{1}{x+4}-\\frac{1}{x+7}+\\frac{1}{x+7}-\\frac{1}{x+10}=\\frac{9}{4 x-2})%<br>%(\\begin{array}{l}\\Leftrightarrow \\frac{1}{(x+1)(x+10)}=\\frac{1}{4 x-2} \\\\ \\Leftrightarrow(x+1)(x+10)=4 x-2 \\\\ \\Leftrightarrow x^{2}+7 x+12=0 \\\\ \\Leftrightarrow(x+3)(x+4)=0 \\\\ \\Leftrightarrow\\left[\\begin{array}{l}x=-3 \\\\ x=-4\\end{array}\\right.\\end{array})%<br>So sánh với ĐKXĐ %(\\Rightarrow)% nghiệm của phương trình đã cho là %(x=-3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho %(a b c=1)%. Hãy tính giá trị của biểu thức %(S=\\frac{1}{1+a+a b}+\\frac{1}{1+b+b c}+\\frac{1}{1+c+a c})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Từ giả thiết: } a b c=1 \\Rightarrow a b=\\frac{1}{c} \\\\ \\text { Ta có } \\mathrm{S}=\\frac{1}{1+a+a b}+\\frac{1}{1+b+b c}+\\frac{1}{1+c+a c} \\\\ =\\frac{1}{1+a+\\frac{1}{c}}+\\frac{1}{a b c+b+b c}+\\frac{1}{1+c+a c} \\\\ =\\frac{c}{c+a c+1}+\\frac{1}{b(a c+1+c)}+\\frac{1}{1+c+a c} \\\\ =\\frac{b c+1+b}{b(1+c+a c)}=\\frac{b c+a b c+b}{b(1+c+a c)} \\\\ =\\frac{b(c+a c+1)}{b(c+a c+1)}=1\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho điềm %(M)% di động trên đoạn thắng %(A B(M \\neq A, B))%. Trên cùng một nửa mặt phẳng bờ %(A B)% vẽ các hình vuông %(A M C D, B M E F)% và giao điểm hai đường chéo mỗi hình vuông lần lượt là %(O, O^{\\prime})%. Gọi %(H)% là giao điểm của %(A E)% và %(B C)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a. Chứng minh rằng: %(A E \\perp B C)%.",
+        "question_images": [],
+        "solution": "%(\\triangle A M E=\\triangle C M B(c . g . c) \\Rightarrow \\widehat{E A M}=\\widehat{B C M})%<br>Mà %(\\widehat{B C M}+\\widehat{M B C}=90^{\\circ} \\Rightarrow \\widehat{E A M}+\\widehat{M B C}=90^{\\circ} \\Rightarrow \\widehat{A H B}=90^{\\circ})%<br>Vậy %(A E \\perp B C)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/89efde86827436b754e5c1f4de7ba0a1.png\" srcset=\"https://docdn.giainhanh.io/media/test/9480d5d4e38fd80a46d3f9e882cb0e68.png 222w\" width=\"222\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b. Gọi %(I)% là giao của %(A C)% và %(B E)%. Chứng minh %(I)% là trung điểm của đoạn thẳng %(D F)% và ba điểm %(H, D, F)% thẳng hàng.",
+        "question_images": [],
+        "solution": "Từ GT %(\\Rightarrow \\widehat{D M A}=\\widehat{I B A}=45^{\\circ} \\Rightarrow D M / / I B)%.<br>Tương tự có: %(A C / / M F)%<br>Từ đó: %(O M O^{\\prime} I)% là hình bình hành %(\\Rightarrow O I=O^{\\prime} M)% và %(O I / / O^{\\prime} M \\Rightarrow O I=O^{\\prime} F)% và %(O I / / M F)% nên %(O I F O^{\\prime})% là hình bình hành.<br>Do đó: %(I F / / O O^{\\prime})% và %(I F=O O^{\\prime})% (1)<br>Chứng minh tương tự, ta cũng có %(D I / / O O^{\\prime})% và %(D I=O O^{\\prime}(2))%<br>Từ (1) và (2) suy ra ba điểm %(D, I, F)% thẳng hàng và %(D I=I F)% nên %(I)% là trung điểm của đoạn thẳng %(D F)%.%(O)% là giao điểm của %(A C)% và %(D M)%. %(\\triangle A H C\\left(\\widehat{H}=90^{\\circ}\\right))% có %(H O)% là đường trung tuyến %(\\Rightarrow H O=\\frac{1}{2} A C=\\frac{1}{2} D M \\Rightarrow \\triangle D H M)% vuông tại %(H)%.<br>Do đó: %(\\Rightarrow \\widehat{D H M}=90^{\\circ})%<br>Chứng minh tương tự ta có: %(\\widehat{M H F}=90^{\\circ})%Do đó: %(\\widehat{D H M}+\\widehat{M H F}=180^{\\circ})%.<br>Vậy ba điểm %(D, H, F)% thẳng hàng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c. Chứng minh rằng đường thẳng %(D F)% luôn đi qua một điểm cố định khi điểm %(M \\mathrm{di})% động trên đoạn thẳng %(A B)%.",
+        "question_images": [],
+        "solution": "Vì %(I)% là trung điểm của %(D F)%, Kẻ %(I K \\perp A B(K \\in A B) \\Rightarrow I K)% là đường trung bình của hình thang %(A B F D \\Rightarrow I K=\\frac{A D+B F}{2}=\\frac{A M+B M}{2}=\\frac{A B}{2})% (không đổi)<br>Do %(A, B)% cố định nên %(K)% cố định, mà %(I K)% không đổi nên %(I)% cố định.<br>Vậy đường thẳng %(D F)% luôn đi qua một điểm cố định khi điểm %(M)% di động trên đoạn thẳng %(A B)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Cho tam giác đều %(\\mathrm{ABC})%, điểm %(\\mathrm{M})% nằm trong tam giác %(\\mathrm{ABC})% sao cho %(\\mathrm{AM}^{2}=\\mathrm{BM}^{2}+\\mathrm{CM}^{2})% .Tính số đo góc BMC?",
+        "question_images": [],
+        "solution": "Vẽ tam giác đều %(\\mathrm{CMN})%<br>%(\\begin{array}{l}\\Rightarrow \\triangle B C N=\\triangle A C M \\\\ \\Rightarrow B N=A M\\end{array})%<br>mà %(A M^{2}=B M^{2}+C M^{2} \\Leftrightarrow B N^{2}=B M^{2}+M N^{2} \\Leftrightarrow \\triangle B M N)% vuông tai M.<br>%(\\Rightarrow \\widehat{B M C}=\\widehat{B M N}+\\widehat{N M C}=90^{\\circ}+60^{\\circ}=150^{\\circ})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0726a50d3ce029effd6f7e2b09794afa.png\" srcset=\"https://docdn.giainhanh.io/media/test/98fb77d6dd47569093d9d9736d88be22.png 199w\" width=\"199\"/>",
+        "question_type": "essay"
+    }
+]

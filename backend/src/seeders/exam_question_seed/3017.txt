@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Tìm giá trị của %(\\mathrm{x})% để các biểu thức có nghĩa:<br>\\[\\sqrt{3 x-2} ; \\quad \\frac{4}{\\sqrt{2 x-1}}\\]",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l } \\sqrt{3 x-2} \\text { có nghĩa } \\Leftrightarrow 3 x-2 \\geq 0 \\Leftrightarrow 3 x \\geq 2 \\Leftrightarrow x \\geq \\frac{2}{3} \\\\ \\frac{4}{\\sqrt{2 x-1}} \\text { có nghĩa } \\Leftrightarrow 2 x-1\\gt 0 \\Leftrightarrow 2 x>1 \\Leftrightarrow x>\\frac{1}{2}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Rút gọn biểu thức: %(A=\\frac{(2+\\sqrt{3}) \\sqrt{2-\\sqrt{3}}}{\\sqrt{2+\\sqrt{3}}})%",
+        "question_images": [],
+        "solution": "%(A=\\frac{(2+\\sqrt{3}) \\sqrt{2-\\sqrt{3}}}{\\sqrt{2+\\sqrt{3}}}=\\frac{(2+\\sqrt{3}) \\sqrt{(2-\\sqrt{3})^{2}}}{\\sqrt{(2-\\sqrt{3})(2+\\sqrt{3})}}=\\frac{(2+\\sqrt{3})(2-\\sqrt{3})}{\\sqrt{2^{2}-\\sqrt{3^{2}}}}=\\frac{2^{2}-\\sqrt{3^{2}}}{1}=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho phương trình:   %(m^{2}-(4 m-2) x+3 m-2=0 \\quad)% (1) ( %(m)% là tham số).",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.5,
+        "content": "a) Giải phương trình (1) khi %(\\mathrm{m}=2)%.",
+        "question_images": [],
+        "solution": "Thay %(m=2)% vào pt ta có:<br>(1) %(\\Leftrightarrow 2 x^{2}-6 x+4=0 \\Leftrightarrow x^{2}-3 x+2=0)%<br>Ta thấy:  %(1-3+2=0)% nên pt có 2 nghiệm: %(x_{1}=0 ; x_{2}=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.75,
+        "content": "b) Chứng minh rằng phương trình (1) luôn có nghiệm với mọi giá trị của %(\\mathrm{m})%.",
+        "question_images": [],
+        "solution": "* Nếu %(m=0)% thì %((1) \\Leftrightarrow 2 x-2=0 \\Leftrightarrow x=1)%.<br>Suy ra: Pt luôn có nghiệm với %(\\mathrm{m}=0)%<br>*Nếu %(\\mathrm{m} \\neq 0)% thì ph (1) là pt bậc 2 ẩn %(\\mathrm{x})%.<br>Ta có: %(\\Delta^{\\prime}=(2 m-1)^{2}-m(3 m-2)=4 m^{2}-4 m+1-3 m^{2}+2 m=(m-1)^{2} \\geq 0\\  \\forall m \\neq 0)%<br>Kết luận: Kết hợp 2 trường hợp ta có: pt luôn có nghiệm với mọi m (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 0.75,
+        "content": "c) Tìm giá trị của %(m)% để phương trình (1) có các nghiệm là nghiệm nguyên.",
+        "question_images": [],
+        "solution": "* Nếu %(\\mathrm{m}=0)% thì (1) %(\\Leftrightarrow 2 x-2=0 \\Leftrightarrow x=1)% nguyên<br>Suy ra: Với %(m=0)% pt có nghiệm nguyên<br>* Nếu %(\\mathrm{m} \\# 0)% thì pt (1) là pt bậc 2 ẩn %(x)%.<br>Từ ý 2 ta có: pt có 2 nghiệm:<br>\\[\\left[\\begin{array}{l}x_{1}=\\frac{2 m-1-m+1}{m}=1 \\x_{2}=\\frac{2 m-1+m-1}{m}=\\frac{3 m-2}{m}\\end{array}\\right.\\]<br>Để pt (1) có nghiệm nguyên thì nghiệm %(x_{2})% phải nguyên %(\\Leftrightarrow \\frac{3 m-2}{m} \\in Z \\Leftrightarrow 3-\\frac{2}{m} \\in Z\\ (m \\neq 0) \\Rightarrow 2: m)% hay %(m)% là ước của %(2 \\Rightarrow \\mathrm{m}=\\{-2 ;-1 ; 1 ; 2\\})%<br>Kết luận: Với %(m=\\{ \\pm 1 ; \\pm 2 ; 0\\})% thì pt có nghiệm nguyên",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "<i>Giải bài toán sau băng cách lập phương trình hoặc hệ phương trình</i>:<br>Một mảnh vườn hình chữ nhật có chu vi %(34 \\mathrm{~m})%. Nếu tăng thêm chiều dài %(3 \\mathrm{~m})% và chiều rộng %(2 \\mathrm{~m})% thì diện tích tăng thêm %(45 \\mathrm{~m}^{2})%. Hãy tính chiều dài, chiều rộng của mảnh vườn.",
+        "question_images": [],
+        "solution": "Gọi chiều dài hen là %(\\mathrm{x}(\\mathrm{m}))%; chiều rộng là %(\\mathrm{y}(\\mathrm{m}) \\quad(0\\lt \\mathrm{x}, \\mathrm{y}\\lt 17))%<br>Theo bài ra ta có hpt : %(\\left\\{\\begin{array}{l}x+y=34: 2=17 \\\\ (x+3)(y+2)=x y+45\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=12 \\\\ y=5\\end{array}\\right.\\right.)% (thỏa mãn đk)<br>Vậy : chiều dài %(=12 \\mathrm{~m})%, chiều rộng %(=5 \\mathrm{~m})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho đường tròn %(\\mathrm{O})%. Từ %(\\mathrm{A})% là một điểm nằm ngoài %((\\mathrm{O}))% kẻ các tiếp tuyến %(\\mathrm{AM})% và %(\\mathrm{AN})% với %((\\mathrm{O})(\\mathrm{M} ; \\mathrm{N})% là các tiếp điểm %())%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng tứ giác %(\\mathrm{AMON})% nội tiếp đường tròn đường kính %(\\mathrm{AO})%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" class=\"image_resized\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/590de52962c1e1717d871101cd194d53.png\" srcset=\"https://docdn.giainhanh.io/media/test/36d053c26a2d541abeb9732e5061fa1e.png 108w\" style=\"width:42.57%;\" width=\"108\"/><br>Theo tính chất tiếp tuyến vuông góc với bán kính tại tiếp điểm ta có : %(A M O=A N O=90^{\\circ})%<br>%(\\Rightarrow \\triangle A M O)% vuông tại %(\\mathrm{M} \\Rightarrow \\mathrm{A}, \\mathrm{M}, \\mathrm{O})% thuộc đường tròn đường kính %(\\mathrm{AO})% ( Vì %(\\mathrm{AO})% là cạnh huyền)<br>%(\\triangle A N O)% vuông tại %(\\mathrm{N} \\Rightarrow \\mathrm{A}, \\mathrm{N}, \\mathrm{O})% thuộc đường tròn đường kính %(\\mathrm{AO})% (Vì %(\\mathrm{AO})% là cạnh huyền)<br>Vậy: %(\\mathrm{A}, \\mathrm{M}, \\mathrm{N}, \\mathrm{O})% cùng thuộc đường tròn đường kính %(\\mathrm{AO})%<br>Hay tứ giác %(\\mathrm{AMNO})% nội tiếp đường tròn đường kính %(\\mathrm{AO})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Đường thẳng qua %(\\mathrm{A})% cắt đường tròn %((\\mathrm{O}))% tại %(\\mathrm{B})% và %(\\mathrm{C}(\\mathrm{B})% nằm giữa %(\\mathrm{A})% và %(\\mathrm{C}))%. Gọi %(\\mathrm{I})% là trung điểm của %(\\mathrm{BC})%. Chứng minh %(\\mathrm{I})% cũng thuộc đường tròn đường kính %(\\mathrm{AO})%.",
+        "question_images": [],
+        "solution": "Vì I là trung điểm của %(\\mathrm{BC})% (theo %(\\mathrm{gt}) \\Rightarrow O I \\perp B C\\ (\\mathrm{tc}))%<br>%(\\triangle A I O)% vuông tại %(\\mathrm{I} \\Rightarrow \\mathrm{A}, \\mathrm{I}, \\mathrm{O})% thuộc đường tròn đường kính %(\\mathrm{AO})% (Vì %(\\mathrm{AO})% là cạnh huyền)<br>Vậy I cũng thuộc đường tròn đường kính %(\\mathrm{AO}\\ (đ \\mathrm{pcm}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Gọi %(\\mathrm{K})% là giao điểm của %(\\mathrm{MN})% và %(\\mathrm{BC})%. Chứng minh rằng %(\\mathrm{AK} \\cdot \\mathrm{AI}=\\mathrm{AB} \\cdot \\mathrm{AC})%.",
+        "question_images": [],
+        "solution": "Nối M với B, C.<br>Xét %(\\triangle A M B\\ \\ và \\ \\triangle A M C)% có: %(M A C\\  chung)%<br>%(\\begin{array}{c}M C B=A M B=\\frac{1}{2} \\mathrm{sđ} M B \\\\Rightarrow \\triangle A M B \\sim \\triangle A C M(\\mathrm{~g} . \\mathrm{g}) \\Rightarrow \\frac{A B}{A M}=\\frac{A M}{A C} \\Rightarrow A B \\cdot A C=A M^{2}\\end{array})%<br>Xét %(\\triangle A K M \\ và\\ \\triangle A I M)% có: %(M A K)% chung<br>\\[\\begin{array}{l}A I M=A M K \\text { (Vì: } A I M=A N M \\text { cùng chắn } A M \\\\quad \\text { và } A M K=A N M \\text { ) } \\\\Rightarrow \\triangle A M K \\sim_{\\triangle A I M}(\\mathrm{~g} \\cdot \\mathrm{g}) \\Rightarrow \\frac{A K}{A M}=\\frac{A M}{A I} \\Rightarrow A K \\cdot A I=A M^{2} \\\\text { Từ (1) và (2) ta có: } \\mathrm{AK} \\cdot \\mathrm{AI}=\\mathrm{AB} \\cdot \\mathrm{AC} \\text { (đpcm) }\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho các số %(\\mathrm{x}, \\mathrm{y})% thỏa mãn %(\\mathrm{x} \\geq 0 ; \\mathrm{y} \\geq 0)% và %(\\mathrm{x}+\\mathrm{y}=1)%. Tìm giả trị lớn nhất và nhỏ nhất của %(\\mathrm{A}=\\mathrm{x}^{2}+\\mathrm{y}^{2})%.",
+        "question_images": [],
+        "solution": "<strong>* Tìm Min A, ta có:</strong><br>%(\\begin{array}{l}(x+y)^{2}=x^{2}+2 x y+y^{2}=1 \\\\(x-y)^{2}=x^{2}-2 x y+y^{2} \\geq 0\\end{array})%<br>Cộng vế với vế ta có: %(2\\left(x^{2}+y^{2}\\right) \\geq 1 \\Leftrightarrow\\left(x^{2}+y^{2}\\right) \\geq \\frac{1}{2} \\Leftrightarrow A \\geq \\frac{1}{2})%<br>Vậy Min %(A=\\frac{1}{2})%.<br><i>Cách 2</i><br>Từ %(x+y=1 \\Rightarrow x=1-y)%<br>Thay vào %(\\mathrm{A})% ta có :<br>%(A=(1-y)^{2}+y^{2}=2 y^{2}-2 y+1=2\\left(y-\\frac{1}{2}\\right)^{2}+\\frac{1}{2} \\geq \\frac{1}{2} \\forall y)%<br>Dấu «=» xảy ra khi : %(\\mathrm{x}=\\mathrm{y}=\\frac{1}{2})%<br>Vậy Min %(A=\\frac{1}{2})% Dấu \"=\" xảy ra khi %(x=y=\\frac{1}{2})%<br>Dấu \"=\" xảy ra khi %(x=y=\\frac{1}{2})%<br><strong>* Tìm Max A</strong><br>Từ giả thiết suy ra %(\\left\\{\\begin{array}{l}0 \\leq x \\leq 1 \\\\ 0 \\leq y \\leq 1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x^{2} \\leq x \\\\ y^{2} \\leq y\\end{array} \\Leftrightarrow x^{2}+y^{2} \\leq x+y=1\\right.\\right.)%<br>Vậy: Max A = 1 khi %(x=0, y)%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,91 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 1.0,
+        "content": "Tìm giá trị lớn nhất, giá trị nhỏ nhất của hàm số %(y=\\frac{\\sin x+\\cos x+1}{\\sqrt{2+\\sin 2 x}})%.",
+        "question_images": [],
+        "solution": "Đặt %(\\sin x+\\cos x=t \\in[-\\sqrt{2} ; \\sqrt{2}] \\Rightarrow \\sin 2 x=t^{2}-1)%, khi đó %(y=\\frac{t+1}{\\sqrt{t^{2}+1}}=f(t), t \\in[-\\sqrt{2} ; \\sqrt{2}])%.<br>Ta có %(f^{\\prime}(t)=\\frac{1-t}{\\left(t^{2}+1\\right) \\sqrt{t^{2}+1}} \\Rightarrow f^{\\prime}(t)=0 \\Rightarrow t=1)%.<br>Tính %(f(-\\sqrt{2})=\\frac{1-\\sqrt{2}}{\\sqrt{3}} ; f(\\sqrt{2})=\\frac{1+\\sqrt{2}}{\\sqrt{3}}, f(1)=\\sqrt{2})%.<br>Suy ra: %(\\min y=\\frac{1-\\sqrt{2}}{\\sqrt{3}} \\Leftrightarrow x=-\\frac{3 \\pi}{4}+k 2 \\pi ; \\max y=\\sqrt{2} \\Leftrightarrow x=k 2 \\pi, x=\\frac{\\pi}{2}+k 2 \\pi)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 1.0,
+        "content": "Cho hàm số %(y=\\frac{x}{1-x})% có đồ thị %((C))% và điểm %(A(-1 ; 1))%. Tìm các giá trị của %(\\mathrm{m})% để đường thẳng %((d): y=m x-m-1)% cắt đồ thị %((C))% tại hai điểm phân biệt %(M, N)% sao cho %(A M^{2}+A N^{2})% đạt giá trị nhỏ nhất.",
+        "question_images": [],
+        "solution": "Cách 1:<br>Dễ thấy đường thẳng %((d): y=m x-m-1)% luôn đi qua điểm %(I(1 ;-1))% là giao điểm của hai đường tiệm cận.<br>Ta có %(y^{\\prime}=\\frac{1}{(1-x)^{2}}\\gt 0, \\forall x \\neq 1)% nên để đường thẳng %((d))% cắt %((C))% tại hai điểm phân biệt %(M, N)% thì %(m\\lt 0)%.<br>Khi đó %(I(1 ;-1))% luôn là trung điểm của đoạn %(\\mathrm{MN})%.<br>Ta có %(A M^{2}+A N^{2}=(\\overrightarrow{A M}+\\overrightarrow{A N})^{2}-2 \\overrightarrow{A M} \\overrightarrow{A N}=4 \\overrightarrow{A I}-2 \\overrightarrow{A M} \\overrightarrow{A N}=32-2 \\overrightarrow{A M} \\overrightarrow{A N})% (*)<br>Do A cố định nên: nếu ta xét được %(\\overrightarrow{A M} \\overrightarrow{A N})% là số dương và trong tam giác %(A M N)% có cạnh %(M N)% nhỏ nhất thì tìm được giá trị nhỏ nhất.<br>Mà %((C))% là Hypebol nên khi %((d))% là đường phân giác của góc tạo bởi hai tiệm cận thì %(m=-1)% và %((d): y=-x)% cắt %((C))% tại hai điểm phân biệt %(M(0 ; 0), N(2 ;-2))% và %(\\mathrm{MN})% nhỏ nhất, ta có:<br>%(\\overrightarrow{A M} \\overrightarrow{A N}=1.3+(-1)(-3)=6>0)%, hơn nữa %( A M^{2}+A N^{2}=32-12=20)%.<br>Vậy %(\\min \\left(A M^{2}+A N^{2}\\right)=20 \\Leftrightarrow m=-1)%.<br>Cách 2:<br>Xét phương trình hoành độ giao điểm của %((d))% cắt và %((C): m x-m-1=\\frac{x}{1-x}, x \\neq 1)%<br>%(\\Leftrightarrow m x^{2}-2 m x+m+1=0)% (vì %(x=1)% không là nghiệm).<br>Để phương trình có hai nghiệm phân biệt thì %(\\left\\{\\begin{array}{l}m \\neq 0 \\\\ m^{2}-m(m+1)\\gt 0\\end{array} \\Rightarrow m\\lt 0\\right.)%.<br>Theo định lý Viet ta có: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=2 \\\\ x_{1} x_{2}=\\frac{m+1}{m}\\end{array}\\right.)%.<br>Mặt khác %(A M^{2}+A N^{2}=\\left(x_{1}+1\\right)^{2}+\\left(x_{2}+1\\right)^{2}+\\left(m\\left(x_{1}-1\\right)-2\\right)^{2}+\\left(m\\left(x_{2}-1\\right)-2\\right)^{2})%<br>\\[\\begin{array}{l}A M^{2}+A N^{2}=10-\\frac{2(m+1)}{m}+m^{2}\\left[\\left(x_{1}-1\\right)^{2}+\\left(x_{2}-1\\right)^{2}\\right]-4\\left(m\\left(x_{1}-1\\right)+m\\left(x_{2}-1\\right)\\right)+8 \\A M^{2}+A N^{2}=18-\\frac{2(m+1)}{m}+m^{2}\\left[\\left(x_{1}+x_{2}\\right)^{2}-2 x_{1} x_{2}-2\\left(x_{1}+x_{2}\\right)+2\\right] \\A M^{2}+A N^{2}=18-\\frac{2(m+1)}{m}+m^{2}\\left[2-\\frac{2(m+1)}{m}\\right]=16+2\\left(-m-\\frac{1}{m}\\right) \\geq 16+4 \\sqrt{(-m) \\cdot \\frac{1}{(-m)}} \\\\Rightarrow \\min \\left(A M^{2}+A N^{2}\\right)=20 \\Leftrightarrow-m=1 \\Leftrightarrow m=-1 .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 1.0,
+        "content": "Cho hàm số %(f(x)=\\frac{1}{1+2019^{x}})%. Tính tỉ số %(\\frac{P}{Q})%, với<br>\\[P=f^{\\prime}(1)+2 f^{\\prime}(2)+\\ldots+2019 f^{\\prime}(2019) \\text { và } Q=f^{\\prime}(-1)+2 f^{\\prime}(-2)+\\ldots+2019 f^{\\prime}(-2019) \\text {. }\\]",
+        "question_images": [],
+        "solution": "\\[f(x)=\\frac{1}{1+2019^{x}} \\Rightarrow f^{\\prime}(x)=-\\frac{2019^{x} \\ln 2019}{\\left(1+2019^{x}\\right)^{2}} \\Rightarrow f^{\\prime}(-x)=-\\frac{2019^{x} \\ln 2019}{\\left(1+2019^{x}\\right)^{2}}=f^{\\prime}(x), \\forall x \\in \\mathbb{R} .\\]<br>Do đó %(f^{\\prime}(x))% là hàm số chẵn, suy ra %(g(x)=-x . f^{\\prime}(x))% là hàm số lẻ.<br>Vậy nếu %(P=-\\sum_{k=1}^{2019} g(k))% thì %(Q=\\sum_{k=1}^{2019} g(-k)=-\\sum_{k=1}^{2019} g(k)=P \\Rightarrow \\frac{P}{Q}=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(\\log _{2}\\left[3 \\log _{2}(3 x-1)-1\\right]=x)%.",
+        "question_images": [],
+        "solution": "Đặt %(\\log _{2}(3 x-1)=y \\Rightarrow 3 x=1+2^{y})%, từ phương trình đã cho ta có:<br>%(\\log _{2}(3 y-1)=x \\Rightarrow 3 y=1+2^{x})%.<br>Như thế ta có điều kiện %(x, y \\in\\left(\\frac{1}{3} ;+\\infty\\right))% và ta được hệ phương trình: %(\\left\\{\\begin{array}{l}3 x=1+2^{y} \\\\ 3 y=1+2^{x}\\end{array}\\right.)%.<br>Xét hàm %(f(t)=1+2^{t}-3 t, t \\in\\left(\\frac{1}{3} ;+\\infty\\right) \\Rightarrow f^{\\prime}(t)=2^{t} \\ln 2-3)%, ta có:<br>%(f^{\\prime}(t)=0 \\Leftrightarrow 2^{t}=\\frac{3}{\\ln 2} \\Leftrightarrow t=\\log _{2}\\left(\\frac{3}{\\ln 2}\\right)=\\alpha \\in\\left(\\frac{1}{3} ;+\\infty\\right))%, và %(f^{\\prime}(t)=2^{t} \\ln 2-3)% đồng biến nên ta có %(t=\\alpha)% là điểm cực tiểu của %(f(t), f(\\alpha)=1+2^{\\alpha}-3 \\alpha\\lt 0)% nên phương trình %(f(t)=0)% có đúng hai nghiệm %(t=1, t=3)%.<br>Mặt khác từ hệ phương trình, trừ theo vế ta có:<br>%(3(x-y)=2^{y}-2^{x} \\Leftrightarrow 3 x+2^{x}=3 y+2^{y})% hay là %(g(x)=g(y))%, với %(g(t)=3 t+2^{t})% đồng biến trên %(\\left(\\frac{1}{3} ;+\\infty\\right))%, suy ra %(x=y)%.<br>Cuối cùng phương trình đã cho %(\\Leftrightarrow f(x)=0 \\Leftrightarrow x=1, x=3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 1.0,
+        "content": "Cho tam giác đều %(\\mathrm{ABC})% cạnh %(8 \\mathrm{~cm})%. Chia tam giác này thành 64 tam giác đều cạnh %(1 \\mathrm{~cm})% bởi các đường thẳng song song với các cạnh tam giác %(A B C)% (như hình vẽ). Gọi %(S)% là tập hợp các đỉnh của các tam giác cạnh %(1 \\mathrm{~cm})%. Chọn ngẫu nhiên 4 đỉnh thuộc %(S)%. Tính xác suất sao cho 4 đỉnh được chọn là 4 đỉnh của hình bình hành nằm trong miền trong của tam giác %(\\mathrm{ABC})% và có cạnh chứa các cạnh của các tam giác cạnh %(1 \\mathrm{~cm})% ở trên.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/dab7fb2f5578f1d5342b198e75fcc042.png"
+        ],
+        "solution": "Trên cạnh %(\\mathrm{BC})% ta có 9 đỉnh của các tam giác đều cạnh %(1 \\mathrm{~cm})% (kể cả %(B)% và %(C)% ), trên đường thẳng tiếp theo song song %(B C)% (phía trên %(B C)% ) ta có 8 đỉnh của các tam giác đều cạnh %(1 \\mathrm{~cm}, \\ldots)% cuối cùng đến %(A)% có 1 đỉnh của tam giác đều cạnh %(1 \\mathrm{~cm})%.<br>Ta có %(n(S)=9+8+7+\\ldots+2+1=45)%.<br>Như thế số phần tử của không gian mẫu là: %(n(\\Omega)=C_{45}^{4})%.<br>Theo yêu cầu: nếu có hình bình hành tạo thành từ 4 đỉnh trong %(S)% thì 4 đỉnh đó chỉ có thể thuộc tam giác đều cạnh %(5 \\mathrm{~cm})% (tức là bỏ đi tất cả các đỉnh của các tam giác cạnh %(1 \\mathrm{~cm})% nằm trên ba cạnh %(\\mathrm{BC})%, %(\\mathrm{CA}, \\mathrm{AB})% và cạnh có liên quan đến các đỉnh đó).<br>- Trường hợp 1: Các cạnh của hình bình hành nằm trên %(\\mathrm{MN})% hoặc có đúng 1 đỉnh thuộc %(\\mathrm{MN})%.<br>- Các hình bình hành có cạnh nằm trên %(\\mathrm{MN})%<br>+ Tạo bởi hai đoạn %(\\mathrm{MN}, \\mathrm{DE})% :<br>Ta cần chọn thêm 2 đường thẳng song song hoặc trùng với %(\\mathrm{DM})% (hoặc song song trùng %(\\mathrm{EN})% ) thì tạo ra hình bình hành và mỗi trường hợp này có %(C_{5}^{2})% cách.<br>Như vậy có: %(C_{5}^{2}+C_{5}^{2}=20)% hình bình hành.<br>+ Tạo bởi hai đoạn MN, GF:<br>Lặp lại lập luận trên ta có có: %(C_{4}^{2}+C_{4}^{2}=12)% hình.<br>+ Tạo bởi hai đoạn MN, HI: Lặp lại lập luận trên ta có có: %(C_{3}^{2}+C_{3}^{2}=6)% hình.<br>+ Tạo bởi hai đoạn %(\\mathrm{MN}, \\mathrm{KT})%: Lặp lại lập luận trên ta có có: %(C_{2}^{2}+C_{2}^{2}=2)% hình.<br>Vậy các hình bình hành có cạnh nằm trên %(\\mathrm{MN})% có %(20+12+6+2=40)% hình.<br>- Các hình bình hành có đúng 1 đỉnh thuộc MN<br>+ Đỉnh số 1 và số 4: đều có 4 hình bình hành<br>+ Đỉnh số 2 và số 3 : đều có 3 hình bình hành.<br>Vậy các hình bình hành có đúng 1 đỉnh thuộc %(M N)% có %(2 .(4+3)=14)% hình.<br>Do đó trường hợp 1 ta có: %(40+14=54)% hình.<br>- Trường hợp 2: Các cạnh hình hành nằm trên DE nhưng không thuộc MN hoặc có đúng 1 đỉnh thuộc DE.<br>So với trường hợp 1 thì chỉ số tổ hợp giảm đi 1, ta làm tương tự và có:<br>\\[\\left(C_{4}^{2}+C_{4}^{2}\\right)+\\left(C_{3}^{2}+C_{3}^{2}\\right)+\\left(C_{2}^{2}+C_{2}^{2}\\right)+(3+3+2)=28 \\text { hình. }\\]<br>- Trường hợp 3: Các cạnh hình hành nằm trên GF nhưng không thuộc %(\\mathrm{MN})% và %(\\mathrm{DE})% hoặc có đúng 1 đỉnh thuộc GF.<br>Tương tự ta có %(\\left(C_{3}^{2}+C_{3}^{2}\\right)+\\left(C_{2}^{2}+C_{2}^{2}\\right)+(2+2)=12)% hình.<br>- Trường hợp 4: Các cạnh hình hành nằm trên %(\\mathrm{HI})% nhưng không thuộc %(\\mathrm{MN}, \\mathrm{DE})% và %(\\mathrm{GF})% hoặc có đúng 1 đỉnh thuộc %(\\mathrm{HI})%.<br>Ta có %(\\left(C_{2}^{2}+C_{2}^{2}\\right)+1=3)% hình.<br>Số các hình bình hành trong bốn trường hợp là: %(54+28+12+3=97)% hình.<br>Vậy xác suất cần tìm là: %(p=\\frac{97}{C_{45}^{4}}=\\frac{97}{148995})%.<br>Lưu ý:<br>Đề bài yêu cầu các đỉnh hình bình hành nằm trong miền trong của tam giác %(\\mathrm{ABC})% nên số hình bình hành là tương đới nhỏ. Nếu các đỉnh hình hành không ngoài tam giác %(A B C)% thì sẽ nhiều hình hơn.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ed734365526d87d539b705442072581d.png\" srcset=\"https://docdn.giainhanh.io/media/test/973e34dc67f32620351508c1057aef22.png 245w, https://docdn.giainhanh.io/media/test/6e371f023df0387c289f1f76081586f6.png 500w, https://docdn.giainhanh.io/media/test/b625606b37269202619068380d51777c.png 750w, https://docdn.giainhanh.io/media/test/711a7ff611914d7fdede4837108e36ed.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 1.0,
+        "content": "Tìm công sai %(d)% của cấp số cộng %(\\left(u_{n}\\right))% có tất cả các số hạng đều dương và thỏa mãn: %(\\left\\{\\begin{array}{l}u_{1}+u_{2}+\\ldots+u_{2020}=4\\left(u_{1}+u_{2}+\\ldots+u_{1010}\\right) \\\\ \\log _{3}^{2} u_{3}+\\log _{3}^{2} u_{5}+\\log _{3}^{2} u_{14}=2\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Từ phương trình đầu của hệ ta có: %(\\frac{2020\\left(2 u_{1}+2019 d\\right)}{2}=4 \\cdot \\frac{1010\\left(2 u_{1}+1009 d\\right)}{2})%<br>%(\\Leftrightarrow 2 u_{1}+2019 d=4 u_{1}+2018 d \\Leftrightarrow d=2 u_{1} \\Rightarrow u_{3}=5 u_{1}, u_{5}=9 u_{1}, u_{14}=27 u_{1})% thế vào phương trình thứ hai của hệ, ta có:<br>%(\\left(\\log _{3} 5+\\log _{3} u_{1}\\right)^{2}+\\left(\\log _{3} 9+\\log _{3} u_{1}\\right)^{2}+\\left(\\log _{3} 27+\\log _{3} u_{1}\\right)^{2}=2)%.<br>Đặt %( \\log _{3} u_{1}=t, \\log _{3} 5=a)%, ta có phương trình:<br>%((a+t)^{2}+(2+t)^{2}+(3+t)^{2}=2 \\Leftrightarrow 3 t^{2}+2(a+5) t+11+a^{2}=0)%<br>%(\\Rightarrow t=\\frac{-(a+5) \\pm \\sqrt{-2 a^{2}+10 a-8}}{3})%.<br>Suy ra %(u_{1}=3^{\\frac{-(a+5) \\pm \\sqrt{-2 a^{2}+10 a-8}}{3}})%.<br>Vậy %(d=2.3^{\\frac{-(a+5) \\pm \\sqrt{-2 a^{2}+10 a-8}}{3}})%, với %(a=\\log _{3} 5)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7:",
+        "group_content": "Cho hình chóp %(S . A B C D)% có đáy là hình vuông cạnh %(a, S A)% vuông góc với mặt phẳng %((A B C D), S A=a)%. Một mặt phẳng %((\\alpha))% qua %(C D)% cắt %(S A, S B)% lần lượt tại %(M, N)%. Đặt %(A M=x)%, với %(0\\lt x\\lt a)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Tứ giác %(M N C D)% là hình gì? Tính diện tích tứ giác %(M N C D)% theo a và %(x)%.",
+        "question_images": [],
+        "solution": "Vì %(A B C D)% là hình vuông nên %(A B / / C D)%, suy ra %(A B / /(\\alpha))% do đó %(A B / / M N)% hay ta có %(M N C D)% là hình thang.<br>Mặt khác: %(C D \\perp A D, C D \\perp S A)% nên %(C D \\perp \\mathrm{mp}(S A D))% suy ra %(\\mathrm{MN} \\perp(\\mathrm{SAD}))% suy ra %(\\mathrm{MN} \\perp \\mathrm{MD}.)%<br>Vậy tứ giác MNCD là hình thang vuông tại %(D)% và %(M)%.<br>Từ đó ta có DM là đường cao của hình thang MNCD.<br>Ta có %(\\frac{M N}{A B}=\\frac{S M}{S A}=\\frac{a-x}{a} \\Rightarrow M N=a-x)% và %(M A=x)% nên %(D M=\\sqrt{x^{2}+a^{2}})%.<br>Do đó ta tính diện tích %(M N C D)% là: %(S=\\frac{(C D+M N) \\cdot D M}{2}=\\frac{(2 a-x) \\sqrt{x^{2}+a^{2}}}{2})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/bc60045c5e7232c0dd4823e4d2331eab.png\" srcset=\"https://docdn.giainhanh.io/media/test/17d36076d1646fecce23f6dc09c59724.png 216w, https://docdn.giainhanh.io/media/test/4c8c48b5dd28c18e8cb436f83339979b.png 500w, https://docdn.giainhanh.io/media/test/46a444dcf8aa2eca8fbb2cf2c83d51da.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Xác định %(x)% để thể tích khối chóp %(S . M N C D)% bằng %(\\frac{2}{9})% lần thể tích khối chóp %(S . A B C D)%.",
+        "question_images": [],
+        "solution": "Ta có %(V_{S \\cdot A B C D}=\\frac{1}{3} S A \\cdot S_{A B C D}=\\frac{a^{3}}{3}(1))%.<br>Kẻ %(S H)% vuông góc với %(D M,(H)% thuộc %(D M))%, ta có:<br>%(M N \\perp(S A D))% (theo chứng minh câu a) nên %(M N \\perp S H)%, suy ra %(S H \\perp(M N C D))%, từ đó %(S H)% là đường cao của khối chóp S.MNCD.<br>Trong hai tam giác vuông đồng dạng %(S H M)% và DAM ta có:<br>%(\\frac{S H}{D A}=\\frac{S M}{D M}=\\frac{a-x}{\\sqrt{x^{2}+a^{2}}} \\Rightarrow S H=\\frac{a(a-x)}{x \\sqrt{x^{2}+a^{2}}})% do đó thể tích của khối chóp %(S . M N C D)% là:<br>\\[V^{\\prime}=\\frac{1}{3} \\cdot \\frac{a(a-x)}{\\sqrt{x^{2}+a^{2}}} \\cdot \\frac{(2 a-x) \\sqrt{x^{2}+a^{2}}}{2}=\\frac{a(a-x)(2 a-x)}{6}\\]<br>Từ (1), (2) và yêu cầu bài toán ta có phương trình: %(\\frac{a(a-x)(2 a-x)}{6}=\\frac{2}{9} \\cdot \\frac{a^{3}}{3})%<br>\\[9\\left(1-\\frac{x}{a}\\right)\\left(2-\\frac{x}{a}\\right)=4 \\Rightarrow 9(1-t)(2-t)=4, t=\\frac{x}{a} \\in(0 ; 1) \\Leftrightarrow t=\\frac{2}{3} \\in(0 ; 1) \\Leftrightarrow x=\\frac{2 a}{3} .\\]<br>Vậy với %(x=\\frac{2 a}{3})% thì thể tích khối chóp %(S . M N C D)% bằng %(\\frac{2}{9})% lần thể tích khối chóp %(S . A B C D)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 0.5,
+        "content": "Cho các số thực phân biệt %(a, b\\gt 1)%. Chứng minh rằng: %(\\log _{a}\\left(\\log _{a} b\\right)>\\log _{b}\\left(\\log _{a} b\\right))%.",
+        "question_images": [],
+        "solution": "Đặt %(\\log _{a} b=t\\gt 0, t \\neq 1 \\Rightarrow b=a^{t})%.<br>Khi đó bất đẳng thức cần chứng minh tương đương với:<br>\\[\\log _{a} t>\\log _{a^{t}}(t) \\Leftrightarrow(t-1) \\log _{a} t>0\\left(^{*}\\right) .\\]<br>Nếu %(t>1)% thì %(t-1>0 \\& \\log _{a} t>0 \\Rightarrow(*))% đúng.<br>Nếu %(0\\lt t\\lt 1)% thì %(t-1\\lt 0 \\& \\log _{a} t\\lt 0 \\Rightarrow\\left({ }^{*}\\right))% đúng.<br>Vậy ta có điều cần chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 9: ",
+        "point": 0.5,
+        "content": "Cho các số thực %(a_{1}\\gt a_{2}>\\ldots>a_{n}>1,(n \\geq 2))%. Chứng minh rằng:<br>\\[\\log _{a_{1}}\\left(\\log _{a_{1}} a_{2}\\right)+\\log _{a_{2}}\\left(\\log _{a_{2}} a_{3}\\right)+\\ldots+\\log _{a_{n-1}}\\left(\\log _{a_{n-1}} a_{n}\\right)+\\log _{a_{n}}\\left(\\log _{a_{n}} a_{1}\\right)>0 .\\]",
+        "question_images": [],
+        "solution": "Áp dụng bất đẳng thức trong câu %(5 a)%, ta có:<br>\\[\\begin{array}{l}\\log _{a_{1}}\\left(\\log _{a_{1}} a_{2}\\right)+\\log _{a_{2}}\\left(\\log _{a_{2}} a_{3}\\right)\\gt \\log _{a_{2}}\\left(\\log _{a_{1}} a_{2}\\right)+\\log _{a_{2}}\\left(\\log _{a_{2}} a_{3}\\right) \\\\Leftrightarrow \\log _{a_{1}}\\left(\\log _{a_{1}} a_{2}\\right)+\\log _{a_{2}}\\left(\\log _{a_{2}} a_{3}\\right)>\\log _{a_{2}}\\left(\\log _{a_{1}} a_{2} \\cdot \\log _{a_{2}} a_{3}\\right)=\\log _{a_{2}}\\left(\\log _{a_{1}} a_{3}\\right) .\\end{array}\\]<br>Lặp lại lần nữa:<br>\\[\\begin{array}{l}\\log _{a_{2}}\\left(\\log _{a_{1}} a_{3}\\right)+\\log _{a_{3}}\\left(\\log _{a_{3}} a_{4}\\right)>\\log _{a_{3}}\\left(\\log _{a_{1}} a_{3}\\right)+\\log _{a_{3}}\\left(\\log _{a_{3}} a_{4}\\right) \\\\Leftrightarrow \\log _{a_{2}}\\left(\\log _{a_{1}} a_{3}\\right)+\\log _{a_{3}}\\left(\\log _{a_{3}} a_{4}\\right)>\\log _{a_{3}}\\left(\\log _{a_{1}} a_{3} \\cdot \\log _{a_{3}} a_{4}\\right)=\\log _{a_{3}}\\left(\\log _{a_{1}} a_{4}\\right) .\\end{array}\\]<br>Cứ tiếp tục lặp lại như thế ta lần lượt thay được cơ số ngoài cùng của logarit và số lấy logarit trong cùng (chú ý mỗi lần thay thì cơ số %(a_{1})% không đồi), ký hiệu vế trái là %(\\mathrm{P})%, cuối cùng ta có:<br>\\[P>\\log _{a_{n}}\\left(\\log _{a_{1}} a_{n}\\right)+\\log _{a_{n}}\\left(\\log _{a_{n}} a_{1}\\right)=\\log _{a_{n}}\\left(\\log _{a_{1}} a_{n} \\cdot \\log _{a_{n}} a_{1}\\right)=\\log _{a_{n}}\\left(\\log _{a_{1}} a_{1}\\right)=0 \\text { (đpcm). }\\]",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,89 @@
+[
+    {
+        "title": "Câu 1 ",
+        "point": 1.0,
+        "content": "Rút gọn biểu thức %(P=\\frac{\\sqrt{x-\\sqrt{4(x-1)}}+\\sqrt{x+\\sqrt{4(x-1)}}}{\\sqrt{x^{2}-4(x-1)}} \\cdot\\left(1-\\frac{1}{x-1}\\right))%, với %(x\\gt 1 ; x \\neq 2)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{aligned}P & =\\frac{\\sqrt{x-\\sqrt{4(x-1)}}+\\sqrt{x+\\sqrt{4(x-1)}}}{\\sqrt{x^{2}-4(x-1)}} \\cdot\\left(1-\\frac{1}{x-1}\\right), \\text { với } x\\gt 1 ; x \\neq 2 \\\\& =\\frac{\\sqrt{(x-1)-2 \\sqrt{x-1}+1}+\\sqrt{(x-1)+2 \\sqrt{x-1}+1}}{\\sqrt{x^{2}-4 x+4}} \\cdot \\frac{x-2}{x-1} \\\\& =\\frac{\\sqrt{(\\sqrt{x-1}-1)^{2}}+\\sqrt{(\\sqrt{x-1}+1)^{2}}}{\\sqrt{(x-2)^{2}}} \\cdot \\frac{x-2}{x-1} \\\\& =\\frac{|\\sqrt{x-1}-1|+\\sqrt{x-1}+1}{|x-2|} \\cdot \\frac{x-2}{x-1}\\end{aligned}\\]<br>* Nếu %(1\\lt x\\lt 2)% ta có %(P=\\frac{1-\\sqrt{x-1}+\\sqrt{x-1}+1}{2-x} \\cdot \\frac{x-2}{x-1}=\\frac{-2}{x-1})%<br>* Nếu %(x>2)% ta có %(P=\\frac{\\sqrt{x-1}-1+\\sqrt{x-1}+1}{x-2} \\cdot \\frac{x-2}{x-1}=\\frac{2}{\\sqrt{x-1}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 1.0,
+        "content": "Cho các số thực %(x, y, z)% khác 0 thỏa mãn điều kiện %(x+y+z=0)%. Chứng minh rằng:%(Q=\\sqrt{\\frac{6 x^{2}}{x^{2}-y^{2}-z^{2}}+\\frac{6 y^{2}}{y^{2}-z^{2}-x^{2}}+\\frac{6 z^{2}}{z^{2}-x^{2}-y^{2}}})% là một số nguyên.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Ta có: } x+y+z=0 \\Rightarrow x=-(y+z) \\\\Rightarrow x^{2}=[-(y+z)]^{2} \\\\Rightarrow x^{2}=y^{2}+z^{2}+2 y z \\\\Rightarrow x^{2}-y^{2}-z^{2}=2 y z \\text { (1) }\\end{array}\\]<br>Biến đổi tương tự ta có được: %(y^{2}-z^{2}-x^{2}=2 z x(2) ; z^{2}-x^{2}-y^{2}=2 x y)%<br>Thay (1), (2), (3) vào Q ta được: %(Q=\\sqrt{\\frac{6 x^{2}}{2 y z}+\\frac{6 y^{2}}{2 z x}+\\frac{6 z^{2}}{2 x y}}=\\sqrt{\\frac{3\\left(x^{3}+y^{3}+z^{3}\\right)}{x y z}})%<br>Ta có, với 3 số %(x, y, z)% tùy ý thì<br>\\[\\begin{array}{l}x^{3}+y^{3}+z^{3}=(x+y)^{3}+z^{3}-3 x y(x+y) \\\\=(x+y+z)^{3}-3(x+y) z(x+y+z)-3 x y(x+y) \\\\=(x+y+z)^{3}-3(x+y)(y+z)(z+x) \\\\end{array}\\]<br>Do đó nếu %(x+y+z=0)% thì %(x^{3}+y^{3}+z^{3}=3 x y z)%<br>Khi đó %(Q=\\sqrt{\\frac{3\\left(x^{3}+y^{3}+z^{3}\\right)}{x y z}}=\\sqrt{\\frac{3.3 x y z}{x y z}}=3)% (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(2 x^{2}+4 x+4=(2 x+3) \\sqrt{x^{2}+x+2})%",
+        "question_images": [],
+        "solution": "Đặt %(t=\\sqrt{x^{2}+x+2} \\Rightarrow x^{2}=t^{2}-x-2)%<br>Thay vào %(\\mathrm{pt}(1))% ta có pt: %(t^{2}-(2 x+3) t+x^{2}+3 x+2=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow \\mathrm{t}^{2}-(2 \\mathrm{x}+3) \\mathrm{t}+(\\mathrm{x}+1)(\\mathrm{x}+2)=0 \\\\Leftrightarrow(\\mathrm{t}-\\mathrm{x}-1)(\\mathrm{t}-\\mathrm{x}-2)=0 \\Leftrightarrow\\left[\\begin{array}{l}\\mathrm{t}=\\mathrm{x}+1 \\\\mathrm{t}=\\mathrm{x}+2\\end{array}\\right.\\end{array}\\]<br>Với %(\\mathrm{t}=\\mathrm{x}+1)% ta có pt: %(\\sqrt{\\mathrm{x}^{2}+\\mathrm{x}+2}=\\mathrm{x}+1)%<br>\\[\\Leftrightarrow\\left\\{\\begin{array} { l } { \\mathrm { x } \\geq - 1 } \\\\{ \\mathrm { x } ^ { 2 } + \\mathrm { x } + 2 = ( \\mathrm { x } + 1 ) ^ { 2 } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { \\mathrm { x } \\geq - 1 } \\\\{ \\mathrm { x } ^ { 2 } + \\mathrm { x } + 2 = \\mathrm { x } ^ { 2 } + 2 \\mathrm { x } + 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}\\mathrm{x} \\geq-1 \\\\mathrm{x}=1\\end{array} \\Leftrightarrow \\mathrm{x}=1\\right.\\right.\\right.\\]<br>Với %(\\mathrm{t}=\\mathrm{x}+2)% ta có pt: %(\\sqrt{\\mathrm{x}^{2}+\\mathrm{x}+2}=\\mathrm{x}+2)%<br>\\[\\begin{array}{l}\\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq-2 \\x^{2}+x+2=(x+2)^{2}\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { x \\geq - 2 } \\\\{ x ^ { 2 } + x + 2 = x ^ { 2 } + 4 x + 4 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x \\geq-2 \\\\3 x=-2\\end{array} \\Leftrightarrow x=\\frac{-2}{3}\\right.\\right.\\end{array}\\]<br>Vậy phương trình (1) có 2 nghiệm %(\\mathrm{x}=1, \\mathrm{x}=\\frac{-2}{3})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}\\sqrt{x^{2}+2 y+5}+2 y-1=0 \\\\ 2\\left(2 y^{3}+x^{3}\\right)+3 y(x+1)^{2}+6 x(x+1)+2=0\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Điều kiện: %(x^{2}+2 y+5 \\geq 0)%.<br>Phương trình (2) tương đương: %(2(x+1)^{3}+3 y(x+1)^{2}+4 y^{3}=0 \\quad\\left({ }^{*}\\right))%<br>+ Xét %(y=0)% hệ vô nghiệm<br>+ Xét %(y \\neq 0)%.<br>Chia cả hai vế của %(\\mathrm{PT}\\left({ }^{*}\\right))% cho %(y^{3})% và đặt %(\\frac{x+1}{y}=t)% ta thu được phương trình: %(2 t^{3}+3 t^{2}+4=0)%%(\\Leftrightarrow(t+2)\\left(2 t^{2}-t+2\\right)=0)%%(\\Leftrightarrow\\left[\\begin{array}{l}t+2=0 \\\\ 2 t^{2}-t+2=0(v n)\\end{array}\\right.)%<br>Suy ra %(t=-2 \\Leftrightarrow x+1=-2 y)%<br>Thay vào phương trình (1) ta được:<br>\\[\\sqrt{x^{2}-x+4}=x+2 \\Leftrightarrow x=0 \\Rightarrow y=-\\frac{1}{2}(\\mathrm{t} / \\mathrm{m}) \\text {. }\\]<br>Vậy hệ có nghiệm: %((x ; y)=\\left(0 ;-\\frac{1}{2}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các số nguyên %(x, y, z)% thỏa mãn %(3 x^{2}+6 y^{2}+2 z^{2}+3 y^{2} z^{2}-24 x=-15)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Ta có: } \\\\3 x^{2}+6 y^{2}+2 z^{2}+3 y^{2} z^{2}-24 x=-15 \\Leftrightarrow 3(x-4)^{2}+6 y^{2}+2 z^{2}+3 y^{2} z^{2}=33 \\\\+ \\text { Do } 2 z^{2} \\vdots 3 \\text { và } 2 \\text { là số nguyên tố, nên } z^{2}: 3 \\text {. Mà } 3 \\text { là số nguyên tố nên } z \\vdots 3 \\text {. } \\\\+ \\text { Từ (1) cũng có } 2 z^{2}\\lt 33 \\Rightarrow z^{2}\\lt \\frac{33}{2} \\Rightarrow z^{2} \\in\\{0 ; 9\\} \\text {. } \\\\+ \\text { Với } z^{2}=0 \\Rightarrow y^{2}=1 \\Rightarrow x \\in\\{1 ; 7\\} \\text { (tm) } \\\\+ \\text { Với } z^{2}=9 \\Rightarrow y^{2}=0 \\Rightarrow x \\in \\varnothing \\\\end{array}\\]<br>KL: Các số nguyên %((\\mathrm{x}, \\mathrm{y}, \\mathrm{z}))% thỏa mãn: %((1 ; 1 ; 0),(1 ;-1 ; 0),(7 ; 1 ; 0),(7 ;-1 ; 0))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6 ",
+        "point": 1.0,
+        "content": "Cho %(a, b)% là các số tự nhiên thỏa mãn %(2 a^{2}+a=3 b^{2}+b)%. Chứng minh rằng %(2 a+2 b+1)% và %(3 a+3 b+1)% đều là các số chính phương.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Từ } 2 a^{2}+a=3 b^{2}+b(1) \\\\Rightarrow 2 a^{2}-2 b^{2}+a-b=b^{2} \\\\Rightarrow(a-b)(2 a+2 b+1)=b^{2}(2)\\end{array}\\]<br>Mặt khác từ (1) ta có: %(3 a^{2}-3 b^{2}+a-b=a^{2})%<br>\\[\\begin{array}{l}\\Rightarrow(a-b)(3 a+3 b+1)=a^{2} \\\\Rightarrow(a-b)^{2}(2 a+2 b+1)(3 a+3 b+1)=a^{2} b^{2}\\end{array}\\]<br>%(\\Rightarrow(2 a+2 b+1) \\cdot(3 a+3 b+1))% là số chính phương (3)<br>\\[\\begin{array}{l}\\text { Gọi }(2 a+2 b+1 ; 3 a+3 b+1)=d\\left(d \\in N^{*}\\right) \\\\Rightarrow(2 a+2 b+1) \\vdots d ;(3 a+3 b+1) \\vdots d \\\\Rightarrow(3 a+3 b+1)-(2 a+2 b+1)=(a+b) \\vdots d \\\\Rightarrow 2(a+b) \\vdots d \\Rightarrow(2 a+2 b+1)-2(a+b)=1 \\vdots d \\text { nên } d=1 \\\\Rightarrow(2 a+2 b+1 ; 3 a+3 b+1)=1\\end{array}\\]<br>Từ (3) và %((4) \\Rightarrow 2 a+2 b+1)% và %(3 a+3 b+1)% đều là các số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7",
+        "group_content": "Cho tam giác %(A B C)% cân tại %(A, O)% là trung điểm của %(B C)%. Đường tròn tâm %(O)% tiếp xúc với hai cạnh %(A B, A C)% tại %(H)% và %(K)%. Gọi %(P, Q)% là hai điểm lần lượt thuộc các cạnh %(A B)% và %(A C)% sao cho %(P O Q=A B C)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng %(P Q)% là tiếp tuyến của đường tròn %((O))%.",
+        "question_images": [],
+        "solution": "Kẻ OI vuông góc với PQ tại I . Vì %(\\triangle A B C)% cân tại %(\\mathrm{A} \\Rightarrow B=C)%Ta có:<br>\\[\\begin{array}{l}B O P+P O Q+Q O C=180^{\\circ} \\B O P+B+B P O=180^{\\circ} \\\\text { Mà } P O Q=B \\Rightarrow B P O=Q O C \\\\triangle B P O \\text { và } \\triangle C O Q \\text { có: } \\B=C ; B P O=Q O C \\Rightarrow \\triangle B P O \\sim \\triangle C O Q(\\mathrm{~g} . \\mathrm{g}) \\Rightarrow \\frac{B P}{C O}=\\frac{P O}{O Q} \\\\end{array}\\]<br>Mà %(B O=C O \\Rightarrow \\frac{B P}{B O}=\\frac{P O}{O Q})%<br>%(\\triangle B O P)% và %(\\triangle O Q P)% có %(P O Q=B ; \\frac{B P}{B O}=\\frac{P O}{O Q} \\Rightarrow \\triangle B O P \\sim \\triangle O Q P)%<br>\\[\\Rightarrow B P O=O P Q \\Rightarrow O H=O I\\]<br>%(\\Rightarrow \\mathrm{I})% thuộc đường tròn %((\\mathrm{O}))% mà OI vuông góc với PQ .<br>Suy ra PQ là tiếp tuyến của %((\\mathrm{O}))%.<br><img alt=\"Screenshot 2024-07-16 224427.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ac9111681e05d3b54da5a891fe653b5b.png\" srcset=\"https://docdn.giainhanh.io/media/test/1ac1cbe971a6bd92774689e50cdc62df.png 135w, https://docdn.giainhanh.io/media/test/f82acf09bda81b29c401599c35d5cee9.png 434w\" width=\"434\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) %(H K)% cắt %(O Q)% tại %(D)%. Chứng minh rằng %(P D)% vuông góc với %(O Q)%.",
+        "question_images": [],
+        "solution": "Vì AH và AK là hai tiếp của %((\\mathrm{O}) \\Rightarrow A H=A K \\Rightarrow \\triangle A H K)% cân tại A<br>%(\\Rightarrow A H K=A B C=\\frac{180^{\\circ}-B A C}{2} \\Rightarrow A H K=P O Q)% hay %(P H E=E O D)% với %(E)% là giao diểm của %(H K)% và %(O P)%.<br>%(\\triangle H E P)% và %(\\triangle O E D)% có: %(P H E=E O D ; H E P=O E D \\Rightarrow \\triangle H E P \\sim \\triangle O E D \\Rightarrow H P E=O D E ; \\frac{E H}{E O}=\\frac{E P}{E D})%<br>%(\\triangle P E D)% và %(\\triangle H E O)% có: %(P E D=H E O ; \\frac{E H}{E O}=\\frac{E P}{E D} \\Rightarrow \\triangle P E D \\sim \\triangle H E O \\Rightarrow P D E=H O E)% %(\\Rightarrow P D O=P D E+E D O=E O H+H P E=90^{\\circ} \\Rightarrow P D \\perp O Q)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8 ",
+        "point": 1.0,
+        "content": "Cho tam giác %(A B C)% có ba góc nhọn và có trực tâm %(H)%. Gọi %(D, E, F)% lần lượt là chân ba đường cao kẻ từ các đỉnh %(A, B, C)% của tam giác %(A B C)%. Chứng minh rằng:<br>\\[\\left(\\frac{A B}{H F}\\right)^{2}+\\left(\\frac{B C}{H D}\\right)^{2}+\\left(\\frac{C A}{H E}\\right)^{2} \\geq 36 \\text {. }\\]",
+        "question_images": [],
+        "solution": "Ta có: %(\\triangle A C D \\sim \\triangle B H D)% và %(\\triangle A B D \\sim \\triangle A H F \\Rightarrow \\frac{A C}{B H}=\\frac{A D}{B D}=\\frac{A F}{H F})%<br>Tương tự: %(\\triangle B C E \\sim \\triangle A H E)% và %(\\triangle A B E \\sim \\triangle H B F \\Rightarrow \\frac{B C}{A H}=\\frac{B E}{A E}=\\frac{F B}{H F})%<br>Từ (1) và (2) ta có: %(\\frac{A B}{H F}=\\frac{A F+F B}{H F}=\\frac{A F}{H F}+\\frac{F B}{H F}=\\frac{A C}{B H}+\\frac{C B}{A H})%<br>\\[\\Rightarrow\\left(\\frac{A B}{H F}\\right)^{2}=\\left(\\frac{A C}{B H}+\\frac{C B}{A H}\\right)^{2} \\geq 4 \\frac{A C \\cdot C B}{B H \\cdot A H}\\]<br>Lại có %(\\triangle B C F \\sim \\triangle H A F \\Rightarrow \\frac{B C}{A H}=\\frac{C F}{A F})%, từ (1) và (3)<br>\\[\\Rightarrow\\left(\\frac{A B}{H F}\\right)^{2} \\geq 4 \\cdot \\frac{C F}{H F}=4 \\cdot \\frac{S_{A B C}}{S_{H A B}}\\]<br>Tương tự ta có %(\\left(\\frac{B C}{H D}\\right)^{2} \\geq 4 \\cdot \\frac{S_{A B C}}{S_{H B C}}(5) ;\\left(\\frac{A C}{H E}\\right)^{2}=4 \\cdot \\frac{S_{A B C}}{S_{H A C}})%<br>Do đó:<br>\\[\\left(\\frac{A B}{H F}\\right)^{2}+\\left(\\frac{B C}{H D}\\right)^{2}+\\left(\\frac{C A}{H E}\\right)^{2} \\geq 4 \\cdot S_{A B C}\\left(\\frac{1}{S_{H A B}}+\\frac{1}{S_{H B C}}+\\frac{1}{S_{H C A}}\\right) \\geq \\frac{36 \\cdot S_{A B C}}{S_{H A B}+S_{H B C}+S_{H C A}}=36\\]<br>Đẳng thức xảy ra %(\\Leftrightarrow S_{H A B}=S_{H B C}=S_{H A C} \\Leftrightarrow H)% là trọng tâm %(\\triangle A B C)%, mà %(H)% là trực tâm %(\\triangle A B C)% nên %(\\triangle A B C)% đều (khi đó các bất đẳng thức %((4),(5),(6))% cùng xảy ra đẳng thức).<br><img alt=\"Screenshot 2024-07-16 224935.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/187b98554c6a50883ec3d4fd36cab221.png\" srcset=\"https://docdn.giainhanh.io/media/test/ba8c8feee8e5967d18ccba07f7a706bf.png 217w\" width=\"217\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 9 ",
+        "point": 1.0,
+        "content": "Cho %(a, b, c)% là các số thực dương thỏa mãn %(a+b+c \\leq \\frac{3}{2})%. Tìm giá trị nhỏ nhất của biểu thức<br>\\[P=\\frac{a(b c+1)^{2}}{c^{2}(c a+1)}+\\frac{b(c a+1)^{2}}{a^{2}(a b+1)}+\\frac{c(a b+1)^{2}}{b^{2}(b c+1)}\\]",
+        "question_images": [],
+        "solution": "Ta có<br>\\[P=\\frac{\\frac{(b c+1)^{2}}{c^{2}}}{\\frac{(c a+1)}{a}}+\\frac{\\frac{(c a+1)^{2}}{a^{2}}}{\\frac{(a b+1)}{b}}+\\frac{\\frac{(a b+1)^{2}}{b^{2}}}{\\frac{(b c+1)}{c}}=\\frac{\\left(b+\\frac{1}{c}\\right)^{2}}{c+\\frac{1}{a}}+\\frac{\\left(c+\\frac{1}{a}\\right)^{2}}{a+\\frac{1}{b}}+\\frac{\\left(a+\\frac{1}{b}\\right)^{2}}{b+\\frac{1}{c}} .\\]<br>Áp dụng BĐT: %(\\frac{a_{1}^{2}}{b_{1}}+\\frac{a_{2}^{2}}{b_{2}}+\\frac{a_{3}^{2}}{b_{3}} \\geq \\frac{\\left(a_{1}+a_{2}+a_{3}\\right)^{2}}{b_{1}+b_{2}+b_{3}})%.<br>Dấu \"=\" xảy ra khi %(\\frac{a_{1}}{b_{1}}=\\frac{a_{2}}{b_{2}}=\\frac{a_{3}}{b_{3}})%.Ta có:<br>\\[\\begin{array}{l}P=\\frac{\\left(b+\\frac{1}{c}\\right)^{2}}{c+\\frac{1}{a}}+\\frac{\\left(c+\\frac{1}{a}\\right)^{2}}{a+\\frac{1}{b}}+\\frac{\\left(a+\\frac{1}{b}\\right)^{2}}{b+\\frac{1}{c}} \\geq \\frac{\\left(a+b+c+\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)^{2}}{a+b+c+\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}} \\P \\geq a+b+c+\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c} . \\\\Rightarrow P \\geq a+b+c+\\frac{9}{a+b+c}=\\left[a+b+c+\\frac{9}{4(a+b+c)}\\right]+\\frac{27}{4(a+b+c)}\\end{array}\\]<br>Ta có: %(a+b+c+\\frac{9}{4(a+b+c)} \\geq 2 \\cdot \\sqrt{\\frac{9}{4}}=3 ; \\frac{27}{4(a+b+c)} \\geq \\frac{27}{4 \\cdot \\frac{3}{2}}=\\frac{9}{2})% %(\\Rightarrow P \\geq 3+\\frac{9}{2}=\\frac{15}{2})%.<br>Vậy %(\\min P=\\frac{15}{2})% khi %(a=b=c=\\frac{1}{2})%.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Cho biểu thức %(P=\\left(\\frac{2}{\\sqrt{x}+1}+\\frac{3 \\sqrt{x}}{\\sqrt{x}+2}-\\frac{11 \\sqrt{x}+4}{x+3 \\sqrt{x}+2}\\right):\\left(\\frac{\\sqrt{x}-2}{\\sqrt{x}}+\\frac{-2 \\sqrt{x}+4}{x+2 \\sqrt{x}}\\right))% vơi %(x\\gt 0, x \\neq 4)%Rút gọn biểu thức %(\\mathrm{P})% và tìm tất cả các giá trị của %(\\mathrm{x})% để %(\\mathrm{P})% là số nguyên",
+        "question_images": [],
+        "solution": "Với điều kiện %(\\mathrm{x}\\gt 0)% và %(x \\neq 4)%, khai triển và rút gọn ta được<br>\\[\\begin{array}{l}P=\\left(\\frac{2}{\\sqrt{x}+1}+\\frac{3 \\sqrt{x}}{\\sqrt{x}+2}-\\frac{11 \\sqrt{x}+4}{x+3 \\sqrt{x}+2}\\right):\\left(\\frac{\\sqrt{x}-2}{\\sqrt{x}}+\\frac{-2 \\sqrt{x}+4}{x+2 \\sqrt{x}}\\right) \\P=\\left(\\frac{2(\\sqrt{x}+2)+3 \\sqrt{x} \\cdot(\\sqrt{x}+1)-(11 \\sqrt{x}+4)}{(\\sqrt{x}+1)(\\sqrt{x}+2)}\\right):\\left(\\frac{x-2 \\sqrt{x}}{\\sqrt{x}(\\sqrt{x}+2)}\\right) \\P=\\frac{3 x-6 \\sqrt{x}}{(\\sqrt{x}+2)(\\sqrt{x}+1)} \\cdot \\frac{\\sqrt{x}-2}{\\sqrt{x}+2} \\P=\\frac{3 \\sqrt{x}(\\sqrt{x}-2)}{(\\sqrt{x}+2)(\\sqrt{x}+1)} \\cdot \\frac{(\\sqrt{x}+2)}{(\\sqrt{x}-2)}=\\frac{3 \\sqrt{x}}{\\sqrt{x}+1}\\end{array}\\]<br>Với điều kiện %(\\mathrm{x}>0)%, ta chứng minh được<br>\\[0\\lt P=\\frac{3 \\sqrt{x}}{\\sqrt{x}+1}\\lt 3\\]<br>Mà %(P)% là số nguyên nên %(P \\in\\{1 ; 2\\})%<br>\\[\\begin{array}{l}\\text { + Vớ } \\mathrm{P}=1 \\text { ta có } \\frac{3 \\sqrt{x}}{\\sqrt{x}+1}=1 \\Rightarrow x=\\frac{1}{4}(\\mathrm{tm}) \\\\+ \\text { Vớ } \\mathrm{P}=2 \\text { ta có } \\frac{3 \\sqrt{x}}{\\sqrt{x}+1}=2 \\Rightarrow x=4(\\mathrm{ktm})\\end{array}\\]<br>Vậy %(x=\\frac{1}{4})% là giá trị cần tìm để %(\\mathrm{P})% là số nguyên.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Trên cùng một mặt phẳng tọa độ, cho Parabol %((P): y=x^{2})% và đường thẳng %((\\mathrm{d}): \\mathrm{y}=\\mathrm{kx}-\\mathrm{k}+5)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh ră̆ng %((\\mathrm{d}))% luôn đi qua một điềm cố định %(\\mathrm{M})% và cắt %((\\mathrm{P}))% tại hai điềm phân biệt %(\\mathrm{A}, \\mathrm{B})% với mọi giá trị của tham số %(\\mathrm{k})%.",
+        "question_images": [],
+        "solution": "Dễ thấy (d) luôn đi qua điểm %(\\mathrm{M}(1 ; 5))%Xét phương trình hoành độ giao điểm của %((\\mathrm{P}))% và %((\\mathrm{d}))%<br>\\[\\begin{array}{l}x^{2}=k x-k+5 \\\\Leftrightarrow x^{2}-k x+k-5=0(1)\\end{array}\\]<br>Phương trình (1) là phương trình bậc hai ẩn %(\\mathrm{x})%, ta có<br>\\[\\Delta=k^{2}-4(k-5)=k^{2}-4 k+20=(k-2)^{2}+16 \\geq 16\\gt 0, \\forall x \\in R\\]<br>Do đó phương trình (1) luôn có hai nghiệm phân biệt, hay đường thẳng %((\\mathrm{d}))% cắt %((\\mathrm{P}))% tại hai điểm phân biệt %(\\mathrm{A})%, %(\\mathrm{B})% với mọi giá trị của tham số %(\\mathrm{k})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Cho điểm %(\\mathrm{C}(1 ; 2))%, tìm tất cả giá trị của %(\\mathrm{k})% để các tam giác %(\\mathrm{MAC})% và %(\\mathrm{MBC})% có diện tích bằng nhau.",
+        "question_images": [],
+        "solution": "Chú ý rằng ba điểm %(\\mathrm{M}, \\mathrm{A}, \\mathrm{B})% thẳng hàng vì cùng thuộc đường thẳng %((\\mathrm{d}))%,<br>nên hai tam giác %(\\mathrm{MAC})% và %(\\mathrm{MBC})% có diện tích bằng nhau khi và chỉ khi %(\\mathrm{MA}=\\mathrm{MB})%<br>Do hai tam giác này có chung độ dài chiều cao là khoảng cách từ điểm %(\\mathrm{C})% đến đường thẳng %((\\mathrm{d}))%.<br>Điều này dẫn đến %(\\mathrm{M})% là trung điểm của %(\\mathrm{A}, \\mathrm{B})% do %(\\mathrm{A}, \\mathrm{B})% là hai điểm phân biệt.<br>Gọi %(A\\left(x_{1} ; y_{1}\\right), B\\left(x_{2} ; y_{2}\\right))% do hoành độ của %(\\mathrm{A}, \\mathrm{B})% là nghiệm của phương trình (1) nên theo định lý Viet, ta có<br>\\[\\left\\{\\begin{array}{l}x_{1}+x_{2}=k \\x_{1} x_{2}=k-5\\end{array}\\right.\\]<br>Vì %(\\mathrm{M}(1 ; 5))% là trung điểm của %(\\mathrm{A}, \\mathrm{B})% nên ta được<br>\\[\\frac{x_{1}+x_{2}}{2}=1 \\Leftrightarrow \\frac{k}{2}=1 \\Leftrightarrow k=2\\]<br>Vậy %(\\mathrm{k}=2)% là giá trị cần tìm để các tam giác %(\\mathrm{MAC})% và %(\\mathrm{MBC})% có diện tích bằng nhau.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải phương trình %(8 x^{2}+16 x-7=(8 x+3) \\sqrt{5 x-1})%",
+        "question_images": [],
+        "solution": "Điều kiện xác định: %(x \\geq \\frac{1}{5})%Với x thỏa mãn điều kiện xác định, phương trình đã cho tương đương với<br>\\[\\begin{array}{l}5 x-10=(8 x+3)(\\sqrt{5 x-1}-x-1) \\\\Leftrightarrow 5(x-2)=\\frac{(8 x+3)\\left[5 x-1-(x+1)^{2}\\right]}{\\sqrt{5 x-1}+x+1} \\\\Leftrightarrow(x-2)\\left(5+\\frac{(8 x+3)(x-1)}{\\sqrt{5 x-1}+x+1}\\right)=0\\end{array}\\]<br>Với mọi %(x \\geq \\frac{1}{5})% ta có<br>\\[5+\\frac{(8 x+3)(x-1)}{\\sqrt{5 x-1}+x+1}=\\frac{8 x^{2}+2+5 \\sqrt{5 x-1}}{\\sqrt{5 x-1}+x+1}\\gt 0\\]<br>Nên phương trình (1) tương đương với %(\\mathrm{x}-2=0)% hay %(\\mathrm{x}=2)% (thỏa mãn đkxd)Vậy %(\\mathrm{x}=2)% là nghiệm duy nhất của phương trình",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x\\left(x^{2}-x y+10 y\\right)=y\\left(-x^{2}+9 x+10 \\sqrt{y)}\\right. \\\\ 2 x^{3}-16 y+6 \\sqrt{y}-1=4 x y(3-2 x) \\sqrt{2-2 x}\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Điều kiện xác định: %(x \\leq 1, y \\geq 0)%<br>Ta viết lại phương trình thứ nhất của hệ phương trình thành<br>\\[\\begin{array}{c}x^{3}+x y=10 y \\sqrt{y} \\\\Leftrightarrow(x-2 \\sqrt{y})\\left(x^{2}+2 x \\sqrt{y}+5 y\\right)=0\\end{array}\\]<br>Nếu %(x^{2}+2 x \\sqrt{y}+5 y=0)% thì %((x+\\sqrt{y})^{2}+4 y=0)% ta được %(\\mathrm{x}=\\mathrm{y}=0)% (không thỏa mãn hệ phương trình)<br>Xét trường hợp chính %(x=2 \\sqrt{y})%, thay vào phương trình thứ hai của hệ phương trình ban đầu ta được<br>\\[2 x^{3}-4 x^{2}+3 x-1=x^{3}(3-2 x) \\sqrt{2-2 x}\\]<br>Hiển nhiên %(\\mathrm{x}=0)% không phải nghiệm phương trình Xét %(x \\neq 0)% chia cả hai vế cho %(x^{3})% ta được<br>\\[\\begin{array}{l}2-\\frac{4}{x}+\\frac{3}{x^{2}}-\\frac{1}{x^{3}}=(3-2 x) \\sqrt{2-2 x} \\\\Leftrightarrow\\left(1-\\frac{1}{x}\\right)^{3}+\\left(1-\\frac{1}{x}\\right)=(\\sqrt{2-2 x})^{3}+\\sqrt{2-2 x}\\end{array}\\]<br>Nếu %(1-\\frac{1}{x}\\lt \\sqrt{2-2 x})% thì vế trái nhỏ hơn vế phải<br>Nếu %(1-\\frac{1}{x}\\gt \\sqrt{2-2 x})% thì vế trái lớn hơn vế phải<br>Vậy ta có %(1-\\frac{1}{x}=\\sqrt{2-2 x})%<br>Từ điều kiện xác định và phương trình %(x=2 \\sqrt{y})% ta có %(0\\lt x \\leq 1)%<br>Do đó %(1-\\frac{1}{x} \\leq 0 \\leq \\sqrt{2-2 x})%<br>Dấu \" %(=)% \" xảy ra khi %(x=1 ; y=\\frac{1}{4}(\\mathrm{tm}))%<br>Vậy %((x ; y)=\\left(1 ; \\frac{1}{4}\\right))% là nghiệm duy nhất của hệ phương trình.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho tam giác %(\\mathrm{ABC})% nhọn %((\\mathrm{AB}\\lt \\mathrm{AC}))% nội tiếp đường tròn %((\\mathrm{O}))%, các đường phân giác của tam giác cắt nhau tại %(\\mathrm{I})%. Đường thẳng vuông góc với %(\\mathrm{AI})% tại %(\\mathrm{I})% lần lượt cắt các đường thẳng %(\\mathrm{BC}, \\mathrm{AB}, \\mathrm{AC})% tại các điểm %(\\mathrm{D}, \\mathrm{E})%, F. Đường tròn %((\\mathrm{O}))% cắt tia %(\\mathrm{AI})% tại điểm %(\\mathrm{N}()% khác %(\\mathrm{A}))% và cắt đoạn thẳng %(\\mathrm{DN})% tại điểm %(\\mathrm{K})% (khác %(\\mathrm{N}))%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng tứ giác BEIK nội tiếp.",
+        "question_images": [],
+        "solution": "Ta có: %(D I B=A I B-A I E=180^{\\circ}-I A B-I B A-90^{\\circ}=\\frac{180^{\\circ}-B A C-A B C}{2}=\\frac{A C B}{2}=D C I)%<br>Ta có: %(\\Delta D B I \\sim \\Delta D I C(g-g))%<br>Kết hợp với tứ giác %(\\mathrm{BCNK})% nội tiếp suy ra %(D I^{2}=D B \\cdot D C=D K \\cdot D N)%<br>Từ đó ta thu được %(\\Delta D I K \\sim \\Delta D N I)% (c.g.c)<br>\\[\\Rightarrow D I K=D N I\\]<br>Mà tứ giác %(\\mathrm{ABKN})% nội tiếp, ta có %(E B K+E I K=A B K+A N K=180^{\\circ})%<br>Suy ra tứ giác BEIK nội tiếp<br><img alt=\"https://docdn.giainhanh.io/media/test/f34e1f27d31fb56738b7fac2b61c0e63.PNG\" src=\"https://docdn.giainhanh.io/media/test/f34e1f27d31fb56738b7fac2b61c0e63.PNG\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Đường tròn ngoại tiếp tam giác %(\\mathrm{AEF})% cẳt đường tròn %((\\mathrm{O}))% tại điểm %(\\mathrm{P})% (khác %(\\mathrm{A})% ). Chứng minh rằng các đường thẳng %(\\mathrm{PN}, \\mathrm{BC}, \\mathrm{IK})% đồng quy.",
+        "question_images": [],
+        "solution": "Vì %(\\mathrm{AI})% đồng thời là đường cao và đường phân giác của tam giác %(\\mathrm{AEF})% nên tam giác %(\\mathrm{AEF})% cân tại %(\\mathrm{A})%<br>Suy ra %(\\mathrm{AE}=\\mathrm{AF})% và %(A E F=A F E=\\frac{180^{\\circ}-B A C}{2})%<br>Ta có: %(B K E=B I E=A E F-E B I=\\frac{180^{\\circ}-B A C}{2}-\\frac{A B C}{2}=\\frac{A C B}{2}=\\frac{A K B}{2})%<br>Suy ra KE là tia phân giác của %(A K B)%<br>Chứng minh tương tự ta thu được tứ giác CEIK nội tiếpvà %(\\mathrm{KF})% là tia phân giác của %(A K C)%<br>Ta có: %(\\frac{K B}{K C}=\\frac{K B}{K A} \\cdot \\frac{K A}{K C}=\\frac{E B}{E A} \\cdot \\frac{F A}{F C}=\\frac{E B}{F C})%<br>Vì %(A B P=A C P, A E P=A F P)% nên %(\\triangle P B E \\sim \\triangle P C F(g-g))%Suy ra %(\\frac{P B}{P C}=\\frac{B E}{C F}=\\frac{K B}{K C})%<br>Do %(N P B=N A B=N A C=N P C)% nên %(\\mathrm{PN})% là tia phân giác của %(B P C)%<br>Gọi %(\\mathrm{PN})% cắt %(\\mathrm{BC})% tại %(\\mathrm{Q})%Ta có: %(\\frac{Q B}{Q C}=\\frac{P B}{P C}=\\frac{K B}{K C})%<br>Suy ra %(\\mathrm{KQ})% là tia phân giác của %(B K C)%<br>Do đó, tia %(\\mathrm{KI})% và tia %(\\mathrm{KQ})% trùng nhau hay ba điểm %(\\mathrm{K}, \\mathrm{Q}, \\mathrm{I})% thẳng hàng<br>Vậy PN, BC, IK đồng quy tại Q.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Trên tia phân giác của góc nhọn %(\\mathrm{xAy})% lấy điềm %(\\mathrm{O})% (khác %(\\mathrm{A})% ) và vẽ đường tròn %((\\mathrm{O}))% tiếp xúc với các tia %(\\mathrm{Ax}, \\mathrm{Ay})% lần lượt tại %(\\mathrm{B}, \\mathrm{C})%. Trên các tia %(\\mathrm{Ax}, \\mathrm{Ay})% lần lượt lấy các điểm %(\\mathrm{D}, \\mathrm{E})% sao cho %(\\mathrm{AB}\\lt \\mathrm{AD}\\lt \\mathrm{AE})%. Gọi %(\\mathrm{M})% là trung điểm của đoạn thẳng %(\\mathrm{DE})%. Các đoạn thẳng %(\\mathrm{AM}, \\mathrm{BC})% cắt nhau tại %(\\mathrm{N})%. Chứng minh rằng %(\\mathrm{ON})% vuông góc với DE.",
+        "question_images": [],
+        "solution": "Qua %(\\mathrm{N})% kẻ đường thẳng song song với %(\\mathrm{DE})% cắt các đường thẳng %(\\mathrm{AB}, \\mathrm{AC})% lần lượt tại %(\\mathrm{H}, \\mathrm{K})%.<br>Áp dụng bổ đề hình thang với chú ý %(\\mathrm{HK} / / \\mathrm{DE})% và %(\\mathrm{M})% là trung điểm của %(\\mathrm{BC})%<br>Ta có: %(\\mathrm{N})% là trung điểm của %(\\mathrm{HK})%<br>Qua %(\\mathrm{H})% kẻ đường thẳng song song với %(\\mathrm{BC})% cắt đường thẳng %(\\mathrm{AC})% tại %(\\mathrm{L})%<br>Theo định lý Thales, ta có: %(\\frac{B H}{A B}=\\frac{C L}{A C})%%(\\mathrm{Vì} \\mathrm{AB}=\\mathrm{AC})% nên %(\\mathrm{BH}=\\mathrm{CL})%<br>Xét tam giác %(\\mathrm{HKL})% có %(\\mathrm{N})% là trung điểm của %(\\mathrm{HK})% và %(\\mathrm{CN} / / \\mathrm{HL})% nên %(\\mathrm{C})% là trung điểm của %(\\mathrm{KL})%.<br>Suy ra %(\\mathrm{CK}=\\mathrm{CL}=\\mathrm{BH})%<br>Từ đó, ta chứng minh được %(\\Delta O B H=\\Delta O C K)% (c.g.c)<br>Suy ra %(\\mathrm{OH}=\\mathrm{OK})%.Vì %(\\mathrm{ON})% là đường trung tuyến của tam giác %(\\mathrm{OHK})% cân tại %(\\mathrm{O})% nên %(O N \\perp H K)%Lại có %(\\mathrm{HK} / / \\mathrm{DE})%<br>nên ta suy ra được %(O N \\perp D E)%<br><img alt=\"https://docdn.giainhanh.io/media/test/f81730cb169dd1cae686f4df8ab50b4c.PNG\" src=\"https://docdn.giainhanh.io/media/test/f81730cb169dd1cae686f4df8ab50b4c.PNG\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 0.5,
+        "content": "Cho các số thực dương %(\\mathrm{a}, \\mathrm{b})% thỏa mãn %(\\sqrt{a b}+1 \\leq 2 \\sqrt{b})%. Tìm giá trị lớn nhất của biểu thức<br>\\[T=\\frac{\\sqrt{a b}}{2024 a+2025 b}+\\frac{2009 a}{b}\\]",
+        "question_images": [],
+        "solution": "Đặt %(\\sqrt{a}=x, \\frac{1}{\\sqrt{b}}=y)%<br>Ta thu được ngay %(x+y \\leq 2)%<br>Viết lại biểu thức %(\\mathrm{T})% theo %(\\mathrm{x}, \\mathrm{y})% ta có<br>\\[T=\\frac{x y}{2024 x^{2} y^{2}+2025}+2009 x^{2} y^{2}\\]<br>Đặt %(\\mathrm{c}=\\mathrm{xy})%, theo bất đẳng thức Cauchy thì %(2 \\sqrt{x y} \\leq x+y \\Rightarrow c \\leq 1)%<br>Ta có:<br>\\[\\begin{array}{l} \\frac{c}{2024 c^{2}+2025}-\\frac{1}{4049}=\\frac{4049 c-2024 c^{2}-2005}{4049\\left(2024 c^{2}+2005\\right)}=\\frac{(1-c)(2004 c-2005)}{4009\\left(2024 c^{2}+2005\\right)} \\leq 0 \\\\2009 c^{2} \\leq 2009\\end{array}\\]<br>Vậy %(T \\leq \\frac{1}{4009}+2009)%<br>Và dấu \" %(=)% \" xảy ra tại %(\\mathrm{a}=\\mathrm{b}=1)%<br>Vậy %(T_{\\max }=2009+\\frac{1}{4009})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 0.5,
+        "content": "Tìm tất cả các số nguyên dương %(\\mathrm{k})% sao cho tồn tại cặp số nguyên %((\\mathrm{x} ; \\mathrm{y}))% thỏa mãn %(x^{2}-k x y+y^{2}+1=0)%",
+        "question_images": [],
+        "solution": "Xét %(\\mathrm{k})% để tồn tại bộ số nguyên %((\\mathrm{x})%; y) thỏa mãn phương trình.<br>Ta thấy ngay cặp %((x, y))% thỏa mãn phương trình thì %(x y\\gt 0)%.<br>Mà %((\\mathrm{x}, \\mathrm{y}))% là nghiệm thì %((-\\mathrm{x},-\\mathrm{y}))% cũng là nghiệm<br>Và có thể kiểm tra %(x, y \\neq 0)%<br>Vậy là phương trình có một bộ nghiệm %((x, y))% mà %(x, y>0)%<br>Xét %(S=\\left\\{(x, y): x^{2}-k x y+y^{2}+1=0 ; x, y>0\\right\\})%<br>Do tập %(S)% khác rỗng nên ta có thể xét bộ %(\\left(x_{0}, y_{0}\\right) \\in S)% mà %(x_{0}+y_{0})% đạt giá trị nhỏ nhất.<br>Không mất tính tồng quát giả sử %(x_{0} \\geq y_{0})%<br>Xét phương trình bậc hai ẩn %(\\mathrm{x})%<br>\\[x^{2}-x \\cdot k y_{0}+y_{0}^{2}+1=0\\]<br>Phương trình này có một nghiệm là %(x_{0})% nên nó sẽ có thêm một nghiệm nữa là %(x_{1})% và theo định lý Viet<br>\\[\\left\\{\\begin{array}{l}x_{0}+x_{1}=k y_{0} \\x_{0}-x_{1}=y_{0}^{2}+1\\end{array}\\right.\\]<br>Do %(x_{0}+x_{1})% là số nguyên nên %(x_{1})% là số nguyên<br>Do %(x_{0} \\cdot x_{1}\\gt 0)% nên %(x_{1})% là số nguyên dương<br>Vậy %(\\left(x_{0}, x_{1}\\right) \\in S)%<br>Do đó: %(x_{1}+y_{0} \\geq x_{0}+y_{0} \\Rightarrow x_{1} \\geq x_{0} \\geq y_{0})%<br>Nếu %(x_{0} \\geq y_{0}+1 \\Rightarrow y_{0}^{2}+y_{0} \\leq y_{0}^{2}+1 \\Rightarrow y_{0} \\leq 1)%<br>Từ đây thu được %(y_{0}=x_{0}=1)% và thu được %(\\mathrm{k}=3)%.<br>Thử lại thì %(\\mathrm{k}=3)% có nghiệm %((\\mathrm{x}, \\mathrm{y})=(1,1))%<br>Vậy %(k=3)% thỏa mãnNếu %(x_{1}=y_{0} \\Rightarrow x_{1}=x_{0}=y_{0} \\Rightarrow y_{0}^{2}=y_{0}^{2}+1)% (vô lý)<br>Vậy %(\\mathrm{k}=3)% là giá trị duy nhất cần tìm.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "%(B=\\sqrt{1+\\frac{1}{1^{2}}+\\frac{1}{2^{2}}}+\\sqrt{1+\\frac{1}{2^{2}}+\\frac{1}{3^{2}}}+\\sqrt{1+\\frac{1}{3^{2}}+\\frac{1}{4^{2}}}+\\ldots+\\sqrt{1+\\frac{1}{99^{2}}+\\frac{1}{100^{2}}})%",
+        "question_images": [],
+        "solution": "Trước hết ta chứng minh:<br>\\[\\sqrt{1+\\frac{1}{a^{2}}+\\frac{1}{(a+1)^{2}}}=\\frac{a^{2}+a+1}{a(a+1)}=1+\\frac{1}{a(a+1)}=1+\\frac{1}{a}-\\frac{1}{a+1} \\quad(\\text { vôùi } a\\gt 0 \\text { ) }\\]<br>Thật vậy:<br>\\[\\begin{array}{l}1+\\frac{1}{a^{2}}+\\frac{1}{(a+1)^{2}}=\\frac{a^{2}(a+1)^{2}+(a+1)^{2}+a^{2}}{a^{2}(a+1)^{2}} \\\\=\\frac{a^{2}\\left(a^{2}+2 a+1+1\\right)+(a+1)^{2}}{a^{2}(a+1)^{2}}=\\frac{a^{4}+2 a^{2}(a+1)^{2}+(a+1)^{2}}{a^{2}(a+1)^{2}} \\\\=\\frac{\\left(a^{2}+a+1\\right)^{2}}{a^{2}(a+1)^{2}}=\\left[\\frac{\\left(a^{2}+a+1\\right)}{a(a+1)}\\right]^{2} \\\\Rightarrow \\sqrt{1+\\frac{1}{a^{2}}+\\frac{1}{(a+1)^{2}}}=\\frac{a^{2}+a+1}{a(a+1)}=1+\\frac{1}{a(a+1)}=1+\\frac{1}{a}-\\frac{1}{a+1} \\quad(\\text { vôùi a }>0)\\end{array}\\]<br>Do đó:<br>%(\\begin{array}{l}=\\left(1+\\frac{1}{1}-\\frac{1}{2}\\right)+\\left(1+\\frac{1}{2}-\\frac{1}{3}\\right)+\\left(1+\\frac{1}{3}-\\frac{1}{4}\\right)+\\ldots+\\left(1+\\frac{1}{99}-\\frac{1}{100}\\right) \\\\ =99+\\left(\\frac{1}{1}-\\frac{1}{2}+\\frac{1}{2}-\\frac{1}{3}+\\ldots+\\frac{1}{99}-\\frac{1}{100}\\right)=100-\\frac{1}{100}=99,99 \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng:  %(A=\\left(10^{n}+10^{n-1}+\\ldots+10+1\\right)\\left(10^{n+1}+5\\right)+1)% là số chính phương",
+        "question_images": [],
+        "solution": "Ta có<br>\\[\\begin{array}{l}A=\\left(10^{n}+10^{n-1}+\\ldots+10+1\\right)\\left(10^{n+1}+5\\right)+1 \\\\=\\frac{1}{9}(10-1)\\left(10^{n}+10^{n-1}+\\ldots+10+1\\right)\\left(10^{n+1}+5\\right)+1 \\\\=\\frac{1}{9}\\left(10^{n+1}-1\\right)\\left(10^{n+1}+5\\right)+1 \\\\=\\frac{1}{9}\\left(10^{2(n+1)}+4.10^{n+1}+9-5\\right) \\\\=\\frac{1}{9}\\left(10^{n+1}+2\\right)^{2}=\\left(\\frac{10^{n+1}+2}{3}\\right)^{2}\\end{array}\\]<br>Mà %(10^{n+1}+2)% có tổng các chữ số là 3 .<br>Nên  %(10^{n+1}+2: 3)%<br>Vậy A là số chính phương",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Cho ba số dương %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% thỏa mãn %(a^{2}+b^{2}+c^{2}=1)%. Chứng minh rằng :<br>\\[\\frac{a^{2}}{1+b-a}+\\frac{b^{2}}{1+c-b}+\\frac{c^{2}}{1+a-c} \\geq 1\\]",
+        "question_images": [],
+        "solution": "Từ giả thiết suy %(\\mathrm{ra}     a, b, c)% thuộc %((0 ; 1))%<br>\\[\\Rightarrow \\frac{a^{2}}{1+b-a} \\geq \\frac{a^{2}\\left(1-(b-a)^{2}\\right)}{1+b-a}=\\frac{a^{2}(1+b-a)(1-b+a)}{1+b-a}=a^{2}(1-b+a)\\]<br>Tương tự : %(\\frac{b^{2}}{1+c-b} \\geq b^{2}(1-c+b) ; \\frac{c^{2}}{1+a-c} \\geq c^{2}(1-a+c))%Cộng vế theo vế các bất đẳng thức trên ta được :<br>\\[\\frac{a^{2}}{1+b-a}+\\frac{b^{2}}{1+c-b}+\\frac{c^{2}}{1+a-c} \\geq 1+a^{3}+b^{3}+c^{3}-a^{2} b-b^{2} c-c^{2} a\\]<br>Áp dụng bất đẳng thức cô si cho ba số dương nhận được :<br>\\[a^{3}+a^{3}+b^{3} \\geq 3 a^{2} b ; b^{3}+b^{3}+c^{3} \\geq 3 b^{2} c ; c^{3}+c^{3}+a^{3} \\geq 3 c^{2} a\\]<br>Từ (1) và (2) %(\\Rightarrow \\frac{a^{2}}{1+b-a}+\\frac{b^{2}}{1+c-b}+\\frac{c^{2}}{1+a-c} \\geq 1)%Đẳng thức xảy %(\\mathrm{ra} \\Leftrightarrow a=b=c=\\frac{\\sqrt{3}}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Giải phương trình %(2 \\sqrt[3]{3 x-2}+3 \\sqrt{6-5 x}-8=0(x \\in R))%",
+        "question_images": [],
+        "solution": "Điều kiện %(x \\leq \\frac{6}{5})%.<br>Đặt %(\\mathrm{t}=\\sqrt[3]{3 x-2} \\Rightarrow t^{3}=3 x-2 \\Leftrightarrow x=\\frac{t^{3}+2}{3})%<br>Khi đó phương trình đã cho trở thành :<br>\\[\\begin{array}{l}2 t+3 \\sqrt{\\frac{8-5 t^{3}}{3}}-8=0 \\\\Leftrightarrow\\left\\{\\begin{array} { l } { 8 - 2 t \\geq 0 } \\\\{ 3 \\sqrt { \\frac { 8 - 5 t ^ { 3 } } { 3 } } = 8 - 2 t }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}8-2 t \\geq 0 \\\\9 \\cdot \\frac{8-5 t^{3}}{3}=64-32 t+4 t^{2}\\end{array}\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { t \\leq 4 } \\\\{ 1 5 t ^ { 3 } + 4 t ^ { 2 } - 3 2 t + 4 0 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}t \\leq 4 \\\\(t+2)\\left(15 t^{2}-26 t+20\\right)=0\\end{array}\\right.\\right. \\\\Leftrightarrow t=-2 \\Rightarrow x=-2\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 3.0,
+        "content": "Cho tam giác %(A B C)% có ba góc nhọn, từ điểm I thuộc miền trong của tam giác vẽ các đoạn thẳng %(\\mathrm{IH}, \\mathrm{IK})%, IL lần lượt vuông góc với %(\\mathrm{BC}, \\mathrm{CA}, \\mathrm{AB})%. Tìm vị trí của I sao cho %(\\mathrm{AL}^{2}+\\mathrm{BH}^{2}+\\mathrm{CK}^{2})% nhỏ nhất",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9fbf695a11f89f028564033c316eca82.png\" srcset=\"https://docdn.giainhanh.io/media/test/f7dd0745e4c5ac75797c4ed534393d2c.png 187w\" width=\"187\"/><br>Ta có %(A I^{2}=A L^{2}+\\mathrm{LI}^{2} ; A I^{2}=A K^{2}+\\mathrm{KI}^{2})%.<br>Suy ra %(A L^{2}+\\mathrm{LI}^{2}=A K^{2}+\\mathrm{KI}^{2})%.<br>Tương tự %(\\mathrm{BH}^{2}+\\mathrm{HI}^{2}=\\mathrm{BL}^{2}+\\mathrm{LI}^{2})% và %(\\mathrm{CK}^{2}+\\mathrm{KI}^{2}=\\mathrm{CH}^{2}+\\mathrm{HI}^{2})%<br>Cộng (1) ; (2) và (3) ta có : %(\\mathrm{AL}^{2}+\\mathrm{BH}^{2}+\\mathrm{CK}^{2}=\\mathrm{AK}^{2}+\\mathrm{BL}^{2}+\\mathrm{CH}^{2})%.<br>Do đó %(A L^{2}+B H^{2}+C K^{2}=\\frac{1}{2}\\left[\\left(A L^{2}+B L^{2}\\right)+\\left(B H^{2}+C H^{2}\\right)+\\left(C K^{2}+A K^{2}\\right)\\right] \\geq)% %(\\frac{1}{4}\\left(A B^{2}+B C^{2}+A C^{2}\\right))%<br>Ta có %(A L^{2}+B H^{2}+C K^{2} \\geq \\frac{1}{4}\\left(A B^{2}+B C^{2}+A C^{2}\\right))% (không đổi ).<br>Dấu \" = \" xảy ra <=> %(\\mathrm{AL}=\\mathrm{BL}, \\mathrm{BH}=\\mathrm{BL}, \\mathrm{CK}=\\mathrm{AK}\\lt =>)% । là tâm đường tròn ngoại tiếp %(\\triangle A B C)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Xét tam giác %(A B C)% có độ dài các cạnh là %(a, b, c)% sao cho thoả mãn hệ thức : %(15 \\mathrm{bc}+10 \\mathrm{ca}+1964 \\mathrm{ab}=2006 \\mathrm{abc})%. Tìm giá trị nhỏ nhất của biểu thức : %(M=\\frac{1974}{p-a}+\\frac{1979}{p-b}+\\frac{25}{p-c})% trong đó %(\\mathrm{p})% là nửa chu vi của tam giác %(\\mathrm{ABC})%.",
+        "question_images": [],
+        "solution": "\\[\\text { Voi } \\mathrm{x}\\gt 0, \\mathrm{y}>0 \\text { thì } \\frac{1}{x}+\\frac{1}{y} \\geq \\frac{4}{x+y} (1)\\]<br>Ta có %(\\quad M=\\frac{1974}{p-a}+\\frac{1979}{p-b}+\\frac{25}{p-c}=)%<br>\\[\\begin{array}{l}1964\\left(\\frac{1}{p-a}+\\frac{1}{p-b}\\right)+10\\left(\\frac{1}{p-a}+\\frac{1}{p-c}\\right)+15\\left(\\frac{1}{p-b}+\\frac{1}{p-c}\\right) \\\\geq 1964 \\cdot \\frac{4}{p-a+p-b}+10 \\cdot \\frac{4}{p-a+p-c}+15 \\cdot \\frac{4}{p-b+p-c} \\\\=4\\left(\\frac{1964}{c}+\\frac{10}{b}+\\frac{15}{a}\\right)=4 \\cdot \\frac{1964 a b+15 b c+10 c a}{a b c}=4 \\cdot \\frac{2006 a b c}{a b c}=8024\\end{array}\\]<br>Đẳng thức xảy ra khi và chỉ khi<br>\\[\\left\\{\\begin{array}{l}p-a=p-b=p-c \\\\1964 a b+15 b c+10 c a=2006 a b c\\end{array} \\Leftrightarrow a=b=c=\\frac{1989}{2006}=\\frac{117}{118}\\right.\\]<br>Vậy MinM %(=8024 \\Leftrightarrow a=b=c=\\frac{117}{118})%",
+        "question_type": "essay"
+    }
+]

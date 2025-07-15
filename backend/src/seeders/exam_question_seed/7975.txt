@@ -1,0 +1,81 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Giải phương trình %(x^{2}+2 x+2=3 x \\sqrt{x+1})%.",
+        "question_images": [],
+        "solution": "Điều kiện %(x \\geq-1)%, ta có<br>\\[x^{2}+2 x+2=3 x \\sqrt{x+1} \\Leftrightarrow x^{2}-3 x \\sqrt{x+1}+2(x+1)=0 \\text {. }\\]<br>Đặt %(u=x)% và %(v=\\sqrt{x+1} \\geq 0)%<br>Phương trình đã cho trở thành %(u^{2}-3 u v+2 v^{2}=0)%.<br>\\[\\Leftrightarrow(u-v)(u-2 v)=0 \\Leftrightarrow\\left[\\begin{array} { l } { u - v = 0 } \\\\{ u - 2 v = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}u=v \\u=2 v\\end{array}\\right.\\right.\\]<br>%(\\mathrm{TH1}: u=v)% ta có %(\\sqrt{x+1}=x \\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 0 \\\\ x+1=x^{2}\\end{array} \\Leftrightarrow x=\\frac{1+\\sqrt{5}}{2}\\right.)%.<br>%(\\mathrm{TH} 2: u=2 v)% ta có %(2 \\sqrt{x+1}=x \\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 0 \\\\ 4(x+1)=x^{2}\\end{array} \\Leftrightarrow x=2+2 \\sqrt{2}\\right.)%.<br>Kết hợp với điều kiện ta có nghiệm của phương trình đã cho là %(x=2+2 \\sqrt{2}, x=\\frac{1+\\sqrt{5}}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "b) Có bao nhiêu số tự nhiên có 3 chữ số %(\\overline{a b c})% sao cho %(a, b, c)% là độ dài ba cạnh của một tam giác cân.",
+        "question_images": [],
+        "solution": "%(\\mathrm{TH} 1)% : lập thành tam giác đều thì %(a=b=c\\gt 0)%, có 9 số lập được.<br>%(\\mathrm{TH} 2)% : Xét %(a=b \\neq c)%. Vì %(\\mathrm{a}+\\mathrm{b}>\\mathrm{c})% nên<br>%((2,2, \\mathrm{c}))% có 2 cách chọn %(\\mathrm{c})%, lập được 2 số.<br>%((3,3, \\mathrm{c}))% có 4 cách chọn %(\\mathrm{c})%, lập được 4 số.<br>%((4,4, \\mathrm{c}))% có 6 cách chọn %(\\mathrm{c})%, lập được 6 số.<br>Bắt đầu từ bộ %(\\mathrm{a}=\\mathrm{b} \\geq 5)% trở đi thì %(a+b \\geq 10)% thì dù chọn %(\\mathrm{c})% là số bất kì từ 1 đến 9 (không tính trường hợp trùng với %(\\mathrm{a}, \\mathrm{b})% ) thì ta đều có %(\\mathrm{a}+\\mathrm{b}>\\mathrm{c})%.<br>Chọn a, b có 5 cách chọn, Chọn c có 8 cách chọn. Nên có %(8.5=40)% cách chọn, lập được 40 số.Vì vai trò %(a, b, c)% là như nhau nên có %((2+4+6+40) \\times 3=156)% số.<br>Vậy có %(9+156=165)% số cần tìm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng với mọi số thực %(a, b, c)% ta luôn có %((a+b+c)^{2}=a^{2}+b^{2}+c^{2}+2(a b+b c+c a))%.",
+        "question_images": [],
+        "solution": "Ta có %(V T=(a+b+c)^{2}=[(a+b)+c]^{2}=(a+b)^{2}+2(a+b) c+c^{2})% %(=a^{2}+b^{2}+c^{2}+2(a b+b c+c a)=V P)%(Điều phải chứng minh)",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Cho ba số %(x, y, z)% khác 0 đồng thời thỏa mãn %(x+y+z=\\frac{1}{2}, \\frac{1}{x^{2}}+\\frac{1}{y^{2}}+\\frac{1}{z^{2}}+\\frac{1}{x y z}=4)% và %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\gt 0)%. Tính giá trị biểu thức %(Q=\\left(y^{2017}+z^{2017}\\right)\\left(z^{2019}+x^{2019}\\right)\\left(x^{2021}+y^{2021}\\right))%.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}4=\\frac{1}{x^{2}}+\\frac{1}{y^{2}}+\\frac{1}{z^{2}}+\\frac{1}{x y z}=\\frac{1}{x^{2}}+\\frac{1}{y^{2}}+\\frac{1}{z^{2}}+\\frac{2(x+y+z)}{x y z}=\\frac{1}{x^{2}}+\\frac{1}{y^{2}}+\\frac{1}{z^{2}}+2\\left(\\frac{1}{x y}+\\frac{1}{y z}+\\frac{1}{z x}\\right) \\\\=\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)^{2} \\cdot(\\text { theo câu a) }\\end{array}\\]<br>Mà %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\gt 0)%, suy ra %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=2)%. (1)<br>Mặt khác %(x+y+z=\\frac{1}{2} \\Rightarrow \\frac{1}{x+y+z}=2)%. (2)<br>\\[\\begin{array}{l}\\text { Từ (1) và (2) suy ra } \\\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=\\frac{1}{x+y+z} \\Leftrightarrow(x y+y z+z x)(x+y+z)=x y z \\Leftrightarrow(x+y)(y+z)(z+x)=0 . \\\\Leftrightarrow\\left[\\begin{array}{l}x=-y \\y=-z \\z=-x\\end{array} \\text { do đó } x^{2021}=-y^{2021}, y^{2017}=-z^{2017}, z^{2019}=-x^{2019}  .\\right.\\end{array}\\]<br>%(\\text { Vậy } Q=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho đường tròn %((O))% đường kính %(B C)% và %(H)% là một điểm nằm trên đoạn thẳng %(B O)% (điểm %(H)% không trùng với hai điểm %(B)% và %(O)% ). Qua %(H)% vẽ đường thẳng vuông góc với %(B C)%, cắt đường tròn %((O))% tại %(A)% và %(D)%. Gọi %(M)% là giao điểm của %(A C)% và %(B D)%, qua %(M)% vẽ đường thẳng vuông góc với %(B C)% tại %(N)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng %(M N B A)% là tứ giác nội tiếp.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/286f167456425e4b6a40baba10221243.png\" srcset=\"https://docdn.giainhanh.io/media/test/a22d4ecdc5e6b4ce92c048c72b1961eb.png 195w, https://docdn.giainhanh.io/media/test/3f35e403780c97e07edcaf0ad7430106.png 500w\" width=\"500\"/><br>Ta có %(B A C=90^{\\circ})% ( góc nội tiếp chắn nửa đường tròn) %(\\Rightarrow B A M=90^{\\circ})%.<br>Mặt khác %(M N B=90^{\\circ})%.<br>Suy ra Tứ giác MNBA có %(B A M+M N B=90^{\\circ}+90^{\\circ}=180^{\\circ})%.<br>Suy ra tứ giác MNBA là tứ giác nội tiếp đường tròn đường kính MB.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Tính giá trị của %(P=2\\left(\\frac{B O}{A B}\\right)^{2}-\\frac{O H}{B H})%.",
+        "question_images": [],
+        "solution": "Ta có %(\\triangle A B C)% vuông tại %(\\mathrm{A})%, nên: %(B H=\\frac{A B^{2}}{B C}=\\frac{A B^{2}}{2 B O})%.<br>%(O H=B O-B H=B O-\\frac{A B^{2}}{B C}=\\frac{2 B O^{2}-A B^{2}}{2 B O})%.<br>\\[\\frac{O H}{B H}=\\frac{2 B O^{2}-A B^{2}}{A B^{2}}=2\\left(\\frac{B O}{A B}\\right)^{2}-1\\]<br>Vậy %(\\mathrm{P}=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Từ %(B)% vẽ tiếp tuyến với đường tròn %((O))%, cắt hai đường thẳng %(A C)% và %(A N)% lần lượt tại %(K)% và %(E)%. Chứng minh rằng đường thẳng %(E C)% luôn đi qua trung điểm %(I)% của đoạn thẳng %(A H)% khi điểm %(H \\mathrm{di})% động trên đoạn thẳng %(B O)%.",
+        "question_images": [],
+        "solution": "Ta thấy %(M B N=D B C)% (đối đỉnh)<br>%(D B C=D A C)% ( Tứ giác %(\\mathrm{DBAC})% nội tiếp)<br>Suy ra %(M B N=D A C \\Rightarrow N M B=B C A)% (1)<br>Tứ giác MNBA nội tiếp nên ta có %(N M B=N A B)% (2)<br>Tam giác %(\\mathrm{OAC})% cân tại %(\\mathrm{O} \\Rightarrow B C A=O A C)% (3)<br>Từ (1), (2), (3) suy ra %(N A B=O A C \\Rightarrow O A C+B A O=N A B+B A O \\Leftrightarrow B A C=N A O)%<br>Mà %(B A C=90^{\\circ} \\Rightarrow N A O=90^{\\circ})%<br>Suy ra NA là tiếp tuyến của %((\\mathrm{O}))%.<br>Theo tính chất tiếp thuyến ta có %(E A=E B)% và %(E A B=E B A)%.<br>\\[\\begin{array}{l}\\text { Trong tam giác vuông } \\mathrm{KAB} \\text {, ta có } E A B=E B A \\Rightarrow B K A=E A K \\text { (Phụ với } 2 \\text { góc bằng nhau) } \\\\Rightarrow \\mathrm{VKAE} \\text { cân tại } \\mathrm{E} \\Rightarrow A E=K E \\Rightarrow E B=K E \\\\mathrm{Mặt} \\text { khác } \\mathrm{AH} / \\mathrm{BK} \\text { ( cùng vuông góc với } \\mathrm{AB} \\text { ) } \\\\mathrm{AI} / \\mathrm{KE} \\Rightarrow \\frac{C I}{C E}=\\frac{A I}{K E} \\text { (Định lý Thales) } \\\\mathrm{HI} / / \\mathrm{EB} \\Rightarrow \\frac{C I}{C E}=\\frac{H I}{B E} \\text { (Định lý Thales) } \\Rightarrow \\frac{A I}{K E}=\\frac{H I}{B E}\\end{array}\\]<br>Mà %(K E=E B)%, suy ra %(A I=H I)% nên I là trung điểm đoạn thẳn %(\\mathrm{AH})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Với %(a, b, c)% là các số thực dương thỏa mãn điều kiện %(a+b+c=a b c)%. Chứng minh rằng:<br>\\[\\frac{\\sqrt{1+a^{2}}}{a}+\\frac{\\sqrt{1+b^{2}}}{b}-\\sqrt{1+c^{2}}\\lt 1\\]",
+        "question_images": [],
+        "solution": "Ta có %(a+b+c=a b c \\Leftrightarrow \\frac{1}{b c}+\\frac{1}{c a}+\\frac{1}{a b}=1)%. Đặt %(\\frac{1}{a}=x, \\frac{1}{b}=y, \\frac{1}{c}=z)% Khi đó %(x, y, z\\gt 0)% và %(x y+y z+z x=1)%. Vì vậy<br>\\[\\begin{array}{l}\\frac{\\sqrt{1+a^{2}}}{a}+\\frac{\\sqrt{1+b^{2}}}{b}-\\sqrt{1+c^{2}}\\lt 1 \\Leftrightarrow \\sqrt{1+x^{2}}+\\sqrt{1+y^{2}}-\\frac{\\sqrt{1+z^{2}}}{z}\\lt 1 \\\\Leftrightarrow\\left(\\sqrt{1+x^{2}}-1\\right)\\left(\\sqrt{1+y^{2}}-1\\right)-\\sqrt{1+x^{2}} \\sqrt{1+y^{2}}+\\frac{\\sqrt{1+z^{2}}}{z}>0 \\\\Leftrightarrow\\left(\\sqrt{1+x^{2}}-1\\right)\\left(\\sqrt{1+y^{2}}-1\\right)+\\frac{\\sqrt{1+z^{2}}-z \\sqrt{1+x^{2}} \\sqrt{1+y^{2}}}{z}>0\\ (4)\\end{array}\\]<br>Ta có: %(\\sqrt{1+x^{2}} \\sqrt{1+y^{2}}=\\sqrt{1+x^{2}+y^{2}+x^{2} y^{2}}=\\sqrt{(1-x y)^{2}+(x+y)^{2}}=(x+y) \\sqrt{1+z^{2}})%.<br>\\[\\begin{array}{l}(4) \\Leftrightarrow\\left(\\sqrt{1+x^{2}}-1\\right)\\left(\\sqrt{1+y^{2}}-1\\right)+\\frac{\\sqrt{1+z^{2}}-z(x+y) \\sqrt{1+z^{2}}}{z}\\gt 0 \\\\Leftrightarrow\\left(\\sqrt{1+x^{2}}-1\\right)\\left(\\sqrt{1+y^{2}}-1\\right)+\\frac{\\sqrt{1+z^{2}}-(x z+y z) \\sqrt{1+z^{2}}}{z}>0 \\\\Leftrightarrow\\left(\\sqrt{1+x^{2}}-1\\right)\\left(\\sqrt{1+y^{2}}-1\\right)+\\frac{\\sqrt{1+z^{2}}-(1-x y) \\sqrt{1+z^{2}}}{z}>0 \\\\Leftrightarrow\\left(\\sqrt{1+x^{2}}-1\\right)\\left(\\sqrt{1+y^{2}}-1\\right)+\\frac{x y \\sqrt{1+z^{2}}}{z}>0, \\forall x, y, z>0 .\\end{array}\\]<br>Ta có điều phải chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Để tiết kiệm chi phí vận hành đồng thời đưa du khách tham quan hết 18 danh lam thắng cảnh trong tỉnh %(\\mathrm{K})%, Công ty %(\\mathrm{Du})% lịch lữ hành %(\\mathrm{KH})% đã thiết lập các tuyến một chiều như sau: nếu có tuyến đi từ %(A)% đến %(B)% và từ %(B)% đến %(C)% thì sẽ không có tuyến đi từ %(A)% đến %(C)%. Hỏi có bao nhiêu cách thiết lập để đi hết 18 địa điểm trên?",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{A})% là địa điểm có nhiều tuyến đường nhất (gồm cả đường xuất phát từ %(\\mathrm{A})% và đường đi đến A).<br>Ta chia các địa điểm còn lại thành 3 loại:<br>Loại 1 : các tuyến đường xuất phát từ %(\\mathrm{A})% có %(\\mathrm{n}(1)=\\mathrm{m})% tuyến đường.<br>Loại 2 : các tuyến đường đi đến %(\\mathrm{A})% có %(\\mathrm{n}(2)=\\mathrm{n})% tuyến đường.<br>Loại 3 : không có tuyến đi và đến từ %(\\mathrm{A})% có %(\\mathrm{n}(3)=\\mathrm{p})% tuyến đường.<br>Khi đó: %(\\mathrm{m}+\\mathrm{n}+\\mathrm{p}=17)%.<br>Số tuyến đường liên quan đến %(\\mathrm{A})% có %(\\mathrm{m}+\\mathrm{n})% tuyến.<br>Số tuyến đường không liên quan đến %(\\mathrm{A})% không vượt quá %(p(m+n))%.<br>Số tuyến đường liên quan đến loại 1 và 2 không vượt quá %(m.n)%<br>%(\\mathrm{Vi})%<br>\\[(a+b+c)^{2} \\geq 3(a b+b c+c a) \\Leftrightarrow a^{2}+b^{2}+c^{2} \\geq a b+b c+c a\\]<br>%(\\Leftrightarrow 2\\left(a^{2}+b^{2}+c^{2}\\right) \\geq 2(a b+b c+c a) \\Leftrightarrow(a-b)^{2}+(b-c)^{2}+(c-a)^{2} \\geq 0)%, với mọi số thực %(a, b, c)%.<br>Do đó %(a b+b c+c a \\leq \\frac{(a+b+c)^{2}}{3})%.(5)<br>Gọi %(S)% là số cách thiết lập đi hết 18 địa điểm, áp dụng (5)<br>Có %(S \\leq m+n+p(m+n)+m \\cdot n=m \\cdot n+(p+1) m+n(p+1) \\leq \\frac{(m+n+p+1)^{2}}{3}=108)%<br>.Dấu đẳng thức xảy ra khi và chỉ khi %(m=n=p+1=\\frac{18}{3}=6 \\Leftrightarrow\\left[\\begin{array}{l}m=6 \\\\ n=6 \\\\ p=5\\end{array}\\right.)%<br>Vậy có thể thiết lập tối đa 108 tuyến đường một chiều đề đi hết 18 địa điểm đã cho.",
+        "question_type": "essay"
+    }
+]

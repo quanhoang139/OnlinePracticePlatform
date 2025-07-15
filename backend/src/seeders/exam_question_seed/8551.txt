@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Cho %(\\mathrm{A}=\\frac{x^{2}-\\sqrt{x}}{x+\\sqrt{x}+1}+\\frac{x^{2}+\\sqrt{x}}{x-\\sqrt{x}+})%. Rút gọn %(B=1-\\sqrt{2 A-4 \\sqrt{x}+1})% với %(0 \\leq x \\leq \\frac{1}{4})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=\\frac{x^{2}-\\sqrt{x}}{x+\\sqrt{x}+1}+\\frac{x^{2}+\\sqrt{x}}{x-\\sqrt{x}+1}=\\frac{\\sqrt{x}(x \\sqrt{x}-1)}{x+\\sqrt{x}+1}+\\frac{\\sqrt{x}(x \\sqrt{x}+1)}{x-\\sqrt{x}+1} \\\\ =\\sqrt{x}(\\sqrt{x}-1)+\\sqrt{x}(\\sqrt{x}+1)=2 x \\\\ B=1-\\sqrt{2 A-4 \\sqrt{x}+1}=1-\\sqrt{4 x-4 \\sqrt{x}+1}=1-|2 \\sqrt{x}-1|=2 \\sqrt{x}\\left(0 \\leq x \\leq \\frac{1}{4}\\right)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho %(x, y, z \\neq 0)% và đôi một khác nhau thỏa mãn %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=0)%. Chứng minh:%(\\left(\\frac{1}{x^{2}+2 y z}+\\frac{1}{y^{2}+2 z x}+\\frac{1}{z^{2}+2 x y}\\right)\\left(x^{2016}+y^{2017}+z^{2018}\\right)=x y+y z+z \\mathrm{x})%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text {Ta có } \\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=0 \\Rightarrow y z+x z+x y=0 \\\\Rightarrow x^{2}+2 y z=x^{2}+y z+y z=x^{2}+y z-x z-x y=x(x-z)-y(x-z)=(x-z)(z-y)\\end{array}\\]<br>Tương tự %(\\Rightarrow y^{2}+2 \\mathrm{zx}=(y-z)(y-x) ; z^{2}+2 \\mathrm{xy}=(\\mathrm{z}-\\mathrm{x})(\\mathrm{z}-\\mathrm{y}))%<br>\\[\\begin{array}{l}\\Rightarrow \\frac{1}{x^{2}+2 y z}+\\frac{1}{y^{2}+2 x z}+\\frac{1}{z^{2}+2 y x} \\\\=\\frac{1}{(x-y)(x-z)}+\\frac{1}{(y-z)(y-x)}+\\frac{1}{(z-y)(z-x)} \\\\=\\frac{-y+z-z+x-x+y}{(x-y)(y-z)(z-x)}=0 \\\\Rightarrow\\left(\\frac{1}{x^{2}+2 y z}+\\frac{1}{y^{2}+2 x z}+\\frac{1}{z^{2}+2 y x}\\right)\\left(x^{2016}+y^{2017}+z^{2018}\\right)=0 .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Giải phương trình và hệ phương trình:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Giải phương trình %((\\sqrt{x+5}-\\sqrt{x-2})\\left(1+\\sqrt{x^{2}+3 x-10}\\right)=7)%.",
+        "question_images": [],
+        "solution": "Điều kiện %(x \\geq 2)%<br>\\[\\begin{aligned}& (\\sqrt{x+5}-\\sqrt{x-2})\\left(1+\\sqrt{x^{2}+3 x-10}\\right)=7 \\\\Leftrightarrow & 1+\\sqrt{x^{2}+3 x-10}=\\sqrt{x+5}+\\sqrt{x-2} \\\\Leftrightarrow & (\\sqrt{x+5}(\\sqrt{x-2}-1)=\\sqrt{x-2}-1 \\\\Rightarrow & {\\left[\\begin{array} { l } { \\sqrt { x - 2 } = 1 } \\\\{ \\sqrt { x + 5 } = 1 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=3 \\x=-4\\end{array}\\right.\\right.}\\end{aligned}\\]<br>So với điều kiện ta được phương trình có 1 nghiệm %(x=3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Giải hệ phương trình %(\\left\\{\\begin{array}{l}x^{2}+y^{2}-x y=2 \\\\ x^{3}=x+y\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Từ phương trình %(x^{3}=x+y \\Leftrightarrow 2 \\mathrm{x}^{3}=2(x+y)=\\left(x^{2}+y^{2}-x y\\right)(x+y)=x^{3}+y^{3})%<br>\\[\\Rightarrow x^{3}=y^{3} \\Rightarrow x=y\\]<br>Với %(x=y)% thế vào phương trình %(x^{2}+y^{2}-x y=2)% ta được<br>\\[y^{2}=2 \\Rightarrow\\left[\\begin{array}{l}y=\\sqrt{2} \\y=-\\sqrt{2}\\end{array}\\right.\\]<br>Vậy hệ có nghiệm %((x ; y)=\\{(\\sqrt{2} ; \\sqrt{2}) ;(-\\sqrt{2} ;-\\sqrt{2})\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tìm các số thực %(x)% sao cho %(x+\\sqrt{2018})% và %(\\frac{7}{x}-\\sqrt{2018})% đều là số nguyên.",
+        "question_images": [],
+        "solution": "Điều kiện %(x \\neq 0)%.<br>Đặt %(a=x+\\sqrt{2018} \\Rightarrow x=a-\\sqrt{2018})%<br>Xét %(b=\\frac{7}{x}-\\sqrt{2018}=\\frac{7}{a-\\sqrt{2018}}-\\sqrt{2018}=\\frac{7-a \\sqrt{2018}+2018}{a-\\sqrt{2018}})% %(\\Rightarrow b(a-\\sqrt{2018})=2025-a \\sqrt{2018})%%(\\Rightarrow a b-2015=(b-a) \\sqrt{2018})%<br>Với %(a, b \\in Z)%<br>\\[\\begin{array}{l}\\Rightarrow a b-2025 \\in Z \\Rightarrow(a-b) \\sqrt{2018}=0 \\\\Rightarrow a=b \\\\Rightarrow a=b= \\pm \\sqrt{2025}= \\pm 45 \\\\+a=45 \\Rightarrow x=45-\\sqrt{2018} \\\\+a=-45 \\Rightarrow x=-45-\\sqrt{2018}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Tìm các số tự nhiên có dạng %(\\overline{a b})%. Biết rằng %(\\overline{a b}^{2}-\\overline{b a}^{2})% là số chia hết cho %(3267)%.",
+        "question_images": [],
+        "solution": "%(\\overline{a b}^{2}-\\overline{b a}^{2}=(10 \\mathrm{a}+b)^{2}-(10 b+a)^{2}=99\\left(a^{2}-b^{2}\\right))% %(\\overline{a b}^{2}-\\overline{b a}^{2})% chia hết cho 3267 nên %(a^{2}-b^{2}=(a-b)(a+b))% chia hết cho 33 %(1 \\leq a, b \\leq 9 \\Rightarrow a=b)%, hay %(a=7, b=4 ; a=4, b=7)%<br>Vậy ta có các số %(11 ; 22 ; 33 ; 44 ; 47 ; 55 ; 66 ; 74 ; 77 ; 88 ; 99)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình bình hành %(A B C D)% có góc %(B \\mathrm{D} C=90^{\\circ})%, đường phân giác góc %(B A \\mathrm{D})% cắt cạnh %(B C)% và đường thẳng %(C \\mathrm{D})% lần lượt tại %(E)% và %(F)%. Gọi %(O, O^{\\prime})% lần lượt là tâm đường tròn ngoại tiếp %(\\triangle B C D)% và %(\\triangle C E F)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng %(O^{\\prime})% thuộc đường tròn %((O))%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/12bd36be9cd8fe2806975fbb51cd0efc.png\" srcset=\"https://docdn.giainhanh.io/media/test/ad93b8719814934e2b1a6c07f6dc5dea.png 236w, https://docdn.giainhanh.io/media/test/ff388ae241e79d685bb981804d41bfc2.png 500w, https://docdn.giainhanh.io/media/test/266d5d65c5b7d4e73d3005d41ff37f87.png 750w\" width=\"750\"/><br>%(B A \\mathrm{E}=D A \\mathrm{E})% (giả thuyết) ; %(\\left\\{\\begin{array}{l}B A \\mathrm{E}=E F C \\\\ D A \\mathrm{E}=F \\mathrm{E} C\\end{array} \\Rightarrow E F C=F E C\\right.)%<br>suy ra %(\\triangle E F C)% cân tại %(C \\Rightarrow C E=C F)%<br>mà %(B E \\mathrm{~A}=F E C \\Rightarrow B E \\mathrm{~A}=B \\mathrm{AE})% nên %(\\triangle A B E)% cân tại %(B)%%(\\Rightarrow B A=B E)% mà %(B A=C \\mathrm{D})% nên %(B E=C \\mathrm{D})%%(\\left\\{\\begin{array}{l}C E=C F \\\\ B E=C \\mathrm{D}\\end{array} \\Rightarrow B E+C E=D C+C F \\Leftrightarrow B C=D F\\right.)% (1) .<br>Mặt khác %(\\triangle O^{\\prime} C F)% cân %(\\Rightarrow O^{\\prime} C F=O^{\\prime} F C)%<br>Với %(C E=C F \\Rightarrow O^{\\prime} C E=O^{\\prime} C F \\Rightarrow O^{\\prime} C E=O^{\\prime} F C)% (2)<br>Mà %(O^{\\prime} C=O^{\\prime} F)% (3)<br>Từ (1), (2) và (3) ta được %(\\triangle B O^{\\prime} C=\\triangle D O^{\\prime} F \\Rightarrow O^{\\prime} B C=O^{\\prime} D F)%<br>Nên tứ giác %(B \\mathrm{D} C O^{\\prime})% nội tiếp hay điểm %(O^{\\prime})% thuộc đường tròn %(\\left(O^{\\prime}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Cho %(D E)% vuông góc %(B C)%. Kẻ tiếp tuyến của %((O))% tại %(D)% cắt đường thẳng %(B C)% tại %(G)%. Chứng minh rằng %(B G . C E=B E . C G)%",
+        "question_images": [],
+        "solution": "Tam giác %(B C \\mathrm{D})% tại %(D)%, nội tiếp đường tròn %((O))%.<br>Ta có<br>\\[\\begin{aligned}& \\left\\{\\begin{array}{l}D G^{2}=C G . B G \\D E^{2}=B E \\cdot C E\\end{array} \\Rightarrow D G^{2}-D E^{2}=C G \\cdot B G-B E \\cdot C E \\Leftrightarrow G E^{2}=C G \\cdot B G-B E \\cdot C E\\right. \\\\Rightarrow & (C E+C G)^{2}=C G \\cdot B G-B E \\cdot C E \\\\Leftrightarrow & C E^{2}+2 C E \\cdot C G+C G^{2}=C G \\cdot B G-B E \\cdot C E \\\\Leftrightarrow & C E^{2}+C E \\cdot C G+B E \\cdot C E=C G \\cdot B G-C G^{2}-C E \\cdot C G \\\\Leftrightarrow & C E(C E+C G+B E)=C G(B G-C G-C E) \\Leftrightarrow C E \\cdot B G=C G \\cdot B E\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) %(B C)% Đường tròn %((O))% và %(\\left(O^{\\prime}\\right))% cắt nhau tại điểm %(H)% ( %(H)% khác %(\\left.C\\right))%. Kẻ tiếp tuyến chung %(I K)% ( %(I)% thuộc %((O), K)% thuộc %(\\left(O^{\\prime}\\right))% và %(H, I, K)% nằm cùng phía bờ %(\\mathrm{OO}^{\\prime})% ). Dựng hình bình hành %(C I M K)%. Chứng minh %(O B+O^{\\prime} C\\gt H M)%.",
+        "question_images": [],
+        "solution": "Tia %(C H)% cắt %(I K)% tại %(N)%.<br>Áp dụng phương tích đường tròn ta có %(N K^{2}=N H \\cdot N C=N I^{2} \\Rightarrow N K=N I)% mà CIMK là hình bình hành, do đó %(M, N, H, C)% thẳng hàng.<br>Suy ra %(O B^{2}+O^{\\prime} C=O I+O^{\\prime} K=2 N J)%.<br>Gọi T là điểm đối xứng với %(H)% qua %(N, P)% là giao điểm của %(C H)% với %(O O^{\\prime})%.<br>Ta có %(\\left\\{\\begin{array}{l}P H=P C \\\\ O O^{\\prime} \\perp C H\\end{array} \\Rightarrow N J\\gt N P\\right.)%<br>\\[\\Rightarrow 2 N J>2 N P=N P+N P=N P+P H+N P=N T+P C+N P=T C=H M\\]<br>Vậy %(O B+O^{\\prime} C>H M)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Cho %(x, y, z\\gt 0)% thỏa mãn %(x^{2}+y^{2}+z^{2} \\leq 3 x y z)%. Tìm GTLN của<br>\\[P=\\frac{x^{2}}{x^{4}+y z}+\\frac{y^{2}}{y^{4}+z \\mathrm{x}}+\\frac{z^{2}}{z^{4}+x y}\\]",
+        "question_images": [],
+        "solution": "Ta có %(x, y, z\\gt 0, x^{2}+y^{2}+z^{2} \\leq 3 \\mathrm{x} y z \\Rightarrow \\frac{x^{2}+y^{2}+z^{2}}{x y z} \\leq 3)%.<br>Với %(x, y, z>0)%, theo BĐT Cauchy ta được %(x^{2}+y^{2}+z^{2} \\geq x y+y z+z \\mathrm{x})%<br>\\[x^{4}+y z \\geq 2 \\sqrt{x^{4} y z}=2 x^{2} \\sqrt{y z} \\Rightarrow \\frac{x^{2}}{x^{4}+y z} \\leq \\frac{1}{2 \\sqrt{y z}}\\]<br>Tương tự ta được: %(\\frac{y^{2}}{y^{4}+z \\mathrm{x}} \\leq \\frac{1}{2 \\sqrt{z \\mathrm{x}}} ; \\frac{z^{2}}{z^{4}+x y} \\leq \\frac{1}{2 \\sqrt{x y}})%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "title": "1 ",
+        "point": 4.0,
+        "content": "Hãy tìm tất cả các số để khi thêm vào tích sau ta được một số chia hết cho 2011.<br>\\[A=\\left(2011^{2}-1\\right)^{2010} .2010^{2011}\\]",
+        "question_images": [],
+        "solution": "Ta có: %(A=\\left[\\left(2011^{2}-1\\right)^{2010}-2010^{2010}\\right] \\cdot 2010^{2011}+\\left(2010^{4021}+1\\right)-1)%<br>Hay %(A=M+N-1)% với<br>\\[\\begin{array}{l}M=\\left[\\left(2011^{2}-1\\right)^{2010}-2010^{2010}\\right] \\cdot 2010^{2011}=2011 \\cdot E: 2011 \\N=\\left(2010^{4021}+1\\right)=2011 \\cdot F: 2011\\end{array}\\]<br>Vậy thêm %(2011 k+1)% ( %(k)% nguyên) vào thì %(A)% chia hết cho 2011 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 4.0,
+        "content": "Tìm tất cả các hàm số %(f(x))% xác định trên %(\\mathbb{R})% thỏa mãn %(f(x)+f\\left(\\frac{x-1}{x}\\right)=x+1)%, vói mọi %(x \\neq 0, x \\neq 1)%.",
+        "question_images": [],
+        "solution": "Theo đề bài, ta có: %(f(x)+f\\left(\\frac{x-1}{x}\\right)=x+1)%<br>Đặt %(t=\\frac{x-1}{x} \\Rightarrow x=\\frac{1}{1-t})%Khi đó: %((1) \\Leftrightarrow f\\left(\\frac{1}{1-t}\\right)+f(t)=\\frac{t-2}{t-1}, \\forall t \\neq 1)%<br>Đặt %(\\frac{1}{1-t}=\\frac{x-1}{x} \\Rightarrow x=\\frac{t-1}{t})%Khi đó: %((1) \\Leftrightarrow f\\left(\\frac{t-1}{t}\\right)+f\\left(\\frac{1}{1-t}\\right)=\\frac{2 t-1}{t}, \\forall t \\neq 0, t \\neq 1)%<br>Cộng vế theo vế phương trình (2) và (3), ta được:<br>\\[\\begin{array}{l}2 f\\left(\\frac{1}{1-t}\\right)+(t+1)=\\frac{2 t-1}{t}+\\frac{t-2}{t-1}, \\forall t \\neq 0, t \\neq 1 \\\\Leftrightarrow f\\left(\\frac{1}{1-t}\\right)=\\frac{1}{2}\\left(2-t+\\frac{1}{1-t}-\\frac{1}{t}\\right), \\forall t \\neq 0, t \\neq 1 \\\\Rightarrow f(x)=\\frac{1}{2}\\left(x+\\frac{1}{x}+\\frac{1}{1-x}\\right), \\forall t \\neq 0, t \\neq 1\\end{array}\\]<br>Thử lại, ta thấy %(f(x)=\\frac{1}{2}\\left(x+\\frac{1}{x}+\\frac{1}{1-x}\\right))%, thỏa mãn điều kiện đề bài.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 4.0,
+        "content": "Giải phương trình: %(3 x^{2}+8 x-67+8 \\sqrt[4]{4 x+4}=0)%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq-1)%<br>Đặt %(t=\\sqrt[4]{4 x+4}(t \\geq 0) \\Rightarrow x=\\frac{t^{4}-4}{4}, x^{2}=\\frac{t^{8}-8 t^{4}+16}{16})%<br>Phương trình đã cho trở thành: %(3 t^{8}+8 t^{4}+128 t-1152=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow(t-2)\\left(3 t^{7}+6 t^{6}+12 t^{5}+24 t^{4}+56 t^{3}+112 t^{2}+224 t+576\\right)=0 \\\\Leftrightarrow t=2 \\text { (vì } t \\geq 0) .\\end{array}\\]<br>Vói %(t=2)%, ta có %(\\sqrt[4]{4 x+4}=2 \\Leftrightarrow x=3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 4.0,
+        "content": "Cho ba số thực dương %(a, b, c)% thỏa mãn điều kiện:<br>\\[\\frac{a^{3}}{a^{2}+a b+b^{2}}+\\frac{b^{3}}{b^{2}+b c+c^{2}}+\\frac{c^{3}}{c^{2}+c a+a^{2}}=1 \\text {. }\\]<br>Tìm giá trị lớn nhất của biểu thức %(S=a+b+c)%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\frac{a^{3}}{a^{2}+a b+b^{2}}=a-\\frac{a\\left(a b+b^{2}\\right)}{a^{2}+a b+b^{2}}=a-\\frac{a b(a+b)}{a^{2}+a b+b^{2}} \\geq a-\\frac{a b(a+b)}{3 a b})%<br>\\[\\Rightarrow \\frac{a^{3}}{a^{2}+a b+b^{2}} \\geq a-\\frac{a+b}{3} (1)\\]<br>Tương tự, ta có:<br>\\[\\begin{array}{l}\\frac{b^{3}}{b^{2}+b c+c^{2}} \\geq b-\\frac{b+c}{3} (2) \\\\frac{c^{3}}{c^{2}+c a+a^{2}} \\geq c-\\frac{c+a}{3} (3)\\end{array}\\]<br>Cộng vế theo vế của (1), (2) và (3) ta được:<br>\\[\\begin{array}{l}\\frac{a^{3}}{a^{2}+a b+b^{2}}+\\frac{b^{3}}{b^{2}+b c+c^{2}}+\\frac{c^{3}}{c^{2}+c a+a^{2}} \\geq \\frac{a+b+c}{3} \\\\Rightarrow S \\leq 3, S=3 \\text { khi } a=b=c=1 .\\end{array}\\]<br>Vậy giá trị lớn nhất của biểu thức %(S)% là 3 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 4.0,
+        "content": "Cho tam giác đều %(A B C)% nội tiếp đường tròn %((C))% có tâm %(O)% và bán kính %(R)%. Chứng minh: %(M \\in(C) \\Leftrightarrow M A^{2}+M B^{2}+M C^{2}=2 B C^{2})%.",
+        "question_images": [],
+        "solution": "Áp dụng định lí sin cho tam giác %(A B C)%, ta có: %(\\frac{B C^{2}}{\\sin ^{2} A}=4 R^{2} \\Rightarrow 2 B C^{2}=6 R^{2})%<br>Khi đó:<br>\\[\\begin{array}{l}M A^{2}+M B^{2}+M C^{2}=2 B C^{2} \\Leftrightarrow(\\overrightarrow{O M}+\\overrightarrow{O A})^{2}+(\\overrightarrow{M O}+\\overrightarrow{O B})^{2}+(\\overrightarrow{M O}+\\overrightarrow{O C})^{2}=6 R^{2} \\\\Leftrightarrow 3 \\overrightarrow{M O}^{2}+2 \\overrightarrow{M O}(\\overrightarrow{O A}+\\overrightarrow{O B}+\\overrightarrow{O C})=3 R^{2} \\\\Leftrightarrow O M=R \\text { (do } \\overrightarrow{O A}+\\overrightarrow{O B}+\\overrightarrow{O C}=\\overrightarrow{0}) \\Leftrightarrow M \\in(C) .\\end{array}\\]",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,97 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 2.0,
+        "content": "Trục căn thức ở mẫu biểu thức sau: %(\\frac{2}{\\sqrt[3]{4}+\\sqrt[3]{2}+2})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\frac{2}{\\sqrt[3]{4}+\\sqrt[3]{2}+2}=\\frac{\\sqrt[3]{2^{3}}}{\\sqrt[3]{2^{2}}+\\sqrt[3]{2}+\\sqrt[3]{2^{3}}}=\\frac{\\sqrt[3]{2^{3}}}{\\sqrt[3]{2}\\left(\\sqrt[3]{2}+1+\\sqrt[3]{\\left.2^{2}\\right)}\\right.} \\\\ =\\frac{\\sqrt[3]{2^{2}}}{\\left(\\sqrt[3]{2}+1+\\sqrt[3]{\\left.2^{2}\\right)}\\right.}=\\frac{\\sqrt[3]{2^{2}}(\\sqrt[3]{2}-1)}{(\\sqrt[3]{2}-1)\\left(\\sqrt[3]{2}+1+\\sqrt[3]{\\left.2^{2}\\right)}\\right.}=\\frac{2-\\sqrt[3]{4}}{2-1}=2-\\sqrt[3]{4} .\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Tìm điều kiện để biểu thức %(A=\\frac{\\sqrt{x}-3}{\\sqrt{x}-2}-\\frac{2 \\sqrt{x}-1}{\\sqrt{x}-1}+\\frac{x-2}{x-3 \\sqrt{x}+2})% có nghĩa và rút gọn %(A)%.",
+        "question_images": [],
+        "solution": "Ta có %((\\sqrt{x}-2)(\\sqrt{x}-1)=x-3 \\sqrt{x}+2)%.<br>Biểu thức %(A)% có nghĩa khi và chỉ khi %(\\left\\{\\begin{array}{l}x \\geq 0 \\\\ \\sqrt{x}-1 \\neq 0 \\\\ \\sqrt{x}-2 \\neq 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 0 \\\\ x \\neq 1 \\\\ x \\neq 4\\end{array}\\right.\\right.)%.<br>\\[\\begin{aligned}A & =\\frac{(\\sqrt{x}-3)(\\sqrt{x}-1)-(2 \\sqrt{x}-1)(\\sqrt{x}-2)+x-2}{(\\sqrt{x}-2)(\\sqrt{x}-1)} \\\\& =\\frac{x-4 \\sqrt{x}+3-(2 x-5 \\sqrt{x}+2)+x-2}{(\\sqrt{x}-2)(\\sqrt{x}-1)}=\\frac{\\sqrt{x}-1}{(\\sqrt{x}-2)(\\sqrt{x}-1)}=\\frac{1}{\\sqrt{x}-2} .\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.0,
+        "content": "Giải phương trình %(2 \\sqrt{3-x}+\\sqrt{2+x}=5)%.",
+        "question_images": [],
+        "solution": "Điều kiện xác định: %(-2 \\leq x \\leq 3)%.<br>Đặt %(\\sqrt{2+x}=t(t \\geq 0))%, suy ra %(x=t^{2}-2)%.<br>Ta được phương trình theo %(t: 2 \\sqrt{5-t^{2}}+t=5~~~(1))%<br>(1) %(\\Leftrightarrow 2 \\sqrt{5-t^{2}}=5-t \\Rightarrow 4\\left(5-t^{2}\\right)=(5-t)^{2} \\Rightarrow t^{2}-2 t+1=0 \\Rightarrow t=1)%.<br>Thử lại ta thấy %(t=1)% thỏa mãn phương trình (1).<br>%(t=1 \\Leftrightarrow x=-1)%. Vậy phương trình có một nghiệm %(x=-1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x^{3}+y^{3}=91 \\\\ x^{2}+y^{2}-x y=13\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\left\\{\\begin{array}{l}x^{3}+y^{3}=91 \\\\ x^{2}+y^{2}-x y=13\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}(x+y)\\left(x^{2}+y^{2}-x y\\right)=91 \\\\ x^{2}+y^{2}-x y=13\\end{array}\\right.\\right. \\\\ \\Leftrightarrow\\left\\{\\begin{array}{l}x+y=7 \\\\ (x+y)^{2}-3 x y=13\\end{array}\\right.\\end{array})%<br>\\[\\begin{array}{l}\\Leftrightarrow\\left\\{\\begin{array}{l}x y=12 \\x+y=7\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { x = 3 } \\\\{ y = 4 }\\end{array} \\text { hoặc } \\left\\{\\begin{array}{l}x=4 \\y=3\\end{array}\\right.\\right.\\end{array}\\]<br>Vậy hệ phương trình đã cho có tập nghiệm là %(S=\\{(3 ; 4) ;(4 ; 3)\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 2.0,
+        "content": "Cho phương trình: %(x^{2}-2(m-1) x+m^{2}-3=0)% ( %(x)% là ẩn, %(m)% là tham số). Tìm %(m)% để phương trình có hai nghiệm %(x_{1}, x_{2})% sao cho %(x_{1}^{2}+4 x_{1}+2 x_{2}-2 m x_{1}=1)%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\Delta^{\\prime}=[-(m-1)]^{2}-1 \\cdot\\left(m^{2}-3\\right)=4-2 m)%<br>Để phương trình có hai nghiệm %(x_{1}, x_{2} \\Leftrightarrow \\Delta^{\\prime} \\geq 0 \\Leftrightarrow 4-2 m \\geq 0 \\Leftrightarrow m \\leq 2)%<br>Khi %(m \\leq 2)% thì phương trình có hai nghiệm %(x_{1}, x_{2})%.<br>Theo hệ thức Vi-et ta có: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=2 m-2 \\\\ x_{1} \\cdot x_{2}=m^{2}-3\\end{array}\\right.)%<br>Theo yêu cầu bài toán: %(x_{1}^{2}+4 x_{1}+2 x_{2}-2 m x_{1}=1)%. Vì %(x_{1})% là nghiệm của phương trình nên<br>\\[\\begin{array}{l}x_{1}^{2}-2(m-1) x_{1}+m^{2}-3=0 \\Leftrightarrow x_{1}^{2}=2(m-1) x_{1}-m^{2}+3 \\\\Rightarrow x_{1}^{2}+4 x_{1}+2 x_{2}-2 m x_{1}=1 \\Leftrightarrow 2(m-1) x_{1}-m^{2}+3+4 x_{1}+2 x_{2}-2 m x_{1}-1=0 \\\\Leftrightarrow 2 x_{1}+2 x_{2}-m^{2}+2=0 \\Leftrightarrow 2\\left(x_{1}+x_{2}\\right)-m^{2}+2=0 \\\\Leftrightarrow 2(2 m-2)-\\mathrm{m}^{2}+2=0 \\Leftrightarrow-m^{2}+4 m-2=0 \\\\Rightarrow m_{1}=2+\\sqrt{2} \\text { (loại), } m_{2}=2-\\sqrt{2} \\text { (nhận). }\\end{array}\\]<br>Vậy %(m=2-\\sqrt{2})% thì phương trình có hai nghiệm %(x_{1}, x_{2})% thỏa mãn điều kiện %(x_{1}^{2}+4 x_{1}+2 x_{2}-2 m x_{1}=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 2.0,
+        "content": "Cho %(a\\gt 0, b>0)%. Chứng minh: %(\\sqrt{a}\\left(\\sqrt{\\frac{a}{b}}-1\\right) \\geq \\sqrt{b}\\left(1-\\sqrt{\\frac{b}{a}}\\right)~~~(1))%. Dấu \" %(=)% \" xảy ra khi nào?",
+        "question_images": [],
+        "solution": "Với %(a\\gt 0 ; b>0)% ta có:<br>Phương trình (1) tương đương: %(\\sqrt{\\frac{a}{b}}\\left(\\sqrt{\\frac{a}{b}}-1\\right) \\geq\\left(1-\\sqrt{\\frac{b}{a}}\\right))%<br>Đặt %(\\sqrt{\\frac{a}{b}}=X(X>0))%. Thay vào phương trình (2) ta có: %(X(X-1) \\geq\\left(1-\\frac{1}{X}\\right))%<br>\\[\\begin{array}{l}\\Leftrightarrow X(X-1) \\geq \\frac{X-1}{X} \\Leftrightarrow \\frac{X^{2}(X-1)-(X-1)}{X} \\geq 0 \\\\Leftrightarrow \\frac{(X-1)\\left(X^{2}-1\\right)}{X} \\geq 0 \\Leftrightarrow \\frac{(X-1)(X-1)(X+1)}{X} \\geq 0 \\Leftrightarrow \\frac{(X-1)^{2}(X+1)}{X} \\geq 0\\end{array}\\]<br>Do %(X>0)% nên %(X+1>0)% mà %((X-1)^{2} \\geq 0)%.<br>Suy ra với %(a>0, b>0)% thì %(\\sqrt{a}\\left(\\sqrt{\\frac{a}{b}}-1\\right) \\geq \\sqrt{b}\\left(1-\\sqrt{\\frac{b}{a}}\\right))%.<br>Vậy dấu bằng xảy ra %(\\Leftrightarrow X=1 \\Leftrightarrow a=b)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 1.5,
+        "content": "Tìm các nghiệm nguyên của phương trình : %(x^{2}+2 x y+7(x+y)+2 y^{2}+10=0)%.",
+        "question_images": [],
+        "solution": "\\[x^{2}+2 x y+7(x+y)+2 y^{2}+10=0 \\Leftrightarrow x^{2}+(2 y+7) x+2 y^{2}+7 y+10=0~~~(1)\\]<br>Phương trình (1) có nghiệm khi %(\\Delta \\geq 0 \\Leftrightarrow(2 y+7)^{2}-4\\left(2 y^{2}+7 y+10\\right) \\geq 0)%<br>%(\\Leftrightarrow 9-4 y^{2} \\geq 0 \\Leftrightarrow(3+2 y)(3-2 y) \\geq 0 \\Leftrightarrow \\frac{-3}{2} \\leq y \\leq \\frac{3}{2})%, mà %(y)% là số nguyên nên %(y \\in\\{-1 ; 0 ; 1\\})%.<br>Xét các trường hợp sau:<br>Trường hợp 1: %(y=-1)%, phương trình %((1) \\Leftrightarrow x^{2}+5 x+5=0)% không có nghiệm nguyên vì %(\\Delta)% không là số chính phương.<br>Trường hợp 2: %(y=0)%, phương trình (1) %(\\Leftrightarrow x^{2}+7 x+10=0 \\Leftrightarrow x=-5)% hoặc %(x=-2)%.<br>Trường hợp 3: %(y=1)%, phương trình %((1) \\Leftrightarrow x^{2}+9 x+19=0)% không có nghiệm nguyên vì %(\\Delta)% không là số chính phương.<br>Kết luận: Phương trình có nghiệm nguyên là %((x ; y) \\in\\{(-5 ; 0),(-2 ; 0)\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 1.0,
+        "content": "Chữ số hàng đơn vị của số %(M=a^{2}+a b+b^{2}\\left(a ; b \\in N^{*}\\right))% là 0. Chứng minh %(M)% chia hết cho 20.",
+        "question_images": [],
+        "solution": "Do %(a^{2}+a b+b^{2})% có chữ số hàng đơn vị là %(0 \\Rightarrow a^{2}+a b+b^{2}: 10)%<br>\\[a^{2}+a b+b^{2} \\vdots 10 \\Rightarrow\\left\\{\\begin{array}{l}a^{2}+a b+b^{2} \\vdots 5 \\a^{2}+a b+b^{2} \\vdots 2\\end{array}\\right.\\]<br>Ta đi chứng minh %(a ; b)% cùng là số chẵn<br>Nếu %(a ; b)% cùng lẻ %(\\Rightarrow a^{2}+a b+b^{2})% lẻ %(\\Rightarrow a^{2}+a b+b^{2})% lẻ ( vô lý )<br>Nếu %(a ; b)% có 1 số chẵn, 1 số lẻ thì %(\\Rightarrow a^{2}+a b+b^{2})% lẻ ( vô lý )<br>suy ra %(a ; b)% cùng là số chẵn %(\\Rightarrow a^{2}+a b+b^{2}: 4)%<br>Do %(20=5.4 ; \\quad(5,4)=1 \\Rightarrow a^{2}+a b+b^{2}: 20)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 9:",
+        "group_content": "Cho đường tròn tâm %(O)%, đường kính %(B C)%. %(A)% là điểm thuộc đường tròn ( %(A)% khác %(B, C)% ), %(A B\\lt A C, H)% là hình chiếu của %(A)% lên %(B C)%. Vẽ đường tròn %((I))% đường kính %(A H)% cắt %(A B)% và %(A C)% lần lượt tại %(M)% và %(N)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Chứng minh tứ giác %(B M N C)% nội tiếp được đường tròn.",
+        "question_images": [],
+        "solution": "Ta có: %(\\widehat{A N I}=\\widehat{N A I})% mà %(\\widehat{N A I}=\\widehat{A B C})%.<br>Suy ra %(\\widehat{A N I}=\\widehat{A B C})%.<br>Khi đó %(\\widehat{C N M}+\\widehat{A B C}=\\widehat{C N M}+\\widehat{A N I}=180^{\\circ})%.<br>Suy ra tứ giác %(B M N C)% nội tiếp.<br><img alt=\"Screenshot 2024-06-17 221011.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7e0a7b748007fdce2992333805f8c4f2.png\" srcset=\"https://docdn.giainhanh.io/media/test/45378e55bd1da964274dc548ec146074.png 175w, https://docdn.giainhanh.io/media/test/bcab0a49e8757febe48575601f14d64f.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Vẽ đường kính %(A K)% của đường tròn %((O))%. Gọi %(E)% là trung điêm của %(H K)%. Chứng minh rằng %(E M=E N)%.",
+        "question_images": [],
+        "solution": "Ta có: %(E I)% là đường trung bình của tam giác %(H A K)% nên %(E I / / A K~~~(1))%<br>Ta có: %(\\widehat{B A K}=\\widehat{A B C}=\\widehat{A N M})%.<br>Suy ra %(\\widehat{A M N}+\\widehat{B A K}=\\widehat{A M N}+\\widehat{A N M}=90^{\\circ})%.<br>Nên ta có: %(A K \\perp M N.~~~(2))%<br>Từ (1), (2) suy ra %(E I \\perp M N)%.<br>Mà %(I M=I N)% nên tam giác %(E M N)% cân tại %(E)%, suy ra %(E M=E N)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 10: ",
+        "point": 2.0,
+        "content": "Cho hình bình hành %(A B C D)% có góc %(B A D)% nhọn và %(A B\\lt A D)%. Tia phân giác của góc %(B A D)% cắt %(B C)% tại %(E)% và cắt %(D C)% tại %(F)%. Gọi %(I)% là tâm đường tròn ngoại tiếp tam giác %(E F C)%, gọi %(J)% là giao điểm của %(I C)% và %(E F)%. Chứng minh %(\\widehat{C I D}=\\widehat{C B D})%.",
+        "question_images": [],
+        "solution": "Xét %(\\triangle C E F)% có %(\\widehat{C E F}=\\widehat{C F E}=\\frac{\\widehat{B A D}}{2})% nên %(\\triangle C E F)% cân tại %(C)% suy ra %(C E=C F)%.<br>Mà %(I)% là tâm đường tròn ngoại tiếp %(\\triangle C E F)% nên %(I E=I F)% từ đó suy ra %(I C)% là đường trung trực của %(E F)% nên %(J E=J F)%.<br>Ta có %(\\triangle C E F)% cân tại %(C)% mà %(C J)% là đường trung trực nên %(C J)% cũng là đường phân giác suy ra %(\\widehat{E C I}=\\widehat{F C I}=\\widehat{I E C} \\Rightarrow \\widehat{I E B}=\\widehat{I C D})%.<br>Xét %(\\triangle I C D)% và %(\\triangle I E B)% có<br>\\[\\left\\{\\begin{array}{l}I C=I E \\\\widehat{I C D}=\\widehat{I E B} \\C D=E B\\end{array} \\text { suy ra } \\triangle I C D=\\triangle I E B(c-g-c) \\text { nên } \\widehat{I D C}=\\widehat{I B E} \\text { hay } \\widehat{I D C}=\\widehat{I B C}\\right. \\text {. }\\]<br>Suy ra tứ giác %(I C D B)% nội tiếp được một đường tròn %(\\Rightarrow \\widehat{C I D}=\\widehat{C B D})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/76b901f327588e35a1740b61c52d5658.png\" srcset=\"https://docdn.giainhanh.io/media/test/f84a3146d9c314d852e5f4e1ff8ced3c.png 191w, https://docdn.giainhanh.io/media/test/76b6b875d370f8fe63d2f7238b0be4f3.png 500w, https://docdn.giainhanh.io/media/test/8e0910a774e06ac8e10312daf93440db.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    }
+]

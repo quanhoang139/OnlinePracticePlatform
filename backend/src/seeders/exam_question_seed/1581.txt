@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Câu 1:  ",
+        "point": 2.0,
+        "content": "Cho các tập hợp con của %(R)% được xác định như sau:<br>\\[\\begin{array}{l}A=[-3 ; 4] ; B=(-\\infty ;-3] \\cup[2 ; 7) . \\text { Tim } \\A \\cap B ; A \\cup B ; A \\backslash B ; B \\backslash A .\\end{array}\\]",
+        "question_images": [],
+        "solution": "%(A \\cap B=\\{-3\\} \\cup[2 ; 4])%<br>%(A \\cup B=(-\\infty ; 7))%<br>%(A \\backslash B=(-3 ; 2))%<br>%(B \\backslash A=(-\\infty ;-3) \\cup(4 ; 7))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Một nhóm có 12 học sinh chuẩn bị cho hội diền văn nghệ.Trong danh sách đăng ký tham gia tiết mục múa và tiết mục hát của nhóm đó,có 5 học sinh tham gia tiết muc múa và 3 học sinh tham gia cả hai tiết mục. Hỏi có bao nhiêu học sinh của nhóm tham gia tiết mục hát? Biết rằng có 4 học sinh của nhóm không tham gia tiết muc nào.",
+        "question_images": [],
+        "solution": "Kí hiệu A là tập hợp những học sinh tham gia tiết mục múa, %(B)% là tập hợp những học sinh tham gia tiết mục hát.<br>Theo giả thiết, %(n(A)=5, n(A \\cap B)=3)%<br>Số học sinh của nhóm có tham gia ít nhất 1 tiết mục :<br>\\[n(A \\cup B)=12-4=8\\]<br>Số học sinh của nhóm tham gia tiết mục hát :<br>\\[\\begin{array}{l}n(A \\cup B)=n(A)+n(B)-n(A \\cap B) \\\\Leftrightarrow 8=5+n(B)-3 \\\\Leftrightarrow n(B)=6\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.0,
+        "content": "Một xưởng sản xuất bàn và ghế.Một chiếc bàn cần 1,5 giờ lắp ráp và 1 giờ hoàn thiện, một chiếc ghế cần 1 giờ lắp ráp và 2 giờ hoàn thiện.Bộ phận lắp ráp có 3 nhân công và bộ phận hoàn thiện có 4 nhân công. Biết thị trường tiêu thu hết sản phẩm của xưởng và lượng ghế tiêu thụ không vượt quá 3,5 lần số bàn. Biết một chiếc bàn lâi 600 nghin đồng, một chiếc ghế lâi 450 nghin đồng. Hỏi trong một ngày,xưởng cần sản xuất bao nhiêu chiếc bàn, bao nhiêu chiếc ghế để thu được tiền lâi cao nhất ? Biết một nhân công làm viêc không quá 8 giờ mỗi ngày.",
+        "question_images": [],
+        "solution": "Gọi x;y (chiếc) lần lượt là số bàn và số ghế cần sản xuất<br>\\[(x, y \\geq 0 ; x, y \\in N) \\text {. }\\]<br>Khi đó số tiền lãi là: %(f(x ; y)=600 x+450 y)% (nghìn đồng)<br>Số giờ lắp ráp tối đa là: %(8.3=24)%<br>Số giờ hoàn thiện tối đa là: %(8.4=32)%<br>Ta có hệ bất phương trình: %(\\left\\{\\begin{array}{l}1,5 x+y \\leq 24 \\\\ x+2 y \\leq 32 \\\\ 3,5 x-y \\geq 0 \\\\ x \\geq 0 \\\\ y \\geq 0\\end{array} \\quad(*)\\right.)%<br>(kể cả biên) với %(\\mathrm{O}(0 ; 0), \\mathrm{A}(4 ; 14), \\mathrm{B}(8 ; 12), \\mathrm{C}(16 ; 0))%<br>Tại %(\\mathrm{O}(0 ; 0): \\mathrm{f}(0 ; 0)=600.0+450.0=0)%;Tại %(A(4 ; 14): f(4 ; 14)=600.4+450.14=8700)%;Tại %(B(8 ; 12): f(8 ; 12)=600.8+450.12=10)% 200;Tại %(C(16 ; 0): f(16 ; 0)=600.16+450.0=9600)%.<br>Ta thấy %(\\mathrm{f}(8 ; 12))% là giá trị lớn nhất của hàm số %(\\mathrm{f}(\\mathrm{x} ; \\mathrm{y}))% trên miền nghiệm của hệ (*).<br>Cần sản xuất 8 cái bàn và 12 cái ghế để thu về số tiền lãi lớn nhất.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0fe1bd6caa2e8421871e8d091ec1169b.png\" srcset=\"https://docdn.giainhanh.io/media/test/5127e9e1457f8ca812bf23713e02d80a.png 225w, https://docdn.giainhanh.io/media/test/25efbb3a3ab8b13d4a8f0cf6fc7b00e8.png 500w, https://docdn.giainhanh.io/media/test/703effe28929db01dd8ffd3c73c1e9ea.png 750w, https://docdn.giainhanh.io/media/test/9b3e3d345132093042a1300bd1a28513.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4:",
+        "group_content": "Cho hình bình hành %(\\mathrm{ABCD})% có %(\\mathrm{AB}=5, \\mathrm{AD}=8, \\widehat{\\mathrm{BAD}}=60^{\\circ})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "Tính độ dài %(\\mathrm{BD})% và diện tích %(\\triangle \\mathrm{ABD})%.",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} \\triangle \\mathrm{ABD}: \\quad \\mathrm{BD}^{2} & =A B^{2}+A D^{2}-2 \\cdot A B \\cdot A D \\cdot \\cos B A D \\\\ & =5^{2}+8^{2}-2 \\cdot 5 \\cdot 8 \\cdot \\cos 60^{\\circ}=49 \\Rightarrow B D=7\\end{aligned})%%(\\begin{array}{l}\\mathrm{S}_{\\triangle A B D}=\\frac{1}{2} \\cdot \\mathrm{AB} \\cdot \\mathrm{AD} \\cdot \\sin \\mathrm{BAD} \\\\ =\\frac{1}{2} \\cdot 5 \\cdot 8 \\cdot \\sin 60^{\\circ}=10 \\sqrt{3}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Tính bán kính %(R, r)% của các đường tròn ngoại tiếp và nội tiếp %(\\triangle A B D)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}2 R=\\frac{B D}{\\sin B A D} \\\\ \\Rightarrow R=\\frac{B D}{2 \\sin B A D}=\\frac{7}{2 \\cdot \\sin 60^{\\circ}}=\\frac{7 \\sqrt{3}}{3}\\end{array})%<br>%(\\begin{array}{l}\\mathrm{p}=\\frac{5+8+7}{2}=10 \\\\ \\mathrm{~S}=\\mathrm{p} \\cdot \\mathrm{r} \\\\ \\Rightarrow \\mathrm{r}=\\frac{\\mathrm{S}}{\\mathrm{p}}=\\frac{10 \\sqrt{3}}{10}=\\sqrt{3}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "Tính độ dài vectơ sau: %(\\overrightarrow{\\mathrm{u}}=(\\overrightarrow{\\mathrm{CB}}-\\overrightarrow{\\mathrm{CA}})+\\overrightarrow{\\mathrm{AD}})%.",
+        "question_images": [],
+        "solution": "\\[\\overrightarrow{\\mathrm{u}}=(\\overrightarrow{\\mathrm{CB}}-\\overrightarrow{\\mathrm{CA}})+\\overrightarrow{\\mathrm{AD}}=\\overrightarrow{\\mathrm{AB}}+\\overrightarrow{\\mathrm{AD}}=\\overrightarrow{\\mathrm{AC}}\\]<br>Suy ra %(|\\overrightarrow{\\mathrm{u}}|=|\\overrightarrow{\\mathrm{AC}}|=\\mathrm{AC})%<br>\\[\\begin{aligned}A B C=120^{\\circ}, B C=A D & =8 . \\\\triangle A B C: A C^{2}= & A B^{2}+B C^{2}-2 \\cdot A B \\cdot B C \\cdot \\cos A B C \\\\& =5^{2}+8^{2}-2 \\cdot 5 \\cdot 8 \\cdot \\cos 120^{\\circ}=129\\end{aligned}\\]<br>Suy ra %(|\\overrightarrow{\\mathrm{u}}|=|\\overrightarrow{\\mathrm{AC}}|=\\mathrm{AC}=\\sqrt{129})%",
+        "question_type": "essay"
+    }
+]

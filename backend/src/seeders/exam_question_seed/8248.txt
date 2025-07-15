@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Rút gọn biểu thức %(A=\\frac{x+\\sqrt{x^{2}-2 x}}{x-\\sqrt{x^{2}-2 x}}-\\frac{x-\\sqrt{x^{2}-2 x}}{x+\\sqrt{x^{2}-2 x}})% với %(x \\geq 2)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=\\frac{\\left(x+\\sqrt{x^{2}-2 x}\\right)^{2}-\\left(x-\\sqrt{x^{2}-2 x}\\right)^{2}}{\\left(x+\\sqrt{x^{2}-2 x}\\right)\\left(x-\\sqrt{x^{2}-2 x}\\right)} \\\\ A=\\frac{\\left(x+\\sqrt{x^{2}-2 x}\\right)^{2}-\\left(x-\\sqrt{x^{2}-2 x}\\right)^{2}}{x^{2}-x^{2}+2 x} \\\\ A=\\frac{\\left(x^{2}+2 x \\sqrt{x^{2}-2 x}+x^{2}-2 x\\right)-\\left(x^{2}-2 x \\sqrt{x^{2}-2 x}+x^{2}-2 x\\right)}{2 x} \\\\ A=\\frac{\\left(2 x^{2}-2 x+2 x \\sqrt{x^{2}-2 x}\\right)-\\left(2 x^{2}-2 x-2 x \\sqrt{x^{2}-2 x}\\right)}{2 x}\\end{array})%<br>%(\\begin{array}{l}A=\\frac{4 x \\sqrt{x^{2}-2 x}}{2 x} \\\\ A=2 \\sqrt{x^{2}-2 x}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Giải phương trình: %(4 x^{2}+3 x+3=4 x \\sqrt{x+3}+2 \\sqrt{2 x-1})%",
+        "question_images": [],
+        "solution": "Điều kiện: %(\\left\\{\\begin{array}{l}x+3 \\geq 0 \\\\ 2 x-1 \\geq 0\\end{array}\\left(^{*}\\right)\\right.)%<br>\\[\\Leftrightarrow x \\geq \\frac{1}{2}\\]<br>Với điều kiện %(\\left({ }^{*}\\right))% phương trình đã cho tương đương với:<br>\\[\\begin{array}{l}\\left(4 x^{2}-4 x \\sqrt{x+3}+x+3\\right)+(2 x-1-2 \\sqrt{2 x-1}+1)=0 \\\\Leftrightarrow(2 x-\\sqrt{x+3})^{2}+(\\sqrt{2 x-1}-1)^{2}=0 \\\\Leftrightarrow\\left\\{\\begin{array}{l}2 x-\\sqrt{x+3}=0 \\\\sqrt{2 x-1}-1=0\\end{array}\\right.\\end{array}\\]<br>%(\\Leftrightarrow\\left\\{\\begin{array}{l}\\sqrt{x+3}=2 x \\\\ 2 x-1=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}\\sqrt{x+3}=2 x \\\\ x=1\\end{array} \\Leftrightarrow x=1\\right.\\right.)% ( Thỏa mãn điều kiện %(\\left(^{*}\\right))% ).<br>Vậy phương trình đã cho có nghiệm %(x=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x^{3}-x=x^{2} y-y \\\\ \\sqrt{2\\left(x^{4}+1\\right)}-5 \\sqrt{x}+\\sqrt{y}+2=0\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Điều kiện: %(\\left\\{\\begin{array}{l}x \\geq 0 \\\\ y \\geq 0\\end{array}\\left({ }^{*}\\right)\\right.)%<br>Xét phương trình: %(x^{3}-x=x^{2} y-y \\Leftrightarrow(x-y)\\left(x^{2}-1\\right)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=y \\\\ x= \\pm 1\\end{array}\\right.)%<br>Với %(x=-1)% không thỏa mãn điều kiện %((*))%<br>Với %(x=1)% thay vào phương trình còn lại có: %(\\sqrt{y}-1=0 \\Leftrightarrow y=1)% thỏa mãn điều kiện %(\\left({ }^{*}\\right))%.<br>Với %(x=y \\geq 0)% khi đó ta có phương trình: %(\\sqrt{2\\left(x^{4}+1\\right)}-4 \\sqrt{x}+2=0(* *))%<br>Nhận xét: Với mọi %(x \\geq 0)% ta có: %(\\left(x^{2}-1\\right)^{2} \\geq 0 \\Leftrightarrow x^{4}+1 \\geq 2 x^{2})% và %(\\sqrt{x^{2}}=x)%<br>Do đó: %(\\sqrt{2\\left(x^{4}+1\\right)}-4 \\sqrt{x}+2 \\geq \\sqrt{4 x^{2}}-4 \\sqrt{x}+2=2 x-4 \\sqrt{x}+2=2(\\sqrt{x}-1)^{2} \\geq 0)%<br>Do đó: %(\\left({ }^{* *}\\right) \\Leftrightarrow\\left\\{\\begin{array}{l}x^{2}-1=0 \\\\ \\sqrt{x}-1=0\\end{array} \\Leftrightarrow x=1 \\Rightarrow y=1\\right.)% thỏa mãn điều kiện (*)<br>Vậy hệ đã cho có nghiệm %(\\left\\{\\begin{array}{l}x=1 \\\\ y=1\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho phương trình: %(x^{2}+\\left(m^{2}+1\\right) x+m=2)% ( %(\\mathrm{m})% là tham số, %(\\mathrm{x})% là ần).",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh với mọi giá trị của %(\\mathrm{m})% phương trình luôn có hai nghiệm phân biệt %(x_{1} ; x_{2})%.",
+        "question_images": [],
+        "solution": "Biến đổi phương trình đã cho về dạng: %(\\mathrm{x}^{2}+\\left(\\mathrm{m}^{2}+1\\right) \\mathrm{x}+\\mathrm{m}-2=0)%<br>Ta có: %(\\Delta=\\left(m^{2}+1\\right)^{2}-4(m-2))%<br>\\[\\begin{array}{l}\\Leftrightarrow \\Delta=m^{4}+2 m^{2}+1-4 m+8 \\\\Leftrightarrow \\Delta=m^{4}+2 m^{2}-4 m+9 \\\\Leftrightarrow \\Delta=m^{4}+2\\left(m^{2}-2 m+1\\right)+7 \\\\Leftrightarrow \\Delta=m^{4}+2(m-1)^{2}+7\\end{array}\\]<br><br>Ta có: %(\\left\\{\\begin{array}{l}m^{4} \\geq 0 \\\\ (m-1)^{2} \\geq 0\\end{array}\\right.)% với %(\\forall m \\in R)%.<br>Nên có %(\\Delta\\gt 0)% với %(\\forall m \\in R)%.<br>Vậy với mọi giá trị của %(\\mathrm{m})% phương trình đã cho luôn có hai nghiệm phân biệt %(x_{1} ; x_{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 3.0,
+        "content": "b) Tìm tất cả các giá trị của tham số %(\\mathrm{m})% sao cho: %(\\frac{2 x_{1}-1}{x_{2}}+\\frac{2 x_{2}-1}{x_{1}}=x_{1} x_{2}+\\frac{55}{x_{1} x_{2}})%",
+        "question_images": [],
+        "solution": "Để thỏa mãn yêu cầu bài toán phương trình đã cần có hai nghiệm %(\\left\\{\\begin{array}{l}x_{1} \\neq 0 \\\\ x_{2} \\neq 0\\end{array}\\right.)%.<br>Do đó có: %(m \\neq 2)%<br>Từ giả thiết ta có: %(x_{1}\\left(2 x_{1}-1\\right)+x_{2}\\left(2 x_{2}-1\\right)=x_{1}^{2} x_{2}^{2}+55)%<br>\\[\\left.\\Leftrightarrow 2\\left[\\left(x_{1}+x_{2}\\right)^{2}-2 x_{1} x_{2}\\right]-\\left(x_{1}+x_{2}\\right)-x_{1}^{2} x_{2}^{2}-55=0 \\text { (}^{*}\\right)\\]<br>Theo định lý %(\\mathrm{Vi})% - ét ta có: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=-m^{2}-1 \\\\ x_{1} x_{2}=m-2\\end{array}\\right.)%<br>Thay vào %(\\left({ }^{*}\\right))% có: %(2\\left[\\left(\\mathrm{~m}^{2}+1\\right)^{2}-2(m-2)\\right]+\\left(\\mathrm{m}^{2}+1\\right)-(m-2)^{2}-55=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow 2\\left(\\mathrm{~m}^{4}+2 \\mathrm{~m}^{2}-2 \\mathrm{~m}+5\\right)+\\left(\\mathrm{m}^{2}+1\\right)-\\left(m^{2}-4 m+4\\right)-55=0 \\\\Leftrightarrow 2 m^{4}+4 m^{2}-48=0 \\\\Leftrightarrow\\left(m^{2}-4\\right)\\left(m^{2}+6\\right)=0\\end{array}\\]<br>\\[\\Leftrightarrow\\left[\\begin{array}{l}m^{2}-4=0 \\m^{2}+6=0\\end{array} \\Leftrightarrow m= \\pm 2\\right.\\]<br>%(m=-2)% ( Loại giá trị %(m=2)% )",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Cho các số thực không âm %(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})% đôi một khác nhau đồng thời thoả mãn %((z+x)(z+y)=1)%. Chứng minh rằng: %(\\frac{1}{(x-y)^{2}}+\\frac{1}{(z+x)^{2}}+\\frac{1}{(z+y)^{2}} \\geq 4)%",
+        "question_images": [],
+        "solution": "+ Đặt %(\\left\\{\\begin{array}{l}a=x+z \\\\ b=y+z\\end{array}\\right.)% ta có %(\\left\\{\\begin{array}{l}a ; b\\gt 0 ; a \\neq b \\\\ a b=1\\end{array}\\right.)%<br>Khi đó có bất đẳng thức: %(\\frac{1}{(a-b)^{2}}+\\frac{1}{a^{2}}+\\frac{1}{b^{2}} \\geq 4)%<br>Thay %(a b=1)% vào ta có: %(\\frac{1}{\\left(a-\\frac{1}{a}\\right)^{2}}+\\frac{1}{a^{2}}+a^{2} \\geq 4)%<br>Xét biểu thức: %(F=\\frac{1}{\\left(a-\\frac{1}{a}\\right)^{2}}+\\frac{1}{a^{2}}+a^{2}=\\frac{a^{2}}{\\left(a^{2}-1\\right)^{2}}+\\frac{\\left(a^{2}-1\\right)^{2}}{a^{2}}+2)%<br>Viết %(F=\\left(\\frac{a}{a^{2}-1}-\\frac{a^{2}-1}{a}\\right)^{2}+4)%.<br>Do đó có %(F \\geq 4)%<br>Dấu đẳng thức xảy ra khi:<br>\\[\\frac{a}{a^{2}-1}=\\frac{a^{2}-1}{a} \\Leftrightarrow\\left(a^{2}-1\\right)^{2}=a^{2} \\Leftrightarrow a^{4}-3 a^{2}+1=0 \\Leftrightarrow\\left[\\begin{array}{l}a=\\frac{\\sqrt{5}+1}{2} \\Rightarrow b=\\frac{\\sqrt{5}-1}{2} \\a=\\frac{\\sqrt{5}-1}{2} \\Rightarrow b=\\frac{\\sqrt{5}+1}{2}\\end{array}\\right.\\]<br>Vậy với các số thực không âm %(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})% đôi một khác nhau đồng thời thoả mãn %(\\left\\{\\begin{array}{l}x+z=\\frac{\\sqrt{5}+1}{2} \\\\ y+z=\\frac{\\sqrt{5}-1}{2}\\end{array}\\right.)%<br>hoặc %(\\left\\{\\begin{array}{l}x+z=\\frac{\\sqrt{5}-1}{2} \\\\ y+z=\\frac{\\sqrt{5}+1}{2}\\end{array}\\right.)% thì bất đẳng thức được chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Từ điểm %(M)% nằm ngoài đường tròn %((O))% vẽ các tiếp tuyến %(M A, M B)% và cát tuyến %(M N P)% với đường tròn %((A, B)% là các tiếp điểm, %(N)% nằm giữa %(M)% và %(P)% ). Gọi %(H)% là giao điểm của %(A B)% và %(M O)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.5,
+        "content": "a) Chứng minh: Tứ giác NHOP nội tiếp được đường tròn.",
+        "question_images": [],
+        "solution": "Chứng minh %(\\triangle \\mathrm{MNA} \\sim \\triangle \\mathrm{MAP})%<br>Suy ra %(M N . M P=M A^{2})%<br>Chứng minh %(\\mathrm{AB} \\perp \\mathrm{MO})% tại %(\\mathrm{H})%<br>Suy ra MH.MO %(=\\mathrm{MA}^{2})%<br>Vậy có: MN.MP = MH.MO<br>%(\\Rightarrow \\triangle \\mathrm{MNH} \\sim \\triangle \\mathrm{MOP} \\text { (c.g.c) })%<br>Suy ra %(\\widehat{M H N}=\\widehat{M P O})%<br>Vậy tứ giác NHOP nội tiếp.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/cf96b6cbdeb2da5b6bbca7321dd98f4e.png\" srcset=\"https://docdn.giainhanh.io/media/test/5bd89aeceee909c395d0dbfbc5930eec.png 245w, https://docdn.giainhanh.io/media/test/d87f62e7f8b976d14e1589a738b14385.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.5,
+        "content": "b) Kẻ dây cung %(\\mathrm{PQ})% vuông góc với đường thẳng %(\\mathrm{MO})%. Chứng minh ba điểm %(\\mathrm{N}, \\mathrm{H}, \\mathrm{Q})% thẳng hàng.",
+        "question_images": [],
+        "solution": "%(P Q \\perp M O)% nên %(\\mathrm{P})% và %(\\mathrm{Q})% đối xứng qua %(\\mathrm{MO})%<br>Vậy: %(\\widehat{Q H O}=\\widehat{P H O})%<br>%(\\widehat{P H O}=\\widehat{O N P})% ( Hai góc nội tiếp cùng chắn cung %(\\mathrm{OP})% )<br>%(\\widehat{O N P}=\\widehat{O P N})%<br>%(\\widehat{O P N}=\\widehat{M H N})% ( Theo chứng minh câu 1).<br>%(\\Rightarrow \\widehat{Q H O}=\\widehat{M H N})%<br>Mà %(\\widehat{\\mathrm{QHO}} ; \\widehat{\\mathrm{MHN}})% nằm ở các vị trí đối đỉnh nên 3 điểm %(\\mathrm{N}, \\mathrm{H}, \\mathrm{Q})% thẳng hàng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Gọi %(\\mathrm{E})% là giao điểm của %(\\mathrm{MO})% và cung nhỏ %(\\mathrm{AB})% của đường tròn %((\\mathrm{O}))%. Chứng minh: NE là tia phân giác của %(\\widehat{\\mathrm{MNH}})%.",
+        "question_images": [],
+        "solution": "+ Tứ giác NHOP nội tiếp nên %(\\widehat{H N M}=\\widehat{H O P})% (1)<br>%(+\\mathrm{ME})% cắt đường tròn %((\\mathrm{O}))% tại %(\\mathrm{F})%.<br>Chứng minh: %(\\widehat{H O P}=2 \\widehat{E F P}(2))%<br>+ Tứ giác NEFP nội tiếp nên %(\\widehat{E N M}=\\widehat{\\mathrm{EFP}})% (3)<br>Từ (1), (2), (3) suy ra %(\\widehat{H N M}=2 \\widehat{E N M})%.<br>Vậy NE là phân giác của %(\\widehat{H N M})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các số nguyên dương %(\\mathrm{x}, \\mathrm{y})% thỏa mãn: %(\\left\\{\\begin{array}{l}x^{2}-2 y^{2}=9 \\\\ 50\\lt x\\lt 100\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "+ Ta có: %(x^{2}-9=2 y^{2})% nên %(x^{2})% là số lẻ suy ra %(x)% là số lẻ.<br>và %(x^{2}-9=(x-3)(x+3)=2 y^{2})% nên %(x+3=2 k(k \\in N))%.<br>+ Xét %(\\mathrm{p})% là một số nguyên tố lớn hơn 3.<br>Mặt khác luôn có %(x+3\\gt x-3)%<br>Dễ dàng chứng minh được nếu %(p)% là ước số của %((x+3))% thì %((x-3 ; p)=1)%<br>Mặt khác từ giả thiết %((x-3)(x+3)=2 y^{2})% nên ta có nhận xét nếu %(x+3: p \\Rightarrow x+3)% : %(p^{2})%<br>Lại do %(50\\lt x\\lt 100)% nên có %(p \\in\\{5 ; 7\\})%<br>+ Xét với %(p=5 \\Rightarrow\\left[\\begin{array}{l}x+3=75 \\\\ x+3=100\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=72 \\\\ x=97\\end{array}\\right.\\right.)% không thỏa mãn yêu cầu.<br>+ Xét với %(p=7 \\Rightarrow x+3=98 \\Leftrightarrow x=95)% không thỏa mãn yêu cầu đề bài.<br>Vậy %(x+3)% có ước số nguyên tố là 2 và 3 .<br>+ Do đó %(\\mathrm{x}+3=6 \\mathrm{t} \\Rightarrow \\mathrm{x}-3=6(\\mathrm{t}-1))% nên từ giả thiết ta có %(\\mathrm{t}-1 ; \\mathrm{t})% là hai số tự nhiên liên tiếp có tính chất biểu diễn được dưới dạng lũy thừa của hai số 2 và 3 .<br>Từ giả thiết ta có %(9 \\leq t \\leq 17)% nên có %(t=9)%<br>Vậy có %(x+3=54 \\Rightarrow x=51)%.<br><br>Khi đó có %(y=36)%Vậy %((x=51 ; y=36))%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "title": "1 ",
+        "point": 3.0,
+        "content": "Xác định phần thực, phần ảo, môđun và số phức liên hợp của số phức Z biết :<br>\\[Z=(3-2 i)(i-2)^{2}+2 i+5\\]",
+        "question_images": [],
+        "solution": "\\[\\begin{aligned}Z & =(3-2 i)(i-2)^{2}+2 i+5 \\\\& =(3-2 i)(3-4 i)+2 i+5 \\\\& =1-18 i+2 i+5 \\\\& =6-16 i\\end{aligned}\\]<br>* Phần thực : 6<br>* Phần áo : -16<br>* Môđun : %(|Z|=\\sqrt{6^{2}+(-16)^{2}}=2 \\sqrt{73})%<br>* Liên hợp : %(\\bar{Z}=6+16 i)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Xác định số phức %(Z)% thỏa mãn : %(Z(2-2 i)+3 i=(\\bar{Z}+1)(1-3 i))%",
+        "question_images": [],
+        "solution": "Goi %(Z=x+y i,(x, y \\in R) \\Rightarrow \\bar{Z}=x-y i)%<br>Ta có:<br>\\[\\begin{array}{l}Z(2-2 i)+3 i=(\\bar{Z}+1)(1-3 i) \\\\Leftrightarrow(x+y i)(2-2 i)=(x-y i+1)(1-3 i) \\\\Leftrightarrow 2 x-2 x i+2 y i+2 y=x-3 x i-y i-3 y+1-3 i \\\\Leftrightarrow\\left\\{\\begin{array}{l}2 x+2 y=x-3 y+1 \\\\-2 x+2 y=-3 x-y-3\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}x+5 y=1 \\x+3 y=-3\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}x=-9 \\y=2\\end{array}\\right. \\\\end{array}\\]<br>Vậy: %(Z=-9+2 i)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Trên mặt phẳng phức tìm tập hợp điểm biểu diễn của số phức %(Z)% thỏa :<br>\\[|Z-3 i+1|=|2 Z+2-i|\\]",
+        "question_images": [],
+        "solution": "Gọi %(Z=x+y i,(x, y \\in R))% có điểm biểu diễn trên mặt phẳng phức là %(M(x ; y))%.<br>Ta có : %(\\quad|Z-3 i+1|=|2 Z+2-i|)%<br>\\[\\begin{array}{l}\\Leftrightarrow|x+1+(y-3) i|=|2 x+2+(2 y-1) i| \\\\Leftrightarrow \\sqrt{(x+1)^{2}+(y-3)^{2}}=\\sqrt{(2 x+2)^{2}+(2 y-1)^{2}} \\\\Leftrightarrow x^{2}+2 x+1+y^{2}-6 y+9=4 x^{2}+8 x+4+4 y^{2}-4 y+1 \\\\Leftrightarrow-3 x^{2}-3 y^{2}-6 x-2 y+5=0\\end{array}\\]<br>\\[\\Leftrightarrow x^{2}+y^{2}+2 x+\\frac{2}{3} y-\\frac{5}{3}=0\\]<br>Vậy tập hợp điểm biểu diễn của Z là đường tròn tâm %(I\\left(-1 ;-\\frac{1}{3}\\right))%,bán kính %(: R=\\sqrt{(-1)^{2}+\\left(-\\frac{1}{3}\\right)^{2}+\\frac{5}{3}}=\\frac{5}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Giải các phương trình sau trên tập số phức :",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a)%((3 i-2) Z+i+3=5 i-3)%",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} & (3 i-2) Z+i+3=5 i-3 \\\\ \\Leftrightarrow & (3 i-2) Z=-6+4 i \\\\ \\Leftrightarrow & Z=\\frac{-6+4 i}{3 i-2} \\\\ \\Leftrightarrow & Z=\\frac{(-6+4 i)(-3 i-2)}{13} \\\\ \\Leftrightarrow & Z=\\frac{24}{13}+\\frac{10}{13} i\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(2 Z^{2}+4 Z+3=0)%",
+        "question_images": [],
+        "solution": "%(2 Z^{2}+4 Z+3=0)% %(\\Delta^{\\prime}=4-2 \\cdot 3=-2\\lt 0 \\Rightarrow \\Delta^{\\prime})% có hai căn bậc hai là : %(-i \\sqrt{2})% và %(i \\sqrt{2})%<br>Vậy phương trình có hai nghiệm phức ;<br>\\[\\begin{array}{l}Z_{1}=-1+\\frac{\\sqrt{2}}{2} i \\Z_{2}=-1-\\frac{\\sqrt{2}}{2} i\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) %(Z^{4}+4 Z^{2}+3=0)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{c}Z^{4}+4 Z^{2}+3=0 \\\\Leftrightarrow\\left[\\begin{array}{l}Z^{2}=-1=i^{2} \\Z^{2}=-3=(i \\sqrt{3})^{2}\\end{array}\\right. \\\\Leftrightarrow\\left[\\begin{array}{l}Z= \\pm i \\Z= \\pm i \\sqrt{3}\\end{array}\\right.\\end{array}\\]<br>Vây tập nghiệm phương trình là %(: S=\\{-i ;-\\mathrm{i} \\sqrt{3} ; i ; i \\sqrt{3}\\})%",
+        "question_type": "essay"
+    }
+]

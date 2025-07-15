@@ -1,0 +1,97 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Rút gọn biểu thức %(P=\\frac{x \\sqrt{x}-1}{1+x+\\sqrt{x}} \\cdot\\left(\\frac{\\sqrt{x}+1}{x-1}-\\frac{\\sqrt{x}-2}{x-\\sqrt{x}-2}\\right))% với %(x \\geq 0, x \\neq 1, x \\neq 4)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}P=\\frac{(\\sqrt{x})^{3}-1}{1+\\sqrt{x}+x} \\cdot\\left[\\frac{\\sqrt{x}+1}{(\\sqrt{x}+1)(\\sqrt{x}-1)}-\\frac{\\sqrt{x}-2}{(\\sqrt{x}+1)(\\sqrt{x}-2)}\\right] \\\\ =(\\sqrt{x}-1)\\left(\\frac{1}{\\sqrt{x}-1}-\\frac{1}{\\sqrt{x}+1}\\right) \\\\ =(\\sqrt{x}-1) \\frac{2}{(\\sqrt{x}-1)(\\sqrt{x}+1)} \\\\ =\\frac{2}{\\sqrt{x}+1}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Giải phương trình %(5 x-(x+4) \\sqrt{2 x+1}+4=0)%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq-\\frac{1}{2})%.<br>Đặt %(t=\\sqrt{2 x+1}(t \\geq 0))%.<br>Ta có phương trình %(-t^{3}+5 t^{2}-7 t+3=0)%%(\\Leftrightarrow(t-1)\\left(-t^{2}+4 t-3\\right)=0 \\Leftrightarrow\\left[\\begin{array}{l}t=1 \\\\ t=3\\end{array}\\right.)% (nhận).<br>* Với %(t=1 \\Rightarrow \\sqrt{2 x+1}=1 \\Leftrightarrow x=0)% (thỏa).<br>* Với %(t=3 \\Rightarrow \\sqrt{2 x+1}=3 \\Leftrightarrow x=4)% (thỏa).",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trinh %(\\left\\{\\begin{array}{l}2 x^{2}+y^{2}+3 x y+4 x+3 y+2=0 \\\\ \\sqrt{x^{2}-y+3}+\\sqrt{x+y+1}=2\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\left\\{2 x^{2}+y^{2}+3 x y+4 x+3 y+2=0\\right. (1)\\\\left\\{\\sqrt{x^{2}-y+3}+\\sqrt{x+y+1}=2\\right.(2)\\end{array})%<br>Điều kiện: %(\\left\\{\\begin{array}{l}x^{2}-y+3 \\geq 0 \\\\ x+y+1 \\geq 0\\end{array}\\right.)%<br>(1): %(y^{2}+(3 x+3) y+2 x^{2}+4 x+2=0)%<br>%(\\Delta_{y}=(x+1)^{2})% nên %((1) \\Leftrightarrow\\left[\\begin{array}{l}y=-2 x \\\\ y=-x\\end{array}\\right.)%<br>* TH1: %(y=-x-1)% thay vào (2) ta có phương trình<br>%(\\sqrt{x^{2}+x+4}=2 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\Rightarrow y=-1 \\\\ x=-1 \\Rightarrow y=0\\end{array}\\right.)% (nhận)<br>* TH2: %(y=-2 x-2)% thay vào (2) ta có phương trình<br>\\[\\sqrt{x^{2}+2 x+5}+\\sqrt{-x-1}=2 \\Leftrightarrow \\sqrt{(x+1)^{2}+4}+\\sqrt{-(x+1)}=2\\]<br>Ta có %(\\sqrt{(x+1)^{2}+4}+\\sqrt{-(x+1)} \\geq 2)%, với mọi giá trị của %(x \\leq-1)%<br>Dấu bằng xảy ra khi %(x=-1 \\Rightarrow y=0)% (nhận)<br>Vậy hệ phương trình có các nghiệm là %((0 ;-1),(-1 ; 0))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Cho hai da thức %(P(x)=x^{3}+a x^{2}+b x+c)% và %(Q(x)=3 x^{2}+2 a x+b(a, b, c \\in \\mathbb{R}))%. Biết rằng %(P(x))% có ba nghiệm phân biệt. Chưng minh %(Q(x))% có hai nghiềm phân biệt.",
+        "question_images": [],
+        "solution": "Gọi %(x_{1}, x_{2}, x_{3})% là ba nghiệm phân biệt của %(P(x))%, ta có %(P(x)=\\left(x-x_{1}\\right)\\left(x-x_{2}\\right)\\left(x-x_{3}\\right))%<br>\\[=x^{3}-\\left(x_{1}+x_{2}+x_{3}\\right) x^{2}+\\left(x_{1} x_{2}+x_{1} x_{3}+x_{2} x_{3}\\right) x-x_{1} x_{2} x_{3}\\]<br>Đồng nhất hệ số của %(P(x))% ta có:<br>\\[\\begin{array}{l}\\Delta_{Q}=a^{2}-3 b=\\left(x_{1}+x_{2}+x_{3}\\right)^{2}-3\\left(x_{1} x_{2}+x_{1} x_{3}+x_{2} x_{3}\\right) \\\\=\\frac{1}{2}\\left[\\left(x_{1}-x_{2}\\right)^{2}+\\left(x_{2}-x_{3}\\right)^{2}+\\left(x_{1}-x_{3}\\right)^{2}\\right]\\gt 0\\end{array}\\]<br>Vậy %(\\mathrm{Q}(\\mathrm{x})% có hai nghiệm phân biệt<br><strong>Lưu ý: </strong>hs sử dụng Viet vẫn cho điểm tối đa",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các cặp số nguyên %((x ; y))% thơa mần phương trình %((x y-1)^{2}=x^{2}+y^{2})%.",
+        "question_images": [],
+        "solution": "Ta có: %((\\mathrm{xy}-1)^{2}=\\mathrm{x}^{2}+\\mathrm{y}^{2} \\Leftrightarrow(x y)^{2}-2 x y+1=x^{2}+y^{2} \\Leftrightarrow(x+y)^{2}-(x y)^{2}=1)%<br>\\[\\Leftrightarrow(x+y-x y)(x+y+x y)=1 \\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}x+y-x y=1 \\x+y+x y=1\\end{array}\\right. \\\\left\\{\\begin{array}{l}x+y-x y=-1 \\x+y+x y=-1\\end{array}\\right.\\end{array}\\right.\\]<br>Giải hệ (1) ta được cặp nghiệm %((0 ; 1),(1 ; 0))%<br>Giải hệ (2) ta được cặp nghiệm %((0 ;-1),(-1 ; 0))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Xét các số thực %(a, b, c)% không âm, thòa măn %(a^{2}+b^{2}+c^{2}=1)%. Tìm giá trị lớn nhất và giá trị nhỏ nhất của biểu thức %(S=\\frac{a}{1+b c}+\\frac{b}{1+a c}+\\frac{c}{1+a b})%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}(1+b c)^{2}=1+2 b c+b^{2} c^{2}=a^{2}+b^{2}+c^{2}+2 b c+2 b^{2} c^{2} \\\\=a^{2}+(b+c)^{2}+b^{2} c^{2} \\geq a^{2}+(b+c)^{2} \\geq \\frac{1}{2}(a+b+c)^{2}\\end{array}\\]<br>Ta có %(: \\Rightarrow 1+b c \\geq \\frac{1}{\\sqrt{2}}(a+b+c) \\Rightarrow \\frac{a}{1+b c} \\leq \\sqrt{2} \\frac{c}{a+b+c})%...tương tự<br>\\[\\Rightarrow S \\leq \\sqrt{2}\\left(\\frac{a}{a+b+c}+\\frac{b}{a+b+c}+\\frac{c}{a+b+c}\\right)=\\sqrt{2}\\]<br>Khi %(\\mathrm{a}=\\mathrm{b}=\\frac{\\sqrt{2}}{2}, c=0)% thì %(\\mathrm{S}=\\sqrt{2})%.<br>Vậy giá trị lớn nhất của %(\\mathrm{S})% là %(\\sqrt{2})%.<br>Theo BĐT AM-GM:<br>\\[a(1+b c) \\leq \\frac{a^{2}+1}{2}\\left(1+\\frac{b^{2}+c^{2}}{2}\\right)=\\frac{\\left(a^{2}+1\\right)\\left(2+b^{2}+c^{2}\\right)}{4} \\leq \\frac{1}{4}\\left(\\frac{a^{2}+1+2+b^{2}+c^{2}}{2}\\right)^{2}\\]<br>Từ đó :%(\\frac{a}{1+b c} \\geq a^{2})%.<br>Tương tự %(\\frac{b}{1+a c} \\geq b^{2} ; \\frac{c}{1+a b} \\geq c^{2} \\Rightarrow S \\geq a^{2}+b^{2}+c^{2}=1)%<br>Khi %(a=1 ; b=c=0)% thì %(S=1)%.<br>Vậy giá trị nhỏ nhất của %(S)% là 1 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác %(A B C)% nhọn ( %(A B\\lt A C)% ). Một đường trơn đi qua %(B, C)% và khỏng đi qua %(A)% cat các cạnh %(A B, A C)% lần lượt tại %(E, F(E)% khác %(B ; F)% khác %(C) ; B F)% cảt %(C E)% tại %(D)%. Gọi %(P)% là trung điểm của %(B C)% và %(K)% là điềm đối xứng với %(D)% qua %(P)%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Chứng minh tam giác %(K B C)% đồng dạng với tam giác %(D F E)% và %(\\frac{A E}{A C}=\\frac{D E}{C K})%.",
+        "question_images": [],
+        "solution": "Tứ giác BCFE nội tiếp nên ta có: %(\\widehat{D E F}=\\widehat{D B C} ; \\widehat{D F E}=\\widehat{D C B})%<br>Mặt khác: BDCK là hình bình hành nên %(\\widehat{B C K}=\\widehat{D B C} ; \\widehat{C B K}=\\widehat{D C B})%<br>\\[\\widehat{D F E}=\\widehat{C B} K \\Rightarrow \\triangle K B C \\sim \\triangle D F E(g g)\\]<br>Do đó : %(\\widehat{D E F}=\\widehat{B C} K)%;<br>\\[\\triangle K B C \\sim \\triangle D F E \\Rightarrow \\frac{D E}{C K}=\\frac{E F}{B C}(1) ; \\triangle A E F \\sim \\triangle A C B \\Rightarrow \\frac{F E}{B C}=\\frac{A E}{A C}(2)\\]<br>Từ (1) và %((2) \\Rightarrow \\frac{A E}{A C}=\\frac{D E}{C K})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Gọi %(M, N)% lần lượt là hình chiếu vuông góc của %(D)% trên %(A B, A C)%. Chửng minh %(M N)% vuông góc với %(A K)% và %(M A^{2}+N K^{2}=N A^{2}+M K^{2})%.",
+        "question_images": [],
+        "solution": "Gọi %(Q)% là giao điểm của %(M N)% và %(A K)%.<br>Ta có: %(\\widehat{A E C}=\\widehat{A B K})% (đồng vi) và %(\\widehat{A B K}=\\widehat{A B D}+\\widehat{D B K}=\\widehat{A C E}+\\widehat{D C K}=\\widehat{A C K})%<br>(Do %(\\widehat{A B D}=\\widehat{A C E} ; \\widehat{D B K}=\\widehat{D C K})% )<br>Xét %(\\triangle A E D)% và %(\\triangle A C K)% có: %(\\widehat{A E D}=\\widehat{A C K}, \\frac{D E}{C K}=\\frac{A E}{A C} \\Rightarrow \\triangle A E D \\cup \\triangle A C K(c-g-c))%<br>%(\\Rightarrow \\widehat{K A C}=\\widehat{D A E})% hay %(\\widehat{Q A C}=\\widehat{D A M})%<br>Có %(\\widehat{A M D}+\\widehat{A N D}=180^{\\circ} \\Rightarrow A M D N)% nội tiếp %(\\Rightarrow \\widehat{D N M}=\\widehat{D A M}=\\widehat{Q A N})%.<br>Mà %(\\widehat{D N M}+\\widehat{M N A}=90^{\\circ} \\Rightarrow \\widehat{Q A N}+\\widehat{M N A}=90^{\\circ} \\Rightarrow \\widehat{A Q N}=90^{\\circ} \\Rightarrow A K \\perp M N)%<br>Do đó:<br>\\[\\begin{array}{l}M A^{2}+N K^{2}=Q M^{2}+Q A^{2}+Q N^{2}+Q K^{2} \\\\=Q N^{2}+Q A^{2}+Q M^{2}+Q K^{2}=N A^{2}+M K^{2}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 0.5,
+        "content": "c) Gọi %(I, J)% lần lượt là trung điềm %(A D)% và %(M N)%, Chứng minh ba điếm %(I, J, P)% thẳng hàng.",
+        "question_images": [],
+        "solution": "Ta có %(M I=\\frac{1}{2} A D=N I \\Rightarrow I)% thuộc đường trung trực của %(M N(3))%<br>Ta có %(I P)% là đường trung bình của tam giác %(A D K \\Rightarrow I P / / A K \\Rightarrow I P \\perp M N(4))%<br>Từ (3) và (4) suy ra %(I P)% là đường trung trực của %(M N \\Rightarrow I, J, P)% thẳng hàng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "d) ",
+        "point": 0.5,
+        "content": "d) Đường thẳng %(I J)% cát đường tròn ngoại tiếp tam giác %(I M N)% tại %(T(T)% khác %(l))%. Chứng minh %(A D)% là tiếp tuyến của đường tròn ngoại tiếp tam giác %(D T J)%",
+        "question_images": [],
+        "solution": "Từ (3) và Ta có %(\\triangle I M N)% cân tại %(I, I J \\perp M N)% nên %(I T)% là đường kính của đường tròn ngoại tiếp %(\\triangle I M N \\Rightarrow \\widehat{I N T}=90^{\\circ} \\Rightarrow I J . I T=I N^{2})%<br>Mà %(I N=I D \\Rightarrow I J . I T=I D^{2} \\Rightarrow \\triangle I D J \\cup \\triangle I T D(g-g) \\Rightarrow \\widehat{I D J}=\\widehat{I T D})%<br>%(\\Rightarrow I D)% là tiếp tuyến của đường tròn ngoại tiếp %(\\triangle D T J)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho tam giác %(\\mathrm{ABC})% và điểm %(\\mathrm{O})% thay đổi trong tam giác. Tia %(\\mathrm{Ox})% song song với %(\\mathrm{AB})% cắt %(B C)% tại %(D)%, tia %(O y)% song song vói %(B C)% cắt %(A C)% tai %(E)%, tia %(O z)% song song vói %(A C)% cắt %(A B)% tạ %(F)%. Tìm giá trị nhỏ nhất của biểu thức %(S=\\left(\\frac{A B}{O D}\\right)^{2}+\\left(\\frac{B C}{O E}\\right)^{2}+\\left(\\frac{A C}{O F}\\right)^{2})%",
+        "question_images": [],
+        "solution": "Kẻ %(D M / / O F(M \\in A B), E N / / O D(N \\in B C), F P / / O E(P \\in A C))%<br>Ta có: %(\\frac{O D}{A B}=\\frac{E N}{A B}=\\frac{N C}{B C}(1) ; \\frac{O E}{B C}=\\frac{D N}{B C}(2) ; \\frac{O F}{A C}=\\frac{M D}{A C}=\\frac{B D}{B C})% (3)<br>Từ (1), (2),(3) %(\\Rightarrow \\frac{O D}{A B}+\\frac{O E}{B C}+\\frac{O F}{A C}=\\frac{N C}{B C}+\\frac{D N}{B C}+\\frac{B D}{B C}=1)%<br>Theo bất đẳng thức %(\\mathrm{AM}-\\mathrm{GM})% :<br>\\[\\begin{array}{l}1=\\frac{O D}{A B}+\\frac{O E}{B C}+\\frac{O F}{A C} \\geq 3 \\sqrt[3]{\\frac{O D}{A B} \\cdot \\frac{O E}{B C} \\cdot \\frac{O F}{A C}} \\Leftrightarrow \\frac{A B}{O D} \\cdot \\frac{B C}{O E} \\cdot \\frac{A C}{O F} \\geq 27 \\\\Rightarrow S=\\left(\\frac{A B}{O D}\\right)^{2}+\\left(\\frac{B C}{O E}\\right)^{2}+\\left(\\frac{A C}{O F}\\right)^{2} \\geq 3 \\sqrt[3]{\\left(\\frac{A B}{O D} \\cdot \\frac{B C}{O E} \\cdot \\frac{A C}{O F}\\right)^{2}}=27\\end{array}\\]<br>Đẳng thức xảy ra khi %(O)% là trọng tâm %(\\triangle A B C)%.<br>Vậy giá trị nhỏ nhất của %(S)% là 27",
+        "question_type": "essay"
+    }
+]

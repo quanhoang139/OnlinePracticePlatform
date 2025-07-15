@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1.1 ",
+        "point": 2.5,
+        "content": "Cho %(a, b, c)% là ba số thực dương, thỏa mãn điều kiện:<br>\\[\\frac{a+b-c}{c}=\\frac{b+c-a}{a}=\\frac{c+a-b}{b} \\text {. }\\]<br>Hãy tính giá trị biểu thức %(B=\\left(1+\\frac{b}{a}\\right)\\left(1+\\frac{a}{c}\\right)\\left(1+\\frac{c}{b}\\right))%.",
+        "question_images": [],
+        "solution": "Nếu %(a+b+c=0 \\Rightarrow a+b=-c ; b+c=-a ; c+a=-b)%<br>Khi đó %(B=\\left(\\frac{a+b}{a}\\right)\\left(\\frac{c+a}{c}\\right)\\left(\\frac{b+c}{b}\\right)=\\frac{-c}{a} \\cdot \\frac{-b}{c} \\cdot \\frac{-a}{b}=-1)% (Vi %(a, b, c)% dương)<br>Nếu %(a+b+c \\neq 0)%.<br>Từ %(\\frac{a+b-c}{c}=\\frac{b+c-a}{a}=\\frac{c+a-b}{b})%%(\\Rightarrow \\frac{a+b-c}{c}+1=\\frac{b+c-a}{a}+1=\\frac{c+a-b}{b}+1)%%(\\Rightarrow \\frac{a+b}{c}=\\frac{b+c}{a}=\\frac{c+a}{b}=\\frac{2(a+b+c)}{a+b+c}=2)% (Tính chất dãy tỉ số bằng nhau)<br>Suy rа: %(a+b=2 c ; b+c=2 a ; c+a=2 b)%<br>Khi đó %(B=\\frac{2 c}{a} \\cdot \\frac{2 b}{c} \\cdot \\frac{2 a}{b}=8)% (Vì %(a, b, c)% dương)",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.2 ",
+        "point": 2.5,
+        "content": "b) Cho tỉ lệ thức %(\\frac{a}{b}=\\frac{c}{d})% với %(a \\neq 0, b \\neq 0, c \\neq 0, d \\neq 0, a \\neq \\pm b, c \\neq \\pm d)%. Chứng minh %(\\left(\\frac{a-b}{c-d}\\right)^{2013}=\\frac{a^{2013}+b^{2013}}{c^{2013}+d^{2013}})%",
+        "question_images": [],
+        "solution": "Với %(a \\neq 0, b \\neq 0, c \\neq 0, d \\neq 0, a \\neq \\pm b, c \\neq \\pm d)%, ta có%(\\frac{a}{b}=\\frac{c}{d} \\Rightarrow \\frac{a}{c}=\\frac{b}{b}=\\frac{a-b}{c-d} \\Rightarrow\\left(\\frac{a-b}{c-d}\\right)^{2013}=\\left(\\frac{a}{c}\\right)^{2013}=\\left(\\frac{b}{b}\\right)^{2013}=\\frac{a^{2013}+b^{2013}}{c^{2013}+d^{2013}})% (Tính chất dãy tì số bằng nhau)<br>Vậy %(\\left(\\frac{a-b}{c-d}\\right)^{2013}=\\frac{a^{2013}+b^{2013}}{c^{2013}+d^{2013}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.1 ",
+        "point": 2.0,
+        "content": "Cho %(\\frac{x}{y+z+t}=\\frac{y}{z+t+x}=\\frac{z}{t+x+y}=\\frac{t}{x+y+z})%<br>Chứng minh rằng biểu thức sau có giá trị nguyên<br>\\[A=\\frac{x+y}{z+t}+\\frac{y+z}{t+x}+\\frac{z+t}{x+y}+\\frac{t+x}{y+z}\\]",
+        "question_images": [],
+        "solution": "a) Nếu %(x+y+z+t=0 \\Rightarrow x+y=-(z+t) ; y+z=-(t+x) ; z+t=-(x+y) ; t+x=-(y+z))%<br>Khi đó %(A=\\frac{x+y}{z+t}+\\frac{y+z}{t+x}+\\frac{z+t}{x+y}+\\frac{t+x}{y+z}=(-1)+(-1)+(-1)+.(-1)=-4)%<br>Nếu %(x+y+z+t \\neq 0)%, ta có<br>\\[\\begin{array}{l}\\Rightarrow \\frac{x}{y+z+t}+1=\\frac{y}{z+t+x}+1=\\frac{z}{t+x+y}+1=\\frac{t}{x+y+z}+1 \\\\Rightarrow \\frac{x+y+z+t}{y+z+t}=\\frac{x+y+z+t}{z+t+x}=\\frac{x+y+z+t}{t+x+y}=\\frac{x+y+z+t}{x+y+z} \\\\Rightarrow \\frac{1}{y+z+t}=\\frac{1}{z+t+x}=\\frac{1}{t+x+y}=\\frac{1}{x+y+z} \\\\Rightarrow x=y=z=t\\end{array}\\]<br>Khi đó %(A=\\frac{x+y}{z+t}+\\frac{y+z}{t+x}+\\frac{z+t}{x+y}+\\frac{t+x}{y+z}=1+1+1+1=4)%<br>Vậy %(A)% luôn có giá trị nguyên",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.2 ",
+        "point": 2.0,
+        "content": "Tìm x biết %(x^{2}-5 x+6=0)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}x^{2}-5 x+6=0 \\Leftrightarrow\\left(x^{2}-2 x\\right)-(3 x-6)=0 \\\\Leftrightarrow x(x-2)-3(x-2)=0 \\\\Leftrightarrow(x-2)(x-3)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x=2 \\x=3\\end{array}\\right.\\end{array}\\]<br>Vậy %(x \\in\\{2 ; 3\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.3 ",
+        "point": 2.0,
+        "content": "Số %(A)% được chía thành 3 số tỉ lệ theo %(\\frac{2}{5}: \\frac{3}{4}: \\frac{1}{6})%. Biết rằng tổng các bình phương của 3 số đó bằng 24309 . Tính số %(A)%.",
+        "question_images": [],
+        "solution": "Gọi ba số cần tìm tỉ lệ với %(\\frac{2}{5}: \\frac{3}{4}: \\frac{1}{6})% lần lượt là %(x, y, z)%<br>Ta có %(x^{2}+y^{2}+z^{2}=24309)% và %(\\frac{x}{\\frac{2}{5}}=\\frac{y}{\\frac{3}{4}}=\\frac{z}{\\frac{1}{6}} \\Rightarrow \\frac{x}{24}=\\frac{y}{45}=\\frac{z}{10})%<br>Áp dụng tính chất dãy tỉ số bằng nhau ta có<br>\\[\\frac{x}{24}=\\frac{y}{45}=\\frac{z}{10} \\Rightarrow \\frac{x^{2}}{24^{2}}=\\frac{y^{2}}{45^{2}}=\\frac{z^{2}}{10^{2}}=\\frac{x^{2}+y^{2}+z^{2}}{24^{2}+45^{2}+10^{2}}=3^{2}\\]<br>Từ %(\\frac{x}{24}=\\frac{y}{45}=\\frac{z}{10})% ruy ra %(x, y, z)% cùng dấu, do vậy<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0c1418dac4c79ab578b271bd2a95c3a5.png\" srcset=\"https://docdn.giainhanh.io/media/test/5cc4ed543d668b1a1c958e08ef68911c.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Tìm giá trị nhỏ nhất của biểu thức %(A=|x-2013|+|x-2014|+|x-2015|)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=(|x-2013|+|2015-x|)+|x-2014| \\\\ A \\geq(|x-2013+2015-x|)+0 \\\\ A \\geq 2\\end{array})%<br>Vậy MinA %(=2 \\Leftrightarrow x=2014)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Tìm hai số dương biết tổng, hiệu, tích của chúng tỉ lệ nghich với ba số %(30 ; 120 ; 160)%",
+        "question_images": [],
+        "solution": "Gọi hai số cần tìm là %(a, b,(a \\geq b\\gt 0))%<br>Vì tổng, hiệu, tích của chúng tỉ lệ nghịch với ba số %(30 ; 120 ; 160)% nên ta có %(30(a+b)=120(a-b)=16 a b(1))%<br>(1) %(\\Rightarrow \\frac{a+b}{4}=\\frac{a-b}{1}=\\frac{2 a}{5}=\\frac{2 b}{3} \\Rightarrow \\frac{a}{5}=\\frac{b}{3})%, đặt %(\\frac{a}{5}=\\frac{b}{3}=k>0 \\Rightarrow a=5 k, b=3 k)%<br>(1) %(\\Rightarrow 30(a-b)=4 a b \\Rightarrow 60 k=60 k^{2} \\Rightarrow k=1)% (vì %(k>0)% )%(k=1 \\Rightarrow a=5, b=3)% (thảo mãn)",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho tam giác %(A B C)% vuông ở %(A)%, có %(\\widehat{C}=30^{\\circ})%, đường cao %(A H)%, trên đoạn %(H C)% lấy điểm D sao cho %(H D=H B)%. Từ %(C)% kẻ %(C E)% vuông góc với %(A D)%. Chứng minh",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Tam giác %(A B D)% là tam giác đều.",
+        "question_images": [],
+        "solution": "a) %(\\triangle A B C)% vuông tại %(A)% nên %(\\hat{B}+\\hat{C}=90^{\\circ} \\Rightarrow \\hat{B}=60^{\\circ})%%(A H \\perp B D ; H B=H D \\Rightarrow A B=A D)% (quan hệ đường xiên - hình chiếu)<br>%(\\left.\\begin{array}{l}\\hat{B}=60^{\\circ} \\\\ A D=A B \\Rightarrow \\triangle A B D \\text { cân}\\end{array}\\right\\} \\Rightarrow \\triangle A B D)% đều  %(\\Rightarrow \\widehat{C A E}=30^{\\circ})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/15d6704d1a08bd8c7afcb0b48cda89ae.png\" srcset=\"https://docdn.giainhanh.io/media/test/bc5f9ba198e86c4d4eaa4034a856b42c.png 241w\" width=\"241\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) %(A H=C E)%",
+        "question_images": [],
+        "solution": "%(\\triangle \\mathrm{AHC})% và %(\\triangle \\mathrm{EFA})% có<br>\\[\\left.\\begin{array}{l}\\widehat{A C H}=\\widehat{C A E}\\left(=30^{\\circ}\\right) \\\\widehat{A H C}=\\widehat{C E A}=90^{\\circ} \\A C \\text { chung }\\end{array}\\right\\} \\Rightarrow \\triangle A H C=\\triangle C E A(c h-g n) \\Rightarrow A H=C E\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) %(E H / / A C)%",
+        "question_images": [],
+        "solution": "%(\\triangle C D E)% và %(\\triangle A D H)% có<br>%(\\begin{array}{l}\\widehat{C D E}=\\widehat{A D H} \\Rightarrow \\widehat{E C D}=\\widehat{H A D} \\\\ A H=C E(\\mathrm{cmt}) \\\\ \\widehat{C E D}=\\widehat{A H D}=90^{\\circ}\\end{array})%<br>%(\\Rightarrow \\triangle C D E=\\triangle A D H(g-c-g) \\Rightarrow D H=D E ; D A=D C)%<br>%(D H=D E ; D A=D C)% nên %(\\triangle D A C)% và %(\\triangle D H E)% cùng cân hại %(D)% có góc ở đỉnh bằng nhau do đối đỉnh nên các góc ở đáy cũng bằng nhau, do đó %(\\widehat{A C H}=\\widehat{C H E} \\Rightarrow H E / / A C)%",
+        "question_type": "essay"
+    }
+]

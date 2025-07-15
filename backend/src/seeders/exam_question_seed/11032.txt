@@ -1,0 +1,216 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.25,
+        "content": "Hàm số %(F(x)=e^{-2 x})% là nguyên hàm của hàm số nào sau đây?",
+        "question_images": [],
+        "labelA": "%(f_{1}(x)=\\frac{e^{-2 x}}{-2})%",
+        "labelB": "%(f_{2}(x)=-e^{-2 x})%",
+        "labelC": "%(f_{3}(x)=2 e^{-2 x})%",
+        "labelD": "%(f_{4}(x)=-2 e^{-2 x})%",
+        "correct_label": "labelD",
+        "solution": "Ta có %(F^{\\prime}(x)=f(x))%, nên %(\\left(e^{-2 x}\\right)^{\\prime}=-2 e^{-2 x})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "2 ",
+        "point": 0.25,
+        "content": "Toạ độ của vectơ %(\\vec{u}=\\vec{k}-\\vec{j})% là:",
+        "question_images": [],
+        "labelA": "%((0 ;-1 ; 1))%.",
+        "labelB": "%((0 ; 1 ; 1))%.",
+        "labelC": "%((1 ; 0 ; 0))%.",
+        "labelD": "%((-1 ; 0 ; 0))%",
+        "correct_label": "labelA",
+        "solution": "%(\\vec{u}=\\vec{k}-\\vec{j} \\Rightarrow \\vec{u}=(0 ;-1 ; 1))%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "3 ",
+        "point": 0.25,
+        "content": "Tập xác định của hàm số %(y=x-1+\\frac{3}{x+2})% là:",
+        "question_images": [],
+        "labelA": "%(\\mathbb{R} \\backslash\\{1\\})%.",
+        "labelB": "%(\\mathbb{R} \\backslash\\{-1\\})%",
+        "labelC": "%(\\mathbb{R} \\backslash\\{2\\})%.",
+        "labelD": "%(\\mathbb{R} \\backslash\\{-2\\})%.",
+        "correct_label": "labelD",
+        "solution": "Hàm số xác định khi %(x+2 \\neq 0 \\Leftrightarrow x \\neq-2)%<br>ТХĐ %(D=R \\backslash\\{-2\\})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "4 ",
+        "point": 0.25,
+        "content": "Giá trị lớn nhất của hàm số %(y=\\sin x)% là:",
+        "question_images": [],
+        "labelA": "%(\\pi)%",
+        "labelB": "%(2 \\pi)%.",
+        "labelC": "1.",
+        "labelD": "-1 .",
+        "correct_label": "labelC",
+        "solution": "Ta có %(-1 \\leq \\sin x \\leq 1)% nên GTLN của hàm số là %(\\max y=1)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "5 ",
+        "point": 0.25,
+        "content": "Nếu hàm số %(y=f(x))% thoả mãn %(\\lim _{x \\rightarrow-\\infty} f(x)=-1 ; \\lim _{x \\rightarrow+\\infty} f(x)=1)% thì:",
+        "question_images": [],
+        "labelA": "Đồ thị hàm số có 2 tiệm cận đứng là %(x=-1)% và %(x=1)%.",
+        "labelB": "Đồ thị hàm số có 1 tiệm cận đứng là %(x=-1)% và 1 tiệm cận ngang là %(y=1)%.",
+        "labelC": "Đồ thị hàm số có 1 tiệm cận ngang là %(y=-1)% và 1 tiệm cận đứng là %(x=1)%.",
+        "labelD": "Đồ thị hàm số có 2 tiệm cận ngang là %(y=-1)% và %(y=1)%.",
+        "correct_label": "labelD",
+        "solution": "%(\\left[\\begin{array}{l}\\lim _{x \\rightarrow+\\infty} f(x)=y_{0} \\\\ \\lim _{x \\rightarrow-\\infty} f(x)=y_{0}\\end{array}\\right.)% thì %(y=y_{0})% là TCN<br>%(\\lim _{x \\rightarrow+\\infty} f(x)=1, \\lim _{x \\rightarrow-\\infty} f(x)=-1)% nên đồ thị hàm số có hai tiệm cân ngang %(y=1)% và %(y=-1)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "6 ",
+        "point": 0.25,
+        "content": "Trong không gian %(O x y z)%, mặt phẳng %((P): 2 x-y-3=0)% có một vectơ pháp tuyến là:",
+        "question_images": [],
+        "labelA": "%(\\overrightarrow{n_{1}}=(2 ;-1))%.",
+        "labelB": "%(\\overrightarrow{n_{2}}=(2 ;-1 ;-3))%.",
+        "labelC": "%(\\overrightarrow{n_{3}}=(2 ;-1 ; 0))%.",
+        "labelD": "%(\\overrightarrow{n_{4}}=(-2 ; 1 ; 3))%.",
+        "correct_label": "labelC",
+        "solution": "%((P): 2 x-y-3=0)% có một vecto pháp tuyến là: %(\\overrightarrow{n_{3}}=(2 ;-1 ; 0))%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "7 ",
+        "point": 0.25,
+        "content": "Hàm số nào sau đây là một nguyên hàm của hàm số %(f(x)=\\sin x)% ?",
+        "question_images": [],
+        "labelA": "%(F_{1}(x)=\\sin x)%.",
+        "labelB": "%(F_{2}(x)=-\\sin x)%",
+        "labelC": "%(F_{3}(x)=\\cos x)%.",
+        "labelD": "%(F_{4}(x)=-\\cos x)%",
+        "correct_label": "labelD",
+        "solution": "%(\\int \\sin x d x=-\\cos x+C)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "8 ",
+        "point": 0.25,
+        "content": "Trong không gian %(O x y z)%, mặt cầu có tâm %(I(2 ; 1 ;-3))% và bán kính 9 có phương trì̀nh là:",
+        "question_images": [],
+        "labelA": "%((x-2)^{2}+(y-1)^{2}+(z+3)^{2}=81)%.",
+        "labelB": "%((x+2)^{2}+(y+1)^{2}+(z-3)^{2}=81)%.",
+        "labelC": "%((x-2)^{2}+(y-1)^{2}+(z+3)^{2}=9)%.",
+        "labelD": "%((x+2)^{2}+(y+1)^{2}+(z-3)^{2}=9)%.",
+        "correct_label": "labelA",
+        "solution": "Phương trình mặt cầu tâm %(I(a ; b ; c))% bán kính R là: %((x-a)^{2}+(y-b)^{2}+(z-c)^{2}=R^{2})%<br>Phương trình mặt cầu tâm %(I(2 ; 1 ;-3))% bán kính %(R=9)% là: %((x-2)^{2}+(y-1)^{2}+(z+3)^{2}=81)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "9 ",
+        "point": 0.25,
+        "content": "Trong không gian %(O x y z)%, khoảng cách từ điểm %(M\\left(x_{0} ; y_{0} ; z_{0}\\right))% đến mặt phẳng %((P): a x+b y+c z+d=0)% bằng:",
+        "question_images": [],
+        "labelA": "%(\\frac{\\left|a x_{0}+b y_{0}+c\\right|}{\\sqrt{a^{2}+b^{2}}})%.",
+        "labelB": "%(\\frac{\\left|a x_{0}+b y_{0}+c z_{0}+d\\right|}{\\sqrt{a^{2}+b^{2}+c^{2}}})%.",
+        "labelC": "%(\\frac{\\sqrt{a^{2}+b^{2}+c^{2}}}{\\left|a x_{0}+b y_{0}+c z_{0}+d\\right|})%",
+        "labelD": "%(\\frac{\\left|a x_{0}+b y_{0}+c z_{0}+d\\right|}{a^{2}+b^{2}+c^{2}})%.",
+        "correct_label": "labelB",
+        "solution": "Khoảng cách từ %(M\\left(x_{0} ; y_{0} ; z_{0}\\right))% đến mặt phẳng %((P): a x+b y+c z+d=0)% là:<br>\\[d(M,(P))=\\frac{\\left|a x_{0}+b y_{0}+c z_{0}+d\\right|}{\\sqrt{a^{2}+b^{2}+c^{2}}}\\]",
+        "question_type": "quiz"
+    },
+    {
+        "title": "10 ",
+        "point": 0.25,
+        "content": "Khi thống kê chiều cao (đơn vị: centimét) của học sinh lớp %(12 A)%, người ta thu được mẫu số liệu ghép nhóm như Bảng 1. Khoảng biến thiên của mẫu số liệu ghép nhóm đó bằng:",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/08333fd7db4868943d654cc434382ff4.png"
+        ],
+        "labelA": "25 cm .",
+        "labelB": "5 cm .",
+        "labelC": "20 cm",
+        "labelD": "180 cm",
+        "correct_label": "labelA",
+        "solution": "Trong mẫu số liệu ghép nhóm ta có đầu mút trái của nhóm 1 là %(a_{1}=155)%, đầu mút phải của nhóm 5 là %(a_{5}=180)%.<br>Vậy khoảng biến thiên của mẫu số liệu ghép nhóm là<br>\\[R=a_{5}-a_{1}=180-155=25\\]",
+        "question_type": "quiz"
+    },
+    {
+        "title": "11 ",
+        "point": 0.25,
+        "content": "Cho %(A)% và %(B)% là hai biến cố độc lập thoả mãn %(\\mathrm{P}(A)=0,5)% và %(\\mathrm{P}(B)=0,3)%. Khi đó, %(\\mathrm{P}(A \\cap B))% bằng:",
+        "question_images": [],
+        "labelA": "%(0,8)%.",
+        "labelB": "0,2 .",
+        "labelC": "0,6 .",
+        "labelD": "0,15 .",
+        "correct_label": "labelD",
+        "solution": "A và B là hai biến cố độc lập nên %(P(A \\cap B)=P(A) \\cdot P(B)=0,3 \\cdot 0,5=0,15)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "12 ",
+        "point": 0.25,
+        "content": "Hàm số nào sau đây có đồ thị là đường cong như Hình 1 ?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/c0bc5bec5ff75cb15d814fc5ebb5b3c9.png"
+        ],
+        "labelA": "%(y=x-\\frac{1}{x-1})%.",
+        "labelB": "%(y=-x+\\frac{1}{x-1})%.",
+        "labelC": "%(y=-x-\\frac{1}{x-1})%",
+        "labelD": "%(y=x+\\frac{1}{x-1})%.",
+        "correct_label": "labelD",
+        "solution": "Dựa vào đồ thị hàm số ta có %(y=x)% là TCX và %(x=1)% là TCĐ<br>\\[y^{\\prime}=\\frac{x^{2}-2 x}{(x-1)^{2}}, y^{\\prime}=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\Rightarrow y=-1 \\x=2 \\Rightarrow y=3\\end{array}\\right.\\]<br>Bảng biến thiên<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/049fe50d4482b62c19794538632c0813.png\" srcset=\"https://docdn.giainhanh.io/media/test/049fe50d4482b62c19794538632c0813.png 245w, https://docdn.giainhanh.io/media/test/049fe50d4482b62c19794538632c0813.png 500w, https://docdn.giainhanh.io/media/test/049fe50d4482b62c19794538632c0813.png 750w, https://docdn.giainhanh.io/media/test/049fe50d4482b62c19794538632c0813.png 1000w\" width=\"1000\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/8c1bed0f8895d3fabb7486483af57753.png\" srcset=\"https://docdn.giainhanh.io/media/test/8c1bed0f8895d3fabb7486483af57753.png 191w, https://docdn.giainhanh.io/media/test/8c1bed0f8895d3fabb7486483af57753.png 500w\" width=\"500\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "17 ",
+        "point": 0.5,
+        "content": "Cho %(\\int_{a}^{b}|x| d x=m a^{2}+n b^{2})% với %(m, n, a, b)%, là các hằng số thực và %(a\\lt 0\\lt b)%. Giá trị của biểu thức %(m+n)% bằng bao nhiêu?",
+        "question_images": [],
+        "solution": "Ta có: %(\\int_{a}^{b}|x| \\mathrm{d} x=\\int_{a}^{0}(-x) \\mathrm{d} x+\\int_{0}^{b} x \\mathrm{~d} x=\\left.\\frac{-x^{2}}{2}\\right|_{a} ^{0}+\\left.\\frac{x^{2}}{2}\\right|_{0} ^{b}=\\frac{1}{2} a^{2}+\\frac{1}{2} b^{2})%.<br>Suy ra %(m+n=\\frac{1}{2}+\\frac{1}{2}=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "18 ",
+        "point": 0.5,
+        "content": "Người ta thiết kế một thiết bị kim loại có dạng như Hình 3 (giá tiền mua kim loại là 2500 đồng/ %(\\mathrm{cm}^{3})% ).Thiết bị gồm 2 phần, phần dưới là khối lăng trụ tứ giác đều, phần trên là khối chóp tứ giác đều. Số tiền mua kim loại dùng để làm thiết bị đó là bao nhiêu nghìn đồng (làm tròn kết quả đến hàng đơn vị)?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/03a0cbc654d27333471c4635e259ba52.png"
+        ],
+        "solution": "Thể tích khối lăng trụ tứ giác đều là: %(V_{1}=1,5.2^{2}=6\\left(\\mathrm{~cm}^{3}\\right))%.<br>Độ dài đường chéo mặt đáy của khối chóp tứ giác đều là: %(\\sqrt{2^{2}+2^{2}}=2 \\sqrt{2}(\\mathrm{~cm}))%.<br>Khối chóp tứ giác đều có chiều cao là: %(\\sqrt{3^{2}-\\left(\\frac{2 \\sqrt{2}}{2}\\right)^{2}}=\\sqrt{7}(\\mathrm{~cm}))%.<br>Suy ra thể tích khối chóp tứ giác đều là: %(V_{2}=\\frac{1}{3} \\cdot 2^{2} \\cdot \\sqrt{7}=\\frac{4 \\sqrt{7}}{3}\\left(\\mathrm{~cm}^{2}\\right))%.<br>Số tiền để mua kim loại để làm thiết bị đó là: %(2,5\\left(6+\\frac{4 \\sqrt{7}}{3}\\right) \\approx 24)% (nghìn đồng).",
+        "question_type": "essay"
+    },
+    {
+        "title": "19 ",
+        "point": 0.5,
+        "content": "Có 40 tấm thẻ kích thước như nhau và đánh số thứ tự lần lượt từ 1 đến 40 (mỗi tấm thẻ chỉ ghi một số nguyên dương, hai thẻ khác nhau ghi hai số khác nhau). Một người lần lượt rút hai thẻ (rút không hoàn lại). Tính xác suất lần thứ hai rút được thẻ ghi số nguyên tố.",
+        "question_images": [],
+        "solution": "Xét các biến cố: %(A)% : \"Lần thứ nhất rút ra được thẻ ghi số nguyên tố\";<br>%(B)% : \"Lần thứ hai rút được thẻ ghi số nguyên tố\".<br>Từ 1 đến 40 có 12 số nguyên tố nên %(P(A)=\\frac{12}{40}=0,3)% và %(P(\\bar{A})=1-0,3=0,7)%.<br>Vì rút không hoàn lại nên %(P(B \\mid A)=\\frac{11}{39}, P(B \\mid \\bar{A})=\\frac{12}{39}=\\frac{4}{13})%.<br>Theo công thức xác suất toàn phần, ta có:<br>\\[P(B)=P(A) \\cdot P(B \\mid A)+P(\\bar{A}) \\cdot P(B \\mid \\bar{A})=0,3 \\cdot \\frac{11}{39}+0,7 \\cdot \\frac{4}{13}=0,3 \\text {. }\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "20 ",
+        "point": 0.5,
+        "content": "Một vận động viên thể thao hai môn phối hợp luyện tập với một bể bơi hình chữ nhật rộng 400 m , dài 800 m .Vận động viên chạy phối hợp với bơi như sau: Xuất phát từ điểm %(A)%, chạy đến điểm %(X)% và bơi từ điểm %(X)% đến điểm %(C)% (Hình 4). Hỏi nên chọn điểm %(X)% cách %(A)% gần bằng bao nhiêu mét để vận động viên đến %(C)% nhanh nhất (làm tròn kết quả đến hàng đơn vị)? Biết rằng vận tốc chạy là 30 %(\\mathrm{km} / \\mathrm{h})%, vận tốc bơi là %(6 \\mathrm{~km} / \\mathrm{h})%.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/48b929ea2d430f0264eb61d801b45831.png"
+        ],
+        "solution": "Đặt %(B X=x(\\mathrm{~km}))%, ta có: %(A X=0,8-x(\\mathrm{~km}))%;<br>\\[X C=\\sqrt{(0,4)^{2}+x^{2}}=\\sqrt{0,16+x^{2}}(\\mathrm{~km}) \\text {. }\\]<br>Xét hàm số: %(T(x)=\\frac{0,8-x}{30}+\\frac{\\sqrt{0,16+x^{2}}}{6}=\\frac{1}{30}\\left(0,8-x+5 \\sqrt{0,16+x^{2}}\\right)(0 \\leq x\\lt 0,8))%.<br>Ta có: %(T^{\\prime}(x)=\\frac{1}{30}\\left(-1+\\frac{5 x}{\\sqrt{0,16+x^{2}}}\\right), T^{\\prime}(x)=0 \\Rightarrow 5 x=\\sqrt{0,16+x^{2}})%.<br>Bình phương hai vế phương trình ta được %(0,16+x^{2}=25 x^{2} \\Leftrightarrow x= \\pm \\frac{\\sqrt{6}}{30})%.<br>Vì %(0\\lt x\\lt 0,8)% nên %(x=\\frac{\\sqrt{6}}{30})%.<br>Bảng biến thiên của hàm số %(T(x))% là:<br>Vậy %(T(x))% đạt giá trị nhỏ nhất bằng %(T\\left(\\frac{\\sqrt{6}}{30}\\right))% khi %(A X=0,8-\\frac{\\sqrt{6}}{30} \\approx 0,718(\\mathrm{~km})=718(\\mathrm{~m}))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/6b6ffe2edf92d4da9e7f3bec857dc914.png\" srcset=\"https://docdn.giainhanh.io/media/test/6b6ffe2edf92d4da9e7f3bec857dc914.png 245w, https://docdn.giainhanh.io/media/test/6b6ffe2edf92d4da9e7f3bec857dc914.png 500w, https://docdn.giainhanh.io/media/test/6b6ffe2edf92d4da9e7f3bec857dc914.png 750w, https://docdn.giainhanh.io/media/test/6b6ffe2edf92d4da9e7f3bec857dc914.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "21 ",
+        "point": 0.5,
+        "content": "Trong không gian %(O x y z)%, đài kiểm soát không lưu sân bay có tọa độ %(O(0 ; 0 ; 0))%, đơn vị trên mỗi trục tính theo kilômét. Một máy bay chuyển động hướng về đài kiểm soát không lưu, bay qua hai vị trí %(A(-500 ;-250 ; 150), B(-200 ;-200 ; 100))%. Khi máy bay ở gần đài kiểm soát nhất, tọa độ của vị trí máy bay là %((a ; b ; c))%. Giá trị của biểu thức %(-3 a-b-c)% là bao nhiêu (làm tròn kết quả đến hàng đơn vị)?",
+        "question_images": [],
+        "solution": "Vectơ %(\\overrightarrow{A B}=(300 ; 50 ;-50))% nên %(\\vec{u}=(6 ; 1 ;-1))% là một vectơ chỉ phương của đường thẳng %(A B)%.<br>Phương trình đường thẳng %(A B)% là: %(\\frac{x+500}{6}=\\frac{y+250}{1}=\\frac{z-150}{-1})%.<br>Gọi %(H)% là hình chiếu của điểm %(O)% trên đường thẳng %(A B)% thì %(O H)% là khoảng cách ngắn nhất giữa máy bay và đài kiểm soát.<br>Khi đó %(H(6 t-500 ; t-250 ;-t+150))%.<br>Ta có %(\\overrightarrow{O H} \\cdot \\vec{u}=(6 t-500) \\cdot 6+t-150+(-t+150)=0 \\Leftrightarrow t=-\\frac{775}{9})%.<br>Suy ra toạ độ của vị trí máy bay khi đó là %(\\left(-\\frac{3050}{3} ;-\\frac{3025}{9} ; \\frac{2125}{9}\\right))%.<br>Vậy %(-3 a-b-c=3150)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "22 ",
+        "point": 0.5,
+        "content": "Người ta thiết kế một mẫu gạch lát nền nhà có dạng hình vuông cạnh 4 dm . Bốn góc viên gạch màu trắng, phần ở giữa màu xanh (Hinh 5). Đường viền của phần màu xanh bao gồm bốn đoạn thẳng nằm trên các cạnh hình vuông và bốn đường cong có tính chất: Tích khoảng cách từ một điểm bất kì thuộc đường cong đó đến hai trục đối xứng của viên gạch (hai đường thẳng đi qua tâm viên gạch và lần lượt song song với hai cạnh vuông góc) bằng %(2 \\mathrm{dm}^{2})%.Hãy cho biết phần màu xanh có diện tích bằng bao nhiêu decimét vuông (làm tròn kết quả đến hàng phần mười)?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/b2363a4c7b29312e24c3ebc423f31383.png"
+        ],
+        "solution": "Gắn trục toạ độ %(O x y)% vào viên gạch sao cho hai trục trùng với hai đường đối xứng, gốc %(O)% ở tâm hình vuông như hình dưới.<br>Giả sử toạ độ một điểm trên đường viền cong là %((x ; y))%.<br>Theo giả thiết, ta có: %(|x y|=2)%.<br>Suy ra %(y=\\frac{2}{x})% hoặc %(y=-\\frac{2}{x})%.<br>Ứng với hình bên, ta có các đường viền cong %(A K, D E)% là một phần của đồ thị hàm số %(y=-\\frac{2}{x})%; các đường viền cong %(B C, G H)% là một phần của đồ thị hàm số %(y=\\frac{2}{x})%.<br>Khi đó, diện tích phần màu xanh bằng:<br>\\[\\begin{array}{l}\\int_{-2}^{-1}\\left|-\\frac{2}{x}-\\frac{2}{x}\\right| \\mathrm{d} x+\\int_{1}^{2}\\left|\\frac{2}{x}-\\frac{-2}{x}\\right| \\mathrm{d} x+S_{A B E G}=\\int_{-2}^{-1}\\left(-\\frac{2}{x}-\\frac{2}{x}\\right) \\mathrm{d} x+\\int_{1}^{2}\\left(\\frac{2}{x}-\\frac{-2}{x}\\right) \\mathrm{d} x+4.2 \\\\=-4 \\ln \\left|x\\left\\|_{-2}^{-1}+4 \\ln \\mid x\\right\\|_{1}^{2}+8 \\approx 13,5\\left(\\mathrm{dm}^{2}\\right) .\\right.\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b6687f6355fb260a5b915b757ee01fb0.png\" srcset=\"https://docdn.giainhanh.io/media/test/b6687f6355fb260a5b915b757ee01fb0.png 161w, https://docdn.giainhanh.io/media/test/b6687f6355fb260a5b915b757ee01fb0.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

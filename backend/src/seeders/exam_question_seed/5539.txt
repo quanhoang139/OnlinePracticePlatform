@@ -1,0 +1,119 @@
+[
+    {
+        "title": "Bài I",
+        "group_content": "Cho hai biều thức: %(A=\\frac{4 \\sqrt{x}}{\\sqrt{x}-1})% và %(B=\\frac{1}{\\sqrt{x}+1}+\\frac{\\sqrt{x}}{\\sqrt{x}-1}+\\frac{2}{x-1})% với %(x \\geq 0 ; x \\neq 1)%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1) ",
+        "point": 1.0,
+        "content": "1. Tính giá trị của biểu thức %(A)% khi %(x=49)%",
+        "question_images": [],
+        "solution": "Với %(x=49 \\Rightarrow A=\\frac{4 \\sqrt{49}}{\\sqrt{49}-1}=\\frac{4.7}{6}=14)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2) ",
+        "point": 0.5,
+        "content": "2. Chứng minh %(B=\\frac{\\sqrt{x}+1}{\\sqrt{x}-1})%;",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Xét } B=\\frac{1}{\\sqrt{x}+1}+\\frac{\\sqrt{x}}{\\sqrt{x}-1}+\\frac{2}{x-1}=\\frac{\\sqrt{x}-1+\\sqrt{x}(\\sqrt{x}+1)+2}{x-1}=\\frac{\\sqrt{x}-1+x+\\sqrt{x}+2}{x-1} \\\\ \\Rightarrow B=\\frac{\\sqrt{x}-1+x+\\sqrt{x}+2}{x-1}=\\frac{(\\sqrt{x}+1)^{2}}{(\\sqrt{x}-1)(\\sqrt{x}+1)}=\\frac{\\sqrt{x}+1}{\\sqrt{x}-1} .\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3) ",
+        "point": 0.5,
+        "content": "3. Ta có %(P=A: B=\\frac{4 \\sqrt{x}}{\\sqrt{x}-1}: \\frac{\\sqrt{x}+1}{\\sqrt{x}-1}=\\frac{4 \\sqrt{x}}{\\sqrt{x}+1})%",
+        "question_images": [],
+        "solution": "Khi đó %(P(\\sqrt{x}+1)=x+4+\\sqrt{x-4})%<br>Điều kiện: %(x \\geq 4)%<br>Nên %(\\frac{4 \\sqrt{x}}{\\sqrt{x}+1}(\\sqrt{x}+1)=x+4+\\sqrt{x-4} \\Rightarrow 4 \\sqrt{x}=x+4+\\sqrt{x-4})%<br>%(\\Rightarrow 4 \\sqrt{x}=x+4+\\sqrt{x-4} \\Leftrightarrow x+4+\\sqrt{x-4}-4 \\sqrt{x}=0 \\Leftrightarrow(\\sqrt{x}-2)^{2}+\\sqrt{x-4}=0)%.<br>Do %(\\left\\{\\begin{array}{l}(\\sqrt{x}-2)^{2} \\geq 0 \\\\ \\sqrt{x-4} \\geq 0\\end{array} \\Rightarrow 4 \\sqrt{x}=x+4+\\sqrt{x-4} \\Leftrightarrow(\\sqrt{x}-2)^{2}+\\sqrt{x-4} \\geq 0\\right.)%<br>Dấu \"=\" xảy ra %(\\Leftrightarrow\\left\\{\\begin{array}{l}\\sqrt{x}-2=0 \\\\ \\sqrt{x-4}=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}\\sqrt{x}=2 \\\\ x-4=0\\end{array} \\Leftrightarrow x=4(\\mathrm{tm})\\right.\\right.)%<br>Vậy %(x=4)% thì %(P(\\sqrt{x}+1)=x+4+\\sqrt{x-4})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài II ",
+        "point": 1.0,
+        "content": "Giải bài toán bằng cách lâp phuoơng trình hoặc hệ phương trình:Một mảnh vườn hình chữ nhật có chu vi là %(124 \\mathrm{~m})%. Nếu tăng chiều dài thêm %(5 \\mathrm{~m})% và chiều rộng thêm %(3 \\mathrm{~m})% thì diện tích mảnh vườn tăng thêm %(255 \\mathrm{~m}^{2})%. Tính chiều dài và chiều rộng của mảnh vườn ban đầu?",
+        "question_images": [],
+        "solution": "Chiều dài ban đầu của mảnh vườn là %(\\mathrm{x}(\\mathrm{m}))%, chiều rộng ban đầu là %(\\mathrm{y}(\\mathrm{m}) .(\\mathrm{x}\\gt \\mathrm{y}>0))%<br>Vì chu vi ban đầu của mảnh vườn là %(124 \\mathrm{~m})% nên ta có phương trình: %(2(\\mathrm{x}+\\mathrm{y})=124)%<br>\\[\\Leftrightarrow x+y=62 \\text { (1) }\\]<br>Sau khi thay đổi kích thước thì chiều dài mảnh vườn là: %((\\mathrm{x}+5)(\\mathrm{m}))% và chiều rộng là: %((\\mathrm{y}+3)(\\mathrm{m}))%.<br>Diện tích mảnh vườn tăng thêm %(255 m^{2})% nên ta có phương trình: %((\\mathrm{x}+5)(\\mathrm{y}+3)=\\mathrm{xy}+255)%.<br>\\[\\Leftrightarrow 3 x+5 y=240\\]<br>Từ (1), (2) ta có hệ : %(\\left\\{\\begin{array}{l}x+y=62 \\\\ 3 x+5 y=240\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}3 x+3 y=186 \\\\ 3 x+5 y=240\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}y=27 \\\\ x=35\\end{array}\\right.\\right.\\right.)% ( thỏa mãn điều kiện)<br>Vây chiều dài ban đầu của mảnh vườn là %(35 \\mathrm{~m})%, chiều rông là %(27 \\mathrm{~m})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài III ",
+        "point": 1.0,
+        "content": "Tính diện tích mặt bàn hình tròn có đường kính %(1,2 \\mathrm{~m})%. ( Kết quả làm tròn đến chuũ số thập phân thú hai)",
+        "question_images": [],
+        "solution": "Bán kính mặt bàn là : %(R=\\frac{1,2}{2}=0,6(\\mathrm{~m}))%<br>Diện tích mặt bàn là : %(S=\\pi R^{2} \\approx 3,14 \\cdot(0,6)^{2} \\approx 1,13\\left(m^{2}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài IV ",
+        "point": 0.5,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}2(x+2)-\\sqrt{y-1}=6 \\\\ 5(x+2)-2 \\sqrt{y-1}=16\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}2(x+2)-\\sqrt{y-1}=6 \\\\ 5(x+2)-2 \\sqrt{y-1}=16\\end{array}\\right.)%(ĐKXĐ: %(y \\geq 1)% )<br>Đặt %(\\left\\{\\begin{array}{l}x+2=a \\\\ \\sqrt{y-1}=b(b \\geq 0)\\end{array}\\right.)% khi đó hệ phương trình trở thành<br>\\[\\begin{array}{l}\\left\\{\\begin{array}{l}2 a-b=6 \\\\5 a-2 b=16\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}4 a-2 b=12 \\\\5 a-2 b=16\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}a=4 \\\\2 a-b=6\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}a=4 \\\\2.4-b=6\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}a=4 \\b=2\\end{array}(\\text { tmdk } b \\geq 0)\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}x+2=4 \\\\sqrt{y-1}=2\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}x=2 \\y-1=4\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}x=2 \\y=5\\end{array}(\\text { tmĐKXĐ) }\\right. \\\\end{array}\\]<br>Vậy hệ phương trình có nghiệm %((\\mathrm{x} ; \\mathrm{y}))% là %((2 ; 5))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài V",
+        "group_content": "Trong mặt phẳng tọa độ %(O x y)% cho Parabol %((P): y=x^{2})% và đường thẳng %((d): y=m x+3)% ( %(m)% là tham số)",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Tìm tọa độ giao điểm của %((d))% và %((P))% khi %(m=2)%.",
+        "question_images": [],
+        "solution": "Thay %(\\mathrm{m}=2)% vào phương trình đường thăng %((\\mathrm{d}))% ta có<br>\\[y=2 x+3\\]<br>Phương trình hoành độ giao điểm hai đồ thị hàm số %((\\mathrm{P}))% và (d) là<br>\\[\\begin{array}{c}x^{2}=2 x+3 \\\\Leftrightarrow x^{2}-2 x-3=0 \\\\Delta=b^{2}-4 a c \\\\=(-2)^{2}-4 \\cdot 1 \\cdot(-3)=16\\end{array}\\]<br>\\[\\Rightarrow \\Delta\\gt 0\\]<br>%(\\Rightarrow)% phương trình có hai nghiệm phân biệt<br>\\[\\begin{array}{l}x_{1}=\\frac{-b+\\sqrt{\\Delta}}{2 a}=\\frac{2+\\sqrt{16}}{2.1}=3 \\x_{2}=\\frac{-b-\\sqrt{\\Delta}}{2 a}=\\frac{2-\\sqrt{16}}{2.1}=-1\\end{array}\\]<br>Thay %(x_{1}=3)% vào phương trình %((\\mathrm{P}))% ta có %(y_{1}=9)%<br>Thay %(x_{2}=-1)% vào phương trình %((\\mathrm{P}))% ta có %(y_{2}=1)%<br>Vậy tọa độ giao điểm hai đồ thị hàm số %((\\mathrm{P}))% và %((\\mathrm{d}))% là %((3 ; 9))% và %((-1 ; 1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Tìm %(m)% để đường thẳng %((\\mathrm{d}))% cắt parabol %((P))% tại hai điểm phân biệt có hoành độ %(x_{1} ; x_{2})% thỏa mãn %(\\frac{1}{x_{1}}+\\frac{1}{x_{2}}=\\frac{3}{2})%.",
+        "question_images": [],
+        "solution": "b) Phương trình hoành độ giao điểm hai đồ thị hàm số %((\\mathrm{P}))% và %((\\mathrm{d}))% là<br>\\[\\begin{array}{l} x^{2}=m x+3 \\\\Leftrightarrow x^{2}-m x-3=0 \\quad\\left({ }^{*}\\right) \\\\Delta=b^{2}-4 a c \\\\= m^{2}-4.1 .(-3)=m^{2}+12\\end{array}\\]<br>Có %(m^{2}+12 \\geq 12\\gt 0)%<br>\\[\\Rightarrow \\Delta>0\\]<br>%(\\Rightarrow)% phương trình có hai nghiệm phân biệt với mọi %(\\mathrm{m})%%(\\Rightarrow(\\mathrm{d}))% cắt %((\\mathrm{P}))% tại hai điểm phân biệt với mọi %(\\mathrm{m})%Áp dụng hệ thức Viet ta có<br>\\[\\begin{array}{l}S=x_{1}+x_{2}=\\frac{-b}{a}=m \\P=x_{1} \\cdot x_{2}=\\frac{c}{a}=-3\\end{array}\\]<br>Vì %(x_{1} \\cdot x_{2}=-3 \\Rightarrow x_{1} \\cdot x_{2} \\neq 0)% nên %(x_{1} \\neq 0)% và %(x_{2} \\neq 0)%<br>Ta có %(\\frac{1}{x_{1}}+\\frac{1}{x_{2}}=\\frac{3}{2})%<br>\\[\\begin{array}{l}\\Leftrightarrow \\frac{x_{1}+x_{2}}{x_{1} \\cdot x_{2}}=\\frac{3}{2} \\\\Leftrightarrow 2\\left(x_{1}+x_{2}\\right)=3 x_{1} \\cdot x_{2}\\end{array}\\]<br>\\[\\begin{array}{l}\\Rightarrow 2 m=3(-3) \\\\Leftrightarrow m=\\frac{-9}{2}\\end{array}\\]<br>Vậy (d) cắt (P) tại hai điểm phân biệt có hoành độ %(x_{1} ; x_{2})% thỏa mãn %(\\frac{1}{x_{1}}+\\frac{1}{x_{2}}=\\frac{3}{2} \\Leftrightarrow m=\\frac{-9}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài VI",
+        "group_content": "Cho nửa đường tròn %((O ; R))%, đường kính %(A B)%. Trên tia tiếp tuyến kẻ từ %(A)% của nửa đường tròn này lấy điểm %(C)% sao cho %(A C\\gt R)%. Từ %(C)% kẻ tiếp tuyến thứ hai %(C D)% của nửa đường tròn %((O ; R))%, với %(D)% là tiếp điểm. Gọi %(H)% là giao điểm của %(A D)% và %(O C)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1) ",
+        "point": 1.0,
+        "content": "1) Chứng minh: %(A C D O)% là tứ giác nội tiếp.",
+        "question_images": [],
+        "solution": "Tứ giác %(A C D O)% có %(\\widehat{C A O}=\\widehat{C D O}=90^{\\circ})% (tính chất của tiếp tuyến ) nên tứ giác %(A C D O)% nội tiếp đường tròn đường kính %(A O)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b356b10c32ab6be723e94c53f06d65e2.png\" srcset=\"https://docdn.giainhanh.io/media/test/188d925518de00d28e377c29dea6ce1f.png 236w\" width=\"236\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2) ",
+        "point": 1.0,
+        "content": "2) Đường thẳng %(B C)% cắt đường tròn %((O ; R))% tại điểm thứ hai là %(M)%. Chứng minh: %(C D^{2}=C M \\cdot C B)%.",
+        "question_images": [],
+        "solution": "Xét %(\\triangle C D M)% và %(\\triangle C B D)% có:<br>%(\\widehat{M C D})% chung;<br>%(\\widehat{C D M}=\\widehat{C B D})% (góc nội tiếp và góc tạo bời tia tiếp tuyến và dây cung cùng chắn %(\\overparen{M D})% )<br>%(\\Rightarrow \\triangle C D M^{n} \\triangle C B D \\Rightarrow \\frac{C D}{C M}=\\frac{C B}{C D} \\Leftrightarrow C D^{2}=C M . C B)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3) ",
+        "point": 1.0,
+        "content": "3) Gọi %(K)% là giao diểm của %(A D)% và %(B C)%. Chứng minh: %(\\widehat{M H C}=\\widehat{C B O})% và %(\\frac{C M}{C B}=\\frac{K M}{K B})%.",
+        "question_images": [],
+        "solution": "Theo tính chất hai tiếp tuyến cắt nhau, ta có %(C A=C D)% mà %(O A=O D(=R))% nên %(O C)% là trung trực của %(A D \\Rightarrow O C \\perp A D)% tại trung điểm %(H)% của %(A D)%.<br>Lại có %(\\widehat{A M B}=90^{\\circ})% (góc nội tiếp chắn nửa đường tròn) %(\\Rightarrow \\widehat{A M C}=90^{\\circ})% (kề bù với %(\\widehat{A M B})% ).<br>Tứ giác %(A C M H)% có %(\\widehat{A M C}=\\widehat{A H C}=90^{\\circ})% nên nội tiếp đường tròn đường kính %(A C)%<br>%(\\Rightarrow \\widehat{M H C}=\\widehat{M A C})% (hai góc nội tiếp cùng chắn %(\\overparen{M C})% ), mà %(\\widehat{M A C}=\\widehat{M B A})% (góc nội tiếp và góc tạo bời tia tiếp tuyến và dây cung cùng chắn %(\\overparen{A M}) \\Rightarrow \\widehat{M H C}=\\widehat{M B A}(=\\widehat{M A C}))% hay %(\\widehat{M H C}=\\widehat{C B O})%.<br>Vì %(\\widehat{M H C}=\\widehat{C B O})% nên tứ giác %(O H M B)% nội tiếp (có góc ngoài đỉnh %(H)% bằng góc trong đỉhh %(B)% ) %(\\Rightarrow \\widehat{O H B}=\\widehat{O M B})% (hai góc nội tiếp cùng chắn %(\\overparen{O B}))% và %(\\widehat{O M B}=\\widehat{M B O}(\\triangle O M B)% cân tại %(O))%.<br>Vậy %(\\widehat{M H C}=\\widehat{M B O}=\\widehat{O M B}=\\widehat{O H B} \\Rightarrow 90^{\\circ}-\\widehat{M H C}=90^{\\circ}-\\widehat{O H B} \\Rightarrow \\widehat{M H K}=\\overparen{B H K} \\Rightarrow H K)% là tia phân giác trong tại dinh %(H)% của %(\\triangle M H B)%.<br>Lại có %(H C \\perp H K \\Rightarrow H C)% là phân giác ngoài tại đỉhh %(H)% của %(\\triangle M H B)%.<br>Theo tính chất đường phân giác, ta có: %(\\frac{C M}{C B}=\\frac{H M}{H B}=\\frac{K M}{K B})%.Vậy %(\\frac{C M}{C B}=\\frac{K M}{K B})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài VII ",
+        "point": 0.5,
+        "content": "Cho %(a, b\\gt 0)% thỏa mãn : %(a+b \\leq 1)%. Tìm giá trị nhỏ nhất của biểu thức sau:<br>\\[M=\\frac{1}{a^{2}+b^{2}}+\\frac{2}{a b}+4 a b .\\]",
+        "question_images": [],
+        "solution": "Áp dụng bất đẳng thức %(\\frac{1}{x}+\\frac{1}{y} \\geq \\frac{4}{x+y}, x, y\\gt 0)%.<br>Dấu \" %(=)% \" xảy ra %(\\Leftrightarrow x=y)%. (Chứng minh bằng phương pháp biến đổi tương  ưđng)<br>Ta có : %(M=\\frac{1}{a^{2}+b^{2}}+\\frac{2}{a b}+4 a b)%%(=\\frac{1}{a^{2}+b^{2}}+\\frac{1}{2 a b}+\\frac{3}{2 a b}+4 a b)%%(=\\left(\\frac{1}{a^{2}+b^{2}}+\\frac{1}{2 a b}\\right)+\\left(4 a b+\\frac{1}{4 a b}\\right)+\\frac{5}{4 a b})%- %(\\frac{1}{a^{2}+b^{2}}+\\frac{1}{2 a b} \\geq \\frac{4}{(a+b)^{2}} \\geq 4)%-<br>%(4 a b+\\frac{1}{4 a b} \\geq 2 \\sqrt{4 a b \\cdot \\frac{1}{4 a b}}=2)%- %(2 \\sqrt{a b} \\leq a+b \\leq 1 \\Leftrightarrow a b \\leq \\frac{1}{4} \\Leftrightarrow \\frac{1}{a b} \\geq 4 \\Leftrightarrow \\frac{5}{4 a b} \\geq 5)%<br>Suy ra: %(M \\geq 4+2+5=11)%.<br>Dấu \" %(=)% \" xảy ra khi %(a=b=\\frac{1}{2})%.<br>Vậy GTNN của %(M=11)% khi %(a=b=\\frac{1}{2})%.",
+        "question_type": "essay"
+    }
+]

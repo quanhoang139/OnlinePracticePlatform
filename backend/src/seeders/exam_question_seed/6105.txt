@@ -1,0 +1,81 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.25,
+        "content": "Cho hàm số %(y=\\frac{2 x+1}{x-1})% có đồ thị %((H))% và đường thẳng %(d: y=\\left(m^{2}+1\\right) x-2)% (với %(m)% là tham số). Tìm tất cả giá trị của %(\\mathrm{m})% để %(d)% cắt %((H))% tại hai điểm phân biệt có hoành độ %(x_{1}, x_{2})% sao cho biểu thức %(P=12\\left(x_{1}+x_{2}\\right)+11 x_{1} x_{2})% đạt giá trị lớn nhất.",
+        "question_images": [],
+        "solution": "Phương trình hoành độ giao điểm của %((\\mathrm{H}))% và %(\\mathrm{d})% là<br>\\[\\frac{2 x+1}{x-1}=\\left(m^{2}+1\\right) x-2 \\Leftrightarrow\\left(m^{2}+1\\right) x^{2}-\\left(m^{2}+5\\right) x+1=0\\]<br>(do %(\\mathrm{x}=1)% không là nghiệm phương trình)Đường thẳng %(\\mathrm{d})% cắt %((\\mathrm{H}))% tại hai điểm phân biệt<br>\\[\\Leftrightarrow\\left(m^{2}+5\\right)^{2}-4\\left(m^{2}+1\\right)\\gt 0 \\Leftrightarrow\\left(m^{2}+3\\right)^{2}+12>0\\]<br>Suy ra %(\\forall m \\in \\mathbb{R})% thì %(\\mathrm{d})% luôn cắt %((\\mathrm{H}))% tại hai điểm phân biệt.Ta có %(x_{1}+x_{2}=\\frac{m^{2}+5}{m^{2}+1} ; x_{1} \\cdot x_{2}=\\frac{1}{m^{2}+1})%<br>\\[P=12\\left(x_{1}+x_{2}\\right)+11 x_{1} \\cdot x_{2}=12\\left(\\frac{m^{2}+5}{m^{2}+1}\\right)+11\\left(\\frac{1}{m^{2}+1}\\right)=12+\\frac{59}{m^{2}+1} \\leq 71\\]<br>Do đó %(\\mathrm{P})% đạt giá trị lớn nhất là %(71 \\mathrm{khi} \\mathrm{m}=0)%.Vậy %(\\mathrm{m}=0)% là giá trị cần tìm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Giải các phương trình sau trên tập hợp các số thực",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "%(x^{4}-6 x^{3}+6 x^{2}+9 x=2 \\sqrt{x^{2}-3 x})%",
+        "question_images": [],
+        "solution": "\\[x^{4}-6 x^{3}+6 x^{2}+9 x=2 \\sqrt{x^{2}-3 x} \\Leftrightarrow\\left(x^{2}-3 x\\right)^{2}-3\\left(x^{2}-3 x\\right)-2 \\sqrt{x^{2}-3 x}=0\\]<br>Đặt %(t=\\sqrt{x^{2}-3 x}, t \\geq 0)%, phương trình trờ thành %(t^{4}-3 t^{2}-2 t=0 \\Leftrightarrow t=0 ; t=2 ; t=-1)% (loại)Với %(t=0)% suy ra %(x=0, x=3)%Với %(t=2)% suy ra %(x=-1, x=4)%Vậy phương trình đã cho có 4 nghiệm %(x=0, x=3, x=-1, x=4)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "%(7^{x}-6 \\log _{7}(6 x+1)-1=0)%",
+        "question_images": [],
+        "solution": "Điều kiện %(x\\gt -\\frac{1}{6})%. Đặt %(y=\\log _{7}(6 x+1))%, khi đó %(7^{y}=6 x+1)%.<br>Kết hợp với phương trình đã cho ta có hệ %(\\left\\{\\begin{array}{l}7^{x}=6 y+1 \\\\ 7^{y}=6 x+1\\end{array}\\right.)%.<br>Suy ra %(7^{x}-7^{y}=6 y-6 x \\Leftrightarrow 7^{x}+6 x=7^{y}+6 y(1))%.<br>Xét hàm số %(f(t)=7^{t}+6 t)%.<br>Ta có %(f^{\\prime}(t)=7^{t} \\ln 7+6>0, \\forall t \\in \\mathbb{R})% nên hàm số %(f)% đồng biến trên %(\\mathbb{R})%.<br>Do đó %((1) \\Leftrightarrow f(x)=f(y) \\Leftrightarrow x=y)%.<br>Suy ra %(7^{x}-6 x-1=0\\left(^{*}\\right))%<br>Xét hàm số %(g(x)=7^{x}-6 x-1)% trên khoảng %(\\left(-\\frac{1}{6} ;+\\infty\\right))%.<br>Ta có %(g^{\\prime}(x)=7^{x} \\ln 7-6 ; g^{\\prime \\prime}(x)=7^{x}(\\ln 7)^{2}>0)% nên đồ thị hàm số g lõm trên khoảng %(\\left(-\\frac{1}{6} ;+\\infty\\right))%.<br>Do đó (*) có không quá hai nghiệm thuộc %(\\left(-\\frac{1}{6} ;+\\infty\\right))%Mà %(g(0)=0, g(1)=0)% nên %(x=0, x=1)% là tất cả các nghiệm của (*).<br>Vậy nghiệm của phương trình đã cho là %(\\mathrm{x}=0, \\mathrm{x}=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.25,
+        "content": "Tìm hệ số của số hạng chứa %(x^{5})% trong khai triển %(\\left(1+x+x^{2}\\right)^{n})%, biết %(\\mathrm{n})% là số tự nhiên thỏa mãn hệ thức %(C_{2 n}^{0}+C_{2 n}^{2}+C_{2 n}^{4}+\\cdots+C_{2 n}^{2 n}=512)%.",
+        "question_images": [],
+        "solution": "Ta có<br>\\[\\begin{array}{l}C_{2 n}^{0}+C_{2 n}^{2}+C_{2 n}^{4}+\\cdots+C_{2 n}^{2 n}=512 \\Leftrightarrow \\frac{1}{2} .\\left(C_{2 n}^{0}+C_{2 n}^{1}+C_{2 n}^{2}+\\cdots+C_{2 n}^{2 n}\\right)=512 \\\\Leftrightarrow \\quad \\frac{1}{2} \\cdot 2^{2 n}=512 \\\\Leftrightarrow \\quad n=5 \\\\left(1+x+x^{2}\\right)^{5}=[1+x(1+x)]^{5}=\\sum_{k=0}^{5} C_{5}^{k} x^{k}(1+x)^{k}=\\sum_{k=0}^{5}\\left(\\sum_{i=0}^{k} C_{5}^{k} C_{k}^{i} x^{k+i}\\right),(i, k \\in \\mathbb{N}, i \\leq k) \\\\end{array}\\]<br>Vì số hạng chứa %(x^{5})% nên %(\\left\\{\\begin{array}{l}i+k=5 \\\\ i, k \\in \\mathbb{N}, i \\leq k\\end{array}\\right.)%, giải ra ta được %(\\left\\{\\begin{array}{l}i=0 \\\\ k=5\\end{array} ;\\left\\{\\begin{array}{l}i=1 \\\\ k=4\\end{array} ;\\left\\{\\begin{array}{l}i=2 \\\\ k=3\\end{array}\\right.\\right.\\right.)%<br>Hệ số cần tìm là %(C_{5}^{5} C_{5}^{0}+C_{4}^{1} C_{5}^{4}+C_{3}^{2} C_{5}^{3}=51)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.25,
+        "content": "Cho tam giác %(\\mathrm{ABC})% có %(A B=c, B C=a, C A=b, h_{a})% là độ dài đường cao xuất phát từ đỉnh %(A)% và %(b+c=\\frac{a}{2}+h_{a} \\sqrt{3})%. Chứng minh rằng tam giác %(A B C)% đều.",
+        "question_images": [],
+        "solution": "Ta có<br>\\[\\begin{array}{cc}b+c=\\frac{a}{2}+h_{a} \\cdot \\sqrt{3} \\Rightarrow & b+c=\\frac{a}{2}+\\frac{2 S_{A B C}}{a} \\cdot \\sqrt{3} \\\\Rightarrow & b+c=\\frac{a}{2}+(b \\sin C) \\cdot \\sqrt{3} \\\\Rightarrow & \\sin B+\\sin C=\\frac{\\sin (B+C)}{2}+\\sqrt{3} \\sin B \\sin C \\\\Rightarrow & \\sin B+\\sin C=\\sin B\\left(\\frac{1}{2} \\cos C+\\frac{\\sqrt{3}}{2} \\sin C\\right)+\\sin C\\left(\\frac{1}{2} \\cos B+\\frac{\\sqrt{3}}{2} \\sin B\\right) \\\\Rightarrow & \\sin B\\left[\\cos \\left(C-\\frac{\\pi}{3}\\right)-1\\right]+\\sin C\\left[\\cos \\left(B-\\frac{\\pi}{3}\\right)-1\\right]=0 \\\\Rightarrow & \\cos \\left(B-\\frac{\\pi}{3}\\right)=\\cos \\left(C-\\frac{\\pi}{3}\\right)=1 \\\\Rightarrow & B=C=\\frac{\\pi}{3}\\end{array}\\]<br>Vậy tam giác %(\\mathrm{ABC})% đều.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.25,
+        "content": "Một quả bóng cao su được thả rơi từ độ cao %(h=18 \\mathrm{~m})%. Sau mỗi lần chạm đất, quả bóng lại nảy lên cao bằng %(\\frac{3}{4})% độ cao của lần rơi ngay trước đó. Giả sử quả bóng khi rơi và nảy đều theo phương thẳng đứng. Tính tổng độ dài đoạn đường quả bóng đã di chuyển từ lúc được thả đến lúc quả bóng không nảy nữa.",
+        "question_images": [],
+        "solution": "Sau lần chạm đất đầu tiên, quả bóng nảy lên độ cao là %(h_{1}=\\frac{3}{4} h)%.<br>Tiếp theo, bóng rơi từ độ cao %(h_{1})%, chạm đất và nảy lên độ cao %(h_{2}=\\frac{3}{4} h_{1})%.<br>Sau đó bóng lại rơi từ độ cao %(h_{2})% và cứ tiếp tục như vậy... Sau lần chạm đất thứ %(\\mathrm{n})%, quả bóng nảy lên độ cao %(h_{n}=\\frac{3}{4} h_{n-1})%.<br>Tổng độ dài đoạn đường quả bóng đi được từ lúc thả đến lúc quả bóng không nảy nữa là<br>\\[d=\\left(h+h_{1}+h_{2}+\\cdots+h_{n}+\\cdots\\right)+\\left(h_{1}+h_{2}+\\cdots+h_{n}+\\cdots\\right)\\]<br>d là tổng của hai cấp số nhân lùi vô hạn có công bội %(q=\\frac{3}{4})%, có số hạng đầu lần lượt là %(h, h_{1})% Do đó %(d=\\frac{h}{1-q}+\\frac{h_{1}}{1-q}=126 \\mathrm{~m})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Trong mặt phẳng tọa độ %(\\mathrm{Oxy})%, cho đường tròn tâm %(\\mathrm{I})% có phương trình<br>\\[(x-1)^{2}+(y+1)^{2}=5\\]<br>tam giác %(A B C)% nội tiếp đường tròn và đường phân giác trong góc %(A)% có phương trình %(x-y-1=0)%. Biết rằng hai điểm %(A)% và %(I)% cách đều đường thẳng %(B C)% và điểm %(A)% có hoành độ dương. Tính diện tích tam giác %(A B C)%.",
+        "question_images": [],
+        "solution": "Ta có %(I(1 ;-1))%. Tọa độ giao điểm của đường phân giác trong góc %(\\mathrm{A})% và (I) là nghiệm của hệ phương trình<br>\\[\\left\\{\\begin{array} { l } { ( x - 1 ) ^ { 2 } + ( y + 1 ) ^ { 2 } = 5 } \\\\{ x - y - 1 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=2 ; y=1 \\x=-1 ; y=-2\\end{array}\\right.\\right.\\]<br>Suy ra có hai giao điểm %(A(2 ; 1), A^{\\prime}(-1 ;-2))%Đường thẳng %(\\mathrm{BC})% vuông góc %(\\mathrm{A}^{\\prime} \\mathrm{I})% nên phương trình %(\\mathrm{BC})% có dạng: %(2 x+y+m=0\\left(B C \\perp A^{\\prime} I\\right))%<br>\\[d(A ; B C)=d(I ; B C) \\Leftrightarrow \\frac{|4+1+m|}{\\sqrt{5}}=\\frac{|2-1+m|}{\\sqrt{5}} \\Leftrightarrow m=-3\\]<br>Phương trình BC: %(2 x+y-3=0)%Tìm được tọa độ điểm %(\\mathrm{B}, \\mathrm{C})% là: %(\\left(\\frac{9-\\sqrt{21}}{5} ; \\frac{-3+2 \\sqrt{21}}{5}\\right),\\left(\\frac{9+\\sqrt{21}}{5} ; \\frac{-3-2 \\sqrt{21}}{5}\\right))%.Vậy diện tích tam giác %(\\mathrm{ABC})% là %(S_{A B C}=\\frac{1}{2} B C \\cdot d(A ; B C)=\\frac{1}{2} \\sqrt{\\frac{84}{5}} \\cdot \\frac{2}{\\sqrt{5}}=\\frac{2 \\sqrt{21}}{5})%<br><img alt=\"https://docdn.giainhanh.io/media/test/537c398be3f62ed0a37b70dfe0dee529.png\" src=\"https://docdn.giainhanh.io/media/test/537c398be3f62ed0a37b70dfe0dee529.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Cho hình chóp %(S . A B C D)% có đáy %(A B C D)% là hình vuông cạnh %(a)%, chiều cao %(h)% không đổi. Gọi %(M, N)% lần lượt là hai điểm di động trên hai cạnh %(B C, C D)% sao cho góc %(\\widehat{M A N}=45^{\\circ})%. Đặt %(B M=x)%. Tìm %(x)% theo a sao cho thể tích của khối chóp %(S . A M N)% đạt giá trị nhỏ nhất.",
+        "question_images": [],
+        "solution": "Ta có %(V_{s . A M N}=\\frac{1}{3} \\cdot h \\cdot S_{A M N}=\\frac{h \\sqrt{2}}{12} \\cdot A M \\cdot A N)%<br>Đặt %(\\widehat{M A B}=\\alpha, 0^{0} \\leq \\alpha \\leq 45^{\\circ}, \\widehat{N A D}=45^{\\circ}-\\alpha)%<br>\\[A M \\cdot A N=\\frac{A B}{\\cos \\alpha} \\cdot \\frac{A D}{\\cos \\left(45^{0}-\\alpha\\right)}=\\frac{a^{2} \\sqrt{2}}{\\cos \\alpha(\\cos \\alpha+\\sin \\alpha)}=\\frac{2 a^{2} \\sqrt{2}}{1+\\sqrt{2} \\sin \\left(2 \\alpha+45^{0}\\right)}\\]<br>%(V_{s . A M N})% nhỏ nhất %(\\Leftrightarrow A M . A N)% nhỏ nhất %(\\Leftrightarrow 1+\\sqrt{2} \\sin \\left(2 \\alpha+45^{\\circ}\\right))% lớn nhất %(\\Leftrightarrow \\alpha=22,5^{0})%Vậy với %(x=a \\cdot \\tan 22,5^{0}=a(\\sqrt{2}-1))% thì thể tích của khối chóp S.AMN đạt giá trị nhỏ nhất.<br><img alt=\"https://docdn.giainhanh.io/media/test/0507bcde88a9c133f0ad5c70fe750416.png\" src=\"https://docdn.giainhanh.io/media/test/0507bcde88a9c133f0ad5c70fe750416.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho %(a, b, c)% là ba số thực tùy ý thỏa mãn điều kiện %(a \\geq b \\geq c\\gt 0)%. Tìm giá trị nhỏ nhất của biểu thức %(M=\\frac{1}{2}\\left(\\frac{b}{b+a}+\\frac{c}{c+b}\\right)+\\frac{5 a}{a+c})%.",
+        "question_images": [],
+        "solution": "Biến đổi %(M=\\frac{1}{2}\\left(\\frac{1}{1+\\frac{a}{b}}+\\frac{1}{1+\\frac{b}{c}}\\right)+\\frac{5}{1+\\frac{c}{a}})%<br>Ta có bất đẳng thức %(\\frac{1}{1+x}+\\frac{1}{1+y} \\geq \\frac{2}{1+\\sqrt{x y}},(\\forall x, y\\gt 0, x y \\geq 1))%T<br>hật vậy %(\\frac{1}{1+x}+\\frac{1}{1+y} \\geq \\frac{2}{1+\\sqrt{x y}} \\Leftrightarrow(\\sqrt{x}-\\sqrt{y})^{2}(\\sqrt{x y}-1) \\geq 0)%, đúng %(\\forall x, y>0, x y \\geq 1)%.<br>Do đó %(M \\geq \\frac{1}{2} \\cdot \\frac{2}{1+\\sqrt{\\frac{a}{c}}}+\\frac{5}{1+\\frac{c}{a}})%Đặt %(t=\\frac{a}{c})%.<br>Vì %(a \\geq b \\geq c>0)% nên %(t \\geq 1 \\Rightarrow t \\geq \\sqrt{t})%.<br>Suy ra %(M \\geq \\frac{1}{1+t}+\\frac{5 t}{1+t}=\\frac{5 t+1}{t+1})%<br>Xét hàm số %(f(t)=\\frac{5 t+1}{t+1})%, ta có %(f^{\\prime}(t)=\\frac{4}{(t+1)^{2}}>0, \\forall t \\in[1 ;+\\infty))% nên %(f(t))% đồng biến trên %([1 ;+\\infty))%<br>Do đó %(f(t) \\geq f(1), \\forall t \\geq 1)%V<br>ậy %(M_{\\min }=f(1)=3)%, khi %(t=1 \\Leftrightarrow a=b=c)%",
+        "question_type": "essay"
+    }
+]

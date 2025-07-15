@@ -1,0 +1,143 @@
+[
+    {
+        "title": "1.1",
+        "group_content": "Phân tích các đa thức sau thành nhân tử:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) %(x^{4}+2024 x^{2}+2023 x+2024)%",
+        "question_images": [],
+        "solution": "%(x^{4}+2024 x^{2}+2023 x+2024)%<br>%(\\begin{aligned} &=\\left(x^{4}-x\\right)+\\left(2024 x^{2}+2024 x+2024\\right) \\\\ = & x\\left(x^{3}-1\\right)+2024\\left(x^{2}+x+1\\right) \\\\ = & x(x-1)\\left(x^{2}+x+1\\right)+2024\\left(x^{2}+x+1\\right) \\\\ = & \\left(x^{2}+x+1\\right)\\left(x^{2}-x+2024\\right)\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) %(x(x+4)(x+6)(x+10)+128)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}x(x+4)(x+6)(x+10)+128 \\\\ =\\left(x^{2}+10 x\\right)\\left(x^{2}+10 x+24\\right)+128\\end{array})%<br>Đặt %(x^{2}+10 x+12=t)%. Khi đó:<br>\\[\\begin{array}{l}=(\\mathrm{t}-12)(\\mathrm{t}+12)+128=\\mathrm{t}^{2}-144+128 \\\\=\\mathrm{t}^{2}-16=(\\mathrm{t}-4)(\\mathrm{t}+4) \\\\=\\left(\\mathrm{x}^{2}+10 \\mathrm{x}+16\\right)\\left(\\mathrm{x}^{2}+10 \\mathrm{x}+8\\right)=(\\mathrm{x}+2)(\\mathrm{x}+8)\\left(\\mathrm{x}^{2}+10 \\mathrm{x}+8\\right)\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.2 ",
+        "point": 1.0,
+        "content": "Cho %(\\mathrm{x})%, %(\\mathrm{y})% là các số hữu tỷ khác 1 thỏa mãn: %(\\frac{1-2 \\mathrm{x}}{1-\\mathrm{x}}+\\frac{1-2 \\mathrm{y}}{1-\\mathrm{y}}=1)%.<br>Chứng minh %(\\mathrm{M}=\\mathrm{x}^{2}+\\mathrm{y}^{2}-\\mathrm{xy})% là bình phương của một số hữu tỷ.",
+        "question_images": [],
+        "solution": "Ta có: %(\\frac{1-2 x}{1-x}+\\frac{1-2 y}{1-y}=1 \\Leftrightarrow(1-2 x)(1-y)+(1-2 y)(1-x)=(1-x)(1-y))%<br>\\[\\begin{array}{l}\\Leftrightarrow 1-y-2 x+2 x y+1-x-2 y+2 x y=1-x-y+x y \\\\Leftrightarrow 3 x y=2 x+2 y-1 \\\\Rightarrow M=x^{2}+y^{2}-x y=(x+y)^{2}-3 x y \\\\=(x+y)^{2}-(2 x+2 y-1)=(x+y)^{2}-2(x+y)+1=(x+y-1)^{2}\\end{array}\\]<br>Mà %(x, y)% là các số hữu tỷ khác 1%(\\Rightarrow M=x^{2}+y^{2}-x y)% là bình phương của một số hữu tỷ (đpcm).",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.3",
+        "group_content": "Cho biểu thức %(A=\\frac{x^{3}+x^{2}}{x^{3}-2 x^{2}+x}:\\left(\\frac{x^{2}+x}{x^{2}}+\\frac{1}{x-1}+\\frac{2-x^{2}}{x^{2}-x}\\right))% với %(x \\neq 0 ; x \\neq \\pm 1)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Rút gọn biểu thức",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} A & =\\frac{x^{3}+x^{2}}{x^{3}-2 x^{2}+x}:\\left(\\frac{x^{2}+x}{x^{2}}+\\frac{1}{x-1}+\\frac{2-x^{2}}{x^{2}-x}\\right) \\\\ & =\\frac{x^{2}(x+1)}{x(x-1)^{2}}:\\left(\\frac{x(x+1)}{x^{2}}+\\frac{1}{x-1}+\\frac{2-x^{2}}{x(x-1)}\\right) \\\\ & =\\frac{x(x+1)}{(x-1)^{2}}: \\frac{(x+1)(x-1)+x+2-x^{2}}{x(x-1)}\\end{aligned})%<br>%(\\begin{array}{l}=\\frac{x(x+1)}{(x-1)^{2}}: \\frac{x+1}{x(x-1)} \\\\ =\\frac{x(x+1)}{(x-1)^{2}} \\cdot \\frac{x(x-1)}{x+1}=\\frac{x^{2}}{x-1} .\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm giá trị nhỏ nhất của biểu thức %(\\mathrm{A})% khi %(\\mathrm{x}\\gt 1)%.",
+        "question_images": [],
+        "solution": "Ta có %(\\frac{x^{2}}{x-1}=x+1+\\frac{1}{x-1}=x-1+\\frac{1}{x-1}+2)%<br>Áp dụng bất đẳng thức Côsi cho 2 số dương %(x-1)% và %(\\frac{1}{x-1})% khi %(x\\gt 1)%.<br>\\[x-1+\\frac{1}{x-1} \\geq 2 \\sqrt{(x-1) \\cdot \\frac{1}{x-1}}=2 \\Rightarrow x-1+\\frac{1}{x-1}+2 \\geq 2+2=4\\]<br>Dấu \" %(=)% \" xảy ra khi %(x-1=\\frac{1}{x-1} \\Leftrightarrow(x-1)^{2}=1 \\Leftrightarrow\\left[\\begin{array}{l}x-1=1 \\\\ x-1=-1\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=2(T M) \\\\ x=0(L)\\end{array}\\right.\\right.)%<br>Vậy %(\\mathrm{P}_{\\text {min }}=4)% khi %(x=2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.1 ",
+        "point": 1.5,
+        "content": "Giải các phương trình sau: %(\\frac{4}{x^{2}-4}+\\frac{1}{x^{2}+5 x+6}=\\frac{-5}{4})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Ta có } \\frac{4}{x^{2}-4}+\\frac{1}{x^{2}+5 x+6}=\\frac{-5}{4} \\\\text { ( ĐK: } x \\neq \\pm 2 ; x \\neq-3 \\text { ) } \\\\Leftrightarrow \\frac{4}{(x-2)(x+2)}+\\frac{1}{(x+2)(x+3)}=\\frac{-5}{4} \\\\Leftrightarrow \\frac{4(\\mathrm{x}+3)}{(\\mathrm{x}-2)(\\mathrm{x}+2)}+\\frac{(\\mathrm{x}-2)}{(\\mathrm{x}+2)(\\mathrm{x}+3)}=\\frac{-5}{4} \\\\Leftrightarrow \\frac{5 x+10}{\\left(x^{2}-4\\right)(x+3)}=\\frac{-5}{4} \\Leftrightarrow \\frac{x+2}{x^{3}-4 x+3 x^{2}-12}=\\frac{-1}{4} \\\\Leftrightarrow x^{3}+3 x^{2}-4=0 \\Leftrightarrow x^{3}-x^{2}+4 x^{2}-4=0 \\\\Leftrightarrow x^{2}(x-1)+4(x-1)(x+1)=0 \\Leftrightarrow(x-1)\\left(x^{2}+4 x+4\\right)=0 \\\\Leftrightarrow(\\mathrm{x}-1)(\\mathrm{x}+2)^{2}=0 \\\\Leftrightarrow\\left[\\begin{array} { l } { \\mathrm { x } - 1 = 0 } \\\\{ \\mathrm { x } + 2 = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}\\mathrm{x}=1 \\text { (TM) } \\\\mathrm{x}=-2 \\text { (L) }\\end{array}\\right.\\right. \\\\end{array}\\]<br>Vậy tập nghiệm là %(S=\\{1\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.2 ",
+        "point": 1.0,
+        "content": "Cho %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}=)% 2025. Tính giá trị biểu thức: %(\\mathrm{P}=\\frac{\\mathrm{a}^{3}+\\mathrm{b}^{3}+\\mathrm{c}^{3}-3 \\mathrm{abc}}{\\mathrm{a}^{2}+\\mathrm{b}^{2}+\\mathrm{c}^{2}-\\mathrm{ab}-\\mathrm{ac}-\\mathrm{bc}})%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Ta có: } a^{3}+b^{3}+c^{3}-3 a b c=(a+b)^{3}+c^{3}-3 a^{2} b-3 a b^{2}-3 a b c \\\\ =(a+b+c)\\left[(a+b)^{2}-(a+b) c+c^{2}\\right]-3 a b(a+b+c) \\\\ =(a+b+c)\\left[(a+b)^{2}-(a+b) c+c^{2}-3 a b\\right] \\\\ =(a+b+c)\\left(a^{2}+b^{2}+c^{2}-a b-b c-c a\\right) \\\\ \\Rightarrow P=\\frac{(a+b+c)\\left(a^{2}+b^{2}+c^{2}-a b-a c-b c\\right)}{a^{2}+b^{2}+c^{2}-a b-a c-b c} \\\\ \\Rightarrow P=a+b+c \\Rightarrow P=2025\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.3 ",
+        "point": 1.5,
+        "content": "Cho hai đa thức %(P(x)=\\mathrm{ax}^{4}+b x^{3}+1)% và %(Q(x)=\\mathrm{x}^{2}-2 x+1)%. Xác định các giá trị của %(a)% và %(b)% để đa thức %(P(x))% chia hết cho đa thức %(Q(x))%.",
+        "question_images": [],
+        "solution": "%(Q(x)=x^{2}-2 x+1=(x-1)^{2})% nên đa thức %(Q(x))% có nghiệm %(x=1)%<br>Áp dụng định lý Bơzu ta được %(\\mathrm{P}(\\mathrm{x}) \\vdots \\mathrm{Q}(\\mathrm{x}) \\Rightarrow \\mathrm{P}(1)=0)%%(\\Leftrightarrow a+b+1=0 \\Leftrightarrow b=-a-1)%<br>Thay %(b=-a-1 \\Rightarrow P(x)=a x^{4}-a x^{3}-x^{3}+1=(x-1)\\left(a x^{3}-x^{2}-x-1\\right))%%(P(x): Q(x) \\Leftrightarrow a x^{3}-x^{2}-x-1: x-1)%Đặt %(R(x)=a x^{3}-x^{2}-x-1)%%(R(x):(x-1) \\Leftrightarrow R(1)=0)%%(\\Leftrightarrow a-1-1-1=0 \\Leftrightarrow a=3)%<br>Thay %(\\mathrm{a}=3)% tìm được %(\\mathrm{b}=-4)%<br>Vậy %(a=3 ; \\mathrm{b}=-4)% thì đa thức %(\\mathrm{P}(\\mathrm{x}))% chia hết cho đa thức %(\\mathrm{Q}(\\mathrm{x}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.1 ",
+        "point": 2.0,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b})% là 2 số dương thỏa mãn %(\\mathrm{a}+\\mathrm{b} \\leq \\frac{4}{5})%. Chứng minh: %(\\mathrm{P}=\\mathrm{a}+\\mathrm{b}+\\frac{\\mathrm{a}+\\mathrm{b}}{\\mathrm{ab}} \\geq \\frac{29}{5})%.",
+        "question_images": [],
+        "solution": "Với %(\\mathrm{a}, \\mathrm{b}\\gt 0)%, ta có %(\\frac{1}{\\mathrm{a}}+\\frac{1}{\\mathrm{~b}} \\geq \\frac{4}{\\mathrm{a}+\\mathrm{b}})%<br>Mà %(\\mathrm{a}+\\mathrm{b} \\leq \\frac{4}{5})% nên %(\\frac{1}{\\mathrm{a}}+\\frac{1}{\\mathrm{~b}} \\geq 5)%<br>Biến đổi vế trái: %(\\mathrm{P}=\\mathrm{a}+\\mathrm{b}+\\frac{\\mathrm{a}+\\mathrm{b}}{\\mathrm{ab}})%<br>\\[\\begin{array}{l}=a+b+\\frac{1}{a}+\\frac{1}{b}=a+b+\\frac{4}{25 a}+\\frac{21}{25 a}+\\frac{4}{25 b}+\\frac{21}{25 b} \\\\=\\left(a+\\frac{4}{25 a}\\right)+\\left(b+\\frac{4}{25 b}\\right)+\\frac{21}{25}\\left(\\frac{1}{a}+\\frac{1}{b}\\right)\\end{array}\\]<br>Áp dụng bất đẳng thức Cô si với hai số dương ta có:<br>\\[\\begin{array}{l}a+\\frac{4}{25 a} \\geq 2 \\sqrt{a \\cdot \\frac{4}{25 a}}=\\frac{4}{5} \\b+\\frac{4}{25 b} \\geq 2 \\sqrt{b \\cdot \\frac{4}{25 b}}=\\frac{4}{5}\\end{array}\\]<br>Từ (1) và (2) ta có: %(\\mathrm{P} \\geq \\frac{4}{5}+\\frac{4}{5}+\\frac{21}{25} \\cdot 5=\\frac{29}{5})%<br>Dấu \"=\" xảy ra khi %(\\mathrm{a}=\\mathrm{b}=\\frac{2}{5})%Vậy %(\\mathrm{P}=\\mathrm{a}+\\mathrm{b}+\\frac{\\mathrm{a}+\\mathrm{b}}{\\mathrm{ab}} \\geq \\frac{29}{5})% (Dấu \" %(=)% \" xảy ra khi %(\\mathrm{a}=\\mathrm{b}=\\frac{2}{5})%)",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.2 ",
+        "point": 2.0,
+        "content": "Tìm các số tự nhiên %(n)% để %(\\left(n^{2}-8\\right)^{2}+36)% là số nguyên tố.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Ta có: }\\left(n^{2}-8\\right)^{2}+36=n^{4}-16 n^{2}+64+36=n^{4}-16 n^{2}+100 \\\\ =n^{4}+20 n^{2}+100-36 n^{2}=\\left(n^{2}+10\\right)^{2}-36 n^{2}=\\left(n^{2}+10+6 n\\right)\\left(n^{2}+10-6 n\\right) \\\\ \\text { Vì } n \\in N^{*} \\text { nên } n^{2}+6 n+10\\gt n^{2}-6 n+10\\end{array})%<br>để %(\\left(\\mathrm{n}^{2}-8\\right)^{2}+36)% là số nguyên tố thì %(\\left[\\begin{array}{l}n^{2}+6 n+10=1 \\\\ n^{2}-6 n+10=1\\end{array}\\right.)%Mà %(n^{2}+6 n+10\\gt n^{2}-6 n+10)% nên %(n^{2}-6 n+10=1)% %(\\Leftrightarrow \\mathrm{n}^{2}-6 \\mathrm{n}+9=0 \\Leftrightarrow(\\mathrm{n}-3)^{2}=0 \\Leftrightarrow \\mathrm{n}=3)%<br>Với %(\\mathrm{n}=3 \\Rightarrow\\left(\\mathrm{n}^{2}-8\\right)^{2}+36=\\left(3^{2}-8\\right)^{2}+36=37)% là số nguyên tố<br>Vậy với %(\\mathrm{n}=3)% thì %(\\left(\\mathrm{n}^{2}-8\\right)^{2}+36)% là số nguyên tố",
+        "question_type": "essay"
+    },
+    {
+        "title": "4.1",
+        "group_content": "Cho %(\\triangle A B C)% vuông tại %(A)% có %(A B\\lt A C)%. Kẻ đường cao %(A H(H \\in B C))%, phân giác %(A M)% %((M \\in B C))%. Kẻ %(M E)% vuông góc với %(A B)% tại %(E, M F)% vuông góc với %(A C)% tại %(F)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.25,
+        "content": "a) Chứng minh: %(B E \\cdot B A=B H \\cdot B M)% và %(H E)% là tia phân giác của góc %(A H B)%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\mathrm{M}_{1}=\\mathrm{C})% (đồng vị)<br>Mà: %(A_{1}=C)% (cùng phụ với %(B)% ) %(\\Rightarrow A_{1}=M_{1}(=C)% )<br>Xét %(\\triangle \\mathrm{BEM})% và %(\\triangle \\mathrm{BHA})% có: %(\\left\\{\\begin{array}{l}\\mathrm{A}_{1}=\\mathrm{M}_{1}(\\mathrm{cmt}) \\\\ \\mathrm{B} \\text { Chung }\\end{array} \\Rightarrow \\triangle \\mathrm{BEM} \\sim \\triangle \\mathrm{BHA}(\\mathrm{g} . \\mathrm{g})\\right.)%%(\\Rightarrow \\frac{\\mathrm{BE}}{\\mathrm{BH}}=\\frac{\\mathrm{BM}}{\\mathrm{BA}} \\Rightarrow \\mathrm{BE} \\cdot \\mathrm{BE}=\\mathrm{BH} \\cdot \\mathrm{BM}()%đpcm %())%<br>Xét %(\\triangle B H E)% và %(\\triangle B A M)% có: %(\\left\\{\\begin{array}{l}\\frac{B E}{B H}=\\frac{B M}{B A}(\\mathrm{cmt}) \\\\ B \\text { Chung }\\end{array} \\Rightarrow \\triangle B H E \\sim \\triangle B A M\\right.)% (c.g.c)%(\\Rightarrow \\mathrm{BHE}=\\mathrm{BAM})% (2 góc tương ứng)<br>Mặt khác: %(\\mathrm{AM})% là tia phân giác của %(\\mathrm{BAC}(\\mathrm{gt}) \\Rightarrow \\mathrm{BAM}=\\mathrm{A}_{2}=45^{\\circ})% %(\\Rightarrow \\mathrm{BHE}=\\mathrm{BAM}=45^{\\circ} \\Rightarrow \\mathrm{H}_{1}=\\mathrm{H}_{2}=45^{\\circ} \\Rightarrow \\mathrm{HE})% là tia phân giác của %(\\mathrm{AHB})% (đpcm)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b31d11f01db48d607e1487d4bc3eba5b.png\" srcset=\"https://docdn.giainhanh.io/media/test/648376af29c882dee76909f70b5e5992.png 245w, https://docdn.giainhanh.io/media/test/9774003f3b4078a561969454a4a3ce2e.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.75,
+        "content": "b) Chứng minh: %(\\frac{B E}{C F}=\\frac{H B}{H C})%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\left\\{\\begin{array}{l}\\mathrm{E}=\\mathrm{A}=\\mathrm{F}=90^{\\circ}(\\mathrm{gt}) \\\\ \\mathrm{BAM}=\\mathrm{MAC}=45^{\\circ}(\\mathrm{gt})\\end{array} \\Rightarrow \\square\\right.)%EMFA là hình vuông %(\\Rightarrow \\mathrm{EM}=\\mathrm{MF}=\\mathrm{FA}=\\mathrm{AE})%<br>Mà: %(\\triangle B E M \\sim \\triangle A H C()% g.g %()\\left(\\right.)%Do: %(\\left\\{\\begin{array}{l}\\mathrm{E}=\\mathrm{H}=90^{\\circ} \\\\ \\mathrm{M}_{1}=\\mathrm{C}\\end{array}\\right))%<br>\\[\\Rightarrow \\frac{\\mathrm{BE}}{\\mathrm{AH}}=\\frac{\\mathrm{EM}}{\\mathrm{HC}} \\Rightarrow \\mathrm{BE} \\cdot \\mathrm{HC}=\\mathrm{AH} \\cdot \\mathrm{EM}=\\mathrm{AH} \\cdot \\mathrm{MF}(\\mathrm{Do}: \\mathrm{EM}=\\mathrm{MF})\\]<br>Mặt khác: %(\\triangle \\mathrm{BHA} \\sim \\triangle \\mathrm{MFC}(\\mathrm{g} . \\mathrm{g})\\left(\\mathrm{Do}:\\left\\{\\begin{array}{l}\\mathrm{B}=\\mathrm{M}_{4} \\\\ \\mathrm{~A}_{1}=\\mathrm{C}\\end{array}\\right)\\right.)%<br>\\[\\Rightarrow \\frac{\\mathrm{BH}}{\\mathrm{MF}}=\\frac{\\mathrm{HA}}{\\mathrm{FC}} \\Rightarrow \\mathrm{BH} . \\mathrm{CF}=\\mathrm{AH} . \\mathrm{MF} \\text { (2) }\\]<br>Từ %((1))% và %((2) \\Rightarrow B E \\cdot H C=B H . C F(=A H . M F) \\Rightarrow \\frac{B E}{C F}=\\frac{\\mathrm{HB}}{\\mathrm{HC}}(đ p c m))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4.2 ",
+        "point": 2.0,
+        "content": "Một khối chóp đựng nước có dạng hình chóp tứ giác đều %(\\mathrm{S})%. %(\\mathrm{ABCD})% có chiều cao bằng %(9 \\mathrm{dm})%, diện tích toàn phần bằng %(204 \\mathrm{dm}^{2})% và diện tích xung quanh bằng %(168 \\mathrm{dm}^{2})%. Giả sử người ta sử dụng khối chóp này để chứa nước tưới tiêu cho cây hoa màu. Biết rằng cứ cách một ngày sẽ phải tưới nước một lần, mỗi lần tưới hết 10 lít nước. Hỏi sau bao nhiêu ngày sẽ dùng hết số nước trong khối chóp?",
+        "question_images": [],
+        "solution": "+) Ta có: %(S_{t p}=S_{x q}+S_{\\text {đáy }}=\\gt 204=168+S_{\\text {đáy }})%<br>Vì %(\\mathrm{S} . \\mathrm{ABCD})% là hình chóp tứ giác đều nên đáy %(\\mathrm{ABCD})% là hình vuông có cạnh là %(\\mathrm{a}(\\mathrm{dm}) \\Rightarrow S_{\\text {dáy }}=a \\cdot a=204-168=36 \\mathrm{dm}^{2} \\Rightarrow a=6 \\mathrm{dm})%<br>Vậy cạnh đáy có chiều dài bằng %(6 \\mathrm{dm})%.<br>+ ) Thế tích của hình chóp bằng:<br>\\[V=\\frac{1}{3} \\cdot S_{\\text {đáy } y} \\cdot h=\\frac{1}{3} \\cdot 36 \\cdot 9=108 \\mathrm{dm}^{3}\\]<br>+ ) Ta có %(1 \\mathrm{dm}^{3}=1)% lít nên %(108 \\mathrm{dm}^{3}=108)% lít nước<br>Do mỗi lần tưới nước chỉ tưới 10 lít nên số nước dùng được trong:<br>\\[\\frac{108}{10}=10,8 \\approx 11 \\text { ngày. }\\]<br>Theo đầu bài, vì cách một ngày mới tưới nước một lần nên, cần tổng số ngày sử dụng hết 108 lít nước là: %(11+10=21)% ngày.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/576ec75ac8dda8b3df19fd80cb99a21e.png\" srcset=\"https://docdn.giainhanh.io/media/test/75b1cbed66e8cc394b234d2f3d6205a3.png 199w\" width=\"199\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5.1 ",
+        "point": 0.5,
+        "content": "Trong 43 học sinh làm bài kiểm tra, không có học sinh nào bị điểm dưới 2 , chỉ có 2 học sinh đạt điểm 10. Chứng minh rằng ít nhất cũng tìm được 6 học sinh có điểm kiểm tra bằng nhau (điểm kiểm tra là một số tự nhiên).",
+        "question_images": [],
+        "solution": "Vì có 43 học sinh làm bài kiểm tra, không có học sinh nào bị điểm dưới 2 , chỉ có 2 học sinh đạt điểm 10.<br>Nên có 41 học sinh phân thành 8 loại điểm (từ 2 đến 9 )<br>Giả sử trong 8 loại điểm đều là điểm của không quá 5 học sinh thì lớp có: 5.8 = 40 học sinh, ít hơn 1 học sinh so với 41.<br>Theo nguyên lý Dirichlet tồn tại 6 học sinh có điểm kiểm tra bằng nhau.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5.2 ",
+        "point": 0.5,
+        "content": "Hai đội bóng bàn của hai trường %(\\mathrm{A})% và %(\\mathrm{B})% thi đấu giao hữu. Biết rằng mỗi đối thủ của đội trường %(\\mathrm{A})% phải lần lượt gặp các đối thủ của đội trường %(\\mathrm{B})% một lần và số trận đấu gấp đôi tổng số đối thủ của hai đội. Tính số đối thủ của trường %(\\mathrm{A})% và trường %(\\mathrm{B})%.",
+        "question_images": [],
+        "solution": "Gọi %(a)% và %(b)% lần lượt là số đối thủ của đội trường %(\\mathrm{A})% và của đội trường %(\\mathrm{B})%, với %(a, b \\in N^{*})%<br>Theo đề bài, ta có : %(a b=2(a+b) \\Leftrightarrow(a-2)(b-2)=4)%<br>Do %(a, b \\in N^{*} \\Rightarrow a-2 \\in Z ; b-2 \\in Z)%<br>Lập bảng :<br>Kết hợp điều kiện ta có : %(a=4 ; b=4)% hoặc %(a=3 ; b=6)% hoặc %(a=6 ; b=3)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b33efcec95cd73c883f4cdb498c123e0.png\" srcset=\"https://docdn.giainhanh.io/media/test/872050b01c4c53d4829a5b8f7984a082.png 245w, https://docdn.giainhanh.io/media/test/ab8c3c309e35b39803fb60386f5f22b4.png 500w, https://docdn.giainhanh.io/media/test/beab9338833228ecd058e445912fffb8.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    }
+]

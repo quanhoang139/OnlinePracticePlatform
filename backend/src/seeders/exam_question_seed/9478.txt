@@ -1,0 +1,112 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Phân tích đa thức thành nhân tử: %(M=(x+2)(x+3)(x+4)(x+5)-24)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}M=(x+2)(x+3)(x+4)(x+5)-24 \\\\ M=\\left(x^{2}+7 x+10\\right)\\left(x^{2}+7 x+12\\right)-24 \\\\ M=\\left(x^{2}+7 x+11-1\\right)\\left(x^{2}+7 x+11+1\\right)-24 \\\\ M=\\left(x^{2}+7 x+11\\right)^{2}-25 \\\\ M=\\left(x^{2}+7 x+6\\right)\\left(x^{2}+7 x+16\\right) \\\\ M=(x+1)(x+6)\\left(x^{2}+7 x+16\\right)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Cho %(a, b, c)% đôi một khác nhau và khác 0 . Chứng minh rằng:Nếu %(a+b+c=0)% thì %(\\left(\\frac{a-b}{c}+\\frac{b-c}{a}+\\frac{c-a}{b}\\right) \\cdot\\left(\\frac{c}{a-b}+\\frac{a}{b-c}+\\frac{b}{c-a}\\right)=9)%",
+        "question_images": [],
+        "solution": "Các ước dương của %(A)% là %(1 ; p ; p^{2} ; p^{3} ; p^{4})%<br>Tổng các ước là %(1+p+p^{2}+p^{3}+p^{4}=n^{2}(n \\in N))%<br>\\[\\Rightarrow 4+4 p+4 p^{2}+4 p^{3}+4 p^{4}=4 n^{2}\\]<br>Ta có:<br>\\[\\begin{array}{l}4 p^{4}+4 p^{3}+p^{2}\\lt 4 n^{2}\\lt 4 p^{4}+p^{2}+4+4 p^{3}+8 p^{2}+4 p \\\\Rightarrow\\left(2 p^{2}+p\\right)^{2}\\lt (2 n)^{2}\\lt \\left(2 p^{2}+p+2\\right)^{2} \\Rightarrow(2 n)^{2}=\\left(2 p^{2}+p+1\\right)^{2}\\end{array}\\]<br>Do đó :<br>\\[\\begin{array}{l}4 p^{4}+4 p^{3}+4 p^{2}+4 p+4=4 p^{4}+4 p^{3}+5 p^{2}+2 p+1 \\\\Leftrightarrow p^{2}-2 p-3=0 \\Leftrightarrow\\left[\\begin{array}{l}p_{1}=-1(\\mathrm{ktm}) \\p_{2}=3(\\mathrm{tm})\\end{array}\\right.\\end{array}\\]<br>Vậy %(p=3)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Cho %(A=p^{4})% trong đó %(p)% là số nguyên tố. Tìm các giá trị của %(p)% để tồng các ước dương của %(A)% là số chính phương.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Đặt } \\frac{a-b}{c}=x ; \\frac{b-c}{a}=y ; \\frac{c-a}{b}=z \\Rightarrow \\frac{c}{a-b}=\\frac{1}{x} ; \\frac{a}{b-c}=\\frac{1}{y} ; \\frac{b}{c-a}=\\frac{1}{z}(1) \\\\ \\Leftrightarrow(x+y+z)\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)=9 \\\\ \\text { Ta có: }(x+y+z)\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)=3+\\left(\\frac{y+z}{x}+\\frac{x+z}{y}+\\frac{x+y}{z}\\right)\\end{array})%<br>Ta lại có: %(\\frac{y+z}{x}=\\left(\\frac{b-c}{a}+\\frac{c-a}{b}\\right) \\cdot \\frac{c}{a-b}=\\frac{b^{2}-b c+a c-a^{2}}{a b} \\cdot \\frac{c}{a-b})%<br>\\[=\\frac{c(a-b)(c-a-b)}{a b(a-b)}=\\frac{c(c-a-b)}{a b}=\\frac{c[2 c-(a+b+c)]}{a b}=\\frac{2 c^{2}}{a b}\\]<br>Tương tự ta có: %(\\frac{x+z}{y}=\\frac{2 a^{2}}{b c} ; \\frac{x+y}{z}=\\frac{2 b^{2}}{a c})%<br>\\[(x+y+z)\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)=3+\\frac{2 c^{2}}{a b}+\\frac{2 a^{2}}{b c}+\\frac{2 b^{2}}{a c}=3+\\frac{2}{a b c}\\left(a^{3}+b^{3}+c^{3}\\right)\\]<br>Vì %(a+b+c=0 \\Rightarrow a^{3}+b^{3}+c^{3}=3 a b c)%<br>Do đó: %((x+y+z)\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)=3+\\frac{2}{a b c} \\cdot 3 a b c=3+6=9)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho biểu thức %(P=\\left(\\frac{x-4}{x^{3}-1}+\\frac{1}{x-1}\\right):\\left(1-\\frac{x-8}{x^{2}+x+1}\\right) \\quad(x \\neq 1))%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Rút gọn biểu thức P",
+        "question_images": [],
+        "solution": "Với %(x \\neq 1)% ta có:<br>\\[\\begin{array}{l}P=\\left(\\frac{x-4}{(x-1)\\left(x^{2}+x+1\\right)}+\\frac{x^{2}+x+1}{(x-1)\\left(x^{2}+x+1\\right)}\\right): \\frac{x^{2}+x+1-x+8}{x^{2}+x+1} \\\\=\\left(\\frac{x-4+x^{2}+x+1}{(x-1)\\left(x^{2}+x+1\\right)}\\right): \\frac{x^{2}+9}{x^{2}+x+1}=\\frac{x^{2}+2 x-3}{(x-1)\\left(x^{2}+x+1\\right)} \\cdot \\frac{x^{2}+x+1}{x^{2}+9} \\\\=\\frac{(x+3)(x-1)}{(x-1)\\left(x^{2}+9\\right)}=\\frac{x+3}{x^{2}+9}\\end{array}\\]<br>Vậy %(x \\neq 1)% thì %(P=\\frac{x+3}{x^{2}+9})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tính giá trị của P khi %({ }^{x})% là nghiệm của phương trình %(x^{2}-3 x+2=0)%",
+        "question_images": [],
+        "solution": "%(x^{2}-3 x+2=0 \\Rightarrow\\left[\\begin{array}{l}x=2(\\mathrm{tm}) \\\\ x=1(\\mathrm{ktm})\\end{array}\\right.)% thay %(x=2)% vào %(P)% ta có: %(P=\\frac{2+3}{2^{2}+9}=\\frac{5}{13})%<br>Kết luận với %(x=2)% thì %(P=\\frac{5}{13})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Chứng minh rằng: %(f(x)=\\left(x^{2}+x-1\\right)^{2018}+\\left(x^{2}-x+1\\right)^{2018}-2)% chia hết cho %(g(x)=x^{2}-x)%",
+        "question_images": [],
+        "solution": "Đa thức %(g(x)=x^{2}-x=x(x-1))% có hai nghiệm là %(x=0 \\quad v \\quad x=1)%<br>Ta có %(f(0)=(-1)^{2018}+1^{2018}-2=0 \\Rightarrow x=0)% là nghiệm của %(f(x))% %(\\Rightarrow f(x))% chứa thừa số %(x)%<br>Ta có %(f(1)=\\left(1^{2}+1-1\\right)^{2018}+\\left(1^{2}-1+1\\right)^{2018}-2=0 \\Rightarrow x=1)% là nghiệm của %(f(x))%<br>%(\\Rightarrow f(x))% chứa thừa số %(x-1)% mà các thừa số %(x)% và %(x-1)% không có nhân tử chung do đó %(f(x))% chia hết cho %(x(x-1))%<br>Vậy %(f(x)=\\left(x^{2}+x-1\\right)^{2018}+\\left(x^{2}-x+1\\right)^{2018}-2)% chia hết cho %(g(x)=x^{2}-x)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Tìm m để phương trình có nghiệm (với m tham số) %(\\frac{x-m}{x+3}+\\frac{x-3}{x+m}=2)%",
+        "question_images": [],
+        "solution": "ĐKXĐ: %(x \\neq-3 ; x \\neq-m)% ta có:<br>\\[\\begin{array}{l}\\frac{x-m}{x+3}+\\frac{x-3}{x+m}=2 \\Rightarrow x^{2}-m^{2}+x^{2}-9=2(x+3)(x+m) \\\\Leftrightarrow 2 x^{2}-m^{2}-9=2\\left(x^{2}+3 x+3 m+m x\\right) \\Leftrightarrow-2(m+3) x=(m+3)^{2}\\end{array}\\]<br>Với %(m=3)% thì (1) có dạng %(0 x=0)%.<br>Nghiệm đúng mọi %(x)% thỏa mãn điều kiện %(x \\neq-3)% %(x \\neq-m)%, do đó tập nghiệm của phương trình là %(x \\neq \\pm 3)%<br>Với %(m \\neq-3)% thì phương trình %((1))% có nghiệm %(x=-\\frac{(m+3)^{2}}{2(m+3)}=-\\frac{m+3}{2})%<br>Để giá trị này là nghiệm của phương trình thì ta phải có: %(-\\frac{m+3}{2} \\neq-3)% và %(-\\frac{m+3}{2} \\neq-m)% tức là %(m \\neq 3)%.<br>Vậy nếu %(m \\neq \\pm 3)% thì %(x=-\\frac{m+3}{2})% là nghiệm.<br>Kết luận : với %(m=-3)% thì %(S=\\{x / x \\neq \\pm 3\\})%.<br>Với %(m \\neq \\pm 3)% thì %(S=\\left\\{-\\frac{m+3}{2}\\right\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.5,
+        "content": "Giải phương trình: %(2 x(8 x-1)^{2} \\cdot(4 x-1)=9)%",
+        "question_images": [],
+        "solution": "Ta có: %(2 x(8 x-1)^{2}(4 x-1)=9)%<br>\\[\\Leftrightarrow\\left(64 x^{2}-16 x+1\\right)\\left(8 x^{2}-2 x\\right)=9 \\Leftrightarrow\\left(64 x^{2}-16 x+1\\right)\\left(64 x^{2}-16 x\\right)=72\\left({ }^{*}\\right)\\]<br>Đặt %(64 x^{2}-16 x=t)% ta có:%((*) \\Leftrightarrow t(t+1)-72=0 \\Leftrightarrow\\left[\\begin{array}{l}t=-9 \\\\ t=8\\end{array}\\right.)%<br>Với %(t=-9)% ta có: %(64 x^{2}-16 x=-9 \\Leftrightarrow 64 x^{2}-16 x+9=0 \\Leftrightarrow(8 x-1)^{2}+8=0)%(Vô nghiệm vì %((8 x-1)^{2}+8\\gt 0)% )<br>Với %(t=8)% ta có %(64 x^{2}-16 x=8 \\Leftrightarrow 64 x^{2}-16 x-8=0 \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{1}{2} \\\\ x=-\\frac{1}{4}\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho hình chữ nhật %(A B C D, A B=2 A D)%. Trên cạnh AD lấy điểm M , trên cạnh BC lấy điểm P sao cho %(A M=C P)%. Kẻ %(B H)% vuông góc với AC tại H . Gọi Q là trung điểm của %(C H)%, đường thẳng kẻ qua P song song với %(M Q)% cắt AC tại N .",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 3.0,
+        "content": "a) Chứng minh tứ giác %(M N P Q)% là hình bình hành",
+        "question_images": [],
+        "solution": "Chứng minh được %(D H / / B K(1))%<br>Chứng minh được %(\\triangle A H D=\\triangle C K B \\Rightarrow D H=B K)%(2)<br>Từ (1) và (2) suy ra tứ giác %(M N P Q)% là hình bình hành.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/75cad30424821153a9ae20e3ac727430.png\" srcset=\"https://docdn.giainhanh.io/media/test/83325013a8f3d36dc270a42f199a3935.png 245w, https://docdn.giainhanh.io/media/test/1843bbf7d46d49d7e2461c7634edecac.png 500w, https://docdn.giainhanh.io/media/test/8e8047742237b877c008d6eb0562f974.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Khi M là trung điểm của %(A D)%. Chứng minh %(B Q{\\text {vuông góc với }} N P)%",
+        "question_images": [],
+        "solution": "Gọi E là trung điểm %(B K)%, chứng minh được %(Q E)% là đường trung bình %(\\triangle K B C)% nên %(Q E / / B C \\Rightarrow Q E \\perp A B)% (vì %(B C \\perp A B)% ) và %(Q E=\\frac{1}{2} B C=\\frac{1}{2} A D)%<br>Chứng minh %(A M=Q E)% và %(A M / / Q E \\Rightarrow A M Q E)% là hình hành<br>Chứng minh %(A E / / N P / / M Q(3))%.<br>Xét %(\\triangle A Q B)% có BK và QE là hai đường cao của tam giác nên %(E)% là trực tâm của tam giác nên %(A E)% là đường cao thứ ba của tam giác %(A E \\perp B Q \\Rightarrow B Q \\perp N P)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Đường thẳng AP cắt DC tại điểm F . Chứng minh rằng %(\\frac{1}{A B^{2}}=\\frac{1}{A P^{2}}+\\frac{1}{4 A F^{2}})%",
+        "question_images": [],
+        "solution": "Vẽ tia %(A x)% vuông góc với AF .<br>Gọi giao của %(A x)% với CD là G .<br>Chứng minh %(G A D=B A P)% (cùng phụ với %(P A D) \\Rightarrow \\triangle A B P()% g.g %())%<br>\\[\\Rightarrow \\frac{A P}{A G}=\\frac{A B}{A D}=2 \\Rightarrow A G=\\frac{1}{2} A P\\]<br>Ta có: %(\\triangle A G F)% vuông tại A có %(A D \\perp G F)% nên %(A G \\cdot A F=A D \\cdot G F\\left(=2 S_{A G F}\\right))%<br>\\[\\Rightarrow A G^{2} \\cdot A F^{2}=A D^{2} \\cdot G F^{2}(1)\\]<br>Ta chia hai vế của (1) cho %(A D^{2} \\cdot A G^{2} \\cdot A F^{2})% mà %(A G^{2}+A F^{2}=G F^{2})% (đl Pytago)<br>\\[\\begin{array}{l}\\Rightarrow \\frac{1}{A D^{2}}=\\frac{1}{A G^{2}}+\\frac{1}{A F^{2}} \\Rightarrow \\frac{1}{\\left(\\frac{1}{2} A B\\right)^{2}}=\\frac{1}{\\left(\\frac{1}{2} A P\\right)^{2}}+\\frac{1}{A F^{2}} \\\\Rightarrow \\frac{4}{A B^{2}}=\\frac{4}{A P^{2}}+\\frac{1}{A F^{2}} \\Rightarrow \\frac{1}{A B^{2}}=\\frac{1}{A P^{2}}+\\frac{1}{4 A F^{2}}\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4dacf0965e6f3dfb3193d82616a20861.png\" srcset=\"https://docdn.giainhanh.io/media/test/03743b4914a2b5fa8d410647ee243097.png 245w, https://docdn.giainhanh.io/media/test/a79b718cfa95f4f0faac05c7a93c3713.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các tam giác vuông có số đo các cạnh là các số nguyên dương và số đo diện tích bằng số đo chu vi.",
+        "question_images": [],
+        "solution": "Gọi các cạnh của tam giác vuông là %(x, y, z)% trong đó cạnh huyền là %(z)% %((x, y, z)% là các số nguyên dương). Ta có<br>\\[x y=2(x+y+z) (1)\\]<br>và %(x^{2}+y^{2}=z^{2})% (2)<br>Từ (2) suy ra %(z^{2}=(x+y)^{2}-2 x y)%, thay (1) vào ta có:<br>\\[\\begin{array}{l}z^{2}=(x+y)^{2}-4(x+y+z) \\\\Leftrightarrow z^{2}+4 z=(x+y)^{2}-4(x+y) \\Leftrightarrow z^{2}+4 z+4=(x+y)^{2}-4(x+y)+4 \\\\Leftrightarrow(z+2)^{2}=(x+y-2)^{2} \\\\Leftrightarrow\\left[\\begin{array}{l}z+2=x+y-2 \\z+2=-x-y+2(k t m \\quad \\text { vi } \\quad z\\gt 0)\\end{array}\\right.\\end{array}\\]<br>%(\\Leftrightarrow z=x+y-4)%; thay vào (1) ta được: %(x y=2(x+y+x+y-4))%<br>\\[\\begin{array}{l}\\Leftrightarrow x y-4 x-4 y=-8 \\\\Leftrightarrow(x-4)(y-4)=8=1.8=2.4\\end{array}\\]<br>Từ đó tìm được các giá trị của %(x, y, z)% là:<br>\\[(x ; y ; z) \\in\\{(5 ; 12 ; 13) ;(12 ; 5 ; 13) ;(6 ; 8 ; 10) ;(8 ; 6 ; 10)\\}\\]",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1",
+        "group_content": "Giải các phương trình sau",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a. %(2 \\cos \\left(3 x-\\frac{2 \\pi}{3}\\right)+1=0)%.",
+        "question_images": [],
+        "solution": "%(2 \\cos \\left(3 x-\\frac{2 \\pi}{3}\\right)+1=0 \\Leftrightarrow \\cos \\left(3 x-\\frac{2 \\pi}{3}\\right)=\\cos \\frac{2 \\pi}{3} \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{4 \\pi}{9}+k \\frac{2 \\pi}{3} \\\\ x=k 2 \\pi\\end{array}(k \\in \\mathbb{Z})\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b. %(\\sqrt{3} \\sin 2 x+\\cos 2 x=1)%.",
+        "question_images": [],
+        "solution": "%(\\Leftrightarrow \\sin \\left(2 x+\\frac{\\pi}{6}\\right)=\\sin \\frac{\\pi}{6} \\Leftrightarrow\\left[\\begin{array}{l}x=k \\pi \\\\ x=\\frac{\\pi}{3}+k \\pi\\end{array} \\quad(k \\in \\mathbb{Z})\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Bình %(\\mathrm{A})% chứa 3 quả cầu xanh, 4 quả cầu đỏ và 5 quả cầu trắng. Bình %(\\mathrm{B})% chứa 4 quả cầu xanh, 3 quả cầu đỏ và 6 quả cầu trắng. Bình %(\\mathrm{C})% chứa 5 quả cầu xanh, 5 quả cầu đỏ và 2 quả cầu trắng. Từ mỗi bình lấy ra một quả cầu. Có bao nhiêu cách lấy để cuối cùng được 3 quả có màu giống nhau.",
+        "question_images": [],
+        "solution": "Trường hợp 1: Lấy được 3 quả cầu xanh từ 3 bình: Số cách lấy:<br>\\[C_{3}^{1} C_{4}^{1} C_{5}^{1}=60 \\text { (cách) }\\]<br>Trường hợp 2: Lấy được 3 quả cầu đỏ từ 3 bình: Số cách lấy: %(C_{4}^{1} C_{3}^{1} C_{5}^{1}=60)% (cách)<br>Trường hợp 3: Lấy được 3 quả cầu trắng từ 3 bình: Số cách lấy:<br>\\[C_{5}^{1} C_{6}^{1} C_{2}^{1}=60 \\text { (cách) }\\]<br>Vậy có %(60.3=180)% cách lấy được 3 quả cùng màu từ 3 bình.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tìm hệ số của số hạng chứa %(x^{8})% trong khai triển %(\\left(3 x^{2}+\\frac{x}{2}\\right)^{6}, x \\neq 0)%.",
+        "question_images": [],
+        "solution": "Ta có: %(T_{k+1}=C_{6}^{k}\\left(3 x^{2}\\right)^{6-k}\\left(\\frac{x}{2}\\right)^{k}=C_{6}^{k} \\frac{3^{6-k}}{2^{k}} x^{12-k})%<br>Số hạng chứa %(x^{8} \\Leftrightarrow 12-k=8 \\Leftrightarrow k=4)%<br>Vậy hệ số của số hạng chứa %(x^{8})% là %(C_{6}^{4} \\frac{3^{6-4}}{2^{4}}=\\frac{135}{16})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Cho 100 tấm thẻ được đánh số từ 1 đến 100 , chọn ngẫu nhiên 3 tấm thẻ.Tính xác suất để chọn được 3 tấm thẻ có tổng các số ghi trên thẻ là số chia hết cho 2 .",
+        "question_images": [],
+        "solution": "Số phần tử của không gian mẫu là %(n(\\Omega)=C_{100}^{3}=161700)%.<br>Gọi %(A)% : \"tổng các số ghi trên thẻ là số chia hết cho 2 \". %(n(A)=C_{50}^{3}+C_{50}^{1} C_{50}^{2}=80850 \\Rightarrow P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{1}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng với mọi số nguyên dương %(n)%, ta có: %(1.4+2.7+\\cdots+n(3 n+1)=n(n+1)^{2})%",
+        "question_images": [],
+        "solution": "Với %(n=1)% : Vế trái của %((1)=1.4=4)%; Vế phải của %((1)=1(1+1)^{2}=4)%.<br>Suy ra Vế trái của (1) = Vế phải của (1).<br>Vậy (1) đúng với %(\\mathrm{n}=1)%.<br>Giả sử (1) đúng với %(n=k)%. Có nghĩa là ta có: %(1.4+2.7+\\cdots+k(3 k+1)=k(k+1)^{2})%<br>Ta phải chứng minh (1) đúng với %(n=k+1)%.<br>Có nghĩa ta phải chứng minh:<br>\\[1.4+2.7+\\cdots+k(3 k+1)+(k+1)(3 k+4)=(k+1)(k+2)^{2}\\]<br>Thật vậy<br>\\[[1.4+2.7+\\cdots+k(3 k+1)]+(k+1)(3 k+4)=k(k+1)^{2}+(k+1)(3 k+4)=(k+1)(k+2)^{2}\\]<br>(đpcm).",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho cấp số cộng %(\\left(u_{n}\\right))% thỏa %(\\left\\{\\begin{array}{l}3 u_{3}+u_{5}+u_{8}=83 \\\\ 2 u_{8}-3 u_{5}=5\\end{array}\\right.)%.<br>Xác định công sai và số hạng đầu của cấp số cộng trên.",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}3 u_{3}+u_{5}+u_{8}=83 \\\\ 2 u_{8}-3 u_{5}=5\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}5 u_{1}+17 d=83 \\\\ -u_{1}+2 d=5\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}u_{1}=3 \\\\ d=4\\end{array}\\right.\\right.\\right.)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho hình chóp %(S . A B C D)% có đáy %(A B C D)% là hình bình hành tâm %(O)%. Gọi %(M, N, P)% lần lượt là trung điểm của %(S A, B C, C D)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a. Tìm giao tuyến của hai mặt phẳng %((S A B))% và %((S C D))%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Ta có }\\left\\{\\begin{array}{l}S \\in(S A B) \\cap(S C D) \\\\ A B \\| C D \\\\ A B \\subset(S A B) ; \\mathrm{CD} \\subset(S C D)\\end{array}\\right. \\\\ \\Rightarrow(S A B) \\cap(S C D)=S x, S x\\|A B\\| C D .\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b. Tìm giao điểm %(E)% của đường thẳng %(S B)% và mặt phẳng %((M N P))%.",
+        "question_images": [],
+        "solution": "Ta có %(M \\in(M N P) \\cap(S A B))% (1).<br>Trong %(\\quad \\mathrm{mp} \\quad(A B C D))% goi<br>\\[\\begin{array}{l}K=N P \\cap A B \\Rightarrow\\left\\{\\begin{array}{l}K \\in N P, N P \\subset(M N P) \\K \\in A B, A B \\subset(S A B)\\end{array}\\right. \\\\Rightarrow K \\in(M N P) \\cap(S A B)(2) .\\end{array}\\]<br>Từ (1) và (2) suy ra %((M N P) \\cap(S A B)=M K)%.<br>Trong %(\\operatorname{mp}(S A B))%<br>gọi %(E=M K \\cap S B \\Rightarrow\\left\\{\\begin{array}{l}E \\in S B \\\\ E \\in M K, M K \\subset(M N P)\\end{array} \\Rightarrow E=S B \\cap(M N P)\\right.)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c. Chứng minh rằng %(N E \\|(S A P))%.",
+        "question_images": [],
+        "solution": "Trong mp %((S A B))% dựng %(M L \\| A B, L \\in S B)%<br>Tứ giác %(B K L M)% là hình bình hành %(\\Rightarrow E)% trung điểm của %(K M)%<br>Suy ra %(E N)% là đường trung bình của tam giác %(K M P \\Rightarrow E N \\| M P)%<br>mà %(M P \\subset(S A P) \\Rightarrow E N \\|(S A P))%.",
+        "question_type": "essay"
+    }
+]

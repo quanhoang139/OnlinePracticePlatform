@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Rút gọn biểu thức %(A=\\left(\\frac{x+2}{x \\sqrt{x}-1}+\\frac{\\sqrt{x}+2}{x+\\sqrt{x}+1}+\\frac{1}{1-\\sqrt{x}}\\right): \\frac{\\sqrt{x}+1}{x+\\sqrt{x}+1})% với %(x \\geq 0, x \\neq 1)%.",
+        "question_images": [],
+        "solution": "%(A=\\frac{x+2+x+\\sqrt{x}-2-x-\\sqrt{x}-1}{(\\sqrt{x}-1)(x+\\sqrt{x}+1)} \\cdot \\frac{x+\\sqrt{x}+1}{\\sqrt{x}+1})%<br>%(=\\frac{x-1}{(\\sqrt{x}-1)(x+\\sqrt{x}+1)} \\cdot \\frac{x+\\sqrt{x}+1}{\\sqrt{x}+1}=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 0.5,
+        "content": "Cho %(x=\\frac{(\\sqrt{3}-1) \\cdot \\sqrt[3]{10+6 \\sqrt{3}}}{\\sqrt{21+4 \\sqrt{5}}+3})%, tính giá trị của biểu thức %(P=\\left(x^{2}+4 x-2\\right)^{2013})%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}x=\\frac{(\\sqrt{3}-1) \\cdot \\sqrt[3]{(\\sqrt{3}+1)^{3}}}{\\sqrt{(\\sqrt{20}+1)^{2}}+3}=\\frac{(\\sqrt{3}-1)(\\sqrt{3}+1)}{\\sqrt{20}+4}=\\frac{2}{2(\\sqrt{5}+2)}=\\sqrt{5}-2 . \\\\ \\Rightarrow x^{2}+4 x-1=0 \\Rightarrow P=-1\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho phương trình: %(2 x^{2}-4 m x+2 m^{2}-1=0(1))%, với %(x)% là ẩn, %(m)% là tham số.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Chứng minh với mọi giá trị của %(m)%, phương trình (1) luôn có hai nghiệm phân biệt.",
+        "question_images": [],
+        "solution": "%(\\Delta^{\\prime}=4 m^{2}-2\\left(2 m^{2}-1\\right)=2\\gt 0)% với mọi %(m)%.<br>Vậy (1) luôn có hai nghiệm phân biệt với mọi %(m)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Gọi hai nghiệm của phương trình (1) là %(x_{1}, x_{2})%. Tìm %(m)% để %(2 x_{1}^{2}+4 m x_{2}+2 m^{2}-9\\lt 0)%.",
+        "question_images": [],
+        "solution": "Theo ĐL Viét ta có %(x_{1}+x_{2}=2 m)%.<br>Do đó, %(2 x_{1}^{2}+4 m x_{2}+2 m^{2}-9=\\left(2 x_{1}^{2}-4 m x_{1}+2 m^{2}-1\\right)+4 m\\left(x_{1}+x_{2}\\right)-8)%. %(=8 m^{2}-8=8(m-1)(m+1)\\left(\\right.)% do %(\\left.2 x_{1}^{2}-4 m x_{1}+2 m^{2}-1=0\\right))%.<br>Yêu cầu bài toán: %((m-1)(m+1)\\lt 0 \\Leftrightarrow-1\\lt m\\lt 1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 0.5,
+        "content": "Cho các số dương %(x, y)% thỏa mãn %(x-y=x^{3}+y^{3})%. Chứng minh rằng %(x^{2}+y^{2}\\lt 1)%.",
+        "question_images": [],
+        "solution": "Do %(x^{3}\\gt 0, y^{3}>0)% nên %(x-y>0)%.<br>\\[x-y=x^{3}+y^{3}>x^{3}-y^{3} \\Rightarrow 1>x^{2}+x y+y^{2} \\Rightarrow x^{2}+y^{2}\\lt 1 .\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}2 x=y^{2}+1 \\\\ 2 y=z^{2}+1 \\\\ 2 z=x^{2}+1\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Cộng vế với vế các phương trình của hệ ta được:<br>\\[x^{2}-2 x+1+y^{2}-2 y+1+z^{2}-2 z+1=0 \\Leftrightarrow(x-1)^{2}+(y-1)^{2}+(z-1)^{2}=0\\]<br>Do %((x-1)^{2} \\geq 0,(y-1)^{2} \\geq 0,(z-1)^{2} \\geq 0)% nên %(V T(1) \\geq V P(1))%.<br>Dấu bằng xảy ra khi và chỉ khi %(x=y=z=1)%.<br>Thử lại, %(x=y=z=1)% là nghiệm của hệ.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho đường tròn tâm %(O)% đường kính %(B C=2 R)%, điểm %(A)% nằm ngoài đường tròn sao cho tam giác %(\\mathrm{ABC})% nhọn. Từ %(A)% kẻ hai tiếp tuyến %(A M, A N)% với đường tròn %((O)(M, N)% là hai tiếp điểm). Gọi %(H)% là trực tâm của tam giác %(A B C, F)% là giao điểm của %(A H)% và %(B C)%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Năm điểm %(A, O, M, N, F)% cùng nằm trên một đường tròn;",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/72d55fa438b5b30472abe71ccd2a781a.png\" srcset=\"https://docdn.giainhanh.io/media/test/8edc246ea84d1be88862dc8119f5260d.png 170w\" width=\"170\"/><br>Do các điểm %(M, N, F)% cùng nhìn đoạn %(A O)% dưới góc %(90^{\\circ})% nên %(A, O, M, N, F)% cùng thuộc đường tròn đường kính %(A O)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Ba điểm %(M, N, H)% thẳng hàng;",
+        "question_images": [],
+        "solution": "Ta có %(A M=A N)% (Tính chất tiếp tuyến).<br>Từ câu a) suy ra %(A N M=A F N)% (1).<br>Mặt khác, vì hai tam giác %(A D H, A F C)% đồng dạng; hai tam giác %(A D N, A N C)% đồng dạng nênên %(A H \\cdot A F=A D \\cdot A C=A N^{2} \\Rightarrow \\frac{A H}{A N}=\\frac{A N}{A F})%.<br>Do đó, hai tam giác %(A N H, A F N)% đồng dạng (c.g.c) %(\\Rightarrow A N H=A F N)% (2).<br>Từ (1), (2) ta có %(\\Rightarrow A N H=A N M \\Rightarrow H \\in M N \\Rightarrow)% đpcm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "%(H A . H F=R^{2}-O H^{2})%",
+        "question_images": [],
+        "solution": "Từ câu a) ta có %(H M \\cdot H N=H A \\cdot H F)%.<br>Gọi %(I=O A \\cap M N)% ta có %(I)% là trung điểm của %(M N)%.<br>\\[\\begin{array}{l}H M \\cdot H N=(I M+I H)(I M-I H)=I M^{2}-I H^{2} \\\\=O M^{2}-O I^{2}-\\left(O H^{2}-O I^{2}\\right)=R^{2}-O H^{2}\\end{array}\\]<br>Từ đó suy ra %(H A \\cdot H F=R^{2}-O H^{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các bộ số nguyên dương %((x ; y ; z))% thỏa mãn %(\\frac{x+y \\sqrt{2013}}{y+z \\sqrt{2013}})% là số hữu tỷ, đồng thời %(x^{2}+y^{2}+z^{2})% là số nguyên tố.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Ta có } \\frac{x+y \\sqrt{2013}}{y+z \\sqrt{2013}}=\\frac{m}{n}\\left(m, n \\in \\mathbb{N}^{*},(m, n)=1\\right) \\\\ \\Leftrightarrow n x-m y=(m z-n y) \\sqrt{2013} \\Rightarrow\\left\\{\\begin{array}{l}n x-m y=0 \\\\ m z-n y=0\\end{array} \\Rightarrow \\frac{x}{y}=\\frac{y}{z}=\\frac{m}{n} \\Rightarrow x z=y^{2} .\\right. \\\\ x^{2}+y^{2}+z^{2}=(x+z)^{2}-2 x z+y^{2}=(x+z)^{2}-y^{2}=(x+y+z)(x+z-y)\\end{array})%Vì %(x+y+z\\gt 1)% và %(x^{2}+y^{2}+z^{2})% là số nguyên tố nên %(\\left\\{\\begin{array}{l}x^{2}+y^{2}+z^{2}=x+y+z \\\\ x-y+z=1\\end{array}\\right.)% Từ đó suy ra %(x=y=z=1)% (thỏa mãn).",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Tính diện tích của ngũ giác lồi %(A B C D E)%, biết các tam giác %(A B C, B C D, C D E, D E A, E A B)% cùng có diện tích bằng 1.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/607d692d9462aaf8feab2bd8ef65286a.png\" srcset=\"https://docdn.giainhanh.io/media/test/745b8ab9340e9c58274076a60c96ca2c.png 224w\" width=\"224\"/><br>Gọi %(I=E C \\cap B D)%<br>Ta có %(S_{B A E}=S_{D A E})% nên khoảng cách từ %(B, D)% đến %(A E)% bằng nhau.<br>Do %(B, D)% cùng phía đối với đường thẳng %(A E)% nên %(B D / / A E)%.<br>Tương tự %(A B / / C E)%Do đó, %(A B I E)% là hình bình hành %(\\Rightarrow S_{I B E}=S_{A B E}=1)%<br>Đặt %(S_{I C D}=x(0\\lt x\\lt 1) \\Rightarrow S_{I B C}=S_{B C D}-S_{I C D}=1-x=S_{E C D}-S_{I C D}=S_{I E D})%Lại có %(\\frac{S_{I C D}}{S_{I D E}}=\\frac{I C}{I E}=\\frac{S_{I B C}}{S_{I B E}})% hay %(\\frac{x}{1-x}=\\frac{1-x}{1} \\Leftrightarrow x^{2}-3 x+1=0 \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{3+\\sqrt{5}}{2} \\\\ x=\\frac{3-\\sqrt{5}}{2}\\end{array}\\right.)%<br>Kết hợp điều kiện ta có %(x=\\frac{3-\\sqrt{5}}{2} \\Rightarrow S_{I E D}=\\frac{\\sqrt{5}-1}{2})%<br>Do đó %(S_{A B C D E}=S_{E A B}+S_{E B I}+S_{B C D}+S_{I E D}=3+\\frac{\\sqrt{5}-1}{2}=\\frac{5+\\sqrt{5}}{2})%.",
+        "question_type": "essay"
+    }
+]

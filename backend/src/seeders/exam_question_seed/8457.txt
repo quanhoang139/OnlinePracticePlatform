@@ -1,0 +1,88 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.5,
+        "content": "Chứng minh: %(n^{3}+2013 n^{2}+2 n)% chia hết cho 6 với mọi số dương %(\\mathrm{n})%.",
+        "question_images": [],
+        "solution": "Ta có<br>\\[\\begin{array}{l}n^{3}+2013 n^{2}+2 n=\\left(n^{3}+3 n^{2}+2 n\\right)+2010 n^{2} \\\\=n\\left(n^{2}+3 n+2\\right)+2010 n^{2} \\\\=n(n+1)(n+2)+2010 n^{2} \\\\text { Vì: }\\left\\{\\begin{array}{l}n(n+1)(n+2)\\ \\text{ chia hết cho}\\ 6 \\\\2010 n^{2}\\ \\text{ chia hết cho}\\ 6\\end{array}\\right.\\end{array}\\]<br>Nên : %(n(n+1)(n+2)+2010 n^{2})% chia hết cho %(6)%<br>Vậy: %(n^{3}+2013 n^{2}+2 n)% chia hết cho %(6)% với mọi số dương %(n)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.5,
+        "content": "Tìm số tự nhiên %(\\mathrm{n})% sao cho %(A=n^{2}+10 n+136)% có giá trị là số chính phương.",
+        "question_images": [],
+        "solution": "Vì n %(\\in \\mathrm{N}, \\mathrm{A})% là số chính phương nên:<br>\\[\\begin{array}{l}\\mathrm{n}^{2}+10 \\mathrm{n}+136=\\mathrm{k}^{2} \\\\Leftrightarrow(\\mathrm{n}+5)^{2}+111=\\mathrm{k}^{2} \\\\Leftrightarrow \\mathrm{k}^{2}-(\\mathrm{n}+5)^{2}=111=3.37=1.111\\end{array}\\]<br>Do: %(k+n+5\\gt k-n-5>0)% nên ta có hai hệ phương trình<br>(I) %(\\left\\{\\begin{array}{l}k-n-5=3 \\\\ k+n+5=37\\end{array}\\right.)% hoặc (II) %(\\left\\{\\begin{array}{l}\\mathrm{k}-\\mathrm{n}-5=1 \\\\ \\mathrm{k}+\\mathrm{n}+5=111\\end{array}\\right.)%<br>(Giải hệ pt (I) tìm được %(\\left\\{\\begin{array}{l}\\mathrm{k}=20 \\\\ \\mathrm{n}=12\\end{array}\\right.)%<br>Giải hệ phương trình (II) tìm được %(\\left\\{\\begin{array}{l}\\mathrm{k}=56 \\\\ \\mathrm{n}=50\\end{array}\\right.)%<br>Vậy %(\\mathrm{n} \\in\\{12 ; 50\\})% thì A là số chính phương",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Giải phương trình và hệ phương trình:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.5,
+        "content": "a) Giải phương trình %(\\sqrt{x-2}+\\sqrt{10-x}=x^{2}-12 x+40)%",
+        "question_images": [],
+        "solution": "ĐK: %(2 \\leq \\mathrm{x} \\leq 10)%<br>Ta có :<br>\\[\\text { Vế phải: } x^{2}-12 x+40=\\left(x^{2}-12 x+36\\right)+4=(\\mathrm{x}-6)^{2}+4 \\geq 4\\ (1)\\]<br>Vế trái: áp dụng BĐT Cauchy cho hai số không âm ta có:<br>\\[\\sqrt{x-2}+\\sqrt{10-x}=\\frac{\\sqrt{(x-2) \\cdot 4}}{2}+\\frac{\\sqrt{(10-x) \\cdot 4}}{2} \\leq \\frac{x-2+4}{4}+\\frac{10-x+4}{4}=4\\ (2)\\]<br>Từ (1) và (2) dấu bằng xảy ra khi<br>\\[\\left\\{\\begin{array}{l}x=6 \\x-2=4 \\\\10-x=4\\end{array}\\right.\\]<br>Vậy phương trình có nghiệm là %(\\mathrm{x}=6)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.5,
+        "content": "b) Giải hệ phương trình sau: %(\\left\\{\\begin{array}{l}\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=2 \\\\ \\frac{2}{x y}-\\frac{1}{z^{2}}=4\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "ĐK : %(\\text{x,y,z}\\neq 0)%<br>Từ pt %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=2 \\Rightarrow \\frac{1}{x^{2}}+\\frac{1}{y^{2}}+\\frac{1}{z^{2}}+\\frac{2}{x y}+\\frac{2}{x z}+\\frac{2}{y z}=4)%<br>Thay vào pt thứ hai của hệ ta được : %(\\frac{2}{x y}-\\frac{1}{z^{2}}=\\frac{1}{x^{2}}+\\frac{1}{y^{2}}+\\frac{1}{z^{2}}+\\frac{2}{x y}+\\frac{2}{x z}+\\frac{2}{y z})%<br>\\[\\begin{array}{l}\\Leftrightarrow \\frac{1}{x^{2}}+\\frac{1}{y^{2}}+\\frac{2}{z^{2}}+\\frac{2}{x z}+\\frac{2}{y z}=0 \\\\Leftrightarrow\\left(\\frac{1}{x^{2}}+\\frac{2}{x z}+\\frac{1}{z^{2}}\\right)+\\left(\\frac{1}{y^{2}}+\\frac{2}{y z}+\\frac{1}{z^{2}}\\right)=0 \\\\Leftrightarrow\\left(\\frac{1}{x}+\\frac{1}{z}\\right)^{2}+\\left(\\frac{1}{y}+\\frac{1}{z}\\right)^{2}=0\\end{array}\\]<br>\\[\\Leftrightarrow\\left\\{\\begin{array}{l}\\frac{1}{x}+\\frac{1}{z}=0 \\\\frac{1}{y}+\\frac{1}{z}=0\\end{array} \\Leftrightarrow x=y=-z\\right.\\]<br>Thay vào hệ đã cho ta được %((\\mathrm{x} ; \\mathrm{y} ; \\mathrm{z})=\\left(\\frac{1}{2} ; \\frac{1}{2} ;-\\frac{1}{2}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.5,
+        "content": "Cho %(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})% là ba số thực dương thỏa mãn %(\\mathrm{x}+\\mathrm{y}+\\mathrm{z}=2)%. Tìm giá trị nhỏ nhất của biểu thức %(\\mathrm{A}=\\frac{x^{2}}{y+z}+\\frac{y^{2}}{z+x}+\\frac{z^{2}}{x+y})%",
+        "question_images": [],
+        "solution": "Áp dụng BĐT Cauchy cho hai số dương %(\\frac{x^{2}}{y+z})% và %(\\frac{y+z}{4})% ta có:<br>\\[\\frac{x^{2}}{y+z}+\\frac{y+z}{4} \\geq 2 \\sqrt{\\frac{x^{2}}{y+z} \\cdot \\frac{y+z}{4}}=\\frac{2 x}{2}=x\\]<br>Tương tự ta có: %(\\frac{y^{2}}{z+x}+\\frac{z+x}{4} \\geq \\frac{2 y}{2}=y)%<br>\\[\\frac{z^{2}}{x+y}+\\frac{x+y}{4} \\geq \\frac{2 z}{2}=z\\]<br>Suy ra:<br>\\[\\begin{array}{l}\\frac{x^{2}}{y+z}+\\frac{y^{2}}{z+x}+\\frac{z^{2}}{x+y}+\\frac{x+y+y+z+z+x}{4} \\geq x+y+z \\\\Leftrightarrow \\frac{x^{2}}{y+z}+\\frac{y^{2}}{z+x}+\\frac{z^{2}}{x+y} \\geq \\frac{x+y+z}{2}=1\\end{array}\\]<br>Vậy A đạt GTNN là 1 khi %(x=y=z=\\frac{2}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.5,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c}\\gt 0)% và %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}=3)%. Chứng minh rằng: %(\\frac{a+1}{b^{2}+1}+\\frac{b+1}{c^{2}+1}+\\frac{c+1}{a^{2}+1} \\geq 3)%",
+        "question_images": [],
+        "solution": "Áp dụng BĐT Cauchy ta có:<br>\\[\\frac{a+1}{b^{2}+1}=a+1-\\frac{b^{2}(a+1)}{b^{2}+1} \\geq a+1-\\frac{b^{2}(a+1)}{2 b}=a+1-\\frac{b+a b}{2}\\]<br>Tương tự ta có: %(\\frac{a+1}{c^{2}+1} \\geq b+1-\\frac{c+b c}{2})%<br>\\[\\frac{a+1}{a^{2}+1} \\geq c+1-\\frac{a+c a}{2}\\]<br>Cộng ba đẩng thức trên vế theo vế ta được:<br>\\[\\frac{a+1}{b^{2}+1}+\\frac{b+1}{c^{2}+1}+\\frac{c+1}{a^{2}+1} \\geq \\frac{a+b+c}{2}+3-\\frac{a b+b c+c a}{2}=\\frac{9}{2}-\\frac{a b+b c+c a}{2} \\geq \\frac{9}{2}-\\frac{(a+b+c)^{2}}{6}=3\\]<br>Dấu\"=\" xảy ra khi %(\\mathrm{a}=\\mathrm{b}=\\mathrm{c}=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình vuông %(\\mathrm{ABCD})% có cạnh bằng %(\\mathrm{a} . \\mathrm{N})% là điểm tùy, ý thuộc cạnh %(\\mathrm{AB})%. Gọi %(\\mathrm{E})% là giao điểm của %(\\mathrm{CN})% và %(\\mathrm{DA})%. Vẽ tia %(\\mathrm{Cx})% vuông góc với %(\\mathrm{CE})% và cắt %(\\mathrm{AB})% tại %(\\mathrm{F})%. Lấy %(\\mathrm{M})% là trung điểm của %(\\mathrm{EF})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Chứng minh: %(\\mathrm{CM})% vuông góc với %(\\mathrm{EF})%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1fc68a7942477e63204ba7f12576febd.png\" srcset=\"https://docdn.giainhanh.io/media/test/192ae9e635d8ec78870f7bc065768c84.png 239w, https://docdn.giainhanh.io/media/test/9f9ea90012190ce408a78c6989839e53.png 500w\" width=\"500\"/><br>Ta có: %(E C D={B C F})% (cùng phụ với %(E C B)% )<br>\\[\\begin{array}{l}\\triangle \\mathrm{EDC}=\\Delta \\mathrm{FBC}(\\mathrm{g}-\\mathrm{c}-\\mathrm{g}) \\\\Rightarrow \\mathrm{CE}=\\mathrm{CF} \\\\Rightarrow \\triangle \\mathrm{ECF} \\text { cân tại } \\mathrm{C}\\end{array}\\]<br>Mà %(\\mathrm{CM})% là đường trung tuyến nên cũng là đường cao %(\\Rightarrow \\mathrm{CM} \\perp \\mathrm{EF})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Chứng minh: %(\\mathrm{NB} . \\mathrm{DE}=\\mathrm{a}^{2})% và %(\\mathrm{B}, \\mathrm{D}, \\mathrm{M})% thẳng hàng.",
+        "question_images": [],
+        "solution": "Vì %(\\Delta \\mathrm{EDC}=\\Delta \\mathrm{FBC})% (câu a) %(\\Rightarrow \\mathrm{ED}=\\mathrm{FB})%<br>%(\\triangle \\mathrm{NCF})% vuông tại %(\\mathrm{C})%. Áp dụng hệ thức lượng trong tam giác vuông ta có:<br>%(\\mathrm{BC}^{2}=\\mathrm{NB} \\cdot \\mathrm{BF} \\Rightarrow \\mathrm{a}^{2}=\\mathrm{NB} \\cdot \\mathrm{DE})% (đpcm)<br>Áp dụng đường trung tuyến ứng với cạnh huyền nên %(C M=\\frac{\\mathrm{EF}}{2}, A M=\\frac{\\mathrm{EF}}{2})%<br>\\[\\Rightarrow \\mathrm{CM}=\\mathrm{AM}\\]<br>Do %(\\mathrm{DA}=\\mathrm{DC})% nên %(\\mathrm{DM})% là đường trung trực của %(\\mathrm{AC})%<br>Vì %(\\mathrm{ABCD})% là hình vuông nên %(\\mathrm{B}, \\mathrm{D})% thuộc đường trung trực của %(\\mathrm{AC})%<br>%(\\Rightarrow \\mathrm{B}, \\mathrm{D}, \\mathrm{M})% thẳng hàng vì cùng thuộc đường trung trực của %(\\mathrm{AC})% (đpcm).",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) Tìm vị trí của %(\\mathrm{N})% trên %(\\mathrm{AB})% sao cho diện tích của tứ giác %(\\mathrm{AEFC})% gấp 3 lần diện tích của hình vuông %(\\mathrm{ABCD})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Đặt } \\mathrm{DE}=\\mathrm{x}(\\mathrm{x}\\gt 0) \\Rightarrow \\mathrm{BF}=\\mathrm{x} \\\\ \\mathrm{S}_{\\mathrm{ACFE}}=\\mathrm{S}_{\\mathrm{ACF}}+\\mathrm{S}_{\\mathrm{AEF}}=\\frac{1}{2} \\mathrm{AF} \\cdot(\\mathrm{AE}+\\mathrm{CB}) \\\\ =\\frac{1}{2}(\\mathrm{AB}+\\mathrm{BF}) \\cdot(\\mathrm{AE}+\\mathrm{AD}) \\\\ =\\frac{1}{2}(\\mathrm{a}+\\mathrm{x}) \\cdot \\mathrm{DE}=\\frac{1}{2}(\\mathrm{a}+\\mathrm{x}) \\mathrm{x}\\end{array})%<br>\\[\\begin{array}{l}\\mathrm{S}_{\\mathrm{ACFE}}=3 \\cdot \\mathrm{S}_{\\mathrm{ABCD}} \\Leftrightarrow \\frac{1}{2}(\\mathrm{a}+\\mathrm{x}) \\mathrm{x}=3 \\mathrm{a}^{2} \\Leftrightarrow 6 \\mathrm{a}^{2}-\\mathrm{ax}-\\mathrm{x}^{2}=0 \\\\Leftrightarrow(2 \\mathrm{a}-\\mathrm{x})(3 \\mathrm{a}+\\mathrm{x})=0\\end{array}\\]<br>Do %(\\mathrm{x}\\gt 0 ; \\mathrm{a}>0 \\Rightarrow 3 \\mathrm{a}+\\mathrm{x}>0 \\Rightarrow 2 \\mathrm{a}-\\mathrm{x}=0 \\Leftrightarrow \\mathrm{x}=2 \\mathrm{a})% %(\\Leftrightarrow \\mathrm{A})% là trung điểm của %(\\mathrm{DE} \\Leftrightarrow \\mathrm{AE}=\\mathrm{a})%<br>Vì AE //BC nên %(\\frac{A N}{N B}=\\frac{A E}{B C}=1)%%(\\Rightarrow \\mathrm{N})% là trung điểm của %(\\mathrm{AB})%.<br>Vậy với %(\\mathrm{N})% là trung điểm của %(\\mathrm{AB})% thì %(\\mathrm{S}_{\\mathrm{ACFE}}=3 . \\mathrm{S}_{\\mathrm{ABCD}})%",
+        "question_type": "essay"
+    }
+]

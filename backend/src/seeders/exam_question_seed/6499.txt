@@ -1,0 +1,91 @@
+[
+    {
+        "title": "Câu 1 ",
+        "point": 1.0,
+        "content": "Cho hàm số %(y=x^{3}+3 x^{2}-9 x+1)% có đồ thị là %((C))%. Gọi %(A, B)% là hai điểm cực trị của %((C))%. Tính diện tích của tam giác %(O A B)%, trong đó %(O)% là gốc tọa độ.",
+        "question_images": [],
+        "solution": "+ Tập xác định %(D=\\mathbb{R} . \\quad y^{\\prime}=3 x^{2}+6 x-9 \\Rightarrow y^{\\prime}=0 \\Leftrightarrow\\left[\\begin{array}{l}x=1 \\\\ x=-3\\end{array}\\right.)%<br>+) (C) có hai điểm cực trị là %(A(-3 ; 28), B(1 ;-4))%.<br>+) %(\\overline{O A}=(-3 ; 28), \\overline{O B}=(1 ;-4) \\Rightarrow S_{O A B}=\\frac{1}{2}|-3 \\cdot(-4)-1.28|=8)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các giá trị thực của tham số %(m)% để hàm số %(y=2 x+m \\sqrt{x^{2}+4 x+6})% có cực tiểu.",
+        "question_images": [],
+        "solution": "+) Tập xác định %(D=\\mathbb{R} ; y^{\\prime}=2+m \\frac{x+2}{\\sqrt{x^{2}+4 x+6}})%.<br>Ta có: Hàm số có đạo hàm liên tục trên %(\\mathbb{R})% nên hàm số có cực tiểu thì phương trình %(y^{\\prime}=0)% phải có nghiệm<br>%(+))% Xét phương trình %(y^{\\prime}=0 \\Leftrightarrow m=\\frac{-2 \\sqrt{x^{2}+4 x+6}}{x+2},(x \\neq-2))%.<br>Đặt %(g(x)=\\frac{-2 \\sqrt{x^{2}+4 x+6}}{x+2}, x \\in \\mathbb{R} \\backslash\\{-2\\})%.<br>Ta có:%(g^{\\prime}(x)=\\frac{4}{(x+2)^{2} \\sqrt{x^{2}+4 x+6}}\\gt 0, \\forall x \\neq-2)%.<br>Ngoài ra ta có%(\\lim _{x \\rightarrow+\\infty} g(x)=-2 ; \\lim _{x \\rightarrow-\\infty} g(x)=2)%, từ đó ta có bảng biến thiên của hàm số %(y=g(x))% như sau:<br>Từ bảng biến thiên suy ra phương trình %(y^{\\prime}=0)% có nghiệm khi và chỉ %(m \\in(-\\infty ;-2) \\cup(2 ;+\\infty))%.<br>+ Xét TH1: %(m\\gt 2)%Phương trình %(y^{\\prime}=0)% có nghiệm duy nhất %(x_{0})%, khi đó ta có:<br>%(\\lim _{x \\rightarrow+\\infty} y^{\\prime}=2+m>0 ; \\lim _{x \\rightarrow-\\infty} y^{\\prime}=2-m\\lt 0)% nên ta có bảng biến thiên của hàm số có dạng<br>Từ bảng biến thiên suy ra hàm số có cực tiểu.<br>+ TH2: %(m\\lt -2)%Suy luận tương tự ta suy ra hàm số chỉ có cực đại, không thỏa mãn.Vậy %(m\\gt 2)%.<br><i>Ghi chú: </i><br><i>+ ) Nếu bài làm chỉ sử dụng điều kiện đủ: Hệ </i>%(\\left\\{\\begin{array}{l}y^{\\prime}\\left(x_{0}\\right)=0 \\\\ y^{\\prime \\prime}\\left(x_{0}\\right)>0\\end{array}\\right.)%<i> có nghiệm thì trừ 0.25 điểm.</i><br><i>+) Nếu bài làm tìm điều kiện của </i>%(m)%<i> để pt </i>%(y^{\\prime}=0)%<i> có nghiệm và xét dấu </i>%(y^{\\prime \\prime})%<i> trong hai trường hợp </i>%(m>2 ; m\\lt -2)%<i> thì cho điểm tối đa.</i><br><img alt=\"Screenshot 2024-06-20 234921.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f8c8c27b4e87d27dfddaa475aba7b25f.png\" srcset=\"https://docdn.giainhanh.io/media/test/c405911a522d89ef1a8e533b59baa132.png 245w, https://docdn.giainhanh.io/media/test/445103280e5d1e68ede126ededddff89.png 500w\" width=\"500\"/><br><img alt=\"Screenshot 2024-06-20 235110.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e3c1a4cf9f424d9cd156910af055127e.png\" srcset=\"https://docdn.giainhanh.io/media/test/71e6a0dfeceb9ae9b5724c4b777b7d10.png 245w, https://docdn.giainhanh.io/media/test/07bdae6376083c2a34f6f94673643730.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 1.0,
+        "content": "Giải phương trình %(\\frac{2 \\sin ^{3} x-\\sin x+\\cos 2 x}{\\tan x-1}=0)%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(\\left\\{\\begin{array}{l}x \\neq \\frac{\\pi}{4}+k \\pi \\\\ x \\neq \\frac{\\pi}{2}+k \\pi\\end{array}, k \\in \\mathbb{Z}\\right.)%.<br>Với điều kiện trên phương trình đã cho tương đương với<br>\\[2 \\sin ^{3} x-\\sin x+\\cos 2 x=0 \\Leftrightarrow(\\sin x-1) \\cos 2 x=0 \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{\\pi}{2}+k 2 \\pi \\x=\\frac{\\pi}{4}+\\frac{k \\pi}{2}\\end{array}\\right.\\]<br>Kết hợp điều kiện đề bài thì phương trình có công thức nghiệm là %(x=\\frac{3 \\pi}{4}+k \\pi, k \\in \\mathbb{Z})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các giá trị thực của tham số %(m)% để hệ phương trình có nghiệm%(\\left\\{\\begin{array}{l}2 x^{3}-(y-2) x^{2}-x y=m \\\\ x^{2}+3 x-y=1-2 m\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "+) Ta có: %(\\left\\{\\begin{array}{l}2 x^{3}-(y-2) x^{2}-x y=m \\\\ x^{2}+3 x-y=1-2 m\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}\\left(x^{2}+x\\right)(2 x-y)=m \\\\ \\left(x^{2}+x\\right)+(2 x-y)=1-2 m\\end{array}\\right.\\right.)%<br>+) Đặt %(a=x^{2}+x ; b=2 x-y)% với điều kiện %(a=x^{2}+x \\geq-\\frac{1}{4})%.<br>Hệ đã cho có dạng %(\\left\\{\\begin{array}{l}a . b=m \\\\ a+b=1-2 m\\end{array}\\right.)%.<br>Suy ra %(a, b)% là hai nghiệm của phương trình %(t^{2}-(1-2 m) t+m=0(*))%<br>Hệ ban đầu có nghiệm khi và chỉ khi phương trình (*) có nghiệm %(t \\geq-\\frac{1}{4})%.<br>+) Ta có: %(\\left({ }^{*}\\right) \\Leftrightarrow m=\\frac{-t^{2}+t}{2 t+1}=g(t), t \\in\\left[-\\frac{1}{4} ;+\\infty\\right))%.<br>+) %(g^{\\prime}(t)=\\frac{-2 t^{2}-2 t+1}{(2 t+1)^{2}} \\Rightarrow g^{\\prime}(t)=0 \\Leftrightarrow t=\\frac{-1+\\sqrt{3}}{2})%.<br>+) Từ bảng biến thiên của %(\\mathrm{g}(\\mathrm{t}))% suy ra %(m \\leq \\frac{2-\\sqrt{3}}{2})%.<br><img alt=\"Screenshot 2024-06-20 235333.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1d39f0499e797afc70b3c4578bb485c1.png\" srcset=\"https://docdn.giainhanh.io/media/test/c85843f9da403afa598156fd1a51831d.png 245w, https://docdn.giainhanh.io/media/test/592e505cbdb67f7ccffbb8527a0d348d.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5",
+        "group_content": "Cho hình chóp %(S . A B C D)% có đáy %(A B C D)% là hình thang vuông tại %(A)% và %(B)%. Biết %(A B=B C=a, A D=2 a ; S A=2 a)% và vuông góc với mặt phẳng %((A B C D))%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Tính cosin của góc giữa hai mặt phẳng %((S B C))% và %((S C D))%",
+        "question_images": [],
+        "solution": "Gọi %(\\varphi)% là góc giữa hai mặt phẳng %((S B C))% và %((S C D))%.<br>Gọi %(H, K)% lần lượt là hình chiếu vuông góc của %(A)% trên %(\\mathrm{SB})% và %(\\mathrm{SC})%.<br>Ta có: %(B C \\perp(S A B) \\Rightarrow B C \\perp A H)%.<br>Ngoài ra %(A H \\perp S B \\Rightarrow A H \\perp(S B C))%.<br>Tương tự %(A K \\perp(S C D))%.<br>Do đó góc giữa hai mặt phẳng %((S B C))% và %((S C D))% bằng góc giữa hai đường thẳng %(A H)% và %(A K)%, hay %(\\cos \\varphi=|\\cos \\widehat{H A K}|=\\left|\\frac{A H^{2}+A K^{2}-H K^{2}}{2 A H \\cdot A K}\\right|)%<br>Ta có %(A H=\\frac{S A \\cdot A B}{S B}=a \\frac{2}{\\sqrt{5}} ; A K=\\frac{S A \\cdot A C}{S C}=a \\frac{2 \\sqrt{2}}{\\sqrt{6}}=a \\frac{2}{\\sqrt{3}})%.<br>Mặt khác ta có: %(\\triangle S H K \\sim \\triangle S C B)% nên %(H K=B C \\frac{S H}{S C}=a \\cdot \\frac{4}{\\sqrt{30}})%.<br>\\[\\cos \\varphi=\\frac{\\sqrt{15}}{5}\\]<br><img alt=\"Screenshot 2024-06-20 235553.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d1de51f36f56e8207c81281444a80834.png\" srcset=\"https://docdn.giainhanh.io/media/test/44cec5dc911832465705a28ceadb0b11.png 213w, https://docdn.giainhanh.io/media/test/eb4d01d95a4bf15df5604c3a36a0ad0d.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Cho %(M)% là điểm nằm trên cạnh %(S A)% sao cho %(S M=x(0\\lt x\\lt 2 a))%. Mặt phẳng %((B C M))% chia khối chóp thành hai phần có thể tích là %(V_{1})% và %(V_{2})% (trong đó %(V_{1})% là thể tích của phần chứa đỉh %(S)% ). Tìm %(x)% để %(\\frac{V_{1}}{V_{2}}=\\frac{1}{2})%.",
+        "question_images": [],
+        "solution": "+) Mặt phẳng %((B C M))% cắt cạnh %(S D)% tại %(N)%.<br>Thiết diện của hình chóp cắt bởi mặt phẳng %((B C M))% là hình thang %(B C N M)%.<br>+ ) Gọi %(V)% là thể tích của khối chóp S.ABCD.<br>Ta có: %(V_{S . B C N M}=V_{S . B C M}+V_{S . C M N})%; %(V_{S . A B C}=\\frac{1}{2} V, V_{S . A C D}=\\frac{2}{3} V)%.<br>Đặt %(k=\\frac{S M}{S A})% suy ra:<br>\\[\\frac{V_{S . B C M}}{V_{S . A B C}}=\\frac{S M}{S A}=k \\Rightarrow V_{S . B C M}=\\frac{1}{3} k \\cdot V ; \\frac{V_{S . C M N}}{V_{S . C D A}}=\\frac{S M}{S A} \\cdot \\frac{S N}{S D}=k^{2} \\Rightarrow V_{S . C M N}=\\frac{2}{3} k^{2} V .\\]<br>+ Từ đó suy ra %(V_{1}=V\\left(\\frac{1}{3} k+\\frac{2}{3} k^{2}\\right))%.<br>Mà %(\\frac{V_{1}}{V_{2}}=\\frac{1}{2} \\Rightarrow V_{1}=\\frac{1}{3} V)%<br>Suy ra: %(\\frac{1}{3} V=V\\left(\\frac{1}{3} k+\\frac{2}{3} k^{2}\\right) \\Rightarrow k=\\frac{1}{2} \\Rightarrow x=a)%.<br><img alt=\"Screenshot 2024-06-20 235920.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/73b7a68cff80765c6ef196bb773914dd.png\" srcset=\"https://docdn.giainhanh.io/media/test/5d11e3d390dbaea6f44aaa3f012dbafb.png 213w\" width=\"213\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6 ",
+        "point": 1.0,
+        "content": "Một quân vua được đặt trên một ô giữa bàn cờ vua. Mỗi bước di chuyển, quân vua được chuyển sang một ô khác chung cạnh hoặc chung đỉnh với ô đang đứng (xem hình minh họa). Bạn An di chuyển quân vua ngẫu nhiên 3 bước. Tính xác suất để sau 3 bước đi quân vua trở về ô xuất phát.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/6637d8a76fdd8cdc80e94a3236a14d2f.png"
+        ],
+        "solution": "+) Mỗi bước đi quân vua có thể đi đến 8 ô xung quanh, từ đó suy ra số phần tử của không gian mẫu là %(n(\\Omega)=8^{3})%.<br>+ Gắn hệ trục %(O x y)% vào bàn cờ vua sao cho vị trí ban đầu của quân vua là gốc tọa độ, mỗi ô trên bàn ứng với một điểm có tọa độ %((x ; y))%.<br>Mỗi bước di chuyển của quân vua từ điểm %((x ; y))% đến điểm có tọa độ %(\\left(x+x_{0} ; y+y_{0}\\right))% trong đó %(x_{0}, y_{0} \\in\\{-1 ; 0 ; 1\\} ; x_{0}^{2}+y_{0}^{2} \\neq 0)%.<br>Ví dụ nếu %(x_{0}=1 ; y_{0}=0)% thì quân vua di chuyển đến ô bên phải; %(x_{0}=-1 ; y_{0}=-1)% thì di chuyển xuống ô đường chéo.<br>+ Sau 3 bước đi thì tọa độ của quân vua là %(\\left(x_{1}+x_{2}+x_{3} ; y_{1}+y_{2}+y_{3}\\right), x_{1}, x_{2}, x_{3} ; y_{1}, y_{2}, y_{3} \\in\\{-1 ; 0 ; 1\\})%.<br>Đề về vị trí ban đầu thì %(\\left\\{\\begin{array}{l}x_{1}+x_{2}+x_{3}=0 \\y_{1}+y_{2}+y_{3}=0\\end{array}\\right.)%.<br>Suy ra %(\\left(x_{1}, x_{2}, x_{3}\\right) ;\\left(y_{1}, y_{2}, y_{3}\\right))% là một hoán vị của %(\\{-1 ; 0 ; 1\\})%.<br>%(+\\left\\{\\left\\{x_{1}, x_{2}, x_{3}\\right\\}\\right.)% có 6 cách chọn; với mỗi cách chọn %(\\left\\{x_{1}, x_{2}, x_{3}\\right\\})% có 4 cách chọn %(\\left\\{y_{1}, y_{2}, y_{3}\\right\\})% %(\\left(\\right.)% vì %(\\left(x_{i} ; y_{i}\\right), i=\\overline{1,3})% không đồng thời bằng 0 .<br>Do đó số kết quả thuận lợi của biến cố bằng 24 và xác suất cần tìm là %(p=\\frac{24}{8^{3}}=\\frac{3}{64})%.<br><i>Ghi chú: Nếu thí sinh làm theo cách liệt kê mà không khẳng định bước đi thứ hai quân vua không thể di chuyển đến một ô mà ô đó không chung đỉnh hoặc không cạnh chung với ô ban đầu thì trừ đi 0,25 điểm; nếu liệt kê thiếu hoặc thừa thì không cho điểm.</i>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7 ",
+        "point": 1.0,
+        "content": "Trong mặt phẳng với hệ tọa độ %(O x y)%, cho hình vuông %(A B C D)% tâm %(E)%, gọi %(G)% là trọng tâm tam giác %(A B E)%. Điểm %(K(7 ;-2))% thuộc đoạn %(E D)% sao cho %(G A=G K)%. Tìm tọa độ đỉnh %(A)% và viết phương trình cạnh %(A B)%, biết đường thẳng %(A G)% có phương trình %(3 x-y-13=0)% và đỉnh %(A)% có hoành độ nhỏ hơn 4 .",
+        "question_images": [],
+        "solution": "+) Ta có %(G A=G B=G K)% nên %(G)% là tâm đường tròn ngoại tiếp tam giác %(A B K)%.<br>%(\\Rightarrow \\widehat{A G K}=2 \\widehat{A B K}=2.45^{\\circ}=90^{\\circ} \\Rightarrow)% tam giác %(A G K)% vuông cân tại %(G)%.<br>+ ) Đường thẳng %(G K)% đi qua %(K(7 ;-2))% và vuông góc với %(A G \\Rightarrow G K: x+3 y-1=0)%.<br>Ta có %(G=G K \\cap A G \\Rightarrow G(4 ;-1))%.<br>Do %(A G)% có phương trình %(3 x-y-13=0)% nên %(A(t ; 3 t-13), t\\lt 4)%.<br>Có %(G A=G K=d(K, A G)=\\sqrt{10})%<br>Từ %(G A=\\sqrt{10} \\Leftrightarrow(t-4)^{2}+(3 t-12)^{2}=10 \\Leftrightarrow\\left[\\begin{array}{l}t=3 \\\\ t=5\\end{array} \\xrightarrow{t\\lt 4} t=3\\right.)%.<br>Vậy %(A(3 ;-4))%.<br>+) Ta có %(\\tan \\widehat{M A G}=\\frac{M G}{A M}=\\frac{1}{3} \\Rightarrow \\cos \\widehat{M A G}=\\frac{3}{\\sqrt{10}})%.<br>Gọi %(\\overrightarrow{n_{1}}=(a ; b)\\left(a^{2}+b^{2}\\gt 0\\right))% là VTPT của đường thẳng %(A B)% và %(\\overrightarrow{n_{2}}=(3 ;-1))% là VTPT của đường thẳng %(A G)%.<br>Khi đó:<br>\\[\\cos \\widehat{M A G}=\\frac{3}{\\sqrt{10}} \\Leftrightarrow \\frac{|3 a-b|}{\\sqrt{10} \\cdot \\sqrt{a^{2}+b^{2}}}=\\frac{3}{\\sqrt{10}} \\Leftrightarrow 6 a b+8 b^{2}=0 \\Leftrightarrow\\left[\\begin{array}{l}b=0 \\\\3 a=-4 b\\end{array}\\right.\\]<br>+) Với %(3 a=-4 b \\Rightarrow A B: 4 x-3 y-24=0)%.<br>Thấy %(d(K, A B)=2\\lt d(K, A G)=\\sqrt{10} \\Rightarrow)% loại.<br>+ Với %(b=0 \\Rightarrow A B: x-3=0)%.<br><i>Ghi chú: Nếu học sinh công nhận hoặc ngộ nhận trong chứng minh các kết quả ở bước 1 và làm đúng các bước còn lại thì cho 0.5 điểm.</i><br><img alt=\"Screenshot 2024-06-21 000248.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c1b712f774fd1da997f1b7ca38a22811.png\" srcset=\"https://docdn.giainhanh.io/media/test/db8cce4a26a6dbe0e4bbdbf49caebf90.png 197w\" width=\"197\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8 ",
+        "point": 1.0,
+        "content": "Cho dãy số %(\\left\\{u_{n}\\right\\})% xác định bởi %(\\left\\{\\begin{array}{l}u_{1}=3 \\\\ u_{n+1}=\\frac{1}{2}\\left(\\sqrt{u_{n}^{2}+5 u_{n}}+u_{n}\\right), n \\in \\mathbb{N}, n \\geq 1\\end{array}\\right.)%.<br>Ta thành lập dãy số %(\\left\\{v_{n}\\right\\})% với %(v_{n}=\\frac{1}{u_{1}^{2}}+\\frac{1}{u_{2}^{2}}+\\ldots+\\frac{1}{u_{n}^{2}})%.<br>Chứng minh rằng dãy số %(\\left\\{v_{n}\\right\\})% có giới hạn và tính giới hạn đó.",
+        "question_images": [],
+        "solution": "Ta dễ có %(u_{n}\\gt 0, \\forall n \\in \\mathbb{N}^{*})%.<br>Ngoài ra %(u_{n+1}=\\frac{1}{2}\\left(\\sqrt{u_{n}^{2}+5 u_{n}}+u_{n}\\right)>\\frac{1}{2}\\left(\\sqrt{u_{n}^{2}}+u_{n}\\right)=u_{n}, \\forall n \\in \\mathbb{N}^{*})%.<br>Do đó dãy số %(\\left\\{u_{n}\\right\\})% tăng.<br>Giả sử %(\\left\\{u_{n}\\right\\})% bị chặn khi đó %(\\lim u_{n}=a, a \\geq 3=u_{1}, a \\in \\mathbb{R})%.<br>Cho qua giới hạn hệ thức<br>\\[u_{n+1}=\\frac{1}{2}\\left(\\sqrt{u_{n}^{2}+5 u_{n}}+u_{n}\\right) \\Rightarrow a=\\frac{1}{2}\\left(\\sqrt{a^{2}+5 a}+a\\right) \\Rightarrow a=0 \\text { vô lí. }\\]<br>Từ đó suy ra %(\\left\\{u_{n}\\right\\})% không bị chặn và %(\\lim u_{n}=+\\infty, \\lim \\frac{1}{u_{n}}=0)%.<br>\\[\\begin{array}{l}\\text { +) Ta có } u_{n+1}=\\frac{1}{2}\\left(\\sqrt{u_{n}^{2}+5 u_{n}}+u_{n}\\right) \\Leftrightarrow 2 u_{n+1}-u_{n}=\\sqrt{u_{n}^{2}+5 u_{n}} \\Leftrightarrow 4 u_{n+1}^{2}-4 u_{n+1} u_{n}=5 u_{n} \\text {, (vì } \\u_{n+1}>u_{n}>0 \\text { ) } \\\\Leftrightarrow \\frac{5}{u_{n+1}^{2}}=4\\left(\\frac{1}{u_{n}}-\\frac{1}{u_{n+1}}\\right) \\Rightarrow \\frac{1}{u_{n+1}^{2}}=\\frac{4}{5}\\left(\\frac{1}{u_{n}}-\\frac{1}{u_{n+1}}\\right) \\Rightarrow v_{n}=\\frac{1}{u_{1}^{2}}+\\frac{4}{5}\\left(\\frac{1}{u_{1}}-\\frac{1}{u_{n}}\\right)\\end{array}\\]<br>Suy ra: %(\\lim v_{n}=\\frac{1}{9}+\\frac{4}{5} \\cdot \\frac{1}{3}=\\frac{17}{45})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 9 ",
+        "point": 1.0,
+        "content": "Cho các số thực dương %(x, y, z)% thỏa mãn điều kiện %(x \\geq y ; x\\gt z ; x^{2}+9 y z \\leq x z+9 x y)%.Tìm giá trị nhỏ nhất của biểu thức %(P=\\sqrt[3]{\\frac{9 y-x}{y}}+\\frac{2 y+x}{x+y}+\\frac{2 y+z}{y+z}+\\frac{2 z+x}{x+z})%.",
+        "question_images": [],
+        "solution": "Ta sẽ chứng minh:<br>Với mọi %(a ; b)% dương và %(a b \\geq 1)% thì %(\\frac{1}{1+a}+\\frac{1}{1+b} \\geq \\frac{2}{1+\\sqrt{a b}}\\left({ }^{*}\\right))%<br>Thật vậy:%(\\left(^{*}\\right) \\Leftrightarrow(\\sqrt{a}-\\sqrt{b})^{2}(\\sqrt{a b}-1) \\geq 0)% (luôn đúng).<br>Đẳng thức xảy ra khi %(a=b)% hoặc %(a b=1)%<br>+) Ta có %(x^{2}+9 y z \\leq x z+9 x y \\Leftrightarrow(x-z)(x-9 y) \\leq 0 \\Rightarrow x-9 y \\leq 0)% vì %(x\\gt z)%.<br>Đặt %(t=\\frac{x}{y} \\Rightarrow t \\in[1 ; 9])%.<br>Khi đó %(P=\\sqrt[3]{9-t}+\\frac{t+2}{t+1}+1+\\frac{y}{y+z}+1+\\frac{z}{x+z}=\\sqrt[3]{9-t}+\\frac{t+2}{t+1}+2+\\frac{1}{1+\\frac{z}{y}}+\\frac{1}{1+\\frac{x}{z}})%<br>Áp dụng bất đẳng thức đã chứng minh ta có:<br>\\[P \\geq \\sqrt[3]{9-t}+\\frac{t+2}{t+1}+2+\\frac{2}{1+\\sqrt{\\frac{z}{y} \\frac{x}{z}}}=\\sqrt[3]{9-t}+\\frac{t+2}{t+1}+2+\\frac{2}{1+\\sqrt{t}}=f(t)\\]<br>Xét hàm số %(f(t)=\\sqrt[3]{9-t}+\\frac{t+2}{t+1}+2+\\frac{2}{1+\\sqrt{t}}, t \\in[1 ; 9])% có%(f^{\\prime}(t)=\\frac{-1}{3 \\sqrt[3]{(9-t)^{2}}}-\\frac{1}{(t+1)^{2}}-\\frac{1}{\\sqrt{t}(1+\\sqrt{t})^{2}}\\lt 0, \\forall t \\in[1 ; 9])% từ đó suy ra<br>\\[P \\geq f(t) \\geq f(9)=\\frac{18}{5}\\]<br>Vậy %(\\min P=\\frac{18}{5})%, khi %(x=9 y, z=3 y)%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,81 @@
+[
+    {
+        "title": "1 ",
+        "point": 4.0,
+        "content": "Cho biểu thức %(A=\\left[\\frac{x-9}{x+2 \\sqrt{x}-3}-\\frac{x+2 \\sqrt{x}}{x+\\sqrt{x}-2}\\right]:\\left(\\frac{1}{\\sqrt{x}+1}+\\frac{1}{\\sqrt{x}-1}\\right))% với %(x\\gt 0 ; x \\neq 1)%<br>Tính giá trị biểu thức khi %(\\quad x=4\\left(\\sqrt[3]{3+\\sqrt{9+\\frac{125}{27}}}+\\sqrt[3]{3-\\sqrt{9+\\frac{125}{27}}}\\right))%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{aligned}A & =\\left[\\frac{x-9}{x+2 \\sqrt{x}-3}-\\frac{x+2 \\sqrt{x}}{x+\\sqrt{x}-2}\\right]:\\left(\\frac{1}{\\sqrt{x}+1}+\\frac{1}{\\sqrt{x}-1}\\right) \\\\& =\\left[\\frac{(\\sqrt{x}+3)(\\sqrt{x}-3)}{(\\sqrt{x}-1)(\\sqrt{x}+3)}-\\frac{\\sqrt{x}(\\sqrt{x}+2)}{(\\sqrt{x}-1)(\\sqrt{x}+2)}\\right]:\\left(\\frac{2 \\sqrt{x}}{(\\sqrt{x}-1)(\\sqrt{x}+1)}\\right) \\\\& =\\left[\\frac{\\sqrt{x}-3}{\\sqrt{x}-1}-\\frac{\\sqrt{x}}{\\sqrt{x}-1}\\right] \\cdot \\frac{(\\sqrt{x}-1)(\\sqrt{x}+1)}{2 \\sqrt{x}}=\\frac{-3}{\\sqrt{x}-1} \\cdot \\frac{(\\sqrt{x}-1)(\\sqrt{x}+1)}{2 \\sqrt{x}}=-\\frac{3}{2} \\cdot \\frac{\\sqrt{x}+1}{\\sqrt{x}}\\end{aligned}\\]<br>Có:<br>\\[\\begin{array}{l}x=4\\left(\\sqrt[3]{3+\\sqrt{9+\\frac{125}{27}}}+\\sqrt[3]{3-\\sqrt{9+\\frac{125}{27}}}\\right) \\Leftrightarrow \\sqrt[3]{3+\\sqrt{9+\\frac{125}{27}}}+\\sqrt[3]{3-\\sqrt{9+\\frac{125}{27}}}=\\frac{x}{4} \\\\Leftrightarrow \\frac{x^{3}}{64}=6-\\frac{5}{4} x \\Leftrightarrow x^{3}+80 \\mathrm{x}-384=0 \\Leftrightarrow(x-4)\\left(x^{2}+4 \\mathrm{x}+96\\right)=0 \\\\Leftrightarrow\\left[\\begin{array} { l } { x - 4 = 0 } \\\\{ x ^ { 2 } + 4 \\mathrm { x } + 9 6 = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=4 \\\\(x+2)^{2}+92=0(\\mathrm{vn})\\end{array} \\Leftrightarrow x=4(\\mathrm{tm})\\right.\\right.\\end{array}\\]<br><br>Thay x=4 (tmđk) vào A , ta được: %(A=-\\frac{3}{2} \\frac{\\sqrt{4}+1}{\\sqrt{4}}=-\\frac{9}{4})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.1 ",
+        "point": 2.0,
+        "content": "Giải phương trình %(2 \\sqrt{5 x^{2}+10 x}+\\sqrt{4 x-4 x^{2}}=6 x+3)%",
+        "question_images": [],
+        "solution": "ĐK: %(0 \\leq x \\leq 1)%<br>Đặt: %(\\left\\{\\begin{array}{l}a=\\sqrt{5 \\mathrm{x}^{2}+10 \\mathrm{x}} \\geq 0 \\\\ b=\\sqrt{4 \\mathrm{x}-4 \\mathrm{x}^{2}} \\geq 0\\end{array} \\Rightarrow 4 \\mathrm{a}^{2}+5 b^{2}=60 \\mathrm{x}\\right.)% .<br>Khi đó Phương trình trở thành:<br>\\[\\begin{array}{l}20 \\mathrm{a}+10 b=4 \\mathrm{a}^{2}+5 b^{2}+30 \\Leftrightarrow\\left(4 \\mathrm{a}^{2}-20 \\mathrm{a}+25\\right)+\\left(5 b^{2}-10 b+5\\right)=0 \\\\Leftrightarrow(2 \\mathrm{a}-5)^{2}+5(b-1)^{2}=0 \\Leftrightarrow\\left\\{\\begin{array}{l}a=\\frac{5}{2} \\b=1\\end{array}\\right.\\end{array}\\]<br>Với %(\\left\\{\\begin{array}{l}a=\\frac{5}{2} \\\\ b=1, \\text { ta có: }\\end{array}\\right.)%<br>\\[\\begin{array}{l}\\left\\{\\begin{array} { l } { \\frac { 5 } { 2 } = \\sqrt { 5 \\mathrm { x } ^ { 2 } + 1 0 \\mathrm { x } } } \\\\{ 1 = \\sqrt { 4 \\mathrm { x } - 4 \\mathrm { x } ^ { 2 } } }\\end{array} \\Rightarrow \\left\\{\\begin{array} { l } { 5 \\mathrm { x } ^ { 2 } + 1 0 \\mathrm { x } = \\frac { 2 5 } { 4 } } \\\\{ 4 \\mathrm { x } - 4 \\mathrm { x } ^ { 2 } = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x^{2}+2 \\mathrm{x}+1=\\frac{9}{4} \\\\(2 \\mathrm{x}-1)^{2}=0\\end{array}\\right.\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { ( x + 1 ) ^ { 2 } = \\frac { 9 } { 4 } } \\\\{ 2 \\mathrm { x } - 1 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x+1=\\frac{3}{2}(\\text { do } 0 \\leq x \\leq 1) \\x=\\frac{1}{2}\\end{array} \\Leftrightarrow x=\\frac{1}{2}(\\text { tm })\\right.\\right.\\end{array}\\]<br>Vậy nghiệm của phương trình là %(x=\\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.2 ",
+        "point": 2.0,
+        "content": "Tìm nghiệm nguyên của phương trình %(x+y=3 x y-9)%",
+        "question_images": [],
+        "solution": "b) Ta có:<br>\\[x+y=3 x y-9 \\Leftrightarrow 3 \\mathrm{x}+3 y=9 \\mathrm{x} y+27 \\Leftrightarrow 3 y(1-3 \\mathrm{x})-(1-3 \\mathrm{x})=26 \\Leftrightarrow(1-3 \\mathrm{x})(3 y-1)=26\\]<br>%(+) \\mathrm{TH} 1)% :<br>\\[\\left\\{\\begin{array} { l } { 3 y - 1 = 1 } \\\\{ 1 - 3 \\mathrm { x } = 2 6 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}y=\\frac{2}{3} \\notin \\mathrm{Z} \\\\1-3 \\mathrm{x}=26 \\text { ( loại ) }\\end{array}\\right.\\right.\\]<br>%(+) \\mathrm{TH} 2)% :<br>\\[\\left\\{\\begin{array} { l } { 3 y - 1 = 2 6 } \\\\{ 1 - 3 \\mathrm { x } = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}y=9 \\x=0(\\mathrm{tm})\\end{array}\\right.\\right.\\]<br>+) TH 3 :<br>\\[\\left\\{\\begin{array} { l } { 3 y - 1 = - 1 } \\\\{ 1 - 3 \\mathrm { x } = - 2 6 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}y=0 \\\\mathrm{x}=9(\\mathrm{tm})\\end{array}\\right.\\right.\\]<br>+) TH 4:%(\\left\\{\\begin{array}{l}3 y-1=-26 \\\\ 1-3 \\mathrm{x}=-1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}3 y-1=-26 \\\\ x=\\frac{2}{3} \\notin \\mathbf{Z} \\quad \\text { ( loại ) }\\end{array}\\right.\\right.)%<br>+) TH 5:%(\\left\\{\\begin{array}{l}3 y-1=2 \\\\ 1-3 \\mathrm{x}=13\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}y=1 \\\\ \\mathrm{x}=-4(\\mathrm{tm})\\end{array}\\right.\\right.)%<br>+) TH 6:%(\\left\\{\\begin{array}{l}3 y-1=13 \\\\ 1-3 \\mathrm{x}=2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}3 y-1=13 \\\\ x=-\\frac{1}{3} \\notin Z \\text { ( loại ) }\\end{array}\\right.\\right.)%<br>+) TH 7 :%(\\left\\{\\begin{array}{l}3 y-1=-13 \\\\ 1-3 \\mathrm{x}=-2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}y=-4 \\\\ \\mathrm{x}=1 \\quad(\\mathrm{tm})\\end{array}\\right.\\right.)%<br>+) TH 8:<br>%(\\begin{array}{l}\\left\\{\\begin{array}{l}3 y-1=-2 \\\\ 1-3 \\mathrm{x}=-13\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}y=-\\frac{1}{3} \\notin \\mathbb{Z} \\\\ 1-3 \\mathrm{x}=-13\\end{array} \\text { ( loại ) }\\right.\\right. \\\\ \\text {Vậy }(x ; y) \\in\\{(0 ; 9) ;(9 ; 0) ;(-4 ; 1) ;(1 ;-4)\\}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.2 ",
+        "point": 2.0,
+        "content": "Cho x,y>0 Tìm GTNN của %(P=\\frac{x^{2}-x y+y^{2}}{\\sqrt{x y}(x+y)})%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[P=\\frac{x^{2}-x y+y^{2}}{\\sqrt{x y}(x+y)}=\\frac{(x+y)^{2}-3 \\mathrm{x} y}{\\sqrt{x y}(x+y)}=\\frac{x+y}{\\sqrt{x y}}-\\frac{3 \\sqrt{x y}}{x+y}\\]<br>Áp dụng bất đẳng thức Cô - si cho hai số dương %(\\mathrm{x}, \\mathrm{y})%, ta được:%(x+y \\geq 2 \\sqrt{x y} \\Rightarrow \\sqrt{x y} \\leq \\frac{x+y}{2})%.<br>Dấu \"=\" xảy ra khi %(\\quad)%. Khi đó:%(P \\geq \\frac{2 \\sqrt{x y}}{\\sqrt{x y}}-3 \\frac{\\frac{x+y}{2}}{x+y} \\geq 2-\\frac{3}{2}=\\frac{1}{2})%.<br>Dấu \" xảy ra khiVậy giá trị nhỏ nhất của P bằng %(\\frac{1}{2})% khi %(\\quad x=y)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.2 ",
+        "point": 2.0,
+        "content": "Tìm 2019 số tự nhiên liên tiếp mà trong đó không có số nguyên tố nào?",
+        "question_images": [],
+        "solution": "Xét số tự nhiên %(A=2 \\cdot 3 \\cdot 4 \\cdot 5 \\ldots 2019 \\cdot 2020)%.<br>Khi đó:A chia hết cho các số: %(2 ; 3 ; 4 ; 5 ; \\ldots ; 2019 ; 2020)%<br>Xét dãy 2019 số tự nhiên liên tiếp: %(A+2 ; A+3 ; A+4 ; A+5 ; \\ldots ; \\mathrm{A}+2019 ; \\mathrm{A}+2020)%.<br>Do %(A: 2)% nên %(A+2: 2)% mà %(A+2\\gt 2 \\Rightarrow A+2)% là hợp số<br>Tương tự: Do %(A: 3)% nên %(A+3 \\vdots 3)% mà %(A+3>3 \\Rightarrow A+3)% là hợp số<br>Do %(A: 4)% nên %(A+4 \\vdots 4)% mà %(A+4>4 \\Rightarrow A+4)% là hợp số%(\\qquad)%<br>Do %(A)% :2019 nên %(A+2019: 2019)% mà %(A+2019>2019 \\Rightarrow A+2019)% là hợp số<br>Do %(A)% :2020 nên %(A+2020)% :2020 mà %(A+2020>2020 \\Rightarrow A+2020)% là hợp số<br>Vậy dãy 2019 số tự nhiên liên tiếp: %(A+2 ; A+3 ; A+4 ; A+5 ; \\ldots ; \\mathrm{A}+2019 ; \\mathrm{A}+2020)%, trong đó không có số nguyên tố nào.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho nửa đường tròn tâm O , đường kính AB , dây CD . Gọi H và K lần lượt là hình chiếu của %(\\mathrm{A}, \\mathrm{B})% trên CD .",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Khi OAC là tam giác đều, hãy giải tam giác ABC",
+        "question_images": [],
+        "solution": "Khi %(\\triangle A O C)% đều thì %(A C=O A=O C=R=\\frac{1}{2} A B \\Rightarrow B C=\\sqrt{A B^{2}-A C^{2}}=\\sqrt{4 R^{2}-R^{2}}=R \\sqrt{3})%<br>\\[\\Rightarrow \\sin B=\\frac{A C}{A B}=\\frac{R}{2 R}=\\frac{1}{2} \\Rightarrow B=30^{\\circ} \\Rightarrow E=60^{\\circ}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c166f754078b82cd5f96d0281ee356db.png\" srcset=\"https://docdn.giainhanh.io/media/test/de416d9fd26a4ed15f7d8a196cb1667a.png 245w, https://docdn.giainhanh.io/media/test/a67ddb63686174214a1baa0ea0a5e335.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Chứng minh %(\\mathrm{HC}=\\mathrm{KD})%",
+        "question_images": [],
+        "solution": "Kẻ %(O I \\perp C D \\Rightarrow I)% là trung điểm của %(C D)% và %(O I / / A H / / B K)%.Lại có %(O)% là trung điểm của %(A B \\Rightarrow I)% là trung điểm của %(H K \\Rightarrow I H=I K ; C I=I D \\Rightarrow C H=D K)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) Chứng minh %(S_{A H K B}=S_{A B C}+S_{A B D})%",
+        "question_images": [],
+        "solution": "Kẻ %(E F)% đi qua %(I)% và song song với %(A B(E \\in A H, F \\in B K))%<br>\\[\\Rightarrow \\triangle E H I=\\triangle F K I(\\mathrm{ch}-\\mathrm{gn}) \\Rightarrow S_{A H K B}=S_{A E F B}=I M . A B\\]<br>Lại có: %(S_{A C B}+S_{A D B}=\\frac{1}{2} A B \\cdot(C N+D P)=A B \\cdot I M)%<br>\\[\\Rightarrow S_{A H K B}=S_{A C B}+S_{A D B}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Viết 150 số tự nhiên %(1,2,3, \\ldots, 150)% lên bảng. Mỗi lần ta xóa đi hai số nào đó và thay bằng tổng hoặc hiệu của chúng. Sau một số lần như vậy thì trên bảng chỉ còn lại một số. Hỏi có khi nào số đó là 100 không?",
+        "question_images": [],
+        "solution": "Gọi tổng của 150 số ban đầu là %(S=1+2+3+\\ldots+150=\\frac{(1+150) \\cdot 150}{2}=11325=S_{1}+a+b)%<br>Giả sử xóa đi hai số bất kì %(\\mathrm{a}, \\mathrm{b})% và thay bằng %(a+b)% hoặc %(a-b)% thì ta có tổng mới là:<br>\\[S_{1}+a+b \\text { hoặc } S_{1}+a-b\\]<br>Ta có: %(\\left(S_{1}+a+b\\right)+(S+a+b)=2 S+2 a+2 b)% và %(\\left(S_{1}+a+b\\right)+(S+a-b)=2 S+2 a)% đều chẵn nên tổng lúc đầu và tổng lúc sau luôn cùng tính chẵn lẻ mà tổng ban đầu là số lẻ nên tổng lúc sau không thể bằng 100 .",
+        "question_type": "essay"
+    }
+]

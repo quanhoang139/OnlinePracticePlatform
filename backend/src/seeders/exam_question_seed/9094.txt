@@ -1,0 +1,105 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Tính giá trị của biểu thức sau: %(A=\\sqrt{4+\\sqrt{10+2 \\sqrt{5}}}+\\sqrt{4-\\sqrt{10+2 \\sqrt{5}}})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=\\sqrt{4+\\sqrt{10+2 \\sqrt{5}}}+\\sqrt{4-\\sqrt{10+2 \\sqrt{5}}}\\gt 0 \\\\ A^{2}=4+\\sqrt{10+2 \\sqrt{5}}+4-\\sqrt{10+2 \\sqrt{5}}-2 \\sqrt{16-(10+2 \\sqrt{5})} \\\\ A^{2}=8+2 \\sqrt{6-2 \\sqrt{5}} \\\\ A^{2}=8+2 \\sqrt{(\\sqrt{5}-1)^{2}} \\\\ A^{2}=6+2 \\sqrt{5} \\\\ A^{2}=(\\sqrt{5}+1)^{2} \\\\ A=\\sqrt{5}+1~(\\text {Do A }>0)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Tìm các số thực %(a, b)% để đa thức %(f(x)=x^{4}+a x^{3}+b x-1)% chia hết cho đa thức %(x^{2}-3 x+2)%.",
+        "question_images": [],
+        "solution": "Ta có: %(x^{2}-3 x+2=(x-1)(x-2))%.<br>Theo bài ra: %(f(x)=(x-1)(x-2))%.<br>%(f(x))% chia hết cho %(x-1 \\mathrm{~=>~} f(1)=0)%<br>%(\\mathrm{} a+b=0 \\mathrm{~=>~}~b=-a~~~~~ (1))%<br>%(f(x))% chia hết cho %(x-2 \\mathrm{~=>} ~ f(2)=0)%<br>%(8 a+2 b=-15~~~~~(2))%<br>Từ (1) và %((2) \\mathrm{~=>~} 8 a+2(-a)=-15)%<br>%(\\mathrm{=>~} a=-\\frac{5}{2} ; b=\\frac{5}{2})%.<br>Vậy %(a=-\\frac{5}{2} ; b=\\frac{5}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Cho hai số thực dương %(x, y)% thỏa mãn %(x-2 y=\\sqrt{x y})%.<br>Tính giá trị của biểu thức: %(P=\\frac{x-y}{x+y})%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}x-2 y=\\sqrt{x y} \\Leftrightarrow x-\\sqrt{x y}-2 y=0 \\Leftrightarrow x-2 \\sqrt{x y}+\\sqrt{x y}-2 y=0 \\\\Leftrightarrow(\\sqrt{x}-2 \\sqrt{y})(\\sqrt{x}+\\sqrt{y})=0\\end{array}\\]<br>Vì %(\\sqrt{x}+\\sqrt{y}\\gt 0)% nên %(\\sqrt{x}-2 \\sqrt{y}=0 \\Leftrightarrow x=4 y)%.<br>Khi đó %(\\mathrm{P}=\\frac{4 y-y}{4 y+y}=\\frac{3}{5})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(4 \\sqrt{x+1}=x^{2}-5 x+14)%",
+        "question_images": [],
+        "solution": "Điều kiện: %(x^{3}-1)%<br>\\[\\begin{array}{l}\\text { PT } \\Leftrightarrow 4 \\sqrt{x+1}-8=x^{2}-5 x+6 \\\\Leftrightarrow 4(\\sqrt{x+1}-2)=x^{2}-5 x+6 \\\\Leftrightarrow \\frac{4(x-3)}{(\\sqrt{x+1}-2)}=(x-2)(x+3) \\\\Leftrightarrow(x-3)\\left(\\frac{4}{\\sqrt{x+1}-2}-x+2\\right)=0 \\\\Leftrightarrow x-3=0 \\Leftrightarrow x=3\\end{array}\\]<br>Vậy %(x=3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các giá trị của m để phương trình %(\\frac{2 m-1}{x-2}=m-3)% vô nghiệm.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}Đ K: x \\neq 2 \\\\frac{2 m-1}{x-2}=m-3 \\\\Leftrightarrow 2 m-1=(m-3)(x-2) \\\\Leftrightarrow m x-3 x=4 m-7 \\\\Leftrightarrow(m-3) x=4 m-7 \\\\end{array}\\]<br>Phương trình vô nghiệm %(\\Rightarrow\\left\\{\\begin{array}{c}m-3=0 \\\\ 4 m-7 \\neq 0\\end{array} \\Rightarrow m=3\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là các số dương thỏa mãn %(a+b+c=3)%. Chứng minh rằng %(a b+b c+c a+\\frac{1}{a b c} \\geq a b c+3)%.",
+        "question_images": [],
+        "solution": "Áp dụng BĐT Cauchy, ta có:<br>%((a+b+c)(a b+b c+c a)^{3})% %(\\geq)% %(3 \\sqrt[3]{a b c} .3 \\sqrt[3]{a^{2} b^{2} c^{2}}=9 a b c)%<br>%(a b c = \\frac{a b+b c+c a}{3})%<br>Ta chứng minh %(a b+b c+c a+\\frac{1}{a b c})% %(\\geq)% %(\\frac{a b+b c+c a}{3}+3)%<br>%({\\mathrm{<=>}} \\frac{a b+b c+c a}{3}+\\frac{a b+b c+c a}{3}+\\frac{1}{a b c}^{3})% %(\\geq)% 3<br>Thật vậy:<br>%(V T^{3} =3{\\sqrt[3]{\\frac{(a b+b c+c a)^{2}}{9 a b c}}}_{3})% %(\\geq)% %(3 \\sqrt[3]{\\frac{(a b+b c+c a)^{2}}{9 a b c}})%<br>Dấu bằng xảy ra khi %(a=b=c=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Chứng minh rằng với mọi số nguyên %(n)% thì %(n^{5}-5 n^{3}+4 n)% luôn chia hết cho 120",
+        "question_images": [],
+        "solution": "Ta có: %(n^{5}-5 n^{3}+4 n=n\\left(n^{2}-1\\right)\\left(n^{2}-4\\right))%<br>\\[=(n-2)(n-1) n(n+1)(n+2)\\]<br>Và %(120=2^{3} .3 .5)%<br>Trong 5 số nguyên liên tiếp luôn tồn tại một số chia hết cho 5, một số chia hết cho 3 và ít nhất hai số chẵn liên tiếp nên tích của 2 số này chia hết cho 8.<br>Mà %(3,5,8)% đôi một nguyên tố cùng nhau nên tích 5 số đó chia hết cho 120.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.0,
+        "content": "Giải phương trình nghiệm nguyên: %(x^{3}+8=7 \\sqrt{8 x+1})%.",
+        "question_images": [],
+        "solution": "\\[x^{3}+8=7 \\sqrt{8 x+1}\\]<br>ĐK xác định: %(8 x+1 \\geq 0 \\Leftrightarrow x \\geq-\\frac{1}{8} \\Leftrightarrow x \\geq 0)% (vì %(x \\in Z)% )<br>PT tương đương với:<br>\\[\\begin{array}{l}5 x^{3}+40=7 \\sqrt{25(8 x+1)} \\leq 7 . \\frac{25+(8 x+1)}{2}=7 .(4 x+13)=28 x+91 \\\\Leftrightarrow 5 x^{3}-28 x-51 \\leq 0 \\Leftrightarrow(x-3)\\left(5 x^{2}+15 x+17\\right) \\leq 0\\end{array}\\]<br>Vì với %(x \\geq 0)% thì %(5 x^{2}+15 x+17\\gt 0)%<br>Nên suy ra %(x-3=0 \\Leftrightarrow x=3)%<br>Vậy PT có nghiệm duy nhất %(x=3)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "9",
+        "group_content": "Cho %(O)% là trung điểm cùa đoạn thẳng %(A B)%. Tren cùng một nửa mặt phẳng có bờ là đường thẳng %(A B)% vẽ hai tia %(A x, B y)% cùng vuông góc %(A B)%. Trên tia %(A x)% lấy điểm %(C~()%khác %(A))%, qua %(O)% kẻ đường thẳng vuông góc với %(O C)% cắt tia %(B y)% tại %(D)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(A B^{2}=4 A C .B D)%",
+        "question_images": [],
+        "solution": "Chứng minh %(\\triangle O A C \\sim \\triangle D B O~(g.g))%<br>\\[\\begin{array}{l}\\Rightarrow \\frac{O A}{D B}=\\frac{A C}{O B} \\Rightarrow O A. O B=A C . B D \\\\Rightarrow \\frac{A B}{2}. \\frac{A B}{2}=A C. B D \\Rightarrow A B^{2}=4 A C.\\mathrm{B} D~~~(đp \\mathrm{cm})\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4fcde165b02fe6e67ba16712618116af.png\" srcset=\"https://docdn.giainhanh.io/media/test/2e93daf827dfdfe71b86c54995fc6326.png 164w\" width=\"164\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Gọi M là hình chiếu vuông góc của %(O)% trên %(C D)%. Chứng minh rằng %(M)% thuộc đường tròn đường kính %(A B)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text {  Theo câu a ta có: } \\triangle O A C \\sim \\triangle D B O \\text { (g.g) } \\\\ \\Rightarrow \\frac{O C}{O D}=\\frac{A C}{O B}  \\text { mà } O A=O B \\Rightarrow \\frac{O C}{O D}=\\frac{A C}{O A} \\\\ \\text { +) Chứng minh: } \\triangle O A C \\sim \\triangle D O C \\text { (c.g.c) } \\Rightarrow \\widehat{A C O}=\\widehat{O C M} \\\\ +) \\text { Chứng minh: } \\triangle O A C=\\triangle O M C \\text { (ch.gn) } \\Rightarrow A O=M O \\\\ \\Rightarrow M \\text { nằm trên đường tròn }(O, O A) \\text { hay đường tròn đường kính } A B \\text {. }\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Kẻ đường cao %(M H)% của tam giác %(M A B)%. Chứng minh rằng %(M H, A D, B C)% đồng quy.",
+        "question_images": [],
+        "solution": "Gọi %(K)% là giao của %(M H)% với %(B C, I)% là giao của %(B M)% với %(A x)%<br>Ta có %(\\triangle \\mathrm{OAC}=\\triangle \\mathrm{OMC} \\Rightarrow O A=O M ; C A=C M \\Rightarrow O C)% là trung trực của %(A M)%<br>\\[\\Rightarrow O C \\perp A M \\text {. }\\]<br>Mặc khác %(O A=O M=O B \\Rightarrow \\triangle A M B)% vuông tại %(M)%<br>%(O C / / B M)% (vì cùng vuông góc %(A M)% ) hay %(O C / / B I)%<br>+) Xét %(\\triangle A B I)% có %(O M)% đi qua trung điểm %(A B)%, song song %(B I)% suy ra %(O M)% đi qua trung điểm %(A I \\Rightarrow I C=A C)%<br>+) %(M H / / A I)%<br>theo định lý Ta-lét ta có: %(\\frac{M K}{I C}=\\frac{B K}{B C}=\\frac{K H}{A C})%<br>Mà %(I C=A C \\Rightarrow M K=H K \\Rightarrow B C)% đi qua trung điểm %(M H)%<br>Tương tự %(A D)% cũng đi qua trung điểm %(M H)%.<br>Suy ra %(A D, B C, M H)% đồng quy.",
+        "question_type": "essay"
+    },
+    {
+        "title": "10 ",
+        "point": 2.0,
+        "content": "Cho sáu đường tròn có bán kính bằng nhau và cùng có điểm chung. Chứng minh rằng tồn tại ít nhất một trong những đường tròn này chứa tâm của một đường tròn khác.",
+        "question_images": [],
+        "solution": "Giả sử có sáu đường tròn tâm %(O_{i}(i=1,2, . ., 6))% có bán kính %(r)% và %(M)% là điểm chung của các đường tròn này.<br>Để chứng minh bài toán ta chì cần chứng minh ít nhất có hai tâm có khoảng cách không lớn hơn %(r)%.<br>Nối %(M)% với các tâm.<br>Nếu hai trong những đoạn thẳng vừa nối nằm trên cùng một tia có điểm đầu mút là %(M)% thì bài toán được chứng minh.<br>Trong trường hợp ngược lại, xét góc nhỏ nhất trong các góc nhận được đỉnh %(M)%, giả sử đó là góc %(\\mathrm{O}_{1} \\mathrm{MO}_{2})%.<br>Do tổng các góc này là %(360^{\\circ})% nên góc %(O_{I} M O_{2} \\leq 60^{\\circ})%.<br>Khi đó trong tam giác %(O_{I} M O_{2})% có một góc không nhỏ hơn góc %(\\mathrm{O}_{1} \\mathrm{MO}_{2})% (nếu ngược lại thì tổng các góc trong tam giác nhỏ hơn %(180^{\\circ})%).<br>Từ đó suy ra trong những cạnh %(M O_{I})% và %(M O_{2})% trong tam giác %(O_{1} M O_{2})% tồn tại cạnh không nhỏ hơn %(\\mathrm{O}_{1} \\mathrm{O}_{2})% tức ta có %(\\mathrm{O}_{\\mathrm{I}} \\mathrm{O}_{2} \\leq r)% vì %(M \\mathrm{O}_{1} \\leq r, M \\mathrm{M}_{2} \\leq r)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/93ae2480aa301d0d0abf0749ef17378d.png\" srcset=\"https://docdn.giainhanh.io/media/test/901af27c378c76923247c0f4a677cd7e.png 197w\" width=\"197\"/>",
+        "question_type": "essay"
+    }
+]

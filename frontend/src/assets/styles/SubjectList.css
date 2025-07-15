@@ -1,0 +1,60 @@
+.subject-list {
+    max-width: 300px; /* Giới hạn chiều rộng tối đa */
+    margin: 0 auto; /* Căn giữa nếu cần */
+    color: black;
+    margin-left: 5px;
+    border-right: 1px solid #e7e7e7;
+  }
+  
+  .subject-button {
+    width: 100%;
+    height: 50px; /* Tăng chiều cao cho nút */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 15px 0 10px;
+    margin-bottom: 0px; /* Khoảng cách giữa các nút */
+    border-radius: 10px; /* Bo góc */
+    border: 0px solid #ffffff;
+    background-color: #fff;
+    color: #595959;
+    transition: all 0.3s ease; /* Hiệu ứng mượt mà */
+    text-align: left; /* Căn trái text */
+    font-size: 16px;
+    
+  }
+  .subject-list .ant-list-item {
+    border-bottom: none !important; /* Bỏ viền dưới của mỗi item */
+    padding: 0; /* Đảm bảo không có padding thừa */
+  }
+  
+  .subject-button:hover {
+    background-color: #f1f1f1 !important;
+    border-color: #40a9ff;
+    color: #40a9ff;
+    font-weight: bold;
+  }
+  
+  .subject-button.selected {
+    border-color: #1890ff;
+    background-color: #e6f7ff;
+    color: #000000;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+  }
+  
+  .subject-button.selected:hover {
+    background-color: #e6f7ff !important;
+  }
+  
+  .subject-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 12px; /* Khoảng cách với text */
+    transition: transform 0.2s ease; /* Hiệu ứng zoom nhẹ cho icon */
+  }
+  
+  .subject-button:hover .subject-icon {
+    transform: scale(1.3); /* Phóng to icon khi hover */
+  }

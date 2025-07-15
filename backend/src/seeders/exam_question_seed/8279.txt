@@ -1,0 +1,72 @@
+[
+    {
+        "title": "1",
+        "group_content": "Tìm các nguyên hàm sau:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) %(I=\\int\\left(e^{x}+\\cos 2 x\\right) d x)%",
+        "question_images": [],
+        "solution": "%(I=\\int\\left(e^{x}+\\cos 2 x\\right) d x=e^{x}+\\frac{1}{2} \\sin 2 x+C)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) %(I=\\int x \\sqrt{x^{2}+1} d x)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { } I=\\int x \\sqrt{x^{2}+1} d x \\\\  Đặt: t=\\sqrt{x^{2}+1} \\Rightarrow t \\mathrm{~d} t=x \\mathrm{~d} x \\\\ I=\\int t^{2} d t=\\frac{t^{3}}{3}+C \\\\ =\\frac{\\left(\\sqrt{x^{2}+1}\\right)^{3}}{3}+C\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm hàm số %(\\mathrm{F}\\left({ }{x}\\right))% biết %(F(x)=\\int x \\ln x d x)% và %(\\mathrm{F}(1)=1)%",
+        "question_images": [],
+        "solution": "\\[F(x)=\\int x \\ln x d x \\text { và } F(1)=1\\]<br>Đặt<br>\\[\\begin{array}{l}\\left\\{\\begin{array} { l } { u = \\operatorname { l n } x } \\\\{ d v = x d x }\\end{array} \\Rightarrow \\left\\{\\begin{array}{l}d u=\\frac{d x}{x} \\v=\\frac{x^{2}}{2}\\end{array}\\right.\\right. \\F(x)=\\frac{x^{2}}{2} \\ln x-\\frac{1}{2} \\int x d x=\\frac{x^{2}}{2} \\ln x-\\frac{x^{2}}{4}+C \\F(1)=-\\frac{1}{4}+c=1 \\Rightarrow C=\\frac{5}{4} \\\\Rightarrow F(x)=\\frac{x^{2}}{2} \\ln x-\\frac{x^{2}}{4}+\\frac{5}{4}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Tính các tích phân sau:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) %(I=\\int_{0}^{\\frac{\\pi}{4}}(\\sin 8 x+\\sin 2 x) d x)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { } I=\\int_{0}^{\\frac{\\pi}{4}}(\\sin 8 x+\\sin 2 x) d x \\\\ =\\left.\\left(\\frac{-1}{8} \\cos 8 x-\\frac{1}{2} \\cos 2 x\\right)\\right|_{0} ^{\\frac{\\pi}{4}} \\\\ =\\left(\\frac{-1}{8} \\cos 2 \\pi-\\frac{1}{2} \\cos \\frac{\\pi}{2}\\right)-\\left(\\frac{-1}{8} \\cos 0-\\frac{1}{2} \\cos 0\\right) \\\\ =\\frac{-1}{8}+\\frac{5}{8}=\\frac{1}{2}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) %(I=\\int_{0}^{1} \\frac{d x}{(x+1)(x-2)})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text {  } I=\\int_{0}^{1} \\frac{d x}{(x+1)(x-2)} \\\\ =\\frac{1}{3} \\int_{0}^{1} \\frac{(x+1)-(x-2)}{(x+1)(x-2)} d x \\\\ =\\frac{1}{3}\\left(\\int_{0}^{1} \\frac{1}{x-2} d x-\\int_{0}^{1} \\frac{1}{x+1} d x\\right) \\\\ \\left.=\\frac{1}{3}(\\ln |x-2|)-\\ln |x+1|\\right)\\left.\\right|_{0} ^{1}=\\frac{-2 \\ln 2}{3}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) %(I=\\int_{-1}^{1} \\frac{d x}{x^{2}+x+1})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text {  } I=\\int_{-1}^{1} \\frac{d x}{x^{2}+x+1}=\\int_{-1}^{1} \\frac{d x}{\\left(x+\\frac{1}{2}\\right)^{2}+\\frac{3}{4}} \\\\ Đặt: x+\\frac{1}{2}=\\frac{\\sqrt{3}}{2} \\tan t \\Rightarrow d x=\\frac{\\sqrt{3}}{2}\\left(\\tan ^{2} \\mathrm{t}+1\\right) \\mathrm{dt} \\\\ d / c: \\\\ x=-1 \\Rightarrow t=\\frac{-\\pi}{6} \\\\ x=1 \\Rightarrow t=\\frac{\\pi}{3} \\\\ I=\\int_{\\frac{\\pi}{3}}^{\\frac{\\pi}{3}} \\frac{\\sqrt{3}}{2}\\left(\\tan ^{2} \\mathrm{t}+1\\right) \\mathrm{dt} \\\\ \\left.\\frac{2}{4} \\tan ^{2} \\mathrm{t}+1\\right) \\\\ =\\int_{\\frac{\\pi}{3}}^{\\frac{2}{3}} \\frac{2 \\sqrt{3}}{3} d t=\\left.\\frac{2 \\sqrt{3}}{3} t\\right|_{-\\pi} ^{\\frac{\\pi}{3}}=\\frac{\\pi \\sqrt{3}}{3}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Tính diện tích hình phẳng giới hạn bởi các đường: %(y=x^{2}-4 x+1 ; y=x-3)%",
+        "question_images": [],
+        "solution": "\\[y=x^{2}-4 x+1 ; y=x-3\\]<br>Phương trình hoành độ giao điểm<br>\\[\\begin{array}{l}x^{2}-4 x+1=x-3 \\Leftrightarrow x^{2}-5 x+4=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x=1 \\x=4\\end{array}\\right.\\end{array}\\]<br>Diện tích cần tính<br>\\[\\begin{array}{l}S=\\int_{1}^{4}\\left|x^{2}-5 x+4\\right| d x=\\left|\\int_{1}^{4}\\left(x^{2}-5 x+4\\right) d x\\right| \\\\left.=\\left|\\left(\\frac{x^{3}}{3}-\\frac{5 x^{3}}{2}+4 x\\right)\\right|_{1}^{4} \\right\\rvert\\, \\\\=\\left|\\left(\\frac{4^{3}}{3}-\\frac{5.4^{2}}{2}+16\\right)-\\left(\\frac{1^{3}}{3}-\\frac{5.1^{2}}{2}+4\\right)\\right|=\\frac{9}{2}\\end{array}\\]",
+        "question_type": "essay"
+    }
+]

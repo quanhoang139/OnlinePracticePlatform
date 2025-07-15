@@ -1,0 +1,73 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Không sử dụng máy tính bỏ túi, hãy chứng minh đă̆ng thức :<br>\\[\\sqrt{\\sqrt{3}-\\sqrt{3-\\sqrt{13-4 \\sqrt{3}}}}=1 \\text {. }\\]",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} \\sqrt{\\sqrt{3}-\\sqrt{3-\\sqrt{13-4 \\sqrt{3}}}} & =\\sqrt{\\sqrt{3}-\\sqrt{3-\\sqrt{12-4 \\sqrt{3}+1}}} \\\\ & =\\sqrt{\\sqrt{3}-\\sqrt{3-\\sqrt{(2 \\sqrt{3}-1)^{2}}}}=\\sqrt{\\sqrt{3}-\\sqrt{3-|2 \\sqrt{3}-1|}} \\\\ & =\\sqrt{\\sqrt{3}-\\sqrt{3-2 \\sqrt{3}+1}}=\\sqrt{\\sqrt{3}-\\sqrt{(\\sqrt{3}-1)^{2}}} \\\\ & =\\sqrt{\\sqrt{3}-|\\sqrt{3}-1|}=\\sqrt{\\sqrt{3}-\\sqrt{3}+1}=1\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Giải hệ phương trình : %(\\left\\{\\begin{array}{c}|x+1|+\\sqrt{y}=5 \\\\ \\left(x^{2}+2 x+1\\right) y=36\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Điều kiện %(\\mathrm{y} \\geq 0)%.<br>\\[\\left(x^{2}+2 x+1\\right) y=36 \\Leftrightarrow|x+1| \\sqrt{y}=6 \\text {. }\\]<br>Đặt %(u=|x+1|, v=\\sqrt{y}(u \\geq 0, v \\geq 0))%, ta có hệ %(\\left\\{\\begin{array}{c}u+v=5 \\\\ u v=6\\end{array}\\right.)%<br>Giải ra: %(\\mathrm{u}=2, \\mathrm{v}=3)% hoặc %(\\mathrm{u}=3, \\mathrm{v}=2)%<br>Trường hợp %(\\mathrm{u}=2, \\mathrm{v}=3)% có %(:(\\mathrm{x}=1 ; \\mathrm{y}=9))% hoặc %((\\mathrm{x}=-3 ; \\mathrm{y}=9))%<br>Trường hợp %(\\mathrm{u}=3, \\mathrm{v}=2)% có : %((\\mathrm{x}=2 ; \\mathrm{y}=4))% hoặc %((\\mathrm{x}=-4 ; \\mathrm{y}=4))%<br>Hệ đã cho có 4 nghiệm: %((1 ; 9),(-3 ; 9),(2 ; 4),(-4 ; 4))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Cho phương trình: %(x^{4}-2 m x^{2}+2 m-1=0)%.<br>Tìm giá trị %(m)% để phương trình có bốn nghiệm %(x_{1}, x_{2}, x_{3}, x_{4})% sao cho:<br>\\[x_{1}\\lt x_{2}\\lt x_{3}\\lt x_{4} \\text { và } x_{4}-x_{1}=3\\left(x_{3}-x_{2}\\right) \\text {. }\\]",
+        "question_images": [],
+        "solution": "\\[x^{4}-2 m x^{2}+2 m-1=0(1)\\]<br>Đặt : %(t=x^{2})%, ta có : %(t^{2}-2 m t+2 m-1=0(2)(t \\geq 0))%.<br>\\[\\Delta^{\\prime}=m^{2}-2 m+1=(m-1)^{2} \\geq 0 \\text { với mọi } m \\text {. }\\]<br>Vậy để (1) có bốn nghiệm phân biệt thì (2) luôn có hai nghiệm dương phân biệt %(t_{1}, t_{2})%. Tương đương với:<br>\\[\\Delta^{\\prime}\\gt 0, P=2 m-1>0, S=2 m>0 \\Leftrightarrow m>\\frac{1}{2}, m \\neq 1\\]<br>Với điều kiện (3), phương trình (2) có 2 nghiệm dương %(0\\lt t_{1}\\lt t_{2})% và phương trình (1) có 4 nghiệm phân biệt:<br>\\[x_{1}=-\\sqrt{t_{2}}\\lt x_{2}=-\\sqrt{t_{1}}\\lt x_{3}=\\sqrt{t_{1}}\\lt x_{4}=\\sqrt{t_{2}}\\]<br>Theo giả thiết: %(x_{4}-x_{1}=3\\left(x_{3}-x_{2}\\right) \\Leftrightarrow 2 \\sqrt{t_{2}}=6 \\sqrt{t_{1}} \\Leftrightarrow \\sqrt{t_{2}}=3 \\sqrt{t_{1}} \\Leftrightarrow t_{2}=9 t_{1})%<br>Theo định lí Vi-ét, ta có: %(t_{1}+t_{2}=2 m)% và %(t_{1} t_{2}=2 m-1)% (5)<br>Từ (4) và (5) ta có: %(10 t_{1}=2 m)% và %(9 t_{1}{ }^{2}=2 m-1)%<br>\\[\\Rightarrow 9 m^{2}-50 m+25=0 \\Leftrightarrow m_{1}=\\frac{5}{9} ; m_{2}=5 \\text {. }\\]<br>Cả hai giá trị đều thỏa mãn điều kiện bài toán.<br>Vậy để phương trình (1) có 4 nghiệm thỏa mãn điều kiện bài toán thì cần và đủ là:<br>\\[m=\\frac{5}{9} \\text { và } m=5 .\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho đường tròn %((\\mathrm{O}))%, đường kính %(\\mathrm{AB})%. Gọi %(\\mathrm{C})% là trung điểm của bán kính %(\\mathrm{OB})% và %((\\mathrm{S}))% là đường tròn đường kính %(\\mathrm{AC})%. Trên đường tròn %((\\mathrm{O}))% lấy hai điểm tùy ý phân biệt %(\\mathrm{M}, \\mathrm{N})% khác %(\\mathrm{A})% và %(\\mathrm{B})%. Goi %(\\mathrm{P}, \\mathrm{Q})% lần lượt là giao điểm thứ hai của %(\\mathrm{AM})% và %(\\mathrm{AN})% với đường tròn %((\\mathrm{S}))%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng đường thẳng %(\\mathrm{MN})% song song với đường thẳng %(\\mathrm{PQ})%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/87e7ac3460b915a8a2790ef34fffb72c.png\" srcset=\"https://docdn.giainhanh.io/media/test/afd6819d882bc7cf0e4f893672439e24.png 181w\" width=\"181\"/><br>+ Hình vẽ<br>\\[C P A=B M A=90^{\\circ} \\Rightarrow C P / / B M\\]<br>Do đó : %(\\frac{\\mathrm{AP}}{\\mathrm{AM}}=\\frac{\\mathrm{AC}}{\\mathrm{AB}})% (1)<br>+ Tương tự: %(C Q / / B N)% và %(\\frac{\\mathrm{AQ}}{\\mathrm{AN}}=\\frac{\\mathrm{AC}}{\\mathrm{AB}}(2))%<br>Từ (1) và (2): %(\\frac{\\mathrm{AP}}{\\mathrm{AM}}=\\frac{\\mathrm{AQ}}{\\mathrm{AN}})%,<br>Do đó %(P Q / / M N)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Vẽ tiếp tuyến %(\\mathrm{ME})% của %((\\mathrm{S}))% với %(\\mathrm{E})% là tiếp điểm. Chứng minh: %(\\mathrm{ME}^{2}=\\mathrm{MA} \\cdot \\mathrm{MP})%",
+        "question_images": [],
+        "solution": "+ Hai tam giác MEP và MAE có %(: E M P=A M E)% và %(P E M=E A M)%. Do đó chúng đồng dạng .<br>+ Suy ra: %(\\frac{M E}{M A}=\\frac{M P}{M E} \\Rightarrow M E^{2}=M A \\cdot M P)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Vẽ tiếp tuyến %(\\mathrm{NF})% của %((\\mathrm{S}))% với %(\\mathrm{F})% là tiếp điểm. Chứng minh: %(\\frac{\\mathrm{ME}}{\\mathrm{NF}}=\\frac{\\mathrm{AM}}{\\mathrm{AN}})%.",
+        "question_images": [],
+        "solution": "+ Tương tự ta cũng có: %(N F^{2}=N A \\cdot N Q)%<br>+ Do đó: %(\\frac{M E^{2}}{N F^{2}}=\\frac{M A \\cdot M P}{N A \\cdot N Q})%<br>+ Nhưng %(\\frac{M P}{N Q}=\\frac{M A}{N A})% (Do %(P Q / / M N)% )<br>+ Từ đó: %(\\frac{M E^{2}}{N F^{2}}=\\frac{A M^{2}}{A N^{2}} \\Rightarrow \\frac{M E}{N F}=\\frac{A M}{A N})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Tìm số tự nhiên có bốn chữ số (viết trong hệ thập phân) sao cho hai điểu kiện sau đổng thời được thỏa mãn:<br>(i) Mỗi chữ số đứng sau lớn hơn chữ số đứng liền trước.<br>(ii) Tổng %(\\mathrm{p}+\\mathrm{q})% lấy giá trị nhỏ nhất, trong đó %(\\mathrm{p})% là tỉ số của chữ số hàng chục và chữ số hàng đơn ví còn q là tỉ số của chữ số hàng nghìn và chữ số hàng trăm.",
+        "question_images": [],
+        "solution": "Xét số tùy ý có 4 chữ số %(\\overline{a b c d})% mà %(1 \\leq a\\lt b\\lt c\\lt d \\leq 9)%. ( %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c}, \\mathrm{d})% là các số nguyên).<br>Ta tìm giá trị nhỏ nhất của %(p+q=\\frac{c}{d}+\\frac{a}{b})%<br>Do b, c là số tự nhiên nên: %(c\\gt b \\Rightarrow c \\geq b+1)%.<br>Vì vậy : %(\\quad p+q \\geq \\frac{b+1}{9}+\\frac{1}{b})% %(p+q \\geq \\frac{1}{9}+\\frac{b}{9}+\\frac{1}{b} \\geq \\frac{1}{9}+2 \\sqrt{\\frac{b}{9} \\cdot \\frac{1}{b}}=\\frac{7}{9})%%(p+q=\\frac{7}{9})% trong trường hợp %(c=b+1, d=9, a=1, \\frac{b}{9}=\\frac{1}{b})%<br>Vậy số thỏa mãn các điều kiện của bài toán là: 1349",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Một tấm bìa dạng tam giác vuông có độ dài ba cạnh là các số nguyên. Chứng minh rằng có thể cắt tấm bìa thành sáu phần có diện tích bằng nhau và diện tích mỗi phần là số nguyên.",
+        "question_images": [],
+        "solution": "Gọi %(a, b, c)% là độ dài 3 cạnh tam giác vuông %(A B C)%, %(c)% là cạnh huyền.<br>Ta có %(a^{2}+b^{2}=c^{2} ; \\mathrm{a}, \\mathrm{b}, \\mathrm{c} \\in \\mathbb{N}^{*})%, diện tích tam giác %(\\mathrm{ABC})% là %(S=\\frac{a b}{2})%<br>Trước hết ta chứng minh ab chia hết cho 12.<br>+ Chứng minh %(a b: 3)%<br>Nếu cả %(\\mathrm{a})% và %(\\mathrm{b})% đồng thời không chia hết cho 3 thì %(a^{2}+b^{2})% chia 3 dư 2 .<br>Suy ra số chính phương %(c^{2})% chia 3 dư 2 , vô lý.<br>+ Chứng minh %(a b \\vdots 4)%<br>- Nếu %(\\mathrm{a}, \\mathrm{b})% chẵn thì %(a b: 4)%.<br>- Nếu trong hai số %(\\mathrm{a}, \\mathrm{b})% có số lẻ, chẳng hạn %(\\mathrm{a})% lẻ.<br>Lúc đó %(\\mathrm{c})% lẻ. Vì nếu %(\\mathrm{c})% chẵn thì %(c^{2}: 4)%, trong lúc %(a^{2}+b^{2})% không thể chia hết cho 4.<br>Đặt %(\\mathrm{a}=2 \\mathrm{k}+1, \\mathrm{c}=2 \\mathrm{~h}+1, \\mathrm{k}, \\mathrm{h} \\in \\mathbb{N})%. Ta có :<br>\\[b^{2}=(2 h+1)^{2}-(2 k+1)^{2}=4(h-k)(h+k+1)=4(h-k)(h-k+1)+8 k(h-k): 8\\]<br>Suy ra %(b: 4)%.<br>Nếu ta chia cạnh %(\\mathrm{AB})% (chẳng hạn) thành 6 phần bằng nhau, nối các điểm chia với %(\\mathrm{C})% thì tam giác %(\\mathrm{ABC})% được chia thành 6 tam giác, mỗi tam giác này có diện tích bằng %(\\frac{a b}{12})% là một số nguyên.",
+        "question_type": "essay"
+    }
+]

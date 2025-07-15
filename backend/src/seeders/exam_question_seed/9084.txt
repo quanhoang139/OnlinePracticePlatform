@@ -1,0 +1,97 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.5,
+        "content": "Cho %(a, b, c)% là các số thực khác 0 thỏa mãn %(a^{3}+b^{3}+c^{3}=3 a b c)%.<br>Tính giá trị biểu thức: %(P=\\frac{a+b}{c}+\\frac{b+c}{a}+\\frac{c+a}{b})%.",
+        "question_images": [],
+        "solution": "Ta có: %(a^{3}+b^{3}+c^{3}=3 a b c)%<br>Suy ra %(\\frac{1}{2}(a+b+c)\\left[(a-b)^{2}+(b-c)^{2}+(c-a)^{2}\\right]=0)%.<br>Do đó: %(\\left[\\begin{array}{l}a+b+c=0 \\\\ a=b=c\\end{array}\\right.)%<br>TH1: %(a+b+c=0)%<br>Suy ra: %(a=-b-c ; b=-c-a ; c=-b-a)%.<br>Suy ra %(P=-3)%.<br>TH 2: %(a=b=c)%<br>Suy ra %(P=6)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.5,
+        "content": "Giải phương trình %(x^{2}-4 x+\\sqrt{x-2}+4=0)%.",
+        "question_images": [],
+        "solution": "Điều kiện xác định: %(x \\geq 2)%.<br>Biến đổi phương trình về dạng %((x-2)^{2}+\\sqrt{x-2}=0)%.<br>Vì %((x-2)^{2} \\geq 0)% và %(\\sqrt{x-2} \\geq 0)% với mọi %(x \\geq 2)%<br>Nên %((x-2)^{2}+\\sqrt{x-2} \\geq 0)%<br>Dấu \" %(=)%\" xảy ra khi %(\\left\\{\\begin{array}{l}(x-2)^{2}=0 \\\\ \\sqrt{x-2}=0 \\end{array} ~~~~~~\\Leftrightarrow x=2\\right.)%.<br>Vậy nghiệm của phương trình là %(x=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Cho đa thức %(P(x))% với hệ số thực thỏa mãn %(P(1)=2)% và %(P(-1)=4)%. Tìm đa thức dư trong phép chia đa thức %(P(x))% cho đa thức %(x^{2}-1)%.",
+        "question_images": [],
+        "solution": "Đặt %(P(x)=(x+1)(x-1). q(x)+a x+b)%.<br>Ta có: %(P(1)=a+b=2)% và %(P(-1)=-a+b=4)%.<br>Suy ra %(a=-1 ; b=3)%.<br>Vậy đa thức dư là %(-x+3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Tìm các cặp số nguyên %((x ; y))% thỏa mãn %(x^{2}+2 y^{2}-2 x y+2 x-6 y+1=0)%",
+        "question_images": [],
+        "solution": "Biến đổi phương trình về dạng %((x-y+1)^{2}+(y-2)^{2}=4=0^{2}+2^{2})%.<br>TH1: %(\\left\\{\\begin{array}{l}x-y+1=0 \\\\ y-2=2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=3 \\\\ y=4\\end{array}\\right.\\right.)%<br>TH2: %(\\left\\{\\begin{array}{l}x-y+1=0 \\\\ y-2=-2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=-1 \\\\ y=0\\end{array}\\right.\\right.)%<br>TH3: %(\\left\\{\\begin{array}{l}x-y+1=2 \\\\ y-2=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=3 \\\\ y=2\\end{array}\\right.\\right.)%<br>TH4: %(\\left\\{\\begin{array}{l}x-y+1=-2 \\\\ y-2=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=-1 \\\\ y=2\\end{array}\\right.\\right.)%<br>Từ đó giải ra được %((x ; y) \\in\\{(-1 ; 0),(-1 ; 2),(3 ; 2),(3 ; 4)\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là các số nguyên dương phân biệt và %(p)% là số nguyên tố lẻ sao cho %(a b+1, b c+1, c a+1)% đều chia hết cho %(p)%. Chứng minh rằng %(p+2 \\leq \\frac{a+b+c}{3})%.",
+        "question_images": [],
+        "solution": "Không mất tính tổng quát ta có thể giả sử rằng: %(a\\lt b\\lt c)%.<br>Thấy rằng %(a b+1, b c+1, c a+1)% đều chia hết cho %(p)%<br>Suy ra %(a, b, c)% đều không chia hết cho %(p)%<br>Từ giả thiết %(b c+1, a c+1)% đều chia hết cho %(p)%, ta suy ra %((b c+1)-(a c+1)~ \\vdots~ p \\Rightarrow c(b-a)~ \\vdots~ p)%<br>Mà c không chia hết cho %(p)% suy ra %(b-a~ \\vdots~ p)%<br>Tương tự ta cũng có: %(c-b ~\\vdots ~p)% suy ra %(b-a \\geq p)% và %(c-b \\geq p)%<br>Ta có %(b=(b-a)+a \\geq p+a)% và %(c=b+(c-b) \\geq p+a+p=a+2 p)%.<br>Nếu %(a=1)% thì %(b+1=a b+1 ~\\vdots~ p, b-1=b-a ~\\vdots~ p)% dẫn đến %(2~ \\vdots ~p)%<br>Mà %(p)% là số nguyên tố lẻ nên trái với giả thiết vậy %(a \\geq 2)%.<br>Sử dụng các dữ kiện:<br>\\[a \\geq 2, b \\geq a+p, c \\geq a+2 p \\Rightarrow \\frac{a+b+c}{3} \\geq \\frac{a+a+p+a+2 p}{3}=p+a \\geq p+2\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Tìm giá trị lớn nhất và giá trị nhỏ nhất của biểu thức %(P=\\sqrt{x-2}+\\sqrt{4-x})%, với %(2 \\leq x \\leq 4)%",
+        "question_images": [],
+        "solution": "Vì %(P\\gt 0)%, ta xét %(P^{2}=2+2 \\sqrt{(x-2)(4-x)} \\geq 2)%<br>Do đó %(P \\geq \\sqrt{2})% vì %(P>0)%.<br>Dấu \"=\" xảy ra khi %(\\sqrt{(x-2)(4-x)}=0)%<br>Suy ra %(\\left[\\begin{array}{l}x=2 \\\\ x=4\\end{array}\\right.)%.<br>Vậy %(P)% đạt giá trị nhỏ nhất là %(\\sqrt{2})% khi %(\\left[\\begin{array}{l}x=2 \\\\ x=4\\end{array}\\right.)%<br>Vì %(P>0)%, ta xét %(P^{2}=2+2 \\sqrt{(x-2)(4-x)})%<br>Áp dụng bất đẳng thức AM-GM, ta có:<br>%(2 \\sqrt{(x-2)(4-x)} \\leq x-2+4-x=2)%<br>Do đó, %(P^{2} \\leq 4)%<br>Dấu \" %(=)%\" xảy ra khi %(x-2=4-x)%<br>Suy ra %(x=3)%.<br>Vậy %(P)% đạt giá trị lớn nhất là 2, khi %(x=3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Với các số thực %(a, b, c)% thỏa mãn: %(a+b+c=3)% và %(a^{2}+b^{2}+c^{2}=9)%. Chứng minh rằng %(-1 \\leq a \\leq 3)%.",
+        "question_images": [],
+        "solution": "Từ giả thiết ta có: %(\\left\\{\\begin{array}{l}b+c=3-a \\\\ b^{2}+c^{2}=9-a^{2}\\end{array}\\right.)%<br>Sử dụng bất đẳng thức %(2\\left(b^{2}+c^{2}\\right) \\geq(b+c)^{2})%, ta suy ra:<br>\\[\\begin{array}{l}2\\left(9-a^{2}\\right) \\geq(3-a)^{2} \\Rightarrow a^{2}-2 a-3 \\leq 0 \\Rightarrow(a+1)(a-3) \\leq 0 \\\\text { Vì } a+1\\gt a-3 \\Rightarrow\\left\\{\\begin{array}{l}a+1 \\geq 0 \\a-3 \\leq 0\\end{array} \\Rightarrow-1 \\leq a \\leq 3 \\right.\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho tam giác %(A B C)% vuông tại %(A)% có %(A B\\lt A C)% và đường cao %(A H)%. Gọi %(E, F)% là chân các đường vuông góc hạ từ %(H)% lên %(A C, A B)%. Gọi %(I)% là giao điểm của %(A H)% và %(E F, B I)% cắt %(A C)% tại điểm %(P)%. Đường thẳng qua %(A)% song song với %(B I)% cắt %(B C)% tại %(Q)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 3.0,
+        "content": "a) Chứng minh %(B)% là trung điểm %(Q H)%.",
+        "question_images": [],
+        "solution": "Do %(A Q~//~B P)% theo định lý Thales, ta có: %(\\frac{B H}{B Q}=\\frac{I A}{I H})%<br>Mà %(I)% là trung điểm %(A H)% nên %(I A=I H)% dẫn đến %(\\frac{B H}{B Q}=1)% hay %(B)% là trung điểm %(Q H)%<br><strong>Cách khác: </strong><br>Có thể nói %(B)% là trung điểm %(Q H)% dựa trên định lý đường trung bình của tam giác %(A H Q)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0cb118453bad94aa5cab76e4f16b9236.png\" srcset=\"https://docdn.giainhanh.io/media/test/213bfd6ab38631352548e8d6aa8f746e.png 245w, https://docdn.giainhanh.io/media/test/60a135d42ee3c6cc2deae14c562fe36b.png 500w, https://docdn.giainhanh.io/media/test/a6acdde193c0f70046516b3e44bb5fd1.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) %(C I)% cắt %(A B)% tại %(L)%. Chứng minh: %(\\frac{A P}{P C}=\\frac{B A^{2}}{B C^{2}})% và %(\\frac{A P}{P C}+\\frac{A L}{L B}=1)%.",
+        "question_images": [],
+        "solution": "Ta có %(\\frac{A P}{P C}=\\frac{Q B}{B C}=\\frac{B H}{B C}=\\frac{B H .B C}{B C^{2}})%<br>Sử dụng hệ thức lượng trong tam giác vuông %(A B C)%, ta có:<br>%(B H .B C=B A^{2})%<br>Từ đó suy ra %(\\frac{A P}{P C}=\\frac{Q B}{B C}=\\frac{B H}{B C}=\\frac{B A^{2}}{B C^{2}})%<br>Chứng minh tương tự ta có: %(\\frac{A L}{L B}=\\frac{A C^{2}}{B C^{2}})%<br>Suy ra %(\\frac{A P}{P C}+\\frac{A L}{L B}=\\frac{A B^{2}}{B C^{2}}+\\frac{A C^{2}}{B C^{2}}=\\frac{A B^{2}+A C^{2}}{B C^{2}}=1)%<br><strong>Cách khác: </strong><br>Theo định lý Thales ta có: %(\\frac{P A}{P C}=\\frac{Q B}{B C}=\\frac{B H}{B C})%<br>Tương tự ta cũng có:<br>%(\\frac{Q A}{Q B}=\\frac{C H}{C B})% dẫn đến %(\\frac{P A}{P C}+\\frac{Q A}{Q B}=\\frac{B H+C H}{B C}=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Gọi %(M)% là giao điểm của %(F E)% và %(C B)%. Kẻ %(H T)% vuông góc với %(A M)%. Chứng minh rằng %(\\widehat{B T C}=90^{\\circ})%.",
+        "question_images": [],
+        "solution": "Sử dụng hệ thức lượng trong các tam giác vuông %(A H B, A H C)% với %(H E \\perp A C, H F \\perp A B)%<br>Ta có %(A F . A B=A H^{2}=A E.A C)%<br>Từ đó suy ra %(\\triangle A E F \\sim \\triangle A B C)% dẫn đến %(\\widehat{A E F}=\\widehat{A B C})%.<br>Gọi %(O)% là trung điểm của %(B C)% thì %(O A=O B=O C)% nên tam giác %(A O C)% cân tại %(O)%<br>Suy ra %(\\widehat{O A C}=\\widehat{O C A})%.<br>Từ đó suy ra %(\\widehat{A E F}+\\widehat{O A C}=\\widehat B+\\widehat C=90^{\\circ})% nên %(O A \\perp E F)%<br>Nên %(I)% là trực tâm của tam giác %(A O M)% dẫn đến %(O I \\perp A M)% hay %(O I \\perp A T~~~~~\\left({ }{*}\\right))%.<br>Tam giác %(A T H)% vuông tại %(T)%, có:<br>%(A I=T I=I H)% hay %(I A=I T~~~~~(* *))%<br>Từ %(\\left({ }{*}\\right),(* *))% suy ra %(O I)% là trung trực của %(A T)% dẫn đến %(O T=O A=O B=O C)%<br>Nên tam giác %(B T C)% vuông tại %(T)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 1.0,
+        "content": "Cho lục giác đều %(A B C D E F)% có diện tích %(2022 \\mathrm{~cm}^{2})% và 7 điểm nằm trong lục giác đều %(A B C D E F)%. Chứng minh rằng tồn tại tam giác có 3 đỉnh là 3 điểm trong 7 điểm đã cho có diện tích không lớn hơn %(337 \\mathrm{~cm}^{2})%.",
+        "question_images": [],
+        "solution": "Bổ đề: Lấy 3 điểm trong một hình bình hành, khi đó tam giác tạo bởi 3 điểm đó có diện tích bé hơn hoặc bằng nửa diện tích hình bình hành.<br>Áp dụng: Gọi %(O)% là tâm của lục giác đều, khi đó lục giác chia thành 3 hình bình hành là %(A B C O, C D E O, E F A O)%.<br>Theo nguyên lí Dirichlet, tồn tại một hình bình hành chứa ít nhất 3 điểm và theo bổ đề 3 điểm này tạo tam giác có diện tích nhỏ hơn nửa diện tích hình bình hành, hay diện tích không lớn hơn %(337 \\mathrm{~cm}^{2})%.",
+        "question_type": "essay"
+    }
+]

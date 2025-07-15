@@ -1,0 +1,42 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Hãy cho biết sự khác nhau giữa từ khóa và tên?",
+        "question_images": [],
+        "solution": "- Tên trong chương trình là một dây các kí tự hợp lệ được lấy từ bảng chữ cái của ngôn ngữ lập trình.<br>- Từ khóa của ngôn ngữ lập trình (còn được gọi là từ dành riêng) là tên được dùng cho các mục đích nhất định do ngôn ngữ lập trình quy định, không được dùng cho mục đích nào khác.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Hãy cho biết các thành phần chính trong cấu trúc của chương trình?",
+        "question_images": [],
+        "solution": "* Phần khai báo (có thể có hoặc không) thường gồm các câu lệnh dùng để:<br>- Khai báo tên chương trình;<br>- Khai báo các thư viện (chứa các câu lệnh viết sẵn có thể sử dụng trong chương trình) và một số khai báo khác.<br>* Phần thân của chương trình gồm các câu lệnh mà máy tính cần thực hiện. (đây là phần bắt buộc phải có).",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Hãy viết các biểu thức toán học sau bằng kí hiệu trong ngôn ngữ pascal.<br>a) %(\\frac{x+y}{x-y})%<br>b) %(\\frac{1}{n}+\\frac{1}{n+1})%",
+        "question_images": [],
+        "solution": "a) (x+y)/(x-y) ;<br>b) 1/n-1/(n+1);",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Hãy xác định INPUT và OUTPUT và mô tả thuật toán tìm giá trị tuyệt đối của một số cho trước.",
+        "question_images": [],
+        "solution": "INPUT: Số a cho trước;<br>OUTPUT: Kết quả giá trị tuyệt đối của số a;<br>Bước 1: Nhập số a;<br>Bước 2: Nếu a >=0, giá trị tuyệt đối của a bằng a, ngược lại giá trị tuyệt đối của a bằng - a;<br>Bước 3: Kết thúc.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 3.0,
+        "content": "Hãy viết chương trình nhập ba số dương a, b và c từ bàn phím, kiểm tra và in kết quả ra màn hình kết quả kiểm tra ba số đó có thể là độ dài ba cạnh của một tam giác hay không",
+        "question_images": [],
+        "solution": "Program ba_canh_tam_giac;<br>Var a, b,c: Real;<br>Begin<br>Writeln('Nhap so nguyen a ='); readln(a);<br>Writeln('Nhap so nguyen b='); Readln(b);<br>Writeln('Nhap so nguyen c='); Readln(c);<br>If (a+b > c) and (a + c > b) and (b + c > a) then Writeln ('Ba so a, b, c, la ba canh cua mot tam giac') else Writeln(' ba so a,b,c khong phai la ba canh của tam giac');<br>End.",
+        "question_type": "essay"
+    }
+]

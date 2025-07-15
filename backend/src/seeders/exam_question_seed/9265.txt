@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 3.0,
+        "content": "Cho biểu thức %(M=\\left(\\frac{x+2 \\sqrt{x}+4}{x \\sqrt{x}-8}+\\frac{x+2 \\sqrt{x}+1}{x-1}\\right):\\left(\\frac{3 \\sqrt{x}-5}{\\sqrt{x}-2}+\\frac{2 \\sqrt{x}+10}{x+6 \\sqrt{x}+5}\\right))%<br>Rút gọn %(\\mathrm{M})% và tìm %(\\mathrm{x})% để %(\\mathrm{M}\\gt 1)%",
+        "question_images": [],
+        "solution": "* %(M=\\left(\\frac{x+2 \\sqrt{x}+4}{(\\sqrt{x-2})(x+2 \\sqrt{x}+4)}+\\frac{(\\sqrt{x}+1)^{2}}{(\\sqrt{x}-1)(\\sqrt{x}+1)}\\right):\\left(\\frac{3 \\sqrt{x}-5}{\\sqrt{x}-2}+\\frac{2(\\sqrt{x}+5)}{(\\sqrt{x}+1)(\\sqrt{x}+5)}\\right))%<br>%(=\\left(\\frac{1}{\\sqrt{x}-2}+\\frac{\\sqrt{x}+1}{\\sqrt{x}-1}\\right):\\left(\\frac{3 \\sqrt{x}-5}{\\sqrt{x}-2}+\\frac{2}{\\sqrt{x}+1}\\right))%<br>%(=\\frac{\\sqrt{x}-1+(\\sqrt{x}+1)(\\sqrt{x}-2)}{(\\sqrt{x}-2)(\\sqrt{x}-1)}: \\frac{(3 \\sqrt{x}-5)(\\sqrt{x}+1)+2(\\sqrt{x}-2)}{(\\sqrt{x}-2)(\\sqrt{x}+1)})%<br>%(=\\frac{\\sqrt{x}-1+x-2 \\sqrt{x}+\\sqrt{x}-2}{(\\sqrt{x}-2)(\\sqrt{x}-11)}: \\frac{3 x+3 \\sqrt{x}-5 \\sqrt{x}-5+2 \\sqrt{x}-4}{(\\sqrt{x}-2)(\\sqrt{x}+1)})%<br>%(=\\frac{x-3}{(\\sqrt{x}-2)(\\sqrt{x}-11)}: \\frac{3 x-9}{(\\sqrt{x}-2)(\\sqrt{x}+1)}=\\frac{x-3}{(\\sqrt{x}-2)(\\sqrt{x}-1)} \\frac{(\\sqrt{x}-2)(\\sqrt{x}+1)}{3(x-3)}=\\frac{\\sqrt{x}+1}{3(\\sqrt{x}-1)})%<br>Vậy %(\\mathbf{M}=\\frac{\\sqrt{x}+1}{3(\\sqrt{x}-1)})% với %(x \\geq 0 ; x \\neq 1,3,4)%<br>* %(\\mathbf{M}\\lt \\mathbf{1} \\Leftrightarrow \\frac{\\sqrt{x}+1}{3(\\sqrt{x}-1)}\\gt 1 \\Leftrightarrow \\frac{\\sqrt{x}+1}{3(\\sqrt{x}-1)}-1>0 \\Leftrightarrow \\frac{4-2 \\sqrt{x}}{3(\\sqrt{x}-1)}>0 \\Leftrightarrow \\frac{2-\\sqrt{x}}{\\sqrt{x}-1}>0)%<br>Ta có %(\\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}2-\\sqrt{x}\\gt 0 \\\\ \\sqrt{x}-1>0\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}2-\\sqrt{x}\\lt 0 \\\\ \\sqrt{x}-1\\lt 0\\end{array}\\right.\\end{array} \\Leftrightarrow\\right.)%%(1\\lt \\sqrt{x}\\lt 2 \\Leftrightarrow 1\\lt x\\lt 4)%.<br>Vậy %(M\\gt 1)% khi %(1\\lt \\mathbf{x}\\lt 4)% và %(\\mathbf{x} \\neq 3)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c}\\gt 0)% thỏa mãn %(\\sqrt{a b}+\\sqrt{b c}+\\sqrt{c a}=1)%. Tính %(\\mathrm{H}=\\frac{\\sqrt{a}-\\sqrt{b}}{1+c}+\\frac{\\sqrt{b}-\\sqrt{c}}{1+a}+\\frac{\\sqrt{c}-\\sqrt{a}}{1+b})%",
+        "question_images": [],
+        "solution": "Vì %(\\sqrt{a b}+\\sqrt{b c}+\\sqrt{c a}=1)% nên %(1+\\mathrm{c}=\\sqrt{a b}+\\sqrt{b c}+\\sqrt{c a}+c=\\ldots=(\\sqrt{a}+\\sqrt{c})(\\sqrt{b}+\\sqrt{c}))%<br>Tương tự ta có %(1+a=(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}+\\sqrt{c}) ; 1+b=(\\sqrt{a}+\\sqrt{b})(\\sqrt{b}+\\sqrt{c}))%<br>Vậy %(\\mathrm{H}=\\frac{\\sqrt{a}-\\sqrt{b}}{(\\sqrt{a}+\\sqrt{c})(\\sqrt{b}+\\sqrt{c})}+\\frac{\\sqrt{b}-\\sqrt{c}}{(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}+\\sqrt{c})}+\\frac{\\sqrt{c}-\\sqrt{a}}{(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}+\\sqrt{c})})%<br>%(=\\frac{(\\sqrt{a}+\\sqrt{c})-(\\sqrt{b}+\\sqrt{c})}{(\\sqrt{a}+\\sqrt{c})(\\sqrt{b}+\\sqrt{c})}+\\frac{(\\sqrt{a}+\\sqrt{b})-(\\sqrt{a}+\\sqrt{c})}{(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}+\\sqrt{c})}+\\frac{(\\sqrt{b}+\\sqrt{c})-(\\sqrt{a}+\\sqrt{b})}{(\\sqrt{b}+\\sqrt{c})(\\sqrt{a}+\\sqrt{b})})%<br>%(=\\frac{1}{\\sqrt{b}+\\sqrt{c}}-\\frac{1}{\\sqrt{a}+\\sqrt{c}}+\\frac{1}{\\sqrt{a}+\\sqrt{c}}-\\frac{1}{\\sqrt{a}+\\sqrt{b}}+\\frac{1}{\\sqrt{a}+\\sqrt{b}}-\\frac{1}{\\sqrt{b}+\\sqrt{c}}=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Giải phương trình %(\\sqrt{30-\\frac{5}{x^{2}}}+\\sqrt{6 x^{2}-\\frac{5}{x^{2}}}=6 x^{2})%",
+        "question_images": [],
+        "solution": "ĐK: %(x^{2} \\geq \\sqrt{\\frac{5}{6}})%<br>Vì %(x^{2} \\geq \\sqrt{\\frac{5}{6}} \\Rightarrow \\frac{5}{x^{2}}\\gt 0 ; 6 x^{2}-1>0)%, theo côsi ta có %(\\sqrt{30-\\frac{5}{x^{2}}}=\\sqrt{\\frac{5}{x^{2}}\\left(6 x^{2}-1\\right)} \\leq \\frac{\\frac{5}{x^{2}}+\\left(6 x^{2}-1\\right)}{2})%<br>Dấu %(=)% có khi %(\\frac{5}{x^{2}}=6 x^{2}-1 \\Leftrightarrow x= \\pm 1)%<br>Vì %(x^{2} \\geq \\sqrt{\\frac{5}{6}} \\Rightarrow 6 x^{2}-\\frac{5}{x^{2}} \\geq 0)%, theo côsi ta có %(\\sqrt{6 x^{2}-\\frac{5}{x^{2}}}=\\sqrt{\\left(6 x^{2}-\\frac{5}{x^{2}}\\right) \\cdot 1} \\leq \\frac{\\left(6 x^{2}-\\frac{5}{x^{2}}\\right)+1}{2})%<br>Dấu %(=)% có khi %(6 x^{2}-\\frac{5}{x^{2}}=1 \\Leftrightarrow x= \\pm 1)%<br>Vậy ta có %(\\sqrt{30-\\frac{5}{x^{2}}}+\\sqrt{6 x^{2}-\\frac{5}{x^{2}}} \\leq \\frac{\\frac{5}{x^{2}}+6 x^{2}-1+6 x^{2}-\\frac{5}{x^{2}}+1}{2})%<br>%(\\Leftrightarrow \\sqrt{30-\\frac{5}{x^{2}}}+\\sqrt{6 x^{2}-\\frac{5}{x^{2}}} \\leq 6 x^{2})% Dấu %(=)% có khi %(\\Leftrightarrow x= \\pm 1)%<br>Vậy %(x= \\pm 1)% là nghiệm phương trình %(\\sqrt{30-\\frac{5}{x^{2}}}+\\sqrt{6 x^{2}-\\frac{5}{x^{2}}}=6 x^{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Tìm số thực %(x)% để 3 số %(x-\\sqrt{3} ; x^{2}+2 \\sqrt{3} ; x-\\frac{2}{x})% là số nguyên",
+        "question_images": [],
+        "solution": "Đặt %(a=x-\\sqrt{3} ; b=x^{2}+2 \\sqrt{3} ; c=x-\\frac{2}{x})% với %(a, b, c \\in Z)%<br>Từ %(a=x-\\sqrt{3} \\Rightarrow x=a+\\sqrt{3})%; từ %(b=x^{2}+2 \\sqrt{3} \\Rightarrow x^{2}=b-2 \\sqrt{3})%, nên ta có%((a+\\sqrt{3})^{2}=b-2 \\sqrt{3} \\Leftrightarrow a^{2}+2 \\sqrt{3} a+3=b-2 \\sqrt{3} \\Leftrightarrow 2 \\sqrt{3}(a+1)=b-a^{2}-3)%<br>-Nếu %(\\mathrm{a}+1 \\neq 0 \\Rightarrow a \\neq-1 \\Rightarrow 2 \\sqrt{3}=\\frac{b-a^{2}-3}{a+1})%, vì %(a, b \\in Z \\Rightarrow \\frac{b-a^{2}-3}{a+1} \\in Q \\Rightarrow 2 \\sqrt{3} \\in Q \\Rightarrow \\mathrm{VL})%<br>Vậy %(\\mathrm{a}+1=0)% nên ta có %(\\left\\{\\begin{array}{l}a+1=0 \\\\ b-a^{2}-3=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a=-1 \\\\ b=4\\end{array} \\Leftrightarrow x=\\sqrt{3}-1\\right.\\right.)%<br>Với %(x=\\sqrt{3}-1)% ta có %(a=-1 ; b=4)% và %(c=-2)% nguyên, thỏa mãn đầu bài",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Tìm %(x)% nguyên dương để %(4 x^{3}+14 x^{2}+9 x-6)% là số chính phương",
+        "question_images": [],
+        "solution": "Vì %(4 x^{3}+14 x^{2}+9 x-6)% là số chính phương, nên ta có %(4 x^{3}+14 x^{2}+9 x-6=\\mathrm{k}^{2})% với %(k \\in \\mathrm{N})%<br>Ta có %(4 x^{3}+14 x^{2}+9 x-6=\\ldots=(x+2)\\left(4 x^{2}+6 x-3\\right))% nên ta có %((x+2)\\left(4 x^{2}+6 x-3\\right)=k^{2})%<br>Đặt %(\\left(x+2,4 x^{2}+6 x-3\\right)=d)% với %(\\mathrm{d} \\in N^{*})%<br>Ta có %(x+2 \\vdots d \\Rightarrow(x+2)(4 x-2) \\vdots d \\Rightarrow 4 x+6 x-4 \\vdots d)%<br>Ta lại có %(4 x^{2}+6 x-3: d \\Rightarrow\\left(4 x^{2}+6 x-3\\right)-\\left(4 x^{2}+6 x-4\\right)=1 \\vdots d \\Rightarrow d=1)%<br>Vậy %(\\left(x+2,4 x^{2}+6 x-3\\right)=1)%<br>mà %((x+2)\\left(4 x^{2}+6 x-3\\right)=k^{2})% nên ta có<br>%(\\mathrm{x}+2)% và %(4 x^{2}+6 x-3)% là số chính phương %(\\Rightarrow x+2=a^{2})% và %(4 \\mathrm{x}^{2}+6 x-3=b^{2})% với %(\\mathrm{a}, \\mathrm{b} \\in N^{*})%<br>Vì %(x\\gt 0)% nên ta có %(4 x^{2}\\lt b^{2}\\lt 4 x^{2}+12 x+9 \\Leftrightarrow(2 x)^{2}\\lt b^{2}\\lt (2 x+3)^{2})%<br>Vì %(b)% lẻ nên %(b^{2}=(2 x+1)^{2} \\Leftrightarrow 4 x^{2}+6 x-3=4 x^{2}+4 x+1 \\Leftrightarrow x=2)%<br>Với %(\\mathrm{x}=2)% ta có %(4 x^{3}+14 x^{2}+9 x-6=100=10^{2})% là số chính phương",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Cho %(x, y, z)% là các số thực dương thỏa mãn %(\\mathrm{x}+\\mathrm{y}+\\mathrm{z}=\\mathrm{xyz})%.<br>Chứng minh rằng: %(\\frac{1+\\sqrt{1+x^{2}}}{x}+\\frac{1+\\sqrt{1+y^{2}}}{y}+\\frac{1+\\sqrt{1+z^{2}}}{z} \\leq x y z)%",
+        "question_images": [],
+        "solution": "Từ Gt suy ra: %(\\frac{1}{x y}+\\frac{1}{y z}+\\frac{1}{z x}=1)%.<br>Nên ta có: %(\\frac{\\sqrt{1+x^{2}}}{x}=\\sqrt{\\frac{1}{x^{2}}+\\frac{1}{x y}+\\frac{1}{y z}+\\frac{1}{z x}}=\\sqrt{\\left(\\frac{1}{x}+\\frac{1}{y}\\right)\\left(\\frac{1}{x}+\\frac{1}{z}\\right)} \\leq \\frac{1}{2}\\left(\\frac{2}{x}+\\frac{1}{y}+\\frac{1}{z}\\right) ; '=' \\Leftrightarrow y=z)%<br>Vậy %(\\frac{1+\\sqrt{1+x^{2}}}{x} \\leq \\frac{1}{2}\\left(\\frac{4}{x}+\\frac{1}{y}+\\frac{1}{z}\\right))%.<br>Tương tự ta có %(\\frac{1+\\sqrt{1+y^{2}}}{y} \\leq \\frac{1}{2}\\left(\\frac{1}{x}+\\frac{4}{y}+\\frac{1}{z}\\right) ; \\frac{1+\\sqrt{1+z^{2}}}{z} \\leq \\frac{1}{2}\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{4}{z}\\right))%<br>Vậy ta có %(\\frac{1+\\sqrt{1+x^{2}}}{x}+\\frac{1+\\sqrt{1+y^{2}}}{y}+\\frac{1+\\sqrt{1+z^{2}}}{z} \\leq 3\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right) ; '=' \\Leftrightarrow x=y=z)%<br>Ta có %((x+y+x)^{2}-3(x y+y z+x x)=\\ldots .=\\frac{1}{2}\\left[(x-y)^{2}+(y-z)^{2}+(x-z)^{2}\\right] \\geq 0)%<br>Nên %((x+y+x)^{2} \\geq 3(x y+y z+x x))%<br>%(\\Rightarrow(x y z)^{2} \\geq 3(x y+y z+x z) \\Rightarrow 3 \\frac{x y+y z+x z}{x y z} \\leq x y z \\Rightarrow 3\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right) \\leq x y z)%<br>Vậy %(\\frac{1+\\sqrt{1+x^{2}}}{x}+\\frac{1+\\sqrt{1+y^{2}}}{y}+\\frac{1+\\sqrt{1+z^{2}}}{z} \\leq x y z ; '=' \\Leftrightarrow \\mathrm{x}=\\mathrm{y}=\\mathrm{z})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho đoạn thẳng %(\\mathrm{OA}=\\mathrm{R})%, vẽ đường tròn %((\\mathrm{O} ; \\mathrm{R}))%. Trên đường tròn %((\\mathrm{O} ; \\mathrm{R}))% lấy %(H)% bất kỳ sao cho %(\\mathrm{AH}\\lt \\mathrm{R})%, qua %(H)% vẽ đường thẳng %(a)% tiếp xúc với đường tròn %((\\mathrm{O} ; \\mathrm{R}))%. Trên đường thẳng %(a)% lấy %(B)% và %(C)% sao cho %(H)% nằm giữa %(B)% và %(C)% và %(\\mathrm{AB}=\\mathrm{AC}=\\mathrm{R})%. Vẽ %(HM)% vuông góc với %(\\mathrm{OB} (\\mathrm{M} \\in \\mathrm{OB}))%, vẽ %(HN)% vuông góc với %(\\mathrm{OC}(\\mathrm{N} \\in \\mathrm{OC}))%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 3.0,
+        "content": "a) Chứng minh %(\\mathrm{OM} \\cdot \\mathrm{OB}=\\mathrm{ON} \\cdot \\mathrm{OC})% và %(MN)% luôn đi qua 1 điểm cố định",
+        "question_images": [],
+        "solution": "*Ta có %(O H \\perp H B)% (t/c tiếp tuyến) %(\\Rightarrow \\triangle O H B)% vuông tại H , mà %(\\mathrm{HM} \\perp \\mathrm{OB})% (gt) nên theo hệ thức lượng trong tam giác vuông ta có %(O M \\cdot O B=O H^{2}=R^{2})%<br>Chứng minh tương tự ta có %(O N \\cdot O C=O H^{2}=R^{2})%. Vậy ta có %(O M \\cdot O B=O N \\cdot O C)%<br>* Ta có %(O M \\cdot O B=O H^{2}=R^{2})% mà %(\\mathrm{OA}=\\mathrm{R})% nên ta có %(O M \\cdot O B=O A^{2} \\Rightarrow \\frac{O M}{O A}=\\frac{O A}{O B})%<br>Xét %(\\triangle O M A)% và %(\\triangle O A B)% có %(O)% chung, có %(\\frac{O M}{O A}=\\frac{O A}{O B} \\Rightarrow \\triangle O M A)%%(\\sim)%%(\\triangle O A B \\Rightarrow O A M=O B A)%<br>Ta có %(\\mathrm{AO}=\\mathrm{AB}=\\mathrm{R}(\\mathrm{gt}) \\Rightarrow \\triangle O A B)% cân %(\\Rightarrow A O B=O B A \\Rightarrow A O M=O B A)%, vậy %(O A M=A O M)% %(\\Rightarrow \\triangle O M A)% cân %(\\Rightarrow M O=M A)%<br>Chứng minh tương tự ta có %(\\triangle O N A)% cân %(\\Rightarrow N O=N A)%<br>Ta có %(M O=M A ; N O=N A)%, vậy %(MN)% là trung trực của %(OA)% , gọi %(E)% là giao điểm của %(MN)% với %(OA)% ta có %(\\mathrm{EO}=\\mathrm{EA}=\\frac{O A}{2})% và %(M N \\perp O A)% tại %(E)% , mà %(\\mathrm{O}, \\mathrm{A})% cố định nên %(E)% cố định. Vậy %(MN)%luôn đi qua 1 điểm cố định<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/79b0a0317f52bb402164876820de2e10.png\" srcset=\"https://docdn.giainhanh.io/media/test/8be2bdf87c9133edcc8e3180f9d495c7.png 192w, https://docdn.giainhanh.io/media/test/b1430af156de71271847e43f9332429a.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Chứng minh %(\\mathrm{OB} \\cdot \\mathrm{OC}=2 \\mathrm{R}^{2})%",
+        "question_images": [],
+        "solution": "Ta có %(O M \\cdot O B=O N \\cdot O C \\Rightarrow \\frac{O M}{O C}=\\frac{O N}{O B})%<br>Xét %(\\triangle O M N)% và %(\\triangle O C B)% có %(O)% chung, có %(\\frac{O M}{O C}=\\frac{O N}{O B} \\Rightarrow \\triangle O M N)%%(\\sim)%%(\\triangle O C B)%<br>mà %(\\mathrm{OE} \\perp \\mathrm{MN})% và %(\\mathrm{OH} \\perp \\mathrm{BC})% nên ta có %(\\frac{O M}{O C}=\\frac{O E}{O H} \\Rightarrow \\frac{O M}{O C}=\\frac{O E}{O A}=\\frac{O E}{2 O E}=\\frac{1}{2})%<br>%(\\Rightarrow O M=\\frac{1}{2} O C)% ( vì %(\\mathrm{OH}=\\mathrm{OA}=2 \\mathrm{OE})% )<br>Ta có %(O M \\cdot O B=O H^{2}=R^{2})%(chứng minh trên %() \\Rightarrow \\frac{1}{2} O C \\cdot O B=R^{2} \\Rightarrow O C \\cdot O B=2 R^{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) Tìm giá trị lớn nhất của diện tích tam giác %(OMN)% khi %(H)% thay đổi",
+        "question_images": [],
+        "solution": "Ta có %(\\triangle O M N \\\\sim\\triangle O C B)% (cm trên) %(\\Rightarrow \\frac{S_{O M N}}{S_{O C B}}=\\frac{O E^{2}}{O H^{2}}=\\frac{O E^{2}}{O A^{2}}=\\frac{O E^{2}}{(2 O E)^{2}}=\\frac{1}{4})%<br>Nên %(S_{O M N}=\\frac{1}{4} S_{O C B}=\\frac{1}{4} \\cdot \\frac{1}{2} \\cdot O H \\cdot B C=\\frac{1}{8} R \\cdot B C \\leq \\frac{1}{8} R(A B+A C)=\\frac{1}{8} R(R+R)=\\frac{1}{4} R^{2})%<br>Dấu bằng có khi %(\\mathrm{B}, \\mathrm{A}, \\mathrm{C})% thẳng hàng %(\\Leftrightarrow H \\equiv A)%<br>Vậy diện tích tam giác %(OMN)% lớn nhất là %(S_{O M N}=\\frac{1}{4} R^{2})% khi %(H \\equiv A)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho dãy số %(n, n+1, n+2, \\ldots, 2 n)% với %(n)% nguyên dương. Chứng minh trong dãy có ít nhất một lũy thừa bậc 2 của 1 số tự nhiên.",
+        "question_images": [],
+        "solution": "-Nếu %(n)% là lũy thừa bậc 2 của 1 số tự nhiên bài toán chứng minh xong<br>-Nếu %(n)% không là lũy thừa bậc 2 của 1 số tự nhiên, ta luôn tìm được 1 số nguyên dương %(k)% sao cho %(k^{2}\\lt n\\lt (k+1)^{2})%. Vì %(n)% nguyên dương và %(n\\gt k^{2} \\Rightarrow n \\geq k^{2}+1)%, vậy ta có:<br>%(2 n-(k+1)^{2} \\geq 2\\left(k^{2}+1\\right)-(k+1)^{2}=\\ldots=k^{2}-2 k+1=(k-1)^{2} \\geq 0)%<br>Vậy mọi %(k)% nguyên dương, nên ta có %(k^{2}\\lt n\\lt (k+1)^{2} \\leq 2 n)%<br>Vậy trong dãy luôn có ít nhất một lũy thừa bậc 2 của 1 số tự nhiên.",
+        "question_type": "essay"
+    }
+]

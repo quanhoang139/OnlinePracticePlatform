@@ -1,0 +1,105 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 2.0,
+        "content": "Giải phương trình %(\\sqrt{2} \\sin \\left(2 x+\\frac{\\pi}{4}\\right)=3 \\sin x+\\cos x+2)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text {Giải phương trình } \\sqrt{2} \\sin \\left(2 x+\\frac{\\pi}{4}\\right)=3 \\sin x+\\cos x+2 \\text {. } \\\\ \\sqrt{2} \\sin \\left(2 x+\\frac{\\pi}{4}\\right)=3 \\sin x+\\cos x+2 \\Leftrightarrow \\sin 2 x+\\cos 2 x=3 \\sin x+\\cos x+2 \\\\ \\Leftrightarrow 2 \\sin x \\cos x+2 \\cos ^{2} x-1=3 \\sin x+\\cos x+2 \\\\ \\Leftrightarrow \\sin x(2 \\cos x-3)+2 \\cos ^{2} x-\\cos x-3=0 \\\\ \\Leftrightarrow \\sin x(2 \\cos x-3)+(\\cos x+1)(2 \\cos x-3)=0 \\\\ \\Leftrightarrow(2 \\cos x-3)(\\sin x+\\cos x+1)=0 \\\\ \\Leftrightarrow \\sin x+\\cos x+1=0 \\Leftrightarrow \\sin x+\\cos x=-1 \\Leftrightarrow \\sin \\left(x+\\frac{\\pi}{4}\\right)=-\\frac{1}{\\sqrt{2}} \\\\ \\Leftrightarrow\\left[\\begin{array}{l}x+\\frac{\\pi}{4}=-\\frac{\\pi}{4}+k 2 \\pi \\\\ x+\\frac{\\pi}{4}=\\frac{5 \\pi}{4}+k 2 \\pi\\end{array} \\quad(k \\in \\mathbb{Z}) \\Leftrightarrow\\left[\\begin{array}{l}x=-\\frac{\\pi}{2}+k 2 \\pi \\\\ x=\\pi+k 2 \\pi\\end{array} \\quad(k \\in \\mathbb{Z}) .\\right.\\right. \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x+y-\\sqrt{x y}=3 \\\\ \\sqrt{x+1}+\\sqrt{y+1}=4\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(\\left\\{\\begin{array}{l}x y \\geq 0 \\\\ x \\geq-1, y \\geq-1\\end{array}\\right.)%.Đặt %(\\left\\{\\begin{array}{l}S=x+y \\\\ P=x . y\\end{array}\\right.)% điều kiện %(S^{2} \\geq 4 P)% hệ phương trình đã cho trở thành:<br>\\[\\begin{array}{l}\\left\\{\\begin{array} { l } { S - \\sqrt { P } = 3 } \\\\{ S + 2 + 2 \\sqrt { S + P + 1 } = 1 6 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}S \\geq 3 ; P=(S-3)^{2} \\\\2 \\sqrt{S+(S-3)^{2}+1}=14-S\\end{array}\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { 3 \\leq S \\leq 1 4 ; P = ( S - 3 ) ^ { 2 } } \\\\{ 4 ( S ^ { 2 } + 8 S + 1 0 ) = 1 9 6 - 2 8 S + S ^ { 2 } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { 3 \\leq S \\leq 1 4 ; P = ( S - 3 ) } \\\\{ S ^ { 2 } + 3 0 S - 5 2 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}S=6 \\P=9\\end{array}\\right.\\right.\\right.\\end{array}\\]<br>%(\\Rightarrow x=y=3)%. Vậy hệ đã cho có nghiệm %((x ; y)=(3 ; 3))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 1.5,
+        "content": "Chứng minh rằng với mọi số thực %(a_{1}, a_{2}, b_{1}, b_{2} ; b_{1}\\gt 0, b_{2}>0)% ta có %(\\frac{a_{1}^{2}}{b_{1}}+\\frac{a_{2}^{2}}{b_{2}} \\geq \\frac{\\left(a_{1}+a_{2}\\right)^{2}}{b_{1}+b_{2}})%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\frac{a_{1}^{2}}{b_{1}}+\\frac{a_{2}^{2}}{b_{2}} \\geq \\frac{\\left(a_{1}+a_{2}\\right)^{2}}{b_{1}+b_{2}} \\Leftrightarrow\\left(a_{1} b_{2}-a_{2} b_{1}\\right)^{2} \\geq 0)% (đúng)<br>%(\\Rightarrow)% đpcm.Dấu \" %(=)% \" xảy ra khi %(\\frac{a_{1}}{b_{1}}=\\frac{a_{2}}{b_{2}})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 1.5,
+        "content": "Cho %(x, y)% là các số thực không âm thoả mãn %(x+y=1)%. Tìm giá trị nhỏ nhất của biểu thức<br>\\[P=3 \\sqrt{1+2 x^{2}}+2 \\sqrt{40+9 y^{2}} .\\]",
+        "question_images": [],
+        "solution": "Ta có: %(3 \\sqrt{1+2 x^{2}}=3 \\sqrt{\\frac{3^{2}}{9}+\\frac{4 x^{2}}{2}} \\geq 3 \\sqrt{\\frac{(3+2 x)^{2}}{11}}=\\frac{3}{\\sqrt{11}}(3+2 x))%<br>\\[2 \\sqrt{40+9 y^{2}}=2 \\sqrt{\\frac{40^{2}}{40}+\\frac{36 y^{2}}{4}} \\geq 2 \\sqrt{\\frac{(40+6 y)^{2}}{44}}=\\frac{\\sqrt{11}}{11}(40+6 y)\\]<br>Từ %((1),(2) \\Rightarrow P \\geq \\frac{3 \\sqrt{11}}{11}(3+2 x)+\\frac{\\sqrt{11}}{11}(40+6 y)=\\frac{\\sqrt{11}}{11}(49+6 x+6 y)=5 \\sqrt{11})%<br>Dấu đẳng thức xảy ra %(\\Leftrightarrow(x ; y)=\\left(\\frac{1}{3} ; \\frac{2}{3}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 1.5,
+        "content": "Cho cấp số nhân có bốn số hạng có tổng các số hạng bằng 15 và tổng bình phương của các số hạng này bằng 85 . Tìm cấp số nhân đó.",
+        "question_images": [],
+        "solution": "Giả sử %(\\left(u_{n}\\right))% là cấp số nhân có số hạng đầu %(u_{1})% và công bội %(q)%. Theo đề bài %(q \\neq 0)%.<br>\\[\\begin{array}{l}+u_{1}+u_{2}+u_{3}+u_{4}=15 \\Leftrightarrow u_{1}\\left(1+q+q^{2}+q^{3}\\right)=15 \\Leftrightarrow u_{1}(1+q)\\left(1+q^{2}\\right)=15 \\text { (1) } \\\\+u_{1}^{2}+u_{2}^{2}+u_{3}^{2}+u_{4}^{2}=85 \\Leftrightarrow u_{1}^{2}\\left(1+q^{2}+q^{4}+q^{6}\\right)=85 \\Leftrightarrow u_{1}^{2}\\left(1+q^{2}\\right)\\left(1+q^{4}\\right)=85 .\\end{array}\\]<br>Từ %((1) \\Rightarrow u_{1}^{2}(1+q)^{2}\\left(1+q^{2}\\right)^{2}=225)%.Kết hợp (2) ta được: %(\\frac{(1+q)^{2}\\left(1+q^{2}\\right)^{2}}{\\left(1+q^{2}\\right)\\left(1+q^{4}\\right)}=\\frac{45}{17} \\Leftrightarrow \\frac{(1+q)^{2}\\left(1+q^{2}\\right)}{1+q^{4}}=\\frac{45}{17})%<br>\\[\\begin{array}{l}\\Leftrightarrow 28 q^{4}-34 q^{3}-34 q^{2}-34 q+28=0 \\Leftrightarrow 28 q^{2}-34 q-34-\\frac{34}{q}+\\frac{28}{q^{2}}=0 \\\\Leftrightarrow 28\\left(q^{2}+\\frac{1}{q^{2}}\\right)-34\\left(q+\\frac{1}{q}\\right)-34=0 .\\end{array}\\]<br>Đặt %(t=q+\\frac{1}{q})%. Điều kiện %(|t| \\geq 2)% ta được: %(28 t^{2}-34 t-90=0 \\Leftrightarrow\\left[\\begin{array}{l}t=\\frac{5}{2} \\\\ t=-\\frac{9}{7}(L)\\end{array}\\right.)%<br>%(t=\\frac{5}{2})% ta có %(q+\\frac{1}{q}=\\frac{5}{2} \\Leftrightarrow 2 q^{2}-5 q+2=0 \\Leftrightarrow\\left[\\begin{array}{l}q=2 \\\\ q=\\frac{1}{2}\\end{array}\\right.)%Với %(q=2 \\Rightarrow u_{1}=1)%.<br>Cấp số nhân có hạng đầu %(u_{1}=1)% và %(q=2)%.Với %(q=\\frac{1}{2} \\Rightarrow u_{1}=8)%.<br>Cấp số nhân có hạng đầu %(u_{1}=8)% và %(q=\\frac{1}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 1.5,
+        "content": "Cho %(m, n)% là các số nguyên dương, %(m \\neq n)% và %(\\left(u_{n}\\right))% là một cấp số cộng có tính chất %(u_{n}=\\frac{1}{m})% và %(u_{m}=\\frac{1}{n})%. Tính tổng %(S_{m n})% của %(m n)% số hạng đầu tiên của cấp số cộng trên theo %(m, n)%.",
+        "question_images": [],
+        "solution": "Cho %(m, n)% là các số nguyên dương, %(m \\neq n)% và %(\\left(\\mathrm{u}_{n}\\right))% là một cấp số cộng có tính chất%(u_{n}=\\frac{1}{m})% và %(u_{m}=\\frac{1}{n})%.<br>Tính tổng %(S_{m n})% của %(m n)% số hạng đầu tiên theo %(m, n)%.<br>Gọi %(d)% là công sai của cấp số cộng, ta có %(\\left\\{\\begin{array}{l}u_{1}+(n-1) d=\\frac{1}{m} \\\\ u_{1}+(m-1) d=\\frac{1}{n}\\end{array} \\Rightarrow(n-m) d=\\frac{1}{m}-\\frac{1}{n}\\right.)% %(\\Leftrightarrow(n-m) d=\\frac{n-m}{m n})%.<br>Do %(m \\neq n)% nên %(d=\\frac{1}{m n})%.<br>Từ đó ta có %(u_{1}=\\frac{1}{m}-\\frac{n-1}{m n}=\\frac{1}{m n})%<br>%(u_{m n}=u_{1}+(m n-1) \\cdot d=\\frac{1}{m n}+\\frac{m n-1}{m n}=1)%<br>%(S_{m n}=\\frac{\\left(u_{1}+u_{m n}\\right) \\cdot m n}{2}=\\frac{1}{2}\\left(\\frac{1}{m n}+1\\right) \\cdot m n=\\frac{1}{2}(m n+1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 2.0,
+        "content": "Tìm hệ số của số hạng chứa %(x^{9})% trong khai triển nhị thức Newton %((3+x)^{n})% biết<br>\\[C_{n+6}^{3}-C_{n}^{3}=440 .\\]",
+        "question_images": [],
+        "solution": "Tìm hệ số chứa %(x^{9})% trong khai triển nhị thức Newton của biểu thức %((3+x)^{n})% biết %(C_{n+6}^{3}-C_{n}^{3}=440)%.Ta có: %(C_{n+6}^{3}-C_{n}^{3}=440)%.<br>Điều kiện: %(\\left\\{\\begin{array}{l}n \\geq 3 \\\\ n \\in \\mathbb{N}^{*}\\end{array}\\right.)%.<br>Ta được: %(C_{n+6}^{3}-C_{n}^{3}=440 \\Leftrightarrow \\frac{(n+6)!}{(n+3)!\\cdot 3!}-\\frac{n!}{(n-3)!\\cdot 3!}=440)%<br>\\[\\Leftrightarrow \\frac{(n+6)(n+5)(n+4)}{6}-\\frac{n(n-1)(n-2)}{6}=440 \\Leftrightarrow\\left[\\begin{array}{l}n=10 \\n=-14 \\quad(l)\\end{array}\\right. \\text {. }\\]<br>Khi %(n=10)% ta được: %((3+x)^{10}=\\sum_{k=0}^{10} C_{10}^{k} 3^{10-k} x^{k})%. Số hạng chứa %(x^{9})% thì %(k=9)%.<br>Vậy, hệ số của số hạng chứa %(x^{9})% là: %(C_{10}^{9} \\cdot 3=30)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8:  ",
+        "point": 2.0,
+        "content": "Tìm tất cả các số tự nhiên %(n)% sao cho cả hai số %(9 n+16)% và %(16 n+9)% tều là số chính phương.",
+        "question_images": [],
+        "solution": "Tìm tất cả các số tự nhiên %(n)% sao cho cả hai số %(9 n+16)% và %(16 n+9)% đều là số chính phương.<br>%(n=0)% thỏa mãn bài toán.<br>Xét %(n\\gt 0)%, nếu cả hai số %(9 n+16)% và %(16 n+9)% đều là số chính phương thì số %(A_{n}=(9 n+16)(16 n+9)=(12 n)^{2}+\\left(9^{2}+16^{2}\\right) n+12^{2})% cũng là số chính phương.<br>Mặt khác ta lại có %((12 n+12)^{2}\\lt (12 n)^{2}+\\left(9^{2}+16^{2}\\right) n+12^{2}\\lt (12 n+15)^{2})%<br>Suy ra %(A_{n}=(12 n+13)^{2})% hoặc %(A_{n}=(12 n+14)^{2})%, từ đó thay vào giải ra hai trường hợp ta được %(n=1 ; 52)%.<br>Vậy có ba giá trị của %(\\mathrm{n})% thỏa mãn là %(0 ; 1 ; 52)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 9:",
+        "group_content": "Cho hình chóp %(S . A B C D)% có đáy %(A B C D)% là hình thang cân với %(A D / / B C, A B=B C=a, A D=2 a)%, tam giác %(S A D)% vuông cân tại %(S)% và %(S B=a \\sqrt{3})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a)  ",
+        "point": 2.0,
+        "content": "a) Gọi %(M)% là trung điểm của %(S A)%, chứng minh rằng %(B M / /(S C D))%.",
+        "question_images": [],
+        "solution": "Gọi %(M)% là trung điểm của %(S A)%, chứng minh rằng %(B M / /(S C D))%.<br>Gọi %(N)% là trung điểm của %(A D)%, ta có %(B C=D N=a)% và %(B C / / D N \\Rightarrow B C D N)% là hình bình hành<br>%(\\Rightarrow B N / / C D)%.Vỉ %(M, N)% lần lượt là trung điểm của %(S A)% và %(A D)%<br>nên %(M N / / S D \\Rightarrow(B M N) / /(S C D))%<br>mà %(B M \\subset(B M N) \\Rightarrow B M / /(S C D))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1190cfebd9240369a353bada4785d411.png\" srcset=\"https://docdn.giainhanh.io/media/test/a88e4d2287a7ef7c7723c2e8d700be0c.png 200w\" width=\"200\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Tính cosin của góc giữa hai đường thẳng %(B M)% và %(C D)%.",
+        "question_images": [],
+        "solution": "Tính góc giữa hai đường thẳng %(B M)% và %(C D)%.<br>Do %(B N / / C D \\Rightarrow \\overline{(B M, C D)}=\\overline{(B N \\cdot B M)})%.<br>Vì tam giác %(S A D)% vuông cân tại %(S)% có cạnh huyền %(A D=2 a)%<br>nên %(S A=S D=a \\sqrt{2})% %(\\triangle S A B)% có %(S A^{2}+A B^{2}=2 a^{2}+a^{2}=3 a^{2}=S B^{2} \\Rightarrow \\triangle S A B)% vuông tại %(A)%.<br>Ta có %(B M=\\sqrt{A M^{2}+A B^{2}}=\\sqrt{\\frac{a^{2}}{2}+a^{2}}=a \\sqrt{\\frac{3}{2}})%<br>và %(B N=C D=a ; M N=\\frac{1}{2} S D=\\frac{a \\sqrt{2}}{2})%<br>Áp dụng định lí côsin trong tam giác %(B M N)% ta được :<br>\\[\\cos \\widehat{M B N}=\\frac{B M^{2}+B N^{2}-M N^{2}}{2 \\cdot B M \\cdot B N}=\\sqrt{\\frac{2}{3}} .\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c)  ",
+        "point": 0.5,
+        "content": "c) Gọi %(G)% là trọng tâm của tam giác %(S C D, H)% là giao điểm của %(B G)% và mặt phẳng %((S A C))%.<br>Tính tỉ số %(\\frac{H B}{H G})%.",
+        "question_images": [],
+        "solution": "Gọi %(P)% là trung điểm của%(C D, I=A C \\cap B P ; \\quad H=S I \\cap B G\\\\ \\Rightarrow \\mathrm{H}=\\mathrm{BG} \\cap(\\mathrm{SAC}))%.<br>Gọi %(J)% là giao điểm của %(B N)% và %(A C)%,<br>vì %(B C N A)% là hình bình hành nên %(J)% là trung điểm của %(B N)%,<br>mà %(I J / / N P)%<br>nên %(I)% là trung điểm của %(B P)%.<br>Trong tam giác %(S B P)% vẽ %(G K / / S I)%, ta có:%(\\frac{H B}{H G}=\\frac{I B}{I K}=\\frac{I P}{I K}=\\frac{S P}{S G}=\\frac{3}{2})% (do %(G)% là trọng tâm của tam giác %(S C D)% ).",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 10: ",
+        "point": 2.0,
+        "content": "Trong mặt phẳng với hệ trục tọa độ %(O x y)%, cho %(\\triangle A B C)% có %(A(1 ; 7), B(-2 ; 0), C(9 ; 0))%. Xét hình chữ nhật %(M N P Q)% với %(M)% thuộc đoạn %(A B, N)% thuộc đoạn %(A C)% và %(P, Q)% nằm trong đoạn %(B C)%. Xác định tọa độ điểm %(M)% sao cho hình chữ nhật %(M N P Q)% có diện tích lớn nhất.",
+        "question_images": [],
+        "solution": "Gọi %(H)% là chân đường cao của tam giác ké từ đỉnh %(A, M N)% cắt %(A H)% tại %(K)%.<br>Đặt %(M Q=x(0\\lt x\\lt A H) ; M N=y \\Rightarrow A K=A H-x)%<br>Do %(M N / / B C \\Rightarrow \\frac{M N}{B C}=\\frac{A K}{A H} \\Leftrightarrow \\frac{y}{B C}=\\frac{A H-x}{A H} \\Rightarrow y=\\frac{B C(A H-x)}{A H})%<br>Gọi %(S)% là diện tích hình chữ nhật %(M N P Q)% thì:<br>\\[S=x y=\\frac{B C}{A H} \\cdot x(A H-x) \\leq \\frac{B C}{A H} \\cdot \\frac{[x+(A H-x)]^{2}}{2}=\\frac{B C \\cdot A H}{4}\\]<br>Dấu \" %(=)% \" xảy ra khi %(x=A H-x \\Leftrightarrow x=\\frac{A H}{2} \\Rightarrow M Q=\\frac{A H}{2})%<br>suy ra %(M)% là trung điểm của %(A B)% nên tọa độ %(M\\left(-\\frac{1}{2} ; \\frac{7}{2}\\right))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3891807e2c85b8cb101731379065a8dd.png\" srcset=\"https://docdn.giainhanh.io/media/test/2dbd18762abf5e8d943f00249d0d91d0.png 212w\" width=\"212\"/>",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "title": "1 ",
+        "point": 3.0,
+        "content": "Tính giá trị biểu thức:<br>\\[\\mathrm{A}=\\frac{\\left(1+\\frac{1}{4}\\right)\\left(3^{4}+\\frac{1}{4}\\right)\\left(5^{4}+\\frac{1}{4}\\right) \\cdots \\cdots \\cdots \\cdots\\left(29^{4}+\\frac{1}{4}\\right)}{\\left(2^{4}+\\frac{1}{4}\\right)\\left(4^{4}+\\frac{1}{4}\\right)\\left(6^{4}+\\frac{1}{4}\\right) \\cdots \\cdots \\cdots\\left(30^{4}+\\frac{1}{4}\\right)}\\]",
+        "question_images": [],
+        "solution": "Có: %(\\mathrm{a}^{4}+\\frac{1}{4}=\\left(\\mathrm{a}^{2}+\\frac{1}{2}\\right)^{2}-\\mathrm{a}^{2}=\\left(a^{2}+a+\\frac{1}{2}\\right)\\left(a^{2}-a+\\frac{1}{2}\\right))%<br>Khi cho a các giá trị từ 1 đến 30 thì:<br>Tử thức viết được thành:<br>\\[\\left(1^{2}+1+\\frac{1}{2}\\right)\\left(1^{2}-1+\\frac{1}{2}\\right)\\left(3^{2}+3+\\frac{1}{2}\\right)\\left(3^{2}-3+\\frac{1}{2}\\right) \\ldots \\ldots .\\left(29^{2}+29+\\frac{1}{2}\\right)\\left(29^{2}-29+\\frac{1}{2}\\right)\\]<br>Mẫu thức viết được thành:<br>\\[\\left(2^{2}+2+\\frac{1}{2}\\right)\\left(2^{2}-2+\\frac{1}{2}\\right)\\left(4^{2}+4+\\frac{1}{2}\\right)\\left(4^{2}-4+\\frac{1}{2}\\right) \\ldots . .\\left(30^{2}+30+\\frac{1}{2}\\right)\\left(30^{2}-30+\\frac{1}{2}\\right)\\]<br>Mặt khác: %((k+1)^{2}-(k+1)+\\frac{1}{2}=\\ldots . . . . . . . . .=k^{2}+k+\\frac{1}{2})%<br>Nên %(A=\\frac{1^{2}-1+\\frac{1}{2}}{30^{2}+30+\\frac{1}{2}}=\\frac{1}{1861})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Với mọi số %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% không đồng thời bằng nhau, hãy chứng minh:<br>\\[a^{2}+b^{2}+c^{2}-a b-a c-b c \\geq 0\\]",
+        "question_images": [],
+        "solution": "Chứng minh bằng biến đổi tương đương:<br>\\[\\begin{array}{l}a^{2}+b^{2}+c^{2}-a b-b c-a c \\geq 0 \\\\Leftrightarrow 2\\left(a^{2}+b^{2}+c^{2}-a b-b c-a c\\right) \\geq 0 \\\\Leftrightarrow\\left(a^{2}-2 a b+b^{2}\\right)+\\left(b^{2}-2 b c+c^{2}\\right)+\\left(c^{2}-2 a c+a^{2}\\right) \\geq 0 \\\\Leftrightarrow(a-b)^{2}+(b-c)^{2}+(c-a)^{2} \\geq 0 \\text { (luôn đúng) }\\end{array}\\]<br>Vì bđ̛t cuối luôn đúng nên bđ̛t ban đầu được chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Cho %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}=2009)%. Chứng minh rằng:<br>\\[\\frac{a^{3}+b^{3}+c^{3}-3 a b c}{a^{2}+b^{2}+c^{2}-a b-a c-b c}=2009\\]",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text {  Xét tử thức: } a^{3}+b^{3}+c^{3}-3 a b c=(a+b)^{3}+c^{3}-3 a b(a+b)-3 a b c \\\\=(a+b+c)\\left(a^{2}+2 a b+b^{2}-a c-b c+c^{2}\\right)-3 a b(a+b+c) \\\\=(a+b+c)\\left(a^{2}+b^{2}+c^{2}-a b-b c-a c\\right)\\end{array}\\]<br>Suy ra: %(\\frac{a^{3}+b^{3}+c^{3}-3 a b c}{a^{2}+b^{2}+c^{2}-a b-b c-a c}=\\frac{(a+b+c)\\left(a^{2}+b^{2}+c^{2}-a b-b c-a c\\right)}{a^{2}+b^{2}+c^{2}-a b-b c-a c})%<br>\\[=a+b+c=2009\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 4.0,
+        "content": "Cho %(\\mathrm{a} \\geq 0, \\mathrm{~b} \\geq 0)%; a và b thỏa mãn %(2 \\mathrm{a}+3 \\mathrm{~b} \\leq 6)% và %(2 \\mathrm{a}+\\mathrm{b} \\leq 4)%. Tìm giá trị lớn nhất và giá trị nhỏ nhất của biểu thức %(\\mathrm{A}=\\mathrm{a}^{2}-2 \\mathrm{a}-\\mathrm{b})%",
+        "question_images": [],
+        "solution": "+) Từ %(2 a+b \\leq 4)% và %(b \\geq 0)%, ta có: %(2 a \\leq 4)% hay %(a \\leq 2)%<br>Do đó %(A=a^{2}-2 a-b \\leq 0)%<br>Nên giá trị lớn nhất của A là 0 khi %(\\mathrm{a}=2 ~\\mathrm{và}~ \\mathrm{b}=0)%<br>+) Từ %(2 \\mathrm{a}+3 \\mathrm{~b} \\leq 6)% suy ra %(\\mathrm{b} \\leq 2-\\frac{2}{3} a)%<br>Do đó %(\\mathrm{A} \\geq \\mathrm{a}^{2}-2 \\mathrm{a}-2+\\frac{2}{3} a=\\left(a-\\frac{2}{3}\\right)^{2}-\\frac{22}{9} \\geq-\\frac{22}{9})%<br>Vậy A có giá trị nhỏ nhất là %(-\\frac{22}{9})% khi %(a=\\frac{2}{3})% và %(b=\\frac{2}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 3.0,
+        "content": "<strong>Giải bài toán bằng cách lập phương trình</strong><br>Một ô tô đi từ A đến B. Cùng một lúc ô tô thứ hai đi từ B đến A vơí vận tốc bằng %(\\frac{2}{3})% vận tốc của ô tô thứ nhất. Sau 5 giờ chúng gặp nhau. Hỏi mỗi ô tô đi cả quãng đường AB thì mất bao lâu?",
+        "question_images": [],
+        "solution": "Gọi vận tốc ô tô thứ nhất là %(x)% km/h %((x\\gt 0))%<br>=> Vận tốc ô tô thứ hai sẽ là: %(\\frac{2 x}{3} \\mathrm{~(km} / \\mathrm{h)})%<br>Vì hai xe đi ngược chiều và cùng thời gian nên trong 1 giờ hai xe đã đi được quãng đường dài:<br>\\[\\mathrm{x}+\\frac{2 x}{3}=\\frac{5 x}{5} \\mathrm{~(km)}\\]<br>%(=>)% Tổng chiều dài quãng đường AB :<br>\\[\\frac{5 x}{3} . 5=\\frac{25 x}{3} \\mathrm{~(km)}\\]<br>=> Thời gian xe thứ nhất đi hết quãng đường AB:<br>\\[\\frac{25 x}{3}: x=\\frac{25}{3} \\mathrm{~(h)}=8 \\mathrm{~h} 30 \\text { phút }\\]<br>=> Thời gian xe thứ hai đi hết quãng đường AB:<br>\\[\\frac{25 x}{3}: \\frac{2 x}{3}=\\frac{25}{2} \\text { (h) }=12 \\text { h } 30 \\text { phút }\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho tam giác ABC có ba góc nhọn, các điểm %(\\mathrm{M}, \\mathrm{N})% thứ tự là trung điểm của BC và AC. Các đường trung trực của BC và AC cắt nhau tại O. Qua A kẻ đường thẳng song song với OM, qua B kẻ đường thẳng song song với ON, chúng cắt nhau tại H.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 3.0,
+        "content": "a) Nối %(\\mathrm{MN}, \\triangle \\mathrm{AHB})% đồng dạng với tam giác nào?",
+        "question_images": [],
+        "solution": "+) Ta có:<br>\\[A H / / O M, B H / / O N \\Rightarrow \\widehat{A H B}=\\widehat{M O N} ~~~~~\\text { (1) }\\]<br>+) Xét %(\\triangle A B C)%, có: %(M, N)% lần lượt là trung điểm của cạnh %(B C, A C)%<br>%(\\Rightarrow M N)% là đường trung bình %(\\triangle A B C)%<br>\\[\\begin{array}{l}\\Rightarrow M N / / A B \\text { mà } O N / / B H \\\\Rightarrow \\widehat{M N O}=\\widehat{A B H}~~~~~~~~~(2) \\\\text { Từ }(1),(2) \\Rightarrow \\triangle A H B \\backsim \\Delta M O N~(\\mathrm{g} . \\mathrm{g})\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f443190dde4e8b73337955ab7a3d5a77.png\" srcset=\"https://docdn.giainhanh.io/media/test/f969bdf56a41552dce0b6a672ee83270.png 245w, https://docdn.giainhanh.io/media/test/d03c1d4218cc0fd027b76325375306ce.png 500w, https://docdn.giainhanh.io/media/test/ef5a3b12cef0823c5c656b28dfa814a5.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Gọi G là trọng tâm %(\\triangle \\mathrm{ABC})%, chứng minh %(\\triangle \\mathrm{AHG})% đồng dạng với %(\\triangle \\mathrm{MOG})%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}+)~ \\triangle A H B \\backsim \\Delta M O N~(\\mathrm{cmt}) \\\\Rightarrow \\frac{A H}{M O}=\\frac{A B}{M N}=2\\end{array}\\]<br>+) Trong %(\\triangle A B C)% có %(G)% là trọng tâm, %(A M)% là đường trung tuyến<br>\\[\\begin{array}{l}\\Rightarrow \\frac{A G}{M G}=2=\\frac{A H}{M O}~~~~~(3) \\\\+ \\text { ) } A H \\perp B C, O M \\perp B C \\rightarrow A H / / O M \\\\Rightarrow \\widehat{H A G}=\\widehat{O M G} \\text { (so le trong) ~~~~~(4) } \\\\text { Từ }(3),(4) \\Rightarrow \\triangle A H G \\backsim \\Delta M O G~(\\text {c.g.c) }\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) Chứng minh ba điểm %(\\mathrm{H}, \\mathrm{O}, \\mathrm{G})% thẳng hàng.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}+)~ \\Delta A H G \\backsim \\Delta M O G~(c m t) \\\\Rightarrow \\widehat{A G H}=\\widehat{M G O}\\end{array}\\]<br>+) Mà 2 góc trên ở vị trí đối đỉnh<br>%(\\Rightarrow H, O, G)% thẳng hàng.",
+        "question_type": "essay"
+    }
+]

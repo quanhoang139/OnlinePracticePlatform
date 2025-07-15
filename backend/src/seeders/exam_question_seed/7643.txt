@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(A=\\frac{x^{2}-2 x}{x^{3}+1}+\\frac{1}{2} \\cdot\\left(\\frac{1}{1+\\sqrt{x+2}}+\\frac{1}{1-\\sqrt{x+2}}\\right))%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Tìm điều kiện của %(\\mathrm{x})% để biểu thức %(\\mathrm{A})% có nghĩa",
+        "question_images": [],
+        "solution": "Điều kiện của %(\\mathrm{x})% để biểu thức %(\\mathrm{A})% có nghĩa : %(\\left\\{\\begin{array}{l}x+2 \\geq 0 \\\\ x^{3}+1 \\neq 0 \\\\ \\sqrt{x+2} \\neq 1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq-2 \\\\ x \\neq-1\\end{array}\\right.\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Rút gọn biểu thức %(\\mathrm{A})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=\\frac{x^{2}-2 x}{x^{3}+1}+\\frac{1}{2} \\cdot\\left(\\frac{1}{1+\\sqrt{x+2}}+\\frac{1}{1-\\sqrt{x+2}}\\right)=\\frac{x(x-2)}{(x+1)\\left(x^{2}-x+1\\right)}+\\frac{1}{2} \\cdot \\frac{2}{1-(x+2)} \\\\ =\\frac{x(x-2)}{(x+1)\\left(x^{2}-x+1\\right)}-\\frac{1}{x+1}=\\frac{x(x-2)-\\left(x^{2}-x+1\\right)}{(x+1)\\left(x^{2}-x+1\\right)} \\\\ =\\frac{-(x+1)}{(x+1)\\left(x^{2}-x+1\\right)}=\\frac{-1}{x^{2}-x+1}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Tìm giá trị nhỏ nhất của %(\\mathrm{A})%.",
+        "question_images": [],
+        "solution": "Ta có %(A=\\frac{-1}{x^{2}-x+1}=\\frac{-1}{\\left(x-\\frac{1}{2}\\right)^{2}+\\frac{3}{4}})%<br>Ta có A nhỏ nhất khi %(\\left(x-\\frac{1}{2}\\right)^{2}+\\frac{3}{4})% đạt giá trị nhỏ nhất<br>Vậy: Giá trị nhỏ nhất của là %(\\mathrm{A})% là %(\\frac{-4}{3})% khi %(x-\\frac{1}{2}=0 \\Leftrightarrow x=\\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(x^{2}+2015 x-2014=2 \\sqrt{2017 x-2016})%.",
+        "question_images": [],
+        "solution": "Điều kiện %(\\quad x \\geq \\frac{2016}{2017})%%(\\Rightarrow)% Phương trình đã cho tương đương với<br>\\[\\begin{array}{l}x^{2}-2 x+1+2017 x-2016-2 \\sqrt{2017 x-2016}+1=0 \\\\Leftrightarrow(x-1)^{2}+(\\sqrt{2017 x-2016}-1)^{2}=0 \\\\Leftrightarrow\\left\\{\\begin{array}{l}x-1=0 \\\\sqrt{2017 x-2016}-1=0\\end{array}\\right.\\end{array}\\]<br>\\[\\Leftrightarrow\\left\\{\\begin{array}{l}x=1 \\\\2017 x-2016=1\\end{array}\\right.\\]<br>%(\\Leftrightarrow x=1)% (thỏa mãn điều kiện)<br>Vậy %(x=1)% là nghiệm của phương trình đã cho.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Chứng minh rằng: %(\\frac{1}{x}+\\frac{1}{y} \\leq-2)% biết %(\\mathrm{x}^{3}+\\mathrm{y}^{3}+3\\left(\\mathrm{x}^{2}+\\mathrm{y}^{2}\\right)+4(\\mathrm{x}+\\mathrm{y})+4=0)% và %(\\mathrm{x} . \\mathrm{y}\\gt 0)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Ta có: } x^{3}+y^{3}+3\\left(x^{2}+y^{2}\\right)+4(x+y)+4=0 \\\\ \\Leftrightarrow(x+y)\\left(x^{2}-x y+y^{2}\\right)+2\\left(x^{2}-x y+y^{2}\\right)+\\left(x^{2}+2 x y+y^{2}\\right)+4(x+y)+4=0 \\\\ \\Leftrightarrow\\left(x^{2}-x y+y^{2}\\right)(x+y+2)+(x+y+2)^{2}=0 \\\\ \\Leftrightarrow(x+y+2)\\left(x^{2}-x y+y^{2}+x+y+2\\right)=0 \\\\ \\Leftrightarrow \\frac{1}{2} \\cdot(x+y+2)\\left(2 x^{2}-2 x y+2 y^{2}+2 x+2 y+4\\right)=0 \\\\ \\Leftrightarrow \\frac{1}{2} \\cdot(x+y+2) \\cdot\\left[(x-y)^{2}+(x+1)^{2}+(y+1)^{2}+2\\right]=0 \\\\ \\Leftrightarrow x+y+2=0 \\\\ \\Leftrightarrow x+y=-2 \\text { mà } x \\cdot y\\gt 0 \\text { nên } x\\lt 0, y\\lt 0\\end{array})%<br>Áp dụng BĐT CauChy ta có %(\\sqrt{(-x)(-y)} \\leq \\frac{(-x)+(-y)}{2}=\\frac{-(x+y)}{2}=\\frac{2}{2}=1)%<br>Do đó %(\\mathrm{xy} \\leq 1)% suy ra %(1 \\leq \\frac{1}{x y})% hay %(\\frac{-2}{x y} \\leq-2)%<br>Mà %(M=\\frac{1}{x}+\\frac{1}{y}=\\frac{x+y}{x y}=\\frac{-2}{x y})%<br>Vậy %(M=\\frac{1}{x}+\\frac{1}{y} \\leq-2)% (dpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Cho %(x, y, z)% thỏa mãn %(\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right):\\left(\\frac{1}{x+y+z}\\right)=1)%.Tính giá trị của biểu thức %(B=\\left(x^{21}+y^{21}\\right)\\left(y^{11}+z^{11}\\right)\\left(z^{2017}+x^{2017}\\right))%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Ta có: }\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right):\\left(\\frac{1}{x+y+z}\\right)=1 \\Leftrightarrow\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)(x+y+z)=1 \\\\ \\Leftrightarrow(\\mathrm{yz}+\\mathrm{xz}+\\mathrm{xy})(\\mathrm{x}+\\mathrm{y}+\\mathrm{z})=\\mathrm{xyz}\\end{array})%<br>\\[\\begin{array}{l}\\Leftrightarrow x y z+z y^{2}+y z^{2}+z x^{2}+x y z+x z^{2}+y x^{2}+x y^{2}+x y z=x y z \\\\Leftrightarrow\\left(x y z+z x^{2}+x y^{2}+y x^{2}\\right)+\\left(z y^{2}+y z^{2}+x z^{2}+x y z\\right)=0 \\\\Leftrightarrow x\\left(y z+z x+y^{2}+y x\\right)+z\\left(y^{2}+y z+x z+x y\\right)=0 \\\\Leftrightarrow\\left(y z+z x+y^{2}+y x\\right)(x+z)=0 \\Leftrightarrow(x+y)(y+z)(x+z)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=-y \\y=-z \\z=-x\\end{array}\\right.\\end{array}\\]<br>Thay vào %(\\mathrm{B})% tính được %(\\mathrm{B}=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Với %(n)% chẵn %((n \\in N))% chứng minh rằng: %(\\left(20^{n}+16^{n}-3^{n}-1\\right) \\vdots 323)%",
+        "question_images": [],
+        "solution": "Ta có: %(323=17.19)%<br>%(\\begin{array}{l}20^{n}+16^{n}-3^{n}-1=\\left(20^{n}-1\\right)+\\left(16^{n}-3^{n}\\right) \\\\20^{n}-1 \\vdots 19 \\\\16^{n}-3^{n} \\vdots 19 \\quad \\text { (n chẵn) }\\end{array})%<br>Do đó %(20^{n}+16^{n}-3^{n}-1: 19)% (1)<br>%(\\begin{array}{l}20^{n}+16^{n}-3^{n}-1=\\left(20^{n}-1\\right)+\\left(16^{n}-3^{n}\\right) \\\\ 20^{n}-1 \\vdots 19\\end{array})%<br>%(16^{n}-3^{n} \\vdots 19 \\quad)% (n chẵn)<br>Do đó %(20^{\\mathrm{n}}+16^{\\mathrm{n}}-3^{\\mathrm{n}}-1 \\vdots 17)% (2)<br>Mà %((17 ; 19)=1)% nên từ (1) và %((2))% suy ra %(20^{\\mathrm{n}}+16^{\\mathrm{n}}-3^{\\mathrm{n}}-1 \\vdots 323)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Tìm các số nguyên %(\\mathrm{x}, \\mathrm{y})% thỏa mãn: %((y+2) x^{2017}-y^{2}-2 y-1=0)%",
+        "question_images": [],
+        "solution": "Nếu %(\\mathrm{y}+2=0 \\Leftrightarrow y=-2)% lúc đó phương trình có dạng %(0 x^{2017}-1=0)% (vô nghiệm).<br>Nếu %(y \\neq-2)% thì ta có %(x^{2017}=\\frac{y^{2}+2 y+1}{y+2}=y+\\frac{1}{y+2})%<br>Vì x,y nguyên nên %(\\frac{1}{y+2})% nguyên %(y+2 \\in U^{\\prime}(1)=\\{-1 ; 1\\})%.<br>Với %(y+2=-1 \\Rightarrow y=-3 \\Rightarrow x^{2017}=-4)% (loại)<br>Với %(y+2=1 \\Rightarrow y=-1 \\Rightarrow x^{2017}=0 \\Leftrightarrow x=0)%<br>Vậy số nguyên %(\\mathrm{x}, \\mathrm{y})% thỏa mãn đề bài là: %(\\mathrm{x}=0, \\mathrm{y}=-1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác %(\\mathrm{ABC})% (có ba góc nhọn) nội tiếp đường tròn %((\\mathrm{O} ; \\mathrm{R}))%. Các đường cao %(\\mathrm{AD}, \\mathrm{BE})%, %(\\mathrm{CF})% cắt nhau tại %(\\mathrm{H})%. Kéo dài %(\\mathrm{AO})% cắt đường tròn tại %(\\mathrm{K})%. Gọi %(\\mathrm{G})% là trọng tâm của tam giác %(\\mathrm{ABC})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Chứng minh %(\\mathrm{S}_{\\mathrm{AHG}}=2 \\mathrm{~S}_{\\mathrm{AGO}})%",
+        "question_images": [],
+        "solution": "Chứng minh %(\\mathrm{S}_{\\mathrm{AHG}}=2 \\mathrm{~S}_{\\mathrm{AGO}})%<br>Tam giác %(\\mathrm{ACK})% nội tiếp đường tròn %((\\mathrm{O}))% đường kính %(\\mathrm{AK})%<br>Nên KC vuông góc với %(\\mathrm{AC})%<br>Mà %(\\mathrm{BE})% vuông góc với %(\\mathrm{AC})% (gt)<br>Suy ra KC // BE hay %(\\mathrm{KC} / / \\mathrm{BH})%<br>Chứng minh tương tự ta có %(\\mathrm{KB} / / \\mathrm{CH})%<br>Nên tứ giác %(\\mathrm{BHCK})% là hình bình hành<br>Gọi %(\\mathrm{M})% giao điểm của %(\\mathrm{BC})% và %(\\mathrm{HK})% nên<br>%(\\mathrm{M})% là trung điểm của %(\\mathrm{BC})% mà %(\\mathrm{G})% là trọng tâm của tam giác %(\\mathrm{ABC})% nên %(\\mathrm{AG}=)% %(\\frac{2}{3} \\mathrm{AM})%<br>%(\\mathrm{M})% là trung điểm của %(\\mathrm{HK})% nên %(\\mathrm{AM})% là đường trung tuyến của tam giác %(\\mathrm{AHK})%.<br>Mà %(\\mathrm{G})% thuộc đoạn %(\\mathrm{AM})% và %(\\mathrm{AG}=\\frac{2}{3} \\mathrm{AM})% nên %(\\mathrm{G})% là trọng tâm của tam giác AHK<br>Ta có %(\\mathrm{O})% là trung điểm của %(\\mathrm{AK})% nên %(\\mathrm{HO})% là đường trung tuyến của tam giác AHK<br>Nên %(\\mathrm{HO})% đi qua %(\\mathrm{G})% do đó %(\\mathrm{HG}=2 \\mathrm{GO})%Tam giác %(\\mathrm{AHG})% và tam giác %(\\mathrm{AGO})% có chung đường cao kẻ từ %(\\mathrm{A})% đến %(\\mathrm{HO})% và %(\\mathrm{HG}=2 \\mathrm{GO})%<br>Do đó %(\\mathrm{S}_{\\mathrm{AHG}}=2 \\mathrm{~S}_{\\mathrm{AGO}})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4709a2989f0df3a412785f6bec93ad3d.png\" srcset=\"https://docdn.giainhanh.io/media/test/40b915545b7b76870e80ee5de219d2e7.png 245w, https://docdn.giainhanh.io/media/test/a222c99ab737860128b19c066308b77f.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Chứng minh %(\\frac{\\mathrm{HD}}{\\mathrm{AD}}+\\frac{\\mathrm{HE}}{\\mathrm{BE}}+\\frac{\\mathrm{HF}}{\\mathrm{CF}}=1)%",
+        "question_images": [],
+        "solution": "Ta có: %(\\frac{\\mathrm{HD}}{\\mathrm{AD}}+\\frac{\\mathrm{HE}}{\\mathrm{BE}}+\\frac{\\mathrm{HF}}{\\mathrm{CF}}=\\frac{\\frac{1}{2} \\mathrm{HD} \\cdot \\mathrm{BC}}{\\frac{1}{2} \\mathrm{AD} \\cdot \\mathrm{BC}}+\\frac{\\frac{1}{2} \\mathrm{HE} \\cdot \\mathrm{AC}}{\\frac{1}{2} \\mathrm{BE} \\cdot \\mathrm{AC}}+\\frac{\\frac{1}{2} \\mathrm{HF} \\cdot \\mathrm{AB}}{\\frac{1}{2} \\mathrm{CF} \\cdot \\mathrm{AB}})%<br>\\[=\\frac{\\mathrm{S}_{\\mathrm{HBC}}}{\\mathrm{S}_{\\mathrm{ABC}}}+\\frac{\\mathrm{S}_{\\mathrm{HAC}}}{\\mathrm{S}_{\\mathrm{ABC}}}+\\frac{\\mathrm{S}_{\\mathrm{HAB}}}{\\mathrm{S}_{\\mathrm{ABC}}}=\\frac{\\mathrm{S}_{\\mathrm{HBC}}+\\mathrm{S}_{\\mathrm{HAC}}+\\mathrm{S}_{\\mathrm{HAB}}}{\\mathrm{S}_{\\mathrm{ABC}}}=\\frac{\\mathrm{S}_{\\mathrm{ABC}}}{\\mathrm{S}_{\\mathrm{ABC}}}=1\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 3.0,
+        "content": "Cho nửa đường tròn %((\\mathrm{O} ; \\mathrm{R}))% đường kính %(\\mathrm{AB})%. %(\\mathrm{C})% và %(\\mathrm{D})% là hai điểm nằm trên nửa đường tròn đó sao cho góc %(\\mathrm{CAB}=45^{\\circ})%, góc %(\\mathrm{DAB}=30^{\\circ})%. %(\\mathrm{AC})% cắt %(\\mathrm{BD})% tại %(\\mathrm{M})%. Tính diện tích tam giác %(\\mathrm{ABM})% theo %(\\mathrm{R})%",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{N})% là giao điểm của %(\\mathrm{AD})% và %(\\mathrm{BC} ; \\mathrm{H})% là giao điểm của %(\\mathrm{MN})% và %(\\mathrm{AB})%<br>Chứng minh góc %(\\mathrm{AHM}=90^{\\circ})%; mà góc %(\\mathrm{CAB}=45^{\\circ}(\\mathrm{gt}))% nên tam giác AHM vuông cân<br>\\[\\begin{array}{l}\\Rightarrow \\mathrm{MH}=\\mathrm{AH} \\\\Rightarrow \\mathrm{MH}+\\mathrm{HB}=\\mathrm{AH}+\\mathrm{HB}=2 \\mathrm{R}\\end{array}\\]<br>* Tam giác MHB vuông tại H<br>\\[\\begin{array}{l}H B=M B \\cdot \\cos M B H \\Rightarrow M B=\\frac{H B}{\\cos M B H}=\\frac{H B}{\\cos 60^{\\circ}}=2 H B \\M H=M B \\cdot \\sin M B H \\Leftrightarrow M H=M B \\cdot \\sin 60^{\\circ}=\\frac{M B \\cdot \\sqrt{3}}{2}=H B \\cdot \\sqrt{3} \\\\Rightarrow H B=\\frac{M H}{\\sqrt{3}}=\\frac{\\sqrt{3} \\cdot M H}{3}\\end{array}\\]<br>Từ (1) và (2) ta có %(M H+\\frac{\\sqrt{3} \\cdot M H}{3}=2 R)% P %(M H=\\frac{6 R}{3+\\sqrt{3}}=(3-\\sqrt{3}) \\cdot R)%<br>Vậy: %(S=\\frac{A B \\cdot M H}{2}=\\frac{1}{2} \\cdot 2 R \\cdot(3-\\sqrt{3}) R=(3-\\sqrt{3}) R^{2})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f13d90b3d13aa3b968681d397c4a56aa.png\" srcset=\"https://docdn.giainhanh.io/media/test/ab57b4d48b6aa2535e8c9153331a1654.png 245w, https://docdn.giainhanh.io/media/test/76d26be4d513c34def9add3e58fbe9a3.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

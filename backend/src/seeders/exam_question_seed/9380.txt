@@ -1,0 +1,112 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(P=\\left(\\frac{2 x-9}{x^{2}-5 x+6}-\\frac{x+3}{x-2}-\\frac{2 x-1}{3-x}\\right): \\frac{x-1}{x^{2}-x+1})%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Rút gọn biểu thức %(P)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}P=\\left(\\frac{2 x-9}{x^{2}-5 x+6}-\\frac{x+3}{x-2}-\\frac{2 x-1}{3-x}\\right): \\frac{x-1}{x^{2}-x+1}(x \\neq 1, x \\neq 2, x \\neq 3) \\\\=\\frac{2 x-9-(x+3)(x-3)+(2 x-1)(x-2)}{(x-2)(x-3)}: \\frac{x-1}{x^{2}-x+1}=\\frac{2 x-9-x^{2}+9+2 x^{2}-5 x+2}{(x-2)(x-3)} \\cdot \\frac{x^{2}-x+1}{x-1} \\\\=\\frac{x^{2}-3 x+2}{(x-2)(x-3)} \\cdot \\frac{x^{2}-x+1}{x-1}=\\frac{(x-1)(x-2)}{(x-2)(x-3)} \\cdot \\frac{x^{2}-x+1}{x-1}=\\frac{x^{2}-x+1}{x-3}\\end{array}\\]<br>Vậy %(P=\\frac{x^{2}-x+1}{x-3})% với %(x \\neq 1, x \\neq 2, x \\neq 3)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Tìm %(x \\in \\mathbb{Z})% để %(P \\in \\mathbb{Z})%",
+        "question_images": [],
+        "solution": "Thực hiện phép chia, ta có : %(P=\\frac{x^{2}-x+1}{x-3}=x+2+\\frac{7}{x-3})%<br>Để %(P \\in \\mathbb{Z}, x \\in \\mathbb{Z} \\Rightarrow \\frac{7}{x-3} \\in \\mathbb{Z} \\Rightarrow(x-3) \\in U(7)=\\{ \\pm 1 ; \\pm 7\\})%<br>Ta có bảng sau: %(\\begin{array}{lllll}x-3 & -7 & -1 & 1 & 7 \\\\ x & -4 & 2 & 4 & 10\\end{array})%<br>Đối chiếu điều kiện ta được với %(x \\in\\{ \\pm 4 ; 10\\})% thì %(P \\in \\mathbb{Z})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) Tìm %(x)% để %(P \\geq 1)%",
+        "question_images": [],
+        "solution": "Để %(P \\geq 1 \\Rightarrow \\frac{x^{2}-x+1}{x-3} \\geq 1 \\Leftrightarrow \\frac{x^{2}-x+1}{x-3}-1 \\geq 0)%<br>%(\\Leftrightarrow \\frac{x^{2}-x+1-x+3}{x-3} \\geq 0 \\Leftrightarrow \\frac{x^{2}-2 x+4}{x-3} \\geq 0 \\Leftrightarrow \\frac{(x-1)^{2}+3}{x-3} \\geq 0)%<br>Vì %((x-1)^{2} \\geq 0 \\Rightarrow(x-1)^{2}+3\\gt 0 \\Rightarrow x-3>0 \\Leftrightarrow x>3)%<br>Kết hợp với điều kiện, vậy %(x>3)% thì %(P \\geq 1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Giải phương trình : %(2\\left(\\frac{x+2}{x+3}\\right)^{2}+\\left(\\frac{x-2}{x+1}\\right)^{2}-3\\left(\\frac{x^{2}-4}{x^{2}+4 x+3}\\right)=0)%",
+        "question_images": [],
+        "solution": "%(2\\left(\\frac{x+2}{x+3}\\right)^{2}+\\left(\\frac{x-2}{x+1}\\right)^{2}-3\\left(\\frac{x^{2}-4}{x^{2}+4 x+3}\\right)=0(x \\neq-3 ; x \\neq-1))%<br>%(\\begin{array}{l}\\Leftrightarrow\\left(\\frac{x+2}{x+3}-\\frac{x-2}{x+1}\\right)+\\left(\\frac{x+2}{x+3}\\right)^{2}-\\frac{(x-2)(x+2)}{(x+1)(x+3)}=0 \\\\ \\Leftrightarrow\\left(\\frac{x+2}{x+3}-\\frac{x-2}{x+1}\\right)^{2}+\\frac{x+2}{x+3} \\cdot\\left(\\frac{x+2}{x+3}-\\frac{x-2}{x+1}\\right)=0 \\\\ \\Leftrightarrow\\left(\\frac{x+2}{x+3}-\\frac{x-2}{x+1}\\right) \\cdot\\left(\\frac{x+2}{x+3}-\\frac{x-2}{x+1}+\\frac{x+2}{x+3}\\right)=0\\end{array})%<br>%(\\begin{array}{l}\\Leftrightarrow \\frac{(x+2)(x+1)-(x-2)(x+3)}{(x+3)(x+1)} \\cdot \\frac{2(x+2)(x+1)-(x-2)(x+3)}{(x+1)(x+3)}=0 \\\\ \\Leftrightarrow \\frac{x^{2}+3 x+2-x^{2}-x+6}{(x+3)(x+1)} \\cdot \\frac{2 x^{2}+4 x+4-x^{2}-x+6}{(x+1)(x+3)}=0\\end{array})%<br>%(\\Leftrightarrow \\frac{2 x+8}{(x+1)(x+3)} \\cdot \\frac{x^{2}-5 x+10}{(x+1)(x+3)}=0 \\Rightarrow\\left\\{\\begin{array}{l}2 x+8=0 \\\\ x^{2}-5 x+10=0(V N)\\end{array} \\Rightarrow x=-4(\\mathrm{tm})\\right.)%<br>Vậy phương trình đã cho có nghiệm %(x=-4)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Tìm giá trị %(m)% để phương trình sau có nghiệm âm: %(\\frac{2}{x-1}=4-m)%",
+        "question_images": [],
+        "solution": "Ta có<br>%(\\begin{array}{l}\\frac{2}{x-1}=4-m(x \\neq 1) \\Leftrightarrow \\frac{2}{x-1}=4-m \\Leftrightarrow \\frac{2}{x-1}-4+m=0 \\\\ \\Leftrightarrow \\frac{2-(4-m)(x-1)}{x-1}=0 \\Leftrightarrow(4-m)(x-1)=2 \\\\ \\Leftrightarrow 4 x-4-m x+m=2 \\Leftrightarrow(4-m) x=6-m \\Leftrightarrow x=\\frac{6-m}{4-m}\\end{array})%<br>Để phương trình đã cho có nghiệm âm thì %(\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}6-m\\gt 0 \\\\ 4-m\\lt 0\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}6-m\\lt 0 \\\\ 4-m>0\\end{array}\\right.\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}6>m \\\\ 4\\lt m \\\\ 6\\lt m \\\\ 4>m\\end{array} \\Rightarrow 4\\lt m\\lt 6\\right.\\right.)%<br>Vậy với %(4\\lt m\\lt 6)% thì phương trình đã cho có nghiệm âm",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Cho %(x, y, z)% khác 0 thỏa mãn %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=0)%. Tính giá trị của biểu thức:<br>\\[M=\\left(\\frac{x y}{z^{2}}+\\frac{y z}{x^{2}}+\\frac{z x}{y^{2}}-2\\right)^{2019}\\]",
+        "question_images": [],
+        "solution": "Ta có %(: \\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=0 \\Rightarrow\\left\\{\\begin{array}{l}1+\\frac{x}{y}+\\frac{x}{z}=0 \\\\ \\frac{y}{x}+1+\\frac{y}{z}=0 \\Rightarrow \\frac{x}{y}+\\frac{x}{z}+\\frac{y}{x}+\\frac{y}{z}+\\frac{z}{x}+\\frac{z}{y}=-3 \\\\ \\frac{z}{x}+\\frac{z}{y}+1=0\\end{array}\\right.)%<br>Mà %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=0)%. suy ra %(\\frac{x y+y z+z x}{x y z}=0 \\Rightarrow x y+y z+z x=0)%<br>Nên %(\\left(\\frac{1}{x^{2}}+\\frac{1}{y^{2}}+\\frac{1}{z^{2}}\\right)(x y+y z+z x)=0 \\Leftrightarrow \\frac{y z}{x^{2}}+\\frac{x z}{y^{2}}+\\frac{x y}{z^{2}}+\\frac{x}{y}+\\frac{x}{z}+\\frac{y}{x}+\\frac{y}{z}+\\frac{z}{x}+\\frac{z}{y}=0)%<br>%(\\Rightarrow \\frac{y z}{x^{2}}+\\frac{x z}{y^{2}}+\\frac{x y}{z^{2}}=3 \\Rightarrow M=3-2=1)%<br>Vậy %(M=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Cho %(x, y, z)% thȯa mãn %((x-y)(y-z)(z-x)=x+y+z)%. Chứng minh rằng %((x+y+z) ⋮ 27)%",
+        "question_images": [],
+        "solution": "Th1: Nếu %(x, y, z)% có cùng số dư khi chia cho 3. Thì %(x-y ; y-z ; z-x)% đều chia hết cho 3<br>Suy ra %((x-y)(y-z)(z-x) ⋮ 3.3 .3)% %(\\Rightarrow(x-y)(y-z)(z-x) \\vdots 27)%<br>Mà %((x-y)(y-z)(z-x)=x+y+z)% nên %((x+y+z)⋮ 27)%<br>Th2: Nếu có hai trong ba số %(x ; y ; z)% có cùng số dư khi chia cho 3<br>*Giả sử %(x: 3, y: 3)% thì %((x-y) \\vdots 3)%, mà %((x-y)(y-z)(z-x)=x+y+z \\Rightarrow x+y+z \\vdots 3 \\Rightarrow z \\vdots 3)%<br>Suy ra %((x-y) \\vdots 3,(y-z) \\vdots 3,(z-x) \\vdots 3)% nên %((x-y)(y-z)(z-x) \\vdots 27)%<br>Mà %((x-y)(y-z)(z-x)=x+y+z)% nên %((x+y+z) \\vdots 27)%<br>*%(x, y)% khi chia 3 đều dư 1 thì %((x-y) \\vdots 3 \\Rightarrow(x-y)(y-z)(z-x): 3 \\Rightarrow x+y+z \\vdots 3)%<br>Mà %(x: 3)% dư %(1, y: 3)% dư 1 nên %(x+y)% chia 3 dư 2 , mà %(x+y+z: 3)%<br>Suy ra %(z: 3)% dư 1<br>Vậy %((x-y) \\vdots 3,(y-z) \\vdots 3,(z-x) \\vdots 3 \\Rightarrow(x+y+z) \\vdots 27)%<br>Mà %((x-y)(y-z)(z-x)=x+y+z)% nên %((x+y+z) \\vdots 27)%<br>Th3: cả 3 số không cùng số dư khi chia cho 3<br>Giả sử %(x, y, z)% chia 3 dư lần lượt là %(0 ; 1 ; 2)% thì %(x-y ; y-z ; z-x)% đều không chia hết cho 3<br>Vậy %((x-y)(y-z)(z-x) \\div 27)%, nhưng %((x+y+z) \\vdots 3)%<br>Mà %((x-y)(y-z)(z-x)=x+y+z)% Suy ra vô lý<br>Vậy chứng tỏ, nếu %(x, y, z)% thỏa mãn %((x-y)(y-z)(z-x)=x+y+z)% thì %((x+y+z) \\vdots 27)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.5,
+        "content": "Tìm các số nguyên %(x, y)% thỏa mãn %(x^{2}+y^{2}+x^{2} y^{2}-5 x y+12=0)%",
+        "question_images": [],
+        "solution": "Ta có :<br>%(\\begin{array}{l}x^{2}+y^{2}+x^{2} y^{2}-5 x y+12=0 \\Leftrightarrow x^{2}-2 x y+y^{2}+\\left(x^{2} y^{2}-3 x y+\\frac{9}{4}\\right)+\\frac{39}{4}=0 \\\\ \\Leftrightarrow(x-y)^{2}+\\left(x y-\\frac{3}{2}\\right)^{2}+\\frac{39}{4}=0\\end{array})%<br>Vì %((x-y)^{2} \\geq 0 ;\\left(x y-\\frac{3}{2}\\right)^{2} \\geq 0 ; \\frac{39}{4}\\gt 0 \\Rightarrow V T>0)%<br>Vậy không có giá trị %(x, y)% thỏa mãn",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác %(A B C)% nhọn, các đường cao %(A D, B E, C F)%. Gọi H là trực tâm của tam giác. Lấy %(H^{\\prime})% là điểm đối xứng của H qua BC . Gọi %(M, N)% lần lượt là hình chiếu của %(H^{\\prime})% xuống %(A B)% và %(A C)%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng %(\\angle A E F=\\angle A B C)%",
+        "question_images": [],
+        "solution": "Xét %(\\triangle A E B)% và %(\\triangle A F C)% có : %(\\angle A)% chung, %(\\angle A E B=\\angle A F C=90^{\\circ})%<br>Nên %(\\triangle A E B \\sim \\triangle A F C(\\mathrm{~g} . \\mathrm{g}) \\Rightarrow \\frac{A E}{A F}=\\frac{A B}{A C} \\Rightarrow \\frac{A E}{A B}=\\frac{A F}{A C})%<br>mà %(\\angle A)% chung nên :%(\\triangle A E F \\sim \\triangle A B C()% c.g.c %() \\Rightarrow \\angle A E F=\\angle A B C(1))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b5e0ae5a5663f58e4f07b6b6e18f4e46.png\" srcset=\"https://docdn.giainhanh.io/media/test/85354edb7905beaed0690abbedb65a60.png 168w, https://docdn.giainhanh.io/media/test/bf4e78b22d223173ad6b47441aff90a0.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Chứng minh rằng %(E H)% là phân giác của %(\\angle F E D)% và %(M, D, N)% thẳng hàng",
+        "question_images": [],
+        "solution": "%(*)% Ta có %(\\triangle C E B, \\triangle C D A)% có %(\\angle C)% chung, %(\\angle C E B=\\angle C D A=90^{\\circ} \\Rightarrow \\triangle C E B \\sim \\triangle C D A(\\mathrm{~g} . \\mathrm{g}))%<br>%(\\Rightarrow \\frac{C E}{C D}=\\frac{C B}{C A} \\Rightarrow \\frac{C E}{C B}=\\frac{C D}{C A} ; \\angle C)% chung nên %(\\triangle C E D \\sim \\triangle C B A()% c.g.c)<br>%(\\rightarrow \\angle C E D=\\angle C B A)% (2)<br>Từ (1) và (2) suy ra %(\\angle A E F=\\angle C E D)%<br>Mà %(\\angle A E F+\\angle F E B=90^{\\circ} ; \\angle C E D+\\angle B E D=90^{\\circ} \\Rightarrow \\angle F E B=\\angle B E D)%<br>Chứng tỏ %(E H)% là phân giác của %(\\angle F E D)%<br>*Vì %(E H)% là phân giác trong của %(\\angle F E D \\Rightarrow E H)% là phân giác trong của %(\\triangle D E I \\Rightarrow \\frac{H I}{H D}=\\frac{I E}{E D})%<br>Do %(\\angle H E A=90^{\\circ})% nên %(E A)% là phân giác ngoài tại đỉnh %(E)% của %(\\triangle E I D)% nên %(\\frac{A I}{A D}=\\frac{I E}{E D})%<br>Nên suy ra %(\\frac{H I}{H D}=\\frac{L A}{A D})%. Mà %(H)% ' đối xứng với H qua BC nên %(H D=D H^{\\prime})%<br>Suy ra %(\\frac{H I}{D H^{\\prime}}=\\frac{A I}{A D}=\\frac{H I+A I}{D H^{\\prime}+A D}=\\frac{A H}{A H^{\\prime}})% mà %(H F / / H^{\\prime} M \\perp A B \\Rightarrow \\frac{A H}{A^{\\prime} H}=\\frac{A F}{A M})%<br>Nên %(\\frac{A I}{A D}=\\frac{A F}{A M} \\Rightarrow F I / / M D)% (theo định lý Talet đảo)<br>Chứng minh tương tự ta cũng có %(D N / / E I)%<br>Mà %(F, I, E)% thẳng hàng nên suy ra %(M, D, N)% thẳng hàng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Gọi %(S, S_{1}, S_{2}, S_{3})% lần lượt là diện tích của các tam giác %(A B C, A E F, B D F, C D E)%. Chứng minh rằng %(\\frac{S_{1} \\cdot S_{2} \\cdot S_{3}}{S^{3}} \\leq \\frac{1}{64})%",
+        "question_images": [],
+        "solution": "Đặt<br>\\[B C=a, C A=b, A B=c, A F=x, B D=y, C E=z\\]<br>Khi đó %(\\frac{S_{1} S_{2} S_{3}}{S^{3}}=\\frac{x(c-x) y(a-y)(b-z)}{a^{2} b^{2} c^{2}})%. Ta có : %(x(c-x) \\leq\\left(\\frac{x+c-x}{2}\\right)^{2}=\\frac{c^{2}}{4})%;<br>\\[y(a-y) \\leq \\frac{a^{2}}{4} ; z(b-z) \\leq \\frac{b^{2}}{4}\\]<br>Suy ra %(\\frac{x(c-x) y(a-y) z(b-z)}{a^{2} b^{2} c^{2}} \\leq \\frac{a^{2} b^{2} c^{2}}{64})%<br>Nên %(\\frac{S_{1} \\cdot S_{2} \\cdot S_{3}}{S^{3}} \\leq \\frac{1}{64})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/119b4e6c2682289cbdebbb6212f9fea5.png\" srcset=\"https://docdn.giainhanh.io/media/test/9d64930b0d392b577e1882b7f869f9d9.png 178w, https://docdn.giainhanh.io/media/test/cead23182c2d0498ac837c348b2807a1.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là các số thực dương thỏa mãn %((a+b+1) \\cdot a b=a^{2}+b^{2})% Tìm giá trị lớn nhất của %(A=\\frac{1}{a^{3}}+\\frac{1}{b^{3}})%",
+        "question_images": [],
+        "solution": "Ta có : %((a+b+1) \\cdot a b=a^{2}+b^{2} \\Leftrightarrow(a+b+1) a b=(a+b)^{2}-2 a b)%<br>Đặt %(S=a+b, P=a b, S^{2} \\geq 4 P)%<br>Ta có: %((S+1) P=S^{2}-2 P)%<br>\\[\\begin{array}{l}A=\\frac{1}{a^{3}}+\\frac{1}{b^{3}}=\\frac{a^{3}+b^{3}}{(a b)^{3}}=\\frac{(a+b)^{3}-3 a b(a+b)}{(a b)^{3}} \\\\=\\frac{S^{3}-3 S P}{P^{3}}=\\left(S^{3}-3 S \\cdot \\frac{S^{2}}{S+3}\\right): \\frac{S^{6}}{(S+3)^{3}}=\\left(\\frac{S+3}{S}\\right)^{2}=\\left(1+\\frac{3}{5}\\right)^{2}\\end{array}\\]<br>Mà %(S^{2} \\geq 4 P \\Rightarrow P \\leq \\frac{S^{2}}{4} \\Leftrightarrow \\frac{S^{2}}{S+3} \\leq \\frac{S^{2}}{4} \\Leftrightarrow S^{2} \\geq 1 \\Rightarrow A \\leq(1+3)^{2}=16)%<br>Dấu bằng xảy ra khi và chỉ khi %(\\left\\{\\begin{array}{l}S=1 \\\\ S^{2}=4 P\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a+b=1 \\\\ (a+b)^{2}=4 a b\\end{array} \\Leftrightarrow a=b=\\frac{1}{2}\\right.\\right.)%",
+        "question_type": "essay"
+    }
+]

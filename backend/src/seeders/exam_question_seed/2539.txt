@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.75,
+        "content": "Cho các biểu thức %(P(x)=\\frac{1}{x}+\\frac{9-x}{x+3 \\sqrt{x}}, Q(x)=\\frac{\\sqrt{x}+1}{\\sqrt{x}})% với %(x\\gt 0)%. Tìm số nguyên %(\\mathrm{x})% nhỏ nhất thỏa mãn %(\\frac{\\mathrm{P}(\\mathrm{x})}{\\mathrm{Q}(\\mathrm{x})} \\leq \\frac{1}{2})%.",
+        "question_images": [],
+        "solution": "Ta có %(\\mathrm{Q}(\\mathrm{x})=1+\\frac{1}{\\sqrt{\\mathrm{x}}}\\gt 0, \\forall \\mathrm{x}>0)%.<br>Do đó %(\\frac{\\mathrm{P}(\\mathrm{x})}{\\mathrm{Q}(\\mathrm{x})} \\leq \\frac{1}{2} \\Leftrightarrow 2 \\mathrm{P}(\\mathrm{x}) \\leq \\mathrm{Q}(\\mathrm{x}))% %(\\Leftrightarrow 2\\left(\\frac{1}{x}+\\frac{9-x}{x+3 \\sqrt{x}}\\right) \\leq \\frac{\\sqrt{x}+1}{\\sqrt{x}} \\Leftrightarrow 3 x-5 \\sqrt{x}-2 \\geq 0)% %(\\Leftrightarrow(\\sqrt{\\mathrm{x}}-2)(3 \\sqrt{\\mathrm{x}}+1) \\geq 0 \\Leftrightarrow \\sqrt{\\mathrm{x}} \\geq 2 \\Leftrightarrow \\mathrm{x} \\geq 4)% (vì %(3 \\sqrt{\\mathrm{x}}+1>0)% ).<br>Vậy giá trị nguyên nhỏ nhất của %(x)% cần tìm là %(x=4)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 0.75,
+        "content": "Tính giá trị của biểu thức %(F=\\frac{2 x^{4}-21 x^{3}+55 x^{2}-32 x-4012}{x^{2}-10 x+20})%<br>khi %(x=5-\\sqrt{3})% (không sử dụng máy tính cầm tay).",
+        "question_images": [],
+        "solution": "Ta có %(x=5-\\sqrt{3})% suy ra %(5-x=\\sqrt{3})%.<br>Do đó %((5-x)^{2}=3 \\Leftrightarrow x^{2}-10 x+22=0)%.Ta có %(\\mathrm{F}=\\frac{\\left(\\mathrm{x}^{2}-10 \\mathrm{x}+22\\right)\\left(2 \\mathrm{x}^{2}-\\mathrm{x}+1\\right)-4034}{\\mathrm{x}^{2}-10 \\mathrm{x}+20})%.<br>Mà %(x^{2}-10 x+22=0)% nên %(x^{2}-10 x+20=-2)%.<br>Suy ra %(F=\\frac{-4034}{-2}=2017)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Trong mặt phẳng tọa độ %(\\mathrm{Oxy})%, cho parabol %((\\mathrm{P}): \\mathrm{y}=\\mathrm{x}^{2})%, đường thẳng %((\\mathrm{d}))% có hệ số góc %(\\mathrm{k})% và đi qua điểm %(\\mathrm{M}(0 ; 1))%. Chứng minh rằng với mọi giá trị của %(\\mathrm{k})%, %((\\mathrm{d}))% luôn cắt %((\\mathrm{P}))% tại hai điểm phân biệt %(\\mathrm{A})% và %(\\mathrm{B})% có hoành độ %(\\mathrm{x}_{1}, \\mathrm{x}_{2})% thỏa điều kiện %(\\left|\\mathrm{x}_{1}-\\mathrm{x}_{2}\\right| \\geq 2)%.",
+        "question_images": [],
+        "solution": "Đường thẳng %((\\mathrm{d}))% có phương trình %(\\mathrm{y}=\\mathrm{kx}+1)%.Phương trình hoành độ giao điểm của %((\\mathrm{P}))% và (d) là %(\\mathrm{x}^{2}-\\mathrm{kx}-1=0)% (1).Ta có %(\\Delta=\\mathrm{k}^{2}+4\\gt 0)%, với mọi k nên phương trình (1) có hai nghiệm phân biệt. Suy ra (d) luôn cắt (P) tại hai điểm phân biệt.<br>Theo định lý Vi-ét, ta có: %(\\mathrm{x}_{1}+\\mathrm{x}_{2}=\\mathrm{k}, \\mathrm{x}_{1} \\mathrm{x}_{2}=2)%.<br>Suy ra %(\\left(\\mathrm{x}_{1}-\\mathrm{x}_{2}\\right)^{2}=\\left(\\mathrm{x}_{1}+\\mathrm{x}_{2}\\right)^{2}-4 \\mathrm{x}_{1} \\mathrm{x}_{2}=\\mathrm{k}^{2}+4 \\geq 4)%.<br>Do đó %(\\left|x_{1}-x_{2}\\right| \\geq 2)% (dấu \"=\" xảy ra khi %(\\mathrm{k}=0)% ).",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x^{3}+y^{3}=9 \\\\ x^{2}+2 y^{2}=x+4 y\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Nhân hai vế phương trình (2) cho 3 , ta được %(3 x^{2}+6 y^{2}=3 x+12 y)% (3).<br>Trừ hai phương trình (1) và (3) vế theo vế, ta được<br>\\[(\\mathrm{x}-1)^{3}=(2-\\mathrm{y})^{3} \\Leftrightarrow \\mathrm{y}=3-\\mathrm{x} \\text {. }\\]<br>Thế %(\\mathrm{y}=3-\\mathrm{x})% vào (3), ta được %(\\mathrm{x}^{2}-3 \\mathrm{x}+2=0 \\Leftrightarrow \\mathrm{x}=1)% hoặc %(\\mathrm{x}=2)%.Với %(\\mathrm{x}=1)% thì %(\\mathrm{y}=2)%. Với %(\\mathrm{x}=2)% thì %(\\mathrm{y}=1)%.<br>Hệ phương trình có hai nghiệm %((2 ; 1),(1 ; 2))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho phương trình %(\\mathrm{x}^{2}-2(\\mathrm{~m}+1) \\sqrt{\\mathrm{x}^{2}+1}+\\mathrm{m}^{2}-\\mathrm{m}-2=0)% (1) (x là ẩn số).",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 0.75,
+        "content": "a,Giải phương trình (1) khi %(\\mathrm{m}=0)%.",
+        "question_images": [],
+        "solution": "Khi %(\\mathrm{m}=0)%, phương trình trở thành %(\\mathrm{x}^{2}-2 \\sqrt{\\mathrm{x}^{2}+1}-2=0)%.<br>Đặt %(\\mathrm{t}=\\sqrt{\\mathrm{x}^{2}+1}, \\mathrm{t} \\geq 1)%.<br>Ta có phương trình %(\\mathrm{t}^{2}-2 \\mathrm{t}-3=0 \\Leftrightarrow \\mathrm{t}=3)% hoặc %(\\mathrm{t}=-1)% (loại).<br>Với %(\\mathrm{t}=3)%, khi đó %(\\sqrt{\\mathrm{x}^{2}+1}=3 \\Leftrightarrow \\mathrm{x}^{2}=8 \\Leftrightarrow \\mathrm{x}= \\pm 2 \\sqrt{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 0.75,
+        "content": "b,Tìm tất cả các giá trị của m để phương trình (1) có bốn nghiệm phân biệt.",
+        "question_images": [],
+        "solution": "%((2))%.(1) có 4 nghiệm phân biệt %(\\Leftrightarrow)% (2) có 2 nghiệm phân biệt %(t_{1}, t_{2})% cùng lớn hơn 1<br>\\[\\begin{array}{l}\\Leftrightarrow\\left\\{\\begin{array}{l}\\Delta^{\\prime}\\gt 0 \\\\left(\\mathrm{t}_{1}-1\\right)\\left(\\mathrm{t}_{2}-1\\right)>0 \\\\mathrm{t}_{1}-1+\\mathrm{t}_{2}-1>0\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { \\Delta ^ { \\prime } > 0 } \\\\{ t _ { 1 } t _ { 2 } - ( t _ { 1 } + t _ { 2 } ) + 1 > 0 } \\\\{ t _ { 1 } + t _ { 2 } - 2 > 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}\\left(m^{2}+2 m+1\\right)-\\left(m^{2}-m-3\\right)>0 \\m^{2}-m-3-(2 m+2)+1>0 \\\\2 m+2-2>0\\end{array}\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { 3 m + 4 > 0 } \\\\{ m ^ { 2 } - 3 m - 4 > 0 } \\\\{ 2 m > 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}m>-4 / 3 \\m\\lt -1 \\text { hoÆ } m>4 \\Leftrightarrow m>4 . \\m>0\\end{array}\\right.\\right. \\\\end{array}\\]<br>Vậy với %(m>4)% thì phương trình đã cho có 4 nghiệm phân biệt.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho đường tròn %((\\mathrm{O}))% có tâm %(\\mathrm{O})% và hai điểm %(\\mathrm{C}, \\mathrm{D})% trên %((\\mathrm{O}))% sao cho ba điểm %(\\mathrm{C}, \\mathrm{O}, \\mathrm{D})% không thẳng hàng. Gọi %(\\mathrm{Ct})% là tia đối của tia %(\\mathrm{CD}, \\mathrm{M})% là điểm tùy ý trên %(\\mathrm{Ct}, \\mathrm{M})% khác %(\\mathrm{C})%. Qua %(M)% kẻ các tiếp tuyến %(M A, M B)% với đường tròn %((O))% (A và %(B)% là các tiếp điểm, %(B)% thuộc cung nhỏ %(\\mathrm{CD})% ). Gọi I là trung điểm của %(\\mathrm{CD}, \\mathrm{H})% là giao điểm của đường thẳng %(\\mathrm{MO})% và đường thẳng %(\\mathrm{AB})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Chứng minh tứ giác MAIB nội tiếp.",
+        "question_images": [],
+        "solution": "<img alt=\"a2dcda3c0fd047645adf67a0e3655614.png\" src=\"https://docdn.giainhanh.io/media/test/a298f3ef809e482e8386a49801010bf9.png\"/><br>%(\\mathrm{MA}, \\mathrm{MB})% là các tiếp tuyến của đường tròn %((0) \\Rightarrow \\mathrm{MAO}=\\mathrm{MBO}=90^{\\circ})%.I là trung điểm của %(\\mathrm{CD})% nên %(\\mathrm{OI} \\perp \\mathrm{CD} \\Rightarrow \\mathrm{MIO}=90^{\\circ})%.<br>Suy ra các điểm %(\\mathrm{A}, \\mathrm{I}, \\mathrm{B})% cùng thuộc đường tròn đường kính %(\\mathrm{MO})%.<br>Vậy tứ giác MAIB nội tiếp đường tròn đường kính MO.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Chứng minh đường thẳng %(\\mathrm{AB})% luôn đi qua một điểm cố định khi %(\\mathrm{M})% di động trên tia %(\\mathrm{Ct})%.",
+        "question_images": [],
+        "solution": "Các tiếp tuyến tại %(C)% và %(D)% cắt nhau tại %(Q)% nằm trên đường thắng OI.<br>Ta có %(\\triangle \\mathrm{MAC})% đồng dạng với %(\\triangle \\mathrm{MDA}\\left(\\mathrm{M}\\right.)% chung và %(\\mathrm{MAC}=\\mathrm{MDA}=\\frac{1}{2} \\mathrm{SđAC})% )Suy ra %(\\frac{M A}{M D}=\\frac{M C}{M A} \\Leftrightarrow M A^{2}=M C \\cdot M D)%.<br>Mà %(\\triangle \\mathrm{MAO})% vuông ở %(\\mathrm{A})% có đường cao %(\\mathrm{AH})% nên %(\\mathrm{MA}^{2}=\\mathrm{MH} . \\mathrm{MO})%.<br>Suy ra %(M C \\cdot M D=M H \\cdot M O \\Rightarrow \\frac{M C}{M H}=\\frac{M O}{M D})%.<br>Do đó %(\\triangle M C H)% và %(\\triangle M O D)% đồng dạng.Từ đó %(\\mathrm{CHM}=\\mathrm{ODM})%.<br>Suy ra tứ giác CHOD nội tiếp (1).Tứ giác %(\\mathrm{QCOD})% có %(\\mathrm{OCQ}=\\mathrm{ODQ}=90^{\\circ})% nên nội tiếp đường kính %(\\mathrm{OQ}(2))%.<br>Từ (1) và (2) ta có năm điểm %(\\mathrm{C}, \\mathrm{H}, \\mathrm{O}, \\mathrm{D}, \\mathrm{Q})% thuộc đường tròn đường kính %(\\mathrm{OQ})%.Suy ra %(\\mathrm{QHO}=90^{\\circ})%. Do đó %(\\mathrm{QH} \\perp \\mathrm{MO})% tại %(\\mathrm{H})%.Mà %(A B \\perp M O)% tại %(H)%.<br>Do đó hai đường thẳng %(Q H)% và %(A B)% trùng nhau. Suy ra nằm trên đường thẳng %(\\mathrm{AB})%.Vì d và %((O))% và %(C, D, I)% cố định nên %(Q)% cố định.Vậy %(A B)% luôn đi qua một điểm cố định %(Q)% khi M di động trên tia Ct.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Chứng minh %(\\frac{\\mathrm{MD}}{\\mathrm{MC}}=\\frac{\\mathrm{HA}^{2}}{\\mathrm{HC}^{2}})%.",
+        "question_images": [],
+        "solution": "Hai tam giác %(M B C)% và %(M D B)% có %(M)% chung và %(M B C=M D B=\\frac{1}{2} s B B C)% nên đồng dạng.Suy ra %(\\frac{M D}{M B}=\\frac{M B}{M C}=\\frac{B D}{B C} \\Rightarrow \\frac{M D}{M C}=\\frac{M^{2}}{M C^{2}}=\\left(\\frac{B D}{B C}\\right)^{2})%<br>Lại có %(\\mathrm{CAH}=\\mathrm{CDB}=\\frac{1}{2} \\mathrm{~S} R B C(4))%.<br>Mà %(\\triangle \\mathrm{MCH})% đồng dạng với %(\\triangle \\mathrm{MOD})% nên %(\\mathrm{MHC}=\\mathrm{MDO})%.<br>Suy ra %(\\mathrm{AHC}=90^{\\circ}+\\mathrm{MHC}=90^{\\circ}+\\mathrm{CDO}=90^{\\circ}+\\frac{180^{\\circ}-\\mathrm{COD}}{2}=180^{\\circ}-\\frac{1}{2} \\mathrm{COD})% %(=\\frac{1}{2}\\left(360^{\\circ}-\\mathrm{COD}\\right)=\\frac{1}{2} \\mathrm{sdCAD}=\\mathrm{CBD})% (5).<br>Từ (4), (5) ta có hai tam giác %(\\mathrm{AHC})% và %(\\mathrm{DBC})% đồng dạng. Suy ra %(\\frac{\\mathrm{BD}}{\\mathrm{BC}}=\\frac{\\mathrm{HA}}{\\mathrm{HC}}(6))%. Từ (3) và (6) suy ra %(\\frac{\\mathrm{MD}}{\\mathrm{MC}}=\\frac{\\mathrm{HA}^{2}}{\\mathrm{HC}^{2}})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Cho a, b, c là các sô dương thay đôi và thóa mãn điêu kiện<br>\\[\\sqrt{\\mathrm{ab}}+\\sqrt{\\mathrm{bc}}+\\sqrt{\\mathrm{ac}}=1 .\\]<br>Tìm giá trị nhỏ nhất của biểu thức %(E=\\frac{a^{2}}{a+b}+\\frac{b^{2}}{b+c}+\\frac{c^{2}}{c+a})%.",
+        "question_images": [],
+        "solution": "Ta có %(\\frac{\\mathrm{a}^{2}}{\\mathrm{a}+\\mathrm{b}}+\\frac{\\mathrm{a}+\\mathrm{b}}{4} \\geq 2 \\sqrt{\\frac{\\mathrm{a}^{2}}{\\mathrm{a}+\\mathrm{b}} \\cdot \\frac{\\mathrm{a}+\\mathrm{b}}{4}}=\\mathrm{a})%.<br>Chứng minh tương tự ta có %(\\frac{\\mathrm{b}^{2}}{\\mathrm{~b}+\\mathrm{c}}+\\frac{\\mathrm{b}+\\mathrm{c}}{4} \\geq \\mathrm{b}, \\frac{\\mathrm{c}^{2}}{\\mathrm{c}+\\mathrm{a}}+\\frac{\\mathrm{c}+\\mathrm{a}}{4} \\geq \\mathrm{c})%.<br>Cộng các bất đẳng thức trên vế theo vế ta được<br>\\[\\begin{array}{l}\\frac{a^{2}}{a+b}+\\frac{b^{2}}{b+c}+\\frac{c^{2}}{c+a}+\\frac{a+b}{4}+\\frac{b+c}{4}+\\frac{c+a}{4} \\geq a+b+c \\\\Leftrightarrow \\frac{a^{2}}{a+b}+\\frac{b^{2}}{b+c}+\\frac{c^{2}}{c+a} \\geq \\frac{a+b+c}{2} \\\\text { Do } a+b \\geq 2 \\sqrt{a b}, b+c \\geq 2 \\sqrt{b c}, c+a \\geq 2 \\sqrt{c a} \\a+b+c \\geq \\sqrt{a b}+\\sqrt{b c}+\\sqrt{a c}=1 .\\end{array}\\]<br>Suy ra %(\\frac{\\mathrm{a}^{2}}{\\mathrm{a}+\\mathrm{b}}+\\frac{\\mathrm{b}^{2}}{\\mathrm{~b}+\\mathrm{c}}+\\frac{\\mathrm{c}^{2}}{\\mathrm{c}+\\mathrm{a}} \\geq \\frac{1}{2})%. Đẳng thức xảy ra khi %(\\mathrm{a}=\\mathrm{b}=\\mathrm{c}=\\frac{1}{3})%.<br>Vậy giá trị nhỏ nhất của %(\\mathrm{E})% là %(\\frac{1}{2})%, đạt được tại %(\\mathrm{a}=\\mathrm{b}=\\mathrm{c}=\\frac{1}{3})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các số nguyên dương %(n)% sao cho %(n^{2}+3^{n})% là một số chính phương.",
+        "question_images": [],
+        "solution": "Gọi %(m)% là số nguyên dương thỏa mãn %(n^{2}+3^{n}=m^{2})%. Khi đó %((m-n)(m+n)=3^{n})%.<br>Suy ra tồn tại số tự nhiên %(k)% sao cho %(m-n=3^{k})% và %(m+n=3^{n-k})%.Vì %(\\mathrm{m}-\\mathrm{n}\\lt \\mathrm{m}+\\mathrm{n})% nên %(\\mathrm{k}\\lt \\mathrm{n}-\\mathrm{k})%, do đó %(\\mathrm{n}-2 \\mathrm{k} \\geq 1)%.<br>Nếu<br>\\[\\mathrm{n}-2 \\mathrm{k}=1\\]<br>\\[2 \\mathrm{n}=(\\mathrm{m}+\\mathrm{n})-(\\mathrm{m}-\\mathrm{n})=3^{\\mathrm{n}-\\mathrm{k}}-3^{\\mathrm{k}}=3^{\\mathrm{k}}\\left(3^{\\mathrm{n}-2 \\mathrm{k}}-1\\right)=3^{\\mathrm{k}}\\left(3^{1}-1\\right)=2.3^{\\mathrm{k}} \\text {. }\\]<br>Vì vậy %(\\mathrm{n}=3^{\\mathrm{k}}=2 \\mathrm{k}+1)%.<br>+ Nếu %(\\mathrm{k}=0)% thì %(\\mathrm{n}=1)%.<br>+ Nếu %(\\mathrm{k}=1)% thì %(\\mathrm{n}=3)%.<br>+ Nếu %(\\mathrm{k} \\geq 2)% thì %(3^{\\mathrm{k}}-1=2\\left(3^{\\mathrm{k}-1}+3^{\\mathrm{k}-2}+\\cdots+3+1\\right)\\gt 2 \\mathrm{k}\\left({ }^{*}\\right))%.<br>Nếu %(\\mathrm{n}-2 \\mathrm{k}>1)% thì %(\\mathrm{k} \\leq \\mathrm{n}-\\mathrm{k}-2)%. Do đó %(3^{\\mathrm{k}} \\leq 3^{\\mathrm{n}-\\mathrm{k}-2})%.<br>Suy ra %(2 n=3^{n-k}-3^{k} \\geq 3^{n-k}-3^{n-k-2}=3^{n-k-2}\\left(3^{2}-1\\right)=8.3^{n-k-2})%.<br>Áp dụng (*), ta có %(3^{\\mathrm{n}-\\mathrm{k}-2} \\geq 1+2(\\mathrm{n}-\\mathrm{k}-2)=2 \\mathrm{n}-2 \\mathrm{k}-3)%.<br>Suy ra %(2 \\mathrm{n} \\geq 8(2 \\mathrm{n}-2 \\mathrm{k}-3) \\Leftrightarrow 8 \\mathrm{k}+12 \\geq 7 \\mathrm{n})%<br>.Mặt khác %(\\mathrm{n} \\geq 2 \\mathrm{k}+2)% nên %(7 \\mathrm{n} \\geq 14 \\mathrm{k}+14)%, mâu thuẫn.<br>Vậy %(\\mathrm{n}=1)% hoặc %(\\mathrm{n}=3)%.",
+        "question_type": "essay"
+    }
+]

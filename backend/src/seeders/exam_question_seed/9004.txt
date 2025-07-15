@@ -1,0 +1,32 @@
+[
+    {
+        "title": "1 ",
+        "point": 7.0,
+        "content": "<strong>GIA CÔNG SẢN PHẨM</strong><br>Một cơ sở sản xuất hàng thủ công mỹ nghệ vừa nhận được một đơn đặt hàng gia công %(\\mathbf{n})% sản phẩm. Với số lượng đặt hàng lớn như vậy, cơ sở đã huy động hết toàn bộ công nhân bắt tay vào làm ngay. Tuy nhiên đây lại là một sản phẩm mới nên ngày đầu tiên cơ sở chỉ làm ra được %(\\mathbf{k})% sản phẩm. Sang ngày thứ hai, các công nhân đã thành thạo hơn nên số sản phẩm làm ra được nhiều gấp đôi ngày thứ nhất. Và cứ như vậy, năng suất của ngày hôm sau lại cao gấp đôi ngày hôm trước.<br>Yêu cầu: Hãy cho biết cơ sở cần bao nhiêu ngày để hoàn thành hết %(\\mathbf{n})% sản phẩm?<br>Dữ liệu vào: Nhập từ bàn phím các số nguyên %(\\mathbf{n}, \\mathbf{k}(1 \\leq \\mathrm{n}, \\mathrm{k} \\leq 100000))%. Giả thiết dữ liệu được nhập đúng, không cần kiểm tra.<br>Kết quả ra: Xuất ra màn hình số ngày hoàn thành các sản phẩm theo đơn đặt hàng.<br>Giải thích:<br>- Ngày thứ nhất làm 2 sản phẩm (còn lại 9 sản phẩm).<br>- Ngày thứ hai làm 4 sản phẩm (tổng cộng là 6 , còn lại 5 sản phẩm).<br>- Ngày thứ ba có thể làm được 8 sản phẩm nhung chỉ làm 5 sản phẩm còn lại.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/231eda6f2d48f852c910468765fb4b2e.png"
+        ],
+        "solution": "<strong>GIA CÔNG SẢN PHẨM</strong><br>a. Thuật toán:<br>Dùng cấu trúc lặp tăng dần để đếm số ngày<br>b. Chương trình tham khảo:<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ca6025d143349db0d98c28ecf9153635.png\" srcset=\"https://docdn.giainhanh.io/media/test/b858025441606f2c3b8c32980dabfd75.png 245w, https://docdn.giainhanh.io/media/test/6fc87f672e484c670ca3da4e3c030068.png 500w\" width=\"500\"/><br>c. Bộ TEST:<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/daa2f34eaf389a49862bb5a6412d37c7.png\" srcset=\"https://docdn.giainhanh.io/media/test/0d64c450c632d5a47272e883e3547090.png 238w, https://docdn.giainhanh.io/media/test/ff97d80ba5091a84dd763dd25b096a01.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 6.0,
+        "content": "<strong>DÃY KÝ TỰ SỐ</strong><br>Bạn Nam rất yêu thích lập trình, nhất là khi gặp những bài toán khó thì bạn ấy càng cố gắng để giải cho xong. Có một lần, trong lúc suy nghĩ về một bài toán, tay bạn ấy lại gõ ngẫu nhiên các phím trên bàn phím, đến khi nhìn lại thì trên màn hình đã là một dãy ký tự. Kỳ lạ thay, mặc dù là gõ ngẫu nhiên không nhìn bàn phím nhưng có những lúc bạn ấy chỉ toàn gõ vào các phím số.<br>Yêu cầu: Cho xâu ký tự S là dãy các ký tự mà bạn Nam đã gõ vào, hãy cho biết bạn Nam đã gõ liên tiếp các phím số nhiều nhất là bao nhiêu lần?<br>Dữ liệu vào: Cho từ tệp văn bản có tên BL2.INP gồm một dòng chứa xâu ký tự S (độ dài xâu không quá 250 ký tự).<br>Kết quả: Ghi ra tệp văn bản có tên BL2.OUT có dạng:<br>- Dòng đầu ghi số lần nhiều nhất mà bạn Nam gõ liên tiếp các phím số.<br>- Nếu có ký tự số được gõ vào thì dòng thứ hai ghi dãy các số mà bạn nam gõ liên tiếp nhiều nhất đó. Nếu có nhiều dãy cùng có số lần gõ nhiều nhất như nhau thì in ra dãy đầu tiên.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/349035ccdf15c02fea1c1b276d1288dc.png"
+        ],
+        "solution": "a. Thuật toán:<br>Bài toán thuộc dạng tìm từ dài nhất trong xâu<br>b. Chương trình tham khảo:<br>c. Bộ TEST:<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/2d8df51331efce8f4e4c1dda210f2403.png\" srcset=\"https://docdn.giainhanh.io/media/test/d9a3f3f3fa35e00354bb869ebac8312b.png 128w, https://docdn.giainhanh.io/media/test/1b3ac6d1839fa120d96381e3508d1ddd.png 411w\" width=\"411\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0ca4f1746947e78ba9dbfcd1c0485264.png\" srcset=\"https://docdn.giainhanh.io/media/test/f49c7649d135154ac256ff2ddae6ffde.png 245w, https://docdn.giainhanh.io/media/test/024bd95c5bc9ca3084ea444989563223.png 500w, https://docdn.giainhanh.io/media/test/31fbfa4b952e1cfcc3d5da8f58dab520.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 7.0,
+        "content": "<strong>CHẠY TIẾP SỨC</strong><br>Trong kỳ thi hội khỏe phù đồng cấp huyện vừa qua có n vận động viên tham gia chạy ngắn, các vận động viên được đánh số báo danh từ 1 đến %(n)%. Kết quả thời gian chạy của vận động viên thứ i là %(t_{i})% (miligiây). Để chuẩn bị cho môn chạy tiếp sức trong kỳ thi hội khỏe phù đổng cấp tỉnh, ban huấn luyện muốn chọn ra 4 vận động viên chạy nhanh nhất trong số n vận động viên này.<br>Yêu cầu: Hãy cho biết số báo danh của 4 vận động viên được chọn. Biết rằng không có hai vận động viên nào có cùng thành tích.<br>Dữ liệu vào: Cho từ tệp văn bản có tên BL3.INP có dạng như sau:<br>- Dòng đầu tiên ghi số nguyên %(\\mathbf{n}(4 \\leq \\mathbf{n} \\leq 1000))%<br>- n dòng tiếp theo, dòng thứ i ghi số nguyên dương %(\\mathrm{t}_{\\mathrm{i}})% là thời gian chạy của vận động viên thứ %(i\\left(t_{\\mathbf{i}} \\leq 30000, \\mathrm{i}=1 . . \\mathrm{n}\\right))%<br>Kết quả: Ghi ra tệp văn bản có tên BL3.OUT gồm một dòng ghi 4 số nguyên tương ứng là 4 số báo danh của 4 vận động viên được chọn (không cần ghi theo thứ tự).<br>Các số trên cùng một dòng ghi cách nhau ít nhất một dấu cách.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/9dee0d36aada401bb788ef49b14f5007.png"
+        ],
+        "solution": "a. Thuật toán:<br>Sắp xếp dãy t theo thứ tự tăng dần và chọn 4 phần tử đầu. Lưu ý khi sắp xếp lưu lại số báo danh của vận động viên.<br>b. Chương trình tham khảo:<br>c. Bộ TEST: Các dữ liệu nhập xem trong file BL3.INP<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/27b49e72fb1bcf324fc6aaeca009af69.png\" srcset=\"https://docdn.giainhanh.io/media/test/7841ec0febeeacec630205d2223a5b82.png 122w, https://docdn.giainhanh.io/media/test/f465c4edce8d78aa8a0d5718b1066224.png 390w\" width=\"390\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3a649a27c558b876f26db14728e10379.png\" srcset=\"https://docdn.giainhanh.io/media/test/8edd2cdbb8a7b65a9e8f69cf0c2e32ef.png 245w, https://docdn.giainhanh.io/media/test/8d47736c32d5f6f28700eacc58579a8c.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

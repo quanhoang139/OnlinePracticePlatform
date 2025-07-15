@@ -1,0 +1,96 @@
+[
+    {
+        "title": "Câu 1",
+        "group_content": "Cho biểu thức %(P=\\frac{x^{2}+x}{x^{2}-2 x+1}:\\left(\\frac{x+1}{x}+\\frac{1}{x-1}+\\frac{2-x^{2}}{x^{2}-x}\\right))%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Rút gọn biểu thức P",
+        "question_images": [],
+        "solution": "Rút gọn biểu thức %(P)%ĐKXĐ: %(x \\neq 0, x \\neq \\pm 1)%<br>\\[\\begin{array}{l}P=\\frac{x^{2}+x}{x^{2}-2 x+1}:\\left(\\frac{x+1}{x}+\\frac{1}{x-1}+\\frac{2-x^{2}}{x^{2}-x}\\right)=\\frac{x(x+1)}{(x-1)^{2}}: \\frac{(x+1)(x-1)+x+2-x^{2}}{x(x-1)} \\\\=\\frac{x(x+1)}{(x-1)^{2}} \\cdot \\frac{x(x-1)}{x+1}=\\frac{x^{2}}{x-1}\\end{array}\\]<br>Vậy %(P=\\frac{x^{2}}{x-1})% với %(x \\neq 0, x \\neq \\pm 1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Tìm các giá trị nguyên của %(x)% để P nhận giá trị nguyên",
+        "question_images": [],
+        "solution": "Ta có : %(P=\\frac{x^{2}}{x-1}=\\frac{x^{2}-1+1}{x-1}=x+1+\\frac{1}{x-1} \\in Z \\Leftrightarrow \\frac{1}{x-1} \\in Z \\Leftrightarrow x-1 \\in\\{1 ;-1\\} \\Rightarrow x \\in\\{0 ; 2\\})% Kết hợp với điều kiện ta được %(x=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 2.0,
+        "content": "Tìm phần dư của phép chia đa thức %(P(x))% cho %((x-1)\\left(x^{3}+1\\right))% biết %(P(x))% chia cho %((x-1))% thì dư %(1, P(x))% chia cho %(\\left(x^{3}+1\\right))% thì dư %(x^{2}+x+1)%",
+        "question_images": [],
+        "solution": "Đặt %(P(x)=(x-1)\\left(x^{3}+1\\right) Q(x)+a x^{3}+b x^{2}+c x+d)% với mọi %(x)%<br>Vì %(a x^{3}+b x^{2}+c x+d=a\\left(x^{3}+1\\right)+b x^{2}+c x+d-a)%<br>Từ %(P(x))% chia cho %(x^{3}+1)% dư %(x^{2}+x+1)%<br>Suy ra %(b x^{2}+c x+d-a=x^{2}+x+1 \\Rightarrow b=1 ; c=1 ; d-a=1)%<br>Lại có %(P(x))% chia cho %(x-1)% dư %(1 \\Rightarrow P(1)=1)% hay %(a+b+c+d=1 \\Rightarrow a+d=-1 \\Rightarrow d=0, a=-1)%<br>Vậy đa thức dư là %(-x^{3}+x^{2}+x)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 2.0,
+        "content": "Giải phương trình %(:(x-3)(x-5)(x-6)(x-10)-24 x^{2}=0)%",
+        "question_images": [],
+        "solution": "Với %(x=0)%. Không thỏa mãn phương trình đã cho<br>Với %(x \\neq 0)%, ta có : %(\\left(x^{2}-11 x+30\\right)\\left(x^{2}-13 x+30\\right)-24 x^{2}=0)%%(\\Leftrightarrow\\left(x-11+\\frac{30}{x}\\right)\\left(x-13+\\frac{30}{x}\\right)-24=0)%.<br>Đặt %(y=x+\\frac{30}{x})%, khi đó ta có phương trình :<br>\\[\\begin{array}{l}(y-11)(y-13)-24=0 \\Leftrightarrow\\left[\\begin{array} { l } { y = 7 } \\\\{ y = 1 7 }\\end{array} ( \\mathrm { tm } ) \\Rightarrow \\left[\\begin{array}{l}x+\\frac{30}{x}=7 \\x+\\frac{30}{x}=17\\end{array}\\right.\\right. \\\\Leftrightarrow\\left[\\begin{array}{l}x^{2}-7 x+30=0 \\Leftrightarrow\\left(x-\\frac{7}{2}\\right)^{2}+\\frac{49}{4}=0(\\mathrm{ktm}) \\x^{2}-17 x+30=0 \\Leftrightarrow(x-2)(x-15)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=2 \\x=15\\end{array}(\\text { tm })\\right.\\end{array}\\right.\\end{array}\\]<br>Vậy %(x \\in\\{2 ; 15\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các tam giác vuông có số đo các cạnh là số nguyên dương và số đo diện tích bằng số đo chu vi",
+        "question_images": [],
+        "solution": "Gọi số đo 3 cạnh của tam giác là %(x, y, z)% trong đó %(z)% là cạnh huyền %(\\left(x, y, z \\in Z^{+}\\right))%<br>Ta có : %(x y=2(x+y+z)(1))% (theo đề bài)<br>Và %(x^{2}+y^{2}=z^{2}(2))% (theo định lý Pytago)<br>Từ %((2): z^{2}=(x+y)^{2}-2 x y)% thay (1) vào ta được :<br>\\[\\begin{array}{l}z^{2}=(x+y)^{2}-4(x+y+z) \\Leftrightarrow z^{2}+4 z=(x+y)^{2}-4(x+y) \\\\Leftrightarrow z^{2}+4 z+4=(x+y)^{2}-4(x+y)+4 \\Leftrightarrow(z+2)^{2}=(x+y-2)^{2} \\\\Leftrightarrow z+2=x+y-2 \\Leftrightarrow z=x+y-4\\end{array}\\]<br>Thay vào (1) ta được :<br>\\[\\begin{array}{l}x y=2(x+y+x+y-4) \\Leftrightarrow x y-4 x-4 y=-8 \\Leftrightarrow x y-4 x-4 y+16=8 \\\\Leftrightarrow(x-4)(y-4)=8=1.8=2 \\cdot 4=(-1) \\cdot(-8)=(-2) .(-4)\\end{array}\\]<br>Vậy %((x ; y ; z)=\\{(5 ; 12 ; 13),(12 ; 5 ; 13),(6 ; 8 ; 10),(8 ; 6 ; 10)\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 2.0,
+        "content": "Cho số nguyên tố %(p\\gt 3)% và hai số nguyên dương %(a, b)% sao cho %(p^{2}+a^{2}=b^{2})%. Chứng minh %(a)% chia hết cho 12",
+        "question_images": [],
+        "solution": "Ta có %(p^{2}+a^{2}=b^{2} \\Leftrightarrow p^{2}=b^{2}-a^{2}=(b-a)(b+a) \\Rightarrow b+a)% và %(b-a)% phải là ước dương của %(p^{2})%<br>Mà do %(p)% nguyên tố nên ước dương của %(p^{2})% là %(1 ; p ; p^{2})%<br>Do %(b+a\\gt b-a)% với mọi %(a, b)% nguyên dương và %(p)% nguyên tố lớn hơn 3 nên không xảy ra trường hợp %(b+a=b-a=p)%<br>Do đó %(\\left\\{\\begin{array}{l}b+a=p^{2} \\\\ b-a=1\\end{array} \\Rightarrow(b+a)-(b-a)=p^{2}-1 \\Rightarrow 2 a=p^{2}-1=(p-1)(p+1)\\right.)%<br>Mà p nguyên tố và %(p>3)%, suy ra p lẻ nên %(p-1, p+1)% là hai số chẵn liên tiếp . Suy ra %((p+1)(p-1): 8 \\Rightarrow 2 a: 8 \\Rightarrow a: 4(1))%<br>Lại có %(p-1 ; p ; p+1)% là 3 số tự nhiên liên tiếp nên trong đó phải có 1 số chia hết cho 3 mà %(p)% là số nguyên tố lớn hơn 3 nên %(p)% không chia hết cho %(3 \\Rightarrow p-1)% hoặc %(p+1)% phải chia hết cho %(3 \\Rightarrow(p+1)(p-1) \\vdots 3 \\Rightarrow 2 a \\vdots 3 \\Rightarrow a \\vdots 3(2))%<br>Từ (1) và (2) kết hợp với %(U C L N(3 ; 4)=1 \\Rightarrow a: 12)%<br>Vậy với nguyên tố %(p\\gt 3)% và 2 số nguyên dương %(a, b)% sao cho %(p^{2}+a^{2}=b^{2})% thì %(a: 12)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6",
+        "group_content": "Cho điểm %(M)% di động trên đoạn thẳng %(A B(M \\neq A, B))%. Trên cùng một nửa mặt phẳng bờ %(A B)% vẽ các hình vuông %(A M C D, B M E F)% và giao điểm hai đường chéo mỗi hình vuông lần lượt là %(O, O^{\\prime})%. Gọi %(H)% là giao điểm của %(A E)% và BC",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng %(A E \\perp B C)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\triangle A M E=\\triangle C M B(\\text { c.g.c }) \\Rightarrow \\angle E A M=\\angle B C M \\\\ \\text { Mà } \\angle B C M+\\angle M B C=90^{\\circ} \\Rightarrow \\angle E A M+\\angle M B C=90^{\\circ} \\Rightarrow \\angle A H B=90^{\\circ} \\text {. Vậy } A E \\perp B C\\end{array})%<br><img alt=\"Screenshot 2024-07-15 111150.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/bccacf2477e9251fcfa9eda8f051c95e.png\" srcset=\"https://docdn.giainhanh.io/media/test/9930a614e8d24310153a116cfd465474.png 225w, https://docdn.giainhanh.io/media/test/1c3d3ee1020b9bb8c98bb2e10eb138a4.png 500w, https://docdn.giainhanh.io/media/test/e18427b00ad30274b56c4261cde43786.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Gọi %(I)% là giao của %(A C)% và %(B E)%. Chứng minh %(I)% là trung điểm của đoạn thẳng %(D F)% và ba điểm %(H, D, F)% thẳng hàng",
+        "question_images": [],
+        "solution": "Từ gt suy ra %(\\angle D M A=\\angle I B A=45^{\\circ} \\Rightarrow D M / / I B)%. Tương tự có %(A C / / M F)%.<br>Từ đó %(O M O^{\\prime} I)% là hình bình hành nên %(O I=O^{\\prime} M)% và %(O I / / O^{\\prime} M \\Rightarrow O I=O^{\\prime} F)% và %(O I / / M F)% nên %(O I F O^{\\prime})% là hình bình hành .<br>Do đó %(I F / / O O^{\\prime}, I F=O O^{\\prime}(1))%<br>Chứng minh tương tự ta cũng có %(D I / / O O^{\\prime})% và %(D I=O O^{\\prime}(2))%<br>Từ (1) và (2) suy ra bốn điểm %(D, I, F)% thẳng hàng và %(D I=I F)% nên I là trung điểm của đoạn thẳng %(D F)%<br>Gọi %(O)% là giao điểm của %(A C, D M . \\triangle A H C\\left(\\angle H=90^{\\circ}\\right))% và HO là đường trung tuyến<br>%(\\Rightarrow H O=\\frac{1}{2} A C=\\frac{1}{2} D M \\Rightarrow \\triangle D H M)% vuông tại H . Do đó %(\\Rightarrow \\angle D H M=90^{\\circ})%<br>Chứng minh tương tự ta có %(\\angle M H F=90^{\\circ})%<br>Do đó %(\\angle D H M+\\angle M H F=180^{\\circ})%.<br>Vậy ba điểm %(D, H, M)% thẳng hàng",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) Chứng minh rằng đường thẳng %(D F)% luôn đi qua một điểm cố định khi điểm %(M \\mathrm{di})% động trên đoạn thẳng %(A B)%",
+        "question_images": [],
+        "solution": "Vì %(I)% là trung điểm của %(D F)%.<br>Kẻ %(I K \\perp A B(K \\in A B) \\Rightarrow I K)% là đường trung bình của hình thang %(A B F D \\Rightarrow I K=\\frac{A D+B F}{2}=\\frac{A M+B M}{2}=\\frac{A B}{2})% (không đổi)<br>Do %(\\mathrm{A}, \\mathrm{B})% cố định nên K cố định, mà %(I K)% không đổi nên %(I)% cố định.<br>Vậy đường thẳng %(D F)% luôn đi qua một điểm cố định khi điểm M di động trên đoạn thẳng %(A B)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7 ",
+        "point": 2.0,
+        "content": "Cho các số dương %(a, b, c)% thỏa mãn %(a b c=1)%. Tìm giá trị lớn nhất của biểu thức %(S=\\frac{1}{(a+1)^{2}+b^{2}+1}+\\frac{1}{(b+1)^{2}+c^{2}+1}+\\frac{1}{(c+1)^{2}+a^{2}+1})%",
+        "question_images": [],
+        "solution": "Ta có %((a+1)^{2}+b^{2}+1=\\left(a^{2}+b^{2}\\right)+2 a+2 \\geq 2 a b+2 a+2=2(a b+a+1)\\gt 0)%<br>%(\\Rightarrow \\frac{1}{(a+1)^{2}+b^{2}+1} \\leq \\frac{1}{2(a b+a+1)})%. Dấu bằng xảy ra khi %(a=b)%<br>Tương tự ta có : %(\\frac{1}{(b+1)^{2}+c^{2}+1} \\leq \\frac{1}{2(b c+b+1)} ; \\frac{1}{(c+1)^{2}+a^{2}+1} \\leq \\frac{1}{2(a c+c+1)})%<br>Từ đó suy ra :<br>\\[\\begin{array}{l}S \\leq \\frac{1}{2(a b+a+1)}+\\frac{1}{2(b c+b+1)}+\\frac{1}{2(c a+c+1)}=\\frac{1}{2}\\left(\\frac{b c}{a b c b+a b c+b c}+\\frac{1}{b c+b+1}+\\frac{b}{a b c+b c+b}\\right) \\\\Rightarrow S \\leq \\frac{1}{2}\\left(\\frac{b c}{b c+b+1}+\\frac{1}{b c+b+1}+\\frac{b}{b c+b+1}\\right)=\\frac{1}{2} \\Rightarrow S \\leq \\frac{1}{2}\\end{array}\\]<br>Dấu bằng xảy ra khi %(a=b=c=1)%.<br>Vậy %(\\operatorname{Max} S=\\frac{1}{2} \\Leftrightarrow a=b=c=1)%",
+        "question_type": "essay"
+    }
+]

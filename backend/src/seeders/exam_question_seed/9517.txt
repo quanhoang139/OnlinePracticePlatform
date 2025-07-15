@@ -1,0 +1,97 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Cho ba số %(a, b, c)% khác nhau đôi một và khác 0, đồng thời thỏa mãn điều kiện %(\\frac{a+b}{c}=\\frac{b+c}{a}=\\frac{c+a}{b})%. Tính giá trị của biểu thức: %(A=\\left(1+\\frac{a}{b}\\right)\\left(1+\\frac{b}{c}\\right)\\left(1+\\frac{c}{a}\\right))%.",
+        "question_images": [],
+        "solution": "+) Nếu %(a+b+c=0)% thì %(a+b=-c, b+c=-a, c+a=-b)%<br>Do đó, %(\\frac{a+b}{c}=\\frac{b+c}{a}=\\frac{c+a}{b}=-1 \\Rightarrow A=\\frac{a+b}{c} .\\frac{b+c}{a} . \\frac{c+a}{b}=-1)%<br>+) Nếu %(a+b+c \\neq 0)% thì %(\\frac{a+b}{c}=\\frac{b+c}{a}=\\frac{c+a}{b}=\\frac{a+b+b+c+c+a}{c+a+b}=2)%<br>Do đó, %(a+b=2 c, b+c=2 a, c+a=2 b \\Rightarrow a=b=c)%, trái giả thiết<br>Vậy %(A=-1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(\\frac{1}{x^{2}}+\\frac{3}{x+1}-\\frac{2}{(x+1)^{2}}=2)%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\neq 0 ; x \\neq-1)%<br>\\[\\begin{array}{l}\\frac{1}{x^{2}}+\\frac{3}{x+1}-\\frac{2}{(x+1)^{2}}=2 \\Leftrightarrow 1-\\frac{1}{x^{2}}+1-\\frac{3}{x+1}+\\frac{2}{(x+1)^{2}}=0 \\\\Leftrightarrow \\frac{x^{2}-1}{x^{2}}+\\frac{(x+1)^{2}-3(x+1)+2}{(x+1)^{2}}=0 \\\\Leftrightarrow \\frac{(x+1)(x-1)}{x^{2}}+\\frac{x(x-1)}{(x+1)^{2}}=0 \\Leftrightarrow(x-1)\\left[\\frac{x+1}{x^{2}}+\\frac{x}{(x+1)^{2}}\\right]=0 \\\\Leftrightarrow(x-1)\\left[(x+1)^{3}+x^{3}\\right]=0 \\Leftrightarrow\\left[\\begin{array}{l}x=1 \\x=\\frac{-1}{2}\\end{array}~(\\mathrm{tm})\\right. \\\\end{array}\\]<br>Vậy tập nghiệm của phương trình là %(S=\\left\\{1 ; \\frac{-1}{2}\\right\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Cho hai đa thức %(P(x)=x^{5}-5 x^{3}+4 x+1, Q(x)=2 x^{2}+x-1)%. Gọi %(x_{1}, x_{2}, x_{3}, x_{4}, x_{5})% là các nghiệm của %(P(x))%. Tính giá trị của %(Q\\left(x_{1}\\right) . Q\\left(x_{2}\\right).Q\\left(x_{3}\\right) . Q\\left(x_{4}\\right) .Q\\left(x_{5}\\right))%",
+        "question_images": [],
+        "solution": "Ta có: %(P(x)=x^{5}-5 x^{3}+4 x+1=\\left(x-x_{1}\\right)\\left(x-x_{2}\\right)\\left(x-x_{3}\\right)\\left(x-x_{4}\\right)\\left(x-x_{5}\\right))%<br>\\[Q(x)=2\\left(\\frac{1}{2}-x\\right)(-1-x)\\]<br>Do đó: %(Q\\left(x_{1}\\right) .Q\\left(x_{2}\\right) . Q\\left(x_{3}\\right) .Q\\left(x_{4}\\right) .Q\\left(x_{5}\\right))%<br>\\[\\begin{array}{l}=2^{5} .\\left[\\left(\\frac{1}{2}-x_{1}\\right)\\left(\\frac{1}{2}-x_{2}\\right)\\left(\\frac{1}{2}-x_{3}\\right)\\left(\\frac{1}{2}-x_{4}\\right)\\left(\\frac{1}{2}-x^{5}\\right)\\right] \\\\times\\left[\\left(-1-x_{1}\\right)\\left(-1-x_{2}\\right)\\left(-1-x_{3}\\right)\\left(-1-x_{4}\\right)\\left(-1-x_{5}\\right)\\right] \\\\=32 P\\left(\\frac{1}{2}\\right) P(-1)=32.\\left(\\frac{1}{32}-\\frac{5}{8}+2+1\\right)(-1+5-4+1)=77\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các số nguyên dương %(n)% sao cho %(n^{2}+2)% là ước số của %(n^{6}+206)%.",
+        "question_images": [],
+        "solution": "%(n^{2}+2)% là ước số của %(n^{6}+206 \\Leftrightarrow \\frac{n^{6}+206}{n^{2}+2} \\in \\mathbb{Z} \\Leftrightarrow \\frac{n^{6}+8+198}{n^{2}+2} \\in \\mathbb{Z})%<br>\\[\\Leftrightarrow n^{4}+2 n^{2}+4+\\frac{198}{n^{2}+2} \\in \\mathbb{Z}\\]<br>Điều nảy xảy ra khi %(n^{2}+2)% là ước nguyên dương của %(198=2.3^{2} .11)% gồm:<br>\\[2 ; 3 ; 6 ; 9 ; 11 ; 18 ; 22 ; 33 ; 66 ; 99 ; 198\\]<br>Từ đó ta tìm được %(n \\in\\{1 ; 2 ; 3 ; 4 ; 8 ; 14\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là các số nguyên khác %(0, a \\neq c)% sao cho %(\\frac{a^{2}+b^{2}}{b^{2}+c^{2}}=\\frac{a}{c})%. Chứng minh rằng %(a^{2}+b^{2}+c^{2})% không phải là số nguyên tố.",
+        "question_images": [],
+        "solution": "Ta có: %(\\frac{a^{2}+b^{2}}{b^{2}+c^{2}}=\\frac{a}{c} \\Leftrightarrow(a-c)\\left(b^{2}-a c\\right)=0 \\Rightarrow b^{2}=a c)%<br>Mà %(a^{2}+b^{2}+c^{2}=a^{2}+a c+c^{2}=a^{2}+2 a c+c^{2}-b^{2}=(a+c)^{2}-b^{2}=(a+c+b)(a+c-b))%<br>Ta thấy %(a^{2}+b^{2}+c^{2}\\gt 3)% do đó nếu %(a^{2}+b^{2}+c^{2})% là các số nguyên tố thì xảy ra các trường hợp sau:<br>+)  %(a+c-b=1 ; a+c+b=a^{2}+b^{2}+c^{2} \\Rightarrow a^{2}+b^{2}+c^{2}=2 a+2 c-1)%<br>%(\\Rightarrow(a-1)^{2}+(c-1)^{2}+b^{2}=1 \\Rightarrow a=c=1, b= \\pm 1~(ktm))%<br>+)  %(a+c+b=1, a+c-b=a^{2}+b^{2}+c^{2} \\Rightarrow a^{2}+b^{2}+c^{2}=2 a+2 c-1)%<br>%(\\Rightarrow(a-1)^{2}+(c-1)^{2}+b^{2}=1 \\Rightarrow a=c=1, b= \\pm 1~(ktm))%<br>+)  %(a+c+b=-1, a+c-b=-\\left(a^{2}+b^{2}+c^{2}\\right) \\Rightarrow a^{2}+b^{2}+c^{2}=-2 a-2 c-1)%<br>\\[\\Rightarrow(a+1)^{2}+(c+1)^{2}+b^{2}=1 \\Rightarrow a=c=-1, b= \\pm 1~~(ktm)\\]<br>+)  %(a+c-b=-1, a+c+b=-\\left(a^{2}+b^{2}+c^{2}\\right) \\Rightarrow a^{2}+b^{2}+c^{2}=-2 a-2 c-1)%<br>%(\\Rightarrow(a+1)^{2}+(c+1)^{2}+b^{2}=1 \\Rightarrow a=c=-1, b= \\pm 1 ~(\\mathrm{ktm}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình vuông %(A B C D)%, gọi %(M)% là điểm bất kỳ trên cạnh %(B C)%. Trong nửa mặt phẳng bờ %(A B)% chứa %(C)%, dựng hình vuông %(A M H N)%. Qua %(M)% dựng đường thẳng %(d)% song song với %(A B, d)% cắt %(A H)% tại %(E)%. Đường thẳng %(A H)% cắt %(D C)% tại %(F)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng %(B M=N D)%.",
+        "question_images": [],
+        "solution": "+) Do %(A B C D)% là hình vuông %(\\Rightarrow \\widehat{A}_{1}+\\widehat{M A D}=90^{\\circ}~~~~~(1))%<br>+) Mà %(A M H N)% là hình vuông %(\\Rightarrow \\widehat{A_{2}}+\\widehat{M A D}=90^{\\circ}~~~~~(2))%<br>Từ (1), (2) suy ra %(\\widehat{A}_{1}=\\widehat{A_{2}})%<br>Do đó, %(\\triangle A N D=\\triangle A M B~(c.g.c)%  %() \\Rightarrow \\widehat{B}=\\widehat{D_{1}}=90^{\\circ})% và %(B M=N D)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/29411e1654a91721e45f4c28eebc7ddc.png\" srcset=\"https://docdn.giainhanh.io/media/test/ed81b3a9ca22d1eb9f6c631b1fb01930.png 198w, https://docdn.giainhanh.io/media/test/64d9f2175856dd66f8a16ac3e73e6ce3.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.25,
+        "content": "b) Tứ giác %(E M F N)% là hình gì?",
+        "question_images": [],
+        "solution": "+) Do %(A B C D)% là hình vuông<br>%(\\Rightarrow \\widehat{D_{2}}=90^{\\circ})%<br>%(\\Rightarrow \\widehat{N D C}=\\widehat{D_{1}}+\\widehat{D_{2}}=90^{\\circ}+90^{\\circ}=180^{\\circ} \\Rightarrow N, D, C)% thẳng hàng<br>+) Gọi %(O)% là giao điểm hai đường chéo %(A H, M N)% của hình vuông %(A M H N)%.<br>%(\\Rightarrow O)% là tâm đối xứng của hình vuông %(A M H N)%<br>%(\\Rightarrow A H)% là đường trung trực đoạn MN<br>+) Mà %(E, F \\in A H)%<br>\\[\\begin{array}{l}\\Rightarrow E N=E M \\text { và } F M=F N ~~~~~ \\text { (3) } \\\\triangle E O M=\\triangle F O N\\left(O M=O N ; \\widehat{N}_{1}=\\widehat{M}_{3}\\right) \\Rightarrow \\widehat{O}_{1}=\\widehat{O}_{2} \\Rightarrow E M=F N~~~~~(4)\\end{array}\\]<br>Từ (3), (4) %(\\Rightarrow E M=N E=N F=F M \\Rightarrow M E M F)% là hình thoi (5)",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.75,
+        "content": "c) Chứng minh chu vi tam giác %(M F C)% không đổi khi %(M)% thay đổi trên %(B C)%.",
+        "question_images": [],
+        "solution": "+) Từ (5) suy ra %(F M=F N=F D+D N)%<br>+) Mà %(D N=M B \\Rightarrow M F=D F+B M)%<br>+) Gọi chu vi tam giác %(M C F)% là %(p)% và cạnh hình vuông là %(a)%<br>+) Ta có: %(P=M C+C F+M F=M C+C F+B M+D F)% (vì %(M F=D F+M B)% )<br>\\[=(M C+M B)+(C F+F D)=B C+C D=a+a=2 a\\]<br>Do đó, chu vi tam giác %(M C F)% không đổi khi %(M)% thay đổi trên %(B C)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 3.0,
+        "content": "Cho tam giác %(A B C)% có %(\\widehat{B A C}=90^{\\circ}, \\widehat{A B C}=20^{\\circ})%. Các điểm %(E)% và %(F)% lần lượt nằm trên các cạnh %(A C, A B)% sao cho %(\\widehat{A B E}=10^{\\circ})% và %(\\widehat{A C F}=30^{\\circ})%. Tính %(\\widehat{C F E})%.",
+        "question_images": [],
+        "solution": "+) Xét %(\\triangle A B C)% có %(\\widehat{B A C}=90^{\\circ}, \\widehat{A B C}=20^{\\circ} \\Rightarrow \\widehat{A C B}=70^{\\circ})%<br>+) %(\\triangle A C F)% có: %(\\widehat{C A F}=90^{\\circ}, \\widehat{A C F}=30^{\\circ} \\Rightarrow F C=2 . A F)%<br>+) Gọi %(D)% là trung điểm của %(B C)% và %(G)% là điểm trên %(A B)% sao cho %(G D \\perp B C)%.<br>+) Khi đó, %(\\triangle A B C\\backsim\\triangle D B G \\Rightarrow \\frac{B D}{B G}=\\frac{B A}{B C})%<br>\\[\\widehat{G C B}=\\widehat{G B C}=20^{\\circ} \\Rightarrow \\widehat{G C F}=20^{\\circ}\\]<br>+) Do đó %(C G)% và %(B E)% lần lượt là tia phân giác của %(\\widehat{B C F})% và %(\\widehat{A B C})% nên:<br>\\[\\frac{F C}{F G}=\\frac{B C}{B G} ; \\frac{B A}{B C}=\\frac{A E}{E C}\\]<br>+) Do đó, %(\\frac{A F}{F G}=\\frac{\\frac{1}{2} F C}{F G}=\\frac{\\frac{1}{2} B C}{B G}=\\frac{B D}{B G}=\\frac{B A}{B C}=\\frac{A E}{E C} \\Rightarrow \\frac{A F}{F G}=\\frac{A E}{E C})%<br>Từ đó suy ra %(C G / / E F)% (Định lý Talet đảo)<br>\\[\\Rightarrow \\widehat{C F E}=\\widehat{G C F}=20^{\\circ}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ecffe5740967ccc42c69905f85f9a1fa.png\" srcset=\"https://docdn.giainhanh.io/media/test/911f05882891c2dc45c467b4e0247932.png 245w, https://docdn.giainhanh.io/media/test/d16bc7bd929a094c51c662ea2ff5e8f4.png 500w, https://docdn.giainhanh.io/media/test/70f8261b64d0ad4062e233d5c37b9b60.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.5,
+        "content": "Cho các số thực %(a, b, c \\geq 1)%. Chứng minh rằng:<br>\\[\\frac{1}{2 a-1}+\\frac{1}{2 b-1}+\\frac{1}{2 c-1}+3 \\geq \\frac{4}{a+b}+\\frac{4}{b+c}+\\frac{4}{c+a}\\]",
+        "question_images": [],
+        "solution": "Ta có: %((a-1)^{2} \\geq 0 \\Rightarrow a^{2} \\geq 2 a-1 \\Rightarrow a^{2} \\geq 2 a-1 \\Rightarrow \\frac{1}{2 a-1} \\geq \\frac{1}{a^{2}})% %(\\Rightarrow V T \\geq \\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}}+3)%<br>Ta lại có: %(\\frac{1}{a^{2}}+\\frac{1}{b^{2}} \\geq \\frac{2}{a b} \\geq \\frac{8}{(a+b)^{2}} ; \\frac{8}{(a+b)^{2}}+2 \\geq \\frac{8}{a+b} \\Rightarrow \\frac{1}{a^{2}}+\\frac{1}{b^{2}}+2 \\geq \\frac{8}{a+b})%<br>Tương tự ta có: %(\\frac{1}{b^{2}}+\\frac{1}{c^{2}}+2 \\geq \\frac{8}{b+c} ; \\frac{1}{a^{2}}+\\frac{1}{c^{2}}+2 \\geq \\frac{8}{a+c})%<br>Suy ra: %(\\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}}+3 \\geq \\frac{4}{a+b}+\\frac{4}{b+c}+\\frac{4}{a+c})%<br>Do vậy: %(\\frac{1}{2 a-1}+\\frac{1}{2 b-1}+\\frac{1}{2 c-1}+3 \\geq \\frac{4}{a+b}+\\frac{4}{b+c}+\\frac{4}{a+c})%<br>Dấu bằng xảy ra khi và chỉ khi %(a=b=c=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 1.5,
+        "content": "Cho hình vuông %(A B C D)% và 9 đường thẳng cùng có tính chất là mỗi đường thẳng chia hình vuông %(A B C D)% thành hai tứ giác có tỉ số diện tích bằng %(\\frac{2}{3})%. Chứng minh rằng có ít nhất 3 đường thẳng trong số đó cùng đi qua một điểm.",
+        "question_images": [],
+        "solution": "Các đường thẳng đã cho không thể cắt các cạnh kề nhau của hình vuông, bởi vì nếu thế chúng chia hình vuông thành một tam giác và ngũ giác (chứ không phải chia hình vuông thành hai tứ giác).<br>Do đó, mỗi đường thẳng (trong số chín đường thẳng) đều cắt hai cạnh đối của hình vuông và không đi qua một đỉnh nào của hình vuông cả.<br>Giả sử một đường thẳng cắt hai cạnh đối %(B C)% và %(A D)% tại các điểm %(M)% và %(N)%.<br>Ta có: %(\\frac{S_{A B M N}}{S_{M C N D}}=\\frac{2}{3} \\Leftrightarrow \\frac{\\frac{1}{2} \\cdot A B \\cdot(B M+A N)}{\\frac{1}{2} C D \\cdot(M C+N D)}=\\frac{2}{3} \\Leftrightarrow \\frac{E J}{J F}=\\frac{2}{3})%(ở đây %(E)% và %(F)% là các trung điểm của %(A B)% và %(C D)% tương ứng)<br>Gọi %(E, F, P, Q)% tương ứng là các trung điểm của %(A B, C D, B C, A D)%.<br>Gọi %(J_{1}, J_{2}, J_{3}, J_{4})% là các điểm sao cho %(J_{1}, J_{2})% nằm trên %(E F, J_{3}, J_{4})% nằm trên %(P Q)% và thỏa mãn:<br>\\[\\frac{E J_{1}}{J_{1} F}=\\frac{F J_{2}}{J_{2} F}=\\frac{P J_{3}}{J_{3} Q}=\\frac{Q J_{4}}{J_{4} P}=\\frac{2}{3}\\]<br>Khi đó từ đó lập luận trên ta suy ra mỗi đường thẳng có tính chất thỏa mãn yêu cầu của đề bài phải đi qua một trong 4 điểm %(J_{1}, J_{2}, J_{3}, J_{4})% nói trên.<br>Vì có 9 đường thẳng, nên theo nguyên lý Dirichle phải tồn tại ít nhất một trong 4 điểm %(J_{1}, J_{2}, J_{3}, J_{4})% sao cho nó có ít nhất ba trong 9 đường thẳng đã cho đi qua.<br>Vậy có ít nhất 3 đường thẳng trong 9 đường thẳng đã cho đi qua một điểm.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9060949173a41cab98de47957f54a647.png\" srcset=\"https://docdn.giainhanh.io/media/test/d32b6f1af2d856d323e5bf146542be81.png 186w, https://docdn.giainhanh.io/media/test/571be6bab8b8a2d2688a51a77295eb33.png 500w\" width=\"500\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/94e6cdd006326d6018a75f0c1e846b16.png\" srcset=\"https://docdn.giainhanh.io/media/test/d6cb9320e7da40b14317b795d821fc21.png 165w, https://docdn.giainhanh.io/media/test/1fda5978f9e43aa87153bb04de8191e7.png 500w\" width=\"500\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/74ef4f2dfa34f128b2b7e837dc0c65d8.png\" srcset=\"https://docdn.giainhanh.io/media/test/dc597948415d9fe50693d4386d353b48.png 172w, https://docdn.giainhanh.io/media/test/ef1b8f5db4161163a4058c66446eb72b.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

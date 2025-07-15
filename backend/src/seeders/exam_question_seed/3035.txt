@@ -1,0 +1,73 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Tính giá trị biêu thức: %(\\mathrm{A}=)%<br>\\[\\frac{1}{\\sqrt{1}+\\sqrt{2}}+\\frac{1}{\\sqrt{2}+\\sqrt{3}}+\\cdots+\\frac{1}{\\sqrt{24}+\\sqrt{25}} .\\]",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Ta co: } \\quad \\mathrm{A}=\\frac{1-\\sqrt{2}}{-1}+\\frac{\\sqrt{2}-\\sqrt{3}}{-1}+\\ldots+\\frac{\\sqrt{24}-\\sqrt{25}}{-1} \\\\ =-1+\\sqrt{2}-\\sqrt{2}+\\sqrt{3}-\\sqrt{3}+\\ldots+\\sqrt{25}=-1+5=4\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho các số khác không a, b, c. Tính giá trị của biểu thức:<br>\\[\\mathrm{M}=\\mathrm{x}^{2011}+\\mathrm{y}^{2011}+\\mathrm{z}^{2011}\\]<br>Biết %(x, y, z)% thoả mãn điều kiện: %(\\frac{x^{2}+y^{2}+z^{2}}{a^{2}+b^{2}+c^{2}}=\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}+\\frac{z^{2}}{c^{2}})%",
+        "question_images": [],
+        "solution": "Từ giả thiết suy ra:<br>\\[\\begin{array}{l}\\left(\\frac{x^{2}}{a^{2}}-\\frac{x^{2}}{a^{2}+b^{2}+c^{2}}\\right)+\\left(\\frac{y^{2}}{b^{2}}-\\frac{y^{2}}{a^{2}+b^{2}+c^{2}}\\right)+\\left(\\frac{z^{2}}{c^{2}}-\\frac{z^{2}}{a^{2}+b^{2}+c^{2}}\\right)=0 \\\\Leftrightarrow x^{2}\\left(\\frac{1}{a^{2}}-\\frac{1}{a^{2}+b^{2}+c^{2}}\\right)+y^{2}\\left(\\frac{1}{b^{2}}-\\frac{1}{a^{2}+b^{2}+c^{2}}\\right)+z^{2}\\left(\\frac{1}{c^{2}}-\\frac{1}{a^{2}+b^{2}+c^{2}}\\right)=0\\end{array}\\]<br>Do %(\\frac{1}{\\mathrm{a}^{2}}-\\frac{1}{\\mathrm{a}^{2}+\\mathrm{b}^{2}+\\mathrm{c}^{2}}\\gt 0 ; \\frac{1}{\\mathrm{~b}^{2}}-\\frac{1}{\\mathrm{a}^{2}+\\mathrm{b}^{2}+\\mathrm{c}^{2}}>0 ; \\frac{1}{\\mathrm{c}^{2}}-\\frac{1}{\\mathrm{a}^{2}+\\mathrm{b}^{2}+\\mathrm{c}^{2}}>0)%Nên từ %(\\left(^{*}\\right))% suy ra %(x=y=z=0)%, do đó %(M=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng với %(\\mathrm{a}\\gt \\frac{1}{8})% thì số sau đây là một số nguyên dương.<br>\\[x=\\sqrt[3]{a+\\frac{a+1}{3} \\sqrt{\\frac{8 a-1}{3}}}+\\sqrt[3]{a-\\frac{a+1}{3} \\sqrt{\\frac{8 a-1}{3}}} .\\]",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text {  } x^{3}=2 a+3 x \\cdot \\sqrt[3]{a^{2}-\\left(\\frac{a+1}{3}\\right)^{2}\\left(\\frac{8 a-1}{3}\\right)} \\\\Leftrightarrow x^{3}=2 a+3 x \\cdot \\frac{\\sqrt[3]{(1-2 a)^{3}}}{3} \\Leftrightarrow x^{3}=2 a+x(1-2 a) \\\\Leftrightarrow x^{3}+(2 a-1) x-2 a=0 \\Leftrightarrow(x-1)\\left(x^{2}+x+2 a\\right)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x-1=0 \\\\left.x^{2}+x+2 a=0 \\text { (vô nghiệm do } a\\gt \\frac{1}{8}\\right)\\end{array} \\Leftrightarrow x=1\\right.\\end{array}\\]<br>nên %(x)% là một số nguyên dương",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Cho a, b, %(c\\gt 0)% thoả mãn: %(\\frac{1}{1+a}+\\frac{35}{35+2 b} \\leq \\frac{4 c}{4 c+57})%. Tìm giá trị nhỏ nhất a.b.c.",
+        "question_images": [],
+        "solution": "Ta có: %(\\frac{4 c}{4 c+57} \\geq \\frac{1}{1+a}+\\frac{35}{35+2 b} \\geq 2 \\cdot \\sqrt{\\frac{35}{(1+a)(2 b+35)}}\\gt 0)% (1)<br>Mặt khác %(\\frac{1}{1+\\mathrm{a}} \\leq \\frac{4 \\mathrm{c}}{4 \\mathrm{c}+57}-\\frac{35}{35+2 \\mathrm{~b}} \\Leftrightarrow \\frac{1}{1+\\mathrm{a}}-\\frac{4 \\mathrm{c}}{4 \\mathrm{c}+57} \\leq \\frac{35}{35+2 \\mathrm{~b}})%<br>\\[\\begin{array}{l}\\Leftrightarrow \\frac{1}{1+a}-\\frac{4 c}{4 c+57}+1 \\leq 1-\\frac{35}{35+2 b}=\\frac{2 b}{35+2 b} \\\\Leftrightarrow \\frac{2 b}{35+2 b} \\geq \\frac{1}{1+a}+\\frac{57}{4 c+57} \\geq 2 \\cdot \\sqrt{\\frac{57}{(1+a)(4 c+57)}}\\gt 0\\end{array}\\]<br>Ta có: %(1-\\frac{1}{1+\\mathrm{a}} \\geq 1-\\frac{4 \\mathrm{c}}{4 \\mathrm{c}+57}+\\frac{35}{35+2 \\mathrm{~b}})%<br>\\[\\Leftrightarrow \\frac{\\mathrm{a}}{1+\\mathrm{a}} \\geq \\frac{57}{4 \\mathrm{c}+57}+\\frac{35}{35+2 \\mathrm{~b}} \\geq 2 \\cdot \\sqrt{\\frac{35.57}{(4 \\mathrm{c}+57)(35+2 \\mathrm{~b})}}>0\\]<br>Từ (1), (2), (3) ta có:<br>\\[\\frac{8 a b c}{(1+a)(4 c+57)(2 b+35)} \\geq 8 \\cdot \\frac{35.57}{(1+a)(2 b+35)(4 c+57)}\\]<br>Do đó %(a b c \\geq 35.57=1995)%.<br>Dấu \"=\" xảy ra khi và chỉ khi %(\\mathrm{a}=2, \\mathrm{~b}=35)% và %(\\mathrm{c}=\\frac{57}{2})%.<br>Vậy %(\\min (a b c)=1995)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Giả sử a, b, c, d, A, B, C, D là những số dương và %(\\frac{\\mathrm{a}}{\\mathrm{A}}=\\frac{\\mathrm{b}}{\\mathrm{B}}=\\frac{\\mathrm{c}}{\\mathrm{C}}=\\frac{\\mathrm{d}}{\\mathrm{D}})%. Chứng minh rằng:<br>\\[\\sqrt{\\mathrm{aA}}+\\sqrt{\\mathrm{bB}}+\\sqrt{\\mathrm{cC}}+\\sqrt{\\mathrm{dD}}=\\sqrt{(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}+\\mathrm{d})(\\mathrm{A}+\\mathrm{B}+\\mathrm{C}+\\mathrm{D})}\\]",
+        "question_images": [],
+        "solution": "%(\\left . \\begin{matrix} \\text{  Dat } t = \\frac{A}{a} = \\frac{B}{b} = \\frac{C}{c} = \\frac{D}{d} \\Rightarrow A = t a \\text{,} B = t b \\text{,} C = t c \\text{,} D = t d \\text{. } \\\\ t = \\frac{A + B + C + D}{a + b + c + d} \\\\ \\text{ Vi vay } \\sqrt{a} A + \\sqrt{b} B + \\sqrt{c} C + \\sqrt{d} D = \\sqrt{a^{2} t} + \\sqrt{b^{2} t} + \\sqrt{c^{2} t} + \\sqrt{d^{2} t} \\\\ = \\left( a + b + c + d \\right ) \\sqrt{t} = \\left( a + b + c + d \\right ) \\sqrt{\\frac{A + B + C + D}{a + b + c + d}} \\\\ = \\sqrt{\\left( a + b + c + d \\right ) \\left( A + B + C + D \\right )} \\end{matrix} \\right .)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho tam giác %(A B C)% có ba góc nhọn. Gọi %(M, N, P, Q)% là bốn đỉnh của một hình chữ nhật M và %(\\mathrm{N})% nằm trên cạnh %(\\mathrm{BC}, \\mathrm{P})% nằm trên cạnh %(\\mathrm{AC})% và %(\\mathrm{Q})% nằm trên cạnh %(\\mathrm{AB})% ).",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "Chứng minh rằng: Diện tích hình chữ nhật %(\\mathrm{MNPQ})% có giá trị lớn nhất khi %(\\mathrm{PQ})% đi qua trung điểm của đường cao %(\\mathrm{AH})%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" class=\"image_resized\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f21d2c2828e626501f044fd0fca1ec94.png\" srcset=\"https://docdn.giainhanh.io/media/test/9d066a48128810767162b6f26c195ad7.png 245w, https://docdn.giainhanh.io/media/test/6d9fb196821e7bd76737485ffa837a07.png 500w, https://docdn.giainhanh.io/media/test/f87d8fcb8975f54c53c01650f64585d5.png 750w\" style=\"width:34.28%;\" width=\"750\"/><br>a) Xét %(\\triangle \\mathrm{ABC})% có %(\\mathrm{PQ} / / \\mathrm{BC} \\Rightarrow \\frac{\\mathrm{AQ}}{\\mathrm{AB}}=\\frac{\\mathrm{QP}}{\\mathrm{BC}})%<br>Xét %(\\Delta \\mathrm{BAH})% có %(\\mathrm{QM} / / \\mathrm{AH} \\Rightarrow \\frac{\\mathrm{BQ}}{\\mathrm{BA}}=\\frac{\\mathrm{QM}}{\\mathrm{AH}})%<br>Cộng từng vế ta có:<br>\\[\\begin{array}{l}\\frac{\\mathrm{AQ}}{\\mathrm{AB}}+\\frac{\\mathrm{BQ}}{\\mathrm{AB}}=\\frac{\\mathrm{QP}}{\\mathrm{BC}}+\\frac{\\mathrm{QM}}{\\mathrm{AH}} \\Rightarrow 1=\\frac{\\mathrm{QP}}{\\mathrm{BC}}+\\frac{\\mathrm{QM}}{\\mathrm{AH}} \\\\Rightarrow 1=\\left(\\frac{\\mathrm{QP}}{\\mathrm{BC}}+\\frac{\\mathrm{QM}}{\\mathrm{AH}}\\right)^{2} \\geq 4 \\frac{\\mathrm{QP}}{\\mathrm{BC}} \\cdot \\frac{\\mathrm{QM}}{\\mathrm{AH}}=\\frac{2 \\mathrm{~S}_{\\mathrm{MNPQ}}}{\\mathrm{S}_{\\mathrm{ABC}}} \\\\Rightarrow \\mathrm{S}_{\\mathrm{MNPQ}} \\leq \\frac{\\mathrm{S}_{\\mathrm{ABC}}}{2} . \\\\max _{\\mathrm{MNPQ}}=\\frac{\\mathrm{S}_{\\mathrm{BBC}}}{2} \\text { khi } \\frac{\\mathrm{QP}}{\\mathrm{BC}}=\\frac{\\mathrm{QM}}{\\mathrm{AH}}=\\frac{1}{2} \\Leftrightarrow \\mathrm{QP}=\\frac{\\mathrm{BC}}{2}\\end{array}\\]<br>Tức là khi %(\\mathrm{PQ})% là đường trung bình của %(\\triangle \\mathrm{ABC})%, khi đó %(\\mathrm{PQ})% đi qua trung điểm %(\\mathrm{AH})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "Giả sử %(\\mathrm{AH}=\\mathrm{BC})%. Chứng minh răng, mọi hình chữ nhật %(\\mathrm{MNPQ})% đêu có chu vi băng nhau",
+        "question_images": [],
+        "solution": "b) Vì %(1=\\frac{\\mathrm{QP}}{\\mathrm{BC}}+\\frac{\\mathrm{QM}}{\\mathrm{AH}})% mà %(\\mathrm{BC}=\\mathrm{AH} \\Rightarrow 1=\\frac{\\mathrm{QP}+\\mathrm{QM}}{\\mathrm{BC}} \\Leftrightarrow \\mathrm{QP}+\\mathrm{QM}=\\mathrm{BC})%<br>Do đó chu vi %((\\mathrm{MNPQ})=2 \\mathrm{BC})% (không đổi)",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.5,
+        "content": "Cho tam giác %(\\mathrm{ABC})% vuông cân ở %(\\mathrm{A})%, đường trung tuyến %(\\mathrm{BM})%. Gọi %(\\mathrm{D})% là hình chiếu của %(\\mathrm{C})% trên tia %(\\mathrm{BM}, \\mathrm{H})% là hình chiếu của %(\\mathrm{D})% trên %(\\mathrm{AC})%. Chứng minh rằng %(\\mathrm{AH}=3 \\mathrm{HD})%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/42fc5a1d72b2f116502e82aa3ae8c91d.png\" srcset=\"https://docdn.giainhanh.io/media/test/10d7843c072d3dc7a70abf7c10ec245e.png 166w\" width=\"166\"/><br>%(\\triangle \\mathrm{HCD})% đồng dạng với %(\\Delta \\mathrm{ABM})% (g.g) mà %(\\mathrm{AB}=2 \\mathrm{AM})% nên %(\\mathrm{HC}=2 \\mathrm{HD})%.<br>Đặt %(\\mathrm{HD}=\\mathrm{x})% thì %(\\mathrm{HC}=2 \\mathrm{x})%.<br>Ta có:%(\\mathrm{DH}^{2}=\\mathrm{HM} . \\mathrm{HC})% hay %(\\mathrm{x}^{2}=\\mathrm{HM} .2 \\mathrm{x})%%(\\Rightarrow \\mathrm{HM}=0,5 \\mathrm{x} ; \\mathrm{MC}=2,5 \\mathrm{x} ; \\mathrm{AM}=2,5 \\mathrm{x} ; \\mathrm{AH}=3 \\mathrm{x})%.<br>Vậy %(\\mathrm{AH}=3 \\mathrm{HD})%.",
+        "question_type": "essay"
+    }
+]

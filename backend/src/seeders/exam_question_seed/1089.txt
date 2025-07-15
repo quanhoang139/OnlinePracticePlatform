@@ -1,0 +1,87 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Giải phương trình<br>\\[2 x+1+2 \\sqrt{4 x^{2}+6 x}=4 \\sqrt{5 x-x^{2}}\\]",
+        "question_images": [],
+        "solution": "Điều kiện: %(0 \\leq x\\lt 5)%. Ta biến đổi phương trình thành<br>\\[x+2 \\sqrt{x} \\sqrt{4 x+6}+4 x+6=4 x+4 \\sqrt{x} \\sqrt{5-x}+5-x\\]<br>Sử dụng hằng đẳng thức, ta thu được<br>\\[(\\sqrt{x}+\\sqrt{4 x+6})^{2}=(2 \\sqrt{x}+\\sqrt{5-x})^{2}\\]<br>Suy %(\\mathrm{ra} \\sqrt{x}+\\sqrt{4 x+6}=2 \\sqrt{x}+\\sqrt{5-x})% (do từng vế đều không âm), hay<br>\\[\\sqrt{4 x+6}=\\sqrt{x}+\\sqrt{5-x}\\]<br>Bình phương hai vế của phương trình này ta có<br>\\[4 x+6=x+5-x+2 \\sqrt{x(5-x)}\\]<br>Hay %(4 x+1=2 \\sqrt{x(5-x)})%.<br>Tiếp tục hay Tiếp tục ta bình phương hai vế với điều kiện %(4 x+1 \\geq 0)% (đã thoả mãn được )<br>\\[16 x^{2}+8 x+1=4 x(5-x)\\]<br>Giải phương trình trên ta thu được %(x=\\frac{1}{2} v \\mathrm{a} x=\\frac{1}{10})% (đều thoả mãn điều kiện).<br>Vậy, phương trình đã cho có đúng hai nghiệm %(x=\\frac{1}{2}, x=\\frac{1}{10})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình<br>\\[\\left\\{\\begin{array}{c}x y(x+y)=30 \\x^{3}+y^{3}=30+\\sqrt{x+y+120}\\end{array}\\right.\\]",
+        "question_images": [],
+        "solution": "Đặt %(S=x+y, P=x y)%.<br>Ta có<br>\\[x^{3}+y^{3}=(x+y)^{3}-3 x y(x+y)=S^{3}-3 S P\\]<br>Khi đó hệ phương trình trở thành<br>\\[\\left\\{\\begin{array}{c}S P=30 \\S^{3}-3 S P=30+\\sqrt[3]{S+120}\\end{array}\\right.\\]<br>Thay %(\\mathrm{SP}=30)% vào phương trình thứ hai ta có<br>\\[S^{3}=120+\\sqrt[3]{S+120}\\]<br>hay %(S^{3}+S=(S+120)+\\sqrt[3]{S+120})% Ta nhận thấy<br>- Nếu %(S\\gt \\sqrt[3]{S+120})% thì %(S^{3}>S+120)%, suy ra<br>\\[S^{3}+S\\gt (S+120)+\\sqrt[3]{S+120}\\]<br>loại.<br>- Nếu %(S\\lt \\sqrt[3]{S+120})% thì %(S^{3}\\lt S+120)% suy ra<br>\\[S^{3}+S\\lt (S+120)+\\sqrt[3]{S+120}\\]<br>loại.<br>Như vậy ta có %(S=\\sqrt[3]{S+120})%, hay %(S^{3}-S-120 \\quad)%<br>Giải phương trình ta thu được %(S=5)% khi đó %(P=\\frac{30}{S}=6)%.<br>Vậy ta có<br>\\[\\left\\{\\begin{array}{c}x+y=5 \\x y=6\\end{array}\\right.\\]<br>Theo Vi-ét đảo thì x,y là hai nghiệm của phương trình<br>\\[x^{2}-5 x+6=0\\]<br>Giải phương trình ta được %((x, y)=(2,3))% hoặc %((3,2))%.<br>Vậy hệ đã cho có hai nghiệm %((x, y))% là %((2,3))% và %((3,2))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2:",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Tìm tât cả các cặp sô nguyên dương %((x ; y))% thỏa mãn<br>\\[4^{x}+\\left(1+3^{y}\\right)\\left(1+7^{y}\\right)=2^{x}\\left(3^{y}+7^{y}+2\\right)\\]",
+        "question_images": [],
+        "solution": "Cách 1. Ta có các biến đổi phương trình sau<br>\\[\\begin{array}{l}4^{x}+\\left(1+3^{y}\\right)\\left(1+7^{y}\\right)=2^{x}\\left(3^{y}+7^{y}+2\\right) \\\\Leftrightarrow 2^{2 x}-1+2+3^{y}+7^{y}+21^{y}=2^{x}\\left(3^{y}+7^{y}+2\\right) \\\\Leftrightarrow\\left(2^{x}-1\\right)\\left(3^{y}+7^{y}+1-2^{k}\\right)=21^{y}\\end{array}\\]<br>Ta chứng minh %(\\operatorname{UCLN}\\left(2^{x}-1 ; 3^{x}+7^{y}+1-2^{x}\\right)=1)%.<br>Thật vậy, nếu %(\\operatorname{UCLN}\\left(2^{x}-1 ; 3^{x}+7^{y}+1-2^{x}\\right)\\gt 1)% thì gọi %(\\mathrm{p})% là ước nguyên tố chung của %(2^{x}-)% %(1,3^{x}+7^{y}+1-2^{x})%.<br>Suy ra %(\\mathrm{p} \\mid 3^{y}+7^{y})%. chú ý là %(3^{y}+7^{y})% đều không chia hết cho 3,7 nên %(p \\neq 3,7)%.<br>Lại có %(\\mathrm{p} \\mid 21^{y})% nên %(\\mathrm{p} \\in\\{3,7\\})% mâu thuẫn.<br>Vậy %(\\operatorname{UCLN}\\left(2^{x}-1 ; 3^{x}+7^{y}+1-2^{x}\\right)=1)%<br>Ta xét hai trường hợp sau<br>- Nếu %(x)% là số chã̃n thì %(2^{x}-1)% chia hết cho 3 và %(3^{x}+7^{y}+1-2^{x})% chia 3 dư 1 .<br>Khi đó, từ phương trình (1) ta có<br>\\[\\left\\{\\begin{array}{c}2^{x}-1=3^{y} \\\\3^{x}+7^{y}+1-2^{x}=7^{y}\\end{array}\\right.\\]<br>Suy ra %(2^{x}=3^{y}+1)%, Chi ý là %(3^{y} \\equiv 1,3(\\bmod 8))% nên %(3^{y}+1)% không chia hết cho 8 .<br>Từ đó %(x=2)% và %(y=1)%.<br>Vậy %((\\mathrm{x}, \\mathrm{y})=(2,1))%<br>- Nếu %(\\mathrm{x})% là số lẻ thì %(2^{x}-1)% chia 3 dư 1 và %(3^{x}+7^{y}+1-2^{x})% chia hết cho 3.<br>Khi đó, từ phương trình (1) ta có<br>\\[\\left\\{\\begin{array}{c}2^{x}-1=7^{y} \\\\3^{x}+7^{y}+1-2^{x}=3^{y}\\end{array}\\right.\\]<br>Suy ra %(2^{x}=7^{y}+1)%.<br>Về phải chia 7 dư 1 nên về trái chia 7 dư 1 .<br>Từ đó %(x=)% %(3 k, k \\in N^{*})% và thay vào phương trình được<br>\\[\\left(2^{k}-1\\right)\\left(2^{2 k}+2^{k}+1\\right)=7^{y}\\]<br>\\[\\begin{array}{l}\\text { Vì UCLN }\\left(2^{k}-1 ; 2^{2 k}+2^{k}+1\\right) \\in\\{1,3\\} \\text { nên } \\operatorname{UCLN}\\left(2^{k}-1 ; 2^{2 k}+2^{k}+\\right. \\\\1)=1 \\text {. Vì } 2^{2 k}+2^{k}+1\\gt 1 \\text { nên } 2^{k}-1=1 \\text { suy ra } k=1 \\text { và } 7^{y}=7 \\text { nên } y=1 \\\\text { và } x=3 k=3 \\text {. Vậy }(x, y)=(3,1) \\text {. }\\end{array}\\]<br>Vậy tất cả các cặp số %((x, y))% thỏa mãn là %((2,1),(3,1))%.<br>Cách 2. Phương trình đã cho có thể viết lại thành<br>\\[\\left(2^{x}-7^{y}-1\\right)\\left(2^{x}-3^{y}-1\\right)=0\\]<br>Tới đây giải giống hai trường hợp ở trên.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Với x,y,z là những số thực dương, tìm giá trị nhỏ nhất của biếu thức:<br>\\[M=\\frac{x^{14}-x^{6}+3}{x^{2} y^{2}+z x+z y}+\\frac{y^{14}-y^{6}+3}{y^{2} z^{2}+x y+x z}+\\frac{z^{14}-z^{6}+3}{z^{2} x^{2}+y z+y x}\\]",
+        "question_images": [],
+        "solution": "Ta có %(3\\left(x^{14}-x^{6}+3\\right)=\\left(3 x^{14}+4\\right)-3 x^{6}+5 \\geq 7 x^{6}-3 x^{6}+5=4 x^{6}+5)% theo bất đẳng thức AM-GM.<br>Lại có cũng theo bất đẳng thức AM-GM, thì<br>\\[\\begin{array}{l}\\quad 4 x^{6}+5=\\left(x^{6}+x^{6}+1\\right)+\\left(x^{6}+x^{6}+1\\right)+3 \\geq 3\\left(x^{4}+x^{4}+1\\right) \\geq \\\\3\\left(x^{4}+2 x^{2}\\right)\\end{array}\\]<br>Suy ra<br>\\[M \\geq \\sum \\frac{x^{4}}{x^{2} y^{2}+x z+y z}+2 \\sum \\frac{x^{2}}{x^{2} y^{2}+x z+y z}\\]<br>và áp dụng bất đẳng thức cộng mẫu cho về trái, ta có<br>\\[M \\geq \\frac{\\left(x^{2}+y^{2}+z^{2}\\right)^{2}+2(x+y+z)^{2}}{x^{2} y^{2}+y^{2} z^{2}+z^{2} x^{2}+2(x y+y z+z x)} \\geq \\frac{3\\left(x^{2} y^{2}+y^{2} z^{2}+z^{2} x^{2}\\right)+6(x y+y z+z x)}{x^{2} y^{2}+y^{2} z^{2}+z^{2} x^{2}+2(x y+y z+z x)}=3\\]<br>Dấu bằng xảy ra khi và chỉ khi %(\\mathrm{x}=\\mathrm{y}=\\mathrm{z}=1)% Giá trị nhỏ nhất của %(\\mathrm{M})% là 3 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3:",
+        "group_content": "Cho tam giác ABC nhọn với AB < AC nội tiếp trong đường tròn (O) có tiếp tuyến tại A của (O) cắt BC ở T sao cho TB > BC Gọi P và E lần lượt là trung điểm của TA và TC.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng tứ giác APEB nội tiếp.",
+        "question_images": [],
+        "solution": "Vì AT là tiếp tuyến của nên ta được %(T A^{2}=T B . T C)%.<br>Như vậy, ta được %(T P \\cdot T A=\\frac{1}{2} T A^{2}=\\frac{1}{2} T B \\cdot T C=T B \\cdot T E)% và vì tứ giác APEB là tứ giác nội tiếp.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/178e013520b898ce14c8ed842712d3b3.png\" srcset=\"https://docdn.giainhanh.io/media/test/4e3b2b2adb50fcb801d7f47b52c9451e.png 245w, https://docdn.giainhanh.io/media/test/192cc518d49839816bbd8266659ad48e.png 500w, https://docdn.giainhanh.io/media/test/127b2c7862427fb3ab539a61f7ef0b17.png 750w, https://docdn.giainhanh.io/media/test/39698a5b14bb0136aa9d7d1522ae2c8a.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Gọi giao điểm thứ hai của %(\\mathrm{AE})% với %((\\mathrm{O}))% là %(\\mathrm{F})%. Láy %(\\mathrm{G})% thuộc %((\\mathrm{O}))% sao cho %(\\mathrm{FG})% song song với %(\\mathrm{AC})%. Chửng minh rằng %(\\widehat{A T G}=\\widehat{T A F})%.",
+        "question_images": [],
+        "solution": "Vì %(\\mathrm{EP})% là đường trung bình của %(\\Delta \\mathrm{TAC}, \\Delta \\mathrm{FGC})% là hình thang cân và %(\\mathrm{AT})% là tiếp tuyến của %((\\mathrm{O}))% nên ta thu được %(\\widehat{A E P}=\\widehat{E A C}=\\widehat{F A C}=\\widehat{G C A}=\\widehat{T A G})% và %(\\widehat{G A C}=)% %(\\widehat{F C A}=\\widehat{T A F}=\\widehat{P A E})%.<br>Như vậy, ta được %(\\triangle \\mathrm{AEP} \\sim \\triangle \\mathrm{ACG})% (g-g) và dẫn đến %(\\frac{A E}{A C}=\\frac{A P}{A G})% .<br>Lại chú ý %(A T=2 A P)% và %(A C=2 E P)%, ta thu được %(\\frac{A E}{E P}=\\frac{2 A E}{A C}=\\frac{2 A P}{A G}=\\frac{A T}{A G})%.<br>Kết hợp với %(\\widehat{A E P}=\\widehat{T A G})% ta thu được %(\\triangle A E P \\sim \\triangle T A G)% (C.G.C) và vì thế %(\\widehat{A T G}=\\widehat{T A F})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Gọi %(\\mathrm{H})% là trực tâm của tam giác %(\\mathrm{ABC}, \\mathrm{D})% là giao điểm của %(\\mathrm{AH})% và %(\\mathrm{BC})%. %(\\mathrm{M})% là trung điểm %(\\mathrm{BC} . \\mathrm{K})% đối xứng với %(\\mathrm{A})% qua %(\\mathrm{BC} . \\mathrm{N})% thuộc đường thẳng %(\\mathrm{AM})% sao cho %(\\mathrm{KN})% song song với HM. Lấy %(\\mathrm{S})% thuộc %(\\mathrm{BC})% sao cho %(\\mathrm{NS} \\perp \\mathrm{NK})%. Dựng %(\\mathrm{R})% thuộc tia %(\\mathrm{AK})% sao cho %(\\mathrm{AR} . \\mathrm{AH}=A D^{2})%. %(\\mathrm{Q})% là điểm sao cho %(\\mathrm{PQ} \\perp \\mathrm{AS})% và %(\\mathrm{SQ} \\perp \\mathrm{AO})%. Chứng minh rằng điểm đối xứng của %(\\mathrm{A})% qua %(\\mathrm{QR})% thuộc đường tròn đường kinh %(\\mathrm{DN})%.",
+        "question_images": [],
+        "solution": "ta xét bổ đề sau:%(\\triangle \\mathrm{ABC})%, đường thẳng qua %(\\mathrm{B})% vuông %(\\mathrm{AC})% cắt %(\\mathrm{AC},(\\mathrm{ABC}))% tại %(\\mathrm{F}, \\mathrm{D})%. %(\\mathrm{E})% thuộc %((\\mathrm{ABC}))% thoả %(\\mathrm{DE} / / \\mathrm{AC})%.<br>Đường thẳng qua %(\\mathrm{E})% vuông %(\\mathrm{EF})% cắt %(\\mathrm{BF})% tại %(\\mathrm{G})%, đg thẳng qua %(\\mathrm{B})% vuông %(A G)% cắt đường thẳng qua %(\\mathrm{C})% vuông %(\\mathrm{AD})% tại %(\\mathrm{H}, \\mathrm{L})% trung điểm %(\\mathrm{AH})%. %(\\mathrm{CMR} \\mathrm{AEL})% %(=90)%<br>Giải: %(\\mathrm{BH})% giao %(\\mathrm{EG})% tại %(\\mathrm{J})% khi đó %(\\mathrm{J})% thuộc (BFE).<br>Mặt khác gọi %(\\mathrm{K})% trung điểm %(\\mathrm{BC})% thì %(\\mathrm{F}, \\mathrm{K}, \\mathrm{J})% thẳng do %(\\mathrm{BFK}=\\mathrm{ABE}=\\mathrm{BEJ}=\\mathrm{BFJ})%.<br>Mà do %(\\mathrm{FK})% vuông %(\\mathrm{AD})% vuông %(\\mathrm{CH})% nên %(\\mathrm{J})% là trung điểm %(\\mathrm{BH}=\\gt \\mathrm{JL} / / \\mathrm{AB})% nên %(\\mathrm{L})% thuộc %(\\mathrm{EG}=>\\mathrm{dpcm})%<br>Quay lại bài toán: Dựng hbh DKNG, DS' là đo kính của (ADG) khi đó %(\\mathrm{KS}^{\\prime} \\mathrm{D}=\\mathrm{AS} \\mathrm{D}=\\mathrm{AGD}=\\mathrm{DNK}=>\\mathrm{S})% trùng %(\\mathrm{S}^{\\prime})%.<br>%(\\mathrm{NG})% giao %(\\mathrm{BC})% tại %(\\mathrm{F}, \\mathrm{NE})% vuông %(\\mathrm{AD})% tại E. Khi đó A,F,E,G cùng thuộc 1 đg tròn ( %(\\mathrm{EF}=\\mathrm{DN}=\\mathrm{AG}))%<br>- Đường thẳng qua %(\\mathrm{E})% vuông %(\\mathrm{AF})% cắt đg thẳng qua %(\\mathrm{T})% vuông %(\\mathrm{AS})% tại %(\\mathrm{J})%.<br>Khi đó theo bổ đề, trung điểm %(Q^{\\prime})% của %(A J)% thuộc %(S G)% ( để ý %(T)% thuộc (AFGE) ).<br>Mà %(Q^{\\prime} P)% vuông %(\\mathrm{AS}=\\gt \\mathrm{Q}^{\\prime})% trùng %(\\mathrm{Q})%.<br>Hơn nữa biến đổi tỉ số cho ta %(\\mathrm{R})% là trung điểm %(\\mathrm{AE})% nên %(\\mathrm{QR})% // JE vuông %(\\mathrm{AF})% kết hợp thêm nếu cho %(\\mathrm{JE})% cắt %(\\mathrm{AF})% tại %(\\mathrm{A}^{\\prime})% thì %(\\mathrm{A}^{\\prime})% thuộc %((\\mathrm{EF}))% hay %(\\mathrm{A}^{\\prime})% thuộc (DN) nên ta có đpcm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 1.0,
+        "content": "Viết 100 số nguyên dương đầu tiên 1,2,...,100 vào một bảng ô vuông kích thước 10 * 10 một cách tuỳ ý sao cho mỗi ô vuông được viết đúng một số. Chứng minh rằng tồn tại hai ô kề nhau (hai ô có cạnh chung) mà hai số được viết ở hai ô này có hiệu lớn hơn hoặc bằng 10.",
+        "question_images": [],
+        "solution": "Cách 1.<br>Ta giải bài toán tổng quát: Điền các số %(1.2 \\ldots n^{2})% với %(\\mathrm{n}\\gt 1)% vào các ô vuông của bảng cỡn nn Khi đó tồn tại hai ô vuông kề nhau (chung cạnh) chứa hai số %(\\mathrm{x}, \\mathrm{y})% mà %(|\\mathrm{x}-\\mathrm{y}| \\geq \\mathrm{n})% Kí hiệu %(m_{k}, M_{k})% tương ứng là số nhỏ nhất và số lớn nhất của hàng thứ %(\\mathrm{k})% với %(\\mathrm{k}=1,2, \\ldots)%, n. Chú ý là %(m_{1}, m_{2}, \\ldots, m_{n}, M_{1}, M_{2}, \\ldots \\ldots, M_{n})% đôi một phân biệt.<br>Đặt<br>\\[\\mathrm{m}=\\max \\left(m_{1}, m_{2}, \\ldots, m_{n}\\right) \\text { và } \\mathrm{M}=\\min \\left(M_{1}, M_{2}, \\ldots \\ldots, M_{n}\\right) .\\]<br>Xét hai trường hợp- Nếu %(\\mathrm{m}\\lt \\mathrm{M})% thì ta có %(m_{k} \\leq m \\leq M_{k})% với mọi %(\\mathrm{k}=1,2, \\ldots)%, n.<br>Điều này suy ra với hàng %(\\mathrm{k})% bất kỷ thì tồn tại hai số %(a_{k} \\leq m\\lt b_{k})% và với mỗi hàng %(\\mathrm{k})% ta chọn cặp %(\\left(a_{k}, b_{k}\\right))% thuộc hai ô kề nhau ở hàng k. Vì %(b_{1}, b_{2}, \\ldots . b_{n})% lớn hơn %(\\mathrm{m})% và các số %(b_{1}, b_{2}, \\ldots . b_{n})% là đôi một phân biệt nên tồn tại %(\\mathrm{k} \\in)% %(\\{1,2, \\ldots, n\\})% sao cho %(b_{k} \\geq n+m)% và do đó<br>\\[b_{k}-a_{k} \\geq(m+n)-m=n \\text {. }\\]<br>- Nếu %(\\mathrm{m}\\gt \\mathrm{M})% thì gọi %(\\mathrm{i}, \\mathrm{j} \\in\\{1,2, \\ldots, \\mathrm{n}\\})% là các chỉ số sao cho %(m_{i}>\\mathrm{M}=M_{j})% Khi đó tại mỗi cột luôn tồn tại các số không vượt quá %(\\mathrm{M})% (ví dụ như số hàng j) và các số lớn hơn %(M)% (ví dụ như số ở hàng i). Khi đó với cột %(\\mathrm{k})% bất kỳ tồn tại %(a_{k}, b_{k})% sao cho %(a_{k} \\leq M\\lt b_{k})% và %(a_{k}, b_{k})% thuộc hai ô kề nhau của cột %(\\mathrm{k})%. Tương tự như trường hợp đầu tiên thì ta cũng có tồn tại %(\\mathrm{k} \\in\\{)% %(1,2, \\ldots, \\mathrm{n}\\})% mà %(b_{k} \\geq M+n)%. Suy ra<br>\\[b_{k}-a_{k} \\geq(M+n)-m=n .\\]<br>Trong mọi tình huống ta đều có điều phải chứng minh.<br>Cách 2. Phạm Việt Hưng Giả sử phản chứng, tồn tại cách điền để không tồn tại %(x, y)% như vậy. Ta lần lượt điền các số bắt đầu từ 1 vào bảng ô vuông, xét thời điểm đầu tiên mà cả %(n)% cột đều đã được điền số. Ta xét hai trường hợp sau:<br>- Nêu tồn tại cột nào đó đã được phủ hoàn toàn, ta sẽ đối vai trò của hàng và cột (xét thời điểm đầu tiên cả %(n)% hàng đều có số). Nếu khi đó lại tồn tại một hàng được phủ hoàn toàn, thì tức là hai thời điểm đang xét trùng nhau. Điều này là không thể vì ô vừa được thêm phải là ô cuối cùng của hàng và cột đó, xét thời điểm ngay trước đó cho ta tất cả các hàng đều đã được điền.<br>- Nếu không tồn tại cột đã phủ hoàn toàn, do mỗi cột đều có ô đã điền, ta có thể chọn ra ở cột thứ %(i)% được cặp ô %(A_{i}, B_{i} m a ̀ ~ A_{i})% được điền còn %(B_{i})% thì chưa.Cần có %(B_{i}-A_{i} \\leq n-1)% kéo theo %(B_{i} \\leq \\max \\left(A_{1}, A_{2}, \\ldots ., A_{n}\\right)+\\mathrm{n}-1, \\forall i)%<br>Mà các số từ 1 đến %(\\max \\left(A_{i}\\right))% đều đã được điền nên %(B_{i}\\gt \\max \\left(A_{i}\\right))%, vô lý do %(\\mathrm{n})% số %(B_{i})% phân biệt.<br>Các trường hợp cho ta giả sử sai và ta có điều phải chứng minh.",
+        "question_type": "essay"
+    }
+]

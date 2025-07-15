@@ -1,0 +1,127 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 1.5,
+        "content": "Cho %(\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}=1)% và %(\\frac{a}{x}+\\frac{b}{y}+\\frac{c}{z}=0)%. Chứng minh rằng: %(\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}+\\frac{z^{2}}{c^{2}}=1)%.",
+        "question_images": [],
+        "solution": "ĐK: %(x y z a b c \\neq 0)%.<br>Từ %(\\frac{a}{x}+\\frac{b}{y}+\\frac{c}{z}=0 \\Leftrightarrow \\frac{a y z+b x z+c x y}{x y z}=0 \\Leftrightarrow \\mathrm{ayz}+\\mathrm{bxz}+\\mathrm{cxy}=0)%<br>Ta có %(\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}=1 \\Leftrightarrow\\left(\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}\\right)^{2}=1 \\Leftrightarrow \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}+\\frac{z^{2}}{c^{2}}+2\\left(\\frac{x y}{a b}+\\frac{x z}{a c}+\\frac{y z}{b c}\\right)=1)%<br>\\[\\Leftrightarrow \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}+\\frac{z^{2}}{c^{2}}+2 \\frac{c x y+b x z+a y z}{a b c}=1 \\Leftrightarrow \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}+\\frac{z^{2}}{c^{2}}=1\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2:",
+        "group_content": "Cho biểu thức %(\\mathrm{P}=\\frac{2 x+2}{\\sqrt{x}}+\\frac{x \\sqrt{x}-1}{x-\\sqrt{x}}-\\frac{x \\sqrt{x}+1}{x+\\sqrt{x}})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Rút gọn P.",
+        "question_images": [],
+        "solution": "Điều kiện: %(x\\gt 0 ; x \\neq 1)%.<br>%(\\begin{array}{l}p=\\frac{2 x+2}{\\sqrt{x}}+\\frac{(\\sqrt{x}-1)(x+\\sqrt{x}+1)}{\\sqrt{x}(\\sqrt{x}-1)}-\\frac{(\\sqrt{x}+1)(x-\\sqrt{x}+1)}{\\sqrt{x}(\\sqrt{x}+1)} \\\\ P=\\frac{2 x+2}{\\sqrt{x}}+\\frac{x+\\sqrt{x}+1}{\\sqrt{x}}-\\frac{x-\\sqrt{x}+1}{\\sqrt{x}}=\\frac{2 x+2 \\sqrt{x}+2}{\\sqrt{x}}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Tìm giá trị nhỏ nhất của %(P)% khi %(x \\geq 4)%.",
+        "question_images": [],
+        "solution": "%(P=\\frac{2 x+2 \\sqrt{x}+2}{\\sqrt{x}}=\\left(\\frac{\\sqrt{x}}{2}+\\frac{2}{\\sqrt{x}}\\right)+\\frac{3}{2} \\sqrt{x}+2)%<br>Áp dụng AM-GM %(\\Rightarrow P \\geq 2 \\sqrt{\\frac{\\sqrt{x}}{2} \\cdot \\frac{2}{\\sqrt{x}}}+\\frac{3}{2} \\sqrt{4}+2=7)%<br>Dấu bằng xảy ra khi %(x=4)%. Vây GTNN của %(P=7)% khi %(x=4)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3:",
+        "group_content": "Cho phương trình: %(x^{2}-2 m x+m^{2}-m-6=0)% ( %(m)% là tham số).",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.5,
+        "content": "a) Tìm %(m)% để phương trình có hai nghiệm.",
+        "question_images": [],
+        "solution": "Phương trình: %(x^{2}-2 m x+m^{2}-m-6=0)% có hai nghiệm thì:<br>\\[\\Delta^{\\prime}=m^{2}-\\left(m^{2}-m-6\\right)=m+6 \\geq 0 \\Leftrightarrow m \\geq-6\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Với giá trị nào của %(m)% thì phương trình có hai nghiệm %(x_{1})% và %(x_{2})% sao cho %(\\left|x_{1}\\right|+\\left|x_{2}\\right|=8)%?",
+        "question_images": [],
+        "solution": "Theo hệ thức Vi-ét ta có: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=2 m \\\\ x_{1} x_{2}=m^{2}-m-6\\end{array}\\right.)%<br>Ta có<br>\\[\\begin{array}{l}\\left|x_{1}\\right|+\\left|x_{2}\\right|=8 \\Leftrightarrow x_{1}^{2}+x_{2}^{2}+2\\left|x_{1} x_{2}\\right|=64 \\\\Leftrightarrow\\left(x_{1}+x_{2}\\right)^{2}-2 x_{1} x_{2}+2\\left|x_{1} x_{2}\\right|=64\\end{array}\\]<br>Trường hợp 1:<br>Nếu %(x_{1})% và %(x_{2})% cùng dấu thì: %(x_{1} x_{2} \\geq 0 \\Leftrightarrow\\left\\{\\begin{array}{c}m \\geq-6 \\\\ m^{2}-m-6=(m+2)(m-3) \\geq 0\\end{array}\\right.)%<br>\\[\\Leftrightarrow\\left[\\begin{array}{l}-6 \\leq m \\leq-2 \\m \\geq 3\\end{array} \\quad(*)\\right.\\]<br>Khi đó %((1) \\Leftrightarrow\\left(x_{1}+x_{2}\\right)^{2}=64 \\Leftrightarrow 4 m^{2}=64 \\Leftrightarrow m= \\pm 4)% (thỏa mãn %((*))% ).<br>Trường hợp 2:<br>Nếu %(x_{1})% và %(x_{2})% trái dấu thì: %(x_{1} x_{2}\\lt 0 \\Leftrightarrow m^{2}-m-6=(m+2)(m-3)\\lt 0 \\Leftrightarrow-2\\lt m\\lt 3 \\quad)% (**)<br>Khi đó %((1) \\Leftrightarrow\\left(x_{1}+x_{2}\\right)^{2}-4 x_{1} x_{2}=64 \\Leftrightarrow 4 m^{2}-4\\left(m^{2}-m-6\\right)=64)%%(\\Leftrightarrow m+6=16 \\Leftrightarrow m=10)% (không thỏa mãn điều kiện %((* *))%.<br>Kết luận: %(m= \\pm 4)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x^{3}+x y+x=2 x^{2} y+2 y^{2}+2 y \\\\ x+1+\\sqrt{4 y^{2}-4 x+1}=3 \\sqrt{2 y}\\end{array}\\right.)% .",
+        "question_images": [],
+        "solution": "\\[\\left\\{\\begin{array}{l}x^{3}+x y+x=2 x^{2} y+2 y^{2}+2 y~~~(1) \\x+1+\\sqrt{4 y^{2}-4 x+1}=3 \\sqrt{2 y}~~~(2)\\end{array}\\right.\\]<br>Điều kiện: %(\\left\\{\\begin{array}{l}4 y^{2}-4 x+1 \\geq 0 \\\\ y \\geq 0\\end{array}\\right.)%<br>Ta có phương trình<br>\\[\\begin{array}{l}(1) \\Leftrightarrow x^{3}-2 x^{2} y+x y-2 y^{2}+x-2 y=0 \\Leftrightarrow(x-2 y)\\left(x^{2}+y+1\\right)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x=2 y \\x^{2}+y+1=0~~~(3)\\end{array}\\right.\\end{array}\\]<br>Dễ thấy (3) vô nghiệm do %(y \\geq 0)% suy ra %(x=2 y)%.<br>Thay vào (2) ta được %(x+1+\\sqrt{x^{2}-4 x+1}=3 \\sqrt{x}~~~(4))%<br>Từ (4) suy ra %(x \\geq 0)%<br>Xét %(x=0)% thay vào phương trình (4) ta thấy không thỏa mãn<br>Xét %(x\\gt 0)%, phương trình (4) tương đương %(\\sqrt{x}+\\frac{1}{\\sqrt{x}}+\\sqrt{x+\\frac{1}{x}-4}=3)%<br>Đặt %(t=\\sqrt{x}+\\frac{1}{\\sqrt{x}}(t \\geq 2) \\Rightarrow x+\\frac{1}{x}=t^{2}-2)%<br>Phương trình (4) trở thành %(t+\\sqrt{t^{2}-6}=3)%<br>\\[\\Leftrightarrow \\sqrt{t^{2}-6}=3-t \\Leftrightarrow\\left\\{\\begin{array} { l } { t \\leq 3 } \\\\{ t ^ { 2 } - 6 = t ^ { 2 } - 6 t + 9 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}t \\leq 3 \\t=\\frac{5}{2}\\end{array} \\Leftrightarrow t=\\frac{5}{2}\\right.\\right.\\]<br>Với %(t=\\frac{5}{2} \\Rightarrow \\sqrt{x}+\\frac{1}{\\sqrt{x}}=\\frac{5}{2} \\Leftrightarrow\\left[\\begin{array}{l}\\sqrt{x}=\\frac{1}{2} \\\\ \\sqrt{x}=2\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{1}{4} \\Rightarrow y=\\frac{1}{8} \\\\ x=4 \\Rightarrow y=2\\end{array}\\right.\\right.)%<br>Kết hợp điều kiện, hệ có hai nghiệm %(\\left(\\frac{1}{4} ; \\frac{1}{8}\\right) ;(4 ; 2))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 2.0,
+        "content": "Tìm các số tự nhiên %(x, y, z)% sao cho %(x^{2}+y^{2}+z^{2}+3\\lt x y+3 y+2 z)%",
+        "question_images": [],
+        "solution": "Từ giả thiết ta có<br>\\[\\begin{array}{l}x^{2}+y^{2}+z^{2}+3+1 \\leq x y+3 y+2 \\mathrm{z} \\Leftrightarrow x^{2}+y^{2}+z^{2}+4-x y-3 y-2 \\mathrm{z} \\leq 0 \\\\Leftrightarrow\\left(x^{2}-x y+\\frac{y^{2}}{4}\\right)+\\left(\\frac{3 y^{2}}{4}-3 y+3\\right)+\\left(z^{2}-2 \\mathrm{z}+1\\right) \\leq 0\\end{array}\\]<br>\\[\\Leftrightarrow\\left(x-\\frac{y}{2}\\right)^{2}+3\\left(\\frac{y}{2}-1\\right)^{2}+(z-1)^{2} \\leq 0 \\Leftrightarrow\\left\\{\\begin{array} { l } { x - \\frac { y } { 2 } = 0 } \\\\{ \\frac { y } { 2 } - 1 = 0 } \\\\{ z - 1 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=1 \\y=2 \\z=1\\end{array}\\right.\\right.\\]<br>Vậy có duy nhất bộ %(\\left\\{\\begin{array}{l}x=1 \\\\ y=2 \\\\ z=1\\end{array}\\right.)% thỏa mãn bài toán",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 2.0,
+        "content": "Cho ba số dương %(a, b, c)% thỏa mãn %(a+b+c=9)%. Tìm giá trị nhỏ nhất của biểu thức:<br>\\[P=\\frac{a}{\\sqrt{b^{3}+5 b^{2}-3 b+18}}+\\frac{b}{\\sqrt{c^{3}+5 c^{2}-3 c+18}}+\\frac{c}{\\sqrt{a^{3}+5 a^{2}-3 a+18}}\\]",
+        "question_images": [],
+        "solution": "Ta có %(\\sqrt{b^{3}+5 b^{2}-3 b+18}=\\sqrt{(b+6)\\left(b^{2}-b+3\\right)} \\leq \\frac{b+6+b^{2}-b+3}{2}=\\frac{b^{2}+9}{2})% %(\\Rightarrow \\frac{a}{\\sqrt{b^{3}+5 b^{2}-3 b+18}} \\geq \\frac{2 a}{b^{2}+9}(1))%<br>Tương tự ta có %(\\frac{b}{\\sqrt{c^{3}+5 c^{2}-3 c+18}} \\geq \\frac{2 b}{c^{2}+9}(2) ; \\frac{c}{\\sqrt{a^{3}+5 a^{2}-3 a+18}} \\geq \\frac{2 c}{a^{2}+9}(3))%<br>Từ %((1),(2),(3))% ta có %(P \\geq \\frac{2 a}{b^{2}+9}+\\frac{2 b}{c^{2}+9}+\\frac{2 c}{a^{2}+9})%<br>Mà %(\\frac{2 a}{b^{2}+9}=\\frac{1}{9}\\left(\\frac{2 \\mathrm{a}\\left(b^{2}+9\\right)-2 a b^{2}}{b^{2}+9}\\right)=\\frac{1}{9}\\left(2 \\mathrm{a}-\\frac{2 a b^{2}}{b^{2}+9}\\right) \\geq \\frac{1}{9}\\left(2 \\mathrm{a}-\\frac{2 a b^{2}}{6 b}\\right)=\\frac{1}{9}\\left(2 \\mathrm{a}-\\frac{a b}{3}\\right))%<br>Nên %(P \\geq \\frac{1}{9}\\left(2 \\mathrm{a}+2 b+2 c-\\frac{a b+b c+c a}{3}\\right)=\\frac{1}{9}\\left(18-\\frac{a b+b c+c a}{3}\\right))%<br>Lại có %(3(a b+b c+c a) \\leq(a+b+c)^{2} \\Rightarrow a b+b c+c a \\leq 27)%<br>Suy ra %(P \\geq \\frac{1}{9}\\left(18-\\frac{27}{3}\\right)=1)%.<br>Dấu bằng xảy ra %(\\Leftrightarrow\\left\\{\\begin{array}{l}b+6=b^{2}-b+3 \\\\ c+6=c^{2}-c+3 \\\\ a+6=a^{2}-a+3 \\\\ a+b+c=9 \\\\ a=b=c=3\\end{array} \\Leftrightarrow a=b=c=3\\right.)%.<br>Vậy giá trị nhỏ nhất của %(P)% bằng 1 đạt được khi %(a=b=c=3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7:",
+        "group_content": "Cho tam giác %(A B C)% vuông tại %(A(A B\\lt A C))% ngoại tiếp đường tròn tâm %(O)%. Gọi %(D, E, F)% lần lượt là tiếp điểm của %((O))% với các cạnh %(A B, A C, B C)%. Đường thẳng %(B O)% cắt các đường thẳng %(E F, D F)% lần lượt tại %(I, K)%. %(M)% là điểm di chuyển trên đoạn %(C E)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Tính số đo góc %(B I F)%.",
+        "question_images": [],
+        "solution": "Vì %(\\mathrm{BD}, \\mathrm{BF})% là các tiếp tuyến của %((\\mathrm{O}))% nên %(\\mathrm{OD} \\perp \\mathrm{BD} ; \\mathrm{OF} \\perp \\mathrm{BF})% và %(\\mathrm{BD}=\\mathrm{BF})%<br>Mà %(\\mathrm{OD}=\\mathrm{OF})% (vì %(\\mathrm{D}, \\mathrm{F})% thuộc đường tròn %((\\mathrm{O}))% ) nên %(\\mathrm{OB})% là trung trực của %(\\mathrm{DF})%<br>%(\\Rightarrow \\mathrm{OB} \\perp \\mathrm{DF})% tại %(\\mathrm{K} \\Rightarrow \\Delta \\mathrm{KIF})% vuông tại %(\\mathrm{K})%.<br>Chỉ ra tứ giác %(\\mathrm{ADOE})% là hình vuông %(\\Rightarrow\\gt \\overline{\\mathrm{DOE}}=90^{\\circ})%<br>Theo quan hệ giữa góc nội tiếp và góc ở tâm cho đường tròn %((\\mathrm{O}))%, ta có:%(\\widehat{\\mathrm{DFE}}=\\frac{1}{2} \\widehat{\\mathrm{DOE}}=\\frac{1}{2} \\cdot 90^{\\circ}=45^{\\circ})% hay %(\\widehat{\\mathrm{KFI}}=45^{\\circ})%<br>%(\\Rightarrow \\Delta \\mathrm{KIF})% vuông cân tại %(\\mathrm{K})%<br>%(\\Rightarrow \\widehat{\\mathrm{KIF}}=45^{\\circ})% hay %(\\widehat{\\mathrm{BIF}}=45^{\\circ})%. Vậy %(\\widehat{\\mathrm{BIF}}=45^{\\circ})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/24b37b2f09b76f17e00e6ccdd55ec619.png\" srcset=\"https://docdn.giainhanh.io/media/test/ff3d50b71bb2103cf13ed0ed01c8a53d.png 245w, https://docdn.giainhanh.io/media/test/68ba7984e8c1524d317d72f4bb848034.png 500w, https://docdn.giainhanh.io/media/test/336ac27070268ae9d4017b6a50b3c72e.png 750w, https://docdn.giainhanh.io/media/test/ca4662d7a75f89923495ab9cd4cfcd46.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Khi %(A M=A B)%, gọi %(H)% là giao điểm của %(B M)% và %(E F)%.Chứng minh rằng ba điểm %(A, O, H)% thẳng hàng.",
+        "question_images": [],
+        "solution": "Tứ giác %(\\mathrm{ADOE})% là hình vuông %(\\Rightarrow \\mathrm{AO})% là trung trực %(\\mathrm{DE})% (1)<br>Có %(\\mathrm{AB}=\\mathrm{AM})% nên tam giác %(\\mathrm{ABM})% vuông cân tại %(\\mathrm{A})%<br>%(\\Rightarrow \\widehat{A B M}=45^{\\circ})% hay %(\\widehat{D B H}=45^{\\circ})%<br>%(\\Rightarrow \\widehat{D B H}=45^{\\circ}=\\widehat{D F H})% ( theo ý %(\\mathbf{1})% )<br>%(\\Rightarrow \\mathrm{BDHF})% là tứ giác nội tiếp (2).<br>Thấy %(\\widehat{B D O}+\\widehat{B F O}=90^{\\circ}+90^{\\circ}=180^{\\circ})% nên %(\\mathrm{BDOF})% là tứ giác nội tiếp (3)<br>Từ %((2))% và %((3) \\Rightarrow 5)% điểm %(\\mathrm{B}, \\mathrm{D}, \\mathrm{O}, \\mathrm{H}, \\mathrm{F})% cùng nằm trên một đường tròn<br>suy ra %(\\widehat{B H O}=\\widehat{B F O}=90^{\\circ} \\Rightarrow \\mathrm{OH} \\perp \\mathrm{BM})%.<br>Mặt khác %(\\widehat{A D E}=45^{\\circ}=\\widehat{A B M})% và hai góc này đồng vị<br>nên %(\\mathrm{DE} / / \\mathrm{BM} \\Rightarrow \\mathrm{OH} \\perp \\mathrm{DE}(4))%<br>Từ (1) và %((4) \\Rightarrow \\mathrm{A}, \\mathrm{O}, \\mathrm{H})% thẳng hàng.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a468f49ee4944aae110b29d836a7c4aa.png\" srcset=\"https://docdn.giainhanh.io/media/test/2dc853d4af5452dfba3d925e9ce604f0.png 245w, https://docdn.giainhanh.io/media/test/ce774e113c8f850ef98093ea6c0ceef6.png 500w, https://docdn.giainhanh.io/media/test/704f9fd4f7277f7f4f5ca729b2dddf97.png 750w, https://docdn.giainhanh.io/media/test/d433527a26ccc898cb4dcd7d8e9e2c35.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) Gọi %(N)% là giao điểm của đường thẳng %(B M)% với cung nhỏ %(E F)% của %((O) ; P, Q)% lần lượt là hình chiếu của %(N)% trên các đường thẳng %(D E)% và %(D F)%. Xác định vị trí điểm %(M)% để độ dài đoạn thẳng %(P Q)% lớn nhất.",
+        "question_images": [],
+        "solution": "Vì %(\\widehat{D P N}+\\widehat{D Q N}=90^{\\circ}+90^{\\circ}=180^{\\circ})% nên %(\\mathrm{DPNQ})% là tứ giác nội tiếp<br>%(\\Rightarrow \\widehat{Q P N}=\\widehat{Q D N})% (vì cùng chắn cung %(\\mathrm{QN})% ) (5)<br>Mặt khác: tứ giác DENF nội tiếp (O) nên %(\\widehat{F D N}=\\widehat{F E N})% hay %(\\widehat{Q D N}=\\widehat{F E N})% (6)<br>Từ (5) và (6) ta có %(\\widehat{Q P N}=\\widehat{F E N})%<br>Tương tự ta có: %(\\widehat{E F N}=\\widehat{P Q N})%(8)<br>Từ (7) và (8) suy ra: %(\\triangle \\mathrm{NPQ} \\cap \\triangle \\mathrm{NEF})% (g.g)<br>\\[\\Rightarrow \\frac{\\mathrm{PQ}}{\\mathrm{EF}}=\\frac{\\mathrm{NQ}}{\\mathrm{NF}}\\]<br>Theo quan hệ đường vuông góc - đường xiên, ta có<br>\\[\\mathrm{NQ} \\leq \\mathrm{NF}=\\gt \\frac{\\mathrm{PQ}}{\\mathrm{EF}}=\\frac{\\mathrm{NQ}}{\\mathrm{NF}} \\leq 1\\]<br>%(\\Rightarrow \\mathrm{PQ} \\leq \\mathrm{EF})% không đổi (do %(\\mathrm{E}, \\mathrm{F})% cố định)<br>Dấu bằng xảy ra khi %(\\mathrm{Q} \\equiv \\mathrm{F} \\Leftrightarrow \\mathrm{NF} \\perp \\mathrm{DF} \\Leftrightarrow \\mathrm{D}, \\mathrm{O}, \\mathrm{N})% thẳng hàng.<br>Do vậy: %(\\mathrm{PQ}_{\\max }=\\mathrm{EF})% khi %(\\mathrm{M})% là giao điểm của %(\\mathrm{AC})% và %(\\mathrm{BN})%, với %(\\mathrm{N})% là điểm đối xứng với %(\\mathrm{D})% qua O.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7502d50979be33648c3b12197bac6542.png\" srcset=\"https://docdn.giainhanh.io/media/test/352bd524d407c5e0a0511676bdd7263f.png 245w, https://docdn.giainhanh.io/media/test/f2e907ed957b7f561ee9b72a26a0c2d3.png 500w, https://docdn.giainhanh.io/media/test/5904c22929834e5032cef68acb19c217.png 750w, https://docdn.giainhanh.io/media/test/8f0f6c8167b37007d9c24ad2bf3ba26c.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 1.0,
+        "content": "Cho 19 điềm trong đó không có 3 điềm nào thă̆ng hàng nằm trong một hình lục giác đều có cạnh bằng 1. Chứng minh rằng luôn tồn tại một tam giác có ít nhất một góc không lớn hơn %(45^{\\circ})% và nằm trong đường tròn có bán kính nhỏ hơn %(\\frac{3}{5})%.",
+        "question_images": [],
+        "solution": "Chia lục giác đê̂u có cạnh bẳng 1 thành 6 tam giác đểu có cạnh bằng 1 , có 19 điếm nằm trong lục giác đều nên theo nguyên lý Dirichlet có ít nhất một tam giác chứa 4 điểm trong 19 điểm đã cho. Dễ thấy 4 điểm này đều nằm trong đường tròn ngoại tiếp tam giác đều cạnh 1 có bán kính %(\\mathrm{R}=\\frac{\\sqrt{3}}{3}\\lt \\frac{3}{5})%.<br>Trường hợp 1: Giả sử 4 điếm đó là %(\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D})% tạo thành một tứ giác lồi (Hình 3.1), suy ra có ít nhất một góc nhỏ hơn hoặc bằng %(90^{\\circ})%; giả sử đó là %(\\widehat{B A \\mathrm{D}} \\leq 90^{\\circ} \\Rightarrow \\widehat{B A C}+\\widehat{C A D} \\leq 90^{\\circ})% suy ra trong hai góc %(\\widehat{B A C}, \\widehat{C A D})% có ít nhất một góc nhỏ hơn hoặc bằng %(45^{\\circ})%. Giả sử %(\\widehat{B A C} \\leq 45^{\\circ})% suy ra tam giác %(\\mathrm{ABC})% thỏa mãn có một góc không lớn hơn %(45^{\\circ})%.<br>Trường hợp 2: Giả sử 4 điêm đó tạo thành các hình 3.2 và 3.3<br>+ ) Nếu %(\\widehat{B D C} \\geq 90^{\\circ} \\Rightarrow \\widehat{C B D}+\\widehat{B C D} \\leq 90^{\\circ})% thì một trong hai góc %(\\widehat{C B D}, \\widehat{B C D})% có số đo không lớn hơn %(45^{\\circ})%. Giả sử %(\\widehat{C B \\mathrm{D}} \\leq 45^{\\circ})% suy ra tam giác %(\\mathrm{BCD})% thỏa mãn có một góc không lớn hơn %(45^{\\circ})%.<br>+) Nếu %(\\widehat{B C D}\\lt 90^{\\circ} \\Rightarrow \\widehat{B A D}\\lt 90^{\\circ})% thì trong hai góc %(\\widehat{B A C}, \\widehat{C A D})% có một góc không lớn hơn %(45^{\\circ})%. Giả sử %(\\widehat{B A C} \\leq 45^{\\circ})% suy tam giác %(\\mathrm{ABC})% thỏa mãn có một góc không lớn hơn %(45^{\\circ})%. Như vậy từ các trường hợp trên ta suy ra đpcm.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a984b7163bab0aa0350ee355d54692c8.png\" srcset=\"https://docdn.giainhanh.io/media/test/03c4c6459c8ea9247eae9c0dc927ded1.png 245w, https://docdn.giainhanh.io/media/test/1cbb8dbbf9c8526618f9ec133cc4f130.png 500w, https://docdn.giainhanh.io/media/test/261fb74bc4d1df8709bbb1f2866f6f85.png 750w, https://docdn.giainhanh.io/media/test/61465ded45792fdb3b9186bf7bd926b0.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 9: ",
+        "point": 1.0,
+        "content": "Tìm các số tự nhiên %(a, b, c)% thỏa mãn %(1\\lt a\\lt b\\lt c)% và %(P=\\frac{a b c-1}{(a-1)(b-1)(c-1)})% nhận giá trị nguyên.",
+        "question_images": [],
+        "solution": "Ta có %(P=\\frac{a b c-1}{(a-1)(b-1)(c-1)}=\\frac{[(a-1)+1][(b-1)+1][(c-1)+1]-1}{(a-1)(b-1)(c-1)})% %(=1+\\frac{1}{a-1}+\\frac{1}{b-1}+\\frac{1}{c-1}+\\frac{1}{(a-1)(b-1)}+\\frac{1}{(b-1)(c-1)}+\\frac{1}{(a-1)(c-1)})% %(\\leq 1+1+\\frac{1}{2}+\\frac{1}{3}+\\frac{1}{1.2}+\\frac{1}{2.3}+\\frac{1}{3.1}\\lt 4()% do %(a \\geq 2, b \\geq 3, c \\geq 4))%<br>Hơn nữa %(P\\gt 1)%<br>Nếu %(a \\geq 4)% thì %(4 \\leq a\\lt b\\lt c \\Rightarrow P \\leq 1+\\frac{1}{3}+\\frac{1}{4}+\\frac{1}{5}+\\frac{1}{3.4}+\\frac{1}{4.5}+\\frac{1}{5.3}\\lt 2)%<br>Vô lý vì %(P \\in \\mathbb{N}, P>1)%. Từ đó suy ra %(\\left[\\begin{array}{l}P=2 \\\\ P=3\\end{array}\\right.)% và %(\\left[\\begin{array}{l}a=2 \\\\ a=3\\end{array}\\right.)%.<br>Ta có 4 trường hợp sau:<br>Trường hợp 1: %(a=2, P=2)% ta có %(\\frac{2 b c-1}{(b-1)(c-1)}=2 \\Leftrightarrow 2 b c-1=2(b-1)(c-1)(1))%<br>Do %(V T(1))% lẻ mà %(V P(1))% chẵn nên phương trình vô nghiệm.<br>Trường hợp 2: %(a=2, P=3)% ta có<br>\\[\\begin{array}{l}\\frac{2 b c-1}{(b-1)(c-1)}=3 \\Leftrightarrow 2 b c-1=3(b-1)(c-1) \\Leftrightarrow(b-3)(c-3)=5 \\\\Leftrightarrow\\left\\{\\begin{array}{l}b-3=1 \\c-3=5\\end{array} \\Rightarrow a=2, b=4, c=8\\right.\\end{array}\\]<br>( vì %(b\\lt c)% )<br>Trường hợp 3: %(a=3, P=2)% ta có<br>\\[\\begin{array}{l}\\frac{3 b c-1}{2(b-1)(c-1)}=2 \\Leftrightarrow(b-4)(c-4)=11 \\\\Leftrightarrow\\left\\{\\begin{array}{l}b-4=1 \\c-4=11\\end{array} \\Rightarrow a=3, b=5, c=15\\right.\\end{array}\\]<br>Trường hợp 4: %(a=3, P=3)% ta có<br>\\[\\frac{3 b c-1}{2(b-1)(c-1)}=3 \\Leftrightarrow 3 b c-1=6(b-1)(c-1)\\]<br>Phương trình vô nghiệm vì vế phải chia hết cho 3 mà vế trái không chia hết cho 3 .<br>Vậy %(\\left[\\begin{array}{l}a=2, b=4, c=8 \\\\ a=3, b=5 . c=15\\end{array}\\right.)% thỏa mãn bài toán.",
+        "question_type": "essay"
+    }
+]

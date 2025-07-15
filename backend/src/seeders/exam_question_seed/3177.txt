@@ -1,0 +1,690 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 0.2,
+        "content": "Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/21a9ddb48ddcc857fb9d5202e250d20c.png"
+        ],
+        "labelA": "%((-2 ;+\\infty))%",
+        "labelB": "%((0 ;+\\infty))%",
+        "labelC": "%((-\\infty ;-2))%",
+        "labelD": "%(\\left(-\\frac{3}{2} ;+\\infty\\right))%",
+        "correct_label": "labelB",
+        "solution": "Phương pháp:Hàm số đồng biến trên khoảng %(x)% nếu %(\\left( a , b \\right ))% với mọi %(\\left( a , b \\right ))% thuộc %(f^{'}{\\left( x \\right )} \\ge 0)%<br>Cách giải:<br>Từ bảng biến thiên ta thấy hàm số đồng biến trên %(\\left( - \\infty , - 3 \\right ) , \\left( - 1 , + \\infty \\right ))%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 0.2,
+        "content": "Tìm các khoảng đồng biến của hàm số %(y=x^{4}-2 x^{2}+5)%.",
+        "question_images": [],
+        "labelA": "%((-\\infty ; 0))%.",
+        "labelB": "%((-\\infty ;-1))% và %((0 ; 1))%.",
+        "labelC": "%((0 ;+\\infty))%.",
+        "labelD": "%((-1 ; 0))% và %((1 ;+\\infty))%.",
+        "correct_label": "labelD",
+        "solution": "Phương pháp:<br>Tính đạo hàm, lập bảng biến thiên<br>Cách giải:<br>%(\\begin{array}{l}y=x^{4}-2 x^{2}+5 \\\\Rightarrow y^{\\prime}=4 x^{3}-4 x=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x=0 \\x= \\pm 1\\end{array}\\right.\\end{array})%<br>Ta có %(\\mathrm{BBT})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/26746c102c1b4f162e50ba50ad44c62c.png\" srcset=\"https://docdn.giainhanh.io/media/test/ba782bd6da906a8fa14535a6b3c256a4.png 245w, https://docdn.giainhanh.io/media/test/e19b5b95b43a2891245ef82539306b3a.png 500w\" width=\"500\"/><br>Từ %(\\mathrm{BBT})% suy ra hàm số đồng biến trên khoảng %((-1,0),(1,+\\infty))%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 0.2,
+        "content": "Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số %(y=\\frac{x+\\sqrt{x^{2}+1}}{x+1})% là",
+        "question_images": [],
+        "labelA": "1",
+        "labelB": "3",
+        "labelC": "2",
+        "labelD": "0",
+        "correct_label": "labelB",
+        "solution": "Phương pháp:<br>Khi tìm %(\\mathrm{TC})%, trước tiên ta tìm nghiệm %(x_{0})% của mẫu. Chú ý:<br>Nếu %(x_{0})% không là nghiệm của tử số thì %(x=x_{0})% là một %(\\mathrm{TC})%.<br>Nếu %(x_{0})% là nghiệm của tử số thì ta kiểm tra lại bằng máy tính.<br>Nếu %(x=x_{0})% không xác định đối với tử số thì %(x=x_{0})% bị loại.<br>Tìm TCN ta tìm giới hạn khi hàm số tiến đến vô cùng<br>Cách giải:<br>Xét mẫu số %(x+1=0 \\Leftrightarrow x=-1)%<br>Ta thấy %(x=-1)% không là nghiệm của tử số nên %(x=-1)% là tiệm cận đứng của đồ thị hàm số.<br>Xét %(\\lim _{x \\rightarrow+\\infty} \\frac{x+\\sqrt{x^{2}+1}}{x+1}=\\lim _{x \\rightarrow+\\infty} \\frac{1+\\sqrt{1+\\frac{1}{x^{2}}}}{1+\\frac{1}{x}}=2)%<br>%(\\lim _{x \\rightarrow-\\infty} \\frac{x+\\sqrt{x^{2}+1}}{x+1}=\\lim _{x \\rightarrow-\\infty} \\frac{1-\\sqrt{1+\\frac{1}{x^{2}}}}{1+\\frac{1}{x}}=0)%<br>Vậy hàm số có 2 tiện cận ngang và 1 có tiệm cận đứng",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 0.2,
+        "content": "Tổng số đường tiệm cận ngang và tiệm cận đứng của đồ thị hàm số %(y=f(x))% là",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/f67369b27efc269000d67bb75178a499.png"
+        ],
+        "labelA": "3",
+        "labelB": "2",
+        "labelC": "4",
+        "labelD": "1",
+        "correct_label": "labelC",
+        "solution": "Phương pháp:<br>Tìm TCN ta tìm giới hạn hữu hạn khi hàm số tiến đến vc Tìm TCĐ ta tìm giới hạn vô cực<br>Cách giải:<br>Từ bảng biến thiên ta thấy TCĐ: %(x=-1)% và %(x=1)%<br>Hàm số có %(\\mathrm{TCN}\\quad \\mathrm{y}=-4)% và %(\\mathrm{y}=-1)%<br>Vậy hàm số có 4 đường tiệm cận",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 0.2,
+        "content": "Cho lăng trụ đều %(A B C \\cdot A^{\\prime} B^{\\prime} C^{\\prime})% có cạnh đáy bằng %(3 \\mathrm{~cm})%. Biết diện tích tứ giác %(A A^{\\prime} B^{\\prime} B)% bằng %(6 \\mathrm{~cm}^{2})% . Thể tích khối lăng trụ %(A B C \\cdot A^{\\prime} B^{\\prime} C^{\\prime})% bằng",
+        "question_images": [],
+        "labelA": "%(\\frac{3 \\sqrt{3}}{2}\\left(\\mathrm{~cm}^{3}\\right))%",
+        "labelB": "%(\\frac{9 \\sqrt{3}}{2}\\left(\\mathrm{~cm}^{3}\\right))%",
+        "labelC": "%(9 \\sqrt{3}\\left(\\mathrm{~cm}^{3}\\right))%",
+        "labelD": "%(3 \\sqrt{3}\\left(\\mathrm{~cm}^{3}\\right))%",
+        "correct_label": "labelB",
+        "solution": "Phương pháp:<br>Thể tích lăng trụ %(V=B . h)%<br>Cách giải:<br>Ta có %(S_{A A^{\\prime} B^{\\prime} B}=A A^{\\prime} . A B=6 \\Rightarrow A A^{\\prime}=2)%<br>%(\\Rightarrow V=A A^{\\prime} \\cdot S_{A B C}=2 \\cdot \\frac{\\sqrt{3}}{4} \\cdot 3^{2}=\\frac{9 \\sqrt{3}}{2})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 0.2,
+        "content": "Cho hình lăng trụ đều %(A B C \\cdot A^{\\prime} B^{\\prime} C^{\\prime})% có tất cả các cạnh bằng nhau. Gọi %(\\alpha)% là góc giữa hai mặt phẳng %(\\left(A B^{\\prime} C^{\\prime}\\right))% và %(\\left(A^{\\prime} B C\\right))%, tính %(\\cos \\alpha)%",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/3f811129f04a130b413fa1fa30eff4da.png"
+        ],
+        "labelA": "%(\\frac{1}{7})%.",
+        "labelB": "%(\\frac{4}{7})%",
+        "labelC": "%(\\frac{\\sqrt{21}}{7})%",
+        "labelD": "%(\\frac{\\sqrt{7}}{7})%",
+        "correct_label": "labelA",
+        "solution": "Phương pháp:<br>Góc giữa hai mặt phẳng là góc giữa hai đường thẳng lần lượt vuông góc với giao tuyến.<br>Cách giải:<br>Gọi %(\\mathrm{E})% là giao điểm của %(\\mathrm{A}^{\\prime} \\mathrm{B})% và %(\\mathrm{AB}^{\\prime})%. Gọi %(\\mathrm{F})% là giao điểm của %(\\mathrm{A}^{\\prime} \\mathrm{C})% và %(\\mathrm{AC}^{\\prime})%<br>\\[\\Rightarrow\\left(A B^{\\prime} C^{\\prime}\\right) \\cap\\left(A^{\\prime} B C\\right)=E F\\]<br>Do lăng trụ có tất cả các cạnh bằng nhau nên %(\\triangle A^{\\prime} B C, \\triangle A B^{\\prime} C^{\\prime})% cân<br>\\[\\Rightarrow A M \\perp B C, A N \\perp A^{\\prime} C^{\\prime}\\]<br>Lại có %(E F \\| B C)% (tính chất đường trung bình) nên %(A I \\perp E F, A^{\\prime} I \\perp E F)%<br>\\[\\Rightarrow\\left(\\left(A^{\\prime} B C\\right),\\left(A B^{\\prime} C^{\\prime}\\right)\\right)=\\left(A I, A^{\\prime} I\\right)=\\angle A I A^{\\prime}\\]<br>Giả sử lăng trụ có tất cả các cạnh bằng 1 thì<br>\\[\\begin{array}{l}\\Rightarrow A^{\\prime} B=\\sqrt{2} \\Rightarrow A^{\\prime} M=\\sqrt{A^{\\prime} B^{2}-B M^{2}}=\\frac{\\sqrt{7}}{2} \\Rightarrow A^{\\prime} I=A I=\\frac{\\sqrt{7}}{4} \\\\Rightarrow \\cos A I A^{\\prime}=\\frac{A I^{2}+A^{\\prime} I^{2}-A A^{\\prime 2}}{2 A I \\cdot A^{\\prime} I}=\\left|\\frac{\\frac{7}{16}+\\frac{7}{16}-1}{2 \\cdot \\frac{\\sqrt{7}}{4} \\cdot \\frac{\\sqrt{7}}{4}}\\right|=\\frac{1}{7}\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/97c994b06ff8ed5223b237e407f959ce.png\" srcset=\"https://docdn.giainhanh.io/media/test/def086fca0f08c20f8ae45de1aed607a.png 164w\" width=\"164\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 0.2,
+        "content": "Cho hàm số %(y=\\frac{2 x-1}{x+1})%. Trong các khẳng định sau, khẳng định nào đúng?",
+        "question_images": [],
+        "labelA": "Hàm số đồng biến trên %(\\mathbb{R} \\backslash\\{-1\\})%.",
+        "labelB": "Hàm số đồng biến trên các khoảng %((-\\infty ;-1))% và %((-1 ;+\\infty))%.",
+        "labelC": "Hàm số nghịch biến trên %(\\mathbb{R} \\backslash\\{-1\\})%.",
+        "labelD": "Hàm số nghịch biến trên các khoảng %((-\\infty ;-1))% và %((-1 ;+\\infty))%.",
+        "correct_label": "labelB",
+        "solution": "Phương pháp:<br>Tính đạo hàm và kết luận sự đồng biến, nghịch biến<br>Cách giải:<br>%(y=\\frac{2 x-1}{x+1} \\Rightarrow y^{\\prime}=\\frac{3}{(x+1)^{2}}\\gt 0)%<br>Vậy hàm số đồng biến trên các khoảng %((-\\infty ;-1))% và %((-1 ;+\\infty))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 0.2,
+        "content": "Hàm số %(y=g(x)=f(2-x))% đồng biến trên khoảng nào trong các khoảng sau?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/13ceedc9b51f9168ebe7e6da3b342801.png"
+        ],
+        "labelA": "%((1 ; 3))%",
+        "labelB": "%((2 ;+\\infty))%",
+        "labelC": "%((-2 ; 1))%",
+        "labelD": "%((-\\infty ;-2))%",
+        "correct_label": "labelC",
+        "solution": "Phương pháp:<br>Tính đạo hàm và lập BBT<br>Cách giải:<br>%(\\begin{array}{l}y=g(x)=f(2-x) \\Rightarrow y^{\\prime}=-f^{\\prime}(2-x) \\y^{\\prime}\\gt 0 \\Leftrightarrow-f^{\\prime}(2-x)>0 \\\\Leftrightarrow f^{\\prime}(2-x)\\lt 0 \\\\Leftrightarrow\\left[\\begin{array} { l } { 2 - x \\lt - 1 } \\\\{ 1 \\lt 2 - x \\lt 4 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x>3 \\\\-2\\lt x\\lt 1\\end{array}\\right.\\right.\\end{array})%<br>Vậy hàm số đồng biến trên %((-2 ; 1))%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 9: ",
+        "point": 0.2,
+        "content": "Xác định %(m)% để đồ thị hàm số %(y=\\frac{x-1}{x^{2}+2(m-1) x+m^{2}-2})% có đúng hai tiệm cận đứng",
+        "question_images": [],
+        "labelA": "%(\\left\\{\\begin{array}{l}m\\lt \\frac{3}{2} \\\\ m \\neq 1 \\\\ m \\neq-3\\end{array}\\right.)%",
+        "labelB": "%(m\\lt \\frac{3}{2})%",
+        "labelC": "%(\\left\\{\\begin{array}{l}m\\gt -\\frac{3}{2} \\\\ m \\neq 1 \\\\ m \\neq-3\\end{array}\\right.)%",
+        "labelD": "%(m>-\\frac{3}{2})%",
+        "correct_label": "labelA",
+        "solution": "Phương pháp:<br>Hàm số có 2 TCĐ khi mẫu số có 2 nghiệm khác nghiệm của tử số.<br>Cách giải:<br>%(y=\\frac{x-1}{x^{2}+2(m-1) x+m^{2}-2})% có 2 TCĐ khi phương trình %(x^{2}+2(m-1) x+m^{2}-2=0)% có 2 nghiệm phân biệt khác 1<br>%(\\begin{array}{l}\\left\\{\\begin{array}{l}\\Delta^{\\prime}\\gt 0 \\\\1+2(m-1) \\cdot 1+m^{2}-2 \\neq 0\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}(m-1)^{2}-\\left(m^{2}-2\\right)>0 \\m^{2}+2 m-3 \\neq 0\\end{array}\\right.\\end{array})%<br>%(\\Leftrightarrow\\left\\{\\begin{array} { l } { - 2 m + 3 \\gt 0 } \\\\{ m \\neq 1 } \\\\{ m \\neq - 3 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}m\\lt \\frac{3}{2} \\m \\neq 1 \\m \\neq-3\\end{array}\\right.\\right.)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 10: ",
+        "point": 0.2,
+        "content": "Đường cong trong hình vẽ sau đây là đồ thị của hàm số nào?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/7ae57c913865dd1ae7d29965acb11ba4.png"
+        ],
+        "labelA": "%(y=-x^{3}+3 x+1)%",
+        "labelB": "%(y=x^{4}-2 x^{2}+1)%",
+        "labelC": "%(y=x^{3}-3 x+1)%",
+        "labelD": "%(y=x^{3}-3 x^{2}+1)%",
+        "correct_label": "labelC",
+        "solution": "Phương pháp:<br>Dựa vào hình dáng của đồ thị, các điểm đồ thị đi qua, giao với trục tung, tính đối xứng để xác định hàm số.<br>Cách giải:<br>Từ đồ thị ta thấy hàm số là hàm bậc 3 có hệ số %(\\mathrm{a}\\gt 0)% nên loại %(\\mathrm{A}, \\mathrm{B})%<br>Hàm số đi qua điểm %((-1,3))% nên %(C)% thỏa mãn.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 11: ",
+        "point": 0.2,
+        "content": "Khối hộp chữ nhật có độ dài của ba kích thước lần lượt bằng %(m, n, p)% có thể tích là?",
+        "question_images": [],
+        "labelA": "%(m n p)%",
+        "labelB": "%(m+n+p)%",
+        "labelC": "%(m^{3} n^{3} p^{3})%",
+        "labelD": "%(m^{3}+n^{3}+p^{3})%",
+        "correct_label": "labelA",
+        "solution": "Khối hộp chữ nhật có độ dài của ba kích thước lần lượt bằng %(\\mathrm{m}, \\mathrm{n}, \\mathrm{p})% có thể tích là %(m n p)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 12: ",
+        "point": 0.2,
+        "content": "Khối lăng trụ đứng có đáy là tam giác đều cạnh bằng %(a \\sqrt{3})%, cạnh bên bằng %(4 a)%. Thể tích của khối lăng trụ bằng?",
+        "question_images": [],
+        "labelA": "%(\\sqrt{3} a^{3})%",
+        "labelB": "%(3 \\sqrt{3} a^{3})%",
+        "labelC": "%(\\frac{\\sqrt{3}}{4} a^{3})%",
+        "labelD": "%(\\frac{3 \\sqrt{3}}{4} a^{3})%",
+        "correct_label": "labelB",
+        "solution": "Phương pháp:<br>Thể tích lăng trụ là %(V=B . h)%<br>Cách giải:<br>Thể tích lăng trụ là %(V=B \\cdot h=4 a \\cdot \\frac{\\sqrt{3}}{4}(a \\sqrt{3})^{2}=3 \\sqrt{3} a^{3})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 13: ",
+        "point": 0.2,
+        "content": "Cho hàm số %(y=f(x))% có đạo hàm %(f^{\\prime}(x)=(x-2)^{2}(1-x))% với mọi %(x \\in \\mathbb{R})%. Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
+        "question_images": [],
+        "labelA": "%((1 ; 2))%",
+        "labelB": "%((1 ;+\\infty))%",
+        "labelC": "%((2 ;+\\infty))%",
+        "labelD": "%((-\\infty ; 1))%",
+        "correct_label": "labelD",
+        "solution": "Phương pháp:<br>Hàm số đồng biến khi %(\\mathrm{f}^{\\prime}(\\mathrm{x})\\gt 0)%<br>Cách giải:<br>%(f^{\\prime}(x)=(x-2)^{2}(1-x)>0 \\Leftrightarrow 1-x>0 \\Leftrightarrow x\\lt 1)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 14: ",
+        "point": 0.2,
+        "content": "Cho hàm số %(f(x)=x^{3}+(m-1) x^{2}+3 x+2)%. Tìm tất cả các giá trị thực của tham số %(m)% để %(f^{\\prime}(x)\\gt 0, \\forall x \\in \\mathbb{R})%",
+        "question_images": [],
+        "labelA": "%((-\\infty ;-2] \\cup[4 ;+\\infty))%",
+        "labelB": "%((-2 ; 4))%",
+        "labelC": "%((-\\infty ;-2) \\cup(4 ;+\\infty))%",
+        "labelD": "%([-2 ; 4])%",
+        "correct_label": "labelB",
+        "solution": "Phương pháp:<br>%(f^{\\prime}(x)\\gt 0, \\forall x \\in \\mathbb{R})% có dạng bậc 2 khi %(\\left\\{\\begin{array}{l}a>0 \\\\ \\Delta\\lt 0\\end{array}\\right.)%<br>Cách giải:<br>%(\\begin{array}{l}f(x)=x^{3}+(m-1) x^{2}+3 x+2 \\\\Rightarrow f^{\\prime}(x)=3 x^{2}+2(m-1) x+3>0 \\\\Leftrightarrow\\left\\{\\begin{array}{l}a>0 \\\\Delta^{\\prime}\\lt 0\\end{array} \\Leftrightarrow(m-1)^{2}-9\\lt 0\\right. \\\\Leftrightarrow(m-1)^{2}\\lt 9 \\\\Leftrightarrow-3\\lt m-1\\lt 3 \\\\Leftrightarrow-2\\lt m\\lt 4\\end{array})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 15: ",
+        "point": 0.2,
+        "content": "null",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/1a0f64f65248df21d4626f9283536922.png"
+        ],
+        "labelA": "%(y=\\frac{2 x-1}{x-2})%.",
+        "labelB": "%(y=\\frac{2 x-3}{x-1})%",
+        "labelC": "%(y=\\frac{2 x-2}{1+x})%",
+        "labelD": "%(y=\\frac{2 x+2}{x-1})%",
+        "correct_label": "labelD",
+        "solution": "Phương pháp:<br>Tính đạo hàm và lập %(\\mathrm{BBT})%, lưu ý về %(\\mathrm{TC})%<br>Cách giải:<br>Từ BBT thấy hàm số có %(\\mathrm{TCĐ} \\quad\\mathrm{x}=1)% nên loại %(\\mathrm{A}, \\mathrm{D})%<br>Xét B %(y=\\frac{2 x-3}{x-1} \\Rightarrow y^{\\prime}=\\frac{1}{(x-1)^{2}}\\gt 0)% nên không thỏa mãn<br>Xét D %(y=\\frac{2 x+2}{x-1} \\Rightarrow y^{\\prime}=\\frac{-4}{(x-1)^{2}}\\lt 0)% nên thỏa mãn.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 16: ",
+        "point": 0.2,
+        "content": "Điểm nào dưới đây không thuộc đồ thị của hàm số %(y=x^{3}+3 x^{2}-2)%",
+        "question_images": [],
+        "labelA": "Điểm %(P(1 ; 2))%.",
+        "labelB": "Điểm %(N(0 ;-2))%.",
+        "labelC": "Điểm %(M(-1 ; 2))%.",
+        "labelD": "Điểm %(Q(1 ; 2))%.",
+        "correct_label": "labelC",
+        "solution": "Phương pháp:<br>Thay tọa độ các điểm vào hàm số và kiểm tra tính đúng sai<br>Cách giải:<br>Với %(x=1 \\Rightarrow y=2 \\Rightarrow P, \\mathrm{Q})% thuộc đồ thịVới %(x=0 \\Rightarrow y=-2 \\Rightarrow N)% thuộc đồ thị<br>Với %(x=-1 \\Rightarrow y=0 \\Rightarrow M)% không thuộc đồ thị",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 17: ",
+        "point": 0.2,
+        "content": "Cho hình chóp %(S \\cdot A B C D)% có đáy %(A B C D)% là hình chữ nhật với %(A D=2 A B=2 a)%. Cạnh bên %(S A=2 a)% và vuông góc với đáy. Gọi %(M, N)% lần lượt là trung điểm của %(S B)% và %(S D)%. Tính khoảng cách %(d)% từ %(S)% đến mặt phẳng %((A M N))%.",
+        "question_images": [],
+        "labelA": "%(d=\\frac{a \\sqrt{6}}{3})%",
+        "labelB": "%(d=2 a)%",
+        "labelC": "%(d=\\frac{3 a}{2})%",
+        "labelD": "%(d=a \\sqrt{5})%",
+        "correct_label": "labelA",
+        "solution": "Phương pháp:<br>Dựa vào tỉ lệ thể tích của hình chóp %(S)% và %(S A M N)% tính khoảng cách từ %(S A B D)% dến (AMN)<br>Cách giải:<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9e1c7a76a621868349126a40345318b8.png\" srcset=\"https://docdn.giainhanh.io/media/test/480c4b65e89300559671c3d71334ea86.png 190w, https://docdn.giainhanh.io/media/test/65f57eac58387684284fca5118d3bb22.png 500w\" width=\"500\"/><br>Ta có %(A B C D)% là hình chữ nhật nên %(B D=a \\sqrt{5})%<br>%(\\mathrm{MN})% là đường trung bình của tam giác %(\\mathrm{SBD})% nên %(M N=\\frac{1}{2} B D=\\frac{a \\sqrt{5}}{2})%<br>%(\\triangle S A B)% vuông tại %(A)%, trung tuyến %(A M)% nên %(A M=\\frac{1}{2} S B=\\frac{1}{2} a \\sqrt{5}=\\frac{a \\sqrt{5}}{2})%<br>Tương tự %(A N=\\frac{1}{2} S D=\\frac{1}{2} \\cdot 2 a \\sqrt{2}=\\sqrt{2} a)%<br>%(\\Rightarrow p=\\frac{A M+A N+M N}{2})%<br>%(\\begin{array}{l}\\Rightarrow S_{\\triangle A M N}=\\sqrt{p(p-A M)(p-A N)(p-M N)}=\\frac{\\sqrt{6}}{4} a^{2} \\\\ S_{\\triangle A B D}=\\frac{1}{2} A B \\cdot A D=a^{2} \\\\ \\Rightarrow \\frac{S_{A M N}}{S_{A B D}}=\\frac{\\sqrt{6}}{4} \\\\ \\frac{V_{S A M V}}{V_{S A B D}}=\\frac{S A}{S A} \\cdot \\frac{S M}{S B} \\cdot \\frac{S N}{S D}=\\frac{1}{4} \\\\ \\Rightarrow \\frac{V_{S A M V}}{V_{S A B D}}=\\frac{d(S,(A M N)) \\cdot S_{A M N}}{d(S,(A B D)) \\cdot S_{\\triangle A B D}}=\\frac{1}{4}\\end{array})%<br>%(\\begin{array}{l}\\Leftrightarrow \\frac{d(S,(A M N))}{d(S,(A B D))} \\cdot \\frac{S_{A M N}}{S_{\\triangle A B D}}=\\frac{1}{4} \\\\ \\Leftrightarrow \\frac{d(S,(A M N))}{2 a} \\cdot \\frac{\\sqrt{6}}{4}=\\frac{1}{4} \\\\ \\Rightarrow d(S(A M N))=\\frac{\\sqrt{6}}{3} a\\end{array})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 18: ",
+        "point": 0.2,
+        "content": "Cho hình chóp %(S . A B C D)% có đáy %(A B C D)% là hình chữ nhật, %(A B=3 a)% và %(A D=4 a)%. Cạnh bên %(S A)% vuông góc với mặt phẳng %((A B C D))% và %(S A=a \\sqrt{2})%. Thể tích của khối chóp %(S . A B C D)% bằng",
+        "question_images": [],
+        "labelA": "%(V=4 \\sqrt{2} a^{3})%",
+        "labelB": "%(V=12 \\sqrt{2} a^{3})%",
+        "labelC": "%(V=\\frac{4 \\sqrt{2} a^{3}}{3})%",
+        "labelD": "%(V=\\frac{2 \\sqrt{2} a^{3}}{3})%",
+        "correct_label": "labelA",
+        "solution": "Phương pháp:<br>Thể tích khối chóp %(\\mathrm{SABCD})% bằng %(\\frac{1}{3} S A \\cdot S_{A B C D})%<br>Cách giải:<br>%(V=\\frac{1}{3} S A \\cdot S_{A B C D}=\\frac{1}{3} \\cdot a \\sqrt{2} \\cdot 3 a \\cdot 4 a=4 \\sqrt{2} a^{3})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 19: ",
+        "point": 0.2,
+        "content": "Cho hàm số %(y=f(x))% liên tục trên %(\\mathbb{R})%. Biết rằng hàm số %(y=f^{\\prime}(x))% có đồ thị như hình vẽ. Hàm số %(y=f\\left(x^{2}-5\\right))% nghịch biến trên khoảng nào sau đây?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/207889fd2fa985fd5cc41366eb32f8f1.png"
+        ],
+        "labelA": "%((0 ; 1))%",
+        "labelB": "%((1 ; 2))%",
+        "labelC": "%((-1 ; 0))%",
+        "labelD": "%((-1 ; 1))%",
+        "correct_label": "labelA",
+        "solution": "Phương pháp:<br>Tính đạo hàm và lập bảng biến thiên<br>Cách giải:<br>%(\\begin{array}{l}y=f\\left(x^{2}-5\\right) \\Rightarrow y^{\\prime}=2 x f^{\\prime}\\left(x^{2}-5\\right) \\y^{\\prime}=0 \\Leftrightarrow\\left[\\begin{array} { l } { x = 0 } \\\\{ f ^ { \\prime } ( x ^ { 2 } - 5 ) = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array} { l } { x = 0 } \\\\{ x ^ { 2 } - 5 = - 4 } \\\\{ x ^ { 2 } - 5 = - 1 } \\\\{ x ^ { 2 } - 5 = 2 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=0 \\x= \\pm 1 \\x= \\pm 2 \\x= \\pm 7\\end{array}\\right.\\right.\\right.\\end{array})%<br>Vậy hàm số nghịch biến trên %((0 ; 1))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b2fa42c8c35b1c58b55291fab44873ae.png\" srcset=\"https://docdn.giainhanh.io/media/test/b88f2b77c5194972cb34ae6d8fef332a.png 245w, https://docdn.giainhanh.io/media/test/0b607b4465dfa31f68bc0d698b1c62c3.png 500w, https://docdn.giainhanh.io/media/test/b64cb62dfbc0c57d232e0f71a3e638d8.png 750w\" width=\"750\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 20: ",
+        "point": 0.2,
+        "content": "Gọi %(S)% là tập hợp các giá trị nguyên của tham số %(m)% sao cho hàm số %(y=\\frac{x-1}{x-m})% nghịch biến trên khoảng %((4 ;+\\infty))%. Tính tổng %(P)% của các giá trị %(m)% của %(S)%.",
+        "question_images": [],
+        "labelA": "%(P=10)%",
+        "labelB": "%(P=-10)%",
+        "labelC": "%(P=9)%",
+        "labelD": "%(P=-9)%",
+        "correct_label": "labelC",
+        "solution": "Phương pháp:<br>Tính đạo hàm và xét điều kiện của %(m)%<br>Cách giải:<br>%(y=\\frac{x-1}{x-m} \\Rightarrow y^{\\prime}=\\frac{x-m-x+1}{(x-m)^{2}}=\\frac{1-m}{(x-m)^{2}})%<br>Để hàm số nghịch biến trên %((4 ;+\\infty))%<br>%(\\left\\{\\begin{array} { l } { 1 - m \\lt 0 } \\\\{ m \\leq 4 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}m\\gt 1 \\m \\leq 4\\end{array} \\Leftrightarrow 1\\lt m \\leq 4 \\Rightarrow m \\in\\{2,3,4\\}\\right.\\right.)%<br>Vậy %(2+3+4=9)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 21: ",
+        "point": 0.2,
+        "content": "null",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/c769943135aedcf7bb3ed9b907d453a2.png"
+        ],
+        "labelA": "%(a\\gt 0, b>0, c=0, d>0)%",
+        "labelB": "%(a>0, b\\lt 0, c>0, d>0)%",
+        "labelC": "%(a>0, b\\lt 0, c=0, d>0)%",
+        "labelD": "%(a>0, b\\lt 0, c\\lt 0, d>0)%",
+        "correct_label": "labelC",
+        "solution": "Từ đồ thị ta thấy hệ số %(\\mathrm{a}\\gt 0)%<br>Đồ thị cắt trục tung tại điểm có tung độ dương nên %(\\mathrm{d}>0)%<br>Đồ thị có 2 điểm cực trị nên %(a, b)% trái dấu suy ra %(b\\lt 0)%<br>Do hàm số có 1 điểm cực trị tại %(\\mathrm{x}=0)% nên %(\\mathrm{c}=0)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/aaf95258ebbdb70c53d67d151cc64d25.png\" srcset=\"https://docdn.giainhanh.io/media/test/793ce7fc7cc6700301564adbd8d9b4d5.png 195w\" width=\"195\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 22: ",
+        "point": 0.2,
+        "content": "Số giao điểm của đồ thị hàm số đã cho và đường thẳng %(y=1)% là",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/fc8eed7118a809210e15201080541a61.png"
+        ],
+        "labelA": "1",
+        "labelB": "0",
+        "labelC": "2",
+        "labelD": "3",
+        "correct_label": "labelD",
+        "solution": "Phương pháp:<br>Từ %(\\mathrm{BBT})% xác sịnh số giao điểm của %(y=1)% với %(\\mathrm{f}(\\mathrm{x}))%<br>Cách giải:<br>Từ BBT ta thấy đường thẳng %(y=1)% cắt đồ thị hàm số tại 3 điểm",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 23: ",
+        "point": 0.2,
+        "content": "Cho hình chóp %(S . A B C)% có đáy là tam giác vuông cân tại %(B)% và %(A B=a, a\\gt 0)%. Biết cạnh bên %(S A)% bằng %(2 \\mathrm{a})% và %(S A \\perp(A B C))%. Thể tích khối chóp %(\\mathrm{S})%. %(\\mathrm{ABC})% tính theo %(a)% bằng",
+        "question_images": [],
+        "labelA": "%(\\frac{\\sqrt{3}}{2} a^{3})%",
+        "labelB": "%(\\frac{2}{3} a^{3})%",
+        "labelC": "%(\\frac{a^{3}}{3})%",
+        "labelD": "%(a^{3})%",
+        "correct_label": "labelC",
+        "solution": "Phương pháp:<br>%(V=\\frac{1}{3} S A \\cdot S_{\\triangle A B C})%<br>Cách giải:<br>%(V=\\frac{1}{3} S A \\cdot S_{\\triangle A B C}=\\frac{1}{3} \\cdot 2 a \\cdot \\frac{1}{2} \\cdot a \\cdot a=\\frac{a^{3}}{3})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 24: ",
+        "point": 0.2,
+        "content": "Cho hình chóp %(S)%. %(A B C D)% có đáy là hình vuông cạnh %(a \\sqrt{2}, a\\gt 0)%. Biết %(S A \\perp(A B C D))% và cạnh %(S C)% tạo với mặt đáy một góc %(60^{\\circ})%. Thể tích của khối chóp %(\\mathrm{S} . \\mathrm{ABCD})% tính theo %(a)% bằng",
+        "question_images": [],
+        "labelA": "%(4 \\sqrt{3} a^{2})%",
+        "labelB": "%(4 \\sqrt{3} a^{3})%",
+        "labelC": "%(\\frac{4 \\sqrt{3}}{3} a^{2})%",
+        "labelD": "%(\\frac{4 \\sqrt{3}}{3} a^{3})%",
+        "correct_label": "labelD",
+        "solution": "Phương pháp:<br>Tính SA từ góc %(60^{\\circ})% từ đó %(\\Rightarrow V=\\frac{1}{3} S A \\cdot S_{A B C D})%<br>Cách giải:<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b23e17487f8c754a83a3646bb4c16491.png\" srcset=\"https://docdn.giainhanh.io/media/test/7ac96e95928e6564a5e78a0451f4d9e7.png 182w\" width=\"182\"/><br>Do %(\\mathrm{ABCD})% là hình vuông nên %(\\mathrm{AC}=2 \\mathrm{a})%<br>Ta có %((S C,(A B C D))=(S C, A C)=\\angle S C A=60^{\\circ})%%(\\Rightarrow S A=A C \\cdot \\tan 60^{\\circ}=2 \\sqrt{3} a)%<br>%(\\Rightarrow V=\\frac{1}{3} S A \\cdot S_{A B C D}=\\frac{1}{3} \\cdot 2 \\sqrt{3} a \\cdot(a \\sqrt{2})^{2}=\\frac{4 \\sqrt{3} a^{3}}{3})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 25: ",
+        "point": 0.2,
+        "content": "Giá trị cực tiểu của hàm số đã cho bằng",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/fcbd0dd87a89ce5ff0a5a5536c76c4e6.png"
+        ],
+        "labelA": "3",
+        "labelB": "-5",
+        "labelC": "0",
+        "labelD": "2",
+        "correct_label": "labelB",
+        "solution": "Phương pháp:<br>Điểm cực tiểu là điểm y’ đổi dấu từ - sang +<br>Cách giải:<br>Từ BBT ta thấy hàm số có giá trị cực tiểu bằng -5",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 26: ",
+        "point": 0.2,
+        "content": "Số điểm cực đại của hàm số đã cho là:",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/0ae3be57a266f8ed7abc8dda9d5588b1.png"
+        ],
+        "labelA": "3",
+        "labelB": "1",
+        "labelC": "2",
+        "labelD": "4",
+        "correct_label": "labelC",
+        "solution": "Phương pháp:<br>Điểm cực tiểu là điểm y' đổi dấu từ + sang -<br>Cách giải:<br>Từ BBT ta thấy hàm số 2 điểm cực đại",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 27: ",
+        "point": 0.2,
+        "content": "Số giao điểm của đồ thị hàm số %(y=x^{3}+x^{2})% và đồ thị hàm số %(y=x^{2}+5 x)%",
+        "question_images": [],
+        "labelA": "3",
+        "labelB": "0",
+        "labelC": "1",
+        "labelD": "2",
+        "correct_label": "labelA",
+        "solution": "Phương pháp:<br>Xét phương trình hoành độ giao điểm của 2 hàm số<br>Cách giải:<br>Xét phương trình hoành độ giao điểm của 2 hàm số ta có<br>%(\\begin{array}{l}x^{3}+x^{2}=x^{2}+5 x \\\\Leftrightarrow x^{3}=5 x \\\\Leftrightarrow\\left[\\begin{array} { c } { x = 0 } \\\\{ x ^ { 2 } = 5 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{c}x=0 \\x= \\pm \\sqrt{5}\\end{array}\\right.\\right.\\end{array})%<br>Vậy có tất cả 3 giao điểm",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 28: ",
+        "point": 0.2,
+        "content": "Tìm %(m)% để đường thẳng %(y=4 m)% cắt đồ thị hàm số %(y=x^{4}-8 x^{2}+3)% tại bốn điểm phân biệt.",
+        "question_images": [],
+        "labelA": "%(m \\geq-\\frac{13}{4})%",
+        "labelB": "%(m \\leq \\frac{3}{4})%",
+        "labelC": "%(-\\frac{13}{4}\\lt m\\lt \\frac{3}{4})%",
+        "labelD": "%(-\\frac{13}{4} \\leq m \\leq \\frac{3}{4})%",
+        "correct_label": "labelC",
+        "solution": "Phương pháp:<br>Xét phương trình hoành độ giao điểm, cô lập %(m)% đưa về bài toán hàm số<br>Cách giải:<br>Xét phương trình hoành độ giao điểm ta có<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/8da303eb1aec949bbcf7e6952c0f0e16.png\" srcset=\"https://docdn.giainhanh.io/media/test/c51ae0d7175be98e59afb23ee3a33ea6.png 245w, https://docdn.giainhanh.io/media/test/6e7d9804da39cb965250f4bb755ce8ae.png 500w, https://docdn.giainhanh.io/media/test/07f83fc8eb2c9be96cdfb7e3e648b7e4.png 750w\" width=\"750\"/><br>Suy ra phương trình có 4 nghiệm phân biệt khi %(-13\\lt 4 m\\lt 3 \\Leftrightarrow \\frac{-13}{4}\\lt m\\lt \\frac{3}{4})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 29: ",
+        "point": 0.2,
+        "content": "Số cạnh của một hình chóp có 5 đỉnh là",
+        "question_images": [],
+        "labelA": "8",
+        "labelB": "10",
+        "labelC": "6",
+        "labelD": "12",
+        "correct_label": "labelA",
+        "solution": "Phương pháp<br>:Hình chóp có 5 đỉnh đáy có 4 đỉnh<br>Cách giải:<br>Hình chóp có 5 đỉnh đáy có 4 đỉnh nên có tất cả 8 cạnh",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 30: ",
+        "point": 0.2,
+        "content": "Cho khối chóp %((H))% có thể tích và diện tích đáy lần lượt kí hiệu là %(V)% và %(B)%. Chiều cao %(h)% của khối chóp %((H))% tính bởi công thức nào sau đây?",
+        "question_images": [],
+        "labelA": "%(h=\\frac{V}{3 B})%",
+        "labelB": "%(h=\\frac{V}{B})%",
+        "labelC": "%(h=\\frac{B}{3 V})%",
+        "labelD": "%(h=\\frac{3 V}{B})%",
+        "correct_label": "labelD",
+        "solution": "Phương pháp:<br>Công thức thể tích khối chóp %(V=\\frac{1}{3} h \\cdot B)%<br>Cách giải:<br>%(V=\\frac{1}{3} h \\cdot B \\Rightarrow h=\\frac{3 V}{B})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 31: ",
+        "point": 0.2,
+        "content": "Tọa độ điểm cực đại của đồ thị hàm số %(y=f(x))% là",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/dfa3262b526b535b8389e438e1301ae0.png"
+        ],
+        "labelA": "%(x=0)%",
+        "labelB": "%((-1 ;-4))%",
+        "labelC": "%((0 ;-3))%",
+        "labelD": "%((1 ;-4))%",
+        "correct_label": "labelC",
+        "solution": "Phương pháp:<br>Điểm cực đại có y’ đối dấu khi đi qua từ + sang -<br>Cách giải:<br>Từ BBT ta thấy hàm số có điểm cực đại là %((0,-3))%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 32: ",
+        "point": 0.2,
+        "content": "Giá trị cực đại của hàm số %(y = x^{3} - 6 x^{2} + 7)% là",
+        "question_images": [],
+        "labelA": "7",
+        "labelB": "-25",
+        "labelC": "-9",
+        "labelD": "2",
+        "correct_label": "labelA",
+        "solution": "Phương pháp:<br>Tính đạo hàm và lập bảng biến thiên<br>Cách giải:<br>%(y=x^{3}-6 x^{2}+7 \\Rightarrow y^{\\prime}=3 x^{2}-12 x=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\x=4\\end{array}\\right.)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/fe2eaa206a1e866b9ef1c9bc90d46fc9.png\" srcset=\"https://docdn.giainhanh.io/media/test/632f750d18de146e39372bc536b2dbe1.png 245w, https://docdn.giainhanh.io/media/test/1ea1dcc7e1b3daf2108d50e95667d830.png 500w\" width=\"500\"/><br>Từ bbt suy ra hàm số có giá trị cực đại bằng 7",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 33: ",
+        "point": 0.2,
+        "content": "Khối đa diện đều loại %(\\{p ; q\\})% thỏa %(q-p=1)% là",
+        "question_images": [],
+        "labelA": "Khối tứ diện đều",
+        "labelB": "Khối bát diện đều",
+        "labelC": "Khối lâp phương",
+        "labelD": "Khối mười hai măt đều",
+        "correct_label": "labelB",
+        "solution": "Cách giải:<br>Khối đa diện đều loại %(\\{p ; q\\})% thỏa %(q-p=1)% là %(\\{3,4\\})% là khối bát diện đều<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d2eedd3f3d254e9df3e38d6484e7a1d8.png\" srcset=\"https://docdn.giainhanh.io/media/test/c5b60df2fa4267d1b2a4b5c75fe76c30.png 245w, https://docdn.giainhanh.io/media/test/5d4d77c861b2a31077fe0d8d8bf48bf6.png 500w, https://docdn.giainhanh.io/media/test/aafef837998e7e11f0f0dfc30a8c6d3f.png 750w, https://docdn.giainhanh.io/media/test/59877852c73e99640781ed1197425e58.png 1000w\" width=\"1000\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 34: ",
+        "point": 0.2,
+        "content": "Gọi %(C)% là số cạnh của một hình đa diện bất kì. Khẳng định nào sau đây ĐÚNG?",
+        "question_images": [],
+        "labelA": "%(C \\leq 6)%",
+        "labelB": "%(C \\leq 7)%",
+        "labelC": "%(C \\geq 7)%",
+        "labelD": "%(C \\geq 6)%",
+        "correct_label": "labelD",
+        "solution": "Phương pháp:<br>Hình đa điện có số cạnh bé nhất là 6<br>Cách giải:<br>Hình đa điện có số cạnh bé nhất là 6 nên %(C \\ge 6)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 35: ",
+        "point": 0.2,
+        "content": "",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/8bc05e08ef0ac82d109d3254e9c14944.png"
+        ],
+        "labelA": "1",
+        "labelB": "%(|f(0)|)%",
+        "labelC": "2",
+        "labelD": "3",
+        "correct_label": "labelD",
+        "solution": "Phương pháp:<br>Đồ thị hàm số %(|f(x)|)% ta lấy đối xứng qua trục %(\\mathrm{Ox})%<br>Cách giải:<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/475c3da89c1dbd8ef998039d969a9d0f.png\" srcset=\"https://docdn.giainhanh.io/media/test/15f8702d40a6a8c64cc63b494159019e.png 224w, https://docdn.giainhanh.io/media/test/8279bcd3a561fc4cfcd3c79ff239b1a9.png 500w\" width=\"500\"/><br>Từ đồ thị hàm số %(y=f(x))% ta vẽ đối xứng qua trục %(O x)% được đồ thị %(|f(x)|)%<br>Vậy %(\\max _{[-2 ; 4]}|f(x)|=3)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 36: ",
+        "point": 0.2,
+        "content": "Đồ thị hàm số %(y=\\frac{6 x+7}{6-2 x})% có đường tiệm cận đứng, đường tiệm cận ngang lần lượt là:",
+        "question_images": [],
+        "labelA": "%(x=3 ; \\quad y=1)%",
+        "labelB": "%(x=-3 ; \\quad y=3)%",
+        "labelC": "%(x=3 ; \\quad y=-3)%",
+        "labelD": "%(x=1 ; \\quad y=3)%",
+        "correct_label": "labelC",
+        "solution": "Phương pháp:<br>Hàm số %(y=\\frac{a x+b}{c x+d})% có tiệm cận đứng %(x=-\\frac{d}{c})% và tiệm cận ngang %(y=\\frac{a}{c})%<br>Cách giải:<br>%(y=\\frac{6 x+7}{6-2 x})% có tiệm cận đứng %(\\mathrm{x}=3)% và tiệm cận ngang %(\\mathrm{y}=-3)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 37: ",
+        "point": 0.2,
+        "content": "Cho hàm số %(y=f(x))% liên tục trên %(\\mathbb{R})% với bảng xét dấu đạo hàm như sau:<br>Số điểm cực tiểu của hàm số %(y=f(x))% là",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/1f9dc62dc21d6524ce95c416d776e0bf.png"
+        ],
+        "labelA": "3",
+        "labelB": "1",
+        "labelC": "0",
+        "labelD": "2",
+        "correct_label": "labelB",
+        "solution": "Phương pháp:<br>Điểm cực tiểu là y’ đi qua đổi dấu từ - sang +<br>Cách giải:<br>Từ bbt ta thấy hàm số có 1 điểm cực tiểu",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 38: ",
+        "point": 0.2,
+        "content": "Cho hàm số %(y=m x^{4}+(m-1) x^{2}+3)%. Tìm tất cả các giá trị thực của tham số %(m)% để hàm số có ba điểm cực trị.",
+        "question_images": [],
+        "labelA": "%(m \\in(-\\infty ; 0) \\cup[1 ;+\\infty))%",
+        "labelB": "%(m \\in(0 ; 1))%",
+        "labelC": "%(m \\in(-\\infty ; 0] \\cup[1 ;+\\infty))%",
+        "labelD": "%(m \\in[0 ; 1])%",
+        "correct_label": "labelB",
+        "solution": "Phương pháp:<br>Hàm số bậc 4 trùng phương có 3 điểm cực trị khi %(a b\\lt 0)%<br>Cách giải:<br>%(y=m x^{4}+(m-1) x^{2}+3)% có 3 điểm cực trị khi %(m(m-1)\\lt 0 \\Leftrightarrow 0\\lt m\\lt 1)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 39: ",
+        "point": 0.2,
+        "content": "Gọi %((C))% là đồ thị của hàm số %(y=\\frac{x^{2}}{2-x})%. Viết %(\\mathrm{PT})% tiếp tuyến của %((C))% vuông góc với đường thẳng %(y=\\frac{4}{3} x+1)%.",
+        "question_images": [],
+        "labelA": "%((d): y=\\frac{3}{4} x-\\frac{9}{2}, y=\\frac{3}{4} x-\\frac{1}{2})%",
+        "labelB": "%((d): y=-\\frac{3}{4} x-\\frac{9}{2}, y=-\\frac{3}{4} x-\\frac{1}{2})%",
+        "labelC": "%((d): y=-\\frac{3}{4} x-\\frac{7}{2}, y=-\\frac{3}{4} x-\\frac{1}{2})%",
+        "labelD": "%((d): y=-\\frac{3}{4} x, y=-\\frac{3}{4} x-1)%",
+        "correct_label": "labelB",
+        "solution": "Phương pháp:<br>Phương trình tiếp tuyến của hàm số %(f(x))% tại điểm %(x_{0})% là %(y_{t t}=y^{\\prime}\\left(x_{0}\\right)\\left(x-x_{0}\\right)+y_{0})%<br>Cách giải:<br>%(\\begin{array}{l}y=\\frac{x^{2}}{2-x} \\Rightarrow y^{\\prime}=\\frac{2 x(2-x)+1 x^{2}}{(2-x)^{2}}=\\frac{4 x-2 x^{2}+x^{2}}{(2-x)^{2}}=\\frac{4 x-x^{2}}{(2-x)^{2}} \\\\Rightarrow y^{\\prime}\\left(x_{0}\\right)=\\frac{4 x_{0}-x_{0}^{2}}{\\left(2-x_{0}\\right)^{2}}\\end{array})%<br>Do tiếp tuyến tại %(x_{0})% vuông góc với %(y=\\frac{4}{3} x+1)% nên ta có phương trình<br>%(\\begin{array}{l}\\frac{4 x_{0}-x_{0}^{2}}{\\left(2-x_{0}\\right)^{2}} \\cdot \\frac{4}{3}=-1 \\\\Leftrightarrow 4\\left(4 x_{0}-x_{0}^{2}\\right)=-3\\left(2-x_{0}\\right)^{2} \\\\Leftrightarrow 16 x_{0}-4 x_{0}^{2}=-12+12 x_{0}-3 x_{0}^{2} \\\\Leftrightarrow x_{0}^{2}-4 x_{0}-12=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x_{0}=6 \\Rightarrow y_{0}=-9 \\Rightarrow y_{t t}=-\\frac{3}{4}(x-6)-9=-\\frac{3}{4} x-\\frac{9}{2} \\x_{0}=-2 \\Rightarrow y_{0}=1 \\Rightarrow y_{t t}=-\\frac{3}{4}(x+2)+1=-\\frac{3}{4} x-\\frac{1}{2}\\end{array}\\right.\\end{array})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 40: ",
+        "point": 0.2,
+        "content": "Cho hàm số %(y=\\frac{2 x-3}{x-2})% có đồ thị %((C))%. Một tiếp tuyến của %((C))% cắt hai tiệm cận của %((C))% tại hai điểm %(A, B)% và %(A B=2 \\sqrt{2})%. Hệ số góc của tiếp tuyến đó bằng",
+        "question_images": [],
+        "labelA": "%(-\\sqrt{2})%",
+        "labelB": "-2",
+        "labelC": "%(-\\frac{1}{2})%",
+        "labelD": "-1",
+        "correct_label": "labelD",
+        "solution": "Phương pháp:<br>Xác định 2 đường tiệm cậnGọi tọa độ %(\\mathrm{A}, \\mathrm{B})%. Lập phương trình tìm tọa độ %(\\mathrm{A}, \\mathrm{B})% thỏa mãn.<br>Cách giải:<br>ТХĐ: %(D=R \\backslash\\{2\\})%<br>%(y=\\frac{2 x-3}{x-2}(\\mathrm{C}))% có 2 đường tiệm cận: %(x=2, y=2)%<br>Ta có %(y^{\\prime}=\\frac{-1}{(x-2)^{2}})%<br>Gọi %(M\\left(x_{0} ; y_{0}\\right),\\left(x_{0} \\neq 0\\right))% là tiếp điểm. Tiếp tuyến của %((\\mathrm{C}))% tại %(\\mathrm{M})% có phương trình :<br>%(y=y^{\\prime}\\left(x_{0}\\right)\\left(x-x_{0}\\right)+y_{0} \\Leftrightarrow y=-\\frac{x-x_{0}}{\\left(x_{0}-2\\right)^{2}}+\\frac{2 x_{0}-3}{x_{0}-2})%<br>Cho %(x=2 \\Rightarrow y=\\frac{1}{x_{0}-2}+\\frac{2 x_{0}-3}{x_{0}-2}=\\frac{2 x_{0}-2}{x_{0}-2} \\Rightarrow(d))% cắt TCĐ của (C) tại điểm %(A\\left(2 ; \\frac{2 x_{0}-2}{x_{0}-2}\\right))%.<br>Cho %(y=2 \\Rightarrow 2=-\\frac{x-x_{0}}{\\left(x_{0}-2\\right)^{2}}+\\frac{2 x_{0}-3}{x_{0}-2} \\Leftrightarrow 2\\left(x_{0}-2\\right)^{2}=-x+x_{0}+\\left(2 x_{0}-3\\right)\\left(x_{0}-2\\right))%%(\\Leftrightarrow 2 x_{0}^{2}-8 x_{0}+8=-x+x_{0}+2 x_{0}^{2}-7 x_{0}+6 \\Leftrightarrow x=2 x_{0}-2 \\Rightarrow(d))% cắt TCN của %((\\mathrm{C}))% tại điểm %(B\\left(2 x_{0}-2 ; 2\\right))%<br>Độ dài đoạn %(A B)% :<br>%(\\left . \\begin{matrix} \\sqrt{\\left( 2 - \\left( 2 x_{0} - 2 \\right ) \\right )^{2} + \\left( \\frac{2 x_{0} - 2}{x_{0} - 2} - 2 \\right )^{2}} = 2 \\sqrt{2} \\\\ \\Leftrightarrow 4 \\left( x_{0} - 2 \\right )^{2} + \\left( \\frac{2}{x_{0} - 2} \\right )^{2} = 8 \\\\ \\Leftrightarrow \\left( x_{0} - 2 \\right )^{4} - 2 \\left( x_{0} - 2 \\right )^{2} + 1 = 0 \\\\ \\Leftrightarrow \\left[ \\left( x_{0} - 2 \\right )^{2} - 1 \\right ]^{2} = 0 \\\\ \\Leftrightarrow \\left( x_{0} - 2 \\right )^{2} = 1 \\end{matrix} \\right .)%<br>Hệ số góc của tiếp tuyến %(y^{\\prime}\\left(x_{0}\\right)=-\\frac{1}{\\left(x_{0}-2\\right)^{2}}=-\\frac{1}{1}=-1)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 41: ",
+        "point": 0.2,
+        "content": "Hàm số %(y=\\frac{2 x-m^{2}}{x+1})% có giá trị lớn nhất trên đoạn %([0 ; 1])% bằng -1 khi.",
+        "question_images": [],
+        "labelA": "%(\\left[\\begin{array}{l}m=-1 \\\\ m=1\\end{array}\\right.)%",
+        "labelB": "%(m=4)%",
+        "labelC": "%(m=8)%",
+        "labelD": "%(\\left[\\begin{array}{l}m=2 \\\\ m=-2\\end{array}\\right.)%",
+        "correct_label": "labelD",
+        "solution": "Phương pháp:<br>Tính đạo hàm tìm GTLN<br>Cách giải:<br>%(y=\\frac{2 x-m^{2}}{x+1} \\Rightarrow y^{\\prime}=\\frac{2(x+1)-\\left(2 x-m^{2}\\right)}{(x+1)^{2}}=\\frac{2+m^{2}}{(x+1)^{2}}\\gt 0, \\forall x)%<br>Suy ra hàm số luôn đồng biến trên các khoảng %((-\\infty,-1),(-1,+\\infty))%<br>Suy ra hàm số luôn đồng biến trên [0,1]<br>Vậy hàm số đạt giá trị lớn nhất trên khoảng %([0,1])% bằng %(y(1)=\\frac{2-m^{2}}{2}=-1)%<br>%(\\Leftrightarrow 2-m^{2}=-2 \\Leftrightarrow m^{2}=4 \\Leftrightarrow m= \\pm 2)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 42: ",
+        "point": 0.2,
+        "content": "Mệnh đề nào sau đây đúng",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/8a376276eb155812ddf4d1ed63fa6ad7.png"
+        ],
+        "labelA": "%(\\max _{(0 ;+\\infty)} f(x)=f(1))%",
+        "labelB": "%(\\max _{(-1 ; 1]} f(x)=f(0))%",
+        "labelC": "%(\\min _{(-\\infty ;-1)} f(x)=f(-1))%",
+        "labelD": "%(\\min _{(-1 ;+\\infty)} f(x)=f(0))%",
+        "correct_label": "labelA",
+        "solution": "Phương pháp:<br>Từ BBT suy ra các GTNN trên các đoạn<br>Cách giải:<br>Từ BBT suy ra %(\\max _{(0 ;+\\infty)} f(x)=f(1))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/631514ca69c63482c2f345430355b2b6.png\" srcset=\"https://docdn.giainhanh.io/media/test/e345e9e86eb3ae0b4c9ab224eab677b5.png 245w, https://docdn.giainhanh.io/media/test/9b86c181ff8184fa65e7ca62d0da9624.png 500w\" width=\"500\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 43: ",
+        "point": 0.2,
+        "content": "Số điểm cực trị của hàm số %(y=f(x))% là",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/375fbfc1236dbb38c3dd388e66d2c408.png"
+        ],
+        "labelA": "4",
+        "labelB": "0",
+        "labelC": "2",
+        "labelD": "3",
+        "correct_label": "labelB",
+        "solution": "Phương pháp:<br>Số điểm cực trị là số nghiệm của phương trình %(f^{\\prime}(x)=0)%.<br>Lưu ý không lấy các nghiệm bội<br>Cách giải:<br>Từ đồ thị hàm số suy ra %(f^{\\prime}(x) \\geq 0, \\forall x)% nên hàm số không có điểm cực trị",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 44: ",
+        "point": 0.2,
+        "content": "Cho hàm số %(y=f(x))% có đạo hàm liên tục trên %(\\mathbb{R})%. Đồ thị hàm số %(y=f^{\\prime}(x))% như hình vẽ sau:<br>Số điểm cực trị của hàm số %(y=f(x)-5 x)% là:",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/b4e0dced401a9babd2efbe3cd7c77d00.png"
+        ],
+        "labelA": "2",
+        "labelB": "3",
+        "labelC": "4",
+        "labelD": "1",
+        "correct_label": "labelD",
+        "solution": "Phương pháp:<br>Tính y' và tìm số nghiệm của phương trình %(y^{\\prime}=0)%. Lưu ý không lấy các nghiệm bội chẵn<br>Cách giải:<br>%(\\begin{array}{l}y=f(x)-5 x \\Rightarrow y^{\\prime}=f^{\\prime}(x)-5 \\\\Rightarrow y^{\\prime}=0 \\Leftrightarrow f^{\\prime}(x)=5\\end{array})%<br>Từ đồ thị suy ra phương trình %(f^{\\prime}(x)=5)% có 1 ngiệm duy nhất<br>Vậy hàm số %(y=f(x)-5 x)% có đúng 1 điểm cực trị.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 45: ",
+        "point": 0.2,
+        "content": "Gọi %(M, m)% lần lượt là giá trị lớn nhất, giá trị nhỏ nhất của hàm số %(y=-x^{4}+8 x^{2}-2)% trên %([-3 ; 1])%. Tính %(M+m)%.",
+        "question_images": [],
+        "labelA": "-6",
+        "labelB": "-25",
+        "labelC": "3",
+        "labelD": "-48",
+        "correct_label": "labelC",
+        "solution": "Phương pháp:<br>Tính đạo hàm lập bảng biến thiên trên đoạn [-3;1]<br>Cách giải:<br>%(y=-x^{4}+8 x^{2}-2 \\Rightarrow y^{\\prime}=-4 x^{3}+16 x=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\x= \\pm 2\\end{array}\\right.)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/8d3475727538f062f49640f46e10ffb2.png\" srcset=\"https://docdn.giainhanh.io/media/test/39b4bfad4e56cb3df92f5b3f09e0347c.png 245w, https://docdn.giainhanh.io/media/test/00c05ae6b84f9bd8c4fca0df2c3c7fd5.png 500w, https://docdn.giainhanh.io/media/test/c6ea95ecb9432f718c3d661176b507c8.png 750w\" width=\"750\"/><br>Từ BBT suy ra hàm số đạt GTLN bằng %(\\mathrm{M}=14)%, đạt GTNN bằng %(m=-11)%<br>%(\\mathrm{M}+m=3)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 46: ",
+        "point": 0.2,
+        "content": "Giá trị lớn nhất của hàm số %(y=\\frac{x^{2}-8 x+7}{x^{2}+1})% là.",
+        "question_images": [],
+        "labelA": "%(\\max y=10)%",
+        "labelB": "%(\\max y=1)%",
+        "labelC": "%(\\max y=-1)%",
+        "labelD": "%(\\max y=9)%",
+        "correct_label": "labelD",
+        "solution": "Phương pháp:<br>Tính đạo hàm lập bảng biến thiênLưu ý về các đường %(\\mathrm{TCN})%<br>Cách giải:<br>%(\\begin{array}{l}y=\\frac{x^{2}-8 x+7}{x^{2}+1} \\Rightarrow y^{\\prime}=\\frac{(2 x-8)\\left(x^{2}+1\\right)-2 x\\left(x^{2}-8 x+7\\right)}{\\left(x^{2}+1\\right)^{2}}=\\frac{8 x^{2}-6 x-8}{\\left(x^{2}+1\\right)^{2}} \\\\Rightarrow y^{\\prime}=0 \\Leftrightarrow\\left[\\begin{array}{l}x=2 \\x=-\\frac{1}{2}\\end{array}\\right.\\end{array})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5c618ed1652fe568cec1901dff9c6307.png\" srcset=\"https://docdn.giainhanh.io/media/test/454fa0a8cf15753f83df600fa6706df9.png 245w, https://docdn.giainhanh.io/media/test/0b48f0364a152602c1cdc10208d58ee0.png 500w\" width=\"500\"/><br>Từ BBT suy ra hàm số đạt GTLN bằng 9",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 47: ",
+        "point": 0.2,
+        "content": "Cho hàm số %(y=f(x))% có đạo hàm trên %(\\mathbb{R})%. Đồ thị hàm số %(y=f^{\\prime}(x))% như hình bên. Hỏi đồ thị hàm số %(y=f(x)-2 x)% có bao nhiêu điểm cực trị?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/61b3d84fe722fff252facd7fc49adf6b.png"
+        ],
+        "labelA": "3",
+        "labelB": "2",
+        "labelC": "1",
+        "labelD": "4",
+        "correct_label": "labelA",
+        "solution": "Phương pháp:<br>Tính y' và tìm số nghiệm y' = 0 . Lưu ý các điểm cực trị là các điểm mà %(f^{\\prime})% đi qua đổi dấu.<br>Cách giải:<br>%(\\begin{array}{l}y=f(x)-2 x \\Rightarrow y^{\\prime}=f^{\\prime}(x)-2 \\\\Rightarrow y^{\\prime}=0 \\Leftrightarrow f^{\\prime}(x)=2\\end{array})%<br>Từ đồ thị ta thấy phương trình %(f^{\\prime}(x)=2)% có 4 nghiệm nhưng tại %(x=2)% không là cực trị do %(f^{\\prime}(x))% không đổi dấu khi đi qua nên hàm số %(y=f(x)-2 x)% có 3 điểm cực trị<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b39a3f2b9cc8f1aa1c125fa55dc9137a.png\" srcset=\"https://docdn.giainhanh.io/media/test/f1090843fdb4f29966f5c7c6bfc95bd2.png 245w, https://docdn.giainhanh.io/media/test/9f5e2d83104c6ef15c117bd0fa309299.png 500w\" width=\"500\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 48: ",
+        "point": 0.2,
+        "content": "Giá trị nhỏ nhất của hàm số %(y=\\frac{x+1}{2 x+1})% trên đoạn %([2 ; 4])% là.",
+        "question_images": [],
+        "labelA": "%(\\min _{[2 ; 4]} y=\\frac{5}{9})%",
+        "labelB": "%(\\min _{[2 ; 4]} y=\\frac{3}{5})%",
+        "labelC": "%(\\min _{[2 ; 4]} y=2)%",
+        "labelD": "%(\\min _{[2 ; 4]} y=4)%",
+        "correct_label": "labelA",
+        "solution": "Phương pháp:<br>Tính y’ và lập BBT trên đoạn [2,4]<br>Cách giải:<br>%(y=\\frac{x+1}{2 x+1} \\Rightarrow y^{\\prime}=\\frac{-1}{(2 x+1)^{2}}\\lt 0)% nên hàm số nghịch biến trên các khoảng %(\\left(-\\infty,-\\frac{1}{2}\\right),\\left(-\\frac{1}{2},+\\infty\\right))%<br>Suy ra hàm số nghịch biến trên khoảng [2,4]<br>%(\\Rightarrow \\min _{[2 ; 4]} y=y(4)=\\frac{5}{9})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 49: ",
+        "point": 0.2,
+        "content": "Cho hàm số %(y=x^{3}-3 x+2)% có đồ thị là hình bên dưới. Tìm tất cả các giá trị thực của tham số %(m)% để phương trình %(-2 x^{3}+6 x+m-1=0)% có 3 nghiệm phân biệt, trong đó có 2 nghiệm âm.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/36e7b0c2a3587949a484089ff3e9c83f.png"
+        ],
+        "labelA": "%(1\\lt m\\lt 5)%",
+        "labelB": "%(0\\lt m\\lt 4)%",
+        "labelC": "%(0\\lt m\\lt 2)%",
+        "labelD": "%(2\\lt m\\lt 4)%",
+        "correct_label": "labelA",
+        "solution": "Phương pháp:<br>Đưa phương trình %(-2 \\mathrm{x}^{3}+6 \\mathrm{x}+\\mathrm{m}-1=0 \\Leftrightarrow x^{3}-3 x+2=\\frac{m-1}{2}+2)% và tìm số giao điểm trên đồ thị<br>Cách giải:<br>\\[\\begin{array}{l}-2 x^{3}+6 x+m-1=0 . \\\\Leftrightarrow 2 x^{3}-6 x=m-1 \\\\Leftrightarrow x^{3}-3 x=\\frac{m-1}{2} \\\\Leftrightarrow x^{3}-3 x+2=\\frac{m-1}{2}+2 \\\\Leftrightarrow x^{3}-3 x+2=\\frac{m+3}{2}\\end{array}\\]<br>Vậy phương trình có 3 nghiệm trong đó có 2 nghiệm âm khi %(2\\lt \\frac{m+3}{2}\\lt 4 \\Leftrightarrow 1\\lt m\\lt 5)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/2921b1293cf8f233871446b452daf2ad.png\" srcset=\"https://docdn.giainhanh.io/media/test/280fb8f88ade856c4f432cf9bc98e51b.png 241w\" width=\"241\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 50: ",
+        "point": 0.2,
+        "content": "Cho hàm số %(y=f(x)=x^{2}-\\frac{2}{x}+1)% có đồ thị %((C))%. Tiếp tuyến của %((C))% tại điểm có hoành độ %(x=2)% có hệ số góc bằng?",
+        "question_images": [],
+        "labelA": "%(\\frac{7}{2})%",
+        "labelB": "%(\\frac{9}{4})%",
+        "labelC": "4",
+        "labelD": "%(\\frac{9}{2})%",
+        "correct_label": "labelD",
+        "solution": "Phương pháp:<br>Tiếp tuyến của %((C))% tại điểm có hoành độ %(x=2)% có hệ số góc là %(y^{\\prime}(2))%<br>Cách giải:<br>%(y^{\\prime}=2 x+\\frac{2}{x^{2}})%<br>Tiếp tuyến của %((C))% tại điểm có hoành độ %(x=2)% có hệ số góc là %(y^{\\prime}(2)=2.2+\\frac{2}{4}=\\frac{9}{2})%",
+        "question_type": "quiz"
+    }
+]

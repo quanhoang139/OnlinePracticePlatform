@@ -1,0 +1,72 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Tìm số hạng không chứa biễn %(x)% của khai triển<br>\\[\\left(x^{3}+\\frac{1}{x^{4}}\\right)^{21} \\quad(x \\neq 0)\\]",
+        "question_images": [],
+        "solution": "Số hạng tổng quát (hay số hạng thứ k+1) của khai triển là:<br>\\[\\begin{aligned}T_{k+1} & =C_{21}^{k} \\cdot\\left(x^{3}\\right)^{21-k} \\cdot\\left(\\frac{1}{x^{4}}\\right)^{k} \\\\& =C_{21}^{k} x^{63-7 k}\\end{aligned}\\]<br>Vì sồ hạng cần tìm không chứa biến %(\\mathrm{x})%<br>\\[\\begin{array}{l}\\Rightarrow x^{63-7 k}=x^{0} \\Leftrightarrow 63-7 k=0 \\\\Leftrightarrow k=9 \\text {. }\\end{array}\\]<br>Vậy số hạng không chứa biến %(\\mathrm{x})% của khai triển là:<br>\\[\\mathrm{T}_{10}=\\mathrm{C}_{21}^{9}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Trong một lớp học có 20 học sinh nữ và 15 học sinh nam. Giáo viên chủ nhiệm chọn ngẫu nhiên 4 học sinh làm ban cán sự lớp. Tính xác suất của các biến cố sau:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) A:’’ Chọn được ban cán sự lớp chỉ có 1 nữ ’’",
+        "question_images": [],
+        "solution": "Một lớp học có 20 học sinh nữ và 15 học sinh nam.<br>Giáo viên chủ nhiệm chọn 4 học sinh làm ban cán sự lớp. Số phần tử của không gian mẫu %(\\Omega)% là %(|\\Omega|=C_{35}^{4})%<br>Biến cố A:\" Chọn được ban cán sự lớp chí có 1 nữ \"<br>Vậy số phần tử của biến cố %(\\mathrm{A})% là %(\\Rightarrow\\left|\\Omega_{\\mathrm{A}}\\right|=\\mathrm{C}_{20}^{1} . \\mathrm{C}_{15}^{3})%<br>Xác suất là %(: P(A)=\\frac{\\left|\\Omega_{A}\\right|}{|\\Omega|}=\\frac{C_{20}^{1} \\cdot C_{15}^{3}}{C_{35}^{4}}=\\frac{65}{374})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) B:’’ Chọn được ban cán sự lớp có cả nam và nữ ’’",
+        "question_images": [],
+        "solution": "Biến cố B:\" Chọn được ban cán sự lớp có cá nam và nữ \"<br>%(\\mathrm{TH} 1)%: Số cách chọn 1 nam , 3 nữ là : %(\\mathrm{C}_{15}^{1} \\cdot \\mathrm{C}_{20}^{3})%<br>%(\\mathrm{TH} 2)% :Số cách chọn 2 nam , 2 nữ là : %(\\mathrm{C}_{15}^{2} \\cdot \\mathrm{C}_{20}^{2})%<br>%(\\mathrm{TH3})% :Sô cách chọn 3 nam , 1 nữ là : %(\\mathrm{C}_{15}^{3} \\cdot \\mathrm{C}_{20}^{1})%<br>Vậy số phần tử của biến cố %(\\mathrm{B})% là<br>\\[\\Rightarrow\\left|\\Omega_{B}\\right|=C_{20}^{3} \\cdot C_{15}^{1}+C_{20}^{2} \\cdot C_{15}^{2}+C_{20}^{1} \\cdot C_{15}^{3}\\]<br>Xác suất là:<br>\\[\\mathrm{P}(\\mathrm{B})=\\frac{\\left|\\Omega_{\\mathrm{B}}\\right|}{|\\Omega|}=\\frac{\\mathrm{C}_{20}^{3} \\cdot \\mathrm{C}_{15}^{1}+\\mathrm{C}_{20}^{2} \\cdot \\mathrm{C}_{15}^{2}+\\mathrm{C}_{20}^{1} \\cdot C_{15}^{3}}{\\mathrm{C}_{35}^{4}}=\\frac{4615}{5236}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 0.5,
+        "content": "Sau bữa tiệc tất niên, mỗi người bắt tay một lần với mỗi người khác trong phòng dự tiệc.Có tất cả 190 lượt bắt tay.Hỏi trong phòng có bao nhiêu người tham dự tiệc ?",
+        "question_images": [],
+        "solution": "Cứ 2 người sẽ có 1 lần băt tay. Vậy số lần bắt tay là :<br>\\[\\begin{array}{l}C_{n}^{2}(n \\in N ; n \\geq 2) \\C_{n}^{2}=190 \\Leftrightarrow \\frac{n!}{2!(n-2)!}=190 \\Leftrightarrow n(n-1)=380 \\\\Leftrightarrow\\left[\\begin{array}{l}n=20 \\text { (nhan) } \\n=-19 \\text { (loai) }\\end{array}\\right.\\end{array}\\]<br>Vậy trong phòng có 20 người tham dự tiệc.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho hình chóp S.ABCD có đáy %(A B C D)% là hình bình hành tâm %(O)%. Gọi %(M, N)% lần lượt là trung điểm của %(C D)% và %(S A)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Tìm giao tuyến của hai mặt phằng (SAC) và (SBD).",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}S \\in(S A C) \\cap(S B D)(1) \\\\ \\text { Vi } A C \\cap B D=0 \\\\ \\left\\{\\begin{array}{l}0 \\in A C \\subset(S A C) \\Rightarrow O \\in(S A C) \\\\ O \\in B D \\subset(S B D) \\Rightarrow O \\in(S B D)\\end{array} \\Rightarrow O \\in(S A C) \\cap(S B D)(2)\\right. \\\\ \\text { Từ }(1) \\text { và }(2) \\Rightarrow S O=(S A C) \\cap(S B D)\\end{array})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f7c46ee16e03a6cf4001694e88fb8741.png\" srcset=\"https://docdn.giainhanh.io/media/test/aca4e408a40f9dca329b5e4faf588876.png 160w\" width=\"160\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Tìm giao điểm H của SB với mp(CMN).",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\left\\{\\begin{array}{l}\\mathrm{N} \\in(\\mathrm{SAB}) \\cap(\\mathrm{CMN}) \\\\ \\mathrm{CM} / / \\mathrm{AB}(\\mathrm{AB} / / \\mathrm{CD} ; \\mathrm{M} \\in \\mathrm{CD}) \\\\ \\mathrm{AB} \\subset(\\mathrm{SAB}), \\mathrm{CM} \\subset(\\mathrm{CMN}) \\\\ \\mathrm{Nx}=(\\mathrm{SAB}) \\cap(\\mathrm{CMN})\\end{array}\\right. \\\\ \\Rightarrow \\mathrm{Nx} / / \\mathrm{AB} / / \\mathrm{CM} .\\end{array})%<br>Trong (SAB), gọi %(H=N x \\cap S B)%<br>%(\\begin{array}{l}\\left\\{\\begin{array}{l}H \\in S B \\\\ H \\in N x, N x \\subset(C M N)\\end{array}\\right] H \\in(C M N) \\\\ \\Rightarrow H=S B \\cap(C M N) .\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Chứng minh: %(\\mathrm{MN} / /(\\mathrm{SBC}))%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\left\\{\\begin{array}{l}\\mathrm{OM} / / \\mathrm{BC}(\\mathrm{dtb} \\triangle \\mathrm{BCD}) \\\\ \\mathrm{ON} / / \\mathrm{SC}(\\mathrm{dtb} \\triangle \\mathrm{SAC})\\end{array} \\Rightarrow(\\mathrm{OMN}) / /(\\mathrm{SBC})\\right. \\\\ \\left\\{\\begin{array}{l}(\\mathrm{OMN}) / /(\\mathrm{SBC}) \\\\ \\mathrm{MN} \\subset(\\mathrm{OMN})\\end{array} \\Rightarrow \\mathrm{MN} / /(\\mathrm{SBC})\\right.\\end{array})%",
+        "question_type": "essay"
+    }
+]

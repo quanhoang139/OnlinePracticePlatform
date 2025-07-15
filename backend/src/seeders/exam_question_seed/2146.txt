@@ -1,0 +1,127 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "Cho hai biểu thức %(P=\\left(\\frac{x-6 \\sqrt{x}+1}{x-1}-\\frac{\\sqrt{x}-1}{\\sqrt{x}+1}\\right): \\frac{x+4}{1-x})% và %(Q=\\frac{\\sqrt{x}}{x+4})% (với %(\\left.x \\geq 0 ; x \\neq 1\\right))%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Tính giá trị biểu thức %(Q)% với %(x=4)%",
+        "question_images": [],
+        "solution": "Theo bài ra %(Q=\\frac{\\sqrt{x}}{x+4})% với %(x \\geq 0 ; x \\neq 1)%<br>Thay %(x=4)% (thỏa mãn điều kiện) vào biểu thức %(Q)% ta có: %(Q=\\frac{\\sqrt{4}}{4+4}=\\frac{2}{8}=\\frac{1}{4})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.5,
+        "content": "Chứng minh rằng %(P=4 Q)%.",
+        "question_images": [],
+        "solution": "Với %(x \\geq 0 ; x \\neq 1)% ta có:<br>\\[\\begin{array}{l}P=\\left(\\frac{x-6 \\sqrt{x}+1}{x-1}-\\frac{\\sqrt{x}-1}{\\sqrt{x}+1}\\right): \\frac{x+4}{1-x} \\P=\\left[\\frac{x-6 \\sqrt{x}+1}{(\\sqrt{x}-1)(\\sqrt{x}+1)}-\\frac{\\sqrt{x}-1}{\\sqrt{x}+1}\\right]: \\frac{x+4}{1-x} \\P=\\frac{x-6 \\sqrt{x}+1-(\\sqrt{x}-1)^{2}}{(\\sqrt{x}-1)(\\sqrt{x}+1)} \\cdot \\frac{1-x}{x+4} \\P=\\frac{x-6 \\sqrt{x}+1-x+2 \\sqrt{x}-1}{x-1} \\cdot \\frac{1-x}{x+4} \\P=\\frac{-4 \\sqrt{x}}{x-1} \\cdot \\frac{-(x-1)}{x+4} \\P=\\frac{4 \\sqrt{x}}{x+4} \\P=4 \\cdot \\frac{\\sqrt{x}}{x+4}=4 \\cdot Q\\end{array}\\]<br>Vậy %(P=4 Q)% với %(x \\geq 0 ; x \\neq 1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 0.5,
+        "content": "Tìm tất cả các giá trị của %(x)% để %(P)% nhận giá trị là số nguyên.",
+        "question_images": [],
+        "solution": "Ta có %(P=\\frac{4 \\sqrt{x}}{x+4})% với %(x \\geq 0 ; x \\neq 1)%.<br>Với %(x \\geq 0 ; x \\neq 1)% ta có %(4 \\sqrt{x} \\geq 0 ; x+4\\gt 0 \\Rightarrow P=\\frac{4 \\sqrt{x}}{x+4} \\geq 0)% (1)<br>Ta cũng có: %(P=\\frac{x+4-(x-4 \\sqrt{x}+4)}{x+4}=1-\\frac{(\\sqrt{x}-2)^{2}}{x+4} \\leq 1)% với %(x \\geq 0 ; x \\neq 1)%<br>Do đó %(P=\\frac{4 \\sqrt{x}}{x+4} \\leq 1(2))%<br>Từ (1) và %((2) \\Rightarrow 0 \\leq P \\leq 1)%.<br>Mà %(P)% nhận giá trị là số nguyên nên %(P \\in\\{0 ; 1\\})%.<br>+ Với %(P=0 \\Leftrightarrow \\frac{4 \\sqrt{x}}{x+4}=0 \\Leftrightarrow \\sqrt{x}=0 \\Leftrightarrow x=0)% (thỏa mãn)<br>+ Với %(P=1 \\Leftrightarrow \\frac{4 \\sqrt{x}}{x+4}=1 \\Leftrightarrow x+4=4 \\sqrt{x} \\Leftrightarrow x+4-4 \\sqrt{x}=0 \\Leftrightarrow(\\sqrt{x}-2)^{2}=0)%%(\\Leftrightarrow \\sqrt{x}-2=0 \\Leftrightarrow x=4)% (thỏa mãn).<br>Vậy %(x \\in\\{0 ; 4\\})% thì %(P)% nhận giá trị là số nguyên.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 1.0,
+        "content": "Giải bài toán bằng cách lập phương trình hoặc hệ phương trình:<br>Hai đội sản xuất lập kế hoạch làm chung 7000 sản phẩm trong một thời gian nhất định. Do đã hết ảnh hưởng của dịch COVID nên năng suất đội I tăng %(15 \\%)%, đội II tăng %(20 \\%)%. Vì thế, trong thời gian quy định, cả hai đội đã làm được 8200 sản phẩm. Hỏi theo kế hoạch mỗi đội phải làm bao nhiêu sản phẩm?",
+        "question_images": [],
+        "solution": "Gọi số sản phẩm đội I phải làm theo kế hoạch là %(x)% (sản phẩm, %(\\mathrm{x} \\in \\mathbb{Z}^{+}, x\\lt 7000)% ).<br>Thì số sản phẩm đội II phải làm theo kế hoạch là: %(7000-x)% (sản phẩm).<br>Thực tế, số sản phẩm đội I tăng: %(\\frac{15 x}{100})% (sản phẩm).<br>Số sản phẩm đội II tăng: %(\\frac{20(7000-x)}{100})% (sản phẩm).<br>Cả hai đội tăng: %(8200-7000=1200)% (sản phẩm).<br>Nên ta có phương trình: %(\\frac{15 x}{100}+\\frac{20(7000-x)}{100}=1200)%<br>\\[\\begin{array}{l}\\Leftrightarrow 15 x+20(7000-x)=120000 \\Leftrightarrow 15 x+140000-20 x=120000 \\\\Leftrightarrow-5 x=-20000 \\Leftrightarrow x=4000 \\text { (TMĐK) }\\end{array}\\]<br>Vậy theo kế hoạch, đội I phải làm: 4000 (sản phẩm).<br>đội II phải làm: %(7000-4000=3000)% (sản phẩm).",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 1.0,
+        "content": "Người ta làm một chiếc bồn chứa nguyên liệu có phần trên dạng một hình trụ rỗng, phần dưới dạng hình nón với mặt cắt và các kích thước như hình vẽ. Hỏi bồn chứa được bao nhiêu mét khối (coi bề dày của thành không đáng kể. Lấy %(\\pi \\approx 3,14)% và làm tròn đến chữ số thập phân thứ hai).",
+        "question_images": [],
+        "solution": "Bán kính đường tròn đáy là: %(2,4: 2=1,2(\\mathrm{~m}))%<br>Thể tích phần hình trụ là: %(V_{1}=\\pi r^{2} h \\approx 3,14 .(1,2)^{2} \\cdot 3=13,56\\left(\\mathrm{~m}^{3}\\right))%<br>Thể tích phần hình nón là: %(V_{2}=\\frac{1}{3} \\pi r^{2} h \\approx \\frac{1}{3} \\cdot 3,14 \\cdot(1,2)^{2} \\cdot 1.5=2,26\\left(\\mathrm{~m}^{3}\\right))%<br>Thể tích bồn chứa là: %(V=V_{1}+V_{2}=13,56+2,26=15,82\\left(\\mathrm{~m}^{3}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}2 \\sqrt{x-1}+\\frac{1}{y}=4 \\\\ \\sqrt{x-1}-\\frac{1}{y}=-1\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Điều kiện xác định %(x \\geq 1 ; y \\neq 0)%<br>Đặt %(a=\\sqrt{x-1}(a \\geq 0) ; b=\\frac{1}{y})%.<br>Hệ trở thành %(\\left\\{\\begin{array}{l}2 a+b=4 \\\\ a-b=-1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a=1 \\\\ b=2\\end{array}\\right.\\right.)% %(\\Rightarrow\\left\\{\\begin{array}{l}x=2 \\\\ y=\\frac{1}{2}\\end{array}\\right.)%<br>Vậy hệ có một nghiệm %((x ; y)=\\left(2 ; \\frac{1}{2}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5:",
+        "group_content": "Trong mặt phẳng tọa độ %(O x y)%, cho đường thẳng %((d): y=2(m+1) x+9)% ( %(m)% là tham số) và %(\\operatorname{Parabol}(P): y=x^{2})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.75,
+        "content": "Tìm %(m)% để đường thẳng %((d))% cắt parabol %((P))% tại điểm có hoành độ bằng 2 .",
+        "question_images": [],
+        "solution": "Đường thẳng %((d))% cắt parabol %((P))% tại điểm có hoành độ bằng 2 thì %(x=2 \\Rightarrow y=2^{2}=4)%<br>Thay %(x=2 ; y=4)% vào phương trình đường thẳng %((d))% ta được:<br>\\[4=2(m+1) \\cdot 2+9 \\Leftrightarrow 4(m+1)=-5 \\Leftrightarrow m=-\\frac{9}{4} .\\]<br>Vậy %(m=-\\frac{9}{4})% thỏa mãn đề bài.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.75,
+        "content": "Tìm %(m)% để %((d))% cắt parabol %((P))% tại hai điểm phân biệt cố hoành độ %(x_{1}, x_{2})% sao cho %(x_{1}\\lt x_{2})% và %(\\left|x_{1}\\right|-\\left|x_{2}\\right|=-6)%.",
+        "question_images": [],
+        "solution": "Ta có %(1 .(-9)\\lt 0)% nên phương trình luôn có hai nghiệm phân biệt %(x_{1}, x_{2})%<br>Theo định lý Vi-ét ta có %(x_{1} \\cdot x_{2}=-9)% và %(x_{1}+x_{2}=2 m+2)%<br>Vì %(x_{1}\\lt x_{2}, x_{1} \\cdot x_{2}\\lt 0 \\Rightarrow x_{1}\\lt 0\\lt x_{2})%<br>Mà %(\\left|x_{1}\\right|-\\left|x_{2}\\right|=-6 \\Leftrightarrow-x_{1}-x_{2}=-6 \\Leftrightarrow m=2)%.<br>Vậy %(m=2)% thỏa mãn dề bài.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6:",
+        "group_content": "Cho đường tròn %((O))%. Từ điểm %(M)% bên ngoài đường tròn kẻ hai tiếp tuyến %(M A, M B)% với đường tròn %((O))% ( %(A, B)% là các tiếp điểm). Lấy điểm %(C)% trên cung nhỏ %(A B)% ( %(C)% không nằm chính giữa cung %(A B, C)% khác %(A)% và %(B))%. Gọi %(D, E, F)% lần lượt là hình chiếu vuông góc của %(C)% trên các đường thẳng %(A B, A M, B M)%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Chứng minh tứ giác %(A E C D)% nội tiếp đường tròn.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { } D C \\perp A D \\Rightarrow \\widehat{A D C}=90^{\\circ} \\A E \\perp E C \\Rightarrow \\widehat{A E C}=90^{\\circ} \\\\widehat{A D C}+\\widehat{A E C}=180^{\\circ}\\end{array}\\]<br>Tứ giác %(A E C D)% nội tiếp đường tròn.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f21ed5799df27c807a755ca8ba26f7cc.png\" srcset=\"https://docdn.giainhanh.io/media/test/2157bdebb8360373f7539b396e568363.png 245w, https://docdn.giainhanh.io/media/test/abb7da13c9cb64e9d9fa8277bc6faba8.png 500w, https://docdn.giainhanh.io/media/test/cd8175526fb5001aa976ad90a5bec862.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Chứng minh rằng %(\\widehat{C D E}=\\widehat{C F D})%.",
+        "question_images": [],
+        "solution": "Tứ giác %(A E C D)% nội tiếp %(\\Rightarrow \\widehat{C D E}=\\widehat{C A E})%.<br>%(\\widehat{C D B}+\\widehat{C F B}=180^{\\circ} \\Rightarrow)% Tứ giác %(C D B F)% nội tiếp %(\\Rightarrow \\widehat{C F D}=\\widehat{C B D})%.<br>Mà %(\\widehat{C B D}=\\widehat{C A E})% ( Cùng chắn cung %(A C)% ) %(\\Rightarrow \\widehat{C D E}=\\widehat{C F D})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 0.5,
+        "content": "Gọi %(I)% là giao điểm của %(A C)% và %(E D, K)% là giao điểm của %(C B)% và %(D F)%. Chứng minh %(C D \\perp I K)%.",
+        "question_images": [],
+        "solution": "Tứ giác %(C D B F)% nội tiếp %(\\Rightarrow \\widehat{C F D}=\\widehat{C B D})%.<br>%(\\widehat{C D E}=\\widehat{C F D})% (Chứng minh trên)%(\\Rightarrow \\widehat{C D E}=\\widehat{C B D})% hay %(\\widehat{C D I}=\\widehat{C B A}(1))%<br>Tứ giác %(C D B F)% nội tiếp %(\\widehat{C D F}=\\widehat{C B F})%<br>Mà %(\\widehat{C B F}=\\widehat{C A B})% (Cùng chắn cung %(B C)% ) %(\\Rightarrow \\widehat{C D K}=\\widehat{C A B}(2))%<br>Từ (1), (2) %(\\Rightarrow \\widehat{I C K}+\\widehat{I D K}=\\widehat{I C K}+\\widehat{I D C}+\\widehat{C D K}=\\widehat{A C B}+\\widehat{C B A}+\\widehat{C A B}=180^{\\circ})%<br>%(\\Rightarrow)% Tứ giác %(C I D K)% nội tiếp, suy ra %(\\widehat{C I K}=\\widehat{C D K})%<br>Mà %(\\widehat{C D K}=\\widehat{C A B})% (Chứng minh trên) %(\\Rightarrow \\widehat{C I K}=\\widehat{C A B} \\Rightarrow I K / / A B)%<br>Mà %(C D \\perp A B \\Rightarrow C D \\perp I K)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "d) ",
+        "point": 0.5,
+        "content": "Đường tròn ngoại tiếp hai tam giác %(C I E)% và %(C K F)% cắt nhau tại điểm thứ hai %(N(N)% khác %(C)% ). Chứng minh đường thẳng %(N C)% đi qua trung điểm của đoạn thẳng %(A B)%.",
+        "question_images": [],
+        "solution": "Gọi %(N C)% cắt %(I K, A B)% lần lượt tại %(P, Q)%%(\\widehat{C I K}=\\widehat{C A B})% (Chứng minh trên).<br>Tứ giác %(A E C D)% nội tiếp đường tròn %(\\Rightarrow \\widehat{C A D}=\\widehat{C E D})% hay %(\\widehat{C A B}=\\widehat{C E I})%<br>\\[\\Rightarrow \\widehat{C E I}=\\widehat{C I K}\\]<br>%(\\Rightarrow I K)% là tiếp tuyến của đường tròn ngoại tiếp tam giác %(C I E)%<br>Chứng minh tương tự: %(I K)% là tiếp tuyến của đường tròn ngoại tiếp tam giác %(C K F)%<br>\\[\\Rightarrow \\frac{P I}{P N}=\\frac{P C}{P I} \\Rightarrow P I^{2}=P C \\cdot P N\\]<br>Chứng minh tương tự: %(P K^{2}=P C . P N)%<br>Vậy %(P I=P K)%<br>\\[I K / / A B \\Rightarrow \\frac{I P}{A Q}=\\frac{C P}{C Q}=\\frac{P K}{Q B}\\]<br>\\[\\text { Mà } P I=P K \\Rightarrow A Q=Q B\\]<br>Hay %(Q)% là trung điểm của %(A B)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 0.5,
+        "content": "Cho các số thực dương %(a, b, c)% thỏa mãn %(a+b+c=2024)%.<br>Tìm giá trị lớn nhất của biểu thức<br>%(P=\\frac{a}{a+\\sqrt{2024 a+b c}}+\\frac{b}{b+\\sqrt{2024 b+c a}}+\\frac{c}{c+\\sqrt{2024 c+a b}})%.",
+        "question_images": [],
+        "solution": "Từ giả thiết, ta có: %(\\frac{a}{a+\\sqrt{2024 a+b c}}=\\frac{a}{a+\\sqrt{(a+b+c) a+b c}}=\\frac{a}{a+\\sqrt{(a+b)(a+c)}})%.<br>Mặt khác theo bất đẳng thức Cauchy-Schwarz ta có<br>%((a+b)(c+a) \\geq(\\sqrt{a c}+\\sqrt{a b})^{2})%<br>\\[\\Rightarrow \\sqrt{(a+b)(c+a)} \\geq \\sqrt{a c}+\\sqrt{a b} \\text {. }\\]<br>Do đó %(\\frac{a}{a+\\sqrt{(a+b)(a+c)}} \\leq \\frac{a}{a+\\sqrt{a c}+\\sqrt{a b}}=\\frac{\\sqrt{a}}{\\sqrt{a}+\\sqrt{b}+\\sqrt{c}})%.<br>Hoàn toàn tương tự, ta cũng suy ra<br>\\[\\frac{b}{b+\\sqrt{(b+c)(b+a)}} \\leq \\frac{\\sqrt{b}}{\\sqrt{a}+\\sqrt{b}+\\sqrt{c}}, \\frac{c}{c+\\sqrt{(c+a)(c+b)}} \\leq \\frac{\\sqrt{c}}{\\sqrt{a}+\\sqrt{b}+\\sqrt{c}} .\\]<br><br>Do đó %(P \\leq \\frac{\\sqrt{a}}{\\sqrt{a}+\\sqrt{b}+\\sqrt{c}}+\\frac{\\sqrt{b}}{\\sqrt{a}+\\sqrt{b}+\\sqrt{c}}+\\frac{\\sqrt{c}}{\\sqrt{a}+\\sqrt{b}+\\sqrt{c}}=1)%.<br>Với %(a=b=c=\\frac{2024}{3})% (thỏa mãn giả thiết) thì %(P=1)%.<br>Vậy giá trị lớn nhất của %(P)% là 1 , đạt được khi %(a=b=c=\\frac{2024}{3})%.",
+        "question_type": "essay"
+    }
+]

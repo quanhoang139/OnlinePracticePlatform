@@ -1,0 +1,80 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Tìm tất cả các số nguyên dương %(x)% và số nguyên tố p sao cho :<br>\\[\\mathrm{x}^{5}+\\mathrm{x}^{4}+1=\\mathrm{p}^{2}\\]",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}P=\\frac{a}{a+1}+\\sqrt{1+a^{2}+\\frac{a^{2}}{(a+1)^{2}}} \\\\ =\\frac{a}{a+1}+\\sqrt{(a+1)^{2}+\\frac{a^{2}}{(a+1)^{2}}-2 a} \\\\ =\\frac{a}{a+1}+\\sqrt{\\left(a+1-\\frac{a}{a+1}\\right)^{2}} \\\\ =\\frac{a}{a+1}+\\left|a+1-\\frac{a}{a+1}\\right|\\end{array})%<br>Ta có:<br>\\[\\begin{array}{l}a+1-\\frac{a}{a+1}=\\frac{(a+1)^{2}-a}{a+1}=\\frac{a^{2}+a+1}{a+1}=\\frac{\\left(a+\\frac{1}{2}\\right)^{2}+\\frac{3}{4}}{a+1} \\\\- \\text { Xét } a\\gt -1 \\Leftrightarrow a+1>0 \\Rightarrow a+1-\\frac{a}{a+1}>0\\end{array}\\]<br>- Khi đó:<br>\\[P=\\frac{a}{a+1}+a+1-\\frac{a}{a+1}=a+1\\]<br>- Xét<br>\\[a\\lt -1 \\Leftrightarrow a+1\\lt 0 \\Rightarrow a+1-\\frac{a}{a+1}\\lt 0\\]<br>Khi đó:<br>\\[\\mathrm{P}=\\frac{\\mathrm{a}}{\\mathrm{a}+1}+\\frac{\\mathrm{a}}{\\mathrm{a}+1}-(\\mathrm{a}+1)=\\frac{2 \\mathrm{a}}{\\mathrm{a}+1}-(\\mathrm{a}+1)=\\frac{2 \\mathrm{a}-(\\mathrm{a}+1)^{2}}{\\mathrm{a}+1}=\\frac{-\\mathrm{a}^{2}-1}{\\mathrm{a}+1}\\]<br>Vì %(\\mathbf{a}=2016\\gt -1 \\Rightarrow \\mathrm{P}=\\mathrm{a}+1=2016+1=2017)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các số nguyên dương k và số thực %(x)% sao cho :<br>\\[(\\mathrm{k}-1) \\mathrm{x}^{2}+2(\\mathrm{k}-3) \\mathrm{x}+\\mathrm{k}-2=0\\]",
+        "question_images": [],
+        "solution": "%((\\mathrm{k}-1) \\mathrm{x}^{2}+2(\\mathrm{k}-3) \\mathrm{x}+\\mathrm{k}-2=0(*))%- Xét %(k=1)% có:<br>\\[\\left({ }^{*}\\right) \\Leftrightarrow-4 x-1=0 \\Leftrightarrow x=\\frac{-1}{4}\\]<br>- Xét %(\\mathrm{k} \\neq 1)% có:<br>\\[\\begin{array}{c}\\Delta^{\\prime}=(\\mathrm{k}-3)^{2}-(\\mathrm{k}-1)(\\mathrm{k}-2)=\\left(\\mathrm{k}^{2}-6 \\mathrm{k}+9\\right)-\\left(\\mathrm{k}^{2}-3 \\mathrm{k}+2\\right)=-3 \\mathrm{k}+7 \\geq 0 \\\\Leftrightarrow \\mathrm{k} \\leq \\frac{7}{3}\\end{array}\\]<br>Vì k nguyên dương và %(\\mathrm{k} \\neq 1 \\Rightarrow \\mathrm{k}=2)%<br>Khi đó:<br>\\[\\left(^{*}\\right) \\Leftrightarrow x^{2}-2 x=0 \\Leftrightarrow x(x-2)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\x=2\\end{array}\\right.\\]<br>Vây<br>\\[(\\mathrm{k} ; \\mathrm{x}) \\in\\left\\{\\left(1 ; \\frac{-1}{4}\\right) ;(2 ; 0) ;(2 ; 2)\\right\\} .\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các số nguyên dương %(x)% và số nguyên tố p sao cho :<br>\\[\\mathrm{x}^{5}+\\mathrm{x}^{4}+1=\\mathrm{p}^{2}\\]",
+        "question_images": [],
+        "solution": "Ta có: %(x^{5}+x^{4}+1)%<br>\\[\\begin{array}{c}=\\left(\\mathrm{x}^{5}-\\mathrm{x}^{2}\\right)+\\left(\\mathrm{x}^{4}-\\mathrm{x}\\right)+\\left(\\mathrm{x}^{2}+\\mathrm{x}+1\\right) \\\\=\\mathrm{x}^{2}\\left(\\mathrm{x}^{3}-1\\right)+\\mathrm{x}\\left(\\mathrm{x}^{3}-1\\right)+\\left(\\mathrm{x}^{2}+\\mathrm{x}+1\\right) \\\\=\\mathrm{x}^{2}(\\mathrm{x}-1)\\left(\\mathrm{x}^{2}+\\mathrm{x}+1\\right)+\\mathrm{x}(\\mathrm{x}-1)\\left(\\mathrm{x}^{2}+\\mathrm{x}+1\\right)+\\left(\\mathrm{x}^{2}+\\mathrm{x}+1\\right) \\\\=\\left(\\mathrm{x}^{2}+\\mathrm{x}+1\\right)\\left[\\mathrm{x}^{2}(\\mathrm{x}-1)+\\mathrm{x}(\\mathrm{x}-1)+1\\right]\\end{array}\\]<br>\\[\\begin{array}{c}=\\left(\\mathrm{x}^{2}+\\mathrm{x}+1\\right)\\left(\\mathrm{x}^{3}-\\mathrm{x}^{2}+\\mathrm{x}^{2}-\\mathrm{x}+1\\right) \\\\=\\left(\\mathrm{x}^{2}+\\mathrm{x}+1\\right)\\left(\\mathrm{x}^{3}-\\mathrm{x}+1\\right)=\\mathrm{p}^{2}\\end{array}\\]<br>Vì %(p)% là số nguyên tố nên xảy ra 3 trường hợp:<br>TH1:<br>\\[\\begin{array}{l}\\left\\{\\begin{array} { l } { x ^ { 2 } + x + 1 = 1 } \\\\{ x ^ { 3 } - x + 1 = p ^ { 2 } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x^{2}+x=0 \\x^{3}-x+1=p^{2}\\end{array}\\right.\\right. \\text { (loại vì x nguy }\\end{array}\\]<br>TH2:<br>\\[\\left\\{\\begin{array} { l } { x ^ { 2 } + x + 1 = p ^ { 2 } } \\\\{ x ^ { 3 } - x + 1 = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { p ^ { 2 } = x ^ { 2 } + x + 1 } \\\\{ x ^ { 3 } - x = 0 }\\end{array} \\Rightarrow \\left\\{\\begin{array}{l}p=\\sqrt{3} \\x=1\\end{array}\\right.\\right.\\right.\\]<br>(loại )<br>TH3: %(\\left\\{\\begin{array}{l}x^{2}+x+1=p \\\\ x^{3}-x+1=p\\end{array}\\right.)%<br>\\[\\begin{array}{c}\\Rightarrow \\mathrm{x}^{2}+\\mathrm{x}+1=\\mathrm{x}^{3}-\\mathrm{x}+1 \\\\quad \\Leftrightarrow \\mathrm{x}^{3}-\\mathrm{x}^{2}-2 \\mathrm{x}=0 \\\\Leftrightarrow \\mathrm{x}(\\mathrm{x}-2)(\\mathrm{x}+1)=0\\end{array}\\]<br>%(\\Rightarrow x=2)% (vì %(x)% nguyên dương)<br>Khi đó: %(p=x^{2}+x+1=2^{2}+2+1=7)% (chọn)<br>Vậy %(\\mathrm{x}=2 ; \\mathrm{p}=7)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Giải các phương trình sau :",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.25,
+        "content": "a)%((17-6 x) \\sqrt{3 x-5}+(6 x-7) \\sqrt{7-3 x}=2+8 \\sqrt{36 x-9 x^{2}-35})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{c}\\left.(17-6 x) \\sqrt{3 x-5}+(6 x-7) \\sqrt{7-3 x}=2+8 \\sqrt{36 x-9 x^{2}-35} \\text { (Đk: } \\frac{5}{3} \\leq x \\leq \\frac{7}{3}\\right) \\\\Leftrightarrow(17-6 x) \\sqrt{3 x-5}+(6 x-7) \\sqrt{7-3 x}=2+8 \\sqrt{(3 x-5)(7-3 x)}\\end{array}\\]<br>Đặt: %(a=\\sqrt{3 x-5} \\geq 0)% và %(b=\\sqrt{7-3 x} \\geq 0)%, ta có: %(a^{2}+b^{2}=2)%<br>\\[\\begin{array}{c}\\text { và: }\\left(2 b^{2}+3\\right) \\cdot a+\\left(2 a^{2}+3\\right) \\cdot b=2+8 a b \\\\left.\\Leftrightarrow 2 a b^{2}+3 a+2 a^{2} b+3 b=a^{2}+b^{2}+8 a b \\text { (vì } a^{2}+b^{2}=2\\right) \\\\Leftrightarrow(2 a b+3)(a+b)=(a+b)^{2}+6 a b(*)\\end{array}\\]<br>Đặt: %(a+b=u \\geq 0)% và %(a b=v \\geq 0)%<br>Ta có: %(a^{2}+b^{2}=2 \\Leftrightarrow(a+b)^{2}-2 a b=2 \\Leftrightarrow u^{2}-2 v=2 \\Leftrightarrow 2 v=u^{2}-2)%<br>\\[\\begin{array}{l}(*) \\Leftrightarrow(2 v+3) u=u^{2}+6 v \\\\Leftrightarrow\\left(u^{2}-2+3\\right) u=u^{2}+3\\left(u^{2}-2\\right) \\text { (vì } 2 v=u^{2}-2 \\text { ) } \\\\Leftrightarrow u^{3}+u=u^{2}+3 u^{2}-6 \\\\Leftrightarrow u^{3}-4 u^{2}+u-6=0 \\\\Leftrightarrow(u-3)(u-2)(u+1)=0 \\\\end{array}\\]<br>- Với: %(\\left\\{\\begin{array}{l}u=3 \\\\ v=\\frac{7}{2}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a+b=3 \\\\ a b=\\frac{7}{2}, \\text { khi đó: a, b là nghiệm của phương trình: } t^{2}-3 t+\\frac{7}{2}=0\\end{array}\\right.\\right.)%<br>Lập:<br>\\[\\Delta=(-3)^{2}-4 \\cdot \\frac{7}{2}=-5\\lt 0\\]<br>. Suy ra phương trình trên vô nghiệm.<br>- Với: %(\\left\\{\\begin{array}{l}u=2 \\\\ v=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a+b=2 \\\\ a b=1\\end{array}\\right.\\right.)%, khi đó: a, b là nghiệm của phương trình: %(t^{2}-2 t+1=0 \\Leftrightarrow t=1)%<br>\\[\\begin{array}{c}\\Leftrightarrow a=b=1 \\text { (TM) } \\\\Leftrightarrow \\sqrt{3 x-5}=\\sqrt{7-3 x}=1 \\\\Leftrightarrow x=2 \\text { (TM) }\\end{array}\\]<br>Vậy: Phương trình đã cho có nghiệm duy nhất: %(x=2)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ff61ec4378e3eef6a81baf1751a3d345.png\" srcset=\"https://docdn.giainhanh.io/media/test/d870e5014ac9813c2fbcfbf66a5a869a.png 205w\" width=\"205\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.25,
+        "content": "b)%(\\sqrt{x^{2}-3 x+2}=\\sqrt{10 x-20}-\\sqrt{x-3})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{c}\\text { } \\left.\\sqrt{\\mathrm{x}^{2}-3 \\mathrm{x}+2}=\\sqrt{10 \\mathrm{x}-20}-\\sqrt{\\mathrm{x}-3} \\text { (Đk: } x \\geq 3\\right) \\\\Leftrightarrow \\sqrt{\\mathrm{x}^{2}-3 \\mathrm{x}+2}+\\sqrt{\\mathrm{x}-3}=\\sqrt{10 \\mathrm{x}-20} \\\\Leftrightarrow \\mathrm{x}^{2}-3 \\mathrm{x}+2+\\mathrm{x}-3+2 \\sqrt{(\\mathrm{x}-1)(\\mathrm{x}-2)(\\mathrm{x}-3)}=10 \\mathrm{x}-20 \\\\Leftrightarrow \\mathrm{x}^{2}-12 \\mathrm{x}+9+2 \\sqrt{(\\mathrm{x}-1)(\\mathrm{x}-2)(\\mathrm{x}-3)}=0 \\\\Leftrightarrow(\\mathrm{x}-1)(\\mathrm{x}-3)-8(\\mathrm{x}-2)+2 \\sqrt{(\\mathrm{x}-1)(\\mathrm{x}-2)(\\mathrm{x}-3)}=0\\end{array}\\]<br>Đặt: %(a=\\sqrt{(x-1)(x-3)} \\geq 0)% và %(b=\\sqrt{x-2} \\geq 0)%, ta có phương trình:<br>\\[\\begin{array}{c}\\Leftrightarrow a^{2}-8 b^{2}+2 a b=0 \\\\Leftrightarrow(a-2 b)(a+4 b)=0\\end{array}\\]<br>TH1: %(a=2 b)%<br>\\[\\begin{array}{c}\\Leftrightarrow \\sqrt{(x-1)(x-3)}=2 \\sqrt{x-2} \\\\Leftrightarrow(x-1)(x-3)=4(x-2) \\\\Leftrightarrow x^{2}-4 x+3=4 x-8 \\\\Leftrightarrow x^{2}-8 x+11=0 \\\\Leftrightarrow x=4+\\sqrt{5} \\text { (vì } x \\geq 3 \\text { ) }\\end{array}\\]<br>%(\\begin{array}{c}\\text { TH2: } a+4 b=0 \\Leftrightarrow a=b=0 \\text { (vì } a \\geq 0 \\text { và } b \\geq 0 \\text { ) } \\\\ \\Leftrightarrow \\sqrt{(x-1)(x-3)}=2 \\sqrt{x-2}=0\\end{array})%<br>\\[\\Leftrightarrow\\left\\{\\begin{array}{l}{\\left[\\begin{array}{l}x=1 \\x=3\\end{array}\\right.} \\x=2 \\quad \\text { (vô lí) }\\end{array}\\right.\\]<br>Vậy: Phương trình đã cho có nghiệm duy nhất: %(x=4+\\sqrt{5})%<br><img/><br><img/><br><img/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho tam giác %(\\mathrm{ABC})% có %(\\mathrm{BAC}\\gt 90^{\\circ}, \\mathrm{AB}\\lt \\mathrm{AC})% và nội tiếp đường tròn tâm %(\\mathrm{O})%. Trung tuyến %(\\mathrm{AM})% của tam giác %(\\mathrm{ABC})% cắt %((O))% tại điểm thứ hai là %(\\mathrm{D})%. Tiếp tuyến của %((\\mathrm{O}))% tại %(\\mathrm{D})% cắt đường thẳng %(\\mathrm{BC})% tại %(\\mathrm{S})%. Trên cung nhỏ %(\\mathrm{DC})% của %((\\mathrm{O}))% lấy điểm %(\\mathrm{E})%, đường thẳng %(\\mathrm{SE})% cắt %((\\mathrm{O}))% tại điểm thứ hai là %(\\mathrm{F})%. Gọi %(\\mathrm{P}, \\mathrm{Q})% lần lượt là giao điểm của các đường thẳng %(\\mathrm{AE}, \\mathrm{AF})% với %(\\mathrm{BC})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a)Chứng minh MODS là tứ giác nội tiếp.",
+        "question_images": [],
+        "solution": "Vì %(\\mathrm{M})% là trung điểm dây %(\\mathrm{BC} \\Rightarrow \\mathrm{OM} \\perp \\mathrm{BC} \\Rightarrow \\mathrm{OMS}=90^{\\circ})%<br>Vì DS là tiếp tuyến của %((\\mathrm{O}) \\Rightarrow \\mathrm{ODS}=90^{\\circ})%<br>Tứ giác MODS có: %(\\mathrm{OMS}+\\mathrm{ODS}=90^{\\circ}+90^{\\circ}=180^{\\circ})%<br>Vậy MODS là tứ giác nội tiếp.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9070d98a73a9e9e0acb1adf12f560069.png\" srcset=\"https://docdn.giainhanh.io/media/test/4bf4df1b0b66b33d5d48d1dc1711e090.png 245w, https://docdn.giainhanh.io/media/test/a016573347670bd58ce6ec9fd9663568.png 500w, https://docdn.giainhanh.io/media/test/4b84a64acd5c3344de5291042eb44ee6.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b)Chứng %(\\operatorname{minh} \\mathrm{QB}=\\mathrm{PC})%.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{N})% là trung điểm dây EF.<br>chứng minh MNDS nội tiếp %(\\Rightarrow \\mathrm{END}=\\mathrm{SMD}=\\mathrm{AMQ} \\Rightarrow \\mathrm{FND}=\\mathrm{AMP})%<br>%(\\Delta \\mathrm{END})% đồng dạng<br>\\[\\Delta \\mathrm{AMQ} \\Rightarrow \\frac{\\mathrm{EN}}{\\mathrm{AM}}=\\frac{\\mathrm{ND}}{\\mathrm{MQ}} \\Rightarrow \\mathrm{MQ}=\\frac{\\mathrm{AM} \\cdot \\mathrm{ND}}{\\mathrm{EN}}\\]<br>%(\\Delta \\mathrm{FND})% đồng dạng<br>\\[\\Delta \\mathrm{AMP} \\Rightarrow \\frac{\\mathrm{FN}}{\\mathrm{AM}}=\\frac{\\mathrm{ND}}{\\mathrm{MP}} \\Rightarrow \\mathrm{MP}=\\frac{\\mathrm{AM} \\cdot \\mathrm{ND}}{\\mathrm{FN}}\\]<br>%(\\begin{aligned} \\text { Mà } \\mathbf{E N} & =\\mathbf{F N}(\\text { vì } \\mathrm{N} \\text { là trung điểm EF) } \\\\ & \\Rightarrow \\mathrm{MQ}=\\mathrm{MP} \\Rightarrow \\mathrm{QB}=\\mathrm{PC}\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho tam giác %(A B C)% vuông tại %(A)% có %(A B\\lt A C)%. Đường tròn tâm I nội tiếp tam giác %(A B C)% và tiếp xúc với cạnh %(A C)% tại %(D)%. Gọi %(M)% là trung điểm của %(A C)%, đường thẳng %(I M)% cắt %(A B)% tại %(N)%. Chứng minh tứ giác IBND là hình bình hành.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{c}\\text { Đặt } \\mathrm{BC}=\\mathrm{a}, \\mathrm{CA}=\\mathrm{b} ; \\mathrm{AB}=\\mathrm{c} \\\\ \\Rightarrow \\mathrm{AD}=\\mathrm{ID}=\\frac{\\mathrm{b}+\\mathrm{c}-\\mathrm{a}}{2} \\\\ \\Rightarrow \\mathrm{DM}=\\mathrm{AM}-\\mathrm{AD}=\\frac{\\mathrm{b}}{2}-\\frac{\\mathrm{b}+\\mathrm{c}-\\mathrm{a}}{2}=\\frac{\\mathrm{a}-\\mathrm{c}}{2} \\\\ \\Delta \\mathrm{AMN} \\text { có } \\mathrm{ID} / / \\mathrm{AN} \\Rightarrow \\frac{\\mathrm{ID}}{\\mathrm{AN}}=\\frac{\\mathrm{DM}}{\\mathrm{AM}}=\\frac{\\mathrm{a}-\\mathrm{c}}{2}: \\frac{\\mathrm{b}}{2}=\\frac{\\mathrm{a}-\\mathrm{c}}{\\mathrm{b}} \\\\ \\Rightarrow \\mathrm{AN}=\\frac{\\mathrm{b}}{\\mathrm{a}-\\mathrm{c}} \\cdot \\mathrm{ID}=\\frac{\\mathrm{b}}{\\mathrm{a}-\\mathrm{c}} \\cdot \\frac{\\mathrm{b}+\\mathrm{c}-\\mathrm{a}}{2}=\\frac{\\mathrm{b}^{2}+\\mathrm{bc}-\\mathrm{ab}}{2(\\mathrm{a}-\\mathrm{c})} \\\\ \\Rightarrow \\mathrm{BN}=\\mathrm{AB}-\\mathrm{AN}=\\mathrm{c}-\\frac{\\mathrm{b}^{2}+\\mathrm{bc}-\\mathrm{ab}}{2(\\mathrm{a}-\\mathrm{c})}=\\frac{2 \\mathrm{ac}-2 \\mathrm{c}^{2}-\\mathrm{b}^{2}-\\mathrm{bc}+\\mathrm{ab}}{2(\\mathrm{a}-\\mathrm{c})} \\\\ =\\frac{\\mathrm{ab}-\\mathrm{bc}+\\mathrm{ac}-\\mathrm{c}^{2}-\\left(\\mathrm{b}^{2}+\\mathrm{c}^{2}\\right)+\\mathrm{ac}}{2(\\mathrm{a}-\\mathrm{c})}=\\frac{\\mathrm{ab}-\\mathrm{bc}+\\mathrm{ac}-\\mathrm{c}^{2}-\\mathrm{a}^{2}+\\mathrm{ac}}{2(\\mathrm{a}-\\mathrm{c})}\\end{array})%<br>\\[=\\frac{(\\mathrm{b}+\\mathrm{c}-\\mathrm{a})(\\mathrm{a}-\\mathrm{c})}{2(\\mathrm{a}-\\mathrm{c})}=\\frac{\\mathrm{b}+\\mathrm{c}-\\mathrm{a}}{2}=\\mathrm{ID}\\]<br>Mà %(\\mathrm{BN} / / \\mathrm{ID})% (cùng vuông góc %(\\mathrm{AC})% )<br>Vậy IBND là hình bình hành.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/98cf145623a4c83f6b40fba5cb9e31d8.png\" srcset=\"https://docdn.giainhanh.io/media/test/830607925644f1b18c9253880ab1539d.png 245w, https://docdn.giainhanh.io/media/test/e059c43d7406d117a824b6c8f7b829f8.png 500w, https://docdn.giainhanh.io/media/test/f16a8a3af9511435b15ab6d9455d4b9f.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    }
+]

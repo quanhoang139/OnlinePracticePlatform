@@ -1,0 +1,89 @@
+[
+    {
+        "title": "Câu 1 ",
+        "point": 1.5,
+        "content": "Giải phương trình trên tập nguyên %(x^{2}+5 y^{2}-4 x y+4 x-8 y-12=0)%",
+        "question_images": [],
+        "solution": "%(x^{2}+5 y^{2}-4 x y+4 x-8 y-12=0 \\Leftrightarrow x^{2}-4 x(y-1)-\\left(5 y^{2}-8 y-12\\right)=0)%<br>Để PT (*) có nghiệm nguyên %(x)% thì %(\\Delta^{\\prime})% chính phương %(\\Delta^{\\prime}=4(y-1)^{2}-5\\left(5 y^{2}-8 y-12\\right)=16-y^{2} \\leq 16)% từ đó tìm được %((x ; y) \\in\\{(2 ; 0) ;(-6 ; 0) ;(-10 ;-4) ;(6 ; 4)\\})%<br><strong>Cách khác: </strong>%(x^{2}+5 y^{2}-4 x y+4 x-8 y-12=0 \\Leftrightarrow(x-2 y+2)^{2}+y^{2}=16=4^{2}+0^{2})% xét từng trường hợp sẽ ra nghiệm mà %(x, y \\in \\mathbb{Z})% nên %((x-2 y+2)^{2}=16, y=0)% (1) hoặc %(x-2 y+2=0, y^{2}=16)% (2).<br>Ta có %((1) \\Leftrightarrow x=2, y=0)% hoặc %(x=-6, y=0)%.(2) %(\\Leftrightarrow y=4, x=6)% hoặc %(y=-4, x=-10)%.<br>Vậy phương trình đã cho có nghiệm là %((x ; y) \\in\\{(2 ; 0),(-6 ; 0),(6 ; 4),(-10 ;-4)\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 1.5,
+        "content": "Cho %(P(x)=x^{3}-3 x^{2}+14 x-2)%.<br>Tìm các số tự nhiên %(x)% nhỏ hơn 100 mà %(P(x))% chia hết cho 11 .",
+        "question_images": [],
+        "solution": "Ta có %(P(x)=x^{3}-3 x^{2}+14 x-2=(x-2)\\left(x^{2}-x+12\\right)+22)%<br>Để %(P(x))% chia hết 11 thì %((x-2)\\left(x^{2}-x+12\\right): 11)%mà %(\\left(x^{2}-x+12\\right)=x(x-1)+1+11)% ta có %(x(x-1)+1)% không chia hết cho 11<br>Suy ra %(\\left(x^{2}-x+12\\right))% không chia hết cho 11 nên %(x-2)% chia hết cho 11 mà %(x\\lt 100 ; x \\in \\mathbb{N})% suy ra %(x \\in\\{2 ; 13 ; 22 ; 35 ; 47 ; 57 ; 68 ; 79 ; 90\\})%<br>Bổ đề: Cho %(x, y)% là các số tự nhiên và số nguyên tố %(p)% có dạng %(p=3 k+2)% thì %(x^{3} \\equiv y^{3}(\\bmod p) \\Leftrightarrow x \\equiv y(\\bmod p))%.<br>Thật vậy, %(x \\equiv y(\\bmod p) \\Rightarrow x^{3} \\equiv y^{3}(\\bmod p))%, đúng.<br>Với %(x^{3} \\equiv y^{3}(\\bmod p) \\Rightarrow x^{3 k} \\equiv y^{3 k}(\\bmod p))%.<br>Với %(x, y)% cùng chia hết cho %(p)% thì hiển nhiên đúng.<br>Với %((x, p)=1,(y, p)=1)% ta có %(x^{p-1} \\equiv y^{p-1} \\equiv 1(\\bmod p) \\Rightarrow x^{3 k+1} \\equiv y^{3 k+1}(\\bmod p))% %(\\Rightarrow x \\cdot x^{3 k} \\equiv y \\cdot y^{3 k}(\\bmod p) \\Rightarrow x \\equiv y(\\bmod p))% vì %(x^{3 k} \\equiv y^{3 k}(\\bmod p))%.<br>Áp dụng Bổ đề, ta có<br>\\[\\begin{array}{l}P(x) \\equiv P(y)(\\bmod 11) \\Leftrightarrow(x-1)^{3}+11(x-1)+10 \\equiv(y-1)^{3}+11(y-1)+10(\\bmod 11) \\\\Leftrightarrow(x-1)^{3} \\equiv(y-1)^{3}(\\bmod 11) \\Leftrightarrow x-1 \\equiv y-1(\\bmod 11) \\Leftrightarrow x \\equiv y(\\bmod 11) .\\end{array}\\]<br>Do đó, %(P(x) \\equiv P(y)(\\bmod 11) \\Leftrightarrow x \\equiv y(\\bmod 11))%.<br>Suy ra với mỗi %(n \\in \\mathbb{N})%, trong 11 giá trị %(P(n), P(n+1), \\ldots, P(n+10))%, có duy nhất một giá trị chia hết cho 11.<br>Do đó, trong các số %(P(1), P(2), \\ldots, P(99))% có đúng 9 số chia hết cho 11 , còn %(P(0)=-2)% không chia hết cho 11 .<br>Vậy có đúng 9 số thỏa mãn yêu cầu bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 2.0,
+        "content": "Tính giá trị biểu thức %(P=\\frac{a^{3}-3 a+2}{a^{3}-4 a^{2}+5 a-2})%, biết %(a=\\sqrt[3]{55+\\sqrt{3024}}+\\sqrt[3]{55-\\sqrt{3024}})%",
+        "question_images": [],
+        "solution": "Tính %(a^{3}=110-3 a \\Leftrightarrow(a-5)\\left(a^{2}+5 a+22\\right)=0 \\Leftrightarrow a=5)% thay %(a=5)% vào %(P=\\frac{7}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 2.0,
+        "content": "Cho số thực %(x, y, z)% đôi một khác nhau thỏa mãn<br>\\[x^{3}=3 x-1, y^{3}=3 y-1, z^{3}=3 z-1\\]<br>Chứng minh rằng %(x^{2}+y^{2}+z^{2}=6)%",
+        "question_images": [],
+        "solution": "Cộng cả ba đẳng thức ta có hệ<br>\\[\\left\\{\\begin{array} { l } { x ^ { 3 } = 3 x - 1 } \\\\{ y ^ { 3 } = 3 y - 1 } \\\\{ z ^ { 3 } = 3 z - 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x ^ { 3 } - y ^ { 3 } = 3 ( x - y ) } \\\\{ y ^ { 3 } - z ^ { 3 } = 3 ( y - z ) } \\\\{ z ^ { 3 } - x ^ { 3 } = 3 ( z - x ) }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x^{2}+x y+y^{2}=3 \\y^{2}+z y+z^{2}=3 \\x^{2}+x z+z^{2}=3\\end{array}\\right.\\right.\\right.\\]<br>Trừ (1) cho (2) ta được %((x-z)(x+y+z)=0 \\Leftrightarrow x+y+z=0)%<br>Cộng (1); (2); (3) ta có %(2\\left(x^{2}+y^{2}+z^{2}\\right)+x y+y z+x z=9)%<br>Mà từ %(x+y+z=0)% suy ra %(x y+y z+x z=-\\frac{x^{2}+y^{2}+z^{2}}{2})% thay vào (*) ta có đpcm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(3 x-1+\\frac{x-1}{4 x}=\\sqrt{3 x+1})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text {  ĐKXĐ: } x \\geq \\frac{-1}{3} \\\\3 \\mathrm{x}-1+\\frac{\\mathrm{x}-1}{4 \\mathrm{x}}=\\sqrt{3 \\mathrm{x}+1} \\Leftrightarrow 4 x(3 x-1)+x-1=4 x \\sqrt{3 \\mathrm{x}+1} \\Leftrightarrow 12 x^{2}-3 x-1=4 x \\sqrt{3 \\mathrm{x}+1} \\\\16 x^{2}=(2 x+\\sqrt{3 x+1})^{2} \\Leftrightarrow\\left[\\begin{array} { l } { 4 x = 2 x + \\sqrt { 3 x + 1 } } \\\\{ - 4 x = 2 x + \\sqrt { 3 x + 1 } }\\end{array} \\left[\\begin{array}{l}2 x=\\sqrt{3 x+1} \\\\-6 x=\\sqrt{3 x+1}\\end{array}\\right.\\right.\\end{array}\\]<br>Giải ra pt có 2 nghiệm %(x=1 ; x=\\frac{3-\\sqrt{153}}{72})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}3 x^{2}+2 y^{2}-4 x y+x+8 y-4=0 \\\\ x^{2}-y^{2}+2 x+y-3=0\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}3 x^{2}+2 y^{2}-4 x y+x+8 y-4=0 \\\\ x^{2}-y^{2}+2 x+y-3=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}3 x^{2}+2 y^{2}-4 x y+x+8 y-4=0(1) \\\\ 2 x^{2}-2 y^{2}+4 x+2 y-6=0(2)\\end{array}\\right.\\right.)%Lấy pt (1) trừ pt (2) ta được<br>\\[(x-2 y)^{2}-3(x-2 y)+2=0 \\Leftrightarrow(x-2 y-1)(x-2 y-2)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=2 y+1 \\x=2 y+2\\end{array}\\right.\\]<br>Thay vào phương trình %(x^{2}-y^{2}+2 x+y-3=0)% hệ có 4 nghiệm<br>\\[(x ; y) \\in\\left\\{(1 ; 0) ;(-5-3) ;\\left(\\frac{-7+\\sqrt{109}}{3} ; \\frac{-13+\\sqrt{109}}{6}\\right) ;\\left(\\frac{-7-\\sqrt{109}}{3} ; \\frac{-13-\\sqrt{109}}{6}\\right)\\right\\}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7",
+        "group_content": "Cho đường tròn %((O ; R))% và dây cung %(B C)% không đi qua tâm. Gọi %(A)% là điểm chính giữa cung nhỏ %(B C)%. Góc nội tiếp %(E A F)% quay quanh điểm %(A)% và có số đo bằng %(\\alpha)% không đổi sao cho %(E)% và %(F)% khác phía với điểm %(A)% qua %(B C ; A E)% và %(A F)% cắt %(B C)% lần lượt tại %(N)% và %(M)%. Lấy điểm %(D)% sao cho tứ giác %(M N E D)% là hình bình hành.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 3.0,
+        "content": "a) Chứng minh tứ giác %(M N E F)% nội tiếp",
+        "question_images": [],
+        "solution": "Ta có: %(\\widehat{M N E}=\\frac{1}{2}(\\operatorname{sd} \\overparen{A C}+\\operatorname{sd} \\overparen{B F E})=\\frac{1}{2}(\\operatorname{sd} \\overparen{A B}+\\mathrm{sd} \\overparen{B F E}))%<br>\\[\\widehat{A F E}=\\operatorname{sd} \\overparen{A C}+\\operatorname{sd} \\overparen{C E}\\]<br>Suy ra: %(\\widehat{M N E}+\\widehat{M F E}=180^{\\circ})%<br>Vậy tứ giác %(M N E F)% nội tiếp<br><img alt=\"Screenshot 2024-07-13 214701.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/841b2e6a7e0e6f6ea35d555eea709f16.png\" srcset=\"https://docdn.giainhanh.io/media/test/f76307b8c3f8aa32f8d7bd6792ce685d.png 166w, https://docdn.giainhanh.io/media/test/6ebe5c1d8f134b1a73e0d46ee25be80f.png 500w, https://docdn.giainhanh.io/media/test/2317b017221b3fa25d67d84b0c98f481.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Gọi %(I)% là tâm đường tròn ngoại tiếp tam giác %(M D F)%. Chứng minh rằng khi góc nội tiếp %(E A F)% quay quanh %(A)% thì %(I)% chuyển động trên đường thẳng cố định.",
+        "question_images": [],
+        "solution": "Gọi %(P)% là giao điểm khác %(A)% của %(A O)% với đường tròn %((O ; R))%.<br>%(Q)% là giao điểm của %(A O)% và %(B C)%.<br>Lấy %(G)% đối xứng với %(E)% qua %(A P \\Rightarrow D \\in E G, G \\in(O))%<br>Ta có %(\\widehat{M D G}=\\widehat{N E G}, \\widehat{A E G}+\\widehat{A F G}=180^{\\circ} \\Rightarrow \\widehat{M D G}+\\widehat{M F G}=180^{\\circ})%<br>Suy ra tứ giác %(M D G F)% nội tiếp (1)<br>Gọi giao điểm của %(A G)% và %(B C)% là %(H)%<br>Chứng minh tương tự a) có tứ giác %(M H G F)% nội tiếp  (2)<br>Từ (1) và (2) suy ra các điểm %(M, H, D, G, F)% nằm trên một đường tròn.<br>Trung trực của đoạn thẳng %(F G)% đi qua %(O)% và cắt đường tròn %((O))% tại %(J ; I \\in O J)%, sđ %(\\overparen{J F}=)% sđ %(\\overparen{J G})% và sđ %(\\overparen{P G}=\\mathrm{sđ} \\overparen{P E})% nên %(\\widehat{J O P}=\\alpha)% hay %(I)% nằm trên đường thẳng cố định. Đó là đường thẳng đi qua %(O)% và tạo với %(A O)% một góc %(\\alpha)% không đổi",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) Khi %(\\alpha=60^{\\circ})% và %(B C=R)%, tính theo %(R)% độ dài nhỏ nhất của đoạn %(O I)%.",
+        "question_images": [],
+        "solution": "Hạ %(I T \\perp B C(T \\in B C) \\Rightarrow T H=T M)%.<br>Do %(Q H=Q N)%, suy ra %(I S=\\frac{1}{2} M N)%<br>Tam giác vuông %(O S I)% có %(\\widehat{I O S}=\\alpha)% không đổi nên %(O I)% nhỏ nhất khi và chỉ khi %(I S)% nhỏ nhất %(\\Leftrightarrow M N)% nhỏ nhất.<br>Ta chứng minh %(M N)% nhỏ nhất khi và chỉ khi tam giác %(A M N)% cân tại %(A)%.<br>Thật vậy, trên %(B C)% lấy %(M^{\\prime} N^{\\prime})% sao cho %(\\widehat{M^{\\prime} A N^{\\prime}}=\\alpha)%.<br>Không mất tính tồng quát giả sử %(Q M^{\\prime}\\gt Q N^{\\prime})% suy ra %(A M^{\\prime}>A N^{\\prime})%.<br>Trên đoạn %(A M^{\\prime})% lấy điểm %(U)% sao cho %(A U=A N^{\\prime})%%(\\Rightarrow \\triangle A U M=\\triangle A N N^{\\prime})% (c.g.c) %(\\Rightarrow S_{A M^{\\prime} M}>S_{A N N^{\\prime}} \\Rightarrow M^{\\prime}>N N^{\\prime} \\Rightarrow M^{\\prime} N^{\\prime}>M N)%Với %(\\quad \\alpha=60^{\\circ} ; B C=R \\quad)% suy %(\\quad)% ra %(A Q=R-\\frac{R \\sqrt{3}}{2}=\\frac{R(2-\\sqrt{3})}{2})%,<br>\\[M N=\\frac{R(2-\\sqrt{3})}{2} \\cdot \\frac{2}{\\sqrt{3}}=\\frac{R(2 \\sqrt{3}-3)}{3} \\Rightarrow O I=\\frac{R(2 \\sqrt{3}-3)}{6} .\\]<br><img alt=\"Screenshot 2024-07-13 214902.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c63c27c89fbf20b42ef013d89f8101a4.png\" srcset=\"https://docdn.giainhanh.io/media/test/9752a4af5f24e8d2f0497e17cd57d290.png 245w, https://docdn.giainhanh.io/media/test/b37e8fb77211e09c3cc5b50c7bb625b5.png 500w, https://docdn.giainhanh.io/media/test/8ad63322e99485056609f9c9813a7767.png 750w, https://docdn.giainhanh.io/media/test/94a7e09a6011de20cc3c3d7663e682d8.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8 ",
+        "point": 2.0,
+        "content": "Cho các số thực dương %(x, y, z)% thỏa mãn %(x+y+z=3)%<br>Chứng minh rằng %(\\frac{2 x^{2}+y^{2}+z^{2}}{4-y z}+\\frac{2 y^{2}+x^{2}+z^{2}}{4-x z}+\\frac{2 z^{2}+y^{2}+x^{2}}{4-y x} \\geq 4 x y z)%",
+        "question_images": [],
+        "solution": "Chứng minh được: %(2 x^{2}+y^{2}+z^{2} \\geq 2 x(y+z))%.<br>Tương tự ta có %(2 y^{2}+z^{2}+x^{2} \\geq 2 y(z+x), 2 z^{2}+x^{2}+y^{2} \\geq 2 z(x+y))%.<br>Do đó ta sẽ chứng minh %(\\frac{x(y+z)}{4-y z}+\\frac{y(z+x)}{4-z x}+\\frac{z(x+y)}{4-x y} \\geq 2 x y z)%.<br>Bất đẳng thức này tương đương với %(\\frac{y+z}{(4-y z) 2 y z}+\\frac{z+x}{(4-z x) 2 z x}+\\frac{x+y}{(4-x y) x y} \\geq 1)%.<br>Ta có %(\\frac{y+z}{(4-y z) 2 y z} \\geq \\frac{2 \\sqrt{y z}}{(2-\\sqrt{y z})(2+\\sqrt{y z}) 2 y z}=\\frac{1}{(2-\\sqrt{y z}) \\sqrt{y z}(2+\\sqrt{y z})}, \\quad)% dễ có %(0\\lt (2-\\sqrt{y z}) \\sqrt{y z}=-(\\sqrt{x y}-1)^{2}+1 \\leq 1)% nên %(\\frac{1}{(2-\\sqrt{y z}) \\sqrt{y z}(2+\\sqrt{y z})} \\geq \\frac{1}{2+\\sqrt{y z}})%<br>Vậy nên %(\\frac{y+z}{(4-y z) 2 y z} \\geq \\frac{1}{2+\\sqrt{y z}})%, tương tự có %(\\quad \\frac{z+x}{(4-z x) 2 z x} \\geq \\frac{1}{2+\\sqrt{z x}})% và %(\\frac{x+y}{(4-x y) 2 x y} \\geq \\frac{1}{2+\\sqrt{x y}})%.<br>Do đó %(\\frac{y+z}{(4-y z) 2 y z}+\\frac{z+x}{(4-z x) 2 z x}+\\frac{x+y}{(4-x y) x y} \\geq \\frac{1}{2+\\sqrt{x y}}+\\frac{1}{2+\\sqrt{y z}}+\\frac{1}{2+\\sqrt{z x}})%.<br>Với %(a)%,%(b)%,%(c\\gt 0)% có%((a+b+c)\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)=3+\\left(\\frac{a}{b}+\\frac{b}{a}\\right)+\\left(\\frac{b}{c}+\\frac{c}{b}\\right)+\\left(\\frac{c}{a}+\\frac{a}{c}\\right) \\geq 3+2+2+2=9)% nên<br>\\[\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c} \\geq \\frac{9}{a+b+c}(*) .\\]<br>Áp dụng (*) ta có %(\\frac{1}{2+\\sqrt{x y}}+\\frac{1}{2+\\sqrt{y z}}+\\frac{1}{2+\\sqrt{z x}} \\geq \\frac{9}{6+\\sqrt{x y}+\\sqrt{y z}+\\sqrt{z x}} \\geq 1)%;(Vì %(\\sqrt{x y}+\\sqrt{y z}+\\sqrt{z x} \\leq \\frac{x+y}{2}+\\frac{y+z}{2}+\\frac{z+x}{2}=x+y+z=3)% ).<br>Vậy %(\\frac{y+z}{(4-y z) 2 y z}+\\frac{z+x}{(4-z x) 2 z x}+\\frac{x+y}{(4-x y) x y} \\geq 1)%.<br>Do vậy ta có %(\\frac{2 x^{2}+y^{2}+z^{2}}{4-y z}+\\frac{2 y^{2}+z^{2}+x^{2}}{4-z x}+\\frac{2 z^{2}+x^{2}+y^{2}}{4-x y} \\geq 4 x y z)%.<br>Đẳng thức xảy ra khi và chỉ khi %(x=y=z=1)%.",
+        "question_type": "essay"
+    }
+]

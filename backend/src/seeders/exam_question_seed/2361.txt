@@ -1,0 +1,65 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.75,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x+y+\\frac{1}{x}+\\frac{1}{y}=\\frac{9}{2} \\\\ x y+\\frac{1}{x y}=\\frac{5}{2}\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Điều kiện %(x y \\neq 0)%<br>Hệ đã cho %(\\left\\{\\begin{array}{l}2[x y(x+y)+(x+y)]=9 x y(1) \\\\ 2(x y)^{2}-5 x y+2=0\\end{array}\\right. (2))%<br>Giải PT(2) ta được: %(\\left[\\begin{array}{l}x y=2  (3)\\\\ x y=\\frac{1}{2}\\end{array}(4)\\right.)%<br>Từ (1)\\&(3) có: %(\\left\\{\\begin{array}{l}x+y=3 \\\\ x y=2\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}x=1 \\\\ y=2\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}x=2 \\\\ y=1\\end{array}\\right.\\end{array}\\right.\\right.)%<br>Từ (1)\\&(4) có: %(\\left\\{\\begin{array}{l}x+y=\\frac{3}{2} \\\\ x y=\\frac{1}{2}\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=1 \\\\ y=\\frac{1}{2}\\end{array}\\right.\\right.)%%(\\left\\{\\begin{array}{l}x=\\frac{1}{2} \\\\ y=1\\end{array}\\right.)%<br>Vậy hệ đã cho có 4 nghiệm là: %((x ; y)=(1 ; 2),(2 ; 1),(1 ; 1 / 2),(1 / 2 ; 1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.75,
+        "content": "Giải và biện luận phương trình: %(|x+3|+p|x-2|=5)% ( %(p)% là tham số có giá trị thực).",
+        "question_images": [],
+        "solution": "Xét 3 trường hợp:<br>TH1. Nếu %(2 \\leq x)% thì PT trở thành: %((p+1) x=2(p+1))% (1)<br>TH2. Nếu %(-3 \\leq x\\lt 2)% thì PT trở thành: %((1-p) x=2(1-p))% (2)<br>TH3. Nếu %(x\\lt -3)% thì PT trở thành: %((p+1) x=2(p-4))% (3)<br>Nếu %(p \\neq \\pm 1)% thì (1) có nghiệm %(x=2)%; (2) vô nghiệm; (3) có nghiệm %(\\mathrm{x})% nếu thoả mãn:<br>\\[x=\\frac{2(p-4)}{p+1}\\lt -3 \\Leftrightarrow-1\\lt p\\lt 1 \\text {. }\\]<br>Nếu %(p=-1)% thì (1) cho ta vô số nghiệm thoả mãn %(2 \\leq x)%; (2) vô nghiệm; (3) vô nghiệm.<br>Nếu %(p=1)% thì (2) cho ta vô số nghiệm thoả mãn %(-3 \\leq x\\lt 2)%; (1) có nghiệm %(\\mathrm{x}=2)%; (3)VN<br>Kết luận:+ Nếu - %(1\\lt \\mathrm{p}\\lt 1)% thì phương trình có 2 nghiệm: %(\\mathrm{x}=2)% và %(x=\\frac{2(p-4)}{p+1})%<br>+ Nếu %(p=-1)% thì phương trình có vô số nghiệm %(2 \\leq x \\in \\mathbb{R})%<br>+ Nếu %(p=1)% thì phương trính có vô số nghiệm %(-3 \\leq x \\leq 2)%+ Nếu %(\\left[\\begin{array}{c}p\\lt -1 \\\\ p\\gt 1\\end{array}\\right.)% thì phương trình có nghiệm %(\\mathrm{x}=2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Cho ba số thực %(a, b, c)% đôi một phân biệt. Chứng minh %(\\frac{a^{2}}{(b-c)^{2}}+\\frac{b^{2}}{(c-a)^{2}}+\\frac{c^{2}}{(a-b)^{2}} \\geq 2)%",
+        "question_images": [],
+        "solution": "+ Phát hiện và chứng minh<br>\\[\\frac{b c}{(a-b)(a-c)}+\\frac{c a}{(b-a)(b-c)}+\\frac{a b}{(c-a)(c-b)}=1\\]<br>+ Từ đó, vế trái của bất đẳng thức cần chứng minh bằng:<br>\\[\\left(\\frac{a}{b-c}+\\frac{b}{c-a}+\\frac{c}{a-b}\\right)^{2}+2\\left(\\frac{b c}{(a-b)(a-c)}+\\frac{c a}{(b-c)(b-a)}+\\frac{a b}{(c-a)(c-b)}\\right) \\geq 2\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Cho %(A=\\frac{1}{\\sqrt{4 x^{2}+4 x+1}})% và %(B=\\frac{2 x-2}{\\sqrt{x^{2}-2 x+1}})%.<br>Tìm tất cả các giá trị nguyên của %(x)% sao cho %(C=\\frac{2 A+B}{3})% là một số nguyên.",
+        "question_images": [],
+        "solution": "Điều kiện xác định: %(x \\neq 1)% (do x nguyên).<br>Dễ thấy %(A=\\frac{1}{|2 x+1|} ; B=\\frac{2(x-1)}{|x-1|})%, suy ra: %(C=\\frac{2}{3}\\left(\\frac{1}{|2 x+1|}+\\frac{x-1}{|x-1|}\\right))%Nếu %(x\\gt 1)%.<br>Khi đó %(C=\\frac{2}{3}\\left(\\frac{1}{2 x+1}+1\\right)=\\frac{4(x+1)}{3(2 x+1)}>0 \\Rightarrow C-1=\\frac{4(x+1)}{3(2 x+1)}-1=\\frac{1-2 x}{3(2 x+1)}\\lt 0)%<br>Suy ra %(0\\lt C\\lt 1)%, hay %(C)% không thể là số nguyên với %(x>1)%.<br>Nếu %(-\\frac{1}{2}\\lt x\\lt 1)%.<br>Khi đó: %(x=0)% (vì %(x)% nguyên) và %(C=0)%.<br>Vậy %(x=0)% là một giá trị cần tìm.Nếu %(x\\lt -\\frac{1}{2})%.<br>Khi đó %(x \\leq-1)% (do %(x)% nguyên). Ta có:%(C=\\frac{2}{3}\\left(-\\frac{1}{2 x+1}-1\\right)=-\\frac{4(x+1)}{3(2 x+1)} \\leq 0)% và %(C+1=-\\frac{4(x+1)}{3(2 x+1)}+1=\\frac{2 x-1}{3(2 x+1)}>0)%, suy ra %(-1\\lt C \\leq 0)% hay %(C=0)% và %(x=-1)%.<br>Vậy các giá trị tìm được thoả mãn yêu cầu là: %(x=0, x=-1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho hình thang %(A B C D(A B / / C D, A B\\lt C D))%. Gọi %(K, M)% lần lượt là trung điểm của %(B D, A C)%. Đường thẳng qua %(K)% và vuông góc với %(A D)% cắt đường thẳng qua %(M)% và vuông góc với %(B C)% tại %(Q)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 (null điểm)",
+        "point": 0.0,
+        "content": "a) Chứng minh: %(\\mathrm{KM} / / \\mathrm{AB})%.",
+        "question_images": [],
+        "solution": "<img alt=\"5d84ae71367334543e9b021da39e7404.png\" src=\"https://docdn.giainhanh.io/media/test/5acbb514b7dcabbc3150290bdd9c752a.png\"/><br>Gọi I là trung điểm %(A B)%,%(E=I K \\cap C D, R=I M \\cap C D)%.<br>Xét hai tam giácKIB và KED có: %(A B D=B D C)%%(\\mathrm{KB}=\\mathrm{KD})% (K là trung điểm %(\\mathrm{BD})% )%(I K B=E K D)%<br>Suy ra %(\\triangle K I B=\\triangle K E D \\Rightarrow I K=K E)%.<br>Chứng minh tương tự có: %(\\triangle M I A=\\triangle M R C)%<br>Suy ra: MI = MR<br>Trong tam giác IER có %(I K=K E)% và %(M I=M R)%<br>nên KM là đường trung bình %(\\Rightarrow \\mathrm{KM} / / \\mathrm{CD})%<br>Do CD // AB (gt) do đó KM // AB (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "b) Chứng minh: %(Q D=Q C)%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\mathrm{IA}=\\mathrm{IB}, \\mathrm{KB}=\\mathrm{KD}(\\mathrm{gt}) \\Rightarrow \\mathrm{IK})% là đường trung bình của %(\\triangle \\mathrm{ABD} \\Rightarrow \\mathrm{IK} / / \\mathrm{AD})% hay %(\\mathrm{IE} / / \\mathrm{AD})% chứng minh tương tự trong %(\\triangle \\mathrm{ABC})% có %(\\mathrm{IM} / / \\mathrm{BC})% hay %(\\mathrm{IR} / / \\mathrm{BC})%<br>Có: %(Q K \\perp A D)% (gt), IE//AD (CM trên) %(\\Rightarrow Q K \\perp I E)%.<br>Tương tự có %(Q M \\perp I R)%<br>Từ trên có: %(\\mathrm{IK}=\\mathrm{KE}, Q K \\perp I E \\Rightarrow Q K)% là trung trực ứng với cạnh IE của %(\\triangle I E R)%. Tương tự %(\\mathrm{QM})% là trung trực thứ hai của %(\\triangle I E R)%Hạ %(Q H \\perp C D)% suy ra %(\\mathrm{QH})% là trung trực thứ ba của %(\\triangle I E R)% hay %(\\mathrm{Q})% nằm trên trung trực của đoạn %(\\mathrm{CD} \\Rightarrow \\mathrm{Q})% cách đều C và D hay QD=QC (đpcm).",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Trong mặt phẳng cho 2009 điểm, sao cho 3 điểm bất kỳ trong chúng là 3 đỉnh của một tam giác có diện tích không lớn hơn 1 . Chứng minh rằng tất cả những điểm đã cho nằm trong một tam giác có diện tích không lớn hơn 4.",
+        "question_images": [],
+        "solution": "<img alt=\"1260e64f98297364a031773128cb39fe.png\" src=\"https://docdn.giainhanh.io/media/test/319ebce14276e31ec22803a1266b7902.png\"/><br>Trong số các tam giác tạo thành, xét tam giác %(S)% có diện tích lớn nhất (diện tích %(A B C)% ). Khi đó %(A B C)%.<br>Qua mỗi đỉnh của tam giác, kẻ các đường thẳng song song với cạnh đối diện, các đường thẳng này giới hạn tạo thành một tam giác %(P)% (hình vẽ). Khi đó %(A^{'} B^{'} C^{'})%.<br>Ta sẽ chứng minh tất cả các điểm đã cho nằm trong tam giác %(A^{'} B^{'} C^{'})%.<br>Giả sử trái lại, có một điểm %(d \\left( P ; A B \\right ) \\gt d \\left( C ; A B \\right ))% nằm ngoài tam giác %(A^{'} B^{'} C^{'})%, chẳng hạn như trên hình vẽ . Khi đó %(S \\le 1)%, suy ra %(S_{P A B} > S_{C A B})%, mâu thuẫn với giả thiết tam giác %(S_{A^{'} B^{'} C^{'}} = 4 S_{A B C} \\le 4)% có diện tích lớn nhất.<br>Vậy, tất cả các điểm đã cho đều nằm bên trong tam giác %(A^{'} B^{'} C^{'})% có diện tích không lớn hơn 4.",
+        "question_type": "essay"
+    }
+]

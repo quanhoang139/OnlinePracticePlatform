@@ -1,0 +1,33 @@
+/* Hiệu ứng fade-in cho Card */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Hiệu ứng trôi nổi cho biểu tượng */
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .faq-container {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  }
+  
+  .faq-container .ant-card {
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+  }

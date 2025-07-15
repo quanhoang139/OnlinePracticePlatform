@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.5,
+        "content": "Rút gọn biểu thức<br>\\[P=\\left(\\frac{\\sqrt{x-2}}{1+\\sqrt{x-2}}+\\frac{x-3}{(1-\\sqrt{x-2})(1+\\sqrt{x-2})}\\right):\\left(\\frac{\\sqrt{x-2}-4}{x-2-2 \\sqrt{x-2}}-\\frac{2}{\\sqrt{x-2}}\\right) \\text {, }\\]<br>với %(x\\gt 2)% và %(x \\neq 3 ; x \\neq 6)%.Tính giá trị của biểu thức %(P)% khi %(x=\\sqrt{4+2 \\sqrt{3}}-(\\sqrt{5}+1) \\sqrt{4-2 \\sqrt{3}}+\\sqrt{5} \\cdot(\\sqrt{3}-1))%",
+        "question_images": [],
+        "solution": "Đặt %(a=\\sqrt{x-2})%, điều kiện %((a\\gt 0 ; a \\neq 1 ; a \\neq 2))%<br>Khi đó %(P=\\left[\\frac{a}{1+a}+\\frac{a^{2}+2-3}{(1-a)(1+a)}\\right]:\\left[\\frac{a-4}{a^{2}+2-2-2 a}-\\frac{2}{a}\\right])%<br>\\[\\begin{array}{c}P=\\left[\\frac{a(1-a)+a^{2}-1}{(1-a)(1+a)}\\right]:\\left[\\frac{a-4-2(a-2)}{a(a-2)}\\right] \\P=\\left[\\frac{a-1}{(1-a)(1+a)}\\right]:\\left[\\frac{-a}{a(a-2)}\\right] \\P=\\frac{-1}{(1+a)}: \\frac{-1}{(a-2)} \\P=\\frac{a-2}{a+1}=\\frac{\\sqrt{x-2}-2}{\\sqrt{x-2}+1}\\end{array}\\]<br>Tính giá trị của biểu thức P khi<br>\\[\\boldsymbol{x}=\\sqrt{4+2 \\sqrt{3}}-(\\sqrt{5}+1) \\sqrt{4-2 \\sqrt{3}}+\\sqrt{5} \\cdot(\\sqrt{3}-1)\\]<br>Ta có : %(x=\\sqrt{(\\sqrt{3}+1)^{2}}-(\\sqrt{5}+1) \\sqrt{(\\sqrt{3}-1)^{2}}+\\sqrt{5} \\cdot(\\sqrt{3}-1))%<br>\\[\\begin{array}{l} x=\\sqrt{3}+1-(\\sqrt{5}+1) \\cdot(\\sqrt{3}-1)+\\sqrt{5} \\cdot(\\sqrt{3}-1) \\x=\\sqrt{3}+1-(\\sqrt{3}-1)=2\\end{array}\\]<br>%(\\mathrm{P}(2))% không xác định",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.5,
+        "content": "Tìm nghiệm nguyên của phương trình %(3\\left(x^{2}-x y+y^{2}\\right)=7(x+y))%",
+        "question_images": [],
+        "solution": "Tìm nghiệm nguyên của phương trình<br>\\[3\\left(x^{2}-x y+y^{2}\\right)=7(x+y)\\]<br>Ta thấy %(7(x+y))% chia hết cho 3 mà 3 và 7 nguyên tố cùng nhau nên %((x+y))% chia hết cho 3<br>Đặt %((x+y)=3 m(m \\in Z))% thì %(\\left(x^{2}-x y+y^{2}\\right)=7 m)%<br>Suy ra %((x+y)^{2}-\\left(x^{2}-x y+y^{2}\\right)=(3 m)^{2}-7 m)%<br>Hay %(x y=\\frac{9 m^{2}-7 m}{3})%<br>Ta có bất đẳng thức %((x+y)^{2} \\geq 4 x y n e ̂ n 9 m^{2} \\geq 4\\left(\\frac{9 m^{2}-7 m}{3}\\right))%<br>Suy ra %(m(28-9 m) \\geq 0)%.<br>Do đó %(0 \\leq m \\leq \\frac{28}{9})%.Do m %(\\in)% Znên m %(\\in\\{0 ; 1 ; 2 ; 3\\})%<br>TH1: Với %(m=0)% thi %(\\left\\{\\begin{array}{c}x+y=0 \\\\ x y=0\\end{array}\\right.)%. Nghiệm %((x ; y)=(0 ; 0))%<br>TH2: Với %(m=1)% thi %(\\left\\{\\begin{array}{l}x+y=3 \\\\ x y=\\frac{2}{3}\\end{array}(\\right.)% Loai %())%<br>TH3: Với %(m=2)% thi %(\\left\\{\\begin{array}{l}x+y=6 \\\\ x y=\\frac{22}{3}\\end{array}\\right.)% (Loai %())%<br>TH4: Với %(m=3)% thi %(\\left\\{\\begin{array}{c}x+y=9 \\\\ x y=20\\end{array}\\right.)%.<br>Nghiệm %((x ; y)=(5 ; 4) ;(x ; y)=(4 ; 5))%<br>Vậy nghiệm %((x ; y))% là %((0 ; 0) ;(5 ; 4) ;(4 ; 5))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 3.0,
+        "content": "Giải phương trình %(\\sqrt{2 x-1}+x^{2}-3 x+1=0)%.",
+        "question_images": [],
+        "solution": "Điều kiện : %(x \\geq \\frac{1}{2})%Phương trình %((1) \\Leftrightarrow(\\sqrt{2 x-1}-1)+\\left(x^{2}-3 x+2\\right)=0)%<br>\\[\\begin{array}{c}\\Leftrightarrow\\left[\\frac{2(x-1)}{\\sqrt{2 x-1}+1}\\right]+(x-1)(x-2)=0 \\\\Leftrightarrow(x-1)\\left(\\frac{2}{\\sqrt{2 x-1}+1}+x-2\\right)=0 \\Leftrightarrow\\left[\\frac{2}{\\sqrt{2 x-1}+1}+x-2=0\\right.\\end{array}\\]<br>Phương trình %((2) \\Leftrightarrow 2+(x-2)(\\sqrt{2 x-1}+1)=0)%<br>\\[\\Leftrightarrow(x-2)(\\sqrt{2 x-1})=-x\\]<br>\\[\\begin{array}{l}\\Leftrightarrow\\left\\{\\begin{array}{c}x\\lt 2\\left(v i ̀ \\geq \\frac{1}{2}\\right) \\\\(x-2)^{2}(2 x-1)=x^{2}\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{c}x\\lt 2 \\\\2 x^{3}-10 x^{2}+12 x-4=0\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{c}x\\lt 2 \\\\(x-1)\\left(x^{2}-4 x+2\\right)=0\\end{array}\\right.\\end{array}\\]<br>Tập nghiệm của phương trình %(S=\\{1 ; 2-\\sqrt{2}\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Trong một buổi họp mặt giữa hai lớp 8 A và 8 B có tất cả 62 học sinh tham gia. Các bạn lớp 8 B tính số người quen ở lớp 8 A và thấy rằng: bạn thứ nhất lớp 8 B quen 13 bạn ở lớp 8 A , bạn thứ hai lớp 8 B quen 14 bạn ở lớp 8 A , bạn thứ ba lớp 8 B quen 15 bạn ở lớp 8 A và cứ như vậy đến bạn cuối cùng của lớp 8 B quen tất cả các bạn của lớp 8 A . Tính số học sinh mỗi lớp tham gia họp mặt.",
+        "question_images": [],
+        "solution": "Gọi số học sinh của lớp 8 B là %(x\\left(Đ K: x \\in N^{*}\\right))%<br>Bạn thứ nhất của lớp 8 B quen %(12+1)% bạn của lớp 8 A<br>Bạn thứ hai của lớp 8 B quen %(12+2)% bạn của lớp 8 A<br>Ban thứ ba của lớp 8 B quen %(12+3)% ban của lớp 8 A<br>Bạn thứ %(x)% của lớp 8 B quen %(12+x)% bạn của lớp 8 A (là tất cả số họcsinh của lớp 8 A%())%<br>Ta có: %(x+12+x=62)%Suy ra %(x=25(T M Đ K))%<br>Vậy lớp 8 B có 25 học sinh tham gia buổi họp mặt<br>Lớp 8 A có 37 hoc sinh tham gia buổi hop măt",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho đường tròn %((I ; R))% nội tiếp tam giác %(A B C)%, biết tam giác %(A B C)% cân tại %(A)% và %(B A C=120^{\\circ}, A B=2(2+\\sqrt{3}))%. Đường tròn %((I ; R))% tiếp xúc các cạnh %(A B, A C)% lần lượt tại %(D, E)%. Một tiếp tuyến của đường tròn tại điểm bất kì thuộc cung nhỏ DE cắt các cạnh %(A B, A C)% tương ứng tại %(M)% và %(N)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "a) Chứng minh rằng %(M N^{2}=A M^{2}+A N^{2}+A M \\cdot A N)%.",
+        "question_images": [],
+        "solution": "Gọi H là hình chiêu của N trên cạnh BA .<br>Ta có : %(H A N=60^{\\circ})% suy ra %(A H=\\frac{A N}{2})%<br>\\[N H=\\frac{A N \\sqrt{3}}{2} ; H M=H A+A M\\]<br>Áp dụng định lý Pythagore trong tam giác vuông MHN, ta có:<br>\\[\\begin{array}{c}M N^{2}=M H^{2}+H N^{2} \\M N^{2}=(A M+A H)^{2}+\\left(\\frac{A N \\sqrt{3}}{2}\\right)^{2} \\M N^{2}=A M^{2}+2 A M \\cdot A H+A H^{2}+\\frac{3 A N^{2}}{4} \\M N^{2}=A M^{2}+A N^{2}+A M \\cdot A N \\quad(\\text { dcpcm })\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ae67192eb5f68c21810920a890422279.png\" srcset=\"https://docdn.giainhanh.io/media/test/4ccd8ab5f04abb5587c0172c19bd48b9.png 245w, https://docdn.giainhanh.io/media/test/027007b200ca4418534a6c153cea4681.png 500w, https://docdn.giainhanh.io/media/test/a119b52a32953ebbf55a353f08db5f9f.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "b) Tính bán kính R của đường tròn %((I ; R))%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{r}B C=2 B F=2 \\cdot \\frac{A B \\sqrt{3}}{2}=2(2+\\sqrt{3}) \\cdot \\sqrt{3} \\Rightarrow B F=\\sqrt{3}(2+\\sqrt{3}) ; \\\\ \\frac{A F=(2+\\sqrt{3})}{I F}=\\frac{A B}{B F} \\Rightarrow \\frac{A I}{I F}=\\frac{2(2+\\sqrt{3})}{\\sqrt{3}(2+\\sqrt{3})}=\\frac{2}{\\sqrt{3}}\\end{array})%<br>%(\\begin{aligned} A I+I F & =A F=2+\\sqrt{3} ; A I=\\frac{2}{\\sqrt{3}} I F \\\\ & \\Rightarrow I F+\\frac{2}{\\sqrt{3}} I F=2+\\sqrt{3} \\Leftrightarrow I F\\left(\\frac{2+\\sqrt{3}}{\\sqrt{3}}\\right)=2+\\sqrt{3} \\Rightarrow I F=\\sqrt{3}\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "c) Chứng minh rằng %(\\frac{2}{3}\\lt M N\\lt 1)%.",
+        "question_images": [],
+        "solution": "Áp dụng bất đẳng thức trong tam giác AMN , ta có:<br>\\[M N\\lt A M+A N \\Rightarrow 2 M N\\lt M N+A M+A N\\]<br>\\[\\begin{array}{r}\\Rightarrow 2 M N\\lt 2 A D \\\\Rightarrow M N\\lt \\sqrt{A I^{2}-I F^{2}}=\\sqrt{4-3}=1\\end{array}\\]<br>Theo kết quả của câu a, ta có:<br>\\[\\begin{array}{r}M N\\gt A M ; M A>A N \\Rightarrow 2 M N>A M+A N \\\\Rightarrow 3 M N>A M+A N+M N=2 A D=2 \\Rightarrow M N>\\frac{2}{3} \\quad \\text { (2) }\\end{array}\\]<br>Kết hợp (1) và (2) suy ra: %(\\frac{2}{3}\\lt M N\\lt 1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Trong hộp có chứa 2024 viên bi màu (mỗi viên bi chỉ có đúng một màu) trong đó có 675 viên bi màu đỏ, 657 viên bi màu xanh, 675 viên bi màu tím và 17 viên bi còn lại là các viên bi màu vàng hoặc màu trắng (mỗi màu có ít nhất một viên). Người ta lấy ra từ hộp 123 viên bi bất kì. Chứng minh rằng, trong số các viên bi vừa lấy ra luôn có ít nhất 36 viên bi cùng màu. Nếu người ta chỉ lấy ra từ hộp 122 viên bi bất kì thì kết luận trên của bài toán còn đúng không?",
+        "question_images": [],
+        "solution": "Nếu lấy ra 123 viên bi bất kì thì số viên bi màu trắng hoặc màu vàng tối đa là 17 viên. Như vậy còn lại ít nhất %(123-17=106)% viên bi có màu đỏ hoặc màu xanh hoặc màu tím.<br>Theo nguyên lí Dirichlet sẽ tồn tại ít nhất %(\\left[\\frac{106}{3}\\right]+1=36)% viên bi có cùng màu.<br>Nếu ta chọn ra 35 viên bi màu đỏ, 35 viên bi màu xanh, 35 viên bi màu tím và 17 viên bi màu vàng hoặc màu trắng (mỗi màu có ít nhất 1 viên bi) thì tổng số viên bi lấy ra là %(35+35+35+17=122)% viên bi.<br>Do đó, không có 36 viên bi nào cùng màu. Vậy bài toán không đúng nếu ta chỉ lấy ra 122 viên bi.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C)% có %(B A C=60^{\\circ})%. Chứng minh rằng %(\\frac{B C^{2}}{A B^{2}}+\\frac{B C^{2}}{A C^{2}} \\geq 2)%.",
+        "question_images": [],
+        "solution": "Giả sử %(A B C\\gt A C B)%.<br>Gọi BH là đường cao của tam giác %(\\mathrm{ABC}, \\mathrm{I})% là điểm đối xứng với A qua H .<br>\\[B C^{2}=B H^{2}+H C^{2}=A B^{2}-A H^{2}+H C^{2}\\]<br>\\[\\begin{array}{c}=A B^{2}+(H C-H A)(H C+H A) \\\\=A B^{2}+C I \\cdot A C \\\\=A B^{2}+(A C-A B) \\cdot A C \\B C^{2}=A B^{2}+A C^{2}-A B \\cdot A C\\end{array}\\]<br>Ta chứng minh bất đẳng thức : %(\\frac{1}{a^{2}}+\\frac{1}{b^{2}} \\geq \\frac{2}{a b}(*))%<br>Thật vậy, ta có : %((*) \\Leftrightarrow \\frac{a^{2}+b^{2}}{a^{2} b^{2}} \\geq \\frac{2 a b}{a^{2} b^{2}} \\Leftrightarrow(a-b)^{2} \\geq 0)%Áp dụng bất đẳng thức ( %(\\left.{ }^{*}\\right))% ta có :<br>\\[\\frac{B C^{2}}{A B^{2}}+\\frac{B C^{2}}{A C^{2}}=B C^{2} \\cdot\\left(\\frac{1}{A B^{2}}+\\frac{1}{A C^{2}}\\right) \\geq \\frac{2 B C^{2}}{A B \\cdot A C}\\]<br>Mà %(B C^{2}=A B^{2}+A C^{2}-A B \\cdot A C \\geq A B \\cdot A C)%<br>Suy ra %(\\frac{B C^{2}}{A B^{2}}+\\frac{B C^{2}}{A C^{2}} \\geq 2)%.<br>Dấu đẳng thức xảy ra khi tam giác ABC là tam giác đều.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7996ce3b41166f6ddbc47a0f97770d4e.png\" srcset=\"https://docdn.giainhanh.io/media/test/d20496abb8fa2e09b067558468f5cd7b.png 245w, https://docdn.giainhanh.io/media/test/c6b32b991e88002100fe56fabe0f2545.png 500w, https://docdn.giainhanh.io/media/test/09ba68a806652b887725a183ee6cce58.png 750w, https://docdn.giainhanh.io/media/test/99daace691ab6c79837bd1f27d5b9ebc.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.0,
+        "content": "Tìm giá trị lớn nhất của biểu thức<br>\\[A=25 \\sqrt{3 x^{2}-3 x^{4}}+2 \\sqrt{4 x^{2}+9 x^{4}}(x \\in R ; 0 \\leq x \\leq 1) .\\]",
+        "question_images": [],
+        "solution": "\\[\\sqrt{16 x^{2}\\left(4+9 x^{2}\\right)} \\leq \\frac{16 x^{2}+4+9 x^{2}}{2}=\\frac{25 x^{2}+4}{2}(1)\\]<br>\\[\\sqrt{3 x^{2}\\left(4-4 x^{2}\\right)} \\leq \\frac{3 x^{2}+4-4 x^{2}}{2}=\\frac{4-x^{2}}{2}\\]<br>Suy ra %(25 \\sqrt{3 x^{2}\\left(4-4 x^{2}\\right)} \\leq \\frac{100-25 x^{2}}{2})%(2)<br>Cộng (1) và (2) theo vế, ta được:<br>\\[4 \\sqrt{4 x^{2}+9 x^{4}}+50 \\sqrt{3 x^{2}-3 x^{4}} \\leq \\frac{100}{2}+\\frac{4}{2}=52\\]<br>Suy ra %(A \\leq 26)%<br>Giá trị lớn nhất của %(\\mathrm{A}=26)% khi %(\\left\\{\\begin{array}{l}16 x^{2}=4+9 x^{2} \\\\ 3 x^{2}=4-4 x^{2}\\end{array} \\Leftrightarrow x^{2}=\\frac{4}{7}\\right.)%<br>\\[\\Leftrightarrow\\left[\\begin{array}{c}x=\\frac{2 \\sqrt{7}}{7} \\x=-\\frac{2 \\sqrt{7}}{7}\\end{array}\\right.\\]",
+        "question_type": "essay"
+    }
+]

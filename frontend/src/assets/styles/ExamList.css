@@ -1,0 +1,154 @@
+.exam-list-container {
+    margin-bottom: 20px;
+    
+}
+
+.exam-list-scroll {
+    max-height: calc(100vh - 250px);
+    /* Giới hạn chiều cao */
+    overflow-y: auto;
+    /* Thanh cuộn dọc */
+    padding-right: 8px;
+    padding-top: 5px;
+    
+    /* Khoảng cách với thanh cuộn */
+}
+
+.exam-card {
+    border-radius: 10px;
+    /* Bo góc */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    /* Bóng đổ nhẹ */
+    transition: all 0.3s ease;
+    /* Hiệu ứng mượt mà */
+    background-color: #f8f8f8;
+    
+    /* Khoảng cách bên trong */
+}
+
+.exam-card:hover {
+    /* box-shadow: 0 4px 12px #012f46; */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    /* Bóng đổ đậm hơn khi hover */
+    transform: translateY(-5px);
+    background-color: #c5ecff;
+    /* Nâng nhẹ card khi hover */
+}
+
+.exam-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    /* Đảm bảo icon không bị méo */
+}
+
+.exam-title {
+    margin: 0 0 8px 0;
+    /* Khoảng cách dưới tiêu đề */
+    font-size: 18px;
+    /* Tăng kích cỡ tiêu đề */
+    color: #333;
+    /* Màu chữ đậm hơn */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* Giới hạn tối đa 2 dòng */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Thêm dấu 3 chấm khi cắt */
+    line-height: 1.4;
+    text-align: justify;
+    /* Điều chỉnh khoảng cách dòng */
+    min-height: 2.8em
+}
+
+.exam-tags {
+    display: flex;
+    flex-direction: column; /* Xếp các row theo cột */
+    gap: 6px; /* Khoảng cách giữa các row */
+  }
+  
+  .tag-row {
+    display: flex;
+    flex-wrap: wrap; /* Cho phép tag xuống dòng nếu quá dài */
+    gap: 8px; /* Khoảng cách giữa các tag trong cùng row */
+  }
+  
+  .top-row {
+    /* Style bổ sung cho dòng trên nếu cần */
+  }
+  
+  .bottom-row {
+    /* Style bổ sung cho dòng dưới nếu cần */
+  }
+
+.exam-tags .ant-tag {
+    font-size: 14px;
+    /* Kích cỡ chữ trong tag */
+    padding: 2px 8px;
+    /* Khoảng cách bên trong tag */
+    border-radius: 12px;
+    /* Bo góc tag */
+}
+
+/* Pagination cố định */
+.fixed-pagination {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+}
+
+.custom-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-pagination .ant-pagination-options {
+    order: -1;
+    margin-right: 10px;
+}
+
+.custom-pagination .ant-pagination-item-container {
+    order: 0;
+}
+
+.exam-link {
+    text-decoration: none !important; /* Bỏ gạch chân của Link */
+    color: inherit; /* Giữ màu chữ mặc định */
+    display: block; /* Đảm bảo toàn bộ card là vùng nhấn được */
+  }
+
+/* Style cho phần không có đề thi */
+.no-exams-container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .no-exams-icon {
+    font-size: 48px;
+    color: #888;
+    margin-bottom: 16px;
+  }
+  
+  .no-exams-title {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .no-exams-message {
+    font-size: 16px;
+    color: #777;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  

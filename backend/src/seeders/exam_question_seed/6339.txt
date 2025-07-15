@@ -1,0 +1,132 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Có 3 xe xuất phát từ A đi đến B trên cùng một đường thẳng. Xe 2 xuất phát muộn hơn xe 1 là 2h và xuất phát sớm hơn xe 3 là 30 phút. Sau một thời gian thì cả 3 xe gặp nhau ở một điểm C trên đường đi. Biết xe 3 đến trước xe 1 là 1h. Hỏi xe 2 đến trước xe 1 bao lâu? Biết các xe chuyển động thẳng đều.",
+        "question_images": [],
+        "solution": "Giả sử sau %(\\mathrm{t}(\\mathrm{h}))% tính từ lúc xe 3 xuất phát thì cả 3 xe cùng gặp nhau tại diềm %(\\mathrm{C})%.<br>Khi đó quãng đường %(\\mathrm{AC})% là: %(\\mathrm{AC}=(\\mathrm{t}+2,5) \\mathrm{v}_{1}=(\\mathrm{t}+0,5) \\mathrm{v}_{2}=\\mathrm{t} . \\mathrm{v}_{3})%<br>Ta có: %(\\frac{v_{3}}{v_{2}}=\\frac{t+0,5}{t}(1))%<br>\\[(\\mathrm{t}+0,5) \\mathrm{v}_{2}-(\\mathrm{t}+2,5) \\mathrm{v}_{1}=0 \\rightarrow v_{2}-v_{1}=\\frac{2 v_{1}}{t+0,5}(2)\\]<br>%(\\mathrm{t}_{\\mathrm{v}}-(\\mathrm{t}+2,5)=0 \\rightarrow v_{3}-v_{1}=\\frac{2,5 v_{1}}{t}(3))%<br>Thời gian các xe di trên quãng dường còn lại là : %(t_{2}=\\frac{s-s_{1}}{v_{2}})%<br>Theo bài ra ta có : %(t_{1}-\\left(t_{1}+\\frac{1}{4}+t_{2}\\right)=\\frac{1}{2} h \\rightarrow t_{1}-\\frac{s_{1}}{v_{1}}-\\frac{1}{4}-\\frac{s-s_{1}}{v_{2}}=\\frac{1}{2}(1))%<br>\\[\\frac{s}{v_{1}}-\\frac{s}{v_{2}}-s_{1}\\left(\\frac{1}{v_{1}}-\\frac{1}{v_{2}}\\right)=\\frac{1}{2}+\\frac{1}{4}=\\frac{3}{4}(2)\\]<br>Từ (1) và (2) : %(s_{1}\\left(\\frac{1}{v_{1}}-\\frac{1}{v_{2}}\\right)=1-\\frac{3}{4}=\\frac{1}{4})%<br>Hay %(s_{1}=\\frac{1}{4} \\cdot \\frac{v_{1} v_{2}}{v_{2}-v_{1}}=\\frac{1}{4} \\cdot \\frac{12.15}{15-12}=15 \\mathrm{~km})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Hai con tàu chuyển động trên cùng một đường thẳng với cùng vận tốc không đổi v, hướng tới gặp nhau. Kích thước các con tàu rất nhỏ so với khoảng cách giữa chúng. Khi hai tàu cách nhau một khoảng L thì một con Hải Âu từ tàu A bay với vận tốc u ( với u > v) đến gặp tàu B (lần gặp 1), khi tới tàu B nó bay ngay lại tàu A (lần gặp 2), khi tới tàu A nó bay ngay lại tàu B (lần gặp 3 ) ...",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "null ",
+        "point": 0.5,
+        "content": "a. Tính tổng quãng đường con Hải Âu bay được khi hai tàu còn cách nhau một khoảng l < L .",
+        "question_images": [],
+        "solution": "+ Thời gian hai tàu đi được từ khi cách nhau khoảng %(L)% đến khi cách nhau khoảng %(l)% là:<br>\\[t=\\frac{L-l}{2 v} \\text {. }\\]<br>+ Tổng quãng đường con Hải Âu bay được đến khi hai tàu cách nhau một khoảng %(l)% là:<br>\\[S=u t=u \\frac{L-l}{2 v} .\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "null ",
+        "point": 0.5,
+        "content": "b. Hãy lập biểu thức tính tổng quãng đường con Hải Âu bay được khi gặp tàu lần thứ n.",
+        "question_images": [],
+        "solution": "+ Gọi %(\\mathrm{B}_{1}, \\mathrm{~B}_{2}, \\ldots \\mathrm{A}_{1}, \\mathrm{~A}_{2})% là vị trí Hài Âu gặp tàu %(\\mathrm{B})% và tàu %(\\mathrm{A})% lần 1, lần %(2, \\ldots)%+ Lần gặp thứ nhất:<br>- Thời gian Hải âu bay từ tàu %(\\mathrm{A})% tới gặp tàu %(\\mathrm{B})% tại %(\\mathrm{B}_{1})% là: %(t_{1}=\\frac{L}{u+v})%%(\\Rightarrow \\mathrm{AB}_{1}=\\mathrm{ut}_{1})%.<br>- Lúc đó tàu %(\\mathrm{A})% đến %(\\mathrm{a}_{1}: \\mathrm{Aa}_{1}=\\mathrm{vt}_{1} \\Rightarrow \\mathrm{a}_{1} \\mathrm{~B}_{1}=\\mathrm{AB}_{1}-\\mathrm{Aa}_{1}=(\\mathrm{u}-\\mathrm{v}) \\mathrm{t}_{1})%+ Lần gặp thứ 2 :<br>- Thời gian con Hải âu bay từ %(\\mathrm{B}_{1})% đến gặp tàu %(\\mathrm{A})% tại %(\\mathrm{A}_{1})% :%(t_{2}=\\frac{a_{1} B_{1}}{u+v}=\\frac{(u-v)}{u+v} t_{1} \\Rightarrow \\frac{t_{1}}{t_{2}}=\\frac{u-v}{u+v})%<br>+ Lần gă̆p thứ 3 :<br>- Thời gian Hài âu bay %(\\mathrm{B}_{1} \\mathrm{~A}_{1})% thì tàu %(\\mathrm{B})% đi khoàng:<br>\\[B_{1} b_{1}=v t_{2} \\Rightarrow b_{1} A_{1}=A_{1} B_{1}-B_{1} b_{1}=t_{2}(u-v) \\text {. }\\]<br>- Thời gian hải âu bay từ %(\\mathrm{A}_{1})% đến %(\\mathrm{B}_{2})% :<br>\\[t_{3}=\\frac{b_{1} A_{1}}{u+v}=t_{2} \\frac{u-v}{u+v} \\Rightarrow \\frac{t_{3}}{t_{2}}=\\frac{u-v}{u+v}\\]<br>+ Từ (1) và (2) %(\\Rightarrow \\frac{t_{2}}{t_{1}}=\\frac{t_{3}}{t_{2}})%.<br>+ Tổng quát ta có thời gian đi tuân theo qui luật:%(\\frac{t_{2}}{t_{1}}=\\frac{t_{3}}{t_{2}}=\\frac{t_{3}}{t_{4}}=\\ldots \\ldots . .=\\frac{t_{n}}{t_{n-1}}=\\frac{u-v}{u+v} \\Rightarrow t_{2}=\\frac{u-v}{u+v} t_{1})% %(t_{3}=\\frac{u-v}{u+v} t_{2}=\\left(\\frac{u-v}{u+v}\\right)^{2} t_{1})%<br>\\[t_{n}=\\left(\\frac{u-v}{u+v}\\right)^{n-1} t_{1} \\text {. }\\]<br>Tổng quãng đường Hải Âu bay được:<br>\\[\\begin{array}{l}S=S_{1}+S_{2}+\\ldots+S_{n}=u\\left(t_{1}+t_{2}+\\ldots+t_{n}\\right)=u t_{1}\\left[1+\\frac{u-v}{u+v}+\\ldots+\\left(\\frac{u-v}{u+v}\\right)^{n-1}\\right] \\\\=u \\frac{L}{u+v}\\left[1+\\frac{u-v}{u+v}+\\ldots+\\left(\\frac{u-v}{u+v}\\right)^{n-1}\\right] .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Một thanh đồng chất tiết diện đều, có khối lượng %(10 \\mathrm{~kg})%, chiều dài %(\\ell)%. Thanh được đặt trên hai giá đỡ %(\\mathrm{A})% và %(\\mathrm{B})% như hình vẽ. Khoảng cách %(\\mathrm{BC}=\\frac{\\ell}{7})%. Ở đầu %(\\mathrm{C})% người ta buộc một vật nặng hình trụ có bán kính đáy %(10 \\mathrm{~cm})%, chiều cao %(32 \\mathrm{~cm})%, trọng lượng riêng của chất làm vật nặng hình trụ là %(\\mathrm{d}=35000 \\mathrm{~N} / \\mathrm{m}^{3})%. Biết thanh ở trạng thái cân bằng và lực ép của thanh lên giá đỡ %(\\mathrm{A})% bị triệt tiêu. Tính trọng lượng riêng của chất lỏng trong bình. Coi trọng lượng của dây buộc không đáng kể.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/6b1e5363f86cada55aac0b6a289bde11.png"
+        ],
+        "solution": "* Gọi %(\\mathrm{P})% là trọng lượng của thanh %(\\mathrm{\\Lambda C})% %(\\mathrm{P}_{1})% là trong lương đoan %(\\mathrm{BC})% : %(\\mathrm{P}_{1}=\\frac{1}{7} \\mathrm{P}, \\mathrm{P}_{2})% là trong lượng doạn %(\\mathrm{AB}: \\mathrm{P}_{2}=\\frac{6}{7} \\mathrm{P})%%(l)% là chiều dài thanh %(\\mathrm{AC}, \\mathrm{V})% là thể tích vật chìm trong nước%(\\mathrm{d}_{3})% là độ dài đoạn %(\\mathrm{BC}: \\mathrm{d}_{3}=\\frac{1}{7} \\ell, \\mathrm{d}_{2})% là khoãng cách từ %(\\mathrm{B})% đến %(\\mathrm{P}_{2}: \\mathrm{d}_{2}=\\frac{3}{7} \\ell, \\mathrm{d}_{1})% là khoãng cách từ %(\\mathrm{B})% đến %(\\mathrm{P}_{1})% :<br>\\[\\mathrm{d}_{1}=\\frac{1}{14} \\ell\\]<br>* Vì lực ép của thanh lên điểm %(\\mathrm{A})% bị triệt tiêu nên theo điều kiện cân bằng lực ta có phương trình cân bằng lực sau :<br>\\[\\mathrm{P}_{1} \\mathrm{~d}_{1}+\\mathrm{Fd}_{3}=\\mathrm{P}_{2} \\mathrm{~d}_{2}\\]<br>* Vì vật nằm lơ lửng trong lòng chất lỏng nên :<br>\\[\\mathrm{F}=\\mathrm{V} . \\mathrm{d}-\\mathrm{Vd} \\mathrm{d}_{\\mathrm{x}}=\\mathrm{V}\\left(\\mathrm{d}-\\mathrm{d}_{\\mathrm{x}}\\right)\\]<br>Từ (1) và (2) ta có :<br>\\[\\begin{aligned}\\mathrm{P}_{1} \\mathrm{~d}_{1}+\\mathrm{Fd}_{3} & =\\mathrm{P}_{2} \\mathrm{~d}_{2} \\Leftrightarrow \\frac{1}{7} \\mathrm{P} \\cdot \\frac{1}{14} \\ell+\\mathrm{F} \\cdot \\frac{2}{14} \\ell=\\frac{6}{7} \\mathrm{P} \\cdot \\frac{3}{7} \\ell \\\\& \\Leftrightarrow 35 \\mathrm{P}=14 \\mathrm{~F} \\\\& \\Leftrightarrow 35 \\mathrm{P}=14 \\mathrm{~V}\\left(\\mathrm{~d}-\\mathrm{d}_{\\mathrm{x}}\\right) \\\\& \\Leftrightarrow\\left(\\mathrm{d}-\\mathrm{d}_{\\mathrm{x}}\\right)=\\frac{35 \\mathrm{P}}{14 \\mathrm{~V}}\\end{aligned}\\]<br>\\[\\begin{array}{c}\\Leftrightarrow \\mathrm{d}_{\\mathrm{x}}=\\mathrm{d}-\\frac{35 \\mathrm{P}}{14 \\mathrm{~V}} \\\\text { với } \\mathrm{P}=10 \\cdot \\mathrm{m} \\\\mathrm{V}=\\mathrm{S} \\cdot \\mathrm{h}=\\pi \\cdot \\mathrm{R}^{2} \\cdot \\mathrm{h}=3,14 \\cdot 0,1^{2} \\quad 0,32=0,01\\left(\\mathrm{~m}^{3}\\right)\\end{array}\\]<br>Thay vào (3) ta có<br>\\[\\mathrm{d}_{\\mathrm{x}}=35000-\\frac{35.100}{14.0,01}=10.000\\left(\\mathrm{~N} / \\mathrm{m}^{3}\\right)\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho mạch điện như hình vẽ. Biết %(\\mathrm{U}=12 \\mathrm{~V}, \\mathrm{R}_{1}=4 \\Omega)%, %(\\mathrm{R}_{2}=\\mathrm{R}_{3}=6 \\Omega)%. Biến trở con chạy %(\\mathrm{AB})% là một dây dẫn đồng tính, tiết diện đều, điện trở toàn phần là %(15 \\Omega)%. Bỏ qua điện trở các dây nối, các Ampe kế và Vôn kế đều lí tưởng.",
+        "group_images": [
+            "https://docdn.giainhanh.io/media/test/d89a45ef78bf4bae6a76a4dccd23a09b.png"
+        ],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "null ",
+        "point": 0.5,
+        "content": "a. Để con chạy %(\\mathrm{C})% ở vị trí sao cho %(\\mathrm{CB}=4 . \\mathrm{CA})%, sau đó đóng khóa %(\\mathrm{K})%.Tìm số chỉ các Ampe kế và Vôn kế.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\mathrm{R}_{\\mathrm{AC}}=3 \\Omega=\\mathrm{R}_{4} ; \\mathrm{R}_{\\mathrm{BC}}=12 \\Omega=\\mathrm{R}_{5} \\\\ \\mathrm{R}_{\\mathrm{td} 1}=\\frac{\\mathrm{R}_{2} \\mathrm{R}_{4}}{\\mathrm{R}_{2}+\\mathrm{R}_{4}}+\\frac{\\mathrm{R}_{3} \\mathrm{R}_{5}}{\\mathrm{R}_{3}+\\mathrm{R}_{3}}+\\mathrm{R}_{1}=10 \\Omega \\\\ \\mathrm{I}=\\frac{\\mathrm{U}}{\\mathrm{R}_{\\text {td1 }}}=1,2 \\mathrm{~A} \\\\ \\mathrm{I}_{2}=\\frac{\\mathrm{R}_{4}}{\\mathrm{R}_{2}+\\mathrm{R}_{4}} \\mathrm{I}=0,4 \\mathrm{~A} ; \\mathrm{I}_{3}=\\frac{\\mathrm{R}_{5}}{\\mathrm{R}_{3}+\\mathrm{R}_{5}} \\mathrm{I}=0,8 \\mathrm{~A} \\\\ \\mathrm{I}_{\\mathrm{A} 1}=\\mathrm{I}_{3}-\\mathrm{I}_{2}=0,4 \\mathrm{~A} \\\\ \\mathrm{U}_{\\mathrm{V} 1}=\\mathrm{I}_{24}=2,4 \\mathrm{~V} \\\\ \\mathrm{U}_{\\mathrm{V} 2}=\\mathrm{I} \\cdot \\mathrm{R}_{35}=4,8 \\mathrm{~V}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "null ",
+        "point": 0.5,
+        "content": "b. Di chuyển rất chậm con chạy %(\\mathrm{C})% ra khỏi vị trí đang xét. Tìm vị trí của con chạy %(\\mathrm{C})% để số chỉ trên hai Vôn kế bằng nhau.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\mathrm{R}_{A C}=\\mathrm{x} \\Rightarrow \\mathrm{R}_{\\mathrm{BC}}=15-\\mathrm{x} \\\\mathrm{U}_{\\mathrm{V} 1}=\\mathrm{U}_{\\mathrm{V} 2} \\Leftrightarrow \\frac{\\mathrm{xR}_{2}}{\\mathrm{x}+\\mathrm{R}_{2}}=\\frac{(15-\\mathrm{x}) \\mathrm{R}_{3}}{15-\\mathrm{x}+\\mathrm{R}_{3}} \\Leftrightarrow \\frac{6 \\mathrm{x}}{6+\\mathrm{x}}=\\frac{6(15-\\mathrm{x})}{21-\\mathrm{x}} \\Leftrightarrow \\mathrm{x}=7,5 \\Omega\\end{array}\\]<br>Con chạy %(\\mathrm{C})% ở trung điểm của %(\\mathrm{AB})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "null ",
+        "point": 1.5,
+        "content": "c. Khóa %(\\mathrm{K})% mở. Tim vị trí con chạy %(\\mathrm{C})% để số chỉ của Ampe kế đạt giá trị lớn nhất.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}R_{A C}=x \\\\ R_{t d 2}=\\frac{R_{2} x}{R_{2}+x}+(15-x)+R_{1}=\\frac{-x^{2}+19 x+114}{x+6} \\\\ I_{\\operatorname{mc}}=\\frac{U}{R_{t d 2}}=\\frac{12(x+6)}{-x^{2}+19 x+114} \\\\ I_{A}=\\frac{x}{x+R_{2}} I_{m c}=\\frac{12 x(x+6)}{(x+6)\\left(-x^{2}+19 x+114\\right)}=\\frac{12 x}{-x^{2}+19 x+114} \\\\ \\left(I_{\\Lambda}\\right)_{\\max } \\Leftrightarrow x=15 \\Omega\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho hình vẽ. Biết %(\\mathrm{PQ})% là trục chính của thấu kính, %(\\mathrm{S})% là nguồn sáng điểm, %(\\mathrm{S}^{\\prime})% là ånh của %(\\mathrm{S})% tạo bởi thấu kính.",
+        "group_images": [
+            "https://docdn.giainhanh.io/media/test/00888d54d5ea087df60cdd77cc2eca77.png"
+        ],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "null ",
+        "point": 1.0,
+        "content": "a. Xác định loại thấu kính, quang tâm %(\\mathrm{O})% và tiêu điểm chính của thấu kính bằng cách vẽ đường truyền của các tia sáng.",
+        "question_images": [],
+        "solution": "Xác định loại thấu kính, quang tâm, tiêu điểm bằng cách vẽ đuờng truyền tia sáng.Lập luận được:<br>- Do %(\\mathrm{S}^{\\prime})% cùng phía với %(\\mathrm{S})% qua trục chính nên %(\\mathrm{S}^{\\prime})% là ảnh ảo<br>- Do ảnh ảo %(\\mathrm{S}^{\\prime})% ở xa trục chính hơn %(\\mathrm{S})% nên đó là thấu kính hội tụ<br>- Vẽ đúng hình, xác định được vị trí thấu kính<br>- Vẽ, xác định được vị trí các tiêu điểm chính<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/2e83286820ae4d1162ab18256d1ae6d2.png\" srcset=\"https://docdn.giainhanh.io/media/test/11f9eaa2652441175fc0d5661aae6c5b.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "null ",
+        "point": 0.5,
+        "content": "b. Biết %(\\mathrm{S}, \\mathrm{S})% ' cách trục chính %(\\mathrm{PQ})% những khoảng tương ứng %(\\mathrm{h}=2 \\mathrm{~cm} ; \\mathrm{h}^{\\prime}=4 \\mathrm{~cm})% và %(\\mathrm{HH}^{\\prime}=6 \\mathrm{~cm})%. Tính tiêu cự %(\\mathrm{f})% của thấu kính và khoảng cách từ điểm sáng %(\\mathrm{S})% tới thấu kính.",
+        "question_images": [],
+        "solution": "Tính tiêu cự của thấu kính và khoảng cách từ %(S)% tới thấu kính<br>Đặt %(\\mathrm{H}^{\\prime} \\mathrm{H}=\\mathrm{L} ; \\mathrm{HO}=\\mathrm{d} ; \\mathrm{OF}=\\mathrm{f})%.<br>Ta có: %(\\Delta \\mathrm{OHS})% đồng dạng với %(\\Delta \\mathrm{OH}^{\\prime} \\mathrm{S}^{\\prime}: \\rightarrow \\frac{\\mathrm{HS}}{\\mathrm{H}^{\\prime} \\mathrm{S}^{\\prime}}=\\frac{\\mathrm{OH}}{\\mathrm{OH}^{\\prime}} \\rightarrow \\frac{\\mathrm{h}}{\\mathrm{h}^{\\prime}}=\\frac{\\mathrm{d}}{\\mathrm{d}+\\mathrm{L}})%<br>Thay số giải %(\\mathrm{d}=6 \\mathrm{~cm})%<br>Ta có: %(\\Delta)% FOI đồng dạng với %(\\Delta \\mathrm{FH}^{\\prime} \\mathrm{S}^{\\prime}: \\rightarrow \\frac{\\mathrm{OI}}{\\mathrm{H}^{\\prime} \\mathrm{S}^{\\prime}}=\\frac{\\mathrm{FO}}{\\mathrm{FH}^{\\prime}} \\rightarrow \\frac{\\mathrm{h}}{\\mathrm{h}^{\\prime}}=\\frac{\\mathrm{f}}{\\mathrm{f}+\\mathrm{d}+\\mathrm{L}})%<br>Thay số giải %(\\mathrm{f}=12 \\mathrm{~cm})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1fbc26aed96a8d10e1e1bf114b547975.png\" srcset=\"https://docdn.giainhanh.io/media/test/ba521a6075b0151c6317087b6d5e7975.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "null ",
+        "point": 0.5,
+        "content": "c. Đặt một tấm bìa chắn sáng rộng, trên trục chính, vuông góc với trục chính, ờ phía trước của thấu kính. Biết tấm bìa cao %(\\frac{7}{3} \\mathrm{~cm})% và đường kính đường rìa của thấu kính là %(\\mathrm{D}=8 \\mathrm{~cm})%. Hỏi tấm bia này phải đặt cách thấu kính một khoảng nhỏ nhất là bao nhiêu để không quan sát thấy ảnh %(\\mathrm{S}^{\\prime})% của %(\\mathrm{S})% ?",
+        "question_images": [],
+        "solution": "Để không quan sát được ảnh S của qua thấu<br>kính thì mọi tia sáng từ S tới thấu kính đều bị bìa<br>chắn.<br>Để không tia sáng nào tới được nửa dưới của thấu kính, nối %(\\mathrm{S})% với mép ngoài %(\\mathrm{L}^{\\prime})% của thấu kính, cắt cắt trục chính thấu kính tại %(\\mathrm{K})% thì %(\\mathrm{K})% là vị trí gần nhất của tấm bìa %(\\mathrm{E})% tời thấu kính, mà đặt mắt nửa dưới thấu kính bên kia ta không quan sát được ảnh %(\\mathrm{S}^{\\prime})% qua nửa dưới.<br>Do: %(\\Delta \\mathrm{KOL}^{\\prime})% dồng dạng với %(\\Delta \\mathrm{KHS} \\rightarrow \\frac{\\mathrm{KO}}{\\mathrm{HK}}=\\frac{\\mathrm{OL}^{\\prime}}{\\mathrm{SH}},\\left(\\mathrm{KO}=\\mathrm{d}_{\\text {min }}\\right))%<br>\\[\\rightarrow \\frac{\\mathrm{d}_{\\text {min }}}{6-\\mathrm{d}_{\\text {min }}}=\\frac{\\frac{\\mathrm{D}}{2}}{\\mathrm{~h}}=\\frac{4}{2}=2 \\rightarrow \\mathrm{d}_{\\text {min }}=4(\\mathrm{~cm})\\]<br>Để không tia sáng nào tới được nửa trên của thấu kính thì vị trí gần nhất của miếng bìa như hình.Do: %(\\triangle \\mathrm{NES})% đồng dạng với %(\\triangle \\mathrm{ILS} \\rightarrow \\frac{\\mathrm{NE}}{\\mathrm{IL}}=\\frac{\\mathrm{NS}}{\\mathrm{IS}}=\\frac{6-\\mathrm{d}_{\\text {min }}}{6},\\left(\\mathrm{NI}=\\mathrm{d}_{\\min }\\right))%<br>\\[\\rightarrow \\frac{\\frac{7}{3}-2}{\\frac{D}{2}-2}=\\frac{6-d_{\\text {min }}}{6} \\rightarrow d_{\\text {min }}=5(\\mathrm{~cm})\\]<br>KL. Để không có ảnh của %(\\mathrm{S})% qua thấu kính phải đặt tấm bìa gần nhất cách thấu kính %(5 \\mathrm{~cm})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a729cdcea4013d5075c58054741d9dd2.png\" srcset=\"https://docdn.giainhanh.io/media/test/8d67cba82d6b749f6de5af74425d4e41.png 245w\" width=\"245\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/65380be409ff0322292be46c2dfb9816.png\" srcset=\"https://docdn.giainhanh.io/media/test/bd83409b3bba46446ad8cead33735e49.png 245w, https://docdn.giainhanh.io/media/test/72e7f1cbb8f64141b411e6b60f612624.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Đặt vật sáng %(\\mathrm{AB})% vuông góc với trục chính của thấu kính hội tụ có tiêu cự f, A nằm trên trục chính cách thấu kính đoạn %(\\mathrm{d}_{1})% ta được ảnh %(\\mathrm{A}_{1} \\mathrm{~B}_{1})% cao bằng nửa vật. Dịch chuyển vật dọc theo trục chính lại gần thấu kính một đoạn %(20 \\mathrm{~cm})% ta thấy ảnh %(\\mathrm{A}_{2} \\mathrm{~B}_{2})% là ảnh thật và cách %(\\mathrm{A}_{1} \\mathrm{~B}_{1})% một đoạn %(10 \\mathrm{~cm})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "null ",
+        "point": 0.75,
+        "content": "a. Tính %(f)% và %(\\mathrm{d}_{1})%.",
+        "question_images": [],
+        "solution": "Gọi d = BO, f= OF, OB = d'%(\\triangle \\mathrm{ABO} ; \\triangle \\mathrm{ABO})%<br>\\[\\begin{aligned}\\Rightarrow \\frac{\\mathrm{A}^{\\prime} \\mathrm{B}^{\\prime}}{\\mathrm{AB}}=\\frac{\\mathrm{OA}^{\\prime}}{\\mathrm{OA}}=\\frac{\\mathrm{d}^{\\prime}}{\\mathrm{d}} \\\\Delta \\mathrm{OIF}^{\\prime} ; \\Delta \\mathrm{A}^{\\prime} \\mathrm{B}^{\\prime} \\mathrm{F}^{\\prime} \\Rightarrow \\frac{\\mathrm{A}^{\\prime} \\mathrm{B}^{\\prime}}{\\mathrm{OI}}=\\frac{\\mathrm{A}^{\\prime} \\mathrm{F}^{\\prime}}{\\mathrm{OF}^{\\prime}}=\\frac{\\mathrm{d}^{\\prime}-\\mathrm{f}}{\\mathrm{f}} \\\\Rightarrow \\frac{\\mathrm{d}^{\\prime}}{\\mathrm{d}}=\\frac{\\mathrm{d}^{\\prime}-\\mathrm{f}}{\\mathrm{f}} \\Rightarrow \\frac{1}{\\mathrm{f}}=\\frac{1}{\\mathrm{~d}}+\\frac{1}{\\mathrm{~d}^{\\prime}}\\end{aligned}\\]<br>Khi %(A B)% cho ảnh thật %(A_{1} B_{1})% :<br>\\[\\begin{array}{c}\\frac{\\mathrm{d}_{1} \\mathrm{~d}_{1}}{\\mathrm{~d}_{1}}=\\frac{1}{2} \\Rightarrow \\mathrm{d}_{1}{ }^{\\prime}=\\frac{\\mathrm{d}_{1}}{2} \\\\frac{1}{\\mathrm{f}}=\\frac{1}{\\mathrm{~d}_{1}}+\\frac{1}{\\mathrm{~d}_{1}{ }^{\\prime}}=\\frac{3}{\\mathrm{~d}_{1}} \\Rightarrow \\mathrm{d}_{1}=3 \\mathrm{f} \\Rightarrow \\mathrm{d}_{1}{ }^{\\prime}=1,5 \\mathrm{f}\\end{array}\\]<br>Khi %(A B)% cho ånh thật %(A_{2} B_{2})% :Dịch chuyển vật lại gần thấu kính một đoạn %(20 \\mathrm{~cm})% ta được ảnh thật %(\\mathrm{A}_{2} \\mathrm{~B}_{2})% dịch ra xa %(10 \\mathrm{~cm})%<br>\\[\\mathrm{d}_{2}=\\mathrm{d}_{1}-20=3 \\mathrm{f}-20, \\mathrm{~d}_{2}{ }^{\\prime}=\\mathrm{d}_{1}{ }^{\\prime}+10=1,5 \\mathrm{f}+10\\]<br>tươơng tự như phần trên ta có:<br>\\[\\frac{1}{\\mathrm{f}}=\\frac{1}{\\mathrm{~d}_{2}}+\\frac{1}{\\mathrm{~d}_{2}{ }^{\\prime}} \\Rightarrow \\frac{1}{\\mathrm{f}}=\\frac{1}{3 \\mathrm{f}-20}+\\frac{1}{1,5 \\mathrm{f}+10} \\Rightarrow \\mathrm{f}=20 \\mathrm{~cm}\\]<br>Khoảng cách từ %(\\mathrm{AB})% đến thấu kính lúc đầu: %(\\mathrm{d}_{1}=60 \\mathrm{~cm})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e47ba0babeab65c0c29ed5c68e6f091a.png\" srcset=\"https://docdn.giainhanh.io/media/test/90426f9c56d1d9e57a365731931fff7b.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "null ",
+        "point": 0.75,
+        "content": "b. Giữ vật %(\\mathrm{AB})% cố định, di chuyển thấu kính lại gần vật từ vị trí cách vật đoạn %(\\mathrm{d}_{1})% đến vị trí cách vật doạn %(0,5 \\mathrm{~d}_{1})%. Tính quãng dường ảnh di chuyễn.",
+        "question_images": [],
+        "solution": "Dịch chuyển Thấu kính từ vị trí cách vật %(\\mathrm{d}_{1}=60 \\mathrm{~cm})% đến vị trí cách vật %(\\mathrm{d}_{2}=\\mathrm{d}_{1} / 2=30 \\mathrm{~cm})% thì ành luôn là thậtTa có %(: \\frac{1}{\\mathrm{f}}=\\frac{\\mathrm{l}}{\\mathrm{d}}+\\frac{\\mathrm{l}}{\\mathrm{d}^{\\prime}} \\Rightarrow \\mathrm{d}^{\\prime}=\\frac{\\mathrm{df}}{\\mathrm{d}-\\mathrm{f}})%Khoảng cách từ vật đến ảnh:<br>\\[\\mathrm{l}=\\mathrm{d}+\\mathrm{d}^{\\prime}=\\mathrm{d}+\\frac{\\mathrm{df}}{\\mathrm{d}-\\mathrm{f}}=\\frac{\\mathrm{d}^{2}}{d-\\mathrm{f}} \\rightarrow \\mathrm{d}^{2}-\\mathrm{ld}+\\mathrm{lf}=0\\]<br>phương trình này có nghiệm %(\\rightarrow \\Delta=1^{2}-4 \\operatorname{lf} \\geq 0 \\Rightarrow 1 \\geq 4 \\mathrm{f} \\Rightarrow 1_{\\text {min }}=4 \\mathrm{f})% xảy ra khi %(\\mathrm{d}=1_{\\text {min }} / 2=)% %(2 \\mathrm{f}=40 \\mathrm{~cm})%<br>Vâyy %(\\mathrm{d})% giảm từ %(60 \\mathrm{~cm})% dến %(40 \\mathrm{~cm})% thì 1 giảm, %(\\mathrm{d})% giảm từ 40 dến %(30 \\mathrm{~cm})% thì 1 tăngKhi %(\\mathrm{d}=60 \\mathrm{~cm})% thì %(\\mathrm{l}=\\frac{60^{2}}{60-20}=90 \\mathrm{~cm})%<br>Khi %(\\mathrm{d}=40 \\mathrm{~cm})% thi %(\\mathrm{I}=\\frac{40^{2}}{40-20}=80 \\mathrm{~cm})%Khi %(\\mathrm{d}=30 \\mathrm{~cm})% thì %(1=\\frac{30^{2}}{30-20}=90 \\mathrm{~cm})%<br>Vậy quã̃g đường ảnh đi là: %(s=(90-80)+(90-80)=20 \\mathrm{~cm})%",
+        "question_type": "essay"
+    }
+]

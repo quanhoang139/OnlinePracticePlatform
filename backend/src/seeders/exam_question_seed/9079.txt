@@ -1,0 +1,88 @@
+[
+    {
+        "title": "1 ",
+        "point": 3.0,
+        "content": "Cho %(a, b)% là các số thực dương thỏa mãn:<br>\\[a^{2019}+b^{2019}=a^{2020}+b^{2020}=a^{2021}+b^{2021}\\]<br>Tính giá trị của biểu thức %(P=2022-(a+b-a b)^{2022})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}a^{2019}+b^{2019}=a^{2020}+b^{2020}=a^{2021}+b^{2021} \\\\Leftrightarrow\\left\\{\\begin{array}{l}a^{2019}+b^{2019}=a^{2020}+b^{2020} \\a^{2020}+b^{2020}=a^{2021}+b^{2021}\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}a^{2019}-a^{2020}=b^{2020}-b^{2019} \\a^{2020}-a^{2021}=b^{2021}-b^{2020}\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}a^{2019}(1-a)=b^{2019}(b-1)~~~~~(*) \\a^{2020}(1-a)=b^{2020}(b-1)\\end{array}\\right. \\\\end{array}\\]<br>TH 1: Nếu %(a=1)% tính được %(b=1)%<br>TH 2: Nếu %(a \\neq 1)%<br>%((*) \\Leftrightarrow\\left\\{\\begin{array}{l}a^{2019}(1-a)=b^{2019}(b-1) \\\\ \\frac{1}{a}=\\frac{1}{b}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a=b \\\\ 1-a=b-1\\end{array} \\Leftrightarrow a=b=1\\right.\\right.)%<br>Vậy %(a=b=1)%.<br>\\[\\Rightarrow P=2022-(a+b-a b)^{2022}=2021\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Giải các phương trình:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) %(x^{2}-7 x+12=\\sqrt{(x-3)\\left(x^{2}-x-6\\right)})%",
+        "question_images": [],
+        "solution": "pt %(\\Leftrightarrow(x-3)(x-4)=\\sqrt{(x-3)^{2}(x+2)})% (Điều kiện: %(x \\geq-2)% )<br>\\[\\Leftrightarrow(x-3)(x-4)-|x-3| \\sqrt{(x+2)}=0\\]<br>+ Nếu %(x \\geq 3)%    %((1) \\Leftrightarrow(x-3)(x-4-\\sqrt{x+2})=0 \\Leftrightarrow\\left[\\begin{array}{l}x=3 \\\\ \\sqrt{x+2}=x-4~~~~~ \\text { (2) }\\end{array}\\right.)%<br>%((2) ~\\Leftrightarrow\\left\\{\\begin{array}{l}x-4 \\geq 0 \\\\ x+2=x^{2}-8 x+16\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x-4 \\geq 0 \\\\ x^{2}-9 x+14=0\\end{array} \\Leftrightarrow x=7\\right.\\right.)%<br>+ Nếu %(-2 \\leq x\\lt 3)%<br>%((1)~\\Leftrightarrow(x-3)(x-4+\\sqrt{x+2})=0 \\Leftrightarrow\\left[\\begin{array}{l}x=3 \\\\ \\sqrt{x+2}=4-x~~~~~(3)\\end{array}\\right.)% %((3)~\\Leftrightarrow\\left\\{\\begin{array}{l}4-x \\geq 0 \\\\ x+2=x^{2}-8 x+16\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\leq 4 \\\\ x^{2}-9 x+14=0\\end{array} \\Leftrightarrow x=2\\right.\\right.)%<br>Vậy %(S=\\{2 ; 3 ; 7\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) %(\\sqrt{x-2}-\\sqrt{4-x}=2 x^{2}-5 x-3)%",
+        "question_images": [],
+        "solution": "Điều kiện: %(\\left\\{\\begin{array}{l}x-2 \\geq 0 \\\\ 4-x \\geq 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 2 \\\\ x \\leq 4\\end{array} \\Leftrightarrow 2 \\leq x \\leq 4\\right.\\right.)%<br>Ta có: %(\\sqrt{x-2}+\\sqrt{4-x}=2 x^{2}-5 x-3)%<br>\\[\\begin{array}{l}\\Leftrightarrow \\sqrt{x-2}-1+1-\\sqrt{4-x}=2 x^{2}-5 x-3 \\\\Leftrightarrow \\frac{x-3}{\\sqrt{x-2}+1}+\\frac{x-3}{1+\\sqrt{4-x}}=(x-3)(2 x+1) \\\\Leftrightarrow\\left[\\frac{1}{\\sqrt{x-2}+1}+\\frac{1}{1+\\sqrt{4-x}}=2 x+1~~~~~(1)\\right.\\end{array}\\]<br>Từ điều kiện %(2 \\leq x \\leq 4)%.<br>Ta thấy %(\\frac{1}{\\sqrt{x-2}+1} \\leq 1)%; %(\\frac{1}{1+\\sqrt{4-x}} \\leq 1 \\Rightarrow \\frac{1}{\\sqrt{x-2}+1}+\\frac{1}{1+\\sqrt{4-x}} \\leq 2 ; 2 x+1 \\geq 5)% nên (1) vô nghiệm.<br>Vậy %(S=\\{3\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Cho %(x)% là số thực dương, chứng minh rằng: %(\\frac{1}{3 x^{2}+1} \\geq \\frac{-3}{8} x+\\frac{5}{8})%",
+        "question_images": [],
+        "solution": "Xét hiệu: %(\\frac{1}{3 x^{2}+1}-\\left(\\frac{-3}{8} x-\\frac{5}{8}\\right)=\\frac{9 x^{3}-15 x^{2}+3 x+3}{8\\left(3 x^{2}+1\\right)}=\\frac{3(x-1)^{2}(3 x+1)}{8\\left(3 x^{2}+1\\right)} \\geq 0 ,\\forall x\\gt 0)%<br>%(\\Rightarrow \\frac{1}{3 x^{2}+1} \\geq \\frac{-3}{8} x+\\frac{5}{8})%.<br>Dấu \"=\" xảy ra khi %(x=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c\\gt 0)% và %(a+b+c=3)%. Chứng minh rằng: %(\\frac{674}{3 a^{2}+1}+\\frac{674}{3 b^{2}+1}+\\frac{674}{3 c^{2}+1} \\geq \\frac{1011}{2})%",
+        "question_images": [],
+        "solution": "Áp dụng kết quả câu trên, ta được:<br>\\[\\frac{1}{3 a^{2}+1} \\geq \\frac{-3}{8} a+\\frac{5}{8} \\Rightarrow \\frac{674}{3 a^{2}+1} \\geq \\frac{-1011}{4} a+\\frac{1685}{4}\\]<br>Tương tự thì: %(\\frac{674}{3 b^{2}+1} \\geq \\frac{-1011}{4} b+\\frac{1685}{4} ; \\frac{674}{3 c^{2}+1} \\geq \\frac{-1011}{4} c+\\frac{1685}{4})%<br>Cộng tương ứng:<br>\\[\\frac{674}{3 a^{2}+1}+\\frac{674}{3 b^{2}+1}+\\frac{674}{3 c^{2}+1} \\geq \\frac{-1011}{4}(a+b+c)+\\frac{5055}{4} \\geq \\frac{-1011}{4}. 3+\\frac{5055}{4}=\\frac{1011}{2}\\]<br>Dấu \"=\" xảy ra khi %(a=b=c=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho tam giác %(A B C)% nhọn. Đường tròn nội tiếp (tâm %(I)%) của tam giác %(A B C)% lần lượt tiếp xúc với %(B C, C A)% tại %(D, E)%. Gọi %(K)% là điểm đối xứng của %(D)% qua trong điểm %(M)% của %(B C)%. Dựng đường kính %(D F)% của đường tròn %((I))%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 3.0,
+        "content": "a) Chứng minh %(2 B D=B A+B C-A C)% và %(A ; F ; K)% thẳng hàng.",
+        "question_images": [],
+        "solution": "Gọi T là tiếp điểm của %(A B)% với %((I))%.<br>Ta có: %(B T=B D ; A T=A E ; C D=C E)%<br>Mà %(B A+B C-A C=B T+T A+B D+D C-(A E+E C))%<br>\\[\\begin{array}{l}=B D+A E+B D+C E-A E-E C \\\\=2 B D~~~(\\text { đpcm })\\end{array}\\]<br>Gọi %(P, O)% lần lượt là giao điểm của %(C I)% với %(F K ; A B)%<br>Gọi độ dài các cạnh %(\\mathrm{BC}, \\mathrm{AC})% và AB tương ứng là %(a, b, c)%.<br>\\[\\Rightarrow \\frac{C K}{B C}=\\frac{B D}{B C}=\\frac{a+c-b}{2 a} \\Rightarrow \\frac{C K}{C M}=\\frac{a+c-b}{a} \\Rightarrow \\frac{B C-C K}{C K}=\\frac{B K}{C K}=\\frac{a+b-c}{a+c-b}\\]<br>Áp dụng tính chất đường phân giác, ta có:<br>\\[\\begin{array}{l}\\frac{A O}{B O}=\\frac{b}{a} \\Rightarrow \\frac{A O}{A B}=\\frac{b}{b+a} \\Rightarrow A O=\\frac{b c}{b+a} \\\\frac{C I}{I O}=\\frac{A C}{A O}=\\frac{b+a}{c} \\Rightarrow \\frac{C I}{C O}=\\frac{a+b}{a+b+c}\\end{array}\\]<br>Áp dụng định lý Thalet:<br>\\[\\begin{array}{l}\\Rightarrow \\frac{C P}{C I}=\\frac{C K}{C M}=\\frac{a+c-b}{a} \\Rightarrow \\frac{C P}{C O}=\\frac{C P}{C I} \\cdot \\frac{C I}{C O}=\\frac{a+b}{a+b+c} \\cdot \\frac{a+c-b}{a} \\\\Rightarrow \\frac{P C}{P O}=\\frac{(a+b)(a+c-b)}{a(a+b+c)-(a+b)(a+c-b)}=\\frac{(a+b)(a+c-b)}{b(a+b-c)}\\end{array}\\]<br>Xét tam giác %(\\triangle C B O)%, có:<br>\\[\\frac{B K}{C K} . \\frac{P C}{P O} .\\frac{A O}{A B}=\\frac{a+b-c}{a+c-b}. \\frac{(a+b)(a+c-b)}{b(a+b-c)} \\frac{b}{b+a}=1\\]<br>Theo định lý Menelaus<br>%(\\Rightarrow A, P, K)% hay %(A, F, K)% thẳng hàng.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1856215f5d131e55799138d077af5ce3.png\" srcset=\"https://docdn.giainhanh.io/media/test/b386d5371b6d70ee738c15b2103f80ed.png 245w, https://docdn.giainhanh.io/media/test/9f4982e300dea2fd1e790ef3ce7c0f58.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Đường thẳng vuông góc với %(B C)% tại K cắt tia %(D E)% tại Q . Gọi %(N)% là trung điểm cùa %(Q K)%. Chứng minh %(B N)% vuông góc với %(A K)%",
+        "question_images": [],
+        "solution": "%(C I)% là trung trực của %(D E)%.<br>\\[\\begin{array}{l}\\Rightarrow C I D=Q D K\\left(=90^{\\circ}-I C D\\right) \\\\Rightarrow \\triangle C I D~đồng ~ dạng~\\triangle Q D K~(g . g) \\\\Rightarrow \\frac{C D}{Q K}=\\frac{I D}{G K} \\\\Rightarrow \\frac{C D}{2 N K}=\\frac{I D}{D K} \\\\Rightarrow \\frac{C D}{N K}=\\frac{2 I D}{D K}=\\frac{F D}{D K} \\text { mà } C D=B K \\Rightarrow \\frac{B K}{N K}=\\frac{F D}{D K} \\\\Rightarrow \\triangle B K N~đồng~dạng~ \\triangle F D K~(\\text { c.g.c }) \\\\Rightarrow N B K=K F D\\end{array}\\]<br>Suy ra %(B N)% vuông góc với %(A K)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C, A B\\gt A C)%. Trên cạnh %(A B)% lấy hai điểm %(D, E)% sao cho %(A D=B E)% và %(D)% nằm giữa %(A)% và %(E)%. Đường thẳng qua %(E)%, song song với %(A C)% cắt các đường thẳng %(B C, C D)% thứ tự tại %(M, N)%. Chứng minh rằng: %(\\frac{M E}{M N}=\\left(\\frac{C D}{C N}\\right)^{2})%",
+        "question_images": [],
+        "solution": "Ta có %(M E / / A C \\Rightarrow \\frac{M E}{A C}=\\frac{B E}{B A})%<br>\\[\\begin{array}{l}\\triangle D E N \\text { có } A C / / E N \\Rightarrow \\frac{A C}{E N}=\\frac{A D}{D E} \\\\Rightarrow \\frac{M E}{E N}=\\frac{M E}{A C} . \\frac{A C}{E N}=\\frac{B E}{B A} .\\frac{A D}{D E}=\\frac{A D^{2}}{A B . D E} \\\\Rightarrow \\frac{M E}{M E+E N}=\\frac{A D^{2}}{A D^{2}+A B .D E}=\\frac{A D^{2}}{A D^{2}+D E.(D E+2 A D)} \\\\Rightarrow \\frac{M E}{M N}=\\frac{A D^{2}}{(A D+D E)^{2}}=\\frac{A D^{2}}{A E^{2}}=\\left(\\frac{A D}{A E}\\right)^{2}=\\left(\\frac{C D}{C N}\\right)^{2}\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ff82dc2c9b73cc1c73db2d1e5320f486.png\" srcset=\"https://docdn.giainhanh.io/media/test/385577e93d7f65a2453bd02f022858b2.png 142w\" width=\"142\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 3.0,
+        "content": "Tìm các cặp số nguyên %((x, y))% thỏa mãn: %(x^{4}+x^{2}-y^{2}+y+10=0)%",
+        "question_images": [],
+        "solution": "Với %(x, y)% là các số nguyên:<br>\\[\\begin{array}{l}x^{4}+x^{2}-y^{2}+y+10=0 \\Leftrightarrow\\left(x^{2}+\\frac{1}{2}\\right)^{2}-\\left(y-\\frac{1}{2}\\right)^{2}=-10 \\Leftrightarrow\\left(x^{2}+y\\right)\\left(x^{2}-y+1\\right)=-10 \\\\text { Vì }\\left(x^{2}+y\\right)+\\left(x^{2}-y+1\\right)=2 x^{2}+1 \\geq 1 \\text { nên }\\left[\\begin{array}{l}\\left\\{\\begin{array} { l } { x ^ { 2 } + y = 5 } \\\\{ x ^ { 2 } - y + 1 = - 2 } \\\\{ \\{ \\begin{array} { l } { x ^ { 2 } + y = - 2 }\\end{array} } \\\\{ x ^ { 2 } - y + 1 = 5 } \\\\{ \\{ \\begin{array} { l } { x ^ { 2 } + y = 1 0 } \\\\{ x ^ { 2 } - y + 1 = - 1 }\\end{array} } \\\\{ \\{ \\begin{array} { l } { x ^ { 2 } + y = - 1 } \\\\{ x ^ { 2 } - y + 1 = 1 0 }\\end{array} }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x^{2}=1 \\Leftrightarrow x= \\pm 1 \\y=4\\end{array}\\right.\\right. \\\\left\\{\\begin{array}{l}x^{2}=1 \\y=-3\\end{array}\\right. \\\\left\\{\\begin{array}{l}x^{2}=4 \\y=6\\end{array}\\right. \\\\left\\{\\begin{array}{l}x^{2}=4 \\y=-5\\end{array}\\right.\\end{array}\\right.\\end{array}\\]<br>Vậy tập các cặp số nguyên %((x, y))% là:<br>\\[\\{(1 ; 4),(-1 ; 4),(1 ;-3),(-1 ;-3),(2 ; 6),(-2 ; 6) ;(2 ;-5) ;(-2 ;-5)\\}\\]",
+        "question_type": "essay"
+    }
+]

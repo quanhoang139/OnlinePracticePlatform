@@ -1,0 +1,66 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Giải phương trình %(\\frac{1}{x}+\\frac{1}{\\sqrt{2-x^{2}}}=2(x \\in \\mathbb{R}))%",
+        "question_images": [],
+        "solution": "Điều kiện: %(\\left\\{\\begin{array}{l}x \\neq 0 \\\\ 2-x^{2}\\gt 0\\end{array} \\Leftrightarrow x \\in(-\\sqrt{2} ; 0) \\cup(0 ; \\sqrt{2})\\right.)%Đặt %(y=\\sqrt{2-x^{2}}>0)%. Thay vào ta được: %(\\frac{1}{x}+\\frac{1}{y}=2)%.<br>Do đó ta có hệ phương trình: %(\\left\\{\\begin{array}{l}x^{2}+y^{2}=2 \\\\ \\frac{1}{x}+\\frac{1}{y}=2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x^{2}+y^{2}=2 \\\\ x+y=2 x y\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}(x+y)^{2}-2 x y=2 \\\\ x+y=2 x y\\end{array}\\right.\\right.\\right.)%<br>\\[\\left\\{\\begin{array} { l } { ( x + y ) ^ { 2 } - ( x + y ) - 2 = 0 } \\\\{ x + y = 2 x y }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}\\left\\{\\begin{array}{l}x+y=2 \\x y=1\\end{array}\\right. \\\\left\\{\\begin{array}{l}x+y=-1 \\x y=-0,5\\end{array}\\right.\\end{array}\\right.\\right.\\]<br>%(+\\left\\{\\begin{array}{l}x+y=2 \\\\ x y=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}y=2-x \\\\ x^{2}-2 x+1=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=1 \\\\ y=1\\end{array}\\right.\\right.\\right.)%%(+\\left\\{\\begin{array}{l}x+y=-1 \\\\ x y=-0,5\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=-1-y \\\\ 2 y^{2}+2 y-1=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=\\frac{-1-\\sqrt{3}}{2} \\\\ y=\\frac{\\sqrt{3}-1}{2}\\end{array}\\right.\\right.\\right.)% (do %(y\\gt 0)% )<br>Vậy phương trình đã cho có tập nghiệm là %(S=\\left\\{\\frac{-1-\\sqrt{3}}{2} ; 1\\right\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho phương trình bậc hai %(x^{2}-2 m x+m^{2}-2 m+4=0)% ( %(x)% là ẩn và %(m)% là tham số). Tìm tất cả các giá trị thực của %(m)% sao cho phương trình đã cho có hai nghiệm không âm %(x_{1}, x_{2})%. Tính theo %(m)% giá trị của biểu thức %(P=\\sqrt{x_{1}}+\\sqrt{x_{2}})% và tìm giá trị nhỏ nhất của %(P)%.",
+        "question_images": [],
+        "solution": "Phương trình %(x^{2}-2 m x+m^{2}-2 m+4=0)% (1) có hai nghiệm không âm<br>\\[\\Leftrightarrow\\left\\{\\begin{array}{l}\\Delta^{\\prime}=m^{2}-m^{2}+2 m-4 \\geq 0 \\S=2 m \\geq 0 \\P=m^{2}-2 m+4 \\geq 0\\end{array} \\Leftrightarrow m \\geq 2 .\\right.\\]<br>Theo định lý Vi-ét ta có %(x_{1}+x_{2}=2 m ; x_{1} x_{2}=m^{2}-2 m+4)%.<br>Do đó<br>\\[\\sqrt{x_{1}}+\\sqrt{x_{2}}=\\sqrt{\\left(\\sqrt{x_{1}}+\\sqrt{x_{2}}\\right)^{2}}=\\sqrt{x_{1}+x_{2}+2 \\sqrt{x_{1} x_{2}}}=\\sqrt{2 m+2 \\sqrt{(m-1)^{2}+3}}\\]<br>Do %(m \\geq 2 \\Rightarrow \\sqrt{x_{1}}+\\sqrt{x_{2}} \\geq \\sqrt{8})%.<br>Dấu đẳng thức xảy ra khi và chỉ khi %(m=2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x^{2}-x y+y^{2}+x-2 y=0 \\\\ 2 x-x y+y=2\\end{array} \\quad(x, y \\in \\mathbb{R})\\right.)%",
+        "question_images": [],
+        "solution": "Đặt %(z=y-1)%, thay vào hệ ta được:<br>\\[\\left\\{\\begin{array} { l } { x ^ { 2 } - x z + z ^ { 2 } = 1 } \\\\{ x - x z + z = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { ( x + z ) ^ { 2 } - 3 x z = 1 } \\\\{ x + z - 1 = x z }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}(x+z)^{2}-3(x+z)+2=0 \\x+z-1=x z\\end{array}\\right.\\right.\\right.\\]<br>\\[\\begin{array}{l}\\Leftrightarrow\\left\\{\\begin{array} { l } { [ \\begin{array} { l } { x + z = 2 } \\\\{ x + z = 1 }\\end{array} } \\\\{ x z = x + z - 1 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}\\left\\{\\begin{array}{l}x+z=2 \\x z=1\\end{array}\\right. \\\\left\\{\\begin{array}{l}x+z=1 \\x z=0\\end{array}\\right.\\end{array}\\right.\\right. \\\\+\\left\\{\\begin{array} { l } { x + z = 2 } \\\\{ x z = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { z = 2 - x } \\\\{ x ^ { 2 } - 2 x + 1 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x = 1 } \\\\{ z = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=1 \\y=2\\end{array}\\right.\\right.\\right.\\right. \\\\+\\left\\{\\begin{array} { l } { x + z = 1 } \\\\{ x z = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { z = 1 - x } \\\\{ x ^ { 2 } - x = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x = 1 , z = 0 } \\\\{ x = 0 , z = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=1, y=1 \\x=0, y=2\\end{array}\\right.\\right.\\right.\\right.\\end{array}\\]<br>Vậy hệ phương trình có tập nghiệm là %(S=\\{(1 ; 2),(1 ; 1),(0 ; 2)\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là độ dài ba cạnh của một tam giác không nhọn. Chứng minh rằng<br>\\[\\left(a^{2}+b^{2}+c^{2}\\right)\\left(\\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}}\\right) \\geq 10\\]",
+        "question_images": [],
+        "solution": "Do %(a, b, c)% là độ dài ba cạnh của một tam giác không nhọn nên có một trong các bất đẳng thức sau xảy ra: %(a^{2} \\geq b^{2}+c^{2}, b^{2} \\geq c^{2}+a^{2}, c^{2} \\geq a^{2}+b^{2})%. Giả sử %(a^{2} \\geq b^{2}+c^{2})%, khi đó ta có:<br>\\[\\begin{array}{l}\\left(a^{2}+b^{2}+c^{2}\\right)\\left(\\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}}\\right)=1+a^{2}\\left(\\frac{1}{b^{2}}+\\frac{1}{c^{2}}\\right)+\\frac{b^{2}+c^{2}}{a^{2}}+\\left(b^{2}+c^{2}\\right)\\left(\\frac{1}{b^{2}}+\\frac{1}{c^{2}}\\right) \\\\geq 1+a^{2} \\cdot \\frac{4}{b^{2}+c^{2}}+\\frac{b^{2}+c^{2}}{a^{2}}+4 \\\\=1+\\frac{3 a^{2}}{b^{2}+c^{2}}+\\frac{a^{2}}{b^{2}+c^{2}}+\\frac{b^{2}+c^{2}}{a^{2}}+4 \\geq 1+3+2 \\sqrt{\\frac{a^{2}}{b^{2}+c^{2}} \\cdot \\frac{b^{2}+c^{2}}{a^{2}}}+4=10 . \\text { Do đó } \\\\left(a^{2}+b^{2}+c^{2}\\right)\\left(\\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}}\\right) \\geq 10 .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho tam giác %(A B C)%, nhọn, không cân và nội tiếp đường tròn %((O ; R))%. Gọi %(G)% và %(M)% lần lượt là trọng tâm tam giác %(A B C)% và trung điểm cạnh %(B C)%. Chứng minh rằng nếu đường thẳng %(O G)% vuông góc với đường thẳng %(O M)% thì %(A C^{2}+A B^{2}+2 B C^{2}=12 R^{2})%.",
+        "question_images": [],
+        "solution": "Áp dụng quy tắc trọng tâm và quy tắc trung điểm ta có:<br>\\[\\begin{array}{l}\\overrightarrow{O G}=\\frac{\\overrightarrow{O A}+\\overrightarrow{O B}+\\overrightarrow{O C}}{3}, \\overrightarrow{O M}=\\frac{\\overrightarrow{O B}+\\overrightarrow{O C}}{2} \\text {. Khi đó } \\O G \\perp O M \\Rightarrow \\overrightarrow{O G} \\cdot \\overrightarrow{O M}=0 \\Leftrightarrow(\\overrightarrow{O A}+\\overrightarrow{O B}+\\overrightarrow{O C})(\\overrightarrow{O B}+\\overrightarrow{O C})=0 \\\\Leftrightarrow \\overrightarrow{O A} \\cdot \\overrightarrow{O B}+\\overrightarrow{O A} \\cdot \\overrightarrow{O C}+2 \\overrightarrow{O B} \\cdot \\overrightarrow{O C}+2 R^{2}=0 \\\\Leftrightarrow \\frac{1}{2}\\left(2 R^{2}-A B^{2}\\right)+\\frac{1}{2}\\left(2 R^{2}-A C^{2}\\right)+2 R^{2}-B C^{2}+2 R^{2}=0 \\text { (chú ý } \\vec{a} \\cdot \\vec{b}=\\frac{\\vec{a}^{2}+\\vec{b}^{2}-(\\vec{a}-\\vec{b})^{2}}{2} \\text { ) } \\\\Leftrightarrow A B^{2}+A C^{2}+2 B C^{2}=12 R^{2}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho tam giác %(A B C)% có độ dài các đường cao kẻ từ đỉnh %(A, B, C)% lần lượt là %(m, n, p)%.Tính độ dài các cạnh %(A B, B C, C A)% theo %(m, n, p)%.",
+        "question_images": [],
+        "solution": "Kí hiệu %(a=B C, b=C A, c=A B, p=\\frac{a+b=c}{2})%.<br>Khi đó ta có %(a=\\frac{2 S}{m}, b=\\frac{2 S}{n}, c=\\frac{2 S}{p})%<br>Theo công thức Hê - rông ta có:<br>\\[\\begin{array}{l}S=\\sqrt{p(p-a)(p-b)(p-c)} \\\\Leftrightarrow 4 S=\\sqrt{2 S\\left(\\frac{1}{m}+\\frac{1}{n}+\\frac{1}{p}\\right) 2 S\\left(-\\frac{1}{m}+\\frac{1}{n}+\\frac{1}{p}\\right) 2 S\\left(\\frac{1}{m}-\\frac{1}{n}+\\frac{1}{p}\\right) 2 S\\left(\\frac{1}{m}+\\frac{1}{n}-\\frac{1}{p}\\right)} \\\\Leftrightarrow 4 S=4 S^{2} . k \\Leftrightarrow S=\\frac{1}{k}, \\text { trong đó } \\k=\\sqrt{\\left(\\frac{1}{m}+\\frac{1}{n}+\\frac{1}{p}\\right)\\left(-\\frac{1}{m}+\\frac{1}{n}+\\frac{1}{p}\\right)\\left(\\frac{1}{m}-\\frac{1}{n}+\\frac{1}{p}\\right)\\left(\\frac{1}{m}+\\frac{1}{n}-\\frac{1}{p}\\right)}\\end{array}\\]<br>Do đó %(a=\\frac{2}{m k}, b=\\frac{2}{n k}, c=\\frac{2}{p k})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Trong mặt phẳng với hệ trục tọa độ %(O x y)%, cho tam giác %(A B C)% có phương trình đường thẳng chứa đường cao kẻ từ các đỉnh %(A, B, C)% lần lượt có phương trình là<br>\\[x-2 y=0, x-2=0, x+y-3=0 .\\]<br>Tìm tọa độ các đỉnh %(A, B, C)%, biết rằng bán kính đường tròn ngoại tiếp tam giác %(A B C)% bằng %(\\sqrt{10})% và đỉh %(A)% có hoành độ âm.",
+        "question_images": [],
+        "solution": "Do %(B C)% vuông góc với đường cao kẻ từ %(A)% nên %(B C)% có dạng %(2 x+y+c=0)%. Tọa độ đỉnh %(B)% là nghiệm của hệ %(\\left\\{\\begin{array}{l}2 x+y+c=0 \\\\ x-2=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=2 \\\\ y=-c-4\\end{array} \\Rightarrow B(2 ;-c-4)\\right.\\right.)%,<br>tọa độ %(C)% là nghiệm của hệ phương trình %(\\left\\{\\begin{array}{l}2 x+y+c=0 \\\\ x+y-3=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=-c-3 \\\\ y=c+6\\end{array} \\Rightarrow C(-c-3 ; c+6)\\right.\\right.)%.<br>%(A B)% đi qua %(B(2 ;-c-4))% và vuông góc với đường cao kẻ từ %(C)% nên %(A B: 1 .(x-2)-1 .(y+c+4)=0 \\Leftrightarrow x-y-c-6=0)%.<br>Tọa độ đỉnh %(C)% là nghiệm của hệ %(\\left\\{\\begin{array}{l}x-y-c-6=0 \\\\ x-2 y=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=2 c+12 \\\\ y=c+6\\end{array} \\Rightarrow A(2 c+12 ; c+6)\\right.\\right.)%.<br>Theo giả thiết ta có<br>\\[\\begin{array}{l}\\sqrt{10}=\\frac{A B \\cdot A C \\cdot B C}{4 S_{A B C}} \\Leftrightarrow \\sqrt{10}=\\frac{A B \\cdot A C \\cdot B C}{2 \\cdot d(A, B C) \\cdot B C} \\Leftrightarrow \\frac{A B \\cdot A C}{d(A, B C)}=2 \\sqrt{10} \\\\Leftrightarrow \\frac{\\sqrt{(2 c+10)^{2}+(2 c+10)^{2}} \\cdot|3 c+15|}{\\frac{|4 c+24+c+6+c|}{\\sqrt{5}}}=2 \\sqrt{10} \\Leftrightarrow|c+5|=2 \\Leftrightarrow\\left[\\begin{array}{l}c=-7 \\c=-3\\end{array}\\right.\\end{array}\\]<br>+) Nếu %(c=-7 \\Rightarrow A(-2 ;-1), B(2 ; 3), C(4 ;-1))%.<br>%(+))% Nếu %(c=-3 \\Rightarrow A(6 ; 3), B(2 ;-1), C(0 ; 3))% không thỏa mãn hoành độ của %(A)% âm.<br>Vậy %(A(-2 ;-1), B(2 ; 3), C(4 ;-1))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho tứ giác lồi %(A B C D)% và một điểm %(M)% nằm bên trong tứ giác đó ( %(M)% không nằm trên các cạnh của tứ giác %(A B C D)% ). Chứng minh rằng tồn tại ít nhất một trong các góc %(\\widehat{M A B}, \\widehat{M B C}, \\widehat{M C D}, \\widehat{M D A})% có số đo không lớn hơn %(45^{\\circ})%.",
+        "question_images": [],
+        "solution": "Giả sử %(\\min \\{\\widehat{M A B}, \\overparen{M B C}, \\overparen{M C D}, \\overparen{M D A}\\}\\gt 45^{\\circ})% (1).<br>Ta có %(\\cot \\widehat{M A B}=\\frac{\\cos \\widehat{M A B}}{\\sin \\widehat{M A B}}=\\frac{M A^{2}+A B^{2}-M B^{2}}{2 \\cdot M A \\cdot A B \\cdot \\sin \\widehat{M A B}}=\\frac{M A^{2}+A B^{2}-M B^{2}}{4 S_{M A B}})%.<br>Kết hợp với (1) ta được %(\\frac{M A^{2}+A B^{2}-M B^{2}}{4 S_{M A B}}\\lt \\cot 45^{0}=1 \\Rightarrow M A^{2}+A B^{2}-M B^{2}\\lt 4 S_{M A B})% (2)<br>Tương tự ta được các bất đẳng thức sau đây :<br>\\[\\begin{array}{l}M B^{2}+B C^{2}-M C^{2}\\lt 4 S_{M B C}(3) \\M C^{2}+C D^{2}-M D^{2}\\lt 4 S_{M C D}(4) \\M D^{2}+D A^{2}-M A^{2}\\lt 4 S_{M D A}(5)\\end{array}\\]<br>Cộng theo vế các bất đẳng thức (2), (3), (4), (5) ta được:<br>\\[A B^{2}+B C^{2}+C D^{2}+D A^{2}\\lt 4\\left(S_{M A B}+S_{M B C}+S_{M C D}+S_{M D A}\\right)=4 S_{A B C D} (6)\\]<br>Mặt khác ta lại có: %(A B^{2}+B C^{2}+C D^{2}+D A^{2} \\geq 2 A B \\cdot B C+2 C D \\cdot D A \\geq 4 S_{A B C}+4 S_{C D A}=4 S_{A B C D})%, mâu thuẫn với (6). Do đó giả sử ban đầu là sai suy ra tồn tại ít nhất một trong các góc %(\\widehat{M A B}, \\widehat{M B C}, \\widehat{M C D}, \\widehat{M D A})% có số đo không lớn hơn %(45^{\\circ})%.",
+        "question_type": "essay"
+    }
+]

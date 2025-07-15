@@ -1,0 +1,89 @@
+[
+    {
+        "title": "Câu 1 ",
+        "point": 1.0,
+        "content": "Chứng minh %(n^{3}+17 n)% chia hết cho 6 với mọi %(n \\in \\mathbb{Z})%",
+        "question_images": [],
+        "solution": "%(n^{3}+17 n=n^{3}-n+18 n=n(n-1)(n+1)+18 n)%<br>Vì %(n(n-1)(n+1))% là tích ba số nguyên liên tiếp nên chia hết cho 2 và %(3,(2,3)=1)% nên chia hết cho 6<br>%(18 n: 6)%, suy ra điều phải chứng minh",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 2.5,
+        "content": "Rút gọn biểu thức: %(\\frac{\\left(x^{2}+a\\right)(1+a)+a^{2} x^{2}+1}{\\left(x^{2}-a\\right)(1-a)+a^{2} x^{2}+1})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\frac{\\left(x^{2}+a\\right)(1+a)+a^{2} x^{2}+1}{\\left(x^{2}-a\\right)(1-a)+a^{2} x^{2}+1}=\\frac{x^{2}+x^{2} a+a+a^{2}+a^{2} x^{2}+1}{x^{2}-x^{2} a-a+a^{2}+a^{2} x^{2}+1} \\\\ =\\frac{x^{2}+x^{2} a+a^{2} x^{2}+1+a+a^{2}}{x^{2}-x^{2} a+a^{2} x^{2}+1-a+a^{2}}=\\frac{x^{2}\\left(1+a+a^{2}\\right)+\\left(1+a+a^{2}\\right)}{x^{2}\\left(1-a+a^{2}\\right)+\\left(1-a+a^{2}\\right)} \\\\ =\\frac{\\left(x^{2}+1\\right)\\left(1+a+a^{2}\\right)}{\\left(x^{2}+1\\right)\\left(1-a+a^{2}\\right)}=\\frac{1+a+a^{2}}{1-a+a^{2}}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 2.0,
+        "content": "Một vật thể chuyển động từ A đến B theo cách sau: đi được %(4 m)% thì dừng lại 1 giây, rồi đi tiếp 8 m dừng lai 2 giây, rồi đi tiếp 12 m dừng lại 3 giây... Cứ như vậy đi từ A đến B kể cả dừng hết tất cả 155 giây. Biết rằng khi đi vật thể luôn có vận tốc %(2 \\mathrm{~m} /)% giây. Tính khoảng cách từ A đến B .",
+        "question_images": [],
+        "solution": "Gọi %(x)% là số lần đi %((x \\in N, x\\gt 0))%, số lần dừng là %(x-1)%<br>Thời gian đi<br>\\[\\begin{array}{l}\\frac{4}{2}+\\frac{8}{2}+\\frac{12}{2}+\\ldots . .+\\frac{4 x}{2}=2+4+6+\\ldots .+2 x \\\\=2(1+2+3+\\ldots .+x)=x(x+1)\\end{array}\\]<br>Thời gian dừng:<br>\\[1+2+3+\\ldots .+(x-1)=\\frac{(x-1+1)(x-1)}{2}=\\frac{x(x-1)}{2}\\]<br>Lập được phương trình<br>\\[\\frac{x(x-1)}{2}+x(x+1)=155 \\Leftrightarrow 3 x^{2}+x-310 \\Leftrightarrow\\left[\\begin{array}{l}x=10(\\mathrm{tm}) \\x=\\frac{-31}{3}(\\mathrm{ktm})\\end{array}\\right.\\]<br>Khoảng cách AB là %(10 \\cdot(10+1) \\cdot 2=220(\\mathrm{~m}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 2.5,
+        "content": "Biết %(a^{3}-3 a b^{2}=5)% và %(b^{3}-3 a^{2} b=10)%. Tính %(M=\\frac{a^{2}+b^{2}}{2018})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}a^{3}-3 a b^{2}=5 \\Rightarrow a^{6}-6 a^{4} b^{2}+9 a^{2} b^{4}=25 \\\\ b^{3}-3 a^{2} b=10 \\Rightarrow b^{6}-6 a^{2} b^{4}+9 a^{4} b^{2}=100 \\\\ \\Rightarrow a^{6}+3 a^{4} b^{2}+3 a^{2} b^{4}+b^{6}=125 \\\\ \\Rightarrow\\left(a^{2}+b^{2}\\right)^{3}=5^{3} \\Rightarrow \\frac{a^{2}+b^{2}}{2018}=\\frac{5}{2018}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(\\left(x^{2}-x+1\\right)\\left(x^{2}-x+2\\right)=12)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text {  } \\quad\\left(x^{2}-x+1\\right)\\left(x^{2}-x+2\\right)=12 \\\\ \\text { Đặt } x^{2}-x+1=X \\text { có } \\\\ X^{2}+X-12=0 \\\\ \\Leftrightarrow X^{2}+4 X-3 X-12=0 \\Leftrightarrow X(X+4)-3(X+4)=0 \\\\ \\Leftrightarrow(X-3)(X+4)=0 \\Leftrightarrow\\left[\\begin{array}{l}X=3 \\\\ X=-4\\end{array}\\right. \\\\ X=-4 \\Rightarrow x^{2}-x+5=0 \\Rightarrow\\left(x-\\frac{1}{2}\\right)^{2}+\\frac{19}{4}=0(V N) \\\\ X=3 \\Rightarrow x^{2}-x-2=0 \\Rightarrow\\left(x^{2}-2 x\\right)+(x-2)=0 \\\\ \\Leftrightarrow(x+1)(x-2)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=-1 \\\\ x=2\\end{array}\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6 ",
+        "point": 2.0,
+        "content": "Tìm giá trị nhỏ nhất của %(P=x^{2}+y^{2}-4(x+y)-2010)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}P=x^{2}+y^{2}-4(x+y)-2010 \\\\=\\left(x^{2}-4 x+4\\right)+\\left(y^{2}-4 y+4\\right)-2018 \\\\=(x-2)^{2}+(y-2)^{2}-2018 \\geq-2018\\end{array}\\]<br>Vậy %(P_{\\min }=-2018 \\Leftrightarrow x=y=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7",
+        "group_content": "Cho tam giác %(A B C)% vuông tại A , phân giác BD . Gọi %(\\mathrm{P}, \\mathrm{Q}, \\mathrm{R})% lần lượt là trung điểm của %(B D, B C, D C)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Chứng minh %(A P Q R)% là hình thang cân",
+        "question_images": [],
+        "solution": "%(P Q)% là đường trung bình tam giác %(B D C)%, suy ra %(P Q / / A R)% nên %(A P Q R)% là hình thang.<br>%(A Q=\\frac{1}{2} B C)% (trung tuyến tam giác vuông ABC )<br>%(P R=\\frac{1}{2} B C)% (đường trung bình tam giác DBC )<br>Suy ra %(A Q=P R \\Rightarrow A P Q R)% là hình thang cân<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/686625bc352bf62eccd8886779ebc4e5.png\" srcset=\"https://docdn.giainhanh.io/media/test/dd13449f006855fad6802a0de0159f98.png 245w, https://docdn.giainhanh.io/media/test/20bb94d9f4e0997e30a70d40f7ec8f10.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.5,
+        "content": "b) Biết %(A B=6 \\mathrm{~cm}, A C=8 \\mathrm{~cm})%. Tính độ dài của %(A R)%",
+        "question_images": [],
+        "solution": "Tính được %(B C=10 \\mathrm{~cm})%<br>Tính chất đường phân giác trong của %(\\triangle A B C)%<br>\\[\\Rightarrow \\frac{D A}{D C}=\\frac{B A}{B C} \\Rightarrow \\frac{D A}{A C}=\\frac{B A}{B C+B C}\\]<br>Thay số tính đúng %(A D=3 \\mathrm{~cm}, D C=5 \\mathrm{~cm}, D R=2,5 \\mathrm{~cm})%<br>Kết quả %(A R=5,5 \\mathrm{~cm})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8  ",
+        "point": 2.5,
+        "content": "Cho hình bình hành %(A B C D)%. Một đường thẳng qua B cắt cạnh CD tại M , cắt đường chéo AC tại N và cắt đường thẳng AD tại K . Chứng minh:<br>\\[\\frac{1}{B N}=\\frac{1}{B M}+\\frac{1}{B K}\\]",
+        "question_images": [],
+        "solution": "%(\\mathrm{AB} / / \\mathrm{AC})% (hai cạnh đối diện hình bình hành).<br>Theo định lý Talet có:<br>\\[\\begin{array}{l}\\frac{M N}{A B}=\\frac{N C}{A N}=\\frac{M N}{N B} \\Rightarrow \\frac{M C+A B}{A B}=\\frac{M N+N B}{B N}=\\frac{B M}{B N} \\text { (1) } \\\\frac{K M}{B K}=\\frac{K D}{K A}=\\frac{M D}{A B} \\Rightarrow \\frac{B K-K M}{B K}=\\frac{A B-M D}{A B} \\Rightarrow \\frac{B M}{B K}=\\frac{A B-M D}{A B}\\end{array}\\]<br>Từ (1) và (2) %(\\Rightarrow \\frac{B M}{B N}-\\frac{B M}{B K}=\\frac{A B+M C}{A B}-\\frac{A B-M D}{A B}=\\frac{M C+M D}{A B})%<br>Mà %(M C+M D=C D=A B)% nên %(\\frac{B M}{B N}-\\frac{B M}{B K}=1)% (Điều phải chứng minh)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d0b551ce9a4a036d5e83c49c90a9484c.png\" srcset=\"https://docdn.giainhanh.io/media/test/47dc50f7c2a7cac08f7d29eb6026f411.png 239w\" width=\"239\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 9 ",
+        "point": 1.0,
+        "content": "Biết %(a, b, c)% là độ dài ba cạnh của một tam giác. Chứng minh rằng:<br>\\[\\left(a^{2}+b^{2}-c^{2}\\right)^{2}-4 a^{2} b^{2}\\lt 0\\]",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\left(a^{2}+b^{2}-c^{2}\\right)^{2}-4 a^{2} b^{2}=\\left(a^{2}+b^{2}-c^{2}+2 a b\\right)\\left(a^{2}+b^{2}-c^{2}-2 a b\\right) \\\\=\\left[(a+b)^{2}-c^{2}\\right]\\left[(a-b)^{2}-c^{2}\\right] \\\\=-(a+b+c)(a+b-c)(a+c-b)(b+c-a)\\end{array}\\]<br>Tổng hai cạnh tam giác lớn hơn cạnh thứ ba nên cả 4 thừa số đều dương, suy ra điều phải chứng minh.",
+        "question_type": "essay"
+    }
+]

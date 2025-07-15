@@ -1,0 +1,73 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Chia 18 vật có khối lượng %(2016^{2} ; 2015^{2} ; 2014^{2} ; \\ldots ; 1999^{2})% gam thành ba nhóm có khối lượng bằng nhau. (không được chia nhỏ các vật đó).",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}n^{2}+(n+5)^{2}=2 n^{2}+10 n+25=x+25 \\\\(n+1)^{2}+(n+4)^{2}=2 n^{2}+10 n+17=x+17 \\\\(n+2)^{2}+(n+3)^{2}=2 n^{2}+10 n+13=x+13\\end{array}\\]<br>- Lần thứ nhất, chia 6 vật có khối lượng %(1999^{2}, \\ldots, 2004^{2})% thành ba phần: %(A+25, A+17, A+13)%.<br>- Lần thứ hai, chia 6 vật có khối lượng %(2005^{2}, \\ldots, 2010^{2})% thành ba phần: %(B+25, B+17, B+13)%.<br>- Lần thứ ba, chia 6 vật có khối lượng %(2011^{2}, \\ldots, 2016^{2})% thành ba phần: %(C+25, C+17)%, %(C+13)%.<br>- Lúc này ta chia thành các nhóm như sau:<br>Nhóm thứ nhất %(A+25, B+17, C+13)%.<br>Nhóm thứ hai %(B+25, C+17, A+13)%.<br>Nhóm thứ ba %(C+25, A+17, B+13)%.<br>Khối lượng của mỗi nhóm đều bằng %(A+B+C+55)% (gam).",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Tìm nghiệm nguyên dương của phương trình: %(3^{x}+171=y^{2})%",
+        "question_images": [],
+        "solution": "- Viết phương trình đã cho về dạng: 9 . %(\\left(3^{x-2}+19\\right)=y^{2}(x \\geq 2))%. Để %(y)% là số nguyên thì điều kiện cần và đủ là %(3^{x-2}+19=z^{2})% là số chính phương ( %(z)% là số nguyên dương)<br>- Nếu %(x-2)% là số lè thì %(x-2=2 k+1)%, khi đó %(3^{2 k+1}+19=\\left(3^{2 k+1}+1\\right)+18=4 . B+18)% chia hết cho 2 nhưng không chia hết cho 4 nên không thể là số chính phương. Do đó %(x-2)% là số chẵn<br>- Ta có %(3^{x-2}+19=z^{2} \\Leftrightarrow\\left(z-3^{k}\\right)\\left(z+3^{k}\\right)=19)%.<br>Vì 19 là số nguyên tố và %(z-3^{k}\\lt z+3^{k})% nên %(\\left\\{\\begin{array}{l}z-3^{k}=1 \\\\ z+3^{k}=19\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}z=10 \\\\ 3^{k}=9\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}z=10 \\\\ k=2\\end{array}\\right.\\right.\\right.)%<br>Vậy %(x=6)% và %(y=30)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 3.0,
+        "content": "Giải phương trình: %(x^{2}+6 x+1=(2 x+1) \\sqrt{x^{2}+2 x+3})%",
+        "question_images": [],
+        "solution": "ĐKХĐ: R.<br>Vì %(x=\\frac{-1}{2})% nên phương trình đã cho tương đương với phương trình sau:<br>\\[\\begin{array}{l}(*) \\Leftrightarrow \\frac{x^{2}+6 x+1}{2 x+1}=\\sqrt{x^{2}+2 x+3} \\\\Leftrightarrow \\frac{x^{2}+6 x+1}{2 x+1}-2=\\sqrt{x^{2}+2 x+3}-2 \\\\Leftrightarrow \\frac{x^{2}+6 x+1-2(2 x+1)}{2 x+1}=\\frac{\\left(\\sqrt{x^{2}+2 x+3}+2\\right)\\left(\\sqrt{x^{2}+2 x+3}-2\\right)}{\\sqrt{x^{2}+2 x+3}+2} \\\\Leftrightarrow \\frac{x^{2}+2 x-1}{2 x+1}=\\frac{x^{2}+2 x-1}{\\sqrt{x^{2}+2 x+3}+2} \\\\Leftrightarrow\\left(x^{2}+2 x-1\\right)\\left(\\frac{1}{\\sqrt{x^{2}+2 x+3}+2}-\\frac{1}{2 x+1}\\right)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x^{2}+2 x-1=0 \\\\sqrt{x^{2}+2 x+3}+2=2 x+1\\end{array}\\right)\\end{array}\\]<br>PT (1) có hai nghiệm %(x_{1: 2}=-1 \\pm \\sqrt{2})%<br>PT (2) %(\\Leftrightarrow \\sqrt{x^{2}+2 x+3}+2=2 x+1 \\Leftrightarrow \\sqrt{x^{2}+2 x+2}=2 x-1)%<br>\\[\\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq \\frac{1}{2} \\x^{2}+2 x+3=(2 x-1)^{2}\\end{array} \\Leftrightarrow x_{3}=\\frac{3+\\sqrt{15}}{3}\\right.\\]<br>Vậy phương đã cho có ba nghiệm: %(x_{1 ; 2}=-1 \\pm \\sqrt{2} ; x_{3}=\\frac{3+\\sqrt{15}}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 3.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}4 x^{2}+1=y^{2}-4 x \\\\ x^{2}+x y+y^{2}=1\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Hệ phương trình %(\\Leftrightarrow\\left\\{\\begin{array}{l}(2 x+1)^{2}=y^{2} \\\\ x^{2}+x y+y^{2}=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}y= \\pm 2 x+1 \\\\ x^{2}+x y+y^{2}=1\\end{array}\\right.\\right.)%- Xét hệ: %(\\left\\{\\begin{array}{l}y=2 x+1 \\\\ x^{2}+x y+y^{2}=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}y=2 x+1 \\\\ x^{2}+x(2 x+1)+(2 x+1)^{2}=1\\end{array}\\right.\\right.)%<br>\\[\\Leftrightarrow\\left\\{\\begin{array} { l } { y = 2 x + 1 } \\\\{ 7 x ^ { 2 } + 5 x = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { y = 2 x + 1 } \\\\{ [ \\begin{array} { l } { x = 0 } \\\\{ x = - \\frac { 5 } { 7 } }\\end{array} }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x = 0 } \\\\{ y = 1 }\\end{array} \\text { hoặc } \\left\\{\\begin{array}{l}x=-\\frac{5}{7} \\y=-\\frac{3}{7}\\end{array}\\right.\\right.\\right.\\right.\\]<br>- Xét hệ: %(\\left\\{\\begin{array}{l}y=-2 x-1 \\\\ x^{2}+x y+y^{2}=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}y=-2 x-1 \\\\ x^{2}-x(2 x+1)+(2 x+1)^{2}=1\\end{array}\\right.\\right.)%<br>%(\\Leftrightarrow\\left\\{\\begin{array}{l}y=-2 x-1 \\\\ 3 x^{2}+3 x=0\\end{array}\\right.)%<br>%(\\Leftrightarrow\\left\\{\\begin{array}{l}y=-2 x-1 \\\\ {\\left[\\begin{array}{l}x=0 \\\\ x=-1\\end{array}\\right.}\\end{array}\\right.)%%(\\Leftrightarrow\\left\\{\\begin{array}{l}x=0 \\\\ y=-1\\end{array}\\right.)% hoặc %(\\left\\{\\begin{array}{l}x=-1 \\\\ y=1\\end{array}\\right.)%<br>- Vậy hệ phương trình đã cho có nghiệm %((x ; y))% là: %((0 ; 1),\\left(-\\frac{5}{7} ;-\\frac{3}{7}\\right),(0 ;-1),(-1 ; 1))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/dba826f1c104a99f5a2862c2be35dec0.png\" srcset=\"https://docdn.giainhanh.io/media/test/c94e3a5cf7737114753ed43fe3889158.png 245w, https://docdn.giainhanh.io/media/test/5b829c900e7162fa6814a25f362fc702.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 3.0,
+        "content": "Cho %(a, b, c\\gt 0)% thỏa mãn %(a+b+c=3)%. Chứng minh rằng: %(\\frac{a+1}{b^{2}+1}+\\frac{b+1}{c^{2}+1}+\\frac{c+1}{a^{2}+1} \\geq 3)%.",
+        "question_images": [],
+        "solution": "- Sử dụng bất đẳng thức Cô si, ta có:<br>\\[\\frac{a+1}{b^{2}+1}=a+1-\\frac{b^{2}(a+1)}{b^{2}+1} \\geq a+1-\\frac{b^{2}(a+1)}{2 b}=a+1-\\frac{b+a b}{2}\\]<br>- Tương tự: %(\\frac{b+1}{c^{2}+1} \\geq b+1-\\frac{c+b c}{2})% (2) và %(\\frac{c+1}{a^{2}+1} \\geq c+1-\\frac{a+c a}{2})%<br>- Từ (1), (2) và (3) suy ra: %(\\frac{a+1}{b^{2}+1}+\\frac{b+1}{c^{2}+1}+\\frac{c+1}{a^{2}+1} \\geq \\frac{a+b+c}{2}+3-\\frac{a b+b c+c a}{2})%-<br>Mặt khác %(a^{2}+b^{2}+c^{2} \\geq a b+b c+c a)% hay %(3(a b+b c+c a) \\leq(a+b+c)^{2}=9)%<br>- Do đó: %(\\frac{a+1}{b^{2}+1}+\\frac{b+1}{c^{2}+1}+\\frac{c+1}{a^{2}+1} \\geq \\frac{a+b+c}{2}+3-\\frac{a b+b c+c a}{2}=\\frac{3}{2}+3-\\frac{9}{6}=3)%.<br>- Vậy %(\\frac{a+1}{b^{2}+1}+\\frac{b+1}{c^{2}+1}+\\frac{c+1}{a^{2}+1} \\geq 3)%.<br>Dấu bằng xày ra khi %(a=b=c=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Từ điểm %(M)% nằm ngoài đường tròn tâm %((O, R))%. Vẽ hai tiếp tuyến %(M A, M B)% với đường tròn %((A)%, %(B)% là các tiếp điểm), cát tuyến %(M P Q)% không đi qua %(O)% ( %(P)% nằm giữa %(M, Q)% ). Gọi %(H)% là giao điểm của %(O M)% và %(A B)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 3.0,
+        "content": "a) Chứng minh: %(\\widehat{H P O}=\\widehat{H Q O})%",
+        "question_images": [],
+        "solution": "Ta có: %(\\quad \\triangle M P A \\sim \\triangle M A Q(g . g) \\Rightarrow M A^{2}=M P . M Q(1))%%(\\triangle M A O)% vuông tại %(A)%, có đường cao %(A H)% nên %(M A^{2}=M H . M O)% (2)<br>Từ (1) và (2) suy ra %(M P . M Q=M H \\cdot M O)% hay %(\\frac{M P}{M H}=\\frac{M O}{M Q})%<br>(*)Ta xét: %(\\triangle M P H)% và %(\\triangle M O Q)% có góc %(M)% chung kết hợp với (*):<br>\\[\\Rightarrow \\triangle M P H \\sim \\triangle M O Q(\\text { c.g.c) } \\Rightarrow \\widehat{M H P}=\\widehat{M Q O} \\text {. }\\]<br>Do đó tứ giác %(P Q O H)% là tứ giác nội tiếp %(\\Rightarrow \\overrightarrow{H P O}=\\widehat{H Q O}=\\frac{1}{2} s d \\widetilde{O H})% (đpcm)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7930d132d5eb14f0663e1981d775868a.png\" srcset=\"https://docdn.giainhanh.io/media/test/ba794348dfd9055d41660ccbb5c4e818.png 243w, https://docdn.giainhanh.io/media/test/3f3d7a4c70b8fa7e3d85e9a6f3837dcc.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 3.0,
+        "content": "b) Tìm điểm %(E)% thuộc cung lớn %(A B)% sao cho tồng %(\\frac{1}{E A}+\\frac{1}{E B})% có giá trị nhỏ nhất.",
+        "question_images": [],
+        "solution": "-Trên tia đối của tia %(E A)% lấy điểm %(F)% sao cho %(E B=E F)% hay %(\\triangle E B F)% cân tại %(E)%, suy ra %(\\widehat{B F A}=\\frac{1}{2} \\widehat{B E A})%. Đặt %(\\widehat{A E B}=\\alpha)% khi đó %(\\widehat{A F B}=\\frac{\\alpha}{2})% nên F di chuyền trên cung chứa góc %(\\frac{\\alpha}{2})% dựng trên %(B C)%.<br>-Ta có: %(\\frac{1}{E A}+\\frac{1}{E B} \\geq \\frac{4}{E A+E B})%.<br>Như vậy %(\\frac{1}{E A}+\\frac{1}{E B})% nhỏ nhất khi %(E A+E B)% lớn nhất hay %(E A+E F)% lớn nhất<br>%(\\Leftrightarrow A F)% lớn nhất (**).<br>- Gọi %(O^{\\prime})% là điềm chính giữa của cung lớn %(A B)%, suy ra %(\\triangle O^{\\prime} A B)% cân tại %(O^{\\prime} \\Rightarrow O^{\\prime} A=O^{\\prime} B)% (3)<br>-Xét %(\\triangle O^{\\prime} E B)% và %(\\triangle O^{\\prime} E F)% có %(E B=E F, O^{\\prime} E)% chung và %(\\widehat{F E O^{\\prime}}=\\widehat{B E O^{\\prime}})% (cùng bù với %(\\widehat{B A O^{\\prime}} \\Rightarrow)% %(\\Delta O^{\\prime} E B=\\Delta O^{\\prime} E F(c . g . c) \\Rightarrow O^{\\prime} B=O^{\\prime} F)% (4)<br>-Từ (3) và (4) suy ra %(O^{\\prime})% là tâm cung chứa góc %(\\frac{\\alpha}{2})% dựng trền đoạn thẳng %(B C)% (cung đó và cung lớn %(A B)% cùng thuộc một nửa mặt phẳng bờ %(A B)% )<br>- Do đó %(A F)% lớn nhất khi nó là đường kính cùa %(\\left(O^{\\prime}\\right))% khi %(E \\equiv O^{\\prime}(* * *))%.<br>-Từ %((* *))% và %((* * *))% suy ra %(E)% là điểm chính giữa cung lớn %(A B)% thì %(\\frac{1}{E A}+\\frac{1}{E B})% có giá trị nhỏ nhất.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3713d15838d1c55e9b45dbb504ca11db.png\" srcset=\"https://docdn.giainhanh.io/media/test/a5827db5c3b9b554d41c6e86ca5ab1c7.png 186w, https://docdn.giainhanh.io/media/test/6079cec7daa9389d5effe70c33792db2.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Tìm hình vuông có kích thước nhỏ nhất để trong hình vuông đó có thể sắp xếp được 5 hình tròn có bán kính bằng 1 sao cho không có hai hình tròn bất kì nào trong chúng có điểm trong chung.",
+        "question_images": [],
+        "solution": "- Gọi %(O)% là tâm của hình vuông %(A B C D)% cạnh là %(a\\gt 2)% chứa 5 hình tròn bán kính bằng 1 sao cho không có hai hình tròn nào trong chúng có điểm trong chung. Suy ra tâm của các hình tròn này nằm trong hình vuông %(M N P Q)% tâm %(O)% cạnh là %(a-2)% và %(M N / / A B)%. Các đường trung bình của hình vuông %(M N P Q)% chia hình vuông này thành 4 hình vuông nhỏ bằng nhau.<br>- Theo nguyên li Dirichle tồn tại một hình vuông nhỏ chửa ít nhất 2 trong 5 tâm của các hình tròn nói trên, chẳng hạn đó là %(O_{1})% và %(O_{2})%.<br>- Do 5 hình tròn này không có hai hình tròn nào có điểm trong chung nên %(O_{1} O_{2} \\geq 2)% (1).<br>- Mặt khác %(O_{1} O_{2})% cùng nằm trong một hình vuông nhỏ có cạnh là %(\\frac{a-2}{2})% nên %(O_{1} O_{2} \\leq \\frac{a-2}{2} \\cdot \\sqrt{2})%(2) (với %(\\frac{a-2}{2} \\cdot \\sqrt{2})% là đường chéo hình vuông nhō).<br>- Từ (1) và (2) %(\\Rightarrow \\frac{a-2}{2} \\sqrt{2} \\geq 2 \\Leftrightarrow a \\geq 2+2 \\sqrt{2})%. Do đó mọi hình vuông có cạnh lớn hơn hoặc bằng %((2+2 \\sqrt{2}))% thȯa mãn yêu cầu bài toán.<br>Vậy hình vuông %(A B C D)% có cạnh %((2+2 \\sqrt{2}))% thỏa mãn yêu cầu bài toán.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0b4c9140ec7fd19c2fba65db7d78005a.png\" srcset=\"https://docdn.giainhanh.io/media/test/14dd353e03f3843cca708c473c8477e6.png 245w, https://docdn.giainhanh.io/media/test/729988d53f3258ac4f0246360619bcab.png 500w, https://docdn.giainhanh.io/media/test/310ee2f4c11907bb3ebe7c7b16afb6fc.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    }
+]

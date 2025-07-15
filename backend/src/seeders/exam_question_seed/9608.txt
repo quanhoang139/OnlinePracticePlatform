@@ -1,0 +1,120 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(P=\\frac{x^{2}+x}{x^{2}-2 x+1}:\\left(\\frac{x+1}{x}+\\frac{1}{x-1}+\\frac{2-x^{2}}{x^{2}-x}\\right))%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tìm điều kiện xác định và rút gọn %(P)%",
+        "question_images": [],
+        "solution": "%(P_{\\text {xác định }} \\Leftrightarrow\\left\\{\\begin{array}{l}\\frac{x+1}{x}+\\frac{1}{x-1}+\\frac{2-x^{2}}{x^{2}-x} \\\\ x^{2}-2 x+1=0 \\\\ x \\neq 0 \\\\ x-1 \\neq 0 \\\\ x^{2}-x \\neq 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\neq 0 \\\\ x \\neq 1 \\\\ x \\neq-1\\end{array}\\right.\\right.)%<br>Vậy ĐKXĐ: %(x \\neq 0 ; x \\neq 1 ; x \\neq-1)%<br>%(\\begin{aligned}P & =\\frac{x^{2}+x}{x^{2}-2 x+1}:\\left(\\frac{x+1}{x}+\\frac{1}{x-1}+\\frac{2-x^{2}}{x^{2}-x}\\right) \\P & =\\frac{x(x+1)}{(x-1)^{2}}:\\left[\\frac{x^{2}-1}{x(x-1)}+\\frac{x}{x(x-1)}+\\frac{2-x^{2}}{x(x-1)}\\right] \\P & =\\frac{x(x+1)}{(x-1)^{2}}: \\frac{x+1}{x(x-1)} \\P & =\\frac{x(x+1)}{(x-1)^{2}} \\cdot \\frac{x(x-1)}{x+1} \\P & =\\frac{x^{2}}{x-1}\\end{aligned})%<br>Vậy %(P=\\frac{x^{2}}{x-1}()% với %(x \\neq 0 ; x \\neq 1 ; x \\neq-1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Tìm %(x)% đề %(P=-\\frac{1}{2})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}P=-\\frac{1}{2} \\\\Rightarrow \\frac{x^{2}}{x-1}=\\frac{-1}{2}(\\text { với } x \\neq 0 ; x \\neq 1 ; x \\neq-1) \\\\Rightarrow 2 x^{2}=-x+1 \\\\Leftrightarrow 2 x^{2}+x-1=0 \\\\Leftrightarrow 2\\left(x^{2}+2 x \\cdot \\frac{1}{4}+\\frac{1}{16}\\right)-\\frac{1}{8}-1=0 \\\\Leftrightarrow 2\\left(x+\\frac{1}{4}\\right)^{2}=\\frac{9}{8} \\\\Leftrightarrow\\left(x+\\frac{1}{4}\\right)^{2}=\\frac{9}{16}\\end{array})%<br>%(\\begin{array}{l}\\Leftrightarrow\\left[\\begin{array}{l}x+\\frac{1}{4}=\\frac{3}{4} \\x+\\frac{1}{4}=-\\frac{3}{4}\\end{array}\\right. \\\\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{1}{2}(T M) \\x=-1(\\text { KTM })\\end{array}\\right.\\end{array})%<br>Vậy %(x=\\frac{1}{2})% thì %(P=-\\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) Tìm giá trị nhỏ nhất của %(P)% khi %(x\\gt 1)%",
+        "question_images": [],
+        "solution": "%(P=\\frac{x^{2}}{x-1}=\\frac{x^{2}-1+1}{x-1}=x+1+\\frac{1}{x-1}=x-1+\\frac{1}{x-1}+2)%<br>Áp dung %(\\mathrm{B} T \\mathrm{~T})% Côsi cho hai số dương %(x-1\\gt 0 ; \\frac{1}{x-1}>0)% nên ta có<br>%(P \\geq 2 \\sqrt{(x-1) \\cdot \\frac{1}{x-1}}+2=4)%<br>Dấu \" %(=)% \" xảy ra khi và chì khi<br>%(\\left.x-1=\\frac{1}{x-1} \\Leftrightarrow(x-1)^{2}=1 \\Leftrightarrow x-1=1 \\text { (do } x-1>0\\right) \\Leftrightarrow x=2 \\text { (TMĐKXĐ) })%<br>Vậy %(P_{\\min }=4\\space  \\mathrm{khi} \\space x=2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho đa thức %(P=x^{2}+9 x+n)%, với %(n \\in N^{\\circ})%. Tìm giá trị nhỏ nhất của %(n)%, giá trị lớn nhất của %(n)% để đa thức %(P)% là tích của hai đa thức với hệ sổ nguyên.",
+        "question_images": [],
+        "solution": "%(P=x^{2}+9 x+n\\left(n \\in N^{*}\\right))%<br>Gọi %(x+a, x+b)% là hai đa thức bậc nhất với %(a, b \\in N)% và là nhân tử của %(P)%.<br>Hay %(P=(x+a)(x+b))%.<br>Khi đó đồng nhất hệ số ta được %(\\left\\{\\begin{array}{l}a+b=9 \\\\ a . b=n\\end{array}\\right.)%<br>Do %(n \\in N)% nên %(a b\\gt 0 \\Leftrightarrow a, b)% cùng dấu.<br>Mà %(a, b \\in N)% thỏa mãn %(a+b=9)% nên ta có các trường hợp sau:<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/87323a4aa8c959c4df5cbf454916dba9.png\" srcset=\"https://docdn.giainhanh.io/media/test/1d13a6c988513ac6d35e376ae5e34572.png 245w, https://docdn.giainhanh.io/media/test/3444f2ea258cc32654336e7ff0a06c66.png 500w\" width=\"500\"/><br>Vậy %(n)% nhỏ nhất là %(8, n)% lớn nhất là 20 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Tìm %(a, b)% sao cho %(f(x)=a x^{3}+b x^{2}+10 x-4)% chia hết cho đa thức %(g(x)=x^{2}+x-2)%",
+        "question_images": [],
+        "solution": "%(f(x)=a x^{3}+b x^{2}+10 x-4 ; g(x)=x^{2}+x-2)%<br>Ta có %(g(x)=(x-1)(x+2))%<br>Do %(f(x))% chia hết cho đa thức %(g(x))% nên %(f(x)=q(x) . g(x))% với %(q(x))% là đa thức<br>%(f(x)=(x-1)(x+2) \\cdot q(x))%<br>Với %(x=1)% ta được %(f(1)=0)% hay %(a+b+6=0)%<br>Với %(x=-2)% ta được %(f(-2)=0)% hay %(-8 a+4 b-24=0 \\Leftrightarrow-2 a+b-6=0)%<br>Khi đó ta có %(\\left\\{\\begin{array}{l}a+b=-6 \\\\ -2 a+b=6\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a=-4 \\\\ b=-2\\end{array}\\right.\\right.)%<br>Vậy %(a=-4, b=-2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Với giá trị nào của %(x)% thì giá trị của phân thức %(P=\\frac{x^{4}+x^{3}+x+1}{x^{4}-x^{3}+2 x^{2}-x+1})% bằng 0",
+        "question_images": [],
+        "solution": "%(P=\\frac{x^{4}+x^{3}+x+1}{x^{4}-x^{3}+2 x^{2}-x+1} \\text { (ĐK: } x^{4}-x^{3}+2 x^{2}-x+1 \\neq 0)%<br>%(\\begin{array}{l}P=0 \\Rightarrow \\frac{x^{4}+x^{3}+x+1}{x^{4}-x^{3}+2 x^{2}-x+1}=0 \\Leftrightarrow x^{4}+x^{3}+x+1=0 \\Leftrightarrow x^{3}(x+1)+(x+1)=0 \\\\Leftrightarrow(x+1)\\left(x^{3}+1\\right)=0 \\Leftrightarrow(x+1)^{2}\\left(x^{2}-x+1\\right)=0\\end{array})%<br>Do %(x^{2}-x+1=\\left(x-\\frac{1}{2}\\right)^{2}+\\frac{3}{4}\\gt 0 \\forall x)%<br>Nên %((x+1)^{2}=0 \\Leftrightarrow x+1=0 \\Leftrightarrow x=-1)%<br>Thay %(x=-1)% vào (1) ta thấy thỏa mãn.<br>Vậy %(x=-1)% thì %(P=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Giải phương trình %(\\frac{2 x}{2 x^{2}-5 x+3}+\\frac{13 x}{2 x^{2}+x+3}=6)%",
+        "question_images": [],
+        "solution": "%(\\frac{2 x}{2 x^{2}-5 x+3}+\\frac{13 x}{2 x^{2}+x+3}=6)%<br>Ta thấy %(x=0)% không là nghiệm của phương trình.<br>Chia cả tử và mẫu của các phân thúc cho x ta có %(\\frac{2}{2 x-5+\\frac{3}{x}}+\\frac{13}{2 x+1+\\frac{3}{x}}=6)%<br>Đặt %(2 x+\\frac{3}{x}-2=a)% ta được:<br>%(\\begin{array}{l}\\frac{2}{a-3}+\\frac{13}{a+3}=6 \\Leftrightarrow \\frac{2 a+6+13 a-39}{(a-3)(a+3)}=\\frac{6(a-3)(a+3)}{(a-3)(a+3)} \\\\Rightarrow 15 a-33=6 a^{2}-54 \\Leftrightarrow 6 a^{2}-15 a-21=0 \\Leftrightarrow(2 a-7)(a+1)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}a=-1 \\a=\\frac{7}{2}\\end{array}\\right.\\end{array})%<br>Với %(a=-1 \\Rightarrow 2 x+\\frac{3}{x}-2=\\frac{7}{2} \\Leftrightarrow 2 x^{2}-x+3=0)%<br>%(\\Leftrightarrow 4 x^{2}-2 x+6=0 \\Leftrightarrow\\left(2 x-\\frac{1}{2}\\right)^{2}+\\frac{23}{4}=0 \\text { vô lý })%<br>Với %(a=\\frac{7}{2} \\Rightarrow 2 x+\\frac{3}{x}-2=-1 \\Leftrightarrow 4 x^{2}-11 x+6=0)%<br>%(\\Leftrightarrow 4 x^{2}-3 x-8 x+6=0 \\Leftrightarrow(x-2)(4 x-3)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=2 \\x=\\frac{3}{4}\\end{array}\\right.)%<br>Tập nghiệm của phương trình là %(S=\\left\\{2 ; \\frac{3}{4}\\right\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Cho phương trình %(\\frac{2 x-m}{x-2}+\\frac{x-1}{x+2}=3)%, tìm %(m)% để phương trình có nghiệm dương.",
+        "question_images": [],
+        "solution": "\\[\\begin{aligned}& \\frac{2 x-m}{x-2}+\\frac{x-1}{x+2}=3(1) \\\\Rightarrow & (2 x-m)(x+2)+(x-1)(x-2)=3(x+2)(x-2) \\\\Leftrightarrow & 2 x^{2}+(4-m) x-2 m+x^{2}-3 x+2=3 x^{2}-12 \\\\Leftrightarrow & (1-m) x=2 m-14\\end{aligned}\\]<br>Phương trình (1) có nghiệm nguyên dương %(\\Leftrightarrow\\left\\{\\begin{array}{l}1-m \\neq 0 \\\\ x=\\frac{2 m-14}{1-m} \\in Z ; \\frac{2 m-14}{1-m}\\gt 0\\end{array}\\right.)%<br>Ta có %(x=\\frac{2 m-14}{1-m}=\\frac{2(m-1)-12}{1-m}=-2+\\frac{12}{m-1})%<br>%(+) x \\in Z \\Leftrightarrow \\frac{12}{m-1} \\in Z \\space m-1 \\in\\{ \\pm 1 ; \\pm 2 ; \\pm 3 ; \\pm 4 ; \\pm 6 ; \\pm 12\\}\\left({ }^{*}\\right))%<br>%(+) x>0 \\Leftrightarrow \\frac{2 m-14}{1-m}>0)%<br>%(\\mathrm{TH} 1:\\left\\{\\begin{array}{l}2 m-14>0 \\\\ 1-m>0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}m>7 \\\\ m\\lt 1\\end{array}\\right.\\right.)% vô lý<br>%(\\mathrm{TH} 2:\\left\\{\\begin{array}{l}2 m-14\\lt 0 \\\\ 1-m\\lt 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}m\\lt 7 \\\\ m>1\\end{array} \\Leftrightarrow 1\\lt m\\lt 7(* *)\\right.\\right.)%<br>Từ %(\\left({ }^{*}\\right),\\left({ }^{* *}\\right))% ta có %(m-1 \\in\\{1 ; 2 ; 3 ; 4\\} \\Leftrightarrow m \\in\\{2 ; 3 ; 4 ; 5\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho %(\\triangle A B C)% vuông tại %(A)% có đường trung tuyến %(A M)%. Vẽ tia %(A x)% vuông góc với %(A M)% và %(B y)% vuông góc với %(A B ; A x)% và %(B y)% cắt nhau tại %(E)%. Vẽ %(B F)% vuông góc với %(A E)% %((F \\in A E))%. Gọi %(D)% là giao điểm của %(A M)% và %(B E ; I)% là giao điểm của %(M E)% và %(B F, K)% là giao điểm của %(M E)% và %(A B)%. Chứng minh:",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) %(A B F=B A M)% và %(\\triangle A B C)% đồng dạng với %(\\triangle F B E)%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3251dba022229fbeaec2aa94728eb8dd.png\" srcset=\"https://docdn.giainhanh.io/media/test/613f76315159b8ca822ff6470c358f3b.png 217w\" width=\"217\"/><br>Xét %(\\triangle A B F)% vuông tại %(F(B F \\perp A E) \\Rightarrow \\widehat{A B F}+\\widehat{F A B}=90^{\\circ})%<br>%(A x)% vuông góc với %(A M \\Rightarrow \\widehat{B A M}+\\widehat{F A B}=90^{\\circ})%<br>Suy ra %(\\widehat{A B F}=\\widehat{B A M}(\\mathrm{dpcm}))%<br>Ta có %(\\widehat{A E B}+\\widehat{B A E}=90^{\\circ}(\\triangle A B E)% vuông tại %(B))%<br>%(\\text { Mà } \\widehat{A_{1}}+\\widehat{A_{3}}=90^{\\circ} \\Rightarrow \\widehat{A_{1}}=\\widehat{A E B} \\text { (1) })%<br>Có %(A M)% là đường trung tuyến của %(\\triangle A B C)% vuông tại %(A \\Rightarrow A M=M B=M C=\\frac{B C}{2})%<br>%(\\Rightarrow \\triangle A M B \\text { cân tại } M \\Rightarrow \\widehat{A_{1}}=\\widehat{B_{1}}(2))%<br>Từ (1), (2) ta có %(\\widehat{B_{1}}=\\widehat{A E B})%<br>Xét %(\\triangle A B C)% và %(\\triangle F B E)% có:<br>%(\\begin{array}{l}\\widehat{B A C}=\\widehat{E F B}=90^{\\circ} \\\\widehat{B_{1}}=\\widehat{A E B}\\end{array})%<br>Suy ra %(\\triangle A B C)% dồng dạng với %(\\triangle F B E)% (g.g)",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Tứ giác ABDC là hình chữ nhật.",
+        "question_images": [],
+        "solution": "có %(A C \\perp A B)% tại %(A)% (gt);<br>mà %(A B \\perp D B)% tại %(B)% (gt)<br>%(\\Rightarrow A C / / B D \\Rightarrow \\widehat{A_{2}}=\\widehat{A D B})% (hai góc so le trong)<br>Ta có %(A M=M C(\\mathrm{cmt}) \\Rightarrow \\triangle A M C)% cân tại %(M \\Rightarrow \\widehat{A_{2}}=\\widehat{C_{1}})% (3)<br>Có %(\\widehat{C_{1}}+\\widehat{B_{1}}=90^{\\circ} ; \\widehat{B_{1}}+\\widehat{B_{2}}=90^{\\circ} \\Rightarrow \\widehat{C_{1}}=\\widehat{B_{2}})% (4)<br>Từ (3), (4) %(\\Rightarrow A_{2}=B_{2})% mà %(\\widehat{A_{2}}=\\widehat{A D B})% (cmt) suy ra %(\\widehat{B_{2}}=\\widehat{A D B})%<br>%(\\Rightarrow \\triangle B M D)% cân tại %(M \\Rightarrow M D=M B)%<br>Mặt khác %(A M=M B=M C=\\frac{B C}{2} \\Rightarrow M D=A M=M B=M C=\\frac{B C}{2})%<br>%(\\Rightarrow M)% là trung điểm của đường chéo %(B C)% và %(A D \\Rightarrow)% tứ giác %(A B D C)% là hình bình hành.<br>Mà %(\\widehat{A B D}=90^{\\circ})% nên tứ giác %(A B D C)% là hình chữ nhật.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) %(B I=I F)%",
+        "question_images": [],
+        "solution": "Ta có %(B F \\perp A E)% tại %(F ; A D \\perp A E)% tại %(A \\Rightarrow B F / / A D)%<br>%(\\Rightarrow \\frac{B F}{A D}=\\frac{E F}{E A})% (hệ quả định lí Talet)<br>Có %(I F / / A M)% (vì %(B F / / A D) \\Rightarrow \\frac{I F}{A M}=\\frac{E F}{E A})% (hệ quả định lí Talet)<br>Suy ra %(\\frac{I F}{A M}=\\frac{B F}{A D})% mà %(A M=\\frac{A D}{2} \\Rightarrow \\frac{B F}{I F}=\\frac{A D}{A M}=2 \\Rightarrow B F=2 I F \\Rightarrow I)% là trung điểm của BF",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 1.5,
+        "content": "d) Ba điểm %(D, K, F)% thẳng hàng.",
+        "question_images": [],
+        "solution": "Gọi %(K^{\\prime})% là giao điểm của %(D F)% và %(A B)%<br>Ta có %(B I / / A M \\Rightarrow \\frac{B I}{A M}=\\frac{B K}{A K})% (hệ quả định lí Talet)<br>%(B F / / A D)% (cmt)<br>%(\\Rightarrow \\frac{B F}{A D}=\\frac{F K^{\\prime}}{K^{\\prime} D}=\\frac{B K^{\\prime}}{K^{\\prime} A})% (hệ quả định lí Talet)<br>Mà %(I)% là trung điểm của %(B F, M)% là trung điểm của %(D A \\Rightarrow \\frac{B K^{\\prime}}{A K^{\\prime}}=\\frac{B K}{A K})% mà %(K, K^{\\prime} \\in A B)%<br>%(\\Rightarrow K \\equiv K^{\\prime})%<br>Vậy 3 điểm %(D, K, F)% thẳng hàng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các tam giác vuông có số đo các cạnh là các số nguyên dương và số đo diện tích bằng số đo chu vi.",
+        "question_images": [],
+        "solution": "Gọi ba cạnh của tam giác là %(a, b, c\\left(a, b, c \\in N^{*}\\right))%<br>Ta có %(\\left\\{\\begin{array}{l}a^{2}+b^{2}=c^{2}(1) \\\\ \\frac{a b}{2}=a+b+c(2)\\end{array}\\right.)%<br>Từ (1) %(\\Rightarrow c^{2}=(a+b)^{2}-2 a b \\Leftrightarrow c^{2}=(a+b)^{2}-4(a+b+c) \\Leftrightarrow c^{2}+4 c=(a+b)^{2}-4(a+b))%<br>%(\\Leftrightarrow c^{2}+4 c+4=(a+b)^{2}-4(a+b)+4 \\Leftrightarrow(c+2)^{2}=(a+b-2)^{2} \\Leftrightarrow\\left[\\begin{array}{l}c+2=a+b-2 \\c+2=-(a+b)+2(*)\\end{array}\\right.)%<br>Ta có %(a, b \\in N^{*} \\Rightarrow a+b-2 \\geq 0 \\Rightarrow 2-(a+b) \\leq 0)% mà %(c \\in N^{*} \\Rightarrow c+2 \\geq 2)% nên %(\\left({ }^{*}\\right))% vô nghiệm.<br>Vậy %(c=a+b-4)%, thế vào (2) ta có:<br>%(\\begin{array}{l}\\frac{a b}{2}=a+b+a+b-4 \\Leftrightarrow a b=4(a+b)-8 \\Leftrightarrow a b-4 a-4 b=-8 \\Leftrightarrow a(b-4)-4(b-4)=8 \\\\Leftrightarrow(a-4)(b-4)=8\\end{array})%<br>Mà %(a, b \\in N^{*} \\Rightarrow a-4 ; b-4)% là các ước lớn hơn hoặc bằng -3 của 8 và %(a-4 ; b-4)% là hai số nguyên cùng dấu nên ta có các trường hợp sau:<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0c2ff51c8b45d6654fcee0117d095cec.png\" srcset=\"https://docdn.giainhanh.io/media/test/53b77b303d448834550e84296ace283f.png 245w, https://docdn.giainhanh.io/media/test/ef0dc2a812c3627feabbbf1470c85601.png 500w\" width=\"500\"/><br>Khi đó ta có:<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/49f2e957a94fbcb080853a4a02787919.png\" srcset=\"https://docdn.giainhanh.io/media/test/86f58791d96d59ccf22251e0ab50d7fc.png 245w, https://docdn.giainhanh.io/media/test/d0172282fd8699aa8971f2b708bfa88a.png 500w\" width=\"500\"/><br>Vậy tam giác có độ dài ba cạnh là %(5,12,13)% hoặc %(6,8,10)% thỏa mãn yêu cầu đề bài.",
+        "question_type": "essay"
+    }
+]

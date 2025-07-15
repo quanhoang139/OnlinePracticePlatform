@@ -1,0 +1,111 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.5,
+        "content": "Cho hàm số %(f(x)=\\left\\{\\begin{array}{ll}\\frac{\\sqrt{x+1}+\\sqrt[3]{x-1}}{x} & \\text { khi } x \\neq 0 \\\\ m-2 & \\text { khi } x=0\\end{array}\\right.)%. Tìm %(m)% để hàm số %(f(x))% liên tục tại %(x=0)%.",
+        "question_images": [],
+        "solution": "TXĐ %(D=[-1 ;+\\infty), x=0 \\in D)% và %(f(0)=m-2)%.<br>Ta có %(\\lim _{x \\rightarrow 0} f(x)=\\lim _{x \\rightarrow 0} \\frac{\\sqrt{x+1}+\\sqrt[3]{x-1}}{x}=\\lim _{x \\rightarrow 0} \\frac{\\sqrt{x+1}-1+1+\\sqrt[3]{x-1}}{x}=\\lim _{x \\rightarrow 0} \\frac{\\sqrt{x+1}-1}{x}+\\lim _{x \\rightarrow 0} \\frac{1+\\sqrt[3]{x-1}}{x})%.<br>%(\\lim _{x \\rightarrow 0} \\frac{\\sqrt{x+1}-1}{x}=\\lim _{x \\rightarrow 0} \\frac{1}{\\sqrt{x+1}+1}=\\frac{1}{2})% và %(\\lim _{x \\rightarrow 0} \\frac{1+\\sqrt[3]{x-1}}{x}=\\lim _{x \\rightarrow 0} \\frac{1}{1-\\sqrt[3]{x-1}+(\\sqrt[3]{x-1})^{2}}=\\frac{1}{3})%.<br>Suy ra %(\\lim _{x \\rightarrow 0} f(x)=\\frac{1}{2}+\\frac{1}{3}=\\frac{5}{6})%.<br>Hàm số %(f(x))% liên tục tại %(x=0 \\Leftrightarrow \\lim _{x \\rightarrow 0} f(x)=f(0) \\Leftrightarrow m-2=\\frac{5}{6} \\Leftrightarrow m=\\frac{17}{6})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 3.0,
+        "content": "Một tổ gồm 10 học sinh gồm 6 học sinh nam và 4 học sinh nữ trong đó có hai học sinh nữ tên Trang và Thủy. Xếp ngẫu nhiên 10 học sinh trên thành một hàng ngang. Tính xác suất để xếp được một hàng ngang mà hai học sinh nữ Trang và Thủy luôn đứng cạnh nhau, đồng thời các học sinh nữ còn lại không đứng cạnh nhau và cũng không đứng cạnh Trang và Thủy.",
+        "question_images": [],
+        "solution": "Không gian mẫu %(|\\Omega|=10)% !.<br>-Gọi %(A)% là biến cố xếp được theo yêu cầu bài toán.<br>-Xếp 6 học sinh nam có 6 ! cách xếp.<br>Mỗi cách xếp 6 học sinh nam ta xem mỗi học sinh nam là một vách ngăn tạo ra 7 vị trí trống bao gồm 5 vị trí trống ở giữa và 2 vị trí trống ở hai đầu hàng.<br>-Số cách xếp hai bạn nữ Trang và Thủy cạnh nhau là 2 !<br>-Hai hs nữ Trang và Thủy luôn cạnh nhau nên xem 2 bạn như 1 bạn và 2 bạn nữ còn lại ta có 3 bạn nữ.<br>-Số cách xếp sao cho hai bạn nữ còn lại không cạnh nhau và không cạnh Trang và Thủy là %(A_{7}^{3})%.<br>Khi đó, %(\\left|\\Omega_{A}\\right|=6!.2!\\cdot A_{7}^{3})%. Vậy %(p(A)=\\frac{6!\\cdot 2!\\cdot A_{7}^{3}}{10!}=\\frac{1}{12})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho hình chóp %(S . A B C)% có đáy %(A B C)% là tam giác vuông tại %(A, A B C=30^{\\circ})% và %(B C=2 a)%. Gọi %(H)% là hình chiếu vuông góc của %(A)% lên %(B C)%. Biết hai mặt phẳng %((S H A))% và %((S B C))% cùng vuông góc với mặt phẳng %((A B C))%, đồng thời %(S A)% tạo với mặt phẳng %((A B C))% một góc bằng %(60^{\\circ})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.5,
+        "content": "a) Tính góc tạo bởi %(S A)% và mặt phẳng %((S B C))%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\left.\\begin{array}{rl}(S H A) \\cap(S B C)=S H \\\\ \\text {}(S H A) \\perp(A B C) \\\\ (S B C) \\perp(A B C)\\end{array}\\right\\} \\Rightarrow S H \\perp(A B C))% và %(A H \\subset(A B C))% nên %(S H \\perp A H)% (1)<br>Mặt khác %(A H \\perp B C)% (2)<br>Từ (1) và (2) suy ra %(A H \\perp(S B C))%, suy ra hình chiếu vuông góc của %(S A)% lên mặt phẳng %((S B C))% là %(S H)%.<br>Do đó, %((S A,(S B C))=(S A, S H)=A S H)% (vì tam giác %(S H A)% vuông tại %(H)% ).<br>Theo gt %((S A,(A B C))=(S A, A H)=S A H=60^{\\circ} \\Rightarrow A S H=30^{\\circ})%.<br>Vậy %((S A,(S B C))=30^{\\circ})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e095e999f6278565e8970e2219f3cc3c.png\" srcset=\"https://docdn.giainhanh.io/media/test/829fefd5d90e91a8a90e930481326484.png 245w, https://docdn.giainhanh.io/media/test/50e022460ce0d9beba8e671a95fd4fb9.png 500w, https://docdn.giainhanh.io/media/test/4904f03fa93d60c1a943cb577e9e899c.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.5,
+        "content": "b) Tính khoảng cách từ %(B)% đến mặt phẳng %((S A C))% theo %(a)%.",
+        "question_images": [],
+        "solution": "Ta có %(A B=B C \\cdot \\cos 30^{\\circ}=a \\sqrt{3} \\Rightarrow A H=A B \\cdot \\sin 30^{\\circ}=\\frac{a \\sqrt{3}}{2} \\Rightarrow S H=A H \\cdot \\tan 60^{\\circ}=\\frac{3 a}{2})% và %(A C=a)%.<br>Gọi %(I)% là hình chiếu vuông góc của %(H)% lên %(A C)%, suy ra %(A C \\perp(S H I) \\Rightarrow(S A C) \\perp(S H I))% và %((S H I) \\cap(S A C)=S I)%.<br>Trong tam giác %(S H I)% kẻ %(H K \\perp S I \\Rightarrow H K \\perp(S A C))% hay %(d(H ;(S A C))=H K)%.<br>Mặt khác .<br>\\[\\frac{d(B ;(S A C))}{d(H ;(S A C))}=\\frac{B C}{H C}=\\frac{B C^{2}}{H C . B C}=\\frac{B C^{2}}{A C^{2}}=\\left(\\frac{2 a}{a}\\right)^{2}=4 \\Leftrightarrow d(B ;(S A C))=4 d(H ;(S A C))=4 H K \\text {. }\\]<br>Ta có %(H I=\\frac{A B}{4}=\\frac{a \\sqrt{3}}{4})%.<br>Trong tam giác vuông %(S H I)% ta có %(H K=\\sqrt{\\frac{S H^{2} \\cdot H I^{2}}{S H^{2}+H I^{2}}}=\\sqrt{\\frac{\\frac{9 a^{2}}{4} \\cdot \\frac{3 a^{2}}{16}}{\\left(\\frac{3 a}{2}\\right)^{2}+\\left(\\frac{a \\sqrt{3}}{4}\\right)^{2}}}=\\frac{3 a}{2 \\sqrt{13}})%.<br>Vậy %(d(B ;(S A C))=4 H K=4 \\cdot \\frac{3 a}{2 \\sqrt{13}}=\\frac{6 a}{\\sqrt{13}})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Trong mặt phẳng %(O x y)%, cho tam giác %(A B C)% vuông tại %(A)%. Gọi %(H)% là hình chiếu vuông góc của %(A)% trên %(B C)%, các điểm %(M, N)% lần lượt là trung điểm của %(H B)% và %(H C)%; điểm %(K)% là trực tâm tam giác %(A M N)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Gọi %(I)% là trung điểm của %(A H)%. Chứng minh rằng %(K)% là trung điểm của %(I H)%.",
+        "question_images": [],
+        "solution": "I là trung điểm của %(A H)%, ta có %(M I / / A B \\Rightarrow M I \\perp A C \\Rightarrow I)% là trực tâm tam giác %(A M C \\Rightarrow C I \\perp A M)%.<br>Mặt khác %(N K \\perp A M \\Rightarrow N K / / C I \\Rightarrow K)% là trung điểm của %(H I)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/42b00095708c71863e41b575472eeca0.png\" srcset=\"https://docdn.giainhanh.io/media/test/6652cdf4cab8cb990bf43fb221ff7714.png 245w, https://docdn.giainhanh.io/media/test/7fcdc3f365119b4990f0727bbe7d1c2b.png 500w, https://docdn.giainhanh.io/media/test/74ab8a97f598620b045cff57626fb523.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Tìm tọa độ điểm %(A)%; biết %(M(2 ;-1), K\\left(-\\frac{1}{2} ; \\frac{1}{2}\\right))% và điểm %(A)% nằm trên đường thẳng %(x+2 y+4=0)% đồng thời điểm %(A)% có tung độ âm.",
+        "question_images": [],
+        "solution": "Giả sử %(A(-2 a-4 ; a))%, từ %(\\overrightarrow{A K}=3 \\overrightarrow{K H} \\Rightarrow H\\left(\\frac{2 a+2}{3} ; \\frac{2-a}{3}\\right))%<br>Lại từ %(\\overrightarrow{A K} \\cdot \\overrightarrow{M H}=0 \\Rightarrow 10 a^{2}-13 a-23=0 \\Rightarrow\\left[\\begin{array}{c}a=-1 \\\\ a=\\frac{23}{10}(\\text { loại })\\end{array} \\Rightarrow A(-2 ;-1)\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.5,
+        "content": "Giải hệ phương trình sau trên tập số thực %(\\left\\{\\begin{array}{l}4 x^{3}-y^{3}+x-y=3 x y(2 x-y) \\\\ \\sqrt{3-y}+\\sqrt{2+x}=x^{2} y+x y-4 x-1\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}4 x^{3}-y^{3}+x-y=3 x y(2 x-y) (1) \\\\ \\sqrt{3-y}+\\sqrt{2+x}=x^{2} y+x y-4 x-1(2)\\end{array}\\right.)%<br>Điều kiện %(\\left\\{\\begin{array}{l}x \\geq-2 \\\\ y \\leq 3\\end{array}\\right.)%.<br>\\[\\begin{array}{l}\\text { (1) } \\Leftrightarrow(2 x-y)^{3}+(2 x-y)=y^{3}+y \\\\Leftrightarrow(2 x-y-y)\\left((2 x-y)^{2}+y(2 x-y)+y^{2}+1\\right) \\Leftrightarrow x=y .\\end{array}\\]<br>Thay %(x=y)% vào phương trình (2) ta được:<br>\\[\\begin{array}{l}\\sqrt{3-x}+\\sqrt{2+x}=x^{3}+x^{2}-4 x-1 \\\\Leftrightarrow\\left(\\sqrt{3-x}-\\frac{-x+5}{3}\\right)+\\left(\\sqrt{2+x}-\\frac{x+4}{3}\\right)=x^{3}+x^{2}-4 x-1-\\frac{-x+5}{3}-\\frac{x+4}{3} \\\\text { Với }-2 \\leq x \\leq 3, \\text { ta có }\\left\\{\\begin{array}{l}\\sqrt{3-x}+\\frac{-x+5}{3}\\gt 0 \\\\sqrt{2+x}+\\frac{x+4}{3}>0\\end{array}\\right.\\end{array}\\]<br>Với %(-2 \\leq x \\leq 3)%, ta có %(\\left\\{\\begin{array}{l}\\sqrt{3-x}+\\frac{-x+5}{3}>0 \\\\ \\sqrt{2+x}+\\frac{x+4}{3}>0\\end{array}\\right.)%<br>%((*) \\Leftrightarrow \\frac{1}{9}\\left(\\frac{-x^{2}+x+2}{\\sqrt{3-x}+\\frac{-x+5}{3}}+\\frac{-x^{2}+x+2}{\\sqrt{2+x}+\\frac{x+4}{3}}\\right)=-\\left(-x^{2}+x+2\\right)(x+2))%<br>%(\\begin{array}{l}\\Leftrightarrow\\left(-x^{2}+x+2\\right)\\left(\\frac{1}{\\sqrt{3-x}+\\frac{-x+5}{3}}+\\frac{1}{\\sqrt{2+x}+\\frac{x+4}{3}}+9(x+2)\\right)=0 \\\\ \\Leftrightarrow\\left[\\begin{array}{l}-x^{2}+x+2=0 \\\\ \\frac{1}{\\sqrt{3-x}+\\frac{-x+5}{3}}+\\frac{1}{\\sqrt{2+x}+\\frac{x+4}{3}}+9(x+2)=0 \\quad \\text { vn do } V T\\gt 0, \\forall x \\in[-2 ; 3]\\end{array}\\right. \\\\ \\Leftrightarrow-x^{2}+x+2=0 \\Leftrightarrow\\left[\\begin{array}{l}x=-1 \\Rightarrow y=-1 . \\\\ x=2 \\Rightarrow y=2 .\\end{array}\\right. \\\\end{array})%<br>Vậy hệ phương trình đã cho có hai nghiệm %((x ; y))% là %((-1 ;-1))% và %((2 ; 2))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.5,
+        "content": "Tìm tất cả các giá trị thực của tham số %(m)% để phương trình %((\\sin x-1) \\cdot\\left[2 \\sin ^{2} x-(2 m-3) \\sin x+m-2\\right]=0)% có đúng 4 nghiệm phân biệt thuộc đoạn %(\\left[\\frac{\\pi}{6} ; \\frac{3 \\pi}{2}\\right])%.",
+        "question_images": [],
+        "solution": "\\[(\\sin x-1) \\cdot\\left[2 \\sin ^{2} x-(2 m-3) \\sin x+m-2\\right]=0 \\Leftrightarrow\\left[\\begin{array}{l}\\sin x=1 \\\\sin x=\\frac{1}{2} \\\\sin x=m-2\\end{array}\\right.\\]<br>+) pt %(\\sin x=1)% có đúng một nghiệm %(x=\\frac{\\pi}{2} \\in\\left[\\frac{\\pi}{6} ; \\frac{3 \\pi}{2}\\right])%<br>+) pt %(\\sin x=\\frac{1}{2})% có đúng 2 nghiệm %(\\in\\left[\\frac{\\pi}{6} ; \\frac{3 \\pi}{2}\\right])% là %(x=\\frac{\\pi}{6} ; x=\\frac{5 \\pi}{6})%.<br>Ycbt %(\\Leftrightarrow-1 \\leq m-2\\lt \\frac{1}{2} \\Leftrightarrow 1 \\leq m\\lt \\frac{5}{2})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/119f496e78e8075dbf8eba6f428b6efc.png\" srcset=\"https://docdn.giainhanh.io/media/test/dd57595914e4c0b47b6a18b114dbbe89.png 245w, https://docdn.giainhanh.io/media/test/29d182ecded2e616710caa3aa656771e.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.5,
+        "content": "Cho dãy số %(\\left(u_{n}\\right))% xác định bởi %(\\left\\{\\begin{array}{l}u_{1}=4 \\\\ u_{n+1}=\\frac{3 n \\cdot u_{n}}{n+1}-\\frac{2 n^{2}+6 n+3}{n^{2} \\cdot(n+1)^{3}}, \\forall n \\geq 1\\end{array}\\right.)%. Xác định công thức tổng quát %(u_{n})% theo %(n)% và tính %(\\lim \\left(\\frac{n \\cdot u_{n}}{4^{n}}\\right))%.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}u_{n+1}=\\frac{3 n \\cdot u_{n}}{n+1}-\\frac{2 n^{2}+6 n+3}{n^{2} \\cdot(n+1)^{3}} \\Leftrightarrow(n+1) \\cdot u_{n+1}=3 n \\cdot u_{n}-\\frac{2 n^{2}+6 n+3}{n^{2} \\cdot(n+1)^{2}} \\Leftrightarrow(n+1) \\cdot u_{n+1}=3 n \\cdot u_{n}-\\left(\\frac{3}{n^{2}}-\\frac{1}{(n+1)^{2}}\\right) \\\\Leftrightarrow(n+1) \\cdot u_{n+1}-\\frac{1}{(n+1)^{2}}=3\\left(n \\cdot u_{n}-\\frac{1}{n^{2}}\\right), \\forall n \\geq 1 .\\end{array}\\]<br>Đặt %(v_{n}=n \\cdot u_{n}-\\frac{1}{n^{2}}, \\forall n \\geq 1)%. Khi đó ta có dãy %(\\left(v_{n}\\right))% xác định bởi %(\\left\\{\\begin{array}{l}v_{1}=3 \\\\ v_{n+1}=3 v_{n}, \\forall n \\geq 1 .\\end{array}\\right.)%<br>Suy ra dãy %(\\left(v_{n}\\right))% là cấp số nhân công bội %(q=3)%, suy ra %(v_{n}=v_{1} \\cdot q^{n-1}=3^{n} \\Leftrightarrow n \\cdot u_{n}-\\frac{1}{n^{2}}=3^{n})%<br>\\[\\begin{array}{l}\\Leftrightarrow u_{n}=\\frac{3^{n}}{n}+\\frac{1}{n^{3}}, \\forall n \\geq 1 \\text { và } \\\\lim \\left(\\frac{n \\cdot u_{n}}{4^{n}}\\right)=\\lim \\left[\\left(\\frac{3}{4}\\right)^{n}+\\frac{1}{n^{2} \\cdot 4^{n}}\\right]=0 .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho %(x, y, z)% là các số thực dương và thỏa mãn %(x^{2}+y^{2}+z^{2}=2 x)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.5,
+        "content": "a) Chứng minh rằng %(\\frac{z}{y+1} \\leq \\frac{x}{x+y})%.",
+        "question_images": [],
+        "solution": "Ta có %(x^{2}+y^{2}+z^{2}=2 x \\Leftrightarrow 2 x+2 \\mathrm{x} y=(x+y)^{2}+z^{2} \\geq 2(x+y) z)% (1)<br>\\[\\Leftrightarrow x(y+1) \\geq(x+y) z \\Leftrightarrow \\frac{z}{y+1} \\leq \\frac{x}{x+y} .\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Tìm giá trị lớn nhất của biểu thức %(P=\\frac{x(2 y+z+2)+z(4 y+3)}{(x+2 y+1)(y+1)}-\\frac{3 x^{2}}{(x+y)^{2}})%.",
+        "question_images": [],
+        "solution": "Ta có %(P=\\frac{x(2 y+z+2)+z(4 y+3)}{(x+2 y+1)(y+1)}-\\frac{3 x^{2}}{(x+y)^{2}}=\\frac{2(x+z)}{x+2 y+1}+\\frac{z}{y+1}-\\frac{3 x^{2}}{(x+y)^{2}})%<br>Theo a) %(\\frac{z}{y+1} \\leq \\frac{x}{x+y} \\Leftrightarrow y+1 \\geq \\frac{(x+y) z}{x})%.<br>Khi đó %(x+2 y+1=x+y+(y+1) \\geq x+y+\\frac{(x+y) z}{x} \\Rightarrow x+2 y+1 \\geq \\frac{(x+y)(x+z)}{x})%.<br>Ta được %(\\frac{2(x+z)}{x+2 y+1} \\leq \\frac{2(x+z) x}{(x+y)(x+z)}=\\frac{2 x}{x+y})%.<br>Do đó %(P=\\frac{2(x+z)}{x+2 y+1}+\\frac{z}{y+1}-\\frac{3 x^{2}}{(x+y)^{2}} \\leq \\frac{2 x}{x+y}+\\frac{x}{x+y}-\\frac{3 x^{2}}{(x+y)^{2}})%<br>\\[\\Leftrightarrow P \\leq 3 . \\frac{x}{x+y}-3 .\\left(\\frac{x}{x+y}\\right)^{2}=\\frac{3}{4}-3\\left(\\frac{x}{x+y}-\\frac{1}{2}\\right)^{2} \\leq \\frac{3}{4} (2)\\]<br>Vậy %(P_{\\max }=\\frac{3}{4})% khi (1) và (2) đồng thời xảy ra<br>\\[\\Leftrightarrow\\left\\{\\begin{array} { l } { x + y = z } \\\\{ \\frac { x } { x + y } = \\frac { 1 } { 2 } } \\\\{ x ^ { 2 } + y ^ { 2 } + z ^ { 2 } = 2 x }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x + y = z } \\\\{ z = 2 x } \\\\{ x ^ { 2 } + y ^ { 2 } + z ^ { 2 } = 2 x }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=y=\\frac{1}{3} \\z=\\frac{2}{3}\\end{array} .\\right.\\right.\\right.\\]",
+        "question_type": "essay"
+    }
+]

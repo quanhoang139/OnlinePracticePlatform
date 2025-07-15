@@ -1,0 +1,72 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(P=\\frac{a \\sqrt{a}-1}{a-\\sqrt{a}}-\\frac{a \\sqrt{a}+1}{a+\\sqrt{a}}+\\left(\\sqrt{a}-\\frac{1}{\\sqrt{a}}\\right)\\left(\\frac{3 \\sqrt{a}}{\\sqrt{a}-1}-\\frac{2+\\sqrt{a}}{\\sqrt{a}+1}\\right))%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Rút gọn biểu thức %(P)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { } P=\\frac{a \\sqrt{a}-1}{a-\\sqrt{a}}-\\frac{a \\sqrt{a}+1}{a+\\sqrt{a}}+\\left(\\sqrt{a}-\\frac{1}{\\sqrt{a}}\\right)\\left(\\frac{3 \\sqrt{a}}{\\sqrt{a}-1}-\\frac{2+\\sqrt{a}}{\\sqrt{a}+1}\\right)(\\text { đk: } 0\\lt a \\neq 1) \\\\ =\\frac{\\sqrt{a^{3}}-1^{3}}{\\sqrt{a}(\\sqrt{a}-1)}-\\frac{\\sqrt{a^{3}}+1^{3}}{\\sqrt{a}(\\sqrt{a}+1)}+\\left(\\frac{\\sqrt{a^{2}}-1}{\\sqrt{a}}\\right)\\left(\\frac{3 \\sqrt{a}(\\sqrt{a}+1)}{(\\sqrt{a}-1)(\\sqrt{a}+1)}-\\frac{(2+\\sqrt{a})(\\sqrt{a}-1)}{(\\sqrt{a}-1)(\\sqrt{a}+1)}\\right) \\\\ =\\frac{(\\sqrt{a}-1)(a+\\sqrt{a}+1)}{\\sqrt{a}(\\sqrt{a}-1)}-\\frac{(\\sqrt{a}+1)(a-\\sqrt{a}+1)}{\\sqrt{a}(\\sqrt{a}+1)}+\\frac{a-1}{\\sqrt{a}} \\cdot \\frac{3 a+3 \\sqrt{a}-2 \\sqrt{a}+2-a+\\sqrt{a}}{(\\sqrt{a}-1)(\\sqrt{a}+1)} \\\\ =\\frac{a+\\sqrt{a}+1}{\\sqrt{a}}-\\frac{a-\\sqrt{a}+1}{\\sqrt{a}}+\\frac{a-1}{\\sqrt{a}} \\cdot \\frac{2 a+2 \\sqrt{a}+2}{(\\sqrt{a}-1)(\\sqrt{a}+1)}\\end{array})%<br>%(\\begin{array}{l}=\\frac{2 \\sqrt{a}}{\\sqrt{a}}+\\frac{(\\sqrt{a}-1)(\\sqrt{a}+1)}{\\sqrt{a}} \\cdot \\frac{2(a+\\sqrt{a}+1)}{(\\sqrt{a}-1)(\\sqrt{a}+1)} \\\\=2+\\frac{2(a+\\sqrt{a}+1)}{\\sqrt{a}} \\\\=\\frac{2 \\sqrt{a}+2 a+2 \\sqrt{a}+2}{\\sqrt{a}} \\\\=2 \\sqrt{a}+\\frac{2}{\\sqrt{a}}+4 .\\end{array})%<br>Vậy với %(0\\lt a \\neq 1)% thì %(P=2 \\sqrt{a}+\\frac{2}{\\sqrt{a}}+4)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Chứng minh rằng với mọi giá trị của %(a)% (thỏa điều kiện thích hợp) ta đều có %(P\\gt 6)%.",
+        "question_images": [],
+        "solution": "Ta có %(2 \\sqrt{a}+\\frac{2}{\\sqrt{a}} \\geq 2 \\sqrt{2 \\sqrt{a} \\cdot \\frac{2}{\\sqrt{a}}}=4)%<br>Vậy %(P \\geq 8)% hay %(P\\gt 6)% (đpcm).",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 4.5,
+        "content": "Giải phương trình %(\\sqrt{4 x^{2}+5 x+1}-2 \\sqrt{x^{2}-x+1}=9 x-3)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\sqrt{4 x^{2}+5 x+1}-2 \\sqrt{x^{2}-x+1}=9 x-3 \\\\ \\Leftrightarrow 4 x^{2}+5 x+1-4\\left(x^{2}-x+1\\right)=(9 x-3)\\left(\\sqrt{4 x^{2}+5 x+1}+2 \\sqrt{x^{2}-x+1}\\right) \\\\ \\Leftrightarrow 9 x-3=(9 x-3)\\left(\\sqrt{4 x^{2}+5 x+1}+2 \\sqrt{x^{2}-x+1}\\right)\\end{array})%<br>\\[\\begin{array}{l}\\Leftrightarrow(9 x-3)\\left(\\sqrt{4 x^{2}+5 x+1}+2 \\sqrt{x^{2}-x+1}-1\\right)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}9 x-3=0 \\\\sqrt{4 x^{2}+5 x+1}+2 \\sqrt{x^{2}-x+1}-1=0 .\\end{array}\\right.\\end{array}\\]<br>TH1: %(9 x-3=0 \\Leftrightarrow x=\\frac{1}{3})%.<br>%(T H 2)% : Ta dễ chứng minh được phương trình %(\\sqrt{4 x^{2}+5 x+1}+2 \\sqrt{x^{2}-x+1}-1=0)% vô nghiệm.<br>Vậy phương trình đã cho có nghiệm duy nhất %(x=\\frac{1}{3})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 4.0,
+        "content": "Cho ba số không âm %(x, y, z)% thỏa mãn %(\\frac{1}{1+2 x}+\\frac{1}{1+2 y}+\\frac{1}{1+2 z}=2)%.<br>Chứng minh rằng %(x y z \\leq \\frac{1}{64})%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\frac{1}{1+2 x}=1-\\frac{1}{1+2 y}+1-\\frac{1}{1+2 z}=\\frac{2 y}{1+2 y}+\\frac{2 z}{1+2 z} \\geq 2 \\sqrt{\\frac{4 y z}{(1+2 y)(1+2 z)}})%.<br>Tương tự ta có : %(\\frac{1}{1+2 y} \\geq 2 \\sqrt{\\frac{4 x z}{(1+2 x)(1+2 z)}})%.<br>\\[\\frac{1}{1+2 z} \\geq 2 \\sqrt{\\frac{4 x y}{(1+2 x)(1+2 y)}} \\text {. }\\]<br>Khi đó: %(\\frac{1}{1+2 x} \\cdot \\frac{1}{1+2 y} \\cdot \\frac{1}{1+2 z} \\geq 8 \\cdot \\sqrt{\\frac{64 x^{2} y^{2} z^{2}}{(1+2 x)^{2}(1+2 y)^{2}(1+2 z)^{2}}})%<br>\\[\\begin{array}{l}\\Leftrightarrow \\frac{1}{(1+2 x)(1+2 y)(1+2 z)} \\geq 8 . \\frac{8 x y z}{(1+2 x)(1+2 y)(1+2 z)} \\\\Leftrightarrow 1 \\geq 64 x y z \\\\Leftrightarrow x y z \\leq \\frac{1}{64} \\text { (đpcm). }\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.5,
+        "content": "Cho hình bình hành %(A B C D)% có %(\\hat{A}\\lt 90^{\\circ})%. Dựng các tam giác vuông cân tại %(A)% là %(B A M)% và %(D A N(B)% và %(N)% cùng nửa mặt phẳng bờ %(A D, D)% và %(M)% cùng nửa mặt phẳng bờ %(A B)% ). Chứng minh rằng %(A C)% vuông góc với %(M N)%.",
+        "question_images": [],
+        "solution": "Goi %(H)% là giao điểm của %(M N)% và %(A C)%.<br>Ta có %(\\widehat{N A D}+\\widehat{B A M}=180^{\\circ})%<br>\\[\\begin{array}{l}\\Rightarrow \\widehat{N A B}+\\widehat{B A D}+\\widehat{B A D}+\\widehat{D A M}=180^{\\circ} \\\\Rightarrow \\widehat{N A M}+\\widehat{B A D}=180^{\\circ} .\\end{array}\\]<br>Mặt khác %(A B / / C D \\Rightarrow \\widehat{B A D}+\\widehat{A B C}=180^{\\circ})%.<br>Do đó %(\\widehat{N A M}=\\widehat{A B C}\\left(=180^{\\circ}-\\widehat{B A D}\\right))%.<br>Xét %(\\triangle N A M)% và %(\\triangle C A B)% có %(A M=A B, A N=B C, \\widehat{N A M}=\\widehat{A B C})%<br>\\[\\Rightarrow \\triangle N A M=\\triangle C A B \\Rightarrow \\widehat{B A C}=\\widehat{A M N} \\text {. }\\]<br>Xét %(\\triangle A H M)% có %(\\widehat{A M N}+\\widehat{M A H}=\\widehat{B A C}+\\widehat{H A M}=\\widehat{B A M}=90^{\\circ} \\Rightarrow \\widehat{A H M}=90^{\\circ})%<br>Vậy %(A C \\perp M N)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/99cf44b06317451021c9e03a58bb8390.png\" srcset=\"https://docdn.giainhanh.io/media/test/b900863f19b7383d640136b3b6e09ddb.png 178w\" width=\"178\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho tam giác %(A B C)% nội tiếp đường tròn tâm %(O, G)% là trọng tâm. Tiếp tuyến tại %(B)% của %((O))% cắt %(C G)% tại %(M)%. Tiếp tuyến tại %(C)% của %((O))% cắt %(B G)% tại %(N)%. Goi %(X, Y)% theo thứ tự là giao điểm của %(C N, A N)% và đường thẳng qua %(B)% song song với %(A C ; Z, T)% theo thứ tự là giao điểm của %(B M, A M)% và đường thả̉ng qua %(C)% song song với %(A B)%. Chứng minh rằng :",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.5,
+        "content": "a) %(A B \\cdot C Z=A C \\cdot B X)%.",
+        "question_images": [],
+        "solution": "Xét %(\\triangle B Z C)% và %(\\triangle A C B)% có:<br>%(\\widehat{C B Z}=\\widehat{B A C})% (góc nội tiếp và góc tạo bởi tia tiếp tuyến và̀ dây cung cùng chắn một cung).<br>%(\\widehat{B C Z}=\\widehat{A B C})% (so le trong, %(A B / / C Z)% )<br>Do đó %(\\triangle B Z C \\sim \\triangle A C B(\\mathrm{~g} . \\mathrm{g}) \\Rightarrow \\frac{C Z}{B C}=\\frac{B C}{A B} \\Rightarrow A B . C Z=B C^{2})%.<br>Tương tự, %(\\triangle A B C \\backsim \\triangle C X B)% (g.g)<br>%(\\Rightarrow \\frac{B C}{B X}=\\frac{A C}{C B} \\Rightarrow A C . B X=B C^{2})%.<br>Từ (1) và (2) suy ra %(A B \\cdot C Z=A C \\cdot B X\\left(=B C^{2}\\right))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/efb168b6828fdffa1f00bda61b7a1d7c.png\" srcset=\"https://docdn.giainhanh.io/media/test/2599e4b8aaeaa858994287d535a26fe0.png 153w\" width=\"153\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.5,
+        "content": "b) %(\\widehat{M A B}=\\widehat{N A C})%.",
+        "question_images": [],
+        "solution": "Vì %(X Y / / A C)% và %(B N)% đi qua trung điểm %(A C)% nên %(B X=B Y)%.<br>vì %(Z T / / A B)% và %(C M)% đi qua trung điểm %(A B)% nên %(C Z=C T)%.<br>Theo a) có %(A B . C Z=A C . B X \\Rightarrow \\frac{A C}{C Z}=\\frac{A B}{B X} \\Rightarrow \\frac{A C}{C T}=\\frac{A B}{B Y})%.<br>Mặt khác %(\\widehat{A C T}=\\widehat{A B Y}(=\\widehat{B A C}))%.<br>Do đó %(\\triangle C T A \\backsim \\triangle B Y A()% c.g.c) %(\\Rightarrow \\widehat{A T C}=\\widehat{A Y B})%<br>Ta lại có %(\\widehat{A T C}=\\widehat{M A B}, \\widehat{A Y B}=\\widehat{N A C})% (đồng vị) %(\\Rightarrow \\widehat{M A B}=\\widehat{N A C})%.",
+        "question_type": "essay"
+    }
+]

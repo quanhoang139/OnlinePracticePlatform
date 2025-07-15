@@ -1,0 +1,65 @@
+[
+    {
+        "title": "1 ",
+        "point": 4.0,
+        "content": "Tìm các số thực %(x)% thỏa %(x^{4}+2 x^{3}+x^{2}+2 x+1=0)%.",
+        "question_images": [],
+        "solution": "Ta thấy %(x=0)% không là nghiệm của phương trình nên chia cả hai vế của phương trình cho %(\\mathrm{x}^{2} \\neq 0)% ta được:<br>\\[\\begin{array}{l}x^{4}+2 x^{3}+x^{2}+2 x+1=0 \\Leftrightarrow x^{2}+\\frac{1}{x^{2}}+2\\left(x+\\frac{1}{x}\\right)+1=0 \\\\Leftrightarrow\\left(x+\\frac{1}{x}\\right)^{2}+2\\left(x+\\frac{1}{x}\\right)-1=0 \\\\Leftrightarrow\\left(x+\\frac{1}{x}+1\\right)^{2}=2 \\Leftrightarrow\\left[\\begin{array}{l}x+\\frac{1}{x}=-1-\\sqrt{2} (1)\\x+\\frac{1}{x}=-1+\\sqrt{2}(2)\\end{array}\\right.\\end{array}\\]<br>Giải (1) ta được %(x=\\frac{-1-\\sqrt{2}-\\sqrt{2 \\sqrt{2}-1}}{2})% hoặc %(x=\\frac{-1-\\sqrt{2}+\\sqrt{2 \\sqrt{2}-1}}{2})%.<br>Giải (2) vô nghiệm.Vậy phương trình có hai nghiệm là %(x=\\frac{-1-\\sqrt{2}-\\sqrt{2 \\sqrt{2}-1}}{2})% hoặc %(x=\\frac{-1-\\sqrt{2}+\\sqrt{2 \\sqrt{2}-1}}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 4.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x^{3}+2 y=1 \\\\ y^{3}+2 x=-1\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\left\\{\\begin{array}{l}x^{3}+2 y=1 \\y^{3}+2 x=-1\\end{array} \\Rightarrow x^{3}+y^{3}+2 x+2 y=0 \\Leftrightarrow(x+y)\\left(x^{2}+y^{2}-x y+2\\right)=0\\right. \\\\Leftrightarrow\\left[\\begin{array} { l } { x + y = 0 } \\\\{ x ^ { 2 } + y ^ { 2 } - x y + 2 = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}y=-x \\\\left(x-\\frac{y}{2}\\right)^{2}+\\frac{3 y^{2}}{4}+2=0 \\text { (vô nghiệm) }\\end{array}\\right.\\right. \\\\end{array}\\]<br>Thay %(y=-x)% vào %(x^{3}+2 y=1)% ta được %(x^{3}-2 x-1=0 \\Leftrightarrow(x+1)\\left(x^{2}-x-1\\right)=0)%<br>\\[\\Leftrightarrow\\left[\\begin{array} { l } { x + 1 = 0 } \\\\{ x ^ { 2 } - x - 1 = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=-1 \\x=\\frac{1-\\sqrt{5}}{2} \\x=\\frac{1+\\sqrt{5}}{2}\\end{array} .\\right.\\right.\\]<br>Với %(x=-1 \\Rightarrow y=1)%.<br>Với %(x=\\frac{1-\\sqrt{5}}{2} \\Rightarrow y=\\frac{-1+\\sqrt{5}}{2})%.<br>Với %(x=\\frac{1+\\sqrt{5}}{2} \\Rightarrow y=\\frac{-1-\\sqrt{5}}{2})%.<br>Vậy hệ phương trình có nghiệm là %((x, y)=(-1 ; 1),\\left(\\frac{1-\\sqrt{5}}{2} ; \\frac{-1+\\sqrt{5}}{2}\\right))%, %(\\left(\\frac{1+\\sqrt{5}}{2} ; \\frac{-1-\\sqrt{5}}{2}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho %(m)% và %(n)% là hai số nguyên dương lẻ thỏa %(\\left\\{\\begin{array}{l}\\left(m^{2}+2\\right)\\vdots n \\\\ \\left(n^{2}+2\\right)\\vdots m\\end{array}\\right.)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Hãy tìm một cặp gồm hai số nguyên dương lẻ %((m ; n))% thỏa các điều kiện đã cho với %(m\\gt 1)% và %(n>1)%.",
+        "question_images": [],
+        "solution": "Với %(m=11)% và %(n=41)% thỏa các điều kiện của bài toán<br>Vì khi đó %(m^{2}+2=123 \\vdots 41)% và %(n^{2}+2=1683 \\vdots 11)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Chứng minh %(\\left(m^{2}+n^{2}+2\\right))% %(\\vdots)% %(4 m n)%",
+        "question_images": [],
+        "solution": "Vì %(\\left(m^{2}+2\\right) \\vdots n)% mà %(n^{2} \\vdots n)% nên %(\\left(m^{2}+n^{2}+2\\right) \\vdots n)%<br>Tương tự %(\\left(m^{2}+n^{2}+2\\right) \\vdots m)%(2)<br>Gọi %(d)% là ước chung lớn nhất của %(m)% và %(n \\Rightarrow m^{2}+n^{2})% %(\\vdots)% %(d)%<br>Theo chứng minh trên %(\\left(m^{2}+n^{2}+2\\right)\\vdots m \\Rightarrow\\left(m^{2}+n^{2}+2\\right) \\vdots d \\Rightarrow 2 \\vdots d)% %(\\Rightarrow d=1)%(3) ;<br>nếu %(d\\gt 1)% thì %(d=2)% mâu thuẫn với %(m)% và %(n)% lẻ<br>Từ (1), (2) , (3) suy ra %(\\left(m^{2}+n^{2}+2\\right))% %(\\vdots)%mn<br>Cuối cùng vì %(m)% lẻ nên %(m=2 k+1 \\quad)% (với %(k \\in \\mathbb{N})% ) %(\\Rightarrow m^{2}=4 k(k+1)+1)%<br>Tương tự %(n^{2}=4 l(l+1)+1)% (với %(l \\in \\mathbb{N})% )<br>Suy ra %(\\left(m^{2}+n^{2}+2\\right) \\vdots 4)%.<br>Mà %((4, m n)=1)% nên suy ra %(\\left(m^{2}+n^{2}+2\\right) \\vdots 4 m n)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Tính số các ước dương của số 1000 .",
+        "question_images": [],
+        "solution": "Ta có %(1000=2^{3} .5^{3})%<br>Gọi %(k)% là một ước dương của 1000 .<br>Suy ra %(k=2^{n} .5^{m})% với %(n, m \\in \\mathbb{N})% thỏa %(n \\leq 3)% và %(m \\leq 3)%<br>Vậy số ước dương của 1000 là %(4.4=16)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Tính số các ước dương chẵn của số 1000 .",
+        "question_images": [],
+        "solution": "Gọi %(k)% là một ước dương chẵn của 1000 .<br>Suy ra %(k=2^{n} .5^{m})% với %(n, m \\in \\mathbb{N})% thỏa %(1 \\leq n \\leq 3)% và %(m \\leq 3)%<br>Vậy số ước dương chẵn của 1000 là %(3.4=12)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 4.0,
+        "content": "Cho tam giác %(A B C)% có ba góc %(\\widehat{\\mathrm{CAB}}, \\widehat{\\mathrm{ABC}}, \\widehat{\\mathrm{BCA}})% đều là góc nhọn. Goi %((O))% là đường tròn tâm %(O)% nội tiếp tam giác %(A B C)% và tiếp xúc với hai cạnh %(A B, A C)% lần lượt tại %(D)%, %(E)%. Goi %(M)% là giao điểm của hai đường thẳng %(O B)% và %(D E)%, goi %(N)% là giao điểm của hai đường thẳng %(O C)% và %(D E)%. Chứng minh bốn điểm %(B, C, M, N)% cùng thuộc một đường tròn.",
+        "question_images": [],
+        "solution": "Theo giả thiết %(A D=A E)%<br>suy ra %(\\triangle A D E)% cân tại %(A \\Rightarrow \\widehat{C E M}=\\widehat{A E D}=90^{\\circ}-\\frac{1}{2} \\widehat{B A C})%<br>Mà %(\\widehat{C O M}=\\widehat{O B C}+\\widehat{O C B}=90^{\\circ}-\\frac{1}{2} \\widehat{B A C})%.<br>Vậy %(\\widehat{C E M}=\\widehat{C O M})% suy ra tứ giác %(C O E M)% là tứ giác nội tiếp.<br>Theo giả thiết %(O E \\perp A C)%.<br>Từ đó %(B M \\perp C M)%<br>Tương tự %(C N \\perp B N)% suy ra tứ giác %(B C M N)% là tứ giác nội tiếp đường tròn đường kính %(B C)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d16e8312d9701bb1b1969eead2cea921.png\" srcset=\"https://docdn.giainhanh.io/media/test/67b03160b0a3528ed89da34e66d0ca74.png 179w\" width=\"179\"/>",
+        "question_type": "essay"
+    }
+]

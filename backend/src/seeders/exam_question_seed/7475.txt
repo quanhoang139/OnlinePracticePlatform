@@ -1,0 +1,73 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 5.0,
+        "content": "Giải hệ phương trình sau trên tập số thực: %(\\left\\{\\begin{array}{l}\\sqrt{2 x+y}-x+y=1 ~~~(1)\\\\ \\sqrt{2 x+y}+\\sqrt{4 x+y}=2~~~(2)\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Điều kiện %(\\left\\{\\begin{array}{l}2 x+y \\geq 0 \\\\ 4 x+y \\geq 0\\end{array}\\right.)%.<br>Đặt %(\\left\\{\\begin{array}{l}u=\\sqrt{2 x+y} \\\\ v=\\sqrt{4 x+y}\\end{array}(u, v \\geq 0)\\right.)%<br>Ta có: %(\\left\\{\\begin{array}{l}u^{2}-v^{2}=-2 x \\\\ u+v=2\\end{array} \\Rightarrow u=\\frac{2-x}{2}\\right.)%<br>Thay %(u=\\frac{2-x}{2})% vào (1), ta có: %(\\frac{2-x}{2}-x+y=1 \\Leftrightarrow y=\\frac{3}{2} x)%<br>Thay %(y=\\frac{3}{2} x)% vào (1), ta có: %(\\sqrt{\\frac{7}{2}} x+\\frac{1}{2} x=1 \\Leftrightarrow \\sqrt{14 x}=2-x)%<br>\\[\\Leftrightarrow\\left\\{\\begin{array}{l}x \\leq 2 \\x=9+\\sqrt{77} \\x=9-\\sqrt{77}\\end{array} \\Leftrightarrow x=9-\\sqrt{77}\\right.\\]<br>%(\\Rightarrow y=\\frac{3}{2}(9-\\sqrt{77}))%.<br>So điều kiện, hệ có nghiệm %(\\left(9-\\sqrt{77} ; \\frac{27-3 \\sqrt{77}}{2}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 5.0,
+        "content": "Cho hàm số %(y=x^{4}+2 m x^{2}+3\\left(m\\right.)% là tham số thực) có đồ thị %(\\left(C_{m}\\right))%. Tìm tất cả các giá trị của %(m)% sao cho trên đồ thị %(\\left(C_{m}\\right))% tồn tại duy nhất một điểm mà tiếp tuyến của %(\\left(C_{m}\\right))% tại điểm đó vuông góc với đường thẳng %(x-8 y+2018=0)%.",
+        "question_images": [],
+        "solution": "Tiếp tuyến có hệ số góc bằng -8<br>Gọi %(x_{0})% là hoành độ tiếp điểm thì %(x_{0})% là nghiệm của phương trình %(x^{3}+m x+2=0~~~ (1))%<br>Để thỏa yêu cầu bài toán thì (1) có nghiệm duy nhất.<br>Vì %(x=0)% không là nghiệm của (1) nên%((1) \\Leftrightarrow m=-x^{2}-\\frac{2}{x})%<br>Xét hàm số: %(f(x)=-x^{2}-\\frac{2}{x} ; f^{\\prime}(x)=-2 x+\\frac{2}{x^{2}}=\\frac{-2 x^{3}+2}{x^{2}})%<br>Bảng biến thiên<br>Từ bảng biến thiên, (1) có nghiệm duy nhất khi và chỉ khi %(m\\gt -3)%.<br>Vậy %(m>-3)% thỏa yêu cầu bài toán.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4a318188ae7d203be5617f22a2df5852.png\" srcset=\"https://docdn.giainhanh.io/media/test/1f66f389dd490567eee3ea5201236f3d.png 245w, https://docdn.giainhanh.io/media/test/1b17967f9ad11c9813502c4f2d428f6b.png 500w, https://docdn.giainhanh.io/media/test/dd1b9a1e30d66d6f921cae823a2b666b.png 750w, https://docdn.giainhanh.io/media/test/e7e79ca1951859010f44c81314c4d09f.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 5.0,
+        "content": "Cho tam giác %(A B C)% có ba góc nhọn, không cân và nội tiếp đường tròn %((O))%. Gọi %(H)% là chân đường cao kẻ từ %(A)% và %(I)% là tâm đường tròn nội tiếp của tam giác %(A B C)%. Đường thẳng %(A I)% cắt đường tròn %((O))% tại điểm thứ hai %(M)% ( %(M)% khác %(A)% ). Gọi %(A A^{\\prime})% là đường kính của %((O))%. Đường thẳng %(M A^{\\prime})% cắt các đường thẳng %(A H, B C)% theo thứ tự tại %(N)% và %(K)%. Chứng minh %(\\widehat{N I K}=90^{\\circ})%.",
+        "question_images": [],
+        "solution": "Ta có %(\\widehat{O A C}=90^{\\circ}-\\frac{1}{2} \\widehat{A O C}=90^{\\circ}-\\widehat{A B C}=\\widehat{B A H})% mà %(A I)% là phân giác góc %(A)% nên %(\\widehat{H A I}=\\widehat{O A I})%.<br>Suy ra tam giác %(A N A^{\\prime})% cân tại %(A)%.<br>Gọi %(L)% là giao điểm của %(M A)% và %(B C)%.<br>Ta có %(\\widehat{H K N}=90^{\\circ}-\\widehat{H N K}=\\widehat{H A M}=\\widehat{L A A^{\\prime}})%.<br>Suy ra, tứ giác %(A L A^{\\prime} K)% nội tiếp.<br>Do đó %(M A^{\\prime} \\cdot M K=M L \\cdot M A \\Rightarrow M N \\cdot M K=M L . M A.~~~(1))%<br>Vì %(\\widehat{M A C}=\\widehat{M C B})% hay %(\\widehat{M A C}=\\widehat{M C L})% nên hai tam giác %(M C L)% và %(M A C)% đồng dạng.<br>Suy ra %(M L . M A=M C^{2}~~~(2))%.<br>Do %(I A, I C)% là các tia phân giác trong của tam giác %(A B C)% nên ta có:%(\\widehat{M I C}=\\frac{1}{2}\\left(\\frac{1}{2} s \\overparen{d A B}+s \\overparen{d M C}\\right))% và %(\\widehat{M C I}=\\frac{1}{2}\\left(\\frac{1}{2} s \\overparen{d A B}+s \\overparen{d M B}\\right))%.<br>Do đó, %(\\widehat{M I C}=\\widehat{M C I})% nên tam giác %(M I C)% cân tại %(M)%.<br>Suy ra, %(M I=M C.~~~(3))%<br>Từ (1), (2), (3) suy ra %(M N \\cdot M K=M I^{2} \\Rightarrow \\widehat{N I K}=90^{\\circ})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/15a7db35c4d4f1828d7d758e06558f03.png\" srcset=\"https://docdn.giainhanh.io/media/test/41b9657fdb7d9636b2cf2d93035a3748.png 197w, https://docdn.giainhanh.io/media/test/90f32fe5a6f7f7100e8a3e35a3ad19db.png 500w, https://docdn.giainhanh.io/media/test/2df1655f3882f460c8264886253da883.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 5.0,
+        "content": "Cho %(K)% là tập hợp các số tự nhiên có bốn chữ số. Chọn ngẫu nhiên một số từ %(K)%. Tính xác suất để số được chọn có tổng các chữ số là bội của 4.",
+        "question_images": [],
+        "solution": "Ta có: %(|K|=9.10^{3}=9000)%.<br>Gọi %(A)% là tập hợp các số tự nhiên có bốn chữ số mà tồng các chữ số của nó chia hết cho 4.<br>\\[A=\\{\\overline{a b c d} \\in \\mathbb{N}:(a+b+c+d) \\vdots 4\\} \\text {. }\\]<br>Xét %(b+c+d=4 k+r(0 \\leq r \\leq 3))%.<br>Nếu %(r \\in\\{0 ; 1 ; 2\\})% thì mỗi giá trị của %(r)% sẽ có hai giá trị của %(a)% sao cho %((a+b+c+d) \\vdots 4)% (đó là %(a=4-r, a=8-r)% ).<br>Nếu %(r=3)% thì mỗi giá trị của %(r)% sẽ có ba giá trị của %(a)% sao cho %((a+b+c+d) \\vdots 4)% (đó là %(a=1, a=5, a=9)%).<br>Gọi %(B=\\{\\overline{b c d} \\in \\mathbb{N}: 0 \\leq b, c, d \\leq 9, b+c+d=4 k+r, 0 \\leq r \\leq 2\\})%,<br>\\[C=\\{\\overline{b c d} \\in \\mathbb{N}: 0 \\leq b, c, d \\leq 9, b+c+d=4 k+3\\} \\text {. }\\]<br>Khi đó, ta có: %(|A|=2|B|+3|C|=2(|B|+|C|)+|C|=2.10^{3}+|C|)%.<br>Xét tập hợp %(C)% với %(c+d=4 m+n)%.<br>Nếu %(n \\in\\{0 ; 1\\})% thì mỗi giá trị của %(n)% sẽ có hai giá trị của %(b)% sao cho %(b+c+d=4 k+3)%.<br>Nếu %(n \\in\\{2 ; 3\\})% thì mỗi giá trị của %(n)% sẽ có ba giá trị của %(b)% sao cho %(b+c+d=4 k+3)%.<br>Gọi %(D=\\{\\overline{c d} \\in \\mathbb{N}: 0 \\leq c, d \\leq 9, c+d=4 m+n, 0 \\leq n \\leq 1\\})%,<br>\\[E=\\{\\overline{c d} \\in \\mathbb{N}: 0 \\leq c, d \\leq 9, c+d=4 m+n, 2 \\leq n \\leq 3\\} \\text {. }\\]<br>Khi đó, ta có: %(|C|=2|D|+3|E|=2(|D|+|E|)+|E|=2.10^{2}+|E|)%, với %(|E|=25+24=49)%.<br>Suy ra: %(|A|=2.10^{3}+2.10^{2}+49=2249)%.<br>Gọi biến cố %(X)% : \"Số được chọn có tồng các chữ số là bội của 4\".<br>Khi đó, xác suất của biến cố %(X)% là: %(P(X)=\\frac{2249}{9000})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5:",
+        "group_content": "Cho hàm số %(f: \\mathbb{R} \\rightarrow \\mathbb{R})% thỏa %(f(x f(y))+f(f(x)+f(y))=y f(x)+f(x+f(y)))%, với mọi %(x, y \\in \\mathbb{R})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng: \"Nếu tồn tại %(a \\in \\mathbb{R})% sao cho %(f(a) \\neq 0)% thì %(f)% là đơn ánh\".",
+        "question_images": [],
+        "solution": "Lấy %(y_{1}, y_{2} \\in \\mathbb{R})% sao cho %(f\\left(y_{1}\\right)=f\\left(y_{2}\\right)~~~(1))%<br>Thế %(x)% bởi %(a)% và thế %(y)% lần lượt bởi %(y_{1}, y_{2})% ta được:<br>\\[\\begin{array}{l}f\\left(a f\\left(y_{1}\\right)\\right)+f\\left(f(a)+f\\left(y_{1}\\right)\\right)=y_{1} f(a)+f\\left(a+f\\left(y_{1}\\right)\\right)~~~(2) \\f\\left(a f\\left(y_{2}\\right)\\right)+f\\left(f(a)+f\\left(y_{2}\\right)\\right)=y_{2} f(a)+f\\left(a+f\\left(y_{2}\\right)\\right)~~~(3)\\end{array}\\]<br>Từ (1), (2), (3) ta được: %(y_{1} f(a)=y_{2} f(a) \\Rightarrow y_{1}=y_{2})% (vì %(f(a) \\neq 0)% ).<br>Vậy %(f)% là một đơn ánh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 4.0,
+        "content": "b) Tìm tất cả các hàm số %(f)%.",
+        "question_images": [],
+        "solution": "TH1: Nếu %(f(x)=0)% với mọi %(x \\in \\mathbb{R})%. Thử lại ta thấy thỏa mãn.<br>TH2: Nếu tồn tại %(a)% sao cho %(f(a) \\neq 0)%.<br>Thế %(x=0, y=1)% vào đề bài ta được: %(f(0)+f(f(0)+f(1))=f(0)+f(f(1)))%.<br>Vì %(f)% là đơn ánh nên ta được: %(f(0)=0)%.<br>Mặt khác, thế %(y=0)% vào đề bài ta được:<br>\\[f(x f(0))+f(f(x)+f(0))=0 . f(x)+f(x+f(0)), \\forall x \\in \\mathbb{R} \\text {. }\\]<br>Vì %(f(0)=0)% nên %(f(f(x))=f(x), \\forall x \\in \\mathbb{R})% hay %(f(x)=x, \\forall x \\in \\mathbb{R})%.<br>Vậy %(f(x)=0, \\forall x \\in \\mathbb{R})% hoặc %(f(x)=x, \\forall x \\in \\mathbb{R})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 7.0,
+        "content": "Cho dãy số %(\\left(u_{n}\\right))% được xác định như sau: %(\\left\\{\\begin{array}{l}u_{1}=2020 \\\\ u_{n+1}=\\frac{2018 n+2}{2019 n+2}\\left(u_{n}+1\\right), \\forall n=1,2,3, \\ldots\\end{array}\\right.)%Chứng minh rằng dãy số đã cho có giới hạn hữu hạn và tìm giới hạn đó.",
+        "question_images": [],
+        "solution": "Ta có: %(u_{n}\\gt 0, \\forall n=1,2 \\ldots)%<br>Xét hiệu: %(u_{n+1}-u_{n}=\\frac{(2018 n+2)\\left(u_{n}+1\\right)-(2019 n+2) u_{n}}{2019 n+2}=\\frac{2018 n+2-n u_{n}}{2019 n+2})%<br>Ta đi chứng minh: %(2018 n+2-n u_{n}\\lt 0 \\Leftrightarrow n u_{n}>2018 n+2, \\forall n=2,3,4, \\ldots)%<br>Khi %(n=1)%, dễ thấy mệnh đề (*) đúng.<br>Giả sử: %(k u_{k}>2018 k+2, \\forall k=2,3,4, \\ldots)%<br>\\[\\begin{aligned}(k+1) u_{k+1}= & (k+1) \\frac{2018 k+2}{2019 k+2}\\left(u_{k}+1\\right) \\\\& =\\frac{k+1}{2019 k+2}\\left(2018 k u_{k}+2 u_{k}+2018 k+2\\right) \\\\& >\\frac{k+1}{2019 k+2}\\left[2018(2018 k+2)+2 \\frac{2018 k+2}{k}+2018 k+2\\right] \\\\& =\\frac{(k+1)(2018 k+2)}{2019 k+2}\\left(2019+2 \\frac{1}{k}\\right)=\\frac{(k+1)(2018 k+2)}{k}\\end{aligned}\\]<br>\\[=2018 k+2+2018+\\frac{2}{k}\\gt 2018 k+2020, \\forall k=2,3,4, \\ldots\\]<br>Vậy %(u_{n+1}\\lt u_{n}, \\forall n=2,3,4, \\ldots)%<br>Mà %(\\left(u_{n}\\right))% bị chặn dưới nên dãy số đã cho có giới hạn hữu hạn.<br>Gọi %(L=\\lim u_{n})%.<br>Ta có: %(L=\\frac{2018}{2019}(L+1) \\Leftrightarrow L=2018)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 7.0,
+        "content": "Có bao nhiêu số tự nhiên có 2018 chữ số, trong mỗi số đó các chữ số đều lớn hơn 1 và không có hai chữ số khác nhau cùng nhỏ hơn 7 đứng liền nhau?",
+        "question_images": [],
+        "solution": "Xét trường hợp tổng quát với số tự nhiên có %(n)% chữ số, với %(n)% là số nguyên dương.<br>Gọi %(A_{n}, B_{n})% lần lượt là tập các số tự nhiên có %(n)% chữ số thỏa yêu cầu đề bài mà chữ số tận cùng nhỏ hơn 7 và chữ số tận cùng lớn hơn 6.<br>Lấy một phần tử %(a)% thuộc %(A_{n})%, có một cách thêm vào chữ số cuối cho %(a)% (thêm vào bên phải chữ số cuối cùng của %(a)% ) để được một phần tử của %(A_{n+1})% và có 3 cách thêm vào chữ số cuối cho %(a)% để được một phần tử của %(B_{n+1})%.<br>Lấy một phần tử %(b)% thuộc %(B_{n})%, có 5 cách thêm vào chữ số cuối cho %(b)% để được một phần tử của %(A_{n+1})% và có 3 cách thêm vào chữ số cuối cho %(b)% để được một phần tử của %(B_{n+1})%.<br>Khi đó: %(\\left|A_{n+1}\\right|+\\left|B_{n+1}\\right|=4\\left|A_{n}\\right|+8\\left|B_{n}\\right|=4\\left(\\left|A_{n}\\right|+\\left|B_{n}\\right|\\right)+4\\left|B_{n}\\right|)%.<br>%(=4\\left(\\left|A_{n}\\right|+\\left|B_{n}\\right|\\right)+4.3\\left(\\left|A_{n-1}\\right|+\\left|B_{n-1}\\right|\\right)=4\\left(\\left|A_{n}\\right|+\\left|B_{n}\\right|\\right)+12\\left(\\left|A_{n-1}\\right|+\\left|B_{n-1}\\right|\\right), n \\geq 2)%<br>với %(\\left|A_{1}\\right|=5,\\left|B_{1}\\right|=3,\\left|A_{2}\\right|=20,\\left|B_{2}\\right|=24)%<br>Kí hiệu %(x_{n}=\\left|A_{n}\\right|+\\left|B_{n}\\right|)%, ta được: %(x_{n+2}=4 x_{n+1}+12 x_{n})%, trong đó %(x_{1}=8, x_{2}=44)%.<br>Sử dụng sai phân tuyến tính, ta được: %(x_{n}=\\frac{1}{4}\\left[5.6^{n}-(-2)^{n}\\right])%.<br>Áp dụng cho %(n=2018)%, ta có %(\\frac{1}{4}\\left(5.6^{2018}-2^{2018}\\right))% số cần tìm.",
+        "question_type": "essay"
+    }
+]

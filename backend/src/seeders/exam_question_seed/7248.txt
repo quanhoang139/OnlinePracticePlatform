@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(P=\\left(\\frac{\\sqrt{x-2}}{3+\\sqrt{x-2}}+\\frac{x+7}{11-x}\\right):\\left(\\frac{3 \\sqrt{x-2}+1}{x-3 \\sqrt{x-2}-2}-\\frac{1}{\\sqrt{x-2}}\\right))% với %(x \\geq 2 ; x \\neq 11)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Rút gọn biểu thức %(P)%.",
+        "question_images": [],
+        "solution": "Điều kiện xác định: %(x \\geq 2 ; x \\neq 11)%<br>\\[\\begin{array}{l}\\text { Đặt } \\sqrt{x-2}=a, a\\gt 0 ; a \\neq 3 \\P=\\left(\\frac{a}{3+a}+\\frac{a^{2}+9}{9-a^{2}}\\right):\\left(\\frac{3 a+1}{a^{2}-3 a}-\\frac{1}{a}\\right) \\P=\\left[\\frac{a(3-a)}{(3+a)(3-a)}+\\frac{a^{2}+9}{9-a^{2}}\\right]:\\left[\\frac{3 a+1}{a(a-3)}-\\frac{(a-3)}{a(a-3)}\\right] \\P=\\frac{3(a+3)}{(3+a)(3-a)}: \\frac{2(a+2)}{a(a-3)} \\P=-\\frac{3 a}{2(a+2)}\\end{array}\\]<br>Thay %(\\sqrt{x-2}=a)% vào %(P)% ta được: %(P=-\\frac{3 \\sqrt{x-2}}{2(\\sqrt{x-2}+2)})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Tìm các số thực %(x)% đế biểu thức %(P)% đạt giá trị nguyên.",
+        "question_images": [],
+        "solution": "\\[P=\\frac{-3 \\sqrt{x-2}}{2(\\sqrt{x-2}+2)} \\Rightarrow \\sqrt{x-2}(2 P+3)=-4 P\\]<br>%(P)% nguyên nên %(2 P+3 \\neq 0)%.<br>Từ đó %(\\sqrt{x-2}=\\frac{-4 P}{2 P+3})%<br>Do %(\\sqrt{x-2} \\geq 0)% nên %(\\frac{-4 P}{2 P+3} \\geq 0)%<br>Từ đó %(\\frac{-3}{2}\\lt P \\leq 0)%<br>Do %(P)% nguyên nên %(P \\in\\{-1 ; 0\\})%<br>Với %(P=-1)% thì %(\\sqrt{x-2}=4 \\Leftrightarrow x=18)%<br>Với %(P=0)% thì %(\\sqrt{x-2}=0 \\Leftrightarrow x=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.1 ",
+        "point": 2.0,
+        "content": "Tính giá trị của biểu thức %(A=\\left(x^{3}+12 x+9\\right)^{2020})%, biết %(x=\\sqrt[3]{4(\\sqrt{5}-1)}-\\sqrt[3]{4(\\sqrt{5}+1)})%",
+        "question_images": [],
+        "solution": "Ta có %(x=\\sqrt[3]{4(\\sqrt{5}-1)}-\\sqrt[3]{4(\\sqrt{5}+1)})%<br>Xét %(x^{3}=(\\sqrt[3]{4(\\sqrt{5}-1)}-\\sqrt[3]{4(\\sqrt{5}+1)})^{3}=4(\\sqrt{5}-1)-4(\\sqrt{5}+1)-3 \\sqrt[3]{4(\\sqrt{5}-1) \\cdot 4(\\sqrt{5}+1)} \\cdot x)%<br>Hay %(x^{3}=-8-12 x \\Leftrightarrow x^{3}+12 x+8=0 \\Leftrightarrow x^{3}+12 x+9=1)%<br>Vậy %(A=1^{2020}=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.2 ",
+        "point": 2.0,
+        "content": "Giải phưong trình: %(x+24=(x-3) \\sqrt{-x^{2}+8 x+48})%",
+        "question_images": [],
+        "solution": "Điều kiện: %(-x^{2}+8 x+48 \\geq 0)%<br>Với điều kiện trên, phương trình tương đương:<br>\\[\\begin{array}{l}2 x+48-2(x-3) \\sqrt{-x^{2}+8 x+48}=0 \\\\Leftrightarrow x^{2}-6 x+9-2(x-3) \\sqrt{-x^{2}+8 x+48}+\\left(-x^{2}+8 x+48\\right)=9 \\\\Leftrightarrow\\left(x-3-\\sqrt{-x^{2}+8 x+48}\\right)^{2}=9 \\\\Leftrightarrow\\left[\\begin{array} { l } { x - 3 - \\sqrt { - x ^ { 2 } + 8 x + 4 8 } = 3 } \\\\{ x - 3 - \\sqrt { - x ^ { 2 } + 8 x + 4 8 } = 3 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}\\sqrt{-x^{2}+8 x+48}=x-6 \\\\sqrt{-x^{2}+8 x+48}=x\\end{array}\\right.\\right. \\\\end{array}\\]<br>Giải (1)<br>\\[\\begin{aligned}(1) & \\Leftrightarrow\\left\\{\\begin{array} { l } { - x ^ { 2 } + 8 x + 4 8 = x ^ { 2 } - 1 2 x + 3 6 } \\\\{ x \\geq 6 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { - 2 x ^ { 2 } + 2 0 x + 1 2 = 0 } \\\\{ x \\geq 6 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}-2 x^{2}+20 x+12=0 \\x \\geq 6\\end{array}\\right.\\right.\\right. \\\\& \\Leftrightarrow\\left\\{\\begin{array}{l}x=5+\\sqrt{31} \\x=5-\\sqrt{31} \\x \\geq 6\\end{array} \\Leftrightarrow x=5+\\sqrt{31}\\right.\\end{aligned}\\]<br>Giải (2)<br>\\[\\begin{aligned}(2) & \\Leftrightarrow\\left\\{\\begin{array} { l } { - x ^ { 2 } + 8 x + 4 8 = x ^ { 2 } } \\\\{ x \\geq 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}-2 x^{2}+8 x+48=0 \\x \\geq 0\\end{array}\\right.\\right. \\\\& \\Leftrightarrow\\left\\{\\begin{array}{l}x=2+2 \\sqrt{7} \\x=2-2 \\sqrt{7} \\x \\geq 0\\end{array} \\Leftrightarrow x=2+2 \\sqrt{7}\\right.\\end{aligned}\\]<br>Vậy tập nghiệm của phương trình là: %(S=\\{5+\\sqrt{31} \\cdot 2+2 \\sqrt{7}\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.1 ",
+        "point": 2.0,
+        "content": "Cho ba số thực %(a, b, c)% khác 0 thoả mãn %(\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}=2)%. Chứng minh rằng %(\\frac{a^{2}}{b+c}+\\frac{b^{2}}{c+a}+\\frac{c^{2}}{a+b}=a+b+c)%",
+        "question_images": [],
+        "solution": "Ta có: %(\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}=2\\left({ }^{*}\\right))%.<br>Nhân hai vế của (*) với số %(a)% khác 0 ta được: %(\\frac{a^{2}}{b+c}+\\frac{a b}{c+a}+\\frac{a c}{a+b}=2 a)%<br>Nhân hai vế của (*) với số %(b)% khác 0 ta được: %(\\frac{a b}{b+c}+\\frac{b^{2}}{c+a}+\\frac{b c}{a+b}=2 b)%<br>Nhân hai vế của (*) với số %(c)% khác 0 ta được: %(\\frac{a c}{b+c}+\\frac{b c}{c+a}+\\frac{c^{2}}{a+b}=2 c)%<br>Cộng từng vế ba đẳng thức trên ta được:<br>\\[\\begin{array}{l}\\frac{a^{2}}{b+c}+\\frac{a b}{c+a}+\\frac{a c}{a+b}+\\frac{a b}{b+c}+\\frac{b^{2}}{c+a}+\\frac{b c}{a+b}+\\frac{a c}{b+c}+\\frac{b c}{c+a}+\\frac{c^{2}}{a+b}=2 a+2 b+2 c \\\\Leftrightarrow\\left(\\frac{a^{2}}{b+c}+\\frac{b^{2}}{c+a}+\\frac{c^{2}}{a+b}\\right)+\\left(\\frac{a b}{c+a}+\\frac{b c}{c+a}\\right)+\\left(\\frac{a c}{a+b}+\\frac{b c}{a+b}\\right)+\\left(\\frac{a b}{b+c}+\\frac{a c}{b+c}\\right)=2(a+b \\\\Leftrightarrow\\left(\\frac{a^{2}}{b+c}+\\frac{b^{2}}{c+a}+\\frac{c^{2}}{a+b}\\right)+b\\left(\\frac{a+c}{c+a}\\right)+c\\left(\\frac{a+b}{a+b}\\right)+a\\left(\\frac{b+c}{b+c}\\right)=2(a+b+c) \\\\Leftrightarrow\\left(\\frac{a^{2}}{b+c}+\\frac{b^{2}}{c+a}+\\frac{c^{2}}{a+b}\\right)+(a+b+c)=2(a+b+c) \\\\Leftrightarrow \\frac{a^{2}}{b+c}+\\frac{b^{2}}{c+a}+\\frac{c^{2}}{a+b}=a+b+c\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.2 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các cặp số nguyên %((x, y))% thỏa mãn %(x^{3}+y^{3}=x^{2}-x+1)%.",
+        "question_images": [],
+        "solution": "\\[x^{3}+y^{3}=x^{2}-x+1 \\Leftrightarrow y^{3}=-x^{3}+x^{2}-x+1\\]<br>Trong khoảng %((0 ; 1))% không có số nguyên nào nên %(x^{2}-x=x(x-1)\\gt 0, \\forall x \\in \\mathbb{Z} \\backslash\\{0 ; 1\\})%<br>\\[\\Rightarrow x^{2}-x \\geq 0, \\forall x \\in \\mathbb{Z}\\]<br>Do đó, %((-x)^{3}\\lt -x^{3}+x^{2}-x+1)%Và %(-x^{3}+x^{2}-x+1 \\leq-x^{3}+x^{2}-x+1+2\\left(x^{2}-x\\right))%<br>\\[\\Leftrightarrow-x^{3}+x^{2}-x+1 \\leq(-x+1)^{3}\\]<br>Vậy %((-x)^{3}\\lt -x^{3}+x^{2}-x+1 \\leq(-x+1)^{3})%Từ đó %((-x)^{3}\\lt y^{3} \\leq(-x+1)^{3})%Nếu %((x, y))% là nghiệm nguyên của phương trình đã cho thì:<br>\\[\\left\\{\\begin{array}{l}y^{3}=(-x+1)^{3} \\x \\in\\{0 ; 1\\}\\end{array} \\Leftrightarrow(x ; y) \\in\\{(x=1 ; y=0),(x=0 ; y=1)\\}\\right.\\]<br>Vậy các cặp số nguyên thỏa mãn đề bài là: %((x=1 ; y=0),(x=0 ; y=1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho điểm %(M)% là trung điểm của đoạn thẳng %(B C)%. Điểm %(A)% thay đổi sao cho %(\\widehat{B A C}=60^{\\circ})%. Đường phân giác trong của góc %(A)% cắt %(B C)% tại %(D)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh %(S_{A B C}=\\frac{1}{2} A B \\cdot A C \\cdot \\sin A)%, trong đó %(S_{A B C})% là diện tích tam giác %(A B C)%.",
+        "question_images": [],
+        "solution": "Kẻ đường cao %(B K)% của %(A B C)%<br>\\[S_{A B C}=\\frac{1}{2} B K . A C\\]<br>Trong tam giác vuông %(B K A)%,<br>\\[\\sin A=\\frac{B K}{A B} \\Rightarrow B K=A B \\cdot \\sin A\\]<br>Suy ra %(S_{A B C}=\\frac{1}{2} A B \\cdot A C \\cdot \\sin A)%<br><img alt=\"https://docdn.giainhanh.io/media/test/846121a4ec3ef1bfd41e116f130a5331.png\" src=\"https://docdn.giainhanh.io/media/test/846121a4ec3ef1bfd41e116f130a5331.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b)  Chứng minh %(A M^{2}=\\frac{A B^{2}+A C^{2}}{2}-\\frac{B C^{2}}{4})%",
+        "question_images": [],
+        "solution": "Kẻ đường cao %(A H)% của tam giác %(A B C)%<br>\\[\\begin{aligned}A M^{2}=A H^{2}+H M^{2} & =A B^{2}-B H^{2}+H M^{2} \\\\& =A B^{2}+(H M+H B)(H M-H B) \\\\& =A B^{2}+M B \\cdot(H M-H B) \\\\& =A B^{2}+\\frac{B C}{2} \\cdot(H M-H B)\\end{aligned}\\]<br>\\[\\begin{aligned}A M^{2}=A H^{2}+H M^{2} & =A C^{2}-C H^{2}+H M^{2} \\\\& =A C^{2}-(H M+C H)(C H-H M) \\\\& =A C^{2}-M C \\cdot(C H-H M) \\\\& =A C^{2}-\\frac{B C}{2} \\cdot(C H-H M)\\end{aligned}\\]<br>Lấy %((1)+(2))% ta được: %(2 A M^{2}=A B^{2}+\\frac{B C}{2} \\cdot(H M-H B)+A C^{2}-\\frac{B C}{2} \\cdot(C H-H M))%<br>\\[2 A M^{2}=A B^{2}+A C^{2}+\\frac{B C}{2} \\cdot(H M-H B-C H+H M)\\]<br>\\[2 A M^{2}=A B^{2}+A C^{2}-\\frac{B C^{2}}{2}\\]<br>Suy ra %(A M^{2}=\\frac{A B^{2}+A C^{2}}{2}-\\frac{B C^{2}}{4})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Chứng minh rằng: %(\\frac{1}{A B^{2}}+\\frac{1}{A C^{2}} \\geq \\frac{3}{2 A D^{2}})%",
+        "question_images": [],
+        "solution": "Sử dụng kết quả của câu a) ta có:%(S_{A B D}=\\frac{1}{2} A B \\cdot A D \\cdot \\sin 30^{\\circ}=\\frac{1}{4} \\cdot A B \\cdot A D)%<br>%(S_{A C D}=\\frac{1}{2} A C \\cdot A D \\cdot \\sin 30^{\\circ}=\\frac{1}{4} \\cdot A C \\cdot A D)%<br>%(S_{A B C}=\\frac{1}{2} A B \\cdot A C \\cdot \\sin 60^{\\circ}=\\frac{\\sqrt{3}}{4} \\cdot A B \\cdot A D)%<br>Mà %(S_{A B D}+S_{A C D}=S_{A B C})%Nên %(\\frac{1}{4} \\cdot A B \\cdot A D+\\frac{1}{4} \\cdot A C \\cdot A D=\\frac{\\sqrt{3}}{4} \\cdot A B \\cdot A C)%<br>%(\\Leftrightarrow A D(A B+A C)=\\sqrt{3} \\cdot A B \\cdot A C)%<br>%(\\Leftrightarrow \\frac{1}{A B}+\\frac{1}{A C}=\\frac{\\sqrt{3}}{A D})%<br>Áp dụng bất đẳng thức Bunhiacopxki ta có:<br>%(\\frac{1}{A B}+\\frac{1}{A C} \\leq \\sqrt{2 .\\left(\\frac{1}{A B^{2}}+\\frac{1}{A C^{2}}\\right)})%<br>Từ đó %(\\frac{\\sqrt{3}}{A D} \\leq \\sqrt{2 .\\left(\\frac{1}{A B^{2}}+\\frac{1}{A C^{2}}\\right)})%<br>Suy ra %(\\frac{1}{A B^{2}}+\\frac{1}{A C^{2}} \\geq \\frac{3}{2 A D^{2}})%<br>Dấu bằng xảy ra khi %(A B=A C)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5.1 ",
+        "point": 1.0,
+        "content": "Cho các số dương %(a, b, c)% thỏa mãn %(a+b+c=\\frac{3}{2})%. Chứng minh rằng %(a^{2}+b^{2}+c^{2}+2 a b c \\geq 1)%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\left.a^{2}+b^{2}+c^{2}+2 a b c \\geq 1 \\Leftrightarrow a^{2}+b^{2}+c^{2}+2 a b c-1 \\geq 0 \\quad{ }^{*}\\right))%<br>Do đó: %(a+b+c=\\frac{3}{2} \\Leftrightarrow a+b=\\frac{3}{2}-c)%Nên %(a^{2}+b^{2}+c^{2}+2 a b c-1=(a+b)^{2}-2 a b+c^{2}+2 a b c-1)%<br>\\[=\\left(\\frac{3}{2}-c\\right)^{2}-2 a b+c^{2}+2 a b c-1=2 a b(c-1)+2 c^{2}-3 c+\\frac{5}{4}\\]<br>Do vai trò của %(a, b, c)% như nhau nên không mất tính tổng quát ta có thể giả sử %(c \\leq b \\leq a)%. Mà %(a+b+c=\\frac{3}{2} \\Rightarrow c \\leq \\frac{1}{2})%<br>Xét hàm số bậc nhất biến %(t)% là:%(f(t)=2 t(c-1)+2 c^{2}-3 c+\\frac{5}{4})%, với %(t=a b)% và %(0\\lt t=a b \\leq \\frac{(a+b)^{2}}{4}=\\frac{\\left(\\frac{3}{2}-c\\right)^{2}}{4})%<br>Ta có %(f(0)=2 c^{2}-3 c+\\frac{5}{4}=2\\left(c^{2}-\\frac{3}{2} c+\\frac{9}{16}\\right)+\\frac{1}{8}=2\\left(c-\\frac{3}{4}\\right)^{2}+\\frac{1}{8}\\gt 0, \\forall c)%<br>%(f\\left(\\frac{\\left(\\frac{3}{2}-c\\right)^{2}}{4}\\right)=2 \\cdot \\frac{\\left(\\frac{3}{2}-c\\right)^{2}}{4} \\cdot(c-1)+2 c^{2}-3 c+\\frac{5}{4}=\\frac{\\left(\\frac{1}{2}-c\\right)^{2}(c+1)}{2} \\geq 0, \\forall c)%<br>Từ đó ta có %(f(t) \\geq 0)% với mọi %(0\\lt t \\leq \\frac{\\left(\\frac{3}{2}-c\\right)^{2}}{4})%, tức là bất đẳng thức (*) đúng.<br>Đẳng thức xảy ra khi %(\\left\\{\\begin{array}{l}a=b \\\\ a b=\\frac{\\left(\\frac{3}{2}-c\\right)^{2}}{4} \\\\ \\frac{\\left(c-\\frac{1}{2}\\right)^{2} \\cdot(c+1)}{41!148}=0\\end{array} \\Leftrightarrow a=b=c=\\frac{1}{2}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5.2 ",
+        "point": 1.0,
+        "content": "Trên bảng có ghi 2020 số: %(\\frac{1}{2020} ; \\frac{2}{2020} ; \\frac{3}{2020} ; \\ldots ; \\frac{2020}{2020})%. Mỗi lần thực hiện, cho phép xóa đi hai số %(a, b)% bất kỳ trên bảng và thay bằng số %(a+b-2 a b)%. Hỏi sau 2019 lần thực hiện phép xóa, số còn lại trên bảng là số nào?",
+        "question_images": [],
+        "solution": "Trên bảng có ghi 2020 số: %(\\frac{1}{2020} ; \\frac{2}{2020} ; \\frac{3}{2020} ; \\ldots ; \\frac{2020}{2020})%. Mỗi lần thực hiện, cho phép xóa đi hai số %(a, b)% bất kỳ trên bảng và thay bằng số %(a+b-2 a b)%. Hỏi sau 2019 lần thực hiện phép xóa, số còn lại trên bảng là số nào?Giả sử các số trên bảng đang là %(a_{1}, a_{2}, \\ldots, a_{k})%. Ta cho tương ứng bảng này với tích %(\\left(2 a_{1}-1\\right)\\left(2 a_{2}-1\\right) \\ldots\\left(2 a_{k}-1\\right))%Sau mỗi lần biến đổi, tích trên bị mất đi hai thừa số %((2 a-1)(2 b-1))% nhưng lại được thêm vào thừa số %(2(a+b-2 a b)-1=-(2 a-1)(2 b-1))%Do đó, tích trên có giá trị tuyệt đối không thay đổi, chỉ đổi dấu.<br>Vì tích ban đầu bằng 0 (do có chứa thừa số %(\\left(2 \\cdot \\frac{1010}{2020}-1\\right))% nên số cuối cùng %(s)% cũng phải có tích bằng 0 nghĩa là tích cuối cùng bằng %(2 s-1=0 \\Leftrightarrow s=\\frac{1}{2})%",
+        "question_type": "essay"
+    }
+]

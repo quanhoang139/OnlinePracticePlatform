@@ -1,0 +1,208 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 0.25,
+        "content": "Số cách chọn 1 quyển sách là: %(5+6+8=19)%. Một lớp có 23 học sinh nữ và 17 học sinh nam. Hỏi có bao nhiêu cách chọn một học sinh tham gia cuộc thi tìm hiểu môi trường?",
+        "question_images": [],
+        "labelA": "23.",
+        "labelB": "17.",
+        "labelC": "40.",
+        "labelD": "391.",
+        "correct_label": "labelC",
+        "solution": "Chọn C<br>Theo quy tắc cộng, có %(23+17=40)% cách chọn một học sinh tham gia cuộc thi tìm hiểu môi trường.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 0.25,
+        "content": "Một lớp có 23 học sinh nữ và 17 học sinh nam. Hỏi có bao nhiêu cách chọn hai học sinh tham gia hội trại với điều kiện có cả nam và nữ?",
+        "question_images": [],
+        "labelA": "40 .",
+        "labelB": "391 .",
+        "labelC": "780 .",
+        "labelD": "1560 .",
+        "correct_label": "labelB",
+        "solution": "Chọn B<br>Giai đoạn 1: Chọn một học sinh nữ: có 23 cách chọn.<br>Giai đoạn 2: Chọn một học sinh nam: có 17 cách chọn.<br>Theo quy tắc nhân có 23.17 = 391 cách chọn thỏa mãn.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 0.25,
+        "content": "Từ các chữ số %(0,1,2,3,4,5)% có thể lập được bao nhiêu số có ba chữ khác nhau và chia hết cho 3 ?",
+        "question_images": [],
+        "labelA": "36 .",
+        "labelB": "42 .",
+        "labelC": "82944 .",
+        "labelD": "72 .",
+        "correct_label": "labelA",
+        "solution": "Chọn A<br>Số tự nhiên gồm ba chữ số có dạng %(\\overline{a b c})%.<br>Ta có %(\\overline{a b c} \\vdots 3 \\Leftrightarrow(a+b+c) \\vdots \\quad(*))%.<br>Trong %(E)% có các bộ số thỏa mãn %(\\left(^{*}\\right))% là: %((0 ; 1 ; 2),(0 ; 1 ; 5),(0 ; 2 ; 4),(1 ; 2 ; 3),(1 ; 3 ; 5),(2 ; 3 ; 4),(3 ; 4 ; 5))%.<br>Có bốn bộ số không chứa chữ số 0 . Mỗi bộ đều có thể viết được %(3 \\times 2 \\times 1=6)% số tự nhiên thỏa mãn.<br>Có ba bộ số có chứa chữ số 0 . Mỗi số đều có thể viết được %(2 \\times 2 \\times 1=4)% số tự nhiên thỏa mãn.<br>Vậy ta có: %(6 \\times 4+4 \\times 3=36)% số tự nhiên có ba chữ số và chia hết cho 3 .",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 0.25,
+        "content": "Từ các số thuộc tập %(A=\\{1 ; 2 ; 3 ; 4 ; 5 ; 6 ; 7\\})% có thể lập được bao nhiêu số tự nhiên có bốn chữ số khác nhau và chia hết cho 5 ?",
+        "question_images": [],
+        "labelA": "360 .",
+        "labelB": "120 .",
+        "labelC": "480 .",
+        "labelD": "347 .",
+        "correct_label": "labelB",
+        "solution": "Chọn B<br>Số tự nhiên cần lập có dạng %(\\overline{a b c d})%.<br>Số này chia hết cho 5 nên %(d=5)%, ta có 1 cách chọn %(d)%.<br>Chọn 3 trong 6 chữ số còn lại sắp xếp vào các vị trí %(a, b, c)% : có %(A_{6}^{3})% (cách).<br>Vậy có tất cả %(1 \\cdot A_{6}^{3}=120)% số thỏa mãn.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 0.25,
+        "content": "Có bao nhiêu cách chọn và sắp xếp thứ tự 5 cầu thủ để đá luân lưu 11 mét? (Biết rằng 11 cầu thủ có khả năng được đá luân lưu như nhau).",
+        "question_images": [],
+        "labelA": "55440 .",
+        "labelB": "20680 .",
+        "labelC": "32456 .",
+        "labelD": "41380 .",
+        "correct_label": "labelA",
+        "solution": "Chọn A<br>Số cách chọn 5 cầu thủ từ 11 cầu thủ để sắp xếp đá luân lưu là %(A_{11}^{5}=55440)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 0.25,
+        "content": "Số hạng không chứa %(x)% trong khai triển nhị thức Newton của %(\\left(\\sqrt{x}+\\frac{3}{x}\\right)^{3})% là:",
+        "question_images": [],
+        "labelA": "4 .",
+        "labelB": "9 .",
+        "labelC": "6 .",
+        "labelD": "-4 .",
+        "correct_label": "labelB",
+        "solution": "Chọn B<br>Ta có: %(\\left(\\sqrt{x}+\\frac{3}{x}\\right)^{3}=C_{3}^{0}(\\sqrt{x})^{3}+C_{3}^{1}(\\sqrt{x})^{2} \\cdot \\frac{3}{x}+C_{3}^{2}(\\sqrt{x}) \\cdot\\left(\\frac{3}{x}\\right)^{2}+C_{3}^{3}\\left(\\frac{3}{x}\\right)^{3})%.<br>Số hạng không chứa %(x)% là %(C_{3}^{1}(\\sqrt{x})^{2} \\cdot \\frac{3}{x}=9)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 0.25,
+        "content": "Vectơ %(\\vec{a}=(-4 ; 0))% được phân tích theo hai vectơ đơn vị như thế nào?",
+        "question_images": [],
+        "labelA": "%(\\vec{a}=-4 \\vec{i}+\\vec{j})%.",
+        "labelB": "%(\\vec{a}=-\\vec{i}+4 \\vec{j})%.",
+        "labelC": "%(\\vec{a}=-4 \\vec{j})%.",
+        "labelD": "%(\\vec{a}=-4 \\vec{i})%.",
+        "correct_label": "labelD",
+        "solution": "Chọn D<br>Ta có: %(\\vec{a}=(-4 ; 0) \\Rightarrow \\vec{a}=-4 \\vec{i}+0 \\vec{j}=-4 \\vec{i})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 0.25,
+        "content": "Mệnh đề nào sau đây đúng?",
+        "question_images": [],
+        "labelA": "Hai vectơ %(\\vec{u}=(2 ;-1))% và %(\\vec{v}=(-1 ; 2))% đối nhau.",
+        "labelB": "Hai vectơ %(\\vec{u}=(2 ;-1))% và %(\\vec{v}=(-2 ;-1))% đối nhau.",
+        "labelC": "Hai vectơ %(\\vec{u}=(2 ;-1))% và %(\\vec{v}=(-2 ; 1))% đối nhau.",
+        "labelD": "Hai vectơ %(\\vec{u}=(2 ;-1))% và %(\\vec{v}=(2 ; 1))% đối nhau.",
+        "correct_label": "labelC",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 9: ",
+        "point": 0.25,
+        "content": "Cho tam giác %(A B C)% có trọng tâm là gốc tọa độ %(O)%, hai đỉnh %(A)% và %(B)% có tọa độ là %(A(-2 ; 2) ; B(3 ; 5))%. Tọa độ của đỉnh %(C)% là:",
+        "question_images": [],
+        "labelA": "%((1 ; 7))%.",
+        "labelB": "%((-1 ;-7))%.",
+        "labelC": "%((-3 ;-5))%.",
+        "labelD": "%((2 ;-2))%.",
+        "correct_label": "labelB",
+        "solution": "Ta có: %(\\left\\{\\begin{array}{l}x_{O}=\\frac{x_{A}+x_{B}+x_{C}}{3} \\\\ y_{O}=\\frac{y_{A}+y_{B}+y_{C}}{3}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}0=\\frac{-2+3+x_{C}}{3} \\\\ 0=\\frac{2+5+y_{C}}{3}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x_{C}=-1 \\\\ y_{C}=-7\\end{array}\\right.\\right.\\right.)%. Vậy %(C(-1 ;-7))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 10: ",
+        "point": 0.25,
+        "content": "Cho hai điểm %(A(1 ; 0))% và %(B(0 ;-2))%. Tọa độ điểm %(D)% sao cho %(\\overrightarrow{A D}=-3 \\overrightarrow{A B})% là:",
+        "question_images": [],
+        "labelA": "%((4 ;-6))%.",
+        "labelB": "%((2 ; 0))%.",
+        "labelC": "%((0 ; 4))%.",
+        "labelD": "%((4 ; 6))%.",
+        "correct_label": "labelD",
+        "solution": "Chọn DTa có: %(\\overrightarrow{A D}=-3 \\overrightarrow{A B} \\Leftrightarrow\\left\\{\\begin{array}{l}x_{D}-x_{A}=-3\\left(x_{B}-x_{A}\\right) \\\\ y_{D}-y_{A}=-3\\left(y_{B}-y_{A}\\right)\\end{array}\\right.)%<br>\\[\\Leftrightarrow\\left\\{\\begin{array} { l } { x _ { D } - 1 = - 3 ( 0 - 1 ) } \\\\{ y _ { D } - 0 = - 3 ( - 2 - 0 ) }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x_{D}=4 \\y_{D}=6\\end{array} \\text {. Vậy } D(4 ; 6) .\\right.\\right.\\]",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 11: ",
+        "point": 0.25,
+        "content": "Trong mặt phẳng toạ độ %(O x y)%, cho đường thẳng %(d:\\left\\{\\begin{array}{l}x=-2 t \\\\ y=4+t\\end{array}\\right.)%. Trong các vectơ sau, vectơ nào là vectơ pháp tuyến của %(d)% ?",
+        "question_images": [],
+        "labelA": "%(\\vec{u}=(-2 ; 1))%.",
+        "labelB": "%(\\vec{v}=(2 ;-1))%.",
+        "labelC": "%(\\vec{m}=(1 ;-2))%.",
+        "labelD": "%(\\vec{n}=(1 ; 2))%.",
+        "correct_label": "labelD",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 12: ",
+        "point": 0.25,
+        "content": "Trong mặt phẳng toạ độ %(O x y)%, cho điểm %(M)% và đường thẳng %(\\Delta)% như hình bên. Gọi %(H)% là hình chiếu của %(M)% lên đường thẳng %(\\Delta)%. Độ dài đoạn %(M H)% là",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/be761617c2ec6750101620f1014852d3.png"
+        ],
+        "labelA": "2.",
+        "labelB": "4.",
+        "labelC": "%(2 \\sqrt{5})%.",
+        "labelD": "10.",
+        "correct_label": "labelA",
+        "solution": "Ta có %(M(2 ; 4))%, phương trình tổng quát của đường thẳng %(\\Delta)% là %(3 x+4 y-12=0)%.<br>Độ dài đoạn %(M H)% là %(M H=d(M ; \\Delta)=\\frac{|3 \\cdot 2+4 \\cdot 4-12|}{\\sqrt{3^{2}+4^{2}}}=2)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 17: ",
+        "point": 0.5,
+        "content": "Có bao nhiêu số tự nhiên có năm chữ số, sao cho mỗi số đó, chữ số đứng sau lớn hơn chữ số chữ số đứng trước?",
+        "question_images": [],
+        "solution": "Vì chữ số đầu tiên của số tự nhiên phải khác 0 , các chư số đứng sau lớn hơn chư số đứng trước nên số 0 không thể xuất hiện trong số tự nhiên cần lập.<br>Xét dãy các số đã được sắp thứ tự là 1,2,3,4,5,6,7,8,9 .<br>Mỗi cách lấy 5 chữ số từ 9 chữ số này (không thay đổi thứ tự) sẽ cho ra số tự nhiên thỏa mãn đề bài, vậy ta có %(C_{9}^{5}=126)% số tự nhiên thỏa mãn.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 18: ",
+        "point": 0.5,
+        "content": "Hỏi có bao nhiêu cách chọn ra một bộ ba số %((a ; b ; c))% phân biệt từ tập hợp %(X=\\{1 ; 2 ; 3 ; \\ldots ; 20\\})% mà %(a^{2}+b^{2}+c^{2})% chia hết cho 5 ?",
+        "question_images": [],
+        "solution": "Chú ý rằng với mọi số nguyên %(a)% thì %(a^{2})% chia cho 5 có số dư là %(0,1,4)%. Ta phân tập %(X)% thành ba tập con<br>+ %(A=\\{5 ; 10 ; 15 ; 20\\})% (tập gồm các số chia hết cho 5 ),<br>+ %(B=\\{1 ; 4 ; 6 ; 9 ; 11 ; 14 ; 16 ; 19\\})% (tập các số mà bình phương của nó chia 5 dư 1)<br>%(+B=\\{2 ; 3 ; 7 ; 8 ; 12 ; 13 ; 17 ; 18\\})% (tập các số mà bình phương của nó chia 5 dư 4 )<br>Vậy tập %(A)% có 4 phần tử, tập %(B)% có 8 phần tử và tập %(C)% có 8 phần tử.Để %(a^{2}+b^{2}+c^{2})% chia hết cho 5 thì<br><strong>Trường hợp 1</strong>. %(a, b, c \\in A)%, suy ra có %(A_{4}^{3})% bộ ba %((a ; b ; c))% thỏa yêu cầu.<br><strong>Trường hợp 2.</strong> Có đúng một trong ba số %(a, b, c)% thuộc %(A)%, một số thuộc %(B)% và một số thuộc %(C)%, suy ra có %(3 ! \\times C_{4}^{1} \\times C_{8}^{1} \\times C_{8}^{1})% bộ ba %((a ; b ; c))% thỏa yêu cầu.<br>Vậy có %(A_{4}^{3}+3 ! \\times C_{4}^{1} \\times C_{8}^{1} \\times C_{8}^{1}=1560)% bộ ba thỏa yêu cầu.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 19: ",
+        "point": 0.5,
+        "content": "Tìm hệ số %(x^{2})% trong khai triển %((x+1)^{2}+(x+1)^{3}+(x+1)^{4}+(x+1)^{5})%",
+        "question_images": [],
+        "solution": "Hệ số của %(x^{2})% trong khai triển chính là tổng các hệ số của %(x^{2})% trong các khai triển thành phần.<br>Vậy hệ số của %(x^{2})% trong khai triển trên là %(C_{2}^{0}+C_{3}^{1}+C_{4}^{2}+C_{5}^{3}=20)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 20: ",
+        "point": 0.5,
+        "content": "Cho tam giác %(A B C)% có các đỉnh %(A(1 ; 1), B(2 ; 4), C(10 ;-2))%. Tính diện tích tam giác %(A B C)%",
+        "question_images": [],
+        "solution": "Ta có: %(\\overrightarrow{A B}=(1 ; 3), \\overrightarrow{A C}=(9 ;-3), \\overrightarrow{A B} \\cdot \\overrightarrow{A C}=1.9+3(-3)=0 \\Rightarrow \\overrightarrow{A B} \\perp \\overrightarrow{A C})%.<br>Vậy tam giác %(A B C)% vuông tại %(A)%.Ta có: %(A B=\\sqrt{1^{2}+3^{2}}=\\sqrt{10}, A C=\\sqrt{9^{2}+(-3)^{2}}=3 \\sqrt{10})%;<br>Diện tích tam giác %(A B C: S_{\\triangle A B C}=\\frac{1}{2} A B \\cdot A C=\\frac{1}{2} \\cdot \\sqrt{10} \\cdot 3 \\sqrt{10}=\\frac{3}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 21: ",
+        "point": 0.5,
+        "content": "Trên mặt phẳng tọa độ %(O x y)%, cho tam giác %(A B C)% có tọa độ các đỉnh là %(A(2 ; 3), B(5 ; 0))% và %(C(-1 ; 0))%. Điểm %(M(a ; b))% thuộc cạnh %(B C)% thỏa mãn diện tích tam giác %(M A B)% bằng hai lần diện tích tam giác %(M A C)%. Tính %(a^{3}+b^{3})%.",
+        "question_images": [],
+        "solution": "Ta có %(S_{\\triangle A B M}=\\frac{1}{2} d(A, B M) \\cdot B M, S_{\\triangle A C M}=\\frac{1}{2} d(A, C M) \\cdot C M)%.<br>Theo đề bài, diện tích tam giác %(M A B)% bằng hai lần diện tích tam giác %(M A C)% %(\\Rightarrow \\frac{1}{2} d(A, B M) \\cdot B M=2 \\cdot \\frac{1}{2} d(A, C M) \\cdot C M)%.<br>Mà %(d(A, B M)=d(A, C M)=d(A, B C))% nên ta có %(B M=2 C M)%.<br>%(M(a ; b))% thuộc cạnh %(B C \\Rightarrow \\overrightarrow{B M}=\\frac{2}{3} \\overrightarrow{B C})%.<br>Ta có %(\\overrightarrow{B M}=(a-5 ; b), \\overrightarrow{B C}=(-6 ; 0))%.<br>\\[\\overrightarrow{B M}=\\frac{2}{3} \\overrightarrow{B C} \\Leftrightarrow\\left\\{\\begin{array} { l } { a - 5 = \\frac { 2 } { 3 } ( - 6 ) } \\\\{ b = \\frac { 2 } { 3 } . 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}a=1 \\b=0\\end{array} .\\right.\\right.\\]<br>Vậy %(M(1 ; 0))%. Khi đó %(a^{3}+b^{3}=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 22: ",
+        "point": 0.5,
+        "content": "Viết phương trình đường thẳng %(\\Delta)% đi qua %(M)% và cách đều các điểm %(P, Q)% với %(M(2 ; 5), P(-1 ; 2), Q(5 ; 4))%",
+        "question_images": [],
+        "solution": "Gọi %(\\vec{n}=(a ; b))% là vectơ pháp tuyến của đường thẳng %(\\Delta)% cần tìm.<br>%(\\Delta)% qua %(M(2 ; 5) \\Rightarrow \\Delta: a(x-2)+b(y-5)=0 \\Rightarrow \\Delta: a x+b y-2 a-5 b=0)%.<br>Ta có: %(d(P, d)=d(Q, d) \\Leftrightarrow \\frac{|-a+2 b-2 a-5 b|}{\\sqrt{a^{2}+b^{2}}}=\\frac{|5 a+4 b-2 a-5 b|}{\\sqrt{a^{2}+b^{2}}})%<br>\\[\\Leftrightarrow|-3 a-3 b|=|3 a-b| \\Leftrightarrow\\left[\\begin{array} { l } { - 3 a - 3 b = 3 a - b } \\\\{ - 3 a - 3 b = - 3 a + b }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}3 a=-b \\b=0\\end{array} .\\right.\\right.\\]<br>Với %(3 a=-b ;)% chọn %(a=1 \\Rightarrow b=-3 \\Rightarrow d: x-3 y+13=0)%.<br>Với %(b=0)%; chọn %(a=1 \\Rightarrow d: x=2)%.<br>Vậy có hai phương trình đường thẳng thỏa mãn đề bài: %(d: x-3 y+13=0)% hay %(d: x=2)%.",
+        "question_type": "essay"
+    }
+]

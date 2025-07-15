@@ -1,0 +1,49 @@
+.exam-filter-container {
+
+    padding-bottom: 10px;
+    border-radius: 8px; /* Bo góc container */
+   
+  }
+  
+  .search-wrapper {
+    display: flex;
+    align-items: center;
+    width: 250px; /* Tăng chiều rộng ô tìm kiếm */
+  }
+  
+  .search-input {
+    border-radius: 6px 0 0 6px; /* Bo góc trái */
+    border-right: none; /* Bỏ viền phải để nối với nút */
+    height: 38px; /* Đồng bộ chiều cao với nút */
+  }
+  
+  .search-button {
+    border-radius: 0 6px 6px 0; /* Bo góc phải */
+    height: 38px; /* Đồng bộ chiều cao với input */
+    background-color: #1890ff; /* Màu xanh mặc định của Ant Design */
+    border: none;
+  }
+  
+  .search-button:hover {
+    background-color: #40a9ff; /* Màu xanh sáng hơn khi hover */
+  }
+  
+  .filter-select {
+    width: 160px; /* Tăng nhẹ chiều rộng select */
+    height: 38px; /* Đồng bộ chiều cao */
+  }
+  
+  .filter-select .ant-select-selector {
+    border-radius: 6px !important; /* Bo góc select */
+    height: 38px !important; /* Đảm bảo chiều cao đồng bộ */
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style cho phần mô tả filter (nếu bật lại) */
+  .filter-description {
+    margin-top: 10px;
+    font-style: italic;
+    color: #888;
+    font-size: 14px;
+  }

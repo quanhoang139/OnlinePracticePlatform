@@ -1,0 +1,88 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Cho k là số nguyên dương bất kì. CMR: %(\\frac{1}{(\\mathrm{k}+1) \\sqrt{\\mathrm{k}}}\\lt 2\\left(\\frac{1}{\\sqrt{\\mathrm{k}}}-\\frac{1}{\\sqrt{\\mathrm{k}+1}}\\right))%",
+        "question_images": [],
+        "solution": "Bđt %(\\Leftrightarrow \\frac{1}{(\\mathrm{k}+1) \\sqrt{\\mathrm{k}}}\\lt \\frac{2 \\sqrt{\\mathrm{k}+1}-2 \\sqrt{\\mathrm{k}}}{\\sqrt{\\mathrm{k}} \\cdot \\sqrt{\\mathrm{k}+1}})%<br>\\[\\Leftrightarrow 2 \\mathrm{k}+1-2 \\sqrt{\\mathrm{k}(\\mathrm{k}+1)}\\gt 0\\]<br>\\[\\Leftrightarrow(\\sqrt{\\mathrm{k}+1}-\\sqrt{\\mathrm{k}})^{2}>0\\]<br>Luôn đúng với mọi k nguyên dương.<br>\\[\\Rightarrow \\frac{1}{(\\mathrm{k}+1) \\sqrt{\\mathrm{k}}}\\lt 2\\left(\\frac{1}{\\sqrt{\\mathrm{k}}}-\\frac{1}{\\sqrt{\\mathrm{k}+1}}\\right)\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng: %(\\frac{1}{2}+\\frac{1}{3 \\sqrt{2}}+\\frac{1}{4 \\sqrt{3}}+\\cdots+\\frac{1}{2010 \\sqrt{2009}}\\lt \\frac{88}{45})%",
+        "question_images": [],
+        "solution": "Áp dụng kết quả câu a ta có:<br>\\[\\begin{array}{l}\\mathrm{VT}=\\frac{1}{2 \\sqrt{1}}+\\frac{1}{3 \\sqrt{2}}+\\frac{1}{4 \\sqrt{3}}+\\cdots+\\frac{1}{2010 \\sqrt{2009}} \\\\lt 2\\left(\\frac{1}{\\sqrt{1}}-\\frac{1}{\\sqrt{2}}\\right)+2\\left(\\frac{1}{\\sqrt{2}}-\\frac{1}{\\sqrt{3}}\\right)+\\cdots+2\\left(\\frac{1}{\\sqrt{2009}}-\\frac{1}{\\sqrt{2010}}\\right) \\\\=2\\left(1-\\frac{1}{\\sqrt{2010}}\\right) \\\\lt 2\\left(1-\\frac{1}{45}\\right)=\\frac{88}{45}=\\mathrm{VP}(\\text { đpcm })\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho phương trình ẩn %(x: x^{2}+(m-1) x-6=0 \\quad)% (1) (m là tham số)",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a)Tìm các giá trị của %(\\mathrm{m})% để phương trình có nghiệm %(\\mathrm{x}=1+\\sqrt{2})%",
+        "question_images": [],
+        "solution": "Pt (1) có nghiệm %(x=1+\\sqrt{2} \\Leftrightarrow(1+\\sqrt{2})^{2}+(\\mathrm{m}-1)(1+\\sqrt{2})-6=0)%<br>Tìm được %(m=5 \\sqrt{2}-6)% và %(\\mathrm{KL})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b)Tìm %(m)% để (1) có 2 nghiệm %(x_{1}, x_{2})% sao cho biểu thức: %(A=\\left(x_{1}^{2}-9\\right)\\left(x_{2}^{2}-4\\right))% có giá trị lớn nhất",
+        "question_images": [],
+        "solution": "Tính %(\\Delta=(\\mathrm{m}-1)^{2}+24\\gt 0 \\forall \\mathrm{m})% suy ra pt (1) có 2 nghiệm phân biệt %(\\mathrm{x}_{1}, \\mathrm{x}_{2})%.<br>\\[A=\\left(x_{1} x_{2}+6\\right)^{2}-\\left(2 x_{1}+3 x_{2}\\right)^{2}\\]<br>Theo %(Đ \\mathrm{~L})% Vi-et ta có %(\\mathrm{x}_{1} \\mathrm{x}_{2}=-6 \\Rightarrow \\mathrm{A}=-\\left(2 \\mathrm{x}_{1}+3 \\mathrm{x}_{2}\\right)^{2} \\leq 0)%<br>Max %(A=0)% khi và chỉ khi %(\\left\\{\\begin{array}{l}2 x_{1}+3 x_{2}=0 \\\\ x_{1} x_{2}=-6 \\\\ x_{1}+x_{2}=1-m\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x_{1}=3 \\\\ x_{2}=-2 \\\\ m=0\\end{array} \\vee\\left\\{\\begin{array}{l}x_{1}=-3 \\\\ x_{2}=2 \\\\ m=2\\end{array}\\right.\\right.\\right.)%<br>KL : Vậy %(m=0 ; m=2)% là các giá trị cần tìm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình sau : %(\\left\\{\\begin{array}{l}x^{2}+y^{2}-x y=3 \\\\ x^{3}+y^{3}=9\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Hệ phương trình đã cho<br>\\[\\begin{array}{l}\\Leftrightarrow\\left\\{\\begin{array} { l } { x ^ { 2 } + y ^ { 2 } - x y = 3 } \\\\{ ( x + y ) ( x ^ { 2 } + y ^ { 2 } - x y ) = 9 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x+y=3 \\\\(x+y)^{2}-3 x y=3\\end{array}\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { x + y = 3 } \\\\{ x y = 2 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x = 1 } \\\\{ y = 2 }\\end{array} \\text { hoặc } \\left\\{\\begin{array}{l}x=2 \\y=1\\end{array}\\right.\\right.\\right. \\\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Tìm các số nguyên %(x)%, %(y)% thỏa mãn phương trình: %(x^{3}+2 x^{2}+3 x+2=y^{3})%",
+        "question_images": [],
+        "solution": "Ta có %(y^{3}-x^{3}=2 x^{2}+3 x+2=2\\left(x+\\frac{3}{4}\\right)^{2}+\\frac{7}{8}\\gt 0 \\quad \\Rightarrow x\\lt y)% (1)<br>\\[(x+2)^{3}-y^{3}=4 x^{2}+9 x+6=\\left(2 x+\\frac{9}{4}\\right)^{2}+\\frac{15}{16}\\gt 0 \\Rightarrow y\\lt x+2 (2)\\]<br>Từ (1) và (2) ta có %(x\\lt y\\lt x+2)% mà %(x)%, y nguyên suy ra %(y=x+1)%<br>Thay %(y=x+1)% vào pt ban đầu và giải phương trình tìm được %(x=-1 ; x=1)% từ đó tìm được hai cặp số %((x, y))% thỏa mãn bài toán là %((1 ; 2),(-1 ; 0))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình vuông %(A B C D)% tâm %(O)%, cạnh a. %(M)% là điểm di động trên đoạn %(O B)% ( %(M)% không trùng với %(\\mathrm{O} ; \\mathrm{B}))%. Vẽ đường tròn tâm I đi qua %(\\mathrm{M})% và tiếp xúc với %(\\mathrm{BC})% tại %(\\mathrm{B})%, vẽ đường tròn tâm %(\\mathrm{J})% đi qua %(\\mathrm{M})% và tiếp xúc với %(\\mathrm{CD})% tại %(\\mathrm{D})%. Đường tròn %((\\mathrm{I}))% và đường tròn %((\\mathrm{J}))% cắt nhau tại điểm thứ hai là %(\\mathrm{N})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a)Chứng minh rằng 5 điểm %(A, N, B, C, D)% cùng thuộc một đường tròn. Từ đó suy ra 3 điểm %(\\mathrm{C}, \\mathrm{M}, \\mathrm{N})% thẳng hàng.",
+        "question_images": [],
+        "solution": "%(\\angle \\mathrm{MNB}=\\angle \\mathrm{MBC})% ( Cùng chắn cung %(\\mathrm{BM})% )<br>%(\\angle \\mathrm{MND}=\\angle \\mathrm{MDC})% ( Cùng chắn cung DM)<br>\\[\\angle \\mathrm{BND}=\\angle \\mathrm{MNB}+\\angle \\mathrm{MND}=\\angle \\mathrm{MBC}+\\angle \\mathrm{MDC}=90^{\\circ}\\]<br>Do đó 5 điểm %(A, B, C, D, M)% cùng thuộc một đường tròn<br>Suy ra NC là phân giác của góc %(B N D)% (do cung %(B C=)% cung %(B D)% )<br>Mặt khác, theo %(\\mathrm{CM})% trên ta có %(\\mathrm{NM})% là phân giác của góc BND Nên %(M, N, C)% thẳng hàng.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4e4fbcdf6a6f5efa946e2dfbd617a842.png\" srcset=\"https://docdn.giainhanh.io/media/test/8cf899c4e51ec70296c7c43e3495ce71.png 200w, https://docdn.giainhanh.io/media/test/0d1ca060e48b511d7a3c2b390c522634.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "Tính OM theo a để tích NA.NB.NC.ND lớn nhất.",
+        "question_images": [],
+        "solution": "Gọi %(H, K)% lần lượt là hình chiếu của %(N)% trên %(A C)% và %(B D)%<br>%(\\Rightarrow)% NHOK là hình chữ nhật<br>Ta có : NA.NC %(=\\mathrm{NH} . \\mathrm{AC}=\\mathrm{NH} . \\mathrm{a} \\sqrt{2})%<br>\\[\\text { NB.ND }=\\text { NK.BD }=\\text { NK. } a \\sqrt{2}\\]<br>Suy ra<br>\\[\\text { NA.NB.NC.ND }=2 \\mathrm{a}^{2} \\cdot N H \\cdot N K \\leq 2 \\mathrm{a}^{2} \\cdot \\frac{\\mathrm{NH}^{2}+\\mathrm{NK}^{2}}{2}=\\mathrm{a}^{2} \\cdot \\mathrm{NO}^{2}=\\frac{\\mathrm{a}^{4}}{2}\\]<br>Dấu bằng xảy ra khi và chỉ khi %(\\mathrm{NH}=\\mathrm{NK}=\\frac{\\mathrm{a}}{2} \\Leftrightarrow \\mathrm{OM}=\\frac{(2-\\sqrt{2}) \\mathrm{a}}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 0.5,
+        "content": "Cho góc xOy bằng %(120^{\\circ})%, trên tia phân giác %(\\mathrm{Oz})% của góc xOy lấy điểm %(\\mathrm{A})% sao cho độ dài đoạn thẳng %(\\mathrm{OA})% là một số nguyên lớn hơn 1 . Chứng minh rằng luôn tồn tại ít nhất ba đường thẳng phân biệt đi qua %(\\mathrm{A})% và cắt hai tia %(\\mathrm{Ox}, \\mathrm{Oy})% lần lượt tại %(B)% và %(C)% sao cho độ dài các đoạn thẳng %(O B)% và %(O C)% đều là các số nguyên dương.",
+        "question_images": [],
+        "solution": "Chỉ ra đường thẳng %(\\mathrm{d}_{1})% đi qua %(\\mathrm{A})% và vuông góc với %(\\mathrm{OA})% thỏa mãn bài toán<br>Đặt %(\\mathrm{OA}=\\mathrm{a}\\gt 1)% (a nguyên).<br>Trên tia %(\\mathrm{Ox})% lấy điểm %(\\mathrm{B})% sao cho %(\\mathrm{OB}=\\mathrm{a}+1)% nguyên dương.<br>Đường thẳng %(\\mathrm{d}_{2})% đi qua %(\\mathrm{A}, \\mathrm{B})% cắt tia %(\\mathrm{Oy})% tại %(\\mathrm{C})%.<br>Chứng minh được %(\\frac{1}{\\mathrm{OB}}+\\frac{1}{\\mathrm{OC}}=\\frac{1}{\\mathrm{OA}})% %(\\Rightarrow \\frac{1}{\\mathrm{a}+1}+\\frac{1}{\\mathrm{OC}}=\\frac{1}{\\mathrm{a}} \\Rightarrow \\mathrm{OC}=\\mathrm{a}(\\mathrm{a}+1))% là số nguyên dương<br>Suy ra %(\\mathrm{d}_{2})% là một đường thẳng cần tìm.<br>Tương tự lấy %(\\mathrm{B})% trên %(\\mathrm{Ox})% sao cho %(\\mathrm{OB}=\\mathrm{a}(\\mathrm{a}+1))%, Ta tìm được đường thẳng %(\\mathrm{d}_{3})%<br>Chứng minh %(\\mathrm{d}_{1}, \\mathrm{~d}_{2}, \\mathrm{~d}_{3})% phân biệt. ĐPCM<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/6f8337a873bae81c40cfab8506d2cda3.png\" srcset=\"https://docdn.giainhanh.io/media/test/3e5c22b1f0664d7febc9fb16714b51d2.png 245w, https://docdn.giainhanh.io/media/test/6d0d4a4ad518dda9361e3e17124df454.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

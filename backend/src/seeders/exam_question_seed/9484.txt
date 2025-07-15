@@ -1,0 +1,112 @@
+[
+    {
+        "title": "1a ",
+        "point": 2.0,
+        "content": "Chứng minh rằng: Chữ số tận cùng của hai số tự nhiên n và %(n^{5})% là như nhau.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}n^{5}-n=n\\left(n^{2}-1\\right)\\left(n^{2}+1\\right)=(n-1) n(n+1)\\left(n^{2}+1\\right) \\\\=(n-2)(n-1) n(n+1)(n+2)+5 n(n-1)(n+1)\\end{array}\\]<br>Ta có: %((n-2)(n-1) n(n+1)(n+2) \\vdots 2 \\vdots 5)%<br>\\[\\begin{array}{l}5 n(n-1)(n+1) \\vdots 2 \\vdots 5 \\\\Rightarrow n^{5}-n: 10\\end{array}\\]<br>Chữ số tận cùng của hai số tự nhiên n và %(\\mathrm{n}^{2})% là như nhau.",
+        "question_type": "essay"
+    },
+    {
+        "title": "1b ",
+        "point": 2.0,
+        "content": "Tìm tất cả các số nguyên x thỏa mãn %(x^{2}+x-p=0)%; với p là số nguyên số.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text {} P=x^{2}+x=x(x+1) \\\\ \\text { Vì } x(x+1) \\text { : } 2 \\Rightarrow p \\vdots 2 \\Rightarrow p=2 \\\\ \\Leftrightarrow x(x+1)=2 \\Leftrightarrow x^{2}+x-2=0 \\\\ \\Leftrightarrow x^{2}+2 x-x-2=0 \\\\ \\Leftrightarrow x(x+2)-(x+2)=0 \\\\ \\Leftrightarrow(x-1)(x+2)=0 \\\\ \\Leftrightarrow\\left[\\begin{array}{l}x=1 \\\\ x=-2\\end{array}\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2a ",
+        "point": 1.5,
+        "content": "Cho ba số %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% khác 0 và thỏa mãn %(a+b+c=0)%. Tính giá trị của biểu thức:<br>\\[P=\\frac{1}{a^{2}+b^{2}-c^{2}}+\\frac{1}{b^{2}+c^{2}-a^{2}}+\\frac{1}{c^{2}+a^{2}-b^{2}}\\]",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text {} a+b+c=0 \\\\ \\Leftrightarrow a+b=-c \\\\ \\Leftrightarrow(a+b)^{2}=c^{2} \\\\ \\Leftrightarrow a^{2}+b^{2}-c^{2}=-2 a b \\\\ Tương ~tự~ c^{2}+b^{2}-a^{2}=-2 c b \\\\ \\quad \\quad \\quad \\quad a^{2}+c^{2}-b^{2}=-2 a c \\\\ P=\\frac{1}{-2 a b}+\\frac{1}{-2 b c}+\\frac{1}{-2 a c}=\\frac{-1}{2}\\left(\\frac{a+b+c}{a b c}\\right)=0 \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2b ",
+        "point": 1.5,
+        "content": "Tìm giá trị nhỏ nhất của các biểu thức sau:<br>\\[A=x^{4}-2 x^{3}+3 x^{2}-4 x+2015 ; \\quad B=\\frac{x^{2}-2 x+2016}{x^{2}}\\]",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=x^{4}-2 x^{3}+3 x^{2}-4 x+2015 \\\\ A=x^{4}-2 x^{3}+x^{2}+2 x^{2}-4 x+2+2013 \\\\ A=x^{2}\\left(x^{2}-2 x+1\\right)+2\\left(x^{2}-2 x+1\\right)+2013 \\\\ =(x-1)^{2}\\left(x^{2}+2\\right)+2013\\end{array})%<br>GTNN của A là 2013 tại %(x=1)%<br>\\[B=\\frac{x^{2}-2 x+2016}{x^{2}}=\\frac{(x-1)^{2}+2015}{x^{2}}=\\left(\\frac{x-1)}{x}\\right)^{2}+\\frac{2015}{x^{2}} \\geq \\frac{2015}{x^{2}}\\]<br>GTNN B khi %(\\left(\\frac{x-1)}{x}\\right)^{2}=0)%<br>Vậy GTNN %(B=\\frac{2015}{1}=2015)% %(\\Leftrightarrow x=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho biểu thức: %(P=\\frac{1}{x^{2}-x}+\\frac{1}{x^{2}-3 x+2}+\\frac{1}{x^{2}-5 x+6}+\\frac{1}{x^{2}-7 x+12}+\\frac{1}{x^{2}-9 x+20})%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tìm điều kiện của x để biểu thức P có giá trị.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}P=\\frac{1}{x^{2}-x}+\\frac{1}{x^{2}-3 x+2}+\\frac{1}{x^{2}-5 x+6}+\\frac{1}{x^{2}-7 x+12}+\\frac{1}{x^{2}-9 x+20} \\\\=\\frac{1}{x(x-1)}+\\frac{1}{(x-1)(x-2)}+\\frac{1}{(x-2)(x-3)}+\\frac{1}{(x-3)(x-4)}+\\frac{1}{(x-4)(x-5)} \\\\quad \\text{ĐKXĐ:}\\  x \\neq\\{0 ; 1 ; 2 ; 3 ; 4 ; 5\\}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Rút gọn biểu thức P",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}P=\\frac{1}{x}-\\frac{1}{x-1}+\\frac{1}{x-1}-\\frac{1}{x-2}+\\frac{1}{x-2}-\\frac{1}{x-3}+\\frac{1}{x-3}-\\frac{1}{x-4}+\\frac{1}{x-4}-\\frac{1}{x-5} \\\\ =\\frac{1}{x}-\\frac{1}{x-5}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tìm giá trị của P khi x thỏa mãn %(x^{3}-x^{2}+2=0)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}x^{3}-x^{2}+2=0 \\\\ \\Leftrightarrow x^{3}+x^{2}-2 x^{2}+2=0 \\\\ \\Leftrightarrow x^{2}(x+1)-2(x-1)(x+1)=0 \\\\ \\Leftrightarrow(x+1)\\left(x^{2}-2 x+2\\right)=0 \\\\ \\Leftrightarrow x+1=0 \\\\ \\Leftrightarrow x=-1\\end{array})%<br>Thay %(x=-1)% vào P ta được %(P=\\frac{-5}{6})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4a ",
+        "point": 2.0,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là độ dài ba cạnh của một tam giác. Chứng minh rằng:<br>\\[a b+b c+c a \\leq a^{2}+b^{2}+c^{2}\\lt 2(a b+b c+c a)\\]",
+        "question_images": [],
+        "solution": "Vì %(a, b, c)% là độ dài ba cạnh của tam giác<br>\\[\\begin{array}{l}a-b \\leq c \\a^{2}+b^{2}-c^{2} \\leq 2 a b \\T T: a^{2}+c^{2}-b^{2} \\leq 2 a c ; c^{2}+b^{2}-a^{2} \\leq 2 c b(1)\\end{array}\\]<br>\\[\\begin{array}{l}(a-b)^{2} \\geq 0 \\\\Leftrightarrow a^{2}+b^{2} \\geq 2 a b \\T T~~ c^{2}+b^{2} \\geq 2 c b ; a^{2}+c^{2} \\geq 2 a c \\\\Leftrightarrow a^{2}+b^{2}+c^{2} \\geq a b+b c+a c \\text { (2) }\\end{array}\\]<br>Từ (1) và (2), ta suy ra: %(a b+b c+a c \\leq a^{2}+b^{2}+c^{2} \\leq 2(a b+b c+a c))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4b ",
+        "point": 2.0,
+        "content": "Tìm tất cả các cặp số nguyên %((x ; y))% thỏa mãn %(10 x^{2}+50 y^{2}+42 x y+14 x-6 y+57\\lt 0)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}10 x^{2}+50 y^{2}+42 x y+14 x-6 y+57\\lt 0 \\\\ \\Leftrightarrow 9 x^{2}+49 y^{2}+42 x y+x^{2}+14 x+49+y^{2}-6 y+9-1\\lt 0 \\\\ \\Leftrightarrow(3 x+7 y)^{2}+(x+7)^{2}+(y-3)^{2}\\lt 1 \\\\ \\Leftrightarrow\\left\\{\\begin{array}{l}x+7=0 \\\\ y-3=0 \\\\ 3 x+7 y=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=-7 \\\\ y=3\\end{array}\\right.\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho M là một điểm bất kì nằm trong hình vuông ABCD có cạnh bằng 1.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng: %(M A^{2}+M B^{2}+M C^{2}+M D^{2} \\geq 2)%",
+        "question_images": [],
+        "solution": "Kẻ HK vuông góc với %(\\mathrm{AB}, \\mathrm{DC})% và HK đi qua điểm M<br>\\[\\begin{array}{l}M A^{2}=H A^{2}+H M^{2} \\M B^{2}=H B^{2}+H M^{2} \\M C^{2}=K C^{2}+K M^{2} \\M D^{2}=K D^{2}+K M^{2} \\\\Rightarrow M A^{2}+M B^{2}+M C^{2}+M D^{2}=H A^{2}+H B^{2}+K C^{2}+K D^{2}+2\\left(H M^{2}+K M^{2}\\right) \\\\geq \\frac{(H A+H B)^{2}}{2}+\\frac{(K C+K D)^{2}}{2}+(H M+K M)^{2} \\\\=\\frac{1}{2}+\\frac{1}{2}+1=2 \\\\Rightarrow M A^{2}+M B^{2}+M C^{2}+M D^{2} \\geq 2\\end{array}\\]<br>Dấu \"=\" xả ra khi  %(\\mathrm{HA}=\\mathrm{HB} ; \\mathrm{KC}=\\mathrm{KD} ; \\mathrm{HM}=\\mathrm{KM})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9693b04d1be9d8f154369c5c7b8dc119.png\" srcset=\"https://docdn.giainhanh.io/media/test/9c2adb30f170434a717af7a9e7b28095.png 149w\" width=\"149\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Xét điểm M nằm trên đường chéo AC, kẻ %(M N \\perp A B)% tại N, gọi O là trung điểm của AM. Chứng minh rằng: %(C N^{2}=2 . O B^{2})%.",
+        "question_images": [],
+        "solution": "Kẻ %(M H \\perp B C)% tại H %(\\Rightarrow M H=N B)%<br>%(\\triangle A M N)% vuông cân có O là trung điểm của AM<br>\\[\\Rightarrow M N^{2}=2 . O N^{2} \\Rightarrow \\frac{O N^{2}}{M N^{2}}=\\frac{1}{2}\\quad(1)\\]<br>%(\\triangle M H C)% vuông cân ở H<br>\\[\\Rightarrow M C^{2}=2 M H^{2} \\Rightarrow \\frac{M H^{2}}{M C^{2}}=\\frac{1}{2} \\Rightarrow \\frac{N B^{2}}{M C^{2}}=\\frac{1}{2}\\quad(2)\\]<br>Từ (1) và (2) suy ra %(\\frac{O N}{M N}=\\frac{N B}{M C}\\quad(3))%<br>\\[\\Rightarrow \\triangle O N B \\sim \\triangle N M C(c-g-c) \\Rightarrow \\frac{O B}{N C}=\\frac{O N}{M N} \\Leftrightarrow \\frac{O B^{2}}{N C^{2}}=\\frac{O N^{2}}{M N^{2}}\\quad(4)\\]<br>Từ (1) và (4) %(\\Rightarrow \\frac{O B^{2}}{N C^{2}}=\\frac{1}{2} \\Rightarrow N C^{2}=2 . O B^{2})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/6b258bca18a9f682cf3728c9238f8560.png\" srcset=\"https://docdn.giainhanh.io/media/test/59946d67c9f584f06c0831cb0a944e1b.png 153w\" width=\"153\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Cho tam giác ABC có %(\\hat{A}\\gt \\widehat{B})%. Trên cạnh BC lấy điểm H sao cho %(\\widehat{H A C}=\\widehat{A B C})%. Đường phân giác của %(\\widehat{B A H})% cắt BH ở E . Từ trung điểm M của AB kẻ ME cắt đường thẳng AH tại F. Chứng minh rằng: %(\\mathrm{CF} / / \\mathrm{AE})%",
+        "question_images": [],
+        "solution": "Gọi Cx là tia đối của tia CA<br>Xét %(\\triangle C A H)% và %(\\triangle C B A)% có<br>%(\\widehat{A C H})% chung<br>\\[\\begin{array}{l}\\widehat{A}_{1}=\\hat{B}(g t) \\\\Rightarrow \\triangle C A H \\sim C B A(g-g) \\\\Rightarrow \\frac{C H}{C A}=\\frac{A H}{B A} \\text { (1) }\\end{array}\\]<br>Áp dụng tính chất đường phân giác vào tam giác HBA ta có %(\\frac{A H}{A B}=\\frac{H E}{E B}\\quad(2))%<br>Áp dụng Menelaus vào tam giác HAB các điểm %(\\mathrm{M}, \\mathrm{E}, \\mathrm{F})%<br>\\[\\frac{M B}{M A} \\cdot \\frac{F A}{F H} \\cdot \\frac{E H}{E B}=1 \\Rightarrow \\frac{E H}{E B}=\\frac{F H}{F A}\\quad(3)\\]<br>Từ (1) (2) (3) %(\\Rightarrow \\frac{C H}{C A}=\\frac{F H}{F A})%<br>%(\\triangle A H C)% có %(\\Rightarrow \\frac{C H}{C A}=\\frac{F H}{F A})% theo tính chất phân giác ngoài, ta có CF là phân giác ngoài.<br>\\[\\begin{array}{l}\\mathrm{CF} \\text { là phân giác ngoài } \\widehat{A C H} \\\\Rightarrow \\widehat{x C F}=\\widehat{B C F}=\\frac{1}{2} \\widehat{B C x}\\end{array}\\]<br>Áp dụng tính chất góc ngoài của tam giác ABC có<br>\\[\\begin{array}{l}\\text { Áp dụng tính chất góc ngoài của tam giác } \\mathrm{ABC} \\text { có } \\widehat{B C x}=\\hat{A}+\\widehat{B} \\\\Rightarrow \\widehat{x C F}=\\frac{1}{2}(\\hat{A}+\\widehat{B})=\\frac{\\widehat{A_{1}}+2 \\widehat{A}_{1}+\\widehat{A}_{1}}{2}=\\widehat{A_{1}}+\\widehat{A_{2}}=\\widehat{C A F}\\end{array}\\]<br>Ta được<br>\\[\\widehat{x C F}=\\widehat{C A E} \\text { ( vị trí đồng vị ). Suy ra CF//AE }\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/60a5f074e69cdb24ddfcaa00ec337351.png\" srcset=\"https://docdn.giainhanh.io/media/test/eb50c80e1e83c1d8e6d5d101b8f18a90.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    }
+]

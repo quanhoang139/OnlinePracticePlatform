@@ -1,0 +1,95 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức :<br>\\[\\mathrm{P}=\\frac{2}{x}-\\left(\\frac{x^{2}}{x^{2}+x y}+\\frac{y^{2}-x^{2}}{x y}-\\frac{y^{2}}{x y+y^{2}}\\right) \\cdot \\frac{x+y}{x^{2}+x y+y^{2}} \\text { với } x \\neq 0, y \\neq 0, x \\neq-y \\text {. }\\]",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Rút gọn biểu thức P .",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Với } x \\neq 0, y \\neq 0, x \\neq-y \\text { ta có: } \\\\ \\begin{aligned} \\mathrm{P} & =\\frac{2}{x}-\\left(\\frac{x^{2} y-\\left(x^{2}-y^{2}\\right)(x+y)-x y^{2}}{x y(x+y)}\\right) \\cdot \\frac{x+y}{x^{2}+x y+y^{2}} \\\\ & =\\frac{2}{x}-\\frac{x y(x-y)-(x-y) \\cdot(x+y)^{2}}{x y(x+y)} \\cdot \\frac{x+y}{x^{2}+x y+y^{2}} \\\\ & =\\frac{2}{x}+\\frac{(x-y)\\left(x^{2}+x y+y^{2}\\right)}{x y(x+y)} \\cdot \\frac{x+y}{x^{2}+x y+y^{2}} \\\\ & =\\frac{2}{x}+\\frac{x-y}{x y}=\\frac{x+y}{x y}\\end{aligned}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tính giá trị của biểu thức P biết %(x, y)% thỏa mãn đẳng thức:<br>\\[x^{2}+y^{2}+10=2(x-3 y) \\text {. }\\]",
+        "question_images": [],
+        "solution": "Ta có: %(x^{2}+y^{2}+10=2(x-3 y))%<br>\\[\\begin{array}{l}\\Leftrightarrow x^{2}-2 x+1+y^{2}+6 y+9=0 \\\\Leftrightarrow(x-1)^{2}+(y+3)^{2}=0\\end{array}\\]<br>Lập luận suy ra %(x=1 ; y=-3)%<br>Ta thấy %(\\mathrm{x}=1 ; \\mathrm{y}=-3)% thỏa mãn điều kiện: %(x \\neq 0, y \\neq 0, x \\neq-y)%<br>nên thay %(\\mathrm{x}=1 ; \\mathrm{y}=-3)% vào biểu thức %(\\mathrm{P}=\\frac{x+y}{x y})% ta có:<br>%(\\mathrm{P}=\\frac{1+(-3)}{1 \\cdot(-3)}=\\frac{2}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Giải các phương trình sau:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(\\frac{2 x+3}{2 x+1}-\\frac{2 x+5}{2 x+7}=1-\\frac{6 x^{2}+9 x-9}{(2 x+1)(2 x+7)})%.",
+        "question_images": [],
+        "solution": "ĐK: %(x \\neq \\frac{-1}{2} ; x \\neq \\frac{-7}{2})%<br>\\[\\begin{array}{l}\\frac{(2 x+3)(2 x+7)}{(2 x+1)(2 x+7)}-\\frac{(2 x+5)(2 x+1)}{(2 x+7)(2 x+1)}=\\frac{(2 x+7)(2 x+1)}{(2 x+7)(2 x+1)}-\\frac{6 x^{2}+9 x-9}{(2 x+7)(2 x+1)} \\\\Leftrightarrow \\frac{4 x^{2}+20 x+21-4 x^{2}-12 x-5}{(2 x+7)(2 x+1)}=\\frac{4 x^{2}+16 x+7-6 x^{2}-9 x+9}{(2 x+7)(2 x+1)} \\\\Leftrightarrow \\frac{8 x+16}{(2 x+7)(2 x+1)}=\\frac{-2 x^{2}+7 x+16}{(2 x+7)(2 x+1)}\\end{array}\\]<br>\\[\\Rightarrow 8 x+16=-2 x^{2}+7 x+16 \\Leftrightarrow 2 x^{2}+x=0 \\Leftrightarrow x(2 x+1)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\x=-\\frac{1}{2} \\text { (Loại) }\\end{array}\\right.\\]<br>Vậy phương trình có một nghiệm %(\\mathrm{x}=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(\\frac{x+11}{115}+\\frac{x+22}{104}=\\frac{x+33}{93}+\\frac{x+44}{82})%",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} \\Leftrightarrow & \\left(\\frac{x+11}{115}+1\\right)+\\left(\\frac{x+22}{104}+1\\right)=\\left(\\frac{x+33}{93}+1\\right)+\\left(\\frac{x+44}{82}+1\\right) \\\\ \\Leftrightarrow & \\frac{x+126}{115}+\\frac{x+126}{104}=\\frac{x+126}{93}+\\frac{x+126}{82}\\end{aligned})%<br>%(\\begin{aligned} & \\Leftrightarrow \\frac{x+126}{115}+\\frac{x+126}{104}-\\frac{x+126}{93}-\\frac{x+126}{82}=0 \\\\ \\Leftrightarrow & \\ldots \\\\ \\Leftrightarrow & x+126=0 \\\\ \\Leftrightarrow & x=-126\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho hình vuông ABCD có cạnh bằng a , biết hai đường chéo cắt nhau tại O . Lấy điểm I thuộc cạnh AB , điểm M thuộc cạnh BC sao cho %(\\widehat{\\mathrm{IOM}}=90^{\\circ})% (I và M không trùng với các đinhh cua hình vuông). Gọi N là giao điềm cua AM và %(\\mathrm{CD}, \\mathrm{K})% là giao điểm cùa OM và BN .",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh %(\\Delta \\mathrm{BIO}=\\Delta \\mathrm{CMO})% và tính diện tích tứ giác BIOM theo a.",
+        "question_images": [],
+        "solution": "Xét %(\\triangle B I O)% và %(\\triangle C M O)% có:<br>\\[\\begin{array}{l}\\widehat{I B O}=\\widehat{M C O}\\left(=45^{\\circ}\\right) \\text { ( tính chất đường chéo hình vuông) } \\\\mathrm{BO}=\\mathrm{CO}(\\text { tính chất đường chéo hình vuông) } \\\\widehat{B O I}=\\widehat{C O M} \\text { ( cùng phụ với } \\widehat{B O M}) \\\\Rightarrow \\triangle B I O=\\triangle C M O \\text { (g.c.g) } \\\\Rightarrow S_{B I O}=S_{C M O} \\text { mà } S_{B M O I}=S_{B O I}+S_{B M O} \\\\text { Do đó } S_{B M O I}=S_{C M O}+S_{B M O}=S_{B O C}=\\frac{1}{4} S_{A B C D}=\\frac{1}{4} a^{2}\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/73566ec84e526215e5168bf4b267c36b.png\" srcset=\"https://docdn.giainhanh.io/media/test/ebc4d4e6c9e091192a0a0aea21e5cd49.png 245w, https://docdn.giainhanh.io/media/test/65b1f3b8798c8d7b40d62a8b1a55684f.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh %(\\widehat{\\mathrm{BKM}}=\\widehat{\\mathrm{BCO}})%.",
+        "question_images": [],
+        "solution": "Ta có %(\\triangle B I O=\\triangle C M O(\\mathrm{cmt}))%%(\\Rightarrow \\mathrm{CM}=\\mathrm{BI})% ( cặp cạnh tương ứng)<br>%(\\Rightarrow \\mathrm{BM}=\\mathrm{AI})%Vì %(\\mathrm{CN} / / \\mathrm{AB})% nên %(\\frac{B M}{C M}=\\frac{A M}{M N} \\Rightarrow \\frac{I A}{I B}=\\frac{A M}{M N})%.<br>Từ đó suy ra %(\\mathrm{IM} / / \\mathrm{BN})%<br>Ta có %(\\mathrm{OI}=\\mathrm{OM}()% vì %(\\triangle B I O=\\triangle C M O) \\Rightarrow \\triangle I O M)% cân tại O<br>\\[\\Rightarrow \\widehat{I M O}=\\widehat{M I O}=45^{\\circ}\\]<br>Vì IM // BN %(\\Rightarrow \\widehat{B K M}=\\widehat{I M O}=45^{\\circ} \\Rightarrow \\widehat{B K M}=\\widehat{B C O})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Chứng minh %(\\frac{1}{\\mathrm{CD}^{2}}=\\frac{1}{\\mathrm{AM}^{2}}+\\frac{1}{\\mathrm{AN}^{2}})%.",
+        "question_images": [],
+        "solution": "Qua A kẻ tia Ax vuông góc AN cắt CD tại E .<br>Chứng minh %(\\triangle A D E=\\triangle A B M()% g.c.g %() \\Rightarrow A E=A M)%<br>Ta có %(\\triangle A N E)% vuông tại A có %(\\mathrm{AD} \\perp \\mathrm{NE})% nên<br>\\[S_{A E N}=\\frac{A D \\cdot N E}{2}=\\frac{A N \\cdot A E}{2} \\Rightarrow A D \\cdot N E=A N \\cdot A E \\Rightarrow(A D \\cdot N E)^{2}=(A N \\cdot A E)^{2}\\]<br>Áp dụng định lí Pitago vào %(\\triangle A N E)% ta có %(\\mathrm{AN}^{2}+\\mathrm{AE}^{2}=\\mathrm{NE}^{2})%<br>\\[\\Rightarrow A D^{2} \\cdot\\left(A N^{2}+A E^{2}\\right)=A N^{2} \\cdot A E^{2} \\Rightarrow \\frac{A N^{2}+A E^{2}}{A N^{2} \\cdot A E^{2}}=\\frac{1}{A D^{2}} \\Rightarrow \\frac{1}{A E^{2}}+\\frac{1}{A N^{2}}=\\frac{1}{A D^{2}}\\]<br>Mà %(A E=A M)% và %(\\mathrm{CD}=\\mathrm{AD} \\Rightarrow \\frac{1}{C D^{2}}=\\frac{1}{A M^{2}}+\\frac{1}{A N^{2}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Cho a, %(\\mathrm{b}, \\mathrm{c}\\gt 0 ; \\mathrm{a}+\\mathrm{b}+\\mathrm{c}=3)%. Chứng minh rằng:<br>\\[\\frac{\\mathrm{a}}{1+\\mathrm{b}^{2}}+\\frac{\\mathrm{b}}{1+\\mathrm{c}^{2}}+\\frac{\\mathrm{c}}{1+\\mathrm{a}^{2}} \\geq \\frac{3}{2} .\\]",
+        "question_images": [],
+        "solution": "Do %(\\mathrm{a}, \\mathrm{b}\\gt 0)% và %(1+\\mathrm{b}^{2} \\geq 2 \\mathrm{~b})% với mọi b nên<br>\\[\\frac{a}{1+b^{2}}=a-\\frac{a b^{2}}{1+b^{2}} \\geq a-\\frac{a b^{2}}{2 b}=a-\\frac{a b}{2} \\text {. }\\]<br>Tương tự ta có : %(\\frac{\\mathrm{b}}{1+\\mathrm{c}^{2}} \\geq \\mathrm{b}-\\frac{\\mathrm{bc}}{2} ; \\frac{\\mathrm{c}}{1+\\mathrm{a}^{2}} \\geq \\mathrm{c}-\\frac{\\mathrm{ca}}{2})%mà %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}=3)%<br>nên %(\\frac{\\mathrm{a}}{1+\\mathrm{b}^{2}}+\\frac{\\mathrm{b}}{1+\\mathrm{c}^{2}}+\\frac{\\mathrm{c}}{1+\\mathrm{a}^{2}} \\geq 3-\\frac{\\mathrm{ab}+\\mathrm{bc}+\\mathrm{ca}}{2})%(1)<br>Cũng từ %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}=3 \\Rightarrow(\\mathrm{a}+\\mathrm{b}+\\mathrm{c})^{2}=9)%%(\\Leftrightarrow a^{2}+b^{2}+c^{2}+2(a b+b c+c a)=9)%<br>mà %(a^{2}+b^{2} \\geq 2 a b ; b^{2}+c^{2} \\geq 2 b c ; c^{2}+a^{2} \\geq 2 a c)%<br>nên %(a^{2}+b^{2}+c^{2} \\geq a b+)% %(\\mathrm{bc}+)% ca<br>suy ra %(3(\\mathrm{ab}+\\mathrm{bc}+\\mathrm{ca}) \\leq 9 \\Leftrightarrow \\mathrm{ab}+\\mathrm{bc}+\\mathrm{ca} \\leq 3)% (2).<br>Từ (1) và (2) suy ra %(\\frac{\\mathrm{a}}{1+\\mathrm{b}^{2}}+\\frac{\\mathrm{b}}{1+\\mathrm{c}^{2}}+\\frac{\\mathrm{c}}{1+\\mathrm{a}^{2}} \\geq 3-\\frac{3}{2}=\\frac{3}{2} \\mathrm{đpcm})%.<br>Đẳng thức xảy ra khi và chỉ khi %(\\mathrm{a}=\\mathrm{b}=\\mathrm{c}=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho số tự nhiên %(\\mathrm{n}\\gt 3)%. Chứng minh rằng nếu %(2^{\\mathrm{n}}=10 \\mathrm{a}+\\mathrm{b}(\\mathrm{a}, \\mathrm{b} \\in N, 0\\lt)% %(\\mathrm{b}\\lt 10)% ) thì tích ab chia hết cho 6 .",
+        "question_images": [],
+        "solution": "Ta có %(2^{\\mathrm{n}}=10 \\mathrm{a}+\\mathrm{b} \\Rightarrow \\mathrm{b} \\vdots 2 \\Rightarrow \\mathrm{ab} \\vdots 2)% (1)<br>Ta chứng minh ab %(\\vdots 3)% (2)<br>Thật vậy, từ đẳng thức %(2^{\\mathrm{n}}=10 \\mathrm{a}+\\mathrm{b} \\Rightarrow 2^{\\mathrm{n}})% có chữ số tận cùng là b .<br>Đặt %(\\mathrm{n}=4 \\mathrm{k}+\\mathrm{r}(\\mathrm{k}, \\mathrm{r} \\in \\mathrm{N}, 0 \\leq \\mathrm{r} \\leq 3))% ta có: %(2^{\\mathrm{n}}=16^{\\mathrm{k}} 2^{\\mathrm{r}})%.<br>Nếu %(\\mathrm{r}=0)% thì %(2^{\\mathrm{n}}=16^{\\mathrm{k}})% tận cùng là %(6 \\Rightarrow \\mathrm{b}=6 \\Rightarrow \\mathrm{ab} \\vdots 6)%.<br>Nếu %(1 \\leq \\mathrm{r} \\leq 3)% thì %(2^{\\mathrm{n}}-2^{\\mathrm{r}}=2^{\\mathrm{r}}\\left(16^{\\mathrm{k}}-1\\right) \\vdots 10 \\Rightarrow 2^{\\mathrm{n}})% tận cùng là %(2^{\\mathrm{r}})%<br>suy ra %(\\mathrm{b}=2^{\\mathrm{r}} \\Rightarrow 10 \\mathrm{a}=2^{\\mathrm{n}}-2^{\\mathrm{r}}=2^{\\mathrm{r}}\\left(16^{\\mathrm{k}}-1\\right) \\vdots 3 \\Rightarrow \\mathrm{a} \\vdots 3 \\Rightarrow \\mathrm{ab} \\vdots 3)%.<br>Từ (1) và (2) suy ra ab %(\\vdots)% 6",
+        "question_type": "essay"
+    }
+]

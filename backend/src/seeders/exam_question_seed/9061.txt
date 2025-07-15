@@ -1,0 +1,119 @@
+[
+    {
+        "title": "1.1 ",
+        "point": 0.5,
+        "content": "Rút gọn biểu thức: %(A=\\sqrt{4+\\sqrt{10+2 \\sqrt{5}}}+\\sqrt{4-\\sqrt{10+2 \\sqrt{5}}})%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{aligned}A\\gt 0 & \\Rightarrow A^{2}=8+2 \\sqrt{(4+\\sqrt{10+2 \\sqrt{5}})(4-\\sqrt{10+2 \\sqrt{5}})}=8+2 \\sqrt{6-2 \\sqrt{5}} \\\\Rightarrow & A^{2}=8+2 \\sqrt{(\\sqrt{5}-1)^{2}}=8+2 \\cdot|\\sqrt{5}-1|=6+2 \\sqrt{5}=(\\sqrt{5}+1)^{2} \\\\& \\Rightarrow A=\\sqrt{5}+1(\\text { vì } A>0)\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.2",
+        "group_content": "Cho biểu thức %(P=\\frac{2 \\sqrt{x}-4}{3 \\sqrt{x}-4}-\\frac{4+2 \\sqrt{x}}{\\sqrt{x}-2}+\\frac{x+13 \\sqrt{x}-20}{3 x-10 \\sqrt{x}+8})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tìm điều kiện của %(x)% đễ biểu thức %(P)% có nghĩa và rút gọn %(P)%",
+        "question_images": [],
+        "solution": "Để biểu thức P có nghĩa %(\\Leftrightarrow\\left\\{\\begin{array}{c}x \\geq 0 \\\\ 3 \\sqrt{x}-4 \\neq 0 \\\\ \\sqrt{x}-2 \\neq 0 \\\\ 3 x-10 \\sqrt{x}+8 \\neq 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{c}x \\geq 0 \\\\ x \\neq \\frac{16}{9} \\\\ x \\neq 4\\end{array}\\right.\\right.)%<br>Vậy %(x \\geq 0 ; x \\neq \\frac{16}{9} ; x \\neq 4)% thì %(P)% có nghĩa<br>Rút gọn:<br>\\[P=\\frac{(2 \\sqrt{x}-4)(\\sqrt{x}-2)}{(\\sqrt{x}-2)(3 \\sqrt{x}-4)}-\\frac{(4+2 \\sqrt{x})(3 \\sqrt{x}-4)}{(\\sqrt{x}-2)(3 \\sqrt{x}-4)}+\\frac{x+13 \\sqrt{x}-20}{(\\sqrt{x}-2)(3 \\sqrt{x}-4)}\\]<br>%(\\begin{array}{l}P=\\frac{2 x-8 \\sqrt{x}+8-6 x-4 \\sqrt{x}+16+x+13 \\sqrt{x}-20}{(\\sqrt{x}-2)(3 \\sqrt{x}-4)} \\\\ P=\\frac{-3 x+\\sqrt{x}+4}{(\\sqrt{x}-2)(3 \\sqrt{x}-4)}=\\frac{(\\sqrt{x}+1)(-3 \\sqrt{x}+4)}{(\\sqrt{x}-2)(3 \\sqrt{x}-4)}=\\frac{\\sqrt{x}+1}{2-\\sqrt{x}}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Tìm các giá trị nguyên của %(x)% để %(P)% nhận giá trị nguyên.",
+        "question_images": [],
+        "solution": "Ta có: %(P=\\frac{\\sqrt{x}+1}{2-\\sqrt{x}}=-1+\\frac{3}{2-\\sqrt{x}})% với %(x \\geq 0 ; x \\neq \\frac{16}{9} ; x \\neq 4)%<br>Để %(P)% nguyên %(\\Leftrightarrow \\frac{3}{2-\\sqrt{x}})% nguyên %(\\Leftrightarrow 3 \\vdots 2-\\sqrt{x})%, vì %(x\\in Z)% nên %(2-\\sqrt{x} \\in U(3))% %(\\Leftrightarrow 2-\\sqrt{x} \\in\\{ \\pm 1 ; \\pm 3\\} \\Leftrightarrow 2-\\sqrt{x} \\in\\{1 ;-1 ;-3\\})% vì %(2-\\sqrt{x} \\leq 2)% %(\\Leftrightarrow \\sqrt{x} \\in\\{1 ; 3 ; 5\\} \\Leftrightarrow x \\in\\{1 ; 9 ; 25\\})% thoả mãn<br>Vậy %(x \\in\\{1 ; 9 ; 25\\})% thì %(P)% nguyên.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Giải các phương trình sau:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(\\sqrt{x-5}+\\sqrt{y-2019}+\\sqrt{z+2021}=\\frac{1}{2}(x+y+z))%",
+        "question_images": [],
+        "solution": "ĐKXĐ: %(x \\geq 5 ; y \\geq 2019 ; z \\geq-2021)%<br>Phương trình %((1) \\Leftrightarrow 2 \\sqrt{x-5}+2 \\sqrt{y-2019}+2 \\sqrt{z+2021}=x+y+z)%<br>\\[\\begin{array}{l}\\Leftrightarrow x-5-2 \\sqrt{x-5}+1+y-2019-2 \\sqrt{y-2019}+1+z+2021-2 \\sqrt{z+2021}+1=0 \\\\Leftrightarrow(\\sqrt{x-5}-1)^{2}+(\\sqrt{y-2019}-1)^{2}+(\\sqrt{z+2021}-1)^{2}=0\\end{array}\\]<br>Vì<br>\\[\\begin{array}{l}(\\sqrt{x-5}-1)^{2} \\geq 0 ;(\\sqrt{y-2019}-1)^{2} \\geq 0 ;(\\sqrt{z+2021}-1)^{2} \\geq 0 \\\\forall x \\geq 5 ; y \\geq 2019 ; z \\geq-2021 \\\\Rightarrow(\\sqrt{x-5}-1)^{2}+(\\sqrt{y-2019}-1)^{2}+(\\sqrt{z+2021}-1)^{2} \\geq 0\\end{array}\\]<br>Dấu \" =\" xảy ra khi %(\\left\\{\\begin{array}{c}\\sqrt{x-5}-1=0 \\\\ \\sqrt{y-2019}-1=0 \\Leftrightarrow \\\\ \\sqrt{x+2021}-1=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{c}x=6 \\\\ y=2020 \\\\ z=-2020\\end{array}\\right.\\right.)%<br>Vậy %(x=6 ; y=2020 ; z=-2020)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(\\sqrt{3 x^{2}-12 x+21}+\\sqrt{5 x^{2}-20 x+24}=-2 x^{2}+8 x-3)%",
+        "question_images": [],
+        "solution": "Đặt %(\\sqrt{3 x^{2}-12 x+21}+\\sqrt{5 x^{2}-20 x+24}=-2 x^{2}+8 x-3)% (2)<br>Ta có: %(3 x^{2}-12 x+21=3(x-2)^{2}+9\\gt 0)% và %(5 x^{2}-20 x+24=5(x-2)^{2}+4>0)%<br>Đặt %(a=\\sqrt{3 x^{2}-12 x+21} ; b=\\sqrt{5 x^{2}-20 x+24})%<br>ĐK: %(a>0 ; b>0)%<br>\\[a^{2}-b^{2}=-2 x^{2}+8 x-3\\]<br>Phương trình (2) có dạng %(a+b=a^{2}-b^{2})%<br>\\[\\begin{array}{l}\\Leftrightarrow(a+b)(a-b-1)=0 \\\\Leftrightarrow a-b-1=0 \\quad \\text { vì } a+b>0\\end{array}\\]<br>Với %(a-b-1=0 \\Rightarrow a-b=1)% mà %(a^{2}-b^{2}=-2 x^{2}+8 x-3 \\Rightarrow a+b=-2 x^{2}+8 x-3)%<br>\\[\\Rightarrow a=-x^{2}+4 x-1\\]<br>Ta có phương trình: %(\\sqrt{3 x^{2}-12 x+21}=-x^{2}+4 x-1)%<br>Xét vế trái: %(\\sqrt{3 x^{2}-12 x+21}=\\sqrt{3(x-2)^{2}+9} \\geq \\sqrt{9}=3)%<br>Và vế phải: %(-x^{2}+4 x-1=-(x-2)^{2}+3 \\leq 3)%<br>Dấu \" =\" xảy ra khi %(x-2=0 \\Leftrightarrow x=2)% (thoả mãn)<br>Vậy phương trình (2) có nghiệm %(x=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.1 ",
+        "point": 1.0,
+        "content": "Xác định đa thức bậc bốn %(f(x))% biết: %(f(0)=1)% và %(f(x)-f(x-1)=x(x+1)(2 x+1))% với %(x\\in Z)%",
+        "question_images": [],
+        "solution": "Gọi đa thức bậc bốn %(f(x))% có dạng:<br>\\[f(x)=a x^{4}+b x^{3}+c x^{2}+d x+e(a, b, c, d, e \\in \\square ; a \\neq 0)\\]<br>Ta có: %(f(0)=1 \\Rightarrow e=1)%<br>\\[\\begin{array}{l}f(x)=a x^{4}+b x^{3}+c x^{2}+d x+e \\f(x-1)=a(x-1)^{4}+b(x-1)^{3}+c(x-1)^{2}+d(x-1)+e \\f(x)-f(x-1)=a x^{4}-a(x-1)^{4}+b x^{3}-b(x-1)^{3}+c x^{2}-c(x-1)^{2}+d x-d(x-1) \\f(x)-f(x-1)=4 a x^{3}-3 x^{2}(2 a-b)+x(4 a-3 b+2 c)-a+b-c+d\\end{array}\\]<br>Mà %(f(x)-f(x-1)=x(x+1)(2 x+1)=2 x^{3}+3 x^{2}+x)%<br>%(\\begin{array}{l}\\Rightarrow\\left\\{\\begin{array}{l}4 a=2 \\\\ 2 a-b=-1 \\\\ 4 a-3 b+2 c=1 \\\\ -a+b-c+d=0\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}a=\\frac{1}{2} \\\\ b=2 \\\\ c=\\frac{5}{2} \\\\ d=1\\end{array}\\right.\\right. \\\\ \\Rightarrow f(x)=a x^{4}+b x^{3}+c x^{2}+d x+e=\\frac{1}{2} x^{4}+2 x^{3}+\\frac{5}{2} x^{2}+x+1 .\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.2 ",
+        "point": 1.0,
+        "content": "Tìm %(x, y)% nguyên dương %((x \\neq y))% thỏa mãn %(x^{3}+7 y=y^{3}+7 x)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { b) } x^{3}+7 y=y^{3}+7 x \\\\(x-y)\\left(x^{2}+x y+y^{2}\\right)=7(x-y) \\\\(x-y)\\left(x^{2}+x y+y^{2}-7\\right)=0 \\\\Rightarrow\\left[\\begin{array} { l } { x - y = 0 } \\\\{ x ^ { 2 } + x y + y ^ { 2 } - 7 = 0 }\\end{array} \\Rightarrow \\left[\\begin{array}{l}x=y(L) \\x^{2}+x y+y^{2}-7=0\\end{array}\\right.\\right.\\end{array}\\]<br>Do %(x,y\\in Z^+)%<br>\\[\\begin{array}{l}x^{2}+x y+y^{2}=7 \\Rightarrow x, y \\leq 2 \\\\text { Nếu } x=2 \\Rightarrow 2^{2}+2 y+y^{2}=7 \\Rightarrow y^{2}+2 y=3 \\Rightarrow y^{2}+2 y-3=0 \\\\Rightarrow y^{2}-1+2(y-1)=0 \\Rightarrow(y-1)(y+1)+2(y-1)=0 \\\\Rightarrow(y-1)(y+1+2)=0 \\\\Rightarrow\\left[\\begin{array} { l } { y - 1 = 0 } \\\\{ y + 3 = 0 }\\end{array} \\Rightarrow \\left[\\begin{array}{l}y=1 \\y=-3(L)\\end{array}\\right.\\right.\\end{array}\\]<br>Tương tự nếu %(x=1)% thì %(y=2)%<br>Vậy có các cặp nghiệm thỏa mãn %((x, y)=\\{(2 ; 1),(1 ; 2)\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.3 ",
+        "point": 1.0,
+        "content": "Cho các số dương %(a, b, c)% thỏa mãn %(a b c=1)%<br>Chứng minh rằng: %(\\frac{1}{a^{2}(b+c)}+\\frac{1}{b^{2}(c+a)}+\\frac{1}{c^{2}(a+b)} \\geq \\frac{3}{2})%",
+        "question_images": [],
+        "solution": "Đặt %(a=\\frac{1}{x}, b=\\frac{1}{y}, c=\\frac{1}{z} a b c=\\frac{1}{x \\cdot y \\cdot z}=1)%<br>Ta có: %(\\frac{1}{a^{2}(b+c)}=\\frac{x}{y+z}, \\frac{1}{b^{2}(c+a)}=\\frac{y}{z+x}, \\frac{1}{c^{2}(a+b)}=\\frac{z}{x+y})%%(\\frac{1}{a^{2}(b+c)}+\\frac{1}{b^{2}(c+a)}+\\frac{1}{c^{2}(a+b)}=\\frac{x}{y+z}+\\frac{y}{z+x}+\\frac{z}{x+y})%%(\\frac{x}{y+z}+1+\\frac{y}{z+x}+1+\\frac{z}{x+y}+1=\\frac{x+y+z}{y+z}+\\frac{x+y+z}{z+x}+\\frac{x+y+z}{x+y})%%(\\frac{x}{y+z}+\\frac{y}{z+x}+\\frac{z}{x+y}=\\frac{x+y+z}{y+z}+\\frac{x+y+z}{z+x}+\\frac{x+y+z}{x+y}-3)%%(\\frac{x+y+z}{y+z}+\\frac{x+y+z}{z+x}+\\frac{x+y+z}{x+y}-3=(x+y+z)\\left(\\frac{1}{y+z}+\\frac{1}{z+x}+\\frac{1}{x+y}\\right)-3)%<br>\\[(x+y+z)\\left(\\frac{1}{y+z}+\\frac{1}{z+x}+\\frac{1}{x+y}\\right)-3=\\frac{1}{2}[(x+y)+(y+z)+(z+x)]\\left(\\frac{1}{y+z}+\\frac{1}{z+x}+\\frac{1}{x+y}\\right)-3\\]<br>Áp dụng bất đẳng thức Cô-si cho cặp số %((x+y),(y+z),(z+x))% :<br>\\[\\begin{array}{l}{[(x+y)+(y+z)+(z+x)]\\left(\\frac{1}{y+z}+\\frac{1}{z+x}+\\frac{1}{x+y}\\right)} \\\\geq 3 \\sqrt[3]{(x+y)(y+z)(z+x)} \\cdot 3 \\cdot \\sqrt[3]{(x+y)(y+z)(z+x)} \\\\frac{1}{2}[(x+y)+(y+z)+(z+x)]\\left(\\frac{1}{y+z}+\\frac{1}{z+x}+\\frac{1}{x+y}\\right)-3 \\geq \\frac{1}{2} .9-3=\\frac{3}{2}\\end{array}\\]<br>Suy ra điều phải chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4.1",
+        "group_content": "Cho tam giác %(A B C)% vuông tại %(A, A H)% vuông góc với %(B C, A D)% là đường phân giác. Gọi %(H M, H N)% là đường phân giác của tam giác %(H A B, H A C)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(D M / / A C)% và %(A D=M B)%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3c0ab825c7ed7e25b9bf4c8b6c882106.png\" srcset=\"https://docdn.giainhanh.io/media/test/1369e5267365f89597b01c3cc7e18de4.png 218w, https://docdn.giainhanh.io/media/test/3748fed0eb2c2f538751564a3a9d9f67.png 500w\" width=\"500\"/><br>Áp dụng tính chất tia phân giác %(A D, H M)% tương ứng của tam giác %(\\triangle A B C, \\triangle A H B)% ta có<br>\\[\\frac{D B}{D C}=\\frac{A B}{A C}, \\frac{M B}{M C}=\\frac{H B}{H A}\\]<br>Xét %(\\triangle A B C, \\triangle H B A)% Có<br>%(\\left\\{\\begin{array}{l}\\widehat{A B H}=\\widehat{A B C} \\\\ \\widehat{B A C}=\\widehat{B H A}\\left(=90^{\\circ}\\right)\\end{array}\\right.)%<br>Suy ra %(\\triangle A B C \\backsim \\triangle H B A(\\mathrm{~g} . \\mathrm{g}) \\Rightarrow \\frac{D B}{D C}=\\frac{M B}{M C})%<br>Từ (1) và (2) suy ra %(\\frac{D B}{D C}=\\frac{M B}{M C})%.<br>Theo định lí Ta-lét đảo ta có MD//AC.<br>Chứng minh hoàn toàn tương tự ta có %(D N / / A B)%<br>Tứ giác %(A M D N)% có %(\\left\\{\\begin{array}{l}M D // A C \\\\ D N // A B\\end{array}\\right.)% nên %(A M D N)% là hình bình hành.<br>Lại có %(A D)% là phân giác %(M A N)% nên %(A M D N)% là hình thoi.<br>Hơn nữa, %(\\widehat{M A N}=90^{\\circ})% khi đó %(A M D N)% là hình vuông.<br>Vậy %(A D=M N)% (ĐPCM).",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Gọi %(A P, A Q)% là đường phân giác của tam giác %(A H B, A H C)%. Chứng minh rằng:<br>\\[P Q^{2}=2 P B \\cdot C Q \\text {. }\\]",
+        "question_images": [],
+        "solution": "Ta có  %(\\widehat{C A P}=\\widehat{P A H}+\\widehat{H A C})% và %(\\widehat{C A P}=\\widehat{P A B}+\\widehat{P B A})% (góc ngoài)<br>Mà %(\\widehat{P A H}=\\widehat{P A B}, \\widehat{H A C}=\\widehat{P B A})% do đó %(\\widehat{C A P}=\\widehat{C P A} \\Rightarrow \\triangle C A P)% cân ở C<br>%(\\Rightarrow CA=CP)%.<br>Tương tự: %(BA=BQ)%<br>Khi đó %(P Q=A B+A C-B C ; B P=B C-A C ; C Q=B C-A B)%<br>Suy ra<br>\\[\\begin{aligned}2 B P \\cdot C Q= & 2(B C-A C)(B C-A B) \\\\= & 2 B C^{2}-2 B C(A B+A C)+2 A B \\cdot A C \\\\& =B C^{2}+A B^{2}+A C^{2}-2 B C(A B+A C)+2 A B \\cdot A C \\\\& =B C^{2}-2 B C(A B+A C)+(A B+A C)^{2} \\\\& =(A B+A C-B C)^{2} \\\\& =P Q^{2} .\\end{aligned}\\]<br>Vậy %(P Q^{2}=2 P B . C Q)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/64e0c8cd7450d90fc3738409af762167.png\" srcset=\"https://docdn.giainhanh.io/media/test/68757b9083984c808bc194bd6dc5286f.png 244w, https://docdn.giainhanh.io/media/test/cb27e9696e3535ea7f0eb44ba69b307c.png 500w, https://docdn.giainhanh.io/media/test/36ce446a0125ed19a33e1aec18bbf85a.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "4.2 ",
+        "point": 0.5,
+        "content": "Cho tam giác đều %(A B C)%, đường cao %(A H)%. Lấy điểm %(M)% nằm giữa %(B)% và %(C)%, vẽ %(M D)% vuông góc với %(A B)% tại %(D, M E)% vuông góc với %(A C)% tại %(E)%. Tìm vị trí của điểm %(M)% trên %(B C)% để diện tích %(M D E)% Iớn nhất.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3612270c166dcf0a4cd624aca13f840f.png\" srcset=\"https://docdn.giainhanh.io/media/test/3b83fa5fb62627eab933f5c05a03bcf4.png 184w, https://docdn.giainhanh.io/media/test/d005fad2c47b11b7d9e6c659083e06e0.png 500w\" width=\"500\"/><br>Đặt %(A B=A C=B C=a, A H=h)%. Nhận xét %(a, h)% là các đại lượng không đổi.<br>Ta có %(S_{A B C}=S_{A B M}+S_{A C M}=\\frac{M D \\cdot A B}{2}+\\frac{M E \\cdot A C}{2}=\\frac{a}{2}(M D+M E) \\Rightarrow M D+M E=\\frac{2 S_{A B C}}{a})%(1)<br>Hơn nữa %(S_{A B C}=\\frac{A H \\cdot B C}{2}=\\frac{a h}{2} \\Rightarrow h=\\frac{2 S_{A B C}}{a})%(2)<br>Từ (1) và (2) suy ra %(M D+M E=h)%<br>Hạ %(E K \\perp D M)%, ta có %(S_{M D E}=\\frac{1}{2} D M . E K)%<br>Mà %(E K=M E \\cdot \\sin E M K)% và %(\\widehat{E M K}=\\widehat{C M K}+\\widehat{C M E}=\\widehat{D M B}+\\widehat{C M E}=\\left(90^{\\circ}-\\widehat{B}\\right)+\\left(90^{\\circ}-\\widehat{C}\\right)=60^{\\circ})%<br>Do đó %(S_{M D E}=\\frac{1}{2} D M \\cdot M E \\cdot \\sin 60^{\\circ}=\\frac{\\sqrt{3}}{4} \\cdot D M \\cdot M E)%<br>Áp dụng bất đẳng thức %(a b \\leq \\frac{(a+b)^{2}}{4} \\Rightarrow D M \\cdot M E \\leq \\frac{(D M+M E)^{2}}{4}=\\frac{h^{2}}{4})%<br>Khi đó %(S_{M D E}=\\frac{\\sqrt{3}}{4} \\cdot D M \\cdot M E \\leq \\frac{\\sqrt{3}}{8} \\cdot h^{2})% (không đổi)<br>Dấu \"=\" xảy ra %(\\Leftrightarrow M D=M E \\Leftrightarrow M)% là trung điểm của %(B C)%.<br>Vậy giá trị lớn nhất của %(S_{M D E})% là %(\\frac{h^{2} \\sqrt{3}}{8})% (đvdt) khi %(M)% là trung điểm của %(B C)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 0.5,
+        "content": "Bảy người câu được 100 con cá. Biết rằng không có hai người nào câu được số cá như nhau. Chứng minh rằng có ba người câu được tồng cộng không ít hơn 50 con cá.",
+        "question_images": [],
+        "solution": "Ta sắp xếp các người câu cá theo thứ tự để số cá câu được của họ giảm dần. Như thế người thứ nhất câu được nhiều cá nhất và người thứ bảy câu được ít cá nhất.<br>Nếu người thứ tư câu được không ít hơn 15 con cá, thì ba người đầu câu được không ít hơn %(16+17+18=51)% con cá.Nếu người thứ tư câu được 14 con cá hoặc ít hơn thì cả bốn người sau câu được không quá %(14+13+12+11=50)% con. Như vậy ba người đầu câu được không ít hơn 50 con.<br>Vậy ba người đầu luôn câu được tổng cộng không dưới 50 con cá.",
+        "question_type": "essay"
+    }
+]

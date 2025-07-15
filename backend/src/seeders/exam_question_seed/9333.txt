@@ -1,0 +1,112 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(M=\\left[\\frac{(a-1)^{2}}{3 a+(a-1)^{2}}-\\frac{1-2 a^{2}+4 a}{a^{3}-1}+\\frac{1}{a-1}\\right]: \\frac{a^{3}+4 a}{4 a^{2}})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Rút gọn M.",
+        "question_images": [],
+        "solution": "Điều kiện : %(a \\neq 0, a \\neq 1)%<br>\\[\\begin{array}{l}M=\\left[\\frac{(a-1)^{2}}{3 a+(a-1)^{2}}-\\frac{1-2 a^{2}+4 a}{a^{3}-1}+\\frac{1}{a-1}\\right]: \\frac{a^{3}+4 a}{4 a^{2}} \\M=\\left[\\frac{(a-1)^{2}}{a^{2}+a+1}-\\frac{1-2 a^{2}+4 a}{(a-1)\\left(a^{2}+a+1\\right)}+\\frac{1}{a-1}\\right] \\cdot \\frac{4 a^{2}}{a\\left(a^{2}+4\\right)} \\M=\\frac{(a-1)^{3}-1+2 a^{2}-4 a+a^{2}+a+1}{(a-1)\\left(a^{2}+a+1\\right)} \\cdot \\frac{4 a^{2}}{a\\left(a^{2}+4\\right)} \\M=\\frac{a^{3}-3 a^{2}+3 a-1-1+2 a^{2}-4 a+a^{2}+a+1}{(a-1)\\left(a^{2}+a+1\\right)} \\cdot \\frac{4 a^{2}}{a\\left(a^{2}+4\\right)}=\\frac{a^{3}-1}{a^{3}-1} \\cdot \\frac{4 a}{a^{2}+4}=\\frac{4 a}{a^{2}+4}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Tìm giá trị của %(a)% để %(M)% đạt giá trị lớn nhất.",
+        "question_images": [],
+        "solution": "Ta có: %(M=\\frac{4 a}{a^{2}+4}=\\frac{\\left(a^{2}+4\\right)-\\left(a^{2}-4 a+4\\right)}{a^{2}+4}=1-\\frac{(a-2)^{2}}{a^{2}+4})%<br>Vì %(\\frac{(a-2)^{2}}{a^{2}+4} \\geq 0)% với mọi a nên %(1-\\frac{(a-2)^{2}}{a^{2}+4} \\leq 1)% với mọi %(a)%<br>Dấu \" = \"xảy ra khi %(\\frac{(a-2)^{2}}{a^{2}+4}=0 \\Leftrightarrow a=2)% với mọi %(a)%<br>Vậy giá trị lớn nhất của %(M)% là 1 khi %(a=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.1 ",
+        "point": 1.5,
+        "content": "Cho %(n)% là số tự nhiên lẻ. Chứng minh %(n^{3}-n)% chia hết cho 24.",
+        "question_images": [],
+        "solution": "Ta có : %(n^{3}-n=n(n-1)(n+1))%Vì %(n,(n-1),(n+1))% là ba số tự nhiên liên tiếp nên có một số trong ba số chia hết cho 3 do đó %(\\left(n^{3}-n\\right): 3~(1))%<br>Vì %(n)% là số tự nhiên lẻ nên %(n-1)% và %(n+1)% là hai số tự nhiên chẵn liên tiếp.<br>Do đó %((n-1)(n+1) \\vdots 8~(2))%<br>Vì 3 và 8 là hai số nguyên tố cùng nhau nên kết hợp với (1) và (2) suy ra %(n^{3}-n \\vdots 24)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.2 ",
+        "point": 1.5,
+        "content": "Tìm số tự nhiên %(n)% để %(n^{2}+4 n+2013)% là số chính phương.",
+        "question_images": [],
+        "solution": "Giả sử %(n^{2}+4 n+2013=m^{2}(m \\in \\mathbb{N}))%<br>Suy ra %((n+2)^{2}+2009=m^{2} \\Leftrightarrow m^{2}-(n+2)^{2}=2009)%<br>\\[\\Leftrightarrow(m+n+2)(m-n-2)=2009\\]<br>Mặt khác: %(2009=2009.1=287.7=49.41)% và %(m+n+2\\gt m-n-2)% nên có các trường hợp sau xảy ra:<br>Th1: %(\\left\\{\\begin{array}{l}m+n+2=2009 \\\\ m-n-2=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}m=1005 \\\\ n=1002\\end{array}\\right.\\right.)%<br>Th2: %(\\left\\{\\begin{array}{l}m+n+2=287 \\\\ m-n-2=7\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}m=147 \\\\ n=138\\end{array}\\right.\\right.)%<br>Th3: %(\\left\\{\\begin{array}{l}m+n+2=49 \\\\ m-n-2=41\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}m=45 \\\\ n=2\\end{array}\\right.\\right.)%<br>Vậy các số cần tìm là %(1002,138,2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.1 ",
+        "point": 2.0,
+        "content": "Giải phương trình sau : %(|x-1|\\left(x^{2}+3 x-7\\right)=x^{3}-1)%",
+        "question_images": [],
+        "solution": "Ta có : %(|x-1|\\left(x^{2}+3 x-7\\right)=x^{3}-1)%<br>Th1: Nếu %(x \\geq 1)%, phương trình đã cho trở thành:<br>\\[\\begin{array}{l}(x-1)\\left(x^{2}+3 x-7\\right)=x^{3}-1 \\Leftrightarrow(x-1)\\left(x^{2}+3 x-7-x^{2}-x-1\\right)=0 \\\\Leftrightarrow(x-1)(2 x-8)=0 \\Leftrightarrow\\left[\\begin{array} { l } { x - 1 = 0 } \\\\{ 2 x - 8 = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=1(\\mathrm{tm}) \\x=4(\\mathrm{tm})\\end{array}\\right.\\right.\\end{array}\\]<br>Th2: Nếu %(x\\lt 1)%, phương trình đã cho trở thành :<br>\\[\\begin{array}{l}-(x-1)\\left(x^{2}+3 x-7\\right)=x^{3}-1 \\Leftrightarrow-(x-1)\\left(2 x^{2}+4 x-6\\right)=0 \\\\Leftrightarrow 2(x-1)(x-1)(x+3)=0 \\Leftrightarrow\\left[\\begin{array} { l } { x - 1 = 0 } \\\\{ x - 3 = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=1(\\mathrm{ktm}) \\x=-3(\\mathrm{tm})\\end{array}\\right.\\right.\\end{array}\\]<br>Vậy phương trình có ba nghiệm %(x=1 ; x=-3 ; x=4)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.2 ",
+        "point": 2.0,
+        "content": "Tìm phần dư của phép chia đa thức %(P(x))% cho %((x-1)(x+2))%. Biết rằng đa thức %(P(x))% chia cho %((x-1))% dư 7, chia cho %((x+2))% dư 1.",
+        "question_images": [],
+        "solution": "Do %((x-1)(x+1)=x^{2}+x-2)% là đa thức bậc hai nên phần dư của phép chia %(P(x))% cho %((x-1)(x+2))% là một đa thức có bậc nhỏ hơn 2.<br>Giả sử %(a x+b(a, b \\in \\mathbb{R}))% là phần dư cần tìm.<br>Từ giả thiết bài toán: Tồn tại các đa thức %(Q_{1}(x), Q_{2}(x), Q_{3}(x))% thỏa mãn :<br>\\[\\left\\{\\begin{array}{l}P(x)=Q_{1}(x)(x-1)(x-2)+a x+b \\P(x)=Q_{2}(x)(x-1)+7 \\P(x)=Q_{3}(x)(x+2)+1\\end{array}\\right.\\]<br>Xét %(P(1)=7=a+b ; P(2)=1=-2 a+b)% từ đó ta có hệ phương trình:<br>\\[\\left\\{\\begin{array} { l } { a + b = 7 } \\\\{ - 2 a + b = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}a=2 \\b=5\\end{array}\\right.\\right.\\]<br>Vậy phần dư cần tìm là %(2 x+5)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4.1",
+        "group_content": "Cho O trung điểm của đoạn %(A B)%. Trên cùng một nửa mặt phẳng có bờ là cạnh %(A B)% vẽ tia %(A x, B y)% cùng vuông góc với %(A B)%. Trên tia %(A x)% lấy điểm %(C)% khác A . Qua O kẻ đường thẳng vuông góc với %(O C)% cắt By tại D.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng : %(A B^{2}=4 A C \\cdot B D)%",
+        "question_images": [],
+        "solution": "Xét tam giác %(A C O)% và tam giác %(B D O)% có :<br>\\[\\begin{array}{l}\\left.\\begin{array}{l}\\angle O A C=\\angle O B D=90^{\\circ} \\\\angle A O C=\\angle O D B(\\text { cùng phụ } \\angle B O D)\\end{array}\\right\\} \\Rightarrow \\triangle A C O \\sim \\triangle B O D(\\text { g.g }) \\\\Rightarrow \\frac{O A}{B D}=\\frac{A C}{O B} \\Rightarrow O A \\cdot O B=A C \\cdot B D \\\\Rightarrow 2 O A \\cdot 2 O B=4 A C \\cdot B D \\Rightarrow A B \\cdot A B=4 A C \\cdot B D \\Rightarrow A B^{2}=4 A C \\cdot B D \\\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/cc27d35e4eaac8470d95f64f34c23b9a.png\" srcset=\"https://docdn.giainhanh.io/media/test/4a3bd956cc5757341aadb950c658033a.png 198w, https://docdn.giainhanh.io/media/test/aa03cc17680b7791247dc944512be18c.png 500w, https://docdn.giainhanh.io/media/test/980ea20ab6ebb636a61dcc7a72c0987a.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Kẻ %(O M)% vuông góc với %(C D)% tại M. Gọi K là trung điểm của %(C D)%. Chứng minh %(\\triangle K O D)% cân tại K, từ đó suy ra %(D B=D M)%",
+        "question_images": [],
+        "solution": "Dựng %(H K \\perp O D)% nên %(H K / / O C \\Rightarrow H)% là trung điểm của %(O D)%<br>Ta có %(\\Delta K H O=\\Delta K H D()%c.g.c) %(\\Rightarrow K O=K D)%.<br>Do đó %(\\triangle K H D)% cân tại K.<br>Từ đó %(\\angle K O D=\\angle K D O)% mà %(\\angle K O D=\\angle B D O)% (so le trong)<br>Nên %(\\angle K O D=\\angle B D O \\Rightarrow \\triangle O D M=\\triangle O D B)%.<br>Vậy %(D B=D M)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Tìm vị trí của C trên tia %(A x)%, để diện tích tứ giác %(A B D C)% là nhỏ nhất.",
+        "question_images": [],
+        "solution": "Theo chứng minh trên ta có %(\\triangle O D M=\\triangle O D B \\Rightarrow O M=O B=O A)% nên %(\\triangle C O M=\\triangle C O A)% %(\\Rightarrow S_{C O M}=S_{C O A} ; S_{O B D}=S_{O 1 \\triangle D} \\Rightarrow S_{C O D}=\\frac{1}{2} S_{A B D C} \\Rightarrow S_{A B D C}=2 S_{C O D})%<br>Ta có %(: S_{C O D}=\\frac{1}{2} O M \\cdot C D=\\frac{1}{2} O A \\cdot C D=\\frac{1}{2} \\cdot \\frac{A B}{2} \\cdot C D)%<br>Do đó %(S_{A B C D})% nhỏ nhất khi %(S_{C O D})% nhỏ nhất.<br>%(S_{C O D})% nhỏ nhất khi %(C D)% nhỏ nhất<br>Lại có %(C D \\geq A B)%<br>Nên %(S_{A B D C})% nhỏ nhất khi %(C D / / A B)% và cách AB một khoảng là %(\\frac{A B}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4.2 ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C)% vuông tại A . Hai tia phân giác trong %(B D)% và CE cắt nhau tại O . Chứng minh rằng %(\\frac{B D}{B O} \\cdot \\frac{C E}{C O}=2)%",
+        "question_images": [],
+        "solution": "Đặt %(B C=a, C A=b, A B=c)%. Theo tính chất phân giác ta có :<br>\\[\\frac{D C}{D A}=\\frac{B C}{B A}=\\frac{a}{c} \\Rightarrow \\frac{D C+D A}{D A}=\\frac{a+c}{c} \\Leftrightarrow D A=\\frac{b c}{a+c}\\]<br>Xét %(\\triangle A B D)% có %(O A)% là phân giác trong. Ta có :<br>\\[\\frac{D O}{B O}=\\frac{D A}{B A} \\Rightarrow \\frac{D O}{B O}=\\frac{b}{a+c} \\Rightarrow \\frac{D B}{B O}=\\frac{a+b+c}{a+c}(1)\\]<br>Chứng minh tương tự: %(\\frac{C E}{O C}=\\frac{a+b+c}{a+b}(2))%<br>Từ (1) và (2) suy ra %(\\frac{D O}{B O} \\cdot \\frac{C E}{C O}=\\frac{(a+b+c)^{2}}{(a+c)(a+b)})%<br>Mà %(\\triangle A B C)% vuông tại A nên theo Pytago có : %(c^{2}+b^{2}=a^{2})%.<br>Như vậy<br>\\[\\frac{(a+b+c)^{2}}{(a+c)(a+b)}=\\frac{a^{2}+b^{2}+c^{2}+2 a b+2 a c+2 b c}{a^{2}+a b+a c+b c}=\\frac{2\\left(a^{2}+a b+a c+b c\\right)}{a^{2}+a b+a c+b c}=2(đpcm)\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5d65c2fb9477a2b346598bb273a3e0c7.png\" srcset=\"https://docdn.giainhanh.io/media/test/b45ae5adf13de6a8f90b3735e0a994d5.png 190w, https://docdn.giainhanh.io/media/test/57b95f2527988c1c557b4729d3bd37a9.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5.1 ",
+        "point": 1.5,
+        "content": "Cho các số thực dương %(a, b, c)% thỏa mãn %(a^{2}+b^{2}+c^{2}=1)%. Chứng minh rằng %(\\frac{a^{2}}{1+2 b c}+\\frac{b^{2}}{1+2 c a}+\\frac{c^{2}}{1+2 a b} \\geq \\frac{3}{5})%.",
+        "question_images": [],
+        "solution": "Sử dụng bất đẳng thức %(x^{2}+y^{2} \\geq 2 x y)%. Ta có :<br>\\[\\begin{array}{l}\\frac{a^{2}}{1+2 b c}+\\frac{b^{2}}{1+2 c a}+\\frac{c^{2}}{1+2 a b} \\geq \\frac{a^{2}}{1+b^{2}+c^{2}}+\\frac{b^{2}}{1+c^{2}+a^{2}}+\\frac{c^{2}}{1+a^{2}+b^{2}} \\\\frac{a^{2}}{1+b^{2}+c^{2}}+\\frac{b^{2}}{1+c^{2}+a^{2}}+\\frac{c^{2}}{1+a^{2}+b^{2}}=\\frac{a^{2}}{2-a^{2}}+\\frac{b^{2}}{2-b^{2}}+\\frac{c^{2}}{2-c^{2}} \\\\=-3+2\\left(\\frac{1}{2-a^{2}}+\\frac{1}{2-b^{2}}+\\frac{1}{2-c^{2}}\\right)\\end{array}\\]<br>Lại có %(\\frac{1}{2-a^{2}}+\\frac{1}{2-b^{2}}+\\frac{1}{2-c^{2}} \\geq \\frac{9}{6-a^{2}-b^{2}-c^{2}}=\\frac{9}{5})%<br>Kết hợp lại ta được : %(\\frac{a^{2}}{1+2 b c}+\\frac{b^{2}}{1+2 a c}+\\frac{c^{2}}{1+2 a b} \\geq 5)%<br>Dấu bằng xảy ra khi %(a=b=c=\\frac{1}{\\sqrt{3}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5.2 ",
+        "point": 1.5,
+        "content": "Hình vuông có %(3 \\times 3)% ô chứa số 9 mà tổng các số ở mỗi hàng, mỗi cột, mỗi cùng đường chéo bằng nhau được gọi là hình vuông kỳ diệu. Chứng minh rằng số ở tâm một hình vuông kỳ diệu bằng trung bình cộng của hai số còn lại cùng hàng, hoặc cùng cột, hoặc cùng đường chéo.",
+        "question_images": [],
+        "solution": "Giả sử hình vuông kỳ diệu điền các số a,b,c,d,e,f,g,h,i như hình vẽ<br>Đặt %(S=a+b+c+d+e+f+g+h+i)%<br>Suy ra %(d+e+f=b+e+h=a+e+i=c+e+g=\\frac{S}{3}(1))%<br>\\[(d+e+f)+(b+e+h)+(a+e+i)+(c+e+g)=\\frac{4 S}{3} \\Rightarrow S+3 e=\\frac{4 S}{3} \\Leftrightarrow e=\\frac{S}{9}(2)\\]<br>Từ (1) và (2) %(\\Rightarrow d+f=b+h=a+i=c+g=\\frac{2 S}{9}=2 e(đpc m))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/477e243108fcc051afbac24cf09e8280.png\" srcset=\"https://docdn.giainhanh.io/media/test/168871f6ec02e3b7d69ac252edd0ef60.png 172w\" width=\"172\"/>",
+        "question_type": "essay"
+    }
+]

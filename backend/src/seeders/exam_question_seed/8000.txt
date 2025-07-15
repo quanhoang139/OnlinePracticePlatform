@@ -1,0 +1,89 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 2.0,
+        "content": "Tìm số nguyên dương %(n)% biết %(C_{n}^{0}+\\frac{1}{2} C_{n}^{1}+\\frac{1}{3} C_{n}^{2}+\\ldots+\\frac{1}{n+1} C_{n}^{n}=\\frac{2047}{11})%.",
+        "question_images": [],
+        "solution": "Xét khai triển %((1+x)^{n}=C_{n}^{0}+C_{n}^{1} x+C_{n}^{2} x^{2}+\\ldots+C_{n}^{n} x^{n})%<br>nên %(\\int_{0}^{1}(1+x)^{n} d x=\\int_{0}^{1}\\left(C_{n}^{0}+x C_{n}^{1}+x^{2} C_{n}^{2}+\\ldots+x^{n} C_{n}^{n}\\right) d x)%<br>suy ra %(C_{n}^{0}+\\frac{1}{2} C_{n}^{1}+\\frac{1}{3} C_{n}^{2}+\\ldots+\\frac{1}{n+1} C_{n}^{n}=\\frac{2^{n+1}-1}{n+1})%<br>Từ đề ra, ta có %(\\frac{2^{n+1}-1}{n+1}=\\frac{2^{10+1}-1}{10+1} \\Leftrightarrow n=10)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Một vật chuyển động theo quy luật %(s=-\\frac{1}{2} t^{3}+9 t^{2})%, với %(t)% (giây) là khoảng thời gian tính lúc bắt đầu chuyển động và %(s)% (mét) là quãng đường đi được trong khoảng thời gian đó. Hỏi khoảng thời gian 10 giây, kể từ lúc bắt đầu chuyển động, vận tốc lớn nhất của vật đạt được bằng bao nhiêu?",
+        "question_images": [],
+        "solution": "Ta có %(v(t)=s^{\\prime}(t)=-\\frac{3}{2} t^{2}+18 t)%<br>Xét hàm %(v(t))% với %(t \\in(0 ; 10) ; v^{\\prime}(t)=-3 t+18 ; v^{\\prime}(t)=0 \\Leftrightarrow t=6)%<br>Lập bảng biến thiên %(v(t))%<br>Vận tốc lớn nhất trong khoảng 10 giây kể từ lúc xuất phát là %(v(6)=54 \\mathrm{~m} / \\mathrm{s})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 1.0,
+        "content": "Cho hàm số %(f(x)=e^{x}+e^{-2 x})%. Tìm %(x)% để %(f^{\\prime}(x)+2 f(x)=3)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Ta có } f^{\\prime}(x)=e^{x}-2 e^{-2 x} \\\\ f^{\\prime}(x)+2 f(x)=3 \\Leftrightarrow e^{x}-2 e^{-2 x}+2\\left(e^{x}+e^{-2 x}\\right)=3 \\\\ \\Leftrightarrow e^{x}=1 \\Leftrightarrow x=0\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 3.0,
+        "content": "Giải bất phương trình %(\\sqrt{4 x+1}+\\sqrt{6 x+4} \\geq 2 x^{2}-2 x+3)%.",
+        "question_images": [],
+        "solution": "Điều kiện %(x \\geq \\frac{-1}{4})%<br>Với điều kiện trên bất phương trình tương đương với<br>\\[\\begin{array}{l}\\sqrt{4 x+1}-(x+1)+\\sqrt{6 x+4}-(x+2)+2\\left(2 x-x^{2}\\right) \\geq 0 \\\\Leftrightarrow \\frac{2 x-x^{2}}{\\sqrt{4 x+1}+(x+1)}+\\frac{2 x-x^{2}}{\\sqrt{6 x+4}+(x+2)}+2\\left(2 x-x^{2}\\right) \\geq 0 \\\\Leftrightarrow\\left(2 x-x^{2}\\right)\\left(\\frac{1}{\\sqrt{4 x+1}+(x+1)}+\\frac{1}{\\sqrt{6 x+4}+(x+2)}+2\\right) \\geq 0\\end{array}\\]<br>%(\\Leftrightarrow 2 x-x^{2} \\geq 0 \\Leftrightarrow x \\in[0 ; 2])%.<br>Đối chiếu điều kiện, tập nghiệm %(S=[0 ; 2])%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 2.0,
+        "content": "Tìm tham số %(m)% để hệ sau có nghiệm %(\\left\\{\\begin{array}{l}2 x^{3}-(y+2) x^{2}+x y=m \\\\ x^{2}+x-y=1-2 m\\end{array}~~~(x, y \\in \\mathbb{R})\\right.)%",
+        "question_images": [],
+        "solution": "Đặt %(u=x^{2}-x, u \\geq \\frac{-1}{4}\\left(^{*}\\right) ; v=2 x-y)%.<br>Hệ trở thành<br>\\[\\left\\{\\begin{array} { l } { u v = m } \\\\{ u + v = 1 - 2 m }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}u^{2}+(2 m-1) u+m=0(1) \\v=1-2 m-u\\end{array}\\right.\\right.\\]<br>Hệ đã cho có nghiệm khi và chỉ khi (1) có nghiệm thỏa mãn %((*))%<br>Từ %((1) \\Leftrightarrow m=\\frac{-u^{2}+u}{2 u+1})%<br>Xét hàm %(f(u)=\\frac{-u^{2}+u}{2 u+1})% với điều kiện %((*))%, ta có<br>\\[f^{\\prime}(u)=\\frac{2 u^{2}+2 u-1}{(2 u+1)^{2}} ; f^{\\prime}(u)=0 \\Leftrightarrow u=\\frac{-1+\\sqrt{3}}{2}\\]<br>Lập bảng biến thiên suy ra giá trị cần tìm là %(m \\in\\left(-\\infty ; \\frac{2-\\sqrt{3}}{2}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6:",
+        "group_content": "Cho hình chóp %(S . A B C D)% có đáy %(A B C D)% là hình chữ nhật với %(A B=a, B C=a \\sqrt{3})%. Hai mặt phẳng %((S A C))% và %((S B D))% cùng vuông góc với mặt phẳng đáy; gọi %(I)% là điểm nằm trên cạnh %(S C)% sao cho %(S C=3 I C)%. Biết %(A I)% vuông góc %(S C)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Tính thể tích khối chóp %(S . A B C D)%.",
+        "question_images": [],
+        "solution": "Ta có %(S O \\perp(A B C D) ; \\triangle S O C, \\triangle A I C)% đồng dạng với nhau<br>Suy ra %(I C . I S=O C \\cdot A C \\Rightarrow S C=a \\sqrt{6} \\Rightarrow S O=a \\sqrt{5})%<br>Thể tích khối %(S \\cdot A B C D)% là %(V=\\frac{S_{A B C D} \\cdot S O}{3}=\\frac{a^{3} \\sqrt{15}}{3})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f1315d7a6e937a52070da47b13d5e079.png\" srcset=\"https://docdn.giainhanh.io/media/test/c736ca9afca4a103237107ed709fd9ae.png 188w, https://docdn.giainhanh.io/media/test/953352f8c3b552fbe11af43fb199e183.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Tính khoảng cách giữa hai đường thẳng %(A I)% và %(S B)%.",
+        "question_images": [],
+        "solution": "Xét hệ tọa độ %(O x y z)%, sao cho %(O)% là giao điểm 2 đường chéo của %(A B C D)%,<br>\\[A\\left(\\frac{-a}{2} ; \\frac{-a \\sqrt{3}}{2} ; 0\\right), B\\left(\\frac{-a}{2} ; \\frac{a \\sqrt{3}}{2} ; 0\\right) ; C\\left(\\frac{a}{2} ; \\frac{a \\sqrt{3}}{2} ; 0\\right), S(0 ; 0 ; a \\sqrt{5})\\]<br>Khi đó %(I\\left(\\frac{a}{3} ; \\frac{a \\sqrt{3}}{3} ; \\frac{a \\sqrt{5}}{3}\\right), \\overrightarrow{A I}=\\frac{a}{6}(5 ; 5 \\sqrt{3} ; 2 \\sqrt{5})=\\frac{a}{6} \\vec{u}, \\overrightarrow{B S}=\\frac{a}{2}(1 ;-\\sqrt{3} ; 2 \\sqrt{5})=\\frac{a}{2} \\vec{v})%<br>\\[d(S B, A I)=\\frac{|[\\vec{u}, \\vec{v}] \\cdot \\overrightarrow{A B}|}{\\mid[\\vec{u}, \\vec{v}]}=\\frac{4 a \\sqrt{33}}{33}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 2.0,
+        "content": "Cho hình lăng trụ đứng %(A B C \\cdot A^{\\prime} B^{\\prime} C^{\\prime})%, đáy %(A B C)% là tam giác đều. Gọi %(\\alpha)% là góc tạo bởi %(A^{\\prime} B)% với mặt phẳng %(\\left(A C C^{\\prime} A^{\\prime}\\right))% và %(\\beta)% là góc giữa mặt phẳng %(\\left(A^{\\prime} B C^{\\prime}\\right))% với mặt phẳng %(\\left(A C C^{\\prime} A^{\\prime}\\right))%.<br>Chứng minh rằng: %(\\alpha\\lt 60^{\\circ})% và %(\\cot ^{2} \\alpha-\\cot ^{2} \\beta=\\frac{1}{3})%.",
+        "question_images": [],
+        "solution": "Gọi %(I, J)% lần lượt trung điểm %(A C)% và %(A^{\\prime} C^{\\prime})% và đặt %(A B=a, B B^{\\prime}=b)%.<br>Ta có %(B I \\perp\\left(A C C^{\\prime} A^{\\prime}\\right) \\Rightarrow \\alpha=B A^{\\prime} I)%.<br>\\[(B J I) \\perp A^{\\prime} C^{\\prime} \\Rightarrow \\beta=\\left(\\left(B A^{\\prime} C^{\\prime}\\right),\\left(A C C^{\\prime} A^{\\prime}\\right)\\right)\\]<br>Tam giác BIA' vuông tại I nên<br>\\[\\begin{array}{l}\\cot \\alpha=\\frac{A^{\\prime} I}{I B}=\\frac{\\sqrt{4 b^{2}+a^{2}}}{a \\sqrt{3}} ; \\\\Rightarrow \\cot \\alpha\\gt \\frac{\\sqrt{3}}{3},(b>0) \\Rightarrow \\alpha\\lt 60^{\\circ}\\end{array}\\]<br>Tam giác BIJ vuông tại I nên %(\\cot \\beta=\\frac{J I}{I B}=\\frac{2 b}{a \\sqrt{3}})%<br>Do đó %(\\cot ^{2} \\alpha-\\cot ^{2} \\beta=\\frac{4 b^{2}+a^{2}-4 b^{2}}{3 a^{2}}=\\frac{1}{3})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/df28483ef945ba011749f928053c1881.png\" srcset=\"https://docdn.giainhanh.io/media/test/a4a36a2ebe5b0f94b700036e142a2fb8.png 146w, https://docdn.giainhanh.io/media/test/4f8bd556eecb8ce3cb1e2ad3e44eb7a4.png 468w\" width=\"468\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 2.0,
+        "content": "Cho các số %(x_{1}, x_{2}, x_{3}, y_{1}, y_{2}, y_{3})% thỏa mãn:<br>\\[x_{1}+x_{2}+x_{3}=y_{1}+y_{2}+y_{3}=x_{1} y_{1}+x_{2} y_{2}+x_{3} y_{3}=0 ; x_{1}^{2}+x_{2}^{2}+x_{3}^{2} \\neq 0 ; y_{1}^{2}+y_{2}^{2}+y_{3}^{2} \\neq 0\\]<br>Chứng minh rằng: %(\\frac{x_{1}^{2}}{x_{1}^{2}+x_{2}^{2}+x_{3}^{2}}+\\frac{y_{1}^{2}}{y_{1}^{2}+y_{2}^{2}+y_{3}^{2}}=\\frac{2}{3})%.",
+        "question_images": [],
+        "solution": "Trong không gian Oxyz, lấy %(\\vec{v}_{1}=\\left(x_{1} ; x_{2} ; x_{3}\\right), \\vec{v}_{2}=\\left(y_{1} ; y_{2} ; y_{3}\\right), \\vec{v}_{3}=(1 ; 1 ; 1), \\vec{v}=(1 ; 0 ; 0))%.<br>Từ giả thiết ta có %(\\vec{v}_{1}, \\vec{v}_{2}, \\vec{v}_{3})% đôi một vuông góc.<br>Gọi %(\\vec{u}_{1}, \\vec{u}_{2}, \\vec{u}_{3})% lần lượt là hình chiếu của %(\\vec{v})% trên giá các vec tơ %(\\vec{v}_{1}, \\vec{v}_{2}, \\vec{v}_{3})%<br>\\[\\vec{u}_{1}^{2}=\\frac{x_{1}^{2}}{x_{1}^{2}+x_{2}^{2}+x_{3}^{2}} ; \\vec{u}_{2}^{2}=\\frac{y_{1}^{2}}{y_{1}^{2}+y_{2}^{2}+y_{3}{ }^{2}}, \\vec{u}_{3}^{2}=\\frac{1}{3} \\text { và } \\vec{v}^{2}=\\vec{u}_{1}^{2}+\\vec{u}_{2}^{2}+\\vec{u}_{3}^{2}\\]<br>Từ hai đẳng thức trên suy ra điều phải chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 9: ",
+        "point": 2.0,
+        "content": "Cho các số thực dương %(x, y, z, t)% có tích bằng 1. Chứng minh:<br>\\[\\frac{1}{(1+x)^{2}}+\\frac{1}{(1+y)^{2}}+\\frac{1}{(1+z)^{2}}+\\frac{1}{(1+t)^{2}} \\geq 1 .\\]",
+        "question_images": [],
+        "solution": "Đặt %(x=\\frac{b c}{a^{2}}, y=\\frac{c d}{b^{2}}, z=\\frac{d a}{c^{2}}, t=\\frac{a b}{d^{2}})% với %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c}, \\mathrm{d})% là các số thực dương.<br>Bất đẳng thức cần chứng minh trở thành<br>\\[\\frac{a^{4}}{\\left(a^{2}+b c\\right)^{2}}+\\frac{b^{4}}{\\left(b^{2}+c d\\right)^{2}}+\\frac{c^{4}}{\\left(c^{2}+d a\\right)^{2}}+\\frac{d^{4}}{\\left(d^{2}+a b\\right)} \\geq 1\\]<br>Theo BĐT Cauchy-Schwarz<br>\\[\\frac{a^{4}}{\\left(a^{2}+b c\\right)^{2}}+\\frac{c^{4}}{\\left(c^{2}+d a\\right)^{2}} \\geq \\frac{a^{4}}{\\left(a^{2}+b^{2}\\right)\\left(a^{2}+c^{2}\\right)}+\\frac{c^{4}}{\\left(c^{2}+a^{2}\\right)\\left(c^{2}+d^{2}\\right)} \\geq \\frac{a^{2}+c^{2}}{a^{2}+b^{2}+c^{2}+d^{2}}\\]<br>Tương tự %(\\frac{b^{4}}{\\left(b^{2}+c d\\right)^{2}}+\\frac{d^{4}}{\\left(d^{2}+a b\\right)} \\geq \\frac{b^{2}+d^{2}}{a^{2}+b^{2}+c^{2}+d^{2}})%<br>Cộng theo vế hai BĐT trên ta có điều phải chứng minh.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,88 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho parabol %((P): y=a x^{2}+b x-1)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Tìm các giá trị của %(a ; b)% để parabol có đỉnh %(S\\left(\\frac{-3}{2} ; \\frac{-11}{2}\\right))%.",
+        "question_images": [],
+        "solution": "Do Parabol nên %(a\\gt 0)% và có trục đối xứng %(x=\\frac{-k}{2 a}=-\\frac{3}{2})% nên %(3 a-b=0)%.<br>Tọa độ đỉnh có tung độ là %(y=-\\frac{\\Delta}{4 a})% mà %(\\Delta=b^{2}+4 a)% nên ta có: %(b^{2}+4 a=22 a)% hay %(b^{2}-18 a=0)%<br>Ta có hệ pt %(\\left\\{\\begin{array}{l}3 a-b=0 \\\\ b^{2}-18 a=0\\end{array}\\right.)% thế vào ta được: %(\\dot{b}^{2}-6 b=0 \\Rightarrow b=0 ; b=6)%<br>Nếu %(b=0 \\Rightarrow a=0)% loại.<br>Nếu %(b=6 \\Rightarrow a=2)% thỏa mãn.<br>Vậy %(a=2 ; b=6)% là giá trị cần tìm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Với giá trị của %(a ; b)% tìm được ở câu 1 , tìm giá trị của %(k)% để đường thẳng %(\\Delta: y=x(k+6)+1)% cắt parabol tại hai điểm phân biệt %(M ; N)% sao cho trung điểm của đoạn thẳng %(M N)% nằm trên đường thẳng %(d: 4 x+2 y-3=0)%.",
+        "question_images": [],
+        "solution": "Để đường thẳng cắt Parabol tại hai điểm phân biệt thì pt<br>\\[2 x^{2}+6 x-1=k x+6 x+1 \\text { có hai nghiệm phân biệt } x_{1}: x_{2} \\text {, }\\]<br>hay pt: %(2 x^{2}-k x-2=0)% có hai nghiệm phân biệt %(x_{1 i} x_{\\Omega})% có %(\\Delta-k^{2}+16\\gt 0)%<br>Khi đó, giao điểm %(M\\left(x_{1}(k+6) x_{1}+1\\right), N\\left(x_{2}(k+6) x_{2}+1\\right))%, nên trung điểm của đoạn %(U N)% là %(I\\left(\\frac{x_{2}+x_{2}}{2}, \\frac{(k+6) x_{2}+1+(k+6) x_{2}+1}{2}\\right))%.<br>Theo định lý Viet ta có %(x_{1}+x_{2}=\\frac{k}{2})% nên %(I\\left(\\frac{k}{4} ; \\frac{2+3 k+\\frac{1}{2} k^{2}}{2}\\right))%<br>Do %(\\mathrm{I})% thuộc đường thẳng %(4 x+2 y-3=0)% nên %(k^{2}+8 k-2=0)% hay %(k=-4 \\pm \\sqrt{18})% thì thỏa mãn bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho tam giác đều %(A B C)% và các điểm %(M, N, P)% thỏa mãn %(\\overrightarrow{B M}=k \\overrightarrow{B C}, \\overrightarrow{C N}=\\frac{2}{3} \\overrightarrow{C A})%, %(\\overrightarrow{A P}=\\frac{4}{15} \\overrightarrow{A B})%. Tìm %(k)% để %(A M)% vuông góc với %(P N)%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" src=\"https://docdn.giainhanh.io/media/test/d1ff3a1198ce26171c1dc6840bcad409.png\"/><br>%(\\begin{array}{l}+) \\overrightarrow{B M}=k \\overrightarrow{B C} \\Leftrightarrow \\overrightarrow{A M}-\\overrightarrow{A B}=k(\\overrightarrow{A C}-\\overrightarrow{A B}) \\\\ \\Leftrightarrow \\overrightarrow{A M}=(1-k) \\overrightarrow{A B}+k \\overrightarrow{A C} . \\\\ +) \\overrightarrow{P N}=\\overrightarrow{A N}-\\overrightarrow{A P}=-\\frac{4}{15} \\overrightarrow{A B}+\\frac{1}{3} \\overrightarrow{A C}\\end{array})%<br>%(\\begin{array}{l}\\text { Để } A M \\text { vuông góc với } P N \\text { thì } \\overrightarrow{A M} \\cdot \\overrightarrow{P N}=0 \\\\ \\Leftrightarrow[(1-k) \\overrightarrow{A B}+k \\overrightarrow{A C}]\\left(-\\frac{4}{15} \\overrightarrow{A B}+\\frac{1}{3} \\overrightarrow{A C}\\right)=0 \\\\ \\Leftrightarrow \\frac{-4(1-k)}{15} A B^{2}+\\frac{k}{3} A C^{2}+\\left(\\frac{1-k}{3}-\\frac{4 k}{15}\\right) \\overrightarrow{A B} \\overrightarrow{A C}=0 \\\\ \\Leftrightarrow \\frac{-4(1-k)}{15}+\\frac{k}{3}+\\left(\\frac{1-k}{3}-\\frac{4 k}{15}\\right) \\cos 60^{\\circ}=0 \\\\ \\Leftrightarrow k=\\frac{1}{3} \\\\ \\text { KL: } k=\\frac{1}{3}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 3.0,
+        "content": "Tìm %(\\mathrm{m})% để phương trình %(\\sqrt{\\mathrm{x}+6 \\sqrt{\\mathrm{x}-9}}+\\mathrm{m} \\sqrt{\\mathrm{x}+2 \\sqrt{\\mathrm{x}-9}-8}=\\mathrm{x}+\\frac{3 \\mathrm{~m}+1}{2})% có hai nghiệm %(x_{1}, x_{2})% sao cho %(x_{1}\\lt \\mathbf{1 0}\\lt x_{2})%",
+        "question_images": [],
+        "solution": "\\[P T \\Leftrightarrow \\sqrt{x-9}+3+m(\\sqrt{x-9}+1)=x+\\frac{3 m+1}{2} \\text { đặt } t=\\sqrt{x-9}, t \\geq 0\\]<br>PT trở thành :<br>\\[t+3+m(t+1)=t^{2}+9+\\frac{3 m+1}{2} \\Leftrightarrow 2 t^{2}-2(m+1) t+m+13=0\\]<br>%(\\mathrm{PT})% ban đầu có nghiệm %(\\mathrm{x}_{1}\\lt \\mathbf{1 0}\\lt \\mathrm{x}_{2})%<br>%(\\Leftrightarrow)% (1) có nghiệm %(0 \\leq t_{1}\\lt 1\\lt t_{2} \\Leftrightarrow\\left\\{\\begin{array}{l}\\Delta^{\\prime}\\gt 0 \\\\ \\left(t_{1}-1\\right)\\left(t_{2}-1\\right)\\lt 0 \\\\ t_{1}+t_{2}>0\\end{array}\\right.)%<br>\\[\\Leftrightarrow\\left\\{\\begin{array} { l } { ( m + 1 ) ^ { 2 } - 2 ( m + 1 3 ) > 0 } \\\\{ \\frac { m + 1 3 } { 2 } - m - 1 + 1 \\lt 0 } \\\\{ m + 1 > 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}m^{2}-25>0 \\\\13-m\\lt 0 \\m>-1\\end{array} \\Leftrightarrow m>13\\right.\\right.\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 3.0,
+        "content": "Giải phương trình %(x=\\sqrt{3-x} \\cdot \\sqrt{4-x}+\\sqrt{4-x} \\cdot \\sqrt{5-x}+\\sqrt{5-x} \\cdot \\sqrt{3-x})%",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\leq 3)%<br>Đặt %(\\sqrt{3-x}=a ; \\sqrt{4-x}=b ; \\sqrt{5-x}=c)% với %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là số thực không âm.<br>Ta có %(x=3-a^{2}=4-b^{2}=5-c^{2}=a . b+b . c+c . a)%<br>Do đó<br>\\[\\left\\{\\begin{array} { l } { 3 - a ^ { 2 } = a b + b c + c a } \\\\{ 4 - b ^ { 2 } = a b + b c + c a } \\\\{ 5 - c ^ { 2 } = a b + b c + c a }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}(a+b)(c+a)=3 \\\\(b+c)(a+b)=4 \\\\(c+a)(b+c)=5\\end{array}\\right.\\right.\\]<br>Nhân từng vế ba phương trình ta được<br>\\[(a+b)(b+c)(c+a)=2 \\sqrt{15}\\]<br>Suy ra %(\\left\\{\\begin{array}{l}a+b=\\frac{2 \\sqrt{15}}{5} \\\\ b+c=\\frac{2 \\sqrt{15}}{3} \\\\ c+a=\\frac{2 \\sqrt{15}}{4}\\end{array} \\Rightarrow a+b+c=\\frac{\\sqrt{15}}{5}+\\frac{\\sqrt{15}}{4}+\\frac{\\sqrt{15}}{3}\\right.)%<br>Suy ra %(x=\\frac{671}{240})%.<br>Thử lại %(x=\\frac{671}{240})% thỏa mãn phương trình.<br>Vậy phương trình có nghiệm duy nhất là %(x=\\frac{671}{240})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 3.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x^{2}+y^{2}-2 y-6+2 \\sqrt{2 y+3}=0 \\\\ (x-y)\\left(x^{2}+x y+y^{2}+3\\right)=3\\left(x^{2}+y^{2}\\right)+2\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x^{2}+y^{2}-2 y-6+2 \\sqrt{2 y+3}=0\\space(1) \\\\ (x-y)\\left(x^{2}+x y+y^{2}+3\\right)=3\\left(x^{2}+y^{2}\\right)+2\\space (2)\\end{array}\\right.)%<br>ĐКХĐ: %(y \\geq-1,5)%.<br>(2) %(\\Leftrightarrow)%<br>\\[x^{3}-y^{3}+3 x-3 y=3\\left(x^{2}+y^{2}\\right)+2 \\Leftrightarrow(x-1)^{3}=(y+1)^{3} \\Leftrightarrow x-1=y+1 \\Leftrightarrow y=x-2\\]<br>Thay vào pt thứ nhất ta được:<br>\\[x^{2}-3 x+1=-\\sqrt{2 x-1} \\Leftrightarrow\\left(x-\\frac{1}{2}\\right)^{2}=\\left(\\sqrt{2 x-1}-\\frac{1}{2}\\right)^{2} \\Leftrightarrow\\left[\\begin{array}{l}\\sqrt{2 x-1}=1-x \\\\sqrt{2 x-1}=x\\end{array}\\right.\\]<br>(Có thể bình phương được pt: %((x-1)^{2}\\left(x^{2}-4 x+2\\right)=0)% )<br>Giải hai pt này ta được %(x=1, x=2-\\sqrt{2})%<br>Vậy hệ có hai nghiệm là %((x ; y)=(1 ;-1),(2-\\sqrt{2},-\\sqrt{2}))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình vuông %(A B C D)% cạnh có độ dài là %(a)%. Gọi %(E ; F)% là các điểm xác định bởi %(\\overrightarrow{B E}=\\frac{1}{3} \\overrightarrow{B C}, \\overrightarrow{C F}=-\\frac{1}{2} \\overrightarrow{C D})%, đường thẳng %(B F)% cắt đường thẳng %(A E)% tại điểm %(I)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Tính giá trị của %(\\overrightarrow{E A} \\cdot \\overrightarrow{C E})% theo %(a)%",
+        "question_images": [],
+        "solution": "Ta có %(C E=\\frac{2 a}{3})%;<br>Ta có %(A E^{2}=A B^{2}+B E^{2}=a^{2}+\\frac{a^{2}}{q}=\\frac{20 a^{2}}{q})% nên %(A E=\\frac{a \\pi \\pi}{3})%<br>Mặt khác: %(\\overline{E A} . \\overline{C E}=E A, C E, \\cos \\overline{A E Z})%<br>Trong tam giác vuông %(E A E)% ta có %(\\cos \\overrightarrow{A E B}=\\frac{E I}{\\Delta I}=\\frac{1}{\\sqrt{2 N}})%<br>Nên %(\\overrightarrow{E A} \\cdot \\overrightarrow{C E}=E A \\cdot C E \\cdot \\cos \\overrightarrow{A E B}=\\frac{a \\sqrt{I D}}{2} \\cdot \\frac{2 a}{2} \\cdot \\frac{1}{2}=\\frac{2}{2} a^{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Chứng minh rằng %(\\widehat{A I C}=90^{\\circ})%.",
+        "question_images": [],
+        "solution": "Ta có %(\\overrightarrow{A E}=\\overrightarrow{A B}+\\frac{1}{3} \\overrightarrow{A D})%. Giả sử %(\\overrightarrow{B L}=k \\overrightarrow{B F}, k \\in R)%.<br>\\[\\overrightarrow{A l}=\\overrightarrow{A B}+\\overrightarrow{B l}=\\overrightarrow{A B}+k \\overrightarrow{B F}=\\overrightarrow{A B}+(\\overrightarrow{B C}+\\overrightarrow{C F})=\\left(1+\\frac{k}{2}\\right) \\overrightarrow{A B}+k \\overrightarrow{A D}\\]<br>Do %(A_{i} E_{;} I)% thẳng hàng nên: %(\\left(1+\\frac{k}{2}\\right): 1=k: \\frac{1}{3})% nên %(k=\\frac{2}{6})%<br>Nên %(\\overrightarrow{A I}=\\frac{\\xi}{8} \\overrightarrow{A B}+\\frac{2}{2} \\overrightarrow{A D})%; và<br>\\[\\overrightarrow{C l}=\\overrightarrow{A l}-\\overrightarrow{A C}=\\frac{6}{8} \\overrightarrow{A B}+\\frac{2}{8} \\overrightarrow{A D}-\\overrightarrow{A B}-\\overrightarrow{A D}=\\frac{1}{8} \\overrightarrow{A B}-\\frac{8}{8} \\overrightarrow{A D}\\]<br>Nên %(\\overrightarrow{A l} . \\overrightarrow{c l}=\\left(\\frac{6}{6} \\overrightarrow{A B}+\\frac{2}{6} \\overrightarrow{A D}\\right)\\left(\\frac{1}{6} \\overrightarrow{A B}-\\frac{3}{6} \\overrightarrow{A D}=\\frac{6}{26} a^{2}-\\frac{6}{26} a^{2}=0\\right.)% nên %(A I C=90^{\\circ})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Cho các số dương %(a, b, c)% có %(a+b+c=3)%. Tìm giá trị nhỏ nhất của biểu thức<br>\\[P=\\frac{a \\sqrt{a}}{\\sqrt{2 c+a+b}}+\\frac{b \\sqrt{b}}{\\sqrt{2 a+b+c}}+\\frac{c \\sqrt{c}}{\\sqrt{2 b+c+a}} \\text {. }\\]",
+        "question_images": [],
+        "solution": "Suy ra: %(\\frac{a \\sqrt{a}}{\\sqrt{2 c+a+b}} \\geq \\frac{3 a}{4}-\\frac{c+3}{16})%<br>Tương tự %(\\frac{b \\sqrt{b}}{\\sqrt{2 a+b+c}} \\geq \\frac{3 b}{4}-\\frac{a+3}{16})% và %(\\frac{c \\sqrt{c}}{\\sqrt{2 b+a+c}} \\geq \\frac{3 c}{4}-\\frac{b+3}{16})%<br>Cộng các vế tương ứng của ba %(\\mathrm{BĐT})% cùng chiều ta được %(P \\geq \\frac{3}{2})%,<br>\\[P=\\frac{3}{2} \\text { khi } \\mathrm{a}=\\mathrm{b}=\\mathrm{c}=1 . \\mathrm{KL}\\]",
+        "question_type": "essay"
+    }
+]

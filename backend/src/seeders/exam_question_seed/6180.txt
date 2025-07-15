@@ -1,0 +1,104 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(\\sin 5 x+\\sqrt{3} \\cos 5 x=2)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\sin 5 x+\\sqrt{3} \\cos 5 x=2 \\\\ \\Leftrightarrow \\frac{1}{2} \\sin 5 x+\\frac{\\sqrt{3}}{2} \\cos 5 x=1 \\\\ \\Leftrightarrow \\sin \\left(5 x+\\frac{\\pi}{3}\\right)=1 \\\\ \\Leftrightarrow 5 x+\\frac{\\pi}{3}=\\frac{\\pi}{2}+k 2 \\pi \\\\ \\Leftrightarrow 5 x=\\frac{\\pi}{6}+k 2 \\pi \\\\ \\Leftrightarrow x=\\frac{\\pi}{30}+\\frac{k 2 \\pi}{5}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2:",
+        "group_content": "Trên giá sách có 18 quyên sách khác nhau gồm 10 quyển sách Toán và 8 quyển sách Văn. Lấy ngẫu nhiên 5 quyển sách. Tính xác suất sao cho:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a)  ",
+        "point": 0.5,
+        "content": "a) Trong 5 quyển sách được chọn có đúng 2 quyển sách Toán.",
+        "question_images": [],
+        "solution": "A “ 5 quyền sách được chọn có đúng 2 quyền sách Toán\"<br>\\[P(A)=\\frac{C_{10}^{2} \\cdot C_{8}^{3}}{C_{18}^{5}}=\\frac{5}{17}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.5,
+        "content": "b) Trong 5 quyển sách được chọn có ít nhất 3 quyển sách Văn.",
+        "question_images": [],
+        "solution": "B “ 5 quyển sách được chọn có ít nhất 3 quyển sách Văn.\"<br>\\[P(\\mathrm{~B})=\\frac{C_{8}^{3} \\cdot C_{10}^{2}+C_{8}^{4} \\cdot C_{10}^{1}+C_{8}^{5}}{C_{18}^{5}}=\\frac{13}{34}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c)  ",
+        "point": 0.5,
+        "content": "c) Trong 5 quyển có cả hai loại Toán và Văn.",
+        "question_images": [],
+        "solution": "%(\\mathrm{C})% \"Trong 5 quyển có cả hai loại Toán và Văn.\"<br>\\[P(\\mathrm{C})=\\frac{C_{18}^{5}-C_{10}^{5}-C_{8}^{5}}{C_{18}^{5}}=\\frac{295}{306}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 1.0,
+        "content": "Tìm hệ số của %(x^{8})% trong khai triển %(\\left(2-8 x^{2}\\right)^{12})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\left(2-8 x^{2}\\right)^{12}=\\sum_{k=0}^{12} C_{12}^{k} \\cdot 2^{12-k} \\cdot\\left(-8 x^{2}\\right)^{k} \\\\=\\sum_{k=0}^{12} C_{12}^{k} \\cdot 2^{12-k} \\cdot(-8)^{k} \\cdot x^{2 k}\\end{array}\\]<br>Hệ số chứa %(x^{8} \\Rightarrow 2 k=8 \\Leftrightarrow k=4)%<br>Vậy hệ số chứa %(x^{8})% là: %(C_{8}^{4} \\cdot 2^{8} \\cdot(-8)^{4}=73400320)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 1.0,
+        "content": "Tìm số hạng không chứa %(\\mathrm{x})% trong khai triển %(\\left(x^{4}-\\frac{2}{x}\\right)^{10})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\left(x^{4}-\\frac{2}{x}\\right)^{10}=\\sum_{k=0}^{10} C_{10}^{K} \\cdot\\left(x^{4}\\right)^{10-K} \\cdot\\left(-\\frac{2}{x}\\right)^{K} \\\\=\\sum_{k=0}^{10} C_{10}^{K} \\cdot\\left(x^{4}\\right)^{10-K} \\cdot(-2)^{K} \\cdot x^{-K} \\\\=\\sum_{k=0}^{10} C_{10}^{K} \\cdot(-2)^{K} \\cdot x^{40-5 K}\\end{array}\\]<br>Số hạng không chứa %(\\mathrm{x} \\Rightarrow 40-5 K=0 \\Leftrightarrow k=8)%<br>Vậy số hạng không chứa %(x)% là: %(C_{10}^{8} \\cdot(-2)^{8}=12520)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 1.5,
+        "content": "Cho cấp số cộng %(\\left(u_{n}\\right))% biết %(\\left\\{\\begin{array}{l}u_{3}+u_{5}-u_{2}=17 \\\\ u_{4}+u_{7}-u_{6}=14\\end{array}\\right.)%. Tìm số hạng đầu tiên %(u_{1})%; công sai d; số hạng thứ 39 và tổng của 58 số hạng đầu tiên của cấp số cộng trên.",
+        "question_images": [],
+        "solution": "Tìm số hạng đầu tiên và công sai:<br>\\[\\begin{array}{l}\\left\\{\\begin{array} { l } { u _ { 3 } + u _ { 5 } - u _ { 2 } = 1 7 } \\\\{ u _ { 4 } + u _ { 7 } - u _ { 6 } = 1 4 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}u_{1}+2 d+u_{1}+4 d-u_{1}-d=17 \\u_{1}+3 d+u_{1}+6 d-u_{1}-5 d=14\\end{array}\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { u _ { 1 } + 5 d = 1 7 } \\\\{ u _ { 1 } + 4 d = 1 4 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}u_{1}=2 \\d=3\\end{array}\\right.\\right.\\end{array}\\]<br>Số hạng thứ %(39: u_{39}=u_{1}+38 . d=2+38.3=116)%<br>Tổng của 58 số hạng đầu tiên:<br>\\[\\begin{array}{l}S_{58}=\\frac{\\left(u_{1}+u_{58}\\right) \\cdot n}{2}=\\frac{\\left[u_{1}+u_{1}+57 d\\right] \\cdot 58}{2} \\\\=\\frac{[2+2+57 \\cdot 3] \\cdot 58}{2}=5075\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6:",
+        "group_content": "Cho hình chóp %(S . A B C D)%, có đáy %(A B C D)% là hình bình hành tâm %(O)%.Gọi %(\\mathrm{I}, \\mathrm{J}, \\mathrm{K})% lần lượt là trung điểm của %(\\mathrm{SA}, \\mathrm{SB}, \\mathrm{BC})%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Tìm giao tuyến của %((\\mathrm{SAK}))% và %((\\mathrm{SBD}))%; %((SAB))% và %((SDC))% .",
+        "question_images": [],
+        "solution": "Ta có: %(S \\in(S A K) \\cap(S B D))%<br>Trong mặt phẳng %((\\mathrm{ABCD}))%, có %(\\mathrm{AK})% cắt %(\\mathrm{BD})% tại %(\\mathrm{E})%.<br>%(\\begin{array}{l}E \\in A K \\subset(S A C) \\\\ E \\in B D \\subset(S B D) \\\\ \\Rightarrow \\mathrm{E} \\in(S A K) \\cap(\\mathrm{SBD}) \\\\ \\Rightarrow \\mathrm{SE}=(S A K) \\cap(\\mathrm{SBD}) \\\\ \\left.\\begin{array}{l}S=(S A B) \\cap(S C D) \\\\ A B / / C D \\\\ A B \\subset(S A B) \\\\ C D \\subset(S C D)\\end{array}\\right\\} \\Rightarrow(S A B) \\cap(S C D)=S x / / A B / / C D \\\\end{array})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c5575912194a6f284245c70af5d22dbc.png\" srcset=\"https://docdn.giainhanh.io/media/test/6111ac853092c41c0bd7906cf6e9e927.png 245w, https://docdn.giainhanh.io/media/test/f3549a672b32acea6e230fb624a9e31b.png 500w, https://docdn.giainhanh.io/media/test/8b1600f6c0498466ec812ab268840db1.png 750w, https://docdn.giainhanh.io/media/test/2c4fc2d01b1321d2dd9bdd2dc6b4574c.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b)  ",
+        "point": 1.0,
+        "content": "b) Chứng minh %(\\mathrm{OI} / /(\\mathrm{SDC}))% và %(\\mathrm{OJ} / /(\\mathrm{SAD}))%.",
+        "question_images": [],
+        "solution": "%(\\triangle S A C: O I / / S S C)% (OI là đường trung bình của tam giác %(\\mathrm{SAC}))%<br>Mà:<br>\\[\\left.\\begin{array}{l}O I \\not \\subset(S D C) \\S C \\subset(S D C)\\end{array}\\right\\} \\Rightarrow O I / /(S D C)\\]<br>%(\\triangle S B D: O J / / S D)% (OJ là đường trung bình của tam giác %(\\mathrm{SBD})% )<br>Mà:<br>\\[\\left.\\begin{array}{l}O J \\not \\subset(S A D) \\S D \\subset(S D C)\\end{array}\\right\\} \\Rightarrow O J / /(S B D)\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c)  ",
+        "point": 1.0,
+        "content": "c) %(\\mathrm{M})% là một điềm thuộc cạnh %(\\mathrm{SC})%. Tìm giao điểm của %(\\mathrm{AM})% với (SBD).",
+        "question_images": [],
+        "solution": "Chọn mặt phẳng (SAC) chứa AM.<br>Tìm giao tuyến của %((\\mathrm{SAC}))% và %((\\mathrm{SBD}))% ?<br>\\[\\left.\\begin{array}{l}S \\in(S A C) \\cap(S B D) \\O \\in(S A C) \\cap(S B D)\\end{array}\\right\\} \\Rightarrow S O=(S A C) \\cap(S B D)\\]<br>Trong (ABCD), gọi %(N=S O \\cap A M)%<br>\\[\\left.\\Rightarrow \\begin{array}{l}N \\in A M \\N \\in S O \\subset(S B D)\\end{array}\\right\\} \\Rightarrow N=A M \\cap(S B D)\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "d) ",
+        "point": 1.0,
+        "content": "d) Tìm thiết diện của mặt phẳng %((\\mathrm{P}))% với hình chóp %(\\mathrm{S} . \\mathrm{ABCD})% biết %((\\mathrm{P}))% đi qua %(\\mathrm{O})% và song song %(A D)% và %(S C)% ?",
+        "question_images": [],
+        "solution": "Qua %(\\mathrm{O})%, kẻ %(G F / / A D(E \\in A B ; F \\in C D))%<br>Qua F, kẻ Fx // SC, cắt SD ở H<br>\\[\\begin{array}{l}\\rightarrow(\\mathrm{P}) \\text { là }(\\mathrm{GHF}) \\\\(G H F) \\cap(A B C D)=G F ;(G H F) \\cap(S C D)=F H \\\\(G H F) \\cap(S A D)=I H ;(G H F) \\cap(S A B)=I G\\end{array}\\]<br>%(\\rightarrow)% Thiê̂t diện của %((\\mathrm{P}))% với %(\\mathrm{S}.ABCD)% là tứ giác %(FHIG)%",
+        "question_type": "essay"
+    }
+]

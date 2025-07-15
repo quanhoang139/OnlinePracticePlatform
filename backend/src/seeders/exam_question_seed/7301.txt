@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức: %(\\mathrm{P}=\\frac{x+1}{\\sqrt{x}}+\\frac{x \\sqrt{x}-1}{x-\\sqrt{x}}+\\frac{x^{2}-x \\sqrt{x}+\\sqrt{x}-1}{\\sqrt{x}-x \\sqrt{x}})%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 3.0,
+        "content": "a) Rút gọn %(\\mathrm{P})%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { ĐKXĐ: } x\\gt 0 ; x \\neq 1 \\text {. } \\\\=\\frac{x+1}{\\sqrt{x}}+\\frac{x+\\sqrt{x}+1}{\\sqrt{x}}+\\frac{\\sqrt{x}-1-x}{\\sqrt{x}} \\\\=\\frac{x+1+x+\\sqrt{x}+1+\\sqrt{x}-1-x}{\\sqrt{x}} \\\\=\\frac{(\\sqrt{x}+1)^{2}}{\\sqrt{x}} \\\\end{array}\\]<br>Rút gọn: %(\\mathrm{P}=\\frac{x+1}{\\sqrt{x}}+\\frac{(\\sqrt{x}-1)(x+\\sqrt{x}+1)}{\\sqrt{x}(\\sqrt{x}-1)}+\\frac{\\sqrt{x}(1-x)-\\left(1-x^{2}\\right)}{\\sqrt{x}(1-x)})%<br>Vậy %(\\mathrm{P}=\\frac{(\\sqrt{x}+1)^{2}}{\\sqrt{x}})% với %(x>0 ; x \\neq 1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Tính giá trị của biểu thức %(\\mathrm{P})% tại %(|\\mathrm{x}-1|=\\sqrt{4-\\sqrt{12}}+\\sqrt{19-\\sqrt{192}})%",
+        "question_images": [],
+        "solution": "Ta có: %(|x-1|=\\sqrt{4-\\sqrt{12}}-\\sqrt{19-\\sqrt{192}})%<br>\\[\\begin{array}{c}|x-1|=3 . \\\\Leftrightarrow \\mathrm{x}-1=3 \\text { hoặc } \\mathrm{x}-1=-3 \\\\Leftrightarrow \\mathrm{x}=4 \\text { hoặc } \\mathrm{x}=-2 .\\end{array}\\]<br>Vì %(x=4)% thỏa mãn đkxđ nên ta có:<br>Giá trị của biểu thức %(\\mathrm{P})% là:<br>\\[P=\\frac{(\\sqrt{4}+1)^{2}}{\\sqrt{4}}=\\frac{9}{2}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tìm %(\\mathrm{x})% để %(Q=\\frac{6}{P})% nhận giá trị nguyên.",
+        "question_images": [],
+        "solution": "Vói ĐKXĐ: %(x\\gt 0 ; x \\neq 1)%.<br>Ta có: %(Q=\\frac{6}{P}=\\frac{6 \\sqrt{x}}{(\\sqrt{x}+1)^{2}}>0)% mọi x thuộc %(d k x đ)%.<br>Mặt khác: %(Q-3=\\frac{6 \\sqrt{x}}{(\\sqrt{x}+1)^{2}}-3=\\frac{6 \\sqrt{x}-3(\\sqrt{x}+1)^{2}}{(\\sqrt{x}+1)^{2}})%<br>\\[=\\frac{6 \\sqrt{x}-3(\\mathrm{x}+2 \\sqrt{x}+1)}{(\\sqrt{x}+1)^{2}}=\\frac{-3(x+1)}{(\\sqrt{x}+1)^{2}}\\lt \\mathbf{0} \\text { mọi } \\mathrm{x} \\text { thuộc đkxđ }\\]<br>Nên : %(\\mathrm{Q}\\lt 3)% mọi %(\\mathrm{x})% thuộc đkxđ.<br>Vậy : %(0\\lt \\mathrm{Q}\\lt 3)% với mọi %(x>0 ; x \\neq 1)%.<br>Vì %(\\mathrm{Q})% nhận giá trị nguyên nên %(\\mathrm{Q}=1)% hoặc %(\\mathrm{Q}=2)%.<br>\\[\\begin{array}{l}+\\mathrm{Q}=1 \\Leftrightarrow \\frac{6 \\sqrt{x}}{(\\sqrt{x}+1)^{2}}=1 \\Leftrightarrow \\mathrm{x}-4 \\sqrt{x}+1=0 \\\\Leftrightarrow(\\sqrt{x}-2)^{2}=3 \\\\Leftrightarrow \\mathrm{x}=(2 \\pm \\sqrt{3})^{2}(\\mathrm{t} / \\mathrm{m} \\text { đkxđ }) \\\\+\\mathrm{Q}=2 \\Leftrightarrow \\frac{6 \\sqrt{x}}{(\\sqrt{x}+1)^{2}}=2 \\Leftrightarrow \\mathrm{x}-\\sqrt{x}+1=0 . \\text { PT vô nghiệm. }\\end{array}\\]<br>Vậy với %(\\mathrm{x}=(2 \\pm \\sqrt{3})^{2})% thì %(\\mathrm{Q})% nhận giá trị nguyên.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.a ",
+        "point": 1.5,
+        "content": "Chứng minh rằng với mọi %(\\mathrm{n} \\in \\mathrm{N})% và %(\\mathrm{n}\\gt 2)% thì %(\\mathrm{n}^{4}-\\mathrm{n}+2)% không phải là số chính phương.",
+        "question_images": [],
+        "solution": "Đặt %(M=\\mathrm{n}^{4}-\\mathrm{n}+2)%<br>Ta có: %(M=n^{4}-(n-2)\\lt \\left(n^{2}\\right)^{2}()% vì %(n\\gt 2)% nên %(n-2>0))%<br>Mặt khác: %(\\mathrm{A}=\\mathrm{n}^{4}-2 \\mathrm{n}^{2}+1+2 \\mathrm{n}^{2}-\\mathrm{n}+1=\\left(\\mathrm{n}^{2}-1\\right)^{2}+\\left(2 \\mathrm{n}^{2}-\\mathrm{n}+1\\right))% %(\\Rightarrow M>\\left(\\mathrm{n}^{2}-1\\right)^{2} \\quad\\left(\\right.)% vì %(\\left.2 \\mathrm{n}^{2}-\\mathrm{n}+1=2\\left(\\mathrm{n}-\\frac{1}{4}\\right)^{2}+\\frac{7}{8}>0\\right))% %(=>\\left(\\mathrm{n}^{2}-1\\right)^{2}\\lt \\mathrm{M}\\lt \\left(\\mathrm{n}^{2}\\right)^{2})%.<br>Vậy %(\\mathrm{M})% không là số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.b ",
+        "point": 1.5,
+        "content": "Giải phương trình nghiệm nguyên: %(3\\left(\\mathrm{y}^{2}-8 \\mathrm{x}\\right)=3-4 \\mathrm{x}^{2})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}3\\left(y^{2}-8 x\\right)=3-4 x^{2} \\\\Leftrightarrow 4 x^{2} 24 x+36-36=3-3 y^{2} \\\\Leftrightarrow 4(x-3)^{2}=3\\left(13-y^{2}\\right)(1)\\end{array}\\]<br>Ta thấy %(3\\left(13-\\mathrm{y}^{2}\\right) \\vdots 4)%, suy ra: %(\\left(13-\\mathrm{y}^{2}\\right) \\vdots 2=\\gt \\mathrm{y})% lẻ.<br>Ta lại có: %(7-\\mathrm{y}^{2} \\geq 0)% nên suy ra %(\\mathrm{y}^{2}=1 ; \\mathrm{y}^{2}=9)%<br>Khi đó (1) có dạng: %(4(x-3)^{2}=36)% hoặc %(4(x-3)^{2}=12)% ( Loại)<br>\\[=>x-3= \\pm 3 \\text { do đó } x=6 \\text { hoặc } x=0 \\text {. }\\]<br>Vậy các cặp %((x, y):(6 ; 1),(6 ;-1),(0 ; 1), 0 ;-1))% thỏa mãn (1) là nghiệm của PT đã cho.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %((\\sqrt{x+1}+1)(5-x)=2 x)%",
+        "question_images": [],
+        "solution": "ĐK: %(x \\geq-1)%.Ta thấy %(\\mathrm{x}=0)% không phải là nghiệm của %(\\mathrm{PT})% (1) .<br>Với %(x \\neq 0)% ta nhân 2 vế của PT (1) với %(((\\sqrt{x+1}-1))% ta có:<br>\\[\\begin{array}{l}(\\sqrt{x+1}-1)(\\sqrt{x+1}+1)(5-\\mathrm{x})=2 \\mathrm{x}(\\sqrt{x+1}-1) \\\\Leftrightarrow(\\mathrm{x}+1-1)(5-\\mathrm{x})=2 \\mathrm{x}(\\sqrt{x+1}-1) \\\\Leftrightarrow \\mathrm{x}(5-\\mathrm{x})=2 \\mathrm{x}(\\sqrt{x+1}-1) \\\\Leftrightarrow(5-\\mathrm{x})=2(\\sqrt{x+1}-1)(\\text { do } x \\neq 0) \\\\Leftrightarrow \\mathrm{x}+2 \\sqrt{x+1}-7=0 \\\\Leftrightarrow(\\sqrt{x+1}+1)^{2}=9 \\\\Leftrightarrow \\sqrt{x+1}+1=3(\\text { do } \\sqrt{x+1}+1\\gt 0 \\text { vợi mọi } x \\geq-1 .) \\\\Leftrightarrow \\sqrt{x+1}=2 \\\\Leftrightarrow \\mathrm{x}+1=4 \\\\Leftrightarrow \\mathrm{x}=3(\\mathrm{t} / \\mathrm{m} \\text { dk })\\end{array}\\]<br>Vậy phương trình có nghiệm là: %(\\mathrm{x}=3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho %(\\triangle \\mathrm{ABC})% vuông tại %(\\mathrm{A} ; \\mathrm{BC}=2 \\mathrm{a}(\\mathrm{cm}))%. Đường cao %(\\mathrm{AH})%. Gọi %(\\mathrm{D}, \\mathrm{E})% lần lượt là hình chiếu của %(\\mathrm{H})% trên %(\\mathrm{AC}, \\mathrm{AB})%. Chứng minh rằng :",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 3.0,
+        "content": "a) %(\\mathrm{AB} \\cdot \\mathrm{EB}+\\mathrm{AC} \\cdot \\mathrm{EH}=\\mathrm{AB}^{2})%",
+        "question_images": [],
+        "solution": "Chứng minh: %(\\mathrm{AB} . \\mathrm{EB}+\\mathrm{AC} . \\mathrm{EH}=\\mathrm{AB}^{2})%<br>Xét tứ giác %(\\mathrm{ADHE})% có: %(\\hat{A}=\\widehat{D}=\\widehat{E}=90^{\\circ})%%(\\Rightarrow \\mathrm{ADHE})% là hình chữ nhật %(\\Rightarrow \\mathrm{HE}=\\mathrm{AD})%.<br>Áp dụng hệ thức về cạnh và đường cao trong:%(\\triangle \\mathrm{AHB})% vuông tại %(\\mathrm{H})%, đường cao %(\\mathrm{HE})% ta có: %(\\mathrm{BH}^{2}=\\mathrm{BA} . \\mathrm{BE})% (1)<br>%(\\triangle \\mathrm{AHC})% vuông tại %(\\mathrm{H})%, đường cao %(\\mathrm{HD})% ta có: %(\\mathrm{AH}^{2}=\\mathrm{AD} . \\mathrm{AC})%<br>Mà %(\\mathrm{HE}=\\mathrm{AD})% nên %(\\mathrm{AH}^{2}=\\mathrm{AD} \\cdot \\mathrm{AC}=\\mathrm{AC} \\cdot \\mathrm{HE})% (2)<br>Từ (1) và (2) suy ra:%(\\mathrm{AB} . \\mathrm{EB}+\\mathrm{AC} . \\mathrm{EH}=\\mathrm{BH}^{2}+\\mathrm{AH}^{2}=\\mathrm{AB}^{2}(\\mathrm{dpc} / \\mathrm{m}))%<br><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4dc92f7a5384329d50b5f11e2732735d.png\" srcset=\"https://docdn.giainhanh.io/media/test/14ce8c0bc874dc9ad81e689cff547643.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Qua điểm %(\\mathrm{B})% vẽ đường thẳng song song với %(\\mathrm{AC})%, qua điểm %(\\mathrm{C})% vẽ đường thảng song song với %(\\mathrm{AB})%, hai đường thẳng này cắt nhau tại %(\\mathrm{M})%. Gọi %(\\mathrm{N})% và %(\\mathrm{K})% lần lượt là trung điểm của %(\\mathrm{BM})% và %(\\mathrm{HC})%. Chứgn minh %(\\mathrm{AK})% vuông góc với %(\\mathrm{KN})%.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{O})% là giao điềm của %(\\mathrm{AH})% và %(\\mathrm{ED})%.<br>Chứng minh được %(\\mathrm{OK})% là đường trung bình của tam giác %(\\mathrm{AHC})%<br>Chứng minh được tứ giác %(\\mathrm{BNKO})% là hinh bình hành để suy ra %(\\mathrm{BO})% song song với %(\\mathrm{NK})%<br>- Chứng minh được %(\\mathrm{O})% là trực tâm của tam giác %(\\mathrm{ABK})%<br>- Chứng minh được %(\\mathrm{BO})% vuông góc với %(\\mathrm{AK})% để suy ra %(\\mathrm{NK})% vuông góc với AK%(\\underline{C})%, Tìm giá trị lớn nhất của: diện tích tứ giác %(\\mathrm{ADHE})%.<br>%(\\triangle \\mathrm{ABC})% vuông tại %(\\mathrm{A})%, trung tuyến %(\\mathrm{AM})% ta có: %(\\mathrm{AM}=\\frac{1}{2} \\mathrm{BC}=\\mathrm{a}(\\mathrm{cm}))%<br>Xét %(\\triangle \\mathrm{ABH})% vuông tại %(\\mathrm{H})% có: %(\\mathrm{AH}{ }^{2}=\\mathrm{AE} . \\mathrm{AB} \\Rightarrow \\mathrm{AE}=\\frac{A H^{2}}{A B})%<br>Tương tự: %(\\mathrm{AD}=\\frac{A H^{2}}{A C})%<br>Do đó: %(S_{A D H E}=A E \\cdot A D=\\frac{A H^{2}}{A B} \\cdot \\frac{A H^{2}}{A C}=\\frac{A H^{4}}{A B \\cdot A C}=\\frac{A H^{4}}{A H \\cdot B C}=\\frac{A H^{3}}{B C} \\leq \\frac{A M^{3}}{B C}=\\frac{a^{3}}{2 a}=\\frac{a^{2}}{2})%Dấu \" %(=)% \" xảy ra %(\\Leftrightarrow \\mathrm{AH} \\equiv \\mathrm{AM} \\Leftrightarrow \\mathrm{H} \\equiv \\mathrm{M})%%(\\Leftrightarrow \\triangle \\mathrm{ABC})% vuông cân tại %(\\mathrm{A})%.<br>Vậy %(\\max S_{\\text {ADHE }}=\\frac{a^{2}}{2} \\Leftrightarrow \\Delta \\mathrm{ABC})% vuông cân tại %(\\mathrm{A})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Tìm giá trị lớn nhất của diện tích tứ giác %(\\mathrm{ADHE})%.",
+        "question_images": [],
+        "solution": "Ta có %(2\\left(a^{2}+b^{2}\\right) \\geq(a+b)^{2})%. Suy ra:<br>\\[\\frac{a^{2}}{b+c}+\\frac{b^{2}}{c+a}+\\frac{c^{2}}{a+b} \\geq \\frac{a^{2}}{\\sqrt{2\\left(b^{2}+c^{2}\\right)}}+\\frac{b^{2}}{\\sqrt{2\\left(c^{2}+a^{2}\\right)}}+\\frac{c^{2}}{\\sqrt{2\\left(c^{2}+a^{2}\\right)}}\\]<br>Đặt %(x=\\sqrt{b^{2}+c^{2}}, y=\\sqrt{c^{2}+a^{2}}, z=\\sqrt{a^{2}+b^{2}})%,suy ra %(V T \\geq \\frac{y^{2}+z^{2}-x^{2}}{2 \\sqrt{2} x}+\\frac{z^{2}+x^{2}-y^{2}}{2 \\sqrt{2} y}+\\frac{x^{2}+y^{2}-z^{2}}{2 \\sqrt{2} z})%<br>\\[\\begin{array}{l}\\geq \\frac{1}{2 \\sqrt{2}}\\left[\\left(\\frac{(y+z)^{2}}{2 x}-x\\right)+\\left(\\frac{(z+x)^{2}}{2 y}-y\\right)+\\left(\\frac{(x+y)^{2}}{2 z}-z\\right)\\right] \\\\=\\frac{1}{2 \\sqrt{2}}\\left[\\left(\\frac{(y+z)^{2}}{2 x}+2 x-3 x\\right)+\\left(\\frac{(z+x)^{2}}{2 y}+2 y-3 y\\right)+\\left(\\frac{(x+y)^{2}}{2 z}+2 z-3 z\\right)\\right] \\\\geq \\frac{1}{2 \\sqrt{2}}[(2(y+z)-3 x)+(2(z+x)-3 y)+(2(x+y-3 z)]\\end{array}\\]<br>Suy ra %(V T \\geq \\frac{1}{2 \\sqrt{2}}(x+y+z)=\\frac{1}{2} \\sqrt{\\frac{2015}{2}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho ba số dương %(\\mathrm{a}, \\mathrm{b})%, %(\\mathrm{c})% thoả mãn: %(\\sqrt{a^{2}+b^{2}}+\\sqrt{b^{2}+c^{2}}+\\sqrt{c^{2}+a^{2}}=\\sqrt{2015})%.<br>Chứng minh rằng: %(\\frac{a^{2}}{b+c}+\\frac{b^{2}}{c+a}+\\frac{c^{2}}{a+b} \\geq \\frac{1}{2} \\sqrt{\\frac{2015}{2}})%.",
+        "question_images": [],
+        "solution": "Ta có %(2\\left(a^{2}+b^{2}\\right) \\geq(a+b)^{2})%. Suy ra:<br>\\[\\frac{a^{2}}{b+c}+\\frac{b^{2}}{c+a}+\\frac{c^{2}}{a+b} \\geq \\frac{a^{2}}{\\sqrt{2\\left(b^{2}+c^{2}\\right)}}+\\frac{b^{2}}{\\sqrt{2\\left(c^{2}+a^{2}\\right)}}+\\frac{c^{2}}{\\sqrt{2\\left(c^{2}+a^{2}\\right)}}\\]<br>Đặt %(x=\\sqrt{b^{2}+c^{2}}, y=\\sqrt{c^{2}+a^{2}}, z=\\sqrt{a^{2}+b^{2}})%,<br>\\[\\begin{array}{l}\\text { suy ra } V T \\geq \\frac{y^{2}+z^{2}-x^{2}}{2 \\sqrt{2} x}+\\frac{z^{2}+x^{2}-y^{2}}{2 \\sqrt{2} y}+\\frac{x^{2}+y^{2}-z^{2}}{2 \\sqrt{2} z} \\\\geq \\frac{1}{2 \\sqrt{2}}\\left[\\left(\\frac{(y+z)^{2}}{2 x}-x\\right)+\\left(\\frac{(z+x)^{2}}{2 y}-y\\right)+\\left(\\frac{(x+y)^{2}}{2 z}-z\\right)\\right] \\\\=\\frac{1}{2 \\sqrt{2}}\\left[\\left(\\frac{(y+z)^{2}}{2 x}+2 x-3 x\\right)+\\left(\\frac{(z+x)^{2}}{2 y}+2 y-3 y\\right)+\\left(\\frac{(x+y)^{2}}{2 z}+2 z-3 z\\right)\\right] \\\\geq \\frac{1}{2 \\sqrt{2}}[(2(y+z)-3 x)+(2(z+x)-3 y)+(2(x+y-3 z)]\\end{array}\\]<br>Suy ra %(V T \\geq \\frac{1}{2 \\sqrt{2}}(x+y+z)=\\frac{1}{2} \\sqrt{\\frac{2015}{2}})%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,81 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Tồn tại hay không các số nguyên tố %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% thỏa mãn điều kiện %(\\mathrm{a}^{\\mathrm{b}}+2011=\\mathrm{c})%",
+        "question_images": [],
+        "solution": "Giả sử tồn tại 3 số nguyên tố %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% thỏa mãn điêu kiện: %(a^{b}+2011=c)%<br>Khi đó ta có: %(c\\gt 2011 \\Rightarrow c)% là số nguyên tố lẻ<br>\\[\\begin{array}{l}\\Rightarrow a^{b} \\text { chẵn } \\\\Rightarrow a=2\\end{array}\\]<br>+) Nếu %(b=2)% thì %(c=2^{2}+2011=2015: 5 \\Rightarrow c)% là hợp số (trái với giả thiết)<br>+) Nếu %(b \\geq 3)% thì là số nguyên tố lẻ %(\\Rightarrow b=2 k+3)% (với %(k \\in N)% )<br>\\[\\Rightarrow a^{b}=2^{2 k+3}=2^{2 \\pi} . 2^{3}\\]<br>Vì %(2^{2 \\mathrm{k}} \\equiv 1(\\bmod 3))% và %(2^{3} \\equiv-1(\\bmod 3))%<br>\\[\\Rightarrow \\mathrm{a}^{\\mathrm{b}}=2^{2 \\mathrm{k}}.2^{3} \\equiv-1(\\bmod 3)\\]<br>Lại có: %(2011 \\equiv 1(\\bmod 3))%<br>%(\\Rightarrow c=a^{b}+2011 \\equiv 0(\\bmod 3) \\Rightarrow c)% là hợp số (trái với giả thiết)<br>Vậy không tồn tại các số nguyên tố %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% thỏa mãn điều kiện %(a^{b}+2011=c)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Tìm giá trị nguyên của %(x, y)% thỏa mãn %(x^{2}-4 x y+5 y^{2}=2(x-y))%",
+        "question_images": [],
+        "solution": "Ta có: %(x^{2}-4 x y+5 y^{2}=2(x-y))%<br>\\[\\Leftrightarrow\\left(4 y^{2}+x^{2}+1-4 x y-2 x+4 y\\right)+\\left(y^{2}-2 y+1\\right)=2\\]<br>\\[\\begin{array}{c}\\Leftrightarrow(2 y-x+1)^{2}+(y-1)^{2}=1^{2}+1^{2} \\\\Leftrightarrow\\left\\{\\begin{array} { l } { ( 2 y - x + 1 ) ^ { 2 } = 1 ^ { 2 } } \\\\{ ( y - 1 ) ^ { 2 } = 1 ^ { 2 } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}2 y-x+1= \\pm 1 \\y-1= \\pm 1\\end{array}\\right.\\right. \\\\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}2 y-x+1=1 \\y-1=1\\end{array}\\right. \\\\left\\{\\begin{array} { l } { 2 y - x + 1 = - 1 } \\\\{ y - 1 = - 1 } \\\\{ \\{ \\begin{array} { l } { 2 y - x + 1 = - 1 } \\\\{ y - 1 = 1 }\\end{array} } \\\\{ \\{ \\begin{array} { l } { 2 y - x + 1 = 1 } \\\\{ y - 1 = - 1 }\\end{array} }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=4 \\y=2\\end{array}\\right.\\right. \\\\left\\{\\begin{array}{l}x=2 \\y=0\\end{array}\\right. \\\\left\\{\\begin{array}{l}x=6 \\y=2\\end{array}\\right.\\end{array}\\right. \\\\left\\{\\begin{array}{l}x=0 \\y=0\\end{array}\\right.\\end{array}\\]<br>Vậy %((x ; y) \\in\\{(4 ; 2) ;(2 ; 0) ;(6 ; 2) ;(0 ; 0) ;\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 3.0,
+        "content": "Giải phương trình: %(10 x^{2}+3 x+1=(6 x+1) \\sqrt{x^{2}+3})%",
+        "question_images": [],
+        "solution": "Ta có: %(10 x^{2}+3 x+1=(6 x+1) \\sqrt{x^{2}+3})%<br>\\[\\begin{array}{l}\\Leftrightarrow 40 x^{2}+12 x+4=4(6 x+1) \\sqrt{x^{2}+3} \\\\Leftrightarrow\\left(36 x^{2}+12 x+1\\right)-4(6 x+1) \\sqrt{x^{2}+3}+4\\left(x^{2}+3\\right)-9=0 \\\\Leftrightarrow(6 \\mathrm{x}+1)^{2}-2 .(6 \\mathrm{x}+1). 2 \\sqrt{\\mathrm{x}^{2}+3}+\\left(2 \\sqrt{\\mathrm{x}^{2}+3}\\right)^{2}=9 \\\\Leftrightarrow\\left(6 x+1-2 \\sqrt{x^{2}+3}\\right)^{2}=9 \\\\Leftrightarrow\\left\\{\\begin{array}{l}6 x+1-2 \\sqrt{x^{2}+3}=3 \\\\6 x+1-2 \\sqrt{x^{2}+3}=-3\\end{array}\\right.\\end{array}\\]<br>* Trường hợp 1:<br>%(6 x+1-2 \\sqrt{x^{2}+3}=3 \\Leftrightarrow 2 \\sqrt{x^{2}+3}=6 x-2 \\Leftrightarrow \\sqrt{x^{2}+3}=3 x-1)%<br>\\[\\Leftrightarrow\\left\\{\\begin{array} { l } { \\mathrm { x } + 3 \\geq 0 } \\\\{ \\mathrm { x } ^ { 2 } + 3 = 9 \\mathrm { x } ^ { 2 } - 6 \\mathrm { x } + 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x \\geq \\frac { 1 } { 3 } } \\\\{ 4 x ^ { 2 } - 3 x - 1 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x \\geq \\frac{1}{3} \\\\{\\left[\\begin{array}{l}x-1=0 \\\\4 x+1=0\\end{array}\\right.}\\end{array} \\Leftrightarrow x=1\\right.\\right.\\right.\\]<br>* Trường hợp 2: %(6 x+1-2 \\sqrt{x^{2}+3}=-3 \\Leftrightarrow 2 \\sqrt{x^{2}+3}=6 x+4 \\Leftrightarrow \\sqrt{x^{2}+3}=3 x+2)%<br>Vậy phương trình có hai nghiệm là: %(x=1)% và %(x=\\frac{-3+\\sqrt{7}}{4})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/57f42b9096379210073aabcb3b9337f5.png\" srcset=\"https://docdn.giainhanh.io/media/test/a031eedfabd2de84a64ef82817b330c0.png 245w, https://docdn.giainhanh.io/media/test/2c019f016862b1d2ba8a5a5563acd61a.png 500w, https://docdn.giainhanh.io/media/test/9f6594a19c3e438bfe33b763c8646f54.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 3.0,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% thỏa mãn %(2 \\mathrm{a}+\\mathrm{b}+\\mathrm{c}=0)%. Chứng minh %(2 a^{3}+b^{3}+c^{3}=3 a(a+b)(c-b))%",
+        "question_images": [],
+        "solution": "Ta có: %(2 a+b+c=0 \\Rightarrow a+b=-(a+c))%<br>\\[\\begin{array}{l}\\Rightarrow(a+b)^{3}=-(a+c)^{3} \\ \\\\Rightarrow 2 a^{3}+b^{3}+c^{3}=-3 a\\left(a c+c^{2}+a b+b^{2}\\right) \\\\Rightarrow 2 a^{3}+b^{3}+c^{3}=-3 a[c(a+c)+b(a+b)] \\\\Rightarrow 2 a^{3}+b^{3}+c^{3}=-3 a[-c(a+b)+b(a+b)]~(\\text {Vì } a+b=-(a+c))\\end{array}\\]<br>\\[\\begin{array}{l}\\Rightarrow 2 a^{3}+b^{3}+c^{3}=-3 a(a+b)(b-c) \\\\Rightarrow 2 a^{3}+b^{3}+c^{3}=3 a(a+b)(c-b) .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 3.0,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là các số thực dương. Chứng minh rằng:<br>\\[\\frac{b c}{a^{2}(b+c)}+\\frac{c a}{b^{2}(c+a)}+\\frac{a b}{c^{2}(a+b)} \\geq \\frac{1}{2 a}+\\frac{1}{2 b}+\\frac{1}{2 c}\\]",
+        "question_images": [],
+        "solution": "Áp dụng bất đằng thức Cô-Sy cho hai số dương, ta có:<br>\\[\\begin{array}{l}\\frac{b c}{a^{2}(b+c)}+\\frac{b+c}{4 b c} \\geq 2 \\sqrt{\\frac{b c}{a^{2}(b+c)} . \\frac{b+c}{4 b c}}=\\frac{1}{a} \\\\Rightarrow \\frac{b c}{a^{2}(b+c)} \\geq \\frac{1}{a}-\\frac{1}{4 b}-\\frac{1}{4 c}~~~~~(1)\\end{array}\\]<br>Tương tự: %(\\frac{c a}{b^{2}(c+a)} \\geq \\frac{1}{b}-\\frac{1}{4 c}-\\frac{1}{4 a}~~~~~(2))%<br>\\[\\frac{a b}{c^{2}(a+b)} \\geq \\frac{1}{c}-\\frac{1}{4 a}-\\frac{1}{4 b}~~~~~(3)\\]<br>Cộng vế theo vế các bất đẳng thức (1), (2) và (3) ta được:<br>\\[\\begin{array}{l}\\Rightarrow \\frac{b c}{a^{2}(b+c)}+\\frac{c a}{b^{2}(c+a)}+\\frac{a b}{c^{2}(a+b)} \\geq\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)-\\left(\\frac{1}{2 a}+\\frac{1}{2 b}+\\frac{1}{2 c}\\right) \\\\Rightarrow \\frac{b c}{a^{2}(b+c)}+\\frac{c a}{b^{2}(c+a)}+\\frac{a b}{c^{2}(a+b)} \\geq \\frac{1}{2 a}+\\frac{1}{2 b}+\\frac{1}{2 c} \\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho tam giác nhọn %(A B C~(A B\\lt A C))%. Ba đường cao %(A D, B E)% và %(C F)% cắt nhau tại H. Gọi I là giao điểm EF và %(A H)%. Đường thẳng qua I và song song với %(B C)% cắt %(A B, B E)% lần lượt tại %(\\mathrm{B})% và Q.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 3.0,
+        "content": "a) Chứng minh: %(\\triangle A E F \\sim \\triangle A B C)%.",
+        "question_images": [],
+        "solution": "+) Ta có: %(\\triangle A E F \\sim \\triangle A B C~(g-g) \\Rightarrow \\frac{A E}{\\mathrm{AF}}=\\frac{A B}{A C})%<br>+) Xét %(\\triangle A E F)% và %(\\triangle A B C)%, có:<br>\\[\\left.\\begin{array}{l}E A F=B A C~(\\text {góc chung }) \\\\frac{A E}{\\mathrm{AF}}=\\frac{A B}{A C} \\text {  }\\end{array}\\right\\} \\Rightarrow \\triangle A E F \\sim \\triangle A B C~(c-g-c)\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/76676d68db8c5791ac3733042e68f6ab.png\" srcset=\"https://docdn.giainhanh.io/media/test/0fa7fae50096131e042472a0b692348c.png 190w, https://docdn.giainhanh.io/media/test/ab75ad5b93ee2dadcf0cba74232ee44a.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Chứng minh: %(I P=I Q)%",
+        "question_images": [],
+        "solution": "+) Kẻ AK và HN vuông góc với %(\\mathrm{EF}~(K ; N \\in \\mathrm{EF}))%<br>+) Ta có: %(A K / / H N)% (cùng vuông góc với %(E F)% )<br>\\[\\Rightarrow \\frac{L A}{I H}=\\frac{A K}{H N}=\\frac{\\frac{1}{2} A K . E F}{\\frac{1}{2} H N. E F}=\\frac{S_{\\triangle A E F}}{S_{\\triangle H E F}}~~~~~(1)\\]<br>+) Lại có: %(\\frac{A D}{H D}=\\frac{\\frac{1}{2} A D .B C}{\\frac{1}{2} H D .\\mathrm{BC}}=\\frac{S_{\\triangle A B C}}{S_{\\triangle H B C}}~~~~~(2)\\)%<br>+) Mặt khác: %(\\triangle E H C \\sim \\Delta F H B~(g-g) \\Rightarrow \\frac{H E}{H C}=\\frac{H F}{H B} \\Rightarrow \\frac{H E}{H F}=\\frac{H C}{H B})% %(\\Rightarrow \\triangle \\mathrm{HEF} \\sim \\triangle \\mathrm{HCB}~(\\mathrm{c}-\\mathrm{g}-\\mathrm{c}) \\Rightarrow \\frac{\\mathrm{S}_{\\triangle \\mathrm{HEF}}}{\\mathrm{S}_{\\triangle \\mathrm{HCB}}}=\\left(\\frac{\\mathrm{EF}}{\\mathrm{BC}}\\right)^{2})%<br>+) Và %(\\triangle A E F \\sim \\triangle A B C \\Rightarrow \\frac{S_{\\triangle A \\mathrm{FF}}}{S_{\\triangle A B C}}=\\left(\\frac{\\mathrm{EF}}{B C}\\right)^{2})%<br>\\[\\Rightarrow \\frac{S_{\\triangle H E F}}{S_{\\triangle H C B}}=\\frac{S_{\\triangle A E F}}{S_{\\triangle A B C}}=\\left(\\frac{\\mathrm{EF}}{B C}\\right)^{2} \\Rightarrow \\frac{S_{\\triangle A \\mathrm{FF}}}{S_{\\triangle H E F}}=\\frac{S_{\\triangle A B C}}{S_{\\triangle H B C}}~~~~~(3)\\]<br>Từ (1), (2) và (3) %(\\Rightarrow \\frac{I A}{I H}=\\frac{A D}{H D} \\Rightarrow \\frac{A I}{A D}=\\frac{H I}{H D}~~~~~(*))%<br>+) Vì %(P Q / / B C)% nên áp dụng quan hệ định lý Ta-Lét, ta có:<br>%(\\frac{\\mathrm{IP}}{\\mathrm{DB}}=\\frac{\\mathrm{AI}}{\\mathrm{AD}})% và %(\\frac{\\mathrm{IQ}}{\\mathrm{DB}}=\\frac{\\mathrm{HI}}{\\mathrm{HD}} \\quad(* *))%<br>Từ %(\\left({ }{*}\\right))% và %((* *) \\Rightarrow \\frac{\\mathrm{P}}{\\mathrm{DB}}=\\frac{\\mathrm{IQ}}{\\mathrm{DB}} \\Rightarrow \\mathrm{IP}=\\mathrm{IQ})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) Gọi M là trung điểm của %(A H)%. Chứng minh I là trực tâm của tam giác %(B M C)%.",
+        "question_images": [],
+        "solution": "+) Ta có: %(\\frac{A I}{A D}=\\frac{H I}{H D} \\Rightarrow \\frac{H I}{H D}=\\frac{H I+A I}{H D+A D})%<br>+) Vì %(M)% là trung điểm cùa %(A H \\Rightarrow H I+A I=A H=2 M A)%<br>+) Và %(H D+A D=A H+2 H D=2 M H+2 H D=2 M D)%<br>\\[\\begin{array}{l}\\Rightarrow \\frac{H I}{H D}=\\frac{2 M A}{2 M D}=\\frac{M A}{M D} \\Rightarrow \\frac{H I}{H D}+1=\\frac{M A}{M D}+1 \\\\Rightarrow \\frac{I D}{H D}=\\frac{A D}{M D} \\Rightarrow I D .M D=A D . H D~~~~~(3)\\end{array}\\]<br>+) Lại có:<br>\\[\\Delta \\mathrm{DHB} \\sim \\triangle \\mathrm{DCA}~(\\mathrm{g}-\\mathrm{g}) \\Rightarrow \\frac{\\mathrm{DH}}{\\mathrm{DC}}=\\frac{\\mathrm{DB}}{\\mathrm{DA}} \\Rightarrow \\mathrm{DB} . \\mathrm{CD}=\\mathrm{AD} .\\mathrm{HD}~~~~~(4)\\]<br>Từ (3) và %((4) \\Rightarrow \\mathrm{ID} . \\mathrm{MD}=\\mathrm{BD} .\\mathrm{CD} \\Rightarrow \\frac{\\mathrm{ID}}{\\mathrm{BD}}=\\frac{\\mathrm{CD}}{\\mathrm{MD}})%<br>\\[\\begin{array}{l}\\Rightarrow \\triangle D I B \\sim \\triangle D C M~(c-g-c) \\Rightarrow \\widehat{D I B}=\\widehat{D C M}=\\widehat{B C J} \\\\Rightarrow \\widehat{B C J}+\\widehat{C B J}=\\widehat{D I B}+\\widehat{D B I}=90^{\\circ} \\Rightarrow B J \\perp M C\\end{array}\\]<br>+) Mặt khác: %(M D \\perp B C)%<br>+) Mà %(B J)% cắt MD tại I suy ra I là trực tâm của %(\\triangle \\mathrm{BMC})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Trong mặt phẳng cho 6 điểm %(A_{1} ; A_{2} ; A_{3} ; A_{4} ; A_{5} ; A_{6})% trong đó không có ba điểm nào thẳng hàng. Với ba điểm bất kỳ trong số 6 điểm này luôn tìm được hai điểm mà khoàng cách giữa chúng nhỏ hơn 673. Chứng minh rằng trong sáu điểm đã cho luôn tìm được ba điểm là ba đỉnh một tam giác có chu vi nhỏ hơn 2019.",
+        "question_images": [],
+        "solution": "- Tổng số đoạn thẳng được sinh ra từ 6 điểm đã cho là: %(5+4+3+2+1=15)% (đoạn thẳng)<br>- Trong 15 đoạn thẳng trên các đoạn thẳng %(A_{m} A_{n})% (với %(\\left.m ; n \\in\\{1 ; 2 ; 3 ; 4 ; 5 ; 6\\} ; 6\\right\\})% ) có độ dài nhỏ hơn 673 được tô bởi màu đỏ. Các đoạn thẳng còn lại được tô bởi màu xanh.<br>- Khi đó, trong một tam giác bất kì luôn tồn tại một cạnh màu đỏ và các tam giác có 3 cạnh được tô cùng màu đỏ có chu vi nhỏ hơn 2019.<br>- Vì thế, ta chỉ cần chứng minh luôn tồn tại một tam giác có 3 cạnh đều là màu đỏ.<br>- Thật vậy: Nối điểm %(A_{1})% với 5 điểm còn lại ta được 5 đoạn thẳng gồm%(\\mathrm{A}_{1} \\mathrm{~A}_{2} ; \\mathrm{A}_{1} \\mathrm{~A}_{3} ; \\mathrm{A}_{1} \\mathrm{~A}_{4} ; \\mathrm{A}_{1} \\mathrm{~A}_{5} ; \\mathrm{A}_{1} \\mathrm{~A}_{6})%<br>- Theo nguyên lí Dirichlet trong 5 đoạn thẳng này luôn tồn tại 3 đoạn thẳng được tô cùng màu.<br>- Không mất tính tổng quát, Giả sử %(\\mathrm{A}_{1} \\mathrm{~A}_{2} ; \\mathrm{A}_{1} \\mathrm{~A}_{3} ; \\mathrm{A}_{1} \\mathrm{~A}_{4})% có cùng màu xanh, khi đó tam giác %(\\mathrm{A}_{2} \\mathrm{~A}_{3} \\mathrm{~A}_{4})% có 3 cạnh được tô cùng màu đỏ (vì trong một tam giác bất kì luôn tồn tại một cạnh màu đỏ)<br>- Nếu 3 đoạn thẳng %(\\mathrm{A}_{1} \\mathrm{~A}_{2} ; \\mathrm{A}_{1} \\mathrm{~A}_{3} ; \\mathrm{A}_{1} \\mathrm{~A}_{4})% có cùng màu đỏ, khi đó tam giác %(\\mathrm{A}_{2} \\mathrm{~A}_{3} \\mathrm{~A}_{4})% có một cạnh được tô bởi màu đỏ (trong một tam giác bất kì luôn tồn tại một cạnh màu đỏ). Giả sử cạnh %(\\mathrm{A}_{2} A_{4})% được tô bởi màu đỏ, Ta có tam giác %(A_{1} A_{2} A_{3})% có 3 cạnh được tô cùng màu đỏ.<br>- Bài toán được chứng minh.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/8a1637d3d8161808459ae6d7567566df.png\" srcset=\"https://docdn.giainhanh.io/media/test/ea343e4fab2143aab0e5c952f427f654.png 245w, https://docdn.giainhanh.io/media/test/aedc9aa17ecbc803b856010cd61b0a48.png 500w, https://docdn.giainhanh.io/media/test/e2a725fd2bbf6b428abe0d4736c39c9c.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,143 @@
+[
+    {
+        "title": "1",
+        "group_content": "Giải các phương trình lượng giác sau:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) %(2 \\cos x-\\sqrt{3}=0)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\Leftrightarrow \\cos x=\\frac{\\sqrt{3}}{2} \\\\ \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{\\pi}{6}+k 2 \\pi \\\\ x=-\\frac{\\pi}{6}+k 2 \\pi\\end{array}(k \\in \\mathbb{Z}) .\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) %(\\sqrt{3} \\sin x+\\cos x=1)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\sqrt{3} \\sin x+\\cos x=1 \\Leftrightarrow \\sin \\left(x+\\frac{\\pi}{6}\\right)=\\frac{1}{2} \\\\ \\Leftrightarrow\\left[\\begin{array}{l}x+\\frac{\\pi}{6}=\\frac{\\pi}{6}+k 2 \\pi \\\\ x+\\frac{\\pi}{6}=\\frac{5 \\pi}{6}+k 2 \\pi\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=k 2 \\pi \\\\ x=\\frac{2 \\pi}{3}+k 2 \\pi\\end{array}, k \\in \\mathbb{Z} .\\right.\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) %(\\cos 2 x-7 \\cos x+\\sqrt{3}(\\sin 2 x+7 \\sin x)=8)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\Leftrightarrow(\\cos 2 x+\\sqrt{3} \\sin 2 x)+7(\\sqrt{3} \\sin x-\\cos x)=8 \\\\ \\Leftrightarrow\\left(\\frac{1}{2} \\cos 2 x+\\frac{\\sqrt{3}}{2} \\sin 2 x\\right)+7\\left(\\frac{\\sqrt{3}}{2} \\sin x-\\frac{1}{2} \\cos x\\right)=4 \\\\ \\Leftrightarrow \\cos \\left(2 x-\\frac{\\pi}{3}\\right)+7 \\sin \\left(x-\\frac{\\pi}{6}\\right)=4\\end{array})%%(\\begin{array}{l}\\begin{array}{l}\\Leftrightarrow 1-2 \\sin ^{2}\\left(x-\\frac{\\pi}{6}\\right)+7 \\sin \\left(x-\\frac{\\pi}{6}\\right)=4 \\\\ \\Leftrightarrow 2 \\sin ^{2}\\left(x-\\frac{\\pi}{6}\\right)-7 \\sin \\left(x-\\frac{\\pi}{6}\\right)+3=0\\end{array} \\\\ \\Leftrightarrow\\left[\\begin{array}{l}\\sin \\left(x-\\frac{\\pi}{6}\\right)=\\frac{1}{2} \\\\ \\sin \\left(x-\\frac{\\pi}{6}\\right)=3(l)\\end{array}\\right. \\\\ \\Leftrightarrow\\left[\\begin{array}{l}x-\\frac{\\pi}{6}=\\frac{\\pi}{6}+k 2 \\pi \\\\ x-\\frac{\\pi}{6}=\\frac{5 \\pi}{6}+k 2 \\pi\\end{array}\\right. \\\\end{array})%<br>%(\\Leftrightarrow\\left[\\begin{array}{l}x=\\pi+k 2 \\pi \\\\ x=\\frac{\\pi}{3}+k 2 \\pi\\end{array}(k \\in \\mathbb{Z})\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm số hạng chứa %(x^{4})% trong khai triển nhị thức Newton %(\\left(x+\\frac{2}{x^{2}}\\right)^{10}, x \\neq 0)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}T_{k+1}=C_{10}^{k} \\cdot x^{10-k} \\cdot\\left(\\frac{2}{x^{2}}\\right)^{k} \\\\=C_{10}^{k} \\cdot x^{10-k} \\cdot \\frac{2^{k}}{x^{2 k}}=C_{10}^{k} \\cdot 2^{k} \\cdot x^{10-3 k}\\end{array}\\]<br>Số hạng chứa %(x^{4})% thỏa mãn : %(10-3 k=4 \\Leftrightarrow k=2)%.<br>Vậy số hạng chứa %(x^{4})% trong khai triển là : %(C_{10}^{2} \\cdot 2^{2} \\cdot x^{4}=180 x^{4})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Từ tập hợp %(B=\\{0 ; 1 ; 2 ; 3 ; 4 ; 5\\})%, có thể lập được bao nhiêu số tự nhiên gồm bốn chữ số đôi một khác nhau và chia hết cho 5 ?",
+        "question_images": [],
+        "solution": "Gọi số cần lập dạng %(\\overline{a b c d})%, các chữ số đôi một khác nhau và số tạo thành chia hết cho 5.<br>%(\\mathrm{TH} 1)% : Chữ số tận cùng bằng 0 .<br>+ Chọn vào vị trí %(d)% có 1 cách chọn.<br>+ Chọn 3 chữ số từ 5 chữ số còn lại và xếp vào 3 vị trí %(a, b, c)% có %(A_{5}^{3})% cách chọn.<br>Theo qui tắc nhân có %(A_{5}^{3}=60)% số.<br>%(\\mathrm{TH} 2)% : Chữ số tận cùng bằng 5 .<br>+ Chọn vào vị trí %(d)% có 1 cách chọn.<br>+ Chọn vào vị trí %(a)% có 4 cách chọn.<br>+ Chọn 2 chữ số từ 4 chữ số còn lại và xếp vào 2 vị trí %(b, c)% có %(A_{4}^{2})% cách chọn.<br>Theo qui tắc nhân có %(4 . A_{4}^{2}=48)% số.<br>Vậy có %(60+48=108)% số.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 0.75,
+        "content": "Trong một hộp có 4 bi xanh khác nhau, 6 bi đỏ khác nhau, 8 bi vàng khác nhau. Có bao nhiêu cách chọn ra 4 bi gồm 2 bi xanh, 1 bi đỏ, 1 bi vàng?",
+        "question_images": [],
+        "solution": "Chọn 2 bi xanh: %(C_{4}^{2})% (cách).<br>Chọn 1 bi đỏ: %(C_{6}^{1})% (cách).<br>Chọn 1 bi vàng: %(C_{8}^{1})% (cách).%(\\Rightarrow C_{4}^{2} \\cdot C_{6}^{1} \\cdot C_{8}^{1})% (cách).",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 0.75,
+        "content": "Có hai dãy ghế đối diện nhau, mỗi dãy có bốn ghế. Xếp ngẫu nhiên 8 học sinh, gồm 4 nam và 4 nữ ngồi vào hai dãy ghế đó sao cho mỗi ghế có đúng một học sinh ngồi. Tính xác suất để mỗi học sinh nam đều ngồi đối diện với một học sinh nữ.",
+        "question_images": [],
+        "solution": "Số phần tử không gian mẫu là %(n(\\Omega)=8)% !<br>Gọi %(A)% là biến cố xếp 4 học sinh nam và 4 học sinh nữ vào hai dãy ghế sao cho nam nữ ngồi đối diện nhau.<br>Vậy số phần tử biến cố %(A)% là %(n(A)=8.4 .6 .3 .4 .2 .2 .1)%.<br>Xác suất cần tính là %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{8 \\cdot 4 \\cdot 6 \\cdot 3 \\cdot 4 \\cdot 2 \\cdot 2 \\cdot 1}{8!}=\\frac{8}{35})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho cấp số cộng %(\\left(u_{n}\\right))% thỏa mãn %(\\left\\{\\begin{array}{l}u_{3}+u_{5}=20 \\\\ u_{4}+u_{6}=25\\end{array}\\right.)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Tìm số hạng đầu và công sai của cấp số cộng %(\\left(u_{n}\\right))%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\left\\{\\begin{array}{l}u_{3}+u_{5}=20 \\\\ u_{4}+u_{6}=25\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}u_{1}+2 d+u_{1}+4 d=20 \\\\ u_{1}+3 d+u_{1}+5 d=25\\end{array}\\right.\\right. \\\\ \\Leftrightarrow\\left\\{\\begin{array}{l}2 u_{1}+6 d=20 \\\\ 2 u_{1}+8 d=25\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}u_{1}=\\frac{5}{2} \\\\ d=\\frac{5}{2}\\end{array}\\right.\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Tính tổng 20 số hạng đầu tiên của cấp số cộng %(\\left(u_{n}\\right))%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}S_{n}=n \\cdot u_{1}+\\frac{n(n-1) d}{2} \\\\ S_{20}=20 \\cdot \\frac{5}{2}+\\frac{20 \\cdot 19 \\cdot \\frac{5}{2}}{2} \\\\ S_{20}=525\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 0.5,
+        "content": "Tìm tât cả các giá trị thực của %(x)%, biêt 3 số %(a, b, c)% theo thứ tự lập thành một cấp số cộng với %(a=10-3 x ; b=2 x^{2}+3)% và %(c=7-4 x)%",
+        "question_images": [],
+        "solution": "%(a, b, c)% lập thành cấp số cộng nên :<br>\\[a+c=2 b \\Leftrightarrow 10-3 x+7-4 x=2\\left(2 x^{2}+3\\right)\\]<br>\\[\\begin{array}{l}4 x^{2}+7 x-11=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x=1 \\x=-\\frac{11}{4} .\\end{array}\\right.\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 0.5,
+        "content": "Một xưởng may áo khoác tháng đầu tiên may được 365 chiếc áo. Nhờ không ngừng cải tiến kỹ thuật, gia tăng sản xuất nên kể từ tháng thứ hai, mỗi tháng đều sản xuất được nhiều hơn tháng kề trước đó 50 chiếc. Tính tổng số áo khoác mà xưởng may được sau 36 tháng hoạt động?",
+        "question_images": [],
+        "solution": "\\[\\left\\{\\begin{array}{l}u_{1}=365 . \\d=50 .\\end{array}\\right.\\]<br>Tổng số áo khoác mà công ty sản xuất được sau 36 tháng là:<br>\\[S_{36}=44640 \\text { (áo). }\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "9",
+        "group_content": "Cho hình chóp %(S . A B C D)%, đáy %(A B C D)% là hình bình hành. Gọi %(O)% là giao điểm của %(A C)% và %(B D)%. Gọi %(M, N)% lần lượt là trung điểm cạnh %(S A, S D)%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.75,
+        "content": "a) Chứng minh mặt phẳng %((O M N))% song song với mặt phẳng %((S B C))%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e607ec7a766c6fbf93546053227bd134.png\" srcset=\"https://docdn.giainhanh.io/media/test/e926a279a380077620f1a4d99b3c1b35.png 238w, https://docdn.giainhanh.io/media/test/57877b3eb722256019a5fd74d4121aa9.png 500w\" width=\"500\"/><br>%(O M / / S C(O M)% là đường trung bình tam giác %(S A C))%<br>%(O N / / S B(O N)% là đường trung bình tam giác %(S B D))%<br>\\[\\Rightarrow(O M N) / /(S B C)\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) Xác định giao tuyến của hai mặt phẳng %((S A B))% và %((S C D))%.",
+        "question_images": [],
+        "solution": "\\[\\frac{S \\in(S A B) \\cap(S C D) .}{A B / / C D}\\]<br>Do đó %((S A B) \\cap(S C D)=S x / / A B / / C D)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.75,
+        "content": "c) Xác định giao điểm %(I)% của %(C M)% với mặt phẳng %((S B D))%.",
+        "question_images": [],
+        "solution": "Trong mặt phẳng %((S A C))% gọi %(I=C M \\cap S O)%.<br>Khi đó %(I \\in C M)% và %(I \\in(S B D))% (vì %(I \\in S O, S O \\subset(S B D))% ).<br>Do đó %(I=C M \\cap(S B D))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 0.75,
+        "content": "d) Tìm thiết diện của hình chóp đã cho cắt bởi mặt phẳng %((A I N))%.",
+        "question_images": [],
+        "solution": "Trong mặt phẳng %((S A C))% gọi %(K=A I \\cap S C)%.<br>Suy ra %(K)% là trung điểm %(S C)%.<br>Ta có %(N K / / A B)% (vì cùng song song %(D C) \\Rightarrow B \\in(A I N))%.<br>Thiết diện của hình chóp cắt bởi mặt phẳng %((A I N))% là hình thang %(N K B A)%.",
+        "question_type": "essay"
+    }
+]

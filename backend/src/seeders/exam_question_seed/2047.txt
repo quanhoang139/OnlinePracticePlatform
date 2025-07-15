@@ -1,0 +1,215 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 0.25,
+        "content": "Trên giá sách có 5 quyển sách Toán khác nhau, 3 quyển sách Vật lí khác nhau và 6 quyển sách Tiếng Anh khác nhau. Hỏi có bao nhiêu cách chọn hai quyển sách khác bộ môn?",
+        "question_images": [],
+        "labelA": "28 cách.",
+        "labelB": "63 cách.",
+        "labelC": "91 cách.",
+        "labelD": "90 cách.",
+        "correct_label": "labelB",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 0.25,
+        "content": "Trên đường thẳng %(d)% cho trước, lấy 6 điểm phân biệt. Lấy điểm %(A)% nằm ngoài đường thẳng d. Từ 7 điểm trên lập được bao nhiêu hình tam giác?",
+        "question_images": [],
+        "labelA": "%(C_{6}^{2})%.",
+        "labelB": "%(C_{7}^{3})%.",
+        "labelC": "%(A_{7}^{3})%.",
+        "labelD": "%(A_{6}^{2})%.",
+        "correct_label": "labelA",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 0.25,
+        "content": "Số các số có 6 chữ số khác nhau không bắt đầu bởi 34 được lập từ các chữ số %(1,2,3,4,5,6)% là.",
+        "question_images": [],
+        "labelA": "966 .",
+        "labelB": "720 .",
+        "labelC": "669 .",
+        "labelD": "696",
+        "correct_label": "labelD",
+        "solution": "Số các số có 6 chữ số khác nhau được lập từ %(1 ; 2 ; 3 ; 4 ; 5 ; 6)% là: %(6 !=720)% ( số). Số các số có 6 chữ số khác nhau được lập từ %(1 ; 2 ; 3 ; 4 ; 5 ; 6)% mà bắt đầu bằng 34 là: 4 !=24 (số). Số các số có 6 chữ số khác nhau không bắt đầu bởi 34 được lập từ %(1 ; 2 ; 3 ; 4 ; 5 ; 6)% là: 720-24=696 (số).",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 0.25,
+        "content": "Từ các chữ số thuộc tập hợp %(S=\\{1 ; 2 ; 3 ; \\ldots ; ; 9\\})%, có thể lập được bao nhiêu số có 9 chữ số khác nhau sao cho chữ số 1 đứng trước chữ số 2 , chữ số 3 đứng trước chữ số 4 và chữ số 5 đứng trước chữ số %(6 ?)%",
+        "question_images": [],
+        "labelA": "36288 .",
+        "labelB": "72576 .",
+        "labelC": "45360 .",
+        "labelD": "22680 .",
+        "correct_label": "labelC",
+        "solution": "Chọn 2 vị trí để xếp 2 chư số 1,2 (số 1 đứng trước 2 ): có %(C_{9}^{2})% cách. Chọn 2 vị trí để xếp 2 chữ số 3,4 (số 3 đứng trước 4): có %(C_{7}^{2})% cách. Chọn 2 vị trí để xếp 2 chữ số 5,6 (số 5 đứng trước 6 ): có %(C_{5}^{2})% cách. 3 chữ số còn lại có 3 ! cách. Vậy có %(3 ! C_{9}^{2} \\cdot C_{7}^{2} \\cdot C_{5}^{2}=45360)% số.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 0.25,
+        "content": "Một hội đồng gồm 2 giáo viên và 3 học sinh được chọn từ một nhóm 5 giáo viên và 6 học sinh. Hỏi có bao nhiêu cách chọn hội đồng đó?",
+        "question_images": [],
+        "labelA": "200 .",
+        "labelB": "150 .",
+        "labelC": "160 .",
+        "labelD": "180 .",
+        "correct_label": "labelA",
+        "solution": "Chọn A<br>Chọn 2 trong 5 giáo viên có: %(C_{5}^{2}=10)% cách chọn.<br>Chọn 3 trong 6 học sinh có %(C_{6}^{3}=20)% cách chọn.<br>Vậy có %(10.20=200)% cách chọn thỏa mãn.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 0.25,
+        "content": "Số hạng chính giữa trong khai triển %((5 x+2 y)^{4})% là:",
+        "question_images": [],
+        "labelA": "%(6 x^{2} y^{2})%.",
+        "labelB": "%(24 x^{2} y^{2})%.",
+        "labelC": "%(60 x^{2} y^{2})%.",
+        "labelD": "%(600 x^{2} y^{2})%.",
+        "correct_label": "labelD",
+        "solution": "Chọn D<br>Ta có: %((5 x+2 y)^{4}=C_{4}^{0}(5 x)^{4}+C_{4}^{1}(5 x)^{3}(2 y)+C_{4}^{2}(5 x)^{2}(2 y)^{2}+C_{4}^{3}(5 x)(2 y)^{3}+C_{4}^{4}(2 y)^{4})%.<br>Số hạng chính giữa là %(C_{4}^{2}(5 x)^{2}(2 y)^{2}=600 x^{2} y^{2})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 0.25,
+        "content": "Trong mặt phẳng tọa độ %(O x y)%, cho các điểm %(A(0 ; 2), B(-1 ; 0))%. Điểm %(H)% có hoành độ âm thuộc đường thẳng %(y=2 x+2)% sao cho tam giác %(A B H)% vuông tại %(H)% có toạ độ là",
+        "question_images": [],
+        "labelA": "%((-1 ; 0))%.",
+        "labelB": "%((-3 ;-4))%.",
+        "labelC": "%((0 ; 2))%.",
+        "labelD": "%((2 ; 2))%.",
+        "correct_label": "labelC",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 0.25,
+        "content": "Trên mặt phẳng toạ độ %(O x y)%, cho tam giác %(A B C)% với %(A(1 ; 3), B(-2 ;-2))% và %(C(3 ; 1))%. Diện tích tam giác %(A B C)% là",
+        "question_images": [],
+        "labelA": "4",
+        "labelB": "8 .",
+        "labelC": "16 .",
+        "labelD": "20 .",
+        "correct_label": "labelB",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 9: ",
+        "point": 0.25,
+        "content": "Một chiếc thuyền di chuyển trên một con kênh khi nước lặng với vận tốc là %(\\vec{v}_{1})%. Tuy nhiên, khi thuyền tiến vào lòng sông thì nó di chuyển với vận tốc là %(\\overrightarrow{v_{2}})% như hình bên. Biết tốc độ của thuyền tính theo đơn vị %(m / s)%. Vận tốc của dòng nước trên sông là (kết quả làm tròn đến hàng phần chục)",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/c13cb79e89ffb13f5c3cec67aa5bc0c9.png"
+        ],
+        "labelA": "%(3,2 \\mathrm{~m} / \\mathrm{s})%.",
+        "labelB": "%(3,1 \\mathrm{~m} / \\mathrm{s})%.",
+        "labelC": "%(7,1 \\mathrm{~m} / \\mathrm{s})%.",
+        "labelD": "%(7,0 \\mathrm{~m} / \\mathrm{s})%.",
+        "correct_label": "labelA",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 10: ",
+        "point": 0.25,
+        "content": "Trong mặt phẳng toạ độ %(O x y)%, cho hai vectơ %(\\overrightarrow{O M}=(-2 ;-1))% và %(\\overrightarrow{O N}=(3 ;-1))%. Góc giữa hai vectơ %(\\overrightarrow{O M})% và %(\\overrightarrow{O N})% là",
+        "question_images": [],
+        "labelA": "%(30^{\\circ})%.",
+        "labelB": "%(45^{\\circ})%.",
+        "labelC": "%(60^{\\circ})%.",
+        "labelD": "%(135^{\\circ})%.",
+        "correct_label": "labelD",
+        "solution": "%(\\cos (\\overrightarrow{O M}, \\overrightarrow{O N})=\\frac{\\overrightarrow{O M} \\cdot \\overrightarrow{O N}}{O M \\cdot O N}=\\frac{-2 \\cdot 3+(-1) \\cdot(-1)}{\\sqrt{5} \\cdot \\sqrt{10}}=-\\frac{1}{\\sqrt{2}})%. Suy ra %((\\overrightarrow{O M}, \\overrightarrow{O N})=135^{\\circ})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 11: ",
+        "point": 0.25,
+        "content": "Trong mặt phẳng toạ độ %(O x y)%, cho điểm %(A(1 ; 2))% và điểm %(B(4 ; 1), M)% là điểm di động trên tia %(O x)%. Tọa độ trọng tâm của tam giác %(A B M)% khi biểu thức %(M A+M B)% nhỏ nhất là",
+        "question_images": [],
+        "labelA": "%(\\left(\\frac{8}{3} ; 1\\right))%.",
+        "labelB": "%(\\left(\\frac{8}{3} ; \\frac{5}{3}\\right))%.",
+        "labelC": "%(\\left(\\frac{5}{3} ; \\frac{3}{2}\\right))%.",
+        "labelD": "%(\\left(\\frac{5}{3} ; 1\\right))%.",
+        "correct_label": "labelA",
+        "solution": "Gọi %(A^{\\prime})% là điểm đối xứng với %(A)% qua trục %(O x)%. Suy ra %(A^{\\prime}(1 ;-2) \\cdot M \\in O x \\Rightarrow M(x ; 0))%. Ta có %(M A+M B=M A^{\\prime}+M B \\geq A^{\\prime} B)% nên %(M A+M B)% nhỏ nhất khi và chỉ khi %(A^{\\prime}, M, B)% thẳng hàng. Suy ra %(\\overrightarrow{A^{\\prime} B}=(3 ; 3))% và %(\\overrightarrow{A^{\\prime} M}=(x-1 ; 2))% cùng phương.<br>Do đó %(\\frac{x-1}{3}=\\frac{2}{3} \\Rightarrow x=3 \\Rightarrow M(3 ; 0))%.<br>Vậy toạ độ trọng tâm tam giác %(A B M)% là %(\\left(\\frac{8}{3} ; 1\\right))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 12: ",
+        "point": 0.25,
+        "content": "Đường trung trực của đoạn thẳng %(A B)% với %(A(2 ; 1), B(-4 ; 5))% có phương trình tổng quát là",
+        "question_images": [],
+        "labelA": "%(3 x-2 y+9=0)%.",
+        "labelB": "%(2 x+3 y-7=0)%.",
+        "labelC": "%(-6 x+4 y+9=0)%.",
+        "labelD": "%(3 x+2 y-9=0)%.",
+        "correct_label": "labelA",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 17: ",
+        "point": 0.5,
+        "content": "Tìm số hạng không chứa %(x)% trong khai triên nhị thức Newton của %(\\left(x-\\frac{1}{x}\\right)^{4})%",
+        "question_images": [],
+        "solution": "Ta có: %(\\left(x-\\frac{1}{x}\\right)^{4}=C_{4}^{0} x^{4}+C_{4}^{1} x^{3}\\left(-\\frac{1}{x}\\right)+C_{4}^{2} x^{2}\\left(-\\frac{1}{x}\\right)^{2}+C_{4}^{3} x\\left(-\\frac{1}{x}\\right)^{3}+C_{4}^{4}\\left(-\\frac{1}{x}\\right)^{4})%.<br>Số hạng không chứa %(x)% là %(C_{4}^{2} x^{2}\\left(-\\frac{1}{x}\\right)^{2}=C_{4}^{2}=6)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 18: ",
+        "point": 0.5,
+        "content": "Có bao nhiêu cách xếp 4 người %(A, B, C, D)% lên 3 toa tàu, biết mỗi toa có thể chứa tối đa 4 người?",
+        "question_images": [],
+        "solution": "Xếp A lên một trong 3 toa tàu: có 3 cách.<br>Xếp B lên một trong 3 toa tàu: có 3 cách.<br>Tương tự, số cách xếp %(C)% và %(D)% cũng là 3 cách.<br>Với mỗi cách xếp %(\\mathrm{A})% ta có 3 cách xếp %(B)% lên toa tàu.<br>Vậy số cách xếp thỏa mãn là %(3 \\times 3 \\times 3 \\times 3=81)% (cách).",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 19: ",
+        "point": 0.5,
+        "content": "Có bao nhiêu số tự nhiên có 6 chũ số khác nhau lập từ tập %(\\{0 ; 1 ; 2 ; 3 ; 4 ; 5 ; 6 ; 7\\})% sao cho cả hai chữ số 1 và 5 đồng thời có mặt?",
+        "question_images": [],
+        "solution": "Xét các số thoả mãn điều kiện có mặt chữ số 1 và 5<br>Chọn 4 số trong 6 số còn lại và cho vào 4 vị trí còn lại có %(A_{6}^{4})% cách.<br>Vậy có %(5 \\cdot A_{6}^{4}=1800)% số.<br>Trường hợp 2: Số có dạng %(\\overline{5 a b c d e})%. Tương tự cũng có %(5 \\cdot A_{6}^{4}=1800)% số.<br>Trường hợp 3: Số 1 và số 5 không ở vị trí đầu tiên.<br>Có %(A_{5}^{2})% cách chọn vị trí cho số 1 và số 5 .Chư số đầu tiên khác 0 và chọn trong %(\\{2 ; 3 ; 4 ; 6 ; 7\\})% nên có 5 cách chọn.<br>Chọn 3 số trong 5 số cho 3 vị trí còn lại có %(A_{5}^{3})% cách.<br>Do đó tạo được %(A_{5}^{2} \\cdot 5 \\cdot A_{5}^{3}=6000)% số. Vậy có %(1800+1800+6000=9600)% số.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 20:",
+        "group_content": "Có hai con tàu %(A, B)% xuất phát từ hai bến, chuyển động theo đường thẳng ngoài biển. Trên màn hình ra-đa của trạm điều khiển (xem như mặt phẳng tọa độ %(O x y)% với đơn vị trên các trục tính bằng ki-lô-mét), tại thời điểm %(t)% (giờ), vị trí của tàu %(A)% có tọa độ được xác định bởi công thức %(\\left\\{\\begin{array}{l}x=3-33 t \\\\ y=-4+25 t\\end{array}\\right.)%; vị trí tàu %(B)% có tọa độ là %((4-30 t ; 3-40 t))%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.5,
+        "content": "Tính gần đúng côsin góc giữa hai đường đi của hai tàu %(A, B)%.",
+        "question_images": [],
+        "solution": "Hai đường đi (giả sử là hai đường thẳng %(d_{1}, d_{2})% ) của hai tàu có cặp vectơ chỉ phương %(\\vec{u}_{1}=(-33 ; 25), \\vec{u}_{2}=(-30 ;-40) ;)% côsin góc tạo bởi hai đường thẳng là: %(\\cos \\left(d_{1}, d_{2}\\right)=\\frac{\\left|\\vec{u}_{1} \\cdot \\vec{u}_{2}\\right|}{\\left|\\vec{u}_{1}\\right| \\cdot\\left|\\vec{u}_{2}\\right|}=\\frac{|-33 \\cdot(-30)+25(-40)|}{\\sqrt{(-33)^{2}+25^{2}} \\cdot \\sqrt{(-30)^{2}+(-40)^{2}}} \\approx 0,00483)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.5,
+        "content": "Sau bao lâu kể từ thời điểm xuất phát, hai tàu gần nhau nhất?",
+        "question_images": [],
+        "solution": "Tại thời điểm %(t)%, vị trí tàu %(A)% là %(M(3-33 t ;-4+25 t))%, vị trí của tàu %(B)% là %(N(4-30 t ; 3-40 t))%. Ta có %(M N=\\sqrt{(1+3 t)^{2}+(7-65 t)^{2}}=\\sqrt{4234 t^{2}-904 t+50})%.<br>%(M N)% nhỏ nhất khi hàm bậc hai %(f(t)=4234 t^{2}-904 t+50)% đạt giá trị nhỏ nhất, lúc đó: %(x=-\\frac{b}{2 a}=-\\frac{-904}{2 \\cdot 4234}=\\frac{226}{2117} \\approx 0,107)% (giây).",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 0.5,
+        "content": "Nếu tàu %(A)% đứng yên ở vị trí ban đầu, tàu %(B)% chạy thì khoảng cách ngắn nhất giữa hai tàu bằng bao nhiêu?",
+        "question_images": [],
+        "solution": "Khi tàu %(A)% đứng yên, vị trí ban đầu của nó có tọa độ %(P(3 ;-4))%; vị trí tàu %(B)% ứng với thời gian %(t)% là %(Q(4-30 t ; 3-40 t))%;<br>\\[P Q=\\sqrt{(1-30 t)^{2}+(7-40 t)^{2}}=\\sqrt{2500 t^{2}-620 t+50}\\]<br>Đoạn %(P Q)% ngắn nhất ứng với %(t=-\\frac{b}{2 a}=\\frac{620}{2.2500}=\\frac{31}{250}=0,124)% (giây).<br>Khi đó: %(P Q_{\\min }=\\sqrt{2500 \\cdot(0,124)^{2}-620 \\cdot(0,124)+50}=\\frac{17}{5}=3,4(\\mathrm{~km}))%.",
+        "question_type": "essay"
+    }
+]

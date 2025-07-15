@@ -1,0 +1,82 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Cho parabol %((\\mathrm{P}))% : %(y=-x^{2}+4 x+5)% và điểm %(I(1 ; 4))%. Tìm trên (P) hai điểm %(\\mathrm{M}, \\mathrm{N})% đối xứng nhau qua điểm I.",
+        "question_images": [],
+        "solution": "Đường thẳng %(\\Delta)% qua I và có hsg k có phương trình %(y=k(x-1)+4)%<br>Xét pt %(-x^{2}+4 x+5=k(x-1)+4 \\Leftrightarrow x^{2}+(k-4) x-k-1=0)%<br>%(\\Delta=(k-4)^{2}+4(k+1)\\gt 0 \\Leftrightarrow k^{2}-4 k+20>0, \\forall k \\Rightarrow \\Delta)% cắt %((\\mathrm{P}))% tại M và N<br>Gọi 2 nghiệm của (1) là %(x_{1}, x_{2} \\Rightarrow M\\left(x_{1} ; k\\left(x_{1}-1\\right)+4\\right), N\\left(x_{2} ; k\\left(x_{2}-1\\right)+4\\right))%<br>%(\\mathrm{M}, \\mathrm{N})% đối xứng nhau qua điểm %(\\mathrm{I} \\Leftrightarrow \\mathrm{I})% là trung điểm của MN<br>\\[\\Leftrightarrow\\left\\{\\begin{array}{l}\\frac{x_{1}+x_{2}}{2}=1 \\\\frac{k\\left(x_{1}-1\\right)+4+k\\left(x_{2}-1\\right)+4}{2}=4\\end{array} \\Leftrightarrow \\frac{4-k}{2}=1 \\Leftrightarrow k=2\\right.\\]<br>Khi đó (1) %(x^{2}-2 x-3=0 \\Leftrightarrow x=-1)% hoặc %(x=3)%. Vậy %(M(-1 ; 0), N(3 ; 8))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm các giá trị của %(m)% để phương trình %(\\left|x^{2}-2\\right|=m^{4}-m^{2})% có 4 nghiệm phân biệt.",
+        "question_images": [],
+        "solution": "Điều kiện cần %(m^{4}-m^{2}\\gt 0 \\Leftrightarrow m>1)% hoặc %(m\\lt -1)%<br>Khi đó %(\\left[\\begin{array}{l}x^{2}-2=m^{4}-m^{2} \\\\ x^{2}-2=-\\left(m^{4}-m^{2}\\right)\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x^{2}=2+m^{4}-m^{2} \\\\ x^{2}=2-\\left(m^{4}-m^{2}\\right)\\end{array}\\right.\\right.)%<br>Điều kiện đủ %(2-\\left(m^{4}-m^{2}\\right)>0 \\Leftrightarrow-1\\lt m^{2}\\lt 2)%<br>Kết hợp với %(Đ K)% (1) ta được %(1\\lt m\\lt \\sqrt{2})% hoặc %(-\\sqrt{2}\\lt m\\lt -1)%<br>Cách khác. Pt có 4 nghiệm %(\\Leftrightarrow)% đường thẳng %(y=m^{4}-m^{2})% cắt đths %(y=\\left|x^{2}-2\\right|)% tại 4 điểm.<br>Từ đồ thị suy ra %(0\\lt m^{4}-m^{2}\\lt 2 \\Leftrightarrow 1\\lt |m|\\lt \\sqrt{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải bất phương trình: %((x+1) \\sqrt{x+2}+(x+6) \\sqrt{x+7} \\geq x^{2}+7 x+12)%",
+        "question_images": [],
+        "solution": "ÐK: %(x \\geq-2)%.<br>\\[\\begin{array}{l}\\text { BPT } \\Leftrightarrow(x+1)(\\sqrt{x+2}-2)+(x+6)(\\sqrt{x+7}-3) \\geq x^{2}+2 x-8 \\\\Leftrightarrow(x+1) \\frac{x-2}{\\sqrt{x+2}+2}+(x+6) \\frac{x-2}{\\sqrt{x+7}+3} \\geq(x-2)(x+4) \\\\Leftrightarrow(x-2)\\left(\\frac{x+1}{\\sqrt{x+2}+2}+\\frac{x+6}{\\sqrt{x+7}+3}-(x+4)\\right) \\geq 0\\end{array}\\]<br>Ta có %(\\frac{x+1}{\\sqrt{x+2}+2}+\\frac{x+6}{\\sqrt{x+7}+3}-(x+4))%<br>\\[\\begin{array}{l}=\\frac{x+2}{\\sqrt{x+2}+2}-\\frac{x+2}{2}+\\frac{x+6}{\\sqrt{x+7}+3}-\\frac{x+6}{2}-\\frac{1}{\\sqrt{x+2}+2} \\\\-\\frac{(x+2) \\sqrt{x+2}}{\\sqrt{x+2}+2}-\\frac{(x+6)(\\sqrt{x+7}+1)}{\\sqrt{x+7}+3}-\\frac{1}{\\sqrt{x+2}+2}\\lt 0, \\forall x \\geq-2\\end{array}\\]<br>\\[\\text { BPT } \\Leftrightarrow x-2 \\leq 0 \\Leftrightarrow x \\leq 2\\]<br>Vậy tập nghiệm của BPT là %(S=[-2 ; 2])%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}(x-1)\\left(y^{2}+6\\right)=y\\left(x^{2}+1\\right) \\\\ (y-1)\\left(x^{2}+6\\right)=x\\left(y^{2}+1\\right)\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Trừ vế ta được %((x-y)(x+y-2 x y+7)=0)%<br>%(\\mathrm{TH} 1 . x=y)%. Thế vào pt thứ nhất ta được<br>\\[x^{2}-5 x+6=0 \\Leftrightarrow\\left[\\begin{array}{l}x=2 \\x=3\\end{array}\\right.\\]<br>TH 2. %(x+y-2 x y+7=0 \\Leftrightarrow 2 x y=x+y+7)%<br>Cộng hai pt theo vế ta được<br>\\[\\begin{array}{l}5(x+y)-\\left(x^{2}+y^{2}\\right)-12=0 \\Leftrightarrow 5(x+y)-(x+y)^{2}+2 x y-12=0 \\\\Leftrightarrow-(x+y)^{2}+6(x+y)-5=0 \\Leftrightarrow\\left[\\begin{array}{l}x+y=1 \\x+y=5\\end{array}\\right. \\x+y=1 \\Rightarrow x y=4 \\text { (Loại) } \\x+y=5 \\Rightarrow x y=6 \\Rightarrow\\left[\\begin{array}{l}x=2, y=3 \\x=3, y=2\\end{array}\\right.\\end{array}\\]<br>Vậy hệ có 4 nghiệm là %((2 ; 2),(3 ; 3),(2 ; 3),(3 ; 2))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Tìm %(m)% để phương trình %(3 \\sqrt{x-1}+m \\sqrt{x+1}=2 \\sqrt[4]{x^{2}-1})% có nghiệm.",
+        "question_images": [],
+        "solution": "ĐK: %(x \\geq 1)%. Chia hai vế cho %(\\sqrt{x+1})% ta được%(3 \\sqrt{\\frac{x-1}{x+1}}+m=2 \\sqrt[4]{\\frac{x-1}{x+1}})%Đặt %(t=\\sqrt[4]{\\frac{x-1}{x+1}}, 0 \\leq t\\lt 1)% ta được %(3 t^{2}+m=2 t \\Leftrightarrow-3 t^{2}+2 t=m)% (2)<br>Pt (1) có nghiệm %(x \\geq 1 \\Leftrightarrow \\mathrm{pt})% (2) có nghiệm %(t \\in[0 ; 1))%<br>Lập bảng biến thiên của %(f(t)=-3 t^{2}+2 t)% trên %([0 ; 1))%<br>Từ BBT suy ra pt (2) có nghiệm %(t \\in[0 ; 1) \\Leftrightarrow-1\\lt m \\leq \\frac{1}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho tam giác %(A B C)% có trọng tâm là %(G)%. Hai điểm %(D)% và %(E)% được xác định bơi các hệ thức: %(\\overrightarrow{A D}=2 \\overrightarrow{A B} ; \\overrightarrow{A E}=\\frac{2}{5} \\overrightarrow{A C})%. Chứng minh rằng: %(D, E, G)% thẳng hàng.",
+        "question_images": [],
+        "solution": "Gọi M là trung điểm của BC ta có:<br>\\[\\begin{array}{l}\\overrightarrow{A G}=\\frac{2}{3} \\overrightarrow{A M}=\\frac{1}{3} \\overrightarrow{A B}+\\frac{1}{3} \\overrightarrow{A C} \\\\overrightarrow{D E}=\\overrightarrow{D A}+\\overrightarrow{A E}=-2 \\overrightarrow{A B}+\\frac{2}{5} \\overrightarrow{A C}=\\frac{2}{5}(-5 \\overrightarrow{A B}+\\overrightarrow{A C}) \\\\overrightarrow{D G}=\\overrightarrow{D A}+\\overrightarrow{A G}=-2 \\overrightarrow{A B}+\\frac{1}{3} \\overrightarrow{A B}+\\frac{1}{3} \\overrightarrow{A C}=-\\frac{5}{3} \\overrightarrow{A B}+\\frac{1}{3} \\overrightarrow{A C}=\\frac{1}{3}(-5 \\overrightarrow{A B}+\\overrightarrow{A C})\\end{array}\\]<br>Từ (1) và (2) suy ra %(\\overrightarrow{D E}=\\frac{6}{5} \\overrightarrow{D G} \\Rightarrow \\mathrm{D}, \\mathrm{E}, \\mathrm{G})% thẳng hàng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Gọi %(H)% là trực tâm %(\\triangle A B C, M)% là trung điểm của %(B C)%. Chứng minh rằng %(\\overrightarrow{M H} \\cdot \\overrightarrow{M A}=\\frac{1}{4} B C^{2})%.",
+        "question_images": [],
+        "solution": "<img alt=\"Capture.PNG\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/32aa68cd1b641dc5083a774d1a243217.PNG\" srcset=\"https://docdn.giainhanh.io/media/test/4cde1e913c6426d1d1796588aa880c47.PNG 245w,\" width=\"245px\"/><br>%(\\begin{array}{l}\\text {Ta có } \\overrightarrow{M H} \\cdot \\overrightarrow{M A}=\\frac{1}{2}(\\overrightarrow{B A}+\\overrightarrow{C A}) \\overrightarrow{M H} \\\\ =\\frac{1}{2}(\\overrightarrow{B A} \\cdot \\overrightarrow{M H}+\\overrightarrow{C A} \\cdot \\overrightarrow{M H}) \\\\ =\\frac{1}{2}[\\overrightarrow{B A}(\\overrightarrow{M C}+\\overrightarrow{C H})+\\overrightarrow{C A}(\\overrightarrow{M B}+\\overrightarrow{B H})] \\\\ =\\frac{1}{2}(\\overrightarrow{B A} \\cdot \\overrightarrow{M C}+\\overrightarrow{B A} \\cdot \\overrightarrow{C H}+\\overrightarrow{C A} \\cdot \\overrightarrow{M B}+\\overrightarrow{C A} \\cdot \\overrightarrow{B H})\\end{array})%<br>\\[\\begin{array}{l}\\text { Vì } \\overrightarrow{B A} \\perp \\overrightarrow{C H} \\Leftrightarrow \\overrightarrow{B A} \\cdot \\overrightarrow{C H}=0 ; \\overrightarrow{C A} \\perp \\overrightarrow{B H} \\Leftrightarrow \\overrightarrow{C A} \\cdot \\overrightarrow{B H}=0 \\\\Rightarrow \\overrightarrow{M H} \\cdot \\overrightarrow{M A}=\\frac{1}{2} \\overrightarrow{B A} \\cdot \\overrightarrow{M C}+\\frac{1}{2} \\overrightarrow{C A} \\cdot \\overrightarrow{M B}\\end{array}\\]<br>Mặt khác ta có %(\\overrightarrow{B A} \\cdot \\overrightarrow{M C}=\\overrightarrow{B A} \\cdot \\overrightarrow{M C} ; \\overrightarrow{C A} \\cdot \\overrightarrow{M B}=\\overrightarrow{C A^{\\prime}} \\cdot \\overrightarrow{M B})% và %(\\overrightarrow{M B}=-\\overrightarrow{M C})%.<br>Nên %(\\overrightarrow{M H} \\cdot \\overrightarrow{M A}=\\frac{1}{2} \\overrightarrow{B A^{\\prime}} \\cdot \\overrightarrow{M C}-\\frac{1}{2} \\overrightarrow{C A^{\\prime}} \\cdot \\overrightarrow{M C}=\\frac{1}{2} \\overrightarrow{M C}\\left(\\overrightarrow{B A^{\\prime}}-\\overrightarrow{C A^{\\prime}}\\right))% %(=\\frac{1}{2} \\overrightarrow{M C} \\cdot \\overrightarrow{B C}=\\frac{1}{2} \\cdot \\frac{1}{2} \\overrightarrow{B C} \\cdot \\overrightarrow{B C}=\\frac{1}{4} B C^{2}()% đpcm %())%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Trong mặt phẳng tọa độ %(O x y)%, cho hình bình hành %(A B C D)%, điểm %(M(-2 ; 0))% là trung điểm của cạnh %(A B)%, điểm %(H(1 ;-1))% là hình chiếu của %(B)% trên %(A D)% và điểm %(G\\left(\\frac{7}{3} ; 3\\right))% là trọng tâm tam giác %(B C D)%. Đường thẳng %(H M)% cắt %(B C)% tại %(E)%, đường thẳng %(H G)% cắt %(B C)% tại %(F)%. Tìm tọa độ các điểm %(E, F)% và %(B)%",
+        "question_images": [],
+        "solution": "<img alt=\"Capture.PNG\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b5b9bb76f3f4d148436af020bd4c9327.PNG\" srcset=\"https://docdn.giainhanh.io/media/test/a1848b597538eff55cba6ca22ee8d216.PNG 245w,\" width=\"245px\"/><br>Chứng minh được %(\\overrightarrow{H M}=\\overrightarrow{M E})% từ đó suy ra %(E(-5 ; 1))%<br>Chứng minh được %(\\overrightarrow{H G}=2 \\overrightarrow{G F})% từ đó suy ra %(F(3 ; 5))%<br>Giả sử %(B(x ; y))%. Từ giả thiết suy ra %(\\mathrm{B}, \\mathrm{E}, \\mathrm{F})% thẳng hàng và %(\\mathrm{BE} \\perp \\mathrm{BH})%<br>Tìm được tọa độ %(B(-1 ; 3))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 1.0,
+        "content": "Cho %(x, y)% là các số thực thỏa mãn %(x^{2}+y^{2}=1)%. Tìm giá trị lớn nhất và giá trị nhỏ nhất của biểu thức %(S=\\frac{(x-y)^{2}-3 y^{2}}{x y+1})%.",
+        "question_images": [],
+        "solution": "Thế %(x^{2}+y^{2}=1)% vào %(S)% ta được %(S=\\frac{x^{2}-2 x y-2 y^{2}}{x y+x^{2}+y^{2}})%<br>TH 1. %(y=0 \\Leftrightarrow x^{2}=1 \\Rightarrow S=1)%<br>TH2. %(y \\neq 0 \\Rightarrow S=\\frac{\\left(\\frac{x}{y}\\right)^{2}-2 \\frac{x}{y}-2}{\\frac{x}{y}+\\left(\\frac{x}{y}\\right)^{2}+1})%. Đặt %(t=\\frac{x}{y} \\Rightarrow S=\\frac{t^{2}-2 t-2}{t^{2}+t+1})%<br>\\[\\Leftrightarrow S\\left(t^{2}+t+1\\right)=t^{2}-2 t-2 \\Leftrightarrow(S-1) t^{2}+(S+2) t+S+2=0\\]<br>Với %(S \\neq 1)%, tồn tại %(t \\Leftrightarrow \\Delta=(S+2)^{2}-4(S-1)(S+2) \\geq 0)%<br>Biến đối ta được %((S+2)(-3 S+6) \\geq 0 \\Leftrightarrow-2 \\leq S \\leq 2)%<br>Do %(S=1 \\in[-2 ; 2])% nên %(\\max S=2, \\min S=-2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "10 ",
+        "point": 1.0,
+        "content": "Cho %(x, y)% là các số thực thay đổi. Tìm giá trị nhỏ nhất của biểu thức<br>\\[A=\\sqrt{(x-1)^{2}+y^{2}}+\\sqrt{(x+1)^{2}+y^{2}}+|y-2|\\]",
+        "question_images": [],
+        "solution": "TH 1. %(y \\geq 2 \\Rightarrow A \\geq 2 \\sqrt{1+y^{2}} \\geq 2 \\sqrt{5})%<br>TH 2. %(y\\lt 2 \\Rightarrow A \\geq 2 \\sqrt{1+y^{2}}+2-y)%<br>\\[=\\sqrt{\\left((\\sqrt{3})^{2}+1^{2}\\right)\\left(1^{2}+y^{2}\\right)}+2-y \\geq \\sqrt{3} \\cdot 1+1 \\cdot y+2-y=\\sqrt{3}+2\\]<br>%(A=2+\\sqrt{3})% khi và chỉ khi %(x=0, y=\\frac{1}{\\sqrt{3}})%<br>Ta có %(2+\\sqrt{3}\\lt 2 \\sqrt{5} \\Rightarrow \\min A=2+\\sqrt{3})%",
+        "question_type": "essay"
+    }
+]

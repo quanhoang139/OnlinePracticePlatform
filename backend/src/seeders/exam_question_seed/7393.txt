@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1.1 ",
+        "point": 1.0,
+        "content": "Giải phương trình %(\\sqrt{x^{2}-3 x}=x^{2}-3 x-2)%",
+        "question_images": [],
+        "solution": "Điều kiện: %(x^{2}-3 x \\geq 0)%Đặt %(\\sqrt{x^{2}-3 x}=t \\geq 0)%Phương trình đã cho trở thành<br>\\[\\begin{aligned}t & =t^{2}-2 \\Leftrightarrow t=2 \\text { (do } t \\geq 0 \\text { ) } \\\\& \\Leftrightarrow \\sqrt{x^{2}-3 x}=2 \\\\& \\Leftrightarrow\\left[\\begin{array}{l}x=-1 \\x=4\\end{array}(\\mathrm{tm})\\right.\\end{aligned}\\]<br>Vậy phương trình có nghiệm %(x=-1, x=4)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.2 ",
+        "point": 1.0,
+        "content": "Cho %(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})% là các số thực dương thỏa mãn %(\\frac{x-2 y}{z}=\\frac{y-2 z}{x}=\\frac{z-2 x}{y})%. Tính giá trị của biểu thức<br>\\[P=\\left(2+\\frac{x}{y}\\right)\\left(2+\\frac{y}{z}\\right)\\left(2+\\frac{z}{x}\\right)\\]",
+        "question_images": [],
+        "solution": "Ta có ngay %(\\mathrm{x}+\\mathrm{y}+\\mathrm{z}\\gt 0)% và %(\\mathrm{x}-2 \\mathrm{y} ; \\mathrm{y}-2 \\mathrm{z} ; \\mathrm{z}-2 x \\neq 0)%<br>Vì thế áp dụng tính chất của dãy tỉ số bằng nhau, ta có<br>\\[\\frac{x-2 y}{z}=\\frac{y-2 z}{x}=\\frac{z-2 x}{y}=\\frac{x-2 y+y-2 z+z-2 x}{x+y+z}=\\frac{-x-y-z}{x+y+z}=-1\\]<br>Vậy %(x-2 y=-z \\Rightarrow x+z=2 y)%<br>Tương tự cũng có được %(y+z=2 x, x+y=2 z)%<br>Từ đó %(x+y+z=3 x=3 y=3 z \\Rightarrow x=y=z)%<br>Vì vậy giá trị của biểu thức %(P=(2+1)(2+1)(2+1)=27)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.1 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các số nguyên %(\\mathrm{x})% và y thỏa mãn %(2 x^{2}+2 x y+3 y=4 y^{2}+3)%",
+        "question_images": [],
+        "solution": "Ta có: %(4 x^{2}+8 x y+y^{2}=9 y^{2}-6 y+1)%<br>\\[\\begin{array}{l}\\Rightarrow(2 x+y)^{2}=(3 y-1)^{2}+5 \\\\Leftrightarrow(2 x-2 y+1)(2 x+4 y-1)=5\\end{array}\\]<br>Do %(\\mathrm{x})%, y nguyên nên ta có các trường hợp sau<br>TH1: %(\\left\\{\\begin{array}{l}2 x-2 y+1=1 \\\\ 2 x+4 y-1=5\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}2 x-2 y=0 \\\\ 2 x+4 y=6\\end{array} \\Leftrightarrow x=y=1\\right.\\right.)%<br>Tương tự với các trường hợp %((5,1) ;(-1 ;-5) ;(-5 ;-1))% ta được các nghiệm %((\\mathrm{x}, \\mathrm{y}))% thỏa mãn là %((-2 ; 1))%<br>Vậy hệ phương trình có 2 cặp nghiệm %((\\mathrm{x}, \\mathrm{y}))% thỏa mãn là %((-2 ; 1))% và %((1 ; 1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.2 ",
+        "point": 1.0,
+        "content": "Cho các số nguyên dương %(\\mathrm{x}, \\mathrm{y})% và số nguyên tố %(\\mathrm{p})% thỏa mãn %(\\frac{p}{(2 x+y)^{2}}=\\frac{x-y}{p})%. Chứng minh %(\\mathrm{p}=3 \\mathrm{y}+)%2.",
+        "question_images": [],
+        "solution": "Rõ ràng %(x \\neq y \\Rightarrow p^{2}=(x-y)(2 x+y)^{2})%<br>Từ đó %(p^{2})% chia hết cho %((2 x+y)^{2})% nên %(\\mathrm{p})% chia hết cho %(2 \\mathrm{x}+\\mathrm{y})%<br>Vì x, y nguyên dương nên %(2 x+y \\geq 3 \\Rightarrow 2 x+y=p)%<br>Thay vào %(p^{2}=(x-y)(2 x+y)^{2} \\Rightarrow x-y=1 \\Rightarrow x=y+1)%<br>Vì vậy %(p=2 x+y=2(y+1)+y=3 y+2)% và ta có điều phải chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.1 ",
+        "point": 1.5,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b})% và %(\\mathrm{c})% là các số nguyên dương thỏa mãn %(\\frac{a-b^{2}}{b}=a\\left(a-c^{2}\\right))%.",
+        "question_images": [],
+        "solution": "Ta có: %(c^{2}=\\frac{a^{2} b+b^{2}-a}{a b} \\Rightarrow a^{2} b+b^{2}-a \\vdots a b \\Rightarrow b^{2}-a \\vdots a b \\Rightarrow a \\vdots b)%<br>Vì vậy tồn tại số nguyên dương %(\\mathrm{k})% sao cho %(\\mathrm{a}=\\mathrm{bk})%.<br>Lúc này ta có được %(b^{3} k+b^{2}-b k \\vdots b^{2} k \\Rightarrow b^{2} k+b-k \\vdots b k)%<br>Do đó %(b-k \\vdots b k \\Rightarrow\\left\\{\\begin{array}{l}b \\vdots k \\\\ k \\vdots b\\end{array} \\Rightarrow k=b\\right.)%<br>Vì vậy %(a=b^{2} \\Rightarrow a-c^{2}=0 \\Rightarrow a=c^{2} \\Rightarrow b=c)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.2 ",
+        "point": 1.5,
+        "content": "Với %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là các số thực không âm thỏa mãn %(a \\leq 1, b \\leq 1, c \\leq 1 ; a^{2}+b^{2}+c^{2}=2)%. Tìm giá trị lớn nhất và giá trị nhỏ nhất của biểu thức<br>\\[T=\\frac{a^{4}}{b c+2}+\\frac{b^{4}}{c a+2}+\\frac{c^{4}}{a b+2}\\]",
+        "question_images": [],
+        "solution": "Theo bất đẳng thức Cauchy - Schwarz ta có<br>\\[T \\geq \\frac{\\left(a^{2}+b^{2}+c^{2}\\right)^{2}}{a b+b c+c a+6}=\\frac{4}{a b+b c+c a+6}\\]<br>Lại có %(a^{2}+b^{2}+c^{2} \\geq a b+b c+c a)%<br>Theo bất đẳng thức Cauchy nên %(a b+b c+c a \\leq 2)%<br>Vì vậy %(T \\geq \\frac{4}{2+6}=\\frac{1}{2})%Lại có %((b-1)(c-1) \\geq 0 \\Rightarrow b c+2 \\geq b+c+1 \\geq b+c+a)%<br>Cũng có %(a\\left(1-a^{3}\\right) \\geq 0 \\Rightarrow a^{4} \\leq a)%<br>\\[\\Rightarrow \\frac{a^{4}}{b c+2} \\leq \\frac{a}{a+b+c}\\]<br>Tương tự và cộng theo từng vế ta có ngay<br>\\[T \\leq \\frac{a}{b+c+a}+\\frac{b}{c+a+b}+\\frac{c}{a+b+c}=1\\]<br>Vậy %(\\frac{1}{2} \\leq T \\leq 1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho tam giác nhọn %(\\mathrm{ABC}(\\mathrm{AB}\\lt \\mathrm{AC}))% nội tiếp đường tròn %((\\mathrm{O}))%. Đường thẳng đi qua %(\\mathrm{A})% và song song với %(\\mathrm{BC})% cắt %((\\mathrm{O}))% tại giao điểm thứ hai là %(\\mathrm{D})%. Gọi %(\\mathrm{M})% là trung điểm của đoạn thẳng %(\\mathrm{BC})%. Đường thẳng %(\\mathrm{DM})% cắt %((\\mathrm{O}))% tại giao điểm thứ hai là %(\\mathrm{S})%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.5,
+        "content": "Chứng minh rằng tam giác ACS đồng dạng với tam giác BMS",
+        "question_images": [],
+        "solution": "Ta có: %(A S C=B S M)% (do %(\\mathrm{AC}=\\mathrm{BD})% )<br>Mà %(S B M=S A C \\Rightarrow \\triangle S B M \\sim \\triangle S A C)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/18137ed9e4b12879a5d71003d82f1e0c.png\" srcset=\"https://docdn.giainhanh.io/media/test/b11114b2e22b187a729d3afca8add81a.png 147w, https://docdn.giainhanh.io/media/test/e4e6093462a6a481293d1fbce41b28bb.png 472w\" width=\"472\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.5,
+        "content": "Gọi %(\\mathrm{J})% là trung điể̉m của đoạn thẳng %(\\mathrm{AS})%. Đường thẳng %(\\mathrm{BJ})% cắt %((\\mathrm{O}))% tại giao điểm thứ hai là %(\\mathrm{T})%. Chứng minh rằng đường thẳng %(\\mathrm{CT})% song song với đường thẳng %(\\mathrm{AS})%.",
+        "question_images": [],
+        "solution": "Từ câu a ta có %(B S \\cdot A C=A S \\cdot B M=\\frac{1}{2} \\cdot A S \\cdot B C=S J \\cdot B C)%<br>\\[\\begin{array}{l}\\Rightarrow \\frac{B S}{S J}=\\frac{B C}{A C} \\\\Rightarrow \\triangle J B S \\sim \\triangle A B C(c-g-c)\\end{array}\\]<br>Từ đó %(J B A=S B C \\Rightarrow \\mathrm{TC} / / \\mathrm{AS})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 0.5,
+        "content": "Các đường cao %(\\mathrm{DE}, \\mathrm{BF}, \\mathrm{CK})% của tam giác %(\\mathrm{BDC})% đồng quy tại %(\\mathrm{H})%. Gọi %(\\mathrm{L})% là chân đường vuông góc kẻ từ %(\\mathrm{H})% đến %(\\mathrm{KF})%. Chứng minh rằng các đường thẳng %(\\mathrm{AE})% và %(\\mathrm{DL})% cắt nhau tại một điểm nằm trên đường tròn (O).",
+        "question_images": [],
+        "solution": "%(\\mathrm{DL})% cắt %((\\mathrm{O}))% tại %(\\mathrm{X})% khác %(\\mathrm{D})%Ta có: %(D X C=D B C=D F K \\Rightarrow)% Tứ giác %(\\mathrm{LXCF})% nội tiếp<br>Suy ra %(D L . D X=D F \\cdot D C=D H \\cdot D E)%%(\\Rightarrow)% HEXL nội tiếp<br>Kẻ đường kính %(\\mathrm{DV})% của %((\\mathrm{O}))%%(\\mathrm{DE})% cắt %((\\mathrm{O}))% tại %(\\mathrm{U})%<br>Ta có: %(E X L=D H L=O D H)% (do %(O D \\perp F K)% )<br>\\[=\\frac{1}{2} s d U V=\\frac{1}{2} s d A D=A X D\\]<br>Vậy %(\\mathrm{A}, \\mathrm{E}, \\mathrm{X})% thẳng hàng. Ta có đpcm",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho bảng ô vuông kích thước %(\\mathrm{n} \\mathrm{x} \\mathrm{n})% và hai loại miếng ghép hình \"dấu cộng\", \"dấu trừ\" như hình dưới. Ta cần phủ kín bảng ô vuông đã cho bằng cách sử dụng cả hai loại miếng ghép không được chồng lên nhau. Biết rằng mỗi ô vuông nhỏ của các miếng ghép chồng khít với một ô vuông nhỏ trong bảng và miếng ghép \"dấu trừ\" có thể xoay %(90^{\\circ})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.75,
+        "content": "a) Chỉ ra một cách phủ kín thỏa mãn yêu cầu trên với n = 6.",
+        "question_images": [],
+        "solution": "Ta có cách phủ kín bảng trông TH n = 6 như sau: (phần màu trắng được ghép bởi các “dấu trừ”)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/6618a7e088f88673e3733711a6bb1fc2.png\" srcset=\"https://docdn.giainhanh.io/media/test/5830b9255820c8b11680553bc72a4447.png 156w\" width=\"156\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.75,
+        "content": "b) Tìm tất cả giá trị của n để bảng ô vuông kích thước n x n có thể được phủ kín bằng cách sử dụng cả hai loại miếng ghép trên.",
+        "question_images": [],
+        "solution": "Tô màu bảng %(\\mathrm{n} \\mathrm{x} \\mathrm{n} \\text { như } \\text {hình} \\text { bàn } \\text {cờ } \\text {thì một dấu trừ sẽ luôn phủ 1 } )% ô trắng, 1 ô đen, một \"dấu cộng\" luôn phủ 4 trắng, 1 đen hoặc 4 đen, 1 trắng.<br>Gọi số \"dấu trừ\" được sử dụng là %(\\mathrm{a})%, số \"dấu cộng\" 4 trắng -1 đen và 4 đen -1 trắng lần lượt được sử dụng là %(\\mathrm{b}, \\mathrm{c})%.<br>Khi đó:<br>+ Số ô trắng được phủ là: %(\\mathrm{a}+4 \\mathrm{~b}+\\mathrm{c})%<br>+ Số ô đen được phủ là: %(\\mathrm{a}+\\mathrm{b}+4 \\mathrm{c})%<br>Mà bảng tô theo hình bàn cờ, nên hiệu số ô trắng trừ số ô đen trong bảng luôn thuộc %(\\{-1,0,1\\})% nên<br>\\[3(b-c) \\in\\{-1,0,1\\}\\]<br>Do đó %(\\mathrm{b}=\\mathrm{c})%<br>Dẫn đến tổng số ô trong bảng là %(2 \\mathrm{a}+10 \\mathrm{~b})%, là một số chẵn, hay %(\\mathrm{n})% phải chẵn.<br>Với %(\\mathrm{n}=2, \\mathrm{n}=4)% dễ thấy không thể phủ được.<br>Vì %(\\mathrm{n}=6)% phủ được nên với %(\\mathrm{n})% chẵn, %(n \\geq 8)% bất kì, ta chỉ cần phủ bảng con %(6 \\times 6)% ở một góc như ý 1 ), phần còn lại phủ bởi các \"dấu trừ\" là xong<br>Vậy để bảng có thể phủ được thì %(\\mathrm{n})% chẵn và %(n \\geq 6)%.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Cho %(A=\\frac{x^{2}-\\sqrt{x}}{x+\\sqrt{x}+1}+\\frac{x^{2}+\\sqrt{x}}{x-\\sqrt{x}+1})%. Rút gọn %(B=1-\\sqrt{2 A-4 \\sqrt{x}+1})% với %(0 \\leq x \\leq \\frac{1}{4})%",
+        "question_images": [],
+        "solution": "Ta có %(A=\\sqrt{x}(\\sqrt{x}-1)+\\sqrt{x}(\\sqrt{x}+1)=2 x)%<br>Do đó %(B=1-\\sqrt{4 x-4 \\sqrt{x}+1}=1-|2 \\sqrt{x}-1|=1-(1-2 \\sqrt{x})=2 \\sqrt{x})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho %(x, y, z \\neq 0)% và đôi một khác nhau thỏa mãn %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=0)%.<br>Chứng minh<br>\\[\\left(\\frac{1}{x^{2}+2 y z}+\\frac{1}{y^{2}+2 \\mathrm{zx}}+\\frac{1}{z^{2}+2 \\mathrm{x} y}\\right)\\left(x^{2016}+y^{2017}+z^{2018}\\right)=x y+y z+z \\mathrm{x}\\]",
+        "question_images": [],
+        "solution": "Từ giả thiết: %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=0 \\Rightarrow x y+y z+z x=0 \\Rightarrow x^{2}+2 y z=x^{2}+y z+y z=x^{2}+y z-x y-z x)%%(=(x-y)(x-z))%.<br>Tương tự ta có %(\\frac{1}{x^{2}+2 y z}+\\frac{1}{y^{2}+2 z x}+\\frac{1}{z^{2}+2 x y})%%(=\\frac{1}{(x-y)(x-z)}+\\frac{1}{(y-z)(y-x)}+\\frac{1}{(z-x)(z-y)}=\\frac{y-x+x-z+z-y}{(x-y)(x-z)}=0)%, suy ra (*) đúng",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Giải phương trình %((\\sqrt{x+5}-\\sqrt{x-2})\\left(1+\\sqrt{x^{2}+3 x-10}\\right)=7)%",
+        "question_images": [],
+        "solution": "ĐKXD: %(\\mathrm{x} \\geq 2)%.<br>Đặt %(\\sqrt{\\mathrm{x}+5}=\\mathrm{a}\\gt 0 ; \\sqrt{\\mathrm{x}-2}=\\mathrm{b} \\geq 0 \\Rightarrow \\mathrm{a}^{2}-\\mathrm{b}^{2}=7)%<br>Ta có phương trình %((a-b)(1+a b)=a^{2}-b^{2} \\Leftrightarrow(a-b)(a-1)(b-1)=0)%<br>Do %(\\mathrm{a} \\neq \\mathrm{b})% nên xét %(\\mathrm{a}-1=0 \\Rightarrow \\sqrt{\\mathrm{x}+5}=1 \\Leftrightarrow \\mathrm{x}=-4)% (loại).<br>Xét %(\\mathrm{b}-1=0 \\Rightarrow \\sqrt{\\mathrm{x}-2}=1 \\Leftrightarrow \\mathrm{x}=3)%<br>Vậy phương trình có nghiệm %(x=3)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x^{2}+y^{2}-x y=2 \\\\ x^{3}=x+y\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Từ phương trình:%(x^{3}=x+y \\Rightarrow 2 x^{3}=2(x+y) \\Rightarrow 2 x^{3}=\\left(x^{2}+y^{2}-x y\\right)(x+y))% %(\\Leftrightarrow 2 x^{3}=x^{3}+y^{3} \\Leftrightarrow x^{3}=y^{3} \\Leftrightarrow x=y)%.<br>Thế vào phương trình %(x^{2}+y^{2}-x y=2)% được %(x^{2}=2 \\Leftrightarrow x=y= \\pm \\sqrt{2})% thỏa mãn phương trình %(x^{3}=x+y)%<br>Vậy hệ phương trình có nghiệm %((\\mathrm{x} ; \\mathrm{y}) \\in\\{(-\\sqrt{2} ;-\\sqrt{2}),(\\sqrt{2} ; \\sqrt{2})\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Tìm các số thực x sao cho %(\\mathrm{x}+\\sqrt{2018})% và %(\\frac{7}{\\mathrm{x}}-\\sqrt{2018})% đều là số nguyên",
+        "question_images": [],
+        "solution": "ĐKXĐ: %(\\mathrm{x} \\neq 0)%.<br>Đặt %(\\mathrm{a}=\\mathrm{x}+\\sqrt{2018})% và %(\\mathrm{b}=\\frac{7}{\\mathrm{x}}-\\sqrt{2018}(\\mathrm{a}, \\mathrm{b} \\in \\mathrm{Z}))%<br>\\[\\Rightarrow \\mathrm{b}=\\frac{7}{\\mathrm{a}-\\sqrt{2018}}-\\sqrt{2018} \\Leftrightarrow \\mathrm{ab}-2025=(\\mathrm{b}-\\mathrm{a}) \\sqrt{2018}\\]<br>Nếu %(a \\neq b)% thì vế phải là số vô tỉ và vế trái là số nguyên, vô lí.<br>Nếu %(\\mathrm{a}=\\mathrm{b})% thì %(\\mathrm{ab}-2025=0 \\Rightarrow \\mathrm{a}=\\mathrm{b}= \\pm 45)%. Với %(\\mathrm{a}=45)% thì %(\\mathrm{x}=\\frac{7}{45+\\sqrt{2018}}=45-\\sqrt{2018})%<br>Với a %(=-45 \\Rightarrow \\mathrm{x}=\\frac{7}{-45+\\sqrt{2018}}=-45-\\sqrt{2018})% (TMĐK)",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Tìm các số tự nhiên có dạng %(\\overline{\\mathrm{ab}})%. Biết rằng %(\\overline{\\mathrm{ab}}^{2}-\\overline{\\mathrm{ba}}^{2})% là một số chia hết cho 3267",
+        "question_images": [],
+        "solution": "Ta có %(\\overline{a b}^{2}-\\overline{b a}^{2}=(10 a+b)^{2}-(10 b+a)^{2}=99\\left(a^{2}-b^{2}\\right))%.<br>Vì %(3267=99.33)% nên %(\\overline{a b}^{2}-\\overline{b a}^{2})% chia hết cho %(3267 \\mathrm { khi}\\left(\\mathrm{a}^{2}-\\mathrm{b}^{2}\\right): 33)% hay %((\\mathrm{a}-\\mathrm{b})(\\mathrm{a}+\\mathrm{b}))% chia hết cho 3 và 11 .<br>Nếu %(\\mathrm{a}=\\mathrm{b})% thõa mãn bài toán<br>Nếu %(a \\neq b)%, vì %(1 \\leq a, b \\leq 9)% ta tìm được 74 và 47<br>Vậy các số cà̀n tìm là %(11,22,33,44,47,55,66,74,77,88,99)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho hình bình hành %(A B C D)% có góc %(\\widehat{B D C}=90^{\\circ})%, đường phân giác góc %(\\widehat{B A D})% cắt canh %(B C)% và đường thẳng %(C \\mathrm{D})% lần lượt tại %(E)% và %(F)%. Goi %(O, O^{\\prime})% lần lượt là tâm đường tròn ngoại tiếp %(\\triangle B C D)% và %(\\triangle C E F)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng O ' thuộc đường tròn %((\\mathrm{O}))%",
+        "question_images": [],
+        "solution": "%(\\widehat{B A E}=\\widehat{D A E})% (giả thuyết); %(\\left\\{\\begin{array}{l}\\widehat{B A E}=\\widehat{E F C} \\\\ \\widehat{D A E}=\\widehat{F E C}\\end{array} \\Rightarrow \\widehat{E F C}=\\widehat{F E C}\\right.)%<br>suy ra %(\\triangle E F C)% cân tại %(C \\Rightarrow C E=C F)%<br>mà %(\\widehat{B E A}=\\widehat{F E C} \\Rightarrow \\widehat{B E A}=\\widehat{B A E})% nên %(\\triangle A B E)% cân tại %(B)%%(\\Rightarrow B A=B E)% mà %(B A=C D)% nên %(B E=C D)%<br>%(\\left\\{\\begin{array}{l}C E=C F \\\\ B E=C \\mathrm{D}\\end{array} \\Rightarrow B E+C E=D C+C F \\Leftrightarrow B C=D F\\right.)% (1).<br>Măt khác %(\\Delta O^{\\prime} C F)% cân %(\\Rightarrow \\widehat{O^{\\prime} C F}=\\widehat{O^{\\prime} F C})%<br>Với %(C E=C F \\Rightarrow \\widehat{O^{\\prime} C E}=\\widehat{O^{\\prime} C F} \\Rightarrow \\widehat{O^{\\prime} C E}=\\widehat{O^{\\prime} F C})% (2)<br>Mà %(O^{\\prime} C=O^{\\prime} F)% (3).<br>Từ (1),(2) và (3) ta được %(\\triangle B O^{\\prime} C=\\Delta D O^{\\prime} F \\Rightarrow \\widehat{O^{\\prime} B C}=\\widehat{O^{\\prime} D F})%<br>Nên tứ giác %( \\mathrm{BDCO} ^{\\prime})% nội tiếp hay điểm %(O^{\\prime})% thuộc đường tròn %(\\left(O\\right))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/6c48e43640c5f829b4c10bd0542b2ccb.png\" srcset=\"https://docdn.giainhanh.io/media/test/6c48e43640c5f829b4c10bd0542b2ccb.png 227w, https://docdn.giainhanh.io/media/test/6c48e43640c5f829b4c10bd0542b2ccb.png 500w, https://docdn.giainhanh.io/media/test/6c48e43640c5f829b4c10bd0542b2ccb.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Khi DE vuông góc với BC. Tiếp tuyển của %((O))% tại %(D)% cắs đường thẳng %(B C)% tại %(G)%. Chứng minh rằng %(B G . C E=B E . C G)%.",
+        "question_images": [],
+        "solution": "Tam giác %(B C D)% tại %(D)%, nội tiếp đường tròn %((O))%.<br>\\[\\begin{array}{l}\\text { Ta co }\\left\\{\\begin{array}{l}D G^{2}=C G \\cdot B G \\D E^{2}=B E \\cdot C E\\end{array} \\Rightarrow D G^{2}-D E^{2}=C G \\cdot B G-B E \\cdot C E \\Leftrightarrow G E^{2}=C G \\cdot B G-B E \\cdot C E\\right. \\\\Rightarrow(C E+C G)^{2}=C G \\cdot B G-B E \\cdot C E \\\\Leftrightarrow C E^{2}+2 C E \\cdot C G+C G^{2}=C G \\cdot B G-B E \\cdot C E \\\\Leftrightarrow C E^{2}+C E \\cdot C G+B E \\cdot C E=C G \\cdot B G-C G^{2}-C E \\cdot C G \\\\Leftrightarrow C E(C E+C G+B E)=C G(B G-C G-C E) \\Leftrightarrow C E \\cdot B G=C G \\cdot B E .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Khi %(D E)% vuông góc %(B C)%. Đường tròn %((O))% và %(\\left(O^{\\prime}\\right))% cắt nhau tại điểm %(H)% ( %(H)% khác %(C)% ). Kẻ tiểp tuyển chung %(I K)% ( %(I)% thuộc %((O), K)% thuộc %(\\left(O^{\\prime}\\right))% và %(H, I, K)% nằm cùng phía bờ %(\\mathrm{OO}^{\\prime})% ). Dựng hình bình hành CIMK. Chứng minh %(O B+O^{\\prime} C\\gt H M)%.",
+        "question_images": [],
+        "solution": "Tia %(C H)% cắt %(I K)% tại %(N)%.<br>Áp dụng phương tích đường tròn ta có %(N K^{2}=N H \\cdot N C=N I^{2})% %(\\Rightarrow N K=N I)% mà %(C I M K)% là hình bình hành, do đó %(M, N, H, C)% thẳng hàng.<br>Suy ra %(O B^{2}+O^{\\prime} C=O I+O^{\\prime} K=2 N J)%.<br>Goi T là điểm đối xứng với %(H)% qua %(N, P)% là giao điểm của %(C H)% với %(O O^{\\prime})%.<br>Ta có %(\\left\\{\\begin{array}{l}P H=P C \\\\ O O^{\\prime} \\perp C H\\end{array} \\Rightarrow N J\\gt N P\\right.)%.<br>\\[\\Rightarrow 2 N J>2 N P=N P+N P=N P+P H+N P=N T+P C+N P=T C=H M\\]<br>Vậy %(O B+O^{\\prime} C>H M)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.0,
+        "content": "Cho %(x, y, z\\gt 0)% thõa mãn %(x^{2}+y^{2}+z^{2} \\leq 3 x y z)%.<br>Tìm GTLN cùa %(P=\\frac{x^{2}}{x^{4}+y z}+\\frac{y^{2}}{y^{4}+z x}+\\frac{z^{2}}{z^{4}+x y})%",
+        "question_images": [],
+        "solution": "Từ giả thiết %(\\mathrm{x}^{2}+\\mathrm{y}^{2}+\\mathrm{z}^{2} \\leq 3 \\mathrm{xyz} \\Rightarrow \\frac{\\mathrm{x}^{2}+\\mathrm{y}^{2}+\\mathrm{z}^{2}}{\\mathrm{xyz}} \\leq 3)%.<br>Áp dụng BĐT CauChy ta có %(x^{4}+y z \\geq 2 x^{2} \\sqrt{y z} \\Rightarrow \\frac{x^{2}}{x^{4}+y z} \\leq \\frac{1}{2 \\sqrt{y z}})%.<br>Tương tự ta có %(P \\leq \\frac{1}{2}\\left(\\frac{1}{\\sqrt{x y}}+\\frac{1}{\\sqrt{y z}}+\\frac{1}{\\sqrt{z x}}\\right))%<br>Áp dụng BĐT phụ %(\\mathrm{ab}+\\mathrm{bc}+\\mathrm{ca} \\leq \\mathrm{a}^{2}+\\mathrm{b}^{2}+\\mathrm{c}^{2})%.<br>Suy ra %(\\mathrm{P} \\leq \\frac{1}{2}\\left(\\frac{1}{\\mathrm{x}}+\\frac{1}{\\mathrm{y}}+\\frac{1}{\\mathrm{z}}\\right)=\\frac{1}{2}\\left(\\frac{\\mathrm{yz}}{\\mathrm{xyz}}+\\frac{\\mathrm{zx}}{\\mathrm{xyz}}+\\frac{\\mathrm{xy}}{\\mathrm{xyz}}\\right))% %(P=\\frac{1}{2} \\cdot \\frac{x y+y z+z x}{x y z} \\leq \\frac{1}{2} \\cdot \\frac{x^{2}+y^{2}+z^{2}}{x y z} \\leq \\frac{3}{2})%<br>Vậy GTLN của P là %(\\frac{3}{2})%. Đạt được khi và chỉ khi %(x=y=z=1)%",
+        "question_type": "essay"
+    }
+]

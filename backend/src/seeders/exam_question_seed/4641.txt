@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1",
+        "group_content": "Giải các phương trình sau:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(2 \\sin ^{2} x+\\cos x=1)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}2 \\sin ^{2} x+\\cos x=1 \\\\ \\Leftrightarrow 2\\left(1-\\cos ^{2} x\\right)+\\cos x=1 \\\\ \\Leftrightarrow-2 \\cos ^{2} x+\\cos x+1=0 \\\\ \\Leftrightarrow\\left[\\begin{array}{l}\\cos x=1 \\\\ \\cos x=\\frac{-1}{2}\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=k 2 \\pi \\\\ x= \\pm \\frac{2 \\pi}{3}+l 2 \\pi\\end{array}(k, l \\in Z)\\right.\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(\\sin 2 x-\\sqrt{3} \\cos 2 x=2 \\cos x)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\sin 2 x-\\sqrt{3} \\cos 2 x=2 \\cos x \\\\ \\Leftrightarrow \\frac{1}{2} \\sin 2 x-\\frac{\\sqrt{3}}{2} \\cos 2 x=\\cos x \\\\ \\Leftrightarrow \\sin \\left(2 x-\\frac{\\pi}{3}\\right)=\\sin \\left(\\frac{\\pi}{2}-x\\right) \\\\ \\Leftrightarrow\\left[\\begin{array}{l}2 x-\\frac{\\pi}{3}=\\frac{\\pi}{2}-x+k 2 \\pi \\\\ 2 x-\\frac{\\pi}{3}=\\pi-\\left(\\frac{\\pi}{2}-x\\right)+k 2 \\pi\\end{array}(k \\in Z)\\right. \\\\ \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{5 \\pi}{18}+\\frac{k 2 \\pi}{3} \\\\ x=\\frac{5 \\pi}{6}+k 2 \\pi\\end{array}(k \\in Z)\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm số hạng không chứa %(x)% trong khai triển của %(\\left(x^{2}-\\frac{2}{x}\\right)^{9})% với %(x \\neq 0)%.",
+        "question_images": [],
+        "solution": "Số hạng tổng quát là<br>\\[\\begin{array}{l}C_{k}^{9}\\left(x^{2}\\right)^{k}\\left(\\frac{-2}{x}\\right)^{9-k} \\text { với } k \\in N, 0 \\leq k \\leq 9 \\\\=C_{9}^{k}(-2)^{9-k} x^{3 k-9}\\end{array}\\]<br>Cho %(3 k-9=0 \\Leftrightarrow k=3)%<br>Vậy số hạng không chứa %(x)% của khai triển là %(C_{9}^{3}(-2)^{9-3}=5376)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho tập hợp %(X=\\{0 ; 1 ; 2 ; 3 ; 4 ; 5\\})%. Hỏi có bao nhiêu cách lập ra một số tự nhiên gồm 4 chữ số được lấy từ %(X)% sao cho số tạo thành là một số lẻ (các chữ số của số đó không nhât thiết phải khác nhau)?",
+        "question_images": [],
+        "solution": "Gọi %(\\overline{a b c d})% là số cần tìm.<br>Có 3 cách chọn %(d(d \\in\\{1 ; 3 ; 5\\}))%<br>Có 5 cách chọn %(a(a \\neq 0))%<br>Có %(6^{2})% cách chọn %(\\overline{b c})%<br>Vậy có %(3 \\cdot 5 \\cdot 6^{2}=540)% cách lập một số theo yêu cầu.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Lớp 11A có 36 học sinh, trong đó có 16 bạn họ Nguyễn, 12 bạn họ Lê và 8 bạn họ Trần. Chọn ngẫu nhiên 4 bạn trong lớp này. Tính xác suất để trong 4 bạn được chọn có đủ cả 3 họ nói trên.",
+        "question_images": [],
+        "solution": "Có %(C_{36}^{4}=58905)% cách chọn ngẫu nhiên 4 bạn trong lớp %(11 \\mathrm{~A})%.<br>Có %(C_{16}^{2} \\cdot 12 \\cdot 8+16 \\cdot C_{12}^{2} \\cdot 8+16 \\cdot 12 \\cdot C_{8}^{2}=5376+8448+11520=25344)% cách chọn 4 bạn có đủ 3 họ.<br>Xác suất để chọn được như vậy là %(\\frac{25344}{58905}=\\frac{256}{595})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho cấp số cộng %(\\left(u_{n}\\right))% thỏa mãn %(\\left\\{\\begin{array}{l}u_{5}+3 u_{3}-u_{2}=-3 \\\\ 3 u_{7}-2 u_{4}=26\\end{array}\\right.)%<br>Tính tổng 15 số hạng đầu tiên của cấp số cộng này.",
+        "question_images": [],
+        "solution": "\\[\\left\\{\\begin{array} { l } { u _ { 5 } + 3 u _ { 3 } - u _ { 2 } = - 3 } \\\\{ 3 u _ { 7 } - 2 u _ { 4 } = 2 6 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { 3 u _ { 1 } + 9 d = - 3 } \\\\{ u _ { 1 } + 1 2 d = 2 6 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}u_{1}=-10 \\d=3\\end{array}\\right.\\right.\\right.\\]<br>Tổng 15 số hạng đầu tiên là %(S_{15}=\\frac{15}{2}[2 \\cdot(-10)+14.3]=165)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình chóp %(S . A B C D)% có đáy %(A B C D)% là hình thang %((A D / / \\mathrm{B} C))%, %(A D=2 B C)%. Gọi %(O)% là giao điểm của %(A C)% và %(B D)%. Gọi %(I, M)% và %(N)% lần lượt là trung điểm của %(S D, A D)% và %(C D)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tìm giao tuyến của %((S A D))% và %((S B C))% rồi tìm giao điểm %(K)% của %(A I)% với %((S B C))%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/66ef4a4753d3273c41f474c467fbe0ac.png\" srcset=\"https://docdn.giainhanh.io/media/test/405178cfce10890a652c71b92bfafe8d.png 245w, https://docdn.giainhanh.io/media/test/d2c0fb83d8d6d10b40dce0f6252c3567.png 500w, https://docdn.giainhanh.io/media/test/0fe1a0cdc0c969b3715fef5a42532425.png 750w\" width=\"750\"/><br>\\[\\left\\{\\begin{array}{l}S \\in(S A D) \\cap(S B C) \\A D \\subset(S A D) ; B C \\subset(S B C) \\A D / / B C\\end{array}\\right.\\]<br>%(\\Rightarrow(S A D) \\cap(S B C)=d)% với %(d)% là đường thẳng đi qua điểm %(S, d)% song song %(A D)% và %(B C)%.<br>Trong %((S A D))% : gọi %(K)% là giao điểm của %(A I)% và %(d)%.<br>\\[\\left\\{\\begin{array}{l}K \\in A I \\K \\in d \\subset(S B C)\\end{array} \\Rightarrow K=A I \\cap(S B C)\\right.\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh rằng %((I M N) / /(S A C))%.",
+        "question_images": [],
+        "solution": "%(M N)% là đường trung bình của %(\\triangle A C D \\Rightarrow M N / / A C)%<br>%(M I)% là đường trung bình của %(\\triangle S A D \\Rightarrow M I / / S A)%<br>Chứng minh %(M N / /(S A C) ; M I / /(S A C))%<br>\\[\\left\\{\\begin{array}{l}M N / /(S A C) \\M I / /(S A C) \\M N \\cap M I=M \\M N \\subset(I M N) ; M I \\subset(I M N)\\end{array} \\Rightarrow(I M N) / /(S A C)\\right.\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Gọi %(P)% là một điểm trên cạnh %(S A)% sao cho %(A P=2 P S)%. Chứng minh rằng %(P O / /(S C D))%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A D / / B C \\Rightarrow \\frac{O C}{O A}=\\frac{B C}{A D}=\\frac{1}{2} \\\\ \\triangle S A C \\text { có } \\frac{S P}{P A}=\\frac{1}{2}=\\frac{C O}{O A} \\Rightarrow P O / / S C \\\\ \\left\\{\\begin{array}{l}P O \\not \\subset(S C D) \\\\ S C \\subset(S C D) \\Rightarrow P O / /(S C D) \\\\ P O / / S C\\end{array}\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Cho một đa giác lồi 20 cạnh. Hỏi có bao nhiêu tam giác có các đỉnh là đỉnh của đa giác và các cạnh không phải là cạnh của đa giác này?",
+        "question_images": [],
+        "solution": "Xét đa giác lồi 20 đỉnh:<br>- Số tam giác có các đỉnh là đỉnh của đa giác này là %(C_{20}^{3}=1140)% tam giác.<br>- Các tam giác có đỉnh là đỉnh của đa giác và có đúng 1 cạnh là cạnh của đa giác sẽ có đúng 2 đỉnh là 2 đỉnh kề nhau của đa giác.<br>Do đó, có %(20 .(20-4)=320)% tam giác loại này.<br>- Các tam giác có đỉnh là đỉnh của đa giác và có đúng 2 cạnh là cạnh của đa giác sẽ có 3 đỉnh là 3 đỉnh liên tiếp của đa giác.<br>Do đó, có 20 tam giác loại này.<br>Vậy số tam giác thỏa mãn yêu cầu đề bài là %(1140-320-20=800)% tam giác.",
+        "question_type": "essay"
+    }
+]

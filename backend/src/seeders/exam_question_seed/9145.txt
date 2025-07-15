@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Rút gọn biểu thức %(\\frac{\\sqrt[3]{2}+\\sqrt{7+2 \\sqrt{10}}+\\sqrt[3]{3 \\sqrt[3]{4}-3 \\sqrt[3]{2}-1}}{\\sqrt{5}+\\sqrt{2}+1})%.",
+        "question_images": [],
+        "solution": "%(\\frac{\\sqrt[3]{2}+\\sqrt{7+2 \\sqrt{10}}+\\sqrt[3]{3 \\sqrt[3]{4}-3 \\sqrt[3]{2}-1}}{\\sqrt{5}+\\sqrt{2}+1}=\\frac{\\sqrt[3]{2}+\\sqrt{(\\sqrt{5}+\\sqrt{2})^{2}}+\\sqrt[3]{(\\sqrt[3]{4}+1)^{3}}}{\\sqrt{5}+\\sqrt{2}+1}=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho hai số dương %(x, y)% thỏa mãn %(x^{3}+y-x \\sqrt[3]{y}=\\frac{-1}{27})%. Tính giá trị của biểu thức %(\\frac{x}{y})%.",
+        "question_images": [],
+        "solution": "Ta có %(x^{3}+y-x \\sqrt[3]{y}=\\frac{-1}{27} \\Leftrightarrow 27 x^{3}+27 y+1-27 x \\sqrt[3]{y}=0)%<br>%(\\begin{array}{l}\\Leftrightarrow(3 x)^{3}+(3 \\sqrt[3]{y})^{3}+1-3 \\cdot 3 x \\cdot \\sqrt[3]{y}=0 \\\\Leftrightarrow(3 x+\\sqrt[3]{y}+1) \\cdot\\left[(3 x-3 \\sqrt[3]{y})^{2}+(3 \\cdot \\sqrt[3]{y}-1)^{2}+(1-3 x)^{2}\\right]=0\\end{array})%<br>Do %(x, y\\gt 0)% nên suy ra %(3 x=3 \\sqrt[3]{y}=1 \\Leftrightarrow\\left\\{\\begin{array}{c}x=\\frac{1}{3} \\\\ y=\\frac{1}{27}\\end{array} \\Leftrightarrow \\frac{x}{y}=9\\right.)%.<br>Vậy giá trị của biểu thức %(\\frac{x}{y})% là 9 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Với mọi số nguyên %(n)%, chứng minh rằng : %(n(n+2)\\left(73 n^{2}-1\\right) \\vdots 24)%.",
+        "question_images": [],
+        "solution": "Ta có %(n(n+2)\\left(73 n^{2}-1\\right)=72 n^{2} \\cdot n \\cdot(n+2)+(n-1) n(n+1)(n+2) \\vdots 24)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tìm số tự nhiên %(n)% để %(2^{4}+2^{7}+2^{n})% là số chính phương.",
+        "question_images": [],
+        "solution": "Ta thử %(n=1,2,3)% đều không thỏa mãn.Với %(n\\gt 4)% thì ta có %(2^{4}+2^{7}+2^{n}=k^{2} \\Leftrightarrow 2^{4}\\left(9+2^{n-4}\\right)=k^{2} \\Rightarrow k: 4)%.<br>Đặt %(k=4 h)% với %(h)% là số tự nhiên.<br>Ta có:<br>%(\\begin{array}{l}9+2^{n-4}=h^{2} \\Rightarrow 2^{n-4}=h^{2}-9=(h-3)(h+3) \\Rightarrow\\left\\{\\begin{array}{l}h-3=2^{x} \\h+3=2^{y} \\x+y=n-4\\end{array}\\right. \\\\Leftrightarrow 6=2 \\cdot 3=2^{y}-2^{x}=2^{x} \\cdot\\left(2^{y-x}-1\\right) \\\\Rightarrow\\left\\{\\begin{array} { l } { 2 ^ { x } = 2 } \\\\{ 2 ^ { y - x } - 1 = 3 }\\end{array} \\Rightarrow \\left\\{\\begin{array}{l}n=8 \\h=5 \\Rightarrow k=20\\end{array}\\right.\\right.\\end{array})%<br>Vậy %(n=8)% là giá trị phù hợp.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình : %(\\sqrt{2-3 x}=-3 x^{2}+7 x-1)%.",
+        "question_images": [],
+        "solution": "ĐKXĐ: %(x \\leq \\frac{2}{3})%<br>Phương trình<br>%(\\begin{array}{l}\\Leftrightarrow 3 x^{2}-7 x+2+\\sqrt{2-3 x}-1=0 \\Leftrightarrow(3 x-1)(x-2)+\\frac{1-3 x}{\\sqrt{2-3 x}+1}=0 \\\\Leftrightarrow(1-3 x)\\left(\\frac{1}{\\sqrt{2-3 x}+1}+2-x\\right)=0 . \\text { Do } x \\leq \\frac{2}{3} \\Leftrightarrow 2-x \\geq \\frac{4}{3}\\gt 0 \\Rightarrow \\frac{1}{\\sqrt{2-3 x}+1}+2-x>0\\end{array})%<br>Suy ra %(1-3 x=0 \\Leftrightarrow x=\\frac{1}{3}(T M D K))%.<br>Vậy phương trình có nghiệm %(x=\\frac{1}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình : %(\\left\\{\\begin{array}{l}3 x-y^{2}-2 \\sqrt{(x-2)(y+1)}=-5 \\\\ -2 x+y^{2}+y=6\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "%(Đ \\mathrm{KXĐ})% : %((x-2)(y+1) \\geq 0)%.<br>Cộng theo hai vế phương trình của hệ ta được:<br>%(x-2-2 \\sqrt{(x-2)(y+1)}+y+1=0\\left(^{*}\\right))%<br>Xét %(\\left\\{\\begin{array}{l}x \\geq 2 \\\\ y \\geq-1\\end{array}\\right.)%.<br>Phương trình %((*) \\Leftrightarrow(\\sqrt{x-2}-\\sqrt{y+1})^{2}=0 \\Leftrightarrow \\sqrt{x-2}=\\sqrt{y+1} \\Leftrightarrow x=y+3)%<br>Thay vào %(-2 x+y^{2}+y=6)% được %(y^{2}-y-12=0 \\Leftrightarrow(y-4)(y+3)=0 \\Rightarrow y=4)% (Vì %(y \\geq-1 \\text { ) })%<br>Nên %(x=7)%.<br>Xét %(\\left\\{\\begin{array}{l}x\\lt 2 \\\\ y\\lt -1\\end{array}\\right.)%.<br>Khi đó %(x-2-2 \\sqrt{(x-2) \\cdot(y+1)}+y+1\\lt 0)% phương trình vô nghiệm<br>Vậy hệ phương trình có nghiệm %((x ; y)=(7 ; 4))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho đoạn thẳng %(A B)%, điểm %(C)% nằm giữa hai điểm %(A)% và %(B)%. Trên cùng một nửa mặt phẳng bở là đường thẳng %(A B)%, vẽ nửa đường tròn đường kính %(A B)% và nửa đường tròn đường kính %(B C)%. Lấy điểm %(M)% thuộc nửa đường tròn đường kính %(B C(M \\neq B ; M \\neq C))%. Kẻ %(M H)% vuông góc với %(B C)% %((H \\in B C))%, đường thẳng %(M H)% cắt nửa đường tròn đường kính %(A B)% tại %(K)%. Hai đường thẳng %(A K)% và %(C M)% giao nhau tại %(E)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng %(\\widehat{H K B}=\\widehat{C E B})% và %(B E^{2}=B C . A B)%;",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/aba2a211b74322a42908dcb6aa02c929.png\" srcset=\"https://docdn.giainhanh.io/media/test/9fec06a3e04079eb53c5609b474f2b96.png 156w\" width=\"156\"/><br>Ta có %(\\widehat{B M E}=\\widehat{B K E}=90^{\\circ})% nên BMKE nội tiếp<br>%(\\Rightarrow \\widehat{H K B}=\\widehat{C E B})% mà %(\\widehat{H K B}=\\widehat{B A E})% (cùng phụ với %(\\widehat{H K A})% ) nên %(\\widehat{E E B}=\\widehat{B A E})%<br>Xét %(\\triangle B E C)% và %(\\triangle B A E)% có: %(\\widehat{C E B}=\\widehat{B A E})% và %(\\widehat{A B E})% chung nên đồng dạng<br>%(\\Rightarrow \\frac{B E}{A B}=\\frac{B C}{B E} \\Rightarrow B E^{2}=B C \\cdot A B)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Từ %(C)% kẻ %(C N \\perp A B)% ( %(N)% thuộc nửa đường tròn đường kính %(A B)% ), đường thẳng %(N K)% cắt %(C E)% tại %(P)%. Chứng minh rằng %(N P=P E)%;",
+        "question_images": [],
+        "solution": "Xét tam giác %(A B N)% vuông tại %(N)% có %(N C \\perp A B)%<br>Suy ra %(B N^{2}=B C \\cdot A B \\Rightarrow B N=B E)%<br>Hay %(\\triangle B N E)% cân tại %(B \\Rightarrow \\widehat{B N E}=\\widehat{B E N})% (1)<br>Theo câu a) thì %(\\widehat{C E B}=\\widehat{B A E})% mà %(\\widehat{B A E}=\\widehat{B N P} \\Rightarrow \\widehat{E E B}=\\widehat{B N P})% (2).<br>Từ (1) và (2) %(\\Rightarrow \\widehat{P N E}=\\widehat{P E N} \\Rightarrow \\triangle P N E)% cân tại %(P \\Rightarrow N P=P E)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Chứng minh rằng khi %(N E)% là tiếp tuyến của nửa đường tròn đường kính %(A B)% thì %(N E=2 N C)%.",
+        "question_images": [],
+        "solution": "Gọi %(Q)% là giao điểm của tia %(B P)% và %(N E)%<br>Vì %(B P=B E)% và %(P N=P E)% nên %(B Q \\perp N E)%<br>%(N E)% là tiếp tuyến của %((O))% nên %(O N \\perp N E)%.<br>Do đó %(O N / / B Q \\Rightarrow \\widehat{B N O}=\\widehat{Q B N})%<br>Mà %(\\widehat{B N O}=\\widehat{N B O} \\Rightarrow \\widehat{Q B N}=\\widehat{N B O})% hay %(B N)% là tia phân giác của %(\\widehat{C B Q})% mà %(N Q \\perp B Q)% và %(N C \\perp B C)% nên %(N Q=N C)%.<br>Vì %(B Q)% là đường trung trực của %(N E)% nên %(N E=2 . N Q)% suy ra %(N E=2 N C)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho %(a, b)% là các số dương thỏa mãn %(a+b+2 a b=12)%.Tìm giá trị nhỏ nhất của biểu thức %(A=\\frac{a^{2}+a b}{a+2 b}+\\frac{b^{2}+a b}{2 a+b})%.",
+        "question_images": [],
+        "solution": "Ta có %(12=a+b+2 a b \\leq \\frac{(a+b)^{2}}{2}+(a+b) \\Rightarrow a+b \\geq 4)%.<br>Khi đó<br>%(\\begin{array}{l}A=(a+b) \\cdot\\left(\\frac{a}{a+2 b}+\\frac{b}{2 a+b}\\right)=(a+b) \\cdot\\left(\\frac{a^{2}}{a^{2}+2 a b}+\\frac{b^{2}}{2 a b+b^{2}}\\right) \\geq 4 \\cdot \\frac{(a+b)^{2}}{(a+b)^{2}+2 a b} \\\\geq 4 . \\frac{(a+b)^{2}}{(a+b)^{2}+\\frac{(a+b)^{2}}{2}}=\\frac{8}{3} .\\end{array})%<br>Vậy giá trị nhỏ nhất của biểu thức %(\\operatorname{Min} A=\\frac{8}{3} \\Leftrightarrow a=b=2)%.",
+        "question_type": "essay"
+    }
+]

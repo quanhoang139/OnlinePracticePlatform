@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(P=\\frac{a+1}{\\sqrt{a}}+\\frac{a \\sqrt{a}-1}{a-\\sqrt{a}}+\\frac{a^{2}-a \\sqrt{a}+\\sqrt{a}-1}{\\sqrt{a}-a \\sqrt{a}})% với %(a\\gt 0, a \\neq 1)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(P\\gt 4)%.",
+        "question_images": [],
+        "solution": "Do %(a\\gt 0, a \\neq 1)% nên %(\\frac{a \\sqrt{a}-1}{a-\\sqrt{a}}=\\frac{(\\sqrt{a}-1)(a+\\sqrt{a}+1)}{\\sqrt{a}(\\sqrt{a}-1)}=\\frac{a+\\sqrt{a}+1}{\\sqrt{a}})%<br>Ta có %(\\frac{a^{2}-a \\sqrt{a}+\\sqrt{a}-1}{\\sqrt{a}-a \\sqrt{a}}=\\frac{(a+1)(a-1)-\\sqrt{a}(a-1)}{\\sqrt{a}(1-a)}=\\frac{-a+\\sqrt{a}-1}{\\sqrt{a}})%<br>%(\\Rightarrow P=\\frac{a+1}{\\sqrt{a}}+\\frac{a+\\sqrt{a}+1}{\\sqrt{a}}+\\frac{-a+\\sqrt{a}-1}{\\sqrt{a}}=\\frac{(\\sqrt{a}+1)^{2}}{\\sqrt{a}})%<br>Giả sử %(P>4 \\Leftrightarrow \\frac{(\\sqrt{a}+1)^{2}}{\\sqrt{a}}>4 \\Leftrightarrow(\\sqrt{a}+1)^{2}>4 \\sqrt{a} \\Leftrightarrow(\\sqrt{a}-1)^{2}>0)% luôn đúng vì %(a>0, a \\neq 1)%.<br>Vậy %(P>4)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm giá trị của %(a)% để biểu thức %(Q=\\frac{8}{P})% nhận giá trị nguyên.",
+        "question_images": [],
+        "solution": "Theo phần a) %(P\\gt 4 \\Rightarrow 0\\lt Q=\\frac{8}{P}\\lt \\frac{8}{4} \\Rightarrow 0\\lt Q\\lt 2)%.<br>Để %(Q)% nhận giá trị nguyên thì %(Q=1)%<br>Ta có %(Q=1 \\Leftrightarrow \\frac{8 \\sqrt{a}}{a+1+2 \\sqrt{a}}=1 \\Leftrightarrow a-6 \\sqrt{a}+1=0 \\Leftrightarrow(\\sqrt{a}-3)^{2}=8)%<br>%(\\Leftrightarrow \\sqrt{a}=3+2 \\sqrt{2})% hoặc %(\\sqrt{a}=3-2 \\sqrt{2})% (thoả mãn)<br>Vậy, %(a=(3 \\pm 2 \\sqrt{2})^{2})% thì %(Q)% nhận giá trị nguyên.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho phương trình %(x^{2}+2(m-2) x+m^{2}-2 m+4=0)% (với %(m)% là tham số).<br>Tìm giá trị của %(m)% để phương trình có hai nghiệm phân biệt %(x_{1}, x_{2})% thỏa mãn %(\\frac{30}{x_{1}^{2}+x_{2}^{2}}-\\frac{15}{x_{1} x_{2}}=\\frac{1}{m})%.",
+        "question_images": [],
+        "solution": "Phương trình đã cho có hai nghiệm phân biệt khi:<br>\\[\\Delta^{\\prime}\\gt 0 \\Leftrightarrow(m-2)^{2}-\\left(m^{2}-2 m+4\\right)>0 \\Leftrightarrow m\\lt 0 \\text {. }\\]<br>Với %(m\\lt 0)% theo định lý Vi-et ta có %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=4-2 m \\\\ x_{1} x_{2}=m^{2}-2 m+4 \\neq 0 \\quad \\forall m\\end{array}\\right.)%.<br>Ta có %(\\frac{30}{x_{1}^{2}+x_{2}^{2}}-\\frac{15}{x_{1} x_{2}}=\\frac{1}{m} \\Leftrightarrow \\frac{30}{\\left(x_{1}+x_{2}\\right)^{2}-2 x_{1} x_{2}}-\\frac{15}{x_{1} x_{2}}=\\frac{1}{m})% (1)<br>\\[\\Leftrightarrow \\frac{15}{m^{2}-6 m+4}-\\frac{15}{m^{2}-2 m+4}=\\frac{1}{m} \\Leftrightarrow \\frac{15}{m+\\frac{4}{m}-6}-\\frac{15}{m+\\frac{4}{m}-2}=1\\]<br>Đặt %(m+\\frac{4}{m}=t)% do %(m\\lt 0 \\Rightarrow t\\lt 0)%.<br>Ta có (1) trở thành %(\\frac{15}{t-6}-\\frac{15}{t-2}=1 \\Leftrightarrow(t-12)(t+4)=0)%<br>\\[\\Leftrightarrow\\left[\\begin{array}{l}t=-4 \\t=12\\end{array} \\Rightarrow t=-4(\\text { do } t\\lt 0)\\right.\\]<br>Với %(t=-4)% ta có %(m+\\frac{4}{m}=-4 \\Leftrightarrow(m+2)^{2}=0 \\Leftrightarrow m=-2)% (thoả mãn)",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x \\sqrt{x-1}+y \\sqrt{y-1}=2 \\sqrt{x y} \\\\ x+y=x y\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Điều kiện %(x, y \\geq 1)%.<br>Từ %(x \\sqrt{x-1}+y \\sqrt{y-1}=2 \\sqrt{x y} \\Rightarrow \\sqrt{\\frac{x(x-1)}{y}}+\\sqrt{\\frac{y(y-1)}{x}}=2)%<br>Áp dụng bất đẳng thức %(\\mathrm{AM}-\\mathrm{GM})% ta có<br>\\[V T \\geq 2 \\cdot \\sqrt[4]{(x-1)(y-1)}=2 \\cdot \\sqrt[4]{x y-(x+y)+1}=2 \\text { vì } x+y=x y\\]<br>Dấu \"=\" xảy ra khi %(x \\sqrt{x-1}=y \\sqrt{y-1}(*))%<br>Nếu %(x=y \\geq 1)% thoả mãn %(\\left({ }^{*}\\right))%<br>Nếu %(x\\gt y \\geq 1)% thì %(x \\sqrt{x-1}>y \\sqrt{y-1})% (loại)<br>Nếu %(y>x \\geq 1)% thì %(x \\sqrt{x-1}\\lt y \\sqrt{y-1})% (loại)<br>Vậy %(x=y)%Thay %(x=y)% vào %(x+y=x y \\Rightarrow x^{2}-2 x=0 \\Rightarrow\\left[\\begin{array}{l}x=0(\\text { loai }) \\\\ x=2(t / m)\\end{array}\\right.)%<br>Vậy hệ phương trình có nghiệm %((x ; y)=(2 ; 2))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tìm các số nguyên tố %(p, q)% sao cho tồn tại số tự nhiên %(n)% thỏa mãn điều kiện:<br>\\[p q(n+1)=(p+q)\\left(n^{2}+1\\right) \\text {. }\\]",
+        "question_images": [],
+        "solution": "Nếu %(p=q)% thì %(p=\\frac{2\\left(n^{2}+1\\right)}{n+1}=2 n-2+\\frac{4}{n+1})%.<br>Do %(n \\in \\mathbb{N})% và %(p)% là số nguyên tố nên %(4 \\vdots(n+1) \\Rightarrow n=0 ; n=1 ; n=3 \\Rightarrow p=2 ; p=5)%.<br>Nếu %(p \\neq q)% thì %(p q)% và %(p+q)% là nguyên tố cùng nhau vì %(p q)% chỉ chia hết cho các ước nguyên tố là %(p)% và %(q)% còn %(p+q)% thì không chia hết cho %(p)% và không chia hết cho %(q)%.<br>Gọi %(r)% là một ước chung của %(n^{2}+1)% và %(n+1 \\Rightarrow[(n+1)(n-1)] \\vdots r \\Rightarrow\\left(n^{2}-1\\right) \\vdots r)%%(\\Rightarrow\\left[\\left(n^{2}+1\\right)-\\left(n^{2}-1\\right)\\right] \\vdots r \\Rightarrow 2 \\vdots r \\Rightarrow r=1)% hoặc %(r=2)%.+) %(r=1)%<br>suy ra %(p+q=n+1, p q=n^{2}+1 \\Rightarrow p, q)% là hai nghiệm của phương trình%(x^{2}-(n+1) x+n^{2}+1=0)% vô nghiệm<br>do %(\\Delta=-3 n^{2}+2 n-3=-(n-1)^{2}-\\left(2 n^{2}+2\\right)\\lt 0)%<br>+) %(r=2)% suy ra %(2 p q=n^{2}+1)% và %(2(p+q)=n+1 \\Rightarrow p, q)% là hai nghiệm của phương trình %(2 x^{2}-(n+1) x+n^{2}+1=0)% vô nghiệm.<br>Vậy bộ các số nguyên tố %((p ; q))% cần tìm là %((p ; q)=(2 ; 2) ;(p ; q)=(5 ; 5))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho ba số dương %(a, b, c)% thoả mãn %(\\sqrt{a^{2}+b^{2}}+\\sqrt{b^{2}+c^{2}}+\\sqrt{c^{2}+a^{2}}=3 \\sqrt{2})%.<br>Chứng minh: %(\\frac{a^{2}}{b+c}+\\frac{b^{2}}{c+a}+\\frac{c^{2}}{a+b} \\geq \\frac{3}{2})%.",
+        "question_images": [],
+        "solution": "Ta có %(2\\left(a^{2}+b^{2}\\right) \\geq(a+b)^{2} \\Rightarrow a+b \\leq \\sqrt{2\\left(a^{2}+b^{2}\\right)})%.<br>Tương tự, suy ra %(\\frac{a^{2}}{b+c}+\\frac{b^{2}}{c+a}+\\frac{c^{2}}{a+b} \\geq \\frac{a^{2}}{\\sqrt{2\\left(b^{2}+c^{2}\\right)}}+\\frac{b^{2}}{\\sqrt{2\\left(c^{2}+a^{2}\\right)}}+\\frac{c^{2}}{\\sqrt{2\\left(c^{2}+a^{2}\\right)}})%<br>Đặt %(x=\\sqrt{b^{2}+c^{2}}\\gt 0, y=\\sqrt{c^{2}+a^{2}}>0, z=\\sqrt{a^{2}+b^{2}}>0)%,%(\\Rightarrow x+y+z=3 \\sqrt{2})%.<br>suy ra %(V T \\geq \\frac{y^{2}+z^{2}-x^{2}}{2 \\sqrt{2} x}+\\frac{z^{2}+x^{2}-y^{2}}{2 \\sqrt{2} y}+\\frac{x^{2}+y^{2}-z^{2}}{2 \\sqrt{2} z})%<br>%(\\geq \\frac{1}{2 \\sqrt{2}}\\left[\\left(\\frac{(y+z)^{2}}{2 x}-x\\right)+\\left(\\frac{(z+x)^{2}}{2 y}-y\\right)+\\left(\\frac{(x+y)^{2}}{2 z}-z\\right)\\right])%<br>%(\\geq \\frac{1}{2 \\sqrt{2}}\\left[\\left(\\frac{(y+z)^{2}}{2 x}+2 x-3 x\\right)+\\left(\\frac{(z+x)^{2}}{2 y}+2 y-3 y\\right)+\\left(\\frac{(x+y)^{2}}{2 z}+2 z-3 z\\right)\\right])%<br>%(\\geq \\frac{1}{2 \\sqrt{2}}[(2(y+z)-3 x)+(2(z+x)-3 y)+(2(x+y)-3 z)])%<br>Suy ra %(V T \\geq \\frac{1}{2 \\sqrt{2}}(x+y+z)=\\frac{3}{2})%.<br>Dấu \" %(=)% \" xảy ra khi %(x=y=z=\\sqrt{2})%<br>Vậy %(\\frac{a^{2}}{b+c}+\\frac{b^{2}}{c+a}+\\frac{c^{2}}{a+b} \\geq \\frac{3}{2})%.<br>Dấu \" %(=)% \" xảy ra khi %(a=b=c=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho tam giác nhọn %(A B C)% nội tiếp %((O), A B\\lt A C)%. Ba đường cao %(A D, B E, C F)% của %(\\triangle A B C)% cắt nhau tại %(H)%. Đường thẳng %(E F)% cắt đường thẳng %(B C)% tại điểm %(P)%. Từ %(D)% kẻ đường thẳng song song với %(E F)% cắt đường thẳng %(A B)% tại điểm %(R)%, cắt đường thẳng %(A C)% tại điểm %(Q)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh tứ giác %(B Q C R)% nội tiếp.",
+        "question_images": [],
+        "solution": "Ta có %(B E C=B F C=90^{\\circ} \\Rightarrow B C E F)% nội tiếp %(\\Rightarrow B C E=B F P)%<br>Mà %(B F P=B R Q)% (so le trong và %(R Q / / E P)% )%(\\Rightarrow B C E=B R Q \\Rightarrow B Q C R)% nội tiếp.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7f2dd99762c33357a2b8158e79877602.png\" srcset=\"https://docdn.giainhanh.io/media/test/dd0f2a47d7324e9beb1ebc213bcb2346.png 218w, https://docdn.giainhanh.io/media/test/41e98bf9d9303199064b425553c3b709.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Cho %(A P)% cắt %((O))% tại điểm thứ hai là %(K)%. Chứng minh tứ giác %(A E F K)% nội tiếp.",
+        "question_images": [],
+        "solution": "Vì %(A K B C)% nội tiếp %(\\Rightarrow P K \\cdot P A=P B \\cdot P C)%<br>Vì %(B C E F)% nội tiếp %(\\Rightarrow P E \\cdot P F=P B \\cdot P C)%<br>Suy ra %(P K \\cdot P A=P E \\cdot P F \\Rightarrow A E F K)% nội tiếp (1)",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Cho dây %(B C)% của %((O))% cố định. Chứng minh khi điểm %(A)% di chuyển trên cung lớn %(B C)% thì đường tròn ngoại tiếp %(\\triangle P Q R)% luôn đi qua một điểm cố định.",
+        "question_images": [],
+        "solution": "Mà %(A E H F)% nội tiếp đường tròn đường kính %(A H(2))%<br>Từ (1),(2) %(\\Rightarrow A, E, H, F, K)% cùng thuộc đường tròn đường kính %(A H)%.<br>Kéo dài %(K H)% cắt %(B C)% tại %(M)%, cắt %((O))% tại điểm thứ hai là %(N)%.<br>Vì %(N K \\perp A K \\Rightarrow A N)% là đường kính của %((O))%<br>Ta có %(B H \\perp A C, N C \\perp A C \\Rightarrow B H / / N C)% (3)<br>\\[C H \\perp A B, N B \\perp A B \\Rightarrow C H / / N B \\text { (4) }\\]<br>Từ (3),(4) %(\\Rightarrow B H C N)% là hình bình hành %(B M=M C=M E)%<br>Ta có %(D M E=2 . A C B)% (tính chất góc ngoài của tam giác cân) (5)<br>Do %(A C D F)% nội tiếp %(\\Rightarrow B F D=A C B)%<br>Do %(B C E F)% nội tiếp %(\\Rightarrow B F P=A C B \\Rightarrow D F P=2 A C B)% (6)<br>Từ %((5),(6) \\Rightarrow D M E=D F P \\Rightarrow D M E F)% nội tiếp.<br>Mà %(M D E=F D P)% (cùng bằng %(B A C) \\Rightarrow \\triangle D E M \\sim \\triangle D P F(\\mathrm{~g} . \\mathrm{g}))%<br>\\[\\Rightarrow \\frac{D E}{D P}=\\frac{D M}{D F} \\Rightarrow D E \\cdot D F=D P \\cdot D M\\left({ }^{*}\\right)\\]<br>Ta có %(F R D=R F D(=R F P) \\Rightarrow \\triangle D R F)% cân tại %(D . \\Rightarrow D F=D R)%(7)<br>Ta có %(D E Q=D E M+M E C)%<br>Ta có %(D Q E=Q D C+Q C D=D P F+M E C=D E M+M E C)%<br>Suy ra %(D E Q=D Q E \\Rightarrow \\triangle D Q E)% cân tại %(D . \\Rightarrow D Q=D E(8))%<br>Thay (7),(8) vào %(\\left({ }^{*}\\right))% ta được %(D Q \\cdot D R=D M \\cdot D P \\Rightarrow P R M Q)% nội tiếp<br>Vậy đường tròn ngoại tiếp tam giác %(P Q R)% luôn đi qua trung điểm %(M)% của %(B C)% cố định. (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Để phục vụ cho giai đoạn cuối làm quảng trường Lễ hội Hoa Phượng đỏ của thành phố Hải Phòng, xe tải của bác An phải chạy 29 ngày liên tục. Mỗi ngày xe chạy ít nhất 1 chuyến, tổng số chuyến xe đã chạy là 48 . Chứng minh trong mọi trường hợp, tổng số chuyến xe bác An đã chạy trong một số ngày liên tiểp là 28 chuyến.",
+        "question_images": [],
+        "solution": "Gọi %(S(n))% là tổng số chuyến xe từ ngày thứ nhất đến hết ngày thứ %(n)%.%(\\Rightarrow 1 \\leq S(n) \\leq 48)% với %(n \\in \\mathbb{N}, 1 \\leq n \\leq 29)%<br>Do %(i \\neq k, 1 \\leq i, k \\leq 29)% nên %(S(i) \\neq S(k))%<br>Ta có 29 tổng %(S(n))% nên tồn tại hai số %(i)% và %(k(1 \\leq i\\lt k \\leq 29))% sao cho%(S(i) \\equiv S(k)(\\bmod 28) \\Rightarrow S(k)-S(i) \\vdots 28)%<br>Vì %(0\\lt S(k)-S(i)\\lt 48)% nên %(S(k)-S(i)=28)%<br>Vậy kể từ chuyến xe %(i+1)% đến chuyến xe thứ %(k(k\\gt i+1))% thì tổng số chuyến xe của bác An đã chạy đúng 28 chuyến.",
+        "question_type": "essay"
+    }
+]

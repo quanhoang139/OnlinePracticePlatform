@@ -1,0 +1,94 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Anh cảnh sát giao thông ngồi trên một chiếc ôtô chạy trên một đường thẳng dùng máy đo để đo vận tốc của một chiếc ôtô chạy trước đó và một chiếc ôtô chạy sau đó, cả ba xe chạy cùng chiều. Máy cho biết vận tốc của xe phía trước và xe phía sau tương ứng là %(v_{1}=7 \\mathrm{~m} / \\mathrm{s})% và %(v_{2}=12 \\mathrm{~m} / \\mathrm{s})%. Biết vận tốc của các xe này đối với mặt đường lần lượt là %(V_{1}=90 \\mathrm{~km} / \\mathrm{h})% và %(V_{2}=72 \\mathrm{~km} / \\mathrm{h})%. Máy đo cho biết độ lớn vận tốc của các vật chuyển động đối với máy. Hãy xác định vận tốc của xe cảnh sát đối với mặt đường.",
+        "question_images": [],
+        "solution": "Đổi đơn vị: %(V_{1}=90 \\mathrm{~km} / \\mathrm{h}=25 \\mathrm{~m} / \\mathrm{s} ; \\quad V_{2}=72 \\mathrm{~km} / \\mathrm{h}=20 \\mathrm{~m} / \\mathrm{s})%.<br>Máy chỉ đo độ lớn vận tốc đối với máy (tức là vận tốc chuyển động tương đối của xe trước và xe sau đối với xe cảnh sát) nên không biết rõ các xe này chuyển động ra xa dần hay gần lại dần xe cảnh sát. Vì vậy, mối trường hợp ta phải xét cả hai khả năng: ra xa và lại gần. Gọi %(V_{0})% là vận tốc xe cảnh sát đối với mặt đường.<br>* Xét chuyển động tương đối giữa xe cảnh sát và xe phía trước:<br>- Nếu 2 xe chuyển động ra xa nhau: %(V_{0}=V_{1}-v_{1}=18 \\mathrm{~m} / \\mathrm{s})%.<br>- Nếu 2 xe chuyển động lại gần nhau: %(V_{0}=V_{1}+v_{1}=32 \\mathrm{~m} / \\mathrm{s})%.<br>* Xét chuyển động tương đối giữa xe cảnh sát và xe phía sau:<br>- Nếu 2 xe chuyển động ra xa nhau: %(V_{0}=V_{2}+v_{2}=32 \\mathrm{~m} / \\mathrm{s})%.<br>- Nếu 2 xe chuyển động lại gần nhau: %(V_{0}=V_{2}-v_{2}=8 \\mathrm{~m} / \\mathrm{s})%.<br>Trong cả hai trường hợp thì %(V_{0})% chỉ được phép nhận một giá trị. Vậy vận tốc của xe cảnh sát chỉ có thể là %(V_{0}=32 \\mathrm{~m} / \\mathrm{s}=115,2 \\mathrm{~km} / \\mathrm{h})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Một cái cốc hình trụu thành và đáy rất mỏng có độ cao %(H)% và thể tích %(V)% khi thả nổi theo phương thẳng đứng trên mặt một chất lỏng có khối lượng riêng %(D)% chứa trong một thùng lớn thì đáy cốc ngập sâu vào chất lỏng một khoảng %(h)%. Nếu cho cốc chìm hoàn toàn xuống đáy thùng (không khí không đọng lại trong cốc) thì lực mà đáy thùng tác dụng lên cốc là bao nhiêu?",
+        "question_images": [],
+        "solution": "Gọi %(P)% là trọng lượng của cốc. Khi cốc nồi trên mặt chất lỏng, lực đầy Acshimet tác dụng lên cốc là: %(F_{A}=10 D S h)%, trong đó diện tích đáy cốc là: %(S=\\frac{V}{H})%.<br>Khi cốc nổi lực này sẽ cân bằng với trọng lượng của cốc: %(P=10 D V \\frac{h}{H})%.<br>Khi cốc chìm xuống đáy bình, lực mà đáy bình tác dụng lên đáy cốc bằng hiệu của trọng lượng của cốc và lực đẩy Acshimet: %(F=P-F_{A})%.<br>Nhưng lực đẩy Acshimet là không đáng kể (vì cốc có thành và đáy rất mỏng, phần chất lỏng bị chiếm chỗ cũng không đáng kể). Vậy khi đó lực mà cốc tác dụng lên đáy bình bằng trọng lượng của nó:<br>\\[P=10 D V \\frac{h}{H} .\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 4.0,
+        "content": "Có ba cái bình cách nhiệt giống nhau chứa những lượng dầu như nhau ở cùng nhiệt độ trong phòng. Người ta thả vào bình thứ nhất một khối kim loại đã được nung nóng và chờ cho đến khi cân bằng nhiệt thì lấy khối kim loại ra và thả vào bình thứ hai. Chờ cho bình thứ hai đạt tới trạng thái cân bằng nhiệt thì khối kim loại lại được lấy ra và thả vào bình thứ ba. Dầu trong bình thứ ba sẽ được nâng lên bao nhiêu độ nếu dầu trong bình thứ hai tăng thêm %(5^{\\circ} \\mathrm{C})% và dầu trong bình thứ nhất tăng thêm %(20^{\\circ} \\mathrm{C})% ? Dầu không bị trào ra khỏi bình trong suốt quá trình trên.",
+        "question_images": [],
+        "solution": "Giả sử nhiệt dung của khối kim loại là %(C)%, nhiệt dung của mỗi bình có dầu là %(C_{b})%. Gọi %(t_{0})% là nhiệt độ ban đầu của dầu, nhiệt độ sau của bình thứ nhất, thứ hai và thứ ba là %(t_{1}, t_{2})% và %(t_{3})%.<br>Khi khối kim loại được mang từ bình thứ nhất sang bình thứ hai thì nó tỏa một nhiệt lượng là %(C\\left(t_{1}-t_{2}\\right))%, bình thứ hai nhận nhiệt lượng %(C_{b}\\left(t_{2}-t_{0}\\right))% và nhiệt lượng này phải bằng nhau:<br>\\[C\\left(t_{1}-t_{2}\\right)=C_{b}\\left(t_{2}-t_{0}\\right)(1)\\]<br>Tương tự, có thể viết phương trình truyền nhiệt khi mang khối kim loại từ bình thứ hai sang bình thứ ba:<br>\\[C\\left(t_{2}-t_{3}\\right)=C_{b}\\left(t_{3}-t_{0}\\right)(2)\\]<br>Ta nhận thấy: %(t_{1}-t_{2}=\\left(t_{1}-t_{0}\\right)-\\left(t_{2}-t_{0}\\right)=20-5=15\\left({ }^{\\circ} \\mathrm{C}\\right))%.Giả sử nhiệt độ trong bình thứ ba được tăng thêm một lượng %(\\Delta t=t_{3}-t_{0})%. Khi đó:<br>\\[t_{2}-t_{3}=\\left(t_{2}-t_{0}\\right)-\\left(t_{3}-t_{0}\\right)=5-\\Delta t(3)\\]<br>Giải hệ (1), (2) và (3) ta nhận được:<br>\\[\\Delta t=1,25^{\\circ} \\mathrm{C} .\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Một em học sinh dùng 5 điện trở để lắp thành một mạch điện gồm hai nhánh song song như hình 1. Giá trị các điện trở đó là %(R_{1}=R_{2}=1 \\Omega ; R_{3}=2 \\Omega ; R_{4}=3 \\Omega)% và %(R_{5}=5 \\Omega)%. Khi mắc đoạn mạch trên vào một hiệu điện thế có thể thay đổi được, đo hiệu điện thế này và cường độ dòng điện tương ứng qua các nhánh, em này đã vẽ được hai đoan đồ thi phu thuôc của cường đô dòng điên vào hiêu điên thế như hình 2.",
+        "group_images": [
+            "https://docdn.giainhanh.io/media/test/c6d60279820324db2b77ac6bc6d581ac.png"
+        ],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Nhánh nào có điện trở lớn hơn và lớn hơn bao nhiêu lần so với nhánh kia? Nhánh %(I)% (ứng với đường số %(I)% trên đồ thị) có thể bao gồm những điện trở nào trong 5 điện trở đã cho trên đây?",
+        "question_images": [],
+        "solution": "Các nhánh đều tuân theo định luật Ôm nên đồ thị phụ thuộc của dòng điện vào hiệu điện thế là đường thẳng ( %(R)% không đổi). Nên có thể tính %(R)% bẳng một điểm bất kỷ trên đồ thị:<br>Nhánh %(\\mathrm{I}: r_{1}=\\frac{8}{1}=8(\\Omega))%; nhánh %(\\mathrm{II}: r_{2}=\\frac{8}{2}=4(\\Omega))%. Như vậy nhánh I có điện trở lớn gấp đôi điện trở của nhánh II.<br>Vì nhánh I có điện trở là %(8 \\Omega)%, nên nhánh này có thể bao gồm:<br>* %(R_{4})% và %(R_{5})%.<br>* %(R_{1}, R_{3})% và %(R_{5})%.<br>%({ }^{*} R_{2}, R_{3})% và %(R_{5})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 3.0,
+        "content": "b) Khi mắc mạch vào một hiệu điện thế không đổi, để công suất tiêu thụ trên toàn mạch lớn nhất thì trên nhánh có hai điện trở phải mắc những điện trở nào? Tại sao?",
+        "question_images": [],
+        "solution": "Công suất tiêu thụ trên một mạch điện tỷ lệ nghịch với điện trở của đoạn mạch đó:<br>\\[P=U I=\\frac{U^{2}}{R} \\text {. }\\]<br>Mạch điện đã cho có hai nhánh song song. Điện trở tương đương của mạch song song nhỏ hơn điện trở của một nhánh bất kỳ. Thật vậy, giả sử mạch có hai nhánh có điện trở %(r_{1})% và %(r_{2})% và giả sử %(r_{1})% bé hơn. Rõ ràng:<br>\\[\\frac{1}{r_{1}}\\lt \\frac{1}{r_{1}}+\\frac{1}{r_{2}}=\\frac{1}{R} \\Rightarrow R\\lt r_{1} .\\]<br>Do đó để có điện trở tương đương của mạch nhỏ nhất, ta cần xác định cách chọn các điện trở sao cho có một nhánh có điện trở nhỏ nhất có thể được.<br>Muốn vậy, ta cần chọn hai điện trở nhỏ nhất mắc vào nhánh có hai điện trở. Tức là nhánh có hai điện trở phải là các điện trở %(R_{1})% và %(R_{2})%.Còn nhánh có 3 điện trở chính là %(R_{3}, R_{4})% và %(R_{5})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.5,
+        "content": "Một thí nghiệm được bố trí như hình 3 : Ống nhôm M được đặt nằm ngang tiếp xúc vuông góc với hai giá dẫn điện 1 và 2 gắn trên một đế cách điện. Giá 1 được nối với cực âm của nguồn điện, giá 2 được nối với cực dương qua một công tắc. Khi đóng mạch điện, em có thể quan sát được gì đối với ống nhôm? Hãy giải thích hiện tượng quan sát được.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/a86bbcf3b4a47db28d8bc5cb7ae0fc1a.png"
+        ],
+        "solution": "Khi đóng mạch có thể quan sát được ống nhôm chuyển động lăn sang phải<br>Khi đóng mạch sẽ có dòng điện chạy qua ống nhôm, nhưng ống nhôm được đặt trong từ trường của một nam châm hình chữ U nên bị từ trường tác dụng lực làm nó chuyển động.<br>Vì giá 2 được nối với cực dương của nguồn điện nên dòng điện chạy qua ống nhôm sẽ theo chiều từ phía trước ra phía sau trang giấy<br>Áp dụng quy tắc bàn tay trái, ta xác định được lực từ hướng sang phải. Nên ống nhôm bị đẩy về bên phải.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho một thấu kính hội tụ và một điểm sáng S như hình 4. Trong đó F và F là hai tiêu điểm của thấu kính.",
+        "group_images": [
+            "https://docdn.giainhanh.io/media/test/2ff1b661b78c4c49f4e4a09b1452ac64.png"
+        ],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Vẽ ảnh %(\\mathrm{S}^{\\prime})% của S qua thấu kính.",
+        "question_images": [],
+        "solution": "Vẽ ảnh %(S^{\\prime})% của %(S)% qua thấu kính: Dùng 2 tia nào đó, nên dùng tia qua quang tâm và tia song song với trục chính.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7475dbd6a874dbf414e880b569e94b6d.png\" srcset=\"https://docdn.giainhanh.io/media/test/68259d15de3762f7217bbaf96800f84e.png 245w, https://docdn.giainhanh.io/media/test/33268dbef629fa303c971a72feec9636.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.5,
+        "content": "b) Hãy mô tả chuyền động của điểm %(\\mathrm{S}^{\\prime})% khi cho điểm S dịch lại gần thấu kính theo phương song song với trục chính.",
+        "question_images": [],
+        "solution": "Khi S đến gần thấu kính theo phương song song với trục chính thì tia ló qua %(\\mathrm{F}^{\\prime})% không thay đổi, nên ảnh chỉ có thể nằm trên tia này<br>Nhưng khi S càng gần thấu kính thì tia qua quang tâm cắt tia qua %(\\mathrm{F}^{\\prime})% càng ra xa thấu kính. Vì vậy, trong khi S đến gần thấu kính nhưng chưa tới vị trí ngang tiêu điểm thì %(\\mathrm{S}^{\\prime})% chuyển động ngày càng xa thấu kính và chuyển động theo tia IS' như hình vẽ.<br>Khi S vào phía trong tiêu điềm thì đường kéo dài của hai tia trên cắt nhau trước thấu kính. Vậy khi đó cho ảnh ảo. Mặt khác khi S càng gần thấu kính thì điểm cắt (tức là ảnh ảo) cũng càng gần thấu kính và chuyển động trên đường kéo của tia IS'.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/27d7aa86b9b2d8dbebe0326182ad933a.png\" srcset=\"https://docdn.giainhanh.io/media/test/87fa4962d9067c30d94a33191d2288ef.png 245w\" width=\"245\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4eab6966772d13ea54e8fca983ca996b.png\" srcset=\"https://docdn.giainhanh.io/media/test/047e338a5d725e96152b971608469e96.png 156w\" width=\"156\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Nếu để yên vị trí ban đầu, dùng tấm bìa che khuất một nửa thấu kính thì ảnh %(\\mathrm{S}^{\\prime})% của S sẽ thay đổi thế nào?",
+        "question_images": [],
+        "solution": "Tất cả các tia xuất phát từ %(S)%, qua thấu kính thì đều đến hội tụ tại %(S^{\\prime})%. Nếu che khuất một nửa thấu kính thì chỉ có một nửa số tia đến được %(\\mathrm{S}^{\\prime})%<br>Vì vậy vị trí S' vẫn giữ nguyên nhưng độ sáng của nó giảm đi một nửa",
+        "question_type": "essay"
+    }
+]

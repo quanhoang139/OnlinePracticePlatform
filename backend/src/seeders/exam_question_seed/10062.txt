@@ -1,0 +1,58 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Giải bất phương trình: %(x^{2}-6 x+2 \\geq 2(2-x) \\sqrt{2 x-1})%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq \\frac{1}{2})%. Đặt %(t=\\sqrt{2 x-1}(t \\geq 0))% thì %(2 x=t^{2}+1)%.<br>Khi đó ta có<br>\\[\\begin{array}{l}x^{2}-6 x+2-2(2-x) t \\geq 0 \\Leftrightarrow x^{2}+2 t x-4 t-3\\left(t^{2}+1\\right)+2 \\geq 0 \\\\Leftrightarrow(x+t)^{2}-(2 t+1)^{2} \\geq 0 \\Leftrightarrow(x+3 t+1)(x-t-1) \\geq 0 \\\\left.\\Leftrightarrow \\Leftrightarrow x-1 \\geq t \\text { (do } x+3 t+1\\gt 0 ; \\forall x \\geq \\frac{1}{2} ; \\forall t \\geq 0\\right) . \\\\text { Vói } x-1 \\geq t \\text { ta có } x-1 \\geq \\sqrt{2 x-1} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 1 \\x^{2}-2 x+1 \\geq 2 x-1\\end{array} \\Leftrightarrow x \\geq 2+\\sqrt{2} .\\right.\\end{array}\\]<br>Vói %(x-1 \\geq t)% ta có %(x-1 \\geq \\sqrt{2 x-1} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 1 \\\\ x^{2}-2 x+1 \\geq 2 x-1\\end{array} \\Leftrightarrow x \\geq 2+\\sqrt{2}\\right.)%.<br>Đối chiếu điều kiện ta có tập nghiệm của bất phương trình là %(S=[2+\\sqrt{2} ;+\\infty))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x^{5}+x y^{4}=y^{10}+y^{6} \\\\ \\sqrt{4 x+5}+\\sqrt{y^{2}+8}=6\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq-\\frac{5}{4})%<br>Th1: %(y=0 \\Rightarrow x=0)% không thỏa mãn<br>Th2: %(y \\neq 0)% ta có:(1)<br>\\[\\begin{aligned}\\Leftrightarrow\\left(\\frac{x}{y}\\right)^{5}+\\frac{x}{y}=y^{5}+y & \\Leftrightarrow(t-y)\\left(t^{4}+t^{3} y+t^{2} y^{2}+t y^{3}+y^{4}\\right)=0 \\text { vói } \\mathrm{t}=\\mathrm{x} / \\mathrm{y} \\\\& \\Leftrightarrow(t-y)\\left[\\left(t^{2}+y^{2}\\right)^{2}+(t+y)^{2}\\left(t^{2}-y t+y^{2}\\right)+2\\right]=0 \\\\& \\Leftrightarrow \\mathrm{t}=\\mathrm{y} \\text { hay } y^{2}=x\\end{aligned}\\]<br>Thay vào (2): %(\\sqrt{4 x+5}+\\sqrt{x+8}=6 \\Leftrightarrow 2 \\sqrt{4 x^{2}+37 x+40}=23-5 x)%<br>\\[\\Leftrightarrow\\left\\{\\begin{array}{l}x \\leq \\frac{23}{5} \\x^{2}-42 x+41=0\\end{array} \\Rightarrow x=1 \\Rightarrow y= \\pm 1\\right.\\]<br>Đối chiếu đk ta được nghiệm hệ là: %((x ; y)=\\{(1 ; 1) ;(-1 ; 1)\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các giá trị của tham số %(m)% để hệ phương trình sau có nghiệm<br>\\[\\left\\{\\begin{array}{l}x^{2}-m=y(x+m y) \\x^{2}-y=x y\\end{array}\\right.\\]",
+        "question_images": [],
+        "solution": "Hệ đã cho tương đương với: %(\\left\\{\\begin{array}{l}m y^{2}-y+m=0 \\text { (1) } \\\\ x^{2}-y x-y=0 \\text { (2) }\\end{array}\\right.)%<br>Phương trình (2) (ẩn %(x)% ) có nghiệm là %(\\Delta_{x}=y^{2}+4 y \\geq 0 \\Leftrightarrow\\left[\\begin{array}{l}y \\geq 0 \\\\ y \\leq-4\\end{array}\\right.)%<br>Th1: %(m=0)%, ta có %(y=0, x=0)%. Suy ra %(m=0)% thóa mãn.<br>Th2: %(m \\neq 0)%. Phương trình (1) (ẩn %(y)% ) không có nghiệm thuộc khoảng %((-\\infty ;-4] \\cup[0 ;+\\infty)\\left({ }^{*}\\right))% là (1) vô nghiệm hoặc (1) có 2 nghiệm đều thuộc %((-4 ; 0))%, điều kiện là<br>\\[\\left[\\begin{array} { l } { \\Delta = 1 - 4 m ^ { 2 } \\lt 0 } \\\\{ \\{ \\begin{array} { l } { \\Delta = 1 - 4 m ^ { 2 } \\geq 0 } \\\\{ - 4 \\lt y _ { 1 } \\lt 0 } \\\\{ - 4 \\lt y _ { 2 } \\lt 0 }\\end{array} } \\\\{ - 4 \\lt \\frac { 1 - \\sqrt { 1 - 4 m ^ { 2 } } } { 2 m } \\lt 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array} { l } { \\Delta = 1 - 4 m ^ { 2 } \\lt 0 } \\\\{ - 4 \\lt \\frac { 1 + \\sqrt { 1 - 4 m ^ { 2 } } } { 2 m } \\lt 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}m \\in\\left(-\\infty ;-\\frac{1}{2}\\right) \\cup\\left(\\frac{1}{2} ;+\\infty\\right) \\\\left\\{\\begin{array}{l}-\\frac{1}{2} \\leq m\\lt 0 \\\\sqrt{1-4 m^{2}}\\gt 1+8 m \\quad(A)\\end{array}\\right. \\\\sqrt{1-4 m^{2}}\\lt -1-8 m\\end{array}\\right.\\right.\\right.\\]<br>(với %(y_{1}, y_{2})% là 2 nghiệm của phương trình (1)).<br>(A) %(\\Leftrightarrow\\left\\{\\begin{array}{l}-\\frac{1}{2} \\leq m\\lt -\\frac{1}{8} \\\\ \\sqrt{1-4 m^{2}}\\lt -1-8 m\\end{array} \\Leftrightarrow-\\frac{1}{2} \\leq m\\lt -\\frac{4}{17} \\Rightarrow\\right.)% (B) %(\\Leftrightarrow m \\in\\left(-\\infty ;-\\frac{4}{17}\\right) \\cup\\left(\\frac{1}{2} ;+\\infty\\right))%<br>Hệ phương trình đã cho có nghiệm khi và chi khi phương trình (1) (ẩn %(y)% ) có ít nhất một nghiệm thuộc khoảng %((-\\infty ;-4] \\cup[0 ;+\\infty))%<br>hay (*) không xảy ra, điều kiện là %(\\frac{-4}{17} \\leq m \\leq \\frac{1}{2} ; m \\neq 0)%.<br>Vậy tất cả các giá trị %(m)% cần tìm là %(\\frac{-4}{17} \\leq m \\leq \\frac{1}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Trong mặt phẳng với hệ tọa độ %(O x y)%, cho điểm %(I(2 ; 4))% và các đường thẳng %(d_{1}: 2 x-y-2=0, d_{2}: 2 x+y-2=0)%. Viết phương trình đường tròn %((C))% có tâm %(I)% sao cho %((C))% cắt %(d_{1})% tại %(A, B)% và cắt %(d_{2})% tại %(C, D)% thỏa mãn %(A B^{2}+C D^{2}+16=5 A B . C D)%.",
+        "question_images": [],
+        "solution": "Gọi hình chiếu của %(I)% trên %(d_{1}, d_{2})% lần lượt là %(E, F)%. khi đó<br>\\[I E=d_{\\left(I ; d_{4}\\right)}=\\frac{2}{\\sqrt{5}} ; I F=d_{\\left(I ; d_{2}\\right)}=\\frac{6}{\\sqrt{5}} .\\]<br>Gọi %(R)% là bán kính của đường tròn %((C))% cần tìm %(\\left(R\\gt \\frac{6}{\\sqrt{5}}\\right))%<br>\\[A B=2 A E=2 \\sqrt{R^{2}-\\frac{4}{5}} ; C D=2 C F=2 \\sqrt{R^{2}-\\frac{36}{5}}\\]<br>Theo giả thiết ta có: %(4\\left(R^{2}-\\frac{4}{5}\\right)+4\\left(R^{2}-\\frac{36}{5}\\right)+16=20 \\sqrt{R^{2}-\\frac{4}{5}} \\sqrt{R^{2}-\\frac{36}{5}})%.<br>\\[\\begin{array}{l}\\Leftrightarrow 8 R^{2}-16=4 \\sqrt{\\left(5 R^{2}-4\\right)\\left(5 R^{2}-36\\right)} \\Leftrightarrow 2 R^{2}-4=\\sqrt{\\left(5 R^{2}-4\\right)\\left(5 R^{2}-36\\right)} \\\\left.\\Leftrightarrow\\left(2 R^{2}-4\\right)^{2}=\\left(5 R^{2}-4\\right)\\left(5 R^{2}-36\\right) \\text { (do } R\\gt \\frac{6}{\\sqrt{5}}\\right) \\Leftrightarrow R=2 \\sqrt{2} \\text { (do } R>\\frac{6}{\\sqrt{5}} \\text { ) }\\end{array}\\]<br>Vậy phương trình đường tròn %((C))% cần tìm là %((C):(x-2)^{2}+(y-4)^{2}=8)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Cho tam giác ABC có %(A B=c, B C=a, C A=b)%.<br>Trung tuyến %(C M)% vuông góc với phân giác trong %(A L)% và %(\\frac{C M}{A L}=\\frac{3}{2} \\sqrt{5-2 \\sqrt{5}})%.Tính %(\\frac{b}{c})% và %(\\cos A)%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\overline{A L}=\\frac{b}{b+c} \\overrightarrow{A B}+\\frac{c}{b+c} \\overrightarrow{A C})%<br>\\[\\overrightarrow{C M}=\\frac{\\overrightarrow{C A}+\\overrightarrow{C B}}{2}=\\frac{\\overrightarrow{A B}-2 \\overrightarrow{A C}}{2}\\]<br>Theo giả thiết: %(A L \\perp C M \\Leftrightarrow \\overrightarrow{A L} \\cdot \\overrightarrow{C M}=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow(b \\overrightarrow{A B}+c \\overrightarrow{A C})(\\overrightarrow{A B}-2 \\overrightarrow{A C})=0 \\Leftrightarrow b c^{2}+b c^{2} \\cos A-2 c b^{2} \\cos A-2 c b^{2}=0 \\\\Leftrightarrow(c-2 b)(1+\\cos A)=0 \\Rightarrow c=2 b(d o \\cos A\\gt -1)\\end{array}\\]<br>Khi đó: %(C M^{2}=\\frac{b^{2}+a^{2}}{2}-\\frac{c^{2}}{4}=\\frac{a^{2}-b^{2}}{2})%<br>\\[\\begin{array}{c}A L^{2}=\\frac{1}{9}(\\overline{A B}+\\overline{A C})^{2}=\\frac{1}{9}\\left(A B^{2}+A C^{2}+2 \\overline{A B} \\cdot \\overline{A C}\\right)=\\frac{2}{9}\\left(9 b^{2}-a^{2}\\right) \\\\frac{C M}{A L}=\\frac{3}{2} \\sqrt{5-2 \\sqrt{5}} \\Leftrightarrow \\frac{C M^{2}}{A L^{2}}=\\frac{9}{4} \\cdot \\frac{a^{2}-b^{2}}{9 b^{2}-a^{2}}=\\frac{9}{4}(5-2 \\sqrt{5}) \\\\Leftrightarrow \\frac{a^{2}-b^{2}}{9 b^{2}-a^{2}}=5-2 \\sqrt{5} \\Leftrightarrow \\frac{a^{2}}{b^{2}}=6-\\sqrt{5} \\\\cos A=\\frac{b^{2}+c^{2}-a^{2}}{2 b c}=\\frac{5 b^{2}-a^{2}}{4 b^{2}}=\\frac{\\sqrt{5}-1}{4}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.5,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b} \\in \\mathbb{R})% thỏa mãn: %((2+a)(1+b)=\\frac{9}{2})%<br>Tìm giá trị nhỏ nhất của biểu thức: %(P=\\sqrt{16+a^{4}}+4 \\sqrt{1+b^{4}})%",
+        "question_images": [],
+        "solution": "%(\\mathrm{C} / \\mathrm{M})% được : %(\\sqrt{a^{2}+b^{2}}+\\sqrt{c^{2}+d^{2}} \\geq \\sqrt{(a+c)^{2}+(b+d)^{2}})%.<br>Dấu bằng xảy ra khi: %(\\frac{a}{c}=\\frac{b}{d})%<br>Áp dụng (1) ta có : %(\\frac{p}{4}=\\sqrt{1+\\left(\\frac{a^{2}}{4}\\right)^{2}}+\\sqrt{1+b^{4}} \\geq \\sqrt{4+\\left(\\frac{a^{2}}{4}+b^{2}\\right)^{2}}=\\sqrt{4+\\frac{\\left(a^{2}+4 b^{2}\\right)^{2}}{16}})%<br>Mặt khác: %(\\quad(1+2 a)(1+b)=\\frac{9}{2} \\Leftrightarrow a+2 b+a b=\\frac{5}{2})%(2)<br>Mà: %(\\left\\{\\begin{array}{l}a^{2}+1 \\geq 2 a \\\\ 4 b^{2}+1 \\geq 4 b \\\\ \\frac{a^{2}+4 b^{2}}{2} \\geq 2 a b\\end{array}\\right.)%%(\\Rightarrow \\frac{3\\left(a^{2}+4 b^{2}\\right)}{2}+2 \\geq 2 a+4 b+2 a b \\Rightarrow a^{2}+4 b^{2} \\geq 2)%<br>Từ (1) và (3) suy ra: %(p \\geq 2 \\sqrt{17})%.<br>Dấu \" %(=)% \" xảy ra khi: %(a=1)% và %(b=\\frac{1}{2})%<br>Vậy: Min %(P=2 \\sqrt{17})% Đạt được khi %(\\mathrm{a}=1)% và %(b=\\frac{1}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Cho %(f(x)=x^{2}-a x+b)% với %(\\mathrm{a}, \\mathrm{b} \\in \\mathbb{Z})% thỏa mãn điều kiện: Tồn tại các số nguyên %(m, n, p)% đôi một phân biệt và %(1 \\leq m, n, p \\leq 9)% sao cho: %(|f(m)|=|f(n)|=|f(p)|=7)%. Tìm tất cả các bộ số %((\\mathrm{a} ; \\mathrm{b}))%.",
+        "question_images": [],
+        "solution": "3 số %(\\mathrm{f}(\\mathrm{m}), \\mathrm{f}(\\mathrm{n}), \\mathrm{f}(\\mathrm{p}))% hoặc cùng dương, âm hoặc có 2 số cùng dấu nên:<br>Th1: %(\\mathrm{f}(\\mathrm{m}), \\mathrm{f}(\\mathrm{n}), \\mathrm{f}(\\mathrm{p}))% cùng bằng 7 hoặc %(-7 \\Rightarrow)% loại vì phương trình %(\\mathrm{f}(\\mathrm{x})-7=0)% có 3 nghiệm phân biệt<br>Th2: %(f(m)=f(n)=7)% và %(f(p)=-7)%Không mất tính tổng quát,giả sử %(\\mathrm{m}\\gt \\mathrm{n})% và %(|m-p| \\geq|n-p|)% ta có: %(\\mathrm{m}, \\mathrm{n})% là nghiệm pt: %(x^{2}-a x+b-7=0)% và p là nghiệm pt: %(x^{2}-a x+b+7=0)% nên :<br>Th3: %(f(m)=f(n)=-7)% và %(f(p)=7)%, khi đó hoàn toàn tương tự ta có:<br>\\[(p-n)(m-p)=-14 \\Rightarrow\\left\\{\\begin{array} { l } { m - p = - 7 } \\\\{ p - n = 2 }\\end{array} \\text { hoặc } \\left\\{\\begin{array}{l}m-p=7 \\p-n=-2\\end{array}\\right.\\right.\\]<br>Do %(\\mathrm{m}, \\mathrm{n}, \\mathrm{p} \\in[1 ; 9])% nên tìm được 4 bộ là: %((\\mathrm{a} ; \\mathrm{b})=\\{(11 ; 17),(13 ; 29),(7 ;-1),(9 ; 7)\\})%.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,81 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Cho %(a, b, c)% là các số thực đôi một phân biệt, rút gọn biểu thức:<br>\\[A=\\frac{\\left.\\left.(a-b)^{3}+b-c\\right)^{3}+c-a\\right)^{3}}{a^{2}(b-c)+b^{2}(c-a)+c^{2}(a-b)} .\\]",
+        "question_images": [],
+        "solution": "Ta biết rằng nếu %(x+y+z=0)% thì %(x^{3}+y^{3}+z^{3}-3 x y z=(x+y+z)\\left(x^{2}+y^{2}+z^{2}-x y-y z-z x\\right)=0)% do đó:<br>\\[x^{3}+y^{3}+z^{3}=3 x y z \\text {. }\\]<br>Ta có:<br>\\[\\begin{array}{l}a^{2}(b-c)+b^{2}(c-a)+c^{2}(a-b)=(a-b) c^{2}-\\left(a^{2}-b^{2}\\right) c+a b(a-b) \\\\=(a-b)\\left[c^{2}-(a+b) c+a b\\right]=(a-b)(c-a)(c-b) \\\\=-(a-b)(b-c)(c-a) .\\end{array}\\]<br>Đặt %(x=a-b, y=b-c, z=c-a)% khi đó ta có:<br>\\[A=-\\frac{x^{3}+y^{3}+z^{3}}{x y z}=-3 .\\]<br>Vậy %(A=-3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 0.75,
+        "content": "Giải phương trình: %(9 x^{2}=\\left(x^{2}+x-5\\right)(\\sqrt{3 x+1}-1)^{2})%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq-\\frac{1}{3})%. Phương trình tương đương:<br>\\[\\begin{array}{l}9 x^{2}(\\sqrt{3 x+1}+1)^{2}=\\left(x^{2}+x-5\\right)(\\sqrt{3 x+1}-1)^{2}(\\sqrt{3 x+1}+1)^{2} \\\\Leftrightarrow 9 x^{2}(\\sqrt{3 x+1}+1)^{2}=\\left(x^{2}+x-5\\right) \\cdot 9 x^{2} \\\\Leftrightarrow\\left[\\begin{array}{l}x=0 \\x^{2}+x-5=(\\sqrt{3 x+1}+1)^{2}\\end{array}\\right. \\\\end{array}\\]<br>Ta có:<br>\\[\\begin{array}{l}(1) \\Leftrightarrow x^{2}-2 x-7=2 \\sqrt{3 x+1} \\Leftrightarrow 2 x^{2}-4 x-14=4 \\sqrt{3 x+1} \\\\Leftrightarrow 2 x^{2}-7 x-15+\\sqrt{3 x+1}(\\sqrt{3 x+1}-4)=0 \\\\Leftrightarrow(x-5)(2 x+3)+\\frac{3(x-5) \\sqrt{3 x+1}}{\\sqrt{3 x+1}+4}=0 \\\\Leftrightarrow(x-5)\\left(2 x+3+\\cdot \\frac{3 \\sqrt{3 x+1}}{\\sqrt{3 x+1}+4}\\right)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x=5 \\\\2 x+3+\\frac{3 \\sqrt{3 x+1}}{\\sqrt{3 x+1}+4}=0\\end{array}\\right.\\end{array}\\]<br>Do %(x \\geq-\\frac{1}{3} \\Rightarrow 2 x+3\\gt 0 \\Rightarrow 2 x+3+\\cdot \\frac{3 \\sqrt{3 x+1}}{\\sqrt{3 x+1}+4}=0)% vô nghiệm.<br>Vậy phương trình đã cho có nghiệm %(x=0, x=5)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 0.75,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x^{3}+x y^{2}+2 y^{3}=0 \\\\ \\sqrt{2 x^{3}-x}+8 y^{2}+3 y=4\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(2 x^{3}-x \\geq 0 \\Leftrightarrow\\left[\\begin{array}{l}-\\frac{1}{\\sqrt{2}} \\leq x \\leq 0 \\\\ x \\geq \\frac{1}{\\sqrt{2}}\\end{array}\\right.)%.<br>Phương trình thứ nhất của hệ tương đương:<br>\\[\\begin{array}{l}x^{3}+x y^{2}+2 y^{3}=0 \\Leftrightarrow\\left(x^{3}+y^{3}\\right)+\\left(x y^{2}+y^{3}\\right)=0 \\\\Leftrightarrow(x+y)\\left(x^{2}-x y+y^{2}\\right)+y^{2}(x+y)=0 \\\\Leftrightarrow(x+y)\\left(x^{2}-x y+2 y^{2}\\right)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x=-y \\x^{2}-x y+2 y^{2}=0\\end{array}\\right.\\end{array}\\]<br>Với %(x=-y)%, thay vào phương trình thứ hai ta được: %(\\sqrt{2 x^{3}-x}+8 x^{2}-3 x-4=0)%.<br>Nếu %(\\sqrt{2 x^{3}-x}+x=0 \\Leftrightarrow\\left\\{\\begin{array}{l}-x \\geq 0 \\\\ 2 x^{3}-x=x^{2}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\leq 0 \\\\ x(2 x+1)(x-1)=0\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\\\ x=-\\frac{1}{2}\\end{array}\\right.\\right.\\right.)%.<br>Với %(x=0)%, ta thấy phương trình vô nghiệm và phương trình nhận một nghiệm là %(x=-\\frac{1}{2})%.<br>Do đó xét %(x \\neq-\\frac{1}{2})%, phương trình tương đương:<br>\\[\\begin{array}{l}\\sqrt{2 x^{3}-x}-x+8 x^{2}-4 x-4=0 \\\\Leftrightarrow \\frac{x(2 x+1)(x-1)}{\\sqrt{2 x^{3}-x}+x}+4(2 x+1)(x-1)=0 \\\\Leftrightarrow(2 x+1)(x-1)\\left(\\frac{x}{\\sqrt{2 x^{3}-x}+x}+4\\right)=0 \\\\Leftrightarrow\\left[\\frac{x}{\\sqrt{2 x^{3}-x}+x}+4=0 .\\right.\\end{array}\\]<br>Ta có:<br>\\[\\begin{array}{l}\\frac{x}{\\sqrt{2 x^{3}-x}+x}+4=0 \\Leftrightarrow 4 \\sqrt{2 x^{3}-x}=-5 x \\\\Leftrightarrow\\left\\{\\begin{array} { l } { - x \\gt 0 } \\\\{ 3 2 x ^ { 3 } - 1 6 x = 2 5 x ^ { 2 } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x \\lt 0 } \\\\{ x ( 3 2 x ^ { 2 } - 1 6 x - 2 5 ) = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x\\lt 0 \\\\32 x^{2}-16 x-25=0\\end{array} \\Leftrightarrow x=\\frac{25-9 \\sqrt{33}}{64} .\\right.\\right.\\right.\\end{array}\\]<br>Do đó trong trường hợp này hệ cho có ba nghiệm:<br>%((x ; y)=(1 ;-1),\\left(-\\frac{1}{2} ; \\frac{1}{2}\\right),\\left(\\frac{25-9 \\sqrt{33}}{64} ;-\\frac{25+9 \\sqrt{33}}{64}\\right))%.<br>Với %(x^{2}-x y+2 y^{2}=0 \\Leftrightarrow\\left(x-\\frac{y}{2}\\right)^{2}+\\frac{7}{4} y^{2}=0 \\Leftrightarrow x=y=0)%.<br>Thử lại thấy không thỏa mãn.Vậy hệ đã cho có ba nghiệm:<br>%((x ; y)=(1 ;-1),\\left(-\\frac{1}{2} ; \\frac{1}{2}\\right),\\left(\\frac{25-9 \\sqrt{33}}{64} ;-\\frac{25+9 \\sqrt{33}}{64}\\right))%.<br>\\[\\begin{array}{l}\\frac{x}{\\sqrt{2 x^{3}-x}+x}+4=0 \\Leftrightarrow 4 \\sqrt{2 x^{3}-x}=-5 x \\\\Leftrightarrow\\left\\{\\begin{array} { l } { - x \\gt 0 } \\\\{ 3 2 x ^ { 3 } - 1 6 x = 2 5 x ^ { 2 } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x \\lt 0 } \\\\{ x ( 3 2 x ^ { 2 } - 1 6 x - 2 5 ) = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x\\lt 0 \\\\32 x^{2}-16 x-25=0\\end{array} \\Leftrightarrow x=\\frac{25-9 \\sqrt{33}}{64} .\\right.\\right.\\right.\\end{array}\\]<br>Do đó trong trường hợp này hệ cho có ba nghiệm:<br>%((x ; y)=(1 ;-1),\\left(-\\frac{1}{2} ; \\frac{1}{2}\\right),\\left(\\frac{25-9 \\sqrt{33}}{64} ;-\\frac{25+9 \\sqrt{33}}{64}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 0.75,
+        "content": "Tìm các số nguyên %(m, n)% thỏa mãn %(m(m+1)(m+2)=n^{2})%.",
+        "question_images": [],
+        "solution": "Ta có: %(m(m+1)(m+2)=n^{2} \\Rightarrow m(m+1)(m+2) \\geq 0 \\Rightarrow\\left[\\begin{array}{l}m \\geq 0 \\\\ -2 \\leq m \\leq-1\\end{array}\\right.)%<br>Với %(m \\in\\{-2 ;-1 ; 0\\})% ta đều có %(n=0)%.<br>Xét %(m\\gt 0)%, ta có: %(n^{2})% chia hết cho %(m \\Rightarrow n)% chia hết cho %(m \\Rightarrow n=k m)% với %(k \\in \\mathbb{N}^{*})%.<br>Khi đó thay vào phương trình ta được:<br>\\[m(m+1)(m+2)=m^{2} k^{2} \\Leftrightarrow(m+1)(m+2)=m k^{2} .\\]<br>Vì %(\\operatorname{gcd}(m ; m+1) \\Rightarrow k^{2})% chia hết cho %((m+1) \\Rightarrow k)% chia hết cho %((m+1) \\Rightarrow k=l(m+1))% với %(l \\in \\mathbb{N}^{*})%.<br>Khi đó thay vào phương trình ta được:<br>\\[(m+1)(m+2)=m(m+1)^{2} l^{2} \\Leftrightarrow m+2=m(m+1) l^{2} \\Leftrightarrow(m+1)\\left(m l^{2}-1\\right)=1 \\Leftrightarrow\\left\\{\\begin{array}{l}m+1=1 \\m l^{2}-1=1\\end{array} .\\right.\\]<br>Phương này vô nghiệm vậy do đó %(m>0)% thì không tồn tại %(m, n)% nguyên thỏa mãn yêu cầu bài toán.<br>Vậy phương trình đã cho có nghiệm %((m ; n)=(-2 ; 0),(-1 ; 0),(0 ; 0))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 0.75,
+        "content": "Cho %(x, y)% là các số thực dương thỏa mãn %(x+y+x y=3)%. Tìm giá trị lớn nhất của biểu thức:<br>\\[P=\\sqrt{9-x^{2}}+\\sqrt{9-y^{2}}+\\frac{x+y}{4} .\\]",
+        "question_images": [],
+        "solution": "Ta có: %(\\sqrt{9-x^{2}}+\\sqrt{9-y^{2}} \\leq \\sqrt{2\\left(9-x^{2}+9-y^{2}\\right)}=\\sqrt{2\\left[18-\\left(x^{2}+y^{2}\\right)\\right]})%.<br>Mặt khác %(2\\left(x^{2}+y^{2}\\right) \\geq(x+y)^{2} \\Rightarrow \\sqrt{2\\left[18-\\left(x^{2}+y^{2}\\right)\\right]} \\leq \\sqrt{36-(x+y)^{2}})%.<br>Đặt %(t=x+y \\Rightarrow \\sqrt{36-(x+y)^{2}}=\\sqrt{36-t^{2}})%. Suy ra: %(P \\leq \\sqrt{36-t^{2}}+\\frac{t}{4})%.<br>Ta lại có: %(\\sqrt{36-t^{2}}=\\frac{1}{\\sqrt{2}} \\sqrt{(12-2 t)(6+t)} \\leq \\frac{12-2 t+6+t}{2 \\sqrt{2}} \\frac{18-t}{2 \\sqrt{2}})%.<br>Do đó: %(P \\leq \\frac{18-t}{2 \\sqrt{2}}+\\frac{t}{4}=\\frac{18 \\sqrt{2}+(1-\\sqrt{2}) t}{4})%.<br>Ta có:<br>%(3=x+y+x y \\Rightarrow 4=(x+1)(y+1) \\Rightarrow 4=2 \\sqrt{(x+1)(y+1)} \\leq x+y+2 \\Rightarrow x+y \\geq 2)%, hay %(t \\geq 2)%.<br>Chú ý %(1-\\sqrt{2}\\lt 0)% nên %(P \\leq \\frac{18 \\sqrt{2}+2(1-\\sqrt{2})}{4}=\\frac{1+8 \\sqrt{2}}{2})%.<br>Đẳng thức xảy ra khi và chỉ khi %(t=2)% hay %(x=y=1)%.<br>Vậy giá trị lớn nhất của %(P)% là %(\\frac{1+8 \\sqrt{2}}{2})% đạt được khi %(x=y=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho nữa đường tròn tâm %(O)% đường kính %(A B)%. Gọi %(I)% là điểm chính giữa cung %(A B)%. Trên cung lớn %(A B)% của đường tròn tâm %(I)% bán kính %(I A)% lấy điểm %(C)% sao cho tam giác %(A B C)% nhọn. Gọi %(M, N)% lần lượt là giao điểm của %(C A, C B)% với nữa đường tròn đường kính %(A B(M)% khác %(A, N)% khác %(B) ; J)% là giao điểm của %(A N)% với %(B M)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(\\triangle M B C)% và %(\\triangle N A C)% là các tam giác cân.",
+        "question_images": [],
+        "solution": "Vì %(I)% là điểm chính giữa cung %(A B)% nên tam giác %(I A B)% vuông cân tại %(I)%.<br>Khi đó: %(\\angle A C B=\\frac{1}{2} \\angle A I B=\\frac{1}{2} \\cdot 90^{\\circ}=45^{\\circ})%, hay %(\\angle A C N=45^{\\circ})%.<br>Mặt khác %(\\angle A N C=180^{\\circ}-\\angle A N B=180^{\\circ}-90^{\\circ}=90^{\\circ})%.<br>%(\\triangle N A C)% vuông tại %(N)% có %(\\angle A C N=45^{\\circ})% nên %(\\triangle N A C)% vuông cân tại %(N)%.<br>Chứng minh tương tự ta cũng có: %(\\angle B C M=45^{\\circ})% và %(\\triangle M B C)% vuông tại %(M)% nên %(\\triangle M B C)% vuông cân tại %(M)%.<br>Từ đây suy ra điều phải chứng minh.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d6d156f867f3891423f5a2b769e0bb0d.png\" srcset=\"https://docdn.giainhanh.io/media/test/a70c04789d85d6aeee8ec5bdf9f7bbc9.png 157w\" width=\"157\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh %(I)% là trực tâm của tam giác %(C M N)%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\angle I N C=\\angle I A B=45^{\\circ})% do cùng phụ với %(\\angle I N B)%.<br>Mà %(\\angle I N A=\\angle I B A=45^{\\circ})% do đó %(\\angle I N C=\\angle I N A=45^{\\circ})% hay %(N I)% là phân giác của tam giác vuông cân %(N A C)%.<br>Do đó %(N I \\perp A C)% hay %(N I \\perp M C)%.<br>Chứng minh tương tự ta cũng có %(M I \\perp N C)%.<br>Do đó %(I)% là trực tâm của tam giác %(C M N)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Gọi %(K)% là trung điểm của %(I J)%, tính tỉ số %(\\frac{C J}{O K})%.",
+        "question_images": [],
+        "solution": "Do %(\\angle A N B=\\angle A M B=90^{\\circ})% nên dễ dàng suy ra %(J)% là trực tâm tam giác %(C A B)%.<br>Khi đó ta có %(M I \\| J N)% do cùng vuông góc với %(B C)% và %(M J \\| I N)% do cùng vuông góc với %(A C)%.<br>Từ đó tứ giác %(M I N J)% là hình bình hành, suy ra %(K)% cũng là trung điểm của %(M N)%, dẫn đến %(O K \\perp M N)%.<br>Gọi %(S)% là điểm đối xứng của %(C)% qua %(I)%, khi đó %(\\triangle C A B)% nội tiếp đường tròn đường kính %(C S)% có %(J)% là trực tâm %(\\triangle C A B)% nên theo bổ đề quen thuộc thì tứ giác %(A J B S)% là hình bình hành, suy ra %(O, J, S)% thẳng hàng.<br>Từ đó %(O I)% là đường trung bình của %(\\triangle C S I \\Rightarrow C J=2 O I=A B)%.<br>Mặt khác %(\\triangle C M N)% đồng dạng với %(\\triangle C B A)% nên: %(\\frac{M N}{A B}=\\frac{C N}{C A}=\\cos 45^{\\circ} \\Rightarrow M N=\\frac{A B \\sqrt{2}}{2})%.<br>Ta có %(O M^{2}+O N^{2}=\\left(\\frac{A B}{2}\\right)^{2}+\\left(\\frac{A B}{2}\\right)^{2}=\\frac{A B^{2}}{2}=M N^{2})% nên %(\\triangle O M N)% vuông cân tại %(O \\Rightarrow O K=\\frac{M N}{2}=\\frac{A B \\sqrt{2}}{4})%.<br>Do đó %(\\frac{C J}{O K}=\\frac{A B}{\\frac{A B \\sqrt{2}}{4}}=2 \\sqrt{2})%.<br>Vậy %(\\frac{C J}{O K}=2 \\sqrt{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Cho tập hợp %(X=\\{1 ; 2 ; 3 ; 4 ; 5 ; 6 ; 7 ; 8 ; 9\\})%, chia tập hợp %(X)% thành hai tập hợp khác rỗng và không có phần tử chung. Chứng minh rằng với mọi cách chia thì luôn tồn tại 3 số %(a, b, c)% trong một tập hợp thỏa mãn %(a+c=2 b)%.",
+        "question_images": [],
+        "solution": "Ta chứng minh bằng phương pháp phản chứng.<br>Giả sử không tồn tại tại 3 số %(a, b, c)% trong hai tập hợp thỏa mãn %(a+c=2 b)%.<br>Đặt hai tập hợp đó lần lượt là %(A)% và %(B)%.<br>Vì trong mỗi tập hợp không tồn tại ba số %(a, b, c)% thỏa mãn %(a+c=2 b)% nên bộ số %((1 ; 5 ; 9))% đều không thể cùng thuộc %(A)% hoặc %(B)%.<br>Không mất tính tổng quát giả sử %(1 \\in A)%.<br>Ta xét hai trường hợp:- %(9 \\in A)%. Suy ra %(5 \\in B)%.<br>Nếu %(7 \\in A \\Rightarrow 4 \\in B)% và %(8 \\in B \\Rightarrow 3 \\in A \\Rightarrow 2 \\in B \\Rightarrow 6 \\in A)%, mâu thuẫn do %((2 ; 5 ; 8))% đều thuộc %(B)%.<br>Nếu %(7 \\in B \\Rightarrow 6 \\in A)%.<br>Ta xét tiếp hai trường hợp:%(+3 \\in A \\Rightarrow 2 \\in B \\Rightarrow 4 \\in B)%, mâu thuẫn do %((3 ; 6 ; 9))% đều thuộc %(A)%.%(+3 \\in B)%, mâu thuẫn do %((3 ; 5 ; 7))% đều thuộc %(B)%.- %(9 \\in B)%.<br>Suy ra %(5 \\in A \\Rightarrow 3 \\in B \\Rightarrow 6 \\in A \\Rightarrow 4 \\in B \\Rightarrow 7 \\in B \\Rightarrow 2 \\in A)% và %(8 \\in A)% mâu thuẫn do %((2 ; 5 ; 8))% đều thuộc %(B)%.<br>Vậy trong moi trường hợp đều tồn tai bồ ba số %(a, b, c)% trong một tâp hợp thỏa mã̃ %(a+c=2 b)%.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "title": "Câu 1 ",
+        "point": 2.0,
+        "content": "Cho %(A=1+3+3^{2}+3^{3}+3^{4}+\\ldots .+3^{96}+3^{97}+3^{98}+3^{99})%. Chứng minh rằng %(A)% chia hết cho 40",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{l}A=1+3+3^{2}+3^{3}+3^{4}+\\ldots+3^{96}+3^{97}+3^{98}+3^{99} \\\\=\\left(1+3+3^{2}+3^{3}\\right)+\\left(3^{4}+3^{5}+3^{6}+3^{7}\\right)+\\ldots+\\left(3^{96}+3^{97}+3^{98}+3^{99}\\right) \\\\=\\left(1+3+3^{2}+3^{3}\\right)+3^{4}\\left(1+3+3^{2}+3^{3}\\right)+\\ldots+3^{96}\\left(1+3+3^{2}+3^{3}\\right) \\\\=40+3^{4} \\cdot 40+\\ldots .+3^{96} \\cdot 40=40 .\\left(1+3^{4}+\\ldots+3^{96}\\right): 40\\end{array}\\]<br>Vậy %(A: 40)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 2.0,
+        "content": "Phân tích đa thức sau thành nhân tử : %(B=x^{4}+2021 x^{2}+2020 x+2021)%",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{l}B=x^{4}+2021 x^{2}+2020 x+2021=\\left(x^{4}-x\\right)+\\left(2021 x^{2}+2021 x+2021\\right) \\\\=x\\left(x^{3}-1\\right)+2021\\left(x^{2}+x+1\\right)=x(x-1)\\left(x^{2}+x+1\\right)+2021\\left(x^{2}+x+1\\right) \\\\=\\left(x^{2}+x+1\\right)\\left(x^{2}-x+2021\\right)\\end{array}\\]<br>Vậy %(B=\\left(x^{2}+x+1\\right)\\left(x^{2}-x+2021\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 1.0,
+        "content": "Cho %(a, b\\gt 0)% và %(a+b=1)%. Chứng minh %(\\frac{a^{2}}{a+1}+\\frac{b^{2}}{b+1} \\geq \\frac{1}{3})%",
+        "question_images": [],
+        "solution": "Xét hiệu:<br>\\[\\begin{array}{l}\\frac{a^{2}}{a+1}+\\frac{b^{2}}{b+1}-\\frac{1}{3}=\\frac{a^{2}(b+1)+b^{2}(a+1)}{(a+1)(b+1)}-\\frac{1}{3}=\\frac{a^{2} b+a^{2}+b^{2} a+b^{2}}{a b+a+b+1}-\\frac{1}{3} \\\\=\\frac{a b(a+b)+\\left(a^{2}+b^{2}\\right)}{a b+1+1}-\\frac{1}{3}=\\frac{a b+(a+b)^{2}-2 a b}{a b+2}-\\frac{1}{3}=\\frac{1-a b}{a b+2}-\\frac{1}{3} \\\\=\\frac{3-3 a b-a b-2}{3(a b+2)}=\\frac{1-4 a b}{3(a b+2)}=\\frac{(a+b)^{2}-4 a b}{3(a b+2)}=\\frac{(a-b)^{2}}{3(a b+2)}\\end{array}\\]<br>Nhận xét %((a-b)^{2} \\geq 0)% (với mọi %(a, b)% )<br>Mà %(a, b\\gt 0 \\Rightarrow 3(a b+2)>0 \\Rightarrow \\frac{(a-b)^{2}}{3(a b+2)} \\geq 0(\\forall a, b>0))%<br>Dấu bằng xảy ra khi %(a=b=\\frac{1}{2})%<br>Vậy %(\\frac{a^{2}}{a+1}+\\frac{b^{2}}{b+1}-\\frac{1}{3} \\geq 0 \\Leftrightarrow \\frac{a^{2}}{a+1}+\\frac{b^{2}}{b+1} \\geq \\frac{1}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4",
+        "group_content": "Cho biểu thức %(C=\\frac{x^{3}+x^{2}-2 x}{x|x+2|-x^{2}+4})%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Rút gọn biểu thức C",
+        "question_images": [],
+        "solution": "ĐКХĐ: %(x \\neq-2)%. Với %(x\\gt -2)% ta có :<br>\\[\\begin{array}{l}C=\\frac{x^{3}+x^{2}-2 x}{x(x+2)-x^{2}+4}=\\frac{x\\left(x^{2}+x-2\\right)}{x^{2}+2 x-x^{2}+4}=\\frac{x\\left(x^{2}+x-2\\right)}{2 x+4} \\\\=\\frac{x\\left(x^{2}+2 x-x-2\\right)}{2(x+2)}=\\frac{x(x+2)(x-1)}{2(x+2)}=\\frac{x(x-1)}{2}\\end{array}\\]<br>Với %(x\\lt -2)% ta có :<br>\\[C=\\frac{x^{3}+x^{2}-2 x}{-x(x+2)-x^{2}+4}=\\frac{x\\left(x^{2}+x-2\\right)}{-x^{2}-2 x-x^{2}+4}=\\frac{x\\left(x^{2}+x-2\\right)}{-2\\left(x^{2}+x-2\\right)}=\\frac{-x}{2}\\]<br>Vậy với %(x>-2)% thì %(C=\\frac{x(x-1)}{2})%; với %(x\\lt -2)% thì %(C=\\frac{-x}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Tìm %(x)% nguyên để C có giá trị nguyên",
+        "question_images": [],
+        "solution": "Với %(x \\in \\mathbb{Z}, x\\gt -2)% ta có %(x(x-1))% là tích của hai số nguyên liên tiếp suy ra %(x(x-1))% :2<br>Hay %(C=\\frac{x(x-1)}{2} \\in \\mathbb{Z})%<br>Với %(x \\in \\mathbb{Z}, x\\lt -2)% để %(C \\in \\mathbb{Z})% thì %(\\frac{-x}{2} \\in \\mathbb{Z} \\Leftrightarrow x \\vdots 2 \\Rightarrow x=2 k,(k \\in \\mathbb{Z}, k\\lt -1))%<br>Vậy để %(C)% nhận giá trị nguyên thì %(x \\in \\mathbb{Z}, x>-2)% hoặc %(x=2 k(k \\in \\mathbb{Z}, k\\lt -1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Tìm giá trị của C khi %(x=6)%",
+        "question_images": [],
+        "solution": "Với %(x=6\\gt -2 \\Rightarrow C=\\frac{6(6-1)}{2}=15)%<br>Vậy với %(x=6)% thì giá trị của biểu thức %(C=15)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 2.0,
+        "content": "Giải phương trình %((x+2)(x+3)^{2}(x+4)=12)%",
+        "question_images": [],
+        "solution": "\\[(x+2)(x+3)^{2}(x+4)=12 \\Leftrightarrow\\left(x^{2}+6 x+8\\right)\\left(x^{2}+6 x+9\\right)=12(1)\\]<br>Đặt %(x^{2}+6 x+8=a)%.<br>Khi đó phương trình (1) trở thành :<br>\\[a(a+1)=12 \\Leftrightarrow a^{2}+a-12=0 \\Leftrightarrow\\left[\\begin{array}{l}a=3 \\a=-4\\end{array}\\right.\\]<br>Với %(a=3)%, ta có %(: x^{2}+6 x+8=3 \\Leftrightarrow(x+1)(x+5)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=-1 \\\\ x=-3\\end{array}\\right.)%<br>Với %(a=-4)% ta có %(x^{2}+6 x+8=-4 \\Leftrightarrow x^{2}+6 x+9=-3 \\Leftrightarrow(x+3)=-3(k t m))%<br>Vậy tập nghiệm của phương trình là %(S=\\{-1 ;-5\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6 ",
+        "point": 2.0,
+        "content": "Hai đội bóng bàn của trường %(A)% và trường B thi đấu giao hữu. Biết rằng mỗi đối thủ của đội A phải lần lượt gặp các đối thủ của đội B một lần và số trận đấu gấp đôi số cầu thủ hai đội. Tính số đấu thủ của mỗi đội",
+        "question_images": [],
+        "solution": "Gọi số cầu thủ trường A là %(a)%, số cầu thủ trường B là %(b)% (a;b nguyên dương)<br>%(\\Rightarrow)% tổng số trận đấu là %(a .b)%<br>Ta có phương trình: %(ab=2(a+b))%<br>\\[\\begin{array}{l}\\Leftrightarrow ab-2 a-2 b+4=4 \\\\Leftrightarrow(a-2)(b-2)=4\\end{array}\\]<br><br><img alt=\"Screenshot 2024-07-14 234520.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7376abb7dc7cea72effe701e2b9eb7f2.png\" srcset=\"https://docdn.giainhanh.io/media/test/76545ec4c984fd921466633ba2b08c7b.png 216w, https://docdn.giainhanh.io/media/test/c725167d73f9452e445f05f2aea5a741.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7 ",
+        "point": 4.0,
+        "content": "Một ngọn đèn đặt ở vị trí A , hình chiếu vuông góc của nó trên mặt đất là %(H)%. Người ta cắm một chiếc cọc dài %(1,6 \\mathrm{~m})% ở hai vị trí B và C thẳng hàng với %(\\mathrm{H}(\\mathrm{H})% nằm giữa B và C ). Khi đó bóng của chiếc cọc dài %(0,4 m)% và %(0,6 m)%. Biết khoảng cách hai chiếc cọc là %(1,4 \\mathrm{~m})%. Tính độ cao của ngọn đèn",
+        "question_images": [],
+        "solution": "Đặt %(A H=x)%<br>Gọi đỉnh cọc cắm tại B và C lần lượt là %(E, F)%. Bóng lần lượt có độ dài<br>\\[B M=0,4 m, C N=0,6 m \\Rightarrow B C=1,4 m\\]<br>Xét %(\\triangle M A H)% có %(E B / / A H)% (cùng vuông góc với %(B C)% )<br>\\[\\frac{M B}{M H}=\\frac{B E}{A H} \\Rightarrow \\frac{0,4}{0,4+B H}=\\frac{1,6}{x} \\Rightarrow B H=\\frac{0,4 x}{1,6}-0,4\\]<br>Xét %(\\triangle N A H)% có %(C F / / A H)% (cùng vuông góc với %(B C)% )<br>\\[\\frac{C N}{N H}=\\frac{C F}{A H} \\Rightarrow \\frac{0,6}{0,6+C H}=\\frac{1,6}{x} \\Rightarrow C H=\\frac{0,6 x}{1,6}-0,6\\]<br>Mà %(B C=B H+C H=1,4)%<br>\\[\\Rightarrow \\frac{0,4 x}{1,6}-0,4+\\frac{0,6 x}{1,6}-0,6=1,4 \\Leftrightarrow \\frac{x}{1,6}=2,4 \\Leftrightarrow x=3,84(\\mathrm{~m})\\]<br>Vậy ngọn đèn cao %(3,84 m)%<br><img alt=\"Screenshot 2024-07-14 232658.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/fc17cf57b1ce226fd4a9b9ea8fe6706a.png\" srcset=\"https://docdn.giainhanh.io/media/test/52df35949015f4b813eba0f5c7c4a84e.png 226w, https://docdn.giainhanh.io/media/test/787f4941d8b41beed009816b565dca6c.png 500w, https://docdn.giainhanh.io/media/test/9e4a52efa6ef9a01c8b5feb8d74c8c15.png 750w, https://docdn.giainhanh.io/media/test/8eedf41cb481d78918d4080601aa488d.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8",
+        "group_content": "Cho tam giác %(A B C)% cân tại %(A)% có %(B C=2 a, M)% là trung điểm của %(B C)%, lấy %(D, E)% lần lượt thuộc %(A B, A C)% sao cho %(\\angle D M E=\\angle B)%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Chứng minh tích %(B D . C E)% không đổi",
+        "question_images": [],
+        "solution": "%(\\triangle A B C)% cân tại %(\\mathrm{A} \\Rightarrow \\angle B=\\angle C)%, mà %(\\angle D M E=\\angle B \\Rightarrow \\angle D M E=\\angle C)%<br>Xét %(\\triangle M C E)% có %(\\angle C+\\angle C E M+\\angle C M E=180^{\\circ})%<br>Lại có %(\\angle B M D+\\angle D M E+\\angle E M C=180^{\\circ})%, mà %(\\angle D M E=\\angle C(c m t) \\Rightarrow \\angle C E M=\\angle B M D)%<br>Xét %(\\triangle B M D)% và %(\\triangle C E M)% có : %(\\angle B=\\angle C(\\triangle A B C)% cân tại A%(), \\angle B M D=\\angle C E M)%<br>\\[\\Rightarrow \\triangle B M D \\sim \\triangle C E M(\\mathrm{~g} . \\mathrm{g}) \\Rightarrow \\frac{B D}{C M}=\\frac{B M}{C E} \\Rightarrow B D \\cdot C E=B M \\cdot C M\\]<br>Ta có %(B M=C M=\\frac{1}{2} B C=a)% (Do %(A M)% là trung tuyến)<br>Suy ra %(B D \\cdot C E=B M \\cdot C M=a^{2})%.<br>Vậy %(B D \\cdot C E)% không đổi<br><img alt=\"Screenshot 2024-07-14 232858.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/eca37c6611118ca167b84bc031bc2c8a.png\" srcset=\"https://docdn.giainhanh.io/media/test/ab064e1dba04c51b5fb16bdf8eff51c6.png 170w, https://docdn.giainhanh.io/media/test/6720af7dc428268e4815660b7aadca94.png 500w, https://docdn.giainhanh.io/media/test/7ae8256c4893a348de8a4b4a63001a6d.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Chứng minh %(D M)% là tia phân giác của %(\\angle B D E)%",
+        "question_images": [],
+        "solution": "Vì %(\\triangle B M D \\sim \\triangle C E M(\\mathrm{cmt}) \\Rightarrow \\frac{D M}{E M}=\\frac{B M}{E C})%.<br>Mà %(B M=M C \\Rightarrow \\frac{D M}{M C}=\\frac{E M}{E C})%<br>Xét %(\\triangle M E D)% và %(\\triangle C E M)% có : %(\\angle D M E=\\angle C(\\mathrm{cmt}) ; \\frac{D M}{M C}=\\frac{E M}{E C}(\\mathrm{cmt}))%<br>%(\\Rightarrow \\triangle M E D \\sim \\triangle C E M)% mà %(\\triangle B M D \\sim \\triangle C E M(\\mathrm{cmt}))% nên %(\\triangle M E D \\sim \\triangle B M D)%<br>%(\\Rightarrow \\angle M D E=\\angle M D B)% (hai góc tương ứng).<br>Suy ra %(D M)% là phân giác của %(\\angle B D E)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Tính chu vi của %(\\triangle A E D)% nếu %(\\triangle A B C)% là tam giác đều",
+        "question_images": [],
+        "solution": "Tính chu vi của %(\\triangle A E D)% nếu %(\\triangle A B C)% là tam giác đều<br>Từ M kẻ %(M H \\perp A B(N \\in A B), M H \\perp D E(H \\in D E), M P \\perp A C(P \\in A C))%<br>Từ C kẻ %(C K \\perp A B(K \\in A B))%.<br>Xét %(\\triangle M N D)% và %(\\triangle M H D)% có :%(\\angle M N D=\\angle M H D=90^{\\circ}, \\angle M D N=\\angle M D H)% (DM là phân giác của %(\\angle B D E)% ), %(D M)% cạnh chung%(\\Rightarrow \\triangle M N D=\\triangle M H D(c h-g n) \\Rightarrow D N=D H)% (hai cạnh tương ứng)<br>Chứng minh tương tự ta cũng có : %(E H=E P)%<br>\\[\\begin{array}{l}\\Rightarrow P_{A D E}=A D+A E+D E=A D+D H+A E+E H \\\\=A D+D N+A E+E P=A N+A P\\end{array}\\]<br>Xét %(\\triangle B K C)% có %(M B=M C, M N / / C K)% (cùng vuông góc với %(A B)% ).<br>Suy ra N là trung điểm của %(A B \\Rightarrow B N=N K=\\frac{1}{2} B K)%<br>Mặt khác do %(\\triangle A B C)% đều nên CK vừa là đường cao, vừa là đường trung tuyến<br>Suy ra %(B K=\\frac{1}{2} A B=a \\Rightarrow B N=\\frac{a}{2})%. Xét %(\\triangle B N M)% và %(\\triangle C P M)% có :<br>\\[\\angle B N M=\\angle C P M=90^{\\circ} ; B M=C M(g t), \\angle B=\\angle C=60^{\\circ}\\]<br>%(\\Rightarrow \\triangle B N M=\\triangle C P M(c h-g n) \\Rightarrow B N=C P)% (hai cạnh tương ứng) %(\\Rightarrow A N=A P)%<br>\\[P_{A D E}=A N+A P=2 A N=2(A B-B K)=2\\left(2 a-\\frac{a}{2}\\right)=3 a\\]<br>Vậy khi %(\\triangle A B C)% dều thì chu vi %(\\triangle A D E)% bằng %(3 a)%",
+        "question_type": "essay"
+    }
+]

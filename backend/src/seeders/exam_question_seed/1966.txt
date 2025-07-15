@@ -1,0 +1,95 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "Cho biểu thức: %(P=\\frac{\\sqrt{x}}{\\sqrt{x}-1}+\\frac{3}{\\sqrt{x}+1}-\\frac{6 \\sqrt{x}-4}{x-1})% với %(x \\geq 0)% và %(x \\neq 1)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Rút gọn biểu thức %(P)%.",
+        "question_images": [],
+        "solution": "ĐКХĐ: %(x \\geq 0)% và %(x \\neq 1)%<br>\\[\\begin{array}{l}\\Rightarrow P=\\frac{\\sqrt{x}}{\\sqrt{x}-1}+\\frac{3}{\\sqrt{x}+1}-\\frac{6 \\sqrt{x}-4}{x-1} \\\\=\\frac{\\sqrt{x}}{\\sqrt{x}-1}+\\frac{3}{\\sqrt{x}+1}-\\frac{6 \\sqrt{x}-4}{(\\sqrt{x}-1)(\\sqrt{x}+1)} \\\\=\\frac{\\sqrt{x}(\\sqrt{x}+1)+3(\\sqrt{x}-1)-6 \\sqrt{x}+4}{(\\sqrt{x}-1)(\\sqrt{x}+1)} \\\\=\\frac{x+\\sqrt{x}+3 \\sqrt{x}-3-6 \\sqrt{x}+4}{(\\sqrt{x}-1)(\\sqrt{x}+1)}=\\frac{x-2 \\sqrt{x}+1}{(\\sqrt{x}-1)(\\sqrt{x}+1)}\\end{array}\\]<br>%(=\\frac{(\\sqrt{x}-1)^{2}}{(\\sqrt{x}-1)(\\sqrt{x}+1)}=\\frac{\\sqrt{x}-1}{\\sqrt{x}+1})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Tìm %(x)% để %(P\\lt \\frac{1}{2})%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}P\\lt \\frac{1}{2} \\Leftrightarrow \\frac{\\sqrt{x}-1}{\\sqrt{x}+1}\\lt \\frac{1}{2} \\\\Leftrightarrow \\frac{\\sqrt{x}-1}{\\sqrt{x}+1}-\\frac{1}{2}\\lt 0 \\\\Leftrightarrow \\frac{2 \\sqrt{x}-2-\\sqrt{x}-1}{2(\\sqrt{x}+1)}\\lt 0 \\\\Leftrightarrow \\frac{\\sqrt{x}-3}{2(\\sqrt{x}+1)}\\lt 0 \\\\text { Vì } 2(\\sqrt{x}+1)\\gt 0 \\forall x \\in Đ K X Đ\\end{array}\\]<br>Nên %(P\\lt \\frac{1}{2} \\Rightarrow \\sqrt{x}-3\\lt 0 \\Leftrightarrow \\sqrt{x}\\lt 3 \\Leftrightarrow x\\lt 9)%<br>Kết hợp %(Đ K X Đ \\Rightarrow 0 \\leq x\\lt 9)% và %(x \\neq 1)%<br>Vậy %(0 \\leq x\\lt 9)% và %(x \\neq 1)% thì %(P\\lt \\frac{1}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Giải bài toán sau bằng cách lập phuơng trình:<br>Một người đi xe đạp từ %(A)% đến %(B)% cách nhau %(24 \\mathrm{~km})%. Khi từ %(B)% trở về %(A)% người đó tăng vận tốc lên %(4 \\mathrm{~km} / \\mathrm{h})% so với lúc đi, vì vậy thời gian về ít hơn thời gian đi 30 phút. Tính vận tốc của xe đạp khi đi từ %(A)% đến %(B)%.",
+        "question_images": [],
+        "solution": "Đổi 30 phút %(=\\frac{1}{2})% giờ<br>Gọi vận tốc của xe đạp khi đi từ %(A)% đến %(B)% là %(x(x\\gt 0 ; \\mathrm{km} / \\mathrm{h}))%<br>Thời gian đi quãng đường %(A B)% dài 24 km là %(\\frac{24}{x})% (giờ)<br>Vận tốc lúc về là %(x+4(\\mathrm{~km} / \\mathrm{h}))% nên thời gian đi quãng đường %(B A)% là: %(\\frac{24}{x+4})% (giờ)<br>Ta có phương trình: %(\\frac{24}{x}-\\frac{24}{x+4}=\\frac{1}{2})%<br>\\[\\begin{array}{l}\\Leftrightarrow \\frac{48(x+4)-48 x-x(x+4)}{2 x(x+4)}=0 \\\\Rightarrow x^{2}+4 x-192=0 \\\\Leftrightarrow(x-12)(x+16)=0 \\\\Leftrightarrow\\left[\\begin{array} { l } { x - 1 2 = 0 } \\\\{ x + 1 6 = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=12(\\text { TMĐK) } \\x=-16 \\text { (Khôg TMĐK) }\\end{array}\\right.\\right.\\end{array}\\]<br>Vậy vận tốc của xe đạp lúc đi là %(12 \\mathrm{~km} / \\mathrm{h})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3:",
+        "group_content": "Cho phương trình %(x^{2}+b x+c=0)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Giải phương trình khi %(b=-3)% và %(c=2)%.",
+        "question_images": [],
+        "solution": "Thay %(b=-3)% và %(c=2)% vào phương trình %(x^{2}+b x+c=0)% ta có:<br>\\[x^{2}-3 x+2=0\\]<br>%(\\Delta=(-3)^{2}-4 \\cdot 1.2=1\\gt 0 \\Rightarrow)% Phương trình có hai nghiệm phân biệt :<br>\\[x_{1}=\\frac{3+\\sqrt{1}}{2}=2 \\text { và } x_{2}=\\frac{3-\\sqrt{1}}{2}=1\\]<br>Vậy %(S=\\{1 ; 2\\})%.<br>* Luи %(\\hat{y})% :<br>- PT bậc 2 giải theo biệt thức %(\\Delta)% là phương pháp cơ bản áp dụng cho mọi truòng hợp.<br>- Trong PT %(x^{2}-3 x+2=0)% có đặc điểm : %(a+b+c=1+(-3)+2=0)%<br>Theo hệ thức Vi-et:<br>\\[\\Rightarrow x_{1}=1 \\text { và } x_{2}=\\frac{c}{a}=2\\]<br>- Dùng phuơng pháp phân tích đa thức nhân tủ : %(x^{2}-3 x+2=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow(x-1)(x-2)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x=1 \\x=2\\end{array}\\right.\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Tìm %(b, c)% để phương trình đã cho có hai nghiệm phân biệt và tích của chúng bằng 1 .",
+        "question_images": [],
+        "solution": "Ta có: %(\\Delta=b^{2}-4 a c=b^{2}-4 c)%<br>Để phương trình có hai nghiệm phân biệt : %(\\Delta\\gt 0 \\Leftrightarrow b^{2}-4 c>0)%<br>Với %(b^{2}>4 c)% thì %(x_{1} x_{2}=\\frac{c}{a})% (theo hệ thức Vi-ét)<br>Ta có: %(\\left\\{\\begin{array}{l}b^{2}>4 c \\\\ \\frac{c}{a}=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}b^{2}>4 \\\\ c=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}{\\left[\\begin{array}{l}b>2 \\\\ b\\lt -2\\end{array}\\right.} \\\\ c=1\\end{array}\\right.\\right.\\right.)%<br>Vậy với %(b>2)% hoặc %(b\\lt -2)% và %(c=1)% thì phương trình đã cho có hai nghiệm phân biệt và tích của chúng bằng 1 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4:",
+        "group_content": "Cho đường tròn %((O ; R))% tiếp xúc với đường thẳng %(d)% tại %(A)%. Trên %(d)% lấy điểm %(H)% không trùng với điểm %(A)% và %(A H\\lt R)%. Qua %(H)% kẻ đường thẳng vuông góc với %(d)%, đường thẳng này cắt đường tròn tại hai điểm %(E)% và %(B(E)% nằm giữa %(B)% và %(H))%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Chứng minh %(\\widehat{A B E}=\\widehat{E A H})% và %(\\triangle A B H \\sim \\triangle E A H)%.",
+        "question_images": [],
+        "solution": "%(\\widehat{A B E}=\\frac{1}{2} \\mathrm{sđ} \\overparen{E A}(\\mathrm{t} / \\mathrm{c})% góc nội tiếp %())%<br>%(\\widehat{H A E}=\\frac{1}{2})% sđ %(\\overparen{E A}(\\mathrm{t} / \\mathrm{c})% góc tạo bởi tiếp tuyến và dây cung)<br>\\[\\Rightarrow \\widehat{A B E}=\\widehat{H A E}\\]<br>Xét %(\\triangle A B H)% và %(\\triangle E A H)% có:<br>\\[\\left.\\begin{array}{l}\\widehat{A H B}=90^{\\circ} \\\\widehat{A B E}=\\widehat{H A E}(\\mathrm{cmt})\\end{array}\\right\\} \\Rightarrow \\triangle A B H \\sim \\triangle E A H(\\mathrm{~g} . \\mathrm{g})\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/efe03a47b2122315cb6ff789d03ddf48.png\" srcset=\"https://docdn.giainhanh.io/media/test/d5bddedd7f28d4480659421ea345fa5e.png 158w, https://docdn.giainhanh.io/media/test/94ac5d9a042faea76bbbb739d57a80c9.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Lấy điểm %(C)% trên %(d)% sao cho %(H)% là trung điểm của đoạn thẳng %(A C)%, đường thẳng %(C E)% cắt %(A B)% tại %(K)%. Chứng minh %(A H E K)% là tứ giác nội tiếp.",
+        "question_images": [],
+        "solution": "Xét %(\\triangle H E C=\\triangle H E A(c . g . c))%<br>\\[\\begin{array}{l}\\Rightarrow \\widehat{A C E}=\\widehat{C A E} \\text { mà } \\widehat{C A E}=\\widehat{A B E}(\\mathrm{cmt}) \\\\Rightarrow \\widehat{A C E}=\\widehat{A B E}\\end{array}\\]<br>Mặt khác: %(\\widehat{A B E}+\\widehat{C A K}=90^{\\circ})%<br>\\[\\Rightarrow \\widehat{A C E}+\\widehat{C A K}=90^{\\circ}\\]<br>%(\\Rightarrow \\triangle A C K)% vuông tại %(K)%<br>Xét tứ giác %(A H E K)% có:<br>%(\\widehat{E H A}=\\widehat{A K E}=90^{\\circ})%<br>%(\\Rightarrow \\widehat{E H A}+\\widehat{A K E}=180^{\\circ})% mà 2 góc ở vị trí đối nhau<br>%(\\Rightarrow)% Tứ giác %(A H E K)% nội tiếp.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "Xác định vị trí điểm %(H)% để %(A B=R \\sqrt{3})%.",
+        "question_images": [],
+        "solution": "Hạ %(O I \\perp A B \\Rightarrow A I=I B=\\frac{A B}{2}=\\frac{R \\sqrt{3}}{2})%<br>Xét %(\\triangle A O I)% vuông tại %(I)% có %(\\cos \\widehat{O A I}=\\frac{A I}{O A}=\\frac{\\sqrt{3}}{2})%<br>%(\\Rightarrow \\widehat{O A I}=30^{\\circ} \\Rightarrow \\widehat{B A H}=60^{\\circ})%<br>%(\\triangle A H B)% vuông tại %(\\mathrm{H})% có %(: \\widehat{B A H}=60^{\\circ} \\Rightarrow \\cos \\widehat{B A H}=\\frac{A H}{A B}=\\frac{1}{2})%<br>%(\\Rightarrow \\frac{A H}{R \\sqrt{3}}=\\frac{1}{2} \\Rightarrow A H=\\frac{R \\sqrt{3}}{2})%<br>Vậy cần lấy điểm %(H)% sao cho độ dài %(A H=\\frac{R \\sqrt{3}}{2})% thì %(A B=R \\sqrt{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 1.0,
+        "content": "Cho đường thẳng %(y=(m-1) x+2)%. Tìm %(m)% để khoảng cách từ gốc tọa độ đến đường thẳng đó là lớn nhất.",
+        "question_images": [],
+        "solution": "* Xét %(m=1 \\Rightarrow y=2)%<br>%(\\Rightarrow)% Khoảng cách từ %(O)% đến đường thẳng là 2 .<br>* Xét %(m \\neq 1)%<br>Gọi %(\\left(d^{\\prime}\\right): y=a x+b)% là đường thẳng đi qua %(O)% và vuông góc với %(d)%<br>Vì %(d \\perp d^{\\prime} \\Rightarrow a(m-1)=-1 \\Leftrightarrow a=\\frac{-1}{m-1}=\\frac{1}{1-m})%<br>Vì %(O(0 ; 0) \\in d^{\\prime} \\Rightarrow 0=a .0+b \\Rightarrow b=0)%%(\\Rightarrow\\left(d^{\\prime}\\right): y=\\frac{1}{1-m} x)%<br>Ta có %(\\left(d^{\\prime}\\right) \\cap(d))% tại %(H)% nên hoành độ điểm %(H)% là nghiệm của phương trình:<br>\\[\\begin{array}{l}(m-1) x_{H}+2=\\frac{1}{1-m} x_{H} \\\\Leftrightarrow x_{H}\\left(m-1-\\frac{1}{1-m}\\right)=-2 \\Leftrightarrow x_{H}\\left[\\frac{(m-1)^{2}+1}{m-1}\\right]=-2 \\Leftrightarrow x_{H}=\\frac{-2(m-1)}{(m-1)^{2}+1}\\end{array}\\]<br>\\[\\begin{array}{l}\\Rightarrow y_{H}=\\frac{1}{m-1} \\cdot \\frac{2(m-1)}{(m-1)^{2}+1}=\\frac{2}{(m-1)^{2}+1} \\O H=\\sqrt{x_{H}^{2}+y_{H}^{2}} \\O H=\\sqrt{\\frac{4(m-1)^{2}+4}{\\left[(m-1)^{2}+1\\right]}}=2 \\sqrt{\\frac{(m-1)^{2}+1}{\\left[(m-1)^{2}+1\\right]}}=\\frac{2}{\\sqrt{(m-1)^{2}+1}}\\end{array}\\]<br>Vì %((m-1)^{2}+1 \\geq 1 \\Rightarrow O H \\leq 2)%.<br>Dấu\" = \" xảy ra khi %(m=1)% (loại vì %(m \\neq 1)% )<br>%(\\Rightarrow O H\\lt 2)% với mọi %(m \\neq 1)%<br>Kết hợp 2 trường hợp ta có %(m=1)% thì khoảng cách từ gốc tọa độ đến đường thẳng %(y=(m-1) x+2)% là lớn nhất.",
+        "question_type": "essay"
+    }
+]

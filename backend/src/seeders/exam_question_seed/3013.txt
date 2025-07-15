@@ -1,0 +1,81 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Đơn giản biểu thức: %(\\mathrm{A}=\\frac{\\sqrt{2}+\\sqrt{3}+\\sqrt{6}+\\sqrt{8}+4}{\\sqrt{2}+\\sqrt{3}+\\sqrt{4}})%",
+        "question_images": [],
+        "solution": "%(A=\\frac{\\sqrt{2}+\\sqrt{3}+2+\\sqrt{6}+\\sqrt{8}+2}{\\sqrt{2}+\\sqrt{3}+\\sqrt{4}}=\\frac{(\\sqrt{2}+\\sqrt{3}+\\sqrt{4})(1+\\sqrt{2})}{\\sqrt{2}+\\sqrt{3}+\\sqrt{4}}=1+\\sqrt{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho biểu thức: %(\\quad P=a-\\left(\\frac{1}{\\sqrt{a}-\\sqrt{a-1}}-\\frac{1}{\\sqrt{a}+\\sqrt{a-1}}\\right) ;(a \\geq 1))%<br>Rút gọn %(P)% và chứng tỏ %(P \\geq 0)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}P=a-\\left(\\frac{\\sqrt{a}+\\sqrt{a-1}-\\sqrt{a}+\\sqrt{a-1}}{a-a+1}\\right) ; a \\geq 1 \\\\ =a-2 \\sqrt{a-1}=a-1-2 \\sqrt{a-1}+1 ; v i: a \\geq 1 \\\\ \\Rightarrow P=(\\sqrt{a-1}-1)^{2} \\geq 0 ; \\forall a \\geq 1\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho phương trình bậc hai %(x^{2}+5 x+3=0)% có hai nghiệm %(x_{1} ; x_{2})%. Hãy lập một phương trình bậc hai có hai nghiệm %(\\left(\\mathrm{x}_{1}^{2}+1\\right))% và %(\\left(\\mathrm{x}_{2}^{2}+1\\right))%.",
+        "question_images": [],
+        "solution": "Có %(\\Delta=25-12=13\\gt 0)%<br>Nên pt luôn có 2 nghiệm phân biệt<br>\\[\\Rightarrow \\mathrm{x}_{1}+\\mathrm{x}_{2}=-5 ; \\mathrm{x}_{1} \\mathrm{x}_{2}=3\\]<br>Do đó %(S=x_{1}^{2}+1+x_{2}^{2}+1=\\left(x_{1}+x_{2}\\right)^{2}-2 x_{1} x_{2}+2=25-6+2=21)%<br>Và %(P=\\left(x_{1}^{2}+1\\right)\\left(x_{2}^{2}+1\\right)=\\left(x_{1} x_{2}\\right)^{2}+\\left(x_{1}+x_{2}\\right)^{2}-2 x_{1} x_{2}+1=9+20=29)%<br><br>Vậy phương trình cần lập là %(x^{2}-21 x+29=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}\\frac{2}{x}+\\frac{3}{y-2}=4 \\\\ \\frac{4}{x}-\\frac{1}{y-2}=1\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "ĐK %(x \\ne 0 ; y \\ne 2)%<br>%(\\Rightarrow\\left\\{\\begin{array}{l}\\frac{2}{x}+\\frac{3}{y-2}=4 \\\\ \\frac{12}{x}-\\frac{3}{y-2}=3\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}\\frac{14}{x}=7 \\\\ \\frac{2}{x}+\\frac{3}{y-2}=4\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=2 \\\\ 1+\\frac{3}{y-2}=4\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=2 \\\\ y=3\\end{array}\\right.\\right.\\right.\\right.)%Vậy HPT có nghiệm duy nhất %((x ; y)=(2 ; 3))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Quãng đường từ %(\\mathrm{A})% đến %(\\mathrm{B})% dài %(50 \\mathrm{~km})%. Một người dự định đi xe đạp từ %(\\mathrm{A})% đến %(\\mathrm{B})% với vận tốc không đổi.Khi đi được 2 giờ,người ấy dừng lại 30 phút để nghi.Muốn đến %(\\mathrm{B})% đúng thời gian đã định,người đó phải tăng vận tốc thêm %(2 \\mathrm{~km} / \\mathrm{h})% trên quãng đường còn lại.Tính vận tốc ban đầu của người đi xe đạp.",
+        "question_images": [],
+        "solution": "Gọi %(x(k m / h))% là vtốc dự định; %(x\\gt 0)%; có 30 phút = 11/2 (h)<br>%(\\Rightarrow)% Thời gian dự định : %(\\frac{50}{x}(h))%<br>Quãng đường đi được sau %(2 \\mathrm{~h})% : %(2 x(\\mathrm{~km}))%<br>%(\\Rightarrow)% Quãng đường còn lại : %(50-2 x(\\mathrm{~km}))%<br>Vận tốc đi trên quãng đường còn lại : %(x+2)% ( km/h)<br>Thời gian đi quãng đường còn lại : %(\\frac{50-2 x}{x+2}(h))%<br>Theo đề bài ta có PT: %(\\quad 2+\\frac{1}{2}+\\frac{50-2 x}{x+2}=\\frac{50}{x})%<br>Giải ra ta được : %(x=10)% (thỏa ĐK bài toán)<br>Vậy Vận tốc dự định : 10 km/h",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho tam giác %(ABC)% có ba góc nhọn và %(H)% là trực tâm. Vẽ hình bình hành %(BHCD)%. Đường thẳng đi qua D và song song BC cắt đường thẳng %(A H)% tại %(E)%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D}, \\mathrm{E})% cùng thuộc một đường tròn",
+        "question_images": [],
+        "solution": "Vì BC //ED Mà %(\\mathrm{AE} \\perp \\mathrm{BC})% Nên %(A E \\perp E D)%%(\\angle \\mathrm{A} E D=90^{\\circ} \\Rightarrow \\mathrm{E} \\in(\\mathrm{O} ; \\mathrm{AD} / 2))%<br>Nói được %(\\angle \\mathrm{ABD}=\\angle \\mathrm{ACD}=90^{\\circ})%(nội tiếp chắn %(\\frac{1}{2})% đường tròn %((\\mathrm{O}))% )%(\\Rightarrow)% kết luận<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/da9cccc5f5cf80cd6a25b8a5d7b0b310.png\" srcset=\"https://docdn.giainhanh.io/media/test/e1f532a1a8828886cf36fe8b67632a28.png 171w\" width=\"171\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh tam giác %(  B A E)%= tam giác DAC",
+        "question_images": [],
+        "solution": "%(\\underline{\\mathrm{C} 1})% : vì %(\\mathrm{BC} / / / \\mathrm{ED})% nên cung %(\\mathrm{BE})% bắng cung %(\\mathrm{CD}=\\gt)% kết luận<br>C1: vì %(\\mathrm{BC} / / \\mathrm{ED})% nên %(\\angle C B D=\\angle B D E)% ( SLT)<br>Mà %(\\angle B A E)% bằng %(1 / 2)% sđ cung %(\\mathrm{BE})%<br>Và %(\\angle C A D)% bằng %(1 / 2)% sđ cungDC<br>%(=\\gt)%cung BE bằng cung DC => kết luận",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Gọi %(\\mathrm{O})% là tâm đường tròn ngoại tiếp tam giác %(A B C)% và %(M)% là trung điểm của %(\\mathrm{BC})%,đường thẳng %(\\mathrm{AM})% cắt %(\\mathrm{OH})% tại %(\\mathrm{G})%.<br>Chứng minh %(\\mathrm{G})% là trọng tâm của tam giác %(\\mathrm{ABC})%.",
+        "question_images": [],
+        "solution": "Vì BHCD là HBH nên H,M,D thẳng hàng<br>Tam giác AHD có %(O M)% là ĐTBình %(=\\gt A H=2 O M)%<br>Và AH // OM2 tam giác %(\\mathrm{AHG})% và %(\\mathrm{MOG})% có %(\\angle \\mathrm{HAG}=\\angle \\mathrm{OMG})% (slt)<br>\\[\\begin{array}{l}\\angle \\mathrm{AGH}=\\angle \\mathrm{MGO} \\text { (đđ) } \\\\triangle A H G \\backsim \\triangle M O G(g-g) \\Rightarrow \\frac{A H}{M O}=\\frac{A G}{M G}=2\\end{array}\\]<br>Hay %(A G=2 M G)%<br>Tam giác %(A B C)% có %(A M)% là trung tuyến; %(G \\in A M)%<br>Do đó %(G)% là trọng tâm của tam giác %(A B C)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 1.0,
+        "content": "d) Giả sử OD=a. Hãy tính độ dài đường tròn ngoại tiếp tam giác BHC theo a",
+        "question_images": [],
+        "solution": "%(\\triangle \\mathrm{BHC}=\\triangle \\mathrm{BDC})% ( vì %(\\mathrm{BHCD})% là %(\\mathrm{HBH})% )<br>có %(B ; D ; C)% nội tiếp %((O))% bán kính là a<br>Nên tam giác %(B H C)% cũng nội tiếp (K) có bán kính a<br>Do đó %(\\mathrm{C}_{(\\mathrm{K})}=2 \\pi a)% ( ĐVĐD)",
+        "question_type": "essay"
+    }
+]

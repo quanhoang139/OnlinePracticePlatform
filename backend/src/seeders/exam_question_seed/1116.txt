@@ -1,0 +1,126 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình sau:<br>\\[\\left\\{\\begin{array}{c}(x+y)\\left(4+\\frac{1}{x y}\\right)=1 \\\\left(4 x+\\frac{1}{x}\\right)\\left(4 y+\\frac{1}{y}\\right)=-20\\end{array}\\right.\\]",
+        "question_images": [],
+        "solution": "Lời giải tham khảo: %(\\quad)% ĐKXĐ là %(x, y \\neq 0)%<br>\\[\\text { Ta có HPT } \\Leftrightarrow\\left\\{\\begin{array}{c}(x+y)\\left(4+\\frac{1}{x y}\\right)=1 \\\\left(4 x+\\frac{1}{x}\\right)\\left(4 y+\\frac{1}{y}\\right)=-20\\end{array}\\right.\\]<br>Đặt %(\\mathrm{a}=4 x+\\frac{1}{x}, \\mathrm{~b}=4 y+\\frac{1}{y})%, HPT trở thành %(\\left\\{\\begin{array}{c}a+b=1 \\\\ a b=-20\\end{array}\\right.)%<br>Theo định lý Vi- ét đảo, %(a)% và %(b)% là nghiệm của phương trình<br>\\[t^{2}-\\mathrm{t}-20=0 \\Leftrightarrow \\mathrm{t}=5 \\text { hay } \\mathrm{t}=-4\\]<br>TH1: %(a=5)% và %(b=-4)%. Ta có:<br>\\[\\left\\{\\begin{array} { l } { 4 x + \\frac { 1 } { x } = 5 } \\\\{ 4 y + \\frac { 1 } { y } = 5 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { 4 x ^ { 2 } - 5 y + 1 = 0 } \\\\{ 4 x ^ { 2 } + 4 x + 1 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{c}x=1 \\text { hay } y=\\frac{1}{4} \\x=-\\frac{1}{2}\\end{array}\\right.\\right.\\right.\\]<br>Vậy tập nghiệm của hệ là %(S=\\left\\{\\left(1,-\\frac{1}{2}\\right),\\left(\\frac{1}{4},-\\frac{1}{2}\\right),\\left(-\\frac{1}{2}, 1\\right),\\left(-\\frac{1}{2}, \\frac{1}{4}\\right)\\right\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2:",
+        "group_content": "Cho các số a,b,c >0 thỏa mãn ab + bc +ca = abc",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Chứng minh rằng: %(\\frac{1}{\\sqrt{a}}+\\frac{1}{\\sqrt{b}}+\\frac{1}{\\sqrt{c}} \\leq \\sqrt{3})%",
+        "question_images": [],
+        "solution": "Từ giả thiết, ta suy ra<br>\\[\\frac{a b+b c+c a}{a b c}=1 \\Leftrightarrow \\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=1\\]<br>Áp dụng Bất đẳng thức Bunhiacopxki, ta có:<br>\\[(1+1+1)\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right) \\geq\\left(\\frac{1}{\\sqrt{a}}+\\frac{1}{\\sqrt{b}}+\\frac{1}{\\sqrt{c}}\\right)^{2}\\]<br>hay<br>\\[\\frac{1}{\\sqrt{a}}+\\frac{1}{\\sqrt{b}}+\\frac{1}{\\sqrt{c}} \\leq \\sqrt{3 \\cdot\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)}=\\sqrt{3}\\]<br>Chứng minh hoàn tất.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Chứng minh rằng: %((\\sqrt{a}+\\sqrt{b}+\\sqrt{c})^{2} \\leq \\mathrm{abc} \\leq \\frac{(\\mathrm{a}+\\mathrm{b}+\\mathrm{c})^{2}}{3})%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[(\\mathrm{a}+\\mathrm{b}+\\mathrm{c})^{2} \\geq 3(a b+b c+c a)=3 \\mathrm{abc} .\\]<br>Ta cũng có<br>\\[\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c} \\geq \\frac{1}{\\sqrt{a b}}+\\frac{1}{\\sqrt{b c}}+\\frac{1}{\\sqrt{c a}}\\]<br>Suy ra<br>\\[\\frac{1}{\\sqrt{a b}}+\\frac{1}{\\sqrt{b c}}+\\frac{1}{\\sqrt{c a}} \\leq 1\\]<br>hay %(\\sqrt{a}+\\sqrt{b}+\\sqrt{c} \\leq \\sqrt{a b c})%. Bình phương hai vế bất đẳng thức, ta được<br>\\[(\\sqrt{a}+\\sqrt{b}+\\sqrt{c})^{2} \\leq \\mathrm{abc} .\\]<br>Từ (1) và (2) ta suy ra<br>\\[(\\sqrt{a}+\\sqrt{b}+\\sqrt{c})^{2} \\leq \\mathrm{abc} \\leq \\frac{(\\mathrm{a}+\\mathrm{b}+\\mathrm{c})^{2}}{3}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3:",
+        "group_content": "Cho bảng 4 x 4 được tô bằng ô đen hoặc trắng sao cho:<br>i, Mỗi hàng có số ô đen bằng nhau;<br>ii, Mỗi cột có số ô đen đôi một khác nhau;",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.75,
+        "content": "Tìm mỗi ô đen ở mỗi hàng.",
+        "question_images": [],
+        "solution": "Mỗi cột có số ô đen đôi một khác nhau nên tổng số ô đen trong bảng phải lớn hơn hoặc bằng %(0+1+2+3=6)% và bé hơn hoặc bằng %(1+2+3+4=10)%.<br>Mà mỗi hàng có số ô đen đều bằng nhau nên tổng số ô đen trong bảng phải chia hết cho 4.<br>Do đó tổng số ô đen trong bảng là 8 . Suy ra ô đen ở mỗi hàng là 2 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.75,
+        "content": "Một cặp ô được gọi là “ tốt “ khi có một ô đen và một ô trắng đứng cạnh nhau. Tìm số cặp tốt nhiều nhất tính theo hàng ; số cặp tốt nhiều nhất tính theo cột.",
+        "question_images": [],
+        "solution": "%(8=0+1+3+4)%.<br>Số ô đen trong các cột sẽ là %(0,1,3,4)%.<br>Xét số cặp tốt nhiều nhất tính theo cột:<br>- Trong cột chứa 0 ô đen luôn có 0 cặp tốt<br>- Trong cột chứa 1 ô đen có tối đa 2 cặp tốt<br>- Trong cột chứa 3 ô đen có tối đa 2 cặp tốt<br>- Trong cột chứa 4 ô đen luôn có 0 cặp tốt<br>Vậy có tối đa 4 cặp tốt tính theo cột.<br>Một ví dụ cụ thể<br>Xét số cặp tốt nhiều nhất tính theo hàng:<br>- Mỗi hàng đều chứa 2 ô đen. Và 1 hàng %(1 x 4)% có đúng 2 ô đen sẽ chứa tối đa 3 cặp tốt và phải là 1 trong 2 cấu hình sau:<br>- Như vậy số cặp tốt nhiều nhất tính theo hàng trong bảng là %(3 \\times 4=12)%.<br>Giả sử tồn tại 1 cấu hình %(A)% có 12 cặp tốt tính theo hàng và thỏa mãn yêu cầu bài. Như vậy mỗi hàng phải có cấu hình là 1 trong 2 cấu hình(*) trên.<br>Và vì có 1 cột chứa 4 ô nên cấu hình %(\\mathrm{A})% chỉ có thể là<br>Tuy nhiên 2 cấu hình trên đều không thỏa mãn yêu cầu đề bài.<br>Do đó trong bảng %(4 \\times 4)% chỉ có tối đa 11 cặp tính theo hàng",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4:",
+        "group_content": "Cho %(m , n)% là các số nguyên âm thỏa mãn %(m^{2} - n = 1)%. Đặt %(a = n^{2} - m)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Chứng minh rằng: a là số lẻ.",
+        "question_images": [],
+        "solution": "Vì %(m^{2}-\\mathrm{n}=1)% là số lẻ nên %(\\mathrm{m}, \\mathrm{n})% khác tính chẵn lẻ. Do đó %(\\mathrm{a}=n^{2}-\\mathrm{m})% là số lẻ.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.5,
+        "content": "Giả sử %(\\mathrm{a}=3.2^{k}+1, \\mathrm{k})% là số nguyên không âm. Chứng minh rằng %(\\mathrm{k}=1)%",
+        "question_images": [],
+        "solution": "Ta có<br>\\[\\begin{array}{l}\\mathrm{a}-1=n^{2}-m-m^{2}+\\mathrm{n}=(n-m)(n+m+1) \\\\Rightarrow 3.2^{k}=(n-m)(n+m+1)\\end{array}\\]<br>Vì %(\\mathrm{n}-\\mathrm{m})% lẻ nên %(\\mathrm{n}+\\mathrm{m}+1: 2^{k})%, do đó ta xét các trường hợp sau:<br>- Nếu %(\\mathrm{n}+\\mathrm{m}+1=2^{k})% thì %(\\mathrm{n}-\\mathrm{m}=3)%, kết hợp với %(m^{2}-\\mathrm{n}=1)%, ta được %(m^{2}-\\mathrm{m}-4=0)% (Loại vì phương trình có nghiệm %(m=\\frac{1 \\pm \\sqrt{17}}{4})% không nguyên )<br>- Nếu %(n+m+1=3.2^{k})% thì %(n-m=3)%, kết hợp với %(m^{2}-n=1)% ta có %(m^{2}-m-2=)% 0 , do đó %(\\mathrm{m}=2()% do %(\\mathrm{m} \\geq 0))%<br>Từ đó suy ra %(\\mathrm{n}=3)% và %(3.2^{k}=3+2+1=6 \\Rightarrow \\mathrm{k}=1)%.Vậy k = 1 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 5.0,
+        "content": "Chứng minh rằng: a không phải là số chính phương.",
+        "question_images": [],
+        "solution": "Vì %(m^{2}-\\mathrm{n}=1)% nên %(\\mathrm{n}=m^{2}-1)%, khi đó %(\\mathrm{a}=n^{2}-\\mathrm{m}=\\left(m^{2}-1\\right)^{2}-\\mathrm{m}=m^{4}-2 m^{2}-\\mathrm{m}+)% 1.<br>Nhận xét %(m^{2}=\\mathrm{n}+1 \\geq 1)% nên %(\\mathrm{m} \\geq 1)%.<br>Khi đó<br>\\[m^{4}-2 m^{2}-\\mathrm{m}+1\\lt m^{4}-2 m^{2}+1=\\left(m^{2}-1\\right)^{2} .\\]<br>- Xét %(\\mathrm{m} \\geq 2)%, khi đó<br>\\[m^{4}-2 m^{2}-\\mathrm{m}+1-\\left(m^{2}-2\\right)^{2}=2 m^{2}-\\mathrm{m}-3=(2 \\mathrm{~m}-3)(\\mathrm{m}+1)\\gt 0\\]<br>Do đó<br>\\[m^{4}-2 m^{2}-\\mathrm{m}+1>\\left(m^{2}-2\\right)^{2}, \\quad \\text { với } \\mathrm{m} \\geq 2\\]<br>Từ (1) và (2) ta được<br>\\[\\left(m^{2}-2\\right)^{2}\\lt \\mathrm{a}=m^{4}-2 m^{2}-\\mathrm{m}+1\\lt \\left(m^{2}-1\\right)^{2} \\text {, với } \\mathrm{m} \\geq 2 \\text {. }\\]<br>Vì %(\\left(m^{2}-2\\right)^{2})% và %(\\left(m^{2}-1\\right)^{2})% là hai số chính phương liên tiếp nên từ (3), ta suy ra %(\\boldsymbol{a})% không là số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài 5:",
+        "group_content": "Cho tam giác %(A B C)% có đường tròn nội tiếp %((I) . D, E, F)% lần lượt là các tiếp điểm của (I) với %(B C, C A, A B)%. Gọi %(L)% là chân đường phân giác ngoài của %(\\angle B A C)% %((L \\in B C))%. Vẽ tiếp tuyến %(\\mathrm{LH})% với đường tròn %((\\mathrm{I})(\\mathrm{H} \\neq \\mathrm{D})% LÀ tiếp điểm).",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Chứng minh đường tròn ngoại tiếp tam giác HAL đi qua tâm I",
+        "question_images": [],
+        "solution": "%()%Ta có %(\\angle I A L=\\angle I H L=\\angle I D L=90^{\\circ})% nên %(A, L, D, H, I)% cùng nằm trên đường tròn đường kính %(L I)%.<br>Do đó đường tròn ngoại tiếp tam giác %(H A L)% đi qua %(I)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4bd74220a3bac33f2d74db6c978ab75c.png\" srcset=\"https://docdn.giainhanh.io/media/test/54b2533e9a9f4ec39ca4d05c4978c123.png 241w, https://docdn.giainhanh.io/media/test/c87b91aca5f60974e139c6851b266f2a.png 500w, https://docdn.giainhanh.io/media/test/b3dd9c009e1229cb708ca71a60230af1.png 750w, https://docdn.giainhanh.io/media/test/0df3c1cca9c7d2a42b1158c269349a0e.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Chứng minh %(\\angle \\mathrm{BAD}=\\angle \\mathrm{CAH})%.",
+        "question_images": [],
+        "solution": "Xét đường tròn %((H A L))%, do %(I H=I D)% nên %(\\mathrm{AI})% là đường phân giác của %(\\angle \\mathrm{DAH})%.<br>Mà %(\\mathrm{AI})% cũng là đường phân giác của %(\\angle \\mathrm{BAC})% nên ta có điều phải chúng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 0.75,
+        "content": "%(\\mathrm{AH})% kéo dài cắt %((\\mathrm{I}))% tại %(\\mathrm{K}(\\mathrm{K} \\neq \\mathrm{H}))%. Gọi %(\\mathrm{G})% là trọng tâm của tam giác %(\\mathrm{KEF})%. %(\\mathrm{DG})% cắt EF tại J. Chứng minh %(\\mathrm{KJ} \\perp \\mathrm{EF})%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\angle \\mathrm{KDC}=\\angle \\mathrm{KHD}=\\angle \\mathrm{ALB})%.<br>Suy ra: %(\\mathrm{DK} \\| \\mathrm{AL})% mà %(\\mathrm{AL \\| EF})% ( cùng vuông góc %(\\mathrm{IA})% ), nên %(\\mathrm{DK})% // EF.<br>Do DK || NJ nên theo định lý Talet, ta có<br>\\[\\frac{D G}{G J}=\\frac{K G}{G N}=2=\\frac{F G}{G V} .\\]<br>Suy ra %(D F \\| J V)% và %(\\frac{D F}{J V}=\\frac{D G}{G J}=2)%.<br>Từ đó, %(\\mathrm{JV}=\\frac{D F}{2}=\\frac{E K}{2})%.<br>Do đó, tam giác JKE vuông tại J.<br>Vậy %(K J \\perp E F)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "d) ",
+        "point": 0.75,
+        "content": "%()%Gọi %(\\mathrm{S})% là trung điểm %(\\mathrm{BC}, \\mathrm{KJ})% cắt %((\\mathrm{I}))% tại %(\\mathrm{R}(\\mathrm{R} \\neq \\mathrm{K}))%. Chứng minh rằng %(\\mathrm{AS}, \\mathrm{IR}, \\mathrm{EF})% đồng quy.",
+        "question_images": [],
+        "solution": "%(\\mathrm{Do} \\mathrm{DK} \\| \\mathrm{EF})% mà %(\\mathrm{KR} \\perp \\mathrm{EF})% nên %(\\mathrm{DK} \\perp \\mathrm{KR})%<br>. Từ đó, ta có %(\\mathrm{DR})% là đường kính của (I).<br>Gọi %(\\mathrm{DR})% cắt %(\\mathrm{EF})% tai %(\\mathrm{X})%, qua %(\\mathrm{X})% vẽ đường thẳng song song với %(\\mathrm{BC})% cắt %(\\mathrm{AB}, \\mathrm{AC})% lần lượt tại %(\\mathrm{Y}, \\mathrm{Z})%.<br>Ta chứng minh %(\\mathrm{A}, \\mathrm{X}, \\mathrm{S})% thẳng hàng bằng cách chứng minh %(\\mathrm{X})% là trung điểm YZ.<br>Thật vậy, các tứ giác IXYF và IXEZ nội tiếp nên ta có<br>\\[\\angle \\mathrm{YIX}=\\angle \\mathrm{XFY}=\\angle \\mathrm{EFA}=\\angle \\mathrm{AEF}=\\angle \\mathrm{XIZ}\\]<br>Do đó, IX là phân giác của %(\\angle \\mathrm{YIZ})%<br>Mặt khác, IX là đường cao trong tam giác IYZ nên tam giác IYZ cân tại I.<br>Do đó %(\\mathrm{X})% là trung điểm %(\\mathrm{YZ})%. Suy ra %(\\mathrm{A}, \\mathrm{X}, \\mathrm{S})% thẳng hàng.",
+        "question_type": "essay"
+    }
+]

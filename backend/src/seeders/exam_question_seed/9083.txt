@@ -1,0 +1,127 @@
+[
+    {
+        "title": "1.1",
+        "group_content": "Cho biểu thức: %(A=\\left(\\frac{x+2}{x \\sqrt{x}-1}+\\frac{\\sqrt{x}}{x+\\sqrt{x}+1}+\\frac{1}{1-\\sqrt{x}}\\right): \\frac{\\sqrt{x}-1}{2})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Rút gọn biểu thức %(A)%.",
+        "question_images": [],
+        "solution": "Ta có: %(x \\geq 0, x \\neq 1)%. Khi đó:<br>\\[\\begin{array}{l}A=\\left(\\frac{x+2}{x \\sqrt{x}-1}+\\frac{\\sqrt{x}}{x+\\sqrt{x}+1}+\\frac{1}{1-\\sqrt{x}}\\right): \\frac{\\sqrt{x}-1}{2}=\\frac{x+2+x-\\sqrt{x}-x-\\sqrt{x}-1}{(\\sqrt{x}-1)(x+\\sqrt{x}+1)} \\cdot \\frac{2}{\\sqrt{x}-1} \\\\=\\frac{x-2 \\sqrt{x}+1}{(\\sqrt{x}-1)(x+\\sqrt{x}+1)} \\cdot \\frac{2}{\\sqrt{x}-1}=\\frac{2}{x+\\sqrt{x}+1}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Chứng minh rằng: %(0\\lt A \\leq 2)%.",
+        "question_images": [],
+        "solution": "Vì %(x \\geq 0, x \\neq 1)% ta luôn có %(A\\gt 0)%<br>Lại có: %(x+\\sqrt{x}+1 \\geq 1 \\Rightarrow \\frac{2}{x+\\sqrt{x}+1} \\leq 2)% hay %(A \\leq 2)%.<br>Vậy: %(0\\lt A \\leq 2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.2 ",
+        "point": 1.0,
+        "content": "Cho biểu thức: %(\\frac{\\sqrt{2+x}+\\sqrt{2-x}}{\\sqrt{2+x}-\\sqrt{2-x}}=\\sqrt{2})% với %(-2\\lt x\\lt 2)% và %(x \\neq 0)%. Tính giá trị của biểu thức: %(\\frac{x+2}{x-2})%.",
+        "question_images": [],
+        "solution": "Áp dụng tính chất: %(\\frac{a}{b}=\\frac{c}{d} \\Rightarrow \\frac{a-b}{a+b}=\\frac{c-d}{c+d})%. Ta có:<br>\\[\\frac{\\sqrt{2+x}+\\sqrt{2-x}}{\\sqrt{2+x}-\\sqrt{2-x}}=\\sqrt{2} \\Rightarrow \\frac{2 \\sqrt{2-x}}{2 \\sqrt{2+x}}=\\frac{\\sqrt{2}-1}{\\sqrt{2}+1}\\]<br>Từ giả thiết %(-2\\lt x\\lt 2)% suy ra:<br>\\[\\frac{2-x}{2+x}\\gt 0 \\Rightarrow \\frac{2-x}{2+x}=\\left(\\frac{\\sqrt{2}-1}{\\sqrt{2}+1}\\right)^{2} \\Rightarrow \\frac{2-x}{2+x}=(3+2 \\sqrt{2})^{2} \\Rightarrow \\frac{x+2}{x-2}=-17-12 \\sqrt{2}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.1 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(x^{2}-7 x=6 \\sqrt{x+5}-30)%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq-5)%. Khi đó ta có:<br>\\[\\begin{array}{l}x^{2}-7 x=6 \\sqrt{x+5}-30 \\Leftrightarrow\\left(x^{2}-8 x+16\\right)+(x+5-6 \\sqrt{x+5}+9)=0 \\\\Leftrightarrow(x-4)^{2}+(\\sqrt{x+5}-3)^{2}=0 \\Leftrightarrow\\left\\{\\begin{array}{l}x-4=0 \\\\sqrt{x+5}-3=0\\end{array} \\Leftrightarrow x=4\\right.\\end{array}\\]<br>Vậy %(x=4)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.2",
+        "group_content": "Cho hai đường thẳng %(\\left(d_{1}\\right): y=(m-1) x-m^{2}-2 m ;\\left(d_{2}\\right): y=(m-2) x-m^{2}-m+1)% cắt nhau tại %(G)%. (Với %(m)% là tham số)",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Xác định tọa độ điểm %(G)%.",
+        "question_images": [],
+        "solution": "Hoành độ điểm %(G)% là nghiệm của phương trình:<br>\\[(m-1) x-m^{2}-2 m=(m-2) x-m^{2}-m+1 \\Leftrightarrow x=m+1\\]<br>Tung độ điểm %(x=4)% là:<br>\\[y=(m-1) \\cdot(m+1)-m^{2}-2 m \\Leftrightarrow y=-2 m-1\\]<br>Suy ra %(G(m+1 ;-2 m-1))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Chứng tỏ rằng điểm %(G)% luôn thuộc một đường thẳng cố định khi %(m)% thay đổi.",
+        "question_images": [],
+        "solution": "Ta có %(y=-2 m-1=-2(m+1)+1)%.<br>Mà %(x=m+1)% nên %(y=-2 x+1)%.<br>Tọa độ điểm %(G)% thỏa mãn phương trình đường thẳng %(y=-2 x+1)% cố định.<br>Chứng tỏ %(G)% luôn thuộc đường thẳng %(y=-2 x+1)% cố định khi %(m)% thay đồi.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3a ",
+        "point": 0.75,
+        "content": "Cho %(p)% là số nguyên tố lớn hơn 3. Chứng minh rằng %(p^{2}-1 \\vdots 24)%",
+        "question_images": [],
+        "solution": "Ta có %(p^{2}-1=(p-1)(p+1))%.<br>Vì %(p)% là số nguyên tố lớn hơn 3 nên %(p)% lẻ. Do đó %(p-1)% và %(p+1)% là hai số chẵn liên tiếp. Từ đó suy ra %((p-1)(p+1) \\vdots 8)% (1).<br>Xét ba số tự nhiên liên tiếp %(p-1 ; p ; p+1)%. Ta có %((p-1) p(p+1) \\vdots 3)%.<br>Mà %(p)% là số nguyên tố lớn hơn 3 nên %(p)% không chia hết cho 3 . Mà 3 là số nguyên tố nên suy ra %((p-1)(p+1) \\vdots 3)% (2).<br>Từ (1) và (2) kết hợp với %((3 ; 8)=1)% và %(3.8=24)% ta suy ra %(p^{2}-1 \\vdots 24)% (đpcm).",
+        "question_type": "essay"
+    },
+    {
+        "title": "3b ",
+        "point": 0.75,
+        "content": "Tìm số tự nhiên %(n)% sao cho %(A=n^{2}+n+6)% là số chính phương.",
+        "question_images": [],
+        "solution": "Ta có %(A=n^{2}+n+6)% là số chính phương nên %(A)% có dạng:<br>\\[A=n^{2}+n+6=k^{2},\\left(k \\in \\mathbb{N}^{*}\\right)\\]<br>Ta có:<br>\\[\\begin{array}{l}n^{2}+n+6=k^{2} \\Leftrightarrow 4 n^{2}+4 n+24=4 k^{2} \\Leftrightarrow(2 k)^{2}-(2 n+1)^{2}=23 \\\\Leftrightarrow(2 k+2 n+1)(2 k-2 n-1)=23 \\Leftrightarrow\\left\\{\\begin{array}{l}2 k+2 n+1=23 \\\\2 k-2 n-1=1\\end{array}\\right.\\end{array}\\]<br>Vì 23 là số nguyên tố và %(2 k+2 n+1\\gt 2 k-2 n-1)%.<br>Ta có:<br>\\[\\left\\{\\begin{array} { l } { 2 k + 2 n + 1 = 2 3 } \\\\{ 2 k - 2 n - 1 = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}k=6 \\n=5\\end{array}\\right.\\right.\\]<br>Vậy với %(n=5)% thì %(A)% là số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3c ",
+        "point": 0.5,
+        "content": "Tìm các số nguyên %(x, y)% thỏa mãn: %(y^{2}+2 x y-3 x-2=0)%.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[y^{2}+2 x y-3 x-2=0 \\Leftrightarrow x^{2}+2 x y+y^{2}=x^{2}+3 x+2 \\Leftrightarrow(x+y)^{2}=(x+1)(x+2) \\quad(*) \\text {. }\\]<br>Vế trái của %(\\left(^{*}\\right))% là số chính phương; Vế phải của %(\\left(^{*}\\right))% là tích của 2 số nguyên liên tiếp nên phải có 1 số bằng 0.<br>Suy ra ta có: %(\\left[\\begin{array}{l}x+1=0 \\\\ x+2=0\\end{array} \\Rightarrow\\left[\\begin{array}{l}x=-1, y=1 \\\\ x=-2, y=2\\end{array}\\right.\\right.)%.<br>Vậy có 2 cặp số nguyên %((x ; y)=(-1 ; 1))% hoặc %((x ; y)=(-2 ; 2))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho đường tròn tâm %(O)%, đường thẳng %((\\mathrm{d}))% cố định nằm ngoài đường tròn. %(M)% di động trên đường thẳng %((d))%, kẻ 2 tiếp tuyến %(M A)% và %(M B)% với đường tròn %((O ; R), O M)% cắt %(A B)% tại %(I)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh tích %(O I . O M)% không đổi.",
+        "question_images": [],
+        "solution": "Vì %(M A, M B)% là hai tiếp tuyến của đường tròn %((O ; R))% nên %(O B \\perp M B ; O A \\perp M A)%.<br>Dễ dàng chứng minh %(\\triangle O A M=\\triangle O B M)% nên suy ra %(M A=M B)%.<br>Lại có %(O A=O B)% nên %(O M)% là đường trung trực của đoạn thẳng %(A B)%.<br>%(O M \\perp A B \\Rightarrow \\triangle O M B)% vuông tại %(B)% có %(B I)% là đường cao. Do đó:%(O B^{2}=O I . O M \\Rightarrow O I . O M=R^{2})% không đổi (đpcm).<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/48359d1840fb1e7bc277d805290ca077.png\" srcset=\"https://docdn.giainhanh.io/media/test/7e42d8d17ce049602aabc5fd420c1813.png 245w, https://docdn.giainhanh.io/media/test/ad60aa5515144e3b0bbba64b8129b7de.png 500w, https://docdn.giainhanh.io/media/test/3bfc1910090d8ad951227ac2ce8b9ac7.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) Tìm vị trí của %(M)% để %(\\triangle M A B)% đều.",
+        "question_images": [],
+        "solution": "%(\\triangle A M B)% cân tại %(M)% (theo chứng minh trên)<br>Để %(\\triangle A M B)% đều thì góc %(\\widehat{A M B}=60^{\\circ} \\Leftrightarrow)% góc %(\\widehat{B M O}=30^{\\circ})%.<br>%(\\Rightarrow \\triangle O B M)% vuông tại %(B)% có %(O B=0,5. O M)%.<br>\\[\\Rightarrow O M=2 O B=2 R \\text {. }\\]<br>Kết luận: Vậy %(M)% là điểm thuộc đường thẳng %((d))% sao cho %(O M=2 R)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.75,
+        "content": "c) Chứng minh rằng khi %(M)% di động trên %((d))% thì %(A B)% luôn đi qua một điểm cố định.",
+        "question_images": [],
+        "solution": "Kẻ %(O H \\perp d, H \\in d \\Rightarrow H)% cố định, %(O H)% cắt %(A B)% tại %(K)%.<br>Ta có %(\\triangle O I K \\sim \\triangle O H M)% (g-g) nên %(\\Rightarrow O H . O K=O I . O M=R^{2})% không đồi.<br>Mà %(O, H)% cố định nên %(O H)% không đổi %(\\Rightarrow O K)% không đổi %(K \\in O H)% cố định.<br>Vậy %(K)% cố định (đpcm).",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho các số thực dương %(x ; y ; z)% thỏa mãn %(x+y+z=1)%. Chứng minh rằng:<br>\\[\\frac{x}{x+y z}+\\frac{y}{y+z x}+\\frac{z}{z+x y} \\leq \\frac{9}{4}\\]",
+        "question_images": [],
+        "solution": "Ta có %(x+y z=x(x+y+z)+y z=(x+y)(z+x))%.<br>Tương tự ta có %(y+z x=(x+y)(y+z), z+x y=(y+z)(z+x))%.<br>Áp dụng BĐT Côsi cho hai số dương ta có:<br>\\[(x+y)(y+z)(z+x) \\geq 2 \\sqrt{x y} \\cdot 2 \\sqrt{y z} \\cdot 2 \\sqrt{z x}=8 x y z\\]<br>Suy ra:<br>\\[\\begin{array}{l}\\frac{x}{x+y z}+\\frac{y}{y+z x}+\\frac{z}{z+x y}=\\frac{x(y+z)+y(z+x)+z(x+y)}{(x+y)(y+z)(z+x)}=\\frac{2[(x+y)(y+z)(z+x)+x y z]}{(x+y)(y+z)(z+x)} \\\\=2+\\frac{2 x y z}{(x+y)(y+z)(z+x)} \\leq 2+\\frac{2 x y z}{8 x y z}=\\frac{9}{4} \\quad\\text{(đpcm)}\\end{array}\\]<br>Đẳng thức xảy ra %(\\Leftrightarrow x=y=z=\\frac{1}{3})%.",
+        "question_type": "essay"
+    }
+]

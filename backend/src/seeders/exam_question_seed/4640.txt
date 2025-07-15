@@ -1,0 +1,103 @@
+[
+    {
+        "title": "1",
+        "group_content": "Giải các phương trình sau:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(4 \\sin ^{2} x+4 \\sin x-3=0)%.",
+        "question_images": [],
+        "solution": "%(4 \\sin ^{2} x+4 \\sin x-3=0 \\Leftrightarrow\\left[\\begin{array}{l}\\sin x=\\frac{1}{2}(n) \\\\ \\sin x=\\frac{-3}{2}(l)\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{\\pi}{6}+k 2 \\pi \\\\ x=\\frac{5 \\pi}{6}+k 2 \\pi\\end{array} k \\in Z\\right.\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(2 \\sin ^{2} x+3 \\sin x \\cos x+3 \\cos ^{2} x=1)%.",
+        "question_images": [],
+        "solution": "\\[2 \\sin ^{2} x+3 \\sin x \\cos x+3 \\cos ^{2} x=1\\]<br>%(\\mathrm{TH} 1: \\cos x=0)%, ta có %(2=1(\\mathrm{vl}) \\Rightarrow x=\\frac{\\pi}{2}+k \\pi, k \\in Z)% ko là nghiệm pt<br>%(\\mathrm{TH} 2)% : %(\\cos x \\neq 0)%, chia 2 vế pt cho %(\\cos ^{2} x)% ta được<br>\\[\\begin{array}{l}2 \\tan ^{2} x+3 \\tan x+3=1+\\tan ^{2} x \\\\Leftrightarrow \\tan ^{2} x+3 \\tan x+2=0 \\Leftrightarrow\\left[\\begin{array} { l } { \\operatorname { t a n } x = - 1 } \\\\{ \\operatorname { t a n } x = - 2 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{c}x=\\frac{-\\pi}{4}+k \\pi \\x=\\arctan -2+k \\pi\\end{array} k \\in Z\\right.\\right.\\end{array}\\]<br>Vậy pt có 2 họ nghiệm %(x=\\frac{-\\pi}{4}+k \\pi, x=\\arctan -2+k \\pi(k \\in Z))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Có bao nhiêu số tự nhiên lẻ gồm 5 chữ số đôi một khác nhau?",
+        "question_images": [],
+        "solution": "Gọi %(\\overline{a b c d e})% là số tự nhiên cần tìm<br>- Chọn %(d)% có 5 cách<br>- Chọn a có 8 cách<br>- Chọn b,c,d có: %(A_{8}^{3})% cách<br>Vậy có: %(5.8 \\cdot A_{8}^{3}=13440)% số",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tìm số hạng chứa %(x^{4})% trong khai triển biểu thức %(\\left(\\frac{x^{2}}{2}-\\frac{2}{x}\\right)^{14})% với %(x \\neq 0)%.",
+        "question_images": [],
+        "solution": "SHTQ: %(T_{k+1}=C_{14}^{k} \\cdot\\left(\\frac{x^{2}}{2}\\right)^{14-k} \\cdot\\left(\\frac{-2}{x}\\right)^{k}=C_{14}^{k} \\cdot(-1)^{k} \\cdot(2)^{2 k-14} \\cdot x^{28-3 k})% với %(k \\leq 14, k \\in N)%<br>Vì SH chứa %(x^{4})% nên %(28-3 k=4 \\Leftrightarrow k=8(n))%<br>Vậy SH chứa %(x^{4})% là %(T_{9}=12012 \\cdot x^{4})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Một hộp đựng 22 viên bi khác nhau trong đó có 12 viên bi đỏ và 10 viên bi vàng. Chọn ngẫu nhiên từ hộp 7 viên bi và tính xác suất để",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) chọn được 7 viên bi cùng màu.",
+        "question_images": [],
+        "solution": "\\[n(\\Omega)=C_{22}^{7}\\]<br>Gọi A là biến cố có 7 bi cùng màu<br>%(\\mathrm{TH} 1)%: 7 bi màu đỏ: %(C_{12}^{7})% cách chọn<br>%(\\mathrm{TH} 2)% : 7 bi màu vàng %(C_{10}^{7})% cách chọn %(\\Rightarrow n(A)=C_{12}^{7}+C_{10}^{7})%<br>Vậy %(p(A)=\\frac{1}{187})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) chọn được 7 viên bi có đủ hai màu và thỏa mãn điều kiện số viên bi màu đỏ nhiều hơn số viên bi màu vàng.",
+        "question_images": [],
+        "solution": "Gọi B là biến cố có đủ 2 màu và số bi đỏ nhiều hơn bi vàng<br>TH1: 4 đỏ, 3 vàng: %(C_{12}^{4} \\cdot C_{10}^{3})% cách chọn<br>TH2: 5 đỏ, 2 vàng: %(C_{12}^{5} \\cdot C_{10}^{2})% cách chọn<br>TH3: 6 đỏ, 1 vàng: %(C_{12}^{6} \\cdot C_{10}^{1})% cách chọn %(\\Rightarrow n(B)=C_{12}^{4} \\cdot C_{10}^{3}+C_{12}^{5} \\cdot C_{10}^{2}+C_{12}^{6} \\cdot C_{10}^{1})%<br>Vậy %(p(B)=\\frac{395}{646})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Xếp 12 quyển sách gồm 1 quyển sách Hóa, 3 quyển sách Lý và 8 quyển sách Toán (trong đó có 3 quyển Toán %(T_{1})%, Toán %(T_{2})% và %(T o a ́ n ~ T_{3})% ) thành một hàng trên giá sách. Tính xác suất để mỗi quyển sách Lý phải nằm giữa hai quyển sách Toán và đồng thời ba quyển sách Toán %(T_{1})%, Toán %(T_{2})%, Toán %(T_{3})% luôn xếp cạnh nhau.",
+        "question_images": [],
+        "solution": "\\[n(\\Omega)=12!\\]<br>Gọi A là biến cố thỏa yêu cầu bài toán.<br>- Coi 3 cuốn %(T_{1}, T_{2}, T_{3})% là một \"quyển\" sách. Đổi chỗ 3 quyển toán trên có 3 ! cách. Xếp 6 \"quyển\" Toán có 6 ! cách.<br>- Giữa 6 \"quyển\" Toán có 5 \"khoảng trống\", chọn 3 \"khoảng trống\" để xếp vào 3 quyển Lý có %(A_{5}^{3})% cách<br>- Xếp 1 quyển Hóa có 4 cách. (vào 1 trong 2 \"khoảng trống\" còn lại và 2 vị trí ở 2 đầu)<br>Ta có: %(n(A)=3!.6!\\cdot A_{5}^{3} \\cdot 4)%<br>\\[p(A)=\\frac{1}{462}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình chóp %(\\mathrm{S} . \\mathrm{ABCD})% có đáy %(\\mathrm{ABCD})% hình bình hành tâm %(\\mathrm{O})%. Gọi %(\\mathrm{M}, \\mathrm{N})% lần lượt là trung điểm của %(\\mathrm{SD})% và %(\\mathrm{AB})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tìm giao tuyến của hai mặt phẳng %((\\mathrm{SAD}))% và %((\\mathrm{SBC}))%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/8140c157d969ffa0ebc356fba694ac4e.png\" srcset=\"https://docdn.giainhanh.io/media/test/5a400183581fa4fc3f62b500ad29dcce.png 168w\" width=\"168\"/><br>Ta có %(\\left\\{\\begin{array}{c}S \\in(S A D) \\cap(S B C) \\\\ A D / / B C \\\\ A D \\subset(S A D), B C \\subset(S B C)\\end{array} \\Rightarrow(S A D) \\cap(S B C)=S_{x} / / A D / / B C\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh hai mặt phẳng %((\\mathrm{OMN}))% và %((\\mathrm{SBC}))% song song với nhau.",
+        "question_images": [],
+        "solution": "Ta có: %(O N / / B C)% (vì %(O N)% là đường trung bình tam giác %(A B D)% ) %(O M / / S B)% (vì %(O M)% là đường trung bình tam giác %(S B D)% )<br>Trong %((O M N), O M \\cap O N=O)%<br>Trong %((S B C), S B \\cap B C=B)%<br>Vậy %((O M N) / /(S B C))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Trên cạnh %(\\mathrm{SA})% lấy điểm %(\\mathrm{H})% sao cho %(\\mathrm{HS}=2 \\mathrm{HA})%. Gọi G là trọng tâm tam giác %(\\mathrm{SCD})%, chứng minh %(\\mathrm{HG})% song song với mặt phẳng %((\\mathrm{SCN}))%.",
+        "question_images": [],
+        "solution": "Gọi %(I)% là trung điểm %(C D)%<br>Trong %(\\triangle S A I)% có %(\\frac{S H}{S A}=\\frac{S G}{S I})% nên %(H G / / A I)%<br>Mà %(A I C N)% là hình bình hành nên %(A I / / C N)% do đó %(H G / / C N)%<br>Mặt khác ta có %(H G \\not \\subset(S C N), C N \\subset(S C N))%<br>Vậy %(H G / /(S C N))%",
+        "question_type": "essay"
+    }
+]

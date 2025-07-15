@@ -1,0 +1,210 @@
+[
+    {
+        "title": "Câu 1 ",
+        "point": 0.25,
+        "content": "Gieo một đồng tiền cân đối và đồng chất bốn lần. Xác suất để cả bốn lần xuất hiện mặt sấp là?",
+        "question_images": [],
+        "labelA": "%(\\frac{4}{16})%",
+        "labelB": "%(\\frac{2}{16})%",
+        "labelC": "%(\\cdot \\frac{1}{16})%",
+        "labelD": "%(\\frac{6}{16})%",
+        "correct_label": "labelC",
+        "solution": "Số phần tử của không gian mẫu là %(|\\Omega|=2 \\cdot 2 \\cdot 2 \\cdot 2=16)%.<br>Gọi %(A)% là biến cố \"Cả bốn lần gieo xuất hiện mặt sấp \" %(\\Rightarrow\\left|\\Omega_{A}\\right|=1)%.<br>Vậy xác suất cần tính %(P(A)=\\frac{1}{16})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 0.25,
+        "content": "Gieo một con súc sắc cân đối đồng chất 2 lần. Tính xác suất để biến cố có tổng hai mặt bằng 8 ?",
+        "question_images": [],
+        "labelA": "%(\\frac{1}{6})%",
+        "labelB": "%(\\frac{5}{16})%",
+        "labelC": "%(\\frac{1}{9})%",
+        "labelD": "%(\\frac{1}{2})%",
+        "correct_label": "labelA",
+        "solution": "Số phần tử của không gian mẫu là %(|\\Omega|=6.6=36)%.<br>Gọi %(A)% là biến cố \"Số chấm trên mặt hai lần gieo có tổng bằng 8 \".<br>Gọi số chấm trên mặt khi gieo lần một là %(x)%, số chấm trên mặt khi gieo lần hai là %(y)%.<br>Theo bài ra, ta có %(\\left\\{\\begin{array}{l}1 \\leq x \\leq 6 \\\\ 1 \\leq y \\leq 6 \\\\ x+y=8\\end{array} \\Rightarrow(x ; y)=\\{(2 ; 6),(3 ; 5),(4 ; 4),(6 ; 2),(5 ; 3),(4 ; 4)\\}\\right.)%.<br>Khi đó số kết quả thuận lợi của biến cố là %(\\left|\\Omega_{A}\\right|=6)%.<br>Vậy xác suất cần tính %(P(A)=\\frac{6}{36}=\\frac{1}{6})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 0.25,
+        "content": "Cho hình lập phương %(A B C D \\cdot A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime})%. Đường thẳng nào sau đây vuông góc với đường thẳng %(B C^{\\prime})% ?",
+        "question_images": [],
+        "labelA": "%(A^{\\prime} D)%.",
+        "labelB": "%(A C)%.",
+        "labelC": "%(B B^{\\prime})%",
+        "labelD": "%(A D^{\\prime})%.",
+        "correct_label": "labelA",
+        "solution": "Ta có: %(A^{\\prime} D / / B^{\\prime} C, B^{\\prime} C \\perp B C^{\\prime} \\Rightarrow A^{\\prime} D \\perp B C^{\\prime})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d6563d36259d901120758acb2af44fcd.png\" srcset=\"https://docdn.giainhanh.io/media/test/d6563d36259d901120758acb2af44fcd.png 193w\" width=\"193\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 0.25,
+        "content": "Qua điểm %(O)% cho trước, có bao nhiêu mặt phẳng vuông góc với đường thẳng %(\\Delta)% cho trước?",
+        "question_images": [],
+        "labelA": "1",
+        "labelB": "Vô số.",
+        "labelC": "3 .",
+        "labelD": "2",
+        "correct_label": "labelA",
+        "solution": "Theo tính chất 1 : Có duy nhất một mặt phẳng đi qua một điểm cho trước và vuông góc với một đường thẳng cho trước.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 0.25,
+        "content": "Trong các mệnh đề sau đây, mệnh đề nào là đúng?",
+        "question_images": [],
+        "labelA": "Nếu hai mặt phẳng vuông góc với nhau thì mọi đường thẳng thuộc mặt phẳng này sẽ vuông góc với mặt phẳng kia.",
+        "labelB": "Hai mặt phẳng phân biệt cùng vuông góc với một mặt phẳng thứ ba thì song song với nhau.",
+        "labelC": "Với mỗi điểm %(A \\in(\\alpha))% và mỗi điểm %(B \\in(\\beta))% thì ta có đường thẳng %(A B)% vuông góc với giao tuyến %(d)% của %((\\alpha))% và %((\\beta))%",
+        "labelD": "Nếu hai mặt phẳng %((\\alpha))% và %((\\beta))% đều vuông góc với mặt phẳng %((\\gamma))% thì giao tuyến %(d)% của %((\\alpha))% và %((\\beta))% nếu có sẽ vuông góc với %((\\gamma))%",
+        "correct_label": "labelD",
+        "solution": "Mệnh đề A sai vì nếu hai mặt phẳng vuông góc với nhau thì mọi đường thẳng thuộc mặt phẳng này vuông góc với giao tuyến sẽ vuông góc với mặt phẳng kia.<br>Mệnh đề B sai vì còn trường hợp hai mặt phẳng cắt nhau.<br>Mệnh đề C sai vì đường thẳng %(AB)% có thể không vuông góc với giao tuyến.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/df307ff0b8d90ff402b3b7d5ee3585a9.png\" srcset=\"https://docdn.giainhanh.io/media/test/df307ff0b8d90ff402b3b7d5ee3585a9.png 245w\" width=\"245\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a5430be599507a4d61bb59bb7b957390.png\" srcset=\"https://docdn.giainhanh.io/media/test/a5430be599507a4d61bb59bb7b957390.png 245w\" width=\"245\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 6 ",
+        "point": 0.25,
+        "content": "Cho %(a, b\\gt 0 ; \\alpha, \\beta \\in \\mathbb{R})%. Mệnh đề nào sau đây sai?",
+        "question_images": [],
+        "labelA": "%((a \\cdot b)^{\\alpha}=a^{\\alpha} \\cdot b^{\\alpha})%.",
+        "labelB": "%(\\frac{a^{\\alpha}}{a^{\\beta}}=a^{\\alpha-\\beta})%.",
+        "labelC": "%(\\left(a^{\\alpha}\\right)^{\\frac{1}{\\beta}}=a^{\\frac{\\alpha}{\\beta}}, \\beta \\neq 0)%.",
+        "labelD": "%(a^{\\alpha} \\cdot b^{\\beta}=(a b)^{\\alpha+\\beta})%.",
+        "correct_label": "labelD",
+        "solution": "Với %(a, b>0)% và %(\\alpha, \\beta \\in \\mathbb{R})% ta có khẳng định %(a^{\\alpha} \\cdot b^{\\beta}=(a b)^{\\alpha+\\beta})% sai, các khẳng định còn lại đúng.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 7 ",
+        "point": 0.25,
+        "content": "Nếu %(m)% là số nguyên dương, biểu thức không bằng với %(\\left(2^{4}\\right)^{m})% là:",
+        "question_images": [],
+        "labelA": "%(4^{2 m})%.",
+        "labelB": "%(2^{m} .2^{3 m})%.",
+        "labelC": "%(4^{m} \\cdot 2^{m})%.",
+        "labelD": "%(2^{4 m})%.",
+        "correct_label": "labelC",
+        "solution": "Ta có: %(\\left(2^{4}\\right)^{m}=\\left(4^{2}\\right)^{m}=2^{4 m})%.<br>Ta có: %(4^{m} \\cdot 2^{m}=2^{2 m} \\cdot 2^{m}=2^{3 m} \\Rightarrow 4^{m} \\cdot 2^{m} \\neq\\left(2^{4}\\right)^{m})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 8  ",
+        "point": 0.25,
+        "content": "Rút gọn biểu thức %(P=x^{\\frac{1}{3}} \\cdot \\sqrt[6]{x})% với %(x>0)%.",
+        "question_images": [],
+        "labelA": "%(P=\\sqrt{x})%.",
+        "labelB": "%(P=x^{\\frac{1}{8}})%.",
+        "labelC": "%(P=x^{\\frac{2}{9}})%.",
+        "labelD": "%(P=x^{2})%.",
+        "correct_label": "labelA",
+        "solution": "Với %(x\\gt 0)%, ta có %(P=x^{\\frac{1}{3}} \\cdot x^{\\frac{1}{6}}=x^{\\frac{1}{3}+\\frac{1}{6}}=x^{\\frac{1}{2}}=\\sqrt{x})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 9 ",
+        "point": 0.25,
+        "content": "Nếu %(\\log 4=a)% thì %(\\log 4000)% bằng",
+        "question_images": [],
+        "labelA": "%(3+a)%.",
+        "labelB": "%(4+a)%.",
+        "labelC": "%(3+2 a)%.",
+        "labelD": "%(4+2 a)%.",
+        "correct_label": "labelA",
+        "solution": "Ta có %(\\log 4000=\\log \\left(4 \\cdot 10^{3}\\right)=\\log 4+\\log 10^{3}=\\log 4+3=a+3)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 10 ",
+        "point": 0.25,
+        "content": "Tập xác định của %(y=\\ln \\left(-x^{2}+5 x-6\\right))% là",
+        "question_images": [],
+        "labelA": "%([2 ; 3])%‥",
+        "labelB": "%((2 ; 3))%",
+        "labelC": "%((-\\infty ; 2] \\cup[3 ;+\\infty))%",
+        "labelD": "%((-\\infty ; 2) \\cup(3 ;+\\infty))%",
+        "correct_label": "labelB",
+        "solution": "Hàm số xác định khi và chỉ khi %(-x^{2}+5 x-6\\gt 0 \\Leftrightarrow 2\\lt x\\lt 3)%.<br>Vậy tập xác định của hàm số là %(D=(2 ; 3))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 11 ",
+        "point": 0.25,
+        "content": "Cho %(a, b, c)% là các số thực dương khác 1 . Hình vẽ sau là đồ thị của các hàm số %(y=\\log _{a} x ; y=\\log _{b} x ; y=\\log _{c} x)%.<br>Khẳng định nào dưới đây đúng?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/a0a3ea72dded37b8101282290bbd8bc0.PNG"
+        ],
+        "labelA": "%(a\\lt b\\lt c)%.",
+        "labelB": "%(c\\lt a\\lt b)%.",
+        "labelC": "%(b\\lt c\\lt a)%.",
+        "labelD": "%(b\\lt a\\lt c)%.",
+        "correct_label": "labelC",
+        "solution": "Đồ thị của các hàm số %(y=\\log _{a} x ; y=\\log _{b} x ; y=\\log _{c} x)% theo thứ tự lần lượt đi qua các điểm<br>\\[A(a ; 1), B(b ; 1), C(c ; 1)\\]<br>Quan sát đồ thì, từ đó suy ra %(b\\lt c\\lt a)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ac374e4e3c755d2f039c1f310ddea627.png\" srcset=\"https://docdn.giainhanh.io/media/test/ac374e4e3c755d2f039c1f310ddea627.png 195w\" width=\"195\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 12 ",
+        "point": 0.25,
+        "content": "Cho %(a)% và %(b)% là hai số thực dương thỏa mãn %(3 \\log _{2} a+2 \\log _{2} b=8)%. Khẳng định nào dưới đây đúng?",
+        "question_images": [],
+        "labelA": "%(a^{3}+b^{2}=64)%.",
+        "labelB": "%(a^{3} b^{2}=256)%.",
+        "labelC": "%(a^{3}+b^{2}=256)%.",
+        "labelD": "%(a^{3} b^{2}=64)%.",
+        "correct_label": "labelB",
+        "solution": "Ta có: %(3 \\log _{2} a+2 \\log _{2} b=\\log _{2} a^{3}+\\log _{2} b^{2}=\\log _{2}\\left(a^{3} b^{2}\\right)=8 \\Rightarrow a^{3} b^{2}=2^{8}=256)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 17 ",
+        "point": 0.5,
+        "content": "Doanh thu bán hàng trong 20 ngày được lựa chọn ngẫu nhiên của một của hàng được ghi lại ở bảng sau (đơn vị: triệu đồng):<br>Xác định tứ phân vị thứ ba của mẫu số liệu trên? (kết quả làm tròn đến chữ số hàng phần nghìn)",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/e3a49b310d979b2e9a8355c24166fa9e.PNG"
+        ],
+        "solution": "Do %(9\\lt \\frac{3 n}{4}=15\\lt 16)% nên tứ phân vị thứ ba của mẫu số liệu thuộc nhóm %([9 ; 11))%<br>Khi đó %(n=20 ; l=2 ; n_{3}=7 ; c f_{3}=9)%.<br>\\[Q_{3}=9+\\frac{\\frac{3.20}{4}-9}{7}(11-9) \\approx 10,71\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 18 ",
+        "point": 0.5,
+        "content": "Có 9 chiếc thẻ được đánh số từ 1 đến 9 , người ta rút ngẫu nhiên hai thẻ khác nhau. Tính xác suất để rút được hai thẻ mà tích hai số được đánh trên thẻ là số chẵn ( kết quả làm tròn đến 3 chữ số thập phân).",
+        "question_images": [],
+        "solution": "Cách 1: Rút ra hai thẻ tùy ý từ 9 thẻ nên có %(n(\\Omega)=C_{9}^{2}=36)%.<br>Gọi %(A)% là biến cố: \"rút được hai thẻ mà tích hai số được đánh trên thẻ là số chẵn\"<br>Suy ra %(n(A)=C_{9}^{2}-C_{5}^{2}=26)%.<br>Xác suất của %(A)% là %(P(A)=\\frac{26}{36}=\\frac{13}{18})%.<br>Cách 2. Rút ra hai thẻ tùy ý từ 9 thẻ nên có %(n(\\Omega)=C_{9}^{2}=36)%.<br>Gọi %(A)% là biến cố: \"rút được hai thẻ mà tích hai số được đánh trên thẻ là số chẵn\"<br>TH1: 1 thẻ đánh số lẻ, 1 thẻ đánh số chẵn có %(C_{4}^{1} \\cdot C_{5}^{1}=20)%.<br>TH2: 2 thẻ đánh số chẵn có %(C_{4}^{2}=6)%.<br>Suy ra %(n(A)=26)%.<br>Xác suất của %(A)% là %(P(A)=\\frac{26}{36}=\\frac{13}{18}=0,722)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 19 ",
+        "point": 0.5,
+        "content": "Ông Ba gửi vào ngân hàng 50 triệu đồng theo hình thức lãi kép. Lãi suất ngân hàng không đổi là %(6 \\%)% trên một năm. Sau 5 năm ông Ba tiếp tục gửi thêm 50 triệu đồng nữa. Hỏi sau 10 năm kể từ lần gửi đầu tiên ông Ba đến rút toàn bộ tiền gốc và tiền lãi được là bao nhiêu triệu đồng (kết quả làm tròn đến hàng phần chục)?",
+        "question_images": [],
+        "solution": "Số tiền ông Ba nhận được sau 5 năm đầu là:<br>\\[50(1+6 \\%)^{5} \\approx 66,911 \\text { (triệu đồng). }\\]<br>Số tiền ông Ba nhận được sau 10 năm là:<br>\\[(66,911+50)(1+6 \\%)^{5} \\approx 156,5 \\text { (triệu đồng). }\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 20 ",
+        "point": 0.5,
+        "content": "Một hộp có 6 quả cầu xanh, 4 quả cầu đỏ. Lấy ngẫu nhiên 4 quả cầu từ hộp đó. Xác suất để lấy được 4 quả cầu có đủ cả hai màu bằng bao nhiêu (kết quả làm tròn đến chữ số thập phân thứ ba)?",
+        "question_images": [],
+        "solution": "Số phần tử của không gian mẫu: %(n(\\Omega)=C_{10}^{4}=210)%.<br>Gọi biến cố %(A)% : \"quả lấy ra có đủ hai màu\".<br>Suy ra biến cố %(\\bar{A})% : \" 4 quả lấy ra chỉ có một màu\".<br>TH1: Lấy ra từ hộp 4 quả cầu xanh, có %(C_{6}^{4}=15)% cách.<br>TH2: Lấy ra từ hộp 4 quả cầu đỏ, có %(C_{4}^{4}=1)% cách.<br>Suy ra: %(n(\\bar{A})=15+1=16)%.<br>Xác suất để được 4 quả có đủ hai màu là:<br>\\[P(A)=1-P(\\bar{A})=1-\\frac{n(\\bar{A})}{n(\\Omega)}=1-\\frac{16}{210}=\\frac{97}{105} \\approx 0,924 .\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 21 ",
+        "point": 0.5,
+        "content": "Một người thả một lá bèo vào một chậu nước. Sau 12 giờ, bèo sinh sôi phủ kín mặt nước trong chậu. Biết rằng sau mỗi giờ lượng bèo tăng gấp 10 lần lượng bèo trước đó và tốc độ tăng không đổi. Hỏi sau mấy giờ thì bèo phủ kín %(\\frac{1}{5})% mặt nước trong chậu (kết quả làm tròn đến một chữ số phần thập phân)?",
+        "question_images": [],
+        "solution": "Gọi %(S)% là diện tích lá bèo thả ban đầu.<br>Vì sau mỗi giờ, lượng bèo tăng gấp 10 lần lượng bèo trước đó nên sau 12 giờ, tổng diện tích các lá bèo trong chậu là %(10^{12} S)%.<br>Theo đề bài: Sau 12 giờ, bèo phủ kín mặt nước trong chậu nên diện tích mặt nước trong chậu là %(10^{12} S)%.<br>Giả sử sau %(x)% giờ thì bèo phủ kín %(\\frac{1}{5})% mặt nước trong chậu.<br>Sau %(x)% giờ, tổng diện tích các lá bèo trong chậu là %(10^{x} . S)%.<br>Theo bài ra ta có: %(10^{x} S=\\frac{1}{5} \\cdot 10^{12} S \\Leftrightarrow 10^{12-x}=5 \\Leftrightarrow 12-x=\\log 5 \\Leftrightarrow x=12-\\log 5 \\simeq 11,3)%.<br>Vậy sau 11,3 giờ thì bèo phủ kín %(\\frac{1}{5})% mặt nước trong chậu.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 22 ",
+        "point": 0.5,
+        "content": "Cho hình chóp %(S . A B C D)% có đáy %(A B C D)% là hình thoi tâm %(I)%, cạnh hình thoi có độ dài bằng %(a)%, góc %(B A D=60^{\\circ})% và %(S A=S B=S D=\\frac{a \\sqrt{3}}{2})%. Gọi %(\\alpha)% là góc giữa đường thẳng %(S D)% và mặt phẳng %(S B C)%. Hỏi giá trị %(\\sin \\alpha)% bằng bao nhiêu (kết quả làm tròn đến hai chữ số phần thập phân)?",
+        "question_images": [],
+        "solution": "Theo giả thiết, %(\\triangle A B D)% là tam giác đều %(\\left(A B=A D=a ; \\widehat {B A D}=60^{\\circ}\\right))%.<br>Gọi %(H)% là tâm đường tròn ngoại tiếp tam giác %(A B D)%.<br>Do %(S A=S B=S D)% nên %(S H \\perp A B D)% hay %(S H \\perp A B C D)%.<br>Trong mp %(\\triangle S B H)% từ %(H)% kẻ %(H K \\perp S B)% tại %(K)%.<br>Xét %(\\triangle S B H)% vuông tại %(H, H K \\perp S B: \\frac{1}{H K^{2}}=\\frac{1}{H B^{2}}+\\frac{1}{H S^{2}} \\Rightarrow H K=\\frac{a \\sqrt{15}}{9})%(Ta tính được %(B H=\\frac{a \\sqrt{3}}{3} ; S H=\\frac{a \\sqrt{15}}{6})% ).<br>Ta có %(\\widehat {C B D}=60^{\\circ} ; \\widehat {H B D}=30^{\\circ} \\Rightarrow \\widehat {C B H}=90^{\\circ} \\Rightarrow C B \\perp B H)%;<br>mà %(B C \\perp S H)%<br>%(\\Rightarrow B C \\perp(S B H) \\Rightarrow B C \\perp H K)%; mà %(H K \\perp(S B C))%.<br>Từ %(A)% kẻ %(A M \\perp(S B C))%, mà %(\\frac{A C}{H C}=\\frac{3}{2})% nên %(A M=\\frac{a \\sqrt{15}}{6})%.<br>Gọi %(O)% là hình chiếu của %(D)% trên %(\\mathrm{mp}(S B C))%; mà %(A D / /(S B C))% nên %(D O=\\frac{a \\sqrt{15}}{6})%.<br>Khi đó: %(\\alpha=S D, S O=D S O)%.<br>Xét %(\\triangle S D O)% vuông tại %(O)% có: %(\\sin \\alpha=\\frac{D O}{S D}=\\frac{\\frac{a \\sqrt{15}}{6}}{\\frac{a \\sqrt{3}}{2}}=\\frac{\\sqrt{5}}{3} \\simeq 0,75)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/686b67a2195d9bea3b1ec3f1b489d583.png\" srcset=\"https://docdn.giainhanh.io/media/test/686b67a2195d9bea3b1ec3f1b489d583.png 226w\" width=\"226\"/>",
+        "question_type": "essay"
+    }
+]

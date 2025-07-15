@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(A=\\frac{2 x-9}{x^{2}-5 x+6}-\\frac{x+3}{x-2}-\\frac{2 x+1}{3-x}(x \\neq 2, x \\neq 3))%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "a) Rút gọn biểu thức %(A)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { } A=\\frac{2 x-9}{x^{2}-5 x+6}-\\frac{x+3}{x-2}-\\frac{2 x+1}{3-x}(x \\neq 2, x \\neq 3) \\\\ =\\frac{2 x-9}{(x-2)(x-3)}-\\frac{(x+3)(x-3)}{(x-2)(x-3)}+\\frac{(2 x+1)(x-2)}{(x-2)(x-3)} \\\\ =\\frac{2 x-9-x^{2}+9+2 x^{2}-3 x-2}{(x-2)(x-3)} \\\\ =\\frac{x^{2}-x-2}{(x-2)(x-3)}=\\frac{(x-2)(x+1)}{(x-2)(x-3)}=\\frac{x+1}{x-3} .\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "b) Tìm %(x \\in Z)% để %(A)% có giá trị nguyên.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Với } x \\in \\mathbb{Z} \\text { để } A \\in \\mathbb{Z} \\text { thì } \\frac{x+1}{x-3} \\in \\mathbb{Z} \\\\Leftrightarrow(x+1):(x-3) \\Leftrightarrow(x-3+4) \\vdots(x-3) \\Leftrightarrow 4:(x-3) \\\\Rightarrow(x-3) \\in U(4)=\\{1 ;-1 ; 2 ;-2 ; 4 ;-4\\} \\\\Rightarrow x \\in\\{4 ; 2 ; 5 ; 1 ; 7 ;-1\\} .\\end{array}\\]<br>Kết hợp với điều kiện ta có: %(x \\in\\{4 ; 5 ; 1 ; 7 ;-1\\})%.<br>Vậy %(x \\in\\{4 ; 5 ; 1 ; 7 ;-1\\})% thì %(A \\in \\mathbb{Z})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "c) Tìm x để %(A\\lt \\frac{1}{2})%.",
+        "question_images": [],
+        "solution": "Đề %(A\\lt \\frac{1}{2})% thì %(\\frac{x+1}{x-3}\\lt \\frac{1}{2})%<br>\\[\\Leftrightarrow \\frac{x+1}{x-3}-\\frac{1}{2}\\lt 0 \\Leftrightarrow \\frac{2 x+2-x+3}{2(x-3)}\\lt 0 \\Leftrightarrow \\frac{x+5}{2(x-3)}\\lt 0 \\text {. }\\]<br>Vì %(x-3\\lt x+5)% nên để %(\\frac{x+5}{2(x-3)}\\lt 0)% thì %(\\left\\{\\begin{array}{l}x+5\\gt 0 \\\\ x-3\\lt 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x>-5 \\\\ x\\lt 3\\end{array} \\Leftrightarrow-5\\lt x\\lt 3\\right.\\right.)%<br>Vậy %(\\left\\{\\begin{array}{l}-5\\lt x\\lt 3 \\\\ x \\neq 2\\end{array}\\right.)% thì %(A\\lt \\frac{1}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Giải phương trình %(\\frac{x}{x^{2}-x-2}-\\frac{3 x}{x^{2}-5 x-2}-2=0)%.",
+        "question_images": [],
+        "solution": "Đkxd: %(\\left\\{\\begin{array}{l}x^{2}-x-2 \\neq 0 \\\\ x^{2}-5 x-2 \\neq 0\\end{array}\\right.)%<br>Ta có %(x=0)% không là nhiệm của phương trình.<br>Do đó %(x \\neq 0)%.<br>Chia cả tử và mẫu cho %(x)% ta được: %(\\frac{1}{x-1-\\frac{2}{x}}-\\frac{3}{x-5-\\frac{2}{x}}=2(1))%.<br>Đặt %(x-1-\\frac{2}{x}=t(t \\neq 0))%.<br>Khi đó (1) trở thành %(\\frac{1}{t}-\\frac{3}{t-4}=2 \\Rightarrow t-4-3 t=2 t^{2}-8 t)%<br>\\[\\begin{array}{l}\\Leftrightarrow 2 t^{2}-6 t+4=0 \\Leftrightarrow 2(t-1)(t-2)=0 \\\\Leftrightarrow\\left[\\begin{array} { l } { t = 1 } \\\\{ t = 2 }\\end{array} \\Rightarrow \\left[\\begin{array}{l}x-1-\\frac{1}{x}=1 \\x-1-\\frac{1}{x}=2\\end{array}\\right.\\right.\\end{array}\\]<br>Với %(x-1-\\frac{2}{x}=1 \\Rightarrow x^{2}-2 x-2=0 \\Leftrightarrow x^{2}-2 x+1-3=0)%<br>\\[\\begin{array}{c}\\Leftrightarrow(x-1)^{2}=3 \\Leftrightarrow x-1= \\pm \\sqrt{3} \\Leftrightarrow x=1 \\pm \\sqrt{3}(T M) . \\\\text { Với } x-1-\\frac{2}{x}=2 \\Rightarrow x^{2}-3 x-2=0 \\Leftrightarrow x^{2}-3 x+\\frac{9}{4}-\\frac{17}{4}=0 \\\\Leftrightarrow\\left(x-\\frac{3}{2}\\right)^{2}=\\frac{17}{4} \\Leftrightarrow x-\\frac{3}{2}= \\pm \\frac{\\sqrt{17}}{2} \\Leftrightarrow x=\\frac{3 \\pm \\sqrt{17}}{2}(T M) .\\end{array}\\]<br>Vậy tập nghiệm của phương trình là %(S=\\left\\{1+\\sqrt{3} ; 1-\\sqrt{3} ; \\frac{3+\\sqrt{17}}{2} ; \\frac{3-\\sqrt{17}}{2}\\right\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Cho ba số %(x, y, z)% khác 0 và thoà mãn: %(\\left\\{\\begin{array}{l}x+y+z=\\frac{1}{2} \\\\ \\frac{1}{x^{2}}+\\frac{1}{y^{2}}+\\frac{1}{z^{2}}+\\frac{1}{x y z}=4 \\text {. } \\\\ \\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\gt 0\\end{array}\\right.)%<br>Tính giá trị biểu thức %(P=\\left(x^{2019}+y^{2019}\\right)\\left(y^{2019}+z^{2019}\\right)\\left(z^{2019}+x^{2019}\\right))%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}4=\\frac{1}{x^{2}}+\\frac{1}{y^{2}}+\\frac{1}{z^{2}}+\\frac{1}{x y z}=\\frac{1}{x^{2}}+\\frac{1}{y^{2}}+\\frac{1}{z^{2}}+\\frac{2(x+y+z)}{x y z} \\\\=\\frac{1}{x^{2}}+\\frac{1}{y^{2}}+\\frac{1}{z^{2}}+\\frac{2}{x y}+\\frac{2}{y z}+\\frac{2}{x z}=\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)^{2}\\end{array}\\]<br>Mà %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\gt 0)% nên %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=2)%.<br>Suy ra %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=\\frac{1}{x+y+z} \\Leftrightarrow(y z+x z+x y)(x+y+z)=x y z)%<br>\\[\\begin{array}{l}\\Leftrightarrow x y z+x^{2} z+x^{2} y+y^{2} z+x y z+y^{2} x+z^{2} y+z^{2} x+x y z=x y z \\\\Leftrightarrow x^{2} y+x^{2} z+y^{2} x+y^{2} z+z^{2} y+z^{2} x+2 x y z=0 \\\\Leftrightarrow(x+y)(x+z)(y+z)=0 \\\\Leftrightarrow\\left[\\begin{array} { l } { x = - y } \\\\{ y = - z } \\\\{ z = - x }\\end{array} \\Leftrightarrow \\left[\\begin{array} { l } { x ^ { 2 0 1 9 } = - y ^ { 2 0 1 9 } } \\\\{ y ^ { 2 0 1 9 } = - z ^ { 2 0 1 9 } } \\\\{ z ^ { 2 0 1 9 } = - x ^ { 2 0 1 9 } }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x^{2019}+y^{2019}=0 \\y^{2019}+z^{2019}=0 \\z^{2019}+x^{2019}=0\\end{array}\\right.\\right.\\right. \\\\Rightarrow P=\\left(x^{2019}+y^{2019}\\right)\\left(y^{2019}+z^{2019}\\right)\\left(z^{2019}+x^{2019}\\right)=0 .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Tìm nghiệm nguyên của phương trình: %(x^{2}-2 x y+3 y-5 x+7=0)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}x^{2}-2 x y+3 y-5 x+7=0 \\\\Leftrightarrow 4 x^{2}-8 x y+12 y-20 x+28=0 \\\\Leftrightarrow\\left(4 x^{2}-6 x\\right)-(8 x y-12 y)-(14 x-21)+7=0 \\\\Leftrightarrow 2 x(2 x-3)-4 y(2 x-3)-7(2 x-3)+7=0 \\\\Leftrightarrow(2 x-3)(2 x-4 y-7)=-7\\end{array}\\]<br>Vì %(x ; y \\in \\mathbb{Z})% và 7 là số nguyên tố nên ta có 4 trường hợp:<br>TH1: %(\\left\\{\\begin{array}{l}2 x-3=-1 \\\\ 2 x-4 y-7=7\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=1 \\\\ y=-3\\end{array}\\right.\\right.)%.<br>TH2: %(\\left\\{\\begin{array}{l}2 x-3=1 \\\\ 2 x-4 y-7=-7\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=2 \\\\ y=1\\end{array}\\right.\\right.)%.<br>TH3: %(\\left\\{\\begin{array}{l}2 x-3=-7 \\\\ 2 x-4 y-7=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=-2 \\\\ y=-3\\end{array}\\right.\\right.)%.<br>TH4: %(\\left\\{\\begin{array}{l}2 x-3=7 \\\\ 2 x-4 y-7=-1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=5 \\\\ y=4\\end{array}\\right.\\right.)%.<br>Vậy các nghiệm nguyên của phương trình là: %((x ; y)=(1 ;-3),(2 ; 1),(-2 ;-3),(5 ; 4))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho đa thức %(P(x)=a x^{2}+b x+c)% thoả mãn điều kiện với số nguyên %(x)% bất kì thì %(P(x))% là số chính phương. Chứng minh %(a, b, c)% là các số nguyên và %(b)% là số chẵn.",
+        "question_images": [],
+        "solution": "Ta có: %(P(0)=c)%<br>Vì %(P(0))% là số chính phương nên %(c \\in \\mathbb{Z})%. Đặt %(c=x^{2}(x \\in \\mathbb{Z}))%.<br>Ta có: %(P(1)=a+b+c ; P(-1)=a-b+c)%.<br>Suy ra %(a+b ; a-b \\in \\mathbb{Z})%%(\\Rightarrow\\left\\{\\begin{array}{l}2 a \\in \\mathbb{Z} \\\\ 2 b \\in \\mathbb{Z}\\end{array}\\right.)%.<br>Đặt %(\\left\\{\\begin{array}{l}2 a=y \\\\ 2 b=z\\end{array}(y ; z \\in \\mathbb{Z})\\right.)%.<br>Ta có %(P(4)=16 a+4 b+c=k^{2}(k \\in \\mathbb{Z}))%Lại có %(k^{2}=8 y+2 z+x^{2} \\Leftrightarrow(k+x)(k-x)=2(4 y+z))%.<br>Nếu %(k ; x)% không cùng tính chẵn lẻ thì %((k-x)(k+x) / 2)% (vô lí vì %(2(4 y+z) \\vdots 2)% )<br>Do đó %(k ; x)% cùng tính chẵn lè %(\\Rightarrow(k-x)(k+x) \\vdots 4 \\Rightarrow(4 y+z) \\vdots 2 \\Rightarrow z \\vdots 2)%%(\\Rightarrow b \\in \\mathbb{Z} \\Rightarrow a \\in \\mathbb{Z})% (vì %(a+b \\in \\mathbb{Z})% )<br>Lại có %(P(2)=4 a+2 b+c)%.Đặt %(P(2)=t^{2})%.<br>Ta có %(t^{2}-x^{2}=2(2 a+b) \\Leftrightarrow(t+x)(t-x)=2(2 a+b))%<br>Nếu %(t ; x)% không cùng tính chẵn lè thì %((t-x)(t+x) / 2)% (vô lí)<br>Nếu %(t ; x)% cùng tính chẵn lè %(\\Rightarrow(t-x)(t+x) \\vdots 4 \\Rightarrow(2 a+b) \\vdots 2 \\Rightarrow b \\vdots 2)%.<br>Vậy %(a, b, c)% là các số nguyên và %(b)% là số chẵn",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình vuông %(A B C D)% có %(A C)% cắt %(B D)% tại %(O, M)% là điểm bất kì thuộc cạnh %(B C(M)% khác %(B, C))%. Tia %(A M)% cắt đường thẳng %(C D)% tại %(N)%. Trên cạnh %(A B)% lấy điềm %(E)% sao cho %(B E=C M)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "a) Chứng minh: %(\\triangle O E M)% vuông cân.",
+        "question_images": [],
+        "solution": "Vì %(\\left\\{\\begin{array}{l}A B=B C \\\\ E B=C M\\end{array}\\right.)% nên %(A E=B M)%.<br>Xét %(\\triangle O A E)% và %(\\triangle O B M)% có:<br>\\[\\begin{array}{l}A E=B M \\\\widehat{O A E}=\\widehat{O B M}\\left(=45^{\\circ}\\right) \\O A=O B\\end{array}\\]<br>Do đó %(\\triangle O A E=\\triangle O B M(c-g-c))%<br>\\[\\Rightarrow \\widehat{A O E}=\\widehat{B O M} \\text { và } O E=O M(1)\\]<br>Mà %(\\widehat{A O E}+\\widehat{E O B}=90^{\\circ})%<br>Do đó %(\\widehat{B O M}+\\widehat{E O B}=90^{\\circ} \\Rightarrow \\widehat{E O M}=90^{\\circ}(2))%<br>Từ (1);(2) suy ra %(\\triangle O E M)% vuông cân tại %(O)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1c02008c8c1f5cbec543ec6775219ea0.png\" srcset=\"https://docdn.giainhanh.io/media/test/f0bcd1c82f7cf8e2a788b2edd548794f.png 223w, https://docdn.giainhanh.io/media/test/f978124691ab147601929319f8297227.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "b) Chứng minh: %(M E / / B N)%.",
+        "question_images": [],
+        "solution": "Vì %(\\left\\{\\begin{array}{l}A E=B M \\\\ B E=C M\\end{array}\\right.)% nên %(\\frac{B M}{C M}=\\frac{A E}{B E})%<br>Mà %(A B / / C N)% nên %(\\frac{A M}{M N}=\\frac{B M}{C M})% (Định lí Ta-let)<br>Suy ra %(\\frac{A M}{M N}=\\frac{A E}{B E} \\Rightarrow M E / / B N)% (Định lí Ta-let đảo)",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "c) Từ %(C)% kẻ %(C H \\perp B N(H \\in B N))%. Chứng minh rằng ba điểm %(O, M, H)% thẳng hàng.",
+        "question_images": [],
+        "solution": "Gọi %(H^{\\prime})% là giao điềm của %(O M)% và %(B N)%.<br>Vì %(M E / / B N)% nên %(\\widehat{O M E}=\\widehat{M H^{\\prime} B}=45^{\\circ}=\\widehat{M C O})%<br>Xét %(\\triangle M C O)% và %(\\triangle M H^{\\prime} B)% có:<br>\\[\\begin{array}{l}\\widehat{M C O}=\\widehat{M H^{\\prime} B} \\\\widehat{O M C}=\\widehat{B M H^{\\prime}}\\end{array}\\]<br>Do đó %(\\triangle M C O=\\triangle M H^{\\prime} B(g-g))%<br>\\[\\Rightarrow \\frac{O M}{M B}=\\frac{M C}{M H^{\\prime}} \\Rightarrow \\frac{O M}{M C}=\\frac{M B}{M H^{\\prime}} \\text {. }\\]<br>Xét %(\\triangle O M B)% và %(\\triangle C M H^{\\prime})% có:<br>\\[\\begin{array}{l}\\widehat{O M B}=\\widehat{C M H^{\\prime}} \\\\frac{O M}{M C}=\\frac{M B}{M H^{\\prime}}\\end{array}\\]<br>Do đó %(\\triangle O M B \\sim \\triangle C M H^{\\prime}(c-g-c))%<br>\\[\\widehat{O B M}=\\widehat{C H^{\\prime} M}=45^{\\circ}\\]<br>Ta có %(\\widehat{B H^{\\prime} C}=\\widehat{B H^{\\prime} M}+\\widehat{C H^{\\prime} M}=90^{\\circ} \\Rightarrow C H^{\\prime} \\perp B N)%<br>Mà %(C H \\perp B N)%<br>Suy ra %(H^{\\prime})% trùng %(H)%<br>Vậy ba điểm %(O, M, H)% thẳng hàng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là ba cạnh của một tam giác. Chứng minh rằng:<br>\\[(a+b+c)\\left(\\frac{3 a-b}{a^{2}+a b}+\\frac{3 b-c}{b^{2}+b c}+\\frac{3 c-a}{c^{2}+c a}\\right) \\leq 9\\]",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}V T=(a+b+c)\\left(\\frac{4 a-(a+b)}{a(a+b)}+\\frac{4 b-(b+c)}{b(b+c)}+\\frac{4 c-(c+a)}{c(c+a)}\\right) \\\\ =9+4\\left(\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}\\right)-a\\left(\\frac{1}{b}+\\frac{1}{c}\\right)-b\\left(\\frac{1}{c}+\\frac{1}{a}\\right)-c\\left(\\frac{1}{a}+\\frac{1}{b}\\right) \\\\ =9+a\\left[\\frac{4}{b+c}-\\left(\\frac{1}{b}+\\frac{1}{c}\\right)\\right]+b\\left[\\frac{4}{c+a}-\\left(\\frac{1}{c}+\\frac{1}{a}\\right)\\right]+c\\left[\\frac{4}{a+b}-\\left(\\frac{1}{a}+\\frac{1}{b}\\right)\\right] \\leq 9\\end{array})%<br>(Vi %(\\frac{1}{x}+\\frac{1}{y} \\geq \\frac{4}{x+y} \\forall x, y\\gt 0)% )<br>Dấu \" %(=)% \" xảy ra lchi %(a=b=c)%.<br>Vây %((a+b+c)\\left(\\frac{3 a-b}{a^{2}+a b}+\\frac{3 b-c}{b^{2}+b c}+\\frac{3 c-a}{c^{2}+c a}\\right) \\leq 9)%.<br>Cách 2:Không mất tính tổng quát giả sử %(a+b+c=3)%<br>Do %(a, b, c)% là ba cạnh của một tam giác nên ta có: %(3=a+b+c>2 a>0 \\Rightarrow 0\\lt a\\lt \\frac{3}{2})%<br>Tưong tự ta có %(0\\lt b\\lt \\frac{3}{2} ; 0\\lt c\\lt \\frac{3}{2})%.<br>Ta có: %(V T \\Leftrightarrow \\frac{3 a-b}{a(a+b)}+\\frac{3 b-c}{b(b+c)}+\\frac{3 c-a}{c(c+a)} \\leq 3)%<br>\\[\\begin{array}{l}\\Leftrightarrow \\frac{4 a-(a+b)}{a(a+b)}+\\frac{4 b-(b+c)}{b(b+c)}+\\frac{4 c-(c+a)}{c(c+a)} \\leq 3 \\\\Leftrightarrow \\frac{4}{a+b}+\\frac{4}{b+c}+\\frac{4}{c+a}-\\frac{1}{a}-\\frac{1}{b}-\\frac{1}{c} \\leq 3 \\\\Leftrightarrow\\left(\\frac{4}{3-a}-\\frac{1}{a}\\right)+\\left(\\frac{4}{3-b}-\\frac{1}{b}\\right)+\\left(\\frac{4}{3-c}-\\frac{1}{c}\\right) \\leq 3(1)\\end{array}\\]<br>Ta chứng minh %(\\frac{4}{3-a}-\\frac{1}{a} \\leq 2 a-1 \\forall a \\in\\left(0 ; \\frac{3}{2}\\right))%<br>Thật vậy %((2) \\Leftrightarrow 5 a-3 \\leq(2 a-1)\\left(3 a-a^{2}\\right))%<br>\\[\\begin{array}{l}\\Leftrightarrow 2 a^{3}-7 a^{2}+8 a-3 \\leq 0 \\\\Leftrightarrow(a-1)\\left(2 a^{2}-5 a+3\\right) \\leq 0 \\\\Leftrightarrow(a-1)^{2}(2 a-3) \\leq 0 \\text { đúng } \\forall a \\in\\left(0 ; \\frac{3}{2}\\right)\\end{array}\\]<br>Chúmg minh tương tự ta có %(\\frac{4}{3-b}-\\frac{1}{b} \\leq 2 b-1 \\forall a \\in\\left(0 ; \\frac{3}{2}\\right))%<br>\\[\\frac{4}{3-c}-\\frac{1}{c} \\leq 2 c-1 \\forall c \\in\\left(0 ; \\frac{3}{2}\\right)\\]<br>Từ (2),(3),(4) ta có %(V T_{(1)} \\leq 2(a+b+c)-3=3)%<br>Dấu \" %(=)% \" xảy ra lhi %(a=b=c)%.<br>Vây %((a+b+c)\\left(\\frac{3 a-b}{a^{2}+a b}+\\frac{3 b-c}{b^{2}+b c}+\\frac{3 c-a}{c^{2}+c a}\\right) \\leq 9)%.",
+        "question_type": "essay"
+    }
+]

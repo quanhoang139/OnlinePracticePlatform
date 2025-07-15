@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Phân tích đa thức sau thành nhân từ:<br>\\[a^{2}(b-2 c)+b^{2}(c-a)+2 c^{2}(a-b)+a b c \\text {. }\\]",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}a^{2}(b-2 c)+b^{2}(c-a)+2 c^{2}(a-b)+a b c=2 c^{2}(a-b)+a b(a-b)-c\\left(a^{2}-b^{2}\\right)-a c(a-b) \\\\ =(a-b)\\left[2 c^{2}-2 a c+a b-b c\\right] \\\\ =(a-b)[2 c(c-a)+b(a-c)] \\\\ =(a-b)(a-c)(b-2 c)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho %(x, y)% thỏa mãn %(x=\\sqrt[3]{y-\\sqrt{y^{2}+1}}+\\sqrt[3]{y+\\sqrt{y^{2}+1}})%. Tính giá trị của biểu thức %(A=x^{4}+x^{3} y+3 x^{2}+x y-2 y^{2}+1)%.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}x=\\sqrt[3]{y-\\sqrt{y^{2}+1}}+\\sqrt[3]{y+\\sqrt{y^{2}+1}} \\\\Rightarrow x^{3}=2 y+3 \\sqrt[3]{y-\\sqrt{y^{2}+1}} \\cdot \\sqrt[3]{y+\\sqrt{y^{2}+1}}\\left(\\sqrt[3]{y-\\sqrt{y^{2}+1}}+\\sqrt[3]{y+\\sqrt{y^{2}+1}}\\right) \\\\Rightarrow x^{3}+3 x-2 y=0 \\A=x^{4}+x^{3} y+3 x^{2}-2 x y+3 x y-2 y^{2}+1=\\left(x^{4}+3 x^{2}-2 x y\\right)+\\left(x^{3} y+3 x y-2 y^{2}\\right)+1 \\A=x\\left(x^{3}+3 x-2 y\\right)+y\\left(x^{3}+3 x-2 y\\right)+1=1\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3  ",
+        "point": 1.0,
+        "content": "Giải phương trình %(\\left(x^{2}-4 x+11\\right)\\left(x^{4}-8 x^{2}+21\\right)=35)%.",
+        "question_images": [],
+        "solution": "Phương trình đã cho tương đương với %(\\left[(x-2)^{2}+7\\right]\\left[\\left(x^{2}-4\\right)^{2}+5\\right]=35)%<br>\\[\\left.(x-2)^{2}+7 \\geq 7 \\forall x\\right\\} \\Rightarrow\\left[(x-2)^{2}+7\\right]\\left[\\left(x^{2}-4\\right)^{2}+5\\right] \\geq 35 \\forall x\\]<br>Do %(\\left.\\left(x^{2}-4\\right)^{2}+5 \\geq 5 \\forall x\\right\\})%<br>%((1) \\Leftrightarrow\\left\\{\\begin{array}{l}(x-2)^{2}+7=7 \\\\ \\left(x^{2}-4\\right)^{2}+5=5\\end{array}\\right.)%<br>%(\\Leftrightarrow x=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}\\left(x+\\sqrt{x^{2}+2012}\\right)\\left(y+\\sqrt{y^{2}+2012}\\right)=2012 \\\\ x^{2}+z^{2}-4(y+z)+8=0\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\left\\{\\begin{array}{l}\\left(x+\\sqrt{x^{2}+2012}\\right)\\left(y+\\sqrt{y^{2}+2012}\\right)=2012 \\\\ x^{2}+z^{2}-4(y+z)+8=0\\end{array}\\right. \\\\ (1) \\Leftrightarrow\\left(x+\\sqrt{x^{2}+2012}\\right)\\left(y+\\sqrt{y^{2}+2012}\\right)\\left(\\sqrt{y^{2}+2012}-y\\right)=2012\\left(\\sqrt{y^{2}+2012}-y\\right)\\end{array})%(Do %(\\sqrt{y^{2}+2012}-y \\neq 0, \\forall y)% )<br>%(\\begin{array}{l}\\Leftrightarrow\\left(x+\\sqrt{x^{2}+2012}\\right) 2012=2012\\left(\\sqrt{y^{2}+2012}-y\\right) \\\\ \\Leftrightarrow x+\\sqrt{x^{2}+2012}=\\sqrt{y^{2}+2012}-y \\\\ \\Leftrightarrow x+y=\\sqrt{y^{2}+2012}-\\sqrt{x^{2}+2012} \\\\ \\Leftrightarrow x+y=\\frac{\\left(\\sqrt{y^{2}+2012}-\\sqrt{x^{2}+2012}\\right)\\left(\\sqrt{y^{2}+2012}+\\sqrt{x^{2}+2012}\\right)}{\\sqrt{y^{2}+2012}+\\sqrt{x^{2}+2012}} \\\\ \\Leftrightarrow x+y=\\frac{y^{2}-x^{2}}{\\sqrt{y^{2}+2012}+\\sqrt{x^{2}+2012}} \\\\ \\Leftrightarrow(x+y) \\frac{\\sqrt{y^{2}+2012}-y+\\sqrt{x^{2}+2012}+x}{\\sqrt{y^{2}+2012}+\\sqrt{x^{2}+2012}}=0\\end{array})%<br>Do %(\\begin{array}{l}\\sqrt{y^{2}+2012}\\gt |y| \\geq y \\quad \\forall y \\mid \\Rightarrow \\sqrt{y^{2}+2012}-y+\\sqrt{x^{2}+2012}+x>0 \\\\ \\left.\\sqrt{x^{2}+2012}>|x| \\geq-x \\quad \\forall x\\right\\} \\\\end{array})%<br>Thay %(y=-x)% (2) %(\\Rightarrow x^{2}+z^{2}+4 x-4 z+8=0 \\Leftrightarrow(x+2)^{2}+(z-2)^{2}=0)%<br>Vậy hệ có nghiệm %((x ; y ; z)=(-2 ; 2 ; 2))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng với mọi số nguyên %(n)% thì %(\\left(n^{2}+n+1\\right))% không chia hết cho 9 .",
+        "question_images": [],
+        "solution": "Đặt %(A=n^{2}+n+1)% do %(n \\in \\phi \\Rightarrow n=3 k ; n=3 k+1 ; n=3 k+2(k \\in \\phi))%<br>* %(n=3 k \\Rightarrow A)% không chia hết cho 9 (vì %(A)% không chia hết cho 3 )<br>* %(n=3 k+1 \\Rightarrow A=9 k^{2}+9 k+3)% không chia hết cho 9 .<br>* %(n=3 k+2 \\Rightarrow A=9 k^{2}+9 k+7)% không chia hết cho 9<br>Vậy với mọi số nguyên %({ }^{n})% thì %(A=n^{2}+n+1)% không chia hết cho 9 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "6  ",
+        "point": 1.0,
+        "content": "Xét phương trình %(x^{2}-m^{2} x+2 m+2=0)% (1) (ẩn %(x)% ). Tìm các giá trị nguyên dương của %(m)% để phương trình (1) có nghiệm nguyên.",
+        "question_images": [],
+        "solution": "Giả sử tồn tại %(m \\in ¥^{*})% để phương trình có nghiệm %(x_{1}, x_{2})%<br>Theo Vi-et: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=m^{2} \\\\ x_{1} x_{2}=2 m+2\\end{array} \\Rightarrow\\left(x_{1}-1\\right)\\left(x_{2}-1\\right)=-m^{2}+2 m+3\\right.)%<br>Với %(m \\in ¥^{*})%. Ta có %(x_{1} x_{2} \\geq 4 \\mathrm{v \\mu} x_{1}+x_{2} \\geq 1)% mà %(x_{1})% hoặc %(x_{2})% nguyên và<br>\\[\\begin{array}{l}x_{1}+x_{2}=m^{2} \\in ¥^{*} \\Rightarrow x_{1}, x_{2} \\in ¥^{*} \\Rightarrow\\left(x_{1}-1\\right)\\left(x_{2}-1\\right) \\geq 0 \\\\Leftrightarrow-m^{2}+2 m+3 \\geq 0 \\Leftrightarrow(m+1)(m-3) \\leq 0 \\Leftrightarrow m \\leq 3 \\Rightarrow m \\in\\{1 ; 2 ; 3\\}\\end{array}\\]<br>Với %(m=1 ; m=2)% thay vào ta thấy phương trình đã cho vô nghiệm.<br>Với %(m=3)% thay vào phương trình ta được nghiệm của phương trình đã cho là %(x=1 ; x=8)% thỏa mãn.<br>Vậy %(m=3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác %(A B C)% vuông tại %(A)% có %(A B\\lt A C)% ngoại tiếp đường tròn tâm %(O)%. Gọi %(D)%, %(E, F)% lần lượt là tiếp điểm của %((O))% với các cạnh %(A B, A C, B C ; B O)% cắt %(E F)% tại %(I)%. %(M)% là điểm di chuyển trên đoạn %(C E)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tính %(B I F)%",
+        "question_images": [],
+        "solution": "Gọi %(K)% là giao điểm của %(B O)% với %(D F \\Rightarrow \\triangle I K F)% vuông tại %(K)%<br>Có %(D F E=\\frac{1}{2} D O E=45^{\\circ} \\Rightarrow B I F=45^{\\circ})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b6eee915226485a69401d3ebffdfa03b.png\" srcset=\"https://docdn.giainhanh.io/media/test/fe3e239fa6ee3c8d4eb75ee3d79844fc.png 226w, https://docdn.giainhanh.io/media/test/4e69fde6e35e5548eb44d56b3828dac2.png 500w, https://docdn.giainhanh.io/media/test/851864dae09689c9e5a34a5ef138388f.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Gọi %(H)% là giao điểm của %(B M)% và %(E F)%. Chứng minh rằng nếu %(A M=A B)% thì tứ giác %(A B H I)% nội tiếp.",
+        "question_images": [],
+        "solution": "Khi %(A M=A B)% thì %(\\triangle A B M)% vuông cân tại %(A \\Rightarrow D B H=45^{\\circ})%.<br>Có %(D F H=45^{\\circ})%<br>%(\\Rightarrow)% Tứ giác %(B D H F)% nội tiếp.<br>%(\\Rightarrow 5)% điểm %(B, D, O, H, F)% cùng thuộc một đường tròn.%(\\Rightarrow B F O=B H O=90^{\\circ} \\Rightarrow O H \\perp B M)%, mà %(O A \\perp B M \\Rightarrow A, O, H)% thẳng hàng.%(B A H=B I H=45^{\\circ} \\Rightarrow)% Tứ giác %(A B H I)% nội tiếp.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Gọi %(N)% là giao điểm của %(B M)% với cung nhỏ %(E F)% của %((O), P)% và %(Q)% lần lượt là hình chiếu của %(N)% trên các đường thẳng %(D E, D F)%. Xác định vị trí của điểm %(M)% để %(P Q)% lớn nhất.",
+        "question_images": [],
+        "solution": "Có tứ giác %(P N Q D)% nội tiếp %(\\Rightarrow Q P N=Q D N=E F N)%.<br>Tương tự có %(N Q P=N D P=F E N \\Rightarrow \\triangle N E F)% và %(\\triangle N Q P)% đồng dạng.<br>\\[\\Rightarrow \\frac{P Q}{E F}=\\frac{N Q}{N E} \\leq 1 \\Rightarrow P Q \\leq E F\\]<br>Dấu \" %(=)% \" xảy ra khi và chỉ khi %(P \\equiv F ; Q \\equiv E \\Rightarrow D N)% là đường kính của %((O) \\Rightarrow)% %(P Q)% lớn nhất bằng %(E F)%.<br>Cách xác định điểm %(M)% : Kẻ đường kính %(D N)% của %((O), B N)% cắt %(A C)% tại %(M)% thì %(P Q)% lớn nhất.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho 3 số %(a, b, c)% thỏa mãn %(0 \\leq \\mathrm{a} \\leq \\mathrm{b} \\leq \\mathrm{c} \\leq 1)%. Tìm giá trị lớn nhất của biểu thức %(B=(a+b+c+3)\\left(\\frac{1}{a+1}+\\frac{1}{b+1}+\\frac{1}{c+1}\\right))%.",
+        "question_images": [],
+        "solution": "Đặt %(x=1+c, y=1+b, z=1+a)%<br>Do %(0 \\leq \\mathrm{a} \\leq \\mathrm{b} \\leq \\mathrm{c} \\leq 1 \\Rightarrow 1 \\leq z \\leq y \\leq x \\leq 2)%. Khi đó<br>\\[\\begin{array}{l}A=(x+y+z)\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)=3+3+\\frac{x}{y}+\\frac{x}{z}+\\frac{y}{x}+\\frac{y}{z}+\\frac{z}{x}+\\frac{z}{y} \\\\left(1-\\frac{x}{y}\\right)\\left(1-\\frac{y}{z}\\right) \\geq 0 \\Leftrightarrow 1-\\frac{x}{y}-\\frac{y}{z}+\\frac{x \\cdot y}{y \\cdot z} \\geq 0 \\Leftrightarrow \\frac{x}{y}+\\frac{y}{z} \\leq \\frac{x}{z}+1 \\\\left(1-\\frac{z}{y}\\right)\\left(1-\\frac{y}{x}\\right) \\geq 0 \\Leftrightarrow 1-\\frac{z}{y}-\\frac{y}{x}+\\frac{z \\cdot y}{y \\cdot x} \\geq 0 \\Leftrightarrow \\frac{z}{y}+\\frac{y}{x} \\leq \\frac{z}{x}+1 \\\\Rightarrow \\frac{x}{y}+\\frac{y}{z}+\\frac{z}{y}+\\frac{y}{x} \\leq \\frac{x}{z}+\\frac{z}{x}+2 \\Rightarrow \\frac{x}{y}+\\frac{x}{z}+\\frac{y}{x}+\\frac{y}{z}+\\frac{z}{x}+\\frac{z}{y} \\leq 2\\left(\\frac{x}{z}+\\frac{z}{x}\\right)+2\\end{array}\\]<br>Đặt %(\\frac{x}{z}=t \\Rightarrow 1 \\leq t \\leq 2)%<br>\\[\\frac{x}{z}+\\frac{z}{x}=t+\\frac{1}{t}=\\frac{t^{2}+1}{t}=\\frac{2 t^{2}-5 t+2}{2 t}+\\frac{5}{2}=\\frac{(2 t-1)(t-2)}{2 t}+\\frac{5}{2}\\]<br>Do %(1 \\leq t \\leq 2 \\Rightarrow \\frac{(2 t-1)(t-2)}{2 t} \\leq 0 \\Rightarrow \\frac{x}{z}+\\frac{z}{x} \\leq \\frac{5}{2})%<br>\\[\\Rightarrow A \\leq 3+2 \\cdot \\frac{5}{2}+2=10\\]<br>Ta thấy khi %(a=b=0)% và %(c=1)% thì %(A=10)% nên giá trị lớn nhất của %(A)% là 10 .",
+        "question_type": "essay"
+    }
+]

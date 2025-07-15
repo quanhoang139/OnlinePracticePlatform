@@ -1,0 +1,81 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 2.0,
+        "content": "Cho hàm số %(y=x^{4}+2(\\mathrm{~m}+1) x^{2}+m^{2}+m-1)%, với %(m)% là tham số. Tìm các giá trị của %(m)% để đồ thị hàm số đã cho có ba điểm cực trị là 3 đỉnh của một tam giác đều.",
+        "question_images": [],
+        "solution": "Tập xác định: %(D=\\mathbb{R})%<br>\\[y^{\\prime}=4 x^{3}+4(m+1) x\\]<br>Hàm số có 3 điểm cực trị %(\\Leftrightarrow m\\lt -1)%<br>Đồ thị hàm sô có 3 điểm cực trị là:<br>\\[A\\left(0 ; m^{2}+m-1\\right), B(\\sqrt{-m-1} ;-m-2), C(-\\sqrt{-m-1} ;-m-2)\\]<br>Ta có %(\\left\\{\\begin{array}{l}A B=\\sqrt{(m+1)^{4}-(m+1)}=A C \\\\ B C=2 \\sqrt{-m-1}\\end{array} \\Rightarrow\\right.)% Tam giác %(\\mathrm{ABC})% cân tại %(\\mathrm{A})% với %(\\forall m\\lt -1)%<br>Xét: %(A B=B C \\Leftrightarrow(m+1)^{4}+3(m+1)=0 \\Leftrightarrow m=-1-\\sqrt[3]{3})%<br>Vậy với %(m=-1-\\sqrt[3]{3})% đồ thị hàm số có 3 điểm cực trị là 3 đỉnh của một tam giác đều",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Một hộ gia đình cần xây dựng một bể chứa nước, dạng hình hộp chữ nhật có thể tích %(24\\left(\\mathrm{~m}^{3}\\right))%.Tỉ số giữa chiều cao của bể và chiều rộng của bể bằng 4 . Biết rằng bể chỉ có các mặt bên và mặt đáy (không có mặt trên). Chiều dài của đáy bể bằng bao nhiêu để xây bể tốn ít nguyên vật liệu nhất.",
+        "question_images": [],
+        "solution": "Gọi chiều cao, chiều rộng, chiều dài của bể lần lượt là %(h, x, y(\\mathrm{~m}) ;(h\\gt 0, x>0, y>0))%<br>Ta có: %(\\left\\{\\begin{array}{l}\\frac{h}{x}=4 \\\\ x y h=24\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}h=4 x \\\\ y=\\frac{6}{x^{2}}\\end{array}\\right.\\right.)%<br>Tổng diện tích xung quanh và diện tích một đáy của bể là: %(S=x y+2 x h+2 y h=8 x^{2}+\\frac{54}{x})%<br>Xét hàm số %(S(x)=8 x^{2}+\\frac{54}{x}, x>0)%<br>Tính %(S^{\\prime}=16 x-\\frac{54}{x^{2}} ; S^{\\prime}=0 \\Leftrightarrow x=\\frac{3}{2})%<br>Ta có bảng biến thiên<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f4b33ab6e56d32f2599da6e515803e19.png\" srcset=\"https://docdn.giainhanh.io/media/test/888082551d16245b4ea50a103d0defbf.png 245w, https://docdn.giainhanh.io/media/test/9e9ed13d1afbe9a12829d0f2d3ab316b.png 500w, https://docdn.giainhanh.io/media/test/a71ec85e64d4c465ae39f1c5b97b2f86.png 750w, https://docdn.giainhanh.io/media/test/bbba977486f3ba483fe8e074ac728317.png 1000w\" width=\"1000\"/><br>Hàm số đạt giá trị nhỏ nhất tại %(x=\\frac{3}{2})%<br>Xây bể tốn nguyên vật liệu ít nhất khi diện tích xung quanh cộng với diện tích một mặt đáy có giá trị nhỏ nhất. Vậy chiều dài của đáy là %(y=\\frac{8}{3}(m))% là giá trị cần tìm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C)% có cạnh %(B C=a, A B=c)% thỏa mãn %(\\sqrt{2 a-c} \\cdot \\cos \\frac{B}{2}=\\sqrt{2 a+c} \\cdot \\sin \\frac{B}{2})%, với %(2 a\\gt c)%. Chứng minh rằng tam giác %(A B C)% là tam giác cân.",
+        "question_images": [],
+        "solution": "Bình phương hai vế và hạ bậc ta được:<br>\\[(2 a-c) \\cos ^{2} \\frac{B}{2}=(2 a+c) \\sin ^{2} \\frac{B}{2} \\Leftrightarrow(2 a-c)(1+\\cos B)=(2 a+c)(1-\\cos B)\\]<br>Rút được: %(2 a \\cos B=c)%<br>Biến đổi ra được %(\\sin (A-B)=0)%<br>Kết luận %(A=B)% vì %(0\\lt A, B\\lt \\pi)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 2.0,
+        "content": "Có hai chuồng nhốt thỏ, chuồng thứ nhất nhốt 19 con thỏ lông màu đen và 1 con thỏ lông màu trắng. Chuồng thứ hai nhốt 13 con thỏ lông màu đen và 2 con thỏ lông màu trắng. Bắt ngẫu nhiên mỗi chuồng đúng một con thỏ. Tính xác suất để bắt được hai con thỏ có màu lông khác nhau.",
+        "question_images": [],
+        "solution": "Chuồng 1: Có 20 cách;<br>Chuồng 2: Có 15 cách<br>Bắt ngẫu nhiên mỗi chuồng một con nên ta có: %(n(\\Omega)=15.20=300)%<br>Gọi biến cố %(\\mathrm{A})% : \"Bắt được hai con thỏ khác màu\"<br>khi đó %(\\bar{A})% : \" Bắt được hai con thỏ cùng màu\"<br>+) Hai con thỏ cùng màu đen: có %(19.13=247)% (cách)<br>+) Hai con thỏ cùng màu trắng có %(1.2=2)% (cách)<br>\\[\\Rightarrow n(\\bar{A})=247+2=249 \\Rightarrow p(\\bar{A})=\\frac{249}{300}\\]<br>Vậy %(p(A)=1-p(\\bar{A})=\\frac{17}{100})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 3.0,
+        "content": "Cho %(x, y)% là các số thực dương, giải hệ phương trình<br>\\[\\left\\{\\begin{array}{l}(y+1) \\log _{4}[(x+1)(y+1)]=16-(x-1)(y+1) \\\\4 x^{2}+7 x y-3 x+y^{2}=99\\end{array}\\right.\\]",
+        "question_images": [],
+        "solution": "\\[(y+1) \\log _{4}[(x+1)(y+1)]=16-(x-1)(y+1) \\Leftrightarrow \\log _{4}\\left(\\frac{x+1}{16}\\right)+x+1=\\log _{4}\\left(\\frac{1}{y+1}\\right)+\\frac{16}{y+1}\\]<br>Xét hàm số %(f(t)=\\log _{4} t+16 t)% với %(t\\gt 0)%<br>Ta có %(f^{\\prime}(t)=\\frac{1}{t \\ln 4}+16 \\Rightarrow f^{\\prime}(t)>0 \\forall t>0 \\Rightarrow f(t))% đồng biến trên %((0 ;+\\infty))%<br>Khi đó ta có %(f\\left(\\frac{x+1}{16}\\right)=f\\left(\\frac{1}{y+1}\\right) \\Leftrightarrow \\frac{x+1}{16}=\\frac{1}{y+1} \\Leftrightarrow(x+1)(y+1)=16)%<br>Ta có hệ pt: %(\\left\\{\\begin{array}{l}(x+1)(y+1)=16 \\\\ 4 x^{2}+7 x y-3 x+y^{2}=99\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}(2 x+y)+x(y-1)=15 \\\\ (2 x+y)^{2}+3 x(y-1)=99\\end{array}\\right.\\right.)%<br>Rút ra ta đươc %(\\left\\{\\begin{array}{l}2 x+y=9 \\\\ x(y-1)=6\\end{array}\\right.)%<br>Tập nghiệm của hệ pt là: %(T=\\{(3 ; 3) ;(1 ; 7)\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 3.0,
+        "content": "Trong mặt phẳng với hệ trục tọa độ %(O x y)%, cho hình chữ nhật %(A B C D, A B=2 A D)%. Điểm %(N)% thuộc cạnh %(A B)% sao cho %(A N=\\frac{1}{4} A B, M)% là trung điểm của %(D C)%. Gọi %(I)% là giao điểm của %(M N)% và %(B D)%. Viết phương trình đường tròn ngoại tiếp tam giác %(B I N)%. Biết điểm %(A(2 ; 1))%, đường thẳng %(B D)% có phương trình %(11 x-2 y+5=0)%, điểm %(B)% có hoành độ là số nguyên.",
+        "question_images": [],
+        "solution": "Gọi %(P)% là trung điểm của %(A B, J)% là giao điểm của %(P M)% và %(B D)%<br>Chứng minh được %(\\widehat{M N P}=\\widehat{D J M} \\Rightarrow M N \\perp B D)%<br>Gọi %(H)% là hình chiếu vuông góc của %(A)% lên %(B D)%, ta có %(A H=d(A, B D)=\\sqrt{5})%<br>Ta có %(\\frac{1}{A H^{2}}=\\frac{1}{A B^{2}}+\\frac{1}{A D^{2}} \\Rightarrow A B=5)%<br>%(B \\in B D \\Rightarrow B\\left(t ; \\frac{11 t+5}{2}\\right) ;)% Từ %(A B=5 \\Rightarrow B(-1 ;-3))% ( %(t)% là số nguyên )<br>Ta có %(\\overrightarrow{A N}=\\frac{1}{4} \\overrightarrow{A B} \\Rightarrow N\\left(\\frac{5}{4} ; 0\\right))%<br>Gọi %(K)% là trung điểm của %(B N)%, khi đó %(K\\left(\\frac{1}{8} ;-\\frac{3}{2}\\right), \\quad K B=\\frac{15}{8})%<br>Phương trình đường tròn ngoại tiếp tam giác BIN là: %(\\left(x-\\frac{1}{8}\\right)^{2}+\\left(y+\\frac{3}{2}\\right)^{2}=\\frac{225}{64})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c4bb9723f4ca8829ccb76d93590b7fd7.png\" srcset=\"https://docdn.giainhanh.io/media/test/723128afbe0ac190459dc49609e05c7a.png 245w, https://docdn.giainhanh.io/media/test/b25bc3e7e22ce6c6c96f287f14353e9e.png 500w, https://docdn.giainhanh.io/media/test/217359a33ffac78ceea4b8abf6da6a54.png 750w, https://docdn.giainhanh.io/media/test/939ce83937bbd1abbd6d967690b077e8.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7:",
+        "group_content": "Cho lăng trụ %(A B C \\cdot A^{\\prime} B^{\\prime} C^{\\prime})% có đáy là tam giác vuông tại %(A, A B=a, B C=2 a)%. Mặt bên %(B C C^{\\prime} B)% ' là hình thoi và nằm trong mặt phẳng vuông góc với mặt phẳng chứa đáy. Góc giữa hai mặt phẳng %(\\left(B C C^{\\prime} B^{\\prime}\\right))% và %(\\left(A B B^{\\prime} A^{\\prime}\\right))% bằng %(\\alpha)%, với %(\\tan \\alpha=\\frac{5 \\sqrt{2}}{4})%, hãy tính theo %(a)%:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Thể tích khối lăng trụ %(A B C . A^{\\prime} B^{\\prime} C^{\\prime})%.",
+        "question_images": [],
+        "solution": "Vẽ hình, dựng %(A H \\perp B C(H \\in B C))%, suy ra được %(A H \\perp\\left(B C C^{\\prime} B^{\\prime}\\right))%<br>Trong tam giác vuông %(A B C)% có %(A C=\\sqrt{B C^{2}-A B^{2}}=a \\sqrt{3} ; A H=\\frac{A B \\cdot A C}{B C}=\\frac{a \\sqrt{3}}{2})%<br>Dựng %(H I \\perp B B^{\\prime}\\left(I \\in B B^{\\prime}\\right))%, ta có %(\\left\\{\\begin{array}{l}B B^{\\prime} \\perp H I \\\\ B B^{\\prime} \\perp A H\\end{array} \\Rightarrow B B^{\\prime} \\perp(A H I)\\right.)%<br>Suy ra được góc giữa 2 mặt phẳng %(\\left(B C C^{\\prime} B^{\\prime}\\right))% và %(\\left(A B B^{\\prime} A^{\\prime}\\right))% bằng góc giữa hai đường thẳng %(A I)% và %(H I)% bằng %(\\widehat{A I H}=\\alpha)% (do tam giác %(A H I)% vuông tại %(H)% nên %(\\widehat{A I H})% là góc nhọn)<br>Trong tam giác vuông %(A B H)% tính được %(B H=\\frac{a}{2})%, ta có %(\\tan \\alpha=\\tan \\widehat{A I H}=\\frac{A H}{I H}=\\frac{5 \\sqrt{2}}{4})%<br>suy ra %(I H=\\frac{a \\sqrt{3}}{2}: \\frac{5 \\sqrt{2}}{4}=\\frac{a \\sqrt{6}}{5} \\Rightarrow \\sin \\widehat{I B H}=\\frac{a \\sqrt{6}}{5}: \\frac{a}{2}=\\frac{2 \\sqrt{6}}{5})%<br>Vậy %(V_{A B C A^{\\prime} B^{\\prime} C^{\\prime}}=\\frac{3}{2} V_{A \\cdot B C C^{\\prime} B^{\\prime}}=\\frac{3}{2} \\cdot \\frac{1}{3} \\cdot \\frac{a \\sqrt{3}}{2} \\cdot 4 a^{2} \\cdot \\frac{2 \\sqrt{6}}{5}=\\frac{6 a^{3} \\sqrt{2}}{5})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5dbc686fda4ed2d8dbc5c0a107e180fd.png\" srcset=\"https://docdn.giainhanh.io/media/test/d5c4f026dde0f5689cf2139e202babcb.png 159w, https://docdn.giainhanh.io/media/test/ff5149c2de9697b3ce3aaa83e8b97481.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Khoảng cách giữa hai đường thẳng %(A^{\\prime} C^{\\prime})% và %(B^{\\prime} C)%.",
+        "question_images": [],
+        "solution": "Dựng %(B^{\\prime} D \\perp B C \\quad(D \\in B C))%, ta có %(B^{\\prime} D \\perp(A B C))%<br>Ta có %(A^{\\prime} C^{\\prime} \\| A C)% nên %(A^{\\prime} C^{\\prime} \\|\\left(B^{\\prime} A C\\right))%, nên %(\\mathrm{d}\\left(A^{\\prime} C^{\\prime}, B^{\\prime} C\\right)=\\mathrm{d}\\left(A^{\\prime} C^{\\prime},\\left(B^{\\prime} A C\\right)\\right))%<br>%(=\\mathrm{d}\\left(C^{\\prime},\\left(B^{\\prime} A C\\right)\\right)=\\mathrm{d}\\left(B,\\left(B^{\\prime} A C\\right)\\right)=\\frac{B C}{D C} \\cdot \\mathrm{d}\\left(D,\\left(B^{\\prime} A C\\right)\\right))%<br>Dựng %(D J \\perp A C)% tại %(J)%, có %(D J \\| A B)%<br>Dựng %(D K \\perp J B^{\\prime})% tại %(K)%.<br>Chứng minh được %(D K \\perp\\left(B^{\\prime} A C\\right) \\Rightarrow \\mathrm{d}\\left(D,\\left(B^{\\prime} A C\\right)\\right)=D K)%<br>Ta có %(\\cos \\widehat{B^{\\prime} B D}=\\cos \\widehat{I B H}=\\frac{1}{5})%<br>mà %(\\cos \\widehat{B^{\\prime} B D}=\\frac{B D}{B B^{\\prime}} \\Rightarrow B D=\\frac{2 a}{5} \\Rightarrow \\frac{D J}{A B}=\\frac{C D}{C B}=\\frac{4}{5} \\Rightarrow D J=\\frac{4 a}{5})%<br>Ta có %(\\sin \\widehat{B^{\\prime} B D}=\\sin \\widehat{I B H}=\\frac{2 \\sqrt{6}}{5}=\\frac{B^{\\prime} D}{B B^{\\prime}} \\Rightarrow B^{\\prime} D=\\frac{4 a \\sqrt{6}}{5})%<br>Xét tam giác %(B^{\\prime} D J)% vuông tại %(D)% có %(\\frac{1}{D K^{2}}=\\frac{1}{B^{\\prime} D^{2}}+\\frac{1}{D J^{2}}=\\frac{25}{96 a^{2}}+\\frac{25}{16 a^{2}}=\\frac{175}{96 a^{2}})%<br>Suy ra %(\\left(A^{\\prime} C^{\\prime}, B^{\\prime} C\\right)=\\frac{B C}{D C} \\cdot D K=\\frac{5}{4} \\cdot \\frac{4 a \\sqrt{42}}{35}=\\frac{a \\sqrt{42}}{7})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 2.0,
+        "content": "Cho %(x, y, \\mathrm{z})% là các số thực dương. Tìm giá trị nhỏ nhất của biểu thức<br>\\[P=\\frac{1}{16 \\sqrt{x y}+2 \\sqrt{10 y z}+2 \\sqrt{10 x z}}-\\frac{10}{45+x+y+z} .\\]",
+        "question_images": [],
+        "solution": "Ta có %(16 \\sqrt{x y}+2 \\sqrt{10 y z}+2 \\sqrt{10 x z} \\leq 10(x+y+z))%<br>Dấu bằng xảy %(\\mathrm{ra} \\Leftrightarrow x=y=\\frac{5}{2} z)%<br>Khi đó %(P \\geq \\frac{1}{10(x+y+z)}-\\frac{10}{45+x+y+z})%<br>Xét %(f(t)=\\frac{1}{10 t}-\\frac{10}{45+t}, t\\gt 0 ; f^{\\prime}(t)=-\\frac{1}{10 t^{2}}+\\frac{10}{(45+t)^{2}})%<br>%(f^{\\prime}(t)=0 \\Leftrightarrow t=5)%<br>Ta có bảng biến thiên<br>Giá trị nhỏ nhất của %(\\mathrm{P})% là %(-\\frac{9}{50} \\Leftrightarrow\\left\\{\\begin{array}{l}x=y=\\frac{25}{12} \\\\ z=\\frac{5}{6}\\end{array}\\right.)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f88a3912dac961c9593e27d3b61b30ac.png\" srcset=\"https://docdn.giainhanh.io/media/test/f60ded5670b8e268acd73dba8c147c28.png 245w, https://docdn.giainhanh.io/media/test/d072f96c1230c782c55639067d22dc1f.png 500w, https://docdn.giainhanh.io/media/test/ddb73e6513b8096dc3d76cb631a0ed2d.png 750w, https://docdn.giainhanh.io/media/test/2c25228ea69295ee777f4e153b2af2dc.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    }
+]

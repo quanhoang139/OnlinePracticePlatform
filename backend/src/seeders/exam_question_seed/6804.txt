@@ -1,0 +1,50 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Cho %(x, y, z)% là các số thực dương thỏa %(x y z=1)%. Chứng minh rằng<br>\\[\\frac{1}{x^{3}(y+z)}+\\frac{1}{y^{3}(z+x)}+\\frac{1}{z^{3}(x+y)} \\geq \\frac{3}{2} \\text {. }\\]",
+        "question_images": [],
+        "solution": "\\[\\mathrm{VT}=\\frac{\\frac{1}{x^{2}}}{x(y+z)}+\\frac{\\frac{1}{y^{2}}}{y(z+x)}+\\frac{\\frac{1}{z^{2}}}{z(x+y)}\\]<br>Áp dụng bất đẳng thức C-S, ta có: %(\\frac{\\frac{1}{x^{2}}}{x(y+z)}+\\frac{\\frac{1}{y^{2}}}{y(z+x)}+\\frac{\\frac{1}{z^{2}}}{z(x+y)} \\geq \\frac{\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)^{2}}{2(x y+y z+z x)})%.<br>Theo giả thiết %(x, y, z)% là các số thực dương thỏa %(x y z=1)%,<br>khi đó:%(\\mathrm{VT} \\geq \\frac{x y+y z+z x}{2} \\Leftrightarrow \\mathrm{VT} \\geq \\frac{3 \\sqrt[3]{(x y z)^{2}}}{2} \\Leftrightarrow \\mathrm{VT} \\geq \\frac{3}{2})% (₫pcm).<br>Dấu đẳng thức xảy ra khi và chỉ khi %(x=y=z=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Giäi phưong trình<br>\\[\\sqrt{5 x^{2}+14 x+9}-\\sqrt{x^{2}-x-20}=5 \\sqrt{x+1} \\text {. }\\]",
+        "question_images": [],
+        "solution": "Điều kiện xác định: %(\\left\\{\\begin{array}{l}5 x^{2}+14 x+9 \\geq 0 \\\\ x^{2}-x-20 \\geq 0 \\\\ x+1 \\geq 0\\end{array} \\Leftrightarrow x \\geq 5\\right.)%.<br>Ta có: %(\\sqrt{5 x^{2}+14 x+9}=5 \\sqrt{x+1}+\\sqrt{x^{2}-x-20} \\Leftrightarrow 2 x^{2}-5 x+2=5 \\sqrt{(x+1)(x+4)(x-5)})%<br>Đặt %(\\left\\{\\begin{array}{l}u=\\sqrt{x+4} \\\\ v=\\sqrt{x^{2}-4 x-5}\\end{array}\\right.)% với điều kiện: %(u \\geq 3, v \\geq 0)%.<br>Khi đó phương trình trên trờ thành:%(3 u^{2}+2 v^{2}=5 u v \\Leftrightarrow 3 u(u-v)-2 v(u-v)=0 \\Leftrightarrow(u-v)(3 u-2 v)=0 \\Leftrightarrow\\left[\\begin{array}{l}u=v \\\\ 3 u=2 v\\end{array}\\right.)%.TH1: %(u=v)% suy ra: %(\\sqrt{x+4}=\\sqrt{x^{2}-4 x-5} \\Leftrightarrow x^{2}-5 x-9=0 \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{5+\\sqrt{61}}{2} \\\\ x=\\frac{5+\\sqrt{61}}{2}\\end{array}\\right.)%.<br>Đối chiếu điều kiện nhận %(x=\\frac{5+\\sqrt{61}}{2})%.<br>TH2: %(3 u=2 v)% suy ra: %(3 \\sqrt{x+4}=2 \\sqrt{x^{2}-4 x-5} \\Leftrightarrow 4 x^{2}-25 x-56=0 \\Leftrightarrow\\left[\\begin{array}{l}x=8 \\\\ x=-\\frac{7}{4}\\end{array}\\right.)%.<br>Đối chiếu điều kiện nhận %(x=8)%.<br>Vậy tập nghiệm của phương trình %(S=\\left\\{\\frac{5+\\sqrt{61}}{2} ; 8\\right\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho %(a \\geq 2, b \\geq 3, c \\geq 4)%. Tìm giá trị lớn nhất của biểu thức<br>\\[N=\\frac{a b \\sqrt{c-4}+b c \\sqrt{a-2}+c a \\sqrt{b-3}}{a b c} .\\]",
+        "question_images": [],
+        "solution": "Ta có: %(N=\\frac{\\sqrt{c-4}}{c}+\\frac{\\sqrt{a-2}}{a}+\\frac{\\sqrt{b-3}}{b}=\\frac{2 \\sqrt{c-4}}{2 c}+\\frac{\\sqrt{2} \\sqrt{a-2}}{\\sqrt{2} a}+\\frac{\\sqrt{3} \\sqrt{b-3}}{\\sqrt{3} b})%.<br>Áp dụng bất đẳng thức %(\\mathrm{AM}-\\mathrm{GM})%, ta có:<br>\\[N \\leq \\frac{1}{2 c} \\frac{4+c-4}{2}+\\frac{1}{a \\sqrt{2}} \\frac{2+c-2}{2}+\\frac{1}{b \\sqrt{3}} \\frac{3+b-3}{2} \\Leftrightarrow N \\leq \\frac{1}{4}+\\frac{1}{2 \\sqrt{2}}+\\frac{1}{2 \\sqrt{3}} \\text {. }\\]<br>Dấu đẳng thức xảy ra khi và chỉ khi %(\\left\\{\\begin{array}{l}2=\\sqrt{c-4} \\\\ \\sqrt{2}=\\sqrt{a-2} \\\\ \\sqrt{3}=\\sqrt{b-3}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}c=8 \\\\ a=4 \\\\ b=6\\end{array}\\right.\\right.)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Có bao nhiêu số tự nhiên có 7 chữ số, trong đó 2 có mặt đúng hai lần, chữ số 3 có mặt đúng ba lần và các chữ số khác có mặt tối đa một lần.",
+        "question_images": [],
+        "solution": "TH1:<br>Xếp số 0 ờ mọi vị trí.<br>Lấy 3 vị trí, xếp số 3 vào ba vị trí có: %(C_{7}^{3})% cách.<br>Lấy 2 vị trí tiếp theo, xếp số 2 vào hai vị trí có: %(C_{4}^{2})% cách.<br>Xếp 2 vị trí còn lại có thứ tự, có: %(A_{8}^{2})% cách.<br>Vậy theo quy tắc nhân có %(C_{7}^{3} C_{4}^{2} A_{8}^{2}=11760)% số.<br>TH2: Xếp số 0 vị tri đầu.<br>Lấy 3 vị trí, xếp số 3 vào ba vị trí có: %(C_{6}^{3})% cách.<br>Lấy 2 vị trí tiếp theo, xếp số 2 vào hai vị trí có: %(C_{3}^{2})% cách.<br>Xếp 1 vị trí còn lại có thử tự, có: %(A_{7}^{1})% cách.<br>Vậy theo quy tắc nhân có %(C_{6}^{3} C_{3}^{2} A_{7}^{1}=420)% số.<br>Từ trường hợp 1 và truờng hợp 2 , ta có %(11760-420=11340)% số thóa mãn điều kiện bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C)% có bán kính đường tròn ngoại tiếp %(R=1)% và %(\\frac{\\sin A}{m_{a}}+\\frac{\\sin B}{m_{b}}+\\frac{\\sin C}{m_{c}}=\\sqrt{3})% (với %(m_{a}, m_{b}, m_{c})% lần lượt là độ dài của các đường trung tuyến xuất phát từ các đỉh %(A, B, C)% của tam giác %(A B C)% ). Chứng minh rằng tam giác %(A B C)% đều.",
+        "question_images": [],
+        "solution": "Theo giả thiết, ta có %(R=1)% suy ra %(\\sin A=\\frac{a}{2}, \\sin B=\\frac{b}{2}, \\sin C=\\frac{c}{2})%;<br>Khi đó: %(\\frac{\\sin A}{m_{a}}+\\frac{\\sin B}{m_{b}}+\\frac{\\sin C}{m_{c}}=\\sqrt{3} \\Leftrightarrow \\frac{a}{2 m_{a} \\sqrt{3}}+\\frac{b}{2 m_{b} \\sqrt{3}}+\\frac{c}{2 m_{c} \\sqrt{3}}=1)%%(\\Leftrightarrow \\frac{a^{2}}{2 a m_{a} \\sqrt{3}}+\\frac{b^{2}}{2 b m_{b} \\sqrt{3}}+\\frac{c^{2}}{2 c m_{c} \\sqrt{3}}=1(*))%.<br>Áp dụng bài toán chúng minh trên, ta có: %(\\left\\{\\begin{array}{l}2 \\sqrt{3} a \\cdot m_{a} \\leq a^{2}+b^{2}+c^{2} \\\\ 2 \\sqrt{3} b \\cdot m_{b} \\leq a^{2}+b^{2}+c^{2} \\\\ 2 \\sqrt{3} c \\cdot m_{c} \\leq a^{2}+b^{2}+c^{2}\\end{array}\\right.)%.<br>Khi đó ta hoàn toàn chứng minh được: %(\\Leftrightarrow \\frac{a^{2}}{2 a m_{a} \\sqrt{3}}+\\frac{b^{2}}{2 b m_{b} \\sqrt{3}}+\\frac{c^{2}}{2 c m_{c} \\sqrt{3}} \\geq 1)%<br>Thật vạy: %(\\frac{a^{2}}{2 a m_{a} \\sqrt{3}}+\\frac{b^{2}}{2 b m_{b} \\sqrt{3}}+\\frac{c^{2}}{2 c m_{c} \\sqrt{3}} \\geq \\frac{a^{2}}{a^{2}+b^{2}+c^{2}}+\\frac{b^{2}}{a^{2}+b^{2}+c^{2}}+\\frac{c^{2}}{a^{2}+b^{2}+c^{2}})% %(\\frac{a^{2}}{2 a m_{a} \\sqrt{3}}+\\frac{b^{2}}{2 b m_{b} \\sqrt{3}}+\\frac{c^{2}}{2 c m_{c} \\sqrt{3}} \\geq 1(* *))%.<br>Căn cứ vào giả thiết %(\\left({ }^{*}\\right))% suy ra bất đẳng thức %(\\left({ }^{* *}\\right))% xảy ra dấu bằng, tức là:<br>\\[\\left\\{\\begin{array}{l}2 a^{2}=b^{2}+c^{2} \\\\2 b^{2}=a^{2}+c^{2} \\\\2 c^{2}=a^{2}+b^{2}\\end{array} \\Leftrightarrow a=b=c \\text {. Vậy suy ra tam giác } A B C\\right. \\text { đều (đpcm). }\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Tìm số có ba chữ số biết rằng số đó bằng tổng giai thừa các chữ số của nó.",
+        "question_images": [],
+        "solution": "Giả sứ số cần tìm là %(\\overline{a b c}(a \\neq 0))%.<br>Theo già thiết, ta có: %(100 a+10 b+c=a!+b!+c)% !.<br>Nhận thấy %(\\left\\{\\begin{array}{l}7!=5040\\gt 1000 \\\\ \\overline{a b c}\\lt 1000\\end{array}\\right.)%, nên %(a, b, c\\lt 7)%.<br>Xét %(\\max \\{a, b, c\\}=6)%, suy ra %(\\max \\{a!, b!, c!\\}=720)%.<br>Tuy nhiên %(\\overline{a b c} \\leq 666)%, do đó %(a, b, c \\leq 5)%.Nếu %(a, b, c \\leq 4)%, suy ra %(a!+b!+c!\\leq 3.4!=72\\lt 100)%. Vậy trong ba số %(a, b, c)% có it nhất một số 5 .<br>TH1: Có một số bằng 5 , suy ra hai số còn lại nhỏ hơn 5 .<br>Suy ra %(a!+b!+c!\\leq 5!+4!+4!=168)%.<br>Khi đó %(a=1)% suy ra %(b=5)% hoặc %(c=5)%.Xét số cần lập là %(\\overline{1 b 5})% hoặc %(\\overline{15 c})%.<br>KN1: %(\\overline{a b c}=\\overline{1 b 5})%, trong đó %(b \\in\\{1 ; 2 ; 3 ; 4\\})%.<br>Suy ra %(100+10 b+5=1!+b!+5!\\Leftrightarrow b!+16=10 b)%.<br>Kiểm tra %(b \\in\\{1 ; 2 ; 3 ; 4\\})%, ta thấy %(b=4)% thỏa mãn yêu cầu bài toán.<br>KN2: %(\\overline{a b c}=\\overline{15 c})%, trong đó %(c \\in\\{1 ; 2 ; 3 ; 4\\})%.<br>Suy ra %(100+50+c=1!+5!+c!\\Leftrightarrow c!=29+c)%.<br>Kiểm tra %(c \\in\\{1 ; 2 ; 3 ; 4\\})%, ta thấy không tồn tại %(c)% thỏa mãn yêu cầu bài toán.<br>TH2: Có hai số bằng 5 .<br>Suy ra %(5!+5!+0!\\leq 100 a+10 b+c \\leq 5!+5!+4!\\Leftrightarrow 241 \\leq \\overline{a b c} \\leq 264)%, suy ra %(a=2)%.<br>Thử lại %(255 \\neq 2!+5!+5!)%, nên không thỏa mãn yêu cầu bài toán.<br>TH3: Cà ba số bằng 5 .<br>Nhận thấy %(555 \\neq 3.5)% ! nên không thỏa mãn yêu cầu bài toán.<br>Vậy số có ba chữ số thóa mãn điều kiện bài toán là: 145 .",
+        "question_type": "essay"
+    }
+]

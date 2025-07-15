@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho %(P=\\frac{1}{\\sqrt{x}+1}-\\frac{2(\\sqrt{x}-1)}{x \\sqrt{x}+x-\\sqrt{x}-1} ; Q=\\frac{\\sqrt{x}-1}{3 \\sqrt{x}(\\sqrt{x}+1)}(x\\gt 0, x \\neq 1))%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a. Rút gọn %(P)%.",
+        "question_images": [],
+        "solution": "%(P=\\frac{\\sqrt{x}-1}{(\\sqrt{x}+1)^{2}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b. Cho %(M=\\frac{P}{Q})%. Tìm %(x)% để %(M)% là số nguyên.",
+        "question_images": [],
+        "solution": "%(M=\\frac{3 \\sqrt{x}}{\\sqrt{x}+1})%.<br>Dễ thấy %(0\\lt M\\lt 3)% nên nếu %(M)% là số nguyên thì %(M=1)% hoặc %(M=2)%T<br>rường hợp 1:<br>%(M=1 \\Leftrightarrow x=\\frac{1}{4})%<br>Trường hợp 2:<br>%(M=2 \\Leftrightarrow x=4)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 0.75,
+        "content": "Giải phương trình: %(\\sqrt{x^{2}-x}=4+3 x-3 x^{2})%.",
+        "question_images": [],
+        "solution": "Phương trình tương đương với: %(3\\left(x^{2}-x\\right)+\\sqrt{x^{2}-x}-4=0)%.<br>Đặt %(t=\\sqrt{x^{2}-x}(t \\geq 0))%<br>ta được phương trình: %(3 t^{2}+\\mathrm{t}-4=0)%.<br>Giải phương trình này ta được %(t_{1}=1)% (thỏa mãn), %(t_{2}=-\\frac{4}{3})% (loại).<br>Với %(t_{1}=1)% thì %(\\sqrt{x^{2}-x}=1 \\Leftrightarrow x^{2}-x-1=0 \\Leftrightarrow x=\\frac{1}{2}(1 \\pm \\sqrt{5}))%.<br>Vậy phương trình đã cho có tập nghiệm %(S=\\left\\{\\frac{1}{2}(1-\\sqrt{5}) ; \\frac{1}{2}(1+\\sqrt{5})\\right\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 0.75,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}4 x^{2}+3 x+5=4 x y \\\\ y^{2}+2 y-8=7 x\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Cộng hai phương trình tương ứng vế với vế ta được:<br>\\[(2 x-y)^{2}-2(2 x-y)-3=0(*)\\]<br>Ta có %((*) \\Leftrightarrow\\left[\\begin{array}{l}2 x-y=-1 \\\\ 2 x-y=3\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}2 x=y-1 \\\\ 2 x=y+3\\end{array}\\right.\\right.)%Với %(2 x=y-1)% thay vào phương trình thứ hai của hệ đã cho ta được:<br>\\[2\\left(y^{2}+2 y-8\\right)=7(y-1)\\]<br>Giải phương trình này ta được %(y_{1}=3, y_{2}=-\\frac{3}{2})%, tương ứng ta được %(x_{1}=1, x_{2}=-\\frac{5}{4})%.Với %(2 x=y+3)% thay vào phương trình thứ hai của hệ đã cho ta được:<br>\\[2\\left(y^{2}+2 y-8\\right)=7(y+3)\\]<br>Giải phương trình này ta được %(y_{3,4}=\\frac{3 \\pm \\sqrt{305}}{4})%, tương ứng ta được %(x_{3,4}=\\frac{15 \\pm \\sqrt{305}}{8})%.<br>Vậy hệ phương trình đã cho có tập các nghiệm %((x ; y))% là<br>\\[S=\\left\\{(1 ; 3),\\left(-\\frac{5}{4} ;-\\frac{3}{2}\\right),\\left(\\frac{15+\\sqrt{305}}{8} ; \\frac{3+\\sqrt{305}}{4}\\right),\\left(\\frac{15-\\sqrt{305}}{8} ; \\frac{3-\\sqrt{305}}{4}\\right)\\right\\} .\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 0.5,
+        "content": "Cho số thực %(a)% thay đổi. Tìm GTNN của biểu thức %(N=a^{2}-a+\\frac{2}{a^{2}+1}+2023)%.",
+        "question_images": [],
+        "solution": "Ta có %(M=a^{2}-a+\\frac{2}{a^{2}+1}-1=a(a-1)-\\frac{a^{2}-1}{a^{2}+1}=\\frac{a-1}{a^{2}+1} \\cdot\\left[a\\left(a^{2}+1\\right)-(a+1)\\right])% %(\\Rightarrow M=\\frac{(a-1)\\left(a^{3}-1\\right)}{a^{2}+1}=\\frac{(a-1)^{2}\\left(a^{2}+a+1\\right)}{a^{2}+1} \\geq 0, \\forall a \\in \\mathbb{R})%.<br>Do đó %(N=M+2024 \\geq 2024)%.<br>Từ đó %(\\min N=2024 \\Leftrightarrow a=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho các hàm số %(y=-x^{2}(P))% và %(y=(2 m-2) x-2 m-5(d))%. Biết %((d) \\cap(P))% tại %(A, B)% sao cho %(M(-1 ;-11))% là trung điểm của %(A B)%. Gọi %(H, K)% tương ứng là hình chiếu của %(A, B)% trên trục hoành. Tính độ dài %(H K)%.",
+        "question_images": [],
+        "solution": "Phương trình hoành độ giao điểm của %((d) \\&(P))% là:<br>\\[x^{2}+2(m-1) x-2 m-5=0(1)\\]<br>Ta có %(\\Delta^{\\prime}=(m-1)^{2}+2 m+5=m^{2}+6\\gt 0, \\forall m)% nên luôn có %((d) \\cap(P))% tại %(A, B)% phân biệt.<br>Khi đó: %(x_{M}=\\frac{1}{2}\\left(x_{A}+x_{B}\\right) \\Leftrightarrow-1=1-m \\Leftrightarrow m=2)% (thỏa mãn %(y_{M}=-11)% ).<br>Với %(m=2)%<br>thì pt (1) trở thành: %(x^{2}+2 x-9=0(2))%<br>Ta có %(H K=\\left|x_{A}-x_{B}\\right|=2 \\sqrt{10})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho đường tròn %((O), B, C)% là các điểm cố định trên %((O), B C \\neq 2 R \\cdot A)% là một điểm thay đổi trên %((O))% sao cho tam giác %(A B C)% nhọn. Kẻ các đường cao %(A D, B E, C F)% của tam giác %(A B C)%. %(A A^{\\prime})% là đường kính của %((O))%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a. Chứng minh %(\\angle B A D=\\angle C A A^{\\prime})%",
+        "question_images": [],
+        "solution": "%(\\angle C A A^{\\prime}=\\frac{180^{\\circ}-\\angle A O C}{2}=90^{\\circ}-\\angle A B C=\\angle B A D)%<br><img alt=\"https://docdn.giainhanh.io/media/test/835324e0c68d6d2d8b510e896b3fb662.PNG\" src=\"https://docdn.giainhanh.io/media/test/835324e0c68d6d2d8b510e896b3fb662.PNG\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b. %(M)% là điềm đối xứng với %(A)% qua %(B C, N)% là điềm đối xứng với %(B)% qua %(A C)%.<br>1. Chứng minh rằng %(C M \\cdot C E=C N \\cdot C D)%<br>2. Giả sử %(M, C, N)% thẳng hàng, %(R=8 \\mathrm{~cm})%. Tính %(A B)%.",
+        "question_images": [],
+        "solution": "+ %(C M \\cdot C E=C N \\cdot C D)% tương đương %(C A \\cdot C E=C D \\cdot C B)%, điều này hiển nhiên đúng do tứ giác %(A E D B)% nội tiếp.<br>.+có : %(\\angle A C N=\\angle B C A=\\angle B C M)% nên nếu %(C, N, M)% thẳng hàng thì %(\\angle B C A=60^{\\circ})%<br>suy ra %(\\angle A O B=120^{\\circ})%<br>+ Gọi %(T)% là trung điểm %(A B)%,<br>khi đó<br>%(A B=2 A T=2 O A \\cdot \\sin \\angle T I A=2 R \\cdot \\sin 60^{\\circ}=8 \\sqrt{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c)%(I, J)% lần lượt là trung điểm của %(B C, E F)%. %(A I)% cắt %(E F)% tại %(K, H)% là hình chiếu của %(K)% lên %(B C)%. Chứng minh %(A, J, H)% thẳng hàng.",
+        "question_images": [],
+        "solution": "%(+ A J)% cắt %(B C)% tại %(H^{\\prime})%.<br>Gọi %(G)% là trung điểm của %(A H)%,<br>theo kết quả quen thuộc thì %(G, J, I)% cùng thuộc trung trực của %(E F)% nên %(\\angle K J I=90^{\\circ})%<br>+ Mặt khác tam giác %(A E F)% và %(A B C)% đồng dạng mà %(J, I)% lần lượt là trung điểm của %(E F)% và %(B C)%<br>nên tam giác %(A I C)% và %(A J F)% đồng dạng nên %(\\angle A I C=\\angle A J F=\\angle K J H^{\\prime})%<br>nên tứ giác %(K J H^{\\prime} I)% nội tiếp suy ra %(\\angle K H^{\\prime} I=\\angle K J I=90^{\\circ})%<br>nên %(H^{\\prime} \\equiv H)%<br>suy ra điều phải chứng minh",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Cho %(a, b, c, d)% là các số nguyên thỏa mãn: %(|a-b|+|b-c|+|c-d|+|d-a|=a^{2024}+2025)%.<br>Chứng minh rằng %(a^{12}-1)% chia hết cho 16 .",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}+, \\quad \\text { Đặt } \\quad a-b=x, b-c=y, c=d=z, d-a=t, \\quad \\text { khi } \\quad \\text { đó } \\quad x+y+z+t=0 \\quad \\text { và } \\P=|x|+|y|+|z|+|t|=|x|+|y|+|x+y+t|+|t|\\end{array}\\]<br>Ta xét các trường hợp sau.<br>Trường hợp 1: %(x+y)% là số chẵn, khi đó %(|x|+|y|)% chẵn.<br>Mặt khác %(x+y+t)% và %(t)% cùng chẵn hoặc cùng lẻ nên %(|x+y+t|+|t|)% chẵn suy ra %(P)% là số chẵn.<br>Trường hợp 2: %(x+y)% là số lẻ, khi đó: %(|x|+|y|)% lẻ.<br>Mặt khác %(|x+y+t|+|t|)% có thể nhận 4 kết quả sau: %(x+y+2 t, x+y,-x-t,-x-y-2 t)% đều là số lẻ nên %(P)% là số chẵn.<br>Vậy %(a^{2024}+2025)% là số chẵn suy ra %(a)% là số lẻ.<br>Có: %(a^{12}-1=\\left(a^{6}-1\\right)\\left(a^{6}+1\\right)=\\left(a^{2}-1\\right)\\left(a^{4}+a^{2}+1\\right)\\left(a^{6}+1\\right))%<br>Do %(a)% là số lẻ nên %(a^{2}-1)% chia hết cho 8 và %(a^{6}+1)% chia hết cho 2<br>nên %(a^{12}-1)% chia hết cho 16<br>suy ra điều phải chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Một hội nghị tham dự có %(n)% người %((n\\lt 75))%, mỗi người được xếp vào %(m)% hàng. Tổng số người và số hàng cộng với tích, thương, hiệu của số người và số hàng bằng 847 . Tính số người tham dự hội nghị và số người của mỗi hàng.",
+        "question_images": [],
+        "solution": "+ Ta có phương trình sau:<br>%(m+n+m n+n-m+\\frac{n}{m}=847)%<br>tương đương %(2 n+m n+\\frac{n}{m}=847)%<br>+Do %(2 n+m n)% là số tự nhiên nên %(\\frac{n}{m})% cũng là số tự nhiên<br>suy ra %(n=k m(k \\in \\mathbb{N}))%,<br>thay vào phương trình ta có: %(2 k m+k m^{2}+k=847 \\Leftrightarrow k(m+1)^{2}=847=7.11^{2})%<br>nên %(m+1=11 \\Leftrightarrow m=10)% và %(k=7)%<br>Vậy tổng có 70 người và mỗi hàng 7 người.",
+        "question_type": "essay"
+    }
+]

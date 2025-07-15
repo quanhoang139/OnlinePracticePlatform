@@ -1,0 +1,212 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.25,
+        "content": "Điều kiện xác định của phương trình %(\\sqrt{2 x-3}=3 \\sqrt{7-x})% là",
+        "question_images": [],
+        "labelA": "%(x \\geq \\frac{3}{2})%",
+        "labelB": "%(x \\leq 7)%",
+        "labelC": "%(\\frac{3}{2} \\leq x \\leq 7)%",
+        "labelD": "%(\\frac{3}{2}\\lt x\\lt 7)%",
+        "correct_label": "labelC",
+        "solution": "Điều kiện: %(\\left\\{\\begin{array}{l}2 x-3 \\geq 0 \\\\ 7-x \\geq 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq \\frac{3}{2} . \\\\ x \\leq 7\\end{array}\\right.\\right.)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "2 ",
+        "point": 0.25,
+        "content": "Một học sinh có 4 quyển sách Toán khác nhau và 5 quyển sách Ngữ văn khác nhau. Hỏi có bao nhiêu cách xếp 9 quyển sách trên giá sách nằm ngang sao cho hai quyển sách kề nhau phải khác loại nhau?",
+        "question_images": [],
+        "labelA": "362880",
+        "labelB": "2880.",
+        "labelC": "5760.",
+        "labelD": "20.",
+        "correct_label": "labelB",
+        "solution": "Cách xếp thỏa mãn phải theo thứ tự sau: Ngữ văn - Toán - Ngữ văn - Toán -Ngữ văn - Toán - Ngữ văn - Toán - Ngữ văn.<br>Vậy có %(5 \\cdot 4 \\cdot 4 \\cdot 3 \\cdot 3 \\cdot 2 \\cdot 2 \\cdot 1=2880)% cách sắp xếp thỏa mãn.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "3 ",
+        "point": 0.25,
+        "content": "Sau bữa tiệc, mỗi người bắt tay một lần với mỗi người khác trong phòng. Biết rằng có tất cả 66 lượt bắt tay diễn ra. Hỏi trong phòng có bao nhiêu người?",
+        "question_images": [],
+        "labelA": "11.",
+        "labelB": "12.",
+        "labelC": "33.",
+        "labelD": "66.",
+        "correct_label": "labelB",
+        "solution": "Cứ 2 người sẽ có 1 lần bắt tay. Tổng số lần bắt tay là 66 nên ta có:<br>\\[C_{n}^{2}=66 \\Leftrightarrow \\frac{n!}{(n-2)!.2!}=66 \\Leftrightarrow n(n-1)=132 \\Leftrightarrow\\left[\\begin{array}{l}n=12(n) \\n=-11(l)\\end{array}\\right.\\]",
+        "question_type": "quiz"
+    },
+    {
+        "title": "4 ",
+        "point": 0.25,
+        "content": "Số cách chọn một ban chấp hành gồm một trưởng ban, một phó ban, một thư kí và một thủ quỹ được từ 16 thành viên (có khả năng như nhau) là:",
+        "question_images": [],
+        "labelA": "4",
+        "labelB": "%(\\frac{16!}{4})%",
+        "labelC": "%(\\frac{16!}{12!.4!})%",
+        "labelD": "%(\\frac{16!}{12!})%",
+        "correct_label": "labelD",
+        "solution": "Số cách chọn thỏa mãn là %(A_{16}^{4}=\\frac{16!}{12!})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "5 ",
+        "point": 0.25,
+        "content": "%(C_{2 n}^{0}+C_{2 n}^{2}+C_{2 n}^{4}+\\ldots . .+C_{2 n}^{2 n})% bằng:",
+        "question_images": [],
+        "labelA": "%(2^{n-2})%",
+        "labelB": "%(2^{n-1})%",
+        "labelC": "%(2^{2 n-2})%",
+        "labelD": "%(2^{2 n-1})%",
+        "correct_label": "labelD",
+        "solution": "Xét khai triển: %((1+x)^{2 n}=C_{2 n}^{0}+C_{2 n}^{1} x+C_{2 n}^{2} x^{2}+\\ldots+C_{2 n}^{2 n-1} x^{2 n-1}+C_{2 n}^{2 n} x^{2 n}\\left({ }^{*}\\right))%.<br>Thay %(x=1)% vào %(\\left({ }^{*}\\right): C_{2 n}^{0}+C_{2 n}^{1}+C_{2 n}^{2}+\\ldots+C_{2 n}^{2 n-1}+C_{2 n}^{2 n}=(1+1)^{2 n}=2^{2 n})%(1)<br>Thay %(x=-1)% vào %((*): C_{2 n}^{0}-C_{2 n}^{1}+C_{2 n}^{2}+\\ldots-C_{2 n}^{2 n-1}+C_{2 n}^{2 n}=(1-1)^{2 n}=0)%(2)<br>Cộng (1) và (2) theo vế: %(2\\left(C_{2 n}^{0}+C_{2 n}^{2}+C_{2 n}^{4}+\\ldots . .+C_{2 n}^{2 n}\\right)=2^{2 n})%<br>Suy ra: %(C_{2 n}^{0}+C_{2 n}^{2}+C_{2 n}^{4}+\\ldots .+C_{2 n}^{2 n}=2^{2 n-1})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "6 ",
+        "point": 0.25,
+        "content": "Khai triển nhị thức %((2 x+y)^{5})%. Ta được kết quả là:",
+        "question_images": [],
+        "labelA": "%(32 x^{5}+16 x^{4} y+8 x^{3} y^{2}+4 x^{2} y^{3}+2 x y^{4}+y^{5})%",
+        "labelB": "%(32 x^{5}+80 x^{4} y+80 x^{3} y^{2}+40 x^{2} y^{3}+10 x y^{4}+y^{5})%",
+        "labelC": "%(2 x^{5}+10 x^{4} y+20 x^{3} y^{2}+20 x^{2} y^{3}+10 x y^{4}+y^{5})%",
+        "labelD": "%(32 x^{5}+10000 x^{4} y+80000 x^{3} y^{2}+400 x^{2} y^{3}+10 x y^{4}+y^{5})%",
+        "correct_label": "labelB",
+        "solution": "%(\\begin{array}{l}(2 x+y)^{5}=C_{5}^{0}(2 x)^{5}+C_{5}^{1}(2 x)^{4} y+C_{5}^{2}(2 x)^{3} y^{2}+C_{5}^{3}(2 x)^{2} y^{3}+C_{5}^{4}(2 x) y^{4}+C_{5}^{5} y^{5} \\\\ =32 x^{5}+80 x^{4} y+80 x^{3} y^{2}+40 x^{2} y^{3}+10 x y^{4}+y^{5}\\end{array})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "7 ",
+        "point": 0.25,
+        "content": "Phương trình nào dưới đây không phải là phương trình tham số của đường thẳng đi qua hai điểm %(O(0 ; 0))% và %(M(1 ;-3))% ?",
+        "question_images": [],
+        "labelA": "%(32 x^{5}+16 x^{4} y+8 x^{3} y^{2}+4 x^{2} y^{3}+2 x y^{4}+y^{5})%",
+        "labelB": "%(\\left\\{\\begin{array}{l}x=1-2 t \\\\ y=-3+6 t\\end{array}\\right.)%",
+        "labelC": "%(\\left\\{\\begin{array}{l}x=-t \\\\ y=3 t\\end{array}\\right.)%",
+        "labelD": "%(\\left\\{\\begin{array}{l}x=1-t \\\\ y=3 t\\end{array}\\right.)%",
+        "correct_label": "labelD",
+        "solution": "Trong phương án %(\\mathbf{D})%, khi thay tọa độ điểm %(O: x=y=0)% vào phương trình tham số đường thẳng, ta có %(\\left\\{\\begin{array}{l}0=1-t \\\\ 0=3 t\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}t=1 \\\\ t=0\\end{array} \\Leftrightarrow t \\in \\varnothing\\right.\\right.)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "8 ",
+        "point": 0.25,
+        "content": "Cho hai điểm %(A(5 ;-1), B(-3 ; 7))%. Đường tròn có đường kính %(A B)% có phương trình là:",
+        "question_images": [],
+        "labelA": "%(x^{2}+y^{2}-2 x-6 y-22=0)%",
+        "labelB": "%(x^{2}+y^{2}-2 x-6 y+22=0)%",
+        "labelC": "%(x^{2}+y^{2}-2 x-y+1=0)%",
+        "labelD": "%(x^{2}+y^{2}+6 x+5 y+1=0)%",
+        "correct_label": "labelA",
+        "solution": "Tâm %(I)% của đường tròn là trung điểm %(A B)% với %(I(1 ; 3))%.<br>Bán kính đường tròn %(R=\\frac{1}{2} A B=\\frac{1}{2} \\sqrt{(-3-5)^{2}+(7+1)^{2}}=4 \\sqrt{2})%<br>Phương trình đường tròn: %((x-1)^{2}+(y-3)^{2}=32 \\Leftrightarrow x^{2}+y^{2}-2 x-6 y-22=0)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "9 ",
+        "point": 0.25,
+        "content": "Tìm phương trình chính tắc của hyperbol %((H))% nếu nó đi qua điểm %((4 ; 1))% và có tiêu cự bằng %(2 \\sqrt{15})%",
+        "question_images": [],
+        "labelA": "%(\\frac{x^{2}}{14}-\\frac{y^{2}}{7}=1)%",
+        "labelB": "%(\\frac{x^{2}}{12}-\\frac{y^{2}}{3}=1)%",
+        "labelC": "%(\\frac{x^{2}}{11}-\\frac{y^{2}}{4}=1)%",
+        "labelD": "%(\\frac{x^{2}}{9}+\\frac{y^{2}}{4}=1)%",
+        "correct_label": "labelB",
+        "solution": "Gọi %((H): \\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1\\left(a, b, c\\gt 0 ; c^{2}=a^{2}+b^{2}\\right))%.<br>Ta có: %(\\left\\{\\begin{array}{l}\\frac{4^{2}}{a^{2}}-\\frac{1^{2}}{b^{2}}=1 \\\\ 2 c=2 \\sqrt{15} \\\\ c^{2}=a^{2}+b^{2}\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}16 b^{2}-a^{2}=a^{2} b^{2} \\\\ a^{2}+b^{2}=15\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}16 b^{2}-\\left(15-b^{2}\\right)=\\left(15-b^{2}\\right) b^{2} \\\\ a^{2}=15-b^{2}\\end{array}\\right.\\right.\\right.)%<br>\\[\\Rightarrow\\left\\{\\begin{array} { l } { b ^ { 4 } + 2 b ^ { 2 } - 1 5 = 0 } \\\\{ a ^ { 2 } = 1 5 - b ^ { 2 } }\\end{array} \\Rightarrow \\left\\{\\begin{array}{l}a^{2}=12 \\b^{2}=3\\end{array}\\right.\\right. \\text {. }\\]<br>Vậy phương trình chính tắc %((H): \\frac{x^{2}}{12}-\\frac{y^{2}}{3}=1)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "10 ",
+        "point": 0.25,
+        "content": "Trong mặt phẳng %(O x y)% cho elip %((E): \\frac{x^{2}}{25}+\\frac{y^{2}}{9}=1)%. Đường thẳng %(\\Delta: x=-4)% cắt elip %((E))% tại hai điểm %(M, N)%. Tính độ dài đoạn thẳng %(M N)%.",
+        "question_images": [],
+        "labelA": "%(M N=\\frac{18}{25})%",
+        "labelB": "%(M N=\\frac{9}{25})%",
+        "labelC": "%(M N=\\frac{18}{5})%",
+        "labelD": "%(M N=\\frac{9}{5})%",
+        "correct_label": "labelC",
+        "solution": "Thế %(x=-4)% vào phương trình elip (E) ta được: %(\\frac{16}{25}+\\frac{y^{2}}{9}=1 \\Rightarrow y= \\pm \\frac{9}{5})%. %(\\Rightarrow M\\left(-4 ;-\\frac{9}{5}\\right), N\\left(-4 ; \\frac{9}{5}\\right))%.<br>Do đó: %(M N=\\frac{18}{5})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "11 ",
+        "point": 0.25,
+        "content": "Trong một chiếc hộp đựng 6 viên bi đỏ, 8 viên bi xanh, 10 viên bi trắng. Lấy ngẫu nhiên 4 viên bi. Tính số phần tử của biến cố %(B:)% \" 4 viên bi lấy ra có ít nhất một viên bi màu đỏ\".",
+        "question_images": [],
+        "labelA": "%(n(B)=7366)%",
+        "labelB": "%(n(B)=7563)%",
+        "labelC": "%(n(B)=7566)%",
+        "labelD": "%(n(B)=7568)%",
+        "correct_label": "labelC",
+        "solution": "Xét biến cố đối của %(B)% là %(\\bar{B})% : \"Lấy 4 viên bi mà không có viên bi màu đỏ\".<br>Ta có: %(n(\\bar{B})=C_{18}^{4})%.<br>Suy ra: %(n(B)=n(\\Omega)-n(\\bar{B})=C_{24}^{4}-C_{18}^{4}=7566)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "12 ",
+        "point": 0.25,
+        "content": "Một hộp đựng 9 chiếc thẻ được đánh số từ 1 đến 9 . Rút ngẫu nhiên hai thẻ và nhân hai số ghi trên hai thẻ với nhau. Xác suất để tích hai số ghi trên hai thẻ là số lẻ là:",
+        "question_images": [],
+        "labelA": "%(\\frac{1}{9})%",
+        "labelB": "%(\\frac{5}{18})%",
+        "labelC": "%(\\frac{3}{18})%",
+        "labelD": "%(\\frac{7}{18})%",
+        "correct_label": "labelB",
+        "solution": "Ta có %(n(\\Omega)=C_{9}^{2}=36)%. Biến cố %(A)% : \"Rút được hai thẻ có tích là số lẻ\".<br>Từ 1 đến 9 có 5 số lẻ.<br>Suy ra %(n(A)=C_{5}^{2}=10)%.<br>Vì vậy %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{5}{18})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "17 ",
+        "point": 0.5,
+        "content": "Xét nửa đường tròn đường kính %(M N=10)%. Xét điểm %(B)% (không trùng hai điểm %(M, N)% ) di động trên nửa đường tròn và hình chiếu của %(B)% trên đoạn %(M N)% là điểm %(A)%, vẽ hình chữ nhật %(A B C D)% với %(C)% cũng thuộc nửa đường tròn. Tìm độ dài %(I A)% biết rằng chu vi hình chữ nhật %(A B C D)% bằng 22 .",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/71bacdba3282055eba7f00314bd70308.PNG"
+        ],
+        "solution": "Đặt %(I A=x \\in(0 ; 5) \\Rightarrow A D=2 x)%.<br>Xét tam giác %(I A B)% vuông tại %(A)%, ta có: %(A B=\\sqrt{5^{2}-x^{2}})%.<br>Chu vi hình chữ nhật %(A B C D)% là:<br>\\[\\begin{array}{l}2 A B+2 A D=4 x+2 \\sqrt{5^{2}-x^{2}}=22 \\Leftrightarrow \\sqrt{25-x^{2}}=11-2 x \\\\Leftrightarrow\\left\\{\\begin{array} { l } { 1 1 - 2 x \\geq 0 } \\\\{ 2 5 - x ^ { 2 } = 1 2 1 - 4 4 x + 4 x ^ { 2 } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x \\leq \\frac { 1 1 } { 2 } } \\\\{ 5 x ^ { 2 } - 4 4 x + 9 6 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x \\leq \\frac{11}{2} \\x=4 \\vee x=\\frac{24}{5}\\end{array} \\Leftrightarrow x=4 \\vee x=\\frac{24}{5} .\\right.\\right.\\right.\\end{array}\\]<br>Vậy khoảng cách giữa hai điểm %(I, A)% bằng 4 hoặc bằng %(\\frac{24}{5})% thỏa mãn đề bài.",
+        "question_type": "essay"
+    },
+    {
+        "title": "18 ",
+        "point": 0.5,
+        "content": "Nhà Nam có một ao cá dạng hình chữ nhật %(M N P Q)% với chiều dài %(M Q=30 \\mathrm{~m})%, chiều rộng %(M N=24 \\mathrm{~m})%. Phần tam giác %(Q S T)% là nơi nuôi ếch, %(M S=10 \\mathrm{~m}, P T=12 \\mathrm{~m})% (với %(S, T)% lần lượt là các điểm nằm trên cạnh %(M Q, P Q)% ) (xem hình bên dưới).<br>Nam đứng ở vị trí %(N)% câu cá và có thể quăng lưới câu xa %(21,4 \\mathrm{~m})%. Hỏi lưỡi câu có thể rơi vào nơi nuôi ếch hay không?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/79ec717e4c54bb6b74074f46e0e82ad6.PNG"
+        ],
+        "solution": "- %(M N=24 m)% và %(N(0 ; 0))% nên %(M(0 ; 24) . N P=M Q=30 m)% nên %(P(30 ; 0))%.<br>%(Q)% và %(M)% có cùng tung độ, %(Q)% và %(P)% có cùng hoành độ nên %(Q(30 ; 24))%.<br>%(S)% và %(M)% có cùng tung độ, %(M S=10 \\mathrm{~m})% nên %(S(10 ; 24))%.<br>%(T)% và %(P)% có cùng hoành độ, %(P T=12 m)% nên %(T(30 ; 12))%.<br>Đường thẳng %(S T)% có vectơ chỉ phương %(\\overrightarrow{S T}=(20 ;-12))% nên nhận %(\\vec{n}=(3 ; 5))% làm vectơ pháp tuyến. Do đó, phương trình đường thẳng %(S T)% là:<br>\\[3(x-10)+5(y-24)=0 \\Leftrightarrow 3 x+5 y-150=0 \\text {. }\\]<br>- Khoảng cách từ điểm %(N(0 ; 0))% đến đường thẳng %(S T)% là: %(\\frac{|3 \\cdot 0+5 \\cdot 0-150|}{\\sqrt{3^{2}+5^{2}}} \\approx 25,72\\gt 21,4)%.<br>Vì Nam quăng lưỡi câu xa %(21,4 \\mathrm{~m})% nên lưỡi câu không thể rơi vào nơi nuôi ếch.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/55e639593e46619cccb847417b636566.png\" srcset=\"https://docdn.giainhanh.io/media/test/ad536c8880874fbb6cb3e13c3edf084d.png 195w\" width=\"195\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "19 ",
+        "point": 0.5,
+        "content": "Viết phương trình chính tắc của hypebol %((H))% biết rằng: %((H))% có tiêu cự bằng %(2 \\sqrt{13})% và đi qua điểm điểm %(M\\left(\\frac{3 \\sqrt{5}}{2} ;-1\\right))%.",
+        "question_images": [],
+        "solution": "Gọi phương trình chính tắc của hypebol là %((H): \\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1)%.<br>Ta có: %(2 c=2 \\sqrt{13} \\Rightarrow c=\\sqrt{13} \\Rightarrow c^{2}=a^{2}+b^{2}=13 \\Rightarrow a^{2}=13-b^{2})% (1).<br>(H) qua %(M\\left(\\frac{3 \\sqrt{5}}{2} ;-1\\right))% nên %(\\frac{45}{4 a^{2}}-\\frac{1}{b^{2}}=1)%.<br>Suy ra: %(\\frac{45}{4\\left(13-b^{2}\\right)}-\\frac{1}{b^{2}}=1)%<br>\\[\\Rightarrow 45 b^{2}-4\\left(13-b^{2}\\right)=4 b^{2}\\left(13-b^{2}\\right) \\Rightarrow 4 b^{4}-3 b^{2}-52=0 \\Rightarrow b^{2}=4, a^{2}=9 \\text {. }\\]<br>Vậy phương trình chính tắc của hypebol là %((H): \\frac{x^{2}}{9}-\\frac{y^{2}}{4}=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "20 ",
+        "point": 0.5,
+        "content": "Một chú kiến đứng tại góc dưới cùng của lưới %(4 \\times 5)% ô vuông như hình sau đây. Mỗi bước di chuyển chú kiến là một ô, và chú kiến chỉ có thể đi sang phải hoặc đi lên trên theo đường kẻ. Hỏi chú kiến có bao nhiêu cách đến vị trí cuốn sách?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/7341b204a4e7957453f9c976935151c9.PNG"
+        ],
+        "solution": "Để đi đến vị trí cuốn sách, chú kiến cần bước 9 bước gồm 4 bước đi lên và 5 bước đi sang phải. Số cách chọn 4 bước đi lên và 5 bước đi sang phải chính là số cách chọn 4 bước đi lên trong dãy 9 bước cần di chuyển. Do đó, số cách chú kiến có thể chọn để đi đến vị trí cuốn sách là: %(C_{9}^{4}=126)% (cách).",
+        "question_type": "essay"
+    },
+    {
+        "title": "21 ",
+        "point": 0.5,
+        "content": "Cho %(n)% là số nguyên dương thỏa mãn: %(C_{n}^{1}+C_{n}^{2}=15)%. Tìm số hạng không chứa %(x)% trong khai triển: %(\\left(x+\\frac{2}{x^{4}}\\right)^{n})%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(n \\geq 2, n \\in N^{*})%.<br>Ta có: %(C_{n}^{1}+C_{n}^{2}=15 \\Leftrightarrow n+\\frac{n(n-1)}{2}=15 \\Leftrightarrow n^{2}+n-30=0 \\Leftrightarrow\\left[\\begin{array}{c}n=5 \\\\ n=-6\\end{array} \\Rightarrow n=5\\right.)%.<br>Khi đó %(\\left(x+\\frac{2}{x^{4}}\\right)^{5}=\\sum_{k=0}^{5} C_{5}^{k} \\cdot 2^{k} x^{5-k} \\cdot\\left(\\frac{1}{x^{4}}\\right)^{k}=\\sum_{k=0}^{5} C_{5}^{k} \\cdot 2^{k} x^{5-5 k})%,<br>Số hạng không chứa %(x)% tương ứng %(5-5 k=0 \\Leftrightarrow k=1)%.<br>Suy ra số hạng không chứa %(x)% là: %(C_{5}^{1} \\cdot 2^{1}=10)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "22 ",
+        "point": 0.5,
+        "content": "Thùng %(I)% chứa các quả bóng được đánh số %(1 ; 2 ; 3 ; 4)%. Thùng %(I I)% chứa các quả bóng được đánh số %(1 ; 2 ; 3 ; 4)%. Lấy ra ngẫu nhiên một quả bóng ở mỗi thùng. Tính xác suất để quả bóng lấy ra ở thùng %(I)% được đánh số lớn hơn quả bóng lấy ra ở thùng %(I I)%.",
+        "question_images": [],
+        "solution": "Ta lập được bảng mô tả không gian mẫu như sau:<br>Gọi %(E)% là biến cố quả bóng lấy ra ở thùng %(I)% được đánh số lớn hơn quả bóng lấy ra ở thùng II.<br>Dựa vào bảng, ta có %(n(\\Omega)=16, n(E)=6)%.<br>Vậy xác suất của biến cố %(E)% là: %(P(E)=\\frac{n(E)}{n(\\Omega)}=\\frac{6}{16}=\\frac{3}{8})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4269391c58d721ce9e9f77f886f1d0cb.png\" srcset=\"https://docdn.giainhanh.io/media/test/f0a3604a9935a7f855e7f13430b25316.png 245w, https://docdn.giainhanh.io/media/test/9fe76940ac3b0adc50894e97963c7597.png 500w, https://docdn.giainhanh.io/media/test/d88d0f5c17e65330106d74a46b4bd4ad.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    }
+]

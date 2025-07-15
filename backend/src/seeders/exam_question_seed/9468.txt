@@ -1,0 +1,119 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(A=\\frac{x^{2}+x}{x^{2}-2 x+1}:\\left(\\frac{x+1}{x}+\\frac{1}{x-1}+\\frac{2-x^{2}}{x^{2}-x}\\right))%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tìm điều kiện xác định của A",
+        "question_images": [],
+        "solution": "Điều kiện xác định của A là: %(\\left\\{\\begin{array}{l}x^{2}-2 x+1 \\neq 0 \\\\ x \\neq 0 \\\\ x-1 \\neq 0 \\\\ x^{2}-x \\neq 0 \\\\ (x+1)(x-1)+x+2-x^{2} \\neq 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\neq 1 \\\\ x \\neq 0 \\\\ x \\neq 1 \\\\ x \\neq 1 ; x \\neq 0 \\\\ x \\neq-1\\end{array} \\Leftrightarrow x \\neq 0 ; x \\neq \\pm 1\\right.\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Rút gọn A",
+        "question_images": [],
+        "solution": "Với %(x \\neq 0 ; x \\neq \\pm 1)%. Ta có: %(\\begin{aligned} A & =\\frac{x^{2}+x}{x^{2}-2 x+1}:\\left(\\frac{x+1}{x}+\\frac{1}{x-1}+\\frac{2-x^{2}}{x^{2}-x}\\right)=\\frac{x^{2}+x}{(x-1)^{2}}:\\left[\\frac{x+1}{x}+\\frac{1}{x-1}+\\frac{2-x^{2}}{x(x-1)}\\right] \\\\ & =\\frac{x^{2}+x}{(x-1)^{2}}:\\left[\\frac{(x+1)(x-1)+x+2-x^{2}}{x(x-1)}\\right]=\\frac{x^{2}+x}{(x-1)^{2}}:\\left[\\frac{x^{2}-1+x+2-x^{2}}{x(x-1)}\\right] \\\\ & =\\frac{x^{2}+x}{(x-1)^{2}}: \\frac{x+1}{x(x-1)}=\\frac{x(x+1)}{(x-1)^{2}} \\cdot \\frac{x(x-1)}{x+1}=\\frac{x^{2}}{x-1}\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Tìm giá trị nhỏ nhất của A khi %(\\mathrm{x}\\gt 1)%",
+        "question_images": [],
+        "solution": "Với %(x \\neq 0 ; x \\neq \\pm 1)%.<br>Thì A đạt giá trị nhỏ nhất %(\\frac{x^{2}}{x-1})% đạt GTNN.<br>Mà %(\\frac{x^{2}}{x-1}=\\frac{\\left(x^{2}-4 x+4\\right)+(4 x-4)}{x-1}=\\frac{(x-2)^{2}}{x-1}+4)%.<br>Có %((x-2)^{2} \\geq 0 \\forall x)% và %(\\mathrm{x}\\gt 1)% suy ra %(\\mathrm{x}-1>0 . \\Rightarrow \\frac{(x-2)^{2}}{x-1} \\geq 0 \\Rightarrow \\frac{(x-2)^{2}}{x-1}+4 \\geq 4 \\Leftrightarrow A \\geq 4)%.<br>Dấu \"=\" xảy ra %(x-2=0 \\Leftrightarrow x=2)% (TMĐK).",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Giải phương trình:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(x^{3}=-4 x)%",
+        "question_images": [],
+        "solution": "\\[x^{3}=-4 x \\Leftrightarrow x^{3}+4 x=0 \\Leftrightarrow x\\left(x^{2}+4\\right)=0 \\Leftrightarrow x=0\\left(v i x^{2} \\geq 0 \\Rightarrow x^{2}+4\\gt 0\\right) \\text {. }\\]<br>Vậy tập nghiệm %(\\mathrm{S}=\\{0\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) %(\\frac{3}{1-4 x}=\\frac{2}{4 x+1}-\\frac{8+6 x}{16 x^{2}-1})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\frac{3}{1-4 x}=\\frac{2}{4 x+1}-\\frac{8+6 x}{16 x^{2}-1} \\text { (ĐKXĐ: } x \\neq \\pm \\frac{1}{4} \\text { ) } \\\\Leftrightarrow \\frac{3}{1-4 x}=\\frac{2}{4 x+1}+\\frac{8+6 x}{(1-4 x)(1+4 x)} \\Leftrightarrow \\frac{3(1+4 x)}{(1-4 x)(1+4 x)}=\\frac{2(1-4 x)+8+6 x}{(1-4 x)(1+4 x)} \\\\Leftrightarrow 3(1+4 x)=2(1-4 x)+8+6 x \\Leftrightarrow 3+12 x=2-8 x+8+6 x \\Leftrightarrow 14 x=7 \\\\Leftrightarrow x=\\frac{1}{2}(T M Đ K) .\\end{array}\\]<br>Vậy tập nghiệm: %(S=\\left\\{\\frac{1}{2}\\right\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) %(\\left(x^{2}-9\\right)^{2}=12 x+1)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\left(x^{2}-9\\right)^{2}=12 x+1 \\Leftrightarrow x^{4}-18 x^{2}+81=12 x+1 \\Leftrightarrow x^{4}-18 x^{2}-12 x+80=0 \\\\ \\Leftrightarrow\\left(x^{4}-4 x^{3}\\right)+\\left(4 x^{3}-16 x^{2}\\right)-\\left(2 x^{2}-8 x\\right)-(20 x-80)=0 \\\\ \\Leftrightarrow x^{3}(x-4)+4 x^{2}(x-4)-2 x(x-4)-20(x-4)=0 \\\\ \\Leftrightarrow(x-4)\\left(x^{3}+4 x^{2}-2 x-20\\right)=0 \\Leftrightarrow(x-4)\\left[\\left(x^{3}-2 x^{2}\\right)+\\left(6 x^{2}-12 x\\right)+(10 x-20)\\right]=0 \\\\ \\Leftrightarrow(x-4)\\left[x^{2}(x-2)+6 x(x-2)+10(x-2)\\right]=0 \\Leftrightarrow(x-4)(x-2)\\left(x^{2}+6 x+10\\right)=0\\end{array})%%(\\Leftrightarrow x-4=0)% hoặc %(x-2=0)% hoặc %(x^{2}+6 x+10=0)%.<br>(1) %(x-4=0 \\Leftrightarrow x=4)%<br>(2) %(x-2=0 \\Leftrightarrow x=2)%<br>(3) %(x^{2}+6 x+10=0 \\Leftrightarrow(x+3)^{2}+1=0)% (vô lí) vì %((x+3)^{2}+1\\gt 0, \\forall x)%.<br>Vậy tập nghiệm: %(S=\\{2 ; 4\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3a ",
+        "point": 1.0,
+        "content": "Chứng minh %(4^{n}+6 n-1)% chia hết cho 9 với mọi số tự nhiên n.",
+        "question_images": [],
+        "solution": "Vì %(n \\in N)%, ta có:<br>+) Với %(n=0)% thì %(4^{n}+6 n-1=4^{0}+6.0-1=0 \\vdots 9 \\Rightarrow 4^{n}+6 n-1 \\vdots 9)%<br>%(+))% Giả sử: %(4^{n}+6 n-1 \\vdots 9)% đúng đến %(\\mathrm{n}=\\mathrm{k})%, tức là, ta có %(4^{k}+6 k-1 \\vdots 9)%.<br>Ta phải chúng minh %(4^{n}+6 n-1 \\vdots 9)% đúng với %(\\mathrm{n}=\\mathrm{k}+1)%. Tức phải chứng minh %(4^{k+1}+6(k+1)-1 \\vdots 9)%<br>\\[\\begin{array}{l}\\text { Có } 4^{k}+6 k-1 \\vdots 9 \\Leftrightarrow 4.4^{k}+24 k-4 \\vdots 9 \\Leftrightarrow 4.4^{k}+24 k-4-18 k+9 \\vdots 9 \\\\Leftrightarrow 4.4^{k}+6 k+5 \\vdots9 \\Leftrightarrow 4.4^{k}+6(k+1)-1 \\vdots 9\\text { (Đpcm}) .\\end{array}\\]<br>Vậy %(4^{n}+6 n-1 \\vdots 9, \\forall n)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3b ",
+        "point": 1.5,
+        "content": "Tìm đa thức %(\\mathrm{f}(\\mathrm{x}))% biết %(\\mathrm{f}(\\mathrm{x}))% : %(f(x))% : %((x+2))% dư 10; %(f(x):(x-2) \\mathrm{dư} 22 ; f(x):\\left(x^{2}-4\\right))% được thương là -5x và còn dư.",
+        "question_images": [],
+        "solution": "Vì %(x^{2}-4)% là đa thức bậc hai nên dư khi chia %(\\mathrm{f}(\\mathrm{x}))% cho %(x^{2}-4)% phải là một đa thức có bậc nhỏ hơn 2 và có dạng %(\\mathrm{r}(\\mathrm{x})=\\mathrm{ax}+\\mathrm{b})%.<br>Vì %(\\mathrm{f}(\\mathrm{x}))% chia cho %(x^{2}-4)% được thương là -5 x và còn dư là %(\\mathrm{r}(\\mathrm{x}))% suy ra %(f(x)=\\left(x^{2}-4\\right)(-5 x)+a x+b)%<br>Có %(\\mathrm{f}(\\mathrm{x}))% chia cho %((\\mathrm{x}+2))% dư %(10 \\Rightarrow f(x)=(x+2) A(x)+10)% (A(x) là thương của phép chia %(\\mathrm{f}(\\mathrm{x}))% cho %((\\mathrm{x}+2) . \\Rightarrow f(-2)=(-2+2) A(x)+10=10)%.<br>Chứng minh tương tự, ta có: %(\\mathrm{f}(2)=22)%.<br>Suy ra: %(f(-2)=\\left((-2)^{2}-4\\right)(-5) \\cdot 2+2 a+b=10 \\Rightarrow-2 a+b=10(1))%.<br>\\[f(2)=\\left(2^{2}-4\\right)(-5) \\cdot 2+2 a+b=22 \\Rightarrow 2 a+b=22 \\text { (2). }\\]<br>Từ (1) và (2) suy ra: %(2 b=32 \\Rightarrow b=16 \\Rightarrow-2 a+16=10 \\Rightarrow-2 a=-6 \\Rightarrow a=3)%<br>Vậy đa thức %(\\mathrm{f}(\\mathrm{x}))% là %(f(x)=\\left(x^{2}-4\\right)(-5 x)+3 x+16)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3c ",
+        "point": 1.5,
+        "content": "Cho %(4 a^{2}+b^{2}=5 a b)% và %(2 a\\gt b>0)%. Tính giá trị của biểu thức: %(M=\\frac{a b}{4 a^{2}-b^{2}})%",
+        "question_images": [],
+        "solution": "Ta có: %(4 a^{2}+b^{2}=5 a b \\Leftrightarrow 4 a^{2}+b^{2}-5 a b=0 \\Leftrightarrow\\left(4 a^{2}-4 a b\\right)-\\left(a b-b^{2}\\right)=0)% %(\\Leftrightarrow 4 a(a-b)-b(a-b)=0 \\Leftrightarrow(a-b)(4 a-b)=0 \\Leftrightarrow\\left[\\begin{array}{l}a-b=0 \\\\ 4 a-b=0\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}a=b \\\\ 4 a=b\\end{array}\\right.\\right.)%<br>Mà %(2 \\mathrm{a}\\gt \\mathrm{b}>0)% suy %(\\mathrm{ra} ~4 \\mathrm{a}=\\mathrm{b})% (vô lí), suy ra %(\\mathrm{a}=\\mathrm{b})%.<br>Khi đó: %(M=\\frac{a b}{4 a^{2}-b^{2}}=\\frac{a^{2}}{4 a^{2}-a^{2}}=\\frac{a^{2}}{3 a^{2}}=\\frac{1}{3})%.<br>Vậy %(M=\\frac{1}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho hình vuông ABCD. Trên AB lấy điểm M, trên tia đối của tia CB lấy điểm N sao cho %(\\mathrm{AM}=\\mathrm{CN})%. Gọi E là trung điểm của MN. Trên DE cắt BC tại F. Qua M vẽ đường thẳng song song với AD cắt DF tại H.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Tứ giác MFNH là hình gì? Vì sao?",
+        "question_images": [],
+        "solution": "Nối M với %(\\mathrm{D} ; \\mathrm{N})% với D<br>Ta có:  %(\\left.\\begin{array}{l}M H / / A D \\\\ A D / / B C\\end{array}\\right\\} \\Rightarrow M H / / B C)%<br>Xét %(\\triangle M E H)% và %(\\Delta N)%<br>\\[\\begin{array}{c}A B=A D \\text { (Vì E là trung điềm của } \\mathrm{MN} \\text { ) } \\\\widehat{E M H}=\\widehat{E N F} \\text { (Vì } 2 \\text { góc so le trong) } \\\\triangle M E H=\\triangle N E F \\text { (g.c.g) } \\\\Rightarrow \\mathrm{EF}=\\mathrm{EH} \\text { (Vì } 2 \\text { góc tương ứng) }\\end{array}\\]<br>%(\\Rightarrow \\mathrm{E})% là trung điểm của FH<br>Mà E là trung điểm của MN<br>Do đó tứ giác HMFN là hình bình hành (1)<br>Xét %(\\triangle D A M)% vuông tại A và %(\\triangle D C N)% vuông tại C có:<br>\\[\\begin{array}{l}A D=D C ; \\A M=C N \\\\Rightarrow \\triangle D A M=\\triangle D C N \\text { (2 cạnh góc vuông) } \\\\=\\gt M D / / D N ; \\widehat{A D M}=\\widehat{C D N}\\end{array}\\]<br>Mà<br>\\[\\begin{array}{l} \\widehat{A D M}+\\widehat{M D C}=90^{\\circ} \\\\Rightarrow \\widehat{C D N}+\\widehat{M D C}=90^{\\circ} \\\\Rightarrow \\widehat{M D N}=90^{\\circ}\\end{array}\\]<br>%(\\Rightarrow \\triangle M D N)% là tam giác vuông cân tại D<br>Mà DE là đường trung tuyến ứng với MN<br>\\[\\begin{array}{l}\\Rightarrow D E \\perp M N \\\\text { Hay: } H F \\perp M N(2)\\end{array}\\]<br>Do đó tứ giác HMFN là hình vuông.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9a9b2e75b892b4820c8745e626e167e0.png\" srcset=\"https://docdn.giainhanh.io/media/test/c37257544a82b7311c5e169176cf58af.png 126w\" width=\"126\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Chứng minh: NF.NB=NE.NM",
+        "question_images": [],
+        "solution": "Xét %(\\triangle N E F)% vuông tại e và %(\\triangle N B M)% vuông tại B có: %(\\widehat{M N B})% là góc chung<br>%(\\Rightarrow \\triangle N E F)% %(\\infty)% %(\\triangle N B M)% (góc nhọn)<br>%(\\Rightarrow \\frac{N E}{N B}=\\frac{N F}{N M})% %(\\Rightarrow N E \\cdot N M=N F \\cdot N B)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Chứng minh chu vi tam giác BMF không đổi khi M chuyển đổi trên cạnh AB.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}P_{\\triangle MB F}=M B+B F+M F \\P_{\\triangle MB F}=M B+B F+F N \\P_{\\triangle MB F}=M B+B F+F C+C N \\P_{\\triangle MB F}=(M B+C N)+(B F+F C) \\P_{\\triangle M B F}=(M B+A M)+B C=A B+A B=2 A B\\end{array}\\]<br>%(\\Rightarrow P_{\\triangle M B F})% không đổi khi M di chuyển trên cạnh AB.",
+        "question_type": "essay"
+    }
+]

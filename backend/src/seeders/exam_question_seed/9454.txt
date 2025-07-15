@@ -1,0 +1,89 @@
+[
+    {
+        "title": "Câu 1 ",
+        "point": 2.0,
+        "content": "Phân tích đa thức sau thành nhân tử : %(x^{2}-2 x y+y^{2}+4 x-4 y-5)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}(x-y)^{2}+4(x-y)-5=(x-y)^{2}+4(x-y)+4-9 \\\\ =(x-y-2)^{2}-3^{2}=(x-y+5)(x-y-1)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 2.0,
+        "content": "Chứng minh %(\\forall n \\in \\mathbb{N})% * thì %(n^{3}+n+2)% là hợp số",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Ta có: } n^{3}+n+2=n^{3}+1+n+1=(n+1)\\left(n^{2}-n+1\\right)+(n+1) \\\\=(n+1)\\left(n^{2}-n+2\\right)\\end{array}\\]<br>Do %(\\forall n \\in \\mathbb{N}^{*})% nên %(\\left\\{\\begin{array}{l}n+1\\gt 1 \\\\ n^{2}-n+2>1 .\\end{array}\\right.)%.<br>Vậy %(n^{3}+n+2)% là hợp số.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 2.0,
+        "content": "Cho hai số chính phương liên tiếp. Chứng minh rằng tổng của hai số đó cộng với tích của chúng là một số chính phương lẻ.",
+        "question_images": [],
+        "solution": "Gọi hai số lần lượt là %(a^{2})% và %((a+1)^{2})%<br>Theo bài ra ta có:<br>\\[\\begin{array}{l}a^{2}+(a+1)^{2}+a^{2} \\cdot(a+1)^{2}=a^{4}+2 a^{3}+3 a^{2}+2 a+1 \\\\=\\left(a^{4}+2 a^{3}+a^{2}\\right)+2\\left(a^{2}+a\\right)+1=\\left(a^{2}+a\\right)^{2}+2(a+1)+1\\end{array}\\]<br>%(=\\left(a^{2}+a+1\\right)^{2})% là một số chính phương lè vì %(a^{2}+a=a(a+1))% là số chẵn nên %(a^{2}+a+1)% là số lẻ",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(\\frac{x-1}{2012}+\\frac{x-2}{2011}+\\frac{x-3}{2010}+\\ldots . .+\\frac{x-2012}{1}=2012)%",
+        "question_images": [],
+        "solution": "Phương trình đã cho tương đương với :<br>\\[\\begin{array}{l}\\frac{x-1}{2012}-1+\\frac{x-2012}{2011}-1+\\frac{x-3}{2010}-1+\\ldots . .+\\frac{x-2012}{1}-1+2012=2012 \\\\Leftrightarrow \\frac{x-2013}{2012}+\\frac{x-2013}{2011}+\\frac{x-2013}{2010}+\\ldots \\ldots . .+\\frac{x-2013}{1}=0 \\\\Leftrightarrow(x-2013)\\left(\\frac{1}{2012}+\\frac{1}{2011}+\\frac{1}{2010}+\\ldots . .+\\frac{1}{1}\\right)=0 \\Leftrightarrow x=2013\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 2.0,
+        "content": "Cho %(a^{2}+b^{2}+c^{2}=a^{3}+b^{3}+c^{3}=1)%. Tính %(S=a^{2}+b^{2012}+c^{2013})%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text {  } a^{2}+b^{2}+c^{2}=a^{3}+b^{3}+c^{3}=1 \\Rightarrow a ; b ; c \\in[-1 ; 1] \\\\ \\Rightarrow a^{3}+b^{3}+c^{3}-\\left(a^{2}+b^{2}+c^{2}\\right)=a^{2}(a-1)+b^{2}(b-1)+c^{2}(c-1) \\leq 0 \\\\ \\Rightarrow a^{3}+b^{3}+c^{3} \\leq 1 \\Rightarrow a ; b ; c \\text { nhận hai giá trị là } 0 \\text { hoặc } 1 \\\\ \\Rightarrow b^{2012}=b^{2} ; c^{2013}=c^{2} \\Rightarrow S=a^{2}+b^{2012}+c^{2013}=1\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6 ",
+        "point": 2.0,
+        "content": "Tìm giá trị nhỏ nhất của biểu thức: %(A=2 x^{2}+3 y^{2}+4 x y-8 x-2 y+18)%",
+        "question_images": [],
+        "solution": "Ta có: %(A=2\\left(x^{2}+2 x y+y^{2}\\right)+y^{2}-8 x-2 y+18)%<br>\\[\\begin{array}{l}A=2\\left[(x+y)^{2}-4(x+y)+4\\right]+\\left(y^{2}+6 y+9\\right)+1 \\A=2(x+y-2)^{2}+(y+3)^{2}+1 \\geq 1 \\\\text { Vậy MinA }=1 \\Leftrightarrow\\left\\{\\begin{array}{l}x=5 \\y=-3\\end{array}\\right.\\end{array}\\]<br>Vậy %(\\operatorname{Min} A=1 \\Leftrightarrow\\left\\{\\begin{array}{l}x=5 \\\\ y=-3\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là ba cạnh của tam giác<br>Chứng minh : %(\\frac{a b}{a+b-c}+\\frac{b c}{-a+b+c}+\\frac{a c}{a-b+c} \\geq a+b+c)%",
+        "question_images": [],
+        "solution": "Vì %(a, b, c)% là ba cạnh của một tam giác nên: %(a+b-c\\gt 0 ;-a+b+c>0 ; a-b+c>0)%<br>Đặt %(x=-a+b+c>0 ; y=a-b+c>0 ; z=a+b-c>0)%<br>Ta có: %(x+y+z=a+b+c ; a=\\frac{y+z}{2} ; b=\\frac{x+z}{2} ; c=\\frac{x+y}{2})%<br>\\[\\begin{array}{l}\\frac{a b}{a+b-c}+\\frac{b c}{-a+b+c}+\\frac{a c}{a-b+c}=\\frac{(y+z)(x+z)}{4 z}+\\frac{(x+z)(x+y)}{4 x}+\\frac{(x+y)(y+z)}{4 y} \\\\=\\frac{1}{4}\\left(\\frac{x y}{z}+\\frac{y z}{x}+\\frac{x z}{y}+3 x+3 y+3 z\\right)=\\frac{1}{4}\\left[3(x+y+z)+\\frac{1}{2}\\left(2 \\cdot \\frac{x y}{z}+2 \\cdot \\frac{y z}{x}+2 \\cdot \\frac{x z}{y}\\right)\\right] \\\\=\\frac{1}{4} \\cdot\\left[3(x+y+z)+\\frac{y}{2} \\cdot\\left(\\frac{x}{z}+\\frac{z}{x}\\right)+\\frac{x}{2} \\cdot\\left(\\frac{y}{z}+\\frac{z}{y}\\right)+\\frac{z}{2}\\left(\\frac{x}{y}+\\frac{y}{x}\\right)\\right] \\\\geq \\frac{1}{4} \\cdot[3(x+y+z)+x+y+z]=x+y+z\\end{array}\\]<br>Mà %(x+y+z=a+b+c)% nên suy ra điều phải chứng minh",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8",
+        "group_content": "Cho hình vuông %(A B C D)% có cạnh bằng %(a)%. Gọi %(E, F, G, H)% lần lượt là trung điểm của các cạnh %(A B, B C, C D, D A)%. M là giao điểm của %(C E)% và %(D F)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Chứng minh: Tứ giác %(E F G H)% là hình vuông",
+        "question_images": [],
+        "solution": "Chứng minh %(E F G H)% là hình thoi<br>Chứng minh có 1 góc vuông nên %(E F G H)% là hình vuông<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9fcb833d9c39523e7bc2700d4d4be8e6.png\" srcset=\"https://docdn.giainhanh.io/media/test/7b678a9e23eec94777a82196f8d0a26b.png 174w\" width=\"174\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Chứng minh %(D F \\perp C E)% và %(\\triangle M A D)% cân",
+        "question_images": [],
+        "solution": "%(\\triangle B E C=\\triangle C F D \\Rightarrow \\widehat{E C B}=\\widehat{F D C})% mà %(\\triangle C D F)% vuông tại C nên:<br>%(\\Rightarrow \\widehat{C D F}+\\widehat{D F C}=90^{\\circ} \\Rightarrow \\widehat{D F C}+\\widehat{E C B}=90^{\\circ} \\Rightarrow \\triangle C M F)% vuông tại M hay %(C E \\perp D F)%<br>Gọi N là giao điểm của %(A G)% và %(D F)%.<br>Chứng minh tương tự: %(A G \\perp D F)% %(\\Rightarrow G N / / C M)% mà G là trung điểm của DC nên %(N)% là trung điểm %(D M)%.<br>Trong %(\\triangle M A D)% có %(A N)% vừa là đường cao, vừa là đường trung tuyến %(\\Rightarrow \\triangle M A D)% cân tại A",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) Tính diện tích %(\\triangle M D C)% theo %(a)%.",
+        "question_images": [],
+        "solution": "%(\\triangle C M D \\sim \\triangle F C D(g . g) \\Rightarrow \\frac{C D}{F D}=\\frac{C M}{F C})%<br>Do đó : %(\\frac{S_{C M D}}{S_{F C D}}=\\left(\\frac{C D}{F D}\\right)^{2} \\Rightarrow S_{C M D}=\\left(\\frac{C D}{F D}\\right)^{2} \\cdot S_{F C D})%<br>Mà %(S_{F C D}=\\frac{1}{2} C F . C D=\\frac{1}{4} C D^{2})%.<br>Vậy %(S_{C M D}=\\frac{C D^{2}}{F D^{2}} \\cdot \\frac{1}{4} C D^{2})%<br>Trong %(\\triangle D C F)% theo định lý Pytago ta có:<br>%(D F^{2}=C D^{2}+C F^{2}=C D^{2}+\\left(\\frac{1}{2} B C^{2}\\right)=C D^{2}+\\frac{1}{4} C D^{2}=\\frac{5}{4} C D^{2})%<br>Do đó: %(S_{M C D}=\\frac{C D^{2}}{\\frac{5}{4} C D^{2}} \\cdot \\frac{1}{4} C D^{2}=\\frac{1}{5} a^{2})%",
+        "question_type": "essay"
+    }
+]

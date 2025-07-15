@@ -1,0 +1,112 @@
+[
+    {
+        "title": "1. ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}2 x=4 \\\\ x+y=5\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}2 x=4 \\\\ x+y=5\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=2 \\\\ y=3\\end{array}\\right.\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2. ",
+        "point": 1.5,
+        "content": "Rút gọn biểu thức với %(P=\\frac{x-2}{x+2 \\sqrt{x}}-\\frac{1}{\\sqrt{x}}+\\frac{1}{\\sqrt{x}+2})%",
+        "question_images": [],
+        "solution": "%(P=\\frac{x-2-\\sqrt{x}+2+\\sqrt{x}}{\\sqrt{x} \\sqrt{x}+2}=\\frac{x-4}{\\sqrt{x} \\sqrt{x}+2}=\\frac{\\sqrt{x}-2}{\\sqrt{x}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.",
+        "group_content": "Cho phương trình %(\\mathrm{x}^{2}-2 \\mathrm{mx}+\\mathrm{m}^{2}-1=0(1))%, với %(m)% là tham số",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Giải phương trình 1 khi %(m=2)%.",
+        "question_images": [],
+        "solution": "Với %(m=2)% PT trở thành %(x^{2}-4 x+3=0)%<br>Giải phương trình tìm được các nghiệm %(x=1 ; x=3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Chứng minh rằng phương trình luôn có hai nghiệm phân biệt với mọi %(m)%. Gọi %(\\mathrm{x}_{1}, \\mathrm{x}_{2})% là hai nghiệm của phương trình, lập phương trình bậc hai nhận %(x_{1}^{3}-2 m x_{1}^{2}+m^{2} x_{1}-2)% và %(x_{2}^{3}-2 m x_{2}^{2}+m^{2} x_{2}-2)% là nghiệm.",
+        "question_images": [],
+        "solution": "\\[\\Delta^{\\prime}=1\\gt 0 \\forall \\mathrm{m}\\]<br>%(\\Rightarrow)% Phương trình luôn có hai nghiệm phân biệt<br>Áp dụng hệ thức Vi-ét, ta có: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=2 m \\\\ x_{1} x_{2}=m^{2}-1\\end{array}\\right.)%<br>Biến đổi phương trình:<br>\\[\\begin{aligned}& x^{2}-2 m x+m^{2}-1=0 \\Leftrightarrow x^{2}-2 m x+m^{2}=1 \\\\Rightarrow & x^{3}-2 m x^{2}+m^{2} x=x \\Leftrightarrow x^{3}-2 m x^{2}+m^{2} x-2=x-2\\end{aligned}\\]<br>Vì %(x_{1}, x_{2})% là các nghiệm của phương trình nên:<br>\\[\\begin{aligned}& \\left(x_{1}^{3}-2 m x_{1}^{2}+m^{2} x_{1}-2\\right)+\\left(x_{2}^{3}-2 m x_{2}^{2}+m^{2} x_{2}-2\\right)=\\left(x_{1}-2\\right)+\\left(x_{2}-2\\right) \\\\= & x_{1}+x_{2}-4=2 m-4 \\\\& \\left(x_{1}^{3}-2 m x_{1}^{2}+m^{2} x_{1}-2\\right) \\cdot\\left(x_{2}^{3}-2 m x_{2}^{2}+m^{2} x_{2}-2\\right)=\\left(x_{1}-2\\right) \\cdot\\left(x_{2}-2\\right) \\\\= & x_{1} x_{2}-2\\left(x_{1}+x_{2}\\right)+4=m^{2}-1-2 \\cdot 2 m+4=m^{2}-4 m+3\\end{aligned}\\]<br>%(\\Rightarrow)% Phương trình cần lập là: %(x^{2}-(2 m-4) x+m^{2}-4 m+3=0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4. ",
+        "point": 1.0,
+        "content": "<i>Giải bài toán bằng cách lập phương trình, hệ phương trình.</i><br>Một nhóm gồm 15 học sinh (cả nam và nữ) tham gia buổi lao động trồng cây. Các bạn nam trồng được 30 cây, các bạn nữ trồng được 36 cây. Mỗi bạn nam trồng được số cây như nhau và mỗi bạn nữ trồng được số cây như nhau. Tính số học sinh nam và số học sinh nữ của nhóm, biết rằng mỗi bạn nam trồng được nhiều hơn mỗi bạn nữ 1 cây.",
+        "question_images": [],
+        "solution": "Gọi số HS nam của nhóm là %(x \\quad x \\in \\mathbb{N} ; 0\\lt x\\lt 15)%, số HS nữ là %(15-x)%.<br>Theo đề bài số cây các bạn nam trồng được là 30 và số cây các bạn nữ trồng được là 36 nên Mỗi HS nam trồng được %(\\frac{30}{x})% cây,<br>Mỗi HS nữ trồng được %(\\frac{36}{15-x})% cây.<br>Vì mỗi bạn nam trồng được nhiều hơn mỗi bạn nữ 1 cây nên ta có<br>\\[\\begin{array}{l}\\frac{30}{x}-\\frac{36}{15-x}=1 \\Leftrightarrow 3015-x-36 x=x 15-x \\\\Leftrightarrow x^{2}-81 x+450=0 \\Leftrightarrow\\left[\\begin{array}{l}x=75 \\text { loại } \\x=6 \\quad(\\mathrm{t} / \\mathrm{m})\\end{array}\\right.\\end{array}\\]<br>Vậy có 6 HS nam và 9 HS nữ.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5.",
+        "group_content": "Từ điểm %(\\mathrm{M})% nằm ngoài đường tròn %((\\mathrm{O}))% kẻ hai tiếp tuyến %(\\mathrm{MA}, \\mathrm{MB})% với đường tròn ( %(A, B)% là các tiếp điểm). Lấy điểm %(C)% trên cung nhỏ %(A B)% ( %(C)% không trùng với %(A)% và %(B)% ). Từ điểm %(C)% kẻ %(C D)% vuông góc với %(A B, C E)% vuông góc với %(M A, C F)% vuông góc với %(M B(D \\in A B, E \\in M A, F \\in M B)%. Gọi I là giao điểm của %(A C)% và %(D E, K)% là giao điểm của %(B C)% và %(D F)%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 5,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "vẽ hình ",
+        "point": 0.25,
+        "content": "",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1c9e30ac812e9715fbc2e0a8f880bac3.png\" srcset=\"https://docdn.giainhanh.io/media/test/176e4203d7c3f92ee7afe5d24d0628d6.png 245w, https://docdn.giainhanh.io/media/test/98cf0b4f7e44f561d11a3e04ead8d8e3.png 500w\" width=\"500\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1c9e30ac812e9715fbc2e0a8f880bac3.png\" srcset=\"https://docdn.giainhanh.io/media/test/176e4203d7c3f92ee7afe5d24d0628d6.png 245w, https://docdn.giainhanh.io/media/test/98cf0b4f7e44f561d11a3e04ead8d8e3.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Tứ giác ADCE nội tiếp một đường tròn.",
+        "question_images": [],
+        "solution": "Ta có %(A E C=A D C=90^{\\circ} \\Rightarrow A E C+A D C=180^{\\circ})% do đó, tứ giác %(A D C E)% nội tiếp.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.75,
+        "content": "b) Hai tam giác CDE và CFD đồng dạng.",
+        "question_images": [],
+        "solution": "Chứng minh tương tự tứ giác %(B D C F)% nội tiếp.<br>Do các tứ giác %(A D C E, B D C F)% nội tiếp nên %(B_{1}=F_{1}, A_{1}=D_{1})%<br>Mà %(A M)% là tiếp tuyến của đường tròn %(O)% nên %(A_{1}=\\frac{1}{2} \\mathrm{~s} A C=B_{1} \\Rightarrow D_{1}=F_{1})%.<br>Chứng minh tương tự %(E_{1}=D_{2})%. Do đó, %(\\triangle C D E \\sim \\triangle C F D)% g.g",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 0.75,
+        "content": "c) Tia đối của %(\\mathrm{CD})% là tia phân giác của góc %(\\hat{\\mathrm{E}} \\mathrm{CF})%.",
+        "question_images": [],
+        "solution": "Gọi %(C x)% là tia đối của tia %(C D)%.<br>Do các tứ giác %(A D C E, B D C F)% nội tiếp nên %(D A E=E C x, D B F=F C x)%<br>Mà %(M A B=M B A \\Rightarrow E C x=F C x)% nên %(C x)% là phân giác góc %(E C F)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "d) ",
+        "point": 0.75,
+        "content": "d) Đường thẳng %(\\mathrm{IK})% song song với đường thẳng %(\\mathrm{AB})%",
+        "question_images": [],
+        "solution": "Theo chứng minh trên %(A_{2}=D_{2}, B_{1}=D_{1})%<br>Mà %(A_{2}+B_{1}+A C B=180^{\\circ} \\Rightarrow D_{2}+D_{1}+A C B=180^{\\circ} \\Rightarrow I C K+I D K=180^{\\circ})%Do đó, tứ giác %(C I K D)% nội tiếp %(\\Rightarrow K_{1}=D_{1})% mà %(D_{1}=B_{1} \\Rightarrow I K / / A B)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6. ",
+        "point": 0.5,
+        "content": "Giải phương trình %(x^{2} - x + 1 x^{2} + 4 x + 1 = 6 x^{2})%.",
+        "question_images": [],
+        "solution": "Dễ thấy %(x=0)% không là nghiệm của phương trình nên<br>\\[P T \\Leftrightarrow\\left(x+\\frac{1}{x}-1\\right)\\left(x+\\frac{1}{x}+4\\right)=6\\]<br>Đặt %(t=x+\\frac{1}{x})% ta được %(t-1 \\quad t+4=6 \\Leftrightarrow t^{2}+3 t-10=0 \\Leftrightarrow\\left[\\begin{array}{l}t=2 \\\\ t=-5\\end{array}\\right.)%<br>Với %(t=2 \\Rightarrow x+\\frac{1}{x}=2 \\Leftrightarrow x^{2}-2 x+1=0 \\Leftrightarrow x=1)%<br>Với %(t=-5 \\Rightarrow x+\\frac{1}{x}=-5 \\Leftrightarrow x^{2}+5 x+1=0 \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{-5-\\sqrt{21}}{2} \\\\ x=\\frac{-5+\\sqrt{21}}{2}\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7. ",
+        "point": 0.5,
+        "content": "Cho bốn số thực dương %(x, y, z, t)% thỏa mãn %(x+y+z+t=2)%. Tìm giá trị nhỏ nhất của biểu thức %(\\mathrm{A}=\\frac{(\\mathrm{x}+\\mathrm{y}+\\mathrm{z})(\\mathrm{x}+\\mathrm{y})}{\\mathrm{zyzt}})%.",
+        "question_images": [],
+        "solution": "Ta có %(4 A=\\frac{(x+y+z+t)^{2}(x+y+z)(x+y)}{x y z t})%<br>%(\\begin{array}{l}\\geq \\frac{4(x+y+z) t(x+y+z)(x+y)}{x y z t} \\\\ =\\frac{4(x+y+z)^{2}(x+y)}{x y z} \\geq \\frac{4.4(x+y) z(x+y)}{x y z} \\\\ =\\frac{16(x+y)^{2}}{x y} \\geq \\frac{16.4 x y}{x y} \\geq 64 \\Rightarrow A \\geq 16\\end{array})%<br>Đẳng thức xảy ra khi và chỉ khi %(\\left\\{\\begin{array}{l}x+y+z+t=2 \\\\ x+y+z=t \\\\ x+y=z \\\\ x=y\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=y=\\frac{1}{4} \\\\ z=\\frac{1}{2} \\\\ t=1\\end{array}\\right.\\right.)%",
+        "question_type": "essay"
+    }
+]

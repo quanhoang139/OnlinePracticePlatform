@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1",
+        "group_content": "Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) %(\\mathrm{A}=1+3+3^{2}+3^{3}+\\ldots+3^{11})% chia hết cho 40 .",
+        "question_images": [],
+        "solution": "\\[\\begin{aligned}\\mathrm{A} & =1+3+3^{2}+3^{3}+\\ldots+3^{11} \\\\& =\\left(1+3+3^{2}+3^{3}\\right)+\\left(3^{4}+3^{5}+3^{6}+3^{7}\\right)+\\left(3^{8}+3^{9}+3^{10}+3^{11}\\right) \\\\& =\\left(1+3+3^{2}+3^{3}\\right)+3^{4} \\cdot\\left(1+3+3^{2}+3^{3}\\right)+3^{8}\\left(1+3+3^{2}+3^{3}\\right) \\\\& =40+3^{4} \\cdot 40+3^{8} \\cdot 40 \\\\& =40 \\cdot\\left(1+3^{4}+3^{8}\\right) \\vdots 40\\end{aligned}\\]<br>Vây A%(\\vdots)%40",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) %(\\mathrm{B}=\\frac{1}{2^{2}}+\\frac{1}{3^{2}}+\\frac{1}{4^{2}}+\\ldots+\\frac{1}{100^{2}}\\lt 1)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}B=\\frac{1}{2^{2}}+\\frac{1}{3^{2}}+\\frac{1}{4^{2}}+\\ldots+\\frac{1}{100^{2}} \\\\=\\frac{1}{2.2}+\\frac{1}{3.3}+\\frac{1}{4.4}+\\ldots+\\frac{1}{100.100} \\\\lt \\frac{1}{1.2}+\\frac{1}{2.3}+\\frac{1}{3.4}+\\ldots+\\frac{1}{99.100}=1-\\frac{1}{2}+\\frac{1}{2}-\\frac{1}{3}+\\ldots+\\frac{1}{99}-\\frac{1}{100} \\\\=1-\\frac{1}{100}\\lt 1 \\\\end{array}\\]<br>Vậy %(\\mathrm{B}\\lt 1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}=0)%, chứng minh rằng %(\\mathrm{a}^{3}+\\mathrm{b}^{3}+\\mathrm{c}^{3}=3 \\mathrm{abc})%",
+        "question_images": [],
+        "solution": "Ta có:%(a+b+c=0)% suy ra %(a+b=-c)%<br>Mặt khác: %((\\mathrm{a}+\\mathrm{b})^{3}=\\mathrm{a}^{3}+\\mathrm{b}^{3}+3 \\mathrm{ab}(\\mathrm{a}+\\mathrm{b}))%<br>Suy ra<br>\\[\\begin{aligned}(-c)^{3} & =a^{3}+b^{3}+3 a b(-c) \\a^{3}+b^{3}+c^{3} & =3 a b c(đ p c m)\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "So sánh hai số sau: %(\\mathrm{C}=(2+1)\\left(2^{2}+1\\right)\\left(2^{4}+1\\right)\\left(2^{8}+1\\right)\\left(2^{16}+1\\right))% và %(\\mathrm{D}=2^{32})%.",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} \\mathrm{C} & =(2+1)\\left(2^{2}+1\\right)\\left(2^{4}+1\\right)\\left(2^{8}+1\\right)\\left(2^{16}+1\\right) \\\\ (2-1) \\mathrm{C} & =(2-1)(2+1)\\left(2^{2}+1\\right)\\left(2^{4}+1\\right)\\left(2^{8}+1\\right)\\left(2^{16}+1\\right) \\\\ \\mathrm{C} & =\\left(2^{2}-1\\right)\\left(2^{2}+1\\right)\\left(2^{4}+1\\right)\\left(2^{8}+1\\right)\\left(2^{16}+1\\right)\\end{aligned})%<br>\\[\\begin{array}{l}\\mathrm{C}=\\left(2^{4}-1\\right)\\left(2^{4}+1\\right)\\left(2^{8}+1\\right)\\left(2^{16}+1\\right) \\\\mathrm{C}=\\left(2^{8}-1\\right)\\left(2^{8}+1\\right)\\left(2^{16}+1\\right) \\\\mathrm{C}=\\left(2^{16}-1\\right)\\left(2^{16}+1\\right) \\\\mathrm{C}=2^{32}-1\\end{array}\\]<br>Vì %(2^{32}-1\\lt 2^{32})% nên %(C\\lt D)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Phân tích đa thức sau thành nhân tử: %(x^{4}+2019 x^{2}+2018 x+2019)%.",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} & x^{4}+2019 x^{2}+2018 x+2019 \\\\ = & x^{4}+\\left(x^{2}+2018 x^{2}\\right)+2018 x+(2018+1)+x^{3}-x^{3} \\\\ = & \\left(x^{4}+x^{3}+x^{2}\\right)+\\left(2018 x^{2}+2018 x+2018\\right)-\\left(x^{3}-1\\right) \\\\ = & x^{2}\\left(x^{2}+x+1\\right)+2018\\left(x^{2}+x+1\\right)-(x-1)\\left(x^{2}+x+1\\right) \\\\ = & \\left(x^{2}+x+1\\right)\\left(x^{2}+2018-x+1\\right) \\\\ = & \\left(x^{2}+x+1\\right)\\left(x^{2}-x+2019\\right)\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Tìm giá trị nhỏ nhất của %(E=2 x^{2}-8 x+1)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{aligned}E & =2 x^{2}-8 x+1 \\\\& =2 x^{2}-8 x+8-7 \\\\& =2\\left(x^{2}-4 x+4\\right)-7 \\\\& =2(x-2)^{2}-7 \\geq-7\\end{aligned}\\]<br>Vây giá trị nhỏ nhất của %(E=-7)% khi %(x=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 3.0,
+        "content": "Chứng minh rằng trong một tứ giác, tổng hai đường chéo lớn hơn nửa chu vi nhưng nhỏ hơn chu vi của tứ giác ấy.",
+        "question_images": [],
+        "solution": "Gọi O là giao điểm của hai đường chéo %(\\mathrm{AC}, \\mathrm{BD})% của tứ giác ABCD .<br>Đặt %(\\mathrm{AB}=\\mathrm{a}, \\mathrm{BC}=\\mathrm{b}, \\mathrm{CD}=\\mathrm{c}, \\mathrm{DA}=\\mathrm{d})%.<br>Xét %(\\triangle \\mathrm{AOB})%, ta có: %(\\mathrm{OA}+\\mathrm{OB}\\gt \\mathrm{AB})% (Quan hệ giữa ba cạnh của tam giác).<br>Xét %(\\triangle \\mathrm{COD})%, ta có: %(\\mathrm{OC}+\\mathrm{OD}>\\mathrm{CD})% (Quan hệ giữa ba cạnh của tam giác).<br>Suy ra: %(O A+O B+O C+O D>A B+C D)%<br>\\[\\begin{array}{l}\\Rightarrow \\mathrm{AC}+\\mathrm{BD}>\\mathrm{AB}+\\mathrm{CD} \\\\Rightarrow \\mathrm{AC}+\\mathrm{BD}>\\mathrm{a}+\\mathrm{c}(1)\\end{array}\\]<br>Chứng minh tương tự:<br>\\[\\begin{aligned}& \\mathrm{AC}+\\mathrm{BD}>\\mathrm{AD}+\\mathrm{BC} \\\\Rightarrow & \\mathrm{AC}+\\mathrm{BD}>\\mathrm{d}+\\mathrm{b}(2)\\end{aligned}\\]<br>Từ (1) và (2) suy ra %(2(\\mathrm{AC}+\\mathrm{BD})>\\mathrm{a}+\\mathrm{c}+\\mathrm{d}+\\mathrm{b})%<br>\\[\\Rightarrow \\quad \\mathrm{AC}+\\mathrm{BD}\\gt \\frac{\\mathrm{a}+\\mathrm{c}+\\mathrm{d}+\\mathrm{b}}{2}\\]<br>Xét %(\\triangle \\mathrm{ABC})%, ta có: %(\\mathrm{AC}\\lt \\mathrm{a}+\\mathrm{b})%Xét %(\\triangle \\mathrm{ADC})%, ta có: %(\\mathrm{AC}\\lt \\mathrm{d}+\\mathrm{c})%<br>Suy ra:<br>\\[\\begin{array}{l}2 \\mathrm{AC}\\lt \\mathrm{a}+\\mathrm{b}+\\mathrm{c}+\\mathrm{d} \\\\Rightarrow \\mathrm{AC}\\lt \\frac{\\mathrm{a}+\\mathrm{c}+\\mathrm{d}+\\mathrm{b}}{2}(3)\\end{array}\\]<br>Chứng minh tương tự: %(\\mathrm{BD}\\lt \\frac{\\mathrm{a}+\\mathrm{c}+\\mathrm{d}+\\mathrm{b}}{2}(* *))%(4)<br>Từ (3) và (4) suy ra: %(\\mathrm{AC}+\\mathrm{BD}\\lt \\mathrm{a}+\\mathrm{b}+\\mathrm{c}+\\mathrm{d})%.<br>Từ %(\\left({ }^{*}\\right))% và %(\\left({ }^{* *}\\right))% suy ra %(\\frac{\\mathrm{a}+\\mathrm{c}+\\mathrm{d}+\\mathrm{b}}{2}\\lt \\mathrm{AC}+\\mathrm{BD}\\lt \\mathrm{a}+\\mathrm{b}+\\mathrm{c}+\\mathrm{d})% (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác ABC vuông tại %(\\mathrm{A}(\\mathrm{AB}\\lt \\mathrm{AC}))%. Gọi I là trung điểm của cạnh BC . Qua %(I)% vẽ %(I M)% vuông góc với %(A B)% tại %(M)% và IN vuông góc với %(A C)% tại %(N)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh tứ giác AMIN là hình chữ nhật.",
+        "question_images": [],
+        "solution": "Xét tứ giác AMIN có:<br>\\[\\begin{array}{l}\\widehat{\\mathrm{MAN}}=90^{\\circ} \\text { (vì tam giác } \\mathrm{ABC} \\text { vuông ở } \\mathrm{A} \\text { ) } \\\\widehat{\\mathrm{AMI}}=90^{\\circ} \\text { (vì } \\mathrm{IM} \\text { vuông góc với } \\mathrm{AB} \\text { ) } \\\\widehat{\\mathrm{ANI}}=90^{\\circ} \\text { (vì IN vuông góc với } \\mathrm{AC} \\text { ) }\\end{array}\\]<br>Vậy tứ giác AMIN là hình chữ nhật (Vì có 3 góc vuông)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/217135000c504820d0d84901ce418b65.png\" srcset=\"https://docdn.giainhanh.io/media/test/11bc5634df56545fe22a5ff2ee7991fd.png 245w, https://docdn.giainhanh.io/media/test/02c90f9823f7b5f14d539e30eef13397.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Gọi D là điểm đối xứng của I qua N . Chứng minh tứ giác ADCI là hình thoi.",
+        "question_images": [],
+        "solution": "%(\\triangle \\mathrm{ABC})% vuông tại A , có AI là trung tuyến nên %(\\mathrm{AI}=\\mathrm{IC}=\\frac{1}{2} \\mathrm{BC})%<br>Do đó %(\\Delta \\mathrm{AIC})% cân tại I , có đường cao IN đồng thời là trung tuyến<br>\\[\\Rightarrow \\mathrm{NA}=\\mathrm{NC}\\]<br>Mặt khác: %(\\mathrm{NI}=\\mathrm{ND})% (tính chất đối xứng) nên ADCI là hình bình hành (1)<br>Mà %(\\mathrm{AC} \\perp \\mathrm{ID})%(2)<br>Từ (1) và (2) suy ra tứ giác ADCI là hình thoi.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Đường thẳng BN cắt DC tại K . Chứng minh rằng %(\\mathrm{DK}=\\frac{1}{3} \\mathrm{DC})%",
+        "question_images": [],
+        "solution": "Kẻ qua I đường thẳng IH song song với BK cắt CD tại H<br>%(\\Rightarrow \\mathrm{IH})% là đường trung bình %(\\triangle \\mathrm{BKC})%%(\\Rightarrow \\mathrm{H})% là trung điểm của CK hay %(\\mathrm{KH}=\\mathrm{HC})%(3)<br>Xét %(\\Delta \\mathrm{DIH})% có N là trung điểm của %(\\mathrm{DI}, \\mathrm{NK} / / \\mathrm{IH})% (IH // BK)<br>Do đó K là trung điểm của DH hay %(\\mathrm{DK}=\\mathrm{KH})% (4)<br>Từ (3) và (4) suy ra %(\\mathrm{DK}=\\mathrm{KH}=\\mathrm{HC} \\Rightarrow \\mathrm{DK}=\\frac{1}{3} \\mathrm{DC})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng: %(a^{2}+b^{2}+c^{2}+d^{2}+e^{2} \\geq a(b+c+d+e))%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}\\left(\\frac{1}{2} a-b\\right)^{2} \\geq 0 \\Rightarrow \\frac{1}{4} a^{2}+b^{2} \\geq a b(1) \\\\left(\\frac{1}{2} a-c\\right)^{2} \\geq 0 \\Rightarrow \\frac{1}{4} a^{2}+c^{2} \\geq a c(2) \\\\left(\\frac{1}{2} a-d\\right)^{2} \\geq 0 \\Rightarrow \\frac{1}{4} a^{2}+d^{2} \\geq a d(3) \\\\left(\\frac{1}{2} a-e\\right)^{2} \\geq 0 \\Rightarrow \\frac{1}{4} a^{2}+e^{2} \\geq a e(4)\\end{array}\\]<br>Ta cộng %((1),(2),(3),(4))% vế theo vế ta được :<br>4. %(\\frac{1}{4} a^{2}+b^{2}+c^{2}+d^{2}+e^{2} \\geq a b+a c+a d+a e)%<br>\\[\\Leftrightarrow a^{2}+b^{2}+c^{2}+d^{2}+e^{2} \\geq a(b+c+d+e)\\]",
+        "question_type": "essay"
+    }
+]

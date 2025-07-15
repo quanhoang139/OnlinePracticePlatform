@@ -1,0 +1,98 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.5,
+        "content": "a) Cho hàm số %(y=m x^{3}+m x^{2}+(m+1) x-3)%. Tìm tất cả các giá trị thực của tham số %(m)% để hàm số nghịch biến trên %(\\mathbb{R})%.",
+        "question_images": [],
+        "solution": "Nếu %(m=0)% ta có hàm số %(y=x-1)% là hàm số đồng biến trên %(\\mathbb{R})% nên không thỏa mãn.<br>Xét %(m \\neq 0)% ta có %(y^{\\prime}=3 m x^{2}+2 m x+m+1)%.<br>Để hàm số nghịch biến trên %(\\mathbb{R})% thì %(y^{\\prime} \\leq 0)% với mọi<br>\\[x \\in \\mathbb{R} \\Leftrightarrow\\left\\{\\begin{array} { l } { a = 3 m \\lt 0 } \\\\{ \\Lambda ^ { \\prime } = m ^ { 2 } - 3 m ( m + 1 ) \\leq 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { m \\lt 0 } \\\\{ - 2 m ^ { 2 } - 3 m \\leq 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}m\\lt 0 \\\\2 m+3 \\leq 0\\end{array} \\Leftrightarrow m \\leq-\\frac{3}{2} .\\right.\\right.\\right.\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Cho hàm số bậc ba %(y=f(x))% có đồ thị được biểu thị trong Hình 1. Tìm số giá trị nguyên của tham số %(m)% trong đoạn %([-2020 ; 2020])% để hàm số %(h(x)=\\left|f^{2}(x)+4 f(x)-m\\right|)% có đúng 3 điểm cực trị.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/764f85804426ef0cf559840602cd2563.png"
+        ],
+        "solution": "Ta có hàm số %(h(x))% có tập xác định là %(\\mathbb{R})%.Xét hàm số %(g(x)=f^{2}(x)+4 f(x)-m)%.<br>Khi đó:Tập xác định %(D=\\mathbb{R})%.<br>\\[\\begin{array}{l}g^{\\prime}(x)=2 f(x) \\cdot f^{\\prime}(x)+4 f^{\\prime}(x)=2 f^{\\prime}(x)[f(x)+2] . \\g^{\\prime}(x)=0 \\Leftrightarrow 2 f^{\\prime}(x)[f(x)+2]=0 \\Leftrightarrow\\left[\\begin{array}{l}f^{\\prime}(x)=0 \\f(x)=-2\\end{array}\\right.\\end{array}\\]<br>Dựa vào đồ thị ta có- %(f^{\\prime}(x)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=1 \\\\ x=3\\end{array}\\right.)%.- %(f(x)=-2 \\Leftrightarrow x=a\\lt 0)%.- %(g^{\\prime}(2)=2 f^{\\prime}(2)[f(2)+2]\\lt 0)% do %(f(2)\\gt 0, f^{\\prime}(2)\\lt 0)%.<br>Bảng biến thiên<br>Dựa vào bảng biến thiên dễ thấy hàm số %(h(x)=|g(x)|)% có đúng 3 điểm cực trị khi và chỉ khi %(-m-8 \\geq 0 \\Leftrightarrow m \\leq-8)%.<br>Kết hợp với điều kiện %([-2020 ; 2020])% ta có 2013 giá trị của %(m)% thỏa mãn.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/69786649ee3d3c1560eb9e6cef60040c.png\" srcset=\"https://docdn.giainhanh.io/media/test/dae4dbbe4f3a6d5f1840a603b0e53510.png 245w, https://docdn.giainhanh.io/media/test/a9662db03072d4e7746e8e2e2bcd73a5.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 1.0,
+        "content": "Cho %(\\log _{7} 12=x, \\log _{12} 24=y)% và %(\\log _{54} 168=\\frac{a x y+1}{b x y+c x})%, trong đó %(a, b, c)% là các số nguyên. Tính giá trị biểu thức %(S=a+2 b+3 c)%.",
+        "question_images": [],
+        "solution": "Lời giải ta có:<br>%(\\log _{54} 168=\\frac{\\log _{7} 168}{\\log _{7} 54}=\\frac{\\log _{7}(24.7)}{\\log _{7} 54}=\\frac{\\log _{7} 7+\\log _{7} 24}{\\log _{7} 54}=\\frac{\\log _{7} 12 \\cdot \\log _{12} 24+1}{\\log _{7} 54})%<br>Do %(\\log _{7} 54=\\log _{7} 12 \\cdot \\log _{12} 54)% nên %(\\log _{54} 168=\\frac{x y+1}{x \\log _{12} 54})%.<br>Ta tính %(\\log _{12} 54=\\log _{12}(27.2)=\\log _{12} 27+\\log _{12} 2=3 \\log _{12} 3+\\log _{12} \\frac{24}{12})%<br>Mà %(\\log _{12} 3=\\log _{12} \\frac{3 \\cdot 2 \\cdot 12 \\cdot 24}{2 \\cdot 12 \\cdot 24}=\\log _{12} \\frac{12^{3}}{24^{2}}=3-2 \\log _{12} 24)%<br>Suy ra %(\\log _{12} 54=3\\left(3-2 \\log _{12} 24\\right)+\\log _{12} 24-1=8-5 \\log _{12} 24=8-5 y)%.<br>Vậy %(\\log _{54} 168=\\frac{x y+1}{x(8-5 y)}=\\frac{x y+1}{-5 x y+8 x})%, suy ra %(a=1, b=-5, c=8)%.<br>Giá trị biểu thức %(S=a+2 b+3 c=1+2(-5)+3.8=15)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3:  ",
+        "point": 1.0,
+        "content": "Giải phương trình %(\\frac{4+\\cos 2 x+\\sin 2 x-\\sin x-7 \\cos x}{2 \\sin x+\\sqrt{3}}=0)%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(\\sin x \\neq-\\frac{\\sqrt{3}}{2})%<br>\\[\\text { PT } \\Leftrightarrow 4+\\cos 2 x+\\sin 2 x-\\sin x-7 \\cos x=0 \\Leftrightarrow 2 \\cos ^{2} x-7 \\cos x+3+2 \\sin x \\cos x-\\sin x=0\\]<br>\\[\\begin{array}{l}\\Leftrightarrow(2 \\cos x-1)(\\cos x-3)+\\sin x(2 \\cos x-1)=0 \\Leftrightarrow(2 \\cos x-1)(\\sin x+\\cos x-3)=0 \\\\{\\left[\\begin{array} { l } { \\operatorname { c o s } x = \\frac { 1 } { 2 } } \\\\{ \\operatorname { s i n } x + \\operatorname { c o s } x = 3 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}\\cos x=\\frac{1}{2} \\\\sin \\left(x+\\frac{\\pi}{4}\\right)=\\frac{3}{\\sqrt{2}}(\\mathrm{VN})\\end{array}\\right.\\right.}\\end{array}\\]<br>Với %(\\cos x=\\frac{1}{2} \\Rightarrow \\cos ^{2} x=\\frac{1}{4} \\Rightarrow \\sin ^{2} x=\\frac{3}{4} \\Rightarrow \\sin x= \\pm \\frac{\\sqrt{3}}{2})%.<br>Kết hợp điều kiện suy ra vô nghiệm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 1.0,
+        "content": "Tìm tất cả các giá trị thực của tham số %(m)% đề phương trình sau có đúng ba nghiệm phân biệt<br>\\[x^{3}-5 x+3+2 \\sqrt[3]{2 x^{3}-3 x^{2}+m}+m=0\\]",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}x^{3}-5 x+3+2 \\sqrt[3]{2 x^{3}-3 x^{2}+m}+m=0 \\text { (1) } \\\\text { PT (1) } \\Leftrightarrow 2 x^{3}-3 x^{2}+m+2 \\sqrt[3]{2 x^{3}-3 x^{2}+m}=(x-1)^{3}+2(x-1) \\\\Leftrightarrow f\\left(\\sqrt[3]{2 x^{3}-3 x^{2}+m}\\right)=f(x-1)\\end{array}\\]<br>Xét hàm số %(f(t)=t^{3}+2 t, t \\in \\mathbb{R})%.<br>Ta có: %(f^{\\prime}(t)=3 t^{2}+2\\gt 0, \\forall t \\in \\mathbb{R})%.<br>Suy ra hàm số %(f)% liên tục và đồng biến trên %(\\mathbb{R})%.<br>Do đó: %((1) \\Leftrightarrow \\sqrt[3]{2 x^{3}-3 x^{2}+m}=x-1 \\Leftrightarrow 2 x^{3}-3 x^{2}+m=x^{3}-3 x^{2}+3 x-1)%<br>\\[g(x)=x^{3}-3 x+1=-m(2) \\text {. }\\]<br>Xét hàm số: %(g(x)=x^{3}-3 x+1)%.<br>Ta có: %(g^{\\prime}(x)=3 x^{2}-3=0 \\Leftrightarrow x= \\pm 1)%.<br>Suy ra hàm số %(g(x))% có hai điểm cực trị lần lượt là %(x=-1)% và %(x=1)%.<br>Phương trình (1) có ba nghiệm phân biệt<br>%(\\Leftrightarrow)% phương trình (2) có ba nghiệm phân biệt<br>%(\\Leftrightarrow g(1)\\lt -m\\lt g(-1) \\Leftrightarrow-1\\lt -m\\lt 3 \\Leftrightarrow-3\\lt m\\lt 1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 1.0,
+        "content": "Một bài thi trắc nghiệm có 50 câu hỏi, mỗi câu hỏi có 4 phương án lựa chơn trong đó chỉ có một phương án đúng. Biết rằng mỗi câu trả lời đúng được 0,2 điểm và mỗi câu trả lời sai được 0 điểm. Một học sinh không học bài nên làm bài bằng cách chọn ngẫu nhiên mỗi câu một phương án trả lời. Hỏi điểm số nào có xác suất xuất hiện lớn nhất?",
+        "question_images": [],
+        "solution": "Gọi %(x)% là số câu học sinh làm đúng %((0 \\leq x \\leq 50))%, lúc đó số điểm học sinh đạt được là %(0,2 x)%.<br>Xác suất để học sinh đó làm đúng được %(x)% câu là %(C_{50}^{x} \\cdot\\left(\\frac{1}{4}\\right)^{x} \\cdot\\left(\\frac{3}{4}\\right)^{50-x})%.<br>Giả sử %(0,2 x)% là số điểm có xác suất lớn nhất, khi đó<br>\\[\\left\\{\\begin{array} { l } { C _ { 5 0 } ^ { x } \\cdot ( \\frac { 1 } { 4 } ) ^ { x } \\cdot ( \\frac { 3 } { 4 } ) ^ { 5 0 - x } \\geq C _ { 5 0 } ^ { x + 1 } \\cdot ( \\frac { 1 } { 4 } ) ^ { x + 1 } \\cdot ( \\frac { 3 } { 4 } ) ^ { 4 9 - x } } \\\\{ C _ { 5 0 } ^ { x } \\cdot ( \\frac { 1 } { 4 } ) ^ { x } \\cdot ( \\frac { 3 } { 4 } ) ^ { 5 0 - x } \\geq C _ { 5 0 } ^ { x - 1 } \\cdot ( \\frac { 1 } { 4 } ) ^ { x - 1 } \\cdot ( \\frac { 3 } { 4 } ) ^ { 5 1 - x } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { c } { \\frac { 3 } { 5 0 - x } \\geq \\frac { 1 } { x + 1 } } \\\\{ \\frac { 1 } { x } \\geq \\frac { 3 } { 5 1 - x } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { c } { 3 ( x + 1 ) \\geq 5 0 - x } \\\\{ 5 1 - x \\geq 3 x }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x \\geq \\frac{47}{4} \\x \\leq \\frac{51}{4}\\end{array}\\right.\\right.\\right.\\right.\\]<br>Do %(x)% nguyên nên %(x=12)%.<br>Vậy điểm 2,4 có xác suất xuất hiện cao nhất.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6:",
+        "group_content": "Cho khối tứ diện %(A B C D)%. Gọi %(M, N)% lần lượt là trung điểm của các cạnh %(A B, C D ; P)% là điểm nằm trong đoạn %(B C)% sao cho %(B P=k P C(k\\gt 1))%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Tính thể tích khối tứ diện %(A B C D)% trong trường hợp %(\\triangle A C D)% vuông tại %(A, \\triangle B C D)% vuông cân tại %(B)% và %(A B=A C=A D=a)%.",
+        "question_images": [],
+        "solution": "Có %(N)% là trung diểm của %(C D)%%(\\triangle B C D)% vuông cân tại %(B \\Rightarrow N)% là tâm đường tròn ngoại tiếp %(\\triangle B C D)% và %(B N=\\frac{C D}{2}=\\frac{a \\sqrt{2}}{2})%<br>Lại có %(A B=A C=A D=a \\Rightarrow A N \\perp(B C D))% và %(A N=\\frac{C D}{2}=\\frac{a \\sqrt{2}}{2})%<br>\\[S_{\\triangle B C D}=\\frac{1}{2} B N \\cdot C D=\\frac{C D^{2}}{4}=\\frac{a^{2}}{2}\\]<br>Vậy %(V_{A B C D}=\\frac{1}{3} A N \\cdot S_{\\triangle B C D}=\\frac{a^{3} \\sqrt{2}}{12})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/2f25472c2e73b30e87d3e5ef61f833f3.png\" srcset=\"https://docdn.giainhanh.io/media/test/552bc3b4b9637b9de65cc01d03f8e2ce.png 245w, https://docdn.giainhanh.io/media/test/bd0f728214d657531da1cd962c3929fe.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Mặt phẳng đi qua ba diểm %(M, N, P)% chia tứ diện thành hai khối đa diện có thể tích lần lượt là %(V_{1}, V_{2}\\left(\\right.)% trong đó %(V_{1})% là thể tích của phần chứa diểm %(\\left.A\\right))%. Tính %(\\frac{V_{2}}{V_{1}})%",
+        "question_images": [],
+        "solution": "Vẽ hình:<br>Gọi %(I=M P \\cap A C, Q=I N \\cap A D)%. Vậy thiết diện của tứ diện %(A B C D)% cắt bởi %((M N P))% là %(M P N Q)%,<br>Gọi %(V=V_{A B C D}=\\frac{1}{3} d(A,(B C D)) \\cdot S_{\\triangle B C D} \\Rightarrow V_{A . B D N}=V_{A . \\mathrm{BCN}}=\\frac{V}{2})%<br>\\[V_{1}=V_{A . M N Q}+V_{A . M N P}+V_{A . C N P}\\]<br>Áp dụng dịnh lý Menelaus cho %(\\triangle A B C)% và %(\\triangle A C D)%, ta có:<br>\\[\\frac{M A}{M B} \\cdot \\frac{B P}{P C} \\cdot \\frac{I C}{I A}=1 \\text { và } \\frac{Q A}{Q D} \\cdot \\frac{N D}{N C} \\cdot \\frac{I C}{I A}=1 \\Rightarrow \\frac{Q A}{Q D}=\\frac{B P}{P C}=k \\Rightarrow \\frac{A Q}{A D}=\\frac{k}{1+k}\\]<br>Laii có: %(\\frac{S_{\\triangle C P N}}{S_{\\triangle C B D}}=\\frac{C P}{C B} \\cdot \\frac{C N}{C D}=\\frac{1}{2(1+k)} \\Rightarrow \\frac{V_{A . C P N}}{V_{A . C B D}}=\\frac{1}{2(1+k)} \\Leftrightarrow V_{A . C P N}=\\frac{1}{2(1+k)})%.<br>Suy ra %(V_{A \\cdot \\mathrm{B} N P}=\\frac{V}{2}-\\frac{1}{2(1+k)} \\cdot V=\\left(\\frac{k}{k+1}\\right) \\cdot \\frac{V}{2})%<br>\\[\\begin{aligned}V_{A . M N Q} & =\\frac{A M}{A B} \\cdot \\frac{A Q}{A D} \\cdot V_{A . B N D}=\\frac{k}{4(k+1)} \\cdot \\mathrm{V} \\V_{A . M N P} & =\\frac{A M}{A B} \\cdot V_{A \\cdot B N P}=\\frac{1}{2} \\cdot V_{A . B N P}=\\left(\\frac{k}{k+1}\\right) \\cdot \\frac{V}{4}\\end{aligned}\\]<br>Vậy %(V_{1}=V_{A . M N Q}+V_{A . M N P}+V_{A . C N P}=\\frac{k}{4(k+1)} \\cdot \\mathrm{V}+\\left(\\frac{k}{k+1}\\right) \\cdot \\frac{V}{4}+\\frac{1}{2(1+k)} \\cdot V=\\frac{V}{2})%Kết luận: %(\\frac{V_{2}}{V_{1}}=1)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/447f9faffb3438dadf6fb2da32648167.png\" srcset=\"https://docdn.giainhanh.io/media/test/c2f906478fb1804f5ccabae8ae4f25ca.png 235w\" width=\"235\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 2.0,
+        "content": "Trong mặt phẳng tọa độ %(O x y)%, cho tam giác %(A B C)% có %(\\widehat{A C B}=75^{\\circ}, B(-4 ;-2) ; D)% là điềm thuộc cạnh %(B C)% sao cho %(D C=2 D B)%. Biết đường cao kẻ từ %(A)% có phương trình %(2 x+y=0)% và %(\\widehat{A D C}=60^{\\circ})%. Tìm tọa độ điểm %(A)% biết %(A)% có hoành độ âm.",
+        "question_images": [],
+        "solution": "Ta có phương trình %(B C: x-2 y=0 \\Rightarrow H=A H \\cap B C=(0 ; 0))%.<br>Suy ra %(C \\in B C \\Rightarrow C=(2 t ; t))%,<br>do<br>\\[\\overrightarrow{D B}=-\\frac{1}{2} \\overrightarrow{D C} \\Rightarrow D=\\left(\\frac{-4+\\frac{1}{2}}{1+\\frac{1}{2}} ; \\frac{-2+\\frac{1}{2} t}{1+\\frac{1}{2}}\\right)=\\left(\\frac{-8+2 t}{3} ; \\frac{-4+t}{3}\\right) \\text {. }\\]<br>Gọi tọa độ điểm %(A \\in A H \\Rightarrow A=(a ;-2 a))% với %(a\\lt 0)%.<br>Ta tính các đoạn thẳng %(A H^{2}=5 a^{2} ; C H^{2}=5 t^{2} ; D H^{2}=\\frac{5}{9}(t-4)^{2})%.<br>Xét các tỉ số lượng giác %(\\tan \\widehat{A C D}=\\frac{A H}{C H}=\\frac{-a}{|t|}=\\tan 75^{\\circ}=2+\\sqrt{3})%  (1).<br>Mà %(\\tan \\widehat{A D H}=\\frac{A H}{D H}=\\frac{-3 a}{|t-4|}=\\tan 60^{\\circ}=\\sqrt{3})%  (2).<br>Từ (1) và (2) ta có %(\\left\\{\\begin{array}{c}-a=(2+\\sqrt{3}) \\cdot|t| \\\\ -3 a=\\sqrt{3}|t-4|\\end{array} \\Rightarrow 3=\\frac{\\sqrt{3}}{2+\\sqrt{3}} \\cdot\\left|\\frac{t-4}{t}\\right| \\Leftrightarrow\\left[\\begin{array}{l}t=4-2 \\sqrt{3} \\\\ t=1-\\sqrt{3}\\end{array} \\Rightarrow\\left[\\begin{array}{l}a=-2 \\\\ a=-1-\\sqrt{3}\\end{array}\\right.\\right.\\right.)%.<br>Vậy tọa độ điểm %(A=(-2 ; 4))% hoặc %(A=(-1-\\sqrt{3} ; 2+2 \\sqrt{3}))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c2a5fde8c8a57eb7f1bae863b40445cf.png\" srcset=\"https://docdn.giainhanh.io/media/test/e780d7154f871e3ca1daba9130dce062.png 245w, https://docdn.giainhanh.io/media/test/1fac9475ac08d81e0c6ae4330f530daa.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 1.0,
+        "content": "Cho các số thực dương %(a, b, c)% thay đổi. Tìm giá trị nhỏ nhất của biểu thức<br>\\[p=\\frac{1}{2 \\sqrt{2 a b}+\\sqrt{8 a b}}-\\frac{2}{\\sqrt{2 a^{2}+2 b^{2}+2 c^{2}+4 a c}+1}\\]",
+        "question_images": [],
+        "solution": "Ta có: %(2 a^{2}+2 b^{2}+2 c^{2}+4 a c=2 b^{2}+2(a+c)^{2} \\geq(b+a+c)^{2})%<br>Mặt khác ta có:<br>\\[\\begin{array}{l}2 \\sqrt{2 a b}+\\sqrt{8 b c}=2 \\sqrt{b \\cdot 2 a}+2 \\sqrt{2 b c}=2 \\sqrt{b \\cdot 2 a}+2 \\sqrt{2 c \\cdot b} \\leq b+2 a+b+2 c=2(a+b+c) \\\\Rightarrow \\frac{1}{2 \\sqrt{2 a b}+\\sqrt{8 b c}} \\geq \\frac{1}{2(a+b+c)}\\end{array}\\]<br>Nên %(p \\geq \\frac{1}{2(a+b+c)}-\\frac{2}{a+b+c+1})%; đặt %(t=a+b+c\\gt 0)%<br>%(\\Rightarrow p \\geq \\frac{1}{2 t}-\\frac{2}{t+1} ;)%<br>xét %(f(t)=\\frac{1}{2 t}-\\frac{2}{t+1})% trên %((0 ;+\\infty))%<br>\\[f^{\\prime}(t)=\\frac{-1}{2 t^{2}}+\\frac{2}{(t+1)^{2}}=0 \\Leftrightarrow(t+1)^{2}=4 t \\Leftrightarrow t+1=2 t \\Leftrightarrow t=1\\]<br>Bảng biến thiên<br>%(\\Rightarrow f(t) \\geq-\\frac{1}{2})% Hay %(p \\geq-\\frac{1}{2})%<br>\\[\\text { Minp }=-\\frac{1}{2} \\Leftrightarrow\\left\\{\\begin{array} { l } { a + b + c = 1 } \\\\{ b = 2 a } \\\\{ b = 2 c }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}b=\\frac{1}{2} \\a=c=\\frac{1}{4}\\end{array}\\right.\\right. \\text {. }\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4ddda4d9d1013da1af4adbc8eb3ed4a0.png\" srcset=\"https://docdn.giainhanh.io/media/test/b6f20c7476c2abe3f5297ec32466e932.png 245w, https://docdn.giainhanh.io/media/test/88c075201aa42e75e543af27a533e20b.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

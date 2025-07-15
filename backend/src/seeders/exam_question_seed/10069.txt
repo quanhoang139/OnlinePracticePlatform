@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Cho biểu thức: %(A=\\left(2-\\frac{2 \\sqrt{x y}+1}{1+\\sqrt{x y}}+\\frac{1}{1-\\sqrt{x y}}+\\frac{2 \\sqrt{x}}{1-x y}\\right):\\left(\\frac{\\sqrt{x y}-\\sqrt{x}}{\\sqrt{x y}+1}-\\frac{\\sqrt{x y}+\\sqrt{x}}{\\sqrt{x y}-1}\\right))%<br>(với . %(x\\gt 0, y>0, x y \\neq 1)% ). Rút gọn biểu thức %(A)%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}A=\\left(2-\\frac{2 \\sqrt{x y}+1}{1+\\sqrt{x y}}+\\frac{1}{1-\\sqrt{x y}}+\\frac{2 \\sqrt{x}}{1-x y}\\right):\\left(\\frac{\\sqrt{x y}-\\sqrt{x}}{\\sqrt{x y}+1}-\\frac{\\sqrt{x y}+\\sqrt{x}}{\\sqrt{x y}-1}\\right) \\\\=\\left(\\frac{2(1+\\sqrt{x y})-2 \\sqrt{x y}-1}{1+\\sqrt{x y}}+\\frac{1}{1-\\sqrt{x y}}+\\frac{2 \\sqrt{x}}{1-x y}\\right):\\left(\\frac{(\\sqrt{x y}-\\sqrt{x})(\\sqrt{x y}-1)-(\\sqrt{x y}+\\sqrt{x})(\\sqrt{x y}+1)}{(\\sqrt{x y}+1)(\\sqrt{x y}-1)}\\right) \\\\=\\left(\\frac{1}{1+\\sqrt{x y}}+\\frac{1}{1-\\sqrt{x y}}+\\frac{2 \\sqrt{x}}{1-x y}\\right): \\frac{x y-\\sqrt{x y}-x \\sqrt{y}+\\sqrt{x}-x y-\\sqrt{x y}-x \\sqrt{y}-\\sqrt{x}}{x y-1} \\\\=\\frac{1-\\sqrt{x y}+1+\\sqrt{x y}+2 \\sqrt{x}}{1-x y} \\cdot \\frac{x y-1}{-2 x \\sqrt{y}-2 \\sqrt{x y}} \\\\=\\frac{2+2 \\sqrt{x}}{1-x y} \\cdot \\frac{1-x y}{2 \\sqrt{x y}(\\sqrt{x}+1)} \\\\=\\frac{1}{\\sqrt{x y}}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho %(a)% là số thực thoản mãn %(a^{3}-a-1=0)%. Tính giá trị của biểu thức:<br>%(B=a \\sqrt{2 a^{6}-4 a^{4}+4 a^{2}+3 a}-\\sqrt{2 a^{2}+3 a+2})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}B=a \\sqrt{2 a^{6}-4 a^{4}+4 a^{2}+3 a}-\\sqrt{2 a^{2}+3 a+2}=a \\sqrt{2 a^{2}+3 a+2\\left(a^{3}-a\\right)^{2}}-\\sqrt{2 a^{2}+3 a+2} \\B=(a-1) \\sqrt{2 a_{-}^{2}+3 a+2}(1) \\B^{2}=(a-1)^{2}\\left(2 a^{2}+3 a+2\\right)=(2 a-1)\\left(a^{3}-a-1\\right)+1=1\\ (2)\\end{array}\\]<br>Vì %(a\\left(a^{2}-1\\right)=1)% nên %(a \\neq 0)%<br>Nếu %(a\\lt 0)% thì %(a\\left(a^{2}-1\\right)=1)%<br>\\[\\left\\{\\begin{array} { l } { a ^ { 2 } - 1 \\lt 0 } \\\\{ a + 1 = a ^ { 3 } \\lt 0 }\\end{array} \\Rightarrow \\left\\{\\begin{array}{l}-1\\lt a\\lt 1 \\a\\lt -1\\end{array}\\right.\\right. \\text { Vô lí }\\]<br>Do đó %(\\mathrm{a}\\gt 0)%. Suy ra: %(a^{3}=a+1>1 \\Rightarrow a>1 \\Rightarrow a-1>0 \\Rightarrow B>0\\ (3))%<br>Từ (1) (2) (3) suy ra: %(B=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Giải phương trình và hệ phương trình:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "Giải phương trình %(\\sqrt[3]{x^{3}+5 x^{2}}-1=\\sqrt{\\frac{5 x^{2}-2}{6}})%.",
+        "question_images": [],
+        "solution": "ĐКХĐ: %(x^{3} \\geq \\frac{2}{5}(*))%<br>Đặt %(t=\\sqrt{\\frac{5 x^{2}-2}{6}}(t \\geq 0) \\Rightarrow 5 x^{2}=6 t^{2}+2)%<br>Khi đó phương trình trở thành:<br>\\[\\begin{array}{l}\\sqrt[3]{x^{3}+5 x^{2}}-1=t \\Rightarrow x^{3}+6 t^{2}+2=(t+1)^{3} \\Leftrightarrow x^{3}=(t-1)^{3} \\Leftrightarrow x=t-1 \\Leftrightarrow t=x+1 \\\\Leftrightarrow \\sqrt{\\frac{5 x^{2}-2}{6}}=x+1 \\Leftrightarrow\\left\\{\\begin{array} { c } { x \\geq 1 } \\\\{ \\frac { 5 x ^ { 2 } - 2 } { 6 } = ( x + 1 ) ^ { 2 } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{c}x \\geq 0 \\x^{2}+12 x+8=0\\end{array} \\Leftrightarrow x=-6+2 \\sqrt{7}\\right.\\right.\\end{array}\\]<br>So sánh với điều kiện %(\\left({ }^{*}\\right))% thì phương trình có nghiệm %(x=-6+2 \\sqrt{7})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{c}x^{2} y^{2}+3 x+3 y-3=0 \\\\ x^{3} y-4 x^{2} y-3 x y^{2}+2 x y-x^{2}+x=0\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}x^{2} y^{2}+3 x+3 y-3=0 \\\\ x^{3} y-4 x^{2} y-3 x y^{2}+2 x y-x^{2}+x=0\\end{array}\\right.)%<br>Lấy phương trình (2) cộng với phương trình (1) theo vế, ta có:<br>\\[\\begin{aligned}& x^{2} y^{2}+3 x+3 y-3+x^{3} y-4 x^{2} y-3 x y^{2}+2 x y-x^{2}+x=0 \\\\Leftrightarrow & (x+y-1)\\left(x y^{2}-3 x y-x+3\\right)=0 \\\\Leftrightarrow & {\\left[\\begin{array}{c}x+y-1=0 \\x y^{2}-3 x y-x+3=0\\end{array}\\right.}\\end{aligned}\\]<br>Với %(x+y-1=0 \\Rightarrow y=1-x)% thế vào (1) ta được: %(x^{2}(1-x)^{2}=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\Rightarrow y=1 \\\\ x=1 \\Rightarrow y=0\\end{array}\\right.)%Với %(x y^{2}-3 x y-x+3=0 \\Leftrightarrow(x-3)(x y-1)=0 \\Leftrightarrow\\left[\\begin{array}{c}x-3=0 \\\\ x y-1=0\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=3 \\\\ x=\\frac{1}{y}\\end{array}\\right.\\right.)%<br>Khi %(x=3)% thế vào %((1) \\Leftrightarrow 9 y^{3}+3 y+6=0)% (vô nghiệm)<br>Khi %(x=\\frac{1}{y})% thế vào %((1)\\Leftrightarrow 3 y^{3}-2 y+3=0)% (vô nghiệm)<br>Vậy tập nghiệm của hệ phương trình là %(S=\\{(0 ; 1),(1 ; 0)\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Giải phương trình nghiệm nguyên: %(y=\\sqrt[3]{2+\\sqrt{x}}+\\sqrt[3]{2-\\sqrt{x}})%",
+        "question_images": [],
+        "solution": "%(y=\\sqrt[3]{2+\\sqrt{x}}+\\sqrt[3]{2-\\sqrt{x}}\\ (1))%<br>ĐКХĐ: %(x \\geq 0)%<br>Nhận thấy: %(y=\\sqrt[3]{2+\\sqrt{x}}\\gt \\sqrt[3]{-2+\\sqrt{x}})% nên<br>\\[y=\\sqrt[3]{2+\\sqrt{x}}+\\sqrt[3]{2-\\sqrt{x}}>\\sqrt[3]{-2+\\sqrt{x}}+\\sqrt[3]{2-\\sqrt{x}}=0 \\Rightarrow y>0\\]<br>Lập phương hai vế của (1) ta được:<br>\\[y^{3}=4+3(\\sqrt[3]{2+\\sqrt{x}}+\\sqrt[3]{2-\\sqrt{x}}) \\sqrt[3]{4-x} \\Rightarrow y^{3}=4+3 y \\sqrt[3]{4-x} \\Rightarrow \\sqrt[3]{4-x}=\\frac{y^{3}-4}{3 y}(\\text { do } y\\gt 0)(2)\\]<br>vì %(x \\geq 0)% nên %(\\sqrt[3]{4-x}=\\frac{y^{3}-4}{3 y} \\leq \\sqrt[3]{4} \\Rightarrow y^{3} \\leq 3 y \\sqrt[3]{4}+4 \\Rightarrow y^{3}-3 y \\sqrt[3]{4} \\leq 4 \\Leftrightarrow y\\left(y^{2}-3 \\sqrt[3]{4}\\right) \\leq 4 \\quad(*))%<br>Nếu %(y \\geq 3)% thì %(y\\left(y^{2}-3 \\sqrt[3]{4}\\right) \\geq 3(9-3 \\sqrt[3]{4})>4)% (mâu thuẫn)<br>Do đó %(y\\lt 3)% kết hợp với %(y>0)% ta được %(y \\in\\{1 ; 2\\})% vì %(y)% nguyên<br>Xét %(y=2)% thay vào (2) ta được %(\\sqrt[3]{4-x}=\\frac{2}{3})% (vô lý vì %(x)% nguyên)<br>Xét %(y=1)% thay vào (2) ta được %(\\sqrt[3]{4-x}=-1 \\Leftrightarrow x=5)%<br>Thử lại %(x=5, y=1)% thỏa mãn bài toán<br>Vậy phương trình có nghiệm %((x, y)=(5 ; 1))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho %(n)% là số nguyên dương thỏa mãn %(3^{n}-1)% chia hết cho %(2^{2024})%. Chứng minh rằng: %(n \\geq 2^{2022})%",
+        "question_images": [],
+        "solution": "Vì %(\\mathrm{n}\\gt 0)% nên ta đặt %(n=2^{k} \\cdot m(k ; m \\in Z ; \\mathrm{m})% lẻ %())%<br>Ta có: %(3^{n}-1=\\left(3^{2^{k}}\\right)^{m}-1=\\left(3^{2^{k}}-1\\right)\\left(\\left(3^{2^{k}}\\right)^{m-1}+\\left(3^{2^{k}}\\right)^{m-2}+\\ldots+3^{2^{k}}+1\\right))%<br>Do %(m)% lẻ nên tổng %(\\left(3^{2^{k}}-1\\right)\\left(\\left(3^{2^{k}}\\right)^{m-1}+\\left(3^{2^{k}}\\right)^{m-2}+\\ldots+3^{2^{k}}+1\\right))% có lẻ số hạng nên tổng đó là số lẻ<br>Do đó %(3^{n}-1: 2^{2024} \\Leftrightarrow 3^{2^{k}}-1 \\vdots 2^{2024})%<br>Ta lại có:<br>\\[\\left(3^{2^{k}}-1\\right)=(3-1)(3+1)\\left(3^{2}+1\\right)\\left(3^{2^{2}}+1\\right)\\left(3^{2^{3}}+1\\right) \\ldots\\left(3^{2^{k-1}}+1\\right)=2^{3}\\left(3^{2}+1\\right)\\left(3^{2^{2}}+1\\right)\\left(3^{2^{3}}+1\\right) \\ldots\\left(3^{2^{-1}}+1\\right)\\]<br>Với %(a \\in(1 ; 2 ; 3 ; \\ldots ; k-1))%, ta có %(3^{2^{k}}+1=\\left[\\left(3^{2^{k-1}}\\right)^{2}-1\\right]+2=\\left(3^{2^{k-1}}-1\\right)\\left(3^{2^{k-1}}+1\\right)+2)%%(\\mathrm{Vi}\\left(3^{2^{k-1}}-1\\right) v a ̀\\left(3^{2^{k-1}}+1\\right))% là các số chẵn nên tích chia hết cho 4<br>Do đó %(3^{2^{k}}+1)% chia hết cho 2 nhưng không chia hết cho 4<br>\\[\\Rightarrow\\left(3^{2}+1\\right)\\left(3^{2^{2}}+1\\right)\\left(3^{2^{3}}+1\\right) \\ldots\\left(3^{2^{k-1}}+1\\right) \\vdots 2^{k-1} \\Rightarrow 2^{3}\\left(3^{2}+1\\right)\\left(3^{2^{2}}+1\\right)\\left(3^{2^{3}}+1\\right) \\ldots\\left(3^{2^{k-1}}+1\\right) \\vdots 2^{k+2} \\Rightarrow 3^{n}-1 \\vdots 2^{k+2}\\]<br>Để %(3^{n}-1 \\vdots 2^{2024})% thì %(2^{k+2} \\vdots 2^{2024} \\Rightarrow\\gt +2 \\geq 2024 \\Rightarrow k \\geq 2022 \\Rightarrow>=2^{k} . m \\geq 2^{k} \\geq 2^{2022})%<br>Vậy ta có điều phải chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho tam giác đều %(A B C)% có độ dài cạnh bằng %(2 \\sqrt{3})% và đường cao %(A H)%. Trên đoạn %(B H)% lấy điểm %(M)% tùy ý %((M)% không trùng %(B, H))%. Gọi %(P, Q)% lần lượt là chân đường vuông góc kẻ từ %(M)% đến %(A B, A C)%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Chứng minh giá trị của biểu thức %(M P+M Q)% không phụ thuộc vào vị trí điểm %(M)%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" class=\"image_resized\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/aaf25c250aa3a452fff9a3c1ee1eda15.png\" srcset=\"https://docdn.giainhanh.io/media/test/f44fe512fa869045553395c8e0b1345e.png 193w\" style=\"width:64.94%;\" width=\"193\"/><br>Trong %(\\triangle B M P)% vuông ở P , ta có: %(M P=M B \\cdot \\sin M B P=M B \\cdot \\sin 60^{\\circ}=\\frac{\\sqrt{3}}{2} M B)%<br>Tương tự, ta chứng minh được: %(M Q=\\frac{\\sqrt{3}}{2} M C)%<br>%(\\Rightarrow M P+M Q=\\frac{\\sqrt{3}}{2}(M B+M C)=\\frac{\\sqrt{3}}{2} B C=\\frac{\\sqrt{3}}{2} \\cdot 2 \\sqrt{3}=3)% không phụ thuộc vào vị trí của điểm %(M)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Gọi %(K)% là trung điểm của %(A M)%. Chứng minh rằng tứ giác %(P K Q H)% là hình thoi.",
+        "question_images": [],
+        "solution": "Do %(A P M=A Q M=A H M=90^{\\circ})% nên theo tính chất đường trung tuyến của tam giác vuông, ta có %(K P=K Q=K H=\\frac{1}{2} A M\\ (1))%<br>Trong %(\\triangle P K H)% cân ở K có %(P K H=2 P A H=2 B A H=2.30^{\\circ}=60^{\\circ})%<br>Vậy %(\\triangle P K H)% đều %(\\Rightarrow \\mathrm{HP}=\\mathrm{HK}\\ (2))%<br>Tương tự, ta chứng minh được %(\\Delta Q K H=\\gt \\mathrm{HQ}=\\mathrm{HK}\\ (3))%<br>Từ (1) (2) (3) ta được %(H P=P K=K Q=Q H=H K=\\frac{1}{2} A M)% nên tứ giác %(PKQH)% là hình thoi",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.5,
+        "content": "c) Gọi %(S)% là diện tích của hình thoi %(P K Q H)%. Biết khi điểm %(M)% thay đổi thì %(S)% nhận đúng một giá trị nguyên dương. Tìm giá trị nguyên dương đó.",
+        "question_images": [],
+        "solution": "Ta có %(S=S_{P K Q H}=2 S_{P K H}=2 \\cdot K H^{2} \\cdot \\frac{\\sqrt{3}}{4}=\\frac{\\sqrt{3}}{2} K H^{2}=\\frac{\\sqrt{3}}{8} A M^{2}\\gt \\frac{\\sqrt{3}}{8} A H^{2}=\\frac{9 \\sqrt{3}}{8})%<br>%(S=S_{P K Q H}=\\frac{\\sqrt{3}}{8} A M^{2}\\lt \\frac{\\sqrt{3}}{8} A B^{2}=\\frac{3 \\sqrt{3}}{2} \\Rightarrow 1,95 \\approx \\frac{9 \\sqrt{3}}{8}\\lt S\\lt \\frac{3 \\sqrt{3}}{2} \\approx 2.60 \\Rightarrow S=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "d) ",
+        "point": 1.5,
+        "content": "d) Vẽ đường tròn %((\\mathrm{O}))% nội tiếp tam giác %(A B M)%. Gọi %(D, E, F)% theo thứ tự là tiếp điểm của %((O))% với các cạnh %(B M, A B, A M)%. Vẽ %(D N)% vuông góc với %(E F)% tại %(N)%. Chứng minh %(B N E=M N F)%",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{B}^{\\prime}, \\mathrm{M}^{\\prime})% lần lượt là hình chiếu của %(\\mathrm{B}, \\mathrm{M})% lên %(EF)%.<br>Gọi %(\\mathrm{N}^{\\prime})% là giao điểm của %(DN)% và %(\\mathrm{BM}^{\\prime})%. Khi đó %(\\mathrm{BB}^{\\prime} / / \\mathrm{DN} / / \\mathrm{MM})% ' nên áp dụng định lý Talet trong các %(\\Delta B M^{\\prime} ; \\Delta M^{\\prime} B B^{\\prime})% ta có:<br>\\[\\left\\{\\begin{array}{l}\\frac{M D}{D B}=\\frac{M^{\\prime} N^{\\prime}}{N^{\\prime} B} \\\\frac{M^{\\prime} N^{\\prime}}{N^{\\prime} B}=\\frac{M^{\\prime} N}{N B^{\\prime}}\\end{array} \\Rightarrow>\\frac{B D}{D M}=\\frac{B^{\\prime} N}{N M^{\\prime}}\\right.\\ (4)\\]<br>Xét %(\\triangle B B^{\\prime} E)% và %(\\Delta M M^{\\prime} F)%, ta có:<br>%(B B^{\\prime} E=M M^{\\prime} F=90^{\\circ})%<br>%(B E B^{\\prime}=A E F=A F E(\\triangle A E F)% cân tại %(F)% do %(\\mathrm{AE}=\\mathrm{AF})% theo tính chất tiếp tuyến %()=M F M^{\\prime})%<br>Vậy %(B E B^{\\prime} \\sim M M^{\\prime} F(\\mathrm{~g} . \\mathrm{g}) \\Rightarrow \\frac{B^{\\prime} E}{M^{\\prime} F}=\\frac{B E}{M F}=\\frac{B D}{D M}\\ (5))% (do %(\\mathrm{BE}=\\mathrm{BD})%; MF %(=\\mathrm{MD})% theo tính chất tiếp tuyến)<br>Từ (4) và (5), ta được %(\\frac{B^{\\prime} N}{N M^{\\prime}}=\\frac{B^{\\prime} E}{M^{\\prime} F}=\\frac{B^{\\prime} N-B^{\\prime} E}{N M^{\\prime}-M^{\\prime} F}=\\frac{E N}{F N})%<br>Xét %(\\triangle B N E)% và %(\\triangle M N F)%, ta có:<br>\\[\\begin{array}{r}B E N=M F N \\\\frac{E N}{F N}=\\frac{B^{\\prime} N}{N M^{\\prime}}=\\frac{B E}{M F}\\end{array}\\]<br>Vậy %(\\triangle B N E \\sim \\triangle M N F)% (c.g.c) %(=\\gt B N E=M N F)% (ĐPCM)",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là các số thực dương thòa mãn %(a+b+c=\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a})%.Tìm giá trị lớn nhất của biểu thức : %(P=\\frac{a+b+1}{a^{3}+b^{3}+1}+\\frac{b+c+1}{b^{3}+c^{3}+1}+\\frac{c+a+1}{c^{3}+a^{3}+1})%",
+        "question_images": [],
+        "solution": "Áp dụng bất đẳng thức Cauchy cho giả thiết ta được %(\\mathbf{a}+\\mathbf{b}+\\mathbf{c}=\\frac{\\mathbf{a}}{\\mathbf{b}}+\\frac{\\mathbf{b}}{\\mathbf{c}}+\\frac{\\mathbf{c}}{\\mathbf{a}} \\geq 3)%<br>Mặt khác áp dụng bất đẳng thức Bunhiacopxki dạng phân thức cho giả thiết ta được<br>\\[\\mathbf{a}+\\mathbf{b}+\\mathbf{c}=\\frac{\\mathbf{a}}{\\mathbf{b}}+\\frac{\\mathbf{b}}{\\mathbf{c}}+\\frac{\\mathbf{c}}{\\mathbf{a}} \\geq \\frac{(a+\\mathbf{b}+\\mathbf{c})^{2}}{\\mathrm{ab}+\\mathrm{bc}+\\mathrm{ca}} \\Rightarrow a b+b c+c a \\geq a+b+c \\geq 3\\]<br>Áp dụng bất đẳng thức Bnhiacopxki ta có<br>\\[\\left(a^{3}+b^{3}+1\\right)(a+b+1) \\geq\\left(a^{2}+b^{2}+1\\right)^{2} \\geq \\frac{(a+b+1)^{2}\\left(a^{2}+b^{2}+1\\right)}{3}\\]<br>Do đó ta được<br>\\[\\frac{a+b+1}{a^{3}+b^{3}+1} \\leq \\frac{3}{a^{2}+b^{2}+1}\\]<br>Tương tự ta thu được<br>\\[P \\leq \\frac{3}{a^{2}+b^{2}+1}+\\frac{3}{b^{2}+c^{2}+1}+\\frac{3}{c^{2}+a^{2}+1}\\]<br>Ta sẽ chứng minh; %(\\frac{1}{a^{2}+b^{2}+1}+\\frac{1}{b^{2}+c^{2}+1}+\\frac{1}{c^{2}+a^{2}+1} \\leq 1)%<br>Thật vậy, bất đẳng thức trên được viết lại thành<br>\\[\\frac{a^{2}+b^{2}}{a^{2}+b^{2}+1}+\\frac{b^{2}+c^{2}}{b^{2}+c^{2}+1}+\\frac{c^{2}+a^{2}}{c^{2}+a^{2}+1} \\geq 2\\]<br>Áp dụng bất đẳng thức Bunhiacopxki dạng phân thức ta được<br>\\[\\frac{a^{2}+b^{2}}{a^{2}+b^{2}+1}+\\frac{b^{2}+c^{2}}{b^{2}+c^{2}+1}+\\frac{c^{2}+a^{2}}{c^{2}+a^{2}+1} \\geq \\frac{\\left(\\sqrt{a^{2}+b^{2}}+\\sqrt{b^{2}+c^{2}}+\\sqrt{c^{2}+a^{2}}\\right)^{2}}{2\\left(a^{2}+b^{2}+c^{2}\\right)+3}\\]<br>Phép chứng minh sẽ hoàn tất nếu ta chỉ ra được<br>\\[\\begin{array}{r}\\left(\\sqrt{a^{2}+b^{2}}+\\sqrt{b^{2}+c^{2}}+\\sqrt{c^{2}+a^{2}}\\right)^{2} \\geq 4\\left(a^{2}+b^{2}+c^{2}\\right)+6 \\\\Leftrightarrow \\sqrt{\\left(\\mathbf{a}^{2}+\\mathbf{b}^{2}\\right)\\left(\\mathbf{b}^{2}+\\mathbf{c}^{2}\\right)}+\\sqrt{\\left(\\mathbf{b}^{2}+\\mathbf{c}^{2}\\right)\\left(\\mathbf{c}^{2}+\\mathbf{a}^{2}\\right)}+\\sqrt{\\left(\\mathbf{c}^{2}+\\mathbf{a}^{2}\\right)\\left(\\mathbf{a}^{2}+\\mathbf{b}^{2}\\right)} \\geq a^{2}+b^{2}+c^{2}+3\\end{array}\\]<br>Áp dụng bất đẳng thức Bunhiacopxki ta được<br>\\[\\sqrt{\\left(\\mathbf{a}^{2}+\\mathbf{b}^{2}\\right)\\left(\\mathbf{b}^{2}+\\mathbf{c}^{2}\\right)} \\geq b^{2}+a c\\]<br>Áp dụng tương tự ta được<br>\\[\\sqrt{\\left(\\mathbf{a}^{2}+\\mathbf{b}^{2}\\right)\\left(\\mathbf{b}^{2}+\\mathbf{c}^{2}\\right)}+\\sqrt{\\left(\\mathbf{b}^{2}+\\mathbf{c}^{2}\\right)\\left(\\mathbf{c}^{2}+\\mathbf{a}^{2}\\right)}+\\sqrt{\\left(\\mathbf{c}^{2}+\\mathbf{a}^{2}\\right)\\left(\\mathbf{a}^{2}+\\mathbf{b}^{2}\\right)} \\geq a^{2}+b^{2}+c^{2}+a b+b c+c a\\]<br>Mà từ giả thiết ta được %(a b+b c+c a \\geq 3)%. Do vậy ta được<br>\\[\\sqrt{\\left(\\mathbf{a}^{2}+\\mathbf{b}^{2}\\right)\\left(\\mathbf{b}^{2}+\\mathbf{c}^{2}\\right)}+\\sqrt{\\left(\\mathbf{b}^{2}+\\mathbf{c}^{2}\\right)\\left(\\mathbf{c}^{2}+\\mathbf{a}^{2}\\right)}+\\sqrt{\\left(\\mathbf{c}^{2}+\\mathbf{a}^{2}\\right)\\left(\\mathbf{a}^{2}+\\mathbf{b}^{2}\\right)} \\geq a^{2}+b^{2}+c^{2}+3\\]<br>Vậy bất đẳng thức được chứng minh<br>Suy ra giá trị lớn nhất của %(P)% là %(3)%<br>Đẳng thức xảy ra khi và chỉ khi %(\\mathrm{a}=\\mathrm{b}=\\mathrm{c}=1)%",
+        "question_type": "essay"
+    }
+]

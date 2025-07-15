@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho số thực %(3\\lt x \\neq 4)% và biểu thức %(A=\\left(\\frac{\\sqrt{x}+3}{\\sqrt{x}-2}-\\frac{\\sqrt{x}+2}{\\sqrt{x}+1}+\\frac{x-5 \\sqrt{x}-9}{x-\\sqrt{x}-2}\\right): \\frac{\\sqrt{x-3}}{2 x})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Rút gọn biểu thức %(\\mathrm{A})%.",
+        "question_images": [],
+        "solution": "Với %(3\\lt x \\neq 4)% thì %(A=\\frac{(\\sqrt{x}+3)(\\sqrt{x}+1)-(\\sqrt{x}+2)(\\sqrt{x}-2)+(x-5 \\sqrt{x}-9)}{(\\sqrt{x}-2)(\\sqrt{x}+1)} \\cdot \\frac{2 x}{\\sqrt{x-3}})%<br>\\[\\begin{array}{l}=\\frac{x+4 \\sqrt{x}+3-(x-4)+x-5 \\sqrt{x}-9}{x-\\sqrt{x}-2} \\cdot \\frac{2 x}{\\sqrt{x-3}} \\\\=\\frac{x-\\sqrt{x}-2}{x-\\sqrt{x}-2} \\cdot \\frac{2 x}{\\sqrt{x-3}}=\\frac{2 x}{\\sqrt{x-3}} .\\end{array}\\]<br>Vậy, với %(3\\lt x \\neq 4)% thì %(\\mathrm{A}=\\frac{2 x}{\\sqrt{x-3}})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm giá trị nhỏ nhất của biểu thức %(\\mathrm{A})%.",
+        "question_images": [],
+        "solution": "Với %(3\\lt x \\neq 4)% thì %(\\mathrm{A}=\\frac{2 x}{\\sqrt{x-3}}=2 \\sqrt{x-3}+\\frac{6}{\\sqrt{x-3}} \\geq 2 \\sqrt{2 \\sqrt{x-3} \\cdot \\frac{6}{\\sqrt{x-3}}}=4 \\sqrt{3})%.<br>Dấu \"=\" xảy ra khi và chỉ khi %(2 \\sqrt{x-3}=\\frac{6}{\\sqrt{x-3}} \\Leftrightarrow(\\sqrt{x-3})^{2}=3 \\Leftrightarrow x=6(\\mathrm{TM}))%.<br>Vậy, biểu thức A đạt giá trị nhỏ nhất bằng %(4 \\sqrt{3})% khi và chỉ khi %(x=6)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho góc nhọn %(\\alpha)% thoả mãn %(\\tan \\alpha=\\frac{2}{\\sqrt{3}})%.<br>Hãy tính giá trị biểu thức %(\\mathrm{B}=\\frac{\\cos ^{4} \\alpha+\\sin ^{2} \\alpha \\cdot\\left(\\cos ^{2} \\alpha+1\\right)}{2 \\cdot \\cos ^{4} \\alpha+2 \\sin ^{2} \\alpha \\cdot \\cos ^{2} \\alpha-\\frac{3}{5} \\sin ^{2} \\alpha})%.",
+        "question_images": [],
+        "solution": "Vì %(\\alpha)% là góc nhọn nên %(\\cos \\alpha\\gt 0)%<br>Do đó: %(\\mathrm{B}=\\frac{\\cos ^{4} \\alpha+\\sin ^{2} \\alpha \\cdot \\cos ^{2} \\alpha+\\sin ^{2} \\alpha}{2 \\cdot \\cos ^{4} \\alpha+2 \\sin ^{2} \\alpha \\cdot \\cos ^{2} \\alpha-\\frac{3}{5} \\sin ^{2} \\alpha}=\\frac{\\cos ^{2} \\alpha \\cdot\\left(\\cos ^{2} \\alpha+\\sin ^{2} \\alpha\\right)+\\sin ^{2} \\alpha}{2 \\cos ^{2} \\alpha \\cdot\\left(\\cos ^{2} \\alpha+\\sin ^{2} \\alpha\\right)-\\frac{3}{5} \\sin ^{2} \\alpha})%<br>\\[\\mathrm{B}=\\frac{\\cos ^{2} \\alpha+\\sin ^{2} \\alpha}{2 \\cos ^{2} \\alpha-\\frac{3}{5} \\sin ^{2} \\alpha}=\\frac{1+\\frac{\\sin ^{2} \\alpha}{\\cos ^{2} \\alpha}}{2-\\frac{3}{5} \\cdot \\frac{\\sin ^{2} \\alpha}{\\cos ^{2} \\alpha}}=\\frac{1+\\tan ^{2} \\alpha}{2-\\frac{3}{5} \\cdot \\tan ^{2} \\alpha}\\]<br>Thay %(\\tan \\alpha=\\frac{2}{\\sqrt{3}})%, ta được %(\\mathrm{B}=\\frac{1+\\left(\\frac{2}{\\sqrt{3}}\\right)^{2}}{2-\\frac{3}{5} \\cdot\\left(\\frac{2}{\\sqrt{3}}\\right)^{2}}=\\frac{1+\\frac{4}{3}}{2-\\frac{3}{5} \\cdot \\frac{4}{3}}=\\frac{\\left(\\frac{7}{3}\\right)}{\\left(\\frac{6}{5}\\right)}=\\frac{35}{18})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các cặp số nguyên %((x, y))% thoả mãn %(2 x^{2}+4 x y+4 y^{2}=x y^{2}+18 x+16 y-39)%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}2 x^{2}+4 x y+4 y^{2}=x y^{2}+18 x+16 y-39 \\Leftrightarrow\\left(x y^{2}-4 y^{2}\\right)-\\left(2 x^{2}-8 x\\right)+(10 x-40)-(4 x y-16 y)+1=0 \\\\Leftrightarrow(x-4) y^{2}-2 x(x-4)+10(x-4)-4 y(x-4)+1=0\\end{array}\\]<br>Nếu %(x-4=0 \\Leftrightarrow x=4)% thì dẫn đến %(1=0)% (vô lý).<br>Vây loại %(x=4)%.Nếu %(x-4 \\neq 0 \\Leftrightarrow x \\neq 4)% thì ta dược %(y^{2}-4 y-2 x+10=-\\frac{1}{x-4})%.<br>Vì %(y^{2}-4 y-2 x+10 \\in \\mathbb{Z})% nên %(\\frac{1}{x-4} \\in \\mathbb{Z} \\Rightarrow x=3 ; x=5)%.Với %(x=3)% thì %(y=1 ; y=3)%.<br>Với %(x=5)% thì %(y=2 \\pm \\sqrt{3} \\notin \\mathbb{Z})%.<br>Vậy các cặp số %((x ; y))% cần tìm là %((3 ; 1),(3 ; 3))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Cho số %(k)% thoả mãn %(\\frac{1}{1.2}+\\frac{1}{3.4}+\\frac{1}{5.6}+\\ldots+\\frac{1}{2019.2020}=k \\cdot\\left(\\frac{1}{1011}+\\frac{1}{1012}+\\frac{1}{1013}+\\ldots+\\frac{1}{2020}\\right))%<br>Chứng minh rằng: %(k \\in \\mathbb{N})%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\frac{1}{1.2}+\\frac{1}{3.4}+\\frac{1}{5.6}+\\ldots+\\frac{1}{2019.2020}=1-\\frac{1}{2}+\\frac{1}{3}-\\frac{1}{4}+\\frac{1}{5}-\\frac{1}{6}+\\ldots+\\frac{1}{2019}-\\frac{1}{2020})%<br>\\[\\begin{array}{l}=\\left(1+\\frac{1}{3}+\\frac{1}{5}+\\ldots+\\frac{1}{2019}\\right)-\\left(\\frac{1}{2}+\\frac{1}{4}+\\frac{1}{6}+\\ldots+\\frac{1}{2020}\\right) \\\\=\\left(1+\\frac{1}{3}+\\frac{1}{5}+\\ldots+\\frac{1}{2019}\\right)+\\left(\\frac{1}{2}+\\frac{1}{4}+\\frac{1}{6}+\\ldots+\\frac{1}{2020}\\right)-2 \\cdot\\left(\\frac{1}{2}+\\frac{1}{4}+\\frac{1}{6}+\\ldots+\\frac{1}{2020}\\right) \\\\=1+\\frac{1}{2}+\\frac{1}{3}+\\ldots+\\frac{1}{2020}-\\left(1+\\frac{1}{2}+\\frac{1}{3}+\\ldots+\\frac{1}{1010}\\right) \\\\=\\frac{1}{1011}+\\frac{1}{1012}++\\frac{1}{1013} \\ldots+\\frac{1}{2020}\\end{array}\\]<br>Từ đó suy ra %(k=1)%.<br>Vậy %(k \\in \\mathbb{N})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Giải phương trình %(\\sqrt{1926-x}+\\sqrt{1954-x}+\\sqrt{1971-x}=23)%.",
+        "question_images": [],
+        "solution": "Điều kiện xác định %(x \\leq 1926)%Khi đó, phương trình đã cho tương đương với<br>\\[\\begin{array}{l}(\\sqrt{1926-x}-6)+(\\sqrt{1954-x}-8)+(\\sqrt{1971-x}-9)=0 \\\\Leftrightarrow \\frac{\\sqrt{1926-x}-6^{2}}{\\sqrt{1926-x}+6}+\\frac{\\sqrt{1954-x}-8^{2}}{\\sqrt{1954-x}+8}+\\frac{\\sqrt{1971-x}-9^{2}}{\\sqrt{1971-x}+9}=0 \\\\Leftrightarrow(1890-x)\\left(\\frac{1}{\\sqrt{1926-x}+6}+\\frac{1}{\\sqrt{1954-x}+8}+\\frac{1}{\\sqrt{1971-x}+9}\\right)=0 \\\\Leftrightarrow(1890-x)=0\\left(\\mathrm{Vì} \\frac{1}{\\sqrt{1926-x}+6}+\\frac{1}{\\sqrt{1954-x}+8}+\\frac{1}{\\sqrt{1971-x}+9}\\gt 0\\right)\\end{array}\\]<br>%(\\Leftrightarrow x=1890)% (thỏa mãn).<br>Vậy %(x=1890)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho tam giác %(\\mathrm{ABC})% nhọn với trực tâm %(\\mathrm{H})%. Trên đoạn %(\\mathrm{HB})% lấy %(\\mathrm{M})% và trên đoạn %(\\mathrm{HC})% lấy %(\\mathrm{N})% sao cho %(\\widehat{\\mathrm{AMC}}=\\widehat{\\mathrm{ANB}}=90^{\\circ})%. Chứng minh rằng %(\\mathrm{AM}=\\mathrm{AN})%.",
+        "question_images": [],
+        "solution": "Gọi hai đường cao của tam giác %(\\mathrm{ABC})% là %(\\mathrm{BD})% và %(\\mathrm{CI})%.<br>Xét tam giác %(A M C)% vuông tại %(M)% với đường cao %(M D)% và tam giác %(A N B)% vuông tại %(N)% với đường cao %(\\mathrm{NI})%, ta có: %(\\mathrm{AM}^{2}=\\mathrm{AD} . \\mathrm{AC} ; \\mathrm{AN}^{2}=\\mathrm{AI} . \\mathrm{AB})%.<br>Xét tam giác %(A B D)% vuông tại %(D)% và tam giác %(A C I)% vuông tại I có %(\\widehat{B A D}=\\widehat{C A I})% nên %(\\triangle \\mathrm{ABD} \\# \\triangle \\mathrm{ACI})%, do đó %(\\mathrm{AD} \\cdot \\mathrm{AC}=\\mathrm{AI} \\cdot \\mathrm{AB} \\Rightarrow \\mathrm{AM}^{2}=\\mathrm{AN}^{2} \\Rightarrow \\mathrm{AM}=\\mathrm{AN})% (đpcm).<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/cc93893afbf827ba65213bad1a33a889.png\" srcset=\"https://docdn.giainhanh.io/media/test/28d6b3b25440640c5a82066215acca96.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Cho tam giác %(\\mathrm{ABC})% nhọn. Gọi %(\\mathrm{D})% là trung điểm của %(\\mathrm{BC} ; \\mathrm{E})% là điểm bất kỳ trên cạnh %(\\mathrm{AC})%. Gọi %(\\mathrm{M})% là giao điểm của %(\\mathrm{AD})% với %(\\mathrm{BE})%. Kẻ đường thẳng %(\\mathrm{CM})% cắt %(\\mathrm{AB})% tại %(\\mathrm{F})%. Chứng minh rằng hai đường thă̆ng %(\\mathrm{EF})% và %(\\mathrm{BC})% song song với nhau.",
+        "question_images": [],
+        "solution": "Qua điểm %(\\mathrm{A})%, kẻ đường thẳng song song với %(\\mathrm{BC})% và cắt các đường thẳng %(\\mathrm{BM}, \\mathrm{CM})% lần lượt tại %(\\mathrm{P}, \\mathrm{Q})%.<br>Khi đó, áp dụng định lý Ta-lét ta có: %(\\frac{\\mathrm{DB}}{\\mathrm{DC}} \\cdot \\frac{\\mathrm{EC}}{\\mathrm{EA}} \\cdot \\frac{\\mathrm{FA}}{\\mathrm{FB}}=\\frac{\\mathrm{AP}}{\\mathrm{AQ}} \\cdot \\frac{\\mathrm{BC}}{\\mathrm{AP}} \\cdot \\frac{\\mathrm{AQ}}{\\mathrm{BC}}=1\\left(^{*}\\right))%<br>Mà %(\\mathrm{BD}=\\mathrm{CD})% nên %(\\frac{\\mathrm{EA}}{\\mathrm{EC}}=\\frac{\\mathrm{FA}}{\\mathrm{FB}})%<br>Vậy: %(\\mathrm{EF})% và %(\\mathrm{BC})% song song với nhau<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5ca578d5562c12feb353c8e318d06c3a.png\" srcset=\"https://docdn.giainhanh.io/media/test/456257e68c340f939eed6c5f919cd5d0.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho %(a, b, \\mathrm{c})% là độ dài các cạnh của một tam giác bất kỳ.<br>Chứng minh rằng: %(\\frac{a}{b+c-a}+\\frac{b}{c+a-b}+\\frac{c}{a+b-c} \\geq 3)%.",
+        "question_images": [],
+        "solution": "Vì %(a, b)%, c là độ dài các cạnh của một tam giác nên %(b+c-a\\gt 0 ; c+a-b>0 ; a+b-c>0)%<br>Đặt %(x=b+c-a ; y=c+a-b ; z=a+b-c)%thì %(x, \\mathrm{y}, \\mathrm{z})% là các số dương và %(a=\\frac{y+z}{2} ; b=\\frac{z+x}{2} ; c=\\frac{x+y}{2})%.<br>Khi đó: %(\\frac{a}{b+c-a}+\\frac{b}{c+a-b}+\\frac{c}{a+b-c}=\\frac{y+z}{2 x}+\\frac{z+x}{2 y}+\\frac{x+y}{2 z})%<br>\\[=\\frac{1}{2}\\left(\\frac{y}{x}+\\frac{z}{x}+\\frac{z}{y}+\\frac{x}{y}+\\frac{x}{z}+\\frac{y}{z}\\right) \\geq 3\\]<br>Dấu \"=\" xảy ra khi và chỉ khi %(x=y=z \\Leftrightarrow a=b=c)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 1.0,
+        "content": "Trong hình vuông cạnh bằng 18 cho 1945 điểm. Chứng minh rằng luôn tồn tại một đường tròn bán kính 1 chứa ít nhất 7 diểm trong số 1945 điểm đã cho.",
+        "question_images": [],
+        "solution": "Ta phân chia hình vuông đã cho thành %(18^{2}=324)% hình vuông đơn vị (có cạnh bằng 1 ).<br>Vì có 1945 điểm và 324 hình vuông đơn vị nên tồn tại 1 hình vuông đơn vị chứa ít nhất %(\\left[\\frac{1945}{324}\\right]+1=7)% điểm trong số các điểm đã cho.<br>Đường tròn ngoại tiếp hình vuông đơn vị có bán kính bằng %(\\frac{\\sqrt{2}}{2}\\lt 1)% chứa ít nhất 7 điểm nói trên.<br>Từ đó suy ra bài toán được chứng minh.",
+        "question_type": "essay"
+    }
+]

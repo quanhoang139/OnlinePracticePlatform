@@ -1,0 +1,74 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Cho hàm số %(m)% và hàm số %(y = - x + m)%. Tìm %(A , B)% đế đồ thị các hàm số đó cắt nhau tại hai điểm phân biệt %(y = x^{2} - 3 x + 2)% đồng thời khoảng cách từ trung điểm I của đoạn thẳng AB đến các trục tọa độ bằng nhau.",
+        "question_images": [],
+        "solution": "Yêu cầu bài toán %(\\Rightarrow \\mathrm{PT})% sau có hai nghiệm phân biệt<br>%(x^{2}-3 x+2=-x+m)% hay %(x^{2}-2 x+2-m=0\\left(^{*}\\right))% có %(\\Delta^{\\prime}\\gt 0 \\Leftrightarrow \\mathrm{m}>1)%<br>Gọi %(\\mathrm{x}_{\\mathrm{A}} ; \\mathrm{x}_{\\mathrm{B}})% là 2 nghiệm của ( %(\\left.{ }^{*}\\right))%, I là trung điểm AB ta có %(\\mathrm{x}_{\\mathrm{I}}=\\frac{\\mathrm{x}_{\\mathrm{A}}+\\mathrm{x}_{\\mathrm{B}}}{2}=1)%; %(\\mathrm{y}_{1}=-\\mathrm{x}_{1}+\\mathrm{m}=\\mathrm{m}-1)%<br>Yêu cầu bài toán %(\\Leftrightarrow\\left|\\mathrm{y}_{1}\\right|=\\left|\\mathrm{x}_{1}\\right|)%<br>%(\\Leftrightarrow|\\mathrm{m}-1|=1 \\Leftrightarrow \\mathrm{m}=2 ; \\mathrm{m}=0)%<br>Kết hợp ĐK, kết luận %(m=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Giải phương trình sau trên %(\\mathbb{R})% : %(\\sqrt{3 x+1}-\\sqrt{x-1}=\\sqrt{9-x})%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(\\quad 1 \\leq x \\leq 9)%.<br>Ta có %(\\sqrt{3 x+1}-\\sqrt{x-1}=\\sqrt{9-x})%<br>%(\\Leftrightarrow \\sqrt{3 x+1}=\\sqrt{x-1}+\\sqrt{9-x})%<br>%(\\begin{array}{l}\\Leftrightarrow 3 x+1=8+2 \\sqrt{x-1} \\sqrt{9-x} \\\\ \\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq \\frac{7}{3} \\\\ 9 x^{2}-42 x+49=4(x-1)(9-x)\\end{array}\\right. \\\\ \\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq \\frac{7}{3} \\\\ 13 x^{2}-82 x+85=0 \\\\ \\Leftrightarrow x=5\\end{array}\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải bất phương trình sau: %(\\frac{9}{|x-5|-3} \\geq|x-2|)%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(|x-5|-3 \\neq 0 \\Leftrightarrow\\left\\{\\begin{array}{l}x \\neq 2 \\\\ x \\neq 8\\end{array}\\right.)%.<br>TH1 : Xét %(x\\lt 2)% ta có : %((1) \\Leftrightarrow \\frac{9}{5-x-3} \\geq 2-x \\Leftrightarrow \\frac{9}{2-x} \\geq 2-x)%<br>%(\\Leftrightarrow(2-x)^{2} \\leq 9 \\Leftrightarrow-3 \\leq x-2 \\leq 3)%<br>%(\\Leftrightarrow-1 \\leq x \\leq 5)% Vậy %(-1 \\leq x\\lt 2)% là nghiệm.<br>TH2 : Xét %(2\\lt x\\lt 5)% ta có: %((1) \\Leftrightarrow \\frac{9}{5-x-3} \\geq x-2 \\Leftrightarrow \\frac{9}{2-x} \\geq x-2)%<br>%(\\Leftrightarrow-(x-2)^{2} \\geq 9)% ( Bpt vô nghiệm)<br>TH3 : Xét %(5\\lt x \\neq 8)% ta có : %((1) \\Leftrightarrow \\frac{9}{x-8} \\geq x-2 \\Leftrightarrow \\frac{9}{x-8}-(x-2) \\geq 0)%<br>%(\\begin{array}{l}\\Leftrightarrow \\frac{9-(x-8)(x-2)}{x-8} \\geq 0 \\Leftrightarrow \\frac{-x^{2}+10 x-7}{x-8} \\geq 0 \\\\ \\Leftrightarrow(x-8)\\left(x^{2}-10 x+7\\right) \\leq 0 \\\\ \\Leftrightarrow\\left[\\begin{array}{l}x \\leq 5-3 \\sqrt{2} \\\\ 8\\lt x \\leq 5+3 \\sqrt{2}\\end{array}\\right.\\end{array})%<br>Kết hợp với miền %(x)% đang xét ta có %(8\\lt x \\leq 5+3 \\sqrt{2})% là nghiệm của Bpt.<br>Vậy tập nghiệm của Bpt là : %(S=[-1 ; 2) \\cup(8 ; 5+3 \\sqrt{2}])%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}2 x^{2}+y^{2}-3 x y+3 x-2 y+1=0 \\\\ 4 x^{2}-y^{2}+x+4=\\sqrt{2 x+y}+\\sqrt{x+4 y}\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}2 x^{2}+y^{2}-3 x y+3 x-2 y+1=0(1) \\\\ 4 x^{2}-y^{2}+x+4=\\sqrt{2 x+y}+\\sqrt{x+4 y}(2)\\end{array}\\right.)%<br>Điều kiện: %(2 x+y \\geq 0, x+4 y \\geq 0)%.<br>Từ (1) ta được %(y=x+1)% hoặc %(y=2 x+1)%<br>%({ }^{*})% ) Với %(\\mathrm{y}=\\mathrm{x}+1)%, thay vào (2) ta được %(3 x^{2}-x+3=\\sqrt{3 x+1}+\\sqrt{5 x+4})%<br>%(\\begin{array}{l}\\Leftrightarrow 3\\left(x^{2}-x\\right)+(x+1-\\sqrt{3 x+1})+(x+2-\\sqrt{5 x+4})=0 \\\\ \\Leftrightarrow\\left(x^{2}-x\\right)\\left(3+\\frac{1}{x+1+\\sqrt{3 x+1}}+\\frac{1}{x+2+\\sqrt{5 x+4}}\\right)=0\\end{array})%<br>%(\\begin{array}{l}\\Leftrightarrow x^{2}-x=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\\\ x=1\\end{array}\\right. \\\\ \\Rightarrow(x ; y)=\\{(0 ; 1) ;(1 ; 2)\\}\\end{array})%<br>*) Với %(y=2 x+1)%, thay vào (2) ta được<br>%(\\begin{array}{l}3-3 x=\\sqrt{4 x+1}+\\sqrt{9 x+4} \\\\ \\Leftrightarrow\\gt 3 x+(\\sqrt{4 x+1}-1)+(\\sqrt{9 x+4}-2)=0 \\\\ \\Leftrightarrow x\\left(3+\\frac{4}{\\sqrt{4 x+1}+1}+\\frac{9}{\\sqrt{9 x+4}+2}\\right)=0 \\\\ \\Leftrightarrow x=0\\end{array})%<br>Khi đó ta được nghiệm %((\\mathrm{x} ; \\mathrm{y}))% là %((0 ; 1))%<br>Đối chiếu điều kiện bài toán ta được nghiệm %((\\mathrm{x} ; \\mathrm{y}))% của hệ đã cho là %((0 ; 1))% và %((1 ; 2))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.25,
+        "content": "Trong mặt phẳng tọa độ %(\\mathrm{Ox} y)% cho tam giác ABC có %(\\mathrm{B}(1 ; 2))%. Đường thẳng %(\\Delta)% là đường phân giác trong của góc A có phương trình %(2 \\mathrm{x}+\\mathrm{y}-1=0)%, khoảng cách từ C đến %(\\Delta)% gấp 3 lần khoảng cách từ %(B)% đến %(\\Delta)%. Tìm tọa độ của %(A)% và %(C)% biết %(C)% nằm trên trục tung.",
+        "question_images": [],
+        "solution": "%(\\mathrm{D}(\\mathrm{B} ; \\Delta)=\\frac{3}{\\sqrt{5}} ; \\mathrm{C}\\left(0: \\mathrm{y}_{0}\\right) ; \\mathrm{D}(\\mathrm{C} ; \\Delta)=\\frac{\\left|\\mathrm{y}_{0}-1\\right|}{\\sqrt{5}})%, theo bài ra ta có<br>%(\\frac{\\left|y_{0}-1\\right|}{\\sqrt{5}}=\\frac{9}{\\sqrt{5}} \\Leftrightarrow y_{0}=10 ; y_{0}=-8)%<br>%(C)% khác phía %(B)% đối với %(\\Delta)% suy ra %(\\mathrm{C}(0 ;-8))%<br>Gọi %(\\mathrm{B}^{\\prime}(\\mathrm{a} ; \\mathrm{b}))% là điểm đối xứng với B qua %(\\Delta)% thì %(\\mathrm{B}^{\\prime})% nằm trên AC.<br>Do %(\\overrightarrow{\\mathrm{BB}^{\\prime}} \\perp \\overrightarrow{\\mathrm{u}_{\\Delta}}=(1 ;-2))% nên ta có: %(\\mathrm{a}-2 \\mathrm{~b}+3=0)%;<br>Trung điểm I của %(\\mathrm{BB}^{\\prime})% phải thuộc %(\\Delta)% nên có: %(2 \\mathrm{a}+\\mathrm{b}+2=0)%<br>Từ đó ta có: %(a=-7 / 5 ; b=4 / 5)%<br>Theo định lý Ta - Let suy ra %(\\overrightarrow{\\mathrm{CA}}=\\frac{3}{2} \\overrightarrow{\\mathrm{CB}^{\\prime}})%<br>%(\\mathrm{A}(\\mathrm{x} ; \\mathrm{y}) ; \\overrightarrow{\\mathrm{CA}}=(\\mathrm{x} ; \\mathrm{y}+8) ; \\overrightarrow{\\mathrm{CB}^{\\prime}}=\\left(-\\frac{7}{5} ; \\frac{44}{5}\\right))%<br>Từ đó suy ra %(\\mathrm{A}\\left(\\frac{-21}{10} ; \\frac{26}{5}\\right) ; \\mathrm{C}(0 ;-8))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.25,
+        "content": "Cho tam giác ABC vuông ở %(\\mathrm{A} ; \\mathrm{BC}=\\mathrm{a} ; \\mathrm{CA}=\\mathrm{b} ; \\mathrm{AB}=\\mathrm{c})%. Xác định điểm I thỏa mãn hệ thức: %(\\mathrm{b}^{2} \\overrightarrow{\\mathrm{IB}}+\\mathrm{c}^{2} \\overrightarrow{\\mathrm{IC}}-2 \\mathrm{a}^{2} \\overrightarrow{\\mathrm{IA}}=\\overrightarrow{0})%. Tìm điểm M sao cho biểu thức ( %(\\mathrm{b}^{2} \\mathrm{MB}^{2}+\\mathrm{c}^{2} \\mathrm{MC}^{2}-2 \\mathrm{a}^{2} \\mathrm{MA}^{2})% ) đạt giá trị lớn nhất.",
+        "question_images": [],
+        "solution": "Kẻ đường cao AH , ta có:<br>%(\\mathrm{b}^{2}=\\mathrm{a} \\cdot \\mathrm{CH} ; \\mathrm{c}^{2}=\\mathrm{a} \\cdot \\mathrm{BH})% nên %(\\mathrm{b}^{2} \\cdot \\mathrm{BH}=\\mathrm{c}^{2} \\cdot \\mathrm{CH})%.<br>Do đó:<br>%(\\mathrm{b}^{2} \\cdot \\overrightarrow{\\mathrm{BH}}+\\mathrm{c}^{2} \\cdot \\overrightarrow{\\mathrm{CH}}=\\overrightarrow{0})%<br>Suy ra %(b^{2} \\cdot \\overrightarrow{\\mathrm{IB}}+\\mathrm{c}^{2} \\cdot \\overrightarrow{\\mathrm{IC}}=\\mathrm{b}^{2} \\cdot \\overrightarrow{\\mathrm{IH}}+\\mathrm{c}^{2} \\cdot \\overrightarrow{\\mathrm{IH}}=\\mathrm{a}^{2} \\cdot \\overrightarrow{\\mathrm{IH}})%<br>Kết hợp giả thiết suy ra %(2 \\mathrm{a}^{2} \\cdot \\overrightarrow{\\mathrm{IA}}=\\mathrm{a}^{2} \\cdot \\overrightarrow{\\mathrm{IH}})% hay %(2 \\cdot \\overrightarrow{\\mathrm{IA}}=\\overrightarrow{\\mathrm{IH}})%<br>Do đó điểm I thỏa mãn gt là I thỏa mãn A là trung điểm IH<br>Với %(x, y, z)% tùy ý thỏa mãn: %(x \\cdot \\overrightarrow{\\mathrm{IA}}+\\mathrm{y} \\cdot \\overrightarrow{\\mathrm{IB}}+\\mathrm{z} \\cdot \\overrightarrow{\\mathrm{IC}}=\\overrightarrow{0})% ( %(\\left.{ }^{*}\\right))% bình phương vô hướng 2 vế ( %(\\left.{ }^{*}\\right))%, chú ý rằng %(2 \\overrightarrow{\\mathrm{IA}} \\cdot \\overrightarrow{\\mathrm{IB}}=\\mathrm{IA}^{2}+\\mathrm{IB}^{2}-\\mathrm{AB}^{2})% ta có:<br>%(\\left(x \\cdot \\mathrm{IA}^{2}+\\mathrm{y} \\cdot \\mathrm{IB}^{2}+\\mathrm{z} \\cdot \\mathrm{IC}^{2}\\right)(\\mathrm{x}+\\mathrm{y}+\\mathrm{z})=\\mathrm{xyc}^{2}+\\mathrm{xzb}^{2}+\\mathrm{yza}^{2})%<br>Từ đó có %(\\left(-2 \\mathrm{a}^{2} \\cdot \\mathrm{IA}^{2}+\\mathrm{b}^{2} \\cdot \\mathrm{IB}^{2}+\\mathrm{c}^{2} \\cdot \\mathrm{IC}^{2}\\right)=3 \\mathrm{~b}^{2} \\mathrm{c}^{2})%<br>Mặt khác %(\\mathrm{xMA}^{2}=\\mathrm{x}(\\overrightarrow{\\mathrm{IA}}-\\overrightarrow{\\mathrm{IM}})^{2}=\\mathrm{x}\\left(\\mathrm{IM}^{2}+\\mathrm{IA}^{2}-2 \\overrightarrow{\\mathrm{IA}} \\cdot \\overrightarrow{\\mathrm{IM}}\\right))%<br>Tương tự cho %(\\mathrm{yMB}^{2} ; \\mathrm{zMC}^{2})% rồi cộng các đẳng thức đó lại ta có:<br>Thay số có:<br>%(-2 \\mathrm{a}^{2} \\mathrm{MA}^{2}+\\mathrm{b}^{2} \\mathrm{MB}^{2}+\\mathrm{c}^{2} \\mathrm{MC}^{2}=-\\mathrm{a}^{2} \\mathrm{IM}^{2}+3 \\mathrm{~b}^{2} \\mathrm{c}^{2} \\leq 3 \\mathrm{~b}^{2} \\mathrm{c}^{2})%<br>Dấu bằng xảy ra khi M trùng I<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7e656246f67c312852d9c59a7b5a0499.png\" srcset=\"https://docdn.giainhanh.io/media/test/78e998a22452998fe233ccca12e7fdc0.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng các biểu thức sau không phụ thuộc vào a.<br>%(E=\\sqrt{\\sin ^{4} a+4 \\cos ^{2} a}+\\sqrt{\\cos ^{4} a+4 \\sin ^{2} a})%",
+        "question_images": [],
+        "solution": "Ta có: %(E=\\sqrt{\\sin ^{4} a+4\\left(1-\\sin ^{2} a\\right)}+\\sqrt{\\cos ^{4} a+4\\left(1-\\cos ^{2} a\\right)})%<br>%(\\begin{array}{l}\\Leftrightarrow E=\\sqrt{\\left(\\sin ^{2} a-2\\right)^{2}}+\\sqrt{\\left(\\cos ^{2} a-2\\right)^{2}} \\\\ \\Leftrightarrow E=\\left(2-\\sin ^{2} a\\right)+\\left(2-\\cos ^{2} a\\right)=3\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho tam giác %(A B C)% và điểm %(K)% thuộc cạnh %(B C)% sao cho %(K B=2 K C)%, %(L)% là hình chiếu của B trên %(\\mathrm{AK}, \\mathrm{F})% là trung điểm của BC , biết rằng %(\\angle K A B=2 \\angle K A C)%. Chứng minh rằng FL vuông góc với AC .",
+        "question_images": [],
+        "solution": "Đặt %(\\mathrm{AB}=\\mathrm{c}, \\mathrm{AC}=\\mathrm{b}, \\mathrm{BC}=\\mathrm{a}, \\widehat{K A C}=\\alpha)%.<br>Khi đó: %(\\widehat{K A B}=2 \\alpha ; \\widehat{B A C}=3 \\alpha)%.<br>Áp dụng định lí sin cho tam giác ABK và ACK , ta được:<br>%(\\frac{B K}{\\sin 2 \\alpha}=\\frac{A K}{\\sin B} ; \\frac{C K}{\\sin \\alpha}=\\frac{A K}{\\sin C})%<br>Do %(\\mathrm{BK}=2 \\mathrm{CK})%, nên từ các đẳng thức trên ta có: %(\\cos \\alpha=\\frac{\\sin B}{\\sin C}(*))%<br>Lại có:<br>%(\\begin{array}{l}F A^{2}-F C^{2}=\\left(\\frac{b^{2}+c^{2}}{2}-\\frac{a^{2}}{4}\\right)-\\frac{a^{2}}{4}=\\frac{b^{2}+c^{2}-a^{2}}{2}=b c \\cdot \\cos A=b c \\cos 3 \\alpha \\L C^{2}=L A^{2}+b^{2}-2 b \\cdot L A \\cdot \\cos \\alpha=L A^{2}+b^{2}-2 b c \\cos 2 \\alpha \\cdot \\cos \\alpha \\\\Rightarrow L A^{2}-L C^{2}=2 b c \\cos \\alpha \\cdot \\cos 2 \\alpha-b^{2}=b c(\\cos \\alpha+\\cos 3 \\alpha)-b^{2} \\\\=\\left(b c \\cos \\alpha-b^{2}\\right)+b c \\cos 3 \\alpha\\left(^{* *}\\right)\\end{array})%<br>Thay %(\\left(^{*}\\right))% vào %(\\left({ }^{* *}\\right))%, ta được: %(L A^{2}-L C^{2}=b c \\cos 3 \\alpha)%<br>Từ (1) và (2) suy ra: %(F A^{2}-F C^{2}=L A^{2}-L C^{2})%<br>%(\\Leftrightarrow 2 \\overrightarrow{F L} \\cdot \\overrightarrow{C A}=0 \\Leftrightarrow F L \\perp C A)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/75033fff677612c2d0efc0aac2e5fcf7.png\" srcset=\"https://docdn.giainhanh.io/media/test/eeb4f9402125f1fee8a0ef1eda566dc8.png 179w\" width=\"179\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 1.0,
+        "content": "Cho %(x, y, z)% là các số thực dương thỏa mãn %(\\mathrm{x}+\\mathrm{y}+\\mathrm{z}=\\mathrm{xyz})%. Chứng minh rằng:<br>%(\\frac{1+\\sqrt{1+x^{2}}}{x}+\\frac{1+\\sqrt{1+y^{2}}}{y}+\\frac{1+\\sqrt{1+z^{2}}}{z} \\leq x y z .)%",
+        "question_images": [],
+        "solution": "Giả thiết suy ra: %(\\frac{1}{\\mathrm{xy}}+\\frac{1}{\\mathrm{yz}}+\\frac{1}{\\mathrm{zx}}=1)%.<br>Ta Có: %(\\frac{\\sqrt{1+\\mathrm{x}^{2}}}{\\mathrm{x}}=\\sqrt{\\frac{1}{\\mathrm{x}^{2}}+\\frac{1}{\\mathrm{xy}}+\\frac{1}{\\mathrm{yz}}+\\frac{1}{\\mathrm{zx}}}=\\sqrt{\\left(\\frac{1}{x}+\\frac{1}{y}\\right)\\left(\\frac{1}{x}+\\frac{1}{z}\\right)})%%(\\leq \\frac{1}{2}\\left(\\frac{2}{x}+\\frac{1}{y}+\\frac{1}{\\mathrm{z}}\\right))%\"%(=)%\"%( \\Leftrightarrow y=z)%<br>Viết hai BĐT tương tự rồi cộng lại ta được:<br>%(\\frac{1+\\sqrt{1+x^{2}}}{x}+\\frac{1+\\sqrt{1+y^{2}}}{y}+\\frac{1+\\sqrt{1+z^{2}}}{z} \\leq 3\\left(\\frac{1}{\\mathrm{x}}+\\frac{1}{\\mathrm{y}}+\\frac{1}{\\mathrm{z}}\\right) ;)%\"%(=)%\" %( \\Leftrightarrow \\mathrm{x}=\\mathrm{y}=\\mathrm{z})%<br>Ta sẽ CM:3 %(\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right) \\leq x y z \\Leftrightarrow 3(x y+y z+z x) \\leq(x y z)^{2}=(x+y+z)^{2})%<br>%(\\Leftrightarrow(\\mathrm{x}-\\mathrm{y})^{2}+(\\mathrm{y}-\\mathrm{z})^{2}+(\\mathrm{z}-\\mathrm{x})^{2} \\geq 0)% Điều này luôn đúng<br>Dấu bằng có khi và chỉ khi %(\\mathrm{x}=\\mathrm{y}=\\mathrm{z})%<br>Vậy (I) được %(C M)%, dấu bằng có khi và chỉ khi %(\\mathrm{x}=\\mathrm{y}=\\mathrm{z}=\\sqrt{3})%",
+        "question_type": "essay"
+    }
+]

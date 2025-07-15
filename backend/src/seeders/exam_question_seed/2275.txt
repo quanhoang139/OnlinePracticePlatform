@@ -1,0 +1,65 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x^{2}+2 y=8 \\\\ y^{2}-2 x=8\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Ta có : %(\\left(x^{2}+2 y\\right)-\\left(y^{2}-2 x\\right)=0)%.<br>Hay %((x+y)(x-y+2)=0)%.<br>Nếu %(x - y + 2 = 0)%, thay %(x = 4 ; x = - 2)% vào phương trình đầu thì:%(y = - x)%<br>Giải ra : %(x^{2} + 2 \\left( x + 2 \\right ) = 8 \\Leftrightarrow x^{2} + 2 x - 4 = 0 \\text{. })%<br>Trường hợp này hệ có hai nghiệm : %(x = - 1 - \\sqrt{5} ; x = - 1 + \\sqrt{5})%<br>Nếu %(x^{2} - 2 x = 8 \\Leftrightarrow x^{2} - 2 x - 8 = 0)%, thay %(x + y = 0)% vào phương trình đầu thì:%(y = x + 2)%<br>Giải ra: %(\\left( x ; y \\right ) = \\left( 4 ; - 4 \\right ) ; \\left( x ; y \\right ) = \\left( - 2 ; 2 \\right ))%.<br>Trường hợp này hệ có hai nghiệm:%(\\left( x ; y \\right ) = \\left( - 1 - \\sqrt{5} ; 1 - \\sqrt{5} \\right ) ; \\left( x ; y \\right ) = \\left( - 1 + \\sqrt{5} ; 1 + \\sqrt{5} \\right ))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Chứng minh rằng phương trình: %(x^{4}-2\\left(m^{2}+2\\right) x^{2}+m^{4}+3=0)% luôn có 4 nghiệm phân biệt %(x_{1}, x_{2}, x_{3}, x_{4})% với mọi giá trị của %(m)%.Tìm giá trị %(m)% sao cho %(x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+x_{4}^{2}+x_{1} \\cdot x_{2} \\cdot x_{3} \\cdot x_{4}=11)%.",
+        "question_images": [],
+        "solution": "Đặt %(: t=x^{2})%, ta có %(: t^{2}-2\\left(m^{2}+2\\right) t+m^{4}+3=0(2)(t \\geq 0))%.<br>Ta chứng tỏ (2) luôn có hai nghiệm : %(0\\lt t_{1}\\lt t_{2})%.%(\\Delta^{\\prime}=\\left(m^{2}+2\\right)^{2}-\\left(m^{4}+3\\right)=4 m^{2}+1\\gt 0)% với mọi %(m)%.<br>Vậy (2) luôn có hai nghiệm phân biệt %(t_{1}, t_{2})%.%(t_{1} \\cdot t_{2}=m^{4}+3>0)% với mọi %(m)%.%(t_{1}+t_{2}=2\\left(m^{2}+2\\right)>0)% với mọi %(m)%.<br>Do đó phương trình (1) có 4 nghiệm : %(-\\sqrt{t_{1}},+\\sqrt{t_{1}},-\\sqrt{t_{2}},+\\sqrt{t_{2}})%.<br>\\[\\begin{array}{l} x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+x_{4}^{2}+x_{1} \\cdot x_{2} \\cdot x_{3} \\cdot x_{4}=\\left(-\\sqrt{t_{1}}\\right)^{2}+\\left(\\sqrt{t_{1}}\\right)^{2}+\\left(-\\sqrt{t_{2}}\\right)^{2}+\\left(\\sqrt{t_{2}}\\right)^{2}+\\left(-\\sqrt{t_{1}}\\right) \\cdot\\left(\\sqrt{t_{1}}\\right) \\cdot\\left(-\\sqrt{t_{2}}\\right) \\cdot\\left(\\sqrt{t_{2}}\\right) \\\\= 2\\left(t_{1}+t_{2}\\right)+t_{1} \\cdot t_{2} \\\\hline x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+x_{4}^{2}+x_{1} \\cdot x_{2} \\cdot x_{3} \\cdot x_{4}=4\\left(m^{2}+2\\right)+m^{4}+3=m^{4}+4 m^{2}+11 . \\\\hline x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+x_{4}^{2}+x_{1} \\cdot x_{2} \\cdot x_{3} \\cdot x_{4}=11 \\Leftrightarrow m^{4}+4 m^{2}+11=11 \\Leftrightarrow m^{4}+4 m^{2}=0 \\Leftrightarrow m=0\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho hình vuông cố định %(P Q R S)%. Xét một điểm %(M)% thay đổi ở trên cạnh %(P Q(M \\neq P, M \\neq Q))%. Đường thẳng %(R M)% cắt đường chéo %(Q S)% của hình vuông %(P Q R S)% tại %(E)%. Đường tròn ngoại tiếp tam giác %(R M Q)% cắt đường thẳng QS tại %(\\mathrm{F}(\\mathrm{F} \\neq \\mathrm{Q}))%. Đường thẳng RF cắt cạnh SP của hình vuông PQRS tại %(\\mathrm{N})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Chứng tỏ rằng: %(\\widehat{E R F}=\\widehat{Q R E}+\\widehat{S R F})%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a3eb4c8391f21e152ae9775d5776c785.png\" srcset=\"https://docdn.giainhanh.io/media/test/a5305c6a0234f8a3d81b33a3415cc6d9.png 170w, https://docdn.giainhanh.io/media/test/76048bdfa905852ff91778832c4e8366.png 500w\" width=\"500\"/><br>Đường tròn ngoại tiếp tam giác %(\\mathrm{RMQ})% có đường kính %(\\mathrm{RM})%.<br>\\[\\widehat{E R F}=\\widehat{M R F}=\\widehat{M Q F}=45^{\\circ}(3)\\]<br>%(\\mathrm{F})% nằm trong đọan %(\\mathrm{ES})%.<br>\\[90^{\\circ}=\\widehat{Q R E}+\\widehat{E R F}+\\widehat{F R S}\\]<br>Do đó : %(\\widehat{Q R E}+\\widehat{S R F}=45^{\\circ} \\ (4))%<br>Từ (3) và (4) : %(\\widehat{E R F}=\\widehat{Q R E}+\\widehat{S R F})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Chứng minh rằng khi %(\\mathrm{M})% thay đổi trên cạnh %(\\mathrm{PQ})% của hình vuông %(PQRS )% thì đường tròn ngoại tiếp tam giác %(MEF )% luôn đi qua một điểm cố định.",
+        "question_images": [],
+        "solution": "Ta chứng minh đường tròn ngoại tiếp tam giác %(\\mathrm{MEF})% luôn qua điểm cố định %(\\mathrm{P})%<br>Ta có %(: N S E=45^{\\circ}=N R E)%.<br>Do đó %(\\mathrm{N}, \\mathrm{S}, \\mathrm{R}, \\mathrm{E})% ở trên đường tròn đường kính %(\\mathrm{NR})%.<br>Ta cũng có: %(F M E=45^{\\circ}=F N E)%.<br>Do đó %(\\mathrm{N}, \\mathrm{F}, \\mathrm{E}, \\mathrm{M})% ở trên đường tròn đường kính %(\\mathrm{MN})%.<br>Do %(M P N=90^{\\circ})% nên đường tròn ngoại tiếp tam giác %(\\mathrm{MEF})% đi qua điểm %(\\mathrm{P})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "Chứng minh rằng: %(\\mathrm{MN}=\\mathrm{MQ}+\\mathrm{NS})%.",
+        "question_images": [],
+        "solution": "Tam giác %(R M N)% có hai đường cao %(M F)% và %(N E)%.<br>Gọi %(H)% là giao điểm của %(M F)% và %(N E)%, ta có %(R H)% là đường cao thứ ba. %(R H)% vuông góc với %(M N)% tại %(D)%.<br>Do đó %(D R M=E N M)%.<br>Ta có: %(E N M=E F M)% (do %(\\mathrm{M}, \\mathrm{N}, \\mathrm{F}, \\mathrm{E})% ở trên một đường tròn); %(E F M=Q F M=Q R M)% (do %(\\mathrm{M}, \\mathrm{F}, \\mathrm{R}, \\mathrm{Q})% ở trên một đường tròn).<br>Suy ra: %(D R M=Q R M)%.<br>D nằm trong đọan %(\\mathrm{MN})%.<br>Hai tam giác vuông %(D R M)% và %(Q R M)% bằng nhau, suy ra : %(M Q=M D)%<br>Tương tự : Hai tam giác vuông %(\\mathrm{DRN})% và %(\\mathrm{SRN})% bằng nhau, suy ra : %(\\mathrm{NS}=\\mathrm{ND})%. Từ đó %(: \\mathrm{MN}=\\mathrm{MQ}+\\mathrm{NS})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các cặp số nguyên %(p, q)% sao cho đẳng thức sau đúng:<br>\\[\\sqrt{p-2}+\\sqrt{q-3}=\\sqrt{p q-2 p-q+1}\\]",
+        "question_images": [],
+        "solution": "Điều kiện: %(p-2 \\geq 0, q-3 \\geq 0, p q-2 p-q+1 \\geq 0)%. (p, q là các số nguyên)<br>Bình phưong hai vế của %((\\alpha): 2 \\sqrt{p-2} \\cdot \\sqrt{q-3}=p q-3 p-2 q+6)%.<br>Hay : %(\\quad 2 \\sqrt{(p-2)(q-3)}=(p-2)(q-3))%.<br>Tiếp tục bình phương : %(\\quad 4(p-2)(q-3)=(p-2)^{2}(q-3)^{2})%.<br>+ Nếu %(p=2)% thì %((\\alpha))% trở thành: %(\\sqrt{0}+\\sqrt{q-3}=\\sqrt{q-3})%, đúng với mọi số nguyên %(q \\geq 3)% tùy ý.<br>+ Nếu %(q=3)% thì %((\\alpha))% trở thành: %(\\sqrt{p-2}+\\sqrt{0}=\\sqrt{p-2})%, đúng với mọi số nguyên %(p \\geq 2)% tùy ý.<br>+ Xét %(p\\gt 2)% và %(q>3)%. Ta có : %(4=(p-2)(q-3)(\\mathrm{p}, \\mathrm{q})% là các số nguyên)<br>Chỉ xảy ra các trường hơp :%(1 / \\quad p-2=1, q-3=4 ; 2 / \\quad p-2=2, q-3=2 ; 3 / p-2=4, q-3=1)%.<br>Ta có thêm các cặp %((\\mathbf{p} ; \\mathbf{q}): \\quad(\\mathbf{3} ; \\mathbf{7 )}, \\quad \\mathbf{( 4 ; 5 )}, \\quad \\mathbf{( 6 , 4 )})%.<br>Kiểm tra lại đẳng thức %((\\alpha): \\sqrt{1}+\\sqrt{4}=\\sqrt{9} ; \\sqrt{2}+\\sqrt{2}=\\sqrt{8} ; \\sqrt{4}+\\sqrt{1}=\\sqrt{9})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Chứng minh với mọi số thực %(x, y, z)% luôn có:<br>\\[|x+y-z|+|y+z-x|+|z+x-y|+|x+y+z| \\geq 2(|x|+|y|+|z|)\\]",
+        "question_images": [],
+        "solution": "Đặt: %(a=x+y-z, b=y+z-x, c=z+x-y)%.<br>Trong ba số %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% bao giờ cũng có ít nhất hai số cùng dấu, chẳng hạn: %(a \\cdot b \\geq 0)%.<br>Lúc này : %(|x+y-z|+|y+x-z|=|a|+|b|=|a+b|=2|y|)%<br>Ta có : %(x+y+z=a+b+c ; 2 x=a+c ; 2 z=b+c)%.<br>Do đó để chứng minh (*) đúng, chỉ cần chứng tỏ : %(|c|+|a+b+c| \\geq|a+c|+|b+c|\\left({ }^{* *}\\right))% đúng với %(a \\cdot b \\geq 0)%.<br>Ta có:%((* *) \\Leftrightarrow|c| \\cdot|a+b+c|+a b \\geq|a+c| \\cdot|b+c| \\Leftrightarrow\\left|c a+c b+c^{2}\\right|+a b \\geq\\left|\\left(c a+c b+c^{2}\\right)+a b\\right|)%%((* * *))%<br>Đặt: %(c a+c b+c^{2}=A ; \\quad a b=B)%, ta có %(B=|B|()% do %(a \\cdot b \\geq 0))% ta có: %(\\left({ }^{* * *}\\right) \\Leftrightarrow|A|+|B| \\geq)% %(|A+B| \\Leftrightarrow|A| .|B| \\geq A B \\Leftrightarrow|A B| \\geq A B)%<br>Dấu đẳng thức xảy ra trong trường hợp các số: %(a, b, c, a+b+c)% chia làm 2 cặp cùng dấu. Ví dụ: %(a b \\geq 0)% và %(c(a+b+c) \\geq 0)%.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(A=\\left[\\frac{2}{3 x}-\\frac{2}{x+1} \\cdot\\left(\\frac{x+1}{3 x}-x-1\\right)\\right]: \\frac{x-1}{x})% với %(x \\neq 0, x \\neq-1)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "a) Rút gọn biểu thức %(A)%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}A=\\left[\\frac{2}{3 x}-\\frac{2}{x+1} \\cdot\\left(\\frac{x+1}{3 x}-x-1\\right)\\right]: \\frac{x-1}{x}\\binom{x \\neq 0}{x \\neq-1} \\\\=\\left[\\frac{2}{3 x}-\\frac{2}{x+1} \\cdot\\left(\\frac{x+1}{3 x}-(x+1)\\right)\\right]: \\frac{x-1}{x}=\\left(\\frac{2}{3 x}-\\frac{2}{3 x}+2\\right): \\frac{x-1}{x} \\\\=2 \\cdot \\frac{x}{x+1}=\\frac{2 x}{x+1}\\end{array}\\]<br>Vậy với %(x \\neq 0 ; x \\neq 1)% thì %(A=\\frac{2 x}{x+1})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "b) Tìm giá trị nguyên của %(x)% để %(A)% nhận giá trị nguyên",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Với } x \\neq 0 ; x \\neq 1 \\text { ta có : } \\A=\\frac{2 x}{x+1}=\\frac{2(x+1)-2}{x+1}=2-\\frac{2}{x+1} \\A \\in \\mathbb{Z} \\Leftrightarrow(x+1) \\in U(2)=\\{1 ;-1 ; 2 ;-2\\} \\Rightarrow x \\in\\{0 ;-2 ; 1 ;-3\\} \\\\end{array}\\]<br>Đối chiếu điều kiện suy ra %(x \\in\\{-2 ; 1 ; 3\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Giải phương trình sau : %(\\frac{1}{x^{2}-2 x+2}+\\frac{2}{x^{2}-2 x+3}=\\frac{6}{x^{2}-2 x+4})%",
+        "question_images": [],
+        "solution": "Ta có %(\\frac{1}{x^{2}-2 x+2}+\\frac{2}{x^{2}-2 x+3}=\\frac{6}{x^{2}-2 x+4} \\Leftrightarrow \\frac{1}{(x+1)^{2}+1}+\\frac{2}{(x-1)^{2}+2}=\\frac{6}{(x-1)^{2}+3}(1))%<br>Đặt %((x-1)^{2}+2=t(t \\geq 2))%.<br>Khi đó phương trình (1) trở thành :<br>\\[\\begin{array}{l}\\frac{1}{t-1}+\\frac{2}{t}=\\frac{6}{t+1} \\Leftrightarrow \\frac{t^{2}+t+2 t^{2}-2}{t(t-1)(t+1)}=\\frac{6 t^{2}-6 t}{t(t-1)(t+1)} \\\\Rightarrow 3 t^{2}-7 t+2=0 \\Leftrightarrow 3 t(t-2)-(t-2)=0 \\Leftrightarrow\\left[\\begin{array}{l}t=2 \\Rightarrow(x-1)^{2}+2=2 \\Leftrightarrow x=1(\\text { tmod }) \\t=\\frac{1}{3}(\\mathrm{ktm})\\end{array}\\right.\\end{array}\\]<br>Vậy tập nghiệm của phương trình là %(S=\\{1\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải bất phương trình sau : %(x^{2}-2 x+3|x-1|\\lt 3)%.",
+        "question_images": [],
+        "solution": "Ta có %(x^{2}-2 x+3|x-1|\\lt 3 \\Leftrightarrow(x-1)^{2}+3|x-1|\\lt 4(2))%<br>Đặt %(|x-1|=t \\geq 0 \\Leftrightarrow(x-1)^{2}=t^{2})%<br>Phương trình (2) trở thành :<br>\\[\\begin{array}{l}t^{2}+3 t\\lt 4 \\Leftrightarrow t^{2}+4 t-t-4\\lt 0 \\Leftrightarrow(t+4)(t-1)\\lt 0 \\\\Leftrightarrow t-1\\lt 0(\\text { dot }+4\\gt 0, \\forall t \\geq 0) \\Leftrightarrow t\\lt 1 \\Leftrightarrow|x-1|\\lt 1 \\\\Leftrightarrow-1\\lt x-1\\lt 1 \\Rightarrow 0\\lt x\\lt 2\\end{array}\\]<br>Vậy tập nghiệm của bất phương trình là %(S=\\{x / 0\\lt x\\lt 2\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Cho %(P=n^{4}+4)%. Tìm tất cả các số tự nhiên n để %(P)% là số nguyên tố",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[P=n^{4}+4=\\left(n^{4}+4 n^{2}+4\\right)-4 n^{2}=\\left(n^{2}+2\\right)^{2}-(2 n)^{2}=\\left(n^{2}+2 n+2\\right)\\left(n^{2}-2 n+2\\right)\\]<br>Mà %(n \\in \\mathbb{N})% nên %(n^{2}+2 n+2\\gt n^{2}-2 n+2)% và P là số nguyên tố nên %(n^{2}-2 n+2=1(*))% và %(n^{2}+2 n+2)% là số nguyên tố%((*) \\Leftrightarrow n^{2}-2 n+1=0 \\Leftrightarrow(n+1)^{2}=0 \\Leftrightarrow n=-1)%<br>Thử lai với %(n=1)% thì P là số nguvên tố",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng không tồn tại số nguyên n thỏa mãn %(\\left(2014^{2014}+1\\right))% chia hết cho %(n^{3}+2012 n)%.",
+        "question_images": [],
+        "solution": "Đặt %(A=2014^{2014}+1, B=n^{3}+2012 n)%Giả sử tồn tại %(n \\in \\mathbb{Z})% để %(A: B(1))%<br>\\[B=n^{3}+2012 n=n^{3}-n+2013 n=(n-1) n(n+1)+2013 n\\]<br>Vì %(n-1, n, n+1)% là ba số nguyên liên tiếp nên %((n-1) n(n+1))% : 6 mà 2013n:3 (do<br>\\[\\text { 2013:3)(2). Từ (1),(2) } \\Rightarrow A \\vdots 3\\left({ }^{*}\\right)\\]<br>Lại có %(2014^{2014} \\equiv 1^{2014} \\equiv 1(\\bmod 3) \\Rightarrow A=2014^{2014}+1 \\equiv 2(\\bmod 3))%%(\\Rightarrow A)% không chia hết cho 3 (trái với %((*))% ), mâu thuẫn nên giả sử là saiVậy không tồn tại số nguyên %(n)% thỏa mãn %(\\left(2014^{2014}+1\\right))% chia hết cho %(n^{3}+2012 n)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình vuông %(A B C D, \\mathrm{M})% là một điểm nằm giữa B và C . Kẻ %(A N)% vuông góc với %(A M, A P)% vuông góc với %(M N(\\mathrm{M})% và P thuộc đường thẳng %(C D))%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "a) Chứng minh tam giác %(A M N)% vuông cân",
+        "question_images": [],
+        "solution": "Ta có %(A B C D)% là hình vuông (gt) nên %(\\left\\{\\begin{array}{l}A D=A B \\\\ \\angle D A B=\\angle B=\\angle C D A=90^{\\circ}\\end{array}\\right.)% (tính chất h. vuông) %(\\Rightarrow A D \\perp D C)%.<br>Vì %(\\angle N A D+\\angle D A M=\\angle N A M=90^{\\circ}(A N \\perp A M))%<br>Và %(\\angle B A M+\\angle D A M=\\angle D A B(c m t) \\Rightarrow \\angle N A D=\\angle M A B)%<br>Xét %(\\triangle N A D, \\triangle M A B)% ta có :<br>\\[\\begin{array}{l}\\angle N D A=\\angle M B A=90^{\\circ}, A D=A B(\\mathrm{cmt}), \\angle N A D=\\angle M A B(\\mathrm{cmt}) \\\\Rightarrow \\triangle N A D=\\triangle M A B(\\text { g.c.g }) \\Rightarrow A M=A N\\end{array}\\]<br>Lại có %(\\angle M A N=90^{\\circ}(A N \\perp A M) \\Rightarrow \\triangle A M N)% vuông cân tại A<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ee81df33a7093b958a448ecb60f67fb9.png\" srcset=\"https://docdn.giainhanh.io/media/test/7868a736d29fce8e202b448c14d4592b.png 245w, https://docdn.giainhanh.io/media/test/ef9f2ef48dd217d1cb344671f9fdd207.png 500w, https://docdn.giainhanh.io/media/test/3f93ccfe6241dd09285c00d2cb189d84.png 750w, https://docdn.giainhanh.io/media/test/1908afc4750cc13931f3bb49eeba58ad.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "b) Chứng minh rằng %(A N^{2}=N C . N P)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Gọi } \\mathrm{O} \\text { là giao điểm của } M N \\text { và } A P \\Rightarrow A P \\perp M N \\text { tại } \\mathrm{O} \\\\ \\text { Xét } \\triangle A N O, \\triangle M A N \\text { có : } \\angle A O N=\\angle M A N=90^{\\circ}, \\angle A N O \\text { chung } \\Rightarrow \\triangle A N O \\sim \\triangle M A N(\\mathrm{~g} . \\mathrm{g}) \\\\ \\Rightarrow \\frac{A N}{N M}=\\frac{N O}{A N} \\Rightarrow A N^{2}=N O . N M(1) \\\\ \\text { Xét } \\triangle N O P, \\triangle M C N \\text { có : } \\angle N O P=\\angle N C M=90^{\\circ}, \\angle O N P \\text { chung } \\\\ \\Rightarrow \\triangle N O P \\sim \\triangle M C N(\\mathrm{~g} . \\mathrm{g}) \\Rightarrow \\frac{N O}{N C}=\\frac{N P}{N M} \\Rightarrow N O . N M=N P . N C(2) \\\\ \\text { Từ (1) và }(2) \\Rightarrow A N^{2}=N P . N C(d f c m)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "c) Gọi Q là giao điểm của tia %(A M)% và tia DC. Chứng minh tổng %(\\frac{1}{A M^{2}}+\\frac{1}{A Q^{2}})% không đổi khi điểm %(M)% thay đổi trên cạnh %(B C)%.",
+        "question_images": [],
+        "solution": "Xét %(\\triangle A N Q)% có đường cao %(A D)%<br>%(S_{A N Q}=\\frac{1}{2} D A \\cdot N Q=\\frac{1}{2} A N \\cdot A Q(\\triangle A N Q)% vuông cân tại A%())%<br>%(\\Rightarrow A D \\cdot N Q=A N \\cdot A Q \\Rightarrow \\frac{N Q}{A N \\cdot A Q}=\\frac{1}{A D} \\Rightarrow \\frac{N Q^{2}}{A N^{2} \\cdot A Q^{2}}=\\frac{1}{A D^{2}}(3))%<br>Áp dụng Pytago vào %(\\triangle A N Q)%, ta có %(N Q^{2}=A N^{2}+A Q^{2}(4))%<br>Từ (3) và (4) suy ra %(\\frac{1}{A D^{2}}=\\frac{A N^{2}+A Q^{2}}{A N^{2} \\cdot A Q^{2}}=\\frac{1}{A Q^{2}}+\\frac{1}{A N^{2}})%<br>Mà %(A N=A M)% (cm câu a) và AD không đổi nên %(\\frac{1}{A D^{2}}=\\frac{1}{A Q^{2}}+\\frac{1}{A M^{2}})% không đổi<br>Vậy tổng %(\\frac{1}{A M^{2}}+\\frac{1}{A Q^{2}})% không đổi khi điểm M thay đổi trên cạnh %(B C)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Cho các số không âm %(x, y)% thay đổi và thỏa mãn %(x+y=1)%. Tìm giá trị lớn nhất của biểu thức %(Q=\\left(4 x^{2}+3 y\\right)\\left(4 y^{2}+3 x\\right)+25 x y)%",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[(x+y)^{3}=x^{3}+y^{3}+3 x y(x+y) \\Rightarrow x^{3}+y^{3}=(x+y)^{3}-3 x y(x+y)=1-3 x y(d o x+y=1)\\]<br>Do đó %(Q=\\left(4 x^{2}+3 y\\right)\\left(4 y^{2}+3 x\\right)+25 x y)%<br>\\[\\begin{array}{l}=16 x^{2} y^{2}+12 x^{3}+12 y^{3}+9 x y+25 x y=16 x^{2} y^{2}+12\\left(x^{3}+y^{3}\\right)+34 x y \\\\=16 x^{2} y^{2}+12(1-3 x y)+34 x y=16 x^{2} y^{2}-2 x y+12\\end{array}\\]<br>Đặt %(x=\\frac{1}{2}+a)%, từ %(x+y=1 \\Rightarrow y=\\frac{1}{2}-a)%. Do %(x, y \\geq 0 \\Rightarrow \\frac{-1}{2} \\leq a \\leq \\frac{1}{2})%.<br>Khi đó :<br>\\[\\begin{array}{l}Q=16\\left(\\frac{1}{2}+a\\right)^{2}\\left(\\frac{1}{2}-a\\right)^{2}-2\\left(\\frac{1}{2}+a\\right)\\left(\\frac{1}{2}-a\\right)+12 \\\\=16\\left(\\frac{1}{4}-a^{2}\\right)^{2}-2\\left(\\frac{1}{4}-a^{2}\\right)+12=16\\left(\\frac{1}{16}-\\frac{1}{2} a^{2}+a^{4}\\right)-\\frac{1}{2}+2 a^{2}+12 \\\\=1-8 a^{2}+16 a^{4}-\\frac{1}{2}+2 a^{2}+12=\\frac{25}{2}+16 a^{4}-6 a^{2}=\\frac{25}{2}+2 a^{2}\\left(8 a^{2}-3\\right)(1)\\end{array}\\]<br>Do %(-\\frac{1}{2} \\leq a \\leq \\frac{1}{2} \\Rightarrow 0 \\leq 8 a^{2} \\leq 8 . \\frac{1}{4}=2)%%(\\Rightarrow 8 a^{2}-3\\lt 0)% mà %(2 a^{2} \\geq 0, \\forall a \\Rightarrow 2 a^{2} .\\left(8 a^{2}-3\\right) \\leq 0(2))%Từ (1), (2) %(\\Rightarrow Q \\leq \\frac{25}{2})%<br>Dấu bằng xảy ra khi %(2 a^{2}\\left(8 a^{2}-3\\right)=0\\left(-\\frac{1}{2} \\leq a \\leq \\frac{1}{2}\\right) \\Leftrightarrow a=0 \\Leftrightarrow\\left\\{\\begin{array}{l}x=\\frac{1}{2} \\\\ y=\\frac{1}{2}\\end{array}\\right.)%<br>Vậy %(\\operatorname{Max} Q=\\frac{25}{2} \\Leftrightarrow x=y=\\frac{1}{2})%",
+        "question_type": "essay"
+    }
+]

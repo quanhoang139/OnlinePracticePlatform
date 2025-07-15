@@ -1,0 +1,73 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 4.0,
+        "content": "Giải phương trình %(\\frac{2 \\sin ^{2}\\left(\\frac{3 x}{2}-\\frac{\\pi}{4}\\right)+\\sqrt{3} \\cos 3 x}{1-2 \\sin x}=1 ~~~(1))%",
+        "question_images": [],
+        "solution": "Điều kiện: %(\\sin x \\neq \\frac{1}{2} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\neq \\frac{\\pi}{6}+k 2 \\pi \\\\ x \\neq \\frac{5 \\pi}{6}+k 2 \\pi\\end{array}\\right.)%<br>\\[\\begin{array}{l}\\text { (1) } \\Leftrightarrow 1-\\cos \\left(3 x-\\frac{\\pi}{2}\\right)+\\sqrt{3} \\cos 3 x=1-2 \\sin x \\\\Leftrightarrow \\sin 3 x-\\sqrt{3} \\cos 3 x=2 \\sin x \\Leftrightarrow \\sin \\left(3 x-\\frac{\\pi}{3}\\right)=\\sin x \\\\Leftrightarrow\\left[\\begin{array} { l } { 3 x - \\frac { \\pi } { 3 } = x + k 2 \\pi } \\\\{ 3 x - \\frac { \\pi } { 3 } = \\pi - x + k 2 \\pi }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=\\frac{\\pi}{6}+k \\pi \\x=\\frac{\\pi}{3}+\\frac{k \\pi}{2}\\end{array}\\right.\\right. \\\\end{array}\\]<br>Đối chiếu với điều kiện, phương trình đã cho có nghiệm là<br>\\[x=\\frac{7 \\pi}{6}+k 2 \\pi, x=-\\frac{\\pi}{6}+k 2 \\pi, x=\\frac{\\pi}{3}+k \\pi .\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 3.0,
+        "content": "Giải hệ phương trình<br>\\[\\left\\{\\begin{array}{l}x^{2}+y^{2}+1=2(x y-x+y) ~~~(1)\\x^{3}+3 y^{2}+5 x-12=(12-y) \\sqrt{3-x}~~~(2)\\end{array}~~~~~\\right.(x, y \\in \\mathbb{R})\\]",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}(1) \\Leftrightarrow(x-y+1)^{2}=0 \\\\Leftrightarrow x-y+1=0 \\Leftrightarrow y=x+1\\end{array}\\]<br>Thay %(y=x+1)% vào phương trình (2) ta được phương trình<br>\\[\\begin{array}{l}x^{3}+3 x^{2}+11 x-9=(11-x) \\sqrt{3-x} \\\\Leftrightarrow(x+1)^{3}+5(x+1)=(\\sqrt{3-x}+1)^{3}+5(\\sqrt{3-x}+1)\\end{array}\\]<br>Đặt %(a=x+1 ; b=\\sqrt{3-x}+1)%, phương trình (3) trở thành<br>\\[\\begin{array}{l}\\Leftrightarrow a^{3}+5 a=b^{3}+5 b \\\\Leftrightarrow(a-b)\\left[\\left(a+\\frac{b}{2}\\right)^{2}+\\frac{3 b^{2}}{4}+5\\right]=0 \\Leftrightarrow a=b\\end{array}\\]<br>Do đó %((3) \\Leftrightarrow x+1=\\sqrt{3-x}+1 \\Leftrightarrow \\sqrt{3-x}=x)%<br>\\[\\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 0 \\x^{2}+x-3=0\\end{array} \\Leftrightarrow x=\\frac{-1+\\sqrt{13}}{2} .\\right.\\]<br>Vậy hệ đã cho có nghiệm %((x ; y))% với %(\\left\\{\\begin{array}{l}x=\\frac{-1+\\sqrt{13}}{2} \\\\ y=\\frac{1+\\sqrt{13}}{2}\\end{array}\\right.)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.0,
+        "content": "Một hộp chứa 17 quả cầu đánh số từ 1 đến 17. Lấy ngẫu nhiên đồng thời 3 quả cầu. Tính xác suất sao cho tổng các số ghi trên 3 quả cầu đó là một số chẵn.",
+        "question_images": [],
+        "solution": "Số phần tử không gian mẫu %(n(\\Omega)=C_{17}^{3})%<br>Gọi %(A)% là biến cố: Lấy được đồng thời ba quả cầu sao cho tổng các số ghi trên ba quả cầu đó là một số chẵn.<br>Xét các khả năng xảy ra<br>KN 1: Lấy được ba quả cầu có các số ghi trên ba quả cầu đó đều là số chẵn. Số cách chọn là %(C_{8}^{3})%.<br>KN 2: Lấy được hai quả cầu có các số ghi trên hai quả cầu đó đều là số lẻ và một quả cầu có số ghi trên quả cầu là số chẵn. Số cách chọn là %(C_{9}^{2} \\cdot C_{8}^{1})%.<br>Vậy: %(P(A)=\\frac{C_{8}^{3}+C_{9}^{2} \\cdot C_{8}^{1}}{C_{17}^{3}}=\\frac{43}{85})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4:",
+        "group_content": "Cho hình chóp %(\\mathrm{SABCD})%, có đáy là hình thoi cạnh a, %(S A=S B=S C=a)%. Đặt %(S D=x)% %((0\\lt x\\lt a \\sqrt{3}))%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 3.0,
+        "content": "a) Tính góc giữa đường thẳng %(\\mathrm{SB})% và mặt phẳng %((\\mathrm{ABCD}))%, biết rằng %(x=a)%.",
+        "question_images": [],
+        "solution": "Gọi %(O)% là tâm của hình thoi %(A B C D)%.<br>Khi %(x=a)%, ta có %(\\left\\{\\begin{array}{l}S O \\perp A C \\\\ S O \\perp B D\\end{array} \\Rightarrow S O \\perp(A B C D)\\right.)%.<br>Suy ra góc giữa thẳng %(S B)% và mặt phẳng %((A B C D))% là góc %(\\widehat{S B O})%.<br>Mà %(\\triangle S O B=\\triangle S O C \\Rightarrow O B=O C)%.<br>%(\\Rightarrow)% Đáy %(A B C D)% là hình vuông.<br>Do đó %(O B=\\frac{a \\sqrt{2}}{2} \\Rightarrow \\cos \\widehat{S B O}=\\frac{\\sqrt{2}}{2} \\Rightarrow \\widehat{S B O}=45^{\\circ})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/bf8db4271222ed81c3c87609b9f69d46.png\" srcset=\"https://docdn.giainhanh.io/media/test/528cf901be847647ae2ac9debb401677.png 173w, https://docdn.giainhanh.io/media/test/46f4cb188d683955e3fc7df699074d8c.png 500w, https://docdn.giainhanh.io/media/test/fc7086d785ffd662591142dd9013e5dd.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Tìm %(x)% theo %(a)% để tích %(A C . S D)% đạt giá trị lớn nhất.",
+        "question_images": [],
+        "solution": "Ta có %(\\triangle S O C=\\triangle B O C \\Rightarrow O S=O B \\Rightarrow)% tam giác %(S B D)% vuông tại %(S)%.<br>Suy ra %(B D=\\sqrt{a^{2}+x^{2}} \\Rightarrow O B=\\frac{\\sqrt{a^{2}+x^{2}}}{2})%<br>\\[A C=2 O C=2 \\sqrt{B C^{2}-O B^{2}}=\\sqrt{3 a^{2}-x^{2}} .\\]<br>Do đó %(A C . S D=x \\sqrt{3 a^{2}-x^{2}})%.<br>Áp dụng bất đẳng thức Cô-si, ta có<br>\\[x \\sqrt{3 a^{2}-x^{2}} \\leq \\frac{x^{2}+3 a^{2}-x^{2}}{2}=\\frac{3 a^{2}}{2} \\Rightarrow A C . S D \\leq \\frac{3 a^{2}}{2} \\text {. }\\]<br>Dấu “=\" xảy ra khi và chỉ khi<br>\\[x=\\sqrt{3 a^{2}-x^{2}} \\Leftrightarrow x^{2}=3 a^{2}-x^{2} \\Leftrightarrow x=\\frac{a \\sqrt{6}}{2} \\text {. }\\]<br>Vậy %(x=\\frac{a \\sqrt{6}}{2})% thì tích %(A C . S D)% đạt giá trị lớn nhất.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 2.0,
+        "content": "Trong mặt phẳng với hệ trục tọa độ %(O x y)%, cho hình bình hành %(A B C D)%. Hình chiếu vuông góc của điểm %(D)% lên các đường thẳng %(A B, B C)% lần lượt là %(M(-2 ; 2), N(2 ;-2))%; đường thẳng %(B D)% có phương trình %(3 x-5 y+1=0)%. Tìm tọa độ điểm %(A)%.",
+        "question_images": [],
+        "solution": "Gọi %(I(x ; y))% là tâm hình bình hành %(A B C D)%.<br>Vì tam giác %(B M D)% vuông tại %(M)% và %(I)% là trung điểm của %(B D)% nên %(M I=\\frac{1}{2} B D~~~(1))%<br>Tương tự ta có %(N I=\\frac{1}{2} B D~~~(2))%.<br>Từ (1) và (2) suy ra<br>\\[M I=N I \\Leftrightarrow \\sqrt{(x+2)^{2}+(y-2)^{2}}=\\sqrt{(x-2)^{2}+(y+2)^{2}} \\Leftrightarrow y=x\\]<br>Mà %(I)% thuộc %(B D)% nên %(3 x-5 y+1=0)%<br>Từ (3) và (4) suy ra %(x=y=\\frac{1}{2} \\Rightarrow I\\left(\\frac{1}{2} ; \\frac{1}{2}\\right))%.<br>Do đó %(I D=I B=M I=\\frac{\\sqrt{34}}{2} \\Leftrightarrow B, D)% thuộc đường tròn %((T))% có tâm %(I)% bán kính %(R=\\frac{\\sqrt{34}}{2})%.<br>(T) có phương trình %(\\left(x-\\frac{1}{2}\\right)^{2}+\\left(y-\\frac{1}{2}\\right)^{2}=\\frac{17}{2})%.<br>Vì %(B, D)% là giao điểm của đường thẳng %(B D)% và đường tròn %((T))% nên tọa độ %(B, D)% là nghiệm của hệ<br>%(\\left\\{\\left(x-\\frac{1}{2}\\right)^{2}+\\left(y-\\frac{1}{2}\\right)^{2}=\\frac{17}{2} \\Leftrightarrow\\left\\{\\begin{array}{l}x=3 \\\\ y=2\\end{array}\\right.\\right.)% hoặc %(\\left\\{\\begin{array}{l}x=-2 \\\\ y=-1\\end{array}\\right.)%.<br>TH1: %(B(3 ; 2), D(-2 ;-1))%<br>Suy ra phương trình đường thẳng %(A B: y=2 ; A D: 4 x-y+7=0 \\Rightarrow A\\left(-\\frac{5}{4} ; 2\\right))%.<br>TH2: %(B(-2 ;-1), D(3 ; 2))%<br>Suy ra phương trình đường thẳng<br>\\[A B: x=-2 ; A D: x+4 y-11=0 \\Rightarrow A\\left(-2 ; \\frac{13}{4}\\right) \\text {. }\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1fe420701aa38c977a3d134207e92ad7.png\" srcset=\"https://docdn.giainhanh.io/media/test/a0d5a8c38586414554803078a6f99f32.png 183w, https://docdn.giainhanh.io/media/test/9f86236501932d143a1260904f490c24.png 500w, https://docdn.giainhanh.io/media/test/ae8d374467be4f0648d57005fc4d64b4.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 2.0,
+        "content": "Cho dãy số %(\\left(u_{n}\\right))%, biết %(u_{1}=6, u_{n+1}=\\frac{u_{n}^{2}-n\\left(u_{n}-1\\right)+n^{2}}{n})% với %(n \\geq 1)%. Tính giới hạn: %(\\lim \\left(\\frac{1}{u_{1}}+\\frac{1}{u_{2}}+\\ldots+\\frac{1}{u_{n}}\\right))%.",
+        "question_images": [],
+        "solution": "Ta có: %(u_{1}=6\\gt 3.1)%<br>\\[u_{2}=u_{1}^{2}-u_{1}+2=32>3.2\\]<br>Giả sử %(u_{k}>3 k, \\forall k \\in \\mathbb{N}^{*})%.<br>Ta cần chứng minh %(u_{k+1}>3(k+1))%<br>Thật vậy: %(u_{k+1}=\\frac{u_{k}^{2}-k u_{k}+k^{2}+k}{k}=\\frac{u_{k}\\left(u_{k}-3 k\\right)+2 k u_{k}+k^{2}+k}{k})%<br>%(\\Rightarrow u_{k+1}>2 u_{k}+k+1>2.3 k+k+1>3(k+1))% (đpcm)<br>Vậy %(u_{n}>3 n)%, với mọi %(n \\in \\mathbb{N}^{*})%<br>\\[\\begin{array}{l}u_{k+1}=\\frac{u_{k}^{2}-k u_{k}+k^{2}+k}{k} \\Leftrightarrow u_{k+1}=\\frac{u_{k}^{2}-k u_{k}}{k}+k+1 \\\\Leftrightarrow u_{k+1}-(k+1)=\\frac{u_{k}^{2}-k u_{k}}{k} \\Leftrightarrow \\frac{1}{u_{k+1}-(k+1)}=\\frac{k}{u_{k}^{2}-k u_{k}}=\\frac{1}{u_{k}-k}-\\frac{1}{u_{k}} \\\\Leftrightarrow \\frac{1}{u_{k}}=\\frac{1}{u_{k}-k}-\\frac{1}{u_{k+1}-(k+1)}(2) .\\end{array}\\]<br>Áp dụng (2) suy ra %(\\frac{1}{u_{1}}=\\frac{1}{u_{1}-1}-\\frac{1}{u_{2}-2})%<br>\\[\\begin{array}{l}\\frac{1}{u_{2}}=\\frac{1}{u_{2}-2}-\\frac{1}{u_{3}-3} \\\\frac{1}{u_{n}}=\\frac{1}{u_{n}-n}-\\frac{1}{u_{n+1}-(n+1)}\\end{array}\\]<br>Cộng theo vế các đẳng thức trên ta được<br>\\[\\frac{1}{u_{1}}+\\frac{1}{u_{2}}+\\ldots+\\frac{1}{u_{n}}=\\frac{1}{u_{1}-1}-\\frac{1}{u_{n+1}-(n+1)}=\\frac{1}{5}-\\frac{1}{u_{n+1}-(n+1)}\\]<br>Mặt khác theo (1) ta có %(u_{n+1}\\gt 3(n+1) \\Leftrightarrow u_{n}-(n+1)>2 n+2>0, \\forall n \\in \\mathbb{N}^{*})%.<br>Vậy %(\\left|\\frac{1}{u_{n+1}-(n+1)}\\right|\\lt \\frac{1}{2 n+2})%<br>Mà %(\\lim \\frac{1}{2 n+2}=0 \\Rightarrow \\lim \\frac{1}{u_{n+1}-(n+1)}=0)%<br>Từ (2) và (3), suy ra %(\\lim \\left(\\frac{1}{u_{1}}+\\frac{1}{u_{2}}+\\ldots+\\frac{1}{u_{n}}\\right)=\\frac{1}{5})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 2.0,
+        "content": "Cho ba số thực %(a, b, c)% thuộc đoạn %([0 ; 2])%. Tìm giá trị lớn nhất của biểu thức %(P=\\left(a^{2} c+c^{2} b-b^{2} c-c^{2} a-a^{2} b\\right)(a+b+c))%.",
+        "question_images": [],
+        "solution": "Với ba số thực %(a, b, c)% thuộc đoạn %([0 ; 2])% ta có<br>\\[\\begin{aligned}& a^{2} c+c^{2} b-b^{2} c-c^{2} a-a^{2} b \\leq a^{2} c+c^{2} b+b^{2} a-b^{2} c-c^{2} a-a^{2} b \\\\Rightarrow & a^{2} c+c^{2} b-b^{2} c-c^{2} a-a^{2} b \\leq(a-b)(b-c)(c-a) \\\\Rightarrow & P \\leq Q \\text { với } Q=(a-b)(b-c)(c-a)(a+b+c)~~~(1)\\end{aligned}\\]<br>Ta sẽ chứng minh %(Q \\leq \\frac{32 \\sqrt{3}}{9}~~~(2))%<br>Thật vậy: Không mất tính tổng quát ta có thể giả sử %(a=\\max \\{a ; b ; c\\})%<br>TH1: %(a \\geq b \\geq c \\Rightarrow Q \\leq 0)%<br>TH2: %(a \\geq c \\geq b)%, áp dụng bất đẳng thức %(\\mathrm{Cô}-\\mathrm{Si})% cho ba số không âm %((\\sqrt{3}+1)(a-c) ; 2(c-b) ;(\\sqrt{3}-1)(a+b+c))% ta có<br>\\[\\begin{aligned}& (\\sqrt{3}+1)(a-c) 2(c-b)(\\sqrt{3}-1)(a+b+c) \\leq\\left[\\frac{2 \\sqrt{3} a+(\\sqrt{3}-3) b}{3}\\right]^{3} \\\\Rightarrow & (a-c)(c-b)(a+b+c) \\leq \\frac{[2 \\sqrt{3} a+(\\sqrt{3}-3) b]^{3}}{108} \\\\Rightarrow & (a-b)(a-c)(c-b)(a+b+c) \\leq \\frac{(a-b)[2 \\sqrt{3} a+(\\sqrt{3}-3) b]^{3}}{108}~~~(3)\\end{aligned}\\]<br>\\[\\text { Mà } \\frac{(a-b)[2 \\sqrt{3} a+(\\sqrt{3}-3) b]^{3}}{108} \\leq \\frac{32 \\sqrt{3}}{9}~~~(4)\\]<br>Từ (3) và (4) suy ra %(Q \\leq \\frac{32 \\sqrt{3}}{9})%.<br>Do đó (2) đúng.<br>Từ (1) và (2) suy ra %(P \\leq \\frac{32 \\sqrt{3}}{9})%.<br>Khi %(a=2, b=0, c=\\frac{2 \\sqrt{3}}{3})% thì %(P=\\frac{32 \\sqrt{3}}{9})%.<br>Vậy giá trị lớn nhất của biểu thức %(P)% là %(\\frac{32 \\sqrt{3}}{9})%.",
+        "question_type": "essay"
+    }
+]

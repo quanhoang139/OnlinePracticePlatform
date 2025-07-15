@@ -1,0 +1,73 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Giải phương trình: %(x^{2}+\\frac{81 x^{2}}{(x+9)^{2}}=40)%.",
+        "question_images": [],
+        "solution": "Trừ vào 2 vế của phương trình với %(2 x \\cdot \\frac{9 x}{x+9})%<br>Ta có: %(\\left(x-\\frac{9 x}{x+9}\\right)^{2}=40-\\frac{18 x^{2}}{x+9} \\Leftrightarrow\\left(\\frac{x^{2}}{x+9}\\right)^{2}+\\frac{18 x^{2}}{x+9}-40=0)% (1)<br>Đặt %(\\frac{x^{2}}{x+9}=y(2))%, phương trình (1) trở thành %(y^{2}+18 y-40=0)%<br>%(\\Leftrightarrow(\\mathrm{y}+20)(\\mathrm{y}-2)=0 \\Leftrightarrow \\mathrm{y}=-20 ; \\mathrm{y}=2)%<br>Thay vào (2), ta có %(\\left[\\begin{array}{l}x^{2}=-20(x+9) \\\\ x^{2}=2(x+9)=0\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x^{2}+20 x+180=0 (3)\\\\ x^{2}-2 x-18=0 (4)\\end{array}\\right.\\right.)%<br>Phương trình (3) vô nghiệm, phương trình (4) có 2 nghiệm là: %(x=1 \\pm \\sqrt{19})%.<br>Vậy phương trình đã cho có 2 nghiệm là: %(x=1 \\pm \\sqrt{19})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Giải phương trình:<br>\\[x^{2}-2 x+3(x-3) \\sqrt{\\frac{x+1}{x-3}}=7\\]",
+        "question_images": [],
+        "solution": "Điều kiện %(\\frac{x+1}{x-3} \\geq 0 \\Leftrightarrow\\left[\\begin{array}{l}x\\gt 3 \\\\ x \\leq-1\\end{array}(*)\\right.)%<br>Phương trình đã cho %(\\Leftrightarrow(x-3)(x+1)+3(x-3) \\sqrt{\\frac{x+1}{x-3}}=4)%<br>Đặt %(t=(x-3) \\sqrt{\\frac{x+1}{x-3}} \\Rightarrow t^{2}=(x-3)(x+1))%<br>Phương trình trở thành: %(\\mathrm{t}^{2}+3 \\mathrm{t}-4=0 \\Leftrightarrow \\mathrm{t}=1 ; \\mathrm{t}=-4)%<br>Ta có: %((x-3) \\sqrt{\\frac{x+1}{x-3}}=1(1) ;(x-3) \\sqrt{\\frac{x+1}{x-3}}=-4)% (2)<br>%(\\begin{array}{l}+(1) \\Leftrightarrow\\left\\{\\begin{array} { l } { x \\gt 3 } \\\\{ ( x - 3 ) ( x + 1 ) = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x>3 \\x^{2}-2 x-4=0\\end{array} \\Leftrightarrow x=1+\\sqrt{5} . \\quad(t / m(*))\\right.\\right. \\\\+(2) \\Leftrightarrow\\left\\{\\begin{array} { l } { x \\lt 3 } \\\\{ ( x - 3 ) ( x + 1 ) = 1 6 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x\\lt 3 \\x^{2}-2 x-19=0\\end{array} \\Leftrightarrow x=1-2 \\sqrt{5} .(\\mathrm{t} / \\mathrm{m}(*))\\right.\\right.\\end{array})%<br>Vậy phương trình đã cho có 2 nghiệm là: %(x=1+\\sqrt{5} ; x=1-2 \\sqrt{5})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Tìm giá trị nhỏ nhất biểu thức: %(A=\\frac{5-3 x}{\\sqrt{1-x^{2}}})%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(1-\\mathrm{x}^{2}>0 \\Leftrightarrow-1\\lt \\mathrm{x}\\lt 1 \\Rightarrow 2-3 \\mathrm{x}>0 \\Rightarrow \\mathrm{A} \\geq 0)%<br>Vậy %(A^{2}=\\frac{25-30 x+9 x^{2}}{1-x^{2}}=\\frac{(3-5 x)^{2}}{1-x^{2}}+16 \\geq 16)%.<br>Dấu bằng xẩy ra khi %(3-5 \\mathrm{x}=0 \\Leftrightarrow \\mathrm{x}=\\frac{3}{5})%<br>Vậy %(\\min \\mathrm{A}=4)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Cho %(a, b, c)% là độ dài 3 cạnh của tam giác. Chứng minh:<br>%(\\sqrt{a^{2}+b^{2}}+\\sqrt{b^{2}+c^{2}}+\\sqrt{c^{2}+a^{2}} \\geq \\sqrt{2}(a+b+c))%.",
+        "question_images": [],
+        "solution": "Chứng minh: %(\\sqrt{\\mathrm{a}^{2}+\\mathrm{b}^{2}}+\\sqrt{\\mathrm{b}^{2}+\\mathrm{c}^{2}}+\\sqrt{\\mathrm{c}^{2}+\\mathrm{a}^{2}} \\geq \\sqrt{2}(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}))% (1)<br>Sử dụng bất đẳng thức: %(2\\left(\\mathrm{x}^{2}+\\mathrm{y}^{2}\\right) \\geq(\\mathrm{x}+\\mathrm{y})^{2})%, ta có:<br>%(2\\left(a^{2}+b^{2}\\right) \\geq(a+b)^{2} \\Rightarrow \\sqrt{2} \\cdot \\sqrt{a^{2}+b^{2}} \\geq a+b)% (2)<br>Tương tự, ta được: %(\\sqrt{2} \\cdot \\sqrt{\\mathrm{b}^{2}+\\mathrm{c}^{2}} \\geq \\mathrm{b}+\\mathrm{c})%(3) và %(\\sqrt{2} \\cdot \\sqrt{c^{2}+a^{2}} \\geq c+a)% (4)<br>Lấy (2) + (3) + (4) theo từng vế và rút gọn, suy ra (1) đúng, đpcm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}y^{2}-x y+1=0 \\text{ (1)}\\\\ x^{2}+2 x+y^{2}+2 y+1=0\\text{ (2)}\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "(1) có nghiệm %(\\Leftrightarrow \\Delta_{y}=x^{2}-4 \\geq 0 \\Leftrightarrow x \\leq-2 ; x \\geq 2)% (3)<br>(2) %(\\Leftrightarrow(y+1)^{2}=-x^{2}-2 x)% có nghiệm %(\\Leftrightarrow-x^{2}-2 x \\geq 0 \\Leftrightarrow-2 \\leq x \\leq 0)% (4)<br>Từ (3), (4) ta có: %(\\mathrm{x}=-2)%, từ đó ta có %(\\mathrm{y}=-1)%. Vậy hệ có nghiệm %((-2 ;-1))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho hình thang %(A B C D)% có 2 đáy %(B C)% và %(A D(B C \\neq A D))%. Gọi %(M, N)% là 2 điểm lần lượt trên 2 cạnh %(A B)% và %(\\mathrm{DC})% sao cho %(\\frac{\\mathrm{AM}}{\\mathrm{AB}}=\\frac{\\mathrm{CN}}{\\mathrm{CD}})%. Đường thẳng %(\\mathrm{MN})% cắt %(\\mathrm{AC})% và %(\\mathrm{BD})% tương ứng với %(\\mathrm{E})% và %(\\mathrm{F})%. Chứng minh %(\\mathrm{EM})% %(=\\mathrm{FN})%.",
+        "question_images": [],
+        "solution": "Kẻ MP // BD %((\\mathrm{P} \\in \\mathrm{AD}))%<br>%(\\mathrm{MD})% cắt %(\\mathrm{AC})% tại %(\\mathrm{K})%. Nối %(\\mathrm{NP})% cắt %(\\mathrm{BD})% tại %(\\mathrm{H})%.<br>Ta có %(\\frac{\\mathrm{AM}}{\\mathrm{AB}}=\\frac{\\mathrm{AP}}{\\mathrm{AD}})% mà %(\\frac{\\mathrm{AM}}{\\mathrm{AB}}=\\frac{\\mathrm{CM}}{\\mathrm{CD}}(\\mathrm{gt}))%<br>%(\\Rightarrow \\frac{\\mathrm{AP}}{\\mathrm{AD}}=\\frac{\\mathrm{CN}}{\\mathrm{CD}} \\Rightarrow \\mathrm{PN} / / \\mathrm{AC})%<br>Gọi %(\\mathrm{O})% là giao điểm của %(A C)% và %(\\mathrm{BD})%.<br>Ta có %(\\frac{\\mathrm{BO}}{\\mathrm{OD}}=\\frac{\\mathrm{CO}}{\\mathrm{OA}}, \\frac{\\mathrm{MK}}{\\mathrm{PK}}=\\frac{\\mathrm{OC}}{\\mathrm{OA}})%và %(\\frac{\\mathrm{NH}}{\\mathrm{PH}}=\\frac{\\mathrm{OC}}{\\mathrm{OA}})%.<br>Suy ra: %(\\frac{\\mathrm{NH}}{\\mathrm{PH}}=\\frac{\\mathrm{MK}}{\\mathrm{PK}} \\Rightarrow \\mathrm{KH} / / \\mathrm{MN})%<br>Các tứ giác %(\\mathrm{KENH}, \\mathrm{MFHK})% là hình bình hành nên %(\\mathrm{MF}=\\mathrm{KH})% và %(\\mathrm{EN}=\\mathrm{KH} \\Rightarrow \\mathrm{MF}=\\mathrm{EN} \\Rightarrow \\mathrm{ME}=\\mathrm{NF})%<br><img alt=\"Ảnh chụp màn hình 2024-03-26 102046.png\" src=\"https://docdn.giainhanh.io/media/test/2249b5a90b3fa9fe9be2f4e0fdaffffc.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho đường tròn tâm %((O))% và dây %(A B)%, điểm %(M)% chuyển động trên đường tròn. Từ %(M)% kẻ %(M H)% vuông góc với %(A B(H \\in A B))%. Gọi %(E, F)% lần lượt là hình chiếu vuông góc của %(H)% trên %(M A, M B)%. Qua %(M)% kẻ đường thẳng vuông góc với %(\\mathrm{EF})% cắt %(\\mathrm{AB})% tại %(\\mathrm{D})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh đường thẳng %(\\mathrm{MD})% luôn đi qua 1 điểm cố định khi %(\\mathrm{M})% thay đổi trên đường tròn.",
+        "question_images": [],
+        "solution": "Tứ giác MEHF nội tiếp vì %(\\mathrm{MEH}+\\mathrm{MFH}=180^{\\circ})%<br>\\[\\Rightarrow \\mathrm{AMB}=180^{\\circ}-\\mathrm{EHF}=\\mathrm{EHA}+\\mathrm{FHB} (1)\\]<br>Ta có %(\\mathrm{MHF}=\\mathrm{MEF})% (góc nội tiếp chắn %(\\mathrm{MF})% )Lại có %(\\mathrm{MHF}+\\mathrm{FHB}=90^{\\circ}=\\mathrm{MEF}+\\mathrm{EMD})%<br>\\[\\Rightarrow \\mathrm{FHB}=\\mathrm{EMD} (2)\\]<br>Từ (1) và (2) %(\\Rightarrow \\mathrm{EHA}=\\mathrm{DMB})%.<br>Gọi %(\\mathrm{N})% là giao điểm của %(\\mathrm{MD})% với đường tròn %((\\mathrm{O}))% ta có %(\\mathrm{DMB}=\\mathrm{NAB})% (góc nội tiếp chắn %(\\mathrm{NB}) \\Rightarrow \\mathrm{EHA}=\\mathrm{NAB})%<br>do đó %(\\mathrm{AN} / / \\mathrm{EH})% mà %(\\mathrm{HE} \\perp \\mathrm{MA})% nên %(\\mathrm{NA} \\perp \\mathrm{MA})%. hay %(\\mathrm{MAN}=90^{\\circ} \\Rightarrow \\mathrm{AN})% là đường kính của đường tròn.<br>Vậy %(\\mathrm{MD})% đi qua %(\\mathrm{O})% cố định.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh: %(\\frac{\\mathrm{MA}^{2}}{\\mathrm{MB}^{2}}=\\frac{\\mathrm{AH}}{\\mathrm{BD}} \\cdot \\frac{\\mathrm{AD}}{\\mathrm{BH}})%.",
+        "question_images": [],
+        "solution": "Kè DI %(\\perp \\mathrm{MA}, \\mathrm{DK} \\perp \\mathrm{MB})%, ta có<br>\\[\\frac{\\mathrm{AH}}{\\mathrm{BD}}=\\frac{\\mathrm{S}_{\\mathrm{MAD}}}{\\mathrm{S}_{\\mathrm{MBD}}}=\\frac{\\mathrm{AM} \\cdot \\mathrm{HE}}{\\mathrm{BM} \\cdot \\mathrm{DK}} ; \\frac{\\mathrm{AD}}{\\mathrm{BH}}=\\frac{\\mathrm{S}_{\\mathrm{MAD}}}{\\mathrm{S}_{\\mathrm{MBH}}}=\\frac{\\mathrm{AM} \\cdot \\mathrm{DI}}{\\mathrm{BM} \\cdot \\mathrm{HF}}\\]<br>Vậy %(\\frac{\\mathrm{AH}}{\\mathrm{BD}} \\cdot \\frac{\\mathrm{AD}}{\\mathrm{BH}}=\\frac{\\mathrm{MA}^{2}}{\\mathrm{MB}^{2}} \\cdot \\frac{\\mathrm{HE} \\cdot \\mathrm{DI}}{\\mathrm{DK} \\cdot \\mathrm{HF}})%(1)<br>Ta có %(\\mathrm{HMB}=\\mathrm{FHB})% (cùng phụ với %(\\mathrm{MHF})% ) mà %(\\mathrm{FHB}=\\mathrm{EMD})% (CMT)<br>%(\\Rightarrow \\mathrm{EFH}=\\mathrm{DIK})% và %(\\mathrm{EHF}=\\mathrm{DMH})%.<br>Tứ giác MEHF nội tiếp nên %(\\mathrm{AMH}=\\mathrm{EFH} \\text{ và } \\mathrm{EHF}=180^{\\circ}-\\mathrm{AMB})%<br>Tứ giác MIDK nội tiếp nên %(\\mathrm{DMB}=\\mathrm{DIK} \\text{ và } \\mathrm{IDK}=180^{\\circ}-\\mathrm{AMB})%<br>%(\\Rightarrow \\mathrm{EFH}=\\mathrm{DIK} \\text{ và } \\mathrm{EHF}=\\mathrm{IDK} \\Rightarrow \\Delta \\mathrm{DIK} \\quad \\Delta \\mathrm{HFE})% (g.g) do đó<br>suy ra %(\\frac{\\mathrm{ID}}{\\mathrm{HF}}=\\frac{\\mathrm{DK}}{\\mathrm{HE}} \\Rightarrow \\mathrm{ID} . \\mathrm{HE}=\\mathrm{DK} . \\mathrm{HF} \\Rightarrow \\frac{\\mathrm{HE} \\cdot \\mathrm{DI}}{\\mathrm{DK} \\cdot \\mathrm{HF}}=1)% (2)<br>Từ (1), (2) %(\\Rightarrow \\frac{\\mathrm{MA}^{2}}{\\mathrm{MB}^{2}}=\\frac{\\mathrm{AH}}{\\mathrm{BD}} \\cdot \\frac{\\mathrm{AD}}{\\mathrm{BH}})%.",
+        "question_type": "essay"
+    }
+]

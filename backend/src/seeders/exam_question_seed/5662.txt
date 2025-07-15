@@ -1,0 +1,82 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 2.0,
+        "content": "Tìm tập xác định của hàm số: %(f(x)=\\frac{11 x+3}{x^{2} \\cdot \\sqrt{16-x^{4}}})%.",
+        "question_images": [],
+        "solution": "Hàm số xác định %(\\Leftrightarrow\\left\\{\\begin{array}{l}x^{2} \\neq 0 \\\\ 16-x^{4}\\gt 0\\end{array}\\right.)%.<br>%(\\Leftrightarrow\\left\\{\\begin{array}{l}x \\neq 0 \\\\ \\left(4-x^{2}\\right)\\left(4+x^{2}\\right)\\gt 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\neq 0 \\\\ 4-x^{2}>0\\end{array}\\right.\\right.)%<br>%(\\Leftrightarrow\\left\\{\\begin{array}{l}x \\neq 0 \\\\ -2\\lt x\\lt 2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}-2\\lt x\\lt 0 \\\\ 0\\lt x\\lt 2\\end{array}\\right.\\right.)%<br>Tập xác định của hàm số là %(D=(-2 ; 0) \\cup(0 ; 2))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Tìm tất cả các giá trị của %(m)% để đồ thị hàm số %(y=x^{2}-2(m+1) x+4)% cắt trục hoành tại hai điểm phân biệt có hoành độ %(x_{1}, x_{2})% thỏa mãn %(\\sqrt{x_{1}}+\\sqrt{x_{2}}=4)%.",
+        "question_images": [],
+        "solution": "Xét phương trình %(x^{2}-2(m+1) x+4=0\\left({ }^{*}\\right))%<br>Để đồ thị cắt trục hoành tại hai điểm phân biệt có hoành độ %(x_{1}, x_{2})% thỏa mãn %(\\sqrt{x_{1}}+\\sqrt{x_{2}}=4)% thì %(\\left({ }^{*}\\right))% phải có 2 nghiệm phân biệt thỏa mãn %(x_{1}, x_{2} \\geq 0)%<br>%(\\Leftrightarrow\\left\\{\\begin{array}{l}\\Delta^{\\prime}\\gt 0 \\\\ S \\geq 0 \\\\ P \\geq 0\\end{array} \\Leftrightarrow m>1\\right.)%<br>Ta có %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=2(m+1) \\\\ x_{1} x_{2}=4\\end{array}\\right.)%<br>%(\\sqrt{x_{1}}+\\sqrt{x_{2}}=4 \\Leftrightarrow x_{1}+x_{2}+2 \\sqrt{x_{1} x_{2}}=16 \\Leftrightarrow m=5)%. Vậy %(m=5)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.0,
+        "content": "Cho %(a)% là một số thực. Xét hai tập hợp: %(A=\\{(x, y) \\mid x, y \\in \\mathbb{R}, x+y=a\\})% và %(B=\\left\\{(x, y) \\mid x, y \\in \\mathbb{R}, x^{3}+y^{3}\\lt a\\right\\})%. Tìm tất cả các giá trị của %(a)% để %(A)% và %(B)% không có phần tử chung.",
+        "question_images": [],
+        "solution": "%(A \\cap B=\\varnothing \\Leftrightarrow)% với mỗi %(x, y \\in \\mathbb{R})% thoả mãn %(x+y=a)% thì %(x^{3}+y^{3} \\geq a)%<br>Điều này tương đương với %(x^{3}+(a-x)^{3} \\geq a \\quad \\forall x \\in \\mathbb{R})%<br>Hay: %(3 a x^{2}-3 a^{2} x+a^{3}-a \\geq 0)% (1) %(\\forall x \\in \\mathbb{R})%<br>Nếu %(a=0)% thì (1) đúng với mọi %(x \\in \\mathbb{R})%<br>Nếu %(a \\neq 0)% : (1) đúng với mọi %(x \\in \\mathbb{R})% khi và chỉ khi:<br>\\[\\left\\{\\begin{array} { l } { 3 a \\gt 0 } \\\\{ \\Delta = 9 a ^ { 4 } - 1 2 a ( a ^ { 3 } - a ) \\leq 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}a>0 \\\\4 a^{2}-a^{4} \\leq 0\\end{array} \\Leftrightarrow a \\geq 2\\right.\\right.\\]<br>Vậy các giá trị cần tìm của %(a)% là: %(a=0)% hoặc %(a \\geq 2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 2.0,
+        "content": "Giải bất phương trình %(\\left(\\frac{x^{2}-3 x+2}{x-3}\\right) \\sqrt{x^{2}-4 x} \\geq 0)%",
+        "question_images": [],
+        "solution": "Trường hợp 1: %(\\left\\{\\begin{array}{l}x^{2}-4 x=0 \\\\ x-3 \\neq 0\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\\\ x=4\\end{array}\\right.\\right.)%<br>Trường hợp 2: %(\\left\\{\\begin{array}{l}x^{2}-4 x\\gt 0 \\\\ \\frac{x^{2}-3 x+2}{x-3} \\geq 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x\\lt 0 \\quad \\vee x>4 \\\\ 1 \\leq x \\leq 2 \\vee x>3\\end{array}\\right.\\right.)%<br>%(\\Leftrightarrow x>4)%<br>Vậy tập nghiệm của bất phương trình là %(S=\\{0\\} \\cup[4 ;+\\infty))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 2.0,
+        "content": "Tìm các giá trị của tham số %(m)% để phương trình %(\\sqrt{x}+\\sqrt{9-x}=\\sqrt{-x^{2}+9 x+m})% có nghiệm thực.",
+        "question_images": [],
+        "solution": "Phương trình %(\\Leftrightarrow\\left\\{\\begin{array}{l}0 \\leq x \\leq 9 \\\\ -\\left(9 x-x^{2}\\right)+2 \\sqrt{9 x-x^{2}}+9=m\\end{array}\\right.)%<br>Đặt %(t=\\sqrt{9 x-x^{2}}, 0 \\leq t \\leq \\frac{x+(9-x)}{2}=\\frac{9}{2}, \\forall x \\in[0 ; 9])%<br>Phương trình trở thành: %(-t^{2}+2 t+9=m)%<br>Xét hàm số %(f(t)=-t^{2}+2 t+9, t \\in\\left[0 ; \\frac{9}{2}\\right])%<br>Từ bảng biến thiên ta có: %(-\\frac{9}{4} \\leq m \\leq 10)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/601288e4678693258fcb3b001f2ce1b8.png\" srcset=\"https://docdn.giainhanh.io/media/test/2f2c787b294541d73e1f28a5e957f168.png 245w, https://docdn.giainhanh.io/media/test/0b7ffce86ca50b3b01e0325e87650890.png 500w, https://docdn.giainhanh.io/media/test/5ca8b671df4df1fed2ceb223402d0d6a.png 750w, https://docdn.giainhanh.io/media/test/478938bcfc9208ccf26299c5510f0c20.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 2.0,
+        "content": "Xác định dạng của tam giác %(A B C)% biết các góc %(A, B, C)% của tam giác đó thỏa mãn hệ thức %(\\frac{\\sin C}{\\sin A \\cos B}=2)%.",
+        "question_images": [],
+        "solution": "Áp dụng định lý hàm số %(\\sin : \\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C} \\Rightarrow\\left\\{\\begin{array}{l}\\sin A=\\frac{a}{2 R} \\\\ \\sin C=\\frac{c}{2 R}\\end{array}\\right.)%<br>Áp dụng định lý hàm số côsin: %(b^{2}=a^{2}+c^{2}-2 a c \\cos B \\Rightarrow \\cos B=\\frac{a^{2}+c^{2}-b^{2}}{2 a c})%<br>Theo giả thiết ta có:<br>\\[\\begin{array}{l}\\frac{\\sin C}{\\sin A \\cos B}=2 \\Leftrightarrow \\sin C=2 \\sin A \\cos B \\Leftrightarrow \\frac{c}{2 R}=2 \\cdot \\frac{a}{2 R} \\cdot\\left(\\frac{a^{2}+c^{2}-b^{2}}{2 a c}\\right) \\\\Leftrightarrow c=\\frac{a^{2}+c^{2}-b^{2}}{c} \\Leftrightarrow c^{2}=a^{2}+c^{2}-b^{2} \\Leftrightarrow a^{2}=b^{2} \\Leftrightarrow a=b\\end{array}\\]<br>Vậy tam giác %(\\mathrm{ABC})% cân tại %(\\mathrm{C})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 2.0,
+        "content": "Cho tam giác đều %(A B C)%. Điểm %(M)% thay đổi nằm trong đoạn %(A B,(M)% khác %(A)% và %(B)% ). Gọi %(H, K)% tương ứng là hình chiếu vuông góc của %(M)% trên các đoạn %(B C)% và %(A C ; G)% là trọng tâm của tam giác %(M H K)%. Chứng minh rằng đường thẳng %(M G)% luôn đi qua một điểm cố định.",
+        "question_images": [],
+        "solution": "Gọi %(I)% là trung điểm %(H K)%, ta có %(\\overrightarrow{M G}=\\frac{2}{3} \\overrightarrow{M I} \\Rightarrow \\overrightarrow{M G}=\\frac{\\overrightarrow{M H}+\\overrightarrow{M K}}{3})%.<br>Kẻ %(M P / / A C, \\mathrm{MQ} / / \\mathrm{BC})% ( với %(P \\in B C, Q \\in A C)% ) suy ra %(H)% là trung điềm %(B P)% và %(K)% là trung điểm %(A Q)%. Do đó %(\\overrightarrow{M G}=\\frac{\\overrightarrow{M B}+\\overrightarrow{M P}+\\overrightarrow{M A}+\\overrightarrow{M Q}}{6})%.<br>Tứ giác %(M P C Q)% là hình bình hành %(\\overline{M P}+\\overline{M Q}=\\overline{M C})%. Do đó<br>\\[\\overrightarrow{M G}=\\frac{\\overrightarrow{M A}+\\overrightarrow{M B}+\\overrightarrow{M C}}{6}\\]<br>Gọi %(O)% là tâm trọng tâm tam giác %(A B C)%, suy ra %(\\overrightarrow{M G}=\\frac{\\overrightarrow{M O}}{2})%.<br>Vậy %(M G)% luôn đi qua trọng tâm %(O)% của tam giác %(A B C)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b5b07af2c728d6131d007520830ce5aa.png\" srcset=\"https://docdn.giainhanh.io/media/test/52b80c0db88671958746d69633324df4.png 198w, https://docdn.giainhanh.io/media/test/1dab84c695666f678b83b5e44fefc485.png 500w, https://docdn.giainhanh.io/media/test/09fa034c2878373af853a0181202f971.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C)% có %(A B=c, A C=b, \\widehat{B A C}=60^{\\circ})%. Các điểm %(M, N)% được xác định bởi %(\\overrightarrow{M C}=-2 \\overrightarrow{M B}, \\overrightarrow{N B}=-2 \\overrightarrow{N A})%. Tìm hệ thức liên hệ giữa %(b, c)% để %(A M)% và %(C N)% vuông góc với nhau.",
+        "question_images": [],
+        "solution": "Ta có: %(\\overrightarrow{M C}=-2 \\overrightarrow{M B} \\Leftrightarrow \\overrightarrow{A C}-\\overrightarrow{A M}=-2(\\overrightarrow{A B}-\\overrightarrow{A M}) \\Leftrightarrow 3 \\overrightarrow{A M}=2 \\overrightarrow{A B}+\\overrightarrow{A C})%<br>Tương tự ta cũng có: %(3 \\overrightarrow{C N}=2 \\overrightarrow{C A}+\\overrightarrow{C B})%.<br>Vậy: %(A M \\perp C N \\Leftrightarrow \\overrightarrow{A M} \\cdot \\overrightarrow{C N}=0 \\Leftrightarrow(2 \\overrightarrow{A B}+\\overrightarrow{A C})(2 \\overrightarrow{C A}+\\overrightarrow{C B})=0)%<br>\\[\\begin{aligned}\\Leftrightarrow(2 \\overrightarrow{A B}+\\overrightarrow{A C})(\\overrightarrow{A B}-3 \\overrightarrow{A C})=0 \\Leftrightarrow 2 A B^{2}-3 A C^{2}-5 \\overrightarrow{A B} \\cdot \\overrightarrow{A C}=0 \\\\Leftrightarrow 2 c^{2}-3 b^{2}-5 \\frac{b c}{2}=0 \\Leftrightarrow 4 c^{2}-5 b c-6 b^{2}=0 \\Leftrightarrow\\left[\\begin{array}{l}c=2 b \\c=\\frac{-3}{4} b\\end{array}\\right.\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 9: ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}2 x^{2}+4 x y+5 y^{2}=5 \\\\ x^{2}-2 y^{2}+2 x+y=-1\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Hệ phương trình %(\\Leftrightarrow\\left\\{\\begin{array}{l}(2 x+y)^{2}-2\\left(x^{2}-2 y^{2}\\right)=5 \\\\ (2 x+y)+\\left(x^{2}-2 y^{2}\\right)=-1\\end{array}\\right.)%<br>Đặt %(\\left\\{\\begin{array}{l}u=2 x+y \\\\ v=x^{2}-2 y^{2}\\end{array}\\right.)%. Hệ trở thành: %(\\left\\{\\begin{array}{l}u^{2}-2 v=5 \\\\ u+v=-1\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}u=1 \\\\ v=-2\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}u=-3 \\\\ v=2\\end{array}\\right.\\end{array}\\right.\\right.)%<br>Với %(\\left\\{\\begin{array}{l}u=1 \\\\ v=-2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}2 x+y=1 \\\\ x^{2}-2 y^{2}=-2\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=0 ; y=1 \\\\ x=\\frac{8}{7} ; y=-\\frac{9}{7}\\end{array}\\right.\\right.\\right.)%<br>Với %(\\left\\{\\begin{array}{l}u=-3 \\\\ v=2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}2 x+y=-3 \\\\ x^{2}-2 y^{2}=2\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=-2 ; y=1 \\\\ x=-\\frac{10}{7} ; y=-\\frac{1}{7}\\end{array}\\right.\\right.\\right.)%<br>Vậy hệ có 4 nghiệm %((x ; y))% là: %((-2 ; 1) ;(0 ; 1) ;\\left(\\frac{8}{7} ;-\\frac{9}{7}\\right) ;\\left(-\\frac{10}{7} ;-\\frac{1}{7}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 10: ",
+        "point": 2.0,
+        "content": "Cho các số thực dương %(x, y, z)% thỏa mãn điều kiện %(x^{2}+y^{2}+z^{2}=1)%. Tìm giá trị nhỏ nhất của biểu thức %(A=\\frac{x y}{z}+\\frac{y z}{x}+\\frac{z x}{y})%.",
+        "question_images": [],
+        "solution": "Ta có %(A^{2}=\\left(\\frac{x y}{z}\\right)^{2}+\\left(\\frac{y z}{x}\\right)^{2}+\\left(\\frac{z x}{y}\\right)^{2}+2\\left(x^{2}+y^{2}+z^{2}\\right))%<br>Ta thấy<br>\\[(x-y)^{2}+(y-z)^{2}+(z-x)^{2} \\geq 0 \\Leftrightarrow x^{2}+y^{2}+z^{2} \\geq x y+y z+z x, \\forall x, y, z~(*)\\]<br>Đẳng thức xảy ra khi và chỉ khi %(x=y=z)%<br>Áp dụng BĐT %((*))% ta được %(\\left(\\frac{x y}{z}\\right)^{2}+\\left(\\frac{y z}{x}\\right)^{2}+\\left(\\frac{z x}{y}\\right)^{2} \\geq x^{2}+y^{2}+z^{2})%<br>Khi đó %(A^{2}=\\left(\\frac{x y}{z}\\right)^{2}+\\left(\\frac{y z}{x}\\right)^{2}+\\left(\\frac{z x}{y}\\right)^{2}+2\\left(x^{2}+y^{2}+z^{2}\\right) \\geq 3\\left(x^{2}+y^{2}+z^{2}\\right)=3)%<br>Đẳng thức xảy ra khi và chỉ khi %(\\frac{x y}{z}=\\frac{y z}{x}=\\frac{z x}{y} \\Rightarrow x=y=z=\\frac{1}{\\sqrt{3}})%<br>Vậy giá trị nhỏ nhất của biểu thức %(A)% bằng %(\\sqrt{3})% đạt được khi %(x=y=z=\\frac{1}{\\sqrt{3}})%",
+        "question_type": "essay"
+    }
+]

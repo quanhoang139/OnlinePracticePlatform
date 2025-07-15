@@ -1,0 +1,57 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.5,
+        "content": "Cho %(\\frac{1}{\\mathrm{a}}+\\frac{1}{\\mathrm{~b}}+\\frac{1}{\\mathrm{c}}=0)% với %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c} \\neq 0)% và %(\\mathrm{M}=\\frac{\\mathrm{b}^{2} \\mathrm{c}^{2}}{\\mathrm{a}}+\\frac{\\mathrm{c}^{2} \\mathrm{a}^{2}}{\\mathrm{~b}}+\\frac{\\mathrm{a}^{2} \\mathrm{~b}^{2}}{\\mathrm{c}})%.<br>Chứng minh rằng %(\\mathrm{M}=3 \\mathrm{abc})%.",
+        "question_images": [],
+        "solution": "Đặt %(\\frac{1}{a}=x, \\frac{1}{b}=y, \\frac{1}{c}=z)% thì %(x+y+z=0)%<br>Ta có: %(M=\\frac{b^{2} c^{2}}{a}+\\frac{c^{2} a^{2}}{b}+\\frac{a^{2} b^{2}}{c}=a^{2} b^{2} c^{2}\\left(\\frac{1}{a^{3}}+\\frac{1}{b^{3}}+\\frac{1}{c^{3}}\\right))% %(=a^{2} b^{2} c^{2}\\left(x^{3}+y^{3}+z^{3}\\right))%<br>Từ %(x+y+z=0)% suy ra %(x+y=-z \\Rightarrow x^{3}+y^{3}+3 x y(x+y)=(-z)^{3})%%(\\Rightarrow x^{3}+y^{3}-3 x y z=-z^{3})%<br>\\[\\Rightarrow \\mathrm{x}^{3}+\\mathrm{y}^{3}+\\mathrm{z}^{3}=3 \\mathrm{xyz}\\]<br>Vậy %(M=a^{2} b^{2} c^{2} \\cdot 3 x y z=a^{2} b^{2} c^{2} \\cdot 3 \\frac{1}{a} \\cdot \\frac{1}{b} \\cdot \\frac{1}{c}=3 a b c)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng %((x+2)^{3}\\gt 1+x+x^{2}+x^{3})% với mọi giá trị %(x)%.",
+        "question_images": [],
+        "solution": "Ta có %((x+2)^{3}-\\left(1+x+x^{2}+x^{3}\\right)=5 x^{2}+11 x+7)%<br>\\[=5\\left(x+\\frac{11}{10}\\right)^{2}+\\frac{19}{20}\\gt 0\\]<br>Suy ra %((x+2)^{3}>1+x+x^{2}+x^{3})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Giải phương trình tìm nghiệm nguyên: %(1+x+x^{2}+x^{3}=y^{3})%.",
+        "question_images": [],
+        "solution": "Ta nhận thấy %(1+x+x^{2}=\\left(x+\\frac{1}{2}\\right)^{2}+\\frac{3}{4}>0)% với mọi %(x)%<br>Nên %(x^{3}\\lt 1+x+x^{2}+x^{3}=y^{3})%<br>Theo câu a): %((x+2)^{3}>1+x+x^{2}+x^{3})%<br>Suy ra: %(x^{3}\\lt y^{3}\\lt (x+2)^{3})%<br>\\[\\Rightarrow \\mathrm{y}^{3}=(\\mathrm{x}+1)^{3}\\]<br>Tức là: %(1+x+x^{2}+x^{3}=(x+1)^{3} \\Leftrightarrow x(x+1)=0 \\Leftrightarrow x=-1)% hoặc %(x=0)%<br>Với %(\\mathrm{x}=-1)% thì %(\\mathrm{y}=0)%; với %(\\mathrm{x}=0)% thì %(\\mathrm{y}=1)%.<br>Vậy phương trình có các nghiệm nguyên: (%(1 ; 0))% và %((0 ; 1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho biểu thức %(\\mathrm{A}=\\frac{3 \\mathrm{x}+3}{\\mathrm{x}^{3}+\\mathrm{x}^{2}+\\mathrm{x}+1})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "a) Tìm giá trị của %(x)% dề A nhận giá trị nguyên.",
+        "question_images": [],
+        "solution": "Ta có: %(\\frac{3 x+3}{x^{3}+x^{2}+x+1}=\\frac{3(x+1)}{x^{2}(x+1)+(x+1)}=\\frac{3}{x^{2}+1})%<br>Muốn A nhận giá trị nguyên thì %(\\mathrm{x}^{2}+1)% phải là ước của 3 .<br>Mà uớc của 3 là: %(\\pm 1 ; \\pm 3)%<br>- Nếu %(\\mathrm{x}^{2}+1=1 \\Rightarrow \\mathrm{x}=0)% thì %(\\mathrm{A}=3)%<br>- Nếu %(x^{2}+1=-1)% : không có giá trị nào của %(x)% thoả mãn<br>- Nếu %(\\mathrm{x}^{2}+1=3 \\Rightarrow \\mathrm{x}^{2}=2 \\Rightarrow \\mathrm{x}= \\pm \\sqrt{2})% thi %(\\mathrm{A}=1)%<br>- Nếu %(x^{2}-1=-3)% : không có giá trị nào của %(x)% thoà mãn",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "b) Tìm giá trị lớn nhất của A .",
+        "question_images": [],
+        "solution": "%(\\mathrm{A}=\\frac{3}{\\mathrm{x}^{2}+1})% nhận giá trị lớn nhất khi %(\\mathrm{x}^{2}+1)% nhận giá trị nhỏ nhất.<br>Mà %(x^{2}+1 \\geq 1)% với mọi %(x)%<br>Tức %(\\mathrm{x}^{2}+1=1)% là nhỏ nhất.<br>Khi đó %(\\mathrm{A}=3)%%(\\mathrm{x}^{2}+1=1 \\Rightarrow \\mathrm{x}=0)%. Vậy khi %(\\mathrm{x}=0)% thì A đạt giá trị lớn nhất là 3 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.5,
+        "content": "Cho tam giác ABC . Từ điềm M thuộc cạnh AC kẻ các đường thẵng song song với các cạnh %(A B)% và %(B C)% cắt %(B C)% tại %(E)% và %(A B)% tại %(F)%. Hãy xác định vị trí của %(M)% trên %(A C)% sao cho ành bình hành BEMF có diện tích lớn nhất.",
+        "question_images": [],
+        "solution": "Ta có tứ giác BEMF là hình bình hành.<br>%(\\mathrm{Kẻ} \\mathrm{AH} \\perp \\mathrm{BC}, \\mathrm{AH})% cắt MF tại I , %(\\mathrm{AI} \\perp \\mathrm{MF})%.<br>Gọi S ' là diện tích hình bình hành BEMF và S là diện tích tam giác ABC<br>%(\\mathrm{S}^{\\prime}=\\mathrm{IH} . \\mathrm{MF})% và %(\\mathrm{S}=\\frac{1}{2} \\mathrm{BC} . \\mathrm{AH})%<br>Ta có %(\\frac{\\mathrm{S}^{\\prime}}{\\mathrm{S}}=\\frac{\\mathrm{IH} \\cdot \\mathrm{MF}}{\\frac{1}{2} \\mathrm{BC} \\cdot \\mathrm{AH}}=2 \\frac{\\mathrm{MF}}{\\mathrm{BC}} \\cdot \\frac{\\mathrm{IH}}{\\mathrm{AH}})%(1)<br>Đặt %(\\mathrm{AM}=\\mathrm{x})% và %(\\mathrm{MC}=\\mathrm{y})%<br>Vì MF // BC nên ta có: %(\\frac{\\mathrm{MF}}{\\mathrm{BC}}=\\frac{\\mathrm{AM}}{\\mathrm{AC}}=\\frac{x}{x+y} ; \\frac{\\mathrm{IH}}{\\mathrm{AH}}=\\frac{\\mathrm{MC}}{\\mathrm{AC}}=\\frac{y}{x+y})%<br>Thay vào (1) ta có: %(\\frac{S^{\\prime}}{S}=2 \\cdot \\frac{x}{x+y} \\cdot \\frac{y}{x+y}=\\frac{2 x y}{(x+y)^{2}})%<br>Vì %(x, y)% là 2 số không âm nên ta có: %(x+y \\geq 2 \\sqrt{x y} \\Rightarrow(x+y)^{2} \\geq 4 x y)%%(\\Rightarrow \\frac{S^{\\prime}}{S}=\\frac{2 x y}{(x+y)^{2}} \\leq \\frac{2 x y}{4 x y}=\\frac{1}{2})%%(\\Rightarrow \\frac{\\mathrm{S}^{\\prime}}{\\mathrm{S}} \\leq \\frac{1}{2} \\Leftrightarrow \\mathrm{S}^{\\prime} \\leq \\frac{1}{2} \\mathrm{~S})%<br>%(\\Rightarrow \\mathrm{S}^{\\prime}=\\frac{1}{2} \\mathrm{~S})% là lớn nhất.<br>Dấu \"=\" xảy ra khi %(\\mathrm{x}=\\mathrm{y})%, tức lả khi M là trung điểm của cạnh AC thì diện tích hình bình hành BEMF đạt giá trị lớn nhất là %(\\frac{1}{2} \\mathrm{~S})% không đổi.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/db338f002d40871377516aca26c86431.png\" srcset=\"https://docdn.giainhanh.io/media/test/6d843444468d9a28eb1db83ac03abadd.png 245w, https://docdn.giainhanh.io/media/test/eb724a0007c6bda78371d9a5ea241e15.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

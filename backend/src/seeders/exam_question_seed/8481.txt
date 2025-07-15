@@ -1,0 +1,49 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho hàm số %(y=\\frac{x+2}{x+1})%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 3.0,
+        "content": "a) Khảo sát sự biến thiên và vẽ đồ thị %((\\mathrm{C}))% của hàm số đã cho .",
+        "question_images": [],
+        "solution": "- Tập xác định : %(D=\\mathrm{R} \\backslash\\{-1\\})%<br>- Sự biến thiên :<br>Đạo hàm : %(y^{\\prime}=\\frac{-1}{(x+1)^{2}}\\lt 0, \\forall x \\in D)%<br>Đơn điệu : Hàm số nghịch biến trên các khoảng %((-\\infty ;-1))% và %((-1 ;+\\infty))%<br>Cực trị : Hàm số không có cực trị<br>Tiệm cận :<br>%(\\lim _{x \\rightarrow-\\infty} y=1)% và %(\\lim _{x \\rightarrow+\\infty} y=1 \\Rightarrow y=1)% là đường tiệm cận ngang<br>%(\\lim _{x \\rightarrow-1^{-}} y=-\\infty)% và %(\\lim _{x \\rightarrow-1^{+}} y=+\\infty \\Rightarrow x=-1)% là đường tiệm cận đứng<br>Bảng biến thiên :<br>Đồ thị<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/83c6c0a4ba9d7d97d16230d106c58584.png\" srcset=\"https://docdn.giainhanh.io/media/test/acb89844bbee2877e334386214d76e7f.png 245w, https://docdn.giainhanh.io/media/test/961d153ed0d2b0491c596daef59487b8.png 500w\" width=\"500\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/813f998f63aad9a7fa927b2c49a175eb.png\" srcset=\"https://docdn.giainhanh.io/media/test/cd90b15bb89a5a84306d2f44437f2995.png 245w, https://docdn.giainhanh.io/media/test/d49212fdbb0ba80e7a5047a640a739d1.png 500w, https://docdn.giainhanh.io/media/test/ecd18005b9464612264aca7b1334899a.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Viết phương trình tiếp tuyến của đồ thị %((\\mathrm{C}))% tại điểm có hoành độ bằng 0",
+        "question_images": [],
+        "solution": "Với %(\\quad x_{0}=0 \\Rightarrow y_{0}=2)% và %(y_{(0)}^{\\prime}=-1)%<br>Vậy phương trình tiếp cần tìm là %(y=-1(x-0)+2)%<br>\\[=-x+2\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) Tìm các trị của tham số %(\\mathrm{m})% để đường thẳng %(d: y=-x+m)% cắt đồ thị %((\\mathrm{C}))% tại hai điểm phân biệt .",
+        "question_images": [],
+        "solution": "Phương trình hoành độ giao điểm của %((\\mathrm{C}))% và d là %(\\frac{x+2}{x+1}=-x+m)%<br>\\[\\begin{array}{l}\\Leftrightarrow x+2=(-x+m)(x+1) \\quad(\\text { do } x=-1 \\text { không phải là nghiệm của pt ) } \\\\Leftrightarrow x+2=-x^{2}-x+m x+m \\Leftrightarrow x^{2}+(2-m) x+2-m=0\\left(^{*}\\right)\\end{array}\\]<br>Để đồ thị %((\\mathrm{C}))% cắt đường thẳng %(\\mathrm{d})% tại hai điểm phân biệt khi và chỉ khi<br>Phương trình (*) có hai nghiệm phân biệt<br>\\[\\begin{array}{l}\\Leftrightarrow\\left\\{\\begin{array}{c}a=1 \\neq 0 \\\\Delta=(2-m)^{2}-4(2-m)\\gt 0\\end{array}\\right. \\\\Leftrightarrow m^{2}-4>0 \\\\Leftrightarrow\\left[\\begin{array}{l}m\\lt -2 \\m>2\\end{array}\\right.\\end{array}\\]<br>Vậy %(\\mathrm{m}\\lt -2)% hoặc %(\\mathrm{m}>2)% thì %((\\mathrm{C}))% cắt %(\\mathrm{d})% tại hai điểm phân biệt",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Tìm giá trị lớn nhất và giá trị nhỏ nhất của hàm số %(f(x)=-x^{3}+6 x^{2}-9 x+1)% trên đoạn %([0 ; 2])%",
+        "question_images": [],
+        "solution": "Hàm số đã cho xác định và liên tục trên đoạn %([0 ; 2])%<br>Ta có %(f^{\\prime}(x)=-3 x^{2}+12 x-9)%<br>%(f^{\\prime}(x)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=1 \\in(0 ; 2) \\x=3 \\notin(0 ; 2)\\end{array}\\right.)%<br>Mà %(f(0)=1 ; f(1)=-3 ; f(2)=-1)%<br>Vậy %(\\underset{[0 ; 2]}{\\operatorname{Max}} f(x)=1)% khi %(x=0 ; \\underset{[0 ; 2]}{\\operatorname{Min}} f(x)=-3)% khi %(x=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Tìm các điểm cực trị của hàm số %(y=2 \\sin x+\\sqrt{3} x+1)%.",
+        "question_images": [],
+        "solution": "Tập xác định : %(D=\\mathbf{R})%<br>Đạo hàm : %(y^{\\prime}=2 \\cos x+\\sqrt{3})% và %(y^{\\prime}=-2 \\sin x)%<br>\\[y^{\\prime}=0 \\Leftrightarrow \\cos x=-\\frac{\\sqrt{3}}{2}=\\cos \\frac{5 \\pi}{6} \\Leftrightarrow\\left[\\begin{array}{c}x=\\frac{5 \\pi}{6}+k 2 \\pi \\x=\\frac{-5 \\pi}{6}+k 2 \\pi\\end{array}(k \\in Z)\\right.\\]<br>Mà<br>\\[\\begin{array}{l}y_{\\left(\\frac{5 \\pi}{6}+k 2 \\pi\\right)}^{\\prime}=-2 \\sin \\left(\\frac{5 \\pi}{6}+k 2 \\pi\\right)=-2 \\sin \\frac{5 \\pi}{6}=-1\\lt 0 \\y_{\\left(\\frac{-5 \\pi}{6}+k 2 \\pi\\right)}^{\\prime}=-2 \\sin \\left(\\frac{-5 \\pi}{6}+k 2 \\pi\\right)=-2 \\sin \\left(\\frac{-5 \\pi}{6}\\right)=1\\gt 0\\end{array}\\]<br>Vậy<br>%(x=\\frac{5 \\pi}{6}+k 2 \\pi(k \\in \\mathbb{Z}))% là các điểm cực đại của hàm số<br>%(x=\\frac{-5 \\pi}{6}+k 2 \\pi(k \\in \\mathbb{Z}))% là các điểm cực tiểu của hàm số",
+        "question_type": "essay"
+    }
+]

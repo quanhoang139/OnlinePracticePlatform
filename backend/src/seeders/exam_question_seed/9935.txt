@@ -1,0 +1,212 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 0.25,
+        "content": "Có bao nhiêu cách sắp xếp chỗ ngồi cho 3 nữ sinh, 3 nam sinh thành một hàng dọc sao cho các bạn nam và nữ ngồi xen kẽ:",
+        "question_images": [],
+        "labelA": "%(6)%",
+        "labelB": "%(72)%",
+        "labelC": "%(720)%",
+        "labelD": "%(144)%",
+        "correct_label": "labelB",
+        "solution": "Xét vị trí đầu hàng là một bạn nam, ta có 3 cách chọn.<br>Vì tính chất xen kẽ của hàng nên các vị trí tiếp theo lần lượt có số cách chọn là: %(3,2,2,1,1)%. Vì vậy số cách xếp hàng trong trường hợp này là %(3.3.2.2.1.1 = 36 )%.<br>Xét vị trí đầu hàng là một bạn nữ thì số cách xếp hoàn toàn tương tự: %(36)% (cách).<br>Vậy tố cách xếp hàng thỏa mãn đề bài là: %(36+36=72)% (cách).",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 0.25,
+        "content": "Trong khai triển nhị thức Niu-tơn của %((1+3 x)^{4})%, số hạng thứ 2 theo số mũ tăng dần của %(x)% là:",
+        "question_images": [],
+        "labelA": "%(108 x)%",
+        "labelB": "%(54 x^{2})%",
+        "labelC": "%(1)%",
+        "labelD": "%(12 x)%",
+        "correct_label": "labelD",
+        "solution": "Ta có %((1+3 x)^{4}=\\sum_{k=0}^{4} C_{4}^{k}(3 x)^{k}=\\sum_{k=0}^{4} C_{4}^{k} 3^{k} x^{k})%.<br>Do đó số hạng thứ 2 theo số mũ tăng dân của %(x)% ứng với %(k=1)%, tức là %(C_{4}^{1} 3^{1} x=12 x)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 0.25,
+        "content": "Cho %(A)% là một biến cố liên quan phép thử %(T)%. Mệnh đề nào sau đây là mệnh đề đúng?",
+        "question_images": [],
+        "labelA": "%(P(A))% là số lớn hơn %(0)%",
+        "labelB": "%(P(A)=1-P(\\bar{A}))%",
+        "labelC": "%(P(A)=0 \\Leftrightarrow A=\\Omega)%",
+        "labelD": "%(P(A))% là số nhỏ hơn %(1)%",
+        "correct_label": "labelB",
+        "solution": "%(P(A)=1-P(\\bar{A}))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 0.25,
+        "content": "Gieo đồng tiền hai lần. Xác suất để sau hai lần gieo thì mặt sấp xuất hiện ít nhất một lần?",
+        "question_images": [],
+        "labelA": "%(\\frac14)%",
+        "labelB": "%(\\frac12)%",
+        "labelC": "%(\\frac34)%",
+        "labelD": "%(\\frac13)%",
+        "correct_label": "labelC",
+        "solution": "%(n(\\Omega)=2.2=4, A=\\{S N ; N S ; S S\\}, P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{3}{4})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 0.25,
+        "content": "Dùng máy tính cầm tay để viết quy tròn số gần đúng %(\\sqrt{2}+\\sqrt{5})% đến hàng phần trăm là",
+        "question_images": [],
+        "labelA": "%(3,65)%",
+        "labelB": "%(3,6503)%",
+        "labelC": "%(3,6)%",
+        "labelD": "%(3,66)%",
+        "correct_label": "labelA",
+        "solution": "Ta có: %(\\sqrt{2}+\\sqrt{5}=3,65028154 \\ldots)%<br>Quy tròn số đến hàng phần trăm ta thu được %(3,65 )%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 0.25,
+        "content": "Điểm số của câu lạc bộ Chelsea đạt được tại giải ngoại hạng, từ mùa giải 2012-2013 đến mùa giải 2020-2021 như sau. Khoảng biến thiên của mẫu số liệu là",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/563884eb32bfb19d8fc982ce973489ac.png"
+        ],
+        "labelA": "%(27)%",
+        "labelB": "%(23)%",
+        "labelC": "%(50)%",
+        "labelD": "%(43)%",
+        "correct_label": "labelD",
+        "solution": "Chọn D",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 0.25,
+        "content": "Cho các số liệu thống kê về sản lượng chè thu được trong 1 năm (%(kg)%/sào) của 20 hộ gia đình. Tứ phân vị của mẫu số liệu trên là %(Q_{1}, Q_{2}, Q_{3})%, giá trị của chúng lần lượt là",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/bfa176096e3253719776408fd652b21d.png"
+        ],
+        "labelA": "%(113 ; 114 ; 115)%",
+        "labelB": "%(112 ; 114 ; 116)%",
+        "labelC": "%(112 ; 115 ; 116)%",
+        "labelD": "%(113 ; 115 ; 116)%",
+        "correct_label": "labelA",
+        "solution": "Ta có tứ phân vị thứ hai: %(Q_{2}=114)% (cũng là trung vị của mẫu).<br>Xét nửa bên trái mẫu: %(111\\quad 112\\quad 112\\quad 112\\quad 113\\quad 113\\quad 113\\quad 113\\quad 114\\quad 114)%<br>Tứ phân vị thứ nhất là trung vị của nửa mẫu này: %(Q_{1}=\\frac{113+113}{2}=113)%.<br>Xét nửa mẫu bên phải: %(114\\quad 114\\quad 114\\quad 115\\quad 115\\quad 115\\quad 115\\quad 116\\quad 116\\quad 117)%<br>Tứ phân vị thứ ba là trung vị của nửa mẫu này: %(Q_{3}=\\frac{115+115}{2}=115)%.<br>Vậy tứ phân vị của mẫu là: %(Q_{1}=113, Q_{2}=114, Q_{3}=115)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 0.25,
+        "content": "Tam giác %(A B C)% có %(C(-2 ;-4))%, trọng tâm %(G(0 ; 4))%, trung điểm cạnh %(B C)% là %(M(2 ; 0))%. Tọa độ %(A)% và %(B)% là:",
+        "question_images": [],
+        "labelA": "%(A(4 ; 12), B(4 ; 6))%",
+        "labelB": "%(A(-4 ;-12), B(6 ; 4))%",
+        "labelC": "%(A(-4 ; 12), B(6 ; 4))%",
+        "labelD": "%(A(4 ;-12), B(-6 ; 4))%",
+        "correct_label": "labelC",
+        "solution": "Ta có: %(M(2 ; 0))% là trung diểm %(B C)% nên %(\\left\\{\\begin{array}{l}2=\\frac{x_{B}+(-2)}{2} \\\\ 0=\\frac{y_{B}+(-4)}{2}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x_{B}=6 \\\\ y_{B}=4\\end{array} \\Rightarrow B(6 ; 4)\\right.\\right.)%.<br>%(G(0 ; 4))% là trọng tâm tam giác %(A B C)% nên %(\\left\\{\\begin{array}{l}0=\\frac{x_{A}+6+(-2)}{3} \\\\ 4=\\frac{y_{A}+4+(-4)}{3}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x_{A}=-4 \\\\ y_{A}=12\\end{array}\\right.\\right.)%.<br>Vậy %(A(-4 ; 12))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 9: ",
+        "point": 0.25,
+        "content": "Phương trình tham số của đường thẳng %(\\Delta: 2 x-6 y+23=0)% là:",
+        "question_images": [],
+        "labelA": "%(\\left\\{\\begin{array}{l}x=5-3 t \\\\ y=\\frac{11}{2}+t\\end{array}\\right.)%",
+        "labelB": "%(\\left\\{\\begin{array}{l}x=5+3 t \\\\ y=\\frac{11}{2}+t\\end{array}\\right.)%",
+        "labelC": "%(\\left\\{\\begin{array}{l}x=-5+3 t \\\\ y=\\frac{11}{2}+t\\end{array}\\right.)%",
+        "labelD": "%(\\left\\{\\begin{array}{l}x=-5+3 t \\\\ y=4+t\\end{array}\\right.)%",
+        "correct_label": "labelB",
+        "solution": "Đường thẳng %(\\Delta)% có một vectơ pháp tuyến %(\\vec{n}=(2 ;-6))% nên có vectơ chỉ phương %(\\vec{u}=(3 ; 1))%, đồng thời %(\\Delta)% đi qua %(M\\left(5 ; \\frac{11}{2}\\right))% nên có phương trình tham số của là %(\\left\\{\\begin{array}{l}x=5+3 t \\\\ y=\\frac{11}{2}+t\\end{array}\\right.)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 10: ",
+        "point": 0.25,
+        "content": "Hai đường thẳng %(d_{1}: m x+y=m+1, d_{2}: x+m y=2)% song song nhau khi và chỉ khi",
+        "question_images": [],
+        "labelA": "%(m=2)%",
+        "labelB": "%(m= \\pm 1)%",
+        "labelC": "%(m=1)%",
+        "labelD": "%(m=-1)%",
+        "correct_label": "labelD",
+        "solution": "Hai đường thẳng %(d_{1}, d_{2})% có cặp vectơ pháp tuyến %(\\vec{n}_{1}=(m ; 1), \\vec{n}_{2}=(1 ; m))%.<br>Điều kiện cần để %(d_{1}, d_{2})% song song nhau là %(\\vec{n}_{1}, \\vec{n}_{2})% cùng phương, suy ra %(m \\cdot m=1.1 \\Rightarrow m= \\pm 1)%.<br>Với %(m=1)% thì %(d_{1}: x+y-2=0, d_{2}: x+y-2=0)%; dễ thấy hai đường thẳng trùng nhau nên loại %(m=1)%.<br>Với %(m=-1)% thì %(d_{1}:-x+y=0, d_{2}: x-y-2=0)%; ta có %(O(0 ; 0) \\in d_{1}, O \\notin d_{2})% nên hai đường thẳng này song song.<br>Vậy %(m=-1)% thỏa mãn yêu cầu bài toán.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 11: ",
+        "point": 0.25,
+        "content": "Tìm giao điểm của hai đường tròn %(\\left(C_{1}\\right): x^{2}+y^{2}-2=0)% và %(\\left(C_{2}\\right): x^{2}+y^{2}-2 x=0)%.",
+        "question_images": [],
+        "labelA": "%((-1 ; 0))% và %((0 ;-1))%",
+        "labelB": "%((2 ; 0))% và %((0 ; 2))%",
+        "labelC": "%((1 ;-1))% và %((1 ; 1))%",
+        "labelD": "%((\\sqrt{2} ; 1))% và %((1 ;-\\sqrt{2}))%",
+        "correct_label": "labelC",
+        "solution": "Xét hệ phương trình hai đường tròn: %(\\left\\{\\begin{array}{l}x^{2}+y^{2}-2=0 \\\\ x^{2}+y^{2}-2 x=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{c}x^{2}+y^{2}=2 \\\\ 2-2 x=0\\end{array}\\right.\\right.)%<br>%(\\Leftrightarrow\\left\\{\\begin{array} { l } { x ^ { 2 } + y ^ { 2 } = 2 } \\\\{ x = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { y ^ { 2 } = 1 } \\\\{ x = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}y= \\pm 1 \\x=1\\end{array}\\right.\\right.\\right.)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 12: ",
+        "point": 0.25,
+        "content": "Elip %((E): \\frac{x^{2}}{30}+\\frac{y^{2}}{9}=1)% có độ dài trục nhỏ là:",
+        "question_images": [],
+        "labelA": "%(30)%",
+        "labelB": "%(9)%",
+        "labelC": "%(3)%",
+        "labelD": "%(6)%",
+        "correct_label": "labelD",
+        "solution": "Chọn D",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 17: ",
+        "point": 0.5,
+        "content": "Cho hai đường thằng %(\\Delta_{1}: x+y-10=0)% và %(\\Delta_{1}: 2 x+m y+999=0)%. Tìm %(m)% để góc tạo bởi hai đường thẳng trên bằng %(45^{\\circ})%.",
+        "question_images": [],
+        "solution": "Hai đường thẳng %(\\Delta_{1}, \\Delta_{2})% có cặp vectơ pháp tuyến %(\\vec{n}_{1}=(1 ; 1), \\vec{n}_{2}=(2 ; m))%.<br>Ta có: %(\\cos \\left(\\Delta_{1}, \\Delta_{2}\\right)=\\frac{\\left|\\vec{n}_{1} \\cdot \\vec{n}_{2}\\right|}{\\left|\\vec{n}_{1}\\right| \\cdot\\left|\\vec{n}_{2}\\right|}=\\frac{|1 \\cdot 2+1 \\cdot m|}{\\sqrt{2} \\cdot \\sqrt{4+m^{2}}}=\\cos 45^{\\circ} \\Rightarrow \\frac{|1 \\cdot 2+1 \\cdot m|}{\\sqrt{2} \\cdot \\sqrt{4+m^{2}}}=\\frac{\\sqrt{2}}{2})%<br>%(\\Rightarrow 4+m^{2}=4+4 m+m^{2} \\Rightarrow m=0)%. Vậy %(m=0)% thỏa mãn đề bài.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 18: ",
+        "point": 0.5,
+        "content": "Một đường hầm có mặt cắt nửa hình elip cao %(5\\ m )%, rộng %(12\\ m )%. Viết phương trình chính tắc của elip đó?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/029b992e011edb9cd5aa1374358aa101.png"
+        ],
+        "solution": "Vẽ hệ trục %(Oxy)% như hình vẽ:<br>Phương trình chính tắc của elip có dạng: %(\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a\\gt b>0))%<br>Elip có chiều cao %(5\\ m)% nên %(b=5)%.<br>Elip có chiều rộng %(12 m)% nên %(2 a=12 \\Rightarrow a=6)%.<br>Phương trình chính tắc của elip: %(\\frac{x^{2}}{36}+\\frac{y^{2}}{25}=1)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/00658ac8533d78b39555bfc18dc8cd60.png\" srcset=\"https://docdn.giainhanh.io/media/test/e038c9864864fc762b72ae5644367384.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 19: ",
+        "point": 0.5,
+        "content": "Cho khai triển %((1+2 x)^{n}=a_{0}+a_{1} x+a_{2} x^{2}+\\ldots+a_{n} x^{n})% thỏa mãn %(a_{0}+8 a_{1}=2 a_{2}+1)%. Tìm giá trị của số nguyên dương %(n)%.",
+        "question_images": [],
+        "solution": "Ta có: %((1+2 x)^{n}=\\sum_{k=0}^{n} 2^{k} C_{n}^{k} x^{k} ;(k \\in N))%. Suy ra: %(a_{k}=2^{k} C_{n}^{k})%.<br>Thay %(a_{0}=2^{0} C_{n}^{0}=1, a_{1}=2 C_{n}^{1}, a_{2}=4 C_{n}^{2})% vào giả thiết ta có: %(1+16 C_{n}^{1}=8 C_{n}^{2}+1 \\Leftrightarrow 2 C_{n}^{1}=C_{n}^{2})%<br>%(\\Leftrightarrow 2 \\frac{n!}{(n-1)!}=\\frac{n!}{(n-2)!2!} \\Leftrightarrow 2 n=\\frac{n(n-1)}{2} \\Leftrightarrow n^{2}-5 n=0 \\Leftrightarrow\\left[\\begin{array}{l}n=0 \\n=5\\end{array}\\right. \\text {. })%<br>Do %(n)% là số nguyên dương nên %(n=5)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 20: ",
+        "point": 0.5,
+        "content": "Gieo đồng thời hai viên xúc xắc cân đối và đồng chất. Tính xác suất để tổng số chấm xuất hiện trên hai viên xúc xắc bằng: 9;",
+        "question_images": [],
+        "solution": "Ta có %(n(\\Omega)=36)%.<br>Gọi %(A)% là biến cố tổng số chấm trên hai viên xúc xắc bằng 9.<br>%(A=\\{(3 ; 6),(4 ; 5) ;(5 ; 4) ;(6 ; 3)\\})%. Do đó, ta có %(n(A)=4)%.<br>Vậy xác suất của biến cố %(A)% là: %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{4}{36}=\\frac{1}{9})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 21: ",
+        "point": 0.5,
+        "content": "Số liệu sau đây cho biết số con được sinh ra trong 20 hộ gia đình được khảo sát ở một địa phương: %(2\\quad 2\\quad 3\\quad 5\\quad 2\\quad 4\\quad 3\\quad 2\\quad 1\\quad 9\\quad 5\\quad 3\\quad 2\\quad 4\\quad 1\\quad 0\\quad 3\\quad 2\\quad 1\\quad 6)%. Tìm độ lệch chuẩn của mẫu số liệu đã cho?",
+        "question_images": [],
+        "solution": "Giá trị trung bình của mẫu là: %(\\bar{x}=\\frac{2+2+\\ldots+1+6}{20}=3)% (con).<br>Phương sai là: %(s^{2}=\\frac{1}{20}\\left[\\left(x_{1}-\\bar{x}\\right)^{2}+\\left(x_{2}-\\bar{x}\\right)^{2}+\\ldots+\\left(x_{20}-\\bar{x}\\right)^{2}\\right]=4,1)%.<br>Độ lệch chuẩn: %(s=\\sqrt{s^{2}} \\approx 2,025)% (con).",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 22: ",
+        "point": 0.5,
+        "content": "Cho phương trình: %(x^{2}+y^{2}-2 m x-4(m-2) y+6-m=0(1))%. Tìm %(m)% để %((1))% là phương trình của một đường tròn có bán kính bằng %(\\sqrt{10})%.",
+        "question_images": [],
+        "solution": "Đặt %(a=\\frac{-2 m}{-2}=m, b=\\frac{-4(m-2)}{-2}=2(m-2), c=6-m)%.<br>Điều kiện để %((1))% là phương trình đường tròn : %(a^{2}+b^{2}-c\\gt 0)%<br>%(\\Leftrightarrow m^{2}+4(m-2)^{2}-6+m>0 \\Leftrightarrow 5 m^{2}-15 m+10>0 \\Leftrightarrow\\left[\\begin{array}{l}m>2 \\m\\lt 1\\end{array}\\right. \\text {. })%<br>Với điều kiện trên, bán kính đường tròn là %(R=\\sqrt{5 m^{2}-15 m+10})%.<br>Theo giả thiết: %(R=\\sqrt{10} \\Leftrightarrow 5 m^{2}-15 m+10=10 \\Leftrightarrow\\left[\\begin{array}{l}m=0 \\\\ m=3\\end{array}\\right.)% (nhận).<br>Vậy có hai giá trị %(m)% thỏa mãn là %(m=0 ; m=3)%",
+        "question_type": "essay"
+    }
+]

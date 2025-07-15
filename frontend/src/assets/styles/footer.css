@@ -1,0 +1,99 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  /* Đổ bóng phía trên footer */
+}
+
+/* Căn lề trái cho danh sách */
+.policy-list {
+
+  text-align: left;
+}
+
+/* Tạo khoảng cách giữa các mục */
+.policy-list li {
+  margin-bottom: 6px;
+  /* Khoảng cách giữa các li */
+  transition: transform 0.1s ease, color 0.1s ease;
+}
+
+/* Hiệu ứng hover */
+.policy-list li a {
+  text-decoration: none;
+  color: #333;
+  /* Màu chữ mặc định */
+  transition: color 0.2s ease;
+}
+
+
+.policy-list li a:hover {
+  color: #007bff;
+  font-weight: bold;
+  /* Chuyển sang màu xanh khi hover */
+}
+
+.contact-list {
+  padding-left: 0; /* Xóa padding mặc định của ul */
+  
+}
+
+.contact-list li {
+  margin-bottom: 6px; /* Giãn cách giữa các dòng */
+  transition: color 0.2s ease-in-out; /* Hiệu ứng hover */
+  text-align: left;
+}
+
+
+.social-container {
+  display: flex;
+  padding: 5px 20px;
+  justify-content: center; /* Căn giữa icon */
+  align-items: center;
+  gap: 10px; /* Khoảng cách giữa các icon */
+}
+
+.social-icon {
+  font-size: 36px; /* Tăng kích thước icon */
+  width: 50px; /* Kích thước ô bọc icon */
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; /* Làm tròn icon */
+  background-color: #f1f1f1; /* Màu nền nhẹ */
+  color: #4a4a4a;
+
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  /* Đổi màu nền khi hover */
+  text-decoration: none;
+}
+
+.icon-facebook:hover {
+  color: rgb(0, 42, 255);
+}
+
+
+.icon-youtobe:hover {
+  color: rgb(255, 0, 0);
+}
+
+.icon-tiktok:hover {
+  color: rgb(0, 0, 0);
+}
+
+.app-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0; /* Thêm padding nhỏ để tạo khoảng trống */
+  height: 50px; /* Chỉ lớn hơn ảnh một chút */
+}

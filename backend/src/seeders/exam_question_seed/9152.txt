@@ -1,0 +1,73 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Cho biểu thức %(P=\\left(\\frac{1}{1-\\sqrt{x}}-\\frac{1}{\\sqrt{x}}\\right):\\left(\\frac{2 x+\\sqrt{x}-1}{1-x}+\\frac{2 x \\sqrt{x}+x-\\sqrt{x}}{1+x \\sqrt{x}}\\right))%<br>với %(x\\gt 0, x \\neq 1, x \\neq \\frac{1}{4})%<br>Tính giá trị của %(P)% tại %(x=\\frac{4}{\\sqrt{10}}(\\sqrt{3+\\sqrt{5}}+\\sqrt{3-\\sqrt{5}}))%",
+        "question_images": [],
+        "solution": "Ta có %(P=\\left(\\frac{1}{1-\\sqrt{x}}-\\frac{1}{\\sqrt{x}}\\right):\\left(\\frac{2 x+\\sqrt{x}-1}{1-x}+\\frac{2 x \\sqrt{x}+x-\\sqrt{x}}{1+x \\sqrt{x}}\\right))%<br>\\[\\begin{array}{l}P=\\left(\\frac{\\sqrt{x}-1+\\sqrt{x}}{\\sqrt{x}(1-\\sqrt{x})}\\right):\\left(\\frac{(\\sqrt{x}+1)(2 \\sqrt{x}-1)}{(1-\\sqrt{x})(1+\\sqrt{x})}+\\frac{\\sqrt{x}(\\sqrt{x}+1)(2 \\sqrt{x}-1)}{(1+\\sqrt{x})(x-\\sqrt{x}+1)}\\right) \\\\=\\left[\\frac{2 \\sqrt{x}-1}{\\sqrt{x}(1-\\sqrt{x})}\\right]:\\left[(2 \\sqrt{x}-1)\\left(\\frac{1}{1-\\sqrt{x}}+\\frac{\\sqrt{x}}{x-\\sqrt{x}+1}\\right)\\right] \\\\=\\left[\\frac{2 \\sqrt{x}-1}{\\sqrt{x}(1-\\sqrt{x})}\\right]:\\left[\\frac{2 \\sqrt{x}-1}{(1-\\sqrt{x})(x-\\sqrt{x}+1)}\\right] \\\\=\\frac{x-\\sqrt{x}+1}{\\sqrt{x}}\\end{array}\\]<br>Lại có :<br>\\[\\begin{array}{l}x=\\frac{4}{\\sqrt{10}}(\\sqrt{3+\\sqrt{5}}+\\sqrt{3-\\sqrt{5}}) \\\\=\\frac{|\\sqrt{5}+1|+|\\sqrt{5}-1|}{\\sqrt{2}} \\cdot \\frac{4}{\\sqrt{10}}=4\\end{array}\\]<br>Vậy %(P=\\frac{4-\\sqrt{4}+1}{\\sqrt{4}}=\\frac{3}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là các số thực thỏa mãn %(a^{2}+b^{2}+c^{2} \\leq 12)%.<br>Tìm giá trị lớn nhất của biểu thức %(S=4\\left(a^{3}+b^{3}+c^{3}\\right)-\\left(a^{4}+b^{4}+c^{4}\\right))%",
+        "question_images": [],
+        "solution": "Ta có<br>\\[\\begin{array}{l}S=4\\left(a^{3}+b^{3}+c^{3}\\right)-\\left(a^{4}+b^{4}+c^{4}\\right) \\\\=\\left(4 a^{3}-a^{4}\\right)+\\left(4 b^{3}-b^{4}\\right)+\\left(4 c^{3}-c^{4}\\right)\\end{array}\\]<br>Ta chứng minh : %(\\left(4 a^{3}-a^{4}\\right) \\leq 4 a^{2})%<br>thật vậy<br>\\[\\begin{array}{l}\\left(4 a^{3}-a^{4}\\right) \\leq 4 a^{2} \\\\Leftrightarrow a^{4}-4 a^{3}+4 a^{2} \\geq 0 \\\\Leftrightarrow a^{2}(a-2)^{2} \\geq 0\\end{array}\\]<br>Tương tự<br>\\[\\left(4 b^{3}-b^{4}\\right) \\leq 4 b^{2}\\]<br>\\[\\left(4 c^{3}-c^{4}\\right) \\leq 4 c^{2}\\]<br>Vậy ta có :<br>\\[\\begin{array}{l}S=4\\left(a^{3}+b^{3}+c^{3}\\right)-\\left(a^{4}+b^{4}+c^{4}\\right) \\\\=\\left(4 a^{3}-a^{4}\\right)+\\left(4 b^{3}-b^{4}\\right)+\\left(4 c^{3}-c^{4}\\right) \\\\leq 4\\left(a^{2}+b^{2}+c^{2}\\right) \\leq 48\\end{array}\\]<br>Vậy giá trị lớn nhất bằng 48 xảy ra khi %((a, b, c)=(2,2,2))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 3.0,
+        "content": "Giải phương trình : %(\\frac{x^{2}-4 x}{x-1}\\left(x+\\frac{x-4}{x-1}=5\\right))%",
+        "question_images": [],
+        "solution": "Điều kiện xác định %(x \\neq 1)%<br>Đặt %(y=\\frac{x(x-4)}{x-1})% suy ra %(x+\\frac{x-4}{x-1}=x-4+\\frac{x-4}{x-1}+4=y+4)%<br>Phương trình trở thành :<br>\\[\\begin{array}{l}y(y+4)=5 \\\\{\\left[\\begin{array}{l}y=1 \\y=-5\\end{array}\\right.}\\end{array}\\]<br>- Với %(y=1 \\Leftrightarrow\\left[\\begin{array}{l}x_{1}=\\frac{5+\\sqrt{21}}{2} \\\\ x_{2}=\\frac{5-\\sqrt{21}}{2}\\end{array}\\right.)%<br>- Với %(y=-5 \\Leftrightarrow\\left[\\begin{array}{l}x_{1}=\\frac{-1+\\sqrt{21}}{2} \\\\ x_{2}=\\frac{-1-\\sqrt{21}}{2}\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình : %(\\left\\{\\begin{array}{l}x^{2}+y^{2}+x y=1 \\\\ x^{3}+y^{3}=x+3 y\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Ta có<br>\\[\\begin{array}{l}x^{3}+y^{3}=(x+3 y) \\cdot 1 \\\\Leftrightarrow x^{3}+y^{3}=(x+3 y)\\left(x^{2}+y^{2}+x y\\right) \\\\Leftrightarrow 2 y^{3}+4 x y^{2}+4 x^{2} y=0 \\\\Leftrightarrow 2 y\\left(y^{2}+2 x y+2 x^{2}\\right)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}2 y=0 \\y^{2}+2 x y+x^{2}+x^{2}=0\\end{array}\\right.\\end{array}\\]<br>- Với %(y=0 \\Leftrightarrow x= \\pm 1)% suy ra hệ có nghiệm %(( \\pm 1 ; 0))%<br>- Với<br>\\[\\begin{array}{l}(x+y)^{2}+x^{2}=0 \\\\Leftrightarrow\\left\\{\\begin{array}{l}x=0 \\y=0\\end{array}\\right. \\text { thay vao khong thoa phuong trinh (1) }\\end{array}\\]<br>Vậy hệ có hai nghiệm %((-1 ; 0) ;(1 ; 0))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho tam giác ABC nội tiếp đường tròn %((O ; R), M)% là điểm chính giữa của cung %(B C)% không chứa điểm %(A)%. Vẽ đường tròn %((I))% đi qua %(M)% và tiếp xúc với %(A B)% tại %(B)%, vẽ đường tròn %((K))% đi qua %(M)% và tiếp xúc với %(A C)% tại %(C)%. Gọi %(N)% là giao điểm thứ hai của đường tròn %((I))% và %((K))%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 3.0,
+        "content": "a) Chứng minh rằng ba điểm %(B, N, C)% thẳng hàng",
+        "question_images": [],
+        "solution": "Xét (I) : %(B N M=M B x)% cùng chắn cung BM<br>Xét %((\\mathrm{K}))% : %(M N C=M C E)% cùng chắn cung MC<br>Do tứ giác %(A B M C)% nội tiếp (gt)<br>Suy ra: %(A B M+A C M=180^{\\circ})%Mà : %(M B x+M C E=180^{\\circ})%<br>Nên : %(B N M+C N M=180^{\\circ})% suy ra %(B, N, C)% thẳng hàng<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/92c430719c94b92c3adfb6abd9b7a37f.png\" srcset=\"https://docdn.giainhanh.io/media/test/3035c557d24cce8633988495bc83b67f.png 204w, https://docdn.giainhanh.io/media/test/dba972a75c5378eb9d871c11e4934dda.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Lấy %(D)% là điềm bất kỳ thuộc cạnh %(A B(D)% khác %(A)% và %(B))% điểm %(E)% thuộc tia đối của tia %(C A)% sao cho %(B D=C E)%. Chứng minh rằng đường tròn ngoại tiếp tam giác %(A D E)% luôn đi qua một điểm cố định khác %(A)%",
+        "question_images": [],
+        "solution": "Xét %(\\triangle B D M)% và %(\\triangle C E M)% có<br>\\[\\left\\{\\begin{array}{l}B D=C E(g t) \\D B M=E C M(A B M C \\text { nt }) \\Rightarrow \\triangle B D M=\\triangle C E M \\text { (c.g.c }) \\B M=M C(g t)\\end{array}\\right.\\]<br>%(\\Rightarrow B D M=C E M \\Rightarrow)% tứ giác %(A D M E)% nội tiếp<br>Do %(M)% cố định nên đường tròn ngoại tiếp tam giác %(A D E)% luôn đi qua điểm cố định là %(M)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 3.0,
+        "content": "Cho nửa đường tròn %((O ; R))% đường kính %(A B)%. Gọi %(M)% là điểm nằm trên nửa đường tròn khác %(A)% và %(B)%. Xác định vị trí điểm %(M)% sao cho tam giác %(M A B)% có chu vi lớn nhất",
+        "question_images": [],
+        "solution": "Ta có : %(A M B=90^{\\circ})%<br>Suy ra tam giác AMB vuông tại M<br>\\[M A^{2}+M B^{2}=A B^{2}=4 R^{2}(1)\\]<br>Chu vi tam giác MAB : %(M A+M B+A B=M A+M B+2 R)%<br>Chu vi lớn nhất khi : %(M A+M B)% lớn nhất<br>Lại có<br>\\[\\begin{array}{l}(M A+M B)^{2}=M A^{2}+2 M A \\cdot M B+M B^{2} \\\\=4 R^{2}+2 \\cdot M A \\cdot M B\\end{array}\\]<br>%(M A+M B)% lớn nhất %(\\Leftrightarrow(M A+M B)^{2})% lớn nhất %(\\Leftrightarrow M A \\cdot M B)% lớn nhất<br>Gọi H là chân đường cao hạ từ M đến AB khi đó%(M A \\cdot M B=M H \\cdot A B=M H .2 R)% do đó %(M A \\cdot M B)% lớn nhất khi MH lớn nhất %(M H=R \\Leftrightarrow H \\equiv O \\Leftrightarrow M)% là điểm chính giữa của cung %(A B)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1a29dbf42908ed0ec07ac70ae69f0d2a.png\" srcset=\"https://docdn.giainhanh.io/media/test/2d544d041254790a798442292ee60178.png 245w, https://docdn.giainhanh.io/media/test/f3680f27dbf0cb62d18ee46d04e48e83.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 3.0,
+        "content": "Tìm tất cả các số nguyên %(x, y)% thỏa phương trình %(2 x^{2}+y^{2}+x y=2(x+y))%",
+        "question_images": [],
+        "solution": "Phương trình đã cho tương đương với :<br>\\[2 x^{2}+(y-2) x+y^{2}-2 y=0\\]<br>Xem đây là phương trình bậc hai theo ẩn %(x)%<br>\\[\\Delta=(y-2)^{2}-8\\left(y^{2}-2 y\\right)=-7 y^{2}+12 y+4=(y-2)(-7 y-2)\\]<br>Để (1) có nghiệm thì %(\\Delta \\geq 0 \\Leftrightarrow \\frac{-2}{7} \\leq y \\leq 2)% do %(y \\in Z \\Leftrightarrow y \\in\\{0,1,2\\})%<br>- Với %(y=0 \\Rightarrow 2 x^{2}=2 x \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\\\ x=1\\end{array}\\right.)%<br>- Với %(y=1 \\Leftrightarrow 2 x^{2}-x-1=0 \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{-1}{2} \\\\ x=1\\end{array}\\right.)% (loai)<br>- Với %(y=2 \\Leftrightarrow 2 x^{2}=0 \\Leftrightarrow x=0)%<br>Vậy tập nghiệm của phương trình là %((0 ; 2) ;(1 ; 1) ;(1 ; 0) ;(0 ; 0))%",
+        "question_type": "essay"
+    }
+]

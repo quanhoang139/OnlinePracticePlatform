@@ -1,0 +1,111 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.5,
+        "content": "Cho ba số %(a, b, c)% thỏa mãn %(a+b+c=0)%. Chứng minh rằng %(a b+b c+c a \\leq 0)%",
+        "question_images": [],
+        "solution": "Có: %(a^{2}+b^{2} \\geq 2 a b ; a^{2}+c^{2} \\geq 2 a c ; b^{2}+c^{2} \\geq 2 a c)%<br>Cộng được: %(2 a^{2}+2 b^{2}+2 c^{2} \\geq 2 a b+2 a c+2 b c \\Leftrightarrow a^{2}+b^{2}+c^{2} \\geq a b+a c+b c)%<br>\\[a+b+c=0 \\Leftrightarrow a^{2}+b^{2}+c^{2}+2 a b+2 a c+2 b c=0 \\Leftrightarrow-a^{2}-b^{2}-c^{2}=2 a b+2 a c+2 b c\\]<br>Cộng (1) với (2) được %(3 a b+3 a c+3 b c \\leq 0 \\Leftrightarrow a b+b c+c a \\leq 0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 0.5,
+        "content": "Cho %(f(x)=a x^{2}+b x+c)% với %(a, b, c)% là các số thỏa mãn %(13 a+b+2 c=0)%<br>Chứng tỏ rằng %(f(-2) \\cdot f(3) \\leq 0)%",
+        "question_images": [],
+        "solution": "%(f(-2)=4 a-2 b+c ; f(3)=9 a+3 b+c)%<br>Có %(f(-2)+f(3)=13 a+b+2 c=0)% nên:<br>Hoặc: %(f(-2)=0)% và %(f(3)=0 \\Rightarrow f(-2) \\cdot f(3)=0)% (1)<br>Hoặc: %(f(-2))% và %(f(3))% là hai số đối nhau %(\\Rightarrow f(-2) \\cdot f(3)\\lt 0(2))%<br>Từ (1) và (2)được %(f(-2) \\cdot f(3) \\leq 0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Tìm giá trị nhỏ nhất của biểu thức %(M=x^{2}+y^{2}-x y-x+y+1)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { c) } 4 M=4 x^{2}+4 y^{2}-4 x y-4 x+4 y+4 \\\\=(2 x-y-1)^{2}+3 y^{2}+2 y+3 \\\\=(2 x-y-1)^{2}+3\\left(y^{2}+\\frac{2}{3} y+\\frac{1}{9}\\right)+\\frac{8}{3} \\\\=(2 x-y-1)^{2}+3\\left(y+\\frac{1}{3}\\right)^{2}+\\frac{8}{3} \\\\text { Giá trị nhỏ nhất của } 4 M \\text { là } \\frac{8}{3} \\Leftrightarrow\\left\\{\\begin{array}{l}y=-\\frac{1}{3} \\x=\\frac{2}{3}\\end{array}\\right. \\text { nên }\\end{array}\\]<br>Giá trị nhỏ nhất của %(4 M)% là %(\\frac{8}{3} \\Leftrightarrow\\left\\{\\begin{array}{l}y=-\\frac{1}{3} \\\\ x=\\frac{2}{3}\\end{array}\\right.)% nên<br>Giá trị nhỏ nhất của %(M)% là %(\\frac{2}{3} \\Leftrightarrow\\left\\{\\begin{array}{l}x=\\frac{2}{3} \\\\ y=\\frac{-1}{3}\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Giải các phương trình sau:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "%(\\frac{x-1}{2013}+\\frac{x-2}{2012}-\\frac{x-3}{2011}=\\frac{x-4}{2010})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\Leftrightarrow \\frac{x-1}{2013}-1+\\frac{x-2}{2012}-1=\\frac{x-4}{2010}-1+\\frac{x-3}{2011}-1 \\\\ \\Leftrightarrow \\frac{x-2014}{2013}+\\frac{x-2014}{2012}=\\frac{x-2014}{2010}+\\frac{x-2014}{2011} \\\\ \\Leftrightarrow(x-2014)\\left(\\frac{1}{2013}+\\frac{1}{2012}-\\frac{1}{2010}-\\frac{1}{2011}\\right)=0 \\\\ \\Leftrightarrow x=2014\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %((2 x-5)^{3}-(x-2)^{3}=(x-3)^{3})%",
+        "question_images": [],
+        "solution": "Đặt %(2 x-5=a ; \\quad x-2=b \\Rightarrow a-b=x-3)%<br>Phương trình đã cho trở thành: %(a^{3}-b^{3}=(a-b)^{3})%<br>\\[\\begin{array}{l}\\Leftrightarrow(a-b)\\left(a^{2}+a b+b^{2}\\right)=(a-b)\\left(a^{2}-2 a b+b^{2}\\right) \\\\Leftrightarrow(a-b)\\left(a^{2}+a b+b^{2}-a^{2}+2 a b-b^{2}\\right)=0 \\\\Leftrightarrow 3 a b(a-b)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}a=0 \\Rightarrow x=\\frac{5}{2} \\b=0 \\Rightarrow x=2 \\a=b \\Rightarrow x=3\\end{array}\\right.\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho hình vuông ABCD. M là một điểm tùy ý trên đường chéo BD. Hạ ME vuông góc với AB, MF vuông góc với AD",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(D E \\perp C F)%",
+        "question_images": [],
+        "solution": "Chứng tỏ được %(A E=D F)% (cùng bằng MF )<br>Chứng tỏ được %(\\triangle C D F=\\triangle D A E \\Rightarrow \\widehat{F C D}=\\widehat{E D A})%<br>Có: %(\\widehat{E D A})% và %(\\widehat{E D C})% phụ nhau %(\\Rightarrow \\widehat{E C D})% và %(\\widehat{E D A})% phụ nhau hay %(C F \\perp D E)%<img alt=\"MĐ 9387 c5a.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9c54fd40810c2a0548b6a42362551268.png\" srcset=\"https://docdn.giainhanh.io/media/test/2ab1b519198ec575ab96c804a3697839.png 158w,https://docdn.giainhanh.io/media/test/7f70a82f95a60bde900f697360577307.png 500w,https://docdn.giainhanh.io/media/test/237e5ad86c9d96aee3250af054209fd0.png 750w,https://docdn.giainhanh.io/media/test/c816a64be3d54065533a4cfbe991e370.png 1000w,\" width=\"1000px\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh ba đường thẳng %(D E, B F, C M)% đồng quy",
+        "question_images": [],
+        "solution": "Tương tự có %(C E \\perp B F)%Chứng minh được %(C M \\perp E F)%Gọi G là giao điểm của %(F M)% và %(B C)%; %(H)% là giao điểm của %(C M)% và EF .%(\\widehat{M C G}=\\widehat{E F M})% (hai HCN bằng nhau)<br>\\[\\widehat{C M G}=\\widehat{F M H} \\text { } \\Rightarrow \\widehat{M H F}=\\widehat{M G C}=90^{\\circ}\\]<br>%(C M, F B, E D)% là ba đường cao của %(\\triangle C E F)% nên chúng đồng quy",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Xác định vị trí điểm M trên BD để diện tích tứ giác %(A E M F)% lớn nhất",
+        "question_images": [],
+        "solution": "%((A E-M E)^{2} \\geq)% onên %((A E+M E)^{2} \\geq 4 A E . M E \\Leftrightarrow A E . M E \\leq \\frac{(A E+M E)^{2}}{4})%<br>%(\\Leftrightarrow S_{A E M F} \\leq \\frac{A B^{2}}{4})%.<br>Mà AB là hằng số nên %(S_{A E M F})% lớn nhất %(\\Leftrightarrow A E=M E)%<br>Lúc đó M là trung điểm của BD",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình bình hành %(A B C D(A C\\gt B D))%. Gọi %(\\mathrm{G}, \\mathrm{H})% lần lượt là hình chiếu của C lên AB và %(A D)%. Chứng minh",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(\\triangle A B C \\sim \\triangle H C G)%",
+        "question_images": [],
+        "solution": "Chứng tỏ được %(\\triangle C B G \\sim \\triangle C D H \\Rightarrow \\frac{C G}{C H}=\\frac{B C}{D C}=\\frac{B C}{B A})%<br><img alt=\"MĐ 9387 6a.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f07338d2eef7357b19d35f50560911b4.png\" srcset=\"https://docdn.giainhanh.io/media/test/0747e4cbc3b60a56fe963f0bd8a9e314.png 202w,https://docdn.giainhanh.io/media/test/a28b7daf40e17d37cefc1561c21e8a01.png 500w,https://docdn.giainhanh.io/media/test/1d8109a75519ee8a4b785ed351a5b022.png 750w,https://docdn.giainhanh.io/media/test/a5fdb913908b44fe7b7f88fddb55a373.png 1000w,\" width=\"1000px\"/>Và %(\\widehat{A B C}=\\widehat{H C G})% (cùng bù với %(\\widehat{B A D}) \\Rightarrow \\triangle A B C \\sim \\triangle H C G)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(A C^{2}=A B \\cdot A G+A D \\cdot A H)%",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{E}, \\mathrm{F})% lần lượt là hình chiếu của %(\\mathrm{B}, \\mathrm{D})% trên AC .<br>%(\\begin{array}{l}\\triangle A F D \\sim \\triangle A H C \\Rightarrow \\frac{A F}{A H}=\\frac{A D}{A C} \\Rightarrow A F . A C=A D \\cdot A H \\\\ \\triangle A E B \\sim \\triangle A G C \\Rightarrow \\frac{A E}{A G}=\\frac{A B}{A C} \\Rightarrow A E . A C=A G \\cdot A B\\end{array})%<br>Cộng được: %(A F \\cdot A C+A E . A C=A D \\cdot A H+A G \\cdot A B)%<br>%(\\Leftrightarrow A C \\cdot(A F+A E)=A D \\cdot A H+A G \\cdot A B)%<br>Chứng tỏ được: %(A E=F C)%. Thay được:<br>\\[A C \\cdot(A F+F C)=A D \\cdot A H+A G \\cdot A B \\Rightarrow A C^{2}=A D \\cdot A H+A G \\cdot A B\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng với mọi số %(n)% nguyên dương thì: %(5^{n}\\left(5^{n}+1\\right)-6^{n}\\left(3^{n}+2^{n}\\right)\\vdots 91)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}A=5^{n}\\left(5^{n}+1\\right)-6^{n}\\left(3^{n}+2^{n}\\right)=25^{n}+5^{n}-18^{n}-12^{n} \\A=\\left(25^{n}-18^{n}\\right)-\\left(12^{n}-5^{n}\\right) \\cdot A \\vdots 7 \\A=\\left(25^{n}-12^{n}\\right)-\\left(18^{n}-5^{n}\\right) \\cdot A \\vdots 13\\end{array}\\]<br>Do %((13,7)=)% nên %(A)% chia hết cho 91",
+        "question_type": "essay"
+    }
+]

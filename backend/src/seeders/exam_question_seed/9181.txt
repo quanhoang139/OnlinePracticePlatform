@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Cho %(a, b\\gt 0)% thỏa mãn %(\\frac{1}{a}+\\frac{1}{b}=\\frac{1}{2018})%.<br>Chứng minh rằng %(\\sqrt{a+b}=\\sqrt{a-2018}+\\sqrt{b-2018})%.",
+        "question_images": [],
+        "solution": "Từ giả thiết<br>\\[\\begin{array}{l}\\frac{1}{a}+\\frac{1}{b}=\\frac{1}{2018} \\Rightarrow 2018=\\frac{a b}{a+b} \\Rightarrow \\sqrt{a-2018}+\\sqrt{b-2018}=\\sqrt{a-\\frac{a b}{a+b}}+\\sqrt{b-\\frac{a b}{a+b}} \\\\=\\frac{a}{\\sqrt{a+b}}+\\frac{b}{\\sqrt{a+b}}=\\frac{a+b}{\\sqrt{a+b}}=\\sqrt{a+b} \\quad(\\text { Vì } a, b\\gt 0) .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho %(a)% là nghiệm dương của phương trình %(6 x^{2}+\\sqrt{3} x-\\sqrt{3}=0)%.Tính giá trị của biểu thức %(A=\\frac{a+2}{\\sqrt{a^{4}+a+2}-a^{2}})%.",
+        "question_images": [],
+        "solution": "Ta có %(a)% là nghiệm dương cùa phương trình %(6 x^{2}+\\sqrt{3} x-\\sqrt{3}=0)% nên<br>\\[\\begin{array}{l}6 a^{2}+\\sqrt{3} a-\\sqrt{3}=0 \\\\Rightarrow a=\\frac{\\sqrt{3}-6 a^{2}}{\\sqrt{3}}=1-2 \\sqrt{3} a^{2}\\gt 0 \\Rightarrow a^{2}\\lt \\frac{1}{2 \\sqrt{3}}\\lt \\sqrt{3} \\Leftrightarrow a^{2}-\\sqrt{3}\\lt 0 \\text {. }\\end{array}\\]<br>Do đó %(A=\\frac{a+2}{\\sqrt{a^{4}+a+2}-a^{2}}=\\frac{(a+2) \\cdot\\left(\\sqrt{a^{4}+a+2}+a^{2}\\right)}{a^{4}+a+2-a^{4}}=\\sqrt{a^{4}+1-2 \\sqrt{3} a^{2}+2}+a^{2})%<br>\\[=\\sqrt{\\left(a^{2}-\\sqrt{3}\\right)^{2}}+a^{2}=\\left|a^{2}-\\sqrt{3}\\right|+a^{2}=\\sqrt{3}-a^{2}+a^{2}=\\sqrt{3} .\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải phương trình %((1-\\sqrt{1-x}) \\sqrt[3]{2-x}=x)%",
+        "question_images": [],
+        "solution": "Giải phương trình %((1-\\sqrt{1-x}) \\sqrt[3]{2-x}=x)%. ĐK: %(x \\leq 1)%<br>\\[\\begin{array}{l}(1-\\sqrt{1-x}) \\sqrt[3]{2-x}=x \\Leftrightarrow x \\cdot \\sqrt[3]{2-x}=x(1+\\sqrt{1-x}) \\Leftrightarrow x(\\sqrt[3]{2-x}-1-\\sqrt{1-x})=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x=0 \\\\sqrt[3]{2-x}=1+\\sqrt{1-x}\\end{array}\\right.\\end{array}\\]<br>Xét phương trình %(\\sqrt[3]{2-x}=1+\\sqrt{1-x})%.<br>\\[\\begin{array}{l}\\text { Đặt }\\left\\{\\begin{array} { l } { \\sqrt [ 3 ] { 2 - x } = a } \\\\{ \\sqrt { 1 - x } = b }\\end{array} \\Rightarrow \\left\\{\\begin{array} { l } { a = b + 1 } \\\\{ a ^ { 3 } - b ^ { 2 } = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { a = b + 1 } \\\\{ b ^ { 3 } + 3 b ^ { 2 } + 3 b + 1 - b ^ { 2 } = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}a=b+1 \\b^{3}+2 b^{2}+3 b=0\\end{array}\\right.\\right.\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}a=1 \\b=0\\end{array} \\Rightarrow x=1 .\\right.\\end{array}\\]<br>Đối chiếu ĐKXĐ ta có: %(x \\in\\{0 ; 1\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tìm các cặp số nguyên %((x ; y))% thỏa mãn %((x-2018)^{2}=y^{4}-6 y^{3}+11 y^{2}-6 y)%",
+        "question_images": [],
+        "solution": "%((x-2018)^{2}=y^{4}-6 y^{3}+11 y^{2}-6 y \\Leftrightarrow(x-2018)^{2}+1=\\left(y^{2}-3 y+1\\right)^{2})%<br>\\[\\Leftrightarrow(x-2018)^{2}-\\left(y^{2}-3 y+1\\right)^{2}=1 \\Leftrightarrow\\left(y^{2}-3 y-x+2019\\right)\\left(y^{2}-3 y+x-2017\\right)=1\\]<br>Vì cặp %(x ; y)% nguyên nên:<br>TH1: %(\\left\\{\\begin{array}{l}y^{2}-3 y-x+2019=1 \\\\ y^{2}-3 y+x-2017=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=2018 \\\\ y^{2}-3 y=0\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=2018 ; y=0 \\\\ x=2018 ; y=3\\end{array}\\right.\\right.\\right.)%.<br>TH2: %(\\left\\{\\begin{array}{l}y^{2}-3 y-x+2019=-1 \\\\ y^{2}-3 y+x-2017=-1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=2018 \\\\ y^{2}-3 y+2=0\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=2018 ; y=1 \\\\ x=2018 ; y=2\\end{array}\\right.\\right.\\right.)%<br>Vậy phương trình có các nghiệm %((x ; y) \\in\\{(2018 ; 0),(2018 ; 1),(2018 ; 2),(2018 ; 3)\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}\\sqrt{2 x+1}+\\sqrt{2 y+1}=\\frac{(x-y)^{2}}{2} \\\\ (3 x+2 y)(y+1)=4-x^{2}\\end{array}\\right.)%(1)",
+        "question_images": [],
+        "solution": "ĐKXĐ: %(x, y \\geq-\\frac{1}{2})%.<br>Từ %((3 x+2 y)(y+1)=4-x^{2})%%(\\Leftrightarrow(x+2 y+4)(x+y-1)=0)%.<br>Vì %(x, y \\geq-\\frac{1}{2} \\Rightarrow x+2 y-4\\gt 0)%, do đó:<br>\\[x+y-1=0 \\Leftrightarrow y=1-x\\]<br>Thay vào phương trình (1) ta được: %(\\sqrt{2 x+1}+\\sqrt{3-2 x}=\\frac{4 x^{2}-4 x+1}{2})%<br>\\[\\left(-\\frac{1}{2} \\leq x \\leq \\frac{3}{2}\\right)\\]<br>Đặt %(\\sqrt{2 x+1}+\\sqrt{3-2 x}=t,(2) \\Leftrightarrow t=-\\frac{t^{4}-8 t^{2}}{8} \\Leftrightarrow t(t-2)\\left(t^{2}+2 t-4\\right)=0)%<br>\\[\\Rightarrow\\left[\\begin{array}{l}t=2 \\t=\\sqrt{5}-1\\end{array} \\quad(\\text { Vì } t\\gt 0)\\right.\\]<br>TH1: %(t=2 \\Rightarrow \\sqrt{(2 x+1)(3-2 x)}=0 \\Rightarrow\\left[\\begin{array}{l}x=-\\frac{1}{2} ; y=\\frac{3}{2} \\\\ x=\\frac{3}{2} ; y=-\\frac{1}{2}\\end{array}\\right.)% (thỏa mãn điều kiện xác định)<br>%(\\mathrm{TH} 2: t=\\sqrt{5}-1 \\Rightarrow \\sqrt{(2 x+1)(3-2 x)}=1-\\sqrt{5}\\lt 0)% (vô lí).<br>Vậy phương trình có nghiệm: %((x ; y) \\in\\left\\{\\left(-\\frac{1}{2} ; \\frac{3}{2}\\right),\\left(\\frac{3}{2} ;-\\frac{1}{2}\\right)\\right\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho %(x, y, z\\gt 0)% thỏa mãn %(2 \\sqrt{y}+\\sqrt{z}=\\frac{1}{\\sqrt{x}})%. Chứng minh rằng %(\\frac{3 y z}{x}+\\frac{4 z x}{y}+\\frac{5 x y}{z} \\geq 4)%",
+        "question_images": [],
+        "solution": "Áp dụng bất đẳng thức CauChy ta có<br>\\[\\begin{array}{l}\\frac{3 y z}{x}+\\frac{4 z x}{y}+\\frac{5 x y}{z}=\\left(\\frac{y z}{x}+\\frac{z x}{y}\\right)+2\\left(\\frac{z y}{x}+\\frac{x y}{z}\\right)+3\\left(\\frac{z x}{y}+\\frac{x y}{z}\\right) \\geq 2 z+4 y+6 x \\\\=4(x+y)+2(z+x) \\geq 8 \\sqrt{x y}+4 \\sqrt{x z}=4 \\sqrt{x}(2 \\sqrt{y}+\\sqrt{z})=4 \\sqrt{x} \\cdot \\frac{1}{\\sqrt{x}}=4 .\\end{array}\\]<br>Dấu bằng xảy ra khi và chỉ khi %(x=y=z=\\frac{1}{3})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho đường tròn %((O ; R))% và điểm %(A)% cố định với %(O A=2 R)%, đường kính %(B C)% quay quanh %(O)% sao cho tam giác %(A B C)% là tam giác nhọn. Đường tròn ngoại tiếp tam giác %(A B C)% cắt đường thẳng %(O A)% tại điểm thứ hai là %(I)%. Các đường thẳng %(A B, A C)% cắt đường tròn %((O))% lần lượt tại điểm thứ hai là %(D)% và %(E)%. Goi K là giao điểm của %(D E)% và %(A O)%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh rằng %(A K . A I=A E . A C)%.",
+        "question_images": [],
+        "solution": "Ta có tứ giác %(B C E D)% nội tiếp<br>%(\\Rightarrow \\widehat{A B C}+\\widehat{D E C}=180^{\\circ} \\Rightarrow \\widehat{A E K}=\\widehat{A B C})% ( cùng bù %(\\widehat{D E C})% ).<br>Mặt khác %(\\widehat{A B C}=\\widehat{A I C})% (hai góc nội tiếp cùng chắn cung %(A C)% );<br>suy ra %(\\widehat{A E K}=\\widehat{A I C})% (bắc cầu)<br>Xét %(\\triangle A E K)% và %(\\triangle A I C)% có %(: \\widehat{A E K}=\\widehat{A I C})% và %(\\widehat{E A K})% chung<br>nên %(\\triangle A E K \\sim \\triangle A I C(\\mathrm{~g} . \\mathrm{g}))%<br>\\[\\Rightarrow \\frac{A E}{A I}=\\frac{A K}{A C} \\Rightarrow A E \\cdot A C=A K \\cdot A I\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f56c3b1967bcf9c7d33a901ba222e004.png\" srcset=\"https://docdn.giainhanh.io/media/test/bf02588623bde234e365d2bdcc8cd08e.png 188w, https://docdn.giainhanh.io/media/test/69ae57b591cd2c2ddef677cce65103aa.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tính độ dài cùa đoạn %(A K)% theo %(R)%.",
+        "question_images": [],
+        "solution": "Xét %(\\triangle A O B)% và %(\\triangle C O I)% có :<br>%(\\widehat{A O B}=\\widehat{C O I})% (đối đỉnh) và %(\\widehat{B A O}=\\widehat{I C O})% (hai góc nội tiếp cùng chắn cung %(B I)% )<br>nên %(\\triangle A O B \\sim \\triangle C O I(\\mathrm{~g} . \\mathrm{g}))%<br>\\[\\Rightarrow \\frac{O A}{O C}=\\frac{O B}{O I} \\Rightarrow O I=\\frac{O B \\cdot O B}{O A}=\\frac{R}{2} \\Rightarrow A I=\\frac{5}{2} R\\]<br>Kẻ tiếp tuyến %(A N)% với đường tròn %((O))%, dễ dàng chứng minh được %(\\triangle A N E \\sim \\triangle A C N(\\mathrm{~g} g)% )<br>\\[\\Rightarrow A E \\cdot A C=A N^{2}=A O^{2}-O N^{2}=3 R^{2} \\text {. }\\]<br>Mà theo câu (a) : %(A E \\cdot A C=A K \\cdot A I \\Rightarrow A K \\cdot \\frac{5}{2} R=3 R^{2} \\Rightarrow A K=\\frac{6}{5} R)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Chứng minh rằng tâm đường tròn ngoại tiếp %(\\triangle A D E)% luôn thuộc một đường thẳng cố định.",
+        "question_images": [],
+        "solution": "Goi %(F)% là giao điểm của đường tròn ngoại tiếp %(\\triangle A D E)% với %(O A)%, ta có<br>%(\\widehat{A F D}=\\widehat{A E D})% mà %(\\widehat{A E K}=\\widehat{A B C})% (câu a)<br>nên %(\\widehat{A F D}=\\widehat{A B C})% nên tứ giác %(B D F O)% nội tiếp đường tròn.<br>Dễ dàng chứng minh được %(\\triangle A D F \\sim \\triangle A O B(\\mathrm{~g} g) \\Rightarrow A D . A B=A F . A O)%; và ta cũng chứng minh được %(A D \\cdot A B=A N^{2} \\Rightarrow A F \\cdot A O=A N^{2} \\Rightarrow A F=\\frac{3}{2} R)% không đổi,<br>mà %(A)% cố định nên F cố định suy ra %(A F)% cố định.<br>Vậy tâm đường tròn ngoại tiếp %(\\triangle A D E)% thuộc đường trung trực cùa đoạn %(A F)% cố định.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Từ 625 số tự nhiên liên tiếp %(1,2,3, \\ldots, 625)% chon ra 311 số sao cho không có hai số nào có tổng bằng 625 . Chứng minh rằng trong 311 số được chon, bao giờ cũng có ít nhất một số chính phương.",
+        "question_images": [],
+        "solution": "Ta phân chia 625 số tự nhiên đã cho thành 311 nhóm như sau:<br>+) nhóm thứ 1 gồm năm số chính phương %(\\{49 ; 225 ; 400 ; 576 ; 625\\})%<br>+) 310 nhóm còn lại mỗi nhóm gồm hai số có tổng bằng 625 (không chứa các số của nhóm 1).<br>Nếu trong 311 số được chon không có số nào thuộc nhóm thứ 1 , thì 311 số này thuộc các nhóm còn lại. Theo nguyên tắc Dirichle phải có ít nhất hai số thuộc cùng một nhóm. Hai số này có tổng bằng 625 (vô lí). Vậy chắc chắn trong 311 số được chon phải có ít nhất một số thuộc nhóm thứ 1 . Số này là số chính phương.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1.1 ",
+        "point": 1.0,
+        "content": "Cho các số thực %(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})% thỏa mãn %(x^{2}-y z=y^{2}-z x=z^{2}-x y=1012)%. Tính giá trị của biểu thức %(A=x^{2}+y^{2}+z^{2})%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}x^{2}-y z=y^{2}-z x=z^{2}-x y=1012 \\\\ x^{2}-y z=y^{2}-z x \\\\ \\Leftrightarrow\\left(x^{2}-y^{2}\\right)+(2 x-y z)=0 \\\\ \\Leftrightarrow(x-y)(x+y+z)=0\\end{array})%<br>%(\\Leftrightarrow\\left[\\begin{array}{l}x=y \\x+y+z=0\\end{array}\\right. )%<br>Tương tự ta có %(\\left[\\begin{array}{l}y=z \\\\ z=x \\\\ x+y+z=0\\end{array}\\right.)%<br>Do đó %(\\left[\\begin{array}{l}x=y \\\\ y=z \\\\ z=x \\\\ x+y+z=0\\end{array}\\right.)%<br>Xét trường hợp %(\\mathrm{x}=\\mathrm{y})% (trường hợp %(\\mathrm{y}=\\mathrm{z}, \\mathrm{z}=\\mathrm{x})% thực hiện tương tự), thay vào %(\\mathrm{gt})% ta được<br>\\[\\begin{array}{l}x^{2}-x z=x^{2}-z x=z^{2}-x^{2}=1012 \\\\Rightarrow x^{2}-z x=z^{2}-x^{2}=1012 \\\\Rightarrow x(x-z)+(x-z)(x+z)=0 \\\\Leftrightarrow(2 x+z)(x-z)=0\\end{array}\\]<br>\\[\\begin{array}{l}\\Leftrightarrow\\left[\\begin{array} { l } { z = x } \\\\{ z = - 2 x }\\end{array} \\Rightarrow \\left[\\begin{array} { l } { z = x = y } \\\\{ z = - 2 x = - 2 y }\\end{array} \\Rightarrow \\left[\\begin{array}{l}x^{2}-y z=0 \\neq 1012 \\z^{2}-x y=\\frac{3 z^{2}}{4}=1012 \\Leftrightarrow z^{2}=\\frac{4048}{3}\\end{array}\\right.\\right.\\right. \\\\Rightarrow x^{2}=y^{2}=\\frac{z^{2}}{4}=\\frac{1012}{3} \\\\Rightarrow P=x^{2}+y^{2}+z^{2}=2024 \\\\end{array}\\]<br>Xét trường hợp %(\\mathrm{x}+\\mathrm{y}+\\mathrm{z}=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow\\left\\{\\begin{array}{l}x^{2}+y^{2}+z^{2}+2(x y+y z+z x)=0 \\x^{2}+y^{2}+z^{2}-(x y+y z+z x)=1012.3\\end{array}\\right. \\\\Rightarrow 3\\left(x^{2}+y^{2}+z^{2}\\right)=6072 \\Leftrightarrow P=2024\\end{array}\\]<br>Vậy %(\\mathrm{P}=2024)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.2 ",
+        "point": 1.0,
+        "content": "Cho các số thực %(\\mathrm{x}, \\mathrm{y}, \\mathrm{a}, \\mathrm{b})% với %(a \\neq 0, b \\neq 0, a+b \\neq 0)% thỏa mãn điều kiện %(x^{2}+y^{2}=1)% và %(\\frac{x^{4}}{a}+\\frac{y^{4}}{b}=\\frac{1}{a+b})%. Chứng minh rằng %(\\frac{x^{2024}}{a^{1011}}+\\frac{y^{2024}}{b^{1011}}=\\frac{1}{(a+b)^{1011}})%",
+        "question_images": [],
+        "solution": "Từ gt ta có %((a+b)\\left(\\frac{x^{4}}{a}+\\frac{y^{4}}{b}\\right)=1=\\left(x^{2}+y^{2}\\right)^{2})%<br>\\[\\begin{array}{l}\\Leftrightarrow x^{4}+\\frac{b x^{4}}{a}+y^{4}+\\frac{a y^{4}}{b}=x^{4}+2 x^{2} y^{2}+y^{4} \\\\Leftrightarrow b^{2} x^{4}+a^{2} y^{4}=2 b x^{2} a y^{2} \\\\Leftrightarrow\\left(b x^{2}-a y^{2}\\right)=0\\end{array}\\]<br>\\[\\begin{array}{l}\\Leftrightarrow b x^{2}=a y^{2} \\\\Leftrightarrow \\frac{x^{2}}{a}=\\frac{y^{2}}{b}=\\frac{x^{2}+y^{2}}{a+b}=\\frac{1}{a+b} \\\\Leftrightarrow x^{2}=\\frac{a}{a+b} ; y^{2}=\\frac{b}{a+b}\\end{array}\\]<br>Do đó:<br>\\[\\frac{x^{2024}}{a^{1011}}+\\frac{y^{2024}}{b^{1011}}=\\frac{a^{1012}}{a^{1011} \\cdot(a+b)^{1012}}+\\frac{b^{1012}}{b^{1011}(a+b)^{1012}}=\\frac{1}{(a+b)^{1011}}\\]<br>Vậy<br>\\[\\frac{x^{2124}}{a^{1011}}+\\frac{y^{2024}}{b^{1011}}=\\frac{1}{(a+b)^{(011}}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.1 ",
+        "point": 1.0,
+        "content": "Giải phương trình %(x^{2}+x-2-(x+6) \\sqrt{x+1}=0)%",
+        "question_images": [],
+        "solution": "%(x^{2}+x-2-(x+6) \\sqrt{x+1}=0 \\quad(x \\geq-1))%<br>Đặt %(a=\\sqrt{x+1}(a \\geq 0) \\Rightarrow x=a^{2}-1)%<br>Ta có pt: %(\\left(a^{2}-1\\right)^{2}+\\left(a^{2}-1\\right)-2=\\left(a^{2}+5\\right) a)%<br>\\[\\begin{array}{l}\\Leftrightarrow a^{4}-a^{3}-a^{2}-5 a-2=0 \\\\Leftrightarrow\\left(a^{2}-2 a-1\\right)\\left(a^{2}+a+2\\right)=0 \\\\Leftrightarrow a^{2}-2 a-1=0\\left(\\text { do } a^{2}+a+2\\gt 0\\right) \\\\Leftrightarrow a=\\sqrt{2}+1(\\text { do } a \\geq 0)\\end{array}\\]<br>Với %(a=\\sqrt{2}+1)% thì %(x=a^{2}-1=2 \\sqrt{2}+2)%<br>Thử lại thấy thỏa mãn.<br>Vậy phương trình có nghiệm %(x=2 \\sqrt{2}+2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.2 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x^{3}+8 y=1+4 x y^{2} \\\\ 2 x^{4}+8 y^{4}=2 x+y\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}x^{3}+8 y=1+4 x y^{2}(1) \\\\ 2 x^{4}+8 y^{4}=2 x+y(2)\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x^{3}+8 y-4 x y^{2}=1 \\\\ 2 x^{4}+8 y^{4}=2 x+y \\cdot 1=(2 x+y) \\cdot\\left(x^{3}+8 y-4 x y^{2}\\right)(3)\\end{array}\\right.\\right.)%<br>Giải (3): %(2 x^{4}+8 y^{4}=2 x+y \\cdot 1=(2 x+y) \\cdot\\left(x^{3}+8 y-4 x y^{2}\\right))%<br>%(\\begin{array}{l}\\Leftrightarrow x y \\cdot\\left(x^{2}-8 x y+12 y^{2}\\right)=0 \\\\Leftrightarrow x y(x-6 y)(x-2 y)=0\\end{array})%<br>%(\\Leftrightarrow\\left[\\begin{array}{l}x=0 \\y=0 \\x=6 y \\x=2 y\\end{array}\\right.)%<br>+ Xét %(\\mathrm{x}=0 \\Rightarrow y=\\frac{1}{2})%<br>+ Xét %(\\mathrm{y}=0 \\Rightarrow x=1)%<br>+ Xét %(\\mathrm{x}=6 \\mathrm{y})% ta có hệ %(\\left\\{\\begin{array}{l}200 y^{3}=1 \\\\ 2600 y^{4}=13 y\\end{array} \\Leftrightarrow y=\\frac{1}{\\sqrt[3]{200}} \\Rightarrow x=\\frac{6}{\\sqrt[3]{200}}\\right.)%<br>+ Xét %(\\mathrm{x}=2 \\mathrm{y})% ta được %(\\left\\{\\begin{array}{l}8 y^{3}=1 \\\\ 40 y^{4}=5 y\\end{array} \\Leftrightarrow y=\\frac{1}{2} \\Rightarrow x=2 y=1\\right.)%<br>Thử lại ta thấy 4 cặp giá trị %((\\mathrm{x}, \\mathrm{y}))% đều thỏa mãn hệ.<br>Vậy hệ phương trình có nghiệm %((x, y) \\in\\left\\{\\left(0, \\frac{1}{2}\\right) ;\\left(1, \\frac{1}{2}\\right) ;(1,0) ;\\left(\\frac{1}{\\sqrt[3]{200}}, \\frac{6}{\\sqrt[3]{200}}\\right)\\right\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.1 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các cặp số nguyên %((\\mathrm{x} ; \\mathrm{y}))% thỏa mãn %(x^{2}\\left(x^{2}+7\\right)=(2 x+y+2)(y+2))%.",
+        "question_images": [],
+        "solution": "%(x^{2}\\left(x^{2}+7\\right)=(2 x+y+2)(y+2))%<br>Đặt %(\\mathrm{a}=\\mathrm{y}+2)% ta được<br>\\[\\begin{array}{l}x^{2}\\left(x^{2}+7\\right)=(2 x+a) a \\\\Leftrightarrow\\left(x^{4}+8 x^{2}+16\\right)-\\left(x^{2}+2 a x+a^{2}\\right)=16 \\\\Leftrightarrow\\left(x^{2}+4\\right)^{2}-(x+a)^{2}=16 \\\\Leftrightarrow\\left(x^{2}+4+x+a\\right)\\left(x^{2}+4-x-a\\right)=16\\end{array}\\]<br>Vì %(x, y \\in Z \\Rightarrow x^{2}, a \\in Z)% và %(\\left(x^{2}+4+x+a\\right)\\left(x^{2}+4-x-a\\right)=2 x^{2}+8)% chẵn và %(\\geq 8)% %(\\left(x^{2}+4+x+a\\right),\\left(x^{2}+4-x-a\\right))% cùng dấu nên 16 chỉ có thể tách thành %(4.4 ; 8.2 ; 2.8)%<br>Do đó: %(\\left\\{\\begin{array}{l}x^{2}+4+x+a=4,8,2 \\\\ x^{2}+4-x-a=4,2,8\\end{array}\\right.)%<br>Vậy %((x, y) \\in\\{(0 ;-2) ;(1 ; 0) ;(-1 ; 2) ;(1 ; -6) ;(-1 ;-4)\\})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f63d73f37e8b9de81e497ba6de341812.png\" srcset=\"https://docdn.giainhanh.io/media/test/09ebb99d0e80a3db5d5f0c623a1bf7fc.png 245w, https://docdn.giainhanh.io/media/test/0d01ec2140a2ad7b442eb0d8c425c878.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.2 ",
+        "point": 1.0,
+        "content": "Cho %(\\mathrm{a})%, %(\\mathrm{b})% là các số nguyên, chứng minh rằng %(F=a^{5}(b+5)-a\\left(b^{5}+5\\right))% chia hết cho 30 .",
+        "question_images": [],
+        "solution": "\\[\\quad F=a^{5}(b+5)-a\\left(b^{5}+5\\right) \\]<br>\\[\\begin{array}{l}=b\\left(a^{5}-a\\right)-a\\left(b^{5}-b\\right)+5\\left(a^{5}-a\\right) \\\\=(b+5)\\left(a^{5}-a\\right)+a\\left(b^{5}-b\\right) ; a, b \\in Z\\end{array}\\]<br>Ta có: %(a^{5}-a=a\\left(a^{4}-1\\right)=a\\left(a^{2}-1\\right)\\left(a^{2}+1\\right)=(a-1) a(a+1)\\left(a^{2}-4+5\\right))%<br>\\[=(a-2)(a-1) a(a+1)(a+2)+5(a-1) a(a+1)\\]<br>%(+)(a-2)(a-1) a(a+1)(a+2))% là tích của 5 số nguyên liên tiếp nên sẽ luôn có 1 số chia hết cho 5,1 số chia hết cho 3,1 số chia hết cho 2 .<br>Mà %((5,3,2)=1)% nên tích này chia hết cho %(5.3 .2=30)%<br>%(+)(a-1) a(a+1))% là tích của 3 số nguyên liên tiếp nên có 1 số chia hết cho 3,1 số chia hết cho 2 .<br>Mà %((3,2)=1)% nên tích này chia hết cho 6<br>\\[\\Rightarrow 5 .(a-1) a(a+1) \\vdots 30\\]<br>Vậy %(a^{5}-a)% chia hết cho %(30 \\forall a \\in Z)%<br>Tương tự ta có %(b^{5}-b)% chia hết cho %(30 \\forall b \\in Z)%<br>Vậy %(\\mathrm{F})% chia hết cho %(30 \\forall a, b \\in Z)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho tam giác nhọn %(\\mathrm{ABC})% nội tiếp đường tròn %((\\mathrm{O}))%. Gọi %(\\mathrm{M}, \\mathrm{N})% lần lượt là trung điểm của %(\\mathrm{BC})% và %(\\mathrm{AC})%. Đường thẳng đi qua hai điểm %(\\mathrm{M}, \\mathrm{N})% cắt %((\\mathrm{O}))% tại hai điểm %(\\mathrm{P}, \\mathrm{Q})% (với %(\\mathrm{M})% nằm giữa %(\\mathrm{P})% và %(\\mathrm{N})% ). Gọi %(\\mathrm{D})% là một điểm trên cạnh %(\\mathrm{AB})% (với %(\\mathrm{D})% khác %(\\mathrm{A}, \\mathrm{D})% khác %(\\mathrm{B})% ), đường tròn ngoại tiếp tam giác %(\\mathrm{BDP})% cắt %(\\mathrm{BC})% tại %(\\mathrm{I})% (I khác %(\\mathrm{B})% ). Đường thẳng %(\\mathrm{DI})% cắt đường thẳng %(\\mathrm{AC})% tại %(\\mathrm{K})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "4.1 ",
+        "point": 1.0,
+        "content": "1. Chứng minh các điểm %(\\mathrm{C}, \\mathrm{I}, \\mathrm{P}, \\mathrm{K})% cùng thuộc một đường tròn.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{O})% ' là tâm đường tròn ngoại tiếp tam giác %(\\mathrm{BPD})%.<br>Tứ giác %(\\mathrm{ABPC})% nội tiếp %((\\mathrm{O}) \\Rightarrow P C K=180^{\\circ}-P C A=A B P)%<br>Tứ giác BDIP nội tiếp %(\\left(\\mathrm{O}^{\\prime}\\right) \\Rightarrow P I K=180^{\\circ}-P I D=P B D=A B P)%<br>\\[\\Rightarrow P C K=P I K\\]<br>Mà %(\\mathrm{C}, \\mathrm{I})% là hai đỉnh kề nhau nên PICK nội tiếp (đpcm)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/00cf69272d1682f3eeba87bee109a4a5.png\" srcset=\"https://docdn.giainhanh.io/media/test/f7773c7018bd3514f5bace15cd1f2269.png 204w, https://docdn.giainhanh.io/media/test/4f1ccb537eb3ef7bb75ce5f5932af3b6.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "4.2 ",
+        "point": 1.0,
+        "content": "2. Chứng minh %(\\frac{Q B}{O C}=\\frac{P K}{P D})%",
+        "question_images": [],
+        "solution": "%(\\mathrm{PICK})% nội tiếp (cmt) %(\\Rightarrow P K I=P C I)% (cùng chắn cung %(\\mathrm{PI})% )<br>\\[\\Rightarrow P K D=P C B=P Q B \\text { (cùng chắn cung } \\mathrm{PB} \\text { của }(\\mathrm{O}) \\text { ) }\\]<br>Trong %((\\mathrm{O}))% có %(B Q M=P C M)% (cùng chắn cung %(\\mathrm{BP})% của %((\\mathrm{O}))% )<br>\\[\\begin{array}{l}\\text { Và } B M Q=P M C \\text { (đối đỉnh) } \\\\Rightarrow \\triangle B Q M \\sim \\triangle P C M(g-g) \\\\Rightarrow \\frac{Q B}{Q M}=\\frac{C P}{C M}\\end{array}\\]<br>Tương tự ta có: %(\\triangle Q C M \\sim \\triangle B P M(g-g))%<br>\\[\\Rightarrow \\frac{Q C}{Q M}=\\frac{B P}{B M}\\]<br>Chia (1) cho (2) vế với vế ta được:<br>%(\\frac{Q B}{Q C}=\\frac{B M}{C M} \\cdot \\frac{C P}{B P}=\\frac{C P}{B P})% (M là trung điểm cůa %(\\mathrm{BC})% )<br>Trong ( %(\\mathrm{O})% ') có %(P B I=P D I)% hay %(P B C=P D K)%<br>Lại có %(P C B=P K D)% (cmt)<br>\\[\\begin{array}{l}\\Rightarrow \\triangle B P C \\sim \\triangle D P K(g-g) \\\\Rightarrow \\frac{P C}{P B}=\\frac{P K}{P D} \\Rightarrow \\frac{P K}{P D}=\\frac{C P}{B P}\\end{array}\\]<br>Vậy %(\\frac{Q B}{Q C}=\\frac{P K}{P D}\\left(=\\frac{C P}{B P}\\right))% (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "4.3 ",
+        "point": 1.0,
+        "content": "3. Đường thẳng %(\\mathrm{AP})% cắt đường tròn ngoại tiếp tam giác %(\\mathrm{BDP})% tại %(\\mathrm{G}(\\mathrm{G})% khác %(\\mathrm{P}))%. Đường thẳng %(\\mathrm{IG})% cắt %(\\mathrm{AB})% tại %(\\mathrm{E})%. Chứng minh rằng khi %(\\mathrm{D})% di chuyển trên cạnh %(\\mathrm{AB})% thì tỉ số %(\\frac{S_{A P D}}{S_{A Q E}})% không đổi.",
+        "question_images": [],
+        "solution": "Trong tam giác %(\\mathrm{ABC})% có %(\\mathrm{MN})% là đường trung bình<br>%(\\Rightarrow \\mathrm{MN} / / \\mathrm{AB})%<br>%(\\Rightarrow \\mathrm{PQ} / / \\mathrm{AB})%<br>%(\\Rightarrow d(Q, A B)=d(P, A B))% (trong đó %(\\mathrm{d}(\\mathrm{P}, \\mathrm{AB}))% là khoảng cách từ %(\\mathrm{P})% đến %(\\mathrm{AB})%, tương tự với %(\\mathrm{d}(\\mathrm{Q}, \\mathrm{AB}))% )<br>%(\\Rightarrow \\frac{S_{A P D}}{S_{A Q E}}=\\frac{0,5 \\cdot A D \\cdot d(P, A B)}{0,5 \\cdot A E \\cdot d(Q, A B)}=\\frac{A D}{A E})%<br>Chứng minh được %(\\triangle A D G \\sim \\triangle A P B(g-g) \\Rightarrow \\frac{A D}{A G}=\\frac{A P}{A B})%<br>\\[\\begin{aligned}\\triangle A E G \\sim \\triangle C P B(g-g) \\Rightarrow \\frac{A E}{A G}=\\frac{C P}{B C} \\\\Rightarrow \\frac{A D}{A E}=\\frac{B C}{A B}\\end{aligned}\\]<br>Do %(\\mathrm{A}, \\mathrm{B}, \\mathrm{C})% cố định %(\\Rightarrow \\mathrm{M}, \\mathrm{N})% cố định %(\\Rightarrow \\mathrm{P})% cố định<br>%(\\Rightarrow \\frac{B C}{A B} \\cdot \\frac{A P}{C P})% không đổi<br>%(\\Rightarrow \\frac{A D}{A E})% không đổi<br>%(\\Rightarrow \\frac{S_{A P D}}{S_{A O E}})% không đổi (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Hai bạn %(X)% và %(Y)% tham gia một trò chơi. Có một tờ giấy đã viết 47 số nguyên từ 1 đến 47 và một hộp đựng %(\\mathrm{n})% viên bi. %(\\mathrm{X})% là người chơi trước, %(\\mathrm{Y})% là người chơi sau và sở hữu hộp bi. Hai người luân phiên thực hiện gạch số, mỗi lượt chơi thì người chơi gạch đi 5 số. Sau khi %(\\mathrm{X})% chơi xong lượt cuối cùng thì còn lại 2 số, hai số đó chênh lệch bao nhiêu thì %(\\mathrm{Y})% phải đưa cho %(\\mathrm{X})% bấy nhiêu viên bi. Nếu %(\\mathrm{Y})% hết bi hoặc không đủ số bi để đưa cho %(\\mathrm{X})% thì %(\\mathrm{X})% thắng cuộc, ngược lại nếu %(\\mathrm{Y})% còn ít nhất một viên bi thì %(\\mathrm{Y})% thắng cuộc.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "5.1 ",
+        "point": 0.5,
+        "content": "1. Với %(\\mathrm{n}=27)%, chứng minh rằng %(\\mathrm{Y})% luôn có cách chơi để thắng cuộc.",
+        "question_images": [],
+        "solution": "Với %(n=27)% thì số bi %(\\mathrm{Y})% giữ là 27 và có chiến thuật để %(\\mathrm{Y})% thắng như sau<br>+ Mỗi lần %(\\mathrm{X})% xóa 5 số bất kì thì %(\\mathrm{Y})% xóa 5 số bé nhất còn lại, trò chơi cứ tiếp tục và %(\\mathrm{Y})% sẽ thắng.<br>+ Giải thích: Mỗi người được xóa 5 số nên %(\\mathrm{X})% sẽ được chơi 5 lượt, %(\\mathrm{Y})% được chơi 4 lượt. Vì Y sẽ xóa những số bé nhất có thể nên chắc sẽ có những số sau bị xóa %(1,2,3,4, \\ldots, 19,20)% (số).<br>Như vậy 2 số còn lại sau khi thực hiện trò chơi xong sẽ nằm trong tập<br>\\[\\{21 ; 22 ; 23 ; \\ldots ; 46 ; 47\\}\\]<br>Mà hiện số này lớn nhất là %(47-21=26)% tức là %(\\mathrm{Y})% sẽ luôn còn ít nhất %(27-26=1)% viên nên %(\\mathrm{Y})% thắng cuộc.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5.2 ",
+        "point": 0.5,
+        "content": "2. Với %(\\mathrm{n}=26)%, chứng minh rằng %(\\mathrm{X})% luôn có cách chơi để thắng cuộc.",
+        "question_images": [],
+        "solution": "Với %(\\mathrm{n}=26, \\mathrm{X})% có chiến thuật để thắng như sau:<br>+ Ở lượt đầu tiên %(\\mathrm{X})% xóa 5 số sau: %(22,23,24,25,26)%<br>+ Chia %(47-5=42)% số còn lại vào 21 nhóm sau: %((1 ; 27) ;(2 ; 28) ;(3 ; 29) ; \\ldots ;(21 ; 47))% các nhóm này đều có hiệu giữa số lớn và số bé là 26<br>+ Cứ mỗi lượt %(\\mathrm{Y})% xóa 5 số thuộc 5 nhóm khác nhau thì %(\\mathrm{X})% xóa 5 số còn lại của 5 nhóm đó, trường hợp Y xóa cả 2 số của 1 nhóm thì %(\\mathrm{X})% cũng xóa 2 số của 1 nhóm khác.<br>Như vậy 2 số cuối cùng luôn cùng 1 nhóm, chúng có hiệu là 26 .<br>Vậy X thắng cuộc.",
+        "question_type": "essay"
+    }
+]

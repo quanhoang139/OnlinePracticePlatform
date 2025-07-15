@@ -1,0 +1,82 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(\\sin \\left(2 x+\\frac{\\pi}{3}\\right)+\\sin \\left(x-\\frac{\\pi}{4}\\right)=0)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\sin \\left(2 x+\\frac{\\pi}{3}\\right)=-\\sin \\left(x-\\frac{\\pi}{4}\\right) \\Leftrightarrow \\sin \\left(2 x+\\frac{\\pi}{3}\\right)=\\sin \\left(\\frac{\\pi}{4}-x\\right) \\\\ \\Leftrightarrow\\left[\\begin{array}{l}2 x+\\frac{\\pi}{3}=\\frac{\\pi}{4}-x+k 2 \\pi \\\\ 2 x+\\frac{\\pi}{3}=\\pi-\\frac{\\pi}{4}+x+k 2 \\pi\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=-\\frac{\\pi}{36}+\\frac{k 2 \\pi}{3} \\\\ x=\\frac{5 \\pi}{12}+k 2 \\pi\\end{array} \\quad(k \\in Z)\\right.\\right. \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(2 \\cos 4 x+4 \\sin 2 x+1=0)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}2\\left(1-2 \\sin ^{2} 2 x\\right)+4 \\sin 2 x+1=0 \\Leftrightarrow-4 \\sin ^{2} 2 x+4 \\sin 2 x+3=0 \\\\ \\Leftrightarrow\\left[\\begin{array}{l}\\sin 2 x=-\\frac{1}{2}(n) \\\\ \\sin 2 x=\\frac{3}{2}(l)\\end{array}\\right.\\end{array})%%(* \\sin 2 x=\\sin \\left(-\\frac{\\pi}{6}\\right) \\Leftrightarrow\\left[\\begin{array}{l}x=-\\frac{\\pi}{12}+k \\pi \\\\ x=\\frac{7 \\pi}{12}+k \\pi\\end{array} \\quad(k \\in Z)\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(\\cos \\left(2 x-\\frac{\\pi}{3}\\right)-\\sqrt{3} \\sin \\left(2 x-\\frac{\\pi}{3}\\right)-\\sqrt{2}=0)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\frac{1}{2} \\cos \\left(2 x-\\frac{\\pi}{3}\\right)-\\frac{\\sqrt{3}}{2} \\sin \\left(2 x-\\frac{\\pi}{3}\\right)=\\frac{\\sqrt{2}}{2} \\Leftrightarrow \\sin \\frac{\\pi}{6} \\cos \\left(2 x-\\frac{\\pi}{3}\\right)-\\cos \\frac{\\pi}{6} \\sin \\left(2 x-\\frac{\\pi}{3}\\right)=\\sin \\frac{\\pi}{4} \\\\ \\Leftrightarrow \\sin \\left(\\frac{\\pi}{2}-2 x\\right)=\\sin \\frac{\\pi}{4} \\Leftrightarrow\\left[\\begin{array}{l}\\frac{\\pi}{2}-2 x=\\frac{\\pi}{4}+k 2 \\pi \\\\ \\frac{\\pi}{2}-2 x=\\frac{3 \\pi}{4}+k 2 \\pi\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{\\pi}{8}-k \\pi \\\\ x=-\\frac{\\pi}{8}-k \\pi\\end{array}(k \\in Z)\\right.\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Cho tập %(A=\\{0,1,2,3,4,5,6\\})% có thể lập được bao nhiêu số tự nhiên chẵn có 3 chữ số khác nhau?",
+        "question_images": [],
+        "solution": "Gọi %(\\overline{a b c})% là số cần tìm<br>TH1: %(c=0 \\Rightarrow)% có 1 cách chọn<br>%(a \\in A, \\mathrm{a} \\neq 0 \\rightarrow)% có 6 cách chọn<br>%(b \\in A, \\mathrm{~b} \\neq \\mathrm{a} \\neq \\mathrm{c} \\rightarrow)% có 5 cách chọn<br>%(6.5=30)% số<br>TH2: %(c \\in\\{2,4,6\\} \\Rightarrow)% có 3 cách chọn<br>%(a \\in A, \\mathrm{a} \\neq \\mathrm{c} \\neq 0 \\rightarrow)% có 5 cách chọn<br>%(b \\in A, \\mathrm{~b} \\neq \\mathrm{a} \\neq \\mathrm{c} \\rightarrow)% có 5 cách chọn<br>%(3.5 .5=75)% số<br>Theo ycbt: %(30+75=105)% số",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Tìm hệ số của %(\\mathrm{x}^{6})% trong khai triển %(\\left(x-\\frac{2}{x^{2}}\\right)^{15})%",
+        "question_images": [],
+        "solution": "SHTQ: %(T_{k+1}=C_{15}^{k} x^{15-k} \\cdot\\left(\\frac{-2}{x^{2}}\\right)^{k}=C_{15}^{k} x^{15-3 k}(-2)^{k})%<br>Giải phương trình:<br>\\[\\begin{array}{l}15-3 k=6 \\\\rightarrow k=3\\end{array}\\]<br>Hệ số của số hạng của %(x^{6})% là %(C_{15}^{3}(-2)^{3}=-3640)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Gieo một con xúc sắc cân đối đồng chất 2 lần, tính xác suất để tổng số chấm trong hai lần gieo nhỏ hơn 6.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\Omega=\\{(i, j), i, \\mathrm{j}=1,2,3,4,5,6\\} \\\\ n(\\Omega)=36 \\\\ A=\\{(1,1),(1,2),(1,3),(1,4),(2,1),(2,2),(2,3),(3,1),(3,2),(4,1)\\} \\\\ n(A)=10 P(A)=\\frac{10}{36}=\\frac{5}{18}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Một hộp đựng 4 viên bi đỏ, 6 viên bi xanh và 5 viên bi vàng. Người ta chọn 4 viên bi từ hộp đó. Hỏi có bao nhiêu cách chọn để 4 viên bi lấy ra không có đủ cả 3 màu.",
+        "question_images": [],
+        "solution": "Chọn tuỳ ý 4 viên bi từ hộp đó có:<br>%(C_{15}^{4}=1365 )% cách<br>+ Số cách chọn 4 viên bi có đủ 3 màu là:<br>Th1: 2 Đ, 1X,1V: %(C_{4}^{2} \\cdot C_{6}^{1} \\cdot C_{5}^{1}=180)% cách<br>TH2: 2V, 1Đ, 1X -tt- có 240 cách<br>Th3. 2X, 1Đ, 1V - tt- có 300 cách<br>Vậy có 720 cách đúng 1 TH 0,25 đúng cả 3 TH được 0,5 đ<br>+ Số cách chọn 4 viên bi không có đủ 3 màu là:<br>1365 – 720= 645 cách",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho hình chóp %(S A B C)%. %(I, J)% lần lượt là trung điểm của %(A B, B C)% và %(M)% là điểm trên cạnh %(\\mathrm{SC})%. Tìm giao tuyến của (SAC) với (IJM).",
+        "question_images": [],
+        "solution": "M là điếm chung<br>%(\\mathrm{IJ} / / \\mathrm{AC})% (tc đường trung bình trong tam giác %(\\mathrm{ABC})% )<br>IJ trong (IJM), AC trong (SAC)<br>Vậy %((\\mathrm{SAC}) \\cap(\\mathrm{IJM})=\\mathrm{Mx} / / \\mathrm{AC})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 1.0,
+        "content": "Cho hình chóp %(S . A B C D)% có đáy %(A B C D)% là hình bình hành. Gọi %(\\mathrm{M}, \\mathrm{N}, \\mathrm{P})% lần lượt là trung điểm của các cạnh %(A B, A D)% và %(S B)%. Tìm giao điểm của mặt phẳng (MNP) với SD.",
+        "question_images": [],
+        "solution": "Chọn (SAD) chứa SD.<br>\\[(S D C) \\cap(P M N)=d(d \\text { qua } N, d / / S A / / P M)\\]<br>Gọi d cắt SD tại I<br>Ta có:<br>%(\\left\\{\\begin{array}{l}I \\in S D \\I \\in d \\subset(P M N)\\end{array}\\right.)%<br>Vậy %(S D \\cap(P M N)=\\{I\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "10 ",
+        "point": 1.0,
+        "content": "Cho hình chóp %(S . A B C D)% có %(A B C D)% là hình thang đáy lớn %(A B)%. Gọi %(\\mathrm{M}, \\mathrm{N})% là trung điểm các cạnh %(\\mathrm{SB}, \\mathrm{SC})%. Tìm thiết diện của hình chóp và mp ( %(\\mathrm{AMN})% ).",
+        "question_images": [],
+        "solution": "Gọi %(A D)% cắt %(B C)% tại %(E, M N)% cắt %(S E)% tại %(F, A F)% cắt %(S D)% tại %(G)%.Khi đó:<br>%(\\begin{array}{l}(A M N) \\cap(S A B)=A M \\\\(A M N) \\cap(S B C)=M N \\\\(A M N) \\cap(S D C)=G N \\\\(A M N) \\cap(S A D)=A G\\end{array})%<br>Vậy tứ giác %(A M N G)% là thiết diện cần tìm.",
+        "question_type": "essay"
+    }
+]

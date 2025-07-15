@@ -1,0 +1,95 @@
+[
+    {
+        "title": "1",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 3.0,
+        "content": "a) Giải phương trình %(\\frac{1}{\\cos x}+\\frac{\\sqrt{3}}{\\sin x}=4)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Điều kiện: } \\cos x \\neq 0, \\sin x \\neq 0 \\Leftrightarrow x \\neq \\frac{k \\pi}{2} \\text {. } \\\\ \\text { PT } \\sin x+\\sqrt{3} \\cos x=4 \\sin x \\cdot \\cos x \\\\ \\Leftrightarrow \\sin 2 x=\\sin \\left(x+\\frac{\\pi}{3}\\right) \\\\ \\Leftrightarrow x=\\frac{\\pi}{3}+k 2 \\pi ; x=\\frac{2 \\pi}{9}+\\frac{k 2 \\pi}{3}, k \\in \\mathbb{Z}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 3.0,
+        "content": "b) Giải phương trình %(\\sqrt{x-\\frac{1}{x}}+\\sqrt{1-\\frac{1}{x}}=x(x \\in \\mathbb{R}))%",
+        "question_images": [],
+        "solution": "ĐK: %(x-\\frac{1}{x} \\geq 0 ; 1-\\frac{1}{x} \\geq 0 ; x \\neq 0 \\Leftrightarrow-1 \\leq x\\lt 0 ; x \\geq 1)%C1 (Bình phương): %(\\sqrt{x-\\frac{1}{x}}=x-\\sqrt{1-\\frac{1}{x}})%.<br>Nếu %(-1 \\leq x\\lt 0)% thì PT vô nghiệm<br>Nếu %(x \\geq 1)% thì %(x-\\frac{1}{x}=x^{2}-2 x \\sqrt{1-\\frac{1}{x}}+1-\\frac{1}{x})%<br>\\[\\Leftrightarrow\\left(x^{2}-x\\right)-2 \\sqrt{x^{2}-x}+1=0 \\Leftrightarrow x^{2}-x-1=0 \\Leftrightarrow x=\\frac{1-\\sqrt{5}}{2}(\\text { Loai }), x=\\frac{1+\\sqrt{5}}{2}(\\mathrm{~T} / \\mathrm{m})\\]<br>C2 : (Đặt 2 ẩn phụ chuyển về HPT) ĐK PT có nghiệm %(x \\geq 1)%.<br>Đặt %(a=\\sqrt{x-\\frac{1}{x}}, b=\\sqrt{1-\\frac{1}{x}})%<br>\\[\\begin{array}{l}\\Rightarrow\\left\\{\\begin{array} { l } { a + b = x } \\\\{ a ^ { 2 } - b ^ { 2 } = x - 1 }\\end{array} \\Rightarrow \\left\\{\\begin{array}{l}a+b=x \\a-b=\\frac{x-1}{x}\\end{array} \\Rightarrow a=\\frac{1}{2}\\left(x+1-\\frac{1}{x}\\right)\\right.\\right. \\\\left(x-\\frac{1}{x}\\right)-2 \\sqrt{x-\\frac{1}{x}}+1=0 \\Leftrightarrow x^{2}-x-1=0 \\Leftrightarrow x=\\frac{1-\\sqrt{5}}{2} \\text { (Loai) } x=\\frac{1+\\sqrt{5}}{2}(T m) \\\\end{array}\\]<br>C3 : (Đánh giá theo BĐT Cauchy)<br>ĐK có nghiệm %(x \\geq 1)%.<br>BĐT %(\\sqrt{a b} \\leq \\frac{a+b}{2}, \\forall a, b \\geq 0)%.<br>\\[\\sqrt{1\\left(x-\\frac{1}{x}\\right)} \\leq \\frac{1+x-\\frac{1}{x}}{2} ; \\sqrt{1-\\frac{1}{x}}=\\sqrt{\\frac{1}{x} \\cdot(x-1)} \\leq \\frac{\\frac{1}{x}+x-1}{2} \\Rightarrow V T \\leq \\frac{1+x-\\frac{1}{x}}{2}+\\frac{\\frac{1}{x}+x-1}{2}=x=V P\\]<br>Phương trình tương đương với dấu bằng xảy ra %(1=x-\\frac{1}{\\oplus}=x \\quad x \\geq 1 \\Rightarrow x=\\frac{1+\\sqrt{5}}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Cho đa giác đều có 60 đỉnh. Hỏi có bao nhiêu tam giác có 3 cạnh là đường chéo của đa giác đó?",
+        "question_images": [],
+        "solution": "cách 1 Chọn 1 đỉnh %(\\mathrm{A})% có 60 cách, giả sử chọn thêm 2 đỉnh %(\\mathrm{B}, \\mathrm{C})% thỏa mãn, hay %(\\mathrm{AB}, \\mathrm{BC}, \\mathrm{CA})% là đường chéo của đa giác do đó giữa cung %(\\overparen{A B}, \\overparen{B C}, \\overparen{C A})% luôn có ít nhất 1 đỉh của đa giác.<br>Giả sử %(x, y, z)% là số đỉhh của đa giác nằm trên cung %(\\overparen{A B}, \\overparen{C A}, \\overparen{B C})%, trong đó %(x, y, z \\in \\mathbb{Z} ; x, y, z \\geq 1)%<br>Bài toán trở thành tìm số nghiệm nguyên dương của phương trình %(x+y+z=57)%<br>\\[57=\\underbrace{1+. .+1}+\\underbrace{1+. .+1}+\\underbrace{1+. .+1} \\text { (có } 56 \\text { dấu + ) }\\]<br>Do vai trò của 3 đỉnh như nhau nên có %(\\frac{60 . C_{56}^{2}}{3}=20 C_{56}^{2})% tam giác thỏa mãn<br>cách 2 Jố tam giác tạo thành là %(C_{n}^{3})%. Số tam giác có 1 cạnh của đa giác là %(n C_{n-4}^{1})%.<br>Số tam giác co 2 cạnh là cạnh của đa giác bằng %(n)%.<br>Số tam giác thỏa mãn là %(C_{n}^{3}-n C_{n-4}^{1}-n=\\frac{n}{3} C_{n-4}^{2})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b75e2cd6e3088a909b8e8b1edd36f02d.png\" srcset=\"https://docdn.giainhanh.io/media/test/24c332518aaa95c018c2384bad2b3918.png 164w\" width=\"164\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Cho khai triển %((x+1)^{n}+\\left(x^{2}+1\\right)^{2 n}=a_{0}+a_{1} x+a_{2} x^{2}+\\ldots+a_{4 n} x^{4 n})%, với %(n)% là số tự nhiên, %(n \\geq 1)%. Tìm %(n)% biết %(a_{1}, a_{2}, a_{3})% lập thành một cấp số cộng.",
+        "question_images": [],
+        "solution": "\\[a_{1}=C_{n}^{1} ; a_{2}=C_{n}^{2}+C_{2 n}^{1} ; a_{3}=C_{n}^{3}\\]<br>%(a_{1}, a_{2}, a_{3})% là một cấp số công nên %(a_{1}+a_{3}=2 a_{2})%<br>\\[\\begin{array}{l}C_{n}^{1}+C_{n}^{3}=2\\left(C_{n}^{2}+C_{2 n}^{1}\\right) \\Leftrightarrow n+\\frac{n(\\mathrm{n}-1)(\\mathrm{n}-2)}{6}=2\\left(\\frac{n(n-1)}{2}+2 n\\right) \\\\Leftrightarrow n^{2}-9 n-10=0 \\Leftrightarrow n=-1(\\text { Loai }) ; n=10(\\text { Tm })\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Cho dãy số %(\\left(u_{n}\\right))% thỏa mãn %(\\left\\{\\begin{array}{l}u_{1}=2 \\\\ u_{1}+u_{2}+\\ldots+u_{n}=n^{2} . u_{n}\\end{array}, n \\in \\mathbb{N}, n \\geq 2\\right.)%. Tìm công thức số hạng tổng quát %(u_{\\mathrm{n}})% và tính tổng %(S=u_{1}+u_{2}+\\ldots+u_{2020})%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}(n-1)^{2} u_{n-1}+u_{n}=n^{2} \\cdot u_{n} \\\\Leftrightarrow(n-1)^{2} u_{n-1}=\\left(n^{2}-1\\right) \\cdot u_{n} \\\\Leftrightarrow u_{n}=\\frac{n-1}{n+1} u_{n-1} \\u_{n}=\\frac{n-1}{n+1} \\cdot \\frac{n-2}{n} \\cdots \\frac{1}{3} u_{1}=\\frac{4}{n(n+1)}\\end{array}\\]<br>Tổng %(S=u_{1}+u_{2}+\\ldots+u_{2020}=2020^{2} \\cdot u_{2020}=\\frac{4.2020^{2}}{2020.2021}=\\frac{8080}{2021})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Trong hệ tọa độ %(O x y)%, cho tam giác %(A B C)% vuông tại %(A(2 ; 5))% và %(H)% là hình chiếu vuông góc của %(A)% lên cạnh %(B C)%. Gọi %(I, J(2 ;-1))% và %(K(6 ; 1))% lần lượt là tâm đường nội tiếp của tam giác %(A B C, A B H, A C H)%. Chứng minh %(I)% là trực tâm của tam giác %(A J K)% và tìm tọa độ các đỉnh %(B, C)%",
+        "question_images": [],
+        "solution": "Chứng minh tâm I đường tròn nội tiếp tam giác %(\\mathrm{ABC})% là trực tâm của tam giác %(\\mathrm{AJK})%.<br>\\[\\begin{array}{l}\\widehat{A B C}=\\widehat{H A C} \\Rightarrow \\widehat{A B J}=\\widehat{J B H}=\\widehat{H A K}=\\widehat{K A C} \\\\90^{\\circ}=\\widehat{B A C}=\\widehat{B A K}+\\widehat{K A C}=\\widehat{B A K}+\\widehat{A B J} \\\\Rightarrow A K \\perp B J .\\end{array}\\]<br>Tương trự chứng minh %(C K \\perp A J)%<br>Do đó %(I)% là trực tâm của tam giác %(\\mathrm{AJK})%.<br>Gọi %(I(a ; b))% ta có %(\\left\\{\\begin{array}{l}\\overrightarrow{A I J K}=0 \\\\ \\overrightarrow{K I} \\overrightarrow{A J}=0\\end{array}\\right.)%<br>\\[\\left\\{\\begin{array} { l } { 4 ( a - 2 ) + 2 ( \\mathrm { b } - 5 ) = 0 } \\\\{ 0 ( a - 6 ) - 6 ( b - 1 ) = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}a=4 \\b=1\\end{array} \\Rightarrow I(4 ; 1)\\right.\\right.\\]<br>Phương trình %(B I: x-y-3=0)%Phương trình %(C I: y-1=0)%<br>Một vecto chỉ phương của đường thẳng %(\\mathrm{AI})% là %(\\vec{u}=\\frac{1}{2} \\overrightarrow{A I}=(1 ;-2))%.<br>Gọi một vecto chỉ phương của đường thẳng chứa cạnh %(A B)% hoặc cạnh %(A C)% là %(\\overrightarrow{u^{\\prime}(t, k)})%<br>\\[\\widehat{I A B}=\\widehat{I A C}=45^{\\circ} \\Rightarrow \\cos 45^{\\circ}=\\left|\\cos \\left(\\vec{u}, \\overrightarrow{u^{\\prime}}\\right)\\right| \\Leftrightarrow \\sqrt{2}|t-2 k|=\\sqrt{5\\left(t^{2}+k^{2}\\right)} \\Leftrightarrow 3 t-k=0, t+3 k=0 \\text {. }\\]<br>Với %(3 t-k=0)% chọn %(t=1, k=3 \\Rightarrow \\vec{u}^{\\prime}(1 ; 3))%. Với %(t+3 k=0)% chọn %(t=3, k=-1 \\Rightarrow \\vec{u}^{\\prime}=(3 ;-1))%<br>Phương trình %(\\mathrm{AB}: 3 x-y-1=0)%.<br>Phương trình %(\\mathrm{AC}: x+3 y-17=0)%;<br>\\[\\{B\\}=B I \\cap A B \\Rightarrow B(-1 ;-4) ;\\{C\\}=C I \\cap A C \\Rightarrow C(14 ; 1)\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f8cfca6f8139cc912267226e9ceae5c6.png\" srcset=\"https://docdn.giainhanh.io/media/test/6d7811e1db43522a8010794cc9f4b61e.png 226w, https://docdn.giainhanh.io/media/test/a330a83f356aad8009e78a3d6114cf13.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho tứ diện đều %(A B C D)% có trọng tâm %(G)%, cạnh %(A B=a ; O)% là tâm của tam giác %(B C D)% và %(M)% là điểm bất kỳ thuộc mặt phẳng %((B C D))%. Gọi %(H, K, L)% lần lượt là hình chiếu vuông góc của %(M)% lên các mặt phẳng %((A C D),(A B D),(A B C))%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Mặt phẳng %((P))% bất kỳ đi qua trọng tâm %(G)%, cắt các cạnh %(A B, A C, A D)% lần lượt tại %(B^{\\prime}, C^{\\prime}, D^{\\prime})%. Chứng %(\\operatorname{minh} \\frac{A B}{A B^{\\prime}}+\\frac{A C}{A C^{\\prime}}+\\frac{A D}{A D^{\\prime}}=4)%.",
+        "question_images": [],
+        "solution": "Tính chất trọng tâm G của tứ diện %(\\mathrm{ABCD} \\overrightarrow{A O}=4 \\overrightarrow{G O} ; \\overrightarrow{A O}=-\\frac{4}{3} \\overrightarrow{G A})%%(\\mathrm{O})% là trọng tâm của tam giác %(\\mathrm{BCD})% nên %(\\overrightarrow{O B}+\\overrightarrow{O C}+\\overrightarrow{O D}=\\overrightarrow{0})%<br>\\[\\begin{array}{l}\\Leftrightarrow \\overrightarrow{A B}+\\overrightarrow{A C}+\\overrightarrow{A D}=3 \\overrightarrow{A O} \\\\Leftrightarrow \\frac{A B}{A B^{\\prime}} \\cdot \\overrightarrow{A B^{\\prime}}+\\frac{A C}{A C^{\\prime}} \\cdot \\overrightarrow{A C^{\\prime}}+\\frac{A D}{A D^{\\prime}} \\overrightarrow{A D^{\\prime}}=4 \\overrightarrow{A G} .\\end{array}\\]<br>Do đúng với mọi điểm %(\\mathrm{A})% và 4 điểm %(B^{\\prime}, C, D^{\\prime}, G)% cùng thuộc mặt phẳng %((\\mathrm{P}))% nên<br>\\[\\frac{A B}{A B^{\\prime}}+\\frac{A C}{A C^{\\prime}}+\\frac{A D}{A D^{\\prime}}=4\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Chứng minh đường thẳng GM luôn đi qua trọng tâm E của tam giác HKL",
+        "question_images": [],
+        "solution": "Độ dài đường cao trong tam giác %(\\mathrm{BCD})% là<br>\\[h_{T G}=\\frac{a \\sqrt{3}}{2}\\]<br>Độ dài đường cao của tứ diện %(\\mathrm{ABCD})% là<br>\\[h_{T D}=\\frac{a \\sqrt{6}}{3}\\]<br>%(\\frac{M H}{h_{T D}}=\\frac{M M_{1}}{h_{T G}})%.<br>Tương tự<br>\\[\\frac{M K}{h_{T D}}=\\frac{M M_{2}}{h_{T G}} ; \\frac{M L}{h_{T D}}=\\frac{M M_{3}}{h_{T G}}\\]<br>Mặt khác<br>\\[\\begin{array}{l}S_{\\triangle B C D}=\\frac{a^{2} \\sqrt{3}}{4}=S_{\\triangle M B C}+S_{\\triangle M C D}+S_{\\triangle M B D} \\\\Leftrightarrow \\frac{1}{2} a\\left(M M_{1}+M M_{2}+M M_{3}\\right)=\\frac{a^{2} \\sqrt{3}}{4} \\\\Leftrightarrow M M_{1}+M M_{2}+M M_{3}=\\frac{a \\sqrt{3}}{2}\\end{array}\\]<br>\\[\\begin{array}{l}\\text { Ta có } M M_{1}+M M_{2}+M M_{3}=h_{T G} \\\\Leftrightarrow \\frac{M M_{1}}{h_{T G}}+\\frac{M M_{2}}{h_{T G}}+\\frac{M M_{3}}{h_{T G}}=1 \\\\Rightarrow \\frac{M M_{1}}{h_{T G}} \\cdot \\overrightarrow{G B}+\\frac{M M_{2}}{h_{T G}} \\cdot \\overrightarrow{G C}+\\frac{M M_{3}}{h_{T G}} \\cdot \\overrightarrow{G D}=\\overrightarrow{G M}\\end{array}\\]<br>Do E là trọng tâm của tam giác %(H K L)% nên ta<br>\\[\\begin{array}{l}\\text { có } 3 \\overrightarrow{M E}=\\overrightarrow{M H}+\\overrightarrow{M K}+\\overrightarrow{M L} \\\\=-\\frac{4}{3}\\left(\\frac{M M_{1}}{h_{T G}} \\cdot \\overrightarrow{G B}+\\frac{M M_{2}}{h_{T G}} \\cdot \\overrightarrow{G C}+\\frac{M M_{3}}{h_{T G}} \\cdot \\overrightarrow{G D}\\right)=-\\frac{4}{3} \\overrightarrow{G M}\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/33a722ca9060176322cdc765210aac89.png\" srcset=\"https://docdn.giainhanh.io/media/test/6e3c402d8940b31805e4787a1062e187.png 93w, https://docdn.giainhanh.io/media/test/188cd242cb059f8bbf7a46ac4f8858bd.png 299w\" width=\"299\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Cho %(x, y, z \\geq 0)% thỏa mãn %(x+y+z=1)%. Tìm giá trị lớn nhất của biểu thức<br>\\[P=x^{2} y+y^{2} z+z^{2} x\\]",
+        "question_images": [],
+        "solution": "Giả sử %(y)% nằm giữa %(x)% và %(z \\Rightarrow z(x-y)(y-z) \\geq 0)%<br>\\[\\begin{array}{l}\\Rightarrow x y z+z(x-y)(y-z) \\geq 0 ; P=x^{2} y+y^{2} z+z^{2} x \\leq x^{2} y+y^{2} z+z^{2} x+x y z+z(x-y)(y-z) \\\\=x^{2} y+y z^{2}+2 x y z=y(x+z)^{2} \\\\=\\frac{1}{2}(2 y)(x+z)(x+z) \\leq \\frac{1}{2.27}(2 y+x+z+x+z)^{3}=\\frac{(2(x+y+z))^{3}}{54}=\\frac{4}{27} \\\\max P=\\frac{4}{27} \\text { đạt được khi } x=\\frac{2}{3}, y=\\frac{1}{3}, z=0\\end{array}\\]",
+        "question_type": "essay"
+    }
+]

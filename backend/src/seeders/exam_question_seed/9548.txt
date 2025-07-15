@@ -1,0 +1,128 @@
+[
+    {
+        "title": "1a ",
+        "point": 2.0,
+        "content": "Phân tích đa thức sau thành nhân tử: %(x^{4} + x^{2} + 1)%",
+        "question_images": [],
+        "solution": "%(x^{4}+x^{2}+1=x^{4}+2 x^{2}+1-x^{2}=\\left(x^{2}+1\\right)^{2}-x^{2}=\\left(x^{2}+x+1\\right)\\left(x^{2}-x+1\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "1b ",
+        "point": 2.0,
+        "content": "Phân tích đa thức thành nhân tử: %(x y \\left( x - y \\right ) + y z \\left( y - z \\right ) + z x \\left( z - x \\right ))%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l} x y(x-y)+y z(y-z)+z x(z-x)=x y(x-y)-y z(x-y)-y z(z-x)+z x(z-x) \\\\ =y(x-y)(x-z)+z(z-x)(x-y)=(x-y)(x-z)(y-z)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.1 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %((12 x-1)(6 x-1)(4 x-1)(3 x-1)=330)%.",
+        "question_images": [],
+        "solution": "%((12 x-1)(6 x-1)(4 x-1)(3 x-1)=330)%%(\\Leftrightarrow(12 x-1)(12 x-2)(12 x-3)(12 x-4)=7920)% (Nhân cả hai về với 24 )<br>\\[\\Leftrightarrow\\left(144 x^{2}-60 x+4\\right)\\left(144 x^{2}-60 x+6\\right)=7920\\]<br>Đặt: %(144 x^{2}-60 x+5=y)%<br>Ta có phương trình: %((y-1)(y+1)=7920 \\Leftrightarrow y^{2}=7921 \\Leftrightarrow y=89)% hoặc %(y=-89)%<br>Với %(y=89)%, ta có: %(144 x^{2}-60 x+5=89)%.<br>Giải ra: %(x=1)% hoặc %(x=\\frac{-7}{12})%<br>Với %(y=-89)%, ta có: %(144 x^{2}-60 x+5=-89)%.<br>Giải thích được phương trình này vô nghiệm.<br>Kết luận: Phương trình đã cho có hai nghiệm %(x=1)% hoặc %(x=\\frac{-7}{12})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.2",
+        "group_content": "Cho phương trình: %(\\frac{x+a}{x+2}+\\frac{x-2}{x-a}=2(*))%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Giải phương trình (*) khi %(a=-1)%.",
+        "question_images": [],
+        "solution": "Với %(a=-1)%, ta có phương trình: %(\\frac{x-1}{x+2}+\\frac{x-2}{x+1}=2)% ( %(\\left.\\mathrm{PK}: \\mathrm{x} \\neq-2 ;-1\\right))%<br>Giải phương trình tìm ra: %(x=\\frac{-3}{2})% (TMĐK)",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Tìm giá trị của %(a)% để %(x=1)% là nghiệm của phương trình %(\\left({ }^{*}\\right))%.",
+        "question_images": [],
+        "solution": "Thay %(x=1)% vào phương trình (*) ta có: %(\\frac{1+a}{3}+\\frac{-1}{1-a}=2)% ( %(\\mathrm{EK}: a \\neq 1)% )<br>Giải phương trình tìm ra: %(a=2)% (thỏa mãn điều kiện) hoặc %(a=4)% (thỏa mãn điều kiện) và kết luận.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3a ",
+        "point": 1.5,
+        "content": "Giả sử %(a, b, c)% là ba số đôi một khác nhau và %(\\frac{a}{b-c}+\\frac{b}{c-a}+\\frac{c}{a-b}=0)%Chứng minh rằng: %(\\frac{a}{(b-c)^{2}}+\\frac{b}{(c-a)^{2}}+\\frac{c}{(a-b)^{2}}=0)%.",
+        "question_images": [],
+        "solution": "%(\\frac{a}{b-c}+\\frac{b}{c-a}+\\frac{c}{a-b}=0 \\Rightarrow \\frac{a}{b-c}=\\frac{b}{a-c}+\\frac{c}{b-a}=\\frac{b^{2}-a b+a c-c^{2}}{(a-b)(c-a)})%%(\\Rightarrow \\frac{a}{(b-c)^{2}}=\\frac{b^{2}-a b+a c-c^{2}}{(a-b)(c-a)(b-c)})%(1) (Nhân hai vế với %(\\frac{1}{b-c})%)<br>Tương tự ta có: %(\\frac{b}{(c-a)^{2}}=\\frac{c^{2}-b c+b a-a^{2}}{(a-b)(c-a)(b-c)})%<br>\\[\\frac{c}{(a-b)^{2}}=\\frac{a^{2}-a c+c b-b^{2}}{(a-b)(c-a)(b-c)}\\]<br>Công vế với vế của (1), (2), (3) ta được đpcm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3b ",
+        "point": 1.5,
+        "content": "Cho các số thực dương %(x ; y ; z)% thỏa mãn %(x+y+z=3)%. Chứng minh rằng:<br>\\[\\frac{1}{x^{2}+x}+\\frac{1}{y^{2}+y}+\\frac{1}{z^{2}+z} \\geq \\frac{3}{2} .\\]",
+        "question_images": [],
+        "solution": "Đặt %(P=\\frac{1}{x^{2}+x}+\\frac{1}{y^{2}+y}+\\frac{1}{z^{2}+z}=\\frac{1}{x(x+1)}+\\frac{1}{y(y+1)}+\\frac{1}{z(z+1)})%<br>\\[=\\frac{1}{x}-\\frac{1}{x+1}+\\frac{1}{y}-\\frac{1}{y+1}+\\frac{1}{z}-\\frac{1}{z+1}=\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)-\\left(\\frac{1}{x+1}+\\frac{1}{y+1}+\\frac{1}{z+1}\\right)\\]<br>Áp dụng %(\\mathrm{BĐT} \\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c} \\geq \\frac{9}{a+b+c})% và %(\\frac{1}{a+b} \\leq \\frac{1}{4}\\left(\\frac{1}{a}+\\frac{1}{b}\\right))% với %(a, b, c)% dương dấu bằng xảy %(\\mathrm{ra} \\Leftrightarrow a=b=c)%<br>Ta có %(\\frac{1}{x+1} \\leq \\frac{1}{4}\\left(\\frac{1}{x}+1\\right) ; \\frac{1}{y+1} \\leq \\frac{1}{4}\\left(\\frac{1}{y}+1\\right) ; \\frac{1}{a+1} \\leq \\frac{1}{4} \\cdot\\left(\\frac{1}{x}+1\\right))%<br>Do dó :<br>\\[P=\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)-\\left(\\frac{1}{x+1}+\\frac{1}{y+1}+\\frac{1}{x+1}\\right) \\geq\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)-\\frac{1}{4} \\cdot\\left(\\frac{1}{x}+1+\\frac{1}{y}+1+\\frac{1}{x}+1\\right)\\]<br>%(=\\frac{3}{4}\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)-\\frac{3}{4} \\geq \\frac{3}{4} \\cdot \\frac{9}{x+y+z}-\\frac{3}{4}=\\frac{9}{4}-\\frac{3}{4}=\\frac{3}{2} .(đ p c m))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4a ",
+        "point": 1.5,
+        "content": "Chứng minh rằng nếu %(n)% là số tự nhiên thỏa mãn: %(n+1)% và %(2 n+1)% đều là số chính phương thì %(n)% chia hết cho 24.",
+        "question_images": [],
+        "solution": "Vì %(n+1)% và %(2 n+1)% đều là số chính phương nên ta có:<br>%(n+1=k^{2} ; 2 n+1=m^{2}(k, m)% là các số tự nhiên)<br>Ta thấy %(m)% là số lẻ (vì %(2 n+1)% là số lẻ) %(\\Rightarrow m=2 t+1)% ( %(t)% là số tự nhiên)%(\\Rightarrow m^{2}=4 t(t+1)+1 \\Rightarrow 2 n+1=4 t(t+1)+1 \\Rightarrow n=2 t(t+1) \\Rightarrow n)% chẵn %(\\Rightarrow k)% llẻ<br>Ta có: %(k^{2}, m^{2})% khi chia cho 3 có số dư là 0 hoặc 1.<br>Mà: %(k^{2}+m^{2}=3 n+2)% chia 3 dư 2<br>Nên %(k^{2}, m^{2})% chia cho 3 cùng có số dư là %(1 \\Rightarrow n=m^{2}-k^{2})% chia hết cho 3 (1)<br>Ta có %(k)% lẻ %(\\Rightarrow k=2 p+1)% ( %(p)% là số tự nhiên)<br>%(\\Rightarrow k^{2}=4 p(p+1)+1=n+1)%%(\\Rightarrow n=4 p(p+1))% chia hết cho %(8(2))%<br>Từ (1) và (2) suy ra: %(n)% chia hết cho 24 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "4b ",
+        "point": 1.5,
+        "content": "Chứng minh rằng nếu %(x^{4}-4 x^{3}+5 a x^{2}-4 b x+c)% chia hết cho %(x^{3}+3 x^{2}-9 x-3)% thì %(a+b+c=0)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Ta có: } x^{4}-4 x^{3}+5 a x^{2}-4 b x+c=\\left(x^{3}+3 x^{2}-9 x-3\\right)(x+m) \\text {. } \\\\=x^{4}+(m+3) x^{3}+(3 m-9) x^{2}-(9 m+3) x-3 m\\end{array}\\]<br>Suy ra: %(m+3=-4 \\Rightarrow m=-7)%<br>\\[\\begin{array}{l}3 m-9=5 a \\Rightarrow a=-6 \\\\9 m+3=4 b \\Rightarrow b=-15 \\c=-3 m \\Rightarrow c=21\\end{array}\\]<br>Vây %(a+b+c=0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho tam giác %(A B C)% nhọn. Các đường cao %(A D, B E, C F)% cắt nhau tại %(H)%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Chứng minh: Các tam giác %(A B C, A E F)% đồng dạng.",
+        "question_images": [],
+        "solution": "Chứng minh đúng: %(\\triangle A E B \\sim \\triangle A F C)%.<br>Suy ra: %(\\frac{A E}{A B}=\\frac{A F}{A C})%<br>Chứng minh đúng: %(\\triangle A B C \\sim \\triangle A E F)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d70506e29c1e6bd1c711d661021a5b7a.png\" srcset=\"https://docdn.giainhanh.io/media/test/5a738e054b97f850a0e895584dc1d7d9.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Chứng minh: %(\\frac{H D}{A D}+\\frac{H E}{B E}+\\frac{H F}{C F}=1)%.",
+        "question_images": [],
+        "solution": "Chỉ ra được: %(\\frac{H D}{A D}=\\frac{S_{B H C}}{S_{A B C}})% đủ căn cứ<br>Tương tự: %(\\frac{H E}{B E}=\\frac{S_{A H C}}{S_{A B C}} ; \\frac{H F}{C F}=\\frac{S_{A H B}}{S_{A B C}})%<br>Suy ra: %(\\frac{H D}{A D}+\\frac{H E}{B E}+\\frac{H F}{C F}=\\frac{S_{B H C}+S_{A H C}+S_{A H B}}{S_{A B C}}=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.5,
+        "content": "c) Chứng minh: %(B F . B A+C E . C A=B C^{2})%.",
+        "question_images": [],
+        "solution": "CMTT câu a, chỉ ra được %(\\triangle B D F)% đồng dạng %(\\triangle B A C)%<br>Suy ra %(\\frac{B F}{B C}=\\frac{B D}{B A} \\Rightarrow B F . B A=B D \\cdot B C)%<br>Tương tự %(C E . C A=C D . B C)%<br>Cộng vế với vế của hai đẳng thức ta được:<br>\\[B F \\cdot B A+C E \\cdot C A=C D \\cdot B C+B D \\cdot B C=(C D+D B) \\cdot B C=B C^{2}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "d) ",
+        "point": 1.5,
+        "content": "d) Gọi %(M)% là trung điểm của %(B C)% Đường thằng qua %(H)% vuông góc %(M H)% cắt %(A B, A C)% lần lượt tại %(N, K)%. Chứng minh: Tam giác %(M N K)% cân.",
+        "question_images": [],
+        "solution": "Chứng minh được %(B A H=B C H)% (Cùng phụ %(A B C)% )<br>Chứng minh được %(A N H=C H M)% (Cùng phụ %(NHF)% )<br>Suy ra: %(\\triangle A N H)% đồng dạng %(\\triangle C H M(\\mathrm{~g}-\\mathrm{g}))%<br>Suy ra: %(\\frac{N H}{H M}=\\frac{A H}{C M})%, hay %(\\frac{N H}{A H}=\\frac{H M}{C M})% (1)<br>chứng minh tương tự: %(\\frac{K H}{A H}=\\frac{H M}{B M}(2))%<br>Từ (1);(2) và %(C M=B M)% suy ra: %(H K=N H)%.<br>Vậy %(\\triangle M N K)% cân (Vì %(M H)% vừa là đường cao vừa là trung tuyến).",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Tìm các số tự nhiên %(x, y, z)% sao cho: %(x+y+z=x y z)%.",
+        "question_images": [],
+        "solution": "Chia hai vế của: %(x+y+z=x y z)% cho %(x y z\\gt 0)% ta có: %(\\frac{1}{x y}+\\frac{1}{y z}+\\frac{1}{x z}=1)%<br>Do vai trò %(x, y, z)% như nhau nên giả sử: %(1 \\leq x \\leq y \\leq z)% ta có: %(\\frac{1}{x y}+\\frac{1}{y z}+\\frac{1}{x z} \\leq \\frac{1}{x^{2}}+\\frac{1}{x^{2}}+\\frac{1}{x^{2}} \\Rightarrow \\frac{3}{x^{2}} \\geq 1 \\Rightarrow x=1)% (vì %(x)% nguyên dương)<br>Thay %(x=1)% ta có: %(y z=y+z+1 \\Leftrightarrow(y-1)(z-1)=2 \\Leftrightarrow y=2, z=3)% (vì %(y\\lt z)% )<br>Vậy ba số cần tìm là: %(1 ; 2 ; 3)%.",
+        "question_type": "essay"
+    }
+]

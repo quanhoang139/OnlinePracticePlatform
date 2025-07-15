@@ -1,0 +1,81 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Giải hệ phương trình:<br>%(\\left\\{\\begin{array}{c}x^{2}+y^{2}+x y=3 \\x y+3 x^{2}=4\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "\\[\\left\\{\\begin{array}{l}x^{2}+y^{2}+x y=3(1) \\x y+3 x^{2}=4\\end{array}\\right.\\]<br>Từ (2) %(\\Rightarrow x \\neq 0)%. Từ đó %(y=\\frac{4-3 x^{2}}{x})%, thay vào (1) ta có:<br>\\[\\begin{array}{l}x^{2}+\\left(\\frac{4-3 x^{2}}{x}\\right)^{2}+x \\cdot \\frac{4-3 x^{2}}{x}=3 \\\\Leftrightarrow 7 x^{4}-23 x^{2}+16=0\\end{array}\\]<br>Giải ra ta được %(x^{2}=1)% hoặc %(x^{2}=\\frac{16}{7})%<br>Từ %(x^{2}=1 \\Leftrightarrow x= \\pm 1 \\Rightarrow y= \\pm 1 ; x^{2}=\\frac{16}{7} \\Leftrightarrow x= \\pm \\frac{4 \\sqrt{7}}{7} \\Rightarrow y=\\mp \\frac{5 \\sqrt{7}}{7})%<br>Vậy hệ có nghiệm %((x ; y))% là %((1 ; 1) ;(-1 ;-1) ;\\left(\\frac{4 \\sqrt{7}}{7} ; \\frac{-5 \\sqrt{7}}{7}\\right) ;\\left(\\frac{-4 \\sqrt{7}}{7} ; \\frac{5 \\sqrt{7}}{7}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm m nguyên để phương trình sau có ít nhất một nghiệm nguyên:<br>\\[4 x^{2}+4 m x+2 m^{2}-5 m+6=0\\]",
+        "question_images": [],
+        "solution": "Điều kiện để phương trình có nghiệm: %(\\Delta_{x}{ }^{\\prime} \\geq 0)%<br>\\[\\begin{array}{l}\\Leftrightarrow m^{2}-5 m+6 \\leq 0 \\Leftrightarrow(m-2)(m-3) \\leq 0 . \\text { Vi }(m-2)\\gt (m-3) \\text { nên: } \\\\Delta_{x}^{\\prime} \\geq 0 \\Leftrightarrow m-2 \\geq 0 \\text { và } m-3 \\leq 0 \\Leftrightarrow 2 \\leq m \\leq 3 \\text {, mà } m \\in Z \\\\Rightarrow m=2 \\text { hoặc } m=3 .\\end{array}\\]<br>Khi %(m=2 \\Rightarrow \\Delta_{x}{ }^{\\prime}=0 \\Rightarrow x=-1)% (thỏa mãn)<br>Khi %(\\mathrm{m}=3 \\Rightarrow \\Delta_{\\mathrm{x}}{ }^{\\prime}=0 \\Rightarrow \\mathrm{x}=-1,5)% (loại).<br>Vậy m = 2 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Rút gọn biêu thức:<br>\\[A=\\frac{\\sqrt{2+\\sqrt{4-x^{2}}}\\left[\\sqrt{(2+x)^{3}}-\\sqrt{(2-x)^{3}}\\right]}{4+\\sqrt{4-x^{2}}} \\text { với }-2 \\leq x \\leq 2\\]",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Đặt } a=\\sqrt{2+x} ; b=\\sqrt{2-x} \\quad(a, b \\geq 0) \\\\ \\Rightarrow a^{2}+b^{2}=4 ; a^{2}-b^{2}=2 x \\\\ \\Rightarrow A=\\frac{\\sqrt{2+a b}\\left(a^{3}-b^{3}\\right)}{4+a b}=\\frac{\\sqrt{2+a b}(a-b)\\left(a^{2}+b^{2}+a b\\right)}{4+a b} \\\\ \\Rightarrow A=\\frac{\\sqrt{2+a b}(a-b)(4+a b)}{4+a b}=\\sqrt{2+a b}(a-b) \\\\ \\Rightarrow A \\sqrt{2}=\\sqrt{4+2 a b}(a-b) \\\\ \\Rightarrow A \\sqrt{2}=\\sqrt{\\left(a^{2}+b^{2}+2 a b\\right)}(a-b)=(a+b)(a-b) \\\\ \\Rightarrow A \\sqrt{2}=a^{2}-b^{2}=2 x \\Rightarrow A=x \\sqrt{2}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Cho trước số hữu tỉ %(\\mathrm{m})% sao cho %(\\sqrt[3]{\\mathrm{m}})% là số vô tỉ. Tìm các số hữu tỉ %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% để:<br>\\[a \\sqrt[3]{m^{2}}+b \\sqrt[3]{m}+c=0\\]",
+        "question_images": [],
+        "solution": "\\[a \\sqrt[3]{m^{2}}+b \\sqrt[3]{m}+c=0\\ (1)\\]<br>Giả sử có (1)<br>\\[\\Rightarrow b \\sqrt[3]{m^{2}}+c \\sqrt[3]{m}+a m=0\\ (2)\\]<br>Từ (1), (2) %(\\Rightarrow\\left(b^{2}-a c\\right) \\sqrt[3]{m}=\\left(a^{2} m-b c\\right))%<br>Nếu %(\\mathrm{a}^{2} \\mathrm{~m}-\\mathrm{bc} \\neq 0 \\Rightarrow \\sqrt[3]{\\mathrm{m}}=\\frac{\\mathrm{a}^{2} \\mathrm{~m}-\\mathrm{bc}}{\\mathrm{b}^{2}-\\mathrm{ac}})% là số hữu tỉ. Trái với giả thiết!<br>\\[\\Rightarrow\\left\\{\\begin{array} { l } { b ^ { 2 } - a c = 0 } \\\\{ a ^ { 2 } m - b c = 0 }\\end{array} \\Rightarrow \\left\\{\\begin{array}{l}b^{3}=a b c \\b c=a m^{2}\\end{array}\\right.\\right.\\]<br>%(\\Rightarrow b^{3}=a^{3} \\mathrm{~m} \\Rightarrow \\mathrm{b}=\\mathrm{a} \\sqrt[3]{\\mathrm{m}})%.<br>Nếu %(\\mathrm{b} \\neq 0)% thì %(\\sqrt[3]{\\mathrm{m}}=\\frac{\\mathrm{b}}{\\mathrm{a}})% là số hữu tỉ. Trái với giả thiết! %(\\Rightarrow \\mathrm{a}=0 ; \\mathrm{b}=0)%.<br>Từ đó ta tìm được %(\\mathrm{c}=0)%.<br>Ngược lại nếu %(\\mathrm{a}=\\mathrm{b}=\\mathrm{c}=0)% thì (1) luôn đúng.<br>Vậy: %(\\mathrm{a}=\\mathrm{b}=\\mathrm{c}=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho đa thức bậc ba %(\\mathrm{f}(\\mathrm{x}))% với hệ số của %(\\mathrm{x}^{3})% là một số nguyên dương và biết %(\\mathrm{f}(5)-\\mathrm{f}(3)=2010)%. Chứng minh rằng: %(\\mathrm{f}(7)-\\mathrm{f}(1))% là hợp số.",
+        "question_images": [],
+        "solution": "Theo bài ra %(f(x))% có dạng: %(f(x)=a x^{3}+b x^{2}+c x+d)% với a nguyên dương.<br>\\[\\begin{array}{l}\\text { Ta có: } 2010=f(5)-f(3)=\\left(5^{3}-3^{3}\\right) a+\\left(5^{2}-3^{2}\\right) b+(5-3) c \\\\=98 a+16 b+2 c \\Rightarrow 16 b+2 c=(2010-98 a) \\\\begin{aligned}\\text { Ta có } f(7)-f(1) & =\\left(7^{3}-1^{3}\\right) a+\\left(7^{2}-1^{2}\\right) b+(7-1) c \\\\& =342 a+48 b+6 c=342 a+3(16 b+2 c) \\\\= & 342 a+3(2010-98 a)=48 a+6030=3 .(16 a+2010) \\vdots 3\\end{aligned}\\end{array}\\]<br>Vì a nguyên dương nên %(16 a+2010\\gt 1)%. Vậy f(7)-f(1) là hợp số",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Tìm giá trị lớn nhất của biểu thức: %(\\mathrm{P}=\\left|\\sqrt{\\mathrm{x}^{2}-4 \\mathrm{x}+5}-\\sqrt{\\mathrm{x}^{2}+6 \\mathrm{x}+13}\\right|)%",
+        "question_images": [],
+        "solution": "\\[P=\\left|\\sqrt{(x-2)^{2}+1^{2}}-\\sqrt{(x+3)^{2}+2^{2}}\\right|\\]<br>Trên mặt phẳng tọa độ Oxy lấy các điểm %(\\mathrm{A}(\\mathrm{x}-2 ; 1), \\mathrm{B}(\\mathrm{x}+3 ; 2))%<br>Ta chứng minh được: %(\\mathrm{AB}=\\sqrt{(\\mathrm{x}-2-\\mathrm{x}-3)^{2}+(1-2)^{2}}=\\sqrt{25+1}=\\sqrt{26})%<br>\\[\\mathrm{OA}=\\sqrt{(\\mathrm{x}-2)^{2}+1^{2}}, \\mathrm{OB}=\\sqrt{(\\mathrm{x}+3)^{2}+2^{2}}\\]<br>Mặt khác ta có: %(|\\mathrm{OA}-\\mathrm{OB}| \\leq \\mathrm{AB})%<br>\\[\\Rightarrow\\left|\\sqrt{(x-2)^{2}+1^{2}}-\\sqrt{(x+3)^{2}+2^{2}}\\right| \\leq \\sqrt{26}\\]<br>Dấu \"=\" xảy ra khi %(\\mathrm{A})% thuộc đoạn %(\\mathrm{OB})% hoặc B thuộc đoạn %(\\mathrm{OA})% %(\\Rightarrow \\frac{x-2}{x+3}=\\frac{1}{2} \\Rightarrow x=7)%.<br>Thử lại %(x=7)% thì %(A(5 ; 1) ; B(10 ; 2))% nên %(A)% thuộc đoạn %(O B)%.<br>Vậy %(M a x P=\\sqrt{26})% khi %(x=7)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác %(M N P)% có ba góc nhọn và các điểm %(A, B, C)% lần lượt là hình chiếu vuông góc của %(\\mathrm{M}, \\mathrm{N}, \\mathrm{P})% trên %(\\mathrm{NP}, \\mathrm{MP}, \\mathrm{MN})%. Trên các đoạn thẳng %(\\mathrm{AC}, \\mathrm{AB})% lần lượt lấy %(\\mathrm{D}, \\mathrm{E})% sao cho %(\\mathrm{DE})% song song với %(\\mathrm{NP})%. Trên tia %(\\mathrm{AB})% lấy điểm %(\\mathrm{K})% sao cho %(\\mathrm{DMK}=\\mathrm{NMP})%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.75,
+        "content": "a) CM: %(\\mathrm{MD}=\\mathrm{ME})%",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" class=\"image_resized\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0c24e822fb18125bfe2e9639d21b23a7.png\" srcset=\"https://docdn.giainhanh.io/media/test/9f0db1d93f25985d27613cb80ba4f7de.png 196w\" style=\"width:63.12%;\" width=\"196\"/><br>Ta dễ dàng chứng minh tứ giác<br>MBAN nội tiếp %(\\Rightarrow \\mathrm{MAB}=\\mathrm{MNB})%,<br>MCAP nội tiếp %(\\Rightarrow \\mathrm{CAM}=\\mathrm{CPM})%.<br>Lại có %(\\mathrm{BNM}=\\mathrm{CPM})% (cùng phụ góc NMP)%(\\Rightarrow \\mathrm{CAM}=\\mathrm{BAM}\\ (1))%<br>Do DE // NP mặt khác<br>%(\\mathrm{MA} \\perp \\mathrm{NP} \\Rightarrow \\mathrm{MA} \\perp \\mathrm{DE}\\ (2))%<br>Từ (1), (2) %(\\Rightarrow \\triangle \\mathrm{ADE})% cân tại %(\\mathrm{A})%%(\\Rightarrow M A)% là trung trực của %(D E)%%(\\Rightarrow M D=M E)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.25,
+        "content": "b) Tứ giác MDEK nội tiếp. Từ đó suy ra điểm %(M)% là tâm của đường tròn bàng tiếp góc DAK của tam giác DAK.",
+        "question_images": [],
+        "solution": "Do %(\\mathrm{DE} / / \\mathrm{NP})% nên %(\\mathrm{DEK}=\\mathrm{NAB})%, mặt khác tứ giác %(M N A B)% nội tiếp nên:<br>\\[\\mathrm{NMB}+\\mathrm{NAB}=180^{\\circ} \\Rightarrow \\mathrm{NMB}+\\mathrm{DEK}=180^{\\circ}\\]<br>Theo giả thiết %(\\mathrm{DMK}=\\mathrm{NMP} \\Rightarrow \\mathrm{DMK}+\\mathrm{DEK}=180^{\\circ})%%(\\Rightarrow)% Tứ giác MDEK nội tiếp<br>Do %(\\mathrm{MA})% là trung trực của %(\\mathrm{DE} \\Rightarrow \\triangle \\mathrm{MEA}=\\triangle \\mathrm{MDA})%<br>\\[\\Rightarrow \\mathrm{MEA}=\\mathrm{MDA} \\Rightarrow \\mathrm{MEK}=\\mathrm{MDC} \\text {. }\\]<br>Vì %(\\mathrm{MEK}=\\mathrm{MDK} \\Rightarrow \\mathrm{MDK}=\\mathrm{MDC} \\Rightarrow \\mathrm{DM})% là phân giác của góc %(\\mathrm{CDK})%, kết hợp với %(A M)% là phân giác %(D A B \\Rightarrow M)% là tâm của đường tròn bàng tiếp góc %(D A K)% của tam giác DAK.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Trên đường tròn %((O))% lấy hai điểm cố định %(A)% và %(C)% phân biệt. Tìm vị trí của các điểm %(B)% và %(\\mathrm{D})% thuộc đường tròn đó để chu vi tứ giác %(\\mathrm{ABCD})% có giá trị lớn nhất.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" class=\"image_resized\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3f9206b2fa402b32b18e6f8aae5b64bd.png\" srcset=\"https://docdn.giainhanh.io/media/test/5c6617a3bf28418a4360a9c44f46558d.png 140w\" style=\"width:27.85%;\" width=\"140\"/><br>Không mất tổng quát giả sử: %(A B \\leq A C)%.<br>Gọi %(B^{\\prime})% là điểm chính giữa cung %(\\mathrm{ABC} \\Rightarrow \\mathrm{AB}^{\\prime}=\\mathrm{CB}^{\\prime})%<br>Trên tia đối của %(\\mathrm{BC})% lấy điểm %(\\mathrm{A}^{\\prime})% sao cho %(\\mathrm{BA}^{\\prime}=\\mathrm{BA} \\Rightarrow \\mathrm{AB}+\\mathrm{BC}=\\mathrm{CA}^{\\prime})%<br>Ta có: %(\\mathrm{B}^{\\prime} \\mathrm{BC}=\\mathrm{B}^{\\prime} \\mathrm{AC}=\\mathrm{B}^{\\prime} \\mathrm{CA}\\ (1))%<br>%( \\mathrm{B}^{\\prime} \\mathrm{CA}+\\mathrm{B}^{\\prime} \\mathrm{BA}=180^{\\circ}\\ (2))%<br>%(\\mathrm{B}^{\\prime} \\mathrm{BC}+\\mathrm{B}^{\\prime} \\mathrm{BA}^{\\prime}=180^{\\circ}\\ (3))%<br>Từ (1), (2), (3) %(\\Rightarrow \\mathrm{B}^{\\prime} \\mathrm{BA}=\\mathrm{B}^{\\prime} \\mathrm{BA}^{\\prime})%<br>Hai tam giác %(A^{\\prime} B B^{\\prime})% và %(A B B^{\\prime})% bằng nhau %(\\Rightarrow A^{\\prime} B^{\\prime}=B^{\\prime} A)%<br>Ta có %(\\Rightarrow B^{\\prime} A+B^{\\prime} C=B^{\\prime} A^{\\prime}+B^{\\prime} C \\geq A^{\\prime} C=A B+B C\\left(B^{\\prime} A+B^{\\prime} C\\right.)% không đổi vì %(\\mathrm{B}^{\\prime}, \\mathrm{A}, \\mathrm{C})% cố định).<br>Dấu \"=\" xảy ra khi %(\\mathrm{B})% trùng với %(\\mathrm{B})% '.<br>Hoàn toàn tương tự nếu gọi %(D^{\\prime})% là điểm chính giữa cung %(A D C)% thì ta cũng có %(A D^{\\prime}+C D^{\\prime} \\geq A D+C D)%.<br>Dấu \"=\" xảy ra khi %(D)% trùng với %(D^{\\prime})%<br>%(\\Rightarrow)% Chu vi tứ giác %(A B C D)% lớn nhất khi %(B, D)% là các điểm chính giữa các cung %(\\mathrm{AC})% của đường tròn %((\\mathrm{O}))%",
+        "question_type": "essay"
+    }
+]

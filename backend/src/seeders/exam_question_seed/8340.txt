@@ -1,0 +1,65 @@
+[
+    {
+        "title": "1 ",
+        "point": 3.0,
+        "content": "Giải phương trì̀h sau: %(\\sin 2 x+2 \\cos 2 x=1+\\sin x-4 \\cos x)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\sin 2 x+2 \\cos 2 x=1+\\sin x-4 \\cos x \\\\ \\Leftrightarrow 2 \\sin x \\cos x-1+4 \\cos ^{2} x-2-\\sin x+4 \\cos x=0 \\\\ \\Leftrightarrow \\sin x(2 \\cos x-1)+4 \\cos ^{2} x+4 \\cos x-3=0 \\\\ \\Leftrightarrow \\sin x(2 \\cos x-1)+(2 \\cos x-1)(2 \\cos x+3)=0 \\\\ \\Leftrightarrow(2 \\cos x-1)(\\sin x+2 \\cos x+3)=0 \\\\ \\Leftrightarrow\\left[\\begin{array}{l}\\cos x=\\frac{1}{2} \\Leftrightarrow x= \\pm \\frac{\\pi}{3}+k 2 \\pi \\\\ \\sin x+2 \\cos x+3=0(V N)\\end{array}\\right. \\\\ \\Leftrightarrow x= \\pm \\frac{\\pi}{3}+k 2 \\pi\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 3.0,
+        "content": "Cho số nguyên dương %(n)% thỏa mãn điều kiện: %(C_{n}^{n-3}-C_{n-1}^{2}=C_{n-1}^{1} C_{n+3}^{n+2})%.<br>Tìm hệ số của số hạng chứa %(x^{11})% trong khai triển %(x^{3}\\left(x^{n-8}-\\frac{n}{3 x}\\right)^{n})% với %(x \\neq 0)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}C_{n}^{n-3}-C_{n-1}^{2}=C_{n-1}^{1} \\cdot C_{n+3}^{n+2} \\quad \\text { ĐK: }\\left\\{\\begin{array}{l}n \\in \\mathbb{Z}^{+} \\n \\geq 3\\end{array}\\right. \\\\Leftrightarrow \\frac{n!}{(n-3)!3!}-\\frac{(n-1)!}{(n-3)!2!}=\\frac{(n-1)!}{(n-2)!1!} \\cdot \\frac{(n+3)!}{(n+2)!1!} \\\\Leftrightarrow(n-2)(n-1) n-3(n-2)(n-1)=6(n-1)(n+3) \\\\Leftrightarrow n^{2}-11 n-12=0 \\Leftrightarrow\\left[\\begin{array}{l}n=-1(L) \\n=12(T M)\\end{array}\\right. \\\\text { Với } n=12 \\Rightarrow x^{3}\\left(x^{4}-\\frac{4}{x}\\right)^{12}=x^{3} \\sum_{k=1}^{12} C_{12}^{k}\\left(x^{4}\\right)^{12-k}\\left(\\frac{-4}{x}\\right)^{k}=\\sum_{k=1}^{12} C_{12}^{k}(-4)^{k} x^{51-5 k}\\end{array})%<br>Theo bải ra ta có: %(51-5 k=11 \\Leftrightarrow k=8)%<br>Vậy hệ số cần tìm là: %(C_{12}^{8}(4)^{8})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Câu 3: (4 điểm) Cho hình chóp %(S . A B C D)% có đáy %(A B C D)% là hình vuông cạnh %(a)%, mặt bên %(S A D)% là một tam giác cân tại %(\\mathrm{S})% và nằm trong mặt phẳng vuông góc với đáy. Gọi %(M, N, P)% lần lượt là trung điểm của các cạnh %(S B, B C)% và %(C D)%. Biết góc giữa đường thẳng %(S B)% và mặt phẳng %((A B C D))% bằng %(30^{\\circ})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng %(B P \\perp(A M N))%.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{H})% là trung điềm của %(\\mathrm{AD})%Ta có:<br>%(\\left.\\begin{array}{l}(S A D) \\perp(A B C D) \\S H \\perp A D\\end{array}\\right\\} \\Rightarrow S H \\perp(A B C D))%<br>Gọi %(I=A N \\cap B H)%Ta có %(\\mathrm{ABNH})% là hình chữ nhật nên %(\\mathrm{I})% là trung điểm của %(\\mathrm{BH})%<br>%(\\Rightarrow M I / / S H \\Rightarrow M I \\perp(A B C D) \\Rightarrow M I \\perp B P\\quad(1))%<br>Mặt khác %(\\widehat{P B C}+\\widehat{B N A}=\\widehat{B A N}+\\widehat{B N A}=90^{\\circ} \\Rightarrow B P \\perp A N\\quad(2))%<br>Từ %((1),(2))% và %(M I)%,  %(AN\\subset(A M N) \\Rightarrow B P \\perp(A M N))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3b9b4ec6274de82d4d93019d1c6303df.png\" srcset=\"https://docdn.giainhanh.io/media/test/185d6b875c9c58fecbb957d0f88750b8.png 179w, https://docdn.giainhanh.io/media/test/9332e94ae8ad081bd82b5497e1c251fc.png 500w, https://docdn.giainhanh.io/media/test/f56bb5fee57157ebe091e2db41d49a44.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Tính khoảng cách giữa hai đường thẳng %(A B)% và %(S C)%.",
+        "question_images": [],
+        "solution": "Kẻ %(A K \\perp S D, K \\in S D)%<br>Ta có %(\\left.\\begin{array}{l}D C \\perp A D \\\\ D C \\perp S H\\end{array}\\right\\} \\Rightarrow D C \\perp(S A D) \\Rightarrow D C \\perp A K \\Rightarrow A K \\perp(S D C))%<br>Vì %(\\left.\\begin{array}{l}A B / /(S D C) \\\\ S C \\subset(S D C)\\end{array}\\right\\} \\Rightarrow d(A B, S C)=d(A B,(S D C))=d(A,(S D C))=A K)%<br>Ta có %(\\overline{S B,(A B C D))}=\\widehat{S B H}=30^{\\circ})%<br>%(\\Rightarrow S H=B H \\cdot \\tan \\widehat{S B H}=\\sqrt{A B^{2}+A H^{2}} \\cdot \\tan 30^{\\circ}=\\sqrt{a^{2}+\\left(\\frac{a}{2}\\right)^{2}} \\cdot \\frac{1}{\\sqrt{3}}=\\frac{a \\sqrt{15}}{6})%<br>%(\\Rightarrow S D=\\sqrt{S H^{2}+H D^{2}}=\\sqrt{\\left(\\frac{a \\sqrt{15}}{6}\\right)^{2}+\\left(\\frac{a}{2}\\right)^{2}}=\\frac{a \\sqrt{6}}{3})%<br>Ta có %(S H \\cdot A D=A K \\cdot S D \\Rightarrow A K=\\frac{S H \\cdot A D}{S D}=\\frac{\\frac{a \\sqrt{15}}{6} \\cdot a}{\\frac{a \\sqrt{6}}{3}}=\\frac{a \\sqrt{10}}{4})%<br>Vậy %(d(A B, S C)=\\frac{a \\sqrt{10}}{4})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 4.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x+3 \\sqrt{x y+x-y^{2}-y}=5 y+4 \\\\ \\sqrt{4 y^{2}-x-2}+\\sqrt{y-1}=x-1\\end{array} \\quad(x, y \\in \\mathbb{R})\\right.)%.",
+        "question_images": [],
+        "solution": "ĐK : %(\\left\\{\\begin{array}{l}x y+x-y^{2}-y \\geq 0 \\\\ 4 y^{2}-x-2 \\geq 0 \\\\ y \\geq 1\\end{array}\\right.)%<br>%((1) \\Leftrightarrow x-y+3 \\sqrt{(x-y)(y+1)}-4(y+1)=0)%<br>Đặt %(\\sqrt{x-y}=u \\geq 0, \\quad \\sqrt{y+1}=v \\geq \\sqrt{2})%<br>%(\\Rightarrow u^{2}+3 u v-4 v^{2}=0 \\Leftrightarrow(u-v)(u+4 v)=0 \\Leftrightarrow\\left[\\begin{array}{l}u=v \\u=-4 v(L)\\end{array}\\right.)%<br>Với %(u=v \\Rightarrow \\sqrt{x-y}=\\sqrt{y+1} \\Rightarrow x=2 y+1)%<br>Thay vào phương trình (2) ta được:<br>%(\\begin{array}{l}\\sqrt{4 y^{2}-2 y-3}+\\sqrt{y-1}=2 y \\quad \\text { ĐK: } y \\geq \\frac{1+\\sqrt{13}}{4} \\\\Leftrightarrow \\sqrt{4 y^{2}-2 y-3}-(2 y-1)+(\\sqrt{y-1}-1)=0 \\\\Leftrightarrow \\frac{2(y-2)}{\\sqrt{4 y^{2}-2 y-3}+(2 y-1)}+\\frac{y-2}{\\sqrt{y-1}+1}=0 \\\\(y-2)\\left(\\frac{2}{\\sqrt{4 y^{2}-2 y-3}+(2 y-1)}+\\frac{1}{\\sqrt{y-1}+1}\\right)=0(*)\\end{array})%<br>Ta có: %(\\frac{2}{\\sqrt{4 y^{2}-2 y-3}+(2 y-1)}+\\frac{1}{\\sqrt{y-1}+1}\\gt 0, \\forall y \\geq \\frac{1+\\sqrt{13}}{4})% %(\\Rightarrow \\mathrm{PT}(*))% có nghiệm duy nhất là %(y=2 \\Rightarrow x=5)%<br>Vậy tập nghiệm của hệ PT là: %(S=\\{(2 ; 5)\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 3.0,
+        "content": "Cho dãy số %(\\left\\{u_{n}\\right\\})% xác định như sau: %(\\left\\{\\begin{array}{l}u_{1}=1 \\\\ u_{n+1}=\\frac{u_{n}^{2}}{2017}+u_{n}, \\quad n=1,2, \\ldots\\end{array}\\right.)%<br>Tính: %(\\lim _{n \\rightarrow+\\infty}\\left(\\frac{u_{1}}{u_{2}}+\\frac{u_{2}}{u_{3}}+\\cdots+\\frac{u_{n}}{u_{n+1}}\\right))%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Ta có: } u_{n+1}-u_{n}=\\frac{u_{n}^{2}}{2017}, n=1,2,3, \\ldots \\Rightarrow \\frac{u_{n}}{u_{n+1}}=2017\\left(\\frac{1}{u_{n}}-\\frac{1}{u_{n+1}}\\right) \\\\ \\Rightarrow \\frac{u_{1}}{u_{2}}+\\frac{u_{2}}{u_{3}}+\\cdots+\\frac{u_{n}}{u_{n+1}} \\\\ =2017\\left[\\left(\\frac{1}{u_{1}}-\\frac{1}{u_{2}}\\right)+\\left(\\frac{1}{u_{2}}-\\frac{1}{u_{3}}\\right)+\\cdots+\\left(\\frac{1}{u_{n-1}}-\\frac{1}{u_{n}}\\right)+\\left(\\frac{1}{u_{n}}-\\frac{1}{u_{n+1}}\\right)\\right]\\end{array})%<br>%(=2017\\left(\\frac{1}{u_{1}}-\\frac{1}{u_{n+1}}\\right)=2017\\left(1-\\frac{1}{u_{n+1}}\\right))%<br>Từ công thức xác định của dãy %(\\left\\{u_{n}\\right\\})%, ta có: %(1=u_{1}\\lt u_{2}\\lt \\cdots\\lt u_{n+1}\\lt \\cdots)%<br>Vậy dãy %(\\left\\{u_{n}\\right\\})% là dãy tăng.<br>Giả sử dãy %(\\left\\{u_{n}\\right\\})% bị chặn trên. Khi đó tồn tại giới hạn hữu hạn<br>Đặt: %(\\lim _{n \\rightarrow+\\infty} u_{n}=a\\gt 1)%<br>Ta có: %(u_{n+1}=\\frac{u_{n}^{2}}{2017}+u_{n} \\Rightarrow \\lim _{n \\rightarrow+\\infty} u_{n+1}=\\lim _{n \\rightarrow+\\infty}\\left(\\frac{u_{n}^{2}}{2017}+u_{n}\\right))%<br>%(\\Leftrightarrow a=\\frac{a^{2}}{2017}+a \\Leftrightarrow a=0 \\text { (vô lý) })%<br>Do đó %(\\left\\{u_{n}\\right\\})% không bị chặn trên, mà nó lại đơn điệu tăng, nên<br>%(\\begin{array}{l}\\lim _{n \\rightarrow+\\infty} u_{n}=+\\infty \\Rightarrow \\lim _{n \\rightarrow+\\infty} \\frac{1}{u_{n}}=0 \\\\lim _{n \\rightarrow+\\infty}\\left(\\frac{u_{1}}{u_{2}}+\\frac{u_{2}}{u_{3}}+\\cdots+\\frac{u_{n}}{u_{n+1}}\\right)=\\lim _{n \\rightarrow+\\infty} 2017\\left(1-\\frac{1}{u_{n+1}}\\right)=2017\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 3.0,
+        "content": "Cho ba số thực dương %(a, b, c)% thỏa mãn %(a+b+c=\\frac{3}{4})%.<br>Chứng minh rằng: %(\\frac{1}{\\sqrt[3]{a+3 b}}+\\frac{1}{\\sqrt[3]{b+3 c}}+\\frac{1}{\\sqrt[3]{c+3 a}} \\geq 3)%.",
+        "question_images": [],
+        "solution": "Áp dụng bất đẳng thức Cô si cho 3 số dương ta có%((x+y+z)\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right) \\geq 3 \\sqrt[3]{x y z} \\frac{3}{\\sqrt[3]{x y z}}=9)%%(\\Rightarrow \\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z} \\geq \\frac{9}{x+y+z})%<br>Áp dụng %(\\left({ }^{*}\\right))% ta có<br>\\[P=\\frac{1}{\\sqrt[3]{a+3 b}}+\\frac{1}{\\sqrt[3]{b+3 c}}+\\frac{1}{\\sqrt[3]{c+3 a}} \\geq \\frac{9}{\\sqrt[3]{a+3 b}+\\sqrt[3]{b+3 c}+\\sqrt[3]{c+3 a}}\\]<br>Áp dụng bất đẵng thức Cô si ta có<br>\\[\\begin{array}{l}\\sqrt[3]{(a+3 b) \\cdot 1 \\cdot 1} \\leq \\frac{a+3 b+1+1}{3}=\\frac{1}{3}(a+3 b+2) \\\\sqrt[3]{(b+3 c) \\cdot 1 \\cdot 1} \\leq \\frac{b+3 c+1+1}{3}=\\frac{1}{3}(b+3 c+2) \\\\sqrt[3]{(c+3 a) \\cdot 1 \\cdot 1} \\leq \\frac{c+3 a+1+1}{3}=\\frac{1}{3}(c+3 a+2)\\end{array}\\]<br>Suy ra %(\\sqrt[3]{a+3 b}+\\sqrt[3]{b+3 c}+\\sqrt[3]{c+3 a} \\leq \\frac{1}{3}[4(a+b+c)+6])%",
+        "question_type": "essay"
+    }
+]

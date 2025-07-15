@@ -1,0 +1,81 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 2.5,
+        "content": "Tính giá trị biểu thức: %(A=x^{3}+y^{3}-3(x+y))%, biết rằng:<br>\\[x=\\sqrt[3]{3+2 \\sqrt{2}}+\\sqrt[3]{3-2 \\sqrt{2}} \\text { và } y=\\sqrt[3]{17+12 \\sqrt{2}}+\\sqrt[3]{17-12 \\sqrt{2}}.\\]",
+        "question_images": [],
+        "solution": "- Ta có %(x^{3}=(\\sqrt[3]{3+2 \\sqrt{2}}+\\sqrt[3]{3-2 \\sqrt{2}})^{3}=3+2 \\sqrt{2}+3 \\cdot x+3-2 \\sqrt{2}=6+3 x)% và %(y^{3}=(\\sqrt[3]{17+12 \\sqrt{2}}+\\sqrt[3]{17-22 \\sqrt{2}})^{3}=17+12 \\sqrt{2}+3 \\cdot y+17-12 \\sqrt{2}=34+3 y)%<br>- Cộng vế theo vế, ta được: %(x^{3}+y^{3}=40+3 x+3 y \\Leftrightarrow x^{3}+y^{3}-3(x+y)=40)%.<br>- Vậy %(A=40)% khi %(x=\\sqrt[3]{3+2 \\sqrt{2}}+\\sqrt[3]{3-2 \\sqrt{2}})% và %(y=\\sqrt[3]{17+12 \\sqrt{2}}+\\sqrt[3]{17-12 \\sqrt{2}})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.5,
+        "content": "Cho hai số thực %(m, n)% khác 0 thỏa mãn: %(\\frac{1}{m}+\\frac{1}{n}=\\frac{1}{2})%. Chứng minh rằng phương trình: %(\\left(x^{2}+m x+n\\right)\\left(x^{2}+n x+m\\right)=0)% luôn có nghiệm.",
+        "question_images": [],
+        "solution": "- Từ %(\\frac{1}{m}+\\frac{1}{n}=\\frac{1}{2} \\Leftrightarrow 4 m+4 n=2 m \\cdot n \\leq m^{2}+n^{2} \\Leftrightarrow m^{2}+n^{2}-4 m-4 n\\gt 0 \\quad(*))%.<br>Ta có: %(\\left(x^{2}+m x+n\\right)\\left(x^{2}+n x+m\\right)=0 \\quad(1) \\Leftrightarrow\\left[\\begin{array}{l}x^{2}+m x+n=0 \\\\ x^{2}+n x+m=0\\end{array}\\right.)%<br>- Giả sử cả hai phương trình %((2))% và %((3))% đều vô nghiệm:<br>\\[\\Leftrightarrow\\left\\{\\begin{array} { l } { \\Delta _ { 2 } \\lt 0 } \\\\{ \\Delta _ { 3 } \\lt 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}m^{2}-4 n\\lt 0 \\n^{2}-4 m\\lt 0\\end{array} \\longrightarrow m^{2}+n^{2}-4 m-4 n\\lt 0 \\quad(* *) .\\right.\\right.\\]<br>Nhận thấy %((*))% và %((* *))% mâu thuẫn nên giả sử sai. Suy ra trong hai phương trình: (2) và (3) có ít nhất một phương trình có nghiệm.<br>- Do đó phương trình (1) luôn có nghiệm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.5,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x^{2}+x y+y=1~~~~~~~~~(1) \\\\ \\sqrt{x}-\\sqrt[3]{y}+4 x=5~~~~(2)\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Điều kiện %(x \\geq 0)%.<br>Ta có: %((1) \\Leftrightarrow(x+1)(x+y-1)=0 \\Leftrightarrow y=1-x)%. (Do %(x+1\\gt 0)% )<br>- Thay %(y=1-x)% vào (2), ta được: %(\\sqrt{x}-1+\\sqrt[3]{x-1}+4(x-1)=0 \\Leftrightarrow \\frac{x-1}{\\sqrt{x}+1}+\\sqrt[3]{x-1}+4(x-1)=0)%<br>\\[\\Leftrightarrow \\sqrt[3]{x-1} .\\left(\\frac{(\\sqrt[3]{x-1})^{2}}{\\sqrt{x}+1}+1+4(\\sqrt[3]{x-1})^{2}\\right)=0 \\Leftrightarrow x=1\\left(\\mathrm{Vì} \\frac{(\\sqrt[3]{x-1})^{2}}{\\sqrt{x}+1}+1+4(\\sqrt[3]{x-1})^{2}>0, \\forall x \\geq 0\\right) \\text {. }\\]<br>Với %(x=1 \\longrightarrow y=0)%.<br>Vậy hệ phương trình đã cho có nghiệm là: %(\\left\\{\\begin{array}{l}x=1 \\\\ y=0\\end{array}\\right.)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 2.5,
+        "content": "Tìm nghiệm nguyên của phương trình: %(2 x y^{2}+x+y+1=x^{2}+2 y^{2}+x y)%.",
+        "question_images": [],
+        "solution": "Ta có: %((1) \\Leftrightarrow x(x-1)+y(x-1)-2 y^{2}(x-1)=1 \\Leftrightarrow(x-1)\\left(x+y-2 y^{2}\\right)=1)%.<br>Vì %(x, y \\in \\mathbb{Z})% suy ra %(\\left\\{\\begin{array}{l}x-1=1 \\\\ x+y-2 y^{2}=1\\end{array}(I)\\right.)% hoặc %(\\left\\{\\begin{array}{l}x-1=-1 \\\\ x+y-2 y^{2}=-1\\end{array}(I I)\\right.)%.<br>- %((I) \\Leftrightarrow\\left\\{\\begin{array}{l}x=2 \\\\ y=1 \\\\ y=-\\frac{1}{2}\\end{array} \\longrightarrow\\left\\{\\begin{array}{l}x=2 \\\\ y=1\\end{array}\\right.\\right.)%- %((I) \\Leftrightarrow\\left\\{\\begin{array}{l}x=0 \\\\ y=1 \\\\ y=-\\frac{1}{2}\\end{array} \\longrightarrow\\left\\{\\begin{array}{l}x=0 \\\\ y=1\\end{array}\\right.\\right.)%.<br>- Vậy phương trình đã cho có các nghiệm nguyên là: %((0 ; 1))% và %((2 ; 1))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 1.5,
+        "content": "Trong mặt phẳng cho 8073 điểm mà diện tích của mọi tam giác với các đỉnh là các điểm đã cho không lớn hơn 1. Chứng minh rằng trong số các điểm đã cho có thể tìm được 2019 điểm nằm trong hoặc trên cạnh của một tam giác có diện tích không lớn hơn 1.",
+        "question_images": [],
+        "solution": "Gọi %(A_{i} A_{j})% là hai điểm xa nhau nhất trong các điểm thuộc tập hợp 8073 điểm đã cho.<br>- Giả sử %(A_{m})% là điểm cách xa đoạn thẳng %(A_{i} A_{j})% nhất. Khi đó:<br>Tam giác %(A_{i} A_{j} A_{m})% là tam giác lớn nhất và có diện tích không lớn hơn 1 .<br>- Ta vẽ các đường thẳng đi qua các điểm %(A_{i}, A_{j}, A_{m})% lần lượt song song với các cạnh của %(\\triangle A_{i} A_{j} A_{m})%.<br>Ta được 4 tam giác nhỏ bằng nhau và một tam giác lớn chứa cả 4 tam giác nhỏ. Và tam giác lớn này có diện tích không quá 4 đơn vị. Do đó, tam giác lớn này chứa tất cả 8073 điểm đã cho. Nhận thấy %(8073: 4)% được 2018 dư 1. Nên theo nguyên lí Đirichlet, suy ra có ít nhất 1 trong 4 tam giác có 1 tam giác chứa 2019 trong 8073 điểm đã cho.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 1.5,
+        "content": "Cho %(a, b, c)% là các số thực không âm thỏa mãn: %(a+b+c=3)%. Chứng minh rằng:<br>\\[a \\sqrt{b^{3}+1}+b \\sqrt{c^{3}+1}+c \\sqrt{a^{3}+1} \\leq 5 .\\]",
+        "question_images": [],
+        "solution": "- Ta có: %(2 P=2 a \\sqrt{b^{3}+1}+2 b \\sqrt{c^{3}+1}+2 c \\sqrt{a^{3}+1})%<br>\\[=2 a \\sqrt{(b+1)\\left(b^{2}-b+1\\right)}+2 b \\sqrt{(c+1)\\left(c^{2}-c+1\\right)}+2 c \\sqrt{(a+1)\\left(a^{2}-a+1\\right)}\\]<br>\\[\\stackrel{\\text { COSI }}{\\leq} a\\left(b^{2}+2\\right)+b\\left(c^{2}+2\\right)+c\\left(a^{2}+2\\right)=a b^{2}+b c^{2}+c a^{2}+6=M+6\\]<br>- Không mất tính tổng quát, giả sử %(b \\leq c \\leq a)% thì:<br>\\[b(a-c)(c-b) \\geq 0 \\Leftrightarrow a b c+b^{2} c \\geq a b^{2}+b c^{2} \\Leftrightarrow a b^{2}+b c^{2}+c a^{2} \\leq a b c+b^{2} c+c a^{2} .\\]<br>Suy ra %(M \\leq a b c+b^{2} c+c a^{2} \\leq 2 a b c+b^{2} c+c a^{2}=c(a+b)^{2}=4)%.c. %(\\frac{a+b}{2} \\cdot \\frac{a+b}{2})%<br>\\[\\leq \\frac{4}{27}\\left(c+\\frac{a+b}{2}+\\frac{a+b}{2}\\right)^{3}=\\frac{4(a+b+c)^{3}}{27}=4 \\text {. }\\]<br>- Do đó %(2 P \\leq 10 \\Leftrightarrow P \\leq 5)%. Dấu \" %(=)% \" xảy ra khi và chỉ khi %(\\left\\{\\begin{array}{l}a+b+c=3 \\\\ b \\leq c \\leq a \\\\ 2 c=a+b \\\\ a b c=2 a b c\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}b=0 \\\\ c=1 \\text {. } \\\\ a=2\\end{array}\\right.\\right.)%<br>- Vậy với %(a, b, c)% là các số thực không âm thỏa mãn: %(a+b+c=3)% thì<br>\\[a \\sqrt{b^{3}+1}+b \\sqrt{c^{3}+1}+c \\sqrt{a^{3}+1} \\leq 5 .\\]<br>Dấu \" =\" xảy ra khi và chỉ khi %((a ; b ; c)=(0 ; 1 ; 2),(1 ; 2 ; 0),(2 ; 0 ; 1))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7:",
+        "group_content": "Cho tam giác %(A B C)% vuông cân tại %(A)%. Gọi %(D)% là trung điểm của cạnh %(B C)%. Lấy điểm %(M)% bất kỳ trên đoạn %(A D)% ( %(M)% không trùng với %(A)% ). Gọi %(N, P)% theo thứ tự là hình chiếu vuông góc của %(M)% trên các cạnh %(A B, A C)% và %(H)% là hình chiếu vuông góc của %(N)% lên đường thẳng %(P D)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Chứng minh rằng: %(A H \\perp B H)%.",
+        "question_images": [],
+        "solution": "Dễ dàng chứng minh được %(M N A P)% là hình vuông.<br>Ta có %(M N P H)% và %(A N H P)% là các tứ giác nội tiếp nên %(\\widehat{A P N}=\\widehat{A H N}=45^{\\circ})% và %(\\widehat{M H N}=\\widehat{M P N}=45^{\\circ})%<br>Do đó: %(\\overrightarrow{A H N}+\\widehat{N H M}=90^{\\circ})% hay %(A H \\perp B H)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a6a1b9fe5ddec892612e77ffd66c7236.png\" srcset=\"https://docdn.giainhanh.io/media/test/7cadfcc466628ed2a88a76d3e97331ab.png 203w, https://docdn.giainhanh.io/media/test/724bddfcc372819cc68791b377e572b5.png 500w, https://docdn.giainhanh.io/media/test/fedce90f30aea6d876dec8aa1b2fc979.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Đường thẳng qua %(B)% song song với %(A D)% cắt đường trung trực của %(A B)% tại %(I)%. Chứng minh ba điểm %(H, N, I)% thẳng hàng.",
+        "question_images": [],
+        "solution": "Vì %(\\triangle A B I)% và %(\\triangle A B H)% là các tam giác vuông nên tứ giác %(A H B I)% nội tiếp, suy %(\\widehat{B H I}=\\widehat{B A I}=45^{\\circ})%.<br>Lại có %(\\widehat{M H N}=45^{\\circ})% do đó %(N)% nằm trên đường thẳng %(H I)%. Hay %(H, N, I)% thẳng hàng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 3.5,
+        "content": "Cho tam giác nhọn %(A B C)% nội tiếp đường tròn %((O))%, đường cao %(A H)%. Gọi %(M)% là giao điểm củ %(A O)% và %(B C)%. Chứng minh rằng %(\\frac{H B}{H C}+\\frac{M B}{M C} \\geq 2 \\cdot \\frac{A B}{A C~}(*))%. Dấu bằng xảy ra khi nào?",
+        "question_images": [],
+        "solution": "- Kẻ phân giác của góc %(B A C)% cắt %(B C)% tại %(I)%. Suy ra<br>\\[\\frac{I B}{I C}=\\frac{A B}{A C}~~~(1) .\\]<br>- Qua %(C)% kẻ đường thẳng song song với %(A B)% cắt %(A M)% tại %(D)%, cắt %(A I)% tại %(E)% và cắt %(A H)% tại %(K)%.<br>Khi đó: %(\\frac{H B}{H C}=\\frac{A B}{C K} ; \\frac{M B}{M C}=\\frac{A B}{C D})% và %(\\frac{I B}{I C}=\\frac{A B}{C E}~~~(2))%.<br>- Từ (1) và (2) suy ra:<br>\\[(*) \\Leftrightarrow \\frac{A B}{C K}+\\frac{A B}{C D} \\geq 2 \\cdot \\frac{A B}{C E} \\Leftrightarrow \\frac{1}{C K}+\\frac{1}{C D} \\geq \\frac{2}{C E} ~~~\\text { ~~~(3). }\\]<br>- Ta có %(\\widehat{C E A}=\\widehat{B A E}=\\widehat{C A E} \\longrightarrow \\triangle A C E)% cân tại %(C)%, suy ra %(C A=C E)%.<br>Do đó: %((3) \\Leftrightarrow \\frac{1}{C K}+\\frac{1}{C D} \\geq \\frac{2}{C A} \\Leftrightarrow \\frac{C K+C D}{C K \\cdot C D} \\geq \\frac{2}{C A})%%(~~~(4))%.<br>- Sử dụng tính chất, góc nội tiếp và hai góc phụ nhau, ta chứng minh được: %(\\widehat{B A H}=\\widehat{C A D})%, mà %(\\widehat{B A H}=\\widehat{A K C})% (sltr) %(\\longrightarrow \\triangle A K C \\cos \\triangle D A C)%, suy ra %(C D \\cdot C K=C A^{2} \\Leftrightarrow C A=\\sqrt{C D \\cdot C K})%.<br>Thay vào (4) ta được: %(\\frac{C K+C D}{C K . C D} \\geq \\frac{2}{\\sqrt{C K \\cdot C D}} \\Leftrightarrow C K+C D \\geq 2 \\sqrt{C K . C D})% (luôn đúng)<br>Dấu \" %(=)% \" xảy ra khi và chỉ khi %(C K=C D)%, suy ra %(A H)% đi qua %(O \\longrightarrow \\triangle A B C)% cân tại %(A)%, khi đó %(A B=A C)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9468360b2eadd47396817a58cf995c44.png\" srcset=\"https://docdn.giainhanh.io/media/test/48f4a8258f73aecf4ade6ad4ea480df0.png 245w, https://docdn.giainhanh.io/media/test/2b1d7189d6159e063928630146e53754.png 500w, https://docdn.giainhanh.io/media/test/873ea3ff6749929b60745b756470926f.png 750w, https://docdn.giainhanh.io/media/test/22ac7de2f6ea4091566aa869584eb4ad.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    }
+]

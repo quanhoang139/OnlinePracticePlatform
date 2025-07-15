@@ -1,0 +1,104 @@
+[
+    {
+        "title": "Câu 1",
+        "group_content": "Cho biểu thức %(A=\\left(\\frac{x+2}{2-x}-\\frac{2-x}{x+2}-\\frac{4 x^{2}}{x^{2}-4}\\right):\\left(\\frac{2}{x-2}-\\frac{x+3}{2 x-x^{2}}\\right))%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Tìm điều kiện xác định và rút gọn biểu thức A",
+        "question_images": [],
+        "solution": "Điều kiện xác định %(x \\neq \\pm 2 ; x \\neq 3)%. Rút gọn<br>\\[\\begin{array}{l}A=\\left(\\frac{x+2}{2-x}-\\frac{2-x}{x+2}-\\frac{4 x^{2}}{x^{2}-4}\\right):\\left(\\frac{2}{x-2}-\\frac{x+3}{2 x-x^{2}}\\right) \\\\=\\frac{-(x+2)^{2}+(2-x)^{2}-4 x^{2}}{(x-2)(x+2)}: \\frac{2 x+x+3}{x(x-2)}=\\frac{-4 x^{2}-8 x}{(x-2)(x+2)} \\cdot \\frac{x(x-2)}{3 x+3} \\\\=\\frac{-4 x(x+2) \\cdot x}{(x+2) \\cdot 3(x+1)}=\\frac{-4 x^{2}}{x-3}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Tìm các giá trị của %(x)% để %(A\\lt 0)%",
+        "question_images": [],
+        "solution": "Tìm các giá trị của %(x)% để %(A\\lt 0)%<br>\\[A\\lt 0 \\Leftrightarrow \\frac{4 x^{2}}{x-3}\\lt 0 \\Rightarrow\\left\\{\\begin{array}{l}4 x^{2} \\neq 0 \\x-3\\lt 0\\end{array} \\Leftrightarrow x\\lt 3\\right.\\]<br>Kết hợp với điều kiện %(x \\neq \\pm 2 ; x \\neq 0 ; x\\lt 3)% thì %(A\\lt 0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 2.0,
+        "content": "Phân tích đa thức sau thành nhân tử : %(3 x^{3}-7 x^{2}+17 x-5)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}3 x^{3}-7 x^{2}+17 x-5=3 x^{3}-x^{2}-6 x^{2}+2 x+15 x-5 \\\\=x^{2}(3 x-1)-2 x(3 x-1)+5(3 x-1)=(3 x-1)\\left(x^{2}-2 x+5\\right)\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 2.0,
+        "content": "Chứng minh rằng với mọi số tự nhiên %(n)%, biểu thức %(16^{n}-1)% chia hết cho 17 khi và chỉ khi %(n)% là số chẵn",
+        "question_images": [],
+        "solution": "Khi %(n)% là số chẵn, đặt %(n=2 m(m \\in N))%. Ta có :<br>\\[16^{n}-1=\\left(16^{2}\\right)^{m}-1=\\left(16^{2}-1\\right)\\left[\\left(16^{2}\\right)^{m-1}+\\ldots . .+1\\right]=(16-1)(16+1) \\cdot A=15 \\cdot 17 A: 17\\]<br>Khi %(n)% là số lẻ, đặt %(n=2 m+1, m \\in N)%. Ta có<br>\\[\\begin{array}{l}16^{n}-1=16^{2 m+1}-1=\\left(16^{2 m}-1\\right) \\cdot 16+15 \\\\=\\left[\\left(16^{2}\\right)^{m}-1\\right] \\cdot 16+15=\\left(16^{2}-1\\right)\\left(16^{2 m-2}+\\ldots .+16^{2}+1\\right) \\cdot 16+15 \\\\=15 \\cdot 17 \\cdot 16\\left(16^{2 m-2}+\\ldots .+16^{2}+1\\right)+15 \\div 17\\end{array}\\]<br>Vậy biêu thức %(16^{n}-1)% chia hết cho 17 khi và chỉ khi %(n)% là số chẵn",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 1.0,
+        "content": "Tìm dư khi chia %(x^{4}+x^{3}+x^{2}+x+1)% cho %(x^{2}-1)%",
+        "question_images": [],
+        "solution": "Có %(x^{2}-1=(x-1)(x+1))%<br>Đặt %(f(x)=x^{4}+x^{3}+x^{2}+x+1)%. Xét phép chia %(f(x)=x^{4}+x^{3}+x^{2}+x+1)% cho %(x^{2}-1)%. Vì đa thức chia có bậc 2 nên dư có bậc nhỏ hơn 2 . Gọi đa thức dư là %(a x+b)%, gọi thương là %(q(x))% ta có<br>\\[\\begin{array}{l}f(x)=x^{4}+x^{3}+x^{2}+x+1=(x-1)(x+1) q(x)+a x+b \\f(1)=a \\cdot 1+b=5 \\Rightarrow a+b=5 \\f(-1)=a \\cdot(-1)+b=1 \\Rightarrow-a+b=1\\end{array}\\]<br>Giải hệ %(\\left\\{\\begin{array}{l}a+b=5 \\\\ -a+b=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a=2 \\\\ b=3\\end{array}\\right.\\right.)%<br>Vậy dư cần tìm là %(2 x+3)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 2.0,
+        "content": "Giải phương trình sau : %(\\frac{x-5}{100}+\\frac{x-4}{101}+\\frac{x-3}{102}=\\frac{x-100}{5}+\\frac{x-101}{4}+\\frac{x-102}{3})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\frac{x-5}{100}+\\frac{x-4}{101}+\\frac{x-3}{102}=\\frac{x-100}{5}+\\frac{x-101}{4}+\\frac{x-102}{3} \\\\Leftrightarrow \\frac{x-5}{100}-1+\\frac{x-4}{101}-1+\\frac{x-3}{102}-1=\\frac{x-100}{5}-1+\\frac{x-101}{4}-1+\\frac{x-102}{3}-1 \\\\Leftrightarrow \\frac{x-105}{100}+\\frac{x-105}{101}+\\frac{x-105}{102}=\\frac{x-105}{5}+\\frac{x-105}{4}+\\frac{x-105}{3} \\\\Leftrightarrow(x-105)\\left(\\frac{1}{100}+\\frac{1}{101}+\\frac{1}{102}-\\frac{1}{5}-\\frac{1}{4}-\\frac{1}{3}\\right)=0 \\Leftrightarrow x-105=0\\left(\\text { do } \\frac{1}{100}+\\frac{1}{101}+\\frac{1}{102}-\\frac{1}{5}-\\frac{1}{4}-\\frac{1}{3} \\neq 0\\right) \\\\Leftrightarrow x=105\\end{array}\\]<br>Vậy %(S=\\{105\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6 ",
+        "point": 2.0,
+        "content": "Tìm giá trị nhỏ nhất của biểu thức %(A=2 x^{2}+9 y^{2}-6 x y-6 x-12 y+2004)%",
+        "question_images": [],
+        "solution": "Ta có<br>\\[\\begin{array}{l}A=2 x^{2}+9 y^{2}-6 x y-6 x-12 y+2004 \\\\=\\left(x^{2}+9 y^{2}+4-6 x y+4 x-12 y\\right)+\\left(x^{2}-10 x+25\\right)+1975 \\\\=(x-3 y+2)^{2}+(x-5)^{2}+1975\\end{array}\\]<br>\\[\\text { Vì }(x-3 y+2)^{2} \\geq 0 ;(x-5)^{2} \\geq 0(\\forall x, y) \\Rightarrow A \\geq 1975\\]<br>Vậy %(\\operatorname{Min} A=1975 \\Leftrightarrow x=5 ; y=\\frac{7}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7 ",
+        "point": 2.0,
+        "content": "Cho %(x+y=3 ; x^{2}+y^{2}=5)%. Tính %(x^{3}+y^{3})%",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[2 x y=(x+y)^{2}-\\left(x^{2}+y^{2}\\right) \\Leftrightarrow 2 x y=3^{2}-5=4\\left(\\text { do } x+y=3, x^{2}+y^{2}=5\\right) \\Rightarrow x y=2\\]<br>Ta có<br>%(x^{3}+y^{3}=(x+y)\\left(x^{2}+y^{2}\\right)-x y(x+y)=3.5-2.3=9)%<br>Vậy %(x^{3}+y^{3}=9)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8",
+        "group_content": "Cho hình vuông %(A B C D)%.M là một điểm tùy ý trên đường chéo %(B D)%. Kẻ ME vuông góc với %(A B, M F)% vuông góc với AD",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Chứng minh %(D E=C F, D E \\perp C F)%",
+        "question_images": [],
+        "solution": "Tứ giác %(A E M F)% là hình chữ nhật nên %(A E=M F)%, mà %(F D=M F)% (do %(\\triangle F M D)% vuông cân) nên %(A E=D F)%<br>Xét %(\\triangle A E D)% và %(\\triangle D F C)% có %(A E=D F, \\angle E A D=\\angle F D C=90^{\\circ} ; A D=D C)%<br>%(\\Rightarrow \\triangle A E D=\\triangle D F C \\Rightarrow D E=C F)% và %(\\angle A D E=\\angle D C F)%<br>Gọi N là giao điểm của %(E D)% và CF .<br>Ta có %(\\angle A D E+\\angle N D C=90^{\\circ})%<br>Mà %(\\angle A D E=\\angle D C F \\Rightarrow \\angle D C N+\\angle N D C=90^{\\circ} \\Rightarrow \\angle D N C=90^{\\circ} \\Rightarrow D E \\perp C F)%<br><img alt=\"Screenshot 2024-07-14 183838.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/bf00f9a977caeb30da286931a1bd3cfc.png\" srcset=\"https://docdn.giainhanh.io/media/test/504b7458287b34e8a856b4e36f8d7b30.png 188w, https://docdn.giainhanh.io/media/test/843eea99abce203d55c5cfc33fff5178.png 500w, https://docdn.giainhanh.io/media/test/65965fa33bece780458de45129eade00.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "Chứng minh ba đường thẳng %(D E, B F, C M)% đồng quy",
+        "question_images": [],
+        "solution": "Chứng minh ba đường thẳng %(D E, B F, C M)% đồng quy<br>Chứng minh tương tự câu 1 ta có %(B F \\perp C E)%<br>Gọi H là giao điểm của CM và EF , I là giao điểm của %(E M)% và %(C D)%<br>Chứng minh %(\\triangle I M C=\\triangle M F E)% (c.g.c)<br>%(\\Rightarrow \\angle E F M=\\angle C M I)% hay %(\\angle H F M=\\angle C M I)%<br>Suy ra %(\\triangle H F M \\sim \\triangle I M C(g . g) \\Rightarrow \\angle M H F=\\angle C I M=90^{\\circ} \\Rightarrow C M \\perp F E)%<br>Xét %(\\triangle C F E)% có %(C M, E D, B F)% là các đường cao nên %(D E, B F, C M)% đồng quy",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Xác định vị trí của điểm M trên BD để diện tích tứ giác %(A E M F)% lớn nhất",
+        "question_images": [],
+        "solution": "Đặt %(A E=x, A F=y, A B=a)% không đổi %(\\Rightarrow x+y=a)%<br>Ta có : %(S_{A E M F}=x y \\leq \\frac{(x+y)^{2}}{4}=\\frac{a^{2}}{4})%<br>Dấu bằng xảy ra khi %(x=y)%. Khi đó M là trung điểm của BD .<br>Vậy khi M là trung điểm của BD thì diện tích tứ giác %(A E M F)% lớn nhất. Khi đó %(S_{A E M F}=\\frac{a^{2}}{4})%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,97 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Chứng minh rằng: Với mọi số nguyên n thì: %(3^{n+2}-2^{n+2}+3^{n}-2^{n})% chia hết cho 10 .",
+        "question_images": [],
+        "solution": "Ta có %(: 3^{n+2}-2^{n+2}+3^{n}-2^{n}=3^{n} \\cdot 3^{2}-2^{n} \\cdot 2^{2}+3^{n}-2^{n})%<br>\\[\\begin{array}{l}=3^{n}\\left(3^{2}+1\\right)-2^{n}\\left(2^{2}+1\\right) \\\\=3^{n} \\cdot 2.5-2.2^{n-1} .5 \\\\=2.5\\left(3^{n}-2^{n-1}\\right) \\\\=10\\left(3^{n}-2^{n-1}\\right) \\vdots 10\\end{array}\\]<br>Vậy với mọi số nguyên n thì %(3^{\\mathrm{n}+2}-2^{\\mathrm{n}+2}+3^{\\mathrm{n}}-2^{\\mathrm{n}})% chia hết cho 10 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Thực hiện phép tính:<br>\\[B=\\frac{1}{99.97}-\\frac{1}{97.95}-\\frac{1}{95.93}-\\ldots-\\frac{1}{5.3}-\\frac{1}{3.1}\\]",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\mathrm{B}=-\\left(\\frac{1}{1.3}+\\frac{1}{3.5}+\\ldots+\\frac{1}{93.95}+\\frac{1}{95.97}+\\frac{1}{97.99}\\right) \\\\ \\mathrm{B}=-\\frac{1}{2}\\left(\\frac{2}{1.3}+\\frac{2}{3.5}+\\ldots+\\frac{2}{93.95}+\\frac{2}{95.97}+\\frac{2}{97.99}\\right) \\\\ \\mathrm{B}=-\\frac{1}{2}\\left(\\frac{1}{1}-\\frac{1}{3}+\\frac{1}{3}-\\frac{1}{5}+\\ldots+\\frac{1}{93}-\\frac{1}{95}+\\frac{1}{95}-\\frac{1}{97}+\\frac{1}{97}-\\frac{1}{99}\\right) \\\\ \\mathrm{B}=-\\frac{1}{2}\\left(1-\\frac{1}{99}\\right)=-\\frac{1}{2} \\cdot \\frac{98}{99}=-\\frac{49}{99}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.5,
+        "content": "Thực hiện phép tính: %(\\frac{2^{19} \\cdot 27^{3}+15 \\cdot 4^{9} \\cdot 9^{4}}{6^{9} \\cdot 2^{10}+12^{10}})%",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{l}\\frac{2^{19} \\cdot 27^{3}+15 \\cdot 4^{9} \\cdot 9^{4}}{6^{9} \\cdot 2^{10}+12^{10}}=\\frac{2^{19} \\cdot 3^{9}+3 \\cdot 5 \\cdot 2^{15} \\cdot 3^{5}}{2^{9} \\cdot 3^{9} \\cdot 2^{10}+2^{20} \\cdot 3^{10}}=\\frac{2^{19} \\cdot 3^{9}+2^{15} \\cdot 3^{9} \\cdot 5}{2^{19} \\cdot 3^{9}+2^{20} \\cdot 3^{10}} \\\\=\\frac{2^{15} \\cdot 3^{9}(2+5)}{2^{19} \\cdot 3^{9} \\cdot(1+2 \\cdot 3)}=\\frac{7}{2 \\cdot 7}=\\frac{1}{2}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.5,
+        "content": "Tìm %(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})% biết: %(\\frac{\\mathrm{y}+\\mathrm{z}+2}{\\mathrm{x}}=\\frac{\\mathrm{x}+\\mathrm{z}+3}{\\mathrm{y}}=\\frac{\\mathrm{x}+\\mathrm{y}-5}{\\mathrm{z}}=\\frac{1}{\\mathrm{x}+\\mathrm{y}+\\mathrm{z}})%.",
+        "question_images": [],
+        "solution": "Áp dụng tính chất của dãy tỉ số bằng nhau, ta có :<br>\\[\\frac{y+z+2}{x}=\\frac{x+z+3}{y}=\\frac{x+y-5}{z}=\\frac{2 x+2 y+2 z}{x+y+z}=\\frac{2(x+y+z)}{x+y+z}=2\\]<br>Do đó : %(\\frac{1}{x+y+z}=2 \\Rightarrow \\mathrm{x}+\\mathrm{y}+\\mathrm{z}=\\frac{1}{2})%<br>\\[\\Rightarrow\\left\\{\\begin{array}{l}x+y=\\frac{1}{2}-z \\y+z=\\frac{1}{2}-x \\z+x=\\frac{1}{2}-y\\end{array}\\right.\\]<br>Ta có %(: \\frac{y+z+2}{x}=2 \\Leftrightarrow \\frac{\\frac{1}{2}-x+2}{x}=2 \\Leftrightarrow \\frac{1}{2}-x+2=2 x \\Leftrightarrow x=\\frac{5}{6})%<br>\\[\\begin{array}{l}\\frac{x+z+3}{y}=2 \\Leftrightarrow \\frac{\\frac{1}{2}-y+3}{y}=2 \\Leftrightarrow \\frac{1}{2}-y+3=2 y \\Leftrightarrow y=\\frac{7}{6} \\\\frac{x+y-5}{z}=2 \\Leftrightarrow \\frac{\\frac{1}{2}-z-5}{z}=2 \\Leftrightarrow \\frac{1}{2}-z-5=2 z \\Leftrightarrow z=\\frac{-3}{2}\\end{array}\\]<br>Vậy %(x=\\frac{5}{6}, y=\\frac{7}{6}, z=-\\frac{3}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho %(\\frac{\\mathrm{a}}{\\mathrm{b}}=\\frac{\\mathrm{c}}{\\mathrm{d}})%. Chứng minh rằng: %(\\frac{\\mathrm{a}^{2}+\\mathrm{ac}}{\\mathrm{c}^{2}-\\mathrm{ac}}=\\frac{\\mathrm{b}^{2}+\\mathrm{bd}}{\\mathrm{d}^{2}-\\mathrm{bd}})%",
+        "question_images": [],
+        "solution": "Đặt %(\\quad \\frac{\\mathrm{a}}{\\mathrm{b}}=\\frac{\\mathrm{c}}{\\mathrm{d}}=\\mathrm{k} \\Rightarrow\\left\\{\\begin{array}{l}\\mathrm{a}=\\mathrm{bk} \\\\ \\mathrm{c}=\\mathrm{dk}\\end{array}\\right.)%<br>Khi đó ta có :<br>\\[\\begin{array}{l}\\frac{\\mathrm{a}^{2}+\\mathrm{ac}}{\\mathrm{c}^{2}-\\mathrm{ac}}=\\frac{(\\mathrm{bk})^{2}+\\mathrm{bk} \\cdot \\mathrm{dk}}{(\\mathrm{dk})^{2}-\\mathrm{bk} d \\mathrm{dk}} \\\\=\\frac{\\mathrm{b}^{2} \\mathrm{k}^{2}+\\mathrm{bdk}^{2}}{\\mathrm{~d}^{2} \\mathrm{k}^{2}-\\mathrm{bdk}^{2}}=\\frac{\\mathrm{k}^{2}\\left(\\mathrm{~b}^{2}+\\mathrm{bd}\\right)}{\\mathrm{k}^{2}\\left(\\mathrm{~d}^{2}-\\mathrm{bd}\\right)}=\\frac{\\mathrm{b}^{2}+\\mathrm{bd}}{\\mathrm{d}^{2}-\\mathrm{bd}} \\text { bằng biều thức vế phải. }\\end{array}\\]<br>Vậy đẳng thức %(\\frac{\\mathrm{a}^{2}+\\mathrm{ac}}{\\mathrm{c}^{2}-\\mathrm{ac}}=\\frac{\\mathrm{b}^{2}+\\mathrm{bd}}{\\mathrm{d}^{2}-\\mathrm{bd}})% được chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Tìm x biết: %(|\\mathrm{x}+2|=\\left|2012 \\mathrm{x}^{2}+4024 \\mathrm{x}\\right|)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}|x+2|=\\left|2012 x^{2}+4024 x\\right| \\Leftrightarrow\\left[\\begin{array}{l}x+2=2012 x^{2}+4024 x \\\\ -x-2=2012 x^{2}+4024 x\\end{array}\\right. \\\\ \\Leftrightarrow\\left[\\begin{array}{l}2012 x(x+2)-(x+2)=0 \\\\ 2012 x(x+2)+(x+2)=0\\end{array}\\right. \\\\ \\Leftrightarrow\\left[\\begin{array}{l}(x+2)(2012 x-1)=0 \\\\ x+2)(2012 x+1)=0\\end{array}\\right. \\\\ \\Leftrightarrow\\left[\\begin{array}{l}{\\left[\\begin{array}{l}x+2=0 \\\\ 2012 x-1=0 \\\\ x+2=0 \\\\ 2012 x+1=0\\end{array}\\left[\\begin{array}{l}x=-2 \\\\ x=\\frac{1}{2012} \\\\ x=-2\\end{array}\\right.\\right.} \\\\ \\text { Vậy } x \\in\\left\\{-2 ; \\frac{1}{2012} ;-\\frac{1}{2012}\\right.\\end{array}\\right\\}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Tìm giá trị lớn nhất của biều thức: %(\\mathrm{B}=\\frac{\\mathrm{x}^{2}+15}{\\mathrm{x}^{2}+3})%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Ta có }: \\mathrm{B}=\\frac{\\mathrm{x}^{2}+15}{\\mathrm{x}^{2}+3}=\\frac{12+\\left(\\mathrm{x}^{2}+3\\right)}{\\mathrm{x}^{2}+3}=\\frac{12}{\\mathrm{x}^{2}+3}+\\frac{\\mathrm{x}^{2}+3}{\\mathrm{x}^{2}+3}=\\frac{12}{\\mathrm{x}^{2}+3}+1 \\\\text { Vì } \\mathrm{x}^{2} \\geq 0 \\forall \\mathrm{x} \\\\text { Nên } \\mathrm{x}^{2}+3 \\geq 3 \\forall \\mathrm{x} \\\\Rightarrow \\frac{12}{\\mathrm{x}^{2}+3} \\leq \\frac{12}{3}=4 \\forall \\mathrm{x} \\\\Rightarrow \\frac{12}{\\mathrm{x}^{2}+3}+1 \\leq 4+1=5 \\forall \\mathrm{x} \\\\text { Hay } \\mathrm{B} \\leq 5 \\forall \\mathrm{x}\\end{array}\\]<br>Vậy %(\\operatorname{MaxB}=5)% khi %(x^{2}+3=3 \\Leftrightarrow x^{2}=0 \\Leftrightarrow x=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho tam giác ABC cân %((\\mathrm{AB}=\\mathrm{AC})%, góc A tù %())%. Trên cạnh BC lấy điểm D , trên tia đối của CB lấy điểm E sao cho %(\\mathrm{BD}=\\mathrm{CE})%. Trên tia đối của CA lấy điểm I sao cho %(\\mathrm{CI}=\\mathrm{CA})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "a) Chứng minh: %(\\triangle \\mathrm{ABD}=\\triangle \\mathrm{ICE})%",
+        "question_images": [],
+        "solution": "\\[\\Delta \\mathrm{ABC} \\text { có } \\mathrm{AB}=\\mathrm{AC}(\\mathrm{gt})\\]<br>Mà %(\\mathrm{AC}=\\mathrm{IC})% (gt) nên %(\\mathrm{AB}=\\mathrm{IC})%Xét %(\\triangle \\mathrm{ABD})% và %(\\triangle \\mathrm{ICE})% có :<br>\\[\\begin{array}{l}\\mathrm{AB}=\\mathrm{IC}(\\mathrm{cmt}) \\\\widehat{B}\\lt \\widehat{E C I} \\text { (vì cùng bằng } \\widehat{A C B} \\text { ) } \\\\mathrm{BD}=\\mathrm{CE}(\\mathrm{gt})\\end{array}\\]<br>Do đó %(\\triangle \\mathrm{ABD}=\\triangle \\mathrm{ICE})% (c.g.c)<br>Suy ra AD = IE (hai cạnh tương ứng)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3737a1f0fc354c2ad8259bf3c6dfcc32.png\" srcset=\"https://docdn.giainhanh.io/media/test/d1414fe8dd18ff60d27e24334fb83f2c.png 245w, https://docdn.giainhanh.io/media/test/6f8856fba1815271249b949a288109f4.png 500w, https://docdn.giainhanh.io/media/test/322357d54ba09fffa284edda1a61b45d.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "b) Chứng minh: %(\\mathrm{AB}+\\mathrm{AC}\\lt \\mathrm{AD}+\\mathrm{AE})%.",
+        "question_images": [],
+        "solution": "Ta có %(\\mathrm{AB}+\\mathrm{AC}=\\mathrm{IC}+\\mathrm{AC}=\\mathrm{AI})% (1)<br>Áp dụng bất đẳng thức tam giác vào %(\\triangle \\mathrm{AIE})% có<br>\\[\\begin{array}{l}\\mathrm{AI}\\lt \\mathrm{AE}+\\mathrm{IE} \\\\text { Mà } \\mathrm{IE}=\\mathrm{AD} \\text { ( cmt) } \\\\text { Nên } \\mathrm{AI}\\lt \\mathrm{AE}+\\mathrm{AD} \\text { (2) }\\end{array}\\]<br>Từ (1) và (2) suy ra %(\\mathrm{AB}+\\mathrm{AC}\\lt \\mathrm{AE}+\\mathrm{AD})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "c) Từ D và E kẻ các đường thẳng cùng vuông góc với BC cắt %(\\mathrm{AB}, \\mathrm{AI})% theo thứ tụ tại M và N . Chứng minh %(\\mathrm{BM}=\\mathrm{CN})%.",
+        "question_images": [],
+        "solution": "Xét %(\\triangle \\mathrm{DBM})% vuông tại D và %(\\triangle \\mathrm{ECN})% vuông tại E có :<br>\\[\\begin{array}{l}\\mathrm{BD}=\\mathrm{CE}(\\mathrm{gt}) \\\\hat{B}\\lt \\widehat{E C N}\\end{array}\\]<br>Do đó %(\\triangle \\mathrm{DBM}=\\Delta \\mathrm{ECN})% (cgv - gnk)<br>Suy ra %(\\mathrm{BM}=\\mathrm{CN})% ( hai cạnh tương ứng)",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 1.0,
+        "content": "Cho tam giác %(\\mathrm{ABC}, \\mathrm{M})% là trung điểm của BC . Chứng minh rằng %(\\mathrm{MA}\\lt \\frac{1}{2}(\\mathrm{AB}+\\mathrm{AC}))%.",
+        "question_images": [],
+        "solution": "Kẻ Mx là tia đối của tia MA , trên tia Mx lấy điểm D sao cho %(\\mathrm{MD}=\\mathrm{MA})%<br>Xét %(\\triangle \\mathrm{AMB})% và %(\\triangle \\mathrm{DMC})% có<br>\\[\\begin{array}{l}\\mathrm{BM}=\\mathrm{MC} \\text { (gt) } \\\\widehat{A M B}\\lt \\widehat{D M C} \\text { (đối đỉnh) } \\\\mathrm{AM}=\\mathrm{MD} \\text { (cách vẽ) }\\end{array}\\]<br>Do đó %(\\triangle \\mathrm{AMB}=\\triangle \\mathrm{DMC})% (c.g.c)%(\\Rightarrow \\mathrm{AB}=\\mathrm{DC})% ( hai cạnh tương ứng)<br>Áp dụng bất đẳng thức tam giác vào %(\\triangle \\mathrm{ACD})% có<br>\\[\\mathrm{AD}\\lt \\mathrm{AC}+\\mathrm{CD}(1)\\]<br>Mà %(\\left\\{\\begin{array}{l}\\mathrm{AD}=2 \\mathrm{AM} \\\\ \\mathrm{CD}=\\mathrm{AB}\\end{array}\\right.)%<br>Từ (1) và %((2) \\Rightarrow 2 \\mathrm{AM}\\lt \\mathrm{AC}+\\mathrm{AB})%%(\\Rightarrow \\mathrm{AM}\\lt \\frac{\\mathrm{AB}+\\mathrm{AC}}{2})% (đpcm)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/236c4aa4a59840d611130b90be6e6587.png\" srcset=\"https://docdn.giainhanh.io/media/test/b9905afc747d58a04bf2f33b9f66a77c.png 163w, https://docdn.giainhanh.io/media/test/0f651ee0002e120ce4703b289c29476e.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

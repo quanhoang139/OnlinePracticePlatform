@@ -1,0 +1,66 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Cho hàm số %(y=x^{4}-m x^{2}+m-1)% có đồ thị là %(\\left(C_{m}\\right))%. Tìm tất cả các giá trị thực của tham số %(m)% để đồ thị %(\\left(C_{m}\\right))% cắt trục hoành tại bốn điểm phân biệt.",
+        "question_images": [],
+        "solution": "Phương trình hoành độ giao điểm của %(\\left(C_{m}\\right))% và trục hoành là:<br>%(x^{4}-m x^{2}+m-1=0\\quad(1))%<br>Đặt %(t=x^{2}(t \\geq 0))%. Khi đó (1) %(\\Leftrightarrow t^{2}-m t+m-1=0)% (2) %(\\Leftrightarrow\\left[\\begin{array}{l}t=1 \\\\ t=m-1\\end{array}\\right.)%<br>Yêu cầu bài toán %(\\Leftrightarrow(1))% có 4 nghiệm phân biệt<br>%(\\Leftrightarrow(2))% có hai nghiệm phân biệt dương %(\\Leftrightarrow 0\\lt m-1 \\neq 1)%<br>%(\\Leftrightarrow\\left\\{\\begin{array} { l } { m \\gt 1 } \\\\{ m \\neq 2 }\\end{array} \\text { . Vậy } \\left\\{\\begin{array}{l}m>1 \\m \\neq 2\\end{array}\\right.\\right. \\text {. })%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho hàm số %(y=f(x))% liên tục trên %(\\mathbb{R})% thỏa mãn %(f\\left(x^{3}+2 x-2\\right)=2 x-1)%. Tính tích phân %(I=\\int_{1}^{10} f(x) \\mathrm{d} x)%.",
+        "question_images": [],
+        "solution": "Ta có: %(I=\\int_{1}^{10} f(x) \\mathrm{d} x=\\int_{1}^{10} f(t) d t)%.<br>Đặt %(t=x^{3}+2 x-2 \\Rightarrow \\mathrm{d} t=\\left(3 x^{2}+2\\right) \\mathrm{d} x)%.<br>Đổi cận:<br>%(\\begin{array}{l}t=1 \\Rightarrow x=1 \\t=10 \\Rightarrow x=2\\end{array})%<br>Khi đó: %(I=\\int_{1}^{10} f(t) d t=\\int_{1}^{2} f\\left(x^{3}+2 x-2\\right)\\left(3 x^{2}+2\\right) d x)%.<br>%(=\\int_{1}^{2}(2 x-1)\\left(3 x^{2}+2\\right) d x=\\frac{39}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các giá trị thực của tham số %(m)% để phương trình %(25^{x}-2.10^{x}+m^{2} 4^{x}=0)% có hai nghiệm trái dấu.",
+        "question_images": [],
+        "solution": "%(25^{x}-2.10^{x}+m^{2} 4^{x}=0(1) \\Leftrightarrow\\left(\\frac{5}{2}\\right)^{2 x}-2\\left(\\frac{5}{2}\\right)^{x}+m^{2}=0)%<br>Đặt %(t=\\left(\\frac{5}{2}\\right)^{x}\\gt 0)%. Phương trình (1) có dạng:<br>%(t^{2}-2 t+m^{2}=0 \\Leftrightarrow m^{2}=-t^{2}+2 t \\quad \\text { (2) })%<br>Để phương trình (1) có hai nghiệm trái dấu thì phương trình (2) phải có hai nghiệm %(t_{1}, t_{2})% thỏa mãn: %(0\\lt t_{1}\\lt 1\\lt t_{2})%<br>Số nghiệm phương trình (2) là số giao điểm của đồ thị hàm số %(g(t)=-t^{2}+2 t, t \\in(0 ;+\\infty))% và đường thẳng %(d: y=m^{2})%.<br>Xét hàm số %(g(t)=-t^{2}+2 t)% với %(t>0)%<br>%(g^{\\prime}(t)=-2 t+2 ; g^{\\prime}(t)=0 \\Leftrightarrow t=1 ; \\lim _{t \\rightarrow+\\infty} g(t)=-\\infty)%<br>BBT:<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c852117be47d96efa7a6f85c75535790.png\" srcset=\"https://docdn.giainhanh.io/media/test/d42dee6ad748d6008bf3d6b31e761b7c.png 245w, https://docdn.giainhanh.io/media/test/a06e972d8fef5874f08c7da6b2c42803.png 500w, https://docdn.giainhanh.io/media/test/eba92213541f56a8db2208c03867b86c.png 750w\" width=\"750\"/><br>Từ bảng biến thiên suy ra %(0\\lt m^{2}\\lt 1 \\Leftrightarrow m \\in(-1 ; 0) \\cup(0 ; 1))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Cho hình lăng trụ %(A B C D \\cdot A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime})% có đáy %(A B C D)% là hình thoi. Hình chiếu vuông góc của %(A^{\\prime})% lên %((A B C D))% là trọng tâm của tam giác %(A B D)%. Biết %(A B=a)%, %(\\widehat{A B C}=120^{\\circ}, A A^{\\prime}=a)%. Tính thể tích khối lăng trụ %(A B C D \\cdot A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime})% theo %(a)%.",
+        "question_images": [],
+        "solution": "Gọi %(H)% là trọng tâm của tam giác %(A B D \\Rightarrow A^{\\prime} H \\perp(A B C D))%.<br>%(\\widehat{B A D}=180^{\\circ}-\\widehat{A B C}=60^{\\circ})% nên tam giác %(A B D)% đều cạnh %(a \\Rightarrow A H=\\frac{a \\sqrt{3}}{3})%<br>%(S_{A B C D}=2 S_{\\triangle A B D}=2 \\cdot \\frac{a^{2} \\sqrt{3}}{4}=\\frac{a^{2} \\sqrt{3}}{2})%<br>%(V_{A B C D A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime}}=A^{\\prime} H \\cdot S_{A B C D}=\\frac{a^{3} \\sqrt{2}}{2})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a31beeeb45fa576261b42929b522fa1e.png\" srcset=\"https://docdn.giainhanh.io/media/test/1cfd7f7c7ab7fe9bce9fd9465c74485f.png 245w, https://docdn.giainhanh.io/media/test/42f7cf4030ea0b633818b46045c805b2.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Trong không gian với hệ tọa độ %(O x y z)%, cho đường thẳng %(d: \\frac{x-3}{1}=\\frac{y-3}{3}=\\frac{z}{2})%, mặt phẳng %((\\alpha): x+y-z+3=0)% và điểm %(A(1 ; 2 ;-1))%. Viết phương trình chính tắc của đường thẳng %(\\Delta)% đi qua điểm %(A)%, cắt đường thẳng %(d)% và song song với mặt phẳng %((\\alpha))%.",
+        "question_images": [],
+        "solution": "Mặt phẳng %((\\alpha))% có vectơ pháp tuyến %(\\vec{n}=(1 ; 1 ;-1))%<br>Gọi %(M=d \\cap \\Delta \\Rightarrow M(3+t ; 3+3 t ; 2 t) \\Rightarrow \\overrightarrow{A M}=(2+t ; 1+3 t ; 2 t+1))%<br>%(\\Delta / /(\\alpha) \\Rightarrow \\overrightarrow{A M} \\cdot \\vec{n}=0 \\Leftrightarrow t=-1)%<br>Vectơ chỉ phương của đường thẳng %(\\Delta)% là %(\\overrightarrow{A M}=(1 ;-2 ;-1))%<br>Phương trình chính tắc của %(\\Delta)% là: %(\\frac{x-1}{1}=\\frac{y-2}{-2}=\\frac{z+1}{-1})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 4.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x^{2}+2 y^{2}+x+y=6+3 x y \\\\ x^{3}-2 x^{2}+y+\\sqrt{2 x-3}=\\sqrt[4]{1-2 y}\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}x^{2}+2 y^{2}+x+y=6+3 x y \\x^{3}-2 x^{2}+y+\\sqrt{2 x-3}=\\sqrt[4]{1-2 y} \\quad(2)\\end{array}\\right.)%<br>2. Điều kiện %(x \\geq \\frac{3}{2})% và %(y \\leq \\frac{1}{2})%(1) viết lại là %(x^{2}+(1-3 y) x+2 y^{2}+y-6=0)%.<br>Do đó %(\\left[\\begin{array}{l}x=y+2 \\\\ x=2 y-3\\end{array}\\right.)%.<br>Vì điều kiện nên ta loại %(x=2 y-3)%.<br>Thay %(y=x-2)% vào (2) ta được phương trình<br>%(x^{3}-2 x^{2}+x-2+\\sqrt{2 x-3}-\\sqrt[4]{5-2 x}=0)%<br>Xét hàm số %(f(x)=x^{3}-2 x^{2}+x-2+\\sqrt{2 x-3}-\\sqrt[4]{5-2 x}=0)% với %(x \\in\\left[\\frac{3}{2} ; \\frac{5}{2}\\right])%<br>ta có %(f^{\\prime}(x)=3 x^{2}-4 x+1+\\frac{1}{\\sqrt{2 x-3}}+\\frac{1}{2 \\sqrt[4]{(5-2 x)^{3}}}\\gt 0)% với %(x \\in\\left[\\frac{3}{2} ; \\frac{5}{2}\\right])%<br>nên %(f(x))% đồng biến trên %(\\left(\\frac{3}{2} ; \\frac{5}{2}\\right))%<br>Nhận thấy %(x=2)% là nghiệm của (3). Do đó %(x=2)% là nghiệm duy nhất.<br>Vậy hệ có nghiệm %((x, y)=(2,0))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 3.0,
+        "content": "Cho các số thực không âm %(a, b, c)% thỏa mãn %(a+b+c=1)%. Tìm giá trị lớn nhất của biểu thức %(P=a b+3 a c+5 b c)%.",
+        "question_images": [],
+        "solution": "Theo giả thiết ta có: %(\\begin{array}{l}c=1-(a+b) \\geq 0 \\Leftrightarrow 0 \\leq a+b \\leq 1 \\a+c=1-b \\geq 0 \\Leftrightarrow 0 \\leq b \\leq 1\\end{array})%<br>Khi đó %(a b+3 a c+5 b c=a b+3 c(a+b)+2 b c=a b+3(1-(a+b))(a+b)+2 b(1-(a+b))%<br>\\[=3\\left[-(a+b)^{2}+(a+b)\\right]+2\\left(-b^{2}+b\\right)-a b\\]<br>Xét hàm %(f(x)=-x^{2}+x, x \\in[0 ; 1])%. Dễ thấy %(f(x) \\leq \\frac{1}{4} \\forall x \\in[0 ; 1])%<br>Theo chứng minh trên %(a+b \\in[0 ; 1] ; b \\in[0 ; 1])% nên %(f(a+b) \\leq \\frac{1}{4} ; f(b) \\leq \\frac{1}{4} ;-a b \\leq 0)%<br>Suy ra %(a b+3 a c+5 b c \\leq 3 \\cdot \\frac{1}{4}+2 \\cdot \\frac{1}{4}=\\frac{5}{4})%<br>Dấu đẳng thức xảy ra khi %(a=0 ; b=c=\\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 3.0,
+        "content": "Có %(20)% người xếp thành một vòng tròn. Hỏi có bao nhiêu cách chọn ra %(5)% người sao cho không có hai người kề nhau được chọn.",
+        "question_images": [],
+        "solution": "Ta giải bài toán tồng quát sau: Có %(n)% người xếp thành một hàng dọc. Có bao nhiêu cách chọn ra %(k)% người, sao cho không có hai người kề nhau được chọn?<br>Giả sử ta chọn được %(k)% người. Gọi %(x_{I})% là số người tính từ người đầu tiên đến trước người thứ nhất được chọn, %(x_{2})% là số người giữa người thứ nhất được chọn và người thứ hai được chọn, %(\\ldots, x_{k})% là số người giữa người thứ %(k-1)% và người thứ %(k)% được chọn và %(x_{k+1})% là số người sau người thứ %(k)% được chọn đến cuối. Khi đó ta có : %(x_{1}+x_{2}+\\ldots+x_{k+1}=n-k)%<br>Với %(x_{1}, x_{k+1})% là các số nguyên không âm ; %(x_{2}, \\ldots, x_{k})% là các số nguyên %(\\geq 1)%.<br>Ngược lại, nếu %(\\left(x_{l}, \\ldots, x_{k+1}\\right))% là một nghiệm của (1) với %(x_{1}, x_{k+1} \\geq 0, x_{2}, \\ldots, x_{k} \\geq)% 1 thì ta cho tương ứng với cách chọn người thứ %(1+x_{1}, 2+x_{1}+x_{2}, \\ldots)%, %(k+x_{I}+\\ldots+x_{k})% thì rõ ràng do %(\\left(i+x_{I}+\\ldots+x_{i}\\right)-\\left(i-1+x_{I}+\\ldots+x_{i-1}\\right)=1+x_{i} \\geq 2)% nên không có 2 người liên tiếp được chọn.<br>Đặt %(y_{1}=x_{1}, y_{k+1}=x_{k+1})% và %(y_{i}=x_{i}-1)% với %(i=2, \\ldots, k)% thì được %(y_{1}+y_{2}+\\ldots+y_{k+1}=n-2 k+1)% (2) với %(y_{i})% là các số nguyến không âm.Theo kết quả định lý chia kẹo của Euler, ta có số nghiệm của (2) bằng %(C_{n-k+1}^{k})%.<br>Giả sử 20 người đó được đánh số %(1,2, \\ldots, 20)%. Ta xét các trường hợp sau :<br>%(\\mathrm{TH} 1)% : Người số 1 được chọn. Khi đó người số 2 và số 20 không được chọn. Như vậy ta phải chọn thêm 4 người từ 3 đến 19 sao cho không có hai người kề nhau được chọn. Vì 19 không kề 3 nên có thể coi đây là 17 người xếp theo một hàng dọc. Theo kết quả của bài toán trên, số cách chọn bằng %(C_{14}^{4})%.<br>%(\\mathrm{TH} 2)% : Người số 1 không được chọn. Khi đó ta cần chọn 5 người từ số 2 đến 20 sao cho không có 2 người kề nhau được chọn. Vì 2 và 20 không kề nhau nên có thể coi đây là 19 người xếp theo một hàng dọc. Theo kết quả của bài toán trên, số cách chọn bằng %(C_{15}^{5})%.<br>%(C_{14}^{4}+C_{15}^{5}=4004)%",
+        "question_type": "essay"
+    }
+]

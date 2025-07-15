@@ -1,0 +1,96 @@
+[
+    {
+        "title": "Câu 1",
+        "group_content": "Cho biểu thức:<br>\\[A=\\left(\\frac{6 x+1}{x^{2}-6 x}+\\frac{6 x-1}{x^{2}+6 x}\\right) \\cdot \\frac{x^{2}-36}{12 x^{2}+12}\\]",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Tìm tập xác định và rút gọn biểu thức %(A)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { TXĐ: } x \\neq 0 ; x \\neq \\pm 6 \\A=\\left[\\frac{6 x+1}{x(x-6)}+\\frac{6 x-1}{x(x+6)}\\right] \\cdot \\frac{(x+6)(x-6)}{12\\left(x^{2}+1\\right)} \\\\=\\frac{6 x^{2}+36 x+x+6+6 x^{2}-36 x-x+6}{x} \\cdot \\frac{1}{12\\left(x^{2}+1\\right)} \\\\=\\frac{12\\left(x^{2}+1\\right)}{x} \\cdot \\frac{1}{12\\left(x^{2}+1\\right)}=\\frac{1}{x}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Tính giá trị của biểu thức %(A)% với %(x=\\frac{1}{\\sqrt{9+4 \\sqrt{5}}})%",
+        "question_images": [],
+        "solution": "%(A=\\frac{1}{x}=\\frac{1}{\\frac{1}{\\sqrt{9+4 \\sqrt{5}}}}=\\sqrt{9+4 \\sqrt{5}}=2+\\sqrt{5})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 2.0,
+        "content": "Cho %(a, b)% là bình phương của hai số nguyên lẻ liên tiếp. Chứng minh rằng: %(a b-a-b+1)% chia hết cho 192",
+        "question_images": [],
+        "solution": "Vì %(a, b)% là hai số chính phương liên tiếp nên giả sử %(a\\lt b)%, ta có:<br>\\[\\begin{array}{l}a=(2 k-1)^{2} ; b=(2 k+1)^{2} \\text { với } k \\in \\mathbb{Z}, k \\neq 0 \\a b-a-b+1=(a-1)(b-1)=16 k^{2}(k-1)(k+1)\\end{array}\\]<br>Vì %(k(k+1)(k-1))% luôn chia hết cho 3, với mọi %(k \\in \\mathbb{Z})%<br>Và %(k^{2}(k+1)(k-1))% luôn chia hết cho 4 , với mọi %(k \\in \\mathbb{Z})%<br>Kết hợp với %((3,4)=1)%<br>Nên %(a b-a-b+1)% chia hết cho %(16.12=192)% (dfcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 1.5,
+        "content": "Chứng minh bất đẳng thức : %(x^{2}+y^{2}-x y \\geq x+y-1)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}x^{2}+y^{2}-x y \\geq x+y-1 \\\\Leftrightarrow x^{2}+y^{2}+1-x y-x-y \\geq 0 \\\\Leftrightarrow 2 x^{2}+2 y^{2}+2-2 x y-2 x-2 y \\geq 0 \\\\Leftrightarrow(x-y)^{2}+(x-1)^{2}+(y-1)^{2} \\geq 0\\end{array}\\]<br>Bất đẳng thức luôn luôn đúng<br>Vậy %(x^{2}+y^{2}-x y \\geq x+y-1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 1.5,
+        "content": "Cho: %(\\frac{a}{b-c}+\\frac{b}{c-a}+\\frac{c}{a-b}=0)%. Chứng minh rằng:<br>\\[\\left(\\frac{a}{b-c}\\right)^{2}+\\left(\\frac{b}{c-a}\\right)^{2}+\\left(\\frac{c}{a-b}\\right)^{2}=2\\]",
+        "question_images": [],
+        "solution": "Ta có:<br>%(\\begin{array}{l}\\frac{a}{b-c}+\\frac{b}{c-a}+\\frac{c}{a-b}=0 \\\\ \\Leftrightarrow\\left(\\frac{a}{b-c}+\\frac{b}{c-a}+\\frac{c}{a-b}\\right)^{2}=0 \\\\ \\Leftrightarrow\\left(\\frac{a}{b-c}\\right)^{2}+\\left(\\frac{b}{c-a}\\right)^{2}+\\left(\\frac{c}{a-b}\\right)^{2}+2 \\frac{a b}{(b-c)(c-a)}+2 \\frac{b c}{(c-a)(a-b)}+2 \\frac{c a}{(a-b)(b-c)}=0 \\\\ \\Leftrightarrow\\left(\\frac{a}{b-c}\\right)^{2}+\\left(\\frac{b}{c-a}\\right)^{2}+\\left(\\frac{c}{a-b}\\right)^{2}+2 \\frac{a b c}{(b-c)(c-a)(a-b)}\\left(\\frac{a-b}{c}+\\frac{b-c}{a}+\\frac{c-a}{b}\\right)=0 \\\\ \\Leftrightarrow\\left(\\frac{a}{b-c}\\right)^{2}+\\left(\\frac{b}{c-a}\\right)^{2}+\\left(\\frac{c}{a-b}\\right)^{2}+2 \\frac{a b c}{(b-c)(c-a)(a-b)} \\cdot \\frac{a b(a-b)+b c(b-c)+c a(c-a)}{a b c}=0 \\\\ \\Leftrightarrow\\left(\\frac{a}{b-c}\\right)^{2}+\\left(\\frac{b}{c-a}\\right)^{2}+\\left(\\frac{c}{a-b}\\right)^{2}+2 \\frac{a b c}{(b-c)(c-a)(a-b)} \\cdot \\frac{a(a-b)(b-c)-c(b-c)(a-b)}{a b c}=0\\end{array})%<br>%(\\begin{array}{l}\\Leftrightarrow\\left(\\frac{a}{b-c}\\right)^{2}+\\left(\\frac{b}{c-a}\\right)^{2}+\\left(\\frac{c}{a-b}\\right)^{2}+2 \\cdot \\frac{a b c}{(b-c)(c-a)(a-b)} \\cdot \\frac{(a-b)(b-c)(a-c)}{a b c}=0 \\\\ \\Leftrightarrow\\left(\\frac{a}{b-c}\\right)^{2}+\\left(\\frac{b}{c-a}\\right)^{2}+\\left(\\frac{c}{a-b}\\right)^{2}-2=0 \\\\ \\Leftrightarrow\\left(\\frac{a}{b-c}\\right)^{2}+\\left(\\frac{b}{c-a}\\right)^{2}+\\left(\\frac{c}{a-b}\\right)^{2}=2(d f c m)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 4.0,
+        "content": "Một xe máy khởi hành từ Đầm Hà đi Hạ Long với vận tốc %(50 \\mathrm{~km} / \\mathrm{h})%. Sau đó 42 phút, trên cùng tuyến đường đó, một ô tô xuất phát từ Hạ Long ra Đầm Hà với vận tốc %(70 \\mathrm{~km} / \\mathrm{h})%. Biết quãng đường Đầm Hà - Hạ Long dài 120 km . Hỏi sau bao lâu, kể từ khi xe máy khởi hành, hai xe gặp nhau?",
+        "question_images": [],
+        "solution": "Gọi thời gian từ khi xe máy khởi hành đến khi gặp ô tô là %(x(h))%, đk: %(x\\gt \\frac{7}{10})%<br>Thời gian ô tô đi đến lúc gặp xe máy là %(x-\\frac{7}{10}(h))%<br>Quãng đường xe máy đi được là %(50 x(\\mathrm{~km}))%<br>Quãng đường ô tô đi được là %(70 .\\left(x-\\frac{7}{10}\\right)(\\mathrm{km}))%<br>Theo bài ta có phương trình: %(50 x+70 .\\left(x-\\frac{7}{10}\\right)=120)%<br>Giải phương trình ta có : %(x=\\frac{169}{120}(\\mathrm{tm}))%<br>Vậy sau thời gian %(x=\\frac{169}{120}(h))% khi xe máy khởi hành thì hai xe gặp nhau.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6",
+        "group_content": "Cho hình chữ nhật %(A B C D)%. Trên đường chéo %(B D)% lấy điểm P , gọi M là điểm đối xứng của %(C)% qua P",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Tứ giác %(A M D B)% là hình gì ?",
+        "question_images": [],
+        "solution": "Gọi O là giao điểm của %(AC)% và %(BD)%<br>Ta có O là trung điểm của AC<br>%(P)% là trung điểm của %(M C)%<br>Hay %(P O)% là đường trung bình của %(\\triangle A C M)% hay %(A M / / P O)%<br>Vậy %(B D / / A M)% hay tứ giác %(A M D B)% là hình thang.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/40eae18b61bf245170831dfcf78661bc.png\" srcset=\"https://docdn.giainhanh.io/media/test/b908084afeb7fd888846a653d1508bc8.png 245w, https://docdn.giainhanh.io/media/test/d86dafc569757d52a9508c8d3e5afe14.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Gọi %(\\mathrm{E}, \\mathrm{F})% lần lượt là hình chiếu của điểm M trên %(A D, A B)%. Chứng minh %(E F / / A C)% và ba điểm %(E, F, P)% thẳng hàng.",
+        "question_images": [],
+        "solution": "Do %(A M / / B D)% hay %(\\widehat{O B A}=\\widehat{M A E})% (dồng vị)<br>Xét %(\\triangle O A B)% cân ta có: %(\\widehat{O B A}=\\widehat{O A B})%<br>Gọi %(I)% là giao điểm của %(M A)% và %(E F)%, ta thấy %(\\triangle A E I)% cân ở I hay %(\\widehat{I A E}=\\widehat{I E A})%<br>Suy ra %(\\widehat{F E A}=\\widehat{O A B})% hay %(E F / / A C(1))%<br>Mặt khác IP là đường trung bình của %(\\triangle M A C)% suy ra %(I P / / A C(2))%<br>Từ (1) và (2) suy ra: %(E, F, P)% thẳng hàng",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) Chứng minh rằng tỉ số các cạnh của hình chữ nhật %(M E A F)% không phụ thuộc vào vị trí của điểm %(P)%.",
+        "question_images": [],
+        "solution": "Do %(\\triangle M A F\\sim  D B A(g . g) \\Rightarrow \\frac{M F}{F A}=\\frac{A D}{A B})% không đổi",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7 ",
+        "point": 2.0,
+        "content": "Tìm số dư của phép chia đa thức %(x^{1998}+x^{998}+x^{199}+x^{19}+x+3)% chia cho đa thức %(x^{2}-1)%.",
+        "question_images": [],
+        "solution": "Đặt %(f(x)=x^{1998}+x^{998}+x^{199}+x^{19}+x+3)%.<br>Đa thức dư là %(m x+n)%<br>Ta có: %(f(x)=q(x) \\cdot\\left(x^{2}-1\\right)+m x+n)%<br>Ta có: %(f(1)=m+n=8 \\quad f(-1)=-m+n=2)%<br>Ta giải được %(n=5, m=3)%<br>Vậy đa thức dư là: %(3 x+5)%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,212 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.25,
+        "content": "Chọn ngẫu nhiên một học sinh trong lớp. Gọi %(A)% là biến cố: \"Bạn đó là học sinh giỏi Toán\"; %(B)% là biến cố: \"Bạn đó là học sinh giỏi Văn\". Khi đó, biến cố %(A \\cup B)% là",
+        "question_images": [],
+        "labelA": "Bạn đó là học sinh học giỏi cả Văn và Toán.",
+        "labelB": "Bạn đó là học sinh học giỏi Văn hoặc giỏi Toán.",
+        "labelC": "Bạn đó là học sinh học giỏi Văn nhưng không giỏi Toán.",
+        "labelD": "Bạn đó là học sinh học giỏi Toán nhưng không giỏi Văn.",
+        "correct_label": "labelB",
+        "solution": "%(A)% là biến cố: \"Bạn đó là học sinh giỏi Toán\"; %(B)% là biến cố: \"Bạn đó là học sinh giỏi Văn\". Khi đó, %(A \\cup B)% là biến cố: \"Bạn đó là học sinh học giỏi Văn hoặc giỏi Toán\".",
+        "question_type": "quiz"
+    },
+    {
+        "title": "2 ",
+        "point": 0.25,
+        "content": "Cho %(A)% và %(B)% là hai biến cố xung khắc. Đẳng thức nào sau đây đúng?",
+        "question_images": [],
+        "labelA": "%(P(A \\cup B)=P(A)+P(B))%",
+        "labelB": "%(P(A \\cap B)=P(A) \\cdot P(B))%",
+        "labelC": "%(P(A \\cup B)=P(A) \\cdot P(B))%",
+        "labelD": "%(P(A \\cap B)=P(A)+P(B))%",
+        "correct_label": "labelA",
+        "solution": "Vì %(A)% và %(B)% là hai biến cố xung khắc nên %(P(A \\cup B)=P(A)+P(B))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "3 ",
+        "point": 0.25,
+        "content": "Cho hình lập phương %(A B C D \\cdot A_{1} B_{1} C_{1} D_{1})% (hình vẽ minh hoạ). Góc giữa hai đường thẳng %(A A_{1})% và %(D C_{1})% bằng",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/ae34f2e3dd4e7fc87a7bae23684e8cf6.png"
+        ],
+        "labelA": "Góc giữa hai đường thẳng %(A A_{1})% và %(D D_{1})%.<br>",
+        "labelB": "Góc giữa hai đường thẳng %(A A_{1})% và %(D_{1} C_{1})%.",
+        "labelC": "Góc giữa hai đường thẳng %(D D_{1})% và %(B B_{1})%.",
+        "labelD": "Góc giữa hai đường thẳng %(D C_{1})% và %(D D_{1})%.",
+        "correct_label": "labelD",
+        "solution": "Do %(A A_{1} / / D D_{1})% nên góc giữa hai đường thẳng %(A A_{1})% và %(D C_{1})% bằng góc giữa hai đường thẳng %(D D_{1})% và %(D C_{1})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "4 ",
+        "point": 0.25,
+        "content": "Cho đường thẳng %(a)% và mặt phẳng %((\\alpha))% vuông góc nhau và đường thẳng %(b)% nằm trong mặt phẳng %((\\alpha))%. Khẳng định nào sau đây đúng?",
+        "question_images": [],
+        "labelA": "%(a \\perp b)%",
+        "labelB": "%(a \\equiv b)%<br>",
+        "labelC": "%(a / / b)%",
+        "labelD": "%(a)% và %(b)% cắt nhau.",
+        "correct_label": "labelA",
+        "solution": "Ta có %(\\left\\{\\begin{array}{l}a \\perp(\\alpha) \\\\ b \\subset(\\alpha)\\end{array} \\Rightarrow a \\perp b\\right.)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "5 ",
+        "point": 0.25,
+        "content": "Chọn mệnh đề đúng trong các mệnh đề sau?",
+        "question_images": [],
+        "labelA": "Phép chiếu vuông góc lên mặt phẳng %((P))% theo phương %(\\Delta)% song song với %((P))% được gọi là phép chiếu vuông góc lên mặt phẳng %((P))%.",
+        "labelB": "Phép chiếu song song lên mặt phẳng %((P))% theo phương %(\\Delta)% được gọi là phép chiếu vuông góc lên mặt phẳng %((P))%.",
+        "labelC": "Phép chiếu vuông góc lên mặt phẳng %((P))% theo phương %(\\Delta)% được gọi là phép chiếu vuông góc lên mặt phẳng %((P))%.",
+        "labelD": "Phép chiếu song song lên mặt phẳng %((P))% theo phương %(\\Delta)% vuông góc với %((P))% được gọi là phép chiếu vuông góc lên mặt phẳng %((P))%.",
+        "correct_label": "labelD",
+        "solution": "Phép chiếu song song lên mặt phẳng %((P))% theo phương %(\\Delta)% vuông góc với %((P))% được gọi là phép chiếu vuông góc lên mặt phẳng %((P))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "6 ",
+        "point": 0.25,
+        "content": "Cho %((\\sqrt{3}-1)^{m}\\lt (\\sqrt{3}-1)^{n})%. Khẳng định nào sau đây đúng?",
+        "question_images": [],
+        "labelA": "%(m=n)%",
+        "labelB": "%(m\\lt n)%",
+        "labelC": "%(m\\gt n)%",
+        "labelD": "%(m+n=0)%",
+        "correct_label": "labelC",
+        "solution": "Do %(0\\lt \\sqrt{3}-1\\lt 1)% nên %((\\sqrt{3}-1)^{m}\\lt (\\sqrt{3}-1)^{n} \\Leftrightarrow m\\gt n)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "7 ",
+        "point": 0.25,
+        "content": "Cho %(a\\gt 1)%. Mệnh đề nào sau đây là đúng?",
+        "question_images": [],
+        "labelA": "%(a^{-\\sqrt{5}}>\\frac{1}{a^{\\sqrt{7}}})%",
+        "labelB": "%(a^{\\frac{1}{4}}>\\sqrt{a})%",
+        "labelC": "%(\\frac{\\sqrt[5]{a^{2}}}{a}>1)%<br>",
+        "labelD": "%(\\frac{1}{a^{2023}}\\lt \\frac{1}{a^{2024}})%",
+        "correct_label": "labelA",
+        "solution": "Vi %(a\\gt 1 ;-\\sqrt{5}>-\\sqrt{7} \\Rightarrow a^{-\\sqrt{5}}>a^{-\\sqrt{7}} \\Leftrightarrow a^{-\\sqrt{5}}>\\frac{1}{a^{\\sqrt{7}}})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "8 ",
+        "point": 0.25,
+        "content": "Cho hai số thực dương %(a, b)% với %(a)% khác 1 . Số thực %(c)% thỏa mãn %(c=\\log _{a} b)% thì đẳng thức nào sau đây là đúng?",
+        "question_images": [],
+        "labelA": "%(a=b^{c})%",
+        "labelB": "%(c=a^{b})%",
+        "labelC": "%(b=a^{c})%",
+        "labelD": "%(a c=b)%",
+        "correct_label": "labelC",
+        "solution": "Ta có %(\\log _{a} b=c \\Leftrightarrow b=a^{c})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "9 ",
+        "point": 0.25,
+        "content": "Cho đồ thị hàm số %(y=a^{x})% và %(y=\\log _{b} x)% như hình vẽ<br>Khẳng định nào sau đây đúng?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/642d5dbd8eb6256171ee0226306675ed.png"
+        ],
+        "labelA": "%(0\\lt a\\lt \\frac{1}{2}\\lt b)%",
+        "labelB": "%(0\\lt a\\lt 1\\lt b)%",
+        "labelC": "%(0\\lt b\\lt 1\\lt a)%",
+        "labelD": "%(0\\lt a\\lt 1,0\\lt b\\lt \\frac{1}{2})%",
+        "correct_label": "labelB",
+        "solution": "Dựa vào đồ thị ta thấy:<br>Đồ thị hàm số %(y=a^{x})% là đồ thị của hàm số nghịch biến nên %(0\\lt a\\lt 1)%.<br>Đồ thị hàm số %(y=\\log _{b} x)% đồ thị của hàm số đồng biến suy ra %(b\\gt 1)%.<br>Vậy %(0\\lt a\\lt 1\\lt b)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "10 ",
+        "point": 0.25,
+        "content": "Cho %(\\log _{a} 4=2)%. Giá trị của biểu thức %(P=\\log _{3}\\left(a^{3}+1\\right))% bằng",
+        "question_images": [],
+        "labelA": "1",
+        "labelB": "0",
+        "labelC": "3",
+        "labelD": "2",
+        "correct_label": "labelD",
+        "solution": "Ta có %(\\log _{a} 4=2 \\Leftrightarrow 4=a^{2} \\Leftrightarrow a=2()% vì %(a\\gt 0, a \\neq 1))%.<br>Vậy %(P=\\log _{3}\\left(2^{3}+1\\right)=\\log _{3} 9=2)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "11 ",
+        "point": 0.25,
+        "content": "Hàm số nào sau đây không phải là hàm số mũ?",
+        "question_images": [],
+        "labelA": "%(f(x)=(\\sqrt{2})^{x})%",
+        "labelB": "%(g(x)=6^{\\frac{x}{5}})%",
+        "labelC": "%(h(x)=x^{5})%",
+        "labelD": "%(k(x)=7^{-x})%",
+        "correct_label": "labelC",
+        "solution": "Cho số thực %(a(a\\gt 0, a \\neq 1))%. Hàm số %(y=a^{x})% được gọi là hàm số mũ cơ số %(a)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "12 ",
+        "point": 0.25,
+        "content": "Cho hình chóp tứ giác đều %(S \\cdot A B C D)% có tất cả các cạnh đều bằng %(a)%. Số đo góc giữa hai đường thẳng %(B C, S A)% bằng",
+        "question_images": [],
+        "labelA": "%(45^{\\circ})%",
+        "labelB": "%(120^{\\circ})%",
+        "labelC": "%(90^{\\circ})%<br>",
+        "labelD": "%(60^{\\circ})%",
+        "correct_label": "labelD",
+        "solution": "Vi %(A D / / B C)% nên góc giữa %(B C)% và %(S A)% là góc giữa %(A D)% và %(S A)%.<br>Hình chóp có tất cả các cạnh đều bằng %(a)% nên %(\\triangle S A D)% đều, suy ra %((A D, S A)=60^{\\circ})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/59ef6516b701e4997453b64f27a5e794.png\" srcset=\"https://docdn.giainhanh.io/media/test/59ef6516b701e4997453b64f27a5e794.png 184w, https://docdn.giainhanh.io/media/test/59ef6516b701e4997453b64f27a5e794.png 500w, https://docdn.giainhanh.io/media/test/59ef6516b701e4997453b64f27a5e794.png 750w\" width=\"750\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "17 ",
+        "point": 0.5,
+        "content": "Một cửa hàng trang sức khảo sát khách hàng xem họ dự định mua trang sức với mức giá nào (đơn vị: triệu đồng). Kết quả khảo sát được ghi lại ở bảng sau:<br>Nhóm %([12 ; 15))% có tần số tích lũy là bao nhiêu?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/5f35f8a180bd6d39bb2bf4f6a9866648.png"
+        ],
+        "solution": "Nhóm %([12,15))% tần số tích lũy là %(c f_{3}=20+78+45=143)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "18 ",
+        "point": 0.5,
+        "content": "Cho %(a)% là số thực dương. Rút gọn biểu thức %(A=a \\sqrt{a^{3} \\sqrt{a \\sqrt{a}}})% về dạng %(a^{\\frac{m}{n}})% trong đó %(\\frac{m}{n})% là phân số tối giản và %(m, n \\in \\mathbb{N}^{*})%. Tính giá trị của biểu thức %(T=m^{2}+n^{2})%.",
+        "question_images": [],
+        "solution": "Ta có %(A=a \\sqrt{a^{3} \\sqrt{a \\sqrt{a}}}=a \\cdot a^{\\frac{3}{2}} \\cdot a^{\\frac{1}{4}} \\cdot a^{\\frac{1}{8}}=a^{1+\\frac{3}{2}+\\frac{1}{4}+\\frac{1}{8}}=a^{\\frac{23}{8}} \\Rightarrow m=23 ; n=8)%<br>%(\\Rightarrow T=m^{2}+n^{2}=23^{2}+8^{2}=593)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "19 ",
+        "point": 0.5,
+        "content": "Một người gửi 100 triệu đồng vào một ngân hàng với lãi suất %(6 \\% /)% năm. Biết rằng nếu không rút tiền ra khỏi ngân hàng thì cứ sau mỗi năm số tiền lãi sẽ được nhập vào gốc để tính lãi cho năm tiếp theo. Hỏi ít nhất bao nhiêu năm người đó nhận được số tiền nhiều hơn 300 triệu bao gồm cả gốc lẫn lãi? (Giả định trong suốt thời gian gửi, lãi suất không đổi và người đó không rút tiền ra).",
+        "question_images": [],
+        "solution": "Áp dụng công thức lãi kép thì sau %(n)% năm, số tiền người gừi nhận được là %(A=10^{8} \\cdot 1,06^{n})%.<br>Để nhận được số tiền hơn 300 triệu thì<br>\\[A\\gt 3 \\cdot 10^{8} \\Leftrightarrow 10^{8} \\cdot 1,06^{n}>3 \\cdot 10^{8} \\Leftrightarrow 1,06^{n}>3 \\Leftrightarrow n>\\log _{1,06} 3 \\approx 18,85 \\text { (năm). }\\]<br>Vậy it nhất sau 18 năm thì người đó nhận được số tiền nhiều hơn 300 triệu.",
+        "question_type": "essay"
+    },
+    {
+        "title": "20 ",
+        "point": 0.5,
+        "content": "Cho hình lập phương %(A B C D \\cdot A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime})%. Xác định số đo góc tạo bởi hai đường thẳng %(B D)% và %(C D^{\\prime})%.",
+        "question_images": [],
+        "solution": "Do %(B A^{\\prime} / / C D^{\\prime})% nên góc giữa %(B D)% và %(C D^{\\prime})% là góc giữa %(B D)% và %(B A^{\\prime})%<br>Mà %(A^{\\prime} B D)% là tam giác đều nên góc giữa %(B D)% và %(B A^{\\prime})% là %(60^{\\circ})%.<br>Vậy góc giữa %(B D)% và %(C D^{\\prime})% là %(60^{\\circ})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3ab226737311259011541a7b043d8ae4.png\" srcset=\"https://docdn.giainhanh.io/media/test/3ab226737311259011541a7b043d8ae4.png 188w, https://docdn.giainhanh.io/media/test/3ab226737311259011541a7b043d8ae4.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "21 ",
+        "point": 0.5,
+        "content": "Hai xạ thủ cùng bắn vào bia. Xác suất người thứ nhất bắn trúng là %(80 \\%)%. Xác suất người thứ hai bắn trúng là %(70 \\%)%. Tính xác suất để cả hai người cùng bắn trúng",
+        "question_images": [],
+        "solution": "Gọi %(A_{i})% là biến cố người thứ %(i)% bắn trúng %((i=1 ; 2))%<br>%(A)% là biến cố cả hai người cùng bắn trúng.<br>Lúc đó: %(A=A_{1} \\cap A_{2})%.Vì %(A_{1}, A_{2})% là hai biến cố độc lập nên:<br>\\[P(A)=P\\left(A_{1} \\cap A_{2}\\right)=P\\left(A_{1}\\right) \\cdot P\\left(A_{2}\\right)=0,8 \\cdot 0,7=0,56 .\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "22 ",
+        "point": 0.5,
+        "content": "Cho hình hộp %(A B C D \\cdot A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime})%. Gọi %(E)% là điểm trên đoạn %(B^{\\prime} C^{\\prime})% thỏa mãn %(E B^{\\prime}=4 E C^{\\prime})% và %(F)% là một điểm nằm trên đường thẳng %(D D^{\\prime})% sao cho %(\\frac{D^{\\prime} F}{D^{\\prime} D}=\\frac{a}{b})% với %(a, b \\in \\mathbb{N})% và %(\\frac{a}{b})% là phân số tối giản. Nếu đường thẳng %(E F)% song song với mặt phẳng %(\\left(A^{\\prime} B D\\right))% thì giá trị %(2 a-b)% bằng bao nhiêu?",
+        "question_images": [],
+        "solution": "Ta có: %(\\left(C B^{\\prime} D^{\\prime}\\right) / /\\left(A^{\\prime} B D\\right))%<br>Trong mặt phẳng %(\\left(A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime}\\right))%, qua %(E)% kẻ đường thẳng song song với %(B^{\\prime} D^{\\prime})% cắt %(C^{\\prime} D^{\\prime})% tại %(M)%<br>Trong mặt phẳng %(\\left(B B^{\\prime} C^{\\prime} C\\right))%, qua %(E)% kẻ đường thẳng song song với %(B^{\\prime} C)% cắt %(C C^{\\prime})% tại %(N)%.<br>%(\\Rightarrow(E M N) / /\\left(C B^{\\prime} D^{\\prime}\\right) \\Rightarrow(E M N) / /\\left(A^{\\prime} B D\\right))%<br>Mà %(E F / /\\left(A^{\\prime} B D\\right))% và %(E \\in(E M N))% nên %(E F \\subset(E M N) \\Rightarrow F \\in(E M N))%<br>Mà %(F \\in D D^{\\prime})% nên %(\\Rightarrow F=D D^{\\prime} \\cap(E M N))%<br>Trong mặt phẳng %(\\left(C D D^{\\prime} C^{\\prime}\\right))%, gọi %(I=M N \\cap D D^{\\prime})%%(\\Rightarrow\\left\\{\\begin{array}{l}I \\in D D^{\\prime} \\\\ I \\in M N \\subset(E M N)\\end{array} \\Rightarrow I=D D^{\\prime} \\cap(E M N)\\right.)%, do đó: %(F \\equiv I)%<br>Từ giả thiết ta có %(C^{\\prime} E=\\frac{1}{5} C^{\\prime} B^{\\prime})%<br>%(E M / / B^{\\prime} D^{\\prime} \\Rightarrow \\frac{C^{\\prime} M}{C^{\\prime} D^{\\prime}}=\\frac{C^{\\prime} E}{C^{\\prime} B^{\\prime}}=\\frac{1}{5})%<br>\\[\\begin{array}{l}C^{\\prime} N / / D^{\\prime} F \\Rightarrow \\frac{C^{\\prime} N}{D^{\\prime} F}=\\frac{C^{\\prime} M}{M D^{\\prime}}=\\frac{\\frac{1}{5} C^{\\prime} D^{\\prime}}{C^{\\prime} D^{\\prime}-\\frac{1}{5} C^{\\prime} D^{\\prime}}=\\frac{1}{4} \\Rightarrow D^{\\prime} F=4 C^{\\prime} N \\E N / / B^{\\prime} C \\Rightarrow \\frac{C^{\\prime} N}{C^{\\prime} C}=\\frac{C^{\\prime} E}{C^{\\prime} B^{\\prime}}=\\frac{1}{5} \\Rightarrow D D^{\\prime}=C C^{\\prime}=5 C^{\\prime} N\\end{array}\\]<br>Do đó: %(\\frac{D^{\\prime} F}{D^{\\prime} D}=\\frac{4 C^{\\prime} N}{5 C^{\\prime} N}=\\frac{4}{5})% mà %(\\frac{D^{\\prime} F}{D^{\\prime} D}=\\frac{a}{b})% nên %(a=4, b=5)%<br>Kết luận: %(2 a-b=3)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a7e8a8aed8d89e7eef86332a8e70b0e0.png\" srcset=\"https://docdn.giainhanh.io/media/test/a7e8a8aed8d89e7eef86332a8e70b0e0.png 199w, https://docdn.giainhanh.io/media/test/a7e8a8aed8d89e7eef86332a8e70b0e0.png 500w, https://docdn.giainhanh.io/media/test/a7e8a8aed8d89e7eef86332a8e70b0e0.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    }
+]

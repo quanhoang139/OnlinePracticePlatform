@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.5,
+        "content": "Chứng minh rằng nếu số nguyên %(n)% lớn hơn 1 thoả mãn %(n^{2}+4)% và %(n^{2}+16)% là các số nguyên tố thì %(n)% chia hết cho 5.",
+        "question_images": [],
+        "solution": "Ta có với mọi số nguyên %(m)% thì %(m^{2})% chia cho 5 dư 0,1 hoặc 4 .<br>+ Nếu %(n^{2})% chia cho 5 dư 1 thì %(n^{2}=5 k+1 \\Rightarrow n^{2}+4=5 k+5: 5 ; k \\in \\mathbb{N}^{*})%.<br>nên %(n^{2}+4)% không là số nguyên tố.<br>+ Nếu %(n^{2})% chia cho 5 dư 4 thì %(n^{2}=5 k+4 \\Rightarrow n^{2}+16=5 k+20 \\vdots 5 ; k \\in \\mathbb{N}^{*})%.<br>nên %(n^{2}+16)% không là số nguyên tố.<br>Vậy %(n^{2}: 5)% hay %(n)% chia hết cho 5 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm nghiệm nguyên của phương trình: %(x^{2}-2 y(x-y)=2(x+1))%.",
+        "question_images": [],
+        "solution": "\\[x^{2}-2 y(x-y)=2(x+1) \\Leftrightarrow x^{2}-2(y+1) x+2\\left(y^{2}-1\\right)=0\\]<br>Để phương trình (1) có nghiệm nguyên %(x)% thì %(\\Delta^{\\prime})% theo %(y)% phải là số chính phương<br>Ta có %(\\Delta^{\\prime}=y^{2}+2 y+1-2 y^{2}+2=-y^{2}+2 y+3=4-(y-1)^{2} \\leq 4)%.<br>%(\\Delta^{\\prime})% chính phương nên %(\\Delta^{\\prime} \\in\\{0 ; 1 ; 4\\})%<br>+ Nếu %(\\Delta^{\\prime}=4 \\Rightarrow(y-1)^{2}=0 \\Leftrightarrow y=1)% thay vào phương trình (1) ta có :<br>%(x^{2}-4 x=0 \\Leftrightarrow x(x-4)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\\\ x=4\\end{array}\\right.)%.<br>+ Nếu %(\\Delta^{\\prime}=1 \\Rightarrow(y-1)^{2}=3 \\Rightarrow y \\notin \\mathbb{Z})%.<br>+ Nếu %(\\Delta^{\\prime}=0 \\Rightarrow(y-1)^{2}=4 \\Leftrightarrow\\left[\\begin{array}{l}y=3 \\\\ y=-1\\end{array}\\right.)%.<br>+ Với %(y=3)% thay vào phương trình (1) ta có: %(x^{2}-8 x+16=0 \\Leftrightarrow(x-4)^{2}=0 \\Leftrightarrow x=4)%.<br>+ Với %(y=-1)% thay vào phương trình (1) ta có: %(x^{2}=0 \\Leftrightarrow x=0)%.<br>Vậy phương trình (1) có 4 nghiệm nguyên : %((x ; y) \\in\\{(0 ; 1) ;(4 ; 1) ;(4 ; 3) ;(0 ;-1)\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Rút gọn biểu thức: %(A=\\frac{\\sqrt{2}(3+\\sqrt{5})}{2 \\sqrt{2}+\\sqrt{3+\\sqrt{5}}}+\\frac{\\sqrt{2}(3-\\sqrt{5})}{2 \\sqrt{2}-\\sqrt{3-\\sqrt{5}}})%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=\\frac{2(3+\\sqrt{5})}{4+\\sqrt{6+2 \\sqrt{5}}}+\\frac{2(3-\\sqrt{5})}{4-\\sqrt{6-2 \\sqrt{5}}} \\\\ =2\\left[\\frac{3+\\sqrt{5}}{4+\\sqrt{(\\sqrt{5}+1)^{2}}}+\\frac{3-\\sqrt{5}}{4-\\sqrt{(\\sqrt{5}-1)^{2}}}\\right]=2\\left(\\frac{3+\\sqrt{5}}{5+\\sqrt{5}}+\\frac{3-\\sqrt{5}}{5-\\sqrt{5}}\\right) \\\\ =2\\left[\\frac{(3+\\sqrt{5})(5-\\sqrt{5})+(3-\\sqrt{5})(5+\\sqrt{5})}{(5+\\sqrt{5})(5-\\sqrt{5})}\\right]=2\\left(\\frac{15-3 \\sqrt{5}+5 \\sqrt{5}-5+15+3 \\sqrt{5}-5 \\sqrt{5}-5}{25-5}\\right) \\\\ =2 \\cdot \\frac{20}{20}=2 \\text {. Vậy } A=2 .\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tìm %(m)% để phương trình: %((x-2)(x-3)(x+4)(x+5)=m)% có 4 nghiệm phân biệt.",
+        "question_images": [],
+        "solution": "Phương trình %((x-2)(x-3)(x+4)(x+5)=m \\Leftrightarrow\\left(x^{2}+2 x-8\\right)\\left(x^{2}+2 x-15\\right)=m(1))%<br>Đặt %(x^{2}+2 x+1=(x+1)^{2}=y(y \\geq 0))%, phương trình (1) trở thành:<br>\\[(y-9)(y-16)=m \\Leftrightarrow y^{2}-25 y+144-m=0\\]<br>Nhận xét:<br>Với mỗi giá trị %(y\\gt 0)% thì phương trình: %((x+1)^{2}=y)% có 2 nghiệm phân biệt, do đó phương trình (1) có 4 nghiệm phân biệt %(\\Leftrightarrow)% phương trình (2) có 2 nghiệm dương phân biệt.<br>\\[\\Leftrightarrow\\left\\{\\begin{array} { l } { \\Delta ^ { \\prime } > 0 } \\\\{ S > 0 } \\\\{ P > 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}\\Delta^{\\prime}=4 m+49>0 \\\\25>0 \\\\144-m>0\\end{array} \\Leftrightarrow \\frac{-49}{4}\\lt m\\lt 144 .\\right.\\right.\\]<br>Vậy với %(-\\frac{49}{4}\\lt m\\lt 144)% thì phương trình (1) có 4 nghiệm phân biệt.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(x^{2}-x-4=2 \\sqrt{x-1}(1-x))%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq 1\\left(^{*}\\right))%.<br>Ta có: %(x^{2}-x-4=2 \\sqrt{x-1}(1-x) \\Leftrightarrow x^{2}+2 x \\sqrt{x-1}+x-1-2(x+\\sqrt{x-1})-3=0)%<br>Đặt %(x+\\sqrt{x-1}=y)% (Điều kiện: %(y \\geq 1(* *))% ), phương trình trở thành %(y^{2}-2 y-3=0)%.<br>\\[y^{2}-2 y-3=0 \\Leftrightarrow(y+1)(y-3)=0 \\Leftrightarrow\\left[\\begin{array}{l}y=-1 \\y=3\\end{array}\\right.\\]<br>+Với %(y=-1)% không thỏa mãn điều kiện (**).<br>+ Với %(y=3)% ta có phương trình:<br>\\[x+\\sqrt{x-1}=3 \\Leftrightarrow \\sqrt{x-1}=3-x \\Leftrightarrow\\left\\{\\begin{array} { l } { x \\leq 3 } \\\\{ x - 1 = 9 - 6 x + x ^ { 2 } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x \\leq 3 } \\\\{ x ^ { 2 } - 7 x + 1 0 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x \\leq 3 \\\\{\\left[\\begin{array}{l}x=2 \\x=5\\end{array}\\right.}\\end{array} \\Leftrightarrow x=2\\right.\\right.\\right.\\]<br>thỏa mãn điều kiện %(\\left(^{*}\\right))%.<br>Vậy phương trình có nghiệm %(x=2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x^{3}+x y^{2}-10 y=0 \\\\ x^{2}+6 y^{2}=10\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}x^{3}+x y^{2}-10 y=0 \\\\ x^{2}+6 y^{2}=10\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x^{3}+x y^{2}-\\left(x^{2}+6 y^{2}\\right) y=0 (a) \\\\ x^{2}+6 y^{2}=10 (b)\\end{array}\\right.\\right.)%<br>Từ phương trình (a) ta có<br>\\[\\begin{array}{l}x^{3}+x y^{2}-\\left(x^{2}+6 y^{2}\\right) y=0 \\Leftrightarrow x^{3}+x y^{2}-x^{2} y-6 y^{3}=0 \\\\Leftrightarrow x^{3}-2 x^{2} y+x^{2} y-2 x y^{2}+3 x y^{2}-6 y^{3}=0 \\Leftrightarrow(x-2 y)\\left(x^{2}+x y+3 y^{2}\\right)=0 \\\\(x-2 y)\\left(x^{2}+x y+3 y^{2}\\right)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=2 y \\x^{2}+x y+3 y^{2}=0\\end{array}\\right.\\end{array}\\]<br>+ Trường hợp 1 : %(x^{2}+x y+3 y^{2}=0 \\Leftrightarrow\\left(x+\\frac{y}{2}\\right)^{2}+\\frac{11 y^{2}}{4}=0 \\Rightarrow x=y=0)%<br>Với %(x=y=0)% không thỏa mãn phương trình (b).<br>+ Trường hợp 2: %(x=2 y)% thay vào phương trình (b) ta có:<br>\\[4 y^{2}+8 y^{2}=12 \\Leftrightarrow y^{2}=1 \\Leftrightarrow\\left[\\begin{array}{l}y=1 \\Rightarrow x=2 \\y=-1 \\Rightarrow x=-2\\end{array}\\right.\\]<br>Vậy hệ phương trình có 2 nghiệm %((x ; y) \\in\\{(2 ; 1) ;(-2 ;-1)\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho đường tròn %((O ; R))% và dây cung %(B C=R \\sqrt{3})% cố định. Điểm %(A)% di động trên cung lớn %(B C)% sao cho tam giác %(A B C)% nhọn. Gọi %(E)% là điểm đối xứng với %(B)% qua %(A C)% và %(F)% là điểm đối xứng với %(C)% qua %(A B)%. Các đường tròn ngoại tiếp các tam giác %(A B E)% và %(A C F)% cắt nhau tại %(K)% ( %(K)% không trùng %(A)% ). Gọi %(H)% là giao điểm của %(B E)% và %(C F)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a)Chứng minh %(K A)% là phân giác trong góc %(B K C)% và tứ giác %(B H C K)% nội tiếp.",
+        "question_images": [],
+        "solution": "Ta có %(\\widehat{A K B}=\\widehat{A E B})% (vì cùng chắn cung %(A B)% của đường tròn ngoại tiếp tam giác %(A E B)% )<br>Mà %(\\widehat{A B E}=\\widehat{A E B})% (tính chất đối xứng) suy ra %(\\widehat{A K B}=\\widehat{A B E})% (1)<br>%(\\widehat{A K C}=\\widehat{A F C})% (vì cùng chắn cung %(A C)% của đường tròn ngoại tiếp tam giác %(A F C)% )<br>%(\\widehat{A C F}=\\widehat{A F C})% (tính chất đối xứng)<br>suy ra %(\\widehat{A K C}=\\widehat{A C F})% (2)<br>Mặt khác %(\\widehat{A B E}=\\widehat{A C F})% (cùng phụ với %(B A C)% ) (3).<br>Từ (1),(2),(3) suy ra %(\\widehat{A K B}=\\widehat{A K C})% hay %(K A)% là phân giác trong của góc %(\\widehat{B K C})%.<br>Gọi %(P, Q)% lần lượt là các giao điểm của %(B E)% với %(A C)% và %(C F)% với %(A B)%.<br>Ta có %(B C=R \\sqrt{3})% nên %(\\widehat{B O C}=120^{\\circ} ; \\widehat{B A C}=\\frac{1}{2} \\widehat{B O C}=60^{\\circ})%.<br>Trong tam giác vuông %(A B P)% có %(\\widehat{A P B}=90^{\\circ} ; \\widehat{B A C}=60^{\\circ} \\Rightarrow \\widehat{A B P}=30^{\\circ})% hay %(\\widehat{A B E}=\\widehat{A C F}=30^{\\circ})%.<br>Tứ giác %(A P H Q)% có<br>\\[\\widehat{A Q H}+\\widehat{A P H}=180^{\\circ} \\Rightarrow \\widehat{P A Q}+\\widehat{P H Q}=180^{\\circ} \\Rightarrow \\widehat{P H Q}=120^{\\circ} \\Rightarrow \\widehat{B H C}=120^{\\circ} \\text { (đối đỉnh). }\\]<br>Ta có %(\\widehat{A K C}=\\widehat{A B E}=30^{\\circ}, \\widehat{A K B}=\\widehat{A C F}=\\widehat{A B E}=30^{\\circ})% (theo chứng minh phần a).<br>Mà %(\\widehat{B K C}=\\widehat{A K C}+\\widehat{A K B}=\\widehat{A F C}+\\widehat{A E B}=\\widehat{A C F}+\\widehat{A B E}=60^{\\circ})%<br>suy ra %(\\widehat{B H C}+\\widehat{B K C}=180^{\\circ})% nên tứ giác %(B H C K)% nội tiếp.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/553022b8682b0e09cefa4d7ccfc6c190.png\" srcset=\"https://docdn.giainhanh.io/media/test/46239bdaf201f7e0ba8049d5c141906a.png 211w, https://docdn.giainhanh.io/media/test/815d896b07d6087a9ee0949aa93879bd.png 500w, https://docdn.giainhanh.io/media/test/94635585e7cb55e0064ee492ca81e4ef.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b)Xác định vị trí điểm %(A)% để diện tích tứ giác %(B H C K)% lớn nhất, tính diện tích lớn nhất của tứ giác đó theo %(R)%.",
+        "question_images": [],
+        "solution": "Gọi %(\\left(O^{\\prime}\\right))% là đường tròn đi qua bốn điểm %(B, H, C, K)%.<br>Ta có dây cung %(B C=R \\sqrt{3})%, %(\\widehat{B K C}=60^{\\circ}=\\widehat{B A C})% nên bán kính đường tròn %(\\left(O^{\\prime}\\right))% bằng bán kính %(R)% của đường tròn %((O))%.<br>Gọi %(M)% là giao điểm của %(A H)% và %(B C)% thì %(M H)% vuông góc với %(B C)%, kẻ %(K N)% vuông góc với %(B C)% %((N)% thuộc %(B C)% ), gọi %(I)% là giao điểm của %(H K)% và %(B C)%.<br>Ta có %(\\quad S_{B H C K}=S_{B H C}+S_{B C K}=\\frac{1}{2} B C \\cdot H M+\\frac{1}{2} B C \\cdot K N=\\frac{1}{2} B C(H M+K N))%<br>%(S_{B H C K} \\leq \\frac{1}{2} B C(H I+K I)=\\frac{1}{2} B C \\cdot K H)% (do %(H M \\leq H I ; K N \\leq K I)% ).<br>Ta có %(K H)% là dây cung của đường tròn %(\\left(O^{\\prime} ; R\\right))% suy ra %(K H \\leq 2 R)% (không đổi) nên %(S_{B H C K})% lớn nhất khi %(K H=2 R)% và %(H M+K N=H K=2 R)%.<br>Giá trị lớn nhất %(S_{B H C K}=\\frac{1}{2} R \\sqrt{3} \\cdot 2 R=R^{2} \\sqrt{3})%.<br>Khi %(H K)% là đường kính của đường tròn %(\\left(O^{\\prime}\\right))% thì %(M, I, N)% trùng nhau suy ra %(I)% là trung điểm của %(B C)% nên %(\\triangle A B C)% cân tại %(A)%.<br>Khi đó %(A)% là điểm chính giữa cung lớn %(B C)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 0.5,
+        "content": "c)Chứng minh %(A K)% luôn đi qua một điểm cố định.",
+        "question_images": [],
+        "solution": "Ta có %(\\widehat{B O C}=120^{\\circ} ; \\widehat{B K C}=60^{\\circ})% suy ra %(\\widehat{B O C}+\\widehat{B K C}=180^{\\circ})% nên tứ giác %(B O C K)% nội tiếp đường tròn.<br>Ta có %(O B=O C=R)% suy ra %(O B=O C \\Rightarrow \\widehat{B K O}=\\widehat{C K O})% hay %(K O)% là phân giác góc %(\\widehat{B K C})% theo phần (a)<br>%(K A)% là phân giác góc %(\\widehat{B K C})% nên %(K, O, A)% thẳng hàng hay %(A K)% đi qua %(O)% cố định",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho 3 số thực dương %(x, y, z)% thỏa mãn: %(\\frac{1}{x^{2}}+\\frac{1}{y^{2}}+\\frac{1}{z^{2}}=1)%. Tìm giá trị nhỏ nhất của biểu thức:<br>\\[P=\\frac{y^{2} z^{2}}{x\\left(y^{2}+z^{2}\\right)}+\\frac{z^{2} x^{2}}{y\\left(z^{2}+x^{2}\\right)}+\\frac{x^{2} y^{2}}{z\\left(x^{2}+y^{2}\\right)} .\\]",
+        "question_images": [],
+        "solution": "Ta có %(\\quad P=\\frac{1}{x\\left(\\frac{1}{z^{2}}+\\frac{1}{y^{2}}\\right)}+\\frac{1}{y\\left(\\frac{1}{z^{2}}+\\frac{1}{x^{2}}\\right)}+\\frac{1}{z\\left(\\frac{1}{x^{2}}+\\frac{1}{y^{2}}\\right)})%<br>Đặt %(\\frac{1}{x}=a ; \\frac{1}{y}=b ; \\frac{1}{z}=c)% thì %(a, b, c\\gt 0)% và %(a^{2}+b^{2}+c^{2}=1)%.<br>\\[P=\\frac{a}{b^{2}+c^{2}}+\\frac{b}{c^{2}+a^{2}}+\\frac{c}{a^{2}+b^{2}}=\\frac{a^{2}}{a\\left(1-a^{2}\\right)}+\\frac{b^{2}}{b\\left(1-b^{2}\\right)}+\\frac{c^{2}}{c\\left(1-c^{2}\\right)}\\]<br>Áp dụng bất đẳng thức Côsi cho 3 số dương ta có<br>\\[\\begin{array}{l}a^{2}\\left(1-a^{2}\\right)^{2}=\\frac{1}{2} \\cdot 2 a^{2}\\left(1-a^{2}\\right)\\left(1-a^{2}\\right) \\leq \\frac{1}{2}\\left(\\frac{2 a^{2}+1-a^{2}+1-a^{2}}{3}\\right)^{3}=\\frac{4}{27} \\\\Rightarrow a\\left(1-a^{2}\\right) \\leq \\frac{2}{3 \\sqrt{3}} \\Leftrightarrow \\frac{a^{2}}{a\\left(1-a^{2}\\right)} \\geq \\frac{3 \\sqrt{3}}{2} a^{2} \\\\text { Tương tự: } \\quad \\frac{b^{2}}{b\\left(1-b^{2}\\right)} \\geq \\frac{3 \\sqrt{3}}{2} b^{2} \\quad \\text { (2); } \\quad \\frac{c^{2}}{c\\left(1-c^{2}\\right)} \\geq \\frac{3 \\sqrt{3}}{2} c^{2}\\end{array}\\]<br>Từ (1); (2); (3) ta có %(P \\geq \\frac{3 \\sqrt{3}}{2}\\left(a^{2}+b^{2}+c^{2}\\right)=\\frac{3 \\sqrt{3}}{2})%.<br>Đẳng thức xảy ra %(\\Leftrightarrow a=b=c=\\frac{1}{\\sqrt{3}})% hay %(x=y=z=\\sqrt{3})%.<br>Vậy giá trị nhỏ nhất của %(P)% là %(\\frac{3 \\sqrt{3}}{2})%.",
+        "question_type": "essay"
+    }
+]

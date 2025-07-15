@@ -1,0 +1,81 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 3.0,
+        "content": "Giải phương trình: %(\\frac{1}{x^{2}+9 x+20}+\\frac{1}{x^{2}+11 x+30}+\\frac{1}{x^{2}+13 x+42}=\\frac{1}{18})%",
+        "question_images": [],
+        "solution": "ĐKXĐ: %(x \\neq-4 ; x \\neq-5 ; x \\neq-6 ; x \\neq-7)%<br>Phương trình trở thành:<br>%(\\begin{array}{l}\\frac{1}{(x+4)(x+5)}+\\frac{1}{(x+5)(x+6)}+\\frac{1}{(x+6)(x+7)}=\\frac{1}{18} \\\\ \\Leftrightarrow \\frac{1}{x+4}-\\frac{1}{x+5}+\\frac{1}{x+5}-\\frac{1}{x+6}+\\frac{1}{x+6}-\\frac{1}{x+7}=\\frac{1}{18} \\\\ \\Leftrightarrow \\frac{1}{x+4}-\\frac{1}{x+7}=\\frac{1}{18} \\\\ \\Leftrightarrow 18(x+7)-18(x+4)=(x+7)(x+4) \\\\ \\Leftrightarrow(x+13)(x-2)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=-13 \\\\ x=2\\end{array}\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 3.0,
+        "content": "Cho %(a, b, c)% là ba cạnh của một tam giác. Chứng minh rằng: %(A=\\frac{a}{b+c-a}+\\frac{b}{a+c-b}+\\frac{c}{a+b-c} \\geq 3)%",
+        "question_images": [],
+        "solution": "Đặt %(b+c-a=x\\gt 0 ; c+a-b=y>0 ; a+b-c=z>0)%<br>Từ đó suy ra %(a=\\frac{y+z}{2} ; b=\\frac{x+z}{2} ; c=\\frac{x+y}{2})%<br>Thay vào ta được:<br>%(A=\\frac{y+z}{2 x}+\\frac{x+z}{2 y}+\\frac{x+y}{2 z}=\\frac{1}{2}\\left[\\left(\\frac{y}{x}+\\frac{x}{y}\\right)+\\left(\\frac{x}{z}+\\frac{z}{x}\\right)+\\left(\\frac{y}{z}+\\frac{z}{y}\\right)\\right])%<br>Từ đó suy ra %(A \\geq \\frac{1}{2}(2+2+2))% hay %(A \\geq 3 \\Leftrightarrow a=b=c)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.5,
+        "content": "Chứng minh rằng nếu tổng của hai số nguyên chia hết cho 3 thì tổng các lập phương của chúng chia hết cho 9",
+        "question_images": [],
+        "solution": "Gọi 2 số phải tìm là %(a)% và %(b)%, ta có %(a+b)% chia hết cho 3<br>Ta có: %(a^{3}+b^{3}=(a+b)\\left(a^{2}-a b+b^{2}\\right)=(a+b)\\left[(a+b)^{2}-3 a b\\right])%<br>Vì %(a+b)% chia hết cho 3 nên %((a+b)^{2}-3 a b)% chia hết cho 3.<br>Do vậy, %((a+b)\\left[(a+b)^{2}-3 a b\\right])% chia hết cho 9",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 2.5,
+        "content": "Tìm các số nguyên %(n)% để %(n^{5}+1)% chia hết cho %(n^{3}+1)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}n^{5}+1:\\left(n^{3}+1\\right) \\Leftrightarrow\\left(n^{5}+n^{2}-n^{2}+1\\right):\\left(n^{3}+1\\right) \\\\ \\Leftrightarrow n^{2}\\left(n^{3}+1\\right)-\\left(n^{2}-1\\right) \\vdots\\left(n^{3}+1\\right) \\\\ \\Leftrightarrow(n-1)(n+1) \\vdots(n+1)\\left(n^{2}-n+1\\right) \\\\ \\Leftrightarrow n-1 \\vdots n^{2}-n+1 \\\\ \\Rightarrow n(n-1) \\vdots n^{2}-n+1\\end{array})%<br>Hay %(n^{2}-n\\vdots n^{2}-n+1 \\Rightarrow\\left(n^{2}-n+1\\right)-1\\vdots\\left(n^{2}-n+1\\right))%<br>%(\\Rightarrow 1\\vdots n^{2}-n+1)%<br>Xét hai trường hợp:<br>+) %( n^{2}-n+1=1 \\Leftrightarrow n^{2}-n=0 \\Leftrightarrow\\left[\\begin{array}{l}n=0 \\\\ n=1\\end{array}\\right.)%<br>+) %( n^{2}-n+1=-1 \\Leftrightarrow n^{2}-n+2=0)%, không có giá trị của %(n)% thỏa mãn",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 1.5,
+        "content": "Cho 3 số dương %(a, b, c)% có tổng bằng %(1)%. Chứng minh rằng: %(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c} \\geq 9)%",
+        "question_images": [],
+        "solution": "Từ %(a+b+c=1 \\Rightarrow\\left\\{\\begin{array}{l}\\frac{1}{a}=1+\\frac{b}{a}+\\frac{c}{a} \\\\ \\frac{1}{b}=1+\\frac{a}{c}+\\frac{c}{b} \\\\ \\frac{1}{c}=1+\\frac{a}{c}+\\frac{b}{c}\\end{array}\\right.)%<br>%(\\Rightarrow \\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=3+\\left(\\frac{a}{b}+\\frac{b}{a}\\right)+\\left(\\frac{a}{c}+\\frac{c}{a}\\right)+\\left(\\frac{b}{c}+\\frac{c}{b}\\right) \\geq 3+2+2+2=9)%<br>Dấu \" %(=)% \" xảy ra %(\\Leftrightarrow a=b=c=\\frac{1}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 1.5,
+        "content": "Cho %(a, b)% dương và %(a^{2000}+b^{2000}=a^{2001}+b^{2001}=a^{2002}+b^{2002})%.Tính %(a^{2011}+b^{2011})%",
+        "question_images": [],
+        "solution": "%(\\left(a^{2001}+b^{2001}\\right)(a+b)-\\left(a^{2000}+b^{2000}\\right) a b=a^{2002}+b^{2002})%<br>%(\\begin{array}{l}\\Rightarrow(a+b)-a b=1 \\\\ \\Leftrightarrow(a-1)(b-1)=0 \\Leftrightarrow\\left[\\begin{array}{l}a=1 \\\\ b=1\\end{array}\\right.\\end{array})%<br>Với %(a=1 \\Rightarrow b^{2000}=b^{2001} \\Rightarrow\\left[\\begin{array}{l}b=1(\\mathrm{tm}) \\\\ b=0(\\mathrm{ktm})\\end{array}\\right.)%<br>Với %(b=1 \\Rightarrow a^{2000}=a^{2001} \\Rightarrow\\left[\\begin{array}{l}a=1(\\mathrm{tm}) \\\\ a=0(\\mathrm{ktm})\\end{array}\\right.)%<br>Vậy %(a=1 ; b=1 \\Rightarrow a^{2011}+b^{2011}=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7:",
+        "group_content": "Cho tam giác %(A B C)% vuông tại %(A )%. Gọi %(M)% là một điểm di động trên %(AC )%. Từ %(C)% vẽ đường thẳng vuông góc với tia %(B M)% cắt tia %(B M)% tại %(H)%, cắt tia %(B A)% tại %(O )%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) %(O A \\cdot O B=O C \\cdot O H)%",
+        "question_images": [],
+        "solution": "%(\\triangle B O H \\sim \\triangle C O A(\\mathrm{~g} . \\mathrm{g}) \\Rightarrow \\frac{O B}{O C}=\\frac{O H}{O A} \\Rightarrow O A \\cdot O B=O H . O C)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f78241444cf860fdc7a11f1f8ec876d1.png\" srcset=\"https://docdn.giainhanh.io/media/test/f816ec9750f542cba10d01008fc77578.png 195w, https://docdn.giainhanh.io/media/test/df7e45e3787baeda0f4ae8ef844b7d93.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) %(\\widehat{O H A})% có số đo không đổi",
+        "question_images": [],
+        "solution": "%(\\frac{O B}{O C}=\\frac{O H}{O A} \\Rightarrow \\frac{O A}{O C}=\\frac{O H}{O B})% và %(\\hat{O})% chung %(\\Rightarrow \\triangle O H A \\sim \\triangle O B C)%<br>%(\\Rightarrow \\widehat{O H A}=\\widehat{O B C})% (không đổi)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1b84a6f3a3ac4bef7678140046daecba.png\" srcset=\"https://docdn.giainhanh.io/media/test/266ff12c9ef82f9f73df32e8a4fd0e75.png 195w, https://docdn.giainhanh.io/media/test/b75b13b8dd2de02b506b43dbca2642c7.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Tổng %(B M \\cdot B H+C M \\cdot C A)% không đổi",
+        "question_images": [],
+        "solution": "Vẽ %(M K \\perp B C ; \\triangle B K M \\sim \\triangle B H C(g . g))%<br>%(\\Rightarrow \\frac{B M}{B C}=\\frac{B K}{B H} \\Rightarrow B M \\cdot B H=B K \\cdot B C)% %((3))%<br>%(\\triangle C K M \\sim \\Delta C A B(\\mathrm{~g} . \\mathrm{g}) \\Rightarrow \\frac{C M}{C B}=\\frac{C K}{C A} \\Rightarrow C M . C A=B C . C K(4))%<br>Cộng từng vế của %((3))% và %((4))% ta có:%(B M \\cdot B H+C M \\cdot C A=B K \\cdot B C+B C \\cdot C K=B C \\cdot(B K+K C)=B C^{2})% (Không đổi)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e339f0c4c53388c06afc27774bed190e.png\" srcset=\"https://docdn.giainhanh.io/media/test/979a53605efda08a9cda1440675e4fbb.png 195w, https://docdn.giainhanh.io/media/test/603e6e1000f04fec9530432f9cd129f7.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

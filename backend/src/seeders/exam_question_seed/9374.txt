@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho %(P=\\frac{a^{3}-4 a^{2}-a+4}{a^{3}-7 a^{2}+14 a-8})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Rút gọn P",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}a^{3}-4 a^{2}-a+4=(a-1)(a+1)(a-4) \\a^{3}-7 a^{2}+14 a-8=(a-2)(a-1)(a-4)\\end{array})%<br>Nêu ĐKXĐ: %(a \\neq 1 ; a \\neq 2 ; a \\neq 4)%<br>Rút gọn %(P=\\frac{a+1}{a-2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm giá trị nguyên của %(a)% để %(P)% nhận giá trị nguyên.",
+        "question_images": [],
+        "solution": "%(P=\\frac{a-2+3}{a-2}=1+\\frac{3}{a-2})%; ta thấy %(P)% nguyên khi %(a-2)% là ước của 3 , mà %(U(3)=\\{-1 ; 1 ;-3 ; 3\\})%, từ đó tìm được %(a \\in\\{-1 ; 3 ; 5\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng nếu tổng của hai số nguyên chia hết cho 3 thì tồng các lập phương của chúng chia hết cho 9",
+        "question_images": [],
+        "solution": "Gọi 2 số phải tìm là %(a)% và b , ta có %(a+b)% chia hết cho 3.<br>Ta có:<br>%(a^{3}+b^{3}=(a+b)\\left(a^{2}-a b+b^{2}\\right)=(a+b)\\left[\\left(a^{2}+2 a b+b^{2}\\right)-3 a b\\right]=(a+b)\\left[(a+b)^{2}-3 a b\\right])%<br>Vì %(a+b)% chia hết cho 3 nên %((a+b)^{2}-3 a b)% chia hết cho 3<br>Do vậy %((a+b)\\left[(a+b)^{2}-3 a b\\right])% chia hết cho 9",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tìm các giá trị của %(x)% để biểu thức: %(P=(x-1)(x+2)(x+3)(x+6))% có giá trị nhỏ nhất. Tìm giá trị nhỏ nhất đó.",
+        "question_images": [],
+        "solution": "%(P=(x-1)(x+6)(x+2)(x+3)=\\left(x^{2}+5 x-6\\right)\\left(x^{2}+5 x+6\\right)=\\left(x^{2}+5 x\\right)^{2}-36)%<br>Ta thấy %(\\left(x^{2}+5 x\\right)^{2} \\geq 0)% nên %(P=\\left(x^{2}+5 x\\right)^{2}-36 \\geq-36)%<br>Do dó MinP %(=-36 \\Leftrightarrow x^{2}+5 x=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\\\ x=-5\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(\\frac{1}{x^{2}+9 x+20}+\\frac{1}{x^{2}+11 x+30}+\\frac{1}{x^{2}+13 x+42}=\\frac{1}{18})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}x^{2}+9 x+20=(x+4)(x+5) \\x^{2}+11 x+30=(x+6)(x+5) \\x^{2}+13 x+42=(x+6)(x+7)\\end{array})%<br>ĐКXĐ: %(x \\neq-4 ; x \\neq-5 ; x \\neq-6 ; x \\neq-7)%<br>Phương trình trở thành:<br>%(\\begin{array}{l}\\frac{1}{(x+4)(x+5)}+\\frac{1}{(x+5)(x+6)}+\\frac{1}{(x+6)(x+7)}=\\frac{1}{18} \\\\Leftrightarrow \\frac{1}{x+4}-\\frac{1}{x+5}+\\frac{1}{x+5}-\\frac{1}{x+6}+\\frac{1}{x+6}-\\frac{1}{x+7}=\\frac{1}{18} \\\\Leftrightarrow \\frac{1}{x+4}-\\frac{1}{x+7}=\\frac{1}{18} \\\\Leftrightarrow 18(x+7)-18(x+4)=(x+7)(x+4) \\\\Leftrightarrow(x+13)(x-2)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=-13 \\x=2\\end{array}\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho %(a, b, c)% là ba cạnh của một tam giác. Chứng minh rằng:<br>\\[A=\\frac{a}{b+c-a}+\\frac{b}{a+c-b}+\\frac{c}{a+b-c} \\geq 3\\]",
+        "question_images": [],
+        "solution": "Đặt %(b+c-a=x\\gt 0 ; c+a-b=y>0 ; a+b-c=z>0)%<br>Từ đó suy ra %(a=\\frac{y+z}{2} ; b=\\frac{x+z}{2} ; c=\\frac{x+y}{2})%;<br>Thay vào ta được<br>%(A=\\frac{y+z}{2 x}+\\frac{x+z}{2 y}+\\frac{x+y}{2 z}=\\frac{1}{2}\\left[\\left(\\frac{y}{x}+\\frac{x}{y}\\right)+\\left(\\frac{x}{z}+\\frac{z}{x}\\right)+\\left(\\frac{y}{z}+\\frac{z}{y}\\right)\\right])%<br>Từ đó suy ra %(A \\geq \\frac{1}{2}(2+2+2))% hay %(A \\geq 3)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho tam giác đều %(A B C)%, gọi %(M)% là trung điểm của BC . Một góc %(x M y)% bằng %(60^{\\circ})% quay quanh điểm M sao cho 2 cạnh %(M x, M y)% luôn cắt cạnh AB và AC lần lượt tại D và E . Chứng minh:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(B D \\cdot C E=\\frac{B C^{2}}{4})%",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/362c10cb1ba84bf0af17e5ead41d44d1.png\" srcset=\"https://docdn.giainhanh.io/media/test/39a37616ca27fbc57d7858ea1850c6bc.png 187w, https://docdn.giainhanh.io/media/test/4f0f14b7b75d8f014bd23d5866ad2e01.png 500w\" width=\"500\"/><br>Trong tam giác %(B D M)% ta có: %(\\widehat{D_{1}}=120^{\\circ}-\\widehat{M_{1}})%<br>Vì %(M_{2}=60^{\\circ})% nên ta có: %(\\widehat{M_{3}}=120^{\\circ}-\\widehat{M_{1}})%<br>Suy ra %(\\widehat{D_{1}}=\\widehat{M_{3}})%.<br>Chứng minh %(\\triangle B M D \\sim \\triangle C E M)% (1)<br>Suy ra %(\\frac{B D}{B M}=\\frac{C M}{C E})%,<br>Từ đó %(B D \\cdot C E=B M \\cdot C M)%<br>Vì %(B M=C M=\\frac{B C}{2})%, nên ta có: %(B D \\cdot C E=\\frac{B C^{2}}{4})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(D M, E M)% lần lượt là tia phân giác của các góc %(B D E)% và %(C E D)%",
+        "question_images": [],
+        "solution": "Từ (1) suy ra %(\\frac{B D}{C M}=\\frac{M D}{E M})%<br>Chứng minh %(\\triangle B M D \\sim \\triangle M E D \\Rightarrow \\widehat{D_{1}}=\\widehat{D_{2}})%, do đó %(D M)% là tia phân giác %(\\widehat{B D E})%<br>Chứng minh tương tự ta có : %(E M)% là tia phân giác %(\\widehat{E E D})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Chu vi tam giác %(A D E)% không đổi",
+        "question_images": [],
+        "solution": "Gọi %(H, I, K)% là hình chiếu của %(M)% trên %(A B, D E, A C)%.<br>Chứng minh %(D H=D I, E I=E K)%<br>Tính chu vi tam giác bằng %(2 A H)% - không đồi",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các tam giác vuông có số đo các cạnh là các số nguyên dương và số đo diện tích bằng số đo chu vi",
+        "question_images": [],
+        "solution": "Gọi các cạnh của tam giác vuông là %(x, y, z)% trong đó cạnh huyền là %(z)% ( %(x, y, z)% là các số nguyên dương)<br>Ta có: %(x y=2(x+y+z)(1))% và %(x^{2}+y^{2}=z^{2}(2))%<br>Từ (2) suy ra %(z^{2}=(x+y)^{2}-2 x y)%, thay (1) vào ta có:<br>%(\\begin{array}{l}z^{2}=(x+y)^{2}-4(x+y+z) \\z^{2}+4 z=(x+y)^{2}-4(x+y) \\z^{2}+4 z+4=(x+y)^{2}-4(x+y)+4 \\\\(z+2)^{2}=(x+y-2)^{2}\\end{array})%<br>Suy ra %(z+2=x+y-2 \\Rightarrow z=x+y-4)%; thay vào (1) ta được:<br>%(\\begin{array}{l}x y=2(x+y+x+y-4) \\x y-4 x-4 y=-8 \\\\(x-4)(y-4) 8=1.8=2.4\\end{array})%<br>Từ đó ta tìm được các giá trị của %(x, y, z)% là:<br>%((x ; y ; z) \\in\\{(5 ; 12 ; 13) ;(12 ; 5 ; 13) ;(6 ; 8 ; 10) ;(8 ; 6 ; 10)\\})%",
+        "question_type": "essay"
+    }
+]

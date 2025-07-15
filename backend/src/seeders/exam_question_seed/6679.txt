@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.5,
+        "content": "a. Cho phương trình %(\\frac{(\\sin x-\\cos x)(\\sin 2 x-3)-\\sin 2 x-\\cos 2 x+1}{2 \\sin x-\\sqrt{2}}=0)%.<br>Hỏi phương trình có bao nhiêu nghiệm thuộc khoảng %((-2018 \\pi ; 2019 \\pi))% ?",
+        "question_images": [],
+        "solution": "Xét phương trình: %(\\frac{(\\sin x-\\cos x)(\\sin 2 x-3)-\\sin 2 x-\\cos 2 x+1}{2 \\sin x-\\sqrt{2}}=0)% (1)<br>ĐK %(\\sin x \\neq \\frac{\\sqrt{2}}{2} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\neq \\frac{\\pi}{4}+k 2 \\pi \\\\ x \\neq \\frac{3 \\pi}{4}+l 2 \\pi\\end{array}(k, l \\in Z)\\right.)%<br>Khi đó phương trình (1) %(\\Leftrightarrow(\\sin x-\\cos x)(\\sin 2 x-3)-\\sin 2 x-\\cos 2 x+1=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow(\\sin x-\\cos x)(\\sin 2 x-3)-2 \\sin x \\cdot \\cos x+2 \\sin ^{2} x=0 \\\\Leftrightarrow(\\sin x-\\cos x)(\\sin 2 x-3)+2 \\sin x(\\sin x-\\cos x)=0 \\\\Leftrightarrow(\\sin x-\\cos x)(\\sin 2 x+2 \\sin x-3)=0 \\Leftrightarrow\\left[\\begin{array}{l}\\sin x-\\cos x=0 \\\\sin 2 x+2 \\sin x-3=0\\end{array}\\right.\\end{array}\\]<br>%(\\mathrm{PT}(2) \\Leftrightarrow \\sin \\left(x-\\frac{\\pi}{4}\\right)=0 \\Leftrightarrow x=\\frac{\\pi}{4}+k \\pi)%, đối chiếu điều kiện ta có %(x=\\frac{5 \\pi}{4}+k 2 \\pi(k \\in \\mathbb{Z}))%. %(\\mathrm{PT}(3) \\Leftrightarrow \\sin 2 x+2 \\sin x=3 \\Leftrightarrow\\left\\{\\begin{array}{l}\\sin 2 x=1 \\\\ \\sin x=1\\end{array}(v n)\\right.)%<br>Vậy %(x=\\frac{5 \\pi}{4}+k 2 \\pi(k \\in \\mathbb{Z}))%.<br>\\[x \\in(-2018 \\pi ; 2019 \\pi) \\Leftrightarrow-2018 \\pi\\lt \\frac{5 \\pi}{4}+k 2 \\pi\\lt 2019 \\pi \\Leftrightarrow-2018\\lt \\frac{5}{4}+2 k\\lt 2019\\]<br>Do %(k \\in \\mathbb{Z})% nên %(k \\in\\{-1009,-1008, \\ldots ., 1008\\})% suy ra có 2018 nghiệm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.5,
+        "content": "b. Tùy theo giá trị của tham số %(m)%, tính giới hạn %(\\lim _{x \\rightarrow-\\infty}\\left(\\sqrt[3]{x^{3}+2 x^{2}+1}-\\sqrt{4 x^{2}+2 x+3}+m x\\right))%.",
+        "question_images": [],
+        "solution": "Tính %(\\lim _{x \\rightarrow-\\infty}\\left(\\sqrt[3]{x^{3}+2 x^{2}+1}-\\sqrt{4 x^{2}+2 x+3}+m x\\right))%<br>Nếu %(m=-3)% thì %(\\lim _{x \\rightarrow-\\infty}\\left(\\sqrt[3]{x^{3}+2 x^{2}+1}-\\sqrt{4 x^{2}+2 x+3}+m x\\right))%<br>\\[=\\lim _{x \\rightarrow-\\infty}\\left(\\left(\\sqrt[3]{x^{3}+2 x^{2}+1}-x\\right)-\\left(\\sqrt{4 x^{2}+2 x+3}+2 x\\right)\\right)\\]<br>Ta có %(\\lim _{x \\rightarrow-\\infty}\\left(\\sqrt[3]{x^{3}+2 x^{2}+1}-x\\right)=\\lim _{x \\rightarrow-\\infty} \\frac{2 x^{2}+1}{\\sqrt[3]{\\left(x^{3}+2 x^{2}+1\\right)^{2}}+x \\sqrt[3]{\\left(x^{3}+2 x^{2}+1\\right)^{2}}+x^{2}}=\\frac{2}{3})%<br>\\[\\lim _{x \\rightarrow-\\infty}\\left(\\sqrt{4 x^{2}+2 x+3}+2 x\\right)=\\lim _{x \\rightarrow-\\infty} \\frac{2 x+3}{\\sqrt{4 x^{2}+2 x+3}-2 x}=\\frac{-1}{2}\\]<br>Suy ra %(\\lim _{x \\rightarrow-\\infty}\\left(\\sqrt[3]{x^{3}+2 x^{2}+1}-\\sqrt{4 x^{2}+2 x+3}+m x\\right)=\\frac{7}{6})%Nếu %(m\\lt -3)% thì %(\\lim _{x \\rightarrow-\\infty}\\left(\\sqrt[3]{x^{3}+2 x^{2}+1}-\\sqrt{4 x^{2}+2 x+3}+m x\\right))%<br>\\[=\\lim _{x \\rightarrow-\\infty}\\left(\\left(\\sqrt[3]{x^{3}+2 x^{2}+1}-x\\right)-\\left(\\sqrt{4 x^{2}+2 x+3}+2 x\\right)+(m+3) x\\right)=+\\infty\\]<br>Nếu %(m\\gt -3)% thì %(\\lim _{x \\rightarrow-\\infty}\\left(\\sqrt[3]{x^{3}+2 x^{2}+1}-\\sqrt{4 x^{2}+2 x+3}+m x\\right))%<br>\\[=\\lim _{x \\rightarrow-\\infty}\\left(\\left(\\sqrt[3]{x^{3}+2 x^{2}+1}-x\\right)-\\left(\\sqrt{4 x^{2}+2 x+3}+2 x\\right)+(m+3) x\\right)=-\\infty\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.5,
+        "content": "a. Cho %(n)% là số nguyên dương thỏa mãn %(C_{n}^{1}, C_{n}^{2}, C_{n}^{3})% lần lượt là số hạng thứ nhất, thứ 5 , thứ 15 của một cấp số cộng. Chứng minh rằng %(\\left(C_{2 n+1}^{0}\\right)^{2}+\\left(C_{2 n+1}^{2}\\right)^{2}+\\left(C_{2 n+1}^{4}\\right)^{2}+\\ldots .+\\left(C_{2 n+1}^{2 n}\\right)^{2}=\\frac{1}{2} C_{46}^{23})%.",
+        "question_images": [],
+        "solution": "Theo giả thiết ta có %(C_{n}^{2}=C_{n}^{1}+4 d ; C_{n}^{3}=C_{n}^{1}+14 d \\Rightarrow \\frac{C_{n}^{2}-C_{n}^{1}}{4}=\\frac{C_{n}^{3}-C_{n}^{1}}{14})%<br>\\[\\Leftrightarrow 7\\left(C_{n}^{2}-C_{n}^{1}\\right)=2\\left(C_{n}^{3}-C_{n}^{1}\\right) \\Leftrightarrow 2 C_{n}^{3}-7 C_{n}^{2}+5 C_{n}^{1}=0\\]<br>\\[2 \\frac{n(n-1)(n-2)}{6}-7 \\frac{n(n-1)}{2}+5 n=0 \\Leftrightarrow 2 n^{2}-27 n+55=0 \\Leftrightarrow\\left[\\begin{array}{l}n=11 \\n=\\frac{5}{2}(L)\\end{array}\\right.\\]<br>Với %(n=11)%, thử lại thỏa mãn cấp số cộngTa cần chứng minh %(\\left(C_{23}^{0}\\right)^{2}+\\left(C_{23}^{2}\\right)^{2}+\\left(C_{23}^{4}\\right)^{2}+\\ldots .+\\left(C_{23}^{22}\\right)^{2}=\\frac{1}{2} C_{46}^{23})%<br>Ta sẽ chứng minh bài toán tổng quát %(\\left(C_{n}^{0}\\right)^{2}+\\left(C_{n}^{2}\\right)^{2}+\\left(C_{n}^{4}\\right)^{2}+\\ldots .+\\left(C_{n}^{n-1}\\right)^{2}=\\frac{1}{2} C_{2 n}^{n})% với %(n)% lẻ<br>Xét khai triển %((1+x)^{2 n}=(1+x)^{n}(x+1)^{n}=\\left(C_{n}^{0}+C_{n}^{1} x+\\ldots+C_{n}^{n} x^{n}\\right)\\left(C_{n}^{0} x^{n}+C_{n}^{1} x^{n-1}+\\ldots+C_{n}^{n}\\right))%<br>Đồng nhất hệ số của %(x^{n})% của đẳng thức trên ta có<br>\\[\\left(C_{n}^{0}\\right)^{2}+\\left(C_{n}^{1}\\right)^{2}+\\left(C_{n}^{2}\\right)^{2}+\\left(C_{n}^{3}\\right)^{2} \\ldots .+\\left(C_{n}^{n}\\right)^{2}=C_{2 n}^{n}\\]<br>Do %(n)% lẻ và %(C_{n}^{0}=C_{n}^{n} ; C_{n}^{1}=C_{n}^{n-1} ; \\ldots C_{n}^{\\frac{n-1}{2}}=C_{n}^{\\frac{n+1}{2}})%; nên %(\\left(C_{n}^{0}\\right)^{2}+\\left(C_{n}^{1}\\right)^{2}+\\left(C_{n}^{2}\\right)^{2}+\\left(C_{n}^{3}\\right)^{2} \\ldots .+\\left(C_{n}^{n}\\right)^{2}=2\\left(\\left(C_{n}^{0}\\right)^{2}+\\left(C_{n}^{2}\\right)^{2}+\\left(C_{n}^{4}\\right)^{2}+\\ldots .+\\left(C_{n}^{n-1}\\right)^{2}\\right))%<br>Thay vào (1) ta có %(\\left(C_{n}^{0}\\right)^{2}+\\left(C_{n}^{2}\\right)^{2}+\\left(C_{n}^{4}\\right)^{2}+\\ldots .+\\left(C_{n}^{n-1}\\right)^{2}=\\frac{1}{2} C_{2 n}^{n})% (dpcm",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.5,
+        "content": "b. Cho lưới ô vuông như hình vẽ, có một con kiến di chuyển từ điểm %(\\mathrm{A})% đến điểm %(\\mathrm{B})% bằng cách di chuyển trên cạnh để đi qua các điểm nút của lưới (điểm nút là đỉnh của các hình vuông nhỏ), mỗi bước nó di chuyển xuống dưới hoặc di chuyển sang phải để đến điểm nút gần nhất. Biết rằng nếu đến điểm %(\\mathrm{C})% thì kiến sẽ bị ăn thịt. Giả sử kiến di chuyển một cách ngẫu nhiên và nó không biết tại %(\\mathrm{C})% sẽ gặp nguy hiểm. Tính xác suất để kiến đến được điểm %(\\mathrm{B})%.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/1a0e6c4e7bc81f2a661d02680fa49484.PNG"
+        ],
+        "solution": "Kiến muốn đi đến %(\\mathrm{B})% thì bắt buộc phải đi qua %(\\mathrm{D})%<br>Gọi %(m)% là số cách đi từ %(\\mathrm{A})% đến %(\\mathrm{D})%<br>Gọi %(n)% là số cách đi từ %(\\mathrm{D})% đến %(\\mathrm{B})%<br>Gọi %(k)% là số cách đi từ %(\\mathrm{D})% đến %(\\mathrm{B})% mà không đi qua %(\\mathrm{C})%<br>Ta có số cách đi từ %(\\mathrm{A})% đến %(\\mathrm{B})% là %(m n)%; số cách đi từ %(\\mathrm{A})% đến %(\\mathrm{B})% mà không đi qua %(\\mathrm{C})% là %(m k)%.<br>Ta có xác suất mà kiến đi được đến %(\\mathrm{B})% là %(p=\\frac{m k}{m n}=\\frac{k}{n})%<br>Các cách đi từ %(\\mathrm{D})% đến %(\\mathrm{B})% mà có đi qua %(\\mathrm{C})% là: %(\\mathrm{DCEFB})%; DCIFB; DCIKB; suy ra số cách đi từ %(\\mathrm{D})% đến %(\\mathrm{B})% có mà không đi qua %(\\mathrm{C})% là 3 .<br>Vì tính đối xứng của lưới ô vuông %(2 \\times 2)% nên số cách đi từ %(\\mathrm{D})% đến %(\\mathrm{B})% mà không qua %(\\mathrm{C})% là 3 .<br>Suy ra %(k=3, n=6)%.<br>Do đó %(p=\\frac{k}{n}=\\frac{1}{2})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9394d09996c8129296398894f7de54cb.png\" srcset=\"https://docdn.giainhanh.io/media/test/85a6dfabcea5b104133ef6a71894699c.png 186w\" width=\"186\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho hình chóp tứ giác %(S . A B C D)% có đáy là hình chữ nhật tâm %(O)%, cạnh %(A B=a, A D=2 a)%. Gọi %(M, N)% lần lượt là trung điểm của các cạnh %(S A, B C)%. Biết rằng %(S A=S B=S C=S D)% và góc giữa đường thẳng %(M N)% và mặt phẳng %((A B C D))% là %(60^{\\circ})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.75,
+        "content": "a. Tính diện tích tam giác %(S B M)% theo %(a)%.",
+        "question_images": [],
+        "solution": "Câu 3a Vì %(S A=S C)% nên %(S O \\perp A C)%<br>Vì %(S B=S D)% nên %(S O \\perp B D)%<br>Do đó %(S O \\perp(A B C D))%<br>Trong tam giác SAC kẻ%(M H \\perp A C(H \\in A C) \\Rightarrow M H \\| S O)%%(\\Rightarrow M H \\perp(A B C D))%<br>Theo giả thiết thì %(\\widehat{M N H}=60^{\\circ})%<br>Ta có: %(H Q=\\frac{3}{4} a ; Q N=\\frac{a}{2})%<br>\\[N H^{2}=H Q^{2}+Q N^{2}=\\left(\\frac{3 a}{4}\\right)^{2}+\\left(\\frac{a}{2}\\right)^{2}=\\frac{13 a^{2}}{16}\\]<br>Suy ra %(N H=\\frac{a \\sqrt{13}}{4})%Do đó %(M H=N H \\tan 60^{\\circ}=\\frac{a \\sqrt{39}}{4})%, suy ra %(S O=2 M H=\\frac{a \\sqrt{39}}{2})%<br>Ta có %(S_{\\triangle S M B}=\\frac{1}{2} S_{\\triangle S A B}=\\frac{1}{4} S K . A B ; S K=\\sqrt{S O^{2}+K O^{2}}=\\sqrt{\\frac{39 a^{2}}{4}+a^{2}}=\\frac{a \\sqrt{43}}{2})%<br>Suy ra %(S_{\\triangle S M B}=\\frac{1}{4} S K \\cdot A B=\\frac{a^{2} \\sqrt{43}}{8})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/552052e58e55b47ea82d53065409339b.png\" srcset=\"https://docdn.giainhanh.io/media/test/db82348ca4e39618d0445a2d6ca1e924.png 220w\" width=\"220\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/6df1060c6bc0fd492d416af10479fc7b.png\" srcset=\"https://docdn.giainhanh.io/media/test/a7044ebcc509c9482168ba2f4e7722da.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.75,
+        "content": "b. Tính sin của góc giữa đường thẳng %(M N)% và mặt phẳng (SBD).",
+        "question_images": [],
+        "solution": "Gọi %(P)% là trung điểm của %(S D)%, ta có tứ giác %(M P C N)% là hình bình hành suy ra %(M N / / C P)%<br>Gọi %(\\alpha)% là góc giữa đường thẳng %(M N)% và mặt phẳng %((S B D))%, ta thấy %(\\alpha)% bằng góc giữa đường thẳng %(C P)% và mặt phẳng %((S B D))%<br>Kẻ %(C I \\perp B D \\Rightarrow C I \\perp(S B D) \\Rightarrow \\alpha=\\widehat{C P I})%<br>Tam giác %(B C D)% vuông tại %(C)% có %(C I)% là đường cao, suy ra<br>\\[\\frac{1}{C I^{2}}=\\frac{1}{C B^{2}}+\\frac{1}{C D^{2}}=\\frac{1}{4 a^{2}}+\\frac{1}{a^{2}}=\\frac{5}{4 a^{2}} \\Rightarrow C I=\\frac{2 a}{\\sqrt{5}}\\]<br>Ta có %(C P=M N=2 N H=\\frac{a \\sqrt{13}}{2})%<br>\\[\\sin \\alpha=\\frac{C I}{C P}=\\frac{4}{\\sqrt{65}}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.25,
+        "content": "a. Cho dãy số %(\\left(u_{n}\\right))% thòa mãn %(\\left\\{\\begin{array}{l}u_{1}=1 \\\\ u_{n+1}=\\frac{2 u_{n}}{\\sqrt{5 u_{n}+1}+1}, n \\geq 1, n \\in \\mathbb{N}\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Xét dãy: %(\\left\\{\\begin{array}{l}u_{1}=1 \\\\ u_{n+1}=\\frac{2 u_{n}}{\\sqrt{5 u_{n}+1}+1}, n \\geq 1\\end{array}\\right.)%<br>Bằng quy nạp ta chứng minh được %(u_{n}\\gt 0 \\forall n)%<br>Ta có %(u_{n+1}=\\frac{2 u_{n}}{\\sqrt{5 u_{n}+1}+1}=\\frac{2\\left(\\sqrt{5 u_{n}+1}-1\\right)}{5})%<br>\\[\\begin{array}{l}\\Leftrightarrow 5 u_{n+1}+2=2 \\sqrt{5 u_{n}+1} \\Leftrightarrow 25 u_{n+1}^{2}+20 u_{n+1}+4=20 u_{n}+4 \\Leftrightarrow u_{n+1}^{2}=\\frac{4}{5}\\left(u_{n}-u_{n+1}\\right) \\S_{n}=u_{1}^{2}+u_{2}^{2}+u_{3}^{2}+\\ldots .+u_{n}^{2}=u_{1}^{2}+\\frac{4}{5}\\left(u_{1}-u_{n}\\right)=\\frac{9}{5}-\\frac{4}{5} u_{n} \\text { (1) }\\end{array}\\]<br>Ta sẽ chứng minh %(\\left(u_{n}\\right))% là dãy giảm.Thật vậy có %(u_{2}=\\frac{2(\\sqrt{6}-1)}{5}\\lt u_{1})%, giả sử %(u_{k}>u_{k+1})%, thay vào công thức xác định dãy ta thấy %(u_{k+1}>u_{k+2})%.<br>Vậy %(\\left(u_{n}\\right))% là dãy giảm, mà %(u_{n}>0 \\forall n)% suy ra tồn tại giới hạn %(\\lim u_{n}=l(l \\geq 0))%<br>Từ đẳng thức %(u_{n+1}=\\frac{2\\left(\\sqrt{5 u_{n}+1}-1\\right)}{5} \\Rightarrow l=\\frac{2(\\sqrt{5 l+1}-1)}{5} \\Leftrightarrow 5 l+2=2 \\sqrt{5 l+1})% %(\\Leftrightarrow 25 l^{2}+20 l+4=20 l+4 \\Leftrightarrow l=0)%. Thay vào (1) ta có %(\\lim S_{n}=\\frac{9}{5})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.25,
+        "content": "b. Cho tam giác %(A B C)%. Tìm giá trị lớn nhất của biểu thức %(P=\\sqrt{\\sin A}+\\sqrt{\\sin B}+\\sqrt[4]{12} \\sqrt{\\sin C})%.",
+        "question_images": [],
+        "solution": "%(P=\\sqrt{\\sin A}+\\sqrt{\\sin B}+\\sqrt[4]{12} \\sqrt{\\sin C})%<br>Ta có %((\\sqrt{\\sin A}+\\sqrt{\\sin B})^{2} \\leq 2(\\sin A+\\sin B)=4 \\cos \\frac{C}{2} \\cos \\frac{A-B}{2} \\leq 4 \\cos \\frac{C}{2})% %(\\Rightarrow \\sqrt{\\sin A}+\\sqrt{\\sin B} \\leq 2 \\sqrt{\\cos \\frac{C}{2}})%%(\\Rightarrow P \\leq 2 \\sqrt{\\cos \\frac{C}{2}}+2 \\sqrt[4]{\\frac{3}{4}} \\sqrt{\\sin C} \\leq 2 \\sqrt{2\\left(\\cos \\frac{C}{2}+\\frac{\\sqrt{3}}{2} \\sin C\\right)})%<br>Ta lại có %(\\left(\\cos \\frac{C}{2}+\\frac{\\sqrt{3}}{2} \\sin C\\right)^{2} \\leq 2\\left(\\cos ^{2} \\frac{C}{2}+\\frac{3}{4} \\sin ^{2} C\\right)=1+\\cos C+\\frac{3}{2}-\\frac{3}{2} \\cos ^{2} C)% %(=\\frac{8}{3}-\\frac{3}{2}\\left(\\cos C-\\frac{1}{3}\\right)^{2} \\leq \\frac{8}{3})% suy ra %(\\cos \\frac{C}{2}+\\frac{\\sqrt{3}}{2} \\sin C \\leq 2 \\sqrt{\\frac{2}{3}})%<br>Do đó %(P \\leq 2 \\sqrt{4 \\frac{\\sqrt{6}}{3}}=4 \\sqrt[4]{\\frac{2}{3}})%có \" %(=)% \" khi %(\\left\\{\\begin{array}{l}A=B \\\\ \\cos \\frac{C}{2}=\\frac{\\sqrt{3}}{2} \\sin C \\Leftrightarrow\\left\\{\\begin{array}{l}C=\\arccos \\frac{1}{3} \\\\ \\cos C=\\frac{1}{3}\\end{array}\\right. \\\\ A=B\\end{array}\\right.)%",
+        "question_type": "essay"
+    }
+]

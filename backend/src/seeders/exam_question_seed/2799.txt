@@ -1,0 +1,134 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Tính: %(\\mathrm{A}=\\frac{1}{\\sqrt{5}+2}-\\sqrt{9+4 \\sqrt{5}})%.",
+        "question_images": [],
+        "solution": "\\[A=\\frac{\\sqrt{5}-2}{5-4}-\\sqrt{(\\sqrt{5}+2)^{2}}=\\sqrt{5}-2-\\sqrt{5}-2=-4\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Cho biểu thức: %(\\mathrm{B}=\\frac{2(\\mathrm{x}+4)}{\\mathrm{x}-3 \\sqrt{\\mathrm{x}}-4}+\\frac{\\sqrt{\\mathrm{x}}}{\\sqrt{\\mathrm{x}}+1}-\\frac{8}{\\sqrt{\\mathrm{x}}-4})% với %(\\mathrm{x} \\geq 0, \\mathrm{x} \\neq 16)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "Rút gọn %(B)%.",
+        "question_images": [],
+        "solution": "Với %(x \\geq 0, x \\neq 16)%, thì:<img/><br>\\[\\begin{aligned}B & =\\frac{2(x+4)}{(\\sqrt{x}+1)(\\sqrt{x}-4)}+\\frac{\\sqrt{x}}{\\sqrt{x}+1}-\\frac{8}{\\sqrt{x}-4}=\\frac{2 x+8+\\sqrt{x}(\\sqrt{x}-4)-8(\\sqrt{x}+1)}{(\\sqrt{x}+1)(\\sqrt{x}-4)} \\\\& =\\frac{2 x+8+x-4 \\sqrt{x}-8 \\sqrt{x}-8}{(\\sqrt{x}+1)(\\sqrt{x}-4)}=\\frac{3 x-12 \\sqrt{x}}{(\\sqrt{x}+1)(\\sqrt{x}-4)}\\end{aligned}\\]<br>%(=\\frac{3 \\sqrt{x}(\\sqrt{x}-4)}{(\\sqrt{x}+1)(\\sqrt{x}-4)}=\\frac{3 \\sqrt{x}}{\\sqrt{x}+1})%<br>Vậy %(\\mathrm{B}=\\frac{3 \\sqrt{\\mathrm{x}}}{\\sqrt{\\mathrm{x}}+1})% với %(\\mathrm{x} \\geq 0, \\mathrm{x} \\neq 16)%.<br><img/><br><img/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "Tìm %(x)% để giá trị của %(B)% là một số nguyên.",
+        "question_images": [],
+        "solution": "Dễ thấy %(\\mathrm{B} \\geq 0)% (vì %(\\sqrt{\\mathrm{x}} \\geq 0)% ).<br>Lại có: %(\\mathrm{B}=3-\\frac{3}{\\sqrt{\\mathrm{x}}+1}\\lt 3)% (vì %(\\frac{3}{\\sqrt{\\mathrm{x}}+1}\\gt 0 \\forall \\mathrm{x} \\geq 0, \\mathrm{x} \\neq 16)% ).<br>Suy ra: %(0 \\leq B\\lt 3 \\Rightarrow B \\in\\{0 ; 1 ; 2\\})% (vì %(B \\in Z)% ).<br>- Với %(\\mathrm{B}=0 \\Rightarrow \\mathrm{x}=0)%;<br>- Với %(B=1 \\Rightarrow \\frac{3 \\sqrt{x}}{\\sqrt{x}+1}=1 \\Leftrightarrow 3 \\sqrt{x}=\\sqrt{x}+1 \\Leftrightarrow x=\\frac{1}{4})%.<br>- Với %(B=2 \\Rightarrow \\frac{3 \\sqrt{x}}{\\sqrt{x}+1}=2 \\Leftrightarrow 3 \\sqrt{x}=2(\\sqrt{x}+1) \\Leftrightarrow x=4)%.<br>Vậy để %(B \\in Z)% thì %(x \\in\\left\\{0 ; \\frac{1}{4} ; 4\\right\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho phương trình: %(x^{2}-4 x+m+1=0)% ( %(m)% là tham số).",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "Giải phương trình với %(\\mathrm{m}=2)%.",
+        "question_images": [],
+        "solution": "%(m=2)%, phương trình đã cho thành: %(x^{2}-4 x+3=0)%.<br>Phương trình này có %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}=1-4+3=0)% nên có hai nghiệm: %(\\mathrm{x}_{1}=1 ; \\mathrm{x}_{2}=3)%.<br>Vậy với %(m=2)% thì phương trình đã cho có hai nghiệm phân biệt: %(x_{1}=1 ; x_{2}=3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "Tìm %(m)% để phương trình có hai nghiệm trái dấu %(\\left(x_{1}\\lt 0\\lt x_{2}\\right))%.<br>Khi đó nghiệm nào có giá trị tuyệt đối lớn hơn?",
+        "question_images": [],
+        "solution": "Phương trình đã cho có hai nghiệm trái dấu<br>%(\\Leftrightarrow a c\\lt 0 \\Leftrightarrow m+1\\lt 0 \\Leftrightarrow m\\lt -1)%.<br>Theo định lí Vi-et, ta có: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=4 \\\\ x_{1} x_{2}=m+1\\end{array}\\right.)%.<br>Xét hiệu: %(\\left|x_{1}\\right|-\\left|x_{2}\\right|=-x_{1}-x_{2}=-4\\lt 0)% (vì %(\\left.x_{1}\\lt 0\\lt x_{2}\\right) \\Rightarrow\\left|x_{1}\\right|\\lt \\left|x_{2}\\right|)%.<br>Vậy nghiệm %(x_{1})% có giá trị tuyệt đối nhỏ hơn nghiệm %(x_{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Trong mặt phẳng toạ độ %(\\mathrm{Oxy})% cho parabol %((\\mathrm{P}))% : %(\\mathrm{y}=-\\mathrm{x}^{2})% và đường thẳng %((\\mathrm{d}))% : %(\\mathrm{y}=\\mathrm{mx}+)% 2 (m là tham số).",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.75,
+        "content": "Tìm %(m)% để %((\\mathrm{d}))% cắt %((\\mathrm{P}))% tại một điểm duy nhất.",
+        "question_images": [],
+        "solution": "(d) cắt %((\\mathrm{P}))% tại một điểm duy nhất<br>%(\\Leftrightarrow)% Phương trình hoành độ của %((\\mathrm{d}))% và %((\\mathrm{P}))% : %(-x^{2}=m x+2 \\Leftrightarrow x^{2}+m x+2=0)% có nghiệm duy nhất.<br>\\[\\Leftrightarrow \\Delta=m^{2}-8=0 \\Leftrightarrow m= \\pm 2 \\sqrt{2} .\\]<br>Vậy giá trị %(m)% cần tìm là %(m= \\pm 2 \\sqrt{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "Cho hai điểm %(A(-2 ; m))% và %(B(1 ; n))%. Tìm %(m, n)% để %(A)% thuộc %((P))% và %(B)% thuộc %((d))%.",
+        "question_images": [],
+        "solution": "\\[\\left\\{\\begin{array} { l } { A \\in ( P ) } \\\\{ B \\in ( d ) }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { m = - ( - 2 ) ^ { 2 } } \\\\{ n = m + 2 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}m=-4 \\n=-2\\end{array}\\right.\\right.\\right.\\]<br>Vậy %(m=-4, n=-2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "Gọi %(\\mathrm{H})% là chân đường vuông góc kẻ từ %(\\mathrm{O})% đến (d). Tìm %(\\mathrm{m})% để độ dài đoạn %(\\mathrm{OH})% lớn nhất.",
+        "question_images": [],
+        "solution": "- Nếu %(\\mathrm{m}=0)% thì (d) thành: %(\\mathrm{y}=2 \\Rightarrow)% khoảng cách từ %(\\mathrm{O})% đến %((\\mathrm{d})=2 \\Rightarrow \\mathrm{OH}=2)% (Hình 1).<br>- Nếu %(\\mathrm{m} \\neq 0)% thì %((\\mathrm{d}))% cắt trục tung tại điểm %(\\mathrm{A}(0 ; 2))% và cắt trục hoành tại điểm %(\\mathrm{B})% ( %(\\left.-\\frac{2}{m} ; 0\\right))% (Hình 2)<br>.%(\\Rightarrow O A=2)% và %(O B=\\left|-\\frac{2}{m}\\right|=\\frac{2}{|\\mathrm{~m}|})%.<br>%(\\triangle \\mathrm{OAB})% vuông tại %(\\mathrm{O})% có %(\\mathrm{OH} \\perp \\mathrm{AB} \\Rightarrow \\frac{1}{\\mathrm{OH}^{2}}=\\frac{1}{\\mathrm{OA}^{2}}+\\frac{1}{\\mathrm{OB}^{2}}=\\frac{1}{4}+\\frac{\\mathrm{m}^{2}}{4}=\\frac{\\mathrm{m}^{2}+1}{4})%<br>\\[\\Rightarrow \\mathrm{OH}=\\frac{2}{\\sqrt{\\mathrm{m}^{2}+1}} \\text {. Vi } \\mathrm{m}^{2}+1\\gt 1 \\forall \\mathrm{m} \\neq 0 \\Rightarrow \\sqrt{\\mathrm{m}^{2}+1}>1 \\Rightarrow \\mathrm{OH}\\lt 2 \\text {. }\\]<br>So sánh hai trường hợp, ta có %(\\mathrm{OH}_{\\max }=2 \\Leftrightarrow \\mathrm{m}=0)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3c8d2ffb939bdc8a607dfa24a3c39692.png\" srcset=\"https://docdn.giainhanh.io/media/test/2ea33dfd5f59247cd85ad759d1caeba1.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho đường tròn %((\\mathrm{O}))%, dây cung %(\\mathrm{BC}(\\mathrm{BC})% không là đường kính). Điểm %(\\mathrm{A})% di động trên cung nhỏ %(B C\\left(A\\right.)% khác %(B)% và %(C)%; độ dài đoạn %(A B)% khác %(A C)% ). Kẻ đường kính %(A A^{\\prime})% của đường tròn %((O), D)% là chân đường vuông góc kẻ từ %(A)% đến %(B C)%. Hai điểm %(E, F)% lần lượt là chân đường vuông góc kẻ từ %(\\mathrm{B}, \\mathrm{C})% đến %(\\mathrm{AA}^{\\prime})%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "Bốn điểm %(A, B, D, E)% cùng nằm trên một đường tròn.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/02dea3896c813de83f8512ea5c1ba19b.png\" srcset=\"https://docdn.giainhanh.io/media/test/74e6927c5db99ddca913fad178698d64.png 173w, https://docdn.giainhanh.io/media/test/2e20c2409734919a97a2b7c28db2df68.png 500w, https://docdn.giainhanh.io/media/test/8e3974b99173b55622df82f8e95cbaf8.png 750w\" width=\"750\"/><br>Vi %(\\mathrm{ADB}=\\mathrm{AEB}=90^{\\circ} \\Rightarrow)% bốn điểm %(\\mathrm{A}, \\mathrm{B}, \\mathrm{D}, \\mathrm{E})% cùng thuộc đường tròn đường kính AB.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "%(B D . A C=A D \\cdot A^{\\prime} C)%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a822fa85f632f2548737fc2765cdf0b3.png\" srcset=\"https://docdn.giainhanh.io/media/test/00f6b4d65915bc47071d404091c028d2.png 173w, https://docdn.giainhanh.io/media/test/c10aeec083a28a8876af31971adc612c.png 500w, https://docdn.giainhanh.io/media/test/8f9abfc385b4a87e77c23916d5a264e6.png 750w\" width=\"750\"/><br>Xét %(\\triangle A D B)% và %(\\triangle A C A^{\\prime})% có:<br>%(\\mathrm{ADB}=\\mathrm{ACB}=90^{\\circ}\\left(\\mathrm{ACB}=90^{\\circ}\\right.)% vì là góc nội tiếp chắn nửa đường tròn);<br>%(\\mathrm{ABD}=\\mathrm{AA} ' \\mathrm{C})% (hai góc nội tiếp cùng chắn cung %(\\mathrm{AC})% )<br>%(\\Rightarrow \\triangle \\mathrm{ADB} \\sim \\triangle \\mathrm{ACA}^{\\prime})% (g.g)<br>%(\\Rightarrow \\frac{\\mathrm{AD}}{\\mathrm{AC}}=\\frac{\\mathrm{BD}}{\\mathrm{A}^{\\prime} \\mathrm{C}} \\Rightarrow \\mathrm{BD} \\cdot \\mathrm{AC}=\\mathrm{AD} \\cdot \\mathrm{A}^{\\prime} \\mathrm{C}(đ \\mathrm{pcm}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "%(\\mathrm{DE})% vuông góc với %(\\mathrm{AC})%.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{H})% là giao điểm của %(\\mathrm{DE})% với %(\\mathrm{AC})%.<br>Tứ giác %(\\mathrm{AEDB})% nội tiếp %(\\Rightarrow \\mathrm{HDC}=\\mathrm{BAE}=\\mathrm{BAA})% '.%(\\mathrm{BAA}^{\\prime})% và %(\\mathrm{BCA})% là hai góc nội tiếp của %((\\mathrm{O}))% nên:<br>\\[\\mathrm{BAA}^{\\prime}=\\frac{1}{2} \\mathrm{sABA}^{\\prime} ; \\mathrm{BCA}=\\frac{1}{2} \\mathrm{~s} d \\mathrm{BA} .\\]<br>%(\\Rightarrow \\mathrm{BAA}^{\\prime}+\\mathrm{BCA}=\\frac{1}{2} \\mathrm{sđBA}^{\\prime}+\\frac{1}{2} \\mathrm{~s} \\mathrm{BA}=\\frac{1}{2} \\mathrm{sdABA}^{\\prime}=90^{\\circ})% (do %(\\mathrm{AA}^{\\prime})% là đường kính)<br>Suy ra: %(\\mathrm{HDC}+\\mathrm{HCD}=\\mathrm{BAA}^{\\prime}+\\mathrm{BCA}=90^{\\circ} \\Rightarrow \\triangle \\mathrm{CHD})% vuông tại %(\\mathrm{H})%.<br>Do đó: %(\\mathrm{DE} \\perp \\mathrm{AC})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/27669a3a54258f33da6ca367509e0719.png\" srcset=\"https://docdn.giainhanh.io/media/test/bcdca362912f9cf5e932a295fa84d844.png 173w, https://docdn.giainhanh.io/media/test/ccea97fae75abe10ac0978348c28dfb2.png 500w, https://docdn.giainhanh.io/media/test/e026b3f6276e2881c8f94661c8c95ee6.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 0.5,
+        "content": "âm đường tròn ngoại tiếp tam giác DEF là một điểm cố định.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/8f63adb485bdca60127ffb7e96825924.png\" srcset=\"https://docdn.giainhanh.io/media/test/bb5bc60e1047b2d1c88fde4166726271.png 173w, https://docdn.giainhanh.io/media/test/73943ea7459c7b8b8708906abcef111e.png 500w, https://docdn.giainhanh.io/media/test/bc61e546608396d9d96e5bdc096cc0c0.png 750w\" width=\"750\"/><br>Gọi I là trung điểm của %(\\mathrm{BC}, \\mathrm{K})% là giao điểm của %(\\mathrm{OI})% với %(\\mathrm{DA}^{\\prime}, \\mathrm{M})% là giao điểm của %(\\mathrm{EI})% với %(\\mathrm{CF}, \\mathrm{N})% là điểm đối xứng với %(\\mathrm{D})% qua %(\\mathrm{I})%.<br>Ta có: %(\\mathrm{OI} \\perp \\mathrm{BC} \\Rightarrow \\mathrm{OI} / / \\mathrm{AD})% (vì cùng %(\\perp \\mathrm{BC}) \\Rightarrow \\mathrm{OK} / / \\mathrm{AD})%.%(\\triangle A D A^{\\prime})% có: %(O A=O A^{\\prime}(g t), O K / / A D \\Rightarrow K D=K A^{\\prime})%<br>%(\\triangle D N A^{\\prime})% có %(I D=I N, K D=K A^{\\prime} \\Rightarrow \\mathrm{IK} / / \\mathrm{NA}^{\\prime})%;<br>mà IK %(\\perp \\mathrm{BC})% (do OI %(\\perp \\mathrm{BC})% )%(\\Rightarrow \\mathrm{NA}^{\\prime} \\perp \\mathrm{BC})%.<br>Tứ giác %(B E N A^{\\prime})% có %(\\mathrm{BEA}^{\\prime}=\\mathrm{BNA}^{\\prime}=90^{\\circ})% nên nội tiếp được đường tròn<br>\\[\\Rightarrow \\mathrm{EA}^{\\prime} \\mathrm{B}=\\mathrm{ENB} \\text {. }\\]<br>Ta lại có: %(\\mathrm{EA} ' \\mathrm{~B}=\\mathrm{AA} ' \\mathrm{~B}=\\mathrm{ACB})% (hai góc nội tiếp cùng chắn cung %(\\mathrm{AB})% của %((\\mathrm{O}))%<br>%(\\Rightarrow \\mathrm{ENB}=\\mathrm{ACB} \\Rightarrow \\mathrm{NE} / / \\mathrm{AC})% (vì có hai góc ở vị trí đồng vị bằng nhau).<br>Mà %(D E \\perp A C)%, nên %(D E \\perp E N)% (1)<br>Xét %(\\triangle \\mathrm{IBE})% và %(\\triangle \\mathrm{ICM})% có:%(\\mathrm{EIB}=\\mathrm{CIM})% (đối đỉnh)<br>IB = IC (cách dựng)<br>%(\\mathrm{IBE}=\\mathrm{ICM})% (so le trong, %(\\mathrm{BE} / / \\mathrm{CF})% (vì cùng %(\\perp \\mathrm{AA}^{\\prime})% ))<br>%(\\Rightarrow \\triangle \\mathrm{IBE}=\\Delta \\mathrm{ICM})% (g.c.g)<br>%(\\Rightarrow \\mathrm{IE}=\\mathrm{IM})%%(\\Delta E F M)% vuông tại %(F, I E=I M=I F)%.<br>Tứ giác DENM có %(\\mathrm{IE}=\\mathrm{IM}, \\mathrm{ID}=\\mathrm{IN})% nên là hình bình hành (2)<br>Từ (1) và (2) suy ra DENM là hình chữ nhật<br>%(\\Rightarrow I E=I D=I N=I M)%%(\\Rightarrow I D=I E=I F)%.<br>Suy ra I là tâm đường tròn ngoại tiếp %(\\triangle D E F)%.<br>I là trung điểm của BC nên I cố định.<br>Vậy tâm đường tròn ngoại tiếp tam giác DEF là một điểm cố định.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 0.5,
+        "content": "Giải hệ phương trình:<br>\\[\\left\\{\\begin{array}{l}x^{4}-x^{3}+3 x^{2}-4 y-1=0 \\\\sqrt{\\frac{x^{2}+4 y^{2}}{2}}+\\sqrt{\\frac{x^{2}+2 x y+4 y^{2}}{3}}=x+2 y\\end{array}\\right.\\]",
+        "question_images": [],
+        "solution": "Từ (2) suy ra %(x+2 y \\geq 0)%.<br>Áp dụng bất đẳng thức Bunhiacopxki, ta có:<br>\\[\\begin{array}{l}2\\left(x^{2}+4 y^{2}\\right)=\\left(1^{2}+1^{2}\\right)\\left[x^{2}+(2 y)^{2}\\right] \\geq(x+2 y)^{2} \\\\Rightarrow \\sqrt{\\frac{x^{2}+4 y^{2}}{2}} \\geq \\sqrt{\\frac{(x+2 y)^{2}}{4}}=\\frac{x+2 y}{2}\\end{array}\\]<br>Dấu bằng xảy %(\\mathrm{ra} \\Leftrightarrow \\mathrm{x}=2 \\mathrm{y})%.<br>Mặt khác, dễ dàng chứng minh được: %(\\sqrt{\\frac{x^{2}+2 x y+4 y^{2}}{3}} \\geq \\frac{x+2 y}{2})%<br>Thật vậy, %(\\sqrt{\\frac{x^{2}+2 x y+4 y^{2}}{3}} \\geq \\frac{x+2 y}{2} \\Leftrightarrow \\frac{x^{2}+2 x y+4 y^{2}}{3} \\geq \\frac{(x+2 y)^{2}}{4})% (do cả hai vế đều %(\\geq 0)% )%(\\Leftrightarrow 4\\left(x^{2}+2 x y+4 y^{2}\\right) \\geq 3\\left(x^{2}+4 x y+4 y^{2}\\right) \\Leftrightarrow(x-2 y)^{2} \\geq 0)% (luôn đúng %(\\forall x, y)% ).<br>Dấu bằng xảy %(\\mathrm{ra} \\Leftrightarrow \\mathrm{x}=2 \\mathrm{y})%.<br>Từ (3) và (4) suy ra: %(\\sqrt{\\frac{x^{2}+4 y^{2}}{2}}+\\sqrt{\\frac{x^{2}+2 x y+4 y^{2}}{3}} \\geq x+2 y)%.<br>Dấu bằng xảy %(\\mathrm{ra} \\Leftrightarrow \\mathrm{x}=2 \\mathrm{y})%.Do đó %((2) \\Leftrightarrow x=2 y \\geq 0)% (vì %(x+2 y \\geq 0)% ).<br>Khi đó, (1) trở thành: %(x^{4}-x^{3}+3 x^{2}-2 x-1=0 \\Leftrightarrow(x-1)\\left(x^{3}+3 x+1\\right)=0)%<br>\\[\\Leftrightarrow x=1\\left(\\text { vì } x^{3}+3 x+1 \\geq 1\\gt 0 \\forall x \\geq 0\\right) \\Rightarrow y=\\frac{1}{2} \\text {. }\\]<br>Vậy nghiệm của hệ đã cho là ( %(\\left.x=1 ; y=\\frac{1}{2}\\right))%.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức : %(P=\\left(\\frac{x}{x^{2}-25}+\\frac{5-x}{x^{2}+5 x}\\right): \\frac{2 x-5}{x^{2}+5 x}-\\frac{2 x}{5-x})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Rút gọn biểu thức %(P)%",
+        "question_images": [],
+        "solution": "Tìm được ĐKXĐ của P là : %(x \\neq 0 ; x \\neq \\pm 5 ; x \\neq \\frac{5}{2})%<br>\\[\\begin{array}{l}P=\\left(\\frac{x}{(x+5)(x-5)}-\\frac{x-5}{x(x+5)}\\right): \\frac{2 x-5}{x(x+5)}-\\frac{2 x}{5-x} \\\\=\\frac{x^{2}-(x-5)^{2}}{x(x+5)(x-5)}: \\frac{2 x-5}{x(x+5)}-\\frac{2 x}{5-x} \\\\=\\frac{(x-x+5)(x+x-5)}{x(x-5)(x+5)} \\cdot \\frac{x(x+5)}{2 x-5}-\\frac{2 x}{5-x} \\\\=\\frac{5}{x-5}+\\frac{2 x}{x-5}=\\frac{5+2 x}{x-5}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm giá trị nguyên lớn nhất của %(x)% để %(P)% có giá trị là một số nguyên.",
+        "question_images": [],
+        "solution": "\\[P \\in \\mathbb{Z}\\left\\{\\begin{array}{l}x \\neq 0 ; x \\neq \\pm 5 ; x \\in \\mathbb{Z}(*) \\\\frac{5+2 x}{x-5} \\in \\mathbb{Z}\\end{array}\\right.\\]<br>Ta có: %(\\frac{5+2 x}{x-5}=2+\\frac{15}{x-5})%<br>\\[\\text { Vì } x \\in \\mathbb{Z} \\Rightarrow x-5 \\in U(15)=\\{ \\pm 1 ; \\pm 3 ; \\pm 5 ; \\pm 15\\}\\]<br>Mà %(x)% lớn nhất nên %(x-5)% lớn nhất . Do đó %(x-5=15 \\Leftrightarrow x=20)% (thỏa mãn (*))<br>Vậy giá trị nguyên lớn nhất của %(x=20)% để %(P)% có giá trị là một số nguyên.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Giải phương trình sau:<br>\\[\\frac{2010 x+2010}{x^{2}+x+1}-\\frac{2010 x-2010}{x^{2}-x+1}=\\frac{2011}{x\\left(x^{4}+x^{2}+1\\right)}\\]",
+        "question_images": [],
+        "solution": "\\[\\frac{2010 x+2010}{x^{2}+x+1}-\\frac{2010 x-2010}{x^{2}-x+1}=\\frac{2011}{x\\left(x^{4}+x^{2}+1\\right)}\\]<br>Ta có: %(x^{2}+x+1=\\left(x+\\frac{1}{2}\\right)^{2}+\\frac{3}{4}\\gt 0 \\forall x ; x^{2}-x+1=\\left(x-\\frac{1}{2}\\right)^{2}+\\frac{3}{4}>0 \\forall x)%<br>Điều kiện xác định của phương trình (1) là : %(x \\neq 0)%<br>Ta có %(x^{4}+x^{2}+1=x^{4}+2 x^{2}+1-x^{2}=\\left(x^{2}-x+1\\right)\\left(x^{2}+x+1\\right))%<br>Quy đồng mẫu hai vế và khử mẫu:<br>\\[\\begin{array}{l}(1) \\Rightarrow 2010 x(x+1)\\left(x^{2}-x+1\\right)-2010 x(x-1)\\left(x^{2}+x+1\\right)=2011 \\\\Leftrightarrow 2010 x\\left(x^{3}+1\\right)-2010 x\\left(x^{3}-1\\right)=2011 \\\\Leftrightarrow 2010 x\\left(x^{3}+1-x^{3}+1\\right)=2011 \\\\Leftrightarrow 2010 x \\cdot 2=2011 \\Leftrightarrow x=\\frac{2011}{4020}(T M)\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.1 ",
+        "point": 1.0,
+        "content": "Phân tích đa thức sau thành nhân tử:<br>\\[a^{4}(b-c)+b^{4}(c-a)+c^{4}(a-b)\\]",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} & a^{4}(b-c)+b^{4}(c-a)+c^{4}(a-b)=a^{4}(b-c)-b^{4}(a-c)+c^{4}(a-b) \\\\ = & a^{4}(b-c)-b^{4}(a-b+b-c)+c^{4}(a-b) \\\\ = & a^{4}(b-c)-b^{4}(a-b)-b^{4}(b-c)+c^{4}(a-b) \\\\ = & (b-c)\\left(a^{4}-b^{4}\\right)-(a-b)\\left(b^{4}-c^{4}\\right) \\\\ = & (b-c)(a-b)(a+b)\\left(a^{2}+b^{2}\\right)-(a-b)(b-c)(b+c)\\left(b^{2}+c^{2}\\right) \\\\ = & (a-b)(b-c)\\left(a^{3}+a b^{2}+a^{2} b+b^{3}-b^{3}-b c^{2}-b^{2} c-c^{3}\\right) \\\\ = & (a-b)(b-c)\\left[(a-c)\\left(a^{2}+a c+c^{2}\\right)+b^{2}(a-c)+b(a-c)(a+c)\\right] \\\\ = & (a-b)(b-c)(a-c)\\left(a^{2}+b^{2}+c^{2}+a b+b c+c a\\right)\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.2 ",
+        "point": 0.5,
+        "content": "Cho %(a, b)% thỏa mãn %(a^{2}+b^{2} \\leq 8)%. Chứng minh %(-4 \\leq a+b \\leq 4)%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}(a-b)^{2} \\geq 0 \\Leftrightarrow a^{2}+b^{2} \\geq 2 a b \\text { mà } a^{2}+b^{2} \\leq 8 \\text { nên } 2 a b \\leq 8 \\\\(a+b)^{2}=a^{2}+b^{2}+2 a b \\leq 8+8=16 \\\\Rightarrow(a+b)^{2}-16 \\leq 0 \\Leftrightarrow(a+b+4)(a+b-4) \\leq 0 \\\\Rightarrow-4 \\leq a+b \\leq 4 \\text { (dfcm) }\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho O là trung điềm của đoạn thă̆ng %(A B)% có độ dài bằng %(2 a)%. Trên cùng một nửa mặt phẳng bờ là đường thẳng %(A B)% vẽ hai tia %(A x, B y)% cùng vuông góc với AB . Trên tia %(A x)% lấy điểm D bất kỳ, qua O vẽ hai dường thẳng vuông góc với %(D O)% tại O cắt By tại C",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh %(B C \\cdot A D=a^{2})%",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/42acd1d238b8fd9c2c8dcf0a90c848cf.png\" srcset=\"https://docdn.giainhanh.io/media/test/730cb11f8858aa86a1b294e00b121c15.png 164w, https://docdn.giainhanh.io/media/test/c51589236217086f1af6015831308438.png 500w\" width=\"500\"/><br>Chứng minh %(\\widehat{A D O}=\\widehat{B O C})% (cùng phụ với %(\\widehat{A O D})% )<br>Chứng minh %(\\triangle A D O \\sim \\triangle B O C(g g) \\Rightarrow \\frac{O A}{B C}=\\frac{A D}{O B} \\Rightarrow B C \\cdot A D=a^{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh %(D O)% và %(C O)% lần lượt là tia phân giác của %(\\widehat{A D C})% và %(\\widehat{B C D})%",
+        "question_images": [],
+        "solution": "Chứng minh %(\\frac{O B}{B C}=\\frac{O D}{O C})%.<br>Từ đó chứng minh %(\\triangle O D C \\sim \\triangle B O C()% c.g.c %())%<br>Suy ra và kết luận %(C O)% là tia phân giác của %(\\widehat{B C D})%<br>Chỉ ra %(\\triangle A D O \\sim \\triangle O D C)% (cùng đồng dạng với %(\\triangle B O C)% )<br>Chứng minh %(D O)% là tia phân giác của %(\\widehat{A D C})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Vẽ %(O H \\perp C D(H \\in C D))%. Gọi I là giao điểm của AC và %(\\mathrm{BD}, \\mathrm{E})% là giao điểm của AH và %(\\mathrm{DO}, \\mathrm{F})% là giao điểm của BH và CO . Chứng minh ba điểm %(E, I, F)% thẳng hàng",
+        "question_images": [],
+        "solution": "Chứng minh %(\\Delta)% vuông %(\\mathrm{OBC}=\\Delta)% vuông OHC (cạnh huyền - góc nhọn)<br>\\[\\Rightarrow C B=C H\\]<br>Chứng minh %(O C)% là đường trung trực HB<br>Tương tự chứng minh %(A D=D H)% và OD là trung trực của %(H A)%<br>Chứng minh EF là đường trung bình %(\\triangle A H B \\Rightarrow E F / / A B)%<br>Chỉ ra %(E H / / O C \\Rightarrow \\frac{D E}{E O}=\\frac{D H}{H C}=\\frac{A D}{B C})%<br>%(A D / / B C \\Rightarrow \\frac{A D}{B C}=\\frac{D I}{I B})%<br>Suy ra %(\\frac{D E}{E O}=\\frac{D I}{I B})%.<br>Áp dụng định lý Ta let đảo cho %(\\triangle D O B \\Rightarrow E I / / O B)%<br>Theo tiên đề Oclit kết luận %(E, I, F)% thẳng hàng",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 0.5,
+        "content": "d) Xác định vị trí của điểm D trên tia %(A x)% để tích %(D O . C O)% có giá trị nhỏ nhất. Tìm giá trị nhỏ nhất đó.",
+        "question_images": [],
+        "solution": "Chỉ ra %(2 S_{D O C}=O C \\cdot O D=O H \\cdot D C=a \\cdot D C)% nhỏ nhất%(\\Leftrightarrow D C)% nhỏ nhất %(\\Leftrightarrow D C \\perp A x \\Leftrightarrow A B C D)% là hình chữ nhật %(\\Leftrightarrow A D=B C ; C D=A B)%<br>Mà %(B C . A D=a^{2} \\Leftrightarrow A D^{2}=a^{2} \\Leftrightarrow A D=a)%<br>Xét tam giác vuông %(A H B)% có %(H O)% là đường trung tuyến thuộc cạnh huyền<br>\\[\\Rightarrow O H=\\frac{A B}{2}=a\\]<br>Suy ra GTNN của %(O D . O C)% bằng %(2 a^{2})% khi và chỉ khi %(D \\in A x)% và %(A D=a)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho hai số %(x, y)% thỏa mãn điều kiện %(\\left(x^{2}-y^{2}\\right)^{2}+4 x^{2} y^{2}+x^{2}-2 y^{2}=0)%. Tìm giá trị lớn nhất và giá trị nhỏ nhất của biểu thức %(A=x^{2}+y^{2})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\left(x^{2}-y^{2}\\right)^{2}+4 x^{2} y^{2}+x^{2}-2 y^{2}=0 \\Leftrightarrow x^{4}+y^{4}-2 x^{2} y^{2}+4 x^{2} y^{2}+x^{2}-2 y^{2}=0 \\\\Leftrightarrow\\left(x^{4}+2 x^{2} y^{2}+y^{4}\\right)+x^{2}-2 y^{2}=0 \\Leftrightarrow\\left(x^{2}+y^{2}\\right)^{2}-2\\left(x^{2}+y^{2}\\right)+1=-3 x^{2}+1 \\\\Leftrightarrow\\left(x^{2}+y^{2}-1\\right)^{2}=-3 x^{2}+1\\end{array}\\]<br>Ta có: %(-3 x^{2}+1 \\leq 1 \\forall x \\Rightarrow\\left(x^{2}+y^{2}-1\\right)^{2} \\leq 1 \\Leftrightarrow-1 \\leq x^{2}+y^{2}-1 \\leq 1 \\Leftrightarrow 0 \\leq A \\leq 2)% %(A=0 \\Leftrightarrow\\left\\{\\begin{array}{l}x=0 \\\\ x^{2}+y^{2}=0\\end{array} \\Leftrightarrow x=y=0\\right.)%. Vậy %(\\min A=0 \\Leftrightarrow x=y=0)%<br>%(A=2 \\Leftrightarrow\\left\\{\\begin{array}{l}x=0 \\\\ x^{2}+y^{2}=2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=0 \\\\ y^{2}=2\\end{array}\\right.\\right.)%. Vậy max %(A=2 \\Leftrightarrow\\left\\{\\begin{array}{l}x=0 \\\\ y^{2}=2\\end{array}\\right.)%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các giá trị của tham số %(\\mathrm{m})% để phương trình %(x^{2}-4 x+2 m-3=0)% có hai nghiệm phân biệt %(x_{1}, x_{2})% thỏa mãn %(x_{1}^{2}+4 x_{2}=3 x_{2}^{2}+28)%",
+        "question_images": [],
+        "solution": "Để phương trình có 2 nghiệm phân biệtthì %(\\Delta^{\\prime}=7-2 m\\gt 0 \\Leftrightarrow m\\lt \\frac{7}{2})%<br>Theo hệ thức Viet ta được %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=4 \\\\ x_{1} x_{2}=2 m-3\\end{array}\\right.)%<br>Do đó: %(x_{1}=4-x_{2} \\Rightarrow 4-x_{2}^{3}+4 x_{2}-3 x_{2}^{2}-28=0)%<br>%(\\Leftrightarrow\\left(x_{2}-1\\right)\\left(x^{2}-8 x+36\\right)=0)%<br>Vì %(x^{2}-8 x+36=(x-4)^{2}+20>0 \\Rightarrow x_{2}=1)%<br>Phương trình đã cho có 1 nghiệm bằng 1 nên<br>%(1-4+2 m-3=0 \\Leftrightarrow m=3)%<br>Đây cũng chính là giá trị duy nhất thỏa mãn yêu cầu bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho số thực %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% thỏa mãn %(\\mathrm{ab}+\\mathrm{bc}+\\mathrm{ca}=2025)%.  Tìm giá trị biểu thức %(P=\\frac{a^{2}-b c}{a^{2}+2025}+\\frac{b^{2}-c a}{b^{2}+2025}+\\frac{c^{2}-a b}{c^{2}+2025})%",
+        "question_images": [],
+        "solution": "Ta có:<br>%(\\frac{a^{2}-b c}{a^{2}+2025}=\\frac{a^{2}+a b+c a-2025}{a^{2}+2025}=\\frac{a(a+b)+a(a+c)}{a^{2}+2025}-1=\\frac{a}{c+a}+\\frac{a}{a+b}-1)%<br>Tương tự ta có:<br>Suy ra %(P=\\frac{a^{2}-b c}{a^{2}+2025}+\\frac{b^{2}-c a}{b^{2}+2025}+\\frac{c^{2}-a b}{c^{2}+2025})%<br>%(\\begin{array}{l}=\\frac{a^{2}-b c}{(a+b)(a+c)}+\\frac{b^{2}-c a}{(b+a)(b+c)}+\\frac{c^{2}-a b}{(c+b)(c+a)} \\\\=\\frac{a}{c+a}+\\frac{a}{a+b}-1+\\frac{b}{b+c}+\\frac{b}{a+b}-1+\\frac{c}{c+a}+\\frac{c}{b+c}-1 \\\\=\\left(\\frac{a}{c+a}+\\frac{c}{c+a}\\right)+\\left(\\frac{b}{b+c}+\\frac{c}{b+c}\\right)+\\left(\\frac{a}{a+b}+\\frac{b}{a+b}\\right)-3=0\\end{array})%<br>Vậy %(\\mathrm{P}=0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các cặp số nguyên %((x, y))% thỏa mãn %(4 x^{2}+5 y^{2}+4 x y-4 x-2 y-8=0)%",
+        "question_images": [],
+        "solution": "Ta có: %((2 x+y-1)^{2}+4 y^{2}=9)%<br>%(\\Rightarrow 9 \\geq 4 y^{2} \\Rightarrow y^{2} \\leq \\frac{9}{4} \\Rightarrow y^{2} \\in\\{1 ; 0\\})%<br>Với %(y^{2}=1 \\Rightarrow(2 x+y-1)^{2}=5)%<br>%(\\Rightarrow)% Phương trình không có nghiệm nguyênVới %(y^{2}=0 \\Rightarrow(2 x-y+1)^{2}=9 \\Rightarrow\\left\\{\\begin{array}{l}2 x-y+1= \\pm 3 \\\\ y=0\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=1 ; y=0 \\\\ x=-2 ; y=0\\end{array}\\right.\\right.)%<br>Thử lại thỏa mãnVậy %((x ; y) \\in\\{(1 ; 0) ;(2 ; 0)\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các số thực %(\\mathrm{a}, \\mathrm{b})% để đa thức %(f(x)=x^{3}+2 x^{2}+a x+b+5)% chia hết cho đa thức %(g(x)=x^{2}+3)%.",
+        "question_images": [],
+        "solution": "Vì %(\\mathrm{f}(\\mathrm{x}))% chia hết cho %(\\mathrm{g}(\\mathrm{x}), \\mathrm{f}(\\mathrm{x}))% bậc %(3, \\mathrm{~g}(\\mathrm{x}))% bậc 2 %(\\Rightarrow f(x)=(x+c)\\left(x^{2}+3\\right))% với %(\\mathrm{c})% là số thực<br>Suy ra %(f(x)=x^{3}+c x^{2}+3 x+3 c=x^{3}+2 x^{2}+a x+b+5, \\forall x)%<br>Đồng nhất hệ số ta có %(\\mathrm{c}=2, \\mathrm{a}=3, \\mathrm{~b}=3 \\mathrm{c}-5=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x^{2}-2 y^{2}+x y-3 y-1=0 \\\\ x \\sqrt{y}+y \\sqrt{x-1}=2 x+2 y\\end{array}(x, y \\in R)\\right.)%",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq 1, y \\geq 0)%<br>Phương trình (1) trở thành %((x+2 y+1)(x-y-1)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=-2 y-1 \\\\ x=y+1\\end{array}\\right.)%<br>Với %(x=-2 y-1)% :<br>%(\\text { Vì }-2 y-1\\lt 0, \\forall y \\geq 0 \\Rightarrow x\\lt 0(v l))%<br>Với %(\\mathrm{x}=\\mathrm{y}+1)% :<br>Thay %(\\mathrm{x}=\\mathrm{y}+1)% vào phương trình (2) ta được<br>%(\\begin{array}{l}(y+1) \\sqrt{y}+y \\sqrt{y}=2(y+1)+2 y \\\\Leftrightarrow \\sqrt{y}(2 y+1)=2(2 y+1)\\end{array})%<br>Mặt khác %(y \\geq 0 \\Rightarrow 2 y+1\\gt 0 \\Rightarrow \\sqrt{y}=2 \\Rightarrow y=4 \\Rightarrow x=5)%T<br>Thử lại thỏa mãn<br>Vậy hệ phương trình có nghiệm %((x ; y)=(5 ; 4))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Trong một buổi tổ chức lễ tuyên dương cho các học sinh có thành tích học tập xuất sắc của một tỉnh, ngoại trừ bạn Bình, hai người bất kì đều bắt tay nhau. Bình chỉ bắt tay với những người mình quen. Biết rằng mỗi cặp (hai người) chỉ bắt tay không quá một lần và có tổng cộng tất cả 454 cái bắt tay. Hỏi bạn Bình có bao nhiêu người quen trong buổi lễ tuyên dương đó?",
+        "question_images": [],
+        "solution": "Xét nhóm %(\\mathrm{n})% học sinh gồm tất cả các học sinh ngoại trừ Bình ( %(n \\in N, n \\geq 2)% )<br>Vì hai người bất kì đều bắt tay nhau và bắt tay không quá 1 lần<br>%(\\Rightarrow)% Số cái bắt tay trong nhóm là %(\\frac{n(n-1)}{2})%<br>Do số người quen của Bình không vượt quá n nên<br>%(454 \\leq \\frac{n(n-1)}{2}+n \\Rightarrow n \\geq 30)%<br>Lại có %(\\frac{n(n-1)}{2} \\leq 454 \\Rightarrow n \\leq 30)%<br>Suy ra %(\\mathrm{n}=30)%<br>Do đó, số người quen của Bình là %(454-\\frac{30(30-1)}{2}=19)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác nhọn %(\\mathrm{ABC})% nội tiếp đường tròn %((\\mathrm{O}))% với các điềm %(\\mathrm{A}, \\mathrm{B}, \\mathrm{C})% cố định. Điềm %(\\mathrm{M})% di động trên cung %(\\mathrm{BC})% không chứa %(\\mathrm{A}(\\mathrm{M})% khác %(\\mathrm{B}, \\mathrm{C})% và %(\\mathrm{AM})% không vuông góc với %(\\mathrm{BC}))%. Kẻ %(\\mathrm{BE})% vuông góc với %(\\mathrm{AM})% tại %(\\mathrm{E})%. Gọi %(\\mathrm{N})% là giao điểm của %(\\mathrm{AM})% và %(\\mathrm{BC}, \\mathrm{H})% và %(\\mathrm{J})% theo thứ tự là trực tâm của các tam giác %(\\mathrm{CMN})% và %(\\mathrm{ABN})%. Gọi %(\\mathrm{I})% là chân đường vuông góc kẻ từ %(\\mathrm{A})% đến đường thẳng %(\\mathrm{BC}, \\mathrm{F})% là chân đường vuông góc kẻ từ %(\\mathrm{C})% đến đường thẳng %(\\mathrm{AM})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng %(IF // MB)%",
+        "question_images": [],
+        "solution": "Ta có tứ giác %(A B M C)% nội tiếp suy ra %(\\widehat{M B C}=\\widehat{M A C}\\left(=\\frac{1}{2} s d \\overparen{M C}\\right))%<br>Ta lại có %(A I \\perp B C \\Rightarrow \\widehat{A I C}=90^{\\circ} ; C F \\perp A M \\Rightarrow \\widehat{A F C}=90^{\\circ})%<br>Suy ra tứ giác %(A I F C)% nội tiếp, suy ra %(\\widehat{F I C}=\\widehat{F A C}\\left(=\\frac{1}{2} s d \\overparen{C F}\\right))%<br>Từ đó suy ra %(\\widehat{F I C}=\\widehat{M B C})%, mà hai góc ở vị trí đồng vị<br>Vậy %(F I / / B M)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/05694e48339b7e1d8453c0cdcaa7f5a4.png\" srcset=\"https://docdn.giainhanh.io/media/test/2656b2e40c30526d84086de3f78c2e4d.png 161w, https://docdn.giainhanh.io/media/test/50145e113083de35181d527bdda1b9e4.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh %(\\triangle A B J \\sim \\triangle C M H)%",
+        "question_images": [],
+        "solution": "b) Ta có tứ giác %(A B M C)% nội tiếp suy ra %(\\widehat{B A M}=\\widehat{B C M}\\left(=\\frac{1}{2} s d \\overparen{B M}\\right))%<br>Gọi %(L)% là chân đường cao kẻ từ %(M)% đến %(N C)%<br>Suy ra %(\\widehat{A B J}=\\widehat{C M H}\\ (1))%<br>Từ tứ giác %(A I F C)% nội tiếp<br>%(\\Rightarrow \\widehat{I A F}=\\widehat{I C F}\\left(=\\frac{1}{2} s d \\overparen{I F}\\right))% và %(\\widehat{B A M}=\\widehat{B C M}\\left(=\\frac{1}{2} s d \\overparen{B M}\\right))%<br>Suy ra %(\\widehat{B A J}=\\widehat{M C H}\\ (2))%<br>Từ %((1) ;(2) \\Rightarrow \\triangle A B J \\backsim \\triangle C M H(\\mathrm{~g} . \\mathrm{g}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Khi điểm M di động nhưng vẫn thỏa mãn yêu cầu bài toán, chứng minh rằng đường thẳng HE luôn<br>đi qua một điểm cố định.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{Q})% là giao của đường thẳng qua %(\\mathrm{B})% vuông góc với %(\\mathrm{BC})%%(S)% là giao của %(A C)% và %(\\mathrm{BQ})%<br>Gọi %(\\mathrm{P})% là chân đường cao hạ từ %(\\mathrm{M})% xuống %(\\mathrm{BC}, \\mathrm{L})% là giao của %(\\mathrm{MP})% và %(\\mathrm{BE})%<br>Ta có: %(B E \\perp A M, C F \\perp A M)%<br>%(\\Rightarrow \\mathrm{BE} / / \\mathrm{CF})%<br>Ta cũng có: %(N E I=A B C=A M C)% nên %(\\mathrm{EI} / / \\mathrm{CM})%<br>Từ đó ta có: %(\\frac{B S}{B Q} \\cdot \\frac{L M}{L H}=\\frac{B C \\cdot A I}{C I} \\cdot \\frac{N I}{N B \\cdot A I} \\cdot \\frac{E M}{E F}=\\frac{B C}{E F} \\cdot \\frac{N I}{N B} \\cdot \\frac{E M}{C I}=\\frac{B N}{N E} \\cdot \\frac{N I}{N B} \\cdot \\frac{N E}{N I}=1)%<br>%(\\Rightarrow \\frac{B S}{B Q}=\\frac{L H}{L M})%<br>Gọi %(\\mathrm{E})% ' là giao của %(\\mathrm{BL})% và %(\\mathrm{HS})%<br>Có %(\\frac{B S}{H L}=\\frac{B E^{\\prime}}{L E^{\\prime}})%Mặt khác, %(\\frac{B S}{H L}=\\frac{B Q}{L M}=\\frac{B E}{L E} \\Rightarrow E \\equiv E^{\\prime})%%(\\Rightarrow \\mathrm{H}, \\mathrm{E}, \\mathrm{S})% thẳng hàng<br>Mà %(\\mathrm{BC}, \\mathrm{AC})% cố định %(\\Rightarrow)% Giao điểm của đường thẳng qua %(\\mathrm{B})% vuông góc với %(\\mathrm{BC})% và %(\\mathrm{AC})% cố định %(\\Rightarrow \\mathrm{S})% cố địnhVậy HE đi qua S cố định.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho các số thực %(\\mathrm{x})%, y thỏa mãn %(x^{2} y^{2}+4 y+4=0)%. Tìm giá trị lớn nhất, giá trị nhỏ nhất của biểu thức %(T=\\frac{x y}{3 y+2})%",
+        "question_images": [],
+        "solution": "Vì %(x^{2} y^{2}+4 y+4=0 \\Leftrightarrow y+1=\\frac{-x^{2} y^{2}}{4})%<br>Ta có: %(T=\\frac{x y}{3 y+2}=\\frac{4 x y}{3(4 y+4)-4}=\\frac{4 x y}{-3 x^{2} y^{2}-4}=\\frac{-4 x y}{3 x^{2} y^{2}+4})%<br>Đặt %(m=x y \\Rightarrow T=\\frac{-4 m}{3 m^{2}+4} \\Leftrightarrow 3 T m^{2}+4 m+4 T=0)%<br>Coi (1) là phương trình bậc hai ẩn %(\\mathrm{m}, \\mathrm{T})% là tham sốKhi đó: %(\\Delta^{\\prime}=2^{2}-3 T .4 T=4\\left(1-3 T^{2}\\right))%<br>Để phương trình có nghiệm thì %(\\Delta \\geq 0)%<br>%(\\Leftrightarrow 1-3 T^{2} \\geq 0 \\Leftrightarrow \\frac{-\\sqrt{3}}{3} \\leq T \\leq \\frac{\\sqrt{3}}{3})%<br>Do đó:<br>%(\\begin{array}{l}T_{\\min }=\\frac{-\\sqrt{3}}{3} \\Leftrightarrow \\Delta=0 \\Leftrightarrow m=\\frac{-2}{3 T}=\\frac{2 \\sqrt{3}}{3} \\Leftrightarrow\\left\\{\\begin{array} { l } { x y = \\frac { 2 \\sqrt { 3 } } { 3 } } \\\\{ y = \\frac { - 4 } { 3 } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=\\frac{-\\sqrt{3}}{2} \\y=\\frac{-4}{3}\\end{array}\\right.\\right. \\T_{\\max }=\\frac{\\sqrt{3}}{3} \\Leftrightarrow \\Delta=0 \\Leftrightarrow m=\\frac{-2}{3 T}=\\frac{-2 \\sqrt{3}}{3} \\Leftrightarrow\\left\\{\\begin{array} { l } { x y = \\frac { - 2 \\sqrt { 3 } } { 3 } } \\\\{ y = \\frac { - 4 } { 3 } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=\\frac{\\sqrt{3}}{2} \\y=\\frac{-4}{3}\\end{array}\\right.\\right.\\end{array})%<br>Vậy<br>%(\\begin{array}{l}T_{\\min }=\\frac{-\\sqrt{3}}{3} \\Leftrightarrow(x, y)=\\left(\\frac{-\\sqrt{3}}{2} ; \\frac{-4}{3}\\right) \\T_{\\max }=\\frac{\\sqrt{3}}{3} \\Leftrightarrow(x, y)=\\left(\\frac{\\sqrt{3}}{2} ; \\frac{-4}{3}\\right)\\end{array})%",
+        "question_type": "essay"
+    }
+]

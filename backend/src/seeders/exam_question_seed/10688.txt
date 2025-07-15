@@ -1,0 +1,208 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.25,
+        "content": "Phương trình %(\\sqrt{x^{2}-3 x+3}+\\sqrt{x^{2}-3 x+6}=3)% có tổng tất cả các nghiệm là:",
+        "question_images": [],
+        "labelA": "0",
+        "labelB": "1",
+        "labelC": "3",
+        "labelD": "5",
+        "correct_label": "labelC",
+        "solution": "Đặt %(t=\\sqrt{x^{2}-3 x+3}(t \\geq 0) \\Rightarrow t^{2}=x^{2}-3 x+3 \\Rightarrow x^{2}-3 x=t^{2}-3)%.<br>Phương trình trở thành:<br>\\[t+\\sqrt{t^{2}+3}=3 \\Leftrightarrow \\sqrt{t^{2}+3}=3-t \\Leftrightarrow\\left\\{\\begin{array} { l } { 3 - t \\geq 0 } \\\\{ t ^ { 2 } + 3 = ( 3 - t ) ^ { 2 } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}t \\leq 3 \\t=1\\end{array} \\Leftrightarrow t=1\\right.\\right. \\text {. }\\]<br>Với %(t=1)% thì %(\\sqrt{x^{2}-3 x+3}=1 \\Leftrightarrow x^{2}-3 x+3=1 \\Leftrightarrow\\left[\\begin{array}{l}x=1 \\\\ x=2\\end{array}\\right.)%.<br>Tổng hai nghiệm phương trình là: %(1+2=3)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "2 ",
+        "point": 0.25,
+        "content": "Trong một cửa hàng bánh có 7 loại bánh ngọt, 4 loại bánh mặn, 5 loại bánh chay. Bạn Nam cần chọn mua đúng một loại bánh. Hỏi bạn Nam có bao nhiêu sự lựa chọn?",
+        "question_images": [],
+        "labelA": "7",
+        "labelB": "140",
+        "labelC": "28",
+        "labelD": "16",
+        "correct_label": "labelD",
+        "solution": "Vì bạn Nam chỉ mua đúng một loại bánh nên ta chia các trường hợp:<br>TH1: Nam mua loại bánh ngọt có 7 (cách).<br>TH2: Nam mua loại bánh mặn có 4 (cách).<br>TH3: Nam mua loại bánh chay có 5 (cách).<br>Theo quy tắc cộng có: %(7+4+5=16)% (cách).",
+        "question_type": "quiz"
+    },
+    {
+        "title": "3 ",
+        "point": 0.25,
+        "content": "Có bao nhiêu số tự nhiên gồm hai chữ số khác nhau mà hai số này đều lẻ?",
+        "question_images": [],
+        "labelA": "%(A_{5}^{2})%",
+        "labelB": "%(C_{5}^{2})%",
+        "labelC": "5!",
+        "labelD": "%(5^{2})%",
+        "correct_label": "labelA",
+        "solution": "Xét tập %(A=\\{0 ; 1 ; 2 ; 3 ; 4 ; 5 ; 6 ; 7 ; 8 ; 9\\})%.<br>Ta thấy tập %(A)% gồm 5 chữ số chẵn và 5 chữ số lẻ.<br>Mỗi số tự nhiên gồm hai chữ số khác nhau mà hai chữ số này đều lẻ chính là một chỉnh hợp chập hai của năm chữ số lẻ.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "4 ",
+        "point": 0.25,
+        "content": "Từ các chữ số 0,1, 2,3, 4 có thể tạo ra được bao nhiêu số tự nhiên gồm ba chữ số khác nhau?",
+        "question_images": [],
+        "labelA": "60",
+        "labelB": "100",
+        "labelC": "48",
+        "labelD": "24",
+        "correct_label": "labelC",
+        "solution": "Gọi %(\\overline{a b c})% là số tự nhiêm gồm ba chữ số khác nhau được lập từ các chữ số %(0 ; 1 ; 2 ; 3 ; 4)%.<br>Với %(a \\neq 0)% thì các số thỏa mãn yêu cầu bài toán là %(4 .A_{4}^{2}=48)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "5 ",
+        "point": 0.25,
+        "content": "Tìm số hạng không chứa %(x)% trong khai triển của nhị thức %(\\left(x^{3}-\\frac{1}{x^{2}}\\right)^{5})%",
+        "question_images": [],
+        "labelA": "-10",
+        "labelB": "-5",
+        "labelC": "10",
+        "labelD": "5",
+        "correct_label": "labelA",
+        "solution": "Số hạng tổng quát của khai triển %(\\left(x^{3}-\\frac{1}{x^{2}}\\right)^{5})% là: %(T_{k+1}=C_{5}^{k}(-1)^{k} x^{15-5 k})%.<br>Ứng với số hạng không chứa %(x)% ta có %(k=3)%.<br>Số hạng không chứa %(x)% trong khai triển là %(C_{5}^{3}(-1)^{3}=-10)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "6 ",
+        "point": 0.25,
+        "content": "Số hạng chính giữa trong khai triển %((3 x+2 y)^{4})% là:",
+        "question_images": [],
+        "labelA": "%(C_{4}^{2} x^{2} y^{2})%",
+        "labelB": "%(6(3 x)^{2}(2 y)^{2})%",
+        "labelC": "%(6 C_{4}^{2} x^{2} y^{2})%",
+        "labelD": "%(36 C_{4}^{2} x^{2} y^{2})%",
+        "correct_label": "labelD",
+        "solution": "Số hạng tổng quát của khai triển %((3 x+2 y)^{4})% là: %(T_{k+1}=C_{4}^{k} 3^{4-k} 2^{k} x^{4-k} y^{k})%.<br>Suy ra hệ số của số hạng thứ ba là: %(T_{3}=C_{4}^{2} 3^{2} 2^{2} x^{2} y^{2}=36 C_{4}^{2} x^{2} y^{2})%.<br>Hệ số của số hạng chính giữa là: %(36 C_{4}^{2})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "7 ",
+        "point": 0.25,
+        "content": "Cho ba điểm %(A(1 ;-2), B(5 ;-4), C(-1 ; 4))%. Đường cao %(A A^{\\prime})% của tam giác %(A B C)% có phương trình tổng quát là:",
+        "question_images": [],
+        "labelA": "%(3 x-4 y+8=0)%",
+        "labelB": "%(3 x-4 y-11=0)%",
+        "labelC": "%(-6 x+8 y+11=0)%",
+        "labelD": "%(8 x+6 y+13=0)%",
+        "correct_label": "labelB",
+        "solution": "Ta có:<br>%(\\overrightarrow{B C}=(-6 ; 8))%; đường thẳng %(A A^{\\prime})% qua %(A(1 ;-2))% và nhận %(\\vec{n}=-\\frac{1}{2} \\overrightarrow{B C}=(3 ;-4))%là một vectơ pháp tuyến, vì vậy phương trình tổng quát của %(A A^{\\prime})% là:<br>\\[3(x-1)-4(y+2)=0 \\Leftrightarrow 3 x-4 y-11=0 .\\]",
+        "question_type": "quiz"
+    },
+    {
+        "title": "8 ",
+        "point": 0.25,
+        "content": "Phương trình đường tròn %((C))% có tâm %(I(1 ; 3))% và tiếp xúc %(O x)% có dạng:",
+        "question_images": [],
+        "labelA": "%((x-3)^{2}+(y-1)^{2}=4)%",
+        "labelB": "%(x^{2}+y^{2}-6 x-3 y-1=0)%",
+        "labelC": "%(4 x^{2}+3 y^{2}-2 x-y+1=0)%",
+        "labelD": "%((x-1)^{2}+(y-3)^{2}=9)%",
+        "correct_label": "labelD",
+        "solution": "(C) tiếp xúc %(O x \\Rightarrow R=|b|=3)%.<br>Vậy %((x-1)^{2}+(y-3)^{2}=9)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "9 ",
+        "point": 0.25,
+        "content": "Elip %((E))% có độ dài trục bé bằng 8 và độ dài trục lớn bằng 12 có phương trình chính tắc là:",
+        "question_images": [],
+        "labelA": "%(\\frac{x^{2}}{36}-\\frac{y^{2}}{16}=1)%",
+        "labelB": "%(\\frac{x^{2}}{36}+\\frac{y^{2}}{16}=1)%",
+        "labelC": "%(\\frac{x^{2}}{36}+\\frac{y^{2}}{16}=-1)%",
+        "labelD": "%(\\frac{x^{2}}{144}+\\frac{y^{2}}{64}=1)%",
+        "correct_label": "labelB",
+        "solution": "(E) có %(a=6, b=4)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "10 ",
+        "point": 0.25,
+        "content": "Hypebol %(\\frac{x^{2}}{16}-\\frac{y^{2}}{9}=1)% có hai tiêu điểm là",
+        "question_images": [],
+        "labelA": "%(F_{1}(-5 ; 0) ; F_{2}(5 ; 0))%",
+        "labelB": "%(F_{1}(-2 ; 0) ; F_{2}(2 ; 0))%",
+        "labelC": "%(F_{1}(-3 ; 0) ; F_{2}(3 ; 0))%",
+        "labelD": "%(F_{1}(-4 ; 0) ; F_{2}(4 ; 0))%",
+        "correct_label": "labelA",
+        "solution": "Ta có: %(a^{2}=16, b^{2}=9 \\Rightarrow c^{2}=a^{2}+b^{2}=16+9=25 \\Rightarrow c=5)%.<br>Vậy hai tiêu cự của hypebol là %(F_{1}(-5 ; 0) ; F_{2}(5 ; 0))%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "11 ",
+        "point": 0.25,
+        "content": "Xét phép thử tung con xúc xắc 6 mặt hai lần. Số kết quả thuận lợi của biến cố %(A)% : \"số chấm xuất hiện ở cả hai lần tung bằng nhau\"?",
+        "question_images": [],
+        "labelA": "%(n(A)=12)%",
+        "labelB": "%(n(A)=8)%",
+        "labelC": "%(n(A)=16)%",
+        "labelD": "%(n(A)=6)%",
+        "correct_label": "labelD",
+        "solution": "Ta có: %(A=\\{(1,1) ;(2,2) ;(3,3),(4 ; 4),(5 ; 5),(6 ; 6)\\}, n(A)=6)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "12 ",
+        "point": 0.25,
+        "content": "Gieo một đồng tiền liên tiếp 3 Lần. Tính xác suất của biến cố %(A)% : \"Có đúng 2 lần xuất hiện mặt sấp\"?",
+        "question_images": [],
+        "labelA": "%(P(A)=\\frac{1}{2})%",
+        "labelB": "%(P(A)=\\frac{3}{8})%",
+        "labelC": "%(P(A)=\\frac{7}{8})%",
+        "labelD": "%(P(A)=\\frac{1}{4})%",
+        "correct_label": "labelB",
+        "solution": "Chọn 2 trong 3 lần để xuất hiện mặt sấp có %(C_{3}^{2}=3)% cách.<br>2 lần xuất hiện mặt sấp có xác suất mỗi lần là %(\\frac{1}{2})%.<br>Lần xuất hiện mặt ngửa có xác suất là %(\\frac{1}{2}, P(A)=3 . \\frac{1}{2} . \\frac{1}{2}. \\frac{1}{2}=\\frac{3}{8})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "1 ",
+        "point": 0.5,
+        "content": "Lúc 8 giờ sáng, hai ô tô cùng xuất phát tại vị trí %(A)% và vị trí %(B)% cách nhau 100 km chạy về thành phố %(T)%. Vận tốc của hai ô tô chạy từ vị trí %(A)% và vị trí %(B)% lân lượt là %(55 \\mathrm{~km} / \\mathrm{h})% và %(45 \\mathrm{~km} / \\mathrm{h})%. Biết rằng tại thời điểm ô tô đi từ vị trí %(A)% đến địa điểm %(D)% cách thành phố %(T 14 \\mathrm{~km})% thì ô tô đi từ vị trí %(B)% đến địa điểm %(C)% cách thành phố %(T)% là 6 km. Hỏi thời điểm đó là mấy giờ?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/53ce76508c79463e1212ca4a59aa73b7.png"
+        ],
+        "solution": "Gọi %(x)% (giờ) là thời gian ô tô đi từ vị trí %(A)% đến địa điểm %(D(x\\gt 0))%.<br>Vì hai ô tô xuất phát cùng một lúc nên thời gian ô tô đi từ vị trí %(B)% đến địa điểm %(C)% cũng là %(x)% giờ.<br>Do đó, quảng đường %(A D)% và %(B C)% lần lượt là %(55 x(\\mathrm{~km}))% và %(45 x(\\mathrm{~km}))%.<br>Suy ra khoảng cách từ vị trí %(A)% và vị trí %(B)% đến thành phố %(T)% lần lượt là %(55 x+14(\\mathrm{~km}))% và %(45 x+6(\\mathrm{~km}))%.<br>Vì khoảng cách giữa hai vị trí %(A)% và %(B)% là 100 km nên ta có phương trình:<br>\\[\\sqrt{(55 x+14)^{2}+(45 x+6)^{2}}=100 \\Rightarrow 5050 x^{2}+2080 x+232=10000 \\text {. }\\]<br>Giải phương trình này và kết hợp với điều kiện %(x>0)%, ta nhận %(x=\\frac{6}{5})%.<br>Đổi: %(\\frac{6}{5})% giờ %(=1)% giờ 12 phút.<br>Vậy thời điểm ô tô đi từ vị trí %(A)% đến địa điểm %(D)% là:<br>8 giờ +1 giờ 12 phút %(=9)% giờ 12 phút (sáng).",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 0.5,
+        "content": "Cho tam giác %(A B C)% có phương trình đường thẳng chứa các cạnh %(A B, A C, B C)% lần lượt là: %(x+2 y-1=0 ; x+y+2=0 ; 2 x+3 y-5=0)%. Tính diện tích tam giác %(A B C)%.",
+        "question_images": [],
+        "solution": "Tọa độ của điểm %(A)% là nghiệm của hệ phương trình: %(\\left\\{\\begin{array}{l}x+2 y-1=0 \\\\ x+y+2=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=-5 \\\\ y=3\\end{array}\\right.\\right.)%<br>Suy ra điểm %(A)% có tọa độ là %((-5 ; 3))%.<br>Gọi %(A H)% là đường cao kẻ từ %(A)% của tam giác %(A B C(H \\in B C))%.<br>Ta có:<br>\\[A H=d(A, B C)=\\frac{|2 .(-5)+3 .3-5|}{\\sqrt{2^{2}+3^{2}}}=\\frac{6 \\sqrt{13}}{13} .\\]<br>Từ các phương trình đường thẳng chứa các cạnh của tam giác %(A B C)% ta tính được toạ độ của điểm %(B)% và điểm %(C)% lần lượt là %((7 ;-3),(-11 ; 9))%.<br>Do đó, độ dài đoạn thẳng %(B C)% là %(6 \\sqrt{13})%.<br>Diện tích tam giác bằng %(\\frac{1}{2} .\\frac{6 \\sqrt{13}}{13} . 6 \\sqrt{13}=18)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 0.5,
+        "content": "Cho parabol %((P): y^{2}=2 x)%. Tìm những điểm thuộc %((P))% sao cho khoảng cách từ điểm đó đến tiêu điểm của %((P))% bằng 4 .",
+        "question_images": [],
+        "solution": "Parabol %((P))% có đường chuẩn là %(\\Delta: x+\\frac{1}{2}=0)% và tiêu điểm %(F\\left(\\frac{1}{2} ; 0\\right))%.<br>Gọi %(M\\left(x_{0} ; y_{0}\\right))% là điểm cần tìm.<br>Có %(M \\in(P))% nên %(y_{0}^{2}=2 x_{0} \\Rightarrow x_{0}=\\frac{1}{2} y_{0}^{2} \\Rightarrow x_{0} \\geq 0)%.<br>Khoảng cách từ %(M)% đến tiêu điểm %(F)% bằng 4 nên %(M F=d(M ; \\Delta)=\\frac{\\left|x_{0}+\\frac{1}{2}\\right|}{\\sqrt{1^{2}+0^{2}}}=4)%.%(\\Rightarrow x_{0}=\\frac{7}{2})% hoặc %(x_{0}=\\frac{-9}{2})%.<br>Mà %(x_{0} \\geq 0)% nên %(x_{0}=\\frac{7}{2} \\Rightarrow y_{0}^{2}=7 \\Rightarrow y_{0}= \\pm \\sqrt{7})%.<br>Vậy %(M\\left(\\frac{7}{2} ; \\sqrt{7}\\right))% hoặc %(M\\left(\\frac{7}{2} ;-\\sqrt{7}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 0.5,
+        "content": "Một nhóm công nhân gồm 15 nam và 5 nữ. Người ta muốn chọn từ nhóm ra 5 người để lập thành một tổ công tác sao cho phải có 1 tổ trưởng nam, 1 tổ phó nam và có ít nhất 1 nữ. Hỏi có bao nhiêu cách lập tổ công tác.",
+        "question_images": [],
+        "solution": "- Chọn 2 trong 15 nam làm tổ trưởng và tổ phó có %(A_{15}^{2})% cách.<br>- Chọn 3 tổ viên, trong đó có nữ.<br>+ Chọn 1 nữ và 2 nam có %(5 . C_{13}^{2})% cách,<br>+ Chọn 2 nữ và 1 nam có %(13 . C_{5}^{2})% cách,<br>+ Chọn 3 nữ có %(C_{5}^{3})% cách.<br>Vậy có %(A_{15}^{2}\\left(5 . C_{13}^{2}+13 . C_{5}^{2}+C_{5}^{3}\\right)=111300)% cách.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 0.5,
+        "content": "Tìm số hạng chứa %(x^{3})% trong khai triển của đa thức %(x(2 x+1)^{4}+(x+2)^{5})%.",
+        "question_images": [],
+        "solution": "Ta có: %(x(2 x+1)^{4}+(x+2)^{5})%<br>\\[\\begin{array}{l}=x\\left(16 x^{4}+32 x^{3}+24 x^{2}+8 x+1\\right)+\\left(x^{5}+10 x^{4}+40 x^{3}+80 x^{2}+80 x+32\\right) \\\\=16 x^{5}+32 x^{4}+24 x^{3}+8 x^{2}+x+x^{5}+10 x^{4}+40 x^{3}+80 x^{2}+80 x+32 \\\\=17 x^{5}+42 x^{4}+64 x^{3}+88 x^{2}+81 x+32 .\\end{array}\\]<br>Vậy số hạng chứa %(x^{3})% trong khai triển của đa thức %(x(2 x+1)^{4}+(x+2)^{5})% là %(64 x^{3})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 0.5,
+        "content": "Gieo một viên xúc xắc 6 mặt cân đối và đồng chất liên tiếp năm lần. Tính xác suất để mặt 6 chấm xuất hiện ít nhất một lần.",
+        "question_images": [],
+        "solution": "Gọi %(A)% là biến cố \"Mặt 6 chấm không xuất hiện lần nào\".<br>Suy ra %(\\overline{A})% là biến cố \"Mặt 6 chấm xuất hiện ít nhất một lần\".<br>Ta có: %(n(\\Omega)=6 . 6 . 6.6 .6=7776, n(A)=5 . 5 .5 . 5. 5=3125)%.<br>Do đó, xác suất của biến cố %(A)% là: %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{3125}{7776})%<br>Vậy xác suất của biến cố \"Mặt 6 chấm xuất hiện ít nhất một lần\" là: %(P(\\overline{A})=1-\\frac{3125}{7776}=\\frac{4651}{7776})%.",
+        "question_type": "essay"
+    }
+]

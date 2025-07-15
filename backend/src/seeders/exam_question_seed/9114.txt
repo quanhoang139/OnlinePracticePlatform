@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Cho %(S=1+3+3^{2}+3^{3}+3^{4}+\\ldots . .+3^{96}+3^{97}+3^{98}+3^{99})% Chứng minh %(S)% chia hết cho 40 .",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}S=\\left(1+3^{1}+3^{2}+3^{3}\\right)+\\left(3^{4}+3^{5}+3^{6}+3^{7}\\right)+\\ldots . .+\\left(3^{96}+3^{97}+3^{98}+3^{99}\\right) \\S=\\left(1+3^{1}+3^{2}+3^{3}\\right)+3^{4} \\cdot\\left(1+3^{1}+3^{2}+3^{3}\\right)+\\ldots+3^{96} \\cdot\\left(1+3^{1}+3^{2}+3^{3}\\right) \\S=\\left(1+3^{1}+3^{2}+3^{3}\\right) \\cdot\\left(1+3^{4}+3^{8} \\ldots \\ldots+3^{96}\\right) \\S=40 \\cdot\\left(1+3^{4}+3^{8} \\ldots \\ldots+3^{96}\\right)\\end{array}\\]<br>Vậy %(S)% chia hết cho 40 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Rút gọn phân thức %(\\frac{a^{3}+b^{3}+c^{3}-3 a b c}{(a-b)^{2}+(a-c)^{2}+(b-c)^{2}})%.",
+        "question_images": [],
+        "solution": "Ta có: %(a^{3}+b^{3}+c^{3}-3 a b c=(a+b)^{3}-3 a b(a+b)+c^{3}-3 a b c)%.<br>\\[\\begin{array}{l}=(a+b)^{3}+c^{3}-3 a b \\cdot(a+b)-3 a b c \\\\=(a+b+c)\\left[(a+b)^{2}-(a+b) c+c^{2}\\right]-3 a b(a+b+c) \\\\=(a+b+c) \\cdot\\left(a^{2}+2 a b+b^{2}-a c-b c+c^{2}-3 a b\\right) \\\\=(a+b+c) \\cdot\\left(a^{2}+b^{2}+c^{2}-a b-b c-c a\\right)\\end{array}\\]<br>Ta lai có: %((a-b)^{2}+(a-c)^{2}+(b-c)^{2})%<br>\\[\\begin{array}{l}=a^{2}-2 a b+b^{2}+a^{2}-2 a c+c^{2}+b^{2}-2 b c+c^{2} \\\\=2\\left(a^{2}+b^{2}+c^{2}-a b-b c-c a\\right) .\\end{array}\\]<br>Kết quả %(=\\frac{a+b+c}{2})% với %(a^{2}+b^{2}+c^{2}-a b-b c-c a \\neq 0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Thực hiện phép tính : %(\\frac{2+\\sqrt{3}}{\\sqrt{2}+\\sqrt{2+\\sqrt{3}}}+\\frac{2-\\sqrt{3}}{\\sqrt{2}-\\sqrt{2-\\sqrt{3}}})%.",
+        "question_images": [],
+        "solution": "Ta có:<br>%(\\begin{array}{l} \\frac{2+\\sqrt{3}}{\\sqrt{2}+\\sqrt{2+\\sqrt{3}}}+\\frac{2-\\sqrt{3}}{\\sqrt{2}-\\sqrt{2-\\sqrt{3}}} \\\\ =\\frac{\\sqrt{2} \\cdot(2+\\sqrt{3})}{2+\\sqrt{4+2 \\sqrt{3}}}+\\frac{\\sqrt{2} \\cdot(2-\\sqrt{3})}{2-\\sqrt{4-2 \\sqrt{3}}}=\\frac{\\sqrt{2} \\cdot(2+\\sqrt{3})}{2+(\\sqrt{3}+1)}+\\frac{\\sqrt{2} \\cdot(2-\\sqrt{3})}{2-(\\sqrt{3}-1)} \\\\ =\\sqrt{2} \\cdot\\left(\\frac{2+\\sqrt{3}}{3+\\sqrt{3}}+\\frac{2-\\sqrt{3}}{3-\\sqrt{3}}\\right) \\\\ =\\sqrt{2} \\cdot \\frac{(2+\\sqrt{3}) \\cdot(3-\\sqrt{3})+(2-\\sqrt{3}) \\cdot(3+\\sqrt{3})}{6}=\\sqrt{2}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Cho %(a+b+c=0 ; a, b, c \\neq 0)%. Chứng minh đẳng thức<br>\\[\\sqrt{\\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}}}=\\left|\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right| .\\]",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)^{2}=\\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}}+2\\left(\\frac{1}{a b}+\\frac{1}{a c}+\\frac{1}{b c}\\right) \\\\=\\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}}+2\\left(\\frac{c+b+a}{a b c}\\right)=\\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}} \\\\Rightarrow \\sqrt{\\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}}}=\\sqrt{\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)^{2}}=\\left|\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right| .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(2 x^{2}+2 x+1=\\sqrt{4 x+1})%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(4 x+1 \\geq 0 \\Leftrightarrow x \\geq \\frac{-1}{4})%.<br>Với điều kiện trên, phương trình trở thành:<br>\\[\\begin{array}{l}2 x^{2}+2 x+1=\\sqrt{4 x+1} \\Leftrightarrow 4 x^{2}+4 x+2=2 \\sqrt{4 x+1} \\\\Leftrightarrow 4 x^{2}+(\\sqrt{4 x+1}-1)^{2}=0 \\Rightarrow\\left\\{\\begin{array}{l}4 x^{2}=0 \\\\sqrt{4 x+1}-1=0\\end{array} \\Leftrightarrow x=0\\right.\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình : %(\\left\\{\\begin{array}{l}|x-2|+2|y-1|=9 \\\\ x+|y-1|=-1\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}|x-2|+2|y-1|=9 \\\\ x+|y-1|=-1\\end{array}\\right.)%<br>Từ phương trình %((2) \\Rightarrow|y-1|=-1-x \\geq 0 \\Rightarrow x \\leq-1)%.<br>Thế vào phương trình (1) ta có<br>\\[\\begin{array}{l}|x-2|+2(-1-x)=9 \\Leftrightarrow|x-2|-2 x=11 \\\\Rightarrow 2-x-2 x=9 \\Rightarrow x=-3 \\text { (vì } x \\leq-1 \\text { ). }\\end{array}\\]<br>Thế %(x=-3)% vào phương trình %((2):|y-1|=-1+3=2 \\Rightarrow y-1= \\pm 2 \\Rightarrow\\left[\\begin{array}{l}y=3 \\\\ y=-1\\end{array}\\right.)%.<br>Vậy nghiệm của hệ là %((-3 ; 3) ;(-3 ;-1))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tứ giác %(A B C D)% nội tiếp trong đường tròn %((O ; R))% có hai đường chéo %(A C, B D)% vuông góc với nhau tại %(I(I \\neq O))%. Vẽ đường kính %(C E)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh %(A B D E)% là hình thang cân.",
+        "question_images": [],
+        "solution": "Ta có: %(\\widehat{E A C}=90^{\\circ})% (góc nội tiếp chắn nửa đường tròn)<br>%(\\Rightarrow A E \\perp A C)%.<br>Mà %(B D \\perp A C)% (gt) %(\\Rightarrow A E / / B D)%%(\\Rightarrow A B D E)% là hình thang.<br>Mà %(A B D E)% nội tiếp đường tròn %((O))% nên %(A B D E)% là hình thang cân.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/cf6722eabd4fcf2746d9031e19cf7499.png\" srcset=\"https://docdn.giainhanh.io/media/test/df9cd663166af278b3b7660690b30ee9.png 132w\" width=\"132\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Chứng minh %(\\sqrt{A B^{2}+C D^{2}+B C^{2}+D A^{2}}=2 R \\sqrt{2})%.",
+        "question_images": [],
+        "solution": "Ta có %(\\widehat{E D C}=90^{\\circ})% (góc nội tiếp chắn nửa đường tròn)%(\\Rightarrow \\triangle D E C)% vuông ở %(D)%.<br>\\[\\Rightarrow E D^{2}+C D^{2}=E C^{2}=(2 R)^{2}=4 R^{2}\\]<br>Mà %(A B=E D)% (vì %(A B D E)% là hình thang cân) %(\\Rightarrow A B^{2}+C D^{2}=4 R^{2})%<br>Chứng minh tương tự %(\\Rightarrow B C^{2}+D A^{2}=4 R^{2})%.<br>\\[\\Rightarrow A B^{2}+C D^{2}+B C^{2}+D A^{2}=8 R^{2} \\Rightarrow \\sqrt{A B^{2}+C D^{2}+B C^{2}+D A^{2}}=2 R \\sqrt{2} \\text {. }\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Từ %(A)% và %(B)% vẽ các đường thẳng vuông góc đến %(C D)% lần lượt cắt %(B D)% tại %(F)%, cắt%(A C)% tại %(K)%. Chứng minh %(A, N, K, F)% là bốn đỉnh của một tứ giác đặc biệt.",
+        "question_images": [],
+        "solution": "Ta có : %(\\widehat{B A C}=\\widehat{B D C})% (cùng chắn %(\\widehat{B C})% )<br>%(\\widehat{I A F}=\\widehat{B D C})% (góc có cạnh tương ứng vuông góc)<br>Suy ra: %(\\widehat{B A C}=\\widehat{I A F} \\Rightarrow \\triangle A B F)% cân tại %(A)%.<br>Mà %(A I)% là đường cao, nên %(A I)% là đường trung tuyến %(\\Rightarrow I B=I F)%<br>Chứng minh tương tự %(\\Rightarrow I A=I K \\Rightarrow A B K F)% là hình bình hành<br>Mà %(A K \\perp B F)% nên %(A B K F)% là hình thoi.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 3.0,
+        "content": "Cho hai điểm %(A, B)% cố định và điểm %(M)% di động sao cho %(M A B)% là tam giác có ba góc nhọn. Goị %(H)% là trực tâm của tam giác %(M A B)% và %(K)% là chân đường cao vẽ từ %(M)% của tam giác %(M A B)%. Tính giá trị lớn nhất của tích %(K H \\cdot K M)%.",
+        "question_images": [],
+        "solution": "Xét %(\\triangle K A H)% và %(\\triangle K M B)% ta có:<br>\\[\\begin{array}{l}\\widehat{A K H}=\\widehat{M K B}=90^{\\circ} \\\\widehat{K A H}=\\widehat{K M B} \\text { (cặp góc có cạnh tương ứng vuông góc) } \\\\Rightarrow \\triangle K A H \\sim \\triangle K M B(g-g) \\\\Rightarrow \\frac{K H}{K B}=\\frac{A K}{K M} \\Rightarrow K H \\cdot K M=A K \\cdot K B\\end{array}\\]<br>Áp dụng bất đẳng thức cosi cho hai số dương<br>Ta có: %(\\sqrt{A K . K B} \\leq \\frac{A K+K B}{2} \\Leftrightarrow A K . K B \\leq \\frac{A B^{2}}{4})%<br>Do đó %(K H \\cdot K M \\leq \\frac{A B^{2}}{4})% (không đổi).<br>Dấu \" =\" xảy ra %(\\Leftrightarrow A K=K B)%.<br>Vậy giá trị lớn nhất của %(K H \\cdot K M)% là %(\\frac{A B^{2}}{4})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b6ea9aa2ac9cc158ee8266a9c79c2b39.png\" srcset=\"https://docdn.giainhanh.io/media/test/8528e1ca07a49126e2d4ccb97023925c.png 222w\" width=\"222\"/>",
+        "question_type": "essay"
+    }
+]

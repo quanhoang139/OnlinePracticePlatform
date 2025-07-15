@@ -1,0 +1,136 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "Cho hai biểu thức<br>%(\\begin{array}{l}A=\\sqrt{50}-3 \\sqrt{8}+\\sqrt{(\\sqrt{2}+1)^{2}} \\B=\\frac{x \\sqrt{x}-\\sqrt{x}}{x-1}+\\frac{x-1}{\\sqrt{x}+1}(\\text { vói } x \\geq 0, x \\neq 1) .\\end{array})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Rút gọn các biểu thức %(A, B)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l} A=\\sqrt{50}-3 \\sqrt{8}+\\sqrt{(\\sqrt{2}+1)^{2}} \\A=\\sqrt{5^{2} \\cdot 2}-3 \\sqrt{2^{2} \\cdot 2}+|\\sqrt{2}+1| \\A=5 \\sqrt{2}-3.2 \\sqrt{2}+\\sqrt{2}+1(\\text { Do } \\sqrt{2}+1\\gt 0) \\A=(5-6+1) \\sqrt{2}+1 \\A=1\\end{array})%<br>Vậy %(A=1)%.<br>%(B=\\frac{x \\sqrt{x}-\\sqrt{x}}{x-1}+\\frac{x-1}{\\sqrt{x}+1} \\text { (vói } x \\geq 0, x \\neq 1 \\text { ). })%<br>Với %(x \\geq 0, x \\neq 1)% ta có:<br>%(\\begin{array}{l}B=\\frac{x \\sqrt{x}-\\sqrt{x}}{x-1}+\\frac{x-1}{\\sqrt{x}+1} \\B=\\frac{\\sqrt{x}(x-1)}{x-1}+\\frac{(\\sqrt{x}+1)(\\sqrt{x}-1)}{\\sqrt{x}+1} \\B=\\sqrt{x}+\\sqrt{x}-1 \\B=2 \\sqrt{x}-1\\end{array})%<br>Vậy với %(x \\geq 0, x \\neq 1)% thì %(B=2 \\sqrt{x}-1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.5,
+        "content": "b) Tìm các giá tri của %(x)% sao cho %(A \\leq B)%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq 0, x \\neq 1)%<br>Ta có:<br>%(\\begin{array}{l}A \\leq B \\Leftrightarrow 1 \\leq 2 \\sqrt{x}-1 \\\\Leftrightarrow 2 \\sqrt{x} \\geq 2 \\\\Leftrightarrow \\sqrt{x} \\geq 1 \\\\Leftrightarrow x \\geq 1\\end{array})%<br>Kết hợp với điều kiện ta được %(x\\gt 1)% thì %(A \\leq B)%.<br>Vậy %(x>1)% thì %(A \\leq B)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 0.5,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}2 x+\\frac{1}{\\sqrt{y}}=3 \\\\ x-\\frac{1}{\\sqrt{y}}=0\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Điều kiện %(y\\gt 0)%.<br>Đặt %(\\frac{1}{\\sqrt{y}}=t(t>0))%<br>Khi đó ta có hệ phương trình: %(\\left\\{\\begin{array}{l}2 x+t=3 \\\\ x-t=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}3 x=3 \\\\ x=t\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=1 \\\\ t=1(t m)\\end{array}\\right.\\right.\\right.)%<br>%(\\Rightarrow \\frac{1}{\\sqrt{y}}=1 \\Leftrightarrow \\sqrt{y}=1 \\Leftrightarrow y=1()% tm %())%<br>Vậy nghiệm của hệ phương trình là %((1 ; 1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3:",
+        "group_content": "Bạn Nam hiện có 50000 đồng. Để phục vụ cho việc học tập, bạn muốn mua một quyển sách tham khảo Toán có giá trị 150000 đồng. Vì thế, bạn Nam đã lên kế hoạch mỗi ngày tiết kiệm 5000 đồng. Gọi số tiền bạn Nam tiết kiệm được sau %(x)% (ngày) (gồm cả tiền hiện có và tiến tiết kiệm được hàng ngày) là %(y)% (đồng).",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.5,
+        "content": "a) Lập công thíc tính %(y)% theo %(x)%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\in \\mathbb{N}, y \\geq 50000)%.<br>Sau %(x)% ngày, bạn Nam tiết kiệm được số tiền là: %(5000 x)% (đồng).<br>Như vậy tổng số tiền bạn Nam có sau khi tiết kiệm được hàng ngày là: %(y=50000+5000 x)% (đồng).<br>Vậy %(y=50000+5000 x)% đồng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.5,
+        "content": "b) Hỏi sau bao nhiêu ngày bạn Nam có vừa đủ tiền để mua được quyển sách tham khảo Toán?",
+        "question_images": [],
+        "solution": "Khi ban Nam đủ tiền mua sách thì bạn Nam cần có 150000 đồng nên ta có phương trình:<br>%(\\begin{array}{l}50000+5000 x=150000 \\\\Leftrightarrow 5000 x=100000 \\\\Leftrightarrow x=20(\\mathrm{tm})\\end{array})%<br>Vậy sau 20 ngày thì bạn Nam đủ tiền mua sách tham khảo môn Toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4:",
+        "group_content": "Cho phương trình %(x^{2}-2(m+1) x+m^{2}+2=0)% (1) ( %(x)% là tham số, %(m)% là tham số).",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Giải phuơng trình (1) khi %(m=1)%",
+        "question_images": [],
+        "solution": "Thay %(m=1)% vào phương trình (1) ta có:<br>%(x^{2}-2(1+1) x+1^{2}+2=0 \\Leftrightarrow x^{2}-4 x+3=0)%<br>Phương trình có: %(a+b+c=1-4+3=0)%<br>%(\\Rightarrow)% Phương trình có hai nghiệm phân biệt %(x_{1}=1)% và %(x_{2}=\\frac{c}{a}=3)%.<br>Vậy với %(m=1)% thì phương trình có tập nghiệm là: %(S=\\{1 ; 3\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.5,
+        "content": "b) Xác định các giá trị của %(m)% để phương trình (1) có hai nghiệm phân biệt %(x_{1}, x_{2})% thỏa mãn điều kiện:<br>%(x_{1}^{2}+2(m+1) x_{2}=12 m+2)%",
+        "question_images": [],
+        "solution": "Xét phương trình %(x^{2}-2(m+1) x+m^{2}+2=0)%<br>Phương trình (1) có hai nghiệm phân biệt %(\\Leftrightarrow \\Delta^{\\prime}\\gt 0)%<br>%(\\begin{array}{l}\\Leftrightarrow(m+1)^{2}-\\left(m^{2}+2\\right)>0 \\\\Leftrightarrow m^{2}+2 m+1-m^{2}-2>0 \\\\Leftrightarrow 2 m-1>0 \\\\Leftrightarrow m>\\frac{1}{2}\\end{array})%<br>Với %(m>\\frac{1}{2})% thì phương trình (1) có hai nghiệm phân biệt %(x_{1}, x_{2})%.<br>Áp dụng định lí Vi-ét ta có: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=2(m+1) \\\\ x_{1} x_{2}=m^{2}+2\\end{array}\\right.)%.<br>Theo đề bài ta có: %(x_{1}^{2}+2(m+1) x_{2}=12 m+2)%<br>%(\\begin{array}{l}\\Leftrightarrow x_{1}^{2}+\\left(x_{1}+x_{2}\\right) x_{2}=12 m+2 \\\\ \\Leftrightarrow x_{1}^{2}+x_{1} x_{2}+x_{2}^{2}=12 m+2 \\\\ \\Leftrightarrow\\left(x_{1}+x_{2}\\right)^{2}-2 x_{1} x_{2}+x_{1} x_{2}=12 m+2 \\\\ \\Leftrightarrow\\left(x_{1}+x_{2}\\right)^{2}-x_{1} x_{2}=12 m+2 \\\\ \\Leftrightarrow 4(m+1)^{2}-\\left(m^{2}+2\\right)=12 m+2 \\\\ \\Leftrightarrow 4 m^{2}+8 m+4-m^{2}-2=12 m+2\\end{array})%<br>%(\\begin{array}{l}\\Leftrightarrow 3 m^{2}-4 m=0 \\\\ \\Leftrightarrow m(3 m-4)=0\\end{array})%<br>%(\\Leftrightarrow\\left[\\begin{array} { l } { m = 0 } \\\\{ 3 m - 4 = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}m=0(\\mathrm{ktm}) \\m=\\frac{4}{3}(\\mathrm{tm})\\end{array}\\right.\\right.)%<br>Vậy %(m=\\frac{4}{3})% là thỏa mãn bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 1.0,
+        "content": "Bài toán có nội dung thực tế:<br>Lúc 9 giờ sáng, một xe ô tô khởi hành từ %(A)% đến %(B)% với vận tốc không đổi trên cả quãng đường là %(55 \\mathrm{~km} / \\mathrm{h})%. Sau khi xe ô tô này đi dược 20 phút thì cũng trên quãng đương đó, một xe ô tô khác bắt đầu đi từ %(B)% về %(A)% với vận tốc không đổi trên cả quãng đường là %(45 \\mathrm{~km} / \\mathrm{h})%. Hỏi hai xe ô tô găp nhau lúc mấy giờ? Biết quãng dường %(A B)% dài %(135 \\mathrm{~km})%.",
+        "question_images": [],
+        "solution": "Đổi 20 phút %(=\\frac{1}{3}(h))%.<br>Quãng đường ô tô đi từ %(A)% đến %(B)% trong 20 phút là: %(55 \\cdot \\frac{1}{3}=\\frac{55}{3}(\\mathrm{~km}))%.<br>Gọi thời gian ô tô đi từ %(B)% đến %(A)% đi đến khi gặp ô tô đi từ %(A)% đến %(B)% là %(x(h),(x\\gt 0))%.<br>%(\\Rightarrow)% Thời gian ô tô đi từ %(A)% đến %(B)% đi đến khi gặp ô tô đi từ %(B)% đến %(A)% là: %(x+\\frac{1}{3}(h))%.<br>%(\\Rightarrow)% Quãng đường ô tô đi từ %(A)% đến %(B)% đi được đến khi 2 xe gặp nhau là:<br>%(55\\left(x+\\frac{1}{3}\\right)=55 x+\\frac{55}{3}(k m) \\text {. })%<br>Quãng đường ô tô đi từ %(B)% đến %(A)% đi được đến khi 2 xe gặp nhau là: %(45 x(\\mathrm{~km}))%.<br>Quãng đường %(A B)% dài %(135 \\mathrm{~km})%<br>Quãng đường ô tô đi từ %(A)% đi trước ô tô đi từ %(B)% là:<br>%(55 \\cdot \\frac{1}{3}=\\frac{55}{3}(k m))%<br>Đến lúc 9 h20 phút hai xe còn cách nhau là:<br>%(135-\\frac{55}{3}=\\frac{350}{3}(\\mathrm{~km}))%<br>Thời gian hai xe gặp nhau là:<br>%(\\frac{350}{3}:(55+45)=\\frac{7}{6}(h))%<br>Đổi %(\\frac{7}{6})% giờ %(=1)% giờ 10 phút<br>Thời điểm hai xe gặp nhau là:<br>9 giờ 20 phút +1 giờ 10 phút %(=10)% giờ 30 phút<br>Vậy hai xe gặp nhau lúc 10 giờ 30 phút.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 0.75,
+        "content": "Một vật thể đặc bằng kim loại dạng hình trụ có bán kính đường tròn đáy và chiều cao đều bằng %(6 \\mathrm{~cm})%. Người ta khoan xuyên qua hai mặt đáy của vật thể đó theo phương vuông góc với mặt đáy, phần bị khoan là một lỗ hình trụ có bán kính đường tròn đáy bằng %(2 \\mathrm{~cm})% (Hình 1 ). Tính thể tích phần còn lại của vật thể đó.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/3a11b5b5dd11fe1133ebca9386fe34c1.png"
+        ],
+        "solution": "Thể tích của vật thể lúc đầu là: %(V_{1}=\\pi R^{2} h=\\pi \\cdot 6^{2} \\cdot 6=216 \\pi\\left(\\mathrm{cm}^{3}\\right))%.<br>Thể tích của phần vật thể bị khoan là: %(V_{2}=\\pi r^{2} h=\\pi \\cdot 2^{2} \\cdot 6=24 \\pi\\left(\\mathrm{cm}^{3}\\right))%.<br>%(\\Rightarrow)% Thể tích phần còn lại của vật thể đã cho là: %(V=V_{1}-V_{2}=216 \\pi-24 \\pi=192 \\pi\\left(\\mathrm{cm}^{3}\\right))%.<br>Vậy thể tích phần còn lại của vật thể đã cho là %(192 \\pi \\mathrm{cm}^{3})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7:",
+        "group_content": "Cho %(\\triangle A B C)% có ba góc nhọn nội tiếp đường tròn %((O))%. Các đường cao %(A D, B E)% và %(C F)% của %(\\triangle A B C)% cắt nhau tại %(H)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(\\mathrm{BCEF})% và %(\\mathrm{CDHE})% là các tứ giác nội tiếp.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1cc68f11bc3a875a5e033a7ce95ac993.png\" srcset=\"https://docdn.giainhanh.io/media/test/75c0f00a2a2d391ac8f83861ff3b5d0c.png 151w, https://docdn.giainhanh.io/media/test/9b738447958e6a27c13c4fa2c1f78423.png 483w\" width=\"483\"/><br>Ta có: %(A D, B E, C F)% lần lượt là các đường cao của %(\\triangle A B C)%<br>%(\\Rightarrow\\left\\{\\begin{array}{l}A D \\perp B C \\B E \\perp A C \\Rightarrow \\widehat{A D C}=\\widehat{B E C}=\\widehat{B F C}=90^{\\circ} \\C F \\perp A B\\end{array}\\right.)%<br>Xét tứ giác %(B C E F)% ta có: %(\\widehat{B E C}=\\widehat{B F C}=90^{\\circ}(\\mathrm{cmt}))%<br>%(\\Rightarrow B C E F)% là tứ giác nội tiếp. (Tứ giác có hai đỉnh kề 1 cạnh cùng nhìn cạnh đối diện dưới các góc bẳng nhau).<br>Xét tứ giác %(C D H E)% ta có: %(\\widehat{C D H}+\\widehat{C E H}=90^{\\circ}+90^{\\circ}=180^{\\circ})%<br>%(\\Rightarrow B C E F)% là tứ giác nội tiếp. (Tứ giác có tổng hai góc đối diện bằng %(180^{\\circ})% ).",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Chứng minh %(E B)% là tia phân giác của %(\\widehat{F E D})% và %(\\triangle B F E)% đồng dạng với %(\\triangle D H E)%.",
+        "question_images": [],
+        "solution": "Ta có: %(B C E F)% là tứ giác nội tiếp (cmt)<br>%(\\Rightarrow \\widehat{F E B}=\\widehat{F C B})% (hai góc nội tiếp cùng chắn cung %(B F)% )<br>Lại có: %(C E H D)% là tứ giác nội tiếp (cmt)<br>%(\\Rightarrow \\widehat{H E D}=\\widehat{H C D})% (hai góc nội tiếp cùng chắn cung %(H D)% )<br>Hay %(\\widehat{F E D}=\\widehat{F C B})%<br>%(\\Rightarrow \\widehat{F E B}=\\widehat{B E D}(=\\widehat{F C B}))%<br>%(\\Rightarrow E B)% là tia phân giác của %(\\widehat{F E D})%. (dpcm)<br>Ta có: %(B C E F)% là tứ giác nội tiếp (cmt)<br>%(\\Rightarrow \\widehat{F B E}=\\widehat{F C E})% (hai góc nội tiếp cùng chắn cung %(E F)% )<br>Lại có: %(C E H D)% là tứ giác nội tiếp ( %(\\mathrm{cmt})% )<br>%(\\Rightarrow \\widehat{H D E}=\\widehat{H C E})% (hai góc nội tiếp cùng chắn cung %(E H)% )<br>Hay %(\\widehat{F C E}=\\widehat{H D E})%<br>%(\\Rightarrow \\widehat{F B E}=\\widehat{H D E}(=\\widehat{F C E}))%<br>Xét %(\\triangle B F E)% và %(\\triangle D H E)% ta có:<br>%(\\begin{array}{l}\\widehat{F B E}=\\widehat{H D E}(\\mathrm{cmt}) \\\\widehat{F E B}=\\widehat{H E D}(\\mathrm{cmt}) \\\\Rightarrow \\triangle B F E \\sim \\triangle D H E(g-g)(\\mathrm{dpcm}) .\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Giao điểm của %(A D)% với đường tròn %((O))% là %(I(I \\neq A), I E)% cắt đường tròn %((O))% tại %(K(K \\neq I))%. Gọi %(M)% là trung điểm của đọn thẳng %(E F)%. Chứng minh rằng ba điểm %(B, M, K)% thẳng hàng.",
+        "question_images": [],
+        "solution": "Chứng minh: %(H I=2 H D)%<br>%(\\triangle B F E \\sim \\triangle D H E \\Rightarrow \\frac{B F}{D H}=\\frac{F E}{H E} \\Rightarrow \\frac{B F}{H I}=\\frac{F M}{H E})%<br>Lại có %(\\widehat{B F E}=\\widehat{I H E}\\left(=180^{\\circ}-\\widehat{B C A}\\right))%<br>Suy ra %(\\triangle B F M \\sim \\triangle I H E()% c.g.c %() \\Rightarrow \\widehat{F B M}=\\widehat{H I K})%<br>Mà %(\\widehat{H I K}=\\widehat{F B K} \\Rightarrow B, K, M)% thẳng hàng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 0.75,
+        "content": "Cho ba số thực dương %(x, y, z)% thỏa mãn điều kiện %(x^{2} \\geq y^{2}+z^{2})%. Tìm giá trị nhỏ nhất của biểu thức:<br>%(P=\\frac{1}{x^{2}}\\left(y^{2}+z^{2}\\right)+x^{2}\\left(\\frac{1}{y^{2}}+\\frac{1}{z^{2}}\\right)+2016)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}P=\\frac{1}{x^{2}}\\left(y^{2}+z^{2}\\right)+x^{2}\\left(\\frac{1}{y^{2}}+\\frac{1}{z^{2}}\\right)+2016 \\geq \\frac{y^{2}+z^{2}}{x^{2}}+\\frac{4 x^{2}}{y^{2}+z^{2}}+2016 \\\\ \\Rightarrow P \\geq\\left(\\frac{y^{2}+z^{2}}{x^{2}}+\\frac{x^{2}}{y^{2}+z^{2}}\\right)+\\frac{3 x^{2}}{y^{2}+z^{2}}+2016 \\\\ \\frac{y^{2}+z^{2}}{x^{2}}+\\frac{x^{2}}{y^{2}+z^{2}} \\geq 2 \\\\ x^{2} \\geq y^{2}+z^{2} \\Rightarrow \\frac{3 x^{2}}{y^{2}+z^{2}} \\geq 3 \\\\ \\Rightarrow P \\geq 2021 \\Rightarrow \\operatorname{Min} P=2021 \\Leftrightarrow x=y \\sqrt{2}=z \\sqrt{2}\\end{array})%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(A=\\frac{x \\sqrt{x}-x-4 \\sqrt{x}+4}{2-3 \\sqrt{x}+x \\sqrt{x}}-\\frac{x \\sqrt{x}+x-4 \\sqrt{x}-4}{2+3 \\sqrt{x}-x \\sqrt{x}})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Rút gọn biểu thức %(A)%",
+        "question_images": [],
+        "solution": "Đặt %(t=\\sqrt{x}(t \\geq 0) \\Rightarrow x=t^{2})%<br>Như thế %(A=\\frac{t^{3}-t^{2}-4 t+4}{t^{3}-3 t+2}-\\frac{t^{3}+t^{2}-4 t-4}{-t^{3}+3 t+2}=\\frac{(t-2)(t+2)(t-1)}{(t-1)^{2}(t+2)}-\\frac{(t-2)(t+2)(t+1)}{(t+1)^{2}(2-t)})% %(=\\frac{t-2}{t-1}+\\frac{t+2}{t+1}=\\frac{2 t^{2}-4}{t^{2}-1}=\\frac{2 x-4}{x-1})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Tính giá trị của %(A)% khi %(x=\\frac{(2+\\sqrt{3}) \\sqrt{7-4 \\sqrt{3}}}{\\sqrt{3}-1})%",
+        "question_images": [],
+        "solution": "Ta có %(x=\\frac{(2+\\sqrt{3}) \\sqrt{7-4 \\sqrt{3}}}{\\sqrt{3}-1}=\\frac{(2+\\sqrt{3}) \\sqrt{(2-\\sqrt{3})^{2}}}{\\sqrt{3}-1}=\\frac{(2+\\sqrt{3})(2-\\sqrt{3})}{\\sqrt{3}-1}=\\frac{1}{\\sqrt{3}-1}=\\frac{\\sqrt{3}+1}{2})%Vậy %(A=\\frac{\\sqrt{3}+1-4}{\\frac{\\sqrt{3}-1}{2}}=\\frac{-\\sqrt{3}(\\sqrt{3}-1) \\cdot 2}{\\sqrt{3}-1}=-2 \\sqrt{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho %(x ; y ; z)% là các số thực dương thỏa mãn : %(x+y+z \\leq 1)%<br>Tìm giá trị nhỏ nhất của biểu thức : %(P=\\frac{1}{x^{2}+y^{2}+z^{2}}+\\frac{2020}{x y+y z+z x})%",
+        "question_images": [],
+        "solution": "Ta có các bđt phụ sau ( rất quen thuộc nên ta không chứng minh lại )<br>Với ba số thực dương %(x ; y ; z)%%(x y+y z+x z \\leq \\frac{1}{3}(x+y+z)^{2})% ( dấu bằng khi %(x=y=z)% )<br>Và %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z} \\geq \\frac{9}{x+y+z}()% dấu bằng khi %(x=y=z)% )<br>Áp dụng ta có<br>\\[P=\\frac{1}{x^{2}+y^{2}+z^{2}}+\\frac{2020}{x y+y z+z x}=\\left(\\frac{1}{x^{2}+y^{2}+z^{2}}+\\frac{1}{x y+y z+x z}+\\frac{1}{x y+y z+x z}\\right)+\\frac{2018}{x y+y z+x z}\\]<br>\\[\\geq \\frac{9}{x^{2}+y^{2}+z^{2}+2(x y+y z+x z)}+\\frac{2018}{\\frac{1}{3}(x+y+z)^{2}}=\\frac{6063}{(x+y+z)^{2}} \\geq \\frac{6063}{1^{2}}=6063\\]<br>Vậy %(P_{\\min }=6063 \\Leftrightarrow x=y=z=\\frac{1}{\\sqrt{3}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho ba số %(a ; b ; c)% thỏa điều kiện : %(\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}=1)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Chứng minh rằng : %(\\frac{\\mathrm{a}^{2}}{\\mathrm{~b}+\\mathrm{c}}+\\frac{\\mathrm{b}^{2}}{\\mathrm{c}+\\mathrm{a}}+\\frac{\\mathrm{c}^{2}}{\\mathrm{a}+\\mathrm{b}}=0)%",
+        "question_images": [],
+        "solution": "Ta có : %(\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}=1 \\Rightarrow\\left(\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}\\right)(a+b+c)=a+b+c)%<br>%(\\Rightarrow \\frac{a^{2}}{b+c}+a+\\frac{b^{2}}{a+c}+b+\\frac{c^{2}}{a+b}+c=a+b+c \\Rightarrow \\frac{a^{2}}{b+c}+\\frac{b^{2}}{c+a}+\\frac{c^{2}}{a+b}=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Chứng tỏ rằng trong ba số %(a ; b ; c)% tồn tại 1 số không âm ; 1 số không dương",
+        "question_images": [],
+        "solution": "Ta đi chứng minh bằng phép phản chứng<br>Giả sử trong 3 số %(a ; b ; c)% đều nhận giá trị %(\\gt 0)%<br>Khi đó %(\\frac{a}{b+c}+\\frac{b}{a+c}+\\frac{c}{a+b}=\\frac{a+b+c}{b+c}+\\frac{a+b+c}{a+c}+\\frac{a+b+c}{a+b}-3)%%(=\\frac{1}{2}[(a+b)+(b+c)+(c+a)]\\left(\\frac{1}{a+b}+\\frac{1}{b+c}+\\frac{1}{c+a}\\right)-3)%%(\\geq \\frac{1}{2} \\cdot 3 \\sqrt[3]{(a+b(b+c)(c+a)} \\cdot 3 \\sqrt[3]{\\frac{1}{(a+b)(b+c)(c+a)}}-3=\\frac{3}{2})% ( theo bđt AM-GM )<br>Do đó %(\\frac{a}{b+c}+\\frac{b}{a+c}+\\frac{c}{a+b} \\geq \\frac{3}{2}>1(V L))%<br>Vậy trong 3 số %(a ; b ; c)% phải luôn có ít nhất 1 số không dương<br>Tương tự nếu giả sử trong ba số %(a ; b ; c)% không có số nào không âm<br>Khi đó %(a\\lt 0 ; b\\lt 0 ; c\\lt 0 \\Rightarrow x=-a>0 ; y=-b>0 ; z=-c>0)%<br>Ta cũng có : %(\\frac{a}{b+c}+\\frac{b}{a+c}+\\frac{c}{a+b}=\\frac{x}{y+z}+\\frac{y}{x+z}+\\frac{z}{x+y} \\geq \\frac{3}{2}>1)% (VL) ( chứng minh tương tự như trên )<br>Vậy trong ba số %(a ; b ; c)% cũng phải có ít nhất 1 số không âm ( đpcm )",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tính giá trị của biểu thức %(P=\\frac{x^{5}-4 x^{3}-17 x+9}{x^{4}+3 x^{2}+2 x+11})% với %(x)% thỏa mãn : %(\\frac{x}{x^{2}+x+1}=\\frac{1}{4})%",
+        "question_images": [],
+        "solution": "Ta có %(\\frac{x}{x^{2}+x+1}=\\frac{1}{4} \\Rightarrow x^{2}+x+1=4 x \\Rightarrow x^{2}-3 x+1=0)%<br>Khi đó : %(x^{5}-4 x^{3}-17 x+9=\\left(x^{2}-3 x+1\\right)\\left(x^{3}+3 x^{2}+4 x+9\\right)+6 x=6 x)%<br>Và ta có : %(x^{4}+3 x^{2}+2 x+11=\\left(x^{2}-3 x+1\\right)\\left(x^{2}+3 x+11\\right)+32 x=32 x)%<br>Do đó : %(\\frac{x^{5}-4 x^{3}-17 x+9}{x^{4}+3 x^{2}+2 x+11}=\\frac{6 x}{32 x}=\\frac{3}{16})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các số nguyên %(x)% để biểu thức : %(x^{4}+2 x^{3}+2 x^{2}+x+3)% là một số chính phương",
+        "question_images": [],
+        "solution": "Ta có : %(x^{4}+2 x^{3}+2 x^{2}+x+3=\\left(x^{2}+x\\right)^{2}+x^{2}+x+3)%<br>Do %(x^{2}+x+3=\\left(x+\\frac{1}{2}\\right)^{2}+\\frac{11}{4} \\geq \\frac{11}{4}\\gt 0 \\Rightarrow x^{4}+2 x^{3}+2 x^{2}+x+3>\\left(x^{2}+x\\right)^{2})%<br>Ta sẽ đi chứng minh : %(x^{4}+2 x^{3}+2 x^{2}+x+3\\lt \\left(x^{2}+x+2\\right)^{2})%<br>Thật vậy : %(x^{4}+2 x^{3}+2 x^{2}+x+3\\lt \\left(x^{2}+x+2\\right)^{2} \\Leftrightarrow x^{4}+2 x^{3}+2 x^{2}+x+3\\lt x^{4}+2 x^{3}+5 x^{2}+4 x+4)%<br>%(\\Leftrightarrow 3 x^{2}+3 x+1>0 \\Leftrightarrow 3\\left(x+\\frac{1}{2}\\right)^{2}+\\frac{1}{4}>0)% ( đúng )<br>Như thế ta có : %(\\left(x^{2}+x\\right)^{2}\\lt x^{4}+2 x^{3}+2 x^{2}+x+3\\lt \\left(x^{2}+x+2\\right)^{2})%<br>Do vậy %(x^{4}+2 x^{3}+2 x^{2}+x+3)% là 1 số chính phương<br>\\[\\begin{array}{l}\\Leftrightarrow x^{4}+2 x^{3}+2 x^{2}+x+3=\\left(x^{2}+x+1\\right)^{2} \\Leftrightarrow x^{4}+2 x^{3}+2 x^{2}+x+3=x^{4}+2 x^{3}+3 x^{2}+2 x+1 \\\\Leftrightarrow x^{2}+x-2=0 \\Leftrightarrow(x-1)(x+2)=0 \\Leftrightarrow x=1 \\text { hay } x=-2\\end{array}\\]<br>Thử lại ta nhận cả hai giá trị %(x=1)% và %(x=-2)%<br>Kết luận: %(x=1 ; x=-2)% là các số nguyên cần tìm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho %(p)% là số nguyên tố lớn hơn 3 . Chứng minh %(p^{2}-1009 \\vdots 24)%",
+        "question_images": [],
+        "solution": "Vì %(p)% là số nguyên tố lớn hơn 3 suy ra %(p)% chia 3 dư 1 hoặc dư %(2 \\Rightarrow p^{2} \\equiv 1(\\bmod 3))% mà<br>\\[\\begin{array}{l}1009 \\equiv 1(\\bmod 3) \\\\Rightarrow p^{2}-1009 \\equiv 0(\\bmod 3) \\Rightarrow p^{2}-1009 \\vdots 3\\end{array}\\]<br>Mặt khác : vì %(\\mathrm{p})% là số nguyên tố suy ra %(\\mathrm{p})% chia 8 dư 1, dư 3, dư 5, dư 7 mà %(1009 \\equiv 1(\\bmod 8) \\quad p^{2}-1009 \\equiv 0(\\bmod 8) \\Rightarrow p^{2}-1009\\vdots 8)% (2)<br>Từ (1) và (2),ta có : %(\\left.\\begin{array}{l}p^{2}-1009\\vdots3 \\\\ p^{2}-1009\\vdots 8 \\\\ (3 ; 8)=1\\end{array}\\right\\} \\Rightarrow p^{2}-1009\\vdots24)%<br>Vậy nếu p là số nguyên tố lớn hơn 3 thì %(p^{2}-1009\\vdots24)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Có tồn tại hay không các số nguyên %(\\mathrm{a}, \\mathrm{b})% thỏa mãn : %(2020 a^{2021}+2021 b^{2022}=2023)%",
+        "question_images": [],
+        "solution": "Nếu %(b)% chẵn, ta có %(2020 a^{2021}+2021 b^{2022})% chẵn, mà 2023 là số lẻ nên vô lí.<br>Nếu %(b)% lẻ, ta có %(b^{1011}=2 k+1, k \\in \\mathbb{Z} \\Rightarrow 2021 b^{2022}=2021 .(2 k+1)^{2}=2021.4 .\\left(k^{2}+k\\right)+2021)%.<br>Do đó %(2020 a^{2021}+2021 b^{2022})% chia 3 dư 1 , mà 2023 chia 3 dư 3 nên vô lí.<br>Do đó không các số nguyên %(\\mathrm{a}, \\mathrm{b})% nào thỏa mãn : %(2020 a^{2021}+2021 b^{2022}=2023)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho điểm %(\\mathrm{M})% bất kì nằm trong tam giác đều %(\\mathrm{ABC})%. Vẽ %(\\mathrm{MD} \\perp \\mathrm{AB}, \\mathrm{ME} \\perp \\mathrm{BC}, \\mathrm{MF} \\perp \\mathrm{AC})% %((\\mathrm{D} \\in \\mathrm{AB}, \\mathrm{E} \\in \\mathrm{BC}, \\mathrm{F} \\in \\mathrm{AC}))%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Chứng minh: %(M D+M E+M F)% có giá trị không phụ thuộc vào vị trí điểm %(\\mathrm{M})%.",
+        "question_images": [],
+        "solution": "Kẻ %(A H \\perp B C)%<br>Ta có: %(S_{A B C}=S_{A M B}+S_{B M C}+S_{C M A})%<br>Hay %(\\quad \\frac{1}{2} B C . A H=\\frac{1}{2} A B \\cdot M D+\\frac{1}{2} B C \\cdot M E+\\frac{1}{2} A C \\cdot M F)%<br>%(\\Rightarrow \\frac{1}{2} B C \\cdot A H=\\frac{1}{2} B C(M D+M E+M F))% (Vì %(\\triangle A B C)% đều nên %(A B=A C=B C)% )<br>\\[\\Rightarrow A H=M D+M E+M F\\]<br>Do %(A H)% không đổi nên %(M D+M E+M F)% không đổi.<br>Vậy %(M D+M E+M F)% có giá trị không phụ thuộc vào vị trí điểm %(\\mathrm{M})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7d658be63493b97302d075f61a9e973f.png\" srcset=\"https://docdn.giainhanh.io/media/test/6d8314b3e1cbe20f78dd2125de4820af.png 181w\" width=\"181\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Tìm vị trí điểm %(\\mathrm{M})% sao cho: %(\\mathrm{AD}^{2}+\\mathrm{BE}^{2}+\\mathrm{CF}^{2})% đạt giá trị nhỏ nhất?",
+        "question_images": [],
+        "solution": "Ta chứng minh được: %(\\mathrm{AD}^{2}+\\mathrm{BE}^{2}+\\mathrm{CF}^{2}=B D^{2}+C E^{2}+A F^{2})%<br>Ta có %(\\mathrm{AD}^{2}+\\mathrm{BD}^{2} \\geq \\frac{(A D+B D)^{2}}{2}=\\frac{A B^{2}}{2})%<br>Tương tự ta có %(\\mathrm{AF}^{2}+\\mathrm{CF}^{2} \\geq \\frac{A C^{2}}{2} ; \\mathrm{BE}^{2}+\\mathrm{CF}^{2} \\geq \\frac{B C^{2}}{2})%<br>Lại chỉ ra được %(3 \\mathrm{AB}^{2}=4 \\mathrm{AH}^{2})%<br>\\[\\begin{array}{l}\\Rightarrow A D^{2}+B E^{2}+C F^{2}+B D^{2}+C E^{2}+A F^{2} \\geq \\frac{3 \\cdot A B^{2}}{2}=2 A H^{2} \\\\Rightarrow 2\\left(A D^{2}+B E^{2}+C F^{2}\\right) \\geq 2 A H^{2} \\Rightarrow A D^{2}+B E^{2}+C F^{2} \\geq A H^{2} \\text { không đổi. }\\end{array}\\]<br>Dấu \"=\" xảy ra %(\\Leftrightarrow M)% là giao điểm 3 đường trung tuyến của %(\\triangle A B C)%<br>Hay %(M)% là tâm tam giác đều %(A B C)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "9",
+        "group_content": "Cho tam giác %(A B C)% vuông tại %(A)% có %(A B=6 \\mathrm{~cm}, A C=8 \\mathrm{~cm})% và đường cao %(\\mathrm{AH})%. Trên %(\\mathrm{AB})% lấy điểm %(\\mathrm{D})% bất kì, vẽ %(D E / / B C(\\mathrm{E} \\in \\mathrm{AC}))%, vẽ %(D G / / A E / / \\mathrm{EF}(F, G \\in B C))%. DF cắt %(\\mathrm{GE})% tại %(\\mathrm{O})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Biết %(A D=2 \\mathrm{~cm})%. Tính diện tích tứ giác %(D E F G)% ?",
+        "question_images": [],
+        "solution": "Áp dụng định lý Pytago cho %(\\triangle A B C \\perp)% tại %(A: B C^{2}=A B^{2}+A C^{2} \\Rightarrow B C=10 \\mathrm{~cm})% %(D E / / B C)% áp dụng định lý Talet %(\\triangle A B C)% :<br>\\[\\begin{array}{l}\\frac{A D}{A B}=\\frac{D E}{B C}=\\frac{A E}{A C} \\Rightarrow \\frac{D E}{B C}=\\frac{A E}{8}=\\frac{2}{6} \\Rightarrow D F=\\frac{10}{3} \\mathrm{~cm} ; A E=\\frac{8}{3} \\mathrm{~cm} \\\\Rightarrow B D=A B-A D=4 \\mathrm{~cm}\\end{array}\\]<br>Xét %(\\triangle G B D\\left(\\hat{\\mathrm{G}}=90^{\\circ}\\right))% và %(\\triangle A B C\\left(\\hat{A}=90^{\\circ}\\right))% có %(\\hat{B})% chung<br>\\[\\Rightarrow \\triangle G B D \\# \\triangle A B C(g . g) \\Rightarrow \\frac{B G}{A B}=\\frac{D G}{A C}=\\frac{B D}{B C} \\Rightarrow \\frac{D G}{8}=\\frac{4}{10} \\Rightarrow D G=\\frac{16}{5} \\mathrm{~cm}\\]<br>Ta có : %(\\left.\\begin{array}{l}D E / / G F(G T) \\\\ D G / / F E(G T)\\end{array}\\right\\} \\Rightarrow D G F E)% là hình bình hành<br>Mà: %(\\left.\\begin{array}{l}D G / / \\mathrm{AH} \\\\ \\mathrm{AH} \\perp \\mathrm{BC}\\end{array}\\right\\} \\Rightarrow D G \\perp B C=\\gt \\widehat{D G F}=90^{\\circ})%<br>Suy ra: DHFE là hình chữ nhật<br>\\[\\Rightarrow S_{D G F E}=D E \\cdot D G=\\frac{16}{3} \\mathrm{~cm}^{2}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5978456ea0b341467269be9f3ddf88fc.png\" srcset=\"https://docdn.giainhanh.io/media/test/beadb4ea99ee527ca785b2018a29b89e.png 224w\" width=\"224\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Tìm vị trí của %(\\mathrm{D})% trên %(A B)% để %(D E F G)% là hình vuông?",
+        "question_images": [],
+        "solution": "%(\\triangle G B D\\sim \\triangle A B C \\Rightarrow \\frac{D G}{A C}=\\frac{B D}{B C} \\Rightarrow D G=\\frac{A C}{B C} \\cdot B D=\\frac{4}{5} B D)%<br>%(D E / / B C \\Rightarrow \\frac{D E}{B C}=\\frac{A D}{A B} \\Rightarrow D E=\\frac{B C}{A C} \\cdot A D=\\frac{5}{3} A D)%<br>%(D G F E)% là hình vuông %(\\Rightarrow D E=D G \\Rightarrow B D=\\frac{25}{12} A D)%<br>mà %(A D+B D=A B=6 \\Rightarrow A D=\\frac{72}{37} \\mathrm{~cm})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Chứng minh rằng khi %(D)% di động trên %(A B)% thì %(\\mathrm{O})% luôn chậy trên một đường thẳng cố định.",
+        "question_images": [],
+        "solution": "Gọi %(K)% là trung điểm của %(A H ; B K)% cắt %(D G)% tại %(I ; C K)% cắt EF tại %(J)%%(\\left.\\begin{array}{l}D G / / A H \\Rightarrow \\frac{D G}{A H}=\\frac{B D}{A B} \\\\ D I / / A K \\Rightarrow \\frac{D I}{A K}=\\frac{B D}{A B}\\end{array}\\right\\} \\Rightarrow \\frac{D G}{A H}=\\frac{D I}{A K})% mà %(A K=\\frac{1}{2} A H \\Rightarrow D I=\\frac{1}{2} D G \\Rightarrow I)% là trung điểm của%(D G)%<br>CMTT : %(J)% là trung điểm của EF .<br>Suy ra %(O)% là trung điểm của %(J I)% mà %(J I B C)% là hình thang %((J I / / B C))% theo tính chất hình thang<br>%(\\Rightarrow K O)% đi qua trung điểm của %(B C \\Rightarrow O)% thuộc đường thẳng đi qua trung điểm của %(A H)% và %(B C \\Rightarrow)% khi %(D)% thay đổi trên %(A B)% thì %(O)% luôn nằm trên đường thẳng cố định.",
+        "question_type": "essay"
+    }
+]

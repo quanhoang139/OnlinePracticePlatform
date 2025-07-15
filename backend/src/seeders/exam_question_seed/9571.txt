@@ -1,0 +1,88 @@
+[
+    {
+        "title": "Câu 1",
+        "group_content": "Cho biểu thức %(P=\\left(\\frac{25-x^{2}}{x^{2}-2 x-15}-\\frac{x-3}{x-5}+\\frac{x+5}{x+3}\\right) \\cdot \\frac{3}{3-x})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 3.0,
+        "content": "a) Nêu ĐKXĐ và rút gọn P",
+        "question_images": [],
+        "solution": "P xác định khi %(x \\neq \\pm 3 ; x \\neq 5)%. Khi đó<br>\\[\\begin{array}{l}P=\\left(\\frac{25-x^{2}}{x^{2}-2 x-15}-\\frac{x-3}{x-5}+\\frac{x+5}{x+3}\\right) \\cdot \\frac{3}{3-x} \\\\=\\frac{25-x^{2}-(x-3)(x+3)+(x+5)(x-5)}{(x+3)(x-5)} \\cdot \\frac{-3}{x-3}=\\frac{\\left(25-x^{2}-x^{2}+9+x^{2}-25\\right) \\cdot(-3)}{(x+3)(x-5)(x-3)} \\\\=\\frac{\\left(9-x^{2}\\right) \\cdot 3}{(x+3)(x-5)(3-x)}=\\frac{3}{x-5}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 3.0,
+        "content": "b) Tìm x để %(\\mathrm{P}\\gt 1)%",
+        "question_images": [],
+        "solution": "Tìm %(x)% để %(P\\gt 1)%<br>\\[\\begin{array}{l}P>1 \\Leftrightarrow P-1>0 \\Leftrightarrow \\frac{3}{x-5}-\\frac{x-5}{x-5}>0 \\Leftrightarrow \\frac{8-x}{x-5}>0 \\\\Rightarrow\\left\\{\\begin{array}{l}8-x>0 \\x-5>0\\end{array} \\Rightarrow 5\\lt x\\lt 8(\\text { tm }) \\left\\lvert\\,\\left\\{\\begin{array} { l } { 8 - x \\lt 0 } \\\\{ x - 5 \\lt 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x>8 \\x\\lt 5\\end{array}(\\text { VN) }\\right.\\right.\\right.\\right.\\end{array}\\]<br>Vậy %(P>1 \\Leftrightarrow 5\\lt x\\lt 8)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 2.0,
+        "content": "Tìm cặp số nguyên %(\\mathrm{x}, \\mathrm{y})% thỏa mãn %(x^{2}-2 x+2^{2 y}-2^{y+3}+17=0)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}x^{2}-2 x+2^{2 y}-2^{y+3}+17=0 \\Leftrightarrow x^{2}-2 x+1+(2 y)^{2}-8.2 y^{2}+16=0 \\\\Leftrightarrow(x-1)^{2}+\\left(2^{y}-4\\right)^{2}=0 \\Leftrightarrow\\left\\{\\begin{array} { l } { x - 1 = 0 } \\\\{ 2 ^ { y } - 4 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=1 \\y=2\\end{array}(\\text { tm })\\right.\\right.\\end{array}\\]<br>Vậy %(x=1, y=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 2.0,
+        "content": "Hai bạn Lan và Hoa vào cửa hàng sách, Lan mua một số quyển vở còn Hoa không những mua gấp đôi số vở của Lan mà còn nhiều hơn 1 quyển nữa. Tính số quyển vở mỗi bạn mua biết rằng số quyển vở Lan mua là một số nguyên tố, số quyển vở Hoa mua là lập phương của một số tự nhiên?",
+        "question_images": [],
+        "solution": "Gọi số vở Lan mua là x (quyển), ( x là số nguyên tố) nên số vở Hoa mua là %(2 \\mathrm{x}+1)% (quyển)<br>Theo đề bài ta có %(2 x+1=y^{3}\\left[y \\in N^{*}\\right])%<br>\\[\\Rightarrow 2 x=y^{3}-1=(y-1)\\left(y^{2}+y+1\\right) \\Rightarrow\\left[\\begin{array}{l}(y-1) \\vdots 2 \\\\left(y^{2}+y+1\\right) \\vdots 2\\end{array}\\left(\\text { do } x, y \\in N^{*}\\right)\\right.\\]<br>Th1: %(y-1 \\vdots 2 \\Rightarrow(y-1) \\vdots 2 \\Rightarrow y=2 k+1 \\rightarrow x=k .\\left(4 k^{2}+6 k+3\\right))%<br>Có %(4 k^{2}+6 k+3\\gt 1, \\forall k \\in N^{*})% mà x nguyên tố nên :<br>\\[k=1 \\Rightarrow x=13 \\Rightarrow y=3 ; 2 x+1=27\\]<br>Th2: %(y^{2}+y+1: 2 \\Rightarrow y^{3}=2 x+1, x \\in P \\Rightarrow y)% lẻ nên %(y^{2}+y+1)% lẻ (loại)<br>Vậy %(\\mathrm{x}=13,2 \\mathrm{x}+1=27)%<br>Vậy Lan mua 13 quyển vở, Hoa mua 27 quyển vở",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 1.5,
+        "content": "Cho %(x=\\frac{b^{2}+c^{2}-a^{2}}{2 b c})% và %(y=\\frac{(a+b-c)(a+c-b)}{(a+b+c)(b+c-a)}\\binom{b c \\neq 0 ; a+b+c \\neq 0}{b+c-a \\neq 0})%<br>Tính giá trị của biểu thức %(A=(x+y+x y+1)^{2})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}x+1=\\frac{b^{2}+c^{2}-a^{2}}{2 b c}+1=\\frac{(b+c)^{2}-a^{2}}{2 b c}=\\frac{(a+b+c)(b+c-a)}{2 b c} \\\\ y+1=\\frac{(a+b-c)(a+c-b)}{(a+b+c)(b+c-a)}+1=\\frac{a^{2}-(b-c)^{2}+(b+c)^{2}-a^{2}}{(a+b+c)(b+c-a)}=\\frac{4 b c}{(a+b+c)(b+c-a)} \\\\ \\Rightarrow A=(x+y+x y+1)^{2}=[(x+1)(y+1)]^{2}=(x+1)^{2}(y+1)^{2} \\\\ \\Leftrightarrow A=\\left[\\frac{(a+b+c)(b+c-a)}{2 b c}\\right]^{2} \\cdot\\left[\\frac{4 b c}{(a+b+c)(b+c-a)}\\right]^{2} \\Leftrightarrow A=4\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 1.5,
+        "content": "Một tam giác có độ dài ba cạnh là %(a, b, c)% và chu vi là 2 . Chứng minh rằng :<br>\\[a^{2}+b^{2}+c^{2}+2 a b c\\lt 2\\]",
+        "question_images": [],
+        "solution": "Chu vi tam giác là %(a+b+c=2)%. Vì %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là độ dài ba cạnh của một tam giác nên<br>\\[\\begin{array}{l}\\Rightarrow\\left\\{\\begin{array} { l } { 0 \\lt a \\lt b + c } \\\\{ 0 \\lt b \\lt a + c } \\\\{ 0 \\lt c \\lt a + b }\\end{array} \\Rightarrow \\left\\{\\begin{array} { l } { 0 \\lt 2 a \\lt a + b + c = 2 } \\\\{ 0 \\lt 2 b \\lt a + b + c = 2 } \\\\{ 0 \\lt 2 c \\lt a + b + c = 2 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}a\\lt 1 \\b\\lt 1 \\c\\lt 1\\end{array}\\right.\\right.\\right. \\\\Rightarrow(a-1)(b-1)(c-1)\\lt 0 \\Leftrightarrow a b c-(a b+b c+c a)+(a+b+c)\\lt 1 \\\\Leftrightarrow 2 a b c-2(a b+b c+c a)+2(a+b+c)\\lt 2 \\\\Leftrightarrow 2 a b c-2(a b+b c+c a)+(a+b+c)^{2}\\lt 2 \\Leftrightarrow 2 a b c+a^{2}+b^{2}+c^{2}\\lt 2(d f c m)\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6",
+        "group_content": "Cho hình chữ nhật %(A B C D)% có %(A B\\gt A D)%, hai đường chéo %(A C)% và %(B D)% cắt nhau tại %(O)%. Kẻ %(A H \\perp B D)% tại H .",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.5,
+        "content": "a) Chứng minh %(\\triangle A H B \\sim \\triangle A D C)%",
+        "question_images": [],
+        "solution": "ABCD là hình chữ nhật mà O là giao điểm của AC và BD nên %(\\triangle O A B)% cân tại O<br>\\[\\begin{array}{l}\\Rightarrow \\angle B A O=\\angle A B O m a^{\\circ} \\angle D C A=\\angle B A O(\\text { slt do } A B / / C D) \\Rightarrow \\angle D C A=\\angle A B O \\\\Rightarrow \\triangle A H B \\sim \\triangle A D C\\end{array}\\]<br><img alt=\"Screenshot 2024-07-15 083248.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f34d6f037174b7ac0b13c9ec8e05582d.png\" srcset=\"https://docdn.giainhanh.io/media/test/8ee438362e30561dc0876747c5c621ec.png 211w, https://docdn.giainhanh.io/media/test/7bedda0a3cdb434d283ac6bac9ad0bd0.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.5,
+        "content": "b) Trên tia đối của tia CB lấy điểm M sao cho AM cắt đường chéo BD tại P , cắt cạnh CD tại N . Chứng minh rằng %(\\frac{N D}{N C} \\cdot \\frac{M C}{M B} \\cdot \\frac{P B}{P D}=1)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\triangle A D N \\sim \\triangle M C N(\\mathrm{~g} . \\mathrm{g}) \\Rightarrow \\frac{D N}{N C}=\\frac{A D}{M C}=\\frac{A N}{M N} \\\\triangle B P M \\sim \\triangle D P A(\\mathrm{~g} . \\mathrm{g}) \\Rightarrow \\frac{B P}{D P}=\\frac{B M}{D A}(1) \\\\triangle A M B \\sim \\triangle N A D(\\mathrm{~g} . \\mathrm{g}) \\Rightarrow \\frac{B M}{D A}=\\frac{A M}{A C}(2)\\end{array}\\]<br>\\[\\text { (1),(2) } \\Rightarrow \\frac{B P}{D P}=\\frac{A M}{A N} \\Rightarrow \\frac{D N}{N C} \\cdot \\frac{M C}{M B} \\cdot \\frac{P B}{P D}=\\frac{A N}{M N} \\cdot \\frac{M N}{M A} \\cdot \\frac{A M}{A N}=1\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) Trên BH lấy I sao cho %(\\frac{B I}{B H}=\\frac{C N}{C D})%. Chứng minh rằng %(A I \\perp N I)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\triangle A H B \\sim \\triangle A D C(g \\cdot g) \\Rightarrow \\frac{C D}{B H}=\\frac{A C}{A B}, M à{} \\frac{C N}{C D}=\\frac{B I}{B H}(g t) \\Rightarrow C D=\\frac{C N \\cdot B H}{B I} \\\\ \\Rightarrow \\frac{C N \\cdot B H}{B H \\cdot B I}=\\frac{C A}{A B} \\Rightarrow \\frac{C N}{B I}=\\frac{C A}{A B} \\\\ \\triangle C N A \\& \\triangle B I A: \\angle N C A=\\angle I B A(=\\angle C D B) ; \\frac{C N}{B I}=\\frac{C A}{B A} \\Rightarrow \\triangle C N A \\sim \\triangle B I A(\\text { c.g.c) } \\\\ \\Rightarrow \\angle N A C=\\angle I A B \\Rightarrow \\angle N A C+\\angle C A I=\\angle I A B+\\angle C A I \\Rightarrow \\angle N A I=\\angle C A B \\\\ \\text { mà } \\angle C A B=\\angle D C A(A B / / C D) \\Rightarrow \\angle N A I=\\angle D C A \\\\ M à \\triangle C N A \\sim \\triangle B I A(\\mathrm{cmt}) \\Rightarrow \\frac{A N}{A C}=\\frac{A I}{C D} ; \\angle N A I=\\angle A C D \\Rightarrow \\triangle N A I \\sim \\triangle A C D(\\mathrm{~g} \\cdot \\mathrm{g}) \\\\ \\Rightarrow \\angle A I N=\\angle C D A \\text { màCDA }=90^{\\circ} \\Rightarrow \\angle A I N=90^{\\circ} \\Rightarrow A I \\perp I N \\\\end{array})%",
+        "question_type": "essay"
+    }
+]

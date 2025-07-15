@@ -1,0 +1,112 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức : %(A=\\left(\\frac{x^{2}-2 x}{2 x^{2}+8}-\\frac{2 x^{2}}{8-4 x+2 x^{2}-x^{3}}\\right) \\cdot\\left(1-\\frac{1}{x}-\\frac{2}{x^{2}}\\right))%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Tìm %(x)% đề giá trị của %(A)% được xác định. Rút gọn biểu thức %(A)%.",
+        "question_images": [],
+        "solution": "%(Đ K:\\left\\{\\begin{array}{l}x \\neq 0 \\\\ x \\neq 2\\end{array}\\right.)%. Ta có:<br>\\[\\begin{array}{l}A=\\left(\\frac{x^{2}-2 x}{2 x^{2}+8}-\\frac{2 x^{2}}{8-4 x+2 x^{2}-x^{3}}\\right)\\left(1-\\frac{1}{x}-\\frac{2}{x^{2}}\\right)=\\left(\\frac{x^{2}-2 x}{2\\left(x^{2}+4\\right)}-\\frac{2 x^{2}}{\\left(4+x^{2}\\right)(2-x)}\\right) \\frac{x^{2}-x-2}{x^{2}} \\\\=\\frac{x(x-2)^{2}+4 x^{2}}{2(x-2)\\left(x^{2}+4\\right)} \\cdot \\frac{x^{2}-x-2}{x^{2}}=\\frac{x^{3}-4 x^{2}+4 x+4 x^{2}}{2\\left(x^{2}+4\\right)} \\cdot \\frac{x+1}{x^{2}} \\\\=\\frac{x\\left(x^{2}+4\\right)(x+1)}{2 x^{2}\\left(x^{2}+4\\right)}=\\frac{x+1}{2 x} .\\end{array}\\]<br>Vậy %(A=\\frac{x+1}{2 x})% với %(\\left\\{\\begin{array}{l}x \\neq 0 \\\\ x \\neq 2\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Tìm giá trị nguyên của %(x)% để A nhận giá trị nguyên",
+        "question_images": [],
+        "solution": "%(\\frac{x+1}{2 x} \\in \\mathbb{Z} \\Leftrightarrow x+1\\vdots 2 x \\Rightarrow 2 x+2 \\vdots 2 x \\Rightarrow 2: 2 x \\Rightarrow 1\\vdots x \\Rightarrow\\left[\\begin{array}{l}x=1 \\\\ x=-1\\end{array}\\right.)% (TMDKXD)",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng %((a-1)(a-3)(a-4)(a-6)+10\\gt 0)% với mọi %(a)%.",
+        "question_images": [],
+        "solution": "%((a-1)(a-3)(a-4)(a-6)+10=\\left(a^{2}-7 a+6\\right)\\left(a^{2}-7 a+12\\right)+10)%<br>Đặt %(t=a^{2}-7 a+6)%.<br>Khi đó ta có:<br>\\[(a-1)(a-3)(a-4)(a-6)+10=\\left(a^{2}-7 a+6\\right)\\left(a^{2}-7 a+12\\right)+10=(t+3)^{2}+1\\gt 0\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tìm đa thức dư khi chia đa thức %(x^{100}-2 x^{51}+1)% cho %(x^{2}-1)%",
+        "question_images": [],
+        "solution": "Gọi đa thức dư trong phép chia là %(a x+b)%. Khi đó ta có:<br>\\[x^{100}-2 x^{51}+1=\\left(x^{2}-1\\right) \\cdot H(x)+a x+b(1)\\]<br>Thay %(x=1)% vào (1) ta có: %(0=a+b)%<br>Thay %(x=-1)% vào (1) ta có: %(4=a-b)%<br>Từ đó suy ra %(a=2 ; b=-2)%.<br>Vậy số dư là %(2 x-2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải phương trình:<br>\\[\\frac{1}{x^{2}-5 x+6}+\\frac{1}{x^{2}-7 x+12}+\\frac{1}{x^{2}-9 x+20}+\\frac{1}{x^{2}-11 x+30}=\\frac{1}{8}\\]",
+        "question_images": [],
+        "solution": "Ta có điều kiện %(x \\neq 2,3,4,5,6)%. Khi đó ta có:<br>\\[\\begin{array}{l}\\frac{1}{x^{2}-5 x+6}+\\frac{1}{x^{2}-7 x+12}+\\frac{1}{x^{2}-9 x+20}+\\frac{1}{x^{2}-11 x+30}=\\frac{1}{8} \\\\Leftrightarrow \\frac{1}{x-2}-\\frac{1}{x-3}+\\frac{1}{x-3}-\\frac{1}{x-4}+\\frac{1}{x-4}-\\frac{1}{x-5}+\\frac{1}{x-5}-\\frac{1}{x-6}=\\frac{1}{8} \\\\Leftrightarrow \\frac{1}{x-2}-\\frac{1}{x-6}=\\frac{1}{8} \\Leftrightarrow x^{2}-8 x-20=0 \\Leftrightarrow\\left[\\begin{array}{l}x=10 \\x=-2\\end{array}(T M)\\right.\\end{array}\\]<br>Vậy %(S=\\{-2 ; 10\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Tìm giá trị nhỏ nhất và lớn nhất của %(B=\\frac{27-12}{x^{2}+9})%",
+        "question_images": [],
+        "solution": "Ta có: %(B=\\frac{27-12 x}{x^{2}+9}=\\frac{-x^{2}-9+x^{2}-12 x+36}{x^{2}+9}=-1+\\frac{(x-6)^{2}}{x^{2}+9} \\geq-1)%<br>%(\\operatorname{Min} B=-1 \\Leftrightarrow x=6)%<br>Ta có: %(B=\\frac{27-12 x}{x^{2}+9}=\\frac{4 x^{2}+36-4 x^{2}-12 x-9}{x^{2}+9}=4-\\frac{(2 x+3)^{2}}{x^{2}+9} \\leq 4)%<br>%(\\operatorname{Max} B=4 \\Leftrightarrow x=\\frac{3}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Tìm các số nguyên tố %(x)% và %(y)% sao cho %(x^{2}-2 y^{2}=1)%",
+        "question_images": [],
+        "solution": "Ta có: %(x^{2}-2 y^{2}=1 \\Leftrightarrow 2 y^{2}=x^{2}-1\\vdots 2 \\Rightarrow(x-1)(x+1)\\vdots 2)%<br>Xét trường hợp : %(x+1\\vdots 2 \\Rightarrow x+1=2 k(k \\in \\mathbb{N}) \\Rightarrow x=2 k-1)%<br>Khi đó ta có %(2 y^{2}\\vdots 4 \\Rightarrow y^{2}\\vdots 2 \\Rightarrow y=2)% (do %(y)% nguyên tố).<br>Từ đó suy ra %(x=3)%<br>Xét trường hợp %(x-1\\vdots 2 \\Rightarrow x+1=2 t(t \\in \\mathbb{N}) \\Rightarrow x=2 t+1)%<br>Khi đó ta có: %(2 y^{2}\\vdots 4 \\Rightarrow y^{2}\\vdots 2 \\Rightarrow y=2)% (do y nguyên tố) suy ra %(x=3)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Chứng minh tổng lập phương của ba số tự nhiên liên tiếp chia hết cho 9",
+        "question_images": [],
+        "solution": "Ta có ba số nguyên liên tiếp là %(n, n+1, n+2(n \\in \\mathbb{N}))%<br>Khi đó ta có: %(n^{3}+(n+1)^{3}+(n+2)^{3}=3(n-1) n(n+1)+9 n)% %(\\vdots)% 9",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho hình vuông %(A B C D)% có AC cắt BD tại O . M là điểm bất kỳ thuộc cạnh %(B C(M \\neq B, M \\neq C))%. Tia AM cắt đường thẳng %(C D)% tại N . Trên cạnh %(A B)% lấy điểm E sao cho %(B E=C M)%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh %(\\triangle O E M)% vuông cân",
+        "question_images": [],
+        "solution": "Xét %(\\triangle O E B)% và %(\\triangle O M C)% có:<br>\\[\\begin{array}{l}O B=O C(g t) ; B R=C M(g t) ; \\widehat{B}_{1}=\\widehat{C}_{1}=45^{0} \\\\Rightarrow \\triangle O E B=\\triangle O M C\\left(\\text { c.g.c) } \\Rightarrow \\left\\{\\begin{array}{l}O E=O M \\\\widehat{O}_{1}=\\widehat{O}_{3}\\end{array}\\right.\\right.\\end{array}\\]<br>Lại có %(\\widehat{O_{2}}+\\widehat{O_{3}}=\\widehat{B O C}=90^{\\circ})% (vì tứ giác %(A B C D)% là hình vuông)<br>Suy ra %(\\widehat{O_{2}}+\\widehat{O_{1}}=\\widehat{E O M}=90^{\\circ})%, kết hợp với %(O E=O M \\Rightarrow \\triangle O E M)% vuông cân tại O<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f27e65d5efa78a60e2541fa8fcd1fefd.png\" srcset=\"https://docdn.giainhanh.io/media/test/4cba631e31be86206bfa780ebe0bbdb8.png 229w, https://docdn.giainhanh.io/media/test/c2d1063897cc0a71d263d9354d3f759c.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Chứng minh %(M E / / B N)%",
+        "question_images": [],
+        "solution": "Từ gt tứ giác %(A B C D)% là hình vuông %(\\Rightarrow A B=C D)% và %(A B / / C D )%<br>%(+A B / / C D \\Rightarrow A B / / C N \\Rightarrow \\frac{A M}{M N}=\\frac{B M}{M C})% (Theo định lý Ta let ) (*)<br>Mà %(B E=C M(g t))% và %(A B=C D \\Rightarrow A E=B M)% thay vào ( %(\\left.{ }^{*}\\right))%<br>Ta có: %(\\frac{A M}{M N}=\\frac{A E}{E B} \\Rightarrow M E / / B N)% (Định lý Ta let đảo)",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Từ C kẻ %(C H \\perp B N(H \\in B N))%. Chứng minh rằng ba điểm %(O, M, H)% thẳng hàng",
+        "question_images": [],
+        "solution": "Gọi %(H)% 'là giao điểm của %(O M)% và %(B N)%<br>Từ %(M E / / B N \\Rightarrow \\widehat{O M E}=\\widehat{O H^{\\prime} B})% (cặp góc đồng vị)<br>Mà %(\\widehat{O M E}=45^{\\circ})% vì %(\\triangle O E M)% vuông cân tại %(\\mathrm{O} \\Rightarrow \\widehat{M H^{\\prime} B}=45^{\\circ}=\\widehat{C}_{1})%<br>%(\\Rightarrow \\triangle O M C \\sim \\triangle B M H^{\\prime}(\\mathrm{g} \\cdot g) \\Rightarrow \\frac{O M}{B M}=\\frac{M C}{M H^{\\prime}})%,<br>kết hợp %(\\widehat{O M B}=\\widehat{C M H'})% (đối đỉnh)%(\\Rightarrow \\triangle O M B \\sim \\triangle C M H^{\\prime}()% c.g.c)%(\\Rightarrow \\widehat{B H^{\\prime} C}=\\widehat{B H^{\\prime} M}+\\widehat{M H^{\\prime} C}=90^{\\circ} \\Rightarrow C H^{\\prime} \\perp B N)%<br>Mà %(C H \\perp B N(H \\in B N) \\Rightarrow H \\equiv H')% hay ba điểm %(O, M, H)% thẳng hàng (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 2.0,
+        "content": "Qua M thuộc cạnh BC của tam giác %(A B C(M \\neq B, C))%, kẻ ME song song với AB ( E thuộc AC%())%, Kẻ MD song song với %(\\mathrm{AC}(\\mathrm{D})% thuộc AB%())%. Tìm vị trí của M để tứ giác %(M D A E)% có diện tích lớn nhất.",
+        "question_images": [],
+        "solution": "Ta có %(M D E A)% là hình bình hành.<br>Khi đó %(S_{\\triangle D E A}=2 S_{A D E}=A G \\cdot D E)%.<br>Diện tích tứ giác %(M D A E)% có diện tích lớn nhất thì %(D E)% lớn nhất.<br>Mà để %(D E)% lớn nhất thì:<br>*Nếu %(A B\\gt A C)% thì %(M \\equiv B)%<br>*Nếu %(A C>A B)% thì %(M \\equiv C)%<br>*Nếu %(A B=A C)% thì %(\\left[\\begin{array}{l}M \\equiv B \\\\ M \\equiv C\\end{array}\\right.)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/2fea32041eaa33cc9633b0b8dbedbcf8.png\" srcset=\"https://docdn.giainhanh.io/media/test/acc40b3a779136e4c8a078375ce2eaf2.png 237w, https://docdn.giainhanh.io/media/test/5f68d83a796d06bca37610ba811e41c6.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

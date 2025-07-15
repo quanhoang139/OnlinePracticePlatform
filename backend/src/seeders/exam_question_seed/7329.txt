@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng: %(\\mathrm{n}^{3}+6 \\mathrm{n}^{2}+8 \\mathrm{n})% chia hết cho 48 với %(n)% là số nguyên chẵn.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}A=n^{3}+6 n^{2}+8 n \\\\=n\\left(n^{2}+6 n+8\\right) \\\\=n\\left(n^{2}+4 n+2 n+8\\right) \\\\=n[n(n+4)+2(n+4)] \\\\=n(n+2)(n+4)\\end{array}\\]<br>Thay %(\\mathrm{n}=2 \\mathrm{k})%Ta có: %(A=n(n+2)(n+4)=8 k(k+1)(k+2))%Vì %(8 \\vdots 8)% và %(k(k+1)(k+2) \\vdots 6)%nên %(A=8 k(k+1)(k+2) \\vdots 48)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho 2 số tự nhiên %(\\mathrm{a})% và %(\\mathrm{b})%. Chứng minh rằng nếu tích a.b là số chẵn thì luôn luôn tìm được số nguyên %(\\mathrm{c})% sao cho %(\\mathrm{a}^{2}+\\mathrm{b}^{2}+\\mathrm{c}^{2})% là số chính phương.",
+        "question_images": [],
+        "solution": "Đặt %(\\mathrm{A}=\\mathrm{a}^{2}+\\mathrm{b}^{2}+\\mathrm{c}^{2})%. Do tích a.b chẵn nên ta xét các trường hợp sau:<br>%(\\mathrm{TH} 1)% : Trong 2 số %(\\mathrm{a}, \\mathrm{b})% có 1 số chẵn và 1 số lẻ.<br>Không mất tính tổng quát, giả sử %(\\mathrm{a})% chẵn, %(\\mathrm{b})% lẻ<br>\\[\\begin{array}{l}\\Rightarrow \\mathrm{a}^{2} \\vdots 4 ; \\mathrm{b}^{2}: 4 \\text { dư } 1 \\Rightarrow \\mathrm{a}^{2}+\\mathrm{b}^{2}: 4 \\text { dư } 1 \\\\Rightarrow \\mathrm{a}^{2}+\\mathrm{b}^{2}=4 \\mathrm{~m}+1(\\mathrm{~m} \\in \\mathrm{N})\\end{array}\\]<br>Chọn %(\\mathrm{c}=2 \\mathrm{~m} \\Rightarrow \\mathrm{a}^{2}+\\mathrm{b}^{2}+\\mathrm{c}^{2}=4 \\mathrm{~m}^{2}+4 \\mathrm{~m}+1=(2 \\mathrm{~m}+1)^{2})% (thoả mãn) (1)<br>%(\\mathrm{TH} 2)% : Cả 2 số %(\\mathrm{a}, \\mathrm{b})% cùng chẵn.<br>\\[\\Rightarrow \\mathrm{a}^{2}+\\mathrm{b}^{2} \\vdots 4 \\Rightarrow \\mathrm{a}^{2}+\\mathrm{b}^{2}=4 \\mathrm{n}(\\mathrm{n} \\in \\mathrm{N})\\]<br>Chọn %(\\mathrm{c}=\\mathrm{n}-1 \\Rightarrow \\mathrm{a}^{2}+\\mathrm{b}^{2}+\\mathrm{c}^{2}=\\mathrm{n}^{2}+2 \\mathrm{n}+1=(\\mathrm{n}+1)^{2})% (thoả mãn) (2)<br>Từ (1) và %((2))% ta luôn tìm %(c \\in Z)% thoả mãn bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho ba số dương %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% thỏa mãn %(a+b+c=1)%. Chứng minh rằng :<br>\\[\\sqrt{\\frac{a b}{a b+c}}+\\sqrt{\\frac{b c}{b c+a}}+\\sqrt{\\frac{a c}{a c+b}} \\leq \\frac{3}{2}\\]",
+        "question_images": [],
+        "solution": "\\[\\sqrt{\\frac{a b}{a b+c}}+\\sqrt{\\frac{b c}{b c+a}}+\\sqrt{\\frac{a c}{a c+b}} \\leq \\frac{3}{2}\\]<br>Ta thấy %(\\sqrt{\\frac{a b}{a b+c}}=\\sqrt{\\frac{a b}{a b+c(a+b+c)}}=\\sqrt{\\frac{a b}{(b+c)(a+c)}} \\leq \\frac{1}{2}\\left(\\frac{a}{a+c}+\\frac{b}{b+c}\\right))%<br>Tương tự %(\\sqrt{\\frac{b c}{b c+a}} \\leq \\frac{1}{2}\\left(\\frac{c}{a+c}+\\frac{b}{b+a}\\right) ; \\sqrt{\\frac{a c}{a c+b}} \\leq \\frac{1}{2}\\left(\\frac{c}{b+c}+\\frac{a}{b+a}\\right))%<br>Cộng vế theo vế các bất đẳng thức trên ta được :<br>\\[\\sqrt{\\frac{a b}{a b+c}}+\\sqrt{\\frac{b c}{b c+a}}+\\sqrt{\\frac{a c}{a c+b}} \\leq \\frac{3}{2}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(\\sqrt{x-1+2 \\sqrt{x-2}}+x+1=5 \\sqrt{x-2})%",
+        "question_images": [],
+        "solution": "Phương trình: %(\\sqrt{x-1+2 \\sqrt{x-2}}+x+1=5 \\sqrt{x-2})%<br>Điều kiện: %(x \\geq 2)%<br>Ta có:<br>\\[\\begin{array}{l}\\sqrt{x-1+2 \\sqrt{x-2}+x+1}=5 \\sqrt{x-2} \\\\Leftrightarrow \\sqrt{x-2+2 \\sqrt{x-2}+1}+x+1=5 \\sqrt{x-2} \\\\Leftrightarrow \\sqrt{(\\sqrt{x-2}+1)^{2}}+x+1-5 \\sqrt{x-2}=0 \\\\Leftrightarrow \\sqrt{x-2}+1+x+1-5 \\sqrt{x-2}=0 \\\\Leftrightarrow x-2-4 \\sqrt{x-2}+4=0 \\\\Leftrightarrow(\\sqrt{x-2}-2)^{2}=0 \\Leftrightarrow x=6(\\text { tmdk })\\end{array}\\]<br>Vậy nghiệm của pt là: %(x=6)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Tìm các cặp số nguyên %((x ; y))% thỏa mãn %(x^{3}+y^{3}+1=5 x y)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}x^{3}+y^{3}+1=5 x y \\\\Leftrightarrow(x+y)^{3}-3 x y(x+y)+1=5 x y\\end{array}\\]<br>Đặt %(x+y=a, x y=b)% ta được %(a^{3}-3 a b+1=5 b \\Leftrightarrow a^{3}+1=b(3 a+5))%<br>Vì %(3 a+b \\neq 0)% với %(\\forall a \\in Z)%<br>Suy ra %(b=\\frac{a^{3}+1}{3 a+5})%Ta có %(a^{2}-4 b=(x-y)^{2} \\geq 0 \\forall x, y)%<br>Suy ra %(a^{2}-\\frac{4 a^{3}+4}{3 a+5} \\geq 0 \\Rightarrow \\frac{-a^{3}+5 a^{2}-4}{3 a+5} \\geq 0)%<br>Nếu %(a \\geq 5 \\Rightarrow-a^{3}+5 a^{3}-4=a^{2}(5-a)-4\\lt 0 ; 3 a+5\\gt 0)%<br>Suy ra: %(\\frac{-a^{3}+5 a^{2}-4}{3 a+5}\\lt 0)% (loại)<br>Nếu %(a \\leq-2 \\Rightarrow a^{2}(5-a) \\geq 28 \\Rightarrow-a^{3}+5 a^{2}-4>0 ; 3 a+5\\lt 0)%<br>Suy ra: %(\\frac{-a^{3}+5 a^{2}-4}{3 a+5}\\lt 0)% (loại)<br>Nếu %(-2\\lt a\\lt 5)% mà a nguyên nên a nhận các giá trị: %(-1 ; 0 ; 1 ; 2 ; 3 ; 4 ; 5)%<br>Do b nguyên và %(b=\\frac{a^{3}+1}{3 a+5})% nên tìm được các cặp số %((\\mathrm{a} ; \\mathrm{b}))% thoã mãn: %((-1 ; 0) ;(3 ; 2))%<br>Với %(\\mathrm{a}=-1 ; \\mathrm{b}=0)%, tìm được các cặp %((\\mathrm{x} ; \\mathrm{y}))% thoã mãn: %((0 ;-1) ;(-1 ; 0))%<br>Với %(a=3 ; b=2)%, tìm được các cặp %((x ; y))% thoã mãn: %((1 ; 2) ;(2 ; 1))%<br>Vậy các cặp số %((x ; y))% thỏa mãn: %((0 ;-1) ;(-1 ; 0) ;(1 ; 2) ;(2 ; 1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Tìm giá trị nhỏ nhất của biểu thức: %(\\mathrm{P}=\\left(3+\\frac{1}{\\mathrm{a}}+\\frac{1}{\\mathrm{~b}}\\right)\\left(3+\\frac{1}{\\mathrm{~b}}+\\frac{1}{\\mathrm{c}}\\right)\\left(3+\\frac{1}{\\mathrm{c}}+\\frac{1}{\\mathrm{a}}\\right))% Trong đó các số dương %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% thoả mãn điều kiện %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c} \\leq \\frac{3}{2})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{c}\\text { Đặt } \\frac{1}{a}+\\frac{1}{b}=x ; \\frac{1}{b}+\\frac{1}{c}=y ; \\frac{1}{c}+\\frac{1}{a}=z \\Rightarrow(x, y, z\\gt 0) \\\\ \\Rightarrow P=(3+x)(3+y)(3+z)\\end{array})%<br>\\[\\begin{array}{l}=27+3(x y+y z+z x)+9(x+y+z)+x y z \\\\geq 27+9 \\sqrt[3]{(x y z)^{2}}+27 \\sqrt[3]{x y z}+x y z \\quad(*)\\end{array}\\]<br>Lại có:<br>\\[\\begin{array}{l}x y z=\\left(\\frac{1}{a}+\\frac{1}{b}\\right)\\left(\\frac{1}{b}+\\frac{1}{c}\\right)\\left(\\frac{1}{c}+\\frac{1}{a}\\right) \\geq \\frac{8}{a b c} \\\\text { mà } \\frac{3}{2} \\geq a+b+c \\geq 3 \\sqrt[3]{a b c} \\Rightarrow \\frac{1}{2} \\geq \\sqrt[3]{a b c} \\\\Rightarrow a b c \\leq \\frac{1}{8} \\Rightarrow \\frac{8}{a b c} \\geq 64 \\Rightarrow x y z \\geq \\frac{8}{a b c} \\geq 64\\end{array}\\]<br>(vì a, b, c > 0)<br>Thay vào %(\\left({ }^{*}\\right))% ta được: %(\\mathrm{P} \\geq 27+9 \\sqrt[3]{64^{2}}+27 \\sqrt[3]{64}+64)%<br>\\[=27+144+108+64=343\\]<br>Dấu %(=)% có khi %(\\mathrm{a}=\\mathrm{b}=\\mathrm{c}=\\frac{1}{2} \\Rightarrow \\mathrm{P}_{\\text {min }}=343)% Khi %(\\mathrm{a}=\\mathrm{b}=\\mathrm{c}=\\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác %(\\mathrm{ABC})% nhọn. Các đường cao %(\\mathrm{AD} ; \\mathrm{BE} ; \\mathrm{CF})% că̆t nhau tại %(\\mathrm{H})%. Gọi %(\\mathrm{M})% là trung điểm của %(\\mathrm{HC} ; \\mathrm{N})% là trung điểm của %(\\mathrm{AC})%. %(\\mathrm{AM})% cắt %(\\mathrm{HN})% tại %(\\mathrm{G})%. Đường thẳng qua %(\\mathrm{M})% vuông góc với %(\\mathrm{HC})% và đường thẳng qua %(\\mathrm{N})% vuông góc với %(\\mathrm{AC})% cắt nhau tại %(\\mathrm{K})%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Tam giác %(\\mathrm{AEF})% đồng dạng với tam giác %(\\mathrm{ABC})%.Từ đó hãy suy ra %(\\mathrm{S}_{\\mathrm{AEF}}=\\mathrm{S}_{\\mathrm{ABC} \\cdot} \\cos ^{2} \\widehat{B A C})%",
+        "question_images": [],
+        "solution": "%(\\triangle A E B)% vuông tại E nên %(\\cos \\widehat{B A E}=\\frac{A E}{A B})%;%(\\triangle A C F)% vuông tại F nên %(\\cos \\widehat{C A F}=\\frac{A F}{A C})%<br>Từ đó chứng minh được tam giác %(\\mathrm{AEF})% đồng dạng với tam giác %(\\mathrm{ABC})% (c.g.c)<br>Vì tam giác %(\\mathrm{AEF})% đồng dạng với tam giác %(\\mathrm{ABC})% nên:<br>%(\\frac{S_{A E F}}{S_{A B C}}=\\frac{A E^{2}}{A B^{2}}=\\cos ^{2} \\widehat{B A C} \\Rightarrow S_{A E F}=S_{A B C} \\cdot \\cos ^{2} \\widehat{B A C})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1ecea5b5058b0229a045509d865867ed.png\" srcset=\"https://docdn.giainhanh.io/media/test/4fe928edf23e84f2d0238b1cf928bf83.png 168w\" width=\"168\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(\\mathrm{BH} . \\mathrm{KM}=\\mathrm{BA} . \\mathrm{KN})%",
+        "question_images": [],
+        "solution": "%(\\triangle A B H)% và %(\\triangle M N K)% có %(\\widehat{B A H}=\\widehat{N M K} ; \\widehat{A B H}=\\widehat{M K N})% (Góc có cạnh tương ứng song song)<br>Suy ra %(\\triangle A H B)% đồng dạng với %(\\triangle M N K)% (g.g)<br>Suy ra:<br>\\[\\frac{B A}{K M}=\\frac{B H}{K N} \\Rightarrow B A \\cdot K N=B H \\cdot K M\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) %(\\sqrt{\\frac{G A^{5}+G B^{5}+G H^{5}}{G M^{5}+G K^{5}+G N^{5}}}=4 \\sqrt{2})%",
+        "question_images": [],
+        "solution": "%(\\triangle A H B)% đồng dạng với %(\\triangle M N K)% nên %(\\frac{A B}{M K}=\\frac{A H}{M N}=2)% ( Vì %(\\mathrm{MN})% là đường %(\\mathrm{TB})% của tam giác %(\\mathrm{AHC})% );<br>Lại có: %(\\frac{A G}{M G}=2 ; \\frac{H G}{N G}=2)% ( %(\\mathrm{G})% là trọng tâm của tam giác %(\\mathrm{AHC})% ) %(\\Rightarrow \\frac{A B}{M K}=\\frac{A G}{M G}=2)%. Mặt khác %(\\widehat{B A G}=\\widehat{G M K})% ( so le trong)%(\\Rightarrow \\triangle A B G)% đồng dạng với tam giác %(\\triangle M K G)% (c.g.c) %(\\Rightarrow \\frac{G B}{G K}=\\frac{G A}{G M}=\\frac{G H}{G N}=2 \\Rightarrow \\frac{G B^{5}}{G K^{5}}=\\frac{G A^{5}}{G M^{5}}=\\frac{G H^{5}}{G N^{5}}=\\frac{G B^{5}+G A^{5}+G H^{5}}{G K^{5}+G M^{5}+G N^{5}}=32)% %(\\Rightarrow \\sqrt{\\frac{G B^{5}+G A^{5}+G H^{5}}{G K^{5}+G M^{5}+G N^{5}}}=4 \\sqrt{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 0.5,
+        "content": "Cho bảng ô vuông kích thước %(10 \\mathrm{~cm} \\times 10 \\mathrm{~cm})% gồm 100 ô vuông đơn vị. Điền vào mỗi ô vuông của bảng này một số nguyên dương không vượt quá 10 sao cho hai số ở hai ô vuông chung cạnh hoặc chung đỉnh nguyên tố cùng nhau. Chứng minh rằng trong bảng ô vuông đã cho có một số xuất hiện ít nhất 17 lần.",
+        "question_images": [],
+        "solution": "Xét hình vuông cạnh %(2 \\times 2)%, do hình vuông này có mỗi hình vuông nhỏ luôn chung cạnh hoặc chung đỉnh nên tồn tại nhiều nhất 1 số chẵn, nhiều nhất 1 số chia hết cho 3 do đó có ít nhất 2 số lẻ không chia hết cho 3 . Bảng 10 x10 được chia thành 25 hình vuông có cạnh 2 x2 nên có ít nhất 50 số lẻ không chia hết cho 3 . Từ 1 đến 10 có 3 số lẻ không chia hết cho 3 là %(1,5,7)%. Áp dụng nguyên lí Dirichlet ta được một trong ba số trên xuất hiện ít nhất %(\\left[\\frac{50}{3}\\right]+1=17)% lần",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(P=\\frac{x^{3}-3}{x^{2}-2 x-3}-\\frac{2 x-6}{x+1}+\\frac{x+3}{3-x})% với %(x \\neq-1 ; x \\neq 3)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Rút gọn biểu thức P",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}P=\\frac{x^{3}-3}{x^{2}-2 x-3}-\\frac{2 x-6}{x+1}+\\frac{x+3}{3-x}=\\frac{x^{3}-3-(2 x-6)(x-3)-(x+3)(x+1)}{(x-3)(x+1)} \\\\ =\\frac{x^{3}-3-2 x^{2}+12 x-18-x^{2}-4 x-3}{(x-3)(x+1)}=\\frac{x^{3}-3 x^{2}+8 x-24}{(x-3)(x+1)} \\\\ =\\frac{(x-3)\\left(x^{2}+8\\right)}{(x-3)(x+1)}=\\frac{x^{2}+8}{x+1}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Tìm các giá trị nguyên của %(x)% đề biều thức %(P)% nhận giá trị nguyên",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}P=\\frac{x^{2}+8}{x+1}=\\frac{x^{2}-1+9}{x+1}=x-1+\\frac{9}{x+1} \\\\ P \\in Z \\Leftrightarrow(x+1) \\in U(9)=\\{ \\pm 1 ; \\pm 3 ; \\pm 9\\} \\Rightarrow x \\in\\{-10 ;-4 ;-2 ; 0 ; 2 ; 8\\}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các giá trị của tham số %(m)% để phương trình %(m(m-2 x)=x-8 m)% có một nghiệm %(x=3)%",
+        "question_images": [],
+        "solution": "Phương trình %(m(m-2 x)=x-8 m)% có một nghiệm %(x=3 \\Rightarrow m(m-2.3)=3-8 m)%<br>\\[\\Rightarrow m^{2}+2 m-3=0 \\Leftrightarrow(m-1)(m+3)=0 \\Leftrightarrow\\left[\\begin{array}{l}m=1 \\m=-3\\end{array}\\right.\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Goi %(Q(x))% là đa thức thương trong phép chia đa thức %(A(x)=x^{4}+3 x^{3}-4 x^{2}-4 x+12)% cho đa thức %(B(x)=x^{2}+x-1)%. Tìm giá trị nhỏ nhất của %(Q(x))%",
+        "question_images": [],
+        "solution": "Thực hiện phép chia, ta có :<br>\\[Q(x)=x^{2}+2 x-5=\\left(x^{2}+2 x+1\\right)-6=(x+1)^{2}-6\\]<br>Ta có %((x+1)^{2} \\geq 0(\\forall x) \\Rightarrow(x+1)^{2}-6 \\geq-6(\\forall x) )%<br>Do đó %(Q(x)_{\\min }=-6 \\Leftrightarrow x+1=0 \\Leftrightarrow x=-1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Cho các số thực %(a, b)% thỏa mãn %(a^{2}+b^{2}+a b-a+b+1=0)%. Tính giá trị của biểu thức %(M=3 a^{3}-2 b^{4}-1)%",
+        "question_images": [],
+        "solution": "Ta có : %(a^{2}+b^{2}+a b-a+b+1=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow 2 a^{2}+2 b^{2}+2 a b-2 a+2 b+2=0 \\Leftrightarrow\\left(a^{2}+2 a b+b^{2}\\right)+\\left(a^{2}-2 a+1\\right)^{2}+\\left(b^{2}+2 b+1\\right)=0 \\\\Leftrightarrow(a+b)^{2}+(a-1)^{2}+(b+1)^{2} \\Rightarrow\\left\\{\\begin{array} { l } { a = - b } \\\\{ a = 1 } \\\\{ b = - 1 }\\end{array} \\Rightarrow \\left\\{\\begin{array}{l}a=1 \\b=-1\\end{array} \\Rightarrow M=3 \\cdot 1^{3}-2 \\cdot(-1)^{4}-1=0\\right.\\right.\\end{array}\\]<br>Vậy giá trị của biểu thức %(M=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Cho số nguyên tố p thỏa mã̃ %(p+6)% cũng là số nguyên tố. Chứng minh %(p^{2}+2021)% là hợp số",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}p=2 \\Rightarrow p+6=8 \\text { là hợp số (loại) } \\p=3 \\rightarrow p+6=9 \\text { là hợp số (loại) }\\end{array}\\]<br>Suy ra %(p\\gt 3)% mà p là số nguyên tố nên p không chia hết cho 3 .<br>Vậy %(p^{2})% chia 3 dư 1 Nên %(p^{2}+2021)% là hợp số",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.5,
+        "content": "Tìm tất cả các số tự nhiên %(a)% đề %(a^{2}+3 a)% là số chính phương",
+        "question_images": [],
+        "solution": "Giả sử<br>\\[\\begin{array}{l}a^{2}+3 a=b^{2} \\Rightarrow 4 a^{2}+12 a=4 b^{2} \\Leftrightarrow 4 a^{2}+12 a+9-4 b^{2}=9 \\\\Leftrightarrow(2 a+3)^{2}-(2 b)^{2}=9 \\Leftrightarrow(2 a-2 b+3)(2 a+2 b+3)=9\\end{array}\\]<br>Lập bảng<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/2605cb7cc662cbef27beee4631ea97e9.png\" srcset=\"https://docdn.giainhanh.io/media/test/a396c9feb0260a1f7ed486ad086c630e.png 245w, https://docdn.giainhanh.io/media/test/30675e717e14b645a026e2e5a696506d.png 500w\" width=\"500\"/><br>Vậy %(a \\in\\{-2 ;-4\\})% thì %(a^{2}+3 a)% là số chính phương",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác nhọn %(A B C(A B\\lt A C))% có hai đường cao %(B M, C N)% cắt nhau tại H .Đường thẳng vuông góc với %(A C)% tại C cắt đường thẳng vuông góc với %(A B)% tại B ở D",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh tứ giác %(B H C D)% là hình bình hành",
+        "question_images": [],
+        "solution": "Ta có %(B D \\perp A B(g t))% và %(C H \\perp A B(g t) \\Rightarrow B D / / C H(1))%<br>Ta có %(D C \\perp A C(g t))% và %(B H \\perp A C(g t) \\Rightarrow D C / / B H)% (2)<br>Từ (1) và (2) suy ra tứ giác %(B H C D)% là hình bình hành<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/cd2201127875f426c24c72f671de3d81.png\" srcset=\"https://docdn.giainhanh.io/media/test/537fde33cef9d5f7951ade89c7f0d690.png 201w, https://docdn.giainhanh.io/media/test/1b43c60c17806a08d579aeb4608c597c.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Gọi O là trung điểm của đoạn thằng AD . Qua điểm O kẻ đường thẳng song song với AH cắt BC tại %(K)%. Chứng minh K là trung điểm của BC và tính độ dài đoạn thẳng OK biết %(A H=6 \\mathrm{~cm})%",
+        "question_images": [],
+        "solution": "Xét %(\\triangle A H D)% có %(O A=O D(g t))% và %(O K / / A H(g t))% suy ra K là trung điểm của %(H D(3))%<br>Vì tứ giác %(B H C D)% là hình bình hành ( %(\\mathrm{cm} t)% ) có %(H D, B C)% là hai đường chéo (4)<br>Từ (3) và (4) suy ra K là trung điểm BC (hai đường chéo cắt nhau tại trung điểm mỗi đường)",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C)% có các đường phân giác %(B D, C E)% cắt nhau tại I và %(B D \\cdot C E=2 B I . C I)%. Tính số đo %(\\angle B A C)%",
+        "question_images": [],
+        "solution": "Đặt %(A B=c, A C=b, B C=a)%<br>BD là phân giác của %(\\triangle A B C \\Rightarrow \\frac{D A}{D C}=\\frac{A B}{B C} \\Rightarrow \\frac{D A}{D A+D C}=\\frac{A B}{A B+B C})%<br>\\[\\Rightarrow \\frac{D A}{A C}=\\frac{A B}{A B+B C} \\Rightarrow \\frac{D A}{b}=\\frac{c}{c+a} \\Rightarrow D A=\\frac{b c}{c+a}\\]<br>AI là phân giác của %(\\triangle A B D \\Rightarrow \\frac{B I}{I D}=\\frac{A B}{A D} \\Rightarrow \\frac{B I}{B I+I D}=\\frac{A B}{A B+A D} \\Rightarrow \\frac{B I}{I D}=\\frac{c}{c+\\frac{b c}{c+a}}=\\frac{c+a}{a+b+c})%<br>Tương tự : %(\\frac{C I}{C E}=\\frac{b+a}{a+b+c})% mà %(D B \\cdot C E=2 B I \\cdot C I \\Rightarrow \\frac{B I}{B D}=\\frac{C E}{2 C I} \\Rightarrow \\frac{c+a}{a+b+c}=\\frac{a+b+c}{2(b+a)})%<br>\\[\\begin{array}{l}\\Leftrightarrow 2\\left(b c+a b+a c+a^{2}\\right)=a^{2}+b^{2}+c^{2}+2 a b+2 b c+2 c a \\\\Leftrightarrow a^{2}=b^{2}+c^{2}\\end{array}\\]<br>Suy ra %(\\triangle A B C)% vuông tại A.<br>Vậy %(\\angle B A C=90^{\\circ})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b3b0fbd6fd77706b3718e955d167f385.png\" srcset=\"https://docdn.giainhanh.io/media/test/50d4612e82ec6108dcfe2b0cf8eed275.png 198w\" width=\"198\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 1.0,
+        "content": "Cho %(S=a_{1}^{3}+a_{2}^{3}+a_{3}^{3}+\\ldots . .+a_{100}^{3})% với %(a_{1}, a_{2}, a_{3}, \\ldots \\ldots, a_{100})% là các số nguyên thỏa mãn %(a_{1}+a_{2}+\\ldots .+a_{100}=2021^{1022})%.<br>Chứng minh rằng %(S-1: 6)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}S-\\left(a_{1}+a_{2}+\\ldots .+a_{100}\\right)=a_{1}\\left(a_{1}^{2}-1\\right)+a_{2}\\left(a_{2}^{2}-1\\right)+\\ldots .+a_{100}\\left(a_{100}^{2}-1\\right) \\\\=\\left(a_{1}-1\\right) a_{1}\\left(a_{1}+1\\right)+\\left(a_{2}-1\\right) a_{2}\\left(a_{2}+1\\right)+\\ldots . .+\\left(a_{100}-1\\right) a_{100}\\left(a_{100}+1\\right) \\vdots 6 \\\\Rightarrow S-2021^{2020} \\vdots 6\\end{array}\\]<br>Mà %(2021 \\equiv 5(\\bmod 6) \\equiv-1(\\bmod 6) \\Rightarrow 2021^{2020} \\equiv 1(\\bmod 6))%<br>%(\\Rightarrow 2021^{2020}=6 k+1(k \\in \\mathbb{N} *) \\Rightarrow S-(6 k+1) \\vdots 6 \\Rightarrow S-1-6 k \\vdots 6 \\Rightarrow S-1 \\vdots 6(\\mathrm{dfcm}))%",
+        "question_type": "essay"
+    }
+]

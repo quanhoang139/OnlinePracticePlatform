@@ -1,0 +1,119 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "Với %(x\\gt 0)%, cho hai biểu thức %(A=\\frac{2+\\sqrt{x}}{\\sqrt{x}})% và %(B=\\frac{\\sqrt{x}-1}{\\sqrt{x}}+\\frac{2 \\sqrt{x}+1}{x+\\sqrt{x}})%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Tính giá trị biểu thức %(A)% khi %(x=64)%.",
+        "question_images": [],
+        "solution": "1. ĐКХĐ: %(x\\gt 0)%<br>Với %(x=64(T M Đ K))%, thay vào %(A)% ta có : %(A=\\frac{2+\\sqrt{64}}{\\sqrt{64}}=\\frac{2+8}{8}=\\frac{5}{4})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.5,
+        "content": "Rút gọn biểu thức %(B)%.",
+        "question_images": [],
+        "solution": "ĐКХĐ: %(x\\gt 0)%<br>\\[\\begin{aligned}B & =\\frac{\\sqrt{x}-1}{\\sqrt{x}}+\\frac{2 \\sqrt{x}+1}{x+\\sqrt{x}} \\\\& =\\frac{\\sqrt{x}-1}{\\sqrt{x}}+\\frac{2 \\sqrt{x}+1}{\\sqrt{x}(\\sqrt{x}+1)} \\\\& =\\frac{(\\sqrt{x}-1)(\\sqrt{x}+1)+2 \\sqrt{x}+1}{\\sqrt{x}(\\sqrt{x}+1)} \\\\& =\\frac{x-1+2 \\sqrt{x}+1}{\\sqrt{x}(\\sqrt{x}+1)}=\\frac{\\sqrt{x}(\\sqrt{x}+2)}{\\sqrt{x}(\\sqrt{x}+1)}=\\frac{\\sqrt{x}+2}{\\sqrt{x}+1}\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 0.5,
+        "content": "Tính %(x)% để %(\\frac{A}{B}\\gt \\frac{3}{2})%.",
+        "question_images": [],
+        "solution": "ĐКХĐ: %(x\\gt 0)%<br>Ta có: %(\\frac{A}{B}=\\frac{2+\\sqrt{x}}{\\sqrt{x}}: \\frac{\\sqrt{x}+2}{\\sqrt{x}+1}=\\frac{\\sqrt{x}+1}{\\sqrt{x}})%<br>Để %(\\frac{A}{B}>\\frac{3}{2} \\Leftrightarrow \\frac{\\sqrt{x}+1}{\\sqrt{x}}>\\frac{3}{2} \\Leftrightarrow \\frac{\\sqrt{x}+1}{\\sqrt{x}}-\\frac{3}{2}>0)%%(\\Leftrightarrow \\frac{2(\\sqrt{x}+1)-3 \\sqrt{x}}{2 \\sqrt{x}}>0 \\Leftrightarrow \\frac{-\\sqrt{x}+2}{2 \\sqrt{x}}>0)%<br>Vì %(\\sqrt{x}>0 \\Rightarrow 2 \\sqrt{x}>0)% nên để %(\\frac{-\\sqrt{x}+2}{2 \\sqrt{x}}>0)% thì %(-\\sqrt{x}+2>0 \\Leftrightarrow \\sqrt{x}\\lt 2 \\Leftrightarrow x\\lt 4)%<br>Kết hợp với ĐKXĐ: %(0\\lt x\\lt 4)%<br>Vậy với %(0\\lt x\\lt 4)% thì %(\\frac{A}{B}>\\frac{3}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Giải bài toán sau bằng cách lập phuơng trình :<br>Quãng đường từ %(A)% đến %(B)% dài %(90 \\mathrm{~km})%. Một người đi xe máy từ %(A)% đến %(B)%. Khi đến %(B)%, người đó nghỉ 30 phút rồi quay trở về %(A)% với vận tốc lớn hơn vận tốc lúc đi là %(9 \\mathrm{~km} / \\mathrm{h})%. Thời gian kể từ lúc bắt đầu đi từ %(A)% đến lúc trở về đến %(A)% là 5 giờ. Tính vận tốc xe máy lúc đi từ %(A)% đến %(B)%.",
+        "question_images": [],
+        "solution": "Gọi vận tốc của xe máy đi từ %(A)% đến %(B)% là %(x(x\\gt 0, \\mathrm{~km} / \\mathrm{h}))%.<br>Thời gian xe máy đi từ %(A)% đến %(B)% là : %(\\frac{90}{x})% (giờ)<br>Thời gian xe máy nghỉ tại %(B)% là: 30 phút %(=\\frac{1}{2})% giờ.<br>Vận tốc của xe máy đi từ %(B)% về %(A)% là : %(x+90(\\mathrm{~km} / \\mathrm{h}))%.<br>Thời gian xe máy đi từ %(B)% về %(A)% là: %(\\frac{90}{x+9})% (giờ).<br>Vì tổng thời gian xe máy lúc đi từ %(A)% đến lúc về %(A)% là 5 giờ nên ta có phương trình:<br>\\[\\begin{array}{l}\\frac{90}{x}+\\frac{1}{2}+\\frac{90}{x+9}=5 \\\\Leftrightarrow \\frac{180(x+9)+x(x+9)+180 x-10 x(x+9)}{2 x(x+9)}=0 \\\\Leftrightarrow \\frac{180 x+1620+x^{2}+9 x+180 x-10 x^{2}-90 x}{2 x(x+9)}=0\\end{array}\\]<br>\\[\\begin{array}{l}\\Rightarrow-9 x^{2}+279 x+1620=0 \\\\Leftrightarrow 9(x-36)(x+5)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x=36(\\text { TMĐK) } \\x=-5 \\text { (Không TMĐK) }\\end{array}\\right.\\end{array}\\]<br>Vậy vận tốc của xe máy khi đi từ %(A)% đến %(B)% là %(36 \\mathrm{~km} / \\mathrm{h})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}3(x+1)+2(x+2 y)=4 \\\\ 4(x+1)-(x+2 y)=9\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\left\\{\\begin{array} { l } { 3 ( x + 1 ) + 2 ( x + 2 y ) = 4 } \\\\{ 4 ( x + 1 ) - ( x + 2 y ) = 9 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}5 x+4 y=1 \\\\3 x-2 y=5\\end{array}\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { 5 x + 4 y = 1 } \\\\{ 6 x - 4 y = 1 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { 1 1 x = 1 1 } \\\\{ 5 x + 4 y = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=1 \\y=-1\\end{array}\\right.\\right.\\right.\\end{array}\\]<br>Vậy hệ phương trình có nghiệm duy nhất %((1 ;-1))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4:",
+        "group_content": "Cho parabol %((P): y=\\frac{1}{2} x^{2})% và đường thẳng %((d): y=m x-\\frac{1}{2} m^{2}+m+1)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.75,
+        "content": "Với %(m=1)%, xác định tọa độ giao điểm %(A, B)% của %((d))% và %((P))%.",
+        "question_images": [],
+        "solution": "Hoành độ giao điểm của %((d))% và %((P))% là nghiệm của phương trình:<br>\\[\\begin{aligned}& \\frac{1}{2} x^{2}=m x-\\frac{1}{2} m^{2}+m+1 \\\\Leftrightarrow & x^{2}-2 m x+m^{2}-2 m-2=0\\end{aligned}\\]<br>Với %(m=1)% :Phương trình (1): %(\\Leftrightarrow x^{2}-2 x-3=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow(x+1)(x-3)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x=-1 \\x=3\\end{array}\\right.\\end{array}\\]<br>Với %(x=-1)% thì %(y=\\frac{1}{2})%; với %(x=3)% thì %(y=\\frac{9}{2})%.<br>Vậy tọa độ giao điểm của %((d))% và %((P))% là %(A\\left(-1 ; \\frac{1}{2}\\right) ; B\\left(3 ; \\frac{9}{2}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.75,
+        "content": "Tìm các giá trị của %(m)% để %((d))% cắt %((P))% tại hai điểm phân biệt có hoành độ %(x_{1}, x_{2})% sao cho : %(\\left|x_{1}-x_{2}\\right|=2)%.",
+        "question_images": [],
+        "solution": "Để %((d))% và %((P))% cắt nhau tại hai điểm phân biệt thì phương trình (1) có hai nghiệm phân biệt thì<br>\\[\\begin{aligned}\\Delta\\gt 0 \\Rightarrow \\Delta & =(-2 m)^{2}-4\\left(m^{2}-2 m-2\\right) \\\\& =4 m^{2}-4 m^{2}+8 m+8 \\\\& =8 m+8>0 \\\\& \\Leftrightarrow m>-1\\end{aligned}\\]<br>Với %(m>-1)%, hai nghiệm phân biệt thỏa mãn hệ thức Vi-ét : %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=-\\frac{b}{a}=2 m \\\\ x_{1} x_{2}=\\frac{c}{a}=m^{2}-2 m-2\\end{array}\\right.)%<br>Ta có: %(\\left|x_{1}-x_{2}\\right|=2 \\Leftrightarrow x_{1}^{2}+x_{2}^{2}-2 x_{1} x_{2}=4)%<br>\\[\\begin{array}{l}\\Leftrightarrow\\left(x_{1}+x_{2}\\right)^{2}-4 x_{1} x_{2}=4 \\\\Leftrightarrow(2 m)^{2}-4\\left(m^{2}-2 m-2\\right)=4 \\\\Leftrightarrow 8 m+8=4 \\\\Leftrightarrow m=-\\frac{1}{2}(T M Đ K)\\end{array}\\]<br>Vậy với %(m=-\\frac{1}{2})% thì %((d))% và %((P))% cắt nhau tại hai điểm phân biệt có hoành độ %(x_{1} ; x_{2})% thỏa mãn %(\\left|x_{1}-x_{2}\\right|=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5:",
+        "group_content": "Cho đường tròn %((O))% và điểm %(A)% nằm bên ngoài %((O))%. Kẻ hai tiếp tuyến %(A M, A N)% với đường tròn %((O))%. Một đường thẳng %(d)% đi qua %(A)% cắt đường tròn %((O))% tại hai điểm %(B)% và %(C(A B\\lt A C, d)% không đi qua tâm %(O)% ).",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Chứng minh tứ giác %(A M O N)% nội tiếp.",
+        "question_images": [],
+        "solution": "Ta có %(A M \\perp O M)% ( %(A M)% là tiếp tuyến của %((O))% )<br>\\[\\Rightarrow \\widehat{O M A}=90^{\\circ}\\]<br>%(A N \\perp O N \\quad(A N)% là tiếp tuyến của %((O))% )<br>\\[\\Rightarrow \\widehat{O N A}=90^{\\circ}\\]<br>Xét tứ giác %(A M O N)% có:<br>\\[\\widehat{O M A}+\\widehat{O N A}=90^{\\circ}+90^{\\circ}=180^{\\circ}\\]<br>Mà hai góc này ở vị trí đối nhau%(\\Rightarrow)% tứ giác %(A M O N)% là tứ giác nội tiếp (dấu hiệu nhận biết tứ giác nội tiếp).<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/28640b90f5b09514b969e14ed5e89413.png\" srcset=\"https://docdn.giainhanh.io/media/test/43c5a2cbc6ffaa818e107b2884ca6088.png 186w, https://docdn.giainhanh.io/media/test/7c0173e540ff049161ffe61df2ff4f15.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Chứng minh %(A N^{2}=A B \\cdot A C)%. Tính độ dài đoạn thẳng %(B C)% khi %(A B=4 \\mathrm{~cm}, A N=6 \\mathrm{~cm})%.",
+        "question_images": [],
+        "solution": "Xét %((O): \\widehat{A N B}=\\widehat{B C N})% (góc nội tiếp và góc tạo bởi tia tiếp tuyến và dây cung cùng chắn cung %(B N)% ).<br>Xét %(\\triangle A N B)% và %(\\triangle A C N)% :%(\\widehat{C A N})% chung<br>\\[\\begin{array}{l}\\widehat{A N B}=\\widehat{B C N}(\\mathrm{cmt}) \\\\Rightarrow \\triangle A N B \\sim \\triangle A C N(\\mathrm{~g} \\cdot g) \\\\Rightarrow \\frac{A N}{A C}=\\frac{A B}{A N} \\text { (tính chất hai tam giác đồng dạng). } \\\\Rightarrow A N^{2}=A B \\cdot A C(\\mathrm{dpcm}) .\\end{array}\\]<br>* Tính độ dài đoạn thẳng %(B C)% khi %(A B=4 \\mathrm{~cm} ; A N=6 \\mathrm{~cm})%.<br>Ta có %(A N^{2}=A B \\cdot A C(\\mathrm{cmt}))% mà %(A B=4 \\mathrm{~cm} ; A N=6 \\mathrm{~cm})% nên : %(4 \\cdot A C=6^{2} \\Leftrightarrow A C=9(\\mathrm{~cm}))% mà %(A B+B C=A C)% nên %(B C=5 \\mathrm{~cm})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 0.5,
+        "content": "Gọi %(I)% là trung điểm %(B C)%. Đường thẳng %(N I)% cắt đường tròn %((O))% tại điểm thứ hai %(T)%. Chứng minh :<br>\\[M T / / A C \\text {. }\\]",
+        "question_images": [],
+        "solution": "Xét %((O): I)% là trung điểm của dây %(B C)%<br>%(\\Rightarrow O I \\perp B C)% (quan hệ vuông góc giữa đường kính và dây)<br>Tứ giác %(O I N A)% nội tiếp vì %(\\widehat{A N O}=\\widehat{A I O}=90^{\\circ})% mà hai góc cùng nhìn cạnh %(A O)%%(\\Rightarrow \\widehat{A I N}=\\widehat{A O N})% (hai góc nội tiếp cùng chắn %(\\overparen{A N})% )<br>%(A M, A N)% là hai tiếp tuyến %((O))% cắt nhau tại %(A)%.<br>%(\\Rightarrow O A)% là phân giác %(\\widehat{M O N}(\\mathrm{t} / \\mathrm{c})% hai tiếp tuyến cắt nhau)<br>%(\\Rightarrow \\widehat{A O N}=\\frac{1}{2} \\widehat{M O N})%<br>Mà %(\\widehat{M T N}=\\frac{1}{2} \\widehat{M O N})% (góc nội tiếp và góc ở tâm cùng chắn cung %(M N)% ).<br>\\[\\Rightarrow \\widehat{M T N}=\\widehat{A O N} \\text { (2) }\\]<br>Từ (1) và (2) ta có: %(\\widehat{M T N}=\\widehat{A I N})% mà hai góc này ở vị trí đồng vị<br>%(\\Rightarrow M T / / A C)% (dấu hiệu nhận biết hai đường thẳng song song).",
+        "question_type": "essay"
+    },
+    {
+        "title": "d) ",
+        "point": 0.5,
+        "content": "Hai tiếp tuyến của đường tròn %((O))% tại %(B)% và %(C)% cắt nhau tại %(K)%. Chứng minh %(K)% thuộc một đường thẳng cố định khi %(d)% thay đổi và thỏa mãn điều kiện đầu bài.",
+        "question_images": [],
+        "solution": "Hai tiếp tuyến %((O))% tại %(B)% và %(C)% cắt nhau ở %(K)%.<br>Chứng minh %(K)% thuộc một đường thẳng cố định khi %(\\mathrm{d})% thay đổi thỏa mãn điều kiện đề bài.<br>* %(M N)% cắt %(O A)% tại %(E)%.<br>Ta chứng minh được %(M N \\perp O A \\Rightarrow E M \\perp O A)%<br>Ta chứng minh được %(O I . O K=O E . O A\\left(=O B^{2}=O M^{2}=R^{2}\\right))%<br>Từ đó chứng minh được %(\\triangle O E K \\sim \\triangle O I A(c . g . c))%<br>\\[\\Rightarrow \\widehat{O E K}=\\widehat{O I A}=90^{\\circ}\\]<br>%(\\Rightarrow E K \\perp O A)% mà %(E M \\perp O A \\Rightarrow E M)% trùng %(E K)%<br>.%(K)% thuộc %(M N)% cố định (đpcm).",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 0.5,
+        "content": "Với %(a, b, c)% là các số dương thỏa mãn điều kiện %(a+b+c+a b+b c+c a=6 a b c)%. Chứng minh :<br>\\[\\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}} \\geq 3\\]",
+        "question_images": [],
+        "solution": "Ta có %(a+b+c+a b+a c+c a=6 a b c)%<br>\\[\\Leftrightarrow \\frac{1}{b c}+\\frac{1}{a c}+\\frac{1}{a b}+\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=6\\]<br>Mặt khác:<br>\\[\\begin{array}{l}\\left(\\frac{1}{a}-1\\right)^{2} \\geq 0 \\Leftrightarrow \\frac{1}{a^{2}}-\\frac{2}{a}+1 \\geq 0 \\\\left(\\frac{1}{b}-1\\right)^{2} \\geq 0 \\Leftrightarrow \\frac{1}{b^{2}}-\\frac{2}{b}+1 \\geq 0 \\\\left(\\frac{1}{c}-1\\right)^{2} \\geq 0 \\Leftrightarrow \\frac{1}{c^{2}}-\\frac{2}{c}+1 \\geq 0\\end{array}\\]<br>\\[\\begin{array}{l}\\left(\\frac{1}{a}-\\frac{1}{b}\\right)^{2} \\geq 0 \\Leftrightarrow \\frac{1}{a^{2}}-\\frac{2}{a b}+\\frac{1}{b^{2}} \\geq 0 \\\\left(\\frac{1}{b}-\\frac{1}{c}\\right)^{2} \\geq 0 \\Leftrightarrow \\frac{1}{b^{2}}-\\frac{2}{b c}+\\frac{1}{c^{2}} \\geq 0 \\\\left(\\frac{1}{c}-\\frac{1}{a}\\right)^{2} \\geq 0 \\Leftrightarrow \\frac{1}{c^{2}}-\\frac{2}{a c}+\\frac{1}{a^{2}} \\geq 0\\end{array}\\]<br>Từ (1), (2), (3), (4), (5), (6) ta có:<br>\\[\\begin{array}{l}3\\left(\\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}}\\right)-2\\left(\\frac{1}{b c}+\\frac{1}{a c}+\\frac{1}{a b}+\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)+3 \\geq 0 \\\\Leftrightarrow 3\\left(\\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}}\\right)-2.6+3 \\geq 0\\end{array}\\]<br>\\[\\Leftrightarrow \\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}} \\geq 3\\]<br>Dấu \" =\" xảy ra khi %(a=b=c=1)%.",
+        "question_type": "essay"
+    }
+]

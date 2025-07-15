@@ -1,0 +1,98 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Có bao nhiêu số tự nhiên lẻ gồm 4 chữ số khác nhau được lập từ các chữ số %(0,1,2,4,7,9)%.",
+        "question_images": [],
+        "solution": "Gọi %(x=\\overline{a b c d})% là số thỏa ycbt.<br>Do %(x)% lẻ nên %(d \\in\\{1 ; 7 ; 9\\} \\Rightarrow d)% có 3 cách chọn.<br>%(a)% có 4 cách chọn<br>%(b)% có 4 cách chọn,<br>%(c)% có 3 cách chọn.<br>%(\\Rightarrow)% Có 3.4.4.3 =144 số thỏa yêu cầu bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Chứng chỉ tin học MOS (Microsoft Office Specialist) là bài thi đánh giá kỹ năng tin học văn phòng được sử dụng rộng rãi trên thế giới. Đội tuyển thi học sinh giỏi MOS của một trường trung học gồm 5 học sinh khối 10 và 8 học sinh khối 11. Nhà trường cần chọn một đội gồm 3 học sinh để tham dự ngày hội công nghệ thông tin do tập đoàn Microsoft tổ chức. Hỏi có bao nhiêu cách thành lập đội trên sao cho có ít nhất 2 học sinh khối 11 ?",
+        "question_images": [],
+        "solution": "TH1: 1 học sinh khối 10, 2 học sinh khối 11: %(C_{5}^{1} \\cdot C_{8}^{2}=140)%.<br>TH2: 3 học sinh khối 11: %(C_{8}^{3}=56)%.<br>Vậy có %(56+140)% = 196 cách thành lập đội tuyển thỏa ycbt.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tìm số hạng chứa %(x^{8})% trong khai triển thành đa thức của %(P(x)=\\left(2 x^{2}-x\\right)^{5})%.",
+        "question_images": [],
+        "solution": "Tìm số hạng chứa %(x^{8})% trong khai triển thành đa thức của %(P(x)=\\left(2 x^{2}-x\\right)^{5})%.<br>Khai triển %(\\left(2 x^{2}-x\\right)^{5})% có SHTQ là %(C_{5}^{k}\\left(2 x^{2}\\right)^{5-k}(-x)^{k} \\quad(k \\leq 5, k \\in \\mathbb{N}))% %(=C_{5}^{k} 2^{5-k}(-1)^{k} x^{10-k})%<br>Số hạng chứa %(x^{8})% ứng với %(k)% thỏa %(10-k=8 \\Leftrightarrow k=2)%.<br>Vậy số hạng cần tìm là %(C_{5}^{2} 2^{3} x^{8}=80 x^{8})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tại trạm xe buýt có 5 hành khách đang chờ xe đón, trong đó có 2 bạn An và Bình. Khi đó có 1 chiếc xe ghé trạm đón khách, biết rằng lúc đó còn đúng 9 ghế trống trên xe được đánh số từ 1 đến 9 như hình vẽ bên dưới.<br>5 hành khách lên xe ngồi ngẫu nhiên lên các ghế trống. Tính xác suất sao cho 2 bạn An và Bình ngồi cạnh nhau.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/8d15305eaf5bd7eea075510cc1131662.png"
+        ],
+        "solution": "Số phần tử của không gian mẫu %(n(\\Omega)=A_{9}^{5}=15120)%.<br>Gọi A là biến cố sao cho 2 bạn An và Bình ngồi cạnh nhau.<br>Có 3 cặp ghế để An và Bình ngồi cạnh nhau: %((5,6) ;(7,8) ;(8,9))%.<br>- Chọn 1 cặp ghế trong các cặp trên: 3 cách<br>- Xếp An và Bình vào cặp ghế vừa chọn: 2 Cách<br>- Chọn 3 ghế trống trong các ghế còn lại và xếp 3 người khách còn lại: %(A_{7}^{3})% cách<br>\\[\\Rightarrow n(A)=3.2 . A_{7}^{3}=1260\\]<br>Xác suất %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{1260}{15120}=\\frac{1}{12})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho dãy số %(\\left(u_{n}\\right))% có số hạng tổng quát %(u_{n}=2 n+1)% với %(n \\in \\mathbb{N}^{*})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh %(\\left(u_{n}\\right))% là một cấp số cộng. Tính %(u_{1})% và công sai %(d)% của cấp số cộng %(\\left(u_{n}\\right))%.",
+        "question_images": [],
+        "solution": "Tính được %(u_{n+1}=2(n+1)+1=2 n+3)%.<br>Xét %(u_{n+1}-u_{n}=2 n+3-2 n-1=2)%%(\\Rightarrow\\left(u_{n}\\right))% là một cấp số cộng với công sai %(d=2)% %(u_{1}=3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Cho dãy số %(\\left(v_{n}\\right))% có số hạng tổng quát %(v_{n}=2 n-1)%. Đặt %(S_{n}=u_{1}+u_{2}+\\ldots+u_{n}, S_{m}=v_{1}+v_{2}+\\ldots+v_{m})% %((m \\neq n))%. Chứng minh %(\\frac{S_{m}}{S_{n}}\\gt \\left(\\frac{m}{n+1}\\right)^{2})%.",
+        "question_images": [],
+        "solution": "Chứng minh được %(\\left(v_{n}\\right))% là một %(\\csc)% với công sai %(d=2, v_{1}=1)%.<br>Tính được %(S_{n}=\\frac{n}{2}(3+2 n+1)=n^{2}+2 n, S_{m}=\\frac{m}{2}(1+2 m-1)=m^{2})%.<br>Ta có %(\\frac{S_{m}}{S_{n}}=\\frac{m^{2}}{n^{2}+2 n}\\gt \\frac{m^{2}}{n^{2}+2 n+1}=\\left(\\frac{m}{n+1}\\right)^{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho cấp số nhân %(\\left(u_{n}\\right))% thỏa %(u_{2}=6, u_{6}=96)% và %(u_{7}\\lt 0)%. Tính công bội %(q)% và tổng %(S_{10})% của 10 số hạng đầu tiên của cấp số nhân %(\\left(u_{n}\\right))%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Ta có }\\left\\{\\begin{array}{l}u_{1} q=6 \\u_{1} q^{5}=96\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}u_{1} q=6 \\q^{4}=16\\end{array} \\Rightarrow q= \\pm 2\\right.\\end{array}\\]<br>Do %(u_{7}=u_{1} \\cdot q^{6}\\lt 0 \\Rightarrow u_{1}\\lt 0)%.<br>\\[\\begin{array}{l}q=2 \\Rightarrow u_{1}=3(l) \\q=-2 \\Rightarrow u_{1}=-3 \\text {. }\\end{array}\\]<br>Vậy %(S_{10}=-3 \\cdot \\frac{1-(-2)^{10}}{1+2}=1023)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho hình chóp %(S . A B C D)% có đáy %(A B C D)% là hình bình hành tâm %(O)%. Gọi %(M, N, P)% lần lượt là trung điểm của %(A B, A D)% và %(S C)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(M N / /(S B D))%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/99a907e01014aba506e509479ccf80ac.png\" srcset=\"https://docdn.giainhanh.io/media/test/663f1955d41cf3be1cdcbacb3ea04dcc.png 242w, https://docdn.giainhanh.io/media/test/a3b95393f1f43c2708f68020513fdd6c.png 500w\" width=\"500\"/><br>%(\\begin{array}{l}M N \\| B D(\\text { do } M N \\text { là đường trung bình } \\triangle A B D) \\\\ M N \\not \\subset(S B D) \\\\ B D \\subset(S B D) \\\\ \\Rightarrow M N / /(S B D)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm giao điểm của đường thẳng %(S B)% và %((O M P))%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\left\\{\\begin{array}{l}P \\in(S B C) \\cap(P O M) \\M O \\| B C \\text { (do } M O \\text { là đường trung bình } \\triangle A B C) \\M O \\subset(P O M) \\B C \\subset(S B C)\\end{array}\\right. \\\\Rightarrow(S B C) \\cap(P O M)=P x / / M O / / B C\\end{array}\\]<br>Gọi %(E=P x \\cap S B)%Mà %(P x \\subset(P O M) \\Rightarrow E=S B \\cap(P O M))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Gọi %(G)% là giao điểm của %(C N)% và %(B D, Q)% là điểm đối xứng của %(C)% qua %(D, H)% là giao điểm của %(S D)% và %(P Q)%. Chứng minh %(G H / /(S A B))%.",
+        "question_images": [],
+        "solution": "Ta có %(H)% là trọng tâm %(\\triangle S C Q \\Rightarrow \\frac{D H}{D S}=\\frac{1}{3})%<br>%(G)% là trọng tâm<br>%(\\triangle A C D \\Rightarrow D G=\\frac{2}{3} D O=\\frac{2}{3} \\cdot \\frac{1}{2} D B=\\frac{1}{3} D B \\Rightarrow \\frac{D G}{D B}=\\frac{1}{3})%<br>\\[\\begin{array}{l}\\Rightarrow \\frac{D H}{D S}=\\frac{D G}{D B} \\Rightarrow H G / / S B \\\\Rightarrow H G / /(S A B)\\end{array}\\]",
+        "question_type": "essay"
+    }
+]

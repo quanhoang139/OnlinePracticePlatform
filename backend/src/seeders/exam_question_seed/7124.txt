@@ -1,0 +1,80 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 2.0,
+        "content": "Cho hai chương trình viết bằng ngôn ngữ lập trình Pascal và ngôn ngữ C++.<br>Dựa vào ngôn ngữ lập trình em được học, hãy chọn một chương trình và cho biết giá trị của biến d khi chương trình thực hiện xong? Ứng với mỗi giá trị của biến n đưa vào trong các trường hợp sau:<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1a3ef96643c6feab0943b1f74a602bec.png\" srcset=\"https://docdn.giainhanh.io/media/test/04254f4b8e10630cd79404bf7d23c161.png 245w, https://docdn.giainhanh.io/media/test/62c7164875943826bfd49d51a5e844d1.png 500w\" width=\"500\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f65dfa8eeea5e32d0b2bb9771923b39e.png\" srcset=\"https://docdn.giainhanh.io/media/test/e357c878abe389726e9dcef0a87e81ed.png 245w\" width=\"245\"/>",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/04c0ee3dda5736b4aa108a26984551f5.png\" srcset=\"https://docdn.giainhanh.io/media/test/37f0c50549d2e1b560f001145e801f47.png 245w\" width=\"245\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/04c0ee3dda5736b4aa108a26984551f5.png\" srcset=\"https://docdn.giainhanh.io/media/test/37f0c50549d2e1b560f001145e801f47.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2:",
+        "group_content": "Lập chương trình bằng ngôn ngữ Pascal hoặc C++ để giải bài toán",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "1)Ước lẻ lớn nhất<br>Số nguyên %(d)% được gọi là ước của số %(n)% nếu %(n)% chia hết cho %(d(1 \\leq d \\leq n))%.<br>Ví dụ: Với %(n=10)% có các ước là %(1,2,5)% và 10 .<br>Yêu cầu: Em hãy viết chương trình nhập vào từ bàn phím hai số nguyên %(a, b\\left(1 \\leq a\\lt b \\leq 10^{9}\\right.)%, %(b-a \\leq 10^{5})% ), tìm và đưa ra màn hình ước lẻ lớn nhất của mỗi số trong đoạn từ %(a)% đến %(b)% ?<br>Ví dụ: Màn hình khi thực hiện chương trình là:<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7ce721fc3f82e68513f0778b471f3d19.png\" srcset=\"https://docdn.giainhanh.io/media/test/20cc4be1d1bab486183d5ca62fe5c395.png 245w, https://docdn.giainhanh.io/media/test/5780e93ef857d9692ed44601740c93a3.png 500w\" width=\"500\"/>",
+        "question_images": [],
+        "solution": "- Chương trình viết bằng ngôn ngữ Pascal:<br>- Chương trình viết bằng ngôn ngữ C++:<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/90844a4c3da11f2bcbf3613c4ca9d0d5.png\" srcset=\"https://docdn.giainhanh.io/media/test/53a07424221153ec5742501493831f86.png 245w, https://docdn.giainhanh.io/media/test/0bbc3be009413627ae760d702c1e8d9c.png 500w\" width=\"500\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3f083548027352f1c56c3fdb5d6bd47f.png\" srcset=\"https://docdn.giainhanh.io/media/test/5781b320ba7e760a652d5220415def27.png 245w, https://docdn.giainhanh.io/media/test/d7c6bb2a5ebb0297814bac4757651a82.png 500w\" width=\"500\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/94ed930626c85982f5b6339a8c109b05.png\" srcset=\"https://docdn.giainhanh.io/media/test/c84d6de70c05e5ebbfbef84c9d3ce9e6.png 245w, https://docdn.giainhanh.io/media/test/6b0136c6b62522508af0832acc0f2987.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "2)Xâu tương đương<br>Hai xâu X và Y gọi là tương đương nếu tồn tại một cách sắp xếp lại các kí tự trong X thu được xâu Y.<br>Ví dụ: Xâu caller và xâu recall là hai xâu tương đương.<br>Xâu code và xâu demo là hai xâu không tương đương.<br>Yêu cầu: Cho hai xâu w và xâu s chỉ gồm các kí tự chữ cái thường trong bảng chữ cái tiếng anh. Em hãy viết chương trình cho biết có bao nhiêu xâu con (gồm các kí tự liên tiếp) trong xâu s tương đương với xâu w?<br>Dữ liệu vào cho trong tệp TD.INP<br>- Dòng 1 chứa xâu w có ít nhất một kí tự và nhiều nhất 5000 kí tự.<br>- Dòng 2 chứa xâu s có độ dài lớn hơn hoặc bằng xâu w và nhiều nhất 500000 kí tự<br>Kết quả đưa ra tệp TD.OUT một số duy nhất là số lượng xâu con tìm được thỏa mãn yêu cầu.<br>Ví dụ:<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/47405a433bfe0a8596c25465eec92bcc.png\" srcset=\"https://docdn.giainhanh.io/media/test/4f978e043679cbd6ad5bac955c5e0135.png 245w\" width=\"245\"/>",
+        "question_images": [],
+        "solution": "- Chương trình viết bằng ngôn ngữ Pascal:<br>- Chương trình viết bằng ngôn ngữ C++:<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f581e029eb349987c28e80f5d6293678.png\" srcset=\"https://docdn.giainhanh.io/media/test/ec670d04efd1db443a48457c38b58ff4.png 245w, https://docdn.giainhanh.io/media/test/e91bc3206d3300a71e3128495782368a.png 500w\" width=\"500\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7978f5dfb981c3f47aa27fa8dc30a818.png\" srcset=\"https://docdn.giainhanh.io/media/test/c2240157a0b645a986896e684a159748.png 245w, https://docdn.giainhanh.io/media/test/ed699d07d810c53f6801d7719c6b2fce.png 500w\" width=\"500\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/69578e114bd2328013148b1eec0090a5.png\" srcset=\"https://docdn.giainhanh.io/media/test/c9bdbf3473f1eea71bef39b89126b3cb.png 196w, https://docdn.giainhanh.io/media/test/49a5b62b75eafba5a72bf67d32ed271d.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "3)Trò chơi dãy số<br>An và Bình cùng nhau chơi trò chơi trên dãy số như sau:<br>- Đầu tiên, An tạo ra dãy số nguyên gồm %(n)% số nguyên %(a_{1}, a_{2}, \\ldots, a_{n})%<br>- Sau đó, Bình phải trả lời câu hỏi: Tìm các cặp số %((i, j))% trong dãy thỏa mãn điều kiện tổng các số: %(a_{1}+a_{2}+\\cdots+a_{i-1}+a_{i}=a_{j}+a_{j+1}+\\cdots+a_{n-1}+a_{n})% (với %(\\left.1 \\leq i\\lt j \\leq n\\right))% ?<br>Yêu cầu: Em được cho dãy số của An, hãy viết chương trình trả lời câu hỏi giúp Bình?<br>Dữ liệu vào cho trong tệp DAYSO.INP<br>- Dòng 1 chứa số nguyên %(n(n \\leq 2000000))%<br>- Dòng 2 chứa %(n)% số nguyên dương %(a_{1}, a_{2}, \\ldots, a_{n}\\left(0\\lt a_{i} \\leq 10^{9}\\right.)% với %(\\left.1 \\leq i \\leq n\\right))%<br>Kết quả đưa ra tệp DAYSO.OUT gồm nhiều dòng, mỗi dòng hai số %(i, j)% tìm được. Nếu không tìm được cặp số nào thỏa mãn đưa ra hai số %(-1-1)%.<br>Chú ý: Các số trong tệp dữ liệu vào, ra trên cùng dòng cách nhau ít nhất một kí tự trắng.<br>Ví dụ:<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/bb2afe3f3d5f9b5acf033a42f81de90c.png\" srcset=\"https://docdn.giainhanh.io/media/test/07ca3b54ba277ec51ff12c53b47b3184.png 245w\" width=\"245\"/>",
+        "question_images": [],
+        "solution": "- Chương trình viết bằng ngôn ngữ Pascal:<br>- Chương trình viết bằng ngôn ngữ C++:<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e8f7057f4df99410d2aa3c53003c8712.png\" srcset=\"https://docdn.giainhanh.io/media/test/c847c995f92a49694960fb7de768e4ab.png 245w, https://docdn.giainhanh.io/media/test/4795e5bcb97f8f8b87e088d894bae5f9.png 500w\" width=\"500\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/817be8d61d095a9a432bdb4fbafce4d7.png\" srcset=\"https://docdn.giainhanh.io/media/test/0b7e3ac8ef50537eb3c4bae3c12ee87b.png 245w, https://docdn.giainhanh.io/media/test/990604ab413bab9e29c4d8c8f811016f.png 500w\" width=\"500\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5409666d7d52811c68d9a30a22f0ea19.png\" srcset=\"https://docdn.giainhanh.io/media/test/bf8f94a7e7011e6beb5ed7bfd50fffb3.png 213w, https://docdn.giainhanh.io/media/test/f1a4a57aa0e34737ed2ba6231137fc96.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3:",
+        "group_content": "Tính và chỉ cần đưa ra kết quả?<br>Trong ngân hàng đề kiểm tra của môn Tin học gồm có 65 câu hỏi dễ và 35 câu hỏi khó. Giáo viên muốn chọn ra một đề gồm 5 câu hỏi khác nhau. Hỏi có bao nhiêu cách chọn đề kiểm tra nếu:",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Các câu trong đề đều là câu hỏi dễ.",
+        "question_images": [],
+        "solution": "8259888",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Các câu trong đề có đúng 3 câu hỏi dễ và 2 câu hỏi khó.",
+        "question_images": [],
+        "solution": "25989600",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Có ít nhất 2 câu hỏi dễ và ít nhất 1 câu hỏi khó.",
+        "question_images": [],
+        "solution": "63299600",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 0.5,
+        "content": "d) Có ít nhất 1 câu hỏi khó.",
+        "question_images": [],
+        "solution": "67027632",
+        "question_type": "essay"
+    }
+]

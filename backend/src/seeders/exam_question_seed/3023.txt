@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.75,
+        "content": "Tính tổng: %(\\quad P=\\frac{2}{15}+\\frac{2}{35}+\\frac{2}{63}+\\ldots+\\frac{2}{399})%",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} P & =\\frac{2}{15}+\\frac{2}{35}+\\frac{2}{63}+\\ldots+\\frac{2}{399} \\\\ & =\\frac{2}{3.5}+\\frac{2}{5.7}+\\frac{2}{7.9}+\\ldots+\\frac{2}{19.21}\\end{aligned})%<br>%(\\begin{array}{r}=\\frac{1}{3}-\\frac{1}{5}+\\frac{1}{5}-\\frac{1}{7}+\\frac{1}{7}-\\frac{1}{9}+\\ldots+\\frac{1}{19}-\\frac{1}{21} \\\\ =\\frac{1}{3}-\\frac{1}{21} \\\\ =\\frac{2}{7}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 0.75,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c}, \\mathrm{d})% là các số dương và %(\\frac{a}{b}=\\frac{c}{d})%. Hãy trục căn thức ở mẫu của biểu thức sau:<br>\\[\\frac{1}{\\sqrt{a}+\\sqrt{b}+\\sqrt{c}+\\sqrt{d}}\\]",
+        "question_images": [],
+        "solution": "<img/>%(\\begin{aligned} \\frac{1}{\\sqrt{a}+\\sqrt{b}+\\sqrt{c}+\\sqrt{d}} & =\\frac{1}{(\\sqrt{a}+\\sqrt{d})+(\\sqrt{b}+\\sqrt{c})} \\\\ & =\\frac{(\\sqrt{a}+\\sqrt{d})-(\\sqrt{b}+\\sqrt{c})}{[(\\sqrt{a}+\\sqrt{d})+(\\sqrt{b}+\\sqrt{c})][(\\sqrt{a}+\\sqrt{d})-(\\sqrt{b}+\\sqrt{c})]} \\\\ & =\\frac{\\sqrt{a}+\\sqrt{d}-\\sqrt{b}-\\sqrt{c}}{a+d+2 \\sqrt{a d}-(b+c+2 \\sqrt{b c})} \\\\ & =\\frac{\\sqrt{a}+\\sqrt{d}-\\sqrt{b}-\\sqrt{c}}{a+d+2 \\sqrt{a d}-b-c-2 \\sqrt{b c}} \\\\ & =\\frac{\\sqrt{a}+\\sqrt{d}-\\sqrt{b}-\\sqrt{c}}{a+d-b-c}\\end{aligned})%<br>%(\\left(d o \\frac{a}{b}=\\frac{c}{d} \\Rightarrow a d=b c \\Rightarrow 2 \\sqrt{a d}=2 \\sqrt{b c}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 0.75,
+        "content": "Biết rằng %(a, b)% là các số thoả mãn %(a\\gt b>0)% và %(a \\cdot b=1)%. Chứng minh : %(\\frac{a^{2}+b^{2}}{a-b} \\geq 2 \\sqrt{2})%",
+        "question_images": [],
+        "solution": "* Vì a.b %(=1)% nên %(\\frac{a^{2}+b^{2}}{a-b}=\\frac{(a-b)^{2}+2 a b}{a-b}=\\frac{(a-b)^{2}+2}{a-b}=(a-b)+\\frac{2}{a-b})%<br>* Do %(a\\gt b>0)% nên áp dụng BĐT Cô Si cho 2 số dương<br>Ta có : %((a-b)+\\frac{2}{a-b} \\geq 2 \\sqrt{(a-b) \\cdot \\frac{2}{a-b}})%<br>Vậy %(\\quad \\frac{a^{2}+b^{2}}{a-b} \\geq 2 \\sqrt{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 0.75,
+        "content": "Tìm tất cả các số tự nhiên %(\\overline{a b c})% có 3 chữ số sao cho :<br>%(\\left\\{\\begin{array}{l}\\overline{a b c}=n^{2}-1 \\\\overline{c b a}=(n-2)^{2}\\end{array} \\text { với n là số nguyên lớn hơn } 2\\right.)%",
+        "question_images": [],
+        "solution": "Viết được %(\\left\\{\\begin{array}{l}\\overline{a b c}=100 a+10 b+c=n^{2}-1 \\\\ \\overline{c b a}=100 c+10 b+a=n^{2}-4 n+4\\end{array}\\right.)%<br>Từ (1) và (2) ta có %(99(a-c)=4 n-5=\\gt 4 n-5 \\vdots 99)% (3)<br>Mặt khác : %(100 \\leq n^{2}-1 \\leq 999 \\Leftrightarrow 101 \\leq n^{2} \\leq 1000 \\Leftrightarrow 11 \\leq n \\leq 31)%<br>\\[\\Leftrightarrow 39 \\leq 4 n-5 \\leq 119 (4)\\]<br>Từ (3) và (4) %(\\Rightarrow>4 n-5=99 \\Rightarrow n=26)%<br>Vậy số cần tìm %(\\overline{a b c}=675)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Phân tích thành nhân tử:<br>\\[\\mathrm{M}=7 \\sqrt{\\mathrm{x}-1}-\\sqrt{\\mathrm{x}^{3}-\\mathrm{x}^{2}}+\\mathrm{x}-1 \\text { với } \\mathrm{x} \\geq 1\\]",
+        "question_images": [],
+        "solution": "%(\\mathrm{M}=7 \\sqrt{\\mathrm{x}-1}-\\sqrt{\\mathrm{x}^{3}-\\mathrm{x}^{2}}+\\mathrm{x}-1)% với %(\\mathrm{x} \\geq 1)%<br>\\[\\begin{array}{l}=\\sqrt{x-1}(7-x+\\sqrt{x-1}) \\\\=-\\sqrt{x-1}\\left(x-1-\\sqrt{x-1}+\\frac{1}{4}-\\frac{25}{4}\\right) \\\\=-\\sqrt{x-1}\\left[\\left(\\sqrt{x-1}-\\frac{1}{2}\\right)^{2}-\\frac{25}{4}\\right] \\\\=-\\sqrt{x-1}(\\sqrt{x-1}-3)(\\sqrt{x-1}+2) \\\\=\\sqrt{x-1}(3-\\sqrt{x-1})(\\sqrt{x-1}+2)\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Giải phương trình<br>\\[\\sqrt[3]{\\mathrm{x}^{2}+26}+3 \\sqrt{\\mathrm{x}}+\\sqrt{\\mathrm{x}+3}=8\\]",
+        "question_images": [],
+        "solution": "Giải phương trình %(\\sqrt[3]{\\mathrm{x}^{2}+26}+3 \\sqrt{\\mathrm{x}}+\\sqrt{\\mathrm{x}+3}=8)% (1)<br>Ta nhận thấy %(x=1)% là nghiệm của PT (1)<br>Với %(0 \\leq \\mathrm{x}\\lt 1)% thì:<br>\\[\\sqrt[3]{\\mathrm{x}^{2}+26}+3 \\sqrt{\\mathrm{x}}+\\sqrt{\\mathrm{x}+3}\\lt \\sqrt[3]{1^{2}+26}+3 \\sqrt{1}+\\sqrt{1+3}=8\\]<br>Nên PT vô nghiệm với %(0 \\leq \\mathrm{x}\\lt 1)%<br>Với %(x\\gt 1)% Thì:<br>\\[\\sqrt[3]{\\mathrm{x}^{2}+26}+3 \\sqrt{\\mathrm{x}}+\\sqrt{\\mathrm{x}+3}>\\sqrt[3]{1^{2}+26}+3 \\sqrt{1}+\\sqrt{1+3}=8\\]<br>Nên PT vô nghiệm với %(x>1)%<br>Vậy PT (1) có nghiệm duy nhất %(x=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho đường thẳng (d) có phương trình: %(x(m+2)+(m-3) y=m-8)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Xác định %(m)% để đường thẳng %((\\mathrm{d}))% đi qua điểm %(\\mathrm{P}(-1 ; 1))%.",
+        "question_images": [],
+        "solution": "Vì đường thẳng (d) đi qua %(\\mathrm{P}(-1 ; 1))% nên<br>\\[(m+2) \\cdot(-1)+(m-3) \\cdot 1=m-8 \\Leftrightarrow-5=m-8 \\Rightarrow m=3 \\text {. }\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh rằng khi %(m)% thay đổi thì đường thẳng (d) luôn luôn đi qua một điểm cố định.",
+        "question_images": [],
+        "solution": "Gọi %(\\left(x_{0} ; y_{0}\\right))% là tọa độ điểm cố định mà (d) đi quaTa có: %((m+2) x_{0}+(m-3) y_{0}=m-8 \\quad \\forall m)%.<br>\\[\\begin{array}{l}\\Leftrightarrow\\left(x_{0}+y_{0}-1\\right) m+\\left(2 x_{0}-3 y_{0}+8\\right)=0 \\quad \\forall m . \\\\Rightarrow\\left\\{\\begin{array} { l } { x _ { 0 } + y _ { 0 } - 1 = 0 } \\\\{ 2 x _ { 0 } - 3 y _ { 0 } + 8 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x_{0}=-1 \\y_{0}=2\\end{array}\\right.\\right.\\end{array}\\]<br>Vậy điểm cố định mà (d) đi qua là %((-1 ; 2))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho %(\\triangle \\mathrm{ABC})% đều điểm %(\\mathrm{M})% nằm trong %(\\triangle \\mathrm{ABC})% sao cho %(\\mathrm{AM}^{2}=\\mathrm{BM}^{2}+\\mathrm{CM}^{2})%. Tính số đo góc %(\\mathrm{BMC})% ?",
+        "question_images": [],
+        "solution": "Vẽ tam giác đều CMN<br>\\[\\begin{array}{l}\\Rightarrow \\triangle B C N=\\triangle A C M \\\\Rightarrow B N=A M\\end{array}\\]<br>mà %(A M^{2}=B M^{2}+C M^{2} \\Leftrightarrow B N^{2}=B M^{2}+M N^{2})%<br>%(\\Leftrightarrow \\triangle B M N)% vuông tại %(\\mathrm{M})%.<br>%(\\Rightarrow B M C=B M N+N M C=90^{\\circ}+60^{\\circ}=150^{\\circ}.)%<br><img alt=\"Ảnh chụp màn hình 2024-03-26 130112.png\" src=\"https://docdn.giainhanh.io/media/test/62d2545abf19b49cc22dd8a67268db29.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "9",
+        "group_content": "Cho nửa đường tròn đường kính %(\\mathrm{BC}=2 \\mathrm{R})%, tâm %(\\mathrm{O})% cố định. Điểm %(\\mathrm{A})% di động trện nửa đường tròn. Gọi %(\\mathrm{H})% là hình chiếu của điểm %(\\mathrm{A})% lên %(\\mathrm{BC})%. Gọi D và %(\\mathrm{E})% lần lượt là hình chiếu của %(H)% lên %(A C)% và %(A B)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh: %(A B)%. %(E B+A C . E H=A B^{2})%",
+        "question_images": [],
+        "solution": "Chứng minh: %(\\mathrm{AB} \\cdot \\mathrm{EB}+\\mathrm{AC} \\cdot \\mathrm{EH}=\\mathrm{AB}^{2})%<br>Chứng minh tứ giác %(\\mathrm{ADHE})% là hình chữ nhật<br>%(\\mathrm{AB} \\cdot \\mathrm{EB}=\\mathrm{HB}^{2})%%(\\mathrm{AC} \\cdot \\mathrm{EH}=\\mathrm{AC} \\cdot \\mathrm{AD}=\\mathrm{AH}^{2})%=> ĐPCM<br><img alt=\"Ảnh chụp màn hình 2024-03-26 130242.png\" src=\"https://docdn.giainhanh.io/media/test/f26a9ce94f5e28dc8386aadddd2f00e2.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Xác định vị trí điểm %(A)% sao cho tứ giác %(A E H D)% có diện tích lớn nhất? Tính diện tích lớn nhất đó theo R.",
+        "question_images": [],
+        "solution": "%(\\left.\\mathrm{S}_{(\\mathrm{ADHE})}\\right) \\mathrm{AD} \\cdot \\mathrm{AE} \\leq \\frac{A D^{2}+A E^{2}}{2}=\\frac{D E^{2}}{2}=\\frac{A H^{2}}{2})%<br>%(\\Rightarrow \\mathrm{S}_{(\\mathrm{ADHE})} \\leq \\frac{A H^{2}}{2} \\leq \\frac{A O^{2}}{2}=\\frac{R^{2}}{2})%<br>Vậy %(\\left.\\operatorname{Max} \\mathrm{S}_{(\\mathrm{ADHE}}\\right)=\\frac{R^{2}}{2} \\mathrm{Khi} \\mathrm{AD}=\\mathrm{AE})%<br>Hay %(A)% là điểm chính giữa của cung %(A B)%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "title": "Câu 1 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là các số tự nhiên thỏa mãn %(a+b+c)% chia hết cho 6 . Chứng minh %(a^{3}+b^{3}+c^{3})% chia hết cho 6",
+        "question_images": [],
+        "solution": "Xét %(a^{3}+b^{3}+c^{3}=a\\left(a^{2}-1\\right)+b\\left(b^{2}-1\\right)+c\\left(c^{2}-1\\right)+(a+b+c))%<br>%(a\\left(a^{2}-1\\right)=(a-1) a(a+1))% chia hết cho 6 (vì tích 3 số nguyên liên tiếp).<br>Chứng minh tương tự : %(b\\left(b^{2}-1\\right) \\vdots 6, c\\left(c^{2}-1\\right) \\vdots 6)%<br>Vậy %(a^{3}+b^{3}+c^{3})% chia hết cho 6",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các số nguyên %((x ; y))% thỏa phương trình %(y\\left(x^{2}+3\\right)-x^{3}=3)%",
+        "question_images": [],
+        "solution": "Ta có %(y=\\frac{x^{3}+3}{x^{2}+3}=x-\\frac{3 x-3}{x^{2}+3}=x-M)% với x , M nguyên<br>Xét %(M x=\\frac{3 x^{2}-3 x}{x^{2}+3}=\\frac{3\\left(x^{2}+3\\right)-(3 x-3)-12}{x^{2}+3}=3-M-\\frac{12}{x^{2}+3})%<br>Do %(M, x)% nguyên nên %(\\left(x^{2}+3\\right) \\in U(12)=\\{3 ; 6 ; 12\\})%<br>\\[\\Rightarrow\\left[\\begin{array}{l}x=-3 \\Rightarrow y=-2(\\mathrm{tm}) \\x=-1 \\Rightarrow y=\\frac{1}{2}(\\mathrm{ktm}) \\x=0 \\Rightarrow y=1(\\mathrm{tm}) \\x=1 \\Rightarrow y=1(\\mathrm{tm}) \\x=3 \\Rightarrow y=\\frac{5}{2}(\\mathrm{ktm})\\end{array} \\text {. Vậy các số nguyên }(x ; y) \\in\\{(-3 ;-2) ;(0 ; 1) ;(1 ; 1)\\}\\right.\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 2.0,
+        "content": "Giải phương trình %(4\\left(x^{2}+4 x+6\\right)=(5 x+8) \\sqrt{x^{2}+12})%",
+        "question_images": [],
+        "solution": "Phương trình đã cho tương đương với<br>\\[\\begin{array}{l}2\\left(x^{2}+12\\right)+2 x(x+8)=4 x \\sqrt{x^{2}+12}+(x+8) \\sqrt{x^{2}+12} \\\\Leftrightarrow 2 \\sqrt{x^{2}+12}\\left(\\sqrt{x^{2}+12}-2 x\\right)-(x+8)\\left(\\sqrt{x^{2}+12}-2 x\\right)=0 \\\\Leftrightarrow\\left(\\sqrt{x^{2}+12}-2 x\\right)\\left(2 \\sqrt{x^{2}+12}-x-8\\right)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}\\sqrt{x^{2}+12}=2 x \\\\2 \\sqrt{x^{2}+12}=x+8\\end{array}\\right.\\end{array}\\]<br>Với %(\\sqrt{x^{2}+12}=2 x \\Rightarrow x=2)%<br>Với %(2 \\sqrt{x^{2}+12}=x+8 \\Rightarrow x=\\frac{8 \\pm 4 \\sqrt{7}}{3})%<br>Vậy phương trình đã cho có nghiệm %(x=2, x=\\frac{8 \\pm 4 \\sqrt{7}}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 2.0,
+        "content": "Tìm %(m)% để phương trình %(x^{2}+4 x+m+7=0)% có hai nghiệm phân biệt %(x_{1}, x_{2})% thỏa mãn %(x_{1}^{4}+x_{2}^{4}\\lt 82)%",
+        "question_images": [],
+        "solution": "Phương trình đã cho có 2 nghiệm phân biệt nên %(\\Delta^{\\prime}\\gt 0 \\Leftrightarrow m\\lt -3)%<br>\\[\\begin{array}{l}x_{1}+x_{2}=-4, x_{1} x_{2}=m+7 \\\\text { Ta có }: x_{1}^{4}+x_{2}^{4}\\lt 82 \\Leftrightarrow m^{2}-18 m-88\\lt 0 \\Leftrightarrow(m+4)(m-22)\\lt 0 \\\\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}m+4>0 \\m-22\\lt 0\\end{array} \\Rightarrow-4\\lt m\\lt 22\\right. \\\\left\\{\\begin{array}{l}m+4\\lt 0 \\m-22>0\\end{array} \\Rightarrow m \\in \\varnothing\\right.\\end{array}\\right.\\end{array}\\]<br>Kết hợp với điều kiện %(m\\lt -3)% suy ra %(-4\\lt m>-3)% thỏa yêu cầu bài toán",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 2.0,
+        "content": "Cho %(x\\gt 0)% và %(x \\neq 4)%, rút gọn biểu thức : %(T=\\left(\\frac{5 \\sqrt{x}-4}{2 \\sqrt{x}-x}+\\frac{1}{\\sqrt{x}-2}\\right):\\left(\\frac{\\sqrt{x}}{\\sqrt{x}-2}-\\frac{2+\\sqrt{x}}{\\sqrt{x}}\\right))%",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} T & =\\left(\\frac{5 \\sqrt{x}-4}{2 \\sqrt{x}-x}+\\frac{1}{\\sqrt{x}-2}\\right):\\left(\\frac{\\sqrt{x}}{\\sqrt{x}-2}-\\frac{2+\\sqrt{x}}{\\sqrt{x}}\\right)=\\frac{4-5 \\sqrt{x}+\\sqrt{x}}{\\sqrt{x} \\cdot(\\sqrt{x}-2)}: \\frac{\\sqrt{x} \\cdot \\sqrt{x}-(\\sqrt{x}-2)(\\sqrt{x}+2)}{\\sqrt{x} \\cdot(\\sqrt{x}-2)} \\\\ & =\\frac{4-4 \\sqrt{x}}{\\sqrt{x} \\cdot(\\sqrt{x}-2)} \\cdot \\frac{\\sqrt{x} \\cdot(\\sqrt{x}-2)}{x-x+4}=\\frac{4-4 \\sqrt{x}}{4}=1-\\sqrt{x}\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c, d)% là các số dương. Chứng minh bất đẳng thức :<br>\\[\\frac{a}{b+c}+\\frac{b}{c+d}+\\frac{c}{d+a}+\\frac{d}{a+b} \\geq 2\\]",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{c}\\frac{a}{b+c}+\\frac{b}{c+d}+\\frac{c}{d+a}+\\frac{d}{a+b} \\geq 2 \\V T=\\frac{a(d+a)+c(b+c)}{(b+c)(d+a)}+\\frac{b(a+b)+d(c+d)}{(c+d)(a+b)} \\\\=\\frac{a^{2}+b^{2}+c^{2}+d^{2}+a d+b c+a b+c d}{(b+c)(d+a)}\\end{array}\\]<br>Do %(x y \\leq \\frac{(x+y)^{2}}{4})%, đẳng thức xảy ra khi %(x=y)%<br>Suy ra %((b+c)(d+a) \\leq \\frac{(a+b+c+d)^{2}}{4})% hay %(\\frac{1}{(b+c)(d+a)} \\geq \\frac{4}{(a+b+c+d)^{2}})%<br>\\[\\begin{array}{l}\\Rightarrow V T \\geq \\frac{4\\left(a^{2}+b^{2}+c^{2}+d^{2}+a d+b c+a b+c d\\right)}{(a+b+c+d)^{2}} \\\\geq 2 \\frac{(a+b+c+d)^{2}+(a-c)^{2}+(b-d)^{2}}{(a+b+c+d)^{2}} \\geq 2 \\frac{(a+b+c+d)^{2}}{(a+b+c+d)^{2}}=2\\end{array}\\]<br>Vậy %(V T \\geq 2)%.<br>Đẳng thứ xảy ra khi %(a=c)% và %(b=d(d pc m))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7 ",
+        "point": 2.0,
+        "content": "Cho hình chữ nhật %(A B C D(A B\\lt B C))%. Kẻ %(D H)% vuông góc với %(A C)% tại H . Trên tia đối của tia %(D H)% lấy điểm M sao cho %(D M=A C)%. Tính %(\\angle A B M)%",
+        "question_images": [],
+        "solution": "Từ M kẻ đường thẳng song song với %(A D)% cắt các đường thẳng %(B A, C D)% tại E và F<br>Do %(\\angle D A H=\\angle F D M)% (cùng phụ %(\\angle A D H)% ) và %(A C=D M \\Rightarrow \\triangle A D C=\\triangle D F M)% suy ra %(D C=F M)%<br>Và %(A D=F D \\Rightarrow E F=E A)%<br>Do %(E B=E A+A B=E F+F M=E M \\Rightarrow \\triangle E B M)% cân tại E.<br>Nên %(\\angle A B M=45^{\\circ})%<br><img alt=\"Screenshot 2024-07-15 001159.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e839f83fd58f93c390e4d0786100d11c.png\" srcset=\"https://docdn.giainhanh.io/media/test/e9244153d5174d5f2845884dbc2b1d7f.png 189w, https://docdn.giainhanh.io/media/test/e45e6aae8af027fa554ad36c88133ccd.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8 ",
+        "point": 2.0,
+        "content": "Cho hình bình hành %(A B C D(A B\\lt B C))%. Gọi M là trung điểm của %(B C)% và N là giao điểm của %(A M)% và BD . Tính tỉ số giữa diện tích hình bình hành %(A B C D)% và diện tích tứ giác %(M N D C)%",
+        "question_images": [],
+        "solution": "Gọi O là giao điểm của hai đường chéo %(A C, B D)%<br>\\[\\begin{array}{l}\\frac{S_{B M N}}{S_{B C D}}=\\frac{B M \\cdot B N}{B C \\cdot B D} ; \\frac{S_{B M N}}{S_{B C D}}=\\frac{B M \\cdot B N}{B C \\cdot 2 B O} ; \\frac{S_{B M V}}{S_{B C D}}=\\frac{1}{6} ; S_{B M N}=\\frac{1}{6} S_{B C D} \\\\Rightarrow S_{M N D C}=\\frac{5}{6} S_{B C D} \\Rightarrow S_{M N D C}=\\frac{5}{6} \\cdot \\frac{1}{2} S_{A B C D}=\\frac{5}{12} S_{A B C D} \\Rightarrow \\frac{S_{A B D C}}{S_{M N D C}}=\\frac{12}{5}\\end{array}\\]<br><img alt=\"Screenshot 2024-07-15 001250.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f8254e2e76579f15fbdf2f43a3b9e462.png\" srcset=\"https://docdn.giainhanh.io/media/test/b4262fdae2805f2bd333ed5a6975af60.png 245w, https://docdn.giainhanh.io/media/test/48f1b98ece160b246e4c4a557ef99174.png 500w, https://docdn.giainhanh.io/media/test/6dca83e668467d699109e9e5337709ca.png 750w, https://docdn.giainhanh.io/media/test/cd7cea074268d392a45878244cc2a520.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 9 ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C(A B\\lt A C))% nội tiếp đường tròn %((T))% tâm %(\\mathrm{O}, \\angle B A C=60^{\\circ})%. Đường phân giác trong của %(\\angle B A C)% trong tam giác %(A B C)% cắt (T) tại D (D khác A%())%. Tính %(\\frac{A B+A C}{A D})%",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{H}, \\mathrm{K})% lần lượt là chân các đường vuông góc kẻ từ D trên các đường thẳng %(A B, A C)%<br>\\[\\begin{array}{l}\\triangle A H D=\\triangle A K D(\\text { vì } A D \\text { chung và } \\angle H A D=\\angle C A D) \\Rightarrow D H=D K \\\\triangle B H D=\\triangle C K D(d o D H=D K, D B=D C) \\Rightarrow B H=K C \\\\text { Do } A B+A C=A H-B H+A K+K C=2 A H=2 A D \\cos \\angle H A D=2 A D \\cos 30^{\\circ} \\\\Rightarrow \\frac{A B+A C}{A D}=2 \\cos 30^{\\circ}=\\sqrt{3}\\end{array}\\]<br><img alt=\"Screenshot 2024-07-15 001338.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/308afea44f8c8bf8c8156220552a5ecf.png\" srcset=\"https://docdn.giainhanh.io/media/test/656cb8e75d84c2318804f8e515772d58.png 176w, https://docdn.giainhanh.io/media/test/1cabe41a73a692be5248d3bcbcb894f4.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 10 ",
+        "point": 2.0,
+        "content": "Cho hình vuông %(A B C D)% có diện tích bằng 2021. Xét điểm M thay đổi trên đường chéo %(A C)%, gọi %(\\mathrm{E}, \\mathrm{F})% lần lượt là chân các đường vuông góc kẻ tư M lên các cạnh %(A B, A C)% của hình vuông %(A B C D)%. Tìm giá trị nhỏ nhất của diện tích tam giác %(D E F)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}S_{E D F}=S_{D E M}+S_{D M F}+S_{M E F} \\d o S_{D E M}=S_{A E M} ; S_{D M F}=S_{M F C} \\Rightarrow S_{D E F}=S_{A E F C}=S_{A B C}-S_{B E F}=\\frac{1}{2} S_{A B C D}-\\frac{1}{2} B E \\cdot B F\\end{array}\\]<br>Do %(B E \\cdot B F \\leq\\left(\\frac{B E+B F}{2}\\right)^{2})%.<br>Đẳng thức xảy ra khi %(B E=B F)%<br>\\[\\begin{array}{l}B E . B F \\leq\\left(\\frac{B E+B F}{2}\\right)^{2}=\\left(\\frac{B E+E A}{2}\\right)^{2}=\\frac{A B^{2}}{4}=\\frac{1}{4} S_{A B C D}(D o B F=E M=E A) \\\\Rightarrow S_{D E F} \\geq \\frac{1}{2} S_{A B C D}-\\frac{1}{8} S_{A B C D}=\\frac{3}{8} S_{A B C D}=\\frac{6063}{8} \\S_{D E F}=\\frac{6063}{8} \\text { khi M là trung điểm của AC }\\end{array}\\]<br><img alt=\"Screenshot 2024-07-15 001413.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/134e81e506ae457abc8ecb445e8857f0.png\" srcset=\"https://docdn.giainhanh.io/media/test/0970c893548fac87e3787755a8b58f0c.png 178w, https://docdn.giainhanh.io/media/test/21fc1c6e14f5db0535543c5cb3dba8fe.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

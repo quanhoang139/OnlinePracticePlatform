@@ -1,0 +1,210 @@
+[
+    {
+        "title": "Câu 1 ",
+        "point": 0.25,
+        "content": "Một hộp đồ chơi có 6 viên bi xanh, 5 viên bi đỏ. Hỏi có bao nhiêu cách lấy ra 1 viên?",
+        "question_images": [],
+        "labelA": "11",
+        "labelB": "5",
+        "labelC": "6",
+        "labelD": "30",
+        "correct_label": "labelA",
+        "solution": "Áp dụng quy tắc cộng ta có số cách lấy ra một viên bi là: %(6+5=11)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 0.25,
+        "content": "Tìm số hạng không chứa %(x)% trong khai triển của nhị thức %(\\left(x^{3}-\\frac{1}{x^{2}}\\right)^{5})%",
+        "question_images": [],
+        "labelA": "-10 .",
+        "labelB": "-5 .",
+        "labelC": "10 .",
+        "labelD": "5 .",
+        "correct_label": "labelA",
+        "solution": "Số hạng tổng quát của khai triển %(\\left(x^{3}-\\frac{1}{x^{2}}\\right)^{5})% là: %(T_{k+1}=C_{5}^{k}(-1)^{k} x^{15-5 k})%.<br>Úng với số hạng không chứa %(x)% ta có %(k=3)%.<br>Số hạng không chứa %(x)% trong khai triển là %(C_{5}^{3}(-1)^{3}=-10)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 0.25,
+        "content": "Khi điều tra về số dân của tỉnh %(A)%, người ta thu được kết quả là %(\\bar{a}=1234872 \\pm 30)% (người). Tìm số qui tròn của %(a)% ?",
+        "question_images": [],
+        "labelA": "1234800 .",
+        "labelB": "1234880 .",
+        "labelC": "1234870 .",
+        "labelD": "1234900 .",
+        "correct_label": "labelD",
+        "solution": "Độ chính xác đến hàng chục %((d=30))% nên ta cần quy tròn số đến hàng trăm.<br>Vậy số quy tròn là 1234900 .",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 0.25,
+        "content": "Điểm kiểm tra HK2 môn toán của môt nhóm 12 hoc sinh lớp 10 như sau:<br>Tìm khoảng tứ phân vị của mẫu số liệu.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/8d3784fed7b19ceb0e5690bd365fcacf.png"
+        ],
+        "labelA": "3,5",
+        "labelB": "2,5 .",
+        "labelC": "3.",
+        "labelD": "4 .",
+        "correct_label": "labelC",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 0.25,
+        "content": "Điểm kiểm tra của 24 học sinh được ghi lại trong bảng sau:<br>Tìm mốt trong mẫu số liệu đã cho?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/313e26e17264aeaa5a599037d4ac72ea.png"
+        ],
+        "labelA": "2",
+        "labelB": "7",
+        "labelC": "6",
+        "labelD": "9",
+        "correct_label": "labelC",
+        "solution": "Ta thấy điểm 6 có tần số lớn nhất (5 lần) nên mốt của mẫu bằng 6 .",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 6 ",
+        "point": 0.25,
+        "content": "Xét phép thử tung con xúc xắc 6 mặt hai lần. Số kết quả thuận lợi của biến cố %(A)% : \"số chấm xuất hiện ở cả hai lần tung bằng nhau\"?",
+        "question_images": [],
+        "labelA": "%(n(A)=12)%.",
+        "labelB": "%(n(A)=8)%.",
+        "labelC": "%(n(A)=16)%.",
+        "labelD": "%(n(A)=6)%.",
+        "correct_label": "labelD",
+        "solution": "Ta có: %(A=\\{(1,1) ;(2,2) ;(3,3),(4 ; 4),(5 ; 5),(6 ; 6)\\}, n(A)=6)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 7 ",
+        "point": 0.25,
+        "content": "Gọi %(S)% là tập hợp các số tự nhiên có ba chữ số đôi một khác nhau được lập thành từ các chữ số %(1,2,3,4,6)%. Chọn ngẫu nhiên một số từ %(S)%, tính xác xuất để số được chọn chia hết cho 3 .",
+        "question_images": [],
+        "labelA": "%(\\frac{1}{10})%.",
+        "labelB": "%(\\frac{3}{5})%.",
+        "labelC": "%(\\frac{2}{5})%.",
+        "labelD": "%(\\frac{1}{15})%.",
+        "correct_label": "labelC",
+        "solution": "Số phần tử của %(S)% là %(A_{5}^{3}=60)%. Vì vậy %(n(\\Omega)=C_{60}^{1}=60)%.<br>Gọi %(A)% là biến cố \"Số được chọn chia hết cho 3 \".<br>Xét bốn bộ gồm ba chữ số có tổng chia hết cho 3 là: %((1 ; 2 ; 3),(1 ; 2 ; 6),(2 ; 3 ; 4))% và %((2 ; 4 ; 6))%.<br>Mỗi bộ ba chữ số này ta lập được %(3!=6)% số thuộc tập hợp %(S)%.<br>Suy ra %(n(A)=6.4=24)%. Vậy %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{24}{60}=\\frac{2}{5})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 8 ",
+        "point": 0.25,
+        "content": "Trong mặt phẳng %(O x y)% cho %(\\vec{a}=(1 ; 3), \\vec{b}=(-2 ; 1))%.<br>Tích vô hướng của 2 vectơ %(\\vec{a} \\cdot \\vec{b})% là:",
+        "question_images": [],
+        "labelA": "1",
+        "labelB": "2",
+        "labelC": "3",
+        "labelD": "4",
+        "correct_label": "labelA",
+        "solution": "Ta có %(: \\vec{a} \\cdot \\vec{b}=1 \\cdot(-2)+3 \\cdot 1=1)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 9 ",
+        "point": 0.25,
+        "content": "Phương trình tổng quát của đường thẳng đi qua %(A(2 ; 3))% và vuông góc với %(A B, B(5 ; 1))% là:",
+        "question_images": [],
+        "labelA": "%(2 x-3 y=0)%",
+        "labelB": "%(3 x-2 y-2=0)%",
+        "labelC": "%(3 x-2 y=0)%",
+        "labelD": "%(2 x-3 y+2=0)%",
+        "correct_label": "labelC",
+        "solution": "Vectơ pháp tuyến %(\\overrightarrow{A B}=(3 ;-2))% và đi qua %(A(2 ; 3))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 10 ",
+        "point": 0.25,
+        "content": "Cho 4 điểm %(A(-3 ; 1), B(-9 ;-3), C(-6 ; 0), D(-2 ; 4))%. Tìm tọa độ giao điểm của 2 đường thẳng %(A B)% và %(C D)%.",
+        "question_images": [],
+        "labelA": "%((-6 ;-1))%.",
+        "labelB": "%((-9 ;-3))%.",
+        "labelC": "%((-9 ; 3))%.",
+        "labelD": "%((0 ; 4))%.",
+        "correct_label": "labelB",
+        "solution": "Ta có %(\\overrightarrow{A B}=(-6 ;-4) \\Rightarrow A B)% có một vectơ pháp tuyến %(\\vec{n}_{1}=(2 ;-3))%; phương trình %(A B: 2 x-3 y+9=0)%.<br>Ta có %(\\overrightarrow{C D}=(4 ; 4) \\Rightarrow C D)% có một vectơ pháp tuyến %(\\vec{n}_{2}=(1 ;-))%; phương trình %(C D: x-y+6=0)%.<br>Tọa độ giao điểm của %(A B)% và %(C D)% thỏa mãn hệ %(\\left\\{\\begin{array}{l}2 x-3 y=-9 \\\\ x-y=-6\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=-9 \\\\ y=-3\\end{array}\\right.\\right.)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 11 ",
+        "point": 0.25,
+        "content": "Phương trình đường tròn %((C))% có tâm %(I(1 ; 3))% và tiếp xúc %(O x)% có dạng:",
+        "question_images": [],
+        "labelA": "%((x-3)^{2}+(y-1)^{2}=4)%.",
+        "labelB": "%(x^{2}+y^{2}-6 x-3 y-1=0)%.",
+        "labelC": "%(4 x^{2}+3 y^{2}-2 x-y+1=0)%.",
+        "labelD": "%((x-1)^{2}+(y-3)^{2}=9)%.",
+        "correct_label": "labelD",
+        "solution": "(C) tiếp xúc %(O x \\Rightarrow R=|b|=3)%.<br>Vậy %((x-1)^{2}+(y-3)^{2}=9)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 12 ",
+        "point": 0.25,
+        "content": "Hypebol %(\\frac{x^{2}}{16}-\\frac{y^{2}}{9}=1)% có hai tiêu điểm là",
+        "question_images": [],
+        "labelA": "%(F_{1}(-5 ; 0) ; F_{2}(5 ; 0))%.",
+        "labelB": "%(F_{1}(-2 ; 0) ; F_{2}(2 ; 0))%.",
+        "labelC": "%(F_{1}(-3 ; 0) ; F_{2}(3 ; 0))%.",
+        "labelD": "%(F_{1}(-4 ; 0) ; F_{2}(4 ; 0))%.",
+        "correct_label": "labelA",
+        "solution": "Ta có: %(a^{2}=16, b^{2}=9 \\Rightarrow c^{2}=a^{2}+b^{2}=16+9=25 \\Rightarrow c=5)%.<br>Vậy hai tiêu cự của hypebol là %(F_{1}(-5 ; 0) ; F_{2}(5 ; 0))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "17 ",
+        "point": 0.5,
+        "content": "Cho tam giác %(A B C)% có phương trình đường thẳng chứa các cạnh %(A B, A C, B C)% lần lượt là: %(x+2 y-1=0 ; x+y+2=0 ; 2 x+3 y-5=0)%. Tính diện tích tam giác %(A B C)%.",
+        "question_images": [],
+        "solution": "Tọa độ của điểm %(A)% là nghiệm của hệ phương trình: %(\\left\\{\\begin{array}{l}x+2 y-1=0 \\\\ x+y+2=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=-5 \\\\ y=3\\end{array}\\right.\\right.)%<br>Suy ra điểm %(A)% có tọa độ là %((-5 ; 3))%.<br>Gọi %(A H)% là đường cao kẻ từ %(A)% của tam giác %(A B C(H \\in B C))%.<br>Ta có:<br>\\[A H=d(A, B C)=\\frac{|2 \\cdot(-5)+3 \\cdot 3-5|}{\\sqrt{2^{2}+3^{2}}}=\\frac{6 \\sqrt{13}}{13} \\text {. }\\]<br>Từ các phương trình đường thẳng chứa các cạnh của tam giác %(A B C)% ta tính đuợc tọa độ của điểm %(B)% và điểm %(C)% lần lượt là %((7 ;-3),(-11 ; 9))%.<br>Do đó, độ dài đoạn thẳng %(B C)% là %(6 \\sqrt{13})%.<br>Diện tích tam giác bằng %(\\frac{1}{2} \\cdot \\frac{6 \\sqrt{13}}{13} \\cdot 6 \\sqrt{13}=18)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "18 ",
+        "point": 0.5,
+        "content": "Cho parabol %((P): y^{2}=2 x)%. Tìm những điểm thuộc %((P))% sao cho khoảng cách từ điểm đó đến tiêu điểm của %((P))% bằng 4 .",
+        "question_images": [],
+        "solution": "Parabol %((P))% có đường chuẩn là %(\\Delta: x+\\frac{1}{2}=0)% và tiêu điểm %(F\\left(\\frac{1}{2} ; 0\\right))%.<br>Gọi %(M\\left(x_{0} ; y_{0}\\right))% là điểm cần tìm.<br>Có %(M \\in(P))% nên %(y_{0}^{2}=2 x_{0} \\Rightarrow x_{0}=\\frac{1}{2} y_{0}^{2} \\Rightarrow x_{0} \\geq 0)%.<br>Khoảng cách từ %(M)% đến tiêu điểm %(F)% bằng 4 nên %(M F=d(M ; \\Delta)=\\frac{\\left|x_{0}+\\frac{1}{2}\\right|}{\\sqrt{1^{2}+0^{2}}}=4)%. %(\\Rightarrow x_{0}=\\frac{7}{2})% hoặc %(x_{0}=\\frac{-9}{2})%.<br>Mà %(x_{0} \\geq 0)% nên %(x_{0}=\\frac{7}{2} \\Rightarrow y_{0}^{2}=7 \\Rightarrow y_{0}= \\pm \\sqrt{7})%.<br>Vậy %(M\\left(\\frac{7}{2} ; \\sqrt{7}\\right))% hoặc %(M\\left(\\frac{7}{2} ;-\\sqrt{7}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "19 ",
+        "point": 0.5,
+        "content": "Tìm số hạng chứa %(x^{3})% trong khai triển của đa thức %(x(2 x+1)^{4}+(x+2)^{5})%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Ta co: } x(2 x+1)^{4}+(x+2)^{5} \\\\=x\\left(16 x^{4}+32 x^{3}+24 x^{2}+8 x+1\\right)+\\left(x^{5}+10 x^{4}+40 x^{3}+80 x^{2}+80 x+32\\right) \\\\=16 x^{5}+32 x^{4}+24 x^{3}+8 x^{2}+x+x^{5}+10 x^{4}+40 x^{3}+80 x^{2}+80 x+32 \\\\=17 x^{5}+42 x^{4}+64 x^{3}+88 x^{2}+81 x+32\\end{array}\\]<br>Vậy số hạng chứa %(x^{3})% trong khai triển của đa thức %(x(2 x+1)^{4}+(x+2)^{5})% là %(64 x^{3})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "20 ",
+        "point": 0.5,
+        "content": "Gieo một viên xúc xắc 6 mặt cân đối và đồng chất liên tiếp năm lần. Tính xác suất để mặt 6 chấm xuất hiện ít nhất một lần.",
+        "question_images": [],
+        "solution": "Gọi %(A)% là biến cố \"Mặt 6 chấm không xuất hiện lần nào\".<br>Suy ra %(\\bar{A})% là biến cố \"Mặt 6 chấm xuất hiện ít nhất một lần\".<br>Ta có: %(n(\\Omega)=6 \\cdot 6 \\cdot 6 \\cdot 6 \\cdot 6=7776, n(A)=5 \\cdot 5 \\cdot 5 \\cdot 5 \\cdot 5=3125)%.<br>Do đó, xác suất của biến cố %(A)% là: %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{3125}{7776})%<br>Vậy xác suất của biến cố \"Mặt 6 chấm xuất hiện ít nhất một lần\" là: %(P(\\bar{A})=1-\\frac{3125}{7776}=\\frac{4651}{7776})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "21 ",
+        "point": 0.5,
+        "content": "Mẫu số liệu sau đây cho biết sĩ số của 5 lớp khối 12 tại một trường trung học Tìm độ lệch chuẩn của mẫu số liệu này",
+        "question_images": [],
+        "solution": "Số trung bình của mẫu số liệu này là %(\\bar{x}=\\frac{43+45+46+41+40}{5}=43)%.<br>Ta có bảng sau:<br>Mẫu số liệu này có 5 giá trị nên %(n=5)%.<br>Do đó phương sai là %(s^{2}=\\frac{26}{5}=5,2)%.<br>Vậy độ lệch chuẩn là %(s=\\sqrt{s^{2}} \\approx 2,28)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/edc587c1a673f8c7792f5cc92033adb9.png\" srcset=\"https://docdn.giainhanh.io/media/test/4c01409f0848b0c4683a979ea954e31d.png 245w, https://docdn.giainhanh.io/media/test/a550caa6255c043d0cdd70346aee65e6.png 500w, https://docdn.giainhanh.io/media/test/238f7f8e304d7af25581890a37f6d924.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "22 ",
+        "point": 0.5,
+        "content": "Tìm %(m)% để phương trình %(x^{2}+y^{2}-2(m+2) x+4 m y+19 m-6=0)% là một phương trình đường tròn.",
+        "question_images": [],
+        "solution": "Phương trình đã cho là phương trình đường tròn khi và chỉ khi<br>\\[(m+2)^{2}+(-2 m)^{2}-(19 m-6)\\gt 0 \\Leftrightarrow 5 m^{2}-15 m+10>0 \\Leftrightarrow m \\in(-\\infty ; 1) \\cup(2 ;+\\infty) \\text {. }\\]",
+        "question_type": "essay"
+    }
+]

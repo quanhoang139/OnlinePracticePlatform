@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức:<br>\\[A=\\left(\\frac{x+1}{x}-\\frac{1}{1-x}-\\frac{x^{2}-2}{x^{2}-x}\\right): \\frac{x^{2}+x}{x^{2}-2 x+1}\\]",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Rút gọn biểu thức %(A)%.",
+        "question_images": [],
+        "solution": "ĐКХĐ: %(x \\neq 0, x \\neq 1)% và %(x \\neq-1)%<br>\\[\\begin{aligned}A & =\\left(\\frac{x+1}{x}-\\frac{1}{1-x}-\\frac{x^{2}-2}{x^{2}-x}\\right): \\frac{x^{2}+x}{x^{2}-2 x+1} . \\\\& =\\frac{(x+1)(x-1)+x-x^{2}+2}{x(x-1)}: \\frac{x(x+1)}{(x-1)^{2}} \\\\& =\\frac{x+1}{x(x-1)} \\cdot \\frac{(x-1)^{2}}{x(x+1)} \\\\& =\\frac{x-1}{x^{2}}\\end{aligned}\\]<br>Vậy với %(x \\neq 0, x \\neq 1)% và %(x \\neq-1)% thì %(A=\\frac{x-1}{x^{2}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Tìm giá trị lớn nhất của biểu thức A",
+        "question_images": [],
+        "solution": "Ta có %(A=\\frac{x-1}{x^{2}})%<br>%(\\begin{aligned} A-\\frac{1}{4} & =\\frac{x-1}{x^{2}}-\\frac{1}{4} \\\\ & =\\frac{-x^{2}+4 x-4}{4 x^{2}} \\\\ & =\\frac{-(x-2)^{2}}{4 x^{2}} \\leq 0\\end{aligned})%<br>%(\\Rightarrow A-\\frac{1}{4} \\leq 0)% (với mọi x thuộc ÐKXĐ ) %(\\Rightarrow A \\leq \\frac{1}{4})%<br>Dấu \" =\" xảy ra khi và chỉ khi %(x=2)% (thỏa mãn ĐKXĐ )<br>Vậy GTLN của biểu thức %(A=\\frac{1}{4})% tại %(x=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(x^{4}+x^{2}+6 x-8=0)%",
+        "question_images": [],
+        "solution": "\\[\\begin{aligned}& x^{4}+x^{2}+6 x-8=0 \\\\Leftrightarrow & x^{4}-x^{2}+2 x^{2}-2 x+8 x-8=0 \\\\Leftrightarrow & x^{4}-x^{2}+2 x^{2}-2 x+8 x-8=0 \\\\Leftrightarrow & x^{2}\\left(x^{2}-1\\right)+2 x(x-1)+8(x-1)=0 \\\\Leftrightarrow & (x-1)\\left(x^{3}+x^{2}+2 x+8\\right)=0 \\\\Leftrightarrow & (x-1)(x+2)\\left(x^{2}-x+4\\right)=0 \\\\Leftrightarrow & {\\left[\\begin{array}{l}x-1=0 \\x+2=0 \\x^{2}-x+4=0\\end{array}\\right.}\\end{aligned}\\]<br>Phương trình %(x^{2}-x+4=0)% vô nghiệm<br>\\[\\Leftrightarrow\\left[\\begin{array}{l}x=1 \\x=-2\\end{array}\\right.\\]<br>Vậy tập nghiệm của phương trình %(S=\\{1 ;-2\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Tìm nghiệm nguyên dương của phương trình: %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=1)%",
+        "question_images": [],
+        "solution": "Không mất tính tổng quát giả sử %(x \\leq y \\leq z)%<br>Khi %(x=1 \\Rightarrow)% không tìm được giá trị %(\\mathrm{y}, \\mathrm{Z})%<br>Khi %(\\mathrm{x}=2 \\Rightarrow \\frac{1}{x}+\\frac{1}{y}=\\frac{1}{2})%<br>%(y=2)% không tìm được %(z)%<br>%(y=3)% ta có %(z=6)%<br>%(y=4)% ta có %(z=4)%<br>%(y \\geq 5)% mà %(y \\leq z \\Rightarrow z \\geq 5)%<br>Không có giá trị nào của %(y, z)% thỏa mãn<br>Khi %(x=3 \\Rightarrow \\frac{1}{y}+\\frac{1}{z}=\\frac{2}{3})%+) %(y=3)% thay vào ta được %(z=3)%<br>%(y \\geq 4 \\Rightarrow z \\geq 4 \\Rightarrow)%%(\\Rightarrow \\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z} \\leq \\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}=\\frac{3}{4}\\lt 1)%<br>Không tìm được giá trị %(x, y, z)% thỏa mãn<br>Vậy các cặp số %(x ; y ; z)% thỏa mãn yêu cầu đề bài là %((2 ; 3 ; 6),(2 ; 4 ; 4),(3 ; 3 ; 3))% và các hoán vị của cặp số này.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Tìm số nguyên %(x)% để đa thức %(x^{3}-2 x^{2}+5 x-5)% chia hết cho đa thức %(x^{2}+1)%",
+        "question_images": [],
+        "solution": "\\[\\frac{x^{3}-2 x^{2}+5 x-5}{x^{2}+1}=x-2+\\frac{4 x-3}{x^{2}+1}\\]<br>Để %(x)% nguyên thỏa mãn yêu cầu đề bài thì %((4 x-3):\\left(x^{2}+1\\right))%<br>Ta có %(\\frac{4 x-3}{x^{2}+1}+4=\\frac{4 x^{2}+4 x+1}{x^{2}+1}=\\frac{(2 x+1)^{2}}{x^{2}+1} \\geq 0)%<br>\\[\\Rightarrow \\frac{4 x-3}{x^{2}+1} \\geq-4\\]<br>Ta có %(\\frac{4 x-3}{x^{2}+1}-1=\\frac{-x^{2}+4 x-4}{x^{2}+1}=\\frac{-(x-2)^{2}}{x^{2}+1} \\leq 0)%<br>\\[\\Rightarrow \\frac{4 x-3}{x^{2}+1} \\leq 1\\]<br>Do đó %(-4 \\leq \\frac{4 x-3}{x^{2}+1} \\leq 1)%. Để %((4 x-3):\\left(x^{2}+1\\right))% thì giá trị của biểu thức<br>\\[\\frac{4 x-3}{x^{2}+1} \\in\\{-4 ;-3 ;-2 ;-1 ; 0 ; 1\\}\\]<br>Giải ra ta được %(x=0)% hoặc %(x=2)%<br>Vậy %(x=0)% và %(x=2)% là các giá trị cần tìm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là ba số khác 0 thỏa mãn: %(a+b+c=0)%. Tính giá trị của biểu thức<br>\\[P=\\frac{a}{c} \\cdot \\frac{a^{2}-b^{2}-c^{2}}{b^{2}-c^{2}-a^{2}} \\cdot \\frac{c^{2}+a^{2}-b^{2}}{c^{2}-a^{2}-b^{2}}\\]",
+        "question_images": [],
+        "solution": "Với %(a, b, c \\neq 0)%thỏa mãn:<br>\\[a+b+c=0 \\Rightarrow a+b=-c, b+c=-a \\text {. }\\]<br>\\[\\begin{aligned}P & =\\frac{a}{c} \\cdot \\frac{a^{2}-b^{2}-c^{2}}{b^{2}-c^{2}-a^{2}} \\cdot \\frac{c^{2}+a^{2}-b^{2}}{c^{2}-a^{2}-b^{2}} \\\\& =\\frac{a}{c} \\cdot \\frac{(a+b)(a-b)-c^{2}}{a^{2}+c^{2}-b^{2}} \\cdot \\frac{c^{2}+a^{2}-b^{2}}{a^{2}+b^{2}-c^{2}} \\\\& =\\frac{a}{c} \\cdot \\frac{(a-b)(-c)-c^{2}}{a^{2}+(b-c)(b+c)} \\\\& =\\frac{a}{c} \\cdot \\frac{(-c)(a+c-b)}{a^{2}+(b-c) \\cdot a} \\\\& =\\frac{a \\cdot(-c)(a+c-b)}{a \\cdot c(a+c-b)} \\\\& =-1\\end{aligned}\\]<br>Vậy %(P=-1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là độ dài ba cạnh của một tam giác có chu vi bằng 2. Chứng minh rằng: %(a^{2}+b^{2}+c^{2}+2 a b c\\lt 2)%",
+        "question_images": [],
+        "solution": "Ta có %(c\\lt a+b \\Leftrightarrow 2 c\\lt a+b+c \\Leftrightarrow 2 c\\lt 2 \\Leftrightarrow c\\lt 1 \\Leftrightarrow 1-c\\gt 0)%<br>Chứng minh tương tự %(1-a>0,1-b>0)%<br>Do đó %((1-a)(1-b)(1-c)>0)%<br>\\[\\begin{array}{l}\\Leftrightarrow 1-(a+b+c)+a b+b c+a c-a b c>0 \\\\Leftrightarrow 2-2(a+b+c)+2(a b+b c+a c)-2 a b c>0\\end{array}\\]<br>Ta có<br>\\[\\begin{array}{l}(a+b+c)^{2}=a^{2}+b^{2}+c^{2}+2(a b+a c+b c) \\\\Leftrightarrow 2^{2}=a^{2}+b^{2}+c^{2}+2(a b+a c+b c) \\\\Leftrightarrow 2(a b+a c+b c)=4-\\left(a^{2}+b^{2}+c^{2}\\right)\\end{array}\\]<br>Thay vào biểu thức (1) ta được<br>\\[\\begin{aligned}& 2-2(a+b+c)+2(a b+b c+a c)-2 a b c>0 \\\\Leftrightarrow & 2-2.2+4-\\left(a^{2}+b^{2}+c^{2}\\right)-2 a b c>0 \\\\Leftrightarrow & \\left(a^{2}+b^{2}+c^{2}\\right)+2 a b c\\lt 2 \\quad(d p c m)\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho hình chữ nhật %(A B C D)% có hai đường chéo %(A C)% và %(B D)% cắt nhau tại %(O)%. Gọi %(N)% và %(E)% lần lượt là trung điểm của %(A D)% và %(A B)%. Nối %(N E)% cắt %(A C)% ở %(I)%. Tia %(B I)% cắt %(O N)% ở %(F)%. Điểm %(M)% di động trên đoạn %(B D)%. Kẻ %(M H)% vuông góc với %(B C(H \\in B C), M K)% vuông góc với %(C D(K \\in C D))%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh: Tứ giác %(O A F D)% là hình thoi.",
+        "question_images": [],
+        "solution": "- Chứng minh tứ giác %(O A F D)% là hình bì̀h hành có hai đường chéo cắt nhau tại trung điểm mỗi đường<br>- Chứng minh %(A D \\perp \\mathrm{OF})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f79fa4750bd378e49eb422df07d62f0c.png\" srcset=\"https://docdn.giainhanh.io/media/test/6ca7ce04b03f15909a701e7eff576776.png 245w, https://docdn.giainhanh.io/media/test/3d55338ff651414e101ed72608ebca8c.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Chứng minh: %(B H . H C+C K . K D=B M \\cdot M D)%",
+        "question_images": [],
+        "solution": "Xét tam giác vuông %(B D C)% ta có %(B D^{2}=D C^{2}+B C^{2})% (định lý Pytago)<br>Do đó %((M D+M B)^{2}=(K D+K C)^{2}+(H B+H C)^{2})%<br>\\[\\Rightarrow M D^{2}+M B^{2}+2 M D \\cdot M B=K D^{2}+K C^{2}+H B^{2}+H C^{2}+2 D K \\cdot K C+2 H B \\cdot H C\\]<br>dễ dàng chứng minh được<br>\\[\\begin{array}{l}M D^{2}=D K^{2}+H C^{2} \\M B^{2}=H B^{2}+K C^{2}\\end{array}\\]<br>Do đó %(B H \\cdot H C+C K \\cdot K D=B M \\cdot M D)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Xác định vị trí điểm %(M)% trên %(B D)% để %((B H \\cdot H C+C K . K D))% lớn nhất.",
+        "question_images": [],
+        "solution": "Để %((B H \\cdot H C+C K \\cdot K D))% lớn nhất%(\\Rightarrow M B \\cdot M D)% lớn nhất<br>Mà %(M B \\cdot M D \\leq \\frac{(M D+M B)^{2}}{4}=\\frac{B D^{2}}{4})%<br>Dấu \"=\" xảy ra khi và chỉ khi %(M B=M D \\Rightarrow M \\equiv O)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các bộ ba số nguyên %(a, b, c)% thỏa mãn:<br>\\[a^{3}(b-c)+b^{3}(c-a)+c^{3}(a-b)=2020^{2019}\\]",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} & a^{3}(b-c)+b^{3}(c-a)+c^{3}(a-b)=2020^{2019} \\\\ \\Rightarrow & a^{3}(b-c)+b^{3}(c-b+b-a)+c^{3}(a-b)=2020^{2019} \\\\ \\Rightarrow & a^{3}(b-c)+b^{3}(c-b)+b^{3}(b-a)+c^{3}(a-b)=2020^{2019} \\\\ \\Rightarrow & (b-c)\\left(a^{3}-b^{3}\\right)-(a-b)\\left(b^{3}-c^{3}\\right)=2020^{2019} \\\\ \\Rightarrow & (a-b)(b-c)\\left(a^{2}+a b+b^{2}-b^{2}-b c-c^{2}\\right)=2020^{2019} \\\\ \\Rightarrow & (a-b)(b-c)\\left(a^{2}-c^{2}+a b-b c\\right)=2020^{2019} \\\\ \\Rightarrow & (a-b)(b-c)\\left(a^{2}-c^{2}+a b-b c\\right)=2020^{2019} \\\\ \\Rightarrow & (a-b)(b-c)(c-a)(a+b+c)=2020^{2019}\\end{aligned})%<br>* Nếu %(a, b, c)% có hai số chia cho 3 có cùng số dư thì %(a-b⋮ 3)% hoặc %(b-c⋮ 3)%hoặc %(c-a \\vdots 3)%<br>* Nếu %(a, b, c)% chia cho 3 có số dư khác nhau thì %(a+b+c⋮ 34)%<br>Do vậy %((a-b)(b-c)(c-a)(a+b+c) \\vdots 3)% mọi %(a, b, c \\in Z)%<br>Mà 2020 không chia hết cho 3 nên %(2020^{2019})% không chia hết cho 3<br>Do đó không tồn tại %(a, b, c \\in Z)% thỏa mãn yêu cầu bài toán.<br><img/>",
+        "question_type": "essay"
+    }
+]

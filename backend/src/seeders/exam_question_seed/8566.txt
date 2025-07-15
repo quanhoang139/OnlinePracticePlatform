@@ -1,0 +1,74 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Từ một hộp chứa 5 viên bi đỏ, 3 viện bi vàng và 4 viên bi xanh, lấy ngẫu nhiên đồng thời 4 viên bi. Gọi %(A)% là biến cố: trong số 4 viên bi lấy được số bi đỏ lớn hơn số bi vàng. Tính xác suất biến cố %(A)%.",
+        "question_images": [],
+        "solution": "Số bi trong hộp %(5+3+4=12)%<br>Số phần tử không gian mẫu %(C_{12}^{4}=495)%<br>Đếm số phần tử biến cố %(A)% có 2 trường hợp sau<br>TH1: 4 viên bi lấy ra không có viên bi vàng và có ít nhất 1viên bi đỏ<br>Số kết quả là %(C_{9}^{4}-C_{4}^{4}=125)%<br>TH2: 4 viên bi lấy ra có đúng 1 viên bi vàng và có ít nhất 2 viên bi đỏ<br>Số kết quả là %(C_{5}^{2} C_{3}^{1} C_{4}^{1}+C_{5}^{3} C_{3}^{1}=150)%<br>Số phần tử của biến cố %(A)% là %(125+150=275)%<br>Vậy xác suất biến cố %(A)% là %(\\frac{275}{495}=\\frac{5}{9})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Giải bất phương trình %(\\log _{3} \\log _{\\frac{1}{2}}\\left(x^{2}-1\\right)\\lt 1)%",
+        "question_images": [],
+        "solution": "Điều kiện xác định<br>\\[x^{2}-1\\gt 0 ; \\log _{\\frac{1}{2}}\\left(x^{2}-1\\right)>0\\]<br>BPT<br>\\[\\Leftrightarrow \\log _{\\frac{1}{2}}\\left(x^{2}-1\\right)\\lt 3 \\Leftrightarrow x^{2}-1>\\frac{1}{8}\\]<br>Cùng với điều kiện, BPT đã cho tương đương với<br>\\[\\frac{1}{8}\\lt x^{2}-1\\lt 1 \\Leftrightarrow \\frac{3 \\sqrt{2}}{4}\\lt |x|\\lt \\sqrt{2}\\]<br>Vậy tập nghiệm %(S=\\left(-\\sqrt{2} ; \\frac{-3 \\sqrt{2}}{4}\\right) \\cup\\left(\\frac{3 \\sqrt{2}}{4} ; \\sqrt{2}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3  ",
+        "point": 1.5,
+        "content": "Cho hình chóp %(S . A B C)% có đáy %(A B C)% là tam giác vuông cân tại %(A)% và %(S C=2 a \\sqrt{5})%. Hình chiếu của %(S)% trên mặt phẳng %((A B C))% là trung điểm %(M)% của %(A B)%. Góc giưa đường thẳng %(S C)% và mặt phẳng %((A B C))% bằng %(60^{\\circ})%. Tính theo %(a)% thể tích khối %(S . A B C)% và khoảng cách từ %(B)% đến mặt phẳng %((S A C))%.",
+        "question_images": [],
+        "solution": "%(S M \\perp(A B C) \\Rightarrow)% SCM %(\\Rightarrow)% (SC,(ABC)) %(=60^{\\circ})%<br>Tam giác %(S M C)% vuông tại %(M)% nên: %(M C=S C)%.cos SCM %(=a \\sqrt{5})%<br>%(S M=S C \\cdot \\sin)% SCM %(=a \\sqrt{15})%<br>Đặt %(A C=x)%, vì tam giác %(A M C)% vuông tại %(A)% nên<br>\\[x^{2}+\\left(\\frac{x}{2}\\right)^{2}=5 a^{2} \\Rightarrow x=2 a \\quad S_{A B C}=\\frac{1}{2} A C^{2}=2 a^{2}\\]<br>Ta có %(A C \\perp A B, A C \\perp S M \\Rightarrow A C \\perp S A)% nên tam giác SAC vuông tại %(\\mathrm{A})%, do đó %(S A=\\sqrt{S C^{2}-A C^{2}}=4 a, S_{S A C}=\\frac{1}{2} S A \\cdot A C=4 a^{2})%<br>Suy ra %(d(B,(S A C))=\\frac{3 V_{S \\cdot A B C}}{S_{S A C}}=\\frac{a \\sqrt{15}}{2})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/8d67a791990e567a75e2f4688843f75d.png\" srcset=\"https://docdn.giainhanh.io/media/test/b62af790865f5f62c03befd53ed3f529.png 150w\" width=\"150\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Cho khối tứ diện %(A B C D)% có thể tích là %(V)%. Gọi %(d_{1}, d_{2}, d_{3})% lần lượt là khoảng cách giữa các cặp cạnh đối diện %(A B)% và %(C D, A C)% và %(B D, A D)% và %(B C)%.Chứng minh rằng:<br>\\[V \\geq \\frac{1}{3} d_{1} \\cdot d_{2} \\cdot d_{3}\\]",
+        "question_images": [],
+        "solution": "Ngoại tiếp tứ diện bởi hình hộp xiên %(A E D F . M B N C)%.<br>Kí hiệu %(V^{\\prime})% là thể tích khối hộp đó. Khi đó %(V=\\frac{1}{3} V^{\\prime})%<br>Mặt khác %(V^{\\prime}=S_{M B N C} \\cdot d((A E D F),(M B N C))=S_{M B N C} \\cdot d_{3})% %(=B N \\cdot d(C, B N) \\cdot d_{3} \\geq B N \\cdot d_{2} \\cdot d_{3} \\geq d_{1} \\cdot d_{2} \\cdot d_{3})%.<br>Suy ra đpcm.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/bd2e46f7e0bf38e420ed89e353ac71b4.png\" srcset=\"https://docdn.giainhanh.io/media/test/87b7cc3fbf09e95f55b1c8f35889fb10.png 239w\" width=\"239\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Giải phương trình %(x^{3}-3 x=\\sqrt{4-x^{2}})%",
+        "question_images": [],
+        "solution": "Điều kiền xác định: %(4-x^{2} \\geq 0 \\Leftrightarrow-2 \\leq x \\leq 2)%<br>Đặt %(x=2 \\cos t, t \\in[0 ; \\pi])%<br>\\[\\cos 3 t=\\sin t \\Leftrightarrow \\cos 3 t=\\cos \\left(\\frac{\\pi}{2}-t\\right) \\Leftrightarrow\\left[\\begin{array}{l}t=\\frac{\\pi}{8}+\\frac{k \\pi}{2} \\t=\\frac{-\\pi}{4}+k \\pi\\end{array}\\right.\\]<br>Phương trình trở thành%(\\qquad)%%(\\qquad)%<br>Vì %(t \\in[0 ; \\pi])% nên %(t=\\frac{\\pi}{8}, t=\\frac{5 \\pi}{8}, t=\\frac{3 \\pi}{4})%<br>Vậy nghiệm phương trình đã cho là %(x=2 \\cos \\frac{\\pi}{8}, x=2 \\cos \\frac{5 \\pi}{8}, x=2 \\cos \\frac{3 \\pi}{4}=-\\sqrt{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho các số thực dương %(x, y, z)% thỏa mãn %((x+y)(y+z)(z+x)=1)%. Chứng minh rằng<br>\\[\\frac{\\sqrt{x^{2}+x y+y^{2}}}{\\sqrt{x y}+1}+\\frac{\\sqrt{y^{2}+y z+z^{2}}}{\\sqrt{y z}+1}+\\frac{\\sqrt{z^{2}+z x+x^{2}}}{\\sqrt{z x}+1} \\geq \\sqrt{3}\\]",
+        "question_images": [],
+        "solution": "Từ giả thiết, lấy các số dương %(a, b, c)% sao cho %(x+y=\\frac{a}{b}, y+z=\\frac{b}{c}, z+x=\\frac{c}{a})%Ta có<br>\\[\\frac{\\sqrt{x^{2}+x y+y^{2}}}{\\sqrt{x y}+1} \\geq \\frac{\\sqrt{\\frac{3}{4}(x+y)^{2}+\\frac{1}{4}(x-y)^{2}}}{\\frac{x+y}{2}+1} \\geq \\frac{\\sqrt{3}(x+y)}{x+y+2}=\\frac{a^{2} \\sqrt{3}}{a^{2}+2 a b}\\]<br>\\[\\begin{array}{l}\\frac{\\sqrt{x^{2}+x y+y^{2}}}{\\sqrt{x y}+1}+\\frac{\\sqrt{y^{2}+y z+z^{2}}}{\\sqrt{y z}+1}+\\frac{\\sqrt{z^{2}+z x+x^{2}}}{\\sqrt{z x}+1} \\geq \\sqrt{3}\\left(\\frac{a^{2}}{a^{2}+2 a b}+\\frac{b^{2}}{b^{2}+2 b c}+\\frac{c^{2}}{c^{2}+2 c a}\\right) \\\\geq \\sqrt{3} \\frac{(a+b+c)^{2}}{a^{2}+b^{2}+c^{2}+2 a b+2 b c+2 c a}=\\sqrt{3}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Trong mặt phẳng với hệ tọa độ %(O x y)%, cho tứ giác %(A B C D)% có hai đường chéo %(A C)% và %(B D)% vuông góc với nhau. Gọi trung điểm của %(A B)% và %(A D)% lần lượt là %(M(-5 ; 3))% và %(N(2 ; 4))%. Kẻ %(M E)% vuông góc với %(C D)% tại %(E)%. Viết phương trình đường tròn ngoại tiếp tam giác %(M N E)%, biết rằng đường thẳng %(B C)% có phương trình %(3 x+4 y+12=0)%.",
+        "question_images": [],
+        "solution": "Gọi %(P, Q)% lần lượt là trung điểm %(C D, B C ; F)% là hình chiếu của %(N)% trên %(B C)%. Dễ thấy %(M N P Q)% là hình chữ nhật nên nó nội tiếp đường tròn %((T))% đường kính %(M P)%, %(N Q)%.<br>Ta có MEP = NFQ = %(90^{\\circ})%<br>nên %(E, F)% cùng thuộc đường tròn %((T))%.<br>Đường thẳng %(N F)% qua %(N)% vuông góc %(B C)% có phương trình %(4 x-3 y+4=0)%.<br>Vì %(F)% là giao điểm của %(B C)% và %(N F)% nên tọa độ %(F)% là nghiệm hệ %(\\left\\{\\begin{array}{l}3 x+4 y+12=0 \\\\ 4 x-3 y+4=0\\end{array} \\Rightarrow F\\left(\\frac{-52}{25} ; \\frac{-36}{25}\\right)\\right.)%<br>Đường tròn ngoại tiếp tam giác %(M N E)% là đường tròn %((T))% qua 3 điểm %(M, N, F)% có phương trình<br>\\[x^{2}+y^{2}+\\frac{66}{25} x-\\frac{112}{25} y-\\frac{184}{25}=0\\]<br>Hs có thể tìm tọa độ điểm %(Q)%, viết %(\\mathrm{PT})% đường tròn đường kính %(N Q)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/53f5acef21c33e3b57b9fd4fe217b77f.png\" srcset=\"https://docdn.giainhanh.io/media/test/56205f1623cc6bfa1878997fde579594.png 183w\" width=\"183\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x^{3}+4 x^{2}+5 x=y(\\sqrt{y}+1)-2 \\\\ (x+1) \\sqrt{6 x-2}-\\sqrt{5 y^{2}-36 x^{2}+24 x-4}=y-12 x+4\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Đặt %(u=\\sqrt{\\frac{6 x-2}{(x+1)^{2}}})%     %(0< u <\\sqrt[4]{5})%<br>Phương trình trở thành<br>%(2 u^{2}+u-\\sqrt{5-u^{4}}=1)%<br>Xét %(g(u)=2 u^{2}+u-\\sqrt{5-u^{4}})% với 0< u < %(\\sqrt[4]{5})%<br>Ta có %(g(1)=1)% và u=1<br>%(g=4 u+1+\\frac{2 u^{3}}{\\sqrt{5-u^{4}}}>0)%  ,  %(0< u <\\sqrt[4]{5})%<br>Nên phương trình có 1 nghiệm<br>Do đó %(\\sqrt{\\frac{6 x-2}{(x+1)^{2}}}=1)%<br>%(x= 1)% và %(x=3)% ( thỏa mãn )<br>%(x^{3})%= %(\\frac{1}{3})%<br>Vậy nghiệm %((x ; y))% của hệ đã cho là %((1 ; 4))% và %((3 ; 16))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 0.5,
+        "content": "Cho các số thực dương %(x, y, z)% thỏa mãn %(x^{2}+y^{2}+z^{2}=1)%. Tìm giá trị nhỏ nhất của biểu thức<br>\\[P=\\frac{\\sqrt{2}}{x+\\sqrt{x y}}+\\frac{1}{\\sqrt{y^{2}+x y}}+\\frac{2 \\sqrt{3}}{1+z}\\]",
+        "question_images": [],
+        "solution": "Áp dụng bất đẳng thức AM-GM ta có:<br>\\[\\begin{array}{c}\\frac{1}{\\sqrt{\\frac{(x+\\sqrt{x y})^{2}}{2}}}+\\frac{1}{\\sqrt{y^{2}+x y}} \\geq \\frac{1}{\\sqrt{x^{2}+x y}}+\\frac{1}{\\sqrt{y^{2}+x y}} \\geq \\frac{2}{\\sqrt[4]{\\left(x^{2}+x y\\right)\\left(y^{2}+x y\\right)}} \\\\geq \\frac{2}{\\sqrt{\\frac{x^{2}+x y+y^{2}+x y}{2}}} \\geq \\frac{2}{\\sqrt{x^{2}+y^{2}}}=\\frac{2}{\\sqrt{1-z^{2}}} \\\\text { Nên } P \\geq \\frac{2}{\\sqrt{1-z^{2}}}+\\frac{2 \\sqrt{3}}{1+z}=f(z) \\quad \\text { Xét } \\quad \\text { trên }[0 ; 1] \\text { có } \\f^{\\prime}(z)=\\frac{2 z}{\\left(1-z^{2}\\right) \\sqrt{1-z^{2}}}-\\frac{2 \\sqrt{3}}{(1+z)^{2}}=\\frac{2 z(1+z)^{2}-2 \\sqrt{3}\\left(1-z^{2}\\right) \\sqrt{1-z^{2}}}{(1+z)^{2}\\left(1-z^{2}\\right) \\sqrt{1-z^{2}}}\\end{array}\\]<br>Trên %((0 ; 1))% : %(f^{\\prime}(z)=0 \\Leftrightarrow 2 z(1+z)^{2}-2 \\sqrt{3}\\left(1-z^{2}\\right) \\sqrt{1-z^{2}}=0 \\Leftrightarrow 4 z^{3}-8 z^{2}+9 z-3=0 \\Leftrightarrow z=\\frac{1}{2})% %(f(z))%<br>Lập bảng biến thiên của trên %([0 ; 1])%, ta được %(P \\geq f(z) \\geq f\\left(\\frac{1}{2}\\right)=\\frac{8 \\sqrt{3}}{3})%<br>Khi %(x=y=\\frac{\\sqrt{6}}{4}, z=\\frac{1}{2})% thì %(P=\\frac{8 \\sqrt{3}}{3})%.<br>Vậy GTNN của %(P)% là %(\\frac{8 \\sqrt{3}}{3})%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,104 @@
+[
+    {
+        "title": "Câu 1",
+        "group_content": "Cho biểu thức %(P=\\left(\\frac{4}{x-1}-\\frac{7 x+5}{x^{3}-1}\\right):\\left(1-\\frac{x-4}{x^{2}+x+1}\\right)()% với %(x \\neq 1))%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Rút gọn biểu thức %(P)%",
+        "question_images": [],
+        "solution": "Với %(x \\neq 1)%, ta có :<br>\\[\\begin{array}{l}P=\\left(\\frac{4}{x-1}-\\frac{7 x+5}{x^{2}-1}\\right):\\left(1-\\frac{x-4}{x^{2}+x+1}\\right)=\\frac{4 x^{2}+4 x+4-7 x-5}{(x-1)\\left(x^{2}+x+1\\right)}: \\frac{x^{2}+x+1-x+4}{x^{2}+x+1} \\\\=\\frac{4 x^{2}-3 x-1}{(x-1)\\left(x^{2}+x+1\\right)} \\cdot \\frac{x^{2}+x+1}{x^{2}+5}=\\frac{(x-1)(4 x+1)}{(x-1)\\left(x^{2}+5\\right)}=\\frac{4 x+1}{x^{2}+5}\\end{array}\\]<br>Vậy với %(x \\neq 1)% thì %(P=\\frac{4 x+1}{x^{2}+5})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Tính giá trị của %(P)% khi %(x)% là nghiệm của phương trình %(x^{3}-x^{2}-4=0)%",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{l}x^{3}-x^{2}-4 \\Leftrightarrow\\left(x^{3}-2 x^{2}\\right)+\\left(x^{2}-4\\right)=0 \\\\Leftrightarrow x^{2}(x-2)+(x-2)(x+2)=0 \\Leftrightarrow(x-2)\\left(x^{2}+x+2\\right)=0 \\Leftrightarrow x=2\\end{array}\\]<br>Với %(x=2)% thì %(P=\\frac{4.2+1}{2^{2}+5}=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Tìm giá trị của %(x)% đề %(P)% nhận giá trị lớn nhất",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{l}P=\\frac{4 x+1}{x^{2}+5}=1+\\left(\\frac{4 x+1}{x^{2}+5}-1\\right)=1+\\frac{4 x-x^{2}-4}{x^{2}+5} \\\\=1-\\frac{x^{2}-4 x+4}{x^{2}+5}=1-\\frac{(x-2)^{2}}{x^{2}+5} \\leq 1\\end{array}\\]<br>Vậy %(\\operatorname{Max} P=1 \\Leftrightarrow x=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 2.0,
+        "content": "Giải phương trình nghiệm nguyên %(2 x^{2}+3 y^{2}+4 x=19)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}2 x^{2}+3 y^{2}+4 x=19 \\Leftrightarrow 2 x^{2}+4 x+2=21-3 y^{2} \\\\Leftrightarrow 2\\left(x^{2}+2 x+1\\right)=3\\left(7-y^{2}\\right) \\Leftrightarrow 2(x+1)^{2}=3\\left(7-y^{2}\\right)(1)\\end{array}\\]<br>Ta thấy, Vế trái chia hết cho 2 và 3 là số lẻ %(\\Rightarrow 7-y^{2} M \\Rightarrow y^{2})% lè nên y lẻ (2)<br>Vì vế trái không âm do đó %(3\\left(7-y^{2}\\right) \\geq 0 \\Leftrightarrow 7-y^{2} \\geq 0 \\Leftrightarrow y^{2} \\leq 7(3))%<br>Từ (2) và (3) suy ra %(y^{2}=1 \\Leftrightarrow y= \\pm 1)%.<br>Thay %(y^{2}=1)% vào (1) ta được :<br>\\[2(x+1)^{2}=18 \\Leftrightarrow(x+1)^{2}=9 \\Leftrightarrow\\left[\\begin{array} { l } { x + 1 = 3 } \\\\{ x + 1 = - 3 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=2 \\x=-4\\end{array}\\right.\\right.\\]<br>Vậy các nghiệm nguyên là %((2 ;-1),(2 ; 1),(-4 ; 1),(-4 ;-1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 2.0,
+        "content": "Cho %(x, y, z)% khác 0 thỏa mãn %(x+y+z=\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=0)% và %(x y z=2)%. Tính giá trị của biểu thức %(A=\\frac{x^{6}+y^{6}+z^{6}}{x^{3}+y^{3}+z^{3}})%",
+        "question_images": [],
+        "solution": "Vì %(x+y+z=0 \\Rightarrow(x+y+z)^{2}=0 \\Leftrightarrow x^{2}+y^{2}+z^{2}+2(x y+y z+z x)=0)%<br>Vì %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=0 \\Rightarrow x y+y z+z x=0 \\Rightarrow x^{2}+y^{2}+z^{2}=0)%.<br>Ta có :<br>\\[\\begin{array}{l}x^{6}+y^{6}+z^{6}=\\left(x^{6}+y^{6}\\right)+z^{6}=\\left(x^{2}+y^{2}\\right)^{3}-3 x^{2} y^{2}\\left(x^{2}+y^{2}\\right)+z^{6} \\\\=\\left(x^{2}+y^{2}+z^{2}\\right)^{3}-3\\left(x^{2}+y^{2}\\right) z^{2}\\left(x^{2}+y^{2}+z^{2}\\right)-3 x^{2} y^{2}\\left(x^{2}+y^{2}\\right) \\\\=-3 x^{2} y^{2}\\left(x^{2}+y^{2}\\right)=3 x^{2} y^{2} z^{2}\\left(\\text { do } x^{2}+y^{2}+z^{2}=0\\right)=3(x y z)^{2}=12\\end{array}\\]<br>Tương tự ta có :<br>\\[\\begin{array}{l}x^{3}+y^{3}+z^{3}=(x+y)^{3}+z^{3}=(x+y)^{3}-3 x y(x+y)+z^{3} \\\\=(x+y+z)^{3}-3(x+y) \\cdot z \\cdot(x+y+z)-3 x y(x+y)=3 x y z=3 \\cdot 2=6(d o x+y+z=0, x y z=2)\\end{array}\\]<br>Vậy %(A=\\frac{x^{6}+y^{6}+z^{6}}{x^{3}+y^{3}+z^{3}}=\\frac{12}{6}=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 2.0,
+        "content": "Tìm các cặp số nguyên %((x ; y))% thỏa mãn %(2 x^{2}+\\frac{1}{x^{2}}+\\frac{y^{2}}{4}=4)% và %(x y)% đạt giá trị lớn nhất",
+        "question_images": [],
+        "solution": "Ta có : %(2 x^{2}+\\frac{1}{x^{2}}+\\frac{y^{2}}{4}=4 \\Leftrightarrow\\left(x-\\frac{1}{x}\\right)^{2}+\\left(x-\\frac{y}{2}\\right)^{2}=2-x y)%<br>Vì vế trái không âm nên %(2-x y \\geq 0 \\Rightarrow x y \\leq 2)%,<br>Mà %(x, y \\in \\varnothing \\Rightarrow \\operatorname{Max}(x y)=2.2)%<br>Dấu bằng xảy ra khi và chỉ khi %(\\left\\{\\begin{array}{l}x-\\frac{1}{x}=0 \\\\ x-\\frac{y}{2}=0 \\Leftrightarrow\\left\\{\\begin{array}{l}x=1 ; y=2 \\\\ x=-1 ; y=-2\\end{array}\\right. \\\\ x y=2\\end{array}\\right.)%<br>Vậy %((x ; y) \\in\\{(-1 ;-2),(1 ; 2)\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 2.0,
+        "content": "Chứng minh rằng %(f(x)=\\left(x^{2}+x-1\\right)^{2018}+\\left(x^{2}-x+1\\right)^{2019}-2)% chia hết cho %(g(x)=x^{2}-x)%",
+        "question_images": [],
+        "solution": "\\[g(x)=x^{2}-x\\]<br>Đa thức %(g(x)=x^{2}-x=x(x-1))% có hai nghiệm là %(x=0, x=1)%<br>Ta có %(f(0)=(-1)^{2018}+1^{2019}-2=0)% nên %(x=0)% là nghiệm của đa thức %(f(x))% nên %(f(x))% chứa thừa số %(x)%<br>Ta có %(f(1)=\\left(1^{2}+1-1\\right)^{2018}+\\left(1^{2}-1+1\\right)^{2019}-2=0)%<br>%(\\Rightarrow x=1)% là nghiệm của đa thức %(f(x))%<br>%(\\Rightarrow f(x))% chứa thừa số %(x-1)% mà các thừa số %(x ; x-1)% không chứa nhân tử chung , do đó %(f(x))% chia hết cho %(x(x-1))%<br>Vậy %(f(x)=\\left(x^{2}+x-1\\right)^{2018}+\\left(x^{2}-x+1\\right)^{2019}-2)% chia hết cho %(g(x)=x^{2}-x)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6 ",
+        "point": 2.0,
+        "content": "Tìm giá trị của %(m)% đề nghiệm sau là số dương : %(\\frac{m+1}{x-1}=1-m)%",
+        "question_images": [],
+        "solution": "Điều kiện %(x \\neq 1)%Nếu %(1-m=0 \\Leftrightarrow m=1)% thì phương trình vô nghiệm<br>Nếu %(1-m \\neq 0 \\Leftrightarrow m \\neq 1)% thì từ phương trình đã cho ta có :<br>\\[\\begin{array}{l}x-1=\\frac{m+1}{1-m} \\Leftrightarrow x=1+\\frac{m+1}{1-m} \\Leftrightarrow x=\\frac{2}{1-m} \\\\{ }^{*} x\\gt 0 \\Leftrightarrow \\frac{2}{1-m}>0 \\Leftrightarrow 1-m>0 \\Leftrightarrow m\\lt 1(1) \\\\{ }^{*} x \\neq 1 \\Leftrightarrow x-1 \\neq 0 \\Leftrightarrow \\frac{m+1}{1-m} \\neq 0 \\Leftrightarrow m+1 \\neq 0 \\Leftrightarrow m \\neq-1(2)\\end{array}\\]<br>Từ (1) và (2) suy ra để phương trình có nghiệm số dương thì %(m\\lt 1)% và %(m \\neq-1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7",
+        "group_content": "Cho hình vuông %(A B C D)% có độ dài cạnh là %(a)%. Gọi O là giao điểm của hai đường chéo. Trên cạnh %(A B, B C)% lần lượt lấy 2 điểm %(P, Q)% ( Q không trùng với đỉnh của hình vuông) sao cho %(\\angle P O Q=90^{\\circ})%. Đường thẳng %(A Q)% cắt đường thẳng %(D C)% tại N , đường thẳng %(O Q)% cắt đường thẳng %(B N)% tại K",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Chứng minh %(\\triangle B P O=\\triangle C Q O)%. Tính diện tích tứ giác %(B P O Q)% theo a",
+        "question_images": [],
+        "solution": "Xét %(\\triangle B P C)% và %(\\triangle C Q O)%, ta có :%(\\widehat { P B O}=\\widehat { Q C O}\\left(=45^{\\circ}\\right))% (tính chất hình vuông)<br>%(B O=C O)% (tính chất đường chéo hình vuông)<br>%(\\widehat { B O P}=\\widehat {C O Q})% (cùng phụ %(\\widehat { B Q O})% )<br>%(\\Rightarrow \\triangle B P O=\\triangle C Q O)% (c.g.c)<br>%(\\Rightarrow S_{B P O}=S_{C Q O})%<br>Mà %(S_{B \\varrho O P}=S_{B F O}+S_{B \\varrho O} \\Rightarrow S_{B Q O P}=S_{C Q O}+S_{B Q O}=S_{B O C}=\\frac{1}{4} S_{\\triangle B C D}=\\frac{1}{4} a^{2})%<br>Vậy %(S_{B P O Q}=\\frac{1}{4} a^{2})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5ca728036297f4013c8e0e53e814f209.png\" srcset=\"https://docdn.giainhanh.io/media/test/53bd388e9481fbc940c65718ec6425ea.png 245w, https://docdn.giainhanh.io/media/test/64392e045128a0b45e02324919fb6138.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Chứng minh %(Q K . Q O=Q B . Q C)%",
+        "question_images": [],
+        "solution": "Vì %(\\triangle B P O=\\triangle C Q O(\\mathrm{cmt}) \\Rightarrow B P=C Q)% (2 cạnh tương ứng)<br>%(\\Rightarrow B Q=A P)%<br>Vì %(C N / / A B(g t) \\Rightarrow \\frac{B Q}{C Q}=\\frac{Q A}{N Q} \\Rightarrow \\frac{A P}{P B}=\\frac{A Q}{Q N})%<br>%(\\Rightarrow P Q / / B N \\Rightarrow \\widehat {O Q P}=\\widehat { Q K B}=45^{\\circ})% (đồng vị ) (1)<br>Mà %(\\widehat { O Q P}=\\widehat { O C Q}(d o \\triangle B P O=\\triangle C Q O)(2))%<br>Từ (1), (2) suy ra %(\\widehat { Q K B}=\\widehat { O C Q})% (3)<br>Mà %(\\widehat { B Q K}=\\widehat {O Q C})% (đối đỉnh) (4)<br>Từ (3), (4) %(\\Rightarrow \\triangle B Q K \\sim \\triangle O Q C(g . g) \\Rightarrow \\frac{Q B}{Q O}=\\frac{Q K}{Q C}(5) \\Rightarrow Q B \\cdot Q C=Q K \\cdot Q O)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) Hãy tìm vị trí của điểm %(P)% trên %(A B)% sao cho %(Q O . Q K)% lớn nhất4) Khi %(P, Q)% thay đổi trên %(A B, B C)% và %(\\angle P O Q=90^{\\circ})% thì %(\\frac{1}{C K^{2}}-\\frac{1}{C N^{2}})% có giá trị không đổi",
+        "question_images": [],
+        "solution": "Từ (5) ta có : %(\\frac{Q B}{Q O}=\\frac{Q K}{Q C})% mà %(\\widehat { O Q B}=\\widehat {C Q K})% (đối đỉnh) nên %(\\triangle O B Q \\sim \\triangle C K Q)% (c.g.c)<br>%(\\Rightarrow \\widehat { O B Q}=\\widehat { C K Q}=45^{\\circ}(2))%<br>%(\\widehat { B K C}=\\widehat {B K Q}+\\widehat {C K Q}=45^{\\circ}+45^{\\circ}=90^{\\circ})% (theo (1) và (6)) nên %(C K \\perp B N)%<br>Ta có : %(\\triangle B K C \\sim \\triangle C K N(\\mathrm{~g} . \\mathrm{g}) \\Rightarrow \\frac{B K}{C K}=\\frac{C K}{K N} \\Rightarrow \\frac{1}{C K^{2}}=\\frac{1}{B K \\cdot K N})% (7)<br>%(\\triangle K C N \\sim \\triangle C B N(\\mathrm{~g} . \\mathrm{g}) \\Rightarrow \\frac{C K}{B N}=\\frac{K N}{C N} \\Rightarrow \\frac{1}{C N^{2}}=\\frac{1}{B K \\cdot K N}(8))%<br>Từ (7) và (8) ta có : %(\\frac{1}{C K^{2}}-\\frac{1}{C N^{2}}=\\frac{1}{K N} \\cdot \\frac{B N-B K}{B K \\cdot B N}=\\frac{1}{K N} \\cdot \\frac{K N}{B K \\cdot B N}=\\frac{1}{B K \\cdot B N}(9))%<br>Vì %(\\triangle C B N \\sim \\triangle K B C(g . g) \\Rightarrow \\frac{C B}{K B}=\\frac{B N}{B C} \\Rightarrow \\frac{1}{B K \\cdot B N}=\\frac{1}{B C^{2}}=\\frac{1}{a^{2}}(10))%<br>Từ (9) và (10) ta được : %(\\frac{1}{C K^{2}}-\\frac{1}{C N^{2}})% không đổi (vì %(a)% không đồi)",
+        "question_type": "essay"
+    }
+]

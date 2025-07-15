@@ -1,0 +1,143 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Phân tích đa thức sau thành nhân tử: %(A=(x-1)(x+2)(x-3)(x+4)-144)%",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} \\mathrm{A} & =(\\mathrm{x}-1)(\\mathrm{x}+2)(\\mathrm{x}-3)(\\mathrm{x}+4)-144 \\\\ & =[(\\mathrm{x}-1)(\\mathrm{x}+2)][(\\mathrm{x}-3)(\\mathrm{x}+4)]-144 \\\\ & =\\left(\\mathrm{x}^{2}+\\mathrm{x}-2\\right)\\left(\\mathrm{x}^{2}+\\mathrm{x}-12\\right)-144 \\\\ & =\\left(\\mathrm{x}^{2}+\\mathrm{x}-7+5\\right)\\left(\\mathrm{x}^{2}+\\mathrm{x}-7-5\\right)-144 \\\\ & =\\left(\\mathrm{x}^{2}+\\mathrm{x}-7\\right)^{2}-25-144=\\left(\\mathrm{x}^{2}+\\mathrm{x}-7\\right)^{2}-169 \\\\ & =\\left(\\mathrm{x}^{2}+\\mathrm{x}-7-13\\right)\\left(\\mathrm{x}^{2}+\\mathrm{x}-7+13\\right) \\\\ & =\\left(\\mathrm{x}^{2}+\\mathrm{x}-20\\right)\\left(\\mathrm{x}^{2}+\\mathrm{x}+6\\right) \\\\ & =\\left(\\mathrm{x}^{2}-4 \\mathrm{x}+5 \\mathrm{x}-20\\right)\\left(\\mathrm{x}^{2}+\\mathrm{x}+6\\right)=(\\mathrm{x}-4)(\\mathrm{x}+5)\\left(\\mathrm{x}^{2}+\\mathrm{x}+6\\right)\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Cho biểu thức %(P=\\frac{x^{2}+x}{x^{2}-2 x+1}:\\left(\\frac{x+1}{x}+\\frac{1}{x-1}+\\frac{2-x^{2}}{x^{2}-x}\\right))%",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Tìm điều kiện xác định và rút gọn biểu thức %(P)%.",
+        "question_images": [],
+        "solution": "ĐKXĐ : %(\\left\\{\\begin{array}{l}x \\neq 0 \\\\ x \\neq 1 \\\\ x \\neq-1\\end{array}\\right.)%<br><strong>Không có </strong>%(Đ K \\quad x \\neq-1)%<strong> trừ 0,25đ</strong><br>\\[\\begin{array}{l}P=\\frac{x(x+1)}{(x-1)^{2}}:\\left(\\frac{(x+1)(x-1)}{x(x-1)}+\\frac{x}{x(x-1)}+\\frac{2-x^{2}}{x(x-1)}\\right) \\P=\\frac{x(x+1)}{(x-1)^{2}}: \\frac{x^{2}-1+x+2-x^{2}}{x(x-1)} \\P=\\frac{x(x+1)}{(x-1)^{2}}: \\frac{x+1}{x(x-1)}=\\frac{x(x+1)}{(x-1)^{2}} \\cdot \\frac{x(x-1)}{x+1}=\\frac{x^{2}}{x-1}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Tìm %(x)% để %(P=\\frac{-1}{2})%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}P=\\frac{-1}{2} \\Leftrightarrow P=\\frac{x^{2}}{x-1}=\\frac{-1}{2} \\text { với } x \\in \\text { ĐKXĐ } \\\\Leftrightarrow 2 x^{2}+x-1=0 \\Leftrightarrow(2 x-1)(x+1)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{1}{2}(T M) \\x=-1(L)\\end{array}\\right.\\end{array}\\]<br>Vậy %(x=\\frac{1}{2})% thì %(P=\\frac{-1}{2})%<br><strong>(Nếu không loại </strong>%(x=-1)%<strong> trừ 0,25đ)</strong>",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Tìm các giá trị nguyên của %(x)% để %(P)% nhận giá trị nguyên.",
+        "question_images": [],
+        "solution": "\\[P=\\frac{x^{2}}{x-1}=\\frac{\\left(x^{2}-1\\right)+1}{x-1}=\\frac{(x-1)(\\mathrm{x}+1)+1}{x-1}=x+1+\\frac{1}{x-1}\\]<br>Với %(x \\in \\mathbb{Z} \\Rightarrow x+1 \\in \\mathbb{Z})%.<br>Để %(P)% nguyên thì %(\\frac{1}{x-1})% nguyên %(\\Rightarrow x-1)% là ước của %(1 . \\Rightarrow x-1 \\in\\{-1 ; 1\\})%<br>*) %(x-1=1 \\Rightarrow x=2)% (TMĐK)<br>*) %(x-1=-1 \\Rightarrow x=0)% (Loại do ĐKXĐ)<br>Vậy %(x=2)% thì %(P)% nhận giá trị nguyên.",
+        "question_type": "essay"
+    },
+    {
+        "title": "d) ",
+        "point": 1.0,
+        "content": "d) Tìm giá trị nhỏ nhất của %(P)% khi %(x\\gt 1)%.",
+        "question_images": [],
+        "solution": "\\[P=\\frac{x^{2}}{x-1}=x+1+\\frac{1}{x-1}=x-1+\\frac{1}{x-1}+2\\]<br>Vì %(x\\gt 1)% nên %(x-1>0)% và %(\\frac{1}{x-1}>0)%.<br>Áp dụng bất đẳng thức Cô-si cho 2 số dương %(x-1)% và %(\\frac{1}{x-1})% ta có %(x-1+\\frac{1}{x-1} \\geq 2 \\sqrt{(x-1) \\cdot \\frac{1}{x-1}}=2)%<br>Đẳng thức xảy ra khi %(x-1=\\frac{1}{x-1} \\Leftrightarrow(\\mathrm{x}-1)^{2}=1)%<br>\\[\\Leftrightarrow x-1=1 \\text { (vì } x-1>0 \\text { ) } \\Leftrightarrow x=2 \\text { (TMĐK) }\\]<br>Vậy giá trị nhỏ nhất của P là 4 khi %(\\mathrm{x}=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Chứng minh rằng không tồn tại số nguyên %(a)% thỏa mãn %(\\left(2017^{2017}+1\\right))% chia hết %(a^{3}+11 a)%",
+        "question_images": [],
+        "solution": "Giả sử tồn tại số nguyên %(a)% thỏa mãn %(\\left(2017^{2017}+1\\right))% chia hết %(a^{3}+11 a)%<br>%(A=a^{3}+11 a=\\left(a^{3}-a\\right)+12 a=a(a-1)(a+1)+12 a)%<br>ta có %((a-1) ; a ;(a+1))% là 3 số nguyên liên tiếp nên tồn tại một số là bội của 3 suy ra %((a-1) a(a+1): 3)%<br>Vì 12a chia hết cho 3 nên %(A: 3)%(1)<br>Mặt khác %(2017^{2017}+1=(2016+1)^{2017}+1)% chia cho 3 dư 2 (2)<br>Từ (1) và (2) dần đến điều giả sử trên là sai, tức là không có số nguyên nào thỏa mãn điều kiện bài toán đã cho.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Cho đa thức %(F(x)=x^{3}+a x+b)% (với %(a, b \\in \\mathbb{R})% ). Biết đa thức %(F(x))% chia cho %(x-2)% thì dư 12 , %(F(x))% chia cho %(x+1)% thì dư -6 . Tính giá trị của biểu thức: %(B=(6 a+3 b-11)(26-5 a+5 b))%.",
+        "question_images": [],
+        "solution": "Gọi thương của phép chia %(F(x))% cho %(x-2)% và %(x+1)% lần lượt là %(P(x))% và %(Q(x))%. Suy ra<br>%(x^{3}+a x+b=(x-2) P(x)+12)% (1)<br>%(x^{3}+a x+b=(x+1) Q(x)-6)% (2)<br>Thay %(x=2)% vào (1) ta có %(8+2 a+b=12 \\Leftrightarrow 2 a+b=4 \\Leftrightarrow 6 a+3 b=12)%<br>Thay %(x=-1)% vào (2) ta có %(-1-a+b=-6 \\Leftrightarrow-a+b=-5 \\Leftrightarrow-5 a+5 b=25)%<br>%(\\Rightarrow B=(6 a+3 b-11)(26-5 a+5 b)=1.1=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Giải các phương trình sau:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) %(\\frac{6}{x^{2}+2}+\\frac{7}{x^{2}+3}+\\frac{12}{x^{2}+8}-\\frac{3 x^{2}+16}{x^{2}+10}=1)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { PT } \\Leftrightarrow\\left(\\frac{6}{x^{2}+2}-1\\right)+\\left(\\frac{7}{x^{2}+3}-1\\right)+\\left(\\frac{12}{x^{2}+8}-1\\right)+\\left(2-\\frac{3 x^{2}+16}{x^{2}+10}\\right)=0 \\\\frac{4-x^{2}}{x^{2}+2}+\\frac{4-x^{2}}{x^{2}+3}+\\frac{4-x^{2}}{x^{2}+8}+\\frac{4-x^{2}}{x^{2}+10}=0 \\\\Leftrightarrow\\left(4-x^{2}\\right)\\left(\\frac{1}{x^{2}+2}+\\frac{1}{x^{2}+3}+\\frac{1}{x^{2}+8}+\\frac{1}{x^{2}+10}\\right)=0 (1)\\end{array}\\]<br>Vì %(\\frac{1}{x^{2}+2}+\\frac{1}{x^{2}+3}+\\frac{1}{x^{2}+8}+\\frac{1}{x^{2}+10}\\gt 0)% với mọi giá trị của %(x)%.<br>Nên %((1) \\Leftrightarrow 4-x^{2}=0 \\Leftrightarrow(x-2)(x+2)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=2 \\\\ x=-2\\end{array}\\right.)%<br>Vậy phương trình có tập nghiệm %(S=\\{-2 ; 2\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) %(2 x(8 x-1)^{2}(4 x-1)=9)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}2 x(8 x-1)^{2}(4 x-1)=9 \\Leftrightarrow\\left(64 x^{2}-16 x+1\\right)\\left(8 x^{2}-2 x\\right)=9 \\\\Leftrightarrow\\left(64 x^{2}-16 x+1\\right)\\left(64 x^{2}-16 x\\right)=72\\end{array}\\]<br>Đặt %(64 x^{2}-16 x=t)% ta có %((*) \\Leftrightarrow t(t+1)-72=0 \\Leftrightarrow t=-9)% hoặc %(t=8)%.<br>Với %(t=-9)% ta có %(64 x^{2}-16 x=-9 \\Leftrightarrow 64 x^{2}-16 x+9=0 \\Leftrightarrow(8 x-1)^{2}+8=0)%(vô nghiệm vì %((8 x-1)^{2}+8\\gt 0)% )<br>Với %(t=8)% ta có %(64 x^{2}-16 x=8 \\Leftrightarrow 64 x^{2}-16 x-8=0 \\Leftrightarrow(8 x-1)^{2}-9=0)%<br>\\[\\Leftrightarrow\\left[\\begin{array} { l } { 8 x - 1 = 3 } \\\\{ 8 x - 1 = - 3 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=\\frac{1}{2} \\x=-\\frac{1}{4}\\end{array}\\right.\\right.\\]<br>Vậy tập nghiệm phương trình là %(S=\\left\\{-\\frac{1}{4} ; \\frac{1}{2}\\right\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các cặp số nguyên %((x ; y))% thỏa mãn: %(y^{2}+2 x y-5 x-6=0)%",
+        "question_images": [],
+        "solution": "Ta có: %(y^{2}+2 x y-5 x-6=0 \\Leftrightarrow x^{2}+2 x y+y^{2}=x^{2}+5 x+6)%<br>\\[\\Leftrightarrow(x+y)^{2}=(x+2)(x+3)\\]<br>VT của %(\\left({ }^{*}\\right))% là số chính phương; VP của (*) là tích của 2 số nguyên liên tiếp nên phải có 1 số bằng 0<br>\\[\\Leftrightarrow\\left[\\begin{array} { l } { x + 2 = 0 } \\\\{ x + 3 = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=-2 \\x=-3\\end{array}\\right.\\right.\\]<br>*) Với %(x=-2 \\Rightarrow y=2)%<br>*) Với %(x=-3 \\Rightarrow y=3)%<br>Vậy có 2 cặp số nguyên %((x ; y)=(-2 ; 2))% hoặc %((x ; y)=(-3 ; 3))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác %(A B C)% vuông tại %(A(A B\\lt A C))%, kẻ đường cao %(A H)% và đường trung tuyến %(A M(H, M \\in B C))%. Gọi %(D, E)% lần lượt là hình chiếu của %(H)% trên %(A B, A C)%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng: %(D E^{2}=B H . H C)%.",
+        "question_images": [],
+        "solution": "Xét %(\\triangle A H B)% và %(\\triangle C H A)%<br>Có %(\\widehat{A H B}=\\widehat{A H C}=90^{\\circ}, \\widehat{B}=\\widehat{C A H})% (vì cùng phụ với %(\\widehat{B A H})%<br>\\[\\Rightarrow \\Delta \\mathrm{AHB} \\sim \\triangle \\mathrm{CHA}(\\mathbf{g}-\\mathbf{g}) \\Rightarrow \\frac{A H}{C H}=\\frac{H B}{H A} \\Rightarrow A H^{2}=B H \\cdot C H\\]<br>Lại có %(A H \\perp B C, H E \\perp A C, H D \\perp A B)% nên %(\\widehat{D}=\\widehat{H}=\\widehat{E}=90^{\\circ} \\Rightarrow)% Tứ giác %(A D H E)% là hình chữ nhật %(\\Rightarrow D E=A H)%<br>%(\\Rightarrow D E^{2}=D H . C H)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b86e6e2aeaf45d0ec663082855503c75.png\" srcset=\"https://docdn.giainhanh.io/media/test/a4e620ad85430c330c62e8238b3bf3e2.png 245w, https://docdn.giainhanh.io/media/test/60fc485fe7d8439a924b478ab7273d93.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Chứng minh rằng: %(A H^{2}=A D \\cdot D B+A E \\cdot E C)%",
+        "question_images": [],
+        "solution": "Chứng minh %(\\Delta \\mathrm{HDB} \\sim \\triangle \\mathrm{ADH}\\Rightarrow H D^{2}=A D \\cdot D B)%<br>Chứng minh %(\\Delta \\mathrm{AHE} \\sim \\triangle \\mathrm{ACH} \\Rightarrow H E^{2}=A E. E B)%<br>Mà tứ giác %(A D H E)% là hình chữ nhật nên %(D H=A E)%.<br>Do đó%(H D^{2}+H E^{2}=A E^{2}+H E^{2}=A H^{2}=A D \\cdot D B+A E E C)% ( Định lý Pytago áp dụngvào tam giác vuông %(A E H)% ).",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.5,
+        "content": "c) Chứng minh rằng: %(D E)% vuông góc với %(A M)%.",
+        "question_images": [],
+        "solution": "Gọi %(O)% là giao điểm của %(A H)% và %(D E)%, Tứ giác %(A D H E)% là hình chữ nhật nên %(O A=O E \\Rightarrow \\triangle O A E)% cân tại %(O \\Rightarrow \\widehat{H A E}=\\widehat{A E D})%<br>%(\\triangle A B C)% vuông tại %(A)%, có %(M)% là trung điểm của %(B C)% nên %(M A=M B=M C \\Rightarrow \\triangle M A C)% cân tai %(M \\Rightarrow \\widehat{M A C}=\\widehat{M C A})%<br>\\[\\Rightarrow \\widehat{A E D}+\\widehat{M A C}=\\widehat{H A E}+\\widehat{M C A}=90^{\\circ} \\Rightarrow D E \\perp A M\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "d) ",
+        "point": 1.0,
+        "content": "d) Giả sử diện tích tam giác %(A B C)% bằng 2 lần diện tích tứ giác %(A D H E)%. Chứng minh tam giác %(A B C)% vuông cân.",
+        "question_images": [],
+        "solution": "Theo giả thiết %(S_{A B C}=2 S_{A D H E}=4 S_{A D E})% hay %(\\frac{S_{A B D}}{S_{A B C}}=\\frac{1}{4})% (1)<br>Ta có %(\\frac{S_{A B D}}{S_{A B C}}=\\frac{A E \\cdot A D}{A B \\cdot A C}=\\frac{(A E \\cdot A C) \\cdot(A D \\cdot A B)}{(A B \\cdot A C)^{2}}=\\frac{A H^{4}}{(A B \\cdot A C)^{2}})% %(=\\frac{A H^{4}}{(A H \\cdot B C)^{2}}=\\frac{A H^{2}}{B C^{2}} \\leq \\frac{A M^{2}}{B C^{2}}=\\frac{1}{4})% (2)<br>Từ (1) và (2) %(\\Rightarrow \\frac{A H^{2}}{B C^{2}}=\\frac{A M^{2}}{B C^{2}} \\Leftrightarrow A H=A M \\Leftrightarrow H \\equiv M)% nên %(\\triangle A B C)% vuông cân tại %(A)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.5,
+        "content": "Cho hai số dương %(x, y)% có tổng bằng 1 . Tìm giá trị nhỏ nhất của biểu thức: %(Q=\\left(1-\\frac{1}{x^{2}}\\right)\\left(1-\\frac{1}{y^{2}}\\right)+x y)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}Q=\\left(1-\\frac{1}{x^{2}}\\right)\\left(1-\\frac{1}{y^{2}}\\right)+x y \\\\=1-\\frac{1}{y^{2}}-\\frac{1}{x^{2}}+\\frac{1}{x^{2} y^{2}}+x y=1-\\frac{x^{2}+y^{2}}{x^{2} y^{2}}+\\frac{1}{x^{2} y^{2}}+x y \\\\=1-\\frac{(x+y)^{2}-2 x y}{x^{2} y^{2}}+\\frac{1}{x^{2} y^{2}}+x y=1-\\frac{1-2 x y}{x^{2} y^{2}}+\\frac{1}{x^{2} y^{2}}+x y=1+x y+\\frac{2}{x y}\\end{array}\\]<br>Áp dụng BĐT AM-GM ta có %(x+y \\geq 2 \\sqrt{x y} \\Rightarrow 1 \\geq 4 x y \\Rightarrow \\frac{1}{x y} \\geq 4 \\quad)% (*)<br>\\[Q=1+x y+\\frac{2}{x y}=1+\\left(x y+\\frac{1}{16 x y}\\right)+\\frac{31}{16 x y}\\]<br>Áp dụng BĐT AM-GM và kết hợp %(\\left({ }^{*}\\right))% ta có:<br>\\[Q \\geq 1+\\frac{1}{2}+\\frac{31}{16} \\cdot 4=\\frac{37}{4}\\]<br>Đẳng thức xảy ra %(\\Leftrightarrow x=y=\\frac{1}{2})%. Vậy %(\\operatorname{Min} Q=\\frac{37}{4})% khi %(x=y=\\frac{1}{2})%",
+        "question_type": "essay"
+    }
+]

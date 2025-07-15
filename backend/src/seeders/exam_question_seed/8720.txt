@@ -1,0 +1,139 @@
+[
+    {
+        "title": "Câu 1",
+        "group_content": "Một vật nhỏ có khối lượng m trượt trong một đường trượt tròn có thành thẳng đứng. Đường trượt có bán kính r nằm trên mặt phẳng ngang và trong quá trình trượt, vật luôn tiếp xúc cả với đường trượt ngang và thành thẳng đứng của đường với hệ số ma sát trượt đều là %(\\mu)%. Ban đầu vật được cung cấp vận tốc %(v_{0})% tiếp tuyến với đường trượt.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Gọi động năng của vật sau khi nó đi được một cung bằng %(\\varphi)% là E. Xác định %(\\frac{d E}{d \\varphi})% theo %(\\mathrm{g}, \\mathrm{r}, \\mu, \\mathrm{m})% và E ?",
+        "question_images": [],
+        "solution": "Gọi %(v)% là vận tốc của vật sau khi di chuyển được cung tròn trên đường trượt ứng vói góc %(\\varphi)%.Áp dụng ĐL II Niu-tơn cho chuyển động của vật ta có:- Phản lực Ft của thành đường trượt đóng vai trò lực hướng tâm nên: %(F_{t}=\\frac{m v^{2}}{r})%<br>- Mặt ngang của đường trượt tác dụng phản lực N với: %(\\mathrm{N}=\\mathrm{P}=m g)%.<br>- Lực ma sát tổng cộng do mặt đường và thành đường trượt tác dụng lên vật là:<br>\\[F_{m s}=\\mu\\left(F_{t}+N\\right)=\\mu m\\left(\\frac{v^{2}}{r}+g\\right)\\]<br>Xét khi vật di chuyển được cung: %(d s=r d \\varphi)%.<br>Biến thiền động năng của vật là dE bằng công A của các lực tác dụng. Chú ý là trọng lực P , phản lực N và %(\\mathrm{F}_{\\mathrm{t}})% đều không sinh công; lực ma sát ngược hướng chuyển động, do đó ta có:<br>\\[\\begin{array}{l}d E=A=-F_{m s} d s=-F_{m s} . r d \\varphi \\d E=-\\mu m\\left(v^{2}+g r\\right) d \\varphi \\\\qquad \\frac{d E}{d \\varphi}=-\\mu\\left(2 \\cdot \\frac{m v^{2}}{2}+m g r\\right)=-\\mu(2 E+m g r)(1)\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.5,
+        "content": "b) Tính động năng E của vật ở thời điểm đang trượt theo %(\\mathrm{m}, \\mathrm{g}, \\mathrm{r}, \\mu)% và %(\\mathrm{v}_{0})% ?Xác định vo theo %(\\mathrm{g}, \\mathrm{r}, \\mu)% sao cho vật trượt được đúng một vòng rồi dừng lại?",
+        "question_images": [],
+        "solution": "Từ (1) ta có:<br>\\[\\frac{d E}{(2 E+m g r)}=-\\mu d \\varphi\\]<br>Lấy nguyên hàm hai vế của (3) ta được:<br>\\[\\begin{array}{l}\\int \\frac{d E}{(2 E+m g r)}=\\int-\\mu d \\varphi \\\\frac{1}{2} \\ln |2 E+m g r|=-\\mu \\varphi+C \\\\2 E+m g r=C \\cdot e^{-2 \\mu \\varphi} \\E=\\frac{1}{2}\\left(C \\cdot e^{-2 \\mu \\varphi}-m g r\\right)\\end{array}\\]<br>Với C là hằng số xác định từ điều kiện ban đầu: khi %(\\varphi=0)% thì<br>\\[E=E_{0}=\\frac{m v_{0}^{2}}{2}=\\frac{1}{2}(C-m g r) \\Rightarrow C=m v_{0}^{2}+m g r\\]<br>Thay vào ta có: %(E=\\frac{1}{2}\\left[\\left(m v_{0}^{2}+m g r\\right) \\cdot e^{-2 \\mu \\varphi}-m g r\\right])%<br>Vật đi được một vòng thì dừng lại tức là %(\\mathrm{E}=0)% khi %(\\varphi=2 \\pi)%.<br>Do đó ta có :<br>\\[\\begin{array}{l}0=\\left(m v_{0}^{2}+m g r\\right) e^{-4 \\pi \\mu}-m g r \\v_{0}^{2}=g r\\left(e^{-4 \\pi \\mu}-1\\right) \\v_{0}=\\sqrt{g r\\left(e^{-4 \\pi \\mu}-1\\right)}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2",
+        "group_content": "Một tàu vũ trụ chuyển động trên một quỹ đạo tròn quanh Mặt Trời và ở rất gần Trái Đất. Nó cần chuyển đến một quỹ đạo tròn quanh Mặt Trời nhưng ở rất gần với sao Hỏa. Để thực hiện việc này, tàu phải khởi động tên lửa để tăng tốc thêm một lượng %(\\Delta v_{1})% từ quỹ đạo quanh Trái Đất rồi chuyển sang quỹ đạo ellip (in đậm), tới gần sao Hỏa thì tăng tốc lần thứ hai thêm lượng %(\\Delta v_{2})%. Giả sử cả hai lần tàu đều tăng tốc tức thời và bỏ qua sự thay đổi khối lượng cũng như lực hấp dẫn của Trái Đất và sao Hỏa (không bỏ qua tác dụng của Mặt Trời!). Coi quỹ đạo của Trái Đất, sao Hỏa quanh Mặt Trời là tròn với bán kính tương ứng là %(\\mathrm{R_E})% và %(\\mathrm{R_M}=\\mathrm{R_E} / \\alpha)%, vận tốc tương ứng là %(\\mathrm{V_E}, \\mathrm{V_M})%",
+        "group_images": [
+            "https://docdn.giainhanh.io/media/test/ab45c9d6277a5533ce1d43e5bff95f47.png"
+        ],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Xác định độ tăng tốc độ %(\\Delta v_{1})% cần thiết để chuyển sang quỹ đạo ellip theo %( v_{E})% và %(\\alpha)%.",
+        "question_images": [],
+        "solution": "Xét hành tinh khối lượng M chuyển động trên quỹ đạo tròn quanh Mặt trời có bán kính %(\\mathrm{R}_{c})%. Ta có:<br>\\[G \\frac{M_{S} M_{c}}{\\mathrm{R}_{c}{ }^{2}}=\\frac{M_{c} v_{c}{ }^{2}}{\\mathrm{R}_{c}}\\]<br>Trên quỹ đạo ellip với cận điểm %(\\mathrm{R}_{1})%, viễn điểm %(\\mathrm{R}_{2})%, áp dụng bảo toàn mô-men động lượng và bảo toàn năng lượng ta được:<br>\\[\\begin{array}{l}v_{1} R_{2}=v_{2} R_{2} \\\\frac{M_{c} v^{2}}{2}-G \\frac{M_{s} M_{c}}{r}=E=\\mathrm{const}\\end{array}\\]<br>Áp dụng tại cận điểm ta có:<br>\\[\\begin{array}{l}\\frac{M_{c} v_{1}^{2}}{2}-G \\frac{M_{s} M_{c}}{R_{1}}=\\frac{M_{c} v_{1}^{2}}{2}\\left(\\frac{R_{1}}{R_{2}}\\right)^{2}-G \\frac{M_{s} M_{c}}{R_{2}} \\\\Rightarrow \\frac{v_{1}^{2}}{2}\\left[1-\\left(\\frac{R_{1}}{R_{2}}\\right)^{2}\\right]=G M_{s} \\frac{R_{2}-R_{1}}{R_{1} R_{2}}\\end{array}\\]<br>Với %(R_{1} / R_{2}=\\alpha)% thì: %(\\quad \\frac{v_{1}^{2}}{2}\\left(1-\\alpha^{2}\\right)=\\frac{G M_{s}}{R_{1}}(1-\\alpha) \\Rightarrow v_{1}^{2}=\\frac{G M_{s}}{R_{1}} \\cdot \\frac{2}{(1+\\alpha)})%<br>Điểm cực cận trên quỹ đạo của tàu vũ trụ được coi tại Trái đất %(\\left(R_{1} \\cong R_{E}\\right))% nên:<br>\\[v_{1}=\\sqrt{\\frac{G M_{S}}{R_{E}}} \\cdot \\sqrt{\\frac{2}{1+\\alpha}}=v_{E} \\sqrt{\\frac{2}{1+\\alpha}}\\]<br>Vậy độ tăng tốc độ cần để chuyển từ quỹ đạo gần Trái đất sang quỹ đạo ellip là:<br>\\[\\Delta v_{1}=v_{1}-v_{E}=v_{E}\\left(\\sqrt{\\frac{2}{1+\\alpha}}-1\\right)\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.25,
+        "content": "b) Xác định độ tăng tốc độ %(\\Delta v_{2})% cần thiết để chuyển sang quỹ đạo tròn gần sao Hỏa theo %(\\mathrm{V}_{\\mathrm{E}})% và %(\\alpha)%.",
+        "question_images": [],
+        "solution": "Tương tự như trên, áp dụng cho điểm cực viễn của quỹ đạo ellip ở rất gần quỹ đạo sao Hỏa %(\\left(R_{2} \\cong R_{M}\\right))% với chú ý rẳng %(R \\mathrm{M}=R \\mathrm{E} / \\alpha)%, ta có:<br>\\[\\begin{array}{l}\\frac{v_{2}^{2}}{2}\\left[1-(1 / \\alpha)^{2}\\right]=\\frac{G M_{s}}{R_{2}}[1-(1 / \\alpha)] \\Rightarrow v_{2}^{2}=\\frac{G M_{s}}{R_{2}} \\cdot \\frac{2}{[1+(1 / \\alpha)]} \\\\Rightarrow v_{2}=\\sqrt{\\frac{G M_{S}}{R_{M}}} \\cdot \\sqrt{\\frac{2}{1+(1 / \\alpha)}}=v_{M} \\sqrt{\\frac{2}{1+(1 / \\alpha)}} \\\\Rightarrow \\Delta v_{2}=v_{M}-v_{2}=v_{M}\\left(1-\\sqrt{\\frac{2}{1+(1 / \\alpha)}}\\right)\\end{array}\\]<br>Áp dụng định luật Kepler cho chuyển động trên quỹ đạo Trái đẩt và sao Hỏa ta có:<br>\\[v_{E}^{2} R_{E}=v_{M}^{2} R_{M} \\Rightarrow v_{M}=v_{E} \\sqrt{\\alpha}\\]<br>Thay vào ta được: %(\\Delta v_{2}=v_{E} \\sqrt{\\alpha} .\\left(1-\\sqrt{\\frac{2}{1+(1 / \\alpha)}}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 0.75,
+        "content": "c) Tính khoảng cách góc giữa Trái Đất và sao Hỏa, nhìn từ Mặt Trời, theo %(\\alpha)%. Biết tàu rời quỹ đạo gần Trái Đất từ vị trí Trái Đất và đến quỹ đạo gần sao Hỏa ở đúng vị trí sao Hỏa. (Khoảng cách góc là góc giữa các bán kính nối Mặt Trời với Trái Đất và Mặt Trời với sao Hỏa).",
+        "question_images": [],
+        "solution": "Áp dụng định luật Kepler III cho các quỹ đạo ta có với thời gian để chuyển từ quỹ đạo Trái đất sang quỹ đạo sao Hỏa là T thì:<br>\\[\\frac{T}{T_{M}}=\\frac{1}{2}\\left(\\frac{R_{E}+R_{M}}{2 \\cdot R_{M}}\\right)^{3 / 2}=\\frac{1}{2}\\left(\\frac{\\alpha+1}{2}\\right)^{3 / 2}\\]<br>Trong thời gian này, sao Hỏa di chuyển được góc: %(\\theta_{M}=2 \\pi \\frac{T}{T^{M}}=\\pi\\left(\\frac{\\alpha+1}{2}\\right)^{3 / 2})%<br>Cũng trong thời gian này tàu di chuyển được từ cực cận đến cực viễn, tức là di chuyển được góc bằng %(\\pi)%. Điểm cực cận tại Trái đất, điểm cực viễn tại chính sao Hỏa nên khoảng cách góc giữa Trái đất và sao Hỏa là:<br>\\[\\Delta \\theta=\\pi-\\theta_{M}=\\pi\\left[1-\\left(\\frac{\\alpha+1}{2}\\right)^{3 / 2}\\right]\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3",
+        "group_content": "Một trụ tròn đồng chất khối lượng %(m)%, bán kính %(r)% tại thời điểm %(t=0)% đứng yên tại vị trí %(x_{c}=0)% trên một băng tải nhám. Băng tải chuyển động với vận tốc %(v_{0})% không đổi. Hệ số ma sát trượt giữa trụ tròn và băng tải là %(\\mu)%. Biết %(\\alpha, r, m, v_0)% và %(\\mu=2 \\tan \\alpha)%. Hãy tìm:",
+        "group_images": [
+            "https://docdn.giainhanh.io/media/test/e38118708ce5c955ae059abf11f8a78c.png"
+        ],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Thời điểm %(t_1)% kể từ đó trụ trong lăn không trượt trên băng tải",
+        "question_images": [],
+        "solution": "Lúc đầu trụ tròn vừa lăn vừa trượt trong khoảng %(0 \\leq \\mathrm{t} \\leq \\mathrm{t})%.Sau đó trụ lăn không trượt trên băng tải.<br>Xét: %(0 \\leq \\mathrm{t} \\leq \\mathrm{t} 1)% :<br>Gọi %(a_c)% là gia tốc của khối tâm C của trụ, %(\\gamma)% là gia tốc góc.<br>Phương trình động lực học của trụ:<br>\\[\\begin{array}{l}m a_{c x}=F_{m s}-m g \\sin \\alpha (1)\\m a_{c y}=-N+m g \\cos \\alpha=0 (2)\\I \\gamma=-F_{m s} . r(3)\\end{array}\\]<br>\\[\\text { (2) } \\Rightarrow\\gt N=m g \\cos \\alpha=>F_{m s}=\\mu N=2 m g \\cdot \\tan \\alpha \\cdot \\cos \\alpha=2 m g \\sin \\alpha (4)\\]<br>Do : %(I_{c}=m r^{2} / 2)% nên từ (1) và (3) ta có:<br>\\[\\begin{aligned}a_{c x}=g \\sin \\alpha ; \\quad \\gamma=-\\frac{4}{7} g \\sin \\alpha(5) \\\\text { ở } t=0 \\text { ta có } v(0)=0, \\omega(0)=0 \\text { do đó }: \\v(t)=g t \\sin \\alpha ; \\quad \\omega(t)=-\\frac{4}{7} g t \\sin \\alpha(6)\\end{aligned}\\]<br>Trụ lăn không trượt khi vận tốc tương đối tại điểm tiếp xúc bằng 0 , hay:<br>\\[\\mathrm{v}(\\mathrm{t})=\\mathrm{r} \\cdot \\omega(\\mathrm{t})+\\mathrm{v}_{0}\\]<br>Từ đó ta có: %(\\quad \\mathrm{t}_{1}=\\frac{v_{0}}{5 \\operatorname{sgin} \\alpha}(7))%<br><img alt=\"Screenshot 2024-07-10 204709.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/212c9bfaee29c22e3a11b1582d83efd4.png\" srcset=\"https://docdn.giainhanh.io/media/test/74dbb8dfa28964dbbe40f8583187e231.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Giá trị cực đại của %(x)% mà trọng tâm C của trụ đạt được?",
+        "question_images": [],
+        "solution": "Khi %(t>t_1)% : Trụ lăn không trượt trên băng tải. Vận tốc khối tâm C của trụ trên băng tải:<br>\\[v_{C}(t)=r \\cdot \\omega(t)+v_{0} (8)\\]<br>Ma sát giữa trụ và băng tải lúc này là ma sát nghỉ %(F_{m s  n})%. Phương trình chuyển động:<br>\\[\\begin{array}{l}m a_{c}=F_{m s n}-m g \\sin \\alpha (9)\\I \\gamma=-F_{m s n} . r(10)\\end{array}\\]<br>Từ (8) %(=>\\mathrm{a}_{c}=\\mathrm{r} \\cdot \\gamma)%. Thay vào (9), (10) ta có:<br>\\[a_{c}=\\frac{d v}{d t}=-\\frac{2}{3} g \\sin \\alpha \\rightarrow v(t)=\\int_{t_{1}}^{t}\\left(-\\frac{2}{3} g \\sin \\alpha\\right) d t=-\\frac{2}{3} g\\left(t-t_{1}\\right) \\sin \\alpha+v\\left(t_{1}\\right)\\]<br>với %(v\\left(t_{1}\\right))% xác định từ (6): %(v\\left(t_{1}\\right)=g t_{1} \\sin \\alpha)%, ta có:<br>\\[v(t)=-\\frac{2}{3} g\\left(t-t_{1}\\right) \\sin \\alpha+g t_{1} \\sin \\alpha=\\frac{5}{3} g t_{1} \\sin \\alpha-\\frac{2}{3} g t \\sin \\alpha(11)\\]<br>%(x_{\\mathrm{c}}(t))% đạt cực đại tại %(\\mathrm{t}=\\mathrm{t}_{2})% khi : %(v\\left(t_{2}\\right)=\\left.\\frac{d x}{d t}\\right|_{t_{2}}=0)% nên:<br>\\[\\frac{5}{3} g t_{1} \\sin \\alpha-\\frac{2}{3} g t_{2} \\sin \\alpha=0 \\Rightarrow t_{2}=\\frac{5}{2} t_{1}(12)\\]<br>Từ (11) ta có:<br>\\[x_{c}=\\int_{t_{1}}^{t} v d t=\\int_{t_{1}}^{t}\\left(\\frac{5}{3} g t_{1} \\sin \\alpha-\\frac{2}{3} g t \\sin \\alpha\\right) d t=x\\left(t_{1}\\right)-\\frac{1}{3} g\\left(t-t_{1}\\right)^{2} \\sin \\alpha+g t_{1}\\left(t-t_{1}\\right) \\sin \\alpha\\]<br>Từ (6) ta có : %(x\\left(t_{1}\\right)=\\frac{g t_{1}^{2}}{2} \\sin \\alpha)%.<br>Thay vào (12) ta được : %(\\quad x_{c \\max }=x_{c}\\left(t_{2}\\right)=\\frac{v_{0}^{2}}{20 g \\sin \\alpha})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4",
+        "group_content": "Một bình hình trụ thành mỏng, tiết diện ngang là S , đặt thẳng đứng. Trong bình có một pittôn, khối lượng cũng như bề dày pittôn không đáng kể. Pittôn nối với mặt trên của bình bằng một lò xo có độ cứng k. Trong bình và ở phía dưới pittôn có chứa một lượng khí lí tưởng đơn nguyền tử khối lượng m, khối lượngmol là %(\\mu)%. Lúc đầu nhiệt độ của khí trong bình là %(\\mathrm{T}_{1})%. Biết rằng chiều dài của lò xo khi không biến dạng vừa bằng chiều cao của bình, phía trên pittôn là chân không. Bỏ qua khối lượng của lò xo và ma sát giữa pittôn với thành bình.",
+        "group_images": [
+            "https://docdn.giainhanh.io/media/test/b311f39d8b2202386a8587d7759e7d6a.png"
+        ],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Cần phải tăng nhiệt độ cuả khí tới giá trị nào để thể tích khí trong bình tăng thêm %(20 \\%)%.",
+        "question_images": [],
+        "solution": "Lúc đầu: %(\\mathrm{kh}_{1}=\\mathrm{p}_{1} \\mathrm{~S}(1))%<br>Lúc sau: %(\\mathrm{kh}_{2}=\\mathrm{p}_{2} \\mathrm{~S}(2))%<br>\\[\\Rightarrow\\left(\\mathrm{p}_{2}-\\mathrm{p}_{1}\\right) \\mathrm{S}=\\mathrm{k}\\left(\\mathrm{h}_{2}-\\mathrm{h}_{1}\\right)\\]<br>Mặt khác: %(\\mathrm{p}_{1}=\\frac{\\mathrm{mRT}_{1}}{\\mu \\mathrm{Sh}_{1}} ; \\mathrm{p}_{2}=\\frac{\\mathrm{mRT}_{2}}{\\mu \\mathrm{Sh}_{2}})%.<br>\\[\\Rightarrow \\mathrm{T}_{2}=\\mathrm{T}_{1} \\frac{\\mathrm{h}_{2}^{2}}{\\mathrm{~h}_{1}^{2}}=1,44 \\mathrm{~T}_{1}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.5,
+        "content": "b) Tính nhiệt lượng cần truyền cho bình để thể tích của khí trong bình đạt tới giá trị trên. Bỏ qua nhiệt dung của pittôn và của bình.",
+        "question_images": [],
+        "solution": "\\[\\mathrm{dQ}=\\mathrm{dU}+\\mathrm{pdV}=\\frac{\\mathrm{m}}{\\mu} \\mathrm{C}_{\\mathrm{v}} \\mathrm{dT}+\\frac{\\mathrm{kh}}{\\mathrm{S}} \\mathrm{dV}\\]<br>Tích phân hai vế:<br>\\[\\begin{array}{l}\\mathrm{Q}=\\int_{\\mathrm{T}_{1}}^{\\mathrm{T}_{2}} \\frac{\\mathrm{m}}{\\mu} \\mathrm{C}_{\\mathrm{V}} \\mathrm{dT}+\\int_{\\mathrm{h}_{1}}^{\\mathrm{h}_{2}}\\left(\\frac{\\mathrm{kh}}{\\mathrm{S}}+\\frac{\\mathrm{Mg}}{\\mathrm{S}}\\right) \\mathrm{Sdh} \\\\mathrm{Q}=\\frac{\\mathrm{m}}{\\mu} \\mathrm{C}_{\\mathrm{V}}\\left(\\mathrm{T}_{2}-\\mathrm{T}_{1}\\right)+\\frac{\\mathrm{k}\\left(\\mathrm{h}_{2}^{2}-\\mathrm{h}_{1}^{2}\\right)}{2}\\end{array}\\]<br>Từ phương trình: %(\\frac{\\mathrm{kh}_{1}}{\\mathrm{~S}} \\mathrm{Sh}_{1}=\\frac{\\mathrm{m}}{\\mu} \\mathrm{RT}_{1})% ta có<br>\\[\\mathrm{kh}_{1}^{2}+\\mathrm{Mgh}_{1}=\\frac{\\mathrm{m}}{\\mu} \\mathrm{RT}_{1} ; \\mathrm{kh}_{2}^{2}+\\mathrm{Mgh}_{2}=\\frac{\\mathrm{m}}{\\mu} \\mathrm{RT}_{2}\\]<br>Suy ra<br>\\[\\begin{array}{l}\\mathrm{Q}=\\frac{\\mathrm{m}}{\\mu}\\left(\\mathrm{C}_{\\mathrm{V}}+\\mathrm{R}\\right)\\left(\\mathrm{T}-\\mathrm{T}_{1}\\right)+\\frac{\\mathrm{Mg}}{2}\\left(\\mathrm{~h}_{2}-\\mathrm{h}_{1}\\right) \\\\mathrm{Q}=\\frac{\\mathrm{m}}{\\mu}\\left(\\mathrm{C}_{\\mathrm{V}}+\\mathrm{R}\\right)\\left(\\mathrm{T}-\\mathrm{T}_{1}\\right)+\\frac{\\mathrm{Mg}}{2}\\left(\\sqrt{\\frac{\\mathrm{M}^{2} \\mathrm{~g}^{2}}{4 \\mathrm{k}^{2}}+\\frac{\\mathrm{mRT}_{1}}{\\mu \\mathrm{k}}}-\\sqrt{\\frac{\\mathrm{M}^{2} \\mathrm{~g}^{2}}{4 \\mathrm{k}^{2}}+\\frac{\\mathrm{mRT}_{2}}{\\mu \\mathrm{k}}}\\right) \\\\mathrm{h}_{1}=\\frac{\\mathrm{Mg}}{2 \\mathrm{k}}+\\sqrt{\\frac{\\mathrm{M}^{2} \\mathrm{~g}^{2}}{4 \\mathrm{k}^{2}}+\\frac{\\mathrm{mRT}_{1}}{\\mu \\mathrm{k}}} ; \\mathrm{h}_{2}=\\frac{\\mathrm{Mg}}{2 \\mathrm{k}}+\\sqrt{\\frac{\\mathrm{M}^{2} \\mathrm{~g}^{2}}{4 \\mathrm{k}^{2}}+\\frac{\\mathrm{mRT}_{2}}{\\mu \\mathrm{k}}}\\end{array}\\]<br>ta được:<br>\\[\\begin{array}{l}\\mathrm{Q}=\\frac{\\mathrm{m}}{\\mu}\\left(\\mathrm{C}_{\\mathrm{V}}+\\mathrm{R}\\right)\\left(\\mathrm{T}_{2}-\\mathrm{T}_{1}\\right)+\\mathrm{Mg} \\sqrt{\\frac{\\mathrm{mR}}{\\mu \\mathrm{k}}}\\left(\\sqrt{\\mathrm{T}_{2}}-\\sqrt{\\mathrm{T}_{1}}\\right) \\text { với } \\mathrm{C}_{\\mathrm{V}}=3 \\mathrm{R} / 2 \\\\mathrm{Q}=\\frac{2 \\mathrm{mR}}{\\mu} 1,44 \\mathrm{~T}_{1}+0,2 \\mathrm{Mg} \\sqrt{\\frac{\\mathrm{mRT}_{1}}{\\mu \\mathrm{k}}} .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.5,
+        "content": "c) Chứng tỏ rằng trong một giới hạn cho phép (độ biến dạng của lò xo không quá lớn để lực đàn hồi của lò xo vẫn còn tỷ lệ với độ biến dạng của nó́) thì nhiệt dung của hệ gồm lò xo, pittôn và khí trong bình phụ thuộc vào chiều cao %(h)% của cột khí trong bình theo một quy luật xác định. Tìm quy luật đó.",
+        "question_images": [],
+        "solution": "Khi cần tăng tới nhiệt độ T bất kỳ ta có :<br>\\[Q=\\frac{m}{\\mu}\\left(C_{V}+R\\right)\\left(T-T_{1}\\right)+M g \\sqrt{\\frac{m R}{\\mu k}}\\left(\\sqrt{T}-\\sqrt{T_{1}}\\right) .\\]<br>Đạo hàm hai vế theo T :<br>%(\\begin{array}{c}\\mathrm{C}=\\frac{\\mathrm{dQ}}{\\mathrm{dT}}=\\frac{\\mathrm{m}}{\\mu}\\left(\\mathrm{C}_{\\mathrm{v}}+\\mathrm{R}\\right)+\\mathrm{Mg} \\sqrt{\\frac{\\mathrm{mR}}{\\mu \\mathrm{k}}} \\frac{1}{2 \\sqrt{\\mathrm{T}}} \\\\ \\mathrm{C}=\\frac{\\mathrm{dQ}}{\\mathrm{dT}}=\\frac{\\mathrm{m}}{\\mu}\\left(\\mathrm{C}_{\\mathrm{v}}+\\mathrm{R}\\right)+\\frac{\\mathrm{MmgR}}{2 \\mu \\mathrm{kh}} .\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5",
+        "group_content": "Có một thùng nước nóng đậy kín cách nhiệt tốt chỉ có thể lấy được nước ra qua một vòi có khóa. Người ta muốn đo nhiệt độ của nước trong thùng nhưng trong tay chỉ có một ống nghiệm dung tích nhỏ, một nhiệt kế thuỷ ngân, một đồng hồ bấm giây và một bút viết trên thuỷ tinh (mực không tan trong nước). Hãy đề xuất phương án thí nghiệm để chỉ cần lấy ra những lượng nước nhỏ mà có thể xác định được nhiệt độ của nước trong thùng. Xét thí nghiệm trong trường hợp:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Ống nghiệm được bọc ngoài bằng bông cách nhiệt tốt.",
+        "question_images": [],
+        "solution": "Trường hợp ống nghiệm được bọc ngoài bằng bông cách nhiệt tốt:<br>- Dùng bút đánh dấu một vạch chuẩn trên ống nghiệm.<br>- Đặt nhiệt kế trong ống nghiệm. Đọc nhiệt độ ban đầu %(\\mathrm{T}_{0})% ( nhiệt độ phòng).<br>- Cho nước trong bình vào ống nghiệm lần thứ nhất đến vạch chuẩn. Đọc nhiệt độ cân bằng trên nhiệt kế %(\\mathrm{T}_{1})%.<br>Gọi %(\\mathrm{C}_{0})% là nhiệt dung của nhiệt kế và nhiệt dung của ống nghiệm, %(\\mathrm{C}_{1})%là nhiệt dung của nước rót vào ống nghiệm. Ta có :<br>\\[\\mathrm{C}_{0}\\left(\\mathrm{~T}_{1}-\\mathrm{T}_{0}\\right)=\\mathrm{C}_{1}\\left(\\mathrm{~T}-\\mathrm{T}_{1}\\right) (1)\\]<br>T là nhiệt độ của nước trong bình cần đo.<br>- Đổ nhanh nước cũ đi, rót nước mới từ bình vào ống nghiệm, khi nhiệt độ cân bằng, nhiệt kế chỉ %(\\mathrm{T}_{2})% . Ta có:<br>\\[\\mathrm{C}_{0}\\left(\\mathrm{~T}_{2}-\\mathrm{T}_{1}\\right)=\\mathrm{C}_{1}\\left(\\mathrm{~T}-\\mathrm{T}_{2}\\right) (2)\\]<br>Chia (1) cho (2) ta được:<br>\\[\\mathrm{T}=\\frac{\\mathrm{T}_{2} \\mathrm{~T}_{0}-\\mathrm{T}_{1}^{2}}{\\mathrm{~T}_{2}+\\mathrm{T}_{0}-2 \\mathrm{~T}_{1}} .\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Ống nghiệm được bọc ngoài bằng bông cách nhiệt không tốt lắm.",
+        "question_images": [],
+        "solution": "Trường hợp ống nghiệm được bọc ngoài bằng bông cách nhiệt không tốt:Tiến hành như trên.<br>- Khi đổ nước lần 1, đợi cho cân bằng nhiệt thì nhiệt kế chỉ %(\\mathrm{T}'_{1}\\lt \\mathrm{T}_{1})% vì một phần nhiệt mất mát ra môi trường.<br>- Để có %(\\mathrm{T}_{1})% ta dùng cách hiệu chỉnh nhiệt độ: vẽ đồ thị biểu diễn %(\\mathrm{T}'_{1})% theo thời gian. Lấy %(\\mathrm{t}=0)% là lúc rót nước vào vào ống nghiệm.<br>Khi đổ nước lần 2 thì nhiệt độ tăng từ %(\\mathrm{T}'_{1})% lên %(\\mathrm{T}'_{2})% . Cũng dùng cách hiệu chỉnh nhiệt độ như trên ta xác định được nhiệt độ %(\\mathrm{T}_{2})% .Các phương trình là:<br>%(\\mathrm{C}_{0}\\left(\\mathrm{~T}_{1}-\\mathrm{T}_{0}\\right)=\\mathrm{C}_{1}\\left(\\mathrm{~T}-\\mathrm{T}_{1}\\right))%      (3)<br>T là nhiệt độ của nước trong bình.<br>- Đổ nhanh nước cũ đi, rót nước mới vào bình, nhiệt kế chỉ %(\\mathrm{T}_{2})% :<br>%(\\mathrm{C}_{0}\\left(\\mathrm{~T}_{2}-\\mathrm{T}_{1}{ }_{1}\\right)=\\mathrm{C}_{1}\\left(\\mathrm{~T}-\\mathrm{T}_{2}\\right))%      (4)<br>Chia (3) cho (4) ta được:<br>\\[\\mathrm{T}=\\frac{\\mathrm{T}_{2} \\mathrm{~T}_{0}-\\mathrm{T}_{1} \\mathrm{~T}_{1}^{\\prime}}{\\mathrm{T}_{2}+\\mathrm{T}_{0}-\\mathrm{T}_{1}-\\mathrm{T}_{1}^{+}} .\\]<br><img alt=\"Screenshot 2024-07-10 210536.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/994ad1e3b17ccd335718f9c137471d81.png\" srcset=\"https://docdn.giainhanh.io/media/test/fcead99c2ca5be2db4b7ccc694d12a5a.png 197w\" width=\"197\"/>",
+        "question_type": "essay"
+    }
+]

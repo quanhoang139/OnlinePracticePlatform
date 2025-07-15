@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.75,
+        "content": "Rút gọn biểu thức: %(A=\\frac{a-\\sqrt{a}-6}{4-a}-\\frac{1}{\\sqrt{a}-2} \\quad()% với %(a \\geq 0)% và %(a \\neq 4)% ).",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} A & =\\frac{(\\sqrt{a}+2)(\\sqrt{a}-3)}{(2+\\sqrt{a})(2-\\sqrt{a})}-\\frac{1}{\\sqrt{a}-2} \\\\ & =\\frac{\\sqrt{a}-3}{2-\\sqrt{a}}+\\frac{1}{2-\\sqrt{a}} \\\\ & =-1\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 0.75,
+        "content": "Cho %(\\mathrm{x}=\\frac{\\sqrt{28-16 \\sqrt{3}}}{\\sqrt{3}-1})%. Tính giá trị của biểu thức: %(\\mathrm{P}=\\left(\\mathrm{x}^{2}+2 \\mathrm{x}-1\\right)^{2012})%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}x=\\frac{\\sqrt{(4-2 \\sqrt{3})^{2}}}{\\sqrt{3}-1}=\\frac{4-2 \\sqrt{3}}{\\sqrt{3}-1}=\\frac{(\\sqrt{3}-1)^{2}}{\\sqrt{3}-1}=\\sqrt{3}-1 \\\\ \\Rightarrow x^{2}+2 x-1=1 \\\\ \\Rightarrow P=\\left(x^{2}+2 x-1\\right)^{2012}=1\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(\\sqrt{3(1-x)}-\\sqrt{3+x}=2)%.",
+        "question_images": [],
+        "solution": "Bình phương 2 vế của (1) ta được:<br>\\[\\begin{aligned}& 3(1-x)+3+x-2 \\sqrt{3(1-x)(3+x)}=4 \\\\Rightarrow & \\sqrt{3(1-x)(3+x)}=1-x \\\\Rightarrow & 3(1-x)(3+x)=1-2 x+x^{2} \\\\Rightarrow & x^{2}+x-2=0 \\Rightarrow x=1 \\text { hoạc } x=-2\\end{aligned}\\]<br>Thử lại, %(x=-2)% là nghiệm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x^{2}+x y-4 x=-6 \\\\ y^{2}+x y=-1\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Nếu %((x ; y))% là nghiệm của %((2))% thì %(y \\neq 0)%.Do đó: %((2) \\Leftrightarrow x=\\frac{-y^{2}-1}{y})%<br>Thay (3) vào (1) và biến đổi, ta được:<br>\\[4 y^{3}+7 y^{2}+4 y+1=0\\]<br>%(\\Leftrightarrow(y+1)\\left(4 y^{2}+3 y+1\\right)=0)% (thí sinh có thể bỏ qua bước này)<br>\\[\\begin{array}{l}\\Leftrightarrow y=-1 \\y=-1 \\Rightarrow x=2\\end{array}\\]<br>Vậy hệ có một nghiệm: %((x ; y)=(2 ;-1))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho parabol %((P): y=-x^{2})% và đường thẳng %((d): y=(3-m) x+2-2 m)% (m là tham số).",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 0.75,
+        "content": "a) Chứng minh rằng với %(m \\neq-1)% thì (d) luôn cắt %((P))% tại 2 điểm phân biệt %(A, B)%",
+        "question_images": [],
+        "solution": "a) %((0,75)(P): y=-x^{2},(d): y=(3-m) x+2-2 m)%.<br>Chứng minh rằng với %(m \\neq-1)% thì %((d))% luôn cắt %((P))% tại 2 điểm phân biệt %(A, B)% Phương trình hoành độ giao điểm của %((P))% và %((\\mathrm{d}))% :<br>\\[\\begin{aligned}& -x^{2}=(3-m) x+2-2 m . \\\\Leftrightarrow & x^{2}+(3-m) x+2-2 m=0 \\quad(1) \\\\Delta & =(3-m)^{2}-4(2-2 m)=m^{2}+2 m+1\\end{aligned}\\]<br>Viết được: %(\\Delta=(m+1)^{2}\\gt 0)%, với %(m \\neq-1)% và kết luận đúng",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 0.75,
+        "content": "b) Gọi %(\\mathrm{y}_{\\mathrm{A}}, \\mathrm{y}_{\\mathrm{B}})% lần lượt là tung độ các điểm %(\\mathrm{A}, \\mathrm{B})%. Tìm %(\\mathrm{m})% để %(\\left|\\mathrm{y}_{\\mathrm{A}}-\\mathrm{y}_{\\mathrm{B}}\\right|=2)%.",
+        "question_images": [],
+        "solution": "Giải PT (1) được hai nghiệm: %(x_{1}=-2)% và %(x_{2}=m-1)%<br>Tính được: %(y_{1}=-4, y_{2}=-(m-1)^{2})%<br>%(\\begin{array}{c} \\\\ \\left|y_{A}-y_{B}\\right|=\\left|y_{1}-y_{2}\\right|=\\left|m^{2}-2 m-3\\right| \\\\ \\left|y_{A}-y_{B}\\right|=2 \\Leftrightarrow m^{2}-2 m-3=2 \\text { hoặc m }{ }^{2}-2 m-3=-2 \\\\ \\Leftrightarrow m=1 \\pm \\sqrt{6} \\text { hoặc } m=1 \\pm \\sqrt{2}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình chữ nhật %(A B C D)% có %(A B=4 \\mathrm{~cm}, A D=2 \\mathrm{~cm})%. Đường thẳng vuông góc với %(A C)% tại %(C)% cắt các đường thẳng %(A B)% và %(A D)% lần lượt tại %(E)% và %(F)%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 (null điểm)",
+        "point": 0.0,
+        "content": "a) Chứng minh tứ giác EBDF nội tiếp trong đường tròn",
+        "question_images": [],
+        "solution": "<img alt=\"Screenshot 2024-03-24 142503.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b3d8cc4be913d783543ceafc020148ad.png\" srcset=\"https://docdn.giainhanh.io/media/test/c652fa8f808052d5f4322684477a1d37.png 91w,\" width=\"91px\"/><br><br>Ta có:<br>\\[\\begin{array}{l}\\mathrm{ADB}=\\mathrm{ACB} \\\\mathrm{AEC}=\\mathrm{ACB} \\text { ( cùng phụ với } \\mathrm{BAC} \\text { ) } \\\\Rightarrow \\mathrm{ADB}=\\mathrm{AEC} \\\\Rightarrow \\text { tứ giác EBDF nội tiếp }\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "b) Gọi I là giao điểm của các đường thẳng %(\\mathrm{BD})% và %(\\mathrm{EF})%. Tính độ dài đoạn thẳng ID.",
+        "question_images": [],
+        "solution": "Tam giác %(A E C)% vuông tại %(C)% và %(B C \\perp A E)% nên: %(B E . B A=B C^{2})%<br>\\[\\begin{array}{l}\\Rightarrow \\mathrm{BE}=\\frac{\\mathrm{BC}^{2}}{\\mathrm{BA}}=1 \\\\mathrm{BE} / / \\mathrm{CD} \\Rightarrow \\frac{\\mathrm{IB}}{\\mathrm{ID}}=\\frac{\\mathrm{BE}}{\\mathrm{CD}}=\\frac{1}{4} \\\\Rightarrow \\frac{\\mathrm{BD}}{\\mathrm{ID}}=\\frac{3}{4} \\\\Rightarrow \\mathrm{ID}=\\frac{4}{3} \\mathrm{BD} \\text { và tính được: } \\mathrm{BD}=2 \\sqrt{5} \\\\Rightarrow \\mathrm{ID}=\\frac{8 \\sqrt{5}}{3}(\\mathrm{~cm})\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "c) %(M)% là điểm thay đổi trên cạnh %(A B)% ( %(M)% khác %(A, M)% khác %(B)% ), đường thẳng %(C M)% cắt đường thẳng %(A D)% tại %(N)%. Gọi %(S_{1})% là diện tích tam giác %(C M E, S_{2})% là diện tích tam giác %(A M N)%. Xác định vị trí điểm %(\\mathrm{M})% để %(\\mathrm{S}_{1}=\\frac{3}{2} \\mathrm{~S}_{2})%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Đặt } A M=x, 0\\lt x\\lt 4 \\\\Rightarrow M B=4-x, M E=5-x\\end{array}\\]<br>Ta có: %(\\quad \\frac{A N}{B C}=\\frac{\\mathrm{AM}}{\\mathrm{MB}} \\Rightarrow A N=\\frac{B C \\cdot \\mathrm{AM}}{\\mathrm{MB}}=\\frac{2 \\cdot x}{4-x})%<br>\\[\\begin{array}{l}S_{1}=\\frac{1}{2} \\text { BC.ME }=5-x, S_{2}=\\frac{1}{2} A M \\cdot A N=\\frac{x^{2}}{4-x} \\S_{1}=\\frac{3}{2} S_{2} \\Leftrightarrow 5-x=\\frac{3}{2} \\cdot \\frac{x^{2}}{4-x} \\Leftrightarrow x^{2}+18 x-40=0 \\\\Leftrightarrow x=2(\\text { vì } 0\\lt x\\lt 4)\\end{array}\\]<br>Vậy %(M)% là trung điểm %(A B)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b})% là hai số thực không âm thỏa: %(\\mathrm{a}+\\mathrm{b} \\leq 2)%.<br>Chứng minh: %(\\frac{2+\\mathrm{a}}{1+\\mathrm{a}}+\\frac{1-2 \\mathrm{~b}}{1+2 \\mathrm{~b}} \\geq \\frac{8}{7})%.",
+        "question_images": [],
+        "solution": "Bất đẳng thức cần chứng minh tương đương với:<br>\\[\\frac{1}{1+a}+\\frac{2}{1+2 b} \\geq \\frac{8}{7}\\]<br>Ta có: %(\\frac{1}{a+1}+\\frac{2}{2 b+1}=\\frac{1}{a+1}+\\frac{1}{b+\\frac{1}{2}} \\geq 2 \\frac{1}{\\sqrt{(a+1)\\left(b+\\frac{1}{2}\\right)}})%(1) (bđt Côsi)<br>\\[\\begin{aligned}& \\sqrt{(a+1)\\left(b+\\frac{1}{2}\\right)} \\leq \\frac{a+1+b+\\frac{1}{2}}{2} \\leq \\frac{7}{4} \\text { (bđt Cô si) } \\\\Rightarrow & \\frac{2}{\\sqrt{(a+1)\\left(b+\\frac{1}{2}\\right)}} \\geq \\frac{8}{7} \\text { (2) }\\end{aligned}\\]<br>Từ (1) và (2) suy ra: %(\\frac{1}{1+a}+\\frac{2}{1+2 b} \\geq \\frac{8}{7})%Dấu \"=\" xảy ra chỉ khi : %(a+1=b+\\frac{1}{2})% và %(a+b=2)%<br>\\[\\Leftrightarrow a=\\frac{3}{4} \\text { và } b=\\frac{5}{4}\\]",
+        "question_type": "essay"
+    }
+]

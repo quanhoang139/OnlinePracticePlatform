@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Cho %(A=n^{4}-10 n^{2}+9)%<br>Với mọi số nguyên n lẻ , chứng minh %(A)% chia hết cho 384",
+        "question_images": [],
+        "solution": "Ta có %(A=n^{4}-10 n^{2}+9=n^{4}-n^{2}-9 n^{2}+9=n^{2}\\left(n^{2}-1\\right)-9\\left(n^{2}-9\\right))%<br>\\[=\\left(n^{2}-1\\right)\\left(n^{2}-9\\right)=(n-1)(n+1)(n-3)(n+3)\\]<br>Theo giả thiết n số nguyên lẻ, nên đặt: %(n=2 k+1(k \\in N))%, ta viết lại:<br>\\[A=(2 k+2) \\cdot 2 k \\cdot(2 k+4) \\cdot(2 k-2)=16(k+1) \\cdot k(k+2) \\cdot(k-1)\\]<br>Ta nhận thấy rằng: %((k+1), k,(k+2),(k-1))% là 4 số nguyên liên tiếp nên sẽ chia hết cho %(2 \\cdot 3.4=24)%<br>%(\\Rightarrow A:(16.24)=384)% Với mọi số nguyên n lẻ.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Tìm các số nguyên %(a, b)% thỏa mãn: %(\\frac{5}{a+b \\sqrt{2}}-\\frac{4}{a-b \\sqrt{2}}+18 \\sqrt{2}=3)%",
+        "question_images": [],
+        "solution": "%(\\mathrm{ÐK}: a \\in Z, b \\in Z, a^{2}+b^{2} \\neq 0, a \\neq b \\sqrt{2})%<br>Ta có: %(\\frac{5}{a+b \\sqrt{2}}-\\frac{4}{a-b \\sqrt{2}}+18 \\sqrt{2}=3)%, với<br>\\[\\begin{array}{l}\\Leftrightarrow \\frac{5(a-b \\sqrt{2})-4(a+b \\sqrt{2})}{a^{2}-2 b^{2}}+18 \\sqrt{2}=3 \\\\Leftrightarrow a-9 b \\sqrt{2}=(3-18 \\sqrt{2})\\left(a^{2}-2 b^{2}\\right) \\\\Leftrightarrow a-9 b \\sqrt{2}=\\left(3 a^{2}-6 b^{2}\\right)-18 \\sqrt{2}\\left(a^{2}-2 b^{2}\\right) \\\\Leftrightarrow\\left(18 a^{2}-36 b^{2}-9 b\\right) \\sqrt{2}=3 a^{2}-6 b^{2}-a\\end{array}\\]<br>Nếu %(18 a^{2}-36 b^{2}-9 b \\neq 0 \\Rightarrow \\sqrt{2}=\\frac{3 a^{2}-6 b^{2}-a}{18 a^{2}-36 b^{2}-9 b})%<br>Vì %(a, b)% nguyên nên %(\\frac{3 a^{2}-6 b^{2}-a}{18 a^{2}-36 b^{2}-9 b} \\in Q \\Rightarrow \\sqrt{2} \\in Q)%<br>%(\\Rightarrow)% Vô lý vì %(\\sqrt{2})% là số vô tî<br>Vì thế ta có:<br>\\[18 a^{2}-36 b^{2}-9 b=0 \\Rightarrow\\left\\{\\begin{array} { l } { 1 8 a ^ { 2 } - 3 6 b ^ { 2 } - 9 b = 0 } \\\\{ 3 a ^ { 2 } - 6 b ^ { 2 } - a = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { 3 a ^ { 2 } - 6 b ^ { 2 } = \\frac { 3 } { 2 } b } \\\\{ 3 a ^ { 2 } - 6 b ^ { 2 } = a }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}a=\\frac{3}{2} b \\\\3 a^{2}-6 b^{2}=a\\end{array}\\right.\\right.\\right.\\]<br>thay %(a=\\frac{3 b}{2})% vào %(3 a^{2}-6 b^{2}-a=0)%, ta có:<br>\\[\\begin{array}{l}\\text { 3. } \\frac{9}{4} b^{2}-6 b^{2}-\\frac{3}{2} b=0 \\Leftrightarrow 27 b^{2}-24 b^{2}-6 b=0 \\Leftrightarrow 3 b(b-2)=0 \\\\Leftrightarrow\\left\\{\\begin{array}{l}b=0 \\text { (loai) } \\b=2 \\text { (thoa man) }\\end{array}\\right.\\end{array}\\]<br>Khi %(b=2 \\Rightarrow a=3)% (thỏa mãn)<br>Vậy %(a=3, b=2)% thỏa mãn điều kiện bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho biểu thức %(B=\\frac{(\\sqrt{x}+\\sqrt{y})^{2}}{x \\sqrt{x}+y \\sqrt{y}} \\cdot\\left(\\frac{x-y}{\\sqrt{x}-\\sqrt{y}}-\\frac{x \\sqrt{x}-y \\sqrt{y}}{x-y}\\right))%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Rút gọn B.",
+        "question_images": [],
+        "solution": "%(x, y\\gt 0, x \\neq y .)%<br>Ta có %(: B=\\frac{(\\sqrt{x}+\\sqrt{y})^{2}}{(\\sqrt{x}+\\sqrt{y})(x-\\sqrt{x y}+y)} \\cdot\\left(\\frac{(\\sqrt{x}-\\sqrt{y})(\\sqrt{x}+\\sqrt{y})}{\\sqrt{x}-\\sqrt{y}}-\\frac{(\\sqrt{x}-\\sqrt{y})(x+\\sqrt{x y}+y)}{(\\sqrt{x}-\\sqrt{y})(\\sqrt{x}+\\sqrt{y})}\\right))%<br>%(\\begin{array}{l}B=\\frac{\\sqrt{x}+\\sqrt{y}}{x-\\sqrt{x y}+y} \\cdot\\left(\\sqrt{x}+\\sqrt{y}-\\frac{x+\\sqrt{x y}+y}{\\sqrt{x}+\\sqrt{y}}\\right) \\B=\\frac{\\sqrt{x}+\\sqrt{y}}{x-\\sqrt{x y}+y} \\cdot \\frac{x+2 \\sqrt{x y}+y-x-\\sqrt{x y}-y}{\\sqrt{x}+\\sqrt{y}} \\B=\\frac{\\sqrt{x}+\\sqrt{y}}{x-\\sqrt{x y}+y} \\cdot \\frac{\\sqrt{x y}}{\\sqrt{x}+\\sqrt{y}}\\end{array})%<br>%(B=\\frac{\\sqrt{x y}}{x-\\sqrt{x y}+y})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) So sánh %(B)% và %(\\sqrt{B})%.",
+        "question_images": [],
+        "solution": "Vì %(x, y\\gt 0 \\Rightarrow \\sqrt{x y}>0)% và %(x-\\sqrt{x y}+y=\\left(\\sqrt{x}-\\frac{\\sqrt{y}}{2}\\right)^{2}+\\frac{3 y}{4}>0, \\forall x, y>0)%<br>Nên %(B>0)% với mọi %(x, y)% thỏa mãn điều kiện đã cho<br>Lại có: %((\\sqrt{x}-\\sqrt{y})^{2} \\geq 0 \\Leftrightarrow x+y-\\sqrt{x y} \\geq \\sqrt{x y})%<br>\\[\\begin{array}{l}\\Rightarrow \\frac{1}{x+y-\\sqrt{x y}} \\leq \\frac{1}{\\sqrt{x y}} \\\\Rightarrow \\frac{\\sqrt{x y}}{x+y-\\sqrt{x y}} \\leq \\frac{\\sqrt{x y}}{\\sqrt{x y}}=1\\end{array}\\]<br>Dấu \" = \" không xảy ra vì %(x \\neq y)%<br>Vậy %(0\\lt B\\lt 1)%, nên %(\\sqrt{B}>B)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Biết %(x^{2}+y^{2}=x+y)%<br>Tìm giá trị lớn nhất và nhỏ nhất của %(C=x-y)%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{aligned}C=x-y & =x+y-2 y \\\\& =x^{2}+y^{2}-2 y \\\\& =x^{2}+(y-1)^{2}-1 \\geq-1\\end{aligned}\\]<br>Dấu \" %(=)% \" xảy ra %(x=0, y=1)%<br>Vậy giá trị nhỏ nhất của %(C=-1 \\Leftrightarrow x=0 ; y=-1)%<br>Lại có:<br>\\[\\begin{aligned}C=x-y & =2 x-(x+y) \\\\& =2 x-\\left(x^{2}+y^{2}\\right) \\\\& =-\\left(x^{2}-2 x+1\\right)-y^{2}+1 \\\\& =-(x-1)^{2}-y^{2}+1 \\leq 1\\end{aligned}\\]<br>Dấu \" = \" xảy ra %(x=1, y=0)%<br>Vậy giá trị lớn nhất của %(C=1 \\Leftrightarrow x=1 ; y=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho biểu thức %(D=\\sqrt{4-\\sqrt{10-2 \\sqrt{5}}}-\\sqrt{4+\\sqrt{10-2 \\sqrt{5}}}+\\sqrt{2}(\\sqrt{2+\\sqrt{3}}+\\sqrt{14-5 \\sqrt{3}}))%<br>Chứng minh %(D)% là nghiệm của phương trình %(D^{2}-14 D+44=0)%",
+        "question_images": [],
+        "solution": "Ta có: %(D=\\sqrt{4-\\sqrt{10-2 \\sqrt{5}}}-\\sqrt{4+\\sqrt{10-2 \\sqrt{5}}}+\\sqrt{2}(\\sqrt{2+\\sqrt{3}}+\\sqrt{14-5 \\sqrt{3}}))%<br>\\[\\begin{array}{l}D=\\sqrt{4-\\sqrt{10-2 \\sqrt{5}}}-\\sqrt{4+\\sqrt{10-2 \\sqrt{5}}}+\\sqrt{4+2 \\sqrt{3}}+\\sqrt{28-10 \\sqrt{3}} \\D=\\sqrt{4-\\sqrt{10-2 \\sqrt{5}}}-\\sqrt{4+\\sqrt{10-2 \\sqrt{5}}}+\\sqrt{3}+1+5-\\sqrt{3} \\D-6=\\sqrt{4-\\sqrt{10-2 \\sqrt{5}}}-\\sqrt{4+\\sqrt{10-2 \\sqrt{5}}} \\text {, với }(D-6\\lt 0) \\\\Leftrightarrow(D-6)^{2}=8-2 \\sqrt{16-10+2 \\sqrt{5}} \\\\Leftrightarrow(D-6)^{2}=8-2(\\sqrt{5}+1)=6-2 \\sqrt{5} \\\\Leftrightarrow(D-6)^{2}=(\\sqrt{5}-1)^{2} \\\\Rightarrow D-6=1-\\sqrt{5} \\text { hay } D=7-\\sqrt{5} \\\\end{array}\\]<br>Ta có: %(D^{2}-14 D+44=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow(7-\\sqrt{5})^{2}-14(7-\\sqrt{5})+44=0 \\\\Leftrightarrow 54-14 \\sqrt{5}-98+14 \\sqrt{5}+44=0\\end{array}\\]<br>Vậy bài toán được chứng minh",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Cho %(x, y, z)% là ba số dương . Chứng minh rằng:<br>\\[\\frac{1}{x^{2}+y z}+\\frac{1}{y^{2}+z x}+\\frac{1}{z^{2}+x y} \\leq \\frac{1}{2}\\left(\\frac{1}{x y}+\\frac{1}{y z}+\\frac{1}{z x}\\right)\\]",
+        "question_images": [],
+        "solution": "Ta có: %(x^{2}+y z \\geq 2 x \\sqrt{y z} \\Rightarrow \\frac{1}{x^{2}+y z} \\leq \\frac{1}{2 x \\sqrt{y z}}=\\frac{\\sqrt{y z}}{2 x y z})%<br>Tương tự, ta cũng có: %(\\frac{1}{y^{2}+z x} \\leq \\frac{1}{2 y \\sqrt{z x}}=\\frac{\\sqrt{z x}}{2 x y z} ; \\frac{1}{z^{2}+x y} \\leq \\frac{1}{2 z \\sqrt{x y}}=\\frac{\\sqrt{x y}}{2 x y z})%<br>Mà: %(\\sqrt{y z} \\leq \\frac{y+z}{2} \\Rightarrow \\frac{\\sqrt{y z}}{2 x y z} \\leq \\frac{\\frac{y+z}{2}}{2 x y z}=\\frac{y+z}{4 x y z})%<br>Tương tự, ta có: %(\\frac{\\sqrt{z x}}{2 x y z} \\leq \\frac{z+x}{4 x y z} ; \\frac{\\sqrt{x y}}{2 x y z} \\leq \\frac{x+y}{4 x y z})%<br>Từ đó suy ra:<br>\\[\\begin{aligned}\\frac{1}{x^{2}+y z}+\\frac{1}{y^{2}+z x}+\\frac{1}{z^{2}+x y} \\leq \\frac{y+z}{4 x y z}+\\frac{z+x}{4 x y z}+\\frac{x+y}{4 x y z} & =\\frac{1}{4 x y z}(2 x+2 y+2 z) \\\\& =\\frac{1}{2}\\left(\\frac{1}{x y}+\\frac{1}{y z}+\\frac{1}{z x}\\right) \\text { (dpcm) }\\end{aligned}\\]<br>Dấu \" = \" xảy ra %(\\Leftrightarrow x=y=z)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho hình vuông %(A B C D)% có độ dài cạnh bằng a . Gọi %(I)% là trung điểm của cạnh %(A B)%. Điểm %(H)% thuộc cạnh %(D I)% sao cho %(A H)% vuông góc với %(D I)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng %(\\triangle C H D)% cân",
+        "question_images": [],
+        "solution": "Gọi %(K)% trung điểm của AD ; E là giao điểm của %(C K)% và %(D I)%.<br>Xét %(\\triangle A D I)% và %(\\triangle D C K)% có:<br>\\[\\widehat{C D K}=\\widehat{D A I}=90^{\\circ}(g t) ; C D=A D(g t) ; A I=D K\\left(=\\frac{A B}{2}=\\frac{C D}{2}\\right)\\]<br>Suy ra: %(\\triangle A D I=\\triangle D C K)% (c.g.c)<br>\\[\\Rightarrow \\widehat{A D I}=\\widehat{D C K} \\text {; mà } \\widehat{DCK}+\\widehat{DKC}=90^{\\circ}\\]<br>Suy ra: %(\\widehat{A D I}+\\widehat{D C K}=90^{\\circ})%<br>\\[\\Rightarrow K C \\perp D I \\text { (1) }\\]<br>- Lại có: %(H K)% là đường trung tuyến ứng với cạnh huyền %(A D)%<br>\\[\\Rightarrow H K=K D \\text { (2) }\\]<br>Từ (1) va (2) suy ra : KC là đường trung trực của %(D H)%<br>%(\\Rightarrow C H=C D \\Rightarrow \\triangle C H D)% cân tại %(C)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/fe644f9c0a35898d111f1dad32650fdd.png\" srcset=\"https://docdn.giainhanh.io/media/test/873496226a51fb37e384bc7daf6ebda8.png 245w, https://docdn.giainhanh.io/media/test/6f17b6e9b8131cdae9cef3bf3bab321a.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Tính diện tích %(\\triangle C H D)%.",
+        "question_images": [],
+        "solution": "Áp dụng định lý Pytago trong tam giác vuông %(A D I)%, ta tính được : %(D I=\\frac{a \\sqrt{5}}{2})%<br>Áp dụng hệ thức lượng trong tam giác vuông %(A D I)%, đường cao AH ta có:<br>\\[\\begin{array}{l}D H \\cdot D I=A D^{2} \\Rightarrow D H=\\frac{A D^{2}}{D I}=\\frac{a^{2}}{\\frac{a \\sqrt{5}}{2}}=\\frac{2 a}{\\sqrt{5}} \\A H \\cdot D I=A I \\cdot A D \\Rightarrow A H=\\frac{A I \\cdot A D}{D I}=\\frac{a^{2}}{2}: \\frac{a \\sqrt{5}}{2}=\\frac{a}{\\sqrt{5}}\\end{array}\\]<br>Mà %(E K)% là đường trung bình của %(\\triangle A H D \\Rightarrow E K=\\frac{1}{2} A H=\\frac{a}{2 \\sqrt{5}})%<br>Áp dụng hệ thức lượng trong tam giác vuông %(D K C)%, đường cao %(D E)% ta có:<br>\\[K E . C K=K D^{2} \\Rightarrow C K=\\frac{K D^{2}}{K E}=\\frac{a^{2}}{4}: \\frac{a}{2 \\sqrt{5}}=\\frac{a \\sqrt{5}}{2}\\]<br>Suy ra: %(C E=C K-K E=\\frac{a \\sqrt{5}}{2}-\\frac{a}{2 \\sqrt{5}}=\\frac{2 a}{\\sqrt{5}})%<br>Diện tích %(\\triangle C H D)% là: %(S_{C H D}=\\frac{1}{2} C E \\cdot D H=\\frac{1}{2} \\cdot \\frac{2 a}{\\sqrt{5}} \\cdot \\frac{2 a}{\\sqrt{5}}=\\frac{2 a^{2}}{5})% (đvdt)",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.0,
+        "content": "Xác định %(M)% nằm trong tam giác %(A B C)% sao cho tích các khoảng cách từ %(M)% đến các cạnh của tam giác đạt giá trị lớn nhất.",
+        "question_images": [],
+        "solution": "Đặt %(A B=c, B C=a, A C=b)%.<br>Gọi %(D, E, F)% lần lượt là hình chiếu của M trên các cạnh %(B C, A C, A B)% và đặt %(M D, M E, M F)% lần lượt là %(x, y, z)%.<br>Ta có: %(S_{A B C}=S_{M A B}+S_{M B C}+S_{M A C}=\\frac{x a+y b+z c}{2} \\geq \\frac{3 \\sqrt[3]{x a \\cdot y b \\cdot z c}}{2})%<br>%(\\Rightarrow S_{A B C} \\geq \\frac{3}{2} \\sqrt[3]{a b c} \\cdot \\sqrt[3]{x y z} \\Rightarrow \\sqrt[3]{x y z} \\leq \\frac{2 S_{A B C}}{3 \\sqrt[3]{a b c}} \\Leftrightarrow x y z \\leq \\frac{8 S^{3}}{27 a b C})% (luôn là hằng số không đổi)<br>Vậy tích các khoảng cách từ M đến 3 cạnh của %(\\triangle A B C)% đạt GTLN bằng %(\\frac{8 S^{3}{ }_{A B C}}{27 a b c})%<br>Dấu \" = \" xảy ra %(\\Leftrightarrow x a=b y=c z \\Leftrightarrow S_{M A B}=S_{M B C}=S_{M A C})%<br>Hay : %(M)% là trọng tâm của %(\\triangle A B C)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a71cb0fd2b0179b0f4a376f67d048b57.png\" srcset=\"https://docdn.giainhanh.io/media/test/3deb8661e5b02c452a44aca4aaf1df3d.png 245w, https://docdn.giainhanh.io/media/test/831ac1f48780df7817ee00fbb726b6ca.png 500w, https://docdn.giainhanh.io/media/test/bcb4073616c6df51b3c58d50308dd502.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    }
+]

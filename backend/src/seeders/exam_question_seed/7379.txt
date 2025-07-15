@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(A=\\frac{x \\sqrt{x}+5 \\sqrt{x}+6}{x-2 \\sqrt{x}-3}-\\frac{x-7 \\sqrt{x}-8}{x+2 \\sqrt{x}+1}-\\frac{2 x+10 \\sqrt{x}+12}{x-\\sqrt{x}-6})% với %(x \\geq 0, x \\neq 9)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "a) Rút gọn biểu thức %(A)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}A=\\frac{x \\sqrt{x}+5 \\sqrt{x}+6}{x+2 \\sqrt{x}-3}-\\frac{x-7 \\sqrt{x}-8}{x+2 \\sqrt{x}+1}-\\frac{2 x+10 \\sqrt{x}+12}{x-\\sqrt{x}-6} \\A=\\frac{(\\sqrt{x}+1)(x-\\sqrt{x}+6)}{(\\sqrt{x}+1)(\\sqrt{x}-3)}-\\frac{(\\sqrt{x}+1)(\\sqrt{x}-8)}{(\\sqrt{x}+1)^{2}}-\\frac{2(\\sqrt{x}+2)(\\sqrt{x}+3)}{(\\sqrt{x}+2)(\\sqrt{x}-3)} \\A=\\frac{x-\\sqrt{x}+6}{\\sqrt{x}-3}-\\frac{\\sqrt{x}-8}{\\sqrt{x}+1}-\\frac{2(\\sqrt{x}+3)}{\\sqrt{x}-3} \\A=\\frac{x+8}{\\sqrt{x}+1}\\end{array}\\]<br>Vậy %(A=\\frac{x+8}{\\sqrt{x}+1})% với %(x \\geq 0, x \\neq 9)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 0.5,
+        "content": "b) Tìm tất cả các giá trị của %(x)% để biểu thức %(\\frac{4}{A})% nhận giá trị nguyên.",
+        "question_images": [],
+        "solution": "Điều kiện xác định: %(x \\geq 0, x \\neq 9)%<br>Đặt %(B=\\frac{4}{A}=\\frac{4}{\\frac{x+8}{\\sqrt{x}+1}})%<br>Vì %(x \\geq 0)% nên %(x+8\\gt 0)%<br>\\[\\Rightarrow B\\gt 0(1)\\]<br>Xét %(B-1=\\frac{4(\\sqrt{x}+1)}{x+8}-1=\\frac{-(\\sqrt{x}-2)^{2}}{x+8} \\leq 0)%<br>\\[\\Rightarrow B \\leq 1(2)\\]<br>Từ (1),(2) %(\\Rightarrow 0\\lt B \\leq 1)% mà %(B)% nguyên nên %(B=1)%<br>Khi đó thì dấu \" %(=)% \" ở (2) xảy ra: %(\\sqrt{x}-2=0)% %(x=4)% (Thỏa mãn)<br>Vậy %(x=4)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Trong mặt phắng tọa độ %(O x y)%, cho parabol %((P))% có phương trình %(y=a x^{2})% và đường thẳng %((d))% có phương trình %(y=b x-1)% (với %(a, b)% là các tham số). Tìm các số hữu tỉ %(a, b)% để đường thẳng(d) cắt parabol %((P))% tại hai điểm phân biệt sao cho hoành độ một điểm là %(x=\\frac{\\sqrt{5}-\\sqrt{3}}{\\sqrt{5}+\\sqrt{3}})%.",
+        "question_images": [],
+        "solution": "Ta có: %(x=\\frac{\\sqrt{5}-\\sqrt{3}}{\\sqrt{5}+\\sqrt{3}}=4-\\sqrt{15})%<br>Dễ thấy %(a \\neq 0)% (Vì nếu %(a=0)% thì %((d))% cắt %((P))% tại một điểm)<br>Xét phương trình hoành độ giao điểm của %((P))% và %((d))%<br>\\[a x^{2}=b x-1 \\Leftrightarrow a x^{2}-b x+1=0(1)\\]<br>Do %((d))% cắt %((P))% tại hai điểm phân biệt nên phương trình (1) có hai nghiệm phân biệt hay %(\\Delta\\gt 0)%<br>\\[\\Rightarrow b^{2}-4 a>0 \\Leftrightarrow b^{2}>4 a\\]<br>Vì hoành độ một điểm là %(x=4-\\sqrt{15})% là nghiệm của phương trình (1)<br>\\[\\begin{array}{l}\\Rightarrow a(4-\\sqrt{15})^{2}-b(4-\\sqrt{15})+1=0 \\\\Leftrightarrow 31 a-8 \\sqrt{15} a-4 b+\\sqrt{15} b+1=0 \\\\sqrt{15}(b-8 a)=4 b-31 a-1\\end{array}\\]<br>Nếu %(b-8 a \\neq 0 \\Rightarrow \\sqrt{15}=\\frac{4 b-31 a-1}{b-18 a}(2))%<br>Ta thấy vế trái (2) là số vô tỷ, vế phải là số hữu tỉ nên vô lý.<br>Nếu %(b-8 a=0 \\Rightarrow 4 b-31 a-1=0)%<br>Từ đó tìm được %((a, b)=(1,8))% (Thỏa mãn)<br>Vậy %((a, b)=(1,8))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.1 ",
+        "point": 1.0,
+        "content": "Giải phương trình %(\\sqrt{x^{3}+1}+x^{2}-3 x-1=0)%.",
+        "question_images": [],
+        "solution": "ĐКХĐ: %(x \\geq-1)%<br>Ta có<br>\\[\\begin{array}{c}\\sqrt{x^{3}+1}+x^{2}-3 x-1=0 \\\\Leftrightarrow \\sqrt{(x+1)\\left(x^{2}-x+1\\right)}+\\left(x^{2}-x+1\\right)-2(x+1)=0 \\\\Leftrightarrow\\left(\\sqrt{\\left(x^{2}-x+1\\right)}-\\sqrt{x+1}\\right)\\left(\\sqrt{\\left(x^{2}-x+1\\right)}+2 \\sqrt{x+1}\\right)=0\\end{array}\\]<br>Ta xét 2 trường hợp sau:<br>(a)<br>\\[\\begin{array}{r}\\sqrt{\\left(x^{2}-x+1\\right)}-\\sqrt{x+1}=0 \\\\Leftrightarrow \\sqrt{\\left(x^{2}-x+1\\right)}=\\sqrt{x+1} \\\\Leftrightarrow x^{2}-x+1=x+1 \\\\Leftrightarrow x^{2}-2 x=0 \\\\Leftrightarrow x(x-2)=0\\end{array}\\]<br>Do đó %(x=2(\\mathrm{tm}))% hoặc %(x=0(\\mathrm{tm}))%<br>(b) %(\\sqrt{\\left(x^{2}-x+1\\right)}+2 \\sqrt{x+1}=0)%<br>Điều này vô lí do %(x^{2}-x+1=\\left(x-\\frac{1}{2}\\right)^{2}+\\frac{3}{4}\\gt 0)% nên %(\\sqrt{\\left(x^{2}-x+1\\right)}+2 \\sqrt{x+1}>0)%<br>Vậy tóm lại phương trình có tập nghiệm %(S=\\{0 ; 2\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.2 ",
+        "point": 0.5,
+        "content": "Giài hệ phương trình %(\\left\\{\\begin{array}{l}\\sqrt{x+1}+\\sqrt{y^{2}+4}+\\sqrt{y}=4 \\\\ 2 \\sqrt{x y^{2}+4 x+y^{2}+4}-y+4 \\sqrt{y}=8\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}DK\\left\\{\\begin{array}{l}x \\geq-1 \\y \\geq 0 \\x y^{2}+4 x+y^{2}+4 \\geq 0\\end{array}\\right. \\\\left\\{\\begin{array}{l}\\sqrt{x+1}+\\sqrt{y^{2}+4}+\\sqrt{y}=4(1) \\\\2 \\sqrt{x y^{2}+4 x+y^{2}+4}-y+4 \\sqrt{y}=8(2)\\end{array}\\right.\\end{array}\\]<br>Từ (1) ta có: %(\\left(\\sqrt{x+1}+\\sqrt{y^{2}+4}\\right)^{2}=(4-\\sqrt{y})^{2})%<br>Từ (2) ta có: %(4 \\sqrt{(x+1)\\left(y^{2}+4\\right)}-2 y+8 \\sqrt{y}=16)%<br>Trừ vế cho nhau ta được:<br>\\[\\left(\\sqrt{x+1}-\\sqrt{y^{2}+4}\\right)^{2}+y=0\\]<br>Ta thấy %(y \\geq 0,\\left(\\sqrt{x+1}-\\sqrt{y^{2}+4}\\right)^{2} \\geq 0)%<br>\\[\\Rightarrow\\left(\\sqrt{x+1}-\\sqrt{y^{2}+4}\\right)^{2}+y \\geq 0\\]<br>Dấu \" %(=)% \" xảy ra khi: %(\\sqrt{x+1}=\\sqrt{y^{2}+4}, y=0)%<br>Khi đó ta được %((x, y)=(3,0))% (Thỏa mãn)<br>Vậy hệ phương trình có nghiệm duy nhất %((x, y)=(3,0))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tìm tất cá các số tự nhiên %(n)% sao cho %(2 n-1)% và %(3 n+1)% là các số chính phương và %(6 n-13)% là số nguyên tố.",
+        "question_images": [],
+        "solution": "Ta thấy hiển nhiên %(n \\geq 3)% (Vì nếu %(n\\lt 3)% thì %(6 n-13 \\leq-1\\lt 0)% vô lý) Đặt %(2 n-1=a^{2}, 3 n+1=b^{2})%Ta có: %(6 n-13=9(2 n-1)-4(3 n+1)=9 a^{2}-4 b^{2}=(3 a-2 b)(3 a+2 b))% Mà %(6 n-13)% nguyên tố và %(3 a+2 b\\gt 3 a-2 b, 3 a+2 b>1)% nên:%(\\Rightarrow 3 a-2 b=1)% hay %(b=\\frac{3 a-1}{2})%Ta có hệ: %(\\left\\{\\begin{array}{l}2 n-1=a^{2}(1) \\\\ 3 n+1=\\frac{(3 a-1)^{2}}{4}(2)\\end{array}\\right.)%<br>Từ (1) %(\\Rightarrow n=\\frac{a^{2}+1}{2})% thay vào (2) ta được:<br>\\[\\frac{a^{2}+1}{2}+1=\\frac{(3 a-1)^{2}}{4}\\]<br>giải phương trình này ta được %(a=-1)% (Loại) hoặc %(a=3)%Với %(a=3 \\Rightarrow n=5)% (Thỏa mãn)<br>Vậy %(n=5)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho tam giác nhọn %(A B C)% nội tiếp đường tròn %((O))%. Các đường cao %(A D, B E, C F)% của tam giác %(A B C)% cắt nhau tại %(H)%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(D A)% là tia phân giác của góc %(E D F)%.",
+        "question_images": [],
+        "solution": "Vì %(\\angle B F H=\\angle B D H=90^{\\circ})% nên %(B F H D)% nội tiếp.<br>Vì %(\\angle H E C=\\angle H D C=90^{\\circ})% nên %(C E H D)% nội tiếp<br>Vì %(\\angle B F C=\\angle B E C=90^{\\circ})% nên %(B F E C)% nội tiếp<br>Do đó, ta có: %(\\angle F H D=\\angle F B H=\\angle F B E=\\angle F C E=\\angle H C E=\\angle H D E)%<br>Vậy %(D H)% là phân giác %(F D E)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/30e8616fb3a7633b328282d644c428d3.png\" srcset=\"https://docdn.giainhanh.io/media/test/acf542b9b1065231ff8386e1376e6ffa.png 170w, https://docdn.giainhanh.io/media/test/c55a2f1978687c42c49100b6ae9c11fa.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "b) Chứng minh %(\\frac{H D}{A D}+\\frac{H E}{B E}+\\frac{H F}{C F}=1)%.",
+        "question_images": [],
+        "solution": "Kí hiệu %(S_{A B C})% là diện tích %(\\triangle A B C)%, khi đó ta có<br>\\[\\begin{array}{l}\\frac{H D}{A D}+\\frac{H E}{B E}+\\frac{H F}{C F}=\\frac{\\frac{1}{2} H D \\cdot B C}{\\frac{1}{2} A D \\cdot B C}+\\frac{\\frac{1}{2} H E \\cdot A C}{\\frac{1}{2} B E \\cdot A C}+\\frac{\\frac{1}{2} H F \\cdot A B}{\\frac{1}{2} C F \\cdot A B}=\\frac{S_{B H C}}{S_{A B C}}+\\frac{S_{C H A}}{S_{A B C}}+\\frac{S_{A H B}}{S_{A B C}}=\\frac{S_{A B C}}{S_{A B C}} \\\\Rightarrow \\frac{H D}{A D}+\\frac{H E}{B E}+\\frac{H F}{C F}=1\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "c) Gọi %(M)% là giao điểm của tia %(E F)% với đường tròn %((O))%. Gọi %(P, Q)% lần lượt là tâm đường tròn ngoại tiếp tam giác %(B M F)% và tam giác %(C M E)%. Chứng minh %(A M \\perp P Q)%.",
+        "question_images": [],
+        "solution": "Gọi giao điểm thứ hai của %(E F)% với %((O))% là %(S)%<br>Kẻ đường kính %(A V)% của %((O))%. Gọi %(T)% là giao %(A V)% với %(E F)%<br>Ta có %(\\angle A F E=\\angle A C B)% (do %(B F E C)% nội tiếp)<br>\\[\\angle F A T=\\angle B A V=\\angle B C V\\]<br>Do đó %(\\angle A F E+\\angle F A T=\\angle A C B+\\angle B C V=\\angle A C V=90^{\\circ})%<br>Vậy %(A O \\perp E F)%. Do đó %(A \\dot{H}=\\stackrel{*}{N})%Suy ra %(\\angle A M F=\\angle M B F=\\angle M C E)%<br>Vậy nên %(\\angle A M P=\\angle A M F+\\angle F M P=\\angle A M F+\\frac{180^{\\circ}-\\angle M P F}{2}=\\angle M B F+90^{\\circ}-\\angle M B F=90^{\\circ})%. Suy ra %(A M \\perp M P)%<br>Ta có %(\\angle A M Q=\\angle A M F+\\angle E M Q=\\angle M C E+\\frac{180^{\\circ}-\\angle M Q E}{2}=\\angle M C E+90^{\\circ}-\\angle M C E=90^{\\circ})%Suy ra %(A M \\perp M Q)%<br>Vậy ta có %(M, P, Q)% thẳng hàng và %(P Q \\perp A M)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "d) Tìm mối liên hệ giữa các cạnh của tam giác %(A B C)% để biểu thức %(\\frac{(A B+B C+C A)^{2}}{A D^{2}+B E^{2}+C F^{2}})% đạt giá trị nhỏ nhất.",
+        "question_images": [],
+        "solution": "Đặt %(A B=c, A C=b, B C=a)%<br>Từ %(B)% kẻ tia %(B x)% vuông góc %(B E)%. Lấy %(N)% đối xứng %(A)% qua %(B x)%. Gọi %(M)% là trung điểm %(A N)%<br>Ta có: %(\\triangle A B N)% cân tại %(B)% nên %(B A=B N)%<br>Ta có: %(A E B M)% là hình chữ nhên nên %(\\triangle A N C)% vuông tại %(A)%%(\\Rightarrow A N^{2}+A C^{2}=N C^{2})% (Định lý Pytago)<br>Mà %(N C \\leq N B+B C)% (BĐT trong %(\\triangle B C N)% )<br>\\[\\begin{array}{l}\\Rightarrow A N^{2}+A C^{2} \\leq(B N+B C)^{2} \\\\Leftrightarrow 4 B E^{2}+A C^{2} \\leq(B A+B C)^{2} \\\\Leftrightarrow 4 B E^{2} \\leq(a+c)^{2}-b^{2}\\end{array}\\]<br>Tương tự: %(4 C F^{2} \\leq(a+b)^{2}-c^{2}, 4 A D^{2} \\leq(b+c)^{2}-a^{2})%<br>Do đó: %(4\\left(B E^{2}+C F^{2}+A D^{2}\\right) \\leq(a+b)^{2}+(b+c)^{2}+(a+c)^{2}-a^{2}-b^{2}-c^{2}=(a+b+c)^{2})%<br>\\[\\Rightarrow \\frac{(a+b+c)^{2}}{B E^{2}+C F^{2}+A D^{2}} \\geq 4\\]<br>Dấu \" =\" xảy ra khi: %(a=b, b=c, a=c)% hay %(a=b=c)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/14493f306350a6ef4cfc19b587e875b1.png\" srcset=\"https://docdn.giainhanh.io/media/test/adf7b6d4c401d06fd8f954d09efa4583.png 226w\" width=\"226\"/><br><img alt=\"image.png\" src=\"https://docdn.giainhanh.io/media/test/43f7595df9f145ed415725cabb7542e6.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho %(a, b, c)% là ba số thực dương thỏa mãn điều kiện %(a b c \\geq 1)%. Tìm giá trị lớn nhất của biểu thức %(P=\\frac{1}{a^{2}+1+b c}+\\frac{1}{b^{2}+1+a c}+\\frac{1}{a b\\left(c^{3}+1\\right)+1})%.",
+        "question_images": [],
+        "solution": "Ta có: %(a b\\left(c^{3}+1\\right)+1=a b c^{3}+a b+1 \\geq c^{2}+1+a b \\geq 2 c+a b)% (Áp dụng %(a b c \\geq 1)% và BĐT AM-GM cho 2 số %(\\left.c^{2}, 1\\right))%<br>\\[\\Rightarrow \\frac{1}{a b\\left(c^{3}+1\\right)+1} \\leq \\frac{1}{2 c+a b}=\\frac{c}{2 c^{2}+a b c} \\leq \\frac{c}{2 c^{2}+1}(\\text { Do } a b c \\geq 1)\\]<br>Ta có: %(a^{2}+1+b c \\geq 2 a+b c)% (Áp dụng BĐT AM-GM cho 2 số %(a^{2}, 1)% )<br>\\[\\Rightarrow \\frac{1}{a^{2}+1+b c} \\leq \\frac{1}{2 a+b c}=\\frac{a}{2 a^{2}+a b c} \\leq \\frac{a}{2 a^{2}+1}\\]<br>Tương tự: %(\\frac{1}{b^{2}+1+a c} \\leq \\frac{b}{2 b^{2}+1})%Do đó: %(P \\leq \\frac{a}{2 a^{2}+1}+\\frac{b}{2 b^{2}+1}+\\frac{c}{2 c^{2}+1})%Ta có: %(2 a^{2}+1=a^{2}+a^{2}+1 \\geq a+2 a)% (Áp dụng BĐT AM-GM cho 2 số %(a^{2}, 1)% )<br>\\[\\Rightarrow \\frac{a}{2 a^{2}+1} \\leq \\frac{a}{a^{2}+2 a}=\\frac{1}{a+2}\\]<br>Tương tự: %(\\frac{b}{2 b^{2}+1} \\leq \\frac{1}{b+2}, \\frac{c}{2 c^{2}+1} \\leq \\frac{1}{c+2})%<br>\\[\\Rightarrow P \\leq \\frac{1}{a+2}+\\frac{1}{b+2}+\\frac{1}{c+2}\\]<br>Ta chứng minh %(\\frac{1}{a+2}+\\frac{1}{b+2}+\\frac{1}{c+2} \\leq 1\\left({ }^{* *}\\right))%<br>Thật vậy %((* *) \\Leftrightarrow a b+b c+a c+a b c \\geq 4(* * *))%<br>Áp dụng BĐT AM-GM ta được: %(a+b+c \\geq 3 \\sqrt[3]{a b c} \\geq 3)% và %(a b c \\geq 1)% (giả thiết) %(\\Rightarrow(* * *))% đúng.<br>\\[\\Rightarrow P \\leq 1\\]<br>Dấu \"=\" xảy ra khi: %(a=b=c=1)%Vậy GTLN của %(P)% là 1 khi %(a=b=c=1)%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,208 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.25,
+        "content": "Một câu lạc bộ có 25 thành viên. Số cách chọn một ban quản lí gồm 1 chủ tịch, 1 phó chủ tịch và 1 thư kí là:",
+        "question_images": [],
+        "labelA": "6900.",
+        "labelB": "5600.",
+        "labelC": "Một kết quả khác.",
+        "labelD": "13800.",
+        "correct_label": "labelD",
+        "solution": "Mỗi cách chọn 3 người ở 3 vị trí là một chỉnh hợp chập 3 của 25 thành viên.<br>Số cách chọn là: %(A_{25}^{3}=13800)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "2 ",
+        "point": 0.25,
+        "content": "Cho %(f(x)=x^{2}+4)%. Khẳng định nào sau đây là đúng?",
+        "question_images": [],
+        "labelA": "%(f(x)\\gt 0, \\forall x \\in \\mathbb{R})%",
+        "labelB": "%(f(x)\\lt 0, \\forall x \\in \\mathbb{R})%",
+        "labelC": "%(f(x)=0, \\forall x \\in \\mathbb{R})%",
+        "labelD": "%(f(x)\\lt 0, \\forall x \\in(-\\infty ;-2) \\cup(2 ;+\\infty))%",
+        "correct_label": "labelA",
+        "solution": "Cách 1: Ta có: %(x^{2} \\geq 0, \\forall x \\in \\mathbb{R} \\Rightarrow x^{2}+4\\gt 0, \\forall x \\in \\mathbb{R})%.<br>Cách 2: %(f(x)=x^{2}+4)% là tam thức bậc hai có %(a=1, \\Delta=-16\\lt 0)%<br>%(\\Rightarrow f(x)>0, \\forall x \\in \\mathbb{R})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "3 ",
+        "point": 0.25,
+        "content": "Tập nghiệm %(S)% của phương trình và %(\\sqrt{x^{2}-4}=x-2)% là",
+        "question_images": [],
+        "labelA": "%(S=\\{0\\})%",
+        "labelB": "%(S=\\{2\\})%",
+        "labelC": "%(S=\\{0 ; 2\\})%",
+        "labelD": "%(S=\\varnothing)%",
+        "correct_label": "labelB",
+        "solution": "%(\\sqrt{x^{2}-4}=x-2 \\Leftrightarrow\\left\\{\\begin{array}{l}x-2 \\geq 0 \\\\ x^{2}-4=(x-2)^{2}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 2 \\\\ 4 x-8=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 2 \\\\ x=2\\end{array} \\Leftrightarrow x=2\\right.\\right.\\right.)%.<br>Vậy tập nghiệm của phương trình %(S=\\{2\\})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "4 ",
+        "point": 0.25,
+        "content": "Từ một nhóm gồm 5 học sinh nam và 7 học sinh nữ, có bao nhiêu cách lập ra một nhóm gồm hai học sinh có cả nam và nữ?",
+        "question_images": [],
+        "labelA": "35.",
+        "labelB": "70.",
+        "labelC": "12.",
+        "labelD": "20.",
+        "correct_label": "labelA",
+        "solution": "Để lập ra một nhóm gồm hai học sinh có cả nam và nữ, ta thực hiện liên tiếp 2 công đoạn là chọn 1 học sinh nam và chọn 1 học sinh nữ, nên theo quy tắc nhân ta được %(C_{5}^{1} \\cdot C_{7}^{1}=35)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "5 ",
+        "point": 0.25,
+        "content": "Trong mặt phẳng %(O x y)%, đường thẳng đi qua %(A(-1 ; 2))%, nhận %(\\vec{n}=(2 ;-4))% làm véc tơ pháp tuyến có phương trình là:",
+        "question_images": [],
+        "labelA": "%(x+y+4=0)%",
+        "labelB": "%(-x+2 y-4=0)%",
+        "labelC": "%(x-2 y+5=0)%",
+        "labelD": "%(x-2 y-4=0)%",
+        "correct_label": "labelC",
+        "solution": "%(d:\\left\\{\\begin{array}{l}\\text { qua } A(-1 ; 2) \\\\ \\operatorname{VTPT} \\vec{n}=(2 ;-4)\\end{array} \\Rightarrow d: 2(x+1)-4(y-2)=0 \\Rightarrow d: x-2 y+5=0\\right.)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "6 ",
+        "point": 0.25,
+        "content": "Từ một nhóm học sinh gồm 6 nam và 8 nữ, có bao nhiêu cách chọn ra một học sinh?",
+        "question_images": [],
+        "labelA": "14.",
+        "labelB": "48.",
+        "labelC": "6.",
+        "labelD": "8.",
+        "correct_label": "labelA",
+        "solution": "Số cách chọn 1 học sinh từ nhóm gồm 14 học sinh là 14.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "7 ",
+        "point": 0.25,
+        "content": "Cho đường thẳng %((d): 2 x+3 y-4=0)%. Véc tơ nào sau đây là véc tơ chỉ phương của %((d))%?",
+        "question_images": [],
+        "labelA": "%(\\vec{u}=(3 ;-2))%",
+        "labelB": "%(\\vec{u}=(-3 ;-2))%",
+        "labelC": "%(\\vec{u}=(2 ; 3))%",
+        "labelD": "%(\\vec{u}=(3 ; 2))%",
+        "correct_label": "labelA",
+        "solution": "Vectơ pháp tuyến của %(d)% là %(\\vec{n}=(2 ; 3))%.<br>Suy ra vectơ chỉ phương của %(d)% là %(\\vec{u}=(3 ;-2))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "8 ",
+        "point": 0.25,
+        "content": "Cho hàm số %(y=a x^{2}+b x+c(a \\neq 0))% có đồ thị %((P))%. Tọa độ đỉnh của %((P))% là",
+        "question_images": [],
+        "labelA": "%(I\\left(-\\frac{b}{a} ; \\frac{\\Delta}{4 a}\\right))%",
+        "labelB": "%(I\\left(\\frac{b}{a} ; \\frac{\\Delta}{4 a}\\right))%",
+        "labelC": "%(I\\left(-\\frac{b}{a} ;-\\frac{\\Delta}{4 a}\\right))%",
+        "labelD": "%(I\\left(-\\frac{b}{2 a} ;-\\frac{\\Delta}{4 a}\\right))%",
+        "correct_label": "labelD",
+        "solution": "Ta có: %(I\\left(-\\frac{b}{2 a} ;-\\frac{\\Delta}{4 a}\\right))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "9 ",
+        "point": 0.25,
+        "content": "Trong trò chơi \"Hãy chọn giá đúng\" chiếc kim của bánh xe có thể dừng lại ở' 1 trong 20 nấc điểm với khả năng như nhau. Tính xác xuất để trong hai lần quay, chiếc kim của bánh xe đó dừng lại ở hai nấc điểm khác nhau.",
+        "question_images": [],
+        "labelA": "%(\\frac{9}{10})%",
+        "labelB": "%(\\frac{1}{20})%",
+        "labelC": "%(\\frac{19}{20})%",
+        "labelD": "%(\\frac{1}{10})%",
+        "correct_label": "labelC",
+        "solution": "Số phần tử của không gian mẫu: %(n(\\Omega)=20^{2}=400)%.<br>Gọi %(A)% là biến cố: \"trong hai lần quay, chiếc kim của bánh xe đó dừng lại ở hai nấc điểm khác nhau\".<br>Ta có %(n(A)=A_{20}^{2}=380)%.<br>Vậy %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{380}{400}=\\frac{19}{20})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "10 ",
+        "point": 0.25,
+        "content": "Phương trình nào dưới đây có đồ thị là một hình elip?",
+        "question_images": [],
+        "labelA": "%(\\frac{x}{16}+\\frac{y}{9}=1)%",
+        "labelB": "%(\\frac{x^{2}}{25}+\\frac{y^{3}}{9}=1)%",
+        "labelC": "%(\\frac{x^{2}}{9}+\\frac{y^{2}}{4}=2)%",
+        "labelD": "%(\\frac{x}{18}+\\frac{y^{2}}{9}=2)%",
+        "correct_label": "labelC",
+        "solution": "Phương trình chính tắc của Elip có dạng là: %(\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1)%.<br>Trong 4 phương trình, B là phương trình duy nhất có bậc đối với ẩn %(x)% hay %(y)% đều là bậc %(2 ;)%<br>%(\\frac{x^{2}}{9}+\\frac{y^{2}}{4}=2 \\Leftrightarrow \\frac{x^{2}}{\\frac{9}{2}}+\\frac{y^{2}}{\\frac{4}{2}}=1)%.<br>Vậy phương trình B có đồ thị là một hình elip.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "11 ",
+        "point": 0.25,
+        "content": "Cho đường thẳng %(\\Delta: 2 x-y+1=0)%. Điểm nào sau đây nằm trên đường thẳng %(\\Delta)%?",
+        "question_images": [],
+        "labelA": "%(A(1 ; 1))%",
+        "labelB": "%(B\\left(\\frac{1}{2} ; 2\\right))%",
+        "labelC": "%(B\\left(\\frac{1}{2} ;-2\\right))%",
+        "labelD": "%(D(0 ;-1))%",
+        "correct_label": "labelB",
+        "solution": "Thay tọa độ điểm %(B\\left(\\frac{1}{2} ; 2\\right))% vào đường thẳng %(\\Delta: 2 x-y+1=0)% ta được 2. %(\\frac{1}{2}-2+1=0)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "12 ",
+        "point": 0.25,
+        "content": "Xác định tâm %(I)% và bán kính %(R)% của đường tròn %(x^{2}+y^{2}-6 x-8 y=0)%.",
+        "question_images": [],
+        "labelA": "%(I(3 ; 4) ; R=10)%",
+        "labelB": "%(I(-3 ;-4) ; R=5)%",
+        "labelC": "%(I(-3 ;-4) ; R=25)%",
+        "labelD": "%(I(3 ; 4) ; R=5)%",
+        "correct_label": "labelD",
+        "solution": "%(x^{2}+y^{2}-6 x-8 y=0 \\Leftrightarrow(x-3)^{2}+(y-4)^{2}=25)%. Vậy %(I(3 ; 4) ; R=5)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "17 ",
+        "point": 0.5,
+        "content": "Có bao nhiêu số chẵn gồm bốn chữ số đôi một khác nhau được lập từ các chữ số %(0,1,2,3,4,5,6)%",
+        "question_images": [],
+        "solution": "Trường hợp 1: %(d=0)%.<br>Chọn %(d)% có 1 cách.<br>Chọn %(a)% có 6 cách (khác d).<br>Chọn %(b)% có 5 cách (khác %(a, d)%.<br>Chọn %(c)% có 4 cách (khác %(a, b, d)% ).<br>Vậy trường hợp 1 có %(1.6 \\cdot 5 \\cdot 4=120)% số thoả mãn đề bài.<br>Trường hợp 2: %(d \\neq 0)%.<br>Chọn %(d)% có 3 cách %((2,4,6))%.<br>Chọn %(a)% có 5 cách (khác 0 và %(d)% ).<br>Chọn %(b)% có 5 cách (khác %(a, d)% ).<br>Chọn %(c)% có 4 cách (khác %(a, b, d)% ).<br>Vậy trường hợp 2 có %(3 \\cdot 5 \\cdot 5 \\cdot 4=300)% số thoả mãn đề bài.<br>Như vậy có %(120+300=420)% số thoả mãn đề bài.",
+        "question_type": "essay"
+    },
+    {
+        "title": "18 ",
+        "point": 0.5,
+        "content": "Từ các chữ số %(0,1,2,3,4,5)% có thể lập được bao nhiêu số tự nhiên gồm bốn chữ số phân biệt và chia hết cho 4?",
+        "question_images": [],
+        "solution": "Gọi số tự nhiên cần tìm: %(\\overline{a b c d})%.<br>- Nhận xét: Một số tụ nhiên (gồm nhiều chữ số) chia hết cho 4 khi hai chữ số cuối của nó hình thành một số tư nhiên chia hết cho 4.<br>Theo đề, ta có %(\\overline{c d} \\in\\{04,12,20,24,32,40,52\\})%.<br>Trường hợp 1: %(\\overline{c d} \\in\\{04,20,40\\})%, có 3 cách chọn %(\\overline{c d})%.<br>Chọn %(a)% : có 4 cách; chọn %(b: 3)% cách.<br>Vậy số các số thỏa mãn là %(3.4 .3=36)% (số).<br>Trường hợp 2 : %(\\overline{c d} \\in\\{12,24,32,52\\})%, có 4 cách chọn.<br>Chọn %(a)% : có 3 cách; chọn %(b)% : có 3 cách.<br>Số các số thỏa mãn là %(4.3 \\cdot 3=36)%.<br>Vậy số các số tự nhiên thỏa đề bài là %(36+36=72)% (số).",
+        "question_type": "essay"
+    },
+    {
+        "title": "19 ",
+        "point": 0.5,
+        "content": "Một cửa hàng nhân dịp Noel đã đồng loạt giảm giá các sản phẩm. Trong đó có chương trình nếu mua một gói kẹo thứ hai trở đi sẽ được giảm %(10 \\%)% so với giá ban đầu. Biết giá gói đầu là 60000 đồng. Bạn An có 500000 đồng. Hỏi bạn An có thể mua tối đa bao nhiêu gói kẹo?",
+        "question_images": [],
+        "solution": "Xét một người mua %(x)% gói kẹo ( %(x)% nguyên dương). Khi đó: Gói thứ nhất người đó trả 60000 đồng.<br>Số gói kẹo còn lại là %(x-1)% và người đó chỉ phải trả<br>%(60000-10 \\% 60000=54000)% đồng (mỗi gói).<br>Vậy số tiền phải trả khi mua kẹo được tính theo công thức<br>%(y=60000+(x-1) \\cdot 54000=54000 x+6000)%.<br>Số tiền bạn An dùng mua kẹo phải không quá 500000 đồng, suy ra:<br>%(54000 x+6000 \\leq 500000 \\Rightarrow x \\leq \\frac{247}{27} \\approx 9,148)%.<br>Vậy, với số tiền hiện có, bạn An chỉ có thể mua được tối đa 9 gói kẹo.",
+        "question_type": "essay"
+    },
+    {
+        "title": "20 ",
+        "point": 0.5,
+        "content": "Một người cần đặt một tiệc cưới ước tính khoảng 30 đến 35 bàn. Nhà hàng thứ nhất đề nghị anh nay đóng tiền cố định 20 triệu đồng, sau khi tiệc cưới diễn ra sẽ đóng khoản còn lại với số tiền 2 triệu đồng %(/ 1)% bàn. Nhà hàng thứ hai đề nghị anh đóng tiền cố định 10 triệu đồng, sau khi tiệc cưới diễn ra sẽ đóng khoản còn lại với số tiền 2,5 triệu/1 bàn. Hỏi anh này nên lựa chọn nhà hàng nào để tiết kiệm được chi phí cho tiệc cưới (giả sử rằng chất lượng phục vụ hai nhà hàng trên là ngang nhau)?",
+        "question_images": [],
+        "solution": "Gọi %(x)% là số bàn tiệc thực tế trong đám cưới ( %(x)% nguyên dương và %(x \\in[30 ; 35])% ) và %(y)% (triệu đồng) là số tiền mà người đó phải trả cho nhà hàng.<br>Nếu đăng ký tại nhà hàng thứ nhất, người đó sẽ trả tiền theo công thức: %(y=2 x+20)%.<br>Với %(x \\in[30 ; 35])% thì %(y \\in[80 ; 90])%, tức là người đó phải trả khoản tiền khoảng 80 triệu đến 90 triệu cho nhà hàng thứ nhất.<br>Nếu đăng ký tại nhà hàng thứ hai, người đó sẽ trả tiền theo công thức: %(y=2,5 x+10)%.<br>Với %(x \\in[30 ; 35])% thì %(y \\in[85 ; 97,5])%, tức là người đó phải trả khoản tiền khoảng 85 triệu đến 97,5 triệu cho nhà hàng thứ hai.<br>Vậy, nếu chất lượng phục vụ hai nhà hàng là tương đương, người đó nên chọn nhà hàng thứ nhất để tiết kiệm một khoản chi phí tiệc cưới.",
+        "question_type": "essay"
+    },
+    {
+        "title": "21 ",
+        "point": 0.5,
+        "content": "Trong mặt phẳng tọa độ %(O x y)%, cho đường thẳng %((d))% có phương trình: %(x-2 y+5=0)%. Viết phương trình đường thẳng qua %(M(2 ; 1))% và tạo với %((d))% một góc %(45^{\\circ})%.",
+        "question_images": [],
+        "solution": "Gọi %(\\Delta)% là đường thẳng cần tìm; %(\\vec{n}=(A, B))% là VTPT của %(\\Delta\\left(A^{2}+B^{2} \\neq 0\\right))%<br>Để %(\\Delta)% tạo với %((d))% một góc %(45^{\\circ})% thì<br>%(\\cos 45^{\\circ}=\\frac{|A-2 B|}{\\sqrt{A^{2}+B^{2}} \\cdot \\sqrt{5}}=\\frac{1}{\\sqrt{2}} \\Leftrightarrow 2(A-2 B)^{2}=5\\left(A^{2}+B^{2}\\right) \\Leftrightarrow\\left[\\begin{array}{l}A=-3 B \\B=3 A\\end{array}\\right.)%<br>+ Với %(A=-3 B)%, chọn %(B=-1 \\Rightarrow A=3)% :<br>Khi đó %(\\Delta)% qua %(M(2 ; 1))% và vectơ pháp tuyến %(\\vec{n}=(3 ;-1))%<br>%(\\Rightarrow \\Delta: 3(x-2)-1(y-1)=0 \\Leftrightarrow \\Delta: 3 x-y-5=0 .)%<br>+ Với %(B=3 A)%, chọn %(A=1 \\Rightarrow B=3)% :<br>Khi đó %(\\Delta)% qua %(M(2 ; 1))% và vectơ pháp tuyến %(\\vec{n}=(1 ; 3))%<br>%(\\Rightarrow \\Delta: 1(x-2)+3(y-1)=0 \\Leftrightarrow \\Delta: x+3 y-5=0 .)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "22 ",
+        "point": 0.5,
+        "content": "Nhà Nam có một ao cá dạng hình chữ nhật %(M N P Q)% với chiều dài %(M Q=30 \\mathrm{~m})%, chiều rộng %(M N=24 m)%. Phần tam giác %(Q S T)% là nơi nuôi ếch, %(M S=10 \\mathrm{~m}, P T=12 \\mathrm{~m})% (với %(S, T)% lần lượt là các điểm nằm trên cạnh %(M Q, P Q)% ) (xem hình bên dưới).<br>Nam đửng ở vị trí %(N)% câu cá và có thể quăng lưỡi câu xa %(21,4 \\mathrm{~m})%. Hỏi lưỡi câu có thể rơi vào nơi nuôi ếch hay không?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/36ca0700f4cc8758db648e5902ddf900.png"
+        ],
+        "solution": "%(M N=24 \\mathrm{~m})% và %(N(0 ; 0))% nên %(M(0 ; 24) . N P=M Q=30 \\mathrm{~m})% nên %(P(30 ; 0))%.<br>%(Q)% và %(M)% có cùng tung độ, %(Q)% và %(P)% có cùng hoành độ nên %(Q(30 ; 24))%.<br>%(S)% và %(M)% có cùng tung độ, %(M S=10 m)% nên %(S(10 ; 24))%.<br>%(T)% và %(P)% có cùng hoành độ, %(P T=12 m)% nên %(T(30 ; 12))%.<br>Đường thẳng %(S T)% có vectơ chỉ phương %(\\overrightarrow{S T}=(20 ;-12))% nên nhận %(\\vec{n}=(3 ; 5))% làm vectơ pháp tuyến.<br>Do đó, phương trình đường thẳng %(S T)% là:<br>%(3(x-10)+5(y-24)=0 \\Leftrightarrow 3 x+5 y-150=0 \\text {. })%<br>Khoảng cách từ điểm %(N(0 ; 0))% đến đường thẳng %(S T)% là:<br>%(\\frac{|3 \\cdot 0+5 \\cdot 0-150|}{\\sqrt{3^{2}+5^{2}}} \\approx 25,72\\gt 21,4 \\text {. })%<br>Vì Nam quăng lưỡi câu xa %(21,4 \\mathrm{~m})% nên lưỡi câu không thể rơi vào nơi nuôi ếch.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7d38d13cb2acfc75a92760f363619b3a.png\" srcset=\"https://docdn.giainhanh.io/media/test/39c3cbc6472611ce91176a7dac4c897d.png 191w\" width=\"191\"/>",
+        "question_type": "essay"
+    }
+]

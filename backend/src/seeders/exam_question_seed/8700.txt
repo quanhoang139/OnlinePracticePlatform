@@ -1,0 +1,107 @@
+[
+    {
+        "title": "1",
+        "group_content": "Tĩnh điện<br>Một tụ phẳng không khí tạo bởi hai bản song song, mỗi vản có diện tích %(\\mathrm{S}=20 \\mathrm{~cm}^{2})%, đặt cách nhau một khoảng %(\\mathrm{d}=2 \\mathrm{~mm})%. Giữa hai bản tụ đặt một tấm có bề dày là %(\\mathrm{d} / 2)% có cùng diện tích với hai bản tụ, hằng số điện môi %(\\varepsilon=2)% và điện trờ suất %(\\rho=10^{10} \\Omega \\mathrm{m})%. Tụ được mắc vào một nguồn điện không đổi %(50 \\mathrm{~V})% qua khóa %(\\mathrm{K})% (như hình vẽ).",
+        "group_images": [
+            "https://docdn.giainhanh.io/media/test/5f7a1316bd4826f65438a4b21e591d84.PNG"
+        ],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 3.25,
+        "content": "a) Tính thời gian đặc trưng của sự tồn tại dòng điện trong mạch khi đóng khóa %(\\mathrm{K})%.",
+        "question_images": [],
+        "solution": "Ngay sau khi đóng mạch điện, trên mặt tẩm xuất hiện điện tích phân cực, mật độ điện tích trên bản tụ như hình vẽ:<br>- Hiệu điện thế giữa hai bản tụ: %(\\mathrm{U}_{0}=\\mathrm{E}_{0} \\frac{\\mathrm{d}}{2}+\\mathrm{E}_{1} \\frac{\\mathrm{d}}{2})% (1)<br>Với %(\\left\\{\\begin{array}{l}\\mathrm{E}_{0}=\\frac{\\sigma_{0}}{\\varepsilon_{0}} \\\\ \\mathrm{E}_{1}=\\frac{\\sigma_{0}-\\sigma_{1}}{\\varepsilon_{0}}\\end{array}\\right.)%(2); %(\\mathrm{E}_{1}=\\frac{\\mathrm{E}_{0}}{\\varepsilon})%<br>\\[\\Rightarrow \\mathrm{E}_{0}=\\frac{\\varepsilon}{\\varepsilon+1} \\frac{2 \\mathrm{U}_{0}}{\\mathrm{~d}}\\]<br>- Điện tích của tụ:<br>\\[\\mathrm{Q}_{0}=\\sigma_{0} \\mathrm{~S}=\\varepsilon_{0} \\mathrm{E}_{0} \\mathrm{~S}=\\frac{\\varepsilon}{\\varepsilon+1} \\frac{2 \\mathrm{U}_{0} \\varepsilon_{0} \\mathrm{~S}}{\\mathrm{~d}}=5,9.10^{-10}(\\mathrm{C})\\]<br>- Điện tích của tụ:<br>\\[\\mathrm{Q}_{0}=\\sigma_{0} \\mathrm{~S}=\\varepsilon_{0} \\mathrm{E}_{0} \\mathrm{~S}=\\frac{\\varepsilon}{\\varepsilon+1} \\frac{2 \\mathrm{U}_{0} \\varepsilon_{0} \\mathrm{~S}}{\\mathrm{~d}}=5,9.10^{-10}(\\mathrm{C})\\]<br>* Dưới tác dụng của điện trường trong tấm có dòng điện, dòng điện làm thay đổi điện tích trên các bản tụ. Dòng điện chấm dứt khi điện trường trong tấm bằng không.<br>* Khi dòng điện trong tấm bằng %(0:\\left\\{\\begin{array}{l}\\mathrm{E}_{1}^{\\prime}=0 \\\\ \\mathrm{E}_{0}^{\\prime}=\\frac{2 \\mathrm{U}_{0}}{\\mathrm{~d}}\\end{array}\\right.)%<br>- Điện tích trên các bản tụ: %(\\mathrm{Q}_{0}=\\sigma_{0}^{\\prime} \\mathrm{S}=\\varepsilon_{0} \\mathrm{E}_{0}^{\\prime} \\mathrm{S}=\\frac{2 \\mathrm{U}_{0} \\varepsilon_{0} \\mathrm{~S}}{\\mathrm{~d}}=8,8.10^{-10}(\\mathrm{C})(3))%<br>- Từ (1) và (2) suy ra: %(\\sigma_{0}=\\frac{\\mathrm{U}_{0} \\varepsilon_{0}}{\\mathrm{~d}}+\\frac{\\sigma_{1}}{2})%<br>\\[\\begin{array}{l}Q_{0}=\\sigma_{0} S=\\frac{U_{0} \\varepsilon_{0} S}{d}+\\frac{\\sigma_{1} S}{2}=\\frac{U_{0} \\varepsilon_{0} S}{d}+\\frac{Q_{1}}{2} \\\\Rightarrow Q_{1}=2 Q_{0}-\\frac{2 U_{0} \\varepsilon_{0} S}{d} \\text { (4) }\\end{array}\\]<br>- Cường độ dòng diện trong mạch:<br>\\[\\mathrm{I}=\\frac{\\Delta \\mathrm{Q}_{1}}{\\Delta \\mathrm{t}}=\\frac{E_{1} \\frac{d}{2}}{R}=\\frac{E_{1} S}{\\rho}=\\frac{\\left(\\sigma_{0}-\\sigma_{1}\\right) \\mathrm{S}}{\\varepsilon_{0} \\rho}=\\frac{\\mathrm{Q}_{0}-\\mathrm{Q}_{1}}{\\varepsilon_{0} \\rho}\\]<br>Từ (4) suy ra: %(\\mathrm{I}=\\frac{1}{\\varepsilon_{0} \\rho}\\left(\\mathrm{Q}_{0}-\\left(2 \\mathrm{Q}_{0}-\\frac{2 \\mathrm{U}_{0} \\varepsilon_{0} \\mathrm{~S}}{\\mathrm{~d}}\\right)\\right)=\\frac{1}{\\varepsilon_{0} \\rho}\\left(\\frac{2 \\mathrm{U}_{0} \\varepsilon_{0} \\mathrm{~S}}{\\mathrm{~d}}-\\mathrm{Q}_{0}\\right))%<br>Từ (3) suy ra: %(\\mathrm{I}=\\frac{1}{\\varepsilon_{0} \\rho}\\left(\\mathrm{Q}_{0}-\\mathrm{Q}_{0}\\right))%<br>- Thời gian đặc trưng của sự tồn tại dòng điện trong mạch: %(\\tau=\\varepsilon_{0} \\rho=0,085(\\mathrm{~s}))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7e6bdedef5a576fea78c4287f70d3f72.png\" srcset=\"https://docdn.giainhanh.io/media/test/267b9496f9d8b4835c25dfd793c76acb.png 244w, https://docdn.giainhanh.io/media/test/a3745381e84f3be79a81f070a3a05b38.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Vẽ phác đồ thị biêu diễn sự phụ thuộc diện tích trên tụ theo thời gian.",
+        "question_images": [],
+        "solution": "Đồ thị %(\\mathrm{Q})% - %(\\mathrm{t})% :<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ef8a1d223ef64bda70e42c3d3a5ef658.png\" srcset=\"https://docdn.giainhanh.io/media/test/415fec5926d1f6d08828f24b0039f063.png 245w, https://docdn.giainhanh.io/media/test/d046714a255ecbe20e6bf329cd1fc037.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.25,
+        "content": "c) Tính nhiệt lượng tỏa ra trên tấm trong thời gian tồn tại dòng điện trong mạch.",
+        "question_images": [],
+        "solution": "Năng lượng ban đầu của tụ: %(\\mathrm{W}_{0}=\\frac{\\mathrm{Q}_{0} \\mathrm{U}_{0}}{2})%<br>- Công của nguồn điện trong thời gian có dòng điện: %(\\mathrm{A}=\\left(\\mathrm{Q}_{0}-\\mathrm{Q}_{0}\\right) \\mathrm{U}_{0})%<br>- Năng lượng điện trường của tụ khi dòng điện chấm dứt: %(\\mathrm{W}_{1}=\\frac{\\mathrm{Q}_{0} \\mathrm{U}_{0}}{2})%<br>- Nhiệt lượng tỏa ra trên tấm trong thời gian có dòng điện đi qua:<br>\\[\\begin{array}{l}\\mathrm{Q}_{\\text {to0 }}=\\mathrm{W}_{0}+\\mathrm{A}-\\mathrm{W}_{1}=\\frac{\\mathrm{Q}_{0} \\mathrm{U}_{0}}{2}+\\left(\\mathrm{Q}_{0}^{\\prime}-\\mathrm{Q}_{0}\\right) \\mathrm{U}_{0}-\\frac{\\mathrm{Q}_{0} \\mathrm{U}_{0}}{2} \\\\mathrm{Q}_{\\text {to0 }}=\\frac{\\left(\\mathrm{Q}_{0}^{\\prime}-\\mathrm{Q}_{0}\\right) \\mathrm{U}_{0}}{2}=72,5.10^{-10}(\\mathrm{~J})\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Từ trường<br>Một khung dây dẫn hình vuông cạnh %(\\mathrm{a}=10 \\mathrm{~cm})%, khối lượng %(\\mathrm{m}=5 \\mathrm{~g})% đặt trong một từ trường đều có cảm ứng từ %(\\mathrm{B}=0,1 \\mathrm{~T})% giữa hai cực của một nam châm (ban đầu, một cạnh của khung nằm ờ mép của cực từ). Giả sử từ trường đều giữa hai cực từ còn bên ngoài hai cực từ, từ trường bằng 0 . Điện trở của khung %(\\mathrm{R}=)% %(0,01 \\Omega)%. Ở thời điểm %(\\mathrm{t}=0)%, kéo khung với lực không đổi %(\\mathrm{F}=10^{-4} \\mathrm{~N})% ra ngoài hai cực từ.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Vẽ đồ thị vận tốc của khung theo thời gian trong %(12 \\mathrm{~s})% đầu.",
+        "question_images": [],
+        "solution": "Xét thời điểm khung có vận tốc %(\\mathrm{v})%, suất điện động và dòng điện trong khung là:<br>\\[\\xi=\\text { Bav; } \\mathrm{i}=\\frac{\\mathrm{Bav}}{\\mathrm{R}}\\]<br>Áp dụng định luật II Newton: %(\\mathrm{F}-\\mathrm{F}_{\\mathrm{t}}=\\mathrm{ma})%<br>\\[\\begin{array}{l}\\Rightarrow F-\\frac{B^{2} a^{2} v}{R}=m \\frac{d v}{d t} \\\\Rightarrow v=\\frac{F}{k m}\\left(1-e^{-k t}\\right)=0,01\\left(1-e^{-2 t}\\right) \\quad\\left(\\text { Vói } k=\\frac{B^{2} a^{2}}{m R}=\\frac{0,1^{2} \\cdot 0,1^{2}}{0,005 \\cdot 0,01}=2\\right)\\end{array}\\]<br>(Vẽ hình)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9836522f25cd20d1d862ee6a2a0a4800.png\" srcset=\"https://docdn.giainhanh.io/media/test/b2998810520732d2b4661bd431b106c4.png 245w, https://docdn.giainhanh.io/media/test/32e474c17cb1f200fe1d55b3cf66db3b.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Nếu khung dây siêu dẫn vă có độ tự cảm %(\\mathrm{L}=0,1 \\mathrm{H})% và lúc %(\\mathrm{t}=0)% khung được kéo bởi lực không đổi. Tìm lực cực tiểu để kéo khung ra khỏi hai cực từ.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Do khung dây siêu dẫn nên: } \\mathrm{L} \\frac{\\mathrm{di}}{\\mathrm{dt}}=\\mathrm{Ba} \\frac{\\mathrm{dx}}{\\mathrm{dt}} \\\\ \\Rightarrow \\mathrm{i}=\\frac{\\mathrm{Ba}}{\\mathrm{L}} \\mathrm{x} \\\\ \\text { Phương trình chuyển động cho khung: } \\mathrm{F}-\\mathrm{Bia}=\\mathrm{mx} \\text { \" } \\\\ \\text { Nghiệm của phương trình là: } \\mathrm{x}=\\frac{\\mathrm{FL}}{\\mathrm{B}^{2} \\mathrm{a}^{2}}-\\frac{\\mathrm{FL}}{\\mathrm{B}^{2} \\mathrm{a}^{2}} \\cos \\left(\\sqrt{\\frac{\\mathrm{B}^{2} \\mathrm{a}^{2}}{\\mathrm{~mL}}} \\mathrm{t}\\right) \\\\ \\text { Để kéo khung ra khỏi cực từ: } 2 \\frac{\\mathrm{FL}}{\\mathrm{B}^{2} \\mathrm{a}^{2}} \\geq \\mathrm{a} \\\\ \\Rightarrow \\mathrm{F} \\geq \\frac{\\mathrm{B}^{2} \\mathrm{a}^{3}}{2 \\mathrm{~L}}=5.10^{-5} \\mathrm{~N} \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 5.0,
+        "content": "<strong>Quang hình </strong><br>Hai thấu kính hội tụ1 %(\\mathrm{O}_{1}, \\mathrm{O}_{2})% đặt cách nhau một khoảng 1 . Một vật %(\\mathrm{AB}=8 \\mathrm{~cm})%, đặt trươc %(\\mathrm{O}_{1})% có một ảnh trên màn %(\\mathrm{M}: \\mathrm{A}^{\\prime}=2 \\mathrm{~cm})%, cùng chiều với %(\\mathrm{AB})%. Đặt một bản mặt song song có chiết suất %(\\mathrm{n}=1,5)%, độ dày %(\\mathrm{e}=)% %(9 \\mathrm{~cm})% giữa hai thấu kính, thì phải dịch chuyển màn ra %(x \\mathrm{O} \\mathrm{O}_{2})% một đoạn %(3 \\mathrm{~cm})% và ảnh cao %(8 \\mathrm{~cm})%. Đặt bản đó giữa vật và %(\\mathrm{O}_{1})%, thì phải dịch chuyển màn %(1 \\mathrm{~cm})%. Tính tiêu cự %(\\mathrm{f}_{1}, \\mathrm{f}_{2})% của hai thấu kính.",
+        "question_images": [],
+        "solution": "Khi không có bản mỏng:<br>Khi bản mỏng đặt giữa %(\\mathrm{O}_{1})% và %(\\mathrm{O}_{2})%<br>- Độ dịch chuyển vật %(\\mathrm{A}_{1}^{\\prime} \\mathrm{B}_{1}^{\\prime})% của %(\\mathrm{O}_{2})% là: %(\\Delta \\mathrm{d}_{2}=-\\mathrm{e}\\left(1-\\frac{1}{\\mathrm{n}}\\right)=-3 \\mathrm{~cm})%<br>- Độ dịch chuyển ảnh %(\\mathrm{A}^{\\prime} \\mathrm{B}^{\\prime})% của %(\\mathrm{O}_{2})% là: %(\\Delta \\mathrm{d}_{2}^{\\prime}=3 \\mathrm{~cm})%<br>- Gọi %(\\mathrm{k}_{2})% là độ phóng đại của ảnh qua %(\\mathrm{O}_{2})% khi không có bản mỏng; %(\\mathrm{k}_{2}^{\\prime})% là độ phóng đại của ảnh qua %(\\mathrm{O}_{2})% khi có bản mỏng; %(\\mathrm{k}_{1})% là độ phóng đại của ảnh qua %(\\mathrm{O}_{1})% khi không có bản mỏng.<br>\\[\\begin{array}{l}\\mathrm{k}_{2} \\cdot \\mathrm{k}_{2}^{\\prime}=-\\frac{\\Delta \\mathrm{d}_{2}^{\\prime}}{\\Delta \\mathrm{d}_{2}}=-\\frac{3}{-3}=1 \\\\mathrm{k}_{1} \\cdot \\mathrm{k}_{2}=\\frac{\\mathrm{AB}}{\\mathrm{AB}}=\\frac{2}{8}=\\frac{1}{4} \\\\mathrm{k}_{1} \\cdot \\mathrm{k}_{2}^{\\prime}=\\frac{\\mathrm{A}^{\\prime} \\mathrm{B}^{\\prime}}{\\mathrm{AB}}=\\frac{8}{8}=1 \\\\Rightarrow \\mathrm{k}_{2}=-\\frac{1}{2} ; \\mathrm{k}_{2}^{\\prime}=-2 ; \\mathrm{k}_{1}=-\\frac{1}{2}\\end{array}\\]<br>\\[\\left\\{\\begin{array} { l } { \\frac { \\mathrm { d } _ { 2 } } { \\mathrm { d } _ { 2 } } = \\frac { 1 } { 2 } } \\\\{ \\frac { \\mathrm { d } _ { 2 } + 3 } { \\mathrm { d } _ { 2 } - 3 } = 2 }\\end{array} \\Rightarrow \\left\\{\\begin{array}{l}\\mathrm{d}_{2}=6 \\mathrm{~cm} \\\\mathrm{~d}_{2}=3 \\mathrm{~cm}\\end{array} \\Rightarrow \\mathrm{f}_{2}=2 \\mathrm{~cm}\\right.\\right.\\]<br>Khi bản mỏng dặt giữa %(\\mathrm{O}_{1})% và vật %(\\mathrm{AB})%<br>- Khoảng cách ảnh %(\\mathrm{AB})% đến %(\\mathrm{O}_{2}: \\mathrm{d}_{2}=3+1=4 \\mathrm{~cm})%<br>- Khoảng cách vật %(\\mathrm{A}_{1}^{\\prime} \\mathrm{B}_{1}^{\\prime})% đến %(\\mathrm{O}_{2}: \\mathrm{d}_{2}=\\frac{\\mathrm{d}_{2}^{\\prime} \\mathrm{f}_{2}}{\\mathrm{~d}_{2}^{\\prime}-\\mathrm{f}_{2}}=4 \\mathrm{~cm})%<br>- Độ dịch chuyển ảnh %(\\mathrm{A}_{1}^{\\prime} \\mathrm{B}_{1}^{\\prime})% của %(\\mathrm{AB})% qua %(\\mathrm{O}_{1}: \\Delta \\mathrm{d}_{1}^{\\prime}=6-4=2 \\mathrm{~cm})%<br>- Độ dịch chuyển vật %(\\mathrm{AB})% qua %(\\mathrm{O}_{1}: \\Delta \\mathrm{d}_{1}=-\\mathrm{e}\\left(1-\\frac{1}{\\mathrm{n}}\\right)=-3 \\mathrm{~cm})%<br>\\[\\mathrm{k}_{1} \\cdot \\mathrm{k}_{1}^{\\prime}=-\\frac{\\Delta \\mathrm{d}_{1}^{\\prime}}{\\Delta \\mathrm{d}_{1}}=\\frac{2}{3}\\]<br>\\[\\begin{array}{l}\\mathrm{k}_{1}=-\\frac{1}{2} \\Rightarrow \\mathrm{k}_{1}^{\\prime}=-\\frac{4}{3} \\\\Rightarrow\\left\\{\\begin{array} { l } { \\frac { \\mathrm { d } _ { 1 } ^ { \\prime } } { \\mathrm { d } _ { 1 } } = \\frac { 1 } { 2 } } \\\\{ \\frac { \\mathrm { d } _ { 1 } ^ { \\prime } + 2 } { \\mathrm { d } _ { 1 } - 3 } = \\frac { 2 } { 3 } }\\end{array} \\Rightarrow \\left\\{\\begin{array}{l}\\mathrm{d}_{1}=7,2 \\mathrm{~cm} \\\\mathrm{~d}_{1}^{\\prime}=3,6 \\mathrm{~cm}\\end{array} \\Rightarrow \\mathrm{f}_{1}=2,4 \\mathrm{~cm}\\right.\\right.\\end{array}\\]<br>Vậy tiêu cự của %(\\mathrm{O}_{1})% và %(\\mathrm{O}_{2})% là: %(\\mathrm{f}_{1}=2,4 \\mathrm{~cm} ; \\mathrm{f}_{2}=2 \\mathrm{~cm})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/219a7f49e64bf1a060e214affb7e99d9.png\" srcset=\"https://docdn.giainhanh.io/media/test/23f43fd8a42014bcc0fe7ab93c087fc9.png 245w, https://docdn.giainhanh.io/media/test/83f4ee0034fd27894ad8906ded53bad8.png 500w, https://docdn.giainhanh.io/media/test/13cdeefc2d0726987125410e57e99256.png 750w\" width=\"750\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9e0dde6ed5f35fa71bf141d39852e6ec.png\" srcset=\"https://docdn.giainhanh.io/media/test/0bbf7350d3e902b9426d4d11e63ce62f.png 245w, https://docdn.giainhanh.io/media/test/6582b519a3966a3f687e7fc638281c8c.png 500w, https://docdn.giainhanh.io/media/test/5b07f1e9a10ace07ab7e81f9db4bd23e.png 750w\" width=\"750\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/2cba27e2da3d3385d19711fd38c11c48.png\" srcset=\"https://docdn.giainhanh.io/media/test/f5694c64ffe88386120abfb505cb2079.png 245w, https://docdn.giainhanh.io/media/test/02d5ccd23036c4acf93ab9dac3d68bfb.png 500w, https://docdn.giainhanh.io/media/test/ccbde5bcdd65bb891b371abbc6849f72.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 3.0,
+        "content": "<strong>Dao động cơ</strong><br>Hai xi lanh mỏng bán kính và khối lượng tương ứng là %(\\mathrm{R}_{1}, \\mathrm{R}_{2})% và %(\\mathrm{m}_{1}, \\mathrm{~m}_{2})% được ghép lại thành hình số 8 . Cho hệ dao động nhỏ quanh trục nằm ngang trùng với điểm tiếp xúc ( %(\\mathrm{m}_{1})% nằm trên, %(\\mathrm{m}_{1}\\lt \\mathrm{m}_{2}, \\mathrm{R}_{1}\\lt \\mathrm{R}_{2})% ). Tính chu kỷ dao động nhỏ quả hệ.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/ecf0f76e5206849334887e02a79ea3e3.PNG"
+        ],
+        "solution": "Xét tại thời điểm hệ có li độ góc %(\\alpha)%, chọn mốc thế năng tại điểm nằm trên trục quay, có năng toàn phần của hệ hai xi lanh là :%(\\mathrm{W}=\\mathrm{m}_{1} \\mathrm{R}_{1} \\cos \\alpha-\\mathrm{m}_{1} \\mathrm{R}_{2} \\cos \\alpha+\\frac{1}{2} 2 \\mathrm{~m}_{1} \\mathrm{R}_{1}^{2} \\alpha^{\\prime 2}+\\frac{1}{2} 2 \\mathrm{~m}_{2} \\mathrm{R}_{2}^{2} \\alpha^{\\prime 2})%<br>Cơ năng của hệ bảo toàn nên %(\\frac{\\mathrm{dW}}{\\mathrm{dt}}=0)%<br>Suy ra : %(\\left(m_{2} R_{2}-m_{1} R_{1}\\right) \\sin \\alpha . \\alpha^{\\prime}+2\\left(m_{1} R_{1}^{2}+m_{2} R_{2}^{2}\\right) \\alpha^{\\prime} \\alpha^{\\prime \\prime}=0)%<br>Với %(\\alpha)% nhỏ, ta có %(\\sin \\alpha \\approx \\alpha)%suy ra : %(\\frac{m_{2} R_{2}-m_{1} R_{1}}{2\\left(m_{1} R_{1}^{2}+m_{2} R_{2}^{2}\\right)} \\alpha+\\alpha^{\\prime \\prime}=0)%<br>Vậy hệ dao động điều hòa với chu kì : %(\\mathrm{T}=2 \\pi \\sqrt{\\frac{2\\left(\\mathrm{~m}_{1} \\mathrm{R}_{1}^{2}+\\mathrm{m}_{2} \\mathrm{R}_{2}^{2}\\right)}{\\mathrm{m}_{2} \\mathrm{R}_{2}-\\mathrm{m}_{1} \\mathrm{R}_{1}}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Phương án thực hành<br>Cho các dụng cụ thi nghiệm sau:<br>- Một khối trụ bằng nhôm %(\\mathrm{M})%, có rãnh ở bề mặt trụ và trục ở giữa có thể gắn cố định.<br>- Một giá thí nghiệm để gắn khối trụ M.<br>- Một quả nặng có khối lượng %(\\mathrm{m})% đã biết.<br>- Một lực kế.<br>- Một sợi dây mảnh, không giãn.<br>- Một cái thước êke và giấy vẽ đồ thị.<br>Hãy xây dựng một phương án thí nghiệm để đo hệ số ma sát nghỉ giữa sợi dây và khối nhôm.<br>Yêu cầu:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.75,
+        "content": "a) Thiết kế và vẽ mô hình thí nghiệm",
+        "question_images": [],
+        "solution": "- Dùng sợi dây buộc vật nặng và vắt qua trục, đầu còn lại buộc vào lực kế và giữ cho dây không trượt để đo lực căng của sợi dây tại vị trí ứng với góc %(\\alpha)%.<br>- Thả lực kế đến khi vật nặng bắt đầu trượt xuống dưới. Khi này, lực ma sát giữa sợi dây và trụ là lực ma sát trươt.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9ed7f5f423b03eafb80b738ef0895420.png\" srcset=\"https://docdn.giainhanh.io/media/test/2d9c0cc3dc83912d6661dbe6883f6fdd.png 245w\" width=\"245\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/dd47883e15094d23360d45aa00e3ef72.png\" srcset=\"https://docdn.giainhanh.io/media/test/3d76803df2bc30f5c1a98a4a5231ed69.png 222w\" width=\"222\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Xây dựng cơ sở lí thuyết cho thí nghiệm và đưa ra các phương trình cần thiết.",
+        "question_images": [],
+        "solution": "b) Xét một phần tử dây có chiều dài dl ứng với góc %(\\mathrm{d} \\varphi\\lt \\lt)%.<br>Lúc đó lực căng ở hai đầu phần tử dây ứng với góc lệch %((\\varphi))% và %((\\varphi+\\mathrm{d} \\varphi))% là: %(\\mathrm{T}(\\varphi))% và %(\\mathrm{T}(\\varphi+\\mathrm{d} \\varphi))%<br>Lực ma sát của phần tử dây này và trụ là: %(\\mathrm{F}_{\\mathrm{ms}}=\\mathrm{T}(\\varphi+\\mathrm{d} \\varphi)-\\mathrm{T}(\\varphi)=\\mathrm{dT})%<br>Áp lực của phần tử dây này lên mặt trụ là: %(\\mathrm{N}=\\mathrm{T}(\\varphi) \\sin (\\mathrm{d} \\varphi) \\approx \\mathrm{T}(\\varphi) \\cdot \\mathrm{d} \\varphi=\\mathrm{T} \\cdot \\mathrm{d} \\varphi)%<br>Lực ma sát trượt tác dụng lên phần tử dây: %(\\mathrm{F}_{\\mathrm{ms}}=\\mu \\mathrm{N}=\\gt \\mathrm{dT}=\\mu \\cdot \\mathrm{T} \\cdot \\mathrm{d} \\varphi)% (1)<br>Từ (1) ta có: %(\\frac{\\mathrm{dT}}{\\mathrm{T}}=\\mu \\mathrm{d} \\varphi)%<br>\\[\\Rightarrow \\int_{\\mathrm{F}}^{\\mathrm{mg}} \\frac{\\mathrm{dT}}{\\mathrm{T}}=\\int_{0}^{a} \\mu \\mathrm{d} \\varphi \\Rightarrow \\ln \\frac{\\mathrm{mg}}{\\mathrm{F}}=\\mu \\alpha (2)\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.75,
+        "content": "c) Đưa ra công thức tính hệ số ma sát nghỉ giữa sợi dây và khối nhôm và nêu tiến trình thí nghiệm.",
+        "question_images": [],
+        "solution": "Từ (2) ta có: %(\\mu)% là hệ số góc của đường thẳng biểu diễn sự phụ thuộc của %(\\ln \\frac{\\mathrm{mg}}{\\mathrm{F}})% theo %(\\alpha)%.<br>Tiến trình thí nghiệm: Lắp thí nghiệm như hình vẽ.<br>Dùng êke xác định góc %(\\alpha)%.<br>Nhả lực kế đến khi vật bắt đầu trượt xuống, đọc giá trị F của lực kế.",
+        "question_type": "essay"
+    }
+]

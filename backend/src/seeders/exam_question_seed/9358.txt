@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(P=\\left(\\frac{x^{2}+3 x}{x^{3}+3 x^{2}+9 x+27}+\\frac{3}{x^{2}+9}\\right):\\left(\\frac{1}{x-3}-\\frac{6 x}{x^{3}-3 x^{2}+9 x-27}\\right))%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tìm điều kiện xác định và rút gọn %(P)%",
+        "question_images": [],
+        "solution": "ĐКXĐ: %(x \\neq \\pm 3, \\quad P=\\frac{x+3}{x-3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Với %(x\\gt 0)% thì %(P)% không nhận những giá trị nào ?",
+        "question_images": [],
+        "solution": "Ta có: %(P=\\frac{x+3}{x-3} \\Rightarrow x=\\frac{3(P+1)}{P-1})%<br>Để %(x\\gt 0)% thì %(\\frac{3(P+1)}{P-1}>0 \\Leftrightarrow \\frac{P+1}{P-1}>0 \\Leftrightarrow\\left[\\begin{array}{l}P>1 \\\\ P\\lt -1\\end{array}\\right.)%<br>Vậy %(x>0)% thì %(P)% không nhận những giá trị từ -1 đến %(1, P \\notin[-1 ; 1])%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Tìm các giá trị nguyên của %(x)% đđề %(P)% có giá trị nguyên.",
+        "question_images": [],
+        "solution": "Ta có %(P=\\frac{x+3}{x-3}=1+\\frac{6}{x-3})%<br>P có giá trị nguyên %(\\Leftrightarrow x-3 \\in U(6)=\\{ \\pm 1 ; \\pm 2 ; \\pm 3 ; \\pm 6\\})%<br>Từ đó tính được %(x \\in\\{0 ; 1 ; 2 ; 4 ; 5 ; 6 ; 9\\})% (Chú ý loại %(x=-3)% )",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Cho biều thức %(M=\\frac{a^{2}+b^{2}-c^{2}}{2 a b}+\\frac{b^{2}+c^{2}-a^{2}}{2 b c}+\\frac{c^{2}+a^{2}-b^{2}}{2 c a})%<br>Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Nếu %(a, b, c)% là độ dài ba cạnh của một tam giác thì %(M\\gt 1)%",
+        "question_images": [],
+        "solution": "Vì %(a, b, c)% là độ dài ba cạnh của tam giác nên %(a, b, c\\gt 0)% và<br>\\[a+b-c>0 ; a+c-b>0 ; c+b-a>0\\]<br>Đặt %(A=\\frac{a^{2}+b^{2}-c^{2}}{2 a b} ; B=\\frac{b^{2}+c^{2}-a^{2}}{2 b c} ; C=\\frac{c^{2}+a^{2}-b^{2}}{2 c a})%<br>Ta cần chứng minh : %(M=A+B+C>1)% hay %((A-1)+(B-1)+(C+1)>0)%<br>Ta có:<br>\\[\\begin{array}{l}A-1=\\frac{a^{2}+b^{2}-c^{2}}{2 a b}-1=\\frac{a^{2}+b^{2}-c^{2}-2 a b}{2 a b}=\\frac{(a-b-c)(a-b+c)}{2 a b} \\B-1=\\frac{b^{2}+c^{2}-a^{2}}{2 b c}-1=\\frac{b^{2}+c^{2}-a^{2}-2 b c}{2 b c}=\\frac{(b-c-a)(b-c+a)}{2 b c} \\C-1=\\frac{c^{2}+a^{2}-b^{2}}{2 c a}-1=\\frac{c^{2}+a^{2}-b^{2}+2 c a}{2 c a}=\\frac{(c+a-b)(c+a+b)}{2 c a}\\end{array}\\]<br>Suy ra<br>\\[\\begin{array}{l}(A-1)+(B-1)+(C+1) \\\\=\\frac{(a-b-c)(a-b+c)}{2 a b}+\\frac{(b-c-a)(b-c+a)}{2 b c}+\\frac{(c+a-b)(c+a+b)}{2 c a} \\\\=\\frac{c(a-b-c)(a-b+c)+a(b-c-a)(b-c+a)+b(c+a-b)(c+a+b)}{2 a b c} \\\\=\\frac{c(a-b-c)(a-b+c)-a(a-b+c)(b-c+a)+b(a-b+c)(c+a+b)}{2 a b c} \\\\=\\frac{(a-b+c)[c(a-b-c)-a(b-c+a)+b(c+a+b)]}{2 a b c} \\\\=\\frac{(a-b+c)[c(a-b-c)-a(b-c+a)+b(c+a+b)]}{2 a b c} \\\\=\\frac{(a-b+c)\\left(b c-b a+b^{2}-c^{2}+c a-c b+a c-a^{2}+a b\\right)}{2 a b c} \\\\=\\frac{(a-b+c)(b-c+a)(c-a+b)}{2 a b c}\\gt 0(\\text { đúng) } \\\\=\\end{array}\\]<br>Từ đó suy ra %(M-1>0)% đúng vì %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là độ dài ba cạnh của một tam giác hay %(M>1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Nếu %(M=1)% thì hai trong ba phân thức đã cho của biểu thức %(M)% bằng 1 , phân thức còn lại bằng -1",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}M=1 \\Leftrightarrow M-1=0 \\Leftrightarrow \\frac{(a-b+c)(b-c+a)(c-a+b)}{2 a b c}=0 \\\\Leftrightarrow(a-b+c)(b-c+a)(c-a+b)=0\\end{array}\\]<br>Ta xét ba trường hợp:<br>TH1: Nếu %(a-b+c=0)% thì<br>\\[A-1=0 ; B-1=\\frac{(b-c-a)(b-c+a)}{2 b c}=\\frac{-(a-b+c)(b-c+a)}{2 b c}=0 ; C+1=0\\]<br>Suy ra %(A=1 ; B=1 ; C=-1)%<br>TH2: Nếu %(b-c+a=0)% thì<br>\\[\\begin{array}{l}A+1=\\frac{a^{2}+b^{2}-c^{2}}{2 a b}+1=\\frac{a^{2}+b^{2}-c^{2}+2 a b}{2 a b}=\\frac{(a+b-c)(a+b+c)}{2 a b}=0 \\C-1=\\frac{c^{2}+a^{2}-b^{2}}{2 c a}-1=\\frac{c^{2}+a^{2}-b^{2}-2 c a}{2 c a}=\\frac{(c-a-b)(c-a+b)}{2 c a}=\\frac{-(b-c+a)(c-a+b)}{2 c a}=0 \\B-1=0 \\Rightarrow A=-1 ; B=1 ; C=1\\end{array}\\]<br>TH3: Nếu %(c-a+b=0)% thì<br>\\[\\begin{array}{l}A-1=\\frac{(a-b-c)(a-b+c)}{2 a b}=\\frac{-(c-a+b)(a-b+c)}{2 a b}=0 ; \\C-1=\\frac{c^{2}+a^{2}-b^{2}}{2 c a}-1=\\frac{c^{2}+a^{2}-b^{2}-2 c a}{2 c a}=\\frac{(c-a-b)(c-a+b)}{2 c a}=\\frac{-(b-c+a)(c-a+b)}{2 c a}=0 \\B+1=\\frac{b^{2}+c^{2}-a^{2}}{2 b c}+1=\\frac{b^{2}+c^{2}-a^{2}+2 b c}{2 b c}=\\frac{(b+c-a)(b+c+a)}{2 b c}=0\\end{array}\\]<br>Suy ra %(A=1 ; B=-1 ; C=1)%<br>Như vậy trường hợp nào cũng có hai trong ba phân thức %(\\mathrm{A}, \\mathrm{B}, \\mathrm{C})% bằng 1 , phân thức còn lại bằng -1",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho n là tổng của hai số chính phương. %(C M R: n^{2})% cũng là tồng của hai số chính phương",
+        "question_images": [],
+        "solution": "Đặt %(N=a^{2}+b^{2})%<br>Khi đó %(N^{2}=a^{4}-2 a^{2} b^{2}+b^{2}+4 a^{2} b^{2}=\\left(a^{2}-b^{2}\\right)^{2}+(2 a b)^{2})% là tổng của hai số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Cho đa thức %(A=a x^{2}+b x+c)%. Xác định hệ số %(b)% biết rằng khi chia A cho %(x-1)%, chia A cho %(x+1)% đều có cùng một số dư",
+        "question_images": [],
+        "solution": "Giả sử<br>\\[A=a x^{2}+b x+c=(x-1) P+R (1)\\]<br>\\[A=a x^{2}+b x+c=(x+1) Q+R (2)\\]<br>Cho %(x=1)% thì từ (1) ta có: %(a+b+c=R)%<br>Cho %(x=-1)% thì từ (2)ta có: %(a-b+c=R)%<br>Do đó : %(a+b+c=a-b+c \\Leftrightarrow 2 b=0 \\Rightarrow b=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.25,
+        "content": "Cho hình chữ nhật ABCD . Gọi H là hình chiếu vuông góc của A trên BD ; I và J thứ tự là trung điểm của các đoạn thẳng %(D H)% và %(B C)%. Tính số đo của góc %(A I J)%",
+        "question_images": [],
+        "solution": "Gọi P là trung điểm của %(\\mathrm{AH} \\Rightarrow P I)% là đường trung bình của tam giác %(A H D)%<br>\\[\\Rightarrow P I / / A D\\]<br>Mà %(A D \\perp A B)% nên %(I P \\perp A B)% và %(P)% là trực tâm %(\\triangle A B I)%<br>Từ đó ta có tứ giác %(B P I J)% là hình bình hành %(\\Rightarrow B P / / I J)%<br>Mà %(B P \\perp A I)% nên %(J I \\perp A I)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9d2d2e7f559e37e3e4038880ff6814be.png\" srcset=\"https://docdn.giainhanh.io/media/test/aaed4c04c068f91883e2f6604ed873b9.png 245w, https://docdn.giainhanh.io/media/test/936fb3e6c62222519322f7972c4b7b89.png 500w, https://docdn.giainhanh.io/media/test/b0ecbec1b120a909e6b12937daa4f4d4.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.25,
+        "content": "Cho tam giác ABC nhọn trực tâm H , trên đoạn BH lấy điểm M và trên đoạn CH lấy điểm N sao cho %(A M C=A N B=90^{\\circ})%. Chứng minh rằng %(A M=A N)%",
+        "question_images": [],
+        "solution": "Gọi %(P, Q)% lần lượt là chân các dường cao kẻ từ B và C .<br>Tam giác vuông %(A M C)% có đường cao %(M P \\Rightarrow A M^{2}=A P . A C)%<br>Tam giác vuông %(A N B)% có đường cao %(N Q \\Rightarrow A N^{2}=A Q \\cdot A B)%<br>Xét tam giác vuông %(A P B)% và %(A Q C)% có:<br>A chung; %(A P B=A Q C=90^{\\circ} \\Rightarrow \\triangle A P B \\text{ đồng dạng } \\triangle A Q C(g . g))%%(\\Rightarrow A P . A C=A Q \\cdot A B \\Rightarrow A M^{2}=A N^{2} \\Rightarrow A M=A N)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/739e5f2016ad20b03e466ed442ec4cfc.png\" srcset=\"https://docdn.giainhanh.io/media/test/47b2c6c8c5ad46a8e76cb1526e722c81.png 232w, https://docdn.giainhanh.io/media/test/a96d34f49ea3cb4c75c0e3d92ddc1142.png 500w, https://docdn.giainhanh.io/media/test/52aa3cfadf505f5cf3ffac9ff91ec4dd.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 0.5,
+        "content": "Cho %(a, b, c\\gt 0)%<br>\\[\\text { CMR: } \\frac{a}{3 a^{2}+2 b^{2}+c^{2}}+\\frac{b}{3 b^{2}+2 c^{2}+a^{2}}+\\frac{c}{3 c^{2}+2 a^{2}+b^{2}} \\leq \\frac{1}{6} \\cdot\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)\\]",
+        "question_images": [],
+        "solution": "Sử dụng bất đẳng thức AM -GM với %(a, b, c\\gt 0)% ta có<br>\\[\\begin{array}{l}\\frac{18 a}{3 a^{2}+2 b^{2}+c^{2}}=\\frac{18 a}{2\\left(a^{2}+b^{2}\\right)+a^{2}+c^{2}} \\leq \\frac{18 a}{2 \\cdot 2 \\sqrt{(a b)^{2}}+2 \\sqrt{(a c)^{2}}}=\\frac{18 a}{4 a b+2 a c} \\\\frac{18 a}{3 a^{2}+2 b^{2}+c^{2}} \\leq \\frac{18 a}{4 a b+2 a c}=\\frac{18 a}{2 a \\cdot(2 b+c)}=\\frac{9}{2 b+c}\\end{array}\\]<br>Áp dụng BĐT Cauchy Schwarz %(\\frac{a^{2}}{x}+\\frac{b^{2}}{y} \\geq \\frac{(a+b)^{2}}{x+y})%.<br>Ta có: %(\\frac{(2+1)^{2}}{2 b+c} \\leq \\frac{2^{2}}{2 b}+\\frac{1^{2}}{c}=\\frac{2}{b}+\\frac{1}{c})%<br>Suy ra : %(\\frac{18 a}{3 a^{2}+2 b^{2}+c^{2}} \\leq \\frac{9}{(2 b+c)}=\\frac{(2+1)^{2}}{2 b+c} \\leq \\frac{2}{b}+\\frac{1}{c})%<br>Tương tự:<br>\\[\\begin{array}{l}\\frac{18 b}{3 b^{2}+2 c^{2}+a^{2}} \\leq \\frac{9}{(2 c+a)}=\\frac{(2+1)^{2}}{2 c+a} \\leq \\frac{2}{c}+\\frac{1}{a} \\\\frac{18 c}{3 c^{2}+2 a^{2}+b^{2}} \\leq \\frac{9}{2 a+b}=\\frac{(2+1)^{2}}{2 a+b} \\leq \\frac{2}{a}+\\frac{1}{b}\\end{array}\\]<br>Cộng vế với vế các %(\\mathrm{B} T \\mathrm{~T})% trên ta có:<br>\\[\\begin{array}{l}\\frac{18 a}{3 a^{2}+2 b^{2}+c^{2}}+\\frac{18 b}{3 b^{2}+2 c^{2}+a^{2}}+\\frac{18 c}{3 c^{2}+2 a^{2}+b^{2}} \\leq \\frac{2}{c}+\\frac{1}{a}+\\frac{2}{b}+\\frac{1}{c}+\\frac{2}{a}+\\frac{1}{b} \\\\frac{a}{3 a^{2}+2 b^{2}+c^{2}}+\\frac{b}{3 b^{2}+2 c^{2}+a^{2}}+\\frac{c}{3 c^{2}+2 a^{2}+b^{2}} \\leq\\left(\\frac{3}{a}+\\frac{3}{b}+\\frac{3}{c}\\right): 18=\\frac{1}{6} \\cdot\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right) \\Rightarrow D P C M\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 0.5,
+        "content": "Cho đa giác đều gồm 1999 cạnh. Người ta sơn các đỉnh của đa giác bằng hai màu xanh và đỏ. Chứng minh rằng tồn tại ba đỉnh được sơn cùng một màu tạo thành một tam giác cân",
+        "question_images": [],
+        "solution": "Ta có đa giác 1999 cạnh nên có 1999 đỉnh.<br>Do đó phải tồn tại 2 đỉnh kề nhau là P và Q được sơn bởi cùng một màu - màu đỏ (Theo nguyên lý Dirichle)<br>Vì đa giác đã cho là đa giác đều có số đỉnh lè, nên phải tồn tại một đỉnh nào đó nằm trên đường trung trực của đoạn thẳng %(P Q)%.<br>Giả sử đỉnh đó là %(A)%.<br>Nếu A tô màu đỏ thì ta có tam giác %(A P Q)% là tam giác cân có 3 đỉnh %(A, P, Q)% được tô cùng màu đỏ.<br>Nếu A tô màu xanh, lúc đó gọi B và C là các đỉnh khác của đa giác kề với P và Q .<br>Nếu cả hai đỉnh B và C được tô màu xanh thì tam giác ABC cân và có 3 đỉnh cùng tô màu xanh.<br>Nếu ngược lại, một trong hai đỉnh B và C mà tô màu đỏ thì tam giác BPQ hoặc tam giác CPQ là tam giác cân có 3 đỉnh được tô màu đỏ",
+        "question_type": "essay"
+    }
+]

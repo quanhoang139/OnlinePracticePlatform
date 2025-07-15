@@ -1,0 +1,73 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x y^{2}+y^{3}+3 x-6 y=0 \\\\ x^{2}+x y-3=0\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "+) Nếu %(y=0)% thay vào hệ ta có %(\\left\\{\\begin{array}{l}3 x=0 \\\\ x^{2}-3=0\\end{array}\\right.)% hệ này vô nghiệm<br>+) Nếu %(y \\neq 0)% thì ta đặt %(x=)% ty thay vào hệ ta được<br>\\[\\begin{array}{l}\\left\\{\\begin{array}{l}t y^{3}+y^{3}+3 t y-6 y=0 \\t^{2} y^{2}+t y^{2}-3=0\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { y ( t y ^ { 2 } + y ^ { 2 } + 3 t - 6 ) = 0 } \\\\{ ( t ^ { 2 } + t ) y ^ { 2 } = 3 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}t y^{2}+y^{2}+3 t-6=0 \\y^{2}=\\frac{3}{t^{2}+t}\\end{array}\\right.\\right.\\end{array}\\]<br>\\[\\begin{array}{l}\\Leftrightarrow\\left\\{\\begin{array} { l } { ( t + 1 ) \\frac { 3 } { t ( t + 1 ) } + 3 t - 6 = 0 } \\\\{ y ^ { 2 } = \\frac { 3 } { t ^ { 2 } + t } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { \\frac { 3 } { t } + 3 t - 6 = 0 } \\\\{ y ^ { 2 } = \\frac { 3 } { t ^ { 2 } + t } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { t ^ { 2 } - 2 t + 1 = 0 } \\\\{ y ^ { 2 } = \\frac { 3 } { t ^ { 2 } + t } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}t=1 \\y^{2}=\\frac{3}{2}\\end{array}\\right.\\right.\\right.\\right. \\\\left\\{\\begin{array}{l}x=y \\y= \\pm \\sqrt{\\frac{3}{2}}\\end{array}\\right.\\end{array}\\]<br>Vậy hệ phương trình có nghiệm là %((x ; y)=\\left(\\sqrt{\\frac{3}{2}} ; \\sqrt{\\frac{3}{2}}\\right) ;\\left(-\\sqrt{\\frac{3}{2}} ;-\\sqrt{\\frac{3}{2}}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Giải phương trình %(18 x+16+4 \\sqrt{2 x^{2}+5 x-3}=7 \\sqrt{4 x^{2}+2 x-2}+7 \\sqrt{2 x^{2}+8 x+6})%",
+        "question_images": [],
+        "solution": "ĐK %(x \\geq \\frac{1}{2})% với điều kiện này phương trình được đưa về dạng<br>\\[\\begin{array}{l}18 x+16+4 \\sqrt{(x+3)(2 x-1)}=7 \\sqrt{(2 x+2)(2 x-1)}+7 \\sqrt{(2 x+2)(x+3)} \\\\Leftrightarrow 2(\\sqrt{x+3}+\\sqrt{2 x-1})^{2}-7 \\sqrt{2 x+2}(\\sqrt{x+3}+\\sqrt{2 x-1})+6(2 x+2)=0\\end{array}\\]<br>Đặt %(a=\\sqrt{x+3}+\\sqrt{2 x-1} ; b=\\sqrt{2 x+2})% thay vào phương trình trên ta được<br>\\[2 a^{2}-7 a b+6 b^{2}=0 \\Leftrightarrow(2 a-3 b)(a-2 b)=0 \\Leftrightarrow 2 a=3 b ; a=2 b\\]<br>+) %(a=2 b \\Leftrightarrow \\sqrt{x+3}+\\sqrt{2 x-1}=2 \\sqrt{2 x+2})% phương trình này vô nghiệm<br>+) %(2 a=3 b \\Leftrightarrow 2 \\sqrt{x+3}+2 \\sqrt{2 x-1}=3 \\sqrt{2 x+2})% giải phương trình này được nghiệm %(x=1)%.<br>Vậy nghiệm của phương trình đã cho là %(x=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các bộ ba số hữu tỷ dương %((m ; n ; p))% sao cho mỗi một trong các số<br>\\[m+\\frac{1}{n p} ; n+\\frac{1}{p m} ; p+\\frac{1}{m n}\\]<br>là một số nguyên.",
+        "question_images": [],
+        "solution": "Giả sử tìm được bộ ba số %((m ; n ; p))% trong đó %(m, n, p)% là các số hữu tỉ dương sao cho có các số nguyên dương %(a, b, c)% thỏa mãn<br>\\[a=m+\\frac{1}{n p} ; b=n+\\frac{1}{p m} ; c=p+\\frac{1}{m n}\\]<br>Từ đó %(m n p+1=a n p=b p m=c m n)%. Suy ra %(a b c(m n p)^{2}=(m n p+1)^{3})%<br>Đặt %(m n p=\\frac{u}{v})% trong đó %(u, v \\in \\mathbb{Z}^{+},(u ; v)=1)% ta được<br>\\[a b c \\cdot \\frac{u^{2}}{v^{2}}=\\left(\\frac{u}{v}+1\\right)^{3} \\Leftrightarrow a b c u^{2} v=(u+v)^{3}(1)\\]<br>Do %((u ; v)=1)% nên nếu %(p)% là một số nguyên tố sao cho %(p \\mid u^{2} v)% thì hoặc %(p \\mid u)% hoặc %(p \\mid v)% do đó %(u+v)% không chia hết cho %(p)%.<br>Do đó (1) %(\\Leftrightarrow a b c=\\frac{(u+v)^{3}}{u^{2} v} \\Leftrightarrow\\left\\{\\begin{array}{l}a b c=(u+v)^{3} \\\\ u^{2} v=1\\end{array}\\right.)%<br>Suy ra %(u=v=1, a b c=8, m n p=1)%.<br>Từ đó tìm được %((a ; b ; c)=(1 ; 1 ; 8),(1 ; 2 ; 4),(2 ; 2 ; 2))% và các hoán vị và vì vậy %((m ; n ; p)=(1 ; 1 ; 1),\\left(\\frac{1}{2} ; \\frac{1}{2} ; 4\\right),\\left(\\frac{1}{2} ; 1 ; 2\\right))% và các hoán vị.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giả sử %(a, b, c)% là các số thực dương thỏa mãn %(\\frac{a^{2012}}{b^{2010}}+\\frac{b^{2012}}{c^{2010}}+\\frac{c^{2012}}{a^{2010}}\\lt 2011)%. Chứng minh rằng luôn tồn tại số tự nhiên %(n)% sao cho %(\\frac{a^{n+3}}{b^{n+1}}+\\frac{b^{n+3}}{c^{n+1}}+\\frac{c^{n+3}}{a^{n+1}} \\leq \\frac{2011}{2010}+\\frac{a^{n+2}}{b^{n}}+\\frac{b^{n+2}}{c^{n}}+\\frac{c^{n+2}}{a^{n}})%",
+        "question_images": [],
+        "solution": "Ta chứng minh bằng phản chứng. Giả sử không tồn tại số tự nhiên %(n)% nào thỏa mãn thì với mọi số tự nhiên %(n)% ta luôn có<br>\\[\\frac{a^{n+3}}{b^{n+1}}+\\frac{b^{n+3}}{c^{n+1}}+\\frac{c^{n+3}}{a^{n+1}}\\gt \\frac{2011}{2010}+\\frac{a^{n+2}}{b^{n}}+\\frac{b^{n+2}}{c^{n}}+\\frac{c^{n+2}}{a^{n}}\\]<br>Lần lượt cho %(n=0,1,2, \\ldots, 2009)% và cộng từng vế của 2010 bất đẳng thức ta được %(\\frac{a^{2012}}{b^{2010}}+\\frac{b^{2012}}{c^{2010}}+\\frac{c^{2012}}{a^{2010}}>2010 \\cdot \\frac{2011}{2010}+a^{2}+b^{2}+c^{2}>2011)%.<br>Mâu thuẫn với giả thiết nên ta có đpcm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho %(a, b, c)% là các số thực dương. Chứng minh rằng với mọi số tự nhiên %(m)% ta có bất đẳng thức %(\\frac{a^{m+3}}{b^{m+1}}+\\frac{b^{m+3}}{c^{m+1}}+\\frac{c^{m+3}}{a^{m+1}} \\geq \\frac{a^{m+2}}{b^{m}}+\\frac{b^{m+2}}{c^{m}}+\\frac{c^{m+2}}{a^{m}})%",
+        "question_images": [],
+        "solution": "Áp dụng bđt %(\\mathrm{AM}-\\mathrm{GM})% cho 2 số %(\\frac{a^{m+2}}{b^{m}})% và %(m)% số %(b^{2})% ta có<br>\\[2 \\frac{a^{m+2}}{b^{m}}+m b^{2} \\geq(m+2) \\sqrt[m+2]{\\frac{a^{2(m+2)} \\cdot b^{2 m}}{b^{2 m}}}=(m+2) a^{2}\\]<br>Tương tự ta được<br>\\[\\begin{array}{l}2 \\frac{b^{m+2}}{c^{m}}+m c^{2} \\geq(m+2) \\sqrt[m+2]{\\frac{b^{2(m+2)} \\cdot c^{2 m}}{c^{2 m}}}=(m+2) b^{2} \\\\2 \\frac{c^{m+2}}{a^{m}}+m a^{2} \\geq(m+2) \\sqrt[m+2]{\\frac{c^{2(m+2)} \\cdot a^{2 m}}{a^{2 m}}}=(m+2) c^{2}\\end{array}\\]<br>Cộng từng vế các bđtt trên ta được<br>\\[\\frac{a^{m+2}}{b^{m}}+\\frac{b^{m+2}}{c^{m}}+\\frac{c^{m+2}}{a^{m}} \\geq a^{2}+b^{2}+c^{2}(1)\\]<br>Áp dụng bđt AM - GM cho %(m)% số %(\\frac{a^{m+2}}{b^{m}})% và %(a^{2})% ta được<br>\\[\\begin{array}{l}m \\frac{a^{m+3}}{b^{m+1}}+a^{2} \\geq(m+1) \\sqrt[m+1]{\\frac{a^{m(m+3)} \\cdot a^{2}}{b^{m(m+1)}}}=(m+1) \\frac{a^{m+2}}{b^{m}} . \\text { Tương tự ta có } \\m \\frac{b^{m+3}}{c^{m+1}}+b^{2} \\geq(m+1) \\sqrt[m+1]{\\frac{b^{m(m+3)} \\cdot b^{2}}{c^{m(m+1)}}}=(m+1) \\frac{b^{m+2}}{c^{m}} \\m \\frac{c^{m+3}}{a^{m+1}}+c^{2} \\geq(m+1) \\sqrt[m+1]{\\frac{c^{m(m+3)} \\cdot c^{2}}{a^{m(m+1)}}}=(m+1) \\frac{c^{m+2}}{a^{m}}\\end{array}\\]<br>Cộng từng vế của các bđt trên ta được<br>\\[\\begin{array}{l}m\\left(\\frac{a^{m+3}}{b^{m+1}}+\\frac{b^{m+3}}{c^{m+1}}+\\frac{c^{m+3}}{a^{m+1}}\\right) \\geq m\\left(\\frac{a^{m+2}}{b^{m}}+\\frac{b^{m+2}}{c^{m}}+\\frac{c^{m+2}}{a^{m}}\\right) \\\\+\\frac{a^{m+2}}{b^{m}}+\\frac{b^{m+2}}{c^{m}}+\\frac{c^{m+2}}{a^{m}}-a^{2}-b^{2}-c^{2}\\end{array}\\]<br>Kết hơp với (1) ta có đpcm. Dấu đẳng thức xảy ra %(\\Leftrightarrow a=b=c)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho tam giác %(A B C)% nhọn với ba đường cao %(A D, B E, C F)% cắt nhau tại điểm %(H)%. Tiếp tuyến tại %(B, C)% của đường tròn %((O))% ngoại tiếp tam giác %(A B C)% cắt nhau tại điểm %(T)%, các đường thẳng %(T D)% và %(E F)% cắt nhau tại điểm %(S)%. Gọi %(X, Y)% lần lượt là giao điểm của đường thẳng %(E F)% với các đường thẳng %(T B, T C ; M)% là trung điểm của cạnh %(B C)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng %(H, M)% lần lượt là tâm đường tròn nội tiếp các tam giác %(D E F)% và %(X T Y)%.",
+        "question_images": [],
+        "solution": "+) Do các tứ giác %(B F H D, D H E C)% và %(C B F E)% nội tiếp nên<br>\\[\\widehat{F D H}=\\widehat{F B H}=\\widehat{F B E}=\\widehat{F C E}=\\widehat{H C E}=\\widehat{H D E}\\]<br>Suy ra %(D H)% là phân giác của góc %(\\widehat{E D F})%. Tương tự cũng được %(E H)% là phân giác của góc %(\\widehat{D E F})% và %(F H)% là phân giác của góc %(\\widehat{E F D})%. Từ đó %(H)% là tâm đường tròn nội tiếp của tam giác %(D E F)%.<br>+) Do %(\\widehat{M B T}=\\widehat{M C T}=\\widehat{B A C} ; M B=M C=\\frac{a}{2} \\Rightarrow d(M ; B T)=d(M ; C T)=\\frac{a \\cdot \\sin A}{2})%<br>+) Ta có<br>\\[\\begin{array}{l}\\widehat{M E F}=\\widehat{H E F}+\\widehat{H E M}=\\widehat{H A B}+\\widehat{H E M}=\\widehat{H A B}+\\widehat{H B M}=90^{\\circ}-B+90^{\\circ}-C=A \\và \\M E=\\frac{B C}{2}=\\frac{a}{2} \\Rightarrow d(M ; E F)=\\frac{a \\cdot \\sin A}{2}\\end{array}\\]<br>vàDo đó %(d(M ; T B)=d(M ; T C)=d(M ; E F)=\\frac{a}{2} \\cdot \\sin A)% nên %(M)% là tâm đường tròn nội tiếp tam giác %(X T Y)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3245347e58f17833a272a43509f66cc5.png\" srcset=\"https://docdn.giainhanh.io/media/test/ff5481fe54740763a30358dbbf2bf064.png 151w\" width=\"151\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh rằng đường thẳng %(S H)% đi qua trung điểm của đoạn thẳng %(B C)%.",
+        "question_images": [],
+        "solution": "+) Do tứ giác %(A F D C)% nội tiếp và %(T X)% tiếp xúc với %((O))% nên<br>\\[\\widehat{F D B}=\\widehat{F A C}=\\widehat{B A C}=\\widehat{C B T}=\\widehat{D B T}\\]<br>Suy ra %(T X \\| D F)%. Tương tự cũng có %(T Y \\| D E)%.<br>+) Từ đó, với %(k=\\frac{D F}{T X})% thì phép vị tự tâm %(S)% tỷ số %(k)% biến tam giác %(D E F)% thành tam giác %(T Y X)%.<br>Và do đó biến %(H)% (tâm đường tròn nội tiếp của tam giác %(D E F)% ) thành %(M)% (tâm đường tròn nội tiếp của tam giác %(T Y X)% ) suy ra %(S, H, M)% thẳng hàng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Kí hiệu %(\\mathbb{N})% chỉ tập hợp các số tự nhiên. Giả sử %(f: \\mathbb{N} \\rightarrow \\mathbb{N})% là hàm số thỏa mãn các điều kiện %(f(1)\\gt 0)% và %(f\\left(m^{2}+2 n^{2}\\right)=(f(m))^{2}+2(f(n))^{2})% với mọi %(m, n \\in \\mathbb{N})%. Tính các giá trị của %(f(2))% và %(f(2011))%.",
+        "question_images": [],
+        "solution": "Đặt %(f(2)=a)%. Cho %(m=n=0 \\Rightarrow f(0)=3(f(0))^{2} \\Rightarrow f(0)=0)%.<br>Cho %(m=1 ; n=0 \\Rightarrow f(1)=(f(1))^{2} \\Rightarrow f(1)=1)%.<br>Cho %(m=n=1 \\Rightarrow f(3)=3)%.<br>Cho %(n=0 \\Rightarrow f\\left(m^{2}\\right)=(f(m))^{2}, \\forall m \\in \\mathbb{N})% nên %(f(4)=a^{2})%.<br>Mặt khác với mỗi số tự nhiên<br>\\[\\begin{array}{l}k \\geq 3 \\Rightarrow(k+1)^{2}+2(k-2)^{2}=(k-3)^{2}+2 k^{2} \\\\Rightarrow(f(k+1))^{2}+2(f(k-2))^{2}=(f(k-3))^{2}+2(f(k))^{2}\\end{array}\\]<br>Từ (1) cho %(k=3)% ta có<br>\\[(f(4))^{2}+2(f(1))^{2}=(f(0))^{2}+2(f(3))^{2} \\Rightarrow a^{4}=16 \\Rightarrow a=2 \\Rightarrow f(2)=2 \\text {. } (1)\\]<br>Theo trên ta chứng minh được %(f(n)=n)% với %(n=0 ; 1 ; 2 ; 3 ; 4)%.<br>Ta chứng minh bằng quy nạp %(f(n)=n)%.<br>Thật vậy, với %(n \\geq 3)% từ đẳng thức (1) ta có:<br>\\[\\begin{array}{l}(f(n+1))^{2}+2(f(n-2))^{2}=(f(n-3))^{2}+2(f(n))^{2} \\\\Rightarrow(f(n+1))^{2}=(n-3)^{2}+2 n^{2}-2(n-2)^{2}=(n+1)^{2} \\Rightarrow f(n+1)=n+1\\end{array}\\]<br>Do đó %(f(n)=n, \\forall n \\in \\mathbb{N} \\Rightarrow f(2011)=2011)%.",
+        "question_type": "essay"
+    }
+]

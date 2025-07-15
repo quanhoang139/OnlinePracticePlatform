@@ -1,0 +1,81 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Giải phương trình %(x^{4}-2 x^{3}+x-\\sqrt{2\\left(x^{2}-x\\right)}=0)%.",
+        "question_images": [],
+        "solution": "%(x^{4}-2 x^{3}+x-\\sqrt{2\\left(x^{2}-x\\right)}=0)% (Điều kiện: %(x \\leq 0 ; x \\geq 1)% )<br>\\[\\Leftrightarrow\\left(x^{2}-x\\right)^{2}-\\left(x^{2}-x\\right)-\\sqrt{2\\left(x^{2}-x\\right)}=0\\]<br>Đặt %(\\sqrt{x^{2}-x}=t(t \\geq 0))%Khi đó, (1) trở thành<br>\\[\\begin{array}{l}t^{4}-t^{2}-\\sqrt{2 t}=0 \\Leftrightarrow t\\left(t^{3}-t-\\sqrt{2}\\right)=0 \\Leftrightarrow t(t-\\sqrt{2}) \\cdot\\left(t^{2}+\\sqrt{2} t+1\\right)=0 \\Leftrightarrow\\left[\\begin{array}{l}t=0 \\t-\\sqrt{2}=0\\end{array}\\left(\\text { Do } t^{2}+\\sqrt{2} t+1\\gt 0 \\forall t\\right)\\right. \\t=0 \\Leftrightarrow x^{2}-x=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\x=1\\end{array}(\\text { Chon) }\\right. \\t=\\sqrt{2} \\Leftrightarrow \\sqrt{x^{2}-x}=\\sqrt{2} \\Rightarrow x^{2}-x=2 \\Rightarrow x^{2}-x-2=0 \\Leftrightarrow\\left[\\begin{array}{l}x=2 \\x=-1\\end{array}\\right. \\text { (Chon) }\\end{array}\\]<br>Vậy tập nghiệm của phương trình là %(x \\in\\{0 ; 1 ; 2 ;-1\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x^{2}+2 y-4 x=0 \\\\ 4 x^{2}-4 x y^{2}+y^{4}-2 y+4=0\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}x^{2}+2 y-4 x=0 \\\\ 4 x^{2}-4 x y^{2}+y^{4}-2 y+4=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}(x-2)^{2}=-2 y+4 \\\\ \\left(2 x-y^{2}\\right)^{2}-2 y+4=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}(x-2)^{2}=-2 y+4 \\\\ \\left(2 x-y^{2}\\right)^{2}+(x-2)^{2}=0\\end{array}\\right.\\right.\\right.)%<br>ท %(\\left(2 x-y^{2}\\right)^{2} ;(x-2)^{2} \\geq 0 \\forall x ; y \\Rightarrow\\left(2 x-y^{2}\\right)^{2}+(x-2)^{2} \\geq 0 \\forall x ; y)%<br>Do đó, từ (1) suy ra: %(\\left\\{\\begin{array}{l}(x-2)^{2}=0 \\\\ \\left(2 x-y^{2}\\right)^{2}=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=2 \\\\ 2 x-y^{2}=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=2 \\\\ y= \\pm 2\\end{array}\\right.\\right.\\right.)%<br>Thay vào, chi có %((x ; y) \\in\\{(2 ; 2)\\})% đúng.<br>Vây tập nghiệm của hê phương trình là %((x ; y) \\in\\{(2 ; 2)\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho các số thục %(a, b, c)% đôi một khác nhau thỏa mãn %(a^{3}+b^{3}+c^{3}=3 a b c)% và %(a b c \\neq 0)%. Tính %(P=\\frac{a b^{2}}{a^{2}+b^{2}-c^{2}}+\\frac{b c^{2}}{b^{2}+c^{2}-a^{2}}+\\frac{c a^{2}}{c^{2}+a^{2}-b^{2}})%.",
+        "question_images": [],
+        "solution": "\\[a^{3}+b^{3}+c^{3}-3 a b c=0 \\Leftrightarrow(a+b+c)\\left(a^{2}+b^{2}+c^{2}-a b-b c-c a\\right)=0 \\Rightarrow a+b+c=0\\]<br>(do a; b; c khác nhau)<br>\\[\\Rightarrow \\frac{a b^{2}}{a^{2}+b^{2}-c^{2}}=\\frac{a b^{2}}{b^{2}+(a-c)(a+c)}=\\frac{a b^{2}}{b^{2}-b(a-c)}=\\frac{a b}{b-a+c}=\\frac{a b}{-a-a}=\\frac{-b}{2}\\]<br>Tương tự với 2 số hạng còn lại.<br>Vậy biểu thức cần tính bằng %(\\frac{-\\mathrm{b}}{2}+\\frac{-\\mathrm{c}}{2}+\\frac{-\\mathrm{a}}{2}=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các cặp số tự nhiên %((x ; y))% thỏa mãn %(2^{x} \\cdot x^{2}=9 y^{2}+6 y+16)%.",
+        "question_images": [],
+        "solution": "Phương trình %(\\Leftrightarrow 2^{2} x^{2}=(3 y+1)^{2}+15)%<br>Vì %(\\left\\{\\begin{array}{l}3 y+1=1(\\bmod 3) \\\\ 15 \\equiv 0 \\quad(\\bmod 3)\\end{array} \\Rightarrow(3 y+1)^{2}+15=1(\\bmod 3)\\right.)%<br>%(\\Rightarrow 2^{2} \\cdot x^{2}=1(\\bmod 3) \\Rightarrow x^{2}=1(\\bmod 3)(V i)% số chính phương chia 3 chia dư 0 hoặc 1<br>%(\\Rightarrow 2^{\\prime}=1(\\bmod 3) \\Rightarrow x-2 k(k \\in N))%<br>Vậy %(2^{2 k} \\cdot(2 k)^{2}-(3 y+1)^{2}-15 \\Leftrightarrow\\left(2^{k} \\cdot 2 k-3 y-1\\right)\\left(2^{k} \\cdot 2 k+3 y+1\\right)=15)%<br>Vì %(y, k \\in N)% nên %(2^{\\prime} \\cdot 2 k+3 y+1\\gt 2^{k} \\cdot 2 k-3 y-1>0)%<br>Vậy ta có các trường hợp<br>\\[\\begin{array}{l}-\\left\\{\\begin{array} { l } { 2 ^ { k } \\cdot 2 k - 3 y - 1 = 1 } \\\\{ 2 ^ { k } \\cdot 2 k - 3 y + 1 = 1 5 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}2^{x} \\cdot 2 k=8 \\\\3 y+1=7\\end{array} \\Rightarrow k \\notin N\\right.\\right. \\text { (loại) } \\\\cdot\\left\\{\\begin{array} { l } { 2 ^ { k } \\cdot 2 k - 3 y - 1 = 3 } \\\\{ 2 ^ { k } \\cdot 2 k - 3 y + 1 = 5 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { 2 ^ { k } \\cdot 2 k = 4 } \\\\{ 3 y + 1 = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}k=1 \\y=0\\end{array}\\right.\\right.\\right. \\text { (TM) }\\end{array}\\]<br>Vậy %((x ; y)=(2 ; 0))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho các số thực dương %(a, b, c)% thỏa mãn %(a^{2}+b^{2}+c^{2}=3)%. Chưng minh<br>\\[\\frac{2 a^{2}}{a+b^{2}}+\\frac{2 b^{2}}{b+c^{2}}+\\frac{2 c^{2}}{c+a^{2}} \\geq a+b+c \\text {. }\\]",
+        "question_images": [],
+        "solution": "Dề thấy:<br>\\[3=a^{2}+b^{2}+c^{2} \\geq \\frac{1}{3}(a+b-c)^{2} \\Rightarrow a+b+c \\leq 3\\]<br>Do đó:<br>\\[\\begin{array}{l}\\frac{2 a^{2}}{a+b^{2}}+\\frac{2 b^{2}}{b+c^{2}}+\\frac{2 c^{2}}{c+a^{2}}=\\frac{4 a^{4}}{2 a^{2}+2 a^{2} b^{2}}+\\frac{4 b^{4}}{2 b^{1}+2 b^{2} c^{2}}+\\frac{4 c^{4}}{2 c^{1}+2 c^{2}} \\\\2 \\frac{\\left(2 a^{2}+2 b^{2}+2 c^{2}\\right)^{2}}{2 a^{3}+2 b^{1}+2 c^{2}+2 a^{2} b^{2}+2 c^{2} b^{2}+2 a^{2} c^{2}} \\\\2 \\frac{36}{a^{4}+a^{2}+b^{4}+b^{2}+c^{4}+c^{2}+2 a^{2} b^{2}+2 c^{2} b^{2}+2 a^{2} c^{2}} \\\\=\\frac{36}{\\left(a^{2}+b^{2}+c^{2}\\right)^{2}+a^{2}+b^{2}+c^{2}}=3 \\geq a+b+c\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho số nguyên dương %(n)% thỏa mãn %(2+2 \\sqrt{12 n^{2}+1})% là số nguyên. Chứng minh %(2+2 \\sqrt{12 n^{2}+1})% là số chính phương.",
+        "question_images": [],
+        "solution": "\\[2+2 \\sqrt{12 n^{2}+1} c Z \\Rightarrow 2 \\sqrt{12 n^{2}+1} \\subset Z \\Rightarrow \\sqrt{12 n^{2}+1} \\subset Q\\]<br>\\[\\begin{array}{l}\\Rightarrow \\sqrt{12 n^{2}+1}=m \\in Z \\Rightarrow 12 n^{2}=m^{2}-1: 4 \\Rightarrow m=2 k+1, k \\in Z . \\\\12 n^{2}=(2 k+1)^{2}-1=4 k(k+1) \\Rightarrow 3 n^{2}=k(k+1): 3 \\Rightarrow k: 3 \\text { hoạc } k+1: 3 . \\\\text { TH1: } k=3 q, q \\in Z \\Rightarrow 3 n^{2}=3 q(3 q+1) \\Rightarrow n^{2}=q(3 q+1) \\\\text { Vi }(q, 3 q+1)=1 \\Rightarrow\\left\\{\\begin{array}{l}q=a^{2} \\\\3 q+1=b^{2}\\end{array} \\Rightarrow 3 q^{2}+1=b^{2}\\right. \\text { (1) }\\end{array}\\]<br>Ta có: %(2+2 \\sqrt{12 n^{2}+1}=2+2 m=2+2(2 k+1)=4+4.3 q=4+12 q=4+12 q^{2})%  %(\\Rightarrow)% đpcm.<br>TH2: %(\\mathrm{k}=3 \\mathrm{q}+1)% : Chứng minh tương tư.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác nhọn %(A B C)% có %(A B\\lt A C)% và nội tiếp đường tròn %((O))%. Các đường cao %(B B^{\\prime}, C C^{\\prime})% cất nhau tại điểm %(H)%. Gọi %(M)% là trung điểm của %(B C)%. Tia %(M H)% cắt đường tròn %((O))% tại điềm %(P)%.Các đường phân giác của các góc %(\\widehat{B P C^{\\prime}}, \\widehat{C P B})% lần luợt cắt %(A B, A C)% tại các điềm %(E)% và %(F)%. Gọi %(O^{\\prime})% là tâm đường tròn ngoại tiếp tam giác %(A E F ; K)% là giao điềm của %(H M)% và %(A O^{\\prime})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.75,
+        "content": "a) Chứng minh hai tam giác %(B P C^{\\prime})% và %(C P B^{\\prime})% đồng dạng.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" class=\"image_resized\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/df9f6e35b69a231259cb1c4a751ad9e1.png\" srcset=\"https://docdn.giainhanh.io/media/test/aa06bc0907f4eb6cb4f55f21188fc117.png 207w, https://docdn.giainhanh.io/media/test/06380b691b432625a268aed2ebfa8f1c.png 500w\" style=\"width:47.57%;\" width=\"500\"/><br>%(\\mathrm{O})%%(\\mathrm{AO})% cắt %((\\mathrm{O}))% tại %(\\mathrm{D})% thì %(\\mathrm{AD})% là đường kính của %((\\mathrm{O}))%.<br>\\[\\begin{array}{l}\\Rightarrow \\mathrm{ABD}=\\mathrm{ACD}=90^{\\circ} \\\\Rightarrow \\mathrm{BD} / / \\mathrm{CH} \\text { và } \\mathrm{CD} / / \\mathrm{BH} .\\end{array}\\]<br>%(\\Rightarrow)% Tứ giác HBDC là hình bình hành.%(\\Rightarrow \\mathrm{DH})% cắt %(\\mathrm{BC})% tại trung điểm của %(\\mathrm{BC})% và cũng là trung điểm của %(\\mathrm{DH})%. %(\\Rightarrow \\mathrm{D}, \\mathrm{M}, \\mathrm{H}, \\mathrm{P})% thẳng hàng.%(\\Rightarrow \\mathrm{APD}=90^{\\circ})% hay %(\\mathrm{APH}=90^{\\circ})%.%(\\Rightarrow \\mathrm{P})% thuộc đường tròn đường kính %(\\mathrm{AH})%.<br>Lai có %(\\mathrm{AB}^{\\prime} \\mathrm{H}=\\mathrm{AC}^{\\prime} \\mathrm{H}=90^{\\circ})%.%(\\Rightarrow \\mathrm{B})% ', %(\\mathrm{C})% ' thuộc đường tròn đường kính %(\\mathrm{AH})%.<br>Vậy %(\\mathrm{A}, \\mathrm{P}, \\mathrm{B}, \\mathrm{C}^{\\prime}, \\mathrm{H})% cùng thuộc đường tròn đường kính %(\\mathrm{AH})%.<br>\\[\\left.\\begin{array}{l}\\Rightarrow \\mathrm{AB} \\mathrm{P}=\\mathrm{AC} ' \\mathrm{P} \\\\mathrm{PC} \\mathrm{B}+\\mathrm{PC} ' \\mathrm{~A}=90^{\\circ} \\\\mathrm{PB} \\mathrm{C}+\\mathrm{PB}^{\\prime} \\mathrm{A}=180^{\\circ}\\end{array}\\right\\} \\Rightarrow \\mathrm{PC}^{\\prime} \\mathrm{B}=\\mathrm{PB}^{\\prime} \\mathrm{C} \\text {. }\\]<br>Xét đường tròn %((\\mathrm{O}): \\mathrm{PCB}^{\\prime}=\\mathrm{PBC}^{\\prime})% (góc cùng chắn cung %(\\mathrm{AP})% )Mà %(\\mathrm{PC}^{\\prime} \\mathrm{B}=\\mathrm{PB}{ }^{\\prime} \\mathrm{C} \\Rightarrow \\triangle \\mathrm{PB}^{\\prime} \\mathrm{C} \\sim \\triangle \\mathrm{PCB}(\\mathrm{g}-\\mathrm{g})(Ð \\mathrm{pcm}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh tứ giác %(P E K F)% nội tiếp.",
+        "question_images": [],
+        "solution": "%(\\mathrm{PE}, \\mathrm{PF})% lần lượt là phân giác của %(\\mathrm{BPC}^{\\prime})% và %(\\mathrm{CPB}^{\\prime})%%(\\Rightarrow\\left\\{\\begin{array}{l}\\mathrm{EPC}^{\\prime}=\\frac{1}{2} \\mathrm{BPC}^{\\prime} \\\\ \\mathrm{FPB}^{\\prime}=\\frac{1}{2} \\mathrm{CPB}^{\\prime}\\end{array}\\right.)%<br>Mà %(\\mathrm{BPC}^{\\prime}=\\mathrm{CPB}^{\\prime})% do %(\\triangle \\mathrm{BPC}^{\\prime} \\sim \\triangle \\mathrm{CPB}^{\\prime} \\Rightarrow \\mathrm{EPC}^{\\prime}=\\mathrm{EPB}^{\\prime})%.Xét %(\\triangle \\mathrm{PEC}^{\\prime})% và %(\\triangle \\mathrm{PFB}^{\\prime})% có:<br>\\[\\left.\\begin{array}{l}\\mathrm{EPC}^{\\prime}=\\mathrm{FPB}^{\\prime}(\\mathrm{cmt}) \\\\mathrm{PC}{ }^{\\prime} \\mathrm{E}=\\mathrm{PB}^{\\prime} \\mathrm{F}\\left(\\Delta \\mathrm{BPC}^{\\prime} \\sim \\Delta \\mathrm{CPB}^{\\prime}\\right)\\end{array}\\right\\} \\Rightarrow \\Delta \\mathrm{PEC}^{\\prime} \\sim \\Delta \\mathrm{PFB}^{\\prime}(\\mathrm{g}-\\mathrm{g})\\]<br>%(\\Rightarrow \\mathrm{PEC}^{\\prime}=\\mathrm{PFB}^{\\prime})% hay %(\\mathrm{PEA}=\\mathrm{PEA})%%(\\Rightarrow)% Tứ giác %(\\mathrm{APEF})% nội tiếp.<br>%(\\mathrm{O}^{\\prime})% là tâm ngoại tiếp %(\\triangle \\mathrm{AEF})% hếnlà tâm ngoại tiếp tứ giác %(\\mathrm{APEF})%.Gọi %(\\mathrm{K})% ' là giao của %(\\mathrm{AO})% ' với( %(\\left(\\mathrm{O}^{\\prime}\\right))% thì %(\\mathrm{AK})% ' là đường kính.<br>%(\\Rightarrow \\mathrm{APK}=90^{\\circ} \\Rightarrow \\mathrm{K} \\in \\mathrm{PD})% vì %(\\mathrm{APD}=90^{\\circ})%%(\\Rightarrow K)% là giao của %(P D)% và %(A O^{\\prime})% hay %(K^{\\prime})% là giao của %(M H)% và %(A O^{\\prime} \\Rightarrow K \\equiv K^{\\prime} \\Rightarrow K \\in(O))%:'Hay tứ giác PEKF nội tiếp.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho 2017 số hữu tỷ dương được viết trên một đường tròn. Chứng minh tồn tại hai số được viết cạnh nhau trên đường tròn sao cho khi bỏ hai số đó thì 2015 số còn lại không thế chia thành hai nhóm mà tổng các số ở mỗi nhóm bằng nhau.",
+        "question_images": [],
+        "solution": "Ta có thể đưa về bài toán mà 2017 số là các số nguyên dương (quy đồng mẵu số các số hữu tỷ, được tử số là các số nguyên dương).<br>Ta gọi ước chung lơn nhất của 2017 số nguyên dương này là d, chia tát cả các số cho d ta đưa được về bài toán với 2017 số nguyên dương mà ước chung lơn nhất của chúng bằng 1.<br>TH1: Tổng 2017 số là số lé. Nếu tất cả các cẵp số cạnh nhau khác tính chã̃n lè thì sẽ có chẵn số mà 2017 lè nên sẽ tồn tại 2 số chẳn hợc 2 số lè cạnh nhau, bỏ 2 số này (có tổng chẵn) ta còn 2015 số có tổng lê, nên cũng không chia thình 2 nhóm có tổng bằng nhau được.<br>TH 2: Tổng 2017 số là số chẵn, không thể cả 2017 số này đều chẵn, do đó có 1 số lè (2) (vi đang giả sử chúng có UCLN tà 1), và cũng không đều lè được (3).<br>Do (2) và (3) nên sẽ tồn tại 1 số chẫn cạnh 1 số lẻ, 2015 số cỏn lại có tống là số lẻ, suy ra sẽ không thế chia thành 2 nhóm có tổng bằng nhau.",
+        "question_type": "essay"
+    }
+]

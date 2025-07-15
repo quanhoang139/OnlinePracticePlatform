@@ -1,0 +1,97 @@
+[
+    {
+        "title": "1a ",
+        "point": 2.0,
+        "content": "Cho %(a+b=1)%. Tính %(M=2\\left(a^{3}+b^{3}\\right)-3\\left(a^{2}+b^{2}\\right))%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text {  Ta có }(a+b)^{3}=a^{3}+3 a^{2} b+3 a b^{2}+b^{3} \\\\Rightarrow a^{3}+b^{3}=(a+b)^{3}-3 a b(a+b)=1-3 a b \\\\text { và }(a+b)^{2}=a^{2}+2 a b+b^{2} \\\\Rightarrow a^{2}+b^{2}=(a+b)^{2}-2 a b=1-2 a b\\end{array}\\]<br>Khi đó %(M=2-6 a b-3+6 a b=-1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "1b ",
+        "point": 2.0,
+        "content": "Tìm dư trong phép chia đa thức %(f(x)=x^{2020}-1)% cho đa thức %(g(x)=x^{2}+x+1)%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{aligned}f(x)=x^{2020}-1 & =x \\cdot\\left(x^{3}\\right)^{673}-1 \\\\& =x \\cdot\\left(x^{3}\\right)^{673}-x+x-1 \\\\& =x \\cdot\\left[\\left(x^{3}\\right)^{673}-1\\right]+x-1\\end{aligned}\\]<br>Do %(\\left(x^{3}\\right)^{673}-1: x^{3}-1)% và %(x^{3}-1=(x-1)\\left(\\mathrm{x}^{2}+x+1\\right))%<br>nên %(\\left(x^{3}\\right)^{673}-1: x^{2}+x+1)%<br>Vậy dư trong phép chia đa thức %(f(x)=x^{2020}-1)% cho đa thức %(g(x)=x^{2}+x+1)% là %(x-1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2a ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(\\left(x^{2}-x\\right)\\left(x^{2}-x-2\\right)=24)%",
+        "question_images": [],
+        "solution": "Đặt %(x^{2}-x=a)%.<br>Ta có phương trình : %(a(a-2)=24)%<br>\\[\\begin{array}{l}\\Leftrightarrow a^{2}-2 a-24=0 \\\\Leftrightarrow(a-6)(a+4)=0 \\\\Leftrightarrow a=6 \\text { hoặc } a=-4\\end{array}\\]<br>Với %(\\mathrm{a}=-4 \\Rightarrow x^{2}-x=-4)%<br>\\[\\Leftrightarrow x^{2}-x+4=0\\]<br>%(\\Leftrightarrow\\left(x-\\frac{1}{2}\\right)^{2}+\\frac{15}{4}=0)% (Phương trình vô nghiệm)<br>\\[\\begin{array}{l}\\text { Với } a=6 \\Rightarrow x^{2}-x=6 \\\\Leftrightarrow x^{2}-x-6=0 \\\\Leftrightarrow(x+2)(x-3)=0 \\\\Leftrightarrow x=-2 \\text { hoặc } x=3\\end{array}\\]<br>Vậy tập nghiệm của phương trình là %(S=\\{-2 ; 3\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2b ",
+        "point": 2.0,
+        "content": "Tìm các số %(a, b, c)% biết %(a+b+c=9)% và %(a^{2}+b^{2}+c^{2}=27)%",
+        "question_images": [],
+        "solution": "Ta có %(a+b+c=9)%<br>\\[\\begin{array}{l}\\Rightarrow(a+b+c)^{2}=81 \\\\Leftrightarrow a^{2}+b^{2}+c^{2}+2 a b+2 b c+2 c a=81 \\\\Leftrightarrow a b+b c+c a=27\\end{array}\\]<br>Từ đó suy ra %(a^{2}+b^{2}+c^{2}=a b+b c+c a)%<br>\\[\\begin{array}{l}\\Leftrightarrow 2 a^{2}+2 b^{2}+2 c^{2}=2 a b+2 b c+2 c a \\\\Leftrightarrow a^{2}-2 a b+b^{2}+b^{2}-2 b c+c^{2}+c^{2}-2 c a+a^{2}=0 \\\\Leftrightarrow(a-b)^{2}+(b-c)^{2}+(c-a)^{2}=0\\end{array}\\]<br>Vì %((a-b)^{2} \\geq 0)% với mọi %(a, b)%;<br>%((a-b)^{2} \\geq 0)% với mọi %(b ; c)%<br>%((a-b)^{2} \\geq 0)% với mọi %(a, c)%<br>nên %((a-b)^{2}+(b-c)^{2}+(c-a)^{2} \\geq 0 \\forall a, b, c)%<br>Dấu \" %(=)% \" xảy ra khi %(a=b=c)%<br>Mà %(a+b+c=9)% nên %(a=b=c=3)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3a ",
+        "point": 1.5,
+        "content": "Cho 3 số nguyên tố liên tiếp %(x, y, z)% thỏa mãn %(\\mathrm{x}\\lt \\mathrm{y}\\lt \\mathrm{z})% và %(x^{2}+y^{2}+z^{2})% là một số nguyên tố. Chứng minh %((x-1)^{2}+(y-2)^{2}+(z-3)^{2})% cũng là một số nguyên tố.",
+        "question_images": [],
+        "solution": "Với %(x=2)% suy ra %(y=3, z=5)%. Khi đó %(x^{2}+y^{2}+z^{2}=38)% là hợp số.<br>Với %(x=3)% suy ra %(y=5, z=7)%. Khi đó %(x^{2}+y^{2}+z^{2}=83)% là số nguyên tố.<br>Với %(x\\gt 3)% suy ra %(y>3, z>3)%. Khi đó %(x, y, z)% đều không chia hết cho 3.<br>Do đó %(x^{2} ; y^{2} ; z^{2})% chia cho %(3~ \\mathrm{dư} ~1 \\Rightarrow x^{2}+y^{2}+z^{2})% chia hết cho 3 mà %(x^{2}+y^{2}+z^{2}>3)% nên %(x^{2}+y^{2}+z^{2})% là hợp số.<br>Vậy %(x=3, y=5, z=7)%<br>Suy ra %((\\mathrm{x}-1)^{2}+(y-2)^{2}+(z-3)^{2}=29)% là số nguyên tố.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3b ",
+        "point": 1.5,
+        "content": "Cho %(x, y)% là các số thực thỏa mãn: %(x^{2}+y^{2}=4+x y)%. Chứng minh: %(\\frac{8}{3} \\leq x^{2}+y^{2} \\leq 8)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Ta có: } x^{2}+y^{2}=4+x y \\\\quad \\Leftrightarrow 2 x^{2}+2 y^{2}=8+2 x y \\\\quad \\Leftrightarrow x^{2}+y^{2}=-x^{2}+2 x y-y^{2}+8 \\\\quad \\Leftrightarrow x^{2}+y^{2}=-(x-y)^{2}+8 \\\\text { Vì }(x-y)^{2} \\geq 0 \\forall x, y \\text { nên }-(x-y)^{2}+8 \\leq 8~(1)\\end{array}\\]<br>Dấu \" %(=)% \" xảy ra khi %(x=y= \\pm 2)%<br>Lại có %(2 x^{2}+2 y^{2}=8+2 x y)%<br>\\[\\begin{array}{l}\\Leftrightarrow 3 x^{2}+3 y^{2}=8+x^{2}+2 x y+y^{2} \\\\Leftrightarrow 3\\left(x^{2}+y^{2}\\right)=(x+y)^{2}+8 \\geq 8 \\\\text { Vì }(x-y)^{2} \\geq 0 \\forall x, y \\text { nên }(x-y)^{2}+8 \\geq 8 \\\\Rightarrow x^{2}+y^{2} \\geq \\frac{8}{3}~(2)\\end{array}\\]<br>Dấu \" = \" xảy ra khi %(x=-y= \\pm \\frac{2}{\\sqrt{3}})%<br>Từ (1) và (2) suy ra: %(\\frac{8}{3} \\leq x^{2}+y^{2} \\leq 8)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho tam giác %(A B C)% vuông tại %(A~(A B\\lt A C))%. Đường phân giác %(A D~(D \\in B C))%. Kẻ %(D E)% vuông góc với AB , kẻ %(D F)% vuông góc với %(\\mathrm{AC}~(\\mathrm{E} \\in \\mathrm{AB}, \\mathrm{F} \\in \\mathrm{AC}) . B F)% cắt %(D E)% tại %(\\mathrm{M}, C E)% cắt %(D F)% tại %(N)%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "4a ",
+        "point": 2.0,
+        "content": "a) Biết %(A B=4 \\mathrm{~cm}, \\frac{B D}{B C}=\\frac{1}{3})%. Tính diện tích tam giác %(A B C)%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\frac{B D}{B C}=\\frac{1}{3} \\Rightarrow \\frac{B D}{D C}=\\frac{1}{2})%<br>Xét tam giác %(A B C)% có %(A D)% là phân giác nên %(\\frac{B D}{D C}=\\frac{A B}{A C})%<br>hay %(\\frac{4}{A C}=\\frac{1}{2} \\Rightarrow A C=8 \\mathrm{~cm})%<br>Vậy %(S_{A B C}=\\frac{1}{2} A B \\cdot A C=\\frac{1}{2} \\cdot 4 \\cdot 8=16 \\mathrm{~cm})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ac6f7531f7b4357bc1571438f530cd44.png\" srcset=\"https://docdn.giainhanh.io/media/test/5e20aa44d0bb79a33ad38f46ce53f880.png 215w\" width=\"215\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "4b ",
+        "point": 2.0,
+        "content": "b) Chứng minh %(\\frac{E M}{M D}=\\frac{B E}{E A})%.",
+        "question_images": [],
+        "solution": "Ta có: Tứ giác %(A E D F)% có: %(\\angle A=\\angle E=\\angle F=90^{\\circ})% nên tứ giác %(A E D F)% là hình chữ nhật<br>suy ra %(\\mathrm{DF} / / \\mathrm{AB}, \\mathrm{DF}=\\mathrm{AE})%<br>Vì %(\\mathrm{DF} / / \\mathrm{AB})% nên %(\\mathrm{DF} / / \\mathrm{BE} \\Rightarrow \\frac{B E}{D F}=\\frac{E M}{M D})% (Hệ quả của định lí Talet)<br>Mà %(D F=A E)% nên %(\\frac{B E}{A E}=\\frac{E M}{M D})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4c ",
+        "point": 2.0,
+        "content": "c) Chứng minh %(\\mathrm{MN} / / \\mathrm{BC})%.",
+        "question_images": [],
+        "solution": "Ta có: FD//AB %(\\Rightarrow \\frac{N E}{N C}=\\frac{A F}{F C})% (Định lí Talet)<br>Lại có %(\\frac{A F}{F C}=\\frac{B D}{D C}~(\\mathrm{DE} / / \\mathrm{AB})%, định lí Talet %())%<br>%(\\frac{B D}{D C}=\\frac{B E}{A E} \\quad(\\mathrm{DE} / / \\mathrm{AC})%, định lí Talet %())%<br>Suy ra %(\\frac{E M}{M D}=\\frac{E N}{N C})%<br>%(\\Rightarrow \\mathrm{MN} / \\mathrm{BC})% (Định lí Talet đảo)",
+        "question_type": "essay"
+    },
+    {
+        "title": "4d ",
+        "point": 2.0,
+        "content": "d) Kẻ đường cao AH của tam giác ABC . Gọi %(I)% là giao điểm của %(B F)% và %(C E)%. Chứng minh %(\\mathrm{A}, \\mathrm{I}, \\mathrm{H})% thẳng hàng.",
+        "question_images": [],
+        "solution": "Xét hình chữ nhật %(A E D F)% có %(A D)% là phân giác nên là hình vuông, suy ra: %(\\mathrm{AE}=\\mathrm{AF}=\\mathrm{DF}=\\mathrm{EF})% (1)<br>Ta có: %(\\frac{F N}{A E}=\\frac{F C}{A C}=\\frac{F D}{A B})% (FD//AB , hệ quả của định lí Talet) (2)<br>Từ (1) và (2) suy ra %(\\frac{F N}{A F}=\\frac{A F}{A B} \\Rightarrow \\frac{A F}{F N}=\\frac{A B}{F A})%<br>Xét %(\\triangle A F B)% và %(\\triangle F N A)% có: %(\\angle F A B=\\angle A F N=90^{\\circ})% và %(\\frac{A F}{F N}=\\frac{A B}{F A})% (chứng minh trên)<br>Do đó %(\\triangle \\mathrm{AFB} \\sim \\triangle \\mathrm{FNA})% (c.g.c)<br>%(\\Rightarrow \\angle A F B=\\angle A N F)%<br>Mà %(\\angle A N F+\\angle N A F=90^{\\circ})% nên %(\\angle A F B+\\angle N A F=90^{\\circ})%%(\\Rightarrow \\mathrm{BF} \\perp \\mathrm{AN})%<br>Chứng minh tương tự ta có: %(\\mathrm{CE} \\perp \\mathrm{AM})%<br>Từ đó suy %(\\mathrm{ra}~ I)% là giao điểm của hai đường cao xuất phát từ %(M)% và %(N)% của tam giác %(A M N)% nên %(\\mathrm{AI} \\perp \\mathrm{MN})% mà %(\\mathrm{MN} //\\mathrm{BC})% (câu c) nên %(A I \\perp \\mathrm{BC})%.<br>Mặt khác %(\\mathrm{AH} \\perp \\mathrm{BC}~(A H)% là đường cao của tam giác ABC%())%<br>Suy ra A,I,H thẳng hàng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho chín số tự nhiên liên tiếp từ 1 đến 9 xếp theo thứ tự tùy ý. Lấy số thứ nhất trừ 1 , lấy số thứ hai trừ 2 , lấy số thứ ba trừ %(3, \\ldots)%, lấy số thứ chín trừ 9 . Chứng minh rằng tích của chín số mới lập được là một số chẵn.",
+        "question_images": [],
+        "solution": "Gọi chín số ban đầu là: %(a_{1}, a_{2}, a_{1}, \\ldots a_{8}, a_{9})%.<br>thì chín số mới là: %(a_{1}-1 ; a_{2}-2 ; \\ldots ; a_{8}-8 ; a_{9}-9)%.<br>Để chứng minh tích của chín số mới là số chẵn, ta chứng tỏ rằng tồn tại một số mới là số chẵn.<br>Thật vậy, giả sử chín số mới đều là số lẻ thì tổng của chúng là số lẻ.<br>Do đó: %(\\left(a_{1}-1\\right)+\\left(a_{2}-2\\right)+\\ldots+\\left(a_{8}-8\\right)+\\left(a_{9}-9\\right))% là số lẻ nên %(\\left(a_{1}+a_{2}+\\ldots+a_{8}+a_{9}\\right)-(1+2+\\ldots+8+9))% là số lẻ.<br>Mặt khác %(\\left(a_{1}+a_{2}+\\ldots+a_{8}+a_{9}\\right)-(1+2+\\ldots+8+9)=0)% nên suy ra 0 là số lẻ, vô lí.<br>Vậy tích của chín số mới lập được là số chẵn.",
+        "question_type": "essay"
+    }
+]

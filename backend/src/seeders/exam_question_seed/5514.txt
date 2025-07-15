@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Cho %(a, b, c)% là ba số thực thỏa mãn đồng thời các điều kiện %(a+b+c=1)% và %(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=1)%.<br>Chứng minh rằng trong ba số %(a, b, c)% có ít nhất một số bằng 1 .",
+        "question_images": [],
+        "solution": "Ta có: %(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=1 \\Leftrightarrow a b+b c+c a=a b c)%.<br>Khi đó %((1-a)(1-b)(1-c)=1-(a+b+c)+(a b+b c+c a)-a b c=0)%.Suy ra: %((1-a)(1-b)(1-c)=0)%.<br>Đẳng thức này chứng tỏ một trong ba số %(a, b, c)% có ít nhất một số bằng 1 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho %(x, y, z)% là ba sô thực thỏa mãn đông thời các điêu kiện %(x+y+z=2045)% và<br>\\[(x-18)^{3}+(y-7)^{3}+(z-2020)^{3}=0 .\\]<br>Tính giá trị của biếu thức: %(F=(x-18)^{2021}+(y-7)^{2021}+(z-2020)^{2021})%.",
+        "question_images": [],
+        "solution": "Đặt %(a=x-18, b=y-7)% và %(c=z-2020)%.<br>Khi đó ta có: %(\\left\\{\\begin{array}{l}a+b+c=0 \\\\ a^{3}+b^{3}+c^{3}=0\\end{array}\\right.)%.<br>Do đó: %(F=a^{2021}+b^{2021}+c^{2021})%.<br>Ta có: %(a^{3}+b^{3}+c^{3}-3 a b c=(a+b+c)\\left(a^{2}+b^{2}+c^{2}-a b-b c-c a\\right)=0)%.Suy ra %(3 a b c=a^{3}+b^{3}+c^{3}=0)%.<br>Không mất tính tổng quát giả sử %(a=0)%.<br>Khi đó ta có: %(b^{3}=-c^{3} \\Leftrightarrow b=-c)%.Suy ra %(F=a^{2021}+b^{2021}+c^{2021}=0+(-c)^{2021}+c^{2021}=0)%.<br>Vậy %(F=0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(1+\\frac{1}{\\sqrt{x^{2}-1}}=\\frac{35}{12 x})%.",
+        "question_images": [],
+        "solution": "Điều kiện xác định: %(|x|\\gt 1)%.<br>Ta có: %(\\frac{35}{12 x}=1+\\frac{1}{\\sqrt{x^{2}-1}}>0 \\Rightarrow x>0)%.<br>Do đó %(x>1)%.<br>Bình phương hai vế của phương trình đã cho, ta được:<br>\\[\\begin{array}{l}1+\\frac{2}{\\sqrt{x^{2}-1}}+\\frac{1}{x^{2}-1}=\\frac{1225}{144 x^{2}} \\\\Leftrightarrow \\frac{x^{4}}{x^{2}-1}+\\frac{2 x^{2}}{\\sqrt{x^{2}-1}}-\\frac{1225}{144}=0 \\\\Leftrightarrow\\left(\\frac{x^{2}}{\\sqrt{x^{2}-1}}+\\frac{49}{12}\\right)\\left(\\frac{x^{2}}{\\sqrt{x^{2}-1}}-\\frac{25}{12}\\right)=0 \\\\Leftrightarrow \\frac{x^{2}}{\\sqrt{x^{2}-1}}=\\frac{25}{12} \\Leftrightarrow 144 x^{4}-625 x^{2}+625=0 \\\\Leftrightarrow(4 x-5)(4 x+5)(3-5)(3 x+5)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{5}{4} \\x=\\frac{5}{3}\\end{array} \\quad(x>1) .\\right.\\end{array}\\]<br>Vậy phương trình đã cho có hai nghiệm %(x=\\frac{5}{4} ; x=\\frac{5}{3})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x y-3 y=4 x^{2}+3 x+3 \\\\ y^{2}+4 y+18=7 x^{2}+16 x\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Hệ đã cho tương đương với: %(\\left\\{\\begin{array}{l}(y+2)(x-3)=4 x^{2}+5 x-3(1) \\\\ (y+2)^{2}=7 x^{2}+16 x-14(2)\\end{array}\\right.)%.Lấy %((2)-2 \\cdot(1))%, ta được:<br>\\[\\begin{array}{l}(y+2)^{2}-2(y+2)(x-3)=-x^{2}+6 x-8 \\\\Leftrightarrow(y+2)^{2}-2(y+2)(x-3)+(x-3)^{2}=1 \\\\Leftrightarrow(y+2-x+3)^{2}=1 \\\\Leftrightarrow(y-x+5)^{2}=1 \\Leftrightarrow\\left[\\begin{array}{l}y=x-6 \\y=x-4\\end{array} .\\right.\\end{array}\\]<br>Trường hợp 1: %(y=x-6)%, thay vào (1), ta được: %(3 x^{2}+12 x-15=0 \\Leftrightarrow\\left[\\begin{array}{l}x=1 \\Rightarrow y=-5 \\\\ x=-5 \\Rightarrow x=-11\\end{array}\\right.)%.<br>Trường hợp 2: %(y=x-4)%, thay vào (1), ta được: %(3 x^{2}+10 x-9=0 \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{-5+2 \\sqrt{13}}{3} \\Rightarrow y=\\frac{-17+2 \\sqrt{13}}{3} \\\\ y=-\\frac{5+2 \\sqrt{13}}{3}\\end{array}\\right.)%.<br>Vậy %(S=\\left\\{(1 ;-5),(-5 ;-11),\\left(\\frac{-5+2 \\sqrt{13}}{3} ; \\frac{-17+2 \\sqrt{13}}{3}\\right),\\left(-\\frac{5+2 \\sqrt{13}}{3} ;-\\frac{17+2 \\sqrt{13}}{3}\\right)\\right\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các cặp số nguyên %((x ; y))% thỏa mãn %(x y^{2}-(x-2)\\left(x^{4}+2 x+1\\right)=2 y^{2})%.",
+        "question_images": [],
+        "solution": "Phương trình đã cho tương đương:<br>\\[\\begin{array}{l}y^{2}(x-2)-(x-2)\\left(x^{4}+2 x+1\\right)=0 \\\\Leftrightarrow(x-2)\\left[y^{2}-\\left(x^{4}+2 x+1\\right)\\right]=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x=2 \\y^{2}=x^{4}+2 x+1\\end{array}\\right.\\end{array}\\]<br>Với %(x=2)%, ta có mọi %(y)% nguyên đều thỏa mãn.<br>Với %(y^{2}=x^{4}+2 x+1)%, suy ra %(x^{4}+2 x+1)% là số chính phương.<br>Ta xét hai trường hợp sau:- %(x\\gt 1)% thì %(x^{4}\\lt x^{4}+2 x+1\\lt \\left(x^{2}+1\\right)^{2})%.<br>Do đó %(x>1)% không thỏa mãn.- %(x\\lt -1)% thì %(x^{4}>x^{4}+2 x+1>\\left(x^{2}-1\\right)^{2})%.<br>Do đó %(x\\lt -1)% không thỏa mãn.<br>Thử trực tiếp:- %(x=0)%, ta được %(y=1)% hoặc %(y=-1)%.- %(x=1)%, ta được %(y=2)% hoặc %(y=-2)%.- %(x=-1)%, ta được %(y=0)%.<br>Vậy phương trình đã có có nghiệm %((x ; y)=(2 ; a),(0 ; 1),(0 ;-1),(1 ; 2),(1 ;-2),(-1 ; 0))% với %(a \\in \\mathbb{Z})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng nếu %(2^{n}=10 a+b)% với %(a, b, n)% là các số tự nhiên thỏa mãn %(0\\lt b\\lt 10)% và %(n\\gt 3)% thì %(a b)% chia hết cho 6 .",
+        "question_images": [],
+        "solution": "Ta có: %(2^{n}=10 a+b)% suy ra %(b)% chia hết cho 2 mà %(0\\lt b\\lt 10)% nên %(b \\in\\{2 ; 4 ; 6 ; 8\\})%.<br>Bây giờ đặt %(n=4 k+r)% với %(k \\in \\mathbb{N})% và %(r \\in\\{0 ; 1 ; 2 ; 3\\})%.<br>Ta có: %(2^{n}=2^{4 k+r}=16^{k} \\cdot 2^{r} \\equiv 2^{r}(\\bmod 15))%.<br>Mà %(2^{r} \\in\\{1 ; 2 ; 4 ; 8\\})% do đó %(2^{n})% chia 15 dư %(1 ; 2 ; 4 ; 8)%.<br>- Nếu %(a=3 m+1)%, thì %(10 a+b=10(3 m+1)+b=30 m+b+10)%.<br>Suy ra %(2^{n}=10 a+b \\equiv b+10(\\bmod 15))%.<br>Do đó %(b+10)% chia 15 dư %(1 ; 2 ; 4 ; 8)%. Mà %(b \\in\\{2 ; 4 ; 6 ; 8\\})% nên %(b=6)%.<br>Nên %(a b: 6)%.- Nếu %(a=3 m+2)%, thì %(10 a+b=10 \\cdot(3 m+2)+b=30 m+b+20)%.<br>Suy ra %(2^{n}=10 a+b \\equiv b+5(\\bmod 15))%.<br>Do đó %(b)% chia 15 dư %(1 ; 2 ; 4 ; 8)%. Mà %(b \\in\\{2 ; 4 ; 6 ; 8\\})% nên không có giá trị nào của %(b)% thóa mãn.<br>Hay không tồn tại %(a)% dạng %(3 m+2)% sao cho %(2^{n}=10 a+b)%.<br>- Nếu %(a=3 m)% thì %(a b=3 m b)% mà %(b)% chẵn nên %(a b: 6)%.<br>Vậy trong mọi trường hợp %(a, b)% thỏa mãn %(2^{n}=10 a+b)% thì %(a b)% chia hết cho 6 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác %(A B C)% nhọn có %(\\widehat{B A C}\\gt 45^{\\circ})%. Về phía ngoài tam giác %(A B C)% dựng các hình vuông %(A B M N)% và %(A C P Q)%. Đường thẳng %(A Q)% cắt đoạn thẳng %(B M)% tại %(E)%, đường thẳng %(A N)% cắt đoạn thẳng %(C P)% tại %(F)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "null ",
+        "point": 1.0,
+        "content": "a) Chứng minh tứ giác %(E F Q N)% nội tiếp được một đường tròn.",
+        "question_images": [],
+        "solution": "a) Ta có: %(\\widehat{A B E}=\\widehat{A C F}=90^{\\circ})% và %(\\widehat{B A E}=\\widehat{C A F})% (do cùng phụ với %(\\widehat{B A C})% ).<br>Suy ra %(\\triangle A B E \\sim \\triangle A C F \\Rightarrow \\frac{A E}{A F}=\\frac{A B}{A C}=\\frac{A N}{A D})%.<br>Do đó %(\\triangle A E F \\sim \\triangle A N Q \\Rightarrow \\widehat{A F E}=\\widehat{N Q A})%.<br>Từ đó tứ giác %(N Q F E)% nội tiếp.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9817c7b0cf9c420d5c6160b8845d387f.png\" srcset=\"https://docdn.giainhanh.io/media/test/2c49b14bb68c47d840dd9883fc0df17c.png 122w, https://docdn.giainhanh.io/media/test/6fb6e59a693f2a5e43c9ece6ae90d08a.png 391w\" width=\"391\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "null ",
+        "point": 1.0,
+        "content": "b) Gọi %(I)% là trung điểm của đoạn thẳng %(E F)%. Chứng minh %(I)% là tâm đường trong ngoại tiếp tam giác %(A B C)%.",
+        "question_images": [],
+        "solution": "b) Bổ đề:<br>Nếu gọi %(M, N)% lần lượt là trung điểm của %(B D, A C)% với %(A B C D)% là hình thang %((A B \\| C D))% thì %(M N\\|A B\\| C D)%.<br>Chứng minh: Gọi %(K)% là trung điểm của %(A D)% thì %(K M\\|A B\\| C D)% và %(K N\\|D C\\| A B)%.<br>Từ đó suy ra %(K, M, N)% thẳng hàng hay %(M N\\|A B\\| C D)%.<br>Trở lại bài toán gọi %(S, L)% lần lượt là trung điểm của %(A C, A B)%.<br>Áp dung bổ đề trên cho hình thang %(A F C E)% với %(I)% là trung điểm %(E F, S)% là trung điểm %(A C)% ta có %(I S \\| C F)%.<br>Mà %(C F \\perp A C)% nên %(I S \\perp A C)% tại trung điểm %(S)% của %(A C)% hay %(I S)% là trung trực của %(A C)% (1).<br>Chứng minh tương tự ta cũng có %(I L)% là trung trực của %(A B(2))%.<br>Từ (1) và %((2))% suy ra %(I)% là tâm đường tròn ngoại tiếp tam giác %(A B C)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "null ",
+        "point": 1.0,
+        "content": "c) Đường thẳng %(M N)% cắt đường thẳng %(P Q)% tại %(D)%. Các đường tròn ngoại tiếp tam giác %(D M Q)% và %(D N P)% cắt nhau tại %(K)% với %(K \\neq D)%. Các tiếp tuyến của đường tròn ngoại tiếp tam giác %(A B C)% tại %(B)% và %(C)% cắt nhau tại %(J)%. Chứng minh bốn điểm %(D, A, K, J)% thẳng hàng.",
+        "question_images": [],
+        "solution": "c) Gọi %(K_{1}, K_{2})% lần lượt là giao điểm của %(D A)% với đường tròn ngoại tiếp %(\\triangle D M Q)% và %(\\triangle D N P)%.<br>Do %(\\widehat{D M E}=\\widehat{D Q E}=90^{\\circ})% nên %(D E)% là đường kính của đường tròn ngoại tiếp %(\\triangle D M Q)%.<br>Suy ra %(\\widehat{D K_{1} E}=90^{\\circ})%.Chứng minh tương tự ta cũng có %(\\widehat{D K_{2} F}=90^{\\circ})%.<br>Do đó tứ giác %(D Q K_{1} E)% nội tiếp %(\\Rightarrow D A \\cdot K_{1} A=E A \\cdot Q A)%.<br>Tứ giác %(D N K_{2} F)% nội tiếp %(\\Rightarrow D A \\cdot K_{2} A=F A \\cdot N A)%.<br>Theo câu a) tứ giác %(N Q F E)% nội tiếp nên %(E A \\cdot Q A=F A \\cdot N A)%.<br>Từ đó suy ra %(D A \\cdot K_{1} A=D A \\cdot K_{2} A)% hay %(K_{1} \\equiv K_{2}=(D M Q) \\cap(D N P)=K)%.<br>Do đó %(D, A, K)% thẳng hàng.Ta có: %(\\widehat{B K E}=\\widehat{E A B}=\\widehat{C A F}=\\widehat{C K F})%. Suy ra %(\\widehat{B K C}=180^{\\circ}-2 \\widehat{B K E}=2\\left(90^{\\circ}-\\widehat{E A B}\\right)=2 \\widehat{B A C}=\\widehat{B I C})%.Do đó tứ giác %(B K I C)% nội tiếp, mà %(I B J C)% nội tiếp và %(J B=J C)% nên %(\\widehat{B K J}=\\widehat{C K J})%.<br>Hay %(K J)% là phân giác %(\\widehat{B K C})%.<br>Mặt khác %(\\widehat{B K A}=180^{\\circ}-\\widehat{A E B}=180^{\\circ}-\\widehat{A F C})%.<br>Suy ra tia đối của tia %(K A)% cũng là phân giác của %(\\widehat{B K C})%.<br>Do đó %(A, K, J)% thẳng hàng. Hay bốn điểm %(D, A, K, J)% thẳng hàng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Trên một đường tròn người ta lấy 2024 điểm phân biệt, các điểm được tô màu xanh và màu đỏ xen kẽ nhau. Tại mỗi điểm ta ghi một sổ thực khác 0 và 1 sao cho quy tắc sau được thỏa mãn \"số ghi tại điểm màu xanh bằng tổng của hai số ghi màu đỏ kể nó; số ghi màu đỏ bằng tích của hai số ghi tại hai điểm màu xanh kế nó\". Tính tổng của 2024 số đó.",
+        "question_images": [],
+        "solution": "Gọi các điểm lần lượt được đánh số là %(A_{1}, A_{2}, A_{3}, \\ldots, A_{2024})%. Trong đó %(A_{k})% với %(k)% lẽ được tô màu xanh, %(k)% chẵn được tô màu đỏ với %(k=1,2, \\ldots, 2014)%.<br>Giả sử %(A_{1}=x)% và %(A_{2}=y)% với %(x, y)% khác 0 và 1 .<br>Khi đó %(A_{3} \\cdot A_{1}=A_{2} \\Rightarrow A_{3}=\\frac{A_{2}}{A_{1}}=\\frac{y}{x})%.Do %(A_{2}+A_{4}=A_{3} \\Rightarrow A_{4}=A_{3}-A_{2}=\\frac{y}{x}-y)%.<br>Tương tự ta tính được %(A_{5}=1-x, A_{6}=1-x-\\frac{y}{x}+y, A_{7}=1-\\frac{y}{x}, A_{8}=x-y)%.<br>Suy ra: %(A_{1}+A_{2}+\\ldots+A_{8}=x+y+\\frac{y}{x}+\\left(\\frac{y}{x}-y\\right)+(1-x)+\\left(1-x-\\frac{y}{x}+y\\right)+\\left(1-\\frac{y}{x}\\right)+x-y=3)%.<br>Ta tính được %(A_{9}=\\frac{A_{8}}{A_{7}}=x)% và %(A_{10}=y)%.Do %(A_{1}=A_{9}, A_{2}=A_{10})% nên quá trình này cứ tiếp tục thì thấy rằng cứ sau 8 điểm liên tiếp các số sẽ được lặp lại theo thứ thứ tự như 8 điểm ban đầu.<br>Do đó %(\\sum_{i=1}^{2024} A_{i}=\\frac{2024}{8} \\cdot \\sum_{i=1}^{8} A_{8}=\\frac{2024}{8} \\cdot 3=759)%.<br>Vậy tổng các số cần tìm là 759 .",
+        "question_type": "essay"
+    }
+]

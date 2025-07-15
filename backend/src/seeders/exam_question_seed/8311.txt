@@ -1,0 +1,112 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Phân tích đa thức sau thành nhân tử: %(x^{3}-6 x^{2}-x+30)%.",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} x^{3}-6 x^{2}-x+30 & =x^{3}+2 x^{2}-8 x^{2}-16 x+15 x+30 \\\\ & =(x+2)\\left(x^{2}-8 x+15\\right) \\\\ & =(x+2)\\left(x^{2}-3 x-5 x+15\\right) \\\\ & =(x+2)(x-3)(x-5)\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Chứng minh rằng: %(\\mathrm{A}=\\mathrm{n}^{4}-10 \\mathrm{n}^{2}+9)% chia hết cho 384 với mọi số tự nhiên lẻ %(\\mathrm{n})%.",
+        "question_images": [],
+        "solution": "\\[A=\\left(n^{4}-n^{2}\\right)-\\left(9 n^{2}-9\\right)=\\left(n^{2}-1\\right)\\left(n^{2}-9\\right)=(n-3)(n-1)(n+1)(n+3)\\]<br>Vì %(\\mathrm{n})% là số tự nhiên lẻ nên đặt %(\\mathrm{n}=2 \\mathrm{k}+1(\\mathrm{k} \\in \\mathrm{N}))%<br>\\[\\Rightarrow \\mathrm{A}=(2 \\mathrm{k}-2) \\cdot 2 \\mathrm{k} \\cdot(2 \\mathrm{k}+2)(2 \\mathrm{k}+4)=16 \\cdot(\\mathrm{k}-1) \\cdot \\mathrm{k} \\cdot(\\mathrm{k}+1) \\cdot(\\mathrm{k}+2)\\]<br>%(\\Rightarrow)% A chia hết cho 16 . (*)<br>Mặt khác: %((\\mathrm{k}-1) . \\mathrm{k} .(\\mathrm{k}+1) .(\\mathrm{k}+2))% là tích của 4 số tự nhiên liên tiếp<br>%(\\Rightarrow)% A có chứa bội của %(2,3,4)% nên %(\\mathrm{A})% là bội của %(24 \\Rightarrow \\mathrm{A})% chia hết cho %(24 \\quad(* *))%<br>Từ %((*))% và %((* *) \\Rightarrow)% A chia hết cho %(16.24=384)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho biểu thức: %(\\mathrm{B}=\\left(\\frac{\\mathrm{x}^{2}-3 \\mathrm{x}}{\\mathrm{x}^{2}-9}-1\\right):\\left(\\frac{9-\\mathrm{x}^{2}}{\\mathrm{x}^{2}+\\mathrm{x}-6}-\\frac{\\mathrm{x}-3}{2-\\mathrm{x}}-\\frac{\\mathrm{x}-2}{\\mathrm{x}+3}\\right))%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.75,
+        "content": "a) Rút gọn %(B)%;",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { ĐKXĐ: } x \\neq \\pm 3 \\& x \\neq 2 \\\\ B=\\frac{x^{2}-3 x-x^{2}+9}{(x+3)(x-3)}:\\left[\\frac{9-x^{2}}{(x-2)(x+3)}+\\frac{x-3}{x+2}-\\frac{x-2}{x+3}\\right] \\\\ =\\frac{-3 x+9}{(x+3)(x-3)}: \\frac{9-x^{2}+(x-3)(x+3)-(x-2)(x-2)}{(x+3)(x-2)} \\\\ =\\frac{-3(x-3)}{(x-3)(x+3)}: \\frac{9-x^{2}+x^{2}-9-(x-2)^{2}}{(x+3)(x-2)} \\\\ =\\frac{-3(x-3)}{(x-3)(x+3)} \\cdot \\frac{(x+3)(x-2)}{-(x-2)^{2}} \\\\ =\\frac{3}{x-2} \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.25,
+        "content": "b) Tìm giá trị nguyên của %(\\mathrm{x})% để giá trị của biểu thức %(\\mathrm{B})% là số nguyên;",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\mathrm{B} \\in \\mathrm{Z} \\Leftrightarrow(\\mathrm{x}-2) \\in U(3)=\\{ \\pm 1 ; \\pm 3\\} \\\\Rightarrow\\left[\\begin{array} { l } { x - 2 = - 1 } \\\\{ x - 2 = 1 } \\\\{ x - 2 = - 3 } \\\\{ x - 2 = 3 }\\end{array} \\Rightarrow \\left[\\begin{array}{l}x=1 \\text { (TM) } \\x=3 \\text { (loai) } \\x=-1 \\text { (TM) } \\x=5 \\text { (TM) }\\end{array}\\right.\\right.\\end{array}\\]<br>Vây %(\\mathrm{x} \\in\\{-1 ; 1 ; 5\\})% thì giá trị của biểu thức %(\\mathrm{B})% là số nguyên.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Tìm giá trị của %(\\mathrm{x})% để giá trị của biểu thức %(\\mathrm{B})% lớn hơn 1 .",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}B\\gt 1 \\Rightarrow \\frac{3}{x-2}>1 \\Rightarrow \\frac{3}{x-2}-1>0 \\\\Rightarrow \\frac{5-x}{x-2}>0 \\Rightarrow 2\\lt x\\lt 5\\end{array}\\]<br>Vậy %(2\\lt \\mathrm{x}\\lt 5)% thì %(\\mathrm{B}>1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Cho %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}=0)% và %(\\mathrm{a}^{2}+\\mathrm{b}^{2}+\\mathrm{c}^{2}=1)%. Tính giá trị của biểu thức: %(\\mathrm{C}=\\mathrm{a}^{4}+\\mathrm{b}^{4}+\\mathrm{c}^{4})%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Vì } a+b+c=0 \\Rightarrow a=-(b+c) \\\\ \\Rightarrow a^{2}=b^{2}+c^{2}+2 b c \\Rightarrow a^{2}-b^{2}-c^{2}=2 b c \\\\ \\Rightarrow\\left(a^{2}-b^{2}-c^{2}\\right)^{2}=4 b^{2} c^{2} \\Rightarrow a^{4}+b^{4}+c^{4}=2 a^{2} b^{2}+2 a^{2} c^{2}+2 b^{2} c^{2} \\\\ \\Rightarrow 2\\left(a^{4}+b^{4}+c^{4}\\right)=\\left(a^{2}+b^{2}+c^{2}\\right)^{2} \\\\ \\text { Vì } a^{2}+b^{2}+c^{2}=1 \\Rightarrow a^{4}+b^{4}+c^{4}=\\frac{1}{2} \\text {. Vậy } M=\\frac{1}{2}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Tìm đa thức %(\\mathrm{f}(\\mathrm{x}))% biết rằng %(\\mathrm{f}(\\mathrm{x}))% chia cho %(\\mathrm{x}-2)% thì dư %(2, \\mathrm{f}(\\mathrm{x}))% chia cho %(\\mathrm{x}-3)% thì dư 7 , còn %(f(x))% chia cho %(x^{2}-5 x+6)% thì được thương là %(1-x^{2})% và còn dư.",
+        "question_images": [],
+        "solution": "Ta có: %(x^{2}-5 x+6=(x-2)(x-3))%<br>Vì %(f(x))% chia cho %(x^{2}-5 x+6)% được thương là %(1-x^{2})% và còn dư<br>%(\\Rightarrow \\mathrm{f}(\\mathrm{x})=\\left(\\mathrm{x}^{2}-5 \\mathrm{x}+6\\right)\\left(1-\\mathrm{x}^{2}\\right)+\\mathrm{ax}+\\mathrm{b})%<br>Vì %(f(x))% chia cho %(x-2)% dư %(2 \\Rightarrow f(2)=2)% (1)<br>Vì %(\\mathrm{f}(\\mathrm{x}))% chia cho %(\\mathrm{x}-3 \\mathrm{du} 7 \\Rightarrow \\mathrm{f}(3)=7)% (2)<br>Từ (1) & (2) %(\\Rightarrow\\left\\{\\begin{array}{l}2 a+b=2 \\\\ 3 a+b=7\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}a=5 \\\\ b=-8\\end{array}\\right.\\right.)%<br>Vậy %(f(x)=\\left(x^{2}-5 x+6\\right)\\left(1-x^{2}\\right)+5 x-8=-x^{4}+5 x^{3}-5 x^{2}-2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Chứng minh rằng với %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c}\\gt 0)% thi %(\\frac{\\mathrm{a}^{2}}{\\mathrm{~b}+\\mathrm{c}}+\\frac{\\mathrm{b}^{2}}{\\mathrm{c}+\\mathrm{a}}+\\frac{\\mathrm{c}^{2}}{\\mathrm{a}+\\mathrm{b}} \\geq \\frac{\\mathrm{a}+\\mathrm{b}+\\mathrm{c}}{2})%.",
+        "question_images": [],
+        "solution": "Vì %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c}\\gt 0)% nên áp dụng bất đẳng thức Cô-si ta có:<br>\\[\\begin{array}{l}\\frac{\\mathrm{a}^{2}}{\\mathrm{~b}+\\mathrm{c}}+\\frac{\\mathrm{b}+\\mathrm{c}}{4} \\geq 2 \\sqrt{\\frac{\\mathrm{a}^{2}}{\\mathrm{~b}+\\mathrm{c}} \\cdot \\frac{\\mathrm{b}+\\mathrm{c}}{4}}=\\mathrm{a} \\\\frac{\\mathrm{b}^{2}}{\\mathrm{c}+\\mathrm{a}}+\\frac{\\mathrm{c}+\\mathrm{a}}{4} \\geq 2 \\sqrt{\\frac{\\mathrm{b}^{2}}{\\mathrm{c}+\\mathrm{a}} \\cdot \\frac{\\mathrm{c}+\\mathrm{a}}{4}}=\\mathrm{b} \\\\frac{c^{2}}{a+b}+\\frac{a+b}{4} \\geq 2 \\sqrt{\\frac{c^{2}}{a+b} \\cdot \\frac{a+b}{4}}=c \\\\Rightarrow \\frac{\\mathrm{a}^{2}}{\\mathrm{~b}+\\mathrm{c}}+\\frac{\\mathrm{b}+\\mathrm{c}}{4}+\\frac{\\mathrm{b}^{2}}{\\mathrm{c}+\\mathrm{a}}+\\frac{\\mathrm{c}+\\mathrm{a}}{4}+\\frac{\\mathrm{c}^{2}}{\\mathrm{a}+\\mathrm{b}}+\\frac{\\mathrm{a}+\\mathrm{b}}{4} \\geq \\mathrm{a}+\\mathrm{b}+\\mathrm{c} \\\\Rightarrow \\frac{a^{2}}{b+c}+\\frac{b^{2}}{c+a}+\\frac{c^{2}}{a+b} \\geq a+b+c-\\frac{a+b+c}{2} \\\\Rightarrow \\frac{a^{2}}{b+c}+\\frac{b^{2}}{c+a}+\\frac{c^{2}}{a+b} \\geq \\frac{a+b+c}{2} \\\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho hình bình hành %(\\mathrm{ABCD})% có %(\\mathrm{BD})% là đường chéo lớn. Qua %(\\mathrm{A})% kẻ đường thẳng cắt %(\\mathrm{BD})%, %(\\mathrm{BC}, \\mathrm{DC})% lần lượt tại %(\\mathrm{I}, \\mathrm{N}, \\mathrm{M})%. Gọi %(\\mathrm{H})% và %(\\mathrm{K})% lần lượt là hình chiếu của %(\\mathrm{B})% trên %(\\mathrm{AD})% và %(\\mathrm{DC})%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.75,
+        "content": "a) %(\\mathrm{IN})%. %(\\mathrm{IM}=\\mathrm{IA}^{2})%;",
+        "question_images": [],
+        "solution": "Vẽ hình, ghi GT/KL đúng.<br>%(\\begin{array}{l}\\mathrm{AB} / / \\mathrm{DM}(\\mathrm{gt}) \\Rightarrow \\frac{\\mathrm{IA}}{\\mathrm{IM}}=\\frac{\\mathrm{IB}}{\\mathrm{ID}}(1) \\\\ \\mathrm{AD} / / \\mathrm{BN}(\\mathrm{gt}) \\Rightarrow \\frac{\\mathrm{IN}}{\\mathrm{IA}}=\\frac{\\mathrm{IB}}{\\mathrm{ID}}(2) \\\\ \\text { Từ }(1) \\&(2) \\Rightarrow \\frac{\\mathrm{IA}}{\\mathrm{IM}}=\\frac{\\mathrm{IN}}{\\mathrm{IA}} \\Rightarrow \\mathrm{IA}^{2}=\\mathrm{IN} . \\mathrm{IM}\\end{array})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/6baf3831980b4d046196eb2fb0fbe899.png\" srcset=\"https://docdn.giainhanh.io/media/test/701ca13d2ceb04f01efd01fbd951ab32.png 245w, https://docdn.giainhanh.io/media/test/e32d96a3a10eba8e71e549cf0679dc1b.png 500w, https://docdn.giainhanh.io/media/test/ab471ff5c38317e04839f7fcbdeb1fc4.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) %(\\frac{1}{\\mathrm{AI}}=\\frac{1}{\\mathrm{AN}}+\\frac{1}{\\mathrm{AM}})%;",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Từ }(1) \\Rightarrow \\frac{I A}{I A+I M}=\\frac{I B}{I B+I D} \\Rightarrow \\frac{I A}{A M}=\\frac{I B}{B D}(3) \\\\ \\text { Từ }(2) \\Rightarrow \\frac{I A}{I N}=\\frac{I D}{I B} \\Rightarrow \\frac{I A}{I A+I N}=\\frac{I D}{I D+I B} \\Rightarrow \\frac{I A}{A N}=\\frac{I D}{D B}(4)\\end{array})%<br>%(\\begin{aligned} \\text { Từ (3) và (4) } & \\Rightarrow \\frac{I A}{A N}+\\frac{I A}{A M}=\\frac{I D}{D B}+\\frac{I B}{D B}=\\frac{D B}{D B}=1 \\\\ & \\Rightarrow \\frac{1}{\\mathrm{AI}}=\\frac{1}{\\mathrm{AN}}+\\frac{1}{\\mathrm{AM}}\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.25,
+        "content": "c) %(\\mathrm{DC} . \\mathrm{DK}+\\mathrm{DA} . \\mathrm{DH}=\\mathrm{DB}^{2})%.",
+        "question_images": [],
+        "solution": "Kẻ %(\\mathrm{CE} \\perp \\mathrm{DB})%<br>%(\\triangle \\mathrm{DEC} \\& \\triangle \\mathrm{DKB})% có: %(\\widehat{\\mathrm{DEC}}=\\widehat{\\mathrm{DKB}}=90^{\\circ} ; \\widehat{\\mathrm{D}}_{1})% chung %(\\Rightarrow \\triangle \\mathrm{DEC} \\sim \\triangle \\mathrm{DKB}(\\mathrm{g} . \\mathrm{g}))%<br>\\[\\Rightarrow \\frac{\\mathrm{DE}}{\\mathrm{DK}}=\\frac{\\mathrm{DC}}{\\mathrm{DB}} \\Rightarrow \\mathrm{DC} \\cdot \\mathrm{DK}=\\mathrm{DE} \\cdot \\mathrm{DB}(5)\\]<br>\\[\\begin{array}{l}\\triangle \\mathrm{BEC} \\& \\triangle \\mathrm{DHB} \\text { có: } \\widehat{\\mathrm{BEC}}=\\widehat{\\mathrm{DHB}}=90^{\\circ} ; \\hat{\\mathrm{B}}_{1}=\\widehat{\\mathrm{D}}_{2}(\\mathrm{gt}) \\Rightarrow \\Delta \\mathrm{BEC} \\sim \\Delta \\mathrm{DHB}(\\mathrm{g} \\cdot \\mathrm{g}) \\\\Rightarrow \\frac{\\mathrm{BC}}{\\mathrm{DB}}=\\frac{\\mathrm{BE}}{\\mathrm{DH}} \\text { mà } \\mathrm{BC}=\\mathrm{DA}(\\mathrm{gt}) \\Rightarrow \\frac{\\mathrm{DA}}{\\mathrm{DB}}=\\frac{\\mathrm{BE}}{\\mathrm{DH}} \\Rightarrow \\mathrm{DA} \\cdot \\mathrm{DH}=\\mathrm{BE} \\cdot \\mathrm{DB} (6)\\end{array}\\]<br>Từ (5) & (6) %(\\Rightarrow \\mathrm{DC} \\cdot \\mathrm{DK}+\\mathrm{DA} \\cdot \\mathrm{DH}=\\mathrm{DB} \\cdot(\\mathrm{DE}+\\mathrm{BE})=\\mathrm{DB}^{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.0,
+        "content": "Cho tam giác nhọn %(\\mathrm{ABC})%. Ba đường cao %(\\mathrm{AA}_{1}, \\mathrm{BB}_{1}, \\mathrm{CC}_{1})% cắt nhau ở %(\\mathrm{H})%. Chứng minh rằng: %(\\frac{\\mathrm{A}_{1} \\mathrm{H}}{\\mathrm{A}_{1} \\mathrm{~A}}+\\frac{\\mathrm{B}_{1} \\mathrm{H}}{\\mathrm{B}_{1} \\mathrm{~B}}+\\frac{\\mathrm{C}_{1} \\mathrm{H}}{\\mathrm{C}_{1} \\mathrm{C}}=1)%.",
+        "question_images": [],
+        "solution": "Vẽ hình, ghi GT/KL đúng.<br>%(\\begin{array}{l}\\mathrm{S}_{\\mathrm{ABC}}=\\frac{1}{2} \\mathrm{BC} \\cdot \\mathrm{AA}_{1}=\\frac{1}{2} \\mathrm{AC} \\cdot \\mathrm{BB}_{1}=\\frac{1}{2} \\mathrm{AB} \\cdot \\mathrm{CC}_{1} \\\\ \\mathrm{~S}_{\\mathrm{BHC}}=\\frac{1}{2} \\mathrm{BC} \\cdot \\mathrm{A}_{1} \\mathrm{H}, \\mathrm{S}_{\\mathrm{AHC}}=\\frac{1}{2} \\mathrm{AC} \\cdot \\mathrm{B}_{1} \\mathrm{H}, \\mathrm{S}_{\\mathrm{AHB}}=\\frac{1}{2} \\mathrm{AB} \\cdot \\mathrm{C}_{1} \\mathrm{H} \\\\ \\frac{\\mathrm{S}_{\\mathrm{BHC}}}{\\mathrm{S}_{\\mathrm{ABC}}}=\\frac{\\mathrm{A}_{1} \\mathrm{H}}{\\mathrm{A}_{1} \\mathrm{~A}}, \\frac{\\mathrm{S}_{\\mathrm{AHC}}}{\\mathrm{S}_{\\mathrm{ABC}}}=\\frac{\\mathrm{B}_{1} \\mathrm{H}}{\\mathrm{B}_{1} \\mathrm{~B}}, \\frac{\\mathrm{S}_{\\mathrm{AHB}}}{\\mathrm{S}_{\\mathrm{ABC}}}=\\frac{\\mathrm{C}_{1} \\mathrm{H}}{\\mathrm{C}_{1} \\mathrm{C}}, \\\\ \\Rightarrow \\frac{\\mathrm{A}_{1} \\mathrm{H}}{\\mathrm{A}_{1} \\mathrm{~A}}+\\frac{\\mathrm{B}_{1} \\mathrm{H}}{\\mathrm{B}_{1} \\mathrm{~B}}+\\frac{\\mathrm{C}_{1} \\mathrm{H}}{\\mathrm{C}_{1} \\mathrm{C}}=\\frac{\\mathrm{S}_{\\mathrm{BHC}}+\\mathrm{S}_{\\mathrm{AHC}}+\\mathrm{S}_{\\mathrm{AHB}}}{\\mathrm{S}_{\\mathrm{ABC}}}=\\frac{\\mathrm{S}_{\\mathrm{ABC}}}{\\mathrm{S}_{\\mathrm{ABC}}}=1\\end{array})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4ad6e6727f0278936130aa8217e39fb5.png\" srcset=\"https://docdn.giainhanh.io/media/test/f998f76001a17d9c86de8b911ba045f4.png 245w, https://docdn.giainhanh.io/media/test/ad08a4086528b627bc0b59022d838a32.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

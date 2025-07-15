@@ -1,0 +1,73 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "%(P=\\frac{1}{\\sqrt{5}-2}+\\frac{1}{\\sqrt{5}+2})%",
+        "question_images": [],
+        "solution": "Ta có: %(P=\\sqrt{5}+2+\\sqrt{5}-2=2 \\sqrt{5})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "%(Q=\\left(1+\\frac{1+\\sqrt{x}}{\\sqrt{x}-1}\\right) \\cdot \\frac{1}{\\sqrt{x}})% với %(\\mathrm{x}\\gt 0, \\mathrm{x} \\neq 1)%",
+        "question_images": [],
+        "solution": "%(Q=\\left[\\frac{\\sqrt{x}-1+\\sqrt{x}+1}{(\\sqrt{x}-1)}\\right] \\cdot \\frac{1}{\\sqrt{x}}=\\frac{2 \\sqrt{x}}{\\sqrt{x}-1} \\cdot \\frac{1}{\\sqrt{x}}=\\frac{2}{\\sqrt{x}-1}(0\\lt x \\neq 1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Cho phương trình bậc hai %(x^{2}-2(m+1) x+m^{2}+m+1=0)% ( %(m)% là tham số)Tìm tất cả các giá trị của %(\\mathrm{m})% để phương trình có hai nghiệm phân biệt %(\\mathrm{x}_{1} ; \\mathrm{x}_{2})% thỏa mãn %(x_{1}{ }^{2}+x_{2}{ }^{2}=3 x_{1} x_{2}-1)%",
+        "question_images": [],
+        "solution": "Ta có: %(\\Delta^{\\prime}=(m+1)^{2}-\\left(m^{2}+m+1\\right)=m)%<br>Để phương trình bậc hai đã cho có 2 nghiệm phân biệt x1; x2 thì %(\\Delta^{\\prime}\\gt 0)% %(=>\\mathrm{m}>0)%.<br>Khi đó theo hệ thức Vi-et ta có %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=2(m+1) \\\\ x_{1} x_{2}=m^{2}+m+1\\end{array}\\right.)%Theo bài ra<br>%(\\begin{array}{l}x_{1}^{2}+x_{1}^{2}=3 x_{1} x_{2}-1\\lt =>\\left(x_{1}+x_{2}\\right)^{2}-5 x_{1} x_{2}+1=0 \\\\=>4(m+1)^{2}-5\\left(m^{2}+m+1\\right)+1=0 \\\\lt =m^{2}-3 m=0 \\\\lt =>\\left[\\begin{array}{l}m=0 \\m=3\\end{array}\\right.\\end{array})%<br>Đối chiếu điều kiện %(m>0)% ta có %(m=3)% thỏa mãn bài toán",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Một đội xe nhận vận chuyển 72 tấn hàng nhưng khi sắp khởi hành thì có 3 xe bị hỏng, do đó mỗi xe phải chở nhiều hơn 2 tấn so với dự định. Hỏi lúc đầu đội xe có bao nhiêu chiếc, biết khối lượng hàng mỗi xe phải chở là như nhau.",
+        "question_images": [],
+        "solution": "Gọi số xe lúc đầu của đoàn xe là %(x)% chiếc %((x\\gt 3, x)% nguyên dương)<br>Số hàng mỗi xe phải chở theo dự định là %(\\frac{72}{x})% (tấn)<br>Số xe thực tế chở hàng là: %(x-3)% (chiếc)<br>Số hàng mỗi xe thực tế phải chở là: %(\\left(\\frac{72}{x}+2\\right))% (tấn)<br>Theo bài ra ta có pt:<br>%(\\begin{array}{l}(x-3)\\left(\\frac{72}{x}+2\\right)=72 \\\\Leftrightarrow>(x-3)(72+2 x)=72 x\\end{array})%<br>%(\\Leftrightarrow x^{2}-3 x-108=0 \\Leftrightarrow x=-9)% hoặc %(x=12)%.<br>Đối chiếu đk, ta có %(: x=12)%.<br>Vậy đoàn xe lúc đầu có 12 chiếc.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho tam giác nhọn %(A B C)%, đường tròn đường kính %(B C)% cắt các cạnh %(A B, A C)% lần lượt tại %(M, N)%. Gọi %(H)% là giao điểm của BN và CM.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh tứ giác AMHN nội tiếp được trong một đường tròn.",
+        "question_images": [],
+        "solution": "Theo giả thiết ta có %(\\mathrm{BMC}=\\mathrm{BNC}=90^{\\circ})% (Do cùng chắn một nữa đường tròn)<br>%(\\Rightarrow A M H=A N H=90^{\\circ})%<br>%(\\Rightarrow)% Tứ giác AMHN nội tiếp đường tròn.<br><img alt=\"Ảnh chụp màn hình 2024-03-23 154112.png\" src=\"https://docdn.giainhanh.io/media/test/211730666bc75fc20d92f288c3733c87.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Gọi %(\\mathrm{K})% là giao điểm của đường thẳng %(\\mathrm{BC})% với đường thẳng %(\\mathrm{AH})%. Chứng minh %(\\triangle \\mathrm{BHK})% đồng dạng %(\\triangle \\mathrm{ACK})%.",
+        "question_images": [],
+        "solution": "Vì %(\\mathrm{BN} \\perp \\mathrm{AC}, \\mathrm{CM} \\perp \\mathrm{AB}, \\Rightarrow \\mathrm{H})% là trực tâm %(\\triangle \\mathrm{ABC})%.<br>%(=\\gt A K \\perp B C=>A K B=A N B=90^{\\circ}=>T)% ứ giác %(A B K N)% nội tiếp đường tròn.<br>%(=>\\mathrm{KAC}=\\mathrm{NBC})% (cùng chắn cung %(\\mathrm{KN})% )<br>%(\\triangle \\mathrm{BHK})% và %(\\triangle \\mathrm{ACK})% có:<br>%(\\mathrm{HBK}=\\mathrm{KAC}, \\mathrm{HKB}=\\mathrm{AKC}=90^{\\circ})%<br>=> %(\\triangle \\mathrm{BHK})% đồng dạng %(\\triangle \\mathrm{ACK}(\\mathrm{g}-\\mathrm{g}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Chứng minh: %(\\mathrm{KM}+\\mathrm{KN} \\leq \\mathrm{BC})%. Dấu \" =\" xảy ra khi nào?",
+        "question_images": [],
+        "solution": "Từ %(\\mathrm{M})% kẻ đường vuông góc với %(\\mathrm{BC})% cắt đường tròn tại => BC là trung trung trực của MP (tính chất đối xứng của đường tròn)=>DK=KI<br>Ta có các tứ giác %(A B K N, B M H K)% nội tiếp %(=>A B N=A K N=H K M)%<br>%(=>M K B=N K C)% (cùng phụ với hai góc bằng nhau)<br>Mặt khác %(B C)% là trung trực của %(M P)% nên %(M K B=B K P=>B K P=N K C)%<br>%(=>3)% điểm %(P, K, N)% thẳng hàng suy ra %(K M+K N=K P+K N=P N \\leq B C)% (do %(P N)% là dây còn %(B C)% là đường kính).<br>Dấu \" %(=)% \" xảy ra khi %(K)% trùng %(O)%, khi đó %(\\triangle A B C)% cân tại %(A)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho các số thực %(a, b, c)% thỏa mãn %(a^{2}+b^{2}+c^{2}=1)%. Tìm giá trị nhỏ nhất của biểu thức: %(\\mathrm{F}=\\mathrm{ab}+\\mathrm{bc}+2 \\mathrm{ca})%.",
+        "question_images": [],
+        "solution": "Ta có : %((a+b+c)^{2} \\geq 0=\\gt a b+b c+c a \\geq \\frac{a^{2}+b^{2}+c^{2}}{2}=-\\frac{1}{2})%<br>Ta có: %((a+c)^{2} \\geq 0 \\Rightarrow a c \\geq-\\frac{a^{2}+c^{2}}{2}=\\frac{b^{2}-\\left(\\mathrm{a}^{2}+b^{2}+c^{2}\\right)}{2}=\\frac{b^{2}-1}{2} \\geq \\frac{-1}{2})%<br>Do đó: %(F=a b+b c+c a \\geq \\frac{-1}{2}+-\\frac{1}{2}=-1)%<br>F min = -1. Dấu \" %(=)% \" xẩy ra khi %(\\left\\{\\begin{array}{l}a+b+c=0 \\\\ a+c=0, b=0 \\\\ a^{2}+b^{2}+c^{2}=1\\end{array}\\lt =\\gt \\left\\{\\begin{array}{l}b=0 \\\\ a=-c= \\pm \\frac{\\sqrt{2}}{2}\\end{array}\\right.\\right.)%",
+        "question_type": "essay"
+    }
+]

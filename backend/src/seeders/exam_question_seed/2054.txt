@@ -1,0 +1,210 @@
+[
+    {
+        "title": "Câu 1:  ",
+        "point": 0.25,
+        "content": "Từ các chữ số %(0,1,2,3,5)%, có thể lập được bao nhiêu số tự nhiên gồm bốn chữ số đôi một khác nhau và không chia hết cho 5 ?",
+        "question_images": [],
+        "labelA": "120 số",
+        "labelB": "72 số",
+        "labelC": "69 số",
+        "labelD": "54 số",
+        "correct_label": "labelD",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 0.25,
+        "content": "Số nguyên dương %(n)% thoả mãn %(A_{n}^{1}+2 A_{n}^{2}=15)% là",
+        "question_images": [],
+        "labelA": "1",
+        "labelB": "2",
+        "labelC": "5",
+        "labelD": "3",
+        "correct_label": "labelD",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 0.25,
+        "content": "Từ các chữ số %(1,2,3,4,5)%, có thể lập được bao nhiêu số tự nhiên gồm năm chữ số đôi một khác nhau?",
+        "question_images": [],
+        "labelA": "16",
+        "labelB": "48",
+        "labelC": "120",
+        "labelD": "720",
+        "correct_label": "labelC",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 0.25,
+        "content": "Có bao nhiêu cách cắm 3 bông hoa khác nhau vào 5 lọ khác nhau (mỗi lọ cắm không quá một bông)?",
+        "question_images": [],
+        "labelA": "60",
+        "labelB": "720",
+        "labelC": "10",
+        "labelD": "15",
+        "correct_label": "labelA",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 0.25,
+        "content": "Một nhóm học sinh gồm 15 nam và 6 nữ. Người ta muốn chọn từ nhóm ra 5 học sinh để lập thành một đội cờ đỏ sao cho phải có 1 đội trưởng nam, 1 đội phó nam và có ít nhất 1 nũ. Hỏi có bao nhiêu cách lập đội cờ đỏ đó?",
+        "question_images": [],
+        "labelA": "143430 cách",
+        "labelB": "203490 cách",
+        "labelC": "20349 cách",
+        "labelD": "4200 cách",
+        "correct_label": "labelA",
+        "solution": "Bước 1: Số cách chọn 2 nam làm đội trưởng và đội phó là %(A_{15}^{2})% cách.<br>Bước 2: Số cách chọn ra 3 thành viên còn lại mà có ít nhất 1 nữ:<br>Số cách chọn 3 học sinh còn lại trong 18 học sinh là %(C_{19}^{3})% cách.<br>Số cách chọn 3 học sinh còn lại toàn là nam có %(C_{13}^{3})% cách.<br>Vậy số cách chọn 3 thành viên còn lại mà có ít nhất 1 nữ là %(C_{19}^{3}-C_{13}^{3})% cách.<br>Vậy số cách chọn có 1 đội trưởng nam, 1 đội phó nam và có ít nhất 1 nũ là %(A_{15}^{2}\\left(C_{19}^{3}-C_{13}^{3}\\right)=143430)% cách.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 0.25,
+        "content": "Hệ số của %(x^{3})% trong khai triển biểu thức %(P(x)=x(1-x)^{4}+x^{2}(2+x)^{5})% thành đa thức bằng",
+        "question_images": [],
+        "labelA": "-86",
+        "labelB": "76",
+        "labelC": "-76",
+        "labelD": "86",
+        "correct_label": "labelD",
+        "solution": "Hệ số %(x^{3})% trong %(x(1-x)^{4})% là %(a=(-1)^{2} C_{4}^{2}=6)%.<br>Hệ số %(x^{3})% trong %(x^{2}(2+x)^{5})% là %(b=C_{5}^{1} \\cdot 2^{4}=80)%.<br>Vậy hệ số của %(x^{3})% khi khai triển biểu thức %(P(x))% là %(a+b=86)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 0.25,
+        "content": "Trong mặt phẳng toạ độ %(O x y)% cho các điểm %(A(1 ; 3), B(4 ; 0))% và %(C(2 ;-5))%. Toạ độ điểm %(M)% thoả mãn %(\\overrightarrow{M A}+\\overrightarrow{M B}=3 \\overrightarrow{M C})% là",
+        "question_images": [],
+        "labelA": "%((1 ; 18))%.",
+        "labelB": "%((1 ;-18))%.",
+        "labelC": "%((-18 ; 1))%.",
+        "labelD": "%((-1 ; 18))%.",
+        "correct_label": "labelB",
+        "solution": "Gọi điểm %(M\\left(x_{M} ; y_{M}\\right))%.<br>Ta có %(\\overrightarrow{M A}+\\overrightarrow{M B}-3 \\overrightarrow{M C}=\\overrightarrow{0})%.<br>Suy %(r a\\left\\{\\begin{array}{l}x_{M}=1 \\\\ y_{M}=-18\\end{array}\\right.)%.<br>Vậy %(M(1 ;-18))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 0.25,
+        "content": "Một vật chịu tác dụng của bốn lực %(\\vec{F}_{1}, \\vec{F}_{2}, \\vec{F}_{3})% và %(\\vec{F}_{4})%. Chọn hệ trục toạ độ như hình bên sao cho vật nằm ở gốc toạ độ. Khi bốn lực %(\\vec{F}_{1}, \\vec{F}_{2}, \\vec{F}_{3})% và %(\\vec{F}_{4})% tác dụng vào vật thì vật di chuyển vào góc phần tư thứ mấy?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/2d94983d88cd4a5b44894d6af26e8d2f.png"
+        ],
+        "labelA": "(I)",
+        "labelB": "(II)",
+        "labelC": "(III)",
+        "labelD": "(IV)",
+        "correct_label": "labelD",
+        "solution": "Ta có %(\\vec{F}=\\vec{F}_{1}+\\vec{F}_{2}+\\vec{F}_{3}+\\vec{F}_{4}=\\vec{i}-\\vec{j})%.<br>Dựa vào hệ trục tọa độ %(O x y)% ta thấy hợp lực nằm trong góc phần tư thứ tư.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 9: ",
+        "point": 0.25,
+        "content": "Trong mặt phẳng toạ độ %(O x y)%, cho hai điểm %(A(2 ;-1))% và %(B(-2 ; 1))%. Toạ độ điểm %(M)% thuộc trục hoành và có hoành độ dương sao cho tam giác %(A B M)% vuông tại %(M)% là",
+        "question_images": [],
+        "labelA": "%(M(\\sqrt{5} ; 0))%.",
+        "labelB": "%(M(\\sqrt{3} ; 0))% và %(M(-\\sqrt{3} ; 0))%.",
+        "labelC": "%(M(-\\sqrt{5} ; 0))%.",
+        "labelD": "%(M(-\\sqrt{5} ; 0))% và %(M(\\sqrt{5} ; 0))%.",
+        "correct_label": "labelA",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 10: ",
+        "point": 0.25,
+        "content": "Cho tam giác %(A B C)% có %(A(5 ; 3), B(2 ;-1), C(-1 ; 5))%. Toạ độ trực tâm %(H)% của tam giác %(A B C)% là",
+        "question_images": [],
+        "labelA": "%(H(-3 ; 2))%.",
+        "labelB": "%(H(-3 ;-2))%.",
+        "labelC": "%(H(3 ; 2))%.",
+        "labelD": "%(H(3 ;-2))%.",
+        "correct_label": "labelC",
+        "solution": "\\[\\begin{array}{l}\\text { Gọi } H(x ; y) \\text { ta có } \\overrightarrow{A H}=(x-5 ; y-3), \\overrightarrow{B C}=(-3 ; 6) \\\\Rightarrow \\overrightarrow{A H} \\cdot \\overrightarrow{B C}=0 \\Leftrightarrow-3 x+6 y-3=0(1) \\text {. } \\\\overrightarrow{B H}=(x-2 ; y+1), \\overrightarrow{A C}=(-6 ; 2) \\Rightarrow \\overrightarrow{B H} \\cdot \\overrightarrow{A C}=0 \\Leftrightarrow-6 x+2 y+14=0\\end{array}\\]<br>Từ (1) và (2) suy ra %(x=3 ; y=2)%. Vậy %(H(3 ; 2))% là toạ độ cần tìm.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 11:  ",
+        "point": 0.25,
+        "content": "Trong mặt phẳng toạ độ, cho tam giác %(A B C)% có %(A(1 ; 2), B(3 ; 1))% và %(C(5 ; 4))%. Phương trình tổng quát của đường cao kẻ từ %(A)% là",
+        "question_images": [],
+        "labelA": "%(3 x-2 y-5=0)%.",
+        "labelB": "%(3 x-2 y+5=0)%.",
+        "labelC": "%(5 x-6 y+7=0)%.",
+        "labelD": "%(2 x+3 y-8=0)%.",
+        "correct_label": "labelD",
+        "solution": "Kẻ %(A H \\perp B C)% tại %(H)%.<br>Suy ra vectơ pháp tuyến của đường cao %(A H)% là %(\\vec{n}=\\overrightarrow{B C}=(2 ; 3))%.<br>Phương trình tổng quát của %(A H)% là %(2(x-1)+3(y-2)=0 \\Leftrightarrow 2 x+3 y-8=0)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 12:  ",
+        "point": 0.25,
+        "content": "Trong mặt phẳng toạ độ, cho đường thẳng %(d)% đi qua hai điểm %(A, B)% và đường thẳng %(\\Delta)% đi qua %(C)% và song song với đường thẳng %(d)%.Phương trình tổng quát của đường thẳng %(\\Delta)% là",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/c0673d70efb90f5aea2fd36a2ab372de.png"
+        ],
+        "labelA": "%(3 x+4 y-11=0)%",
+        "labelB": "%(3 x+4 y-2=0)%.",
+        "labelC": "%(4 x-3 y+2=0)%.",
+        "labelD": "%(4 x-3 y+14=0)%.",
+        "correct_label": "labelD",
+        "solution": "Ta có %(A(-2 ; 2), B(2 ;-1), C(1 ; 2))%.<br>Vectơ chỉ phương của đường thẳng %(d)% là %(\\vec{u}=\\overrightarrow{A B}=(4 ;-3))% suy ra vectơ pháp tuyến của nó là %(\\vec{n}=(3 ; 4))%.<br>Vì %(\\Delta / / d)% nên vectơ chỉ phương của nó là %(\\vec{n}=(3 ; 4))%.<br>Do đó phương trình tổng quát của %(\\Delta)% là %(4 x-3 y+14=0)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "Câu 17:  ",
+        "point": 0.5,
+        "content": "Có bao nhiêu số tự nhiên có hai chữ số mà các chữ số hàng chục lớn hơn chữ số hàng đơn vị?",
+        "question_images": [],
+        "solution": "Nếu chữ số hàng chục là 1 thì chữ số hàng đơn vị là 0 : có 1 số tự nhiên thỏa mãn.<br>Nếu chữ số hàng chục là 2 thì chữ số hàng đơn vị 0 hoặc 1: có 2 số tự nhiên thoả mãn.<br>Nếu chữ số hàng chục là 3 thì chữ số hàng đơn vị là 0 hoặc 1 hoặc 2: có 3 số tự nhiên thỏa mãn.<br>Theo quy luật đó, ta có số các số tự nhiên thỏa mãn là: %(1+2+3+4+5+6+7+8+9=45)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 18: ",
+        "point": 0.5,
+        "content": "Lớp 11D có 45 bạn học sinh. Đầu năm cô giáo muốn chọn ra một ban cán sự lớp từ 45 bạn học sinh lớp 11D gồm một lớp trưởng, một lớp phó học tập, một lớp phó lao động và hai thư kí. Số cách cô giáo chọn ra một ban cán sự lớp như vậy là bao nhiêu?",
+        "question_images": [],
+        "solution": "Để chọn ra ban cán sự lớp thoả mãn yêu cầu, ta tiến hành như sau:<br>Bước 1: Chọn 3 bạn trong đó có một lớp trưởng, một lớp phó học tập, một lớp phó lao động từ 45 bạn.<br>Mỗi một cách chọn ra một ban cán sự lớp gồm ba bạn trong đó có một lớp trưởng, một lớp phó học tập, một lớp phó lao động từ 45 bạn học sinh lớp 11D tương ứng với một chỉnh hợp chập 3 của 45 phần tử.<br>Do đó số cách chọn là: %(A_{45}^{3})%.<br>Bước 2: Chọn 2 bạn làm thư kí từ 42 bạn còn lại.<br>Mỗi cách chọn này không phân biệt về thứ tự nên số cách chọn là: %(C_{42}^{2})%.<br>Số cách cô giáo chọn ra một ban cán sự lớp thoả mãn là: %(A_{45}^{3} \\cdot C_{42}^{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 19:  ",
+        "point": 0.5,
+        "content": "Cho biểu thức %((1-x)^{6})%. Tính tổng %(S=C_{6}^{0}-C_{6}^{1}+C_{6}^{2}-C_{6}^{3}+C_{6}^{4}-C_{6}^{5}+C_{6}^{6})%.",
+        "question_images": [],
+        "solution": "Ta có: %((1-x)^{6}=C_{6}^{0}-C_{6}^{1} x+C_{6}^{2} x^{2}-C_{6}^{3} x^{3}+C_{6}^{4} x^{4}-C_{6}^{5} x^{5}+C_{6}^{6} x^{6}(*))%.<br>Thay %(x=1)% vào %((*))%, ta được: %((1-1)^{6}=C_{6}^{0}-C_{6}^{1}+C_{6}^{2}-C_{6}^{3}+C_{6}^{4}-C_{6}^{5}+C_{6}^{6}=S)%.<br>Vậy %(S=0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 20:  ",
+        "point": 0.5,
+        "content": "Trong mặt phẳng toạ độ %(O x y)% cho hai điểm %(A(1 ;-1))% và %(B(3 ; 2))%. Tọa độ điểm %(M)% thuộc trục %(O y)% để %(M A^{2}+M B^{2})% nhỏ nhất",
+        "question_images": [],
+        "solution": "Ta có %(M \\in O y)% nên %(M(0 ; m))% và %(\\left\\{\\begin{array}{l}\\overrightarrow{M A}=(1 ;-1-m) \\\\ \\overrightarrow{M B}=(3 ; 2-m)\\end{array}\\right.)%<br>Khi đó, %(M A^{2}+M B^{2}=|\\overrightarrow{M A}|^{2}+|\\overrightarrow{M B}|^{2}=2\\left(m-\\frac{1}{2}\\right)^{2}+\\frac{29}{2} \\geq \\frac{29}{2}, \\forall m \\in \\mathbb{R})%.<br>Suy ra giá trị nhỏ nhất của %(M A^{2}+M B^{2})% bằng %(\\frac{29}{2})% khi %(m=\\frac{1}{2} \\Rightarrow M\\left(0 ; \\frac{1}{2}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 21: ",
+        "point": 0.5,
+        "content": "Viết phương trình đường thẳng %(\\Delta)% đi qua %(A(5 ; 1))% và cách điểm %(B(2 ;-3))% một khoảng bằng 5 .",
+        "question_images": [],
+        "solution": "Gọi %(\\vec{n}=(a ; b))% là vectơ pháp tuyến của đường thẳng %(\\Delta ; \\Delta)% qua %(A(5 ; 1))% nên có phương trình %(a(x-5)+b(y-1)=0 \\Rightarrow d: a x+b y-5 a-b=0)%.<br>\\[\\begin{array}{l}\\text { Ta có: } \\quad d(B, \\Delta)=5 \\Rightarrow \\frac{|2 a-3 b-5 a-b|}{\\sqrt{a^{2}+b^{2}}}=5 \\Rightarrow|-3 a-4 b|=5 \\sqrt{a^{2}+b^{2}} \\\\Rightarrow(3 a+4 b)^{2}=25\\left(a^{2}+b^{2}\\right) \\Rightarrow 9 a^{2}+24 a b+16 b^{2}=25 a^{2}+25 b^{2} \\\\Rightarrow 16 a^{2}+9 b^{2}-24 a b=0 \\Rightarrow 4 a-3 b=0 \\Rightarrow 4 a=3 b .\\end{array}\\]<br>Chọn %(a=3 \\Rightarrow b=4)%.<br>Ta có phương trình %(\\Delta: 3 x+4 y-19=0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 22: ",
+        "point": 0.5,
+        "content": "Cho hai đường thẳng %(\\Delta_{1}: a x-y+5=0)% và %(\\Delta_{2}: x+y+1=0)%. Có bao nhiêu giá trị của %(a)% để %(\\Delta_{1})% tạo với %(\\Delta_{2})% một góc %(60^{\\circ})% ?Lời giải",
+        "question_images": [],
+        "solution": "Ta có %(\\vec{n}_{1}(a ;-1))% và %(\\vec{n}_{2}(1 ; 1))%.<br>Theo bài ra %(\\Delta_{1})% tạo với %(\\Delta_{2})% một góc %(60^{\\circ})% nên:<br>\\[\\cos 60^{\\circ}=\\frac{|a-1|}{\\sqrt{a^{2}+(-1)^{2}} \\cdot \\sqrt{1^{2}+1^{2}}} \\Leftrightarrow \\frac{1}{2}=\\frac{|a-1|}{\\sqrt{2} \\cdot \\sqrt{a^{2}+1}} \\Leftrightarrow \\sqrt{a^{2}+1}=\\sqrt{2}|a-1|\\]<br>%(\\Leftrightarrow a^{2}-4 a+1=0 \\Rightarrow\\left[\\begin{array}{l}a=2+\\sqrt{3} \\\\ a=2-\\sqrt{3} .\\end{array}\\right.)%<br>Vậy có hai giá trị của %(a)%.",
+        "question_type": "essay"
+    }
+]

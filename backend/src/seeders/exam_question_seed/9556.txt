@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức : %(A=\\left(\\frac{2+x}{2-x}-\\frac{4 x^{2}}{x^{2}-4}-\\frac{2-x}{2+x}\\right):\\left(\\frac{x^{2}-3 x}{2 x^{2}-x^{3}}\\right))%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Tìm ĐKXĐ rồi rút gọn biểu thức A ?",
+        "question_images": [],
+        "solution": "ĐКХĐ :<br>\\[\\begin{array}{l}\\left\\{\\begin{array} { l } { 2 - x \\neq 0 } \\\\{ x ^ { 2 } - 4 \\neq 0 } \\\\{ 2 + x \\neq 0 } \\\\{ x ^ { 2 } - 3 x \\neq 0 } \\\\{ 2 x ^ { 2 } - x ^ { 3 } \\neq 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x \\neq 0 \\x \\neq \\pm 2 \\x \\neq 3\\end{array}\\right.\\right. \\A=\\left(\\frac{2+x}{2-x}-\\frac{4 x^{2}}{x^{2}-4}-\\frac{2-x}{2+x}\\right):\\left(\\frac{x^{2}-3 x}{2 x^{2}-x^{3}}\\right)=\\frac{(2+x)^{2}+4 x^{2}-(2-x)^{2}}{(2-x)(2+x)} \\cdot \\frac{x^{2}(2-x)}{x(x-3)}= \\\\frac{4 x^{2}+8 x}{(2-x)(2+x)} \\cdot \\frac{x(2-x)}{x-3}= \\\\=\\frac{4 x(x+2) x(2-x)}{(2-x)(2+x)(x-3)}=\\frac{4 x^{2}}{x-3}\\end{array}\\]<br>Vậy với %(x \\neq 0, x \\neq \\pm 2, x \\neq 3)% thì %(A=\\frac{4 \\mathrm{x}^{2}}{x-3})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm giá trị của x để %(\\mathrm{A}\\gt 0)% ?",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Với } x \\neq 0, x \\neq 3, x \\neq \\pm 2: A\\gt 0 \\Leftrightarrow \\frac{4 x^{2}}{x-3}>0 \\\\Leftrightarrow x-3>0 \\\\Leftrightarrow x>3(T M D K X D)\\end{array}\\]<br>Vậy với %(x>3)% thì %(A>0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tính giá trị của A trong trường hợp : %(|\\mathrm{x}-7|=4)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text {  } \\quad|x-7|=4 \\Leftrightarrow\\left[\\begin{array}{l}x-7=4 \\x-7=-4\\end{array}\\right. \\\\Leftrightarrow\\left[\\begin{array}{l}x=11(\\text { TMDKXD }) \\x=3(\\text { KTMDKXD })\\end{array}\\right.\\end{array}\\]<br>Với %(\\mathrm{x}=11)% thì %(\\mathrm{A}=\\frac{121}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Chứng minh rằng%(\\mathrm{f}(\\mathrm{x})=\\mathrm{x}^{99}+\\mathrm{x}^{88}+\\mathrm{x}^{77}+\\ldots+\\mathrm{x}^{11}+1)% chia hết cho %(\\mathrm{g}(\\mathrm{x})=\\mathrm{x}^{9}+\\mathrm{x}^{8}+\\mathrm{x}^{7}+\\ldots .+\\mathrm{x}+1)%",
+        "question_images": [],
+        "solution": "Ta có: %(\\mathrm{f}(\\mathrm{x})-\\mathrm{g}(\\mathrm{x})=\\mathrm{x}^{99}-\\mathrm{x}^{9}+\\mathrm{x}^{88}-\\mathrm{x}^{8}+\\mathrm{x}^{77}-\\mathrm{x}^{7}+\\ldots+\\mathrm{x}^{11}-\\mathrm{x})% %(+1-1=x^{9}\\left(x^{90}-1\\right)+x^{8}\\left(x^{80}-1\\right)+\\ldots .+x\\left(x^{10}-1\\right))% chia hết cho %(\\mathrm{x}^{10}-1)%<br>Mà %(\\mathrm{x}^{10}-1=(\\mathrm{x}-1)\\left(\\mathrm{x}^{9}+\\mathrm{x}^{8}+\\mathrm{x}^{7}+\\ldots+\\mathrm{x}+1\\right))% chia hết cho %(\\mathrm{x}^{9}+\\mathrm{x}^{8}+)% %(\\mathrm{x}^{7}+\\ldots+\\mathrm{x}+1)%<br>Suy ra %(\\mathrm{f}(\\mathrm{x})-\\mathrm{g}(\\mathrm{x}))% chia hết cho %(\\mathrm{g}(\\mathrm{x})=\\mathrm{x}^{9}+\\mathrm{x}^{8}+\\mathrm{x}^{7}+\\ldots+\\mathrm{x}+1)%<br>Nên %(f(x)=x^{99}+x^{88}+x^{77}+\\ldots+x^{11}+1)% chia hết cho %(g(x)=x^{9}+)% %(x+x^{7}+\\ldots .+x+1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Tìm một số chính phương gồm 4 chữ số biết rằng số gồm 2 chữ số đầu lớn hơn số gồm 2 chữ số sau một đơn vị.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Đặt } \\overline{a b c d}=k^{2} \\text { ta có } \\overline{a b}-\\overline{c d}=1 \\text { và } \\mathrm{k} \\in \\mathrm{N}, 32 \\leq \\mathrm{k}\\lt 100 \\\\ \\text { Suy ra : } 101 \\overline{c d}=\\mathrm{k}^{2}-100=(\\mathrm{k}-10)(\\mathrm{k}+10) \\\\ \\Rightarrow \\mathrm{k}+10 \\vdots 101 \\text { hoặc } \\mathrm{k}-10 \\vdots 101 \\\\ \\text { Mà }(\\mathrm{k}-10 ; 101)=1 \\Rightarrow \\mathrm{k}+10 \\vdots 101 \\\\ \\text { Vì } 32 \\leq \\mathrm{k}\\lt 100 \\text { nên } 42 \\leq \\mathrm{k}+10\\lt 110 \\Rightarrow \\mathrm{k}+10=101 \\Rightarrow \\mathrm{k}=91 \\\\ \\Rightarrow \\overline{a b c d}=91^{2}=8281\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Giải phương trình nghiệm nguyên dương: %(x^{2}-4 x y+5 y^{2}=169)%",
+        "question_images": [],
+        "solution": "\\[x^{2}-4 x y+5 y^{2}=169 \\Leftrightarrow(x-2 y)^{2}+y^{2}=169=13^{2}+0^{2}=12^{2}+5^{2}\\]<br>Do %(x, y \\in Z^{+} \\Rightarrow y^{2} \\neq 0 \\Rightarrow y^{2}=0)% bị loại, xét ba khả năng:<br>\\[\\begin{array}{l}|x-2 y|=0 ; y=13 \\Rightarrow(x ; y)=(26 ; 13) \\\\|x-2 y|=5 ; y=12 \\Rightarrow(x ; y)=(29 ; 12) . \\text {.va..(19;12) } \\\\|x-2 y|=12 ; y=5 \\Rightarrow(x ; y)=(22 ; 5) . \\text { va. }(-2 ; 5) \\text { loại }\\end{array}\\]<br>Vây phương trình có 4 nghiệm. (26;13), (29;12), (19;12), (22;5)",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Giải các phương trình sau: %(\\frac{1}{x^{2}+9 x+20}+\\frac{1}{x^{2}+11 x+30}+\\frac{1}{x^{2}+13 x+42}=\\frac{1}{18})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text {  } \\mathrm{x}^{2}+9 \\mathrm{x}+20=(\\mathrm{x}+4)(\\mathrm{x}+5) ; \\mathrm{x}^{2}+11 \\mathrm{x}+30=(\\mathrm{x}+6)(\\mathrm{x}+5) \\\\mathrm{x}^{2}+13 \\mathrm{x}+42=(\\mathrm{x}+6)(\\mathrm{x}+7) \\\\text { ĐKXĐ : } x \\neq-4 ; x \\neq-5 ; x \\neq-6 ; x \\neq-7\\end{array}\\]<br>Phương trình trở thành :<br>\\[\\begin{array}{c}\\frac{1}{(x+4)(x+5)}+\\frac{1}{(x+5)(x+6)}+\\frac{1}{(x+6)(x+7)}=\\frac{1}{18} \\\\frac{1}{x+4}-\\frac{1}{x+5}+\\frac{1}{x+5}-\\frac{1}{x+6}+\\frac{1}{x+6}-\\frac{1}{x+7}=\\frac{1}{18}\\end{array}\\]<br>\\[\\begin{array}{l}\\frac{1}{x+4}-\\frac{1}{x+7}=\\frac{1}{18} \\\\Rightarrow 18(x+7)-18(x+4)=(x+7)(x+4) \\\\(x+13)(x-2)=0 \\Rightarrow x=-13 ; \\mathrm{x}=2(\\mathrm{TM})\\end{array}\\]<br>Từ đó tìm được %(\\mathrm{x}=-13 ; \\mathrm{x}=2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho tam giác ABC nhọn, các đường cao %(\\mathrm{AA}^{\\prime}, \\mathrm{BB}^{\\prime}, \\mathrm{CC}^{\\prime}, \\mathrm{H})% là trực tâm.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Tính tổng %(\\frac{\\mathrm{HA}^{\\prime}}{\\mathrm{AA}^{\\prime}}+\\frac{\\mathrm{HB}^{\\prime}}{\\mathrm{BB}^{\\prime}}+\\frac{\\mathrm{HC}^{\\prime}}{\\mathrm{CC}^{\\prime}})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text {  } \\quad \\frac{\\mathrm{S}_{\\mathrm{HBC}}}{\\mathrm{S}_{\\mathrm{ABC}}}=\\frac{\\frac{1}{2} \\cdot \\mathrm{HA}^{\\prime} \\cdot \\mathrm{BC}}{\\frac{1}{2} \\cdot \\mathrm{AA}^{\\prime} \\cdot \\mathrm{BC}}=\\frac{\\mathrm{HA}^{\\prime}}{\\mathrm{AA}^{\\prime}} \\text {; } \\\\text { Tương tự: } \\frac{\\mathrm{S}_{\\mathrm{HAB}}}{\\mathrm{S}_{\\mathrm{ABC}}}=\\frac{\\mathrm{HC}^{\\prime}}{\\mathrm{CC}^{\\prime}} \\text {; } \\\\frac{\\mathrm{S}_{\\mathrm{HAC}}}{\\mathrm{S}_{\\mathrm{ABC}}}=\\frac{\\mathrm{HB}^{\\prime}}{\\mathrm{BB}^{\\prime}} \\\\Rightarrow \\frac{\\mathrm{HA}^{\\prime}}{\\mathrm{AA}^{\\prime}}+\\frac{\\mathrm{HB}^{\\prime}}{\\mathrm{BB}^{\\prime}}+\\frac{\\mathrm{HC}^{\\prime}}{\\mathrm{CC}^{\\prime}}=\\frac{\\mathrm{S}_{\\mathrm{HBC}}}{\\mathrm{S}_{\\mathrm{ABC}}}+\\frac{\\mathrm{S}_{\\mathrm{HAB}}}{\\mathrm{S}_{\\mathrm{ABC}}}+\\frac{\\mathrm{S}_{\\mathrm{HAC}}}{\\mathrm{S}_{\\mathrm{ABC}}}=1 \\\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/91d3506f8691a5ba52841822a850fd7c.png\" srcset=\"https://docdn.giainhanh.io/media/test/4e82b7caaa680d840c88fad28643abf7.png 245w, https://docdn.giainhanh.io/media/test/d093e1ca6a62d1597b9367e0f54df022.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Gọi AI là phân giác của tam giác ABC ; %(\\mathrm{IM}, \\mathrm{IN})% thứ tự là phân giác của góc AIC và góc AIB . Chứng minh rằng: %(\\mathrm{AN} \\cdot \\mathrm{BI} . \\mathrm{CM}=\\mathrm{BN})%.IC.AM.",
+        "question_images": [],
+        "solution": "Áp dụng tính chất phân giác vào các tam giác %(\\mathrm{ABC}, \\mathrm{ABI}, \\mathrm{AIC})%<br>\\[\\begin{array}{l}\\frac{\\mathrm{BI}}{\\mathrm{IC}}=\\frac{\\mathrm{AB}}{\\mathrm{AC}} ; \\frac{\\mathrm{AN}}{\\mathrm{NB}}=\\frac{\\mathrm{AI}}{\\mathrm{BI}} ; \\frac{\\mathrm{CM}}{\\mathrm{MA}}=\\frac{\\mathrm{IC}}{\\mathrm{AI}} \\\\frac{\\mathrm{BI}}{\\mathrm{IC}} \\cdot \\frac{\\mathrm{AN}}{\\mathrm{NB}} \\cdot \\frac{\\mathrm{CM}}{\\mathrm{MA}}=\\frac{\\mathrm{AB}}{\\mathrm{AC}} \\cdot \\frac{\\mathrm{AI}}{\\mathrm{BI}} \\cdot \\frac{\\mathrm{IC}}{\\mathrm{AI}}=\\frac{\\mathrm{AB}}{\\mathrm{AC}} \\cdot \\frac{\\mathrm{IC}}{\\mathrm{BI}}=1 \\\\Rightarrow \\mathrm{BI} \\cdot \\mathrm{AN} \\cdot \\mathrm{CM}=\\mathrm{BN} \\cdot \\mathrm{IC} \\cdot \\mathrm{AM}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Chứng minh rằng: %(\\frac{(\\mathrm{AB}+\\mathrm{BC}+\\mathrm{CA})^{2}}{\\mathrm{AA}^{\\prime 2}+\\mathrm{BB}^{\\prime 2}+\\mathrm{CC}^{\\prime 2}} \\geq 4)%.",
+        "question_images": [],
+        "solution": "Vẽ %(\\mathrm{Cx} \\perp \\mathrm{CC})%.<br>Gọi D là điểm đối xứng của A qua Cx<br>-Chứng minh được góc BAD vuông, %(\\mathrm{CD}=\\mathrm{AC}, \\mathrm{AD}=2 \\mathrm{CC})% '<br>%(\\begin{array}{l}\\text { - Xét } 3 \\text { điểm } \\mathrm{B}, \\mathrm{C}, \\mathrm{D} \\text { ta có: } \\mathrm{BD} \\leq \\mathrm{BC}+\\mathrm{CD} \\\\ -\\triangle \\mathrm{BAD} \\text { vuông tại } \\mathrm{A} \\text { nên: } \\mathrm{AB}^{2}+\\mathrm{AD}^{2}=\\mathrm{BD}^{2} \\\\ \\Rightarrow \\mathrm{AB}^{2}+\\mathrm{AD}^{2} \\leq(\\mathrm{BC}+\\mathrm{CD})^{2} \\\\ \\mathrm{AB}^{2}+4 \\mathrm{CC} \\mathrm{C}^{\\prime 2} \\leq(\\mathrm{BC}+\\mathrm{AC})^{2} \\\\ 4 C^{\\prime 2} \\leq(B C+A C)^{2}-\\mathrm{AB}^{2} \\\\ \\text { Tương tự: } 4 \\mathrm{AA}^{2} \\leq(\\mathrm{AB}+\\mathrm{AC})^{2}-\\mathrm{BC}^{2} \\\\ 4 \\mathrm{BB}^{\\prime 2} \\leq(\\mathrm{AB}+\\mathrm{BC})^{2}-\\mathrm{AC}^{2} \\\\ \\text {-Chứng minh được : } 4\\left(\\mathrm{AA}^{\\prime 2}+\\mathrm{BB}^{\\prime 2}+\\mathrm{CC}^{\\prime 2}\\right) \\leq(\\mathrm{AB}+\\mathrm{BC}+\\mathrm{AC})^{2} \\\\ \\Leftrightarrow \\frac{(\\mathrm{AB}+\\mathrm{BC}+\\mathrm{CA})^{2}}{\\mathrm{AA}^{\\prime 2}+\\mathrm{BB}^{\\prime 2}+\\mathrm{CC}^{\\prime 2}} \\geq 4 \\\\ \\text { (Đẳng thức xảy ra } \\Leftrightarrow \\mathrm{BC}=\\mathrm{AC}, \\mathrm{AC}=\\mathrm{AB}, \\mathrm{AB}=\\mathrm{BC} \\\\ \\Leftrightarrow \\mathrm{AB}=\\mathrm{AC}=\\mathrm{BC} \\\\ \\Leftrightarrow \\triangle \\mathrm{ABC} \\text { đều) } \\\\end{array})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/2302bd46d88044e8489a42ed9b1ad2a0.png\" srcset=\"https://docdn.giainhanh.io/media/test/24b81f2971225a367febcd7adc9c2b8a.png 245w, https://docdn.giainhanh.io/media/test/785a66bbdff03872313cf272bcba4173.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là ba số dương thoả mãn %(a b c=1)%. Chứng minh rằng :<br>\\[\\frac{1}{a^{3}(b+c)}+\\frac{1}{b^{3}(c+a)}+\\frac{1}{c^{3}(a+b)} \\geq \\frac{3}{2} .\\]",
+        "question_images": [],
+        "solution": "Trước tiên ta chứng minh %(B Ð T)% :<br>Với %(\\forall a, b, c \\in R)% và %(x, y, z\\gt 0)% ta có<br>\\[\\frac{a^{2}}{x}+\\frac{b^{2}}{y}+\\frac{c^{2}}{z} \\geq \\frac{(a+b+c)^{2}}{x+y+z}(*)\\]<br>Dấu \"=\" xảy ra %(\\Leftrightarrow \\frac{a}{x}=\\frac{b}{y}=\\frac{c}{z})%<br>Thật vây, với %(\\mathrm{a}, \\mathrm{b} \\in \\mathrm{R})% và %(\\mathrm{x}, \\mathrm{y}>0)% ta có<br>\\[\\begin{aligned}& \\frac{a^{2}}{x}+\\frac{b^{2}}{y} \\geq \\frac{(a+b)^{2}}{x+y}(**) \\\\Leftrightarrow & \\left(a^{2} y+b^{2} x\\right)(x+y) \\geq x y(a+b)^{2} \\\\Leftrightarrow & (b x-a y)^{2} \\geq 0 \\text { (luôn đúng) }\\end{aligned}\\]<br>Dấu \" %(=)% \" xày %(\\mathrm{ra} \\Leftrightarrow \\frac{a}{x}=\\frac{b}{y})%<br>Áp dụng bất đẳng thức (**) ta có<br>\\[\\frac{a^{2}}{x}+\\frac{b^{2}}{y}+\\frac{c^{2}}{z} \\geq \\frac{(a+b)^{2}}{x+y}+\\frac{c^{2}}{z} \\geq \\frac{(a+b+c)^{2}}{x+y+z}\\]<br>Dấu \" %(=)% \" xảy ra %(\\Leftrightarrow \\frac{a}{x}=\\frac{b}{y}=\\frac{c}{z})%<br>Ta có: %(\\frac{1}{a^{3}(b+c)}+\\frac{1}{b^{3}(c+a)}+\\frac{1}{c^{3}(a+b)}=\\frac{\\frac{1}{a^{2}}}{a b+a c}+\\frac{\\frac{1}{b^{2}}}{b c+a b}+\\frac{\\frac{1}{c^{2}}}{a c+b c})%<br>Áp dụng bất đẳng thức %(\\left({ }^{*}\\right))% ta có<br>\\[\\frac{\\frac{1}{a^{2}}}{a b+a c}+\\frac{\\frac{1}{b^{2}}}{b c+a b}+\\frac{\\frac{1}{c^{2}}}{a c+b c} \\geq \\frac{\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)^{2}}{2(a b+b c+a c)}=\\frac{\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)^{2}}{2\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)} \\quad(\\text { Vì } a b c=1)\\]<br>Hay %(\\frac{\\frac{1}{a^{2}}}{a b+a c}+\\frac{\\frac{1}{b^{2}}}{b c+a b}+\\frac{\\frac{1}{c^{2}}}{a c+b c} \\geq \\frac{1}{2}\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right))%<br>Mà %(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c} \\geq 3)% nên %(\\frac{\\frac{1}{a^{2}}}{a b+a c}+\\frac{\\frac{1}{b^{2}}}{b c+a b}+\\frac{\\frac{1}{c^{2}}}{a c+b c} \\geq \\frac{3}{2})%<br>Vậy %(\\frac{1}{a^{3}(b+c)}+\\frac{1}{b^{3}(c+a)}+\\frac{1}{c^{3}(a+b)} \\geq \\frac{3}{2})%<br>Dấu bằng xảy ra khi %(\\mathrm{a}=\\mathrm{b}=\\mathrm{c}=1)% (đpcm)",
+        "question_type": "essay"
+    }
+]

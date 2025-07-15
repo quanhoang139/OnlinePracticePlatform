@@ -1,0 +1,73 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Giả sử %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c}, \\mathrm{x}, \\mathrm{y}, \\mathrm{z})% là các số thực khác 0 thỏa mãn %(\\frac{a}{x}+\\frac{b}{y}+\\frac{c}{z}=0)% và %(\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}=1)%. Chứng minh rằng %(\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}+\\frac{z^{2}}{c^{2}}=1)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}=1 \\Leftrightarrow\\left(\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}\\right)^{2}=1 \\Leftrightarrow \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}+\\frac{z^{2}}{c^{2}}+2\\left(\\frac{x y}{a b}+\\frac{y z}{b c}+\\frac{x z}{a c}\\right)=1 \\\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}+\\frac{z^{2}}{c^{2}}+2\\left(\\frac{c x y+a y z+b x z}{a b c}\\right)=1\\left(^{*}\\right)\\end{array}\\]<br>Từ %(\\frac{a}{x}+\\frac{b}{y}+\\frac{c}{z}=0 \\Leftrightarrow \\frac{a y z+b x z+c x y}{x y z}=0 \\Leftrightarrow a y z+b x z+c x y=0)% thay vào %((*))% ta có<br>\\[\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}+\\frac{z^{2}}{c^{2}}=1\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Tìm tất cả các số thực %(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})% thỏa mãn<br>\\[x \\sqrt{1-y^{2}}+y \\sqrt{2-z^{2}}+z \\sqrt{3-x^{3}}=3\\]",
+        "question_images": [],
+        "solution": "ĐКХĐ : %(|x| \\leq \\sqrt{3} ;|y| \\leq 1 ;|z| \\leq \\sqrt{2})%Áp dụng Bất đẳng thức %(A B \\leq \\frac{A^{2}+B^{2}}{2})% ta có đúng với mọi %(\\mathrm{A}, \\mathrm{B})%<br>\\[x \\sqrt{1-y^{2}}+y \\sqrt{2-z^{2}}+z \\sqrt{3-x^{2}} \\leq \\frac{x^{2}+1-y^{2}}{2}+\\frac{y^{2}+2-z^{2}}{2}+\\frac{z^{2}+3-x^{3}}{2}=3\\]<br>Kết hợp với GT ta có Dấu \"=”\" xảy ra khi<br>\\[\\begin{array}{l}\\left\\{\\begin{array} { l } { x = \\sqrt { 1 - y ^ { 2 } } } \\\\{ y = \\sqrt { 2 - z ^ { 2 } } } \\\\{ z = \\sqrt { 3 - x ^ { 2 } } } \\\\{ x \\sqrt { 1 - y ^ { 2 } } + y \\sqrt { 2 - z ^ { 2 } } + z \\sqrt { 3 - x ^ { 2 } } = 3 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x^{2}+y^{2}=1 \\y^{2}+z^{2}=2 \\z^{2}+x^{2}=3 \\x \\sqrt{1-y^{2}}+y \\sqrt{2-z^{2}}+z \\sqrt{3-x^{2}}=3\\end{array}\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { x ^ { 2 } = 1 } \\\\{ y ^ { 2 } = 0 } \\\\{ z ^ { 2 } = 2 } \\\\{ x \\sqrt { 1 - y ^ { 2 } } + y \\sqrt { 2 - z ^ { 2 } } + z \\sqrt { 3 - x ^ { 2 } } = 3 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=1 \\y=0 \\z=\\sqrt{2}\\end{array}\\right.\\right.\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Chứng minh rằng với mỗi số nguyên %(\\mathrm{n} \\geq 6)% thì số: %(a_{n}=1+\\frac{2.6 .10 \\ldots(4 n-2)}{(n+5)(n+6) \\ldots(2 n)})% là một số chính phương",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}a_{n}=1+\\frac{2^{n} \\cdot(1 \\cdot 3 \\cdot 5 \\ldots \\ldots(2 n-1) \\cdot(n-4) !}{(2 n) !} 1+\\frac{2^{n} \\cdot(n+4) !}{2 \\cdot 4 \\cdot 6 \\ldots 2 n}=1+\\frac{2^{n} . .1 \\cdot 2 \\cdot 3 \\ldots n(n+1)(n+2)(n+3)(n+4) !}{2^{n} \\cdot 1 \\cdot 2 \\cdot 3 \\cdot 4 \\ldots n} \\\\ =1+(n+1)(n+2)(n+3)(n+4) \\\\ a_{n}=\\left(n^{2}+5 n+5\\right)^{2}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là các số thực dương %(\\mathrm{abc}=1)%.Chứng minh rằng<br>\\[\\frac{1}{a b+a+2}+\\frac{1}{b c+b+2}+\\frac{1}{c a+c+2} \\leq \\frac{3}{4}\\]",
+        "question_images": [],
+        "solution": "Đặt %(a=\\frac{x}{y}, b=\\frac{y}{z} ; c=\\frac{z}{x})%<br>\\[P=\\frac{1}{a b+a+2}+\\frac{1}{b c+b+2}+\\frac{1}{c a+c+2}=\\frac{y z}{x y+x z+2 y z}+\\frac{z x}{x y+y z+2 x z}+\\frac{x y}{x z+y z+2 x y}\\]<br>Thì<br>\\[\\begin{array}{l}3-P=1-\\frac{y z}{x y+x z+2 y z}+1-\\frac{z x}{x y+y z+2 x z}+1-\\frac{x y}{x z+y z+2 x y} \\\\3-P=(x y+y z+x z)\\left(\\frac{1}{x y+x z+2 y z}+\\frac{1}{x y+y z+2 x z}+\\frac{1}{x z+y z+2 x y}\\right)\\end{array}\\]<br>Áp dụng Bất đẳng thức %(\\frac{1}{A}+\\frac{1}{B}+\\frac{1}{C} \\geq \\frac{9}{A+B+C})%<br>Do ta áp dụng bất đẳng thức Cô si cho 3 số dương: %(A+B+C \\geq 3 \\sqrt[3]{A B C} ; \\frac{1}{A}+\\frac{1}{B}+\\frac{1}{C} \\geq 3 \\sqrt[3]{\\frac{1}{A B C}})%<br>Nhân theo vế 2 bất đẳng thức trên, ta được:<br>\\[(A+B+C)\\left(\\frac{1}{A}+\\frac{1}{B}+\\frac{1}{C}\\right) \\geq 9 \\Rightarrow \\frac{1}{A}+\\frac{1}{B}+\\frac{1}{C} \\geq \\frac{9}{A+B+C}\\]<br>Khi đó Ta có %(3-P \\geq(x y+y z+x z) \\frac{9}{4 x y+4 y z+4 x z}=\\frac{9}{4} \\Leftrightarrow P \\leq 3-\\frac{9}{4}=\\frac{3}{4})%<br>Dấu \"=\" xảy ra khi %(\\left\\{\\begin{array}{l}x y+y z+2 x z=x y+2 y z+x z=2 x y+y z+x z \\\\ x y z=1\\end{array} \\Leftrightarrow x=y=z=1\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho hình vuông %(A B C D)% với tâm %(O)%. Gọi %(M)% là trung điểm %(A B)% các điểm %(N, P)% thuộc %(\\mathrm{BC}, \\mathrm{CD})% sao cho %(\\mathrm{MN} / / \\mathrm{AP})%. Chứng minh rằng",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tam giác %(\\mathrm{BNO})% đồng dạng với tam giác %(\\mathrm{DOP})% và góc %(\\mathrm{NOP}=45^{\\circ})%",
+        "question_images": [],
+        "solution": "Đặt %(\\mathrm{AB}=\\mathrm{a})% ta có %(\\mathrm{AC}=\\mathrm{a} \\sqrt{2})% Chứng minh Tam giác %(\\mathrm{ADP})% đồng dạng tam giác %(\\mathrm{NBM})% (g.g)<br>suy ra %(\\frac{B M}{D P}=\\frac{B N}{A D} \\Rightarrow B N \\cdot D P=\\frac{a^{2}}{2})%<br>mà %(\\mathrm{OB} \\cdot \\mathrm{OD}=\\frac{a^{2}}{2})%<br>tam giác DOP đồng dạng %(\\mathrm{BNO})% (c.g.c). từ đó tính được %(\\angle N O P=45^{\\circ})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tâm đường tròn ngoại tiếp tam giác NOP thuộc %(\\mathrm{OC})%.",
+        "question_images": [],
+        "solution": "Tâm đường tròn ngoại tiếp tam giác NOP thuộc %(\\mathrm{OC})%.<br>Theo a) ta có %(\\frac{O B}{D P}=\\frac{O N}{O P}=\\frac{O D}{D P})% góc %(\\mathrm{PON}=)% góc %(\\mathrm{ODP}=45^{\\circ})%<br>tam giác DOP đồng dạng ONP (c.g.c).<br>suy ra góc DOP= góc ONP nên DO là tiếp tuyến của đường tròn ngoại tiêp tam giác %(\\mathrm{OPN})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Ba đường thẳng %(\\mathrm{BD}, \\mathrm{AN}, \\mathrm{PM})% đồng quy",
+        "question_images": [],
+        "solution": "Ba đường thẳng %(\\mathrm{BD}, \\mathrm{AN}, \\mathrm{PM})% đồng quy<br>Đặt giao điểm cua %(M N)% và %(B C)% là %(Q)% và %(A P)% là %(K)% áp dụng tính chất phân giác cho tam giác %(M B N ; A P D)% %(\\frac{Q M}{Q N}=\\frac{B M}{B N} ; \\frac{K P}{K A}=\\frac{D P}{A D} \\Leftrightarrow \\frac{Q M}{Q N}=\\frac{K P}{K A} \\Rightarrow \\frac{Q M}{K P}=\\frac{Q N}{K A}(1))%<br>Ta có. Giả sử MP cắt %(\\mathrm{AN})% tại %(\\mathrm{I} . \\mathrm{K} \\mathrm{I})% cắt %(\\mathrm{MN})% tại %(\\mathrm{H})% Áp dụng định lí ta lét %(\\frac{H M}{P K}=\\frac{H N}{K A}(2))%<br>Từ (1) và (2)<br>Suy ra %(\\frac{H M}{H N}=\\frac{Q M}{Q N})% Q trùng %(\\mathrm{H})%, vậy %(\\mathrm{BD}, \\mathrm{PM}, \\mathrm{AN})% đồng quy",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Có bao nhiêu tập hợp con A của tập hợp %(\\{1 ; 2 ; 3 ; 4 ; \\ldots ; 2014\\})% thỏa mãn điều kiện A có ít nhất 2 phần tử và nếu %(\\mathrm{x} \\in \\mathrm{A}, \\mathrm{y} \\in \\mathrm{A}, \\mathrm{x}\\gt \\mathrm{y})%, thì : %(\\frac{y^{2}}{x-y} \\in A)%",
+        "question_images": [],
+        "solution": "Với mỗi tập %(A)% là tập con của %(S=\\{1 ; 2 ; 3 ; \\ldots ; 2014\\})% thỏa mãn đề bài, gọi a và b lần lượt là phần tử nhỏ nhất và lớn nhất của %(A(a, b \\in S, a\\lt b))%<br>Ta chứng minh %(\\mathrm{b} \\leq 2 \\mathrm{a})%, thật vậy, giả sử %(\\mathrm{b}\\gt 2 \\mathrm{a})%<br>Theo giả thiết %(c=\\frac{a^{2}}{b-a} \\in A)%. Mà %(\\mathrm{b}>2 \\mathrm{a}=>\\mathrm{b}-\\mathrm{a}>\\mathrm{a}>0=>\\mathrm{c}=\\frac{a^{2}}{b-a}\\lt \\frac{a^{2}}{a}=a)%, mâu thuẫn với a là phần tử nhỏ nhất của %(\\mathrm{A})%.<br>Vậy %(b \\leq 2 \\mathrm{a})%<br>Gọi %(\\mathrm{d})% là phần tử lớn nhất của tập %(\\mathrm{B}=\\mathrm{A} \\backslash\\{\\mathrm{b}\\})%. Ta chứng minh %(\\mathrm{b} \\geq 2 \\mathrm{~d})%.<br>Thật vậy giả sử %(\\mathrm{b}\\lt 2 \\mathrm{~d})%, theo giả thiết thì %(d\\lt b=>e=\\frac{d^{2}}{b-d} \\in A)%, mà %(\\mathrm{b}\\lt 2 \\mathrm{~d}=>0\\lt \\mathrm{b}-\\mathrm{d}\\lt \\mathrm{d}=>\\mathrm{e}>\\frac{d^{2}}{d}=d)%<br>Suy ra e %(\\in)% A nhưng %(\\mathrm{e} \\notin \\mathrm{B} \\Rightarrow \\mathrm{e}=\\mathrm{b} \\Rightarrow \\frac{d^{2}}{b-d}=b=>d^{2}=b^{2}-b d=>5 d^{2}=4 b^{2}-4 b d+d^{2}=(2 b-d)^{2})% (mâu thuẫn vì VP là số chính phương, VT không là số chính phương)<br>Vậy %(\\mathrm{b} \\geq 2 \\mathrm{~d} \\Rightarrow 2 \\mathrm{~d} \\leq \\mathrm{b} \\leq 2 \\mathrm{a} \\Rightarrow \\mathrm{d} \\leq \\mathrm{a})%. Mà %(\\mathrm{a} \\leq \\mathrm{d})% ( %(\\mathrm{a})% và %(\\mathrm{d})% lần lượt là phần tử nhỏ nhất và lớn nhất của %(\\mathrm{B})% ) nên %(a=d \\Rightarrow b=2 a)%<br>Vậy %(A=\\{a ; 2 a\\})%. Kiểm tra lại ta thấy %(A)% thỏa mãn đề bài. Vì %(a \\in S)% và %(2 a \\in S)% nên %(2 \\leq 2 a \\leq 2014)% %(\\Rightarrow 1 \\leq \\mathrm{a} \\leq 1007)%<br>Vậy số tập con A thỏa mãn đề bài là 1007 tập.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,103 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Tìm một nguyên hàm %(F(x))% của hàm số %(f(x)=x-e^{x}+3 \\sin x)% biết %(F(0)=2012)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}* \\int\\left(x-e^{x}+3 \\sin x\\right) d x=\\frac{1}{2} x^{2}-e^{x}-3 \\cos x+c \\\\ * F(0)=2012 \\Leftrightarrow-4+c=2012 \\\\ * \\mathrm{c}=2016\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Tính các tích phân sau:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a)%(I=\\int_{0}^{2} \\frac{x^{5}}{\\sqrt{x^{3}+1}} d x)%",
+        "question_images": [],
+        "solution": "* Đặt %(t=\\sqrt{x^{3}+1} \\Rightarrow t^{2}=x^{3}+1 \\Rightarrow 2 t \\cdot d t=3 x^{2} \\cdot d x)%<br>* Đổi cận %(x=2 \\Rightarrow t=3 ; x=0 \\Rightarrow t=1)%<br>\\[\\begin{array}{r}\\quad I=\\frac{2}{3} \\int_{1}^{3} \\frac{\\left(t^{2}-1\\right) t}{t} d t=\\frac{2}{3} \\int_{1}^{3}\\left(t^{2}-1\\right) d t \\I=\\left.\\frac{2}{3}\\left(\\frac{t^{3}}{3}-t\\right)\\right|_{1} ^{3}=\\frac{40}{9}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(J=\\int_{0}^{\\frac{\\pi}{2}} x\\left(x^{2}+\\sin x\\right) d x)%",
+        "question_images": [],
+        "solution": "%(J=\\int_{0}^{\\frac{\\pi}{2}} x\\left(x^{2}+\\sin x\\right) d x=\\int_{0}^{\\frac{\\pi}{2}} x^{3} d x+\\int_{0}^{\\frac{\\pi}{2}} x \\cdot \\sin x d x)%<br>\\[\\int_{0}^{\\frac{\\pi}{2}} x^{3} d x=\\left.\\frac{x^{4}}{4}\\right|_{0} ^{\\frac{\\pi}{2}}=\\frac{\\pi^{4}}{64}\\]<br>* Đặt %(\\left\\{\\begin{array}{l}u=x \\\\ d v=\\sin x d x\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}d u=d x \\\\ v=-\\cos x .\\end{array}\\right.\\right.)%<br>%(\\begin{array}{l}\\int_{0}^{\\frac{\\pi}{2}} x \\cdot \\sin x d x=-\\left.x \\cdot \\cos x\\right|_{0} ^{\\frac{\\pi}{2}}+\\int_{0}^{\\frac{\\pi}{2}} \\cos x d x=\\left.(\\sin x-x \\cdot \\cos x)\\right|_{0} ^{\\frac{\\pi}{2}}=1 \\\\ J=\\frac{\\pi^{4}}{64}+1\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tính diện tích hình phẳng giới hạn bởi %(y=\\frac{1}{x}, y=-2 x+3)%",
+        "question_images": [],
+        "solution": "Hoành độ giao điểm: %(\\frac{1}{x}=-2 x+3 \\Leftrightarrow x=1 ; x=\\frac{1}{2})%<br>%(\\begin{array}{l}S=\\int_{\\frac{1}{2}}^{1}\\left(\\frac{1}{x}+2 x-3\\right) d x \\\\ S=\\left.\\left(\\ln x+x^{2}-3 x\\right)\\right|_{\\frac{1}{2}} ^{1} \\\\ S=\\ln 2-\\frac{1}{4}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Gọi %(z_{1}, z_{2})% là hai nghiệm phức của phương trì̀nh %(z^{2}-4 z+9=0)%. M,N là các điểm biểu diễn của %(z_{1}, z_{2})% trên mă̆t phẳng tọa độ. Tính độ dài %(\\mathrm{MN})%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}z^{2}-4 z+9=0 \\Leftrightarrow\\left[\\begin{array}{l}z_{1}=2+\\sqrt{5} i \\\\ z_{2}=2-\\sqrt{5} i\\end{array}\\right. \\\\ * M(2 ; \\sqrt{5}) \\\\ * N(2 ;-\\sqrt{5}) \\\\ * M N=2 \\sqrt{5}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho số phức %(\\mathrm{z})% thỏa mãn %((1+i) \\bar{z}+2-3 i=1+2 i)%. Tìm mô đun của số phức %(w=z+2+5 i)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}*(1+i) \\bar{z}+2-3 i=1+2 i \\Leftrightarrow \\bar{z}=\\frac{-1+5 i}{1+i}=2+3 i \\\\ * Z=2-3 i \\\\ * w=z+2+5 i=4+2 i \\\\ *|z|=\\sqrt{4^{2}+2^{2}}=2 \\sqrt{5}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Trong không gian %(\\mathrm{Oxyz})% cho %(M(1 ;-2 ; 0))% và mặt phẳng %((P): 2 x-2 y+z-2=0)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Viết phương trình mặt phẳng %((\\mathrm{Q}))% qua %(\\mathrm{M})% và song song với mặt phẳng %((\\mathrm{P}))%.",
+        "question_images": [],
+        "solution": "* %((\\mathrm{P}))% có véc tơ pháp tuyến %(\\vec{n}_{P}=(2 ;-2 ; 1))%<br>* (Q) qua %(\\mathrm{M})% và nhận %(\\vec{n}_{P}=(2 ;-2 ; 1))% làm véc tơ pháp tuyến<br>* %((Q): 2(x-1)-2(y+2)+1(z-0)=0)%<br>%(* \\Leftrightarrow 2 x-2 y+z-6=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Viết phương trình mặt cầu %((\\mathrm{S}))% tâm %(\\mathrm{M})% và tiếp xúc với %((\\mathrm{P}))%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}* R=d(M,(P)) \\\\ * R=\\frac{|2 \\cdot 1-2(-2)+0-2|}{\\sqrt{2^{2}+2^{2}+1^{2}}}=\\frac{4}{3} \\\\ *(S):(x-1)^{2}+(y+2)^{2}+(z)^{2}=\\frac{16}{9}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Trong không gian %(\\mathrm{Oxyz})% cho đường thẳng %(d: \\frac{x-1}{1}=\\frac{y}{1}=\\frac{z+1}{1})% và mặt phẳng %((P): x-2 y+2 z-1=0)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tìm tọa độ giao điểm %(\\mathrm{M})% của %(\\mathrm{d})% và %((\\mathrm{P}))%,",
+        "question_images": [],
+        "solution": "%(d:\\left\\{\\begin{array}{l}x=1+t \\\\ y=t \\\\ z=-1+t\\end{array}\\right.)%%(\\begin{array}{l}\\text { * Tọa độ M thỏa }\\left\\{\\begin{array}{l}x=1+t \\\\ y=t \\\\ z=-1+t \\\\ x-2 y+2 z-1=0\\end{array} \\Rightarrow x=3 ; y=2 ; z=1\\right. \\\\ * M(3 ; 2 ; 1) \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Điểm %(\\mathrm{A})% thuộc d có cao độ dương sao cho %(A M=\\sqrt{3})%. Viết phương trì̀nh đường thẳng %(\\mathrm{AM})%",
+        "question_images": [],
+        "solution": "%(* A(1+t ; t ;-1+t) \\in d, \\vec{A M}=(2-t ; 2-t ; 2-t))%<br>* %(A M=\\sqrt{(2-t)^{2}+(2-t)^{2}+(2-t)^{2}}=\\sqrt{3} \\Leftrightarrow t=3)%<br>Vì A có cao độ dương %(A(4 ; 3 ; 2))%<br>* %(\\vec{A M}=(-1 ;-1 ;-1))% là véc tơ chỉ phương%(A M:\\left\\{\\begin{array}{l}x=3-t \\\\ y=2-t \\\\ z=1-t\\end{array}\\right.)%",
+        "question_type": "essay"
+    }
+]

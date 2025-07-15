@@ -1,0 +1,112 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Chứng minh %(n^{3}+(n+1)^{3}+(n+2)^{3})% chia hết cho 9 với moi số nguyên n",
+        "question_images": [],
+        "solution": "Chứng minh %(n^{3}+(n+1)^{3}+(n+2)^{3})% chia hết cho 9 với mọi số nguyên n Ta có :<br>\\[\\begin{array}{l}n^{3}+(n+1)^{3}+(n+2)^{3}=n^{3}+n^{3}+3 n^{2}+3 n+1+n^{3}+6 n^{2}+12 n+8 \\\\=3 n^{3}+9 n^{2}+15 n+9=\\left(3 n^{2}+15 n\\right)+9\\left(n^{2}+1\\right)\\end{array}\\]<br>Có %(9\\left(n^{2}+1\\right) \\vdots 9, \\forall n \\in Z(1))%<br>Và %(3 n^{3}+15 n=3 n^{3}-3 n+18 n=[3(n-1) n(n+1)+18 n]\\vdots 9)%<br>Vậy %(\\left[n^{3}+(n+1)^{3}+(n+2)^{3}\\right] \\vdots 9)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Phân tích da thức %(x\\left(y^{2}-z^{2}\\right)+y\\left(z^{2}-x^{2}\\right)+z\\left(x^{2}-y^{2}\\right))% thành nhân tử",
+        "question_images": [],
+        "solution": "Phân tích da thức %(x\\left(y^{2}-z^{2}\\right)+y\\left(z^{2}-x^{2}\\right)+z\\left(x^{2}-y^{2}\\right))% thành nhân tử<br>Ta có :<br>\\[\\begin{array}{l}x\\left(y^{2}-z^{2}\\right)+y\\left(z^{2}-x^{2}\\right)+z\\left(x^{2}-y^{2}\\right)=x(y-z)(y+z)+y z^{2}-y x^{2}+z x^{2}-z y^{2} \\\\=x(y-z)(y+z)+y z^{2}-y x^{2}+z x^{2}-z y^{2}=x(y-z)(y+z)+y z(y-z)+x^{2}(y-z) \\\\=(y-z)\\left(x y+x z-y z-x^{2}\\right)=(y-z)[z(x-y)-x(x-y)]=(y-z)(z-x)(x-y)\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho biểu thức %(C=\\left(x-\\frac{4 x y}{x+y}+y\\right):\\left(\\frac{x}{x+y}+\\frac{y}{y-x}+\\frac{2 x y}{x^{2}-y^{2}}\\right))% với %(x \\neq \\pm y)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Rút gọn biểu thức C",
+        "question_images": [],
+        "solution": "Với %(x \\neq \\pm y)% ta có :<br>\\[\\begin{array}{l}C=\\left(x-\\frac{4 x y}{x+y}+y\\right):\\left(\\frac{x}{x+y}+\\frac{y}{y-x}+\\frac{2 x y}{x^{2}-y^{2}}\\right) \\\\=\\left[\\frac{x^{2}+x y-4 x y+x y+y^{2}}{x+y}\\right]: \\frac{x^{2}-x y-x y-y^{2}+2 x y}{(x-y)(x+y)} \\\\=\\frac{(x-y)^{2}}{x+y}: \\frac{(x-y)(x+y)}{(x-y)(x+y)}=\\frac{(x-y)^{2}}{x+y}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Khị cho %(\\left(x^{2}-y^{2}\\right) C=-8)%, hãy tính giá trị của biểu thức %(M=x^{2}(x+1)-y^{2}(y-1)-3 x y(x-y+1)+x y)%",
+        "question_images": [],
+        "solution": "Theo cmt ta có : %(C=\\frac{(x-y)^{2}}{x+y})% với %(x \\neq \\pm y)%%(\\operatorname{Vi}\\left(x^{2}+y^{2}\\right) C=-8)%%(\\Rightarrow(x-y)(x+y) \\cdot \\frac{(x-y)^{2}}{x+y}=-8 \\Leftrightarrow(x-y)^{3}=-8 \\Leftrightarrow x-y=-2)%.<br>Ta có :<br>\\[\\begin{array}{l}M=x^{2}(x+1)-y^{2}(y-1)-3 x y(x-y+1)+x y \\\\=x^{3}+x^{2}-y^{3}+y^{2}-3 x^{2} y+3 x y^{2}-3 x y+x y\\end{array}\\]<br>\\[=\\left(x^{2}-2 x y+y^{2}\\right)+\\left(x^{3}-3 x^{2} y+3 x y^{2}-y^{3}\\right)=(x-y)^{2}+(x-y)^{3}(*)\\]<br>Thay %(x-y=-2)% vào %(\\left({ }^{*}\\right))% ta có : %(M=(-2)^{2}+(-2)^{2}=4-8=-4)%<br>Vây %(M=-4)% với %(x, y)% thỏa mãn đề",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Giải phương trình %(x\\left(1+\\frac{16}{x^{2}+3}\\right)=8-\\frac{3}{x})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}x\\left(1+\\frac{16}{x^{2}+3}\\right)=8-\\frac{3}{x}(x \\neq 0) \\Rightarrow x^{4}-8 x^{3}+22 x^{2}-24 x+9=0 \\\\ \\Leftrightarrow x^{4}-x^{3}-7 x^{3}+7 x^{2}+15 x^{2}-15 x-9 x+9=0 \\\\ \\Leftrightarrow(x-1)\\left(x^{3}-7 x^{2}+15 x-9\\right)=0 \\Leftrightarrow(x-1)(x-1)(x-3)^{2}=0 \\\\ \\Leftrightarrow\\left[\\begin{array}{l}x-1=0 \\\\ x-3=0\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=1(\\text { tm } d k) \\\\ x=3(\\text { tm } d k)\\end{array}\\right.\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các cặp số nguyên dương %((x, y))% thỏa mãn điều kiện %(2 x^{2}-2 x y+x+y+2=0)%",
+        "question_images": [],
+        "solution": "\\[2 x^{2}-2 x y+x+y+2=0\\]<br>Giả sử tồn tại %(x, y \\in Z^{+})%thỏa mãn đề bài . Ta có :<br>%(\\begin{array}{l}2 x^{2}-2 x y+x+y+2=0 \\Leftrightarrow 2 x(x-y)-(x-y)+2 x+2=0 \\\\ \\Leftrightarrow(x-y)(2 x-1)+(2 x-1)=-3 \\Leftrightarrow(2 x-1)(x-y+1)=-3=-3.1=-1.3=1 .-3=3 .-1 \\\\ \\begin{array}{lllll}2 x-1 & -3 & -1 & 1 & 3 \\\\ x-y+1 & 1 & 3 & -3 & -1\\end{array} \\\\ \\begin{array}{lll}x & -1(\\mathrm{ktm}) 0(\\mathrm{ktm}) 1 \\quad 2\\end{array} \\\\ \\begin{array}{lll}y & 5 & 4\\end{array} \\\\end{array})%<br>Vây %((x ; y) \\in\\{(1 ; 5),(2 ; 4)\\})% là các cặp giá trị cần tìm thỏa mãn yêu cầu",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Cho số thực %({ }^{x})% thay đổi thỏa mãn %(x \\geq 2)%. Tìm giá trị nhỏ nhất của biểu thức<br>\\[P=x^{2}-3 x+\\frac{1}{2 x}+2\\]",
+        "question_images": [],
+        "solution": "Ta có : %(P=x^{2}-4 x+4+x+\\frac{1}{2 x}-2=(x-2)^{2}+\\left(\\frac{x}{8}+\\frac{1}{2 x}\\right)+\\frac{7 x}{8}-2)% Có %((x-2)^{2} \\geq 0, \\forall x \\in \\mathbb{R}(1))%<br>Áp dụng bất đẳng thức %(A M-G M)% cho %(\\frac{x}{8} ; \\frac{1}{2 x}\\gt 0)% có :%(\\frac{x}{8}+\\frac{1}{2 x} \\geq 2 \\sqrt{\\frac{x}{8} \\cdot \\frac{1}{2 x}}=\\frac{1}{2}(2))%Vì %(x \\geq 2 \\Rightarrow \\frac{7 x}{8} \\geq \\frac{14}{8}=\\frac{7}{4}(3))%Từ %((1),(2),(3) \\Rightarrow P \\geq 0+\\frac{1}{2}+\\frac{7}{4}-2 \\Rightarrow P \\geq \\frac{1}{4})%<br>Dấu bằng xảy ra khi và chỉ khi %(\\left\\{\\begin{array}{l}(x-2)^{2}=0 \\\\ \\frac{x}{8}=\\frac{1}{2 x} \\\\ x=2\\end{array} \\Leftrightarrow x=2(\\right.)% tm)<br>Vậy %(\\operatorname{Min} P=\\frac{1}{4} \\Leftrightarrow x=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các số tự nhiên %(n)% sao cho %(3^{n}+19)% là số chính phương",
+        "question_images": [],
+        "solution": "Đăt %(3^{n}+19=a^{2}(1))%*) Xét %(n=2 k, k \\in N)%.<br>Khi đó, (1) trở thành : %(3^{2 k}+19=a^{2} \\Leftrightarrow\\left(a-3^{k}\\right)\\left(a+3^{k}\\right)=19)%<br>Nhận thấy %(a-3^{k}\\lt a+3^{k} \\Rightarrow\\left\\{\\begin{array}{l}a-3^{k}=1 \\\\ a+3^{k}=19\\end{array} \\Rightarrow 2 a=20 \\Leftrightarrow a=10 \\Rightarrow 3^{n}+19=10^{2} \\Rightarrow n=4(\\mathrm{tm})\\right.)%*)<br>Xét %(n=2 k+1, k \\in N)%.<br>Khi đó (1) trở thành :<br>\\[3^{2 k+1}+19=a^{2} \\Rightarrow 3.9^{k}+19=a^{2}\\]<br>Lai có %(9 \\equiv 1(\\bmod 4) \\Rightarrow 9^{k} \\equiv 1(\\bmod 4) \\Rightarrow 3.9^{k} \\equiv 3(\\bmod 4))%<br>mà<br>\\[19 \\equiv 3(\\bmod 4) \\Rightarrow\\left(3.9^{k}+19\\right) \\equiv 2(\\bmod 4)\\]<br>Măt khác %(a^{2})% không thể đồng dư với %(2 \\bmod 4)%<br>Do đó %(n=2 k+1(k \\in N))% không thỏa mãn<br>Vậy %(n=4)% thì %(3^{n}+19)% là số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho tam giác %(A B C)% có ba góc nhọn, lấy điểm %(M)% là trung diểm %(B C)%. Qua điểm D thuộc đoạn %(B M)%, vẽ đường thẳng song song với %(A M)%, đường thẳng này cắt hai đường thẳng %(A B, A C)% lần lượt tại E và F . Qua A vẽ đường thẳng song song với %(B C)% và cắt EF tại K",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh %(\\angle A K E=\\angle A C B+\\angle M A C)%",
+        "question_images": [],
+        "solution": "Chứng minh %(\\angle A K E=\\angle A C B+\\angle M A C)%<br>Xét tứ giác %(A K D M)% có : %(A K / / D M)% (vì %(A K / / B C ; D, M \\in B C)% )%(D K / / A M(D F / / A M, K \\in D F))% suy ra tứ giác %(A K D M)% là hình bình hành nên %(\\angle A K D=\\angle A M D(1))%<br>Ta có %(\\angle A M D)% là góc ngoài của %(\\triangle A M C \\Rightarrow \\angle A M D=\\angle M A C+\\angle M C A(2))%<br>Từ (1) và (2) suy ra %(\\angle A K D=\\angle M A C+\\angle M C A)% hay %(\\angle A K E=\\angle A C B+\\angle M A C()% dfcm %())%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a44e8c9c541add46f0dcab1e53bcf731.png\" srcset=\"https://docdn.giainhanh.io/media/test/41f08032ee1055f5ffb001b3065b4905.png 141w, https://docdn.giainhanh.io/media/test/cfdec669320cf70ee9bda3848a3bfa5b.png 451w\" width=\"451\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Tính giá trị của %(D E+D F-2 A M)%",
+        "question_images": [],
+        "solution": "Ta có %(: D E+D F=D E+D E+E F=2 D E+2 E K(K E=K F-c m t)=2(D E+E K)=2 D K)%Mà %(D K=A M)% (vì tứ giác %(A K D M)% là hình bìnhhành) %(\\Rightarrow D E+D F=2 A M \\Rightarrow D E+D F-2 A M=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Chứng minh K là trung điểm của đoạn thẳng %(E F)%",
+        "question_images": [],
+        "solution": "Xét %(\\triangle A K E)% và %(\\triangle B H A)% có :%(\\angle A K E=\\angle B M A)% (vì tứ giác %(A K D M)% là hình bình hành); %(\\angle K A E=\\angle M B A(A K / / B C))%<br>\\[\\Rightarrow \\triangle A K E \\sim \\triangle B M A(\\mathrm{~g} . \\mathrm{g}) \\Rightarrow \\frac{A K}{B M}=\\frac{K E}{A M}(1)\\]<br>Xét %(\\triangle A F K)% và %(\\triangle C A M)% có : %(\\angle K A F=\\angle M C A(A K / / B C), \\angle A F K=\\angle C A M(A M / / D E))%Suy ra %(\\triangle A F K \\sim \\triangle C A M(g . g) \\Rightarrow \\frac{A K}{C M}=\\frac{F K}{A M}(2))%<br>Lại có %(B M=C M)% (vì M là trung điểm của BC ) (3)<br>Từ %((1),(2),(3) \\Rightarrow K E=F K)% hay K là trung điểm của %(E F(dp \\mathrm{~cm})% )",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C)% có ba góc nhọn. Trên đường cao %(A H)% của tam giác %(A B C)% lấy điểm M (M nằm giữa A và H%())%. Tia %(B M)% cắt AC tại I , tia %(C M)% cắt %(\\mathbf{A B})% tại K. Chứng minh %(H A)% là tia phân giác của %(\\angle K H I)%",
+        "question_images": [],
+        "solution": "Qua A kẻ đường thẳng song song với %(B C)% cắt %(B I, C K, H K, H I)% lần lượt tại %(P, Q, R, S)%<br>Ta có : %(\\frac{A R}{B H}=\\frac{K A}{K B}=\\frac{A Q}{B C}(1))%.<br>Tương tự %(\\frac{A S}{H C}=\\frac{A I}{I C}=\\frac{A P}{B C}(2))%<br>Chia từng vế (1) cho (2) ta được %(\\frac{A R}{A S} \\cdot \\frac{H C}{H B}=\\frac{A Q}{A P}(3))%.<br>Lai có : %(\\frac{A Q}{H C}=\\frac{M A}{M H}=\\frac{A P}{B H} \\Rightarrow \\frac{A Q}{A P}=\\frac{H C}{H B}(4))%.<br>Từ (3) và (4) suy ra %(\\frac{A R}{A S}=1 \\Rightarrow A R=A S)% %(\\triangle H R S)% cân tại %(\\mathrm{H}, A R=A S \\Rightarrow H A)% là tia phân giác của %(\\angle K H I(\\mathrm{dfcm}))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/46f53ab28c13128b45817d76950aee6d.png\" srcset=\"https://docdn.giainhanh.io/media/test/65b6898775332cb38169837409be8d8a.png 245w, https://docdn.giainhanh.io/media/test/fca443b75b04214eaf551996a5fdfb7e.png 500w, https://docdn.giainhanh.io/media/test/af3ada41b32daba45d5d93f4f08f8710.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    }
+]

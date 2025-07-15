@@ -1,0 +1,104 @@
+[
+    {
+        "title": "Câu 1",
+        "group_content": "Cho biểu thức %(A=\\left(\\frac{2+x}{2-x}-\\frac{4 x^{2}}{x^{2}-4}-\\frac{2-x}{2+x}\\right):\\left(\\frac{x^{2}-3 x}{2 x^{2}-x^{3}}\\right))%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Tìm điều kiện xác định rồi rút gọn biểu thức A",
+        "question_images": [],
+        "solution": "ĐKXĐ: %(x \\neq 0 ; x \\neq \\pm 2 ; x \\neq 3)%<br>\\[\\begin{array}{l}A=\\left(\\frac{2+x}{2-x}-\\frac{4 x^{2}}{x^{2}-4}-\\frac{2-x}{2+x}\\right):\\left(\\frac{x^{2}-3 x}{2 x^{2}-x^{3}}\\right)=\\left(\\frac{2+x}{2-x}+\\frac{4 x^{2}}{(2-x)(2+x)}-\\frac{2-x}{2+x}\\right) \\cdot \\frac{x^{2}(2-x)}{x(x-3)} \\\\=\\frac{(2+x)^{2}+4 x^{2}-(2-x)^{2}}{(2+x)} \\cdot \\frac{x}{x-3}=\\frac{4+4 x+x^{2}+4 x^{2}-4+4 x-x^{2}}{2+x} \\cdot \\frac{x}{x-3} \\\\=\\frac{4 x^{2}+8 x}{2+x} \\cdot \\frac{x}{x-3}=\\frac{4 x(x+2) \\cdot x}{(2+x) \\cdot(x-3)}=\\frac{4 x^{2}}{x-3}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Tìm %(x)% đề %(A=-1)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}A=-1 \\Leftrightarrow \\frac{4 x^{2}}{x-3}=1 \\Leftrightarrow 4 x^{2}+x-3=0 \\\\Leftrightarrow\\left(4 x^{2}+4 x\\right)-(3 x+3)=0 \\Leftrightarrow 4 x(x+1)-3(x+1)=0 \\\\Leftrightarrow(x+1)(4 x-3)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=-1 \\x=\\frac{3}{4}\\end{array}\\right. \\text { (tmdk) }\\end{array}\\]<br>Vậy %(x \\in\\left\\{-1 ; \\frac{3}{4}\\right\\})% thì %(A=-1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 2.0,
+        "content": "Cho các số nguyên %(a, b, c)% thỏa mãn %(a b+b c+c a=1)%. Chứng minh rằng %(A=\\left(1+a^{2}\\right)\\left(1+b^{2}\\right)\\left(1+c^{2}\\right))% là số chính phương.",
+        "question_images": [],
+        "solution": "Ta có %(a b+b c+c a=1)% nên<br>\\[1+a^{2}=a b+b c+c a+a^{2}=b(a+c)+a(a+c)=(a+c)(a+b)\\]<br>Tương tự %(1+b^{2}=(a+b)(b+c) ; 1+c^{2}=(a+c)(b+c))%<br>Do đó %(A=\\left(1+a^{2}\\right)\\left(1+b^{2}\\right)\\left(1+c^{2}\\right)=[(a+b)(b+c)(c+a)]^{2})% là một số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 2.0,
+        "content": "Giải phương trình nghiệm nguyên %(x^{2}+x y-2012 x-2013 y-2014=0)%",
+        "question_images": [],
+        "solution": "Ta có %(x^{2}+x y-2012 x-2013 y-2014=0)%<br>%(\\begin{array}{l}\\Leftrightarrow x^{2}+x y-2013 x-2013 y+x-2013-1=0 \\\\ \\Leftrightarrow x(x+y)-2013(x+y)+(x-2013)-1=0 \\\\ \\Leftrightarrow(x-2013)(x+y)+(x-2013)=1 \\Leftrightarrow(x-2013)(x+y+1)=1.1=-1 .-1 \\\\ x-2013 \\quad 1 \\quad-1 \\\\ x+y+1 \\quad 1 \\quad-1 \\\\ x \\quad 2014 \\quad 2012 \\\\ y \\quad-2014 \\quad-2014 \\\\end{array})%<br>Vậy %((x ; y)=\\{(2014 ;-2014) ;(2012 ;-2014)\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 2.0,
+        "content": "Cho đa thức %(f(x)=a x^{3}+b x^{2}+c x+d)%. Tìm %(a, b, c, d)% biết rằng khi chia đa thức lần lượt cho các nhị thức %((x-1),(x-2),(x-3))% đều có số dư là 6 và tại %(x=-1)% thì đa thức đó nhận giá trị bằng -18",
+        "question_images": [],
+        "solution": "Khi chia đa thức %(f(x)=a x^{3}+b x^{2}+c x+d)% lần lượt cho các nhị thức %((x-1),(x-2),(x-3))% đều có số dư là 6 nên theo định lý Bơ-zu ta có : %(f(1)=f(2)=f(3)=6)%.<br>Và tại %(x=-1)% thì đa thức đó nhận giá trị bằng -18<br>Nên %(f(-1)=-18)%. Khi đó ta có :<br>\\[\\left\\{\\begin{array} { l } { a + b + c + d = 6 } \\\\{ 8 a + 4 b + 2 c + d = 6 } \\\\{ 2 7 a + 9 b + 3 c + d = 6 } \\\\{ - a + b - c + d = - 1 8 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { a + c = 1 2 } \\\\{ 3 a + b + c = 8 } \\\\{ 7 a + 2 b + c = 6 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { 2 a + b = - 4 } \\\\{ 3 a + b = - 3 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}a=1 \\b=-6 \\c=11 \\d=0\\end{array}\\right.\\right.\\right.\\right.\\]<br>Vậy %((a ; b ; c ; d)=(1 ;-6 ; 11 ; 0))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 1.5,
+        "content": "Tìm %(x)% để biểu thức %(E=\\frac{-x^{2}+x-10}{x^{2}-2 x+1})% với %(x \\neq 1)% đạt giá trị lớn nhất",
+        "question_images": [],
+        "solution": "\\[E=\\frac{-x^{2}+x-10}{x^{2}-2 x+1}=\\frac{\\left(-x^{2}+2 x-1\\right)-(x-1)-10}{x^{2}-2 x+1}=\\frac{-(x-1)^{2}-(x-1)-10}{(x-1)^{2}}=-1-\\frac{1}{x-1}-\\frac{10}{(x-1)^{2}}\\]<br>Khi đó %(-E=1+\\frac{1}{x-1}+\\frac{10}{(x-1)^{2}})%.<br>Đặt %(\\frac{1}{x-1}=t \\Rightarrow-E=1+t+10 t^{2})%.<br>Ta có :<br>\\[-E=10 t^{2}+t+1=10\\left(t^{2}+2 \\cdot t \\cdot \\frac{1}{20}+\\frac{1}{400}\\right)+\\frac{39}{40}=10\\left(t+\\frac{1}{20}\\right)^{2}+\\frac{39}{40} \\geq \\frac{39}{40}\\]<br>Vậy %(\\max E=-\\frac{39}{40} \\Leftrightarrow t=-\\frac{1}{20} \\Leftrightarrow \\frac{1}{x-1}=\\frac{-1}{20} \\Leftrightarrow x=-19)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6 ",
+        "point": 1.5,
+        "content": "Cho %(x\\gt 0, y>0, z>0)% và %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=4)% Chứng minh rằng %(\\frac{1}{2 x+y+z}+\\frac{1}{x+2 y+z}+\\frac{1}{x+y+2 z} \\leq 1)%",
+        "question_images": [],
+        "solution": "Từ %(\\frac{1}{x}+\\frac{1}{y} \\geq \\frac{4}{x+y})% nên %(\\frac{1}{x+y} \\leq \\frac{1}{4}\\left(\\frac{1}{x}+\\frac{1}{y}\\right))%.<br>Với %(x\\gt 0, y>0, z>0)% ta có :<br>\\[\\frac{1}{2 x+y+z}=\\frac{1}{x+y+x+z} \\leq \\frac{1}{4}\\left(\\frac{1}{x+y}+\\frac{1}{x+z}\\right) \\leq \\frac{1}{4} \\cdot\\left[\\frac{1}{4}\\left(\\frac{1}{x}+\\frac{1}{y}\\right)+\\frac{1}{4}\\left(\\frac{1}{x}+\\frac{1}{z}\\right)\\right]=\\frac{1}{16}\\left(\\frac{2}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)\\]<br>Tương tự :<br>\\[\\begin{array}{l}\\frac{1}{x+2 y+z}=\\frac{1}{x+y+y+z} \\leq \\frac{1}{16}\\left(\\frac{1}{x}+\\frac{2}{y}+\\frac{1}{z}\\right) \\\\frac{1}{x+y+2 z}=\\frac{1}{x+z+y+z} \\leq \\frac{1}{16}\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{2}{z}\\right) .\\end{array}\\]<br>Khi đó : %(\\frac{1}{2 x+y+z}+\\frac{1}{x+2 y+z}+\\frac{1}{x+y+2 z} \\leq \\frac{1}{16} \\cdot\\left(\\frac{4}{x}+\\frac{4}{y}+\\frac{4}{z}\\right)=\\frac{1}{4}\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)=\\frac{1}{4} \\cdot 4=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7",
+        "group_content": "Cho hình vuông %(A B C D)%, trên cạnh %(A B)% lấy điểm E và trên cạnh %(A D)% lấy điểm F sao cho %(A E=A F)%. Vẽ %(A H \\perp B F(H \\in B F), \\mathrm{AH})% cắt DC và BC lần lượt tại %(M)% và N",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng %(A E M D)% là hình chữ nhật",
+        "question_images": [],
+        "solution": "Xét %(\\triangle A D M)% và %(\\triangle B A F)% có :<br>%(\\widehat A=\\widehat B=90^{\\circ}, A D=A B ; \\widehat {M A D}=\\widehat {A B F})% (cùng phụ với %(\\widehat {A F B})% )<br>Do đó %(\\triangle A D M=\\triangle B A F(c g v-g n) \\Rightarrow D M=E F)% (hai cạnh tương ứng)<br>Mà %(A E=A F(g t))% nên %(D M=A E(1))%.<br>Lại có %(D M / / A E \\Rightarrow A B / / D C(2))%<br>Từ (1) và (2) suy ra %(A E M D)% là hình bình hành<br>Kết hợp với %(\\widehat {A D M}=90^{\\circ} \\Rightarrow A E M D)% là hình chữ nhật<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/bdb7f840cf02878580135de7eb16acd3.png\" srcset=\"https://docdn.giainhanh.io/media/test/b2667e0cfdfb3f1474eca9d671bb1bd4.png 106w, https://docdn.giainhanh.io/media/test/3a2c880e9232041dcd7ce42be04825a4.png 341w\" width=\"341\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Biết diện tích tam giác %(B C H)% gấp bốn lần diện tích tam giác %(A E H)%. Chứng minh %(A C=2 E F)%",
+        "question_images": [],
+        "solution": "Xét %(\\triangle H A B)% và %(\\triangle H F A)% có :<br>%(\\widehat {A B H}=\\widehat {F A H})% (do%(\\widehat {A B F}=\\widehat {M A D})% caua %()), \\widehat {B H A}=\\widehat {A H F}=90^{\\circ})%<br>Do đó %(\\triangle H A B \\sim \\triangle H F A(g . g) \\Rightarrow \\frac{B H}{A H}=\\frac{B C}{A E})%<br>Lai có %(\\widehat {H A B}=90^{\\circ}-\\widehat {F A H}=90^{\\circ}-\\widehat {A B H}=\\widehat {H B C})%<br>Xét %(\\triangle C B H)% và %(\\triangle A E H)% có<br>%(\\frac{B H}{A H}=\\frac{B C}{A E} ; \\widehat {H A B}=\\widehat {H B C})% nên %(\\triangle C B H \\sim \\triangle E A H)% (c.g.c)<br>Mà %(\\frac{S_{B C H}}{S_{A I H}}=4 \\Rightarrow \\triangle C B H \\sim \\triangle A E H)% theo tỉ số đồng dạng %(k=2)%<br>Suy ra %(\\frac{B C}{A E}=2)% hay %(\\frac{A B}{A E}=2 \\Rightarrow E)% là trung điềm của %(A B \\Rightarrow F)% là trung điểm của AD<br>Khi đó %(E F)% là đường trung bình của %(\\triangle A B D \\Rightarrow E F=\\frac{1}{2} B D=\\frac{1}{2} A C)% hay %(A C=2 E F)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) Chứng minh %(\\frac{1}{A D^{2}}=\\frac{1}{A M^{2}}+\\frac{1}{A N^{2}})%",
+        "question_images": [],
+        "solution": "%(\\triangle A D M)% có %(C N / / A D)% nên %(\\frac{C N}{A D}=\\frac{M N}{A M} \\Leftrightarrow \\frac{A D}{A M}=\\frac{C N}{M N} \\Leftrightarrow \\frac{A D^{2}}{A M^{2}}=\\frac{C N^{2}}{M N^{2}}\\left({ }^{*}\\right))% (Hệ quả talet)<br>%(\\triangle A B N)% có %(C M / / A B)% nên<br>%(\\frac{M N}{A N}=\\frac{M C}{A B} \\Rightarrow \\frac{M N}{A N}=\\frac{M C}{A D} \\Leftrightarrow \\frac{A D}{A N}=\\frac{M C}{M N} \\Leftrightarrow \\frac{A D^{2}}{A N^{2}}=\\frac{M C^{2}}{M N^{2}}\\left({ }^{* *}\\right)\\mathrm{})% ( Hệ quả talet)<br>Từ %(\\left({ }^{*}\\right))% và %((* *))% suy ra<br>\\[\\begin{array}{l}\\frac{A D^{2}}{A M^{2}}+\\frac{A D^{2}}{A N^{2}}=\\frac{M C^{2}}{M N^{2}}+\\frac{C N^{2}}{M N^{2}} \\Leftrightarrow A D^{2}\\left(\\frac{1}{A M^{2}}+\\frac{1}{A N^{2}}\\right)=\\frac{M C^{2}+C N^{2}}{M N^{2}} \\\\Leftrightarrow A D^{2}\\left(\\frac{1}{A M^{2}}+\\frac{1}{A N^{2}}\\right)=\\frac{M N^{2}}{M N^{2}}=1 \\Leftrightarrow \\frac{1}{A M^{2}}+\\frac{1}{A N^{2}}=\\frac{1}{A D^{2}}(\\mathrm{dfcm})\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8  ",
+        "point": 2.0,
+        "content": "Tất cả các điểm trên mặt phẳng đều được tô màu, mỗi điểm được tô bởi một trong ba màu xanh, đỏ, tím. Chứng minh rằng khi đó luôn tồn tại ít nhất một tam giác cân, có ba đỉnh thuộc các điểm của mặt phẳng mà 3 đỉnh đó cùng màu hoặc đôi một khác màu",
+        "question_images": [],
+        "solution": "Xét ngũ giác đều %(A B C D E)%, ta thấy 3 đỉnh bất kỳ của ngũ giác luôn tạoo thành một tam giác cân. Do đó khi tô 5 đỉnh %(A, B, C, D, E)% bằng ba màu xanh, đỏ, tím thì xảy ra hai khả năng sau :<br>- Nếu tô năm đình %(A, B, C, D, E)% bởi đủ ba màu đã cho thì tồn tại ba đỉnh có màu khác nhau và tạo thành một tam giác cân.<br>- Nếu tô năm đình %(A, B, C, D, E)% bởi nhiều nhất hai màu đã cho thì có ít nhất 3 đình cùng màu và tạo thành một tam giác cân<br>Vậy, trong mọi trường hợp luôn tồn tại ít nhất một tam giác cân, có ba đỉnh được tô bởi cùng một màu hoặc đôi một khác màu.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Rút gọn biểu thức sau: %(A=\\frac{4^{5} \\cdot 9^{4}-2 \\cdot 6^{9}}{2^{10} \\cdot 3^{8}+6^{8} \\cdot 20})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l} A=\\frac{4^{5} \\cdot 9^{4}-2 \\cdot 6^{9}}{2^{10} \\cdot 3^{8}+6^{8} \\cdot 20}=\\frac{2^{10} \\cdot 3^{8}-2 \\cdot 2^{9} \\cdot 3^{9}}{2^{10} \\cdot 3^{8}+2^{8} \\cdot 3^{8} \\cdot 2^{2} \\cdot 5} \\\\ =\\frac{2^{10} \\cdot 3^{8}-2^{10} \\cdot 3^{9}}{2^{10} \\cdot 3^{8}+2^{10} \\cdot 3^{8} \\cdot 5} \\\\ =\\frac{2^{10} \\cdot 3^{8}(1-3)}{2^{10} \\cdot 3^{8}(1+5)} \\\\ =-\\frac{2}{6}=-\\frac{1}{3}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm %(\\mathrm{x})% biết: %(\\quad \\frac{1}{1.3}+\\frac{1}{3.5}+\\frac{1}{5.7}+\\ldots .+\\frac{1}{(2 x-1)(2 x+1)}=\\frac{49}{99})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l} \\frac{1}{1.3}+\\frac{1}{3.5}+\\frac{1}{5.7}+\\ldots .+\\frac{1}{(2 x-1)(2 x+1)}=\\frac{49}{99} \\\\ \\Rightarrow \\frac{1}{2}\\left(1-\\frac{1}{3}+\\frac{1}{3}-\\frac{1}{5}+\\frac{1}{5}+\\ldots+\\frac{1}{2 x-1}-\\frac{1}{2 x+1}\\right)=\\frac{49}{99} \\\\ \\Rightarrow \\frac{1}{2}\\left(1-\\frac{1}{2 x+1}\\right)=\\frac{49}{99} \\Rightarrow 1-\\frac{1}{2 x+1}=\\frac{98}{99} \\Rightarrow \\frac{1}{2 x+1}=\\frac{1}{99} \\\\ \\Rightarrow 2 x+1=99 \\Rightarrow 2 x=98 \\Rightarrow x=49 . \\text { Vậy } x=49\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho đa thức %(A(x)=a x^{2}+b x+c)%. Biết %(b=5 a+c)%Chứng minh rằng: %(A(1) \\cdot A(-3) \\leq 0)%",
+        "question_images": [],
+        "solution": "%(A(1)=a+b+c=a+5 a+c+c=6 a+2 c=2(3 a+c))%<br>\\[A(-3)=9 a-3 b+c=9 a-3(5 a+c)+c=-6 a-2 c=-2(3 a+c)\\]<br>%(A(1) \\cdot A(-3)=2(3 a+c)[-2(3 a+c)]=-4(3 a+c)^{2})%%((3 a+c)^{2} \\geq 0)% với mọi %(a, c)% nên %(A(1) \\cdot A(-3)=-4(3 a+c)^{2} \\leq 0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 0.75,
+        "content": "Гìm %(x, y)% biết: %(\\frac{3 x-1}{4}=\\frac{7 y-4}{5}=\\frac{3 x+7 y-5}{3 x})%",
+        "question_images": [],
+        "solution": "Nếu %(3 x+7 y-5=0)% thì %(\\left\\{\\begin{array}{l}3 x-1=0 \\\\ 7 y-4=0\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}x=\\frac{1}{3} \\\\ y=\\frac{4}{7}\\end{array}\\right.\\right.)%<br>Nếu %(3 x+7 y-5 \\neq 0)% thì áp dụng tính chất của dãy tỉ số bằng nhau ta có:<br>\\[\\begin{array}{l}\\frac{3 x-1}{4}=\\frac{7 y-4}{5}=\\frac{3 x+7 y-5}{9}=\\frac{3 x+7 y-5}{3 x} \\\\Rightarrow x=3 \\\\Rightarrow \\frac{3.3-1}{4}=\\frac{7 y-4}{5} \\Rightarrow y=2 \\\\operatorname{Vậy}(x, y) \\in\\left\\{\\left(\\frac{1}{3} ; \\frac{4}{7}\\right),(3 ; 2)\\right\\}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 0.75,
+        "content": "Ba thửa ruộng hình chữ nhật %(\\mathrm{A}, \\mathrm{B}, \\mathrm{C})% có cùng diện tích. Chiều rộng của các thửa ruộng %(\\mathrm{A} ; \\mathrm{B} ; \\mathrm{C})% lần lượt tỉ lệ thuận với %(4 ; 5 ; 6)%. Chiều dài của thửa ruộng %(\\mathrm{A})% nhỏ hơn tổng chiều dài của thửa ruộng %(\\mathrm{B})% và %(\\mathrm{C})% là %(42 \\mathrm{~m})%. Tính chiều dài mỗi thửa ruộng?",
+        "question_images": [],
+        "solution": "Gọi chiều rộng của các thửa ruộng %(\\mathrm{A} ; \\mathrm{B})%; %(\\mathrm{C})% lần lượt là %(\\mathrm{a} ; \\mathrm{b} ; \\mathrm{c}(\\mathrm{m}))%<br>Chiều dài của các thửa ruộng %(\\mathrm{A} ; \\mathrm{B} ; \\mathrm{C})% lần lượt là %(\\mathrm{x} ; \\mathrm{y} ; \\mathrm{z}(\\mathrm{m}))% (Điều kiện: %(0\\lt \\mathrm{a}\\lt \\mathrm{x} ; 0\\lt \\mathrm{b}\\lt \\mathrm{y} ; 0\\lt \\mathrm{c}\\lt \\mathrm{z})% )<br>Chiều rộng các thửa ruộng %(\\mathrm{A} ; \\mathrm{B} ; \\mathrm{C})% lần lượt tỉ lệ thuận với %(4 ; 5 ; 6)% nên %(\\frac{a}{4}=\\frac{b}{5}=\\frac{c}{6})%<br>Vì chiều dài của thửa ruộng %(\\mathrm{A})% nhỏ hơn tổng chiều dài của thửa ruộng %(\\mathrm{B})% và %(\\mathrm{C})% là %(42 \\mathrm{~m})% nên ta có: %(\\mathrm{y}+\\mathrm{z}-\\mathrm{x}=42)%<br>Vì ba thửa ruộng cùng diện tích nên %(a x=b y=c z)%<br>\\[\\Rightarrow 4 \\cdot x \\cdot \\frac{a}{4}=5 \\cdot y \\cdot \\frac{b}{5}=6 \\cdot z \\cdot \\frac{c}{6} \\Rightarrow 4 x=5 y=6 z\\]<br>Suy ra: %(4 x=5 y=6 z \\Rightarrow \\frac{4 x}{60}=\\frac{5 y}{60}=\\frac{6 z}{60} \\Rightarrow \\frac{x}{15}=\\frac{y}{12}=\\frac{z}{10})%Vì %(\\mathrm{y}+\\mathrm{z}-\\mathrm{x}=42)% nên áp dụng tính chất dãy tỉ số bằng nhau suy ra %(x=90 ; y=72 ; z=60)%.<br>Vậy chiều dài thửa ruộng %(\\mathrm{A} ; \\mathrm{B} ; \\mathrm{C})% lần lượt là %(90 \\mathrm{~m})%; %(72 \\mathrm{~m} ; 60 \\mathrm{~m})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 0.5,
+        "content": "Tìm n đề %(\\mathrm{n}^{2}+2018)% là một số chính phương",
+        "question_images": [],
+        "solution": "Giả sử %(\\mathrm{n}^{2}+2018)% là sô chính phương khi đó ta đặt<br>\\[\\begin{aligned}& n^{2}+2018=a^{2}(a \\in Z) \\\\Leftrightarrow & a^{2}-n^{2}=2018 \\Leftrightarrow(a-n)(a+n)=2018(*)\\end{aligned}\\]<br>+ Nếu a, n khác tính chất chẵn lẻ thì vế trái của (*) là số lẻ nên không thỏa mãn %(\\left({ }^{*}\\right))%<br>+ Nếu %(\\mathrm{a}, \\mathrm{n})% cùng tính chẵn hoặc lẻ thì %((\\mathrm{a}-\\mathrm{n}): 2)% và %((\\mathrm{a}+\\mathrm{n}) \\vdots 2)% nên vế trái chia hết cho 4 và vế phải không chia hết cho 4 nên không thỏa mãn %(\\left(^{*}\\right))%<br>Vậy không tồn tại %(\\mathrm{n})% để %(\\mathrm{n}^{2}+2018)% là số chính phương",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 0.5,
+        "content": "Cho %(p)% là số nguyên tố lớn hơn 3 . Hỏi %(p^{2}+2018)% là số nguyên tố hay hợp số.",
+        "question_images": [],
+        "solution": "%(\\mathrm{Vì} p)% là sô nguyên tô lớn hơn 3 nên p có dạng %(p=3 k \\pm 1(k \\in \\mathbb{N}, k \\geq 1))%<br>Với %(p=3 k+1)%, suy ra<br>\\[p^{2}+2018=(3 k+1)^{2}+2018=9 k^{2}+6 k+2019 \\Rightarrow\\left(p^{2}+2018\\right) \\vdots 3\\]<br>+ Vơi %(p=3 k-1)%, suy ra<br>\\[p^{2}+2018=(3 k-1)^{2}+2018=9 k^{2}-6 k+2019 \\Rightarrow\\left(p^{2}+2018\\right) \\vdots 3\\]<br>Vậy %(p^{2}+2018)% là hợp số.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Lấy ngẫu nhiên một số trong bảy số: %(81,45,63,108,147,1155,42336)%. Tìm xác suất để:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.25,
+        "content": "a) Lấy được số có 3 chữ số.",
+        "question_images": [],
+        "solution": "Trong bảy số đã cho có hai số có ba chữ số. Do đó xác suất lấy được số có ba chữ số là %(\\frac{2}{7})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.25,
+        "content": "b) Lấy được số chia hết cho 3 .",
+        "question_images": [],
+        "solution": "Bảy số đã cho đều chia hết cho 3 .<br>Do đó biến cố \"Lấy được số chia hết cho 3\" là biến số chắc chắn.<br>Vậy xác suất \"Lấy được số chia hết cho 3 \" bằng 1 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Lấy được số có 6 ước nguyên dương.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}81=3^{4} \\text { có } 4+1=5 \\text { (ước nguyên dương) } \\\\ 45=3^{2} \\cdot 5 \\text { có }(2+1)(1+1)=6 \\text { ( ước nguyên dương) } \\\\ 08=2^{2} \\cdot 3^{3} \\text { có }(2+1)(3+1)=12 \\text { ( ước nguyên dương) } \\\\ 63=3^{2} .7 \\text { có }(2+1)(1+1)=6 \\text { ( ước nguyên dương) }\\end{array})%<br>%(147=3.7^{2})% có %((1+1)(2+1)=6)% ( ước nguyên dương)<br>%(1155=3.5 .7 .11)% có %((1+1)(1+1)(1+1)(1+1)=16)% ( ước nguyên dương)<br>%(42336=2^{5} \\cdot 3^{3} \\cdot 7^{2})% có %((5+1)(3+1)(2+1)=72)% ( ước nguyên dương)<br>Trong 7 số đã cho có 3 số có 6 ước nguyên dương.<br>Do vậy xác suất để \"Lấy được số có 6 ước nguyên dương\" bằng %(\\frac{3}{7})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho tam giác %(\\mathrm{ABC})% có ba góc nhọn %((\\mathrm{AB}\\lt \\mathrm{AC}))%. Vẽ về phía ngoài tam giác %(\\mathrm{ABC})% các tam giác đều %(A B D)% và %(A C E)%. Gọi %(I)% là giao của %(C D)% và %(B E, K)% là giao của %(A B)% và %(D C)%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.25,
+        "content": "a) Chứng minh rằng: %(\\triangle A D C=\\triangle A B E)% và %(\\widehat{D I B}=60^{\\circ})%",
+        "question_images": [],
+        "solution": "Ta có: %(D A C=B A E=B A C+60^{\\circ})%<br>Xét %(\\triangle A D C)% và %(\\triangle A B E)% có: %(\\mathrm{AD}=\\mathrm{AB} ; D A C=B A E)% và %(\\mathrm{AC}=\\mathrm{AE})%<br>Suy ra %(\\triangle A D C=\\triangle A B E)% (c.g.c)<br>Xét %(\\triangle A K D)% và %(\\triangle I K B)% có %(A D K=I B K)% (suy từ %(\\triangle A D C=\\triangle A B E)% )%(B K I=A K D)% (đối đỉnh).<br>Suy ra %(D I B=D A B=60^{\\circ})% (đpcm)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c279740b92d20c5f876f909ff1e3f4c5.png\" srcset=\"https://docdn.giainhanh.io/media/test/2922cb155e0eefa61df422d107d3e1f5.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Gọi %(\\mathrm{M})% và %(\\mathrm{N})% lần lượt là trung điểm của %(C D)% và %(\\mathrm{BE})%. Chứng minh: %(\\triangle \\mathrm{AMN})% đều.",
+        "question_images": [],
+        "solution": "Từ %(\\triangle A D C=\\triangle A B E)% (câu a) %(\\Rightarrow \\mathrm{DC}=\\mathrm{BE} \\Rightarrow \\mathrm{CM}=\\mathrm{EN})%.<br>Mà %(\\mathrm{AC}=\\mathrm{AE}, A C M=A E N)% (suy từ %(\\triangle A D C=\\triangle A B E)% )%(\\Rightarrow \\triangle A C M=\\triangle A E N)% (c.g.c) %(\\Rightarrow \\mathrm{AM}=\\mathrm{AN})% và %(C A M=E A N)%<br>Mà %(M A N=M A C+C A N=E A N+C A N=C A E=60^{\\circ})%<br>Nên tam giác %(\\mathrm{AMN})% đều",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.75,
+        "content": "c) Chứng minh rằng: IA là phân giác của góc DIE.",
+        "question_images": [],
+        "solution": "Trên tia ID lấy điểm %(\\mathrm{J})% sao cho %(\\mathrm{JJ}=\\mathrm{JB} ; D I B=60^{\\circ} \\Rightarrow \\triangle B I J)% đều %(\\Rightarrow \\mathrm{BJ}=\\mathrm{BI})% và %(J B I=D B A=60^{\\circ})%,<br>suy ra %(I B A=J B D)%,<br>kết hợp %(\\mathrm{BA}=\\mathrm{BD} \\Rightarrow \\triangle I B A=\\triangle J B D)% (c.g.c) %(\\Rightarrow A I B=D J B=120^{\\circ})% (vì %(I J B=60^{\\circ})% )<br>Mà %(B I D=60^{\\circ} \\Rightarrow D I B=D I A=E I A=60^{\\circ})%.<br>Từ đó suy ra IA là phân giác của %(D I E)%.",
+        "question_type": "essay"
+    }
+]

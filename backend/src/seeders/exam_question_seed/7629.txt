@@ -1,0 +1,82 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Cho hàm số %(f(x)=a x^{2}+b x+c)%, biết %(a+c=0)%. Chứng minh rằng %(f(1) \\cdot f(1) \\leq 0)%.",
+        "question_images": [],
+        "solution": "Ta có %(f(1)=a+b+c, f(-1)=a-b+c)%. suy ra %(f(1)+f(-1)=2(a+c)=0)%<br>Do đó %(\\mathrm{f}(1))% và %(\\mathrm{f}(-1))% là hai số đối nhau, suy ra %(f(1) \\cdot f(-1) \\leq 0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm các số %(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})% biết rằng %(\\frac{x}{3}=\\frac{y}{4} \\frac{y}{5}=\\frac{z}{7})% và %(2 x+3 y-z=-186)%",
+        "question_images": [],
+        "solution": "Từ giả thiết và theo %(\\mathrm{t} / \\mathrm{c})% của dãy tỷ số bằng nhau, ta có :<br>\\[\\frac{x}{15}=\\frac{y}{20}=\\frac{z}{28}=\\frac{2 x+3 y \\quad z}{30+60-28}=\\frac{186}{62}=-3\\]<br>Do đó %(\\mathrm{x}=-45, \\mathrm{y}=-60, \\mathrm{z}=-84)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Với giá trị nguyên nào của %(x)% thì biểu thức %(A-\\frac{14-x}{4-x})% có giá trị lớn nhất?",
+        "question_images": [],
+        "solution": "Biến đổi %(A=1+\\frac{10}{4-x}, \\mathrm{~A})% lớn nhất khi và chỉ khi %(\\frac{10}{4-x})% lớn nhất.<br>- Nếu %(x\\gt 4)% thì %(\\frac{10}{4-}\\lt 0\\ (1))%<br>- Nếu %(\\mathrm{x}\\lt 4)% thì %(\\frac{10}{4}>0)%. Phân số %(\\frac{10}{4})% có tử và mẫu đều dương, tử không đổi nên có GTLN khi mẫu nhỏ nhất.<br>Mẫu số %(4-\\mathrm{x})% là số nguyên dương, nhỏ nhất khi %(4-\\mathrm{x}=1)%<br>suy ra %(\\mathrm{x}=3)%.Khi đó %(\\frac{10}{4-x}=10)% (2)<br>Từ (1) và (2) ta thấy %(\\frac{10}{4-x})% lớn nhất bằng 10.<br>Vậy GTLN của %(\\mathrm{A}=11)% khi %(\\mathrm{x}=3)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "So sánh biểu thức %(\\mathrm{P})% với %(\\frac{1}{2})%, biết<br>\\[P=\\frac{3}{1!+2!+3!}+\\frac{4}{2!+3!+4!}+\\cdots+\\frac{2017}{2015!+2016!+2017!} \\quad(\\text { với } n!=1.2 .3 \\ldots \\mathrm{n})\\]",
+        "question_images": [],
+        "solution": "Ta có %(\\frac{n+2}{n!+(n+1)!+(n+2)!}=\\frac{1}{(n+1)!}-\\frac{1}{(n+2)!})%.<br>Áp dụng với %(\\mathrm{n}=1,2, . ., 2015)%, ta được<br>\\[P=\\left(\\frac{1}{2!}-\\frac{1}{3!}\\right)+\\left(\\frac{1}{3!}-\\frac{1}{4!}\\right)+\\cdots+\\left(\\frac{1}{2016!}-\\frac{1}{2017!}\\right)=\\frac{1}{2!}-\\frac{1}{2017!}\\lt \\frac{1}{2}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng số %(\\sqrt{2017})% là số vô tỉ.",
+        "question_images": [],
+        "solution": "Giả sử %(\\sqrt{2017})% là số hữu tỉ, đặt %(\\sqrt{2017}=\\frac{m}{n})% với %(m, n \\in N *,(m, n)=1)%<br>Ta có %(\\frac{m^{2}}{n^{2}}=2017 \\Rightarrow m^{2}=2017 n^{2} \\Rightarrow m \\vdots 2017)%.<br>Suy ra %(\\mathrm{m}=2017 \\mathrm{k})%( %(\\mathrm{k})% là số tự nhiên)<br>Suy ra %(n^{2}=2017 k^{2} \\Rightarrow n \\vdots 2017)%.<br>Do đó %((\\mathrm{m}, \\mathrm{n})=10)% ( trái với giả thiết)<br>Vậy %(\\sqrt{2017})% là số hữu tỉ",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các số nguyên dương thoả mãn %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=2)%.",
+        "question_images": [],
+        "solution": "Nếu %(x \\geq 3, y \\geq 3, z \\geq 3 \\Rightarrow \\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z} \\leq 1\\lt 2)%<br>Vậy trong 3 số %(x, y, z)% phải có ít nhất một số nhỏ hơn 3.<br>Gọi %(x \\leq y, x \\leq z \\Rightarrow x\\lt 3 \\Rightarrow x=1 ; x=2)%<br>Nếu %(\\mathrm{x}=1)% suy ra %(\\mathrm{y}=\\mathrm{z}=2)%<br>Nếu %(x=2)% suy ra %(y=2, z=2)% ( Loại)<br>Vậy %((x, y, z)=(1,2,2),(2,1,2),(2,2,1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.5,
+        "content": "Cho tam giác %(\\mathrm{ABC})% cân tại %(\\mathrm{A}, \\widehat{B A C}=140^{\\circ})%. Trên nửa mặt phẳng bờ %(\\mathrm{BC})% chứa điểm %(\\mathrm{A})%, kẻ tia %(\\mathrm{Cx})% sao cho %(\\widehat{\\mathrm{AC} x}=110^{\\circ})%. Gọi %(\\mathrm{D})% là giao điểm của các tia %(\\mathrm{Cx})% và %(\\mathrm{BA})%. Chứng minh rằng %(\\mathrm{AD}=\\mathrm{BC})%.",
+        "question_images": [],
+        "solution": "-Kẻ %(C E)% vuông góc với %(C D)%, đặt %(\\mathrm{CE}=\\mathrm{a})% thì %(\\mathrm{ED}=2 \\mathrm{a})%<br>-Trên BC lấy %(\\mathrm{M}, \\mathrm{N})% sao cho %(\\widehat{B A N}=40^{n}, \\widehat{C A M}=40^{n})%<br>-Ta có %(\\widehat{MAN}=60^{\\circ}, \\widehat{CAE}=40^{\\circ})%%(-\\triangle N A B=\\triangle M A C=\\triangle E A C()% g.c.g %() \\Rightarrow N B=M C=E C=a)%<br>-Tam giác MAN đều. Đặt %(\\mathrm{AM}=\\mathrm{MN}=\\mathrm{b})% thì %(\\mathrm{AE}=\\mathrm{b})%.<br>Do đó %(\\mathrm{AD}=\\mathrm{b}+2 \\mathrm{a})% %(\\mathrm{BC}=\\mathrm{b}+2 \\mathrm{a})%<br>Vậy %(\\mathrm{BC}=\\mathrm{AD})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1f5647142636d2dae42a55f66e7eee6d.png\" srcset=\"https://docdn.giainhanh.io/media/test/e95a5f1f0623f99e07ce3760e0755140.png 245w, https://docdn.giainhanh.io/media/test/994ad18c494a8e53172f2ec9064c7457.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 0.5,
+        "content": "Cho %(\\mathrm{p})% và %(\\mathrm{q})% là hai số nguyên tố lớn hơn 3 và thoả mãn %(\\mathrm{p}=\\mathrm{q}+2)%. Tìm số dư khi chia %(\\mathrm{p}+\\mathrm{q})% cho 12 .",
+        "question_images": [],
+        "solution": "Vì q là số nguyên tố lớn hơn 3 nên %(\\mathrm{q})% có dạng %(3 \\mathrm{k}+1)% hoặc %(3 \\mathrm{k}+2)% với %(\\mathrm{k})%là STN. Nếu %(\\mathrm{q}=3 \\mathrm{k}+1)% thì %(\\mathrm{p}=3 \\mathrm{k}+3)% (loại)<br>Nếu %(q=3 k+2)% thì %(p=3 k+4)%, vì %(q)% là %(S N T\\gt 3)% nên %(k)% lẻ.<br>ta có %(p+q=6(k+1))%, chia hết cho 12 vì %(\\mathrm{k}+1)% chẵn.<br>Vậy số dư khi chia %(\\mathrm{p}+\\mathrm{q})% cho 12 bằng 0 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 0.5,
+        "content": "Cho A là một tập hợp gồm 10 chữ số, %(A=\\{0 ; 1 ; 2 ; 3 ; \\ldots ; 9\\})%. B là một tập con của %(\\mathrm{A})% gồm 5 phần tử. Chứng minh rằng trong tập hợp các số có dạng %(\\mathrm{x}+\\mathrm{y})%, với %(\\mathrm{x}, \\mathrm{y})% là hai phần tử phân biệt thuộc %(B)%, có ít nhất 2 số có cùng chữ số hàng đơn vị.",
+        "question_images": [],
+        "solution": "Giả sử trong các số có dạng %(\\mathrm{x}+\\mathrm{y})%, với %(\\mathrm{x}, \\mathrm{y})% là hai phần tử phân biệt thuộc %(\\mathrm{B})%, không tồn tại 2 số có cùng chữ số hang đơn vị. Khi đó các tổng này đều khác nhau.<br>Giả sử %(B=\\left\\{a_{1} ; a_{2} ; a_{3} ; a_{4} ; a_{5}\\right\\})%. Gọi %(\\mathrm{C})% là tập hợp các số có dạng %(\\mathrm{x}+\\mathrm{y})%, với %(\\mathrm{x}, \\mathrm{y})% là hai phần tử phân biệt thuộc %(\\mathrm{B})%.<br>Ta có %(C=\\left\\{a_{1}+a_{2} ; a_{1}+a_{3} ; \\ldots ; a_{4}+a_{5}\\right\\})%. Ta thấy %(C)% có 10 phần tử và tổng các phần tử là %(4\\left(a_{1}+a_{2}+\\cdots+a_{5}\\right))%, là một số chẵn. Mặt khác, 10 số trong %(\\mathrm{C})% đều có chữ số hang đơn vị khác nhau nên các chữ số hàng đơn vị này là 10 chữ số khác nhau %(0,1,2, \\ldots, 9)%. Mà %(1+2+\\ldots+9=45)% là số lẻ (vô lý) suy ra điều phải chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "10 ",
+        "point": 0.5,
+        "content": "Với mỗi số nguyên dương a, kí hiệu %(\\mathrm{S}(\\mathrm{a}))% là số chữ số của %(a)%. Tìm số nguyên dương n để %(S\\left(5^{n}\\right)-S\\left(2^{n}\\right))% là số chẵn.",
+        "question_images": [],
+        "solution": "Giả sử %(2^{n})% có a chữ số, %(5^{n})% có b chữ số. Vì %(2^{n} v a ̀ ~ 5^{n})% đều không thể tận cùng bằng chữ số 0 , nên %(10^{x-1}\\lt 2^{n}\\lt 10^{n})% và<br>\\[10^{b-1}\\lt 5^{n}\\lt 10^{b}\\]<br>Suy ra %(10^{a+b-2}\\lt 10\\lt 10^{a+b})%, do đó %(\\mathrm{a}+\\mathrm{b}-2\\lt \\mathrm{n}\\lt \\mathrm{a}+\\mathrm{b})%.<br>Vậy n=a %(+\\mathrm{b}-1)%, mặt khác %(\\mathrm{a}-\\mathrm{b})% và %(\\mathrm{a}+\\mathrm{b})% là hai số cùng tính chẵ lẻ, nên %(\\mathrm{a}-\\mathrm{b})% chẵn khi %(\\mathrm{a}+\\mathrm{b})% chẵn. Khi đó n là số lẻ.",
+        "question_type": "essay"
+    }
+]

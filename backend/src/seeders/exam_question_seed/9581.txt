@@ -1,0 +1,135 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(P=\\left[\\frac{(x-1)^{2}}{x^{2}+x+1}-\\frac{1+4 x-2 x^{2}}{x^{3}-1}+\\frac{1}{x-1}\\right]: \\frac{x^{3}+4 x}{4 x^{2}})%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Rút gọn biểu thức P",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}P=\\left[\\frac{(x-1)^{2}}{x^{2}+x+1}-\\frac{1+4 x-2 x^{2}}{x^{3}-1}+\\frac{1}{x-1}\\right]: \\frac{x^{3}+4 x}{4 x^{2}}(x \\neq 0 ; x \\neq 1) \\\\ =\\frac{(x-1)^{3}-1-4 x+2 x^{2}+x^{2}+x+1}{(x-1)\\left(x^{2}+x+1\\right)} \\cdot \\frac{4 x^{2}}{x\\left(x^{2}+4\\right)} \\\\ =\\frac{x^{3}-3 x^{2}+3 x-1-1-4 x+2 x^{2}+x^{2}+x+1}{(x-1)\\left(x^{2}+x+1\\right)} \\cdot \\frac{4 x^{2}}{x\\left(x^{2}+4\\right)} \\\\ =\\frac{x^{3}-1}{x^{3}-1} \\cdot \\frac{4 x}{x^{2}+4}=\\frac{4 x}{x^{2}+4}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Tìm giá trị của biểu thức %(P)% biết %(|x-2|-3=0)%",
+        "question_images": [],
+        "solution": "%(|x-2|-3=0 \\Leftrightarrow\\left[\\begin{array}{l}x-2=3 \\\\ 2-x=3\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=5(\\mathrm{tm}) \\Rightarrow A=\\frac{4.5}{5^{2}+4}=\\frac{20}{29} \\\\ x=-1(\\mathrm{tm}) \\Rightarrow A=\\frac{4 \\cdot(-1)}{(-1)^{2}+4}=\\frac{-4}{5}\\end{array}\\right.\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Tìm giá trị của %(x)% để biểu thức P đạt giá trị lớn nhất",
+        "question_images": [],
+        "solution": "\\[P=\\frac{4 x}{x^{2}+4}=\\frac{x^{2}+4-\\left(x^{2}-4 x+4\\right)}{x^{2}+4}=1-\\frac{(x-1)^{2}}{x^{2}+4} \\leq 1\\]<br>Vậy %(\\max P=1 \\Leftrightarrow x=1(\\mathrm{ktm}))%<br>Vậy P không có giá trị lớn nhất",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Phân tích các đa thức thành nhân tử :",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) %(x^{3}-7 x+6)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text {} x^{3}-7 x+6=x^{3}-x-6 x+6=x(x-1)(x+1)-6(x-1) \\\\ =(x-1)\\left(x^{2}+x-6\\right)=(x-1)\\left[\\left(x^{2}+3 x\\right)-(2 x+6)\\right]=(x-1)(x+3)(x-2)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) %(a^{3}+b^{3}+c^{3}-3 a b c)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text {} a^{3}+b^{3}+c^{3}-3 a b c=(a+b)^{3}+c^{3}-3 a b(a+b)-3 a b c \\\\ =(a+b+c)\\left[(a+b)^{2}-(a+b) c+c^{2}\\right]-3 a b(a+b+c) \\\\ =(a+b+c)\\left(a^{2}+b^{2}+2 a b-a c-b c+c^{2}-3 a b\\right) \\\\ =(a+b+c)\\left(a^{2}+b^{2}+c^{2}-a c-b c-a b\\right)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Xác định đa thức %(f(x))% biết %(f(x))% chia cho %(x-1)% dư 4 và chia cho %(x^{2}+x-2)% được thương là %(5 x^{2})%",
+        "question_images": [],
+        "solution": "Gọi %(A(x), B(x))% là các đa thức sao cho %(f(x)=(x-1) A(x)+4, f(x)=(x+2) B(x)+1)%<br>Khi đó %(\\left\\{\\begin{array}{l}(x+2) f(x)=(x+2)(x-1) A(x)+4(x+2) \\\\ (x-1) f(x)=(x-1)(x+2) B(x)+1(x-1)\\end{array}\\right.)%<br>\\[\\begin{array}{l}\\Rightarrow(x+2) f(x)=(x+2)(x-1)[A(x)-B(x)]+3 x+9 \\\\Leftrightarrow 3 f(x)=(x+2)(x-1)[A(x)-B(x)]+3 x+9 \\\\Leftrightarrow f(x)=(x-1)(x+2) \\frac{A(x)-B(x)}{3}+(x+3)(*)\\end{array}\\]<br>Theo bài ra khi chia %(f(x))% cho %(x^{2}+x-2=(x-1)(x+2))% ta được thương là %(5 x^{2})% nên %(\\frac{A(x)-B(x)}{3}=5 x)%.<br>Khi đó %((*))% trở thành : %(f(x)=(x-1)(x+2) .5 x^{2}+x+3)%<br>Vậy %(f(x)=5 x^{2}(x-1)(x+2)+x+3)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.75,
+        "content": "Tìm số tự nhiên %(k)% để %(2^{k}+2^{4}+2^{7})% là số chính phương",
+        "question_images": [],
+        "solution": "Gọi %(a \\in \\mathbb{N})% sao cho %(2^{k}+2^{4}+2^{7}=a^{2} \\Leftrightarrow 2^{k}+16+128=a^{2})%<br>\\[\\Leftrightarrow a^{2}-144=2^{k} \\Leftrightarrow(a-12)(a+12)=2^{k}\\]<br>Đặt %(a-12=2^{m}, a+12=2^{n}(m\\lt n))% và %(m+n=k)%<br>\\[\\begin{array}{l}\\Rightarrow 2^{n}-2^{m}=a+12-(a-12)=24 \\\\Rightarrow 2^{n}-2^{m}=8.3 \\Leftrightarrow 2^{m}\\left(2^{n-m}-1\\right)=2^{3} \\cdot 3 \\\\Rightarrow\\left\\{\\begin{array} { l } { m = 3 } \\\\{ 2 ^ { n - m } - 1 = 3 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { m = 3 } \\\\{ n - m = 2 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}m=3 \\n=5\\end{array}\\right.\\right.\\right.\\end{array}\\]<br>Do đó %(k=n+m=5+3=8)%<br>Vậy với %(k=8)% thì %(2^{k}+2^{4}+2^{7})% là một số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Tìm nghiệm nguyên của phương trình %(y^{2}=1+x+x^{2}+x^{3}+x^{4})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}y^{2}=1+x+x^{2}+x^{3}+x^{4} \\Leftrightarrow 4 y^{2}=4 x^{4}+4 x^{3}+4 x^{2}+4 x+4\\left(^{*}\\right) \\\\Leftrightarrow 4 y^{2}=\\left(4 x^{4}+4 x^{3}+x^{2}\\right)+3 x^{2}+4 x+4 \\\\Leftrightarrow 4 y^{2}=\\left(2 x^{2}+x\\right)^{2}+3 x^{2}+4 x+4 \\Leftrightarrow 4 y^{2}=\\left(2 x^{2}+x\\right)^{2}+2\\left(2 x^{2}+x\\right) \\cdot 2+4-x^{2} \\\\=\\left(2 x^{2}+x+2\\right)-x^{2} \\Rightarrow\\left(2 x^{2}+x\\right)^{2}\\lt 4 y^{2} \\leq\\left(2 x^{2}+x+2\\right)^{2}\\end{array}\\]<br>(Do %(3 x^{2}+4 x+4=3\\left(x^{2}+\\frac{4}{5} x+\\frac{4}{9}\\right)^{2}\\gt 0(\\forall x))%<br>Do %(\\left(2 x^{2}+x\\right)^{2})% và %(\\left(2 x^{2}+x+2\\right)^{2})% là số chính phương<br>Nên %(\\left[\\begin{array}{l}2 y=2 x^{2}+x+1 \\\\ 2 y=2 x^{2}+x+2\\end{array}\\right.)%<br>Với %(2 y=2 x^{2}+x+1)% thay vào %((*))% ta được :<br>\\[\\begin{array}{l}\\left(2 x^{2}+x+1\\right)^{2}=4 x^{4}+4 x^{3}+4 x^{2}+4 x+4 \\\\Leftrightarrow 4 x^{4}+x^{2}+1+4 x^{3}+4 x^{2}+2 x=4 x^{4}+4 x^{3}+4 x^{2}+4 x+4 \\\\Leftrightarrow x^{2}-2 x-3=0 \\Leftrightarrow x^{2}-2 x+1=4 \\Leftrightarrow(x-1)^{2}=4 \\\\Leftrightarrow\\left[\\begin{array} { l } { x - 1 = 2 } \\\\{ x - 1 = - 2 }\\end{array} \\Leftrightarrow \\left[\\begin{array} { l } { x = 3 } \\\\{ x = - 1 }\\end{array} \\Leftrightarrow \\left[\\begin{array} { l } { 2 y = 2 2 } \\\\{ 2 y = 2 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}y=11 \\y=1\\end{array}\\right.\\right.\\right.\\right.\\end{array}\\]<br>Với %(2 y=2 x^{2}+x+2)%, thay vào ( %(\\left.{ }^{*}\\right))% ta được :<br>\\[\\begin{array}{l}\\left(2 x^{2}+x+2\\right)=4 x^{4}+4 x^{3}+4 x^{2}+4 x+4 \\\\Leftrightarrow 4 x^{4}+4 x^{3}+4 x^{2}+8 x^{2}+x^{2}+4+4 x=4 x^{4}+4 x^{3}+4 x^{2}+4 x+4 \\\\Leftrightarrow 5 x^{2}=0 \\Rightarrow x=0 \\Rightarrow y=1\\end{array}\\]<br>Vậy %((x ; y) \\in\\{(0 ; 1) ;(-1 ; 1) ;(3 ; 11)\\})% thỏa mãn yêu cầu bài toán",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.75,
+        "content": "Giải phương trình %(\\left(\\frac{x+3}{x-2}\\right)^{2}+6\\left(\\frac{x-3}{x+2}\\right)^{2}-\\frac{7\\left(x^{2}-9\\right)}{x^{2}-4}=0)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\left(\\frac{x+3}{x-2}\\right)^{2}+6\\left(\\frac{x-3}{x+2}\\right)^{2}-\\frac{7\\left(x^{2}-9\\right)}{x^{2}-4}=0(x \\neq \\pm 2) \\\\Leftrightarrow\\left(\\frac{x+3}{x-2}\\right)^{2}+\\frac{(x-3)(x+3)}{(x-2)(x+2)}-\\frac{6(x-3)(x+3)}{(x-2)(x+2)}+6\\left(\\frac{x-3}{x+2}\\right)^{2}=0 \\\\Leftrightarrow \\frac{x+3}{x-2}\\left(\\frac{x+3}{x-2}-\\frac{x+3}{x+2}\\right)-6 \\frac{x+3}{x-2}\\left(\\frac{x+3}{x-2}-\\frac{x+3}{x+2}\\right)=0 \\\\Leftrightarrow\\left(\\frac{x+3}{x-2}-\\frac{x-3}{x+2}\\right)\\left(\\frac{x+3}{x-2}-\\frac{6(x-3)}{x+2}\\right)=0 \\\\Leftrightarrow\\left(\\frac{x^{2}+5 x+6-x^{2}+5 x-6}{(x-2)(x+2)}\\right) \\cdot\\left(\\frac{x^{2}+5 x+6-6 x+18}{(x-2)(x+2)}\\right)=0 \\\\Leftrightarrow \\frac{10 x}{(x-2)(x+2)} \\cdot \\frac{x^{2}-x+24}{(x-2)(x+2)}=0 \\Leftrightarrow\\left[\\begin{array} { l } { \\frac { 1 0 x } { ( x - 2 ) ( x + 2 ) } = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=0(\\text { tmdk }) \\x^{2}+x+24=0(k t m)\\end{array}\\right.\\right.\\end{array}\\]<br>Vậy phương trình có tập nghiệm %(S=\\{0\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác đều %(A B C)%. Gọi O là trung điểm của %(B C)%. Trên cạnh %(A B)% và %(A C)% lần lượt lấy các điểm di động %(M)% và N sao cho %(\\angle M O N=60^{\\circ})%. Chứng minh rằng :",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) %(\\triangle O B M \\sim \\triangle O N C)% từ đó suy ra tích %(B M . C N)% không đổi",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\triangle A B C \\text { đều } \\Leftrightarrow \\angle A B C=\\angle B A C=\\angle A C B=60^{\\circ} \\\\ \\text { Lai có } \\angle M O N+\\angle M O B+\\angle N O C=180^{\\circ} \\Rightarrow \\angle M O N+\\angle N O C=120^{\\circ} \\\\ \\text { Mà } \\angle M O B+\\angle O M B=180^{\\circ}-60^{\\circ}=120^{\\circ} \\Leftrightarrow \\angle N O C=\\angle O M B \\\\ \\text { Xét } \\triangle O B M \\text { và } \\triangle O N C \\text { có : } \\angle N O C=\\angle O M B=60^{\\circ}, \\angle O M B=\\angle N O C(c m t) \\\\ \\Rightarrow \\triangle O B M \\sim \\triangle O N C(g \\cdot g) \\Rightarrow \\frac{B M}{O C}=\\frac{O B}{N C} \\\\ \\Rightarrow B M \\cdot C N=O B \\cdot O C=\\frac{1}{2} B C \\cdot \\frac{1}{2} B C=\\frac{B C^{2}}{4} \\text { (không đổi) }\\end{array})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/42eb9936fab7e5b691fbaacc6378be5f.png\" srcset=\"https://docdn.giainhanh.io/media/test/321d6c40d7c0f1d7611c308e70971d85.png 245w, https://docdn.giainhanh.io/media/test/3f3d07d0fb44a8846caa53ce54c81257.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Các tia %(M O, N O)% lần lượt là tia phân giác của %(\\angle B M N, \\angle C N M)%",
+        "question_images": [],
+        "solution": "Do %(\\triangle O B M \\sim \\triangle O N C(c m t) \\Rightarrow \\frac{B M}{O C}=\\frac{O B}{N C} \\Rightarrow \\frac{B M}{O M}=\\frac{O C}{O N}=\\frac{O B}{O N})% (O là trung điểm BC )<br>Xét %(\\triangle M B O)% và %(\\triangle M O N)% có:<br>%(\\angle M B O=\\angle M O N=60^{\\circ}, \\frac{B M}{O M}=\\frac{O C}{O N}(c m t))%.<br>Do đó %(\\triangle M B O \\sim \\triangle M O N()% c.g.c)<br>%(\\Rightarrow \\angle B M C=\\angle O M C)% (hai góc tương ứng)<br>Hay %(M O)% là đường phân giác của %(\\angle B M N)%<br>*Chứng minh %(O N)% là phân giác của %(\\angle C M N)% tương tự",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) Chu vi tam giác %(A M N)% không đổi",
+        "question_images": [],
+        "solution": "Kẻ %(O H \\perp A B(H \\in A B), O K \\perp A C(K \\in A C), O I \\perp M N(I \\in M N))%<br>Do O nằm trên tia phân giác của %(\\angle B M N, \\angle M N C)%<br>\\[\\Rightarrow O H=O I=O K, M H=M I(\\Delta M H O=\\triangle M I O), N K=N I(\\Delta N K O=\\Delta N I O)\\]<br>Có :<br>\\[\\begin{array}{l}C_{A M N}=A M+A N+M N=A M+A N+M I+I N \\\\=A M+A N+M H+N K(D o A H=A K)\\end{array}\\]<br>Chu vi %(\\triangle A M N)% không đổi do AH không đổi",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 0.5,
+        "content": "Cho %(a, b)% là các số không âm. Chứng minh rằng %(a+b \\geq 2 \\sqrt{a b})%",
+        "question_images": [],
+        "solution": "Ta có %(a+b \\geq 2 \\sqrt{a b} \\Leftrightarrow(a+b)^{2} \\geq 4 a b(a ; b \\geq 2))%<br>%(\\Leftrightarrow a^{2}-2 a b+b^{2} \\geq 0 \\Leftrightarrow(a-b)^{2} \\geq 0)% (luôn đúng)<br>Vậy %(a+b \\geq 2 \\sqrt{a b})% nếu %(a, b \\geq 0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 0.5,
+        "content": "Cho các số %(x, y)% thỏa mãn %(x\\gt y \\geq 0)%. Chứng minh rằng : %(x+\\frac{4}{(x-y)(y+1)} \\geq 3)%",
+        "question_images": [],
+        "solution": "\\[x+\\frac{4}{(x-y)(y+1)} \\geq 3\\]<br>Do %(x\\gt y \\geq 0 \\Rightarrow\\left\\{\\begin{array}{l}x-y>0 \\\\ y+1>0\\end{array}\\right.)%<br>Đặt %(A=x+\\frac{4}{(x-y)(y+1)^{2}} \\Leftrightarrow A=(x-y)+\\frac{4}{(x-y)(y+1)^{2}}+(y+1)-1)%<br>\\[\\Rightarrow A \\geq 2 \\sqrt{(x-y) \\cdot \\frac{4}{(x-y)(y+1)^{2}}}+(y+1)-1\\]<br>Dấu bằng xảy ra %(\\Leftrightarrow\\left\\{\\begin{array}{l}(x-y)^{2}(y+1)^{2}=4 \\\\ (y+1)^{2}=4\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=2 \\\\ y=1\\end{array}(\\right.\\right.)% do %(x>y \\geq 0))%<br>Vậy %(x+\\frac{4}{(x-y)(y+1)^{2}} \\geq 3)% với mọi %(x>y \\geq 0)%<br>Dấu bằng xảy ra tại %(x=2, y=1)%",
+        "question_type": "essay"
+    }
+]

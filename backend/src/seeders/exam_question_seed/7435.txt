@@ -1,0 +1,134 @@
+[
+    {
+        "title": "1.1 ",
+        "point": 1.0,
+        "content": "Rút gọn biểu thức %(A=(\\sqrt{x-4}+1) \\sqrt{x-3-2 \\sqrt{x-4}})% với %(x \\geq 5)%",
+        "question_images": [],
+        "solution": "Với %(x \\geq 5)% ta có:<br>\\[\\begin{array}{r}A=(\\sqrt{x-4}+1) \\sqrt{x-3-2 \\sqrt{x-4}} \\\\=(\\sqrt{x-4}+1) \\sqrt{(\\sqrt{x-4}-1)^{2}} \\\\=(\\sqrt{x-4}+1)(\\sqrt{x-4}-1) \\\\=x-4-1 \\\\=x-5\\end{array}\\]<br>Vậy: %(A=x-5)% với %(x \\geq 5)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.2 ",
+        "point": 1.0,
+        "content": "Cho ba số thực dương %(a, b, c)% thỏa mãn %(a+b+c=3)%. Tìm giá trị lớn nhất của biểu thức:<br>\\[P=\\sqrt{3 a+b c}+\\sqrt{3 b+c a}+\\sqrt{3 c+a b}\\]",
+        "question_images": [],
+        "solution": "Vì %(a+b+c=3)% nên ta có:<br>+) %(\\sqrt{3 a+b c}=\\sqrt{(a+b+c) a+b c}=\\sqrt{a^{2}+a b+b c+c a}=\\sqrt{(a+b)(a+c)})%<br>+) %(\\sqrt{(a+b)(a+c)} \\stackrel{\\text { AM-iM }}{\\leq} \\frac{a+b+a+c}{2})%<br>Tương tự %(\\sqrt{3 b+c a} \\stackrel{\\text { AM-GM }}{\\leq} \\frac{b+a+b+c}{2})% và %(\\sqrt{3 c+a b} \\stackrel{\\text { AM-GM }}{\\leq} \\frac{c+b+c+a}{2})%<br>Do đó %(P \\leq 2(a+b+c)=6)%, dấu bằng xảy ra khi và chỉ khi %(a=b=c=1)%<br>Vậy giá trị lớn nhất của %(P)% là 6 đat được khi %(a=b=c=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.1",
+        "group_content": "Cho phương trình %(\\sqrt{3 x^{2}-2 x+m-4}=\\sqrt{6 x})% (1), với %(\\mathrm{m})% là tham số.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Giải phương trình (1) khi %(m=-7)%.",
+        "question_images": [],
+        "solution": "1. a) ĐKXĐ: %(\\left\\{\\begin{array}{l}x \\geq 0 \\\\ x^{2}-2 x+m-4 \\geq 0\\end{array}\\right.)%<br>Thay %(m=-7)% vào phương trình (1) ta được:<br>\\[\\begin{array}{l}\\sqrt{3 x^{2}-2 x+7-4}=\\sqrt{6 x} \\\\Leftrightarrow 3 x^{2}-2 x-11=6 x \\\\Leftrightarrow 3 x^{2}-8 x-11=0 \\\\Leftrightarrow(x+1)(3 x-11)=0\\end{array}\\]<br>\\[\\begin{array}{l}\\Leftrightarrow\\left[\\begin{array}{l}x+1=0 \\\\3 x-11=0\\end{array}\\right. \\\\Leftrightarrow\\left[\\begin{array}{l}x=-1(\\mathrm{kt} / \\mathrm{m}) \\x=\\frac{11}{3}(\\mathrm{t} / \\mathrm{m})\\end{array}\\right.\\end{array}\\]<br>Vậy tại %(m=-7)% thì %(x=\\frac{11}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm tất cả các giá trị của %(\\mathrm{m})% để phương trình (1) có hai nghiệm phân biệt.",
+        "question_images": [],
+        "solution": "Ta có phương trình %((1) \\Leftrightarrow 3 x^{2}-2 x+m-4=6 x \\Leftrightarrow 3 x^{2}-8 x+m-4=0)%Phương trình (1) có 2 nghiệm phân biệt %(\\Leftrightarrow)% phương trình (2) có 2 nghiệm không âm phân biệt.<br>Xét phương trình (2) có %(\\Delta=(-8)^{2}-4.3 .(m-4)=28-3 m\\gt 0)%Hay %(m\\lt \\frac{28}{3})%<br>Do phương trình (2) có 2 nghiệm phân biệt %(x_{1}, x_{2} \\geq 0)% nên %(x_{1} x_{2} \\geq 0)% và %(x_{1}+x_{2} \\geq 0)%<br>Theo định li Vi-ét ta có %(x_{1} x_{2}=\\frac{m-4}{3})% và %(x_{1}+x_{2}=8 / 3 \\geq 0)%<br>Suy ra %(m \\geq 4)%<br>Vậy để phương trình (1) có 2 nghiệm phân biệt thì %(4 \\leq m\\lt \\frac{28}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.2 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình : %(\\left\\{\\begin{array}{l}x^{2}+y^{2}=x(2 y+1)-y \\\\ \\sqrt{2 x+y}=x+2 y\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Điều kiện xác định %(2 x+y \\geq 0, x+2 y \\geq 0)%<br>Ta có hệ phương trình %(\\left\\{\\begin{array}{l}x^{2}+y^{2}=x(2 y+1)-y(1) \\\\ \\sqrt{2 x+y}=x+2 y(2)\\end{array}\\right.)%<br>Với phương trình (1) ta có:<br>\\[\\begin{array}{l}x^{2}+y^{2}=2 x y+x-y \\\\Leftrightarrow x^{2}+y^{2}-2 x y-x+y=0 \\\\Leftrightarrow(x-y)^{2}-(x-y)=0 \\\\Leftrightarrow(x-y)(x-y-1)=0 \\\\Leftrightarrow\\left[\\begin{array}{c}x=y \\x=1+y\\end{array}\\right. \\\\end{array}\\]<br>Xét phương trình (2)<br>+ ) Truờng hơp %(1: x=y)%<br>Thay vào phương trình (2) ta được:<br>\\[\\begin{array}{r}\\sqrt{3 y}=3 y \\Leftrightarrow \\sqrt{3 y}(\\sqrt{3 y}-1)=0 \\\\Leftrightarrow\\left[\\begin{array} { c } { \\sqrt { 3 y } = 0 } \\\\{ \\sqrt { 3 y } - 1 = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array} { l } { 3 y = 0 } \\\\{ \\sqrt { 3 y } = 1 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}y=0 \\y=\\frac{1}{3}\\end{array}\\right.\\right.\\right.\\end{array}\\]<br>+) Trường hợp %(2: x=1+y)%<br>Thay vào phương trình (2) ta được:<br>\\[\\begin{array}{lr} & \\sqrt{2(y+1)+y}=1+3 y \\\\Leftrightarrow & \\sqrt{3 y+2}=1+3 y \\\\Rightarrow & 3 y+2=(1+3 y)^{2} \\\\Leftrightarrow & 3 y+2=1+6 y+9 y^{2} \\\\Leftrightarrow & 9 y^{2}+3 y-1=0\\end{array}\\]<br>Ta có %(\\Delta=b^{2}-4 a c=3^{2}-4.9 .(-1)=45\\gt 0)%<br>Do đó phương trình (2) có 2 nghiệm %(y)% phân biệt %(y_{1}, y_{2})% :<br>\\[y_{1}=\\frac{-3+\\sqrt{45}}{18}=\\frac{-1+\\sqrt{5}}{6}, y_{2}=\\frac{-3-\\sqrt{45}}{18}=\\frac{-1-\\sqrt{5}}{6}\\]<br>Do đó %((x, y) \\in\\left\\{(0,0) ;\\left(\\frac{1}{3}, \\frac{1}{3}\\right) ;\\left(\\frac{5+\\sqrt{5}}{6}, \\frac{-1+\\sqrt{5}}{6}\\right)\\right\\})%<br>Vì cặp %((x, y)=\\left(\\frac{5-\\sqrt{5}}{6} ; \\frac{-1-\\sqrt{5}}{6}\\right))% không thỏa mãn.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho tam giác nhọn %(A B C)% có %(A B\\lt A C)%. Gọi %((O))% là đường tròn ngoại tiếp tam giác %(A B C)%. Đường thẳng %(A O)% cắt %(B)% tại %(E)%. Trên đoạn %(A O)% lấy điểm %(D)% sao cho %(O D=O E)%. Đường thẳng qua %(D)%, vuông góc với %(B C)% cắt %(B C, A C, A B)% lần lượt tại %(X, Y, Z)%. Đường tròn ngoại tiếp tam giác %(A Y Z)% cắt lại %((O))% tại điểm %(T \\neq A)%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Tam giác %(O X E)% là tam giác cân.",
+        "question_images": [],
+        "solution": "Xét %(\\triangle X D E)% vuông tại %(X)%, có trung tuyến %(X O)% nên %(X O=O E=O D)% %(\\Rightarrow \\triangle O X E)% cân tại %(O)% (đpcm)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/8fbb0610f4b4d02a9c6f6e5eb93f903f.png\" srcset=\"https://docdn.giainhanh.io/media/test/6409b1f7f0c91165fbfb3224e089f0a1.png 187w\" width=\"187\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Bốn điểm %(C, X, Y, T)% cùng thuộc một đường tròn.",
+        "question_images": [],
+        "solution": "Ta có: %(Y T C=A T C-A T Y=180^{\\circ}-(A B X+A Z X)=90^{\\circ})%<br>Xét tứ giác %(X Y T C)%, có: %(Y T C+Y X C=90^{\\circ}+90^{\\circ}=180^{\\circ})%<br>%(\\Rightarrow)% Tứ giác %(X Y T C)% là tứ giác nội tiếp<br>%(\\Rightarrow)% Bốn điểm %(C, X, Y, T)% đồng viên ( Đpcm )",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Hai đoạn %(B X)% và %(C E)% có độ dài bằng nhau.",
+        "question_images": [],
+        "solution": "Ta có %(\\triangle O B C)% và %(\\triangle O E X)% đều cân tại %(O)%<br>Nên: %(O B X=O C E)% và %(O X E=O E X)%<br>Từ đó suy ra: %(X O B=E O C)%.<br>Xét %(\\triangle X O B)% và %(\\triangle E O C)% có %(O B=O C ; O X=O E ; X O B=E O C)%%(\\Rightarrow \\triangle X O B=\\triangle E O C(\\mathrm{c}-\\mathrm{g}-\\mathrm{c}) \\Rightarrow B X=C E(\\mathrm{dpcm}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 1.0,
+        "content": "%(\\mathrm{d}))% Đường thẳng %(A T)% song song với đường thẳng %(B C)%.",
+        "question_images": [],
+        "solution": "Kẻ đường kính %(C F)% của đường tròn %((O))%.<br>Ta có: %(O A C=O C A=90^{\\circ}-A F C=90^{\\circ}-A B C=A Z Y)%%(\\Rightarrow O A)% là tiếp tuyến của đường tròn ngoại tiếp %(\\triangle Z A Y)%<br>Ta lại có: %(T X C=T Y C=180^{\\circ}-T Y A=B Z T )%<br>%(\\Rightarrow )%Tứ giác %(Z T X B)% là tứ giác nội tiếp<br>Khi đó: %(T A E=A Z T=180^{\\circ}-B X T=O X E=O E X)%<br>Mà %(T A E)% và %(O E X)% là hai góc ở vị trí so le trong<br>%(\\Rightarrow A T / / B C)% (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Trong hình chữ nhật %((H))% kích thước %(6 \\mathrm{~cm} \\times 4 \\mathrm{~cm})% cho 5 điêm phân biệt %(A_{1}, A_{2}, A_{3}, A_{4}, A_{5})%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a  ",
+        "point": 0.5,
+        "content": "a) Trong 5 điểm %(A_{1}, A_{2}, A_{3}, A_{4}, A_{5})% luôn tồn tại 3 điểm cùng thuộc một đường tròn bán kính %(2,5 \\mathrm{~cm})%.",
+        "question_images": [],
+        "solution": "Đầu tiên ta chia hình chữ nhật %((H))% thành 2 hình chữ nhật con kích thước %(3 \\mathrm{cmx} 4 \\mathrm{~cm})%. Rō ràng mỗi hình chữ nhật con sẽ nội tiếp đường tròn bán kính %(2,5 \\mathrm{~cm})%.<br>Theo nguyên nguyên lí Dirichlet vì %(5\\gt 2 \\times 2)% nên sẽ tồn tại một hình chữ nhật con chứa 3 điểm trong 5 điểm trên.<br>Từ 2 điều trên suy ra:<br>Trong 5 điểm %(A_{1}, A_{2}, A_{3}, A_{4}, A_{5})% luôn tồn tại 3 điểm cùng thuộc một đường tròn bán kính %(2,5 \\mathrm{~cm})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/30112ca198a55d5d138f1e15c067580e.png\" srcset=\"https://docdn.giainhanh.io/media/test/7992a5b1bf4e1aef8788ddd1489863ac.png 245w, https://docdn.giainhanh.io/media/test/e9b7260099c7c3be8cc027645278aa20.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Tồn tại một đường tròn đường kính %(0.99 \\mathrm{~cm})% nằm trong %((H))% và không có điểm chung với bất kì hình tròn nào trong năm hình tròn tâm %(A_{i})% đường kính %(1 \\mathrm{~cm})% (với %(i=1,2,3,4,5)% )",
+        "question_images": [],
+        "solution": "Ta sẽ chia hình chữ nhật %((H))% thành 6 hình vuông con kích thước %(2 \\mathrm{~cm} \\times 2 \\mathrm{~cm})% như hình sau:<br>Vì có 6 hình vuông và 5 điểm nên tồn tại một hình vuông không chứa điểm %(A_{i})% nào nằm trong hình vuông đó (với %(i=1,2,3,4,5)% ).<br>Giả sử là hình vuông %(\\mathrm{ABCD})%.<br>Trong hình vuông ta gọi đường tròn %((\\mathrm{O}))% là đường tròn có tâm là tâm đường tròn, bán kính %(0.495 \\mathrm{~cm})%.<br>Ta sẽ chứng minh %((O))% là đường tròn cần tìm.<br>Thật vậy, gọi %(\\mathrm{E})% là trung điểm %(\\mathrm{BD})%, đường tròn %((E))% là đường tròn tâm %(\\mathrm{E})%, bán kính %(0.5 \\mathrm{~cm})%.:<br>Xét %(\\mathrm{G})% là điểm bất kì không nằm trong hình vuông %(\\mathrm{ABCD})%.<br>Gọi đường tròn %((G))% là đường tròn tâm %(\\mathrm{G})%, bán kính %(0.5 \\mathrm{~cm})%.<br>Ta có:<br>\\[\\begin{array}{l}O G\\gt O E=1 \\mathrm{~cm} \\R_{O}+R_{G}=R_{O}+R_{E}=0.495+0.5=0.995 \\mathrm{~cm}\\end{array}\\]<br>Suy ra: %((\\mathrm{O}))% và %((\\mathrm{G}))% không giao nhau.<br>Vậy %((\\mathrm{O}))% chính là đường tròn cần tìm.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7f59819682ef501ef37938b85d2ec033.png\" srcset=\"https://docdn.giainhanh.io/media/test/cbca61112b240fc6486ca71b90f95bbf.png 245w, https://docdn.giainhanh.io/media/test/a41e336232efcdf679c74bd8f52be881.png 500w\" width=\"500\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b5556bdeb66e41c9c0ddc73449be5c03.png\" srcset=\"https://docdn.giainhanh.io/media/test/8f88438044c3673747d4272d1b2d04ca.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho 10 số nguyên dương phân biệt %(a_{1}, a_{2}, a_{3}, \\ldots, a_{10})% và %(p)% là một ước nguyên tố bất kì của %(A=a_{1}+2 a_{2}+3 a_{3}+\\ldots+10 a_{10})%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) %(B=10^{p^{2}}-10)% chia hết cho %(p)%.",
+        "question_images": [],
+        "solution": "Ta có %(B=10^{p^{2}}-10=10 \\cdot\\left(10^{p^{2}-1}-1\\right)=10 \\cdot\\left(10^{(p-1)(p+1)}-1\\right))%<br>+) Nếu %(p|10(p \\in \\mathbb{P}) \\Rightarrow p \\in 2,5 \\Rightarrow p| 10^{p^{2}}-10)% hay %(B=10^{p^{2}}-10)% chia hết cho %(\\mathrm{p})%.<br>%(+))% Nếu %(\\operatorname{gcd}(p, 10)=1)% theo định lý nhỏ Fermat:<br>\\[\\begin{aligned}10^{p-1} \\equiv 1(\\bmod p) & \\Rightarrow\\left(10^{p-1}\\right)^{p+1} \\equiv 1(\\bmod p) \\\\& \\Rightarrow 10^{p^{2}-1}-1 \\equiv 0(\\bmod p)\\end{aligned}\\]<br>Vậy %(B=10^{p^{2}}-10)% chia hết cho %(\\mathrm{p} \\forall p \\in \\mathbb{P})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) %(C=a_{1} \\cdot P^{p^{p a 4}}+a_{2} \\cdot 2^{p^{204}}+a_{3} \\cdot 3^{p^{p o 4}}+\\ldots+a_{10} \\cdot 10^{p^{204}})% là hợp số.",
+        "question_images": [],
+        "solution": "Xét %(D=C-A=\\left(a_{1} \\cdot 1^{p^{2024}}+a_{2} \\cdot 2^{p^{2024}}+a_{3} \\cdot 3^{p^{2024}}+\\ldots+a_{10} \\cdot 10^{p^{3224}}\\right)-\\left(a_{1}+2 a_{2}+3 a_{3}+\\ldots+\\right.)% %(\\left.10 a_{10}\\right)=\\left(a_{1} \\cdot 1^{p^{204}}-a_{1}\\right)+\\left(a_{2} \\cdot 2^{p^{204}}-2 a_{2}\\right)+\\ldots+\\left(a_{10} \\cdot 10^{p^{204}}-10 a_{10}\\right))% Xét %(k)% với %(k=\\overline{1,10})%.<br>Ta có %(k^{p^{2024}}-k=k\\left(k^{p^{2024}-1}-1\\right))%<br>%(+))% Truờng hợp 1: %(\\operatorname{gcd}(p, k)=1(p \\in \\mathbb{P}))%.<br>Theo định lí nhỏ Fermat:<br>\\[k^{p-1} \\equiv 1(\\bmod p) \\Rightarrow k^{p-1}-1 \\equiv 0(\\bmod p)\\]<br>%(p \\mid k^{p-1}-1)% mà %(k^{p-1}-1 \\mid k^{p^{2004}-1}-1)% nên %(p \\mid k^{p^{2004}-1}-1)%%(+))% Truờng hợp 2: %(p \\mid k)%.<br>Ta cũng suy ra được: %(p \\mid k\\left(k^{p^{2024}-1}-1\\right))%<br>Vậy %(p \\mid k\\left(k^{p^{204}-1}-1\\right))% trong mọi trường hợp.<br>Thay %(k)% vào %(D)% ta được %(D=C-A)% chia hết cho %(\\mathrm{p})%.<br>Mà từ giả thiết ta có %(A)% chia hét cho %(p)% suy ra %(C)% cūng chia hết cho %(p)%. (1)<br>Mặt khác ta cũng có: %(p \\leqslant A=a_{1}+2 a_{2}+3 a_{3}+\\ldots+10 a_{10}\\lt a_{1} \\cdot 1^{p^{3224}}+a_{2} \\cdot 2^{p^{204}}+a_{3} \\cdot 3^{2024}+)% %(\\ldots+a_{10} \\cdot 10^{p^{2024}}=C)%.<br>Từ (1) và (2) suy ra %(C=a_{1} \\cdot 1^{p^{204}}+a_{2} \\cdot 2^{p^{2004}}+a_{3} \\cdot 3^{p^{204}}+\\ldots+a_{10} \\cdot 10^{p^{2004}})% là hợp số.<br>Ta có điều phải chứng minh.",
+        "question_type": "essay"
+    }
+]

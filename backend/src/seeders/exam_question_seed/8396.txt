@@ -1,0 +1,111 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "Tính các giới hạn sau:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(\\lim \\left(\\sqrt{n^{2}+3 n}-n\\right))%",
+        "question_images": [],
+        "solution": "%(\\lim \\left(\\sqrt{n^{2}+3 n}-n\\right)=\\lim \\frac{n^{2}+3 n-n^{2}}{\\sqrt{n^{2}+3 n}+n}=\\lim \\frac{3 n}{\\sqrt{n^{2}+3 n}+n}=\\frac{3}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) %(\\lim _{x \\rightarrow 3} \\frac{x^{2}-5 x+6}{x-3})%",
+        "question_images": [],
+        "solution": "%(\\lim _{x \\rightarrow 3} \\frac{x^{2}-5 x+6}{x-3}=\\lim _{x \\rightarrow 3} \\frac{(x-3)(x-2)}{x-3}=\\lim _{x \\rightarrow 3}(x-2)=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.75,
+        "content": "c) %(\\lim _{x \\rightarrow+\\infty}\\left(\\frac{(2 x+5)^{3}(3 x+2)}{2 x^{4}+3 x^{3}}\\right))%",
+        "question_images": [],
+        "solution": "%(\\lim _{x \\rightarrow+\\infty}\\left(\\frac{(2 x+5)^{3}(3 x+2)}{2 x^{4}+3 x^{3}}\\right)=\\lim _{x \\rightarrow+\\infty}\\left(\\frac{x^{4}(2+5 / x)^{3}(3+2 / x)}{x^{4}(2+3 / x)}\\right)=\\frac{2^{3} \\cdot 3}{2}=12)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 1.0,
+        "content": "Tìm a để hàm số liên tục tại %(x=1)%.<br>\\[f(x)=\\left\\{\\begin{array}{ll}\\frac{5 x^{2}+x-6}{x-1} & \\text { khi } x \\neq 1 \\\\2+3 a & \\text { khi } x=1\\end{array}\\right.\\]",
+        "question_images": [],
+        "solution": "Ta có %(f(1)=2+3 a)%<br>\\[\\lim _{x \\rightarrow 1} f(x)=\\lim _{x \\rightarrow 1} \\frac{5 x^{2}+x-6}{x-1}=\\lim _{x \\rightarrow 1} \\frac{(x-1)(5 x+6)}{x-1}=\\lim (5 x+6)=11\\]<br>Để HS liên tục tại %(\\mathrm{x}=1)% thì %(\\lim _{x \\rightarrow 1} f(x)=f(1) \\Leftrightarrow 2+3 a=11 \\Leftrightarrow a=3)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3:",
+        "group_content": "Tính đạo hàm của các hàm số sau :",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.75,
+        "content": "a) %(y=x^{3}+\\sin 3 x+\\sqrt{2 x+1})%",
+        "question_images": [],
+        "solution": "%(y^{\\prime}=\\left(x^{3}+\\sin 3 x+\\sqrt{2 x+1}\\right)^{\\prime}=3 x^{2}+(3 x)^{\\prime} \\cos 3 x+\\frac{(2 x+1)^{\\prime}}{2 \\sqrt{2 x+1}}=3 x^{2}+3 \\cos 3 x+\\frac{1}{\\sqrt{2 x+1}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) %(y=\\frac{2-x}{3 x-4})%",
+        "question_images": [],
+        "solution": "%(y^{\\prime}=\\frac{(2-x)^{\\prime}(3 x-4)-(2-x)(3 x-4)^{\\prime}}{(3 x-4)^{2}}=\\frac{-(3 x-4)-(2-x) \\cdot 3}{(3 x-4)^{2}}=\\frac{-3 x+4-6+3 x}{(3 x-4)^{2}}=\\frac{-2}{(3 x-4)^{2}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Cho %(y=x^{3}-3 x^{2}+5)%, giải bất phương trình %(y^{\\prime}\\gt 9)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}y^{\\prime}=\\left(x^{3}-3 x^{2}+5\\right)^{\\prime}=3 x^{2}-6 x \\\\ y^{\\prime}\\gt 9 \\Leftrightarrow 3 x^{2}-6 x-9>0 \\Leftrightarrow x^{2}-2 x-3>0 \\Leftrightarrow x\\lt -1 \\vee x>3\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 1.5,
+        "content": "Cho hàm số %(y=x^{3}-2 x^{2}+3)% có đồ thị %((\\mathrm{C}))%. Viết phương trình tiếp tuyến của đồ thị %((\\mathrm{C}))%, biết hệ số góc của tiếp tuyến bằng -1 .",
+        "question_images": [],
+        "solution": "Ta có: %(y^{\\prime}=3 x^{2}-4 x)%<br>Hệ số góc bằng %(-1 \\Leftrightarrow 3 x_{0}^{2}-4 x=-1 \\Leftrightarrow 3 x_{0}^{2}-4 x_{0}+1=0 \\Leftrightarrow x_{0}=1 \\vee x_{0}=\\frac{1}{3})%<br>+Với %(x_{0}=1 \\Rightarrow y_{0}=2 \\Rightarrow)% PTTT : %(y=-(x-1)+2 \\Leftrightarrow y=-x+3)%<br>+Với %(x_{0}=\\frac{1}{3} \\Rightarrow y_{0}=\\frac{28}{9} \\Rightarrow)% PTTT : %(y=-\\left(x-\\frac{1}{3}\\right)+\\frac{76}{27} \\Leftrightarrow y=-x+\\frac{85}{27})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5:",
+        "group_content": "Cho hình chóp đều %(\\mathrm{S} . \\mathrm{ABC})% có tất cả các cạnh bằng 1 , gọi %(\\mathrm{I}, \\mathrm{J})% lần lượt trung điểm %(\\mathrm{BC}, \\mathrm{SA})% và G trung điểm %(\\mathrm{IJ})%. Lấy %(\\mathrm{C})% ' đối xứng với %(\\mathrm{A})% qua %(\\mathrm{C})% và %(\\mathrm{B})% ' đối xứng với %(\\mathrm{A})% qua %(\\mathrm{B})%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.25,
+        "content": "a) Chứng minh %(\\mathrm{B}^{\\prime} \\mathrm{C})% ' vuông góc với mặt phẳng %(\\mathrm{SAI})%.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{H})% là trọng tâm tam giác %(\\mathrm{ABC})% ta có %(\\mathrm{H})% thuộc %(\\mathrm{AI})%<br>Ta có: %(B C \\perp S H(g t)(1) ; B C \\perp A I(g t))% (2) ; AI cắt %(\\mathrm{SH})% tại %(\\mathrm{H}(3) ; A I, S H \\subset(S A I))% (4)<br>Từ (1),(2),(3),(4) suy ra %(B C \\perp(S A I))%<br>Mà B'C'//BC(Tcđtb) %(\\Rightarrow B^{\\prime} C^{\\prime} \\perp(S A I))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ed81bd72352a8186a6dc260990db2a8e.png\" srcset=\"https://docdn.giainhanh.io/media/test/6fc50bd62ba911d492a74184369be14e.png 172w, https://docdn.giainhanh.io/media/test/3dbb3877872da461a558b83e8ca793a9.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b)Xác định và tính độ dài đoạn vuông góc chung của %(\\mathrm{SA})% và %(\\mathrm{B}^{\\prime} \\mathrm{C}^{\\prime})%.",
+        "question_images": [],
+        "solution": "+ Gọi %(\\mathrm{R})% trung điểm %(\\mathrm{B}^{\\prime} \\mathrm{C}^{\\prime} ; \\mathrm{Vì} \\Rightarrow B^{\\prime} C^{\\prime} \\perp(S A I))% Nên từ %(\\mathrm{R})% kẻ %(\\mathrm{RQ})% vuông góc với %(\\mathrm{SA})% thì %(\\mathrm{RQ})% là đoạn vuông góc chung của %(B^{\\prime} C^{\\prime})% và %(\\mathrm{SA}(\\mathrm{Q})% trùng với %(\\mathrm{S}))%<br>\\[\\begin{array}{l}\\text { + Tính: } \\quad \\mathrm{RS}=2 \\mathrm{JJ} \\J B=\\frac{\\sqrt{3}}{2} ; B I=\\frac{1}{2}\\end{array}\\]<br>\\[I J^{2}=J B^{2}-B I^{2}=\\frac{3}{4}-\\frac{1}{4}=\\frac{2}{4} \\Rightarrow \\mathrm{IJ}=\\frac{\\sqrt{2}}{2} \\text { Vậy } \\mathrm{RS}=\\sqrt{2}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.75,
+        "content": "c) Xác định và tính diện tích thiết diện của hình chóp cắt bởi mặt phẳng ( %(\\mathrm{B}^{\\prime} \\mathrm{GC}^{\\prime})% ) (câu %(\\mathrm{C})% nên vẽ hình khác).",
+        "question_images": [],
+        "solution": "+ Trong %(\\mathrm{mp}(\\mathrm{SAR}))% kẻ %(\\mathrm{RG})% cắt %(\\mathrm{SA})% tại %(\\mathrm{M})%; Nối %(\\mathrm{MB})% ' cắt %(\\mathrm{SB})% tại %(\\mathrm{N})%; Nối %(\\mathrm{MC})% ' cắt %(\\mathrm{SC})% tại %(\\mathrm{P})% ta được thiết diện là tam giác MNP.<br>+ Tính %(S_{\\triangle M N P})%<br>Do %(\\mathrm{SH}, \\mathrm{MR}, \\mathrm{AG})% đồng qui tại %(\\mathrm{G})% nên %(\\mathrm{MH} / / \\mathrm{JI} / \\mathrm{SR})%;<br>Nên %(\\frac{A M}{\\mathrm{AJ}}=\\frac{A H}{A I}=\\frac{2}{3})%<br>Kẻ CT//AS %(\\Rightarrow C T=\\frac{1}{2} A M)% nên %(\\frac{C T}{S M}=\\frac{1}{4}=\\frac{C P}{P S} \\Rightarrow \\frac{N P}{B C}=\\frac{S P}{S C}=\\frac{4}{5})%<br>Mà %(\\mathrm{BC}=1)% nên %(N P=\\frac{4}{5} ; \\cos S A I=\\frac{A H}{S A}=\\frac{\\sqrt{3}}{3} \\Rightarrow M R=\\frac{\\sqrt{22}}{3})%<br>Lại có: %(\\frac{M K}{M R}=\\frac{N P}{B^{\\prime} C^{\\prime}}=\\frac{2}{5} \\Rightarrow M K=\\frac{2 \\sqrt{22}}{15})%<br>Vậy %(S_{\\triangle M N P}=\\frac{1}{2} M K . N P=\\frac{1}{2} \\cdot \\frac{2 \\sqrt{22}}{15} \\cdot \\frac{4}{5}=\\frac{4 \\sqrt{22}}{75})%",
+        "question_type": "essay"
+    }
+]

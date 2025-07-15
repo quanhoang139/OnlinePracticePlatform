@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 4.0,
+        "content": "Cho hàm số %(y=x^{3}-3 x^{2}-m x+2)% (%(m)% là tham số) có đồ thị là %(\\left(\\mathrm{C}_{m}\\right))%. Xác định %(m)% để %(\\left(\\mathrm{C}_{m}\\right))% có các điểm cực đại và cực tiểu cách đều đường thẳng %(y=x-1)%.",
+        "question_images": [],
+        "solution": "Ta có: %(y^{\\prime}=3 x^{2}-6 x-m)%.<br>Hàm số có %(CĐ, C T \\Leftrightarrow y^{\\prime}=3 x^{2}-6 x-m=0)% có 2 nghiệm phân biệt %(x_{1} ; x_{2})% %(\\Leftrightarrow \\Delta^{\\prime}=9+3 m\\gt 0 \\Leftrightarrow m>-3)% (*)<br>Gọi hai điểm cực trị là %(A\\left(x_{1} ; y_{1}\\right) ; B\\left(x_{2} ; y_{2}\\right))%<br>Thực hiện phép chia %(y)% cho y' ta được: %(y=\\left(\\frac{1}{3} x-\\frac{1}{3}\\right) y^{\\prime}-\\left(\\frac{2 m}{3}+2\\right) x+\\left(2-\\frac{m}{3}\\right))% %(\\Rightarrow y_{1}=y\\left(x_{1}\\right)=-\\left(\\frac{2 m}{3}+2\\right) x_{1}+\\left(2-\\frac{m}{3}\\right) ; y_{2}=y\\left(x_{2}\\right)=-\\left(\\frac{2 m}{3}+2\\right) x_{2}+\\left(2-\\frac{m}{3}\\right))%<br>%(\\Rightarrow)% Phương trình đường thẳng đi qua 2 điểm cực trị là %(\\Delta: y=-\\left(\\frac{2 m}{3}+2\\right) x+\\left(2-\\frac{m}{3}\\right))%<br>Các điểm cực trị cách đều đường thẳng y = x - 1 %(\\Leftrightarrow)% xảy ra 1 trong 2 trường hợp:<br>TH1: Đường thẳng đi qua 2 điểm cực trị song song hoặc trùng với đường thẳng %(y=x-1)%<br>\\[\\Leftrightarrow-\\left(\\frac{2 m}{3}+2\\right)=1 \\Leftrightarrow m=-\\frac{3}{2} \\text { (thöa mãn) }\\]<br>TH2: Trung điểm I của %(A B)% nằm trên đường thẳng %(y=x-1)%<br>\\[\\begin{array}{l}\\Leftrightarrow y_{s}=x_{s}-1 \\Leftrightarrow \\frac{y_{1}+y_{2}}{2}=\\frac{x_{1}+x_{2}}{2}-1 \\Leftrightarrow-\\left(\\frac{2 m}{3}+2\\right)\\left(x_{1}+x_{2}\\right)+2\\left(2-\\frac{m}{3}\\right)=\\left(x_{1}+x_{2}\\right)-2 \\\\Leftrightarrow\\left(\\frac{2 m}{3}+3\\right) \\cdot 2=6-\\frac{2 m}{3} \\Leftrightarrow m=0\\end{array}\\]<br>Vậy các giá trị cần tìm của m là: %(m=\\left\\{0 ;-\\frac{3}{2}\\right\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.1 ",
+        "point": 2.0,
+        "content": "Giải phương trình %(\\cos x+\\cos 3 x=1+\\sqrt{2} \\sin \\left(2 x+\\frac{\\pi}{4}\\right))%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{c}\\text {} \\mathrm{PT} \\Leftrightarrow 2 \\cos 2 x \\cos x=1+\\sin 2 x+\\cos 2 x \\\\ \\Leftrightarrow \\cos 2 x(2 \\cos x-1)=1+2 \\sin x \\cos x \\\\ \\Leftrightarrow\\left(\\cos ^{2} x-\\operatorname{ain}^{2} x\\right)(2 \\cos x-1)=(\\cos x+\\sin x)^{2}\\end{array})%<br>%(\\Leftrightarrow\\left[\\begin{array}{l}\\cos x+\\sin x=0 \\quad \\quad \\quad \\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad(1)\\\\ (\\cos x-\\sin x)(2 \\cos x-1)=\\cos x+\\sin x\\quad \\quad(2)\\end{array}\\right.)%<br>(1) %(\\Leftrightarrow \\sqrt{2} \\operatorname{ain}\\left(x+\\frac{\\pi}{4}\\right)=0 \\Leftrightarrow x+\\frac{\\pi}{4}=k \\pi \\Leftrightarrow x=-\\frac{\\pi}{4}+k \\pi)%<br>(2) %(\\Leftrightarrow 2 \\cos x(\\cos x-\\sin x-1)=0 \\Leftrightarrow\\left[\\begin{array}{l}\\cos x=0 \\\\ \\sqrt{2} \\cos \\left(x+\\frac{\\pi}{4}\\right)=1\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{\\pi}{2}+k \\pi \\\\ x+\\frac{\\pi}{4}= \\pm \\frac{\\pi}{4}+k 2 \\pi\\end{array} \\quad(k \\in \\mathbb{Z})\\right.\\right.)%<br>Vậy pt có nghiệm là %(x=-\\frac{\\pi}{4}+k \\pi, x=\\frac{\\pi}{2}+k \\pi, x=k 2 \\pi(k \\in \\mathbb{Z}))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.2 ",
+        "point": 2.0,
+        "content": "Giải phương trình %(x+\\sqrt{4-x^{2}}=2+x \\sqrt{4-x^{2}})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text {Điều kiện }-2 \\leq x \\leq 2 \\\\mathrm{PT} \\Leftrightarrow(\\mathrm{x}-2)=(\\mathrm{x}-1) \\sqrt{4-x^{2}} \\Rightarrow(\\mathrm{x}-2)^{2}=(\\mathrm{x}-1)^{2}\\left(4-\\mathrm{x}^{2}\\right) \\\\Leftrightarrow x(\\mathrm{x}-2)\\left(\\mathrm{x}^{2}-2\\right)=0 \\Leftrightarrow x=0, x=2, x= \\pm \\sqrt{2}\\end{array})%<br>Thử lại điều kiện thỏa mãn.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.1 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}3 y=\\frac{y^{2}+2}{x^{2}} \\\\ 3 x=\\frac{x^{2}+2}{y^{2}}\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "ĐK: %(x y \\neq 0)%<br>Hệ %(\\Leftrightarrow\\left\\{\\begin{array}{l}3 x^{2} y=y^{2}+2 \\quad(1)\\\\ 3 y^{2} x=x^{2}+2\\quad (2)\\end{array}\\right.)%<br>Trừ vế hai phương trình ta được<br>\\[3 x^{2} y-3 x y^{2}=y^{2}-x^{2} \\Leftrightarrow 3 x y(x-y)+(x-y)(x+y)=0 \\Leftrightarrow\\left[\\begin{array}{l}x-y=0 \\\\3 x y+x+y=0\\end{array}\\right.\\]<br>TH1. %(x-y=0 \\Leftrightarrow y=x)% thế vào (1) ta được %(3 x^{3}-x^{2}-2=0 \\Leftrightarrow x=1)%<br>TH2. %(3 x y+x+y=0)%. Từ %(3 y=\\frac{y^{2}+2}{x^{2}} \\Rightarrow y\\gt 0,3 x=\\frac{x^{2}+2}{y^{2}} \\Rightarrow x>0)%%(\\Rightarrow 3 x y+x+y>0)%. Do đó TH2 không xảy ra.<br>Vậy hệ phương trình có nghiệm duy nhất %((1 ; 1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.2 ",
+        "point": 2.0,
+        "content": "Cho dãy số %(\\left(u_{n}\\right))% xác định như sau %(\\left\\{\\begin{array}{c}u_{1}=1 \\\\ u_{n}=\\frac{-1}{3+u_{n-1}}, \\forall n \\geq 2\\end{array}\\right.)% (1). Chứng minh dãy số %(\\left(u_{n}\\right))% có giới hạn hữu hạn khi %(n \\rightarrow+\\infty)%",
+        "question_images": [],
+        "solution": "Chứng minh bằng phương pháp qui nạp được %(u_{n}\\gt \\frac{-3+\\sqrt{5}}{2})% với mọi %(\\mathrm{n}=1,2, \\ldots)%<br>Chứng minh được dãy %(\\left(\\mathrm{u}_{n}\\right))% giảm.<br>Do đó %(\\left(\\mathrm{u}_{n}\\right))% tồn tại giới hạn.<br>Giả sử %(\\lim _{n \\rightarrow+\\infty} u_{n}=a)% thì %(a>\\frac{-3+\\sqrt{5}}{2})%<br>Chuyển qua giới hạn hệ thức (1) ta được %(a=-\\frac{1}{3+a} \\Leftrightarrow a^{2}+3 a+1=0 \\Leftrightarrow a=\\frac{-3+\\sqrt{5}}{2})%<br>Vậy %(\\lim _{n \\rightarrow+\\infty} u_{n}=\\frac{-3+\\sqrt{5}}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Trong mặt phẳng với hệ tọa độ Oxy cho tam giác ABC cân tại A, có đỉnh %(A(-1 ; 4))% và các điểm %(\\mathrm{B}, \\mathrm{C})% thuộc đường thẳng %(\\Delta: x-y-4=0)%. Xác định tọa độ điểm B và C, biết diện tích tam giác ABC bằng 18 .",
+        "question_images": [],
+        "solution": "Gọi H là hình chiếu của A trên %(\\Delta)%, suy ra H là trung điểm BC.<br>Khi đó: %(A H=d(A, B C)=\\frac{9}{\\sqrt{2}})%%(S_{\\triangle A B C}=\\frac{1}{2} B C \\cdot A H \\Leftrightarrow B C=4 \\sqrt{2})%%(A B=A C=\\sqrt{A H^{2}+\\frac{B C^{2}}{4}}=\\sqrt{\\frac{97}{2}})%<br>Suy ra B và C thuộc đường tròn tâm A và bán kính %(R=\\sqrt{\\frac{97}{2}})%<br>Do đó B và C là giao điểm của %(\\Delta)% và đường tròn nên tọa độ điểm B và C là nghiệm của hệ: %(\\left\\{\\begin{array}{l}(x+1)^{2}+(y-4)^{2}=\\frac{97}{2} \\\\ x-y-4=0\\end{array}\\right.)%<br>Giải được: %(B=\\left(\\frac{11}{2} ; \\frac{3}{2}\\right), C=\\left(\\frac{3}{2} ;-\\frac{5}{2}\\right))% hoặc %(B=\\left(\\frac{3}{2} ;-\\frac{5}{2}\\right), C=\\left(\\frac{11}{2} ; \\frac{3}{2}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5.1 ",
+        "point": 1.5,
+        "content": "Chứng minh rằng %(3 C_{2014}^{0}+5 C_{2014}^{2}+7 C_{2014}^{4}+\\ldots+2017 C_{20.44}^{2014}=1010.2^{2013})%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=3 C_{2014}^{0}+5 C_{2014}^{2}+7 C_{2014}^{4}+\\ldots+2017 C_{2014}^{2014} \\\\ =\\left(2 C_{2014}^{2}+4 C_{2014}^{4}+\\ldots+2014 C_{2014}^{2014}\\right)+3\\left(C_{2014}^{0}+C_{2014}^{2}+C_{2014}^{4}+\\ldots+C_{2014}^{2014}\\right)\\end{array})%<br>Tính được %(C_{2014}^{0}+C_{2014}^{2}+C_{2014}^{4}+\\ldots+C_{2014}^{2014}=2^{2013})%<br>Chứng minh %(k C_{2014}^{k}=2014 C_{2013}^{k-1}, \\forall k, n \\in \\mathbb{N}, 0 \\leq k \\leq n)%.<br>Suy ra, %(2 C_{2014}^{2}+4 C_{2014}^{4}+\\ldots+2014 C_{2014}^{2014}=2014\\left(C_{2013}^{1}+C_{2013}^{3}+\\ldots+C_{2013}^{2013}\\right)=2014.2^{2012})%<br>Vậy %(A=2014.2^{2012}+3.2^{2013}=1010.2^{2013})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5.2 ",
+        "point": 1.5,
+        "content": "Cho tập %(\\mathrm{A}\\{1 ; 2 ; 3 ; 4 ; 5 ; 6 ; 7 ; 8 ; 9\\})%. Lập ngẫu nhiên một số có 3 chữ số khác nhau với các chữ số chọn từ tập A. Tính xác suất để số lập được chia hết cho 6 .",
+        "question_images": [],
+        "solution": "- Số chia hết cho 6 là số chia hết cho 3 và số đó là số chẵn.<br>- Số chia hết cho 3 là số %(a_{1} a_{2} a_{3})% có tổng ba chữ số %(\\left(a_{1}+a_{2}+a_{3}\\right))% chia hết cho 3 .<br>- Số chẵn là số chó chữ số tận cùng chia hết cho 2.<br>Để lập được số có 3 chữ số khác nhau từ tập A sao cho số đó chia hết cho 6 ta chia làm hai giai đoạn.<br>1/ Chọn bộ ba chữ số khác nhau từ tạp A sao cho tổng 3 chữ số cộng lại chia hết cho 3 và trong ba chữ số đó có í nhất 1 chữ số chẵn.<br>2/ Xếp mỗi bộ chọn được thành số có 3 chữ số sao cho số tận cùng phải là số chẵn.<br>Để chọn và xếp khoa học ta nên chia ra ba trường hợp nhỏ như sau:<br>TH1: trong 3 chữ số chi có một chữ số chẵn, gồm có các bộ số sau:<br>\\[\\begin{array}{l}\\{1 ; 2 ; 3\\},\\{1 ; 2 ; 9\\},\\{1 ; 3 ; 8\\},\\{1 ; 4 ; 7\\},\\{1 ; 5 ; 6\\}, \\\\\\{2 ; 3 ; 7\\},\\{2 ; 7 ; 9\\},\\{3 ; 4 ; 5\\},\\{3 ; 6 ; 9\\},\\{3 ; 7 ; 8\\},\\{4 ; 5 ; 9\\},\\{5 ; 6 ; 7\\},\\{7 ; 8 ; 9\\} .\\end{array}\\]<br>Với trường hợp này: số cách chọn và xếp là: %(N_{T H 1}=C_{13}^{1} * 1 * 2 * 1=26)%<br>TH2: trong 3 chữ số chỉ có hai chữ số chẵn, gồm có các bộ số sau:<br>\\[\\begin{array}{l}\\{1 ; 2 ; 6\\},\\{1 ; 6 ; 8\\},\\{2 ; 3 ; 4\\},\\{2 ; 4 ; 9\\},\\{2 ; 5 ; 8\\},\\{2 ; 6 ; 7\\}, \\\\\\{3 ; 4 ; 8\\},\\{4 ; 5 ; 6\\},\\{4 ; 8 ; 9\\}\\{6 ; 7 ; 8\\}\\end{array}\\]<br>Với trường hợp này số cách chọn và xếp là: %(N_{T H 2}=C_{10}^{1} * 2 * 2 * 1=40)%<br>TH3: trong 3 chữ số chọn được đề là chữ số chẵn, gồm có các bộ số sau:<br>\\[\\{2 ; 4 ; 6\\},\\{4 ; 6 ; 8\\}\\]<br>Với trường hợp này số cách chọn và xếp là: %(N_{T H 3}=C_{2}^{1} * 3!=12)%<br>Số cách chọn số có 3 chữ số khác nhau sao cho số đó chia hết cho 6 là:<br>\\[N_{T H 1}+N_{T H 2}+N_{T H 3}=78\\]<br>Phép thử: lập số có 3 chữ số khác nhau từ %(\\mathrm{A} \\Rightarrow n(\\Omega)=A_{9}^{3}=504)%<br>A: là biến cố lập được số có ba chữ số khác nhau sao cho số đó chia hết cho 6 .<br>\\[N(A)=N_{T H 1}+N_{T H 2}+N_{T H 3}\\]<br>Xác suất của biến cố A: %(P(A)=\\frac{N(A)}{N(\\Omega)}=\\frac{78}{504} \\approx 0.155)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình chóp S.ABCD, đáy %(A B C D)% là hình chữ nhật có %(A B=a, B C=b, S A=S B=S C=S D=c . K)% là hình chiếu vuông góc của %(P)% xuống %(A C)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Tính độ dài đoạn vuông góc chung của %(S A)% và %(B K)%.",
+        "question_images": [],
+        "solution": "+ Theo già thiết ta được: %(S O \\perp(A B C D) \\Rightarrow(S A C) \\perp(A B C D))%.<br>Mà %(B K \\subset(S A C))% và %(B B K \\perp A C \\Rightarrow B K \\perp S A)%.<br>+ Gọi %(H)% là hình chiếu cùa %(K)% xuống %(S A)%%(\\Rightarrow H K \\perp S A)% và %(H K \\perp B K)% (vì %(H K \\subset(S A C))%<br>%(\\Rightarrow H K)% là đoạn vuông góc chung của %(S A)% và %(B K)%.<br>Suy ra được: %(B H \\perp S A)% và %(\\triangle H B K)% vuông tại %(K)%.<br>+ Do %(\\triangle A B C)% vuông đinh %(A)% nên: %(\\frac{1}{\\mathrm{BK}^{2}}=\\frac{1}{\\mathrm{AB}^{2}}+\\frac{1}{\\mathrm{BC}^{2}} \\Rightarrow \\mathrm{BK}^{2}=\\frac{\\mathrm{a}^{2} \\mathrm{~b}^{2}}{\\mathrm{a}^{2}+\\mathrm{b}^{2}})%.<br>%(+\\triangle S A B)% cân đinh %(S, B H)% là đường cao nên %(\\mathrm{HB}=\\frac{\\mathrm{SI} \\cdot \\mathrm{AB}}{\\mathrm{SA}}=\\frac{\\sqrt{\\mathrm{c}^{2}-\\frac{\\mathrm{a}^{2}}{4}} \\cdot \\mathrm{a}}{\\mathrm{c}})%<br>+ Do %(\\triangle H B K)% vuông tại %(K)% nên:<br>\\[\\begin{array}{l}H K^{2}=H B^{2}-B K^{2}=\\frac{\\left(4 c^{2}-a^{2}\\right) a^{2}}{4 c^{2}}-\\frac{a^{2} b^{2}}{a^{2}+b^{2}} \\H K^{2}=\\frac{\\left(4 c^{2}-a^{2}-b^{2}\\right) a^{4}}{4 c^{2}\\left(a^{2}+b^{2}\\right)} \\Rightarrow H K=\\frac{a^{2}}{2 c} \\sqrt{\\frac{\\left(4 c^{2}-a^{2}-b^{2}\\right)}{\\left(a^{2}+b^{2}\\right)}}\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/db2ce3dbddbd99a2e4e5e080d3bdb9ce.png\" srcset=\"https://docdn.giainhanh.io/media/test/862e1b7fba728d9c9515a9e67a98d7b4.png 198w, https://docdn.giainhanh.io/media/test/e824340b73d989dd60bf7fc63d654a3b.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Gọi %(M, N)% lần lượt là trung điểm của đoạn thẳng %(A K)% và %(C D)%. Chứng minh: Các đường thẳng %(B M)% và %(M N)% vuông góc nhau",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text {}+2 \\overrightarrow{\\mathrm{BM}}=\\overrightarrow{\\mathrm{BA}}+\\overrightarrow{\\mathrm{BK}} \\text { ( vì } M \\text { là trung điểm của } A K \\text { ) } \\\\+\\overrightarrow{\\mathrm{MN}}=\\overrightarrow{\\mathrm{MB}}+\\overrightarrow{\\mathrm{BC}}+\\overrightarrow{\\mathrm{CN}}=\\frac{1}{2}(\\overrightarrow{\\mathrm{AB}}+\\overrightarrow{\\mathrm{KB}})+\\overrightarrow{\\mathrm{BC}}+\\frac{1}{2} \\overrightarrow{\\mathrm{BA}} \\\\+\\overrightarrow{\\mathrm{MN}}=\\frac{1}{2} \\overrightarrow{\\mathrm{KB}}+\\overrightarrow{\\mathrm{BC}} \\text {. } \\\\text { + Do đó: } \\\\4 \\overrightarrow{\\mathrm{BM}} \\cdot \\overrightarrow{\\mathrm{MN}}=(\\overrightarrow{\\mathrm{BA}}+\\overrightarrow{\\mathrm{BK}}) \\cdot(\\overrightarrow{\\mathrm{KB}}+2 \\overrightarrow{\\mathrm{BC}}) \\\\=\\overrightarrow{\\mathrm{BA}} \\cdot \\overrightarrow{\\mathrm{KB}}+2 \\overrightarrow{\\mathrm{BA}} \\cdot \\overrightarrow{\\mathrm{BC}}+\\overrightarrow{\\mathrm{BK}} \\cdot \\overrightarrow{\\mathrm{KB}}+2 \\overrightarrow{\\mathrm{BK}} \\cdot \\overrightarrow{\\mathrm{BC}} \\\\=\\overrightarrow{\\mathrm{BA}} \\cdot \\overrightarrow{\\mathrm{KB}}+\\overrightarrow{\\mathrm{BK}} \\cdot \\overrightarrow{\\mathrm{KB}}+2 \\overrightarrow{\\mathrm{BK}} \\cdot \\overrightarrow{\\mathrm{BC}} \\\\=\\overrightarrow{\\mathrm{KB}} \\cdot(\\overrightarrow{\\mathrm{BA}}+\\overrightarrow{\\mathrm{BK}}-2 \\cdot \\overrightarrow{\\mathrm{BC}}) \\\\=\\overrightarrow{\\mathrm{KB}} \\cdot(\\overrightarrow{\\mathrm{BA}}-\\overrightarrow{\\mathrm{BC}}+\\overrightarrow{\\mathrm{BK}}-\\overrightarrow{\\mathrm{BC}}) \\\\=\\overrightarrow{\\mathrm{KB}} \\cdot(\\overrightarrow{\\mathrm{CA}}+\\overrightarrow{\\mathrm{CK}})=\\overrightarrow{\\mathrm{KB}} \\cdot \\overrightarrow{\\mathrm{CA}}+\\overrightarrow{\\mathrm{KB}} \\cdot \\overrightarrow{\\mathrm{CK}}=0 \\\\end{array}\\]<br>Vậy: %(B K \\perp M N)%.",
+        "question_type": "essay"
+    }
+]

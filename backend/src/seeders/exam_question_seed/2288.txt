@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức: %(P=\\frac{x}{(\\sqrt{x}+\\sqrt{y})(1-\\sqrt{y})}-\\frac{y}{(\\sqrt{x}+\\sqrt{y})(\\sqrt{x}+1)}-\\frac{x y}{(\\sqrt{x}+1)(1-\\sqrt{y})})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.5,
+        "content": "a) Rút gọn biểu thức %(P)%.",
+        "question_images": [],
+        "solution": "Đk để P có giá trị: %(x \\geq 0 ; y \\geq 0 ; y \\neq 1 ; x+y \\neq 0)%%(\\begin{array}{l}P=\\frac{x(1+\\sqrt{x})-y(1-\\sqrt{y})-x y(\\sqrt{x}+\\sqrt{y})}{(\\sqrt{x}+\\sqrt{y})(1+\\sqrt{x})(1-\\sqrt{y})}=\\frac{(x-y)+(x \\sqrt{x}+y \\sqrt{y})-x y(\\sqrt{x}+\\sqrt{y})}{(\\sqrt{x}+\\sqrt{y})(1+\\sqrt{x})(1-\\sqrt{y})} \\\\ =\\frac{(\\sqrt{x}+\\sqrt{y})(\\sqrt{x}-\\sqrt{y}+x-\\sqrt{x y}+y-x y)}{(\\sqrt{x}+\\sqrt{y})(1+\\sqrt{x})(1-\\sqrt{y})}=\\frac{\\sqrt{x}(\\sqrt{x}+1)-\\sqrt{y}(\\sqrt{x}+1)+y(1+\\sqrt{x})(1-\\sqrt{x})}{(1+\\sqrt{x})(1-\\sqrt{y})} \\\\ =\\frac{\\sqrt{x}-\\sqrt{y}+y-y \\sqrt{x}}{(1-\\sqrt{y})}=\\frac{\\sqrt{x}(1-\\sqrt{y})(1+\\sqrt{y})-\\sqrt{y}(1-\\sqrt{y})}{(1-\\sqrt{y})} \\\\ =\\sqrt{x}+\\sqrt{x y}-\\sqrt{y}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Tìm các giá trị %(x, y)% nguyên thỏa mãn %(P=2)%.<br><img/>",
+        "question_images": [],
+        "solution": "%(\\mathrm{P}=2 \\Leftrightarrow \\sqrt{x}+\\sqrt{x y}-\\sqrt{y}=2)% với%(x \\geq 0 ; y \\geq 0 ; y \\neq 1 ; x+y \\neq 0)%<br>%(\\Leftrightarrow \\sqrt{x}(1+\\sqrt{y})-(\\sqrt{y}+1)=1 \\Leftrightarrow(\\sqrt{x}-1)(1+\\sqrt{y})=1)%<br>Ta có:%(1+\\sqrt{y} \\geq 1 \\Rightarrow \\sqrt{x}-1 \\leq 1 \\Leftrightarrow 0 \\leq x \\leq 4 \\Rightarrow \\mathrm{x}=0 ; 1 ; 2 ; 3 ; 4)%<br>Thay vào P, ta có giá trị (4;0) và (2;2) thỏa mãn.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho hai số thực %(a, b)% không âm thỏa mãn %(18 a+4 b \\geq 2013)%. Chứng minh rằng phương trình sau luôn có nghiệm: %(18 a x^{2}+4 b x+671-9 a=0)%.",
+        "question_images": [],
+        "solution": "Cho hai số thực %(a, b)% thỏa mãn %(18 a+4 b \\geq 2013)% (1)<br>Chứng minh rằng phương trình sau có nghiệm: %(18 a x^{2}+4 b x+671-9 a=0)% (2)<br>TH1 : Với %(a=0)% thì (2) %(\\Leftrightarrow 4 b x+671=0)%<br>Từ (1) %(\\Rightarrow b \\neq 0)%. Vậy (2) luôn có nghiệm %(x=-\\frac{671}{4 b})%<br>TH2: Với %(a \\neq 0)%, ta có : %(\\Delta^{\\prime}=4 b^{2}-18 a(671-9 a)=4 b^{2}-6 a .2013+162 a^{2})%<br>\\[\\geq 4 b^{2}-6 a(18 a+4 b)+162 a^{2}=4 b^{2}-24 a b+54 a^{2}=(2 b-6 a)^{2}+16 a^{2} \\geq 0, \\forall a, b\\]<br>Vậy pt luôn có nghiệm",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các nghiệm nguyên %(x, y)% của phương trình %(x^{3}+2 x^{2}+3 x+2=y^{3})%.",
+        "question_images": [],
+        "solution": "Ta có %(y^{3}-x^{3}=2 x^{2}+3 x+2=2\\left(x+\\frac{3}{4}\\right)^{2}+\\frac{7}{8}\\gt 0 \\Rightarrow x\\lt y)%<br>\\[(x+2)^{3}-y^{3}=4 x^{2}+9 x+6=\\left(2 x+\\frac{9}{4}\\right)^{2}+\\frac{15}{16}>0 \\Rightarrow y\\lt x+2\\]<br>Từ (1) và (2) ta có %(x\\lt y\\lt x+2)% mà %(x)%, y nguyên suy ra %(y=x+1)%Thay %(y=x+1)% vào %(p t)% ban đầu và giải phương trình tìm được %(x=-1 ; x=1)% từ đó tìm được hai cặp số %((x, y))% thỏa mãn bài toán là %((1 ; 2),(-1 ; 0))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Cho %(p)% và %(2 p+1)% là hai số nguyên tố lớn hơn 3 . Chứng minh rằng %(4 p+1)% là một hợp số.",
+        "question_images": [],
+        "solution": "Do %(p)% là số nguyên tố lớn hơn 3 nên %(p)% có dạng %(p=3 k \\pm 1)%*)<br>Nếu %(p=3 k+1)% thì %(2 p+1=6 k+3=3(2 k+1))%%(\\Rightarrow 2 p+1)% là hợp số (Vô lý)*)<br>Nếu %(p=3 k-1, k \\geq 2)% thì %(4 p+1=12 k-3=3(4 k-1))%<br>Do %(4 k-1 \\geq 7)% nên %(4 p+1)% là một hợp số.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.5,
+        "content": "Giải phương trình: %(4 x^{2}+3 x+3=4 \\sqrt{x^{3}+3 x^{2}}+2 \\sqrt{2 x-1})%",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq \\frac{1}{2})%<br>\\[\\begin{array}{l}\\text { PT } \\Leftrightarrow 4 x^{2}+3 x+3=4 x \\sqrt{x+3}+2 \\sqrt{2 x-1} \\\\Leftrightarrow\\left(4 x^{2}-4 x \\sqrt{x+3}+x+3\\right)+(1-2 \\sqrt{2 x-1}+2 x-1)=0 \\\\Leftrightarrow(2 x-\\sqrt{x+3})^{2}+(1-\\sqrt{2 x-1})^{2}=0 \\\\Leftrightarrow\\left\\{\\begin{array}{l}2 x=\\sqrt{x+3} \\\\1=\\sqrt{2 x-1}\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{c}4 x^{2}=x+3 \\\\1=2 x-1\\end{array} \\Leftrightarrow x=1\\right. \\text { (tmđk) }\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho góc %(x O y)% có số đo bằng %(60^{\\circ})%. Đường tròn có tâm %(\\mathrm{K})% năm trong góc %(x O y)% tiếp xúc với tia %(O x)% tại %(M)% và tiếp xúc với tia %(O y)% tại %(N)%. Trên tia %(O x)% lấy điểm %(P)% thỏa mãn %(O P=30 M)%. Tiếp tuyến của đường tròn %((\\mathrm{K}))% qua %(\\mathrm{P})% cắt tia %(\\mathrm{Oy})% tại %(\\mathrm{Q})% khác %(\\mathrm{O})%. Đường thẳng %(\\mathrm{PK})% cắt đường thẳng %(\\mathrm{MN})% ở %(\\mathrm{E})%. Đường thẳng %(\\mathrm{QK})% cắt đường thẳng %(\\mathrm{MN})% ở %(\\mathrm{F})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.5,
+        "content": "a) Chứng minh tam giác MPE đồng dạng với tam giác %(\\mathrm{KPQ})%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" class=\"image_resized\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0011eef3e83e30148eb042abc6e0ee9a.png\" srcset=\"https://docdn.giainhanh.io/media/test/7bef5b3aebeb7b66824e9ff5e2a74d98.png 186w\" style=\"width:41.93%;\" width=\"186\"/><br>+PK là phân giác góc %(\\mathrm{QPO})%<br>\\[\\Rightarrow M P E=K P Q\\left({ }^{*}\\right) \\text {. }\\]<br>+ Tam giác %(\\mathrm{OMN})% đều %(\\Rightarrow E M P=120^{\\circ})%.+ QK cũng là phân giác %(\\mathrm{OQP})%<br>\\[\\mathrm{QKP}=180^{\\circ}-(\\mathrm{KQP}+\\mathrm{KPQ})\\]<br>Mà %(2 \\mathrm{KQP}+2 \\mathrm{KPQ}=180^{\\circ}-60^{\\circ}=120^{\\circ})%%(\\Rightarrow Q K P=120^{\\circ})%. Do đó: %(\\mathrm{EMP}=\\mathrm{QKP}\\left({ }^{* *}\\right))%.Từ %(\\left({ }^{*}\\right))% và %(\\left({ }^{* *}\\right))%, ta có %(\\triangle M P E \\sim \\triangle K P Q)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh tứ giác %(P Q E F)% nội tiếp được trong đường tròn.",
+        "question_images": [],
+        "solution": "Do hai tam giác %(M P E)% và %(\\mathrm{KPQ})% đồng dạng nên: %(\\mathrm{MEP}=\\mathrm{KQP})% hay: %(\\mathrm{FEP}=\\mathrm{FQP})%<br>Suy ra, tứ giác %(\\mathrm{PQEF})% nội tiếp được trong đường tròn.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.5,
+        "content": "c) Gọi D là trung điểm của đoạn PQ. Chứng minh tam giác DEF là một tam giác đều.",
+        "question_images": [],
+        "solution": "Do hai tam giác MPE và %(K P Q)% đồng dạng nên: %(\\frac{P M}{P K}=\\frac{P E}{P Q})%.<br>Suy ra: %(\\frac{P M}{P E}=\\frac{P K}{P Q})%.Ngoài ra: %(M P K=E P Q)%.<br>Do đó, hai tam giác %(M P K)% và %(E P Q)% đồng dạng.<br>Từ đó: %(\\mathrm{PEQ}=\\mathrm{PMK}=90^{\\circ})%.<br>Suy ra, D là tâm của đường tròn ngoại tiếp tứ giác PQEF.<br>Vì vậy, tam giác DEF cân tại D.Ta có: %(\\mathrm{FDP}=2 \\mathrm{FQD}=\\mathrm{OQP} ; \\mathrm{EDQ}=2 \\mathrm{EPD}=\\mathrm{OPQ})%.%(\\mathrm{FDE}=180^{\\circ}-(\\mathrm{FDP}+\\mathrm{EDQ})=\\mathrm{POQ}=60^{\\circ})%<br>Từ đó, tam giác DEF là tam giác đều.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Cho %(a , b , c)% là ba số thực dương thỏa mãn: %(\\frac{a + 1}{1 + b^{2}} + \\frac{b + 1}{1 + c^{2}} + \\frac{c + 1}{1 + a^{2}} \\ge 3)%. Chứng minh rằng:%(a + b + c = 3)%",
+        "question_images": [],
+        "solution": "Theo bất đẳng thức Cauchy ta có: %(1+b^{2} \\geq 2 b)% nên:<br>\\[\\begin{array}{l}\\frac{a+1}{1+b^{2}}=(a+1)-\\frac{b^{2}(a+1)}{b^{2}+1} \\geq(a+1)-\\frac{b^{2}(a+1)}{2 b}=a+1-\\frac{a b+b}{2} \\\\Leftrightarrow \\frac{a+1}{1+b^{2}} \\geq a+1-\\frac{a b+b}{2}\\end{array}\\]<br>Tương tự ta có:<br>\\[\\begin{array}{l}\\frac{b+1}{1+c^{2}} \\geq b+1-\\frac{b c+c}{2} \\\\frac{c+1}{1+a^{2}} \\geq c+1-\\frac{c a+a}{2}\\end{array}\\]<br>Cộng vế theo vế (1), (2) và (3) ta được:<br>\\[\\frac{a+1}{1+b^{2}}+\\frac{b+1}{1+c^{2}}+\\frac{c+1}{1+a^{2}} \\geq 3+\\frac{a+b+c-a b-b c-c a}{2}\\left(^{*}\\right)\\]<br>Mặt khác: %(3(a b+b c+c a) \\leq(a+b+c)^{2}=9 \\Rightarrow \\frac{a+b+c-a b-b c-c a}{2} \\geq 0)%<br>Nên %((*) \\Leftrightarrow \\frac{a+1}{1+b^{2}}+\\frac{b+1}{1+c^{2}}+\\frac{c+1}{1+a^{2}} \\geq 3)% (đpcm)<br>Dấu \"=\" xảy ra khi và chỉ khi %(a=b=c=1)%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,298 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.25,
+        "content": "Có 6 học sinh nam và 4 học sinh nữ. Có bao nhiêu cách chọn 5 học sinh sao cho số học sinh nữ là số lẻ",
+        "question_images": [],
+        "labelA": "120",
+        "labelB": "3600",
+        "labelC": "60",
+        "labelD": "252",
+        "correct_label": "labelA",
+        "solution": "Truờng hợp 1: Chọn 1 học sinh nữ, 4 học sinh nam: có %(C_{4}^{1} \\cdot C_{6}^{4}=60)% cách<br>Trường hợp 2: Chọn 3 học sinh nữ, 2 học sinh nam: có %(C_{4}^{3} \\cdot C_{6}^{2}=60)% cách<br>Vậy có %((60+60)=120)% cách chọn",
+        "question_type": "quiz"
+    },
+    {
+        "title": "2 ",
+        "point": 0.25,
+        "content": "Trong một mặt phẳng có 5 điểm trong đó không có 3 điểm nào thẳng hàng. Hỏi tổng số đoạn thẳng và tam giác có thể lập được từ các điểm trên là:",
+        "question_images": [],
+        "labelA": "10",
+        "labelB": "20",
+        "labelC": "80",
+        "labelD": "40",
+        "correct_label": "labelB",
+        "solution": "Số đoạn thẳng được tạo thành là số cách chọn ra 2 điểm trong 5 điểm %(\\Rightarrow)% có %(C_{5}^{2}=10)% đoạn thẳng<br>Số tam giác tạo thành là số cách chọn ra 3 điểm trong 5 điểm %(\\Rightarrow)% có %(C_{5}^{3}=10)% tam giác<br>Vậy tổng số đoạn thẳng và tam giác là 20",
+        "question_type": "quiz"
+    },
+    {
+        "title": "3 ",
+        "point": 0.25,
+        "content": "Cho tập %(A=\\{1 ; 2 ; 3 ; 4 ; 5 ; 6\\})%. Từ tập %(A)% có thể lập được bao nhiêu số tự nhiên có bốn chữ số và chia hết cho %(5)%",
+        "question_images": [],
+        "labelA": "60",
+        "labelB": "216",
+        "labelC": "24",
+        "labelD": "720",
+        "correct_label": "labelB",
+        "solution": "Gọi %(\\overline{a b c d})% là số tự nhiên có bốn chữ số và chia hết cho %(5)%<br>%(\\Rightarrow d=5 \\Rightarrow)% chọn chữ số %(d)% có một cách<br>Chọn chữ số %(a)% có 6 cách<br>Chọn chữ số %(b)% có 6 cách<br>Chọn chữ số %(c)% có 6 cách<br>Vậy có %(6.6.6.1~=~216)% số",
+        "question_type": "quiz"
+    },
+    {
+        "title": "4 ",
+        "point": 0.25,
+        "content": "Với các chữ số %(2,3,4,5,6)% có thể lập được bao nhiêu số tự nhiên gồm 5 chữ số khác nhau trong đó hai chữ số 2,3 không đứng cạnh nhau?",
+        "question_images": [],
+        "labelA": "96",
+        "labelB": "120",
+        "labelC": "72",
+        "labelD": "48",
+        "correct_label": "labelC",
+        "solution": "Từ các chữ số %(2,3,4,5,6)% có thể lập được %(5!=120)% số tự nhiên gồm 5 chữ số khác nhau<br>Từ các chữ số %(2,3,4,5,6)% có thể lập được %(2!.4!=48)% số tự nhiên gồm 5 chữ số khác nhau trong đó hai chữ số 2,3 đứng cạnh nhau<br>Vậy có %(120-48=72)% số tự nhiên gồm 5 chữ số khác nhau trong đó hai chữ số 2,3 không đứng cạnh nhau",
+        "question_type": "quiz"
+    },
+    {
+        "title": "5 ",
+        "point": 0.25,
+        "content": "Tổng %(S=C_{2016}^{0}+C_{2016}^{1}+\\ldots+C_{2016}^{2016})% có kết quả bằng:",
+        "question_images": [],
+        "labelA": "%(2^{2015})%",
+        "labelB": "%(2^{2017})%",
+        "labelC": "%(2^{2014})%",
+        "labelD": "%(2^{2016})%",
+        "correct_label": "labelD",
+        "solution": "Áp dụng công thức khai triển Nhị thức Niuton ta có:<br>\\[(a+b)^{n}=C_{n}^{0} a^{n} b^{0}+C_{n}^{1} a^{n-1} b+C_{n}^{2} a^{n-2} b^{2}+\\ldots+C_{n}^{n} a^{0} b^{n}\\]<br>Với %(a=b=1, n=2016)% ta có: %((1+1)^{2016}=C_{2016}^{0}+C_{2016}^{1}+\\ldots+C_{2016}^{2016})%<br>Vậy %(S=C_{2016}^{0}+C_{2016}^{1}+\\ldots+C_{2016}^{2016}=2^{2016})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "6 ",
+        "point": 0.25,
+        "content": "Số hạng không chứa %(x)% trong khai triển %(\\left(x^{3}+\\frac{1}{x}\\right)^{8})% là",
+        "question_images": [],
+        "labelA": "56",
+        "labelB": "10",
+        "labelC": "28",
+        "labelD": "70",
+        "correct_label": "labelC",
+        "solution": "\\[\\left(x^{3}+\\frac{1}{x}\\right)^{8}=\\sum_{k=0}^{8} C_{8}^{k}\\left(x^{3}\\right){ }^{8-k}\\left(\\frac{1}{x}\\right)^{k}=\\sum_{k=0}^{8} C_{8}^{k}\\left(x^{24-4 k}\\right) .\\]<br>Số hạng không chứa %(x)% trong khai triển là số hạng ứng với %(k)% thoả %(24-4 k=0 \\Leftrightarrow k=6)%<br>Suy ra %(C_{8}^{6}=28)% là số hạng không chứa %(x)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "7 ",
+        "point": 0.25,
+        "content": "Từ %(A)% đến %(B)% có 3 cách, %(B)% đến %(C)% có 5 cách, %(C)% đến %(D)% có 2 cách. Hỏi có bao nhiêu cách đi từ %(A)% đến %(D)% rồi quay lại %(A)% ?",
+        "question_images": [],
+        "labelA": "30",
+        "labelB": "900",
+        "labelC": "60",
+        "labelD": "90",
+        "correct_label": "labelB",
+        "solution": "Đi từ %(A)% đến %(D)% có %(3.5 .2=30)% cách<br>Đi từ %(D)% về %(A)% có %(3.5 .2=30)% cách<br>Theo quy tắc nhân có %(30.30=900)% cách thỏa mãn yêu cầu bài toán",
+        "question_type": "quiz"
+    },
+    {
+        "title": "8 ",
+        "point": 0.25,
+        "content": "Có 3 bác sĩ và 7 y tá. Lập một tổ công tác gồm 5 người. Tính xác suất để lập tổ công tác gồm 1 bác sĩ làm tổ trưởng, 1 y tá làm tổ phó và 3 y tá làm tổ viên là",
+        "question_images": [],
+        "labelA": "%(\\frac{1}{14})%",
+        "labelB": "%(\\frac{10}{21})%",
+        "labelC": "%(\\frac{1}{12})%",
+        "labelD": "%(\\frac{20}{21})%",
+        "correct_label": "labelC",
+        "solution": "Phép thử: \"Lập tổ công tác gồm 5 người, gồm 1 tổ trường, 1 tổ phó, 3 tổ viên\".<br>\\[n(\\Omega)=10.9 . C_{8}^{3}=5040 \\text {. }\\]<br>Biến cố A : \"Lập tổ công tác gồm 1 bác sĩ làm tổ trưởng, 1 y tá làm tổ phó và 3 y tá làm tổ viên\"<br>Chọn 1 bác sĩ làm tổ trưởng, có 3 cách<br>Chọn 1 y tá làm tổ phó, có 7 cách<br>Chọn 3 y tá làm tổ viên, có %(C_{6}^{3})% cách<br>Suy ra, %(n(A)=3.7 . C_{6}^{3}=420)%<br>Xác suất của biến cố A: %(P(A)=\\frac{420}{5040}=\\frac{1}{12})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "9 ",
+        "point": 0.25,
+        "content": "Gieo một con súc sắc 2 lần. Xác suất của biến cố \"Tổng số chấm trong hai lần gieo bằng 8 \" là",
+        "question_images": [],
+        "labelA": "%(\\frac{5}{36})%",
+        "labelB": "%(\\frac{13}{36})%",
+        "labelC": "%(\\frac{1}{6})%",
+        "labelD": "%(\\frac{1}{3})%",
+        "correct_label": "labelA",
+        "solution": "Gieo một con súc sắc hai lần, số phần tử của không gian mẫu là %(n(\\Omega)=6.6=36)%<br>Gọi A là biến cố \"Tổng số chấm trong hai lần gieo bằng 8 \"<br>Vì %(8=2+6=3+5=4+4=5+3=6+2)% nên %(n(A)=5)%<br>Xác suất cần tìm là %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{5}{36})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "10 ",
+        "point": 0.25,
+        "content": "Có bao nhiêu cách xếp 5 học sinh %(\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D}, \\mathrm{E})% sao cho %(\\mathrm{A}, \\mathrm{B})% ngồi cạnh nhau?",
+        "question_images": [],
+        "labelA": "120",
+        "labelB": "24",
+        "labelC": "12",
+        "labelD": "48",
+        "correct_label": "labelD",
+        "solution": "Chọn hai chỗ kề nhau trong số 5 chỗ ngồi: có 4 cách<br>Xếp hai bạn A và B vào 2 chỗ vừa chọn: có %(2!=2)% cách<br>Xếp ba bạn còn lại vào 3 chỗ còn lại: có %(3!=6)% cách<br>Vậy có tất cả %(4 \\cdot 2 \\cdot 6=48)% cách",
+        "question_type": "quiz"
+    },
+    {
+        "title": "11 ",
+        "point": 0.25,
+        "content": "Cho tập %(A=\\{1 ; 2 ; 3 ; 5 ; 7 ; 9\\})%. Từ tập %(A)% có thể lập được bao nhiêu số tự nhiên gồm bốn chữ số đôi một khác nhau?",
+        "question_images": [],
+        "labelA": "120",
+        "labelB": "360",
+        "labelC": "720",
+        "labelD": "24",
+        "correct_label": "labelB",
+        "solution": "Mỗi số tự nhiên gồm bốn chữ số đôi một khác nhau được lấy ra từ tập %(A)% là một chỉnh hợp chập 4 của 6 phần tử<br>Vậy số các số tự nhiên thỏa yêu cầu bài toán là %(A_{6}^{4}=360)% (số)",
+        "question_type": "quiz"
+    },
+    {
+        "title": "12 ",
+        "point": 0.25,
+        "content": "Có 6 học sinh nam và 4 học sinh nữ. Chọn ngẫu nhiên 5 học sinh trực nhật. Tính xác suất sao cho có cả nam và nữ",
+        "question_images": [],
+        "labelA": "%(\\frac{10}{21})%",
+        "labelB": "%(\\frac{1}{42})%",
+        "labelC": "%(\\frac{5}{21})%",
+        "labelD": "%(\\frac{41}{42})%",
+        "correct_label": "labelD",
+        "solution": "Số phần tử của không gian mẫu: %(n(\\Omega)=C_{10}^{5}=252)%<br>Gọi %(A)% là biến cố 5 học sinh được chọn có cả nam và nữ<br>Số cách chọn 5 học sinh trực nhật toàn nam là: %(C_{6}^{5}=6)%<br>Số cách chọn 5 học sinh trực nhật có cả nam và nữ là: %(n(A)=C_{10}^{5}-C_{6}^{5}=246)%<br>Xác suất để 5 học sinh trực nhật có cả nam và nữ là: %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{246}{252}=\\frac{41}{42})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "13",
+        "group_content": "Trong một bình đựng 5 viên bi đỏ và 7 viên bi xanh, lấy ngẫu nhiên 4 viên bi",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Tính số phần tử của không gian mẫu",
+        "question_images": [],
+        "solution": "Số phần tử của %(\\mathrm{KGM}: n_{\\Omega}=C_{12}^{4}=495)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Tính xác suất để: \"Lấy được 3 bi đỏ và 2 bi xanh\"",
+        "question_images": [],
+        "solution": "Xác suất để:\"Lấy được 3 bi đỏ và 2 bi xanh\": %(\\quad P=\\frac{C_{5}^{3} C_{7}^{2}}{495}=\\frac{14}{33})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "14 ",
+        "point": 0.5,
+        "content": "Tìm số hạng chứa %(x^{18})% trong khai triển %(\\left(x^{3}-\\frac{2}{x}\\right)^{10})%",
+        "question_images": [],
+        "solution": "Ta có: %(\\left(x^{3}-\\frac{2}{x}\\right)^{10}=\\sum_{k=0}^{10} C_{10}^{k}\\left(x^{3}\\right)^{k}\\left(-\\frac{2}{x}\\right)^{10-k}=\\sum_{k=0}^{10} C_{10}^{k}(-2)^{10-k} x^{4 k-10})%<br>Vì số hạng chứa %(x^{18})% nên %(4 k-10=18 \\Leftrightarrow 4 k=28 \\Leftrightarrow k=7)%<br>Vậy số hạng chứa %(x^{18})% là %(C_{10}^{7} \\cdot(-2)^{3} x^{18}=-960 x^{18})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "15 ",
+        "point": 0.5,
+        "content": "Giải phương trình: %(3 C_{n}^{2}+2 A_{n+1}^{2}=58)%",
+        "question_images": [],
+        "solution": "Điều kiện: %(n \\in N ; n \\geq 2)%<br>Ta có: %(3 C_{n}^{2}+2 A_{n+1}^{2}=58 \\Leftrightarrow 3 \\cdot \\frac{n!}{(n-2) \\cdot 2!}+2 \\cdot \\frac{(n+1)!}{(n+1-2)!}=58)%<br>\\[\\begin{array}{l}\\Leftrightarrow \\frac{3}{2} \\cdot n \\cdot(n-1)+2(n+1) \\cdot n=58 \\\\Leftrightarrow 7 n^{2}+n-116=0 \\Leftrightarrow\\left[\\begin{array}{l}n=4 \\n=-29 / 7(l)\\end{array}\\right.\\end{array}\\]<br>Vậy %(n=4)% thỏa mãn yêu cầu bài toán",
+        "question_type": "essay"
+    },
+    {
+        "title": "16",
+        "group_content": "Trong một bình đựng 6 viên bi đỏ và 8 viên bi xanh, chọn ngẫu nhiên 5 viên bi",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Tính số phần tử của không gian mẫu",
+        "question_images": [],
+        "solution": "Số phần tử của không gian mẫu là %(n(\\Omega)=C_{14}^{5}=2002)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Tính xác suất để: \"Lấy được 3 bi đỏ và 2 bi xanh\"",
+        "question_images": [],
+        "solution": "Gọi biến cố %(A)% : \"Lấy được 3 bi đỏ và 2 bi xanh\"<br>Số phần tử của biến cố %(A)% là %(n(A)=C_{6}^{3} C_{8}^{2})%<br>Xác suất của biến cố %(A)% là %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{40}{143})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "17 ",
+        "point": 0.5,
+        "content": "Tìm số hạng chứa %(x^{6})% trong khai triển %(\\left(2 x^{2}-\\frac{3}{x}\\right)^{15})%",
+        "question_images": [],
+        "solution": "Ta có %(\\left(2 x^{2}-\\frac{3}{x}\\right)^{15}=\\sum_{k=0}^{15} C_{15}^{k}\\left(2 x^{2}\\right)^{15-k} \\cdot\\left(-\\frac{3}{x}\\right)^{k}=\\sum_{k=0}^{15} C_{15}^{k} 2^{15-k}(-3)^{k} \\cdot x^{30-3 k})%<br>Số hạng chứa %(x^{6})% nên %(30-3 k=6 \\Leftrightarrow k=8)%<br>Khi đó số hạng chứa %(x^{6})% là %(C_{15}^{8} \\cdot 2^{7} \\cdot(-3)^{8} x^{6}=5404164480 x^{6})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "18 ",
+        "point": 0.5,
+        "content": "Giải phương trình %(C_{n+1}^{2} \\cdot A_{n}^{2}-8 n C_{n+1}^{n-1}=0)%",
+        "question_images": [],
+        "solution": "Điều kiện %(n \\geq 2)%<br>\\[\\begin{array}{l}C_{n+1}^{2} \\cdot A_{n}^{2}-8 n C_{n+1}^{n-1}=0 \\Leftrightarrow \\frac{(n+1)!}{2!(n-1)!} \\cdot \\frac{n!}{(n-2)!}-8 n \\cdot \\frac{(n+1)!}{2!(n-1)!}=0 \\\\Leftrightarrow \\frac{(n+1) n}{2} \\cdot n \\cdot(n-1)-4 n(n+1) n=0 \\\\Leftrightarrow \\frac{n-1}{2}-4=0 \\Leftrightarrow n=9 .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "19",
+        "group_content": "Trong một hộp có 14 viên bi trong đó có 6 viên bi xanh và 8 viên bi đỏ. Tính xác suất sao cho 5 viên bi lấy ra:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Có đủ 2 màu",
+        "question_images": [],
+        "solution": "Lấy 5 viên bi từ 14 viên bi có số phần tử không gian mẫu là: %(n(\\Omega)=C_{14}^{5}=2002)%<br>Gọi A là biến cố \" 5 viên bi lấy ra có đủ 2 màu\"<br>Cách 1: Có các trường hợp sau:<br>TH1: 1 xanh và 4 đỏ có: %(6 . C_{8}^{4}=420)% (cách)<br>TH2: 2 xanh và 3 đỏ có: %(C_{6}^{2} . C_{8}^{3}=840)% (cách)<br>TH3: 3 xanh và 2 đỏ có: %(C_{6}^{3} \\cdot C_{8}^{2}=560)% (cách)<br>TH4: 4 xanh và 1 đỏ có: %(C_{6}^{4} \\cdot C_{8}^{1}=120)% (cách)<br>Suy ra %(n(A)=420+840+560+120=1940)%<br>Vậy %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{1940}{2002}=\\frac{970}{1001})%<br>Cách 2: Dùng biến cố đối.%(\\bar{A})% là biến cố \" 5 viên bi lấy ra có đúng 1 màu\"<br>\\[\\begin{array}{l}n(\\bar{A})=C_{6}^{5}+C_{8}^{5}=62 \\\\Rightarrow P(\\bar{A})=\\frac{n(\\bar{A})}{n(\\Omega)}=\\frac{62}{2002}=\\frac{31}{1001} \\Rightarrow P(A)=1-P(\\bar{A})=\\frac{970}{1001} .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Ít nhất một viên màu đỏ",
+        "question_images": [],
+        "solution": "Gọi B là biến cố \" 5 viên bi lấy ra có ít nhất một viên màu đỏ\"<br>%(\\bar{B})% là biến cố \" 5 viên bi lấy ra có không có viên màu đỏ nào\"<br>\\[\\Rightarrow n(\\bar{B})=C_{6}^{5}=6 \\Rightarrow P(\\bar{B})=\\frac{n(\\bar{B})}{n(\\Omega)}=\\frac{6}{2002}=\\frac{3}{1001}\\]<br>Vậy %(P(B)=1-P(\\bar{B})=\\frac{998}{1001})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "20 ",
+        "point": 0.5,
+        "content": "Có bao nhiêu cách sắp xếp 10 học sinh vào một hàng ngang?",
+        "question_images": [],
+        "solution": "Mỗi cách sắp xếp 10 học sinh vào một hàng ngang là một hoán vị của 10 phần tử<br>Tổng số cách sắp xếp 10 học sinh vào một hàng ngang là %(10!=3628800)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "21",
+        "group_content": "Trong một hộp có 10 viên bi trong đó có 4 viên bị xanh và 6 viên bi đỏ. Tính xác suất sao cho 4 viên bi lấy ra:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Toàn màu đỏ",
+        "question_images": [],
+        "solution": "Số cách chọn 4 viên bi từ 10 viên bi là: %(n(\\Omega)=C_{10}^{4}=210)%<br>%(A:)% \" 4 viên bi lấy ra toàn màu đỏ\"<br>Khi đó %(P(A)=\\frac{C_{6}^{4}}{210}=\\frac{1}{14})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Ít nhất 1 viên màu đỏ",
+        "question_images": [],
+        "solution": "%(B)% : \" 4 viên bi lấy ra có ít nhất 1 viên màu đỏ\"<br>%(\\bar{B})% : \"4 viên bi lấy ra không có viên đỏ\"<br>Khi đó %(P(B)=1-P(\\bar{B})=1-\\frac{C_{4}^{4}}{210}=\\frac{209}{210})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "22 ",
+        "point": 0.5,
+        "content": "Có bao nhiêu cách sắp xếp 8 học sinh vào một hàng dọc",
+        "question_images": [],
+        "solution": "Số cách sắp xếp 8 học sinh vào một hàng dọc bằng với số hoán vị 8 phần tử nên có %(8!=40320)% (cách sắp xếp)",
+        "question_type": "essay"
+    }
+]

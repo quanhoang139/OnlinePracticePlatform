@@ -1,0 +1,119 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Tính %(A=\\sqrt{13+30 \\sqrt{2+\\sqrt{9+4 \\sqrt{2}}}})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Ta có } \\sqrt{9+4 \\sqrt{2}}=\\sqrt{(2 \\sqrt{2}+1)^{2}}=2 \\sqrt{2}+1 \\\\ \\Rightarrow \\mathrm{A}=\\sqrt{13+30 \\sqrt{2+2 \\sqrt{2}+1}}=\\sqrt{13+30 \\sqrt{(\\sqrt{2}+1)^{2}}} \\\\ =\\sqrt{43+30 \\sqrt{2}}=\\sqrt{(5+3 \\sqrt{2})^{2}}=5+3\\sqrt{2}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 3.0,
+        "content": "Giải phương trình:<br>\\[\\sqrt{x+2-3 \\sqrt{2 x-5}}+\\sqrt{x-2+\\sqrt{2 x-5}}=2 \\sqrt{2}\\]",
+        "question_images": [],
+        "solution": "%(\\sqrt{x+2-3 \\sqrt{2 x-5}}+\\sqrt{x-2+\\sqrt{2 x-5}}=2 \\sqrt{2}(1))%<br>ĐK: %(x \\geq \\frac{5}{2})%<br>\\[\\begin{aligned}& (1) \\Leftrightarrow \\sqrt{2 x+4-6 \\sqrt{2 x-5}}+\\sqrt{2 x-4+2 \\sqrt{2 x-5}}=4 \\\\Leftrightarrow & \\sqrt{(\\sqrt{2 x-5}-3)^{2}}+\\sqrt{(\\sqrt{2 x-5}+1)^{2}} \\quad=4 \\\\Leftrightarrow & |\\sqrt{2 x-5}-3|+\\sqrt{2 x-5}+1 \\quad=4\\end{aligned}\\]<br>\\[\\Leftrightarrow|\\sqrt{2 x-5}-3| \\quad=3-\\sqrt{2 x-5}\\]<br>Ta được: %(\\sqrt{2 x-5}-3 \\leq 0 \\quad\\left(\\right.)% Vì %(|A|={ }^{A} \\Leftrightarrow A \\leq 0)% )<br>\\[\\Leftrightarrow \\sqrt{2 x-5} \\leq 3\\]<br>Kết hợp với điều kiện ta được:<br>\\[\\begin{aligned}& 0 \\leq 2 x-5 \\leq 3^{2} \\\\Leftrightarrow & 5 \\leq 2 x \\leq 14 \\\\Leftrightarrow & \\frac{5}{2} \\leq x \\leq 7\\end{aligned}\\]<br>Vậy: %(\\quad \\mathrm{S}=\\left\\{x / \\frac{5}{2} \\leq x \\leq 7\\right\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho biểu thức:<br>\\[A=\\frac{15 \\sqrt{x}-11}{x+2 \\sqrt{x}-3}+\\frac{3 \\sqrt{x}-2}{1-\\sqrt{x}}-\\frac{2 \\sqrt{x}+3}{\\sqrt{x}+3}\\]",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Rút gọn biểu thức A",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} A & =\\frac{15 \\sqrt{x}-11}{x+2 \\sqrt{x}-3}+\\frac{3 \\sqrt{x}-2}{1-\\sqrt{x}}-\\frac{2 \\sqrt{x}+3}{\\sqrt{x}+3} \\\\ & =\\frac{15 \\sqrt{x}-11}{(\\sqrt{x}-1)(\\sqrt{x}+3)}-\\frac{3 \\sqrt{x}-2}{\\sqrt{x}-1}-\\frac{2 \\sqrt{x}+3}{\\sqrt{x}+3} \\\\ & =\\frac{15 \\sqrt{x}-11-(3 \\sqrt{x}-2)(\\sqrt{x}+3)-(2 \\sqrt{x}+3)(\\sqrt{x}-1)}{(\\sqrt{x}-1)(\\sqrt{x}+3)} \\\\ & =\\frac{7 \\sqrt{x}-5 x-2}{(\\sqrt{x}-1)(\\sqrt{x}+3)} \\\\ & =\\frac{2-5 \\sqrt{x}}{\\sqrt{x}+3}\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Tìm x để %(A=\\frac{1}{2})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=\\frac{1}{2} \\\\ \\Leftrightarrow \\frac{1}{2}=\\frac{2-5 \\sqrt{x}}{\\sqrt{x}+3} \\\\ \\Leftrightarrow \\sqrt{x}=\\frac{1}{11} \\\\ \\Leftrightarrow x=\\frac{1}{121}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng với mọi số thực %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% luôn có: %(a^{2}+b^{2}+c^{2} \\geq a b+b c+c a)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}a^{2}+b^{2}+c^{2}-(a b+b c+a c) \\geq 0 \\\\Leftrightarrow\\left(\\frac{a^{2}}{2}-a b+\\frac{b^{2}}{2}\\right)+\\left(\\frac{b^{2}}{2}-b c+\\frac{c^{2}}{2}\\right)+\\left(\\frac{c^{2}}{2}-a c+\\frac{a^{2}}{2}\\right) \\geq 0 \\\\Leftrightarrow\\left(\\frac{a}{\\sqrt{2}}-\\frac{b}{\\sqrt{2}}\\right)^{2}+\\left(\\frac{b}{\\sqrt{2}}-\\frac{c}{\\sqrt{2}}\\right)^{2}+\\left(\\frac{c}{\\sqrt{2}}-\\frac{a}{\\sqrt{2}}\\right)^{2} \\geq 0\\end{array}\\]<br>Luôn đúng với mọi số thực %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho hai số dương %(\\mathrm{x}, \\mathrm{y})% thỏa mãn %(\\mathrm{xy}=3)%. tìm giá trị nhỏ nhất của %(P=\\frac{3}{x}+\\frac{9}{y}-\\frac{26}{3 x+y})%",
+        "question_images": [],
+        "solution": "Áp dụng bất đẳng thức Cô shi ta có:<br>\\[\\begin{array}{l}\\frac{3}{x}+\\frac{9}{y} \\geq 2 \\sqrt{\\frac{27}{x y}}=6(1) \\\\3 x+y \\geq 2 \\sqrt{3 x y}=6 \\Leftrightarrow \\frac{26}{3 x+y} \\leq \\frac{13}{3} \\Leftrightarrow \\frac{-26}{3 x+y} \\geq \\frac{-13}{3}(2)\\end{array}\\]<br>Từ (1) và (2)<br>\\[\\begin{array}{l}\\Rightarrow p=\\frac{3}{x}+\\frac{9}{y}-\\frac{26}{3 x+y} \\geq 6-\\frac{13}{3} \\\\Leftrightarrow \\frac{3}{x}+\\frac{9}{y}-\\frac{26}{3 x+y} \\geq \\frac{5}{3}\\end{array}\\]<br>Vậy Min %(\\mathrm{P}=\\frac{5}{3})% khi %(\\left\\{\\begin{array}{l}3 x=y \\\\ x y=3\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=1 \\\\ y=3\\end{array}\\right.\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình thang ABCD , có đáy nhỏ là CD . Từ D kẻ đường thẳng song song với cạnh bên BC , cắt AC tại M và AB tại K . Từ C kẻ đường thẳng song song với cạnh bên AD , cắt đáy AB tại F . Qua F kẻ đường thẳng song song với đường chéo AC , cắt cạnh bên BC tại P . Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) MP song song với AB",
+        "question_images": [],
+        "solution": "Áp dụng định lý Thales vào tam giác ABC ta có:<br>Vì FP //AC %(\\Rightarrow \\frac{C P}{P B}=\\frac{A F}{F B})%(1)<br>Áp dụng định lý Thales vào tam giác DMC ta có:<br>Vì AK //DC %(\\Rightarrow \\frac{C M}{A M}=\\frac{D C}{A K})% (2)<br>Các tứ giác AFCD và DCBK là những hình bình hành nên:<br>%(\\Rightarrow A F=D C ; F B=A K)%(3)<br>Từ (1), (2), (3) ta được:%(\\frac{C M}{A M}=\\frac{C P}{P B})% nên theo định lý Thales đảo ta có: %(\\mathrm{MP} / / \\mathrm{AB})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/df623997590857359dfafa1670f54045.png\" srcset=\"https://docdn.giainhanh.io/media/test/631b1a921a662ff7906207d2700d588f.png 234w, https://docdn.giainhanh.io/media/test/0c28c362a193bb15ec1b10514008a5fd.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Ba đường thẳng %(\\mathrm{MP}, \\mathrm{CF}, \\mathrm{DB})% đồng quy.",
+        "question_images": [],
+        "solution": "Gọi I là giao điểm của đường chéo DB và đoạn thẳng CF .<br>Theo câu a ta có: %(\\frac{C M}{A M}=\\frac{C P}{P B}=\\frac{D C}{A K}=\\frac{D C}{F B})%Mà %(\\frac{D C}{F B}=\\frac{D I}{I B} \\quad)% ( do %(\\mathrm{FB} / / \\mathrm{DC})% )<br>Nên %(\\frac{C P}{P B}=\\frac{D I}{I B})%suy ra: IP//DC hay IP//AB<br>Theo câu a) ta có %(\\mathrm{PM} / / \\mathrm{AB})%.<br>Theo tiên đề Euclide thì ba điểm %(\\mathrm{P}, \\mathrm{I}, \\mathrm{M})% cùng nằm trên một đường thẳng hay MP phải đi qua giao điểm I của DB và CF.<br>Vậy MP, CF, DB đồng quy tại I .",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Từ điểm A bên ngoài đường tròn tâm O , kẻ hai tiếp tuyến AB và AC với đường tròn đó ( %(\\mathrm{B}, \\mathrm{C})% là các tiếp điểm). Gọi E là một điểm trên cung nhỏ BC . Qua E kẻ tiếp tuyến với đường tròn cắt AB và AC tại M và N . Qua O kẻ đường thẳng vuông góc với OA cắt tia AB và AC lần lượt tại I và J . Chứng minh:",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) %(\\mathrm{MN}=\\mathrm{MB}+\\mathrm{NC})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Ta có: } \\mathrm{MN}=\\mathrm{ME}+\\mathrm{NE} \\\\ \\text { mà: } \\mathrm{ME}=\\mathrm{MB} \\quad \\text { ( tính chất hai tiếp tuyến cắt nhau) } \\\\ \\quad \\mathrm{NE}=\\mathrm{NC} \\quad \\text { ( tính chất hai tiếp tuyến cắt nhau) } \\\\ \\Rightarrow \\mathrm{MN}=\\mathrm{MB}+\\mathrm{NC}\\end{array})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/434e64ac98c89b2e0f597cf81f06b0ba.png\" srcset=\"https://docdn.giainhanh.io/media/test/cfade80e0a90b00c3c1ee3dfe58b39c0.png 245w, https://docdn.giainhanh.io/media/test/ed7ad20befbcfc848b30f1aaf96ed4eb.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) %(IA=JA)%",
+        "question_images": [],
+        "solution": "Ta có: OA là phân giác %(\\angle \\mathrm{IAJ})% (tính chất hai tiếp tuyến cắt nhau)<br>mà: %(\\quad \\mathrm{OA} \\perp \\mathrm{IJ})%<br>suy ra, %(\\Delta \\mathrm{IAJ})% cân tại %(\\mathrm{A} \\Rightarrow \\mathrm{IA}=\\mathrm{JA})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) %(\\angle O I A=\\angle M O N=\\angle O J A=\\frac{180^{\\circ}-\\angle B A C}{2})%",
+        "question_images": [],
+        "solution": "Do %(\\triangle \\mathrm{IAJ})% cân tại %(\\mathrm{A} \\Rightarrow \\angle \\mathrm{OIA}=\\angle \\mathrm{OJA}=)%<br>\\[\\frac{180^{\\circ}-\\angle B A C}{2}\\]<br>Vì %(\\mathrm{AB}, \\mathrm{AC}, \\mathrm{MN})% là các tiếp tuyến nên:<br>\\[\\begin{aligned}\\angle \\mathrm{BOM} & =\\angle \\mathrm{MOE} \\\\angle \\mathrm{EON} & =\\angle \\mathrm{NOC} \\\\Rightarrow \\angle \\mathrm{MON} & =\\frac{\\angle B O C}{2}=\\frac{180^{\\circ}-\\angle B A C}{2}\\end{aligned}\\]<br>Từ (1), (2) %(\\Rightarrow \\angle O I A=\\angle M O N=\\angle O J A=\\frac{180^{\\circ}-\\angle B A C}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 1.0,
+        "content": "d) %(\\mathrm{OI}^{2}=\\mathrm{IM} . \\mathrm{JN})%",
+        "question_images": [],
+        "solution": "Do %(\\Delta \\mathrm{IOM})% đồng dạng %(\\Delta \\mathrm{JNO})% ( cùng đồng dạng với%(\\Delta \\mathrm{ONM}))%<br>\\[\\begin{array}{l}\\Rightarrow \\frac{I M}{J O}=\\frac{O I}{J N} \\Rightarrow \\mathrm{IM} \\cdot \\mathrm{JN}=\\mathrm{OI} . \\mathrm{OJ} \\\\text { Mà } \\mathrm{OI}=\\mathrm{OJ} \\text { nên } \\mathrm{IM} . \\mathrm{JN}=\\mathrm{OI}^{2} .\\end{array}\\]",
+        "question_type": "essay"
+    }
+]

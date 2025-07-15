@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức: %(\\mathrm{P}=\\left[\\frac{(\\mathrm{x}-1)^{2}}{3 \\mathrm{x}+(\\mathrm{x}-1)^{2}}-\\frac{1-2 \\mathrm{x}^{2}+4 \\mathrm{x}}{\\mathrm{x}^{3}-1}+\\frac{1}{\\mathrm{x}-1}\\right]: \\frac{2 \\mathrm{x}}{\\mathrm{x}^{3}+\\mathrm{x}})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Rút gọn P",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text {Phân thức } \\mathrm{P} \\text { xác định khi: } \\mathrm{x} \\neq 1, \\mathrm{x} \\neq 0 \\\\ \\mathrm{P}=\\left[\\frac{(x-1)^{2}}{3 \\mathrm{x}+(\\mathrm{x}-1)^{2}}-\\frac{1-2 \\mathrm{x}^{2}+4 \\mathrm{x}}{\\mathrm{x}^{3}-1}+\\frac{1}{\\mathrm{x}-1}\\right]: \\frac{2 \\mathrm{x}}{\\mathrm{x}^{3}+\\mathrm{x}} \\\\ =\\left[\\frac{\\mathrm{x}^{2}-2 \\mathrm{x}+1}{\\mathrm{x}^{2}+x+1}-\\frac{1-2 x^{2}+4 x}{(x-1)\\left(x^{2}+x+1\\right)}+\\frac{1}{x-1}\\right]: \\frac{2 x}{x\\left(x^{2}+1\\right)} \\\\ =\\frac{(x-1)\\left(x^{2}-2 x+1\\right)-\\left(1-2 x^{2}+4 x\\right)+x^{2}+x+1}{(x-1)\\left(x^{2}+x+1\\right)}: \\frac{2}{x^{2}+1} \\\\ =\\frac{x^{3}-1}{(x-1)\\left(x^{2}+x+1\\right)} \\cdot \\frac{x^{2}+1}{2} \\\\ =\\frac{x^{2}+1}{2}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm x để %(\\mathrm{P}\\lt 5)%",
+        "question_images": [],
+        "solution": "Theo đề ra %(\\mathrm{P}\\lt 5 \\Leftrightarrow \\frac{\\mathrm{x}^{2}+1}{2}\\lt 5)%<br>%(\\begin{array}{l}\\Leftrightarrow x^{2}+1\\lt 10 \\\\Leftrightarrow x^{2}\\lt 9 \\\\Leftrightarrow-3\\lt x\\lt 3\\end{array})%<br>Kết hợp với điều kiện : ta có %(-3\\lt \\mathrm{x}\\lt 3)% và %(\\mathrm{x} \\neq 1, \\mathrm{x} \\neq 0)% thì %(\\mathrm{P}\\lt 5)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm GTNN và GTLN: %(A=\\frac{4 x+3}{x^{2}+1})%",
+        "question_images": [],
+        "solution": "Ta có %(: 4 x+3=x^{2}+4 x+4-x^{2}-1=(x+2)^{2}-\\left(x^{2}+1\\right))%<br>%(A=\\frac{4 x+3}{x^{2}+1}=\\frac{(x+2)^{2}}{x^{2}+1}-\\frac{x^{2}+1}{x^{2}+1}=\\frac{(x+2)^{2}}{x^{2}+1}-1 \\geq-1)%<br>Vậy GTNN của A là -1 khi %(x=-2)%<br>Mặt khác : Ta có %(4 \\mathrm{x}+3=4 \\mathrm{x}^{2}+4-4 \\mathrm{x}^{2}+4 \\mathrm{x}-1=4\\left(\\mathrm{x}^{2}+1\\right)-(2 \\mathrm{x}-1)^{2})%<br>%(A=\\frac{4 x+3}{x^{2}+1}=\\frac{4\\left(x^{2}+1\\right)}{x^{2}+1}-\\frac{(2 x-1)^{2}}{x^{2}+1}=4-\\frac{(2 x-1)^{2}}{x^{2}+1} \\leq 4)%<br>Vậy GTLN của A là 4 khi %(x=1 / 2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là độ dài ba cạnh của tam giác thỏa mãn %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}=1)%<br>Chứng minh: %(\\mathrm{a}^{2}+\\mathrm{b}^{2}+\\mathrm{c}^{2}\\lt \\frac{1}{2})%",
+        "question_images": [],
+        "solution": "Vì a, b,c là đọ dài 3 cạnh của tam giác nên<br>%(\\begin{array}{l}a\\gt |b-c| \\geq 0 \\b>|a-c| \\geq 0 \\c>|a-b| \\geq 0\\end{array})%<br>Do đó :<br>\\[\\left.\\begin{array}{l}a^{2}\\gt (b-c)^{2} \\Rightarrow a^{2}>b^{2}+c^{2}-2 b c \\b^{2}>(a-c)^{2} \\Rightarrow b^{2}>a^{2}+c^{2}-2 a c \\c^{2}>(a-b)^{2} \\Rightarrow c^{2}>a^{2}+b^{2}-2 a b\\end{array}\\right\\} \\Rightarrow a^{2}+b^{2}+c^{2}>2 a^{2}+2 b^{2}+2 c^{2}-2(a b+a c+b c)\\]<br>Vậy: %(a^{2}+b^{2}+c^{2}\\lt 2(a b+b c+c a)(1))%<br>Ta có: %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}=1 \\Rightarrow(a+b+c)^{2}=1 \\Leftrightarrow a^{2}+b^{2}+c^{2}+2(a b+b c+c a)=1)%<br>%(\\Leftrightarrow 2(a b+b c+c a)=1-\\left(a^{2}+b^{2}+c^{2}\\right)(2))%<br>Từ (1),(2) suy ra : %(a^{2}+b^{2}+c^{2}\\lt 1-\\left(a^{2}+b^{2}+c^{2}\\right))%<br>Vậy: %(a^{2}+b^{2}+c^{2}\\lt \\frac{1}{2})% (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %((x-2)(x+2)\\left(x^{2}-10\\right)=72)%",
+        "question_images": [],
+        "solution": "Phương trình: %((x-2)(x+2)\\left(x^{2}-10\\right)=72)%<br>%(\\begin{array}{l}\\Leftrightarrow(\\mathrm{x}-2)(\\mathrm{x}+2)\\left(\\mathrm{x}^{2}-10\\right)=72 \\\\Leftrightarrow\\left(\\mathrm{x}^{2}-4\\right)\\left(\\mathrm{x}^{2}-10\\right)=72\\end{array})%<br>Đặt %(x^{2}-7=y)%, phương trình trở thành %((y-3)(y+3)=72)%<br>%(\\begin{array}{l}\\Leftrightarrow y^{2}-9=72 \\\\Leftrightarrow y^{2}=81 \\\\Leftrightarrow y=9 \\text { hoặc } y=-9\\end{array})%<br>Với %(y=9 \\Leftrightarrow x^{2}-7=9 \\Leftrightarrow x=4)% hoặc %(x=-4)%<br>Với %(y=-9 \\Leftrightarrow x^{2}-7=-9 \\Leftrightarrow x^{2}=-2)%, vô nghiệm<br>Vậy phương trình có hai nghiệm %(x=4, x=-4)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Tìm giá trị nguyên ( x ;y) thỏa mãn phương trình:  %(x^{2}-x y=6 x-5 y-8)%",
+        "question_images": [],
+        "solution": "Ta có %(x^{2}-x y=6 x-5 y-8 \\Leftrightarrow x^{2}-6 x+8=y(x-5)(1))%<br>%(\\Leftrightarrow \\mathrm{y}=\\frac{x^{2}-6 x+8}{x-5})% (vì %(\\mathrm{x}=5)% không là nghiệm của phương trình (1))<br>%(\\Leftrightarrow \\mathrm{y}=\\mathrm{x}-1+\\frac{3}{x-5})%. Vì %(\\mathrm{x}, \\mathrm{y})% là nguyên nên %(\\mathrm{x}-5)% là ước của 3<br>%(\\Rightarrow x-5 \\in\\{-1,1,-3,3\\})%<br>%(\\Rightarrow \\mathrm{x} \\in\\{4,6,2,8\\})%<br>Khi %(\\mathrm{x}=2)% thì %(\\mathrm{y}=0)%;<br>Khi %(\\mathrm{x}=4)% thì %(\\mathrm{y}=0)%<br>Khi %(\\mathrm{x}=6)% thì %(\\mathrm{y}=8)%;<br>Khi %(\\mathrm{x}=8)% thì %(\\mathrm{y}=8)%<br>Vậy phương trình có nghiệm nguyên %((\\mathrm{x}, \\mathrm{y}))% là %((2,0),(4,0),(6,8),(8,8))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình thang %(\\mathrm{ABCD}(\\mathrm{AB} / / \\mathrm{CD}))%, gọi O là giao điểm hai đường chéo AC và BD . Đường thẳng qua O song song với AB cắt AD và BC lần lượt tại M và N .",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(\\mathrm{OM}=\\mathrm{ON})%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c623065d52f7576c57ffbc8f778d975b.png\" srcset=\"https://docdn.giainhanh.io/media/test/705d73876355362468ae0fb252bd17cc.png 245w\" width=\"245\"/><br>Ta có %(\\mathrm{MN} / \\mathrm{DC} \\Rightarrow \\frac{O A}{O C}=\\frac{O B}{O D})% (Theo hệ quả của định lí Talet)<br>%(\\Rightarrow \\frac{O A}{O A+O C}=\\frac{O B}{O B+O D} \\Rightarrow \\frac{O A}{A C}=\\frac{O B}{B D})% (1)<br>%(\\mathrm{Do} \\mathrm{MO} / \\mathrm{DC} \\Rightarrow \\frac{O M}{C D}=\\frac{O A}{A C})% (2) (Theo hệ quả của định lí Talet)<br>%(\\mathrm{Do} \\mathrm{ON} / \\mathrm{DC} \\Rightarrow \\frac{O N}{D C}=\\frac{O B}{B D})% (3) (Theo hệ quả của định li Talet)<br>Từ (1), (2), (3) suy ra %(\\frac{O M}{D C}=\\frac{O N}{D C} \\Rightarrow \\mathrm{OM}=\\mathrm{ON})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng %(\\operatorname{minh} \\frac{1}{A B}+\\frac{1}{C D}=\\frac{2}{M N})%.",
+        "question_images": [],
+        "solution": "Do %(\\mathrm{MO} / / \\mathrm{CD} \\Rightarrow \\frac{O M}{C D}=\\frac{A M}{A D})%<br>Và %(\\mathrm{MO} / / \\mathrm{CD} \\Rightarrow \\frac{O M}{A B}=\\frac{D M}{A D})%.<br>Do đó: %(\\frac{O M}{D C}+\\frac{O M}{A B}=\\frac{A M+M D}{A D}=\\frac{A D}{A D}=1)% (a)<br>Tương tự: %(\\frac{O N}{D C}+\\frac{O N}{A B}=1)% (b)<br>Từ (a) và (b) %(\\Rightarrow \\frac{M N}{D C}+\\frac{M N}{A B}=2)%<br>%(\\Rightarrow \\frac{1}{D C}+\\frac{1}{A B}=\\frac{2}{M N})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Biết %(S_{A O B}=a^{2} ; S_{C O D}=b^{2})%. Tính %(S_{A B C D})% ?",
+        "question_images": [],
+        "solution": "Kẻ OH vuông góc với %(\\mathrm{BD}(\\mathrm{H})% thuộc BD%())%, ta có:<br>%(\\begin{array}{l}S_{A O B}=\\frac{1}{2} A H . O B ; S_{A O D}=\\frac{1}{2} A H . O D \\\\Rightarrow \\frac{S_{A O B}}{S_{A O D}}=\\frac{O B}{O D}\\end{array})%<br>Tương tự ta có %(\\frac{S_{A O D}}{S_{C O D}}=\\frac{O A}{O C})%<br>Mặt khác %(\\frac{O B}{O D}=\\frac{O A}{O C} \\Rightarrow \\frac{S_{A O B}}{S_{A O D}}=\\frac{S_{A O D}}{S_{C O D}})%<br>%(\\Rightarrow S^{2}{ }_{A O D}=S_{A O B} S_{C O D}=a^{2} b^{2})% nên %(S_{A O D}=a b)%.<br>Chứng minh tương tự, ta có %(S_{B O C}=a b)%.<br>%(S_{A B C D}=S_{A O B}+S_{A O D}+S_{B O C}+S_{D O C})%<br>Vậy %(S_{A B C D}=(a+b)^{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 1.0,
+        "content": "d) Nếu %(\\widehat{A D C}\\lt \\widehat{B C D}\\lt 90^{\\circ})%. Chứng minh %(\\mathrm{BD}\\gt \\mathrm{AC})%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" src=\"https://docdn.giainhanh.io/media/test/9b537232063c245baccf96b6d688c1d4.png\"/><br>Từ A kẻ %(\\mathrm{AE} / \\mathrm{BC})% (E thuộc DC ).<br>Kẻ %(\\mathrm{AI}, \\mathrm{BK})% vuông góc với CD tại I và K , ta có %(\\mathrm{AI}=\\mathrm{BK})%<br>Do %(\\widehat{D}\\lt \\widehat{C}\\lt 90^{\\circ})% nên %(\\mathrm{I}, \\mathrm{K})% nằm trong đoạn CD<br>Ta có %(\\widehat{A E D}=\\widehat{B C D})% (đồng vị), %(\\widehat{A D C}\\lt \\widehat{B C D})% (giả thiết)<br>%(\\Rightarrow \\widehat{A D E}\\lt \\widehat{A E D})%<br>%(\\Rightarrow \\mathrm{AD}\\gt \\mathrm{AE})% (góc và cạnh đối diện trong một tam giác)<br>%(\\Rightarrow \\mathrm{DI}>\\mathrm{EI})% (quan hệ giữa đường xiện và hình chiếu). (c)<br>Ta có: %(\\mathrm{BC}=\\mathrm{AE}\\left(\\mathrm{V}_{1} \\mathrm{BCEA}\\right.)% là hình bình hành %())% và %(\\widehat{A E D}=\\widehat{B C D})%nên %(\\triangle \\mathrm{AIE}=\\triangle \\mathrm{BKC})% (Cạnh huyền - góc nhọn)<br>%(\\Rightarrow \\mathrm{IE}=\\mathrm{KC} \\text { (d) })%<br>Từ (c) và (d) %(\\Rightarrow \\mathrm{DI}>\\mathrm{KC} \\Rightarrow \\mathrm{DI}+\\mathrm{IK}>\\mathrm{KC}+\\mathrm{IK})%<br>Hay DK %(>)% CI.<br>Áp dụng định lý pitago cho hai tam giác vuông BKD và ACI , ta có :<br>%(\\begin{array}{l}D B^{2}=B K^{2}+D K^{2}>A I^{2}+C I^{2}=A C^{2} \\\\text { (Do } A I^{2}=B K^{2} \\text { ) } \\Rightarrow B D>A C\\end{array})%",
+        "question_type": "essay"
+    }
+]

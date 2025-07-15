@@ -1,0 +1,89 @@
+[
+    {
+        "title": "Câu 1.1 ",
+        "point": 1.0,
+        "content": "Phân tích biểu thức sau thành nhân tử: %(P=2 a^{3}+7 a^{2} b+7 a b^{2}+2 b^{3})%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}P=2 a^{3}+7 a^{2} b+7 a b^{2}+2 b^{3}=2\\left(a^{3}+b^{3}\\right)+7 a b(a+b) \\\\=2(a+b)\\left(a^{2}-a b+b^{2}\\right)+7 a b(a+b) \\\\=(a+b)\\left(2 a^{2}-2 a b+2 b^{2}+7 a b\\right) \\\\=(a+b)\\left[\\left(2 a^{2}+4 a b\\right)+\\left(a b+2 b^{2}\\right)\\right] \\\\=(a+b)[2 a(a+2 b)+b(a+2 b)]=(a+b)(2 a+b)(a+2 b)\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 1.2 ",
+        "point": 1.0,
+        "content": "Cho ba số thực %(a, b, c \\neq 0)% và đôi một khác nhau thỏa mãn %(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=0)%. Tính giá trị của biểu thức: %(A=\\frac{1}{a^{2}+2 b c}+\\frac{1}{b^{2}+2 a c}+\\frac{1}{c^{2}+2 a b})%.",
+        "question_images": [],
+        "solution": "Ta có %(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=0 \\Leftrightarrow a b+b c+c a=0)%<br>\\[\\Rightarrow a^{2}+2 b c=a^{2}+b c-a b-c a=(a-b)(a-c)\\]<br>Tương tự: %(b^{2}+2 a c=(b-a)(b-c), c^{2}+2 b a=(c-a)(c-b))%<br>Khi đó:<br>%(\\begin{aligned} A & =\\frac{1}{(a-b)(a-c)}+\\frac{1}{(b-a)(b-c)}+\\frac{1}{(c-a)(c-b)} \\\\ & =\\frac{c-b+a-c+b-a}{(a-b)(b-c)(c-a)}=0\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2.1 ",
+        "point": 1.0,
+        "content": "Rút gọn biểu thức: %(A=\\frac{x^{3}-x}{x^{2}+1} \\cdot\\left(\\frac{1}{x^{2}-2 x+1}+\\frac{1}{1-x^{2}}\\right)-\\frac{x^{2}+x+1}{x^{3}-1})%, với %(x \\neq \\pm 1)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Với } x \\neq \\pm 1 \\text { ta có } \\\\ A=\\frac{x^{3}-x}{x^{2}+1} \\cdot\\left(\\frac{1}{x^{2}-2 x+1}+\\frac{1}{1-x^{2}}\\right)-\\frac{x^{2}+x+1}{x^{3}-1} \\\\ =\\frac{x\\left(x^{2}-1\\right)}{x^{2}+1} \\cdot\\left(\\frac{1}{(x-1)^{2}}-\\frac{1}{(x-1)(x+1)}\\right)-\\frac{x^{2}+x+1}{(x-1)\\left(x^{2}+x+1\\right)} \\\\ =\\frac{x\\left(x^{2}-1\\right)}{x^{2}+1} \\cdot \\frac{(x+1)-(x-1)}{(x-1)^{2} \\cdot(x+1)}-\\frac{1}{x-1} \\\\ =\\frac{x(x-1)(x+1)}{x^{2}+1} \\cdot \\frac{2}{(x-1)^{2} \\cdot(x+1)}-\\frac{1}{x-1}=\\frac{2 x}{\\left(x^{2}+1\\right)(x-1)}-\\frac{1}{x-1} \\\\ =\\frac{2 x-\\left(x^{2}+1\\right)}{\\left(x^{2}+1\\right)(x-1)}=\\frac{-\\left(x^{2}-2 x+1\\right)}{\\left(x^{2}+1\\right)(x-1)}=\\frac{-(x-1)^{2}}{\\left(x^{2}+1\\right)(x-1)} \\\\ =\\frac{1-x}{x^{2}+1} . \\\\{ Vậy } \\ A=\\frac{1-x}{x^{2}+1} \\text { với } x \\neq \\pm 1 .\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2.2 ",
+        "point": 1.0,
+        "content": "Cho phương trình ẩn %(x)% sau: %((2 x+m)(x-1)-2 x^{2}+m x+m-2=0)% (%(m)% là tham số). Tìm các giá trị của %(m)% để phương trình có nghiệm là một số không âm.",
+        "question_images": [],
+        "solution": "- Xét phương trình: %((2 x+m)(x-1)-2 x^{2}+m x+m-2=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow 2 x^{2}+m x-2 x-m-2 x^{2}+m x+m-2=0 \\\\Leftrightarrow 2 m x-2 x-2=0\\end{array}\\]<br>%(\\Leftrightarrow(m-1) x=1(*))%<br>- Nếu %(m-1 \\neq 0 \\Leftrightarrow m \\neq 1)% thì phương trình (*) có nghiệm duy nhất: %(x=\\frac{1}{m-1})%<br>- Nếu %(m-1=0 \\Leftrightarrow m=1)% thì phương trình %((*))% trở thành: %(0 x=1)% (PT vô nghiệm)<br>%(\\Rightarrow m \\neq 1)% thì phương trình %(\\left({ }^{*}\\right))% có nghiệm %(x=\\frac{1}{m-1})%<br>Để nghiệm của phương trình %(\\left({ }^{*}\\right))% là một số không âm thì<br>\\[x=\\frac{1}{m-1} \\geq 0 \\Leftrightarrow m-1\\gt 0 \\Leftrightarrow m>1\\]<br>Kết hợp với %(\\mathrm{ÐK}: m \\neq 1)% ta có %(m>1)%<br>Vậy %(m>1)% thì phương trình có nghiệm là một số không âm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3.1 ",
+        "point": 1.0,
+        "content": "Cho hai số hữu tỉ %(a, b)% khác 0 thỏa mãn: %(a^{3} b+2 \\mathrm{a}+a b^{3}+2 b+2 \\mathrm{a}^{2} b^{2}+1=0)%. Chứng minh rằng: %(1-a b)% là bình phương của một số hữu tỉ.",
+        "question_images": [],
+        "solution": "Ta có<br>\\[\\begin{array}{l}a^{3} b+2 \\mathrm{a}+a b^{3}+2 b+2 \\mathrm{a}^{2} b^{2}+1=0 \\\\Leftrightarrow\\left(a^{3} b+2 \\mathrm{a}^{2} b^{2}+a b^{3}\\right)+(2 \\mathrm{a}+2 b)+1=0 \\\\Leftrightarrow a b\\left(a^{2}+2 \\mathrm{a} b+b^{2}\\right)+2(a+b)+1=0 \\\\Rightarrow a^{2} b^{2}\\left(a^{2}+2 \\mathrm{a} b+b^{2}\\right)+2 \\mathrm{a} b(a+b)+a b=0(\\text { do } a b \\neq 0) \\\\Leftrightarrow a^{2} b^{2}\\left(a^{2}+2 \\mathrm{a} b+b^{2}\\right)+2 \\mathrm{a} b(a+b)+1=1-a b \\\\Leftrightarrow[a b(a+b)+1]^{2}=1-a b\\end{array}\\]<br>Do %(\\mathrm{a}, \\mathrm{b})% là các số hữu tỉ nên %(a b(a+b)+1)% là số hữu tỉ.<br>Vây 1 - ab là bình phương của môt số hữu tỉ.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3.2 ",
+        "point": 1.0,
+        "content": "Tìm %(x, y)% nguyên thỏa mãn: %(6 x^{2}+7 x y+2 y^{2}+x+y-2=0)%.",
+        "question_images": [],
+        "solution": "Ta có: %(6 x^{2}+7 x y+2 y^{2}+x+y-2=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow 6 x^{2}+7 x y+2 y^{2}+x+y-1=1 \\\\Leftrightarrow 6 x^{2}+4 x y-2 x+3 x y+2 y^{2}-y+3 x+2 y-1=1 \\\\Leftrightarrow 2 x(3 x+2 y-1)+y(3 x+2 y-1)+(3 x+2 y-1)=1 \\\\Leftrightarrow(2 x+y+1)(3 x+2 y-1)=1 \\quad\\left({ }^{*}\\right)\\end{array}\\]<br>Do %(\\mathrm{x})%, %(\\mathrm{y})% là các số nguyên nên %(2 x+y+1,3 x+2 y-1)% là các số nguyên nên ta có:%(\\left(^{*}\\right) \\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}2 x+y+1=1 \\\\ 3 x+2 y-1=1\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}2 x+y+1=-1 \\\\ 3 x+2 y-1=-1\\end{array}\\right.\\end{array}\\right.)%%((1) \\Leftrightarrow\\left\\{\\begin{array}{l}x=-2 \\\\ y=4\\end{array}\\right.)%%((2) \\Leftrightarrow\\left\\{\\begin{array}{l}x=-4 \\\\ y=6\\end{array}\\right.)%<br>Vậy các cặp số nguyên %((x ; y))% cần tìm là %((-2 ; 4),(-4 ; 6))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4.1",
+        "group_content": "Cho hình vuông %(A B C D, M)% là một điểm nằm giữa %(B)% và %(C)%. Kẻ %(A N)% vuông góc với %(A M ; A P)% vuông góc với %(M N(N)% và %(P)% thuộc đường thẳng %(C D))%. Gọi %(Q)% là giao điểm của tia %(A M)% và tia %(D C)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng: tam giác %(A M N)% vuông cân.",
+        "question_images": [],
+        "solution": "Ta có %(A B C D)% là hình vuông (gt) nên %(\\left\\{\\begin{array}{l}A D=A B \\\\ \\angle D A B=\\angle B=\\angle C D A=90^{\\circ}\\end{array}\\right.)% (tính chất hình vuông)<br>\\[\\Rightarrow A D \\perp D C \\text {. Vì } \\angle N A D+\\angle D A M=\\angle N A M=90^{\\circ}(A N \\perp A M)\\]<br>Và %(\\angle B A M+\\angle D A M=\\angle D A B(c m t) \\Rightarrow \\angle N A D=\\angle M A B)%<br>Xét %(\\triangle N A D, \\triangle M A B)% ta có:<br>\\[\\begin{array}{l}\\angle N D A=\\angle M B A=90^{\\circ}, A D=A B(\\mathrm{cmt}), \\angle N A D=\\angle M A B(\\mathrm{cmt}) \\\\Rightarrow \\triangle N A D=\\triangle M A B(\\text { g.c.g }) \\\\Rightarrow A N=A M\\end{array}\\]<br>Lại có %(\\angle M A N=90^{\\circ}(A N \\perp A M) \\Rightarrow \\triangle A M N)% vuông cân tại %(\\mathrm{A})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/8f83316e5ce9d710a3ee22f015e07bde.png\" srcset=\"https://docdn.giainhanh.io/media/test/6e34aba64d05b32ecfd9d3bd2254a6a1.png 245w, https://docdn.giainhanh.io/media/test/4c773b66f0ad03749093e912dadf9728.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh rằng: %(A N^{2}=N C \\cdot N P)% và %(\\frac{1}{A M^{2}}+\\frac{1}{A Q^{2}}=\\frac{1}{A D^{2}})%.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{O})% là giao điềm của %(M N)% và %(A P \\Rightarrow A P \\perp M N)% tại %(\\mathrm{O})%<br>Xét %(\\triangle A N O)% và %(\\triangle M N A)% có: %(\\angle A O N=\\angle M A N=90^{\\circ}, \\angle A N O)% chung<br>\\[\\begin{array}{l}\\Rightarrow \\triangle A N O \\sim \\triangle M N A \\text { (g.g) } \\\\Rightarrow \\frac{A N}{N M}=\\frac{N O}{A N} \\Rightarrow A N^{2}=N O . N M(1)\\end{array}\\]<br>Xét %(\\triangle N O P)% và %(\\triangle N C M)% có: %(\\angle N O P=\\angle N C M=90^{\\circ}, \\angle O N P)% chung %(\\Rightarrow \\triangle N O P \\sim \\triangle N C M(\\mathrm{~g} . \\mathrm{g}))%<br>\\[\\Rightarrow \\frac{N O}{N C}=\\frac{N P}{N M} \\Rightarrow N O . N M=N P . N C\\]<br>Từ (1) và %((2) \\Rightarrow A N^{2}=N P . N C(d f c m))%<br>Xét %(\\triangle A N Q)% có đường cao %(A D)%<br>%(S_{A N Q}=\\frac{1}{2} D A \\cdot N Q=\\frac{1}{2} A N \\cdot A Q(\\triangle A N Q)% vuông cân tại %(\\mathrm{A}))%<br>\\[\\Rightarrow A D \\cdot N Q=A N \\cdot A Q \\Rightarrow \\frac{N Q}{A N \\cdot A Q}=\\frac{1}{A D} \\Rightarrow \\frac{N Q^{2}}{A N^{2} \\cdot A Q^{2}}=\\frac{1}{A D^{2}}(3)\\]<br>Áp dụng định lí Pythagore vào %(\\triangle A N Q)% vuông tại %(A)% ta có<br>\\[N Q^{2}=A N^{2}+A Q^{2}(4)\\]<br>Từ (3) và (4) suy ra %(\\frac{1}{A D^{2}}=\\frac{A N^{2}+A Q^{2}}{A N^{2} \\cdot A Q^{2}}=\\frac{1}{A Q^{2}}+\\frac{1}{A N^{2}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4.2 ",
+        "point": 1.0,
+        "content": "Cho tam giác %(A B C)% vuông tại %(A, G)% là trọng tâm của tam giác, đường thẳng %(d)% bất kì đi qua %(G)% cắt cạnh %(A B, A C)% tại %(M, N)%. Chứng minh rằng: %(\\frac{1}{A M^{2}}+\\frac{1}{A N^{2}} \\geq \\frac{9}{B C^{2}})%.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{H})% là chân đường vuông góc kẻ từ %(\\mathrm{A})% lên đường thẳng %(\\mathrm{d})% và %(\\mathrm{I})% là giao điểm của %(\\mathrm{AG})% và %(\\mathrm{BC})%<br>%(=\\gt \\mathrm{I})% là trung điểm của %(\\mathrm{BC})%<br>Xét %(\\triangle A M N)% vuông tại %(\\mathrm{A})% đường cao %(\\mathrm{AH})%.<br>Chứng minh được: %(\\frac{1}{\\mathrm{AM}^{2}}+\\frac{1}{\\mathrm{AN}^{2}}=\\frac{1}{\\mathrm{AH}^{2}}(1))%<br>Mặt khác ta có: %(\\mathrm{AH} \\leq \\mathrm{AG})% nên<br>\\[\\frac{1}{\\mathrm{AH}^{2}} \\geq \\frac{1}{\\mathrm{AG} G^{2}}=\\frac{1}{\\left(\\frac{2}{3} \\cdot \\mathrm{AI}\\right)^{2}}=\\frac{9}{B C^{2}}(2)\\]<br>( Vì %(\\mathrm{I})% là trung điểm của cạnh huyền %(\\mathrm{BC})% )<br>Từ (1) và %((2)=>\\frac{1}{\\mathrm{AM}^{2}}+\\frac{1}{\\mathrm{AN}^{2}} \\geq \\frac{9}{B C^{2}})%<br>Dấu bằng xảy ra khi đường thẳng %(\\mathrm{d})% vuông góc với %(\\mathrm{AI})% tại %(\\mathrm{G})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3ef64a974b780c5ce58daca19f564341.png\" srcset=\"https://docdn.giainhanh.io/media/test/15c93589d2319ccdafce9fd6f9228985.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 1.0,
+        "content": "Cho %(x ; y)% là các số thực thay đổi, thỏa mãn điều kiện: %(x\\gt y>0)% và %(x y=4)%. Tìm giá trị nhỏ nhất của biểu thức: %(P=\\frac{x^{2}+y^{2}}{x-y+1})%.",
+        "question_images": [],
+        "solution": "Đặt %(x-y+1=a \\Rightarrow x-y=a-1 \\Rightarrow(x-y)^{2}=(a-1)^{2})%<br>%(\\Rightarrow x^{2}+y^{2}=a^{2}-2 a+9)% (vì %(x y=4)% )<br>%(\\Rightarrow A=\\frac{a^{2}-2 a+9}{a}=a+\\frac{9}{a}-2)%<br>Do %(x\\gt y>0 \\quad \\Rightarrow a>0)%<br>Áp dụng BĐT Côsi ta có %(a+\\frac{9}{a} \\geq 2 \\sqrt{a \\cdot \\frac{9}{a}}=6)%.<br>Dấu \" %(=)% \" xảy ra khi %(a=3)%%(\\Rightarrow A \\geq 6-2=4)%.<br>Dấu \" %(=)% \" xảy ra khi %(a=3)%<br>Khi đó %(\\left\\{\\begin{array}{l}x>y>0 \\\\ x y=4 \\\\ x-y=2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=\\sqrt{5}+1 \\\\ y=\\sqrt{5}-1\\end{array}\\right.\\right.)%<br>Vậy MinA = 4 khi %(\\left\\{\\begin{array}{l}x=\\sqrt{5}+1 \\\\ y=\\sqrt{5}-1\\end{array}\\right.)%",
+        "question_type": "essay"
+    }
+]

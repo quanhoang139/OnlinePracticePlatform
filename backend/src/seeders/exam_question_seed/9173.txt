@@ -1,0 +1,97 @@
+[
+    {
+        "title": "1.1 ",
+        "point": 2.0,
+        "content": "Rút gọn biểu thức: %(P=\\frac{\\sqrt{x+2 \\sqrt{x-1}}+\\sqrt{x-2 \\sqrt{x-1}}}{\\sqrt{x+\\sqrt{2 x-1}}-\\sqrt{x-\\sqrt{2 x-1}}})%, với %(x \\geq 2)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}P=\\frac{\\sqrt{x-1+2 \\sqrt{x-1}+1}+\\sqrt{x-1-2 \\sqrt{x-1}+1}}{\\frac{\\sqrt{2 x-1+2 \\sqrt{2 x-1}+1}-\\sqrt{2 x-1-2 \\sqrt{2 x-1}+1}}{\\sqrt{2}}}=\\frac{\\sqrt{2} \\cdot\\left(\\sqrt{(\\sqrt{x-1}+1)^{2}}+\\sqrt{(\\sqrt{x-1}-1)^{2}}\\right)}{\\sqrt{(\\sqrt{2 x-1}+1)^{2}}-\\sqrt{(\\sqrt{2 x-1}-1)^{2}}} \\\\ =\\frac{\\sqrt{2} \\cdot(\\sqrt{x-1}+1+\\sqrt{x-1}-1)}{\\sqrt{2 x-1}+1-\\sqrt{2 x-1}+1}=\\frac{\\sqrt{2} \\cdot 2 \\sqrt{x-1}}{2}=\\sqrt{2} \\cdot \\sqrt{x-1} . \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.2 ",
+        "point": 2.0,
+        "content": "Cho %(x)% là số thực dương thỏa mãn điều kiện %(x^{2}+\\frac{1}{x^{2}}=7)%. Tính giá trị các biểu thức %(A=x^{5}+\\frac{1}{x^{5}} ; B=x^{7}+\\frac{1}{x^{7}})%.",
+        "question_images": [],
+        "solution": "\\[x^{2}+\\frac{1}{x^{2}}=7 \\Leftrightarrow\\left(x^{2}+\\frac{1}{x^{2}}+2\\right)-2=7 \\Leftrightarrow\\left(x+\\frac{1}{x}\\right)^{2}=9 \\Rightarrow x+\\frac{1}{x}=3( \\text {do } x\\gt 0)\\]<br>Ta có %(x^{3}+\\frac{1}{x^{3}}=\\left(x+\\frac{1}{x}\\right)\\left(x^{2}-1+\\frac{1}{x^{2}}\\right)=3.6=18)%<br>\\[\\begin{array}{l}x^{4}+\\frac{1}{x^{4}}=\\left(x^{2}+\\frac{1}{x^{2}}\\right)^{2}-2=47 \\\\+\\left(x+\\frac{1}{x}\\right)\\left(x^{4}+\\frac{1}{x^{4}}\\right)=x^{5}+\\frac{1}{x^{3}}+x^{3}+\\frac{1}{x^{5}}=x^{5}+\\frac{1}{x^{5}}+18 \\\\Rightarrow x^{5}+\\frac{1}{x^{5}}+18=141 \\Leftrightarrow x^{5}+\\frac{1}{x^{5}}=123 \\\\+\\left(x^{3}+\\frac{1}{x^{3}}\\right)\\left(x^{4}+\\frac{1}{x^{4}}\\right)=x^{7}+x+\\frac{1}{x}+\\frac{1}{x^{7}}=x^{7}+\\frac{1}{x^{7}}+3 \\\\Rightarrow x^{7}+\\frac{1}{x^{7}}+3=846 \\Leftrightarrow x^{7}+\\frac{1}{x^{7}}=843\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.1 ",
+        "point": 2.0,
+        "content": "Cho phương trình %(x^{2}+\\left(m^{2}+1\\right) x+m-2=0)% (1), %(m)% là tham số. Tìm %(m)% để phương trình (1) có hai nghiệm phân biệt %(x_{1}, x_{2})% thỏa mãn %(\\frac{2 x_{1}-1}{x_{2}}+\\frac{2 x_{2}-1}{x_{1}}=x_{1} x_{2}+\\frac{55}{x_{1} x_{2}})%.",
+        "question_images": [],
+        "solution": "%(\\Delta=\\left(m^{2}+1\\right)^{2}-4(m-2)=m^{4}+2(m-1)^{2}+7\\gt 0)%<br>Theo định lí Vi-ét ta có %(\\left\\{\\begin{array}{c}x_{1}+x_{2}=-\\left(m^{2}+1\\right) \\\\ x_{1} x_{2}=m-2\\end{array}\\right.)%<br>\\[\\begin{array}{l}\\frac{2 x_{1}-1}{x_{2}}+\\frac{2 x_{2}-1}{x_{1}}=x_{1} x_{2}+\\frac{55}{x_{1} x_{2}} \\Leftrightarrow \\frac{\\left(2 x_{1}-1\\right) x_{1}+\\left(2 x_{2}-1\\right) x_{2}}{x_{1} x_{2}}=\\frac{\\left(x_{1} x_{2}\\right)^{2}+55}{x_{1} x_{2}} \\\\Rightarrow 2 x_{1}^{2}-x_{1}+2 x_{2}^{2}-x_{2}=\\left(x_{1} x_{2}\\right)^{2}+55 \\Leftrightarrow 2\\left(x_{1}+x_{2}\\right)^{2}-4 x_{1} x_{2}-\\left(x_{1}+x_{2}\\right)-\\left(x_{1} x_{2}\\right)^{2}-55=0 \\\\Leftrightarrow 2\\left(-\\left(m^{2}+1\\right)\\right)^{2}-4(m-2)+\\left(m^{2}+1\\right)-(m-2)^{2}-55=0 \\\\Leftrightarrow 2\\left(m^{4}+2 m^{2}+1\\right)-4 m+8+m^{2}+1-m^{2}+4 m-4-55=0 \\\\Leftrightarrow m^{4}+2 m^{2}-24=0\\end{array}\\]<br>Đặt %(m^{2}=a(a \\geq 0))%.<br>Phương trình (2) trở thành %(a^{2}+2 a-24=0)%<br>Ta có %(\\Delta^{\\prime}=25>0 \\Rightarrow)% phương trình có 2 nghiệm: %(a_{1}=4)% (Nhận); %(a_{2}=-6)% (Loại, vì %(a\\lt 0)% )<br>+) Với %(a=4 \\Rightarrow m^{2}=4 \\Rightarrow m= \\pm 2)%<br>Vậy %(m=2 ; m=-2)% là giá trị cần tìm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.2 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{c}(x+1)^{2}+y=x y+4 \\\\ 4 x^{2}-24 x+35=5(\\sqrt{3 y-11}+\\sqrt{y})\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}(x+1)^{2}+y=x y+4 \\quad \\quad\\quad\\quad\\quad\\quad\\quad\\quad(1)\\\\ 4 x^{2}-24 x+35=5(\\sqrt{3 y-11}+\\sqrt{y})\\quad(2)\\end{array}\\right.)%<br>Phương trình (1) %(\\Leftrightarrow(x+1)^{2}+y-x y-4=0 \\Leftrightarrow x^{2}+2 x-3-x y+y=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow(x-1)(x+3)-y(x-1)=0 \\Leftrightarrow(x-1)(x+3-y)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x=1 \\y=x+3\\end{array}\\right.\\end{array}\\]<br>%(+))% Thay %(x=1)% vào phương trình (2) ta được: %(4.1^{2}-24.1+35=5(\\sqrt{3 y-11}+\\sqrt{y}))%<br>\\[\\begin{array}{l}\\Leftrightarrow \\sqrt{3 y-11}+\\sqrt{y}=3 \\Leftrightarrow(\\sqrt{3 y-11}+\\sqrt{y})^{2}=9\\left(\\text { ĐK } y\\gt \\frac{11}{3}\\right. \\\\Leftrightarrow \\sqrt{3 y^{2}-11 y}=10-2 y \\Leftrightarrow 3 y^{2}-11=(10-2 y)^{2} \\Leftrightarrow y^{2}-29 y+100=0 \\\\Leftrightarrow\\left[\\begin{array}{l}y=25(T M) \\y=4(T M)\\end{array}\\right.\\end{array}\\]<br>%(+))% Thay %(y=x+3)% vào phương trình (2) ta được:<br>\\[\\begin{array}{l}4 x^{2}-24 x+35=5(\\sqrt{3(x+3)-11}+\\sqrt{x+3}) \\\\Leftrightarrow 4 x^{2}-24 x+35=5 \\sqrt{3 x-2}+5 \\sqrt{x+3} \\Leftrightarrow 4 x^{2}-24 x+35-5 \\sqrt{3 x-2}-5 \\sqrt{x+3}=0 \\\\Leftrightarrow 4 x^{2}-28 x+24+(3 x+2-5 \\sqrt{3 x-2})+(x+9-5 \\sqrt{x+3})=0\\end{array}\\]<br>\\[\\begin{array}{l}\\Leftrightarrow 4(x-1)(x-6)+\\frac{9(x-1)(x-6)}{3 x+2+5 \\sqrt{3 x-2}}+\\frac{(x-1)(x-6)}{x+9+5 \\sqrt{x+3}}=0 \\\\Leftrightarrow(x-1)(x-6)\\left(4+\\frac{9}{3 x+2+5 \\sqrt{3 x-2}}+\\frac{1}{x+9+5 \\sqrt{x+3}}\\right)=0 \\\\mathrm{Vì}\\left(4+\\frac{9}{3 x+2+5 \\sqrt{3 x-2}}+\\frac{1}{x+9+5 \\sqrt{x+3}}\\right)\\gt 0, \\quad \\forall x \\geq \\frac{2}{3} \\\\Rightarrow(x-1)(x-6)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=1 \\Rightarrow y=4 \\x=6 \\Rightarrow y=9\\end{array}\\right. \\\\end{array}\\]<br>Vậy nghiệm %((x ; y))% của hệ là: %((1 ; 4),(1 ; 25),(6 ; 9))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.1 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các số nguyên dương %(m, n)% sao cho %(m+n^{2})% chia hết cho %(m^{2}-n)% và %(n+m^{2})% chia hết cho %(n^{2}-m)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text {}\\left\\{\\begin{array}{l}m+n^{2}: m^{2}-n \\n+m^{2}: n^{2}-m\\end{array}\\right. \\text { (1) } \\\\Leftrightarrow\\left\\{\\begin{array} { l } { m + n ^ { 2 } \\geq m ^ { 2 } - n } \\\\{ n + m ^ { 2 } \\geq n ^ { 2 } - m }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}(m-n+1)(m+n) \\geq 0 \\\\(n-m+1)(m+n) \\geq 0\\end{array}\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}m-n+1 \\geq 0 \\n-m+1 \\geq 0\\end{array} \\text { (do } m, n\\right. \\text { nguyên dương) } \\\\Leftrightarrow-1 \\leq m-n \\leq 1\\end{array}\\]<br><strong><u>*) TH1:</u></strong> %(m-n=-1 \\Leftrightarrow m=n-1)%<br>+) %(m+n^{2}: m^{2}-n)% %(\\Rightarrow \\frac{m+n^{2}}{m^{2}-n} \\in \\mathrm{Z})%<br>%(\\Rightarrow \\frac{n-1+n^{2}}{(n-1)^{2}-n} \\in \\mathrm{Z})% %(\\Rightarrow \\frac{\\left(n^{2}-3 n+1\\right)+4 n-2}{n^{2}-3 n+1} \\in \\mathrm{Z})%<br>%(\\Rightarrow \\frac{4 n-2}{n^{2}-3 n+1} \\in \\mathrm{Z} \\Rightarrow n^{2}-3 n+1 \\leq 4 n-2)%<br>%(\\Rightarrow n^{2}-7 n+3 \\leq 0 \\Rightarrow \\frac{7-\\sqrt{37}}{2} \\leq n \\leq \\frac{7+\\sqrt{37}}{2})%<br>\\[\\begin{array}{l}\\text { Vì } n \\in \\mathrm{N}^{*} \\Rightarrow n \\in\\{1 ; 2 ; 3 ; 4 ; 5 ; 6\\} \\\\Rightarrow m \\in\\{1 ; 2 ; 3 ; 4 ; 5\\}\\end{array}\\]<br>Thử lại vào (1) ta tìm được các cặp %((m ; n))% thỏa mãn là: %((2 ; 3))%.<br>\\[\\begin{array}{l}\\text { *) } \\mathrm{TH} 2: m-n=0 \\Leftrightarrow m=n \\m+n^{2}: m^{2}-n \\\\Rightarrow \\frac{m+n^{2}}{m^{2}-n} \\in \\mathrm{Z} \\\\Rightarrow \\frac{n+n^{2}}{n^{2}-n} \\in \\mathrm{Z} \\Rightarrow \\frac{\\left(n^{2}-n\\right)+2 n}{n^{2}-n} \\in \\mathrm{Z} \\Rightarrow \\frac{2}{n-1} \\in \\mathrm{Z} \\\\Rightarrow n-1 \\leq 2 \\Rightarrow n \\leq 3 \\\\text { Vì } n \\in \\mathrm{N}^{*} \\Rightarrow n \\in\\{1 ; 2 ; 3\\} \\Rightarrow m \\in\\{1 ; 2 ; 3\\} \\\\end{array}\\]<br>Thử lại vào (1) ta tìm được các cặp số %((m ; n))% thỏa mãn là: %((2 ; 2),(3 ; 3))%.<br>\\[\\begin{array}{l}\\text { *) TH3: } m-n=1 \\Leftrightarrow m=n+1 \\n+m^{2}: n^{2}-m \\\\Rightarrow \\frac{n+m^{2}}{n^{2}-m} \\in \\mathrm{Z} \\Rightarrow \\frac{n+(n+1)^{2}}{n^{2}-n-1} \\in \\mathrm{Z} \\Rightarrow \\frac{n^{2}+3 n+1}{n^{2}-n-1} \\in \\mathrm{Z} \\\\Rightarrow \\frac{4 n+2}{n^{2}-n-1} \\in \\mathrm{Z} \\Rightarrow n^{2}-n-1 \\leq 4 n+2 \\Rightarrow n^{2}-5 n-3 \\leq 0 \\\\Rightarrow \\frac{5-\\sqrt{37}}{2} \\leq n \\leq \\frac{5+\\sqrt{37}}{2}\\end{array}\\]<br>Vì %(n \\in \\mathbf{N}^{*} \\Rightarrow n \\in\\{1 ; 2 ; 3 ; 4 ; 5\\} \\Rightarrow m \\in\\{2 ; 3 ; 4 ; 5 ; 6\\})%<br>Thử lại vào (1) ta được các cặp số %((m ; n))% thỏa mãn là: %((3 ; 2))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.2 ",
+        "point": 1.5,
+        "content": "Cho tập hợp %(A)% gồm 16 số nguyên dương đầu tiên. Hãy tìm số nguyên dương %(k)% nhỏ nhất có tính chất: Trong mỗi tập con gồm %(k)% phần tử của %(A)% đều tồn tại hai số phân biệt %(a)% ,%(b)% sao cho %(a^{2}+b^{2})% là số nguyên tố.",
+        "question_images": [],
+        "solution": "Ta xét tập %(T)% gồm các số chẵn thuộc tập %(A)%.<br>Khi đó %(|T|=8)% và với %(a, b)% thuộc %(T)% ta có %(a^{2}+b^{2})%, do đó %(k \\geq 9)%<br>Xét các cặp số sau:<br>\\[A=\\{1 ; 4\\} \\cup\\{3 ; 2\\} \\cup\\{5 ; 16\\} \\cup\\{6 ; 15\\} \\cup\\{7 ; 12\\} \\cup\\{8 ; 13\\} \\cup\\{9 ; 10\\} \\cup\\{11 ; 14\\}\\]<br>Ta thấy tổng bình phương của mỗi cặp số trên đều là số nguyên tố.<br>Xét %(T)% là một tập con của %(A)% và %(|T|=9)%, khi đó theo nguyên lí Dirichlet %(T)% sẽ chứa ít nhất 1 cặp nói trên.<br>Vậy %(k_{\\min }=9)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho tam giác %(A B C)% cân tại %(A\\left(\\widehat{B A C}\\gt 90^{\\circ}\\right))% nội tiếp đường tròn %((O))% bán kính %(R . M)% là điểm nằm trên cạnh %(B C(B M>C M))%. Gọi %(D)% là giao điểm của %(A M)% và đường tròn %((O)()% %(D)% khác %(A)% ), điểm %(H)% là trung điểm đoạn thẳng %(B C)%. Gọi %(E)% là điểm chính giữa cung lớn %(\\overparen{B C}, E D)% cắt %(B C)% tại %(N)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng %(M A \\cdot M D=M B \\cdot M C)% và %(B N \\cdot C M=B M \\cdot C N)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text {}+) \\text { Ta có } \\triangle M A B \\sim \\triangle M C D \\text { (g.g) } \\\\Rightarrow \\frac{M A}{M C}=\\frac{M B}{M D} \\Rightarrow M A \\cdot M D=M B \\cdot M C \\text { (đpcm) }\\end{array}\\]<br>+) Theo gt %(A)% là điểm chính giữa cung nhỏ %(B C \\Rightarrow D A)% là tia phân giác %(\\widehat{B D C})% của %(\\triangle B D C)% (1)<br>Mặt khác, %(E)% là điểm chính giữa cung lớn %(B C \\Rightarrow A E)% là đường kính của %((O))%<br>\\[\\Rightarrow \\widehat{A D E}=90^{\\circ} \\Rightarrow D A \\perp D N \\text { (2) }\\]<br>Từ (1) và (2) %(\\Rightarrow D N)% là tia phân giác ngoài %(\\widehat{B D C})% của %(\\triangle B D C)%<br>Do đó, theo tính chất của tia phân giác trong và tia phân giác ngoài của tam giác ta có:<br>\\[\\frac{B M}{C M}=\\frac{B D}{C D}=\\frac{B N}{C N} \\Rightarrow B M \\cdot C N=B N \\cdot C M(\\text { đpcm). }\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/32c3fabc796d59bc5f200d1e0983022e.png\" srcset=\"https://docdn.giainhanh.io/media/test/1388ed7de4c40db4b3ea3cee6a20af99.png 190w, https://docdn.giainhanh.io/media/test/6ee8246a6557e903a6a7a1730661fed1.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "b) Gọi %(I)% là tâm đường tròn ngoại tiếp tam giác %(B M D)%. Chứng minh rằng ba điểm %(B, I)%, %(E)% thẳng hàng.",
+        "question_images": [],
+        "solution": "Kẻ %(B E)% cắt %((I))% tại %(J)%<br>Ta có %(\\widehat{E B D}=\\widehat{E A D})% và %(\\widehat{B J D}=\\widehat{D M C})% (góc trong - góc ngoài)<br>Mà %(\\widehat{E A D}+\\widehat{D M C}=90^{\\circ} \\Rightarrow \\widehat{E B D}+\\widehat{B J D}=90^{\\circ})%%(\\Rightarrow B D \\perp J D \\Rightarrow B J)% là đường kính %(\\Rightarrow I \\in B J)% hay %(I \\in B E)%%(\\Rightarrow B, I, E)% thẳng hàng (đpcm).",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "c) Khi %(2 A B=R)%, xác định vị trí của %(M)% để %(2 M A+A D)% đạt giá trị nhỏ nhất.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text {} \\triangle H A M \\sim \\triangle D A E \\text { (g.g) } \\\\Rightarrow \\frac{A M}{A E}=\\frac{A H}{A D} \\Rightarrow A M \\cdot A D=A H \\cdot A E \\\\text { Với } A E=2 R ; A H=\\frac{A B^{2}}{A E}=\\frac{R}{8} \\\\Rightarrow A M \\cdot A D=\\frac{R^{2}}{4}\\end{array}\\]<br>Theo BĐT Cô- si: %(2 A M+A D \\geq 2 \\sqrt{2 A M \\cdot A D}=2 \\sqrt{2 \\cdot \\frac{R^{2}}{4}}=R \\sqrt{2})%<br>GTNN đạt được khi: %(2 A M=A D)%<br>%(\\Rightarrow M)% là trung điểm của %(A D)% %(\\Rightarrow O M \\perp A D)%<br>%(\\Rightarrow M)% là giao điểm của đường tròn đường kính %(O A)% với %(B C)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5.1 ",
+        "point": 1.5,
+        "content": "Cho %(x, y, z)% là các số thực không âm thỏa mãn %(x+y+z=3)% và %(x y+y z+z x \\neq 0)%. Chứng minh rằng<br>\\[\\frac{x+1}{y+1}+\\frac{y+1}{z+1}+\\frac{z+1}{x+1} \\leq \\frac{25}{3 \\sqrt[3]{4 x y+y z+z x}} .\\]",
+        "question_images": [],
+        "solution": "Áp dụng bất đẳng thức %(\\mathrm{AM}-\\mathrm{GM})% :<br>\\[\\begin{array}{l}V T=\\frac{25}{3 \\sqrt[3]{2.2(x y+y z+z x)}} \\geq \\frac{25}{x y+y z+z x+4}=\\frac{25}{x y+y z+z x+x+y+z+1} \\\\geq \\frac{25}{(x+1)(y+1)(z+1)}\\end{array}\\]<br>Cần chứng minh %(\\sum(x+1)^{2}(y+1) \\leq 25)%<br>Sau khi rút gọn, %(\\mathrm{B} T)% trờ thành %(x^{2} y+y^{2} z+z^{2} x \\leq 4)%<br>Giả sử %(y)% nằm giữa %(x)% và %(z)%, suy ra %((y-x)(y-z) \\leq 0)% hay %(y^{2}+z x \\leq x y+y z)%<br>Do đó %(y^{2} z+z^{2} x \\leq x y z+y z^{2})%<br>\\[\\begin{array}{l}x^{2} y+y^{2} z+z^{2} x \\leq x^{2} y+x y z+y z^{2} \\leq y(z+x)^{2}=\\frac{1}{2} \\cdot 2 y(z+x)(z+x) \\leq \\frac{1}{54} \\\\(2 y+z+x+z+x)^{3}=4\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5.2 ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C)% vuông tại %(C)% có %(C D)% là đường cao. %(X)% là điểm thuộc đoạn %(C D, K)% là điểm thuộc đoạn %(A X)% sao cho %(B K=B C, T)% thuộc đoạn %(B X)% sao cho %(A T=A C, A T)% cắt %(B K)% tại %(M)%. Chứng minh rằng %(M K=M T)%.",
+        "question_images": [],
+        "solution": "Vẽ đường tròn %((A ; A C),(B ; B C))% và đường tròn %((I))% ngoại tiếp %(\\triangle A B C)%<br>Kẻ %(A X)% cắt %((I))% tại %(Y, B X)% cắt %((I))% tại %(Z, A Z)% cắt %(B Y)% tại %(P)%<br>Ta có %(\\widehat{A Y B}=90^{\\circ})% (góc nội tiếp chắn nửa đường tròn %(\\left.(I\\right) \\Rightarrow A Y \\perp B P)% và %(\\widehat{B Z A}=90^{\\circ})% (góc nội tiếp chắn nửa đường tròn %(\\left.(I\\right) \\Rightarrow B Z \\perp A P)%<br>%(\\Rightarrow X)% là trực tâm của %(\\triangle A B P)%<br>Ta thấy %(\\triangle A B C \\sim \\triangle A C D \\Rightarrow A C^{2}=A D \\cdot A B=A T^{2})%<br>\\[\\Rightarrow \\widehat{A T D}=\\widehat{A B T}\\]<br>Tương tự, ta có %(\\widehat{B K D}=\\widehat{B A K})%Ta có %(\\overparen{A P D}=\\widehat{A B Z}=\\widehat{A T Z} \\Rightarrow)% tứ giác %(A D T P)% là tứ giác nội tiếp.<br>\\[\\Rightarrow A T \\perp P T \\text { (1) }\\]<br>Tương tự, ta có %(B K \\perp P K)% (2)<br>\\[\\Rightarrow P K=P T \\text { (3) }\\]<br>Từ (1), (2), (3), suy ra %(\\triangle M K P=\\triangle M T P)% (cạnh huyền - cạnh góc vuông)<br>\\[\\Rightarrow M K=M T(đ \\mathrm{pcm}) .\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d2706be3a5f0f71f2b50e93040de5221.png\" srcset=\"https://docdn.giainhanh.io/media/test/1d03a0087deba1b88e333b6fe5e488da.png 145w\" width=\"145\"/>",
+        "question_type": "essay"
+    }
+]

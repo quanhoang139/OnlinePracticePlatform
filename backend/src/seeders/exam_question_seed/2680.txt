@@ -1,0 +1,97 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.75,
+        "content": "Rút gọn biểu thức:<br>%(A=\\sqrt{4-\\sqrt{10-2 \\sqrt{5}}}-\\sqrt{4+\\sqrt{10-2 \\sqrt{5}}} .)%",
+        "question_images": [],
+        "solution": "Nhận xét rằng %(A\\lt 0)%.<br>\\[\\begin{array}{l}\\mathrm{A}^{2}=4-\\sqrt{10-2 \\sqrt{5}}+4+\\sqrt{10-2 \\sqrt{5}}-2 \\sqrt{(4-\\sqrt{10-2 \\sqrt{5}})(4+\\sqrt{10-2 \\sqrt{5}})} \\\\=8-2 \\sqrt{6+2 \\sqrt{5}} \\\\=8-2 \\sqrt{(\\sqrt{5}+1)^{2}} \\\\=6-2 \\sqrt{5}=(\\sqrt{5}-1)^{2} \\\\text { Vậy } \\mathrm{A}=1-\\sqrt{5}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 0.75,
+        "content": "Giải phương trình:<br>%(x^{2}+\\sqrt{x^{2}-2 x-19}=2 x+39 .)%",
+        "question_images": [],
+        "solution": "Đặt %(t=\\sqrt{x^{2}-2 x-19} \\geq 0)%. %((*))% trở thành: %(\\mathrm{t}^{2}+\\mathrm{t}-20=0 \\Leftrightarrow\\left[\\begin{array}{l}\\mathrm{t}=4 \\\\ \\mathrm{t}=-5\\end{array}\\right.)%<br>%(\\begin{array}{l}t=4 \\Rightarrow x^{2}-2 x-19=16 \\Leftrightarrow x^{2}-2 x-35=0 . \\\\ \\Leftrightarrow\\left[\\begin{array}{l}x=7 \\\\ x=-5\\end{array} .\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho ba số %(a, b, c)% thỏa mãn: %(4 a-5 b+9 c=0)%. Chứng minh rằng phương trình %(a x^{2}+b x+c=0)% luôn có nghiệm.",
+        "question_images": [],
+        "solution": "Xét trường hợp %(\\mathrm{a}=0)%. Nếu %(\\mathrm{b}=0)% thì từ %(4 \\mathrm{a}-5 \\mathrm{~b}+9 \\mathrm{c}=0)%, ta suy ra %(\\mathrm{c}=0)%, do đó phương trình (1) nghiệm đúng với moi %(x \\in \\mathbb{R})%.<br>Còn nếu %(b \\neq 0)%, phương trình (1) trở thành %(b x+c=0)%, có nghiệm %(x=-\\frac{c}{b})%.<br>Trường hợp %(a \\neq 0)%, (1) là phương trình bậc hai. Từ %(4 a-5 b+9 c=0)%, ta có %(b=\\frac{4 a+9 c}{5})%.<br>Suy ra,<br>\\[\\Delta=b^{2}-4 a c=\\frac{(4 a+9 c)^{2}}{25}-4 a c=\\frac{16 a^{2}-28 a c+81 c^{2}}{25}=\\frac{(2 a-7 c)^{2}+12 a^{2}+32 c^{2}}{25}\\gt 0 .\\]<br>Do đó, (1) có hai nghiệm phân biệt.Vậy trong mọi trường hợp, (1) luôn có nghiệm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x y+y^{2}+x=7 y \\\\ \\frac{x}{y}(x+y)=12\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "ĐК: %(\\mathrm{y} \\neq 0)%Hệ tương đương với %(\\left\\{\\begin{array}{l}x+y+\\frac{x}{y}=7 \\\\ \\frac{x}{y}(x+y)=12\\end{array}\\right.)%,<br>đặt %(u=x+y, v=\\frac{x}{y})% ta có hệ: %(\\left\\{\\begin{array}{l}u+v=7 \\\\ u v=12\\end{array}\\right.)%%(\\Leftrightarrow\\left\\{\\begin{array}{l}u=3 \\\\ v=4\\end{array} \\vee\\left\\{\\begin{array}{l}u=4 \\\\ v=3\\end{array}\\right.\\right.)%<br>Với %(u=4, v=3)% ta có hệ %(\\left\\{\\begin{array}{l}\\frac{x}{y}=3 \\\\ x+y=4\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=3 \\\\ y=1\\end{array}\\right.\\right.)%<br>Với %(u=3, v=4)% ta có hệ %(\\left\\{\\begin{array}{l}\\frac{x}{y}=4 \\\\ x+y=3\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=\\frac{12}{5} \\\\ y=\\frac{3}{5}\\end{array}\\right.\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho ba số dương %(a, b, c)% thỏa mãn: %(a+b+c=1)%. Chứng minh rằng:<br>\\[(1+a)(1+b)(1+c) \\geq 8(1-a)(1-b)(1-c) .\\]",
+        "question_images": [],
+        "solution": "Từ %(a+b+c=1)% ta có %(1+a=(1-b)+(1-c) \\geq 2 \\sqrt{(1-b)(1-c)})%<br>(Vì %(a, b, c\\lt 1)% nên %(1-b ; 1-c ; 1-a)% là các số dương).<br>Tương tự ta có %(1+b \\geq 2 \\sqrt{(1-c)(1-a)})% và %(1+c \\geq 2 \\sqrt{(1-a)(1-b)})%.<br>Nhân các vế của ba BĐT ta có:%((1+a)(1+b)(1+c) \\geq 8(1-a)(1-b)(1-c) \\Rightarrow đ p c m)%.<br>Dấu bằng xảy ra khi và chỉ khi %(\\mathrm{a}=\\mathrm{b}=\\mathrm{c}=\\frac{1}{3})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 0.5,
+        "content": "Phân chia chín số: %(1,2,3,4,5,6,7,8,9)% thành ba nhóm tùy ý, mỗi nhóm ba số. Gọi %(T_{1})% là tích ba số của nhóm thứ nhất, %(T_{2})% là tích ba số của nhóm thứ hai, %(T_{3})% là tích ba số của nhóm thứ ba. Hỏi tổng %(T_{1} + T_{2} + T_{3})% có giá trị nhỏ nhất là bao nhiêu ?",
+        "question_images": [],
+        "solution": "Ta có: %(\\mathrm{T}_{1}+\\mathrm{T}_{2}+\\mathrm{T}_{3} \\geq 3 \\sqrt[3]{\\mathrm{T}_{1} \\cdot \\mathrm{T}_{2} \\cdot \\mathrm{T}_{3}})%<br>%(\\mathrm{T}_{1} \\cdot \\mathrm{T}_{2} \\cdot \\mathrm{T}_{3}=1.2 .3 .4 .5 \\text {.6.7.8.9 }=72.72 .70\\gt 71^{3})%<br>Do đó, %(T_{1}+T_{2}+T_{3}>213)% mà %(T_{1}, T_{2}, T_{3})% nguyên nên %(T_{1}+T_{2}+T_{3} \\geq 214)%.<br>Ngoài ra, %(214=72+72+70=1.8 .9+3.4 .6+2.5 .7)%.<br>Nên giá trị nhỏ nhất của %(\\mathrm{T}_{1}+\\mathrm{T}_{2}+\\mathrm{T}_{3})% là 214 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho đường tròn tâm %(\\mathrm{O})% bán kính %(\\mathrm{R})% và dây cung %(\\mathrm{BC})% cố định khác đường kính. Gọi %(\\mathrm{A})% là một điểm chuyển động trên cung lớn %(B C)% của đường tròn %((O))% sao cho tam giác %(A B C)% nhọn; %(A D, B E, C F)% là các đường cao của tam giác %(\\mathrm{ABC})%. Các đường thẳng %(\\mathrm{BE}, \\mathrm{CF})% tương ứng cắt %((\\mathrm{O}))% tại các điểm thứ hai là %(\\mathrm{Q}, \\mathrm{R})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng %(\\mathrm{QR})% song song với %(\\mathrm{EF})%.",
+        "question_images": [],
+        "solution": "Vì %(\\mathrm{BEC}=\\mathrm{BFC}=90^{\\circ})% nên tứ giác %(\\mathrm{BCEF})% nội tiếp đường tròn đường kính %(\\mathrm{BC})%.<br>Suy ra, %(\\mathrm{BEF}=\\mathrm{BCF})%.<br>Mà %(\\mathrm{BCF}=\\mathrm{BQR}\\left(=\\frac{1}{2} \\mathrm{~s} d \\mathrm{BR}\\right))% nên %(\\mathrm{BEF}=\\mathrm{BQR})%.Suy ra, QR//EF.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/477869b8dee4c83f0b2453921d2f5f09.png\" srcset=\"https://docdn.giainhanh.io/media/test/2dbad456bb2116ff73aa9466e22a1328.png 174w, https://docdn.giainhanh.io/media/test/9e3fb1bfbf5c2931a01ee618bd30e77c.png 500w, https://docdn.giainhanh.io/media/test/53c428fc5cae9513547c012c6ad1680a.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh rằng diện tích tứ giác %(\\mathrm{AEOF})% bằng %(\\frac{\\mathrm{EF} . \\mathrm{R}}{2})%.",
+        "question_images": [],
+        "solution": "Vì tứ giác %(\\mathrm{BCEF})% nội tiếp nên %(\\mathrm{EBF}=\\mathrm{ECF})%<br>mà %(\\mathrm{EBF}=\\frac{1}{2} \\mathrm{sd} \\mathrm{AQ}, \\mathrm{ECF}=\\frac{1}{2})% sđ %(\\mathrm{AR})% nên %(\\mathrm{AQ}=\\mathrm{AR})%.Do đó, %(\\mathrm{OA} \\perp \\mathrm{QR})% mà %(\\mathrm{QR} / / \\mathrm{EF})% nên %(\\mathrm{OA} \\perp \\mathrm{EF})%.<br>Vì %(\\mathrm{OA} \\perp \\mathrm{EF})% nên %(\\mathrm{S}_{\\mathrm{AEOF}}=\\frac{\\mathrm{EF} \\cdot \\mathrm{OA}}{2}=\\frac{\\mathrm{EF} \\cdot \\mathrm{R}}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Xác định vị trí của điểm %(\\mathrm{A})% để chu vi tam giác %(\\mathrm{DEF})% lớn nhất.",
+        "question_images": [],
+        "solution": "Tương tự câu 2, %(2 \\mathrm{~S}_{\\mathrm{BFOD}}=\\mathrm{FD} \\cdot \\mathrm{R}, 2 \\mathrm{~S}_{\\mathrm{CDOE}}=\\mathrm{DE} \\cdot \\mathrm{R})%.<br>Mà tam giác %(A B C)% nhọn nên %(O)% nằm trong tam giác %(A B C)%.<br>Suy ra, %(2 \\mathrm{~S}_{\\mathrm{ABC}}=2 \\mathrm{~S}_{\\mathrm{AEOF}}+2 \\mathrm{~S}_{\\mathrm{BFOD}}+2 \\mathrm{~S}_{\\mathrm{CDOE}}=\\mathrm{R}(\\mathrm{DE}+\\mathrm{EF}+\\mathrm{FD}))%.<br>Vì R không đổi nên đắng thức trên suy ra chu vi tam giác DEF lớn nhất khi và chỉ khi diên tích tam giác %(A B C)% lớn nhất.<br>Mà %(\\mathrm{S}_{\\mathrm{ABC}}=\\frac{1}{2} \\mathrm{BC} \\cdot \\mathrm{AD})% với %(\\mathrm{BC})% không đổi nên %(\\mathrm{S}_{\\mathrm{ABC}})% lớn nhất khi %(\\mathrm{AD})% lớn nhất.<br>Khi đó, A là điểm chính giữa của cung lớn BC.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Tìm hai số nguyên %(a, b)% để %(a^{4}+4 b^{4})% là số nguyên tố.",
+        "question_images": [],
+        "solution": "%(a^{4}+4 b^{4}=\\left(a^{2}-2 a b+2 b^{2}\\right)\\left(a^{2}+2 a b+2 b^{2}\\right))%<br>vi %(a^{2}-2 a b+2 b^{2} \\geq 0 ; a^{2}+2 a b+2 b^{2} \\geq 0)%.Nên %(a^{4}+4 b^{4})% nguyên tố<br>%(\\Leftrightarrow)% Một thừa số là 1 còn thừa số kia là số nguyên tố .<br>TH %(1: a^{2}-2 a b+2 b^{2}=1 \\Leftrightarrow(a-b)^{2}+b^{2}=1 \\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}(a-b)^{2}=1 \\\\ b^{2}=0\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}(a-b)^{2}=0 \\\\ b^{2}=1\\end{array}\\right.\\end{array}\\right.)%<br>*Với (1) %(\\Rightarrow b=0 \\Rightarrow a^{2}=1 \\Rightarrow M=1)% (loại).*Với %((2) \\Leftrightarrow\\left[\\begin{array}{l}a=b=1 \\\\ a=b=-1\\end{array}\\right.)% (thỏa mãn).<br>TH2: %(a^{2}+2 a b+2 b^{2}=1 \\Leftrightarrow(a+b)^{2}+b^{2}=1 \\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}(a+b)^{2}=1 \\\\ b^{2}=0\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}(a+b)^{2}=0 \\\\ b^{2}=1\\end{array}\\right.\\end{array}\\right.)%<br>*Với (3) %(\\Rightarrow \\mathrm{b}=0 \\Rightarrow \\mathrm{a}^{2}=1 \\Rightarrow \\mathrm{M}=1)% (loại).<br>*Với (4) %(\\Leftrightarrow\\left\\{\\begin{array}{l}a=1 \\\\ b=-1\\end{array} \\vee\\left\\{\\begin{array}{l}a=-1 \\\\ b=1\\end{array}\\right.\\right.)% (thỏa mãn).<br>Vậy các cặp số %((a ; b))% cần tìm là: %((1 ; 1),(1 ;-1),(-1 ; 1),(-1 ;-1))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 0.5,
+        "content": "Hãy chia một tam giác bất kì thành 7 tam giác cân trong đó có 3 tam giác bằng nhau.",
+        "question_images": [],
+        "solution": "Trường hợp 1:Tam giác %(A B C)% không cân.<br>Giả sử %(A B)% là cạnh lớn nhất của tam giác %(A B C)%.<br>Vẽ cung tròn tâm %(A)%, bán kính %(A C)% cắt %(A B)% tại %(D)%.<br>Vẽ cung tròn tâm %(\\mathrm{B})%, bán kính %(\\mathrm{BD})% cắt %(\\mathrm{BC})% tại %(\\mathrm{E})%.<br>Vẽ cung tròn tâm %(C)%, bán kính %(C E)% cắt %(A C)% tại %(F)%.<br>Vẽ cung tròn tâm %(A)%, bán kính %(A F)% cắt %(A B)% tại %(G)%.<br>Dễ dàng chứng minh 5 điểm %(\\mathrm{C}, \\mathrm{D}, \\mathrm{E}, \\mathrm{F}, \\mathrm{G})% thuộc đường tròn tâm %(\\mathrm{O})% với %(\\mathrm{O})% là tâm đường tròn nội tiếp tam giác %(A B C)%.<br>Nối 5 điểm đó với %(\\mathrm{O})%, nối %(\\mathrm{A}, \\mathrm{B})% với %(\\mathrm{O})%, nối %(\\mathrm{F})% với %(\\mathrm{G}, \\mathrm{D})% với %(\\mathrm{E})% ta được 7 tam giác cân: AGF,OGF, ODG, BDE, ODE, OCE, OCF.<br>Trong đó, có ba tam giác bằng nhau là: %(\\mathrm{OCE}, \\mathrm{OCF}, \\mathrm{OGD})%.<br>Trường hợp 2: Tam giác %(A B C)% cân.Giả sử tam giác %(A B C)% cân tại %(A)%. Gọi %(D, E, F, G, H, I)% lần lượt là trung điểm các đoạn thẳng: %(\\mathrm{AB}, \\mathrm{BC}, \\mathrm{CA}, \\mathrm{DE}, \\mathrm{EF}, \\mathrm{FD})%. Khi đó, ta có 7 tam giác cân %(\\mathrm{ADF}, \\mathrm{BDE}, \\mathrm{CEF}, \\mathrm{DGI})%, %(\\mathrm{EGH}, \\mathrm{FHI}, \\mathrm{GHI})% trong đó ba tam giác bằng nhau là: %(\\mathrm{ADF}, \\mathrm{BDE}, \\mathrm{CEF})%.",
+        "question_type": "essay"
+    }
+]

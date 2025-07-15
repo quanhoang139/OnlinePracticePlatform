@@ -1,0 +1,80 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "Cho biểu thức: %(P=\\left[\\frac{a+3 \\sqrt{a}+2}{(\\sqrt{a}+2)(\\sqrt{a}-1)}-\\frac{a+\\sqrt{a}}{a-1}\\right]:\\left(\\frac{1}{\\sqrt{a}+1}+\\frac{1}{\\sqrt{a}-1}\\right))%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Rút gọn %(P)%.",
+        "question_images": [],
+        "solution": "ĐКХĐ : %(a\\gt 0)% và %(a \\neq 1)%.<br>\\[\\begin{aligned}\\Rightarrow P & =\\left[\\frac{a+3 \\sqrt{a}+2}{(\\sqrt{a}+2)(\\sqrt{a}-1)}-\\frac{a+\\sqrt{a}}{a-1}\\right]:\\left(\\frac{1}{\\sqrt{a}+1}+\\frac{1}{\\sqrt{a}-1}\\right) \\\\& =\\left[\\frac{(\\sqrt{a}+2)(\\sqrt{a}+1)}{(\\sqrt{a}+2)(\\sqrt{a}-1)}-\\frac{\\sqrt{a}(\\sqrt{a}+1)}{(\\sqrt{a}-1)(\\sqrt{a}+1)}\\right]:\\left(\\frac{\\sqrt{a}-1+\\sqrt{a}+1}{(\\sqrt{a}+1)(\\sqrt{a}-1)}\\right) \\\\& =\\left[\\frac{\\sqrt{a}+1}{\\sqrt{a}-1}-\\frac{\\sqrt{a}}{\\sqrt{a}-1}\\right]: \\frac{2 \\sqrt{a}}{(\\sqrt{a}+1)(\\sqrt{a}-1)}=\\frac{1}{\\sqrt{a}-1} \\cdot \\frac{(\\sqrt{a}+1)(\\sqrt{a}-1)}{2 \\sqrt{a}} \\\\& =\\frac{\\sqrt{a}+1}{2 \\sqrt{a}}\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Tìm %(a)% để %(\\frac{1}{P}-\\frac{\\sqrt{a}+1}{8} \\geq 1)%.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}\\frac{1}{P}-\\frac{\\sqrt{a}+1}{8} \\geq 1 \\\\Leftrightarrow \\frac{2 \\sqrt{a}}{\\sqrt{a}+1}-\\frac{\\sqrt{a}+1}{8} \\geq 1 \\\\Leftrightarrow \\frac{16 \\sqrt{a}}{8(\\sqrt{a}+1)}-\\frac{(\\sqrt{a}+1)^{2}}{8(\\sqrt{a}+1)}-\\frac{8(\\sqrt{a}+1)}{8(\\sqrt{a}+1)} \\geq 0 \\\\Leftrightarrow \\frac{16 \\sqrt{a}-a-2 \\sqrt{a}-1-8 \\sqrt{a}-8}{8(\\sqrt{a}+1)} \\geq 0 \\\\Leftrightarrow \\frac{-a+6 \\sqrt{a}-9}{8(\\sqrt{a}+1)} \\geq 0\\end{array}\\]<br>\\[\\Leftrightarrow \\frac{-(\\sqrt{a}-3)^{2}}{8(\\sqrt{a}+1)} \\geq 0\\]<br>Vì %((\\sqrt{a}-3)^{2} \\geq 0)% và %(8(\\sqrt{a}+1)\\gt 0 \\forall a \\in Đ K X Đ)% nên để %(\\frac{-(\\sqrt{a}-3)^{2}}{8(\\sqrt{a}+1)} \\geq 0 \\Leftrightarrow \\frac{(\\sqrt{a}-3)^{2}}{8(\\sqrt{a}+1)} \\leq 0)%<br>\\[\\Rightarrow(\\sqrt{a}-3)^{2}=0 \\Leftrightarrow \\sqrt{a}=3 \\Leftrightarrow a=9 \\text { (TMĐK) }\\]<br>Vậy với %(a=9)% thì %(\\frac{1}{P}-\\frac{\\sqrt{a}+1}{8} \\geq 1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Giải bài toán sau bằng cách lập phương trình:<br>Một ca nô xuôi dòng trên một khúc sông từ bến %(A)% đến bến %(B)% cách nhau %(80 \\mathrm{~km})%; sau đó lại ngược dòng đến địa điểm %(C)% cách %(B\\ )%%( 72 \\mathrm{~km})%. Thời gian ca nô xuôi dòng ít hơn thời gian ca nô ngược dòng 15 phút. Tính vận tốc riêng của ca nô, biết vận tốc của dòng nước là %(4 \\mathrm{~km} / \\mathrm{h})%.",
+        "question_images": [],
+        "solution": "Đổi 15 phút %(=\\frac{1}{4})% giờ.<br>Gọi vận tốc riêng của ca nô là %(x(x\\gt 4, \\mathrm{~km} / \\mathrm{h}))%<br>Vận tốc ca nô khi xuôi dòng %(x+4(\\mathrm{~km} / \\mathrm{h}))%. Nên thời gian ca nô xuôi dòng quãng đường %(80 \\mathrm{~km})% là: %(\\frac{80}{x+4})% (giờ)<br>Vận tốc ca nô khi ngược dòng %(x-4(\\mathrm{~km} / \\mathrm{h}))%. Nên thời gian ca nô ngược dòng quãng đường %(72 \\mathrm{~km})%là: %(\\frac{72}{x-4})% (giờ)<br>Ta có phương trình: %(\\frac{72}{x-4}-\\frac{1}{4}=\\frac{80}{x+4})%<br>\\[\\begin{array}{l}\\Leftrightarrow \\frac{288(x+4)-(x-4)(x+4)-320(x-4)}{4(x-4)(x+4)}=0 \\\\Leftrightarrow \\frac{288 x+1152-x^{2}+16-320 x+1280}{4(x-4)(x+4)}=0 \\\\Rightarrow x^{2}+32 x-2448=0 \\\\Leftrightarrow x^{2}+32 x-2448=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x=-68(\\text { Không TMĐK }) \\x=36(\\text { TMĐK })\\end{array}\\right.\\end{array}\\]<br>Vậy vận tốc riêng của ca nô là %(36 \\mathrm{~km} / \\mathrm{h})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.0,
+        "content": "Tìm toạ độ giao điểm %(A)% và %(B)% của đồ thị hai hàm số %(y=2 x+3)% và %(y=x^{2})%. Gọi %(D)% và %(C)% lần lượt là hình chiếu vuông góc của %(A)% và %(B)% trên trục hoành. Tính diện tích tứ giác %(A B C D)%.",
+        "question_images": [],
+        "solution": "+ Hoành độ giao điểm %(A)% và %(B)% của hai đồ thị hàm số là nghiệm của phương trình:<br>\\[\\begin{array}{l} x^{2}=2 x+3 \\\\Leftrightarrow x^{2}-2 x-3=0 \\\\Leftrightarrow(x-3)(x+1)=0 \\\\Leftrightarrow {\\left[\\begin{array}{l}x=3 \\x=-1\\end{array}\\right.}\\end{array}\\]<br>Với %(x=3 \\Rightarrow y=9)%; với %(x=-1 \\Rightarrow y=1)%.<br>Vậy giao điểm của hai đồ thị hàm số là %(A(3 ; 9))% và %(B(-1 ; 1))%<br>%(+D)% là hình chiếu của %(A)% lên trục hoành nên tọa độ điểm %(D(3 ; 0))%. %(C)% là hình chiếu của %(B)% lên trục hoành nên toạ độ điểm %(C(-1 ; 0))%<br>Vì %(A D \\perp O x)% và %(B C \\perp O x)% nên tứ giác %(A B C D)% là hình thang vuông.<br>\\[S_{A B C D}=(A D+B C) \\cdot(|O D|+|O C|): 2\\]<br>Thay số tìm độ dài các đoạn thẳng: %(A D=9, B C=1,|O D|=3,|O C|=1)%.<br>\\[S_{A B C D}=(9+1) \\cdot(3+1): 2\\]<br>%(S_{A B C D}=20)% (đơn vị diện tích)",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4:",
+        "group_content": "Cho đường tròn %((O))% đường kính %(A B=2 R, C)% là trung điểm của %(O A)% và dây %(M N)% vuông góc với %(O A)% tại %(C)%. Gọi %(K)% là điểm tuỳ ý trên cung nhỏ %(B M, H)% là giao điểm của %(A K)% và %(M N)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Chứng mình tứ giác %(B C H K)% nội tiếp.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}M N \\perp A C \\\\Rightarrow \\widehat{H C B}=90^{\\circ}\\end{array}\\]<br>%(\\widehat{A K B}=90^{\\circ})% (góc nội tiếp chắn nửa đường tròn)<br>Xét tứ giác %(B C H K)% có: %(\\widehat{H C B}+\\widehat{A K B}=90^{\\circ}+90^{\\circ}=180^{\\circ})% mà hai góc ở vị trí đối nhau.<br>%(\\Rightarrow)% Tứ giác %(B C H K)% nội tiếp.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3a1025ff6d8264de869f74f2278709fb.png\" srcset=\"https://docdn.giainhanh.io/media/test/a3cc1e92b001b6537d6f2dd1f907edce.png 185w, https://docdn.giainhanh.io/media/test/03a5e1cdb367d6aa4bcce8cf813d0469.png 500w, https://docdn.giainhanh.io/media/test/d919f0f86973ae079dca3a837bd49770.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Tính tích %(A H . A K)% theo %(R)%.",
+        "question_images": [],
+        "solution": "Xét tam giác %(\\triangle A C H)% và %(\\triangle A K B)% có:<br>\\[\\left.\\begin{array}{l}\\widehat{A C H}=\\widehat{A K B}=90^{\\circ} \\\\widehat{C A H} \\text { chung }\\end{array}\\right\\} \\Rightarrow \\triangle A C H \\sim \\triangle A K B(g . g)\\]<br>\\[\\Rightarrow \\frac{A C}{A K}=\\frac{A H}{A B} \\Rightarrow A H \\cdot A K=A C \\cdot A B\\]<br>Mà %(A C=\\frac{1}{4} R)% và %(A B=2 R \\Rightarrow A H \\cdot A K=\\frac{R^{2}}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "Xác định vị trí của điểm %(K)% để tổng %((K M+K N+K B))% đạt giá trị lớn nhất và tính giá trị lớn nhất đó?",
+        "question_images": [],
+        "solution": "* Chứng minh %(\\triangle B M N)% đều:<br>%(\\triangle A O M)% cân tại %(M(M C)% vừa là đường cao, vừa là trung tuyến)<br>Mà %(O A=O M=R \\Rightarrow \\triangle A O M)% đều %(\\Rightarrow \\widehat{M O A}=60^{\\circ})%<br>%(\\triangle M B N)% cân tại %(B)% vì %(\\left\\{\\begin{array}{l}M C=C N \\\\ B C \\perp M N\\end{array}\\right.)%<br>Mặt khác : %(\\widehat{M B A}=\\frac{1}{2} \\widehat{M O A}=30^{\\circ})% (góc nội tiếp chắn cung %(\\overparen{M A})% )<br>%(\\Rightarrow \\widehat{M B N}=60^{\\circ})%%(\\triangle M B N)% cân tại %(B)% lại có %(\\widehat{M B N}=60^{\\circ})% nên %(\\triangle M B N)% là tam giác đều<br>* Chứng minh %(K M+K B=K N)%Trên cạnh %(N K)% lấy điểm %(D)% sao cho %(K D=K B)%.<br>%(\\Rightarrow \\triangle K D B)% là tam giác cân mà %(\\widehat{N K B}=\\frac{1}{2})% sđ %(\\overparen{N B}=60^{\\circ})%%(\\Rightarrow \\triangle K D B)% là tam giác đều %(\\Rightarrow K B=B D)%<br>Ta có: %(\\widehat{D N B}=\\widehat{K M B})% (góc nội tiếp chắn cung %(\\overparen{K B})% )<br>%(\\widehat{B D N}=120^{\\circ})% (kề bù với %(\\widehat{K B D})% trong %(\\triangle K D B)% đều)<br>%(\\widehat{M K B}=120^{\\circ})% (góc nội tiếp chắn cung %(240^{\\circ})% )<br>%(\\Rightarrow \\widehat{M B K}=\\widehat{D B N})% (tổng các góc trong tam giác bằng %(180^{\\circ})% )<br>Xét %(\\triangle B D N)% và %(\\triangle B K M)% có:<br>%(\\left.\\begin{array}{l}B K=B D(c m t) \\\\ \\widehat{B D N}=\\widehat{B K M}(c m t) \\\\ M B=M N\\end{array}\\right\\} \\Rightarrow \\triangle B D N=\\triangle B K M(c . g . c))%<br>%(\\Rightarrow N D=M K)% (2 cạnh tương ứng)<br>%(\\Rightarrow K M+K N+K B=2 K N)%<br>%(\\Rightarrow(K M+K N+K B) \\max =4 R)% khi %(K N)% là đường kính<br>%(\\Rightarrow K, O, N)% thẳng hàng<br>%(\\Rightarrow K)% là điểm chính giữa cung %(B M)%<br>Vậy với %(K)% là điểm chính giữa cung %(B M)% thì %((K M+K N+K B))% đạt giá trị max %(4 R)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 1.0,
+        "content": "Cho hai số dương %(x, y)% thỏa mãn điều kiện %(x+y=2)%. Chứng minh: %(x^{2} y^{2}\\left(x^{2}+y^{2}\\right) \\leq 2)%.",
+        "question_images": [],
+        "solution": "Ta có: %(x^{2} y^{2}\\left(x^{2}+y^{2}\\right)=\\frac{1}{2} x y\\left[2 x y\\left(x^{2}+y^{2}\\right)\\right])%<br>Áp dụng BĐT Cô-si cho cặp số %(x y)% và %(\\left(x^{2}+y^{2}\\right))% không âm ta có:<br>\\[2 x y\\left(x^{2}+y^{2}\\right) \\leq\\left(\\frac{x^{2}+2 x y+y^{2}}{2}\\right)^{2}\\]<br>\\[\\begin{array}{l}\\Leftrightarrow x^{2} y^{2}\\left(x^{2}+y^{2}\\right) \\leq \\frac{1}{2} x y\\left(\\frac{x^{2}+2 x y+y^{2}}{2}\\right)^{2} \\\\Leftrightarrow x^{2} y^{2}\\left(x^{2}+y^{2}\\right) \\leq \\frac{1}{2} x y\\left[\\frac{(x+y)^{2}}{2}\\right]^{2}\\end{array}\\]<br>Mà %(x+y=2 \\Rightarrow x^{2} y^{2}\\left(x^{2}+y^{2}\\right) \\leq 2 x y)%<br>Áp dụng BĐT Cô-si cho 2 số %(x, y)% không âm ta có :<br>\\[\\begin{array}{l}2 x y \\leq \\frac{(x+y)^{2}}{2}=2 \\\\Rightarrow x^{2} y^{2}\\left(x^{2}+y^{2}\\right) \\leq 2(\\text {DPCM) }\\end{array}\\]<br>Vậy với %(x, y)% dương thỏa mãn %(x+y=2)% thì %(x^{2} y^{2}\\left(x^{2}+y^{2}\\right) \\leq 2)%.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Giải phương trình<br>\\[\\sqrt{x-3}-\\sqrt{2 x-7}=2 x-8\\]",
+        "question_images": [],
+        "solution": "Điều kiện xác định %(x \\geq \\frac{7}{2})%<br>Sử dụng nhân liên hợp, ta có phương trình ban đầu tương đương với<br>\\[\\frac{x-3-2 x+7}{\\sqrt{x-3}+\\sqrt{2 x-7}}=2 x-8\\]<br>Chuyến vế, rút nhân tử chung ta được<br>\\[(x-4)\\left(2+\\frac{1}{\\sqrt{x-3}+\\sqrt{2 x-7}}\\right)=0\\]<br>Ta có<br>\\[\\begin{array}{l}\\quad \\sqrt{x-3} \\geq 0, \\sqrt{2 x-7} \\geq 0 \\\\text { Ta có } \\\\text { thỏa mãn điều kiện xác định ) }\\end{array}\\]<br>nên %(2+\\frac{1}{\\sqrt{x-3}+\\sqrt{2 x-7}}\\gt 0)% với mọi %(x \\geq \\frac{7}{2})%, kéo theo %(\\mathrm{x}=4)% (thỏa mãn)<br>Vậy phương trình đã cho có nghiệm duy nhất %(\\mathrm{x}=4)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho %(a, b, c)% là các số thực khác 0 thỏa mãn điều kiện %(a^{2}-c^{2}=c \\cdot c^{2}-b^{2}=b)% và %(b^{2}-a^{2}=a)% .Chứng minh<br>\\[(a-b)(b-c)(c-a)=1\\]",
+        "question_images": [],
+        "solution": "Theo đề bài ta có %(a^{2}-c^{2}+c^{2}-b^{2}=c+b)% và %(a, b, c \\neq 0)% nên %(a^{2}-b^{2}=c+b)%.<br>Nếu a %(+\\mathrm{b}=0)% thì %(\\mathrm{a}=-\\mathrm{b})%.<br>Tuy nhiên khi đó %(a=b^{2}-a^{2}=0)% là trái giả thiết.<br>Do đó, ta phải có %(a+b \\neq 0)% dẫn tới %(a-b=\\frac{c+b}{a+b})%<br>Hoàn toàn tương tự ta có<br>\\[b-c=\\frac{c+a}{b+c} \\text { và } c-a=\\frac{a+b}{c+a}\\]<br>Từ đây ta suy ra<br>\\[(a-b)(b-c)(c-a)=\\frac{c+b}{a+b} \\cdot \\frac{c+a}{b+c} \\cdot \\frac{a+b}{c+a}=1\\]<br>Đây chính là điều phải chứng minh",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho ba số nguyên %(a, b)% và %(c)% thỏa mãn %(a^{2}+b^{2}+c^{2}-2 a b)% chia hết cho 6 . Chứng minh %(a b c)% chia hết cho 54",
+        "question_images": [],
+        "solution": "Nếu cả ba số %(a, b, c)% đều lẻ thì %(a^{2}+b^{2}+c^{2}-2 a b)% sẽ lẻ và do đó %(a^{2}+b^{2}+c^{2}-2 a b)% không chia hết cho 6 , trải giả thiết.<br>Do đó, trong ba số %(a . b . c)% phải có ít nhất một số chẵn, nghĩa là %(a b c)% chia hết cho 2<br>Nếu %(a b c)% không chia hết cho 3 tức là trong 3 số %(a, b, c)% không có số nào chia hết cho 3 , dẫn tới %(a^{2} \\equiv b^{2} \\equiv c^{2} \\equiv 1(\\bmod 3))%.<br>Vì %(a^{2}+b^{2}+c^{2}-2 a b)% chia hết cho 3 nên %(-2 \\mathrm{ab})% cũng chia hết cho 3 , vô lí vì %(a . b . c)% đều không chia hết cho 3 .<br>Do đó, ta phải có %(a b c)% chia hết cho 3 . Từ đây ta có ngay %(a^{2}+b^{2}+c^{2})% chia hết cho 3 .<br>Vì số chính phương khi chia 3 thì dư chỉ có thể là 0,1 cả 3 số %(a^{2}, b^{2}, c^{2})% phải chia hết cho 3 kéo theo %(a, b, c)% đều chia hết cho 3 .<br>Khi đó %(a b c)% chia hết cho 27 Vì %((27,2)=1)% nên %(a b c)% chia hết cho %(27 \\cdot 2=54)%. Phép chứng minh hoàn tất",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tìm tất cả cặp số nguyên dương ( %(\\mathrm{x}, \\mathrm{y})% ) thỏa mãn %(x^{3} y-x^{2} y-4 x^{2}+5 x y-y^{2}=0)%",
+        "question_images": [],
+        "solution": "Phương trình đã cho được viết lại thành<br>\\[y^{2}-\\left(x^{3}-x^{2}+5 x\\right) y+4 x^{2}=0\\]<br>Coi phương trình trên là phương trình bậc hai ẩn y, tính biệt thức<br>\\[\\Delta=\\left(x^{3}-x^{2}-5 x\\right)^{2}-16 x^{2}=x^{2}\\left(x^{2}-x+1\\right)\\left(x^{2}-x+9\\right)\\]<br>Điều kiện cần để phương trình có nghiệm %(y)% nguyên là %(\\Delta)% là số chính phương.<br>Suy ra %(\\left(x^{2}-x+1\\right)\\left(x^{2}-x+9\\right))% là số chính phương ( do %(x)% nguyên dương nên %(x^{2}\\gt 0)% ).<br>Vì %(x^{2}-x+1=x(x-1)+1)% là số lẻ và nếu gọi %(d=\\operatorname{gcd}\\left(x^{2}-x+1, x^{2}-x+9\\right))% thì %(d)% lẻ và %(d\\left(x^{2}-x+9\\right)-\\left(x^{2}-x+1\\right)=8)% nên ta phải có %(d=1)%.<br>Suy ra %(x^{2}-x+1, x^{2}-x+9)% đều là các số chính phương.<br>Mà<br>\\[(x-1)^{2}\\lt x^{2}-x+1\\lt (x+1)^{2}\\]<br>nên %(x^{2}-x+1=x^{2})% và tìm được %(x=1)%. Thay %(x=1)% tìm được %(y=1, y=4)%.<br>Vậy phương trình đã cho có hai nghiệm nguyên dương %((x, y))% là ( 1,1%())% và %((1,4))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Tìm tất cả cặp số nguyên %((\\mathrm{x}, \\mathrm{y}))% sao cho %(x y)% là số chính phương và %(x^{2}+x y+y^{2})% là số nguyên tố",
+        "question_images": [],
+        "solution": "Đặt %(x y=z^{2})% với %(z \\in \\mathrm{N})% thì %(x^{2}+x y+y^{2}=x^{2}+y^{2}+z^{2}=(x+y)^{2}-z^{2}=(x+y-z)(x+y+z))%<br>Chú ý là %(x y=z^{2} \\geq 0)% nên %(x, y)% ở cùng phía với 0 . Và nếu cặp %((x, y))% thỏa mãn thì cặp %((-x,-y))% cũng thỏa mãn, do đó ta chỉ cần xét %(x, y \\geq 0)%.<br>Khi đó %(x+y+z \\geq x+y-z)% và do %(x^{2}+y^{2}+z^{2})% là số nguyên tố nên ta phải có %(x+y+z=1, x^{2}+y^{2}+z^{2}=x+y+z)%.<br>Do %(x, y, z \\in \\mathrm{N})% nên %(x^{2} \\geq x, y^{2} \\geq y, z^{2} \\geq z)% nên đề có đẳng thức %(x^{2}+y^{2}+z^{2}=x+y+z)% thì %(x^{2}=x, y^{2}=y, z^{2}=z)%.<br>Vậy, có hai cặp %((x, y))% là %((1,1),(-1,-1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Với các số thực không âm %(a, b)% và %(c)% thỏa mãn %(a+2 b+3 c=1)%, tìm giá trị lớn nhất và giá trị nhỏ nhất của biểu thức %(P=(a+6 b+6 c)(a+b+c))%",
+        "question_images": [],
+        "solution": "Theo bất đẳng thức Cauchy-Schwarz, ta có<br>\\[\\frac{3}{2} P \\geq\\left(\\frac{1}{2} a+3 b+3 c\\right)(3 a+3 b+3 c) \\geq\\left(\\sqrt{\\frac{3}{2}} a+3 b+3 c\\right)^{2} \\geq(a+2 b+3 c)^{2}=1\\]<br>Suy ra %(P \\geq \\frac{2}{3})%<br>Dấu bằng xảy ra khi và chỉ khi %(\\mathrm{a}=\\mathrm{b}=0, c=\\frac{1}{3})%.<br>Giá trị nhỏ nhất của %(P)% là %(\\frac{2}{3})%<br>Lại có, theo bất đẳng thức AM-GM thì<br>\\[4 P=(a+6 b+6 c)(4 a+4 b+4 c) \\leq \\frac{(a+6 b+6 c+4 a+4 b+4 c)^{2}}{4} \\leq \\frac{25(a+2 b+3 c)^{2}}{4}=\\frac{25}{4}\\]<br>kéo theo<br>\\[P \\leq \\frac{25}{16}\\]<br>Dấu bằng xảy ra khi và chỉ khi %(a+6 b+6 c=4(a+b+c), c=0, a+2 b+3 c=1)%.<br>Giả ta tìm được %(a=\\frac{1}{4}, b=\\frac{3}{8}, c=0)%.<br>Giá trị lớn nhất của %(P)% là %(\\frac{25}{16})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác %(A B C)% có ba góc nhọn %((A B\\lt A C))%, nội tiếp đường tròn %((O))%. Ba đường cao %(A D, B E)% và %(C F)% của tam giác %(A B C)% cùng đi qua điểm %(H)%. Đường thẳng %(E F)% cắt đường thẳng %(A D)% tại điểm %(Q)%. Gọi %(M)% và %(I)% lần lượt là trung điếm của các đoạn thẳng %(B C)% và %(A H)%. Đường thẳng %(I M)% cắt đường thẳng %(E F)% tại điểm %(K)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng tam giác %(A E K)% đồng dạng với tam giác %(A B M)%",
+        "question_images": [],
+        "solution": "Xét các tam giác %(B F C)% và %(B E C)% lần lượt vuông tại %(F)% và %(E)% với các trung tuyến tương ứng là %(F M)% và %(E M)%, khi đó ta được %(F M=E M=\\frac{1}{2} B C)%.<br>Tương tự, xét các tam giác %(A F H)% và %(A E H)% lần lượt vuông tại %(F)% và %(E)% với các trung tuyến tương ứng là %(F I)% và %(E I)%, khi đó ta cũng được %(F I=E I)% %(=\\frac{1}{2} A H)%.<br>Như vậy, %(M I)% là đường trung trực của %(E F)%, vì thế %(K)% là trung điểm của %(E F)%.<br>Mặt khác, lại chú ý rằng %(\\triangle A E B \\sim \\triangle A F C(\\mathrm{~g} \\cdot \\mathrm{g}))% nên ta được %(\\frac{A E}{A B}=\\frac{A F}{A C})%, kéo theo %(\\triangle A E F \\sim \\triangle A B C()% c.g.c %())%<br>Từ đó ta thu được %(A E F=A B C)% và %(\\frac{A E}{A B}=\\frac{E F}{B C}=\\frac{2 E K}{2 B M}=\\frac{E K}{B M})%.<br>Do đó, %(\\triangle A E K \\sim \\triangle A B M)% (c.g.c)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/2886c043d20607d34c230eee2de6f080.png\" srcset=\"https://docdn.giainhanh.io/media/test/79bcf7d7724f2ebf709c33f19d135941.png 187w, https://docdn.giainhanh.io/media/test/03cce08f7aa957712cc4e512c79ce40e.png 500w, https://docdn.giainhanh.io/media/test/03f930dd46847273d2785ae13f240194.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Đường thẳng %(E F)% cắt đường thẳng %(B C)% tại điểm %(S)%, đường thẳng %(S I)% că̆t đường thẳng %(M Q)% tại điểm %(T)%. Chứng minh rằng bốn điểm %(A, T, H)% và %(M)% cùng thuộc một đường tròn",
+        "question_images": [],
+        "solution": "Xét %(\\triangle I S M)% với %(I D \\perp S M)% và %(S K \\perp I M)% ( vì %(M I)% là trung trực của %(E F)% ), vì thế %(Q)% là trực tâm của %(\\triangle I S M)%.<br>Như vậy, %(M Q=M T \\perp S I)% và từ đó ta được  %(ITM=90^{\\circ}= IEM = IFM)%<br>Do đó, năm điểm %(I, T, E, F, M)% cùng thuộc một đường tròn và dẫn đến %(Q T . Q M=Q E . Q F)%.<br>Mặt khác, lại chú ý rằng tứ giác %(A E F H)% là tứ giác nội tiếp, ta cũng có %(Q E . Q F=Q A . Q H)%.<br>Như vậy, %(Q T . Q M=)% %(Q A . Q H)%, vì vậy bốn điểm %(A, T, H, M)% cùng thuộc một đường tròn",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tia %(T H)% cắt đường tròn %((O))% tại điểm %(P)%. Chứng minh rằng ba điểm %(A, \\mathrm{~K})% và %(P)% thẳng hàng",
+        "question_images": [],
+        "solution": "Trên tia %(T H)% lấy một điểm %(P^{\\prime})% sao cho %(H T . H P^{\\prime}=H A . H D)%.<br>Khi đó, ta cũng được %(H T \\cdot H P^{\\prime}=)% %(H B . H E=H C . H F)% và do đó các tứ giác %(T B P^{\\prime} E)% và %(T C P^{\\prime} F)% là các tứ giác nội tiếp.<br>Khi đó, ta có %(B P^{h} T=B E T=A E T)% và %(EH T=E T T H T)%. Từ đó, chú ý rằng tứ giác TIEF nội tiếp nên %(E T T=E F F=2 B A C)%, ta thu được<br>\\[\\begin{array}{l}{ }{B P} C=B P T+C P T=A E T H T=360^{\\circ}-E H F-E P T \\\\=360^{\\circ}-\\left(180^{\\circ}-B A C\\right)-2 B A C=180^{\\circ}-B A C \\\\end{array}\\]<br>Do đó %(P^{\\prime} \\in(\\mathrm{O}))% và kéo theo %(P^{\\prime} \\equiv P)%.<br>Như vậy, HA.HD %(=H T . H P)% nên tứ giác %(A T D P)% nội tiếp và %(DA P=DT H)%.<br>Mặt khác, ta có các kết quả quen thuộc %(B A O=CA H)% và %(A O \\perp E F)%, kết hợp với %(\\triangle A E K \\sim \\triangle A B M)%, ta thu được %(OA M=B A O-B A M=C A H+E A K=DAK)% và %(I M / / A O)% ( %(\\perp E F)% ).<br>Lại chú ý rằng các tứ giác %(A T H M)% và %(I T D M)% là các tứ giác nội tiếp, ta được<br>Do đó, %(D A P=DA K)%, từ đó suy ra %(A, P, K)% thẳng hàng",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho 2023 điểm nằm trong một hình vuông cạnh 1. Một tam giác đều được gọi là phủ điểm %(M)% nếu điểm %(M)% nằm trong tam giác hoặc nằm trên cạnh của tam giác",
+        "question_images": [],
+        "solution": "Mỗi một phần đều là tam giác vuông cân với độ dài cạnh bên bằng %(\\frac{1}{2})%<br>Theo nguyên lý Dirichlet, có 2023 điểm được phân bố vào trong 8 phần như hình vẽ trên nên tồn tại một phần có chứa ít nhất<br>\\[\\left[\\frac{2023}{8}\\right]+1=253 \\text { điểm }\\]<br>Nói cách khác, tồn tại một tam giác vuông cân có cạnh bằng %(\\frac{1}{2})% chứa ít nhất 253 điểm.<br>Mà tam giác vuông cân có cạnh bên bằng %(\\frac{1}{2})% thì sẽ chứa trong một tam giác đều có cạnh bằng %(\\frac{1}{\\sqrt{2}})% , ta có điều phải chứng minh",
+        "question_type": "essay"
+    }
+]

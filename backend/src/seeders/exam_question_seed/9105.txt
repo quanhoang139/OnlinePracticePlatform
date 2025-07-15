@@ -1,0 +1,95 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức:<br>\\[P=\\frac{x \\sqrt{x}+26 \\sqrt{x}-19}{x+2 \\sqrt{x}-3}-\\frac{2 \\sqrt{x}}{\\sqrt{x}-1}+\\frac{\\sqrt{x}-3}{\\sqrt{x}+3} .\\]",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Rút gọn %(P)%.",
+        "question_images": [],
+        "solution": "%(Đ K: 0 \\leq x \\neq 1)%.<br>Ta có:<br>\\[\\begin{array}{l}P=\\frac{x \\sqrt{x}+26 \\sqrt{x}-19}{(\\sqrt{x}-1)(\\sqrt{x}+3)}-\\frac{2 \\sqrt{x}}{\\sqrt{x}-1}+\\frac{\\sqrt{x}-3}{\\sqrt{x}+3} \\\\=\\frac{x \\sqrt{x}+26 \\sqrt{x}-19-2 \\sqrt{x}(\\sqrt{x}+3)+(\\sqrt{x}-3)(\\sqrt{x}-1)}{(\\sqrt{x}-1)(\\sqrt{x}+3)} \\\\=\\frac{x \\sqrt{x}+26 \\sqrt{x}-19-2 x-6 \\sqrt{x}+x-4 \\sqrt{x}+3}{(\\sqrt{x}-1)(\\sqrt{x}+3)} \\\\=\\frac{x \\sqrt{x}-x+16 \\sqrt{x}-16}{(\\sqrt{x}-1)(\\sqrt{x}+3)}=\\frac{(\\sqrt{x}-1)(x+16)}{(\\sqrt{x}-1)(\\sqrt{x}+3)}=\\frac{x+16}{\\sqrt{x}+3} .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm %(x)% đề %(P)% đạt giá trị nhỏ nhất.",
+        "question_images": [],
+        "solution": "\\[P=\\frac{x+16}{\\sqrt{x}+3}=\\sqrt{x}-3+\\frac{25}{\\sqrt{x}+3}=\\sqrt{x}+3+\\frac{25}{\\sqrt{x}+3}-6 \\geq 2 \\sqrt{(\\sqrt{x}+3) \\frac{25}{\\sqrt{x}+3}}-6=10-6=4\\]<br>Vây GTNN của %(P=4)%, dấu \" %(=)% \" xảy ra khi %(\\sqrt{x}+3=\\frac{25}{\\sqrt{x}+3} \\Leftrightarrow x=4)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Cho phương trình %(x^{2}-2 m x+m-4=0)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tìm %(m)% đễ phương trình có hai nghiệm phân biệt %(x_{1}, x_{2})% thỏa mãn %(x_{1}^{3}+x_{2}^{3}=26 m)%.",
+        "question_images": [],
+        "solution": "%(x^{2}-2 m x+m-4=0)%<br>Ta có: %(\\Delta^{\\prime}=m^{2}-m+4=\\left(m-\\frac{1}{2}\\right)^{2}+\\frac{15}{4}\\gt 0)%, với %(\\forall m)%<br>Vậy phương trình luôn có 2 nghiệm phân biệt với mọi %(m)%.<br>Theo định lý Vi-et ta có: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=2 m \\\\ x_{1} x_{2}=m-4\\end{array}\\right.)%<br>Ta có %(x_{1}^{3}+x_{2}^{3}=26 m \\Leftrightarrow\\left(x_{1}+x_{2}\\right)^{3}-3 x_{1} x_{2}\\left(x_{1}+x_{2}\\right)=26 m)%<br>\\[\\begin{array}{l}\\Leftrightarrow 8 m^{3}-6 m(m-4)=26 m \\Leftrightarrow m\\left(8 m^{2}-6 m-2\\right)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}m=0 \\m=1 \\m=-\\frac{1}{4}\\end{array}\\right.\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm %(m)% nguyên để phương trình có hai nghiệm nguyên.",
+        "question_images": [],
+        "solution": "Gọi %(x_{1}, x_{2}\\left(x_{1}\\lt x_{2}\\right))% là hai nghiệm nguyên của phương trình.<br>Theo định lí Vi-et ta có %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=2 m \\\\ x_{1} x_{2}=m-4\\end{array}\\right.)%.<br>Suy ra %(x_{1}+x_{2}-2 x_{1} x_{2}=8 \\Leftrightarrow 2\\left(x_{1}+x_{2}\\right)-4 x_{1} x_{2}-1=15 \\Leftrightarrow\\left(2 x_{1}-1\\right)\\left(2 x_{2}-1\\right)=-15)%.<br>TH1: %(\\left\\{\\begin{array}{l}2 x_{1}-1=-1 \\\\ 2 x_{2}-1=15\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x_{1}=0 \\\\ x_{2}=8\\end{array} \\Rightarrow m=4\\right.\\right.)%<br>TH2: %(\\left\\{\\begin{array}{l}2 x_{1}-1=-5 \\\\ 2 x_{2}-1=3\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x_{1}=-2 \\\\ x_{2}=2\\end{array} \\Rightarrow m=0\\right.\\right.)%<br>TH3: %(\\left\\{\\begin{array}{l}2 x_{1}-1=-15 \\\\ 2 x_{2}-1=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x_{1}=-7 \\\\ x_{2}=1\\end{array} \\Rightarrow m=-3\\right.\\right.)%<br>TH4: %(\\left\\{\\begin{array}{l}2 x_{1}-1=-3 \\\\ 2 x_{2}-1=5\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x_{1}=-1 \\\\ x_{2}=3\\end{array} \\Rightarrow m=1\\right.\\right.)%<br>Thử lại %(m=0, m=1, m=-3, m=4)% thỏa mãn điều kiện bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho tam giác %(A B C)% đều cố định nội tiếp trong đường tròn %((O))%. Đường thẳng %(d)% thay đổi nhưng luôn đi qua %(A)% và cắt cung nhỏ %(A B)% tại điểm thứ hai là %(E(E \\neq A))%. Đường thẳng %(d)% cắt hai tiếp tuyến tại %(B)% và %(C)% của đường tròn %((O))% lần lượt tại %(M)% và %(N, M C)% cắt %(B N)% tại %(F)%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Tam giác CAN đồng dạng với tam giác BMA, tam giác %(M B C)% đồng dạng với tam giác %(B C N)%.",
+        "question_images": [],
+        "solution": "a) Ta có: %(A C / / B M \\Rightarrow \\widehat{B M A}=\\widehat{C A N})%<br>\\[A B / / C N \\Rightarrow \\widehat{B A M}=\\widehat{C N A}\\]<br>Xét %(\\triangle C A N)% và %(\\triangle B M A)% có<br>\\[\\begin{array}{l}\\widehat{B M A}=\\widehat{C A N} \\\\widehat{B A M}=\\widehat{C N A} \\\\Rightarrow \\triangle C A N \\sim \\triangle B M A \\text { (g.g) }\\end{array}\\]<br>Suy ra: %(\\frac{M B}{A C}=\\frac{A B}{N C} \\Rightarrow \\frac{M B}{B C}=\\frac{B C}{C N})%<br>Mặt khác %(\\widehat{M B C}=\\widehat{B C N}=120^{\\circ})%<br>Xét %(\\triangle M B C)% và %(\\triangle B C N)% có<br>%(\\begin{array}{l}\\frac{M B}{B C}=\\frac{B C}{C N} \\\\ \\widehat{M B C}=\\widehat{B C N}=120^{\\circ} \\\\ \\Rightarrow \\triangle M B C \\sim \\triangle B C N \\text { (c.g.c). }\\end{array})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0d4e284a5cbdc268231c7a827625abda.png\" srcset=\"https://docdn.giainhanh.io/media/test/43eb31658394f95ed6bea79029c8326b.png 218w, https://docdn.giainhanh.io/media/test/254aca4de82101c01a0892d9f78609e4.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tứ giác BMEF là tứ giác nội tiếp.",
+        "question_images": [],
+        "solution": "Ta có %(\\widehat{B F M}=\\widehat{B C M}+\\widehat{N B C}=\\widehat{B C M}+\\widehat{B M C}=180^{\\circ}-\\widehat{M B C}=60^{\\circ})%<br>Mặt khác %(\\widehat{B E M}=\\widehat{B C A}=60^{\\circ} \\quad)% (do %(\\mathrm{t} / \\mathrm{c})% góc ngoài của tứ giác nội tiếp)<br>Suy ra %(\\widehat{B F M}=\\widehat{B E M}=60^{\\circ})%.<br>Do đó tứ giác %(B M E F)% nội tiếp.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Chứng minh đường thẳng EF luôn đi qua một điểm cố định khi d thay đổi nhưng luôn điqua %(A)%.",
+        "question_images": [],
+        "solution": "Goi %(I)% là giao điểm của %(E F)% với %(B C)%.<br>Ta có %(\\widehat{I B F}=\\widehat{B M F})% (câu a),<br>suy ra %(I B)% là tiếp tuyến của đường tròn ngoại tứ giác %(B M E F)%.<br>Tương tự chứng minh được %(I C)% là tiếp tuyến của đường tròn ngoại tứ giác %(C N E F)%.<br>Từ đó: %(I B^{2}=I E)%.IF; %(I C^{2}=I E)%. IF %(\\Rightarrow I B=I C)% hay %(I)% là trung điểm của %(B C)%.<br>Vậy %(d)% luôn đi qua điểm cố định là %(I)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Cho các số thực dương %(a, b, c)% thỏa mãn %(a+b+c=6)%.<br>Chứng minh rằng:%(\\frac{b+c+5}{1+a}+\\frac{c+a+4}{2+b}+\\frac{a+b+3}{3+c} \\geq 6)%. Dấu đẳng thức xảy ra khi nào?",
+        "question_images": [],
+        "solution": "",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho %(n)% là số tự nhiên lớn hơn 1. Chứng minh rằng %(n^{4}+4^{n})% là hợp số.",
+        "question_images": [],
+        "solution": "%(n)% là số tự nhiên lớn hợn 1 nên %(n)% có dạng %(n=2 k)% hoặc %(n=2 k+1)%, với %(k \\in \\mathbb{N}^{*})%<br>- Với %(n=2 k)%, ta có %(n^{4}+4^{n}=(2 k)^{4}+4^{2 k})% lớn hơn 2 và chia hết cho 2 .<br>Do đó %(n^{4}+4^{n})% là hợp số.<br>- Với %(n=2 k+1)%, ta có %(n^{4}+4^{n}=n^{4}+4^{2 k} \\cdot 4=n^{4}+\\left(2 \\cdot 4^{k}\\right)^{2}=\\left(n^{2}+2 \\cdot 4^{k}\\right)^{2}-\\left(2 . n \\cdot 2^{k}\\right)^{2})%<br>\\[=\\left(n^{2}+2 \\cdot 4^{k}-2 . n \\cdot 2^{k}\\right)\\left(n^{2}+2 \\cdot 4^{k}+2 \\cdot n \\cdot 2^{k}\\right)=\\left(\\left(n-2^{k}\\right)^{2}+4^{k}\\right)\\left(\\left(n+2^{k}\\right)^{2}+4^{k}\\right)\\]<br>Mỗi thừa số đều lớn hơn hoặc bằng 2 .<br>Vậy %(n^{4}+4^{n})% là hợp số.",
+        "question_type": "essay"
+    }
+]

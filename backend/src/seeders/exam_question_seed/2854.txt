@@ -1,0 +1,65 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Tìm số tự nhiên có hai chữ số %(\\overline{x y})%, biết rằng %(\\overline{x x y y}=\\overline{x x^{2}}+\\overline{y y^{2}})%.",
+        "question_images": [],
+        "solution": "Điều kiện %(1 \\leq x, y \\leq 9)% và %(x, y)% nguyên<br>\\[\\begin{array}{l}\\overline{x x y y}=\\overline{x x^{2}}+\\overline{y y^{2}} \\quad(1) \\\\Leftrightarrow x \\cdot 100 \\cdot 11+y \\cdot 11=x^{2} \\cdot 11^{2}+y^{2} \\cdot 11^{2} \\\\Leftrightarrow 100 x+y=11\\left(x^{2}+y^{2}\\right) \\\\Rightarrow(x+y)+11 \\\\Rightarrow x+y=11(\\text { vì } 2 \\leq x+y \\leq 18) \\\\Rightarrow(x ; y) \\text { chỉ có thể là các cặp }(2 ; 9) ;(9 ; 2) ;(3 ; 8) ;(8 ; 3) ;(4 ; 7) ;(7 ; 4) ;(5 ; 6) ;(6 ; 5)\\end{array}\\]<br>Thay lần lượt từng cặp trên vào (1) ta thấy chỉ có %(x=8)% và %(y=3)% thỏa mãn .<br>Vậy số cần tìm là 83 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Giải phương trình : %(10 \\sqrt{x^{3}+1}=3\\left(x^{2}+2\\right))%",
+        "question_images": [],
+        "solution": "Điều kiện %(x \\geq-1)%<br>Khi đó %(10 \\sqrt{x^{3}+1}=3\\left(x^{2}+2\\right))%<br>\\[\\Leftrightarrow 10 \\sqrt{x+1} \\sqrt{x^{2}-x+1}=3\\left(x^{2}+2\\right)\\left(^{*}\\right)\\]<br>Đặt %(\\left\\{\\begin{array}{l}u=\\sqrt{x+1} \\\\ v=\\sqrt{x^{2}-x+1}\\end{array}\\right.)% (Điều kiện %(\\mathrm{u} \\geq 0, \\mathrm{v}\\gt 0)% ) khi đó phương trình %((*))% trở thành<br>\\[10 u v=3\\left(u^{2}+v^{2}\\right)\\]<br>\\[\\Leftrightarrow(3 u-v)\\left(u-3 v)=0 \\Leftrightarrow\\left[\\begin{array}{l}u=3 v \\\\3 u=v\\end{array}\\right.\\right.\\]<br>Trường hợp %(1: \\mathrm{u}=3 \\mathrm{v})%, ta có : %(\\sqrt{x+1}=3 \\sqrt{x^{2}-x+1})%<br>\\[\\Leftrightarrow 9 x^{2}-10 x+8=0 \\text { Vô nghiệm }\\]<br>Trường hợp %(2: 3 \\mathrm{u}=\\mathrm{v})%, ta có : %(3 \\sqrt{x+1}=\\sqrt{x^{2}-x+1})%<br>\\[\\begin{array}{l}\\Leftrightarrow 9 \\mathrm{x}+9=\\mathrm{x}^{2}-\\mathrm{x}+1 \\\\Leftrightarrow \\mathrm{x}^{2}-10 \\mathrm{x}-8=0\\end{array}\\]<br>%(\\Leftrightarrow\\left[\\begin{array}{l}\\mathrm{x}=5-\\sqrt{33} \\\\ \\mathrm{x}=5+\\sqrt{33}\\end{array}\\right.)%( thỏa mãn điều kiện %(x \\geq-1)%<br>Vậy phương trình đã cho có các nghiệm là %(\\mathrm{x}=5-\\sqrt{33})% và %(\\mathrm{x}=5+\\sqrt{33})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Cho đa thức %(f_{(x)}=a x^{2}+b x+c(a=0))%. Biết rằng phương trình %(f_{(x)}=x)% vô nghiệm . Chứng minh rằng phương trình : %(a\\left[f_{(x)}\\right]^{2}+b f_{(x)}+c=x)% vô nghiệm .",
+        "question_images": [],
+        "solution": "Vì phương trình %(\\mathrm{f}_{(\\mathrm{x})}=\\mathrm{x})% vô nghiệm nên %(\\mathrm{f}_{(\\mathrm{x})}\\gt \\mathrm{x})%, với mọi %(\\mathrm{x} \\in \\mathrm{R})% hoặc %(\\mathrm{f}_{(\\mathrm{x})}\\lt \\mathrm{x})%, với mọi %(\\mathrm{x} \\in \\mathrm{R})%<br>Nếu %(\\mathrm{f}_{(\\mathrm{x})}>\\mathrm{x})%, với mọi %(\\mathrm{x} \\in \\mathrm{R})% thì a %(\\left.\\left[\\mathrm{f}_{(\\mathrm{x})}\\right]^{2}+b \\mathrm{f}_{(\\mathrm{x})}+\\mathrm{c}=\\mathrm{f}_{\\left(\\mathrm{f}_{(\\mathrm{x})}\\right)}\\right)>\\mathrm{f}_{(\\mathrm{x})}>\\mathrm{x})%, với mọi %(\\mathrm{x} \\in \\mathrm{R})%<br>Suy ra phương trình %(a\\left[f_{(x)}\\right]^{2}+b f_{(x)}+c=x)% vô nghiệm .<br>Nếu %(\\mathrm{f}_{(\\mathrm{x})}\\lt \\mathrm{x})%, với mọi %(\\mathrm{x} \\in \\mathrm{R})% thì thì %(\\left.a\\left[\\mathrm{f}_{(\\mathrm{x})}\\right]^{2}+\\mathrm{bf}_{(\\mathrm{x})}+\\mathrm{c}=\\mathrm{f}_{\\left(\\mathrm{f}_{(\\mathrm{x})}\\right)}\\right)\\lt \\mathrm{f}_{(\\mathrm{x})}\\lt \\mathrm{x})%, với mọi %(\\mathrm{x} \\in \\mathrm{R})%<br>Suy ra phương trình %(a\\left[f_{(x)}\\right]^{2}+b f_{(x)}+c=x)% vô nghiệm .<br>Vậy ta có điều phải chứng minh .",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Cho %(x, y, z\\gt 0)% thỏa mãn %(x y+y z+x z=x y z)%.Chứng minh rằng : %(\\frac{y}{x^{2}}+\\frac{z}{y^{2}}+\\frac{x}{z^{2}} \\geq 3\\left(\\frac{1}{x^{2}}+\\frac{1}{y^{2}}+\\frac{1}{z^{2}}\\right))%",
+        "question_images": [],
+        "solution": "Ta có %(x y+y z+x z=x y z . \\Leftrightarrow \\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=1)%<br>Đặt %(a=\\frac{1}{x}, b=\\frac{1}{y}, c=\\frac{1}{z})% ta được %(a, b, c\\gt 0)% và %(a+b+c=1)% (1)<br>Khi đó bất đẳng thức đã cho trở thành %(\\frac{\\mathrm{a}^{2}}{\\mathrm{~b}}+\\frac{b^{2}}{c}+\\frac{c^{2}}{a} \\geq 3\\left(a^{2}+b^{2}+c^{2}\\right))%<br>Ta sẽ chứng minh (2) đúng với mọi %(a, b, c)% thỏa mãn (1)<br>Thật vậy, vì %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}=1)% nên ta có<br>\\[\\begin{array}{l}(2) \\Leftrightarrow\\left(\\frac{a^{2}}{b}-2 a+b\\right)+\\left(\\frac{b^{2}}{c}-2 b+c\\right)+\\left(\\frac{c^{2}}{a}-2 c+a\\right) \\geq 3\\left(a^{2}+b^{2}+c^{2}\\right)-(a+b+c)^{2} \\\\Leftrightarrow \\frac{(a-b)^{2}}{b}+\\frac{(b-c)^{2}}{c}+\\frac{(c-a)^{2}}{a} \\geq(a-b)^{2}+(b-c)^{2}+(c-a)^{2} \\\\Leftrightarrow\\left(\\frac{1}{b}-1\\right)(a-b)^{2}+\\left(\\frac{1}{c}-1\\right)(b-c)^{2}+\\left(\\frac{1}{a}-1\\right)(c-a)^{2} \\geq 0 \\\\Leftrightarrow\\left(\\frac{a+c}{b}\\right)(a-b)^{2}+\\left(\\frac{b+a}{c}\\right)(b-c)^{2}+\\left(\\frac{c+b}{a}\\right)(c-a)^{2} \\geq 0 \\text { đúng vì a, b, c >0 }\\end{array}\\]<br>Đẳng thức xảy ra khi và chỉ khi %(\\mathrm{a}=\\mathrm{b}=\\mathrm{c}=\\frac{1}{3})% hay %(\\mathrm{x}=\\mathrm{y}=\\mathrm{z}=3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho tam giác %(A B C)% cân tại %(A)%. Gọi %(O)% là trung điểm của %(B C)%. Đường tròn %((O ; R))% tiếp xúc với %(A B)% ở %(E)%, tiếp xúc với %(A C)% ở %(F)%. Điểm %(H)% chạy trên cung nhỏ %(E F(H)% khác %(E, F))%. Tiếp tuyến của đường tròn tại %(H)% cắt %(A B)% , %(A C)% lần lượt tại %(\\mathrm{M}, \\mathrm{N})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh : %(\\triangle \\mathrm{MOB})% đồng dạng %(\\triangle \\mathrm{ONC})%.",
+        "question_images": [],
+        "solution": "Theo tính chát tiếp tuyến ta có %(\\mathrm{OM})%, ON lần lượt là phân giác của các góc %(\\mathrm{EOH}, \\mathrm{FOH} \\Rightarrow \\mathrm{MON}=\\frac{1}{2} \\mathrm{EOF})%<br>\\[\\begin{aligned}B A C+\\mathrm{EOF}=180^{\\circ}\\left(\\text { vì } \\mathrm{OEA}=\\mathrm{OFA}=90^{\\circ}\\right) \\\\Rightarrow M O N=\\frac{180^{\\circ}-B A C}{2}=A B C=A C B, \\text { mà } O C N+O N C+N O C=M O B+M O N+N O C=180^{\\circ}\\end{aligned}\\]<br>suy ra %(\\mathrm{MOB}=\\mathrm{ONC})%<br>vậy %(\\triangle \\mathrm{MOB} \\sim \\Delta \\mathrm{ONC})% (g.g)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a706f4c3ed9cee2d5f5579bf0bd4b694.png\" srcset=\"https://docdn.giainhanh.io/media/test/4864090132c143c03b510455687efec8.png 138w\" width=\"138\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Xác định vị trí điểm %(\\mathrm{H})% sao cho diện tích %(\\triangle \\mathrm{AMN})% lớn nhất .",
+        "question_images": [],
+        "solution": "Từ %(\\Delta \\mathrm{MOB} \\sim \\Delta \\mathrm{ONC} \\Rightarrow \\frac{M B}{O C}=\\frac{O B}{N C} \\Leftrightarrow M B \\cdot C N=O B \\cdot O C=\\frac{B C^{2}}{4})% (không đổi )<br>Vì %(\\mathrm{S}_{\\mathrm{AMN}}=\\mathrm{S}_{\\mathrm{ABC}}-\\mathrm{S}_{\\mathrm{BMNC}})% nên %(\\mathrm{S}_{\\mathrm{AMN}})% lớn nhất khi và chỉ khi %(\\mathrm{S}_{\\mathrm{BMNC}})% nhỏ nhất (do %(S_{A B C})% không đổi )<br>\\[\\begin{aligned}\\text { Ta có } \\mathrm{S}_{\\mathrm{BMNC}} & =\\mathrm{S}_{\\mathrm{BOM}}+\\mathrm{S}_{\\mathrm{MON}}+\\mathrm{S}_{\\mathrm{NOC}}=\\frac{1}{2} R(B M+M N+C N) \\\\& =\\frac{1}{2}(B M+C N+M E+N F) \\quad(\\text { do } \\quad M N=M E+N F) \\\\& =\\frac{1}{2} R(B M+C N+B M-B E+C N-C F)= \\\\& =R(B M+C N-B E) \\quad(\\text { do } \\quad B E=C F) \\geq R(2 \\sqrt{B M \\cdot C N}-B E)=R(B C-B E)\\end{aligned}\\]<br>không đổi<br>Dấu \" = \" xảy %(\\mathrm{ra} \\Leftrightarrow \\mathrm{BM}=\\mathrm{CN} \\Leftrightarrow \\mathrm{MN} //\\mathrm{BC})%.<br>%(\\Leftrightarrow \\mathrm{H})% là điểm chính giữa cung nhỏ %(\\mathrm{EF})%<br>Vậy %(\\mathrm{S}_{\\mathrm{AMN}})% lớn nhất khi %(\\mathrm{H})% là điểm chính giữa cung nhỏ %(\\mathrm{EF})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho 33 điểm nằm trong hình vuông có độ dài bằng 4 , trong đó không có ba điểm nào thẳng hàng . Người ta vẽ các đường tròn bán kính bằng %(\\sqrt{2})% và tâm là các điểm đã cho . Hỏi có hay không ba điểm trong cá điểm đã cho sao cho chúng đều thuộc phần chung cuả ba hình tròn có tâm cũng là ba điểm đó ? Vì sao ?",
+        "question_images": [],
+        "solution": "Chia hình vuông đã cho thành 16 hình vuông đơn vị ( các cạnh song song với các hình vuông đã cho và có độ dài bằng 1)<br>Do 33 > 16.2 nên theo nguyên lí Dirichlê , tồn tại ít nhất ba điểm nằm trong hoặc trên cạnh của hình vuông đơn vị .<br>Giả sử đó là ba điểm %(A, B, C)% ở trong hoặc nằm trên cạnh của hình vuông đơn vị %(M N P Q)%<br>Ta có %(M P=\\sqrt{2})% và với mọi điểm %(E)% thuộc hình vuông %(M N P Q)% thì %(M P \\geq A E)%, tức là %(A E \\leq \\sqrt{2})%.<br>Từ đó hình tròn %((A ; \\sqrt{2}))% phủ toàn bộ hình vuông MNPQ.<br>Tương tự các hình tròn %((B ; \\sqrt{2}),(C ; \\sqrt{2}))% phủ toàn bộ hình vuông MNPQ.<br>Suy ra ba hình tròn %((A ; \\sqrt{2}),(B ; \\sqrt{2}),(C ; \\sqrt{2}))% đều chứa hình vuông %(M N P Q)% nên ba điểm %(A, B, C)% nằm trong phần chung của ba hình tròn nói trên.<br>Vậy câu trả lời của bài toán là có .<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/27365b57fe45010a009a343c500a69fb.png\" srcset=\"https://docdn.giainhanh.io/media/test/7642ce57e6b010a6eb03a32cfdab8082.png 166w\" width=\"166\"/>",
+        "question_type": "essay"
+    }
+]

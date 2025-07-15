@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức: %(P=\\left(\\frac{1}{1-\\sqrt{x}}-\\frac{1}{\\sqrt{x}}\\right):\\left(\\frac{2 x+\\sqrt{x}-1}{1-x}+\\frac{2 x \\sqrt{x}+x-\\sqrt{x}}{1+x \\sqrt{x}}\\right))%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Rút gọn %(P)%",
+        "question_images": [],
+        "solution": "Điều kiện: %(P)% có nghĩa: %(x\\gt 0 ; x \\neq 1)%<br>\\[\\begin{aligned}P & =\\left(\\frac{2 \\sqrt{x}-1}{(1-\\sqrt{x}) \\sqrt{x}}\\right):\\left(\\frac{(\\sqrt{x}+1)(2 \\sqrt{x}-1)}{(1-\\sqrt{x})(1+\\sqrt{x})}+\\frac{\\sqrt{x}(2 \\sqrt{x}-1)(\\sqrt{x}+1)}{(1+\\sqrt{x})(1-\\sqrt{x}+x)}\\right) \\\\& =\\left(\\frac{2 \\sqrt{x}-1}{(1-\\sqrt{x}) \\sqrt{x}}\\right):\\left(\\frac{2 \\sqrt{x}-1}{1-\\sqrt{x}}+\\frac{\\sqrt{x}(2 \\sqrt{x}-1)}{1-\\sqrt{x}+x}\\right) \\\\& =\\frac{2 \\sqrt{x}-1}{(1-\\sqrt{x}) \\sqrt{x}}: \\frac{2 \\sqrt{x}-1}{(1-\\sqrt{x})(1-\\sqrt{x}+x)} \\\\& =\\frac{1-\\sqrt{x}+x}{\\sqrt{x}} .\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Chứng minh: %(P\\gt 1)%",
+        "question_images": [],
+        "solution": "%(P=\\frac{1-\\sqrt{x}+x}{\\sqrt{x}}=\\frac{1}{\\sqrt{x}}+\\sqrt{x}-1 \\geq 2 \\sqrt{\\frac{1}{\\sqrt{x}} . \\sqrt{x}}-1=1)% (BĐT Cauchy)<br>Vì đẳng thức xảy ra %(\\Leftrightarrow \\frac{1}{\\sqrt{x}}=\\sqrt{x} \\Leftrightarrow x=1)% không thỏa mãn điều kiện xác định nên %(P\\gt 1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Giải phương trình:<br>\\[\\sqrt{x-4 \\sqrt{x-1}+3}+\\sqrt{x-6 \\sqrt{x-1}+8}=1 .\\]",
+        "question_images": [],
+        "solution": "ĐКXĐ: %(x \\geq 1)%<br>Phương trình được viết lại là:<br>\\[\\begin{array}{l}\\sqrt{(x-1)-4 \\sqrt{x-1}+4}+\\sqrt{(x-1)-6 \\sqrt{x-1}+9}=1 \\\\Leftrightarrow \\sqrt{(\\sqrt{x-1}-2)^{2}}+\\sqrt{(\\sqrt{x-1}-3)^{2}}=1 \\\\Leftrightarrow|\\sqrt{x-1}-2|+|\\sqrt{x-1}-3|=1~~~~~(1)\\end{array}\\]<br>* Nếu %(1 \\leq x\\lt 5)%, ta có: %((1) \\Leftrightarrow 2-\\sqrt{x-1}+3-\\sqrt{x-1}=1 \\Leftrightarrow \\sqrt{x-1}=2 \\Leftrightarrow x=5)% không thuộc khoảng đang xét.<br>* Nếu %(5 \\leq x \\leq 10)%, ta có %(0 x=0)% phương trình có vô số nghiệm.<br>* Nếu %(x\\gt 10)% thì %((1) \\Leftrightarrow-5=1)% phương trình vô nghiệm.<br>Vậy phương trình có vô số nghiệm: %(5 \\leq x \\leq 10)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tìm nghiệm nguyên của phương trình: %(6 x^{2} y^{3}+3 x^{2}-10 y^{3}=-2)%",
+        "question_images": [],
+        "solution": "\\[\\begin{aligned}& 6 x^{2} y^{3}+3 x^{2}-10 y^{3}=-2 \\\\Leftrightarrow & 3 x^{2}\\left(2 y^{3}+1\\right)-5\\left(2 y^{3}+1\\right)=-7 \\\\Leftrightarrow & \\left(3 x^{2}-5\\right)\\left(2 y^{3}+1\\right)=-7 .\\end{aligned}\\]<br>Nên suy ra %(3 x^{2}-5 ; 2 y^{3}+1)% là ước của -7<br>\\[\\begin{array}{l}*\\left\\{\\begin{array} { l } { 3 x ^ { 2 } - 5 = 7 } \\\\{ 2 y ^ { 3 } + 1 = - 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x= \\pm 2 \\y=-1\\end{array}\\right.\\right. \\text { (thỏa mãn) } \\\\*\\left\\{\\begin{array} { l } { 3 x ^ { 2 } - 5 = - 7 } \\\\{ 2 y ^ { 3 } + 1 = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x^{2}=\\frac{-2}{3} \\y=0\\end{array}\\right.\\right. \\text { (loại) } \\\\*\\left\\{\\begin{array} { l } { 3 x ^ { 2 } - 5 = - 1 } \\\\{ 2 y ^ { 3 } + 1 = 7 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x= \\pm \\frac{2}{\\sqrt{3}} \\y^{3}=3\\end{array}\\right.\\right. \\text { (loại) } \\\\*\\left\\{\\begin{array} { l } { 3 x ^ { 2 } - 5 = 1 } \\\\{ 2 y ^ { 3 } + 1 = - 7 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x= \\pm \\sqrt{2} \\y^{3}=-4\\end{array}\\right.\\right. \\text { (loại) }\\end{array}\\]<br>Vậy phương trình có nghiệm nguyên %((x ; y) \\in\\{(2 ;-1) ;(-2 ;-1)\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Cho ba số dương %(x, y, z)% thỏa mãn điều kiện: %(x+y+z=2)%.<br>Tìm giá trị nhỏ nhất của biểu thức: %(P=\\frac{x^{2}}{y+z}+\\frac{y^{2}}{z+x}+\\frac{z^{2}}{x+y})%.",
+        "question_images": [],
+        "solution": "Áp dụng BĐT Cauchy, ta có:<br>\\[\\frac{x^{2}}{y+z}+\\frac{y+z}{4} \\geq x ; \\frac{y^{2}}{z+x}+\\frac{z+x}{4} \\geq y ; \\frac{z^{2}}{x+y}+\\frac{x+y}{4} \\geq z \\text {. }\\]<br>Cộng từng vế ta được:<br>\\[P+\\frac{x+y+z}{2} \\geq x+y+z \\Rightarrow P \\geq \\frac{x+y+z}{2}=1 \\text {. }\\]<br>Dấu \"=\" xảy ra khi và chỉ khi:<br>\\[x=y=z=\\frac{2}{3}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho hai đường tròn %((O ; R))% và đường tròn %(\\left(O^{\\prime} ; \\frac R  2\\right))% tiếp xúc ngoài nhau tại %(A)%. Trên đường tròn %((O))% lấy điểm %(B)% sao cho %(A B=R)% và điểm %(M)% trên cung lớn %(A B)%. Tia %(M A)% cắt đường tròn %(\\left(O^{\\prime}\\right))% tại điểm thứ 2 là %(N)%. Qua %(N)% kẻ đường thẳng song song với %(A B)%, cắt đường thẳng %(M B)% tại %(Q)% và cắt đường tròn %(\\left(O^{\\prime}\\right))% ở %(P)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.25,
+        "content": "a) Chứng minh tam giác %(O A M)% đồng dạng tam giác %(O^{\\prime} A N)%",
+        "question_images": [],
+        "solution": "+) Ta thấy %(\\triangle O A M \\sim \\triangle O^{\\prime} A N)% (g.g) vì %(\\widehat{O A M}=\\widehat{O A N} ; \\widehat{A O M}=\\widehat{AON})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c000434fcc2e4c8552e237d8062b92a7.png\" srcset=\"https://docdn.giainhanh.io/media/test/b4a944a3e7b724e4eaf0d33e207ab53b.png 207w, https://docdn.giainhanh.io/media/test/b295efec809d7615982552d38bfad1b1.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tính %(N Q)% theo %(R)%",
+        "question_images": [],
+        "solution": "+) Vì %(A B / / N Q)%, áp dụng hệ quả định lí Ta-lét, ta có:<br>\\[\\frac{A B}{N Q}=\\frac{M A}{M N}=\\frac{O A}{O O^{\\prime}}=\\frac{R}{\\frac{3 R}{2}}=\\frac{2}{3} \\Rightarrow N Q=\\frac{3}{2} R\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.75,
+        "content": "c) Xác định vị trí của %(M)% để diện tích tứ giác %(A B Q N)% đạt giá trị lớn nhất, tính giá trị lớn nhất theo %(R)%.",
+        "question_images": [],
+        "solution": "+) Kẻ %(A K \\perp N Q, M H \\perp A B, O C \\perp A B)%, gọi %(O C \\cap(O)=\\{I\\})%.<br>+)%(S_{A B N Q}=\\frac{1}{2}(A B+N Q) . A K=\\frac{1}{2} .\\left(R+\\frac{3}{2} R\\right) .A K=\\frac{5 R}{4} . A K \\Rightarrow S_{\\max } \\Leftrightarrow A K)% có giá trị lớn nhất.<br>+) Ta có %(\\triangle \\mathbf{M A H} \\sim \\triangle \\mathrm{ANK}(\\mathrm{g} . \\mathrm{g}) \\Rightarrow \\frac{\\mathrm{MH}}{\\mathrm{AK}}=\\frac{\\mathrm{MA}}{\\mathrm{AN}}=\\frac{\\mathrm{OA}}{\\mathrm{AO}^{\\prime}}=2 \\Rightarrow M H=2 A K)%.<br>+) Để %(A K)% có giá trị lớn nhất thì %(M H)% lớn nhất.<br>+) Ta có: %(M H \\leq M C \\leq O M+O C=R+\\frac{R \\sqrt{3}}{2}=\\frac{R(2+\\sqrt{3})}{2})%.<br>Nên suy ra %(A K \\leq \\frac{R(2+\\sqrt{3})}{4})%<br>+) Khi đó, tứ giác %(A B Q N)% có diện tích lớn nhất là %(S_{\\text {max }}=\\frac{5 R^{2}(2+\\sqrt{3})}{16})% khi %(M \\equiv I)% là giao điểm của đường trung trực của %(A B)% với %((O))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 0.5,
+        "content": "Cho tam giác %(A B C)% và một điểm %(O)% nằm trong tam giác đó. Các tia %(A O, B O, C O)% cắt các cạnh %(B C, C A, A B)% theo thứ tự tại %(M, N, P)%. Chứng minh rằng: %(\\frac{O A}{A M}+\\frac{O B}{B N}+\\frac{O C}{C P}=2)%.",
+        "question_images": [],
+        "solution": "+) Gọi %(S_{1} ; S_{2} ; S_{3} ; S)% lần lượt là diện tích các tam giác %(O B C, O C A, O A B, A B C)%.<br>+) Dựng %(A H \\perp B C~(H \\in B C), A K \\perp B C~(K \\in B C) \\Rightarrow A H / / O K)%<br>+) Áp dụng đính lý Talets và tỉ số diện tích tam giác, ta có: %(\\frac{O M}{A M}=\\frac{O K}{A H}=\\frac{S_{1}}{S})%<br>+) Tương tự %(\\frac{O N}{B N}=\\frac{S_{2}}{S} ; \\frac{O P}{C P}=\\frac{S_{2}}{S})%.<br>+) Cộng các đẳng thức trên theo vế:<br>\\[\\begin{aligned}& \\frac{O M}{A M}+\\frac{O N}{B N}+\\frac{O P}{C P}=\\frac{S_{1}+S_{2}+S_{3}}{S}=\\frac{S}{S}=1 \\\\Leftrightarrow & \\frac{A M-O A}{A M}+\\frac{B N-O B}{B N}+\\frac{C P-O C}{C P}=1 \\\\Leftrightarrow & 3-\\left(\\frac{O A}{A M}+\\frac{O B}{B N}+\\frac{O C}{C P}\\right)=1 \\\\Leftrightarrow & \\frac{O A}{A M}+\\frac{O B}{B N}+\\frac{O C}{C P}=2 .\\end{aligned}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/304ea9c5339e340490080d142fb114e5.png\" srcset=\"https://docdn.giainhanh.io/media/test/bed770be5938558aa47f3257d20b2b7d.png 202w\" width=\"202\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Cho hai số dương %(\\mathrm{x}, \\mathrm{y})% thỏa mãn điều kiện %(x^{3}+y^{3}=x-y)%.<br>Chứng minh rằng %(x^{2}+y^{2} \\leq 1)%.",
+        "question_images": [],
+        "solution": "Từ giả thiết %(x\\gt y>0)%. Giả sử %(x^{2}+y^{2} \\geq 1)%<br>Ta có:<br>\\[\\begin{aligned}& x^{3}+y^{3}=x-y \\leq(x-y)\\left(x^{2}+y^{2}\\right) \\Leftrightarrow x^{3}+y^{3} \\leq x^{2}+x y^{2}-x^{2} y-y^{3} \\\\Leftrightarrow & x y^{2}-x^{2} y-2 y^{3} \\geq 0 \\Leftrightarrow x y(y-x)+\\left(-2 y^{3}\\right) \\geq 0\\end{aligned}\\]<br>Vô lý vì %(y-x\\lt 0 ;-2 y^{2}\\lt 0)%.<br>Điều vô lý này chứng tỏ giải sử ban đầu là sai.<br>Vậy %(x^{2}+y^{2} \\leq 1)%.",
+        "question_type": "essay"
+    }
+]

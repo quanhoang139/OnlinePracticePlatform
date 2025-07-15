@@ -1,0 +1,72 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho phương trình : %(x^{4}-m x^{3}+(m+1) x^{2}-m(m+1) x+(m+1)^{2}=0)% (1) (trong đó %(x)% là ẩn, %(m)% là tham số)",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Giải phương trình (1) với %(m=-2)%.",
+        "question_images": [],
+        "solution": "Khi %(m=-2)% phương trình đã cho có dạng %(x^{4}+2 x^{3}-x^{2}-2 x+1=0)%<br>Nếu %(x=0)% thì %(0^{4}+2 \\cdot 0^{3}-0^{2}-2 \\cdot 0+1=0)%, vô lý, vậy %(x \\neq 0)%.<br>Chia hai vế của pt (2) cho %(x^{2})% ta được: %(x^{2}+\\frac{1}{x^{2}}+2\\left(x-\\frac{1}{x}\\right)-1=0)%<br>Đặt %(x-\\frac{1}{x}=t \\Rightarrow x^{2}+\\frac{1}{x^{2}}=t^{2}+2)% thay vào phương trình trên ta được %(t^{2}+2 t+1=0 \\Leftrightarrow t=-1)%<br>Với %(t=-1)% ta được %(x-\\frac{1}{x}=-1 \\Leftrightarrow x^{2}+x-1=0 \\Leftrightarrow x=\\frac{-1 \\pm \\sqrt{5}}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Tìm tất cả các giá trị của tham số %(m)% sao cho phương trình (1) có bốn nghiệm đôi một phân biệt.",
+        "question_images": [],
+        "solution": "Nếu %(x=0)% thì phương trình đã cho trở thành %((m+1)^{2}=0)%.<br>Khi %(m \\neq-1)% thì phương trình vô nghiệm. Khi %(m=-1)% thì %(x=0)% là một nghiệm của phương trình đã cho, và khi đó phương trình đã cho có dạng %(x^{4}+x^{3}=0 \\Leftrightarrow x=0 \\vee x=-1)%.<br>Phương trình chỉ có hai nghiệm. Do đó %(x \\neq 0)% và %(m \\neq-1)%.<br>Chia hai vế của phương trình cho %(x^{2} \\neq 0)% và đặt %(x+\\frac{(m+1)}{x}=t)% ta được phương trình<br>\\[t^{2}-m t-(m+1)=0 \\Leftrightarrow\\left[\\begin{array}{l}t=-1 \\t=m+1\\end{array}\\right.\\]<br>Với %(t=-1)% ta được phương trình %(x^{2}+x+(m+1)=0)%(1)<br>Với %(t=m+1)% ta được phương trình %(x^{2}-(m+1) x+(m+1)=0)%(2)<br>Phương trình đã cho có bốn nghiệm phân biệt khi và chỉ khi mỗi một trong các phương trình (1) và (2) đều có hai nghiệm phân biệt, đồng thời chúng không có nghiệm chung.(1) và (2) có hai nghiệm phân biệt khi và chỉ khi<br>\\[\\left\\{\\begin{array}{l}1-4(m+1)\\gt 0 \\\\(m+1)^{2}-4(m+1)>0\\end{array} \\Leftrightarrow m\\lt -1 .\\right.\\]<br>Khi đó nếu %(x_{0})% là một nghiệm chung của (1) và (2) thì %(\\left\\{\\begin{array}{l}(m+1)=-x_{0}^{2}-x_{0} \\\\ (m+1)=-x_{0}^{2}+(m+1) x_{0}\\end{array}\\right.)%<br>Từ đó %((m+2) x_{0}=0)% điều này tương đương với hoặc %(m=-2)% hoặc %(x_{0}=0)%<br>Nếu %(x_{0}=0)% thì %(m=-1)%, loại.<br>Nếu %(m=-2)% thì (1), (2) có hai nghiệm %(x=\\frac{-1 \\pm \\sqrt{5}}{2})%.<br>Do đó (1) và (2) có nghiệ chung khi và chỉ khi %(m=-2)%.<br>Từ đó và (3) suy ra phương trình đã cho có bốn nghiệm phân biệt khi và chỉ khi %(-2 \\neq m\\lt -1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Tìm tất cả các cặp hai số nguyên %((x ; y))% thỏa mãn<br>\\[x^{4}-x^{3}+1=y^{2}\\]",
+        "question_images": [],
+        "solution": "+) Nếu %(x=0)% thay vào phương trình ta được %(y= \\pm 1)%<br>+) Nếu %(x=-1 \\Rightarrow y^{2}=3)% vô nghiệm<br>+) Nếu %(x=1 \\Rightarrow y^{2}=1 \\Rightarrow y= \\pm 1)%<br>+) Nếu %(x \\geq 2)% ta có %(4 y^{2}=4 x^{4}-4 x^{3}+4 \\Rightarrow\\left(2 x^{2}-x-1\\right)^{2}\\lt (2 y)^{2}\\lt \\left(2 x^{2}-x+1\\right)^{2})% %(\\Rightarrow(2 y)^{2}=\\left(2 x^{2}-x\\right)^{2} \\Leftrightarrow 4 x^{4}-4 x^{3}+x^{2}=4 x^{4}-4 x^{3}+4 \\Leftrightarrow x=2)% (do %(x \\geq 2)% ) %(\\Rightarrow y= \\pm 3)%<br>+) Nếu %(x \\leq-2)%, đặt %(t=-x \\geq 2)%.<br>Khi đó ta có %(y^{2}=t^{4}+t^{3}+1)%<br>\\[\\begin{array}{l}\\Rightarrow 4 y^{2}=4 t^{4}+4 t^{3}+4 \\Rightarrow\\left(2 t^{2}+t-1\\right)^{2}\\lt (2 y)^{2}\\lt \\left(2 t^{2}+t+1\\right)^{2} \\\\left.\\Rightarrow(2 y)^{2}=\\left(2 t^{2}+t\\right)^{2} \\Leftrightarrow 4 t^{4}+4 t^{3}+4=4 t^{4}+4 t^{3}+t^{2} \\Leftrightarrow t=2 \\text { (do } t \\geq 2\\right) \\Rightarrow y= \\pm 5\\end{array}\\]<br>Kết luận %((x ; y)=(0 ; 1) ;(0 ;-1) ;(1 ; 1) ;(1 ;-1) ;(2 ; 3) ;(2 ;-3) ;(-2 ; 5) ;(-2 ;-5))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho tam giác %(A B C)% với %(B C\\gt C A>A B)% nội tiếp trong đường tròn %((O))%. Trên cạnh %(B C)% lấy điểm %(D)% và trên tia %(B A)% lấy điểm %(E)% sao cho %(B D=B E=C A)%. Đường tròn ngoại tiếp tam giác %(B D E)% cắt cạnh %(A C)% tại điểm %(P)%, đường thẳng %(B P)% cắt đường tròn %((O))% tại điểm %(t)% hai %(Q)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng tam giác %(A Q C)% đồng dạng với tam giác %(E P D)%.",
+        "question_images": [],
+        "solution": "Do các tứ giác %(B E P D, A B C Q)% nội tiếp,nên %(\\angle E D P=\\angle E B P=\\angle A B Q=\\angle A C Q)%và %(\\angle E P D=180^{\\circ}-\\angle E B D=180^{\\circ}-\\angle A B C=\\angle A Q C)%<br>Từ (1) và (2) suy ra %(\\triangle A Q C \\sim \\triangle E P D)%, điều phải chứng minh.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/be20f28457dd8773edef0a2828d2aa30.png\" srcset=\"https://docdn.giainhanh.io/media/test/cd7adf8aa68081a5645ab7e0caf9a476.png 212w\" width=\"212\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh rằng %(B P=A Q+C Q)%.",
+        "question_images": [],
+        "solution": "Theo kết quả phần 1 , ta có<br>\\[\\frac{Q A+Q C}{P E+P D}=\\frac{Q A}{P E}=\\frac{Q C}{P D}=\\frac{C A}{D E}\\]<br>Suy ra %((Q A+Q C) \\cdot D E=(P E+P D) \\cdot A C=(P E+P D) \\cdot B D)%<br>Áp dụng định lý Ptolemey cho tứ giác %(B E P D)% nội tiếp, ta được<br>\\[B P \\cdot E D=B E \\cdot P D+E P \\cdot B D=(P D+P E) \\cdot B D\\]<br>Từ (3) và (4) suy ra %((Q A+Q C) \\cdot E D=B P \\cdot E D)% hay %(Q A+Q C=B P)%, điều phải chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Cho các số thực dương %(a, b, c)%. Chứng minh rằng<br>\\[\\sqrt{c^{2}\\left(a^{2}+b^{2}\\right)^{2}+a^{2}\\left(b^{2}+c^{2}\\right)^{2}+b^{2}\\left(c^{2}+a^{2}\\right)^{2}} \\geq \\frac{54(a b c)^{3}}{(a+b+c)^{2} \\sqrt{(a b)^{4}+(b c)^{4}+(c a)^{4}}}\\]",
+        "question_images": [],
+        "solution": "Theo bất đẳng thức AM-GM, ta có<br>\\[\\begin{aligned}c^{2}\\left(a^{2}+b^{2}\\right)^{2}+a^{2}\\left(b^{2}+c^{2}\\right)^{2}+b^{2}\\left(c^{2}+a^{2}\\right)^{2} & \\geq 3 \\sqrt[3]{(a b c)^{2}\\left[\\left(a^{2}+b^{2}\\right)\\left(b^{2}+c^{2}\\right)\\left(c^{2}+a^{2}\\right)\\right]^{2}} \\\\& \\geq 3 \\sqrt[3]{(a b c)^{2} 64(a b c)^{4}}=12(a b c)^{2}\\end{aligned}\\]<br>Suy ra %(\\sqrt{c^{2}\\left(a^{2}+b^{2}\\right)^{2}+a^{2}\\left(b^{2}+c^{2}\\right)^{2}+b^{2}\\left(c^{2}+a^{2}\\right)^{2}} \\geq 2 \\sqrt{3} a b c)%<br>Cũng theo bất đẳng thức AM-GM<br>\\[\\begin{aligned}& (a b)^{4}+(b c)^{4}+(c a)^{4} \\geq 3 \\sqrt[3]{(a b)^{4}(b c)^{4}(c a)^{4}}=3(a b c)^{2} \\sqrt[3]{(a b c)^{2}} \\\\Rightarrow & \\sqrt{(a b)^{4}+(b c)^{4}+(c a)^{4}} \\geq \\sqrt{3} \\cdot a b c \\sqrt[3]{a b c}\\end{aligned}\\]<br><br>và %((a+b+c)^{2} \\geq 9 \\sqrt[3]{(a b c)^{2}})%<br>Suy ra<br>\\[\\begin{array}{l}\\sqrt{c^{2}\\left(a^{2}+b^{2}\\right)^{2}+a^{2}\\left(b^{2}+c^{2}\\right)^{2}+b^{2}\\left(c^{2}+a^{2}\\right)^{2}} \\cdot(a+b+c)^{2} \\cdot \\sqrt{(a b)^{4}+(b c)^{4}+(c a)^{4}} \\geq \\\\geq 2 \\sqrt{3}(a b c) \\cdot \\sqrt{3}(a b c) \\sqrt[3]{a b c} \\cdot 9 \\sqrt[3]{(a b c)^{2}} \\geq 54(a b c)^{3}\\end{array}\\]<br>Từ đó suy ra điều phải chứng minh. Dấu đẳng thức xảy ra khi và chỉ khi %(a=b=c)%.<br><img/><br><img/><br><img/><br><img/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": ". Cho đa giác lồi %(A_{1} A_{2} \\ldots A_{100})%. Tại mỗi đỉnh %(A_{k}(k=1,2, \\ldots, 100))%, người ta ghi một số thực %(a_{k})% sao cho giá trị tuyệt đối của hiệu hai số trên hai đỉnh kề nhau chỉ bằng 2 hoặc Tìm giá trị lớn nhất có thể được của giá trị tuyệt đối của hiệu giữa hai số ghi trên mỗi cạnh đỉnh của đa giác đã cho, biết rằng các số ghi tại các đỉnh đã cho đôi một khác nhau.",
+        "question_images": [],
+        "solution": "Xét đa giác lồi %(A_{1} A_{2} \\ldots A_{100})% như hình vẽ.<br>Khi đó %(\\left|a_{k}-a_{k+1}\\right|=2)% hoặc %(\\left|a_{k}-a_{k+1}\\right|=3)% ( %(k=1,2, \\ldots, 99)% ).<br>Không mất tính tổng quát, coi %(a_{1})% là nhỏ nhất, %(a_{n})% là lớn nhất (dễ thấy %(n \\geq 2))% ).<br>Đặt %(d=\\max _{i \\neq j}\\left|a_{i}-a_{j}\\right|)% khi đó %(d=a_{n}-a_{1})%.<br>Ta sẽ chứng minh %(d=149)%.<br>Nằm giữa %(A_{1}, A_{n})%, theo chiều kim đồng hồ có %(n-2)% đỉnh và có %(100-n)% đỉnh, theo chiều ngược kim đồng hồ.<br>Hơn nữa giá trị tuyệt đối của hiệu giữa hai số kề nhau không vượt quá 3.<br>Do đó %(d=\\left|a_{1}-a_{n}\\right| \\leq\\left|a_{1}-a_{2}\\right|+\\left|a_{2}-a_{3}\\right|+\\ldots+\\left|a_{n-1}-a_{n}\\right| \\leq 3(n-1))% và tương tự ta có %(d \\leq 3(100-n+1))%.<br>Suy ra %(d \\leq \\frac{(3(n-1))+(3(100-n+1))}{2}=\\frac{300}{2}=150)%%(d=150)% khi và chỉ khi hiệu giữa hai số ghi trên hai đỉnh kề nhau đúng bằng 3 hay<br>\\[\\begin{array}{l}\\text { ta có }\\left|a_{i}-a_{i+1}\\right|=3, \\quad i=1,2, \\ldots, 99 \\Rightarrow\\left|a_{i}-a_{i+1}\\right|=\\left|a_{i+1}-a_{i+2}\\right| \\Rightarrow\\left[\\begin{array}{l}a_{i}-a_{i+1}=a_{i+1}-a_{i+2}(i=1, \\ldots, 98) \\a_{i}=a_{i+2}\\end{array}\\right. \\\\Rightarrow a_{1}-a_{100}=a_{1}-a_{2}+a_{2}-a_{3}+\\ldots+a_{99}-a_{100}=99\\left(a_{1}-a_{2}\\right) \\Rightarrow\\left|a_{1}-a_{100}\\right|=\\left|99\\left(a_{1}-a_{2}\\right)\\right| \\Rightarrow 3=99.3\\end{array}\\]<br>Điều này không xảy ra suy ra %(d=150)% không thỏa mãn.Ta xây dựng một trường hợp cho %(d=149)% như sau:<br>\\[\\begin{array}{c}a_{1}=0, a_{2}=2, a_{k}=a_{k-1}+3 \\\\text { với } k=2,3, \\ldots, 52 ; a_{53}=a_{52}-2, a_{k}=a_{k-1}-3, k=54,55, \\ldots, 100\\end{array}\\]<br>Khi đó hiệu lớn nhất %(a_{53}-a_{1}=149)%.Các số %(a_{2}, a_{3}, \\ldots, a_{53})% có dạng %(2+3 t)%, các số %(a_{54}, a_{55}, \\ldots, a_{100})% có dạng %(147-3 k)%.<br>Rõ ràng không tồn tại %(k, t)% sao cho %(2+3 t=147-3 k \\Leftrightarrow 3(k+l)=145(k, t \\in \\mathbb{Z}))%.<br>Suy ra điều phải chứng minh.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/fecfd5420ca82b224fa8ffdab5e03304.png\" srcset=\"https://docdn.giainhanh.io/media/test/2988a74098d82f965b4f397ac3556d22.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    }
+]

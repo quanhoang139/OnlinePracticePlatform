@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Cho %((P))% : %(y=a x^{2}+b x+c)%. Tìm %(a, b, c)% biết %((P))% có trục đối xứng là đường thẳng %(x=2)% và %((P))% qua hai diểm %(A(0 ; 1), B(1 ;-2))%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\left\\{\\begin{array}{l}\\frac{-b}{2 a}=2 \\\\ A(0 ; 1) \\in(P) \\\\ B(1 ;-2) \\in(P)\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}b=-4 a \\\\ c=1 \\\\ a+b+c=-2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a=1 \\\\ b=-4 \\\\ c=1\\end{array}\\right.\\right.\\right.)%<br>Vậy %((P): y=x^{2}-4 x+1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(\\sqrt{x^{2}-3 x+2}=x-1)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\sqrt{x^{2}-3 x+2}=x-1 \\\\ \\Leftrightarrow\\left\\{\\begin{array}{l}x-1 \\geq 0 \\\\ x^{2}-3 x+2=(x-1)^{2}\\end{array}\\right. \\\\ \\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 1 \\\\ x^{2}-3 x+2=x^{2}-2 x+1\\end{array}\\right. \\\\ \\Leftrightarrow x=1 \\\\end{array})%<br>Vậy %(S=\\{1\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho hệ phương trình %(\\left\\{\\begin{array}{l}(m+1) x+6 y=m^{2}+3 m+5 \\\\ x+m y=m^{3}-3\\end{array}\\right.)%. Tìm tất cả các giá trị của tham số %(m)% sao cho hệ phương trình có nghiệm.",
+        "question_images": [],
+        "solution": "Ta có: %(D=\\left|\\begin{array}{cc}m+1 & 6 \\\\ 1 & m\\end{array}\\right|=m(m+1)-6=m^{2}+m-6)%<br>\\[\\begin{aligned}D_{x}=\\left|\\begin{array}{cc}m^{2}+3 m+5 & 6 \\m^{3}-3 & m\\end{array}\\right| & =m\\left(m^{2}+3 m+5\\right)-6\\left(m^{3}-3\\right) \\\\& =-5 m^{3}+3 m^{2}+5 m+18 \\D_{y}=\\left|\\begin{array}{cc}m+1 & m^{2}+3 m+5 \\\\1 & m^{3}-3\\end{array}\\right| & =(m+1)\\left(m^{3}-3\\right)-\\left(m^{2}+3 m+5\\right) \\\\& =m^{4}+m^{3}-m^{2}-6 m-8\\end{aligned}\\]<br>Hệ phương trình có nghiệm khi và chỉ khi %(\\left[\\begin{array}{l}D \\neq 0 \\\\ D=D_{x}=D_{y}=0\\end{array}\\right.)%<br>- Trường hợp 1: %(D \\neq 0 \\Leftrightarrow m^{2}+m-6 \\neq 0 \\Leftrightarrow\\left\\{\\begin{array}{l}m \\neq-3 \\\\ m \\neq 2\\end{array}\\right.)%<br>- Trường hợp 2: %(D=D_{x}=D_{y}=0 \\Leftrightarrow m=2)%<br>Vậy hệ phương trình có nghiệm khi %(m \\neq-3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x+2 y=5 \\\\ x^{2}+y^{2}+3 x y=11\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\left\\{\\begin{array} { l } { x + 2 y = 5 } \\\\{ x ^ { 2 } + y ^ { 2 } + 3 x y = 1 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=5-2 y \\\\(5-2 y)^{2}+y^{2}+3 y(5-2 y)=11\\end{array}\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { x = 5 - 2 y } \\\\{ y ^ { 2 } + 5 y - 1 4 = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=19 \\y=-7 \\x=1 \\y=2\\end{array}\\right.\\right.\\end{array}\\]<br>Vậy nghiệm của hệ phương trình là: %((19 ;-7),(1 ; 2))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho phương trình %(\\frac{2 x^{2}-8 x+m}{x^{2}-4 x+3}=1)%. Tìm tất cả các giá trị của tham số %(m)% dể phương trình có nghiệm.",
+        "question_images": [],
+        "solution": "Điều kiện xác định: %(x \\neq 1, x \\neq 3)%<br>\\[\\begin{aligned}& \\frac{2 x^{2}-8 x+m}{x^{2}-4 x+3}=1(1) \\\\Leftrightarrow & 2 x^{2}-8 x+m=x^{2}-4 x+3 \\\\Leftrightarrow & x^{2}-4 x+m-3=0(2) \\\\& \\Delta^{\\prime}=4-(m-3)=7-m\\end{aligned}\\]<br>- Trường hợp 1: %(\\Delta^{\\prime}=0 \\Leftrightarrow m=7)% thì (2) có nghiệm kép %(x_{1}=x_{2}=2)% (nhận).<br>- Trường hợp 2: %(\\Delta^{\\prime}\\gt 0 \\Leftrightarrow m\\lt 7)%<br>Phương trình (1) có nghiệm khi 1 và 3 không dồng thời là nghiệm của (2)<br>\\[\\Leftrightarrow\\left[\\begin{array}{l}1-4 \\cdot 1+m-3 \\neq 0 \\\\9-4 \\cdot 3+m-3 \\neq 0\\end{array} \\Leftrightarrow m \\neq 6\\right.\\]<br>Vậy %(m \\leq 7)% và %(m \\neq 6)% thì phương trình (1) có nghiệm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Trong mặt phẳng %(O x y)%, cho tam giác %(A B C)% biết %(A(2 ;-1), B(1 ; 2), C(4 ; 3))%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(A B C)% là tam giác vuông cân.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { a) Ta có: } A B=\\sqrt{10}, A C=2 \\sqrt{5}, B C=\\sqrt{10} \\\\ \\triangle A B C \\text { có: }\\left\\{\\begin{array}{l}A B=A C \\\\ A B^{2}+B C^{2}=A C^{2}\\end{array} \\Rightarrow \\triangle A B C \\text { vuông cân tại } B \\text {. }\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm giao diểm của dường thẳng %(A B)% và trục tung.",
+        "question_images": [],
+        "solution": "b) Gọi %(M=A B \\cap O y \\Rightarrow M(0 ; m))%<br>\\[\\overrightarrow{A B}=(-1 ; 3), \\overrightarrow{A M}=(-2 ; m+1)\\]<br>%(M, A, B)% thẳng hàng nên %(\\overrightarrow{A B})% và %(\\overrightarrow{A M})% cùng phương<br>\\[\\Rightarrow \\frac{-2}{-1}=\\frac{m+1}{3} \\Rightarrow m=5\\]<br>Vậy %(M(0 ; 5))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tìm tọa độ điểm %(D)% sao cho %(A B C D)% là hình thang có %(A D / / B C)% và diện tích %(A B C D)% bằng 15 .",
+        "question_images": [],
+        "solution": "c)<br>\\[\\begin{array}{l}S_{A B C D}=\\frac{1}{2} A B(B C+A D) \\Rightarrow 15=\\frac{1}{2} \\cdot \\sqrt{10}(\\sqrt{10}+A D) \\Rightarrow A D=2 \\sqrt{10}=2 B C \\\\overrightarrow{B C}=(3 ; 1), \\overrightarrow{A D}=\\left(x_{D}-2 ; y_{D}+1\\right)\\end{array}\\]<br>Ta có: %(\\overrightarrow{A D})% và %(\\overrightarrow{B C})% cùng hướng, %(A D=2 B C)%<br>\\[\\Rightarrow \\overrightarrow{A D}=2 \\overrightarrow{B C} \\Rightarrow\\left\\{\\begin{array} { l } { x _ { D } - 2 = 6 } \\\\{ y _ { D } + 1 = 2 }\\end{array} \\Rightarrow \\left\\{\\begin{array}{l}x_{D}=8 \\y_{D}=1\\end{array}\\right.\\right.\\]<br>Vậy %(D(8 ; 1))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/dd96ba279aa77b11a9128954cbcf248f.png\" srcset=\"https://docdn.giainhanh.io/media/test/394cab7366fce40355eae63701a1d032.png 181w\" width=\"181\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Cho hình vuông %(A B C D)% cạnh %(a)%, gọi %(I)% là giao diểm của %(A C)% và %(B D . M)% là diểm thỏa %(M A^{2}+2 M B^{2}+M C^{2}+2 M D^{2}=12 a^{2})%, tính %(M I)%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\overrightarrow{I A}+\\overrightarrow{I C}=\\overrightarrow{I B}+\\overrightarrow{I D}=\\overrightarrow{0})%%(I A=I B=I C=I D=\\frac{a \\sqrt{2}}{2})%Ta có: %(12 a^{2}=M A^{2}+2 M B^{2}+M C^{2}+2 M D^{2})%<br>\\[\\begin{aligned}& =(\\overrightarrow{M I}+\\overrightarrow{I A})^{2}+2(\\overrightarrow{M I}+\\overrightarrow{I B})^{2}+(\\overrightarrow{M I}+\\overrightarrow{I C})^{2}+2(\\overrightarrow{M I}+\\overrightarrow{I D})^{2} \\\\& =6 M I^{2}+I A^{2}+2 I B^{2}+I C^{2}+2 I D^{2}+2 \\overrightarrow{M I}(\\overrightarrow{I A}+\\overrightarrow{I C}+2 \\overrightarrow{I B}+2 \\overrightarrow{I D}) \\\\& =6 M I^{2}+3 a^{2} \\\\Rightarrow M I^{2} & =\\frac{3}{2} a^{2} \\Rightarrow M I=\\frac{a \\sqrt{6}}{2}\\end{aligned}\\]<br>Vậy %(M I=\\frac{a \\sqrt{6}}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho các số thực %(x, y)% thỏa %(x^{2}+y^{2}+x y=3)%. Tìm giá trị lớn nhất, giá trị nhỏ nhất của %(P=x^{4}+y^{4}+2\\left(x^{2}+y^{2}\\right)+12 x y)%.",
+        "question_images": [],
+        "solution": "Ta có: %(x^{2}+y^{2}+x y=3 \\Rightarrow(x+y)^{2}-x y=3)%<br>\\[\\begin{array}{l}\\Rightarrow 3+x y=(x+y)^{2} \\geq 0 \\\\Rightarrow x y \\geq-3\\end{array}\\]<br>Dấu \"=\" xảy ra khi %(\\left\\{\\begin{array}{l}x=\\sqrt{3} \\\\ y=-\\sqrt{3}\\end{array}\\right.)% hoặc ngược lại.<br>Lại có: %(x^{2}+y^{2}+x y=3 \\Rightarrow(x-y)^{2}+3 x y=3)%<br>\\[\\begin{array}{l}\\Rightarrow 3-3 x y=(x-y)^{2} \\geq 0 \\\\Rightarrow x y \\leq 1\\end{array}\\]<br>Dấu \"=\" xảy ra khi %(x=y=1)%Đặt %(t=x y \\Rightarrow t \\in[-3 ; 1])%<br>%(\\begin{aligned} P & =x^{4}+y^{4}+2\\left(x^{2}+y^{2}\\right)+12 x y \\\\ & =\\left(x^{2}+y^{2}\\right)^{2}-2 x^{2} y^{2}+2\\left(x^{2}+y^{2}\\right)+12 x y \\\\ & =(3-t)^{2}-2 t^{2}+2(3-t)+12 t \\\\ & =-t^{2}+4 t+15\\end{aligned})%<br>Vậy %(P_{\\min }=-6, P_{\\max }=18)%<br><img alt=\"Ảnh màn hình 2024-07-10 lúc 15.41.24.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c94356ce585096b93967a3df1dc66cbf.png\" srcset=\"https://docdn.giainhanh.io/media/test/63bdebe8935517def69aaf7d373e8731.png 245w, https://docdn.giainhanh.io/media/test/9b9b6e6d32d784a6eb41c0c37e94fb5e.png 500w, https://docdn.giainhanh.io/media/test/3dd8e9891655b1e6f1c8269073fd7545.png 750w, https://docdn.giainhanh.io/media/test/baba1d417124b20b09a5db75bb4187c2.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    }
+]

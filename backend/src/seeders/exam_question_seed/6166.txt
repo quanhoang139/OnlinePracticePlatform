@@ -1,0 +1,88 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 1.0,
+        "content": "Cho hàm số %(y=\\frac{1}{x})% có đồ thị là đường cong %((C))% và điểm %(I\\left(-\\frac{5}{6} ; \\frac{5}{4}\\right))%. Viết phương trình đường thẳng %(d)% đi qua %(I)% và cắt %((C))% tại hai điểm %(M, N)% sao cho %(I)% là trung điểm của %(M N)%.",
+        "question_images": [],
+        "solution": "+ Gọi %(d)% đi qua điểm %(I\\left(-\\frac{5}{6} ; \\frac{5}{4}\\right))% và có hệ số góc %(k)% có phương trình là:<br>\\[y=k\\left(x+\\frac{5}{6}\\right)+\\frac{5}{4} \\Leftrightarrow y=\\frac{12 k x+10 k+15}{12} \\text {. }\\]<br>+ Xét phương trình hoành độ giao điểm của %((C))% và %(d)% :<br>\\[\\frac{1}{x}=\\frac{12 k x+10 k+15}{12} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\neq 0 \\g(x)=12 k x^{2}+(10 k+15) x-12=0\\ (*)\\end{array}\\right.\\]<br>+ Đường cong %((C))% cắt %(d)% tại hai điểm %(M, N)% khi và chỉ khi phương trình %(\\left({ }^{*}\\right))% có hai nghiệm phân biệt khác 0 .<br>%(\\Leftrightarrow\\left\\{\\begin{array}{l}k \\neq 0 \\\\ \\Delta\\gt 0 \\\\ g(0) \\neq 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}k \\neq 0 \\\\ (10 k+15)^{2}+4 \\cdot 12^{2} \\cdot k>0 \\\\ -12 \\neq 0\\end{array}\\right.\\right.)%<br>%(\\Leftrightarrow\\left\\{\\begin{array}{l}k \\neq 0 \\\\ {\\left[\\begin{array}{l}k\\gt \\frac{-219+84 \\sqrt{6}}{50} \\\\ k\\lt \\frac{-219-84 \\sqrt{6}}{50}\\end{array}\\right.}\\end{array}\\right.\\ (1))%<br>+ Với %(k)% thỏa mãn (1), gọi %(x_{1} ; x_{2})% lần lượt là hoành độ của hai điểm %(M, N)%, với %(x_{1} ; x_{2})% là hai nghiệm của phương trình %((*))%.<br>+ Theo định lý Vi-et ta có: %(x_{1}+x_{2}=\\frac{-5(2 k+3)}{12 k})%.<br>%(+I)% là trung điểm của %(M N)% khi và chỉ khi:%(x_{1}+x_{2}=2 x_{I} \\Leftrightarrow \\frac{-5(2 k+3)}{12 k}=-\\frac{5}{3} \\Leftrightarrow 2 k+3=4 k \\Leftrightarrow k=\\frac{3}{2})% (thỏa mãn (1)).<br>+ Với %(k=\\frac{3}{2})% ta có phương trình đường thẳng %(d)% là: %(3 x-2 y+5=0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 1.0,
+        "content": "Cho hàm số %(y=x+\\left|x^{2}-2 x+m\\right|)%, với %(m)% là tham số. Tìm %(m)% để hàm số có cực đại.",
+        "question_images": [],
+        "solution": "Hàm số %(y=x+\\left|x^{2}-2 x+m\\right|)%. TXĐ: %(\\mathbb{R})%.<br>Trường hợp 1: %(m \\geq 1 \\Rightarrow x^{2}-2 x+m \\geq 0)% với %(\\forall x \\in \\mathbb{R})%.<br>%(+y=x+\\left|x^{2}-2 x+m\\right|=x^{2}-x+m)%, hàm số này có đồ thị là một Parabol nên chỉ có cực tiểu, suy ra %(m \\geq 1)% không thỏa mãn.<br>Trường hợp 2: %(m\\lt 1)%<br>%(\\begin{array}{l}+y=x+\\left|x^{2}-2 x+m\\right|=\\left\\{\\begin{array}{l}x^{2}-x+m \\text { khi } x \\in(-\\infty ; 1-\\sqrt{1-m}] \\cup[1+\\sqrt{1-m} ;+\\infty) \\\\-x^{2}+3 x-m \\text { khi } x \\in(1-\\sqrt{1-m} ; 1+\\sqrt{1-m})\\end{array} .\\right. \\\\+y^{\\prime}=\\left\\{\\begin{array}{l}2 x-1 \\text { khi } x \\in(-\\infty ; 1-\\sqrt{1-m}) \\cup(1+\\sqrt{1-m} ;+\\infty) \\\\-2 x+3 \\text { khi } x \\in(1-\\sqrt{1-m} ; 1+\\sqrt{1-m})\\end{array} .\\right.\\end{array})%<br>+) %(2 x-1=0 \\Leftrightarrow x=\\frac{1}{2})%.<br>Dễ thấy %(1+\\sqrt{1-m}\\gt \\frac{1}{2})% với mọi %(m\\lt 1)% và %(1-\\sqrt{1-m}\\lt \\frac{1}{2} \\Leftrightarrow m\\lt \\frac{3}{4})%.<br>%(+)-2 x+3=0 \\Leftrightarrow x=\\frac{3}{2})%.<br>Dễ thấy %(1-\\sqrt{1-m}\\lt \\frac{3}{2})% với mọi %(m\\lt 1)% và %(\\frac{3}{2}\\lt 1+\\sqrt{1-m} \\Leftrightarrow m\\lt \\frac{3}{4})%.<br>%(+))% Với %(m\\lt \\frac{3}{4})%, ta có bảng xét dấu của %(y^{\\prime}:)%<br>Hàm số đạt cực đại tại %(x=\\frac{3}{2})%.<br>+) Với %(\\frac{3}{4}\\lt m\\lt 1)%, ta có bảng biến thiên<br>Hàm số không có cực đại.<br>Dễ thấy khi %(m=\\frac{3}{4})% hàm số không có cực đại.<br>Vậy hàm số có cực đại với %(m\\lt \\frac{3}{4})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/8c5d74799944f7a2f59aed0033602b7f.png\" srcset=\"https://docdn.giainhanh.io/media/test/59204d9ea054da2b25b6a9710e56a50c.png 245w, https://docdn.giainhanh.io/media/test/2aa97b2a888687004fa1c46acb4f25c0.png 500w, https://docdn.giainhanh.io/media/test/b339bfbba546cb71ccb64a71be1a1464.png 750w, https://docdn.giainhanh.io/media/test/1b1cbf19cd6b32d916f5bac559cfdd8e.png 1000w\" width=\"1000\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/85c797fd2413aca1bd9c6d1455c6fa37.png\" srcset=\"https://docdn.giainhanh.io/media/test/a80024e1be41c8356499d298fc9ec802.png 245w, https://docdn.giainhanh.io/media/test/a4c98de4b4fdcdf021433dd978f06098.png 500w, https://docdn.giainhanh.io/media/test/261f151a3f27e8da6e6f418ba97fdb79.png 750w, https://docdn.giainhanh.io/media/test/6fbd03e8b61348c2a0ec8dd7ac08ac8b.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 1.0,
+        "content": "Giải phương trình sau trên tập số thực %(\\mathbb{R})% :<br>\\[x^{3}-7 x^{2}+9 x+12=(x-3)(x-2+5 \\sqrt{x-3})(\\sqrt{x-3}-1) \\text {. }\\]",
+        "question_images": [],
+        "solution": "%(x^{3}-7 x^{2}+9 x+12=(x-3)(x-2+5 \\sqrt{x-3})(\\sqrt{x-3}-1))% (đî̂u kiện %(x \\geq 3)% )<br>\\[\\begin{array}{l}\\Leftrightarrow(x-4)\\left(x^{2}-3 x-3\\right)=(x-3)(x-2+5 \\sqrt{x-3}) \\frac{x-4}{\\sqrt{x-3}+1} \\\\Leftrightarrow\\left[\\begin{array}{l}x-4=0 \\x^{2}-3 x-3=\\frac{x^{2}-5 x+6+5 x \\cdot \\sqrt{x-3}-15 \\sqrt{x-3}}{\\sqrt{x-3}+1}\\end{array}\\right. \\\\Leftrightarrow\\left[\\begin{array}{l}x=4 \\text { (Nhan) } \\\\left(x^{2}-8 x+12\\right) \\sqrt{x-3}=9-2 x(1)\\end{array}\\right. \\text {. } \\\\end{array}\\]<br>Giải %((1):\\left(x^{2}-8 x+12\\right) \\sqrt{x-3}=9-2 x)%.<br>Đặt %(t=\\sqrt{x-3} \\geq 0)%.<br>Phương trình (1) trở thành: %(t^{5}-2 t^{3}+2 t^{2}-3 t-3=0)% (2).<br>(Phân tích phương trình (2) như sau: %(V T=\\left(t^{2}+a t+b\\right) \\cdot\\left(t^{3}+c t^{2}+d t+e\\right))%. Đồng nhất hệ số ).<br>\\[\\Leftrightarrow\\left[\\begin{array}{l}t=\\frac{1+\\sqrt{5}}{2} \\text { (Nhan) } \\t=\\frac{1-\\sqrt{5}}{2}\\lt 0 \\text { (Loai) }\\end{array} \\Leftrightarrow \\sqrt{x-3}=\\frac{1+\\sqrt{5}}{2} \\Leftrightarrow x=\\frac{9+\\sqrt{5}}{2}\\right. \\text { (Nhan). }\\]<br>Vậy tập nghiệm của phương trình đã cho là %(S=\\left\\{4 ; \\frac{9+\\sqrt{5}}{2}\\right\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 1.0,
+        "content": "Cho sáu thẻ, mỗi thẻ ghi một trong các số của tập %(E=\\{1 ; 2 ; 3 ; 4 ; 6 ; 8\\})% (các thẻ khác nhau ghi các số khác nhau). Rút ngẫu nhiên ba thẻ, tính xác suất để rút được ba thẻ ghi ba số là số đo ba cạnh của một tam giác có góc tù.",
+        "question_images": [],
+        "solution": "Lấy ba thẻ từ 6 thẻ có số cách lấy là %(C_{6}^{3})%, nên số phần tử của không gian mẫu là %(|\\Omega|=C_{6}^{3}=20)%.<br>Gọi biến cố %(A)% : \"rút được ba thẻ ghi ba số là số đo ba cạnh của một tam giác có góc tù\".<br>Giả sử rút được bộ ba số là %((a ; b ; c))%, với %(a\\lt b\\lt c)%, do đó %(4 \\leq c)%, nên %(c \\in\\{4 ; 6 ; 8\\})%.<br>%(a, b, c)% là ba cạnh của tam giác %(\\triangle A B C)%, với %(B C=a, C A=b, A B=c)% có góc %(C)% tù<br>%(\\Rightarrow\\left\\{\\begin{array}{l}\\cos C=\\frac{a^{2}+b^{2}-c^{2}}{2 a b}\\lt 0 \\\\ 4 \\leq c\\lt a+b\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}a^{2}+b^{2}\\lt c^{2} \\\\ 4 \\leq c\\lt a+b\\end{array} \\Rightarrow \\sqrt{a^{2}+b^{2}}\\lt c\\lt a+b\\right.\\right.)%, vói %(c \\in\\{4 ; 6 ; 8\\})%.<br>+ Xét %(c=4)% thì có bộ %((a ; b)=(2 ; 3))% thỏa mãn.<br>+Xét %(c=6)%, do %(a\\lt b\\lt c, 6=c\\lt a+b\\lt 2 b)%, nên %(b=4)% và %(a=3)%.<br>Suy ra có bộ %((a ; b)=(3 ; 4))% thỏa mãn.<br>+Xét %(c=8)%, do %(a\\lt b\\lt c, 8=c\\lt a+b\\lt 2 b)%, nên %(b=6)% và %(a=3)% hoặc %(a=4)%.<br>Suy ra có hai bộ %((a ; b)=(3 ; 6))% hoặc %((a ; b)=(4 ; 6))% thỏa mãn.<br>Suy ra số phần tử của biến cố %(A)% là %(\\left|\\Omega_{A}\\right|=4)%.<br>Nên xác suất cần tìm là %(p=\\frac{\\left|\\Omega_{A}\\right|}{|\\Omega|}=\\frac{4}{20}=\\frac{1}{5})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5:",
+        "group_content": "Cho tích phân %(I(t)=\\int_{0}^{t}(x \\sin x)^{2} d x)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a)  ",
+        "point": 1.0,
+        "content": "a) Tính %(I(t))% khi %(t=\\pi)%.",
+        "question_images": [],
+        "solution": "Khi %(t=\\pi)%, ta có:<br>\\[+I(\\pi)=\\int_{0}^{\\pi} x^{2} \\sin ^{2} x \\mathrm{~d} x=\\frac{1}{2} \\int_{0}^{\\pi} x^{2}(1-\\cos 2 x) \\mathrm{d} x=\\left.\\frac{1}{2} \\cdot \\frac{x^{3}}{3}\\right|_{0} ^{\\pi}-\\frac{1}{2} \\int_{0}^{\\pi} x^{2} \\cos 2 x \\mathrm{~d} x=\\frac{\\pi^{3}}{6}-\\frac{1}{2} . J .\\]<br>%(\\begin{array}{l}\\text { + Với } J=\\int_{0}^{\\pi} x^{2} \\cos 2 x \\mathrm{~d} x \\text {. Đặt }\\left\\{\\begin{array}{l}u=x^{2} \\\\ \\mathrm{~d} v=\\cos 2 x \\mathrm{~d} x\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}\\mathrm{d} u=2 x \\mathrm{~d} x \\\\ v=\\frac{1}{2} \\sin 2 x\\end{array}\\right.\\right. \\\\ \\text { + Ta có } J=\\left.\\frac{x^{2}}{2} \\sin 2 x\\right|_{0} ^{\\pi}-\\int_{0}^{\\pi} x \\sin 2 x \\mathrm{~d} x=-\\int_{0}^{\\pi} x \\sin 2 x \\mathrm{~d} x \\text {. Đặt }\\left\\{\\begin{array}{l}u_{1}=x \\\\ \\mathrm{~d} v_{1}=\\sin 2 x \\mathrm{~d} x\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}\\mathrm{d} u_{1}=\\mathrm{d} x \\\\ v_{1}=\\frac{-1}{2} \\cos 2 x\\end{array}\\right.\\right. \\\\ \\Rightarrow J=-\\left(-\\left.\\frac{x}{2} \\cos 2 x\\right|_{0} ^{\\pi}+\\int_{0}^{\\pi} \\frac{1}{2} \\cos 2 x \\mathrm{~d} x\\right)=\\left.\\left(\\frac{x}{2} \\cos 2 x-\\frac{1}{4} \\sin 2 x\\right)\\right|_{0} ^{\\pi}=\\frac{\\pi}{2} . \\\\ \\text { + Vậy } I(\\pi)=\\frac{\\pi^{3}}{6}-\\frac{1}{2} J=\\frac{\\pi^{3}}{6}-\\frac{1}{2} \\cdot \\frac{\\pi}{2}=\\frac{\\pi^{3}}{6}-\\frac{\\pi}{4} .\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Chứng minh rằng %(I(t)+I(-t)=0, \\forall t \\in \\mathbb{R})%.",
+        "question_images": [],
+        "solution": "Xét %(I(-t)=\\int_{0}^{-t}(x \\sin x)^{2} \\mathrm{~d} x)%.<br>Đặt %(x=-u)%, suy ra %(\\mathrm{d} x=-\\mathrm{d} u)%.<br>Đổi cận: %(x=0 \\Rightarrow u=0 ; x=-t \\Rightarrow u=t)%.<br>Khi đó: %(I(-t)=-\\int_{0}^{t}[-u \\sin (-u)]^{2} \\mathrm{du}=-\\int_{0}^{t}(x \\sin x)^{2} \\mathrm{~d} x)%.<br>Vậy %(I(t)+I(-t)=\\int_{0}^{t}(x \\sin x)^{2} \\mathrm{~d} x-\\int_{0}^{t}(x \\sin x)^{2} \\mathrm{~d} x=0)% (đpcm).<br><i><strong>Nhận xét: </strong></i>Nếu làm trắc nghiệm thì có thể làm nhanh hơn.<br>Do hàm số %(y=(x \\sin x)^{2})% là hàm chẵn nên ta có tính chất: %(\\int_{-t}^{0}(x \\sin x)^{2} \\mathrm{~d} x=\\int_{0}^{t}(x \\sin x)^{2} \\mathrm{~d} x)%.<br>Khi đó: %(I(t)+I(-t)=\\int_{0}^{t}(x \\sin x)^{2} \\mathrm{~d} x+\\int_{0}^{-t}(x \\sin x)^{2} \\mathrm{~d} x=\\int_{0}^{t}(x \\sin x)^{2} \\mathrm{~d} x-\\int_{-t}^{0}(x \\sin x)^{2} \\mathrm{~d} x=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6:",
+        "group_content": "Cho khối tứ diện %(S A B C)% và hai điềm %(M, N)% lần lượt thuộc các cạnh %(S A, S B)% sao cho %(\\frac{S M}{M A}=\\frac{1}{2}, \\frac{S N}{N B}=2)%. Gọi %((P))% là mặt phẳng đi qua hai điểm %(M, N)% và song song với đường thẳng %(S C)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Trong trường hợp %(S A B C)% là tứ diện đều cạnh %(a)%, xác định và tính theo %(a)% diện tích thiết diện của khối tứ diện %(S A B C)% với mặt phẳng %((P))%.",
+        "question_images": [],
+        "solution": "<i><strong>*) Xác định thiết diện</strong></i><br>Ta có: %(\\left\\{\\begin{array}{l}S C / /(P) \\\\ S C \\subset(S A C) \\\\ M \\in(P) \\cap(S A C)\\end{array} \\Rightarrow(P) \\cap(S A C)=M F(M F / / S C ; F \\in A C)\\right.)%.<br>Ta có: %(\\left\\{\\begin{array}{l}S C / /(P) \\\\ S C \\subset(S B C) \\\\ N \\in(P) \\cap(S B C)\\end{array} \\Rightarrow(P) \\cap(S B C)=N E(N E / / S C ; E \\in B C)\\right.)%.<br>%(\\Rightarrow)% Thiết diện là tứ giác %(M N E F)%.<br>Mặt khác ta có:<br>+) %(N E / / M F(/ / S C))%.<br>+) %(\\triangle S M N=\\triangle C F E \\Rightarrow M N=F E)%.<br>+) %(N E / / S C \\Leftrightarrow \\frac{N E}{S C}=\\frac{B N}{B S}=\\frac{1}{3} \\Rightarrow N E=\\frac{a}{3})%.<br>+) %(M F / / S C \\Leftrightarrow \\frac{M F}{S C}=\\frac{A M}{A S}=\\frac{2}{3} \\Rightarrow M F=\\frac{2 a}{3})%.<br>Vậy thiết diện %(M N E F)% là hình thang cân.<br><i><strong>*) Tính diện tích thiết diện</strong></i><br>Xét %(\\triangle S M N)% có %(M N=\\sqrt{S M^{2}+S N^{2}-2 \\cdot S M \\cdot S N \\cdot \\cos M S N}=\\frac{a}{\\sqrt{3}})%.<br>Kẻ %(N H \\perp M F, M N E F)% là hình thang cân<br>%(\\Rightarrow M H=\\frac{M F-N E}{2}=\\frac{a}{6} \\Rightarrow N H=\\frac{a \\sqrt{11}}{6})%.<br>Vậy diện tích thiết diện là:<br>%(S_{M N E F}=\\frac{1}{2}(N E+M F) \\cdot N H=\\frac{1}{2}\\left(\\frac{a}{3}+\\frac{2 a}{3}\\right) \\frac{a \\sqrt{11}}{6}=\\frac{a^{2} \\sqrt{11}}{12})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f4d67f082e232b57102a11cb591cd311.png\" srcset=\"https://docdn.giainhanh.io/media/test/e0ea26a32991deb936486f28b670fdaa.png 143w\" width=\"143\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c3fb9a57765478260e06a267e69c1fac.png\" srcset=\"https://docdn.giainhanh.io/media/test/f2721c5730232ee9d17b9df78b98efa8.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Trong trường hợp bất kì, mặt phẳng %((P))% chia tứ diện %(S A B C)% thành hai phần. Tính tỉ số thể tích của hai phần đó.",
+        "question_images": [],
+        "solution": "Vì %(M F / / N E / / S C)% nên tứ giác %(M N E F)% là hình thang.<br>Gọi %(I=F E \\cap M N \\Rightarrow I \\in A B)%.<br>Theo định lý Mennelaus, ta có<br>\\[\\begin{array}{l}+\\frac{S M}{A M} \\cdot \\frac{A I}{B I} \\cdot \\frac{B N}{S N}=1 \\Rightarrow \\frac{A I}{B I}=4 \\Rightarrow \\frac{I B}{I A}=\\frac{1}{4} . \\\\+\\frac{A B}{I B} \\cdot \\frac{I E}{F E} \\cdot \\frac{F C}{A C}=1 \\Rightarrow \\frac{I E}{F E}=1 \\Rightarrow E \\text { là trung điểm của } F I . \\\\+\\frac{V_{I B N E}}{V_{I A M F}}=\\frac{I B}{I A} \\cdot \\frac{I N}{I M} \\cdot \\frac{I E}{I F}=\\frac{1}{4} \\cdot \\frac{1}{2} \\cdot \\frac{1}{2}=\\frac{1}{16} \\Rightarrow V_{2}=V_{\\text {MNEFAB }}=V_{\\text {IAMF }}-V_{I B N E}=\\frac{15}{6} V_{\\text {IAMF }} . \\\\text { Mặt khác } \\frac{V_{\\text {IAMF }}}{V_{B A M F}}=\\frac{I A}{B A}=\\frac{4}{3} \\Rightarrow V_{\\text {IAMF }}=\\frac{4}{3} V_{\\text {BAMF }} .\\end{array}\\]<br>%(\\begin{array}{l}+S_{A B F}=\\frac{2}{3} S_{A B C} ; \\frac{A M}{A S}=\\frac{2}{3} \\Rightarrow V_{B A M F}=\\frac{4}{9} V_{S A B C} . \\\\ \\Rightarrow V_{2}=\\frac{15}{16} \\cdot \\frac{4}{3} \\cdot \\frac{4}{9} V_{S A B C}=\\frac{5}{9} V \\Rightarrow V_{1}=\\frac{4}{9} V . \\\\ + \\text { Vậy } \\frac{V_{1}}{V_{2}}=\\frac{4}{5} \\text { hoặc } \\frac{V_{2}}{V_{1}}=\\frac{5}{4} .\\end{array})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/23b54db041f1478edeacd06472bf293c.png\" srcset=\"https://docdn.giainhanh.io/media/test/b92a43a78ca73f026a358ad77d72f46a.png 148w, https://docdn.giainhanh.io/media/test/7b4a6453def521bdb14753c2199e2cc6.png 475w\" width=\"475\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 1.0,
+        "content": "Chứng minh ră̆ng với mọi số nguyên dương %(n\\gt 1)% ta luôn có:<br>\\[\\log _{n}(n+1)>\\log _{n+1}(n+2)\\]",
+        "question_images": [],
+        "solution": "+ Với mọi số nguyên dương %(n\\gt 1)% ta có:<br>%(\\log _{n}(n+1)>\\log _{n+1}(n+2) \\Leftrightarrow \\frac{\\ln (n+1)}{\\ln n}>\\frac{\\ln (n+2)}{\\ln (n+1)})%.<br>+ Xét hàm số %(y=\\frac{\\ln (x+1)}{\\ln x})% với %(x>1)%.<br>+ Ta có: %(y^{\\prime}=\\frac{\\frac{\\ln x}{x+1}-\\frac{\\ln (x+1)}{x}}{(\\ln x)^{2}}=\\frac{x \\ln x-(x+1) \\ln (x+1)}{x(x+1)(\\ln x)^{2}})%.<br>+ Với %(\\forall x>1)% thì %(x+1>x>1 ; \\ln (x+1)>\\ln x>0 \\Rightarrow x \\ln x-(x+1) \\ln (x+1)\\lt 0)%.<br>%(\\Rightarrow y^{\\prime}\\lt 0, \\forall x>1)%.<br>Suy ra hàm số nghịch biến trên %((1 ;+\\infty))%.<br>+ Do đó với mọi số nguyên dương %(n>1)% thì %(y(n)>y(n+1))%.<br>Vậy %(\\log _{n}(n+1)>\\log _{n+1}(n+2))%.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(P=\\frac{x^{2}+x}{x^{2}-2 x+1}:\\left(\\frac{x+1}{x}+\\frac{1}{x-1}+\\frac{2-x^{2}}{x}\\right))%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Tìm điều kiện xác định và rút gọn %(P)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { ĐKXĐ: } x \\neq 0 ; x \\neq 1 ; x \\neq-1 \\\\ P=\\frac{x(x+1)}{(x-1)^{2}}:\\left[\\frac{(x+1)(x-1)}{x(x-1)}+\\frac{x}{x(x-1)}+\\frac{2-x^{2}}{x(x-1)}\\right] \\\\ =\\frac{x(x+1)}{(x-1)^{2}}: \\frac{x^{2}-1+x+2-x^{2}}{x(x-1)}=\\frac{x(x+1)}{(x-1)^{2}}: \\frac{x+1}{x(x-1)} \\\\ =\\frac{x(x+1)}{(x-1)^{2}} \\cdot \\frac{x(x-1)}{x+1}=\\frac{x^{2}}{x-1}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Tìm %(x)% để %(\\mathrm{P}=\\frac{-1}{2})%",
+        "question_images": [],
+        "solution": "%(P=\\frac{-1}{2} \\Leftrightarrow P=\\frac{x^{2}}{x-1}=\\frac{-1}{2})% với %(x \\in \\mathrm{ĐKXĐ} )%<br>\\[\\begin{array}{l}\\Rightarrow 2 x^{2}=-x+1 \\Leftrightarrow 2 x^{2}+x-1=0 \\\\Leftrightarrow(2 x-1)(x+1)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{1}{2}(T M) \\x=-1(\\text { KTM })\\end{array}\\right.\\end{array}\\]<br>Vậy %(P=-\\frac{1}{2} \\Leftrightarrow x=\\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.5,
+        "content": "c) Tìm giá trị nhỏ nhất của %(P)% khi %(x\\gt 1)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}P=\\frac{x^{2}}{x-1}=\\frac{x^{2}-1+1}{x-1}=\\frac{(x+1)(x-1)+1}{x-1}=x+1+\\frac{1}{x-1} \\P=x+1+\\frac{1}{x-1}=x-1+\\frac{1}{x-1}+2\\end{array}\\]<br>Vì %(x\\gt 1)% nên %(x-1>0)%. Áp dụng BĐT Cosi ta có: %(x-1+\\frac{1}{x-1} \\geq 2 \\sqrt{(x-1) \\frac{1}{x-1}}=2)%<br>Dấu \"=\" xảy ra %(\\Leftrightarrow x-1=\\frac{1}{x-1} \\Leftrightarrow(x-1)^{2}=1 \\Leftrightarrow x-1=1 \\Leftrightarrow x=2(T M))%<br>Vậy GTNN của %(P)% là %(4 \\Leftrightarrow x=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Tìm đa thức %(f(x))% biết rằng: %(f(x))% chia cho %(x+2)% dư %(10, f(x))% chia cho %(x-2)% dư %(22)%, %(f(x))% chia cho %(x^{2}-4)% được thương là %(-5 x)% và còn dư",
+        "question_images": [],
+        "solution": "Giả sử %(f(x))% chia cho %(x^{2}-4)% được thương là %(-5 x)% và còn dư là %(a x+b)%<br>Khi đó: %(f(x)=\\left(x^{2}-4\\right) \\cdot(-5 x)+a x+b)%<br>Theo đề bài, ta có:<br>\\[\\left\\{\\begin{array} { l } { f ( 2 ) = 2 2 } \\\\{ f ( - 2 ) = 1 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { 2 a + b = 2 2 } \\\\{ - 2 a + b = 1 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}a=3 \\b=16\\end{array}\\right.\\right.\\right.\\]<br>Do đó: %(f(x)=\\left(x^{2}-4\\right) \\cdot(-5 x)+3 x+16)%<br>Vậy đa thức %(f(x))% cần tìm có dạng: %(f(x)=-5 x^{3}+23 x+16)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Chứng minh rằng với mọi số nguyên %(a)% thì %(a^{3}+5 a)%  %(\\vdots)% 6",
+        "question_images": [],
+        "solution": "%(a^{3}+5 a=a^{3}-a+6 a=a\\left(a^{2}-1\\right)+6 a=a(a-1)(a+1)+6 a)%<br>Vì %(a(a-1)(a+1))% là tích 3 số nguyên liên tiếp nên có 1 số chia hết cho 2 , một số chia hết cho 3 mà %((2,3)=1)% nên %(a(a-1)(a+1))% %(\\vdots)% 6; %(6 a)% %(\\vdots)% 6<br>Nên %(a^{3}+5 a)% %(\\vdots)% 6",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Giải phương trình nghiệm nguyên: %(x^{2}+x y-2012 x-2013 y-2014=0)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { } x^{2}+x y-2012 x-2013 y-2014=0 \\\\ \\Leftrightarrow x^{2}+x y+x-2013 x-2013 y-2013=1 \\\\ \\Leftrightarrow x(x+y+1)-2013(x+y+1)=1 \\\\ \\Leftrightarrow(x-2013)(x+y+1)=1 \\\\ \\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}x-2013=1 \\\\ x+y+1=1\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}x-2013=-1 \\\\ x+y+1=-1\\end{array}\\right.\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}x=2014 \\\\ y=-2014\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}x=2012 \\\\ y=-2014\\end{array}\\right.\\end{array}\\right.\\right. \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Cho %(a+b+c=0)% và %(a b c \\neq 0)%, tính giá trị của biểu thức:<br>\\[P=\\frac{1}{b^{2}+c^{2}-a^{2}}+\\frac{1}{a^{2}+c^{2}-b^{2}}+\\frac{1}{a^{2}+b^{2}-c^{2}}\\]",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}P=\\frac{1}{b^{2}+c^{2}-a^{2}}+\\frac{1}{a^{2}+c^{2}-b^{2}}+\\frac{1}{a^{2}+b^{2}-c^{2}} \\\\ =\\frac{1}{b^{2}+c^{2}-(b+c)^{2}}+\\frac{1}{a^{2}+c^{2}-(a+c)^{2}}+\\frac{1}{a^{2}+b^{2}-(a+b)^{2}} \\\\ =\\frac{1}{-2 a b}+\\frac{1}{-2 a c}+\\frac{1}{-2 a b}=\\frac{a+b+c}{-2 a b c}=0\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.5,
+        "content": "Cho 2 số %(a)% và b thỏa mãn %(a \\geq 1 ; b \\geq 1)%. Chứng minh:<br>\\[\\frac{1}{1+a^{2}}+\\frac{1}{1+b^{2}} \\geq \\frac{2}{1+a b}\\]",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text {} \\frac{1}{1+a^{2}}+\\frac{1}{1+b^{2}}-\\frac{2}{1+a b}=\\left(\\frac{1}{1+a^{2}}-\\frac{1}{1+a b}\\right)+\\left(\\frac{1}{1+b^{2}}-\\frac{1}{1+a b}\\right) \\\\=\\frac{a b-a^{2}}{\\left(1+a^{2}\\right)(1+a b)}+\\frac{a b-b^{2}}{\\left(1+b^{2}\\right)(1+a b)} \\\\=\\frac{a(b-a)\\left(1+b^{2}\\right)+b(a-b)\\left(1+a^{2}\\right)}{\\left(1+a^{2}\\right)\\left(1+b^{2}\\right)(1+a b)}=\\frac{(b-a)\\left(a+a b^{2}-b-a^{2} b\\right)}{\\left(1+a^{2}\\right)\\left(1+b^{2}\\right)(1+a b)}=\\frac{(b-a)^{2}(a b-1)}{\\left(1+a^{2}\\right)\\left(1+b^{2}\\right)(1+a b)} \\quad \\text { Do } a \\geq 1 ; b \\geq 1 \\text { nên } \\\\frac{(b-a)^{2}(a b-1)}{\\left(1+a^{2}\\right)\\left(1+b^{2}\\right)(1+a b)} \\geq 0 \\\\Rightarrow \\frac{1}{1+a^{2}}+\\frac{1}{1+b^{2}}-\\frac{2}{1+a b} \\geq 0 \\Leftrightarrow \\frac{1}{1+a^{2}}+\\frac{1}{1+b^{2}} \\geq \\frac{2}{1+a b}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho hình vuông %(A B C D)% có AC cắt BD tại O . %(M)% là điểm bất kỳ thuộc cạnh BC %((M \\neq B, C))%. Tia AM cắt đường thẳng CD tại N . Trên cạnh AB lấy điểm E sao cho %(B E=C M)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Chứng minh : %(\\triangle O E M)% vuông cân",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4fce3e9c155ed636553f673ea5edaa7c.png\" srcset=\"https://docdn.giainhanh.io/media/test/d8403a91cdd39acb5ab6501e08c48209.png 202w, https://docdn.giainhanh.io/media/test/9e9722056b0c65f2b17c25c1c56c1ccf.png 500w\" width=\"500\"/><br>Xét %(\\triangle O E B)% và %(\\triangle O M C)%Vì %(A B C D)% là hình vuông nên ta có: %(\\mathrm{OB}=\\mathrm{OC})%<br>Và %(\\widehat{B_{1}}=\\widehat{C}_{1}=45^{\\circ}, B E=C M(g t) \\Rightarrow \\Delta O E B=\\Delta O M C()% c.g.c)%(\\Rightarrow O E=O M)% và %(\\widehat{O_{1}}=\\widehat{O_{3}})%<br>Lại có: %(\\widehat{O_{2}}+\\widehat{O_{3}}=\\widehat{B O C}=90^{\\circ})% vì tứ giác %(A B C D)% là hình vuông%(\\Rightarrow \\widehat{O_{2}}+\\widehat{O_{1}}=\\widehat{E O M}=90^{\\circ})% kết hợp với %(O E=O M \\Rightarrow \\Delta O E M)% vuông cân tại O",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Chứng minh: %(M E / / B N)%",
+        "question_images": [],
+        "solution": "Từ giả thiết tứ giác %(A B C D)% là hình vuông %(\\Rightarrow A B / / C D)% và %(A B=C D)%<br>+) %(A B / / C D \\Rightarrow A B / / C N \\Rightarrow \\frac{A M}{M N}=\\frac{B M}{M C})% (định lý Ta let) (*)<br>Mà %(B E=C M(g t))% và %(A B=C d \\Rightarrow A E=B M)% thay vào %((*))%<br>Ta có: %(\\frac{A M}{M N}=\\frac{A E}{E B} \\Rightarrow M E / / B N)% (Ta let đảo)",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) Từ C kẻ %(C H \\perp B N(H \\in B N))%. Chứng minh rằng ba điểm %(O, M, H)% thẳng hàng.",
+        "question_images": [],
+        "solution": "Gọi %(H^{\\prime})% 'là giao điểm của %(O M)% và %(BN)%<br>Từ %(M E / / B N \\Rightarrow \\widehat{O M E}=\\widehat{O H^{\\prime} E})% (cặp góc so le trong)<br>Mà %(\\widehat{O M E}=45^{\\circ})% vì %(\\triangle O E M)% vuông cân tại %(O)%%(\\Rightarrow \\widehat{M H^{\\prime} B}=45^{\\circ}=\\widehat{C_{1}} \\Rightarrow \\Delta O M C \\sim \\Delta B M^{\\prime}(g . g))%<br>%(\\Rightarrow \\frac{O M}{O B}=\\frac{M H^{\\prime}}{M C})%, kết hợp %(\\widehat{O M B}=\\widehat{C M H^{\\prime}})% (hai góc đối đỉnh)<br>%(\\Rightarrow \\triangle O M B \\sim \\triangle C M H^{\\prime}()% c.g.c %() \\Rightarrow \\widehat{O B M}=\\widehat{M H^{\\prime} C}=45^{\\circ})%<br>Vậy %(\\widehat{B H^{\\prime} C}=\\widehat{B H^{\\prime} M}+\\widehat{M H^{\\prime} C}=90^{\\circ} \\Rightarrow C H^{\\prime} \\perp B N)%<br>Mà %(C H \\perp B N(H \\in B N) \\Rightarrow H \\equiv H)% 'hay 3 điểm %(O, M, H)% thẳng hàng (đpcm)",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,103 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 2.0,
+        "content": "Giải phương trình %(x^{3}+1=2 \\sqrt[3]{2 x-1})%.",
+        "question_images": [],
+        "solution": "Đặt: %(y=\\sqrt[3]{2 x-1})%.<br>Ta có: %(\\left\\{\\begin{array}{l}x^{3}+1=2 y \\\\ y^{3}+1=2 x\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x^{3}+1=2 y \\\\ x^{3}-y^{3}=2(y-x)\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x^{3}+1=2 y \\\\ (x-y)\\left(x^{2}-x y+y^{2}+2\\right)=0\\end{array}\\right.\\right.\\right.)%Do %(x^{2}-x y+y^{2}+2=\\left(x-\\frac{y}{2}\\right)^{2}+\\frac{3 y^{2}}{4}+2\\gt 0 \\forall x, y)%<br>Nên ta có hệ: %(\\left\\{\\begin{array}{l}x^{3}+1=2 y \\\\ x=y\\end{array} \\Rightarrow x^{3}+1=2 x \\Leftrightarrow(x-1)\\left(x^{2}+x-1\\right)=0\\right.)%<br>\\[\\Leftrightarrow\\left[\\begin{array}{l}x=1 \\x=\\frac{-1+\\sqrt{5}}{2} \\x=\\frac{-1-\\sqrt{5}}{2}\\end{array}\\right.\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C)% vuông tại %(A)%. Trên hai cạnh %(A B)% và %(A C)% lần lượt lấy hai điểm %(B^{\\prime})% và %(C^{\\prime})% sao cho %(A B \\cdot A B^{\\prime}=A C \\cdot A C^{\\prime})%. Gọi %(M)% là trung điểm của %(B C)%. Chứng minh rằng %(A M \\perp B^{\\prime} C^{\\prime})%.",
+        "question_images": [],
+        "solution": "Vì M là trung điểm của %(B C)% nên<br>\\[\\overrightarrow{A M}=\\frac{1}{2}(\\overrightarrow{A B}+\\overrightarrow{A C})\\]<br>Ta có: %(\\overrightarrow{A M} \\cdot \\overrightarrow{B^{\\prime} C^{\\prime}}=\\frac{1}{2}(\\overrightarrow{A B}+\\overrightarrow{A C})\\left(\\overrightarrow{A C^{\\prime}}-\\overrightarrow{A B^{\\prime}}\\right)=\\overrightarrow{A C} \\cdot \\overrightarrow{A C^{\\prime}}-\\overrightarrow{A B} \\cdot \\overrightarrow{A B^{\\prime}}=0)%Vậy: %(A M \\perp B^{\\prime} C^{\\prime})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/75b2ff3cc116d3ed688441523f47b4dc.png\" srcset=\"https://docdn.giainhanh.io/media/test/510a09ceeec3b0f8a59f5cef314a3729.png 222w\" width=\"222\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3:",
+        "group_content": "Cho phương trình %(\\cos 2 x+\\sin x+m-3=0)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a. ",
+        "point": 1.5,
+        "content": "a) Tìm tất cả các giá trị của tham số %(m)% để phương trình có 3 nghiệm phân biệt.",
+        "question_images": [],
+        "solution": "Đặt: %(t=\\sin x, t \\in[-1 ; 1])%<br>Phương trình trở thành %(2 t^{2}-t=m-2)%<br>Xét hàm số %(y=2 t^{2}-t)% với %(t \\in[-1 ; 1])%<br>Để phương trình có 3 nghiệm phân biệt %(\\Leftrightarrow m-2=1 \\Leftrightarrow m=3)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b. ",
+        "point": 1.5,
+        "content": "b) Tìm tất cả các giá trị của tham số %(m)% để phương trình có 4 nghiệm phân biệt thuộc khoảng %((0 ; \\pi) \\text {. })%",
+        "question_images": [],
+        "solution": "%(x \\in(0 ; \\pi) \\Rightarrow t \\in(0 ; 1])%<br>Xét hàm số %(y=2 t^{2}-t)% trên nửa khoảng %((0 ; 1])%<br>Để phương trình có 4 nghiệm phân biệt %(\\Leftrightarrow-\\frac{1}{8}\\lt m-2\\lt 0 \\Leftrightarrow \\frac{15}{8}\\lt m\\lt 2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4:",
+        "group_content": "Cho %(f(x)=m x^{2}+4(m-1) x+m-1 \\quad(m)% là tham số).",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a. ",
+        "point": 2.0,
+        "content": "a) Tìm tất cả các giá trị của tham số %(m)% để %(f(x)\\gt 0)% với mọi %(x \\in \\mathbb{R})%.",
+        "question_images": [],
+        "solution": "+ Khi %(m=0)% thì %(f(x)\\gt 0 \\Leftrightarrow-4 x-1>0 \\Leftrightarrow x\\lt -\\frac{1}{4})% (loại)<br>\\[\\begin{array}{l}\\text { + Khi } m \\neq 0 \\text { đề } \\f(x)>0 \\forall x \\in \\mathbb{R} \\Leftrightarrow\\left\\{\\begin{array} { l } { m > 0 } \\\\{ \\Delta ^ { \\prime } \\lt 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}m>0 \\\\(m-1)(3 m-4)\\lt 0\\end{array} \\Leftrightarrow 1\\lt m\\lt \\frac{4}{3}\\right.\\right.\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b.  ",
+        "point": 2.0,
+        "content": "b) Tìm tất cả các giá trị của tham số %(m)% để %(f(x)\\lt 0)% với mọi %(x \\in(0 ; 2))%.",
+        "question_images": [],
+        "solution": "+ Khi %(m=0)% thì %(f(x)\\lt 0 \\Leftrightarrow-4 x-1\\lt 0 \\Leftrightarrow x\\gt -\\frac{1}{4})% (thỏa mãn)<br>\\[+\\left\\{\\begin{array} { l } { m \\lt 0 } \\\\{ \\Delta ^ { \\prime } \\lt 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}m\\lt 0 \\\\(m-1)(3 m-4)\\lt 0\\end{array} \\Rightarrow V N\\right.\\right.\\]<br>+ Khi %(m>0)% đề %(f(x)\\lt 0 \\forall x \\in(0 ; 2))% thì %(f(x)=0)% có hai nghiệm %(x_{1}, x_{2})% thỏa<br>\\[x_{1} \\leq 0\\lt 2 \\leq x_{2} \\Leftrightarrow\\left\\{\\begin{array}{l}x_{1} \\leq 0\\lt x_{2}(1) \\x_{1}\\lt 2 \\leq x_{2}(2)\\end{array}\\right.\\]<br>(1) %(\\Leftrightarrow \\frac{m-1}{m} \\leq 0 \\Leftrightarrow 0\\lt m \\leq 1)%%((2) \\Leftrightarrow\\left(x_{1}-2\\right)\\left(x_{2}-2\\right) \\leq 0 \\Leftrightarrow x_{1} x_{2}-2\\left(x_{1}+x_{2}\\right)+4 \\leq 0 \\Leftrightarrow 0\\lt m \\leq \\frac{13}{10})%Vậy: %(0 \\leq m \\leq \\frac{13}{10})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5:",
+        "group_content": "Cho hệ phương trình %(\\left\\{\\begin{array}{l}\\sqrt{x+1}+\\sqrt{y+2}=m \\\\ x+y=3 m\\end{array}\\right.)% ( %(m)% là tham số).",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a. ",
+        "point": 2.0,
+        "content": "a) Giải hệ phương trình khi %(m=4)%.",
+        "question_images": [],
+        "solution": "Khi %(m=4)% ta có %(\\left\\{\\begin{array}{l}\\sqrt{x+1}+\\sqrt{y+2}=4 \\\\ x+y=12\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}y=12-x \\\\ \\sqrt{x+1}+\\sqrt{14-x}=4\\end{array}\\right.\\right.)% %((-1 \\leq x \\leq 14 ;-2 \\leq y \\leq 13))%<br>\\[\\begin{array}{l}\\Rightarrow 2 \\sqrt{(x+1)(14-x)}=1 \\Leftrightarrow-4 x^{2}+52 x+55=0 \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{13+4 \\sqrt{14}}{2} \\x=\\frac{13-4 \\sqrt{14}}{2}\\end{array}\\right] \\y=\\frac{11-4 \\sqrt{14}}{2} \\y=\\frac{11+4 \\sqrt{14}}{2}\\end{array}\\]<br>Vậy: hệ có hai nghiệm %(\\left(\\frac{13+4 \\sqrt{14}}{2} ; \\frac{11-4 \\sqrt{14}}{2}\\right))% và %(\\left(\\frac{13-4 \\sqrt{14}}{2} ; \\frac{11+4 \\sqrt{14}}{2}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b. ",
+        "point": 2.0,
+        "content": "b) Tìm tất cả các giá trị của tham số %(m)% để hệ phương trình có nghiệm.",
+        "question_images": [],
+        "solution": "Đặt: %(a=\\sqrt{x+1})% và %(b=\\sqrt{y+2})%. Hệ trở thành %(\\left\\{\\begin{array}{l}a+b=m \\\\ a^{2}+b^{2}=3 m+3 \\\\ a \\geq 0, b \\geq 0\\end{array}\\right.)%<br>Để hệ có nghiệm khi và chỉ khi đường thẳng %(a+b=m)% có điềm chung với đường tròn %(a^{2}+b^{2}=3 m+3)% trong đó %(a \\geq 0)% và %(b \\geq 0)%<br>\\[\\sqrt{3 m+3} \\leq m \\leq \\sqrt{6 m+6} \\Leftrightarrow\\left\\{\\begin{array}{l}m^{2}-6 m-6 \\leq 0 \\m^{2}-3 m-3 \\geq 0 \\m \\geq 0\\end{array} \\Leftrightarrow \\frac{3+\\sqrt{21}}{2} \\leq m \\leq 3+\\sqrt{15}\\right.\\]<br>Vậy: %(\\frac{3+\\sqrt{21}}{2} \\leq m \\leq 3+\\sqrt{15})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C)%. Gọi %(O)% là điểm tùy ý nằm trong tam giác. Kẻ %(O M, O N)% và %(O P)% lần lượt vuông góc với các cạnh %(B C, A C)% và %(A B)%. Chứng minh %(\\frac{B C}{O M}+\\frac{A C}{O N}+\\frac{A B}{O P} \\geq \\frac{2 p}{r})% trong đó %(p)% là nửa chu vi của tam giác %(A B C)% và %(r)% là bán kính của đường tròn nội tiếp của tam giác %(A B C)%.",
+        "question_images": [],
+        "solution": "Theo BĐT Bunhiacopski, ta có<br>\\[\\begin{array}{l}\\left(\\sqrt{\\frac{B C}{O M}} \\cdot \\sqrt{B C \\cdot O M}+\\sqrt{\\frac{A C}{O N}} \\cdot \\sqrt{A C \\cdot O N}+\\sqrt{\\frac{A B}{O P}} \\cdot \\sqrt{A B \\cdot O P}\\right)^{2} \\\\leq\\left(\\frac{B C}{O M}+\\frac{A C}{O N}+\\frac{A B}{O P}\\right)(B C \\cdot O M+A C \\cdot O N+A B \\cdot O P) \\\\Leftrightarrow(B C+A C+A B)^{2} \\leq\\left(\\frac{B C}{O M}+\\frac{A C}{O N}+\\frac{A B}{O P}\\right)(B C \\cdot O M+A C \\cdot O N+A B \\cdot O P) \\\\Leftrightarrow\\left(\\frac{B C}{O M}+\\frac{A C}{O N}+\\frac{A B}{O P}\\right) \\cdot 2 S_{A B C} \\geq 4 p^{2} \\Leftrightarrow \\frac{B C}{O M}+\\frac{A C}{O N}+\\frac{A B}{O P} \\geq \\frac{2 p}{r}\\left(\\text { do } S_{A B C}=p r\\right)\\end{array}\\]<br>Dấu bằng xảy ra %(O M=O N+O P \\Leftrightarrow O)% là tâm đường tròn nội tiếp tam giác ABC",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 3.0,
+        "content": "Cho tam giác %(A B C)% vuông tại %(B)%. Kéo dài %(A C)% về phía %(C)% một đoạn %(C D=A B=1)%; %(\\widehat{C B D}=30^{\\circ})%. Tính độ dài đoạn %(A C)%.",
+        "question_images": [],
+        "solution": "Qua %(D)% kẻ đường thă̆ng vuông góc với %(C D)% cắt %(B C)% tại %(E)%Tứ giác %(A B D E)% nội tiếp<br>\\[\\angle D B C=\\angle D A E\\]<br>Đặt %(A C=x\\gt 1 \\Rightarrow A D=x+1)%<br>\\[\\begin{array}{l}D E=A D \\cdot \\tan \\frac{\\pi}{6}=\\frac{x+1}{\\sqrt{3}} ; B C=\\sqrt{x^{2}-1} \\\\triangle C D E \\sim \\triangle C B A \\Rightarrow \\frac{C D}{E D}=\\frac{B C}{B A} \\Leftrightarrow \\sqrt{3}=(x+1) \\sqrt{x^{2}-1}\\end{array}\\]<br>\\[\\Leftrightarrow x\\left(x^{3}-2\\right)+2\\left(x^{3}-2\\right)=0 \\Leftrightarrow\\left(x^{3}-2\\right)(x+2)=0 \\Leftrightarrow x=\\sqrt[3]{2}\\]<br>Vậy: %(A C=\\sqrt[3]{2})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/809f1c53017ba528ae24aef1fae8999b.png\" srcset=\"https://docdn.giainhanh.io/media/test/7b5c79ab188f8a61d9d1a811ad1e3887.png 160w\" width=\"160\"/>",
+        "question_type": "essay"
+    }
+]

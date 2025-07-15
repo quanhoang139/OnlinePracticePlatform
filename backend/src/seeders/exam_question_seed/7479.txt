@@ -1,0 +1,89 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 2.0,
+        "content": "Cho hàm số %(y=x^{4}-2 m x^{2}+2 m-1)%, với %(m)% là tham số. Tìm các giá trị của %(m)% để đồ thị của hàm số đã cho có ba điểm cực trị là 3 đỉnh của một tam giác vuông.",
+        "question_images": [],
+        "solution": "TXĐ: %(D=\\mathbb{R})%.<br>Ta có %(: y^{\\prime}=4 x\\left(x^{2}-m\\right))%<br>\\[y^{\\prime}=0 \\Leftrightarrow 4 x\\left(x^{2}-m\\right)=0 \\Leftrightarrow x=0 \\text { hoặc } x^{2}=m\\]<br>Hàm số có 3 điểm cực trị %(\\Leftrightarrow y^{\\prime}=0)% có 3 nghiệm phân biệt %(\\Leftrightarrow m\\gt 0)%<br>Khi đó 3 điểm cực trị của đồ thị hàm số là:<br>\\[A\\left(-\\sqrt{m} ;-m^{2}+2 m-1\\right), B(0 ; 2 m-1), C\\left(\\sqrt{m} ;-m^{2}+2 m-1\\right)\\]<br>Vì hàm số chẵn nên tam giác %(A B C)% cân tại %(B \\in O y, A)% và %(C)% đối xứng nhau qua %(O y)%.<br>%(A B C)% là tam giác vuông %(\\Leftrightarrow)% tam giác %(A B C)% vuông cân tại %(B)%<br>%(\\Leftrightarrow A C=A B \\cdot \\sqrt{2} \\Leftrightarrow m^{2}=\\sqrt{m} \\Leftrightarrow m=1)% hoặc %(m=0)%.<br>Vậy chọn %(m=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Nhà bạn An muốn đặt thợ làm một bể cá, nguyên liệu bằng kính trong suốt, không có nắp đậy dạng hình hộp chữ nhật có thể tích chứa được %(400000\\left(\\mathrm{~cm}^{3}\\right))% nước. Biết rằng chiều cao của bể gấp 2 lần chiều rộng của bể. Xác định diện tích đáy của bể cá để tiết kiệm nguyên vật liệu nhất.",
+        "question_images": [],
+        "solution": "Gọi %(a, b, c)% lần lượt là chiều rộng, dài, cao của hình hộp chữ nhật<br>\\[(a, b, c\\gt 0) \\text {. }\\]<br>Theo bài ra %(V=a b c=400000)% và %(c=2 a \\Rightarrow 2 a^{2} b=400000 \\Rightarrow a b=\\frac{200000}{a})%<br>Ta có tổng diện tích xung quanh và diện tích một đáy của bể là<br>\\[\\begin{aligned}S & =a b+2 a c+2 b c=a b+4 a^{2}+4 a b=5 a b+4 a^{2} \\\\& =\\frac{1000000}{a}+4 a^{2}=4\\left(\\frac{125000}{a}+\\frac{125000}{a}+a^{2}\\right)\\end{aligned}\\]<br>\\[S=4\\left(\\frac{125000}{a}+\\frac{125000}{a}+a^{2}\\right) \\geq 4.3 \\cdot \\sqrt[3]{\\frac{125000}{a} \\cdot \\frac{125000}{a} \\cdot a^{2}}=30000 .\\]<br>Suy ra %(S)% nhỏ nhất khi %(\\frac{125000}{a}=a^{2} \\Leftrightarrow a=50 \\Rightarrow b=80 \\Rightarrow S_{d}=4000 \\mathrm{~cm}^{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 3.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}\\frac{1}{y^{2}} \\log \\frac{100 x}{y^{2}}=1-\\frac{x-2}{y^{2}} \\\\ \\sqrt{x y-2}=\\sqrt[3]{x-1}+y\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Điều kiện: %(x\\gt 0)%; %(x y \\geq 2)%.<br>Ta có<br>\\[\\begin{array}{l}\\frac{1}{y^{2}} \\log \\frac{100 x}{y^{2}}=1-\\frac{x-2}{y^{2}} \\Leftrightarrow \\log 100 x-\\log y^{2}=y^{2}-x+2 \\\\Leftrightarrow x+\\log x=y^{2}+\\log y^{2}~~~(1)\\end{array}\\]<br>Xét hàm số<br>\\[f(t)=t+\\log t \\quad(\\mathrm{t}\\gt 0) \\Rightarrow f^{\\prime}(t)=1+\\frac{1}{t \\ln 10}>0, \\quad \\forall t>0,\\]<br>suy ra hàm số %(f(t))% đồng biến trên khoảng %((0 ;+\\infty))%.<br>Kết hợp với %((1))% ta có %(f(x)=f\\left(y^{2}\\right) \\Leftrightarrow x=y^{2}~~~(2))%<br>Thế (2) vào phương trình còn lại của hệ đã cho ta được:<br>\\[\\begin{array}{l}\\sqrt{y^{3}-2}=\\sqrt[3]{y^{2}-1}+y \\Leftrightarrow \\sqrt[3]{y^{2}-1}-2+y-3-\\left(\\sqrt{y^{3}-2}-5\\right)=0 \\\\(y-3)\\left(\\frac{y+3}{\\sqrt[3]{\\left(y^{2}-1\\right)^{2}}+2 \\sqrt[3]{y^{2}-1}+4}+1-\\frac{y^{2}+3 y+9}{\\sqrt[3]{y^{2}-2}+5}\\right)=0 \\quad \\text { (3) } \\Leftrightarrow y=3\\end{array}\\]<br>(3) %(\\Leftrightarrow y=3)%<br>Ta có %(\\frac{y+3}{\\sqrt[3]{\\left(y^{2}-1\\right)^{2}}+2 \\sqrt[3]{y^{2}-1}+4}+1\\lt 2\\lt \\frac{y^{2}+3 y+9}{\\sqrt{y^{3}-2}+5})% với %(y \\geq \\sqrt[3]{2})%<br>Nên pt (3) có nghiệm duy nhất %(y=3)%.<br>Vậy hệ pt có nghiệm %((x ; y)=(9 ; 3))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C)% không có góc vuông và có các cạnh %(B C=a, C A=b, A B=c)%. Chứng minh rằng nếu %(a^{2}+b^{2}=2 c^{2})% và %(\\tan A+\\tan C=2 \\tan B)% thì %(\\triangle A B C)% là tam giác đều.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text {Ta có } \\\\left\\{\\begin{array} { l } { \\operatorname { t a n } A + \\operatorname { t a n } C = 2 \\operatorname { t a n } B } \\\\{ a ^ { 2 } + b ^ { 2 } = 2 c ^ { 2 } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}\\cos B=2 \\cos A \\cos C \\a^{2}=2 c^{2}-b^{2}\\end{array}\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}\\frac{a^{2}+c^{2}-b^{2}}{2 a c}=2 \\cdot \\frac{b^{2}+c^{2}-a^{2}}{2 b c} \\cdot \\frac{a^{2}+b^{2}-c^{2}}{2 a b} \\a^{2}=2 c^{2}-b^{2}\\end{array}\\right. \\\\Rightarrow b^{2}\\left(3 c^{2}-2 b^{2}\\right)=\\left(2 b^{2}-c^{2}\\right) c^{2} \\Leftrightarrow b^{2} c^{2}+c^{4}-2 b^{4} \\Leftrightarrow\\left(c^{2}-b^{2}\\right)\\left(c^{2}+2 b^{2}\\right)=0 \\Leftrightarrow c=b\\end{array}\\]<br>Kết hợp với %(a^{2}+b^{2}=2 c^{2} \\Rightarrow a=b=c)%.<br>Vậy tam giác %(A B C)% là tam giác đều.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 2.0,
+        "content": "Trong cuộc thi văn nghệ do Đoàn thanh niên trường THPT %(X)% tổ chức vào tháng 11 năm 2018 với thể lệ mỗi lớp tham gia một tiết mục. Kết quả có 12 tiết mục đạt giải trong đó: có 4 tiết mục khối 12 , có 5 tiết mục khối 11 và 3 tiết mục khối 10 . Ban tổ chức chọn ngẫu nhiên 5 tiết mục biểu diễn chào mừng ngày 20 tháng 11 (không tính thứ tự biểu diễn). Tính xác suất sao cho khối nào cũng có tiết mục được biểu diễn và trong đó có ít nhất hai tiết mục của khối 12.",
+        "question_images": [],
+        "solution": "Gọi không gian mẫu của phép chọn ngẫu nhiên là %(\\Omega)%<br>Số phần tử của không gian mẫu là: %(\\mathrm{n}(\\Omega)=C_{12}^{5}=792)%<br>Gọi %(A)% là biến cô “Chọn 5 tiêt mục sao cho khối nào cũng có tiết mục được biểu diễn và trong đó có ít nhất hai tiết mục của khối 12\"<br>Chỉ có 3 khả năng xảy ra thuận lợi cho biến cô %(\\mathrm{A})% là :<br>+ 2 tiết mục khối 12,2 tiết mục khối 10,1 tiết mục khối 11<br>+ 2 tiết mục khối 12, 1 tiết mục khối 10,2 tiết mục khối 11<br>+ 3 tiết mục khối 12, 1 tiết mục khối 10,1 tiết mục khối 11<br>Số kết quả thuận lợi cho biến cố %(A)% là: %(\\mathrm{n}(A)=C_{4}^{2} \\cdot C_{3}^{2} \\cdot C_{5}^{1}+C_{4}^{2} \\cdot C_{3}^{1} \\cdot C_{5}^{2}+C_{4}^{3} \\cdot C_{3}^{1} \\cdot C_{5}^{1} \\cdot=330)%<br>Xác suất cần tìm là %(P(A)=\\frac{330}{792}=\\frac{5}{12})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 3.0,
+        "content": "Trong mặt phẳng với hệ trục tọa độ %(O x y)%, cho tam giác %(A B C)% có 3 góc đều nhọn. Gọi %(H)% là trực tâm của tam giác %(A B C ; M, N, P)% lần lượt là giao điểm của %(A H, B H, C H)% với đường tròn ngoại tiếp tam giác %(A B C)%. Tìm tọa độ trực tâm %(H)% của tam giác %(A B C)%, biết %(M\\left(-\\frac{16}{9} ;-\\frac{5}{9}\\right) ; N\\left(-\\frac{7}{8} ; \\frac{5}{4}\\right) ; P\\left(-\\frac{1}{3} ; \\frac{1}{6}\\right))%.",
+        "question_images": [],
+        "solution": "Ta có %(\\left\\{\\begin{array}{l}\\widehat{P N B}=\\widehat{P C B} \\\\ \\widehat{P C B}=\\widehat{B A M} \\\\ \\widehat{B A M}=\\widehat{B N M}\\end{array} \\Rightarrow \\widehat{P N B}=\\widehat{B N M}\\right.)%, suy ra %(B N)% là đường phân giác trong của %(\\widehat{P N M})%<br>Chứng minh tương tự %(P C, A M)% lần lượt là đường phân giác trong của góc %(\\widehat{M P N}, \\widehat{P M N})%<br>Suy ra %(H)% là tâm đường tròn nội tiếp tam giác %(M N P)%<br>Ta có %(\\overrightarrow{M N}=\\left(\\frac{65}{72} ; \\frac{65}{36}\\right))%, viết được PT %(M N: 2 x-y+3=0)%<br>Tương tự ta có %(\\mathrm{PT})% của %(M P: 3 x-6 y+2=0)%; %(N P: 4 x+2 y+1=0)%<br>PT đường phân giác của %(\\widehat{M P N}: 6 x+18 y-1=0)% và %(18 x-6 y+7=0)%<br>do %(M, N)% nằm cùng phía cua đường phân giác trong nên ta chon %(\\mathrm{PT} P C: 6 x+18 y-1=0)%<br>Đường phân giác của %(\\widehat{P N M}: 4 y-5=0)% và %(8 x+7=0)%<br>Chọn được PT %(N B)% là : %(8 x+7=0)%<br>Ta có %(N B \\cap P C=H)%, suy ra %(H\\left(-\\frac{7}{8} ; \\frac{25}{72}\\right))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1adfdd713adc3c27da725c61873f8fab.png\" srcset=\"https://docdn.giainhanh.io/media/test/0e023caae4cdddb329b987fe0f619c16.png 167w, https://docdn.giainhanh.io/media/test/a07bc2ba40ef521820b548eb475e5a04.png 500w, https://docdn.giainhanh.io/media/test/2a69decc63d5c195fc9e603289e56fa6.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7:",
+        "group_content": "Cho lăng trụ %(A B C \\cdot A^{\\prime} B^{\\prime} C^{\\prime})% có đáy là tam giác vuông tại %(A, A B=a, B C=2 a)%. Mặt bên %(B C C^{\\prime} B)% ' là hình thoi và nằm trong mặt phẳng vuông góc với mặt phẳng chứa đáy. Góc giữa hai mặt phẳng %(\\left(B C C^{\\prime} B^{\\prime}\\right))% và %(\\left(A B B^{\\prime} A^{\\prime}\\right))% bằng %(\\alpha)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Trong trường hợp %(\\tan \\alpha=\\frac{5 \\sqrt{2}}{4})%, hãy tính theo %(a)% khi thể tích khối lăng trụ %(A B C . A^{\\prime} B^{\\prime} C^{\\prime})%.",
+        "question_images": [],
+        "solution": "Dựng %(A H \\perp B C(H \\in B C))%, suy ra được %(A H \\perp\\left(B C C^{\\prime} B^{\\prime}\\right))%<br>Trong tam giác vuông %(A B C)% có %(A C=\\sqrt{B C^{2}-A B^{2}}=a \\sqrt{3} ; A H=\\frac{A B \\cdot A C}{B C}=\\frac{a \\sqrt{3}}{2})%<br>Dựng %(H I \\perp B B^{\\prime}\\left(I \\in B B^{\\prime}\\right))%, ta có %(\\left\\{\\begin{array}{l}B B^{\\prime} \\perp H I \\\\ B B^{\\prime} \\perp A H\\end{array} \\Rightarrow B B^{\\prime} \\perp(A H I)\\right.)%<br>Suy ra được góc giữa 2 mặt phằng %(\\left(B C C^{\\prime} B^{\\prime}\\right))% và %(\\left(A B B^{\\prime} A^{\\prime}\\right))% bằng góc giữa hai đường thằng %(A I)% và %(H I)% bằng %(\\widehat{A I H}=\\alpha)% (do tam giác %(A H I)% vuông tại %(H)% nên %(\\widehat{A I H})% là góc nhọn)<br>Trong tam giác vuông %(A B H)% tính được %(B H=\\frac{a}{2})%, ta có %(\\tan \\alpha=\\tan \\widehat{A I H}=\\frac{A H}{I H}=\\frac{5 \\sqrt{2}}{4})% suy ra %(I H=\\frac{a \\sqrt{3}}{2}: \\frac{5 \\sqrt{2}}{4}=\\frac{a \\sqrt{6}}{5} \\Rightarrow \\sin \\widehat{I B H}=\\frac{a \\sqrt{6}}{5}: \\frac{a}{2}=\\frac{2 \\sqrt{6}}{5})%<br>Vậy %(V_{A B C A^{\\prime} B^{\\prime} C^{\\prime}}=\\frac{3}{2} V_{A \\cdot B C C^{\\prime} B^{\\prime}}=\\frac{3}{2} \\cdot \\frac{1}{3} \\cdot \\frac{a \\sqrt{3}}{2} \\cdot 4 a^{2} \\cdot \\frac{2 \\sqrt{6}}{5}=\\frac{6 a^{3} \\sqrt{2}}{5})%.<br>(Hoặc tính đường cao %(B^{\\prime} D)% và tính %(S_{\\triangle A B C})% rồi suy ra thể tích khối lăng trụ)",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Trong trường hợp %(\\tan \\alpha=\\frac{5 \\sqrt{2}}{4})%, hãy tính theo %(a)% khi khoảng cách giữa hai đường thẳng %(A^{\\prime} C^{\\prime})% và %(B^{\\prime} C)%.",
+        "question_images": [],
+        "solution": "Dựng %(B^{\\prime} D \\perp B C(D \\in B C))%, ta có %(B^{\\prime} D \\perp(A B C))%<br>Ta có %(A^{\\prime} C^{\\prime} \\| A C)% nên %(A^{\\prime} C^{\\prime} \\|\\left(B^{\\prime} A C\\right))%, nên %(\\mathrm{d}\\left(A^{\\prime} C^{\\prime}, B^{\\prime} C\\right)=\\mathrm{d}\\left(A^{\\prime} C^{\\prime},\\left(B^{\\prime} A C\\right)\\right))%<br>%(=\\mathrm{d}\\left(C^{\\prime},\\left(B^{\\prime} A C\\right)\\right)=\\mathrm{d}\\left(B,\\left(B^{\\prime} A C\\right)\\right)=\\frac{B C}{D C} \\cdot \\mathrm{d}\\left(D,\\left(B^{\\prime} A C\\right)\\right))%<br>Dựng %(D J \\perp A C)% tại %(J)%, có %(D J \\| A B)%<br>Dựng %(D K \\perp J B^{\\prime})% tại %(K)%.<br>Chứng minh được %(D K \\perp\\left(B^{\\prime} A C\\right) \\Rightarrow \\mathrm{d}\\left(D,\\left(B^{\\prime} A C\\right)\\right)=D K)%<br>Ta có %(\\cos \\widehat{B^{\\prime} B D}=\\cos \\widehat{I B H}=\\frac{1}{5})%<br>mà %(\\cos \\widehat{B^{\\prime} B D}=\\frac{B D}{B B^{\\prime}} \\Rightarrow B D=\\frac{2 a}{5} \\Rightarrow \\frac{D J}{A B}=\\frac{C D}{C B}=\\frac{4}{5} \\Rightarrow D J=\\frac{4 a}{5})%<br>Ta có %(\\sin \\widehat{B^{\\prime} B D}=\\sin \\widehat{I B H}=\\frac{2 \\sqrt{6}}{5}=\\frac{B^{\\prime} D}{B B^{\\prime}} \\Rightarrow B^{\\prime} D=\\frac{4 a \\sqrt{6}}{5})%<br>Xét tam giác %(B^{\\prime} D J)% vuông tại %(D)% có %(\\frac{1}{D K^{2}}=\\frac{1}{B^{\\prime} D^{2}}+\\frac{1}{D J^{2}}=\\frac{25}{96 a^{2}}+\\frac{25}{16 a^{2}}=\\frac{175}{96 a^{2}})%<br>Suy ra %(\\left(A^{\\prime} C^{\\prime}, B^{\\prime} C\\right)=\\frac{B C}{D C} \\cdot D K=\\frac{5}{4} \\cdot \\frac{4 a \\sqrt{42}}{35}=\\frac{a \\sqrt{42}}{7})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/889711345130fcb03c4d5b55775faa13.png\" srcset=\"https://docdn.giainhanh.io/media/test/1956d90203f3e94f78bd269778618bf7.png 137w, https://docdn.giainhanh.io/media/test/bc6dd951dd99f8ecb1cddfe2145197ea.png 440w\" width=\"440\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Gọi %(\\beta)% là góc giữa hai mặt phẳng chứa hai mặt bên qua %(C C^{\\prime})% của lăng trụ %(A B C . A^{\\prime} B^{\\prime} C^{\\prime})%, tìm hệ thức giữa %(\\cot \\alpha)% và %(\\cot \\beta)%.",
+        "question_images": [],
+        "solution": "Dựng %(H E \\perp C C^{\\prime}\\left(E \\in C C^{\\prime}\\right))%, ta có %(\\left\\{\\begin{array}{l}C C^{\\prime} \\perp A H \\\\ C C^{\\prime} \\perp H E\\end{array} \\Rightarrow C C^{\\prime} \\perp(A H E)\\right.)%<br>Suy ra được góc giữa 2 mặt phằng %(\\left(B C^{\\prime} B^{\\prime}\\right))% và %(\\left(A C^{\\prime} A^{\\prime}\\right))% bằng góc giữa hai đường thằng %(A E)% và %(H E)% bằng %(\\widehat{A E H}=\\beta)% (do tam giác %(A H E)% vuông tại %(H)% nên %(\\widehat{A E H})% là góc nhọn)<br>Xét tam giác vuông %(A H E)%, ta có %(\\cot \\beta=\\frac{H E}{A H})%.<br>Ta có %(B H=\\frac{a}{2}, \\quad A H=\\frac{a \\sqrt{3}}{2}, I H=A H \\cdot \\cot \\alpha=\\frac{a \\sqrt{3}}{2} \\cot \\alpha)% và do tam giác %(B H I)% vuông tại %(I)% nên %(H I\\lt B H)% suy ra %(\\frac{a \\sqrt{3}}{2} \\cot \\alpha\\lt \\frac{a}{2} \\Rightarrow \\cot \\alpha\\lt \\frac{1}{\\sqrt{3}} \\Rightarrow 60^{\\circ}\\lt \\alpha\\lt 90^{\\circ})%<br>%(\\begin{array}{l}\\text { Vì } B H=\\frac{a}{2}=\\frac{B C}{4} \\text { nên } \\frac{H E}{H I}=\\frac{H C}{H B}=3 \\Rightarrow H E=3 H I \\\\ \\Rightarrow \\cot \\beta=\\frac{H E}{A H}=\\frac{3 H I}{A H}=3 \\cot \\alpha \\text {. Vậy } \\cot \\beta=3 \\cot \\alpha \\text { với } 60^{\\circ}\\lt \\alpha\\lt 90^{\\circ}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 2.0,
+        "content": "Cho ba số thực dương %(x, y, z)% thỏa mãn %(x^{2}+y^{2}+z^{2}=1)%. Tìm giá trị lớn nhất của biểu thức<br>\\[P=\\frac{1}{1-x y}+\\frac{1}{1-y z}+\\frac{1}{1-z x} .\\]",
+        "question_images": [],
+        "solution": "Không mất tính tổng quát giả sử %(x=\\min (x, y, z) \\Rightarrow x^{2} \\leq \\frac{1}{3} \\cdot\\left({ }^{*}\\right))%<br>\\[\\begin{array}{l}\\text { Xét }: P-\\frac{1}{1-x \\cdot \\sqrt{\\frac{y^{2}+z^{2}}{2}}}-\\frac{1}{1-\\frac{y^{2}+z^{2}}{2}}-\\frac{1}{1-x \\cdot \\sqrt{\\frac{y^{2}+z^{2}}{2}}} \\\\=\\frac{x\\left(y-\\sqrt{\\frac{y^{2}+z^{2}}{2}}\\right)}{(1-x y)\\left(1-x \\cdot \\sqrt{\\frac{y^{2}+z^{2}}{2}}\\right)}+\\frac{x\\left(z-\\sqrt{\\frac{y^{2}+z^{2}}{2}}\\right)}{(1-z x)\\left(1-x \\cdot \\sqrt{\\frac{y^{2}+z^{2}}{2}}\\right)}-\\frac{(y-z)^{2}}{2(1-y z)\\left(1-\\frac{y^{2}+z^{2}}{2}\\right)} \\\\leq \\frac{x\\left(\\frac{y-z}{2}\\right)}{(1-x y)\\left(1-x \\cdot \\sqrt{\\frac{y^{2}+z^{2}}{2}}\\right)}+\\frac{x\\left(\\frac{z-y}{2}\\right)}{(1-z x)\\left(1-x \\cdot \\sqrt{\\frac{y^{2}+z^{2}}{2}}\\right)}-\\frac{(y-z)^{2}}{2(1-y z)\\left(1-\\frac{y^{2}+z^{2}}{2}\\right)} \\\\=\\frac{(y-z)^{2}}{2}\\left[\\frac{x^{2}}{(1-x y)(1-z x)\\left(1-x \\cdot \\sqrt{\\frac{y^{2}+z^{2}}{2}}\\right)}-\\frac{1}{(1-y z)\\left(1-\\frac{y^{2}+z^{2}}{2}\\right)}\\right] \\leq 0 \\\\end{array}\\]<br>Đúng vì : %(x^{2} \\leq 1-x \\sqrt{\\frac{y^{2}+z^{2}}{2}} ; 1-x y \\geq 1-y z ; 1-z x \\geq 1-\\frac{y^{2}+z^{2}}{2})%<br>\\[\\Rightarrow P \\leq \\frac{1}{1-x \\cdot \\sqrt{\\frac{y^{2}+z^{2}}{2}}}-\\frac{1}{1-\\frac{y^{2}+z^{2}}{2}}-\\frac{1}{1-x \\cdot \\sqrt{\\frac{y^{2}+z^{2}}{2}}}=\\frac{2}{1-x \\cdot \\sqrt{\\frac{1-x^{2}}{2}}}+\\frac{1}{1-\\frac{1-x^{2}}{2}}=\\frac{2 \\sqrt{2}}{\\sqrt{2}-\\sqrt{t(1-t)}}+\\frac{2}{1+t}\\]<br>Với %(t=x^{2} ; 0\\lt t \\leq \\frac{1}{3})%.<br>Hàm số %(y=\\frac{2 \\sqrt{2}}{\\sqrt{2}-\\sqrt{t(1-t)}}+\\frac{2}{1+t})% đồng biến trên %(\\left(0 ; \\frac{1}{3}\\right])% do đó:<br>\\[\\Rightarrow f(x, y, z) \\leq \\frac{2 \\sqrt{2}}{\\sqrt{2}-\\sqrt{t(1-t)}}+\\frac{2}{1+t} \\leq \\frac{9}{2}. \\quad \\text { Suy ra Max } P=\\frac{9}{2} \\text { khi } x=y=z=\\frac{1}{\\sqrt{3}}\\]",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,96 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 0.5,
+        "content": "Phân tích đa thức thành nhân tử: %(x^{2}+2 x y+6 y-9)%",
+        "question_images": [],
+        "solution": "%(x^{2}+2 x y+6 y-9=\\left(x^{2}-9\\right)+2 y(x+3)=(x-3)(x+3)+2 y(x+3))%<br>%(=(x+3)(x-3+2 y))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(\\frac{x-1}{2013}+\\frac{x-2}{2012}+\\frac{x-3}{2011}+\\ldots . .+\\frac{x-2012}{2}=2012)%",
+        "question_images": [],
+        "solution": "%(\\frac{x-1}{2013}+\\frac{x-2}{2012}+\\frac{x-3}{2011}+\\ldots . .+\\frac{x-2012}{2}=2012)%<br>%(\\Leftrightarrow \\frac{x-1}{2013}-1+\\frac{x-2}{2012}-1+\\frac{x-3}{2011}+\\ldots . .+\\frac{x-2012}{2}-1=0)%<br>%(\\Leftrightarrow \\frac{x-2014}{2013}+\\frac{x-2014}{2012}+\\frac{x-2014}{2011}+\\ldots \\ldots . \\cdot \\frac{x-2014}{2}=0)%<br>%(\\Leftrightarrow(x-2014)\\left(\\frac{1}{2013}+\\frac{1}{2012}+\\frac{1}{2011}+\\ldots . .+\\frac{1}{2}\\right)=0)%<br>%(\\Leftrightarrow x=2014)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 1.0,
+        "content": "Tìm đa thức %(f(x))% biết: %(f(x))% chia cho %({x-2})% dư %(5 ; f(x))% chia cho %({x-3})% dư %(7 ; f(x))% chia cho %((x-2)(x-3))% được thương là %(x^{2}-1)% và đa thức dư bậc nhất đối với %({x})%.",
+        "question_images": [],
+        "solution": "Gọi dư trong phép chia %(f(x))% cho %(x^{2}-1)% là %(a x+b)%<br>Ta có: %(f(x)=(x-2)(x-3)\\left(x^{2}-1\\right)+a x+b)%<br>Theo bài ra : %(f(2)=5)% nên ta có: %(2 a+b=5 ; f(3)=7)% nên %(3 a+b=7)%<br>%(\\Rightarrow a=2 ; b=1)%<br>Vậy đa thức cần tìm là %(f(x)=(x-2)(x-3)\\left(x^{2}-1\\right)+2 x+1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4:",
+        "group_content": "Cho %(P=7.2014^{n}+12.1995^{n})% với %(n \\in \\mathbb{N} ; Q=\\frac{\\left(x^{2}+n\\right)(1+n)+n^{2} x^{2}+1}{\\left(x^{2}-n\\right)(1-n)+n^{2} x^{2}+1})%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) %(P)% chia hết cho 19",
+        "question_images": [],
+        "solution": "%(P=7.2014^{n}+12.1995^{n}=19.2014^{n}-12.2014^{n}+12.1995^{n}=19.2014^{n}-12 .\\left(2014^{n}-1995^{n}\\right))%<br>Ta có: %(19.2014^{n}\\vdots 19 ;\\left(2014^{n}-1995^{n}\\right) \\vdots 19 \\Rightarrow P\\vdots 19)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) %(Q)% không phụ thuộc vào %({x})% và %(Q\\gt 0)%",
+        "question_images": [],
+        "solution": "%(Q=\\frac{\\left(x^{2}+n\\right)(1+n)+n^{2} x^{2}+1}{\\left(x^{2}-n\\right)(1-n)+n^{2} x^{2}+1}=\\frac{x^{2}+x^{2} n+n^{2}+n+n^{2} x^{2}+1}{x^{2}-x^{2} n+n^{2}-n+n^{2} x^{2}+1})%<br>%(=\\frac{x^{2}\\left(n^{2}+n+1\\right)+n^{2}+n+1}{x^{2}\\left(n^{2}-n+1\\right)+n^{2}-n+1}=\\frac{\\left(n^{2}+n+1\\right)\\left(x^{2}+1\\right)}{\\left(n^{2}-n+1\\right)\\left(x^{2}+1\\right)}=\\frac{n^{2}+n+1}{n^{2}-n+1})%<br>Vậy %(Q)% không phụ thuộc vào %({x})%<br>%(Q=\\frac{n^{2}+n+1}{n^{2}-n+1}=\\frac{\\left(n+\\frac{1}{2}\\right)^{2}+\\frac{3}{4}}{\\left(n-\\frac{1}{2}\\right)^{2}+\\frac{3}{4}}\\gt 0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 0.75,
+        "content": "Chứng minh : %(a^{2}+5 b^{2}-(3 a+b) \\geq 3 a b-5)%",
+        "question_images": [],
+        "solution": "%(a^{2}+5 b-(3 a+b) \\geq 3 a b-5 \\Leftrightarrow 2 a^{2}+10 b^{2}-6 a-2 b-6 a b+10 \\geq 0)%<br>%(\\Leftrightarrow a^{2}-6 a b+9 b^{2}+a^{2}-6 a+9+b^{2}-2 b+1 \\geq 0)%<br>%(\\Leftrightarrow(a-3 b)^{2}+(a-3)^{2}+(b-1)^{2} \\geq 0)%<br>Đẳng thức xảy %(\\mathrm{ra} \\Leftrightarrow a=3 ; b=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 0.75,
+        "content": "Tìm các nghiệm nguyên của phương trình: %(2 x^{2}+3 y^{2}+4 x=19)%",
+        "question_images": [],
+        "solution": "%(2 x^{2}+3 y^{2}+4 x=19 \\Leftrightarrow 2 x^{2}+4 x+2=21-3 y^{2} \\Leftrightarrow 2(x+1)^{2}=3\\left(7-y^{2}\\right)(^*))%<br>Xét thấy VT chia hết cho 2 nên %(3\\left(7-y^{2}\\right) \\vdots 2 \\Rightarrow y)% lẻ   %((1))%<br>Mặt khác VT %(\\geq 0 \\Leftrightarrow 3\\left(7-y^{2}\\right) \\geq 0 \\Leftrightarrow y^{2} \\leq 7\\quad(2))%<br>Từ (1) và (2) suy ra %(y^{2}=1)%, thay vào %(\\left({ }^{*}\\right))% ta có: %(2(x+1)^{2}=18)%<br>Suy ra các nghiệm là %((x ; y) \\in\\{(2 ; 1) ;(2 ;-1) ;(-4 ;-1) ;(-4 ; 1)\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7:",
+        "group_content": "Cho tam giác %(A B C)% nhọn %((A B\\lt A C))%. Các đường cao %(A E, B F)% cắt nhau tại H. Gọi M là trung điểm của %(B C)%, qua H vẽ đường thẳng %(a)% vuông góc với %(H M, a)% cắt %(\\mathrm{AB}, \\mathrm{AC})% lần lượt tại %(I)% và %(K)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Chứng minh %(\\triangle A B C \\sim \\triangle E F C)% tại %(N)% và D.",
+        "question_images": [],
+        "solution": "Ta có: %(\\triangle A E C \\sim \\triangle B F C(g . g) \\Rightarrow \\frac{C E}{C F}=\\frac{C A}{C B})%<br>Xét %(\\triangle A B C)% và %(\\triangle E F C)% có: %(\\frac{C E}{C F}=\\frac{C A}{C B})% và góc C chung nên suy ra %(\\triangle A B C \\sim \\triangle E F C(c. g .c))%<img/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9ed6e6f2d471b00fe419cfde25221ae4.png\" srcset=\"https://docdn.giainhanh.io/media/test/adbb4a2e3ebb7ac4443cce8f9590367f.png 135w, https://docdn.giainhanh.io/media/test/359fa919da3d2d419d16e649eb049307.png 434w\" width=\"434\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Qua C kė đường thẳng %(b)% song song với đường thẳng %(I K, \\mathrm{~b})% cắt %(\\mathrm{AH}, \\mathrm{AB})% theo thứ tự tại %(N)% và %(D)%. Chứng minh %(N C=N D)% và %(H I=H K)%.",
+        "question_images": [],
+        "solution": "Vì %(C N / / I K)% nên %(H M \\perp C N \\Rightarrow M)% là trực tâm %(\\triangle H N C)%<br>%(\\Rightarrow M N \\perp C H)% mà %(C H \\perp A D(H)% là trực tâm %(\\triangle A B C) \\Rightarrow M N / / A D)%<br>Do %(M)% là trung điểm %(B C)% nên %(\\Rightarrow N C=N D \\Rightarrow I H=I K)% (theo Ta let)",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.5,
+        "content": "c) Gọi G là giao điểm của CH và AB . Chứng minh %(\\frac{A H}{H E}+\\frac{B H}{H F}+\\frac{C H}{H G}\\gt 6)%",
+        "question_images": [],
+        "solution": "Ta có: %(\\frac{A H}{H E}=\\frac{S_{A H C}}{S_{C H E}}=\\frac{S_{A B H}}{S_{B H E}}=\\frac{S_{A H C}+S_{A B H}}{S_{C H E}+S_{B H E}}=\\frac{S_{A H C}+S_{A B H}}{S_{B H C}})%<br>Tương tự ta có: %(\\frac{B H}{B F}=\\frac{S_{B H C}+S_{B H A}}{S_{A H C}} ; \\frac{C H}{C G}=\\frac{S_{B H C}+S_{A H C}}{S_{B H A}})%<br>%(\\Rightarrow \\frac{A H}{H E}+\\frac{B H}{H F}+\\frac{C H}{H G}=\\frac{S_{A H C}+S_{A B H}}{S_{B H C}}+\\frac{S_{B H C}+S_{B H A}}{S_{A H C}}+\\frac{S_{B H C}+S_{A H C}}{S_{B H A}})%<br>%(=\\frac{S_{A H C}}{S_{B H C}}+\\frac{S_{A B H}}{S_{B H C}}+\\frac{S_{B H C}}{S_{A H C}}+\\frac{S_{B H A}}{S_{A H C}}+\\frac{S_{B H C}}{S_{B H A}}+\\frac{S_{A H C}}{S_{B H A}} \\geq 6)%<br>Dấu bằng xảy ra khi và chỉ khi %(\\triangle A B C)% đều mà theo giả thiết %(A B\\lt A C)% nên không xảy ra dấu bằng.",
+        "question_type": "essay"
+    }
+]

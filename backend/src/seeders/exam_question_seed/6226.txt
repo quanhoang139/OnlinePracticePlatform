@@ -1,0 +1,81 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 4.0,
+        "content": "Cho hàm số %(y=x^{3}-(2 m-1) x^{2}+(1-m) x)% (%(m)% là tham số thực) có đồ thị %((C))%. Tìm %(m)% để đường thẳng %(d: y=x-m)% cắt đồ thị %((C))% tại ba điểm phân biệt %(A, B)% và %(C)% sao cho tổng hệ số góc của ba tiếp tuyến với %((C))% tại các điểm %(A, B, C)% nhỏ hơn 9.",
+        "question_images": [],
+        "solution": "Phương trình hoành độ giao điểm của %(d)% và %((C))% :<br>%(\\begin{array}{l}x^{3}-(2 m-1) x^{2}+(1-m) x=x-m \\Leftrightarrow x^{3}-(2 m-1) x^{2}-m x+m=0 \\Leftrightarrow(x+1)\\left(x^{2}-2 m x+m\\right)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x=-1 \\x^{2}-2 m x+m=0 \\quad\\left({ }^{*}\\right)\\end{array}\\right.\\end{array})%<br>Theo yêu cầu bài toán : %(\\left({ }^{*}\\right))% phải có hai nghiệm phân biệt khác %(-1)%.<br>%(\\Leftrightarrow\\left\\{\\begin{array} { l } { m ^ { 2 } - m \\gt 0 } \\\\{ 1 + 2 m + m \\neq 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}m\\lt 0, m>1 \\m \\neq-\\frac{1}{3}\\end{array}\\right.\\right.)%<br>Ta có %(A(-1 ;-1-m) ; B\\left(x_{1} ; x_{1}-m\\right) ; C\\left(x_{2} ; x_{2}-m\\right))%<br>%(\\begin{array}{l}y^{\\prime}=3 x^{2}-2(2 m-1) x+1-m \\y^{\\prime}(-1)=3(-1)^{2}-2(2 m-1)(-1)+1-m=2+3 m \\y^{\\prime}\\left(x_{1}\\right)=3 x_{1}^{2}-2(2 m-1) x_{1}+1-m \\y^{\\prime}\\left(x_{2}\\right)=3 x_{2}^{2}-2(2 m-1) x_{2}+1-m\\end{array})%<br>Áp dụng định lí Viet ta có : %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=2 m \\\\ x_{1} x_{2}=m\\end{array}\\right.)%<br>Theo yêu cầu bài toán ta có<br>\\[\\begin{array}{l}y^{\\prime}(-1)+y^{\\prime}\\left(x_{1}\\right)+y^{\\prime}\\left(x_{2}\\right)\\lt 9 \\Leftrightarrow 2+3 m+3 x_{1}^{2}-2(2 m-1) x_{1}+1-m+3 x_{2}^{2}-2(2 m-1) x_{2}+1-m\\gt 9 \\\\Leftrightarrow 3\\left(x_{1}^{2}+x_{2}^{2}\\right)-2(2 m-1)\\left(x_{1}+x_{2}\\right)-5-m>0 \\\\Leftrightarrow 3\\left(x_{1}+x_{2}\\right)^{2}-6 x_{1} x_{2}-2(2 m-1)\\left(x_{1}+x_{2}\\right)-5-m>0 \\\\Leftrightarrow 3(2 m)^{2}-6 m-2(2 m-1) .2 m-5-m>0 \\\\Leftrightarrow 12 m^{2}-6 m-8 m^{2}+4 m-5-m>0 \\Leftrightarrow 4 m^{2}-3 m-5>0 \\\\Leftrightarrow m\\lt \\frac{3-\\sqrt{89}}{8}, m>\\frac{3+\\sqrt{89}}{8}\\end{array}\\]<br>Giao với điều kiện ta được : %(m\\lt \\frac{3-\\sqrt{89}}{8}, m>\\frac{3+\\sqrt{89}}{8})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2:",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Giải phương trình sau trên tập số thực: %(5 x^{2}-10 x=4(x-1) \\sqrt{x^{2}-2 x+2})%.",
+        "question_images": [],
+        "solution": "%(5 x^{2}-10 x=4(x-1) \\sqrt{x^{2}-2 x+2}(1))%<br>Ta có: %((1) \\Leftrightarrow 4\\left(x^{2}-2 x+2\\right)+\\left(x^{2}-2 x+1\\right)-9=4(x-1) \\sqrt{x^{2}-2 x+2})%<br>%(\\Leftrightarrow\\left(2 \\sqrt{x^{2}-2 x+2}-(x-1)\\right)^{2}=9 \\Leftrightarrow\\left[\\begin{array}{l}2 \\sqrt{x^{2}-2 x+2}-(x-1)=3 \\\\ 2 \\sqrt{x^{2}-2 x+2}-(x-1)=-3\\end{array}\\right.)%<br>%(\\Leftrightarrow\\left[\\begin{array}{l}2\\sqrt{x^2-2x+2}=x+2\\\\2\\sqrt{x^2-2x+2}=x-4\\end{array}\\right.\\\\Leftrightarrow\\left[\\begin{array}{l}\\begin{cases}x\\geq -2\\\\4(x^2-2x+2)=x^2+4x+4\\end{cases}\\\\begin{cases}x\\geq 4\\\\4(x^2-2x+2)=x^2-8x+16\\end{cases}\\end{array}\\right.\\Leftrightarrow\\left[\\begin{array}{l}\\begin{cases}x\\geq -2\\\\3x^2-12x+4=0\\end{cases}\\\\begin{cases}x\\geq 4\\\\3x^2-8=0\\end{cases}\\end{array}\\right.)%<br>%(\\Leftrightarrow\\left[\\begin{array}{l}\\begin{cases}x\\geq -2\\x=\\dfrac{6\\pm2\\sqrt{6}}{3}\\end{cases}\\\\begin{cases}x\\geq 4\\\\\\ x=\\pm \\dfrac{2\\sqrt{6}}{3}\\end{cases}\\end{array}\\right.\\Leftrightarrow x=\\dfrac{6\\pm2\\sqrt{6}}{3})%<br>Vậy phương trình ban đầu có 2 nghiệm là %(x=\\frac{6 \\pm 2 \\sqrt{6}}{3})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Cho 3 số thực %(x\\gt 1, y>1, z>1)% thỏa mãn:<br>\\[\\log _{(x y+y z+z)}\\left(5 x^{2}+16 y^{2}+27 z^{2}\\right)+\\log _{12} \\sqrt[4]{x y+y z+z x}=2\\]<br>Tính %(M=x+y+z)%.",
+        "question_images": [],
+        "solution": "- Theo giả thiết ta có: %(x y+y z+z x\\gt 1)% nên %(\\left\\{\\begin{array}{l}\\log _{(x y+y z+z x)} 12>0 \\\\ \\log _{12}(x y+y z+z x)>0\\end{array}\\right.)%.<br>- Áp dụng BĐT Cauchy ta có:<br>%(\\begin{array}{l}5 x^{2}+16 y^{2}+27 z^{2}=\\left(3 x^{2}+12 y^{2}\\right)+\\left(4 y^{2}+9 z^{2}\\right)+\\left(18 z^{2}+2 x^{2}\\right) \\\\geq 2 \\sqrt{3 x^{2} \\cdot 12 y^{2}}+2 \\sqrt{4 y^{2} \\cdot 9 z^{2}}+2 \\sqrt{18 z^{2} \\cdot 2 x^{2}}=12(x y+y z+z x)\\end{array})%<br>Hay %(5 x^{2}+16 y^{2}+27 z^{2} \\geq 12(x y+y z+z x))%, dấu \"%(=)%\" xảy ra khi và chi khi %(x=2 y=3 z)%.<br>Khi đó: %(\\log _{(x y+y z+z x)}\\left(5 x^{2}+16 y^{2}+27 z^{2}\\right) \\geq \\log _{(x y+y z+z x)}(12(x y+y z+z x))=1+\\log _{(x y+y z+z x)} 12)%<br>Suy ra:<br>\\[\\begin{array}{l}\\log _{(x y+y z+z x)}\\left(5 x^{2}+16 y^{2}+27 z^{2}\\right)+\\log _{12} \\sqrt[4]{x y+y z+z x} \\geq 1+\\log _{(x y+y z+z x)} 12+\\frac{1}{4} \\log _{12}(x y+y z+z x) \\\\geq 1+2 \\sqrt{\\left(\\log _{(x y+y z+z x)} 12\\right) \\cdot \\frac{1}{4} \\log _{12}(x y+y z+z x)}=1+1=2 .\\end{array}\\]<br>Dấu \"=\" xảy ra khi và chỉ khi<br>\\[\\left\\{\\begin{array} { l } { x = 2 y = 3 z } \\\\{ \\operatorname { l o g } _ { ( x y + y z + z x ) } 1 2 = \\operatorname { l o g } _ { 1 2 } ( x y + y z + z x ) }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x = 2 y = 3 z } \\\\{ x y + y z + z x = 1 2 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=2 \\sqrt{3} \\y=\\sqrt{3} \\z=\\frac{2 \\sqrt{3}}{3}\\end{array}\\right.\\right.\\right. \\text {. }\\]<br>Vậy %(M=z+y+z=\\frac{11 \\sqrt{3}}{3})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.0,
+        "content": "Tìm hệ số của số hạng không chứa %(x)% trong khai triến %(\\left[\\frac{1}{(x+1) \\sqrt{x}-x \\sqrt{x+1}}-\\frac{1}{\\sqrt{x+1}}-\\sqrt[4]{x}\\right]^{n})%, với %(x\\gt 0)% và %(n \\in \\mathbb{N}^{*})% thỏa mãn %(A_{n}^{2}-n C_{n}^{2}+55 n=0)%.",
+        "question_images": [],
+        "solution": "Xét phương %(A_{n}^{2}-n C_{n}^{2}+55 n=0)%.<br>\\[\\Leftrightarrow \\frac{n!}{(n-2)!}-n \\cdot \\frac{n!}{2!(n-2)!}+55 n=0 \\Leftrightarrow n(n-1)-\\frac{1}{2} n^{2}(n-1)+55 n=0 \\Leftrightarrow\\left[\\begin{array}{l}n=0 \\n=12 \\n=-9\\end{array}\\right.\\]<br>Vì %(n \\in \\mathbb{N}^{*})% nên ta nhận %(n=12)%.<br>Ta biến đổi<br>%(\\begin{array}{l}\\frac{1}{(x+1) \\sqrt{x}-x \\sqrt{x+1}}-\\frac{1}{\\sqrt{x+1}}-\\sqrt[4]{x} \\\\=\\frac{1}{\\sqrt{x(x+1)}(\\sqrt{x+1}-\\sqrt{x})}-\\frac{1}{\\sqrt{x+1}}-\\sqrt[4]{x} \\\\=\\frac{\\sqrt{x+1}+\\sqrt{x}}{\\sqrt{x} \\cdot \\sqrt{x+1}}-\\frac{1}{\\sqrt{x+1}}-\\sqrt[4]{x} \\\\=\\frac{1}{\\sqrt{x}}+\\frac{1}{\\sqrt{x+1}}-\\frac{1}{\\sqrt{x+1}}-\\sqrt[4]{x}=\\frac{1}{\\sqrt{x}}-\\sqrt[4]{x}\\end{array})%<br>Xét khai triển %(\\left(\\frac{1}{\\sqrt{x}}-\\sqrt[4]{x}\\right)^{12}=\\sum_{k=0}^{12} C_{12}^{k}\\left(\\frac{1}{\\sqrt{x}}\\right)^{12 k}(-1)^{k}(\\sqrt[4]{x})^{k}=\\sum_{k=0}^{12} C_{12}^{k}(-1)^{k} x^{\\frac{3}{4} k-6})%.<br>Số hạng không chứa %(x)% thỏa %(\\frac{3}{4} k-6=0 \\Leftrightarrow k=8)%.<br>Vậy hệ số của số hạng không chứa %(x)% là %(C_{12}^{8}(-1)^{8}=495)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C)% thỏa mãn %(2019 \\sin A+2020 \\sin B+2021 \\sin C=2022 \\cos \\left(\\frac{A}{2}\\right)+2020 \\cos \\left(\\frac{B}{2}\\right)+2018 \\cos \\left(\\frac{C}{2}\\right))%(1) Chứng minh rằng tam giác %(A B C)% đều.",
+        "question_images": [],
+        "solution": "Ta có: %(\\cos \\frac{A}{2}=\\sin \\frac{B+C}{2} \\leq \\sin \\frac{B+C}{2} \\cdot \\cos \\frac{B-C}{2}=\\frac{1}{2}(\\sin B+\\sin C))%<br>%(\\Rightarrow 2022 \\cos \\frac{A}{2} \\leq 1011(\\sin B+\\sin C))%<br>Tương tự: %(\\cos \\frac{B}{2} \\leq \\frac{1}{2}(\\sin A+\\sin C) \\Rightarrow 2020 \\cos \\frac{B}{2} \\leq 1010(\\sin A+\\sin C))%<br>%(\\cos \\frac{C}{2} \\leq \\frac{1}{2}(\\sin A+\\sin B) \\Rightarrow 2018 \\cos \\frac{C}{2} \\leq 1009(\\sin A+\\sin B))%<br>%(\\Rightarrow V P(1) \\leq(1010+1009) \\sin A+(1011+1009) \\sin B+(1010+1011) \\sin C=V P(1))%<br>Do đó %((1))% xảy ra %(\\Leftrightarrow V T(1)=V P(1) \\Leftrightarrow\\left\\{\\begin{array}{l}\\cos \\left(\\frac{B-C}{2}\\right)=1 \\\\ \\cos \\left(\\frac{C-A}{2}\\right)=1 \\text { Hay } A=B=C \\\\ \\cos \\left(\\frac{A-B}{2}\\right)=1\\end{array}\\right.)%<br>Hay tam giác %(A B C)% đều.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 4.0,
+        "content": "Cho dãy số %(\\left(u_{n}\\right))% thỏa mãn: %(u_{1}=2021)% và %(u_{n+1}=u_{n}^{2}-u_{n}+1, \\forall n \\in \\mathbb{N}^{*})%, đặt %(v_{n}=\\frac{1}{u_{1}}+\\frac{1}{u_{2}}+\\cdots+\\frac{1}{u_{n}})%. Tính %(\\lim v_{n})%.",
+        "question_images": [],
+        "solution": "Ta chứng minh dãy số tăng, thật vậy %(u_{n+1}-u_{n}=\\left(u_{n}-1\\right)^{2} \\geq 0, \\forall n \\in \\mathbb{N}^{*})%.<br>Giả sử dãy số bị chặn trên, suy ra dãy số có giới hạn, đặt %(\\lim u_{n}=x)%.<br>Do dãy số tăng nên %(2021=u_{1} \\leq u_{2} \\leq \\ldots \\leq u_{n} \\leq \\Rightarrow x \\geq 2021)%.<br>Ta có %(u_{n+1}=u_{n}^{2}-u_{n}+1 \\Rightarrow x=x^{2}-x+1 \\Leftrightarrow x=1)% vô lí.<br>Vậy dãy số tăng và không bị chặn trên hay %(\\lim u_{n}=+\\infty)%.<br>Ta có %(u_{n+1}=u_{n}^{2}-u_{n}+1 \\Leftrightarrow u_{n+1}-1=u_{n}\\left(u_{n}-1\\right))%, do %(u_{n} \\geq 2021)%<br>%(\\Rightarrow \\frac{1}{u_{n+1}-1}=\\frac{1}{u_{n}\\left(u_{n}-1\\right)}=\\frac{1}{u_{n}-1}-\\frac{1}{u_{n}} \\Rightarrow \\frac{1}{u_{n}}=\\frac{1}{u_{n}-1}-\\frac{1}{u_{n+1}-1} \\text {. })%<br>Suy ra %(\\sum_{k=1}^{n} \\frac{1}{u_{k}}=\\sum_{k=1}^{n}\\left(\\frac{1}{u_{k}-1}-\\frac{1}{u_{k+1}-1}\\right)=\\frac{1}{u_{1}-1}-\\frac{1}{u_{n+1}-1})%<br>Hay %(v_{n}=\\frac{1}{u_{1}-1}-\\frac{1}{u_{n+1}-1} \\Rightarrow \\lim v_{n}=\\lim \\left(\\frac{1}{2020}-\\frac{1}{u_{n+1}-1}\\right)=\\frac{1}{2020})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 2.0,
+        "content": "Trong mặt phẳng với hệ tọa độ %(O x y)%, cho tam giác %(A B C)% cân tại %(A)%. Gọi %(H)% là trung điểm của đoạn %(B C, K)% là hình chiếu vuông góc của %(H)% lên %(A C)%. Biết %(M\\left(\\frac{7}{4} ; \\frac{5}{4}\\right))% là trung điểm của đoạn %(H K)%, đường thẳng %(B K: x+7 y-13=0)%. Gọi %(N)% là giao điểm của %(B K)% và %(A M)%. Tìm tọa độ điểm %(A)%, biết %(I\\left(\\frac{1}{2} ; \\frac{5}{2}\\right))% là trung điểm của đoạn %(A B)%.",
+        "question_images": [],
+        "solution": "Có %(2 \\overrightarrow{A M}=\\overrightarrow{A H}+\\overrightarrow{A K} )% và %(\\overrightarrow{B K}=\\overrightarrow{B H}+\\overrightarrow{H K})%<br>Xét tích vô hướng: %(2 \\overrightarrow{A M} \\cdot \\overrightarrow{B K}=(\\overrightarrow{B H}+\\overrightarrow{H K}) \\cdot(\\overrightarrow{A H}+\\overrightarrow{A K}))%<br>%(=\\overrightarrow{B H} \\cdot \\overrightarrow{A K}+\\overrightarrow{A H} \\cdot \\overrightarrow{H K})% (do %(B H)% vuông góc %(AH)%, %(HK)% vuông góc %(AK)%)<br>%(=\\overrightarrow{C H} \\cdot(\\overrightarrow{C A}-\\overrightarrow{C K})-\\overrightarrow{H A} \\cdot \\overrightarrow{H K})%<br>%(=\\overrightarrow{C H} \\cdot \\overrightarrow{C A}-\\overrightarrow{C H} \\cdot \\overrightarrow{C K}-\\overrightarrow{H A} \\cdot \\overrightarrow{H K}=C H \\cdot C A \\cdot \\cos \\widehat{H C A}-C H \\cdot C K \\cdot \\cos \\widehat{H C K}-H A \\cdot H D \\cdot \\cos \\widehat{A H D} )%<br>%(=C H \\cdot C A \\cdot \\frac{C H}{C A}-C H \\cdot C K \\cdot \\frac{C K}{C H}-H A \\cdot H K \\cdot \\frac{H K}{H A})%<br>%(=C H^{2}-C K^{2}-H K^{2}=0)%. Nên %(AM)% vuông góc %(BK)% tại điểm %(N)%.<br>Ta có %(A M: 7 x-y=11 \\Rightarrow N=A M \\cap B K=\\left(\\frac{9}{5} ; \\frac{8}{5}\\right))%<br>Ta có %(B)% là giao điểm của đường thẳng %(B K)% và đường tròn tâm %(I)% bán kính %(I N)%<br>%(\\begin{array}{l}\\Rightarrow B(13-7 b ; b): I B=I N=\\frac{\\sqrt{10}}{2} \\\\Rightarrow\\left(\\frac{25}{2}-7 b\\right)^{2}+\\left(b-\\frac{5}{2}\\right)^{2}=\\frac{10}{4} \\Leftrightarrow\\left[\\begin{array} { l } { b = \\frac { 8 } { 5 } } \\\\{ b = 2 }\\end{array} \\Rightarrow \\left[\\begin{array}{l}B=\\left(\\frac{9}{5} ; \\frac{8}{5}\\right),(l) \\B=(-1 ; 2)\\end{array}\\right.\\right.\\end{array})%<br>Suy ra điểm %(A=(2 ; 3))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/196d44583d571bb012f3893e449aefe5.png\" srcset=\"https://docdn.giainhanh.io/media/test/9d745148bffdaed6783476d7a9524fc2.png 202w, https://docdn.giainhanh.io/media/test/e98d2c091f6bac7e3c43528799b51cd1.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 2.0,
+        "content": "Cho tứ diện đều %(A B C D)% có cạnh bằng %(a)%. Gọi %(H)% là chân đường vuông góc hạ từ %(A)% xuống mặt phẳng %((B C D))% và %(O)% là trung điểm của đoạn %(A H)%. Gọi %((\\alpha))% là mặt phẳng qua %(O)% và không đi qua các điểm %(A, B, C)% và %(D)%. Mặt phẳng %((\\alpha))% cắt các đoạn %(A B, A C)% và %(A D)% lần lượt tại %(M, N)% và %(P)%. Tìm giá trị nhỏ nhất của %(A M \\cdot A N \\cdot A P)% theo %(a)%.",
+        "question_images": [],
+        "solution": "Ta có %(H)% là trọng tâm tam giác %(B C D)% nên<br>%(\\begin{array}{l}\\Rightarrow \\overrightarrow{A B}+\\overrightarrow{A C}+\\overrightarrow{A D}=3 \\overrightarrow{A H} \\\\Rightarrow \\overrightarrow{A B}+\\overrightarrow{A C}+\\overrightarrow{A D}=6 \\overrightarrow{A O} \\\\Rightarrow \\frac{a}{A M} \\cdot \\overrightarrow{A B}+\\frac{a}{A N} \\cdot \\overrightarrow{A C}+\\frac{a}{A P} \\cdot \\overrightarrow{A D}=6 \\overrightarrow{A O}\\end{array})%<br>Do %(O, M, N, P)% đồng phẳng nên<br>%(\\Rightarrow \\frac{a}{A M}+\\frac{a}{A N}+\\frac{a}{A P}=6 \\geq \\sqrt[3]{\\frac{a^{3}}{A M \\cdot A N \\cdot A P}} \\Rightarrow A M \\cdot A N \\cdot A P \\geq \\frac{a^{3}}{8})%<br>Vậy giá trị nhỏ nhất của %(A M \\cdot A N \\cdot A P=\\frac{a^{3}}{8})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/569a54db39e231530ef49c2c06d72351.png\" srcset=\"https://docdn.giainhanh.io/media/test/33171c32a2ed879c5485e5d85ff7ce21.png 153w\" width=\"153\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 2.0,
+        "content": "Cho hàm số %(f(x)=\\ln \\left(x+\\sqrt{x^{2}+1}\\right)+2021 x)%, gọi %(a, b, c)% là các số thực dương sao cho phương trình %(f[(a+b+c) x]+f(2020-3 x)=0)% vô nghiệm.Tìm GTNN của biều thức %(M=\\frac{\\sqrt{a}+\\sqrt{b}+\\sqrt{c}}{a b+b c+a c})%.",
+        "question_images": [],
+        "solution": "%(f^{\\prime}(x)=\\frac{\\left(x+\\sqrt{x^{2}+1}\\right)^{\\prime}}{x+\\sqrt{x^{2}+1}}+2021=\\frac{1}{\\sqrt{x^{2}+1}}+2021\\gt 0, \\forall x \\in \\mathbb{R})%. Hay hàm số đồng biến trên %(\\mathbb{R})%.<br>Xét<br>\\[f(-x)=\\ln \\left(-x+\\sqrt{x^{2}+1}\\right)-2021 x=\\ln \\left(\\frac{1}{x+\\sqrt{x^{2}+1}}\\right)-2021 x=-\\ln \\left(x+\\sqrt{x^{2}+1}\\right)-2021 x=-f(x)\\]<br>Hàm số đã cho là hàm số lẻ.<br>Do đó phương trình<br>%(\\begin{array}{l}f[(a+b+c) x]+f(2020-3 x)=0 \\Leftrightarrow f[(a+b+c) x]=f(3 x-2020) .\\\\Leftrightarrow(a+b+c) x=3 x-2020\\end{array})%<br>%(\\Leftrightarrow(a+b+c-3) x=-2020)%.<br>Phương trình vô nghiệm %(\\Leftrightarrow a+b+c-3=0 \\Leftrightarrow a+b+c=3)%.<br>%(\\Leftrightarrow 2(a b+b c+c a)=9-\\left(a^{2}+b^{2}+c^{2}\\right) \\text {. })%<br>Áp dạng BĐT Cô-si cho 3 số:<br>%(\\left\\{\\begin{array}{l}\\sqrt{a}+\\sqrt{a}+a^{2} \\geq 3 a \\\\sqrt{b}+\\sqrt{b}+b^{2} \\geq 3 b \\\\sqrt{c}+\\sqrt{c}+c^{2} \\geq 3 c\\end{array} \\Rightarrow 2(\\sqrt{a}+\\sqrt{b}+\\sqrt{c})+a^{2}+b^{2}+c^{2} \\geq 3(a+b+c)=9\\right.)%<br>Hay %(2(\\sqrt{a}+\\sqrt{b}+\\sqrt{c}) \\geq 9-\\left(a^{2}+b^{2}+c^{2}\\right)=2(a b+b c+c a))%<br>Vậy %(M=\\frac{\\sqrt{a}+\\sqrt{b}+\\sqrt{c}}{a b+b c+a c} \\geq 1)%, dấu bằng xảy ra khi %(a=b=c=1)%.",
+        "question_type": "essay"
+    }
+]

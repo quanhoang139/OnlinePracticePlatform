@@ -1,0 +1,121 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho %(M=\\left(\\frac{\\sqrt{a}+2}{\\sqrt{a}+1}-\\frac{a-\\sqrt{a}-3}{a-\\sqrt{a}-2}\\right):\\left(\\frac{a-\\sqrt{a}}{a-\\sqrt{a}-2}+\\frac{2}{\\sqrt{a}-2}\\right))% với %(a \\geq 0, a \\neq 4)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Rút gọn biểu thức %(M)%.",
+        "question_images": [],
+        "solution": "Với %(a \\geq 0, a \\neq 4)%, ta có:<br>\\[\\begin{aligned}& =\\left(\\frac{\\sqrt{a}+2}{\\sqrt{a}+1}-\\frac{a-\\sqrt{a}-3}{a-\\sqrt{a}-2}\\right):\\left(\\frac{a-\\sqrt{a}}{a-\\sqrt{a}-2}+\\frac{2}{\\sqrt{a}-2}\\right) \\\\= & \\frac{\\sqrt{a}-1}{(\\sqrt{a}+1)(\\sqrt{a}-2)} \\cdot \\frac{(\\sqrt{a}+1)(\\sqrt{a}-2)}{a+\\sqrt{a}+2}=\\frac{\\sqrt{a}-1}{a+\\sqrt{a}+2}\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Chứng minh rằng %(M \\leq \\frac{1}{7})%.",
+        "question_images": [],
+        "solution": "%(\\frac{\\sqrt{a}-1}{a+\\sqrt{a}+2} \\leq \\frac{1}{7} \\Leftrightarrow \\frac{(\\sqrt{a}-3)^{2}}{7(a+\\sqrt{a}+2)} \\geq 0)%<br>Tham số hóa bài toán:<br>Chú ý rằng %(a+\\sqrt{a}+2\\gt 0)%.<br>Ta giả sử %(P \\leq \\frac{1}{m})%<br>\\[\\begin{array}{c}\\Leftrightarrow \\frac{\\sqrt{a}-1}{a+\\sqrt{a}+2} \\leq \\frac{1}{m} \\Leftrightarrow a+\\sqrt{a}+2 \\geq m \\sqrt{a}-m \\\\Leftrightarrow a+(1-m) \\sqrt{a}+2+m \\geq 0\\end{array}\\]<br>Từ đây ta xét bất phương trình bậc hai ẩn %(x)% là %(x^{2}+(1-m) x+(m+2)=0)%<br>\\[\\begin{array}{c}\\Leftrightarrow x^{2}+2 \\cdot x \\cdot \\frac{1-m}{2}+\\left(\\frac{m-1}{2}\\right)^{2}-\\left(\\frac{m-1}{2}\\right)^{2}+m+2 \\geq 0 \\\\left(x+\\frac{m-1}{2}\\right)^{2}+m+2-\\left(\\frac{m-1}{2}\\right)^{2} \\geq 0\\end{array}\\]<br>Ta chỉ cần %(m+2-\\left(\\frac{m-1}{2}\\right)^{2} \\geq 0)%, xét %(m+2-\\left(\\frac{m-1}{2}\\right)^{2}=0)%<br>Từ đó giải phương trình ta được %(m=7)%.<br>Như vậy ta tìm được giá trị lớn nhất của %(M)% là %(\\frac{1}{7})%.<br>Dùng điều kiện của tam thức bậc hai.Ta có<br>\\[\\begin{aligned}M=\\frac{\\sqrt{a}-1}{a+\\sqrt{a}+2} \\Leftrightarrow M(a+ & \\sqrt{a}+2)=\\sqrt{a}-1 \\\\Leftrightarrow & a \\cdot M+(M-1) \\sqrt{a}+2 M+1=0\\end{aligned}\\]<br>Xem đây là phương trình bậc hai ẩn %(\\sqrt{a})%, thì %(\\Delta \\geq 0)%.<br>\\[\\begin{array}{r}\\Leftrightarrow \\Delta=\\quad(M-1)^{2}-4 \\cdot M \\cdot(2 M+1)=-7 M^{2}-6 M+1 \\geq 0 \\\\Leftrightarrow(M+1)(7 M-1) \\leq 0 \\Leftrightarrow-1 \\leq M \\leq \\frac{1}{7}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho phương trình %(x^{2}-2 m x+m^{2}+m=0,(m)% là tham số). Tìm %(m)% để phương trình đã cho có hai nghiệm phân biệt %(x_{1}, x_{2})% thỏa mãn %(x_{1}^{4}+8 x_{1}=x_{2}^{2}\\left(2 m x_{2}-m^{2}-m\\right)+8 x_{2})%",
+        "question_images": [],
+        "solution": "Trước tiên ta tì̀m điều kiện đề phương trình có hai nghiệm phân biệt, ta cần %(\\Delta\\gt 0 \\Leftrightarrow m\\lt 0)%<br>Theo định lý Vi-ét: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=2 m \\\\ x_{1} \\cdot x_{2}=m^{2}+m\\end{array}\\right.)%.<br>Hơn nữa vì %(x_{2})% là nghiệm của phương trình nên %(x_{2}^{2}=2 m x_{2}-m^{2}-m)%<br>Ta viết lại yêu cầu bài toán thành:<br>\\[\\begin{aligned}& x_{1}^{4}+8 x_{1}=x_{2}^{2}\\left(2 m x_{2}-m^{2}-m\\right)+8 x_{2} \\Leftrightarrow x_{1}^{4}+8 x_{1}=x_{2}^{2} \\cdot x_{2}^{2}+8 x_{2} \\\\Leftrightarrow & \\left(x_{1}^{4}-x_{2}^{4}\\right)+8\\left(x_{1}-x_{2}\\right)=0 \\Leftrightarrow\\left(x_{1}-x_{2}\\right)\\left[\\left(x_{1}+x_{2}\\right)\\left(x_{1}^{2}+x_{2}^{2}\\right)+8\\right]=0\\end{aligned}\\]<br>Mà %(x_{1}, x_{2})% phân biệt nên %(\\left(x_{1}+x_{2}\\right)\\left(x_{1}^{2}+x_{2}^{2}\\right)+8=0(1))%, tới đây ta biến đổi quen thuộc:%((1) \\Leftrightarrow 2 m\\left[4 m^{2}-2\\left(m^{2}+m\\right)\\right]+8=0 \\Leftrightarrow(m+1)\\left(m^{2}-2 m+2\\right)=0 \\Leftrightarrow m=-1)%<br>Vậy %(m=-1)% thỏa yêu cầu bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(\\sqrt{x+3}+\\sqrt{2-x}+5=4 \\sqrt{(x+3)(2-x)})%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(-3 \\leq x \\leq 2)%.<br>Cách 1:(Đặt ẩn phụ) Đặt %(t=\\sqrt{x+3}+\\sqrt{2-x},(t \\geq 0))%.<br>Khi đó ta viết lại phương trình thành<br>\\[t+5=2\\left(t^{2}-5\\right) \\Leftrightarrow t=3\\]<br>Với %(t=3)% ta dễ dàng giải ra được: %(x=1 \\mathrm{~V} x=-2)%.<br>Cách 2: (Bình phương) Ta viết lại phương trình thành:<br>\\[\\sqrt{x+3}+\\sqrt{2-x}=4 \\sqrt{(x+3)(2-x)}-5\\]<br>Bình phương hai vế ta có:<br>\\[\\Rightarrow x+3+2-x+2 \\sqrt{(x+3)(2-x)}=(4 \\sqrt{(x+3)(2-x)}-5)^{2}\\]<br>Dặt %(y=\\sqrt{(x+3)(2-x)}, y\\gt 0)% thì ta được: %(2 t+5=(4 t-5)^{2})%<br>\\[\\Leftrightarrow 16 t^{2}-42 t+20=0 \\Leftrightarrow 8 t^{2}-21 t+10=\\]<br>Dễ dàng giải được %(x=2 \\mathrm{~V} x=\\frac{5}{8})%.<br>Từ đây thế ngược lại là được.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải hệ phưong trình: %(\\left\\{\\begin{array}{l}x y+y \\sqrt{y}-x \\sqrt{x-1}-\\sqrt{x y-y}=0 \\\\ x^{2}-4 x y+2 x+4 y=\\sqrt{x-2 y-1}+3\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq 1, y \\geq 0, x \\geq 2 y+1)%.<br>Từ phương trình thức nhất ta có:<br>\\[x y+y \\sqrt{y}-x \\sqrt{x-1}-\\sqrt{x y-y}=0 \\Leftrightarrow(x+\\sqrt{y})(y-\\sqrt{x-1})=0\\]<br>Từ điều kiện ta có %(x+\\sqrt{y}\\gt 0)% nên phải có %(y=\\sqrt{x-1} \\Leftrightarrow y^{2}=x-1)%.<br>Thay vào phương trình thứ hai và thu gọn ta được:<br>\\[y^{4}-4 y^{3}+4 y^{2}=\\sqrt{y^{2}-2 y} \\Leftrightarrow \\sqrt{y(y-2)}\\left[\\sqrt{(y(y-2))^{3}}-1\\right]=0\\]<br>Từ đó ta giải được %(y=0 ; 2 ; 1+\\sqrt{2})%, và suy ra %(x)%<br>Vậy %((x ; y)=(1 ; 0),(5 ; 2)(4+2 \\sqrt{2 ; 1}+\\sqrt{2}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 0.5,
+        "content": "Giải phương trình nghiệm nguyên: %(x^{2}-2 x y+3 y-x-1=0)%.",
+        "question_images": [],
+        "solution": "Ta viết lại phương trình thành: %(x^{2}-(1+2 y) x+3 y-1=0)%.<br>Xem đây là phương tình bậc hai ẩn %(x)% ta phải có %(\\Delta)% là số chính phương, điều này tương đương tồn tại số tự nhiên %(k)% sao cho<br>\\[4 y^{2}-8 y+5=k^{2} \\Leftrightarrow(2 y-2+k)(2 y-2-k)=-1\\]<br>Xét các trường hợp ta thấy chỉ %(x=1 ; x=2)% là thỏa.<br>Vậy %((x ; y)=(1 ; 1),(2 ; 1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 0.5,
+        "content": "Tìm các cặp số nguyên dương %((a ; b))% sao cho %(\\frac{a^{3} b-1}{a+1})% và %(\\frac{b^{3} a+1}{b-1})% đều là các số nguyên.",
+        "question_images": [],
+        "solution": "Điều kiện: %(b \\neq 1)%.<br>Ta có nhận xét hiển nhiên sau:<br>\\[a^{3}+1 \\vdots a+1 ; b^{3}-1 \\vdots b-1\\]<br>Khi đó ta có<br>\\[a^{3} b-1 \\equiv-b-1(\\bmod a+1) \\Rightarrow b+1: a+1\\]<br>Tương tự thì có<br>\\[b^{3} a+1 \\equiv a+1(\\bmod b-1) \\Rightarrow a+1 \\vdots b-1\\]<br>Điều đó dẫn đến %(b+1: b-1 \\Leftrightarrow 2: b-1)%.<br>Từ dó dễ dàng tìm dược cặp số %((a ; b)=(2 ; 2),(1 ; 3),(3 ; 3))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác nhọn %(A B C)% với %(A B\\lt A C)%. Ba dường cao %(A D, B E, C F)% cắt nhau tại %(H)% (với %(D \\in B C, E \\in A C, F \\in A B))%. Gi %(A_{1}, B_{1})% lần lượt là các diểm đối xứng với %(H)% qua %(D)% và %(E ; M)% là trung điểm của %(B C)%. Hai đường thẳng %(E F)% và %(B C)% cắt nhau tại điểm %(P)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Chứng minh các điểm %(A, B, C, A_{1}, B_{1})% cùng thuộc một đường tròn.",
+        "question_images": [],
+        "solution": "%(\\angle B A_{1} H=\\angle B H A_{1}=\\angle A C B \\Rightarrow A_{1} \\in(A B C))%, tương tự cho %(B_{1})% ta có đpcm.<br><img alt=\"https://docdn.giainhanh.io/media/test/94168ec3116a8b5737b322cea01bad4a.png\" src=\"https://docdn.giainhanh.io/media/test/94168ec3116a8b5737b322cea01bad4a.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Chứng minh %(P E \\cdot P F=P M \\cdot P D)% và %(H)% là trục tâm của tam giác %(A P M)%.",
+        "question_images": [],
+        "solution": "Giả sử %(O)% là tâm đường tròn ngoại tiếp %(\\triangle A B C)%.<br>Ta có %(M E=M B)% nên<br>\\[\\angle E F D=2 \\angle E F C=2 \\angle E B M=\\angle E B M+\\angle M E B=\\angle E M C\\]<br>Do đó %(F E M D)% nội tiếp nên suy ra %(\\angle F D P=\\angle M E P)%, kết hợp %(\\angle F P D)% chung nên dẫn đến<br>\\[\\triangle P F D \\sim \\triangle P M E \\Rightarrow P E \\cdot P F=P M \\cdot P D\\]<br>Gọi %(Q)% là giao %((A H))% với %((O))% thì %(\\angle A Q H=90^{\\circ})% và tiếp tục gọi %(A^{\\prime})% là điểm đối xứng %(A)% qua %(O)% thì %(H C A^{\\prime} B)% là hình bình hành<br>Nên %(M)% cūng là trung diểm %(H A^{\\prime})% và %(\\angle A Q A^{\\prime}=90^{\\circ})% nên %(Q, H, A^{\\prime})% thẳng hàng dẫn đến %(\\angle M Q A=90^{\\circ})%.<br>Ta chỉ cần chứng minh %(A, Q, P)% thẳng hàng nữa là đủ.<br>Thật vậy, gọi %(A^{\\prime})% là giao điểm %(P Q)% với %((O))% thì tương tự cách chứng minh trên ta có<br>\\[P Q . P A^{\\prime}=P B \\cdot P C=P F \\cdot P E \\Rightarrow \\angle P Q F=\\angle A^{\\prime} E F\\]<br>%(\\Rightarrow A^{\\prime} Q F E)% nội tiếp hay %(A^{\\prime})% thuộc %((A H))% nên %(A^{\\prime} \\equiv A)% nên ta có điều phải chứng minh",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 0.5,
+        "content": "Cho hai số thực %(x, y\\gt 0)% thỏa mãn %(x y \\geq 1)%. Chứng minh rằng %(\\left(x+2 y+\\frac{2}{x+1}\\right)\\left(y+2 x+\\frac{2}{y+1}\\right) \\geq 16)%.",
+        "question_images": [],
+        "solution": "Cách 1: Theo AM-GM, ta có:<br>\\[\\begin{array}{c}x+2 y+\\frac{2}{x+1}=\\left(\\frac{x+1}{2}+\\frac{2}{x+1}\\right)+\\left(\\frac{x}{2}+\\frac{y}{2}\\right)+\\frac{3 y}{2}-\\frac{1}{2} \\\\geq 2+2 \\cdot \\frac{1}{2}+\\frac{3 y}{2}-\\frac{1}{2}=\\frac{3 y}{2}+\\frac{5}{2}\\end{array}\\]<br>Một cách tương tự ta cũng có:<br>\\[y+2 x+\\frac{2}{y+1} \\geq \\frac{3 x}{2}+\\frac{5}{2}\\]<br>Khi đó<br>\\[V T \\geq\\left(\\frac{3 y}{2}+\\frac{5}{2}\\right) \\cdot\\left(\\frac{3 x}{2}+\\frac{5}{2}\\right)=\\frac{25}{4}+\\frac{15}{4}(x+y)+\\frac{9 x y}{4} \\geq 16\\]<br>Cách 2 : Bất đẳng thức cần chứng minh tương đương:<br>\\[5 x y+2\\left(x^{2}+y^{2}\\right)+\\frac{2 x}{y+1}+\\frac{2 y}{x+1}+\\frac{4 x}{x+1}+\\frac{4 y}{y+1}+\\frac{4}{(x+1)(y+1)} \\geq 16\\]<br>Vì %(x^{2}+y^{2} \\geq 4 x y \\geq 4)% nên ta chỉ cấn chứng minh:<br>\\[\\frac{x}{y+1}+\\frac{y}{x+1}+\\frac{2 x}{x+1}+\\frac{2 y}{y+1}+\\frac{2}{(x+1)(y+1)} \\geq \\frac{7}{2}\\]<br>Quy đồng và rút gọn, bất đẳng thức trên tương đương:<br>\\[x^{2}+y^{2}+\\frac{1}{2} x y \\geq \\frac{1}{2} \\cdot(x+y)+\\frac{3}{2}\\]<br>Ta có %(x^{2}+y^{2} \\geq \\frac{(x+y)^{2}}{2})% và %(x y \\geq 1)% nên ta sẽ chứng minh:<br>\\[\\frac{(x+y)^{2}}{2} \\geq \\frac{1}{2} \\cdot(x+y)+1 \\Leftrightarrow(x+y-2)(x+y+1) \\geq 0\\]<br>Tuy nhiên bất đẳng thức cuối cùng là đúng do %(x+y \\geq 2 \\sqrt{x y} \\geq 2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "9",
+        "group_content": "Cho 5 đường tròn có cùng bán kính và sắp xếp để tạo thành 9 miền được kí hiệu là %(A_{1}, A_{2}, \\ldots, A_{2})% (như hình vẽ). Sau đó, diền vào 9 miền trên các số được lấy từ %(1,2,3,4,5,6,7,8,9)% sao cho mỗi miền được diền bời một số, hai miền khác nhau dược điền bời hai số khác nhau và tờng các số trong mỗi hình tròn đều bằng 14",
+        "group_images": [
+            "https://docdn.giainhanh.io/media/test/01e5b528b12d95100b50ef6390369a8a.png"
+        ],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.5,
+        "content": "a) Tính tổng các số ở các miền %(A_{2}, A_{4}, A_{8}, A_{4})%.",
+        "question_images": [],
+        "solution": "Gọi %(x_{1}, \\ldots, x_{9})% lần lượt là các số được điền vào miền %(A_{1}, A_{2}, \\ldots, A_{9}\\left(a_{i} \\in\\{1, \\ldots, 9\\}, \\forall i\\right))%.<br>Khi đó tổng các số trên cả 5 đường tròn sē là %(5.14=70)%.<br>Ta có thể viết lại thành:<br>\\[\\left(x_{1}+x_{2}+\\ldots+x_{9}\\right)+\\left(x_{2}+x_{4}+x_{6}+x_{8}\\right)=70\\]<br>Mà %(x_{1}+. .+x_{9}=1+\\ldots+9=45 \\Rightarrow x_{2}+x_{4}+x_{6}+x_{8}=70-45=25)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.5,
+        "content": "b) Hỏi có bao nhiêu cách điền thỏa mãn điều kiện trên? Vì sao?",
+        "question_images": [],
+        "solution": "Ta có nhận xét sau: %(\\left(x_{1}, x_{2}\\right))% và %(\\left(x_{8}, x_{9}\\right))% chỉ có thể nhận hoán vị của bộ số %((5,9))% hoặc %((6,8))%.<br>Thật vật vì %(x_{1}+x_{2}=x_{8}+x_{9}=14)% mà %(14=9+5=8+6=7+7=6+8=5+9=4+10=\\ldots)%,<br>Do đó nếu không nhận hai cặp trên thì tồn tại %(x_{j})% mà %(x_{j} \\geq 10)%, vô lý.<br>Khi đó %(x_{2}+x_{8})% chỉ có thể nhận các giá trị %(11,13,15,17)%.<br>Đến đây ta chỉ cần xét các trường hợp<br>%(x_{2}+x_{8}=11 \\Rightarrow x_{4}+x_{6}=25-11=14 \\Rightarrow x_{5}=0)%, vô lý<br>%(x_{2}+x_{8}=13 \\Rightarrow x_{4}+x_{6}=12=9+3=8+4+7+5)%, dễ thấy đều vô lý do các số trong cặp đều đã sử dụng<br>%(x_{2}+x_{8}=17 \\Rightarrow x_{4}+x_{6}=25-17=8=1+7=2+6=3+5)%,<br>Mà %(x_{2}+x_{8}=17)% thì %(x_{2}, x_{8})% là hoán vị của %((9,8))%, khi đó tổng ở một vòng tròn vượt quá 14%(x_{2}+x_{8}=15 \\Rightarrow x_{4}+x_{6}=10)% chỉ có cặp %((3 ; 7))% thỏa.<br>Giả sử %(\\left(x_{4}, x_{6}\\right)=(7,3))% thì ta dễ dàng chọn được<br>\\[x_{1}=8, x_{2}=6, x_{3}=1, x_{4}=7, x_{5}=4, x_{6}=3, x_{7}=2, x_{8}=9, x_{9}=5\\]<br>và bộ %(\\left(x_{4}, x_{6}\\right)=(3,7))% ta thực hiện tương tự thỏa mãn.Vậy chỉ có hai cách điền thỏa bài toán",
+        "question_type": "essay"
+    }
+]

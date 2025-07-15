@@ -1,0 +1,105 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Phân tích đa thức: %(A=x^{2} y-2 x y-x y^{2}-x+y+2)% thành nhân tử.",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} A & =x^{2} y-2 x y-x y^{2}-x+y+2=\\left(x^{2} y-x y^{2}-2 x y\\right)-(x-y-2) \\\\ & =x y(x-y-2)-(x-y-2) \\\\ & =(x y-1)(x-y-2)\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm các cặp số %((x ; y))% đồng thời thỏa mãn hai đẳng thức sau: %(x^{2} y-2 x y-x y^{2}-x+y+2=0)% (1) và %(x(4-x-y)=2)%",
+        "question_images": [],
+        "solution": "Theo ý a) thì %((1) \\Leftrightarrow(x y-1)(x-y-2)=0 \\Leftrightarrow\\left[\\begin{array}{l}x y-1=0 \\\\ x-y-2=0\\end{array}\\right.)%<br>Trường hợp 1: %(\\quad x y-1=0 \\Leftrightarrow x y=1)% (3)<br>Thay %(x y=1)% vào (2) thì được %(x^{2}-4 x+3=0 \\Leftrightarrow(x-1)(x-3)=0)%<br>\\[\\Leftrightarrow\\left[\\begin{array} { l } { x - 1 = 0 } \\\\{ x - 3 = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=1 \\x=3\\end{array}\\right.\\right.\\]<br>Với %(x=1)% thay vào (3) thì %(y=1)%; Với %(x=3)% thay vào (3) thì %(y=\\frac{1}{3})%<br>Trường hợp 2: %(x-y-2=0 \\Leftrightarrow y=x-2)%<br>Kết hợp với (2) suy ra %(x^{2}-3 x+1=0)% (5)<br>Giải (5) thì được<br>\\[\\left[\\begin{array}{l}x=\\frac{3+\\sqrt{5}}{2} \\x=\\frac{3-\\sqrt{5}}{2}\\end{array}\\right.\\]<br>Với %(x=\\frac{3+\\sqrt{5}}{2})% thay vào (4) thì %(y=\\frac{\\sqrt{5}-1}{2})%<br>Với %(x=\\frac{3-\\sqrt{5}}{2})% thay vào (4) thì %(y=\\frac{-\\sqrt{5}-1}{2})%<br>Vậy có 4 cặp giá trị %((x ; y))% cần tìm là:<br>\\[(1 ; 1) ;\\left(3 ; \\frac{1}{3}\\right) ;\\left(\\frac{3+\\sqrt{5}}{2} ; \\frac{\\sqrt{5}-1}{2}\\right) ;\\left(\\frac{3-\\sqrt{5}}{2} ; \\frac{-\\sqrt{5}-1}{2}\\right)\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho ba số thực %(a ; b ; c)% đôi một khác nhau, thỏa mãn %(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=0)%.Chứng minh rằng: %((a-b)(a-c)=a^{2}+2 b c)% và %(\\frac{b c}{a^{2}+2 b c}+\\frac{c a}{b^{2}+2 c a}+\\frac{a b}{c^{2}+2 a b}=1)%.",
+        "question_images": [],
+        "solution": "Xét ba số thực %(a ; b ; c)% đôi một khác nhau, thỏa mãn %(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=0)%.<br>Ta có: %((a-b)(a-c)=a^{2}-a c-a b+b c=a^{2}+b c-a b-a c)%<br>Từ %(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=0 \\Rightarrow a b+b c+c a=0 \\Rightarrow b c=-a b-c a)% (2)<br>Kết hợp (1) và %((2))% có %((a-b)(a-c)=a^{2}+b c+b c=a^{2}+2 b c)%<br>Vậy đẳng thức %((a-b)(a-c)=a^{2}+2 b c)% được chứng minh.<br>Tương tự có %((b-a)(b-c)=b^{2}+2 c a ; \\quad(c-a)(c-b)=c^{2}+2 a b)%.<br>\\[\\begin{array}{l}\\text { Do đó: } V T=\\frac{b c}{(a-b)(a-c)}+\\frac{c a}{(b-a)(b-c)}+\\frac{a b}{(c-a)(c-b)} \\\\=\\frac{b c}{(a-b)(a-c)}-\\frac{c a}{(a-b)(b-c)}+\\frac{a b}{(a-c)(b-c)}\\end{array}\\]<br>\\[\\begin{array}{l}=\\frac{b c(b-c)-c a(a-c)+a b(a-b)}{(a-b)(a-c)(b-c)} \\\\=\\frac{b c(b-c)-c a[(a-b)+(b-c)]+a b(a-b)}{(a-b)(a-c)(b-c)} \\\\=\\frac{b c(b-c)-c a(b-c)-c a(a-b)+a b(a-b)}{(a-b)(a-c)(b-c)} \\\\=\\frac{(b c-c a)(b-c)+(a b-c a)(a-b)}{(a-b)(a-c)(b-c)} \\\\=\\frac{-c(a-b)(b-c)+a(b-c)(a-b)}{(a-b)(a-c)(b-c)}=\\frac{(a-c)(b-c)(a-b)}{(a-b)(a-c)(b-c)}\\end{array}\\]<br>%(=1=V P)% (vì %(a ; b ; c)% đôi một khác nhau nên %((a-b)(a-c)(b-c) \\neq 0)% ).<br>Vậy đẳng thức %(\\frac{b c}{a^{2}+2 b c}+\\frac{c a}{b^{2}+2 c a}+\\frac{a b}{c^{2}+2 a b}=1)% được chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 0.75,
+        "content": "Cho đa thức %(P(x)=x^{3}+a x^{2}+b x+c)% thỏa mãn %(P(1)=4 ; P(-2)=7)%.Tính giá trị của biểu thức: %(M=P(4)-P(-5)+2051)%.",
+        "question_images": [],
+        "solution": "Xét đa thức %(P(x)=x^{3}+a x^{2}+b x+c)% thỏa mãn %(P(1)=4 ; P(-2)=7)%.<br>Xét đa thức %(f(x)=d x+e)% thỏa mãn %(f(1)=4 ; f(-2)=7)%<br>Ta có %(\\left\\{\\begin{array}{l}d+e=4 \\\\ -2 d+e=7\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}3 d=-3 \\\\ d+e=4\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}d=-1 \\\\ e=5\\end{array} \\Rightarrow f(x)=-x+5\\right.\\right.\\right.)%<br>Đa thức %(Q(x)=P(x)-f(x))% là đa thức bậc ba, có hệ số của %(x^{3})% bằng 1 và nhận %(x=1 ; x=-2)% là các nghiệm.<br>Suy ra %(Q(x)=(x-1)(x+2)(x-m), m \\in \\mathbb{R})%<br>Ta có %(P(x)=Q(x)+f(x)=(x-1)(x+2)(x-m)-x+5)%<br>\\[\\begin{array}{l}P(4)=(4-1) \\cdot(4+2) \\cdot(4-m)-4+5=73-18 m \\P(-5)=(-5-1) \\cdot(-5+2) \\cdot(-5-m)-(-5)+5=-18 m-80\\end{array}\\]<br>\\[\\begin{aligned}\\text { Suy ra } M & =P(4)-P(-5)+2051=(73-18 m)-(-18 m-80)+2051 \\\\& =73-18 m+18 m+80+2051=2204\\end{aligned}\\]<br>Vậy giá trị của biểu thức %(M=2204)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Tìm %(x)% biết: %(\\quad(x-1)(x-2)(x-3)(x-6)=195 x^{2})%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Ta có: }(x-1)(x-2)(x-3)(x-6)=195 x^{2} \\\\Leftrightarrow(x-1)(x-6) \\cdot(x-2)(x-3)=195 x^{2} \\\\Leftrightarrow\\left(x^{2}-7 x+6\\right)\\left(x^{2}-5 x+6\\right)=195 x^{2}\\end{array}\\]<br>Đặt %(x^{2}-6 x+6=t \\Rightarrow x^{2}-7 x+6=t-x ; \\quad x^{2}-5 x+6=t+x)%<br>Khi đó có %((t-x)(t+x)=195 x^{2})%<br>\\[\\Leftrightarrow t^{2}-x^{2}=195 x^{2} \\Leftrightarrow t^{2}=196 x^{2} \\Leftrightarrow\\left[\\begin{array} { l } { t = 1 4 x } \\\\{ t = - 1 4 x }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x^{2}-20 x+6=0 \\text { (1) } \\x^{2}+8 x+6=0 \\text { (2) }\\end{array}\\right.\\right.\\]<br>Giải %((1): \\Leftrightarrow x^{2}-20 x+100-94=0 \\Leftrightarrow(x-10)^{2}=94)%<br>\\[\\Leftrightarrow\\left[\\begin{array} { l } { x - 1 0 = \\sqrt { 9 4 } } \\\\{ x - 1 0 = - \\sqrt { 9 4 } }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=10+\\sqrt{94} \\x=10-\\sqrt{94}\\end{array}\\right.\\right.\\]<br>Giải (2): %(\\Leftrightarrow x^{2}+8 x+16-10=0 \\Leftrightarrow(x+4)^{2}=10)%<br>\\[\\Leftrightarrow\\left[\\begin{array} { l } { x + 4 = \\sqrt { 1 0 } } \\\\{ x + 4 = - \\sqrt { 1 0 } }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=-4+\\sqrt{10} \\x=-4-\\sqrt{10}\\end{array}\\right.\\right.\\]<br>Vậy %(x \\in\\{10+\\sqrt{94} ; 10-\\sqrt{94} ;-4+\\sqrt{10} ;-4-\\sqrt{10}\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 0.75,
+        "content": "Tìm tất cả các số hữu tỉ %(x)% để %(K=x^{2}-x+1)% là số chính phương.",
+        "question_images": [],
+        "solution": "Giả sử tồn tại số hữu tỉ %(x)% để %(K=x^{2}-x+1)% là số chính phương.<br>Khi đó %(x^{2}-x+1=y^{2}(y \\in \\mathbb{N}) \\Leftrightarrow 4 x^{2}-4 x+4=4 y^{2} \\Leftrightarrow(2 x-1)^{2}=4 y^{2}-3)%<br>Vì %(x \\in \\mathbb{Q} \\Rightarrow 2 x-1 \\in \\mathbb{Q})% (2)Vì %(4 y^{2}-3 \\in \\mathbb{Z})% do %(y \\in \\mathbb{N})% nên từ (1) suy ra %((2 x-1)^{2} \\in \\mathbb{Z})% (3)<br>Từ (2) và %((3) \\Rightarrow 2 x-1 \\in \\mathbb{Z})%%((1) \\Leftrightarrow(2 x-1)^{2}-4 y^{2}=-3 \\Leftrightarrow(2 x-1+2 y)(2 x-1-2 y)=-3)%<br>Vì %(2 x-1 \\in \\mathbb{Z} ; y \\in \\mathbb{N} \\Rightarrow 2 x+2 y-1 \\geq 2 x-2 y-1 ; 2 x+2 y-1 \\in \\mathbb{Z} ; 2 x-2 y-1 \\in \\mathbb{Z})%Mặt khác: %(-3=1 .(-3)=3 .(-1))%<br>Vì vậy có 2 trường hợp sau:<br>Trường hợp 1: %(\\left\\{\\begin{array}{l}2 x+2 y-1=1 \\\\ 2 x-2 y-1=-3\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}4 x=0 \\\\ 4 y=4\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=0 \\\\ y=1\\end{array}\\right.\\right.\\right.)% (thỏa mãn)<br>Trường hợp 2: %(\\left\\{\\begin{array}{l}2 x+2 y-1=3 \\\\ 2 x-2 y-1=-1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}4 x=4 \\\\ 4 y=4\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=1 \\\\ y=1\\end{array}\\right.\\right.\\right.)% (thỏa mãn)<br>Vậy tất cả các số hữu tỉ %(x)% cần tìm là %(x=1)% và %(x=0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Cho %(a ; b)% là hai số thực dương. Tìm giá trị nhỏ nhất của biểu thức %(Q=\\frac{a^{2}}{b^{2}}+\\frac{b^{2}}{a^{2}}+\\frac{4 a^{2} b^{2}}{\\left(a^{2}+b^{2}\\right)^{2}})%",
+        "question_images": [],
+        "solution": "Xét %(a ; b)% là hai số thực dương và %(Q=\\frac{a^{2}}{b^{2}}+\\frac{b^{2}}{a^{2}}+\\frac{4 a^{2} b^{2}}{\\left(a^{2}+b^{2}\\right)^{2}})%<br>\\[\\Rightarrow Q+2=\\left(\\frac{a^{2}}{b^{2}}+\\frac{b^{2}}{a^{2}}+2\\right)+\\frac{4 a^{2} b^{2}}{\\left(a^{2}+b^{2}\\right)^{2}}=\\frac{\\left(a^{2}+b^{2}\\right)^{2}}{a^{2} b^{2}}+\\frac{4 a^{2} b^{2}}{\\left(a^{2}+b^{2}\\right)^{2}}\\]<br>Đặt %(\\frac{\\left(a^{2}+b^{2}\\right)^{2}}{a^{2} b^{2}}=t)% với điều kiện %(t \\geq 4)%.<br>Thật vậy: với %(a\\gt 0 ; b>0)% thì %(a^{2}+b^{2} \\geq 2 a b \\Rightarrow \\frac{a^{2}+b^{2}}{a b} \\geq 2 \\Rightarrow \\frac{\\left(a^{2}+b^{2}\\right)^{2}}{a^{2} b^{2}} \\geq 4)%(1) trở thành %(Q+2=t+\\frac{4}{t})%(2).<br>Cần chứng minh %(\\frac{4}{t}+t \\geq 5)%.<br>Thật vậy: vì %(t \\geq 4)% nên %(\\frac{4}{t}+t \\geq 5 \\Leftrightarrow t^{2}-5 t+4 \\geq 0 \\Leftrightarrow(t-1)(t-4) \\geq 0)% luôn đúng %(\\forall t \\geq 4)%<br>Do đó (2) trở thành %(Q+2 \\geq 5 \\Leftrightarrow Q \\geq 3\\left(^{*}\\right))%<br>Dấu \"=\" xảy ra ở %((*) \\Leftrightarrow t=4 \\Leftrightarrow a=b>0)%.<br>Vậy %(\\operatorname{Min} Q=3)% khi và chỉ khi %(a=b>0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho tam giác %(A B C)% nhọn, %(C=45^{\\circ})%, các đường cao %(A D ; B E)% cắt nhau tại %(H)%. Gọi %(M ; N)% lần lượt là trung điểm của %(A B)% và %(C H)%. Gọi %(O)% là giao điểm ba đường trung trực của tam giác %(A B C)%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng: tứ giác %(D M E N)% là hình vuông;",
+        "question_images": [],
+        "solution": "Ta có %(M D=M E=\\frac{A B}{2})% (1) (do %(D M ; E M)% là hai đường trung tuyến của các tam giác vuông %(A D B)% và %(A E B)% )<br>Tương tự có: %(N D=N E=\\frac{C H}{2}(2))%<br>Khẳng định được %(\\triangle A B D=\\triangle C H D)% (c.g.c) hoặc (g.c.g) %(\\Rightarrow A B=C H(3))%<br>Từ (1); (2) và (3) %(\\Rightarrow M D=M E=N D=N E \\Rightarrow)% tứ giác %(D M E N)% là hình thoi (4)<br>Có %(\\triangle B E C)% vuông tại %(E)% có %(A C B=45^{\\circ})% nên vuông cân tại %(E \\Rightarrow B E=C E)%Chứng minh được %(\\triangle M E B=\\triangle N E C)% (c.c.c) suy ra %(M E B=N E C)%<br>Mà %(B E N+N E C=B E C=90^{\\circ} \\Rightarrow M E B+B E N=90^{\\circ})%, do đó %(M E N=90^{\\circ}(5))%<br>Từ (4) và (5) suy ra tứ giác %(D M E N)% là hình vuông (theo dấu hiệu nhận biết)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c6bb6c262ea7b2d4f336b6ceb26990ae.png\" srcset=\"https://docdn.giainhanh.io/media/test/ac451d0d2bade1936c7bc552d0bf4572.png 245w, https://docdn.giainhanh.io/media/test/6bfb012533f49c554383b01f36aac108.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh rằng: ba đường thẳng %(M N ; D E)% và %(O H)% đồng quy;",
+        "question_images": [],
+        "solution": "Có %(O B=O C)% (vì %(O)% là giao điểm ba đường trung trực của %(\\triangle A B C)% )<br>mà %(B E=C E \\Rightarrow E O)% là đường trung trực của đoạn thẳng %(B C \\Rightarrow E O \\perp B C)%%(\\Rightarrow E O / / D H)% (vì cùng vuông góc với %(B C)% )<br>Tương tự có %(E H / / D O \\Rightarrow)% Tứ giác %(D H E O)% là hình bình hành (DHNB)<br>%(\\Rightarrow)% Hai đường chéo %(D E ; H O)% cắt nhau tại %(I)% là trung điểm của mỗi đường (6)<br>Vì tứ giác %(D M E N)% là hình vuông nên %(D E)% và %(M N)% cắt nhau tại trung điểm của mỗi đường %((7))%<br>Từ %((6))% và %((7) \\Rightarrow)% ba đường thẳng %(M N ; D E)% và %(O H)% đồng quy tại điểm %(I)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Tính tỉ số diện tích tam giác %(C D E)% và diện tứ giác %(A B D E)%;",
+        "question_images": [],
+        "solution": "Khẳng định được %(\\triangle C D E)% và %(\\triangle C A B)% đồng dạng với nhau.<br>Do đó %(\\frac{S_{\\triangle C D E}}{S_{\\triangle C A B}}=\\left(\\frac{C E}{C B}\\right)^{2}=\\frac{C E^{2}}{B C^{2}})%<br>Lại có %(\\triangle B E C)% vuông cân tại %(E)% nên %(B E^{2}=2 . C E^{2} \\Rightarrow \\frac{C E^{2}}{B E^{2}}=\\frac{1}{2})%<br>Từ (8) và (9) suy ra %(\\frac{S_{\\triangle C D E}}{S_{\\triangle C A B}}=\\frac{1}{2})%. Áp dụng tính chất tỉ lệ thức:<br>\\[\\frac{S_{\\triangle C D E}}{S_{\\triangle C A B}}=\\frac{1}{2} \\Rightarrow \\frac{S_{\\triangle C D E}}{S_{\\triangle C A B}-S_{\\triangle C D E}}=\\frac{1}{2-1} \\Rightarrow \\frac{S_{\\triangle C D E}}{S_{A B D E}}=1 \\text {. Vậy } \\frac{S_{\\triangle C D E}}{S_{A B D E}}=1 \\text {. }\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 0.5,
+        "content": "d) Chứng minh rằng: %(B E^{2}\\gt 2 . A D \\cdot D H)%.",
+        "question_images": [],
+        "solution": "\\[\\Rightarrow \\frac{A D}{B D}=\\frac{D C}{D H} \\Rightarrow A D \\cdot D H=B D \\cdot D C\\]<br>Áp dụng bất đẳng thức %(a \\cdot b \\leq \\frac{(a+b)^{2}}{4})%, dấu \" %(=)% \" xảy ra khi %(a=b)%.<br>Có %(B D \\cdot D C \\leq \\frac{(B D+D C)^{2}}{4}=\\frac{B C^{2}}{4})%, do đó %(A D \\cdot D H \\leq \\frac{B C^{2}}{4})%<br>Dấu \" %(=)% \" ở (10) xảy ra khi %(B D=D C \\Leftrightarrow \\triangle A B C)% vuông cân tại %(A)%, điều này mâu thuẫn với giả thiết cho %(\\triangle A B C)% nhọn có %(C=45^{\\circ} \\Rightarrow A D \\cdot D H\\lt \\frac{B C^{2}}{4})%.<br>Lại có %(B C^{2}=2 B E^{2})% ( do %(\\triangle B C E)% vuông cân tại %(E)% )<br>\\[\\Rightarrow A D \\cdot D H\\lt \\frac{2 B E^{2}}{4} \\Rightarrow B E^{2}\\gt 2 . A D . D H \\text { (ĐPCM) }\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 0.5,
+        "content": "Cho hình thoi %(A B C D)% có %(A B C=120^{\\circ}, P)% là một điểm thuộc cạnh %(A B(P \\neq A ; B))%. Gọi %(N)% là giao điểm của hai đường thẳng %(A D)% và %(C P ; M)% là giao điểm của %(B N)% và %(D P)%. Tính số %(D M N)%.",
+        "question_images": [],
+        "solution": "Vì tứ giác %(A B C D)% là hình thoi nên %(A B=B C=C D=D A ; A B / / C D ; B C / / A D)%<br>Gọi %(I)% là giao điểm của %(C N)% và %(B D)%.Có %(B C / / A D \\Rightarrow \\frac{B C}{D N}=\\frac{B I}{I D})% (theo hệ quả Thales) (1)<br>Có %(A B / / C D \\Rightarrow \\frac{B P}{C D}=\\frac{B I}{I D} \\quad)% (theo hệ quả Thales) (2)<br>Từ (1) và %((2) \\Rightarrow \\frac{B C}{D N}=\\frac{B P}{C D})%<br>Trong hình thoi %(A B C D)% có đường chéo %(B D)% là tia phân giác của %(A B C)% nên %(A B D=\\frac{1}{2} A B C=\\frac{1}{2} \\cdot 120^{\\circ}=60^{\\circ})%.<br>Lại có %(A B=A D \\Rightarrow \\triangle A B D)% cân tại %(A)%<br>Do đó %(\\triangle A B D)% là tam giác đều %(\\Rightarrow A B=B D)% mà %(A B=B C=C D)%%(\\Rightarrow B C=C D=B D)% kết hợp %((3) \\Rightarrow \\frac{B D}{D N}=\\frac{B P}{B D})%<br>Xét %(\\triangle B D P)% và %(\\triangle D N B)% có: %(D B P=N D B\\left(=60^{\\circ}\\right))% và %(\\frac{B D}{D N}=\\frac{B P}{D B})%<br>Do đó %(\\triangle B D P)% và %(\\triangle D N B)% đồng dang (c.g.c)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a33d47e2c3d946f14cfc9b792eb08663.png\" srcset=\"https://docdn.giainhanh.io/media/test/92d7176fd01aae6e42d3d063296ea672.png 245w, https://docdn.giainhanh.io/media/test/9da8a1ec39954e86998b2a4df152bbca.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

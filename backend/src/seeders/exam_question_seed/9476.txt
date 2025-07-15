@@ -1,0 +1,97 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Hai số %(x, y)% thay đổi thỏa mãn điều kiện %(x y=1)%. Chứng minh %(x^{5}+y^{5}=\\left(x^{2}+y^{2}\\right)\\left(x^{3}+y^{3}\\right)-x-y)%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}\\left(x^{2}+y^{2}\\right)\\left(x^{3}+y^{3}\\right)-x-y=x^{5}+x^{2} y^{3}+x^{3} y^{2}+y^{5}-x-y \\\\=x^{5}+y^{5}+x^{2} y^{2}(x+y)-x-y=x^{5}+y^{5}+x+y-x-y~(d o ~x y=1) \\\\=x^{5}+y^{5}~(đ pc m)\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Phân tích đa thức sau thành nhân tử: %(x^{5}+x+1)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}x^{5}+x+1=x^{5}-x^{2}+x^{2}+x+1=x^{2}(x-1)\\left(x^{2}+x+1\\right)+x^{2}+x+1 \\\\ =\\left(x^{2}+x+1\\right)\\left(x^{3}-x^{2}+1\\right)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Cho hai đa thức %(f(x)=(x+1)(x+2)(x+3)(x+4)(x+5)+3 x-1)% và %(g(x)=x^{2}+7 x+11)%. Tìm phần dư của %(f(x))% chia cho %(g(x))%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}f(x)=(x+1)(x+2)(x+3)(x+4)(x+5)+3 x-1 \\\\=(x+1)(x+2)(x+5)(x+3)(x+4)+3 x-1 \\\\=(x+1)\\left(x^{2}+7 x+10\\right)\\left(x^{2}+7 x+12\\right)+3 x-1 \\\\=(x+1)\\left(x^{2}+7 x+11-1\\right)\\left(x^{2}+7 x+11+1\\right)+3 x-1 \\\\=(x+1)\\left[\\left(x^{2}+7 x+11\\right)^{2}-1\\right]+3 x-1 \\\\=(x+1)\\left(g^{2}(x)\\right)-(x+1)+3 x-1 \\\\=\\left(g^{2}(x)\\right)(x+1)+2 x-2\\end{array}\\]<br>Suy ra phần dư của %(\\mathrm{f}(\\mathrm{x}))% chia cho %(\\mathrm{g}(\\mathrm{x}))% là %(2 x-2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Tìm x nguyên để biểu thức %(A=\\frac{2 x-1}{x^{2}+2})% nhận giá trị nguyên.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}A=\\frac{2 x-1}{x^{2}+2} \\in Z \\Rightarrow \\frac{(2 x-1)(2 x+1)}{x^{2}+2} \\in Z \\Leftrightarrow \\frac{4 x^{2}-1}{x^{2}+2} \\in Z \\\\Leftrightarrow \\frac{4 x^{2}+8-9}{x^{2}+2}=4-\\frac{9}{x^{2}+2} \\in Z \\Rightarrow\\left(x^{2}+2\\right) \\in Ư(9)=\\{3 ; 9\\} \\Rightarrow\\left[\\begin{array}{l}x= \\pm 1 \\x= \\pm \\sqrt{7}~(\\mathrm{ktm})\\end{array}\\right. \\x=1 \\Rightarrow A=\\frac{1}{3}~(\\mathrm{ktm}) ;\\quad x=-1 \\Rightarrow A=1~(\\mathrm{tm})\\end{array}\\]<br>Vậy %(x=-1)% thì A nguyên",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho biểu thức %(P=\\frac{x \\sqrt{x}+26 \\sqrt{x}-19}{x+2 \\sqrt{x}-3}-\\frac{2 \\sqrt{x}}{\\sqrt{x}-1}+\\frac{\\sqrt{x}-3}{\\sqrt{x}+3}\\binom{x \\geq 0}{x \\neq 1})%.<br>Rút gọn biểu thức %(P)% và tìm giá trị nhỏ nhất của %(P)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}P=\\frac{x \\sqrt{x}+26 \\sqrt{x}-19}{x+2 \\sqrt{x}-3}-\\frac{2 \\sqrt{x}}{\\sqrt{x}-1}+\\frac{\\sqrt{x}-3}{\\sqrt{x}+3}\\binom{x \\geq 0}{x \\neq 1} \\\\=\\frac{x \\sqrt{x}+26 \\sqrt{x}-19-2 x-6 \\sqrt{x}+x-4 \\sqrt{x}+3}{(\\sqrt{x}-1)(\\sqrt{x}+3)}=\\frac{x \\sqrt{x}-x+16 \\sqrt{x}-16}{(\\sqrt{x}-1)(\\sqrt{x}+3)} \\P=\\frac{(\\sqrt{x}-1)(x+16)}{(\\sqrt{x}-1)(\\sqrt{x}+3)}=\\frac{x+16}{\\sqrt{x}+3}\\end{array}\\]<br>Vậy với %(x \\geq 0 ; x \\neq 1)% thì %(P=\\frac{x+16}{\\sqrt{x}+3})%<br>Với %(x \\geq 0 ; x \\neq 1)%, ta có :<br>\\[\\begin{array}{l}P=\\frac{x+16}{\\sqrt{x}+3}=\\frac{x-9+25}{\\sqrt{x}+3}=\\sqrt{x}-3+\\frac{25}{\\sqrt{x}+3}=\\sqrt{x}+3+\\frac{25}{\\sqrt{x}+3}-6 \\\\geq 2 \\sqrt{(\\sqrt{x}+3)\\left(\\frac{25}{\\sqrt{x}+3}\\right)}-6=2.5-6=4\\end{array}\\]<br>Suy ra %(\\operatorname{Min}_ P=4 \\Leftrightarrow \\sqrt{x}+3=\\frac{25}{\\sqrt{x}+3} \\Leftrightarrow x=4~(t m đ k))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.75,
+        "content": "Giải phương trình: %(\\frac{2 x}{3 x^{2}-4 x+1}+\\frac{13 x}{3 x^{2}+2 x+1}=6)%",
+        "question_images": [],
+        "solution": "ĐK: %(x \\neq 1 ; x \\neq \\frac{1}{3})%.<br>Vì %(\\mathrm{x}=0)% không là nghiệm của phương trình đã cho nên phương trình đã cho tương đương với: %(\\frac{2}{3 x-4+\\frac{1}{x}}+\\frac{13}{3 x+2+\\frac{1}{x}}=6)%<br>Đặt %(3 x-4+\\frac{1}{x}=y)%, ta có phương trình:<br>\\[\\frac{2}{y}+\\frac{13}{y+6}=6 \\Leftrightarrow 2 y^{2}+7 y-4=0 \\Leftrightarrow\\left[\\begin{array}{l}y=\\frac{1}{2} \\y=-4\\end{array}\\right.\\]<br>%(+)~y=\\frac{1}{2} \\Rightarrow 3 x-4+\\frac{1}{x}=\\frac{1}{2} \\Rightarrow 6 x^{2}-9 x+2=0 \\Leftrightarrow x=\\frac{9 \\pm \\sqrt{33}}{12}~( tmđk)% %())%%(+)~ y=-4 \\Rightarrow 3 x-4+\\frac{1}{x}=-4 \\Rightarrow 3 x^{2}+1=0~(V N))%<br>Vậy phương trình có tập nghiệm %(S=\\left\\{\\frac{9 \\pm \\sqrt{33}}{12}\\right\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.75,
+        "content": "Cho %(Q(x))% là đa thức bậc ba có hệ số cao nhất là số nguyên và thỏa mãn điều kiện %(Q(2020)=2021, Q(2021)=2022)%. Chứng minh %(Q(2022)-Q(2019))% chia hết cho 3.",
+        "question_images": [],
+        "solution": "Xét đa thức %(H(x)=Q(x)-x-1)%.<br>Ta có:<br>\\[H(2020)=Q(2020)-2020-1=0, H(2021)=Q(2021)-2021-1=0\\]<br>Suy ra %(H(x))% có nghiệm là 2020 và 2021.<br>%(\\mathrm{H}(\\mathrm{x}))% là đa thức bậc 3 có hai nghiệm là %(2020 ; 2021)% nên %(\\mathrm{H}(\\mathrm{x}))% có thêm nghiệm nữa là %(x_{0})%Gọi k là hệ số cao nhất của %(\\mathrm{H}(\\mathrm{x}))% thì %(H(x)=k(x-2020)(x-2021)\\left(x-x_{0}\\right))%<br>Suy ra %(Q(x)=k(x-2020)(x-2021)\\left(x-x_{0}\\right)+x+1)%.<br>Ta có:<br>\\[\\begin{array}{l}Q(2022)-Q(2019)=k(2022-2020)(2022-2021)\\left(2022-x_{0}\\right)+2023 \\\\-k(2019-2020)(2019-2021)\\left(2019-x_{0}\\right)-2023=3(2 k+1)~\\vdots~ 3\\end{array}\\]<br>Vậy %(Q(2022)-Q(2019))% chia hết cho 3.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho tam giác nhọn %(A B C)%, các đường cao %(A D, B E, C F)% cắt nhau tại H.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 3.0,
+        "content": "a) Chứng minh: %(\\triangle C D H)% đồng dạng với %(\\triangle C F B)% và %(B H. B E+C H . C F=B C^{2})%",
+        "question_images": [],
+        "solution": "+) Xét %(\\triangle C D H)% và %(\\triangle C F B)% có:<br>%(\\widehat C)% chung, %(\\widehat{C D H}=\\widehat {C F B}=90^{\\circ} \\Rightarrow \\triangle C D H \\backsim \\triangle C F B)%<br>\\[+)~\\triangle C D H \\backsim \\triangle C F B \\Rightarrow \\frac{C H}{C B}=\\frac{C D}{C F} \\Rightarrow C H . C F=C B . C D\\]<br>+) Tương tự ta có: %(B H . B E=B D . B C)%<br>\\[B H .B E+C H . C F=B D . B C+C B . C D=B C .(B D+C D)=B C^{2}~(đp \\mathrm{cm})\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b78403dabce2f1abb3e033d42d0d2cb3.png\" srcset=\"https://docdn.giainhanh.io/media/test/61c33b1a016a0aca437c23f2ce5143d1.png 185w, https://docdn.giainhanh.io/media/test/8d1cd7c1383d47fe1f5e0646ff0968be.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Lấy điểm %(\\mathrm{M}, \\mathrm{N})% theo thứ tự thuộc đoạn BE và CF sao cho %(A M=A N)% và %(\\widehat{ A M C}=90^{\\circ})%. Chứng minh %(A E . A C=A F . A B)% và %(A N)% vuông góc với NB.",
+        "question_images": [],
+        "solution": "+) Tam giác %(A B E)% vuông tại E nên %(\\Rightarrow \\cos A=\\frac{A E}{A B})%<br>+) Tam giác %(A C F)% vuông tại F nên %(\\cos A=\\frac{A F}{A C})%<br>Suy ra %(\\frac{A E}{A B}=\\frac{A F}{A C} \\Rightarrow A E . A C=A F . A B~(đp c m))%<br>+) Tam giác %(A M C ~c ó:\\left\\{\\begin{array}{l}\\widehat{A M C}=90^{\\circ} \\\\ M E \\perp A C\\end{array} \\Rightarrow A M^{2}=A E . A B\\right.)%<br>+) Theo giả thiết %(A M=A N \\Rightarrow A N^{2}=A E .A C)%<br>+) Mà %(A E . A C=A F . A B)%%(\\Rightarrow A N^{2}=A F . A B \\Rightarrow \\frac{A N}{A B}=\\frac{A F}{A N})%<br>+) Xét %(\\triangle A N B ~ và~ \\triangle A F N)%, có:<br>%(\\widehat{A})% chung<br>%(\\frac{A N}{A B}=\\frac{A F}{A N})%<br>%(\\Rightarrow \\triangle A N B \\backsim \\triangle A F N~(c.g.c) )%<br>%(\\Rightarrow \\widehat{A N B}=\\widehat{A F N})%<br>+) Mà %(\\widehat{A F N}=90^{\\circ} \\Rightarrow \\widehat{A N B}=90^{\\circ} \\Rightarrow A N \\perp N B~(đ p c m))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) Tìm giá trị lớn nhất của biểu thức %(T=\\cos \\widehat{ B A C}+\\cos \\widehat{ C B A}+\\cos \\widehat{ A C B})%",
+        "question_images": [],
+        "solution": "+) Ta có :<br>\\[\\begin{array}{l}\\cos \\widehat{B A C}=\\sqrt{\\cos B A E . \\cos C A F}=\\sqrt{\\frac{A E}{A B}. \\frac{A F}{A C}}=\\sqrt{\\frac{A E}{A C} . \\frac{A F}{A B}} \\leq \\frac{1}{2}\\left(\\frac{A E}{A C}+\\frac{A F}{A B}\\right)~~~~~(1) \\\\text {Cmtt}: \\cos \\widehat{C B A} \\leq \\frac{1}{2}\\left(\\frac{B D}{B C}+\\frac{B F}{B C}\\right)~~~~~(2), \\cos \\widehat{A C B} \\leq \\frac{1}{2}\\left(\\frac{C E}{C A}+\\frac{C D}{C B}\\right)~~~~~(3) \\\\text { (1),(2) và (3) } \\Rightarrow T \\leq \\frac{1}{2}\\left(\\frac{A F}{A B}+\\frac{A E}{A C}\\right)+\\frac{1}{2}\\left(\\frac{B F}{B A}+\\frac{B D}{B C}\\right)+\\frac{1}{2}\\left(\\frac{C E}{C A}+\\frac{C D}{C B}\\right) \\\\=\\frac{1}{2}\\left[\\left(\\frac{A F}{A B}+\\frac{B F}{B A}\\right)+\\left(\\frac{A E}{A C}+\\frac{C E}{C A}\\right)+\\left(\\frac{B D}{B C}+\\frac{C D}{C B}\\right)\\right]=\\frac{3}{4}~~~~~ \\text { (4) }\\end{array}\\]<br>+) Mặt khác khi tam giác ABC đều thì %(T=\\frac{3}{2}~~~~~(5))%<br>Từ (4) và (5) suy ra %(M a x _T=\\frac{3}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 1.5,
+        "content": "Chứng minh rằng với mọi số dương %(x, y, z)% ta luôn có bất đẳng thức sau:<br>%(\\frac{y}{y+z}+\\frac{y}{z+x}+\\frac{z}{x+y}+\\sqrt{\\frac{x y+y z+z x}{x^{2}+y^{2}+z^{2}}} \\geq \\frac{5}{2})%",
+        "question_images": [],
+        "solution": "%(\\frac{y}{y+z}+\\frac{y}{z+x}+\\frac{z}{x+y}+\\sqrt{\\frac{x y+y z+z x}{x^{2}+y^{2}+z^{2}}} \\geq \\frac{5}{2}~~~~~(\\mathrm{1}))%<br>Theo bất đẳng thức Bunhiacopxki, ta có:<br>\\[\\begin{array}{l}{[(x y+x z)+(y z+y x)+(z x+z y)]\\left[\\frac{x}{y+z}+\\frac{y}{z+x}+\\frac{z}{x+y}\\right]} \\\\=[(x y+x z)+(y z+y x)+(z x+z y)]\\left[\\frac{x^{2}}{x y+x z}+\\frac{y^{2}}{y z+y x}+\\frac{z^{2}}{z x+z y}\\right] \\geq(x+y+z)^{2}\\end{array}\\]<br>\\[\\begin{array}{l}\\Leftrightarrow \\frac{x^{2}}{x y+x z}+\\frac{y^{2}}{y z+y x}+\\frac{z^{2}}{z x+z y} \\geq \\frac{(x+y+z)^{2}}{(x y+x z)+(y z+y x)+(z x+z y)} \\\\=\\frac{x^{2}+y^{2}+z^{2}+2(x y+y z+z x)}{2(x y+y z+z x)}=\\frac{x^{2}+y^{2}+z^{2}}{2(x y+y z+z x)}+1\\end{array}\\]<br>Do dó vế trái của %((1) \\geq \\frac{x^{2}+y^{2}+z^{2}}{2(x y+y z+z x)}+1+\\sqrt{\\frac{x y+y z+z x}{x^{2}+y^{2}+z^{2}}})%<br>Ta chứng minh: %(\\frac{x^{2}+y^{2}+z^{2}}{2(x y+y z+z x)}+1+\\sqrt{\\frac{x y+y z+z x}{x^{2}+y^{2}+z^{2}}} \\geq \\frac{5}{2})%<br>Đặt %(\\sqrt{\\frac{x y+y z+z x}{x^{2}+y^{2}+z^{2}}}=t~(0\\lt t \\leq 1))%<br>Khi đó ta có:%(\\frac{1}{2 t^{2}}+1+t \\geq \\frac{5}{2} \\Leftrightarrow 2 t^{3}-3 t^{2}+1 \\geq 0 \\Leftrightarrow(t-1)^{2}(2 t+1) \\geq 0)%, điều này đúng vì %(0\\lt t \\leq 1)%.<br>Suy ra đpcm.<br>Đẳng thức xảy %(\\mathrm{ra} \\Leftrightarrow t=1 \\Leftrightarrow x=y=z)%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.5,
+        "content": "Chứng minh rằng với mọi số nguyên %(n)% thì %(n^{2}+n+2)% không chia hết cho 3 .",
+        "question_images": [],
+        "solution": "*) Nếu %(n \\ \\vdots \\ 3 \\Rightarrow n^{2}+n \\ \\vdots \\  3)% nên %(n^{2}+n+2\\ \\not \\vdots \\  3)%<br>*) Nếu %(n\\ \\not  \\vdots \\  3 \\Rightarrow n^{2}+2 \\ \\vdots \\  3 \\Rightarrow n^{2}+n+2 \\ \\not \\vdots \\  3)%<br>Từ (1) và (2) %(\\Rightarrow \\forall n \\in Z)% thì %(n^{2}+n+2 \\ \\not \\vdots \\  3)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.5,
+        "content": "Tìm tất cả các số tự nhiên %(n)% sao cho %(n^{2}+17)% là một số chính phương.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Đặt } m^{2}=n^{2}+17 \\quad(m \\in N) \\\\Rightarrow m^{2}-n^{2}=17 \\Rightarrow(m-n)(m+n)=17=1.17=17.1 \\\\text { Do } m+n\\gt m-n \\Rightarrow\\left\\{\\begin{array} { l } { m + n = 1 7 } \\\\{ m - n = 1 }\\end{array} \\Rightarrow \\left\\{\\begin{array}{l}m=9 \\n=8\\end{array}\\right.\\right.\\end{array}\\]<br>Vậy với %(n=8)% ta có %(n^{2}+17=64+17=81=9^{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.5,
+        "content": "Giải phương trình: %(x^{2}+4 x+5=2 \\sqrt{2 x+3})%.",
+        "question_images": [],
+        "solution": "Giải phương trình %(x^{2}+4 x+5=2 \\sqrt{2 x+3})%<br>Điều kiện: %(2 x+3 \\geq 0 \\Rightarrow x \\geq-\\frac{3}{2})%<br>\\[\\begin{array}{l}\\text { (1) } \\Leftrightarrow x^{2}+4 x+5-2 \\sqrt{2 x+3}=0 \\Leftrightarrow x^{2}+2 x+1+2 x+3-2 \\sqrt{2 x+3}+1=0 \\\\Leftrightarrow(x+1)^{2}+(\\sqrt{2 x+3}-1)^{2}=0 \\\\Leftrightarrow\\left\\{\\begin{array} { l } { x + 1 = 0 } \\\\{ \\sqrt { 2 x + 3 } - 1 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=-1 \\\\2 x+3=1\\end{array}\\right.\\right.\\end{array}\\]<br>%(\\Leftrightarrow x=-1)% thỏa mãn điều kiện",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.5,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}2 x+y=x^{2} \\\\ y+x=y^{2}\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "hệ phương trình: %(\\left\\{\\begin{array}{l}2 x+y=x^{2}(1) \\\\ 2 y+x=y^{2}(2)\\end{array}\\right.)%<br>Trừ từng vế 2 phương trình ta có: %(x^{2}-y^{2}=x-y)%<br>\\[\\begin{array}{l}\\Leftrightarrow(x-y)(x+y-1)=0 \\\\Leftrightarrow\\left[\\begin{array} { l } { x = y } \\\\{ x + y - 1 = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=y \\x=1-y\\end{array}\\right.\\right.\\end{array}\\]<br>Ta có:*) %(\\left\\{\\begin{array}{l}x=y \\\\ x(x-3)=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=y \\\\ x=0\\end{array}\\right.\\right.)% hoăc %(\\mathrm{x}=3)%<br>Vậy %((x ; y)=(0 ; 0) ;(3 ; 3))%(*)<br>%(\\left\\{\\begin{array}{l}x=1-y \\\\ 2 x+y=x^{2}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=1-y \\\\ 2-2 y+y=(1-y)^{2}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=1-y \\\\ y^{2}-y+1=0\\end{array}\\right.\\right.\\right.)%<br>Vì phương trình %(y^{2}-y+1=0)% vô nghiệm nên hệ (*) vô nghiệm.<br>Vậy hệ đã cho có 2 nghiệm %((x ; y)=(0 ; 0) ;(3 ; 3))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 3.0,
+        "content": "Tìm giá trị nhỏ nhất của biểu thức: %(A=\\frac{4 x+3}{x^{2}+1})%.",
+        "question_images": [],
+        "solution": "Ta có: %(A=\\frac{4 x+3}{x^{2}+1}=-1+\\frac{x^{2}+4 x+4}{x^{2}+1})%<br>%(A=-1+\\frac{(x+2)^{2}}{x^{2}+1} \\geq-1)%<br>Dấu \"=\" xảy ra %(\\Leftrightarrow x+2=0 \\Leftrightarrow x=-2)%<br>Vậy %(A_{\\min }=-1)% khi %(x=-2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho tam giác %(A B C)% có ba góc nhọn nội tiếp đường tròn %((O))%. Các đường cao %(B E, C F)% của tam giác %(A B C)% cắt nhau tại %(H)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.5,
+        "content": "a) Chứng minh rằng %(B H \\cdot B E+C H \\cdot C F=B C^{2})%",
+        "question_images": [],
+        "solution": "Goi %(I)% là giao điểm của %(A H)% và %(B C \\Rightarrow A I \\perp B C)%<br>Ta có: %(\\triangle B H I \\sim \\triangle B C E(g, g) \\Rightarrow \\frac{B H}{B C}=\\frac{B I}{B E} \\Rightarrow B H \\cdot B E=B C \\cdot B I)%(1)<br>Ta có: %(\\triangle C H I \\sim\\triangle C B F(g, g) \\Rightarrow \\frac{C H}{C B}=\\frac{C I}{C F} \\Rightarrow C H . C F=B C . C I)%(2)<br>Từ (1) và (2) suy ra %(B H \\cdot B E+C H \\cdot C F=B C(B I+C I)=B C^{2})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a83abeda4c3a3d9be8527002326ee149.png\" srcset=\"https://docdn.giainhanh.io/media/test/44d802a7c43edbac18fef8306d413695.png 184w, https://docdn.giainhanh.io/media/test/08f593173661f90eb015152c643d95a5.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Goi %(K)% là điểm đối xứng với %(H)% qua %(B C)%. Chứng minh rằng %(K \\in(O))%.",
+        "question_images": [],
+        "solution": "Goi %(K)% là điểm đối xứng của %(H)% qua %(B C)%<br>suy ra %(\\widehat{H C B}=\\widehat{K C B})%<br>Mà %(\\widehat{F A I}=\\widehat{H C I})% (do tứ giác AFIC nội tiếp)<br>%(\\Rightarrow \\widehat{F A I}=\\widehat{B C K} \\text { hay } \\widehat{B A K}=\\widehat{B C K})%<br>%(\\Rightarrow)% tứ giác %(B A C K)% nội tiếp đường tròn %((O)\\Rightarrow K \\in(O))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.5,
+        "content": "Cho tam giác %(A B C)% nội tiếp đường tròn tâm %(O)%, một điểm %(I)% chuyển động trên cung %(B C)% không chứa điểm %(A)% ( %(I)% không trùng với %(B)% và %(C)% ). Đường thẳng vuông góc với %(I B)% tại %(I)% cắt đường thẳng %(A C)% tại %(E)%, đường thẳng vuông góc với %(I C)% tại %(I)% cắt đường thẳng %(A B)% tại %(F)%. Chứng minh rằng đường thẳng EF luôn đi qua một điểm cố định.",
+        "question_images": [],
+        "solution": "+ Khi %(\\widehat{B A C}=90^{\\circ} \\Rightarrow \\widehat{B I C}=90^{\\circ})%.<br>%(\\Rightarrow F)% trùng với %(B, E)% trùng với %(C)% lúc đó EF là đường kính.<br>%(\\Rightarrow \\mathrm{EF})% đi qua điểm %(O)% cố định.<br>+ Khi %(\\widehat{B A C}\\lt 90^{\\circ} \\Rightarrow \\widehat{B I C}\\gt 90^{\\circ})%.<br>Gọi %(K)% là điểm đối xứng của %(I)% qua EF .<br>\\[\\begin{array}{l}\\Rightarrow \\widehat{E I F}=\\widehat{E A F} \\text { (cùng bù } \\widehat{B I C} \\text { ) } \\\\widehat{E K F}=\\widehat{E I F} \\text { (Do } I \\text { và } K \\text { đối xứng qua } E F \\text { ) } \\\\Rightarrow \\widehat{E K F}=\\widehat{E A F} \\\\Rightarrow A K F E \\text { nội tiếp } \\\\Rightarrow \\widehat{K A B}=\\widehat{K E F} \\text { (cung chắn } \\overparen{K F} \\text { ) (1) } \\\\widehat{\\mathbb{E F}}=\\widehat{K E F} \\text { (Do } I \\text { và } K \\text { đối xứng qua } E F \\text { ) (2) } \\\\widehat{\\mathbb{E F}}=\\widehat{B I K} \\text { (cùng phu } \\widehat{K I E} \\text { ) (3) }\\end{array}\\]<br>Từ (1), (2), (3) %(\\Rightarrow \\widehat{K A B}=\\widehat{B I K})%<br>%(\\Rightarrow A K B I)% là tứ giác nội tiếp<br>%(\\Rightarrow K \\in(O))%Mà EF là đường trung trực của %(K I \\Rightarrow E, O, F)% thẳng hàng.<br>+ Khi %(\\widehat{B A C}\\gt 90^{\\circ} \\Rightarrow \\widehat{B I C}\\lt 90^{\\circ})% chứng minh tương tự.<br>Vậy đường thẳng %(E F)% luôn đi qua điểm %(O)% cố định.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d47ae2c1dd22aaf3098ce2cb02df4876.png\" srcset=\"https://docdn.giainhanh.io/media/test/fd41ddb331d07ff7d642a45b20011d95.png 190w, https://docdn.giainhanh.io/media/test/08259ab6275e9033b4f97d53a8e78ff9.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

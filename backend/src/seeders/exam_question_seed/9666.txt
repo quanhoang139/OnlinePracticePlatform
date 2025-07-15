@@ -1,0 +1,105 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Thực hiện phép tính: %(A=\\frac{\\left(\\frac{2}{5}\\right)^{7} \\cdot 5^{7}+\\left(\\frac{9}{4}\\right)^{3}:\\left(\\frac{3}{16}\\right)^{3}}{2^{7} \\cdot 5^{2}+512})%.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}A=\\frac{\\left(\\frac{2}{5}\\right)^{7} \\cdot 5^{7}+\\left(\\frac{9}{4}\\right)^{3}:\\left(\\frac{3}{16}\\right)^{3}}{2^{7} \\cdot 5^{2}+512}=\\frac{\\frac{2^{7}}{5^{7}} \\cdot 5^{7}+\\frac{9^{3}}{4^{3}}: \\frac{3^{3}}{16^{3}}}{2^{7} \\cdot 5^{2}+2^{9}} \\A=\\frac{2^{7}+\\frac{3^{6}}{2^{6}} \\cdot \\frac{2^{12}}{3^{3}}}{2^{7} \\cdot\\left(5^{2}+2^{2}\\right)}=\\frac{2^{7}+3^{3} \\cdot 2^{6}}{2^{7} \\cdot(25+4)}=\\frac{2^{6} \\cdot\\left(2+3^{3}\\right)}{2^{7} \\cdot 29}=\\frac{2^{6} \\cdot 29}{2^{7} \\cdot 29}=\\frac{1}{2} .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Cho %(\\frac{x+16}{9}=\\frac{y-25}{16}=\\frac{z+9}{25})% và %(2 x^{3}-5=11)%. Tính %(B=x-y+z+2021)%.",
+        "question_images": [],
+        "solution": "Ta có: %(2 x^{3}-5=11 \\Rightarrow 2 x^{3}=16 \\Rightarrow x^{3}=8 \\Rightarrow x=2)%.<br>Khi đó: %(\\frac{x+16}{9}=\\frac{2+16}{9}=\\frac{18}{9}=2)%.<br>Theo tính chất của dãy tỉ số bằng nhau, ta có: %(\\frac{x+16}{9}=\\frac{y-25}{16}=\\frac{z+9}{25}=\\frac{x+16-y+25+z+9}{9-16+25})%<br>%(\\Rightarrow \\frac{x-y+z+50}{18}=2 \\Rightarrow x-y+z+50=36 \\Rightarrow x-y+z=-14 \\Rightarrow x-y+z+2021=2007)%.<br>Vậy %(x-y+z+2021=2007)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Cho biểu thức %(M=\\frac{x}{x+y+z}+\\frac{y}{x+y+t}+\\frac{z}{y+z+t}+\\frac{t}{x+z+t})% với %(x, y, z, t)% là các số tự nhiên khác 0 . Chứng minh %(M^{10}\\lt 1025)%.",
+        "question_images": [],
+        "solution": "Với %(x, y, z, t)% là các số tư nhiên.<br>Ta có:<br>%(\\frac{x}{x+y+z}\\lt \\frac{x}{x+y})% và %(\\frac{y}{x+y+t}\\lt \\frac{y}{x+y} \\Rightarrow \\frac{x}{x+y+z}+\\frac{y}{x+y+t}\\lt \\frac{x}{x+y}+\\frac{y}{x+y}=\\frac{x+y}{x+y}=1)%<br>%(\\frac{z}{y+z+t}\\lt \\frac{z}{z+t})% và %(\\frac{t}{x+z+t}\\lt \\frac{t}{z+t} \\Rightarrow \\frac{z}{y+z+t}+\\frac{t}{x+z+t}\\lt \\frac{z}{z+t}+\\frac{t}{z+t}=\\frac{z+t}{z+t}=1)% (2).<br>Từ (1) và (2) suy ra %(M=\\frac{x}{x+y+z}+\\frac{y}{x+y+t}+\\frac{z}{y+z+t}+\\frac{t}{x+z+t}\\lt 1+1=2)%<br>%(\\Rightarrow M^{10}\\lt 2^{10} \\Rightarrow M^{10}\\lt 1024)%, mà %(1024\\lt 1025)%. Vây %(M^{10}\\lt 1025)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tìm %(x)%, biết: %(\\frac{2}{2.3}+\\frac{2}{3.4}+\\frac{2}{4.5}+\\cdots+\\frac{2}{x(x+1)}=\\frac{2013}{2015})%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Ta có } \\frac{2}{2.3}+\\frac{2}{3 \\cdot 4}+\\frac{2}{4.5}+\\cdots+\\frac{2}{x(x+1)}=\\frac{2013}{2015} \\\\Rightarrow 2 \\cdot\\left(\\frac{1}{2.3}+\\frac{1}{3 \\cdot 4}+\\frac{1}{4.5}+\\cdots+\\frac{1}{x(x+1)}\\right)=\\frac{2013}{2015} \\\\Rightarrow 2 \\cdot\\left(\\frac{1}{2}-\\frac{1}{3}+\\frac{1}{3}-\\frac{1}{4}+\\frac{1}{4}-\\frac{1}{5}+\\cdots+\\frac{1}{x}-\\frac{1}{x+1}\\right)=\\frac{2013}{2015} \\\\Rightarrow 2 \\cdot\\left(\\frac{1}{2}-\\frac{1}{x+1}\\right)=\\frac{2013}{2015} \\Rightarrow 1-\\frac{2}{x+1}=\\frac{2013}{2015} \\\\Rightarrow \\frac{2}{x+1}=1-\\frac{2013}{2015} \\Rightarrow \\frac{2}{x+1}=\\frac{2}{2015} \\\\Rightarrow x+1=2015 \\Rightarrow x=2014 .\\end{array}\\]<br>Vậy %(x=2014)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho %(x, y, z \\neq 0)% và %(x-y-z=0)%. Tính giá trị biểu thức %(P=\\left(1-\\frac{z}{x}\\right)\\left(1-\\frac{x}{y}\\right)\\left(1+\\frac{y}{z}\\right))%.",
+        "question_images": [],
+        "solution": "Với %(x, y, z \\neq 0)%. Ta có: %(P=\\left(1-\\frac{z}{x}\\right)\\left(1-\\frac{x}{y}\\right)\\left(1+\\frac{y}{z}\\right)=\\frac{x-z}{x} \\cdot \\frac{y-x}{y} \\cdot \\frac{z+y}{z})%.<br>Mà %(x-y-z=0 \\Rightarrow\\left\\{\\begin{array}{l}x-z=y \\\\ y-x=-z \\\\ z+y=x\\end{array} \\Rightarrow P=\\frac{y}{x} \\cdot \\frac{-z}{y} \\cdot \\frac{x}{z}=\\frac{-x y z}{x y z}=-1\\right.)%.<br>Vậy %(P=-1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Tìm số tự nhiên %(n)% để phân số %(\\frac{7 n-8}{2 n-3})% có giá trị lớn nhất.",
+        "question_images": [],
+        "solution": "Gọi %(C=\\frac{7 n-8}{2 n-3})%. Ta có: %(2 C=\\frac{14 n-16}{2 n-3}=\\frac{(14 n-21)+5}{2 n-3}=\\frac{7(2 n-3)+5}{2 n-3}=7+\\frac{5}{2 n-3})%.<br>Do đó: %(C)% lớn nhất %(\\Leftrightarrow 2 C)% lớn nhất %(\\Leftrightarrow \\frac{5}{2 n-3})% lớn nhất %(\\Leftrightarrow 2 n-3)% là số dương nhỏ nhất.<br>Mà %(n)% là số tự nhiên %(\\Rightarrow 2 n-3)% là số tự nhiên nhỏ nhất %(\\Rightarrow 2 n-3=1 \\Rightarrow 2 n=4 \\Rightarrow n=2)%.<br>Vậy với %(n=2)% thì phân số %(\\frac{7 n-8}{2 n-3})% có giá trị lớn nhất.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Tìm một số chính phương có 4 chữ số biết rằng 2 chữ số đầu giống nhau, 2 chữ số cuối giống nhau.",
+        "question_images": [],
+        "solution": "Gọi số chính phương phải tìm là %(k^{2}=\\overline{a a b b}\\left(k \\in N^{*} ; a, b \\in \\mathbb{N} ; 0\\lt a \\leq 9 ; b \\leq 9\\right))%.<br>Ta có: %(k^{2}=1000 a+100 a+10 b+b=1100 a+11 b=11 .(100 a+b))%.<br>%(\\Rightarrow 100 a+b)% chia hết cho %(11 \\Rightarrow 99 a+(a+b))% chia hết cho %(11 \\Rightarrow a+b)% chia hết cho 11 .<br>Mà %(1 \\leq a+b \\leq 18 \\Rightarrow a+b=11 \\Rightarrow k^{2}=11(99 a+11)=11^{2} .(9 a+1))%<br>%(\\Rightarrow 9 a+1)% là số chính phương %(\\Rightarrow a=7 \\Rightarrow b=4)%.<br>Vậy số tự nhiên phải tìm là 7744 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 3.0,
+        "content": "Tìm các số nguyên dương %(n)% và các số nguyên tố %(p)% sao cho %(p=\\frac{n(n+1)}{2}-1)%.",
+        "question_images": [],
+        "solution": "Ta có: %(p=\\frac{n(n+1)}{2}-1=\\frac{n^{2}+n-2}{2}=\\frac{\\left(n^{2}-n\\right)+(2 n-2)}{2}=\\frac{n(n-1)+2(n-1)}{2}=\\frac{(n-1)(n+2)}{2})%.<br>Với %(n)% là số tự nhiên thì %(n-1)% và %(n+2)% không cùng tính chẵn, lẻ<br>%(\\Rightarrow n-1)% hoăc %(n+2)% chia hết cho 2 .<br>- Trường hợp 1: %(n-1)% chia hết cho %(2 \\Rightarrow n-1=2 x\\left(x \\in \\mathbb{N}^{*}\\right))%<br>%(\\Rightarrow n=2 x+1 \\Rightarrow n+2=2 x+3 \\Rightarrow p=x(2 x+3))%, mà %(p)% là số nguyên tố và%(x\\lt 2 x+3 \\Rightarrow x=1 \\Rightarrow\\left\\{\\begin{array}{l}p=5 \\\\ n=3\\end{array}\\right.)% (thỏa mãn).<br>- Trường hợp 2: %(n+2)% chia hết cho %(2 \\Rightarrow n+2=2 y\\left(y \\in \\mathbb{N}^{*}\\right))%<br>%(\\Rightarrow n=2 y-2 \\Rightarrow n-1=2 y-3 \\Rightarrow p=y(2 y-3))%, mà %(p)% là số nguyên tố %(\\Rightarrow y=1)% hoặc %(2 y-3=1)%.<br>+ Nếu %(y=1 \\Rightarrow n=0 n-1\\lt 0 \\Rightarrow p\\lt 0)% (loại).<br>+ Nếu %(2 y-3=1 \\Rightarrow 2 y=4 \\Rightarrow y=2 \\Rightarrow\\left\\{\\begin{array}{l}p=2 \\\\ n=2\\end{array}\\right.)% (thỏa mãn).<br>Vậy %((n ; p) \\in\\{(3 ; 5) ;(2 ; 2)\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "9",
+        "group_content": "Cho %(\\triangle A B C)% có góc %(A)% nhỏ hợn %(90^{\\circ})%. Trên nửa mặt phẳng bờ %(A B)% không chứa điểm %(C)% vẽ đoạn thẳng %(A M)% sao cho %(A M \\perp A B)% và %(A M=A B)%. Trên nửa mặt phẳng bờ %(A C)% không chứa điểm %(B)% vẽ đoạn thẳng %(A N)% sao cho %(A N)% vuông góc với %(A C)% và %(A N=A C)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh: %(\\triangle A M C=\\triangle A B N)%.",
+        "question_images": [],
+        "solution": "Vì %(A M \\perp A B)% và %(A N \\perp A C \\Rightarrow \\widehat{M A C}=\\widehat{B A N})% (cùng bằng %(90^{\\circ}+\\widehat{B A C})% ).<br>Xét %(\\triangle A M C)% và %(\\triangle A B N)% có:<br>%(A M=A B)% (gt);<br>%(A N=A C)% (gt);<br>%(\\widehat{M A C}=\\widehat{B A N})%<br>%(\\Rightarrow \\triangle A M C=\\triangle A B N)% (cạnh-góc-cạnh).<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/bdaa476fa4dfc142618821579e30d850.png\" srcset=\"https://docdn.giainhanh.io/media/test/b78ab5f122bf67b7c97bc331a6622a42.png 183w\" width=\"183\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Chứng minh: %(B N \\perp C M)%.",
+        "question_images": [],
+        "solution": "Gọi %(D)% và %(E)% lần lượt là giao điểm của %(M C)% với %(A B)% và %(B N)%.<br>\\[\\begin{array}{l}\\triangle A M C=\\triangle A B N \\Rightarrow \\widehat{A M C}=\\widehat{A B N} \\text { hay } \\widehat{A M D}=\\widehat{E B D}, \\text { mà } \\widehat{A D M}=\\widehat{E D B} \\text { (dối đỉnh) } \\\\Rightarrow \\widehat{A M D}+\\widehat{A D M}=\\widehat{E B D}+\\widehat{E D B} .\\end{array}\\]<br>%(\\triangle A D M)% vuông tại %(A \\Rightarrow \\widehat{A M D}+\\widehat{A D M}=90^{\\circ} \\Rightarrow \\widehat{E B D}+\\widehat{E D B}=90^{\\circ} \\Rightarrow \\widehat{D E B}=90^{\\circ})%.<br>Vậy %(B N \\perp C M)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Kẻ %(A H \\perp B C(H \\in B C))%. Chứng minh %(A H)% đi qua trung điểm của %(M N)%.",
+        "question_images": [],
+        "solution": "Kẻ %(M K \\perp A H)% tại %(K ; N G \\perp A H)% tại %(G)%.<br>Gọi %(I)% là giao điêm của %(M N)% và %(A H)%.<br>%(\\triangle A K M)% vuông tại %(K \\Rightarrow \\widehat{A M K}+\\widehat{M A K}=90^{\\circ})%.<br>\\[\\widehat{M A B}=90^{\\circ} \\Rightarrow \\widehat{B A H}+\\widehat{M A K}=90^{\\circ} \\Rightarrow \\widehat{A M K}=\\widehat{B A H} \\text {. }\\]<br>Xét %(\\triangle A M K)% vuông tại %(K)% và %(\\triangle B A H)% vuông tại %(H)% có:<br>%(A M=A B)% (gt);<br>%(\\widehat{A M K}=\\widehat{B A H})%<br>%(\\Rightarrow \\triangle A M K=\\triangle B A H)% (cạnh huyền-góc nhọn)<br>%(\\Rightarrow M K=A H)% (3).<br>Chứng minh tương tự: %(\\triangle A N G=\\triangle C A H \\Rightarrow N G=A H)% (4).<br>Từ (3) và %((4) \\Rightarrow M K=N G)%.<br>Do %(M K \\perp A H ; N G \\perp A H \\Rightarrow M K / / N G \\Rightarrow \\widehat{I M K}=\\widehat{I N G})% (so le trong).<br>Xét %(\\triangle I M K)% vuông tại %(K)% và %(\\triangle I N G)% vuông tại %(G)% có: %(M K=N G ; \\widehat{I M K}=\\widehat{I N G})%%(\\Rightarrow \\triangle I M K=\\triangle I N G)% (cạnh góc vuông - góc nhọn kề)<br>%(\\Rightarrow I M=I N)%.<br>Vậy %(A H)% đi qua trung điểm của %(M N)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "10 ",
+        "point": 2.0,
+        "content": "Cho các số thực dương %(a)% và %(b)% thòa mãn %(a^{100}+b^{100}=a^{101}+b^{101}=a^{102}+b^{102})%. Hãy tính giá trị của biểu thức %(P=a^{2014}+b^{2015})%.",
+        "question_images": [],
+        "solution": "Ta có: %(a^{100}+b^{100}=a^{101}+b^{101} \\Rightarrow a^{100}-a^{101}=b^{101}-b^{100} \\Rightarrow a^{100}(1-a)=b^{100}(b-1)(5))%.Lại có: %(a^{101}+b^{101}=a^{102}+b^{102} \\Rightarrow a^{101}-a^{102}=b^{102}-b^{101} \\Rightarrow a^{101}(1-a)=b^{101}(b-1)(6))%.Từ %((5))% và %((6) \\Rightarrow a^{101}(1-a)=a \\cdot a^{100}(1-a)=a b^{100}(b-1) \\Rightarrow a b^{100}(b-1)=b^{101}(b-1))% %(\\Rightarrow a b^{100}(b-1)-b^{101}(b-1)=0 \\Rightarrow b^{100}(b-1)(a-b)=0)%.<br>Mà %(b)% là các số thực dương %(\\Rightarrow\\left[\\begin{array}{l}b-1=0 \\\\ a-b=0\\end{array} \\Rightarrow\\left[\\begin{array}{l}b=1 \\\\ a=b\\end{array}\\right.\\right.)%.<br>- Trường hợp 1: Nếu %(b=1 \\Rightarrow b-1=0 \\Rightarrow a^{100}(1-a)=0 \\Rightarrow 1-a=0)% (vì %(a\\gt 0)% ) %(\\Rightarrow a=1)%.<br>- Trường hợp 2: Nếu %(a=b \\Rightarrow 2 a^{100}=2 a^{101} \\Rightarrow a^{100}=a^{101} \\Rightarrow a=1)% (vì %(a>0)% ) Do đó: %(a=b=1)%. Vây %(P=1+1=2)%.",
+        "question_type": "essay"
+    }
+]

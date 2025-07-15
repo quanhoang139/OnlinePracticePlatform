@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Cho biểu thúc %(P=\\frac{x^{2}-\\sqrt{x}}{x+\\sqrt{x}+1}-\\frac{4 x+3 \\sqrt{x}}{\\sqrt{x}}+\\frac{4(x-1)}{\\sqrt{x}-1})%<br>Rút gon %(P)%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(\\left\\{\\begin{array}{l}x\\gt 0 \\\\ x \\neq 1\\end{array}\\right.)%<br>Ta có %(P=\\frac{\\sqrt{x}\\left[(\\sqrt{x})^{3}-1\\right]}{x+\\sqrt{x}+1}-(4 \\sqrt{x}+3)+\\frac{4(\\sqrt{x}-1)(\\sqrt{x}+1)}{\\sqrt{x}-1})%<br>%(=\\frac{\\sqrt{x}(\\sqrt{x}-1)(x+\\sqrt{x}+1)}{x+\\sqrt{x}+1}-(4 \\sqrt{x}+3)+4(\\sqrt{x}+1)=\\sqrt{x}(\\sqrt{x}-1)+1)%<br>Vậy %(P=x-\\sqrt{x}+1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho %(Q=\\frac{2 \\sqrt{x}}{P})%. Chúng minh rằng %(0\\lt Q\\lt 2)%",
+        "question_images": [],
+        "solution": "Ta có %(Q=\\frac{2 \\sqrt{x}}{x-\\sqrt{x}+1})%<br>Vì %(P=x-\\sqrt{x}+1=\\left(\\sqrt{x}-\\frac{1}{2}\\right)^{2}+\\frac{3}{4} \\geq \\frac{3}{4})% và %(2 \\sqrt{x}\\gt 0)% nên %(Q>0)%<br>Ta có %(Q=\\frac{2}{\\sqrt{x}+\\frac{1}{\\sqrt{x}}-1})%. Do %(\\sqrt{x}+\\frac{1}{\\sqrt{x}} \\geq 2 \\sqrt{\\sqrt{x} \\cdot \\frac{1}{\\sqrt{x}}}=2)%, dấu \"=\" xảy ra khi %(\\sqrt{x}=\\frac{1}{\\sqrt{x}} \\Leftrightarrow x=1)% không thỏa mãn diều kiện nên ta có %(\\sqrt{x}+\\frac{1}{\\sqrt{x}}>2)%. Suy ra %(Q\\lt 2)%<br>Vậy %(0\\lt Q\\lt 2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải hệ phuơng trình: %(\\left\\{\\begin{array}{l}x^{2}+y^{2}=5 \\\\ 3(x+y)+4 x y+5=0\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Phương trình tương đương: %(\\left\\{\\begin{array}{l}(x+y)^{2}-2 x y=5 \\\\ 3(x+y)+4 x y+5=0\\end{array}\\right.)%<br>Đặt %(S=x+y, P=x y)%. Ta được hệ: %(\\left\\{\\begin{array}{l}S^{2}-2 P=5 \\\\ 3 S+4 P=-5\\end{array}\\right.)%<br>\\[\\Leftrightarrow\\left\\{\\begin{array} { l } { 2 S ^ { 2 } + 3 S - 5 = 0 } \\\\{ P = \\frac { - 5 - 3 S } { 4 } }\\end{array} \\Rightarrow \\left[\\begin{array}{l}\\left\\{\\begin{array}{l}S=1 \\P=-2\\end{array}\\right. \\\\left\\{\\begin{array}{l}S=-\\frac{5}{2} \\P=\\frac{5}{8}\\end{array}\\right.\\end{array}\\right.\\right.\\]<br>Với %(\\left\\{\\begin{array}{l}S=1 \\\\ P=-2\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}x+y=1 \\\\ x y=-2\\end{array}\\right.\\right.)%, khi đó %(x, y)% là các nghiệm của phương trình:<br>%(X^{2}-X-2=0 \\Leftrightarrow\\left\\{\\begin{array}{l}X=-1 \\\\ X=2\\end{array}\\right.)%. Suy ra %(\\left\\{\\begin{array}{l}x=-1 \\\\ y=2\\end{array}\\right.)% hoặc %(\\left\\{\\begin{array}{l}x=2 \\\\ y=-1\\end{array}\\right.)%<br>Với %(\\left\\{\\begin{array}{l}S=-\\frac{5}{2} \\\\ P=\\frac{5}{8}\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}x+y=-\\frac{5}{2} \\\\ x y=\\frac{5}{8}\\end{array}\\right.\\right.)%, khi đó %(x, y)% là các nghiệm của phương trình: %(X^{2}+\\frac{5}{2} X+\\frac{5}{8}=0 \\Leftrightarrow 8 X^{2}+20 X+5=0 \\Leftrightarrow X=\\frac{-5 \\pm \\sqrt{15}}{4})%.<br>Suy ra %(\\left\\{\\begin{array}{l}x=\\frac{-5+\\sqrt{15}}{4} \\\\ y=\\frac{-5-\\sqrt{15}}{4}\\end{array}\\right.)% hoặc %(\\left\\{\\begin{array}{l}x=\\frac{-5-\\sqrt{15}}{4} \\\\ y=\\frac{-5+\\sqrt{15}}{4}\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giäi phuơng trình: %(\\left(x^{2}+3 x+2\\right)\\left(x^{2}+7 x+12\\right)=24)%",
+        "question_images": [],
+        "solution": "Phương trình tương dương với:<br>\\[(x+1)(x+4)(x+2)(x+3)=24 \\Leftrightarrow\\left(x^{2}+5 x+4\\right)\\left(x^{2}+5 x+6\\right)=24\\]<br>Đặt %(x^{2}+5 x+5=t)%, ta được phương trình<br>\\[(t-1)(t+1)=24 \\Leftrightarrow t^{2}-1=24 \\Leftrightarrow t^{2}=25 \\Leftrightarrow t= \\pm 5\\]<br>Với %(t=5 \\Rightarrow x^{2}+5 x+5=5 \\Leftrightarrow x^{2}+5 x=0 \\Leftrightarrow x(x+5)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\\\ x=-5\\end{array}\\right.)%Vói %(t=-5 \\Rightarrow x^{2}+5 x+5=-5 \\Leftrightarrow x^{2}+5 x+10=0)%, phương trình vô nghiêm.<br>Vậy phương trình đã cho có các nghiệm %(x=0, x=-5)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Trong mặt phắng tọa độ Oxy cho parabol %((P))% có phuơng trình %(y=-x^{2})% và đuờng thắng (d) đi qua %(I(0 ;-1))% và có hệ số góc %(k)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chúng minh rằng với mọi giá trị của %(k)% duờng thẳng %((d))% luôn cắt %((P))% tại hai điểm phân biệt %(A, B)%.",
+        "question_images": [],
+        "solution": "Phương trình hoành độ giao điếm của %((d))% và %((P))% :<br>\\[-x^{2}=k x-1 \\Leftrightarrow x^{2}+k x-1=0 \\text { (1). }\\]<br>Vì phương trình (1) có %(a . c\\lt 0)% nên (1) luôn có hai nghiệm phân biệt trái dấu.<br>Do đó,(d) luôn cắt %((P))% tại 2 diểm phân biệt %(A, B)%.<br><img alt=\"Ảnh chụp màn hình 2024-03-23 194531.png\" src=\"https://docdn.giainhanh.io/media/test/c4717c532523302a015b8d4e61c20a1c.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chúng minh %(O A B)% là tam giác vuông.",
+        "question_images": [],
+        "solution": "Gọi %(x_{1}, x_{2})% lần lượt là hoành độ của %(\\boldsymbol{A})% và %(\\boldsymbol{B})%. Khi đó, %(x_{1}, x_{2})% là các nghiệm của (1).<br>Theo định lí Viet, ta có: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=-k \\\\ x_{1} x_{2}=-1\\end{array}\\right.)%Tọa độ các điềm %(\\boldsymbol{A}, \\boldsymbol{B}: A\\left(x_{1} ; k x_{1}-1\\right), B\\left(x_{2} ; k x_{2}-1\\right))%<br>Ta có %(O A^{2}=x_{1}^{2}+\\left(k x_{1}-1\\right)^{2} ; O B^{2}=x_{2}^{2}+\\left(k x_{2}-1\\right)^{2})% nên<br>\\[\\begin{array}{l}O A^{2}+O B^{2}=x_{1}^{2}+\\left(k x_{1}-1\\right)^{2}+x_{2}^{2}+\\left(k x_{2}-1\\right)^{2}=\\left(k^{2}+1\\right)\\left(x_{1}^{2}+x_{2}^{2}\\right)-2 k\\left(x_{1}+x_{2}\\right)+2 \\\\=\\left(k^{2}+1\\right)\\left[\\left(x_{1}+x_{2}\\right)^{2}-2 x_{1} \\cdot x_{2}\\right]-2 k\\left(x_{1}+x_{2}\\right)+2=\\left(k^{2}+1\\right)\\left[k^{2}+2\\right]+2 k^{2}+2 \\\\=\\left(k^{2}+1\\right)\\left(k^{2}+4\\right)\\end{array}\\]<br>Ta có %(A B^{2}=\\left(x_{2}-x_{1}\\right)^{2}+\\left[\\left(k x_{2}-1\\right)-\\left(k x_{1}-1\\right)\\right]^{2}=\\left(x_{2}-x_{1}\\right)^{2}+k^{2}\\left(x_{2}-x_{1}\\right)^{2})%<br>\\[=\\left(k^{2}+1\\right)\\left(x_{2}-x_{1}\\right)^{2}=\\left(k^{2}+1\\right)\\left[\\left(x_{2}+x_{1}\\right)^{2}-4 x_{2} x_{1}\\right]=\\left(k^{2}+1\\right)\\left(k^{2}+4\\right)\\]<br>Vì %(A B^{2}=O A^{2}+O B^{2})% nên tam giác %(O A B)% vuông tại %(O)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho nủa đuờng tròn đuờng kính %(A B=2 R)% ( %(R)% là số duơng cho truớc), goi %(O)% là trung điếm của %(A B)%. Tiếp tuyến với đuờng tròn tại một diểm %(P)% thuộc nủa đuờng tròn (P không trùng với %(A, B))% cắt hai tiếp tuyến %(A x)%, By của nủa đuò̀ng tròn theo thứ tụ tại các điểm %(M, N)%. Gọi K là giao điểm của %(O M)% với %(A P, H)% là giao điểm của %(O N)% và %(P B)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chúng minh rằng AMPO là tú giác nội tiếp và OHPK là hình chũ nhật.",
+        "question_images": [],
+        "solution": "Vì %(M A, M P)% là các tiếp tuyến với nứa đường tròn nên %(M A \\perp A O, M P \\perp P O)%, suy ra tứ giác %(A M P O)% nôi tiếp đường tròn đường kính %(M O)%.<br>Vi %(M A=M P)% (tính chất 2 tiếp tuyến đi qua %(M)% ) và %(O P=O A=R)% nên suy ra %(M O)% là đường trung trực của %(A P \\Rightarrow A P \\perp M O \\Rightarrow O K P=90^{\\circ})%.<br>Tương tự %(O H P=90^{\\circ})%.<br>Ta có %(A P B=90^{\\circ})% (góc nội tiếp chắn nửa đường tròn).<br>Tứ giác %(O H P K)% có 3 góc vuông nên là hình chữ nhật.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh: %(A M . B N=R^{2})%. Xác định vị trí của %(P)% để %(A M+B N)% đạt giá trị nhỏ nhất.",
+        "question_images": [],
+        "solution": "Vì %(O H P K)% là hình chữ nhật nên %(K O H=90^{\\circ})%. Ta có tam giác %(M O N)% vuông tại %(O, O P)% là dường cao nên %(P M . P N=O P^{2}=R^{2})%<br>Nhưng %(M P=M A, N P=N B)% nên ta suy ra %(A M \\cdot B N=R^{2})%<br>Theo BĐT CÔSI ta có %(M A+N B \\geq 2 \\sqrt{M A \\cdot N B}=2 \\sqrt{R^{2}}=2 R)% (không đổi).<br>Dấu \"=\" xảy ra khi %(M A=N B)% nên tổng %(M A+N B)% đạt giá trị nhỏ nhất bằng %(2 R)% khi %(M A=N B)%.<br>Khi đó tứ giác %(A M N B)% là hình chữ nhật.<br>Mặt khác %(O P \\perp M N)% nên %(O P \\perp A B)% khi đó %(\\boldsymbol{P})% là điểm chính giữa của nửa đường tròn.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Xác định vị trí của các điếm %(M)% trên %(A x)% và %(N)% trên By để chu vi hình thang %(A M N B)% bằng %(7 R)%.",
+        "question_images": [],
+        "solution": "Ta có chu vi %(p)% của hình thang %(A M N B)% bằng:<br>\\[p=A M+M N+N B+B A=A M+M P+P N+N B+A B \\Rightarrow p=2(A M+N B)+2 R\\]<br>Theo chứng minh trên ta có %(A M \\cdot B N=R^{2})% và theo giả thiết %(p=7 R)% nên ta có hệ phương trình:<br>\\[\\left\\{\\begin{array} { l } { 2 ( A M + N B ) + 2 R = 7 R } \\\\{ A M \\cdot N B = R ^ { 2 } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}A M+N B=\\frac{5 R}{2} \\A M \\cdot N B=R^{2}\\end{array}\\right.\\right.\\]<br>Suy ra %(A M, B N)% là các nghiệm của phương trình %(X^{2}-\\frac{5 R}{2} X+R^{2}=0 \\Leftrightarrow\\left\\{\\begin{array}{l}X=2 R \\\\ X=\\frac{1}{2} R\\end{array}\\right.)%<br>Do vậy các điểm %(M, N)% thỏa mãn yêu cầu của bài toán được xác định bởi %(\\left\\{\\begin{array}{l}A M=2 R \\\\ B N=\\frac{R}{2}\\end{array}\\right.)% hoặc %(\\left\\{\\begin{array}{l}B N=2 R \\\\ A M=\\frac{R}{2}\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Cho %(x, y)% là các số thưc duơng thỏa mãn điều kiện %(x+y=1)%. Chúng minh rằng:<br>\\[A=\\frac{1}{x^{2}+y^{2}}+\\frac{2}{x y}+4 x y \\geq 11\\]<br>Đắng thúc xảy ra khi nào?",
+        "question_images": [],
+        "solution": "Trước hết ta có bất đẳng thức %(\\frac{1}{a}+\\frac{1}{b} \\geq \\frac{4}{a+b}\\left({ }^{*}\\right))% với %(\\forall a, b\\gt 0)%. Dấu \"=\" xảy ra khi và chỉ khi %(a=b)%.<br>Thật vậy, BĐT (*) %(\\Leftrightarrow \\frac{a+b}{a b} \\geq \\frac{4}{a+b} \\Leftrightarrow(a+b)^{2} \\geq 4 a b \\Leftrightarrow(a-b)^{2} \\geq 0)% (đúng).<br>Dấu \"=\" của BĐT (*) xảy ra khi %(a-b=0 \\Leftrightarrow a=b)%<br>Vì %(x+y \\geq 2 \\sqrt{x y}, x+y=1)% nên ta có %(1 \\geq 4 x y \\Rightarrow \\frac{1}{x y} \\geq 4)% (**).<br>Dấu \"=\" xảy ra khi %(x=y=\\frac{1}{2})%Ta có %(A=\\left(\\frac{1}{x^{2}+y^{2}}+\\frac{1}{2 x y}\\right)+\\left(4 x y+\\frac{1}{4 x y}\\right)+\\frac{5}{4 x y})%<br>Áp dụng BĐT CÔSI, BĐT (*) và (**) ta được:<br>\\[\\begin{array}{l}A \\geq\\left(\\frac{4}{x^{2}+y^{2}+2 x y}\\right)+2 \\sqrt{4 x y \\cdot \\frac{1}{4 x y}}+\\frac{5}{4} \\cdot 4=\\frac{4}{(x+y)^{2}}+7=4+7=11 \\\\text { Dấu \"=\" xảy ra khi }\\left\\{\\begin{array}{l}x^{2}+y^{2}=2 x y \\\\4 x y=\\frac{1}{4 x y} \\x y=\\frac{1}{4} \\x+y=1\\end{array} \\Leftrightarrow x=y=\\frac{1}{2}\\right. \\\\end{array}\\]",
+        "question_type": "essay"
+    }
+]

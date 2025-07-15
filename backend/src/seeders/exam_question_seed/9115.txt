@@ -1,0 +1,89 @@
+[
+    {
+        "title": "Câu 1 ",
+        "point": 2.0,
+        "content": "Tìm %(m)% để phương trình %(x^{2}+(2 m+1) x+3 m-1=0)% có hai nghiệm %(x_{1} ; x_{2})% thỏa mãn %(x_{1}^{2}+x_{2}^{2}=5)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}=\\frac{1}{a} \\cdot\\left[\\frac{(\\sqrt{a-1})^{3}+1}{\\sqrt{(\\sqrt{a-1}+1)^{2}}}+\\frac{(\\sqrt{a-1})^{3}-1}{\\sqrt{(\\sqrt{a-1}-1)^{2}}}\\right] \\\\=\\frac{1}{a} \\cdot\\left[\\frac{(\\sqrt{a-1}+1)(a-1-\\sqrt{a-1}+1)}{\\sqrt{a-1}+1}+\\frac{(\\sqrt{a-1}-1)(a-1+\\sqrt{a-1}+1)}{\\sqrt{a-1}-1}\\right] \\\\=\\frac{1}{a} \\cdot(a-\\sqrt{a-1}+a+\\sqrt{a-1})=2(\\text { do } a\\gt 2 \\Rightarrow a-1>0 ; \\sqrt{a-1}-1>0) \\text {. } \\\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 2.0,
+        "content": "Cho số thực %(b)% thỏa mãn điều kiện đa thức %(P(x)=x^{2}+b x+2017)% có giá trị nhỏ nhất là một số thực dương. Chứng minh cả hai phương trình %(4 x^{2}-12 \\sqrt{10} x+b=0)% và %(4 x^{2}-12 \\sqrt{10} x-b=0)% đều có hai nghiệm phân biệt.",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}x^{2}-3 x \\sqrt{y}+3 \\sqrt{y}=1 \\\\ \\frac{16}{x}-3 \\sqrt{y}=5 \\quad(*)\\end{array}\\right.)% (ĐK: %(\\left.x \\neq 0, y \\geq 0\\right))%<br>Giải (1) %(\\Leftrightarrow\\left\\{\\begin{array}{l}x=1 \\\\ 3 \\sqrt{y}=11\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=1 \\\\ y=\\frac{121}{9}\\end{array}\\right.\\right.)% (TMĐK).<br>Giải (2) %(\\left\\{\\begin{array}{l}x=3 \\sqrt{y}-1 \\\\ \\frac{16}{3 \\sqrt{y}-1}-3 \\sqrt{y}=5\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=3 \\sqrt{y}-1 \\\\ 3 y+4 \\sqrt{y}-7=0\\end{array}\\right.\\right.)%<br>%(\\Leftrightarrow\\left\\{\\begin{array}{l}x=3 \\sqrt{y}-1 \\\\ (\\sqrt{y}-1)(3 \\sqrt{y}+7)=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=2 \\\\ y=1\\end{array}\\right.\\right.)% (TMĐK).<br>Vậy hệ phương trình có hai nghiệm %((x ; y)=\\left\\{\\left(1 ; \\frac{121}{9}\\right) ;(2 ; 1)\\right\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 2.0,
+        "content": "Tìm %(m)% để phương trình %(x^{2}+(2 m+1) x+3 m-1=0)% có hai nghiệm %(x_{1} ; x_{2})% thỏa mãn %(x_{1}^{2}+x_{2}^{2}=5)%.",
+        "question_images": [],
+        "solution": "Ta có %(\\Delta=(2 m+1)^{2}-4(3 m-1)=4(m-1)^{2}+1\\gt 0)% với mọi %(m)%.<br>Nên phương trình luôn có hai nghiệm phân biệt với mọi %(m)%.<br>Theo Viét, ta có: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=-(2 m+1) \\\\ x_{1} x_{2}=3 m-1\\end{array}\\right.)%.<br>Khi đó: %(x_{1}^{2}+x_{2}^{2}=5 \\Leftrightarrow\\left(x_{1}+x_{2}\\right)^{2}-2 x_{1} x_{2}=5)%.<br>\\[\\Leftrightarrow(2 m+1)^{2}-2(3 m-1)=5 \\Leftrightarrow 2 m^{2}-m-1=0 \\Leftrightarrow(m-1)(2 m+1)=0 \\Leftrightarrow\\left[\\begin{array}{l}m=1 \\m=\\frac{-1}{2}\\end{array}\\right.\\]<br>.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 2.0,
+        "content": "Cho số thực %(b)% thỏa mãn điều kiện đa thức %(P(x)=x^{2}+b x+2017)% có giá trị nhỏ nhất là một số thực dương. Chứng minh cả hai phương trình %(4 x^{2}-12 \\sqrt{10} x+b=0)% và %(4 x^{2}-12 \\sqrt{10} x-b=0)% đều có hai nghiệm phân biệt.",
+        "question_images": [],
+        "solution": "%(P(x)=x^{2}+b x+2017=\\left(x+\\frac{b}{2}\\right)^{2}+2017-\\frac{b^{2}}{4} \\geq 2017-\\frac{b^{2}}{4})%.<br>Do đó %(\\operatorname{Min} P(x)=2017-\\frac{b^{2}}{4})%.<br>Ta có: %(2017-\\frac{b^{2}}{4}>0 \\Leftrightarrow b^{2}\\lt 4.2017 \\Leftrightarrow-2 \\sqrt{2017}\\lt b\\lt 2 \\sqrt{2017})%.<br>Phương trình: %(4 x^{2}-12 \\sqrt{10} x+b=0)% có %(\\Delta_{1}{ }^{\\prime}=360-4 b)%<br>Phương trình : %(4 x^{2}-12 \\sqrt{10} x-b=0)% có %(\\Delta_{2}^{\\prime}=360+4 b)%.<br>Mà %(-2 \\sqrt{2017}\\lt b\\lt 2 \\sqrt{2017} \\Rightarrow\\left\\{\\begin{array}{l}360-8 \\sqrt{2017}\\lt 360-4 b\\lt 360+8 \\sqrt{2017} \\\\ 360-8 \\sqrt{2017}\\lt 360+4 b\\lt 360+8 \\sqrt{2017}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}\\Delta_{1}^{\\prime}>0 \\\\ \\Delta_{2}^{\\prime}>0\\end{array}\\right.\\right.)%<br>Vậy cả hai phương trình đã cho đều có hai nghiệm phân biệt.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 2.0,
+        "content": "Tìm các số nguyên %(x, y)% thỏa mãn %(1+2^{x}=y^{2})%.",
+        "question_images": [],
+        "solution": "%(1+2^{x}=y^{2} \\Leftrightarrow(y+1)(y-1)=2^{x} \\Rightarrow\\left\\{\\begin{array}{l}y+1=2^{m} \\\\ y-1=2^{n} \\\\ m+n=x\\end{array}\\right.)%<br>Từ (1) và (2) %(\\Rightarrow 2^{m}-2^{n}=2=2^{2}-2 \\Rightarrow m=2, n=1 \\Rightarrow x=3 ; y=3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6 ",
+        "point": 2.0,
+        "content": "Với mỗi số tự nhiên %(n)%, ta đặt %(M(n)=2^{n^{2}}+2^{4 n^{4}+1-n^{2}})%. Chứng minh rằng %(2^{M(n)}-8)% luôn chia hết cho 31 .",
+        "question_images": [],
+        "solution": "- Nếu %(n)% chẵn %(\\Rightarrow n^{2}: 4 \\Rightarrow n^{2}=4 t(t \\in \\mathbb{N}) \\Rightarrow 2^{n^{2}}=2^{4 t}=16^{t}=5 k_{1}+1\\left(k_{1} \\in \\mathbb{N}\\right))%.<br>Và %(4 n^{4}+1-n^{2}=4 p+1(p \\in \\mathbb{N}) \\Rightarrow 2^{4 n^{4}+1-n^{2}}=2^{4 p+1}=2.16^{p}=5 k_{2}+2\\left(k_{2} \\in \\mathbb{N}\\right))%.<br>Nên %(M(n)=5 k+3(k \\in \\mathbb{N}) \\Rightarrow 2^{M(n)}-8=2^{5 k+3}-8=8\\left(32^{k}-1\\right))% %(\\vdots 31)%   (1)<br>- Nếu %(n)% lè %(\\Rightarrow n^{2}=4 t+1(t \\in \\mathbb{N}) \\Rightarrow 2^{n^{2}}=2^{4 t+1}=2.16^{t}=5 k_{1}+2(k \\in \\mathbb{N}))%<br>Và %(4 n^{4}+1-n^{2}=4 p(p \\in \\mathbb{N}) \\Rightarrow 2^{4 n^{4}+1-n^{2}}=2^{4 p}=16^{p}=5 k_{2}+1(k \\in \\mathbb{N}))%<br>Nên %(M(n)=5 k+3(k \\in \\mathbb{N}) \\Rightarrow 2^{M(n)}-8=2^{5 k+3}-8=8\\left(32^{k}-1\\right): 31(2))%<br>Từ (1) và (2) suy ra %(2^{M(n)}-8)% luôn chia hết cho 31 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7",
+        "group_content": "Cho đường tròn %((O))% có tâm %(O)%. Dây %(A B)% cố định không phải đường kính. Gọi %(I)% là trung điểm của đoạn %(A B)%. Trên cung nhỏ %(A B)% lấy hai điểm %(C, E)% sao cho góc %(C I A)% và %(E I B)% là góc nhọn. %(C I)% cắt đường tròn %((O))% tại điểm %(D)% khác %(C)%. %(E I)% cắt đường tròn %((O))% tại điểm %(F)% khác %(E)%. Các tiếp tuyến với đường tròn %((O))% tại %(C)% và %(D)% cắt nhau tại %(M)%, các tiếp tuyến với đường tròn %((O))% tại %(E)% và %(F)% cắt nhau tại %(N)%. Nối %(O M)% cắt %(C D)% tại %(P)% và %(O N)% cắt %(E F)% tại %(Q)%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Tứ giác %(P Q N M)% nội tiếp.",
+        "question_images": [],
+        "solution": "Ta có: %(O C=O D)% (bán kính), %(M C=M D)%.<br>( %(M C, M D)% là 2 tiếp tuyến cắt nhau)<br>Suy ra: %(O M)% là trung trực của %(C D \\Rightarrow O M \\perp D P)%<br>Xét %(\\triangle O D M)% có:<br>%(\\widehat{O D M}=90^{\\circ}(M D)% là tiếp tuyến của %((O))% tại %(D))%,<br>%(O M \\perp D P(c m t))%%(\\Rightarrow O D^{2}=O P . O M)%<br>Chứng minh tương tự có: %(O F^{2}=O Q . O N(b))%.<br>Lại có: %(O D=O F)% (bán kính) (c)<br>Từ (a), (b), (c) suy ra:<br>\\[O P . O M=O Q . O N \\Rightarrow \\frac{O P}{O Q}=\\frac{O N}{O M}\\]<br>Xét %(\\triangle O P Q)% và %(\\triangle O N M)% có:<br>%(\\hat{O})% chung; %(\\frac{O P}{O Q}=\\frac{O N}{O M}(\\mathrm{cmt}))%.<br>%(\\Rightarrow \\triangle O P Q \\sim \\triangle O N M)% (c.g.c) nên %(\\widehat{O P Q}=\\widehat{O N M})%.<br>Vậy tứ giác %(P Q N M)% nội tiếp (đpcm).<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/51545a6d40da2754583874a9ff57aa0b.png\" srcset=\"https://docdn.giainhanh.io/media/test/5807995e86a68380be6165405512be05.png 111w, https://docdn.giainhanh.io/media/test/124e3e4cbb81f4ccef17e319cf655492.png 355w\" width=\"355\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) %(M N)% song song với %(A B)%.",
+        "question_images": [],
+        "solution": "Tứ giác %(O P I Q)% có : %(\\widehat{O P I}=\\widehat{O Q I}=90^{\\circ})% (theo câu a)<br>Vậy tứ giác %(O P I Q)% nội tiếp %(\\Rightarrow \\widehat{Q O I}=\\widehat{Q P I})% (góc nội tiếp cùng chắn cung %(Q I)% )<br>Lai có %(\\widehat{O N M}=\\widehat{O P Q}(\\mathrm{cmt}) \\Rightarrow \\widehat{Q O I}+\\widehat{O N M}=\\widehat{Q P I}+\\widehat{O P Q}=\\widehat{O P I}=90^{\\circ}()% doOM %(\\perp D P))%.<br>%(\\Rightarrow \\triangle O N T)% vuông tại %(T)% ( %(T)% là giao điểm của %(O I)% và %(M N)% ).<br>%(\\Rightarrow O I \\perp M N)%, mặt khác %(O I \\perp A B)% (vì %(\\left.L A=I B=\\frac{1}{2} A B(g t)\\right))%.<br>Vậy %(A B / / M N()% đpcm).",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8  ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C)% cân tại %(C)%, có góc ở đỉnh là %(36^{\\circ})%. Chứng minh: %(\\frac{A C}{A B}=\\frac{1+\\sqrt{5}}{2})%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\widehat{C A B}=\\widehat{C B A}=\\frac{180^{\\circ}-\\widehat{A C B}}{2}=\\frac{180^{\\circ}-36^{\\circ}}{2}=72^{\\circ})% (Vì tam giác %(A B C)% cân tại %(C)% ).<br>Kẻ phân giác %(B D)% của góc %(\\widehat{A B C} \\Rightarrow \\widehat{C B D}=\\widehat{A B D}=36^{\\circ})%.<br>Chứng minh được %(\\triangle B D C)% cân tại %(D, \\triangle A B D)% cân tại %(B)%.<br>Đặt %(A C=B C=x, A B=B D=C D=a(x\\gt 0, a>0))%.<br>Mặt khác %(B D)% là phân giác của %(\\triangle A B C)%.<br>Nên %(\\frac{C D}{B C}=\\frac{A D}{A B}=\\frac{C D+A D}{B C+A B}=\\frac{A C}{B C+A B})%<br>\\[\\Rightarrow \\frac{a}{x}=\\frac{x}{x+a} \\Rightarrow x^{2}-a x-a^{2}=0(*)\\]<br>Giải phương trình %(\\left({ }^{*}\\right))% ta được %(x=\\frac{1+\\sqrt{5}}{2} a)% (vì %(x\\gt 0)% )nên %(\\frac{A C}{A B}=\\frac{(1+\\sqrt{5}) a}{2}: a=\\frac{1+\\sqrt{5}}{2})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3648be20be6be88b38f60b902904fef1.png\" srcset=\"https://docdn.giainhanh.io/media/test/b58e37cba5f2c70039730d079aa8fb59.png 122w\" width=\"122\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 9 ",
+        "point": 2.0,
+        "content": "Cho hai số thực %(a, b)% thay đổi sao cho %(1 \\leq a \\leq 2 ; 1 \\leq b \\leq 2)%. Tìm giá trị lớn nhất của biểu thức %(A=\\left(a+b^{2}+\\frac{4}{a^{2}}+\\frac{2}{b}\\right)\\left(b+a^{2}+\\frac{4}{b^{2}}+\\frac{2}{a}\\right))%.",
+        "question_images": [],
+        "solution": "Áp dụng BĐT: %(x y \\leq \\frac{(x+y)^{2}}{4})%.<br>Ta có: %(A=\\left(a+b^{2}+\\frac{4}{a^{2}}+\\frac{2}{b}\\right)\\left(b+a^{2}+\\frac{4}{b^{2}}+\\frac{2}{a}\\right) \\leq \\frac{\\left(a+\\frac{2}{a}+b+\\frac{2}{b}+a^{2}+\\frac{4}{a^{2}}+b^{2}+\\frac{4}{b^{2}}\\right)}{4})%.<br>Đặt %(a+\\frac{2}{a}=x \\Rightarrow a^{2}+\\frac{4}{a^{2}}=x^{2}-4 ; b+\\frac{2}{b}=y \\Rightarrow b^{2}+\\frac{4}{b}=y^{2}-4)%.<br>Lại có: %(1 \\leq a \\leq 2 ; 1 \\leq b \\leq 2)% suy ra:<br>\\[(a-1)(a-2) \\leq 0 \\Rightarrow a^{2} \\leq 3 a-2 \\Rightarrow a+\\frac{2}{a}=\\frac{a^{2}+2}{a} \\leq \\frac{3 a-2+2}{a}=3 \\Rightarrow 0\\lt x \\leq 3\\]<br>\\[(b-1)(b-2) \\leq 0 \\Rightarrow b^{2} \\leq 3 b-2 \\Rightarrow b+\\frac{2}{b}=\\frac{b^{2}+2}{b} \\leq \\frac{3 b-2+2}{b}=3 \\Rightarrow 0\\lt y \\leq 3\\]<br>Nên %(A \\leq \\frac{\\left(x+y+x^{2}+y^{2}-8\\right)^{2}}{4} \\leq \\frac{(3+3+9+9-8)^{2}}{4}=64)%.<br>Đẳng thức xảy ra khi %(\\left\\{\\begin{array}{l}a+b^{2}+\\frac{4}{a^{2}}+\\frac{2}{b}=b+a^{2}+\\frac{4}{b^{2}}+\\frac{2}{a} \\\\ (a-1)(a-2)=0 \\\\ (b-1)(b-2)=0\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}a=b=1 \\\\ a=b=2 .\\end{array}\\right.\\right.)%<br>Vậy %(\\operatorname{Max} A=64 \\Leftrightarrow\\left[\\begin{array}{l}a=b=1 \\\\ a=b=2\\end{array}\\right.)%.",
+        "question_type": "essay"
+    }
+]

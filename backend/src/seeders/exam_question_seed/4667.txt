@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1",
+        "group_content": "Tính các giới hạn sau:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(\\lim \\frac{2^{n}+3 \\cdot 5^{n}}{5^{n}+3^{n}})%.",
+        "question_images": [],
+        "solution": "%(\\lim \\frac{2^{n}+3.5^{n}}{5^{n}+3^{n}}=\\lim \\frac{5^{n} \\cdot\\left(\\frac{2^{n}}{5^{n}}+3\\right)}{5^{n} \\cdot\\left(1+\\frac{3^{n}}{5^{n}}\\right)}=\\lim \\frac{\\left(\\frac{2}{5}\\right)^{n}+3}{1+\\left(\\frac{3}{5}\\right)^{n}}=3)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(\\lim _{x \\rightarrow 2} \\frac{\\sqrt{x+2}-2}{x^{3}-3 x-2})%.",
+        "question_images": [],
+        "solution": "%(\\lim _{x \\rightarrow 2} \\frac{\\sqrt{x+2}-2}{x^{3}-3 x-2}=\\lim _{x \\rightarrow 2} \\frac{x+2-4}{\\left(x^{3}-3 x-2\\right)(\\sqrt{x+2}+2)})%<br>%(=\\lim _{x \\rightarrow 2} \\frac{x-2}{(x-2)\\left(x^{2}+2 x+1\\right)(\\sqrt{x+2}+2)}=\\lim _{x \\rightarrow 2} \\frac{1}{\\left(x^{2}+2 x+1\\right)(\\sqrt{x+2}+2)}=\\frac{1}{36})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) %(\\lim _{x \\rightarrow-\\infty}\\left(\\sqrt{x^{2}+2 x+7}+x\\right))%.",
+        "question_images": [],
+        "solution": "%(\\lim _{x \\rightarrow-\\infty}\\left(\\sqrt{x^{2}+2 x+7}+x\\right)=\\lim _{x \\rightarrow-\\infty}\\left(\\frac{2 x+7}{\\sqrt{x^{2}+2 x+7}-x}\\right)=\\lim _{x \\rightarrow-\\infty}\\left(\\frac{2+\\frac{7}{x}}{-\\sqrt{1+\\frac{2}{x}+\\frac{7}{x^{2}}}-1}\\right)=-1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 0.75,
+        "content": "Cho hàm số %(f(x)=\\left\\{\\begin{array}{cc}\\frac{x^{2}-4 x+3}{x^{3}-1}, & \\text { khi } x \\neq 1 \\\\ \\frac{4}{3}, & \\text { khi } x=1\\end{array}\\right.)%<br>Xét tính liên tục của hàm số %(f(x))% tại điểm %(x_{0}=1)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\lim _{x \\rightarrow 1} f(x)=\\lim _{x \\rightarrow 1} \\frac{x^{2}-4 x+3}{x^{3}-1}=\\lim _{x \\rightarrow 1} \\frac{x-3}{x^{2}+x+1}=-\\frac{2}{3}(1) \\f(1)=\\frac{4}{3} \\text { (2) }\\end{array}\\]<br>(1), (2) %(\\Rightarrow \\lim f(x) \\neq f(1) \\Rightarrow)% Hàm số %(f(x))% không liên tục tại %(x_{0}=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 0.75,
+        "content": "Chứng minh phương trình %(2 x^{5}-4 x^{3}+x-6=0)% có ít nhất một nghiệm dương.",
+        "question_images": [],
+        "solution": "Đặt %(f(x)=2 x^{5}-4 x^{3}+x-6)%<br>Hàm số %(f(x))% xác định và liên tục trên %(\\mathbb{R} \\Rightarrow f(x))% liên tục trên đoạn %([0 ; 2])%<br>Ta có %(f(0)=-6 ; f(2)=28 \\Rightarrow f(0) \\cdot f(2)=-168\\lt 0)%<br>%(\\Rightarrow)% tồn tại số %(x_{0} \\in(0 ; 2))% sao cho %(f\\left(x_{0}\\right)=0)%<br>%(\\Rightarrow)% pt %(2 x^{5}-4 x^{3}+x-6=0)% có ít nhất một nghiệm dương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tính đạo hàm của hàm số %(y=\\frac{1+x}{\\sqrt{1-x}})%.",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} y= & \\frac{1+x}{\\sqrt{1-x}} \\Rightarrow y^{\\prime}=\\frac{(1+x)^{\\prime} \\cdot \\sqrt{1-x}-(1+x) \\cdot(\\sqrt{1-x})^{\\prime}}{1-x} \\\\ & =\\frac{\\sqrt{1-x}+(1+x) \\frac{1}{2 \\sqrt{1-x}}}{1-x}=\\frac{\\frac{2(1-x)+(1+x)}{2 \\sqrt{1-x}}}{1-x}=\\frac{3-x}{2(1-x) \\sqrt{1-x}}\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho hàm số %(y=x^{3}-3 x^{2})% có đồ thị %((C))%. Viết phương trình tiếp tuyến của đồ thị(C) tại điểm có hoành độ %(x_{0}=-1)%.",
+        "question_images": [],
+        "solution": "Ta có %(x_{0}=-1 \\Rightarrow y_{0}=-4)%<br>\\[y^{\\prime}=3 x^{2}-6 x \\Rightarrow y^{\\prime}(-1)=9\\]<br>Phương trình tiếp tuyến tại %(M(-1 ;-4))% là : %(y=9(x+1)-4 \\Leftrightarrow y=9 x+5)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình chóp %(S \\cdot A B C D)% có đáy %(A B C D)% là hình chữ nhật. Gọi %(I, J)% lần lượt là trung điểm của %(A B)% và %(C D, S I)% vuông góc vói mặt phẳng %((A B C D))%. Biết %(A B=2 a)%, %(B C=a, S I=a \\sqrt{3})%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tính góc giữa đường thẳng %(S C)% và mặt phẳng %((A B C D))%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/8085349182cb381b8d1e707da1a8c1e5.png\" srcset=\"https://docdn.giainhanh.io/media/test/244323c9ca14177a374f513041a774b5.png 217w, https://docdn.giainhanh.io/media/test/09769b983bb6bf76d9bfae2fbcd9ec9c.png 500w\" width=\"500\"/><br>%(\\begin{array}{l}\\text { Vì } S I \\perp(A B C D) \\\\ \\Rightarrow I C \\text { là hình chiếu của } S C \\text { lên }(A B C D) \\\\ \\Rightarrow \\widehat{S C ;(A B C D)]}=\\widehat{(S C ; I C)}=\\widehat{S C I} \\\\ I C=\\sqrt{I B^{2}+B C^{2}}=a \\sqrt{2} \\\\ \\tan \\widehat{S C I}=\\frac{S I}{I C}=\\frac{a \\sqrt{3}}{a \\sqrt{2}}=\\frac{\\sqrt{6}}{2} \\\\ \\Rightarrow \\widehat{S C I} \\approx 50^{\\circ} 46^{\\prime} \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh %((S C D) \\perp(S I J))%.",
+        "question_images": [],
+        "solution": "Ta có %(I J)% là đường trung bình của hình chữ nhật %(A B C D)%<br>\\[\\Rightarrow I J / / B C \\text {, mà } B C \\perp C D \\Rightarrow I J \\perp C D\\]<br>Mặt khác %(S I \\perp C D(S I \\perp(A B C D)))%<br>\\[\\Rightarrow C D \\perp(S I J)\\]<br>Mà %(C D \\subset(S C D) \\Rightarrow(S C D) \\perp(S I J))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tính góc giữa hai mặt phẳng %((S A J))% và %((A B C D))%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}(S A J) \\cap(A B C D)=A J \\\\ \\text { Ta có } A I J D \\text { là hình vuông } \\Rightarrow A J \\perp I D \\\\ \\text { Mặt khác } A J \\perp S I(S I \\perp(A B C D)) \\Rightarrow A J \\perp(S D I) \\Rightarrow A J \\perp S O \\\\ \\Rightarrow[(S A J) ;(A B C D)]=\\widehat{(S O ; I O)}=\\widehat{S O I} \\\\ O I=\\frac{a \\sqrt{2}}{2} \\\\ \\tan \\widehat{S O I}=\\frac{S I}{I O}=\\sqrt{6} \\Rightarrow \\widehat{S O I} \\approx 67^{0} 47^{\\prime}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 0.5,
+        "content": "d) Tính khoảng cách từ điểm %(D)% đến mặt phẳng %((S B C))%.",
+        "question_images": [],
+        "solution": "Ta có %(A D / / B C \\Rightarrow A D / /(S B C) \\Rightarrow d[D ;(S B C)]=d[A ;(S B C)])%<br>Vì %(A I)% cắt %((S B C))% tại %(B)% và %(\\frac{A B}{I B}=2 \\Rightarrow d[A ;(S B C)]=2 . d[I ;(S B C)])%<br>Kẻ %(I H \\perp S B)% tại %(H)%<br>Ta có %(\\left\\{\\begin{array}{l}B C \\perp A B \\\\ B C \\perp S I\\end{array} \\Rightarrow B C \\perp(S A B) \\Rightarrow B C \\perp I H\\right.)%<br>Mà %(I H \\perp S B \\Rightarrow I H \\perp(S B C) \\Rightarrow d[I ;(S B C)]=I H)%<br>Ta có %(\\frac{1}{I H^{2}}=\\frac{1}{I B^{2}}+\\frac{1}{I S^{2}} \\Rightarrow I H=\\frac{a \\sqrt{3}}{2} \\Rightarrow d[D ;(S B C)]=a \\sqrt{3})%",
+        "question_type": "essay"
+    }
+]

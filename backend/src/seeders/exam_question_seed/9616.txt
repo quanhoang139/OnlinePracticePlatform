@@ -1,0 +1,119 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(A=\\left(\\frac{3 x^{2}+3}{x^{3}-1}-\\frac{x-1}{x^{2}+x+1}-\\frac{1}{x-1}\\right): \\frac{2 x^{2}-5 x+5}{x-1})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Rút gọn A.",
+        "question_images": [],
+        "solution": "ĐКХĐ: %(x \\neq 1)%<br>\\[\\begin{array}{l}A=\\left(\\frac{3 x^{2}+3}{x^{3}-1}-\\frac{x-1}{x^{2}+x+1}-\\frac{1}{x-1}\\right): \\frac{2 x^{2}-5 x+5}{x-1} \\\\=\\frac{3 x^{2}+3-(x-1)^{2}-\\left(x^{2}+x+1\\right)}{(x-1)\\left(x^{2}+x+1\\right)} \\cdot \\frac{x-1}{2 x^{2}-5 x+5} \\\\=\\frac{3 x^{2}+3-x^{2}+2 x-1-x^{2}-x-1}{(x-1)\\left(x^{2}+x+1\\right)} \\cdot \\frac{x-1}{2 x^{2}-5 x+5}=\\frac{x^{2}+x+1}{x^{2}+x+1} \\cdot \\frac{1}{2 x^{2}-5 x+5}=\\frac{1}{2 x^{2}-5 x+5}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Tìm giá trị lớn nhất của A.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}2 x^{2}-5 x+5=2\\left[\\left(x^{2}-\\frac{5}{2} x+\\frac{25}{16}\\right)+\\frac{15}{16}\\right]=2\\left(x-\\frac{5}{4}\\right)^{2}+\\frac{15}{8} \\\\text { Vì }\\left(x-\\frac{5}{4}\\right)^{2} \\geq 0 \\Leftrightarrow 2\\left(x-\\frac{5}{4}\\right)^{2}+\\frac{15}{8} \\geq \\frac{15}{8} \\\\Leftrightarrow 2 x^{2}-5 x+5 \\geq \\frac{15}{8} \\Leftrightarrow \\frac{1}{2 x^{2}-5 x+5} \\leq \\frac{15}{8}\\end{array}\\]<br>Vậy %(\\operatorname{Max} _A=\\frac{15}{8} \\Leftrightarrow x=\\frac{5}{4})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Phân tích các đa thức sau thành nhân tử:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(x^{3}-6 x^{2}+11 x-6)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}=x^{2}(x-1)-5 x(x-1)+6(x-1)=(x-1)\\left(x^{2}-5 x+6\\right) \\\\ =(x-1)\\left(x^{2}-2 x-3 x+6\\right)=(x-1)[x(x-2)-3(x-2)]=(x-1)(x-2)(x-3)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(x^{4}+2019 x^{2}+2018 x+2019)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}=x\\left(x^{3}-1\\right)+2019\\left(x^{2}+x+1\\right)=x(x-1)\\left(x^{2}+x+1\\right)+2019\\left(x^{2}+x+1\\right) \\\\ =\\left(x^{2}+x+1\\right)\\left(x^{2}-x+2019\\right)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(\\frac{(2018-x)^{2}+(2018-x)(x-2019)+(x-2019)^{2}}{(2018-x)^{2}-(2018-x)(x-2019)+(x-2019)^{2}}=\\frac{19}{49})%",
+        "question_images": [],
+        "solution": "\\[\\frac{(2018-x)^{2}+(2018-x)(x-2019)+(x-2019)^{2}}{(2018-x)^{2}-(2018-x)(x-2019)+(x-2019)^{2}}=\\frac{19}{49}\\binom{x \\neq 2018}{x \\neq 2019}~~~~~(1)\\]<br>Đặt %(x-2019=y \\Rightarrow x-2018=y-1)%<br>\\[\\begin{array}{l}\\text { (1) } \\Rightarrow \\frac{(y-1)^{2}-(y-1) y+y^{2}}{(y-1)^{2}+(y-1) y+y^{2}}=\\frac{19}{49} \\Leftrightarrow \\frac{y^{2}-2 y+1-y^{2}+y+y^{2}}{y^{2}-2 y+1+y^{2}-y+y^{2}}=\\frac{19}{49} \\\\Leftrightarrow \\frac{y^{2}-y+1}{3 y^{2}-3 y+1}=\\frac{19}{49} \\Rightarrow 49 y^{2}-49 y+49=57 y^{2}-57 y+19 \\\\Leftrightarrow 8 y^{2}-8 y-30=0 \\Leftrightarrow y^{2}-y-\\frac{15}{4}=0 \\Leftrightarrow\\left(y-\\frac{1}{2}\\right)^{2}-4=0 \\\\Leftrightarrow\\left(y-\\frac{5}{2}\\right)\\left(y+\\frac{3}{2}\\right)=0 \\Leftrightarrow\\left[\\begin{array} { l } { y = \\frac { 5 } { 2 } } \\\\{ y = \\frac { - 3 } { 2 } }\\end{array} \\Leftrightarrow \\left[\\begin{array} { l } { x - 2 0 1 9 = \\frac { 5 } { 2 } } \\\\{ x - 2 0 1 9 = \\frac { - 3 } { 2 } }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=2021,5 \\x=2017,5\\end{array}\\right.\\right.\\right.\\end{array}\\]<br>Vậy tập nghiệm của phương trình là %(S=\\{2021,5 ; 2017,5\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Cho %(a+b+c=0)% và %(a^{2}+b^{2}+c^{2}=14)%. Tính giá trị của biểu thức %(N=a^{4}+b^{4}+c^{4})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}a+b+c=0 \\Leftrightarrow(a+b+c)^{2}=0 \\Leftrightarrow\\left(a^{2}+b^{2}+c^{2}\\right)+2 a b+2 b c+2 c a=0 \\\\ \\Leftrightarrow 14+2(a b+a c+b c)=0 \\Leftrightarrow a b+a c+b c=-7 \\\\ \\Leftrightarrow a^{2} b^{2}+b^{2} c^{2}+a^{2} c^{2}+2 a b c(a+b+c)=49 \\Leftrightarrow a^{2} b^{2}+b^{2} c^{2}+a^{2} c^{2}=49 \\\\ \\Leftrightarrow a^{4}+b^{4}+c^{4}=\\left(a^{2}+b^{2}+c^{2}\\right)-2\\left(a^{2} b^{2}+b^{2} c^{2}+a^{2} c^{2}\\right)=14^{2}-2.49=98\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho ba số %(a, b, c)% khác 0 thỏa mãn %(\\frac{a^{2}}{b^{2}}+\\frac{b^{2}}{c^{2}}+\\frac{c^{2}}{a^{2}}=\\frac{a}{c}+\\frac{c}{a}+\\frac{b}{a})%. Chứng minh rằng %(a=b=c)%",
+        "question_images": [],
+        "solution": "Đặt %(\\frac{a}{b}=x ; \\frac{b}{c}=y ; \\frac{c}{a}=z \\Rightarrow x y z=1)%.<br>Áp dụng bất đẳng thức Cosi, ta có:<br>\\[\\begin{array}{l}x^{2}+y^{2} \\geq 2 \\sqrt{x^{2} y^{2}}=2 x y ; \\text { cmtt }: y^{2}+z^{2} \\geq 2 y z ; x^{2}+z^{2} \\geq 2 x z \\\\Rightarrow 2\\left(x^{2}+y^{2}+z^{2}\\right) \\geq 2(x y+y z+z x) \\Leftrightarrow x^{2}+y^{2}+z^{2} \\geq x y+y z+z x \\\\Rightarrow x^{2}+y^{2}+z^{2} \\geq \\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z} \\Rightarrow \\frac{a^{2}}{b^{2}}+\\frac{b^{2}}{c^{2}}+\\frac{c^{2}}{a^{2}} \\geq \\frac{a}{c}+\\frac{c}{a}+\\frac{b}{a}~~~~~(*)\\end{array}\\]<br>Mà %(\\frac{a^{2}}{b^{2}}+\\frac{b^{2}}{c^{2}}+\\frac{c^{2}}{a^{2}}=\\frac{a}{c}+\\frac{c}{a}+\\frac{b}{a})%<br>Vậy đẳng thức %(\\left({ }{*}\\right))% xảy ra khi và chỉ khi %(x=y=z=1 \\Leftrightarrow a=b=c~(đ pc m))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho tam giác %(A B C)% vuông tại %(A)%. Lấy một điểm %(M)% bất kỳ trên cạnh %(A C)%. Từ C vẽ một đường thẳng vuông góc với tia %(B M)%, đường thẳng này cắt tia %(B M)% tại D, cắt tia %(B A)% tại E.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh %(E A.E B=E D .E C)% và %(\\widehat{ E A D}=\\widehat{ E C B})%.",
+        "question_images": [],
+        "solution": "+) Xét %(\\triangle E A C)% và %(\\triangle E D B)%, có:<br>%(\\widehat E)% chung<br>%(\\widehat{ E A C}=\\widehat{ E D B}=90^{\\circ} \\Rightarrow \\triangle E A C \\backsim \\triangle E D B~(g . g))%<br>\\[\\Rightarrow \\frac{E A}{E D}=\\frac{E C}{E B} \\Rightarrow E A . E B=E C .E D\\]<br>+) Xét %(\\triangle E A C~và~ \\triangle E B C)%, có:<br>\\[\\frac{E A}{E D}=\\frac{E C}{E B} \\Rightarrow \\frac{E A}{E C}=\\frac{E D}{E B} \\Rightarrow \\triangle E D A \\backsim \\triangle E B C~(\\text {c.g.c}) \\Rightarrow \\widehat{ E A D}=\\widehat{ E C B}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a2274d273942447f90b7a88072994bad.png\" srcset=\"https://docdn.giainhanh.io/media/test/e4d0132b8cf2e7ec65f1a42cd0265813.png 175w, https://docdn.giainhanh.io/media/test/2d24f9610f3dc702a7312b567993fc68.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Cho %(\\widehat{ B M C}=120^{\\circ})% và %(S_{A B D}=36 \\mathrm{~cm}^{2})%. Tính %(S_{E B C})%.",
+        "question_images": [],
+        "solution": "+) Ta có: %(\\widehat{B M C}=120^{\\circ} \\Rightarrow \\widehat{ A M B}=180^{\\circ}-120^{\\circ}=60^{\\circ})%<br>\\[\\Rightarrow \\sin A B M=\\frac{E D}{E B} \\Rightarrow \\frac{E D}{E B}=\\frac{1}{2} \\Rightarrow E B=2 E D~~~~~(1)\\]<br>+) Mặt khác %(\\triangle E D A \\backsim \\triangle E B C \\Rightarrow \\frac{S_{E A D}}{S_{E B C}}=\\left(\\frac{E D}{E B}\\right)^{2}=\\left(\\frac{E D}{2 E D}\\right)^{2}=\\frac{1}{4})%<br>\\[\\Rightarrow S_{E C B}=4 S_{E A D D}=4.36=144 \\mathrm{~cm}^{2}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) Chứng minh rằng khi điểm M di chuyển trên cạnh AC thì tổng %(B M. B D+C M . C A)% có giá trị không đổi.",
+        "question_images": [],
+        "solution": "+) Kẻ %(M H \\perp B C)%.<br>+) Xét %(\\triangle B K M)% và %(\\triangle B D C)%, có:<br>\\[\\begin{array}{l}\\widehat B \\text { chung, } \\widehat K=\\widehat D=90^{\\circ} \\Rightarrow \\triangle B K M \\backsim \\triangle B D C~(\\mathrm{g} . \\mathrm{g}) \\\\Rightarrow \\frac{B M}{B C}=\\frac{B K}{B D} \\Rightarrow B M.B D=B K . B C~~~~~(1)\\end{array}\\]<br>+) Xét %(\\triangle C K M)% và %(\\triangle C A B)%, có:<br>%(\\widehat C)% chung<br>%(\\widehat K=\\widehat A=90^{\\circ} \\Rightarrow \\triangle C K M \\backsim \\triangle C A B~(\\mathrm{g} . \\mathrm{g}))%<br>\\[\\Rightarrow \\frac{C M}{C B}=\\frac{C K}{C A} \\Rightarrow C M . C A=C B . C K ~~~~~~\\text { (2) }\\]<br>Từ (1) và (2) ta có %(B M.B D+C M . C A=B C(B K+C K)=B C . B C=B C^{2})% (không đổi)",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 1.0,
+        "content": "d) Kẻ %(D H \\perp B C~(H \\in B C))%. Gọi %(P, Q)% lần lượt là trung điểm của các đoạn thẳng %(B H, D H)%. Chứng minh %(C Q \\perp P D)%.",
+        "question_images": [],
+        "solution": "+) Xét %(\\triangle B D H)% và %(\\triangle B C D)%, có:<br>%(\\widehat B)% chung<br>%(\\widehat H=\\widehat D=90^{\\circ} \\Rightarrow \\triangle B D H \\backsim \\triangle B C D~(g . g))%<br>+) Xét %(\\triangle D H C)% và %(\\triangle B D C)%, có:<br>%(\\widehat C)% chung<br>%(\\widehat H=\\widehat D=90^{\\circ} \\Rightarrow \\triangle D H C \\backsim \\triangle B D C~(g . g))%<br>+) Ta có: %(\\triangle B H D \\backsim \\triangle D H C~(g . g) \\Rightarrow \\frac{B H}{D H}=\\frac{B D}{D C})%<br>+) Do %(B H=2 B D~(g t), D H=2 D Q \\Rightarrow \\frac{B D}{D C}=\\frac{2 B P}{2 D Q}=\\frac{B P}{D Q})%<br>+) Xét %(\\triangle D P B)% và %(\\triangle C Q D)%, có:<br>%(\\widehat{ D B P}=\\widehat{ C D Q}~(\\triangle B D H \\sim \\triangle D H C), \\frac{B D}{D C}=\\frac{B P}{D Q})%<br>%(\\Rightarrow \\triangle D P B \\backsim \\triangle C Q D~(c.g.c) )%<br>%(\\Rightarrow \\widehat{ B D P}=\\widehat{ D C Q})%<br>+) Mà: %(\\widehat{ B D P}+\\widehat{ P D C}=90^{\\circ} \\Rightarrow \\widehat{ C D Q}+\\widehat{ P D C}=90^{\\circ} \\Rightarrow \\widehat{ P Q C}=180^{\\circ}-90^{\\circ}=90^{\\circ} \\Rightarrow C Q \\perp D P)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Cho %(x, y\\gt 0)% thỏa mãn %(x+y=2)%. Chứng minh rằng: %(\\left(x+\\frac{1}{x}\\right)^{2}+\\left(y+\\frac{1}{y}\\right)^{2} \\geq 8)%",
+        "question_images": [],
+        "solution": "Ta có: %(\\left(x+\\frac{1}{x}\\right)^{2}+\\left(y+\\frac{1}{y}\\right)^{2}=x^{2}+\\frac{1}{x^{2}}+2+y^{2}+\\frac{1}{y^{2}}+2=4+\\left(x^{2}+y^{2}\\right)+\\left(\\frac{1}{x^{2}}+\\frac{1}{y^{2}}\\right))%<br>Áp dụng BĐT Cosi cho hai số %(x^{2} ; y^{2})%, ta có:<br>%(x^{2}+y^{2} \\geq 2 x y)%<br>\\[\\Leftrightarrow\\left\\{\\begin{array} { l } { 2 ( x ^ { 2 } + y ^ { 2 } ) \\geq ( x + y ) ^ { 2 } } \\\\{ ( x + y ) ^ { 2 } \\geq 4 x y }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x^{2}+y^{2} \\geq \\frac{(x+y)^{2}}{2}=\\frac{2^{2}}{2}=2 \\x y \\leq \\frac{(x+y)^{2}}{4}=\\frac{2^{2}}{4}=1\\end{array}\\right.\\right.\\]<br>Áp dụng bất đẳng thức Cosi cho hai số %(\\frac{1}{x^{2}} ; \\frac{1}{y^{2}})%, ta có:<br>\\[\\frac{1}{x^{2}}+\\frac{1}{y^{2}} \\geq \\frac{2}{x y} \\geq 2 \\Rightarrow\\left(x+\\frac{1}{x}\\right)^{2}+\\left(y+\\frac{1}{y}\\right)^{2}=4+\\left(x^{2}+y^{2}\\right)+\\left(\\frac{1}{x^{2}}+\\frac{1}{y^{2}}\\right) \\geq 4+2+2=8~(\\mathrm{đpcm})\\]<br>Dấu bằng xảy ra khi %(x=y=1)%",
+        "question_type": "essay"
+    }
+]

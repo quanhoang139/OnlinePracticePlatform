@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1a ",
+        "point": 1.0,
+        "content": "Rút gọn biểu thức %(\\mathrm{A}=\\frac{2^{19} \\cdot 27^{3}-15 \\cdot 4^{9} \\cdot 9^{4}}{6^{9} \\cdot 2^{10}+12^{10}})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\mathrm{A}=\\frac{2^{19} \\cdot 27^{3}-15 \\cdot 4^{9} \\cdot 9^{4}}{6^{9} \\cdot 2^{10}+12^{10}}=\\frac{2^{19} \\cdot 3^{9}-3 \\cdot 5 \\cdot 2^{18} \\cdot 3^{8}}{3^{9} \\cdot 2^{9} \\cdot 2^{10}+2^{20} \\cdot 3^{10}} \\\\ =\\frac{2^{19} \\cdot 3^{9}-5 \\cdot 2^{18} \\cdot 3^{9}}{3^{9} \\cdot 2^{19}+2^{20} \\cdot 3^{10}} \\\\ =\\frac{2-5}{2+4 \\cdot 3} \\\\ =\\frac{-3}{14}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "1b ",
+        "point": 1.0,
+        "content": "Thực hiện phép tính %(\\mathrm{B}=\\frac{5}{4.9}+\\frac{5}{9.14}+\\frac{5}{14.19}+\\ldots+\\frac{5}{44.49})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\\\{B}=\\frac{5}{4.9}+\\frac{5}{9.14}+\\frac{5}{14.19}+\\ldots+\\frac{5}{44.49} \\\\ =\\frac{1}{4}-\\frac{1}{9}+\\frac{1}{9}-\\frac{1}{14}+\\ldots+\\frac{1}{44}-\\frac{1}{49} \\\\ =\\frac{1}{4}-\\frac{1}{49} \\\\ =\\frac{49-4}{4.49} \\\\ =\\frac{45}{196}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2a ",
+        "point": 1.0,
+        "content": "Cho các số %(a, b, c, d \\neq 0)% thoả mãn %(\\frac{a}{b}=\\frac{c}{d})%. Chứng tỏ rằng %(\\frac{a c}{b d}=\\frac{a^{2}+c^{2}}{b^{2}+d^{2}})%",
+        "question_images": [],
+        "solution": "%(\\frac{a}{b}=\\frac{c}{d} \\Rightarrow \\frac{a}{b} \\cdot \\frac{a}{b}=\\frac{c}{d} \\cdot \\frac{a}{b} \\Rightarrow \\frac{a^{2}}{b^{2}}=\\frac{a c}{b d})%,<br>tương tự ta có %(\\frac{c^{2}}{d^{2}}=\\frac{a c}{b d})%<br>\\[\\begin{array}{l}\\Rightarrow \\frac{a^{2}}{b^{2}}=\\frac{c^{2}}{d^{2}}=\\frac{a c}{b d} \\\\Rightarrow \\frac{a c}{b d}=\\frac{a^{2}}{b^{2}}=\\frac{c^{2}}{d^{2}}=\\frac{a^{2}+c^{2}}{b^{2}+d^{2}}\\end{array}\\]<br>Vậy %(\\frac{a c}{b d}=\\frac{a^{2}+c^{2}}{b^{2}+d^{2}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2b ",
+        "point": 1.0,
+        "content": "Tìm %(x)%, biết %(|x+1|+|x+2|+|x+3|=4 x)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text |x+1|+|x+2|+|x+3|=4 x \\\\text { Vì }|x+1|+|x+2|+|x+3| \\geq 0 \\Rightarrow 4 x \\geq 0 \\Rightarrow x \\geq 0 \\\\text { nên } \\\\|x+1|=x+1 \\\\|x+2|=x+2 \\\\|x+3|=x+3\\end{array}\\]<br>Do đó từ %((1))% ta có: %(x+1+x+2+x+3=4 x)%<br>Tìm được %(x=6)% (T/M)",
+        "question_type": "essay"
+    },
+    {
+        "title": "3a ",
+        "point": 1.0,
+        "content": "Tìm các số nguyên %(x, y)% thỏa mãn %(\\mathrm{xy}-3 \\mathrm{x}+2 \\mathrm{y}=11)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text x y-3 x+2 y=11 \\\\ \\Rightarrow x \\cdot(y-3)+2 \\cdot(y-3)+6=11 \\\\ \\Rightarrow(x+2) \\cdot(y-3)=5\\end{array})%<br>Vậy cặp (x,y) là (-7;2); (-3;-2); (-1;8); (3;4)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/16e0b4b2e12dac3791711eb7086d1cc6.png\" srcset=\"https://docdn.giainhanh.io/media/test/1a5cc34c212d23386d1440264bfc28fb.png 245w, https://docdn.giainhanh.io/media/test/c1f61976314c985968da82df2a0c0224.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "3b ",
+        "point": 1.0,
+        "content": "Cho %(p)% là số nguyên tố lớn hơn 5. Chứng minh rằng %((p-1)(p+1))% chia hết cho 24.",
+        "question_images": [],
+        "solution": "Ta chứng minh %((p-1)(p+1) \\vdots 24)%<br>Vì %(p)% là số nguyên tố lớn hơn 5 nên %(p \\not \\vdots 3)% và %(p\\not \\vdots 2)%<br>Có %(p)% :2 nên %(p-1)% và %(p+1)% là hai số chẵn liên tiếp<br>\\[\\rightarrow(p-1) \\cdot(p+1) \\vdots 8\\]<br>Mặt khác: %(p\\not \\vdots 3 \\rightarrow p)% có thể có 1 trong 2 dạng là %(p=3 k+1)% hoặc %(p=3 k+2\\left(k \\in \\mathbb{N}^{*}\\right))%<br>Nếu %(p=3 k+1 \\rightarrow p-1 \\vdots 3 \\rightarrow(p-1)(p+1) \\vdots 3)%<br>Nếu %(p=3 k+2 \\rightarrow p+1 \\vdots 3 \\rightarrow(p-1)(p+1) \\vdots 3)%<br>\\[\\Rightarrow(p-1)(p+1) \\vdots 3\\]<br>Mà %(24=3.8)% và ƯCLN %((8,3)=1)%<br>Từ (1), (2) và (3) %(\\Rightarrow(p-1)(p+1) \\vdots 24)% (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho %(\\triangle \\mathrm{ABC})% có góc %(\\mathrm{A})% nhọn, %(\\mathrm{AB}=\\mathrm{AC})%. Gọi %(\\mathrm{M})% là trung điểm của %(\\mathrm{BC})%. Qua %(\\mathrm{A})% vẽ đường thẳng %(\\mathrm{xy})% song song với %(\\mathrm{BC})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.25,
+        "content": "1) Chứng minh %(\\mathrm{AM} \\perp \\mathrm{xy})%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text{}\\mathrm{C} / \\mathrm{m} \\triangle A M B=\\triangle A M C(\\text { c.c.c) } \\\\ \\mathrm{C} / \\mathrm{m} A M \\perp B C \\\\ \\mathrm{C} / \\mathrm{m} \\mathrm{AM} \\perp \\mathrm{xy}\\end{array})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/44b512e78e5d73fdbf3f28e649160ff9.png\" srcset=\"https://docdn.giainhanh.io/media/test/50f1f678c9c5c5f7b79cb16d19a868a8.png 245w, https://docdn.giainhanh.io/media/test/0281163148c680595bd68a932901ee83.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "2) So sánh các cạnh của %(\\triangle \\mathrm{AMB})%.",
+        "question_images": [],
+        "solution": "2) Từ (1) %(\\Rightarrow \\widehat{B A M}=\\widehat{C A M}=\\frac{\\widehat{B A C}}{2})%<br>mà %(\\widehat{B A C}\\lt 90^{\\circ}(\\mathrm{gt}) \\Rightarrow \\widehat{B A M}\\lt 45^{\\circ})% suy ra %(\\widehat{A B M}\\gt 45^{\\circ})%<br>\\[\\Rightarrow \\widehat{A M B}\\gt \\widehat{A B M}>\\widehat{B A M}\\]<br>%(\\Rightarrow A B>A M>B M)% (qh giữa cạnh và góc đối diện trong tam giác)",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 0.75,
+        "content": "3) Gọi %(\\mathrm{O})% là điểm nằm trong %(\\triangle \\mathrm{AMC})%. Chứng minh %(\\mathrm{OA}+\\mathrm{OC}\\lt \\mathrm{MA}+\\mathrm{MC})%.",
+        "question_images": [],
+        "solution": "Gọi I là giao điềm của %(\\mathrm{AO})% và %(\\mathrm{MC})%<br>Xét %(\\triangle A I C)% có %(: \\mathrm{AI}\\lt \\mathrm{AM}+\\mathrm{MI})% ( %(\\mathrm{BĐT})% trong tam giác)<br>Xét %(\\triangle O I C)% có : %(\\mathrm{OC}\\lt \\mathrm{OI}+\\mathrm{IC})% ( %(\\mathrm{BĐT})% trong tam giác)<br>Suy ra: %(\\mathrm{AI}+\\mathrm{OC}\\lt \\mathrm{AM}+\\mathrm{MI}+\\mathrm{OI}+\\mathrm{IC})%<br>\\[\\begin{array}{l}\\Rightarrow \\mathrm{AO}+\\mathrm{OI}+\\mathrm{OC}\\lt \\mathrm{AM}+\\mathrm{MC}+\\mathrm{OI} \\\\Rightarrow \\mathrm{AO}+\\mathrm{OC}\\lt \\mathrm{AM}+\\mathrm{MC}(\\text {đpcm) }\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho %(x ; y ; z)% không âm thoả mãn %(x+3 z=2022)% và %(x+2 y=2023)%. Tìm giá trị lớn nhất của biểu thức %(P=x+y+z)%.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}x+3 z+x+2 y=2022+2023 \\\\Leftrightarrow 2(x+y+z)+z=4045 \\\\text { Vì } z \\geq 0 \\Rightarrow 2(x+y+z) \\leq 4045\\end{array}\\]<br>Suy ra %(P \\leq \\frac{4045}{2})%<br>Dấu \" %(=)% \" xảy ra %(\\Leftrightarrow z=0 ; x=2022 ; y=\\frac{1}{2})%.",
+        "question_type": "essay"
+    }
+]

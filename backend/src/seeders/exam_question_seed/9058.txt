@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.5,
+        "content": "Giải phương trình: %(\\sqrt[3]{2-x}=1-\\sqrt{x-1})%.",
+        "question_images": [],
+        "solution": "Phương trình: %(\\sqrt[3]{2-x}=1-\\sqrt{x-1})%(*)<br>ĐКХĐ: %(x \\geq 1)%.<br>Đặt %(\\left\\{\\begin{array}{l}a=\\sqrt[3]{2-x} \\\\ b=\\sqrt{x-1}\\end{array} \\quad\\right.)% với %(\\mathrm{a} \\leq 1, b \\geq 0)%.<br>\\[\\Rightarrow\\left\\{\\begin{array}{l}a^{3}=2-x \\b^{2}=x-1 \\quad \\Rightarrow a^{3}+b^{2}=1 .\\end{array}\\right.\\]<br>Từ %(\\left({ }^{*}\\right))% ta có: %(a=1-b \\Rightarrow b=1-a)%.<br>Thay %(b=1-a)% vào hệ thức %(a^{3}+b^{2}=1 \\Rightarrow a^{3}+(1-a)^{2}=1 \\Leftrightarrow a^{3}+a^{2}-2 a+1=1)%<br>%(\\Leftrightarrow a^{3}+a^{2}-2 a=0 \\Leftrightarrow a\\left(a^{2}+a-2\\right)=0 \\Leftrightarrow a(a+2)(a-1)=0)%<br>* Nếu %(a=0)% (Thỏa mãn) %(\\Rightarrow b=1)%. Ta được %(\\left\\{\\begin{array}{l}2-x=0 \\\\ x-1=1\\end{array} \\Leftrightarrow x=2 \\quad\\right.)% (Thỏa mãn ĐKXĐ).<br>* Nếu %(a+2=0 \\Leftrightarrow a=-2 \\Rightarrow b=3)%. Ta được %(\\left\\{\\begin{array}{l}2-x=-8 \\\\ x-1=9\\end{array} \\Leftrightarrow x=10\\right.)% (Thỏa mãn ĐKXĐ ).<br>* Nếu %(a-1=0 \\Leftrightarrow a=1 \\Rightarrow b=0)%. Ta được %(\\left\\{\\begin{array}{l}2-x=1 \\\\ x-1=0\\end{array} \\Leftrightarrow x=1 \\quad\\right.)% (Thỏa mãn ĐKXĐ).<br>Vậy phương trình có tập nghiệm là %(S=\\{1 ; 2 ; 10\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.5,
+        "content": "Cho  %(S=\\left(1-\\frac{2}{2.3}\\right)\\left(1-\\frac{2}{3.4}\\right) \\ldots\\left(1-\\frac{2}{2020.2021}\\right))% là một tích của 2019 thừa số. Tính %(S)% (kết quả để dưới dạng phân số tối giản).",
+        "question_images": [],
+        "solution": "\\[S=\\left(1-\\frac{2}{2.3}\\right)\\left(1-\\frac{2}{3.4}\\right) \\cdots\\left(1-\\frac{2}{2020.2021}\\right)\\]<br>Với %(n \\in N)% ta có<br>\\[1-\\frac{1}{n(n+1)}=\\frac{n^{2}+n-2}{n(n+1)}=\\frac{(n-1)(n+2)}{n(n+1)}\\]<br>Áp dụng kết quả trên ta có:<br>\\[\\begin{array}{l}S=\\frac{1.4}{2.3} \\cdot \\frac{2.5}{3.4} \\cdot \\frac{3.6}{4.5} \\ldots \\frac{2019.2022}{2020.2021}=\\frac{(1.2 .3 \\ldots 2019) \\cdot(4.5 \\cdot 6 \\ldots 2022)}{(2.3 \\cdot 4 \\ldots 2020) \\cdot(3.4 \\cdot 5 \\ldots 2021)}=\\frac{1.2022}{2020.3}=\\frac{337}{1010} . \\S=\\frac{337}{1010} .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.5,
+        "content": "Biết %(a ; b)% là các số nguyên dương thỏa mãn %(a^{2}-a b+b^{2})% chia hết cho 9 , chứng minh rằng cả %(a)% và %(b)% đều chia hết cho 3 .",
+        "question_images": [],
+        "solution": "Ta có: %(\\left(a^{2}+a b+b^{2}\\right) \\vdots 9 \\Rightarrow 4\\left(a^{2}+a b+b^{2}\\right) \\vdots 9)%%(\\Rightarrow\\left[(2 a-b)^{2}+3 b^{2}\\right]: 9)%(1)<br>Mà %(3 b^{2}: 3)% nên %((2 a-b)^{2} \\vdots 3)% mà 3 là số nguyên tố nên %((2 a-b))% %(\\vdots)% 3 .%((2 a-b) \\vdots 3)% nên %((2 a-b)^{2} \\vdots 9)%.(2)<br>Từ %((1))% và %((2) \\Rightarrow 3 b^{2}: 9 \\Rightarrow b^{2} \\vdots 3)% mà 3 là số nguyên tố<br>%(\\Rightarrow b \\vdots 3)%.%((2 a-b) \\vdots 3)% và %(b \\vdots 3 \\Rightarrow 2 a \\vdots 3)% mà %((2 ; 3)=1)% nên %(a \\vdots 3)%.<br>Vậy cả %(a)% và %(b)% đều chia hết cho 3.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.5,
+        "content": "Tìm tất cả các số nguyên dương %(n)% sao cho %(9^{n}+11)% là tích của %(k(k \\in N, k \\geq 2))% số tự nhiên liên tiếp.",
+        "question_images": [],
+        "solution": "Ta có tích của từ ba số tự nhiên liên tiếp trở lên thì chia hết cho 3 .<br>Theo đề bài %(9^{n}+11)% là tích k số tự nhiên liên tiếp mà %(9^{n}+11)% không chia hết cho 3 nên %(k=2)%.<br>Đặt %(9^{n}+11=a(a+1))% với %({ }{a})% là số nguyên dương.<br>\\[\\begin{array}{l}9^{n}+11=a(a+1) \\Leftrightarrow 4.9^{n}+45=4 a^{2}+4 a+1 \\\\Leftrightarrow(2 a+1)^{2}-\\left(2.3^{n}\\right)^{2}=45 \\Leftrightarrow\\left(2 a+1-2.3^{n}\\right)\\left(2 a+1+2.3^{n}\\right)=45 .\\end{array}\\]<br>Vì %({ }{a, n})% nguyên dương và %(2 a+1+2.3^{n} \\geq 9)% nên xảy ra các trường hợp sau:<br>Trường hợp 1. %(\\left\\{\\begin{array}{ll}2 a+1-2.3^{n}=9(1) \\\\ 2 a+1+2.3^{n}=5(2)\\end{array}\\right.)%<br>Từ %((1))% và %((2))% ta có %(4 a+2=14 \\Leftrightarrow a=3 \\Rightarrow 9^{n}+11=12 \\Leftrightarrow 9^{n}=1 \\Leftrightarrow n=0)% (Loại).<br>Trường hợp 2. %(\\left\\{\\begin{array}{l}2 a+1-2.3^{n}=15(3) \\\\ 2 a+1+2.3^{n}=3(4)\\end{array}\\right.)%<br>Từ (3) và (4) ta có %(4 a+2=18 \\Leftrightarrow a=4 \\Rightarrow 9^{n}+11=20 \\Leftrightarrow 9^{n}=9 \\Leftrightarrow n=1)% (Thỏa mãn).<br>Trường hợp 3. %(\\left\\{\\begin{array}{l}2 a+1-2.3^{n}=45(5) \\\\ 2 a+1+2.3^{n}=1(6)\\end{array}\\right.)%<br>Từ (5) và (6) ta có %(4 a+2=46 \\Leftrightarrow a=11 \\Rightarrow 9^{n}+11=132 \\Leftrightarrow 9^{n}=121 \\Leftrightarrow n \\in \\varnothing)%. Vậy %(n=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Cho %(x, y, z)% là các số thực dương nhỏ hơn 4 . Chứng minh rằng trong các số %(\\frac{1}{x}+\\frac{1}{4-y})%, %(\\frac{1}{y}+\\frac{1}{4-z}, \\frac{1}{z}+\\frac{1}{4-x})% luôn tồn tại ít nhất một số lớn hơn hoặc bằng 1 .",
+        "question_images": [],
+        "solution": "Ta có %(\\frac{1}{x}+\\frac{1}{4-y}\\gt 0 ; \\frac{1}{y}+\\frac{1}{4-z}>0 ; \\quad \\frac{1}{z}+\\frac{1}{4-x}>0)%.<br>Theo bất đẳng thức Cauchy Schwarz ta có:<br>\\[\\begin{array}{l}36=\\left(\\sqrt{x} \\cdot \\frac{1}{\\sqrt{x}}+\\sqrt{4-y} \\cdot \\frac{1}{\\sqrt{4-y}}+\\sqrt{y} \\cdot \\frac{1}{\\sqrt{y}}+\\sqrt{4-z} \\cdot \\frac{1}{\\sqrt{4-z}}+\\sqrt{z} \\cdot \\frac{1}{\\sqrt{z}} \\sqrt{4-x} \\cdot \\frac{1}{\\sqrt{4-x}}\\right)^{2} \\\\leq(x+4-y+y+4-z+z+4-x)\\left(\\frac{1}{x}+\\frac{1}{4-y}+\\frac{1}{y}+\\frac{1}{4-z}+\\frac{1}{z}+\\frac{1}{4-x}\\right) \\\\Leftrightarrow 36 \\leq 12\\left(\\frac{1}{x}+\\frac{1}{4-y}+\\frac{1}{y}+\\frac{1}{4-z}+\\frac{1}{z}+\\frac{1}{4-x}\\right)\\end{array}\\]<br>\\[\\Leftrightarrow\\left(\\frac{1}{x}+\\frac{1}{4-y}\\right)+\\left(\\frac{1}{y}+\\frac{1}{4-z}\\right)+\\left(\\frac{1}{z}+\\frac{1}{4-x}\\right) \\geq 3 .\\]<br>Giả sử ba số %(\\frac{1}{x}+\\frac{1}{4-y}, \\frac{1}{y}+\\frac{1}{4-z}, \\frac{1}{z}+\\frac{1}{4-x})% đều nhỏ hơn 1<br>%(\\Rightarrow\\left(\\frac{1}{x}+\\frac{1}{4-y}\\right)+\\left(\\frac{1}{y}+\\frac{1}{4-z}\\right)+\\left(\\frac{1}{z}+\\frac{1}{4-x}\\right)\\lt 1+1+1=3 \\quad)% (Trái với %(\\left.{ }^{*}\\right))% )<br>Do đó trong các số %(\\frac{1}{x}+\\frac{1}{4-y}, \\frac{1}{y}+\\frac{1}{4-z}, \\frac{1}{z}+\\frac{1}{4-x})% luôn tồn tại ít nhất một số lớn hơn hoặc bằng 1.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.5,
+        "content": "Với các số thực dương %(a, b, c)% thay đổi thỏa mãn điều kiện %(a^{2}+b^{2}+c^{2}+2 a b c=1)%, tìm giá trị lớn nhất của biểu thức %(P=a b+b c+c a-a b c)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Ta có } 2 P=2(a b+b c+c a)-2 a b c \\\\=2(a b+b c+c a)+a^{2}+b^{2}+c^{2}-1 \\quad\\left(\\mathrm{V̀̀}-2 a b c=a^{2}+b^{2}+c^{2}-1\\right) \\\\=(a+b+c)^{2}-1 .\\end{array}\\]<br>Mặt khác: %(a^{2}+b^{2}+c^{2}+2 a b c=1)%<br>\\[\\begin{array}{l}\\Leftrightarrow a^{2} b+2 a b c+c^{2}=1-a^{2}-b^{2}+a^{2} b^{2} \\\\Leftrightarrow(a b+c)^{2}=\\left(1-a^{2}\\right)\\left(1-b^{2}\\right) .\\end{array}\\]<br>Từ %(a^{2}+b^{2}+c^{2}+2 a b c=1 \\Rightarrow a^{2}\\lt 1, b^{2}\\lt 1 \\Rightarrow 1-a^{2}\\gt 0,1-b^{2}>0)%<br>Theo bất đẳng thức %(A M-G M)% với hai số %(1-a^{2}, 1-b^{2})% ta có:<br>\\[\\begin{array}{l}(a b+c)^{2}=\\left(1-a^{2}\\right)\\left(1-b^{2}\\right) \\leq\\left(\\frac{2-a^{2}-b^{2}}{2}\\right)^{2} \\\\Leftrightarrow a b+c \\leq \\frac{2-a^{2}-b^{2}}{2}\\end{array}\\]<br>\\[\\Leftrightarrow c \\leq \\frac{2-(a+b)^{2}}{2} \\text {. }(1)\\]<br>Mặt khác theo bất đẳng thức %(A M-G M)% với hai số %((a+1)^{2})% và 1 ta có:<br>\\[\\begin{array}{l}(a+b)^{2}+1 \\geq 2 \\cdot \\sqrt{(a+b)^{2} \\cdot 1}=2(a+b) \\\\Rightarrow a+b \\leq \\frac{(a+b)^{2}+1}{2}(2)\\end{array}\\]<br>Từ (1) và %((2))% ta có:<br>\\[a+b+c \\leq \\frac{(a+b)^{2}+1}{2}+\\frac{2-(a+b)^{2}}{2}=\\frac{3}{2} .\\]<br>Do đó<br>\\[2 P \\leq \\frac{9}{4}-1=\\frac{5}{4} \\Rightarrow P \\leq \\frac{5}{8} \\text {. }\\]<br>Dấu \"=\" xảy ra khi<br>\\[\\left\\{\\begin{array}{l}1-a^{2}=1-b^{2} \\\\(a+b)^{2}=1 \\a^{2}+b^{2}+c^{2}+2 a b c=1\\end{array} \\Leftrightarrow a=b=c=\\frac{1}{2}\\right.\\]<br>Vậy<br>\\[\\operatorname{Max} P=\\frac{5}{8} \\Leftrightarrow a=b=c=\\frac{1}{2} .\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác %({ }{A B C})% vuông tại %({ }{A}(A B\\lt A C))%. Đường tròn %((I))% nội tiếp tam giác %({ }{A B C})% tiếp xúc với các cạnh %(B C, C A, A B)% lần lượt tại %(D, E, F)%. Gọi %(S)% là giao điểm của %(A I)% và %(D E)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng tam giác %(I A B)% đồng dạng với tam giác %(E A S)%.",
+        "question_images": [],
+        "solution": "Ta có %(A I)% là tia phân giác của góc %(B A C)% nên %(IA B=\\frac{1}{2} B A C)%,%(B I)% là tia phân giác của góc %(A B C)% nên %(IB A=\\frac{1}{2} A B C)%.<br>Theo tính chất tổng ba góc trong %(\\triangle A I B)% ta có:<br>\\[A I B=180^{\\circ}-(A B+B A)=180^{\\circ}-\\frac{B A C+A B C}{2}\\]<br>%(=180^{\\circ}-\\frac{180-C}{2})%%(=180^{\\circ}-\\frac{180-€}{2})% (Do %(B A C+ABC=180^{\\circ}-C)% theo tính chất tổng ba góc của tam giác)<br>\\[=90^{\\circ}+\\frac{C}{2}\\]<br>Theo tính chất hai tiếp tuyến cắt nhau ta có: %(C E=C D \\Rightarrow \\triangle C E D)% cân tại %(C)%<br>\\[\\begin{array}{l}\\Rightarrow D E C=\\frac{180^{\\circ}-C}{2} . \\\\text { Lại có: } A E S=180^{\\circ}-D E C \\text { (Hai góc kề bù) } \\\\=180^{\\circ}-\\frac{180^{\\circ}-C}{2}=90^{\\circ}+\\frac{C}{2} . \\\\Rightarrow A IB=A E S=90^{\\circ}+\\frac{C}{2} .\\end{array}\\]<br>Mặt khác %(E A S=IA B)% (Tính chất tia phân giác).<br>Do đó: %(\\triangle I A B \\sim \\triangle E A S)% (g-g)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/2fe20a51ef80f61ceac472dd9ee176dd.png\" srcset=\"https://docdn.giainhanh.io/media/test/b536055fbe50463794b03e09d1c99aff.png 245w, https://docdn.giainhanh.io/media/test/a6f12acc3b902a6f0cabf0b24baee50f.png 500w, https://docdn.giainhanh.io/media/test/f2d988ed059ca1d3dfadaadfec50798d.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Gọi %(K)% là trung điểm của %(A B)% và %(O)% là trung điểm của %(B C)%. Chứng minh rằng ba điểm %(K, O, S)% thẳng hàng.",
+        "question_images": [],
+        "solution": "Ta có: %(\\triangle I A B \\sim \\triangle E A S \\Rightarrow A S E=A B I=IB D)%.<br>Tứ giác %(I B D S)% có %(IB D+I S D=A S E+I S D=180^{\\circ} \\Rightarrow)% Tứ giác %(I B D S)% nội tiếp.<br>%(\\Rightarrow \\operatorname{ISB}=\\operatorname{ID} B=90^{\\circ})% (Góc nội tiếp cùng chắn BI nhỏ) mà %(IA B=\\frac{1}{2} B A C=45^{\\circ})% (Tính chất tia phân giác)<br>%(\\Rightarrow \\triangle A S B)% vuông cân tại %(S)%.<br>%(\\triangle A S B)% vuông cân tại %(S)% có %(S A)% là đường trung tuyến nên %(S A)% là đường trung trực của %(A B . \\quad\\left({ }^{*}\\right))%<br>Mặt khác %(\\triangle A B C)% vuông có %(A O)% là trung tuyến nên<br>\\[O A=O B=\\frac{1}{2} B C\\]<br>%(\\Rightarrow O)% thuộc đường trung trực của %(A B)%.%((* *))%<br>Từ %((*))% và %((* *) \\Rightarrow)% Ba điểm %(K, O, S)% thẳng hàng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Gọi %(M)% là giao điểm của %(K I)% và %(A C)%. Đường thẳng chứa đường cao %(A H)% của tam giác %(A B C)% cắt đường thẳng %(D E)% tại %(N)%. Chứng minh rằng %(A M=A N)%.",
+        "question_images": [],
+        "solution": "Vì %(A I)% là tia phân giác của %(\\triangle A M K)% nên %(\\frac{A K}{A M}=\\frac{I K}{I M})%.(1)<br>%(I F / / \\mathrm{AM})% (Cùng vuông góc với %(A B)% ) %(\\Rightarrow \\frac{I K}{I M}=\\frac{F K}{F A})% (Định lý Ta lét)(2)<br>Từ (1) và (2) %(\\Rightarrow \\frac{A K}{A M}=\\frac{F K}{F A} \\Rightarrow \\frac{A K}{F K}=\\frac{A M}{A F})%.<br>Mặt khác %(I D / / A N)% (Cùng vuông góc với %(B C)% ) %(\\Rightarrow \\frac{A N}{I D}=\\frac{S A}{S I})% (Hệ quả định lý Ta lét)(3)<br>mà %(I F / / \\mathrm{KS})% (Cùng vuông góc với %(A B)% ) %(\\Rightarrow \\frac{S A}{S I}=\\frac{A K}{F K})% nên %(\\frac{A N}{I D}=\\frac{A K}{F K})%.(4)<br>Từ %((3)_{\\text {và }}(4))% ta có %(\\frac{A M}{A F}=\\frac{A N}{I D})%.<br>Tứ giác %(A E I F)% có %(E A F=A F I=A E I=90^{\\circ})% nên tứ giác %(A E I F)% là hình chữ nhật %(\\Rightarrow A F=E I=I D)%.<br>Ta có %(A F=I D)% và %(\\frac{A M}{A F}=\\frac{A N}{I D})% nên %(A M=A N)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Xét bảng ô vuông cỡ %(10 \\times 10)% gồm 100 hình vuông có cạnh 1 đơn vị. Người ta điền vào mỗi ô vuông của bảng một số nguyên tùy ý sao cho hiệu hai số được điền ở hai ô chung cạnh bất kỳ đều có giá trị tuyệt đối không vượt quá 1. Chứng minh rằng tồn tại một số nguyên xuất hiện trong bảng ít nhất 6 lần.",
+        "question_images": [],
+        "solution": "Ta thấy hai ô vuông ở hai góc đối của hình vuông %(10 \\times 10)% là xa nhau nhất.<br>Gọi các số được điền vào mỗi ô vuông đó lần lượt là %(a_{1}, a_{2}, a_{3}, \\ldots, a_{19})%.<br>Ta có<br>\\[\\Leftrightarrow-1\\lt a_{1}-a_{2}\\lt 1\\]<br>Tương tự ta có:<br>\\[\\begin{array}{l}-1\\lt a_{2}-a_{3}\\lt 1 ; \\\\ldots \\ldots \\ldots \\ldots \\ldots \\ldots \\ldots \\ldots \\ldots \\ldots \\ldots \\ldots a_{1}-a_{2} \\mid\\lt 1 \\\\-1\\lt a_{18}-a_{19}\\lt 1 .\\end{array}\\]<br>Cộng từng vế các bất đẳng thức trên ta có:<br>\\[-18\\lt a_{1}-a_{19}\\lt 18 \\Leftrightarrow\\left|a_{1}-a_{19}\\right|\\lt 18\\]<br>Vì %(a_{1}, a_{2}, a_{3}, \\ldots, a_{19})% là các số nguyên nên chỉ có tối đa 19 số nguyên khác nhau được điền vào trong bảng.<br>Có 100 ô vuông trên bảng nên theo nguyên lý Dirichle thì sẽ có một số xuất hiện trên bảng ít nhất là %(\\left[\\frac{100}{19}\\right]+1=6 \\quad)% (lần).<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e3353a67c7f39d82629ae6c98f2bf316.png\" srcset=\"https://docdn.giainhanh.io/media/test/29d04ca5e76c0b96a140f7124fca354b.png 173w, https://docdn.giainhanh.io/media/test/333ef7adc82b3218e2db291c83636529.png 500w, https://docdn.giainhanh.io/media/test/a67a2600c2facccbc03c0cafcda75fb2.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,81 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(\\frac{\\sin 2 x-\\cos 2 x-3 \\sin x-\\cos x+2}{\\sin x}=0)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Điều kiện xác định: } \\sin x \\neq 0 \\Leftrightarrow x \\neq k \\pi \\text {. } \\\\ \\text { Phương trình } \\Leftrightarrow \\sin 2 x-\\cos 2 x-3 \\sin x-\\cos x+2=0 \\\\ \\Leftrightarrow 2 \\sin x \\cdot \\cos x-\\cos x-\\left(1-2 \\sin ^{2} x\\right)-3 \\sin x+2=0 \\\\ \\Leftrightarrow \\cos x(2 \\sin x-1)+\\left(2 \\sin ^{2} x-3 \\sin x+1\\right)=0 \\\\ \\Leftrightarrow(2 \\sin x-1)(\\cos x+\\sin x-1)=0 \\\\ \\Leftrightarrow\\left[\\begin{array}{l}\\sin x=\\frac{1}{2} \\\\ \\cos x+\\sin x=1\\end{array}\\right. \\\\ \\sin x=\\frac{1}{2} \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{\\pi}{6}+k 2 \\pi \\\\ x=\\frac{5 \\pi}{6}+k 2 \\pi\\end{array}\\right.\\end{array})%<br>\\[\\sin x+\\cos x=1 \\Leftrightarrow \\sin \\left(x+\\frac{\\pi}{4}\\right)=\\frac{1}{\\sqrt{2}} \\Leftrightarrow\\left[\\begin{array}{l}x=k 2 \\pi \\x=\\frac{\\pi}{2}+k 2 \\pi\\end{array}\\right.\\]<br>Đối chiếu điều kiện, nghiệm của phương trình là:<br>\\[x=\\frac{\\pi}{6}+k 2 \\pi ; x=\\frac{5 \\pi}{6}+k 2 \\pi ; x=\\frac{\\pi}{2}+k 2 \\pi \\cdot(k \\in \\mathbb{Z}) .\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình sau: %(\\left\\{\\begin{array}{c}3 \\sqrt[3]{x^{2} y^{5}}=4\\left(y^{2}-x^{2}\\right) \\\\ 5 \\sqrt[3]{x^{4} y}=y^{2}+x^{2}\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Ta thấy %((x ; y)=(0 ; 0))% là một nghiệm của hệ phương trình<br>Với %((x ; y) \\neq(0 ; 0))%, ta có:<br>%(15 x^{2} y^{2}=4\\left(y^{2}+x^{2}\\right)\\left(y^{2}-x^{2}\\right) \\Leftrightarrow\\left(4 x^{2}-y^{2}\\right)\\left(x^{2}+4 y^{2}\\right)=0 \\Leftrightarrow y= \\pm 2 x)%<br>TH1: %(y=2 x)%, ta có:<br>%(3 \\sqrt[3]{x^{2} \\cdot 32 \\cdot x^{5}}=4\\left(4 x^{2}-x^{2}\\right) \\Leftrightarrow \\sqrt[3]{x^{2} \\cdot 32 \\cdot x^{5}}=4 x^{2})%<br>\\[\\Leftrightarrow 32 . x^{7}=64 . x^{6} \\Leftrightarrow x=2 \\Rightarrow y=4 \\text { (vì }(x ; y) \\neq(0 ; 0) \\text { ) }\\]<br>Do đó hệ phương trình có nghiệm %((x ; y)=(2 ; 4))%<br>TH2: %(y=-2 x)%, ta có:<br>%(-3 \\sqrt[3]{x^{2} \\cdot 32 \\cdot x^{5}}=4\\left(4 x^{2}-x^{2}\\right) \\Leftrightarrow-\\sqrt[3]{x^{2} \\cdot 32 \\cdot x^{5}}=4 x^{2})%<br>\\[\\Leftrightarrow-32 . x^{7}=64 . x^{6} \\Leftrightarrow x=-2 \\Rightarrow y=4 \\text { (vì }(x ; y) \\neq(0 ; 0) \\text { ) }\\]<br>Do đó hệ phương trình có nghiệm %((x ; y)=(-2 ; 4))%<br>Vậy hệ phương trình đã cho có 3 nghiệm: %((0 ; 0),(2 ; 4),(-2 ; 4))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 1.0,
+        "content": "Tính : %(\\lim _{x \\rightarrow 1} \\frac{\\sqrt{8 x+8}-x^{4}+3 x-6}{(x-1)^{2}})%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}\\lim _{x \\rightarrow 1} \\frac{\\sqrt{8 x+8}-x^{4}+3 x-6}{(x-1)^{2}}=\\lim _{x \\rightarrow 1}\\left[\\frac{\\sqrt{8 x+8}-(x+3)}{(x-1)^{2}}-\\frac{x^{4}-4 x+3}{(x-1)^{2}}\\right] \\\\=\\lim _{x \\rightarrow 1} \\frac{\\sqrt{8 x+8}-(x+3)}{(x-1)^{2}}-\\lim _{x \\rightarrow 1} \\frac{x^{4}-4 x+3}{(x-1)^{2}} \\\\=\\lim _{x \\rightarrow 1} \\frac{8 x+8-(x+3)^{2}}{(x-1)^{2}(\\sqrt{8 x+8}+(x+3))}-\\lim _{x \\rightarrow 1} \\frac{(x-1)^{2}\\left(x^{2}+2 x+3\\right)}{(x-1)^{2}} \\\\=\\lim _{x \\rightarrow 1} \\frac{-(x-1)^{2}}{(x-1)^{2}(\\sqrt{8 x+8}+x+3)}-\\lim _{x \\rightarrow 1} \\frac{(x-1)^{2}\\left(x^{2}+2 x+3\\right)}{(x-1)^{2}} \\\\=\\lim _{x \\rightarrow 1} \\frac{-1}{\\sqrt{8 x+8}+x+3}-\\lim _{x \\rightarrow 1}\\left(x^{2}+2 x+3\\right) \\\\=\\frac{-1}{8}-6=-\\frac{49}{8}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 1.0,
+        "content": "Một hộp đựng chín quả cầu được đánh số từ 1 đến 9 . Hỏi phải lấy ra ít nhất bao nhiêu quả cầu để xác suất có ít nhất một quả cầu ghi số chia hết cho 4 phải lớn hơn %(\\frac{5}{6})%.",
+        "question_images": [],
+        "solution": "Giả sử ta lấy ra %(x)% quả cầu %((1 \\leq x \\leq 9, x \\in \\mathbb{N}))%, số cách chọn %(x)% quả cầu từ 9 quả cầu trong hộp là %(C_{9}^{x})% nên số phần tử của không gian mẫu là %(n(\\Omega)=C_{9}^{x})%.<br>Gọi %(A)% là biến cố \"trong số %(x)% quả cầu lấy ra, có ít nhất một quả cầu ghi số chia hết cho 4\", thế thì biến cố đối của %(A)% là %(\\bar{A})%: \"trong số %(x)% quả cầu lấy ra, không có quả cầu nào ghi số chia hết cho 4\".<br>Số cách chọn tương ứng với biến cố %(\\bar{A})% là %(n(\\bar{A})=C_{7}^{x})%.<br>Ta có: %(P(\\bar{A})=\\frac{n(\\bar{A})}{n(\\Omega)}=\\frac{C_{7}^{x}}{C_{9}^{x}}=\\frac{(9-x)(8-x)}{72}=\\frac{x^{2}-17 x+72}{72})%<br>Do đó: %(P(A)=1-P(\\bar{A})\\gt \\frac{5}{6} \\Leftrightarrow P(\\bar{A})=\\frac{x^{2}-17 x+72}{72}\\lt \\frac{1}{6})%.<br>Hay %(x^{2}-17 x+60\\lt 0 \\Leftrightarrow 5\\lt x\\lt 12)%<br>Vì %(1 \\leq x \\leq 9, x \\in \\mathbb{N})% nên %(6 \\leq x \\leq 9, x \\in \\mathbb{N})%.<br>Do đó giá trị nhỏ nhất của %(x)% là 6.<br>Vậy số quả cầu phải lấy ra ít nhất mà ta phải tìm là 6 quả cầu.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 1.0,
+        "content": "Cho dãy số %(\\left(u_{n}\\right))% được xác định bởi:<br>\\[u_{1}=5, u_{n+1}=\\frac{1}{2} u_{n}+\\frac{n^{2}+n-2}{n^{3}+3 n^{2}+2 n} ; n \\geq 1 \\text {. }\\]<br>Tìm %(\\lim \\left(n \\cdot u_{n}\\right))%.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[u_{n+1}=\\frac{1}{2} u_{n}+\\frac{(n-1)(n+2)}{n(n+1)(n+2)}=\\frac{1}{2} u_{n}+\\frac{2}{n+1}-\\frac{1}{n}\\]<br>Hay: %(u_{n+1}-\\frac{2}{n+1}=\\frac{1}{2}\\left(u_{n}-\\frac{2}{n}\\right))%<br>Đặt %(v_{n}=u_{n}-\\frac{2}{n} ; n \\geq 1)%.<br>Khi đó ta có dãy số %(\\left(v_{n}\\right), v_{1}=3 ; v_{n+1}=\\frac{1}{2} v_{n} ; n \\geq 1)%là một cấp số nhân có %(v_{1}=3)%, công bội %(q=\\frac{1}{2})%.<br>Nên %(v_{n}=3 \\cdot \\frac{1}{2^{n-1}})% hay %(u_{n}=\\frac{3}{2^{n-1}}+\\frac{2}{n} ; n \\geq 1 \\Rightarrow n \\cdot u_{n}=\\frac{3 n}{2^{n-1}}+2)%.<br>Bằng quy nạp ta chứng minh được %(2^{n+1}\\gt n^{2} ; \\forall n \\geq 1~~~(1))%.<br>Thật vậy: Với %(n=1, n=2, n=3)%, (1) đúng<br>Giả sử (1) đúng với %(n=k,(k \\geq 3))% tức %(2^{k+1}>k^{2})% đúng<br>Ta chứng minh (1) đúng với %(n=k+1)%.<br>Thật vậy: %(2^{k+2}=2.2^{k+1}>2 . k^{2}>(k+1)^{2}, \\forall k \\geq 3)%<br>Suy ra: %(0\\lt \\frac{3 n}{2^{n-1}}\\lt \\frac{12}{n})%.<br>Từ đây suy ra: %(\\lim \\frac{3 n}{2^{n-1}}=0)%.<br>Khi đó %(\\lim \\left(n \\cdot u_{n}\\right)=\\lim \\left(\\frac{3 n}{2^{n-1}}+2\\right)=2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 1.0,
+        "content": "Tìm tất cả các số nguyên dương %(n)% sao cho %(3^{2 n}+3 n^{2}+7)% là một số chính phương.",
+        "question_images": [],
+        "solution": "Nếu %(3^{2 n}+3 n^{2}+7=b^{2})% với %(b \\in \\mathbb{N}^{*})% thì %(b^{2}\\gt 3^{2 n})% hay %(b>3^{n})%.<br>Điều này chứng tỏ: %(b \\geq 3^{n}+1)%.<br>Do đó: %(3^{2 n}+3 n^{2}+7=b^{2} \\geq\\left(3^{n}+1\\right)^{2}=3^{2 n}+2 \\cdot 3^{n}+1)%.<br>Suy ra %(2 \\cdot 3^{n} \\leq 3 . n^{2}+6(*))%<br>Nếu %(n \\geq 3)% thì (*)không xảy ra vì:<br>\\[\\begin{aligned}2.3^{n}=2 \\cdot(1+2)^{n} & =2\\left(C_{n}^{0}+C_{n}^{1} \\cdot 2+C_{n}^{2} \\cdot 2^{2}+\\ldots\\right) \\\\& =2\\left(1+2 n+\\frac{n(n-1)}{2} \\cdot 2^{2}+\\ldots\\right) \\\\& \\gt 2+4 n+4 n^{2}-4 n=3 n^{2}+\\left(n^{2}+2\\right) \\\\& \\geq 3 n^{2}+11>3 n^{2}+6\\end{aligned}\\]<br>Do đó %(n=1)% hoặc %(n=2)%.<br>Khi %(n=1)% ta tính được %(3^{2 n}+3 n^{2}+7=19)% không phải là số chính phương<br>Khi %(n=2)% ta tính được %(3^{2 n}+3 n^{2}+7=100)% là số chính phương.<br>Kết luận: %(n=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7:",
+        "group_content": "Cho hình hộp %(A B C D \\cdot A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime})%. Gọi %(G)% là trọng tâm của tam giác %(B C^{\\prime} D)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Xác định thiết diện của hình hộp %(A B C D \\cdot A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime})% khi cắt bởi mặt phẳng %((A B G))%. Thiết diện đó là hình gì?",
+        "question_images": [],
+        "solution": "Trong mặt phẳng %(\\left(B C^{\\prime} D\\right))% kéo dài %(B G)% cắt %(C^{\\prime} D)% tại %(I)%.<br>Khi đó:<br>\\[\\left\\{\\begin{array}{c}(A B G) \\cap\\left(C D D^{\\prime} C^{\\prime}\\right)=I x \\A B \\subset(A B G), C D \\subset\\left(C D D^{\\prime} C^{\\prime}\\right) \\Rightarrow I x \\| C D \\A B \\| C D\\end{array}\\right.\\]<br>Từ đó, trong %(\\left(C D D^{\\prime} C^{\\prime}\\right))% kẻ %(I x \\| C D)% cắt %(C C^{\\prime}, D D^{\\prime})% lần lượt tại %(E, F)%<br>Vậy thiết diện cần tìm là hình bình hành %(A B E F)% (Vì %(E F=C D=A B)% và %(E F)% song song với %(A B)% )<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e532ef41e4b4d0d8ca75fc63dced18d8.png\" srcset=\"https://docdn.giainhanh.io/media/test/42c21da6d029459bdaa656f35cf6072c.png 209w, https://docdn.giainhanh.io/media/test/92c0d82c1300431f09eb355982e7d72f.png 500w, https://docdn.giainhanh.io/media/test/7bcdba6400308a7d27980093fbb5d7fa.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Hai điểm %(M, N)% lần lượt thuộc hai đoạn thẳng %(A D, A^{\\prime} C)% sao cho %(M N)% song song với mặt phẳng %(\\left(B C^{\\prime} D\\right))%, biết %(A M=\\frac{1}{4} A D)%. Tính tỉ số %(\\frac{C N}{C A'})%.",
+        "question_images": [],
+        "solution": "Gọi %(O=A C \\cap B D)%.<br>Ta thấy %(A^{\\prime} \\mathrm{C})% đi qua %(G)%.<br>Khi đó, qua %(M)% kẻ đường thẳng song song với %(B D)% và cắt %(A C)% tại %(K)%.<br>Trong mặt phẳng %(\\left(A C C^{\\prime} A^{\\prime}\\right))%, gọi %(L=K N \\cap A^{\\prime} C^{\\prime})%, ta có:<br>\\[\\left\\{\\begin{array}{l}M N \\|\\left(B C^{\\prime} D\\right) \\M K \\|\\left(B C^{\\prime} D\\right)\\end{array} \\Rightarrow(M N K)\\left\\|\\left(B C^{\\prime} D\\right) \\Rightarrow K N\\right\\|\\left(B C^{\\prime} D\\right) \\Rightarrow K N \\| O C^{\\prime}\\right.\\]<br>Mặt khác, theo giả thiết, ta có: %(\\frac{A K}{A O}=\\frac{A M}{A D}=\\frac{1}{4} \\Rightarrow \\frac{K O}{A O}=\\frac{3}{4})%<br>\\[\\Rightarrow \\frac{K O}{A C}=\\frac{3}{8} \\text { và } \\frac{K C}{A C}=\\frac{7}{8}\\]<br>Vì %(K O=L C^{\\prime}, A C=A^{\\prime} C^{\\prime})% nên %(\\frac{L C^{\\prime}}{A^{\\prime} C^{\\prime}}=\\frac{3}{8} \\Rightarrow \\frac{A^{\\prime} L}{A^{\\prime} C^{\\prime}}=\\frac{5}{8})%<br>Mà %(\\frac{A^{\\prime} L}{K C}=\\frac{A^{\\prime} L}{A^{\\prime} C^{\\prime}} \\cdot \\frac{A C}{K C}=\\frac{5}{8} \\cdot \\frac{8}{7}=\\frac{5}{7} \\Rightarrow \\frac{A^{\\prime} N}{N C}=\\frac{5}{7})%Vậy %(\\frac{C N}{C A^{\\prime}}=\\frac{7}{12})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f42d4a62d232aec51dda650fb23991d0.png\" srcset=\"https://docdn.giainhanh.io/media/test/f4c6c9d71d6eec7ab3d0c0a9b3d40f71.png 202w, https://docdn.giainhanh.io/media/test/ef45d2c92849aba44d2745d639fdcfbb.png 500w, https://docdn.giainhanh.io/media/test/53f3c97af91475a6b1fffff60d98d281.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 1.0,
+        "content": "Cho %(a, b, c)% là các số thực dương. Chứng minh rằng:<br>\\[\\sqrt[3]{\\frac{2 a}{4 a+4 b+c}}+\\sqrt[3]{\\frac{2 b}{4 b+4 c+a}}+\\sqrt[3]{\\frac{2 c}{4 c+4 a+b}}\\lt 2~~~(1)\\]",
+        "question_images": [],
+        "solution": "Ta chứng minh bổ đề sau:<br>Cho các số thực dương %(m, n)% khi đó: %(\\sqrt[3]{4(m+n)} \\geq \\sqrt[3]{m}+\\sqrt[3]{n}~~~(2))%<br>Dấu ' %(=)% ' xảy ra khi và chỉ khi %(\\mathrm{m}=\\mathrm{n})%.<br>Thật vậy: Đặt %(x=\\sqrt[3]{m}, y=\\sqrt[3]{n} ; \\quad(x, y\\gt 0))%.<br>Bất đẳng thức (2) được viết lại %(\\sqrt[3]{4\\left(x^{3}+y^{3}\\right)} \\geq x+y)%.<br>Ta xét:<br>\\[\\begin{aligned}4\\left(x^{3}+y^{3}\\right)-(x+y)^{3} & =3\\left(x^{3}-x^{2} y-x y^{2}+y^{3}\\right) \\\\& =3(x-y)\\left(x^{2}-y^{2}\\right) \\\\& =3(x-y)^{2}(x+y) \\geq 0 ; \\forall x, y>0\\end{aligned}\\]<br>Nên ta có:<br>%(4\\left(x^{3}+y^{3}\\right) \\geq(x+y)^{3})% hay %(\\sqrt[3]{4\\left(x^{3}+y^{3}\\right)} \\geq x+y)% hay bất đẳng thức (2) ở bổ đề được chứng minh xong.<br>Bất đẳng thức đã cho tương đương với<br>\\[\\sqrt[3]{\\frac{a}{16 a+16 b+4 c}}+\\sqrt[3]{\\frac{b}{16 b+16 c+4 a}}+\\sqrt[3]{\\frac{c}{16 c+16 a+4 b}}\\lt 1\\]<br>Sử dụng bất đẳng thức (2) ở bổ đề trên ta có:<br>\\[\\begin{aligned}\\sqrt[3]{\\frac{a}{16 a+16 b+4 c}} & =\\sqrt[3]{\\frac{a}{4((4 a+4 b)+c)}} \\\\& \\leq \\frac{\\sqrt[3]{a}}{\\sqrt[3]{4(a+b)}+\\sqrt[3]{c}} \\leq \\frac{\\sqrt[3]{a}}{\\sqrt[3]{a}+\\sqrt[3]{b}+\\sqrt[3]{c}}\\end{aligned}\\]<br>Tương tự:<br>\\[\\begin{array}{l}\\sqrt[3]{\\frac{b}{16 b+16 c+4 a}} \\leq \\frac{\\sqrt[3]{b}}{\\sqrt[3]{a}+\\sqrt[3]{b}+\\sqrt[3]{c}} \\\\sqrt[3]{\\frac{c}{16 c+16 a+4 b}} \\leq \\frac{\\sqrt[3]{c}}{\\sqrt[3]{a}+\\sqrt[3]{b}+\\sqrt[3]{c}}\\end{array}\\]<br>Từ đây ta có:<br>\\[\\sqrt[3]{\\frac{a}{16 a+16 b+4 c}}+\\sqrt[3]{\\frac{b}{16 b+16 c+4 a}}+\\sqrt[3]{\\frac{c}{16 c+16 a+4 b}} \\leq 1~~~(3)\\]<br>Đẳng thức (3) xảy ra khi %(4 a+4 b=c, 4 b+4 c=a, 4 c+4 a=b)% nên %(8(a+b+c)=a+b+c \\Rightarrow a+b+c=0)% mâu thuẫn.<br>Chứng tỏ dấu \" %(=)% \" không xảy ra.<br>Vậy %(\\sqrt[3]{\\frac{2 a}{4 a+4 b+c}}+\\sqrt[3]{\\frac{2 b}{4 b+4 c+a}}+\\sqrt[3]{\\frac{2 c}{4 c+4 a+b}}\\lt 2)%",
+        "question_type": "essay"
+    }
+]

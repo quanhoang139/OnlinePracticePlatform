@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.5,
+        "content": "Chứng minh với mọi số thực %(x, y, z, t)% ta luôn có bất đẳng thức sau :<br>\\[x^{2}+y^{2}+z^{2}+t^{2} \\geq x(y+z+t) \\text {. }\\]<br>Đẳng thức xảy ra khi nào?",
+        "question_images": [],
+        "solution": "Đpcm %(\\Leftrightarrow x^{2}+y^{2}+z^{2}+t^{2}-x y-x z-x t \\geq 0)%<br>%(\\Leftrightarrow(y-x / 2)^{2}+(z-x / 2)^{2}+(t-x / 2)^{2}+x^{2} / 4 \\geq 0)%<br>Đẳng thúc xáy ra khi và chỉ khi %(x=y=z=t=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 0.5,
+        "content": "Chứng minh với mọi số thực %(a, b)% khác không ta luôn có bất đẳng thức sau:<br>\\[\\frac{a^{2}}{b^{2}}+\\frac{b^{2}}{a^{2}}+4 \\geq 3\\left(\\frac{a}{b}+\\frac{b}{a}\\right) .\\]",
+        "question_images": [],
+        "solution": "Đặt %(t=\\frac{a}{b}+\\frac{b}{a})%.<br>Ta có<br>\\[|t|=\\left|\\frac{a}{b}+\\frac{b}{a}\\right|=\\left|\\frac{a}{b}\\right|+\\left|\\frac{b}{a}\\right| \\geq 2\\]<br>Đpcm %(\\Leftrightarrow t^{2}-3 t+2 \\geq 0)%<br>%(\\Leftrightarrow(t-2)(t-1) \\geq 0)% (1)<br>Do %(|t| \\geq 2)% nên (1) đúng .Suy ra điều cần chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tìm nghiệm nguyên %(x)%, %(y)% của phương trình :<br>\\[x^{2}-x y=6 x-5 y-8\\]",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}x^{2}-x y=6 x-5 y-8 \\Leftrightarrow y=\\frac{x^{2}-6 x+8}{x-5} \\\\ \\Leftrightarrow y=x-1+\\frac{3}{x-5}\\end{array})%<br>Do y và %((x-1))% là số nguyên nên (x-5) là uớc số của 3<br>Suy ra %((x-5) \\in(1,-1,3,-3\\} \\Leftrightarrow x \\in\\{6,4,8,2\\})%<br>Suy ra PT có 4 nghiệm: %((6,8) ;(4,0) ;(8,8) ;(2,0))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho hệ phương trình %(\\left\\{\\begin{array}{l}x^{2}+y^{2}+2 x+2 y=11 \\\\ x y(x+2)(y+2)=m\\end{array}\\right.)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Giải hệ phương trình khi %(m=24)%.",
+        "question_images": [],
+        "solution": "%(\\operatorname{HPT}(I) \\Leftrightarrow\\left\\{\\begin{array}{l}(x+1)^{2}+(y+1)^{2}=13 \\\\ {\\left[(x+1)^{2}-1\\right]\\left[(y+1)^{2}-1\\right]=m}\\end{array}\\right.)%<br>Đặt %(\\left\\{\\begin{array}{l}u=(x+1)^{2} \\\\ v=(y+1)^{2}\\end{array}\\right.)%, ta có %(\\left\\{\\begin{array}{l}u \\geq 0 \\\\ v \\geq 0\\end{array}\\right.)%<br>Thay vào %(H P T(I))% trở thành %(\\left\\{\\begin{array}{l}u+v=13 \\\\ u v-(u+v)+1=m\\end{array} \\Leftrightarrow(II)\\left\\{\\begin{array}{l}u+v=13 \\\\ u v=m+12\\end{array}\\right.\\right.)%<br>Với %(m=24)% HPT (II) trở thành<br>%(\\left\\{\\begin{array}{l}u+v=13 \\\\ u v=36\\end{array}\\right.)%Giải HPT (II) ta đuợc 2 nghiệm %((4,9)(9,4))%<br>Suy ra HPT có 8 nghiệm %((1,2),(2,1),(1,-4),(-4,1),(-3,2),(2,-3),(-3,-4),(-4,-3))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm %(m)% để hệ phương trình có nghiệm.",
+        "question_images": [],
+        "solution": "Vì %(a=x(x+2)=\\gt x^{2}+2 x=a \\Leftrightarrow=>(x+1)^{2}=a+1 ; b=y(y+2)=>(y+1)^{2}=b+1)%<br>%(=\\gt a+1 \\geq 0)% và %(b+1 \\geq 0\\lt =>a ; b \\geq-1)%<br>Để hệ có nghiệm => (*) có 2 nghiệm %(\\mathrm{t}_{1} ; \\mathrm{t}_{2} \\geq-1)%<br>%(\\Leftrightarrow \\Delta \\geq 0 ; t_{1} \\geq-1 ; t_{2} \\geq-1)%<br>+) %(\\Delta \\geq 0\\lt =\\gt 121-4 \\mathrm{~m} \\geq 0\\lt =>)%%({30,25} \\geq \\mathrm{m})%<br>%(\\begin{array}{l}\\text { +) } \\mathrm{t}_{1} \\geq-1 ; \\mathrm{t}_{2} \\geq-1\\lt =\\gt \\mathrm{t}_{1}+1 \\geq 0 ; \\mathrm{t}_{2}+1 \\geq 0 \\\\ \\lt =>\\left(\\mathrm{t}_{1}+1\\right)+\\left(\\mathrm{t}_{2}+1\\right) \\geq 0 \\text { và }\\left(\\mathrm{t}_{1}+1\\right)\\left(\\mathrm{t}_{2}+1\\right) \\geq 0\\end{array})%<br>Theo hệ thức Vi ét ta có : %(\\mathrm{t}_{1}+\\mathrm{t}_{2}=11 / 2=5,5 ; \\mathrm{t}_{1} \\cdot \\mathrm{t}_{2}=\\mathrm{m})%<br>Suy ra %(\\left(t_{1}+1\\right)+\\left(t_{2}+1\\right)=7,5 \\geq 0)% (đúng)<br>và %(\\left(t_{1}+1\\right)\\left(t_{2}+1\\right)=t_{1} \\cdot t_{2}+\\left(t_{1}+t_{2}\\right)+1=m)% %(+5,5+1=m+6,5 \\geq 0=>m \\geq-6,5)%<br>Vậy để hệ có nghiệm => -6,5 %(\\leq \\mathrm{m} \\leq 30,25)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "%(\\begin{array}{l}\\text { Cho }\\left(x+\\sqrt{x^{2}+2007}\\right)\\left(y+\\sqrt{y^{2}+2007}\\right)=2007 \\\\ \\text { Tinh } S=x+y\\end{array})%",
+        "question_images": [],
+        "solution": "Đặt %(a=2007 . T a)% có %(\\left(x+\\sqrt{x^{2}+a}\\right)\\left(y+\\sqrt{y^{2}+a}\\right)=a)%.<br>Nhân hai vế của đẳng thức trên lần lượt cho %(\\left(x-\\sqrt{x^{2}+a}\\right) v a ̀\\left(y-\\sqrt{y^{2}+a}\\right))%<br>Ta đuợc : %(-a\\left(y+\\sqrt{y^{2}+a}\\right)=a\\left(x-\\sqrt{x^{2}+a}\\right))%<br>%(-a\\left(x+\\sqrt{x^{2}+a}\\right)=a\\left(y-\\sqrt{y^{2}+a}\\right))%<br>%(\\begin{array}{l}(1)+(2) \\Rightarrow-a(x+y)=a(x+y) \\\\ \\Rightarrow 2 a(x+y)=0 \\Rightarrow S=x+y=0\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho %(a, b)% là các số nguyên duơng sao cho %(\\frac{a+1}{a}+\\frac{b+1}{b})% cũng là số nguyên. Gọi d là uớc số chung của a và %(b)%. Chứng minh %(d \\leq \\sqrt{a+b})%.",
+        "question_images": [],
+        "solution": "\\[\\frac{a+1}{a}+\\frac{b+1}{b}=2+\\frac{a+b}{a b}\\]<br>là số nguyên<br>suy ra %(a+b)% chia hết cho %(a b)%.<br>%(d)% là ước của %(a, b)% suy ra %(\\mathrm{d}^{2})% là ước của %(a b)%<br>suy ra %(d^{2})% là uớc của %(a+b)% suy ra %(\\mathrm{d}^{2})% %(\\leq a+b)% suy ra d %(\\leq \\sqrt{a+b})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác %(A B C)% có 3 góc nhọn nội tiếp trong đường tròn %((O)(A B\\lt A C))%. Các tiếp tuyến với %((O))% tại %(B)% và %(C)% cắt nhau tại %(N)%. Vẽ dây %(A M)% song song với %(B C)%. Đường thẳng %(M N)% cắt đường tròn %((O))% tại %(M)% và %(P)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Cho biết %(\\frac{1}{O B^{2}}+\\frac{1}{N C^{2}}=\\frac{1}{16})%, tính độ dài đoạn %(B C)%.",
+        "question_images": [],
+        "solution": "Gọi I là giao điếm của %(O N)% và BC<br>suy ra ON vuông góc với BC tại I<br>Trong tam giác vuông %(O B N)% ta có %(\\frac{1}{\\mathrm{OB}^{2}}+\\frac{1}{\\mathrm{NB}^{2}}=\\frac{1}{\\mathrm{BI}^{2}})%<br>Suy ra %(\\frac{1}{\\mathrm{BI}^{2}}=\\frac{1}{\\mathrm{OB}^{2}}+\\frac{1}{\\mathrm{NB}^{2}}=\\frac{1}{\\mathrm{OB}^{2}}+\\frac{1}{\\mathrm{NC}^{2}}=\\frac{1}{16})%<br>Suy ra %(B I=4)%<br>Suy ra %(B C=8)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh %(\\frac{B P}{A C}=\\frac{C P}{A B})%",
+        "question_images": [],
+        "solution": "Tam giác %(N B P)% đồng dạng tam giác %(N M B)% suy ra<br>\\[\\frac{\\mathrm{BP}}{\\mathrm{MB}}=\\frac{\\mathrm{NP}}{\\mathrm{NB}}\\]<br>Tú giác %(A M C B)% là hình thang cân nên %(A C=M B)%<br>Suy ra %(\\frac{\\mathrm{BP}}{\\mathrm{AC}}=\\frac{\\mathrm{NP}}{\\mathrm{NB}})%<br>Tương tự %(\\frac{\\mathrm{CP}}{\\mathrm{AB}}=\\frac{\\mathrm{NP}}{\\mathrm{NC}})%<br>Mà %(N B=N C)% nên %(\\quad \\frac{\\mathrm{BP}}{\\mathrm{AC}}=\\frac{\\mathrm{CP}}{\\mathrm{AB}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Chứng minh %(B C, O N)% và AP đồng qui.",
+        "question_images": [],
+        "solution": "Gọi D là giao điểm của %(A P)% và %(B C)%.<br>Tam giác BDP đồng dạng với tam giác %(A D C)% suy ra<br>\\[\\frac{B P}{A C}=\\frac{B D}{A D}\\]<br>Tương tự %(\\frac{\\mathrm{CP}}{\\mathrm{AB}}=\\frac{\\mathrm{CD}}{\\mathrm{AD}})%<br>Áp dụng kết quả câu b suy ra<br>\\[\\frac{B D}{A D}=\\frac{C D}{A D}\\]<br>Suy ra %(B D=C D)%.<br>Suy ra %(D)% trùng %(I)%.<br>Suy ra %(B C, O N)% và AP đồng qui tại %(I)%.",
+        "question_type": "essay"
+    }
+]

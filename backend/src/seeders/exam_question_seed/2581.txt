@@ -1,0 +1,95 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(\\mathrm{P}=\\left(1+\\frac{5}{\\sqrt{\\mathrm{x}}-2}\\right) \\cdot\\left(\\sqrt{\\mathrm{x}}-\\frac{\\mathrm{x}+2 \\sqrt{\\mathrm{x}}+4}{\\sqrt{\\mathrm{x}}+3}\\right))% với %(\\mathrm{x} \\geq 0)% và %(\\mathrm{x} \\neq 4)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Rút gọn P",
+        "question_images": [],
+        "solution": "Với %(x \\geq 0)% và %(x \\neq 4)%. Ta có:<br>\\[\\begin{aligned}P & =\\left(1+\\frac{5}{\\sqrt{x}-2}\\right) \\cdot\\left(\\sqrt{x}-\\frac{x+2 \\sqrt{x}+4}{\\sqrt{x}+3}\\right)=\\frac{\\sqrt{x}-2+5}{\\sqrt{x}-2} \\cdot \\frac{\\sqrt{x}(\\sqrt{x}+3)-(x+2 \\sqrt{x}+4)}{\\sqrt{x}+3} \\\\& =\\frac{\\sqrt{x}+3}{\\sqrt{x}-2} \\cdot \\frac{x+3 \\sqrt{x}-x-2 \\sqrt{x}-4}{\\sqrt{x}+3}=\\frac{\\sqrt{x}+3}{\\sqrt{x}-2} \\cdot \\frac{\\sqrt{x}-4}{\\sqrt{x}+3}=\\frac{\\sqrt{x}-4}{\\sqrt{x}-2}\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm x để P > 1",
+        "question_images": [],
+        "solution": "Với %(x \\geq 0)% và %(x \\neq 4)% (1). Ta có:<br>\\[\\begin{aligned}\\mathrm{P}\\gt 1 & \\Leftrightarrow \\frac{\\sqrt{\\mathrm{x}}-4}{\\sqrt{\\mathrm{x}}-2}>1 \\Leftrightarrow \\frac{\\sqrt{\\mathrm{x}}-4}{\\sqrt{\\mathrm{x}}-2}-1>0 \\Leftrightarrow \\frac{\\sqrt{\\mathrm{x}}-4-\\sqrt{\\mathrm{x}}+2}{\\sqrt{\\mathrm{x}}-2}>0 \\Leftrightarrow \\frac{-2}{\\sqrt{\\mathrm{x}}-2}>0 \\\\& \\Leftrightarrow \\sqrt{\\mathrm{x}}-2\\lt 0 \\Leftrightarrow \\sqrt{\\mathrm{x}}\\lt 2 \\Leftrightarrow 0 \\leq \\mathrm{x}\\lt 4 \\text { (2) }\\end{aligned}\\]<br>Từ 1 và 2, ta có: %(P>1 \\Leftrightarrow 0 \\leq x\\lt 4)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Cho phương trình: %(x^{2}-2(m+1) x+m-4=0 \\quad(1))%, ( %(m)% là tham số).",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Giải phương trình (1) với %(\\mathrm{m}=-5)%.",
+        "question_images": [],
+        "solution": "Với %(\\mathrm{m}=-5,(1))% trở thành: %(\\mathrm{x}^{2}+8 \\mathrm{x}-9=0)%.Phương trình có: %(a+b+c=1+8-9=0)%, nên phương trình có hai nghiệm :<br>\\[x_{1}=1 ; x_{2}=\\frac{c}{a}=-9 .\\]<br>*Vậy: Với %(m=-5)%, phương trình (1) đã cho có hai nghiệm: %(x_{1}=1 ; x_{2}=-9)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh rằng phương trình (1) luôn có hai nghiệm phân biệt với mọi m.",
+        "question_images": [],
+        "solution": "Phương trình (1) có:<br>\\[\\Delta=[-2(\\mathrm{~m}+1)]^{2}-4(\\mathrm{~m}-4)=4 \\mathrm{~m}^{2}+4 \\mathrm{~m}+20=(2 \\mathrm{~m}+1)^{2}+19 \\text {. }\\]<br>Do %((2 \\mathrm{~m}+1)^{2} \\geq 0)% với mọi %(\\mathrm{m})%, nên %((2 \\mathrm{~m}+1)^{2}+19 \\geq 19)% với mọi %(\\mathrm{m} \\Rightarrow \\Delta\\gt 0)% với mọi %(\\mathrm{m})%.<br>*Vây phương trình (1) luôn có hai nghiêm phân biêt %(\\mathrm{x}_{1}, \\mathrm{x}_{2})% với moi %(\\mathrm{m})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tìm %(\\mathrm{m})% để %(\\left|\\mathrm{x}_{1}-\\mathrm{x}_{2}\\right|)% đạt giá trị nhỏ nhất ( %(\\mathrm{x}_{1}, \\mathrm{x}_{2})% là hai nghiêm của phương trình (1) nói trong phần 2/.).",
+        "question_images": [],
+        "solution": "Theo phần 2/. phương trình (1) luôn có hai nghiệm phân biệt %(x_{1}, x_{2})% với mọi m, nên theo định lí Vi-ét ta có: %(\\mathrm{x}_{1}+\\mathrm{x}_{2}=\\frac{-\\mathrm{b}}{\\mathrm{a}}=2(\\mathrm{~m}+1))% và %(\\mathrm{x}_{1} \\cdot \\mathrm{x}_{2}=\\frac{\\mathrm{c}}{\\mathrm{a}}=\\mathrm{m}-4)%.* Ta có:<br>\\[+)\\left|x_{1}-x_{2}\\right|^{2}=\\left(x_{1}+x_{2}\\right)^{2}-4 x_{1} \\cdot x_{2}=[2(m+1)]^{2}-4(m-4)=\\ldots=(2 m+1)^{2}+19\\]<br>Do %((2 m+1)^{2} \\geq 0)% với mọi %(m)%, nên %((2 m+1)^{2}+19 \\geq 19)% với mọi %(m \\Rightarrow\\left|x_{1}-x_{2}\\right|^{2} \\geq 19)% với mọi %(m \\Rightarrow\\left|x_{1}-x_{2}\\right| \\geq \\sqrt{19})% với mọi %(m)%.<br>+) %(\\left|\\mathrm{x}_{1}-\\mathrm{x}_{2}\\right|=\\sqrt{19})% khi và chì khi %((2 \\mathrm{~m}+1)^{2}=0 \\Leftrightarrow \\mathrm{m}=-\\frac{1}{2})%.<br>* Vậy %(\\mathrm{m}=-\\frac{1}{2})% thì %(\\left|\\mathrm{x}_{1}-\\mathrm{x}_{2}\\right|)% đạt giá trị nhỏ nhất.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho đường tròn %((\\mathrm{O}))% và hai điểm %(\\mathrm{A}, \\mathrm{B})% phân biệt thuộc %((\\mathrm{O}))% sao cho đường thẳng %(\\mathrm{AB})% không đi qua tâm %(\\mathrm{O})%. Trên tia đối của tia %(\\mathrm{AB})% lấy điểm %(M)% khác điểm %(A)%, từ điểm %(M)% kẻ hai tiếp tuyến phân biệt %(M E, M F)% với đường tròn %((\\mathrm{O}))%, ( %(\\mathrm{E})% và %(\\mathrm{F})% là hai tiếp điểm). Gọi %(\\mathrm{H})% là trung điểm của dây cung %(\\mathrm{AB})%; các điểm %(\\mathrm{K})% và %(\\mathrm{I})% theo thứ tự là giao điếm của đường thẳng È với các đường thắng %(\\mathrm{OM})% và %(\\mathrm{OH})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh 5 điểm %(\\mathrm{M}, \\mathrm{O}, \\mathrm{H}, \\mathrm{E}, \\mathrm{F})% cùng nằm trên một đường tròn.",
+        "question_images": [],
+        "solution": "+) Ta có: %(M E)% là tiếp tuyến của (O) tại %(E(g t))%, nên %(\\mathrm{OE} \\perp \\mathrm{ME})% ( %(\\mathrm{t} / \\mathrm{c})% tiếp tuyến...)<br>\\[\\Rightarrow \\mathrm{OEM}=90^{\\circ} \\text {. }\\]<br>+) Chứng minh tương tự ta cũng có:<br>\\[\\mathrm{OFM}=90^{\\circ} \\text {. }\\]<br>+) Do %(\\mathrm{H})% là trung điểm của dây cung %(A B)% không đi qua tâm %(\\mathrm{O})%, nên %(\\mathrm{OH} \\perp \\mathrm{AB} \\Rightarrow \\mathrm{OH} \\perp \\mathrm{HM})%<br>\\[\\Rightarrow \\mathrm{OHM}=90^{\\circ} \\text {. }\\]<br>+) Vậy 3 điểm E, F, H cùng nhìn đoạn %(O M)% dưới một góc bằng %(90^{\\circ} \\Rightarrow 3)% điểm %(\\mathrm{E}, \\mathrm{F}, \\mathrm{H})% cùng nằm trên đường tròn đường kính %(\\mathrm{OM})%.<br>* Vậy 5 điểm %(\\mathrm{M}, \\mathrm{O}, \\mathrm{H}, \\mathrm{E}, \\mathrm{F})% cùng nằm trên một đường tròn.<br><img alt=\"https://docdn.giainhanh.io/media/test/fdb5149404dbfd7069fa4dfbb96e5831.png\" src=\"https://docdn.giainhanh.io/media/test/fdb5149404dbfd7069fa4dfbb96e5831.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh: %(\\mathrm{OH} . \\mathrm{OI}=\\mathrm{OK} . \\mathrm{OM})%",
+        "question_images": [],
+        "solution": "+) Do %(\\mathrm{ME}, \\mathrm{MF})% là hai tiếp tuyến của đường tròn %((\\mathrm{O}))% kẻ từ điểm %(\\mathrm{M})%<br>%(\\Rightarrow M E=M F)% và %(O M)% là phân giác của %(E M F \\Rightarrow \\Delta M E F)% cân tại %(M)% và %(M O)%là đường phân giác trong của %(\\mathrm{EMF})% nên %(\\mathrm{OM})% cũng là đường cao<br>%(\\Rightarrow \\mathrm{OM} \\perp \\mathrm{EF} \\Rightarrow \\mathrm{OK} \\perp \\mathrm{KI} \\Rightarrow \\Delta \\mathrm{KOI})% vuông ở %(\\mathrm{K})% (1)<br>+) Vì %(\\mathrm{OH} \\perp \\mathrm{AB})% tại %(\\mathrm{H}(\\mathrm{cmt}) \\Rightarrow \\Delta \\mathrm{HOM})% vuông ở %(\\mathrm{H})% (2)mà %(\\mathrm{IOK}=\\mathrm{MOH})%.<br>Nên từ (1) và (2)<br>%(\\Rightarrow \\Delta \\mathrm{HOM} \\sim \\Delta \\mathrm{KOI}(\\mathrm{g} . \\mathrm{g}) \\Rightarrow \\frac{\\mathrm{OI}}{\\mathrm{OM}}=\\frac{\\mathrm{OK}}{\\mathrm{OH}} \\Rightarrow \\mathrm{OH} . \\mathrm{OI}=\\mathrm{OK} . \\mathrm{OM})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Chứng minh IA, IB là các tiếp tuyến của đường tròn %((\\mathrm{O}))%.",
+        "question_images": [],
+        "solution": "+) %(\\mathrm{Do} \\mathrm{OEM}=90^{\\circ} \\Rightarrow \\Delta \\mathrm{OME})% vuông ở %(\\mathrm{E})% và %(\\mathrm{EK} \\perp \\mathrm{OM})% (vì %(\\mathrm{EF} \\perp \\mathrm{OM})% tại %(\\mathrm{K})% ) %(\\Rightarrow \\mathrm{OK} \\cdot \\mathrm{OM}=\\mathrm{OE} \\Rightarrow \\mathrm{OH} . \\mathrm{OI}=\\mathrm{OE}^{2}=\\mathrm{OB}^{2} \\Rightarrow \\frac{\\mathrm{OH}}{\\mathrm{OB}}=\\frac{\\mathrm{OB}}{\\mathrm{OI}})% mà %(\\mathrm{BOH}=\\mathrm{IOB})% %(\\Rightarrow \\Delta \\mathrm{OHB} \\sim \\Delta \\mathrm{OBI})% (c.g.c) %(\\Rightarrow \\mathrm{OHB}=\\mathrm{OBI}=90^{\\circ} \\Rightarrow \\mathrm{OB} \\perp \\mathrm{IB})%.<br>Mà %(\\mathrm{OB})% là bán kính của đường tròn %((O) \\Rightarrow I B)% là tiếp tuyến của đường tròn %((O))%.<br>%(+))% Chứng minh tương tự ta cũng có %(\\mathrm{IA})% là tiếp tuyến của đường tròn %((\\mathrm{O}))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các cặp số %((x ; y))% thỏa mãn: %(x^{2}+2 y^{2}+2 x y-5 x-5 y=-6)% để %(\\mathrm{x}+\\mathrm{y})% là số nguyên.",
+        "question_images": [],
+        "solution": "%(*)% Ta có: %(\\mathrm{x}^{2}+2 \\mathrm{y}^{2}+2 \\mathrm{xy}-5 \\mathrm{x}-5 \\mathrm{y}=-6 \\Leftrightarrow(\\mathrm{x}+\\mathrm{y})^{2}-5(\\mathrm{x}+\\mathrm{y})+6=-\\mathrm{y}^{2}(1))%<br>Do %(-\\mathrm{y}^{2} \\leq 0)%, với mọi %(\\mathrm{y} \\Rightarrow(\\mathrm{x}+\\mathrm{y})^{2}-5(\\mathrm{x}+\\mathrm{y})+6 \\leq 0)%, với mọi %(\\mathrm{y})% (2).<br>%(+))% Có %((2) \\Leftrightarrow\\left[(x+y)^{2}-3(x+y)\\right]-[2(x+y)-6] \\leq 0)%<br>\\[\\Leftrightarrow(\\mathrm{x}+\\mathrm{y})(\\mathrm{x}+\\mathrm{y}-3)-2(\\mathrm{x}+\\mathrm{y}-3) \\leq 0 \\Leftrightarrow(\\mathrm{x}+\\mathrm{y}-2)(\\mathrm{x}+\\mathrm{y}-3) \\leq 0\\]<br>Suy ra: %((x+y-2)(x+y-3)=0)% hoặc %(\\left\\{\\begin{array}{l}x+y-2\\gt 0 \\\\ x+y-3\\lt 0\\end{array}\\right.)% hoặc %(\\left\\{\\begin{array}{l}x+y-2\\lt 0 \\\\ x+y-3>0\\end{array}\\right.)%<br>Suy ra: %(2 \\leq x+y \\leq 3)%+ Mà %(\\mathrm{x}+\\mathrm{y})% là số nguyên, nên %(\\mathrm{x}+\\mathrm{y}=2)% hoặc %(\\mathrm{x}+\\mathrm{y}=3)%.<br>Thay vào (1) được : %(-\\mathrm{y}^{2}=0 \\Rightarrow \\mathrm{y}=0 \\Rightarrow \\mathrm{x}=2)% hoặc %(\\mathrm{x}=3)%.<br>* Vậy các cặp số %((\\mathrm{x} ; \\mathrm{y}))% cần tìm là %((2 ; 0),(3 ; 0))%.",
+        "question_type": "essay"
+    }
+]

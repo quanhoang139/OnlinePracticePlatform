@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Chứng minh rằng: %(A=n^{8}+4 n^{7}+6 n^{6}+4 n^{5}+n^{4})% chia hết cho 16 với mọi %(\\mathrm{n})% là số nguyên.",
+        "question_images": [],
+        "solution": "\\[A=n^{8}+4 n^{7}+6 n^{6}+4 n^{5}+n^{4}=n^{4}\\left(n^{4}+4 n^{3}+6 n^{2}+4 n+1\\right)=[n(n+1)]^{4}\\]<br>Vì %(\\mathrm{n}(\\mathrm{n}+1))% là tích hai số nguyên liên tiếp nên %(\\mathrm{n}(\\mathrm{n}+1) \\vdots 2 \\Rightarrow[n(n+1)]^{4}: 2^{4}=16)%<br>Do đó %(\\mathrm{A} \\vdots 16)% với mọi %(\\mathrm{n} \\in \\mathrm{Z})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 3.0,
+        "content": "Cho biểu thức %(B=\\sqrt{\\frac{\\left(x^{2}-3\\right)^{2}+12 x^{2}}{x^{2}}}+\\sqrt{(x+2)^{2}-8 x})%. Rút gọn biểu thức %(\\mathrm{B})% và tìm các giá trị nguyên của %(\\mathrm{x})% để %(\\mathrm{B})% có giá trị nguyên.",
+        "question_images": [],
+        "solution": "\\[B=\\sqrt{\\frac{\\left(x^{2}-3\\right)^{2}+12 x^{2}}{x^{2}}}+\\sqrt{(x+2)^{2}-8 \\boldsymbol{x}}=\\sqrt{\\frac{\\left(x^{2}+3\\right)^{2}}{x^{2}}}+\\sqrt{(x-2)^{2}}=\\frac{x^{2}+3}{|x|}+|x-2|\\]<br>+Nếu %(\\mathrm{x}\\lt 0: B=\\frac{-x^{2}-3}{x}-x+2=\\frac{-2 x^{2}+2 x-3}{x}=-2 x+2-\\frac{3}{x})%<br>%(B)% có giá trị nguyên khi %(\\frac{\\mathrm{x}}{3} \\in \\mathrm{Z} \\Leftrightarrow \\mathrm{x} \\in \\mathrm{U}^{\\prime}(3))% và %(\\mathrm{x}\\lt 0 \\Leftrightarrow\\left[\\begin{array}{l}\\mathrm{x}=-1 \\\\ \\mathrm{x}=-3\\end{array}\\right.)%<br>+Nếu %(0\\lt \\mathrm{x} \\leq 2: B=\\frac{x^{2}+3}{x}-x+2=\\frac{2 x+3}{x}=2+\\frac{3}{x})%<br>%(B)% có giá trị nguyên khi %(\\frac{3}{x} \\in Z \\Leftrightarrow x \\in U^{\\prime}(3))% và %(0\\lt x \\leq 2 \\Leftrightarrow x=1)%<br>+Nếu %(\\mathrm{x}\\gt 2: B=\\frac{x^{2}+3}{x}+x-2=\\frac{2 x^{2}-2 x+3}{x}=2 x-2+\\frac{3}{x})%<br>%(B)% có giá trị nguyên khi %(\\frac{x}{3} \\in Z \\Leftrightarrow x \\in U^{\\prime}(3))% và %(x>2 \\Leftrightarrow x=3)%<br>KL:<br>- B = %(\\left\\{\\begin{array}{l}\\frac{-2 x^{2}+2 x-3}{x} \\text { nếu } \\mathrm{x}\\lt 0 \\\\ \\frac{2 x+3}{x} \\text { nếu } 0\\lt x \\leq 2 \\\\ \\frac{2 x^{2}-2 x+3}{x} \\text { nếu } x\\gt 2\\end{array}\\right.)%<br>- B có giá trị nguyên khi %(\\mathrm{x} \\in\\{ \\pm 1 ; \\pm 3\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các nghiệm nguyên của phương trình: %(2 \\mathrm{y}^{2} \\mathrm{x}+\\mathrm{x}+\\mathrm{y}+1=\\mathrm{x}^{2}+2 \\mathrm{y}^{2}+\\mathrm{xy})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}2 y^{2} x+x+y+1=x^{2}+2 y^{2}+x y \\Leftrightarrow(x-1)\\left(x-2 y^{2}+y\\right)=1 \\\\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array} { l } { x - 1 = 1 } \\\\{ x - 2 y ^ { 2 } + y = 1 } \\\\{ \\{ \\begin{array} { l } { x - 1 = - 1 } \\\\{ x - 2 y ^ { 2 } + y = - 1 }\\end{array} }\\end{array} \\Leftrightarrow \\left[\\begin{array} { l } { \\{ \\begin{array} { l } { x = 2 } \\\\{ 2 y ^ { 2 } - y - 1 = 0 }\\end{array} } \\\\{ \\{ \\begin{array} { l } { x = 0 } \\\\{ 2 y ^ { 2 } - y - 1 = 0 }\\end{array} }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=2 \\y=1\\end{array}\\right.\\right.\\right. \\\\left\\{\\begin{array}{l}x=0 \\y=1\\end{array}\\right.\\end{array}\\right. \\\\end{array}\\]<br>Vậy : phương trình có hai nghiệm nguyên là %((2 ; 1),(0 ; 1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho hàm số %(\\mathrm{y}=2 \\sqrt{\\mathrm{x}^{2}-6 \\mathrm{x}+9}-\\mathrm{x}-2)% có đồ thị(D)",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Vẽ đồ thị (D) của hàm số trên.",
+        "question_images": [],
+        "solution": "Vẽ đồ thị %((\\mathrm{D}))% của hàm số trên.<br>\\[\\mathrm{y}=2 \\sqrt{\\mathrm{x}^{2}-6 \\mathrm{x}+9}-\\mathrm{x}-2=2|\\mathrm{x}-3|-\\mathrm{x}-2=\\left\\{\\begin{array}{l}\\mathrm{x}-8 \\text { nếu } \\mathrm{x} \\geq 3 \\\\-3 \\mathrm{x}+4 \\text { nếu } \\mathrm{x}\\lt 3\\end{array}\\right.\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a93a9ac146e060bd1d7eb03552ffd143.png\" srcset=\"https://docdn.giainhanh.io/media/test/c5508eb097f84b5de0c1e0bd496abfdb.png 211w, https://docdn.giainhanh.io/media/test/c3e1c9d6c280d0398420a4a46d9a3143.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Với giá trị nào của %(m)% thì phương trình %(2 \\sqrt{x^{2}-6 x+9}-x-2=m)% vô nghiệm.",
+        "question_images": [],
+        "solution": "Với giá trị nào của %(\\mathrm{m})% thì phương trình %(2 \\sqrt{\\mathrm{x}^{2}-6 \\mathrm{x}+9}-\\mathrm{x}-2=\\mathrm{m})% vô nghiệm.<br>\\[2 \\sqrt{x^{2}-6 x+9}-x-2=m \\quad(*)\\]<br>Phương trình %(\\left({ }^{*}\\right))% là phương trình hoành độ giao điểm của hai đồ thị sau:<br>(D): %(y=2 \\sqrt{x^{2}-6 x+9}-x-2)% (đã vẽ câu a)<br>%(\\left(\\mathrm{D}^{\\prime}\\right): \\mathrm{y}=\\mathrm{m})% là đường thẳng song song với trục %(\\mathrm{Ox})% và cắt %(\\mathrm{Oy})% tại điểm có tung độ %(\\mathrm{m})%<br>Căn cứ vào đồ thị, ta có: Phương trình %(\\left({ }^{*}\\right))% vô nghiệm<br>%(\\Leftrightarrow(D))% và (D') không giao nhau<br>\\[\\Leftrightarrow m\\lt -5\\]<br>Vậy: m %(\\lt -5)% thì pt %((*))% vô nghiệm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Dựa vào đồ thị %((\\mathrm{D}))%, tìm tập nghiệm của bất phương trình: %(2 \\sqrt{x^{2}-6 x+9} \\geq x)%.",
+        "question_images": [],
+        "solution": "Dựa vào đồ thị (D), tìm tập nghiệm của bất phương trình: %(2 \\sqrt{x^{2}-6 x+9} \\geq x)%.<br>\\[2 \\sqrt{x^{2}-6 x+9} \\geq x \\Leftrightarrow 2 \\sqrt{x^{2}-6 x+9}-x-2 \\geq-2\\]<br>Căn cứ vào đồ thị %((\\mathrm{D}))%, ta có : nghiệm của (1) là tập hợp hoành độ của các điểm trên (D) có tung độ %(y \\geq-2)%, nên %(\\left[\\begin{array}{l}x \\geq 6 \\\\ x \\leq 2\\end{array}\\right.)%<br>KL: Tập nghiệm của (1) là: %(x \\geqslant 6)% hoặc %(x \\leqslant 2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho %(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})% là các số thực thỏa : %(\\left\\{\\begin{array}{l}x^{2}+x y+\\frac{y^{2}}{3}=2017 \\\\ z^{2}+\\frac{y^{2}}{3}=1009 \\\\ x^{2}+x z+z^{2}=1008\\end{array}\\right.)%, %((x \\neq 0, z \\neq 0, x \\neq-z))%Chứng minh rằng: %(\\frac{2 \\mathrm{z}}{\\mathrm{x}}=\\frac{\\mathrm{y}+\\mathrm{z}}{\\mathrm{x}+\\mathrm{z}})%.",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}x^{2}+x y+\\frac{y^{2}}{3}=2017 (1)\\\\ z^{2}+\\frac{y^{2}}{3}=1009 (2)\\\\ x^{2}+x z+z^{2}=1008(3)\\end{array}\\right.)%, %((x \\neq 0, z \\neq 0, x \\neq-z))%<br>Trừ (1) và (2) vế theo vế, ta có: %(\\mathrm{x}^{2}+\\mathrm{xy}-\\mathrm{z}^{2}=1008)% (4)<br>\\[\\begin{aligned}& \\Leftrightarrow 2 x z+2 z^{2}=x y+x z \\\\& \\Leftrightarrow 2 z(x+z)=x(y+z) \\\\& \\Leftrightarrow \\frac{2 z}{x}=\\frac{y+z}{x+z} .(\\text { ĐPCM })\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho đoạn thẳng %(\\mathrm{AB})% và điểm %(\\mathrm{E})% nằm giữa điểm %(\\mathrm{A})% và điểm %(\\mathrm{B})% sao cho %(\\mathrm{AE}\\lt \\mathrm{BE})%. Vẽ đường tròn %(\\left(\\mathrm{O}_{1}\\right))% đường kính %(\\mathrm{AE})% và đường tròn %(\\left(\\mathrm{O}_{2}\\right))% đường kính %(\\mathrm{BE})%. Vẽ tiếp tuyến chung ngoài %(\\mathrm{MN})% của hai đường tròn %(\\left(\\mathrm{O}_{1}\\right))% và %(\\left(\\mathrm{O}_{2}\\right))% với %(\\mathrm{M})% là tiếp điểm thuộc %(\\left(\\mathrm{O}_{1}\\right))% và %(\\mathrm{N})% là tiếp điểm thuộc %(\\left(\\mathrm{O}_{2}\\right))%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.5,
+        "content": "a) Gọi %(\\mathrm{F})% là giao điểm của các đường thẳng %(\\mathrm{AM})% và %(\\mathrm{BN})%. Chứng minh rằng đường thẳng %(\\mathrm{EF})% vuông góc với đường thẳng %(\\mathrm{AB})%.",
+        "question_images": [],
+        "solution": "%(\\mathrm{MN})% là tiếp tuyến chung của %(\\left(\\mathrm{O}_{1}\\right))% và %(\\left(\\mathrm{O}_{2}\\right))%<br>Nên %(\\mathrm{MN} \\perp \\mathrm{O}_{1} \\mathrm{M} ; \\mathrm{MN} \\perp \\mathrm{O}_{2} \\mathrm{~N} \\Rightarrow \\mathrm{O}_{1} \\mathrm{M} / / \\mathrm{O}_{2} \\mathrm{~N})%<br>\\[\\begin{array}{l}\\Rightarrow \\mathrm{MO} O_{1} \\mathrm{E}+\\mathrm{NO}_{2} \\mathrm{E}=180^{\\circ} \\\\Delta \\mathrm{O}_{1} \\mathrm{AM} \\text { cân tại } \\mathrm{O}_{1} \\Rightarrow \\mathrm{MO} \\mathrm{E}=2 O_{1} \\mathrm{AM} \\\\Delta \\mathrm{O}_{2} \\mathrm{BN} \\text { cân tại } \\mathrm{O}_{1} \\Rightarrow \\mathrm{NO}_{2} \\mathrm{E}=2 \\mathrm{O}_{2} \\mathrm{BN} \\\\Rightarrow \\mathrm{MO}_{1} \\mathrm{E}+\\mathrm{NO}_{2} \\mathrm{E}=2\\left(O_{1} \\mathrm{AM}+O_{2} \\mathrm{BN}\\right) \\\\Rightarrow O_{1} \\mathrm{AM}+O_{2} \\mathrm{BN}=90^{\\circ} \\\\Rightarrow \\mathrm{MFN}=90^{\\circ}\\end{array}\\]<br>Mặt khác:%(\\mathrm{AM} E=\\mathrm{BNE}=90^{\\circ})% ( góc nội tiếp chắn nửa đường tròn)<br>\\[\\Rightarrow \\mathrm{EMF}=\\mathrm{ENF}=90^{\\circ}\\]<br>%(\\Rightarrow)% Tứ giác MENF là hình chữ nhật<br>\\[\\Rightarrow \\mathrm{MEF}=\\mathrm{NME}\\]<br>\\[\\Rightarrow \\mathrm{MEF}+O_{1} \\mathrm{EM}=90^{\\circ}\\]<br>Hay %(\\mathrm{EF} \\perp \\mathrm{AB})% tại %(\\mathrm{E})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/236863c38a59cb3dad5f2e04818bf04a.png\" srcset=\"https://docdn.giainhanh.io/media/test/5387d06852941c88784027e3f909e8be.png 169w, https://docdn.giainhanh.io/media/test/c512b3fcff7b4885442e6bd19b3eea04.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.5,
+        "content": "b) Với %(\\mathrm{AB}=18 \\mathrm{~cm})% và %(\\mathrm{AE}=6 \\mathrm{~cm})%, vẽ đường tròn %(\\mathrm{O}))% đường kính %(\\mathrm{AB})%. Đường thẳng %(\\mathrm{MN})% cắt đường tròn %((\\mathrm{O}))% tại %(\\mathrm{C})% và %(\\mathrm{D})% sao cho điểm %(\\mathrm{C})% thuộc cung nhỏ %(\\mathrm{AD})%. Tính độ dài đoạn thẳng %(\\mathrm{CD})%.",
+        "question_images": [],
+        "solution": "Ta có %(\\mathrm{AB}=18 \\mathrm{~cm}, \\mathrm{AE}=6 \\mathrm{~cm} \\Rightarrow \\mathrm{EB}=12 \\mathrm{~cm}, \\mathrm{OF}=9 \\mathrm{~cm})%<br>%(\\triangle \\mathrm{AFB})% vuông tại %(\\mathrm{F})% có đường cao %(\\mathrm{EF})% nên %(\\mathrm{EF}^{2}=\\mathrm{AE} . \\mathrm{EB}=6.12=72 \\Rightarrow \\mathrm{EF}=6 \\sqrt{2} \\mathrm{~cm})%<br>%(\\Rightarrow \\mathrm{MN}=\\mathrm{EF}=6 \\sqrt{2} \\mathrm{~cm})%<br>Gọi %(\\mathrm{K}, \\mathrm{I})% lần lượt là giao điểm của %(\\mathrm{EF}, \\mathrm{OF})% với %(\\mathrm{MN})%.<br>Tứ giác MENF là hình chữ nhật nên có %(\\mathrm{NMF}=\\mathrm{NEF})%<br>mà %(\\mathrm{NEF}=\\mathrm{ABF})% (cùng phụ góc %(\\mathrm{BEM})% )<br>%(\\Rightarrow \\mathrm{NMF}=\\mathrm{ABF})% (1)<br>%(\\Rightarrow \\triangle \\mathrm{FNM} \\sim \\triangle \\mathrm{FAB})%<br>Ta lại có %(\\triangle \\mathrm{OAF})% cân tại %(\\mathrm{O} \\Rightarrow \\mathrm{OAF}=\\mathrm{OFA})% (2)<br>Và %(\\mathrm{OAF}+\\mathrm{ABF}=90^{\\circ})%(3)<br>Từ (1), (2), (3) %(\\Rightarrow \\mathrm{NMF}+\\mathrm{OFA}=90^{\\circ} \\Rightarrow \\mathrm{MIF}=90^{\\circ})%<br>%(\\triangle \\mathrm{FNM} \\sim \\triangle \\mathrm{FAB})% và có %(\\mathrm{FI}, \\mathrm{FE})% là hai đường cao tương ứng nên<br>\\[\\frac{\\mathrm{FI}}{E F}=\\frac{\\mathrm{MN}}{\\mathrm{AB}} \\Rightarrow \\frac{\\mathrm{FI}}{6 \\sqrt{2}}=\\frac{6 \\sqrt{2}}{18} \\Rightarrow \\mathrm{FI}=4 \\mathrm{~cm} \\Rightarrow \\mathrm{OI}=O F-\\mathrm{FI}=9-4=5 \\mathrm{~cm}\\]<br>%(\\Delta \\mathrm{OID})% vuông tại %(\\mathrm{I})% có %(\\mathrm{ID}^{2}=\\mathrm{OD}^{2}-\\mathrm{OI}^{2}=9^{2}-5^{2}=56 \\Rightarrow \\mathrm{ID}=2 \\sqrt{14} \\mathrm{~cm})%<br>Vì %(\\mathrm{OF} \\perp \\mathrm{CD})% tại %(\\mathrm{I} \\Rightarrow \\mathrm{CD}=2 \\mathrm{ID}=4 \\sqrt{14} \\mathrm{~cm})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 3.0,
+        "content": "Cho tam giác %(\\mathrm{ABC})% cân tại %(\\mathrm{A})%, có góc %(\\mathrm{A})% nhỏ hơn %(90^{\\circ})%. Từ %(\\mathrm{B})% kẻ %(\\mathrm{BM})% vuông góc với %(\\mathrm{AC})% tại %(\\mathrm{M})% (điểm %(\\mathrm{M} \\in \\mathrm{AC})% ). Chứng minh %(: \\frac{\\mathrm{AM}}{\\mathrm{MC}}+1=2\\left(\\frac{\\mathrm{AB}}{\\mathrm{BC}}\\right)^{2})%.",
+        "question_images": [],
+        "solution": "%(\\triangle \\mathrm{ABC})% cân tại %(\\mathrm{A})% nên %(\\mathrm{AB}=\\mathrm{AC})%<br>Ta có<br>\\[\\begin{array}{l}\\frac{\\mathrm{AM}}{\\mathrm{MC}}+1=2\\left(\\frac{\\mathrm{AB}}{\\mathrm{BC}}\\right)^{2} \\cdot \\Leftrightarrow \\frac{\\mathrm{AM}+\\mathrm{MC}}{\\mathrm{MC}}=2 \\frac{\\mathrm{AC}^{2}}{\\mathrm{BC}^{2}} \\\\Leftrightarrow \\frac{\\mathrm{AC}}{\\mathrm{MC}}=2 \\frac{\\mathrm{AC}^{2}}{\\mathrm{BC}^{2}} \\Leftrightarrow \\mathrm{BC}^{2}=2 \\mathrm{AC} . \\mathrm{MC} \\\\end{array}\\]<br>Ta cần chứng minh: %(\\mathrm{BC}^{2}=2 A \\mathrm{C})%.MC<br>Thật vậy: %(\\mathrm{BC}^{2}=\\mathrm{BM}^{2}+\\mathrm{MC}^{2}=\\mathrm{AB}^{2}-\\mathrm{AM}^{2}+(\\mathrm{AC}-\\mathrm{AM})^{2})%<br>\\[\\begin{array}{l}=\\mathrm{AC}^{2}-\\mathrm{AM}^{2}+\\mathrm{AC}^{2}-2 A \\mathrm{C} \\cdot \\mathrm{AM}+\\mathrm{AM}^{2} \\\\=2 \\mathrm{AC}^{2}-2 A \\mathrm{AC} \\cdot \\mathrm{AM}=2 A \\mathrm{~A} \\cdot(\\mathrm{AC}-\\mathrm{AM})=2 A \\mathrm{C} \\cdot \\mathrm{MC}\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a863747c65e721c3de8596701d5243b6.png\" srcset=\"https://docdn.giainhanh.io/media/test/f34037bdae747521120828ee33eaaae1.png 185w, https://docdn.giainhanh.io/media/test/081c558e550fb895f12f30651f39a2a6.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

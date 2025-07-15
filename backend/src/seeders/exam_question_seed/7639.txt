@@ -1,0 +1,112 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.75,
+        "content": "Rút gọn biểu thức: %(A=\\frac{\\sqrt{5}+3}{\\sqrt{2}+\\sqrt{3+\\sqrt{5}}}+\\frac{3-\\sqrt{5}}{\\sqrt{2}-\\sqrt{3-\\sqrt{5}}})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=\\frac{\\sqrt{5}+3}{\\sqrt{2}+\\sqrt{3+\\sqrt{5}}}+\\frac{3-\\sqrt{5}}{\\sqrt{2}-\\sqrt{3-\\sqrt{5}}}=\\frac{\\sqrt{2}(\\sqrt{5}+3)}{2+\\sqrt{6+2 \\sqrt{5}}}+\\frac{\\sqrt{2}(3-\\sqrt{5})}{2-\\sqrt{6-2 \\sqrt{5}}} \\\\ A=\\frac{\\sqrt{2}(\\sqrt{5}+3)}{2+\\sqrt{(\\sqrt{5}+1)^{2}}}+\\frac{\\sqrt{2}(3-\\sqrt{5})}{2-\\sqrt{(\\sqrt{5}-1)^{2}}}=\\frac{\\sqrt{2}(\\sqrt{5}+3)}{\\sqrt{5}+3}+\\frac{\\sqrt{2}(3-\\sqrt{5})}{3-\\sqrt{5}} \\\\ A=2 \\sqrt{2}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "%(A=\\frac{x^{2}-\\sqrt{x}}{x+\\sqrt{x}+1}-\\frac{x^{2}+\\sqrt{x}}{x-\\sqrt{x}+1})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.25,
+        "content": "a) Nêu điều kiện xác định và rút gọn biểu thức %(\\mathrm{A})%",
+        "question_images": [],
+        "solution": "ĐКХĐ: %(x \\geq 0)%<br>\\[\\begin{array}{l}A=\\frac{x^{2}-\\sqrt{x}}{x+\\sqrt{x}+1}-\\frac{x^{2}+\\sqrt{x}}{x-\\sqrt{x}+1}=\\frac{\\sqrt{x}\\left(\\sqrt{x^{3}}-1\\right)}{x+\\sqrt{x}+1}-\\frac{\\sqrt{x}\\left(\\sqrt{x^{3}}+1\\right)}{x-\\sqrt{x}+1} \\\\=\\frac{\\sqrt{x}(\\sqrt{x}-1)(x+\\sqrt{x}+1)}{x+\\sqrt{x}+1}-\\frac{\\sqrt{x}(\\sqrt{x}+1)(x-\\sqrt{x}+1)}{x-\\sqrt{x}+1} \\\\=\\sqrt{x}(\\sqrt{x}-1)-\\sqrt{x}(\\sqrt{x}+1)=x-\\sqrt{x}-x-\\sqrt{x}=-2 \\sqrt{x}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Đặt %(\\mathrm{B}=\\mathrm{A}+\\mathrm{x}-1)%. Tìm giá trị nhỏ nhất của biểu thức %(\\mathrm{B})%",
+        "question_images": [],
+        "solution": "%(\\mathrm{B}=\\mathrm{A}+\\mathrm{x}-1=-2 \\sqrt{\\mathrm{x}}+\\mathrm{x}-1=\\mathrm{x}-2 \\sqrt{\\mathrm{x}}-1=(\\sqrt{\\mathrm{x}}-1)^{2}-2 \\geq-2)%Dấu \" %(=)% \" xảy ra %(\\Leftrightarrow \\sqrt{x}-1=0 \\Leftrightarrow x=1)% (TM ĐKXĐ)<br>Vậy GTNN của biểu thức %(B=-2)% khi %(x=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Giải phương trình :<br>\\[\\sqrt{x+2 \\sqrt{x-1}}+\\sqrt{x-2 \\sqrt{x-1}}=\\frac{x+3}{2}\\]",
+        "question_images": [],
+        "solution": "ĐКХĐ : %(x \\geq 1)%<br>\\[\\begin{array}{l}\\sqrt{x+2 \\sqrt{x-1}}+\\sqrt{x-2 \\sqrt{x-1}}=\\frac{x+3}{2} \\\\Leftrightarrow \\sqrt{x-1+2 \\sqrt{x-1}+1}+\\sqrt{x-1-2 \\sqrt{x-1}+1}=\\frac{x+3}{2} \\\\Leftrightarrow \\sqrt{(\\sqrt{x-1}+1)^{2}}+\\sqrt{(\\sqrt{x-1}-1)^{2}}=\\frac{x+3}{2} \\\\Leftrightarrow \\sqrt{x-1}+1+|\\sqrt{x-1}-1|=\\frac{x+3}{2} \\quad(*)\\end{array}\\]<br>Nếu %(\\mathrm{x} \\geq 2)% phương trình (*)<br>\\[\\begin{array}{l}\\Leftrightarrow \\sqrt{x-1}+1+\\sqrt{x-1}-1=\\frac{x+3}{2} \\Leftrightarrow 2 \\sqrt{x-1}=\\frac{x+3}{2} \\Leftrightarrow 4 \\sqrt{x-1}=x+3 \\\\Leftrightarrow 16(x-1)=x^{2}+6 x+9 \\Leftrightarrow x^{2}-10 x+25=0 \\Leftrightarrow(x-5)^{2}=0 \\Leftrightarrow x=5\\end{array}\\]<br>Nếu %(1 \\leq \\mathrm{x}\\lt 2)% phương trình %((*))%<br>\\[\\Leftrightarrow \\sqrt{x-1}+1+1-\\sqrt{x-1}=\\frac{x+3}{2} \\Leftrightarrow 2=\\frac{x+3}{2} \\Leftrightarrow 4=x+3 \\Leftrightarrow x=1\\]<br>Vậy phương trình có nghiệm %(x=1)% và %(x=5)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(\\sqrt{2 x^{2}+5 x+12}+\\sqrt{2 x^{2}+3 x+2}=x+5)%.",
+        "question_images": [],
+        "solution": "Đặt %(u=\\sqrt{2 x^{2}+5 x+12}, v=\\sqrt{2 x^{2}+3 x+2}(u\\gt 0, v>0))%<br>\\[\\Rightarrow u^{2}=2 x^{2}+5 x+12, v^{2}=2 x^{2}+3 x+2 \\Rightarrow u^{2}-v^{2}=2 x+10=2(x+5)\\]<br>Từ (1) %(\\Rightarrow 2(u+v)=\\left(u^{2}-v^{2}\\right) \\Leftrightarrow(u+v)(u-v-2)=0)% (2)Vì %(u>0, v>0)%, từ (2) suy ra: %(u-v-2=0)%.<br>Vì vậy<br>\\[\\sqrt{2 x^{2}+5 x+12}=\\sqrt{2 x^{2}+3 x+2}+2(3)\\]<br>Bình phương 2 vế và thu gọn ta được phương trình 2<br>\\[\\sqrt{2 x^{2}+3 x+2}=x+3\\]<br>\\[\\begin{array}{l}\\Leftrightarrow\\left\\{\\begin{array} { l } { x + 3 \\geq 0 } \\\\{ 2 \\sqrt { 2 x ^ { 2 } + 3 x + 2 } = x + 3 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x \\geq - 3 } \\\\{ 7 x ^ { 2 } + 6 x - 1 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x \\geq-3 \\\\left(7 x^{2}-7\\right)+(6 x+6)=0\\end{array}\\right.\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq-3 \\\\(x+1)(7 x-1)=0\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq-3 \\x=-1, x=\\frac{1}{7}\\end{array} \\Leftrightarrow x=-1, x=\\frac{1}{7}(\\mathrm{tm})\\right.\\end{array}\\]<br>Vậy phương trình có hai nghiệm %(\\mathrm{x}=-1, \\mathrm{x}=\\frac{1}{7})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Chứng minh rằng với %(\\mathrm{k})% là số nguyên thì %(2016 \\mathrm{k}+3)% không phải là lập phương của một số nguyên.",
+        "question_images": [],
+        "solution": "Chứng minh rằng với %(\\mathrm{k})% là số nguyên thì %(2016 \\mathrm{k}+3)% không phải là lập phương của một số nguyên.<br>Giả sử %(2016 \\mathrm{k}+3=\\mathrm{a}^{3})% với %(\\mathrm{k})% và %(\\mathrm{a})% là số nguyên.<br>Suy ra: %(2016 k=a^{3}-3)%<br>Ta chứng minh %(\\mathrm{a}^{3}-3)% không chia hết cho 7.<br>Thật vậy: Ta biểu diễn %(\\mathrm{a}=7 \\mathrm{~m}+\\mathrm{r})%, với %(\\mathrm{r} \\in\\{0 ; 1 ;-1 ; 2 ;-2 ; 3 ;-3\\})%.<br>Trong tất cả các trường hợp trên ta đều có %(\\mathrm{a}^{3}-3)% không chia hết cho 7<br>Mà %(2016 \\mathrm{k})% luôn chia hết cho 7 , nên %(\\mathrm{a}^{3}-3 \\neq 2016 \\mathrm{k})%. ĐPCM",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.5,
+        "content": "Tìm nghiệm nguyên của phương trình %(x^{2}-25=y(y+6))%",
+        "question_images": [],
+        "solution": "2) Tìm nghiệm nguyên của phương trình:<br>\\[x^{2}-25=y(y+6)\\]<br>Từ %(x^{2}-25=y(y+6))%Ta có : %((y+3+x)(y+3-x)=-16)%<br>Để ý trong phương trình chỉ chứa ẩn số %(\\mathrm{x})% với số mũ bằng 2 , do đó ta có thể hạn chế giải với %(x)% là số tự nhiên.<br>Khi đó: %(y+3+x \\geq y+3-x)%.Ta có %((\\mathrm{y}+3+\\mathrm{x})+(\\mathrm{y}+3-\\mathrm{x})=2(\\mathrm{y}+3))% là số chẵn<br>Suy ra 2 số %((y+3+x))% và %((y+3-x))% cùng tính chẵn lẻ.<br>Ta lại có tích của chúng là số chẵn, vậy 2 số %((\\mathrm{y}+3+\\mathrm{x}))% và %((\\mathrm{y}+3-\\mathrm{x}))% là 2 số chẵn.<br>Ta chỉ có cách phân tích - 16 ra tích của 2 số chẵn sau đây:<br>%(-16=8(-2)=4(-4)=2(-8))% trong đó thừa số đầu bằng giá trị %((y+3+x))%<br>Khi %(y+3+x=8, y+3-x=-2)% ta cã %(x=5, y=0)%<br>Khi %(y+3+x=4, y+3-x=-4)% ta cã %(x=4, y=-3)%.<br>Khi %(y+3+x=2, y+3-x=-8)% ta cã %(x=5, y=-6)%<br>Vì thế phương trình đã cho có các nghiệm :<br>\\[(x, y) \\in\\{( \\pm 5,0) ;( \\pm 5,-6) ;( \\pm 4,-3) .\\}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho nửa đường tròn tâm %(\\mathrm{O})% đường kính %(\\mathrm{AB})%. Gọi %(\\mathrm{C})% là một điểm nằm trên nửa đường tròn %((\\mathrm{O})(\\mathrm{C})% khác %(\\mathrm{A}, \\mathrm{C})% khác %(\\mathrm{B}))%. Gọi %(\\mathrm{H})% là hình chiếu vuông góc của %(\\mathrm{C})% trên %(\\mathrm{AB}, \\mathrm{D})% là điểm đối xứng với %(\\mathrm{A})% qua %(\\mathrm{C}, \\mathrm{I})% là trung điểm của %(\\mathrm{CH}, \\mathrm{J})% là trung điểm của DH.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh %(C I J=C B H)%",
+        "question_images": [],
+        "solution": "+ Vì %(\\triangle A B C)% nội tiếp đường tròn đường kính %(\\mathrm{AB})% nên %(A C \\perp B C)% Suy ra %(B C \\perp C D)% (1)<br>+ Lâp luận đề chỉ ra IJ // CD (2)<br>+ Từ (1) và (2) suy ra %(I J^{\\wedge} B C)%<br>+ Suy ra %(C I J=C B H)% (cùng phụ với %(H C B)% ) (3)<br><img alt=\"Screenshot_72.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0b66dfe7f52b8cc864548d68928687f1.png\" srcset=\"https://docdn.giainhanh.io/media/test/33d7cd31c0f6eac5376ef36c7727e249.png 189w, https://docdn.giainhanh.io/media/test/89251f7c8b7394872a9426ee1dadefb1.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Chứng minh %(\\triangle C J H)% đồng dạng với %(\\triangle HIB)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { +) Trong } \\Delta \\text { vuông } \\mathrm{CBH} \\text { ta có: } \\tan C B H=\\frac{C H}{B H} \\text { (4) } \\\\ \\text { + Lập luận chứng minh được } \\mathrm{CJ} / / \\mathrm{AB} \\\\ + \\text { Mà } \\mathrm{CH} \\perp \\mathrm{AB}(\\mathrm{gt}) \\\\ \\text { + Suy ra } \\mathrm{CJ} \\perp \\mathrm{CH} \\\\ \\text { +) Trong tam giác vuông } \\mathrm{CIJ} \\text { ta có } \\tan C I J=\\frac{C J}{C I}=\\frac{C J}{H I}(C I=H I)(5) \\\\ \\text { + Từ (3), (4), (5) } \\Rightarrow \\frac{C H}{H B}=\\frac{C J}{H I}\\end{array})%<br>+ Xét %(\\triangle CJH \\ {Và}\\ \\triangle HIB)%  có %(\\widehat {H C J}=\\widehat {B H I}=90^{\\circ})% và %(\\frac{C H}{H B}=\\frac{C J}{H I})% (cmt)<br>+ Nên %(\\triangle C J H)% đồng dạng với %(\\triangle HIB)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) Gọi %(\\mathrm{E})% là giao điểm của %(\\mathrm{HD})% và %(\\mathrm{BI})%. Chứng minh %(\\mathrm{HE} . \\mathrm{HD}=\\mathrm{HC}^{2})%",
+        "question_images": [],
+        "solution": "+ Lập luận để chứng minh được %(\\widehat {H E I}=90^{\\circ})%<br>+ Chứng minh được %(\\triangle H E I)% đồng dạng với %(\\triangle H C J)%<br>+ Suy ra %(\\frac{H E}{H C}=\\frac{H I}{H J})%<br>+ Suy ra HE.HJ %(=)% HI.HC<br>+ Mà %(H J=\\frac{1}{2} H D ; H I=\\frac{1}{2} H C)%<br>+ Suy ra HE.HD = HC²",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 2.0,
+        "content": "d) Xác định vị trí của điềm C trên nửa đường tròn %((\\mathrm{O}))% để %(\\mathrm{AH}+\\mathrm{CH})% đạt giá trị lớn nhất.",
+        "question_images": [],
+        "solution": "+ Lấy điềm %(\\mathrm{M})% trên nửa đường tròn %((\\mathrm{O}))% sao cho %(\\widehat {B O M}=45^{\\circ})%<br>+ Tiếp tuyến của nửa đường tròn %((\\mathrm{O}))% tại %(\\mathrm{M})% cắt %(\\mathrm{AB})% tại %(\\mathrm{N})%. Ta có%(\\mathrm{M})% và %(\\mathrm{N})% cố định.<br>%(+\\mathrm{Kè} \\mathrm{MK} \\perp \\mathrm{AB})% tại %(\\mathrm{K})%<br>+ Chứng minh được %(\\triangle M O N)% vuông cân tại %(\\mathrm{M})% và %(\\mathrm{KM}=\\mathrm{KN})% Suy ra %(\\widehat {A N C}=45^{\\circ})%<br>Xét %(\\mathrm{C}^{\\circ} \\mathrm{M})%<br>Ta có %(\\mathrm{C}^{\\circ} \\mathrm{M})% nên %(\\mathrm{H}^{\\circ} \\mathrm{K})%<br>Do đó%(\\mathrm{AH}+\\mathrm{CH}=\\mathrm{AK}+\\mathrm{KM}=\\mathrm{AK}+\\mathrm{KN}=\\mathrm{AN})% (không đổi)<br>+ Xét C khác M. Tia %(\\mathrm{NC})% nằm giữa hai tia %(\\mathrm{NA})% và %(\\mathrm{NM})%<br>Do đó %(\\widehat{A N C}\\lt \\widehat{A N M}=45^{\\circ})%<br>%(+\\triangle \\mathrm{H N C})% có %(\\widehat{N H C}=90^{\\circ})%<br>nên %(\\widehat{HNC}+\\widehat{H C N} =90^{\\circ})%<br>Mà %(\\widehat{H N C}\\lt 45^{\\circ})% nên %(\\widehat{H N C}\\gt 45^{\\circ})%<br>Suy ra %(\\widehat{H N C}\\lt \\widehat{H C N})%<br>Suy ra %(\\mathrm{HC}\\lt \\mathrm{HN})%<br>+ Do đó %(\\mathrm{AH}+\\mathrm{CH}\\lt \\mathrm{AH}+\\mathrm{HN}=\\mathrm{AN})%<br>+ Vậy Khi %(\\mathrm{C})% ở trên nửa đường tròn %((\\mathrm{O}))% sao cho %(\\widehat{B O C}=45^{\\circ})% thì %(\\mathrm{AH}+\\mathrm{CH})% đạt giá trị lớn nhất<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/fd27ae828e1c92624bf653825631e275.png\" srcset=\"https://docdn.giainhanh.io/media/test/d0a291ed19246c5b7b31730344647128.png 245w, https://docdn.giainhanh.io/media/test/4a8ae87b215f3650bcd2c65c007ad8b1.png 500w, https://docdn.giainhanh.io/media/test/7e5b59d263767e924d87ee4c5e9bb0eb.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c\\gt 0)%. Chứng minh rằng %(\\sqrt{\\frac{a}{b+c}}+\\sqrt{\\frac{b}{c+a}}+\\sqrt{\\frac{c}{a+b}}>2)%",
+        "question_images": [],
+        "solution": "Chứng minh rằng %(\\sqrt{\\frac{a}{b+c}}+\\sqrt{\\frac{b}{c+a}}+\\sqrt{\\frac{c}{a+b}}\\gt 2)%.<br>Áp dụng BĐT Cauchy ta có<br>\\[a+b+c \\geq 2 \\sqrt{a(b+c)} \\Leftrightarrow \\sqrt{\\frac{a}{b+c}} \\geq \\frac{2 a}{a+b+c}\\]<br>Chứng minh tương tự ta được<br>\\[\\sqrt{\\frac{b}{c+a}} \\geq \\frac{2 b}{a+b+c} ; \\sqrt{\\frac{c}{a+b}} \\geq \\frac{2 c}{a+b+c}\\]<br>Suy ra %(\\sqrt{\\frac{a}{b+c}}+\\sqrt{\\frac{b}{c+a}}+\\sqrt{\\frac{c}{a+b}} \\geq \\frac{2(a+b+c)}{a+b+c}=2)%<br>Dấu bằng xảy ra %(\\Leftrightarrow\\left\\{\\begin{array}{l}a=b+c \\\\ b=c+a \\Leftrightarrow a=b=c=0 \\text { (Trái với giả thiết) } \\\\ c=a+b\\end{array}\\right.)%<br>Vây dấu = không xảy ra suy ra đpcm.",
+        "question_type": "essay"
+    }
+]

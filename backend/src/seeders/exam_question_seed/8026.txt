@@ -1,0 +1,65 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Viết phương trình tiếp tuyến với đồ thị %((C): y=\\frac{x}{x-1})%, biết rằng khoảng cách từ tâm đối xứng của đồ thị %((C))% đến tiếp tuyến là lớn nhất.",
+        "question_images": [],
+        "solution": "Gọi %(M\\left(x_{0} ; \\frac{x_{0}}{x_{0}-1}\\right), x_{0} \\neq 1)% là tiếp điểm của tiếp tuyến và đồ thị %((C))%, tiếp tuyến của %((C))% tại %(M\\left(x_{0} ; \\frac{x_{0}}{x_{0}-1}\\right))% là :<br>\\[y=-\\frac{1}{\\left(x_{0}-1\\right)^{2}}\\left(x-x_{0}\\right)+\\frac{x_{0}}{x_{0}-1} \\Leftrightarrow x+\\left(x_{0}-1\\right)^{2} y-x_{0}^{2}=0 \\text { ( } \\Delta \\text { ) }\\]<br>Và tâm đối xứng của %((C))% là %(I(1 ; 1))%.<br>Khi đó:<br>\\[\\begin{aligned}d(I ; \\Delta) & =\\frac{\\left|1+\\left(x_{0}-1\\right)^{2}-x_{0}^{2}\\right|}{\\sqrt{1+\\left(x_{0}-1\\right)^{4}}}=\\frac{2\\left|x_{0}-1\\right|}{\\sqrt{1+\\left(x_{0}-1\\right)^{4}}} \\\\& =\\frac{2}{\\sqrt{\\frac{1}{\\left(x_{0}-1\\right)^{2}}+\\left(x_{0}-1\\right)^{2}}}\\end{aligned}\\]<br>Mà %(\\sqrt{\\frac{1}{\\left(x_{0}-1\\right)^{2}}+\\left(x_{0}-1\\right)^{2}} \\geq \\sqrt{2} \\Rightarrow d(I ; \\Delta) \\leq \\sqrt{2})%<br>Dấu \" %(=)% \", xảy ra khi và chi khi %(\\frac{1}{x_{0}-1}=x_{0}-1 \\Leftrightarrow\\left(x_{0}-1\\right)^{2}=1 \\Leftrightarrow\\left[\\begin{array}{l}x_{0}=0 \\\\ x_{0}=2\\end{array}\\right.)%<br>Với %(x_{0}=0)% tiếp tuyến cần tìm là: %(y=-x)%<br>Với %(x_{0}=2)% tiếp tuyến cần tìm là: %(y=-x+4)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho các số thực dương %(x, y)% thỏa mãn: %(x^{3}+x+\\log _{2} \\frac{x}{y}=8 y^{3}+2 y+1)%.Tìm giá trị nhỏ nhất của biểu thức %(P=-x^{3}+x^{2}+4 y^{4}+y^{2}-2 x y^{2}+2 x y+4)%",
+        "question_images": [],
+        "solution": "Ta có: %(\\quad x^{3}+x+\\log _{2} \\frac{x}{y}=8 y^{3}+2 y+1)%<br>%(\\Leftrightarrow x^{3}+x+\\log _{2} x=(2 y)^{3}+2 y+\\log _{2}(2 y)(*))%<br>Xét hàm số: %(f(t)=t^{3}+t+\\log _{2} t, \\forall t\\gt 0)%, ta có:<br>%(f^{\\prime}(t)=3 t^{2}+1+\\frac{1}{t \\ln 2}>0, \\forall t>0)%<br>Do đó %(f(t))% là hàm đồng biến trên %((0 ;+\\infty))%.<br>Khi đó %((*) \\Leftrightarrow f(x)=f(2 y) \\Leftrightarrow x=2 y)%.<br>Khi đó, ta có:<br>%(\\begin{aligned}P & =-x^{3}+x^{2}+4 y^{4}+y^{2}-2 x y^{2}+2 x y+4 \\\\& =-8 y^{3}+4 y^{2}+4 y^{4}+y^{2}-4 y^{3}+4 y^{2}+4 \\\\& =4 y^{4}-12 y^{3}+9 y^{2}+4\\end{aligned})%<br>Xét hàm số %(P(y)=4 y^{4}-12 y^{3}+9 y^{2}+4, \\forall y>0)%, ta có:<br>%(\\begin{array}{l}P^{\\prime}(y)=16 y^{3}-36 y^{2}+18 y \\P^{\\prime}(y)=0 \\Leftrightarrow 16 y^{3}-36 y^{2}+18 y=0 \\Leftrightarrow y=0, y=\\frac{3}{4}, y=\\frac{3}{2}\\end{array})%<br>Bảng biến thiên<br><img alt=\"image.png\" class=\"image_resized\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b97ef7655f94221fb7e2c71c2e12c338.png\" srcset=\"https://docdn.giainhanh.io/media/test/ebdd639b32ed9f183f007287b3d3218b.png 245w, https://docdn.giainhanh.io/media/test/9e913787bfbca60310635d654f02428a.png 500w, https://docdn.giainhanh.io/media/test/c0b371d164c3334424193ad940aeb89e.png 750w, https://docdn.giainhanh.io/media/test/bfad6ccd8e3920c15fa73fd41993726e.png 1000w\" style=\"width:84.22%;\" width=\"1000\"/><br>Dựa vào bảng biền thiên, ta có:<br>%(\\min _{x, y\\gt 0} P=4)%, khi %(x=3, y=\\frac{3}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho %(I_{n}=\\int_{1}^{e} \\ln ^{n} x \\cdot d x\\left(n \\in \\mathbb{N}^{*}\\right))%, chứng minh rằng: %(I_{n+1}=e-(n+1) I_{n})%",
+        "question_images": [],
+        "solution": "Ta có: %(I_{n}=\\int_{1}^{0} \\ln ^{n} x . d x\\left(n \\in \\mathbb{N}^{*}\\right) \\Rightarrow I_{n+1}=\\int_{1}^{0} \\ln ^{n+1} x . d x\\left(n \\in Z^{+}\\right))%<br>Đặt:<br>\\[\\begin{array}{l}u=\\ln ^{n+1} x \\Rightarrow d u=(n+1) \\frac{1}{x} \\ln ^{n} x . d x \\d v=d x \\Rightarrow v=x\\end{array}\\]<br>Khi đó: %(\\quad I_{n+1}=\\int_{1}^{e} \\ln ^{n+1} x \\cdot d x=\\left.x \\cdot \\ln ^{n+1} x\\right|_{1} ^{e}-(n+1) \\int_{1}^{e} \\ln ^{n} x \\cdot d x)%<br>\\[=e-(n+1) I_{n}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tính tích phân sau: %(I=\\int_{0}^{\\frac{\\pi}{4}} \\ln (1+\\tan x) d x)%",
+        "question_images": [],
+        "solution": "Đặt %(x=\\frac{\\pi}{4}-t \\Rightarrow d x=-d t)%. Đổi cận: %(x=0 \\Rightarrow t=\\frac{\\pi}{4}, x=\\frac{\\pi}{4} \\Rightarrow t=0)%<br>Khi đó:<br>\\[\\begin{aligned}I & =\\int_{0}^{\\frac{\\pi}{4}} \\ln (1+\\tan x) d x=\\int_{0}^{\\frac{\\pi}{4}} \\ln \\left[1+\\tan \\left(\\frac{\\pi}{4}-t\\right)\\right] d t \\\\& =\\int_{0}^{\\frac{\\pi}{4}} \\ln \\left(1+\\frac{1-\\tan t}{1+\\tan t}\\right) d t=\\int_{0}^{\\frac{\\pi}{4}} \\ln \\left(\\frac{2}{1+\\tan t}\\right) d t \\\\& =\\int_{0}^{\\frac{\\pi}{4}} \\ln 2 d t-\\int_{0}^{\\frac{\\pi}{4}} \\ln (1+\\tan t) d t=\\frac{\\pi}{4} \\ln 2-\\int_{0}^{\\frac{\\pi}{4}} \\ln (1+\\tan x) d x\\end{aligned}\\]<br>Vậy %(I=\\int^{\\frac{\\pi}{4}} \\ln (1+\\tan x) d x=\\frac{\\pi}{8} \\ln 2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho hình chóp %(S . A B C D)% có đáy %(A B C D)% là một hình bình hành. Gọi %(K)% là trung điểm của %(S C)%. Giả sử %((P))% là mặt phẳng đi qua hai điểm %(A, K)% và luôn cắt các cạnh %(S B, S D)% lần lượt tại %(M, N(M, N)% không trùng %(S))%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh rằng: %(\\frac{S B}{S M}+\\frac{S D}{S N}=3)%.",
+        "question_images": [],
+        "solution": "Gọi %(O=A C \\cap B D, I=S O \\cap A K)%. Qua %(I)% dựng đường thằng %(d)% sao cho %(d)% luôn cắt các cạnh %(S B, S D)% lần lượt tại %(M, N)%.<br>Ta có: %(V_{S . A D C}=V_{S . A B C}=V_{S . A B D}=V_{S . C B D}=\\frac{1}{2} V_{S . A B C D}=\\frac{1}{2} V)%<br>Khi đó: %(\\frac{V_{S . A N K}}{V_{S . A D C}}=\\frac{S N}{S D} \\cdot \\frac{S K}{S C}=\\frac{1}{2} \\cdot \\frac{S N}{S D} \\Rightarrow V_{S . A N K}=\\frac{1}{2} \\cdot \\frac{S N}{S D} \\cdot V_{S . A D C}=\\frac{S N}{4 S D} V)%<br>Tương tự<br>\\[V_{S . A M K}=\\frac{S M}{4 S B} V, V_{S . A M N}=\\frac{S M}{S B} \\cdot \\frac{S N}{S D} \\cdot \\frac{V}{2}, V_{S . M N K}=\\frac{S M}{S B} \\cdot \\frac{S N}{S D} \\cdot \\frac{V}{4}\\]<br>Do đó:<br>\\[\\begin{array}{l}V_{S . A M K N}=V_{S . A N K}+V_{S . A M K}=V_{S . A M N}+V_{S . K M N} \\\\Leftrightarrow \\frac{S N}{4 S D} V+\\frac{S M}{4 S B} V=\\frac{S M}{S B} \\cdot \\frac{S N}{S D} \\cdot \\frac{V}{2}+\\frac{S M}{S B} \\cdot \\frac{S N}{S D} \\cdot \\frac{V}{4}=\\frac{S M}{S B} \\cdot \\frac{S N}{S D} \\cdot \\frac{3 V}{4} \\\\Leftrightarrow \\frac{S B}{S M}+\\frac{S D}{S N}=3\\left(\\text { Chia cả } 2 \\text { vế cho } \\frac{S M}{S B} \\cdot \\frac{S N}{S D} \\cdot \\frac{V}{4}\\right. \\text { ) }\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/98af212100d8a5d67ee28635a12f6396.png\" srcset=\"https://docdn.giainhanh.io/media/test/5e527a9a32443f121a6c01eeeea25145.png 192w, https://docdn.giainhanh.io/media/test/14c15671dc70639b4565e5619f2d541f.png 500w, https://docdn.giainhanh.io/media/test/1389a7053d0b220e7cc2e98cbfcdc585.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Gọi %(V_{1})% và %(V)% theo thứ tự là thể tích của khối chóp S.AMKN và S.ABCD.<br>Xác định vị trí của mặt phẳng %((P))% để tỷ số %(\\frac{V_{1}}{V})% đạt giá trị lớn nhất.",
+        "question_images": [],
+        "solution": "Đặt %(\\frac{S M}{S B}=x, \\frac{S N}{S D}=y ;(0\\lt x, y \\leq 1))%<br>Theo câu a ta có: %(V_{1}=\\frac{(x+y)}{4} V=\\frac{3 x y}{4} V \\Leftrightarrow x+y=3 x y)%<br>%(\\Rightarrow y=\\frac{x}{3 x-1} \\Rightarrow x\\gt \\frac{1}{3}()% do %(y>0))%<br>và %(y=\\frac{S N}{S D} \\leq 1 \\Rightarrow \\frac{x}{3 x-1} \\leq 1 \\Leftrightarrow 2 x-1 \\geq 0()% do %(3 x-1>0))% suy ra %(x \\geq \\frac{1}{2})%<br>Do đó %(\\frac{1}{2} \\leq x \\leq 1)%<br>Ta có %(\\frac{V_{1}}{V}=\\frac{3 x y}{4}=\\frac{3 x^{2}}{4(3 x-1)})%. Đặt %(f(x)=\\frac{3 x^{2}}{4(3 x-1)} ; \\forall x \\in\\left[\\frac{1}{2} ; 1\\right])%<br>Tính được %(f^{\\prime}(x)=\\frac{3\\left(3 x^{2}-2 x\\right)}{4(3 x-1)^{2}} ; f^{\\prime}(x)=0 \\Leftrightarrow x=0 ; x=\\frac{2}{3})%<br>Bảng biến thiên:<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/49f89a2ee5b2e6138fa42d7877386284.png\" srcset=\"https://docdn.giainhanh.io/media/test/f10f8aa1d173d8729629abddaff1e267.png 245w, https://docdn.giainhanh.io/media/test/44dfc1938d0d30fe9b4a0f15d9cb4896.png 500w, https://docdn.giainhanh.io/media/test/bc398f27dd5675ff94ca4bf1192eff6a.png 750w\" width=\"750\"/><br>Dựa vào bảng biến thiên, ta có:<br>%(\\frac{V_{1}}{V})% có giá trị lớn nhất là %(\\frac{3}{8})% khi %(\\left[\\begin{array}{c}x=1 \\Rightarrow M \\equiv B \\\\ x=\\frac{1}{2} \\Rightarrow \\frac{S M}{S B}=\\frac{1}{2}\\end{array}\\right.)%<br>Vậy mặt phẳng %((P))% trùng với mặt phẳng %((A B K))% hoặc mặt phẳng %((P))% đi qua %(A K)% và trung điểm của %(S B)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho %(a, b, c)% là các số thực không âm, thỏa mãn %(a+b+c=3)%. Chứng minh rằng:<br>\\[\\frac{a^{2}}{b^{2}+1}+\\frac{b^{2}}{c^{2}+1}+\\frac{c^{2}}{a^{2}+1} \\geq \\frac{3}{2}\\]",
+        "question_images": [],
+        "solution": "Ta có :<br>+) %(9=(a+b+c)^{2} \\leq 3\\left(a^{2}+b^{2}+c^{2}\\right) \\Rightarrow a^{2}+b^{2}+c^{2} \\geq 3)%<br>+)%(\\left(a^{2}+b^{2}+c^{2}\\right)^{2} \\geq 3\\left(a^{2} b^{2}+b^{2} c^{2}+c^{2} a^{2}\\right))%<br>+) %(\\frac{a^{2}}{m}+\\frac{b^{2}}{n}+\\frac{c^{2}}{p} \\geq \\frac{(a+b+c)^{2}}{m+n+p} ; \\forall m, n, p\\gt 0)%<br>Khi đó:<br>\\[S=\\frac{a^{2}}{b^{2}+1}+\\frac{b^{2}}{c^{2}+1}+\\frac{c^{2}}{a^{2}+1}=\\frac{a^{4}}{a^{2}\\left(b^{2}+1\\right)}+\\frac{b^{4}}{b^{2}\\left(c^{2}+1\\right)}+\\frac{c^{4}}{c^{2}\\left(a^{2}+1\\right)}\\]<br>Nên<br>\\[S \\geq \\frac{\\left(a^{2}+b^{2}+c^{2}\\right)^{2}}{a^{2} b^{2}+b^{2} c^{2}+c^{2} a^{2}+a^{2}+b^{2}+c^{2}} \\geq \\frac{\\left(a^{2}+b^{2}+c^{2}\\right)^{2}}{\\frac{1}{3}\\left(a^{2}+b^{2}+c^{2}\\right)^{2}+a^{2}+b^{2}+c^{2}}\\]<br>Đặt %(t=a^{2}+b^{2}+c^{2} \\geq 3)% ta được:<br>\\[S \\geq \\frac{t^{2}}{\\frac{1}{3} t^{2}+t}=\\frac{3 t}{t+3}=f(t), \\forall t \\in[3 ;+\\infty)\\]<br>Do %(f^{\\prime}(t)=\\frac{9}{(t+3)^{2}}\\gt 0, \\forall t \\in[3 ;+\\infty))%<br>suy ra hàm số đồng biến trên %(\\forall t \\in[3 ;+\\infty))%<br>Từ đây: %(S \\geq f(t) \\geq f(3)=\\frac{3}{2})%<br>Dấu \"=\" xảy ra khi và chỉ khi %(t=3)% hay %(a=b=c=1)%",
+        "question_type": "essay"
+    }
+]

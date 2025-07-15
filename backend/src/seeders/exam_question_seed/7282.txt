@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1.1",
+        "group_content": "Cho biểu thức %(A=\\frac{x \\sqrt{x}-3}{x-2 \\sqrt{x}-3}-\\frac{2(\\sqrt{x}-3)}{\\sqrt{x}+1}+\\frac{\\sqrt{x}+3}{3-\\sqrt{x}})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.25,
+        "content": "a) Rút gọn biểu thức %(A)%.",
+        "question_images": [],
+        "solution": "Rút gọn biểu thức %(A)%.ĐКХĐ: %(x \\geq 0 ; x \\neq 9)%.<br>\\[\\begin{array}{l}A=\\frac{x \\sqrt{x}-3}{(\\sqrt{x}+1)(\\sqrt{x}-3)}-\\frac{2(\\sqrt{x}-3)}{\\sqrt{x}+1}-\\frac{\\sqrt{x}+3}{\\sqrt{x}-3} \\\\=\\frac{x \\sqrt{x}-3}{(\\sqrt{x}+1)(\\sqrt{x}-3)}-\\frac{2(\\sqrt{x}-3)(\\sqrt{x}-3)}{(\\sqrt{x}+1)(\\sqrt{x}-3)}-\\frac{(\\sqrt{x}+3)(\\sqrt{x}+1)}{(\\sqrt{x}+1)(\\sqrt{x}-3)} \\\\=\\frac{x \\sqrt{x}-3-2 x+12 \\sqrt{x}-18-x-4 \\sqrt{x}-3}{(\\sqrt{x}+1)(\\sqrt{x}-3)} \\\\=\\frac{x \\sqrt{x}-3 x+8 \\sqrt{x}-24}{(\\sqrt{x}+1)(\\sqrt{x}-3)}=\\frac{(\\sqrt{x}-3)(x+8)}{(\\sqrt{x}+1)(\\sqrt{x}-3)}=\\frac{x+8}{\\sqrt{x}+1} .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.25,
+        "content": "b) Tìm giá trị nhỏ nhất của %(A)%.",
+        "question_images": [],
+        "solution": "Tìm giá trị nhỏ nhất của %(A)%.<br>\\[A=\\frac{x-1+9}{\\sqrt{x}+1}=\\frac{x-1}{\\sqrt{x}+1}+\\frac{9}{\\sqrt{x}+1}=\\sqrt{x}-1+\\frac{9}{\\sqrt{x}+1}=\\sqrt{x}+1+\\frac{9}{\\sqrt{x}+1}-2 \\geq^{\\cos i} 2 \\cdot 3-2=4 \\text {. }\\]<br>Vậy giá trị nhỏ nhất của %(A=4 \\Leftrightarrow \\sqrt{x}+1=\\frac{9}{\\sqrt{x}+1} \\Rightarrow(\\sqrt{x}+1)^{2}=9)% %(\\Rightarrow \\sqrt{x}+1=3 \\Rightarrow x=4)% (thỏa mãn điều kiện).",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.2 ",
+        "point": 2.5,
+        "content": "Chứng minh rằng: %(A=\\sqrt{2+\\sqrt{2+\\sqrt{2+\\ldots+\\sqrt{2+\\sqrt{2}}}}}\\lt 2)% (2020 chư số 2 ).",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A_{1}=\\sqrt{2}\\lt 2 \\\\ A_{2}=\\sqrt{2+\\sqrt{2}}=\\sqrt{2+A_{1}}\\lt \\sqrt{2+2}=2\\end{array})%<br>\\[A_{3}=\\sqrt{2+\\sqrt{2+\\sqrt{2}}}=\\sqrt{2+A_{2}}\\lt \\sqrt{2+2}=2\\]<br>%(\\cdots)%<br>\\[\\begin{array}{l}A_{2020}=A=\\sqrt{2+A_{2019}}\\lt \\sqrt{2+2}=2 \\\\Rightarrow A=\\sqrt{2+\\sqrt{2+\\sqrt{2+\\ldots+\\sqrt{2+\\sqrt{2}}}}}\\lt 2 \\text { (đpcm). }\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.1 ",
+        "point": 2.5,
+        "content": "Giải phương trình sau: %(\\sqrt{x-2}-\\sqrt{4-x}=2 x^{2}-5 x-3)%.",
+        "question_images": [],
+        "solution": "Giải phương trình sau: %(\\sqrt{x-2}-\\sqrt{4-x}=2 x^{2}-5 x-3)%.Điều kiện: %(2 \\leq x \\leq 4)%.Phương trình đã cho tương đương với:<br>\\[\\begin{array}{l}\\sqrt{x-2}-1+1-\\sqrt{4-x}=2 x^{2}-5 x-3 \\Leftrightarrow \\frac{x-3}{\\sqrt{x-2}+1}+\\frac{x-3}{1+\\sqrt{4-x}}=(x-3)(2 x+1) \\\\Leftrightarrow(x-3)\\left[\\frac{1}{\\sqrt{x-2}+1}+\\frac{1}{1+\\sqrt{4-x}}-(2 x+1)\\right]=0 \\\\{\\left[\\begin{array}{l}x=3 \\\\frac{1}{\\sqrt{x-2}+1}+\\frac{1}{1+\\sqrt{4-x}}-(2 x+1)=0\\end{array}\\right.}\\end{array}\\]<br>Với %(2 \\leq \\mathrm{x} \\leq 4)% thì %(\\frac{1}{\\sqrt{x-2}+1} \\leq 1 ; \\frac{1}{1+\\sqrt{4-x}} \\leq 1 ; 2 x+1 \\geq 5)%<br>\\[\\text { nên } \\frac{1}{\\sqrt{x-2}+1}+\\frac{1}{1+\\sqrt{4-x}}-(2 x+1)\\lt 0\\]<br>Từ đó suy ra: %(x=3)% là nghiệm duy nhất của phương trình.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.2 ",
+        "point": 2.5,
+        "content": "Tìm các số nguyên %(x)% để biểu thức %(x^{4}+2 x^{3}+2 x^{2}+x+3)% là một số chính phương.",
+        "question_images": [],
+        "solution": "Tìm các số nguyên %(x)% để biểu thức %(x^{4}+2 x^{3}+2 x^{2}+x+3)% là một số chính phương.Đặt %(x^{4}+2 x^{3}+2 x^{2}+x+3=y^{2})% (với %(y)% là số tự nhiên)Ta có: %(y^{2}=\\left(x^{4}+2 x^{3}+x^{2}\\right)+\\left(x^{2}+x+3\\right)=\\left(x^{2}+x\\right)^{2}+\\left(x^{2}+x+3\\right))%Ta sẽ chứng minh: %(a^{2}\\lt y^{2}\\lt (a+2)^{2})% với %(a=x^{2}+x)%Thật vậy: %(y^{2}-a^{2}=x^{2}+x+3=\\left(x+\\frac{1}{2}\\right)^{2}+\\frac{11}{4}\\gt 0 \\Rightarrow y^{2}>a^{2})%<br>\\[(a+2)^{2}-y^{2}=3 x^{2}+3 x+1=3\\left(x+\\frac{1}{2}\\right)^{2}+\\frac{1}{4}>0 \\Rightarrow y^{2}\\lt (a+2)^{2}\\]<br>Do %(a^{2}\\lt y^{2}\\lt (a+2)^{2})% nên %(y^{2}=(a+1)^{2})%<br>Hay %(\\left(x^{2}+x\\right)+\\left(x^{2}+x+3\\right)=\\left(x^{2}+x+1\\right)^{2} \\Leftrightarrow x^{2}+x-2=0)%%(\\Leftrightarrow x=1)% hoặc %(x=-2)%Thử lại: với %(x=1)% hoặc %(x=-2)% biểu thức đã cho đều bằng %(9=3^{2})%, thỏa mãn.Vậy %(x \\in\\{1 ;-2\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.1 ",
+        "point": 2.0,
+        "content": "Cho %(P(x)=x^{4}+a x^{3}-b x^{2}+c x+d)%, trong đó %(a, b, c, d)% là hằng số.",
+        "question_images": [],
+        "solution": "Cho %(P(x)=x^{4}+a x^{3}-b x^{2}+c x+d)%, trong đó %(a, b, c, d)% là hằng số.Biết %(P(-2)=6 ; P(-4)=12 ; P(-6)=18)%. Tính %(A=\\frac{P(0)+P(-8)+437 \\cdot P(-2)}{2020})%.Đặt %(Q(x)=P(x)+3 x \\Rightarrow Q(-2)=Q(-4)=Q(-6)=0)%%(\\Rightarrow-2 ;-4 ;-6)% là nghiệm của %(Q(x))%, mà %(Q(x))% là đa thức bậc 4 nên %(Q(x))% có dạng:<br>\\[\\begin{array}{l}Q(x)=(x+2)(x+4)(x+6)(x-m) \\\\Rightarrow P(x)=(x+2)(x+4)(x+6)(x-m)-3 x\\end{array}\\]<br>Tính được %(P(0)=-48 m ; P(-8)=408+48 m)%<br>\\[A=\\frac{-48 m+408+48 m+437.6}{202}=\\frac{3030}{2020}=\\frac{3}{2} .\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.2 ",
+        "point": 2.0,
+        "content": "Với các số dương %(a, b)% thỏa mãn %(a^{3}+b^{3}+6 a b \\leq 8)%. Tìm giá trị nhỏ nhất của:<br>\\[P=\\frac{1}{a^{2}+b^{2}}+\\frac{3}{a b}+a b\\]",
+        "question_images": [],
+        "solution": "Với các số dương %(a, b)% thỏa mãn %(a^{3}+b^{3}+6 a b \\leq 8)%. Tìm giá trị nhỏ nhất của:<br>\\[P=\\frac{1}{a^{2}+b^{2}}+\\frac{3}{a b}+a b\\]<br>Ta có: %(a^{3}+b^{3}+6 a b \\leq 8 \\Leftrightarrow(a+b-2)\\left(a^{2}-a b+b^{2}+2 a+2 b+4\\right) \\leq 0 \\Rightarrow a+b \\leq 2)%<br>\\[\\begin{array}{l}P=\\frac{1}{a^{2}+b^{2}}+\\frac{3}{a b}+a b=\\frac{1}{a^{2}+b^{2}}+\\frac{1}{2 a b}+\\frac{1}{a b}+a b+\\frac{3}{2 a b} \\P \\geq \\frac{4}{a^{2}+b^{2}+2 a b}+2+\\frac{6}{(a+b)^{2}} \\geq \\frac{9}{2}\\end{array}\\]<br>Dấu bằng xảy ra khi và chỉ khi %(a=b=1)%.Vậy giá trị nhỏ nhất của %(P=\\frac{9}{2})% khi %(a=b=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4.1",
+        "group_content": "Cho tam giác %(A B C)% nội tiếp đường tròn tâm %((O))% có %(D, E, F)% theo thứ tự là trung điểm của %(B C, A C, A B)%. Gọi %(H)% là trực tâm của tam giác %(A B C)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.25,
+        "content": "a) Chứng minh tam giác %(H A B)% và tam giác %(O D E)% đồng dạng.",
+        "question_images": [],
+        "solution": "Chứng minh được %(E D / /=A B, O D / / A H)% (cùng vuông góc %(B C)% )<br>%(B H / / O E)% (cùng vuông góc %(A C)% )<br>%(\\Rightarrow \\widehat{A B H}=\\widehat{D E O} ; \\widehat{B A H}=\\widehat{E D O})% (góc có cạnh tươg ứng song song)<br>%(\\Rightarrow \\triangle A B H \\sim \\triangle D E O(g-g)(đ p c m))%<br><img alt=\"https://docdn.giainhanh.io/media/test/64ebe0b97883f8667f2b45c435a5ad96.png\" src=\"https://docdn.giainhanh.io/media/test/64ebe0b97883f8667f2b45c435a5ad96.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.25,
+        "content": "b) Kẻ các đường thẳng %(D M / / O A, E N / / O B, F G / / O C(M \\in A H, N \\in B H, G \\in C H))%. Chứng minh các đường thẳng %(D M, E N, F G)% đồng quy.",
+        "question_images": [],
+        "solution": "Từ câu a) suy ra: %(O D / /=\\frac{1}{2} \\mathrm{AH})%<br>Chứng minh được tứ giác %(A M D O)% là hình bình hành suy ra %(O D=A M=M H)%, dẫn đến tứ giác %(M O D H)% là hình bình hành.<br>Nên %(D M)% đi qua trung điểm %(I)% của %(O H)%.<br>Chứng minh tương tự có %(E N, F G)% đi qua %(I)%, nên các đường thẳng %(D M, E N, F G)% đồng quy (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "4.2 ",
+        "point": 2.5,
+        "content": "Từ điểm %(M)% nằm trong tam giác %(A B C)% cho trước lần lượt vẽ các đường vuông góc %(M A^{\\prime}, M B^{\\prime}, M C^{\\prime})% đến %(B C, C A, A B)%. Tìm vị trí của %(M)% để tích %(M A^{\\prime} \\cdot M B^{\\prime} M C^{\\prime})% đạt giá trị lớn nhất.",
+        "question_images": [],
+        "solution": "Đặt %(M A^{\\prime}=x, M B^{\\prime}=y, M C^{\\prime}=z ; B C=a, A C=b, A B=c)%.<br>\\[\\begin{array}{l}S_{A B C}=S_{B M C}+S_{A M C}+S_{B M A}=\\frac{1}{2}(a x+b y+c z) \\\\Rightarrow a x+b y+c z=2 S_{A B C} \\M A^{\\prime} \\cdot M B^{\\prime} \\cdot M C^{\\prime}=x y z=\\frac{1}{a b c}(a x) \\cdot(b y) \\cdot(c z) \\leq \\frac{1}{a b c}\\left(\\frac{a x+b y+c z}{3}\\right)^{3}=\\frac{8 S^{3}}{27 a b c}\\end{array}\\]<br>Dấu \" %(=)% \" xảy ra %(\\Leftrightarrow a x=b y=c z)%, suy ra diện tích các tam giác %(B M C)%, tam giác %(A M C)%, tam giác %(A M B)% bằng nhau, khi đó %(M)% là trọng tâm tam giác %(A B C)%.<br>Vậy %(M A^{\\prime} \\cdot M B^{\\prime} . M C^{\\prime})% lớn nhất khi %(M)% là trọng tâm của tam giác %(A B C)%.<br><img alt=\"https://docdn.giainhanh.io/media/test/12957b19b483cbae43834f2c362f3a63.png\" src=\"https://docdn.giainhanh.io/media/test/12957b19b483cbae43834f2c362f3a63.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho dãy gồm 1000 số: %(7 ; 77 ; 777 ; 7777 ; \\ldots ; 777 \\ldots 7)%. Chứng minh trong dãy trên tồn tại ít nhất một số chia hết cho 2013.",
+        "question_images": [],
+        "solution": "Tách %(2013=3.11 .61)% trong đó %(3 ; 11 ; 61)% đôi một nguyên tố cùng nhau.<br>Sử dụng điều kiện chia hết cho đồng thời 3 và 11 , đó là những số có số chữ số là bội của 6 .<br>Đó là nhũ̃ng số: 777777 (6 chũ số), 777777777777 (12 chũ̃ số), 777...77 (996 chư số)<br>Số số hạng của dãy trên là %((996-6): 6+1=166)%<br>Khi chia 166 số trên cho 61 thì có 166 số dư, mà số dư của các phép chia này chỉ nhận 61 giá trị từ 0 đến 60 , nên theo nguyên lý Dirichle sẽ tồn tại 2 số trong dãy trên có cùng số dư khi chia cho %(61 \\Rightarrow)% hiệu của hai số đó chia hết cho 61 .<br>Hiệu của hai số có dạng: %(77 \\ldots 7.10^{n})% (có %(k)% số %(7,6 \\leq \\mathrm{k} \\leq 990)% )<br>Mà %(\\left(10^{n}, 61\\right)=1)% suy ra %(77 \\ldots 7)% chia hết cho 61 .<br>Vậy trong 1000 số đã cho tồn tại ít nhất một số chia hết cho 2013.",
+        "question_type": "essay"
+    }
+]

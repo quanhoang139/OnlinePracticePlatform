@@ -1,0 +1,97 @@
+[
+    {
+        "title": "1a ",
+        "point": 2.0,
+        "content": "Cho biểu thức %(A=1-\\left(\\frac{2 x^{2}+x-1}{1-x^{2}}+\\frac{2 x^{3}-x+x^{2}}{1+x^{3}}\\right) \\cdot \\frac{(1-x)\\left(x^{2}-x\\right)}{2 x-1})% Rút gọn biểu thức A và chứng minh %(A\\lt \\frac{4}{3})%",
+        "question_images": [],
+        "solution": "ĐKXĐ: %(x \\neq \\pm 1 ; x \\neq \\frac{1}{2})%<br>\\[\\begin{array}{l}A=1-\\frac{2 x^{2}+x-1}{(1-x)(1+x)}+\\frac{x\\left(2 x^{2}+x-1\\right)}{(1+x)\\left(1-x+x^{2}\\right)} \\cdot \\frac{(1-x)\\left(x^{2}-x\\right)}{2 x-1} \\\\=1-\\left[\\frac{\\left(2 x^{2}+2 x\\right)-(x+1)}{(1-x)(1+x)}+\\frac{x\\left[\\left(2 x^{2}+2 x\\right)-(x+1)\\right]}{(1+x)\\left(1-x+x^{2}\\right)}\\right] \\cdot \\frac{x(1-x)(x-1)}{2 x-1} \\\\=1-\\left[\\frac{(x+1)(2 x-1)}{(1-x)(1+x)}+\\frac{x(x+1)(2 x-1)}{(1+x)\\left(1-x+x^{2}\\right)}\\right] \\cdot \\frac{x(1-x)(x-1)}{2 x-1} \\\\=1-\\left(\\frac{2 x-1}{1-x}+\\frac{x(2 x-1)}{1-x+x^{2}}\\right) \\cdot \\frac{x(1-x)(x-1)}{2 x-1}=1-\\frac{(2 x-1)\\left[1-x+x^{2}+x-x^{2}\\right]}{(1-x)\\left(1-x+x^{2}\\right)} \\cdot \\frac{x(1-x)(x-1)}{2 x-1} \\\\=\\frac{1-x+x^{2}+x-x^{2}}{1-x+x^{2}}=\\frac{1}{x^{2}-x+1}\\end{array}\\]<br>Vậy với điều kiện %(x \\neq \\pm 1 ; x \\neq \\frac{1}{2})% thì %(A=\\frac{1}{x^{2}-x+1})%<br>Ta có %(A-\\frac{4}{3}=\\frac{1}{x^{2}-x+1}-\\frac{4}{3}=\\frac{3-4\\left(x^{2}-x+1\\right)}{3\\left(x^{2}-x+1\\right)}=\\frac{-4 x^{2}+4 x-1}{3\\left(x^{2}-x+1\\right)}=\\frac{-(2 x-1)^{2}}{3\\left[\\left(x-\\frac{1}{2}\\right)^{2}+\\frac{3}{4}\\right]}\\lt 0)%<br>Không có dấu bằng xảy ra vì %(x \\neq \\frac{1}{2} \\Rightarrow A\\lt \\frac{4}{3}(d f c m))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "1b ",
+        "point": 2.0,
+        "content": "Tìm %(a)% và %(b)% sao cho hai đa thức %(f(x)=4 x^{3}-3 x^{2}+2 x+2 a+3 b)% và %(g(x)=5 x^{4}-4 x^{3}+3 x^{2}-2 x-3 a+2 b)% cùng chia hết cho đa thức %((x-3))%",
+        "question_images": [],
+        "solution": "Vì đa thức %(f(x))% chia hết cho %(x-3)% nên %(f(3)=0)%<br>Ta có : %(4.3^{3}-3.3^{2}+2.3+2 a+3 b=0 \\Leftrightarrow 2 a+3 b=-87(1))%<br>Vì đa thức %(g(x))% chia hết cho %(x-3)% nên %(g(3)=0)%<br>Ta có %(5.3^{4}-4.3^{3}+3.3^{2}-2.3-3 a+2 b=0 \\Rightarrow 3 a-2 b=318(2))%<br>Từ (1) và (2) ta có hệ phương trình : %(\\left\\{\\begin{array}{l}2 a+3 b=-87 \\\\ 3 a-2 b=318\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a=60 \\\\ b=-69\\end{array}\\right.\\right.)%<br>Vậy %(a=60, b=-69)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2a ",
+        "point": 2.0,
+        "content": "Phân tích đa thức sau thành nhân tử : %(x(x+4)(x+6)(x+10)+128)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}x(x+4)(x+6)(x+10)+128=\\left(x^{2}+10 x\\right)\\left(x^{2}+10 x+24\\right)+128 \\\\=\\left(x^{2}+10 x+12-12\\right)\\left(x^{2}+10 x+12+12\\right)+128 \\\\=\\left(x^{2}+10 x+12\\right)^{2}-144+128=\\left(x^{2}+10 x+12\\right)^{2}-16 \\\\=\\left(x^{2}+10 x+12+4\\right)\\left(x^{2}+10 x+12-4\\right) \\\\=\\left(x^{2}+10 x+16\\right)\\left(x^{2}+10 x+8\\right)=(x+8)(x+2)\\left(x^{2}+10 x+8\\right)\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2b ",
+        "point": 2.0,
+        "content": "Chứng minh rằng với mọi số tự nhiên %(x)% thì giá trị biểu thức sau luôn viết được bằng tổng của hai số chính phương:<br>\\[A=x^{2}+2(x+1)^{2}+3(x+2)^{2}+4(x+3)^{2}\\]",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}A=x^{2}+2(x+1)^{2}+3(x+2)^{2}+4(x+3)^{2} \\\\=x^{2}+2 x^{2}+4 x+2+3 x^{2}+12 x+12+4 x^{2}+24 x+36 \\\\=10 x^{2}+40 x+50=\\left(x^{2}+10 x+25\\right)+\\left(9 x^{2}+30 x+25\\right) \\\\=(x+5)^{2}+(3 x+5)^{2}(\\text { dfcm })\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3a ",
+        "point": 1.5,
+        "content": "Tìm giá trị của m để phương trình ẩn %(x: \\frac{2 m x-1}{x-1}=m-2)% có nghiệm duy nhất",
+        "question_images": [],
+        "solution": "ĐKXĐ: %(x \\neq 1)%.<br>Với điều kiện trên ta có:<br>\\[\\begin{array}{l}\\frac{2 m x-1}{x-1}=m-2 \\Rightarrow 2 m x-1=(m-2)(x-1) \\\\Leftrightarrow=2 m x-1=m x-m-2 x+2 \\Leftrightarrow m x+2 x=3-m \\Leftrightarrow x(m+2)=3-m(1)\\end{array}\\]<br>Tìm được %(m \\neq-2)% phương trình (1) có nghiệm duy nhất %(x=\\frac{3-m}{m+2})%<br>Phương trình đã cho có nghiệm duy nhất khi :<br>\\[\\frac{3-m}{m+2} \\neq 1 \\Rightarrow 3-m \\neq m+2 \\Leftrightarrow m \\neq \\frac{1}{2}\\]<br>Vậy %(m \\neq-2 ; m \\neq \\frac{1}{2})% thì phương trình đã cho có nghiệm duy nhất",
+        "question_type": "essay"
+    },
+    {
+        "title": "3b ",
+        "point": 1.5,
+        "content": "Giải phương trình %(\\frac{2 x}{2 x^{2}-5 x+3}+\\frac{9 x}{2 x^{2}-x+3}=6)%",
+        "question_images": [],
+        "solution": "ĐKXĐ: %(x \\neq 1 ; x \\neq \\frac{3}{2})%.<br>Ta thấy %(x=0)% không phải là nghiệm của phương trình:<br>Xét %(x \\neq 0)% ta có :<br>\\[\\frac{2 x}{2 x^{2}-5 x+3}+\\frac{9 x}{2 x^{2}-x+3}=6 \\Leftrightarrow \\frac{2}{2 x-5+\\frac{3}{x}}+\\frac{9}{2 x-1+\\frac{3}{x}}=6\\]<br>Đặt %(2 x+\\frac{3}{x}-3=t)%, ta có phương trình %(\\frac{2}{t-2}+\\frac{9}{t+2}=6)%%(\\Rightarrow 2 t+4+9 t-18=6 t^{2}-24 \\Leftrightarrow 6 t^{2}-11 t-10=0 \\Leftrightarrow\\left[\\begin{array}{l}t=-\\frac{2}{3} \\\\ t=\\frac{5}{2}\\end{array}\\right.)%<br>\\[\\Rightarrow\\left[\\begin{array}{l}2 x+\\frac{3}{x}-3=\\frac{-2}{3}(V N) \\\\2 x+\\frac{3}{x}-3=\\frac{5}{2} \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{3}{4}(\\mathrm{tm}) \\x=2(\\mathrm{tm})\\end{array}\\right.\\end{array}\\right.\\]<br>Tập nghiệm của phương trình là %(S=\\left\\{\\frac{3}{4} ; 2\\right\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3c ",
+        "point": 1.5,
+        "content": "Tìm các cặp số nguyên %((x ; y))% thỏa mãn phương trình %(x^{2}-x y=6 x-5 y-8)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}x^{2}-x y=6 x-5 y-8 \\Leftrightarrow x^{2}-6 x+8=x y-5 y \\\\Leftrightarrow y(x-5)=x^{2}-6 x+8\\end{array}\\]<br>Xét %(x=5 \\Rightarrow P T V N)%<br>Xét %(x \\neq 5 \\Rightarrow y=\\frac{x^{2}-6 x+8}{x-5}=x-1+\\frac{3}{x-5})%<br>Vì %(y \\in Z \\Rightarrow x \\in Z \\Rightarrow(x-5) \\in U(3)=\\{ \\pm 1 ; \\pm 3\\})%<br>\\[\\Rightarrow x \\in\\{2 ; 4 ; 6 ; 8\\} \\Rightarrow y \\in\\{0 ; 0 ; 8 ; 8\\}\\]<br>Vậy các cặp giá trị %((\\mathrm{x} ; \\mathrm{y}))% cần tìm là %((2 ; 0) ;(4 ; 0) ;(6 ; 8) ;(8 ; 8))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho hình vuông %(A B C D, A C)% và BD cắt nhau tại O. Gọi M là trung điểm của cạnh %(B C, N)% là trung điểm của cạnh %(C D . A N)% cắt DM tại I. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.5,
+        "content": "a) %(A N \\perp D M)% và %(D O^{2}=D I \\cdot D M)%",
+        "question_images": [],
+        "solution": "Chứng minh %(\\triangle A N D=\\triangle D M C()% c.g.c %() \\Rightarrow \\angle D A N=\\angle C D M)%<br>Chứng minh %(A N \\perp D M)%, chứng minh %(\\triangle D I N \\sim \\triangle D C M(g . g) \\Rightarrow D I . D M=D N . D C(1))%<br>Chứng minh %(D O^{2}=\\frac{1}{2} D C^{2}=D N \\cdot D C(2))%<br>Từ (1) và (2) %(\\Rightarrow D O^{2}=D I \\cdot D M)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1c37d2393eec4f129cfe1d3ef8141fe2.png\" srcset=\"https://docdn.giainhanh.io/media/test/6020fdaeba90427eeea4856c2e50c707.png 245w, https://docdn.giainhanh.io/media/test/f1b43c1c6f3ee42bd48205aed6e07884.png 500w, https://docdn.giainhanh.io/media/test/19d5fde6b7ecbfd052407206d3bb346a.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) %(B I=B A)% và %(\\angle I B C=2 \\angle I C D)%",
+        "question_images": [],
+        "solution": "Gọi K là giao điểm của IM với AB.<br>Chứng minh<br>\\[\\triangle C D M=\\triangle B K M \\text { (g.c.g) } \\Rightarrow C D=B K \\Rightarrow A B=B K\\]<br>%(\\Rightarrow \\triangle A I K)% vuông tại I có %(I B)% là trung tuyến nên %(I B=A B(d f \\mathrm{~cm}))%%(I B=A B \\Rightarrow B I=B C \\Rightarrow \\triangle B I C)% cân tại B%(\\Rightarrow \\angle I B C=180^{\\circ}-2 \\angle B C I=2 \\angle B C D-2 \\angle B C I=2(\\angle B C I+\\angle I C D)-2 \\angle B C I=2 \\angle I C D(* d f c m))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) %(I M)% là phân giác của góc %(\\angle O I C)%",
+        "question_images": [],
+        "solution": "%(M N, O M)% là đường trung bình của %(\\triangle C B D \\Rightarrow M N / / D B / / C D)%<br>\\[\\begin{array}{l}\\Rightarrow \\angle M N C=45^{\\circ}, \\angle B O M=45^{\\circ} \\\\Rightarrow D I \\cdot D M=D O^{2} \\Rightarrow \\triangle D N M \\backsim \\triangle D I C(\\text { c.g.c }) \\\\rightarrow \\angle D I O=\\angle D O M \\Rightarrow \\angle O I M=\\angle B O M=45^{\\circ} \\\\Rightarrow \\angle O I M=\\angle M I C=45^{\\circ}\\end{array}\\]<br>Nên IM là phân giác của %(\\angle O I C)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho 1010 số nguyên dương phân biệt, mỗi số không vượt quá 2018. Chứng minh rằng trong các số đó luôn tồn tại hai số có tổng bằng 1009.",
+        "question_images": [],
+        "solution": "Xét tập %(A=\\left\\{a_{1} ; a_{2} ; \\ldots . ; a_{1010}\\right\\})% thỏa mãn %(1 \\leq a_{i} \\leq 2018 \\forall i \\in\\{1 ; 2 ; \\ldots . ; 1010\\})% và tập %(B=\\left\\{b_{1} ; b_{2} ; b_{3} ; \\ldots . ; b_{1010}\\right\\})% với %(b_{i}=2019-a_{i} \\Rightarrow 1 \\leq b_{i} \\leq 2018 \\forall i \\in\\{1 ; 2 ; 3 ; \\ldots . ; 1010\\})%<br>Tổng số phần tử của hai tập hợp %(A)% và B là %(2.1010=2020)% mà các số %(a_{i}, b_{i})% thuộc tập số nguyên từ 1 đến 2018 gồm 2018 phần tử.<br>Do các số %(a_{i})% phân biệt với nhau, các số %(b_{i})% phân biệt với nhau nên có ít nhất một số ở tập A trùng với một số ở tập B<br>Xét trường hợp %(a_{m}=b_{m} \\Rightarrow a_{m}=2019-a_{m} \\Rightarrow 2 a_{m}=2019)% (vô lý)<br>Xét trường hợp %(a_{m}=b_{n}(\\mathrm{~m})% khác n%() \\Rightarrow a_{m}=2019-a_{n} \\leftrightarrow a_{m}+a_{n}=2019)%<br>Vậy trong tập hợp A có ít nhất một cặp số có tổng bằng 2019",
+        "question_type": "essay"
+    }
+]

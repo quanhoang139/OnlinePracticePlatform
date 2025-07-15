@@ -1,0 +1,42 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Cho tam giác ABC có %(\\sin A=\\frac{\\sin B+2 \\sin C}{2 \\cos B+\\cos C})% với %(\\mathrm{A}, \\mathrm{B}, \\mathrm{C})% tương ứng là kí hiệu số đo của các góc %(\\overparen{B A C}, \\overparen{A B C}, \\overparen{A C B})% của tam giác ABC . Chứng minh rằng tam giác ABC vuông.",
+        "question_images": [],
+        "solution": "<strong>Cách 1</strong>:<br>Ta có:<br>\\[\\begin{array}{l}\\sin A=\\frac{\\sin B+2 \\sin C}{2 \\cos B+\\cos C} \\Leftrightarrow 2 \\sin A \\cos B+\\sin A \\cos C=\\sin B+2 \\sin C \\\\Leftrightarrow \\sin (A+B)+\\sin (A-B)+\\frac{1}{2}[\\sin (A+C)+\\sin (A-C)]=\\sin B+2 \\sin C \\\\Leftrightarrow \\sin C+\\sin (A-B)+\\frac{1}{2}[\\sin B-\\sin (A-C)]=0 \\\\Leftrightarrow \\sin (A-B)-\\sin (A+B)-\\frac{1}{2}[\\sin (A+C)+\\sin (A-C)]=0 \\\\Leftrightarrow 2 \\cos A \\sin B+\\cos A \\sin C=0 \\Leftrightarrow\\left[\\begin{array}{l}\\cos A=0 \\\\2 \\sin B+\\sin C=0\\end{array}\\right.\\end{array}\\]<br>Phương trình (2) vô nghiệm<br>Phương trình (1) cho tam giác ABC vuông tại A .<br><strong>Cách 2</strong>:<br>Ta có:<br>\\[\\begin{array}{l}\\sin A=\\frac{\\sin B+2 \\sin C}{2 \\cos B+\\cos C} \\Leftrightarrow a=\\frac{b+2 c}{2 \\cdot \\frac{a^{2}+c^{2}-b^{2}}{2 a c}+\\frac{a^{2}+c^{2}-b^{2}}{2 a c}} \\\\Leftrightarrow 2 a^{2} b+2 b c^{2}-2 b^{3}+a^{2} c+b^{2} c-c^{3}=2 b^{2} c+4 b c^{2} \\Leftrightarrow 2 a^{2} b-2 b^{3}+a^{2} c-c^{3}-2 b c^{2}-b^{2} c=0 \\\\Leftrightarrow 2 b\\left(a^{2}-c^{2}-b^{2}\\right)+c\\left(a^{2}-c^{2}-b^{2}\\right)=0 \\Leftrightarrow\\left(a^{2}-c^{2}-b^{2}\\right)(2 b+c)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}a^{2}-c^{2}-b^{2}=0 \\\\2 b+c=0(V N)\\end{array} \\Leftrightarrow a^{2}=b^{2}+c^{2}\\right.\\end{array}\\]<br>Theo định lý Pytago suy ra tam giác ABC vuông tại A .",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x^{2}+x y-2 y^{2}+3 y=1 \\\\ x \\sqrt{x-y}-x+y=2\\end{array}(x, y \\in \\mathbb{R})\\right.)%",
+        "question_images": [],
+        "solution": "Điều kiện: %(\\mathrm{x}-\\mathrm{y} \\geq 0)%<br>Xem phương trình (1) là phương trình bậc hai theo %(x)% nên ta có được hai nghiệm là:<br>\\[\\mathrm{x}=\\mathrm{y}-1 ; \\mathrm{x}=1-2 \\mathrm{y}\\]<br>- Với %(x=y-1 \\Leftrightarrow x-y=-1)% (loại vì %(x-y \\geq 0)% )<br>- Với %(x=1-2 y)% thay vào (2) ta được: %(3 y-3+(1-2 y) \\sqrt{1-3 y}=0\\left(y \\leq \\frac{1}{3}\\right))%<br>Đặt %(t=\\sqrt{1-3 y} ; t \\geq 0)% thay vào giải ta được: %(t=2 \\Leftrightarrow \\sqrt{1-3 y}=2 \\Leftrightarrow y=-1 \\Rightarrow x=3)%<br>Vậy hệ thức có nghiệm là %(x=3)% và %(y=-1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3  ",
+        "point": 1.0,
+        "content": "Cho các số thực dương %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})%. Chứng minh rằng: %(\\frac{a+3 c}{a+b}+\\frac{a+3 b}{a+c}+\\frac{2 a}{b+c} \\geq 5)%",
+        "question_images": [],
+        "solution": "<strong>Cách 1: </strong>Ta có:<br>%(\\mathrm{VT}_{(1)}=\\left(\\frac{\\mathrm{a}+\\mathrm{c}}{\\mathrm{a}+\\mathrm{b}}+\\frac{\\mathrm{a}+\\mathrm{b}}{\\mathrm{a}+\\mathrm{c}}\\right)+2\\left(\\frac{\\mathrm{a}}{\\mathrm{b}+\\mathrm{c}}+\\frac{\\mathrm{b}}{\\mathrm{a}+\\mathrm{c}}+\\frac{\\mathrm{c}}{\\mathrm{a}+\\mathrm{b}}\\right))%%(+) \\frac{a+c}{a+b}+\\frac{a+b}{a+c} \\geq 2)%<br>%(+) \\frac{a}{b+c}+\\frac{b}{a+c}+\\frac{c}{a+b}=(a+b+c)\\left(\\frac{1}{b+c}+\\frac{1}{a+c}+\\frac{1}{a+b}\\right)-3 \\geq(a+b+c) \\frac{9}{2(a+b+c)}-3=\\frac{3}{2})%<br>%(\\Rightarrow \\mathrm{VT}_{(1)} \\geq 2+2 \\cdot \\frac{3}{2}=5)% (điều phải chứng minh).<br>Dấu bằng xảy ra khi và chỉ kkhi %(\\mathrm{a}=\\mathrm{b}=\\mathrm{c})%.<br><strong>Cách 2</strong>: Đặt %(\\mathrm{x}=\\mathrm{a}+\\mathrm{b}, \\mathrm{y}=\\mathrm{b}+\\mathrm{c}, \\mathrm{z}=\\mathrm{c}+\\mathrm{a})%<br>Ta được %(\\mathrm{VT}_{(1)}=-3+\\frac{\\mathrm{y}}{\\mathrm{x}}+\\frac{2 \\mathrm{z}}{\\mathrm{x}}+\\frac{2 \\mathrm{x}}{\\mathrm{z}}+\\frac{\\mathrm{y}}{\\mathrm{z}}+\\frac{\\mathrm{x}}{\\mathrm{y}}+\\frac{\\mathrm{z}}{\\mathrm{y}} \\geq 5)% (điều phải chứng minh).",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 5.0,
+        "content": "Cho các số nguyên %(n, m, k)% thỏa %(m \\cdot n=k^{2})% và k không chia hết cho 3 . Chứng minh rằng %((\\mathrm{m}-\\mathrm{n}))% chia hết cho 3",
+        "question_images": [],
+        "solution": "<strong>Cách 1:</strong><br>Vì m.n %(=\\mathrm{k}^{2})% và k không chia hết cho %(3(\\mathrm{~m}, \\mathrm{n}, \\mathrm{k})% là số nguyên) nên %(\\mathrm{m}, \\mathrm{n})% không chia hết cho 3 .<br>Suy ra %(m=3 m^{\\prime}+r_{1}, n=3 n^{\\prime}+r_{2}\\left(r_{1}, r_{2} \\in\\{1 ; 2\\}\\right.)%<br>Do m.n %(=k^{2})% nên m.n %(\\equiv r_{1} r_{2}(\\bmod 3))%, suy ra %(r_{1} r_{2} \\equiv 1(\\bmod 3))% suy ra %(r_{1} \\equiv r_{2} \\equiv 1(\\bmod 3))%<br>Suy ra %(\\mathrm{m} \\equiv \\mathrm{n}(\\bmod 3) \\Rightarrow \\mathrm{m}-\\mathrm{n} \\vdots 3)% (điều phải chứng minh).<br><strong>Cách 2: </strong><br>Vì k không chia hết cho 3 nên %(\\mathrm{k}^{2} \\equiv 1(\\bmod 3))% suy ra m.n %(\\left.\\equiv 1(\\bmod 3) \\quad{ }^{*}\\right))%<br>Vì m.n không chia hết cho 3 nên %(\\mathrm{m}, \\mathrm{n})% không chia hết cho 3 .<br>Giả sử %(m)% và %(n)% không cùng số dư khi chia cho 3 thì m.n %(\\equiv 2(\\bmod 3))% mẫu thuẩn (*).<br>Suy %(\\mathrm{m}, \\mathrm{n})% chia hết cho 3 có cùng số du .<br>Vậy %(\\mathrm{m}-\\mathrm{n})% chia hết cho 3 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho đường tròn %(\\left(\\mathrm{O}_{1}\\right))% có tâm %(\\mathrm{O}_{1})% và đường tròn %(\\left(\\mathrm{O}_{2}\\right))% có tâm %(\\mathrm{O}_{2})%, biết hai đường tròn cắt nhau tại hai điểm %(\\mathrm{A}, \\mathrm{B})%. Vẽ tuyến chung d của hai đường tròn. Gọi %(\\mathrm{C}, \\mathrm{D})% lần lượt là tiếp điểm của d với %(\\left(\\mathrm{O}_{1}\\right),\\left(\\mathrm{O}_{2}\\right))%; biết A và C khác phía so với %(\\mathrm{O}_{1} \\mathrm{O}_{2})%. Vẽ đường thẳng đi đi qau A và song song với d lần lượt cắt %(\\mathrm{BD}, \\mathrm{BC})% tại %(\\mathrm{E}, \\mathrm{F})%. Chứng minh rằng AE %(=\\mathrm{AF})%.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{G}=\\mathrm{AB} \\cap \\mathrm{CD})% suy ra %(\\mathrm{GC}=\\mathrm{GD})% (vì GA.GB %(=\\mathrm{GC}^{2}=\\mathrm{GD}^{2})% là phương tích của điểm G với hai đường tròn).<br>Theo định lí Talet ta có:%(\\frac{\\mathrm{GD}}{\\mathrm{AE}}=\\frac{\\mathrm{GB}}{\\mathrm{AB}}=\\frac{\\mathrm{GC}}{\\mathrm{AF}})% mà %(\\mathrm{GC}=\\mathrm{GD})% nên %(\\mathrm{AE}=\\mathrm{AF})% (điều phải chứng minh)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/486942aae2f8dba19f56374e667c146e.png\" srcset=\"https://docdn.giainhanh.io/media/test/0ddf375ff290b828ee486eaacc5e1a1b.png 206w, https://docdn.giainhanh.io/media/test/9683a905f822421d0f32925f1a2b2f7e.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

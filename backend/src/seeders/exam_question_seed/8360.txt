@@ -1,0 +1,81 @@
+[
+    {
+        "title": "1 ",
+        "point": 3.0,
+        "content": "Cho hàm số %(y=x^{3}-3 m x^{2}+3(2 m+3) x+1)%. Tìm tất cả các giá trị của tham số %(m)% để hàm số nghịch biến trong khoảng %(\\left(-\\frac{1}{2} ; \\frac{1}{2}\\right))%.",
+        "question_images": [],
+        "solution": "Ta có %(y^{\\prime}=3 x^{2}-6 m x+3(2 m+3))% Hàm số nghịch biến trong khoảng<br>\\[\\begin{array}{l}\\left(-\\frac{1}{2} ; \\frac{1}{2}\\right) \\Leftrightarrow y^{\\prime} \\leq 0, \\forall x \\in\\left(-\\frac{1}{2} ; \\frac{1}{2}\\right) \\\\Leftrightarrow 2 m(x-1) \\geq x^{2}+3 \\Leftrightarrow m \\leq \\frac{x^{2}+3}{2 x-2}, \\forall x \\in\\left(-\\frac{1}{2} ; \\frac{1}{2}\\right) .\\end{array}\\]<br>Xét hàm số %(f(x)=\\frac{x^{2}+3}{2 x-2})% trên khoảng %(\\left(-\\frac{1}{2} ; \\frac{1}{2}\\right))%<br>Ta có %(f^{\\prime}(x)=\\frac{(x+1)(2 x-6)}{(2 x-2)^{2}}\\lt 0, \\forall x \\in\\left(-\\frac{1}{2} ; \\frac{1}{2}\\right))%<br>Từ bảng biến thiên suy ra %(m \\leq-\\frac{13}{4})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(19+3 x+2 \\sqrt{-4 x^{2}-4 x+24}=6 \\sqrt{2-x}+12 \\sqrt{3+x})%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(-3 \\leq x \\leq 2)%.<br>Phương trình đã cho tương đương với<br>\\[19+3 x+4 \\sqrt{(2-x)(3+x)}=6(\\sqrt{2-x}+2 \\sqrt{3+x})\\]<br>Đặt %(t=\\sqrt{2-x}+2 \\sqrt{3+x})% ta có %(t^{2}=14+3 x+4 \\sqrt{(2-x)(3+x)})%,<br>Phương trình trở thành: %(t^{2}-6 t+5=0 \\Leftrightarrow\\left[\\begin{array}{l}t=1 \\\\ t=5\\end{array}\\right.)%<br>Với %(t=1)% ta có%(\\sqrt{2-x}+2 \\sqrt{3+x}=1 \\Leftrightarrow 3 x+13+4 \\sqrt{(2-x)(3+x)}=0)%<br>Phương trình vô nghiệm do %(-3 \\leq x \\leq 2)%.<br>Với %(t=5)% ta có<br>\\[\\begin{array}{l}\\sqrt{2-x}+2 \\sqrt{3+x}=5 \\Leftrightarrow 2-x+4(3+x)+4 \\sqrt{(2-x)(3+x)}=25 \\\\Leftrightarrow 4 \\sqrt{-x^{2}-x+6}=11-3 x \\Leftrightarrow\\left\\{\\begin{array}{l}x \\leq \\frac{11}{3} \\\\16\\left(-x^{2}-x+6\\right)=(11-3 x)^{2}\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}x \\leq \\frac{11}{3} \\\\25 x^{2}-50 x+25=0\\end{array} \\Leftrightarrow x=1(\\text { tmdk })\\right.\\end{array}\\]<br>Vây phương trình có nghiệm %(x=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x^{3}+y^{3}=3 x^{2}-6 x-3 y+4 \\\\ x^{2}+y^{2}-4 x-2 y-8+\\sqrt{5 x+6}+\\sqrt{4 x-3 y+14}=0\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}x^{3}+y^{3}=3 x^{2}-6 x-3 y+4(1) \\\\ x^{2}+y^{2}-4 x-2 y-8+\\sqrt{5 x+6}+\\sqrt{4 x-3 y+14}=0(2)\\end{array}\\right.)%<br>Điều kiện: %(\\left\\{\\begin{array}{l}x \\geq-\\frac{6}{5} \\\\ 4 x-3 y+14 \\geq 0\\end{array}\\right.)%<br>%((1) \\Leftrightarrow y^{3}+3 y=(1-x)^{3}+3(1-x)(3))%<br>Xét hàm số %(f(t)=t^{3}+3 t, t \\in R)% ta có %(f^{\\prime}(t)=3 t^{2}+3\\gt 0 \\forall t \\in R)%, hàm số %(f)% đồng biến trên %(R)% nên từ %((3))% ta có %(y=1-x)%.<br>Thế vào (2) ta có phương trình:<br>%(\\begin{array}{l}2 x^{2}-4 x-9+\\sqrt{5 x+6}+\\sqrt{7 x+11}=0(4) \\text { ( điều kiện } x \\geq-\\frac{6}{5} \\text { ) } \\\\ \\Rightarrow 2 x^{2}-2 x-4=(x+2-\\sqrt{5 x+6})+(x+3-\\sqrt{7 x+11}) \\\\ \\Rightarrow 2\\left(x^{2}-x-2\\right)=\\frac{(x+2)^{2}-(5 x+6)}{x+2+\\sqrt{5 x+6}}+\\frac{(x+3)^{2}-(7 x+11)}{x+3+\\sqrt{7 x+11}} \\\\ \\Rightarrow 2\\left(x^{2}-x-2\\right)=\\frac{x^{2}-x-2}{x+2+\\sqrt{5 x+6}}+\\frac{x^{2}-x-2}{x+3+\\sqrt{7 x+11}} \\\\ \\Rightarrow\\left[\\begin{array}{l}x^{2}-x-2=0 \\\\ \\frac{1}{x+2+\\sqrt{5 x+6}}+\\frac{1}{x+3+\\sqrt{7 x+11}}=2(*)\\end{array}\\right. \\\\end{array})%<br>Với %(x \\geq-\\frac{6}{5})% ta có<br>\\[\\frac{1}{x+2+\\sqrt{5 x+6}}+\\frac{1}{x+3+\\sqrt{7 x+11}}\\lt \\frac{1}{-\\frac{6}{5}+2}+\\frac{1}{-\\frac{6}{5}+3}=\\frac{65}{36}\\lt 2\\]<br>Do đó phương trình %(\\left(^{*}\\right))% vô nghiệm, phương trình (4) có hai nghiệm %(x=-1, x=2)%.<br>Vậy hệ phương trình có hai nghiệm %((-1 ; 2) ;(2 ;-1))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là các số thực dương thỏa mãn %(a+b+c=1)%. Tìm giá trị nhỏ nhất của biểu thức<br>\\[P=\\frac{a^{2}}{(b+c)^{2}+5 b c}+\\frac{b^{2}}{(c+a)^{2}+5 c a}-\\frac{3}{4}(a+b)^{2} .\\]",
+        "question_images": [],
+        "solution": "\\[\\frac{a^{2}}{(b+c)^{2}+5 b c} \\geq \\frac{a^{2}}{(b+c)^{2}+\\frac{5}{4}(b+c)^{2}} \\geq \\frac{4 a^{2}}{9(b+c)^{2}} .\\]<br>Tương tự ta có %(\\frac{b^{2}}{(c+a)^{2}+5 c a} \\geq \\frac{4 b^{2}}{9(c+a)^{2}})%.<br>\\[\\begin{array}{l}P \\geq \\frac{4}{9}\\left(\\frac{a^{2}}{(b+c)^{2}}+\\frac{b^{2}}{(c+a)^{2}}\\right)-\\frac{3}{4}(a+b)^{2} \\geq \\frac{2}{9}\\left(\\frac{a}{b+c}+\\frac{b}{c+a}\\right)^{2}-\\frac{3}{4}(a+b)^{2} \\\\=\\frac{2}{9}\\left(\\frac{a^{2}+b^{2}+c(a+b)}{a b+c(a+b)+c^{2}}\\right)^{2}-\\frac{3}{4}(a+b)^{2} \\\\geq \\frac{2}{9}\\left(\\frac{\\frac{(a+b)^{2}}{2}+c(a+b)}{\\frac{(a+b)^{2}}{4}+c(a+b)+c^{2}}\\right)^{2}-\\frac{3}{4}(a+b)^{2}=\\frac{8}{9}\\left(1-\\frac{2}{c+1}\\right)^{2}-\\frac{3}{4}(1-c)^{2}\\end{array}\\]<br>Xét<br>\\[f(c)=\\frac{8}{9}\\left(1-\\frac{2}{c+1}\\right)^{2}-\\frac{3}{4}(1-c)^{2}, c \\in(0 ; 1) . f^{\\prime}(c)=0 \\Leftrightarrow c=\\frac{1}{3} .\\]<br>Lập bảng biến thiên và từ đó suy ra %(f(c) \\geq-\\frac{1}{9}, \\forall c \\in(0 ; 1))%.<br>Ta có %(P \\geq f(c) \\geq-\\frac{1}{9})% dấu đẳng thức xảy ra khi %(a=b=c=\\frac{1}{3})%.<br>Vậy %(\\min P=-\\frac{1}{9})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Bạn An vẽ lên giấy một đa giác lồi %((H))% có số cạnh nhiều hơn 4. Sau đó bạn An đếm các tam giác nhận đỉnh của đa giác làm đỉnh và nhận xét: số tam giác không có cạnh chung với %((H))% nhiều gấp 5 lần số tam giác có đúng một cạnh chung với %((H))%. Hỏi bạn An vẽ đa giác lồi có bao nhiêu cạnh?",
+        "question_images": [],
+        "solution": "Gọi %(n \\quad(n\\gt 4))% là số cạnh của đa giác.<br>Số tam giác có 3 đỉnh là đỉnh của đa giác %(C_{n}^{3})%<br>Số tam giác có 3 đỉnh là đỉnh của đa giác và có 1 cạnh chung với %((\\mathrm{H}))% là %(n(n-4))%<br>Số tam giác có 3 đỉnh là đỉnh của đa giác và có 2 cạnh chung với %((\\mathrm{H}))% là %(n)%<br>Số tam giác có 3 đỉnh là đỉnh của đa giác và không có cạnh chung với(H) là %(C_{n}^{3}-n(n-4)-n)%<br>Theo giả thiết %(C_{n}^{3}-n(n-4)-n=5 n(n-4))%.<br>Giải phương trình này, ta được %(n=35)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 3.0,
+        "content": "Trong mặt phẳng tọa độ %((O x y))%, cho tam giác %(A B C(A C\\gt A B))%. Gọi %(D\\left(2 ;-\\frac{3}{2}\\right))% là chân đường phân giác trong góc %(A, E(-1,0))% là một điểm thuộc đoạn %(A C)% thỏa mãn %(A B=A E)%. Tìm tọa độ các đỉnh %(A, B, C)% biết phương trình đường tròn ngoại tiếp tam giác %(A B C)% là %(x^{2}+y^{2}+x-2 y-30=0)% và %(A)% có hoành độ dương.",
+        "question_images": [],
+        "solution": "Gọi %(H=A I \\cap D E)%.<br>Ta có %(A B=A E, B A D=E A D)% và %(A D)% chung nên%(\\triangle A B D=\\triangle A E D \\Rightarrow A E D=A B C)%.<br>Ta có %(H A E=I C A=\\frac{180^{\\circ}-A I C}{2}=90^{\\circ}-A B C)%.<br>Suy ra %(A E D+H A E=A B C+\\left(90^{\\circ}-A B C\\right)=90^{\\circ} \\Rightarrow A H E=90^{\\circ})%.<br>Đường tròn ngoại tiếp tam giác %(A B C)% có tâm %(I\\left(-\\frac{1}{2} ; 1\\right), R=\\frac{5 \\sqrt{5}}{2})%.<br>Phương trình đường thẳng %(A I: 2 x-y+2=0)%<br>Tọa độ %(A)% là nghiệm của hệ: %(\\left\\{\\begin{array}{l}2 x-y+2=0 \\\\ x^{2}+y^{2}+x-2 y-30=0\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}x=2 \\\\ y=6\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}x=-3 \\\\ y=-4\\end{array}\\right.\\end{array}\\right.\\right.)%<br>Do %(A)% có hoành độ dương nên %(A(2 ; 6))%.Phương trình đường thẳng %(A D: x-2=0)%.<br>Gọi %(A^{\\prime})% là giao điểm thứ 2 của %(A D)% và đường tròn%((C) \\Rightarrow A^{\\prime}(2 ;-4))%.<br>Phương trình đường thẳng %(B C: x-2 y-5=0)%.<br>Tọa độ %(B, C)% là nghiệm của hệ %(\\left\\{\\begin{array}{l}x-2 y-5=0 \\\\ x^{2}+y^{2}+x-2 y-30=0\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}x=5 \\\\ y=0\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}x=-3 \\\\ y=-4\\end{array}\\right.\\end{array}\\right.\\right.)%<br>Suy ra %(\\left[\\begin{array}{l}B(5 ; 0), C(-3 ;-4) \\\\ B(-3 ;-4), C(5 ; 0)\\end{array}\\right.)%<br>Do %(A C\\gt A B)% nên %(B(5 ; 0), C(-3 ;-4))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b6130db8bc4181d612e53aaae8cba60c.png\" srcset=\"https://docdn.giainhanh.io/media/test/668016aa1e304074f808c0cfefa84eae.png 211w, https://docdn.giainhanh.io/media/test/0e6eb1252bd7ee1d3badcbdf9557fb93.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 3.0,
+        "content": "Cho hình chóp %(S . A B C)% có đáy %(A B C)% là tam giác vuông tại %(A, A B C=60^{\\circ}, B C=2 a)%. Gọi %(H)% là hình chiếu vuông góc của %(A)% trên %(B C)%. Biết %(S H)% vuông góc với mặt phẳng %((A B C))% và %(S A)% tạo với mặt phẳng %((S B C))% một góc %(30^{\\circ})%. Tính thể tích khối chóp %(S . A B C)% và tính khoảng cách từ %(B)% đến mặt phẳng %((S A C))% theo %(a)%.",
+        "question_images": [],
+        "solution": "Góc giữa %(S A)% và %(m p(S B C))% là %(A S H=30^{\\circ})%. suy ra %(S A H=60^{\\circ})%.<br>Ta có<br>\\[\\frac{1}{A H^{2}}=\\frac{1}{A B^{2}}+\\frac{1}{A C^{2}}=\\frac{1}{a^{2}}+\\frac{1}{(a \\sqrt{3})^{2}}=\\frac{4}{3 a^{2}}\\]<br>\\[\\begin{array}{l} \\Rightarrow A H=\\frac{a \\sqrt{3}}{2} \\Rightarrow S H=A H \\tan 60^{\\circ}=\\frac{3 a}{2} . \\V_{S A B C}= \\frac{1}{3} S H \\cdot S_{\\triangle A B C}=\\frac{1}{3} \\cdot \\frac{3 a}{2} \\cdot \\frac{1}{2} \\cdot a \\cdot a \\sqrt{3}=\\frac{a^{3} \\sqrt{3}}{4} .\\end{array}\\]<br>Ta có %(C A^{2}=C H \\cdot C B \\Rightarrow C H=\\frac{C A^{2}}{C B}=\\frac{3 a}{2})%.<br>\\[\\frac{d(B,(S A C))}{d(H,(S A C))}=\\frac{C B}{C H}=\\frac{4}{3} \\Rightarrow d(B,(S A C))=\\frac{4}{3} d(H,(S A C))\\]<br>Hạ %(H E \\perp A C, H K \\perp S E)%, ta có<br>%(A C \\perp H E, A C \\perp S H \\Rightarrow A C \\perp(S H E) \\Rightarrow A C \\perp H K)%<br>mặt khác %(H K \\perp S E)% suy ra %(H K \\perp(S A C))%.<br>Vậy %(d(B,(S A C))=\\frac{4}{3} H K)% Ta có %(H E=C H \\cdot \\sin 30^{\\circ}=\\frac{3 a}{4})%, và<br>\\[\\frac{1}{H K^{2}}=\\frac{1}{H S^{2}}+\\frac{1}{H E^{2}} \\Rightarrow H K=\\frac{3 a \\sqrt{5}}{10} \\text {. }\\]<br>Vậy %(d(B,(S A C))=\\frac{2 a \\sqrt{5}}{5})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c354deeeab2c3facf1309fbdba0ec3fa.png\" srcset=\"https://docdn.giainhanh.io/media/test/8ae74424180e3b38094b9035dc226ec3.png 216w, https://docdn.giainhanh.io/media/test/b1751fb6ecb07ab9fc52a7ed53459712.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho dãy số %(\\left(x_{n}\\right))% biết<br>\\[\\left\\{\\begin{array}{l}x_{1}=a \\x_{n+1}=\\frac{3}{4} x_{n}^{2}-\\frac{1}{8} x_{n}^{3} \\quad(\\forall n \\in N, n \\geq 1)\\end{array}\\right.\\]",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Với %(a=3)%, chứng minh rằng dãy %(\\left(x_{n}\\right))% có giới hạn hữu hạn và tìm giới hạn đó.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}x_{n+1}-2=\\frac{3}{4} x_{n}^{2}-\\frac{1}{8} x_{n}^{3}-2=\\frac{\\left(x_{n}-2\\right)\\left(-x_{n}^{2}+4 x_{n}+8\\right)}{8}\\gt 0 \\text { khi } 2\\lt x_{n}\\lt 4 \\x_{n+1}-4=\\frac{3}{4} x_{n}^{2}-\\frac{1}{8} x_{n}^{3}-4=\\frac{-\\left(x_{n}-2\\right)\\left(x_{n}-4\\right)^{2}}{8}\\lt 0 \\text { khi } 2\\lt x_{n}\\lt 4\\end{array}\\]<br>Do đó nếu %(2\\lt x_{n}\\lt 4)% thì %(2\\lt x_{n+1}\\lt 4)%.<br>Do %(2\\lt x_{1}\\lt 4)% nên %(2\\lt x_{n}\\lt 4)%<br>Ta lại có:<br>\\[x_{n+1}-x_{n}=\\frac{3}{4} x_{n}^{2}-\\frac{1}{8} x_{n}^{3}-x_{n}=\\frac{-x_{n}\\left(x_{n}-2\\right)\\left(x_{n}-4\\right)}{8}>0 \\Rightarrow x_{n+1}>x_{n}\\]<br>Dãy %(\\left(x_{n}\\right))% tăng và bị chặn nên có giới hạn hữu hạn.<br>Đặt %(\\lim x_{n}=b . \\quad)% Ta có %(b=\\frac{3}{4} b^{2}-\\frac{1}{8} b^{3} \\Leftrightarrow\\left[\\begin{array}{l}b=0(l) \\\\ b=2(l) \\\\ b=4\\end{array}\\right.)%<br>Vậy %(\\lim x_{n}=4)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Chứng minh rằng với mọi %(a \\in[-2 ; 6])%, dãy %(\\left(x_{n}\\right))% có giới hạn hữu hạn.",
+        "question_images": [],
+        "solution": "Từ ý 1 , ta có %(2\\lt a\\lt 4)% thì dãy %(\\left(x_{n}\\right))% có giới hạn hữu hạn.<br>Hiển nhiên với %(\\left[\\begin{array}{l}a=0 \\\\ a=2 \\\\ a=4\\end{array}\\right.)% thì dãy %(\\left(x_{n}\\right))% là dãy hằng nên có giới hạn hữu hạn.<br>Với %(0\\lt a\\lt 2)%, dễ dàng chứng minh được %(0\\lt x_{n}\\lt 2)% và dãy giảm nên có giới hạn<br>Với %(-2 \\leq a\\lt 0)% hoặc %(4\\lt a \\leq 6)% thì %(0 \\leq x_{2} \\leq 4)% nên %(\\left(x_{n}\\right))% có giới hạn hữu hạn<br>Vậy với mọi %(a \\in[-2 ; 6])%, dãy %(\\left(x_{n}\\right))% có giới hạn hữu hạn.",
+        "question_type": "essay"
+    }
+]

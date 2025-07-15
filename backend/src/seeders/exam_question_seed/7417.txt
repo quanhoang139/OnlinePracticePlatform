@@ -1,0 +1,105 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Tính giá trị nhỏ nhất của biểu thức %(P=\\frac{x \\sqrt{x}-3}{x-2 \\sqrt{x}-3}-\\frac{2(\\sqrt{x}-3)}{\\sqrt{x}+1}+\\frac{\\sqrt{x}+3}{3-\\sqrt{x}})%, với %(x \\geq 0 ; x \\neq 9)%.",
+        "question_images": [],
+        "solution": "Ta có: %(P=\\frac{x \\sqrt{x}-3}{x-2 \\sqrt{x}-3}-\\frac{2(\\sqrt{x}-3)}{\\sqrt{x}+1}+\\frac{\\sqrt{x}+3}{3-\\sqrt{x}})%<br>%(\\begin{array}{l}=\\frac{x \\sqrt{x}-3-2(\\sqrt{x}-3)^{2}-(\\sqrt{x}+3)(\\sqrt{x}+1)}{(\\sqrt{x}+1)(\\sqrt{x}-3)} \\\\ =\\frac{(\\sqrt{x}-3)(x+8)}{(\\sqrt{x}+1)(\\sqrt{x}-3)}=\\frac{x+8}{\\sqrt{x}+1} \\\\ =\\sqrt{x}-1+\\frac{9}{\\sqrt{x}+1}=\\sqrt{x}+1+\\frac{9}{\\sqrt{x}+1}-2 .\\end{array})%<br>Áp dụng bất đẳng thức Côsi ta có %(P \\geq 2 \\cdot \\sqrt{(\\sqrt{x}+1) \\cdot \\frac{9}{\\sqrt{x}+1}}-2=4)%.<br>Dấu\" %(=)% \" xảy ra khi %(\\sqrt{x}+1=\\frac{9}{\\sqrt{x}+1} \\Leftrightarrow \\sqrt{x}+1=3 \\Leftrightarrow x=4)%.<br>Vậy min %(P=4)% tại %(x=4)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho %(a, b, c)% là các số thực dương thỏa mãn %(a+b+c-\\sqrt{a b}-\\sqrt{b c}-\\sqrt{c a}=0)%. Tính giá trị của biều thức %(P=2023 \\frac{a^{2023}}{c^{2023}}+2024 \\frac{b^{2024}}{c^{2024}}+2025 \\frac{c^{2025}}{a^{2025}})%",
+        "question_images": [],
+        "solution": "Ta có %(a+b+c-\\sqrt{a b}-\\sqrt{b c}-\\sqrt{c a}=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow 2 a+2 b+2 c-2 \\sqrt{a b}-2 \\sqrt{b c}-2 \\sqrt{c a}=0 \\\\Leftrightarrow(\\sqrt{a}-\\sqrt{b})^{2}+(\\sqrt{b}-\\sqrt{c})^{2}+(\\sqrt{c}-\\sqrt{a})^{2}=0 \\\\Leftrightarrow a=b=c\\gt 0 .\\end{array}\\]<br>Thay vào %(P=2023+2024+2025=6072)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 0.5,
+        "content": "Gọi %(S)% là tập hợp các số tự nhiên có 3 chữ số. Lấy ngẫu nhiên một số từ tập hợp %(S)%. Tính xác suất để lấy được một số chia hết cho 7.",
+        "question_images": [],
+        "solution": "Ta có %(S=\\{100 ; 101 ; 102 ; \\ldots ; 999\\})%<br>%(\\Rightarrow)% Không gian mẫu %(\\Omega=S \\Rightarrow n(\\Omega)=900)%.<br>Gọi %(A)% là biến cố \"lấy được số chia hết cho 7 \" %(\\Rightarrow A=\\{105 ; 112 ; \\ldots ; 994\\})%.<br>%(\\Rightarrow n(A)=\\frac{994-105}{7}+1=128)%.<br>Vậy xác suất xảy ra biến cố %(A)% là %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{32}{225})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Một cửa hàng bán gạo trong 4 ngày liên tiếp và mỗi ngày (kể từ ngày đầu tiên) lượng gạo bán ra bằng %(r \\%)% lượng gạo còn lại của ngày hôm trước. Tính %(r)% biết rằng lượng gạo còn lại sau ngày thứ tư bằng %(\\frac{1}{16})% lượng gạo ban đầu.",
+        "question_images": [],
+        "solution": "Điều kiện %(r\\gt 0(\\%))%<br>Gọi lượng gạo ban đầu cửa hàng có là %(A()% đvkl, %(A>0)% )<br>Lượng gạo ngày đầu tiên bán được là %(A \\cdot \\frac{r}{100})%<br>Lượng gạo còn lại sau ngày đầu tiên bán là %(A-\\frac{r}{100} A=A \\cdot\\left(1-\\frac{r}{100}\\right))%<br>Lượng gạo bán trong ngày thứ hai là %(A \\cdot \\frac{r}{100} \\cdot\\left(1-\\frac{r}{100}\\right))%<br>Lượng gạo còn lại sau ngày thứ hai bán là %(A \\cdot\\left(1-\\frac{r}{100}\\right)-A \\cdot \\frac{r}{100} \\cdot\\left(1-\\frac{r}{100}\\right)=A \\cdot\\left(1-\\frac{r}{100}\\right)^{2})%<br>Tương tự suy ra lượng gạo còn lại sau ngày thứ ba bán là %(A \\cdot\\left(1-\\frac{r}{100}\\right)^{3})%<br>Lượng lượng gạo còn lại sau ngày thứ tư bán là %(A \\cdot\\left(1-\\frac{r}{100}\\right)^{4})%.<br>Theo đề ra ta có phương trình %(A \\cdot\\left(1-\\frac{r}{100}\\right)^{4}=\\frac{A}{16} \\Leftrightarrow 1-\\frac{r}{100}=\\frac{1}{2} \\Leftrightarrow r=50)% (%) (thỏa mãn).<br>Vậy %(r=50(\\%))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 0.5,
+        "content": "Cho %(a, b, c)% là các số thực dương. Chứng minh rằng<br>\\[\\frac{1}{a^{2}+b c}+\\frac{1}{b^{2}+a c}+\\frac{1}{c^{2}+a b} \\leq \\frac{a+b+c}{2 a b c} \\text {. }\\]",
+        "question_images": [],
+        "solution": "Bất đẳng thức đã cho tương đương với %(\\frac{2 a b c}{a^{2}+b c}+\\frac{2 a b c}{b^{2}+a c}+\\frac{2 a b c}{c^{2}+a b} \\leq a+b+c)%.<br>Áp dụng bất đẳng thức %(A M-G M)% ta có %(a^{2}+b c \\geq 2 a \\sqrt{b c} \\Rightarrow \\frac{2 a b c}{a^{2}+b c} \\leq \\sqrt{b c})%.<br>Tương tự suy ra %(\\frac{2 a b c}{a^{2}+b c}+\\frac{2 a b c}{b^{2}+a c}+\\frac{2 a b c}{c^{2}+a b} \\leq \\sqrt{b c}+\\sqrt{a c}+\\sqrt{a b})%<br>Áp dụng bất đẳng thức %(A M-G M)% ta có %(a+b \\geq 2 \\sqrt{a b})%<br>Tương tự suy ra %(\\sqrt{b c}+\\sqrt{a c}+\\sqrt{a b} \\leq a+b+c)%<br>Từ (1), (2), (3) suy ra đpcm.<br>Dấu bằng xảy ra khi và chỉ khi %(a=b=c)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 0.5,
+        "content": "Cho %(x, y)% là các số thực dương thỏa mãn %(x y \\geq 1)%. Tìm giá trị nhỏ nhất của biểu thức<br>\\[P=\\frac{x}{y+1}+\\frac{y}{x+1}+\\frac{1}{x y+1} .\\]",
+        "question_images": [],
+        "solution": "Ta có %(\\frac{x}{y+1}+\\frac{y}{x+1}+\\frac{1}{x y+1}=\\frac{x^{2}}{x y+x}+\\frac{y^{2}}{x y+y}+\\frac{1}{x y+1})%%(\\geq \\frac{(x+y)^{2}}{2 x y+x+y}+\\frac{1}{x y+1})%(1) ( BĐT Cauchy Schwarz dang Engel ).<br>Sử dụng %((x+y)^{2} \\geq 4 x y)% suy ra<br>\\[\\frac{(x+y)^{2}}{2 x y+x+y}+\\frac{1}{x y+1} \\geq \\frac{(x+y)^{2}}{\\frac{(x+y)^{2}}{2}+x+y}+\\frac{1}{\\frac{(x+y)^{2}}{4}+1}=\\frac{2(x+y)}{x+y+2}+\\frac{4}{(x+y)^{2}+4} .\\]<br>Đặt %(t=x+y \\geq 2 \\sqrt{x y} \\geq 2)%.<br>Ta thấy %(\\frac{2 t}{t+2}+\\frac{4}{t^{2}+4} \\geq \\frac{3}{2} \\Leftrightarrow \\frac{(t-2)^{3}}{2(t+2)\\left(t^{2}+4\\right)} \\geq 0)% luôn đúng với mọi %(t \\geq 2)%.<br>Vậy %(\\min P=\\frac{3}{2})% tại %(x=y=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 0.5,
+        "content": "Cho %(x, y)% là các số nguyên dương sao cho %(x^{2}+2 y)% là số chính phương. Chứng minh rằng %(x^{2}+y)% là tổng của 2 số chính phương.",
+        "question_images": [],
+        "solution": "Theo đề bài: %(x^{2}+2 y=m^{2})% với %(m \\in \\mathbb{N})%<br>%(\\Rightarrow 2 y=m^{2}-x^{2})%<br>%(\\Rightarrow m)% và %(x)% cùng tính chẵn lẻ %(\\Rightarrow \\frac{m+x}{2} ; \\frac{m-x}{2})% là các số nguyên.<br>Ta có: %(x^{2}+y=x^{2}+\\frac{m^{2}-x^{2}}{2}=\\frac{2\\left(m^{2}+x^{2}\\right)}{4}=\\left(\\frac{m-x}{2}\\right)^{2}+\\left(\\frac{m+x}{2}\\right)^{2})%<br>Ta có điều phải chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 0.5,
+        "content": "Tìm tất cả các cặp số nguyên dương %((x ; y))% thỏa mãn %(\\left(x^{2}+1\\right)\\left(y^{2}+1\\right)+2(x-y)(1-x y)=4(1+x y))%.",
+        "question_images": [],
+        "solution": "%(\\left(x^{2}+1\\right)\\left(y^{2}+1\\right)+2(x-y)(1-x y)=4(1+x y))%<br>%(\\begin{array}{l}\\Leftrightarrow x^{2}+y^{2}-2 x y+x^{2} y^{2}-2 x y+1+2(x-y)(1-x y)=4 \\\\ \\Leftrightarrow(x-y)^{2}+(1-x y)^{2}+2(x-y)(1-x y)=4 \\\\ \\Leftrightarrow(x-y+1-x y)^{2}=4 \\\\ \\Leftrightarrow(1-y)^{2}(x+1)^{2}=4 \\\\ \\Leftrightarrow(y-1)(x+1)=2 \\text { (vì } x, y \\text { nguyên dương) }\\end{array})%<br>Do %(x)% nguyên dương %(\\Rightarrow x+1 \\geq 2)% nên ta có %(\\left\\{\\begin{array}{l}x+1=2 \\\\ y-1=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=1 \\\\ y=2\\end{array}\\right.\\right.)%<br>Vậy %((x ; y)=(1 ; 2))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 1.0,
+        "content": "Cho 2 phương trình: %(2 x^{2}+x-m^{2}+2 m-15=0)% (1) và %(2 x^{2}+3 x-m^{2}+2 m-14=0)% (2). Tìm tất cả các giá trị của tham số %(m)% sao cho phương trình (1) có 2 nghiệm phân biệt %(x_{1}, x_{2})% và phương trình (2) có 2 nghiệm phân biệt %(x_{3}, x_{4})% thỏa mãn: %(x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+x_{4}^{2}=3 x_{2} x_{3})%.",
+        "question_images": [],
+        "solution": "Ta thấy cả hai phương trình (1) và (2) có cùng biệt thức %(\\Delta=8(m-1)^{2}+113\\gt 0)%<br>%(\\Rightarrow \\sqrt{\\Delta}>10)% và %(x_{1}, x_{2})% trái dấu; %(x_{3}, x_{4})% trái dấu.<br>Do %(x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+x_{4}^{2}>0)% nên %(x_{2} x_{3}>0)% suy ra %(x_{2})% và %(x_{3})% mang cùng một dấu.<br>\\[\\Rightarrow\\left[\\begin{array}{l}x_{2} x_{3}=\\frac{-1-\\sqrt{\\Delta}}{4} \\cdot \\frac{-3-\\sqrt{\\Delta}}{4}=\\frac{\\Delta+4 \\sqrt{\\Delta}+3}{16} \\x_{2} x_{3}=\\frac{-1+\\sqrt{\\Delta}}{4} \\cdot \\frac{-3+\\sqrt{\\Delta}}{4}=\\frac{\\Delta-4 \\sqrt{\\Delta}+3}{16}\\end{array}\\right.\\]<br>Áp dụng định lý Vi-et ta có %(x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+x_{4}^{2}=\\left(x_{1}+x_{2}\\right)^{2}-2 x_{1} x_{2}+\\left(x_{3}+x_{4}\\right)^{2}-2 x_{3} x_{4})%<br>\\[\\begin{array}{l}=2(m-1)^{2}+\\frac{59}{2}=\\frac{1}{4} \\cdot\\left(8(m-1)^{2}+113\\right)+\\frac{5}{4}=\\frac{\\Delta+5}{4} \\text {. } \\\\Rightarrow\\left[\\begin{array}{l}\\frac{\\Delta+5}{4}=3 \\cdot \\frac{\\Delta+4 \\Delta+3}{16} \\\\frac{\\Delta+5}{4}=3 \\cdot \\frac{\\Delta-4 \\Delta+3}{16}\\end{array}\\right. \\\\end{array}\\]<br>Giải (3) ta được %(\\Delta-12 \\sqrt{\\Delta}+11=0 \\Leftrightarrow\\left[\\begin{array}{l}\\sqrt{\\Delta}=1 \\text { (loại) } \\\\ \\sqrt{\\Delta}=11\\end{array} \\Leftrightarrow \\sqrt{\\Delta}=11\\right.)%.<br>\\[\\Leftrightarrow 8(m-1)^{2}+113=121 \\Leftrightarrow(m-1)^{2}=1 \\Leftrightarrow\\left[\\begin{array}{l}m=2 \\m=0\\end{array}\\right. \\text {. }\\]<br>Giải (4) ta được %(\\Delta+12 \\sqrt{\\Delta}+11=0 \\Leftrightarrow\\left[\\begin{array}{l}\\sqrt{\\Delta}=-1 \\text { (loại) } \\\\ \\sqrt{\\Delta}=-11 \\text { (loại) }\\end{array}\\right.)%<br>Vậy %(m \\in\\{0 ; 2\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "10",
+        "group_content": "Cho nửa đường tròn %((O ; R))% đường kính %(A B)%. Gọi %(M)% là một điểm thuộc nửa đường tròn đã cho %((M)% khác %(A)% và %(B), H)% là hình chiếu của %(M)% trên %(A B)%. Đường thẳng qua %(O)% và song song với %(M A)% cắt tiếp tuyến tại %(B)% của nửa đường tròn %((O))% tại điểm %(K)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh tứ giác %(O B K M)% nội tiếp.",
+        "question_images": [],
+        "solution": "Ta có %(O M=O B)%, mà %(O K \\perp M B)% nên %(O K)% là đường trung trực của đoạn %(M B)%.<br>Khi đó: %(K B=K M)%, mà %(K B)% là tiếp tuyến của %((O))% và %(\\triangle O M K=\\triangle O B K)% (c-c-c).<br>\\[\\Rightarrow \\widehat{K M O}=\\widehat{K B O}=90^{\\circ}\\]<br>%(\\Rightarrow)% Tứ giác %(O B K M)% nội tiếp (tứ giác có tổng hai góc đối bằng %(180^{\\circ})% )<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/002badf93f236f7d0b76475321ad46e1.png\" srcset=\"https://docdn.giainhanh.io/media/test/96db65e6ebda4c616d28aa4d91afd240.png 120w, https://docdn.giainhanh.io/media/test/e31d6199ecedcf489b3619590304cf3e.png 385w\" width=\"385\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Gọi %(C, D)% lần lượt là hình chiếu của %(H)% trên các đường thẳng %(M A)% và %(M B)%. Gọi %(I)% là giao điểm của %(A K)% và %(M H)%. Chứng minh %(I)% là trung điểm %(C D)%.",
+        "question_images": [],
+        "solution": "Gọi %(N)% là giao điểm của %(B K)% và %(A M)%.<br>Vì %(A N \\| O K)%, mà %(O)% là trung điểm %(A B)% nên %(K)% là trung điểm %(N B)%.<br>Áp dụng định lý Thales, ta có: %(\\frac{I M}{I H}=\\frac{K N}{K B}=1 \\Rightarrow I M=I H)% hay %(I)% là trung điểm của %(M H)%.<br>Vì %(M C H D)% là hình chữ nhật nên %(I)% cũng là trung điểm %(C D)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "Gọi %(E, F)% lần lượt là trung điểm của %(A H)% và %(B H)%. Xác định vị trí của điểm %(M)% để diện tích tứ giác %(C D F E)% đạt giá trị lớn nhất.",
+        "question_images": [],
+        "solution": "Vì %(M C H D)% là hình chữ nhật nên %(I C=I H)%.<br>Xét tam giác %(A C H)% vuông tại %(C)% có %(E)% là trung điểm %(A H)%, ta có: %(C E=\\frac{1}{2} A H=E H)%.<br>Xét hai tam giác %(I E C)% và %(I E H)%, ta có:<br>%(\\left\\{\\begin{array}{l}\\text { Cạnh } I E \\text { chung } \\\\ I C=I H \\\\ E C=E H\\end{array} \\Rightarrow \\triangle I E C=\\triangle I E H\\right.)% (c-c-c)<br>%(\\Rightarrow \\widehat{I C E}=\\widehat{I H E}=90^{\\circ})% (hai góc tương ứng).<br>Tương tự, ta chứng minh được %(\\widehat{I D F}=90^{\\circ})%<br>%(\\Rightarrow C D F E)% là hình thang vuông.<br>Diện tích của hình thang vuông %(C D F E)% là<br>\\[S=\\frac{1}{2} \\cdot(C E+D F) \\cdot C D=\\frac{1}{2} \\cdot\\left(\\frac{1}{2} A H+\\frac{1}{2} B H\\right) \\cdot M H=\\frac{1}{4} \\cdot A B \\cdot M H .\\]<br>Mặt khác: %(M H \\leq M O=R)% suy ra %(S \\leq \\frac{1}{4} \\cdot A B \\cdot M O=\\frac{R^{2}}{2})%.<br>Vậy giá trị lớn nhất của %(S)% là %(\\frac{R^{2}}{2})% khi %(H \\equiv O)% hay %(M O \\perp A B)% nên %(M)% là điểm chính giữa của nửa đường tròn %((O))%.",
+        "question_type": "essay"
+    }
+]

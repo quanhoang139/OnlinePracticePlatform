@@ -1,0 +1,111 @@
+[
+    {
+        "title": "1",
+        "group_content": "Giải các phương trình lượng giác sau:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(4 \\sin ^{2} x-2(1+\\sqrt{3}) \\sin x+\\sqrt{3}=0)%;",
+        "question_images": [],
+        "solution": "\\[\\begin{aligned}4 \\sin ^{2} x- & 2(1+\\sqrt{3}) \\sin x+\\sqrt{3}=0 . \\\\Leftrightarrow & {\\left[\\begin{array}{l}\\sin x=\\frac{\\sqrt{3}}{2}(N) \\\\sin x=\\frac{1}{2}(N)\\end{array}\\right.} \\\\Leftrightarrow & {\\left[\\begin{array}{l}\\sin x=\\sin \\frac{\\pi}{3} \\\\sin x=\\sin \\frac{\\pi}{6}\\end{array}\\right.} \\\\Leftrightarrow & {\\left[\\begin{array}{l}x=\\frac{\\pi}{3}+k 2 \\pi \\x=\\frac{2 \\pi}{3}+k 2 \\pi \\x=\\frac{\\pi}{6}+k 2 \\pi \\x=\\frac{5 \\pi}{6}+k 2 \\pi\\end{array}\\right.}\\end{aligned}\\]<br>Vậy họ nghiệm của phương trình<br>\\[S=\\left\\{\\frac{\\pi}{3}+k 2 \\pi ; \\frac{2 \\pi}{3}+k 2 \\pi ; \\frac{\\pi}{6}+k 2 \\pi ; \\frac{5 \\pi}{6}+k 2 \\pi\\right\\}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(\\sqrt{2} \\sin x-\\sqrt{2} \\cos x=\\sqrt{3})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{c}\\sqrt{2} \\sin x-\\sqrt{2} \\cos x=\\sqrt{3} \\\\Leftrightarrow \\frac{\\sqrt{2}}{2} \\sin x-\\frac{\\sqrt{2}}{2} \\cos x=\\frac{\\sqrt{3}}{2} \\\\Leftrightarrow \\sin \\left(x-\\frac{\\pi}{4}\\right)=\\sin \\frac{\\pi}{3} \\\\{\\left[\\begin{array}{l}x=\\frac{7 \\pi}{12}+k 2 \\pi \\x=\\frac{11 \\pi}{12}+k 2 \\pi\\end{array}\\right.}\\end{array}\\]<br>Vậy họ nghiệm %(S=\\left\\{\\frac{7 \\pi}{12}+k 2 \\pi ; \\frac{11 \\pi}{12}+k 2 \\pi, k \\in \\mathbb{Z}\\right\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) %(\\sin ^{2} x+2 \\sin x \\cos x+3 \\cos ^{2} x-3=0)%.",
+        "question_images": [],
+        "solution": "%(\\sin ^{2} x+2 \\sin x \\cos x+3 \\cos ^{2} x-3=0 (1))%<br>+ Xét %(\\cos x=0)% suy ra có %(\\cos x=0)% không phải là nghiệm(1) trở thành: %(-2 \\tan ^{2} x+2 \\tan x=0)%<br>\\[\\Leftrightarrow\\left[\\begin{array}{l}\\tan x=\\tan 0 \\\\tan x=\\tan \\frac{\\pi}{4}\\end{array}\\right.\\]<br>Vậy họ nghiệm của phương trình là %(S=\\left\\{k \\pi ; \\frac{\\pi}{4}+k \\pi ; k \\in \\mathbb{Z}\\right\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Xác định hệ số chứa %(x^{5})% trong khai triển của nhị thức Newton %(\\left(\\frac{2019}{2020} x+\\frac{2020}{2019}\\right)^{10})%.",
+        "question_images": [],
+        "solution": "\\[\\left(\\frac{2019}{2020} x+\\frac{2020}{2019}\\right)^{10}=\\sum_{k=0}^{10} C_{10}^{k}\\left(\\frac{2019}{2020}\\right)^{10-k}\\left(\\frac{2020}{2019}\\right)^{k} x^{10-k}\\]<br>Số hạng tổng quát: %(C_{10}^{k}\\left(\\frac{2019}{2020}\\right)^{10-k}\\left(\\frac{2020}{2019}\\right)^{k} x^{10-k})%<br>Theo yêu cầu đề bài suy ra %(k=5)%<br>Vậy số hạng chứa %(C_{10}^{5}=252)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Một bình đựng 10 viên bi chỉ khác nhau về màu, gồm 4 bi màu đỏ và 6 bi màu vàng. Lấy ngẫu nhiên 3 viên bi .Tính xác suất để:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.75,
+        "content": "a) Lấy được 1 bi đỏ và 2 bi vàng;",
+        "question_images": [],
+        "solution": "Gọi A: \"Ba viên bi lấy được có đúng 1 bi đỏ, 2 bi vàng\"<br>Không gian mẫu: %(n_{\\Omega}=C_{10}^{3})%<br>Trường hợp thuận lợi của biến cố %(\\mathrm{A}: n_{A}=C_{4}^{1} C_{6}^{2})%<br>Vậy xác suất của biến cố %(\\mathrm{A}: P(A)=\\frac{C_{4}^{1} C_{6}^{2}}{C_{10}^{3}}=0,5)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) Trong ba viên bi lấy được có ít nhất 1 bi màu vàng.",
+        "question_images": [],
+        "solution": "Gọi B: \"Ba viên bi lấy được có ít nhất 1 bi màu vàng \".<br>%(\\bar{B})% : \"Ba viên bi lấy ra không có bi vàng nào\".<br>Không gian mẫu: %(n_{\\Omega}=C_{10}^{3})%<br>Trường hợp thuận lợp của biến cố %(\\bar{B}: n_{\\bar{B}}=C_{4}^{3}=4)%<br>Vậy xác suất của biến cố %(\\mathrm{B})% là: %(P(B)=1-P(\\bar{B})=1-\\frac{C_{4}^{3}}{C_{10}^{3}}=\\frac{29}{20}=0.967)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Xác định số hạng đầu %(u_{1})% và công sai %(d)% của cấp số cộng %(\\left(u_{n}\\right))%, biết:<br>\\[\\left\\{\\begin{array}{l}u_{1}+u_{2}+u_{3}+u_{4}+u_{5}+u_{6}+u_{7}+u_{8}+u_{9}+u_{10}+u_{11}=176 \\u_{11}-u_{1}=20\\end{array}\\right.\\]",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\left\\{\\begin{array}{l}S_{11}=176 \\\\ u_{11}-u_{1}=20\\end{array}\\right. \\\\ \\Leftrightarrow\\left\\{\\begin{array}{l}11 u_{1}+55 d=176 \\\\ 10 d=20\\end{array}\\right. \\\\ \\Leftrightarrow\\left\\{\\begin{array}{l}u_{1}=6 \\\\ d=2\\end{array}\\right. \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 0.5,
+        "content": "Cho cấp số nhân %(\\left(u_{n}\\right))% có công bội %(q=\\frac{1}{4})%, số hạng đầu %(u_{1}=2)%. Tìm số hạng thứ 2 , thứ 10 của cấp số nhân đó ?",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}u_{2}=u_{1} q=2 \\cdot \\frac{1}{4}=\\frac{1}{2} \\\\ u_{10}=u_{1} q^{9}=2 \\cdot\\left(\\frac{1}{4}\\right)^{9}=\\frac{1}{131072}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Xác định ảnh của đường tròn %((\\mathrm{C}):(x-1)^{2}+(y+2)^{2}=16)% qua phép tịnh tiến theo %(\\vec{u}=(2 ;-3))%.",
+        "question_images": [],
+        "solution": "Gọi %(T_{\\vec{u}}(I)=I^{\\prime})% và %(T_{\\vec{u}}(C)=C^{\\prime})%<br>Tâm và bán kính của (C) là %(\\left\\{\\begin{array}{l}I(1 ;-2) \\\\ R=4\\end{array}\\right.)%<br>%(T_{\\vec{u}}(I)=I^{\\prime}\\left(x^{\\prime} ; y^{\\prime}\\right))% suy ra %(\\left\\{\\begin{array}{l}x^{\\prime}=3 \\\\ y^{\\prime}=-5\\end{array}\\right.)%<br>Vậy %(\\left(C^{\\prime}\\right):(x-3)^{2}+(y+5)^{2}=16)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho hình chóp %(S \\cdot A B C D)% có đáy %(A B C D)% là hình bình hành, %(H)% là giao điểm của %(A C)% và %(B D)%. Gọi %(M)% là trung điểm của cạnh %(S A, N)% là trung điểm của cạnh %(S B)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Xác định giao tuyến của hai mặt phẳng %((S A C))% và %((S B D))%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9c45fd3ceae2e361eecc77b6aeef89af.png\" srcset=\"https://docdn.giainhanh.io/media/test/a0d90826100a36eca07b99ba47e44d2d.png 177w, https://docdn.giainhanh.io/media/test/9d4529dbc770a1f17ec9f9f40dc8f86d.png 500w\" width=\"500\"/><br>%(\\mathrm{S})% là điểm chung thứ nhất<br>%(\\left\\{\\begin{array}{l}H=A C \\cap B D \\\\ H \\in A C \\subset(S A C), H \\in B D \\subset(S B D)\\end{array}\\right.)%.<br>Suy ra %(\\mathrm{H})% là điểm chung thứ hai<br>Vậy %(\\mathrm{SH})% là giao tuyến của %((S A C))% và %((S B D))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b)Chứng minh %(M N)% song song với mặt phẳng ( %(S C D)% ).",
+        "question_images": [],
+        "solution": "%(\\mathrm{MN})% là đường trung bình của tam giác %(\\mathrm{SAB})% suy ra %(M N / / A B)%<br>Mà %(\\mathrm{AB} / / \\mathrm{CD} \\Rightarrow \\mathrm{MN} / / \\mathrm{CD})%<br>Suy ra %(\\left\\{\\begin{array}{l}C D \\subset(S C D) \\\\ \\mathrm{MN} / /(\\mathrm{SCD})\\end{array}\\right.)%<br>Vậy %(M N)% song song với mặt phẳng %((S C D))%",
+        "question_type": "essay"
+    }
+]

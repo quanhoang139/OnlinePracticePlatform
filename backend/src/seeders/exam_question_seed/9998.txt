@@ -1,0 +1,104 @@
+[
+    {
+        "title": "Câu 1",
+        "group_content": "Cho biểu thức %(P=\\left(1+\\frac{\\sqrt{x}}{x+1}\\right):\\left(\\frac{1}{\\sqrt{x}-1}-\\frac{2}{x \\sqrt{x}+\\sqrt{x}-x-1}\\right))%, với %(\\left\\{\\begin{array}{l}x \\geq 0 \\\\ x \\neq 1\\end{array}\\right.)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Rút gọn biểu thức %(P)%.",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} P & =\\left(1+\\frac{\\sqrt{x}}{x+1}\\right):\\left(\\frac{1}{\\sqrt{x}-1}-\\frac{2}{(x+1)(\\sqrt{x}-1)}\\right) \\\\ & =\\left(1+\\frac{\\sqrt{x}}{x+1}\\right):\\left(\\frac{x-1}{(x+1)(\\sqrt{x}-1)}\\right) \\\\ & =\\left(\\frac{x+1+\\sqrt{x}}{x+1}\\right):\\left(\\frac{\\sqrt{x}+1}{x+1}\\right) \\\\ & =\\frac{x+1+\\sqrt{x}}{x+1} \\cdot \\frac{x+1}{\\sqrt{x}+1} \\\\ & =\\frac{x+1+\\sqrt{x}}{\\sqrt{x}+1} .\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Tính giá trị của biểu thức %(P)% với %(x=\\frac{\\sqrt{5}+3}{\\sqrt{2}+\\sqrt{3+\\sqrt{5}}}+\\sqrt{27-10 \\sqrt{2}})%.",
+        "question_images": [],
+        "solution": "Ta có<br>\\[\\begin{array}{l}x=\\frac{\\sqrt{2}(\\sqrt{5}+3)}{2+\\sqrt{6+2 \\sqrt{5}}}+\\sqrt{(5-\\sqrt{2})^{2}}=\\frac{\\sqrt{2}(\\sqrt{5}+3)}{2+\\sqrt{(\\sqrt{5}+1)^{2}}}+\\sqrt{(5-\\sqrt{2})^{2}} \\\\=\\frac{\\sqrt{2}(\\sqrt{5}+3)}{3+\\sqrt{5}}+5-\\sqrt{2}=5\\end{array}\\]<br>Thay %(x=5)% vào %(P=\\frac{x+1+\\sqrt{x}}{\\sqrt{x}+1}=\\frac{6+\\sqrt{5}}{\\sqrt{5}+1}=\\frac{(6+\\sqrt{5})(\\sqrt{5}-1)}{4}=\\frac{5 \\sqrt{5}-1}{4})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(21\\left(x^{3}+x^{2}+x\\right)=4 \\sqrt{7}\\left(x^{2}+1\\right) \\sqrt{x^{4}+1})%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\in \\mathbb{R})% Phương trình tương đương:<br>\\[21 x\\left(x^{2}+x+1\\right)=4 \\sqrt{7}\\left(x^{2}+1\\right) \\sqrt{x^{4}+1}\\]<br>Vì %(x^{2}+x+1=\\left(x+\\frac{1}{2}\\right)^{2}+\\frac{3}{4} \\geq \\frac{3}{4}\\gt 0 ; x^{2}+1>0 ; \\sqrt{x^{4}+1}>0)% với mọi %(x \\in \\mathbb{R})%<br>Suy ra %(x>0)% Chia cả hai vế của phương trình cho %(x^{2})% ta được:<br>\\[21\\left(x+\\frac{1}{x}+1\\right)=4 \\sqrt{7}\\left(x+\\frac{1}{x}\\right) \\sqrt{\\left(x+\\frac{1}{x}\\right)^{2}-2}\\]<br>Đặt: %(t=x+\\frac{1}{x})%, vì %(x>0)% suy ra: %(t=x+\\frac{1}{x} \\geq 2 \\sqrt{x \\cdot \\frac{1}{x}}=2)%<br>Phương trình: %(21(t+1)=4 \\sqrt{7} t \\sqrt{t^{2}-2})%<br>\\[\\begin{array}{l}4 \\sqrt{7} t \\sqrt{t^{2}-2}-28 t+7 t-21=0 \\Leftrightarrow 4 \\sqrt{7} t\\left(\\sqrt{t^{2}-2}-\\sqrt{7}\\right)+7(t-3)=0 \\\\Leftrightarrow \\frac{4 \\sqrt{7} t\\left(t^{2}-9\\right)}{\\sqrt{t^{2}-2}+\\sqrt{7}}+7(t-3)=0 \\Leftrightarrow(t-3)\\left[\\frac{4 \\sqrt{7} t(t+3)}{\\sqrt{t^{2}-2}+\\sqrt{7}}+7\\right]=0 \\\\Leftrightarrow\\left[\\begin{array}{l}t=3 \\\\frac{4 \\sqrt{7} t(t+3)}{\\sqrt{t^{2}-2}+\\sqrt{7}}+7=0(1)\\end{array}\\right. \\\\end{array}\\]<br>TH1: với %(t-3=0 \\Leftrightarrow t=3)% ( thỏa mãn đk %(t \\geq 2)% )<br>Khi đó %(x+\\frac{1}{x}=3 \\Leftrightarrow x^{2}-3 x+1=0 \\Rightarrow\\left[\\begin{array}{l}x=\\frac{3-\\sqrt{5}}{2} \\\\ x=\\frac{3+\\sqrt{5}}{2}\\end{array}\\right.)% thỏa mãn %(x\\gt 0)%<br>TH2: %(\\frac{4 \\sqrt{7} t(t+3)}{\\sqrt{t^{2}-2}+\\sqrt{7}}+7=0(1))%, Do %(t \\geq 2 \\Rightarrow \\frac{4 \\sqrt{7} t(t+3)}{\\sqrt{t^{2}-2}+\\sqrt{7}}\\gt 0 \\Rightarrow V T(1)>7>0)%.<br>Nên pt(1) vô nghiệm.<br>Vậy phương trình có 2 nghiệm %(x=\\frac{3-\\sqrt{5}}{2} ; x=\\frac{3+\\sqrt{5}}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 2.5,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x^{2}(y-5)-y^{2}(x+2)=11(x-y)-7 x y \\\\ x^{2}-2 y+8=y \\sqrt{2 x+4}+(y-2) \\sqrt{8-2 y}\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Điều kiện: ĐKXĐ: %(\\left\\{\\begin{array}{l}x \\geq-2 \\\\ y \\leq 4\\end{array}\\right.)%.%(+)(1) \\Leftrightarrow(x-y)(x y-5 x+2 y-11)=0)%(1) %(\\Leftrightarrow\\left[\\begin{array}{l}x-y=0 \\\\ x y-5 x+2 y-11=0\\end{array}\\right.)%Với %(x-y=0 \\Leftrightarrow x=y)%, thay lại phương trình (2) ta có<br>\\[\\begin{array}{l}x^{2}-2 x+8=x \\sqrt{2 x+4}+(x-2) \\sqrt{8-2 x} \\\\Leftrightarrow 2 x^{2}-4 x+16=2 x \\sqrt{2 x+4}+2(x-2) \\sqrt{8-2 x} \\\\Leftrightarrow(x-\\sqrt{2 x+4})^{2}+(x-2-\\sqrt{8-2 x})^{2}=0 \\\\Leftrightarrow\\left\\{\\begin{array} { l } { x - \\sqrt { 2 x + 4 } = 0 } \\\\{ x - 2 - \\sqrt { 8 - 2 x } = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}\\sqrt{2 x+4}=x \\\\sqrt{8-2 x}=x-2\\end{array}\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { x \\geq 0 } \\\\{ x ^ { 2 } - 2 x - 4 = 0 } \\\\{ x \\geq 2 } \\\\{ x ^ { 2 } - 2 x - 4 = 0 }\\end{array} \\Rightarrow \\left\\{\\begin{array}{l}x \\geq 2 \\x=1 \\pm \\sqrt{5}\\end{array} \\Rightarrow x=1+\\sqrt{5} \\Rightarrow y=1+\\sqrt{5}\\right.\\right.\\end{array}\\]<br>+) Với %(x y-5 x+2 y-11=0(*))%Ta có %(\\left\\{\\begin{array}{l}x \\geq-2 \\\\ y \\leq 4\\end{array} \\Rightarrow(x+2)(y-4) \\leq 0 \\Leftrightarrow x y-4 x+2 y-8 \\leq 0\\right.)%%((*) \\Leftrightarrow x y-4 x+2 y-8-(x+3)\\lt 0)%<br>Nên %(\\left(^{*}\\right))% vô nghiệm.<br>Vậy hệ phương trình có nghiệm duy nhất: %((1+\\sqrt{5} ; 1+\\sqrt{5}))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 2.0,
+        "content": "Trong mặt phẳng với hệ trục tọa độ %(O x y)%, cho Parabol %((P): y=12 x^{2})% và đường thẳng %((d): y=6 m x-m^{2}+4-\\frac{12}{m^{2}})%, với %(m \\neq 0)% là tham số. Tìm các giá trị của %(m)% để %((d))% và %((P))% có các điểm chung lần lượt có hoành độ %(x_{1}, x_{2})% sao cho %(x_{1}^{3}+x_{2}^{3})% đạt giá trị lớn nhất, giá trị nhỏ nhất.",
+        "question_images": [],
+        "solution": "Phương trình hoành độ giao điểm là<br>\\[\\begin{array}{l}12 x^{2}-6 m x+m^{2}-4+\\frac{12}{m^{2}}=0(1) \\\\Delta^{\\prime}=9 m^{2}-12\\left(m^{2}-4+\\frac{12}{m^{2}}\\right)=-3 m^{2}+48-\\frac{144}{m^{2}}=-\\frac{3}{m^{2}}\\left(m^{4}-16 m^{2}+48\\right)\\end{array}\\]<br>Phương trình (1) có nghiệm khi và chỉ khi:<br>\\[\\begin{array}{l}\\Delta^{\\prime} \\geq 0 \\Leftrightarrow-\\frac{3}{m^{2}}\\left(m^{4}-16 m^{2}+48\\right) \\geq 0 \\Leftrightarrow m^{4}-16 m^{2}+48 \\leq 0 \\\\Leftrightarrow\\left(m^{2}-4\\right)\\left(m^{2}-12\\right) \\leq 0 \\Leftrightarrow 2 \\leq|m| \\leq 2 \\sqrt{3}\\left(^{*}\\right)\\end{array}\\]<br>Với điều kiện %(\\left({ }^{*}\\right))%, pt đã cho có hai nghiệm %(x_{1}, x_{2})%<br>Theo hệ thức vi - ét ta có: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=\\frac{6 m}{12}=\\frac{m}{2} \\\\ x_{1} x_{2}=\\frac{m^{2}-4+\\frac{12}{m^{2}}}{12}=\\frac{m^{2}-4}{12}+\\frac{1}{m^{2}}\\end{array}\\right.)%<br>\\[\\begin{array}{l}\\text { Do đó } A=x_{1}^{3}+x_{2}^{3}=\\left(x_{1}+x_{2}\\right)^{3}-3 x_{1} \\cdot x_{2}\\left(x_{1}+x_{2}\\right) \\\\=\\left(\\frac{m}{2}\\right)^{3}-3\\left(\\frac{m^{2}-4}{12}+\\frac{1}{m^{2}}\\right)\\left(\\frac{m}{2}\\right)=\\frac{m^{3}}{8}-\\frac{m^{3}}{8}+\\frac{m}{2}-\\frac{3}{2 m}=\\frac{m^{2}-3}{2 m}\\end{array}\\]<br>Ta chứng minh %(|A| \\leq \\frac{3 \\sqrt{3}}{4})% bằng cách chứng minh %(|A|-\\frac{3 \\sqrt{3}}{4} \\leq 0)%, với điều kiện %(\\left(^{*}\\right))%.<br>Với điều kiện (*):<br>\\[\\begin{array}{l}|A|-\\frac{3 \\sqrt{3}}{4} \\leq 0 \\leq 0 \\Leftrightarrow \\frac{m^{2}-3}{2|m|}-\\frac{3 \\sqrt{3}}{4} \\leq 0 \\Leftrightarrow \\frac{2 m^{2}-3 \\sqrt{3}|m|-6}{4 .|m|} \\leq 0 \\\\Leftrightarrow 2 m^{2}-3 \\sqrt{3}|m|-6 \\leq 0 \\Leftrightarrow-\\frac{\\sqrt{3}}{2} \\leq|m| \\leq 2 \\sqrt{3} \\quad(* 1)\\end{array}\\]<br>Do có điều kiện %(\\left({ }^{*}\\right))% nên %(\\left({ }^{*} 1\\right))% luôn đúng. Tức là<br>\\[|A|-\\frac{3 \\sqrt{3}}{4} \\leq 0 \\Leftrightarrow-\\frac{3 \\sqrt{3}}{4} \\leq A \\leq \\frac{3 \\sqrt{3}}{4}\\]<br>Vậy %(\\min A=\\frac{-3 \\sqrt{3}}{4} \\Leftrightarrow m=-2 \\sqrt{3}, \\max A=\\frac{3 \\sqrt{3}}{4} \\Leftrightarrow m=2 \\sqrt{3})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 1.5,
+        "content": "Tìm các số nguyên dương %(x, y)% thỏa mãn: %(2^{y}=x^{3}+x^{2}+x+1)%.",
+        "question_images": [],
+        "solution": "Ta viết lại phương trình thành: %(2^{y}=\\left(x^{2}+1\\right)(x+1))% suy ra tồn tại các số<br>\\[\\begin{array}{l}m, n \\in N, m \\geq n \\\\text { sao cho }\\left\\{\\begin{array}{l}x^{2}+1=2^{m} \\x+1=2^{n} \\m+n=y\\end{array}\\right.\\end{array}\\]<br>+ Thay %(x=2^{n}-1)% ta có:<br>\\[\\begin{array}{l}\\left(2^{n}-1\\right)^{2}+1=2^{m} \\Leftrightarrow 2^{2 n}-2^{n+1}+2=2^{m} \\\\Leftrightarrow 2\\left(2^{2 n-1}-2^{n}-2^{m-1}+1\\right)=0 \\Leftrightarrow 2^{2 n-1}-2^{n}-2^{m-1}+1=0\\end{array}\\]<br>+ Nếu %(m, n \\geq 2)% thì %(2^{2 n-1}-2^{n}-2^{m-1}+1)% luôn là số lẻ nên khác 0 .Xét %(n=1 \\Rightarrow m=1 \\Rightarrow x=1, y=2)% là một nghiệm.<br>Xét %(n=0 \\Rightarrow m=0 \\Rightarrow x=0, y=0)% là một nghiệm.<br>Vậy phương trình có các nghiệm là: %((x ; y) \\in\\{(0 ; 0),(1 ; 2)\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6",
+        "group_content": "Cho tam giác nhọn %(A B C(A B\\lt A C))% nội tiếp đường tròn %((O))% và %(I)% là tâm đường tròn nội tiếp tam giác đó. Đường thẳng %(A I)% cắt %(B C)% tại %(M)% và cắt đường tròn %((O))% tại điểm thứ hai %(K)%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Chứng minh %(K C^{2}=K M . K A)%.",
+        "question_images": [],
+        "solution": "Ta có<br>\\[B C K=B A K\\left(=\\frac{1}{2} \\mathrm{~s} B K\\right)\\]<br>\\[C A K=B A K(\\mathrm{gth})\\]<br>Tù đó có %(B C K=C A K)%<br>Xét hai ta giác %(C A K)% và %(M C K)% có:<br>Góc %(A K C)% chung, %(B C K=C A K)% nên %(\\triangle C A K \\sim \\triangle M C K)%<br>Suy ra %(\\frac{K C}{K A}=\\frac{K M}{K C} \\Leftrightarrow K C^{2}=K M \\cdot K A)%<br><img alt=\"Screenshot 2024-07-16 222904.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/64994456d547f7905901499026240d44.png\" srcset=\"https://docdn.giainhanh.io/media/test/4001082295887295b974ce0f549ce3ad.png 167w, https://docdn.giainhanh.io/media/test/c64a4db1ccefaf287dc7f5e617e68fa9.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Gọi %(P)% là điểm chính giữa của cung %(B C)% chứa %(A)% trên %((O), D)% là hình chiếu vuông góc của %(I)% trên cạnh %(B C, G)% là giao điểm của %(A D)% với đường tròn %((O))% (khác %(A), H)% là giao điểm của %(P G)% và %(I D)%. Chứng minh tứ giác %(I B H C)% nội tiếp được.",
+        "question_images": [],
+        "solution": "Ta có %(P K)% là đường kính của %((\\mathrm{O}))%, suy ra %(P K \\perp B C)%<br>\\[\\begin{array}{l}\\text { Vì } I H \\perp B C ; P K \\perp B C \\Rightarrow I H / / P K \\Rightarrow I H P=H P K(1) \\\\text { Xét }(\\mathrm{O}) \\text { có } G A K=G P K \\text { (2) }\\end{array}\\]<br>Từ (1) và %((2) \\Rightarrow)% tứ giác AIGH nội tiếp đường tròn.<br>Chứng minh được %(D I . D H=D A . D G)%<br>Tứ giác %(A B G C)% nội tiếp %((\\mathrm{O}))%, chứng minh được %(D A \\cdot D G=D B \\cdot D C)%<br>Suy ra %(D I \\cdot D H=D B . D C)%, từ đó chứng minh được tứ giác %(I B H C)% nội tiếp đường tròn.<br><img alt=\"Screenshot 2024-07-16 223013.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/cf9af281c6c632209f88e629d912dd8c.png\" srcset=\"https://docdn.giainhanh.io/media/test/bcfc377f8306e1a2f7fb732e652d2468.png 129w, https://docdn.giainhanh.io/media/test/03074586750765d618622fe548e1b3a4.png 414w, https://docdn.giainhanh.io/media/test/938ca560c7ac25141a5aea84ae9d309e.png 621w\" width=\"621\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) Giả sử %(N, Q)% lần lượt là giao điểm của đường tròn ngoại tiếp tứ giác %(I B H C)% với các đường thẳng %(P H, A I)%. Chứng minh %(N Q)% đi qua trung điểm của đoạn thẳng %(B C)%.",
+        "question_images": [],
+        "solution": "Ta có %(K I B=I A B+I B A=C B K+I B C=I B K \\Rightarrow \\triangle K B I)% cân tại %(K)%suy ra %(K B=K I)% lại có %(K B=K C)% nên %(K B=K C=K I)%, suy ra %(K)% là tâm đường tròn ngoại tiếp tứ giác %(I B H C)% (gọi là đường tròn %((K))% )<br>Xét %((\\mathrm{O}))% có: %(P K)% là đường kính %(\\Rightarrow P C \\perp C K ; P B \\perp B K)%, suy ra %(P B)% và %(P C)% là các tiếp tuyến của %((K))%<br>Xét %((\\mathrm{K}))% có %(B C / / H Q)% (1) vì cùng vuông góc với %(H I)%<br>Gọi %(U)% là trung điểm %(B C)%, ta có %(P, O, U, K)% thẳng hàng.<br>Xét %((\\mathrm{K}))% có %(P B, P C)% là các tiếp tuyến, %(P N H)% là cát tuyến, chứng minh được%(P U . P K=P N \\cdot P H=P C^{2})%, suy ra tứ giác %(N U K H)% nội tiếp<br>Gọi %(T)% là giao điểm thứ hai của %(N U)% với %((K))%Chứng minh được %(U B)% là phân giác của %(N U H)%<br>\\[\\Rightarrow N U B=\\frac{1}{2} N U H=\\frac{1}{2} N K H=N T H \\Rightarrow B C / / H T\\]<br>Từ %((1) ;(2) \\Rightarrow T \\equiv Q)%. Vậy %(N Q)% đi qua trung điểm %(U)% của %(B C)%.<br><img alt=\"Screenshot 2024-07-16 223059.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7b10d3347fa039ead4e5f1116253a4e6.png\" srcset=\"https://docdn.giainhanh.io/media/test/41a8c0171d44ad7da8d80183c0a65221.png 131w, https://docdn.giainhanh.io/media/test/ac2892e22bfe88f80b56f8a96f274dc9.png 418w, https://docdn.giainhanh.io/media/test/de73de2999ee07aa5d8d00af7abe9100.png 628w\" width=\"628\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "d) ",
+        "point": 1.0,
+        "content": "d) Gọi %(E, F)% lần lượt là giao điểm của đường tròn ngoại tiếp tứ giác %(I B H C)% với các đường thẳng %(A C, A B)% và %(J, L)% lần lượt là giao điểm của đường tròn %((O))% với các đường thẳng %(B I, C I)%. Chứng minh rằng giao điểm của %(E L)% và %(J F)% nằm trên đường tròn ngoại tiếp tứ giác %(I B H C)%.",
+        "question_images": [],
+        "solution": "Gọi %(S)% là giao điểm của %(J L)% và %(B C ; S I)% cắt đường tròn %((K))% tại %(X)%<br>Chứng minh được %(S L . S J=S I . S X=S B . S C)%<br>Suy ra tứ giác %(L I X J)% nội tiếp được<br>Ta có %(J X E=360^{\\circ}-J X I-\\mathrm{IX} E=180^{\\circ}-J X I+180^{\\circ}-\\mathrm{IX} E=I L J+I C E)%%(=J B C+I C E=I B C+I C B=180^{\\circ}-B I C=180^{\\circ}-L I J=180^{\\circ}-L X J)%%(\\Rightarrow J X E+J X L=180^{\\circ})%<br>Suy ra %(L, X, E)% thẳng hàng<br>Chứng minh tương tự 3 điểm %(F, X, J)% thẳng hàng<br>Vậy giao điểm của %(E L)% và %(J F)% là %(X)% nằm trên đường tròn ngoại tiếp tứ giác %(I B H C)%<br><img alt=\"Screenshot 2024-07-16 223218.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d98c7c64e81d3a028d3c45e122de1a69.png\" srcset=\"https://docdn.giainhanh.io/media/test/3557a82ce1d812dc17a9ef042bfcd900.png 245w, https://docdn.giainhanh.io/media/test/ff1bfc1531d579b1a7661c4de7043146.png 500w, https://docdn.giainhanh.io/media/test/2d9307eb7ec46dda6b8de13e5c16d76f.png 750w, https://docdn.giainhanh.io/media/test/d25a8d3ff64a523d2c2b186ae218e292.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7 ",
+        "point": 2.0,
+        "content": "Xét %(a, b, c)% là ba số thực dương thỏa mãn %(a b c=1)%.Chứng minh rằng: %(\\frac{1}{2 a b+b^{2}}+\\frac{1}{2 b c+c^{2}}+\\frac{1}{2 c a+a^{2}} \\geq 1)%.",
+        "question_images": [],
+        "solution": "Ta có %(\\frac{1}{2 a b+b^{2}} \\geq \\frac{1}{1+a^{2} b^{2}+b^{2}})% vì %(1+a^{2} b^{2} \\geq 2 a b)%<br>Tương tự %(\\frac{1}{2 b c+c^{2}} \\geq \\frac{1}{1+b^{2} c^{2}+c^{2}} ; \\frac{1}{2 c a+a^{2}} \\geq \\frac{1}{1+a^{2} c^{2}+a^{2}})%<br>Khi đó %(V T_{(1)} \\geq \\frac{1}{1+a^{2} b^{2}+b^{2}}+\\frac{1}{1+b^{2} c^{2}+c^{2}}+\\frac{1}{1+a^{2} c^{2}+a^{2}})%<br>Vì %(a b c=1 \\Rightarrow\\left\\{\\begin{array}{l}\\frac{1}{1+a^{2} b^{2}+b^{2}}=\\frac{c^{2}}{c^{2}+a^{2} b^{2} c^{2}+b^{2} c^{2}}=\\frac{c^{2}}{c^{2}+1+b^{2} c^{2}} \\\\ \\frac{1}{1+a^{2} c^{2}+a^{2}}=\\frac{b^{2} c^{2}}{b^{2} c^{2}+c^{2} a^{2} b^{2} c^{2}+b^{2} a^{2} c^{2}}=\\frac{b^{2} c^{2}}{1+c^{2}+b^{2} c^{2}}\\end{array}\\right.)%<br>Suy ra %(V T_{(1)} \\geq \\frac{c^{2}}{c^{2}+1+b^{2} c^{2}}+\\frac{1}{1+b^{2} c^{2}+c^{2}}+\\frac{b^{2} c^{2}}{1+c^{2}+b^{2} c^{2}}=\\frac{c^{2}+1+b^{2} c^{2}}{1+c^{2}+b^{2} c^{2}}=1)%<br>Dấu bằng xảy ra khi và chỉ khi %(a=b=c=1)%",
+        "question_type": "essay"
+    }
+]

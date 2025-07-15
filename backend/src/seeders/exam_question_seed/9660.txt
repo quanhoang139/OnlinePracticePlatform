@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 1.5,
+        "content": "Cho biểu thức %(A=2 a^{2} b^{2}+2 b^{2} c^{2}+2 a^{2} c^{2}-a^{4}-b^{4}-c^{4})%. Chứng minh rằng nếu %(a, b, c)% là 3 cạnh của một tam giác thì %(A\\gt 0)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=2 a^{2} b^{2}+2 b^{2} c^{2}+2 a^{2} c^{2}-a^{4}-b^{4}-c^{4}=4 a^{2} b^{2}-\\left(2 a^{2} b^{2}-2 b^{2} c^{2}-2 a^{2} c^{2}+a^{4}+b^{4}+c^{4}\\right) \\\\ =(2 a b)^{2}-\\left(a^{2}+b^{2}-c^{2}\\right)^{2}=\\left(2 a b+a^{2}+b^{2}-c^{2}\\right)\\left(2 a b-a^{2}-b^{2}+c^{2}\\right) \\\\ =\\left[(a+b)^{2}-c^{2}\\right]\\left[c^{2}-(a-b)^{2}\\right]=(a+b+c)(a+b-c)(c+a-b)(c-a+b)\\end{array})%<br>Do %(a, b, c)% là 3 cạnh của một tam giác nên %(a+b+c\\gt 0 ; a+b-c>0 ; c+a-b>0 ; c-a+b>0 \\Rightarrow A>0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 1.5,
+        "content": "Chứng minh rằng %(a^{5}-a\\vdots 30(a \\in \\mathbb{Z}))%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}a^{5}-a=a\\left(a^{4}-1\\right)=a\\left(a^{2}-1\\right)\\left(a^{2}+1\\right)=a(a+1)(a-1)\\left[(a-4)^{2}+5\\right] \\\\ =a(a+1)(a-1)(a-2)(a+2)+5 a(a+1)(a-1)\\end{array})%<br>Do tích của 5 số nguyên liên tiếp thì chia hết cho 5 và trong 5 số nguyên liên tiếp luôn có ba số nguyên liên tiếp mà tích của chúng chia hết cho 6 và %((6,5)=1)%<br>Suy ra %(a(a+1)(a-1)(a-2)(a+2) \\vdots 30)% và %(5 a(a+1)(a-1) \\vdots 30)%.<br>Vậy %(a^{5}-a: 30)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.0,
+        "content": "Giải phương trình : %(\\left|x^{2}-2 x y+y^{2}+3 x-2 y-1\\right|+4=2 x-\\left|x^{2}-3 x+2\\right|)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\left|x^{2}-2 x y+y^{2}+3 x-2 y-1\\right|+4=2 x-\\left|x^{2}-3 x+2\\right| \\\\ \\Leftrightarrow\\left|(x-y+1)^{2}+x-2\\right|+|(x-1)(x-2)|=2 x-4\\ (1)\\end{array})%<br>Do<br>%(\\begin{array}{l}\\left|(x-y+1)^{2}+x-2\\right|+|(x-1)(x-2)| \\geq 0 \\ (\\forall x, y) \\\\ \\Rightarrow 2 x-4 \\geq 0 \\Leftrightarrow 2(x-2) \\geq 0 \\Leftrightarrow x \\geq 2  \\end{array})%<br>Với %(x \\geq 2)% thì %(\\left|(x-y+1)^{2}+x-2\\right|=(x-y+1)^{2}+x-2 ;|(x-1)(x-2)|=x^{2}-3 x+2)%<br>Khi đó từ phương trình %((1))%<br>%(\\Rightarrow(x-y+1)^{2}+x-2+(x-1)=2(x-2) \\Leftrightarrow(x-y+1)^{2}=(x-2)(2-x+1-1)=-(x-2)^{2})%<br>%(\\Leftrightarrow(x-y+1)^{2}+(x-2)^{2}=0 \\Leftrightarrow x-2=0)% và %(x-y+1=0 \\Leftrightarrow x=2 ; y=3(t m))%<br>Vậy tập nghiệm của phương trình là : %((x ; y)=(2 ; 3))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 1.5,
+        "content": "Cho %(a^{3}+b^{3}=2)%. Chứng minh rằng %(a+b \\leq 2)%",
+        "question_images": [],
+        "solution": "Giả sử<br>%(\\begin{array}{l}a+b\\gt 2 \\Leftrightarrow(a+b)^{3}>2^{3} \\Leftrightarrow a^{3}+b^{3}+3 a b(a+b)>8 \\Leftrightarrow 2+3 a b(a+b)>8\\left(a^{3}+b^{3}=2\\right) \\\\ \\Leftrightarrow 3 a b(a+b)>6 \\Leftrightarrow a b(a+b)>2 \\Leftrightarrow a b(a+b)>a^{3}+b^{3}\\left(a^{3}+b^{3}=2\\right) \\\\ \\Leftrightarrow a b(a+b)>(a+b)\\left(a^{2}-a b+b^{2}\\right)\\end{array})%<br>%(\\Leftrightarrow a b\\gt a^{2}-a b+b^{2} \\Leftrightarrow a^{2}-2 a b+b^{2}\\lt 0 \\Leftrightarrow(a-b)^{2}\\lt 0)% (Vô lí)<br>Vậy %(a+b\\leq 2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 1.5,
+        "content": "Cho hình thang %(\\mathrm{ABCD}(A B / / C D))%, hai đường chéo %(A C)% và %(B D)% cắt nhau tại %(O )%. Một đường thẳng %(d)% qua %(O)% song song với 2 đáy cắt hai cạnh bên %(A D, B C)% lần lượt tại %(E)% và %(F )%. Chứng minh rằng %(\\frac{1}{A B}+\\frac{1}{C D}=\\frac{2}{E F})%.",
+        "question_images": [],
+        "solution": "Xét %(\\triangle A B D)% có %(O E / / A B \\Rightarrow \\frac{O E}{A B}=\\frac{O D}{D B})% (Hệ quả định lý Talet) %((1))%<br>Xét %(\\triangle A B C)% có %(O F / / D C \\Rightarrow \\frac{O F}{C D}=\\frac{O B}{B D})% (hệ quả định lý Talet ) %((2))%<br>Xét %(\\triangle A B C)% có %(O F / / A B \\Rightarrow \\frac{O F}{A B}=\\frac{O C}{A C})% (hệ quả định lý Talet ) %((3))%<br>Xét %(\\triangle A B D)% có %(O E / / D C \\Rightarrow \\frac{O E}{D C}=\\frac{A O}{A C})% (Hệ quả định lý Talet ) %((4))%<br>Từ %((1), (2), (3), (4))% suy ra<br>%(\\begin{array}{l}\\frac{O E}{A B}+\\frac{O F}{C D}+\\frac{O F}{A B}+\\frac{O E}{D C}=\\frac{O D}{D B}+\\frac{O B}{B D}+\\frac{O C}{A C}+\\frac{A O}{A C} \\\\ \\Leftrightarrow \\frac{O E}{A B}+\\frac{O F}{A B}+\\frac{O F}{C D}+\\frac{O E}{D C}=\\frac{O D}{D B}+\\frac{O B}{B D}+\\frac{O C}{A C}+\\frac{A O}{A C} \\\\ \\Leftrightarrow \\frac{E F}{A B}+\\frac{E F}{D C}=\\frac{B D}{B D}+\\frac{A C}{A C} \\Leftrightarrow \\frac{E F}{A B}+\\frac{E F}{D C}=2 \\Leftrightarrow \\frac{1}{A B}+\\frac{1}{C D}=\\frac{2}{E F}\\end{array})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e6fc8be669663dd06005b47fab2c5f22.png\" srcset=\"https://docdn.giainhanh.io/media/test/36fffb5280bfa88ec4342ffacea017df.png 245w, https://docdn.giainhanh.io/media/test/82fbf20165c2024c33a7b0ce09a2ba4f.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 2.0,
+        "content": "Cho hình bình hành %(A B C D)%. Các điểm %(M, N)% theo thứ tự thuộc các cạnh %(A B, B C)% sao cho %(A N=C M)%. Gọi %(K)% là giao điểm của %(A N)% và %(C M)%. Chứng minh rằng %(K D)% là tia phân giác của %(\\widehat{A K C})%",
+        "question_images": [],
+        "solution": "Kẻ %(D I, D J)% lần lượt vuông góc với %(A K, C K)%<br>Ta có: %(S_{A N D}=\\frac{1}{2} A N \\cdot D I=\\frac{1}{2} S_{A B C D})% (Do chung đáy %(AD )%, cùng chiều cao hạ từ %(N)%%()(1))%<br>%(S_{C D M}=\\frac{1}{2} C M \\cdot D J=\\frac{1}{2} S_{A B C D})% (Do chung đáy %(CD )%, cùng chiều cao hạ từ %(M)%) %((2))%<br>Từ %((1))% và %((2))% suy ra : %(\\frac{1}{2} A N \\cdot D I=\\frac{1}{2} C M \\cdot D J \\Leftrightarrow D I=D J)% (Vì %(A N=C M)%)<br>%(\\Rightarrow \\triangle D I K=\\Delta D J K)% (cạnh huyền-cạnh góc vuông) %(\\Rightarrow \\widehat{I K D}=\\widehat{J K D})%<br>%(\\Rightarrow K D)% là tia phân giác %(\\widehat{A K C})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/be9d57c03e8e05d449224f1a13125cd7.png\" srcset=\"https://docdn.giainhanh.io/media/test/cfd9fe0f518b666ebec546a7b4aa6a08.png 245w, https://docdn.giainhanh.io/media/test/1d0ff0bfe57afbf7f31eb478130660fb.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

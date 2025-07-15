@@ -1,0 +1,89 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 1.0,
+        "content": "Phân tích đa thức sau thành nhân tử : %(x^{4}+2009 x^{2}+2008 x+2009)%.",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} x^{4}+2009 x^{2}+2008 x+2009 & =\\left(x^{4}+x^{2}+1\\right)+2008\\left(x^{2}+x+1\\right) \\\\ & =\\left(x^{2}+x+1\\right)\\left(x^{2}-x+1\\right)+2008\\left(x^{2}+x+1\\right) \\\\ & =\\left(x^{2}+x+1\\right)\\left(x^{2}-x+2009\\right) .\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Giải phương trình sau: %(\\frac{x+2}{13}+\\frac{2 x+45}{15}=\\frac{3 x+8}{37}+\\frac{4 x+69}{9})%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l} \\frac{x+2}{13}+\\frac{2 x+45}{15}=\\frac{3 x+8}{37}+\\frac{4 x+69}{9} \\\\ \\Leftrightarrow\\left(\\frac{x+2}{13}+1\\right)+\\left(\\frac{2 x+45}{15}-1\\right)=\\left(\\frac{3 x+8}{37}+1\\right)+\\left(\\frac{4 x+69}{9}-1\\right) \\\\ \\Leftrightarrow \\frac{x+15}{13}+\\frac{2(x+15)}{15}=\\frac{3(x+15)}{37}+\\frac{4(x+15)}{9} \\\\ \\Leftrightarrow(x+15)\\left(\\frac{1}{13}+\\frac{2}{15}-\\frac{3}{37}-\\frac{4}{9}\\right)=0 \\\\ \\Leftrightarrow x=-15\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 0.5,
+        "content": "Chứng minh rằng %(\\frac{a^{4}+b^{4}}{2} \\geq a b^{3}+a^{3} b-a^{2} b^{2})%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l} \\frac{a^{4}+b^{4}}{2} \\geq a b^{3}+a^{3} b-a^{2} b^{2} \\Leftrightarrow  a^{4}+b^{4} \\geq 2 a b^{3}+2 a^{3} b-2 a^{2} b^{2} \\\\  \\Leftrightarrow a^{4}+b^{4}-2 a b^{3}-2 a^{3} b+2 a^{2} b^{2} \\geq 0 \\\\  \\Leftrightarrow\\left(a^{4}-2 a^{3} b+a^{2} b^{2}\\right)+\\left(b^{4}-2 a b^{3}+a^{2} b^{2}\\right) \\\\  \\Leftrightarrow\\left(a^{2}-a b\\right)^{2}+\\left(b^{2}-a b\\right)^{2} \\geq 0\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 0.5,
+        "content": "Cho hai số dương %(a, b)% và %(a=5-b)%. Tìm giá trị nhỏ nhất của tổng %(P=\\frac{1}{a}+\\frac{1}{b})%.",
+        "question_images": [],
+        "solution": "%(P=\\frac{1}{a}+\\frac{1}{b}=\\frac{a+b}{a b}=\\frac{5}{a b} \\Rightarrow P=\\frac{20}{4 a b} \\geq \\frac{20}{(a+b)^{2}}=\\frac{4}{5})%<br>Vậy giá trị nhỏ nhất của P là %(\\frac{4}{5})% khi %(a=b=\\frac{5}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 1.0,
+        "content": "Cho %(a)% và %(b)% là hai số thực dương thỏa mãn điều kiện : %(a^{2006}+b^{2006}=a^{2007}+b^{2007}=a^{2008}+b^{2008})%. Hãy tính tổng: %(S=a^{2009}+b^{2009})%.",
+        "question_images": [],
+        "solution": "Ta có: %(a^{2008}+b^{2008}=\\left(a^{2007}+b^{2007}\\right)(a+b)-a b\\left(a^{2006}+b^{2006}\\right))%<br>%(\\Leftrightarrow 1=a+b-a b \\Leftrightarrow(1-a)(1-b)=0 \\Rightarrow a=1, b=1)%<br>Vậy %(S=1+1=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 1.0,
+        "content": "Chứng minh rằng : %(A=\\frac{2 \\sqrt{3+\\sqrt{5-\\sqrt{13+\\sqrt{48}}}}}{\\sqrt{6}+\\sqrt{2}})% là số nguyên.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=\\frac{2 \\sqrt{3+\\sqrt{5-\\sqrt{13+\\sqrt{48}}}}}{\\sqrt{6}+\\sqrt{2}}=\\frac{2 \\sqrt{3+\\sqrt{5-\\sqrt{(2 \\sqrt{3}+1)^{2}}}}}{\\sqrt{6}+\\sqrt{2}}=\\frac{2 \\sqrt{3+\\sqrt{(\\sqrt{3}-1)^{2}}}}{\\sqrt{6}+\\sqrt{2}} \\\\ A=\\frac{2 \\sqrt{2+\\sqrt{3}}}{\\sqrt{6}+\\sqrt{2}}=\\frac{\\sqrt{(\\sqrt{6}+\\sqrt{2})^{2}}}{\\sqrt{6}+\\sqrt{2}}=1 \\in \\mathbb Z.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 1.0,
+        "content": "Tìm các số nguyên dương %(\\mathrm{x}, \\mathrm{y})% thỏa mãn phương trình sau: %(x y-2 x-3 y+1=0)%.",
+        "question_images": [],
+        "solution": "%(x y-2 x-3 y+1=0 \\Leftrightarrow x y-3 y=2 x-1 \\Leftrightarrow y(x-3)=2 x-1)%<br>Ta thấy %(x=3)% không thỏa mãn, với %(x \\neq 3)% thì %(y=2+\\frac{5}{x-3})%;<br>Để %(y)% nguyên thì %(x-3)% phải là ước của %(5)%;<br>Suy ra: %((x, y)=(4,7) ;(8,3))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8:",
+        "group_content": "Cho tam giác %(A B C)% vuông tại %(A)% có cạnh %(A C\\gt A B)%, đường cao %(A H(H \\in B C))%. Trên tia %(H C)% lấy điểm %(D)% sao cho %(H D=H A)%. Đường vuông góc với với %(B C)% tại %(D)% cắt %(A C)% tại %(E)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh hai tam giác %(B E C)% và %(A D C)% đồng dạng.",
+        "question_images": [],
+        "solution": "Xét %(\\triangle A D C)% và %(\\triangle B E C)% có:<br>%(\\frac{C D}{C E}=\\frac{C A}{C B} )% (vì %(\\triangle CDE \\sim \\triangle CAB)%)<br>%(\\angle C)% chung<br>Suy ra: %(\\triangle A D C \\sim \\triangle B E C)% (c-g-c).<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/efca53238813165bcbeda3d74c81a858.png\" srcset=\"https://docdn.giainhanh.io/media/test/b28e67b376149fd1294e452df51731f5.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh tam giác %(A B E)% cân.",
+        "question_images": [],
+        "solution": "Theo câu a suy ra: %(\\angle B E C=\\angle A D C)%<br>Ta có: %(\\angle A D C=\\angle E D C+\\angle A D E=135^{\\circ} \\Rightarrow\\angle B E C=135^{\\circ})%<br>Suy ra: %(\\angle A E B=45^{\\circ})%<br>Do đó: %(\\triangle A B E)% cân (tam giác vuông có một góc bằng %(45^{\\circ})% ).<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/05a850eb06ca603a16e462d5a59a7d04.png\" srcset=\"https://docdn.giainhanh.io/media/test/317ea6c4371d4eb8057f169b7f4f5751.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Gọi %(M)% là trung điểm của %(B E)% và vẽ tia %(A M)% cắt %(B C)% tại %(G)%. Chứng minh rằng: %(\\frac{G B}{B C}=\\frac{H D}{A H+H C})%",
+        "question_images": [],
+        "solution": "%(\\triangle A B E)% cân tại %(E)% nên %(A M)% còn là phân giác của %(\\angle B A C)%<br>Suy ra: %(\\frac{G B}{G C}=\\frac{A B}{A C})%, mà %(\\frac{A B}{A C}=\\frac{E D}{D C})% (do %(\\triangle A B C \\sim \\triangle D E C)% )<br>Mà %(\\frac{E D}{D C}=\\frac{A H}{H C})% (do %(\\left.E D / / A H\\right))%;<br>Mặt khác : %(\\frac{A H}{H C}=\\frac{H D}{H C})%<br>Do đó: %(\\frac{G B}{G C}=\\frac{H D}{H C} \\Rightarrow \\frac{G B}{G B+G C}=\\frac{H D}{H D+H C} \\Rightarrow \\frac{G B}{B C}=\\frac{H D}{A H+H C})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/96956ed9758a45081c691daba8440c25.png\" srcset=\"https://docdn.giainhanh.io/media/test/743676ecfb379441507a1488136eb30d.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Giải phương trình %((x+2)^{2}-x-6=\\sqrt{x^{2}+3 x})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}(x+2)^{2}-x-6=\\sqrt{x^{2}+3 x} \\text { (Điều kiện: } x \\leq-3 \\text { hoặc } x \\geq 0 \\text { ) } \\\\Leftrightarrow x^{2}+4 x+4-x-6=\\sqrt{x^{2}+3 x} \\\\Leftrightarrow x^{2}+3 x-\\sqrt{x^{2}+3 x}-2=0 \\text { (1) } \\\\text { Đặt } t=\\sqrt{x^{2}+3 x}(t \\geq 0)\\end{array}\\]<br>1. %((x+2)^{2}-x-6=\\sqrt{x^{2}+3 x})% (Điều kiện: %(x \\leq-3)% hoặc %(x \\geq 0)% )<br>Đặt %(t=\\sqrt{x^{2}+3 x}(t \\geq 0))%<br>Thay vào (1) ta được: %(t^{2}-t-2=0)%<br>Vì %(\\mathrm{a}-\\mathrm{b}+\\mathrm{c}=0)% nên %(t=-1)% (loại do %(t \\geq 0)% ) hoặc %(t=2)% (nhận).<br>Với %(t=2 \\Rightarrow \\sqrt{x^{2}+3 x}=2 \\Leftrightarrow x^{2}+3 x=4 \\Leftrightarrow x^{2}+3 x-4=0)%%(\\Leftrightarrow x=-4)% ( nhận) hoặc %(x=1)% (nhận)<br>Vậy phương trình có tập nghiệm %(S=\\{-4 ; 1\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho %(x, y \\in \\mathbb{R})% thȯa %(y \\sqrt{25-y^{2}}+x \\sqrt{25-x^{2}}=2 x y(0\\lt x, y\\lt 5))%. Chứng minh %(x^{2}+y^{2}=25)%.",
+        "question_images": [],
+        "solution": "Cách 1:<br>\\[\\begin{array}{l}y \\sqrt{25-y^{2}}+x \\sqrt{25-x^{2}}=2 x y(0\\lt x, y\\lt 5) \\\\Leftrightarrow y\\left(\\sqrt{25-y^{2}}-x\\right)+x\\left(\\sqrt{25-x^{2}}-y\\right)=0 \\\\Leftrightarrow \\frac{y\\left(25-x^{2}-y^{2}\\right)}{\\sqrt{25-y^{2}}+x}+\\frac{x\\left(25-x^{2}-y^{2}\\right)}{\\sqrt{25-x^{2}}+y}=0 \\\\Leftrightarrow\\left(25-x^{2}-y^{2}\\right)\\left(\\frac{y}{\\sqrt{25-y^{2}}+x}+\\frac{x}{\\sqrt{25-x^{2}}+y}\\right)=0\\end{array}\\]<br>Vì %(0\\lt x, y\\lt 5)% nên %(\\frac{y}{\\sqrt{25-y^{2}}+x}+\\frac{x}{\\sqrt{25-x^{2}}+y}\\gt 0)%<br>Do đó %(25-x^{2}-y^{2}=0 \\Leftrightarrow x^{2}+y^{2}=25(\\mathrm{dpcm}))%<br>Cách 2:<br>Giả sử %(x^{2}+y^{2}\\lt 25 \\Leftrightarrow\\left\\{\\begin{array}{l}25-x^{2}\\gt y^{2} \\\\ 25-y^{2}>x^{2}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}\\sqrt{25-x^{2}}>y \\\\ \\sqrt{25-y^{2}}>x\\end{array}\\right.\\right.)% (Do %(0\\lt x, y\\lt 5)% )<br>Khi đó: %(2 x y=y \\sqrt{25-y^{2}}+x \\sqrt{25-x^{2}}>y x+x y=2 x y)% (vô lý)<br>Điều giả sử sai.<br>Do đó: %(x^{2}+y^{2} \\geq 25)% (1)<br>Chứng minh tương tự ta có: %(x^{2}+y^{2} \\leq 25)% (2)Từ (1) và (2) suy ra: %(x^{2}+y^{2}=25(\\mathrm{dpcm}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}\\left(x+\\frac{1}{x}\\right)\\left(y+\\frac{1}{y}\\right)=5 \\\\ \\left(x y+\\frac{1}{x y}\\right)\\left(\\frac{y}{x}+\\frac{x}{y}\\right)=\\frac{25}{4}\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Điều kiện xác định: %(\\mathrm{x} \\neq 0, \\mathrm{y} \\neq 0)%<br>%(\\left\\{\\begin{array}{l}\\left(x+\\frac{1}{x}\\right)\\left(y+\\frac{1}{y}\\right)=5 \\\\ \\left(x y+\\frac{1}{x y}\\right)\\left(\\frac{y}{x}+\\frac{x}{y}\\right)=\\frac{25}{4}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x y+\\frac{1}{x y}+\\frac{y}{x}+\\frac{x}{y}=5 \\\\ \\left(x y+\\frac{1}{x y}\\right)\\left(\\frac{y}{x}+\\frac{x}{y}\\right)=\\frac{25}{4}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}\\left(x y+\\frac{1}{x y}\\right)=\\frac{5}{2} \\\\ \\left(\\frac{y}{x}+\\frac{x}{y}\\right)=\\frac{5}{2}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}2 x^{2} y^{2}-5 x y+2=0 \\\\ x^{2}+y^{2}=\\frac{5}{2} x y\\end{array}\\right.\\right.\\right.\\right.)%<br><=> %(\\begin{array}{c}\\left\\{\\begin{array}{c}x y=2 \\\\ x^{2}+y^{2}=5\\end{array}\\right. \\\\ \\left\\{\\begin{array}{c}x y=\\frac{1}{2} \\\\ x^{2}+y^{2}=\\frac{5}{4}\\end{array}\\right.\\end{array})% <=> %(\\left\\{\\begin{array}{c}x y=2 \\\\ (x+y)^{2}=5+2 \\cdot 2=9 \\\\ x y=\\frac{1}{2} \\\\ (x+y)^{2}=\\frac{5}{4}+2 \\cdot \\frac{1}{2}=\\frac{9}{4}\\end{array}\\right.)%<=>%(\\begin{array}{l}\\left\\{\\begin{array}{c}x y=2 \\\\ x+y=3\\end{array}\\right. \\\\ \\left\\{\\begin{array}{c}x y=2 \\\\ x+y=-3\\end{array}\\right. \\\\ \\left\\{\\begin{array}{c}x y=\\frac{1}{2} \\\\ x+y=\\frac{3}{2}\\end{array}\\right. \\\\ \\left\\{\\begin{array}{c}x y=\\frac{1}{2} \\\\ x+y=-\\frac{3}{2}\\end{array}\\right.\\end{array})%<=>%(\\begin{array}{l}\\left\\{\\begin{array}{l}x=1 \\\\ y=2\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}x=2 \\\\ y=1\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}x=-1 \\\\ y=-2\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}x=-2 \\\\ y=-1\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}x=1 \\\\ y=\\frac{1}{2}\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}x=\\frac{1}{2} \\\\ y=1\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}x=-1 \\\\ y=-\\frac{1}{2}\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}x=-\\frac{1}{2} \\\\ y=-1\\end{array}\\right. \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Biết phương trình %(x^{2}+2 x-m-m^{2}=0)% luôn có 2 nghiệm phân biệt với mọi tham số %(\\mathrm{m})%. Gọi %(\\left(\\alpha_{1}, \\beta_{1}\\right),\\left(\\alpha_{2}, \\beta_{2}\\right),\\left(\\alpha_{3}, \\beta_{3}\\right), \\ldots,\\left(\\alpha_{25}, \\beta_{25}\\right))% tương ứng là 2 nghiệm của phương trình (1) khi %(\\mathrm{m})% nhận các giá trị lần lượt là %(1 ; 2 ; 3 ; \\ldots ; 25)%. Tính %(\\mathrm{T}=\\frac{1}{\\alpha_{1}}+\\frac{1}{\\beta_{1}}+\\frac{1}{\\alpha_{2}}+\\frac{1}{\\beta_{2}} \\ldots+\\frac{1}{\\alpha_{25}}+\\frac{1}{\\beta_{25}})%.",
+        "question_images": [],
+        "solution": "\\[x^{2}+2 x-m-m^{2}=0\\]<br>Theo bài ra, phương trình có 2 nghiệm phân biệt với mọi %(m)%, áp dụng vi-et ta có %(x_{1}+x_{2}=-2)%<br>\\[x_{1} x_{2}=-m^{2}-m\\]<br>Và khi %(\\mathrm{m} \\in\\{1,2,3, \\ldots, 25\\})% thì 0 không phài là nghiệm của phương trìnhDo đó: %(\\frac{1}{x_{1}}+\\frac{1}{x_{2}}=\\frac{x_{1}+x_{2}}{x_{1} x_{2}}=\\frac{-2}{-m^{2}-m}=\\frac{2}{m(m+1)}=2\\left(\\frac{1}{m}-\\frac{1}{m+1}\\right))%Suy ra:<br>%(\\begin{array}{l}T=\\frac{1}{\\alpha_{1}}+\\frac{1}{\\beta_{1}}+\\frac{1}{\\alpha_{2}}+\\frac{1}{\\beta_{2}} \\ldots+\\frac{1}{\\alpha_{2 s}}+\\frac{1}{\\beta_{25}}=2\\left(\\frac{1}{1}-\\frac{1}{2}\\right)+2\\left(\\frac{1}{2}-\\frac{1}{3}\\right)+\\ldots+2\\left(\\frac{1}{25}-\\frac{1}{26}\\right) \\\\ \\mathrm{T}=2\\left(1-\\frac{1}{26}\\right)=\\frac{50}{26}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 0.75,
+        "content": "Cho %(p, q(p\\gt q>5))% là 2 số nguyên tố. Chứng minh %(p^{8}-q^{4})% chia hết cho 240 .",
+        "question_images": [],
+        "solution": "1. Ta sẽ chứng minh %(p^{8}-q^{4})% chia hết cho %(3,5,16)%.<br>Thật vậy, vì %(p)% là số nguyên tố lớn hơn 5 nên %(p \\equiv 1,2(\\bmod 3))% và %(p \\equiv 1,2,3,4(\\bmod 5))%<br>*Do đó: %(p^{2} \\equiv 1^{2}, 2^{2} \\equiv 1,4 \\equiv 1(\\bmod 3) ; p^{4} \\equiv 1^{4}, 2^{4}, 3^{4}, 4^{4} \\equiv 1,16,81,256 \\equiv 1(\\bmod 5))%<br>Tương tự: %(q^{2} \\equiv 1(\\bmod 2))% và %(q^{4} \\equiv 1(\\bmod 5))%%(\\Rightarrow p^{8} \\equiv q^{4} \\equiv 1(\\bmod 3))% và %(p^{8} \\equiv q^{4} \\equiv 1(\\bmod 5))%%(\\Rightarrow p^{8}-q^{4})% chia hết cho 3,5 . (1)<br>Vî %(p)% là số nguyên tố lớn hơn 5 nên %(p)% lè, do đó %(p^{2} \\equiv 1(\\bmod 8))%<br>Thật vậy, ta có %(p^{2}-1=(p-1)(p+1))% là tích của hai số chẵn liên tiếp, do đó một trong hai số này chia hết cho 4 .<br>Vì vậy, %(p^{2}-1)% chia hết cho 8 .<br>Từ đây ta có thể viết %(p^{2}=8 k+1\\left(k \\in \\mathbb{N}^{*}\\right) \\Rightarrow p^{4}=64 k^{2}+16 k+1 \\equiv 1(\\bmod 16))%<br>Tương tự: %(q^{4} \\equiv 1(\\bmod 16) \\Rightarrow p^{8} \\equiv q^{4} \\equiv 1(\\bmod 16))%%(\\Rightarrow p^{8}-q^{4})% chia hết cho 16 . (2)<br>Từ (1), (2) suy ra: %(p^{8}-q^{4})% chia hết cho 240 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 0.75,
+        "content": "Tìm tất cả số nguyên dương %(n)% và số nguyên tố %(p)% thoà %(n^{20: 4}+4 n+p^{2})% chia hết cho %(n p)%.",
+        "question_images": [],
+        "solution": "Ta có: %(n^{2024}+4 n+p^{2}: n p \\Rightarrow n^{2024}+4 n+p^{2}: n \\Rightarrow p^{2}: n)%<br>\\[\\Rightarrow n \\in\\left\\{1, p, p^{2}\\right\\} \\text {. }\\]<br>%(\\mathrm{TH} 1: n=1 \\Rightarrow 5+p^{2}: p \\Rightarrow 5: p \\Rightarrow p=5)%, thử lại thấy thoà mān.<br>TH2: %(n=p \\Rightarrow p^{2024}+4 p+p^{2}: p^{2} \\Rightarrow 4 p: p^{2} \\Rightarrow 4: p \\Rightarrow p=2 \\Rightarrow n=p=2)%, thử lại thấy thoả mãn.<br>TH3: %(n=p^{2} \\Rightarrow p^{4048}+5 p^{2}: p^{3} \\Rightarrow 5 p^{2}: p^{3} \\Rightarrow 5: p \\Rightarrow p=5 \\Rightarrow n=p^{2}=25)%, thử lại thấy thoà mãn.<br>Vậy %((n, p) \\in\\{(1,5) ;(2,2)(25,5)\\})%<br>Chú ý : *ở đây quy ước %(a \\equiv b, c(\\bmod d))% tức là %(a)% có thể đồng dur vơi %(b, c)% modulo %(d)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 0.75,
+        "content": "a) Tìm tất cả số thực %(k\\gt 0)% sao cho %(\\frac{x}{x y+2} \\leq \\frac{1}{k}\\left(x+\\frac{2}{y}\\right))% luôn đúng với mọi %(x, y>0)%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\frac{(x y+2)^{2}}{x y}=\\frac{x^{2} y^{2}+4 x y+4}{x y}=x y+\\frac{4}{x y}+4 \\geq 2 \\sqrt{4}+4=8)% (AM-GM).<br>Dấu \" = \" xày ra khi %(x y=2)%.<br>Do đó: %(\\frac{x}{x y+2} \\leq \\frac{1}{8}\\left(\\frac{x y+2}{y}\\right)=\\frac{1}{8}\\left(x+\\frac{2}{y}\\right) ; \\forall x, y\\gt 0)%<br>Vì %(\\frac{x}{x y+2} \\leq \\frac{1}{k}\\left(x+\\frac{2}{y}\\right))% luôn đúng với mọi %(x, y>0)% nên %(0\\lt k \\leq 8)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 0.75,
+        "content": "b) Cho %(a, b, c, x, y, z>0)% thoà mãn %(x+y+z=2\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)=4)%.<br>Chứng minh:<br>%(\\frac{x}{a x+2}+\\frac{y}{b y+2}+\\frac{z}{c z+2} \\leq 1)%",
+        "question_images": [],
+        "solution": "Áp dụng câu 4.1: %(\\frac{x}{a x+2}+\\frac{y}{b y+2}+\\frac{z}{c z+2} \\leq \\frac{1}{8}\\left(x+\\frac{2}{a}+y+\\frac{2}{b}+z+\\frac{2}{c}\\right)=\\frac{1}{8}(4+4)=1)%.<br>Dấu\" = \" xảy ra khi ax=by=cz=2",
+        "question_type": "essay"
+    },
+    {
+        "title": "9",
+        "group_content": "Cho %(\\mathrm{A}, \\mathrm{B})% là hai điểm cố định trên đường tròn %((\\mathrm{O}, \\mathrm{R}), \\mathrm{C})% là điểm chính giữa cung %(\\mathrm{AB})% và %(\\mathrm{M})% là điểm di động trên dây cung %(\\mathrm{AB}(\\mathrm{M} \\neq \\mathrm{A}, \\mathrm{M} \\neq \\mathrm{B}))%. Tia %(\\mathrm{CM})% cắt %((\\mathrm{O}, \\mathrm{R}))% tại %(\\mathrm{D}(\\mathrm{D} \\neq \\mathrm{C}))%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "a) Chứng minh %(\\mathrm{AC}^{2}=\\mathrm{CM} . \\mathrm{CD})% và %(\\mathrm{AC})% là tiếp tuyến của đường tròn ngoại tiếp tam giác %(\\mathrm{ADM})%.",
+        "question_images": [],
+        "solution": "\\[\\begin{aligned}\\mathrm{CAB}=\\frac{1}{2} \\mathrm{SdCB}=\\frac{1}{4} \\mathrm{SdAB} ; \\mathrm{ADC}=\\frac{1}{2} \\mathrm{SdAC}=\\frac{1}{4} \\mathrm{SdAB} \\\\Rightarrow \\mathrm{CAB}=\\mathrm{ADC} \\\\Rightarrow \\triangle \\mathrm{CAM} \\triangle \\triangle \\mathrm{CDA}(\\mathrm{g} \\cdot \\mathrm{g}) \\\\Rightarrow \\frac{\\mathrm{CA}}{\\mathrm{CD}}=\\frac{\\mathrm{CM}}{\\mathrm{CA}} \\Leftrightarrow \\mathrm{CA}^{2}=\\mathrm{CD} \\cdot \\mathrm{CM}\\end{aligned}\\]<br>Vẽ 2 đường trung trực của %(\\mathrm{AM}, \\mathrm{DM})% cắt nhau tại %(\\mathrm{I})%.<br>Khi đó %(\\mathrm{I})% là tâm đường tròn ngoại tiếp tam giác %(\\mathrm{ADM})% Gọi %(\\mathrm{E}, \\mathrm{F})% lần lượt là trung điểm của %(\\mathrm{AM})% và %(\\mathrm{DM})%.<br>Suy ra %(\\mathrm{EF} / / \\mathrm{AD})%, nên %(\\mathrm{EFM}=\\mathrm{ADM})% (1)<br>Mà %(\\mathrm{ADM}=\\mathrm{CAM},(\\triangle \\mathrm{CAM} \\sim \\triangle \\mathrm{CDA})(2))%<br>Lại có tứ giảc %(\\mathrm{EMFI})% là tứ giác nội tiếp do %(\\mathrm{E}+\\mathrm{F}=90)%, nên %(\\mathrm{EFM}=\\mathrm{EIM})% (3)<br>Hơn nữa %(\\mathrm{EIM}=\\mathrm{AIE})% (EI là trung trực của %(\\mathrm{AM})% )<br>Từ (1), (2), (3), (4) suy ra: %(\\mathrm{CAM}=\\mathrm{AIE})%<br>Do vậy : %(\\mathrm{CAM}+\\mathrm{IAM}=\\mathrm{AIE}+\\mathrm{IAM} \\Leftrightarrow \\mathrm{CAI}=90)% hay %(\\mathrm{CA})% vuông góc với %(\\mathrm{AI})%<br>Vậy AC là tiếp tuyến của đường tròn ngoại tiếp tam giác ADM.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/575d37ef31b624cb098be17039fdf349.png\" srcset=\"https://docdn.giainhanh.io/media/test/b7967bac354dadbcb4fd892c344620bb.png 184w, https://docdn.giainhanh.io/media/test/6ed9e72daaa20ce7d7750f27d5ec4fa6.png 500w, https://docdn.giainhanh.io/media/test/6a17f4752acffe4ceb30e73a74cc7129.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "b) Cho %(R=5 \\mathrm{~cm}, A B=6 \\mathrm{~cm})%, tính %(\\mathrm{R}_{1}+\\mathrm{R}_{2})%, với %(R_{1}, R_{2})% lần lượt là bán kính đường tròn ngoại tiếp tam giác %(\\mathrm{ADM})% và tam giác BDM",
+        "question_images": [],
+        "solution": "Nối %(\\mathrm{OC})%, vì %(\\mathrm{C})% là điểm chính giữa cung nên %(\\mathrm{OC})% là đường trung trực của %(\\mathrm{AB})%. Gọi %(\\mathrm{H})% là giao điểm cùa %(O C)% và %(A B)%<br>\\[\\begin{array}{l}\\mathrm{AH}=\\frac{\\mathrm{AB}}{2}=3 ; \\mathrm{OH}=\\sqrt{\\mathrm{OA}^{2}-\\mathrm{AH}^{2}}=\\sqrt{5^{2}-3^{2}}=4 \\\\mathrm{CH}=\\mathrm{OC}-\\mathrm{OH}=5-4=1 \\\\mathrm{AC}=\\sqrt{\\mathrm{CH}^{2}+\\mathrm{AH}^{2}}=\\sqrt{1^{2}+3^{2}}=\\sqrt{10}\\end{array}\\]<br>\\[\\begin{array}{l}\\operatorname{SinCAH}=\\frac{\\mathrm{CH}}{\\mathrm{AC}}=\\frac{1}{\\sqrt{10}} \\R_{1}=I A=\\frac{A E}{\\operatorname{sinAIE}}=\\frac{\\mathrm{AE}}{\\operatorname{sinCAH}}=\\frac{\\mathrm{AM} \\sqrt{10}}{2}\\end{array}\\]<br>Chứng minh tương tự, ta cũng có %(\\mathrm{BC})% là tiếp tuyến của đường tròn ngoại tiếp tam giác %(\\mathrm{BMD})% và có bán kinh là %(\\mathrm{R}_{2}=\\frac{\\mathrm{BM} \\sqrt{10}}{2})%<br>Như vậy %(R_{1}+R_{2}=\\frac{(A M+B M) \\sqrt{10}}{2}=\\frac{A B \\sqrt{10}}{2}=3 \\sqrt{10}(\\mathrm{~cm}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "10 ",
+        "point": 0.5,
+        "content": "Cho đa giác %(A_{1}, A_{2}, \\ldots . A_{2024})% là đa giác đều 2024 đinh, trong đó đỉnh %(A_{2009})% được tô đỏ, các đinh còn lại được tô xanh. Đổi màu các đinh của đa giác theo quy tắc: Mỗi lần chọn 4 đinh của 1 hình chữ nhật rồi đổi màu đồng thời 4 đinh ấy (đỏ thành xanh và xanh thành đỏ).<br>Hỏi sau một số hữu hạn lần đồi màu như vậy, có thể thu được kết quả đinh %(A_{2000})% và %(A_{997})% cùng màu hay không? Vi sao?",
+        "question_images": [],
+        "solution": "Vì %(A_{1} A_{2} \\ldots A_{2024})% là đa giác đều nên đa giác này nội tiếp đường tròn đường kính tâm %(\\mathrm{O})%, Gọi %(A_{k})% là điểm đối xứng với %(A_{1})% qua tâm %(\\mathrm{O})% :<br>- Đường kính %(A_{1} A_{k})% chia đa giác đều %(A_{1} A_{2} \\ldots A_{2024})% thành 2 phần bằng nhau, số lượng các đỉnh 2 bên là 1011 đỉnh,<br>- Suy ra, %(A_{k} \\equiv A_{1013})%<br>Từ đó, ta có quy luật về đường kính của đường tròn ngoại tiếp đa giác đều %(A_{1} A_{2} \\ldots A_{2024})% :<br>- %(A_{1})% đối xứng với %(A_{1013})% qua %(\\mathrm{O})% : đường kính %(A_{1} A_{1013})%<br>- Đường kinh %(A_{2} A_{1014})%- Đường kính %(A_{k} A_{k+1012})%<br>Suy ra: %(A_{m 7})% đối xứng với %(A_{2009})% qua tâm %(\\mathrm{O})%,<br>Nghĩa là, một hình chữ nhật có đinh %(A_{997})% thì %(A_{2009})% cũng là đinh của hình chữ nhật đó,<br>Mà ban đầu, %(A_{997})% được tô màu xanh, %(A_{2009})% được tô màu đỏ<br>Vậy theo quy tắc đổi màu như trên thì %(A_{2009})% và %(A_{997})% không thể cùng màu sau một số hữu hạn lần đồi màu.",
+        "question_type": "essay"
+    }
+]

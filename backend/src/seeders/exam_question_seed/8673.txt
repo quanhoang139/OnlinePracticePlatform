@@ -1,0 +1,52 @@
+[
+    {
+        "title": "1 ",
+        "point": 5.0,
+        "content": "Nhập vào số nguyên %(\\mathrm{N})% và xóa đi %(\\mathrm{k})% kí tự để %(\\mathrm{N})% là nhỏ nhất<br><strong>Dữ liệu vào:</strong> Từ tệp vă bản SONGUYEN.INP chứa số nguyên %(\\mathrm{N})% và %(\\mathrm{K})%<br><strong>Dữ liệu ra:</strong> Ghi kết quả vào tệp SONGUYEN.OUT số nguyên %(\\mathrm{N})% nhỏ nhất sau khi xóa k kí tự<br>Ví dụ:",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/d2831a8e2f4de96d3a3818961c3167e9.png"
+        ],
+        "solution": "Program bail;<br>Var t1,t2:text;<br>N,i,j,k:int64;<br>St: ansistring;<br>Kt:b oolean;<br>Begin<br>Assign(t1,'SONGUYEN.INP');<br>Assign(t2,'SONGUYEN.OUT');<br>Reset(tl);<br>Rewrite(t2);<br>Readln(n);<br>Str(n,st);<br>Readln(k);<br>For i:=1 to k do<br>Begin<br>Kt:=true;<br>For j:=1 to length(st)-1 do if st[j] > st[j+1] then<br>Begin<br>Delete(st, j, 1);<br>Kt:=false; Break;<br>End;<br>If kt then delete(st,length(st), 1);<br>End;<br>While (st[1] = '0') and (length(st)>1) do delete(st,1,1);<br>Writeln(st);<br>Close(t1); close(t2);<br>End.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 5.0,
+        "content": "Nhập vào một xâu, nếu tính từ trái sang phải thì kí tự ? là dấu hiệu xóa đi một kí tự đứng ngay trước nó nếu có. Sau đó in ra màn hình xâu đã chỉnh sửa<br><strong>Dữ liệu vào: </strong>Từ tệp văn bản KITU.INP gồm một xâu<br><strong>Dữ liệu ra:</strong> Ghi kết quả ra tệp văn bản KITU.OUT là xau sau khi xóa<br>Ví dụ:",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/89fff166d9a2ef1f0b4d566ed7e91d96.png"
+        ],
+        "solution": "Program bail;<br>Var tl,t2:text;<br>a: string:<br>i:integer;<br>Begin<br>Assign(t1,'KITU.INP');<br>Assign(t2,'KITU.OUT');<br>Reset(tl);<br>Rewrite(t2);<br>Readln(A);<br>For i:=1 to length(a) do if a[i]= '? ' then delete(a,i+1,1);<br>Write(a);<br>Readln;<br>End.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 4.0,
+        "content": "Nhập vào một dãy gồm %(\\mathrm{N})% xâu. Hãy đưa ra màn hình xâu nào có độ dài lớn nhất.<br><strong>Dữ liệu vào: </strong>từ tệp văn bản XAU.INP gồm:<br>- Dòng đầu là một số nguyên %(\\mathrm{N})%<br>- N dòng tiếp theo mỗi dòng chứa một xâu<br><strong>Dữ liệu ra: </strong>Xâu có độ dài nhiều nhất ghi vào tệp văn bản XAU.OUT<br>Ví dụ:",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/608292515bd1642eb5f00c3633660332.png"
+        ],
+        "solution": "Program bail;<br>Var t1,t2:text;<br>A:string;<br>Max: array[1..10000] of integer;<br>N,i,j,lonnhat:integer;<br>Begin<br>Assign(tl,'XAU.INP');<br>Assign(t2,'XAU.OUT');<br>Reset(t1);<br>Rewrite(t2);<br>Readln(N);<br>For i:=1 to N do<br>Begin<br>Readln(a);<br>Max[i]:=length(a);<br>End;<br>Lonnhat:=max[1];<br>For i:=2 to N do if max [i]\\gt lonnhat then lonhat:=max;<br>For j:=1 to lonnhat write(a);<br>Readln;<br>End.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 3.0,
+        "content": "Cho một dãy số nguyên gồm %(\\mathrm{N})% số và một số nguyên %(\\mathrm{K})%. Hãy cho biết %(\\mathrm{K})% có trong dãy số đó hay không? Nếu có nó xuất hiện bao nhiêu lần?<br><strong>Dữ liệu vào: </strong>Từ tệp văn bản KIEMTRA.INP gồm:<br>- Dòng thứ nhất là %(\\mathrm{N})%<br>- Dòng thứ hai là dãy %(\\mathrm{N})% phần tứ, mỗi phần tứ cách nhau một dấu cách<br>- Dòng thứ 3 là số nguyên %(\\mathrm{K})%<br><strong>Dữ liệu ra:</strong> Số lần xuất hiện của %(\\mathrm{K})% có trong dãy số ghi vào tệp KIEMTRA.OUT<br>Ví dụ:",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/1070a69e3146611d3bd7ffba4ff11dab.png"
+        ],
+        "solution": "Program bail;<br>Var t1,t2:text;<br>a: array[1..10000] of int64;<br>i,k,n:integer;<br>Begin<br>Assign(t1,'KIEMTRA.INP');<br>Assign(t2,'KIEMTRA. OUT');<br>Reset(t1);<br>Rewrite(t2);<br>Readln(n);<br>For i:=1 to n readln a[i];<br>Readln(k); For i:=1 to n do if a [i] = k then inc(dem);<br>Write(dem);<br>Readln;<br>End.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 3.0,
+        "content": "Cho một màng gồm %(\\mathrm{N})% phần tử. Hãy tìm dãy con gồm %(\\mathrm{M})% phần tử %((\\mathrm{M}\\lt \\mathrm{N}) \\mathrm{Sao})% cho dãy con này có tổng lớn nhất<br><strong>Dữ liệu vào:</strong> Từ tệp văn bản DAYCON.INP gồm:<br>- Dòng đầu là %(\\mathrm{N})%<br>- Dòng thứ hai là %(\\mathrm{N})% phần tử<br>- Dòng thứ 3 là %(\\mathrm{M})%<br><strong>Dữ liệu ra:</strong> Dãy con có tổng lớn nhất ghi vào tệp DAYCON.OUT<br>Ví dụ:",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/19567f2caa19a0a91ac799d3e715cb48.png"
+        ],
+        "solution": "Program bail;<br>Var t1,t2:text;<br>a: array[1..10000] of integer;<br>i,j n,m ,k,s,max:integer;<br>Begin<br>Assign(t1,'DAYCON.INP');<br>Assign(t2,'DAYCON.OUT');<br>Reset(t1);<br>Rewrite(t2);<br>readln(n);<br>For i:=1 to n do readln(a[i]);<br>Readln(m);<br>Max:=0;<br>K:=1<br>For i:=1 to m do max:=max+a[i];<br>For i:=2 to n-m+1 do<br>Begin<br>S:=0;<br>For j:=i to i+m-1 do s:= s+a[i];<br>If s>max then<br>Begin<br>Max:=s;<br>K:=i;<br>End;<br>End;<br>For i:=k to k+m-1 do write(a[i]);<br>Readln;<br>End.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "title": "1 ",
+        "point": 3.0,
+        "content": "Cho %(a, b, c)% là các số hữu tỷ khác 0 thỏa mãn %(a+b+c=0)%<br>Chứng minh rằng: %(M=\\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}})% là bình phương của một số hữu tỷ",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}}=\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)^{2}-2\\left(\\frac{1}{a b}+\\frac{1}{b c}+\\frac{1}{a c}\\right)=\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)^{2}-2 \\cdot \\frac{a+b+c}{a b c}=\\left(\\frac{1}{a}+\\frac{1}{b}\\right.\\]<br>Vậy %(M)% là bình phương của một số hữu tỉ",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 5.0,
+        "content": "Rút gọn biểu thức sau và tìm giá tri nguyên của %(x)% để biểu thức có giá trị nguyên:<br>\\[M=\\left(\\frac{x^{2}-2 x}{2 x^{2}+8}-\\frac{2 x^{2}}{8-4 x+2 x^{2}-x^{3}}\\right)\\left(1-\\frac{1}{x}-\\frac{2}{x^{2}}\\right)\\]",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}M=\\left(\\frac{x^{2}-2 x}{2\\left(x^{2}+4\\right)}-\\frac{2 x^{2}}{4 \\cdot(2-x)+x^{2} \\cdot(2-x)}\\right) \\cdot \\frac{x^{2}-x-2}{x^{2}} \\M=\\left[\\frac{x^{2}-2 x}{2\\left(x^{2}+4\\right)}+\\frac{2 x^{2}}{\\left(x^{2}+4\\right)(x-2)}\\right] \\cdot \\frac{\\left(x^{2}-2\\right) \\cdot(x+1)}{x^{2}} \\M=\\frac{x^{2} \\cdot(x-2)^{2}+4 x^{2}}{2(x-2)\\left(x^{2}+4\\right)} \\cdot \\frac{(x-2)(x+1)}{x^{2}}=\\frac{x\\left(x^{2}-4 x+4+4 x\\right)}{2(x-2)\\left(x^{2}+4\\right)} \\cdot \\frac{(x-2)(x+1)}{x^{2}} \\M=\\frac{x\\left(x^{2}+4\\right)}{2(x-2)\\left(x^{2}+4\\right)} \\cdot \\frac{(x-2)(x+1)}{x^{2}}=\\frac{x+1}{2 x}\\end{array}\\]<br>Đề %(M)% xác định thì %(\\left\\{\\begin{array}{l}2 x^{2}+8 \\neq 0 \\\\ \\left(x^{2}+4\\right)(x-2) \\neq 0 \\Leftrightarrow \\\\ x^{2} \\neq 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\neq 0 \\\\ x \\neq 2\\end{array}\\right.\\right.)%<br>\\[\\frac{x+1}{x}=1+\\frac{1}{x} \\in \\mathbb{Z} \\Leftrightarrow x \\in U(1)=\\{ \\pm 1\\}\\]<br>Với %(x=-1)% thỏa mãn %((*))% và %(M=0 \\in \\mathbb{Z})%<br>Với %(x=1)% thỏa mãn %(\\left({ }^{*}\\right))% và %(M=1 \\in \\mathbb{Z})%<br>Vậy %(x=1 ; x=-1)% thỏa mãn điều kiện bài ra.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 3.0,
+        "content": "Tìm nghiệm nguyên của phương trình: %(3^{x}+4^{x}=5^{x})%.",
+        "question_images": [],
+        "solution": "Phương trình đã cho có thể viết lại là : %(\\left(\\frac{3}{5}\\right)^{x}+\\left(\\frac{4}{5}\\right)^{x}=1)%<br>Ta thấy %(x=2)% là nghiệm của phương trình đã cho.<br>Với %(x \\neq 2)% ta xét:Nếu %(x\\gt 2)% thì %(\\left(\\frac{3}{5}\\right)^{x}+\\left(\\frac{4}{5}\\right)^{x}>1)%<br>Với %(x\\lt 2)% dễ thấy %(x=0 ; x=1)% không phải là nghiệm của phương trình<br>Với %(x\\lt 0)% ta đặt %(x=-y)% thì %(y>0)% nên %(y \\geq 1)%. Ta có:<br>\\[\\left(\\frac{3}{5}\\right)^{x}+\\left(\\frac{4}{5}\\right)^{x}=1 \\Leftrightarrow\\left(\\frac{3}{5}\\right)^{-y}+\\left(\\frac{4}{5}\\right)^{-y}=1 \\Leftrightarrow\\left(\\frac{5}{3}\\right)^{y}+\\left(\\frac{5}{4}\\right)^{y}=1\\]<br>Phương trình này vô nghiệm vì %(\\left(\\frac{5}{3}\\right)^{y}+\\left(\\frac{5}{4}\\right)^{y} \\geq \\frac{5}{3}+\\frac{5}{4}>1)%<br>Vậy phương trình đã cho có nghiệm duy nhất %(x=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho tam giác %(A B C)% có %(\\widehat{B A C}=120^{\\circ})%. Các phân giác %(A D, B E)% và CF",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 3.0,
+        "content": "a) Chứng minh rằng %(\\frac{1}{A D}=\\frac{1}{A B}+\\frac{1}{A C})%",
+        "question_images": [],
+        "solution": "Từ B kẻ %(B K / / A C)% cắt %(A D)% tại K , ta có tam giác %(A B K)% đều<br>Do đó:<br>\\[\\frac{A B}{A C}=\\frac{D B}{D C}=\\frac{D K}{D A}=\\frac{A B-A D}{A D}=A C \\cdot(A B-A D) \\Rightarrow \\frac{1}{A D}=\\frac{1}{A B}+\\frac{1}{A C}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5e8b36c9a2f651f73aa51939f585a458.png\" srcset=\"https://docdn.giainhanh.io/media/test/90d271f30c71f9f797d824687e9563b2.png 245w, https://docdn.giainhanh.io/media/test/ee728e4c7f27aeeccbbc5cd39e4a9849.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 3.0,
+        "content": "b) Tính %(\\widehat{F D E})%.",
+        "question_images": [],
+        "solution": "Áp dụng tính chất đường phân giác tính được %(B D=\\frac{B C \\cdot A B}{A B+A C})%<br>Từ (a) suy ra %(A D=\\frac{A B \\cdot A C}{A B+A C})%<br>Suy ra %(\\frac{D A}{D B}=\\frac{C A}{C B}=\\frac{E A}{E B})% nên %(D E)% là phân giác của %(\\widehat{B D A})%<br>Chứng minh tương tự được %(D F)% là phân giác %(\\widehat{A D C})%<br>Từ đó suy ra %(\\widehat{E D F}=90^{\\circ})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 3.0,
+        "content": "Cho %(a, b, c)% là các số không âm và không lớn hơn 2 thỏa mãn %(a+b+c=3)%<br>Chứng minh rằng %(a^{2}+b^{2}+c^{2} \\leq 5)%",
+        "question_images": [],
+        "solution": "Từ giả thiết ta có:<br>\\[(2-a)(2-b)(2-c) \\geq 0 \\Leftrightarrow 8+2(a b+b c+c a)-4(a+b+c)-a b c \\geq 0\\]<br>Cộng hai vế với %(a^{2}+b^{2}+c^{2})%, sau đó thu gọn ta được:<br>\\[(a+b+c)^{2} \\geq a^{2}+b^{2}+c^{2}+a b c+4 \\Leftrightarrow a^{2}+b^{2}+c^{2}+a b c \\leq 5\\]<br>Mà %(a b c \\geq 0)% nên %(a^{2}+b^{2}+c^{2} \\leq 5)%<br>Dấu bằng xảy ra khi trong ba số %(a, b, c)% có một số bằng 0 , một số bằng 2 , một số bằng 1 .",
+        "question_type": "essay"
+    }
+]

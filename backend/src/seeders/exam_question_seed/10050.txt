@@ -1,0 +1,42 @@
+[
+    {
+        "title": "1 ",
+        "point": 4.0,
+        "content": "Giải phương trình %(\\sqrt{7 x^{2}-7 x-9}-\\sqrt{x^{2}-x-6}\\lt 2 \\sqrt{2 x+1})%",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq 3)%<br>Bất phương trình tương đương với %(7 x^{2}-7 x-9\\lt [\\sqrt{(x+2)(x-3)}+2 \\sqrt{2 x+1}]^{2})%<br>%(\\begin{array}{l}\\Leftrightarrow 6 x^{2}-14 x-7\\lt 4 \\sqrt{(x+2)(x-3)} \\cdot \\sqrt{2 x+1} \\\\ \\Leftrightarrow 3\\left(2 x^{2}-5 x-3\\right)-4 \\sqrt{(x+2)(x-3)} \\cdot \\sqrt{2 x+1}+(x+2)\\lt 0 \\\\ \\Leftrightarrow 3 \\cdot \\frac{2 x^{2}-5 x-3}{x+2}-4 \\sqrt{\\frac{2 x^{2}-5 x-3}{x+2}}+1\\lt 0 \\Leftrightarrow\\left\\{\\begin{array}{l}18 x^{2}-46 x-29\\gt 0 \\\\ 2 x^{2}-6 x-5\\lt 0\\end{array}\\right.\\end{array})%<br>%(\\Leftrightarrow)% %(\\left\\{\\begin{array}{l}x\\lt \\frac{23-\\sqrt{1051}}{18} \\\\ x\\gt \\frac{23-\\sqrt{1051}}{18} \\\\ \\frac{3-\\sqrt{19}}{2}\\lt x\\lt \\frac{3+\\sqrt{19}}{2}\\end{array}\\right.)%<br>Kết hợp với điều kiện đã xác định, ta được %(\\frac{23-\\sqrt{1051}}{18}\\lt x\\lt \\frac{3+\\sqrt{19}}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 4.0,
+        "content": "Cho ABCD là tứ giác nội tiếp có giao điểm P của hai đường phân giác của các góc %(\\widehat{B A D}, \\widehat{B C D})% nằm trên đường chéo BD . Gọi Q là trung điểm của BD . Đường thẳng qua t song song với AD cắt tia AQ tại K nằm ngoài tứ giác ABCD . Chứng minh rằng am giác CDK là tam giác cân.",
+        "question_images": [],
+        "solution": "Vì tứ giác ABCD nội tiếp nên theo định lí Ptoleme ta có<br>%(\\mathrm{AB} \\cdot \\mathrm{CD}+\\mathrm{CD} \\cdot \\mathrm{BC}=\\mathrm{AC} \\cdot \\mathrm{BD}(1))%<br>%(\\mathrm{Vì} \\mathrm{AP}, \\mathrm{CP})% tương ứng là phân giác góc A và C nên<br>%(\\frac{A B}{A D}=\\frac{P B}{P D}=\\frac{C B}{C D} \\Rightarrow A B \\cdot C D=A D \\cdot B C)%<br>Từ (1) và (2) suy ra %(2 \\mathrm{AB} . \\mathrm{CD}=\\mathrm{AC} . \\mathrm{BD})%<br>Mà Q là trung điểm BD nên %(\\mathrm{BD}=2 \\mathrm{BQ})%<br>Do đó: %(\\mathrm{Ab} . \\mathrm{CD}=\\mathrm{AC} . \\mathrm{BQ})% hay %(\\frac{A B}{A C}=\\frac{B Q}{C D})%.<br>Mà %(\\widehat{A B Q}=\\widehat{A C D})% (góc nội tiếp chắn cung AD) nên<br>%(\\triangle \\mathrm{ABQ} \\sim \\triangle \\mathrm{ACD} \\Rightarrow \\widehat{\\mathrm{AQB}}=\\widehat{\\mathrm{ADC}})%<br>Mà %(\\widehat{A Q B}=\\widehat{D Q K})% (đối đỉnh); %(\\widehat{A D C}=\\widehat{D C K})% (số lẽ trong) (*)<br>Suy ra %(\\widehat{D Q K}=\\widehat{D C K} \\Rightarrow)% tứ giác CQDK nội tiếp %(\\Rightarrow \\widehat{B Q C}=\\widehat{C K}\\left({ }^{* *}\\right))%<br>Chứng minh tương tự %(\\triangle \\mathrm{QBC} \\sim \\Delta \\mathrm{DAC} \\Rightarrow \\widehat{\\mathrm{BQC}}=\\widehat{\\mathrm{ADC}}(* * *))%<br>Từ %(\\left({ }^{*}\\right),\\left({ }^{* *}\\right),\\left({ }^{* * *}\\right) \\Rightarrow \\widehat{D C K}=\\widehat{C K D})%<br>Suy ra tam giác DCK cân tại D.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1f404a13fd1ba1e08d15337a8d0bede3.png\" srcset=\"https://docdn.giainhanh.io/media/test/8d005a07f9a034dfe5e35eb15686f3c0.png 114w\" width=\"114\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 4.0,
+        "content": "Cho ba số thực dương %(x)%, %(y)% và %(z)% thay đổi nhưng luôn thỏa mãn điều kiện: %(\\mathrm{xy}+\\mathrm{yz}+\\mathrm{zx}=3 \\mathrm{xyz})%. Tìm giá trị nhỏ nhất của biểu thức. %(\\mathrm{S}=\\frac{y^{2}}{x\\left(y^{2}+1\\right)}+\\frac{z^{2}}{y\\left(z^{2}+1\\right)}+\\frac{x^{2}}{z\\left(x^{2}+1\\right)})%",
+        "question_images": [],
+        "solution": "Ta chứng minh giá trị nhỏ nhất của %(S)% bằng %(\\frac{3}{2})%<br>Đặt %(\\frac{1}{x}=a, \\frac{1}{y}=b, \\frac{1}{z}=c)%<br>Ta có %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là các số thự dương %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}=3)% và %(S=\\frac{a}{1+b^{2}}+\\frac{b}{1+c^{2}}+\\frac{c}{1+a^{2}})%<br>Áp dụng bất đẳng thức giữa trung bình cộng và trung bình nhân ta được<br>%(\\frac{a}{1+b^{2}}=a-\\frac{a b^{2}}{1+b^{2}} \\geq a-\\frac{a b^{2}}{2 b}=a-\\frac{a b}{2})%<br>Viết 2 kết quả tương tự và cộng lại ta được %(S \\geq a+b+c-\\frac{a b+a b+c a}{2})%<br>Dùng %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}=3)% và %((\\mathrm{a}+\\mathrm{b}+\\mathrm{c})^{2} \\geq 2(\\mathrm{ab}+\\mathrm{bc}+\\mathrm{ca}))% ta có %(S \\geq \\frac{3}{2})%<br>Mà khi %(\\mathrm{x}=\\mathrm{y}=\\mathrm{z}=1)% thì %(S=\\frac{3}{2})%.<br>Suy ra điều phải chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 4.0,
+        "content": "Mỗi điểm trong mặt phẳng được tô bởi một trong hai màu xanh hoặc đỏ. Chứng minh rằng tồn tại tam giác mà ba đỉnh và trọng tâm cùng màu.",
+        "question_images": [],
+        "solution": "Lấy 5 điểm tùy ý sao cho không có 3 điểm nào thẳng hàng trong mặt phẳng. Khi đó vì chỉ dùng hai màu để tô các điểm nên theo nguyên lí Dirichlet phải tồn tại ba điểm trong số đó cùng màu.<br>Giả sử đó là 3 điểm %(\\mathrm{A}, \\mathrm{B}, \\mathrm{C})%, màu đỏ.<br>Gọi G là trọng tâm tam giác ABC.<br>Nếu G có màu đỏ thì ta được tam giác có 3 đỉnh và trọng tâm màu đỏ.<br>Nếu G màu xanh. Kéo dài %(\\mathrm{GA}, \\mathrm{GB}, \\mathrm{GC})% các đoạn %(\\mathrm{AA}^{\\prime})% , %(\\mathrm{BB}^{\\prime}, \\mathrm{CC}^{\\prime})% sao cho %(\\mathrm{AA}^{\\prime}=3 \\mathrm{GA}, \\mathrm{BB}^{\\prime}=3 \\mathrm{~GB}, \\mathrm{CC}^{\\prime}=3 \\mathrm{GC})%.<br>Gọi %(\\mathrm{M}, \\mathrm{N}, \\mathrm{P})% tương ứng là trung điểm %(\\mathrm{BC}, \\mathrm{CA}, \\mathrm{AB})% thì %(\\mathrm{AA}^{\\prime}=3 \\mathrm{GA}=6 \\mathrm{GM})%, suy ra %(\\mathrm{AA}^{\\prime}=2 \\mathrm{AM})%.<br>Tương tự %(\\mathrm{BB}^{\\prime}=2 \\mathrm{BN}, \\mathrm{CC}^{\\prime}=2 \\mathrm{CP})%.<br>Do đó tam giác %(\\mathrm{A}^{\\prime} \\mathrm{BC}, \\mathrm{B}^{\\prime} \\mathrm{CA}, \\mathrm{C}^{\\prime} \\mathrm{AB})% tương ứng nhận %(\\mathrm{A}, \\mathrm{B}, \\mathrm{C})% làm trọng tâm.<br>Mặt khác: ta cũng có tam giác %(\\mathrm{ABC}, \\mathrm{A}^{\\prime} \\mathrm{B}^{\\prime} \\mathrm{C}^{\\prime})% có trọng tâm G.<br>Có hai trường hợp có thể xảy ra:<br>+) Nếu %(\\mathrm{A}^{\\prime}, \\mathrm{B}^{\\prime}, \\mathrm{C}^{\\prime})% có cùng mùa xanh, khi đó tam giác %(\\mathrm{A}^{\\prime} \\mathrm{B}^{\\prime} \\mathrm{C}^{\\prime})% và trọng tâm G có màu xanh.<br>+) Nếu ít nhất một trong các điểm %(\\mathrm{A}^{\\prime}, \\mathrm{B}^{\\prime}, \\mathrm{C}^{\\prime})% màu đỏ. Không giảm tổng quát, giả sử %(\\mathrm{A}^{\\prime})% đỏ. Khi đó tam giác %(\\mathrm{A}^{\\prime} \\mathrm{BC})% và trọng tâm A có màu đỏ.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/620fc1e61f98ffb551cfd00ae8b03630.png\" srcset=\"https://docdn.giainhanh.io/media/test/f72b3a1053db042da861cce83e367317.png 156w\" width=\"156\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 4.0,
+        "content": "Chứng minh rằng tồn tại 16 số tự nhiên liên tiếp sao cho không có số nào trong 16 số đó có thể biểu diexn được dưới dạng: %(\\left|7 x^{2}+9 x y-5 y^{2}\\right|(x, y \\in Z))%",
+        "question_images": [],
+        "solution": "Đặt %(\\left|7 x^{2}+9 x y-5 y^{2}\\right|=A)% ta có %(28 \\mathrm{~A}=\\left|(14 x+9 y)^{2}-13.17 . y^{2}\\right|)%.<br>Xét số dư khi chia A cho %(9,13,17)% ta thu được<br>+) A chia cho 9 không có số dư %(3 ; 6)%<br>+) A chia cho 13 không có số dư %(1 ; 3 ; 4 ; 9 ; 10 ; 12)%<br>+) A chia cho 17 không có số dư %(1 ; 2 ; 4 ; 8 ; 9 ; 13 ; 15 ; 16)%<br>Theo định lí thặng dư Trung Hoa, tồn tại số nguyên dương n thỏa mãn %(\\left\\{\\begin{array}{l}n=-4(\\bmod 9) \\\\ n=-2(\\bmod 13) \\\\ n=0(\\bmod 17)\\end{array}\\right.)%<br>+) %(\\mathrm{n}+7, \\mathrm{n}+10)% không có dạng %(\\left|7 x^{2}+9 x y-5 y^{2}\\right|)%<br>+) %( \\mathrm{n}+3, \\mathrm{n}+5, \\mathrm{n}+6, \\mathrm{n}+11, \\mathrm{n}+12, \\mathrm{n}+14)% không có dạng %(\\left|7 x^{2}+9 x y-5 y^{2}\\right|)%<br>+) %(\\mathrm{n}+1, \\mathrm{n}+2, \\mathrm{n}+4, \\mathrm{n}+8, \\mathrm{n}+9, \\mathrm{n}+13, \\mathrm{n}+15, \\mathrm{n}+16)% không có dạng %(\\left|7 x^{2}+9 x y-5 y^{2}\\right|)%<br>Từ đó suy ra tại 16 số %(\\mathrm{n}+1, \\mathrm{n}+2 ; \\ldots . \\mathrm{n}+16)% thỏa mãn bài toán.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,105 @@
+[
+    {
+        "title": "Câu 1 ",
+        "point": 3.0,
+        "content": "Cho %(n, n \\geq 2)%. So sánh:<br>\\[\\begin{array}{l}A=\\frac{1}{2^{2}}+\\frac{1}{3^{2}}+\\frac{1}{4^{2}}+\\ldots+\\frac{1}{n^{2}} \\text { với } 1 \\B=\\frac{1}{2^{2}}+\\frac{1}{4^{2}}+\\frac{1}{6^{2}}+\\ldots+\\frac{1}{(2 n)^{2}} \\text { với } \\frac{1}{2}\\end{array}\\]",
+        "question_images": [],
+        "solution": "Ta thấy:<br>%(\\begin{array}{c}\\frac{1}{2^{2}}\\lt \\frac{1}{1.2} \\\\ \\frac{1}{2^{2}}\\lt \\frac{1}{1.2} \\\\ \\frac{1}{3^{2}}\\lt \\frac{1}{2.3} \\\\ \\ldots \\\\ \\frac{1}{n^{2}}\\lt \\frac{1}{(n-1) n} \\\\ A=\\frac{1}{2^{2}}+\\frac{1}{3^{2}}+\\frac{1}{4^{2}}+\\ldots+\\frac{1}{n^{2}} \\\\ \\Rightarrow A\\lt \\frac{1}{1.2}+\\frac{1}{2.3}+\\frac{1}{3.4}+\\ldots+\\frac{1}{n \\cdot(n-1)} \\\\ A\\lt 1-\\frac{1}{2}+\\frac{1}{2}-\\frac{1}{3}+\\frac{1}{3}-\\frac{1}{4}+\\ldots+\\frac{1}{n-1}-\\frac{1}{n}\\end{array})%<br>\\[A\\lt 1-\\frac{1}{n}\\]<br>Vậy : %(\\mathrm{A}\\lt 1)% với %(\\mathrm{n}\\gt 2)%<br>\\[\\begin{array}{l}B=\\frac{1}{2^{2}}\\left(1+\\frac{1}{2^{2}}+\\frac{1}{3^{2}}+\\ldots+\\frac{1}{n^{2}}\\right) \\B\\lt \\frac{1}{2^{2}}\\left(1+\\frac{1}{1.2}+\\frac{1}{2 \\cdot 3}+\\ldots+\\frac{1}{(n-1) \\cdot n}\\right) \\B\\lt \\frac{1}{2^{2}}\\left(1+1-\\frac{1}{2}+\\frac{1}{2}-\\frac{1}{3}+\\ldots+\\frac{1}{(n-1)}-\\frac{1}{n}\\right) \\B\\lt \\frac{1}{2^{2}}\\left(2-\\frac{1}{n}\\right) \\B\\lt \\frac{1}{4} .2\\end{array}\\]<br>\\[B\\lt \\frac{1}{2} \\text {. }\\]<br>Vậy %(B\\lt \\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 1.0,
+        "content": "Một hộp có 2020 viên bi. Hai bạn chởi bốc viên bi ra khỏi hộp, mỗi lần lấy từ 5 đến 15 viên bi. Hai bạn thay nhau lấy, ai bốc được viên cuối cùng người đó sẽ thắng. Chứng tỏ có cách chơi để bạn bốc sau luôn thắng.",
+        "question_images": [],
+        "solution": "Người bốc sau luôn thắng vì mỗi lần bốc ít nhất là 5 và nhiều nhất là 15 nên người bốc sau luôn kiểm soát được số bi của 2 người sao cho bốc sau mỗi lượt đầu là 20<br>Ví dụ: Người thứ 1 bốc 5 bi thì người thứ 2 bốc 15 bi<br>Tối đa bốc là 20 viên bi nên ta có %(2020: 20=101)%<br>Người thứ nhất bốc trước x viên %((\\mathrm{x} \\geq 5))%, người thứ hai sẽ bốc số viên bi là: %(20-\\mathrm{x})%<br>Đến bước thứ 101 thì người thứ hai điêù chỉnh sao cho luôn dư 1 viên. Nên cuối cùng người bốc sau (người thứ 2 ) luôn luôn thắng",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 2.0,
+        "content": "Cho số có 3 chữ số %(\\overline{a b c})% chia hết cho 37 . Chứng tỏ %(\\overline{c a b} \\vdots 37)%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{aligned}100 \\overline{a b c} & =100(100 a+10 b+c) \\\\& =10000 \\mathrm{a}+1000 \\mathrm{~b}+100 \\mathrm{c} \\\\& =(100 \\mathrm{c}+10 \\mathrm{a}+\\mathrm{b})+(999 \\mathrm{~b}+9990 \\mathrm{a}) \\\\& =\\overline{c a b}+999(b+10 a)\\end{aligned}\\]<br>Mà %(\\overline{a b c}: 37 \\Leftrightarrow 100 \\overline{a b c}: 37)%<br>\\[\\Leftrightarrow \\overline{c a b}+999(b+10): 37\\]<br>Mặt khác: %(999 \\vdots 37 \\Rightarrow \\overline{c b a}+999(b+10) \\vdots 37)%<br>Vậy %(\\overline{c a b}: 37)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 2.0,
+        "content": "Cho<br>\\[\\begin{array}{l}A=\\frac{1}{2}+\\frac{1}{3}+\\frac{1}{4}+\\frac{1}{5}+\\ldots+\\frac{1}{2020} ; B=\\frac{1}{2019}+\\frac{2}{2018}+\\frac{3}{2017}+\\frac{4}{2016}+\\ldots+\\frac{2019}{1} \\\\text { Tính } \\frac{A}{B}\\end{array}\\]",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}B=\\frac{1}{2019}+\\frac{2}{2018}+\\frac{3}{2017}+\\frac{4}{2016}+\\ldots+\\frac{2019}{1} \\\\ B=1+\\left(1+\\frac{2018}{2}\\right)+\\ldots+\\left(\\frac{2}{2018}+1\\right)+\\left(\\frac{1}{2019}+1\\right) \\\\ B=1+\\frac{2020}{2}+\\ldots+\\frac{2020}{2018}+\\frac{2020}{2019} \\\\ B=2020\\left(\\frac{1}{2}+\\ldots+\\frac{1}{2018}+\\frac{1}{2019}+\\frac{1}{2020}\\right) \\\\ \\mathrm{B}=2020 \\mathrm{~A} \\\\ \\Leftrightarrow \\frac{B}{A}=2020\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 1.5,
+        "content": "%(|2 x-3 y|+|2 y+3 z|+\\left|x+y+\\frac{x}{z}\\right|=0)%. Tìm %(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})%.",
+        "question_images": [],
+        "solution": "%(|2 x-3 y|+|2 y+3 z|+\\left|x+y+\\frac{x}{z}\\right|=0)%<br>Do: %(|2 x-3 y| \\geq 0)% với mọi %(\\mathrm{x}, \\mathrm{y})%%(|2 y+3 z| \\geq 0)% với mọi %(\\mathrm{y}, \\mathrm{z})%<br>\\[\\left|x+y+\\frac{x}{z}\\right| \\geq 0 \\text { với mọi } \\mathrm{x}, \\mathrm{y}, \\mathrm{z}\\]<br>Để %(|2 x-3 y|+|2 y+3 z|+\\left|x+y+\\frac{x}{z}\\right|=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow\\left\\{\\begin{array} { l } { 2 x - 3 y = 0 } \\\\{ 2 y + 3 z = 0 } \\\\{ x + y + \\frac { x } { z } = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { c } { 2 x = 3 y } \\\\{ 2 y = - 3 z } \\\\{ x + y = - \\frac { x } { z } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{c}\\frac{x}{3}=\\frac{y}{2} \\\\frac{y}{3}=-\\frac{z}{2} \\x+y=\\frac{-x}{z}\\end{array}\\right.\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { \\frac { \\mathrm { x } } { 9 } = \\frac { \\mathrm { y } } { 6 } } \\\\{ \\frac { \\mathrm { y } } { 6 } = \\frac { \\mathrm { z } } { - 4 } } \\\\{ \\mathrm { x } + \\mathrm { y } = \\frac { - x } { \\mathrm { z } } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}\\frac{\\mathrm{x}}{9}=\\frac{\\mathrm{y}}{6}=\\frac{\\mathrm{z}}{-4}(1) \\\\mathrm{x}+\\mathrm{y}=\\frac{-\\mathrm{x}}{\\mathrm{z}}\\end{array}\\right.\\right.\\end{array}\\]<br>Từ (1) %(\\Rightarrow \\frac{-\\mathrm{x}}{\\mathrm{z}}=\\frac{9}{4})%<br>Áp dụng tính chất của dãy tỉ số bằng nhau ta có:<br>%(\\begin{array}{l}\\frac{x}{9}=\\frac{y}{6}=\\frac{x+y}{9+6}=\\frac{\\frac{9}{4}}{15}=\\frac{3}{20} \\\\ \\Leftrightarrow\\left\\{\\begin{array}{l}x=\\frac{27}{20} \\\\ y=\\frac{9}{10} \\\\ z=\\frac{-3}{5}\\end{array}\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6 ",
+        "point": 1.5,
+        "content": "Cho %(\\overline{a b}, \\overline{b c}(\\mathrm{c} \\neq 0))% là các số có hai chữ số thoả mãn điều kiện: %(\\frac{\\overline{a b}}{a+b}=\\frac{\\overline{b c}}{b+c})%Chứng minh: %(\\mathrm{b}^{2}=\\mathrm{ac})%",
+        "question_images": [],
+        "solution": "Ta có:<br>%(\\begin{array}{l}\\Rightarrow(10 \\mathrm{a}+\\mathrm{b}) \\cdot(\\mathrm{b}+\\mathrm{c})=(10 \\mathrm{~b}+\\mathrm{c}) \\cdot(\\mathrm{a}+\\mathrm{b}) \\\\ \\Rightarrow 10 \\mathrm{ab}+10 \\mathrm{ac}+\\mathrm{b}^{2}+\\mathrm{bc}=10 \\mathrm{ab}+10 \\mathrm{~b}^{2}+\\mathrm{ac}+\\mathrm{bc} \\\\ \\Rightarrow 9 \\mathrm{ac}-9 \\mathrm{~b}^{2}=0 \\\\ \\Rightarrow \\mathrm{b}^{2}=\\mathrm{ac} \\text { ( điều phải chứng minh) } \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7 ",
+        "point": 1.5,
+        "content": "Cho %(a+b+c+d=4000)% và<br>\\[\\frac{1}{a+b+c}+\\frac{1}{b+c+d}+\\frac{1}{c+d+a}+\\frac{1}{d+a+b}=\\frac{1}{40}\\]<br>Tính giá trị của: %(S=\\frac{a}{b+c+d}+\\frac{b}{c+d+a}+\\frac{c}{d+a+b}+\\frac{\\mathrm{d}}{a+b+c})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}S=\\frac{a}{b+c+d}+\\frac{b}{c+d+a}+\\frac{c}{d+a+b}+\\frac{d}{a+b+c} \\\\ S=\\left(\\frac{a}{b+c+d}+1\\right)+\\left(\\frac{b}{c+d+a}+1\\right)+\\left(\\frac{c}{d+a+b}+1\\right)+\\left(\\frac{d}{a+b+c}+1\\right)-4 \\\\ S=\\frac{a+b+c+d}{b+c+d}+\\frac{a+b+c+d}{c+d+a}+\\frac{a+b+c+d}{d+a+b}+\\frac{a+b+c+d}{a+b+c}-4 \\\\ S=(a+b+c+d)\\left(\\frac{1}{b+c+d}+\\frac{1}{c+d+a}+\\frac{1}{d+a+b}+\\frac{1}{a+b+c}\\right)-4 \\\\ S=4000 \\cdot \\frac{1}{40}-4 \\\\ S=100-4=96\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8 ",
+        "point": 1.5,
+        "content": "Xác định tổng của các hệ số của đa thức<br>\\[\\mathrm{f}(\\mathrm{x})=\\left(19-20 \\mathrm{x}+\\mathrm{x}^{2}\\right)^{2021} .\\left(19+20 \\mathrm{x}+\\mathrm{x}^{2}\\right)^{2020}\\]",
+        "question_images": [],
+        "solution": "Do tổng các hệ số là tổng của các hệ số trong đa thức bằng giá trị của đa thức tại %(\\mathrm{x}=1)%<br>\\[\\begin{aligned}\\mathrm{f}(1) & =(19-20.1+1)^{2021} \\cdot(19+20.1+1)^{2020} \\\\& =0.40^{2020}=0\\end{aligned}\\]<br>Vậy tổng của các hệ số trong đa thức là 0",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 9",
+        "group_content": "Cho tam giác ABC có ba góc nhọn %((\\mathrm{AB}\\lt \\mathrm{AC}))%. Vẽ về phía ngoài của tam giác ABC các tam giác đều ABD và ACE . Gọi I là giao điểm của CD và %(B E, K)% là giao điểm của %(A B)% và %(D C)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Chứng minh: %(\\triangle A D C=\\triangle A B E)%",
+        "question_images": [],
+        "solution": "Có:<br>\\[\\begin{array}{l}\\widehat{\\mathrm{DAC}}=\\widehat{\\mathrm{DAB}}+\\widehat{\\mathrm{BAC}}=60^{\\circ}+\\widehat{\\mathrm{BAC}} \\\\widehat{\\mathrm{BAE}}=\\widehat{\\mathrm{BAC}}+\\widehat{\\mathrm{CAE}}=\\widehat{\\mathrm{BAC}}+60^{\\circ} \\\\Rightarrow \\widehat{\\mathrm{DAC}}=\\widehat{\\mathrm{BAE}}\\end{array}\\]<br>Xét %(\\triangle \\mathrm{ADC})% và %(\\triangle \\mathrm{ABE})%<br>Có: %(\\mathrm{AD}=\\mathrm{AB}()% do %(\\triangle \\mathrm{ABD})% đều %())%<br>%(\\widehat{\\mathrm{DAC}}=\\widehat{\\mathrm{BAE}})% (chứng minh trên)<br>%(\\mathrm{AC}=\\mathrm{AE})% (do %(\\triangle \\mathrm{ACE})% là tam giác đều)<br>\\[\\Rightarrow \\triangle \\mathrm{ADC}=\\Delta \\mathrm{ABE} \\text { (c.g.c) }\\]<br><img alt=\"Screenshot 2024-07-14 131141.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b1789da3c49bfffa47cabec79900d559.png\" srcset=\"https://docdn.giainhanh.io/media/test/2ea6f5c60996a1af7174021062b9ef9c.png 245w, https://docdn.giainhanh.io/media/test/4c649ee19f64571cd0b0a58eddd836ea.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b)  ",
+        "point": 1.0,
+        "content": "b) Gọi M và N lần lượt là trung điểm của CD và BE . Chứng minh %(\\triangle A M N)% đều",
+        "question_images": [],
+        "solution": "Có: %(\\mathrm{CD}=\\mathrm{BE}(\\mathrm{Do} \\quad \\Delta \\mathrm{ADC}=\\Delta \\mathrm{ABE}))%<br>Mà M là trung điểm của %(\\mathrm{DC}, \\mathrm{N})% là trung điểm của BE<br>\\[\\Rightarrow \\mathrm{CM}=\\mathrm{EN}\\]<br>Xét %(\\triangle \\mathrm{ACM})% và %(\\triangle \\mathrm{AEN})%<br>Có: %(\\quad \\mathrm{CM}=\\mathrm{EN})% (chứng minh trên)<br>\\[\\begin{aligned}\\widehat{\\mathrm{ACM}} & =\\widehat{\\mathrm{AEN}} \\\\mathrm{AC}= & \\mathrm{AE}(\\mathrm{Do} \\Delta \\mathrm{ACE} \\text { đều) } \\\\& \\Rightarrow \\Delta \\mathrm{ACM}=\\Delta \\mathrm{AEN} \\text { (c.g.c) } \\\\& \\Rightarrow \\mathrm{AM}=\\mathrm{AN} \\text { và } \\widehat{\\mathrm{CAM}}=\\widehat{\\mathrm{EAN}}\\end{aligned}\\]<br>Suy ra : %(\\widehat{\\mathrm{MAN}}=\\widehat{\\mathrm{CAE}}=60^{\\circ})%<br>Vậy %(\\Delta \\mathrm{AMN})% đều",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Chứng minh IA là tia phân giác của góc DIE",
+        "question_images": [],
+        "solution": "Trên tia ID lấy điểm F sao cho: %(\\mathrm{IF}=\\mathrm{IB} \\Rightarrow \\Delta \\mathrm{BIF})% cân tại I<br>Do %(\\triangle \\mathrm{ADB})% đều<br>\\[\\begin{array}{l}\\Rightarrow \\widehat{\\mathrm{ADB}}+\\widehat{\\mathrm{DBA}}=60^{\\circ}+60^{\\circ}=120^{\\circ} \\\\Rightarrow \\widehat{\\mathrm{ADI}}+\\widehat{\\mathrm{IDB}}+\\widehat{\\mathrm{DBA}}=120^{\\circ}\\end{array}\\]<br>Mà: %(\\widehat{\\mathrm{ADI}}=\\widehat{\\mathrm{ABI}}()% Do %(\\Delta \\mathrm{ADC}=\\Delta \\mathrm{ABE}))%<br>\\[\\begin{array}{l}\\Rightarrow \\widehat{\\mathrm{IDB}}+\\widehat{\\mathrm{DBA}}+\\widehat{\\mathrm{ABI}}=120^{\\circ} \\\\Rightarrow \\widehat{\\mathrm{IDB}}+\\widehat{\\mathrm{DBI}}=120^{\\circ}\\end{array}\\]<br>%(\\Delta)% IDB có:<br>\\[\\begin{array}{l}\\widehat{\\mathrm{IDB}}+\\widehat{\\mathrm{DBI}}+\\widehat{\\mathrm{BID}}=180^{\\circ} \\text { (định lí tổng ba góc trong một tam giác) } \\\\begin{aligned}120^{\\circ}+\\widehat{\\mathrm{BID}}=180^{\\circ} \\\\Rightarrow \\widehat{\\mathrm{BID}}=60^{\\circ}\\end{aligned}\\end{array}\\]<br>%(\\Rightarrow \\Delta \\mathrm{FIB})% đều<br>%(\\Rightarrow \\mathrm{BF}=\\mathrm{BI})% và %(\\widehat{\\mathrm{FBI}}=\\widehat{\\mathrm{DBA}}=60^{\\circ})%%(\\Rightarrow \\widehat{\\mathrm{IBA}}=\\widehat{\\mathrm{FBD}})%.<br>Kết hợp với %(\\mathrm{BA}=\\mathrm{BD})%<br>Suy ra: %(\\Delta \\mathrm{IBA}=\\Delta \\mathrm{FBD})% (c.g.c) %(\\Rightarrow \\widehat{\\mathrm{AIB}}=\\widehat{\\mathrm{DFB}}=120^{\\circ})%<br>Mà %(\\widehat{\\mathrm{BID}}=60^{\\circ})%%(\\Rightarrow \\widehat{\\mathrm{DIA}}=60^{\\circ})%<br>Suy ra IA là tia phân giác của góc DIE",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 10 ",
+        "point": 2.0,
+        "content": "Cho %(\\triangle A B C)% cân tại B , có %(\\widehat{A B C}=80^{\\circ})%. Lấy điểm I nằm trong tam giác sao cho %(\\widehat{\\mathrm{IAC}}=10^{\\circ})% và %(\\widehat{\\mathrm{ICA}}=30^{\\circ})%. Tính số đo %(\\widehat{\\mathrm{AIB}})%.",
+        "question_images": [],
+        "solution": "Do %(\\Delta \\mathrm{ABC})% cân tại %(\\mathrm{B}, \\widehat{\\mathrm{B}}=80^{\\circ})%<br>\\[\\begin{array}{l}\\Rightarrow \\widehat{\\mathrm{BAC}}=\\widehat{\\mathrm{BCA}}=50^{\\circ} \\\\text { Vì } \\widehat{\\mathrm{ICA}}=30^{\\circ} \\Rightarrow \\widehat{\\mathrm{ICB}}=20^{\\circ}\\end{array}\\]<br>Trên cùng một nửa mặt phẳng bờ AC chứa điểm B , vẽ điểm K sao cho %(\\Delta \\mathrm{AKC})% đều<br>Ta có: %(\\widehat{\\mathrm{BAK}}=\\widehat{\\mathrm{BCK}}=10^{\\circ})%<br>Xét %(\\triangle \\mathrm{ABK})% và %(\\Delta \\mathrm{CBK})%<br>Có: %(\\mathrm{AB}=\\mathrm{BC})% (do %(\\Delta \\mathrm{ABC})% cân tại B )<br>\\[\\begin{array}{c}\\widehat{\\mathrm{BAK}}=\\widehat{\\mathrm{BCK}}=10^{\\circ} \\\\mathrm{AK}=\\mathrm{CK}(\\text { do } \\Delta \\mathrm{KAC} \\text { dều ) } \\\\Rightarrow \\Delta \\mathrm{ABK}=\\Delta \\mathrm{CBK} \\text { (c.g.c) }\\end{array}\\]<br>%(\\begin{array}{l}\\Rightarrow \\widehat{\\mathrm{BKA}}=\\widehat{\\mathrm{BKC}}=30^{\\circ} \\\\ \\text { Suy ra } \\triangle \\mathrm{ABK}=\\Delta \\mathrm{AIC} \\text { (g.c.g) } \\\\ \\Rightarrow \\mathrm{AB}=\\mathrm{AI} \\\\ \\Rightarrow \\triangle \\mathrm{ABI} \\text { cân tại } \\mathrm{A} \\\\ \\Rightarrow \\widehat{\\mathrm{ABI}}=70^{\\circ}\\end{array})%<br><img alt=\"Screenshot 2024-07-14 131438.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/77bf4f3fc03f1d8e3d28ea92b56ddca7.png\" srcset=\"https://docdn.giainhanh.io/media/test/09d712f44f74c9fcb6a9a87b3cbf6e94.png 229w, https://docdn.giainhanh.io/media/test/36de45d0ed36245d4bf83b04534108dd.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

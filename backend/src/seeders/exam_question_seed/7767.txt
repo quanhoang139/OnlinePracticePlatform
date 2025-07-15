@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 4.0,
+        "content": "Cho hàm số %(y=\\frac{x^{\\circ}}{3}-x^{2}+x+m)% có đồ thị là %((C))%. Tìm tất cả các giá trị của %(m)% để tiếp tuyến của đồ thị %((C))% tại điểm %(M)% có %(x_{M}=3)% chắn hai trục tọa độ một tam giác có diện tích bằng 2.",
+        "question_images": [],
+        "solution": "Ta có %(y^{\\prime}=x^{2}-2 x+1)%<br>Theo giả thiết ta có %(\\mathrm{M}(3 ; 3+\\mathrm{m}) \\in(\\mathrm{C}))%, phương trình tiếp tuyến của đồ thị %((\\mathrm{C}))% tại %(\\mathrm{M})% là:<br>%(y=y^{\\prime}(3)(x-3)+3+m \\Leftrightarrow y=4(x-3)+3+m \\Leftrightarrow y=4 x-9+m(\\Delta))%<br>Gọi %(\\mathrm{A}=\\Delta \\cap \\mathrm{Ox} \\Rightarrow \\mathrm{A}\\left(\\frac{9-\\mathrm{m}}{4} ; 0\\right) ; B=\\Delta \\cap O y \\Rightarrow B(0 ; m-9))%<br>Diện tích tam giác %(\\mathrm{OAB}: \\mathrm{S}_{\\mathrm{OAB}}=\\frac{1}{2} \\mathrm{OA} \\cdot \\mathrm{OB}=\\frac{1}{2}\\left|\\frac{9-\\mathrm{m}}{4}\\right||\\mathrm{m}-9|=\\frac{(\\mathrm{m}-9)^{2}}{8})%<br>Theo giả thiết: %(\\mathrm{S}_{\\mathrm{OAB}}=2 \\Rightarrow \\frac{(\\mathrm{m}-9)^{2}}{8}=2 \\Leftrightarrow(\\mathrm{m}-9)^{2}=16 \\Leftrightarrow\\left[\\begin{array}{l}\\mathrm{m}=13 \\\\ \\mathrm{~m}=5\\end{array}\\right.)%<br>Vậy %(\\mathrm{m}=5 ; \\mathrm{m}=13)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Giải phương trình %(\\sqrt{2} \\sin \\left(2 x-\\frac{\\pi}{4}\\right)=\\sin x+\\cos x-1)%",
+        "question_images": [],
+        "solution": "%(\\sqrt{2} \\sin \\left(2 x-\\frac{\\pi}{4}\\right)=\\sin x+\\cos x-1~~~(1))%<br>\\[\\begin{array}{l}\\text {(1) } \\sin 2 x-\\cos 2 x=\\sin x+\\cos x-1 \\\\Leftrightarrow \\sin 2 x-\\sin x=\\cos 2 x+\\cos x-1 \\\\Leftrightarrow 2 \\sin x \\cos x-\\sin x=2 \\cos ^{2} x+\\cos x-1 \\\\Leftrightarrow \\sin x(2 \\cos x-1)=(2 \\cos x-1)(\\cos x+1) \\\\Leftrightarrow(2 \\cos x-1)(\\sin x-\\cos x-1)=0 \\Leftrightarrow\\left[\\begin{array}{ll}\\cos x=\\frac{1}{2}~~~~~~~~~~~~(a) \\\\sin x-\\cos x=1~(b)\\end{array}\\right.\\end{array}\\]<br>(a) %(\\Leftrightarrow x= \\pm \\frac{\\pi}{3}+k 2 \\pi)%<br>(b) %(\\Leftrightarrow \\sqrt{2} \\sin \\left(x-\\frac{\\pi}{4}\\right)=1 \\Leftrightarrow\\left[\\begin{array}{l}x-\\frac{\\pi}{4}=\\frac{\\pi}{4}+k 2 \\pi \\\\ x-\\frac{\\pi}{4}=\\frac{3 \\pi}{4}+k 2 \\pi\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{\\pi}{2}+k 2 \\pi \\\\ x=\\pi+k 2 \\pi\\end{array}\\right.\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.0,
+        "content": "Tìm số nguyên dương lẻ %(n)% sao cho<br>\\[C_{n}^{1}-2.2 C_{n}^{2}+3.2^{2} C_{n}^{3}-4.2^{3} C_{n}^{4}+\\ldots+n .2^{n-1} C_{n}^{n}=2019\\]",
+        "question_images": [],
+        "solution": "Ta có %((1+x)^{n}=C_{n}^{0}+C_{n}^{1} x+C_{n}^{2} x^{2}+C_{n}^{3} x^{3}+\\ldots+C_{n}^{n} x^{n})%<br>Lấy đạo hàm 2 vế ta được: %(n(1+x)^{n-1}=C_{n}^{1}+2 C_{n}^{2} x+3 C_{n}^{3} x^{2}+\\ldots+C_{n}^{n} x^{n-1})%<br>Cho %(x=-2 \\Rightarrow n(-1)^{n-1}=C_{n}^{1}-2 C_{n}^{2} 2+3 C_{n}^{3} 2^{2}-\\ldots+n C_{n}^{n}(-2)^{n-1})%<br>Vì %(n)% lẻ nên ta có: %(n=C_{n}^{1}-2 C_{n}^{2} 2+3 C_{n}^{3} 2^{2}-\\ldots+n 2^{n-1} C_{n}^{n}=2019)%<br>Vậy %(n=2019)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 2.0,
+        "content": "Tính giới hạn %(I=\\lim _{x \\rightarrow 1} \\frac{\\sqrt{2017\\left(2018-x^{2}\\right)}-2017}{x-1})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}+I=\\lim _{x \\rightarrow 1} \\frac{\\sqrt{2017}\\left(\\sqrt{2018-x^{2}}-\\sqrt{2017}\\right)}{x-1}=\\lim _{x \\rightarrow 1} \\frac{\\sqrt{2017}\\left(1-x^{2}\\right)}{(x-1)\\left(\\sqrt{2018-x^{2}}+\\sqrt{2017}\\right)} \\\\=\\lim _{x \\rightarrow 1} \\frac{-\\sqrt{2017}(1+x)}{\\sqrt{2018-x^{2}}+\\sqrt{2017}}=\\frac{-2 \\sqrt{2017}}{2 \\sqrt{2017}}=-1\\end{array}\\]<br>Vậy %(I=-1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(\\sqrt{2 x+3}+\\sqrt{x+1}=3 x-16+2 \\sqrt{2 x^{2}+5 x+3})%",
+        "question_images": [],
+        "solution": "ĐКХĐ: %(x \\geq-1)%<br>Đặt %(t=\\sqrt{2 x+3}+\\sqrt{x+1})%, đk: %(t\\gt 0 \\Rightarrow t^{2}=3 x+4+2 \\sqrt{2 x^{2}+5 x+3})%<br>\\[\\Rightarrow 3 x+2 \\sqrt{2 x^{2}+5 x+3}=t^{2}-4\\]<br>PT trở thành: %(t=t^{2}-4-16 \\Leftrightarrow t^{2}-t-20=0 \\Leftrightarrow\\left[\\begin{array}{l}t=-4 \\\\ t=5\\end{array} \\Rightarrow t=5\\right.)%<br>\\[\\begin{array}{l}\\text { Với } t=5 \\Rightarrow \\sqrt{2 x+3}+\\sqrt{x+1}=5 \\Leftrightarrow 3 x+4+2 \\sqrt{2 x^{2}+5 x+3}=25 \\\\Leftrightarrow 2 \\sqrt{2 x^{2}+5 x+3}=21-3 x \\Leftrightarrow\\left\\{\\begin{array}{l}21-3 x \\geq 0 \\\\4\\left(2 x^{2}+5 x+3\\right)=441-126 x+9 x^{2}\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { x \\leq 7 } \\\\{ x ^ { 2 } - 1 4 6 x + 4 2 9 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x \\leq 7 \\x=143 \\vee x=3\\end{array} \\Leftrightarrow x=3\\right.\\right.\\end{array}\\]<br>Vậy phương trình có nghiệm là %(x=3)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x^{3}-y^{3}+3 x^{2}+6 x-3 y+4=0 \\\\ 3 \\sqrt{4 x+1}+2 \\sqrt[3]{2 x+4 y-8}=x+2 y+5\\end{array} \\quad(x, y \\in \\mathbb{R})\\right.)%",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}x^{3}-y^{3}+3 x^{2}+6 x-3 y+4=0 ~~~~~~~~~~~~~~~~~~~(1)\\\\ 3 \\sqrt{4 x+1}+2 \\sqrt[3]{2 x+4 y-8}=x+2 y+5 \\quad(2)\\end{array}~~(x, y \\in \\mathbb{R})\\right.)%<br>Điều kiện %(\\left\\{\\begin{array}{l}x \\geq-1 / 4 \\\\ 2 x+4 y-8 \\geq 0\\end{array}\\right.)%<br>Phương trình (1) tương đương với %((x+1)^{3}+3(x+1)=y^{3}+3 y)%<br>%(\\Leftrightarrow(\\mathrm{x}+1-\\mathrm{y})\\left[(x+1)^{2}+(x+1) \\mathrm{y}+\\mathrm{y}^{2}+3\\right]=0\\left(^{*}\\right))%<br>Vì %((x+1)^{2}+(x+1) y+y^{2}+3\\gt 0, \\forall x, y)% nên %(\\left({ }^{*}\\right) \\Leftrightarrow x+1-y=0 \\Leftrightarrow y=x+1)%<br>Thay vào phương trình (2) của hệ ta được<br>\\[\\begin{array}{l}3 \\sqrt{4 x+1}+2 \\sqrt[3]{6 x-4}=3 x+7 \\\\Leftrightarrow[3 \\sqrt{4 \\mathrm{x}+1}-(2 \\mathrm{x}+5)]+[2 \\sqrt[3]{6 \\mathrm{x}-4}-(\\mathrm{x}+2)]=0 \\\\Leftrightarrow \\frac{-4(x-2)^{2}}{3 \\sqrt{4 x+1}+2 x+5}+\\frac{-(x-2)^{2}(x+10)}{4 \\sqrt[3]{(6 x-4)^{2}}+2(x+2) \\sqrt[3]{6 x-4}+(x+2)^{2}}=0 \\\\Leftrightarrow\\left[\\begin{array}{l}(\\mathrm{x}-2)^{2}=0 \\Leftrightarrow \\mathrm{x}=2(\\mathrm{tm}) \\Rightarrow \\mathrm{y}=3(\\mathrm{tm}) \\\\frac{-4}{3 \\sqrt{2 \\mathrm{x}+8}+\\mathrm{x}+12}+\\frac{-(\\mathrm{x}+10)}{4 \\sqrt[3]{(6 \\mathrm{x}-4)^{2}}+2(\\mathrm{x}+2) \\sqrt[3]{6 \\mathrm{x}-4}+(\\mathrm{x}+2)^{2}}=0~(* *)\\end{array}\\right. \\\\end{array}\\]<br>Nhận xét:<br>Với %(x \\geq-1 / 4)%,vế trái của phương trình %(\\left({ }^{* *}\\right))% luôn âm, nên %(\\left({ }^{* *}\\right))% vô nghiệm<br>Vây hệ phương trình có nghiệm %((2 ; 3))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 2.0,
+        "content": "Trong mặt phẳng tọa độ %(O x y)%, cho hình vuông %(A B C D)% có đỉnh %(C)% thuộc đường thẳng %(d: x+2 y-6=0)%, điểm %(M(1 ; 1))% thuộc cạnh %(B D)% biết rằng chình chiếu vuông góc của điểm %(M)% trên cạnh %(A B, A D)% đều nằm trên đường thẳng %(\\Delta: x+y-1=0)%. Tìm tọa độ đỉnh %(C)%.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{H})% và %(K)% là hình chiếu vuông góc của %(\\mathrm{M})% trên %(\\mathrm{AB})% và %(\\mathrm{AD})%;<br>Gọi %(\\mathrm{N})% là giao điểm của %(\\mathrm{KM})% và %(\\mathrm{BC})%, gọi %(\\mathrm{I})% là giao điểm của %(\\mathrm{CM})% và %(\\mathrm{HK})%.<br>Ta có %(\\triangle D K M)% vuông tại %(\\mathrm{K})% và %(\\widehat{M D K}=45^{\\circ} \\Rightarrow \\mathrm{KM}=\\mathrm{KD}=\\mathrm{NC})%.<br>Lại có %(M H=M N)% (do MHBN là hình vuông) suy ra %(\\triangle K M H=\\triangle C N M \\Rightarrow \\widehat{H K M}=\\widehat{M C N})%.<br>Mà %(\\widehat{N M C}=\\widehat{I M K})% nên %(\\widehat{I M K}+\\widehat{H K M}=\\widehat{N M C}+\\widehat{N C M}=90^{\\circ})%<br>%(\\Rightarrow C I \\perp H K)%.<br>Đường thẳng %(\\mathrm{CI})% qua %(\\mathrm{M}(1 ; 1))% và vuông góc với đường thă̆ng %(\\mathrm{d})% nên có phương trình:<br>%(-(x-1)+(y-1)=0 \\Leftrightarrow x-y=0)%.<br>Do điểm %(\\mathrm{C})% thuộc đường thẳng %(\\mathrm{CI})% và đường thẳng %(\\Delta)% nên tọa độ điểm %(\\mathrm{C})% là nghiệm hệ pt %(\\left\\{\\begin{array}{l}x-y=0 \\\\ x+2 y-6=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=2 \\\\ y=2\\end{array}\\right.\\right.)%<br>Vậy %( C(2;2))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/99c60fb6e3caa0de003f4381f1a80758.png\" srcset=\"https://docdn.giainhanh.io/media/test/155803330ae379341d115396d9ca0b8c.png 166w, https://docdn.giainhanh.io/media/test/d42a40f03c43dc1fb4d33b8f38ee2b2f.png 500w, https://docdn.giainhanh.io/media/test/4040a2f7cfb1e720797de5213c8526b5.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 2.0,
+        "content": "Cho hình vuông %(A B C D)% cạnh %(a)%. Gọi %(O)% là giao điểm của hai đường chéo. Trên nửa đưởng thẳng %(O x)% vuông góc với mặt phẳng chứa hình vuông, ta lấy điểm %(S)% sao cho góc %(\\widehat{S C B}=60^{\\circ})%. Tính khoảng cách giữa hai đường thẳng %(B C)% và %(S D)%.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{I}, \\mathrm{H})% là trung điểm của %(\\mathrm{BC})% và %(\\mathrm{SD})%.<br>Ta có %(\\mathrm{SO})% là trục hình vuông và %(\\widehat{S C B}=60^{\\circ})%<br>%(\\Rightarrow \\mathrm{SA}=\\mathrm{SB}=\\mathrm{SC}=\\mathrm{SD}=\\mathrm{CB}=\\mathrm{a})% và %(\\mathrm{BC} / / \\mathrm{mp}(\\mathrm{SCD}))% nên %(d(B C, S D)=d(I, m p(\\mathrm{SAD})))%<br>Ta lại có %(A D \\perp(S I H) \\Rightarrow(S I H) \\perp(S A D))% theo giao tuyến %(\\mathrm{SH})%.<br>Trong mặt phẳng %((\\mathrm{SIH}))% dựng %(I J \\perp S H \\Rightarrow I J \\perp(S A D) \\Rightarrow d(I,(S A D))=I J)%<br>Tam giác SIH có: %(I J=\\frac{S O \\cdot H I}{S H}=\\frac{a \\cdot \\frac{a \\sqrt{2}}{2}}{\\frac{a \\sqrt{3}}{2}}=\\frac{a \\sqrt{6}}{3})%<br>Vậy %(d(B C, S D)=\\frac{a \\sqrt{6}}{3})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f43a98cc5a0f0a9ce92ed2a91043fce0.png\" srcset=\"https://docdn.giainhanh.io/media/test/26b095b90bfea6e0526d68f034f6e2f3.png 182w, https://docdn.giainhanh.io/media/test/5f526c2cc9a6a37bbb8c88910c44e2b9.png 500w, https://docdn.giainhanh.io/media/test/cdb70c25d23d46b69cb16a24957dac5e.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 9: ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c, d)% là các số thực thoả mãn %(a^{2}+b^{2}=25 ; \\mathrm{c}^{2}+d^{2}=16)% và %(a c+b d \\geq 20)%. Tìm giá trị lớn nhất của biểu thức: %(P=a+d)%.",
+        "question_images": [],
+        "solution": "Từ %(a^{2}+b^{2}=25 ; \\mathrm{c}^{2}+d^{2}=16 \\Rightarrow)% tồn tại hai góc %(\\alpha ; \\beta)% sao cho %(\\left\\{\\begin{array}{l}a=5 \\sin \\alpha ; b=5 \\cos \\alpha \\\\ c=4 \\cos \\beta ; d=4 \\sin \\beta\\end{array}\\right.)%<br>Khi đó biểu thức %(a c+b d \\geq 20)% có dạng %(\\sin \\alpha \\cos \\beta+\\cos \\alpha \\sin \\beta \\geq 1)% hay %(\\sin (\\alpha+\\beta) \\geq 1)%<br>Nên %(\\sin (\\alpha+\\beta)=1)% do đó %(\\beta=\\frac{\\pi}{2}-\\alpha+k 2 \\pi, k \\in \\mathbb{Z})%.<br>Vậy %(\\sin \\beta=\\cos \\alpha)%<br>Ta có %(P=5 \\sin \\alpha+4 \\sin \\beta=5 \\sin \\alpha+4 \\cos \\alpha \\leq \\sqrt{41} \\Rightarrow P_{\\max }=\\sqrt{41})%<br>Vậy giá trị lớn nhất của %(P)% là %(\\sqrt{41})%",
+        "question_type": "essay"
+    }
+]

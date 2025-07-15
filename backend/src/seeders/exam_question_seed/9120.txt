@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1.1",
+        "group_content": "Cho biểu thức: %(P=\\left(\\frac{\\sqrt{x}}{\\sqrt{x}-1}+\\frac{\\sqrt{x}}{x-1}\\right):\\left(\\frac{2}{x}-\\frac{2-x}{x \\sqrt{x}+x}\\right))%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1a ",
+        "point": 1.0,
+        "content": "a) Rút gọn %(P)%.",
+        "question_images": [],
+        "solution": "ĐKXĐ: %(\\left\\{\\begin{array}{l}x\\gt 0 \\\\ x \\neq 1\\end{array}\\right.)%<br>Có: %(P = \\left( \\frac{\\sqrt{x}}{\\sqrt{x} - 1} + \\frac{\\sqrt{x}}{x - 1} \\right ) : \\left( \\frac{2}{x} - \\frac{2 - x}{x \\sqrt{x} + x} \\right ) = \\frac{\\sqrt{x} \\left( \\sqrt{x} + 1 \\right ) + \\sqrt{x}}{\\left( \\sqrt{x} - 1 \\right ) \\left( \\sqrt{x} + 1 \\right )} : \\frac{2 \\left( \\sqrt{x} + 1 \\right ) - 2 + x}{x \\left( \\sqrt{x} + 1 \\right )})%<br>%(=\\frac{x+2 \\sqrt{x}}{(\\sqrt{x}-1)(\\sqrt{x}+1)} \\cdot \\frac{x(\\sqrt{x}+1)}{x+2 \\sqrt{x}}=\\frac{x}{\\sqrt{x}-1})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "1b ",
+        "point": 1.0,
+        "content": "b) Tìm giá trị nhỏ nhất của %(P)%.",
+        "question_images": [],
+        "solution": "Có: %(P=\\frac{x}{\\sqrt{x}-1}=\\frac{x-1+1}{\\sqrt{x}-1}=\\sqrt{x}+1+\\frac{1}{\\sqrt{x}-1}=\\sqrt{x}-1+\\frac{1}{\\sqrt{x}-1}+2 \\stackrel{\\text { Co-Si }}{\\geq} 2 \\sqrt{\\sqrt{x}-1 \\cdot \\frac{1}{\\sqrt{x}-1}}+2=4)%<br>Dấu \" %(=)% \" xảy ra %(\\sqrt{x}-1=\\frac{1}{\\sqrt{x}-1} \\Leftrightarrow(\\sqrt{x}-1)^{2}=1 \\Leftrightarrow\\left[\\begin{array}{l}\\sqrt{x}-1=1 \\\\ \\sqrt{x}-1=-1\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=4\\text{(TM)} \\\\ x=0 \\text{(KTM)}\\end{array}\\right.\\right.)%<br>Vậy %(P_{\\text {Min }}=4 \\Leftrightarrow x=4)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.2 ",
+        "point": 2.0,
+        "content": "Với %(a, b, c)% là 3 số thực đôi một phân biệt. Chứng minh rằng:<br>\\[3+\\frac{(2 a+b)(2 b+c)}{(a-b)(b-c)}+\\frac{(2 b+c)(2 c+a)}{(b-c)(c-a)}+\\frac{(2 c+a)(2 a+b)}{(c-a)(a-b)}=\\frac{2 a+b}{a-b}+\\frac{2 b+c}{b-c}+\\frac{2 c+a}{c-a} \\text {. }\\]",
+        "question_images": [],
+        "solution": "Đặt: %(\\left\\{\\begin{array}{l}\\frac{2 a+b}{a-b}=x \\\\ \\frac{2 b+c}{b-c}=y \\\\ \\frac{2 c+a}{c-a}=z\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}\\frac{3 a}{a-b}=x+1 \\\\ \\frac{3 b}{b-c}=y+1 \\\\ \\frac{3 c}{c-a}=z+1\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}\\frac{3 b}{a-b}=x-2 \\\\ \\frac{3 c}{b-c}=y-2 \\\\ \\frac{3 a}{c-a}=z-2\\end{array}\\right.\\right.\\right.)%<br>%(\\Rightarrow(x+1)(y+1)(z+1)=(x-2)(y-2)(z-2) \\Leftrightarrow 9+3(x y+y z+z x)=3(x+y+z))%%(\\Leftrightarrow 3+x y+y z+z x=x+y+z)% (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "2a ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(\\sqrt{3 x+1}-\\sqrt{6-x}+3 x^{2}-14 x-8=0)%.",
+        "question_images": [],
+        "solution": "ĐK: %(-\\frac{1}{3} \\leq x \\leq 6)%<br>Ta có: %((1) \\Leftrightarrow(\\sqrt{3 x+1}-4)+(1-\\sqrt{6-x})+\\left(3 x^{2}-14 x-9\\right)=0)%<br>%(\\Leftrightarrow \\frac{3 x+1-16}{\\sqrt{3 x+1}+4}+\\frac{1-(6-x)}{1+\\sqrt{6-x}}+(3 x+1)(x-5)=0)%<br>%(\\Leftrightarrow \\frac{3(x-5)}{\\sqrt{3 x+1}+4}+\\frac{x-5}{1+\\sqrt{6-x}}+(3 x+1)(x-5)=0)%<br>%(\\Leftrightarrow(x-5)=0)% Vì: %(\\frac{3}{\\sqrt{3 x+1}+4}+\\frac{1}{1+\\sqrt{6-x}}+3 x+1\\gt 0 ~~\\forall-\\frac{1}{3} \\leq x \\leq 6)%<br>%(\\Leftrightarrow x=5)% (thỏa mãn)<br>Vậy phương trình có nghiệm là: %(x=5)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2b ",
+        "point": 2.0,
+        "content": "Tìm nghiệm nguyên của phương trình: %(x^{4}+2 x^{2}=y^{3})%.",
+        "question_images": [],
+        "solution": "Có: %(x^{4}+2 x^{2}=y^{3})%%((1) \\Leftrightarrow x^{2}\\left(x^{2}+2\\right)=y^{3})%<br>Với %(y=0 \\Rightarrow x=0\\left(\\right.)% Do : %(\\left.x^{2}+2 \\geq 2\\right))%<br>Với %(y \\neq 0 \\Rightarrow(1) \\Leftrightarrow \\frac{x^{4}+2 x^{2}}{y^{3}}=1 \\Leftrightarrow\\left(\\frac{x}{y}\\right)^{2}\\left(\\frac{x^{2}+2}{y}\\right)=1 \\Leftrightarrow\\left(\\frac{x}{y}\\right)^{2}=\\frac{x^{2}+2}{y}=1)% (vô nghiệm)<br>Vậy %((x ; y)=(0 ; 0))% là nghiệm duy nhất của phương trình.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3a ",
+        "point": 2.0,
+        "content": "Chứng minh rằng với mọi số nguyên tố %(p)% thì %(p^{2}+\\frac{p-1}{2})% không là tích của hai số tự nhiên liên tiếp.",
+        "question_images": [],
+        "solution": "Với %(p=2 \\Rightarrow p^{2}+\\frac{p-1}{2}=2^{2}+\\frac{2-1}{2}=\\frac{9}{2})% (không phải tích 2 số tự nhiên liên tiếp)<br>Với %(p=3 \\Rightarrow p^{2}+\\frac{p-1}{2}=3^{2}+\\frac{3-1}{2}=10=2.5)% (không phải tích 2 số tự nhiên liên tiếp)<br>Với %(p\\gt 3 \\Rightarrow\\left[\\begin{array}{l}p=3 k+1 \\\\ p=3 k+2\\end{array}(k \\in \\mathbb{N})\\right.)%<br>- Nếu %(p=3 k+1 \\Rightarrow p^{2}+\\frac{p-1}{2}=(3 k+1)^{2}+\\frac{3 k+1-1}{2}=9 k^{2}+6 k+1+\\frac{3 k}{2}=\\frac{18 k^{2}+12 k+2+3 k}{2})% %(=\\frac{18 k^{2}+15 k+2}{2}=\\frac{(6 k+1)(3 k+2)}{2})% (không phải tích 2 số tự nhiên liên tiếp)<br>- Nếu %(p=3 k+2 \\Rightarrow p^{2}+\\frac{p-1}{2}=(3 k+2)^{2}+\\frac{3 k+2-1}{2}=9 k^{2}+12 k+4+\\frac{3 k+1}{2})%%(=\\frac{18 k^{2}+24 k+8+3 k+1}{2}=\\frac{18 k^{2}+27 k+9}{2}=\\frac{9}{2} \\cdot\\left(2 k^{2}+3 k+1\\right)=\\frac{9}{2} \\cdot(2 k+1)(k+1))% (không phải tích 2 số tự nhiên liên tiếp)<br>Vậy với mọi số nguyên tố %(p \\Rightarrow p^{2}+\\frac{p-1}{2})% không phải là tích của 2 số tự nhiên liên tiếp.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3b ",
+        "point": 2.0,
+        "content": "Cho hàm số bậc nhất %(y=a x+b)% có đồ thị là đường thẳng đi qua %(M(1 ; 4))%. Biết đồ thị của hàm số đã cho cắt trục hoành tại điểm %(A)% có hoành độ dương, cắt trục tung tại điểm %(B)% có tung độ dương. Tìm %(a, b)% sao cho %(O A+O B)% nhỏ nhất. (Với %(O)% là gốc tọa độ)",
+        "question_images": [],
+        "solution": "Vì đồ thị của hàm số đã cho cắt trục hoành tại điểm %(A)% có hoành độ dương, cắt trục tung tại điểm %(B)% có tung độ dương %(\\Rightarrow a\\lt 0)% (1)<br>Do đồ thị là đường thẳng đi qua %(M(1 ; 4) \\Rightarrow a+b=4 \\Rightarrow b\\gt 0)% (2) (Do: a < 0)<br>Có: %(O A+O B \\stackrel{\\text { co-si }}{\\geq} 2 \\sqrt{O A . O B})%. Dấu \" %(=)% \" xảy ra %(\\Leftrightarrow O A=O B)% hay %(\\triangle O A B)% cân tại %(O)%<br>Vì: %(O A=O B \\Leftrightarrow b=\\frac{-b}{a} \\Leftrightarrow b(a+1)=0 \\Leftrightarrow a=-1)% (Do: b > 0)<br>Với %(a=-1 \\Rightarrow b=5 \\Rightarrow y=-x+5)%<br>Vậy %(a=-1 \\Rightarrow b=5)% thì %(O A+O B)% đạt giá trị nhỏ nhất là: %(5+5=10)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho đường tròn %((O, r))% nội tiếp tam giác %(A B C)%, tiếp xúc với cạnh %(B C)% tại %(D)%. Vẽ đường kính %(D N)% của %((O, r))%. Tiếp tuyến của %((O))% tại %(N)% cắt %(A B, A C)% theo thứ tự tại %(P)% và %(K)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "4a ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng %(N K \\cdot C D=r^{2})%.",
+        "question_images": [],
+        "solution": "Có: %(P K / / B C)% (cùng %(\\perp D N)% ) %(\\Rightarrow A K N=A C B)% (đồng vị)<br>Gọi %(K x)% là tia phân giác của %(A K N \\Rightarrow K x / / C O)% (Vì CO là tia phân giác của %(A C B)% )<br>Mà: %(K x \\perp K O)% (tia phân giác trong và phân giác ngoài)%(\\Rightarrow C O \\perp K O \\Rightarrow C_{1}=C_{2}=O_{1})% (cùng phụ với %(K_{1})%)<br>%(\\Rightarrow \\triangle N K O \\sim \\triangle D O C(g . g) \\Rightarrow \\frac{N K}{D O}=\\frac{N O}{D C} \\Rightarrow N K \\cdot D C=N O \\cdot D O \\Rightarrow N K \\cdot C D=r^{2})% (đpcm)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/8f4e9026df312cc065dff1511714649c.png\" srcset=\"https://docdn.giainhanh.io/media/test/8f4e9026df312cc065dff1511714649c.png 218w, https://docdn.giainhanh.io/media/test/8f4e9026df312cc065dff1511714649c.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "4b ",
+        "point": 2.0,
+        "content": "b) Gọi %(E)% là giao điểm của %(A N)% và %(B C)%. Chứng minh rằng %(B D=C E)%.",
+        "question_images": [],
+        "solution": "Cách 1:<br>Ta có: %(B D=\\frac{r}{\\tan \\frac{B}{2}} ; C D=\\frac{r}{\\tan \\frac{C}{2}} \\Rightarrow \\frac{B D}{C D}=\\frac{\\tan \\frac{B}{2}}{\\tan \\frac{C}{2}})% (1)<br>Mà: %(C_{1}=C_{2}=O_{1}(c m t) \\Rightarrow N K=r \\cdot \\tan \\frac{C}{2})%<br>Tương tự: %({B_{1}=B_{2}=O_{2} \\Rightarrow N P}=r \\cdot \\tan \\frac{B}{2} \\Rightarrow \\frac{N P}{N K}=\\frac{\\tan \\frac{B}{2}}{\\tan \\frac{C}{2}})% (2)<br>Từ (1) và (2) %(\\Rightarrow \\frac{N K}{N P}=\\frac{B D}{C D} \\Rightarrow \\frac{N K}{B D}=\\frac{N P}{C D}=\\frac{N K+N P}{B D+C D}=\\frac{K P}{B C})% (3)<br>Mặt khác: %(K P / / B C \\Rightarrow \\frac{N K}{E C}=\\frac{K P}{B C})% (4)<br>Từ (3) và (4) %(\\Rightarrow \\frac{N K}{E C}=\\frac{N K}{B D} \\Rightarrow E C=B D)% (đpcm)<br>Cách 2:<br>Ta có: %(N K \\cdot C D=N P \\cdot B D=r^{2})% (cmt)<br>Mà: %(\\Rightarrow \\frac{N K}{E C}=\\frac{N P}{B E}()%Vì: %(K P / / B C)%)<br>%(\\Rightarrow E C \\cdot C D=B E \\cdot B D \\Rightarrow E C \\cdot(E C+E D)=(B D+E D) \\cdot B D \\Rightarrow E C^{2}+E C \\cdot E D=B D^{2}+E D \\cdot B D)%<br>%(\\Rightarrow E C^{2}-B D^{2}+E C \\cdot E D-E D \\cdot B D=0 \\Rightarrow(E C-B D) \\cdot(E C+B D+E D)=0)%<br>%(\\Rightarrow E C-B D=0 \\Rightarrow E C=B D)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4c ",
+        "point": 2.0,
+        "content": "c) Tìm giá trị nhỏ nhất của biểu thức: %(\\frac{O A+O B+O C}{r})%.",
+        "question_images": [],
+        "solution": "Gọi %(S_{O A C}=S_{1} ; S_{O B C}=S_{2} ; S_{O A B}=S_{3})%<br>Ta có: %(\\frac{O A}{r}+\\frac{O B}{r}+\\frac{O C}{r} \\geq \\frac{O A}{O A^{\\prime}}+\\frac{O B}{O B^{\\prime}}+\\frac{O C}{O C})%<br>Mà: %(\\frac{O A}{O A^{\\prime}}=\\frac{S_{1}}{S_{O A^{\\prime} C}}=\\frac{S_{3}}{S_{O A^{\\prime} B}}=\\frac{S_{1}+S_{3}}{S_{2}})%<br>Tương tự: %(\\frac{O B}{O B^{\\prime}}=\\frac{S_{2}+S_{3}}{S_{1}} ; \\frac{O C}{O C^{\\prime}}=\\frac{S_{1}+S_{2}}{S_{3}})%.<br>%(\\Rightarrow \\frac{O A}{O A^{\\prime}}+\\frac{O B}{O B^{\\prime}}+\\frac{O C}{O C^{\\prime}}=\\frac{S_{1}+S_{3}}{S_{2}}+\\frac{S_{2}+S_{3}}{S_{1}}+\\frac{S_{1}+S_{2}}{S_{3}}=\\left(\\frac{S_{1}}{S_{2}}+\\frac{S_{2}}{S_{1}}\\right)+\\left(\\frac{S_{2}}{S_{3}}+\\frac{S_{3}}{S_{2}}\\right)+\\left(\\frac{S_{3}}{S_{1}}+\\frac{S_{1}}{S_{3}}\\right) \\geq 6)%<br>Dấu \" %(=)% \" xảy ra %(\\Leftrightarrow S_{1}=S_{2}=S_{3})% hay %(\\triangle A B C)% đều.<br>Vậy %(\\frac{O A}{r}+\\frac{O B}{r}+\\frac{O C}{r} \\geq 6 \\Leftrightarrow \\triangle A B C)% đều.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/240451fb200bac1a9366ad88888a8075.png\" srcset=\"https://docdn.giainhanh.io/media/test/240451fb200bac1a9366ad88888a8075.png 243w, https://docdn.giainhanh.io/media/test/240451fb200bac1a9366ad88888a8075.png 500w, https://docdn.giainhanh.io/media/test/240451fb200bac1a9366ad88888a8075.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho %(\\left\\{\\begin{array}{l}a, b, c\\gt 0 \\\\ a b c=1\\end{array}\\right.)%. Chứng minh rằng: %(S=\\frac{a^{4} b}{a^{2}+1}+\\frac{b^{4} c}{b^{2}+1}+\\frac{c^{4} a}{c^{2}+1} \\geq \\frac{3}{2})%.",
+        "question_images": [],
+        "solution": "Ta có: %(S=\\frac{a^{4} b}{a^{2}+1}+\\frac{b^{4} c}{b^{2}+1}+\\frac{c^{4} a}{c^{2}+1}=a^{2} b-\\frac{1}{a^{2}+1}+b^{2} c-\\frac{1}{b^{2}+1}+c^{2} a-\\frac{1}{c^{2}+1})%<br>%(=\\left(a^{2} b+b^{2} c+c^{2} a\\right)-\\left(\\frac{1}{a^{2}+1}+\\frac{1}{b^{2}+1}+\\frac{1}{c^{2}+1}\\right))%%(\\stackrel{\\text { Co-si }}{\\geq} 3 \\sqrt[3]{a^{2} b \\cdot b^{2} c \\cdot c^{2} a}-\\left(\\frac{1}{2 a}+\\frac{1}{2 b}+\\frac{1}{2 c}\\right))%%(\\stackrel{\\text { co-si }}{\\geq} 3 a b c-\\left(3 \\sqrt[3]{\\frac{1}{2 a} \\cdot \\frac{1}{2 b} \\cdot \\frac{1}{2 c}}\\right)=3-\\frac{3}{2}=\\frac{3}{2})% (đpcm)<br>Dấu \"=\" xảy ra %(\\Leftrightarrow a=b=c=1)%.",
+        "question_type": "essay"
+    }
+]

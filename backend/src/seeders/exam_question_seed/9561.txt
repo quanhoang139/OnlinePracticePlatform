@@ -1,0 +1,120 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức : %(P=\\frac{2 x^{5}-x^{4}-2 x+1}{4 x^{2}-1}+\\frac{8 x^{2}-4 x+2}{8 x^{3}+1})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Rút gọn %(P)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l} P=\\frac{2 x^{5}-x^{4}-2 x+1}{4 x^{2}-1}+\\frac{8 x^{2}-4 x+2}{8 x^{3}+1} \\\\=\\frac{x^{4} \\cdot(2 x-1)-(2 x-1)}{(2 x-1)(2 x+1)}+\\frac{2\\left(4 x^{2}-2 x+1\\right)}{(2 x+1)\\left(4 x^{2}-2 x+1\\right)} \\\\=\\frac{\\left(x^{4}-1\\right)(2 x-1)}{(2 x-1)(2 x+1)}+\\frac{2}{2 x-1}=\\frac{x^{4}-1}{2 x+1}+\\frac{2}{2 x+1}=\\frac{x^{4}+1}{2 x+1}\\end{array})%<br>Vậy %(P=\\frac{x^{4}+1}{2 x+1})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Tìm các giá trị của %(x)% để %(P=6)%",
+        "question_images": [],
+        "solution": "ĐK: %(x \\neq \\pm \\frac{1}{2})%<br>\\[\\begin{array}{l}P=6 \\Leftrightarrow \\frac{x^{4}+1}{2 x+1}=6 \\Leftrightarrow x^{4}+1=12 x+6 \\\\Leftrightarrow x^{4}+4 x^{2}+4=4 x^{2}+12 x+9 \\\\Leftrightarrow\\left(x^{2}+2\\right)^{2}=(2 x+3)^{2}\\end{array}\\]<br>%(\\Leftrightarrow x^{2}+2=2 x+3)% (1) hoặc %(x^{2}+2=-2 x-3)% (2)<br>Ta có %((1) \\Leftrightarrow x^{2}-2 x+1=2 \\Rightarrow(x-1)^{2}=2)%<br>\\[\\Leftrightarrow\\left[\\begin{array} { l } { x - 1 = \\sqrt { 2 } } \\\\{ x - 1 = - \\sqrt { 2 } }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=1+\\sqrt{2} \\x=1-\\sqrt{2}\\end{array}(\\text { tmđk })\\right.\\right.\\]<br>(2) %(\\Leftrightarrow x^{2}+2 x+1=-4 \\Leftrightarrow(x+1)^{2}=-4(V N))%<br>Vậy %(S=\\{1 \\pm \\sqrt{2}\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2a ",
+        "point": 2.0,
+        "content": "Cho các số %(a, b, c, d)% nguyên dương đôi một khác nhau và thỏa mãn: %(\\frac{2 a+b}{a+b}+\\frac{2 b+c}{b+c}+\\frac{2 c+d}{c+d}+\\frac{2 d+a}{d+a}=6)%. Chứng minh %(A=a b c d)% là số chính phương.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\frac{2 a+b}{a+b}+\\frac{2 b+c}{b+c}+\\frac{2 c+d}{c+d}+\\frac{2 d+a}{d+a}=6 \\\\Leftrightarrow 1+\\frac{a}{a+b}+1+\\frac{b}{b+c}+1+\\frac{c}{c+d}+1+\\frac{d}{d+a}=6 \\\\Leftrightarrow \\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+d}+\\frac{d}{d+a}=2 \\\\Leftrightarrow 1-\\frac{a}{a+b}-\\frac{b}{b+c}+1-\\frac{c}{c+d}-\\frac{d}{d+a}=0 \\\\Leftrightarrow \\frac{b}{a+b}-\\frac{b}{b+c}+\\frac{d}{c+d}-\\frac{d}{d+a}=0 \\\\Leftrightarrow \\frac{b(c-a)}{(a+b)(b+c)}+\\frac{d(a-c)}{(c+d)(d+a)}=0 \\\\Leftrightarrow b(c+d)(d+a)-d(a+b)(b+c)=0 \\\\Leftrightarrow a b c-a c d+b d^{2}-b^{2} d=0 \\\\Leftrightarrow(b-d)(a c-b d)=0 \\\\Leftrightarrow(b-d)(a c-b d)=0 \\\\Leftrightarrow a c-b d=0 \\Leftrightarrow a c=b d\\end{array}\\]<br>Vậy %(A=a b c d=(a c)^{2})% là số chính phương",
+        "question_type": "essay"
+    },
+    {
+        "title": "2b ",
+        "point": 2.0,
+        "content": "b) Tìm %(a)% nguyên để %(a^{3}-2 a^{2}+7 a-7)% chia hết cho %(a^{2}+3)%",
+        "question_images": [],
+        "solution": "Thực hiện phép chia %(a^{3}-2 a^{2}+7 a-7)% cho %(a^{2}+3)% được kết quả:<br>\\[a^{3}-2 a^{2}+7 a-7=\\left(a^{2}+3\\right)(a-2)+(4 a-1)\\]<br>Để phép chia hết thì %(4 a-1)% phải chia hết cho %(a^{2}+3)%<br>\\[\\begin{array}{l}(4 a-1)\\vdots\\left(a^{2}+3\\right) \\\\Rightarrow(4 a-1)(4 a+1)\\vdots\\left(a^{2}+3\\right)(a \\in \\mathbb{Z} \\Rightarrow 4 a+1 \\in \\mathbb{Z}) \\\\Rightarrow\\left(16 a^{2}-1\\right)\\vdots\\left(a^{2}+3\\right) \\\\Rightarrow 49\\vdots\\left(a^{2}+3\\right)\\end{array}\\]<br>Tìm %(a)%, thử lại và kết luận %(a \\in\\{-2 ; 2\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3a ",
+        "point": 1.5,
+        "content": "Tìm giá trị nhỏ nhất của biểu thức: %(A=(x-1)(2 x-1)\\left(2 x^{2}-3 x-1\\right)+2017)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=(x-1)(2 x-1)\\left(2 x^{2}-3 x-1\\right)+2017 \\\\ =\\left(2 x^{2}-3 x+1\\right)\\left(2 x^{2}-3 x-1\\right)+2017 \\\\ =\\left(2 x^{2}-3 x\\right)^{2}-1+2017=\\left(2 x^{2}-3 x\\right)^{2}+2016 \\geq 2016\\end{array})%<br>Dấu \"= \"xảy ra %(\\Leftrightarrow 2 x^{2}-3 x=0 \\Leftrightarrow x(2 x-3)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\\\ x=\\frac{3}{2}\\end{array}\\right.)%<br>Vậy %(A_{\\min }=2016 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\\\ x=\\frac{3}{2}\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3b ",
+        "point": 1.5,
+        "content": "b) Tìm %(a)% nguyên để %(a^{3}-2 a^{2}+7 a-7)% chia hết cho %(a^{2}+3)%",
+        "question_images": [],
+        "solution": "%(\\left(\\frac{x+1}{x-2}\\right)^{2}+\\frac{x+1}{x-4}-12\\left(\\frac{x-2}{x-4}\\right)^{2}=0 \\quad(*))%<br>Đặt %(\\frac{x+1}{x-2}=a)% và %(\\frac{x-2}{x-4}=b \\Rightarrow a b=\\frac{x-1}{x-4})%<br>Phương trình %((*))% trở thành:<br>\\[\\begin{array}{l}a^{2}+a b-12 b^{2}=0 \\\\Leftrightarrow(a-3 b)(a+4 b)=0 \\Leftrightarrow\\left[\\begin{array}{l}a=3 b \\a=-4 b\\end{array}\\right.\\end{array}\\]<br>+Nếu %(a=3 b)% thì %(\\frac{x+1}{x-2}=3 \\cdot \\frac{x-2}{x-4} \\Rightarrow(x+1)(x-4)=3(x-2)^{2}(V N))%<br>+Nếu %(a=-4 b)% thì %(\\frac{x+1}{x-2}=-4 \\cdot \\frac{x-2}{x-4} \\Rightarrow(x+1)(x-4)=-4(x-2)^{2} \\Leftrightarrow\\left[\\begin{array}{l}x=3(\\mathrm{tm}) \\\\ x=\\frac{4}{5}(\\mathrm{tm})\\end{array}\\right.)%<br>Vậy %(S=\\left\\{3 ; \\frac{4}{5}\\right\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4a ",
+        "point": 1.5,
+        "content": "Gọi %(a, b, c)% là độ dài ba cạnh của tam giác thỏa mãn %(a^{3}+b^{3}+c^{3}=3 a b c)%. Chứng minh tam giác đều",
+        "question_images": [],
+        "solution": "C/m: %(a^{3}+b^{3}+c^{3}-3 a b c=(a+b+c)\\left(a^{2}+b^{2}+c^{2}-a b-b c-c a\\right))%<br>%(+))% Từ giả thiết suy ra : %((a+b+c)\\left(a^{2}+b^{2}+c^{2}-a b-b c-c a\\right)=0)%<br>\\[\\Rightarrow a^{2}+b^{2}+c^{2}-a b-a c-b c=0 \\quad(a+b+c\\gt 0)\\]<br>Biến đổi được kết quà: %((a-b)^{2}+(b-c)^{2}+(c-a)^{2}=0)%<br>\\[\\Rightarrow\\left[\\begin{array}{l}a-b=0 \\b-c=0 \\c-a=0\\end{array} \\Rightarrow a=b=c \\Rightarrow\\right. \\text { Tam giác đó là đều (đpcm) }\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4b ",
+        "point": 1.5,
+        "content": "Cho %(x, y, z)% dương và %(x+y+z=1)%. Chứng minh rằng :<br>\\[\\frac{1}{x^{2}+2 y z}+\\frac{1}{y^{2}+2 x z}+\\frac{1}{z^{2}+2 x y} \\geq 9\\]",
+        "question_images": [],
+        "solution": "Đặt %(a=x^{2}+2 y z ; b=y^{2}+2 x z ; c=z^{2}+2 x y)% %(\\Rightarrow a, b, c\\gt 0)% và %(a+b+c=(x+y+z)^{2}=1)%<br>Chứng minh: %((a+b+c)\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right) \\geq 9)%<br>%(\\Rightarrow \\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c} \\geq \\frac{9}{a+b+c}=9 \\text { hay } \\frac{1}{x^{2}+2 y z}+\\frac{1}{y^{2}+2 z x}+\\frac{1}{z^{2}+2 x y} \\geq 9 )% (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho O là trung điểm của đoạn %(A B)%. Trên cùng một nửa mặt phẳng có bờ là cạnh AB vẽ tia %(A x, B y)% cùng vuông góc với %(A B)%. Trên tia %(A x)% lấy điểm C (khác A ), qua O kẻ đường thẳng vuông góc với %(O C)% cắt tia By tại D",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.75,
+        "content": "a) Chứng minh %(A B^{2}=4 A C \\cdot B D)%",
+        "question_images": [],
+        "solution": "Chứng minh %(\\triangle O A C \\sim \\triangle D B O(\\mathrm{~g} \\cdot \\mathrm{g}) \\Rightarrow \\frac{O A}{D B}=\\frac{A C}{O B} \\Rightarrow O A \\cdot O B=A C \\cdot B D)%<br>%(\\Rightarrow \\frac{A B}{2} \\cdot \\frac{A B}{2}=A C \\cdot B D \\Rightarrow A B^{2}=4 A C \\cdot B D)% (đpcm)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/145721c7d1f3779ec455b1b028ad2df9.png\" srcset=\"https://docdn.giainhanh.io/media/test/e4a1912aed4eb4fa65a103d8406d2e63.png 173w, https://docdn.giainhanh.io/media/test/7e887fe0d941ce34a4bc6e4d5f1bc813.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Kẻ %(O M \\perp C D)% tại M . Chứng minh %(A C=C M)%.",
+        "question_images": [],
+        "solution": "Theo câu a ta có: %(\\triangle O A C \\sim \\triangle D B O(g-g) \\Rightarrow \\frac{O C}{O D}=\\frac{A C}{O B})%<br>Mà %(O A=O B \\Rightarrow \\frac{O C}{O D}=\\frac{A C}{O A} \\Rightarrow \\frac{O C}{A C}=\\frac{O D}{O A})%<br>+ Chứng minh : %(\\triangle O A C \\sim \\triangle D O C()% c.g.c %() \\Rightarrow \\widehat{A C O}=\\widehat{O C M})%<br>+ Chứng minh : %(\\triangle O A C=\\triangle O M C(c h-g n) \\Rightarrow A C=M C)% (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) Từ %(M)% kẻ MH vuông góc với AB tại H . Chứng minh %(B C)% đi qua trung điểm MH",
+        "question_images": [],
+        "solution": "Ta có %(\\triangle O A C=\\triangle O M C \\Rightarrow O A=O M ; C A=C M \\Rightarrow O C)% là trung trực AM<br>%(\\Rightarrow O C \\perp A M)%,Mặt khác %(O A=O M=O B \\Rightarrow \\triangle A M B)% vuông tại M<br>%(\\Rightarrow O C / / B M)% (vì cùng vuông góc với AM ) hay %(O C / / B I)%<br>+) Xét %(\\triangle A B I)% có OM đi qua trung điểm AB , song song BI suy ra %(O M)% đi qua trung điểm %(A I \\Rightarrow I C=A C)%<br>+) %(M H)% / / AI theo hệ quả định lý Ta - Let ta có: %(\\frac{M K}{I C}=\\frac{B K}{B C}=\\frac{K H}{A C})%<br>Mà %(I C=A C \\Rightarrow M K=H K \\Rightarrow B C)% đi qua trung điềm %(M H)% (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 1.75,
+        "content": "d) Tìm vị trí của C trên tia Ax để diện tích tứ giác %(A B D C)% nhỏ nhất",
+        "question_images": [],
+        "solution": "Tứ giác %(A B C D)% là hình thang vuông<br>\\[\\Rightarrow S_{A B D C}=\\frac{1}{2}(A C+B D) \\cdot A B\\]<br>Ta thấy %(A C, B D\\gt 0)%, nên theo %(\\text{BĐT})% Cô si ta có:<br>%(A C+B D \\geq 2 \\sqrt{A C \\cdot B D}=2 \\sqrt{\\frac{A B^{2}}{4}}=A B \\Rightarrow S_{A B D C} \\geq \\frac{1}{2} A B^{2})%<br>Dấu \"%(=)%\" xảy ra %(\\Leftrightarrow A C=B D=\\frac{A B}{2}=O A)%<br>Vậy C thuộc tia Ax và cách điểm A một đoạn bằng OA .",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Tìm nghiệm nguyên dương của phương trình %(\\frac{2016}{x+y}+\\frac{x}{y+2015}+\\frac{y}{4031}+\\frac{2015}{x+2016}=2)%",
+        "question_images": [],
+        "solution": "+ ) Với %(a, b, c, d)% dương, ta có:<br>%(F=\\frac{a}{b+c}+\\frac{b}{c+d}+\\frac{c}{d+a}+\\frac{d}{a+b})%<br>%(=\\left(\\frac{a}{b+c}+\\frac{c}{d+a}\\right)+\\left(\\frac{b}{c+d}+\\frac{d}{a+b}\\right)=\\frac{a(d+a)+c(b+c)}{(b+c)(d+a)}+\\frac{b(a+b)+d(c+d)}{(c+d)(a+b)}\\geq \\frac{a^{2}+c^{2}+a d+b c}{\\frac{1}{4} \\cdot(b+c+d+a)^{2}}+\\frac{b^{2}+d^{2}+a b+c d}{\\frac{1}{4}(c+d+a+b)^{2}}=\\frac{4\\left(a^{2}+b^{2}+c^{2}+d^{2}+a b+a d+b c+c d\\right)}{(a+b+c+d)^{2}})%(theo bất đẳng thức %(x y \\leq \\frac{1}{4}(x+y)^{2})% )<br>Mặt khác:<br>\\[\\begin{array}{l}2\\left(a^{2}+b^{2}+c^{2}+d^{2}+a b+a d+b c+c d\\right)-(a+b+c+d)^{2} \\\\=a^{2}+b^{2}+c^{2}+d^{2}-2 a c-2 b d=(a-c)^{2}+(b-d)^{2} \\geq 0\\end{array}\\]<br>Suy ra %(F \\geq 2)% và đẳng thức xày %(\\mathrm{ra} \\Leftrightarrow a=c ; b=d)%<br>+ Áp dụng %(F \\geq 2)% với %(a=2016, b=x, c=y, d=2015)% ta có:<br>\\[\\frac{2016}{x+y}+\\frac{x}{y+2015}+\\frac{y}{4031}+\\frac{2015}{x+2016} \\geq 2\\]<br>Đẳng thức xảy %(\\mathrm{ra} \\Leftrightarrow y=2016, x=2015)%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "title": "1",
+        "group_content": "Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) %(8^{5}+2^{11})% chia hết cho 17",
+        "question_images": [],
+        "solution": "Ta có: %(8^{5}+2^{11}=\\left(2^{3}\\right)^{5}+2^{11}=2^{15}+2^{11}=2^{11} \\cdot\\left(2^{4}+1\\right)=2^{11} \\cdot 17)%<br>Rõ ràng kết quả trên chia hết cho 17",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) %(19^{19}+69^{19})% chia hết cho 44",
+        "question_images": [],
+        "solution": "Áp dụng hằng đẳng thức<br>%(a^{n}+b^{n}=(a+b)\\left(a^{n-1}-a^{n-2} b+a^{n-3} b^{2}-\\ldots . .-a b^{n-2}+b^{n-1}\\right))% với mọi n lẻ<br>Ta có: %(19^{19}+69^{19}=(19+69)\\left(19^{18}-19^{17} .69+\\ldots . .+69^{18}\\right))%<br>%(=88 .\\left(19^{18}-19^{17} .69+\\ldots . .+69^{18}\\right))% chia hết cho 44",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Rút gọn biểu thức : %(\\frac{x^{2}+x-6}{x^{3}-4 x^{2}-18 x+9})%",
+        "question_images": [],
+        "solution": "Ta có:<br>%(x^{2}+x-6=x^{2}+3 x-2 x-6=x(x+3)-2(x+3)=(x-2)(x+3))%<br>%(x^{3}-4 x^{2}-18 x+9=x^{3}+3 x^{2}-7 x^{2}-21 x+3 x+9)%<br>%(\\begin{array}{l}=x^{2}(x+3)-7 x(x+3)+3(x+3) \\\\ =(x+3)\\left(x^{2}-7 x+3\\right)\\end{array})%<br>%(\\Rightarrow \\frac{x^{2}+x-6}{x^{3}-4 x^{2}-18 x+9}=\\frac{(x+3)(x-2)}{(x+3)\\left(x^{2}-7 x+3\\right)}=\\frac{x-2}{x^{2}-7 x+3}\\left(x \\neq-1 ; x^{2}-7 x+3 \\neq 0\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Cho %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=0(x, y, z \\neq 0))%. Tính %(\\frac{y z}{x^{2}}+\\frac{x z}{y^{2}}+\\frac{x y}{z^{2}})%",
+        "question_images": [],
+        "solution": "%(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=0 \\Rightarrow \\frac{1}{z}=-\\left(\\frac{1}{x}+\\frac{1}{y}\\right))%<br>Vì %(\\Rightarrow \\frac{1}{z^{3}}=-\\left(\\frac{1}{x}+\\frac{1}{y}\\right)^{3} \\Rightarrow \\frac{1}{z^{3}}=-\\left(\\frac{1}{x^{3}}+3 \\cdot \\frac{1}{x^{2}} \\cdot \\frac{1}{y}+3 \\cdot \\frac{1}{x} \\cdot \\frac{1}{y^{2}}+\\frac{1}{y^{3}}\\right))%<br>%(\\Rightarrow \\frac{1}{x^{3}}+\\frac{1}{y^{3}}+\\frac{1}{z^{3}}=-3 \\cdot \\frac{1}{x} \\cdot \\frac{1}{y} \\cdot\\left(\\frac{1}{x}+\\frac{1}{y}\\right) \\Rightarrow \\frac{1}{x^{3}}+\\frac{1}{y^{3}}+\\frac{1}{z^{3}}=3 \\cdot \\frac{1}{x y z})%<br>Do đó: %(x y z\\left(\\frac{1}{x^{3}}+\\frac{1}{y^{3}}+\\frac{1}{z^{3}}\\right)=3 \\Leftrightarrow \\frac{x y z}{x^{3}}+\\frac{x y z}{y^{3}}+\\frac{x y z}{z^{3}}=3 \\Leftrightarrow \\frac{y z}{x^{2}}+\\frac{z x}{y^{2}}+\\frac{x y}{z^{2}}=3)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 3.0,
+        "content": "Cho tam giác %(A B C)%. Lấy các điểm %(\\mathrm{D}, \\mathrm{E})% theo thứ tự thuộc tia đối của các tia %(B A, C A)% sao cho %(B D=C E=B C)%. Gọi O là giao điểm của %(B E)% và CD . Qua O vẽ đường thẳng song song với tia phân giác của góc A, đường thẳng này cắt AC ở K. Chứng minh rằng %(A B=C K)%",
+        "question_images": [],
+        "solution": "Vẽ hình bình hành %(A B M C)% ta có: %(A B=C M)%<br>Để chứng minh %(A B=K C)% ta cần chứng minh %(K C=C M)%<br>Thật vậy, xét tam giác %(B C E)% có %(B C=C E(g t) \\Rightarrow \\triangle C B E)% cân tại %(\\mathrm{C} \\Rightarrow \\widehat{B_{1}}=\\widehat{E})%<br>Vì góc %(C_{1})% là góc ngoài của tam giác %(B C E)%<br>%(\\Rightarrow \\widehat{C}_{1}=\\widehat{B}_{1}+\\widehat{E} \\Rightarrow \\widehat{B}_{1}=\\frac{1}{2} \\widehat{C}_{1})% mà %(A C / / B M)% (ta vẽ)<br>%(\\Rightarrow \\widehat{C}_{1}=\\widehat{C B M} \\Rightarrow \\widehat{B}_{1}=\\frac{1}{2} \\widehat{C B M})% nên BO là tia phân giác của %(\\widehat{C B M})%<br>Hoàn toàn tương tự ta có %(C D)% là tia phân giác của %(\\widehat{B C M})%<br>Trong tam giác %(\\mathrm{BCM}, \\mathrm{OB}, \\mathrm{CO}, \\mathrm{MO})% đồng quy tại O%(\\Rightarrow M O)% là tia phân giác của %(\\widehat{C M B})%<br>Mà %(\\widehat{B A C}, \\widehat{B M C})% là hai góc đối của hình bình hành %(\\mathrm{BMCA} \\Rightarrow M O / /)% với tia phân giác của góc A theo giả thiết tia phân giác của góc A còn song song với OK<br>%(\\Rightarrow K, O, M)% thẳng hàng<br>Ta lại có: %(\\widehat{M}_{1}=\\frac{1}{2} \\widehat{B M C}(\\mathrm{cmt}) ; \\hat{A}=\\widehat{M} \\Rightarrow \\widehat{M_{1}}=\\widehat{A}_{2})% mà %(\\widehat{A_{2}}=\\widehat{K}_{1})% (2 góc đồng vị)<br>%(\\Rightarrow \\widehat{K}_{1}=\\widehat{M}_{1} \\Rightarrow \\Delta C K M)% cân tại %(\\mathrm{C} \\Rightarrow C K=C M)%<br>Kết hợp %(A B=C M \\Rightarrow A B=C K \\quad(\\mathrm{dfcm}))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4cc0af5964cdb407f19e26cb9d591868.png\" srcset=\"https://docdn.giainhanh.io/media/test/876c5586707328edfbd976bb0db5ca5a.png 216w, https://docdn.giainhanh.io/media/test/0df9c3ea553e12c80a1e61209f4b32ff.png 500w, https://docdn.giainhanh.io/media/test/ab5e645524ed609bbd4d9960f93a49b2.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Tìm giá trị lớn nhất hoặc nhỏ nhất của biểu thức sau (nếu có):<br>\\[M=4 x^{2}+4 x+5\\]",
+        "question_images": [],
+        "solution": "Ta có %(M=4 x^{2}+4 x+5=\\left(4 x^{2}+4 x+1\\right)+4=(2 x+1)^{2}+4)%<br>Vì %((2 x+1)^{2} \\geq 0 \\Rightarrow(2 x+1)^{2}+4 \\geq 4 \\Leftrightarrow M \\geq 4)%<br>Vậy %(\\operatorname{Min}_{M}=4 \\Leftrightarrow x=-\\frac{1}{2})%",
+        "question_type": "essay"
+    }
+]

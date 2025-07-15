@@ -1,0 +1,113 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Tính %(A=\\frac{\\sqrt{\\frac{5}{2}+\\sqrt{3-\\sqrt{8}}}}{2+\\sqrt{2}})%.",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} A=\\frac{\\sqrt{\\frac{5}{2}+\\sqrt{3-\\sqrt{8}}}}{2+\\sqrt{2}} & =\\frac{\\sqrt{\\frac{5}{2}+\\sqrt{(\\sqrt{2}-1)^{2}}}}{2+\\sqrt{2}}=\\frac{\\sqrt{\\frac{3}{2}+\\sqrt{2}}}{2+\\sqrt{2}} \\\\ & =\\frac{\\sqrt{3+2 \\sqrt{2}}}{\\sqrt{2}(2+\\sqrt{2})}=\\frac{\\sqrt{(1+\\sqrt{2})^{2}}}{2(1+\\sqrt{2})}=\\frac{1}{2}\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho biểu thức %(B=\\left(\\frac{1-a \\sqrt{a}}{1-\\sqrt{a}}+\\sqrt{a}\\right)\\left(\\frac{1+a \\sqrt{a}}{1+\\sqrt{a}}-\\sqrt{a}\\right))%.Tìm điều kiện để biểu thức B có nghĩa và rút gọn biểu thức B .",
+        "question_images": [],
+        "solution": "+ B có nghĩa khi %(a \\geq 0 ; a \\neq 1)%<br>+ Rút gọn %(B=\\left(\\frac{1-a \\sqrt{a}}{1-\\sqrt{a}}+\\sqrt{a}\\right)\\left(\\frac{1+a \\sqrt{a}}{1+\\sqrt{a}}-\\sqrt{a}\\right))%%(* \\frac{1-a \\sqrt{a}}{1-\\sqrt{a}}+\\sqrt{a}=\\frac{1-a \\sqrt{a}+\\sqrt{a}-a}{1-\\sqrt{a}}=\\frac{(1-a)(1+\\sqrt{a})}{1-\\sqrt{a}}=(1+\\sqrt{a})^{2})%%(* \\frac{1+a \\sqrt{a}}{1+\\sqrt{a}}-\\sqrt{a}=\\frac{1+a \\sqrt{a}-\\sqrt{a}-a}{1+\\sqrt{a}}=\\frac{(1-a)(1-\\sqrt{a})}{1+\\sqrt{a}}=(1-\\sqrt{a})^{2})%<br>* Vậy %(B=(1+\\sqrt{a})^{2}(1-\\sqrt{a})^{2}=(1-a)^{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tìm %(x, y, z)% để biểu thức %(C=5 x^{2}+y^{2}+z^{2}-4 x-2 x y-z-1)% đạt giá trị nhỏ nhất.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}C=5 x^{2}+y^{2}+z^{2}-4 x-2 x y-z-1 \\\\=x^{2}-2 x y+y^{2}+4 x^{2}-4 x+1+z^{2}-z+\\frac{1}{4}-\\frac{9}{4} \\\\=(x-y)^{2}+(2 x-1)^{2}+\\left(z-\\frac{1}{2}\\right)^{2}-\\frac{9}{4} \\geq-\\frac{9}{4}\\end{array}\\]<br>Dấu %(=)% xảy ra %(\\Leftrightarrow\\left\\{\\begin{array}{l}x-y=0 \\\\ 2 x-1=0 \\\\ z-\\frac{1}{2}=0\\end{array} \\Leftrightarrow x=y=z=\\frac{1}{2}\\right.)%<br>Vậy C có giá trị nhỏ nhất %(\\Leftrightarrow x=y=z=\\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Chứng minh rằng nếu p là số nguyên tố lớn hơn 3 thì %(\\left(p^{2}-1\\right): 24)%.",
+        "question_images": [],
+        "solution": "p là số nguyên tố lớn hơn %(3 \\Rightarrow \\mathrm{p})% lẻ %(\\Rightarrow p-1 ; p+1)% là hai số chẵn liên tiếp %(\\Rightarrow(p-1)(p+1) \\vdots 8)% hay %(\\left(p^{2}-1\\right) \\vdots 8)% (1)<br>Mặt khác: %(\\mathrm{p} ; \\mathrm{p}-1 ; \\mathrm{p}+1)% là ba số nguyên liên tiếp nên có 1 số chia hết cho 3 , mà p là số nguyên tố lớn hơn %(3, \\mathrm{p})% không chia hết cho 3 .%(\\Rightarrow(\\mathrm{p}-1))% hoặc %((\\mathrm{p}+1))% chia hết cho 3 hay %(\\left(p^{2}-1\\right) \\vdots 3)%<br>Từ (1) và (2) suy ra: %(\\left(p^{2}-1\\right) \\vdots 24)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Tìm số tự nhiên n sao cho %(\\mathrm{n}+12)% và %(\\mathrm{n}-11)% đều là số chính phương.",
+        "question_images": [],
+        "solution": "Giả sử %(n+12=a^{2})% và %(n-11=b^{2}(a, b \\in N, a\\gt b))%<br>Suy ra: %(\\mathrm{a}^{2}-\\mathrm{b}^{2}=\\mathrm{n}+12-\\mathrm{n}+11=23)%<br>\\[(\\mathrm{a}+\\mathrm{b})(\\mathrm{a}-\\mathrm{b})=23.1\\]<br>Giải hệ phương trình: %(\\left\\{\\begin{array}{l}a+b=23 \\\\ a-b=1\\end{array}\\right.)%<br>Giải ra: %(\\mathrm{a}=12, \\mathrm{~b}=11 \\Rightarrow \\mathrm{n}=132)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(\\sqrt[3]{x+10}+\\sqrt[3]{17-x}=3)%.",
+        "question_images": [],
+        "solution": "Giải phương trình %(\\sqrt[3]{x+10}+\\sqrt[3]{17-x}=3)%<br>\\[\\begin{array}{l}\\Leftrightarrow(\\sqrt[3]{x+10}+\\sqrt[3]{17-x})^{3}=3^{3} \\\\Leftrightarrow x+10+17-x+3 \\cdot \\sqrt{(x+10)(17-x)} \\cdot 3=27 \\\\Leftrightarrow(x+10)(17-x)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x=-10 \\x=17\\end{array}\\right.\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.5,
+        "content": "Cho một tam giác vuông. Nếu tăng hai cạnh góc vuông lên 2 cm và 3 cm thì diện tích tam giác tăng lên %(44 \\mathrm{~cm}^{2})%. Nếu giảm cả hai cạnh góc vuông đi 4 cm thì diện tích tam giác giảm đi %(58 \\mathrm{~cm}^{2})%. Tính hai cạnh góc vuông.",
+        "question_images": [],
+        "solution": "Gọi %(x, y)% là hai cạnh góc vuông; %(x\\gt 4, y>4)%<br>Diện tích tam giác vuông là %(\\frac{x y}{2})%<br>Ta có hệ : %(\\left\\{\\begin{array}{l}\\frac{(x+2)(y+3)}{2}=\\frac{x y}{2}+44 \\\\ \\frac{(x-4)(y-4)}{2}=\\frac{x y}{2}-58\\end{array}\\right.)%<br>\\[\\Leftrightarrow\\left\\{\\begin{array} { l } { 3 x + 2 y = 8 2 } \\\\{ 4 x + 4 y = 1 3 2 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=16 \\y=17\\end{array}\\right.\\right.\\]<br>Vậy hai cạnh góc vuông cần tìm có độ dài là %(16 \\mathrm{~cm}, 17 \\mathrm{~cm})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.5,
+        "content": "Tìm nghiệm nguyên của phương trình: %(2 x^{2} y+x+y+1=2 x^{2}+x y+y^{2})%.",
+        "question_images": [],
+        "solution": "Ta có: %(2 x^{2} y+x+y+1=2 x^{2}+x y+y^{2})%<br>\\[\\Leftrightarrow 2 x^{2} y-2 x^{2}-x y+x-y^{2}+y+1=0 \\Leftrightarrow 2 x^{2}(y-1)-x(y-1)-y(y-1)+1=0\\]<br>Nhận xét %(y=1)% không phải là nghiệm của (*)<br>Chia cả 2 vế của %(\\left(^{*}\\right))% cho %(y-1)% ta được: %(\\Leftrightarrow 2 x^{2}-x-y+\\frac{1}{y-1}=0(* *))%<br>Với %(x, y)% nguyên, suy ra %(\\frac{1}{y-1})% nguyên nên %(y-1= \\pm 1 \\Leftrightarrow\\left[\\begin{array}{l}y=2 \\\\ y=0\\end{array}\\right.)%<br>Thay %(y=0)% và %(y=2)% vào %(\\left({ }^{* *}\\right))% ta được:%(2 x^{2}-x-1=0 \\Leftrightarrow(2 x+1)(x-1)=0 \\Leftrightarrow\\left\\{\\begin{array}{c}2 x+1=0 \\\\ x-1=0\\end{array}\\right.)%;<br>Vì %(x)% nguyên nên %(x=1)%<br>Vậy phương trình có các cặp nghiệm nguyên là: %((1 ; 2))% và %((1 ; 0))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "9",
+        "group_content": "Cho tam giác ABC vuông tại A , đường cao AH . Vẽ đường tròn tâm O đường kính AH . Đường tròn này cắt các cạnh %(\\mathrm{AB}, \\mathrm{AC})% theo thứ tự ở D và E .",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Chứng minh tứ giác ADHE là hình chữ nhật và 3 điểm %(\\mathrm{D}, \\mathrm{O}, \\mathrm{E})% thẳng hàng.",
+        "question_images": [],
+        "solution": "%(\\triangle A D H: O D=O A=O H \\Rightarrow \\triangle A D H)% vuông tại D<br>%(\\triangle A E H: O E=O A=O H \\Rightarrow \\triangle A E H)% vuông tại E<br>Tứ giác ADHE có 3 góc vuông nên là hình chữ nhật<br>Vì O là trung điểm AH nên O cũng là trung điểm DE hay %(\\mathrm{D}, \\mathrm{O}, \\mathrm{E})%  thẳng hàng<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/08c591ab65a58d28ee1d82781aadeffd.png\" srcset=\"https://docdn.giainhanh.io/media/test/2507c1d04cf708216781606ffdc5bcb8.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Các tiếp tuyến của đường tròn tâm O tại D và E cắt cạnh BC lần lượt tại M và N . Chứng minh %(\\mathrm{M}, \\mathrm{N})% tương ứng là trung điểm của %(\\mathrm{HB}, \\mathrm{HC})%.c) Cho %(\\mathrm{AB}=6 \\mathrm{~cm}, \\mathrm{AC}=8 \\mathrm{~cm})%. Tính diện tích tứ giác MDEN.",
+        "question_images": [],
+        "solution": "* Ta có %(\\mathrm{MD}, \\mathrm{MH})% là 2 tiếp tuyến kẻ từ M đến đường tròn %((\\mathrm{O}))% nên %(O M \\perp D H)%, mà %(A D \\perp D H \\Rightarrow \\mathrm{OM} / / \\mathrm{AD})%<br>Tam giác ABH có O là trung điểm %(\\mathrm{AH}, \\mathrm{OM} / / \\mathrm{AB})% suy ra M là trung điềm BH<br>* Tương tự, %(\\mathrm{NE}, \\mathrm{NH})% là 2 tiếp tuyến kẻ từ N đến đường tròn %((\\mathrm{O}))% nên %(O N \\perp E H)%, mà %(A E \\perp E H \\Rightarrow \\mathrm{ON} / / \\mathrm{AE})%<br>Tam giác ACH có O là trung điểm %(\\mathrm{AH}, \\mathrm{ON} / / \\mathrm{AC})% suy ra N là trung điểm CH",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.5,
+        "content": "c) Cho %(\\mathrm{AB}=6 \\mathrm{~cm}, \\mathrm{AC}=8 \\mathrm{~cm})%. Tính diện tích tứ giác MDEN.",
+        "question_images": [],
+        "solution": "Do %(\\mathrm{DM}, \\mathrm{EN})% cùng vuông góc DE (tiếp tuyến) nên %(\\mathrm{DM} / / \\mathrm{EN})%, suy ra MDEN là hình thang vuông.<br>\\[\\begin{array}{l}B C=\\sqrt{A B^{2}+A C^{2}}=10 ; \\A H=\\frac{A B \\cdot A C}{B C}=\\frac{24}{5}=D E\\end{array}\\]<br>%(\\mathrm{M}, \\mathrm{N})% tương ứng là trung điểm %(\\mathrm{BH}, \\mathrm{CH})% nên %(M N=\\frac{B C}{2}=5)%<br>\\[\\begin{array}{l}S_{\\text {MDEN }}=\\frac{1}{2}(D M+E N) \\cdot D E=\\frac{1}{2}(H M+H N) \\cdot D E \\\\=\\frac{1}{2} \\cdot M N \\cdot D E=\\frac{1}{2} \\cdot 5 \\cdot \\frac{24}{5}=12\\left(\\mathrm{~cm}^{2}\\right)\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "10 ",
+        "point": 2.0,
+        "content": "Cho hình thang %(\\mathrm{ABCD}(\\mathrm{AB} / / \\mathrm{CD}))%, O là giao điểm hai đường chéo AC và BD . Đường thẳng qua O song song AB cắt AD và BC lần lượt tại M và N . Chứng minh: %(\\frac{1}{A B}+\\frac{1}{C D}=\\frac{2}{M N})%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\mathrm{OM} / / \\mathrm{AB} \\Rightarrow \\frac{O M}{A B}=\\frac{O D}{D B}(1))%<br>%(\\mathrm{ON} / / \\mathrm{AB} \\Rightarrow \\frac{O N}{A B}=\\frac{O C}{A C}(2))%<br>%(\\mathrm{AB} / / \\mathrm{DC} \\Rightarrow \\frac{O D}{D B}=\\frac{O C}{A C}(3))%<br>%(\\mathrm{ON} / / \\mathrm{DC} \\Rightarrow \\frac{O N}{D C}=\\frac{O B}{D B})% (4)<br>Từ (1), (2) và %((3): \\Rightarrow \\frac{O M}{A B}=\\frac{O N}{A B} \\Rightarrow O M=O N)% hay O là trung điểm của MN<br>Cộng (1) với (4) theo vế: %(\\frac{O M}{A B}+\\frac{O N}{C D}=\\frac{O D}{D B}+\\frac{O B}{D B}=\\frac{D B}{D B}=1)%<br>\\[\\Rightarrow \\frac{2 O M}{A B}+\\frac{2 O N}{C D}=2 \\Rightarrow \\frac{M N}{A B}+\\frac{M N}{C D}=2 \\Rightarrow \\frac{1}{A B}+\\frac{1}{C D}=\\frac{2}{M N}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0686a8f9e5b9e1624baba6c2becf219f.png\" srcset=\"https://docdn.giainhanh.io/media/test/898ec0943b821eba9314a7bab38ab938.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "11 ",
+        "point": 2.5,
+        "content": "Cho tam giác ABC . Từ điểm M thuộc cạnh AC kẻ các đường thẳng song song với các cạnh %(A B)% và %(B C)% cắt %(B C)% tại %(E)% và %(A B)% tại %(F)%. Hãy xác định vị trí của %(M)% trên AC sao cho hình bình hành BEMF có diện tích lớn nhất.",
+        "question_images": [],
+        "solution": "Kẻ %(A H \\perp B C)%, AH cắt MF tại I.<br>Suy ra: %(A H \\perp M F)%<br>S '=IH. MF (S' là diện tích hình bình hành BEMF)<br>%(\\mathrm{S}=\\frac{1}{2} B C \\cdot A H)% (S là diện tích tam giác ABC )<br>%(\\mathrm{S}^{\\prime}=\\mathrm{IH} . \\mathrm{MF})% (S' là diện tích hình bình hành BEMF)<br>%(\\mathrm{S}=\\frac{1}{2} B C \\cdot A H)% ( S là diện tích tam giác ABC )<br>Ta có: %(\\frac{S^{\\prime}}{S}=\\frac{I H \\cdot M F}{\\frac{1}{2} B C \\cdot A H}=2 \\frac{M F}{B C} \\cdot \\frac{I H}{A H})%<br>Đặt %(\\mathrm{AM}=\\mathrm{x})% và %(\\mathrm{MC}=\\mathrm{y})%<br>Vì %(\\mathrm{MF} / / \\mathrm{BC})% nên ta có: %(\\frac{M F}{B C}=\\frac{A M}{A C}=\\frac{x}{x+y} ; \\frac{I H}{A H}=\\frac{M C}{A C}=\\frac{y}{x+y})%<br>Thay vào (1) ta có: %(\\frac{S^{\\prime}}{S}=2 \\cdot \\frac{x}{x+y} \\cdot \\frac{y}{x+y}=\\frac{2 x y}{(x+y)^{2}})%<br>Vì x , y là số không âm nên ta có: %(x+y \\geq 2 \\sqrt{x y} \\Rightarrow(x+y)^{2} \\geq 4 x y)%<br>%(\\Rightarrow \\frac{S^{\\prime}}{S}=\\frac{2 x y}{(x+y)^{2}} \\leq \\frac{2 x y}{4 x y}=\\frac{1}{2})%%(\\Rightarrow \\frac{S^{\\prime}}{S} \\leq \\frac{1}{2} \\Leftrightarrow S^{\\prime} \\leq \\frac{1}{2} S)%<br>%(\\Rightarrow S^{\\prime}=\\frac{1}{2} S)% là lớn nhất.<br>Dấu \" = \" xảy ra khi %(\\mathrm{x}=\\mathrm{y})%, tức là M là trung điểm của cạnh AC thì diện tích hình bình hành BEMF đạt giá trị lớn nhất là %(\\frac{1}{2} S)% không đổi.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/894d356fb0f1d3d9fdace0cceb4b7971.png\" srcset=\"https://docdn.giainhanh.io/media/test/ad3d870e81163d284b75c811eee8b0fb.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    }
+]

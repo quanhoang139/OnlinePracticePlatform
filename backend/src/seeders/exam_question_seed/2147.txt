@@ -1,0 +1,129 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "Cho hai biểu thức %(A=\\frac{5 \\sqrt{a}+4}{\\sqrt{a}-1})% và %(B=\\left(\\frac{1}{\\sqrt{a}}+\\frac{1}{1-\\sqrt{a}}\\right) \\cdot \\frac{\\sqrt{a}-a}{\\sqrt{a}-2})%, với %(a\\gt 0, a \\neq 1, a \\neq 4)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Tính giá trị của biểu thức %(A)% khi %(a=16)%.",
+        "question_images": [],
+        "solution": "Khi %(a=16)% (thỏa mãn điều kiện xác định) thì giá trị biểu thức<br>\\[A=\\frac{5 \\sqrt{16}+4}{\\sqrt{16}-1}==\\frac{5.4+4}{4-1}=\\frac{24}{3}=8\\]<br>Vậy với %(a=16)% thì %(A=8)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.5,
+        "content": "Rút gon biểu thức %(B)%.",
+        "question_images": [],
+        "solution": "Với %(a\\gt 0 ; a \\neq 1 ; a \\neq 4)%<br>\\[B=\\left(\\frac{1}{\\sqrt{a}}+\\frac{1}{1-\\sqrt{a}}\\right) \\cdot \\frac{\\sqrt{a}-a}{\\sqrt{a}-2}=\\frac{1-\\sqrt{a}+\\sqrt{a}}{\\sqrt{a}(1-\\sqrt{a})} \\cdot \\frac{\\sqrt{a}(1-\\sqrt{a})}{\\sqrt{a}-2}=\\frac{1}{\\sqrt{a}-2}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 0.5,
+        "content": "Tìm các giá trị nguyên của %(a)% để %(A \\cdot B\\lt 0)%.",
+        "question_images": [],
+        "solution": "Với %(a\\gt 0 ; a \\neq 1 ; a \\neq 4)% ta có:<br>\\[\\begin{array}{l}A . B\\lt 0 \\Leftrightarrow \\frac{5 \\sqrt{a}+4}{\\sqrt{a}-1} \\cdot \\frac{1}{\\sqrt{a}-2}\\lt 0 \\Leftrightarrow(\\sqrt{a}-1)(\\sqrt{a}-2)\\lt 0 \\text { (vì } 5 \\sqrt{a}+4>0 \\text { ) } \\\\Leftrightarrow 1\\lt \\sqrt{a}\\lt 2 \\Leftrightarrow 1\\lt a\\lt 4 \\text {. Vì } a \\in \\mathbb{Z} \\text { nên } a \\in\\{2 ; 3\\} \\text {. Vậy } a \\in\\{2 ; 3\\} .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 1.0,
+        "content": "Giải bài toán bằng cách lập phuơng trình hoặc hệ phuơng trình<br>Một cơ sở sản xuất lập kế hoạch làm 180 sản phẩm trong một thời gian nhất định. Do cải tiến kĩ thuật, năng suất mỗi ngày tăng 3 sản phẩm, vì thế không những hoàn thành sớm một ngày, mà còn vượt mức 18 sản phẩm. Hỏi theo kế hoạch mỗi ngày phải làm bao nhiêu sản phẩm?",
+        "question_images": [],
+        "solution": "Gọi năng suất dự định là %(x)% (sản phẩm, %(x\\gt 0)% )<br>Thì năng suất thực tế là: %(x+3)% (sản phẩm)<br>Thời gian dự định là: %(\\frac{180}{x})% (ngày)<br>Thời gian thực tế là: %(\\frac{180+18}{x+3}=\\frac{198}{x+3})% (ngày)<br>Theo bài ra ta có phương trình: %(\\frac{180}{x}-\\frac{198}{x+3}=1)%<br>\\[\\begin{array}{l}\\Leftrightarrow 180 x+540-198 x=x^{2}+3 x \\Leftrightarrow x^{2}+21 x-540=0 \\\\Delta=21^{2}-4 \\cdot(-540)=2601 \\Rightarrow \\sqrt{\\Delta}=51 \\\\Rightarrow x_{1}=\\frac{-21+51}{2}=15 \\text { (thoả mãn) hoặc } x_{2}=\\frac{-21-51}{2}=-36 \\text { (loại) }\\end{array}\\]<br>Vậy theo kế hoạch, mỗi ngày phải làm 15 (sản phẩm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 1.0,
+        "content": "Người ta làm mô hình một chiếc kem có phẩn trên dạng một nửa hình cầu, phần dưới dạng hình nón với mặt cắt và các kích thước như hình vẽ. Tính thể tích của mô hình đó. (Lấy %(\\pi \\approx 3,14)% và làm tròn đến đơn vị)",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/8ccc3cbde682e24dd7d8b89c22f63f54.png"
+        ],
+        "solution": "Đổi: %(60 \\mathrm{~cm}=6 \\mathrm{dm} ; 120 \\mathrm{~cm}=12 \\mathrm{dm})%<br>Bán đường tròn đáy hình nón là: %(6: 2=3(\\mathrm{dm}))%<br>Thể tích phần nửa hình cầu là: %(V_{1}=\\frac{1}{2} \\cdot \\frac{4}{3} \\cdot \\pi \\cdot r^{3} \\approx \\frac{2}{3} \\cdot 3,14 \\cdot 3^{3} \\approx 57\\left(\\mathrm{dm}^{3}\\right))%<br>Thể tích phần hình nón là: %(V_{2}=\\frac{1}{3} \\cdot \\pi \\cdot r^{2} \\cdot h \\approx \\frac{1}{3} \\cdot 3,14 \\cdot 3^{2} \\cdot 12 \\approx 133\\left(\\mathrm{dm}^{3}\\right))%<br>Thể tích mô hình là: %(V=V_{1}+V_{2}=57+133=190\\left(\\mathrm{dm}^{3}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}2 x+\\frac{1}{y-1}=5 \\\\ 3 x-\\frac{2}{y-1}=4\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}2 x+\\frac{1}{y-1}=5 \\\\ 3 x-\\frac{2}{y-1}=4\\end{array} \\quad\\right.)% Đkxd: %(y \\neq 1)%<br>Đặt %(\\frac{1}{y-1}=a(a \\neq 0))%<br>Hệ phương trình %(\\Leftrightarrow\\left\\{\\begin{array}{l}2 x+a=5 \\\\ 3 x-2 a=4\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}4 x+2 a=10 \\\\ 3 x-2 a=4\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}7 x=14 \\\\ a=5-2 x\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=2 \\\\ a=1\\end{array}\\right.\\right.\\right.\\right.)%<br>Thay ẩn: %(\\frac{1}{y-1}=1 \\Rightarrow y-1=1 \\Rightarrow y=2)% (thỏa mãn)<br>Vậy hệ pt đã cho có nghiệm duy nhất: %((x ; y)=(2 ; 2))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5:",
+        "group_content": "Trong mặt phẳng tọa độ %(O x y)%, cho parabol %((P): y=2 x^{2})% và đường thẳng %((d): y=x+m)% (với %(m)% là tham số).",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.75,
+        "content": "Tìm %(m)% để %((d))% đi qua điểm %(A(2 ; 8))%.",
+        "question_images": [],
+        "solution": "Đường thẳng %((d): y=x+m)% đi qua điểm %(A(2 ; 8) \\Leftrightarrow 2+m=8 \\Leftrightarrow m=6)%.<br>Vậy %(m=6)% thì %((d))% đi qua điểm %(A(2 ; 8))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.75,
+        "content": "Tìm %(m)% để %(\\left( P \\right ))% cắt %(\\left( d \\right ))% tại hai điểm phân biệt có hoành độ %(x_{1} + x_{2} - 3 x_{1} x_{2} = 5 .)% thỏa mãn:%(x_{1} , x_{2})%",
+        "question_images": [],
+        "solution": "Xét phương trình hoành độ giao điểm của parabol %((P): y=2 x^{2})% và đường thẳng<br>Phương trình %((*))% có: %(\\Delta=(-1)^{2}-4 \\cdot 2 \\cdot(-m)=1+8 m)%.<br>Để %((d))% cắt %((P))% tại hai điểm phân biệt có hoành độ %(x_{1}, x_{2})% thì phương trình %((*))% có hai nghiệm phân biệt %(x_{1}, x_{2} \\Leftrightarrow \\Delta\\gt 0 \\Leftrightarrow 1+8 m>0 \\Leftrightarrow m>\\frac{-1}{8})%.<br>Theo định lí Vi-et ta có: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=\\frac{1}{2} \\\\ x_{1} x_{2}=\\frac{-m}{2}\\end{array}\\right.)%<br>Theo bài ra: %(x_{1}+x_{2}-3 x_{1} x_{2}=5 \\Leftrightarrow \\frac{1}{2}-3 \\cdot \\frac{-m}{2}=5 \\Leftrightarrow 1+3 m=10 \\Leftrightarrow 3 m=9 \\Leftrightarrow m=3)% (thỏa mãn).<br>Vậy %(m=3)% là giá trị cần tìm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6:",
+        "group_content": "Cho tam giác %(A B C(A B\\lt A C))% nội tiếp đường tròn %((O))%, các đường cao %(B E, C F)% của tam giác %(A B C)% cắt nhau tại %(H)%, đường thẳng %(E F)% cắt %(B C)% tại %(K)%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Chứng minh %(B C E F)% là tứ giác nội tiếp.",
+        "question_images": [],
+        "solution": "<img alt=\"https://docdn.giainhanh.io/media/test/f41e77321726efa7f5d18bd43bb472f9.png\" src=\"https://docdn.giainhanh.io/media/test/f41e77321726efa7f5d18bd43bb472f9.png\"/><br>Ta có %(\\widehat{B F C}=\\widehat{B E C}=90^{\\circ})% (vì %(B E)% và %(C F)% lần lượt là đường cao của %(\\triangle A B C)% ) %(\\Rightarrow B C E F)% là tứ giác nội tiếp.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Chứng minh hai tam giác %(K B F)% và %(K E C)% đồng dạng, từ đó suy ra %(K B \\cdot K C=K F \\cdot K E)%.",
+        "question_images": [],
+        "solution": "Vì %(B C E F)% là tứ giác nội tiếp nên<br>\\[\\widehat{B F E}+\\widehat{K C E}=180^{\\circ} \\text {. }\\]<br>Mà %(\\widehat{K F B}+\\widehat{B F E}=180^{\\circ})% (hai góc kề bù) nên suy ra %(\\widehat{K C E}=\\widehat{K F B})%.<br>Xét %(\\triangle K B F)% và %(\\triangle K E C)% ta có<br>%(\\widehat{K C E}=\\widehat{K F B})% (chứng minh trên),<br>%(\\widehat{E K C})% là góc chung.<br>%(\\Rightarrow \\triangle K B F \\sim \\triangle K E C(\\mathrm{~g} \\cdot \\mathrm{g}) \\Rightarrow \\frac{K B}{K E}=\\frac{K F}{K C} \\Rightarrow K B \\cdot K C=K E \\cdot K F)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 0.5,
+        "content": "Đoạn thắng %(A K)% cắt lại đường tròn %((O))% tại điểm %(G)% khác %(A)%. Chứng minh các điểm %(A, G, F, E, H)% cùng thuộc một đường tròn.",
+        "question_images": [],
+        "solution": "Vì %(A G B C)% là tứ giác nội tiếp nên %(\\widehat{A G B}+\\widehat{K C A}=180^{\\circ})%.<br>Mà %(\\widehat{A G B}+\\widehat{K G B}=180^{\\circ})% (hai góc kề bù) nên %(\\widehat{K G B}=\\widehat{K C A})%.<br>Xét %(\\triangle K G B)% và %(\\triangle K C A)% ta có%(\\widehat{K G B}=\\widehat{K C A})% (chứng minh trên),%(\\widehat{A K C})% là góc chung.%(\\Rightarrow \\triangle K G B \\sim \\triangle K C A(\\mathrm{~g} \\cdot \\mathrm{g}) \\Rightarrow \\frac{K G}{K C}=\\frac{K B}{K A} \\Rightarrow K G \\cdot K A=K B \\cdot K C)%.<br>Mà %(K B \\cdot K C=K E \\cdot K F)% (theo câu 2).<br>Do đó %(K A \\cdot K G=K E \\cdot K F)%, suy ra %(\\frac{K G}{K E}=\\frac{K F}{K A})%.<br>Xét %(\\triangle K G E)% và %(\\triangle K F A)% ta có%(\\frac{K G}{K E}=\\frac{K F}{K A})% (chứng minh trên),%(\\widehat{A K E})% là góc chung.%(\\Rightarrow \\triangle K G E \\sim \\triangle K F A)% (c.g.c) %(\\Rightarrow \\widehat{F E G}=\\widehat{F A G})%.<br>Do đó %(A G F E)% là tứ giác nội tiếp. (1)<br>Mặt khác, ta có %(\\widehat{A F H}=\\widehat{A E H}=90^{\\circ})% (vì %(B E)% và %(C F)% là đường cao của %(\\triangle A B C)% ).<br>Suy ra %(A F H E)% là tứ giác nội tiếp. (2)<br>Từ (1) và (2) suy ra %(A, G, F, E, H)% cùng thuộc một đường tròn.",
+        "question_type": "essay"
+    },
+    {
+        "title": "d) ",
+        "point": 0.5,
+        "content": "Gọi %(I)% là trung điểm của %(B C)%, chứng minh %(H I)% vuông góc với %(A K)%.",
+        "question_images": [],
+        "solution": "Kẻ đường kính %(A D)% của %((O))%.<br>Khi đó %(\\widehat{A G D}=\\widehat{A B D}=\\widehat{A C D}=90^{\\circ})%.<br>Mà %(A, G, F, E, H)% cùng thuộc một đường tròn nên %(\\widehat{A G H}=\\widehat{A F H}=\\widehat{A E H}=90^{\\circ})%.<br>Như vậy ta có %(\\widehat{A G D}=\\widehat{A G H}=90^{\\circ})% hay %(G, H, D)% thẳng hàng. (3)<br>Ta có %(B H \\| C D)% (vì cùng vuông góc với %(A C)% ),%(C H \\| B D)% (vì cùng vuông góc với %(A B)% ).<br>Do đó %(B H C D)% là hình bình hành.<br>Mà %(I)% là trung điểm của %(B C)% nên %(H, I, D)% thẳng hàng. (4)<br>Từ (3) và (4) suy ra %(G, I, H, D)% thẳng hàng.<br>Mà %(\\widehat{A G D}=90^{\\circ})% nên %(H I)% vuông góc với %(A K)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 0.5,
+        "content": "Cho %(a, b)% là các số dương thoả mãn: %(a+b=1)%. Tìm giá trị nhỏ nhất của biểu thức:<br>\\[T=\\frac{19}{a b}+\\frac{6}{a^{2}+b^{2}}+2023\\left(a^{4}+b^{4}\\right) .\\]",
+        "question_images": [],
+        "solution": "Ta có %((a-b)^{2} \\geq 0 \\Rightarrow(a+b)^{2} \\geq 4 a b \\Leftrightarrow \\frac{a+b}{a b} \\geq \\frac{4}{a+b}(a, b\\gt 0))% %(\\Leftrightarrow \\frac{1}{a}+\\frac{1}{b} \\geq \\frac{4}{a+b}(*))%.<br>Áp dụng (*) ta có: %(\\frac{1}{2 a b}+\\frac{1}{a^{2}+b^{2}} \\geq \\frac{4}{(a+b)^{2}}=4(1))%<br>Mặt khác từ %(1=(a+b)^{2} \\geq 4 a b \\Rightarrow \\frac{1}{a b} \\geq 4)% (2)<br>Lại có %(a^{4}+b^{4} \\geq \\frac{\\left(a^{2}+b^{2}\\right)^{2}}{2} \\geq \\frac{1}{2}\\left(\\frac{(a+b)^{2}}{2}\\right)^{2}=\\frac{1}{8})%<br>Từ (1), (2), (3) ta có: %(T=\\frac{16}{a b}+6\\left(\\frac{1}{2 a b}+\\frac{1}{a^{2}+b^{2}}\\right)+2023\\left(a^{4}+b^{4}\\right))% %(\\geq 16.4+6.4+\\frac{2023}{8}=88 \\frac{2023}{8})%.<br>Dấu \"=\" xảy ra khi %(a=b=\\frac{1}{2})%<br>Vậy %(\\min T=88 \\frac{2023}{8})% đạt tại %(a=b=\\frac{1}{2})%.",
+        "question_type": "essay"
+    }
+]

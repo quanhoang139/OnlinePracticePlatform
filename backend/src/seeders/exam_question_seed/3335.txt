@@ -1,0 +1,49 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "Cho biểu thức %(A=\\frac{\\sqrt{x}}{\\sqrt{x}+1})% và %(B=\\frac{3 x}{x-3 \\sqrt{x}+2}-\\frac{\\sqrt{x}+1}{\\sqrt{x}-2}+\\frac{\\sqrt{x}+2}{\\sqrt{x}-1})% với %(x \\geq 0, x \\neq 1, x \\neq 4)%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Tính giá trị của biểu thức %(A)% khi %(x=9)%.",
+        "question_images": [],
+        "solution": "Thay %(x=9)% (TMĐK) vào biểu thức %(A)% ta được:<br>\\[A=\\frac{\\sqrt{9}}{\\sqrt{9}+1}=\\frac{3}{3+1}=\\frac{3}{4} .\\]<br>Vậy với %(x=9)% thì %(A=\\frac{3}{4})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.5,
+        "content": "b) Chứng minh %(B=\\frac{3(\\sqrt{x}+1)}{\\sqrt{x}-2})%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}B=\\frac{3 x}{x-3 \\sqrt{x}+2}-\\frac{\\sqrt{x}+1}{\\sqrt{x}-2}+\\frac{\\sqrt{x}+2}{\\sqrt{x}-1}(x \\geq 0, x \\neq 1, x \\neq 4) \\B=\\frac{3 x}{(\\sqrt{x}-1)(\\sqrt{x}-2)}-\\frac{(\\sqrt{x}+1)(\\sqrt{x}-1)}{(\\sqrt{x}-1)(\\sqrt{x}-2)}+\\frac{(\\sqrt{x}+2)(\\sqrt{x}-2)}{(\\sqrt{x}-1)(\\sqrt{x}-2)} \\B=\\frac{3 x-x+1+x-4}{(\\sqrt{x}-1)(\\sqrt{x}-2)} \\B=\\frac{3 x-3}{(\\sqrt{x}-1)(\\sqrt{x}-2)} \\B=\\frac{3(\\sqrt{x}+1)(\\sqrt{x}-1)}{(\\sqrt{x}-1)(\\sqrt{x}-2)}  \\B=\\frac{3(\\sqrt{x}+1)}{\\sqrt{x}-2}\\end{array})%<br>Vậy %(B=\\frac{3(\\sqrt{x}+1)}{\\sqrt{x}-2})% khi %(x \\geq 0, x \\neq 1, x \\neq 4)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 0.5,
+        "content": "c) Cho %(P=A . B)%. Tìm các giá trị nguyên của %(x)% để %(|P|\\gt P)%.",
+        "question_images": [],
+        "solution": "%(P=A. B=\\frac{\\sqrt{x}}{\\sqrt{x}+1} \\cdot \\frac{3(\\sqrt{x}+1)}{\\sqrt{x}-2}=\\frac{3 \\sqrt{x}}{\\sqrt{x}-2})%<br>Để %(|P|\\gt P)% thì %(P\\lt 0 \\Leftrightarrow\\left\\{\\begin{array}{l}x \\neq 0 \\\\ \\sqrt{x}-2\\lt 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\neq 0 \\\\ \\sqrt{x}\\lt 2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\neq 0 \\\\ 0 \\leq x\\lt 4\\end{array} \\Leftrightarrow 0\\lt x\\lt 4\\right.\\right.\\right.)%<br>Kết hợp điều kiện xác định ta được %(0\\lt x\\lt 4)% và %(x \\neq 1)%.<br>Mà %(x)% là số nguyên nên %(x \\in\\{2 ; 3\\})%.<br>Vậy %(x \\in\\{2 ; 3\\})% thỏa mãn đề bài.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 1.0,
+        "content": "<i>Giải bài toán bằng cách lập phuơng trình hoặc hệ phuơng trình:</i><br>Hai tổ sản xuất cùng may một loại áo. Nếu tổ thứ nhất may trong 3 ngày, tổ thứ hai may trong 5 ngày thì cả hai tổ may được 1310 chiếc áo. Biết rằng trong một ngày tổ thứ nhất may được nhiều hơn tổ thứ hai là 10 chiếc áo. Hỏi mỗi tổ trong 1 ngày may được bao nhiêu chiếc áo?",
+        "question_images": [],
+        "solution": "Gọi số áo tổ 1 may được trong 1 ngày là %(x)% (chiếc áo) (điều kiện : %(x \\in N^{*}, \\mathrm{x}\\gt 10)% ).<br>Số áo tổ 2 may được trong 1 ngày là %(y)% (chiếc áo) (điều kiện : %(y \\in N^{*})% ).<br>Số áo tổ 1 may trong 3 ngày là: %(3 x)% (chiếc áo).<br>Số áo tổ 2 may trong 5 ngày là: %(5 y)% (chiếc áo).<br>Vì hai tổ may được 1310 chiếc áo nên ta có phương trình : %(3 x+5 y=1310)% (1).<br>Trong một ngày tổ thứ nhất may được nhiều hơn tổ thứ 2 là 10 chiếc áo nên ta có phương trình:<br>\\[x-y=10 \\quad(2) \\text {. }\\]<br>Từ (1) và (2) ta có hệ phương trình : %(\\left\\{\\begin{array}{l}3 x+5 y=1310 \\\\ x-y=10\\end{array}\\right.)%<br>\\[\\Leftrightarrow\\left\\{\\begin{array} { l } { 3 x + 5 y = 1 3 1 0 } \\\\{ 3 x - 3 y = 3 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { 8 y = 1 2 8 0 } \\\\{ x - y = 1 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { y = 1 6 0 } \\\\{ x - y = 1 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=170 \\y=160\\end{array}\\right.\\right.\\right.\\right.\\]<br>Kết hợp điều kiện %(\\Rightarrow\\left\\{\\begin{array}{l}x=170 \\\\ y=160\\end{array}\\right.)% (thỏa mãn).<br>Vậy: Số áo tổ 1 may được trong 1 ngày là 170 (chiếc áo).<br>Số áo tổ 2 may được trong 1 ngày là 160 (chiếc áo).",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 1.0,
+        "content": "Bạn Dũng có một chiếc cốc thủy tinh có lòng là một hình trụ có chiều cao %(15 \\mathrm{~cm})% và bán kính đáy bằng %(2,5 \\mathrm{~cm})% đang đựng %( \\dfrac{2}{3})% nước. Dũng đang muốn thả các viên bi ve hình cầu có bán kính %(1 \\mathrm{~cm})% vào cốc để trang trí. Hỏi bạn có thể thêm vào đó nhiều nhất bao nhiêu viên bi để nước không bị tràn ra khỏi cốc ?",
+        "question_images": [],
+        "solution": "Thể tích còn trống của bể là: %(\\frac{1}{3} \\cdot 15 \\cdot \\pi \\cdot(2,5)^{2}=\\frac{125}{4} \\pi\\left(\\mathrm{cm}^{3}\\right))%.<br>Thể tích một viên bi là: %(\\frac{4}{3} \\cdot 1^{3} \\cdot \\pi=\\frac{4}{3} \\pi\\left(\\mathrm{cm}^{3}\\right))%.<br>Số viên bi thêm vào là: %(\\frac{125}{4} \\pi: \\frac{4}{3} \\pi \\approx 23,4375)%<br>Vậy bạn có thể thêm vào đó nhiều nhất 23 viên bi để nước không bị tràn ra khỏi cốc.",
+        "question_type": "essay"
+    }
+]

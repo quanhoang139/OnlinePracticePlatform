@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "a)Cho biểu thức: %(\\mathrm{A}=\\left(\\mathrm{x}^{2}-\\mathrm{x}-1\\right)^{2}+2013)%<br>Tính giá trị của %(A)% khi %(x=\\frac{\\sqrt{3}}{\\sqrt{\\sqrt{3}+1}-1}-\\frac{\\sqrt{3}}{\\sqrt{\\sqrt{3}+1}+1})%",
+        "question_images": [],
+        "solution": "\\[\\begin{aligned}x= & \\frac{\\sqrt{3}}{\\sqrt{\\sqrt{3}+1}-1}-\\frac{\\sqrt{3}}{\\sqrt{\\sqrt{3}+1}+1}=\\frac{\\sqrt{3}(\\sqrt{\\sqrt{3}+1}+1)-\\sqrt{3}(\\sqrt{\\sqrt{3}+1}-1)}{\\sqrt{3}+1-1} \\\\& =\\frac{\\sqrt{3}(\\sqrt{\\sqrt{3}+1}+1-\\sqrt{\\sqrt{3}+1}+1)}{\\sqrt{3}+1-1}=\\frac{2 \\sqrt{3}}{\\sqrt{3}}=2\\end{aligned}\\]<br>Thay %(\\mathrm{x}=2)% vào biểu thức %(\\mathrm{A})% ta có:<br>\\[A=\\left(2^{2}-2-1\\right)^{2}+2013=1+2013=2014\\]<br>Vậy khi %(x=\\frac{\\sqrt{3}}{\\sqrt{\\sqrt{3}+1}-1}-\\frac{\\sqrt{3}}{\\sqrt{\\sqrt{3}+1}+1})% thì giá trị của biểu thức A là 2014",
+        "question_type": "essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "b) Cho %(\\left(x+\\sqrt{x^{2}+2013}\\right) \\cdot\\left(y+\\sqrt{y^{2}+2013}\\right)=2013)%. Chứng %(\\operatorname{minh} x^{2013}+y^{2013}=0)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\left(\\mathrm{x}+\\sqrt{x^{2}+2013}\\right) \\cdot\\left(\\mathrm{y}+\\sqrt{y^{2}+2013}\\right)=2013 \\\\ \\left(\\mathrm{x}-\\sqrt{x^{2}+2013}\\right)\\left(\\mathrm{x}+\\sqrt{x^{2}+2013}\\right) \\cdot\\left(\\mathrm{y}+\\sqrt{y^{2}+2013}\\right)=2013\\left(\\mathrm{x}-\\sqrt{x^{2}+2013}\\right) \\\\ -2013 \\cdot\\left(\\mathrm{y}+\\sqrt{y^{2}+2013}\\right)=2013\\left(\\mathrm{x}-\\sqrt{x^{2}+2013}\\right) \\\\ -\\mathrm{y}-\\sqrt{y^{2}+2013}=\\mathrm{x}-\\sqrt{x^{2}+2013} \\\\ \\text { {} }-\\mathrm{x}-\\sqrt{x^{2}+2013}=\\mathrm{y}-\\sqrt{y^{2}+2013} \\\\ \\Rightarrow \\mathrm{x}+\\mathrm{y}=0 \\Rightarrow \\mathrm{x}=\\mathrm{y} \\Rightarrow \\mathrm{x}^{2013}+\\mathrm{y}^{2013}=0\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "a) Giải phương trình: %(x^{2}+5 x+1=(x+5) \\sqrt{x^{2}+1})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\mathrm{x}^{2}+5 \\mathrm{x}+1=(\\mathrm{x}+5) \\sqrt{x^{2}+1} \\\\ \\mathrm{x}^{2}+1+5 \\mathrm{x}=(\\mathrm{x}+5) \\sqrt{x^{2}+1} \\\\ \\mathrm{x}^{2}+1+5 \\mathrm{x}-\\mathrm{x} \\sqrt{x^{2}+1}-5 \\sqrt{x^{2}+1}=0 \\\\ \\sqrt{x^{2}+1}\\left(\\sqrt{x^{2}+1}-\\mathrm{x}\\right)+5\\left(\\mathrm{x}-\\sqrt{x^{2}+1}\\right)=0 \\\\ \\left(\\sqrt{x^{2}+1}-\\mathrm{x}\\right)\\left(\\sqrt{x^{2}+1}-5\\right)=0 \\\\ \\left(\\sqrt{x^{2}+1}-\\mathrm{x}\\right)=0 \\operatorname{hay}\\left(\\sqrt{x^{2}+1}-5\\right)=0\\end{array})%<br>%(\\sqrt{x^{2}+1}=\\mathrm{x})% hay %(\\sqrt{x^{2}+1}=5)%<br>%(x^2 + 1 = x^2 )% ( Không có x nào thỏa mãn) hay %(x^2 + 1 = 25)%<br>%(\\begin{array}{l}x^{2}=24 \\\\ x= \\pm \\sqrt{24}\\end{array})%<br>Vậy nghiệm của PT là %(x= \\pm \\sqrt{24})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "b) Chứng minh %(\\sqrt{\\frac{a}{b+c}}+\\sqrt{\\frac{b}{a+c}}+\\sqrt{\\frac{c}{b+a}}\\gt 2)%, với %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c}>0)%",
+        "question_images": [],
+        "solution": "Ta có:<br>%(\\begin{array}{l}\\text { } \\frac{b+c+a}{2} \\geq \\sqrt{(b+c) a} \\Leftrightarrow \\frac{b+c+a}{2 a} \\geq \\frac{\\sqrt{(b+c) a}}{a} \\\\ \\Leftrightarrow \\frac{b+c+a}{2 a} \\geq \\sqrt{\\frac{b+c}{a}} \\Leftrightarrow \\sqrt{\\frac{a}{b+c}} \\geq \\frac{2 a}{a+b+c}\\end{array})%<br>Tương tự: %(\\sqrt{\\frac{b}{a+c}} \\geq \\frac{2 b}{a+b+c}, \\sqrt{\\frac{c}{b+a}} \\geq \\frac{2 a}{a+b+c})%<br>\\[\\sqrt{\\frac{a}{b+c}}+\\sqrt{\\frac{b}{a+c}}+\\sqrt{\\frac{c}{b+a}} \\geq \\frac{2(a+b+c)}{(a+b+c)}=2\\]<br>Dấu bằng xảy ra khi %(b+c=a, c+a=b, a+b=c)% (Điều này không có).<br>Vậy %(\\sqrt{\\frac{a}{b+c}}+\\sqrt{\\frac{b}{a+c}}+\\sqrt{\\frac{c}{b+a}}\\gt 2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "a) Tìm số dư của phép chia đa thức %((x+2)(x+4)(x+6)(x+8)+2013)% cho đa thức %(x^{2}+10 x+21)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}(x+2)(x+4)(x+6)(x+8)+2013=\\left(x^{2}+10 x+16\\right)\\left(x^{2}+10 x+24\\right)+2013 \\\\ =\\left(x^{2}+10 x+21-5\\right) \\cdot\\left(x^{2}+10 x+21+3\\right)+2013 \\\\ =(y-5) \\cdot(y+3)+2013 \\text { } \\end{array}\\]<br>Đặt: %(y=x^{2}+10 x+21)%<br>%(=y^{2}-2 y+1998)% chia cho y dư 1998%((x+2)(x+4)(x+6)(x+8)+2013)% cho đa thức %(x^{2}+10 x+21)% dư 1998",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "b) Tìm giá trị nhỏ nhất của biểu thức: %(3 y^{2}+x^{2}+2 x y+2 x+6 y+2017)%",
+        "question_images": [],
+        "solution": "\\[\\begin{aligned}A & =3 y^{2}+x^{2}+2 x y+2 x+6 y+2017 \\\\& =(y+x+1)^{2}+2(1+y)^{2}+2014\\end{aligned}\\]<br>Vây min %(\\mathrm{A}=2014)% khi %(\\mathrm{y}=-1)% và %(\\mathrm{x}=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "1)Cho tam giác %(\\mathrm{ABC}, \\hat{\\mathrm{A}}=90^{\\circ}, \\mathrm{AB}\\lt \\mathrm{AC})%, đường cao %(\\mathrm{AH})%. Gọi %(\\mathrm{D})% và %(\\mathrm{E})% lần lượt là hình chiếu của %(H)% trên %(A B)% và %(A C)%. Chứng minh:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "%(\\mathrm{DE}^{2}=\\mathrm{BH} \\cdot \\mathrm{HC})%",
+        "question_images": [],
+        "solution": "Vì %(\\mathrm{D}, \\mathrm{E})% là hình chiếu của %(\\mathrm{H})% trên %(\\mathrm{AB}, \\mathrm{AC})%, nên %(\\mathrm{DH} \\perp \\mathrm{AB}, \\mathrm{HE} \\perp \\mathrm{AC})%<br>Tứ giác ADHE có %(D A E=90^{\\circ}, A D H=90^{\\circ}, A E H=90^{\\circ})%<br>Tứ giác ADHE là hình chữ nhật%(\\mathrm{AH}=\\mathrm{DE})%, mà %(\\mathrm{AH}^{2}=\\mathrm{BH} \\cdot \\mathrm{HC})% nên %(\\mathrm{DE}^{2}=\\mathrm{BH} \\cdot \\mathrm{HC})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/2f4353fd1a5752a09bddf5e61132dafe.png\" srcset=\"https://docdn.giainhanh.io/media/test/38705e314683846c3a968f5e5c1172c5.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "%(\\mathrm{AH}^{3}=)% BC.BD.CE",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Ta có } \\mathrm{AH}^{2}=\\mathrm{BH} \\cdot \\mathrm{HC} \\Rightarrow \\mathrm{AH}^{3}=\\mathrm{BH} \\cdot \\mathrm{HC} \\cdot \\mathrm{AH} \\\\ \\mathrm{AH} \\cdot \\mathrm{CB}=\\mathrm{AB} \\cdot \\mathrm{AC}, \\mathrm{BA}^{2}=\\mathrm{BH} \\cdot \\mathrm{BC}, \\mathrm{AC}^{2}=\\mathrm{CH} \\cdot \\mathrm{BC} \\\\ \\Rightarrow \\mathrm{AH}^{3}=\\mathrm{BC} \\cdot \\mathrm{BD} \\cdot \\mathrm{CE}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "2)Cho tam giác %(\\mathrm{ABC}, \\mathrm{BC}=\\mathrm{a}, \\mathrm{AC}=\\mathrm{b}, \\mathrm{AB}=\\mathrm{c})%. Chứng minh %(\\sin \\frac{\\hat{\\mathrm{A}}}{2} \\leq \\frac{a}{b+c})%",
+        "question_images": [],
+        "solution": "Vẽ đường phân giác %(\\mathrm{AD})% của tam giác %(\\mathrm{ABC})%<br>Ta có: %(\\frac{B D}{A B}=\\frac{D C}{A C} \\Rightarrow \\frac{B D}{A B}=\\frac{D C}{A C}=\\frac{B D+D C}{A B+A C}=\\frac{C B}{A B+A C}=\\frac{a}{b+c})%<br>Vẽ %(\\mathrm{BI} \\perp \\mathrm{AD} \\Rightarrow \\mathrm{BI} \\leq \\mathrm{BD})%<br>Ta có %(\\sin \\frac{\\hat{\\mathrm{A}}}{2}=\\frac{B I}{A B} \\Rightarrow \\sin \\frac{\\hat{\\mathrm{A}}}{2} \\leq \\frac{B D}{A B+A C})%.<br>Vậy %(\\sin \\frac{\\hat{\\mathrm{A}}}{2} \\leq \\frac{a}{b+c})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e873c6a85f11287748ed3791ff8a9fe3.png\" srcset=\"https://docdn.giainhanh.io/media/test/531c149b7063524173b30c6e031ef23f.png 237w\" width=\"237\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là 3 cạnh một tam giác. Chứng minh:<br>\\[\\frac{1}{a+b-c}+\\frac{1}{b+c-a}+\\frac{1}{c+a-b} \\geq \\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\]",
+        "question_images": [],
+        "solution": "Với %(x\\gt 0, y>0)% ta có %((x+y)^{2} \\geq 4 x y \\Rightarrow \\frac{1}{x}+\\frac{1}{y} \\geq \\frac{4}{x+y})%<br>\\[\\Rightarrow \\frac{1}{x+y} \\leq \\frac{1}{4}\\left(\\frac{1}{x}+\\frac{1}{y}\\right) \\text { (I) }\\]<br>%(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là 3 cạnh của một tam giác nên %(\\mathrm{a}+\\mathrm{b}-\\mathrm{c}>0, \\mathrm{a}+\\mathrm{c}-\\mathrm{b}>0, \\mathrm{c}+\\mathrm{b}-\\mathrm{a}>0)%,<br>Áp dụng bđt (I) với các số %(\\mathrm{x}=\\mathrm{a}+\\mathrm{b}-\\mathrm{c}, \\mathrm{y}=\\mathrm{a}+\\mathrm{c}-\\mathrm{b})% dương ta có:<br>\\[\\frac{1}{a+b-c}+\\frac{1}{a+c-b} \\geq \\frac{4}{a+b-c+a+c-b}=\\frac{2}{a}\\]<br>Tương tự: %(\\frac{1}{b+a-c}+\\frac{1}{b+c-a} \\geq \\frac{4}{c+b-a+a+b-c}=\\frac{2}{b})%<br>\\[\\begin{array}{l}\\frac{1}{c+b-a}+\\frac{1}{c+a-b} \\geq \\frac{4}{c+b-a+c+a-b}=\\frac{2}{c} \\\\Leftrightarrow \\frac{1}{a+b-c}+\\frac{1}{b+c-a}+\\frac{1}{c+a-b} \\geq \\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}(\\mathrm{dcm})\\end{array}\\]",
+        "question_type": "essay"
+    }
+]

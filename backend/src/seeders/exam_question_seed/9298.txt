@@ -1,0 +1,103 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Rút gọn biểu thức %(B=\\frac{x^{3}-y^{3}-z^{3}-3 x y z}{(x+y)^{2}+(y-z)^{2}+(x+z)^{2}})%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}x^{3}-y^{3}-z^{3}-3 x y z=(x-y)^{3}+3 x y(x-y)-z^{3}-3 x y z \\\\=(x-y-z)^{3}+3(x-y) z(x-y-z)+3 x y(x-y-z) \\\\=(x-y-z)\\left[(x-y-z)^{2}+3 x z-3 y z+3 x y\\right] \\\\=(x-y-z)\\left(x^{2}+y^{2}+z^{2}-2 x y-2 x z+2 y z+3 x z-3 y z+3 x y\\right) \\\\=(x-y-z)\\left(x^{2}+y^{2}+z^{2}+x y-y z+x z\\right) \\\\*)(x+y)^{2}+(y-z)^{2}+(x+z)^{2} \\\\=x^{2}+2 x y+y^{2}+y^{2}-2 y z+z^{2}+x^{2}+2 x z+z^{2} \\\\=2\\left(x^{2}+y^{2}+z^{2}+x y-y z+x z\\right)\\end{array}\\]<br>Vậy %(B=\\frac{(x-y-z)\\left(x^{2}+y^{2}+z^{2}+x y-y z+x z\\right)}{2\\left(x^{2}+y^{2}+z^{2}+x y-y z+x z\\right)}=\\frac{x-y-z}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Tìm số dư trong phép chia đa thức %((x+1)(x+3)(x+5)(x+7)+9)% cho %(x^{2}+8 x+12)%",
+        "question_images": [],
+        "solution": "Đặt %(f(x)=(x+1)(x+3)(x+5)(x+7)+9)%<br>\\[\\begin{array}{l}\\text { Ta có: } A=(x+1)(x+7)(x+3)(x+5)+9 \\\\=\\left(x^{2}+8 x+7\\right)\\left(x^{2}+8 x+15\\right)+9 \\\\=\\left(x^{2}+8 x+7\\right)\\left[\\left(x^{2}+8 x+12\\right)+3\\right]+9 \\\\=\\left(x^{2}+8 x+7\\right)\\left(x^{2}+8 x+12\\right)+3\\left(x^{2}+8 x+7\\right)+9 \\\\=\\left(x^{2}+8 x+7\\right)\\left(x^{2}+8 x+12\\right)+3\\left(x^{2}+8 x+12\\right)+9-15 \\\\=\\left(x^{2}+8 x+12\\right)\\left(x^{2}+8 x+10\\right)-6\\end{array}\\]<br>Vậy số dư trong phép chia %(f(x))% cho %(x^{2}+8 x+12)% là -6",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Tìm mọi số nguyên %(x)% sao cho %(x^{3}-2 x^{2}+7 x-7)% chia hết cho %(x^{2}+3)%",
+        "question_images": [],
+        "solution": "Thực hiện phép chia đa thức %(B=x^{3}-2 x^{2}+7 x-7)% cho %(C=x^{2}+3)%, ta được:<br>Đa thức thương: %(x-2)%; đa thức dư: %(4 x-1)%<br>Suy ra : %(x^{3}-2 x^{2}+7 x-7=\\left(x^{2}+3\\right)(x-2)+4 x-1)%<br>Do đó %(B:\\left(x^{2}+3\\right) \\Leftrightarrow(4 x-1)\\vdots\\left(3 x^{2}+3\\right))% (1)<br>Vì %(4 x \\neq 1)% vs %(\\quad 4 x \\neq-1)% nên:<br>\\[\\begin{array}{l}(1) \\Rightarrow(4 x-1)(4 x+1) \\vdots x^{2}+3 \\\\Rightarrow\\left(16 x^{2}-1\\right)\\vdots\\left(x^{2}+3\\right) \\Rightarrow 16\\left(x^{2}+3\\right)+49\\vdots\\left(x^{2}+3\\right) \\\\Rightarrow 49\\vdots\\left(x^{2}+3\\right)\\end{array}\\]<br>Vì %(x^{2}+3 \\geq 3)% nên xảy ra một trong hai trường hợp sau:<br>%(\\bullet x^{2}+3=49)%, không có giá trị nào thỏa mãn<br>%(\\bullet x^{2}+3=7 \\Rightarrow x^{2}=4 \\Leftrightarrow\\left[\\begin{array}{l}x=2(\\mathrm{tm}) \\x=-2(\\mathrm{~km})\\end{array}\\right.)%<br>Vậy %(x=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Giải các phương trình:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) %(\\left(\\frac{1}{4} x+3\\right)^{3}+\\left(\\frac{3}{4} x-4\\right)^{3}+(1-x)^{3}=0)%",
+        "question_images": [],
+        "solution": "Đặt %(a=\\frac{1}{4} x+3 ; b=\\frac{3}{4} x-4 \\Rightarrow a+b=x-1 \\Rightarrow 1-x=-(a+b))%<br>Ta có (pt đề) %(\\Leftrightarrow a^{3}+b^{3}-(a+b)^{3}=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow a^{3}+b^{3}-a^{3}-b^{3}-3 a b(a+b)=0 \\\\Leftrightarrow-3 a b(a+b)=0\\end{array}\\]<br>\\[\\Leftrightarrow\\left[\\begin{array} { l } { a = 0 } \\\\{ b = 0 } \\\\{ a + b = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}\\frac{1}{4} x+3=0 \\\\frac{3}{4} x-4=0 \\Leftrightarrow\\left[\\begin{array}{l}x=-12 \\x-1=0\\end{array}\\right. \\x=\\frac{16}{3} \\x=1\\end{array}\\right.\\right.\\]<br>Vậy %(S=\\left\\{-12 ; \\frac{16}{3} ; 1\\right\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) %(x\\left(\\frac{3-x}{x+1}\\right)\\left(x+\\frac{3-x}{x+1}\\right)=2)%",
+        "question_images": [],
+        "solution": "ĐKXD: %(x \\neq-1)%<br>\\[\\begin{array}{l}x\\left(\\frac{3-x}{x+1}\\right)\\left(x+\\frac{3-x}{x+1}\\right)=2 \\Leftrightarrow \\frac{3 x-x^{2}}{x+1} \\cdot \\frac{x^{2}+x-3-x}{x+1}=2 \\\\Leftrightarrow \\frac{\\left(3 x-x^{2}\\right)\\left(x^{2}+3\\right)}{(x+1)^{2}}=2 \\\\Rightarrow 3 x^{3}+9 x-x^{4}-3 x^{2}=2 x^{2}+4 x+2 \\\\Leftrightarrow x^{4}-3 x^{3}+5 x^{2}-5 x+2=0 \\\\Leftrightarrow(x-1)^{2} \\cdot\\left(x^{2}-x+2\\right)=0\\end{array}\\]<br>\\[\\Leftrightarrow\\left[\\begin{array} { l } { x - 1 = 0 } \\\\{ x ^ { 2 } - x + 2 = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=1(\\mathrm{tm}) \\V N\\end{array}\\right.\\right.\\]<br>Vậy %(S=\\{1\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Tìm giá trị nhỏ nhất của các biểu thức:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) %(A=|3 x+1|+|x+2|-4 x+3)%",
+        "question_images": [],
+        "solution": "Áp dụng tính chất %(|a| \\geq a)%, dấu \" %(=)% \" xảy ra %(\\Leftrightarrow a \\geq 0)%, ta có:<br>\\[A=|3 x+1|+|x+2|-4 x+3 \\geq 3 x+1+x-2-4 x+3=6 \\Rightarrow A \\geq 6\\]<br>Dấu \"=\" xảy ra %(\\Leftrightarrow 3 x+1 \\geq 0)% và %(x+2 \\geq 0 \\Leftrightarrow x \\geq \\frac{-1}{3})% và %(x \\geq-2 \\Leftrightarrow x \\geq-\\frac{1}{3})%<br>Vậy %(\\min A=6 \\Leftrightarrow x \\geq \\frac{-1}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) %(B=\\frac{14 x^{2}-8 x+9}{3 x^{2}+6 x+9})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text {  Ta có } B-\\frac{2}{3}=\\frac{14 x^{2}-8 x+9}{3 x^{2}+6 x+9}-\\frac{2}{3} \\\\=\\frac{\\left(14 x^{2}-8 x+9\\right)-2\\left(x^{2}+2 x+3\\right)}{3\\left(x^{2}+2 x+3\\right)}=\\frac{12 x^{2}-12 x+3}{3\\left(x^{2}+2 x+3\\right)}=\\frac{(2 x-1)^{2}}{(x+1)^{2}+2}\\end{array}\\]<br>Với mọi %(x)%, ta có: %(3(2 x-1)^{2} \\geq 0,(x+1)^{2}+2 \\geq 2\\gt 0)%<br>\\[\\Rightarrow \\frac{(2 x-1)^{2}}{(x+1)^{2}+2} \\geq 0 \\Leftrightarrow B-\\frac{2}{3} \\geq 0 \\Rightarrow B \\geq \\frac{2}{3} \\Leftrightarrow x=\\frac{1}{2}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho tam giác %(A B C)% cân tai A . %(M, D)% tương ứng là trung điề của %(\\mathrm{BC}, \\mathrm{AM} . \\mathrm{H})% là hình chiếu của M trên CD . AH cắt BC tai %(\\mathrm{N}, \\mathrm{BH})% cắt AM tai E . Chứng minh rằng",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) %(\\triangle M H D \\sim \\triangle C M D)%",
+        "question_images": [],
+        "solution": "Vì M là trung điểm của BC nên AM là đường trung tuyến của %(\\triangle A B C)%<br>Mà %(\\triangle A B C)% cân tại A (gt) nên AM là đường cao của %(\\triangle A B C)%<br>Xét %(\\triangle M H D)% và %(\\triangle C M D)% có:<br>%(\\widehat{M H D}=\\widehat{C M D}=90^{\\circ} ; \\widehat{M D H}=\\widehat{C D M})%<br>%(\\Rightarrow \\triangle M H D \\sim \\triangle C M D(\\mathrm{~g} . \\mathrm{g}))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/68781293f067f07d6f627fde63f23dd4.png\" srcset=\"https://docdn.giainhanh.io/media/test/6ed43ca4978478ebac4513fb1ad1bdaa.png 192w\" width=\"192\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) %(E)% là trực tâm %(\\triangle A B N)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\triangle M H D \\sim \\triangle C M D \\text { (câu a) } \\\\left.\\Rightarrow \\frac{H D}{M D}=\\frac{H M}{C M} \\Rightarrow \\frac{H D}{A D}=\\frac{H M}{B M}(V i \\quad M D=A D, C M=B M) \\right\\rvert\\,\\end{array}\\]<br>Mặt khác ta có: %(\\widehat{A D H}=90^{\\circ}+\\widehat{D M H}=\\widehat{B M H})%<br>Suy ra %(\\triangle H D A \\sim \\triangle H M B)% (c.g.c)<br>Do đó: %(\\widehat{A H D}=\\widehat{B H M} \\Rightarrow \\widehat{A H B}=\\widehat{D H M}=90^{\\circ} \\Rightarrow B H \\perp A N)%<br>Kết hợp với %(A M \\perp B C \\Rightarrow E)% là trực tâm %(\\triangle A B N)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Cho hình chữ nhật %(A B C D)%. Goi %(M)% là trung điểm của cạnh CD và N là một điểm trên đường chéo %(A C)% sao cho %(\\widehat{B N M}=90^{\\circ})%. Goi F là điểm đối xứng của A qua N . Chứng minh rằng %(F B \\perp A C)%.",
+        "question_images": [],
+        "solution": "Gọi I là trung điểm của BF , đường thẳng NI cắt BC tai E<br>Ta có: %(F)% đối xứng với A qua %(\\mathrm{N}(\\mathrm{gt}) \\Rightarrow N)% là trung điểm của %(A F)%<br>Mà I là trung điểm của BF nên NI là đường trung bình %(\\triangle A B F)% %(\\Rightarrow N I / / A B, N I=\\frac{1}{2} A B)%<br>Mặt khác %(A B / / C D ; A B=C D(\\mathrm{ABCD})% là hình chữ nhật và M là trung điểm của CD%())% %(A B \\perp B C ; C M=\\frac{C D}{2})%<br>suy ra %(N I \\perp B C ; N I / / C M)% và %(N I=C M)%<br>%(\\Rightarrow)% Tứ giác %(C I N M)% là hình bình hành %(\\Rightarrow C I / / M N)%<br>Mà %(M N \\perp B N\\left(\\widehat{B N M}=90^{\\circ}\\right) \\Rightarrow C K \\perp B N)% tại K<br>Do đó I là trực tâm %(\\triangle B C N \\Rightarrow B F \\perp A C)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1f490197d66045b6bd87b193aef5ec01.png\" srcset=\"https://docdn.giainhanh.io/media/test/340bb0e10f3e11f03edd122f4f35503e.png 245w, https://docdn.giainhanh.io/media/test/462c66ee29f0f6244ddaaf6ca395d4c7.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

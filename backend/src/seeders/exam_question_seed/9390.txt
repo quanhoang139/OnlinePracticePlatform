@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Phân tích đa thức sau thành nhân từ: %(x^{2} \\cdot\\left(x^{4}-1\\right)\\left(x^{2}+2\\right)+1)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}x^{2}\\left(x^{4}-1\\right)\\left(x^{2}+2\\right)+1 \\\\ =x^{2}\\left(x^{2}-1\\right)\\left(x^{2}+1\\right)\\left(x^{2}+2\\right)+1 \\\\ =\\left(x^{4}+x^{2}\\right)\\left(x^{4}+x^{2}-2\\right)+1 \\\\ =\\left(x^{4}+x^{2}\\right)^{2}-2\\left(x^{4}+x^{2}\\right)+1 \\\\ =\\left(x^{4}+x^{2}-1\\right)^{2}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Biết %(4 a^{2}+b^{2}=5 a b)% với %(2 a\\gt b>0)%. Tính giá trị biều thức %(C=\\frac{a b}{4 a^{2}-b^{2}})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}4 a^{2}+b^{2}=5 a b \\Leftrightarrow(a-b)(4 a-b)=0 \\\\Leftrightarrow\\left[\\begin{array} { l } { a - b = 0 } \\\\{ 4 a - b = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}a=b \\a=4 b\\end{array}\\right.\\right.\\end{array})%<br>Do %(2 a\\gt b>0)% nên %(4 a=b)% loại<br>Với %(a=b)% thì %(C=\\frac{a b}{4 a^{2}-b^{2}}=\\frac{a^{2}}{4 a^{2}-a^{2}}=\\frac{1}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Giải các phương trình sau:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(x^{2}-3 x+2+|x-1|=0)%",
+        "question_images": [],
+        "solution": "*Với %(x \\geq 1)% ta có phương trình: %(x^{2}-3 x+2+x-1=0 \\Leftrightarrow x^{2}-2 x+1=0 \\Leftrightarrow x=1(\\mathrm{tm}))%<br>*Với %(x\\lt 1)% ta có phương trình:<br>%(x^{2}-3 x+2+1-x=0 \\Leftrightarrow x^{2}-4 x+3=0 \\Leftrightarrow\\left[\\begin{array}{ll}x=1 & (\\mathrm{ktm}) \\x=3 & (\\mathrm{tm})\\end{array}\\right.)%<br>Vậy nghiệm của phương trình là %(x=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(\\frac{9 x}{2 x^{2}+x+3}-\\frac{x}{2 x^{2}-x+3}=8)%",
+        "question_images": [],
+        "solution": "Xét %(x=0)% không phải là nghiệmXét %(x \\neq 0)%<br>%(\\begin{array}{l}\\frac{9 x}{2 x^{2}+x+3}-\\frac{x}{2 x^{2}-x+3}=8 \\\\Leftrightarrow \\frac{9}{2 x+1+\\frac{3}{x}}-\\frac{1}{2 x-1+\\frac{3}{x}}=8\\end{array})%<br>Đặt %(2 x+\\frac{3}{x}=t)% ta có phương trình:<br>%(\\frac{9}{t+1}-\\frac{1}{t-1}=8)%<br>ĐKXĐ: %(x \\neq \\pm 1)%<br>%(\\begin{array}{l}P T \\Rightarrow 8 t^{2}-8 t+2=0 \\Leftrightarrow 2(2 t-1)^{2}=0 \\Leftrightarrow t=\\frac{1}{2} \\\\Rightarrow 2 x+\\frac{3}{x}=\\frac{1}{2} \\Leftrightarrow 4 x^{2}-x+6=0 \\Leftrightarrow\\left(2 x-\\frac{1}{4}\\right)^{2}+\\frac{95}{16}=0 \\Rightarrow P T V N\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tìm các số nguyên %(x, y)% thỏa mãn: %(x^{2}+2 x y+7(x+y)+2 y^{2}+10=0)%",
+        "question_images": [],
+        "solution": "Ta có:<br>%(\\begin{array}{l}x^{2}+2 x y+7(x+y)+2 y^{2}+10=0 \\\\Leftrightarrow 4 x^{2}+8 x y+28 x+28 y+8 y^{2}+40=0 \\\\Leftrightarrow(2 x+2 y+7)^{2}+4 y^{2}=9\\left(^{*}\\right)\\end{array})%<br>Ta thấy: %((2 x+2 y+7)^{2} \\geq 0)% nên %(4 y^{2} \\leq 9 \\Leftrightarrow y^{2} \\leq \\frac{9}{4})% do %(y)% nguyên nên %(y^{2} \\in\\{0 ; 1\\} \\Rightarrow y \\in\\{0 ; 1 ;-1\\})%<br>Với %(y=0)% thay vào %((*))% ta được %((2 x+7)^{2}=9)% tìm được %(x \\in\\{-2 ;-5\\})%<br>Với %(y=1)% thay vào %((*))% ta có %(:(2 x+9)^{5}=5)% không tìm được x nguyên<br>Với %(y=-1)% thay vào %((*))% ta có: %((2 x+5)^{2}=5)% không tìm được %(x)% nguyên.<br>Vậy %((x ; y))% nguyên tìm được %((-2 ; 0) ;(-5 ; 0))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho đa thức %(f(x)=x^{3}-3 x^{2}+3 x-4)%. Với giá trị nguyên nào của %(x)% thì giá trị của đa thức %(f(x))% chia hết cho giá trị của đa thức %(x^{2}+2)%",
+        "question_images": [],
+        "solution": "Chia %(f(x))% cho %(x^{2}+2)% được thương là %(x-3)% dư %(x+2)%<br>Để %(f(x))% chia hết cho %(x^{2}+2)% thì %(x+2)% chia hết cho %(x^{2}+2)%<br>%(\\Rightarrow(x+2)(x-2))% chia hết cho %(x^{2}+2)%<br>%(\\Rightarrow x^{2}-4)% chia hết cho %(x^{2}+2)%<br>%(\\Rightarrow x^{2}+2-6)% chia hết cho %(x^{2}+2)%<br>%(\\Rightarrow 6)% chia hết cho %(x^{2}+2)% mà %(x^{2}+2 \\geq 2 \\Rightarrow x^{2}+2 \\in\\{3 ; 6\\} \\Rightarrow x \\in\\{ \\pm 1 ; \\pm 2\\})%<br>Thử lại ta thấy %(x=1 ; x=-2)% thỏa mãn<br>Vậy với %(x=1 ; x=-2)% thì %(f(x))% chia hết cho %(x^{2}+2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho O là trung điểm của đoạn AB . Trên cùng một nửa mặt phẳng có bờ là đường thẳng AB vẽ tia %(A x, B y)% cùng vuông góc với AB . Trên tia %(A x)% lấy điểm C (khác A%())%, qua O kè đường thẳng vuông góc với OC cắt tia By tại D.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(A B^{2}=4 A C \\cdot B D)%",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c9f2aa58e3e8b4078af7ea0c219726a6.png\" srcset=\"https://docdn.giainhanh.io/media/test/4a4281dea8e55d7cf0155639811de9ff.png 227w, https://docdn.giainhanh.io/media/test/7b110b70926034a2d9f521e833bed0ba.png 500w\" width=\"500\"/><br>%(\\begin{array}{l}\\text { Chứng minh } \\triangle O A C \\sim \\triangle D B O \\\\ \\Rightarrow \\frac{O A}{D B}=\\frac{A C}{O B} \\Rightarrow O A \\cdot O B=A C \\cdot B D \\\\ \\Rightarrow \\frac{A B}{2} \\cdot \\frac{A B}{2}=A C \\cdot B D \\Rightarrow \\frac{A B^{2}}{4}=4 A C \\cdot B D(\\mathrm{dfcm})\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Kẻ OM vuông góc với %(C D)% tại M . Chứng minh %(A C=C M)%",
+        "question_images": [],
+        "solution": "Theo câu a ta có: %(\\triangle O A C \\sim \\triangle D B O(\\mathrm{~g} \\cdot \\mathrm{g}) \\Rightarrow \\frac{O C}{O D}=\\frac{A C}{O D})%<br>Mà %(O A=O B \\Rightarrow \\frac{O C}{O D}=\\frac{A C}{O A} \\Rightarrow \\frac{O C}{A C}=\\frac{O D}{O A})%<br>Chứng minh %(\\triangle O C D \\sim\\triangle A C O()% c.g.c)<br>%(\\Rightarrow \\widehat{OC D}=\\widehat{A C O})%<br>Chứng minh %(\\triangle O A C=\\triangle O M C(c h-g n) \\Rightarrow A C=M C(d f c m))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Từ M kẻ %(M H)% vuông góc với AB tại H . Chứng minh %(B C)% đi qua trung điểm của %(M H)%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\triangle O A C=\\triangle O M C \\Rightarrow O A=O M ; C A=C M \\Rightarrow O C)% là trung trực của AM %(\\Rightarrow O C \\perp A M)%<br>Mặt khác %(O A=O M=O B \\Rightarrow \\triangle A M B)% vuông tại M<br>%(\\Rightarrow O C / / B M)% (vì cùng vuông góc với %(A M)% ) hay %(\\mathrm{OC} / / \\mathrm{BI})%<br>Chứng minh được C là trung điểm của AI<br>Do %(M H)% / / AI theo hệ quả định lý Ta let ta có: %(\\frac{M K}{I C}=\\frac{B K}{B C}=\\frac{K H}{A C})%<br>Mà %(I C=A C \\Rightarrow M K=H K \\Rightarrow B C)% đi qua trung điểm %(\\mathrm{MH}(đ \\mathrm{~cm}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Cho %(x, y, z)% là các số dương thỏa mãn %(x+y+z=1)%.<br>Tìm giá trị nhỏ nhất của biểu thức : %(P=\\frac{1}{16 x}+\\frac{1}{4 y}+\\frac{1}{z})%.",
+        "question_images": [],
+        "solution": "\\[P=\\frac{1}{16 x}+\\frac{1}{4 y}+\\frac{1}{z}=(x+y+z)\\left(\\frac{1}{16 x}+\\frac{1}{4 y}+\\frac{1}{z}\\right)=\\left(\\frac{y}{16 x}+\\frac{x}{4 y}\\right)+\\left(\\frac{z}{16 x}+\\frac{x}{z}\\right)+\\left(\\frac{z}{4 y}+\\frac{y}{z}\\right)+\\frac{21}{16}\\]<br>Theo BĐT cô si ta có: %(\\frac{y}{16 x}+\\frac{x}{4 y} \\geq \\frac{1}{4} \\Leftrightarrow y=2 x)%<br>Tương tự %(\\frac{z}{16 x}+\\frac{x}{z} \\geq \\frac{1}{2} \\Leftrightarrow z=4 x ; \\frac{z}{4 y}+\\frac{y}{z} \\geq 1 \\Leftrightarrow z=2 y)%<br>%(\\Rightarrow P \\geq \\frac{49}{16})%.<br>Dấu bằng xảy ra khi %(x=\\frac{1}{7} ; y=\\frac{2}{7} ; z=\\frac{4}{7})%",
+        "question_type": "essay"
+    }
+]

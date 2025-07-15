@@ -1,0 +1,96 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "Cho biểu thức : %(A=\\left[\\frac{2}{3 x}-\\frac{2}{x+1} \\cdot\\left(\\frac{x+1}{3 x}-x-1\\right)\\right]: \\frac{x-1}{x})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Rút gọn biểu thức %(A)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=\\left[\\frac{2}{3 x}-\\frac{2}{x+1} \\cdot\\left(\\frac{x+1}{3 x}-x-1\\right)\\right]: \\frac{x-1}{x} \\\\ A=\\left[\\frac{2}{3 x}-\\frac{2}{x+1} \\cdot \\frac{(x+1)-3 x(x+1)}{3 x}\\right]: \\frac{x-1}{x} \\\\ A=\\left[\\frac{2}{3 x}-\\frac{2(1-3 x)}{3 x}\\right] \\cdot \\frac{x}{x-1} \\\\ A=2 \\cdot \\frac{x}{x-1}=\\frac{2 x}{x-1}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Tìm giá trị nguyên của %(x)% để %(A)% nhận giá trị nguyên.",
+        "question_images": [],
+        "solution": "Với %(x \\neq 0 ; x \\neq \\pm 1)%. Ta có: %(A=\\frac{2 x}{x-1}=2+\\frac{2}{x-1})%<br>Để %(A \\in \\mathbb{Z})% thì %((x-1))% phải là ước của %(2 \\Rightarrow x-1 \\in\\{ \\pm 1 ; \\pm 2\\})%<br>Xét từng trường hợp tìm %(x)%, đối chiếu điều kiện %(\\Rightarrow x \\in\\{2 ; 3\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Chứng minh rằng: %(A=\\left[n^{3}\\left(n^{2}-7\\right)^{2}-36 n\\right]: 7 \\ \\forall n \\in \\mathbb{Z})%",
+        "question_images": [],
+        "solution": "Ta có:<br>%(\\begin{array}{l}A=\\left[n^{3}\\left(n^{2}-7\\right)^{2}-36 n\\right] \\\\ =n\\left[n\\left(n^{2}-7\\right)-6\\right]\\left[n\\left(n^{2}-7\\right)+6\\right]=n\\left(n^{3}-7 n-6\\right)\\left(n^{3}-7 n+6\\right) \\\\ =n\\left(n^{3}-n-6 n-6\\right)\\left(n^{3}-n-6 n+6\\right)=n\\left[n\\left(n^{2}-1\\right)-6(n+1)\\right]\\left[n\\left(n^{2}-1\\right)-6(n-1)\\right] \\\\ =n(n+1)\\left(n^{2}-n-6\\right)(n-1)\\left(n^{2}+n-6\\right)=n(n+1)(n+2)(n-3)(n-1)(n-2)(n+3)\\end{array})%<br>Do đó %(A)% là tích của 7 số nguyên liên tiếp nên %(A: 7 \\ \\forall n \\in \\mathbb{Z})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.0,
+        "content": "Cho %(P=n^{4}+4)%. Tìm tất cả các số tự nhiên %(n)% để %(P)% là số nguyên tố.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}P=n^{4}+4=n^{4}+4 n^{2}+4-4 n^{2}=\\left(n^{2}+2\\right)-(2 n)^{2} \\\\ =\\left(n^{2}-2 n+2\\right)\\left(n^{2}+2 n+2\\right)=\\left[(n-1)^{2}+1\\right] \\cdot\\left[(n+1)^{2}+1\\right]\\end{array})%<br>Vì %(n)% là số tự nhiên nên %((n+1)^{2}+1 \\geq 2)%. Như vậy muốn %(P)% là số nguyên tố thì phải có %((n-1)^{2}+1=1)% hay %((n-1)^{2}=0 \\Rightarrow n=1)%<br>Khi đó %(P=5)% là số nguyên tố.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(\\frac{1}{x^{2}+9 x+20}+\\frac{1}{x^{2}+11 x+30}+\\frac{1}{x^{2}+13 x+42}=\\frac{1}{18})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}x^{2}+9 x+20=(x+4)(x+5) \\\\ x^{2}+11 x+30=(x+6)(x+5) \\\\ x^{2}+13 x+42=(x+6)(x+7)\\end{array})%<br>TXĐ: %(x \\neq\\{-4 ;-5 ;-6 ;-7\\})%<br>Phương trình trở thành:<br>%(\\begin{array}{l}\\frac{1}{(x+4)(x+5)}+\\frac{1}{(x+5)(x+6)}+\\frac{1}{(x+6)(x+7)}=\\frac{1}{18} \\\\ \\Leftrightarrow \\frac{1}{x+4}-\\frac{1}{x+5}+\\frac{1}{x+5}-\\frac{1}{x+6}+\\frac{1}{x+6}-\\frac{1}{x+7}=\\frac{1}{18} \\\\ \\Leftrightarrow \\frac{1}{x+4}-\\frac{1}{x+7}=\\frac{1}{18} \\\\ \\Rightarrow 18(x+7)-18(x+4)=(x+7)(x+4) \\\\ \\Leftrightarrow(x+13)(x-2)=0 \\Rightarrow\\left[\\begin{array}{l}x=-13 \\\\ x=2\\end{array}\\right. \\\\ S=\\{-13 ; 2\\}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là ba cạnh của một tam giác. Chứng minh rằng: %(A=\\frac{a}{b+c-a}+\\frac{b}{a+c-b}+\\frac{c}{a+b-c} \\geq 3)%",
+        "question_images": [],
+        "solution": "Đặt %(b+c-a=x\\gt 0 ; c+a-b=y>0 ; a+b-c=z>0)%. Ta có %(x, y, z>0)%<br>Từ đó suy ra %(a=\\frac{y+z}{2} ; b=\\frac{x+z}{2} ; c=\\frac{x+y}{2})%;<br>Thay vào ta được %(A=\\frac{y+z}{2 x}+\\frac{x+z}{2 y}+\\frac{x+y}{2 z}=\\frac{1}{2}\\left[\\left(\\frac{y}{x}+\\frac{x}{y}\\right)+\\left(\\frac{x}{z}+\\frac{z}{x}\\right)+\\left(\\frac{y}{z}+\\frac{z}{y}\\right)\\right])%<br>Từ đó suy ra %(A \\geq \\frac{1}{2}(2+2+2)=3 )% hay %( A \\geq 3)%<br>Dấu \" %(=)% \" xảy ra %(\\Leftrightarrow a=b=c)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6:",
+        "group_content": "Gọi %(O)% là trung điểm của đoạn thẳng %(AB)%. Trên cùng một nửa mặt phẳng bờ là đường thẳng %(A B)% kẻ hai tia %(A x)% và %(B y)% cùng vuông góc với %(AB)%. Trên tia %(A x)% lấy điểm %(\\mathrm{C}(C \\neq A))%. Từ %(O)% kẻ đường thẳng vuông góc với %(O C)%, đường thẳng này cắt %(B y)% tại %(D)%. Từ %(O)% hạ đường vuông góc %(O M)% xuống %(CD)% (%(M)% thuộc %(CD)%%())%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh %(O A^{2}=A C \\cdot B D)%",
+        "question_images": [],
+        "solution": "Xét %(\\triangle A C O)% và %(\\triangle B O D)% có: %(\\hat{A}=\\widehat{B}=90^{\\circ} ; \\widehat{C O A}=\\widehat{O D B})% (cùng phụ với %(\\widehat{D O B})% )<br>Nên %(\\triangle A C O \\sim \\triangle B O D(\\mathrm{~g} \\cdot \\mathrm{g}) \\Rightarrow \\frac{A O}{A C}=\\frac{B D}{B O} \\Rightarrow A O \\cdot B O=A C \\cdot B D)%<br>Mà %(A O=B O)% nên %(A O^{2}=A C \\cdot B D)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f6e92a7746dd2c6c86207a00bd55ffd4.png\" srcset=\"https://docdn.giainhanh.io/media/test/e05c57ef81ca5feafb9575f05dda7658.png 170w, https://docdn.giainhanh.io/media/test/7317ae2d01dbd5384e971c5880192755.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Chứng minh tam giác %(A M B)% vuông.",
+        "question_images": [],
+        "solution": "Xét %(\\triangle C M O)% và %(\\triangle O M D)% có: %(\\overparen{C M O}=\\overparen{O M D}=90^{\\circ} ; \\widehat{O C M}=\\widehat{D O M})% (cùng phụ với %(\\widehat{C O M}) \\Rightarrow \\triangle C M O \\sim \\triangle O M D(g . g) \\Rightarrow \\frac{C O}{O D}=\\frac{O M}{M D})% %((1))%<br>Mà %(\\triangle A C O \\sim \\triangle B O D \\Rightarrow \\frac{C O}{O D}=\\frac{A O}{B D} \\Rightarrow \\frac{C O}{O D}=\\frac{O B}{B D}(2)()% Do %(A O=O B))%<br>Từ %((1))% và %((2))% ta có %(\\frac{O M}{M D}=\\frac{O B}{B D} \\Rightarrow \\triangle O M D \\sim \\triangle O B D)%<br>%(\\Rightarrow \\widehat{M O D}=\\widehat{B O D} \\Rightarrow \\triangle O M D=\\triangle O B D)% (cạnh huyền - góc nhọn)<br>%(\\Rightarrow O M=O B=O A)% suy ra %(\\triangle A M B)% vuông tại %(M)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d0c719e4c59d7efea8ae9dec9ee94996.png\" srcset=\"https://docdn.giainhanh.io/media/test/0cc6bee11f6ce07eea481fe063f8a6bf.png 170w, https://docdn.giainhanh.io/media/test/4db73973a363b00befc03fad3ceb4625.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Gọi %(N)% là giao điểm của %(B C)% và %(AD)%. Chứng minh %(M N / / A C)%.",
+        "question_images": [],
+        "solution": "Ta có: %(A C / / B D)% (cùng %(\\perp A B) \\Rightarrow \\frac{C N}{N B}=\\frac{A C}{B D})%<br>Mà %(B D=M D)% (hai cạnh tương ứng của hai tam giác bằng nhau)<br>Tương tự ta chứng minh : %(A C=C M)%<br>Nên %(\\frac{C N}{B N}=\\frac{C M}{D M} \\Rightarrow M N / / B D / / A C)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ba44f28fd89fc167b408f0ad0e760aca.png\" srcset=\"https://docdn.giainhanh.io/media/test/1ec0ae9f7911a0f0be56fa2d07b357c1.png 170w, https://docdn.giainhanh.io/media/test/e91c3eeb679ed284743ec8a6bcbc8023.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là các số thực dương thỏa mãn %(a+b+c=1)%. Chứng minh rằng: %(\\frac{a+b c}{b+c}+\\frac{b+c a}{c+a}+\\frac{c+a b}{a+b} \\geq 2)%",
+        "question_images": [],
+        "solution": "Nhận xét có: %(a+b c=a(a+b+c)+b c=(a+b)(c+a))%<br>Tương tự có: %(b+c a=(b+a)(b+c); c+a b=(c+a)(c+b))%<br>Do đó %(V T=\\frac{(a+b)(a+c)}{b+c}+\\frac{(b+a)(b+c)}{c+a}+\\frac{(c+a)(c+b)}{a+b})%<br>Áp dụng bất đẳng thức Cô – si ta có:<br>%(\\begin{array}{l}\\frac{(a+b)(a+c)}{b+c}+\\frac{(b+a)(b+c)}{c+a} \\geq 2(a+b) \\\\ \\frac{(a+b)(a+c)}{b+c}+\\frac{(c+a)(c+b)}{a+b} \\geq 2(a+c) \\\\ \\frac{(b+a)(b+c)}{a+c}+\\frac{(c+a)(c+b)}{a+b} \\geq 2(b+c)\\end{array})%<br>Vậy %(2.VT\\geq 4(a+b+c)=4)% hay %(V T \\geq 2)% (đpcm)<br>Đẳng thức xảy ra khi %(a=b=c=\\frac{1}{3})%",
+        "question_type": "essay"
+    }
+]

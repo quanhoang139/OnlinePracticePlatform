@@ -1,0 +1,125 @@
+[
+    {
+        "title": "1",
+        "group_content": "Giải các phương trình sau",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(2 \\sin x-1=0)%",
+        "question_images": [],
+        "solution": "%(2 \\sin x-1=0 \\Leftrightarrow \\sin x=\\frac{1}{2} \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{\\pi}{6}+k 2 \\pi \\\\ x=\\frac{5 \\pi}{6}+k 2 \\pi\\end{array} \\quad(k \\in Z)\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b  ",
+        "point": 1.0,
+        "content": "b) %(3 \\sin ^{2} x-4 \\sin x \\cos x+\\cos ^{2} x=0)%",
+        "question_images": [],
+        "solution": "%(\\cos x=0)% không thỏa mãn phương trình: vì %(3 \\sin ^{2} x=0)%.<br>\\[\\begin{array}{l}\\cos x \\neq 0 \\text { ptth: } 3 \\tan ^{2} x-4 \\tan x+1=0 \\Leftrightarrow\\left[\\begin{array}{l}\\tan x=1 \\\\tan x=\\frac{1}{3}\\end{array}\\right. \\\\Leftrightarrow\\left[\\begin{array}{c}x=\\frac{\\pi}{4}+k \\pi \\x=\\arctan \\frac{1}{3}+k \\pi\\end{array}(k \\in Z)\\right.\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) %(\\sin ^{3}\\left(x+\\frac{\\pi}{4}\\right)=\\sqrt{2} \\sin x)%",
+        "question_images": [],
+        "solution": "Đặt %(t=x+\\frac{\\pi}{4})% ptth: %(\\sin ^{3} t=\\sqrt{2} \\sin \\left(t-\\frac{\\pi}{4}\\right) \\Leftrightarrow \\sin ^{3} t=\\sin t-\\cos t)%<br>Nhận xét: sint %(=0)% không thỏa mãn pt vì cost %(=0)%<br>\\[\\begin{array}{l}\\sin t \\neq 0 p t\\left({ }^{*}\\right) \\Leftrightarrow 1=\\frac{1}{\\sin ^{2} t}-\\frac{\\cos t}{\\sin ^{3} t} \\Leftrightarrow \\cot ^{3} t-\\cot ^{2} t+\\cot t=0 \\Leftrightarrow \\cot t=0 \\\\Leftrightarrow t=\\frac{\\pi}{2}+k \\pi \\Rightarrow x=\\frac{\\pi}{4}+k \\pi .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tìm hệ số %(x^{6})% trong khai triển %((2 x+1)^{8})% thành đa thức.",
+        "question_images": [],
+        "solution": "Ta có %((2 x+1)^{8}=\\sum_{k=0}^{8} C_{8}^{k} 2^{8-k} x^{8-k})%<br>Ycbt %(8-k=6 \\Rightarrow k=2)%<br>vậy hệ số %(x^{6})% trong khai triển %(C_{8}^{2} 2^{6}=1792)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Tìm số tự nhiên %(n\\gt 5)% trong khai triển %(\\left(x+\\frac{1}{2}\\right)^{n})% thành đa thức biến %(x)%, có hệ số %(x^{6})% bằng 4 lần hệ số %(x^{4})%.",
+        "question_images": [],
+        "solution": "Ta có %(\\left(\\frac{1}{2}+x\\right)^{n}=\\sum_{k=0}^{n} C_{n}^{k}\\left(\\frac{1}{2}\\right)^{n-k} x^{k})%<br>Ycbt %(C_{n}^{6}\\left(\\frac{1}{2}\\right)^{n-6}=4 C_{n}^{4}\\left(\\frac{1}{2}\\right)^{n-4} \\Leftrightarrow C_{n}^{6}=C_{n}^{4} \\Leftrightarrow n-6=4 \\Leftrightarrow n=10)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Một hộp có chứa 7 viên bi xanh được đánh số từ 1 đến 7 và 5 viên bi đỏ được đánh số từ 8 đến 12. Chọn ngẫu nhiên hai viên bi.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tính xác suất để chọn được 2 viên bi cùng màu.",
+        "question_images": [],
+        "solution": "\\[|\\Omega|=C_{12}^{2}=66\\]<br>Gọi %(\\mathrm{A})% biến cố chọn được hai viên bi cùng màu %(\\left|\\Omega_{A}\\right|=C_{7}^{2}+C_{5}^{2}=31)%<br>\\[P(A)=\\frac{31}{66}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b (null điểm)",
+        "point": 0.0,
+        "content": "b) Tính xác suất để chọn được hai viên bi khác màu và tổng 2 số ghi trên hai viên bi là số chẵn.",
+        "question_images": [],
+        "solution": "\\[|\\Omega|=C_{12}^{2}=66\\]<br>Gọi %(\\mathrm{B})% biến cố \" chọn 2 viên bi khác màu và tổng số ghi trên hai bi là số chẵn\"<br>%(\\left|\\Omega_{B}\\right|=C_{4}^{1} C_{2}^{1}+C_{3}^{1} C_{3}^{1}=17)%.<br>vậy %(P(B)=\\frac{17}{66})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Trong mặt phẳng %((\\mathrm{Oxy}))% cho điểm %(\\mathrm{A}(2 ;-1))% và đường tròn %((\\mathrm{C}))% có tâm %(\\mathrm{I}(1 ;-2))% bán kính %(\\mathrm{R}=3)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tìm tọa độ điểm %(A^{\\prime})% là ảnh của điểm A qua phép tịnh tiến %(T_{\\vec{u}})% với %(\\underset{u}{ }(3 ;-2))%",
+        "question_images": [],
+        "solution": "%(T_{u}(A)=A^{\\prime}\\left(x^{\\prime} ; y^{\\prime}\\right))% thì %(\\left\\{\\begin{array}{l}x^{\\prime}=x+a \\\\ y^{\\prime}=y+b\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}x^{\\prime}=2+3 \\\\ y^{\\prime}=-1-2\\end{array} \\Rightarrow A^{\\prime}(5 ;-3)\\right.\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Viết phương trình đường tròn %(\\left(\\mathrm{C}^{\\prime}\\right))% là ảnh của đường tròn %((\\mathrm{C}))% qua phép đồng dạng có được bằng cách thực hiện liên tiếp phép đối xứng trục %(\\mathrm{Ox})% và phép vị tự tâm %(\\mathrm{O})% tỉ số %(k=-3)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}Ð_{o x}(C)=\\left(C_{1}\\right) \\Rightarrow Ð_{o x}(I)=I_{1}\\left(x^{\\prime} ; y^{\\prime}\\right) \\Rightarrow\\left\\{\\begin{array} { l } { x ^ { \\prime } = 1 } \\\\{ y ^ { \\prime } = 2 }\\end{array} \\Rightarrow ( C _ { 1 } ) \\left\\{\\begin{array}{c}T a ̂ m I_{1}(1 ; 2) \\B \\text { án kính } R_{1}=R=3\\end{array}\\right.\\right. \\V(o ;-3)\\left(C_{1}\\right)=\\left(C^{\\prime}\\right) \\Rightarrow V(o ;-3)\\left(I_{1}\\right)=I_{1}\\left(x^{\\prime} ; y^{\\prime}\\right) \\Rightarrow\\left\\{\\begin{array}{l}x^{\\prime}=-3 \\y^{\\prime}=-6\\end{array}\\right. \\\\Rightarrow\\left(C_{1}\\right)\\left\\{\\begin{array}{c}\\text { Tâm: } I^{\\prime}(-3 ;-6) \\B k: R^{\\prime}=9\\end{array}\\right.\\end{array}\\]<br>Phương trình %(\\left(C^{\\prime}\\right)(x+3)^{2}+(y+6)^{2}=81)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho hình chóp %(S)%. %(A B C D)% có đáy %(A B C D)% là hình bình hành. Gọi %(\\mathrm{M}, \\mathrm{N})% lần lượt trung điểm %(A D)% và %(S C)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tìm giao tuyến %((S A C) \\cap(S B D))% và %((S A D) \\cap(S B C))%.",
+        "question_images": [],
+        "solution": "%(\\left.\\begin{array}{l}S \\in(S A C) \\\\ S \\in(S B D\\end{array}\\right\\} \\Rightarrow)% S điểm chung thứ nhất.<br>Gọi %(\\mathrm{O})% là giao điểm %(\\mathrm{AC})% và %(\\mathrm{BD})% nên %(\\mathrm{O})% là điểm chung của hai mặt phẳng.<br>Vậy%((S A C) \\cap(S B D)=S O)%%((S A D) \\cap(S B C)=?)%%(S \\in(S A D)\\} \\Rightarrow)%%(S \\in(S B C)\\} \\Rightarrow)% S điểm chung %(2 \\mathrm{mp})%.<br>Ta có%(\\left.\\begin{array}{l}A D / / B C \\\\ A D \\subset(S A D) \\\\ B C \\subset(S B D)\\end{array}\\right\\} \\Rightarrow(S A D) \\cap(S B D)=d)%<br>Đường thẳng %(\\mathrm{d})% đi qua %(\\mathrm{S})% và %(\\mathrm{d})% song song với %(\\mathrm{AD})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Tìm giao điểm %(I)% của %(A N)% với mặt phẳng %((S B M))% và tính %(\\frac{A I}{A N})%",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{G})% giao điểm %(\\mathrm{AC})% và %(\\mathrm{AM})%, suy ra %(\\mathrm{G})% là trọng tâm tam giác %(\\mathrm{ABD})%.<br>Gọi %(\\mathrm{I})% là giao điểm %(\\mathrm{AN})% và %(\\mathrm{SG})%.<br>Ta có %(I \\in A N)% và %(I \\in S G)%<br>\\[\\subset(S A M) \\Rightarrow I=A N \\cap(S A M)\\]<br>Gọi %(\\mathrm{E})% là trung điểm %(\\mathrm{GC})%.<br>Ta có %(\\mathrm{NE})% là đường trung bình tam giác SGC.<br>Tương tự %(\\mathrm{IG})% là đường trung bình tam giác %(\\mathrm{ANE})%<br>Vậy %(\\frac{A I}{A N}=\\frac{1}{2})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/03fb7956106598edb274fa3b82f5131c.png\" srcset=\"https://docdn.giainhanh.io/media/test/53113c467d8999234fbb1765ff91b2d7.png 115w\" width=\"115\"/>",
+        "question_type": "essay"
+    }
+]

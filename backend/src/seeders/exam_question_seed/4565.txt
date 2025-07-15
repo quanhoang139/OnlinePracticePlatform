@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Giải phương trình lượng giác sau: %(2 \\sin ^{2} x-\\sin x \\cdot \\cos x+3 \\cos ^{2} x=2)%",
+        "question_images": [],
+        "solution": "TH1: %(\\cos x=0 \\Leftrightarrow x=\\frac{\\pi}{2}+k \\pi \\Rightarrow\\left\\{\\begin{array}{c}\\cos x=0 \\\\ \\sin ^{2} x=1\\end{array}\\right.)% pt %(\\Leftrightarrow 2=2)% (lđ) %(\\Rightarrow x=\\frac{\\pi}{2}+k \\pi)% là nghiệm.<br>\\[\\begin{array}{l}\\mathrm{TH} 2: \\cos x \\neq 0 \\\\mathrm{pt} \\Leftrightarrow 2 \\tan ^{2} x-\\tan x+3=2\\left(\\tan ^{2} x+1\\right) \\\\Leftrightarrow \\tan x=1 \\Leftrightarrow x=\\frac{\\pi}{4}+k \\pi \\\\end{array}\\]<br>Vậy pt có hai nghiệm %(x=\\frac{\\pi}{2}+k \\pi, x=\\frac{\\pi}{4}+k \\pi, k \\in Z)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Giải phương trình sau: %(A_{x}^{2}-2 C_{x}^{1}=108)% (với %(A_{n}^{k}, C_{n}^{k})% là số chỉnh hợp và tổ hợp chập %(k)% của n phần tủ)",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { ĐK }: x \\geq 2 ; x \\in \\mathbb{N} p t \\Leftrightarrow \\frac{x!}{(x-2)!}-2 x=108 \\\\ \\Leftrightarrow x^{2}-3 x-108=0 \\Leftrightarrow\\left[\\begin{array}{l}x=12(n) \\\\ x=-9(l)\\end{array}\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Một tổ có 7 nam và 5 nữ. Chọn ngẫu nhiên ba người. Tính xác suất sao cho trong ba người đó có ít nhất 2 nữ.",
+        "question_images": [],
+        "solution": "%(n(\\Omega)=C_{12}^{3}=220 \\quad)%<br>gọi %(\\mathrm{A})% là biến có ít nhất 2 nữ.<br>\\[\\begin{array}{l}\\Rightarrow n(A)=C_{5}^{2} \\cdot C_{7}^{1}+C_{5}^{3}=80 \\\\Rightarrow p(A)=\\frac{4}{11}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Một nhóm học sinh gồm 12 bạn nam trong đó có Khoa và 5 bạn nữ trong đó có Linh, được xếp vào 17 ghế thành một hàng ngang. Tính xác suất để không có bạn nữ nào ngồi cạnh nhau và giữa hai bạn nữ có đúng 3 bạn nam ngồi cạnh nhau, đồng thời Khoa và Linh không ngồi cạnh nhau.",
+        "question_images": [],
+        "solution": "Không gian mẫu %(n(\\Omega)=17)% !<br>Gọi %(\\mathrm{B})% là biến cố cần tìm.<br>Đánh số thứ tự các ghế từ 1 đến 17<br><strong>TH1:</strong> Linh ngồi ghế số 1 (và 17 giống nhau)<br>+ Xếp 4 nữ còn lại có: 4 ! cách<br>+ Xếp Khoa có: 11 cách<br>+ Xếp 11 nam còn lại có: 11 ! cách<br>%(\\Rightarrow)% có: %(2.4!.11 .11!)%<br><strong>TH2:</strong> Linh ngồi ghế số 5 (9 và 13 giống nhau)<br>+ Xếp 4 nữ còn lại có: 4 ! cách<br>+ Xếp Khoa có: 10 cách<br>+ Xếp 11 nam còn lại có: 11 ! cách<br>%(\\Rightarrow)% có: %(3.4!\\cdot 10.11!)%%(\\Rightarrow n(B)=2.4!.11 .11!+3 \\cdot 4!.10 .11!=4981616640)%<br>%(P(B)=\\frac{1}{7140})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Tìm số hạng chứa %(x^{6})% trong khai triển %(\\left(x^{4}+\\frac{1}{x^{2}}\\right)^{12} \\cdot(x \\neq 0))%",
+        "question_images": [],
+        "solution": "Số hạng tổng quát là: %(C_{12}^{k}\\left(x^{4}\\right)^{12-k}\\left(\\frac{1}{x^{2}}\\right)^{k}=C_{12}^{k} x^{48-6 k})%<br>Ycbt %(\\Leftrightarrow 48-6 k=6 \\Leftrightarrow k=7)%<br>Số hạng chứa %(x^{6})% là %(C_{12}^{7} x^{6})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho cấp số cộng %(\\left(u_{n}\\right))% biết %(\\left\\{\\begin{array}{l}u_{2}+u_{8}=46 \\\\ u_{3}-u_{6}+u_{7}=18\\end{array}\\right.)%. ( %(u_{n})% : là số hạng thứ %(\\left.\\mathrm{n}\\right))%.<br>Tính số hạng đầu %(\\left(u_{1}\\right))%, công sai %((d))% và tổng 100 số hạng đầu %(\\left(S_{100}\\right))% của cấp số cộng trên.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\left\\{\\begin{array}{l}2 u_{1}+8 d=46 \\\\ u_{1}+3 d=18\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}u_{1}=3 \\\\ d=5\\end{array}\\right.\\right. \\\\ S_{100}=100 u_{1}+\\frac{100.99}{2} d=25050\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Một vận động viên điền kinh sau khi phẫu thuật đầu gối được theo một lớp huấn luyện chương trình chạy bộ từ từ, chương trình này quy định thời gian chạy của mỗi ngày trong một tuần là như nhau: trong tuần đầu tiên vận động viên đó chỉ được chạy bộ 10 phút mỗi ngày. Cứ sau mỗi tuần, vận động viên đó được tăng thời gian chạy lên 5 phút mỗi ngày. Hỏi phải đến tuần thứ mấy thì vận động viên đó chạy bộ được 60 phút mỗi ngày?",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}u_{1}=10, d=5 \\\\Rightarrow 60=10+(n-1) 5 \\\\Leftrightarrow n=11\\end{array}\\]<br>Vậy tuần thứ 11 thì vận động viên đó chạy được 60 phút mỗi ngày.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho hình chóp %(S . A B C D)%, có đáy %(A B C D)% là hình chữ nhật. Gọi %(H, K)% lần lượt là trung điểm của %(S A, S D)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tìm giao tuyến của %((S A B))% và %((S C D))%",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5d5c70c77516e378598807f0c4bc4fc3.png\" srcset=\"https://docdn.giainhanh.io/media/test/fd6a7676a38dd50b60862f272e60cd09.png 241w, https://docdn.giainhanh.io/media/test/3567b4480629ad40452aa0be80fc92df.png 500w\" width=\"500\"/><br>%(\\left.\\begin{array}{c}S \\in(S A B) \\cap(S C D) \\\\ \\text { Ta có: } A B \\subset(S A B) ; C D \\subset(S C D) \\\\ A B / / C D(A B C D h c n)\\end{array}\\right\\})%<br>%(\\Rightarrow(S A B) \\cap(S C D)=d()% d đi qua %(\\mathrm{S})% và %(d / / A B / / C D))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh: %(H K / /(S B C))%.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}\\left.\\begin{array}{l}H K / / A D(d t b) \\A D / / B C(A B C D h c n)\\end{array}\\right\\} \\\\left.\\Rightarrow \\begin{array}{rl} & H K / / B C \\\\& B C \\subset(S B C)\\end{array}\\right\\} \\\\Rightarrow H K / /(S B C) \\\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Cho %((\\alpha))% là mặt phẳng qua %(H)% và song song với 2 đường %(A B, S D)%. Tìm thiết diện của mặt phẳng %((\\alpha))% với hình chóp %(S . A B C D)%. Xác định hình tính của thiết diện.",
+        "question_images": [],
+        "solution": "Do %(\\mathrm{mp}(\\alpha))% qua %(\\mathrm{I})% và song song với 2 đường %(S D, A B)% nên ta dựng:<br>\\[\\begin{array}{l}H M / / S D(M \\in A D) \\M N / / A B(N \\in B C) \\H P / / A B(P \\in S B)\\end{array}\\]<br>Trình bày các giao tuyến khép kín<br>.%(\\Rightarrow)% Thiết diện là tứ giác %(H M N P)%<br>Mặt khác, ta có:%(H P / / M N)% ( cùng song song với %(\\mathrm{AB}))%%(\\Rightarrow H M N P)% là hình thang.",
+        "question_type": "essay"
+    }
+]

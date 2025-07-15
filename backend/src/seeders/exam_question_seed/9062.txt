@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Chứng minh %(A=\\sqrt[3]{1+\\frac{\\sqrt{84}}{9}}+\\sqrt[3]{1-\\frac{\\sqrt{84}}{9}})% là số nguyên.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}A^{3}=2+3\\left(\\sqrt[3]{1+\\frac{\\sqrt{84}}{9}}+\\sqrt[3]{1-\\frac{\\sqrt{84}}{9}}\\right)\\left(\\sqrt[3]{1+\\frac{\\sqrt{84}}{9}} \\sqrt[3]{1-\\frac{\\sqrt{84}}{9}}\\right) \\A^{3}=2+3 A\\left(\\sqrt[3]{1-\\frac{84}{81}}\\right) \\A^{3}=2-A \\A^{3}+A-2=0 \\\\(A-1)\\left(A^{2}+A+2\\right)=0 \\A-1=0 \\quad\\left(\\text { vì } A^{2}+A+2 \\neq 0\\right) \\A=1\\end{array}\\]<br>Vậy %(A)% nguyên.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Giả sử %(p)% và %(p^{2}+2)% đều là các số nguyên tố. Chứng minh %(p^{3}+2)% cũng là một số nguyên tố.",
+        "question_images": [],
+        "solution": "Vớ %(p=2: p^{2}+2=6(\\mathrm{ktm}))%<br>Với %(p=3: p^{2}+2=11, p^{3}+2=29)% (TM)<br>Với %(p\\gt 3 \\Rightarrow p^{2}=3 k+1: p^{2}+2=(3 t+3) \\rightsquigarrow 3)%(KTM)<br>)Vậy %(\\mathrm{p}=3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Giải các phương trình sau:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) %(x+4 \\sqrt{x+3}+2 \\sqrt{3-2 x}=11)%",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} & x+4 \\sqrt{x+3}+2 \\sqrt{3-2 x}=11 \\\\ \\Leftrightarrow & 11-x-4 \\sqrt{x+3}-2 \\sqrt{3-2 x}=0 . \\\\ \\Leftrightarrow & x+3-4 \\sqrt{x+3}+4+3-2 x-2 \\sqrt{3-2 x}+1=0 . \\\\ \\Leftrightarrow & (\\sqrt{x+3}-2)^{2}+(\\sqrt{3-2 x}-1)^{2}=0 . \\\\ \\Leftrightarrow & \\sqrt{x+3}-2=\\sqrt{3-2 x}-1=0 . \\\\ \\Leftrightarrow & x=1 .\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) %(\\sqrt{3 x-5}+\\sqrt{7-3 x}=5 x^{2}-20 x+22)%",
+        "question_images": [],
+        "solution": "%(\\sqrt{3 x-5}+\\sqrt{7-3 x}=5 x^{2}-20 x+22)%<br>Ta có: %(5 x^{2}-20 \\mathrm{x}+22=5\\left(x^{2}-4 \\mathrm{x}+4\\right)+2=5(x-2)^{2}+2 \\geq 2)%<br>\\[\\begin{array}{l}(\\sqrt{3 x-5}+\\sqrt{7-3 x})^{2} \\leq\\left(1^{2}+1^{2}\\right)(3 x-5+7-3 x)=4 \\\\sqrt{3 x-5}+\\sqrt{7-3 x} \\leq 2 .\\end{array}\\]<br>Vậy %(\\sqrt{3 x-5}+\\sqrt{7-3 x}=5 x^{2}-20 \\mathrm{x}+22=2)%<br>\\[5 x^{2}-20 \\mathrm{x}+20=0 \\Leftrightarrow x=2\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) %((4 x-1) \\sqrt{x^{2}+1}=2 x^{2}-2 x+2)%.",
+        "question_images": [],
+        "solution": "\\[\\text {  } \\begin{aligned}& (4 x-1) \\sqrt{x^{2}+1}=2 x^{2}-2 x+2 \\\\Leftrightarrow & 2\\left(x^{2}+1\\right)-(4 x-1) \\sqrt{x^{2}+1}-2 x=0 .\\end{aligned}\\]<br>Đặt %(a=x^{2}+1(a \\geq 1))%, phương trình trở thành:<br>\\[\\begin{array}{l}2 a^{2}-(4 x-1) a-2 x=0 . \\\\Delta=(4 x+1)^{2}\\gt 0 \\a= \\pm 2 x \\\\Rightarrow \\sqrt{x^{2}+1}=2 x\\end{array}\\]<br>\\[\\begin{array}{l}\\Leftrightarrow x^{2}+1=4 x^{2} \\\\Leftrightarrow 3 x^{2}-1=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x=\\sqrt{\\frac{1}{3}} \\x=-\\sqrt{\\frac{1}{3}}(l)\\end{array}\\right.\\end{array}\\]<br>Vậy pt có tập nghiệm<br>\\[S=\\left\\{\\sqrt{\\frac{1}{3}}\\right\\}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Cho %(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=\\frac{1}{a+b+c})%.<br>Chứng minh rằng: %(\\frac{1}{a^{2021}}+\\frac{1}{b^{2021}}+\\frac{1}{c^{2021}}=\\frac{1}{a^{2021}+b^{2021}+c^{2021}})%",
+        "question_images": [],
+        "solution": "Ta có:<br>%(\\begin{aligned} & \\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=\\frac{1}{a+b+c} \\\\ & \\Leftrightarrow \\frac{a b+b c+c a}{a b c}=\\frac{1}{a+b+c} \\\\ & \\Leftrightarrow(a+b+c) \\cdot(a b+b c+c a)-a b c=0 \\\\ & \\Leftrightarrow(a+b) \\cdot(a b+b c+c a)+a b c+b c^{2}+a c^{2}-a b c=0 \\\\ & \\Leftrightarrow(a+b) \\cdot(a b+b c+c a)+c^{2} \\cdot(a+b)=0 \\\\ & \\Leftrightarrow(a+b) \\cdot\\left(a b+b c+c a+c^{2}\\right)=0 \\\\ & \\Leftrightarrow(a+b) \\cdot[b \\cdot(a+c)+c \\cdot(a+c)]=0 \\\\ & \\Leftrightarrow(a+b) \\cdot(b+c) \\cdot(c+a)=0\\end{aligned})%<br>\\[\\Leftrightarrow\\left[\\begin{array} { l } { a + b = 0 } \\\\{ b + c = 0 } \\\\{ c + a = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}a=-b \\b=-c \\c=-a\\end{array}\\right.\\right.\\]<br>Với %(a=-b)% :<br>\\[\\begin{aligned}\\frac{1}{a^{2021}} & +\\frac{1}{b^{2021}}+\\frac{1}{c^{2021}}=\\frac{1}{a^{2021}+b^{2021}+c^{2021}} \\\\& \\Leftrightarrow \\frac{1}{-b^{2021}}+\\frac{1}{b^{2021}}+\\frac{1}{c^{2021}}=\\frac{1}{-b^{2021}+b^{2021}+c^{2021}} \\\\& \\Leftrightarrow \\frac{1}{c^{2021}}=\\frac{1}{c^{2021}} \\text { (luôn đúng) }\\end{aligned}\\]<br>Tương tự:<br>Với %(b=-c \\Leftrightarrow \\frac{1}{a^{2021}}=\\frac{1}{a^{2021}})% (luôn đúng)<br>Với %(c=-a \\Leftrightarrow \\frac{1}{b^{2021}}=\\frac{1}{b^{2021}})% (luôn đúng)",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho ba số dương %(a, b, c)% thỏa mãn điều kiện %(\\frac{1}{1+a}+\\frac{1}{1+b}+\\frac{1}{1+c}=2)%. Tìm giá trị lớn nhất cùa %(Q=a . b . c)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text {  } \\frac{1}{1+a}+\\frac{1}{1+b}+\\frac{1}{1+c}=2 \\\\ \\Leftrightarrow \\frac{1}{1+a}=1-\\frac{1}{1+b}+1-\\frac{1}{1+c} \\\\ \\Leftrightarrow \\frac{1}{1+a}=\\frac{b}{1+b}+\\frac{c}{1+c} \\geq 2 \\sqrt{\\frac{b c}{(1+b) \\cdot(1+c)}}(1)\\end{array})%<br>Tương tự: %(\\frac{1}{1+b} \\geq 2 \\sqrt{\\frac{c a}{(1+c) \\cdot(1+a)}})%(2)<br>\\[\\frac{1}{1+c} \\geq 2 \\sqrt{\\frac{a b}{(1+a) \\cdot(1+b)}}(3)\\]<br>Từ (1), (2) và (3) %(\\Rightarrow \\frac{1}{1+a} \\cdot \\frac{1}{1+b} \\cdot \\frac{1}{1+c} \\geq 8 \\cdot \\frac{a b c}{(1+a) \\cdot(1+b) \\cdot(1+c)})%<br>\\[\\Leftrightarrow a b c \\leq \\frac{1}{8} \\Leftrightarrow Q \\leq \\frac{1}{8}\\]<br>Dấu \"=\" xảy ra khi %(a=b=c=\\frac{1}{2})%<br>Vậy %(Q_{\\text {max }}=\\frac{1}{8})% khi %(a=b=c=\\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho tam giác %(A B C)% nhọn, có các đường cao %(A D, B E, C F)% cắt nhau tại %(H)% Gọi %(I, K)% lần lượt là hình chiếu của điềm %(D)% trên các đường thẳng %(B E, C F)%. Chứng minh rằng",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) %(B H \\cdot B E+C H \\cdot C F=B C^{2})%.",
+        "question_images": [],
+        "solution": "Tam giác vuông %(A E B)% và tam giác vuông %(H F B)% có góc %(B)% chung nên đồng dạng với nhau.<br>\\[\\Rightarrow \\frac{A B}{B H}=\\frac{B E}{B F} \\Rightarrow B H \\cdot B E=A B \\cdot B F(1)\\]<br>Tam giác vuông %(A F C)% và tam giác vuông %(H E C)% có góc %(C)% chung nên đồng dạng với nhau.<br>\\[\\Rightarrow \\frac{A C}{C H}=\\frac{C F}{C E} \\Rightarrow C H \\cdot C F .=A C . C E(2)\\]<br>Từ (1) và (2) suy ra: %(B H \\cdot B E+C H \\cdot C F=A B \\cdot B F+A C \\cdot C E)%(3)<br>Mặt khác dễ thấy tam giác vuông %(A D B)% và tam giác vuông %(B F C)% đồng dạng (góc %(B)% chung)<br>\\[\\Rightarrow \\frac{A B}{B C}=\\frac{B D}{B F} \\Rightarrow A B \\cdot B F=B C \\cdot B D(4)\\]<br>Chứng minh tương tự ta có tam giác %(A D C)% đồng dạng với tam giác %(B E C)%<br>\\[\\Rightarrow \\frac{A C}{B C}=\\frac{D C}{C E} \\Rightarrow A C \\cdot C E=B C \\cdot C D(5)\\]<br>Từ (4) và (5) suy ra:<br>\\[A B \\cdot B F+A C \\cdot C E=B C(B D+C D)=B C^{2} (6)\\]<br>Từ (3) và (6) suy ra %(B H \\cdot B E+C H \\cdot C F=B C^{2})% (đpcm).<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f53d931ecf625352fde3ef433fa37771.png\" srcset=\"https://docdn.giainhanh.io/media/test/e2f7df831e91c17ca8923e422cb5c15c.png 245w, https://docdn.giainhanh.io/media/test/ef5ef3263153fc08fc9dcde4029e9032.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) %(I K / / E F)%.",
+        "question_images": [],
+        "solution": "Ta có %(\\left\\{\\begin{array}{l}A B \\perp F C \\\\ D K \\perp F C\\end{array} \\Rightarrow A B / / D K \\Rightarrow \\angle F A H=\\angle H D K\\right.)%(hai góc so le trong)(1)<br>Tứ giác %(A F H E)% có %(\\angle A F H+\\angle A E H=90^{\\circ}+90^{\\circ}=180^{\\circ})% mà hai góc này ở vị trí đối nhau<br>nên tứ giác %(A F H E)% là tứ giác nội tiếp %(\\Rightarrow \\angle F A H=\\angle F E H)% (2 góc nội tiếp cùng chắn cung %(F H)% ) (2)<br>Chứng minh tương tự ta có tứ giác %(I D K H)% là tứ giác nội tiếp%(\\Rightarrow \\angle H I K=\\angle H D K)% (2 góc nội tiếp cùng chắn cung %(H K)% ) (3)<br>Từ (1), (2) và (3) suy ra %(\\angle F E H=\\angle H I K)% mà 2 góc này ờ vị trí so le trong<br>Suy ra %(I K / / E F)% (đpcm).",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Trong các tam giác %(A E F, B D F, C D E)% có ít nhất một tam giác có diện tích nhỏ hơn hoặc bằng %(\\frac{1}{4})% diện tích tam giác %(A B C)%.",
+        "question_images": [],
+        "solution": "Đặt %(B C=a, \\quad C A=b, \\quad A B=c, \\quad A E=x, \\quad A F=y, \\quad B D=z, \\quad 0\\lt x, y, z\\lt a)%;<br>\\[0\\lt x, y, z\\lt b ; 0\\lt x, y, z\\lt c\\]<br>Khi đó: %(B F=c-y, \\quad E C=b-x, C D=a-z)%<br>Giả sử không có tam giác nào có diện tích nhỏ hơn hoặc bằng %(\\frac{1}{4})% diện tích tam giác %(A B C)%<br>Nghĩa là<br>\\[S_{A E F}\\gt \\frac{1}{4} S_{A B C} ; S_{B F D}>\\frac{1}{4} S_{A B C} ; S_{C E D}>\\frac{1}{4} S_{A B C} . \\text { Suy ra } \\frac{S_{A E F} \\cdot S_{B F D} \\cdot S_{C E D}}{S_{A B C}^{3}}>\\frac{1}{64}\\]<br>Ta có %(\\frac{S_{A E F}}{S_{A B C}}=\\frac{A E \\cdot A F}{A B \\cdot A C}=\\frac{x \\cdot y}{c b})%;<br>\\[\\begin{array}{l}\\frac{S_{B F D}}{S_{A B C}}=\\frac{B F \\cdot B D}{B A \\cdot B C}=\\frac{(c-y) z}{c a} \\\\frac{S_{C E D}}{S_{A B C}}=\\frac{C E \\cdot C D}{C A \\cdot C B}=\\frac{(b-x)(a-z)}{b a} \\\\text { Do đó } \\frac{S_{A E F} \\cdot S_{B F D} \\cdot S_{C E D}}{S_{A B C}^{3}}=\\frac{x y z(a-z)(b-x)(c-y)}{a^{2} b^{2} c^{2}}\\end{array}\\]<br>Do đó<br>Theo bđt Cauchy ta có:<br>\\[\\begin{array}{l}\\text { Theo bđt Cauchy ta có: } \\quad x(b-x) \\leq \\frac{(x+b-x)^{2}}{4}=\\frac{b^{2}}{4} \\y(c-y) \\leq \\frac{(y+c-y)^{2}}{4}=\\frac{c^{2}}{4} \\quad z(a-z) \\leq \\frac{(z+a-z)^{2}}{4}=\\frac{a^{2}}{4}\\end{array}\\]<br>Do đó<br>\\[\\frac{x y z(a-z)(b-x)(c-y)}{a^{2} b^{2} c^{2}} \\leq \\frac{1}{64}\\]<br>hay<br>%(\\frac{S_{A E F} \\cdot S_{B E D} \\cdot S_{C E D}}{S_{A B C}^{3}} \\leq \\frac{1}{64})%(mâu thuẫn gt )<br>Suy ra đpcm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng: Nếu tất cả các cạnh của một tam giác nhỏ hơn 1 thì diện tích tam giác nhỏ hơn %(\\frac{\\sqrt{3}}{4})%.",
+        "question_images": [],
+        "solution": "Kè %(A H \\perp B C)%Ta có %(A B\\lt 1, A C\\lt 1, B C\\lt 1)%<br>\\[\\Rightarrow\\left\\{\\begin{array}{l}A H\\lt 1 \\B H \\leq \\frac{B C}{2} \\leq \\frac{1}{2}\\end{array}\\right.\\]<br>Áp dụng định lý Pytago trong tam giác vuông %(A B H)%.<br>Ta có:<br>\\[\\begin{array}{l}A H^{2}+B H^{2}=A B^{2} \\\\text { Mà } A B^{2}\\lt 1 \\Rightarrow A H^{2}+B H^{2}\\lt 1 \\\\Rightarrow A H^{2}\\lt 1-B H^{2}\\end{array}\\]<br>\\[\\begin{array}{l}\\Rightarrow A H^{2}\\lt 1-\\frac{1}{4}=\\frac{3}{4} \\\\Rightarrow A H\\lt \\frac{\\sqrt{3}}{2} \\S_{\\triangle A B C}=\\frac{1}{2} A H \\cdot B C\\lt \\frac{1}{2} \\cdot \\frac{\\sqrt{3}}{2} \\cdot 1=\\frac{\\sqrt{3}}{2}\\end{array}\\]<br>Vậy tất cả các cạnh của một tam giác nhỏ hơn 1 thì diện tích tam giác nhỏ hơn %(\\frac{\\sqrt{3}}{4})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/fffc3d019f235900c7bc2f65550bcaee.png\" srcset=\"https://docdn.giainhanh.io/media/test/860e3def5a93e75c977cc9f01aec6eb5.png 222w\" width=\"222\"/>",
+        "question_type": "essay"
+    }
+]

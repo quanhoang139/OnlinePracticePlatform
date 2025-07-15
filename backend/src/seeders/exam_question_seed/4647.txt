@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Giải phương trình %(\\cos 5 x-\\sin x=0)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\cos 5 x-\\sin x=0 \\Leftrightarrow \\cos 5 x=\\sin x \\\\ \\quad \\Leftrightarrow \\cos 5 x=\\cos \\left(\\frac{\\pi}{2}-x\\right) \\\\ \\Leftrightarrow 5 x=\\frac{\\pi}{2}-x+k 2 \\pi \\vee 5 x=-\\frac{\\pi}{2}+x+k 2 \\pi \\\\ \\Leftrightarrow x=\\frac{\\pi}{12}+k \\frac{\\pi}{3} \\vee x=-\\frac{\\pi}{8}+k \\frac{\\pi}{2}(k \\in \\mathbb{Z})\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Lớp 11A có 30 học sinh trong đó có 20 nam và 10 nữ. Có bao nhiêu cách chọn ra một nhóm 7 học sinh của lớp 11A gồm 4 học sinh nam và 3 học sinh nữ?",
+        "question_images": [],
+        "solution": "Số cách chọn nam %(C_{20}^{4})%<br>Số cách chọn nữ %(C_{10}^{3})%<br>Đáp số: %(C_{20}^{4} \\times C_{10}^{3})%%(\\quad=581.400)% cách.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tìm hệ số của số hạng chứa %(x^{8})% trong khai triển nhị thức %(\\left(\\frac{2}{x^{2}}-x^{3}\\right)^{21})%.",
+        "question_images": [],
+        "solution": "\\[\\begin{aligned}\\text { SHTT: } & (-1)^{k} C_{21}^{k}\\left(\\frac{2}{x^{2}}\\right)^{21-k}\\left(x^{3}\\right)^{k} \\\\= & (-1)^{k} C_{21}^{k} 2^{21-k} x^{5 k-42}\\end{aligned}\\]<br>YCBT ứng với %(5 k-42=8 \\Leftrightarrow k=10)%<br>Đáp số %((-1)^{10} C_{21}^{10} 2^{11}=C_{21}^{10} 2^{11}(=722.362 .368))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giái phương trình %(P_{3} \\cdot C_{n}^{n-2}+42=A_{2 n}^{2})%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(n \\in \\mathbb{N})% và %(n \\geq 2)%<br>\\[\\begin{aligned}(1) & \\Leftrightarrow(3!) \\cdot \\frac{n!}{(n-2)!\\cdot 2!}+42=\\frac{(2 n)!}{(2 n-2)!} \\\\& \\Leftrightarrow n^{2}+n-42=0 \\\\& \\Leftrightarrow\\left[\\begin{array}{l}n=6 \\n=-7\\end{array} \\Leftrightarrow n=6\\right.\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Trường %(X)% tổ chức kiểm tra tập trung 3 môn Toán, Văn và Ngoại ngữ cho học sinh khối 11 trong thời gian một tuần (không tổ chức kiểm tra vào ngày chủ nhật). Biết rằng mỗi ngày học sinh chỉ kiểm tra một môn. Tính xác suất để môn Toán kiểm tra đầu tiên và các môn không kiểm tra vào hai ngày liên tiếp nhau.",
+        "question_images": [],
+        "solution": "%(n(\\Omega)=A_{6}^{3}=120)%<br>TH1: Toán thi thứ 2:<br>Chọn 2 ngày không kề nhau và xếp thi Văn,Ngoại ngữ: %(3 \\times 2=6)% cách<br>TH2: Toán thi thứ 3<br>Xếp Văn và Ngoại ngữ thi thứ 5 và %(7: 2)% cách<br>%(P=\\frac{6+2}{120}=\\frac{1}{15})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Xét tính tăng, giảm của dãy số %(\\left(u_{n}\\right))% có số hạng tổng quát %(u_{n}=2 n-3^{n})%.",
+        "question_images": [],
+        "solution": "\\[\\begin{aligned}\\forall n \\in \\mathbb{N}^{*}: u_{n+1}-u_{n} & =\\left[2(n+1)-3^{n+1}\\right]-\\left(2 n-3^{n}\\right) \\\\& =2+3^{n}-3.3^{n} \\\\& =2\\left(1-3^{n}\\right)\\lt 0\\end{aligned}\\]<br>%(\\left(u_{n}\\right))% giảm",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Cho cấp số cộng %(\\left(u_{n}\\right))% thỏa mãn %(\\left\\{\\begin{array}{l}u_{1}+2 u_{5}=0 \\\\ S_{4}=14\\end{array}\\right.)%.Tìm số hạng thứ 15 của cấp số cộng đó.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}u_{1}+2 u_{5}=0 \\Leftrightarrow 3 u_{1}+8 d=0(a) \\S_{4}=14 \\Leftrightarrow 4 u_{1}+6 d=14 \\text { (b) }\\end{array}\\]<br>(a) và (b) cho %(\\left\\{\\begin{array}{l}u_{1}=8 \\\\ d=-3\\end{array}\\right.)%<br>\\[u_{15}=8+14(-3)=-34\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho hình chóp %(S . A B C D)% có đáy %(A B C D)% là hình bình hành tâm %(O)%. Gọi %(M)%, %(N, P)% lần lượt là trung điểm của %(S B, O C)% và %(S D)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh đường thẳng %(M P)% song song với mặt phẳng %((A B C D))%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}M P / / B D(1) \\\\ B D \\subset(A B C D)(2) \\\\ (1) \\text { và }(2) \\Rightarrow M P / /(A B C D)\\end{array})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/bfe12e576d7a2b22129cb9c239db5000.png\" srcset=\"https://docdn.giainhanh.io/media/test/b360b07490a9f73e1c3c7f8f02543c82.png 245w, https://docdn.giainhanh.io/media/test/8db6caf5ffdb46a8232dd85286c7d4a5.png 500w, https://docdn.giainhanh.io/media/test/0c40b343779373216189027b789253e0.png 750w, https://docdn.giainhanh.io/media/test/ffa4104b257623eec421c2a9c3a05c8b.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm giao tuyến của mặt phẳng %((M N P))% và mặt phẳng %((A B C D))%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}N \\in(M N P) \\cap(A B C D)(3) \\\\ M P / / B D(4) \\\\ \\text { (3) và }(4) \\Rightarrow(M N P) \\cap(A B C D)=N x / / B D\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tìm thiết diện tạo bởi mặt phẳng %((M N P))% và hình chóp %(S \\cdot A B C D)%.",
+        "question_images": [],
+        "solution": "Tìm giao tuyến của %((M N P))% và các mặt %((S B C))%,%((S C D))%<br>Tìm giao tuyến của %((M N P))% và mặt %((S A D))%<br>Tìm giao tuyến của %((M N P))% và mặt %((S B C))%<br>Kết luận thiết diện",
+        "question_type": "essay"
+    }
+]

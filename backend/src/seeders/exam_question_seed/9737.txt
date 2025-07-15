@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Tìm nguyên hàm của hàm số %(f(x)=3 x^{2}-2 x+1)%, biết %(\\mathrm{F}(2)=-1)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}F(x)=\\int\\left(3 x^{2}-2 x+1\\right) \\cdot d x=x^{3}-x^{2}+x+C \\F(2)=-1 \\Leftrightarrow 8-4+2+\\mathrm{C}=-1 \\Leftrightarrow \\mathrm{C}=-7\\end{array}\\]<br>Vậy: %(F(x)=x^{3}-x^{2}+x-7)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Tính các tích phân sau:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(M=\\int_{0}^{\\sqrt{7}} x \\sqrt[3]{1+x^{2}} d x)%;",
+        "question_images": [],
+        "solution": "\\[M=\\int_{0}^{\\sqrt{7}} x \\sqrt[3]{1+x^{2}} d x\\]<br>Đặt :<br>\\[\\begin{array}{l}t=\\sqrt[3]{1+x^{2}} \\Rightarrow t^{3}=1+x^{2} \\Rightarrow 3 t^{2} d t=2 x d x \\\\Rightarrow x d x=\\frac{3}{2} t^{2} d t\\end{array}\\]<br>Đổi cận: %(x=0 \\Rightarrow t=1 ; x=\\sqrt{7} \\Rightarrow t=2)%<br>\\[\\Rightarrow I=\\int_{1}^{2} \\frac{3}{2} t^{3} d t=\\left.\\frac{3}{8} t^{4}\\right|_{1} ^{2}=\\frac{3}{8}(16-1)=\\frac{45}{8}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(N=\\int_{0}^{\\frac{\\pi}{2}}(3-x) \\cos x d x)%",
+        "question_images": [],
+        "solution": "Đặt:%(u=3-x \\Rightarrow d u=-d x)%<br>\\[\\begin{aligned}& d v=\\cos x d x \\Rightarrow v=\\sin x \\\\Rightarrow I= & \\left.(3-x) \\sin x\\right|_{0} ^{\\frac{\\pi}{2}}+\\int_{0}^{\\frac{\\pi}{2}} \\sin x d x=\\left(\\frac{6-\\pi}{2}\\right)-\\left.\\cos x\\right|_{0} ^{\\frac{\\pi}{2}} \\\\& =\\left(\\frac{6-\\pi}{2}\\right)-(0-1)=\\frac{8-\\pi}{2}=4-\\frac{\\pi}{2}\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) %(P=\\int_{0}^{\\frac{\\pi}{4}} \\frac{d x}{1+\\tan x})%",
+        "question_images": [],
+        "solution": "%(P=\\int_{0}^{\\frac{\\pi}{4}} \\frac{d x}{1+\\tan x})%Đăt %(t=\\tan x \\Rightarrow d t=\\left(1+\\tan ^{2} x\\right) d x)%<br>Đổi cận: %(x=0 \\Rightarrow t=0 ; x=\\frac{\\pi}{4} \\Rightarrow t=1)%<br>\\[P=\\int_{0}^{1} \\frac{d t}{(1+t)\\left(1+t^{2}\\right)}=\\frac{1}{2} \\int_{0}^{1} \\frac{d t}{1+t}-\\frac{1}{2} \\int_{0}^{1} \\frac{t d t}{1+t^{2}}+\\frac{1}{2} \\int_{0}^{1} \\frac{d t}{1+t^{2}}\\]<br>%(\\begin{array}{l}P=\\frac{1}{4} \\ln 2+P_{1} \\\\ P_{1}=\\frac{\\pi}{8} \\Rightarrow P=\\frac{1}{4} \\ln 2+\\frac{\\pi}{8}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tính thể tích của vật thể tròn xoay sinh ra bởi hình phẳng %((\\mathrm{H}))% giới hạn bởi các đường %(y=x^{3}+1, y=0, x=0)%, và %(\\mathrm{x}=1)% khi %((\\mathrm{H}))% quay xung quanh trục Ox .",
+        "question_images": [],
+        "solution": "Phương trình hoành độ giao điểm của đồ thi %(y=x^{3}+1)% và %(\\mathrm{y}=0)% :<br>\\[x^{3}+1=0 \\Leftrightarrow x=-1 \\notin[0 ; 1]\\]<br>Gọi V là thể tích của vật thể cần tìm :<br>\\[\\begin{aligned}V & =\\pi \\int_{0}^{1}\\left(x^{3}+1\\right)^{2} d x=\\pi \\int_{0}^{1}\\left(x^{6}+2 x^{3}+1\\right) d x \\\\& =\\left.\\pi\\left(\\frac{x^{7}}{7}+\\frac{1}{2} x^{4}+x\\right)\\right|_{0} ^{1}=\\pi\\left(\\frac{1}{7}+\\frac{1}{2}+1\\right)=\\frac{23}{14} \\pi\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Trong không gian với hệ tọa độ Oxyz , cho điểm %(\\mathrm{A}(-1 ; 0 ; 2))%, mặt phẳng %((\\mathrm{P}): 2 \\mathrm{x}-\\mathrm{y}-\\mathrm{Z}+3=0)% và đường thẳng %((\\mathrm{d}):\\left\\{\\begin{array}{l}x=3+2 t \\\\ y=2+4 t \\\\ z=6+t\\end{array},(t \\in \\mathbb{R})\\right.)%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Tìm giao điểm của đường thẳng d và mặt phẳng %((\\mathrm{P}))%. Viết phương trình mặt phẳng %((\\mathrm{Q}))% qua A và song song %((\\mathrm{P}))%.",
+        "question_images": [],
+        "solution": "* Tọa độ giao điểm M của %(\\mathrm{mp}(\\mathrm{P}))% và đt d là nghiệm của hệ %(\\left\\{\\begin{array}{l}x=3+2 t \\\\ y=2+4 t \\\\ z=6+t \\\\ 2 x-y-z+3=0\\end{array}\\right.)%<br>- Giải được %(\\mathrm{t}=1)%<br>- Tìm được tọa độ giao điểm là %(\\mathrm{M}(5 ; 6 ; 7))%.<br>* Do mặt phẳng %((\\mathrm{Q}))% qua A và song song %((\\mathrm{P}))% nên có phương trình dạng %(2 \\mathrm{x}-\\mathrm{y}-\\mathrm{z}+\\mathrm{d}=0)%<br>Vì %((Q))% qua %(A(-1 ; 0 ; 2))%, nên có %(d=4)%.<br>Vậy pt %((\\mathrm{Q}): 2 \\mathrm{x}-\\mathrm{y}-\\mathrm{z}+4=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Viết phương trình mặt cầu %((\\mathrm{S}))% tâm A và tiếp xúc với mặt phẳng %((\\mathrm{P}))%. Tìm tọa độ tiếp điểm của %((\\mathrm{S}))% và %((\\mathrm{P}))%.",
+        "question_images": [],
+        "solution": "* Mặt cầu tâm A và tiếp xúc với mặt phẳng %((\\mathrm{P}))% nên có bán kính<br>\\[\\mathrm{R}=\\mathrm{d}(\\mathrm{A},(\\mathrm{P}))=\\frac{|2(-1)-2+3|}{\\sqrt{4+1+1}}=\\frac{1}{\\sqrt{6}}\\]<br>%(\\Rightarrow)% Phương trình mặt cầu là : %((x+1)^{2}+y^{2}+(z-2)^{2}=\\frac{1}{6})%<br>* Đường thẳng %((\\Delta))% qua %(\\mathrm{A}(-1 ; 0 ; 2))% và vuông góc %((\\mathrm{P}))% nhận VTPT của(P) : %(\\vec{n}=(2 ;-1 ;-1))% làm VTCP có PTTS: %(\\left\\{\\begin{array}{c}x=-1+2 t \\\\ y=-t \\\\ z=2-t\\end{array} \\quad,(t \\in R)\\right.)%<br>-Gọi %(H=(\\Delta) \\cap(P))%. H là tiếp điểm có tọa độ là nghiệm của hệ:<br>%(\\left\\{\\begin{array}{c}2 x-y-z+3=0 \\\\ x=-1+2 t \\\\ y=-t \\\\ z=2-t\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}t=\\frac{1}{6} \\\\ x=-\\frac{2}{3} \\\\ y=-\\frac{1}{6} \\\\ z=\\frac{11}{6}\\end{array} \\Rightarrow H\\left(-\\frac{2}{3} ;-\\frac{1}{6} ; \\frac{11}{6}\\right)\\right.\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Viết phương trình đường thẳng %((\\Delta))% biết rằng %((\\Delta))% đi qua điểm A , cắt %((\\mathrm{d}))% tại B và cắt %((\\mathrm{P}))% tại C sao cho %(\\overrightarrow{A C}+2 \\overrightarrow{A B}=\\overrightarrow{0})%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}* \\mathrm{~B} \\in(\\mathrm{d}) \\Rightarrow \\mathrm{B}(3+2 \\mathrm{t} ; 2+4 \\mathrm{t} ; 6+\\mathrm{t}) \\Rightarrow \\overrightarrow{A B}=(4+2 \\mathrm{t} ; 2+4 \\mathrm{t} ; 4+\\mathrm{t}) \\\\ * \\text { Từ } \\overrightarrow{A C}+2 \\overrightarrow{A B}=\\overrightarrow{0} \\Rightarrow \\overrightarrow{A C}=(-8-4 \\mathrm{t} ;-4-8 \\mathrm{t} ;-8-2 \\mathrm{t}) \\\\ \\quad \\Rightarrow \\mathrm{C}(-9-4 \\mathrm{t} ;-4-8 \\mathrm{t} ;-6-2 \\mathrm{t}) \\\\ * \\mathrm{C} \\in(\\mathrm{P}) \\Rightarrow \\mathrm{t}=5 / 2 \\Rightarrow \\overrightarrow{A B}=(9 ; 12 ; 13 / 2) \\text { là một vtcp của }(\\Delta) \\\\ * \\text { Mà }(\\Delta) \\text { qua A nên có ptts là }\\left\\{\\begin{array}{c}x=-1+9 \\mathrm{t} \\\\ y=12 \\mathrm{t} \\\\ z=2+\\frac{13}{2} t\\end{array}\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Tìm mô đun của số phức %(z=9-15 i+(2+3 i)^{2})%",
+        "question_images": [],
+        "solution": "Ta có %(z=9-15 i+(2+3 i)^{2}=9-15 i+4+9 i^{2}+12 i=4-3 i)%<br>Mô đun của %(z)% là %(|z|=\\sqrt{4^{2}+(-3)^{2}}=\\sqrt{25}=5)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho số phức z thỏa mãn %((1+i) z+(4-7 i)=8-4 i)%. Tìm phần thực và phần ảo của số phức z",
+        "question_images": [],
+        "solution": "Ta có<br>\\[\\begin{array}{l}(1+i) z+(4-7 i)=8-4 i \\Leftrightarrow(1+i) z=4+3 i \\\\Leftrightarrow z=\\frac{4+3 i}{1+i}=\\frac{(4+3 i)(1-i)}{(1+i)(1-i)}=\\frac{4-4 i+3 i-3 i^{2}}{2}=\\frac{7}{2}-\\frac{1}{2} i\\end{array}\\]<br>Số phức Z có phần thực là %(\\mathrm{a}=\\frac{7}{2})%, phần ảo là %(\\mathrm{b}=-\\frac{1}{2})%,",
+        "question_type": "essay"
+    }
+]

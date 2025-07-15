@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 3.0,
+        "content": "Cho hai số thực %(\\alpha ; \\beta)% thỏa %(\\alpha^{3}-3 \\alpha^{2}+5 \\alpha=1 ; \\beta^{3}-3 \\beta^{2}+5 \\beta=5)%. Tính %(\\alpha+\\beta)%.",
+        "question_images": [],
+        "solution": "Xét hàm số %(f(x)=x^{3}-3 x^{2}+5 x=(x-1)^{3}+2(x-1)+ 3)%<br>Theo giả thiết %(f(\\alpha)=1 ; f(\\beta)=5)%<br>Xét hàm %(g(y)=y^{3}+2 y)%<br>Do %(y^{3} ; 2 y)% đều là các hàm số tăng trên %(R)% nên hàm số %(\\mathrm{g}(y))% tăng trên %(R)%<br>Ta có %(g(\\alpha-1)=(\\alpha-1)^{3}+2(\\alpha-1)=f(\\alpha)-3=-2)%<br>\\[\\begin{array}{c}g(1-\\beta)=(1-\\beta)^{3}+2(1-\\beta) \\\\=-(\\beta-1)^{3}-2(\\beta-1)=-[f(\\beta)-3]=-2\\end{array}\\]<br>Vậy %(g(\\alpha-1)=g(1-\\beta) \\Rightarrow \\alpha-1=1-\\beta)%<br>\\[\\Leftrightarrow \\alpha+\\beta=2\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Cho ba số %(a\\gt 1 ; b>1 ; c>1)% chứng minh rằng:<br>\\[\\frac{a^{2}}{b-1}+\\frac{b^{2}}{c-1}+\\frac{c^{2}}{a-1} \\geq 12\\]",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l} \\frac{a^{2}}{b-1}+\\frac{b^{2}}{c-1}+\\frac{c^{2}}{a-1} \\geq 3 \\sqrt[3]{\\frac{a^{2}}{b-1} \\frac{b^{2}}{c-1} \\frac{c^{2}}{a-1}} \\\\=3 \\sqrt[3]{\\frac{a^{2}}{a-1} \\cdot \\frac{b^{2}}{b-1} \\cdot \\frac{c^{2}}{c-1}}\\end{array}\\]<br>Do %(a\\gt 1 \\Rightarrow a^{2}-4 a+4 \\geq 0 \\Leftrightarrow a^{2} \\geq 4(a-1))%<br>\\[\\Leftrightarrow \\frac{a^{2}}{a-1} \\geq 4\\]<br>Vậy<br>\\[\\begin{array}{l} \\frac{a^{2}}{b-1}+\\frac{b^{2}}{c-1}+ \\frac{c^{2}}{a-1} \\geq 3 \\sqrt[3]{\\frac{a^{2}}{a-1} \\cdot \\frac{b^{2}}{b-1} \\cdot \\frac{c^{2}}{c-1}} \\\\geq 3 \\sqrt[3]{4.4 .4}=12\\end{array}\\]<br>Dấu bằng xảy ra khi %(a=b=c=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 3.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}(1+x)\\left(1+x^{2}\\right)\\left(1+x^{4}\\right)=1+y^{7} \\\\ (1+y)\\left(1+y^{2}\\right)\\left(1+y^{4}\\right)=1+x^{7}\\end{array}\\right.~~~(1))%",
+        "question_images": [],
+        "solution": "Ta có với %(x \\neq 1)%<br>\\[(1+x)\\left(1+x^{2}\\right)\\left(1+x^{4}\\right)=\\frac{1-x^{8}}{1-x}\\]<br>Do vài trò %(x ; y)% như nhau, giả sử %(x \\geq y)%<br>Trường hợp 1: Nếu %(x=y)%<br>Ta được phương trình<br>\\[\\begin{array}{c}1+x+x^{2}+x^{3}+x^{4}+x^{5}+x^{6}+x^{7}=1+x^{7} \\\\Leftrightarrow x\\left(x^{5}+x^{4}+x^{3}+x^{2}+x+1\\right)=0 \\x(x+1)\\left(x^{4}+x^{2}+1\\right)=0 \\\\Leftrightarrow x=0 ; x=-1\\end{array}\\]<br>Vậy hệ có nghiệm %((0 ; 0) ;(-1 ;-1))%<br>Trường hợp 2: Nếu %(x\\gt y)%<br>\\[\\begin{array}{l}\\text { + Nếu } x>y>0 \\\\quad(1+x)\\left(1+x^{2}\\right)\\left(1+x^{4}\\right)=1+x+\\cdots+x^{7}>1+x^{7} \\\\>1+y^{7}\\end{array}\\]<br>Hệ vô nghiệm<br>+ Nếu %(x\\gt 0>y)%%((1+x)\\left(1+x^{2}\\right)\\left(1+x^{4}\\right)>1 ; 1+y^{7}\\lt 1)% hệ vô nghiệm.<br>+ Nếu %(0>x>y \\Rightarrow x^{7}>y^{7} ; x^{6}\\lt y^{6} ; x^{8}\\lt y^{8})% nhân hai vế của hệ cho %((1-x))% và %((1-y))% ta được<br>\\[\\begin{array}{c}\\left\\{\\begin{array}{l}(1+x)^{2}\\left(1+x^{2}\\right)\\left(1+x^{4}\\right)=\\left(1+y^{7}\\right)(1-x) \\\\(1+y)^{2}\\left(1+y^{2}\\right)\\left(1+y^{4}\\right)=\\left(1+x^{7}\\right)(1-y)\\end{array}\\right. \\\\left\\{\\begin{array}{l}1-x^{8}=\\left(1+y^{7}\\right)(1-x)=-x y^{7}+y^{7}-x+1 \\\\1-y^{8}=\\left(1+x^{7}\\right)(1-y)=-x^{7} y+x^{7}-y+1\\end{array}\\right. \\\\Rightarrow y^{8}-x^{8}=y^{7}-x^{7}+y-x+x y\\left(x^{6}-y^{6}\\right)\\end{array}\\]<br>Vế trái dương vế phải âm nên phương trình vô nghiệm<br>Tóm lại hệ có hai nghiệm %((0 ; 0) ;(-1 ;-1))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 3.0,
+        "content": "Có bao nhiêu số %(x \\in(0 ; 2018 \\pi))% để giá trị của %(f(x))% bằng không, với<br>\\[f(x)=a \\cdot \\cos (x+1)+b \\cdot \\cos (x+2)+c \\cdot \\cos (x+3)\\]<br>trong đó %(a ; b ; c)% là các số thực bất kỳ sao cho %(f(x))% nhận hai giá trị bằng không trên khoảng %((0 ; \\pi))%.",
+        "question_images": [],
+        "solution": "Ta có<br>\\[\\begin{array}{c}\\cos (x+\\alpha)=\\cos x \\cdot \\cos \\alpha-\\sin x \\cdot \\sin \\alpha \\f(x)=a \\cdot \\cos (x+1)+b \\cdot \\cos (x+2)+c \\cdot \\cos (x+3) \\\\=a(\\cos x \\cdot \\cos 1-\\sin x \\cdot \\sin 1) \\\\+b(\\cos x \\cdot \\cos 2-\\sin x \\cdot \\sin 2) \\\\quad+c(\\cos x \\cdot \\cos 3-\\sin x \\cdot \\sin 3) \\\\=(a \\cos 1+b \\cos 2+c \\cos 3) \\cos x-(a \\sin 1+b \\sin 2 \\\\quad+c \\sin 3) \\sin x=A \\cdot \\cos (x+\\phi)\\end{array}\\]<br>Với %(A ; \\phi)% là các hằng số<br>Do %(f(x)=0)% nhận hai giá trị 0 khi khoảng cách giữa hai số liên tiếp bằng với %(\\pi)% điều này xảy ra khi %(A=0)%<br>Vậy %(f(x)=0)% với mọi giá trị %(x \\in(0 ; 2018 \\pi))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 3.0,
+        "content": "Cho dãy số %(\\left(u_{n}\\right))% xác định như sau:<br>\\[\\begin{array}{l}u_{0}=1 ; u_{1}=1 ; n(n+1) u_{n+1}=n(n-1) u_{n}-(n-2) u_{n-1} ; \\forall n \\geq 1 \\\\quad \\text { Tính } S=\\frac{u_{0}}{u_{1}}+\\frac{u_{1}}{u_{2}}+\\frac{u_{2}}{u_{3}}+\\cdots+\\frac{u_{2017}}{u_{2018}}\\end{array}\\]",
+        "question_images": [],
+        "solution": "\\[\\begin{aligned}& n(n+1) u_{n+1}=n(n-1) u_{n}-(n-2) u_{n-1} \\\\Leftrightarrow & n\\left[(n+1) u_{n+1}-u_{n}\\right]=(n-2)\\left[n u_{n}-u_{n-1}\\right]\\end{aligned}\\]<br>Thay %(n=1 \\Rightarrow 2 u_{2}=u_{0}=u_{1})%<br>Thay %(n=2 \\Rightarrow 3 u_{3}-u_{2}=0)%<br>Thay %(n=3 \\Rightarrow 3\\left(4 u_{4}-u_{3}\\right)=3 u_{3}-u_{2}=0)%<br>\\[\\Rightarrow 4 u_{4}-u_{3}=0\\]<br>Tổng quát %((n+1) u_{n+1}-u_{n}=0)%<br>\\[\\begin{array}{c}\\Rightarrow \\frac{u_{n}^{\\prime}}{u_{n+1}}=n+1 \\S=\\frac{u_{0}}{u_{1}}+\\frac{u_{1}}{u_{2}}+\\frac{u_{2}}{u_{3}}+\\frac{u_{3}}{u_{4}}+\\cdots+\\frac{u_{2017}}{u_{2018}} \\\\=1+2+3+4 \\ldots+2018=\\frac{2018.2019}{2}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 3.0,
+        "content": "Trong một hộp có 8 viên bi xanh và 10 viên bi đỏ kích cỡ giống hệt nhau. Bạn An lấy ngẫu nhiên 01 viên bi (lấy xong không trả vào hộp), tiếp đó bạn Bình lấy 01 viên bi. Tính xác suất để Bình lấy được viên bi xanh.",
+        "question_images": [],
+        "solution": "Gọi A là biến cố \"An lấy được bi xanh và Bình lấy được bi xanh\"<br>B là biến cố \"An lấy được bi đỏ và Bình lấy được bi xanh\"<br>Biến cố Bình lấy được bi xanh chính là biến cố %(A \\cup B)%.<br>Do %(\\mathrm{A})%, %(\\mathrm{B})% xung khắc nên<br>\\[P(A \\cup B)=P(A)+P(B)\\]<br>Mỗi kết quả là một cặp %((a, b))% trong đó a là bi An lấy và b là bi Bình lấy.<br>Vì không hoan lại nên mỗi kết quả là một chỉnh hợp chập 2 của18 phần tử<br>Do đó số cách lấy là %(A_{18}^{2}=306)%<br>Số kết quả thuận lợi cho %(\\mathrm{A})% là %(8.7=56 \\Rightarrow P(A)=\\frac{56}{306})%<br>Số kết quả thuận lợi cho %(\\mathrm{B})% là %(10.8=80 \\Rightarrow P(B)=\\frac{80}{306})%<br>\\[\\Rightarrow P(A \\cup B)=P(A)+P(B)=\\frac{56}{306}+\\frac{80}{306}=\\frac{4}{9}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 3.0,
+        "content": "Cho tứ diện %(A B C D)% có các cạnh đều bằng %(a)%. Gọi %(M ; N)% lần lượt là trung điểm của %(A B)% và %(C D)%. Tính độ dài %(M N)% và góc hợp bởi %(M N)% và %(B C)%.",
+        "question_images": [],
+        "solution": "Cho tứ diện %(\\mathrm{ABCD})% có các cạnh đều bằng %(a)%.<br>Gọi %(M ; N)% lần lượt là trung điểm của %(A B)% và %(C D)%.<br>Tính độ dài %(M N)% và góc hợp bởi %(M N)% và %(B C)%.<br>Đặt %(\\overrightarrow{A D}=\\vec{a} ; \\overrightarrow{A B}=\\vec{b} ; \\overrightarrow{A C}=\\vec{c})%%(\\vec{a} \\cdot \\vec{b}=a^{2} \\cos 60^{\\circ}=\\frac{a^{2}}{2}=\\vec{b} \\cdot \\vec{c}=\\vec{c} \\cdot \\vec{a})%<br>\\[\\begin{array}{l}\\overrightarrow{M N}=\\frac{1}{2}(\\overrightarrow{A D}+\\overrightarrow{B C})=\\frac{1}{2}(\\vec{a}+\\vec{c}-\\vec{b}) \\\\overrightarrow{M N}^{2}=\\frac{1}{4}\\left(\\vec{a}^{2}+\\vec{b}^{2}+\\vec{c}^{2}+2 \\vec{a} \\vec{b}-2 \\vec{a} \\vec{c}-2 \\vec{b} \\vec{c}\\right) \\\\=\\frac{1}{4}\\left(a^{2}+a^{2}+a^{2}+a^{2}-a^{2}-a^{2}\\right)=\\frac{a^{2}}{2} \\\\Rightarrow M N=\\frac{a \\sqrt{2}}{2} \\\\+\\cos (\\overrightarrow{M N}, \\overrightarrow{B C})=\\frac{(\\overrightarrow{M N} \\cdot \\overrightarrow{B C)}}{|M N||B C|}\\end{array}\\]<br>%(\\begin{array}{c}+\\cos (\\overrightarrow{M N}, \\overrightarrow{B C})=\\frac{(\\overrightarrow{M N} \\cdot \\overrightarrow{B C})}{|M N||B C|} \\\\ \\overrightarrow{M N} \\cdot \\overrightarrow{B C}=\\frac{1}{2}(\\vec{a}+\\vec{c}-\\vec{b})(\\vec{c}-\\vec{b}) \\\\ =\\frac{1}{2}\\left(-\\vec{a} \\vec{b}-\\vec{b} \\vec{c}+\\vec{b}^{2}+\\overrightarrow{a c}-\\vec{c}^{2}-\\vec{b} \\vec{c}\\right)=\\frac{a^{2}}{2} \\\\ \\Rightarrow \\cos (\\overrightarrow{M N}, \\overrightarrow{B C})=\\frac{(M N \\cdot \\overrightarrow{B C})}{|M N||B C|}=\\frac{\\sqrt{2}}{2} \\\\ \\Rightarrow(\\overrightarrow{M N}, \\overrightarrow{B C})=45^{0}\\end{array})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ec951110245a6045be26a58d257120a6.png\" srcset=\"https://docdn.giainhanh.io/media/test/24178fd66b2b0bd7181850beed9347f2.png 210w, https://docdn.giainhanh.io/media/test/e2bb570ebfeb72cb42c58e6de24ab282.png 500w, https://docdn.giainhanh.io/media/test/29be003ac0650f1da749a608b32fb69a.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,111 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "Cho biểu thức: %(A=\\frac{\\sqrt{x}}{\\sqrt{x}+3}+\\frac{2 \\sqrt{x}}{\\sqrt{x}-3}-\\frac{3 x+9}{x-9})% với %(x \\geq 0)% và %(x \\neq 9)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Rút gọn biểu thức %(A)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { ĐKXĐ: } x \\geq 0 \\text { và } x \\neq 9 \\\\ \\Rightarrow A=\\frac{\\sqrt{x}}{\\sqrt{x}+3}+\\frac{2 \\sqrt{x}}{\\sqrt{x}-3}-\\frac{3 x+9}{x-9} \\\\ =\\frac{\\sqrt{x}(\\sqrt{x}-3)+2 \\sqrt{x}(\\sqrt{x}+3)-3 x-9}{(\\sqrt{x}+3)(\\sqrt{x}-3)}=\\frac{x-3 \\sqrt{x}+2 x+6 \\sqrt{x}-3 x-9}{(\\sqrt{x}+3)(\\sqrt{x}-3)} \\\\ =\\frac{3 \\sqrt{x}-9}{(\\sqrt{x}+3)(\\sqrt{x}-3)}=\\frac{3(\\sqrt{x}-3)}{(\\sqrt{x}+3)(\\sqrt{x}-3)}=\\frac{3}{(\\sqrt{x}+3)}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.5,
+        "content": "Tìm giá trị của %(x)% để %(A=\\frac{1}{3})%.",
+        "question_images": [],
+        "solution": "Ta có<br>\\[\\begin{aligned}A=\\frac{1}{3} & \\Leftrightarrow \\frac{3}{(\\sqrt{x}+3)}=\\frac{1}{3} \\\\& \\Leftrightarrow \\frac{3}{(\\sqrt{x}+3)}-\\frac{1}{3}=0 \\\\& \\Leftrightarrow \\frac{9-\\sqrt{x}-3}{3(\\sqrt{x}+3)}=0 \\\\& \\Rightarrow \\sqrt{x}=6 \\\\& \\Leftrightarrow x=36(T M Ð K X Ð)\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 0.5,
+        "content": "Tìm giá trị lớn nhất của biểu thức %(A)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Vì } \\sqrt{x}+3 \\geq 3 \\forall x \\in Đ K X Đ \\\\ \\Leftrightarrow \\frac{3}{(\\sqrt{x}+3)} \\leq 1 \\\\ \\text { Dấu \" = \"xảy ra } \\Leftrightarrow \\sqrt{x}=0 \\Leftrightarrow x=0 \\\\ \\text { Vậy } A_{\\max }=1 \\text { khi } x=0 .\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Giải bài toán sau bằng cách lập phuơng trình:<br>Một mảnh đất hình chữ nhật có độ dài đường chéo là %(13 \\mathrm{~m})% và chiều dài lớn hơn chiều rộng %(7 \\mathrm{~m})%.Tính chiều dài và chiều rộng của mảnh đất đó.",
+        "question_images": [],
+        "solution": "Gọi chiều rộng của hình chữ nhật là %(x(x\\gt 0)%, đơn vị: %(\\mathrm{m}))%<br>%(\\Rightarrow)% Chiều dài hình chữ nhật là %(x+7)% (m).<br>Vì đường chéo là %(13 \\mathrm{~m})% nên ta có phương trình:<br>\\[x^{2}+(x+7)^{2}=13^{2}\\]<br>\\[\\begin{array}{l}\\Leftrightarrow x^{2}+x^{2}+14 x+49=169 \\\\Leftrightarrow x^{2}+7 x-60=0 \\\\Leftrightarrow(x+12)(x-5)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x=-12(\\text { Không TMĐK) } \\x=5(\\text { TMĐK) }\\end{array}\\right.\\end{array}\\]<br>Chiều dài của hình chữ nhật là %(5+7=12)% (m)<br>Vậy chiều rộng và chiều dài hình chữ nhật đó lần lượt là %(5 \\mathrm{~m})% và %(12 \\mathrm{~m})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3:",
+        "group_content": "Cho parabol %((P): y=-x^{2})% và đường thẳng %((d): y=m x-1)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Chứng minh rằng với mọi giá trị của %(m)% thì đường thẳng %((d))% luôn cắt parabol %((P))% tại hai điểm phân biệt.",
+        "question_images": [],
+        "solution": "Hoành độ giao điểm của %((d))% và %((P))% là nghiệm của phương trình:<br>\\[\\begin{array}{l}m x-1=-x^{2} \\\\Leftrightarrow x^{2}+m x-1=0 \\\\end{array}\\]<br>Ta có: %(\\Delta=m^{2}+4\\gt 0 \\forall m)%<br>%(\\Rightarrow)% Phương trình luôn có 2 nghiệm phân biệt.<br>Vậy %((P))% luôn cắt %((d))% tại 2 điểm phân biệt.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "Gọi %(x_{1}, x_{2})% lần lượt là hoành độ các giao điểm của đường thẳng %((d))% và parabol %((P))%. Tìm giá trị của %(m)% để : %(x_{1}^{2} x_{2}+x_{2}^{2} x_{1}-x_{1} x_{2}=3)%",
+        "question_images": [],
+        "solution": "Vì %(x_{1} ; x_{2})% là nghiệm của phương trình %(x^{2}+m x-1=0)%<br>Theo hệ thức Vi-ét: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=\\frac{-b}{a}=-m \\\\ x_{1} \\cdot x_{2}=\\frac{c}{a}=-1\\end{array}\\right.)%<br>Ta có: %(x_{1}^{2} x_{2}+x_{2}^{2} x_{1}-x_{1} x_{2}=3)%<br>\\[\\begin{array}{l}\\Leftrightarrow x_{1} x_{2}\\left(x_{1}+x_{2}-1\\right)=3 \\\\Leftrightarrow-1 .(-m-1)=3 \\\\Leftrightarrow m+1=3 \\\\Leftrightarrow m=2\\end{array}\\]<br>Vậy với %(m=2)% thì %((P))% cắt %((d))% tại 2 điểm phân biệt có hoành độ thỏa mãn : %(x_{1}^{2} x_{2}+x_{2}^{2} x_{1}-x_{1} x_{2}=3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4:",
+        "group_content": "Cho đường tròn %((O))% có đường kính %(A B=2 R)% và điểm %(C)% thuộc đường tròn đó %((C)% khác %(A, B))%. Lấy điểm %(D)% thuộc dây %(B C(D)% khác %(B, C))%. Tia %(A D)% cắt cung nhỏ %(B C)% tại điểm %(E)%, tia %(A C)% cắt %(B E)% tại điểm %(F)%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Chứng minh %(F C D E)% là tứ giác nội tiếp.",
+        "question_images": [],
+        "solution": "%(\\widehat{A C B}=\\widehat{A E B}=90^{\\circ})% (góc nội tiếp chắn nửa đường tròn)<br>Tứ giác %(F C D E)% có: %(\\widehat{F C D}+\\widehat{F E D}=180^{\\circ})%<br>Mà 2 góc này ở vị trí đối nhau nên %(\\Rightarrow)% Tứ giác %(F C D E)% là tứ giác nội tiếp.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d411c8b9e67c0fc1c2f430209e34727f.png\" srcset=\"https://docdn.giainhanh.io/media/test/655110da8ea598f15183ca7c5721cae6.png 133w, https://docdn.giainhanh.io/media/test/c537bdc5ab91514697653b5d4e1dd913.png 426w\" width=\"426\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Chứng minh %(D A \\cdot D E=D B \\cdot D C)%.",
+        "question_images": [],
+        "solution": "Xét %(\\triangle A C D)% và %(\\triangle B E D)% có:<br>\\[\\begin{array}{l}\\left.\\begin{array}{l}\\widehat{A C D}=\\widehat{B E D}=90^{\\circ} \\\\widehat{A D C}=\\widehat{B D E}(\\text { d.d) }\\end{array}\\right\\} \\triangle A C D \\sim \\triangle B E D(g . g) \\\\Rightarrow \\frac{A D}{C D}=\\frac{B D}{E D} \\Rightarrow A D \\cdot E D=C D \\cdot B D(\\mathrm{dpcm}) \\\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 0.5,
+        "content": "Chứng minh %(\\widehat{C F D}=\\widehat{O C B})%. Gọi %(I)% là tâm đường tròn ngoại tiếp tứ giác %(F C D E)%. Chứng minh %(I C)% là tiếp tuyến của đường tròn %((O))%.",
+        "question_images": [],
+        "solution": "Vì tứ giác %(F C D E)% là tứ giác nội tiếp %((I))% nên %(\\widehat{C F D}=\\widehat{C E A})% (góc nội tiếp %((I))% cùng chắn cung %(C D)% )<br>Mà %(\\widehat{C E D}=\\widehat{C B A})% (góc nội tiếp %((O))% cùng chắn cung %(C A)% )<br>%(\\Rightarrow \\widehat{C F D}=\\widehat{C B A})%<br>Lại có %(\\triangle O C B)% cân tại %(O)% nên %(\\widehat{C B A}=\\widehat{O C B})%%(\\Rightarrow \\widehat{C F D}=\\widehat{O C B})% (1)<br>%(\\triangle I C F)% cân tại %(I: \\widehat{C F D}=\\widehat{I C F}(2))%<br>Từ (1) và %((2) \\Rightarrow \\widehat{I C F}=\\widehat{O C B})%<br>* Chứng minh %(I C)% là tiếp tuyến %((O))% :<br>Ta có: %(\\widehat{I C F}+\\widehat{I C B}=90^{\\circ})% (vì %(\\widehat{D I C})% là góc nội tiếp chắn nửa đường tròn)<br>\\[\\Rightarrow \\widehat{O C B}+\\widehat{B C I}=90^{\\circ}\\]<br>%(\\Rightarrow O C \\perp C I \\Rightarrow I C)% là tiếp tuyến của %((O))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "d) ",
+        "point": 0.5,
+        "content": "Cho biết %(D F=R)%, chứng minh %(\\tan \\widehat{A F B}=2)%.",
+        "question_images": [],
+        "solution": "Ta có 2 tam giác vuông %(\\triangle I C O \\sim \\triangle F E A(g . g))%<br>%(\\widehat{C A E}=\\frac{1}{2} \\widehat{C O E}=\\widehat{C O I})% (góc nội tiếp chắn %(\\widehat{C E})% )<br>%(\\Rightarrow \\widehat{C I O}=\\widehat{A F B})%<br>Mà %(\\tan \\widehat{C I O}=\\frac{C O}{C I}=\\frac{R}{\\frac{R}{2}}=2)%<br>%(\\Rightarrow \\tan \\widehat{A F B}=\\tan \\widehat{C I O}=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 0.5,
+        "content": "Giải phương trình: %(x^{2}+4 x+7=(x+4) \\sqrt{x^{2}+7})%.",
+        "question_images": [],
+        "solution": "Ta có: %(x^{2}+4 x+7=(x+4) \\sqrt{x^{2}+7})%<br>Đặt %(\\sqrt{x^{2}+7}=t(t\\gt 0))%<br>Phương trình đã cho trở thành:<br>\\[t^{2}+4 x=(x+4) t\\]<br>\\[\\begin{array}{l}\\Leftrightarrow t^{2}-(x+4) t+4 x=0 \\\\Leftrightarrow(t-x)(t-4)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}t=x \\t=4\\end{array}\\right.\\end{array}\\]<br>Với %(t=x: x^{2}+7=x^{2} \\Leftrightarrow 7=0)% (vô lí)<br>Với %(t=4: x^{2}+7=16 \\Leftrightarrow x^{2}=9 \\Leftrightarrow x= \\pm 3)%<br>Vậy %(x= \\pm 3)%.",
+        "question_type": "essay"
+    }
+]

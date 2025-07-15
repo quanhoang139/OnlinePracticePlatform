@@ -1,0 +1,65 @@
+[
+    {
+        "title": "1 ",
+        "point": 4.0,
+        "content": "Câu 1. Tìm một số có 8 chữ số: %(\\overline{a_{1} a_{2} \\ldots . a_{8}})% thỏa mãn 2 điều kiện %({a})% và b sau:<br>a) %(\\overline{a_{1} a_{2} a_{3}}=\\left(\\overline{a_{7} a_{8}}\\right)^{2})%<br>b) %(\\overline{a_{4} a_{5} a_{6} a_{7} a_{8}}=\\left(\\overline{a_{7} a_{8}}\\right)^{3})%",
+        "question_images": [],
+        "solution": "Ta có: %(\\overline{a_{1} a_{2} a_{3}}=\\left(\\overline{a_{7} a_{8}}\\right)^{2})%(1)<br>%(\\overline{a_{4} a_{5} a_{6} a_{7} a_{8}}=\\left(\\overline{a_{7} a_{8}}\\right)^{3})%(2)<br>Từ (1) và (2) %(\\Rightarrow 22 \\leq \\overline{a_{7} a_{8}} \\leq 31)%<br>\\[\\begin{array}{l}\\Rightarrow\\left(\\overline{a_{7} a_{8}}\\right)^{3}=\\overline{a_{4} a_{5} a_{6} 00}+\\overline{a_{7} a_{8}} \\Leftrightarrow\\left(\\overline{a_{7} a_{8}}\\right)^{3}-\\overline{a_{7} a_{8}}=\\overline{a_{4} a_{5} a_{6} 00} \\\\Leftrightarrow\\left(\\overline{a_{7} a_{8}}-1\\right) \\overline{a_{7} a_{8}}\\left(\\overline{a_{7} a_{8}}+1\\right)=4.25 \\cdot \\overline{a_{4} a_{5} a_{6}}\\end{array}\\]<br>Do %(\\left(\\overline{a_{7} a_{8}}-1\\right) ; \\overline{a_{7} a_{8}} ;\\left(\\overline{a_{7} a_{8}}+1\\right))% là 3 số tự nhiên liên tiếp nên có 3 khả năng:<br>a) %(\\overline{a_{7} a_{8}}=24 \\Rightarrow \\overline{a_{1} a_{2} a_{3} \\ldots \\ldots . a_{8}})% là số 57613824<br>b) %(\\overline{a_{7} a_{8}}-1=24 \\Rightarrow \\overline{a_{7} a_{8}}=25 \\Rightarrow)% số đó là 62515625<br>c) %(\\overline{a_{7} a_{8}}=26 \\Rightarrow)% không thỏa mãn",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 4.0,
+        "content": "Chứng minh rằng: %(\\left(x^{m}+x^{n}+1\\right))% chia hết cho %(x^{2}+x+1)% khi và chỉ khi<br>\\[(m n-2) \\vdots 3\\]<br>Áp dụng phân tích đa thức thành nhân tử: %(x^{7}+x^{2}+1)%",
+        "question_images": [],
+        "solution": "Đặt %(m=3 k+r)% với %(0 \\leq r \\leq 2 \\quad ; n=3 t+s)% với %(0 \\leq s \\leq 2)%<br>\\[\\begin{array}{l}\\Rightarrow x^{m}+x^{n}+1=x^{3 k+r}+x^{3 t+s}+1=x^{3 k} x^{r}-x^{r}+x^{3 t} x^{5}-x^{5}+x^{r}+x^{5}+1 \\\\=x^{r}\\left(x^{3 k}-1\\right)+x^{s}\\left(x^{3 t}-1\\right)+x^{r}+x^{s}+1\\end{array}\\]<br>Ta thấy: %(\\left(x^{3 k}-1\\right)\\vdots\\left(x^{2}+x+1\\right))% và %(\\left(x^{3 t}-1\\right)\\vdots\\left(x^{2}+x+1\\right))%<br>\\[\\begin{array}{l}\\text { Vậy }\\left(x^{m}+x^{n}+1\\right)\\vdots\\left(x^{2}+x+1\\right) \\\\Leftrightarrow\\left(x^{r}+x^{s}+1\\right)\\vdots\\left(x^{2}+x+1\\right) \\text { với } 0 \\leq r, s \\leq 2 \\\\Leftrightarrow r=2 \\text { và } s=1 \\Rightarrow m=3 k+2 \\text { và } n=3 t+1 \\r=1 \\text { và } s=2 \\Rightarrow m=3 k+1 \\text { và } n=3 t+2 \\\\Leftrightarrow m n-2=(3 k+2)(3 t+1)-2=9 k t+3 k+6 t=3(3 k t+k+2 t) \\m n-2=(3 k+1)(3 t+2)-2=9 k t+6 k+3 t=3(3 k t+2 k+t)\\end{array}\\]<br>%(\\Rightarrow(m n-2))%%(\\vdots)%3,Điều phải chứng minh.<br>Áp dụng: %(m=7, n=2 \\Rightarrow m n-2=12\\vdots3)%<br>\\[\\begin{array}{l}\\Rightarrow\\left(x^{7}+x^{2}+1\\right)\\vdots\\left(x^{2}+x+1\\right) \\\\Rightarrow\\left(x^{7}+x^{2}+1\\right)\\vdots\\left(x^{2}+x+1\\right)=x^{5}+x^{4}+x^{2}+x+1\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 4.0,
+        "content": "Giải phương trình:<br>\\[\\left(\\frac{1}{1.2 .3}+\\frac{1}{2.3 .4}+\\ldots . .+\\frac{1}{2005.2006 .2007}\\right) x=1.2+2.3+3.4+\\ldots . .+2006.2007\\]",
+        "question_images": [],
+        "solution": "\\[\\left(\\frac{1}{1.2 .3}+\\frac{1}{2.3 .4}+\\ldots . .+\\frac{1}{2005.2006 .2007}\\right) x=1.2+2.3+3.4+\\ldots . .+2006.2007\\]<br>Nhân cả 2 vế với 6 ta được:<br>\\[\\begin{array}{l}3 \\cdot\\left(\\frac{2}{1.2 \\cdot 3}+\\frac{2}{2.3 .4}+\\ldots . .+\\frac{2}{2005 \\cdot 2006 \\cdot 2007}\\right) x=2[1.2 \\cdot(3-0)+2 \\cdot 3 \\cdot(4-1)+\\ldots 2006 \\cdot 2007 \\cdot(2008-2005)] \\\\text { 3. }\\left(\\frac{1}{1.2}-\\frac{1}{2.3}+\\frac{1}{2.3}-\\frac{1}{3.4}+\\ldots . .-\\frac{1}{2006.2007}\\right) x \\\\=2 .(1.2 .3+2.3 .4-1.2 .3+\\ldots . .+2006.2007 .2008-2005.2006 .2007) \\\\Leftrightarrow 3 .\\left(\\frac{1}{1.2}-\\frac{1}{2006.2007}\\right) x=2.2006 .2007 .2008 \\Leftrightarrow x=\\frac{1003.1004 .669}{5.100 .651} \\\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho hình thang %(A B C D)% (đáy lớn %(C D)% ). Gọi O là giao điểm của %(A C)% và BD ; các đường kẻ từ A và B lần lượt song song với BC và AD cắt các đường chéo BD và AC tương ứng ở %(F)% và E . Chứng minh:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.5,
+        "content": "a) %(E F / / A B)%",
+        "question_images": [],
+        "solution": "Do %(A E / / B C)% và %(B F / / A D \\Rightarrow\\left\\{\\begin{array}{l}\\frac{O E}{O B}=\\frac{O A}{O C} \\\\ \\frac{O F}{O A}=\\frac{O B}{O D}\\end{array}\\right.)%<br>Mặt khác %(A B / / C D)% ta lại có: %(\\frac{O A}{O C}=\\frac{O B}{O D})% nên %(\\frac{O E}{O B}=\\frac{O F}{O A} \\Rightarrow E F / / A B)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/49a65991c6d32893e917697fd64327fa.png\" srcset=\"https://docdn.giainhanh.io/media/test/01397d9300786aa19ebc39a73bf0188b.png 245w, https://docdn.giainhanh.io/media/test/22dafd7c184a26be21d495547c644ab4.png 500w, https://docdn.giainhanh.io/media/test/f0bca517d88c7a1c481dcfef2e20bd31.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.5,
+        "content": "b) %(A B^{2}=E F \\cdot C D)%",
+        "question_images": [],
+        "solution": "%(A B C A_{1})% và %(A B B_{1} D)% là hình bình hành %(\\Rightarrow A_{1} C=D B_{1}=A B)%<br>Vì %(E F / / A B / / C D)% nên %(\\frac{E F}{A B}=\\frac{A B}{D C} \\Rightarrow A B^{2}=E F . C D)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Gọi %(S_{1}, S_{2}, S_{3})% và %(S_{4})% theo thứ tự là diện tích của tam giác %(O A B, O C D, O A D_{\\text {và }})% %(O B C)%. Chứng minh %(S_{1} \\cdot S_{2}=S_{3} \\cdot S_{4})%",
+        "question_images": [],
+        "solution": "Ta có: %(S_{1}=\\frac{1}{2} A H \\cdot O B ; S_{2}=\\frac{1}{2} C K \\cdot O D ; S_{3}=\\frac{1}{2} A H \\cdot O D ; S_{4}=\\frac{1}{2} \\cdot O K \\cdot O D)%<br>\\[\\begin{array}{l}\\Rightarrow \\frac{S_{1}}{S_{4}}=\\frac{\\frac{1}{2} \\cdot A H \\cdot O B}{\\frac{1}{2} \\cdot C K \\cdot O B}=\\frac{A H}{C K} ; \\frac{S_{3}}{S_{2}}=\\frac{\\frac{1}{2} \\cdot A H \\cdot O D}{\\frac{1}{2} \\cdot C K \\cdot O D}=\\frac{A H}{C K} \\\\Rightarrow \\frac{S_{1}}{S_{4}}=\\frac{S_{3}}{S_{2}} \\Rightarrow S_{1} \\cdot S_{2}=S_{3} \\cdot S_{4}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Tìm giá trị nhỏ nhất : %(A=x^{2}-2 x y+6 y^{2}-12 x+2 y+45)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}A=x^{2}-2 x y+6 y^{2}-12 x+2 y+45 \\\\=x^{2}+y^{2}+36-2 x y-12 x+12 y+5 y^{2}-10 y+5+4 \\\\=(x-y-6)^{2}+5(y-1)^{2}+4 \\geq 4\\end{array}\\]<br>Giá trị nhỏ nhất %(A=4)% khi %(\\left\\{\\begin{array}{l}y-1=0 \\\\ x-y-6=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=7 \\\\ y=1\\end{array}\\right.\\right.)%",
+        "question_type": "essay"
+    }
+]

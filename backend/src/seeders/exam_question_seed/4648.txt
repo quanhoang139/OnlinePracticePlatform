@@ -1,0 +1,97 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Giải phương trình sau: %(\\sqrt{3} \\sin 2 x+2 \\cos ^{2} x=2)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\sqrt{3} \\sin 2 x+2 \\cos ^{2} x=2 \\Leftrightarrow \\sqrt{3} \\sin 2 x+\\cos 2 x=1 \\\\ \\Leftrightarrow \\sin \\left(2 x+\\frac{\\pi}{6}\\right)=\\frac{1}{2} \\\\ \\Leftrightarrow\\left[\\begin{array}{l}x=k \\pi \\\\ x=\\frac{\\pi}{3}+k \\pi\\end{array}(k \\in \\mathbb{Z})\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm số hạng không chứa %(x)% trong khai triển sau: %(\\left(2 x^{4}-\\frac{3}{x^{2}}\\right)^{12})% với %(x \\neq 0)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\left(2 x^{4}-\\frac{3}{x^{2}}\\right)^{12}=\\sum_{k=0}^{12} C_{12}^{k}\\left(2 x^{4}\\right)^{12-k}\\left(-\\frac{3}{x^{2}}\\right)^{k} \\\\=\\sum_{k=0}^{12} C_{12}^{k} 2^{12-k}(-3)^{k} x^{48-6 k} \\\\48-6 k=0 \\Leftrightarrow k=8\\end{array}\\]<br>Vậy số hạng cần tìm là: %(C_{12}^{8} 2^{4}(-3)^{8}=51963120)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tìm số tự nhiên %(\\mathrm{x})% thỏa: %(A_{x+1}^{3}+C_{x+1}^{x-1}=14(x+1))%.",
+        "question_images": [],
+        "solution": "\\[A_{x+1}^{3}+C_{x+1}^{x-1}=14(x+1)\\]<br>ĐK: %(\\left\\{\\begin{array}{l}x \\in \\mathbb{N} \\\\ x \\geq 2\\end{array}\\right.)%<br>\\[\\begin{array}{l}\\frac{(x+1)!}{(x-2)!}-\\frac{(x+1)!}{2!(x-1)!}=14(x+1) \\\\Leftrightarrow(x+1)\\left(2 x^{2}-x-28\\right)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=-1 \\x=4 \\quad \\text {. Vậy } \\mathrm{x}=4 . \\x=\\frac{-7}{2}\\end{array}\\right.\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Một bàn dài có hai dãy ghế đối diện nhau, mỗi dãy gồm 8 ghế. Người ta muốn xếp chỗ ngồi cho 8 học sinh trường %(\\mathrm{A})% và 8 học sinh trường %(\\mathrm{B})% vào bàn nói trên. Hỏi có bao nhiêu cách xếp sao cho bất cứ 2 học sinh nào ngồi đối diện nhau thì khác trường với nhau?",
+        "question_images": [],
+        "solution": "Ghép một bạn trường A và một bạn trường %(B)% thành một cặp.<br>Hai bạn trong cặp có thể đổi chỗ cho nhau: 2 cách, có tất cả 8 cặp nên có %(2^{8})% cách.<br>8 bạn trường A có thể đổi chỗ cho nhau: 8 ! cách<br>8 bạn trường %(B)% có thể đổi chỗ cho nhau: 8 ! Cách<br>Vậy có %(2^{8} .8!.8)% ! cách",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Hộp thứ nhất có 2 bi đỏ và 10 bi vàng, hộp thứ hai có 8 bi đỏ và 4 bi vàng. Lấy từ mỗi hộp 3 viên bi. Tính xác suất để 6 bi được chọn có đủ hai màu.",
+        "question_images": [],
+        "solution": "\\[n(\\Omega)=C_{12}^{3} \\cdot C_{12}^{3}\\]<br>A là biến cố :\" để 6 bi được chọn có đủ hai màu\".<br>\\[\\begin{array}{l}n(\\overline{\\mathrm{A}})=\\mathrm{C}_{10}^{3} \\cdot \\mathrm{C}_{4}^{3} \\\\Rightarrow P(\\bar{A})=\\frac{\\mathrm{C}_{10}^{3} \\cdot \\mathrm{C}_{4}^{3}}{C_{12}^{3} \\cdot C_{12}^{3}}=\\frac{6}{605} \\\\Rightarrow \\mathrm{P}(\\mathrm{A})=\\frac{599}{605}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Từ các chữ số %(1 ; 2 ; 3 ; 4 ; 5 ; 6 ; 7 ; 8 ; 9)% lập các số tự nhiên có 5 chữ số khác nhau. Chọn ngẫu nhiên một số trong các số đó. Tính xác suất để số được chọn là số tự nhiên chẵn, có đúng hai chữ số lẻ và 2 chữ số lẻ đứng cạnh nhau?",
+        "question_images": [],
+        "solution": "Số các số có 5 chữ số đôi một khác nhau là %(A_{9}^{5}=15120)%.<br>Suy ra %(n(\\Omega)=C_{15120}^{1}=15120)%.<br>Gọi biến cố %(A)% : \"Số được chọn là số tự nhiên chẵn\"<br>%(\\Rightarrow n(A)=4 \\cdot A_{8}^{4}=6720 \\Rightarrow P(A)=\\frac{6720}{15120}=\\frac{4}{9})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho hình chóp %(S)%. %(A B C D)% có đáy %(A B C D)% là hình bình hành tâm %(O)%. Gọi %(\\mathrm{G}, \\mathrm{H})% lần lượt là trọng tâm tam giác %(\\mathrm{ACD})% và tam giác %(\\mathrm{SAB})%.",
+        "group_images": [],
+        "related_question_count": 5,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tìm giao tuyến của các mặt phẳng %((\\mathrm{HCD}))% và %((\\mathrm{SAB}))%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/fcf216cc5fc0b6617942196032cdb635.png\" srcset=\"https://docdn.giainhanh.io/media/test/71f2104fe992b47f57afdd9990b2f341.png 231w, https://docdn.giainhanh.io/media/test/176672c40a0fd8ae957824e9e2cdaf3b.png 500w, https://docdn.giainhanh.io/media/test/0945115b81bbaad29683f5e9b3e8aaf1.png 750w\" width=\"750\"/><br>\\[\\Rightarrow \\mathrm{H} \\in(\\mathrm{SAB}) \\cap(\\mathrm{HCD})\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh %(\\mathrm{GH} / /(\\mathrm{SAD}))%.",
+        "question_images": [],
+        "solution": "Mà %(\\mathrm{AB} / / \\mathrm{CD})%<br>%(\\Rightarrow(\\mathrm{SAB}) \\cap(\\mathrm{HCD})=\\mathrm{x}^{\\prime} \\mathrm{Hx} / / \\mathrm{AB}(/ / \\mathrm{CD}))%<br>Gọi M là trung điểm %(\\mathrm{SA} \\Rightarrow \\mathrm{GH} / / \\mathrm{SD})%<br>\\[\\Rightarrow \\mathrm{GH} / /(\\mathrm{SAD})\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.75,
+        "content": "c) Tìm điểm I là giao điểm của %((\\mathrm{AGH}))% với %(\\mathrm{SC})%.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{N})% là trung điểm %(\\mathrm{SB}, \\mathrm{E})% là giao điểm của %(\\mathrm{BC})% và %(\\mathrm{AG})%.<br>Trong (SBC), EN cắt SC tại I.<br>\\[\\left.\\begin{array}{l}I \\in S C \\I \\in E N \\subset(A G H)\\end{array}\\right\\} \\Rightarrow I=S C \\cap(A G H)\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 0.75,
+        "content": "d) Gọi %((\\mathrm{P}))% là mặt phẳng qua %(G)% và song song với %(\\mathrm{AB}, \\mathrm{SD})%. Mặt phẳng %((\\mathrm{P}))% cắt %(A D)%, %(\\mathrm{SA}, \\mathrm{SB} \\mathrm{BC})% lần lượt tại %(\\mathrm{P}, \\mathrm{Q}, \\mathrm{R}, \\mathrm{F})%. Tứ giác %(\\mathrm{PQRF})% là hình gì?",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0a1897a7c8cffc04e0bd15dd7dec1dac.png\" srcset=\"https://docdn.giainhanh.io/media/test/cac8d45c3b367e4896dbaa725ad6bc13.png 245w, https://docdn.giainhanh.io/media/test/1cb2d3a5eea4d214b6a668d2cb35db59.png 500w\" width=\"500\"/><br>Tứ giác %(P Q R F)% là hình thang.",
+        "question_type": "essay"
+    },
+    {
+        "title": "e ",
+        "point": 0.5,
+        "content": "e) Gọi %(\\mathrm{T})% là giao điểm của %(\\mathrm{SA})% và %(\\mathrm{IO})%. Tính tỉ số %(\\frac{\\mathrm{TA}}{\\mathrm{SA}})%.",
+        "question_images": [],
+        "solution": "Áp dụng định lý Menelaus cho tam giác %(\\mathrm{SBC})% có:<br>\\[\\frac{\\mathrm{NS}}{\\mathrm{NB}} \\cdot \\frac{\\mathrm{EB}}{\\mathrm{EC}} \\cdot \\frac{\\mathrm{IC}}{\\mathrm{IS}}=1 \\Rightarrow \\frac{\\mathrm{IC}}{\\mathrm{IS}}=\\frac{1}{2}\\]<br>Áp dụng định lý Menelaus cho tam giác %(\\mathrm{SAC})% có:<br>\\[\\frac{\\mathrm{TS}}{\\mathrm{TA}} \\cdot \\frac{\\mathrm{OA}}{\\mathrm{OC}} \\cdot \\frac{\\mathrm{IC}}{\\mathrm{IS}}=1 \\Rightarrow \\frac{\\mathrm{TS}}{\\mathrm{TA}}=2\\]<br>Vậy %(\\frac{T A}{S A}=1)%",
+        "question_type": "essay"
+    }
+]

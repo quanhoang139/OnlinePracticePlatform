@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Rút gọn biểu thức %(A=\\frac{x+\\sqrt{x}+1}{x+\\sqrt{x}-2}-\\frac{1}{1-\\sqrt{x}}+\\frac{1}{\\sqrt{x}+2})% với %(x \\geq 0, x \\neq 1)%.",
+        "question_images": [],
+        "solution": "Với %(x \\geq 0, x \\neq 1)% ta có:<br>\\[\\begin{aligned}A= & \\frac{x+\\sqrt{x}+1}{x+\\sqrt{x}-2}-\\frac{1}{1-\\sqrt{x}}+\\frac{1}{\\sqrt{x}+2} \\\\= & \\frac{x+\\sqrt{x}+1+\\sqrt{x}-1+\\sqrt{x}+2}{(\\sqrt{x}-1)(\\sqrt{x}+2)} \\\\= & \\frac{x+3 \\sqrt{x}+2}{(\\sqrt{x}-1)(\\sqrt{x}+2)} \\\\= & \\frac{(\\sqrt{x}+1)(\\sqrt{x}+2)}{(\\sqrt{x}-1)(\\sqrt{x}+2)} \\\\= & \\frac{\\sqrt{x}+1}{\\sqrt{x}-1}\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tính giá trị biểu thức %(Q=\\sqrt{28+12 \\sqrt{5}}+\\sqrt{28-12 \\sqrt{5}}+2 \\sqrt{43-30 \\sqrt{2}})%.",
+        "question_images": [],
+        "solution": "Ta có<br>\\[\\begin{array}{l}Q=\\sqrt{28+12 \\sqrt{5}}+\\sqrt{28-12 \\sqrt{5}}+2 \\sqrt{43-30 \\sqrt{2}} \\\\=\\sqrt{(3 \\sqrt{2}+\\sqrt{10})^{2}}+\\sqrt{(3 \\sqrt{2}-\\sqrt{10})^{2}}+2 \\sqrt{(5-3 \\sqrt{2})^{2}} \\\\=3 \\sqrt{2}+\\sqrt{10}+3 \\sqrt{2}-\\sqrt{10}+2(5-3 \\sqrt{2})=10\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}\\sqrt{2 y-x}+\\sqrt{3 x+y}=5 \\\\ 2 \\sqrt{2 y-x}-3 \\sqrt{3 x+y}=-5\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "ĐК %(2 y-x \\geq 0,3 x+y \\geq 0)%<br>Đặt %(a=\\sqrt{2 y-x} \\geq 0, b=\\sqrt{3 x+y} \\geq 0)%.<br>Ta có hệ phương trình: %(\\left\\{\\begin{array}{l}a+b=5 \\\\ 2 a-3 b=-5\\end{array}\\right.)%<br>Giải hệ ta có %(\\mathrm{a}=2, \\mathrm{~b}=3)% (TMĐK).<br>Khi đó %(\\left\\{\\begin{array}{l}\\sqrt{2 y-x}=2 \\\\ \\sqrt{3 x+y}=3\\end{array}\\right.)%.<br>Giải hệ ta có %(\\mathrm{x}=2, \\mathrm{y}=3)% (TMĐK).<br>Vậy hệ có nghiệm %((x ; y)=(2 ; 3))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải phương trình %(\\sqrt{x-3}+\\sqrt{5-x}=2 x^{2}-7 x-2)%.",
+        "question_images": [],
+        "solution": "ĐК %(3 \\leq x \\leq 5)%<br>Ta có %(\\sqrt{x-3}+\\sqrt{5-x}=2 x^{2}-7 x-2)%.<br>\\[\\begin{array}{l}\\Leftrightarrow(\\sqrt{x-3}-1)+(\\sqrt{5-x}-1)=(2 x+1)(x-4) . \\\\Leftrightarrow \\frac{x-4}{\\sqrt{x-3}+1}+\\frac{4-x}{\\sqrt{5-x}+1}=(2 x+1)(x-4) . \\\\Leftrightarrow(x-4)\\left(2 x+1+\\frac{4-x}{\\sqrt{5-x}+1}-\\frac{1}{\\sqrt{x-3}+1}\\right)=0 \\\\left.\\Leftrightarrow x=4 \\text { (vì } 2 x+1+\\frac{4-x}{\\sqrt{5-x}+1}\\gt 7>\\frac{1}{\\sqrt{x-3}+1}\\right)\\end{array}\\]<br>Vậy phương trình có nghiệm %(x=4)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 0.75,
+        "content": "Cho các số thực dương %(\\mathrm{x}, \\mathrm{y})% thỏa mãn %(x \\geq 0, y \\geq 0, x+y=2)%.<br>Tìm giá trị lớn nhất, giá trị nhỏ nhất của biểu thức %(A=x \\sqrt{2023+y}+y \\sqrt{2023+x})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Ta có } A=x \\sqrt{2023+y}+y \\sqrt{2023+x} \\\\Rightarrow A=\\sqrt{x} \\sqrt{2023 x+x y}+\\sqrt{y} \\sqrt{2023 y+x y} \\\\Rightarrow A^{2}=(\\sqrt{x} \\sqrt{2023 x+x y}+\\sqrt{y} \\sqrt{2023 y+x y})^{2} \\\\leq(x+y)(2023 x+x y+2023 y+x y) \\\\=2 .(2023.2+2 x y) \\\\leq 4.2023+4 .\\left(\\frac{x+y}{2}\\right)^{2} \\\\=4.2024 \\\\Rightarrow A \\leq 2 \\sqrt{2024}\\end{array}\\]<br>Vậy %(\\max A=2 \\cdot \\sqrt{2024})%.<br>Đẳng thức xảy ra khi và chỉ khi %(\\mathrm{x}=\\mathrm{y}=1)%.<br>Mặt khác<br>\\[\\begin{aligned}A= & x \\sqrt{2023+y}+y \\sqrt{2023+x}-(x+y) \\sqrt{2023}+2 \\sqrt{2023} \\\\& =x(\\sqrt{2023+y}-\\sqrt{2023})+y(\\sqrt{2023+x}-\\sqrt{2023})+2 \\sqrt{2023}\\end{aligned}\\]<br>Vì %(x \\geq 0, y \\geq 0)% nên %(A \\geq 2 \\cdot \\sqrt{2023})%.<br>Đẳng thức xảy ra khi và chỉ khi %(\\mathrm{x}=0, \\mathrm{y}=2)% hoặc %(\\mathrm{x}=2, \\mathrm{y}=0)%.<br>Vậy %(\\min A=2 \\sqrt{2023})% khi %(\\mathrm{x}=0, \\mathrm{y}=2)% hoặc %(\\mathrm{x}=2, \\mathrm{y}=0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 0.75,
+        "content": "Cho hai số thực dương a và b thỏa mãn các điều kiện %(a^{1012}-a-1=0)% và %(b^{2024}-b-3 a=0)%. Hãy so sánh a và b.",
+        "question_images": [],
+        "solution": "Ta giải bài toán tổng quát sau: Cho hai số thực dương a và b thỏa mãn %(a^{n}-a-1=0)% và %(b^{2 n}-b-3 a=0)% với %(n\\gt 1, n \\in N)%.<br>Hãy so sánh a và %(b)%.<br>Do %(a>0)% và %(a^{n}=a+1>1 \\Rightarrow a>1)%.<br>Từ đó %(a^{2 n}=(a+1)^{2}>4 a)%.Do đó %(\\left(\\frac{b}{a}\\right)^{2 n}=\\frac{b^{2 n}}{a^{2 n}}=\\frac{b+3 a}{a^{2 n}}\\lt \\frac{b+3 a}{4 a})%.<br>- Nếu %(a \\leq b)% thì %(\\left(\\frac{b}{a}\\right)^{2 n}\\lt \\frac{b+3 a}{4 a} \\leq \\frac{b+3 b}{4 a}=\\frac{b}{a})%, điều này vô lý vì %(\\frac{b}{a} \\geq 1)%.<br>Chứng tỏ %(\\mathrm{a}>\\mathrm{b})% với mọi %(n>1, n \\in N)%.<br>Áp dụng bài toán tổng quát với %(\\mathrm{n}=1012)% ta có kết luận %(\\mathrm{a}>\\mathrm{b})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác ABC . Các điểm %(\\mathrm{M}, \\mathrm{N}, \\mathrm{P})% lần lượt là trung điểm các cạnh %(\\mathrm{AB}, \\mathrm{AC})%, BC . Gọi O là giao điểm của CM và %(\\mathrm{PN}, \\mathrm{I})% là giao điểm của AO và %(\\mathrm{BC}, \\mathrm{D})% là giao điểm của MI và %(\\mathrm{AC}, \\mathrm{K})% là giao điểm của AI và MN .",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh %(\\mathrm{KM}=2 \\mathrm{KN})%.",
+        "question_images": [],
+        "solution": "Từ giả thiết, ta có MNCP là hình bình hành nên O là trung điểm NP .<br>%(\\triangle A M C)%. có hai trung tuyến MN và AO cắt nhau tại K .<br>Suy ra K là trọng tâm %(\\triangle A M C)%. Vậy %(M K=2 \\mathrm{KN})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh ba đường thẳng %(\\mathrm{AI}, \\mathrm{BD})% và và MP đồng quy.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b472507a29713ef3d07541745d9a0856.png\" srcset=\"https://docdn.giainhanh.io/media/test/a4b00429a835c2ace95060b8f0cda787.png 226w, https://docdn.giainhanh.io/media/test/45e26a237c7d5b0dd91c1c79fc16d109.png 500w\" width=\"500\"/><br>Tứ giác MNCP là hình bình hành tâm O và %(O \\in K I)%, kết hợp với %(\\mathrm{MK}=2 \\mathrm{KN})% nên IC = IP.<br>Vì MP //AD nên %(\\frac{M P}{C D}=\\frac{I P}{I C}=\\frac{1}{2} \\Rightarrow C D=2 M P)%.<br>Gọi E là giao điểm của MP và BD , khi đó E là trung điểm của BD .<br>Mà %(\\mathrm{CA}=2 \\mathrm{MP})% nên %(\\mathrm{CD}=\\mathrm{CA})%.<br>%(\\triangle A B D)% có %(\\mathrm{DM}, \\mathrm{BC})% là hai trung tuyến cắt nhau tại I nên I là trọng tâm %(\\triangle A B D)%. Do đó I nằm trên đường thẳng AE .<br>Vậy %(\\mathrm{AI}, \\mathrm{BD})% và MP đồng quy tại E .",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Trên các tia đối của tia %(\\mathrm{BA}, \\mathrm{CA})% lần lượt lấy các điềm C ', B ' (với C ' khác B , %(\\mathrm{B}^{\\prime})% khác C ). Gọi F là giao điểm của %(\\mathrm{BB}^{\\prime})% và CC '.<br>Chứng minh %(\\frac{F B}{F B^{\\prime}}+\\frac{F C}{F C^{\\prime}} \\geq 2 \\sqrt{\\frac{A B \\cdot A C}{A b^{\\prime} \\cdot A C^{\\prime}}})%, dấu bằng xảy ra khi nào?",
+        "question_images": [],
+        "solution": "Vì nếu hai tam giác có cùng chiều cao thì tỉ lệ diện tích giữa chúng bằng tỉ lệ giữa hai cạnh đáy ứng với chiều cao đó. Ta có:<br>\\[\\frac{S_{A F B}}{S_{A F B^{\\prime}}}=\\frac{F B}{F B^{\\prime}} ; \\frac{S_{A F C}}{S_{A F C^{\\prime}}}=\\frac{F C}{F C^{\\prime}} \\text {. Suy ra } \\frac{F B}{F B^{\\prime}}+\\frac{F C}{F C^{\\prime}}=\\frac{S_{A F B}}{S_{A F B^{\\prime}}}+\\frac{S_{A F C}}{S_{A F C^{\\prime}}}(1)\\]<br>Theo bất đẳng thức Côsi ta có: %(\\frac{S_{A F B}}{S_{\\mathrm{AFB}}}+\\frac{S_{A F C}}{S_{\\mathrm{AFC}}} \\geq 2 \\sqrt{\\frac{S_{A F B}}{S_{A F B^{\\prime}}} \\cdot \\frac{S_{A F C}}{S_{\\mathrm{AFC}}}})%(2)<br>Mặt khác %(\\frac{S_{A F B}}{S_{A F B^{\\prime}}} \\cdot \\frac{S_{A F C}}{S_{A F C}}=\\frac{S_{A F B}}{S_{\\mathrm{AFC}}} \\cdot \\frac{S_{A F C}}{S_{A F B^{\\prime}}}=\\frac{A B}{A C^{\\prime}} \\cdot \\frac{A C}{A B^{\\prime}}=\\frac{A B \\cdot A C}{A B^{\\prime} \\cdot A C^{\\prime}})%(3)<br>Từ (1), (2), (3) ta có %(\\frac{F B}{F B^{\\prime}}+\\frac{F C}{F C^{\\prime}}=2 \\sqrt{\\frac{A B \\cdot A C}{A B^{\\prime} \\cdot A C^{\\prime}}})%<br>Dấu \" %(=)% \" xảy ra khi và chỉ khi %(\\frac{S_{A F B}}{S_{A F B^{\\prime}}}=\\frac{S_{A F C}}{S_{A F C}} \\Leftrightarrow \\frac{F B}{F B^{\\prime}}=\\frac{F C}{F C^{\\prime}})%<br>Điều đó xảy ra khi và chỉ khi %(\\mathrm{BC} / / \\mathrm{B}^{\\prime} \\mathrm{C})% '.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9c495a48d11245d10f540731709ee4db.png\" srcset=\"https://docdn.giainhanh.io/media/test/3c1f5584b692154c2df9417aa775faf3.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các số tự nhiên n sao cho %(2^{n}+9.2^{8})% là số chính phương.",
+        "question_images": [],
+        "solution": "Giả sử %(2^{n}+9.2^{8}=m^{2}, \\mathrm{~m} \\in \\mathrm{N})%.<br>Khi đó %(2^{n}=m^{2}-9.2^{8})%<br>\\[\\begin{array}{l}\\Leftrightarrow 2^{n}=m^{2}-3^{2} \\cdot\\left(2^{4}\\right)^{2}=m^{2}-48^{2} \\\\Leftrightarrow 2^{n}=(m-48)(m+48) \\\\Leftrightarrow\\left\\{\\begin{array}{l}m+48=2^{p} \\m-48=2^{q}\\end{array} \\text {, với } p, q \\in N, p\\gt q \\text { và } p+q=n .\\right.\\end{array}\\]<br>Suy ra %(2^{p}-2^{q}=96 \\Leftrightarrow 2^{q}\\left(2^{p-q}-1\\right) 2^{5} .3)%<br>Nhận xét %(\\mathrm{q}=0)% không thỏa mãn bài toán.<br>Do %(p, q \\in N, p>q>0)% nên %(2^{p-q}-1)% là số lẻ và %(2^{q})% là số chẵn.<br>Suy ra %(\\mathrm{q}=5)% và %(\\mathrm{p}-\\mathrm{q}=2)% nên %(\\mathrm{p}=7)%.<br>Khi đó %(\\mathrm{n}=5+7=12)%.<br>Thử lại %(2^{12}+9.2^{8}=80^{2})%.<br>Vậy %(\\mathrm{n}=12)%.",
+        "question_type": "essay"
+    }
+]

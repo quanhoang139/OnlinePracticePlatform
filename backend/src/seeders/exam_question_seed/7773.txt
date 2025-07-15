@@ -1,0 +1,72 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho dãy số thực %(\\left(x_{n}\\right))% được xác định bởi<br>%(x_{0}=1 ; x_{1}=2017)% và %(x_{n+1}=\\frac{n x_{n}^{2}}{1+(n+1) x_{n}})% với mọi %(n \\geq 1)%.<br>Với mỗi số nguyên dương %(n)%, đặt %(y_{n}=n x_{n})% và %(z_{n}=\\sum_{k=1}^{n} \\frac{x_{k}}{x_{k-1}})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "%(\\mathrm{a})%. Chứng minh rằng %(\\left(y_{n}\\right))% là dãy số giảm.",
+        "question_images": [],
+        "solution": "Ta thấy ngay %(x_{n}\\gt 0, \\forall n \\geq 0)%.<br>Ta có %(y_{n}-y_{n+1}=n x_{n}-(n+1) x_{n+1}=n x_{n}-\\frac{n(n+1) x_{n}^{2}}{1+(n+1) x_{n}}=\\frac{n x_{n}}{1+(n+1) x_{n}}>0, \\forall n \\geq 1)%.<br>Suy ra dãy %(\\left(y_{n}\\right))% giảm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b. Tìm giới hạn của dãy %(\\left(z_{n}\\right))%.",
+        "question_images": [],
+        "solution": "Dãy %(\\left(y_{n}\\right))% giảm và %(y_{n}\\gt 0, \\forall n)% nên %(\\left(y_{n}\\right))% hội tụ. Đặt %(\\lim _{n \\rightarrow+\\infty} y_{n}=a \\geq 0)%.<br>Ta có %(0=\\lim _{n \\rightarrow+\\infty}\\left(y_{n}-y_{n+1}\\right)=\\lim _{n \\rightarrow \\infty} \\frac{n x_{n}}{1+(n+1) x_{n}}=\\lim _{n \\rightarrow \\infty} \\frac{n x_{n}}{1+\\frac{n+1}{n}\\left(n x_{n}\\right)}=\\frac{a}{1+a})%. Do đó %(a=0)%.<br>Từ giả thiết suy ra %(x_{n+1}+(n+1) x_{n} x_{n+1}=n x_{n}^{2} \\Rightarrow \\frac{x_{n+1}}{x_{n}}=n x_{n}-(n+1) x_{n+1})%.<br>Do đó %(z_{n}=\\sum_{k=1}^{n} \\frac{x_{k}}{x_{k-1}}=\\frac{x_{1}}{x_{0}}+\\sum_{k=2}^{n} \\frac{x_{k}}{x_{k-1}}=\\frac{x_{1}}{x_{0}}+x_{1}-n x_{n}=4034-y_{n}, \\forall n \\geq 1)%.<br>Vậy %(\\lim _{n \\rightarrow+\\infty} z_{n}=4034)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho ba số thực %(a, b, c\\gt 2)% thỏa mãn điều kiện %(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=a+b+c-8)%. Chứng minh rằng<br>\\[a+b+c \\geq 9 \\geq \\sqrt{3(a b+b c+c a)} .\\]",
+        "question_images": [],
+        "solution": "Đặt %(x=a+b+c)%. Ta có %(a+b+c-8=\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c} \\geq \\frac{9}{a+b+c} \\Rightarrow x-8 \\geq \\frac{9}{x})%.<br>%(\\Leftrightarrow x^{2}-8 x-9 \\geq 0 \\Leftrightarrow x \\geq 9)%. Vậy bất đẳng thức thứ nhất được chứng minh.<br>Ta có %(2 x-16=\\frac{2}{a}+\\frac{2}{b}+\\frac{2}{c} \\Rightarrow \\frac{a-2}{a}+\\frac{b-2}{b}+\\frac{c-2}{c}=19-2 x)% (1)<br>Áp dụng bất đẳng thức Cauchy-Schwazt ta được:<br>\\[\\frac{a-2}{a}+\\frac{b-2}{b}+\\frac{c-2}{c} \\geq \\frac{[(a-2)+(b-2)+(c-2)]^{2}}{a(a-2)+b(b-2)+c(c-2)}=\\frac{(x-6)^{2}}{a^{2}+b^{2}+c^{2}-2 x}\\ (2)\\]<br>Từ (1) và (2) suy ra %(19-2 x \\geq \\frac{(x-6)^{2}}{a^{2}+b^{2}+c^{2}-2 x} \\Rightarrow a^{2}+b^{2}+c^{2} \\geq 2 x+\\frac{(x-6)^{2}}{19-2 x})% (3)<br>%(\\mathrm{B} Đ T)% thứ hai tương đương với %(a b+b c+c a \\leq 27 \\Leftrightarrow(a+b+c)^{2}-\\left(a^{2}+b^{2}+c^{2}\\right) \\leq 54)%<br>\\[\\Leftrightarrow a^{2}+b^{2}+c^{2} \\geq x^{2}-54 .\\]<br>Ta cần chứng minh %(2 x+\\frac{(x-6)^{2}}{19-2 x} \\geq x^{2}-54)%(4).<br>Thật vậy %((4) \\Leftrightarrow(x-9)\\left(x^{2}-2 x-59\\right) \\geq 0)%.<br>BĐT này luôn đúng do %(x \\geq 9)%.<br>Từ (3) và (4) ta có điều phải chứng minh.<br>Đẳng thức xảy ra ở cả hai BĐT khi %(a=b=c=3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho tam giác %(A B C)% cân tại %(A)%. Gọi %(D)% là trung điểm cạnh %(A C)% và %(M)% là trung điểm cạnh %(B C)%. Đoạn thẳng %(A M)% cắt đường tròn ngoại tiếp tam giác %(B C D)% tại điểm %(E)%. Đường thẳng %(B D)% cắt đường tròn ngoại tiếp tam giác %(A B E)% tại điểm %(F)% khác %(B)%. Đường thẳng %(A F)% cắt đường thẳng %(B E)% tại %(I)%, đường thẳng %(C I)% cắt đường thẳng %(B D)% tại %(K)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh rằng %(D A=D F)%.",
+        "question_images": [],
+        "solution": "Do tứ giác %(A B F E)% nội tiếp nên %(A F D=180^{\\circ}-A F B=180^{\\circ}-A E B=B E M)% <strong>(1)</strong><br>Mặt khác do %(A M)% là trung trực của %(B C)% và tứ giác %(B E D C)% nội tiếp nên<br>\\[B E M=\\frac{1}{2} B E C=\\frac{1}{2} B D C \\ (2)\\]<br>Từ (1) và (2) suy ra %(A F D=\\frac{1}{2} B D C \\Rightarrow A F D=D A F)%.<br>Vậy tam giác %(D A F)% cân tại %(D)%, tức là %(D A=D F)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/40603647ee90bf52e5f69a9d8e20c23b.png\" srcset=\"https://docdn.giainhanh.io/media/test/ffa4fd4d7aa1f188fea17f5ba284451e.png 153w\" width=\"153\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Chứng minh rằng %(I)% là tâm đường tròn nội tiếp tam giác %(A B K)%.",
+        "question_images": [],
+        "solution": "Dễ thấy do tam giác %(A B C)% cân nên đường tròn ngoại tiếp %(B C D)% đi qua trung điểm %(D^{\\prime})% của %(A B)%. Từ đó hai cung %(E D)% và %(E D^{\\prime})% bằng nhau, suy ra %(B E)% là phân giác của góc %(A B D)% (3).<br>Áp dụng định lý Mênelaus cho tam giác %(A D F)% và cát tuyến %(C I K)% ta được:<br>\\[\\frac{C A}{C D} \\cdot \\frac{K D}{K F} \\cdot \\frac{I F}{I A}=1\\]<br>Mà %(C A=2 C D)% và %(B I)% là phân giác góc %(A B F)% nên %(\\frac{I F}{I A}=\\frac{B F}{B A})%. Từ đó ta được<br>\\[1=2 \\cdot \\frac{K D}{K F} \\cdot \\frac{B F}{A B}=2 \\cdot \\frac{K D}{K F} \\cdot \\frac{B F}{2 A D}=\\frac{K D}{K F} \\cdot \\frac{B F}{A D} .\\]<br>Suy ra %(\\frac{B F}{A D}=\\frac{K F}{K D})%, do đó %(\\frac{B D}{A D}=\\frac{B F+F D}{A D}=\\frac{B F}{A D}+1=\\frac{K F}{K D}+1=\\frac{D F}{D K}=\\frac{A D}{D K})%<br>Từ đó suy ra hai tam giác %(A D K)% và %(B D A)% đồng dạng, suy ra %(D A K=A B D)%<br>Khi đó %(I A B=A F D-A B D=D A F-D A K=I A K)%, suy ra %(A I)% là phân giác góc %(B A K)% (4).<br>Từ (3) và (4) suy ra %(I)% là tâm nội tiếp tam giác %(A B K)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Một số nguyên dương %(a)% được gọi là số %(k)% - phương %(\\left(k \\in \\mathbb{Z}^{+}, k \\geq 2\\right))% nếu tồn tại số nguyên dương %(b)% sao cho %(a=b^{k})%. Cho cấp số cộng %(\\left(a_{n}\\right)_{n \\geq 0})% với các số hạng là số nguyên dương và có công sai bằng 2017. Biết rằng có hai số hạng %(a_{m})% và %(a_{n})% của cấp số cộng tương ứng là số %(i)% - phương và số %(j)% - phương, trong đó %((i, j)=1)%. Chứng minh rằng tồn tại một số hạng của cấp số cộng là số %(i j)% - phương.",
+        "question_images": [],
+        "solution": "Theo giả thiết, ta có %(a_{m}=x^{i}, a_{n}=y^{j}(i, j \\geq 2) ; x, y)% nguyên dương. Đặt %(p=2017)% là công sai của cấp số cộng %(\\left(a_{n}\\right))%, ta thấy %(p)% là số nguyên tố.<br>Ta có %(a_{m}=a_{0}+m p \\Rightarrow a_{0} \\equiv a_{m} \\equiv x^{i}(\\bmod p))%, tương tự %(a_{0} \\equiv y^{j}(\\bmod p))%<br>Do %((i, j)=1)% nên tồn tại %(u, v \\in \\mathbb{Z})% sao cho %(u i+v j=1)%.<br>Chọn các số nguyên dương %(r, s)% sao cho %(r \\equiv u(\\bmod p-1), s \\equiv v(\\bmod p-1))%,khi đó %(r i+s j \\equiv u i+v j \\equiv 1(\\bmod p-1))%<br>Suy ra %(r i+s j=1+k(p-1), k \\in \\mathbb{Z}^{+})%. Do đó:<br>\\[\\left(x^{s} y^{r}\\right)^{i j}=\\left(x^{i}\\right)^{s j} \\cdot\\left(y^{j}\\right)^{r i} \\equiv a_{0}^{s j} \\cdot a_{0}^{r i}=a_{0}^{r i+s j}=a_{0} \\cdot a_{0}^{k(p-1)} \\equiv a_{0}(\\bmod p)\\]<br>Như vậy tồn tại số nguyên dương %(h)% sao cho %(\\left(x^{s} y^{r}\\right)^{i j}=a_{0}+h p=a_{h})%. Vậy %(a_{h})% là số %(i j)% - phương (đpcm).",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho %(S)% là một số nguyên dương sao cho %(S)% chia hết cho tất cả các số nguyên dương từ 1 đến 2017. Xét %(k)% số nguyên dương %(a_{1}, a_{2}, \\ldots, a_{k})% (không nhất thiết phân biệt) thuộc tập hợp %(\\{1,2, \\ldots, 2017\\})% thỏa mãn %(a_{1}+a_{2}+\\ldots+a_{k} \\geq 2 S)%. Chứng minh rằng ta có thể chọn ra từ các số %(a_{1}, a_{2}, \\ldots, a_{k})% một vài số sao cho tổng của chúng bằng %(S)%.",
+        "question_images": [],
+        "solution": "Do %(S)% chia hết cho %(2015,2016,2017)% nên %(S \\geq 2015.2016 .2017)%<br>Giả sử mỗi số nguyên %(1,2,3, \\ldots, 2017)% xuất hiện nhiều nhất 2015 lần trong các số %(a_{1}, a_{2}, \\ldots, a_{k})% thì %(2 S \\leq a_{1}+a_{2}+\\ldots+a_{k} \\leq 2015(1+2+3+\\ldots+2017)\\lt 2015.2016 .2017)%, mâu thuẫn. Do đó tồn tại một số %(a \\in\\{1,2,3, \\ldots, 2017\\})% xuất hiện ít nhất 2016 lần trong các số %(a_{1}, a_{2}, \\ldots, a_{k})%<br>Ta để 2016 số %(a)% vào một tập %(A)%. Xét %(k-2016)% số còn lại, ta để các số này vào một tập %(B)%. Tổng các số trong %(B)% là<br>\\[a_{1}+a_{2}+\\ldots+a_{k}-2016 a \\geq 2 S-2016 a \\geq 2 S-2016.2017\\gt S .\\]<br>Nếu %(k-2016 \\leq a)% thì %(k \\leq 2016+2017 \\Rightarrow a_{1}+a_{2}+\\ldots+a_{k} \\leq(2016+2017) .2017\\lt 2 S)%, mâu thuẫn, suy ra %(k-2016>a)%. Từ tập %(B)% ta chọn ra %(a)% số bất kì là %(b_{1}, b_{2}, \\ldots, b_{a})%.<br>- Nếu tồn tại %(i \\in\\{1,2, \\ldots, a\\})% mà %(\\left(b_{1}+b_{2}+\\ldots+b_{i}\\right))% :a thì ta chọn %(i)% số này vào một tập hợp %(T)%.<br>- Nếu ngược lại thì theo nguyên lý Đirichlet sẽ tồn tại %(i\\lt r)% sao cho<br>\\[b_{1}+b_{2}+\\ldots+b_{i} \\equiv b_{1}+b_{2}+\\ldots+b_{r}(\\bmod a) \\text {, suy ra }\\left(b_{i+1}+b_{i+2}+\\ldots+b_{r}\\right) \\vdots a\\]<br>Khi đó ta chọn %((r-i))% số này vào tập %(T)%.<br>Như vậy ta luôn chọn được một số số vào tập %(T)% mà có tổng chia hết cho %(a)%. Ta tiếp tục làm như vậy với các số còn lại của tập %(B)% để bổ sung thêm các phần tử vào %(T)% cho đến khi tổng các số trong %(T)% (kí hiệu %(\\sum T)% ) lớn hơn %(S-2017 a)% thì dừng lại.<br>Thật vậy, nếu %(\\sum T \\leq S-2017 a)% thì tổng các số còn lại trong %(B)% sẽ lớn hơn hoặc bằng<br>\\[2 S-2016 a-(S-2017 a)=S+a\\gt 2017 a\\]<br>,tức là vẫn còn ít nhất %(a)% số để thực hiện thao tác.<br>Như vậy, ta đã xây dựng được tập hợp %(T)% thỏa mãn hai điều kiện:<br>\\[\\left(\\sum T\\right) \\vdots a \\text { và } \\sum T\\gt S-2017 a\\]<br>Chú ý là %(S)% : a nên ta được %(\\sum T \\geq S-2017 a+a \\Rightarrow \\sum T \\geq S-2016 a)%<br>Do đó %(\\sum T=S-m a)% với %(m \\in\\{0,1,2, \\ldots, 2016\\})%. Đến lúc này ta chỉ cần bổ sung %(m)% số %(a)% từ tập %(A)% vào %(T)% thì ta sẽ được tổng các phần tử trong %(T)% bằng %(S)% (đpcm).",
+        "question_type": "essay"
+    }
+]

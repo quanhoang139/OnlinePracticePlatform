@@ -1,0 +1,88 @@
+[
+    {
+        "title": "1",
+        "group_content": "Phân tích các đa thức sau thành nhân tử :",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "%(\\mathrm{a}) \\mathrm {x}^{4}+4)%",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} x^{4}+4 & =x^{4}+4 x^{2}+4-4 x^{2} \\\\ & =\\left(x^{4}+4 x^{2}+4\\right)-(2 x)^{2} \\\\ & =\\left(x^{2}+2+2 x\\right)\\left(x^{2}+2-2 x\\right)\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "%(b) (x+2)(x+3)(x+4)(x+5)-24)%",
+        "question_images": [],
+        "solution": "%(\\begin{aligned}(x+2) & (x+3)(x+4)(x+5)-24 \\\\ = & \\left(x^{2}+7 x+11-1\\right)\\left(x^{2}+7 x+11+1\\right)-24 \\\\ = & {\\left[\\left(x^{2}+7 x+11\\right)^{2}-1\\right]-24 } \\\\ = & \\left(x^{2}+7 x+11\\right)^{2}-5^{2} \\\\ = & \\left(x^{2}+7 x+6\\right)\\left(x^{2}+7 x+16\\right) \\\\ = & (x+1)(x+6))\\left(x^{2}+7 x+16\\right)\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho %(\\frac{\\mathrm{a}}{\\mathrm{b}+\\mathrm{c}}+\\frac{\\mathrm{b}}{\\mathrm{c}+\\mathrm{a}}+\\frac{\\mathrm{c}}{\\mathrm{a}+\\mathrm{b}}=1)%. Chứng minh rằng:<br>\\[\\frac{a^{2}}{b+c}+\\frac{b^{2}}{c+a}+\\frac{c^{2}}{a+b}=0\\]",
+        "question_images": [],
+        "solution": "Nhân cả 2 vế của: %(\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{a+b}=1)%<br>với %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c})%<br>rút gọn %(\\Rightarrow)% đpcm",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tìm a,b sao cho %(\\mathrm{f}(\\mathrm{x})=\\mathrm{ax}^{3}+\\mathrm{bx}^{2}+10 \\mathrm{x}-4)% chia hết cho đa thức %(g(x)=x^{2}+x-2)%",
+        "question_images": [],
+        "solution": "Ta có %(: g(x)=x^{2}+x-2=(x-1)(x+2))%<br>Vì %(\\mathrm{f}(\\mathrm{x})=\\mathrm{ax}^{3}+b \\mathrm{x}^{2}+10 \\mathrm{x}-4)% chia hết cho đa thức %(\\mathrm{g}(\\mathrm{x})=\\mathrm{x}^{2}+\\mathrm{x}-2)%<br>Nên tồn tại một đa thức %(\\mathrm{q}(\\mathrm{x}))% sao cho %(\\mathrm{f}(\\mathrm{x})=\\mathrm{g}(\\mathrm{x}) \\cdot \\mathrm{q}(\\mathrm{x}))% %(\\rightarrow \\mathrm{ax}^{3}+\\mathrm{bx}^{2}+10 \\mathrm{x}-4=(\\mathrm{x}+2) \\cdot(\\mathrm{x}-1) \\cdot \\mathrm{q}(\\mathrm{x}))%<br>Với %(\\mathrm{x}=1 \\rightarrow \\mathrm{a}+\\mathrm{b}+6=0 \\rightarrow \\mathrm{b}=-\\mathrm{a}-6)% (1)<br>Với %(x=-2 \\rightarrow 2 a-b+6=0(2))%<br>Thay (1) vào (2) .<br>Ta có : %(a=2)% và %(b=4)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tìm số nguyên a sao cho %(\\mathrm{a}^{4}+4)% là số nguyên tố",
+        "question_images": [],
+        "solution": "Ta có %(: \\mathrm{a}^{4}+4=\\left(\\mathrm{a}^{2}-2 \\mathrm{a}+2\\right)\\left(\\mathrm{a}^{2}+2 \\mathrm{a}+2\\right))%<br>Vì a %(\\in Z \\rightarrow \\mathrm{a}^{2}-2 \\mathrm{a}+2 \\in Z ; \\mathrm{a}^{2}+2 \\mathrm{a}+2 \\in Z)%<br>Có %(\\mathrm{a}^{2}+2 \\mathrm{a}+2=(\\mathrm{a}+1)^{2}+1 \\geq 1 \\quad \\forall \\mathrm{a})%<br>Và %(\\mathrm{a}^{2}-2 \\mathrm{a}+2=(\\mathrm{a}-1)^{2}+1 \\geq 1 \\quad \\forall \\mathrm{a})%<br>Vậy %(\\mathrm{a}^{4}+4)% là số nguyên tố thì %(\\mathrm{a}^{2}+2 \\mathrm{a}+2=1)% hoặc %(\\mathrm{a}^{2}-2 \\mathrm{a}+2=1)%<br>Nếu %(\\mathrm{a}^{2}-2 \\mathrm{a}+2=1 \\rightarrow a=1)% thử lại thấy thoả mãn<br>Nếu %(\\mathrm{a}^{2}+2 \\mathrm{a}+2=1 \\rightarrow a=-1)% thử lại thấy thoả mãn",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho hình vuông %(\\mathrm{ABCD}, \\mathrm{M})% là một điểm tuỳ ý trên đường chéo BD . Kẻ %(\\mathrm{ME} \\perp \\mathrm{AB}, \\mathrm{MF} \\perp \\mathrm{AD})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh: %(\\mathrm{DE}=\\mathrm{CF})%",
+        "question_images": [],
+        "solution": "Chứng minh:<br>\\[\\begin{aligned}\\mathrm{AE} & =\\mathrm{FM}=\\mathrm{DF} \\\\Rightarrow \\triangle \\mathrm{AED} & =\\Delta \\mathrm{DFC} \\Rightarrow \\text { dpcm }\\end{aligned}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7fc6d931c599087d83eccf91813dea3b.png\" srcset=\"https://docdn.giainhanh.io/media/test/2d641a2a5d5aff53938deb7b903c59a0.png 190w, https://docdn.giainhanh.io/media/test/71a1ef11bedba076ff07122d19dcf415.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh ba đường thẳng: %(\\mathrm{DE}, \\mathrm{BF}, \\mathrm{CM})% đồng quy.",
+        "question_images": [],
+        "solution": "%(\\mathrm{DE}, \\mathrm{BF}, \\mathrm{CM})% là ba đường cao của %(\\Delta \\mathrm{EFC} \\Rightarrow)% đpcm",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Xác định vị trí của điềm M để diện tích tứ giác AEMF lớn nhất.",
+        "question_images": [],
+        "solution": "Có Chu vi hình chữ nhật %(\\mathrm{AEMF}=2 \\mathrm{a})% không đổi<br>%(\\Rightarrow \\mathrm{ME}+\\mathrm{MF}=\\mathrm{a})% không đổi<br>%(\\Rightarrow S_{\\text {AEMF }}=M E . M F)% lớn nhất<br>%(\\Leftrightarrow \\mathrm{ME}=\\mathrm{MF})% (AEMF là h.v)<br>%(\\Rightarrow \\mathrm{M})% là trung điểm của BD .",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.5,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b})% dương và %(\\mathrm{a}^{2000}+\\mathrm{b}^{2000}=\\mathrm{a}^{2001}+\\mathrm{b}^{2001}=\\mathrm{a}^{2002}+\\mathrm{b}^{2002})%<br>Tính: %(\\mathrm{a}^{2011}+\\mathrm{b}^{2011})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\left(\\mathrm{a}^{2001}+\\mathrm{b}^{2001}\\right) \\cdot(\\mathrm{a}+\\mathrm{b})-\\left(\\mathrm{a}^{2000}+\\mathrm{b}^{2000}\\right) \\cdot \\mathrm{ab}=\\mathrm{a}^{2002}+\\mathrm{b}^{2002} \\\\quad \\Rightarrow(\\mathrm{a}+\\mathrm{b})-\\mathrm{ab}=1 \\\\quad \\Rightarrow(\\mathrm{a}-1) \\cdot(\\mathrm{b}-1)=0 \\\\quad \\Rightarrow \\mathrm{a}=1 \\text { hoac } \\mathrm{b}=1\\end{array}\\]<br>Vì %(\\mathrm{a}=1=\\gt \\mathrm{b}^{2000}=\\mathrm{b}^{2001}=>\\mathrm{b}=1)%; hoặc %(\\mathrm{b}=0)% (loại)<br>Vì %(\\mathrm{b}=1 \\Rightarrow \\mathrm{a}^{2000}=\\mathrm{a}^{2001}=>\\mathrm{a}=1)%; hoặc %(\\mathrm{a}=0)% (loại)<br>Vậy %(a=1 ; b=1=>a^{2011}+b^{2011}=2)%",
+        "question_type": "essay"
+    }
+]

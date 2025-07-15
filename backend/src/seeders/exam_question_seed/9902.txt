@@ -1,0 +1,208 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.25,
+        "content": "Cho %(a, b, c)% là các số thực dương và khác 1 . Khẳng định nào sau đây sai?",
+        "question_images": [],
+        "labelA": "%(\\log _{a} \\frac{b}{c}=\\log _{a} b-\\log _{a} c )%",
+        "labelB": "%(\\log _{a} c=-\\log _{c} a)%",
+        "labelC": "%(\\log _{a}(b c)=\\log _{a} b+\\log _{a} c)%",
+        "labelD": "%(\\log _{a} c=\\log _{a} b \\cdot \\log _{b} c)%",
+        "correct_label": "labelB",
+        "solution": "%(\\log _{a} c=\\frac{1}{\\log _{c} a})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "2 ",
+        "point": 0.25,
+        "content": "Hàm số nào sau đây nghịch biến trên %(\\mathbb{R})% ?",
+        "question_images": [],
+        "labelA": "%(y=2^{x})%",
+        "labelB": "%(y=\\left(\\frac{1}{3}\\right)^{x})%",
+        "labelC": "%(y=\\pi^{x})%",
+        "labelD": "%(y=e^{x})%",
+        "correct_label": "labelB",
+        "solution": "Hàm số %(y=a^{x})% đồng biến trên %(\\mathbb{R})% khi %(a\\gt 1)%, nghịch biến trên %(\\mathbb{R})% khi %(0\\lt a\\lt 1)%.<br>Mà hàm số %(y=\\left(\\frac{1}{3}\\right)^{x})% có %(a=\\frac{1}{3}, 0\\lt \\frac{1}{3}\\lt 1)% nên hàm số nghịch biến trên %(\\mathbb{R})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "3 ",
+        "point": 0.25,
+        "content": "Cho hai hàm số %(u=u(x), v=v(x))% là các hàm số có đạo hàm trên %(\\mathbb{R})% và %(v(x) \\neq 0, \\forall x \\in \\mathbb{R})%, chọn công thức đạo hàm đúng.",
+        "question_images": [],
+        "labelA": "%(\\left(\\frac{u}{v}\\right)^{\\prime}=\\frac{u^{\\prime} v-u v^{\\prime}}{v^{2}})%",
+        "labelB": "%(\\left(\\frac{u}{v}\\right)^{\\prime}=\\frac{u^{\\prime} v+u v^{\\prime}}{v^{2}})%",
+        "labelC": "%(\\left(\\frac{u}{v}\\right)^{\\prime}=\\frac{u v^{\\prime}-u^{\\prime} v}{v^{2}})%",
+        "labelD": "%(\\left(\\frac{u}{v}\\right)^{\\prime}=-\\frac{u v^{\\prime}+u^{\\prime} v}{v^{2}})%",
+        "correct_label": "labelA",
+        "solution": "Ta có công thức: %(\\left(\\frac{u}{v}\\right)^{\\prime}=\\frac{u^{\\prime} v-u v^{\\prime}}{v^{2}})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "4 ",
+        "point": 0.25,
+        "content": "Cho %(a, b\\gt 0)% và %(a, b \\neq 1)%. Đặt %(\\log _{a} b=\\alpha)%, tính theo %(\\alpha)% biểu thức %(P=\\log _{a^{2}} b-\\log _{\\sqrt{b}} a^{3})%",
+        "question_images": [],
+        "labelA": "%(P=\\frac{2-5 \\alpha^{2}}{\\alpha})%",
+        "labelB": "%(P=\\frac{\\alpha^{2}-12}{2 \\alpha})%",
+        "labelC": "%(P=\\frac{4 \\alpha^{2}-3}{2 \\alpha})%",
+        "labelD": "%(P=\\frac{\\alpha^{2}-3}{\\alpha})%",
+        "correct_label": "labelB",
+        "solution": "Ta có %(P=\\log _{a^{2}} b-\\log _{\\sqrt{b}} a^{3}=\\frac{1}{2} \\log _{a} b-6 \\log _{b} a)%<br>Mà %(\\log _{a} b=\\alpha)%, suy ra %(\\log _{b} a=\\frac{1}{\\alpha})%<br>Thay vào (1) ta được %(P=\\frac{1}{2} \\alpha-6 \\cdot \\frac{1}{\\alpha}=\\frac{\\alpha^{2}-12}{2 \\alpha})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "5 ",
+        "point": 0.25,
+        "content": "Cho hình chóp %(S \\cdot A B C)% có đáy %(A B C)% là tam giác vuông tại %(B)%, cạnh bên %(S A)% vuông góc với đáy. Khẳng định nào sau đây đúng?",
+        "question_images": [],
+        "labelA": "%(A C \\perp(S B C))%",
+        "labelB": "%(B C \\perp(S A C))%",
+        "labelC": "%(B C \\perp(S A B))%",
+        "labelD": "%(A B \\perp(S B C))%",
+        "correct_label": "labelC",
+        "solution": "<img alt=\"image.png\" class=\"image_resized\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/076e0e65530b842b916f4816b47b3552.png\" srcset=\"https://docdn.giainhanh.io/media/test/7071bc72115fab11a6da1991b7c95ef3.png 196w, https://docdn.giainhanh.io/media/test/f5d2e9493a8d96fae5863ce5d257471f.png 500w\" style=\"width:38.07%;\" width=\"500\"/><br>Ta có %(S A \\perp(A B C) \\Rightarrow S A \\perp B C)%<br>%(\\left.\\begin{array}{l}B C \\perp A B \\\\ B C \\perp S A \\\\ A B \\cap S A=A \\\\ A B, S A \\subset(S A B)\\end{array}\\right\\} \\Rightarrow B C \\perp(S A B))%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "6 ",
+        "point": 0.25,
+        "content": "Một hình chóp %(S . A B C D)% có đáy %(A B C D)% là hình vuông cạnh %(a)%, mặt bên %(S A B)% là tam giác cân tại %(S)% và nằm trong mặt phẳng vuông góc với đáy, góc giữa %(S C)% và mặt phẳng đáy bằng %(45^{\\circ})%. Thể tích khối chóp %(S \\cdot A B C D)% bằng:",
+        "question_images": [],
+        "labelA": "%(\\frac{a^{3} \\sqrt{3}}{12})%",
+        "labelB": "%(\\frac{a^{3} \\sqrt{3}}{9})%",
+        "labelC": "%(\\frac{a^{3} \\sqrt{5}}{24})%",
+        "labelD": "%(\\frac{a^{3} \\sqrt{5}}{6})%",
+        "correct_label": "labelD",
+        "solution": "<img alt=\"image.png\" class=\"image_resized\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/df0d4ba93a8c6bf7151554ff9f815b67.png\" srcset=\"https://docdn.giainhanh.io/media/test/005c2ef08d767709d4f3867b24be6e93.png 180w, https://docdn.giainhanh.io/media/test/9cf6e6d88a2de09888c63a795adf35b6.png 500w\" style=\"width:38.23%;\" width=\"500\"/><br>Gọi %(H)% là trung điểm của %(A B, \\triangle S A B)% cân tại %(S \\Rightarrow S H \\perp A B)%<br>%(\\begin{array}{l}\\left.\\begin{array}{l}(S A B) \\perp(A B C D) \\\\(S A B) \\cap(A B C D)=A B \\S H \\subset(S A B) ; S H \\perp A B\\end{array}\\right\\} \\Rightarrow S H \\perp(A B C D) \\\\(S C ;(A B C D))=S C H=45^{\\circ} \\Rightarrow \\triangle S H C \\text { vuông cân tại } H \\\\Rightarrow S H=H C=\\sqrt{B C^{2}+B H^{2}}=\\sqrt{a^{2}+\\frac{a^{2}}{4}}=\\frac{a \\sqrt{5}}{2} ; S_{A B C D}=A B^{2}=a^{2} \\\\Rightarrow V_{S . A B C D}=\\frac{1}{3} \\cdot S_{A B C D} \\cdot S H=\\frac{1}{3} a^{2} \\cdot \\frac{a \\sqrt{5}}{2}=\\frac{a^{3} \\sqrt{5}}{6} . \\\\end{array})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "7 ",
+        "point": 0.25,
+        "content": "Một tổ học sinh có 5 nam và7 học sinh nữ. Chọn ngẫu nhiên 2 người. Tính xác suất sa cho 2 người được chọn có đúng một học sinh nữ.",
+        "question_images": [],
+        "labelA": "%(\\frac{35}{66})%",
+        "labelB": "%(\\frac{2}{33})%",
+        "labelC": "%(\\frac{7}{22})%",
+        "labelD": "%(\\frac{7}{66})%",
+        "correct_label": "labelA",
+        "solution": "Chọn ngẫu nhiên 2 học sinh trong tổng 12 học sinh, ta có số phần tử của không gian mẫu là<br>%(n(\\Omega)=C_{12}^{2}=66 .)%<br>Gọi %(A)% là biến cố hai học sinh được chọn có đúng một học sinh nữ. Ta có<br>%(n(A)=C_{5}^{1} \\cdot C_{7}^{1}=35)%<br>Xác suất hai học sinh được chọn có đúng một học sinh nữ là %(P(A)=\\frac{35}{66})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "8 ",
+        "point": 0.25,
+        "content": "Tiếp tuyến của đồ thị hàm số %(y=x^{2}-2 x-3)% tại điểm có hoành độ %(x_{0}=-1)% có phương trình là",
+        "question_images": [],
+        "labelA": "%(y=-4 x-4)%",
+        "labelB": "%(y=-4 x+3)%",
+        "labelC": "%(y=-4 x-2)%",
+        "labelD": "%(y=-4 x+1)%",
+        "correct_label": "labelA",
+        "solution": "Ta có %(x_{0}=-1 \\Rightarrow y_{0}=0)%.<br>Và %(y^{\\prime}=2 x-2 \\Rightarrow y^{\\prime}(-1)=-4)%.<br>Vậy phương trình tiếp tuyến là %(y=-4 x-4)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "9 ",
+        "point": 0.25,
+        "content": "Giá trị nguyên nhỏ nhất của %(m)% thỏa mãn phương trình %(81^{x}-m \\cdot 9^{x+1}+14 m^{2}-2025=0)% có hai nghiệm phân biệt là",
+        "question_images": [],
+        "labelA": "8",
+        "labelB": "13",
+        "labelC": "0",
+        "labelD": "12",
+        "correct_label": "labelB",
+        "solution": "Đặt %(t=9^{x},(t\\gt 0))%. Phương trình trở thành: %(\\left.t^{2}-9 m t+14 m^{2}-2025=0 \\quad{ }({*}\\right))%.<br>Phương trình đã cho có hai nghiệm phân biệt khi và chỉ khi phương trình (*) có hai nghiệm dương phân biệt.<br>%(\\Leftrightarrow\\left\\{\\begin{array} { l } { \\Delta > 0 } \\\\{ P > 0 } \\\\{ S > 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { 2 5 m ^ { 2 } + 8 1 0 0 > 0 } \\\\{ 1 4 m ^ { 2 } - 2 0 2 5 > 0 } \\\\{ 9 m > 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}m\\lt \\frac{-45 \\sqrt{14}}{14} \\vee m>\\frac{45 \\sqrt{14}}{14} \\m>0\\end{array} \\Leftrightarrow m>\\frac{45 \\sqrt{14}}{14} .\\right.\\right.\\right.)%<br>Vậy giá trị nguyên nhỏ nhất của %(m)% là 13 .",
+        "question_type": "quiz"
+    },
+    {
+        "title": "10 ",
+        "point": 0.25,
+        "content": "Hai xạ thủ cùng bắn, mỗi người một viên đạn vào bia một cách độc lập với nhau. Xác suất bắn trúng bia của hai xạ thủ lần lượt là %(\\frac{2}{3})% và %(\\frac{1}{2})%. Tính xác suất của biến cố có ít nhất một xạ thủ không bắn trúng bia.",
+        "question_images": [],
+        "labelA": "%(\\frac{1}{3})%",
+        "labelB": "%(\\frac{1}{6})%",
+        "labelC": "%(\\frac{1}{2})%",
+        "labelD": "%(\\frac{2}{3})%",
+        "correct_label": "labelD",
+        "solution": "Xác suất để xạ thủ thứ nhất bắn không trúng bia là: %(1-\\frac{2}{3}=\\frac{1}{3})%.<br>Xác suất để xạ thủ thứ nhất bắn không trúng bia là: %(1-\\frac{1}{2}=\\frac{1}{2})%.<br>Gọi biến cố A: “Có ít nhất một xạ thủ không bắn trúng bia \".<br>Khi đó biến cố A có 3 khả năng xảy ra:<br>+) Xác suất người thứ nhất bắn trúng bia, người thứ hai không bắn trúng bia: %(\\frac{2}{3} \\cdot \\frac{1}{2})%.<br>+) Xác suất người thứ nhất không bắn trúng bia, người thứ hai bắn trúng bia: %(\\frac{1}{3} \\cdot \\frac{1}{2})%.<br>+) Xác suất cả hai người đều bắn không trúng bia: %(\\frac{1}{3} \\cdot \\frac{1}{2})%.<br>Khi đó %(P(A)=\\frac{2}{3} \\cdot \\frac{1}{2}+\\frac{1}{3} \\cdot \\frac{1}{2}+\\frac{1}{3} \\cdot \\frac{1}{2}=\\frac{2}{3})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "11 ",
+        "point": 0.25,
+        "content": "Vị trí của một vật chuyển động thẳng được cho bởi phương trình %(s=f(t)=t^{3}-10 t^{2}+17 t)%, với %(t)% tính bằng giây và %(s)% tính bằng mét. Quãng đường vật đi được trong 10 giây đầu tiên là",
+        "question_images": [],
+        "labelA": "%(\\frac{1372}{27})%",
+        "labelB": "%(170)%",
+        "labelC": "%(\\frac{7337}{27})%",
+        "labelD": "%(\\frac{7334}{27})%",
+        "correct_label": "labelD",
+        "solution": "Ta có %(v(t)=3 t^{2}-20 t+17=0 \\Leftrightarrow t=1)% hoặc %(t=\\frac{17}{3})%.<br>Do vậy ta cần tính quãng đường vật đi được trong từng khoảng thời gian %([0 ; 1],\\left[1 ; \\frac{17}{3}\\right])% và %(\\left[\\frac{17}{3} ; 10\\right])%.<br>Trong khoảng thời gian %(1 s)% đầu vật đi được %(s_{1}=|f(1)-f(0)|=8 m)%.<br>Trong khoảng thời gian từ %(1 s)% đến %(\\frac{17}{3} s)% tiếp vật đi được %(s_{2}=\\left|f\\left(\\frac{17}{3}\\right)-f(1)\\right|=\\frac{1372}{27} m)%.<br>Trong khoảng thời gian từ %(\\frac{17}{3} s)% đến %(10 s)% tiếp vật đi được %(s_{3}=\\left|f(10)-f\\left(\\frac{17}{3}\\right)\\right|=\\frac{5746}{27} m)%.<br>Vậy tổng quãng đường đi được là %(\\frac{7334}{27} m)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "12 ",
+        "point": 0.25,
+        "content": "Cho hình lập phương %(A B C D \\cdot A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime})% có cạnh %(a)%. Gọi %(O^{\\prime})% là tâm của mặt đáy %(A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime})%, điểm %(M)% thuộc đoạn %(B D)% sao cho %(B M=\\frac{3}{4} B D)%. Tính khoảng cách giữa hai đường thẳng %(A M)% và %(D O^{\\prime})% là",
+        "question_images": [],
+        "labelA": "%(\\frac{a \\sqrt{10}}{10})%",
+        "labelB": "%(\\frac{a \\sqrt{10}}{5})%",
+        "labelC": "%(\\frac{a \\sqrt{14}}{7})%",
+        "labelD": "%(\\frac{a \\sqrt{14}}{14})%",
+        "correct_label": "labelD",
+        "solution": "<strong>Cách 1:</strong><br><img alt=\"image.png\" class=\"image_resized\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/308f186f60f071fd19b075af53af80a7.png\" srcset=\"https://docdn.giainhanh.io/media/test/fdd69584059377c8c6a2d8205a280f3d.png 213w, https://docdn.giainhanh.io/media/test/79b943cca7f5bb53d692380369d42ac5.png 500w\" style=\"width:47.54%;\" width=\"500\"/><br>Trong mặt phẳng %((A B C D))% dựng hình bình hành %(A M D N)%.<br>%(\\begin{array}{l}\\Rightarrow A M / / D N \\Rightarrow A M / /\\left(O^{\\prime} D N\\right) \\\\Rightarrow d\\left(A M ; D O^{\\prime}\\right)=d\\left(A M ;\\left(O^{\\prime} D N\\right)\\right)=d\\left(M,\\left(O^{\\prime} D N\\right)\\right)\\end{array})%<br>Gọi %(O=A C \\cap D B \\Rightarrow O M \\cap\\left(O^{\\prime} D N\\right)=D)% với %(M)% là trung điểm %(O D)%<br>%(\\Rightarrow d\\left(M,\\left(O^{\\prime} D N\\right)\\right)=\\frac{1}{2} d\\left(O,\\left(O^{\\prime} D N\\right)\\right))%<br>Kẻ %(O H \\perp N D)% tại %(H)%, ta chứng minh được %(O O^{\\prime} \\perp N D)%, do đó %(N D \\perp\\left(O O^{\\prime} H\\right))%.<br>Kẻ %(O K \\perp O^{\\prime} H)%, ta chứng minh được %(O K \\perp\\left(O^{\\prime} D N\\right))% tại %(K)%.<br>Suy ra %(d\\left(M,\\left(O^{\\prime} D N\\right)\\right)=\\frac{1}{2} d\\left(O,\\left(O^{\\prime} D N\\right)\\right)=\\frac{1}{2} O K)%<br>Ta có %(\\triangle O H D)% đồng dạng với %(\\triangle A O M)%<br>%(\\Rightarrow \\frac{O H}{O A}=\\frac{O D}{A M} \\Rightarrow O H=\\frac{O A \\cdot O D}{A M}=\\frac{O A \\cdot O D}{\\sqrt{O A^{2}+O M^{2}}}=\\frac{\\frac{a^{2}}{2}}{\\sqrt{\\frac{a^{2}}{2}+\\frac{a^{2}}{8}}}=\\frac{a \\sqrt{2}}{\\sqrt{5}} \\text {. })%<br>Ta có %(O K=\\frac{O H . O O^{\\prime}}{\\sqrt{O H^{2}+O O^{\\prime 2}}}=\\frac{a \\sqrt{14}}{7})%<br>Vậy %(d\\left(A M ; D O^{\\prime}\\right)=\\frac{a \\sqrt{14}}{14})%.<br><strong>Cách 2:</strong><br><img alt=\"image.png\" class=\"image_resized\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/40486f473f39856bee5704f8558da08f.png\" srcset=\"https://docdn.giainhanh.io/media/test/3aa55556481f2a75b716d117283e511e.png 175w, https://docdn.giainhanh.io/media/test/e28de8b3d8cf9b5827cdd2c3e2b56792.png 500w\" style=\"width:37.07%;\" width=\"500\"/><br>Gọi %(O)% lần lượt là tâm hình vuông %(A B C D, N)% là trung điểm %(O O^{\\prime})% thì %(M N \\| O^{\\prime} D)%<br>%(\\Rightarrow(A M M) \\| O^{\\prime} D \\Rightarrow d\\left(A M, O^{\\prime} D\\right)=d\\left((A M N), O^{\\prime} D\\right)=d(D,(A M N))=d(O,(A M N)))%<br>Gọi %(H)% là hình chiếu vuông góc của %(O)% lên %((A M N))%, ta có tứ diện %(O A M N)% vuông đỉnh %(O)% nên<br>%(\\frac{1}{O H^{2}}=\\frac{1}{O A^{2}}+\\frac{1}{O M^{2}}+\\frac{1}{O N^{2}}=\\frac{2}{a^{2}}+\\frac{8}{a^{2}}+\\frac{4}{a^{2}}=\\frac{14}{a^{2}}, \\Rightarrow d(O,(A M N))=O H=\\frac{a \\sqrt{14}}{14})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "17 ",
+        "point": 0.5,
+        "content": "Cho hàm số %(y=\\frac{x+2}{x-1})%. Tính %(y^{\\prime}(3))%",
+        "question_images": [],
+        "solution": "Đáp số: %(-0,75)%.<br>Ta có %(y=\\frac{x+2}{x-1} \\Rightarrow y^{\\prime}=\\frac{-3}{(x-1)^{2}})%<br>%(y^{\\prime}(3)=\\frac{-3}{(3-1)^{2}}=-0,75 \\text {. })%",
+        "question_type": "essay"
+    },
+    {
+        "title": "18 ",
+        "point": 0.5,
+        "content": "Tập xác định của hàm số %(y=\\left(-x^{2}+4 x\\right)^{\\frac{2025}{2026}})%. Có bao nhiêu giá trị nguyên của %(x)% nằm trong tập xácđịnh của hàm số?",
+        "question_images": [],
+        "solution": "Đáp số: 3.<br>Điều kiện %(-x^{2}+4 x\\gt 0 \\Leftrightarrow 0\\lt x\\lt 4)%<br>Có 3 giá trị nguyên",
+        "question_type": "essay"
+    },
+    {
+        "title": "19 ",
+        "point": 0.5,
+        "content": "Cho phương trình: %(25^{2 x} \\cdot 125^{x^{2}}=\\frac{1}{5})%. Tổng tất cả các nghiệm của phương trình bằng bao nhiêu?",
+        "question_images": [],
+        "solution": "Đáp số: %(-1,3)%.<br>%(25^{2 x} \\cdot 125^{x^{2}}=\\frac{1}{5} \\Leftrightarrow 5^{4 x} \\cdot 5^{3 x^{2}}=5^{-1} \\Leftrightarrow 5^{4 x+3 x^{2}}=5^{-1} \\Leftrightarrow 4 x+3 x^{2}=-1 \\Leftrightarrow\\left[\\begin{array}{l}x=-1 \\x=-\\frac{1}{3}\\end{array}\\right.)%<br>Tổng tất cả các nghiệm của phương trình bằng: %((-1)+\\left(-\\frac{1}{3}\\right)=-\\frac{4}{3} \\approx-1,3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "20 ",
+        "point": 0.5,
+        "content": "Một lớp có 35 học sinh trong đó có 26 bạn thích học Toán, 14 người thích học cả Toán và Văn, 30 người thích ít nhất một trong hai môn Toán hoặc Văn. Chọn ngẫu nhiên một bạn trong lớp. Xác suất để học sinh đó thích học môn Văn bằng bao nhiêu?",
+        "question_images": [],
+        "solution": "Đáp số: 0,51 .<br>Xét các biến cố:<br>A: \" học sinh đó thích học Toán\" ;<br>B: \" học sinh đó thích học Văn\"<br>Theo đề bài ta có: %(P(A)=\\frac{26}{35} ; P(A B)=\\frac{14}{35} ; P(A \\cup B)=\\frac{30}{35})%.<br>Áp dụng công thức cộng xác suất: %(P(A \\cup B)=P(A)+P(B)-P(A B))%<br>Suy ra: %(P(B)=P(A \\cup B)+P(A B)-P(A)=\\frac{30}{35}+\\frac{14}{35}-\\frac{26}{35}=\\frac{18}{35} \\approx 0,51)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "21 ",
+        "point": 0.5,
+        "content": "Cho hình chóp %(S . A B C)% có %(A B C)% và %(S A B)% là các tam giác đều cạnh %(a)%, mặt bên %((S A B))% vuông góc với đáy. Gọi %(\\alpha)% là góc phẳng nhị diện %([S, B C, A])%. Tính giá trị %(\\cos \\alpha)% là số gần đúng",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/dd07ea1a9083f6586514b6523cfa53eb.png"
+        ],
+        "solution": "Đáp số: %(\\cos \\alpha=\\frac{\\sqrt{5}}{5} \\approx 0,45 \\Rightarrow)% <img alt=\"image.png\" class=\"image_resized\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/dce861ab41de70321ddc4221a5009a30.png\" srcset=\"https://docdn.giainhanh.io/media/test/ec3189e6e851c92bb948b9be0ffbe1d1.png 245w\" style=\"width:16.88%;\" width=\"245\"/><br><img alt=\"image.png\" class=\"image_resized\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c9d03f3d27795f49363a6061d4e58664.png\" srcset=\"https://docdn.giainhanh.io/media/test/9c8aeafbd326add6de8606c40745c45f.png 168w, https://docdn.giainhanh.io/media/test/eae872248eefb26bd7ffdaddcf03ebc5.png 500w, https://docdn.giainhanh.io/media/test/3cf2953be53ec74e9d63a21b5c30c5d9.png 750w\" style=\"width:35.64%;\" width=\"750\"/><br>Gọi %(H)% là trung điểm của %(A B)%.<br>Do tam giác %(S A B)% đều nên %(S H \\perp A B)%, mà %((S A B))% và %((A B C))% vuông gócvới nhau theo giao tuyến %(A B)% suy ra %(S H \\perp(A B C))%.<br>Gọi %(M)% là trung điểm của %(B C)%.<br>Do tam giác %(A B C)% đều nên %(A M \\perp B C)%<br>Gọi %(I)% là trung điểm của %(B M)%. Ta có %(H I)% là đường trung bình của tam giác %(A B M)% nên %(H I / / A M \\Rightarrow H I \\perp B C)%<br>suy ra %(B C \\perp(S H I) \\Rightarrow B C \\perp S I)%.<br>Ta có %(H I \\perp B C)% và %(S I \\perp B C)% suy ra %(S I H)% là góc phẳng nhị diện %([S, B C, A])%.<br>Xét tam giác %(S A B)% đều cạnh %(a)% suy ra %(S H=\\frac{a \\sqrt{3}}{2})%.<br>Xét tam giác %(A B C)% đều cạnh %(a)% suy ra %(A M=\\frac{a \\sqrt{3}}{2} \\Rightarrow H I=\\frac{a \\sqrt{3}}{4})%.Xét tam giác %(S H I)% vuông tại %(H)% suy ra %(S I=\\sqrt{S H^{2}+H I^{2}}=\\frac{\\sqrt{15} a}{4})%.<br>Xét tam giác %(S H I)% vuông tại %(H)% suy ra %(\\cos \\alpha=\\cos S I H=\\frac{H I}{S I}=\\frac{\\sqrt{5}}{5} \\approx 0,45)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "22 ",
+        "point": 0.5,
+        "content": "Cho hình lăng trụ %(A B C \\cdot A^{\\prime} B^{\\prime} C^{\\prime})% có đáy %(A B C)% là tam giác đều cạnh bằng %(1)%. Biết hình chiếu vuông góc của điểm %(A)% trên mặt phẳng %(\\left(A^{\\prime} B^{\\prime} C^{\\prime}\\right))% là trọng tâm %(G^{\\prime})% của tam giác %(A^{\\prime} B^{\\prime} C^{\\prime})% và %(A A^{\\prime}=1)%. Khoảng cách giữa hai đường thẳng %(A A^{\\prime})% và %(B^{\\prime} C^{\\prime})% là bao nhiêu ?",
+        "question_images": [],
+        "solution": "Đáp số: 0,71 .<br><img alt=\"image.png\" class=\"image_resized\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1bbe45857ee3f156e1d778cf24a59e45.png\" srcset=\"https://docdn.giainhanh.io/media/test/b15bc470391a5587d221f4a75041b6c3.png 185w, https://docdn.giainhanh.io/media/test/35fe986e72618f34b47eea8a4d3bcce1.png 500w\" style=\"width:38.02%;\" width=\"500\"/><br>Do hình chiếu vuông góc của điểm %(A)% trên mặt phẳng %(\\left(A^{\\prime} B^{\\prime} C^{\\prime}\\right))% là trọng tâm %(G^{\\prime})% của tam giác %(A^{\\prime} B^{\\prime} C^{\\prime})%, tam giác %(A^{\\prime} B^{\\prime} C^{\\prime})% là tam giác đều cạnh bằng 1 và cạnh %(A A^{\\prime}=1)% nên tứ diện %(A A^{\\prime} B^{\\prime} C^{\\prime})% là tứ diện đều.<br>Gọi %(H, I)% lần lượt là trung điểm của %(B^{\\prime} C^{\\prime})% và %(A A^{\\prime})%, ta có các tam giác %(\\triangle I B^{\\prime} C^{\\prime}, \\triangle H A A^{\\prime})% là các tam giác cân nên %(I H \\perp A A^{\\prime}, I H \\perp B^{\\prime} C^{\\prime})%.<br>Do đó %(d\\left(A A^{\\prime}, B^{\\prime} C^{\\prime}\\right)=I H)%.<br>Ta có %(A^{\\prime} H=\\frac{\\sqrt{3}}{2}, A^{\\prime} G^{\\prime}=\\frac{2}{3} \\cdot \\frac{\\sqrt{3}}{2}=\\frac{\\sqrt{3}}{3} ; A G^{\\prime}=\\sqrt{A A^{\\prime 2}-A^{\\prime} G^{\\prime 2}}=\\sqrt{1^{2}-\\left(\\frac{\\sqrt{3}}{3}\\right)^{2}}=\\frac{\\sqrt{6}}{3})%<br>Áp dụng công thức tính diện tích tam giác %(A A^{\\prime} H)% ta có:<br>%(\\frac{1}{2} A G^{\\prime} \\cdot A^{\\prime} H=\\frac{1}{2} A A^{\\prime} \\cdot H I \\Rightarrow H I=\\frac{A G^{\\prime} \\cdot A^{\\prime} H}{A A^{\\prime}}=\\frac{\\frac{\\sqrt{6}}{3} \\cdot \\frac{\\sqrt{3}}{2}}{1}=\\frac{\\sqrt{2}}{2} \\approx 0,71 \\text {. })%<br>Vậy khoảng cách giữa hai đường thẳng %(A A^{\\prime})% và %(B^{\\prime} C^{\\prime})% xấp xỉ là 0,71 .",
+        "question_type": "essay"
+    }
+]

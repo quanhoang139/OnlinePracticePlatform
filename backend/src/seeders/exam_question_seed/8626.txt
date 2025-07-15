@@ -1,0 +1,113 @@
+[
+    {
+        "title": "1",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1. ",
+        "point": 1.0,
+        "content": "Một nhóm ba khách du lịch phải di chuyển từ điểm A đến điểm B trên đường có chiều dài S = 45km và chỉ có hai chiếc xe đạp. Nếu du khách đi bộ thì tốc độ là v, nếu hai du khách chở nhau đi một xe đạp thì tốc độ của họ là 3v và nếu mỗi du khách đi một xe đạp thì tốc độ là 4v. Biết v = 5km/h, tính thời gian nhỏ nhất để ba du khách cùng xuất phát từ A và đến B cùng lúc?",
+        "question_images": [],
+        "solution": "Cách mà ba du khách di chuyển với thời gian nhỏ nhất:<br>Người thứ nhất đi một xe đạp với tốc độ 4v, hai người còn lại chở nhau trên một xe đạp đi với tốc độ 3v. Người thứ nhất đến vị trí C thì để xe đạp lại và đi bộ với tốc độ v. Hai người chở nhau đến điểm C, lấy xe đạp của người thứ nhất để lại và mỗi người một xe di chuyển đến B với tốc độ 4v. Điểm C được chọn sao cho cả ba du khách đến B cùng lúc:<br>Thời gian di chuyển của du khách thứ nhất là:<br>\\[t_{1}=\\frac{S-x}{4 v}+\\frac{x}{v}\\]<br>Thời gian di chuyển của 2 du khách còn lại là:<br>\\[t_{2}=\\frac{S-x}{3 v}+\\frac{x}{4 v}\\]<br>Các du khách cùng xuất phát ở %(\\mathrm{A})% và đến %(\\mathrm{B})% cùng lúc: %(\\mathrm{t}_{1}=\\mathrm{t}_{2})%<br>\\[\\frac{S-x}{4 v}+\\frac{x}{v}=\\frac{S-x}{3 v}+\\frac{x}{4 v}\\]<br>Giải ra ta được: %(x=0,1 S, t_{1}=t_{2}=175,5)% phút<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/cc06d47b6451d46df70371194fd1b768.png\" srcset=\"https://docdn.giainhanh.io/media/test/2e56eb4d8f511f45b3abada42da10f60.png 245w, https://docdn.giainhanh.io/media/test/be2f8c407ead0aaef652471549f1720c.png 500w, https://docdn.giainhanh.io/media/test/7b8ba16fc0eeac2384007b3238d5b731.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2. ",
+        "point": 2.0,
+        "content": "Trong một cốc hình trụ có tiết diện trong là %(S = 400 c m^{2})% đựng nước, nổi bên trên là khối gỗ hình lập phương cạnh %(a = 2cm)% như hình 1. Đổ dầu hỏa vào cốc sao cho mặt trên của khối lập phương trùng với bề mặt của dầu hỏa. Khối gỗ được lấy ra khỏi cốc và thay vào đó là một khối gỗ khác cùng loại hình lập phương cạnh %(b = 6cm)%. Đổ thêm vào cốc một lượng dầu hỏa sao cho mặt trên của khối lập phương lại trùng với bề mặt của dầu hỏa. Biết rằng cả hai khối không chạm vào đáy và chất lỏng không đổ ra khỏi cốc. Khối lượng riêng của nước, gỗ, dầu hỏa lần lượt là %(\\mathrm{D}_{0}=1 \\mathrm{~g} / \\mathrm{cm}^{3}, \\mathrm{D}=0,9 \\mathrm{~g} / \\mathrm{cm}^{3})%,%(\\mathrm{D}_{1}=0,8 \\mathrm{~g} / \\mathrm{cm}^{3})%. Tính khối lượng dầu hỏa đã đổ thêm vào cốc?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/14f7a21f9b80c43b0e5fd28227c758d5.png"
+        ],
+        "solution": "Điều kiện cân bằng khi khối gỗ có kích thước a ngập trong dầu và nước:<br>\\[\\begin{array}{c}P_{1}=F_{A 1}+F_{A 2} \\a^{3} D=a^{2}\\left(a-x_{1}\\right) \\mathrm{D}_{0}+a^{2} x_{1} D_{1}\\end{array}\\]<br>Trong đó %(\\mathrm{P}_{1})% là trọng lượng khối gỗ, %(\\mathrm{F}_{\\mathrm{A} 1}, \\mathrm{~F}_{\\mathrm{A} 2})% lần lượt là lực đẩy Ác-si-mét tác dụng lên khối gỗ<br>Chiều cao của lớp dầu hỏa<br>\\[x_{1}=a \\frac{D_{0}-D}{D_{0}-D_{1}}\\]<br>Khối lượng dầu hỏa đã đổ vào cốc lần thứ nhất:<br>\\[m_{1}=x_{1}\\left(S^{2}-a^{2}\\right) D_{1}=a .\\left(S^{2}-a^{2}\\right) \\frac{D_{0}-D}{D_{0}-D_{1}} D_{1}\\]<br>Cách tính tương tự khi thay khối gỗ có kích thước %(\\mathrm{b})%.<br>Chiều cao của lớp dầu hỏa<br>\\[x_{2}=b \\frac{D_{0}-D}{D_{0}-D_{1}}\\]<br>Khối lượng dầu hỏa trong cốc:<br>\\[m_{2}=x_{2}\\left(S^{2}-b^{2}\\right) D_{1}=b .\\left(S^{2}-b^{2}\\right) \\frac{D_{0}-D}{D_{0}-D_{1}} D_{1}\\]<br>Khối lượng dầu được đổ thêm<br>\\[m_{2}-m_{1}=\\left[b .\\left(S-b^{2}\\right)-a .\\left(S-a^{2}\\right)\\right] \\frac{D_{0}-D}{D_{0}-D_{1}} D_{1}\\]<br>Thay số: %(\\mathrm{m}_{2}-\\mathrm{m}_{1}=556,8 \\mathrm{gam})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Dùng một ca múc nước ở thùng %(\\mathrm{A})% có nhiệt độ %(\\mathrm{t}_{1}=80^{\\circ} \\mathrm{C})% và nước ở thùng %(\\mathrm{B})% có nhiệt độ %(\\mathrm{t}_{2}=20^{\\circ} \\mathrm{C})% đổ vào thùng %(\\mathrm{C})%. Biết rằng trước khi đổ, trong thùng %(\\mathrm{C})% đã chứa sẵn một lượng nước có nhiệt độ %(\\mathrm{t}_{3}=40^{\\circ} \\mathrm{C})% và có khối lượng bằng tổng khối lượng nước vừa đổ thêm vào. Tính tỉ số khối lượng nước phải múc ở thùng %(\\mathrm{A})% và thùng %(\\mathrm{B})% đổ vào thùng %(\\mathrm{C})% để có nhiệt độ cân bằng là %(t_{4}=50^{\\circ} \\mathrm{C})%. Bỏ qua sự trao đổi nhiệt với môi trường, với bình chứa và ca múc.",
+        "question_images": [],
+        "solution": "Gọi: %(\\mathrm{c})% là nhiệt dung riêng của nước, %(\\mathrm{m}_{1})% là khối lượng nước đã múc từ thùng %(\\mathrm{A})%, Nhiệt lượng tỏa ra của nước múc từ thùng %(\\mathrm{A})% khi nhiệt độ hạ xuống %(50^{\\circ} \\mathrm{C})%<br>\\[\\mathrm{Q}_{1}=\\mathrm{m}_{1} . \\mathrm{c}(80-50)=30 \\mathrm{~cm}_{1}\\]<br>%(\\mathrm{m}_{2})% là khối lượng nước đã múc từ thùng %(\\mathrm{B})%, nhiệt lượng nước múc từ thùng %(\\mathrm{B})% thu vào để tăng lên %(50^{\\circ} \\mathrm{C})% là:<br>\\[\\mathrm{Q}_{2}=\\mathrm{m}_{2} . \\mathrm{c}(50-20)=30 \\mathrm{~cm}_{2}\\]<br>Nhiệt lượng do nước trong thùng %(\\mathrm{C})% thu vào để tăng lên %(50^{\\circ} \\mathrm{C})% là<br>\\[\\mathrm{Q}_{3}=\\left(\\mathrm{m}_{1}+\\mathrm{m}_{2}\\right) \\text {.c. }(50-40)=\\left(\\mathrm{m}_{1}+\\mathrm{m}_{2}\\right) . \\mathrm{c} \\cdot 10\\]<br>Phương trình cân bằng nhiệt %(\\mathrm{Q}_{2}+\\mathrm{Q}_{3}=\\mathrm{Q}_{1})%<br>\\[\\begin{array}{l}\\Rightarrow 30 \\mathrm{~cm}_{2}+10 \\mathrm{c}\\left(\\mathrm{m}_{1}+\\mathrm{m}_{2}\\right)=30 \\mathrm{~cm}_{1} \\Rightarrow 2 \\mathrm{~m}_{2}=\\mathrm{m}_{1} \\\\Rightarrow \\frac{m_{1}}{m_{2}}=2\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho mạch điện như hình 2 : %(\\mathrm{U}=12 \\mathrm{~V} ; \\mathrm{R}_{\\mathrm{b}})% là một biến trở; %(\\mathrm{R}_{1}=4 \\Omega ; \\mathrm{R}_{2}=10 \\Omega ; \\mathrm{R}_{3}=5 \\Omega)%; Đèn %(Đ)% là loại %(6 \\mathrm{~V}-6 \\mathrm{~W})%. Vôn kế có điện trở vô cùng lớn.",
+        "group_images": [
+            "https://docdn.giainhanh.io/media/test/d01f68ec6c1d79c78280e55921813066.png"
+        ],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1. ",
+        "point": 1.0,
+        "content": "a) Điều chỉnh %(R_{b})% để đèn sáng bình thường. Tính %(R_{b})% và số chỉ vôn kế.",
+        "question_images": [],
+        "solution": "Vì đèn sáng bình thường nên %(\\mathrm{I}_{\\mathrm{d}}=\\mathrm{I}_{\\mathrm{dm}}=1 \\mathrm{~A})%<br>Vì %(\\mathrm{R}_{1})% nt %(\\mathrm{R}_{\\mathrm{d}})% nên %(\\mathrm{I}_{\\mathrm{d}}=\\mathrm{I}_{1}=\\mathrm{I}_{1 \\mathrm{~d}}=1 \\mathrm{~A})%<br>Ta có: %(\\mathrm{U}_{1 \\mathrm{~d}}=10 \\mathrm{~V}=\\mathrm{U}_{23})%<br>%(\\mathrm{I}_{23}=2 / 3 \\mathrm{~A}=\\mathrm{I}_{2}=\\mathrm{I}_{3})%<br>%(\\mathrm{I}=5 / 3 \\mathrm{~A})%<br>%(\\mathrm{R}_{\\mathrm{AB}}=6 \\Omega, \\mathrm{R}_{\\mathrm{td}}=7,2 \\Omega)% mà %(\\mathrm{R}_{\\mathrm{td}}=\\mathrm{R}_{\\mathrm{AB}}+\\mathrm{R}_{\\mathrm{b}})% suy ra %(\\mathrm{R}_{\\mathrm{b}}=1,2 \\Omega)%<br>Số chỉ vôn kế %(\\mathrm{UV}_{\\mathrm{V}}=\\mathrm{U}_{\\mathrm{MN}}=-\\mathrm{I}_{2} \\mathrm{R}_{2}+\\mathrm{I}_{1} \\mathrm{R}_{1}=-8 / 3 \\mathrm{~V})%<br>Vậy số chỉ vôn kế là %(8 / 3 \\mathrm{~V})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2. ",
+        "point": 1.0,
+        "content": "b) Điều chỉnh điện trở của biến trở %(\\mathrm{R}_{\\mathrm{b}}=2 \\Omega)%. Sau đó đổi vị trí của đèn và vồn kế. Tìm số chỉ vôn kế . Độ sáng của đèn thay đổi thế nào?",
+        "question_images": [],
+        "solution": "Mạch điện gồm %(\\left(\\left(\\mathrm{R}_{1}\\right.\\right.)% nt %(\\left.\\left.\\mathrm{R}_{\\mathrm{d}}\\right) / / \\mathrm{R}_{2}\\right))%nt %(\\mathrm{R}_{3})% nt %(\\mathrm{R}_{\\mathrm{b}})%<br>%(\\mathrm{R}_{\\mathrm{td}}=12 \\Omega)% suy ra %(\\mathrm{I}=1 \\mathrm{~A}=\\mathrm{I}_{12 \\mathrm{~d}}=\\mathrm{I}_{3}=\\mathrm{I}_{\\mathrm{b}}=1 \\mathrm{~A})%%(\\mathrm{U}_{12 \\mathrm{~d}}=5 \\mathrm{~V}=\\mathrm{U}_{1 \\mathrm{~d}}=\\mathrm{U}_{2})%<br>%(\\mathrm{I}_{1 \\mathrm{~d}}=\\mathrm{I}_{1}=\\mathrm{I}_{\\mathrm{d}}=0,5 \\mathrm{~A}\\lt \\mathrm{I}_{\\mathrm{dm}})% đèn sáng yếu<br>Số chỉ vôn kế: %(\\mathrm{U}_{\\mathrm{V}}=\\mathrm{U}_{\\mathrm{NB}}=\\mathrm{U}_{\\mathrm{NM}}+\\mathrm{U}_{\\mathrm{MB}})%<br>Tính được %(\\mathrm{U}_{\\mathrm{V}}=8 \\mathrm{~V})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Mạch điện như hình 3.1: Thanh điện trở hình trụ đồng chất %(\\mathrm{AB})% dài %(\\mathrm{L}=1 \\mathrm{~m})% có điện trở %(\\mathrm{R}=1000 \\Omega)%, có con chạy %(\\mathrm{C})% trượt được trên thanh %(\\mathrm{AB})%; điện trở %(\\mathrm{R}_{3}=1000 \\Omega)%; nguồn điện không đổi có hiệu điện thế %(\\mathrm{U})%; các điện trở %(\\mathrm{R}_{1}, \\mathrm{R}_{2})% chưa biết giá trị. Bỏ qua điện trở ampe kế, điện trở dây nối và điện trở tiếp xúc. Dịch chuyển con chạy %(\\mathrm{C})% từ %(\\mathrm{A})% đến %(\\mathrm{B})%, sự phụ thuộc của cường độ dòng điện qua Ampe kế %(\\mathrm{A})% theo chiều dài %(\\mathrm{x}(\\mathrm{x}=\\mathrm{AC}))% được biểu diễn như đồ thị hình 3.2.",
+        "group_images": [
+            "https://docdn.giainhanh.io/media/test/66100be9b7f88af59e829d8f817ed6ce.png",
+            "https://docdn.giainhanh.io/media/test/11813cf5a22fb47cbc503ddce232ad49.png"
+        ],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1. ",
+        "point": 0.75,
+        "content": "a) Tìm tỉ số của các điện trở %(\\mathrm{R}_{1}, \\mathrm{R}_{2})% ?",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\frac{R_{A C}}{R_{B C}}=\\frac{x}{A B-x}\\]<br>Mặc khác từ đồ thị ta có khi %(\\mathrm{x}=0,2 \\mathrm{~m})% thì %(\\mathrm{I}_{\\mathrm{A} 1}=0)% :<br>\\[\\frac{R_{1}}{R_{2}}=\\frac{R_{A C}}{R_{B C}}=\\frac{1}{4}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2. ",
+        "point": 1.25,
+        "content": "b) Tính các điện trở %(\\mathrm{R}_{1}, \\mathrm{R}_{2})% và hiệu điện thế %(\\mathrm{U})% của nguồn?",
+        "question_images": [],
+        "solution": "Từ đồ thị ta có: %(\\mathrm{Khi} \\mathrm{x}=0)% con chạy %(\\mathrm{C})% trùng điểm %(\\mathrm{A})%, thì dòng điện qua Ampekế %(\\mathrm{A}_{1})% theo chiều từ %(\\mathrm{C})% đến %(\\mathrm{N})% và có độ lớn %(\\mathrm{I}_{1}=2 \\mathrm{~mA})%. Lúc này điện trở %(\\mathrm{R}_{1})% bị nối tắt, mạch điện có %(\\mathrm{R}_{2})% song song với %(\\mathrm{R}_{\\mathrm{AB}})% và tất cả nối tiếp với %(\\mathrm{R}_{3})% và mắc vào nguồn %(U)%.<br>Dòng điện qua mạch chính:<br>\\[I=\\frac{U}{R_{3}+\\frac{R_{2} R}{R_{2}}}\\]<br>Dòng điện qua Ampe kế %(\\mathrm{A}_{1})% :<br>\\[\\begin{array}{c}\\frac{I_{1}}{I}=\\frac{\\frac{R_{2} R}{R_{2}+R}}{R_{2}}=\\frac{R}{R_{2}+R} \\Rightarrow I_{1}=\\frac{U}{R_{3}+\\frac{R_{2} R}{R_{2}+R}} \\cdot \\frac{R}{R_{2}+R} \\I_{1}=\\frac{U \\cdot R}{\\left(R_{2}+R_{3}\\right) R+R_{2} R_{3}}=0,002 \\mathrm{~A}\\end{array}\\]<br>Khi %(\\mathrm{x}=1 \\mathrm{~m}, \\mathrm{C})% trùng %(\\mathrm{B})% thì dòng điện qua Ampekế %(\\mathrm{A}_{1})% theo chiều từ %(\\mathrm{N})% đến %(\\mathrm{C})% và có độ lớn %(\\mathrm{I}_{1}^{\\prime}=3 \\mathrm{~mA})%. Lúc này điện trở %(\\mathrm{R}_{2})% bị nối tắt, mạch điện có %(\\mathrm{R}_{1})% song song với %(R_{A B})% và tất cả nối tiếp với %(R_{3})% và mắc vào nguồn %(U)%.<br>Tính tương tự ta có dòng điện qua Ampe kế %(\\mathrm{A}_{1})% :<br>\\[I_{1}^{\\prime}=\\frac{U . R}{\\left(R_{1}+R_{3}\\right) R+R_{1} R_{3}}=0,003 \\mathrm{~A} (3)\\]<br>Từ (2) và (3) ta có:<br>\\[\\frac{\\left(R_{1}+R_{3}\\right) R+R_{1} R_{3}}{\\left(R_{2}+R_{3}\\right) R+R_{2} R_{3}}=\\frac{2}{3}\\]<br>Thay %(\\mathrm{R}=1000 \\Omega, \\mathrm{R}_{3}=1000 \\Omega, \\mathrm{R}_{2}=4 \\mathrm{R}_{1})% vào trên ta tính được:<br>\\[\\mathrm{R}_{1}=100 \\Omega, \\mathrm{R}_{2}=400 \\Omega \\text {, }\\]<br>Thay %(R_{1}=100 \\Omega, R_{2}=400 \\Omega)% vào (3). Tính được %(U=3,6 \\mathrm{~V})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Một thấu kính hội tụ có tiêu cự f, quang tâm %(O)%. Một vật sáng nhỏ có dạng đoạn thẳng %(\\mathrm{MN})% đặt vuông góc với trục chính ( %(\\mathrm{M})% nằm trên trục chính) cách tiêu điểm vật chính %(\\mathrm{F})% một đoạn %(\\mathrm{MF}=\\mathrm{x})%. Ảnh thật M'N'của %(M N)% qua thấu kính có %(\\mathrm{M}^{\\prime})% cách tiêu điểm ảnh chính F' một đoạn %(M^{\\prime} F^{\\prime}=x^{\\prime})% như hình 4.1.",
+        "group_images": [
+            "https://docdn.giainhanh.io/media/test/06818c9429e068b2289cb60b6f483809.png"
+        ],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1. ",
+        "point": 1.0,
+        "content": "a) Hãy chứng minh: %(\\mathrm{xx}^{\\prime}=\\mathrm{f}^{2})%.",
+        "question_images": [],
+        "solution": "Sử dụng các tam giác đồng dạng<br>\\[\\begin{array}{l}\\Delta M N F \\sim \\Delta F O J \\Rightarrow \\frac{M N}{O J}=\\frac{x}{f}(1) \\\\Delta M^{\\prime} N^{\\prime} F^{\\prime} \\sim \\Delta F^{\\prime} O I \\Rightarrow \\frac{M^{\\prime} N^{\\prime}}{O I}=\\frac{x^{\\prime}}{f}(2)\\end{array}\\]<br>Từ (1), (2) và %(\\mathrm{MN}=\\mathrm{OI}, \\mathrm{M}^{\\prime} \\mathrm{N}^{\\prime}=\\mathrm{OJ})% suy ra %(\\mathrm{x} . \\mathrm{x}^{\\prime}=\\mathrm{f}^{2})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/af40cd98d4fb0b02c9c33771e7a172c5.png\" srcset=\"https://docdn.giainhanh.io/media/test/fbc4ed5818ef42ddf6b09fc6fee439f1.png 245w, https://docdn.giainhanh.io/media/test/9d134637802303c27c416475460e02a4.png 500w, https://docdn.giainhanh.io/media/test/449b1109e6e878b744bf642eca2b90bc.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2. ",
+        "point": 1.0,
+        "content": "Trên trục chính của thấu kính trên có ba điểm %(A, B, C)% như hình 4.2 . Biết %(A B=6 \\mathrm{~cm}, B C=4 \\mathrm{~cm})%. Giữ vật MN cố định. Dịch chuyển thấu kính từ A tới B thì M'N' luôn là ảnh thật và dịch chuyển được một đoạn bằng 9 cm lại gần MN . Nếu dịch chuyển thấu kính từ %(B)% tới %(C)% thì ảnh %(M^{\\prime} N^{\\prime})% cũng là ảnh thật và dịch chuyển được một đoạn bằng 1cm, tiến lại gần MN . Tính tiêu cự f của thấu kính.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/38c30b6bd8753c3e6cd5b459451cc999.png"
+        ],
+        "solution": "Khi thấu kính đặt tại vị trí %(\\mathrm{A})%, ta có:<br>\\[\\mathrm{xx}^{\\prime}=\\mathrm{f}^{2} (3)\\]<br>Khi thấu kính đặt tại %(\\mathrm{B})% : khoảng cách từ vật đến thấu kính tăng %(6 \\mathrm{~cm})% và khoảng cách từ ảnh đến thấu kính giảm %(6+9=15 \\mathrm{~cm}: \\mathrm{x}_{\\mathrm{B}}=\\mathrm{x}+6 ; \\mathrm{x}_{\\mathrm{B}}^{\\prime}=\\mathrm{x}^{\\prime}-15)%<br>Vận dụng công thức ở câu trên: %((\\mathrm{x}+6)\\left(\\mathrm{x}^{\\prime}-15\\right)=\\mathrm{f}^{2} (4))%<br>Khi thấu kính đặt tại %(\\mathrm{C})% : tương tự cách lập luận trên ta có %(\\mathrm{x})% tăng %(10 \\mathrm{~cm})% và %(\\mathrm{x})% ' giảm %(15+4+1=20 \\mathrm{~cm})%, ta có:<br>\\[(\\mathrm{x}+10)\\left(\\mathrm{x}^{\\prime}-20\\right)=\\mathrm{f}^{2} (5)\\]<br>Từ (3), (4) và (5) có hệ phương trình: %(\\left\\{\\begin{array}{l}2 x^{\\prime}-5 x=30 \\\\ x^{\\prime}-2 x=20\\end{array}\\right.)%<br>Giải hệ ta có: %(\\mathrm{x}=10 \\mathrm{~cm}, \\mathrm{x}^{\\prime}=40 \\mathrm{~cm}, \\mathrm{f}=20 \\mathrm{~cm})%.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,81 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 2.0,
+        "content": "Cho biểu thức %(\\mathrm{A}=\\left(\\frac{x^{2}-2 x}{2 x^{2}+8}-\\frac{2 x^{2}}{8-4 x+2 x^{2}-x^{3}}\\right)\\left(1-\\frac{1}{x}-\\frac{2}{x^{2}}\\right))%. Tìm giá trị nguyên của %(x)% để A có giá trị nguyên.",
+        "question_images": [],
+        "solution": "ĐK: %(\\left\\{\\begin{array}{l}x \\neq 0 \\\\ x \\neq 2\\end{array}\\right.)%<br>Ta có %(\\mathrm{A}=\\left(\\frac{x^{2}-2 x}{2 x^{2}+8}-\\frac{2 x^{2}}{8-4 x+2 x^{2}-x^{3}}\\right)\\left(1-\\frac{1}{x}-\\frac{2}{x^{2}}\\right))%<br>\\[=\\left(\\frac{x^{2}-2 x}{2\\left(x^{2}+4\\right)}-\\frac{2 x^{2}}{4(2-x)+x^{2}(2-x)}\\right)\\left(\\frac{x^{2}-x-2}{x^{2}}\\right)\\]<br>\\[\\begin{array}{l}=\\left(\\frac{x^{2}-2 x}{2\\left(x^{2}+4\\right)}-\\frac{2 x^{2}}{\\left(x^{2}+4\\right)(2-x)}\\right)\\left(\\frac{(x+1)(x-2)}{x^{2}}\\right)=\\left(\\frac{x(x-2)^{2}+4 x^{2}}{2(x-2)\\left(x^{2}+4\\right)}\\right)\\left(\\frac{(x+1)(x-2)}{x^{2}}\\right) \\\\=\\frac{x^{3}-4 x^{2}+4 x+4 x^{2}}{2\\left(x^{2}+4\\right)} \\cdot \\frac{x+1}{x^{2}}=\\frac{x\\left(x^{2}+4\\right)(x+1)}{2 x^{2}\\left(x^{2}+4\\right)}=\\frac{x+1}{2 x}\\end{array}\\]<br>Nhận xét : A nguyên khi %(x+1)% chia hết cho %(2 x=\\gt 2 x+2)% chia hết cho %(2 x)% %(=>2)% chia hết cho %(2 x=>2 x)% là ước của 2<br>TH1: %(2 x=1 \\Rightarrow x=\\frac{1}{2})% (loại).<br>TH2: %(2 x=-1 \\Rightarrow x=-\\frac{1}{2})% (loại).<br>TH3: %(2 x=2 \\Rightarrow x=1)% (thỏa mãn).<br>TH4: %(2 x=-2=>x=-1)% (thỏa mãn).<br>KL: Vậy %(x= \\pm 1)% thì %(\\mathrm{A})% có giá trị nguyên.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 1.0,
+        "content": "b) Cho %(x, y, z)% đôi một khác nhau thỏa mãn %(x+y+z=0)%. Tính giá trị của biểu thức:<br>\\[\\mathrm{B}=\\frac{\\left(x y+2 z^{2}\\right)\\left(y z+2 x^{2}\\right)\\left(z x+2 y^{2}\\right)}{\\left(2 x y^{2}+2 y z^{2}+2 z x^{2}+3 x y z\\right)^{2}} \\text {. }\\]",
+        "question_images": [],
+        "solution": "Ta có: %(x+y+z=0 \\Rightarrow \\mathrm{x}+\\mathrm{y}=-\\mathrm{z})%.<br>Do đó: %(x y+2 z^{2}=x y+z^{2}-z(x+y)=(z-x)(z-y))%<br>Tương tự : %(y z+2 x^{2}=(\\mathrm{x}-\\mathrm{y})(\\mathrm{x}-\\mathrm{z}))%<br>\\[z x+2 y^{2}=(y-z)(y-x)\\]<br>%(\\Rightarrow)% Tử số của %(\\mathrm{B})% là : %(-(x-y)^{2}(y-z)^{2}(z-x)^{2})%<br>Hs cm được : %(2 x y^{2}+2 y z^{2}+2 z x^{2}+3 x y z=(\\mathrm{x}-\\mathrm{y})(\\mathrm{y}-\\mathrm{z})(\\mathrm{z}-\\mathrm{x}))%<br>%(\\Rightarrow)% mẫu số của %(\\mathrm{B})% là : %([(x-y)(y-z)(z-x)]^{2})%<br>Vậy %(\\mathrm{B}=-1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 1.25,
+        "content": "Giải phương trình nghiệm nguyên: %(x^{2}+x y-2014 x-2015 y-2016=0)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}x^{2}+x y-2014 x-2015 y-2016=0 \\Leftrightarrow x^{2}+x y+x-2015 x-2015 y-2015=1 \\\\Leftrightarrow x(x+y+1)-2013(x+y+1)=1 \\Leftrightarrow(x-2015)(x+y+1)=1 \\\\+\\left\\{\\begin{array} { l } { x - 2 0 1 5 = 1 } \\\\{ x + y + 1 = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=2016 \\y=-2016\\end{array}\\right.\\right. \\\\+\\left\\{\\left\\{\\begin{array} { l } { x - 2 0 1 5 = - 1 } \\\\{ x + y + 1 = - 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=2014 \\y=-2016\\end{array}\\right.\\right.\\right. \\text {. } \\\\end{array}\\]<br>KL : Vậy phương trình có nghiệm là : %(\\left\\{\\begin{array}{l}x=2016 \\\\ y=-2016\\end{array} ;\\left\\{\\begin{array}{l}x=2014 \\\\ y=-2016\\end{array}\\right.\\right.)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 1.25,
+        "content": "Cho các số nguyên %(a, b, c)% thỏa mãn %(2 a+b, 2 b+c, 2 c+a)% đều là các số chính phương. Biết rằng một trong ba số chính phương trên chia hết cho 3. Chứng minh rằng: %(P=(a-b)^{3}+(b-c)^{3}+(c-a)^{3})% chia hết cho 81.",
+        "question_images": [],
+        "solution": "- Vì 3 số %(2 \\mathrm{a}+\\mathrm{b}, 2 \\mathrm{~b}+\\mathrm{c}, 2 \\mathrm{c}+\\mathrm{a})% đều là các số chính phương nên 3 số này chia 3 chỉ có thể dư 0 hoặc 1.<br>- Chứng minh nếu %(\\mathrm{x}+\\mathrm{y}+\\mathrm{z}=0)% thì %(\\mathrm{x}^{3}+\\mathrm{y}^{3}+\\mathrm{z}^{3}=3 \\mathrm{xyz})%<br>Vì trong 3 số trên có 1 số chia hết cho 3 và %((2 \\mathrm{a}+\\mathrm{b})+(2 \\mathrm{~b}+\\mathrm{c})+(2 \\mathrm{c}+\\mathrm{a})=3(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}) \\vdots 3)% nên suy ra 3 số cùng chia hết cho 3.<br>Mặt khác : %(2 \\mathrm{a}+\\mathrm{b}=3 \\mathrm{a}-(\\mathrm{a}-\\mathrm{b}) \\Rightarrow \\mathrm{a}-\\mathrm{b} \\vdots 3)%.<br>Tương tự chứng minh được %(\\mathrm{b}-\\mathrm{c})%, %(\\mathrm{c}-\\mathrm{a})% đều chia hết cho 3 .<br>Suy ra: %((a-b)(b-c)(c-a) \\vdots 27)%<br>Vì: %((a-b)+(b-c)+(c-a)=0)% nên %(\\mathrm{P}=(\\mathrm{a}-\\mathrm{b})^{3}+(\\mathrm{b}-\\mathrm{c})^{3}+(\\mathrm{c}-\\mathrm{a})^{3}=3(\\mathrm{a}-\\mathrm{b})(\\mathrm{b}-\\mathrm{c})(\\mathrm{c}-\\mathrm{a}) \\vdots 3.27 \\vdots 81)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 1.0,
+        "content": "Cho ba số %(a, b, c)% thỏa mãn %(a \\geq \\frac{4}{3}, b \\geq \\frac{4}{3}, c \\geq \\frac{4}{3})% và %(a+b+c=6)%. Chứng minh rằng: %(\\frac{a}{a^{2}+1}+\\frac{b}{b^{2}+1}+\\frac{c}{c^{2}+1} \\geq \\frac{6}{5})%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Vì } a \\geq \\frac{4}{3} \\Rightarrow(3 a-4)(a-2)^{2} \\geq 0 \\\\Leftrightarrow 3 a^{3}-16 a^{2}+28 a-16 \\geq 0 \\\\Leftrightarrow 25 a \\geq 16 a^{2}+16-3 a^{3}-3 a \\\\Leftrightarrow 25 a \\geq\\left(a^{2}+1\\right)(16-3 a)\\left(^{*}\\right)\\end{array}\\]<br>Chia cả hai vế của %(\\left(^{*}\\right))% cho %(25\\left(\\mathrm{a}^{2}+1\\right))% ta được %(\\frac{\\mathrm{a}}{\\mathrm{a}^{2}+1} \\geq \\frac{16-3 \\mathrm{a}}{25})%<br>Tương tự ta có %(: \\frac{\\mathrm{b}}{\\mathrm{b}^{2}+1} \\geq \\frac{16-3 \\mathrm{~b}}{25} ; \\frac{\\mathrm{c}}{\\mathrm{c}^{2}+1} \\geq \\frac{16-3 \\mathrm{c}}{25})%<br>Do đó : %(\\frac{\\mathrm{a}}{\\mathrm{a}^{2}+1}+\\frac{\\mathrm{b}}{\\mathrm{b}^{2}+1}+\\frac{\\mathrm{c}}{\\mathrm{c}^{2}+1} \\geq \\frac{48-3(\\mathrm{a}+\\mathrm{b}+\\mathrm{c})}{25}=\\frac{30}{25}=\\frac{6}{5})%<br>Dấu \" %(=)% \" xảy ra %(\\Leftrightarrow \\mathrm{a}=\\mathrm{b}=\\mathrm{c}=2)%.<br>Vậy %(\\frac{a}{a^{2}+1}+\\frac{b}{b^{2}+1}+\\frac{c}{c^{2}+1} \\geq \\frac{6}{5})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6:",
+        "group_content": "Cho %(\\mathrm{O})% là trung điểm của đoạn thẳng %(\\mathrm{AB})%. Trên cùng một nửa mặt phẳng có bờ là %(\\mathrm{AB})% vẽ tia %(\\mathrm{A} x, \\mathrm{~B} y)% cùng vuông góc với %(\\mathrm{AB})%. Trên tia %(\\mathrm{A} x)% lấy điểm %(\\mathrm{C})% (khác %(\\mathrm{A}))%, qua %(\\mathrm{O})% kẻ đường thẳng vuông góc với %(\\mathrm{OC})% cắt tia By tại %(\\mathrm{D})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(\\frac{A B}{4 B D}=\\frac{C A}{A B})%.",
+        "question_images": [],
+        "solution": "Chứng minh: %(\\triangle \\mathrm{OAC} \\sim \\triangle \\mathrm{DBO}(\\mathrm{g}-\\mathrm{g}))%<br>\\[\\begin{array}{l}\\Rightarrow \\frac{\\mathrm{OA}}{\\mathrm{DB}}=\\frac{\\mathrm{AC}}{\\mathrm{OB}} \\Rightarrow \\mathrm{OA} \\cdot \\mathrm{OB}=\\mathrm{AC} \\cdot \\mathrm{BD} \\\\Rightarrow \\frac{\\mathrm{AB}}{2} \\cdot \\frac{\\mathrm{AB}}{2}=\\mathrm{AC} \\cdot \\mathrm{BD} \\Rightarrow \\frac{\\mathrm{AB}}{4 \\mathrm{BD}}=\\frac{\\mathrm{CA}}{\\mathrm{AB}}~(đpcm)\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0e67d6c65eebed100784d38d11e53473.png\" srcset=\"https://docdn.giainhanh.io/media/test/f14ac812bb9f69ecd4b289bcdfad1d49.png 166w, https://docdn.giainhanh.io/media/test/cadd19597b1968f69e1ab28689c051c3.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Kẻ %(\\mathrm{OM})% vuông góc với %(C D)% tại %(\\mathrm{M})%, từ %(\\mathrm{M})% kẻ %(\\mathrm{MH})% vuông góc với %(\\mathrm{AB})% tại %(H)%. Chứng minh %(\\mathrm{BC})% đi qua trung điểm của %(\\mathrm{MH})%.",
+        "question_images": [],
+        "solution": "Theo câu a ta có: %(\\triangle \\mathrm{OAC} \\sim \\Delta \\mathrm{DBO}(\\mathrm{g}-\\mathrm{g}) \\Rightarrow \\frac{\\mathrm{OC}}{\\mathrm{OD}}=\\frac{\\mathrm{AC}}{\\mathrm{OB}})%<br>Mà %(\\mathrm{OA}=\\mathrm{OB} \\Rightarrow \\frac{\\mathrm{OC}}{\\mathrm{OD}}=\\frac{\\mathrm{AC}}{\\mathrm{OA}} \\Rightarrow \\frac{\\mathrm{OC}}{\\mathrm{AC}}=\\frac{\\mathrm{OD}}{\\mathrm{OA}})%<br>%(+))% Chứng minh: %(\\triangle \\mathrm{OAC} \\sim \\triangle \\mathrm{DOC}(\\mathrm{c}-\\mathrm{g}-\\mathrm{c}) \\Rightarrow \\angle \\mathrm{ACO}=\\angle \\mathrm{OCM})%<br>%(+))% Chứng minh: %(\\triangle \\mathrm{OAC}=\\Delta \\mathrm{OMC}(\\mathrm{ch}-\\mathrm{gn}) \\Rightarrow \\mathrm{AC}=\\mathrm{MC})%<br>Ta có %(\\triangle \\mathrm{OAC}=\\Delta \\mathrm{OMC} \\Rightarrow \\mathrm{OA}=\\mathrm{OM} ; \\mathrm{CA}=\\mathrm{CM} \\Rightarrow \\mathrm{OC})% là trung trực của %(\\mathrm{AM})% %(\\Rightarrow \\mathrm{OC} \\perp \\mathrm{AM})%,<br>Mặt khác %(\\mathrm{OA}=\\mathrm{OM}=\\mathrm{OB} \\Rightarrow \\Delta \\mathrm{AMB})% vuông tại %(\\mathrm{M})%<br>%(\\Rightarrow \\mathrm{OC} / / \\mathrm{BM})% (vì cùng vuông góc %(\\mathrm{AM})% ) hay %(\\mathrm{OC} / / \\mathrm{BI})%<br>+) Xét %(\\triangle \\mathrm{ABI})% có %(\\mathrm{OM})% đi qua trung điểm %(\\mathrm{AB})%, song song %(\\mathrm{BI})% suy ra %(\\mathrm{OM})% đi qua trung điểm %(\\mathrm{AI} \\Rightarrow \\mathrm{IC}=\\mathrm{AC})%<br>+) %(\\mathrm{MH} / / \\mathrm{AI})% theo hệ quả định lý Ta-lét ta có: %(\\Rightarrow \\frac{\\mathrm{MK}}{\\mathrm{IC}}=\\frac{\\mathrm{BK}}{\\mathrm{BC}}=\\frac{\\mathrm{KH}}{\\mathrm{AC}})%<br>Mà %(\\mathrm{IC}=\\mathrm{AC} \\Rightarrow \\mathrm{MK}=\\mathrm{HK} \\Rightarrow \\mathrm{BC})% đi qua trung điểm %(\\mathrm{MH}~(đ p c m))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 0.5,
+        "content": "c) Tìm vị trí điểm %(\\mathrm{C})% trên tia %(\\mathrm{A} x)% để diện tích tứ giác %(\\mathrm{ABDC})% nhỏ nhất.",
+        "question_images": [],
+        "solution": "Tứ giác %(\\mathrm{ABDC})% là hình thang vuông<br>\\[\\Rightarrow \\mathrm{S}_{\\mathrm{ABDC}}=\\frac{1}{2}(\\mathrm{AC}+\\mathrm{BD}) . \\mathrm{AB}\\]<br>Ta thấy %(\\mathrm{AC}, \\mathrm{BD}\\gt 0)%, nên theo BĐT Cô-si ta có<br>\\[\\begin{array}{l}\\mathrm{AC}+\\mathrm{BD} \\geq 2 \\sqrt{\\mathrm{AC} \\cdot \\mathrm{BD}}=2 \\cdot \\sqrt{\\frac{\\mathrm{AB}^{2}}{4}}=\\mathrm{AB} \\Rightarrow \\mathrm{S}_{\\mathrm{ABDC}} \\geq \\frac{1}{2} \\mathrm{AB}^{2} \\\\text { Dấu \" }=\\text { \" xảy ra } \\Leftrightarrow \\mathrm{AC}=\\mathrm{BD}=\\frac{\\mathrm{AB}}{2}=\\mathrm{OA}\\end{array}\\]<br>Vậy %(\\mathrm{C})% thuộc tia %(\\mathrm{Ax})% và cách điểm %(\\mathrm{A})% một đoạn bằng %(\\mathrm{OA})% thì diện tích tứ giác %(A B D C)% nhỏ nhất.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 1.0,
+        "content": "Năm vận động viên mang số %(1 ; 2 ; 3 ; 4)% và 5 được chia bằng mọi cách thành hai nhóm. Chứng tỏ rằng ở một trong hai nhóm ta luôn có hai vận động viên mà hiệu các số họ mang trùng với một trong các số mà người của nhóm đó mang.",
+        "question_images": [],
+        "solution": "Ta chia các số %(1 ; 2 ; 3 ; 4 ; 5)% thành hai nhóm sao cho trong một nhóm hiệu hai số không trùng với một số nào trong nhóm.<br>Ta có hai số 2 và 4 không thể ở trong cùng một nhóm vì %(4-2=2)%. Số 1 cũng không thể ở trong cùng một nhóm với số 2 vì %(2-1=1)%<br>Như vậy số 1 phải ở cùng một nhóm với số 4 .<br>Số %(4-1=3)% phải ở cùng nhóm với số 2. Ta có hai số 1 và 4 cùng nhóm; hai số 2 và 3 cùng một nhóm còn lại.<br>Nhưng còn lại số 5, số này không thể ở trong bất cứ nhóm nào vì %(5-1=4)% và %(5-2=3)% (Mâu thuẫn). Từ đó suy ra điều phải chứng minh.",
+        "question_type": "essay"
+    }
+]

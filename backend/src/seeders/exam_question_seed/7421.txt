@@ -1,0 +1,133 @@
+[
+    {
+        "title": "1",
+        "group_content": "Giải các phương trình:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(\\sqrt{3 x-2}+3 \\sqrt{x+2}=8)%",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq \\frac{2}{3})%<br>Nếu %(\\mathrm{x}\\gt 2)% thì %(\\sqrt{3 x-2}+3 \\sqrt{x+2}>\\sqrt{4}+3 \\sqrt{4}=8)%, mâu thuẫn<br>Nếu %(\\frac{2}{3} \\leq x\\lt 2)% thì %(\\sqrt{3 x-2}+3 \\sqrt{x+2}\\lt \\sqrt{4}+3 \\sqrt{4}=8)%, mâu thuẫn<br>Do đó, %(\\mathrm{x}=2)%<br>Thử lại thỏa mãn<br>Vậy phương trình đã cho có nghiệm duy nhất %(\\mathrm{x}=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %((x-3)(x-2)(x+1)(x+6)=28 x^{2})%",
+        "question_images": [],
+        "solution": "Phương trình đã cho tương đương với<br>\\[\\left(x^{2}+6-5 x\\right)\\left(x^{2}+6+7 x\\right)=28 x^{2}\\]<br>Đặt %(a=x^{2}+x+6)% thì ta có %((a-6 x)(a+6 x)=28 x^{2})%<br>Hay %(a^{2}-36 x^{2}=28 x^{2})%<br>Từ đó %(\\mathrm{a}=8 \\mathrm{x})% hoặc %(\\mathrm{a}=-8 \\mathrm{x})%<br>Xét các trường hợp cụ thể, ta tìm được tất cả các nghiệm của phương trình đã cho là %(\\mathrm{x}=1, \\mathrm{x}=6)%,<br>\\[x=\\frac{-9+\\sqrt{57}}{2} ; x=\\frac{-9-\\sqrt{57}}{2}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x^{3}+y^{3}=3 x^{2}-3 x+1 \\\\ x y+x+2 y=1\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Phương trình thứ nhất của hệ có thể được viết lại thành %(y^{3}=(1-x)^{3})%<br>Từ đó %(\\mathrm{y}=1-\\mathrm{x})%<br>Thay vào phương trình thứ hai của hệ, ta được %(x(1-x)+x+2(1-x)=1)%<br>Giải phương trình này, ta được %(\\mathrm{x}=1)% (tương ứng %(\\mathrm{y}=0)% )hoặc %(x=-1)% (tương ứng, %(y=-2)% )<br>Vậy hệ phương trình đã cho có hai nghiệm %((\\mathrm{x} ; \\mathrm{y}))% là %((1 ; 0))% và %((-1 ; 2))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.75,
+        "content": "a) Tìm tất cả các số nguyên tố %(\\mathrm{p})% có dạng %(4 k^{4}+1)% với %(\\mathrm{k})% là một số tự nhiên",
+        "question_images": [],
+        "solution": "a) Ta có: %(p=4 k^{4}+1=\\left(2 k^{2}-2 k+1\\right)\\left(2 k^{2}+2 k+1\\right))%<br>Vì p là một số nguyên tố và %(\\left(2 k^{2}-2 k+1\\right) \\leq\\left(2 k^{2}+2 k+1\\right))%<br>nên %(2 k^{2}-2 k+1=1 \\Rightarrow k \\in\\{0 ; 1\\})%<br>Thử lại, ta được %(\\mathrm{k}=1)% và %(\\mathrm{p}=5)%<br>Vậy có duy nhất một số nguyên tố thỏa mãn yêu cầu đề bài là %(\\mathrm{p}=5)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) Chứng minh rằng tồn tại vô số số nguyên dương %(\\mathrm{n})% để %(n^{2}+1)% là ước số của %(\\mathrm{Q}=1.2 .3 \\ldots \\mathrm{n})%",
+        "question_images": [],
+        "solution": "Chọn %(n=2 a^{2})% với a là một số nguyên bất kỳ thỏa mãn %(a \\equiv 1(\\bmod 5), a\\gt 10^{69})%<br>Ta có: %(n^{2}+1=4 a^{4}+1=\\left(2 a^{2}-2 a+1\\right)\\left(2 a^{2}+2 a+1\\right)=5 \\cdot \\frac{2 a^{2}+2 a+1}{5} \\cdot\\left(2 a^{2}-2 a+1\\right))%Vì %(a \\equiv 1(\\bmod 5))% nên %(\\frac{2 a^{2}+2 a+1}{5})% là một số nguyên<br>Ngoài ra, do %(a>10^{69})% nên dễ thấy<br>\\[5\\lt \\frac{2 a^{2}+2 a+1}{5}\\lt 2 a^{2}-2 a+1\\lt 2 a^{2} \\text {. }\\]<br>Vì vậy %(5 . \\frac{2 a^{2}+2 a+1}{5} \\cdot\\left(2 a^{2}-2 a+1\\right)=4 a^{4}+1)%<br>Từ đây, ta suy ra đpcm",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là các số thực thỏa mãn điều kiện %(a^{2}+b^{2}+c^{2}=2(a+b+c))%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.75,
+        "content": "a) Chứng minh rằng %(a+b+c \\leq 6)% và %((a+1)(b+1)(c+1) \\leq 27)%",
+        "question_images": [],
+        "solution": "Sử dụng bất đẳng thức Cauchy - Schwartz, ta có<br>\\[2(a+b+c)=a^{2}+b^{2}+c^{2} \\geq \\frac{(a+b+c)^{2}}{3}\\]<br>Từ đây, ta dễ dàng suy ra %(0 \\leq a+b+c \\leq 6)%<br>Từ giả thiết, ta có %(2 a+2=a^{2}+(b-1)^{2}+(c-1)^{2} \\geq 0 \\Rightarrow a \\geq-1)%<br>Tương tự ta cũng có %(b \\geq-1 ; c \\geq-1)%<br>Suy ra %(\\mathrm{a}+1, \\mathrm{~b}+1, \\mathrm{c}+1)% là các số không âm.<br>Bây giờ, sử dụng bất đẳng thức %(\\mathrm{AM}-\\mathrm{GM})% kết hợp với kết quả %(0 \\leq a+b+c \\leq 6)% vừa chứng minh ở trên, ta được<br>\\[(a+1)(b+1)(c+1) \\leq\\left(\\frac{a+1+b+1+c+1}{3}\\right)^{3} \\leq 27\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) Tìm giá trị nhỏ nhất của %(F=(a+1)(b+1)(c+1))%",
+        "question_images": [],
+        "solution": "Không mất tính tổng quát, giả sử %(a \\geq b \\geq c)% từ giả thiết ta có %(a+b+c \\geq 0)%<br>Vì thế %(a \\geq \\frac{a+b+c}{3} \\geq 0)%<br>Bây giờ, ta có<br>\\[\\begin{aligned}(b+1)(c+1)= & b c+b+c+1+\\frac{a^{2}+b^{2}+c^{2}-2(a+b+c)}{2} \\\\= & \\frac{(b+c)^{2}+a^{2}-2 a+2}{2} \\geq \\frac{a^{2}-2 a+2}{2}\\end{aligned}\\]<br>Sử dụng bất đẳng thức này, ta được<br>\\[F \\geq \\frac{(a+1)\\left(a^{2}-2 a+2\\right)}{2}=\\frac{a^{3}-a^{2}+2}{2}\\]<br>Bây giờ, sử dụng bất đẳng thức %(\\mathrm{AM}-\\mathrm{GM})% ta có<br>\\[\\frac{a^{3}}{2}+\\frac{a^{3}}{2}+\\frac{4}{27} \\geq a^{2}\\]<br>Do đó, %(F \\geq \\frac{-\\frac{4}{27}+2}{2}=\\frac{25}{27})%<br>Mặt khác, với %(a=b=\\frac{2}{3}, c=-\\frac{2}{3} \\Rightarrow F=\\frac{25}{27})%<br>Vậy %(\\min F=\\frac{25}{27})%.<br><img/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho tam giác %(\\mathrm{ABC})% nhọn, không cân nội tiếp đường tròn %((\\mathrm{O}))% và %(B A C=60^{\\circ})%. Các đường thẳng qua %(\\mathrm{C})% và %(\\mathrm{B})% song song với %(\\mathrm{AO})% cắt đường tròn %((\\mathrm{O}))% lần lượt tại %(\\mathrm{E})% và %(\\mathrm{F}(\\mathrm{E})% khác %(\\mathrm{C}, \\mathrm{F})% khác %(\\mathrm{B})% ). Gọi %(\\mathrm{H})% là trực tâm tam giác %(\\mathrm{ABC})%. Đường thẳng %(\\mathrm{BH})% cắt đường tròn %((\\mathrm{O}))% tại điểm thứ hai là %(\\mathrm{X}(\\mathrm{X})% khác %(\\mathrm{B}))%; đường thẳng %(\\mathrm{CH})% că̆t đường tròn %((\\mathrm{O}))% tại điểm thứ hai %(\\mathrm{Y}(\\mathrm{Y})% khác %(\\mathrm{C}))%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.75,
+        "content": "a) Chứng minh tam giác %(\\mathrm{AEF})% đồng dang với tam giác %(\\mathrm{HBC})%",
+        "question_images": [],
+        "solution": "Xét thế hình như hình vẽ bên<br>Ta có: %(A F E=A C E=O A C=90^{\\circ}-\\frac{1}{2} A O C=90^{\\circ}-A B C=H C B)%<br>Hoàn toàn tương tự, ta cũng có %(A E F=H B C)%<br>Từ đó suy ra hai tam giác %(\\mathrm{AEF})% và %(\\mathrm{HBC})% đồng dạng %((\\mathrm{g}-\\mathrm{g}))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b7844bb77a83a095497d1a6038a7ecec.png\" srcset=\"https://docdn.giainhanh.io/media/test/dc78416a5f7f571253a5fb1dc9f156b1.png 166w, https://docdn.giainhanh.io/media/test/94186c4910142df4d4ca6c9fb1ff7e2f.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) Gọi %(\\mathrm{M})% là giao điểm của %(\\mathrm{XF})% với %(\\mathrm{AC})% và %(\\mathrm{N})% là giao điểm của %(\\mathrm{YE})% với %(\\mathrm{AB})%. Chứng minh %(\\mathrm{MN} / / \\mathrm{BC})%.",
+        "question_images": [],
+        "solution": "Vì BF // CE nên %(\\mathrm{EF}=\\mathrm{BC})%<br>Mà hai tam giác %(\\mathrm{AEF})% và %(\\mathrm{HBC})% đồng dạng (theo câu a) nên hai tam giác này cũng bằng nhau<br>Suy ra %(\\mathrm{AE}=\\mathrm{HB})% và %(\\mathrm{AF}=\\mathrm{HC})%<br>Mà %(\\mathrm{HB}=\\mathrm{BY})% và %(\\mathrm{HC}=\\mathrm{CX})% (tính chất của trực tâm)<br>Nên %(\\mathrm{AE}=\\mathrm{HB}=\\mathrm{BY})% và %(\\mathrm{AF}=\\mathrm{HC}=\\mathrm{CX})%<br>Vì %(\\mathrm{AE}=\\mathrm{BY})% nên tứ giác %(\\mathrm{AEBY})% là hình thang cân<br>Suy ra %(\\frac{A N}{N B}=\\frac{A Y}{B E})%<br>Chứng minh tương tự ta cũng có %(\\frac{A M}{M C}=\\frac{A X}{C F})%<br>Mặt khác ta lại có %(\\mathrm{AY}=\\mathrm{AX}=\\mathrm{AH})% (theo tính chất của trực tâm) và %(\\mathrm{BE}=\\mathrm{CF})% (do tứ giác %(\\mathrm{BFCE})% là hình thang cân) nên %(\\frac{A N}{N B}=\\frac{A M}{M C} \\Rightarrow \\mathrm{MN} / / \\mathrm{BC})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.75,
+        "content": "c) Chứng minh ba đường thẳng %(\\mathrm{MN}, \\mathrm{XY}, \\mathrm{FE})% đồng quy.",
+        "question_images": [],
+        "solution": "Tứ giác AXCF là hình thang cân nên:<br>\\[F C Y=F C A-Y C A=C A X-Y C A=H B C-Y C A\\]<br>Mà %(Y C A=90^{\\circ}-B A C=90^{\\circ}-\\frac{1}{2} B O C=O B C)% nên<br>\\[F C Y=H B C-O B C=H B O\\]<br>CMTT ta cũng có %(X C E=H C O)%Mặt khác, ta lại có<br>\\[B H C=180^{\\circ}-B A C=120^{\\circ}=B O C\\]<br>Nên tứ giác %(\\mathrm{BHOC})% nội tiếpVì thế %(H C O=H B O)%<br>Từ đây, ta suy ra %(F C Y=H B O=H C O=X C E)%<br>Như vậy, %(\\mathrm{XE}=\\mathrm{FY})%Từ đó %(\\mathrm{YE} / / \\mathrm{FX})%<br>Bây giờ, sử dụng định lý Thales, ta có:<br>\\[\\frac{M X}{M F}=\\frac{A X}{F C}=\\frac{A Y}{B E}=\\frac{N F}{N E}\\]<br>Kết hợp với %(\\mathrm{YE} / / \\mathrm{FX})% ta dễ dàng suy ra ba đường thẳng %(\\mathrm{MN}, \\mathrm{XY}, \\mathrm{FE})% đồng quy.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho tập %(\\mathrm{A})% gồm 2025 số tự nhiên liên tiếp. Một tập con %(\\mathrm{B})% của %(\\mathrm{A})% được gọi là tập con có tính chất \"nodiv\" nếu hai phần tử %(\\mathrm{a}, \\mathrm{b}(\\mathrm{a}\\gt \\mathrm{b}))% bất kì thuộc tập %(\\mathrm{B})% đều thỏa mãn điều kiện %(\\mathrm{a}+\\mathrm{b})% không chia hết cho %(\\mathrm{a}-\\mathrm{b})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chỉ ra một tập con %(\\mathrm{B})% của %(\\mathrm{A})% có tính chất \"nodiv\" mà %(\\mathrm{B})% có đúng 675 phần tử",
+        "question_images": [],
+        "solution": "Đặt %(A=\\{n, n+1, \\ldots, n+2024\\})%, với %(\\mathrm{n})% là số tự nhiên<br>Xét các trường hợp sau+ TH1: %(\\mathrm{n})% chia hết cho 3<br>Xét tập hợp %(B=\\{n+1, n+4, n+7, \\ldots, n+2023\\})%<br>Tập này có 675 phần tử và thỏa mãn điều kiện",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) Nếu B là một tâp con của A có tính chất \"nodiv\" thì B có thể có nhiều nhất bao nhiêu phần tử?",
+        "question_images": [],
+        "solution": "Ta chứng minh tập %(\\mathrm{B})% có nhiều nhất 675 phần tử<br>Thật vậy, giả sử tập B có không ít hơn 676 phần tử<br>Ta chia tập %(\\mathrm{A})% thành các nhóm nhỏ như sau<br>\\[\\begin{array}{l}\\{n, n+1, n+2\\} \\\\\\{n+3, n+4, n+5\\} \\\\ldots\\end{array}\\]<br>\\[\\{n+2022, n+2023, n+2024\\}\\]<br>Có tất cả 675 nhóm và hai số %(a_{i}, a_{j})% phân biệt bất kỳ ở mỗi nhóm đều thỏa mãn %(a_{i}+a_{j})% chia hết cho %(a_{i}-a_{j})%<br>Vì tập %(\\mathrm{B})% có không ít hơn 676 phần tử nên tồn tại hai phần tử của tập %(\\mathrm{B})% thuộc cùng một nhóm nhỏ, hai phần tử này sẽ không có tính chất \"nodiv\", mâu thuẫn<br>Như vậy tập B có không quá 675 phần tử<br>Mặt khác, cách xây dựng tập B như ở câu a thỏa mãn yêu cầu bài toán<br>Vậy tập %(\\mathrm{B})% có nhiều nhất 675 phần tử.",
+        "question_type": "essay"
+    }
+]

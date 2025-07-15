@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Giải phương trình<br>\\[\\sqrt{3} \\cos 2 x-\\sin 2 x-2 \\cos x=0 \\text {. }\\]",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\sqrt{3} \\cos 2 x-\\sin 2 x-2 \\cos x=0 \\\\ \\Leftrightarrow \\cos \\left(2 x+\\frac{\\pi}{6}\\right)=\\cos x \\\\ \\Leftrightarrow\\left[\\begin{array}{l}x=-\\frac{\\pi}{6}+k 2 \\pi \\\\ x=-\\frac{\\pi}{18}+k \\frac{2 \\pi}{3}\\end{array}(k \\in \\mathbb{Z})\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho đa giác lồi %(n)% cạnh nội tiếp đường tròn, biết số tam giác lập được bằng %(\\frac{4}{7})% số tứ giác lập được từ %(n)% đỉnh của đa giác đó. Tìm hệ số của %(x^{4})% trong khai triển %((3+2 x)^{n})%.",
+        "question_images": [],
+        "solution": "Từ giả thiết suy ra %(C_{n}^{3}=\\frac{4}{7} C_{n}^{4} \\Leftrightarrow n=10)%<br>Xét %((3+2 x)^{10}=\\sum_{k=0}^{10} C_{10}^{k} 3^{10-k} 2^{k} x^{k})% nên ta xét %(\\mathrm{k}=4)% thu được hệ số của %(x^{4})% là %(C_{10}^{4} 3^{6} 2^{4}=2449440)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tính tồng %(S=\\frac{C_{n}^{0}}{C_{n+2}^{1}}+\\frac{C_{n}^{1}}{C_{n+2}^{2}}+\\frac{C_{n}^{2}}{C_{n+2}^{3}}+\\ldots+\\frac{C_{n}^{n}}{C_{n+1}^{n+1}}\\left(\\mathrm{n} \\in \\mathbb{N}^{*}\\right))%.",
+        "question_images": [],
+        "solution": "Ta có %(\\frac{C_{n}^{k}}{C_{n+2}^{k+1}}=\\frac{(k+1)(n-k+1)}{(n+1)(n+2)}=\\frac{n(k+1)+1-k^{2}}{(n+1)(n+2)})% nên<br>\\[\\begin{array}{l}S=\\frac{n(1+2+\\ldots+n+1)+n+1-\\left(1^{2}+2^{2}+\\ldots+n^{2}\\right)}{(n+1)(n+2)} \\\\=\\frac{n+3}{6}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Cho đồ thị %((C): y=\\frac{2 m x-1}{2 x-2})% và điểm %(M(2 ; 5))%. Đường thẳng %(d)% đi qua %(M)% và tiếp xúc với %((C))%. Tìm %(m)% để đường thẳng %(d)% tạo với 2 tia %(O x)% và %(O y)% tam giác có diện tích lớn nhất.",
+        "question_images": [],
+        "solution": "Giả sử %(\\mathrm{d}: y=a x+b)%. Đường thẳng %(\\mathrm{d})% cắt 2 tia %(\\mathrm{Ox})% và %(\\mathrm{Oy})% lần lượt tại %(\\mathrm{A})% và %(\\mathrm{B})% nên %(a\\lt 0)%.<br>d đi qua %(\\mathrm{M}(2 ; 5))% nên %(\\mathrm{b}=5-2 \\mathrm{a})%.<br>d tiếp xúc với %((C): y=\\frac{2 m x-1}{2 x-2})% khi và chỉ khi %(2 m x-1=(a x+b)(2 x-2))% có nghiệm kép %(x \\neq 1)% khi và chỉ khi%(\\left\\{\\begin{array}{l}(b-a-m)^{2}-2 a(1-2 b)=0 \\\\ 2 m-1 \\neq 0\\end{array}\\right.)%<br>Từ trên ta ta có được<br>\\[(5-m-3 a)^{2}=2 a(4 a-9) \\Leftrightarrow\\left[\\begin{array}{l}m_{1}=5-3 a-\\sqrt{2 a(4 a-9)} \\m_{2}=5-3 a+\\sqrt{2 a(4 a-9)}\\end{array}\\right.\\]<br>Do %(\\mathrm{a}\\lt 0)% nên %(\\mathrm{m}_{1})% và %(\\mathrm{m}_{2})% là phân biệt vậy ta luôn tìm được giá trị của %(\\mathrm{m})% với mỗi trường hợp %(\\mathrm{a}\\lt 0)%.<br>Ta lại có %(S_{O A B}=\\frac{1}{2} \\frac{b^{2}}{|a|}=\\frac{(5-2 a)^{2}}{2|a|})%.<br>Chọn %(a=\\frac{-1}{n}(n \\in \\mathbb{N}))% thì %(S_{O A B}=\\frac{1}{2} \\frac{(5 n+2)^{2}}{n})% ta tìm được %(m_{1}=5+\\frac{3}{n}+\\sqrt{\\frac{2(9 n+4)}{n^{2}}})%.<br>Khi %(n \\rightarrow+\\infty)% thì %(m_{1} \\rightarrow 5)% và %(S_{O A B} \\rightarrow+\\infty)% tức ta không tìm được %(\\mathrm{m})% để thỏa mãn bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Biết %(\\lim \\left(\\sqrt{n^{2}+a n+2018}-\\sqrt[3]{b n^{3}+6 n^{2}+5 n+2019}\\right)=0)%. Tính %(a^{2018}+b^{2019}-1)%.",
+        "question_images": [],
+        "solution": "Đặt %(\\mathrm{L}=\\lim \\left(\\sqrt{n^{2}+a n+2018}-\\sqrt[3]{b n^{3}+6 n^{2}+5 n+2019}\\right))%.<br>Nếu %(b \\neq 1 \\Rightarrow L=\\infty)% (loại)<br>Nên %(b=1)%<br>Xét %(\\mathrm{b}=1)% ta có %(\\lim \\left(\\sqrt[3]{n^{3}+6 n^{2}+5 n+2019}-n-2\\right)=0)% nên%(\\lim \\left(\\sqrt{n^{2}+a n+2018}-n-2\\right)=0)% mà %(\\lim \\left(\\sqrt{n^{2}+a n+2018}-n-2\\right)=\\frac{a-4}{2})%.<br>Ta được %(\\mathrm{a}=4)%. Vậy %(\\mathrm{A}=4^{2018})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình chóp %(S . A B C D)% có đáy %(A B C D)% là hình thang cân %((A D / / B C), B C=2 a)%, %(A B=A D=D C=a(a\\gt 0))%. Mặt bên %(S B C)% là tam giác đều. Gọi %(O)% là giao điểm của %(A C)% và %(B D)%. Biết %(S D)% vuông góc với %(A C)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh mặt phẳng %((S B C))% vuông góc mặt phẳng %((A B C D))%. Tính độ dài đoạn thẳng %(S D)%.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{I})% là trung điểm của %(\\mathrm{BC})% nên tứ giác %(\\mathrm{ADCI})% là hình thoi cạnh a nên %(\\mathrm{IA}=\\mathrm{IB}=\\mathrm{IC}=\\mathrm{a})% thì tam giác %(\\mathrm{ABC})% vuông tại %(\\mathrm{A})%, suy ra %(\\mathrm{AC})% vuông góc %(\\mathrm{DI})%<br>\\[\\begin{array}{l}A C \\perp I D(I D \\| A B), A C \\perp S D \\Rightarrow A C \\perp(S I D) \\\\Rightarrow A C \\perp S I\\end{array}\\]<br>Do %(A C \\perp S I, B C \\perp S I \\Rightarrow S I \\perp(A B C D) \\Rightarrow(A B C D) \\perp(S B C))%<br>Ta có %(: S D=\\sqrt{S I^{2}+I D^{2}}=2 a)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/197ebc1ce69a763f55bc70419b2e167f.png\" srcset=\"https://docdn.giainhanh.io/media/test/c8307039d2d6fa34e115156b8e74a588.png 158w, https://docdn.giainhanh.io/media/test/8205f2b4f1e381509217b6c4b3f36066.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Mặt phẳng %((\\alpha))% đi qua điểm %(M)% thuộc đoạn thẳng %(O D)% ( %(M)% khác %(O)% và %(D)% ) và song song với đường thẳng %(S D)% và %(A C)%. Xác định thiết diện của hình chóp %(S . A B C D)% cắt bởi mặt phẳng %((\\alpha))% biết %(M D=x)%. Tìm %(x)% để diện tích thiết diện lớn nhất.",
+        "question_images": [],
+        "solution": "Từ %(\\mathrm{M})% kẻ hai đường thẳng lần lượt song song với %(\\mathrm{SD}, \\mathrm{AC})% chúng cắt theo thứ tự %(\\mathrm{SB})% tại %(\\mathrm{Q})% và %(\\mathrm{AB})% tại %(\\mathrm{G}, \\mathrm{AC})% tại %(\\mathrm{N})%. Từ %(\\mathrm{G})% kẻ đường thẳng song song %(\\mathrm{SD})%, cắt %(\\mathrm{SA})% tại %(\\mathrm{E})%, tư %(\\mathrm{N})% kẻ đường thẳng song song với %(\\mathrm{SD})% cắt %(\\mathrm{SC})% tại %(\\mathrm{P})%.<br>Ta được thiểt diện là ngũ giác GNPQE.<br>Ta có %(B D=a \\sqrt{3})% nên tính được %(E G=N P=2(a-x \\sqrt{3}), Q M=2\\left(a-\\frac{x}{\\sqrt{3}}\\right), G N=3 x)%<br>Tứ giác %(\\mathrm{EGMQ})% và %(\\mathrm{MNPQ})% là hai hình thang vuông đường cao lần lượt là %(\\mathrm{GM})% và %(\\mathrm{NM})% nên<br>\\[S_{M N P Q E}=4 x(3 a-2 \\sqrt{3} x)\\]<br>%(\\operatorname{Max} S_{M N P Q E}=\\frac{3 \\sqrt{3}}{2} a^{2})% tại %(x=\\frac{a \\sqrt{3}}{4})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Cho tam giác %(A B C)%, điểm %(K)% nằm trên cạnh %(B C)% sao cho %(K B=2 K C)% và %(\\widehat{K A B}=2 \\widehat{K A C})%, điểm %(E\\left(3 ; \\frac{3 \\sqrt{3}}{2}\\right))% là trung điểm cạnh %(B C)%, điểm %(M\\left(\\frac{3}{2} ; \\frac{3 \\sqrt{3}}{2}\\right))% là hình chiếu của %(B)% lên đường thẳng %(A K)%. Biết rằng %(A)% nằm trên đường thẳng %(d: y=5 x)% và điểm %(I(0 ; 5))% thuộc đường thẳng chứa cạnh %(A C)%. Viết phương trình đường thẳng chứa cạnh %(B C)%.",
+        "question_images": [],
+        "solution": "Chứng minh %(\\mathrm{AC})% vuông góc với %(\\mathrm{EM})%.<br>Từ đó %(\\mathrm{AC}: \\mathrm{x}=0)% nên %(\\mathrm{A}(0,0))%. Và %(\\mathrm{C}(0 ; \\mathrm{y}))% nên %(B(6 ; 3 \\sqrt{3}-y))%<br>Do %(B M \\perp A M \\Rightarrow y=3 \\sqrt{3})% nên %(\\mathrm{B}(6 ; 0))% và %(\\mathrm{C}(0 ; 3 \\sqrt{3}))%<br>Ta được %(\\mathrm{BC}: 2 x+3 \\sqrt{3} y-18=0)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9acf9477da47215ab6352db0e8296d44.png\" srcset=\"https://docdn.giainhanh.io/media/test/cab991a67d508b1dc6b8a7107a41c032.png 159w, https://docdn.giainhanh.io/media/test/f9ba3f661f83dc5cd752a3e023ea320c.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình<br>\\[\\left\\{\\begin{array}{l}x^{3}+7 x^{2}+18 x+18=y^{3}-2 y^{2}+3 y \\\\(x+2)^{2}+y^{2}-3 y-9+3 \\sqrt{4 x+1}=\\sqrt{2} \\sqrt{x^{2}+x+y-1}(y+\\sqrt{4 x+1}-3)\\end{array}\\right. \\text {. }\\]",
+        "question_images": [],
+        "solution": "\\[\\left\\{\\begin{array}{l}x^{3}+7 x^{2}+18 x+18=y^{3}-2 y^{2}+3 y(1) \\\\(x+2)^{2}+y^{2}-3 y-9+3 \\sqrt{4 x+1}=\\sqrt{2} \\sqrt{x^{2}+x+y-1}(y+\\sqrt{4 x+1}-3)(2)\\end{array}\\right.\\]<br>Ta có %((1) \\Leftrightarrow x+2=y-1)%<br>Thế vào (2) ta được:<br>\\[\\begin{array}{l}2 x^{2}+4 x-5=(x+\\sqrt{4 x+1})\\left(\\sqrt{2 x^{2}+4 x+4}-3\\right) \\\\Leftrightarrow 2 x^{2}+4 x-5=(x+\\sqrt{4 x+1}) \\frac{\\left(\\sqrt{2 x^{2}+4 x+4}-9\\right)}{\\sqrt{2 x^{2}+4 x+4}+3}\\end{array}\\]<br>\\[\\begin{array}{l}\\Leftrightarrow\\left[\\begin{array}{l}2 x^{2}+4 x-5=0(3) \\x+\\sqrt{4 x+1}=\\sqrt{2 x^{2}+4 x+4}+3(4)\\end{array}\\right. \\\\(3) \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{-2+\\sqrt{14}}{2}(t / m) \\x=\\frac{-2-\\sqrt{14}}{2}(l)\\end{array}\\right.\\end{array}\\]<br>\\[\\text { (4) } \\Leftrightarrow x-3+\\sqrt{4 x+1}=\\sqrt{2 x^{2}+4 x+4} \\text {. }\\]<br>Do %(2 x^{2}+4 x+4\\gt 4 x+1 \\geq 0)% nên %(x>3)%.<br>Ta có<br>\\[\\begin{array}{l}(x-3)+\\sqrt{4 x-1} \\leq \\sqrt{2} \\sqrt{x^{2}-6 x+9+4 x+1}=\\sqrt{2\\left(x^{2}-2 x+10\\right)} \\\\lt \\sqrt{2\\left(x^{2}+2 x+2\\right)}\\end{array}\\]<br>nên (4) vô nghiệm.<br>Vậy %(S=\\left\\{\\frac{-2+\\sqrt{14}}{2} ; \\frac{4+\\sqrt{14}}{2}\\right\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 1.0,
+        "content": "Cho %(x, y, z\\gt 0)% và %(x+y+z=3)%. Chứng minh rằng:<br>\\[\\frac{x}{x^{2}+x+1+y z}+\\frac{y}{y^{2}+y+1+z x}+\\frac{z}{z^{2}+z+1+x y} \\leq \\frac{3}{4} .\\]",
+        "question_images": [],
+        "solution": "Ta có %(x^{2}+x+1 \\geq 3 x)% nên %(\\frac{x}{x^{2}+x+1+y z} \\leq \\frac{x}{3 x+y z})%. Từ đó<br>\\[V T \\leq \\frac{x}{3 x+y z}+\\frac{y}{3 y+z x}+\\frac{z}{3 z+x y}\\]<br>Đặt %(a=x+y, b=y+z, c=z+x)% nên %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là ba cạnh của một tam giác có %(\\mathrm{p}=3)%.<br>\\[\\begin{array}{l}V T=\\frac{p-b}{a c}+\\frac{p-c}{b a}+\\frac{p-a}{c b} \\\\frac{p-b}{a c}=\\frac{1}{6} \\frac{(a+b+c)(a+c-b)}{2 a c}=\\frac{1}{6}(1+\\cos B) \\text { nên } V T=\\frac{1}{6}(3+\\cos A+\\cos B+\\cos C)\\end{array}\\]<br>Mà %(\\cos \\mathrm{A}+\\cos \\mathrm{B}+\\cos \\mathrm{C} \\leq \\frac{3}{2})%suy ra %(V T \\leq \\frac{3}{4})%.<br>Dấu \" %(=)% \" xảy ra khi và chỉ khi %(\\mathrm{x}=\\mathrm{y}=\\mathrm{z}=1)%.",
+        "question_type": "essay"
+    }
+]

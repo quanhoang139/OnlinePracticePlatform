@@ -1,0 +1,73 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Chứng minh với mọi số %(n)% lẻ thì %(n^{2}+4 n+5)% không chia hết cho 8",
+        "question_images": [],
+        "solution": "%(\\mathrm{n}^{2}+4 \\mathrm{n}+5=(\\mathrm{n}+2)^{2}+1)%<br>Vì %(\\mathrm{n})% là số lẻ suy ra %(\\mathrm{n}+2=2 \\mathrm{k}+1)%, %(\\mathrm{k})% là số nguyên<br>Ta có %((n+2)^{2}+1=4 k^{2}+4 k+2)% không chia hết cho 4<br>Vậy %(n^{2}+4 n+5)% không chia hết cho 8",
+        "question_type": "essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Tìm nghiệm %((x ; y))% của phương trình %(x^{2}+2 y^{2}+3 x y+8=9 x+10 y)% với %(x, y)% thuộc N*.",
+        "question_images": [],
+        "solution": "%(x^{2}+2 y^{2}+3 x y+8=9 x+10 y)%%(\\lt =\\gt x^{2}+2 x y+x y+2 y^{2}-8(x+y)-(x+2 y)+8=0)%%(\\Leftrightarrow=>\\mathrm{x}(\\mathrm{x}+2 \\mathrm{y})+\\mathrm{y}(\\mathrm{x}+2 \\mathrm{y})-8(\\mathrm{x}+\\mathrm{y})-(\\mathrm{x}+2 \\mathrm{y})+8=0)%<br>%(\\Leftrightarrow=>(\\mathrm{x}+\\mathrm{y}-1)(\\mathrm{x}+2 \\mathrm{y})-8(\\mathrm{x}+\\mathrm{y}-1)=0)%%(\\lt =>(\\mathrm{x}+\\mathrm{y}-1)(\\mathrm{x}+2 \\mathrm{y}-8)=0(\\mathrm{a}))%<br>Với %(\\mathrm{x} \\geq 1, \\mathrm{y} \\geq 1)% (vì thuộc %(\\mathrm{N}^{*})% ) suy ra %(\\mathrm{x}+\\mathrm{y}-1 \\geq 1>0)%Do đó (a) %(\\lt =>\\mathrm{x}+2 \\mathrm{y}=8)%<br>Ta có %(2 \\mathrm{y} \\leq 8-1=7)%Nên %(\\mathrm{y} \\leq 7 / 2)%Mà y thuộc %(\\mathrm{N}^{*})% suy ra %(\\mathrm{y}=1 ; 2 ; 3)%<br>Lập bảng kết quả<br><br>Vậy tập hợp bộ số %((\\mathrm{x}, \\mathrm{y}))% thỏa mãn là %(\\{(6 ; 1),(4 ; 2),(2 ; 3)\\})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a4bcbd2d197d5801da7492e01d81d35d.png\" srcset=\"https://docdn.giainhanh.io/media/test/ca17e578927bde1b29974cde7fed8043.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho phương trình %(5 \\mathrm{x}^{2}+\\mathrm{mx}-28=0)% ( %(\\mathrm{m})% là tham số). Tìm các giá trị của %(\\mathrm{m})% để phương trình có 2 nghiệm phân biệt %(x_{1}, x_{2})% thỏa mãn điều kiện %(5 x_{1}+2 x_{2}=1)%.",
+        "question_images": [],
+        "solution": "%(5 x^{2}+m x-28=0)%%(\\Delta=\\mathrm{m}^{2}+560\\gt 0)% với mọi %(\\mathrm{m})%<br>Nên phương trình luôn có 2 nghiệm phân biệt %(x_{1}, x_{2})%.<br>Ta có: %(\\mathrm{x}_{1}+\\mathrm{x}_{2}=-\\mathrm{m} / 5)% (1)%(\\mathrm{x}_{1} \\mathrm{x}_{2}=-28 / 5(2))%%(5 \\mathrm{x}_{1}+2 \\mathrm{x}_{2}=1(3))%<br>Tù̀ (3) suy ra %(x_{2}=\\left(1-5 x_{1}\\right) / 2)% (4)<br>Thay (4) vào %((2))% suy ra %(5 x_{1}\\left(1-5 x_{1}\\right)=-56)%<br>\\[\\begin{array}{l}\\lt =>25 \\mathrm{x}_{1}^{2}-5 \\mathrm{x}_{1}-56=0 \\\\lt =>\\mathrm{x}_{1}=8 / 5 \\text { hoặc } \\mathrm{x}_{1}=-7 / 5 \\\\text { Với } \\mathrm{x}_{1}=8 / 5 \\rightarrow \\mathrm{x}_{2}=-7 / 2\\end{array}\\]<br>Thay vào (1) ta có %(8 / 5-7 / 2=-\\mathrm{m} / 5\\lt =>\\mathrm{m}=19 / 2)%<br>Với %(x_{1}=-7 / 5 \\rightarrow x_{2}=4 \\rightarrow-7 / 5+4=-\\mathrm{m} / 5)% suy ra %(\\mathrm{m}=-13)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho phương trình %(x^{4}-2(m-2) x^{2}+2 m-6=0)%. Tìm các giá trị của %(m)% sao cho phương trình có 4 nghiệm phân biệt.",
+        "question_images": [],
+        "solution": "%(x^{4}-2(m-2) x^{2}+2 m-6=0)%. (1)<br>Đặt %(t=x^{2}(t \\geq 0))%<br>\\[\\begin{array}{c}(1)\\lt =\\gt t^{2}-2(m-2) t+2 m-6=0(2) \\\\Delta^{\\prime}=(m-2)^{2}-(2 m-6)=m^{2}-6 m+10=(m-3)^{2}+1>0 \\text { với mọi m. }\\end{array}\\]<br>Phương trình (2) luôn có 2 nghiệm phân biệt.Úng với mỗi nghiệm %(\\mathrm{t}>0)% thì phương trình (1) có 2 nghiệm phân biệt.<br>Do đó, phương trình (1) có 4 nghiệm phân biệt khi chỉ khi phương trình (2) có hai nghiệm phân biệt dương.<br>\\[\\lt =>2 \\mathrm{~m}-6>0 \\text { và } 2(\\mathrm{~m}-2)>0\\lt =>\\mathrm{m}>3 \\text {. }\\]<br>Vậy %(\\mathrm{m}>3)% thỏa mãn yêu cầu.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c}\\gt 0)% và %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}=3)%. Chứng minh rằng %(\\mathrm{a}^{5}+\\mathrm{b}^{5}+\\mathrm{c}^{5}+\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c} \\geq 6)%",
+        "question_images": [],
+        "solution": "Cho %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c}\\gt 0)% và %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}=3)%.<br>Chứng minh rằng %(\\mathrm{a}^{5}+\\mathrm{b}^{5}+\\mathrm{c}^{5}+\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c} \\geq 6)%<br>Áp dụng bất đẳng thức cô si: %(\\mathrm{a}^{5}+1 / \\mathrm{a} \\geq 2 \\mathrm{a}^{2} ; \\mathrm{b}^{5}+1 / \\mathrm{b} \\geq \\mathrm{b}^{2} ; \\mathrm{c}^{5}+1 / \\mathrm{c} \\geq \\mathrm{c}^{2})%.<br>Suy ra %(\\mathrm{a}^{5}+\\mathrm{b}^{5}+\\mathrm{c}^{5}+\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c} \\geq 2\\left(a^{2}+b^{2}+c^{2}\\right))%<br>Mặt khác %(\\mathrm{a}^{2}+1 \\geq 2 \\mathrm{a} ; \\mathrm{b}^{2}+1 \\geq 2 \\mathrm{~b} ; \\mathrm{c}^{2}+1 \\geq 2 \\mathrm{c})%<br>Suy ra %(a^{2}+b^{2}+c^{2} \\geq 2 a+2 b+2 c-3=3)%Vậy đpcm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho đường tròn tâm %(\\mathrm{O})% có hai đường kính %(\\mathrm{AB})% và %(\\mathrm{MN})%. Vẽ tiêp tuyên d của đường tròn %((\\mathrm{O}))% tại %(\\mathrm{B})%. Đường thẳng %(\\mathrm{AM}, \\mathrm{AN})% lần lượt cắt đường thẳng %(\\mathrm{d})% tại %(\\mathrm{E})% và %(\\mathrm{F})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "Chứng minh rằng MNFE là tứ giác nội tiếp.",
+        "question_images": [],
+        "solution": "<img alt=\"ảnh 1.PNG\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/31158a8025bda1d4ac1221567d25e3bb.PNG\" srcset=\"https://docdn.giainhanh.io/media/test/8354fc2a3196ac217b96dfd352db3119.PNG 106w, https://docdn.giainhanh.io/media/test/f45588cf66bb57afe77b999ada268af5.PNG 340w\" width=\"340\"/><br>Tam giác %(A B E)% vuông tại %(B)% và %(B M)% vuông góc với %(A E)%<br>Nên ta có %(A M . A E=A B^{2})%<br>Tương tự %(\\mathrm{AN} . \\mathrm{AF}=\\mathrm{AB}^{2})%<br>Suy ra AM.AE = AN.AF<br>Hay %(\\mathrm{AM} / \\mathrm{AN}=\\mathrm{AE} / \\mathrm{AF})%<br>Xét %(\\triangle \\mathrm{AMN})% và %(\\triangle \\mathrm{AFE})% có góc MAN chung<br>Và %(\\mathrm{AM} / \\mathrm{AN}=\\mathrm{AF} / \\mathrm{AE})%Do đó %(\\triangle \\mathrm{AMN})% và %(\\triangle \\mathrm{AFE})% đồng dạng<br>Suy ra góc %(A M N=)% góc %(A F E)%.Mà góc %(\\mathrm{AMN}+)% góc %(\\mathrm{NME}=180^{\\circ})% (kề bù)<br>Nên góc AFE + góc NME %(=180^{\\circ})%<br>Vậy tứ giác MNFE nội tiếp đường tròn.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "Gọi %(\\mathrm{K})% là trung điểm của %(\\mathrm{FE})%. Chứng minh rằng %(\\mathrm{AK})% vuông góc với %(\\mathrm{MN})%.",
+        "question_images": [],
+        "solution": "Góc MAN %(=90^{\\circ})%Nên tam giác %(A E F)% vuông tại %(A)% suy ra %(A K=K B=K F)%<br>Do đó góc %(\\mathrm{KAF}=)% góc KFAMà góc %(\\mathrm{AMN}=)% góc KFA (cmt)<br>Suy ra góc %(\\mathrm{KAF}=)% góc %(\\mathrm{AMN})%Mà góc %(\\mathrm{AMN}+)% góc %(\\mathrm{ANM}=90^{\\circ})%<br>Suy ra góc KAF + góc %(A N M=90^{\\circ})%.<br>Vậy AK vuông góc với MN",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho tam giác %(\\mathrm{ABC})% vuông tại %(\\mathrm{A})%. Vẽ đường thẳng %(\\mathrm{d})% đi qua %(\\mathrm{A})% sao cho %(\\mathrm{d})% không cắt đoạn %(B C)%. Gọi %(H, K)% lần lượt là hình chiếu vuông góc của %(B)% và %(C)% trên %(d)%. Tìm giá trị lớn nhất của chu vi tứ giác %(\\mathrm{BHKC})%.",
+        "question_images": [],
+        "solution": "Ta có %(\\mathrm{BC}^{2}=\\mathrm{AB}^{2}+\\mathrm{AC}^{2}=\\mathrm{BH}^{2}+\\mathrm{AH}^{2}+\\mathrm{AK}^{2}+\\mathrm{CK}^{2})%<br>Ta cần chứng minh bất đẳng thức:<br>\\[(\\mathrm{ac}+\\mathrm{bd})^{2} \\leq\\left(\\mathrm{a}^{2}+\\mathrm{b}^{2}\\right)\\left(\\mathrm{c}^{2}+\\mathrm{d}^{2}\\right)(*)\\]<br>Ta có: %((*)\\lt =\\gt a^{2} c^{2}+2 a c b d+b^{2} d^{2} \\leq a^{2} c^{2}+a^{2} d^{2}+b^{2} c^{2}+b^{2} d^{2}\\lt =>a^{2} d^{2}-2 a b c d+b^{2} c^{2} \\geq)%%(0\\lt =>(\\mathrm{ad}-\\mathrm{bc})^{2} \\geq 0)% (đúng với mọi %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c}, \\mathrm{d})% )<br>Dấu bằng xảy ra %(\\mathrm{khi} \\mathrm{ad}=\\mathrm{bc})% hay %(\\mathrm{a} / \\mathrm{c}=\\mathrm{b} / \\mathrm{d})%<br>Áp dụng %(\\left(^{*}\\right))% ta được: %(2\\left(\\mathrm{BH}^{2}+\\mathrm{AH}^{2}\\right) \\geq(\\mathrm{BH}+\\mathrm{AH})^{2}(1))%<br>Tương tự ta có %(2\\left(\\mathrm{AK}^{2}+\\mathrm{CH}^{2}\\right) \\geq(\\mathrm{AK}+\\mathrm{CK})^{2}(2))%<br>Suy ra %(2 \\mathrm{BC}^{2} \\geq(\\mathrm{BH}+\\mathrm{AH})^{2}+(\\mathrm{AK}+\\mathrm{CK})^{2}(3))%<br>Đặt %(\\mathrm{BH}+\\mathrm{AH}=\\mathrm{m})%; đặt %(\\mathrm{AK}+\\mathrm{CK}=\\mathrm{n})%<br>Vì góc %(\\mathrm{CAK}+)% góc %(\\mathrm{BAH}=90^{\\circ})%; mà góc %(\\mathrm{BAH}+)% góc %(\\mathrm{ABH}=90^{\\circ})% nên góc %(\\mathrm{CAK}=)% góc %(\\mathrm{ABH})%<br>Dẫn đến tam giác %(\\mathrm{ABH})% đồng dạng với tam giác %(\\mathrm{CAK})%%(\\rightarrow \\mathrm{AH} / \\mathrm{CK}=\\mathrm{BH} / \\mathrm{AK}=\\mathrm{AB} / \\mathrm{AC}=(\\mathrm{AH}+\\mathrm{BH}) /(\\mathrm{CK}+\\mathrm{AK})=\\mathrm{m} / \\mathrm{n})%<br>Nên %(\\mathrm{AB}^{2} / \\mathrm{m}^{2}=\\mathrm{AC}^{2} / \\mathrm{n}^{2}=\\left(\\mathrm{AB}^{2}+\\mathrm{AC}^{2}\\right) /\\left(\\mathrm{m}^{2}+\\mathrm{n}^{2}\\right) \\geq \\mathrm{BC}^{2} /\\left(2 \\mathrm{BC}^{2}\\right)=1 / 2)%<br>Hay %(\\mathrm{m} \\leq A B \\sqrt{2})% và %(\\mathrm{n} \\leq A C \\sqrt{2})%<br>Chu vi tứ giác %(\\mathrm{BHKC})% là %(\\mathrm{BC}+\\mathrm{BH}+\\mathrm{AH}+\\mathrm{AK}+\\mathrm{KC}=\\mathrm{BC}+\\mathrm{m}+\\mathrm{n} \\leq \\mathrm{BC}+(\\mathrm{AB}+)%AC) %(\\sqrt{2})%<br>Vây chu vi %(B H K C)% lớn nhất là %(B C+(A B+A C) \\sqrt{2})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/48be14e747f1bcbed61e25c288cf0990.png\" srcset=\"https://docdn.giainhanh.io/media/test/63d377ce24f39e6c0bd271d8e92ab189.png 218w\" width=\"218\"/>",
+        "question_type": "essay"
+    }
+]

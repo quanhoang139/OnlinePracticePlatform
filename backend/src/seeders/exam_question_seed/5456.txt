@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1",
+        "group_content": "Tính",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(A=\\lim _{x \\rightarrow 2} \\frac{x^{3}-2 x^{2}}{x^{2}-4})%",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} A & =\\lim _{x \\rightarrow 2} \\frac{x^{3}-2 x^{2}}{x^{2}-4} \\\\ & =\\lim _{x \\rightarrow 2} \\frac{x^{2}(x-2)}{(x+2)(x-2)}==\\lim _{x \\rightarrow 2} \\frac{x^{2}}{x+2}=1 .\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(B=\\lim _{x \\rightarrow+\\infty}\\left(x-\\sqrt{x^{2}+2 x}\\right))%",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} B & =\\lim _{x \\rightarrow+\\infty}\\left(x-\\sqrt{x^{2}+2 x}\\right) \\\\ & =\\lim _{x \\rightarrow+\\infty} \\frac{x^{2}-\\left(x^{2}+2 x\\right)}{x+\\sqrt{x^{2}+2 x}}=\\lim _{x \\rightarrow+\\infty} \\frac{-2 x}{x\\left(1+\\sqrt{1+\\frac{2}{x}}\\right)}=\\lim _{x \\rightarrow+\\infty} \\frac{-2}{1+\\sqrt{1+\\frac{2}{x}}}=-1 .\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) %(C=\\lim _{x \\rightarrow 1^{-}}\\left[\\left(x^{2}-1\\right) \\cdot \\sqrt{\\frac{2-x}{x^{3}-2 x^{2}+x}}\\right])%.",
+        "question_images": [],
+        "solution": "%(C=\\lim _{x \\rightarrow 1^{-}}\\left[\\left(x^{2}-1\\right) \\sqrt{\\frac{2-x}{x^{3}-2 x^{2}+x}}\\right])%<br>\\[\\begin{array}{l}=\\lim _{x \\rightarrow 1^{-}}\\left[(x-1)(x+1) \\sqrt{\\frac{2-x}{x(x-1)^{2}}}\\right]=\\lim _{x \\rightarrow 1^{-}}\\left[(x-1)(x+1) \\frac{1}{1-x} \\sqrt{\\frac{2-x}{x}}\\right]=\\lim _{x \\rightarrow 1^{-}}\\left[-(x+1) \\sqrt{\\frac{2-x}{x}}\\right] \\\\=-2\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Xét tính liên tục của hàm số %(y=f(x)=\\left\\{\\begin{array}{ll}\\frac{5}{6}(x-1) \\quad, x \\leq 2 \\\\ \\frac{\\sqrt{5 x-1}-3}{x-2}, & x\\gt 2\\end{array}\\right.)% tại %(x_{o}=2)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}f(2)=\\frac{5}{6} ; \\lim _{x \\rightarrow 2^{-}} f(x)=\\lim _{x \\rightarrow 2^{-}} \\frac{5}{6}(x-1)=\\frac{5}{6} \\\\lim _{x \\rightarrow 2^{+}} f(x)=\\lim _{x \\rightarrow 2^{+}} \\frac{\\sqrt{5 x-1}-3}{x-2}=\\lim _{x \\rightarrow 2^{+}} \\frac{(5 x-1)-9}{(x-2)(\\sqrt{5 x-1}+3)}=\\lim _{x \\rightarrow 2^{+}} \\frac{5}{\\sqrt{5 x-1}+3}=\\frac{5}{6}\\end{array})%<br>Do %(\\lim _{x \\rightarrow 2^{-}} f(x)=\\lim _{x \\rightarrow 2^{+}} f(x)=f(2))% nên %(y=f(x))% liên tục tại %(x_{o}=2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho hàm số %(y=f(x)=\\sin \\left(x^{3}+\\sqrt{x}+\\frac{1}{x}\\right))%. Tính %(y^{\\prime})%.",
+        "question_images": [],
+        "solution": "%(y^{\\prime}=f^{\\prime}(x)=\\cos \\left(x^{3}+\\sqrt{x}+\\frac{1}{x}\\right) \\cdot\\left(x^{3}+\\sqrt{x}+\\frac{1}{x}\\right)^{\\prime}=\\cos \\left(x^{3}+\\sqrt{x}+\\frac{1}{x}\\right) \\cdot\\left(3 x^{2}+\\frac{1}{2 \\sqrt{x}}-\\frac{1}{x^{2}}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Cho hàm số %(y=f(x)=\\frac{3 x+4}{x+2})% có đồ thị %((H))%. Viết phương trình tiếp tuyến %((\\Delta))% của %((H))% biết %((\\Delta) \\perp(d): y=\\frac{-1}{2} x+1)%.",
+        "question_images": [],
+        "solution": "%(f^{\\prime}(x)=\\frac{2}{(x+2)^{2}})%<br>Gọi %(x_{0})% là hoành độ tiếp điểm.<br>Ycbt %(\\Leftrightarrow f^{\\prime}\\left(x_{0}\\right) \\cdot \\frac{-1}{2}=-1 \\Leftrightarrow f^{\\prime}\\left(x_{0}\\right)=2)%<br>%(\\Leftrightarrow \\frac{2}{\\left(x_{0}+2\\right)^{2}}=2 \\Leftrightarrow\\left(x_{0}+2\\right)^{2}=1 \\Leftrightarrow x_{0}=-3 \\vee x_{0}=-1)%<br>- %(x_{0}=-3 \\Rightarrow(\\Delta): y=2 x+11)%<br>- %(x_{0}=-1 \\Rightarrow(\\Delta): y=2 x+3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho hình chóp %(S . A B C D)% có đáy %(A B C D)% là hình chữ nhật, %(A D=a \\sqrt{8}, A B=3 a)%. Cạnh bên %(S A \\perp(A B C D), S A=a \\sqrt{3})%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng %(C D \\perp(S A D))%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/671e5471a50325385bb9d1417e93a803.png\" srcset=\"https://docdn.giainhanh.io/media/test/79775f7caa27c571fc21139146b5bccc.png 168w\" width=\"168\"/><br>%(\\left\\{\\begin{array}{l}C D \\perp A D \\\\ D C \\perp S A(d o S A \\perp(A B C D))\\end{array} \\Rightarrow C D \\perp(S A D)\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Vẽ %(B T \\perp A C(T \\in A C))%. Chứng minh rằng %((S B T) \\perp(S A C))%.",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}B T \\perp A C \\\\ B T \\perp S A(S A \\perp(A B C D))\\end{array} \\Rightarrow B T \\perp(S A C) \\Rightarrow(S B T) \\perp(S A C)\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Gọi %(I)% trung điểm của %(S A)%. Tính %(d(B ;(I C D)))%.",
+        "question_images": [],
+        "solution": "Vẽ %(A K \\perp I D(K \\in I D))%<br>Khi đó: %(\\left\\{\\begin{array}{l}A K \\perp I D \\\\ A K \\perp C D(\\text { do } C D \\perp(S A D))\\end{array} \\Rightarrow A K \\perp(I C D) \\Rightarrow d(A,(I C D))=A K\\right.)%.<br>%(A K=\\frac{A I \\cdot A D}{\\sqrt{A I^{2}+A D^{2}}}=a \\sqrt{\\frac{24}{35}})%.<br>Do %(A B / /(I C D))% nên %(d(B,(I C D))=d(A,(I C D))=a \\sqrt{\\frac{24}{35}})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 1.0,
+        "content": "d) Gọi %(M)% là điểm trên cạnh %(S B)% sao cho %(B M=3 S M, N)% là điểm trên cạnh %(C D)% sao cho %(D C=3 D N, P)% là trung điểm %(S N)%. Tính góc giữa đường thẳng %(M P)% và mặt phẳng %((S C D))%.",
+        "question_images": [],
+        "solution": "Ta có %(S B=B N=S N=a \\sqrt{12})% nên %(\\triangle S B N)% đều.<br>Suy ra %(M P=\\frac{1}{2} \\cdot a \\sqrt{12} \\cdot \\frac{\\sqrt{3}}{2}=\\frac{3 a}{2})%.<br>Trong %((S A D))%, dựng %(A H \\perp S D(H \\in S D))%.<br>Chứng minh và tính được:<br>%(d(A,(S C D))=A H=\\frac{S A \\cdot A D}{\\sqrt{S A^{2}+A D^{2}}}=a \\sqrt{\\frac{24}{11}})%<br>Chứng minh được:<br>%(d(M,(S C D))=\\frac{1}{4} d(B,(S C D))=\\frac{1}{4} d(A,(S C D))=\\frac{a \\sqrt{6}}{2 \\sqrt{11}})%<br>%(\\sin \\overline{(M P,(S C D))}=\\frac{d(M,(S C D))}{M P})%%(=\\sqrt{\\frac{2}{33}} \\Rightarrow(M P,(S C D))=\\arcsin \\sqrt{\\frac{2}{33}})%.",
+        "question_type": "essay"
+    }
+]

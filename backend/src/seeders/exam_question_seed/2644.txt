@@ -1,0 +1,103 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho phương trình %(\\mathrm{x}^{4}+\\mathrm{ax}^{3}+\\mathrm{x}^{2}+\\mathrm{ax}+1=0)%, a là tham số .",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "Giải phương trình với %(\\mathrm{a}=1)%.",
+        "question_images": [],
+        "solution": "Ta có phương trình : %(x^{4}+a x^{3}+x^{2}+a x+1=0)%<br>Khi %(a=1,(1) \\Leftrightarrow x^{4}+x^{3}+x^{2}+x+1=0)% (2)<br>Dễ thấy %(\\mathrm{x}=0)% không phải là nghiệm.<br>Chia 2 vế của (2) cho %(x^{2})% ta được: %(x^{2}+\\frac{1}{x^{2}}+x+\\frac{1}{x}+1=0 (3))%<br>Đặt %(t=x+\\frac{1}{x} \\Rightarrow|t|=\\left|x+\\frac{1}{x}\\right|=|x|+\\frac{1}{|x|} \\geq 2)% và %(x^{2}+\\frac{1}{x^{2}}=t^{2}-2)%.<br>Phương trình (3) viết lại là : %(\\mathrm{t}^{2}+\\mathrm{t}-1=0)%<br>Giải (3) ta được hai nghiệm %(t_{1}=\\frac{-1+\\sqrt{5}}{2})% và %(t_{2}=\\frac{-1-\\sqrt{5}}{2})% đều không thỏa điều kiện %(|\\mathrm{t}| \\geq 2)%. Vậy với %(\\mathrm{a}=1)%, phương trình đã cho vô nghiệm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "Trong trường hợp phương trình có nghiệm, chứng minh rằng %(\\mathrm{a}^{2}\\gt 2)%.",
+        "question_images": [],
+        "solution": "Vì %(x=0)% không phải là nghiệm của (1) nên ta cũng chia 2 vế cho %(x^{2})% ta có phương trình : %(x^{2}+\\frac{1}{x^{2}}+a\\left(x+\\frac{1}{x}\\right)+1=0)%.<br>Đặt %(t=x+\\frac{1}{x})%, phương trình sẽ là : %(t^{2}+a t-1=0(4))%.<br>Do phương trình đã cho có nghiệm nên (4) có nghiệm %(|t| \\geq 2)%. Từ 4) suy %(r a \\mathrm{a}=\\frac{1-\\mathrm{t}^{2}}{\\mathrm{t}})%.<br>Từ đó : %(\\mathrm{a}^{2}\\gt 2 \\Leftrightarrow \\frac{\\left(1-\\mathrm{t}^{2}\\right)^{2}}{\\mathrm{t}^{2}}>2 \\Leftrightarrow \\mathrm{t}^{2}\\left(\\mathrm{t}^{2}-4\\right)+1>0)% (5)<br>Vì %(|t| \\geq 2)% nên %(t^{2}>0)% và %(t^{2}-4 \\geq 0)%, do vậy (5) đúng, suy ra %(a^{2}>2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(\\sqrt{x+3}+\\sqrt{6-x}-\\sqrt{(x+3)(6-x)}=3)%.",
+        "question_images": [],
+        "solution": "\\[\\sqrt{x+3}+\\sqrt{6-x}-\\sqrt{(x+3)(6-x)}=3(1)\\]<br>Điều kiện : %(\\left\\{\\begin{array}{l}x+3 \\geq 0 \\\\ 6-x \\geq 0\\end{array} \\Leftrightarrow-3 \\leq x \\leq 6\\right.)%.<br>Đặt :<br>\\[\\left\\{\\begin{array}{l}u=\\sqrt{\\mathrm{x}+3} \\\\mathrm{v}=\\sqrt{6-\\mathrm{x}}\\end{array}, u, v \\geq 0 \\Rightarrow u^{2}+v^{2}=9 .\\right.\\]<br>Phương trình đã có trở thành hệ :<br>\\[\\left\\{\\begin{array} { l } { u ^ { 2 } + v ^ { 2 } = 9 } \\\\{ u + v - u v = 3 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{ll}(u+v)^{2}-2 u v & =9 \\u+v & =3+u v\\end{array}\\right.\\right.\\]<br>Suy ra :<br>\\[\\begin{aligned}(3+u v)^{2}-2 u v=9 & \\Leftrightarrow\\left[\\begin{array} { l } { u v = 0 } \\\\{ u v = - 4 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}u=0 \\v=0\\end{array}\\right.\\right. \\\\& \\Leftrightarrow\\left[\\begin{array} { l } { \\sqrt { x + 3 } = 0 } \\\\{ \\sqrt { 6 - x } = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=-3 \\x=6\\end{array} .\\right.\\right.\\end{aligned}\\]<br>Vậy phương trình có nghiệm là %(\\mathrm{x}=-3, \\mathrm{x}=6)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{ll}x+y+z & =1 \\\\ 2 x+2 y-2 x y+z^{2} & =1\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Ta có hệ phương trình:<br>%(\\left\\{\\begin{array}{l}x+y+z=1 \\\\ 2 x+2 y-2 x y+z^{2}=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x+y=1-z \\\\ 2 x y=z^{2}+2(x+y)-1\\end{array}\\right.\\right.)%<br>\\[\\begin{array}{l}\\Leftrightarrow\\left\\{\\begin{array}{l}x+y=1-z \\\\2 x y=z^{2}-2 z+1=(1-z)^{2}\\end{array}\\right. \\\\Leftrightarrow 2 x y=(x+y)^{2} \\\\Leftrightarrow x^{2}+y^{2}=0 \\Leftrightarrow x=y=0 \\Rightarrow z=1 .\\end{array}\\]<br>Vậy hệ phương trình chỉ có 1 cặp nghiệm duy nhất: %((x ; y ; z)=)% (0; 0; 1)",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 3.0,
+        "content": "Tìm tất cả các số nguyên %(x, y, z)% thỏa mãn :<br>\\[3 x^{2}+6 y^{2}+2 z^{2}+3 y^{2} z^{2}-18 x=6\\]",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{aligned}& 3 x^{2}+6 y^{2}+2 z^{2}+3 y^{2} z^{2}-18 x=6(1) \\\\Leftrightarrow & 3(x-3)^{2}+6 y^{2}+2 z^{2}+3 y^{2} z^{2}=33(2)\\end{aligned}\\]<br>Suy ra : %(z^{2} \\vdots 3)% và %(2 z^{2} \\leq 33)%<br>Hay %(|z| \\leq 3)%.<br>Vì z nguyên suy ra %(z=0)% hoặc %(|z|=3)%.<br>a) %(\\mathrm{z}=0,(2) \\Leftrightarrow(\\mathrm{x}-3)^{2}+2 \\mathrm{y}^{2}=11)%(3)<br>Từ (3) suy ra %(2 \\mathrm{y}^{2} \\leq 11 \\Rightarrow|\\mathrm{y}| \\leq 2)%.<br>Với %(\\mathrm{y}=0,(3))% không có số nguyên %(\\mathrm{x})% nào thỏa mãn.<br>Với %(|y|=1)%, từ (3) suy ra %(x \\in\\{0 ; 6\\})%.<br>b) %(|z|=3,(2) \\Leftrightarrow(x-3)^{2}+11 y^{2}=5)% (4)<br>Từ (4) %(\\Rightarrow 11 y^{2} \\leq 5 \\Rightarrow y=0)%, (4) không có số nguyên %(x)% nào thỏa mãn.<br>Vậy phương trình (1) có 4 nghiệm nguyên %((x ; y ; z))% là %((0 ; 1 ; 0))%; %((0 ;-1 ; 0) ;(6 ; 1 ; 0))% và %((6 ;-1 ; 0))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho %(\\mathrm{x}, \\mathrm{y}, \\mathrm{z}, \\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là các số dương.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "Chứng minh rằng:<br>\\[\\sqrt[3]{a b c}+\\sqrt[3]{x y z} \\leq \\sqrt[3]{(a+x)(b+y)(c+z)}\\]",
+        "question_images": [],
+        "solution": "\\[\\sqrt[3]{a b c}+\\sqrt[3]{x y z} \\leq \\sqrt[3]{(a+x)(b+y)(c+z)}(1)\\]<br>Lập phương 2 vế của (1) ta được :<br>\\[\\begin{array}{rl}\\quad a b c+x y z & 3 \\sqrt[3]{(a b c)^{2} x y z}+3 \\sqrt[3]{a b c(x y z)^{2}} \\leq(a+x)(b+y)(c+z) \\\\Leftrightarrow & a b c+x y z+3 \\sqrt[3]{(a b c)^{2} x y z}+3 \\sqrt[3]{a b c(x y z)^{2}} \\leq\\end{array}\\]<br>%(a b c+x y z+a b z+a y c+a y z+x b c+x y c+x b z)%<br>\\[\\Leftrightarrow 3 \\sqrt[3]{(a b c)^{2} x y z}+3 \\sqrt[3]{a b c(x y z)^{2}} \\leq(a b z+a y c+x b c)+(a y z+x b z+x y c)(2)\\]<br>Theo bất đẳng thức Cauchy, ta có :<br>\\[\\begin{array}{l}(a b z+a y c+x b c) \\geq 3 \\sqrt[3]{(a b c)^{2} x y z}(3) \\\\(a y z+x b z+x y c) \\geq 3 \\sqrt[3]{a b c(x y z)^{2}}(4)\\end{array}\\]<br>Cộng hai bất đẳng thức (3) và (4) ta được bất đẳng thức (2), do đó (1) được chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Từ đó suy ra : %(\\sqrt[3]{3+\\sqrt[3]{3}}+\\sqrt[3]{3-\\sqrt[3]{3}} \\leq 2 \\sqrt[3]{3})%",
+        "question_images": [],
+        "solution": "Áp dụng BĐT (1) với %(a = 3 + \\sqrt[3]{3} , b = 1 , c = 1 , x = 3 - \\sqrt[3]{3} , y = 1 , z = 1)%<br>Ta có %(: a b c = 3 + \\sqrt[3]{3} , x y z = 3 - \\sqrt[3]{3} , a + x = 6 , b + y = 2 , c + z = 2)%<br>Từ đó : %(\\sqrt[3]{3 + \\sqrt[3]{3}} + \\sqrt[3]{3 - \\sqrt[3]{3}} \\le \\sqrt[3]{6.2 \\cdot 2} = 2 \\sqrt[3]{3})% (đpcm).",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình vuông %(\\mathrm{ABCD})% và tứ giác %(\\mathrm{MNPQ})% có bốn đỉnh thuộc bốn cạnh %(\\mathrm{AB}, \\mathrm{BC})%, %(\\mathrm{CD})%, DA của hình vuông.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "Chứng minh rằng %(S_{A B C D} \\le \\frac{A C}{4} \\left( M N + N P + P Q + Q M \\right ))%.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{I}, \\mathrm{J}, \\mathrm{K})% lần lượt là trung điểm của QN, MN, PQ.<br>Khi đó :%(\\mathrm{BJ}=\\frac{\\mathrm{MN}}{2})% (trung tuyến %(\\Delta)% vuông MBN)<br>Tương tự %(\\mathrm{DK}=\\frac{\\mathrm{PQ}}{2})%.<br>%(\\mathrm{IJ}=\\frac{\\mathrm{QM}}{2}(\\mathrm{IJ})% là đtb %(\\Delta \\mathrm{MNQ}))%.<br>Tương tự %(\\mathrm{IK}=\\frac{\\mathrm{PN}}{2})%.<br>Vì %(\\mathrm{BD} \\leq \\mathrm{BJ}+\\mathrm{JI}+\\mathrm{IK}+\\mathrm{KD})%.<br>Dođó:<br>\\[\\mathrm{S}_{\\mathrm{ABCD}}=\\frac{\\mathrm{AC}}{2} \\cdot \\mathrm{BD} \\leq \\frac{\\mathrm{AC}}{2}(\\mathrm{BJ}+\\mathrm{JI}+\\mathrm{IK}+\\mathrm{KD})=\\frac{\\mathrm{AC}}{4}(\\mathrm{MN}+\\mathrm{NP}+\\mathrm{PQ}+\\mathrm{QM})\\]<br><img alt=\"https://docdn.giainhanh.io/media/test/c0df336858454729b2d560af8216d5c7.png\" src=\"https://docdn.giainhanh.io/media/test/c0df336858454729b2d560af8216d5c7.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Xác định vị trí của %(\\mathrm{M}, \\mathrm{N}, \\mathrm{P}, \\mathrm{Q})% để chu vi tứ giác %(\\mathrm{MNPQ})% nhỏ nhất.",
+        "question_images": [],
+        "solution": "Chu vi tứ giác MNPQ là :<br>\\[\\begin{aligned}\\mathrm{MN}+\\mathrm{NP}+\\mathrm{PQ}+\\mathrm{QM} & =2 \\mathrm{BJ}+2 \\mathrm{IK}+2 \\mathrm{DK}+2 \\mathrm{IJ} \\\\& =2(\\mathrm{BJ}+\\mathrm{JI}+\\mathrm{IK}+\\mathrm{KD}) \\geq 2 \\mathrm{BD}(\\mathrm{cmt})\\end{aligned}\\]<br>Dấu bằng xảy ra khi đường gấp khúc trùng với %(\\mathrm{BD})%, tức là %(\\mathrm{MQ})% %(/ / \\mathrm{NP}, \\mathrm{MN} / / \\mathrm{PQ}, \\mathrm{MN}=\\mathrm{PQ})% (vì cùng là cạnh huyền 2 tam giác vuông cân bằng nhau), lúc đó MNPQ là hình chữ nhật.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 3.0,
+        "content": "Cho đường tròn %((\\mathrm{O}))% nội tiếp hình vuông %(\\mathrm{PQRS})%. %(\\mathrm{OA})% và %(\\mathrm{OB})% là hai bán kính thay đổi vuông góc với nhau. Qua %(\\mathrm{A})% kẻ đường thẳng %(\\mathrm{Ax})% song song với đường thẳng %(\\mathrm{PQ})%, qua %(\\mathrm{B})% kẻ đường thẳng By song song với đường thẳng %(\\mathrm{SP})%. Tìm quỹ tích giao điểm %(M)% của %(A x)% và %(B y)%.",
+        "question_images": [],
+        "solution": "Kí hiệu như hình vẽ.<br>Phần thuận :%(\\mathrm{AOB}=\\mathrm{AMB}=90^{\\circ} \\quad)% (giả thiết)<br>%(\\Rightarrow)% tứ giác %(\\mathrm{AOBM})% luôn nội tiếp<br>%(\\Rightarrow \\mathrm{AMO}=\\mathrm{ABO}=45^{\\circ})% (vì %(\\triangle \\mathrm{AOB})%vuông cân tại %(O)% )<br>Suy ra %(\\mathrm{M})% luôn nằm trên đường thẳng đi qua %(\\mathrm{O})% và tạo với đường PQ một góc %(45^{\\circ})%.<br>Trường hợp %(\\mathrm{B})% ở vị trí %(\\mathrm{B})% ' thì %(\\mathrm{M})% ' nằm trên đường thẳng đi qua %(\\mathrm{O})% và tạo với PS một góc %(45^{\\circ})%.<br>Giới hạn:<br>*) Khi %(\\mathrm{A} \\equiv \\mathrm{H})% thì %(\\mathrm{M} \\equiv \\mathrm{Q})%, khi %(\\mathrm{A} \\equiv \\mathrm{K})% thì %(\\mathrm{M} \\equiv \\mathrm{S})%<br>*) Trường hợp %(\\mathrm{B})% ở vị trí %(\\mathrm{B}^{\\prime})% : khi %(\\mathrm{A} \\equiv \\mathrm{H})% thì %(\\mathrm{M}^{\\prime} \\equiv \\mathrm{P})%, khi %(\\mathrm{A} \\equiv \\mathrm{K})% thì %(\\mathrm{M}^{\\prime} \\equiv \\mathrm{R})%<br>Phần đảo: Lấy %(\\mathrm{M})% bất kì trên đường chéo %(\\mathrm{SQ})% (hoặc %(\\mathrm{M}^{\\prime})% trên %(\\mathrm{PR})% ), qua %(\\mathrm{M})% kẻ đường thẳng song song với đường thẳng %(\\mathrm{PQ})% cắt %((\\mathrm{O}))% tại A. Kẻ bán kính %(\\mathrm{OB} \\perp \\mathrm{OA})%.<br>Ta thấy tứ giác %(\\mathrm{AOBM})% nội tiếp (vì %(\\mathrm{AMO}=\\mathrm{ABO}=45^{\\circ})% )<br>Suy ra: %(\\mathrm{AMB}=\\mathrm{AOB}=90^{\\circ})%.<br>Mà %(\\mathrm{AM} / / \\mathrm{PQ}, \\mathrm{PQ} \\perp \\mathrm{PS} \\Rightarrow \\mathrm{MB} / / \\mathrm{PS})%.<br>Kết luận:Quỹ tích giao điểm %(\\mathrm{M})% là 2 đường chéo của hình vuông PQRS.<br><img alt=\"https://docdn.giainhanh.io/media/test/b30e29924c8e3848ff238c7798012097.png\" src=\"https://docdn.giainhanh.io/media/test/b30e29924c8e3848ff238c7798012097.png\"/>",
+        "question_type": "essay"
+    }
+]

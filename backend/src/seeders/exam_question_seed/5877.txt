@@ -1,0 +1,26 @@
+[
+    {
+        "title": "I ",
+        "point": 6.0,
+        "content": "Một bàn cờ có %(n)% hàng và %(\\mathrm{m})% cột. Ô vuông dưới cùng bên trái có tọa độ là %((0)%, %(0))% và ô trên cùng bên phải là %((\\mathrm{n}-1, \\mathrm{~m}-1))%. Các ô trên bàn cờ có màu xanh lá cây hoặc màu đỏ<br>Ta muốn vẽ một đường đi theo các bước di chuyển từ ô dưới cùng bên trái sang ô trên cùng bên phải, theo quy luật sau<br>Nếu ô đang xét ở tọa độ %((\\mathrm{x}, \\mathrm{y}))%, thì ô tiếp theo chỉ có thể là các ô %((\\mathrm{x}+1)%, %(\\mathrm{y}),(\\mathrm{x}+1 ; \\mathrm{y}+1))% hoặc %((\\mathrm{x} ; \\mathrm{y}+1) ;)% miễn là tọa độ ô vẫn ở trên bàn cờ<br>Các bước di chuyển thứ tự lẻ (bước di chuyển đầu tiên, thứ ba, thứ %(5, \\ldots)% ) đi qua các ô vuông khác màu với ô %((0,0))%. Bước di chuyển thứ tự chẵn qua các ô cùng màu với ô %((0,0))%<br>Yêu cầu: Cho một bàn cờ như mô tả, hãy viết chương trình xác định có thể vẽ một đường di theo quy luật trên<br>Dữ liệu vào: cho trong file CHESS.INP. Số đầu tiên là %(n ; n)% hàng tiếp theo gồm %(\\mathrm{n})% chuỗi, mỗi chuỗi có %(\\mathrm{m})% ký tự %((1 \\leq \\mathrm{n}, \\mathrm{m} \\leq 200))%. Mỗi ký tự biểu diễn màu một ô trong bàn cờ. %(\\mathrm{Ký})% tự \" %(G)% \" biểu diễn màu xanh, ký tự \" %(R)% \" biểu diễn màu đỏ.<br>Dữ liệu ra ghi vào file CHESS.OUT, nếu có một đường đi theo quy luật thì ghi giá trị là \"TRUE\" ngược lại ghi giá trị \"FALSE\".<br>Ví dụ:<br>CHESS.INP                         CHES.OUT<br>GGG                                     TRUE<br>RRG<br>GGG",
+        "question_images": [],
+        "solution": "Khai báo dữ liệu đúng với giới hạn, đúng yêu cầu thuật toán.Đọc/ghi dữ liệu đúng phương pháp chương trình cho kết quả đúng với các file test do tổ giám khảo chọn.<br>Thuật toán (gợi ý):<br>Có thể đọc dữ liệu vào đồ thị và dùng %(D F S)% để duyệt tìm đuờng đi hoặc duyệt đệ quy để tìm một đường đi phù hợp yêu cầu.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 6.0,
+        "content": "Nam được thưởng trước %(\\mathrm{M})% điềm đề chơi trò chợ ném banh vào rổ<br>Quy định của chủ trò chơi hơi lạ: mỗi lần ném người chơi bị trừ 1 điểm, nếu bị trừ đến còn 0 điểm thì kết thúc trò chơi. Có %(\\mathrm{N})% rồ để ném, rổ thứ %(\\mathrm{i})% đang có %(\\mathrm{A}_{\\mathrm{i}})% banh, nếu ném trúng vào rổ i đến đủ số banh là %(\\mathrm{B}_{\\mathrm{i}})% thì rổ đầy; lúc đó người chơi được thường %(\\mathrm{B}_{\\mathrm{i}})% điểm<br>Yêu cầu: hãy tính số điểm tối đa mà Nam sẽ có được<br>Dữ liệu vào vào từ file văn bản GAMES.INP<br>Dòng đầu tiên chứa 2 số nguyên %(\\mathbf{N})% và %(\\mathbf{M}(1 \\leq N \\leq 100000,0 \\leq M \\leq)% 1000),<br>Dòng thứ 2 chứa %(N)% số %(A_{1}, A_{2}, \\ldots, A_{n}\\left(0 \\leq A_{i} \\leq 1000, \\boldsymbol{i}=1 . . N\\right))%,- Dòng thứ 3 chứa %(N)% số %(B_{1}, B_{2}, \\ldots, B_{n}\\left(A_{i}\\lt B_{i} \\leq 1000, i=1 . . N\\right))%<br>Vi du:    GAMES.INP                          GAMES.OUT<br>23                                                  6<br>1 2<br>4 6",
+        "question_images": [],
+        "solution": "Khai báo dữ liệu đúng với giới hạn, đúng yêu cầu thuật toán.Đọc/ghi dữ liệu đúng phương pháp Chương trình cho kết quả đúng với các file test do tổ giám khảo chọn.<br>Thuật toán (gợi ý):<br>Sắp xếp mảng %(A, B)% theo thứ tự tăng dần; duyệt qua từng cặp phần tư, nếu tổng điểm hiện tại %(\\geq(B i-A i))% thì tích lũy thêm điểm bằng cách cộng thêm Ai vào tổng điểm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 8.0,
+        "content": "Cây khế nhà Khánh rất sai quả nên có một con chim to to đến ăn. Ăn xong, chim chở Khánh ra đảo để trả công bằng vàng. Đảo có %(\\mathrm{N})% thỏi vàng với trọng lượng, giá trị khác nhau. Vì là mỏ vàng có lẫn tập chất nên giá trị không nhất thiết tỷ lệ thuận với trọng lượng<br>Anh ấy muốn chuyền thật nhiều vàng có giá trị về nhà, nên Khánh đem theo một cái túi ba mươi gang thật to. Nhưng vì phải giới hạn trọng lượng nên chưa chắc lấy hết mỏ vàng này. Khổ quá đi! Lấy thỏi nào, bỏ thỏi nào bây giờ ? Các bạn giúp anh ấy tìm ra một cách chọn vàng để thu được giá trị lớn nhất mà vẫn không vượt quá trọng lượng tối đa để có thể trở về<br>Dữ liệu vào trong file văn bản CAYKHE.INP<br>Dòng 1: Chứa 2 số nguyên: số thỏi vàng %(\\mathrm{N}(1 \\leq \\mathrm{N} \\leq 40))% và tải trọng tối đa của túi %(\\mathrm{M}\\left(1 \\leq \\mathrm{M} \\leq 10^{9}\\right))%<br>%(\\mathrm{N})% dòng sau: Mỗi dòng chứa 2 số nguyên: trọng lượng %(\\mathrm{W}_{\\mathrm{i}})% và giá trị %(\\mathrm{V}_{\\mathrm{i}})% của thöi vàng thứ %(\\mathrm{i}\\left(1 \\leq \\mathrm{W}_{\\mathrm{i}}, \\mathrm{V}_{\\mathrm{i}} \\leq 10^{8} ; 1 \\leq \\mathrm{i} \\leq \\mathrm{n}\\right))%<br>Dữ liệu ra ghi vào file văn bản CAYKHE.OUT<br>Hàng đầu tiên là là giá trị lớn nhất thu được, hàng tiếp theo ghi thứ tự i các thỏi vàng sẽ lấy (theo thứ tự gốc của dữ liệu vào)<br>Ví dụ: CAYKHE.INP   CAYKHE.OUT<br>3 4          1 0<br>1 4          1 3<br>25<br>36",
+        "question_images": [],
+        "solution": "Khai báo dữ liệu đúng với giới hạn, đúng yêu cầu thuật toán<br>Đọc/ghi dữ liệu đúng phương pháp.Chương trình cho kết quả đúng với các file test do tổ giám khảo chọn<br>Thuật toán (gơi ý):Sử dụng quy hoạch động (tuơng tụ bài toán sắp balo) để giải bài toán.",
+        "question_type": "essay"
+    }
+]

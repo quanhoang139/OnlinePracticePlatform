@@ -1,0 +1,89 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 2.0,
+        "content": "Tìm %(m)% để hàm số %(y=\\frac{\\cos x}{\\sqrt{3 \\sin 5 x-4 \\cos 5 x-2 m+3}})% có tập xác định là %(\\mathbb{R})%.",
+        "question_images": [],
+        "solution": "Hàm số có tập xác định là %(\\mathbb{R})% khi và chỉ khi %(f(x)=3 \\sin 5 x-4 \\cos 5 x-2 m+3\\gt 0, \\forall x \\in \\mathbb{R})%.<br>Ta có: %(f(x)>0, \\forall x \\in \\mathbb{R} \\Leftrightarrow \\frac{3}{5} \\sin 5 x-\\frac{4}{5} \\cos 5 x>\\frac{2 m-3}{5}, \\forall x \\in \\mathbb{R})%.<br>%(\\Leftrightarrow \\sin (5 x-\\varphi)\\gt \\frac{2 m-3}{5}, \\forall x \\in \\mathbb{R})% với %(\\left\\{\\begin{array}{l}\\cos \\varphi=\\frac{3}{5} \\\\ \\sin \\varphi=\\frac{4}{5}\\end{array}\\right.)%<br>Do %(-1 \\leq \\sin (5 x-\\varphi) \\leq 1, \\forall x \\in \\mathbb{R})% nên %(f(x)\\gt 0, \\forall x \\in \\mathbb{R} \\Leftrightarrow \\frac{2 m-3}{5}\\lt -1 \\Leftrightarrow m\\lt -1)%.<br>Vậy %(m\\lt -1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(\\cos 2 x-\\tan ^{2} x=\\frac{\\cos ^{2} x-\\cos ^{3} x-1}{\\cos ^{2} x})%",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\neq \\frac{\\pi}{2}+l \\pi \\quad(l \\in \\mathbb{Z}))%Suy ra (1) %(\\Leftrightarrow \\cos 2 x-\\tan ^{2} x=1-\\cos x-\\left(1+\\tan ^{2} x\\right))%<br>\\[\\Leftrightarrow \\cos 2 x=-\\cos x \\Leftrightarrow 2 \\cos ^{2} x+\\cos x-1=0 \\Leftrightarrow\\left[\\begin{array}{l}\\cos x=-1 \\\\cos x=\\frac{1}{2}\\end{array}\\right.\\]<br>\\[\\begin{array}{l}\\cos x=-1 \\Leftrightarrow x=\\pi+k 2 \\pi(k \\in \\mathbb{Z}) \\\\cos x=\\frac{1}{2} \\Leftrightarrow x= \\pm \\frac{\\pi}{3}+k 2 \\pi(k \\in \\mathbb{Z})\\end{array}\\]<br>Kết hợp với điều kiện, phương trình đã cho có nghiệm %(x=\\pi+k 2 \\pi)%,<br>\\[x= \\pm \\frac{\\pi}{3}+k 2 \\pi(k \\in \\mathbb{Z})\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.0,
+        "content": "Xung quanh bờ ao của gia đình bác Nam trồng 20 cây chuối. Do không còn phù hợp bác muốn thay thế để trồng bưởi, lần đầu bác chặt ngẫu nhiên 4 cây. Tính xác suất để trong 4 cây bác Nam chặt không có hai cây nào gần nhau.",
+        "question_images": [],
+        "solution": "Số phần tử của không gian mẫu là %(n(\\Omega)=C_{20}^{4}=4845)%<br>Trường hợp 1: Cả 4 cây được chặt ở gần nhau có 20 cách<br>Trường hợp 2: Trong 4 được chặt có đúng 3 cây gần nhau<br>- Chặt 3 cây gần nhau có 20 cách<br>- Mỗi 3 cây gần nhau có 15 cây không gần 3 cây đó. Vậy trường hợp này có:%(20 \\times 15=300)% cách<br>Trường hợp 3: Trong 4 cây được chặt có đúng 2 cây gần nhau:<br>- Chặt đúng 2 cây ở gần nhau có 20 cách<br>- Với mỗi 2 cây gần nhau có 16 cây không ở gần hai cây này. Trong 16 cây lại có 15 cặp cây gần nhau. Chọn hai cây không gần nhau trong 16 cây có: %(C_{16}^{2}-15=105)%<br>Vậy trường hợp này có: %(20.105=2100)% cách<br>Trường hợp 4: Trong 4 cây được chặt có đúng hai cặp cây gần nhau<br>- Chọn một cặp cây gần nhau có 20 cách<br>- Mỗi cách chọn một cặp cây gần nhau lại có 15 cặp cây gần nhau được chọn từ 16 cây.<br>Vậy trường hợp này có %(\\frac{20.15}{2}=150)% cách<br>Vậy %(n(A)=4845-(20+300+2100+150)=2275)%<br>Suy ra: %(P(A)=\\frac{2275}{4845}=\\frac{455}{969})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 2.0,
+        "content": "Cho %(n)% là số nguyên dương thỏa mãn %(C_{n+4}^{n+1}-C_{n+3}^{n}=4(n+2))%. Tìm hệ số của %(x^{5})% trong khai triển nhị thức Niu - tơn của %(P=x(1-2 x)^{n}+x^{2}(1+3 x)^{2 n})%.",
+        "question_images": [],
+        "solution": "ĐK: %(n)% nguyên dương, ta có %(C_{n+4}^{n+1}-C_{n+3}^{n}=4(n+2))% tương đương với<br>\\[\\begin{array}{l}\\frac{(n+4)!}{(n+1)!\\cdot 3!}-\\frac{(n+3)!}{n!\\cdot 3!}=4(n+2) \\Leftrightarrow \\frac{(n+4)(n+3)}{6}-\\frac{(n+3)(n+1)}{6}=4 \\\\Leftrightarrow 3 n=15 \\Leftrightarrow n=5 . \\\\text { Với } n=5, \\text { ta có } P=x(1-2 x)^{5}+x^{2}(1+3 x)^{10}\\end{array}\\]<br>Xét khai triển: %(x(1-2 x)^{5}=x \\sum_{k=0}^{5} C_{5}^{k}(-2 x)^{k})%, suy ra hệ số chứa %(x^{5})% ứng với %(k=4)% và ta có %(a_{5}=C_{5}^{4}(-2)^{4}=80)%<br>Xét khai triển: %(x^{2}(1+3 x)^{10}=x^{2} \\sum_{m=0}^{10} C_{10}^{k}(3 x)^{m})%, suy ra hệ số chứa %(x^{5})% ứng với %(m=3)% và ta có %(a_{5}=C_{10}^{3} \\cdot 3^{3}=3240)%.<br>Vậy hệ số của %(x^{5})% trong khai triển là: %(a_{5}=80+3240=3320)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 2.0,
+        "content": "Câu 4 (2,0 điểm). Cho dãy số %(\\left(u_{n}\\right))% được xác định bởi:<br>\\[u_{1}=\\frac{1}{3}, u_{n+1}=\\frac{n+1}{n} u_{n}-\\frac{(n+1)(2 n+1)}{\\left[(n+1)^{2}+2\\right]\\left(n^{2}+2\\right)} ; n \\in \\mathbb{N}^{*} \\text .\\]<br>Tính %(\\lim \\frac{2021 n u_{n}}{2020})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\frac{u_{n+1}}{n+1}=\\frac{u_{n}}{n}-\\frac{(2 n+1)}{\\left[(n+1)^{2}+2\\right]\\left(n^{2}+2\\right)} \\\\ \\Leftrightarrow \\frac{u_{n+1}}{n+1}=\\frac{u_{n}}{n}-\\left[\\frac{1}{\\left(n^{2}+2\\right)}-\\frac{1}{\\left[(n+1)^{2}+2\\right]}\\right] \\\\ \\Leftrightarrow \\frac{u_{n+1}}{n+1}-\\frac{1}{\\left[(n+1)^{2}+2\\right]}=\\frac{u_{n}}{n}-\\frac{1}{\\left(n^{2}+2\\right)}\\end{array})%<br>Đặt: %(v_{n}=\\frac{u_{n}}{n}-\\frac{1}{\\left(n^{2}+2\\right)}, n \\in \\mathrm{N}^{*})%. Ta có %(v_{1}=0)% và %(v_{n+1}=v_{n}, \\forall n \\geq 1)%.<br>Suy ra %(v_{n}=0)%<br>%(\\begin{array}{l}\\frac{u_{n}}{n}-\\frac{1}{\\left(n^{2}+2\\right)}=0 \\Leftrightarrow u_{n}=\\frac{n}{n^{2}+2}, n \\in \\mathrm{N}^{*} \\\\ \\Rightarrow u_{n}=\\frac{n}{n^{2}+2}\\end{array})%<br>Suy ra %(\\lim \\frac{2021 n u_{n}}{2020}=\\lim \\left(\\frac{2021 n}{2020} \\cdot \\frac{n}{n^{2}+2}\\right)=\\frac{2021}{2020})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 2.0,
+        "content": "Giải bất phương trình %(\\frac{1+2 \\sqrt{x}-2 \\sqrt{x^{2}+3 x+1}}{1-2 \\sqrt{x^{2}-x+1}}\\gt 1)%.",
+        "question_images": [],
+        "solution": "Điều kiện %(\\quad x \\geq 0)%<br>Ta có %(2 \\sqrt{x^{2}-x+1}=2 \\sqrt{\\left(x-\\frac{1}{2}\\right)^{2}+\\frac{3}{4}} \\geq \\sqrt{3}\\gt 1)% nên %(1-2 \\sqrt{x^{2}-x+1}\\lt 0)%<br>Do đó bất phương trì̀h %(\\Leftrightarrow 1+2 \\sqrt{x}-2 \\sqrt{x^{2}+3 x+1}\\lt 1-2 \\sqrt{x^{2}-x+1})%<br>\\[\\Leftrightarrow \\sqrt{x}+\\sqrt{x^{2}-x+1}\\lt \\sqrt{x^{2}+3 x+1}\\]<br>Nếu %(x=0)% thì bất phương trình trở thành %(1\\lt 1)% (vô lý)<br>Nếu %(x\\gt 0)% thì bất phương trình %(\\Leftrightarrow 1+\\sqrt{x+\\frac{1}{x}-1}\\lt \\sqrt{x+\\frac{1}{x}+3})%<br>Đặt %(x+\\frac{1}{x}=t)% với %(t \\geq 2)%, bất phương trình trở thành %(1+\\sqrt{t-1}\\lt \\sqrt{t+3})%%(\\Leftrightarrow 2 \\sqrt{t-1}\\lt 3 \\Leftrightarrow t\\lt \\frac{13}{4})%<br>Với %(t\\lt \\frac{13}{4})% thì %(x+\\frac{1}{x}\\lt \\frac{13}{4} \\Leftrightarrow 4 x^{2}-12 x+4\\lt 0 \\Leftrightarrow \\frac{13-\\sqrt{105}}{8}\\lt x\\lt \\frac{13+\\sqrt{105}}{8})%<br>Vậy bất phương trình có nghiệm là %(\\frac{13-\\sqrt{105}}{8}\\lt x\\lt \\frac{13+\\sqrt{105}}{8})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 2.0,
+        "content": "Trong mặt phẳng tọa độ %(O x y)%, cho hình bình hành %(A B C D)% có %(A(-5 ; 2) . M(-1 ;-2))% là điểm nằm bên trong hình bình hành sao cho %(\\widehat{M D C}=\\widehat{M B C})% và %(M B \\perp M C)%. Tìm tọa độ điểm %(D)% biết %(\\tan \\widehat{D A M}=\\frac{1}{2})%.",
+        "question_images": [],
+        "solution": "Gọi %(E)% là điểm thứ tư của hình bình hành %(M A B E)%, dễ thấy %(M E C D)% cũng là hình bình hành nên %(\\widehat{M E C}=\\widehat{M D C})%.<br>Mà %(\\widehat{M D C}=\\widehat{M B C})% suy ra %(\\widehat{M E C}=\\widehat{M B C})% hay tứ giác %(B E C M)% nội tiếp.<br>Suy ra %(\\widehat{B M C}+\\widehat{B E C}=180^{\\circ} \\Rightarrow \\widehat{B E C}=180^{\\circ}-90^{\\circ}=90^{\\circ})%<br>Ta có %(\\triangle A M D=\\triangle B E C)% (c.c.c) %(\\Rightarrow \\widehat{A M B}=\\widehat{B E C}=90^{\\circ})% hay %(\\triangle A M D)% vuông tại %(M)%<br>Vì %(\\tan \\widehat{D A M}=\\frac{D M}{M A}=\\frac{1}{2} \\Rightarrow D M=\\frac{1}{2} M A)%.<br>Ta có %(M A=4 \\sqrt{2} \\Rightarrow M D=2 \\sqrt{2} \\Rightarrow A D^{2}=M A^{2}+M D^{2}=40)%.<br>Giả sử %(D(x ; y))% ta có %(\\left\\{\\begin{array}{l}A D^{2}=40 \\\\ M D^{2}=8\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}(x+5)^{2}+(y-2)^{2}=40 \\\\ (x+1)^{2}+(y+2)^{2}=8\\end{array}\\right.\\right.)%.<br>Giải hệ phương trình trên được hai nghiệm: %((-3 ;-4),(1 ; 0))%.<br>Vậy có hai điểm %(D)% thỏa mãn đề bài là: %(D(-3 ;-4), D(1 ; 0))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a9560f74318461c7a3351a82b0acba24.png\" srcset=\"https://docdn.giainhanh.io/media/test/cb96e2b224686cf0c69044a2e4f6b3a3.png 245w, https://docdn.giainhanh.io/media/test/d800c1a43f862e6e3f600916c51361d6.png 500w, https://docdn.giainhanh.io/media/test/4feb349cb540c8a55456871dc3359ac7.png 750w, https://docdn.giainhanh.io/media/test/05806e0021fc499759c603444abcd562.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8:",
+        "group_content": "Cho hình chóp %(S . A B C D)% có đáy là hình vuông cạnh %(a)% và các cạnh bên đều bằng %(a)%. Gọi %(M)% là điểm nằm trên %(S B)% sao cho %(\\overrightarrow{S M}=\\frac{1}{3} \\overrightarrow{S B})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Gọi %((P))% là mặt phẳng chứa %(C M)% và song song với %(S A)%. Tính theo %(a)% diện tích thiết diện tạo bởi %((P))% và hình chóp %(S . A B C D)%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/12d2c59f1269333e63bea21974c1f03f.png\" srcset=\"https://docdn.giainhanh.io/media/test/d04c3e1eefdb93bfab9ec1737791f06c.png 173w, https://docdn.giainhanh.io/media/test/7f89dfbb45feae5c7f770e19c6e459e0.png 500w\" width=\"500\"/><br>Từ %(M)% kẻ %(M N / / S A(N \\in A B))%. Khẳng định thiết diện là tam giác %(C M N)%.<br>Ta có: %(\\frac{M N}{S A}=\\frac{B M}{B S}=\\frac{2}{3} \\Rightarrow M N=\\frac{2 a}{3})%.<br>Xét %(\\triangle S M C)% có: %(M C^{2}=S M^{2}+S C^{2}-2 \\cdot S M \\cdot S C \\cdot \\cos M S C=\\frac{a^{2}}{9}+a^{2}-2 \\cdot \\frac{a}{3} \\cdot a \\cdot \\frac{1}{2}=\\frac{7 a^{2}}{9})%%(\\Rightarrow M C=\\frac{a \\sqrt{7}}{3})%.<br>%(C N=\\sqrt{B N^{2}+C B^{2}}=\\sqrt{\\frac{4 a^{2}}{9}+a^{2}}=\\frac{\\sqrt{13} a}{3})%.<br>Có %(\\cos C M N=\\frac{M N^{2}+M C^{2}-C N^{2}}{\\text { 2.MC.MN }}=\\frac{\\frac{4 a^{2}}{9}+\\frac{7 a^{2}}{9}-\\frac{13 a^{2}}{9}}{2 \\cdot \\frac{a \\sqrt{7}}{3} \\cdot \\frac{2 a}{3}}=-\\frac{\\sqrt{7}}{14})%.<br>Suy ra %(\\sin C M N=\\sqrt{1-\\cos ^{2} C M N}=\\frac{3 \\sqrt{21}}{14})%.<br>Diện tích thiết diện là:<br>\\[S_{\\triangle C M N}=\\frac{1}{2} \\cdot M C \\cdot M N \\cdot \\sin C M N=\\frac{1}{2} \\cdot \\frac{a \\sqrt{7}}{3} \\cdot \\frac{2 a}{3} \\cdot \\frac{3 \\sqrt{21}}{14}=\\frac{\\sqrt{3}}{6} a^{2}(đ v \\mathrm{dt}) .\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) %(E)% là một điểm thay đổi trên cạnh %(A C)%. Xác định vị trí điểm %(E)% để %(M E)% vuông góc với %(C D)%.",
+        "question_images": [],
+        "solution": "Đặt %(C E=x C A)%. Kẻ %(E H \\perp C D(H \\in C D) \\Rightarrow E H / / A D)% nên %(C H=x C \\mathrm{D})%<br>Suy ra %(\\overrightarrow{C H}=x \\overrightarrow{C D})%.<br>%(\\overrightarrow{M H}=\\overrightarrow{C H}-\\overrightarrow{C M}=x \\overrightarrow{C D}-\\left(\\frac{2}{3} \\overrightarrow{C S}+\\frac{1}{3} \\overrightarrow{C B}\\right))%<br>%(\\overrightarrow{M E}=\\overrightarrow{M H}+\\overrightarrow{H E})%<br>Để %(M E)% vuông góc %(C D)% điều kiện là:%(\\overrightarrow{M E} \\cdot \\overrightarrow{C D}=0 \\Leftrightarrow(\\overrightarrow{M H}+\\overrightarrow{H E}) \\cdot \\overrightarrow{C D}=0 \\Leftrightarrow \\overrightarrow{M H} \\cdot \\overrightarrow{C D}=0)% do %(H E \\perp C D)%.%(\\Leftrightarrow\\left[x \\overrightarrow{C D}-\\left(\\frac{2}{3} \\overrightarrow{C S}+\\frac{1}{3} \\overrightarrow{C B}\\right)\\right] \\overrightarrow{C D}=0 \\Leftrightarrow x \\overrightarrow{C D}^{2}-\\frac{2}{3} \\overrightarrow{C S} \\cdot \\overrightarrow{C D}=0)% do %(C B \\perp C D)%<br>Do %(\\triangle S C D)% đều nên %(\\overrightarrow{C S} \\cdot \\overrightarrow{C D}=C S \\cdot C D \\cdot \\cos 60^{\\circ}=\\frac{1}{2} a^{2})%. Do đó<br>\\[x \\cdot a^{2}-\\frac{2}{3} \\cdot \\frac{1}{2} a^{2}=0 \\Leftrightarrow a^{2}\\left(x-\\frac{1}{3}\\right)=0 \\Leftrightarrow x=\\frac{1}{3} \\text {. }\\]<br>Vậy %(E)% thuộc đoạn %(A C)% thỏa mãn %(C E=\\frac{1}{3} C A)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 9: ",
+        "point": 2.0,
+        "content": "Cho a, b, c là độ dài 3 cạnh của một tam giác có chu vi bẳng 1 . Tìm giá trị lớn nhất của biểu thức: %(T=\\frac{4}{a+b}+\\frac{4}{b+c}+\\frac{4}{c+a}+\\frac{a^{2}+b^{2}+c^{2}-1}{2 a b c})%.",
+        "question_images": [],
+        "solution": "Vì %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là độ dài 3 cạnh của một tam giác có chu vi bẳng 1 nên %(a, b, c \\in\\left(0 ; \\frac{1}{2}\\right))%<br>\\[T=\\frac{4}{1-a}+\\frac{4}{1-b}+\\frac{4}{1-c}-\\frac{1}{a}-\\frac{1}{b}-\\frac{1}{c}=\\frac{5 a-1}{a-a^{2}}+\\frac{5 b-1}{b-b^{2}}+\\frac{5 c-1}{c-c^{2}}\\]<br>Ta có<br>\\[\\begin{array}{l}\\frac{5 a-1}{a-a^{2}}-(18 a-3)=\\frac{(3 a-1)^{2}(2 a-1)}{a-a^{2}} \\leq 0, \\forall a \\in\\left(0 ; \\frac{1}{2}\\right) \\\\Rightarrow \\frac{5 a-1}{a-a^{2}} \\leq(18 a-3), \\forall a \\in\\left(0 ; \\frac{1}{2}\\right)\\end{array}\\]<br>Tương tự ta có %(: \\frac{5 b-1}{b-b^{2}} \\leq(18 b-3), \\forall b \\in\\left(0 ; \\frac{1}{2}\\right), \\quad \\frac{5 c-1}{c-c^{2}} \\leq(18 c-3), \\forall c \\in\\left(0 ; \\frac{1}{2}\\right))%<br>Suy ra %(T=\\frac{5 a-1}{a-a^{2}}+\\frac{5 b-1}{b-b^{2}}+\\frac{5 c-1}{c-c^{2}} \\leq 18(a+b+c)-9=9)%<br>Dấu đẳng thức xảy ra %(\\Leftrightarrow a=b=c=\\frac{1}{3} \\Rightarrow T_{\\max }=9)% đạt được %(\\Leftrightarrow a=b=c=\\frac{1}{3})%",
+        "question_type": "essay"
+    }
+]

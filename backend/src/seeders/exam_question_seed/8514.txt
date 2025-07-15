@@ -1,0 +1,49 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.5,
+        "content": "Tính giá trị biểu thức: %(A=\\frac{\\left(3^{2-\\sqrt{3}}\\right)^{\\sqrt{3}+2}}{2^{2 \\sqrt{2}-3} \\cdot 4^{2-\\sqrt{2}}})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=\\frac{\\left(3^{2-\\sqrt{3}}\\right)^{\\sqrt{3}+2}}{2^{2 \\sqrt{2}-3}-4^{2-\\sqrt{2}}} \\\\ =\\frac{\\left(3^{2-\\sqrt{3}}\\right)^{\\sqrt{3}+1}}{2^{2 \\sqrt{2}-3} \\cdot 2^{4-2 \\sqrt{2}}} \\\\ =\\frac{3}{2^{2 \\sqrt{2}-3} \\cdot 2^{4-2 \\sqrt{2}}} \\\\ =\\frac{3}{2}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho %(\\log _{2} 5=a)% và %(\\log _{2} 6=b)%. Hãy tính %(\\log _{\\sqrt{6}} 75)% theo a,b.",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} \\log _{\\sqrt{6}} 75 & =\\frac{\\log _{2} 75}{\\log _{2} \\sqrt{6}}\\\\ & =\\frac{\\log _{2} 25+\\log _{2} 3}{\\frac{1}{2} \\log _{2} 6}  \\\\ & =\\frac{2\\left(2 \\log _{2} 5+\\log _{2} 6-\\log _{2} 2\\right)}{\\log _{2} 6} \\\\ & =\\frac{2(2 a+b-1)}{b} \\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho hàm số %(f(x)=\\sqrt[3]{\\log _{5}\\left(x^{2}-1\\right)})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Tìm tập xác định của hàm số %(f(x))%.",
+        "question_images": [],
+        "solution": "\\[f(x)=\\sqrt[3]{\\log _{5}\\left(x^{2}-1\\right)}\\]<br>Hàm số xác định khi:<br>\\[\\begin{array}{l}x^{2}-1\\gt 0  \\\\Leftrightarrow\\left[\\begin{array}{l}x>1 \\x\\lt -1\\end{array}\\right.\\end{array}\\]<br>Tập xác định:<br>\\[D=(-\\infty ;-1) \\cup(1 ;+\\infty) \\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Tính %(f^{\\prime}(\\sqrt{3}))%.",
+        "question_images": [],
+        "solution": "%(f^{\\prime}(x)=\\frac{\\left(\\log _{5}\\left(x^{2}-1\\right)\\right)^{\\prime}}{\\sqrt[3]{\\log _{5}^{2}\\left(x^{2}-1\\right)}})%<br>%(=\\frac{\\frac{\\left(x^{2}-1\\right)^{\\prime}}{\\left(x^{2}-1\\right) \\ln 5}}{\\sqrt[3]{\\log _{5}^{2}\\left(x^{2}-1\\right)}})%<br>%(=\\frac{\\frac{2 x}{\\left(x^{2}-1\\right) \\ln 5}}{3 \\sqrt[3]{\\log _{5}^{2}\\left(x^{2}-1\\right)}})%<br>%(f^{\\prime}(\\sqrt{3})=\\frac{\\frac{2 \\sqrt{3}}{2 \\ln 5}}{3 \\sqrt[3]{\\log _{5}^{2} 2}}=\\frac{\\sqrt{3}}{3 \\cdot \\ln 5 \\sqrt{\\log _{5}^{2} 2}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Cho %(a\\gt 0)% và %(b\\gt 0)%.<br>Chứng minh rằng :<br>\\[\\frac{\\lg a+\\lg b}{2} \\leq \\lg \\frac{a+b}{2}\\]",
+        "question_images": [],
+        "solution": "Áp dụng BĐT cosi<br>\\[\\begin{array}{l}\\frac{a+b}{2} \\geq \\sqrt{a b}   \\\\Leftrightarrow \\lg \\frac{a+b}{2} \\geq \\lg \\sqrt{a b}  \\\\Leftrightarrow \\lg \\frac{a+b}{2} \\geq \\frac{\\lg a+\\lg b}{2}  .\\end{array}\\]",
+        "question_type": "essay"
+    }
+]

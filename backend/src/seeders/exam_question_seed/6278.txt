@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Bài 1 ",
+        "point": 4.0,
+        "content": "Cho hàm số %(y=x^{3}-3 x^{2}+4)% có đồ thị %((C))%, đường thẳng %((d))% đi qua %(A(1 ; 2))% và có hệ số góc %(m)%. Tìm %(m)% để %((d))% cắt %((C))% tại ba điểm phân biệt %(A, B, C)% sao cho %(B C=4 \\sqrt{2})%.",
+        "question_images": [],
+        "solution": "+ Phương trình đường thẳng %((d): y=m(x-1)+2)%<br>+) Phương trình hoành độ giao điểm %(x^{3}-3 x^{2}+4=m(x-1)+2 \\Leftrightarrow x^{3}-3 x^{2}-m x+m+2=0)%<br>\\[\\Leftrightarrow(x-1)\\left(x^{2}-2 x-m-2\\right)=0 \\Leftrightarrow\\left[\\begin{array}{c}x=1 \\g(x)=x^{2}-2 x-m-2=0\\end{array}\\right.\\]<br>Giả sử %(g(x)=0)% có hai nghiệm %(x_{1}, x_{2})%, khi đó %(B\\left(x_{1} ; m\\left(x_{1}-1\\right)+2\\right) ; C\\left(x_{2} ; m\\left(x_{2}-1\\right)+2\\right))%<br>\\[\\begin{array}{l}B C^{2}=\\left(m^{2}+1\\right)\\left(x_{1}-x_{2}\\right)^{2}=\\left(m^{2}+1\\right)\\left[\\left(x_{1}+x_{2}\\right)^{2}-4 x_{1} x_{2}\\right] \\\\=\\left(m^{2}+1\\right)(4+4 m+8)=32 \\Leftrightarrow m=1\\end{array}\\]<br>Thay %(m=1)% vào %(g(x)=x^{2}-2 x-3=0 \\Leftrightarrow x=-1 ; x=3)% (thỏa mãn).<br>Vậy %(m=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài 2 ",
+        "point": 4.0,
+        "content": "Giải phương trình %(x^{3}-7 x^{2}+9 x+12=(x-3)(x-2+5 \\sqrt{x-3})(\\sqrt{x-3}-1))%",
+        "question_images": [],
+        "solution": "Điều kiện: %(x-3 \\geq 0 \\Leftrightarrow x \\geq 3)%.<br>Phương trình đã cho tương đương với<br>\\[\\begin{array}{l}(x-4)\\left(x^{2}-3 x-3\\right)=(x-3)(x-2+5 \\sqrt{x-3})(\\sqrt{x-3}-1) \\\\Leftrightarrow(\\sqrt{x-3}-1)(\\sqrt{x-3}+1)\\left(x^{2}-3 x-3\\right)=(x-3)(x-2+5 \\sqrt{x-3})(\\sqrt{x-3}-1) \\\\Leftrightarrow\\left[\\begin{array}{l}\\sqrt{x-3}-1=0 \\longrightarrow \\sqrt{x-3}=1 \\Leftrightarrow x=4 \\\\left(x^{2}-3 x-3\\right)(\\sqrt{x-3}+1)=(x-3)(x-2+5 \\sqrt{x-3}) (*)\\end{array}\\right. \\\\end{array}\\]<br>Dễ thấy %(x=3)% không là nghiệm của phương trình đã cho.<br>Với %(x\\gt 3)%, giài phương trình %((*))%, ta được %(\\frac{x^{2}-3 x-3}{x-3}=\\frac{x-2+5 \\sqrt{x-3}}{\\sqrt{x-3}+1})%<br>\\[\\Leftrightarrow \\frac{(x-4)^{2}+5(x-4)+1}{x-4+1}=\\frac{x-3+5 \\sqrt{x-3}+1}{\\sqrt{x-3}+1} \\Leftrightarrow f(x-4)=f(\\sqrt{x-3}) \\text {. }\\]<br>Xét hàm số %(f(t)=\\frac{t^{2}+5 t+1}{t+1})% trên %((-1 ;+\\infty))%, có %(f^{\\prime}(t)=1+\\frac{3}{(t+1)^{2}}>0 ; \\forall t>-1)%.<br>Suy ra %(f(t))% là hàm số đồng biến trên %(f(t))% mà %(f(x-4)=f(\\sqrt{x-3}))%<br>Do đó %(x-4=\\sqrt{x-3} \\Leftrightarrow\\left\\{\\begin{array}{l}x-4 \\geq 0 \\\\ (x-4)^{2}=x-3\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 4 \\\\ x^{2}-9 x+19=0\\end{array} \\Leftrightarrow x=\\frac{9+\\sqrt{5}}{2}\\right.\\right.)%Vậy phương trình đã cho có hai nghiệm là %(x=4 ; x=\\frac{9+\\sqrt{5}}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài 3 ",
+        "point": 4.0,
+        "content": "Cho dãy số %(\\left(u_{n}\\right)_{n=1}^{\\infty})% thỏa mãn %(\\left\\{\\begin{array}{l}u_{1}=2 \\\\ u_{1}+u_{2}+\\ldots+u_{n-1}+u_{n}=n^{2} u_{n}, n \\geq 1\\end{array}\\right.)%. Tìm giới hạn %(\\lim \\left(n^{2} u_{n}\\right))%.",
+        "question_images": [],
+        "solution": "Theo giả thiết ta có:<br>\\[\\begin{array}{l}(n+1)^{2} u_{n+1}=\\left(u_{1}+u_{2}+\\ldots+u_{n}\\right)+u_{n+1}=n^{2} u_{n}+u_{n+1} \\Rightarrow\\left(n^{2}+2 n\\right) u_{n+1}=n^{2} u_{n} \\Rightarrow(n+2) u_{n+1}=n u_{n} \\\\Rightarrow u_{n+1}=\\frac{n}{n+2} u_{n}=\\frac{n}{n+2} \\cdot \\frac{n-1}{n+1} u_{n-1}=\\frac{n}{n+2} \\cdot \\frac{n-1}{n+1} \\cdot \\frac{n-2}{n} \\cdot u_{n-2}\\end{array}\\]<br>%(\\begin{array}{l}=\\ldots=\\frac{n}{n+2} \\cdot \\frac{n-1}{n+1} \\cdot \\frac{n-2}{n} \\ldots \\frac{1}{3} u_{1}=\\frac{4}{(n+2)(n+1)} \\\\ \\Rightarrow u_{n}=\\frac{4}{n(n+1)} \\Rightarrow n^{2} u_{n}=\\frac{4 n}{n+1} \\Rightarrow \\lim \\left(n^{2} u_{n}\\right)=\\lim \\frac{4 n}{n+1}=4 .\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài 4",
+        "group_content": "Cho hình chóp %(S . A B C)% có đáy %(A B C)% là tam giác vuông cân tại %(B, A B=a)%. Gọi %(I)% là trung điểm của %(A C)%. Biết hình chiếu của %(S)% lên mặt phẳng %(A B C)% là điểm %(H)% thỏa mãn %(\\overrightarrow{B I}=3 \\overrightarrow{I H})% và góc giữa hai mặt phẳng %((S A B) ;(S B C))% bằng %(60^{\\circ})%. Tính thể tích khối chóp %(S . A B C)% đã cho và tính khoảng cách giữa hai đường thẳng %(A B, S I)% theo %(a)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Tính thể tích khối chóp %(S . A B C)% đã cho",
+        "question_images": [],
+        "solution": "Từ giả thiết của bài toán ta có %(\\left\\{\\begin{array}{l}B H \\perp A C \\\\ S H \\perp A C\\end{array} \\Rightarrow A C \\perp(S B H) \\Rightarrow A C \\perp S B\\right.)%.<br>Kẻ %(I J \\perp S B \\Rightarrow\\left\\{\\begin{array}{l}A J \\perp S B \\\\ C J \\perp S B\\end{array} \\Rightarrow\\right.)% góc giữa hai mặt phẳng %((S A B))% và %((S C B))% bằng góc giữa hai đường thẳng %(A J)% và %(C J)%.<br>Dễ thấy %(\\triangle A I J)% là tam giác cân tại %(J)%, kết hợp với giả thiết góc giữa hai mặt phẳng %((S A B))% và %((S C B))% bằng %(60^{\\circ})% ta có hai trường hợp sau:<br>TH1: %(\\widehat{A J C}=60^{\\circ} \\Rightarrow \\widehat{A J I}=30^{\\circ})%.<br>Ta có %(\\mathrm{IJ}=A I \\cdot \\tan 60^{\\circ}=\\frac{a \\sqrt{6}}{2} \\Rightarrow B J=\\sqrt{B I^{2}+\\mathrm{IJ}^{2}}=\\sqrt{2} a)%.%(\\Delta B I J \\sim \\Delta B S H \\Rightarrow S H=\\frac{I J \\cdot B H}{B J})%. Mặt khác %(I B=\\frac{A C}{2}=\\frac{a}{\\sqrt{2}} \\Rightarrow B H=\\frac{4 a}{3 \\sqrt{2}})%.Nên ta có %(S H=\\frac{a \\sqrt{6}}{3} \\Rightarrow V_{S \\cdot A B C}=\\frac{1}{3} S H \\cdot S_{A B C}=\\frac{\\sqrt{6} a^{3}}{18}(\\mathrm{dvtt}))%.<br>TH2: %(\\widehat{A J C}=120^{\\circ} \\Rightarrow \\widehat{A J I}=60^{\\circ})%.<br>Ta có %(\\mathrm{IJ}=A I \\cdot \\tan 30^{\\circ}=\\frac{a}{\\sqrt{6}} \\Rightarrow B J=\\sqrt{B I^{2}+\\mathrm{IJ}^{2}}=\\frac{2 a}{\\sqrt{6}})%.<br>Làm tương tự TH1 ta có %(S H=\\frac{\\sqrt{2} a}{3} \\Rightarrow V_{S \\cdot A B C}=\\frac{1}{3} S H \\cdot S_{A B C}=\\frac{\\sqrt{2} a^{3}}{18}()% dvtt %())%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ad2c09df908e78513b91873279e57c2a.png\" srcset=\"https://docdn.giainhanh.io/media/test/1e6739ac6c162ac113b3a7c562fde5fd.png 171w, https://docdn.giainhanh.io/media/test/d130cb3694c9c870db3ec55ce886913b.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Tính khoảng cách giữa hai đường thẳng %(A B, S I)% theo %(a)%.",
+        "question_images": [],
+        "solution": "Gọi %(E)% là trung điểm của %(B C \\Rightarrow I E \\| A B)%. Do vậy ta có<br>\\[d(A B, S I)=d(A B,(S I E))=d(B,(S I E)) \\text {. }\\]<br>Do %(\\overrightarrow{B I}=3 \\overrightarrow{I H} \\Rightarrow d(B,(S I E))=3 d(H,(S I E)))%.<br>Kẻ %(H K \\perp I E)% ( %(K)% thuộc %(I E)% ).<br>Mặt khác ta lại có %(S H \\perp(A B C))% nên %(S H \\perp I E \\Rightarrow I E \\perp(S H K) \\Rightarrow(S I E) \\perp(S H K))%.<br>Kẻ %(H F \\perp S K \\Rightarrow H F \\perp(S I E) \\Rightarrow d(H,(S I E))=H J)%.<br>Xét tam giác vuông %(S H K)% ta có: %(\\frac{1}{H F^{2}}=\\frac{1}{H K^{2}}+\\frac{1}{S H^{2}} \\Rightarrow H F=\\frac{S H \\cdot H K}{\\sqrt{S H^{2}+H K^{2}}})%.Mặt khác %(\\frac{H K}{B E}=\\frac{I H}{I B}=\\frac{1}{3} \\Rightarrow H K=\\frac{1}{3} B E=\\frac{a}{6})%.<br>- Khi %(S H=\\frac{a \\sqrt{6}}{3})% ta có %(H F=\\frac{\\sqrt{6} a}{15})%.<br>- Khi %(S H=\\frac{\\sqrt{2} a}{3})% ta có %(H F=\\frac{\\sqrt{2} a}{9})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài 5 ",
+        "point": 4.0,
+        "content": "Cho các số thực dương %(x, y)% thỏa mãn điều kiện %(x^{2}+2 y^{2}=\\frac{8}{3})%. Tìm giá trị lớn nhất của biểu thức<br>\\[P=7(x+2 y)-4 \\sqrt{x^{2}+2 x y+8 y^{2}} .\\]",
+        "question_images": [],
+        "solution": "Ta có: %(4 \\sqrt{x^{2}+2 x y+8 y^{2}}=\\sqrt{16 x^{2}+32 x y+128 y^{2}}=\\sqrt{7(x-2 y)^{2}+(3 x+10 y)^{2}} \\geq 3 x+10 y(1))%Suy ra: %(P=7(x+2 y)-4 \\sqrt{x^{2}+2 x y+8 y^{2}} \\leq 7 x+14 y-(3 x+10 y)=4(x+y))%.<br>Mặt khác: %(\\quad x+y=\\left(1 \\cdot x+\\frac{1}{\\sqrt{2}} \\sqrt{2} y\\right) \\leq \\sqrt{\\left(1+\\frac{1}{2}\\right)\\left(x^{2}+2 y^{2}\\right)}=2 \\Rightarrow P \\leq 4.2=8(2))%.<br>Đẳng thức xảy ra ở (1) & (2) khi và chỉ khi %(\\left\\{\\begin{array}{l}7(x-2 y)^{2}=0 \\\\ \\frac{x}{1}=\\frac{\\sqrt{2} y}{\\frac{1}{\\sqrt{2}}} \\\\ x^{2}+2 y^{2}=\\frac{8}{3}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=\\frac{4}{3} \\\\ y=\\frac{2}{3}\\end{array}\\right.\\right.)%.<br>Vậy GTLN %(P=8)% đạt được khi %(\\left\\{\\begin{array}{l}x=\\frac{4}{3} \\\\ y=\\frac{2}{3}\\end{array}\\right.)%.",
+        "question_type": "essay"
+    }
+]

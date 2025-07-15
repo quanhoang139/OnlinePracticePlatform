@@ -1,0 +1,88 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Phân tích đa thức %(x^{3}-5 x^{2}+8 x-4)% thành nhân tử",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}x^{3}-5 x^{2}+8 x-4=x^{3}-4 x^{2}+4 x-x^{2}+4 x-4 \\\\ =x\\left(x^{2}-4 x+4\\right)-\\left(x^{2}-4 x+4\\right)=(x-1)(x-2)^{2}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm giá trị nguyên của %(x)% để %(A: B)% biết<br>%(A=10 x^{2}-7 x-5)% và %(B=2 x-3)%",
+        "question_images": [],
+        "solution": "Xét %(\\frac{A}{B}=\\frac{10 x^{2}-7 x-5}{2 x-3}=5 x+4+\\frac{7}{2 x-3})%<br>Với %(x \\in \\mathbb{Z})% thì %(A \\vdots B)% khi %(\\frac{7}{2 x-3} \\in \\mathbb{Z} \\Rightarrow 7:(2 x-3))%<br>Mà %(U^{\\prime}(7)=\\{-1 ; 1 ;-7 ; 7\\} \\Rightarrow x=5 ;-2 ; 2 ; 1)% thì %(A \\vdots B)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho %(x+y=1)% và %(x y \\neq 0)%. Chứng minh rằng:<br>\\[\\frac{x}{y^{3}-1}-\\frac{y}{x^{3}-1}+\\frac{2(x-y)}{x^{2} y^{2}+3}=0\\]",
+        "question_images": [],
+        "solution": "Biến đổi %(\\frac{x}{y^{3}-1}-\\frac{y}{x^{3}-1}=\\frac{x^{4}-x-y^{4}+y}{\\left(y^{3}-1\\right)\\left(x^{3}-1\\right)})%<br>\\[\\begin{array}{l}=\\frac{\\left(x^{4}-y^{4}\\right)-(x-y)}{x y\\left(y^{2}+y+1\\right)\\left(x^{2}+x+1\\right)}(d o \\quad x+y=1 \\Rightarrow y-1=-x \\& x-1=-y) \\\\=\\frac{(x-y)(x+y)\\left(x^{2}+y^{2}\\right)-(x-y)}{x y\\left(x^{2} y^{2}+y^{2} x+y^{2}+y x^{2}+x y+y+x^{2}+x+1\\right)} \\\\=\\frac{(x-y)\\left(x^{2}+y^{2}-1\\right)}{x y\\left[x^{2} y^{2}+x y(x+y)+x^{2}+y^{2}+x y+2\\right]} \\\\=\\frac{(x-y)\\left(x^{2}-x+y^{2}-y\\right)}{x y\\left[x^{2} y^{2}+(x+y)^{2}+2\\right]}=\\frac{(x-y)[x(x-1)+y(y-1)]}{x y\\left(x^{2} y^{2}+3\\right)}\\end{array}\\]<br>\\[\\begin{array}{l}=\\frac{(x-y)[x(-y)+y(-x)]}{x y\\left(x^{2} y^{2}+3\\right)}=\\frac{(x-y)(-2 x y)}{x y\\left(x^{2} y^{2}+3\\right)} \\\\=\\frac{-2(x-y)}{x^{2} y^{2}+3} \\text { Suy ra dpcm }\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Giải các phương trình sau:<br>%(\\left(x^{2}+x\\right)^{2}+4\\left(x^{2}+x\\right)=12)%",
+        "question_images": [],
+        "solution": "Đặt %(y=x^{2}+x)%<br>\\[\\begin{array}{l}y^{2}+4 y-12=0 \\Leftrightarrow y^{2}+6 y-2 y-12=0 \\\\Leftrightarrow(y+6)(y-2)=0 \\Leftrightarrow\\left[\\begin{array}{l}y=-6 \\y=2\\end{array}\\right.\\end{array}\\]<br>* %(x^{2}+x=-6)% vô nghiệm vì %(x^{2}+x+6\\gt 0)% với mọi %(x)%<br>\\[\\begin{array}{l}* x^{2}+x=2 \\Leftrightarrow x^{2}+x-2=0 \\Leftrightarrow x^{2}+2 x-x-2=0 \\\\Leftrightarrow x(x+2)-(x+2)=0 \\Leftrightarrow(x+2)(x-1)=0 \\Leftrightarrow x=-2 ; x=1\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Giải các phương trình sau:<br>%(\\frac{x+1}{2008}+\\frac{x+2}{2007}+\\frac{x+3}{2006}=\\frac{x+4}{2005}+\\frac{x+5}{2004}+\\frac{x+6}{2003})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\frac{x+1}{2008}+\\frac{x+2}{2007}+\\frac{x+3}{2006}=\\frac{x+4}{2005}+\\frac{x+5}{2004}+\\frac{x+6}{2003} \\\\ \\Leftrightarrow\\left(\\frac{x+1}{2008}+1\\right)+\\left(\\frac{x+2}{2007}+1\\right)+\\left(\\frac{x+3}{2006}+1\\right)=\\left(\\frac{x+4}{2005}+1\\right)+\\left(\\frac{x+5}{2004}+1\\right)+\\left(\\frac{x+6}{2003}+1\\right) \\\\ \\Leftrightarrow \\frac{x+2009}{2008}+\\frac{x+2009}{2007}+\\frac{x+2009}{2006}=\\frac{x+2009}{2005}+\\frac{x+2009}{2004}+\\frac{x+2009}{2003} \\\\ \\Leftrightarrow(x+2009)\\left(\\frac{1}{2008}+\\frac{1}{2007}+\\frac{1}{2006}-\\frac{1}{2005}-\\frac{1}{2004}-\\frac{1}{2003}\\right)=0 \\\\ \\text { Vi } \\frac{1}{2008}+\\frac{1}{2007}+\\frac{1}{2006}-\\frac{1}{2005}-\\frac{1}{2004}-\\frac{1}{2003} \\neq 0 \\Rightarrow x=-2009\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình vuông %(A B C D)%. Trên tia đối của tia BA lấy %(E)%, trên tia đối của tia CB lấy F sao cho %(A E=C F)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(\\triangle E D F)% vuông cân",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/14cebe4a93dacdf0b059cd37fc95ac5c.png\" srcset=\"https://docdn.giainhanh.io/media/test/0917ceb06b5f978e8c4a81ad24f03bd1.png 234w, https://docdn.giainhanh.io/media/test/de212bbfb89d8e9c41ede4fb807c43a9.png 500w, https://docdn.giainhanh.io/media/test/e932b665bd3df3542471718019fbf437.png 750w\" width=\"750\"/><br>Ta có : %(\\triangle A D E=\\triangle C D F()% c.g.c %() \\Rightarrow \\triangle E D F)% cân tại D<br>Mặt khác %(\\triangle A D E=\\triangle C D F)% (c.g.c) %(\\Rightarrow B E D=E P D)%<br>Mà %(B E D+D E F+E P B=90^{\\circ} \\Rightarrow B P D+\\triangle E F+E P B=90^{\\circ})%%(\\Rightarrow E D F=90^{\\circ})%.<br>Vậy %(\\triangle E D F)% vuông cân.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Gọi O là giao điểm của hai đường chéo %(A C)% và %(B D)%. Gọi I là trung điểm của %(E F)%. Chứng minh %(O, C, I)% thẳng hàng",
+        "question_images": [],
+        "solution": "Theo tính chất đường chéo hình vuông %(\\Rightarrow C O)% là trung trực BD Mà vuông cân %(\\Rightarrow D I=\\frac{1}{2} E F)%Tương tự %(B I=\\frac{1}{2} E F \\Rightarrow D I=B I)%%(\\Rightarrow I)% thuộc đường trung trực của %(D B \\Rightarrow I)% thuộc đường thẳng CONên %(O, C, I)% thẳng hàng",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác %(A B C)% vuông cân tại A . Các điểm %(D, E)% theo thứ tự di chuyển trên %(A B, A C)% sao cho %(B D=A E)%. Xác định vị trí điểm %(D, E)% sao cho:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) %(D E)% có độ dài nhỏ nhất",
+        "question_images": [],
+        "solution": "<img/><img/><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5a6ad97a1070146d341fd532ccc8ef91.png\" srcset=\"https://docdn.giainhanh.io/media/test/a184f9f6349dabd1f0a07a2bcbd4f7b8.png 201w, https://docdn.giainhanh.io/media/test/0c045919ce09367916a5f953c121a506.png 500w\" width=\"500\"/><br>Đặt %(A B=A C=a)% không đổi; %(A E=B D=x(0\\lt x\\lt a))%<br>Áp dụng định lý Pytago với %(\\triangle A D E)% vuông tại A có:<br>\\[\\begin{array}{l}D E^{2}=A D^{2}+A E^{2}=(a-x)^{2}+x^{2}=2 x^{2}-2 a x+a^{2}=2\\left(x^{2}-a x\\right)-a^{2} \\\\=2\\left(x-\\frac{a}{2}\\right)^{2}+\\frac{a^{2}}{2} \\geq \\frac{a^{2}}{2}\\end{array}\\]<br>\\[\\Leftrightarrow D E^{2}\\]<br>Ta có %(D E)% nhỏ nhất %(\\Leftrightarrow D E^{2})% nhỏ nhất %(\\Leftrightarrow x=\\frac{a}{2})%<br>%(\\Leftrightarrow B D=A E=\\frac{a}{2} \\Leftrightarrow \\mathrm{D}, \\mathrm{E})% là trung điểm của%(A B, A C)%<br><img/><img/><br><img/><br><img/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Tứ giác %(B D E C)% có diện tích nhỏ nhất",
+        "question_images": [],
+        "solution": "Tứ giác %(B D E C)% có diện tích nhỏ nhấtTa có: %(S_{A D E}=\\frac{1}{2} A D \\cdot A E=\\frac{1}{2} A D \\cdot(A B-A D)=-\\frac{1}{2}\\left(A D^{2}-A B \\cdot A D\\right))% %(=-\\frac{1}{2}\\left(A D^{2}-2 \\cdot \\frac{A B}{2} \\cdot A D+\\frac{A B^{2}}{4}\\right)+\\frac{A B^{2}}{8}=-\\frac{1}{2}\\left(A D-\\frac{A B}{2}\\right)^{2}+\\frac{A B^{2}}{8} \\leq \\frac{A B^{2}}{8})%Vậy %(S_{B D E C}=S_{A B C}-S_{A D E} \\geq \\frac{A B^{2}}{2}-\\frac{A B^{2}}{8}=\\frac{3}{8} A B^{2})% không đổi<br>Do đó %(\\min S_{B D E C}=\\frac{3}{8} A B^{2})% khi %(\\mathrm{D}, \\mathrm{E})% lần lượt là trung điểm %(\\mathrm{AB}, \\mathrm{AC})%",
+        "question_type": "essay"
+    }
+]

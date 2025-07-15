@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Cho %(a-b=\\sqrt{29+12 \\sqrt{5}}-2 \\sqrt{5})%. Tính giá trị của biểu thức:<br>\\[A=a^{2}(a+1)-b^{2}(b-1)-11 a b+2015\\]",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}a-b=\\sqrt{29+12 \\sqrt{5}}-2 \\sqrt{5}=\\sqrt{(3+2 \\sqrt{5})^{2}}-2 \\sqrt{5}=3 \\\\ A=a^{3}-b^{3}+a^{2}+b^{2}-11 a b+2015 \\\\ =(a-b)\\left(a^{2}+b^{2}+a b\\right)+a^{2}+b^{2}-11 a b+2015 \\\\ =3\\left(a^{2}+b^{2}+a b\\right)+a^{2}+b^{2}-11 a b+2015 \\\\ =4\\left(a^{2}-2 a b+b^{2}\\right)+2015=4(a-b)^{2}+2015=2051\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho %(x, y)% là hai số thực thỏa mãn %(x y+\\sqrt{\\left(1+x^{2}\\right)\\left(1+y^{2}\\right)}=1)%. Chứng minh rằng %(x \\sqrt{1+y^{2}}+y \\sqrt{1+x^{2}}=0)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}x y+\\sqrt{\\left(1+x^{2}\\right)\\left(1+y^{2}\\right)}=1 \\Leftrightarrow \\sqrt{(1+x)^{2}(1+y)^{2}}=1-x y \\\\ \\Rightarrow\\left(1+x^{2}\\right)\\left(1+y^{2}\\right)=(1-x y)^{2} \\\\ \\Leftrightarrow 1+x^{2}+y^{2}+x^{2} y^{2}=1-2 x y+x^{2} y^{2} \\\\ \\Leftrightarrow x^{2}+y^{2}+2 x y=0 \\Leftrightarrow(x+y)^{2}=0 \\Leftrightarrow y=-x \\\\ \\Rightarrow x \\sqrt{1+y^{2}}+y \\sqrt{1+x^{2}}=x \\sqrt{1+x^{2}}-x \\sqrt{1+x^{2}}=0\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải phương trình %(2 x+3+\\sqrt{4 x^{2}+9 x+2}=2 \\sqrt{x+2}+\\sqrt{4 x+1})%.",
+        "question_images": [],
+        "solution": "%(\\mathrm{Pt} \\Leftrightarrow 2 x+3+\\sqrt{(x+2)(4 x+1)}=2 \\sqrt{x+2}+\\sqrt{4 x+1})%. ĐK: %(x \\geq-\\frac{1}{4})%<br>Đặt %(t^{2}=8 x+4 \\sqrt{(x+2)(4 x+1)}+9 \\Leftrightarrow 2 x+\\sqrt{(x+2)(4 x+1)}=\\frac{t^{2}-9}{4})%<br>PTTT %(t^{2}-4 t+3=0 \\Leftrightarrow t=1)% hoặc %(\\mathrm{t}=3)%<br>TH1. %(\\mathrm{t}=1)% giải ra vô nghiệm hoặc kết hợp với ĐK %(\\geq \\sqrt{7})% bị loại<br>TH 2. %(t=3 \\Rightarrow 2 \\sqrt{x+2}+\\sqrt{4 x+1}=3)%. Giải pt tìm được %(x=-\\frac{2}{9})% (TM)<br>Vậy pt có nghiệm duy nhất %(x=-\\frac{2}{9})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}2 x^{2}-y^{2}+x y-5 x+y+2=\\sqrt{y-2 x+1}-\\sqrt{3-3 x} \\\\ x^{2}-y-1=\\sqrt{4 x+y+5}-\\sqrt{x+2 y-2}\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "ĐK: %(y-2 x+1 \\geq 0,4 x+y+5 \\geq 0, x+2 y-2 \\geq 0, x \\leq 1)%<br>TH 1. %(\\left\\{\\begin{array}{l}y-2 x+1=0 \\\\ 3-3 x=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=1 \\\\ y=1\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}0=0 \\\\ -1=\\sqrt{10}-1\\end{array}\\right.\\right.\\right.)% (Không TM hệ)<br>TH 2. %(x \\neq 1, y \\neq 1)% Đưa pt thứ nhất về dạng tích ta được<br>\\[(x+y-2)(2 x-y-1)=\\frac{x+y-2}{\\sqrt{y-2 x+1}+\\sqrt{3-3 x}}\\]<br>Do %(y-2 x+1 \\geq 0)% nên %(\\frac{1}{\\sqrt{y-2 x+1}+\\sqrt{3-3 x}}+y-2 x+1\\gt 0 \\Rightarrow x+y-2=0)%<br>Thay %(y=2-x)% vào pt thứ 2 ta được %(x^{2}+x-3=\\sqrt{3 x+7}-\\sqrt{2-x})%<br>\\[\\begin{array}{l}\\Leftrightarrow x^{2}+x-2=\\sqrt{3 x+7}-1+2-\\sqrt{2-x} \\\\Leftrightarrow(x+2)(x-1)=\\frac{3 x+6}{\\sqrt{3 x+7}+1}+\\frac{2+x}{2+\\sqrt{2-x}}\\end{array}\\]<br>\\[\\Leftrightarrow(x+2)\\left[\\frac{3}{\\sqrt{3 x+7}+1}+\\frac{1}{2+\\sqrt{2-x}}+1-x\\right]=0\\]<br>Do %(x \\leq 1)% nên %(\\frac{3}{\\sqrt{3 x+7}+1}+\\frac{1}{2+\\sqrt{2-x}}+1-x\\gt 0)%<br>Vậy %(x+2=0 \\Leftrightarrow x=-2 \\Rightarrow y=4)% (TMĐK)",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Tìm các số nguyên %(x, y)% thỏa mãn %(x^{4}+x^{2}-y^{2}-y+20=0)%",
+        "question_images": [],
+        "solution": "Pt %(\\Leftrightarrow x^{4}+x^{2}+20=y^{2}+y)%<br>Ta thấy %(x^{4}+x^{2}\\lt x^{4}+x^{2}+20 \\leq x^{4}+x^{2}+20+8 x^{2})%%(\\Leftrightarrow x^{2}\\left(x^{2}+1\\right)\\lt y(y+1) \\leq\\left(x^{2}+4\\right)\\left(x^{2}+5\\right))%<br>Vì %(\\mathrm{x}, \\mathrm{y} \\in \\mathbb{Z})% nên ta xét các trường hợp sau<br>+TH1%(y(y+1)=\\left(x^{2}+1\\right)\\left(x^{2}+2\\right) \\Leftrightarrow x^{4}+x^{2}+20=x^{4}+3 x^{2}+2)%%(\\Leftrightarrow 2 x^{2}=18 \\Leftrightarrow x^{2}=9 \\Leftrightarrow x= \\pm 3)%<br>Với %(x^{2}=9)%, ta có %(y^{2}+y=9^{2}+9+20 \\Leftrightarrow y^{2}+y-110=0)%<br>%(\\begin{array}{l}\\Leftrightarrow y=10 ; y=-11(t . m) \\\\ + \\text { TH2. } y(y+1)=\\left(x^{2}+2\\right)\\left(x^{2}+3\\right) \\Leftrightarrow x^{4}+x^{2}+20=x^{4}+5 x^{2}+6\\end{array})%%(\\Leftrightarrow 4 x^{2}=14 \\Leftrightarrow x^{2}=\\frac{7}{2})% (loại)<br>+TH3: %(y(y+1)=\\left(x^{2}+3\\right)\\left(x^{2}+4\\right) \\Leftrightarrow 6 x^{2}=8 \\Leftrightarrow x^{2}=\\frac{4}{3})% (loại)<br>+TH4%(y(y+1)=\\left(x^{2}+4\\right)\\left(x^{2}+5\\right) \\Leftrightarrow 8 x^{2}=0 \\Leftrightarrow x^{2}=0 \\Leftrightarrow x=0)%Với %(x^{2}=0)%, ta có %(y^{2}+y=20 \\Leftrightarrow y^{2}+y-20=0 \\Leftrightarrow y=-5 ; y=4)%<br>Vậy PT đã cho có nghiệm nguyên %((x ; y))% là :%((3 ; 10),(3 ;-11),(-3 ; 10),(-3 ;-11),(0 ;-5),(0 ; 4))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Tìm các số nguyên %(k)% để %(k^{4}-8 k^{3}+23 k^{2}-26 k+10)% là số chính phương.",
+        "question_images": [],
+        "solution": "Đặt %(M=k^{4}-8 k^{3}+23 k^{2}-26 k+10)%<br>Ta có %(M=\\left(k^{4}-2 k^{2}+1\\right)-8 k\\left(k^{2}-2 k+1\\right)+9 k^{2}-18 k+9)% %(=\\left(k^{2}-1\\right)^{2}-8 k(k-1)^{2}+9(k-1)^{2}=(k-1)^{2} \\cdot\\left[(k-3)^{2}+1\\right])%<br>%(M)% là số chính phương khi và chỉ khi %((k-1)^{2}=0)% hoặc %((k-3)^{2}+1)% là số chính phương.<br>TH %(1 .(k-1)^{2}=0 \\Leftrightarrow k=1)%.TH 2. %((k-3)^{2}+1)% là số chính phương, đặt %((k-3)^{2}+1=m^{2}(m \\in \\mathbb{Z}))% %(\\Leftrightarrow m^{2}-(k-3)^{2}=1 \\Leftrightarrow(m-k+3)(m+k-3)=1)%<br>Vì %(m, k \\in \\mathbb{Z} \\Rightarrow m-k+3 \\in \\mathbb{Z}, m+k-3 \\in \\mathbb{Z})% nên %(\\left\\{\\begin{array}{l}m-k+3=1 \\\\ m+k-3=1\\end{array}\\right.)% hoặc %(\\left\\{\\begin{array}{l}m-k+3=-1 \\\\ m+k-3=-1\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}m=1, k=3 \\\\ m=-1, k=3\\end{array} \\Rightarrow k=3\\right.\\right.)%<br>Vậy %(\\mathrm{k}=1)% hoặc %(\\mathrm{k}=3)% thì %(k^{4}-8 k^{3}+23 k^{2}-26 k+10)% là số chính phương",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho đường tròn %((\\mathrm{O} ; \\mathrm{R}))% và dây %(\\mathrm{BC})% cố định không đi qua tâm. Trên tia đối của tia %(\\mathrm{BC})% lấy điểm %(\\mathrm{A}(\\mathrm{A})% khác %(\\mathrm{B}))%. Từ %(\\mathrm{A})% kẻ hai tiếp tuyến %(\\mathrm{AM})% và %(\\mathrm{AN})% với đường tròn %((O))% ( %(\\mathrm{M})% và %(\\mathrm{N})% là các tiếp điểm). Gọi %(\\mathrm{I})% là trung điểm của %(\\mathrm{BC})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(A, O, M, N, I)% cùng thuộc một đường tròn và IA là tia phân giác của góc MIN",
+        "question_images": [],
+        "solution": "Theo giả thiết %(\\mathrm{AMO}=\\mathrm{ANO}=\\mathrm{AIO}=90^{\\circ}=\\gt 5)% điếm %(\\mathrm{A}, \\mathrm{O}, \\mathrm{M}, \\mathrm{N}, \\mathrm{I})% thuộc đường tròn đường kính %(\\mathrm{AO} )%<br>=> AIN = AMN, AIM = ANM (Góc nội tiếp cùng chắn một cung)%(\\mathrm{AM}=\\mathrm{AN} \\Rightarrow \\triangle \\mathrm{AMN})% cân tại %(\\mathrm{A}=>\\mathrm{AMN}=\\mathrm{ANM})%<br>%(\\Rightarrow \\mathrm{AIN}=\\mathrm{AIM}=\\gt ₫ p \\mathrm{~cm})%%(\\Rightarrow \\mathrm{AIN}=\\mathrm{AIM}=\\gt \\mathrm{dpcm})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Gọi %(\\mathrm{K})% là giao điểm của %(\\mathrm{MN})% và %(\\mathrm{BC})%. Chứng minh %(\\frac{2}{A K}=\\frac{1}{A B}+\\frac{1}{A C})%.",
+        "question_images": [],
+        "solution": "%(\\frac{2}{A K}=\\frac{1}{A B}+\\frac{1}{A C} \\Leftrightarrow 2 A B \\cdot A C=A K(A B+A C) \\Leftrightarrow A B . A C=A K . A I)%<br>%(\\text { (Do } \\mathrm{AB}+\\mathrm{AC}=2 \\mathrm{AI}))%<br>%(\\triangle \\mathrm{ABN})% đồng dạng với %(\\triangle \\mathrm{ANC}=\\gt \\mathrm{AB} \\cdot \\mathrm{AC}=\\mathrm{AN}^{2})%<br>%(\\Delta \\mathrm{AHK})% đồng dạng với %(\\Delta \\mathrm{AIO}=\\gt \\mathrm{AK} . \\mathrm{AI}=\\mathrm{AH} . \\mathrm{AO})%<br>Tam giác %(\\triangle \\mathrm{AMO})% vuông tại %(\\mathrm{M})% có đường cao %(\\mathrm{MH}=>\\mathrm{AH} . \\mathrm{AO}=\\mathrm{AM}^{2})% %(\\Rightarrow \\mathrm{AK} \\cdot \\mathrm{AI}=\\mathrm{AM}^{2} . \\mathrm{Do} \\mathrm{AN}=\\mathrm{AM}=>\\mathrm{AB} \\cdot \\mathrm{AC}=\\mathrm{AK} \\cdot \\mathrm{AI})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Đường thẳng qua %(\\mathrm{M})% và vuông góc với đường thẳng %(\\mathrm{ON})% cắt %((\\mathrm{O}))% tại điểm thứ hai là%(\\mathrm{P})%. Xác định vị trí của điểm %(\\mathrm{A})% trên tia đối của tia %(\\mathrm{BC})% để %(\\mathrm{AMPN})% là hình bình hành.",
+        "question_images": [],
+        "solution": "Ta có %(\\mathrm{AN} \\perp \\mathrm{NO}, \\mathrm{MP} \\perp \\mathrm{NO}, \\mathrm{M} \\notin \\mathrm{AN}=\\gt \\mathrm{AN} / / \\mathrm{MP})%<br>Do đó %(\\mathrm{AMPN})% là hình bình hành %(\\Leftrightarrow \\mathrm{AN}=\\mathrm{MP}=2 \\mathrm{x})%Tam giác %(\\triangle \\mathrm{ANO})% đồng dạng với %(\\Delta \\mathrm{NEM}=>\\frac{A N}{N E}=\\frac{N O}{E M}=>N E=\\frac{2 x^{2}}{R})%<br>+ TH1:<br>\\[\\mathrm{} \\text { NE }=\\mathrm{NO}-\\mathrm{OE}=\\gt \\frac{2 x^{2}}{R}=R-\\sqrt{R^{2}-x^{2}} \\Leftrightarrow 2 x^{2}=R^{2}-R \\sqrt{R^{2}-x^{2}}\\]<br>Đặt %(\\sqrt{R^{2}-x^{2}}=t, t \\geq 0 \\Rightarrow x^{2}=R^{2}-t^{2})%.<br>%(\\operatorname{PTTT} 2\\left(R^{2}-t^{2}\\right)=R^{2}-\\mathrm{R} t \\Leftrightarrow 2 t^{2}-R t-R^{2}=0 \\Leftrightarrow\\left[\\begin{array}{l}2 t=-R \\\\ t=R\\end{array}\\right.)%Do %(t \\geq 0 \\Rightarrow t=R \\Leftrightarrow \\sqrt{R^{2}-x^{2}}=R \\Leftrightarrow x=0 \\Rightarrow A \\equiv B)% (loại)<br>+ TH2:<br>\\[\\mathrm{}  \\mathrm{NE}=\\mathrm{NO}+\\mathrm{OE}=\\gt \\frac{2 x^{2}}{R}=R+\\sqrt{R^{2}-x^{2}} \\Leftrightarrow 2 x^{2}=R^{2}+R \\sqrt{R^{2}-x^{2}}\\]<br>Đặt %(\\sqrt{R^{2}-x^{2}}=t, t \\geq 0 \\Rightarrow x^{2}=R^{2}-t^{2})%.<br>%(\\operatorname{PTTT} 2\\left(R^{2}-t^{2}\\right)=R^{2}+R t \\Leftrightarrow 2 t^{2}+R t-R^{2}=0 \\Leftrightarrow\\left[\\begin{array}{l}2 t=R \\\\ t=-R\\end{array}\\right.)%Do %(t \\geq 0 \\Rightarrow 2 t=R \\Leftrightarrow 2 \\sqrt{R^{2}-x^{2}}=R \\Leftrightarrow x=\\frac{R \\sqrt{3}}{2} \\Rightarrow A O=2 R)% (loại)<br>Vậy %(\\mathrm{A})% thuộc %(\\mathrm{BC})%, cách %(\\mathrm{O})% một đoạn bằng %(2 \\mathrm{R})% thì %(\\mathrm{AMPN})% là hbh",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho %(a, b)% là các số dương thỏa mãn điều kiện %((a+b)^{3}+4 a b \\leq 12)%. Chứng minh bất đẳng thức %(\\frac{1}{1+a}+\\frac{1}{1+b}+2015 a b \\leq 2016)%.",
+        "question_images": [],
+        "solution": "Ta có %(12 \\geq(a+b)^{3}+4 a b \\geq(2 \\sqrt{a b})^{3}+4 a b)%.<br>Đặt %(t=\\sqrt{a b}, t\\gt 0)% thì %(12 \\geq 8 t^{3}+4 t^{2} \\Leftrightarrow 2 t^{3}+t^{2}-3 \\leq 0 \\Leftrightarrow(t-1)\\left(2 t^{2}+3 t+3\\right) \\leq 0)%Do %(2 t^{2}+3 t+3>0, \\forall t)% nên %(t-1 \\leq 0 \\Leftrightarrow t \\leq 1)%.<br>Vậy %(0\\lt a b \\leq 1)%<br>Chứng minh được %(\\frac{1}{1+a}+\\frac{1}{1+b} \\leq \\frac{2}{1+\\sqrt{a b}}, \\forall a, b\\gt 0)% thỏa mãn %(a b \\leq 1)%<br>Thật vậy, BĐT %(\\frac{1}{1+a}-\\frac{1}{1+\\sqrt{a b}}+\\frac{1}{1+b}-\\frac{1}{1+\\sqrt{a b}} \\leq 0)%<br>%(\\frac{\\sqrt{a b}-a}{(1+a)(1+\\sqrt{a b})}+\\frac{\\sqrt{a b}-b}{(1+b)(1+\\sqrt{a b})} \\leq 0 \\Leftrightarrow\\left(\\frac{\\sqrt{b}-\\sqrt{a}}{1+\\sqrt{a b}}\\right)\\left(\\frac{\\sqrt{a}}{1+a}-\\frac{\\sqrt{b}}{1+b}\\right))%%(\\Leftrightarrow \\frac{(\\sqrt{b}-\\sqrt{a})^{2}(\\sqrt{a b}-1)}{(1+\\sqrt{a b})(1+a)(1+b)} \\leq 0)%. Do %(0\\lt a b \\leq 1)% nên BĐT này đúng<br>Tiếp theo ta sẽ %(\\mathrm{CM} \\frac{2}{1+\\sqrt{a b}}+2015 a b \\leq 2016, \\forall a, b\\gt 0)% thỏa mãn %(a b \\leq 1)%<br>Đặt %(t=\\sqrt{a b}, 0\\lt t \\leq t)% ta được %(\\frac{2}{1+t}+2015 t^{2} \\leq 2016)%<br>\\[2015 t^{3}+2015 t^{2}-2016 t-2014 \\leq 0\\]<br>%(\\Leftrightarrow(t-1)\\left(2015 t^{2}+4030 t+2014\\right) \\leq 0)%. BĐT này đúng %(\\forall t: 0\\lt t \\leq 1)%<br>Vậy %(\\frac{1}{1+a}+\\frac{1}{1+b}+2015 a b \\leq 2016)%. Đẳng thức xảy ra %(\\mathrm{a}=\\mathrm{b}=1)%",
+        "question_type": "essay"
+    }
+]

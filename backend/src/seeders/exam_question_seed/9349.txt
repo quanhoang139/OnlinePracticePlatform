@@ -1,0 +1,88 @@
+[
+    {
+        "title": "1 ",
+        "point": 3.0,
+        "content": "Giải phương trình: %(y^{2}-2 y+3=\\frac{6}{x^{2}+2 x+4})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}y^{2}-2 y+3=\\frac{6}{x^{2}+2 x+4} \\Leftrightarrow\\left(y^{2}-2 y+3\\right)\\left(x^{2}+2 x+4\\right)=6 \\\\ \\Leftrightarrow\\left[(y-1)^{2}+2\\right] \\cdot\\left[(x+1)^{2}+3\\right]=6 \\\\ \\Leftrightarrow(x+1)^{2} \\cdot(y-1)^{2}+3(y-1)^{2}+2(x+1)^{2}+6=6 \\\\ \\Leftrightarrow(x+1)^{2} \\cdot(y-1)^{2}+3(y-1)^{2}+2(x+1)^{2}=0 \\\\ \\text { Vì }(x+1)^{2} \\geq 0 ;(y-1)^{2} \\geq 0 \\\\ \\Rightarrow\\left\\{\\begin{array}{l}x+1=0 \\\\ y-1=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=-1 \\\\ y=1\\end{array}\\right.\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 3.0,
+        "content": "Giài bất phương trình:<br>\\[\\frac{1}{x^{2}-5 x+6}+\\frac{1}{x^{2}-7 x+12}+\\frac{1}{x^{2}-9 x+20}+\\frac{1}{x^{2}-11 x+30} \\geq 0\\]",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\frac{1}{x^{2}-5 x+6}+\\frac{1}{x^{2}-7 x+12}+\\frac{1}{x^{2}-9 x+20}+\\frac{1}{x^{2}-11 x+30} \\geq 0 \\\\Leftrightarrow \\frac{1}{(x-2)(x-3)}+\\frac{1}{(x-3)(x-4)}+\\frac{1}{(x-4)(x-5)}+\\frac{1}{(x-5)(x-6)} \\geq 0(x \\neq 1 ; 2 ; 3 ; 4 ; 5 ; 6) \\\\Leftrightarrow \\frac{1}{x-2}-\\frac{1}{x-3}+\\frac{1}{x-3}-\\frac{1}{x-4}+\\frac{1}{x-4}-\\frac{1}{x-5}+\\frac{1}{x-5}-\\frac{1}{x-6} \\geq 0 \\\\Leftrightarrow \\frac{1}{x-2}-\\frac{1}{x-6} \\geq 0 \\Leftrightarrow \\frac{-4}{(x-2)(x-6)} \\geq 0 \\Leftrightarrow(x-2)(x-6)\\lt 0 \\\\Leftrightarrow\\left[\\begin{array} { l } { \\{ \\begin{array} { l } { x - 2 \\gt 0 } \\\\{ x - 6 \\lt 0 }\\end{array} } \\\\{ \\{ \\begin{array} { l } { x - 2 \\lt 0 } \\\\{ x - 6 > 0 }\\end{array} }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}2\\lt x\\lt 6 \\x \\in \\varnothing\\end{array}\\right.\\right. \\\\end{array}\\]<br>Kết hợp với điều kiện ta có %(2\\lt x\\lt 6)% và %(x \\neq 3 ; 4 ; 5)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho đa thức %(P(x)=6 x^{3}-7 x^{2}-16 x+m)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Tìm %(m)% để %(P(x))% chia hết cho %(2 x+3)%",
+        "question_images": [],
+        "solution": "%(P(x)=6 x^{3}-7 x^{2}-16 x+m=6 x^{3}+9 x^{2}-16 x^{2}-24 x+8 x+12+m-12)%<br>%(\\begin{array}{l}=3 x^{2}(2 x+3)-8 x(2 x+3)+4(2 x+3)+m-12 \\\\=(2 x+3)\\left(3 x^{2}-8 x+4\\right)+m-12\\end{array})%<br>Để %(P(x) \\vdots(2 x+3))% thì %(m-12=0 \\Leftrightarrow m=12)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Với %(m)% vừa tìm được ở câu %(a)%, hãy tìm số dư khi chia %(P(x))% cho %(3 x-2)% và phân tích ra các thừa số bậc nhất",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text {Với } m=12 ; P(x)=6 x^{3}-7 x^{2}-16 x+12=6 x^{3}-4 x^{2}-3 x^{2}+2 x-18 x+12 \\\\=2 x^{2}(3 x-2)-x(3 x-2)-6(3 x-2)=(3 x-2)\\left(2 x^{2}-x-6\\right)\\end{array}\\]<br>Phân tích %(P(x))% ra tích các thừa số bậc nhất:<br>%(P(x)=6 x^{3}-7 x^{2}-16 x+12=(2 x+3)(3 x-2)(x-2))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Cho đa thức %(P(x)=x^{5}+a x^{4}+b x^{3}+c x^{2}+d x+e)%<br>Biết %(P(1)=1 ; P(2)=4 ; P(3)=16 ; P(5)=25)%. Tính %(P(6) ; P(7))% ?",
+        "question_images": [],
+        "solution": "Vì %(P(1)=1 ; P(2)=4 ; P(3)=9 ; P(4)=16 ; P(5)=25)%<br>Mà %(P(x)=x^{5}+a x^{4}+b x^{3}+c x^{2}+d x+e \\Rightarrow P(x)=(x-1)(x-2)(x-3)(x-4)(x-5)+x^{2})%<br>%(\\begin{array}{l}\\Rightarrow P(6)=5 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1+6^{2}=156 \\\\Rightarrow P(7)=6 \\cdot 5 \\cdot 4 \\cdot 3 \\cdot 2+7^{2}=769\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c \\in[0 ; 1])% và %(a+b+c=2)%. Tìm giá trị lớn nhất của biểu thức<br>\\[P=a^{2}+b^{2}+c^{2}\\]",
+        "question_images": [],
+        "solution": "Vì %(a, b, c \\in[0 ; 1] \\Rightarrow(1-a)(1-b)(1-c) \\geq 0)%<br>Ta có:<br>%(\\begin{array}{l}(1-a)(1-b)(1-c)=1-(a+b+c)+(a b+b c+a c)-a b c(V i \\quad a+b+c=2) \\\\=-1+(a b+b c+a c)-a b c \\geq 0 \\\\Leftrightarrow a b+b c+a c \\geq a b c+1 \\geq 1(V i \\quad a b c \\geq 0) \\Rightarrow-2(a b+b c+a c) \\leq-2\\end{array})%<br>Lại có: %((a+b+c)^{2}=a^{2}+b^{2}+c^{2}+2(a b+b c+a c))%<br>%(\\Rightarrow P=a^{2}+b^{2}+c^{2}=(a+b+c)^{2}-2(a b+b c+a c)=4-2(a b+b c+a c) \\leq 4-2=2)%<br>Vậy %(P_{\\max }=2 \\Leftrightarrow(a, b, c))% là hoán vị của %((0 ; 1 ; 1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình bình hành %(A B C D(A C\\gt B D))%. Gọi %(\\mathrm{E}, \\mathrm{F})% lần lượt là hình chiếu của %(B, D)% lên %(\\mathrm{AC} ; \\mathrm{H}, \\mathrm{K})% lần lượt là hình chiếu của C trên AB và AC",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 3.0,
+        "content": "a) Tứ giác %(D F B E)% là hình gì ? Vì sao ?",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/27d8d70399e5be6c998a5050cd2c1139.png\" srcset=\"https://docdn.giainhanh.io/media/test/89a312da5c47b61b867d150362fda229.png 210w, https://docdn.giainhanh.io/media/test/310f49fbe6d61f568dd7203e413430d4.png 500w\" width=\"500\"/><br>%(D F / / B E)% (vì cùng vuông góc với AC )<br>%(\\triangle A F D=\\triangle C E B)% (Cạnh huyền - góc nhọn)<br>%(\\Rightarrow D F=B E)%<br>%(\\Rightarrow D F B E)% là hình bình hành",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Chứng minh: %(\\triangle C H K \\sim \\triangle B C A)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}B C / / A K \\Rightarrow \\widehat{B C K}=90^{\\circ} \\\\ \\widehat{A B C}=90^{\\circ}+\\widehat{B C H} \\text { (góc ngoài cùa } \\triangle C H B \\text { ) } \\\\ \\widehat{H C K}=90^{\\circ}+\\widehat{B C H} \\Rightarrow \\widehat{A B C}=\\widehat{H C K} \\\\ \\text { Có: } \\widehat{C K D}=\\widehat{A C D}+\\widehat{D A C} \\text { (góc ngoài của } \\triangle D K C \\text { ) } \\\\ \\widehat{H B C}=\\widehat{B A C}+\\widehat{B C A} \\text { mà } \\widehat{B C A}=\\widehat{D A C} ;\\widehat{ B A C}=\\widehat{D C A} \\\\ \\Rightarrow \\triangle C K D \\sim \\triangle C B H \\Rightarrow \\frac{C D}{B C}=\\frac{C K}{C H} \\Rightarrow \\frac{A B}{B C}=\\frac{C K}{C H} \\Rightarrow \\triangle C H K \\sim \\triangle B C A \\text { (c.g.c) }\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Chứng minh: %(A C^{2}=A B \\cdot A H+A D \\cdot A K)%",
+        "question_images": [],
+        "solution": "%(\\triangle A E B \\sim \\triangle A H C \\Rightarrow \\frac{A B}{A C}=\\frac{A E}{A H} \\Rightarrow A E . A C=A B \\cdot A H(1))%%(\\triangle A F D \\sim \\triangle A K C \\Rightarrow \\frac{A F}{A K}=\\frac{A D}{A C} \\Rightarrow A F \\cdot A C=A D \\cdot A K(2))%<br>Cộng (1) và (2) vế theo vế ta có: %(A E \\cdot A C+A F \\cdot A C=A B \\cdot A H+A D \\cdot A K)% (3)<br>Mà %(\\triangle A F D=\\triangle C E B(\\mathrm{cmt}) \\Rightarrow A F=C E)%<br>%((3) \\Leftrightarrow A C \\cdot(A E+E C)=A B \\cdot A H+A D \\cdot A K \\Leftrightarrow A C^{2}=A B \\cdot A H+A D \\cdot A K)%",
+        "question_type": "essay"
+    }
+]

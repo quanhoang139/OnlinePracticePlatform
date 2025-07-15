@@ -1,0 +1,66 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Cho số %(x(x \\in R ; x\\gt 0))% thoả mãn điều kiện: %(x^{2}+\\frac{1}{x^{2}}=7)%<br>Tính giá trị các biểu thức: %(\\mathrm{A}=\\mathrm{x}^{3}+\\frac{1}{\\mathrm{x}^{3}})% và %(\\mathrm{B}=\\mathrm{x}^{5}+\\frac{1}{\\mathrm{x}^{5}})%",
+        "question_images": [],
+        "solution": "Từ giả thiết suy ra: %(\\left(x+\\frac{1}{x}\\right)^{2}=9 \\Rightarrow x+\\frac{1}{x}=3()% do %(x\\gt 0))%<br>\\[\\begin{array}{l}\\Rightarrow 21=\\left(x+\\frac{1}{x}\\right)\\left(x^{2}+\\frac{1}{x^{2}}\\right)=\\left(x^{3}+\\frac{1}{x^{3}}\\right)+\\left(x+\\frac{1}{x}\\right) \\Rightarrow A=x^{3}+\\frac{1}{x^{3}}=18 \\\\Rightarrow 7.18=\\left(x^{2}+\\frac{1}{x^{2}}\\right)\\left(x^{3}+\\frac{1}{x^{3}}\\right)=\\left(x^{5}+\\frac{1}{x^{5}}\\right)+\\left(x+\\frac{1}{x}\\right) \\\\Rightarrow B=x^{5}+\\frac{1}{x^{5}}=7.18-3=123\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}\\frac{1}{\\sqrt{x}}+\\sqrt{2-\\frac{1}{y}}=2 \\\\ \\frac{1}{\\sqrt{y}}+\\sqrt{2-\\frac{1}{x}}=2\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Từ hệ suy ra %(\\frac{1}{\\sqrt{x}}+\\sqrt{2-\\frac{1}{y}}=\\frac{1}{\\sqrt{y}}+\\sqrt{2-\\frac{1}{x}})%<br>Nếu %(\\frac{1}{\\sqrt{x}}>\\frac{1}{\\sqrt{y}})% thì %(\\sqrt{2-\\frac{1}{y}}>\\sqrt{2-\\frac{1}{x}})%<br>nên (2) xảy ra khi và chỉ khi %(x=y)%<br>thế vào hệ ta giải được %(\\mathrm{x}=1, \\mathrm{y}=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Cho phương trình: %(\\mathrm{ax}^{2}+\\mathrm{bx}+\\mathrm{c}=0(\\mathrm{a} \\neq 0))% có hai nghiệm %(\\mathrm{x}_{1}, \\mathrm{x}_{2})% thoả mãn điều kiện: %(0 \\leq \\mathrm{x}_{1} \\leq \\mathrm{x}_{2} \\leq 2)%. Tìm giá trị lớn nhất của biểu thức:<br>\\[\\mathrm{Q}=\\frac{2 \\mathrm{a}^{2}-3 \\mathrm{ab}+\\mathrm{b}^{2}}{2 \\mathrm{a}^{2}-\\mathrm{ab}+\\mathrm{ac}}\\]",
+        "question_images": [],
+        "solution": "Theo Viét, ta có: %(x_{1}+x_{2}=-\\frac{b}{a}, x_{1} \\cdot x_{2}=\\frac{c}{a})%.<br>Khi đó<br>\\[\\begin{aligned}Q & =\\frac{2 a^{2}-3 a b+b^{2}}{2 a^{2}-a b+a c}=\\frac{2-3 \\cdot \\frac{b}{a}+\\left(\\frac{b}{a}\\right)^{2}}{2-\\frac{b}{a}+\\frac{c}{a}}(\\text { Vì } a \\neq 0) \\\\& =\\frac{2+3\\left(x_{1}+x_{2}\\right)+\\left(x_{1}+x_{2}\\right)^{2}}{2+\\left(x_{1}+x_{2}\\right)+x_{1} x_{2}}\\end{aligned}\\]<br>Vì %(0 \\leq x_{1} \\leq x_{2} \\leq 2)% nên %(x_{1}{ }^{2} \\leq x_{1} x_{2})% và %(x_{2}{ }^{2} \\leq 4)%<br>\\[\\Rightarrow \\mathrm{x}_{1}^{2}+\\mathrm{x}_{2}^{2} \\leq \\mathrm{x}_{1} \\mathrm{x}_{2}+4 \\Rightarrow\\left(\\mathrm{x}_{1}+\\mathrm{x}_{2}\\right)^{2} \\leq 3 \\mathrm{x}_{1} \\mathrm{x}_{2}+4\\]<br>Do đó %(\\mathrm{Q} \\leq \\frac{2+3\\left(\\mathrm{x}_{1}+\\mathrm{x}_{2}\\right)+3 \\mathrm{x}_{1} \\mathrm{x}_{2}+4}{2+\\left(\\mathrm{x}_{1}+\\mathrm{x}_{2}\\right)+\\mathrm{x}_{1} \\mathrm{x}_{2}}=3)%Đẳng thức xảy ra khi và chỉ khi %(x_{1}=x_{2}=2)% hoặc %(\\mathrm{x}_{1}=0, \\mathrm{x}_{2}=2)%Tức là<br>\\[\\left[\\begin{array}{l}\\left\\{\\begin{array} { l } { - \\frac { b } { a } = 4 } \\\\{ \\frac { c } { a } = 4 } \\\\{ \\{ \\begin{array} { l } { - \\frac { b } { a } } \\\\{ \\frac { c } { a } = 0 }\\end{array} }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}c=-b=4 a \\\\left\\{\\begin{array}{l}b=-2 a \\c=0\\end{array}\\right.\\end{array} \\text { Vậy } \\max Q=3\\right.\\right.\\end{array}\\right.\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(\\sqrt{\\mathrm{x}-2}+\\sqrt{\\mathrm{y}+2009}+\\sqrt{\\mathrm{z}-2010}=\\frac{1}{2}(\\mathrm{x}+\\mathrm{y}+\\mathrm{z}))%",
+        "question_images": [],
+        "solution": "ĐK: %(x \\geq 2, y \\geq-2009, z \\geq 2010)%Phương trình đã cho tương đương với:<br>\\[\\begin{array}{l}x+y+z=2 \\sqrt{x-2}+2 \\sqrt{y+2009}+2 \\sqrt{z-2010} \\\\Leftrightarrow(\\sqrt{x-2}-1)^{2}+(\\sqrt{y+2009}-1)^{2}+(\\sqrt{z-2010}-1)^{2}=0 \\\\left\\{\\begin{array} { l } { \\sqrt { x - 2 } - 1 = 0 } \\\\{ \\sqrt { y + 2 0 0 9 } - 1 = 0 } \\\\{ z - 2 0 1 0 = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=3 \\y=-2008 \\z=2011\\end{array}\\right.\\right.\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các số nguyên tố %(\\mathrm{p})% để %(4 \\mathrm{p}^{2}+1)% và %(6 \\mathrm{p}^{2}+1)% cũng là số nguyên tố.",
+        "question_images": [],
+        "solution": "%(\\mathrm{p})% là số nguyên tố %(\\Rightarrow 4 \\mathrm{p}^{2}+1\\gt 5)% và %(6 \\mathrm{p}^{2}+1>5)%<br>Đặt %(x=4 p^{2}+1=5 p^{2}-(p-1)(p+1))%<br>\\[y=6 p^{2}+1 \\Rightarrow 4 y=25 p^{2}-(p-2)(p+2)\\]<br>Khi đó:<br>- Nếu p chia cho 5 dư 4 hoặc dư 1 thì %((\\mathrm{p}-1)(\\mathrm{p}+1))% chia hết cho 5<br>%(\\Rightarrow x)% chia hết cho 5 mà %(x\\gt 5 \\Rightarrow x)% không là số nguyên tố<br>- Nếu p chia cho 5 dư 3 hoặc dư 2 thì %((\\mathrm{p}-2)(\\mathrm{p}+2))% chia hết cho 5<br>%(\\Rightarrow 4 \\mathrm{y})% chia hết cho 5 mà %(\\operatorname{UCLN}(4,5)=1 \\Rightarrow \\mathrm{y})% chia hết cho 5 mà %(\\mathrm{y}>)% 5<br>%(\\Rightarrow)% y không là số nguyên tốVậy p chia hết cho 5 , mà %(p)% là số nguyên tố %(\\Rightarrow p=5)%<br>Thử với %(\\mathrm{p}=5)% thì %(\\mathrm{x}=101, \\mathrm{y}=151)% là các số nguyên tố<br>Vậy: %(p=5)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.5,
+        "content": "Cho hình vuông %(\\mathrm{ABCD})% có hai đường chéo cắt nhau tại %(\\mathrm{E})%. Một đường thẳng quaA, cắt cạnh %(\\mathrm{BC})% tại %(\\mathrm{M})% và cắt đường thẳng %(\\mathrm{CD})% tại %(\\mathrm{N})%. Gọi %(\\mathrm{K})% là giao điểm của các đường thẳng %(\\mathrm{EM})% và %(\\mathrm{BN})%. Chứng minh rằng: %(\\mathrm{CK} \\perp \\mathrm{BN})%.",
+        "question_images": [],
+        "solution": "Trên cạnh %(\\mathrm{AB})% lấy điểm I sao cho %(\\mathrm{IB}=\\mathrm{CM})%<br>Ta có %(\\triangle \\mathrm{IBE}=\\Delta \\mathrm{MCE})% (c.g.c).<br>Suy ra %(\\mathrm{EI}=\\mathrm{EM}, \\angle \\mathrm{MEC}=\\angle \\mathrm{BEI} \\Rightarrow \\Delta \\mathrm{MEI})% vuông cân tại %(\\mathrm{E})%<br>Suy ra %(\\angle \\mathrm{EMI}=45^{\\circ}=\\angle \\mathrm{BCE})%<br>Mặt khác: %(\\frac{\\mathrm{IB}}{\\mathrm{AB}}=\\frac{\\mathrm{CM}}{\\mathrm{CB}}=\\frac{\\mathrm{MN}}{\\mathrm{AN}} \\Rightarrow \\mathrm{IM} / / \\mathrm{BN})%<br>%(\\angle \\mathrm{BCE}=\\angle \\mathrm{EMI}=\\angle \\mathrm{BKE} \\Rightarrow)% tứ giác %(\\mathrm{BECK})% nội tiếp%(\\angle \\mathrm{BEC}+\\angle \\mathrm{BKC}=180^{\\circ})%<br>Lại có: %(\\quad \\angle \\mathrm{BEC}=90^{\\circ} \\Rightarrow \\angle \\mathrm{BKC}=90^{\\circ})%.<br>Vậy %(\\mathrm{CK} \\perp \\mathrm{BN})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b401157227e22d9df93f03dd982057b2.png\" srcset=\"https://docdn.giainhanh.io/media/test/fb88279083c2738f1a183cc1ab2fdf0f.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.5,
+        "content": "Cho đường tròn %((\\mathrm{O}))% bán kính %(\\mathrm{R}=1)% và một điểm %(\\mathrm{A})% sao cho %(\\mathrm{OA}=\\sqrt{2})%.Vẽ các tiếp tuyến %(\\mathrm{AB}, \\mathrm{AC})% với đường tròn %((\\mathrm{O})(\\mathrm{B}, \\mathrm{C})% là các tiếp điểm).Một góc %(\\mathrm{xOy})% có số đo bằng %(45^{\\circ})% có cạnh %(\\mathrm{Ox})% cắt đoạn thẳng %(\\mathrm{AB})% tại %(\\mathrm{D})% và cạnh %(\\mathrm{Oy})% cắt đoạnthẳng %(\\mathrm{AC})% tại %(\\mathrm{E})%. Chứng minh rằng: %(2 \\sqrt{2}-2 \\leq \\mathrm{DE}\\lt 1)%.",
+        "question_images": [],
+        "solution": "Vì %(\\mathrm{AO}=\\sqrt{2}, \\mathrm{OB}=\\mathrm{OC}=1)% và %(\\angle \\mathrm{ABO}=\\angle \\mathrm{ACO}=90^{\\circ})%<br>suy ra %(\\mathrm{OBAC})% là hình vuông<br>Trên cung nhỏ %(\\mathrm{BC})% lấy điểm %(\\mathrm{M})% sao cho %(\\angle \\mathrm{DOM}=\\angle \\mathrm{DOB})% %(\\Rightarrow \\angle \\mathrm{MOE}=\\angle \\mathrm{COE})%<br>Suy ra %(\\triangle \\mathrm{MOD}=\\Delta \\mathrm{BOD} \\Rightarrow \\angle \\mathrm{DME}=90^{\\circ})%%(\\Delta \\mathrm{MOE}=\\Delta \\mathrm{COE} \\Rightarrow \\angle \\mathrm{EMO}=90^{\\circ})%<br>suy ra %(\\mathrm{D}, \\mathrm{M}, \\mathrm{E})% thẳng hàng, suy ra %(\\mathrm{DE})% là tiếp tuyến của %((\\mathrm{O}))%.<br>Vì %(\\mathrm{DE})% là tiếp tuyến suy ra %(\\mathrm{DM}=\\mathrm{DB}, \\mathrm{EM}=\\mathrm{EC})%<br>Ta có %(\\mathrm{DE}\\lt \\mathrm{AE}+\\mathrm{AD} \\Rightarrow 2 \\mathrm{DE}\\lt \\mathrm{AD}+\\mathrm{AE}+\\mathrm{BD}+\\mathrm{CE}=2)%<br>suy ra %(\\mathrm{DE}\\lt 1)%Đặt %(\\mathrm{DM}=\\mathrm{x}, \\mathrm{EM}=\\mathrm{y})% ta có %(\\mathrm{AD}^{2}+\\mathrm{AE}^{2}=\\mathrm{DE}^{2})%<br>\\[\\Leftrightarrow(1-\\mathrm{x})^{2}+(1-\\mathrm{y})^{2}=(\\mathrm{x}+\\mathrm{y})^{2}\\]<br>%(\\Leftrightarrow 1-(\\mathrm{x}+\\mathrm{y})=\\mathrm{xy} \\leq \\frac{(x+y)^{2}}{4})%<br>suy ra %(\\mathrm{DE}^{2}+4 . \\mathrm{DE}-4 \\geq 0)%%(\\Leftrightarrow \\mathrm{DE} \\geq 2 \\sqrt{2}-2)%Vậy %(2 \\sqrt{2}-2 \\leq \\mathrm{DE}\\lt 1)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d8de591432b989900c2722f6be1079d6.png\" srcset=\"https://docdn.giainhanh.io/media/test/3a6611ee1e94c98d2b13f4cc488ea7e8.png 187w\" width=\"187\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho biểu thức %(\\mathrm{P}=\\mathrm{a}^{2}+\\mathrm{b}^{2}+\\mathrm{c}^{2}+\\mathrm{d}^{2}+\\mathrm{ac}+\\mathrm{bd})%, trong đó %(\\mathrm{ad}-\\mathrm{bc}=1)%.Chứng minh rằng: %(\\mathrm{P} \\geq \\sqrt{3})%.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[(a c+b d)^{2}+(a d-b c)^{2}=a^{2} c^{2}+2 a b c d+b^{2} d^{2}+a^{2} d^{2}-2 a b c d+b^{2} c^{2}\\]<br>\\[=a^{2}\\left(c^{2}+d^{2}\\right)+b^{2}\\left(d^{2}+c^{2}\\right)=\\left(a^{2}+b^{2}\\right)\\left(c^{2}+d^{2}\\right)\\]<br>Vì %(a d-b c=1)% nên %(1+(a c+b d)^{2}=\\left(a^{2}+b^{2}\\right)\\left(c^{2}+d^{2}\\right))%<br>Áp dụng bất đẳng thức Cosi cho hai số không âm %(\\left(\\mathrm{a}^{2}+\\mathrm{b}^{2}\\right) ;\\left(\\mathrm{c}^{2}+\\mathrm{d}^{2}\\right))% có: %(P=a^{2}+b^{2}+c^{2}+d^{2}+a c+b d \\geq 2 \\sqrt{\\left(a^{2}+b^{2}\\right)\\left(c^{2}+d^{2}\\right)}+a c+b d)%<br>%(\\Rightarrow \\mathrm{P} \\geq 2 \\sqrt{1+(\\mathrm{ac}+\\mathrm{bd})^{2}}+\\mathrm{ac}+\\mathrm{bd} \\quad()% theo (1))<br>Rõ ràng %(\\mathrm{P}\\gt 0)% vì: %(2 \\sqrt{1+(\\mathrm{ac}+\\mathrm{bd})^{2}}>|\\mathrm{ac}+\\mathrm{bd}|^{2})%<br>Đặt %(x=a c+b d)%, ta có: %(P \\geq 2 \\sqrt{1+x^{2}}+x)%<br>\\[\\Leftrightarrow P^{2} \\geq 4\\left(1+x^{2}\\right)+4 x \\sqrt{1+x^{2}}+x^{2}=\\left(1+x^{2}\\right)+4 x \\sqrt{1+x^{2}}+4 x^{2}+3\\]<br>\\[=\\left(\\sqrt{1+x^{2}}+2 x\\right)^{2}+3 \\geq 3\\]<br>Vậy %(P \\geq 3)%",
+        "question_type": "essay"
+    }
+]

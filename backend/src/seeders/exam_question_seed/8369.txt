@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Cho %(x=3-\\sqrt{5})%. Tính giá trị của biểu thức %(A=x^{5}-8 x^{4}+17 x^{3}+6 x^{2}-116 x+104)%.",
+        "question_images": [],
+        "solution": "Ta có %(x=3-\\sqrt{5} \\Leftrightarrow 3-x=\\sqrt{5} \\Rightarrow(3-x)^{2}=5 \\Rightarrow x^{2}-6 x+4=0)%<br>\\[\\begin{array}{l}A=x^{5}-8 x^{4}+17 x^{3}+6 x^{2}-116 x+104 \\\\=\\left(x^{5}-6 x^{4}+4 x^{3}\\right)-2\\left(x^{4}-6 x^{3}+4 x^{2}\\right)+\\left(x^{3}-6 x^{2}+4 x\\right)+20\\left(x^{2}-6 x+4\\right)+24 \\A=x^{3}\\left(x^{2}-6 x+4\\right)-2 x^{2}\\left(x^{2}-6 x+4\\right)+x\\left(x^{2}-6 x+4\\right)+20\\left(x^{2}-6 x+4\\right)+24 \\A=24\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho %(x, y)% là hai số thực dương. Chứng minh rằng:<br>\\[\\sqrt{2\\left(\\sqrt{x^{2}+y^{2}}-x\\right)\\left(\\sqrt{x^{2}+y^{2}}-y\\right)}=x+y-\\sqrt{x^{2}+y^{2}}\\]",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}2\\left(\\sqrt{x^{2}+y^{2}}-x\\right)\\left(\\sqrt{x^{2}+y^{2}}-y\\right)=2\\left[x^{2}+y^{2}-(x+y) \\sqrt{x^{2}+y^{2}}+x y\\right] \\\\=\\left(x^{2}+y^{2}+2 x y\\right)-2(x+y) \\sqrt{x^{2}+y^{2}}+x^{2}+y^{2} \\\\=(x+y)^{2}-2(x+y) \\sqrt{x^{2}+y^{2}}+x^{2}+y^{2}=\\left(x+y-\\sqrt{x^{2}+y^{2}}\\right)^{2}\\end{array}\\]<br>Do %(x\\gt 0, y>0)% nên %((x+y)^{2}=x^{2}+y^{2}+2 x y>x^{2}+y^{2})%<br>Suy ra : %(x+y>\\sqrt{x^{2}+y^{2}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(x^{2}-20 x+24+8 \\cdot \\sqrt{3(x-1)}=0)%.",
+        "question_images": [],
+        "solution": "%(x^{2}-20 x+24+8 \\cdot \\sqrt{3(x-1)}=0 (1))%<br>Điều kiện: %(x \\geq 1)%<br>Ta có: (1) %(\\Leftrightarrow\\left(x^{2}-8 x+16\\right)-(12 x-12-8 \\sqrt{3 x-3}+4)=0)%<br>%(\\Leftrightarrow(x-4)^{2}=(2 \\sqrt{3 x-3}-2)^{2})%<br>\\[\\Leftrightarrow\\left[\\begin{array} { l } { x - 4 = 2 \\sqrt { 3 x - 3 } - 2 } \\\\{ x - 4 = 2 - 2 \\sqrt { 3 x - 3 } }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}2 \\sqrt{3 x-3}=x-2 \\\\2 \\sqrt{3 x-3}=6-x\\end{array}\\right.\\right.\\]<br>Giải (2):   %((2)\\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 2 \\\\ 4(3 x-3)=x^{2}-4 x+4\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 2 \\\\ x^{2}-16 x+16=0\\end{array} \\Leftrightarrow x=8+4 \\sqrt{3}\\right.\\right.)%<br>Giải (3):   (3) %(\\Leftrightarrow\\left\\{\\begin{array}{l}x \\leq 6 \\\\ x^{2}-24 x+48=0\\end{array} \\Leftrightarrow x=12-4 \\sqrt{6}\\right.)%<br>%(\\mathrm{KL})% : Phương trình (1) có nghiệm: %(x=8+4 \\sqrt{3})% và %(x=12-4 \\sqrt{6})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x^{2}+4 y^{2}+3=4 x \\\\ x^{3}+12 x+8 y^{3}=6 x^{2}+9\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}x^{2}+4 y^{2}+3=4 x (1)\\\\ x^{3}+12 x+8 y^{3}=6 x^{2}+9 (2)\\end{array}\\right.)%<br>Ta có: %((1) \\Leftrightarrow 9=12 x-3 x^{2}-12 y^{2})%, thế vào phương trình (2) và thu gọn được:<br>\\[\\begin{array}{l}x^{3}+8 y^{3}=3\\left(x^{2}-4 y^{2}\\right) \\Leftrightarrow(x+2 y)\\left(x^{2}-2 x y+4 y^{2}-3 x+6 y\\right)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x+2 y=0 \\x^{2}-2 x y+4 y^{2}-3 x+6 y=0\\end{array}\\right.\\end{array}\\]<br>*) TH1: %(x+2 y=0 \\Leftrightarrow y=\\frac{-x}{2})%, thế vào phương trình (1) ta được %(2 x^{2}+3=4 x \\Leftrightarrow 2 x^{2}-4 x+3=0)%, phương trình vô nghiệm.<br>*) %(\\mathrm{TH} 2)% : %(x^{2}-2 x y+4 y^{2}-3 x+6 y=0)%, trừ vế theo vế của phương này với phương trình (1) ta được:<br>\\[-2 x y-3 x+6 y-3=-4 x \\Leftrightarrow 2 x y-x-6 y+3=0 \\Leftrightarrow(x-3)(2 y-1)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=3 \\y=\\frac{1}{2}\\end{array}\\right.\\]<br>+ Nếu %(x=3)% thay vào phương trình (1) ta được: %(4 y^{2}=0 \\Leftrightarrow y=0)%, cặp %((x ; y)=(3 ; 0))% thoả mãn phương trình %((2))%.<br>+ Nếu %(y=\\frac{1}{2})%, thay vào phương trình (1) ta được: %((\\mathrm{x}-2)^{2}=0 \\Leftrightarrow \\mathrm{x}=)% 2, cặp %((x ; y)=\\left(2 ; \\frac{1}{2}\\right))% thoả mãn phương trình (2).<br>Vậy nghiệm của hệ đã cho là %((\\mathrm{x} ; \\mathrm{y})=(3 ; 0))% và %((\\mathrm{x} ; \\mathrm{y})=(2 ; 1 / 2))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Tìm các số nguyên %(x, y)% thoả mãn: %(5 x^{2}+5 y^{2}+6 x y-20 x-20 y+24=0)%",
+        "question_images": [],
+        "solution": "%(5 x^{2}+5 y^{2}+6 x y-20 x-20 y+24=0 (*))%<br>Ta có: %((*) \\Leftrightarrow 5(x+y)^{2}-4 x y-20(x+y)+24=0)%<br>Đặt %(x+y=a, x y=b)% thu được:<br>\\[5 a^{2}-4 b-20 a+24=0 \\Rightarrow b=\\frac{5 a^{2}-20 a+24}{4} (1)\\]<br>Mặt khác: %((x-y)^{2} \\geq 0 \\Rightarrow(x+y)^{2}-4 x y \\geq 0 \\Rightarrow a^{2} \\geq 4 b)% hay %(b \\leq \\frac{a^{2}}{4})% (2)<br>Từ (1) và (2) được:<br>\\[\\frac{5 a^{2}-20 a+24}{4} \\leq \\frac{a^{2}}{4} \\Leftrightarrow a^{2}-5 a+6 \\leq 0 \\Leftrightarrow(a-2)(a-3) \\leq 0 \\Leftrightarrow 2 \\leq a \\leq 3\\]<br>Vì %(a)% nguyên nên %(a=2)% hoặc %(a=3)%.<br>%(+))% Với %(\\mathrm{a}=2 \\Rightarrow \\mathrm{b}=1)% ta có: %(\\left\\{\\begin{array}{l}x+y=2 \\\\ x y=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=1 \\\\ y=1\\end{array}\\right.\\right.)%<br>+ ) Với %(\\mathrm{a}=3 \\Rightarrow b=\\frac{9}{4})% (loại)<br>Vậy %(\\mathrm{x}=1, \\mathrm{y}=1)% thoả mãn yêu cầu.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các số nguyên dương %(n)% sao cho %(n^{4}+n^{3}+1)% là số chính phương.",
+        "question_images": [],
+        "solution": "Đặt %(A=n^{4}+n^{3}+1)%<br>+ ) Nếu %(\\mathrm{n}=1)% thì %(\\mathrm{A}=3)%, không là số chính phương.<br>+) Nếu n %(=2)% thì A = 25, là số chính phượng.<br>+) Nếu %(n\\gt 2)% ta có: %(4 A=4 n^{4}+4 n^{3}+4=\\left(2 n^{2}+n\\right)^{2}+4-n^{2}\\lt \\left(2 n^{2}+n\\right)^{2})%<br>\\[\\begin{array}{l}4 A=4 n^{4}+4 n^{3}+4>4 n^{4}+4 n^{3}+4+n^{2}-8 n^{2}-4 n=\\left(2 n^{2}+n-2\\right)^{2} \\\\Rightarrow\\left(2 n^{2}+n-2\\right)^{2}\\lt 4 A\\lt \\left(2 n^{2}+n\\right)^{2}\\end{array}\\]<br>Vì A là sô chính phương nên %(4 \\mathrm{~A})% cũng là sô chính phương. Do đó ta được:<br>\\[4 \\mathrm{~A}=\\left(2 n^{2}+n-1\\right)^{2} \\Leftrightarrow 4 n^{4}+4 n^{3}+4=\\left(2 n^{2}+n-1\\right)^{2} \\Leftrightarrow 3 n^{2}+2 n+3=0 \\text {, }\\]<br>vô nghiệm.<br>Vậy n %(=2)% là số cần tìm duy nhất.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Cho tam giác %(A B C)% có %(A B=c, A C=b, B C=a)%. Chứng minh rằng: %(\\sin \\frac{A}{2} \\leq \\frac{a}{2 \\sqrt{b c}})%",
+        "question_images": [],
+        "solution": "Kẻ Ax là tia phân giác của góc %(\\widehat{B A C})% kẻ %(B M \\perp A x)% tại %(\\mathrm{M}, C N \\perp A x)% tại %(\\mathrm{N})%. Từ hai tam giác vuông %(\\mathrm{AMB})% và %(\\mathrm{ANC})% có:<br>\\[\\sin M A B=\\sin \\frac{A}{2}=\\frac{B M}{A B} \\Rightarrow B M=c \\cdot \\sin \\frac{A}{2}\\]<br>và %(\\sin \\widehat{M A B}=\\sin \\frac{A}{2}=\\frac{B M}{A B} \\Rightarrow B M=c \\cdot \\sin \\frac{A}{2})% , do đó: %(\\sin\\widehat{N A C}=\\sin \\frac{A}{2}=\\frac{N C}{A C} \\Rightarrow N C=b \\cdot \\sin \\frac{A}{2})%<br>Ta luôn có: %(B M+N C=(b+c) \\cdot \\sin \\frac{A}{2})%<br>\\[B M+N C \\leq B C=a \\Rightarrow(b+c) \\cdot \\sin \\frac{A}{2} \\leq a \\Leftrightarrow \\sin \\frac{A}{2} \\leq \\frac{a}{b+c}\\]<br>Do %(b+c \\geq 2 \\sqrt{b c})% nên %(\\frac{1}{b+c} \\leq \\frac{1}{2 \\sqrt{b c}})% , do đó: %(\\sin \\frac{A}{2} \\leq \\frac{a}{2 \\sqrt{b c}})% (Dấu đẳng thức xảy ra khi %(\\mathrm{b}=\\mathrm{c})% ).<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/988627a65a823766c6a30e94623b0bac.png\" srcset=\"https://docdn.giainhanh.io/media/test/83dfa5dfe94a14972eabe625340c64fe.png 245w, https://docdn.giainhanh.io/media/test/35c6cac43ba4f32504cc3e838af96824.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho tam giác %(A B C)% có %(A B=c, A C=b, B C=a(c\\lt a, c\\lt b))%. Gọi %(M, N)% lần lượt là các tiếp điểm của cạnh %(A C)% và cạnh %(B C)% với đường tròn tâm %(O)% nội tiếp tam giác %(A B C)%. Đường thẳng %(M N)% cắt tia %(A O)% tại %(P)% và cắt tia %(B O)% tại %(Q)%. Gọi %(E, F)% lần lượt là trung điểm của %(A B)% và %(A C)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng: %(\\frac{M P}{a}=\\frac{N Q}{b}=\\frac{P Q}{c})%.",
+        "question_images": [],
+        "solution": "Ta có %((\\mathrm{O}))% nội tiếp tam giác %(\\mathrm{ABC})% nên %(\\mathrm{AO})% và %(\\mathrm{BO})% là phân giác<br>%(\\Rightarrow \\widehat{BOP}=\\frac{1}{2}(\\widehat{BAC}+\\widehat{BAC}) ; \\mathrm{CM}=\\mathrm{CN} \\Rightarrow \\triangle C M N)% cân tại %(\\mathrm{C})%.<br>%(\\Rightarrow \\widehat{B N P}=180^{\\circ}-\\widehat{A N C}=180^{\\circ}-\\frac{180^{\\circ}-\\widehat{A C B}}{2}=180^{\\circ}-\\frac{\\widehat{B A C}+\\widehat{A  B C}}{2})%<br>%(\\Rightarrow \\widehat{B O P}+\\widehat{B N P}=180^{\\circ} \\Rightarrow)% tứ giác BOPN nội tiếp.<br>%(\\Rightarrow\\widehat{O B N}=\\widehat{OPM})% (cùng bù với %(\\widehat{OPN})% ) hay %(\\widehat{O B C}=\\widehat{O P M})% (1)<br>Mặt khác: %(\\widehat{O M C}=\\widehat{O N C}=90^{\\circ} \\Rightarrow)% tứ giác %(\\mathrm{OMCN})% nội tiếp<br>%(\\Rightarrow \\widehat{O M N}=\\widehat{O C N})% hay %(\\widehat{O M P}=\\widehat{O M P} \\quad)% (2).<br>Từ (1) và (2) ta được hai tam giác %(\\mathrm{OBC})% và %(\\mathrm{OPM})% đồng dạng.<br>%(\\Rightarrow \\frac{P M}{B C}=\\frac{O P}{O B}=\\frac{O M}{O C})%<br>Chứng minh tương tự ta được:<br>+) Hai tam giác %(\\mathrm{OQN})% và %(\\mathrm{OAC})% đồng dạng<br>\\[\\Rightarrow \\frac{Q N}{A C}=\\frac{O N}{A C} \\Rightarrow \\frac{Q N}{A C}=\\frac{O M}{O C}(\\text { do } \\mathrm{OM}=\\mathrm{ON})\\]<br>+ Hai tam giác %(\\mathrm{OPQ})% và %(\\mathrm{OBA})% dồng dạng %(\\Rightarrow \\frac{P Q}{B A}=\\frac{O P}{O B})%<br>Vậy ta được:<br>\\[\\frac{P M}{B C}=\\frac{Q N}{A C}=\\frac{P Q}{A B} \\Leftrightarrow \\frac{M P}{a}=\\frac{N Q}{b}=\\frac{P Q}{c}\\]<br>(đpcm)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5ffb74185d0d72c62e1d67300223a583.png\" srcset=\"https://docdn.giainhanh.io/media/test/d61c3adb42f6f9391c7a0fc70f497831.png 245w, https://docdn.giainhanh.io/media/test/d962aed504de2762c8a66e8703257bd5.png 500w, https://docdn.giainhanh.io/media/test/7ca37ceb23679d69e049f3170b9e2200.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Trên đoạn thẳng %(N C)% lấy điểm %(I)% sao cho %(M F=N I)%. Chứng minh %(I Q)% đi qua trung điểm của %(N F)%.",
+        "question_images": [],
+        "solution": "Ta có tứ giác %(\\mathrm{AOQM})% nội tiếp %(\\Rightarrow \\widehat{A M O}=\\widehat{A Q O} \\Rightarrow \\widehat{A Q O}=90^{\\circ} \\Rightarrow \\triangle A Q B)% vuông tại Q<br>%(\\Rightarrow \\widehat{E Q B}=\\widehat{E B Q} \\Rightarrow \\widehat{E Q B}=\\widehat{Q B C})% (do %(\\widehat{Q B C}=\\widehat{E B Q}) \\Rightarrow E Q / / B C)%<br>Mặt khác: %(\\mathrm{E}, \\mathrm{F})% lần lượt là trung điềm của %(\\mathrm{AB})% và %(\\mathrm{AC} \\Rightarrow E F / / B C)%<br>%(\\Rightarrow E, Q, F)% thẳng hàng %(\\Rightarrow Q F / / N I)% (1)<br>Lại có: %(\\mathrm{CM}=\\mathrm{CN}, \\mathrm{MF}=\\mathrm{NI})% (gt)<br>\\[\\Rightarrow \\frac{M F}{C M}=\\frac{N I}{C N} \\Rightarrow F I / / M N \\Rightarrow F I / / N Q (2)\\]<br>Từ (1) và (2) ta được tứ giác FINQ là hình bình hành, do đó %(\\mathrm{IQ})% đi qua trung điểm của NF.",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 1.0,
+        "content": "Cho %(x, y, z)% là các số thực dương. Tìm giá trị lớn nhất của biểu thức:<br>\\[P=\\sqrt{\\frac{x}{y+z+2 x}}+\\sqrt{\\frac{y}{z+x+2 y}}+\\sqrt{\\frac{z}{x+y+2 z}}\\]",
+        "question_images": [],
+        "solution": "Chứng minh: Với hai số thực dương %(\\mathrm{a}, \\mathrm{b})% ta có: %(\\frac{1}{a+b} \\leq \\frac{1}{4}\\left(\\frac{1}{a}+\\frac{1}{b}\\right) (*))% dấu bằng xảy ra khi %(\\mathrm{a}=\\mathrm{b})%.<br>Âp dụng bất đẵng thức Côsi ta có:<br>\\[\\sqrt{\\frac{x}{y+z+2 x} \\cdot \\frac{1}{4}} \\leq \\frac{1}{2}\\left(\\frac{x}{y+z+2 x}+\\frac{1}{4}\\right) \\Leftrightarrow \\sqrt{\\frac{x}{y+z+2 x}} \\leq \\frac{x}{y+z+2 x}+\\frac{1}{4}\\]<br>Áp dụng %((*))% :<br>\\[\\begin{array}{l}\\text { Áp dụng }\\left({ }^{*}\\right): \\frac{1}{y+z+2 x}=\\frac{1}{(x+y)+(x+z)} \\leq \\frac{1}{4}\\left(\\frac{1}{x+y}+\\frac{1}{x+z}\\right) \\\\Rightarrow \\frac{x}{y+z+2 x} \\leq \\frac{1}{4}\\left(\\frac{x}{x+y}+\\frac{x}{x+z}\\right) \\Rightarrow \\sqrt{\\frac{x}{y+z+2 x}} \\leq \\frac{1}{4}\\left(\\frac{x}{x+y}+\\frac{x}{x+z}+1\\right)\\end{array}\\]<br>Tương tự ta được: %(\\sqrt{\\frac{y}{z+x+2 y}} \\leq \\frac{1}{4}\\left(\\frac{y}{y+z}+\\frac{y}{y+x}+1\\right))%<br>\\[\\begin{array}{r}\\sqrt{\\frac{z}{x+y+2 z}} \\leq \\frac{1}{4}\\left(\\frac{z}{z+x}+\\frac{z}{z+y}+1\\right) \\\\Rightarrow P \\leq \\frac{1}{4}\\left(\\frac{x}{x+y}+\\frac{x}{x+z}+\\frac{y}{y+x}+\\frac{y}{y+z}+\\frac{z}{z+x}+\\frac{z}{z+y}+3\\right)=\\frac{3}{2}\\end{array}\\]<br>Vậy giá trị lớn nhất của %(\\mathrm{P})% là %(\\frac{3}{2})% khi %(\\mathrm{x}=\\mathrm{y}=\\mathrm{z})%",
+        "question_type": "essay"
+    }
+]

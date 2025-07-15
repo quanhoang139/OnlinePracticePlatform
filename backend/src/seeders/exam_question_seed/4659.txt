@@ -1,0 +1,182 @@
+[
+    {
+        "title": "1",
+        "group_content": "Tìm các giới hạn sau.",
+        "group_images": [],
+        "related_question_count": 5,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) %(\\lim _{x \\rightarrow-\\infty} \\frac{6 x^{3}-2 x^{2}+3}{x^{3}+3 x+2})%",
+        "question_images": [],
+        "solution": "%(\\lim _{x \\rightarrow-\\infty} \\frac{6 x^{3}-2 x^{2}+3}{x^{3}+3 x+2}=\\lim _{x \\rightarrow-\\infty} \\frac{x^{3}\\left(6-\\frac{2}{x}+\\frac{3}{x^{3}}\\right)}{x^{3}\\left(1+\\frac{3}{x^{2}}+\\frac{2}{x^{3}}\\right)}=6)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) %(\\lim _{x \\rightarrow 1} \\frac{2 x-\\sqrt{3 x+1}}{x-1})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { } \\lim _{x \\rightarrow 1} \\frac{2 x-\\sqrt{3 x+1}}{x-1}=\\lim _{x \\rightarrow 1} \\frac{(2 x-\\sqrt{3 x+1}) \\cdot(2 x+\\sqrt{3 x+1})}{(x-1) \\cdot(2 x+\\sqrt{3 x+1})} \\\\ =\\lim _{x \\rightarrow 1} \\frac{(x-1)(4 x+1)}{(x-1) \\cdot(2 x+\\sqrt{3 x+1})}=\\frac{5}{4}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "%(\\lim \\frac{4.5^{n}+2}{3.2^{n}-2.5^{n}})%",
+        "question_images": [],
+        "solution": "%(\\lim \\frac{4 \\cdot 5^{n}+2}{3 \\cdot 2^{n}-2 \\cdot 5^{n}}=\\lim \\frac{4 \\cdot\\left(\\frac{5}{5}\\right)^{n}+\\frac{2}{5^{n}}}{3 \\cdot\\left(\\frac{2}{5}\\right)^{n}-2 \\cdot\\left(\\frac{5}{5}\\right)^{n}}=-2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 0.5,
+        "content": "%(\\lim _{x \\rightarrow 1^{+}} \\frac{-x+2}{x-1})%",
+        "question_images": [],
+        "solution": "Ta có : %(\\left\\{\\begin{array}{c}\\lim _{x \\rightarrow 1^{+}}(-x+2)=1\\gt 0 \\\\ \\lim _{x \\rightarrow 1^{+}}(x-1)=0 \\\\ x-1>0, \\forall x>1\\end{array} \\quad \\Rightarrow \\lim _{x \\rightarrow 1^{+}} \\frac{-x+2}{x-1}=+\\infty\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "e ",
+        "point": 0.5,
+        "content": "%(\\lim _{x \\rightarrow 0} \\frac{\\sqrt[n]{1+\\alpha x} \\cdot \\sqrt[m]{1+\\beta x}-1}{x})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { } \\lim _{x \\rightarrow 0} \\frac{\\sqrt[n]{1+\\alpha x} \\cdot \\sqrt[m]{1+\\beta x}-1}{x}=\\lim _{x \\rightarrow 0}\\left(\\frac{\\sqrt[m]{1+\\beta x} \\cdot(\\sqrt[n]{1+\\alpha x}-1)}{x}+\\frac{\\sqrt[m]{1+\\beta x}-1}{x}\\right) \\\\ =\\lim _{x \\rightarrow 0}\\left(\\frac{\\sqrt[m]{1+\\beta x} \\cdot(\\sqrt[n]{1+\\alpha x}-1)) \\cdot\\left(\\sqrt[n]{1+\\alpha x}+\\sqrt[n-1]{n-\\alpha}+n^{n-2}+. .+\\sqrt[n]{1+\\alpha x}+1\\right)}{x \\cdot\\left(\\sqrt[n]{1+\\alpha x}+\\sqrt[n]{1+\\alpha x}{ }^{n-2}+. .+\\sqrt[n]{1+\\alpha x}+1\\right)}\\right. \\\\ \\left.+\\frac{(\\sqrt[m]{1+\\beta x}-1) \\cdot\\left(\\sqrt[m]{1+\\beta x}{ }^{n-1}+\\ldots+1\\right)}{x \\cdot\\left(\\sqrt[m]{1+\\beta x}{ }^{n-1}+\\ldots+1\\right)}\\right)=\\frac{\\alpha}{n}+\\frac{\\beta}{m}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho hàm số %(f(x)=\\left\\{\\begin{array}{c}\\frac{3 x^{2}+7 x+2}{x+2}, \\text { khi } x \\neq-2 \\\\ -m x^{2}+1, \\text { khi } x=-2\\end{array}\\right.)%.Tìm m để hàm số liên tục tại %(x=-2)%",
+        "question_images": [],
+        "solution": "Ta có: %(\\lim _{x \\rightarrow-2} \\frac{3 x^{2}+7 x+2}{x+2}=\\lim _{x \\rightarrow-2} \\frac{(3 \\mathrm{x}+1)(\\mathrm{x}+2)}{x+2}=-5)%<br>Mặt khác : %(f(-2)=-4 m+1)%<br>Hàm số liên tục thì : %(-4 m+1=-5 \\Leftrightarrow m=\\frac{3}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Tính đạo hàm của các hàm số sau.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) %(y=\\left(\\frac{1}{4} x^{4}+4 \\sqrt{x}-\\frac{3}{x}-51\\right)^{1000})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { } y^{\\prime}=\\left[\\left(\\frac{1}{4} x^{4}+4 \\sqrt{x}-\\frac{3}{x}-51\\right)^{1000}\\right] \\\\ =1000\\left(\\frac{1}{4} x^{4}+4 \\sqrt{x}-\\frac{3}{x}-51\\right)^{999} \\cdot\\left(x^{3}+\\frac{2}{\\sqrt{x}}+\\frac{3}{x^{2}}\\right)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) %(y=\\cos \\left(\\frac{2 x+5}{x-1}\\right))%",
+        "question_images": [],
+        "solution": "%(y^{\\prime}=\\left[\\cos \\left(\\frac{2 x+5}{x-1}\\right)\\right]^{\\prime}=\\frac{7}{(x-1)^{2}} \\sin \\left(\\frac{2 x+5}{x-1}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) %(y=\\sqrt{5 x^{4}-2 x^{3}+\\cos 2 x})%",
+        "question_images": [],
+        "solution": "%(y^{\\prime}=\\sqrt{5 x^{4}-2 x^{3}+\\cos 2 \\mathrm{x}}=\\frac{10 x^{3}-3 x-\\sin 2 x}{\\sqrt{5 x^{4}-2 x^{3}+\\cos 2 \\mathrm{x}}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 0.5,
+        "content": "d) %(y=\\sin ^{10} \\frac{2}{x^{2}})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}y^{\\prime}=\\left(\\sin ^{10} \\frac{2}{x^{2}}\\right)^{\\prime}=10 \\cdot \\sin ^{9} \\frac{2}{x^{2}}\\left(\\sin \\frac{2}{x^{2}}\\right)^{\\prime} \\\\ =\\frac{-40}{x^{3}} \\cdot \\sin ^{9} \\frac{2}{x^{2}} \\cdot \\sin \\frac{4}{x^{2}}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho hàm số %(y=f(x)=-x^{3}+6 x^{2}-9 x \\cos)% đồ thị (C)",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "Viết phương trình tiếp tuyến của %((C))% biết tiếp điểm có hoành độ bằng - 2",
+        "question_images": [],
+        "solution": "Gọi PTTT có dạng : %(y=y^{\\prime}\\left(x_{0}\\right) .\\left(\\mathrm{x}-\\mathrm{x}_{0}\\right)+y\\left(x_{0}\\right))%<br>Ta có: %(y^{\\prime}=-3 x^{2}+12 x-9)%<br>Hoành độ tiếp điểm bằng %(-2 \\Leftrightarrow x_{0}=-2)%<br>\\[\\begin{array}{l}y(-2)=50 \\y^{\\prime}(-2)=-45 \\\\text { PTTT: } y=-45(x+2)+50=-45 x-40\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Giải phương trình %(f^{\\prime}(\\cos x)=0)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l} f^{\\prime}(\\cos x)=0 \\Leftrightarrow \\cos ^{2} x+12 \\cos x-9=0 \\\\ \\Leftrightarrow\\left[\\begin{array}{c}\\cos x=3(P T V N) \\\\ \\cos x=1\\end{array}\\right. \\\\ \\cos x=1 \\Leftrightarrow x=k 2 \\pi, k \\in Z\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 0.5,
+        "content": "Cho hàm số %(y=\\frac{2 x-2}{x+1})% có đồ thị %((C))%Viết phương trình tiếp tuyến với đồ thị %((C))% biết tiếp tuyến vuông góc với đường thẳng %(y=-x+1)%",
+        "question_images": [],
+        "solution": "Gọi PTTT có dạng : %(y=y^{\\prime}\\left(x_{0}\\right) .\\left(\\mathrm{x}-\\mathrm{x}_{0}\\right)+y\\left(x_{0}\\right))%<br>Ta có %(: y^{\\prime}=\\left(\\frac{2 x-2}{x+1}\\right)^{\\prime}=\\frac{4}{(x+1)^{2}})%<br>Vì PTTT vuông góc với %(\\mathrm{y}=-\\mathrm{x}+1)% nên ta có:<br>\\[\\begin{array}{l}y^{\\prime}\\left(x_{0}\\right) \\cdot(-1)=-1 \\Leftrightarrow \\frac{4}{\\left(x_{0}+1\\right)^{2}}=1\\left(x_{0} \\neq-1\\right) \\\\left(x_{0}+1\\right)^{2}=4 \\Leftrightarrow\\left[\\begin{array}{c}x_{0}=1 \\x_{0}=-3\\end{array}\\right.\\end{array}\\]<br>Tại %(x_{0}=1: y^{\\prime}(1)=1 ; y(1)=0)%<br>PTTT: %(y=x-1)%<br>Tại %(x_{0}=-3: \\quad y^{\\prime}(-3)=1 ; y(-3)=4)%<br>PTTT: %(y=x+7 \\quad)%<br>KL:",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình chóp %(S . A B C D)% có đáy là hình vuông cạnh a, %(S A \\perp(A B C D))%, %(\\mathrm{SA}=a \\sqrt{2})%",
+        "group_images": [],
+        "related_question_count": 5,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Chứng minh : %(B D \\perp(\\mathrm{SAC}),(\\mathrm{SAB}) \\perp(\\mathrm{SAD}))%",
+        "question_images": [],
+        "solution": "+) %(\\mathrm{Cm}: B D \\perp(S A C))%<br>Ta có : %(\\left\\{\\begin{array}{l}B D \\perp A C \\\\ B D \\perp S A\\end{array}\\right.)% ( %(\\mathrm{ABCD})% là hình vuông, %(\\mathrm{SA})% là đường cao )<br>%(\\Rightarrow B D \\perp(S A C))%<br>%(+) \\mathrm{cm}:(S A B) \\perp(S A D) \\Rightarrow \\mathrm{cm}: A D \\perp(S A B))%<br>Ta có: %(\\left\\{\\begin{array}{l}A D \\perp S A \\\\ A D \\perp A B\\end{array}\\right.)% ( %(\\mathrm{ABCD})% là hình vuông, SA là đường cao )<br>%(\\Rightarrow A D \\perp(S A B))% mà %(A D \\subset(S A D) \\Rightarrow(S A D) \\perp(S A B))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b91ce6bbf0ea29e469f549d3f4b95990.png\" srcset=\"https://docdn.giainhanh.io/media/test/6f95aeae0db41fa22906baa1a98e66fa.png 168w, https://docdn.giainhanh.io/media/test/297bfa7de73b968a725c8d7013321028.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Gọi H là hình chiếu vuông góc của A trên %(\\mathrm{SB})%. Chứng minh %(B C \\perp A H)%",
+        "question_images": [],
+        "solution": "cm : %(B C \\perp A H \\Rightarrow \\mathrm{cm}: B C \\perp(S A B))%<br>Ta có: %(\\left\\{\\begin{array}{l}B C \\perp S A \\\\ B C \\perp A B\\end{array}\\right.)%%(\\Rightarrow B C \\perp(S A B))% mà %(A H \\subset(S A B) \\Rightarrow B C \\perp A H)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Gọi %(\\mathrm{O})% là giao điểm của hai đường chéo hình vuông. Tính góc giữa %(\\mathrm{SO})% và (ABCD)",
+        "question_images": [],
+        "solution": "Góc giữa %(S O)% và (ABCD)%(\\mathrm{SA} \\perp(A B C D) \\Rightarrow \\mathrm{A})% là hình chiếu của %(\\mathrm{S})% lên %((\\mathrm{ABCD}))%<br>%(\\Rightarrow \\mathrm{AO})% là hình chiếu của %(\\mathrm{SO})% lên %((\\mathrm{ABCD}))%<br>Góc giữa %(\\mathrm{SO})% và %((\\mathrm{ABCD}))% chính là góc giữa %(\\mathrm{SO})% và %(\\mathrm{AO} \\Rightarrow S \\hat{O} A)%<br>\\[A O=\\frac{a \\sqrt{2}}{2} \\tan S \\hat{O} A=\\frac{S A}{A O}=2 \\Rightarrow S \\hat{O} A=63^{\\circ}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 0.5,
+        "content": "d) Tính khoảng cách giữa hai đường thẳng %(\\mathrm{SB})% và %(\\mathrm{AD})%",
+        "question_images": [],
+        "solution": "Ta có: %(A D\\|B C \\Rightarrow A D\\|(S B C))%<br>\\[\\Rightarrow d(S B, A D)=d(A D, S B C)=d(A, S B C)=\\mathrm{AH}\\]<br>%(\\mathrm{Cm}: A H \\perp(S B C)(\\mathrm{cmb}))%<br>Xét tam giác vuông %(S A B)% ta có:<br>\\[\\frac{1}{A H^{2}}=\\frac{1}{S A^{2}}+\\frac{1}{A B^{2}} \\Rightarrow A H=\\frac{a \\sqrt{6}}{3}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "e ",
+        "point": 0.5,
+        "content": "e) Tính khoảng cách từ %(O)% đến mặt phẳng ( SBD )",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}O \\in B D \\\\ B D \\subset(S B D) \\\\ \\Rightarrow d(\\mathrm{O}, \\mathrm{SBD})=O=0 a\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 0.5,
+        "content": "Chứng minh rằng phương trình %(x^{5}-3 x^{4}+5 x-2=0)% có ít nhất hai nghiệm thuộc khoảng %((0 ; 2))%.",
+        "question_images": [],
+        "solution": "Đặt %(f(x)=x^{5}-3 x^{4}+5 x-2)% thì %(\\mathrm{f}(\\mathrm{x}))% liên tục trên %(\\mathrm{R})%<br>\\[f(0)=-2\\]<br>Ta có: %(f(1)=1)%<br>\\[f(2)=-8\\]<br>%(f(0) \\cdot f(1)=-2\\lt 0)% do đó có ít nhất một nghiệm thuộc %((0 ; 1))%<br>%(f(1) \\cdot f(2)=-8\\lt 0)% do đó có ít nhất một nghiệm thuộc %((1,2))%<br>Mà %((0 ; 1))% và %((1 ; 2))% là hai khoảng riêng biệt do đó phương trình đã cho có ít nhất hai nghiệm thuộc %((0,2))%",
+        "question_type": "essay"
+    }
+]

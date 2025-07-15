@@ -1,0 +1,208 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.25,
+        "content": "Từ thành phố %(A)% đến thành phố %(B)% có 5 cách đi bằng đường bộ, 3 cách đi bằng đường thủy và 2 cách đi bằng đường hàng không. Hỏi có bao nhiêu cách đi từ thành phố %(A)% đến thành phố %(B)% ?",
+        "question_images": [],
+        "labelA": "16.",
+        "labelB": "15.",
+        "labelC": "10.",
+        "labelD": "30.",
+        "correct_label": "labelC",
+        "solution": "Theo quy tắc công có %(5+3+2=10)% cách đi từ thành phố %(A)% đến thành phố %(B)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "2 ",
+        "point": 0.25,
+        "content": "Từ các chữ số %(1,2,3,4,5,6,7)% lập được bao nhiêu số tự nhiên gồm hai chữ số khác nhau?",
+        "question_images": [],
+        "labelA": "%(C_{7}^{2})%",
+        "labelB": "%(2^{7})%",
+        "labelC": "%(7^{2})%",
+        "labelD": "%(A_{7}^{2})%",
+        "correct_label": "labelD",
+        "solution": "Số các số tự nhiên gồm hai chữ số khác nhau được lập từ 7 chữ số trên là: %(A_{7}^{2})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "3 ",
+        "point": 0.25,
+        "content": "Trong mặt phẳng tọa độ %(O x y)%, cho đường tròn %((C):(x+1)^{2}+(y-3)^{2}=4)%. Tọa độ tâm %(I)% của đường tròn %((C))% là",
+        "question_images": [],
+        "labelA": "%(I(1 ;-3))%",
+        "labelB": "%(I(-1 ; 3))%",
+        "labelC": "%(I(1 ; 3))%",
+        "labelD": "%(I(-1 ;-3))%",
+        "correct_label": "labelB",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "4 ",
+        "point": 0.25,
+        "content": "Cho phương trình đường thẳng %(\\Delta: 3 \\mathrm{x}+4 y-5=0)%. Tìm một véctơ pháp tuyến của đường thẳng %(\\Delta)%.",
+        "question_images": [],
+        "labelA": "%(\\vec{n}=(4 ;-3))%",
+        "labelB": "%(\\vec{n}=(4 ; 3))%",
+        "labelC": "%(\\vec{n}=(-4 ; 3))%",
+        "labelD": "%(\\vec{n}=(3 ; 4))%",
+        "correct_label": "labelD",
+        "solution": "",
+        "question_type": "quiz"
+    },
+    {
+        "title": "5 ",
+        "point": 0.25,
+        "content": "Một hộp có 4 bi đỏ, 3 bi xanh, 2 bi vàng. Lấy ngẫu nhiên 3 bi. Tính xác suất để 3 bi lấy ra có ít nhất một bi đỏ.",
+        "question_images": [],
+        "labelA": "%(\\frac{2}{7})%",
+        "labelB": "%(\\frac{37}{42})%",
+        "labelC": "%(\\frac{3}{4})%",
+        "labelD": "%(\\frac{10}{21})%",
+        "correct_label": "labelB",
+        "solution": "Chọn ngẫu nhiên 3 bi trong 9 bi có %(n(\\Omega)=C_{9}^{3}=84)%.<br>Chọn 3 bi trong đó có ít nhất 1 bi đỏ là: %(n(A)=C_{4}^{3}+C_{4}^{2} C_{5}^{1}+C_{4}^{1} C_{5}^{2}=74)%.<br>Xác suất để 3 bi được chọn có ít nhất 1 bi đỏ là: %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{74}{84}=\\frac{37}{42})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "6 ",
+        "point": 0.25,
+        "content": "Trong mặt phẳng %(O x y)%, phương trình nào sau đây là phương trình chính tắc của một Elip?",
+        "question_images": [],
+        "labelA": "%(x^{2}+y^{2}=1)%",
+        "labelB": "%(\\frac{x^{2}}{2^{2}}+\\frac{y^{2}}{1^{2}}=1)%",
+        "labelC": "%(\\frac{x^{2}}{2}+\\frac{y^{2}}{2}=1)%",
+        "labelD": "%(\\frac{x^{2}}{4}+\\frac{y^{2}}{9}=1)%",
+        "correct_label": "labelB",
+        "solution": "Ta thấy %(\\frac{x^{2}}{2^{2}}+\\frac{y^{2}}{1^{2}}=1)% là phương trình Elip có %(a=2)% và %(b=1)%, thỏa mãn.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "7 ",
+        "point": 0.25,
+        "content": "Trong tủ quần áo của bạn An có 4 chiếc áo khác nhau và 3 chiếc quần khác nhau. Hỏi bạn An có bao nhiêu cách để chọn 1 bộ quần áo để mặc?",
+        "question_images": [],
+        "labelA": "27",
+        "labelB": "64",
+        "labelC": "12.",
+        "labelD": "7",
+        "correct_label": "labelC",
+        "solution": "Chọn một bộ quần áo, cần thực hiện liên tiếp hai hành động:<br>Hành động 1 - chọn áo: có 4 cách chọn.<br>Hành động 2 - chọn quần: ứng với mỗi cách chọn áo có 3 cách chọn quần.<br>Vậy số cách chọn một bộ quần áo là: %(4.3=12)% (cách).",
+        "question_type": "quiz"
+    },
+    {
+        "title": "8 ",
+        "point": 0.25,
+        "content": "Điểm nào sau đây nằm trên đường thẳng %(d:\\left\\{\\begin{array}{l}x=1+2 t \\\\ y=2-t\\end{array} \\quad(t \\in \\mathbb{R})\\right.)% ?",
+        "question_images": [],
+        "labelA": "%(P(-1 ;-2))%",
+        "labelB": "%(Q(5 ; 1))%",
+        "labelC": "%(M(-1 ; 3))%",
+        "labelD": "%(N(2 ;-1))%",
+        "correct_label": "labelC",
+        "solution": "Xét tọa độ điểm %(M(-1 ; 3))%<br>Với %(x=-1 \\Rightarrow t=-1)%, thay vào %((2) \\Rightarrow y=3)%,<br>Vậy tọa độ %(M)% thỏa mãn phương trình đường thẳng %(d)%.<br>Các điểm còn lại có tọa độ không thỏa mãn phương trình đường thẳng d .",
+        "question_type": "quiz"
+    },
+    {
+        "title": "9 ",
+        "point": 0.25,
+        "content": "Số giá trị nguyên âm của %(x)% để tam thức tam thức bậc hai %(f(x)=2 x^{2}+7 x-9)% nhận giá trị âm là",
+        "question_images": [],
+        "labelA": "3 .",
+        "labelB": "5 .",
+        "labelC": "6",
+        "labelD": "4",
+        "correct_label": "labelD",
+        "solution": "Ta có %(f(x)\\lt 0 \\Leftrightarrow 2 x^{2}+7 x-9\\lt 0 \\Leftrightarrow-\\frac{9}{2}\\lt x\\lt 1)%,<br>mà %(x \\in \\mathbb{Z}^{-} \\Rightarrow x=\\{-4 ;-3 ;-2 ;-1\\})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "10 ",
+        "point": 0.25,
+        "content": "Phương trình %(\\sqrt{-x^{2}+4 x}=2 x-2)% có bao nhiêu nghiệm?",
+        "question_images": [],
+        "labelA": "3",
+        "labelB": "0",
+        "labelC": "2",
+        "labelD": "1",
+        "correct_label": "labelD",
+        "solution": "%(\\sqrt{-x^{2}+4 x}=2 x-2 \\Leftrightarrow\\left\\{\\begin{array}{l}2 x-2 \\geq 0 \\\\ -x^{2}+4 x=(2 x-2)^{2}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 1 \\\\ 5 x^{2}-12 x+4=0\\end{array}\\right.\\right.)%%(\\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 1 \\\\ {\\left[\\begin{array}{l}x=2(n) \\\\ x=\\frac{2}{5}(l)\\end{array}\\right.}\\end{array}\\right.)%<br>Vậy %(x=2)% là nghiệm của phương trình.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "11 ",
+        "point": 0.25,
+        "content": "Trong mặt phẳng %(O x y)%, đường thẳng đi qua điểm %(A(2 ;-4))% và nhận %(\\vec{u}=(-4 ; 3))% là vec-tơ chỉ phương có phương trình tham số là",
+        "question_images": [],
+        "labelA": "%(\\left\\{\\begin{array}{l}x=2-4 t \\\\ y=-4+3 t\\end{array}\\right.)%",
+        "labelB": "%(\\frac{x-2}{-4}=\\frac{y+4}{3})%",
+        "labelC": "%(\\left\\{\\begin{array}{l}x=-4+2 t \\\\ y=3-4 t\\end{array}\\right.)%",
+        "labelD": "%(\\left\\{\\begin{array}{l}x=-2-4 t \\\\ y=4+3 t\\end{array}\\right.)%",
+        "correct_label": "labelA",
+        "solution": "Đường thẳng đi qua %(A(2 ;-4))% và nhận %(\\vec{u}=(-4 ; 3))% làm vec-tơ chỉ phương nên PTTS là: %(\\left\\{\\begin{array}{l}x=2-4 t \\\\ y=-4+3 t\\end{array}\\right.)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "12 ",
+        "point": 0.25,
+        "content": "Rút ngẫu nhiên cùng lúc 3 quân bài từ cỗ bài lơ khơ 52 quân, số phần tử của không gian mẫu %(n(\\Omega))% bằng",
+        "question_images": [],
+        "labelA": "22100",
+        "labelB": "156.",
+        "labelC": "132600.",
+        "labelD": "140608.",
+        "correct_label": "labelA",
+        "solution": "Ta có: số phần tử của không gian mẫu %(n(\\Omega)=C_{52}^{3}=22100)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "17 ",
+        "point": 0.5,
+        "content": "Tìm %(m)% để phương trình %(x^{2}-(m+1) x+3 m-5=0)% có hai nghiệm phân biệt.",
+        "question_images": [],
+        "solution": "Ta có: %(\\Delta=[-(m+1)]^{2}-4 \\cdot 1 \\cdot(3 m-5)=m^{2}-10 m+21)%.<br>Để phương trình %(x^{2}-(m+1) x+3 m-5=0)% có hai nghiệm phân biệt thì %(\\Delta\\gt 0)% hay %(m^{2}-10 m+21>0)%.<br>Tam thức bậc hai %(m^{2}-10 m+21)% có %(a=1>0)% và có hai nghiệm %(m_{1}=3, m_{2}=7)%<br>Do đó, %(m^{2}-10 m+21>0)% khi %(m \\in(-\\infty ; 3) \\cup(7 ;+\\infty))%.<br>Vậy phương trình %(x^{2}-(m+1) x+3 m-5=0)% có hai nghiệm phân biệt khi %(m \\in(-\\infty ; 3) \\cup(7 ;+\\infty))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "18 ",
+        "point": 0.5,
+        "content": "Tìm tất cả các giá trị của %(m)% để phương trình %(-x^{2}+x+4 m^{2}-5 m+1=0)% có hai nghiệm trái dấu.",
+        "question_images": [],
+        "solution": "Để phương trình %(-x^{2}+x+4 m^{2}-5 m+1=0)% có hai nghiệm trái dấu thì %(x_{1} \\cdot x_{2}\\lt 0 \\Leftrightarrow-4 m^{2}+5 m-1\\lt 0)%.<br>Tam thức %(-4 m^{2}+5 m-1)% có hai nghiệm %(m=1)% và %(m=\\frac{1}{4})% và hệ số của %(m^{2})% bằng -4 nhỏ hơn 0 nên %(-4 m^{2}+5 m-1\\lt 0)% khi %(m\\lt \\frac{1}{4})% hoặc %(m\\gt 1)%.<br>Vậy để phương trình có hai nghiệm trái dấu thì %(m \\in\\left(-\\infty ; \\frac{1}{4}\\right) \\cup(1 ;+\\infty))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "19 ",
+        "point": 0.5,
+        "content": "Một quả bóng được đá lên từ mặt đất, biết rằng chiều cao %(y)% (mét) của quả bóng so với mặt đất được biểu diễn bởi một hàm số bậc hai theo thời gian %(t)% (giây). Sau 3 giây kể từ lúc được đá lên, quả bóng đạt chiều cao tối đa là %(21 m)% và bắt đầu rơi xuống. Hỏi thời điểm %(t)% lớn nhất là bao nhiêu ( %(t)% nguyên) để quả bóng vẫn đang ở độ cao trên 10 m so với mặt đất?",
+        "question_images": [],
+        "solution": "Xét hàm số bậc hai %(y=a t^{2}+b t+c(a \\neq 0))%.<br>Theo giả thiết, ta có: %(\\left\\{\\begin{array}{l}c=0 \\\\ -\\frac{b}{2 a}=3 \\\\ 9 a+3 b+c=21\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}c=0 \\\\ 6 a+b=0 \\\\ 9 a+3 b=21\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a=-\\frac{7}{3} \\\\ b=14 \\\\ c=0\\end{array}\\right.\\right.\\right.)%.<br>Vì vậy %(y=-\\frac{7}{3} t^{2}+14 t)%.<br>Ta cần xét: %(y=-\\frac{7}{3} t^{2}+14 t\\gt 10)% hay %(-\\frac{7}{3} t^{2}+14 t-10>0)%.<br>Đặt %(f(t)=-\\frac{7}{3} t^{2}+14 t-10)%; cho %(f(t)=0 \\Rightarrow t_{1}=\\frac{21-\\sqrt{231}}{7}, t_{2}=\\frac{21+\\sqrt{231}}{7})%.<br>Bảng xét dấu %(f(t))%<br>Kết luận: %(f(t)\\gt 0)% khi %(t_{1}\\lt t\\lt t_{2})% hay %(\\underbrace{\\frac{21-\\sqrt{231}}{7}}_{\\approx 0,83}\\lt t\\lt \\underbrace{\\frac{21+\\sqrt{231}}{7}}_{\\approx 5,17})%.<br>Vì %(t)% nguyên nên %(t \\in[1 ; 5])%.<br>Do vậy giá trị %(t=5)% thỏa mãn đề bài.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f62a62e35b7dcd1da78ca5dfd23ef5f2.png\" srcset=\"https://docdn.giainhanh.io/media/test/22b3746af7d8272179bc48606f427cee.png 245w, https://docdn.giainhanh.io/media/test/06dccbc0af4da76858da328a6d5e4c2a.png 500w, https://docdn.giainhanh.io/media/test/33ab8d8890790d0f406867e894eb8790.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "20 ",
+        "point": 0.5,
+        "content": "Một người muốn uốn tấm tôn phẳng hình chữ nhật có bề ngang 32 cm , thành một rãnh dẫn nước bằng cách chia tấm tôn đố thành ba phần rồi gấp hai bên lại theo một góc vuông như hình vẽ. Biết rằng diện tích mặt cắt ngang của rãnh nước phải lớn hơn hoặc bằng tổng %(120 \\mathrm{~cm}^{2})%. Hỏi độ cao tối thiểu và tối đa của rãnh dẫn nước là bao nhiêu cm ?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/ed2ea31fb1bc9147b115cf7b97754621.PNG"
+        ],
+        "solution": "Bề ngang còn lại của tấm tôn sau khi gập thành rãnh dẫn nước: %(32-2 x(\\mathrm{~cm}))%.<br>Diện tích mặt cắt ngang rãnh dẫn nước: %(S=x(32-2 x)=-2 x^{2}+32 x)%.<br>Theo giả thiết: %(S \\geq 120 \\Leftrightarrow-2 x^{2}+32 x \\geq 120 \\Leftrightarrow-2 x^{2}+32 x-120 \\geq 0)%.<br>Xét %(-2 x^{2}+32 x-120=0 \\Leftrightarrow x=6 \\vee x=10)%.<br>Bảng xét dấu:<br>Ta có: %(-2 x^{2}+32 x-120 \\geq 0 \\Leftrightarrow x \\in[6 ; 10])%.<br>Vậy rãnh dẫn nước chỉ đạt yêu cầu khi độ cao tối thiểu và tối đa của nó lần lượt bằng 6 cm và 10 cm .<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/fb42404685ad056fd7130b76f38e019f.png\" srcset=\"https://docdn.giainhanh.io/media/test/f17fd9bcb45f8026d01ed94c1d36ae66.png 245w, https://docdn.giainhanh.io/media/test/6cbcc4291eb7a2e8317a05ba43a9138d.png 500w, https://docdn.giainhanh.io/media/test/a68de47c5725dc809cefe7109ba2a4e0.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "21 ",
+        "point": 0.5,
+        "content": "Cho đường tròn %((C))% : %(x^{2}+y^{2}-2 x+4 y-4=0)% có tâm %(I)% và đường thẳng %(\\Delta: \\sqrt{2} x+m y+1-\\sqrt{2}=0)%.Tìm %(m)% để đường thẳng %(\\Delta)% cắt đường tròn %((C))% tại hai điểm phân biệt %(A, B)% để diện tích tam giác %(I A B)% là lớn nhất",
+        "question_images": [],
+        "solution": "Đường tròn %((C))% có tâm %(I(1 ;-2))%, bán kính %(R=3)%.<br>%(\\Delta)% cắt (C) tại hai điểm phân biệt %(\\Leftrightarrow \\frac{|\\sqrt{2}-2 m+1-\\sqrt{2}|}{\\sqrt{2+m^{2}}}\\lt 3 \\Leftrightarrow|1-2 m| \\leq 3 \\sqrt{2+m^{2}})%<br>\\[\\begin{array}{l}\\Leftrightarrow 4 m^{2}-4 m+1 \\leq 9 m^{2}+18 \\\\Leftrightarrow 5 m^{2}+4 m+17\\gt 0 \\text { (đúng với mọi } m \\text { ). }\\end{array}\\]<br>Vậy với mọi số thực %(m)% thì %(\\Delta)% cắt đường tròn %((C))% tại hai điểm phân biệt.<br>Ta có: %(S_{\\triangle A B}=\\frac{1}{2} I A \\cdot I B \\cdot \\sin A I B=\\frac{9}{2} \\sin A I B \\leq \\frac{9}{2})% (vì %(\\sin A I B \\leq 1)% ).<br>Suy ra: %(\\left(S_{\\triangle A B}\\right)_{\\max }=\\frac{9}{2})%; khi đó %(\\sin A I B=1 \\Leftrightarrow A I B=90^{\\circ})%<br>Gọi %(H)% là hình chiếu của %(I)% lên %(\\Delta \\Rightarrow A I H=45^{\\circ} \\Rightarrow I H=I A \\cdot \\cos 45^{\\circ}=\\frac{3}{\\sqrt{2}})%<br>Ta có: %(d(I, \\Delta)=I H \\Leftrightarrow \\frac{|1-2 m|}{\\sqrt{2+m^{2}}}=\\frac{3}{\\sqrt{2}} \\Leftrightarrow m^{2}+8 m+16=0 \\Leftrightarrow m=-4)%.<br>Vậy với %(m=-4)% thỏa mãn yêu cầu bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "22 ",
+        "point": 0.5,
+        "content": "Lập phương trình tiếp tuyến chung của hai đường tròn sau: %(\\left(C_{1}\\right): x^{2}+y^{2}-4 y-5=0)% và %(\\left(C_{2}\\right): x^{2}+y^{2}-6 x+8 y+16=0)%.",
+        "question_images": [],
+        "solution": "Đường tròn %(\\left(C_{1}\\right))% có tâm %(I_{1}(0 ; 2))% bán kính %(R_{1}=3)%.<br>Đường tròn %(\\left(C_{2}\\right))% có tâm %(I_{2}(3 ;-4))% bán kính %(R_{2}=3)%.<br>Gọi tiếp tuyến chung của hai đường tròn có phương trình %(\\Delta: a x+b y+c=0)% với %(a^{2}+b^{2} \\neq 0)%.<br>%(\\Delta)% là tiếp tuyến chung của %(\\left(C_{1}\\right))% và %(\\left(C_{2}\\right) \\Leftrightarrow\\left\\{\\begin{array}{l}d\\left(I_{1}, \\Delta\\right)=3 \\\\ d\\left(I_{2}, \\Delta\\right)=3\\end{array}\\right.)%<br>\\[\\Leftrightarrow\\left\\{\\begin{array}{l}|2 b+c|=3 \\sqrt{a^{2}+b^{2}}\\left({ }^{*}\\right) \\\\|3 a-4 b+c|=3 \\sqrt{a^{2}+b^{2}}\\end{array} \\Rightarrow|2 b+c|=|3 a-4 b+c| \\Rightarrow\\left[\\begin{array}{l}a=2 b \\c=\\frac{-3 a+2 b}{2} .\\end{array}\\right.\\right.\\]<br>Trường hợp 1: %(a=2 b)%; chọn %(a=2 \\Rightarrow b=1)%; thay vào %((*))% ta được: %(c=-2 \\pm 3 \\sqrt{5})%; suy ra phương trình hai tiếp tuyến là: %(2 x+y-2 \\pm 3 \\sqrt{5}=0)%.<br>Trường hợp 2: %(c=\\frac{-3 a+2 b}{2})%; thay vào %((*))% ta được:<br>\\[\\begin{array}{l}\\left|2 b+\\frac{-3 a+2 b}{2}\\right|=3 \\sqrt{a^{2}+b^{2}} \\Leftrightarrow|2 b-a|=2 \\sqrt{a^{2}+b^{2}} \\\\Leftrightarrow 4 b^{2}-4 a b+a^{2}=4 a^{2}+4 b^{2} \\Leftrightarrow 3 a^{2}+4 a b=0 \\Leftrightarrow a(3 a+4 b)=0 \\Leftrightarrow\\left[\\begin{array}{l}a=0 \\\\3 a=-4 b\\end{array} .\\right.\\end{array}\\]<br>- Với %(a=0)%; chọn %(b=1 \\Rightarrow c=1)%.<br>Phương trình %(\\Delta: y+1=0)%.<br>- Với %(3 a=-4 b)%; chọn %(a=4 \\Rightarrow b=-3 \\Rightarrow c=-9)%.<br>Phương trình: %(\\Delta: 4 x-3 y-9=0)%.<br>Vậy có bốn tiếp tuyến chung của hai đường tròn có phương trình là:<br>\\[2 x+y-2 \\pm 3 \\sqrt{5}=0 ; y+1=0 ; 4 x-3 y-9=0 \\text {. }\\]",
+        "question_type": "essay"
+    }
+]

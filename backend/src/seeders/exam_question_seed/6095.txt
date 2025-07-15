@@ -1,0 +1,81 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 3.0,
+        "content": "Từ các chữ số %(0,1,2,3,4,5,6,7,8,9)%. Có thể lập được bao nhiêu số tự nhiên có 4 chữ số đôi một khác nhau lớn hơn %(2019)%.",
+        "question_images": [],
+        "solution": "Gọi số cần lập có dạng %(\\overline{a b c d}\\gt 2019)%<br>Trường hợp 1: %(a>2)%<br>Có 7 cách chọn %(a)%. %(a \\in\\{3,4,5,6,7,8,9\\})%.<br>Có 9 cách chọn %(b)% (Trừ chữ số đã chọn cho %(a)%)<br>Có 8 cách chọn %(\\mathrm{c})% (Trừ các chữ số đã chọn cho %(a, b)% )<br>Có 7 cách chọn %(d)% (Trừ các chữ số đã chọn cho %(a, b, c)% )<br>Trường hợp này có 7.9.8.7 = 3528 (số)<br>Trường hợp 2: %(a=2, b>0)%<br>Có 8 cách chọn %(b)%<br>Có 8 cách chọn %(c)%<br>Có 7 cách chọn %(d)%<br>Trường hợp này có %(8.8 .7=448)% (số)<br>Trường hợp 3: %(a=2, b=0, c>1)%<br>Có 7 cách chọn %(c)%<br>Có 7 cách chọn %(d)%<br>Trường hợp này có %(7.7=49)% (số)<br>Như vậy, số các số tự nhiên thỏa măn yêu cẩu bài toán là %(3528+448+49=4025)% (số)",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Chứng minh rằng với mọi số nguyên %(n)%, số %(A=3 n^{3}+15 n)% chia hết cho 18.",
+        "question_images": [],
+        "solution": "Ta có: %(A=3 n^{3}+15 n=3\\left(n^{3}-n+6 n\\right)=3[(n-1) n(n+1)+6 n])%<br>Với mọi số nguyên %(n,(n-1) n(n+1)+6 n)% chia hết cho 6<br>Vậy %(A=3[(n-1) n(n+1)+6 n])% chia hết cho 18",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 3.0,
+        "content": "Một đoàn học sinh đi tham quan quảng trường Đại Đoàn Kết tỉnh Gia Lai. Nếu mỗi ô tô chở 12 người thì thừa 1 người. Nếu bớt đi 1 ô tô thì số học sinh của đoàn được chia đều cho các ô tô còn lại. Hỏi có bao nhiêu học sinh đi tham quan và có bao nhiêu ô tô? Biết rằng mỗi ô tô chở không quá 16 người.",
+        "question_images": [],
+        "solution": "Gọi số ô tô lúc đầu là %(x)% với %(x \\in \\mathbb{N} ; x \\geq 2)%<br>Số học sinh đi tham quan là %(12 x+1)%<br>Theo giả thiêt nếu số xe là %(x-1)% thì số học sinh của đoàn được chia đều cho tât cả các xe. Khi đó mỗi xe chở được y học sinh với %(y \\in \\mathbb{N} ; 0\\lt y \\leq 16)%<br>Ta có: %((x-1) y=12 x+1)%<br>\\[\\Leftrightarrow y=\\frac{12 x+1}{x-1}=12+\\frac{13}{x-1}\\]<br>Vì %(x, y \\in \\mathbb{N})% nên %(x-1 \\in U(13)=\\{1 ; 13\\})%<br>Với %(x-1=1 \\Leftrightarrow x=2)% suy ra %(y=25)% (loại)<br>Với %(x-1=13 \\Leftrightarrow x=14)% suy ra %(y=13)% (thỏa mãn)<br>Vậy đoàn tham quan có 14 ô tô và 169 học sinh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 2.0,
+        "content": "Một cây nến hình lăng trụ đứng đáy lục giác đều có chiều cao và độ dài cạnh đáy lần lượt là %(20 \\mathrm{~cm})% và %(1 \\mathrm{~cm}.)% Người ta xếp cây nến trên vào trong một cái hộp có dạng hình hộp chữ nhật sao cho cây nến nằm khít trong hộp. Tính thể tích cái hộp.",
+        "question_images": [],
+        "solution": "Đáy hộp là một hình chữ nhật có các kích thước là %(M Q=B E=2.1=2(\\mathrm{~cm}))%<br>%(Q P=F D=2.1 \\cdot \\frac{\\sqrt{3}}{2}=\\sqrt{3}(\\mathrm{~cm}))%<br>Chiều cao của hộp bằng chiều cao của cây nến<br>Thể tích của khối hộp là %(V=2 \\cdot \\sqrt{3} \\cdot 20=40 \\sqrt{3}\\left(\\mathrm{~cm}^{3}\\right))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/90834e368196dc2b255b854b1a58b279.png\" srcset=\"https://docdn.giainhanh.io/media/test/9ddcd11284aee67d57467171ba224f82.png 177w, https://docdn.giainhanh.io/media/test/765e8a285f892b0ad5aba28258568d57.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5:",
+        "group_content": "Cho đường tròn %((O ; R))% và điểm %(I)% cố định nằm bên trong đường tròn %((I)% khác %(O))%, qua điểm %(I)% dựng hai dây cung bất kỳ %(A B)% và %(C D)%. Gọi %(M, N, P, Q)% lần lượt là trung điểm của %(I A, I B, I C, I D)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng bốn điểm %(M, P, N, Q)% cùng thuộc một đường tròn.",
+        "question_images": [],
+        "solution": "Ta có: %(M Q)% là đường trung bình của tam giác %(A I D)%.<br>Suy ra %(M Q / / A D \\Rightarrow \\widehat{D A B}=\\widehat{Q M N})%. Tương tự %(\\widehat{B C D}=\\widehat{N P Q})% có %(\\widehat{D A B}=\\widehat{B C D})% (hai góc nội tiếp cùng chắn một cung)<br>Suy ra %(\\widehat{Q M N}=\\widehat{N P Q})%<br>Suy ra tứ giác %(M P N Q)% nội tiếp<br>Vậy bốn điểm %(M, P, N, Q)% cùng thuộc một đường tròn.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1b9706779f03643c8c8bb7544cf0acaf.png\" srcset=\"https://docdn.giainhanh.io/media/test/036c6645682863f16198457ece95bace.png 172w, https://docdn.giainhanh.io/media/test/8f4e8d9d317dbc6b7501fde428dc0072.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Giả sử các dây cung %(A B)% và %(C D)% thay đổi nhưng luôn luôn vuông góc với nhau tại %(I)%. Xác định vị trí các dây cung %(A B)% và %(C D)% sao cho tứ giác %(M P N Q)% có diện tích lớn nhất.",
+        "question_images": [],
+        "solution": "Vì %(A B \\perp C D)% nên %(S_{M P N Q}=\\frac{1}{2} \\cdot M N \\cdot P Q=\\frac{1}{8} \\cdot A B \\cdot C D \\leq \\frac{1}{16} \\cdot\\left(A B^{2}+C D^{2}\\right))%<br>Kẻ %(O H \\perp A B)% tại %(H, O K \\perp C D)% tại %(K)%, ta có :<br>\\[\\begin{aligned}A B^{2}+C D^{2} & =4\\left(A H^{2}+C K^{2}\\right)=4\\left(R^{2}-O H^{2}+R^{2}-O K^{2}\\right) \\\\& =4\\left(2 R^{2}-K H^{2}\\right)=4\\left(2 R^{2}-O I^{2}\\right)\\end{aligned}\\]<br>Suy %(\\operatorname{ra} S_{M P N Q} \\leq \\frac{1}{4}\\left(2 R^{2}-O I^{2}\\right))% (không đổi)<br>Vậy %(S_{M P N Q})% đạt giá trị lớn nhất bằng %(\\frac{1}{4}\\left(2 R^{2}-O I^{2}\\right))% đạt được khi và chỉ khi: %(A B=C D \\Leftrightarrow O H=O K \\Leftrightarrow O K I H)% là hình vuông<br>%(\\Leftrightarrow A B)% và %(C D)% lập với %(O I)% các góc bằng %(45^{\\circ})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình sau<br>\\[\\left\\{\\begin{array}{c}\\sqrt{x+1}+\\sqrt{4-2 y}+\\sqrt{5+2 y-(x-1)^{2}}=5~(1) \\\\5 x^{4}+(x-y)^{2}=\\left(10 x^{3}+y\\right) y~~(2)\\end{array}\\right.\\]",
+        "question_images": [],
+        "solution": "Điều kiện %(\\left\\{\\begin{array}{l}x \\geq-1 \\\\ y \\leq 2 \\\\ 5+2 y \\geq(x-1)^{2}\\end{array}\\right.)%<br>Từ phương trình (2) ta có<br>\\[\\begin{array}{l}5 x^{4}-10 x^{3} y+x^{2}-2 x y=0 \\\\Leftrightarrow 5 x^{3}(x-2 y)+x(x-2 y)=0 \\Leftrightarrow x(x-2 y)\\left(5 x^{2}+1\\right)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\x=2 y\\end{array}\\right.\\end{array}\\]<br>Với %(x=0)% thay vào (1) ta có: %(1+\\sqrt{4-2 y}+\\sqrt{4+2 y}=5 \\Leftrightarrow \\sqrt{4-2 y}+\\sqrt{4+2 y}=4)%<br>\\[\\Leftrightarrow \\sqrt{4-2 y}=4-\\sqrt{4+2 y} \\Leftrightarrow 2 \\sqrt{4+2 y}=4+y \\Leftrightarrow y^{2}=0 \\Leftrightarrow y=0\\]<br>Với: %(x=2 y)%. Thay vào phương trình (1) ta được<br>\\[\\sqrt{x+1}+\\sqrt{4-x}+\\sqrt{5+x-(x-1)^{2}}=5 \\Leftrightarrow \\sqrt{x+1}+\\sqrt{4-x}+\\sqrt{(x+1)(4-x)}=5(*)\\]<br>Đặt %(t=\\sqrt{x+1}+\\sqrt{4-x}\\gt 0 \\Rightarrow \\sqrt{x+1} \\cdot \\sqrt{4-x}=\\frac{t^{2}-5}{2})%<br>Thay vào phương trình %((*))% ta có: %(t+\\frac{t^{2}-5}{2}=5 \\Leftrightarrow t^{2}+2 t-15=0 \\Leftrightarrow\\left[\\begin{array}{l}t=-5 \\\\ t=3\\end{array}\\right.)%.<br>Khi %(t=3 \\Rightarrow \\sqrt{x+1} \\cdot \\sqrt{4-x}=2 \\Leftrightarrow-x^{2}+3 x=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\\\ x=3\\end{array}\\right.)%<br>Tóm lại, hệ có nghiệm %((x ; y)=(0 ; 0),\\left(3 ; \\frac{3}{2}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 2.0,
+        "content": "Cho %(x, y, z)% là các số thực không âm thỏa mãn điều kiện %(x^{2}+y^{2}+z^{2}+2 x y z=1)%. Tìm giá trị lớn nhất của biểu thức %(P=x y+y z+z x-2 x y z)%.",
+        "question_images": [],
+        "solution": "Nêu chia trục số thành hai phần bởi số 0 ,thì trong 3 số %((2 x-1),(2 y-1),(2 z-1))% luôn tồn tại hai số nằm về cùng phía, không mất tính tổng quát giả sử<br>\\[(2 x-1)(2 y-1) \\geq 0 \\Rightarrow 2(x+y)-4 x y \\leq 1 \\Rightarrow z(x+y)-2 x y z \\leq \\frac{z}{2} \\text {. }\\]<br>Từ %(x^{2}+y^{2}+z^{2}+2 x y z=1)% suy ra<br>\\[1-z^{2}=2 x y z+x^{2}+y^{2} \\geq 2 x y+2 x y z=2 x y(z+1) \\Rightarrow x y \\leq \\frac{1-z}{2} \\text {. }\\]<br>Vì vậy %(P=x y+y z+z x-2 x y z \\leq \\frac{1-z}{2}+\\frac{z}{2}=\\frac{1}{2})%.Với %(x=y=z=\\frac{1}{2})% thì %(P)% bằng %(\\frac{1}{2})%.<br>Vậy giá trị lớn nhất của %(P)% bằng %(\\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 2.0,
+        "content": "Trong kỳ thi chọn học sinh giỏi THCS cấp Tỉnh, đoàn học sinh huyện A có 17 học sinh dự thi. Mỗi thí sinh có số báo danh là một số tự nhiên trong khoảng từ 1 đến 907. Chứng minh rằng có thể chọn ra 9 học sinh trong đoàn có tổng các số báo danh chia hết cho 9.",
+        "question_images": [],
+        "solution": "Trước hết, ta chứng minh bổ đề \"trong 5 số tục nhiên bất kì, tồn tại 3 số có tổng chia hết cho 3.\"<br>Thật vậy,<br>Với 5 số tự nhiên bất kỳ khi chia cho 3 , ta luôn chọn được 1 trong hai trường hợp sau.<br>TH1: Cả ba số khi chia cho 3 có số dư giống nhau suy ra tổng ba số chia hết cho 3.<br>TH2: Ba số khi chia cho ba có số dư đôi một khác nhau %((3 k ; 3 \\mathrm{~m}+1 ; 3 \\mathrm{n}+2))%, suy ra tổng của ba số cũng chia hết cho 3 .<br>Xét 17 số tự nhiên tuỳ ý. Chia chúng thành 3 tâp, có lần lượt %(5,5,7)% phần tử. Trong mỗi tập, ta luôn chọn được 3 số có tổng lần lượt là: %(3 a_{1}, 3 a_{2}, 3 a_{3}\\left(a_{1}, a_{2}, a_{3} \\in N\\right))% còn lại:%(17-9=8)% số, trong 8 số này, chọn tiếp 3 số có tổng là %(3 \\mathrm{a}_{4})%, còn lại 5 số, chọn tiếp 3 số có tổng là %(3 \\mathrm{a}_{5})%.<br>Như vậy, ta luôn có thể chọn từ đoàn ra 5 nhóm, mồi nhóm có 3 thí sinh mà tồng số báo danh của mỗi nhóm lần lượt là %(3 a_{1}, 3 a_{2}, 3 a_{3}, 3 a_{4}, 3 a_{5})%.<br>Trong 5 số %(a_{1}, a_{2}, a_{3}, a_{4}, a_{5})% có 3 số %(a_{i 1}, a_{i 2}, a_{i 3})% có tồng chia hết cho 3.<br>Như vậy, 9 học sinh tương ứng có tổng các số báo danh là:<br>\\[3 a_{i 1}+3 a_{i 2}+3 a_{i 3}=3\\left(a_{i 1}+a_{i 2}+a_{i 3}\\right) \\vdots 9\\]",
+        "question_type": "essay"
+    }
+]

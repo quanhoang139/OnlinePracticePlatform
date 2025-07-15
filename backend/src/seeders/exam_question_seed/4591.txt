@@ -1,0 +1,127 @@
+[
+    {
+        "title": "1",
+        "group_content": "Giải các phương trình sau:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(2 \\sin ^{2} 3 x-3 \\sin 3 x+1=0)%",
+        "question_images": [],
+        "solution": "%((*) \\Leftrightarrow\\left[\\begin{array}{l}\\sin 3 x=1 \\\\ \\sin 3 x=1 / 2\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{\\pi}{6}+\\frac{k 2 \\pi}{3} \\\\ x=\\frac{\\pi}{18}+\\frac{k 2 \\pi}{3} \\vee x=\\frac{5 \\pi}{18}+\\frac{k 2 \\pi}{3}\\end{array}\\right.\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(\\sin x+\\sqrt{3} \\cos x=2 \\sin \\left(4 x+\\frac{\\pi}{5}\\right))%",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} \\operatorname{Pt} & \\Leftrightarrow \\cos \\frac{\\pi}{3} \\sin x+\\sin \\frac{\\pi}{3} \\cos x=\\sin \\left(4 x+\\frac{\\pi}{5}\\right) \\\\ & \\Leftrightarrow \\sin \\left(4 x+\\frac{\\pi}{5}\\right)=\\sin \\left(x+\\frac{\\pi}{3}\\right) \\\\ & \\Leftrightarrow x=\\frac{2 \\pi}{45}+\\frac{k 2 \\pi}{3} \\vee x=\\frac{\\pi}{15}+\\frac{k 2 \\pi}{3}\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm hệ số của số hạng chứa %(x^{14})% trong khai triền %(\\left(x^{5}+\\frac{1}{x^{7}}\\right)^{10} \\quad(x \\neq 0))%",
+        "question_images": [],
+        "solution": "Số hạng tổng quát của khai triển là:<br>%(\\quad C_{10}^{k}\\left(x^{5}\\right)^{10-k}\\left(\\frac{1}{x^{7}}\\right)^{k})%<br>%(=C_{10}^{k} x^{50-12 k})%<br>Theo ycđb, ta phải có: %(50-12 k=14 \\Leftrightarrow k=3)%<br>Hệ số cần tìm là: %(C_{10}^{3}=120)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Trong khai triển %((1+m x)^{n})%, biết hệ số của %(x)% là 24 , hệ số của %(x^{3})% là 1512 . Hãy tìm %(m, n)%",
+        "question_images": [],
+        "solution": "Do hệ số của %(x)% là 24 nên ta có:<br>%(C_{n}^{1} m=24 \\Leftrightarrow m n=24)% (1)<br>Do hệ số của %(x^{3})% là 1512 nên ta có :<br>%(C_{n}^{3} m^{3}=1512 \\Leftrightarrow(n-2)(n-1) n m^{3}=9072 \\text { (2) })%<br>Giải hệ gồm (1) và (2) ta được %(m=3)% và %(n=8)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Lấy ngẫu nhiên một thẻ từ một hộp chứa 40 thẻ được đánh số từ 1 đến 40.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.25,
+        "content": "a) Gọi A là biến cố: \"thẻ được lấy ghi số lè”. Tính P(A)",
+        "question_images": [],
+        "solution": "Không gian mẫu %(\\Omega=\\{1,2,3, \\ldots \\ldots, 40\\}, n(\\Omega)=40)%<br>%(\\begin{array}{l}A=\\{1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39\\} \\\\ \\text { suy ra } n(A)=20\\end{array})%<br>Vậy %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{20}{40}=\\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Gọi B là biến cố: “thẻ được lấy ghi số chẵn”. Tính P(B).",
+        "question_images": [],
+        "solution": "%(B=\\{2,4,6,8, \\ldots \\ldots \\ldots, 38,40\\}, \\quad n(B)=20)%<br>Vậy %(P(B)=\\frac{n(B)}{n(\\Omega)}=\\frac{20}{40}=\\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Gọi C là biến cố: “thẻ được lấy ghi số chia hết cho 3”. Tính P(C).",
+        "question_images": [],
+        "solution": "%(C=\\{3,6,9,12,15,18,21,24,27,32,36,39\\}, n(C)=12)%<br>Vậy %(P(C)=\\frac{n(C)}{n(\\Omega)}=\\frac{12}{40}=\\frac{3}{10})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 0.5,
+        "content": "d) Gọi D là biến cố: “thẻ được lấy ghi số không chia hết cho 6”. Tính P(D).",
+        "question_images": [],
+        "solution": "%(\\mathrm{D}=\\Omega \\backslash\\{6,12,18,24,30,36\\} \\Rightarrow \\mathrm{n}(\\mathrm{D})=34)%<br>Vậy %(P(\\mathrm{D})=\\frac{n(\\mathrm{D})}{n(\\Omega)}=\\frac{34}{40}=\\frac{17}{20})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Giải phương trình:<br>%(4\\left(C_{x}^{3}-C_{x}^{4}\\right)+5 A_{x-1}^{2}=0)%",
+        "question_images": [],
+        "solution": "<img/>ĐK: %(x \\geq 4, x \\in N)%<br>%(\\begin{aligned} \\mathrm{pt} & \\Leftrightarrow 4\\left(\\frac{x!}{3!(x-3)!}-\\frac{x!}{4!(x-4)!}\\right)+\\frac{5(x-1)!}{(x-3)!}=0 \\\\ & \\Leftrightarrow 4\\left(\\frac{x}{6(x-3)}-\\frac{x}{24}\\right)+\\frac{5}{x-3}=0 \\\\ & \\Leftrightarrow x^{2}-7 x-30=0\\end{aligned})%<br><img/>%(\\Leftrightarrow \\mathrm{x}=10)% hoặc %(\\mathrm{x}=-3)% (loại)<img/><img/><img/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho tứ diện %(\\mathrm{ABCD})%. Gọi %(\\mathrm{M}, \\mathrm{N})% lần lượt là trung điểm của %(\\mathrm{AB})% và %(\\mathrm{CD})%. Trên đoạn %(\\mathrm{AC})% ta lấy điểm %(\\mathrm{P})% sao cho %(\\frac{A P}{A C}=\\frac{2}{3})%",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Xác định giao điểm %(\\mathrm{I})% của đường thẳng MP và %(\\mathrm{mp}(\\mathrm{BCD}))%",
+        "question_images": [],
+        "solution": "Trong %(\\mathrm{mp}(\\mathrm{ABC}))%, kéo dài %(\\mathrm{MP})% và %(\\mathrm{BC})% cắt nhau tại %(\\mathrm{I})%<br>%(\\mathrm{I} \\in \\mathrm{MP}, \\mathrm{I} \\in \\mathrm{BC}, \\mathrm{BC} \\subset(\\mathrm{BCD}))%<br>Suy ra %(\\mathrm{I})% là giao điểm của %(\\mathrm{MP})% và (BCD)",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) Xác định giao tuyến (d) của hai mặt phẳng (MNP) và (ABD)",
+        "question_images": [],
+        "solution": "%(M \\in A B, M \\in(B C D) \\cap(M N P))%<br>Trong mp(BCD), ta có IP cắt %(\\mathrm{CD})% tại %(\\mathrm{J})%.<br>Lập luận: %(J \\in(B C D) \\cap(M N P))%<br>Vậy %((B C D) \\cap(M N P)=M J)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.75,
+        "content": "c) Chứng minh ba đường thằng %((\\mathrm{d}))%, %(\\mathrm{AD})% và %(\\mathrm{NP})% đồng quy",
+        "question_images": [],
+        "solution": "Trong mp(MNP), (d) cắt NP tại O.<br>%(\\mathrm{O} \\in \\mathrm{NP} \\subset(\\mathrm{ACD}), \\mathrm{O} \\in \\mathrm{MJ} \\subset(\\mathrm{ABD}))%<br>Suy ra là điểm chung của hai %(\\mathrm{mp}(\\mathrm{ABD}))% và %((\\mathrm{ADC}))%, nên %(O)% thuộc giao tuyến %(A D)%.<br>Vậy (d), AD và NP đồng quy tại %(\\mathrm{O})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 1.0,
+        "content": "d) Gọi %(\\mathrm{E})% là trung điềm %(\\mathrm{BN}, \\mathrm{K})% là giao điềm của %(\\mathrm{AE})% và %(\\mathrm{MN})%. Chứng minh: %(\\mathrm{EC})% song song với %(\\mathrm{mp}(\\mathrm{MNP}))%",
+        "question_images": [],
+        "solution": "Ta có %(\\mathrm{K})% là trọng tâm của tam giác %(\\mathrm{ABN})% suy ra %(\\frac{A K}{A E}=\\frac{2}{3})%<br>Trong %(\\triangle \\mathrm{AEC})%, ta có %(: \\frac{A K}{A E}=\\frac{A P}{A C}=\\frac{2}{3} \\Rightarrow K P / / E C)%<br>%(\\mathrm{EC} \\not \\subset(\\mathrm{MNP}), \\mathrm{EC} / / \\mathrm{KP}, \\mathrm{KP} \\subset(\\mathrm{MNP}))%<br>Từ đó ta có: %(\\mathrm{EC} / /(\\mathrm{MNP}))%",
+        "question_type": "essay"
+    }
+]

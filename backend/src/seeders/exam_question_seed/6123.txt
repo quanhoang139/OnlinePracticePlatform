@@ -1,0 +1,87 @@
+[
+    {
+        "title": "1",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Giải phương trình: %(\\sqrt{2} \\cdot \\sin \\left(2 x+\\frac{\\pi}{4}\\right)+\\sqrt{6} \\cdot \\sin \\left(x-\\frac{\\pi}{4}\\right)=1)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text {Ta có: } \\sqrt{2} \\cdot \\sin \\left(2 x+\\frac{\\pi}{4}\\right)+\\sqrt{6} \\cdot \\sin \\left(x-\\frac{\\pi}{4}\\right)=1 \\Leftrightarrow \\sin 2 x+\\cos 2 x+\\sqrt{3} \\cdot(\\sin x-\\cos x)-1=0 \\\\Leftrightarrow(\\sin x-\\cos x)^{2}+\\left(\\sin ^{2} x-\\cos ^{2} x\\right)-\\sqrt{3}(\\sin x-\\cos x)=0 \\Leftrightarrow(\\sin x-\\cos x)(2 \\sin x-\\sqrt{3})=0 \\\\Leftrightarrow\\left[\\begin{array} { l } { \\operatorname { s i n } x - \\operatorname { c o s } x = 0 } \\\\{ 2 \\operatorname { s i n } x - \\sqrt { 3 } = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array} { l } { \\operatorname { s i n } ( x - \\frac { \\pi } { 4 } ) = 0 } \\\\{ \\operatorname { s i n } x = \\frac { \\sqrt { 3 } } { 2 } }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=\\frac{\\pi}{4}+k \\pi \\x=\\frac{\\pi}{3}+k 2 \\pi . \\x=\\frac{2 \\pi}{3}+k 2 \\pi\\end{array}\\right.\\right.\\right.\\end{array}\\]<br>Vậy phương trình có 3 họ nghiệm là: %(x=\\frac{\\pi}{4}+k \\pi, x=\\frac{\\pi}{3}+k 2 \\pi, x=\\frac{2 \\pi}{3}+k 2 \\pi)%, với %(k \\in \\mathbb{Z})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Giải hệ phương trình: %(\\left\\{\\begin{array}{l}(y-2) \\cdot \\sqrt{x+2}-x \\sqrt{y}=0 \\\\ \\sqrt{x+1} \\cdot(\\sqrt{y}+1)=(y-3)\\left(1+\\sqrt{x^{2}+y-3 x}\\right)\\end{array}\\right.)% với %(x, y \\in \\mathbb{R})%",
+        "question_images": [],
+        "solution": "* Điều kiện: %(\\left\\{\\begin{array}{l}x \\geq-1 \\\\ y \\geq 0 \\\\ x^{2}+y-3 x \\geq 0\\end{array}\\right.)%.- Đặt %(\\left\\{\\begin{array}{l}a=\\sqrt{x+2} \\geq 1 \\\\ b=\\sqrt{y} \\geq 0\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}x=a^{2}-2 \\\\ y=b^{2}\\end{array}\\right.\\right.)%.<br>Khi đó (1) trở thành: %(\\left(b^{2}-2\\right) a-b\\left(a^{2}-2\\right)=0 \\Leftrightarrow a b(b-a)+2(b-a)=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow(b-a)(a b+2)=0 \\Leftrightarrow a=b(\\text { do } a b+2\\gt 0) \\\\Rightarrow \\sqrt{x+2}=\\sqrt{y} \\Leftrightarrow y=x+2 .\\end{array}\\]<br>- Thay vào phương trình (2) ta được phương trình:<br>\\[\\begin{array}{l}\\sqrt{x+1} \\cdot(\\sqrt{x+2}+1)=(x-1) \\cdot\\left(1+\\sqrt{x^{2}-2 x+2}\\right) \\\\Leftrightarrow \\sqrt{x+1} \\cdot(1+\\sqrt{(x+1)+1})=(x-1) \\cdot\\left(1+\\sqrt{(x-1)^{2}+1}\\right)\\end{array}\\]<br>- Nếu %(x\\lt 1)% thì (3) vô nghiệm<br><br>Với %(x \\geq 1)%, xét hàm số: %(f(t)=t .\\left(1+\\sqrt{1+t^{2}}\\right))% trên %([0 ;+\\infty))%.<br>Có: %(f^{\\prime}(t)=1+\\sqrt{1+t^{2}}+\\frac{t^{2}}{\\sqrt{1+t^{2}}}>0, \\forall t \\in[0 ;+\\infty))%, do đó hàm số %(f(t))% đồng biến trên %([0 ;+\\infty))%<br>\\[\\Rightarrow(3) \\Leftrightarrow f(\\sqrt{x+1})=f(x-1) \\Leftrightarrow \\sqrt{x+1}=x-1 \\Leftrightarrow x^{2}-3 x=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\x=3\\end{array} \\Rightarrow x=3 \\text { (do } x \\geq 1\\right. \\text { ) }\\]<br>Vậy hệ có nghiệm duy nhất là (x;y)=(3;5)",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Cho hàm số %(y=\\frac{x+1}{2 x-1})% có đồ thị %((C))%. Viết phương trình tiếp tuyến %((d))% của đồ thị %((C))% biết%((d))% cắt trục %(O x, O y)% lần lượt tại %(A, B)% sao cho %(A B=\\sqrt{10} . O A)% (với %(O)% là gốc tọa độ).",
+        "question_images": [],
+        "solution": "ĐXĐ: %(\\mathbb{R} \\backslash\\left\\{\\frac{1}{2}\\right\\})%.Ta có: %(y^{\\prime}=\\frac{-3}{(2 x-1)^{2}})%.<br>Giả sử tiếp tuyến %((d))% của %((C))% cắt %(O x, O y)% lần lượt tại %(A)% và %(B)% thỏa mãn %(A B=\\sqrt{10} \\cdot O A)%.<br>Khi đó tam giác %(O A B)% vuông tại %(O)% và có<br>%(A B=\\sqrt{10} . O A \\Rightarrow O B=3 . O A)%<br>%(\\Rightarrow \\tan O A B=\\frac{O B}{O A}=3 \\Rightarrow k= \\pm 3)%, với %(k)% là hệ số góc của tiếp tuyến %((d))%%(\\Rightarrow y^{\\prime}=-3 \\Leftrightarrow \\frac{-3}{(2 x-1)^{2}}=-3 \\Leftrightarrow(2 x-1)^{2}=1 \\Leftrightarrow\\left[\\begin{array}{l}2 x-1=1 \\\\ 2 x-1=-1\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=1 \\\\ x=0\\end{array}\\right.\\right.)%%(\\Rightarrow\\left[\\begin{array}{l}M(1 ; 2) \\\\ M(0 ;-1)\\end{array}\\right.)% là các tiếp điểm.<br>Vậy có 2 tiếp tuyến %((d))% thỏa mãn yêu cầu bài toán là : %(y=-3 x+5)% và %(y=-3 x-1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Bạn An có đồng %(x)% mà khi tung có xác suất xuất hiện mặt ngửa là %(\\frac{1}{3})% và bạn Bình có đồng %(x u)% mà khi tung có xác suất xuất hiện mặt ngửa là %(\\frac{2}{5})%. Hai bạn An và Bình lần lượt chơi trò chơi tung đồng %(x u)% của mình đến khi có người được mặt ngửa ai được mặt ngửa trước thì thắng. Các lần tung là độc lập với nhau và bạn An chơi trước. Xác suất bạn An thắng là %(\\frac{p}{q})% trong đó %(p)% và %(q)% là các số nguyên tố cùng nhau, tìm %(q-p)%",
+        "question_images": [],
+        "solution": "Giả sử ở lần gieo thứ %(n)% bạn An thắng cuộc, khi đó ở %(n-1)% lần gieo trước bạn An đều chỉ gieo ra mặt sấp và bạn Bình chỉ gieo được %(n-1)% lần đều có kết quả là mặt sấp.Xác suất để có được điều đó ở lần gieo thứ %(n)% là %(\\left(\\frac{2}{3}\\right)^{n-1} \\cdot \\frac{1}{3}\\left(\\frac{3}{5}\\right)^{n-1}=\\frac{1}{3}\\left(\\frac{2}{5}\\right)^{n-1})%.<br>Do đó, điều kiện thuận lợi để bạn An thắng là<br>\\[\\frac{p}{q}=\\frac{1}{3}\\left[1+\\left(\\frac{2}{5}\\right)+\\left(\\frac{2}{5}\\right)^{2}+\\ldots+\\left(\\frac{2}{5}\\right)^{n}+\\ldots\\right]=\\frac{1}{3} \\frac{1}{1-\\frac{2}{5}}=\\frac{5}{9} \\text {. }\\]<br>Suy ra %(q-p=9-5=4)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b (null điểm)",
+        "point": 0.0,
+        "content": "b) Tìm hệ số của số hạng chứa %(x^{2})% trong khai triển nhi thức %(\\left(\\sqrt{x}+\\frac{1}{2 \\sqrt[4]{x}}\\right)^{n})% biết rằng %(n)% là số nguyên dương thỏa: %(C_{n}^{1}+2 C_{n}^{2}+3 C_{n}^{3}+\\ldots+(n-1) C_{n}^{n-1}+n C_{n}^{n}=64 n)%.",
+        "question_images": [],
+        "solution": "Ta xét khai triển %((1+x)^{n}=\\sum_{k=0}^{n} C_{n}^{k} x^{k})%.<br>Lấy đạo hàm 2 vế ta được: %(n(1+x)^{n-1}=\\sum_{k=1}^{n} k C_{n}^{k} x^{k-1})%.<br>Chọn %(x=1 \\Rightarrow C_{n}^{1}+2 C_{n}^{2}+3 C_{n}^{3}+\\ldots+(n-1) C_{n}^{n-1}+n C_{n}^{n}=n .2^{n-1})%<br>Do đó %(C_{n}^{1}+2 C_{n}^{2}+3 C_{n}^{3}+\\ldots+(n-1) C_{n}^{n-1}+n C_{n}^{n}=64 n \\Leftrightarrow n 2^{n-1}=64 n \\Leftrightarrow n=7)%.<br>Tiếp tục khai triển<br>\\[\\left(\\sqrt{x}+\\frac{1}{2 \\sqrt[4]{x}}\\right)^{7}=\\sum_{k=0}^{7} C_{7}^{k}(\\sqrt{x})^{k}\\left(\\frac{1}{2 \\sqrt[4]{x}}\\right)^{7-k}=\\sum_{k=0}^{7}\\left(\\frac{1}{2}\\right)^{7-k} C_{7}^{k} x^{\\frac{k}{2}} x^{\\frac{k-7}{4}}=\\sum_{k=0}^{7}\\left(\\frac{1}{2}\\right)^{7-k} C_{7}^{k} x^{\\frac{3 k-7}{4}} .\\]<br>Do đó để tìm được số hạng chứa %(x^{2})% thì ta cần tìm %(k)% để %(\\frac{3 k-7}{4}=2 \\Leftrightarrow k=5)%.<br>Vậy hệ số của số hạng chứa %(x^{2})% là %(\\left(\\frac{1}{2}\\right)^{7-5} C_{7}^{5}=\\frac{21}{4})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Trong không gian cho 4 điểm %(A, B, C, D)% thỏa mãn %(|\\overrightarrow{A B}|=3,|\\overrightarrow{B C}|=7,|\\overrightarrow{C D}|=11,|\\overrightarrow{D A}|=9)%. Tính %(\\overrightarrow{A C} \\cdot \\overrightarrow{B D})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text {Ta có } A B^{2}-B C^{2}+C D^{2}-D A^{2}=(\\overrightarrow{A B}-\\overrightarrow{B C})(\\overrightarrow{A B}+\\overrightarrow{B C})+(\\overrightarrow{C D}-\\overrightarrow{D A})(\\overrightarrow{C D}+\\overrightarrow{D A})= \\\\ =(\\overrightarrow{A B}-\\overrightarrow{B C}) \\overrightarrow{A C}+(\\overrightarrow{C D}-\\overrightarrow{D A}) \\overrightarrow{C A}=\\overrightarrow{A C}(\\overrightarrow{A B}-\\overrightarrow{B C}-\\overrightarrow{C D}+\\overrightarrow{D A})=2 \\overrightarrow{A C} \\cdot \\overrightarrow{D B} \\\\ \\text { Do đó } \\overrightarrow{A C} \\cdot \\overrightarrow{B D}=-\\frac{1}{2}(9-49+121-81)=0 \\text {. }\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) trị nhỏ nhất của biểu thức %(P=\\frac{1}{(a+1)^{2}}+\\frac{4}{(b+2)^{2}}+\\frac{8}{(c+3)^{2}})%.",
+        "question_images": [],
+        "solution": "Áp dụng BĐT A-G: %(a^{2}+1 \\geq 2 a ; b^{2}+4 \\geq 4 b ; c^{2}+1 \\geq 2 c)% suy ra %(2 a+4 b+2 c \\leq 6+a^{2}+b^{2}+c^{2} \\Leftrightarrow 2 a+b+2 c \\leq 6 \\quad(1))%.<br>Dấu \"=\" xảy ra khi và chỉ khi<br>\\[\\left\\{\\begin{array}{l}a=c=1 \\b=2\\end{array}\\right. \\text {. }\\]<br>Ta lại có với %(x, y)% là các số thực dương: %((x+y)^{2}\\left(\\frac{1}{x^{2}}+\\frac{1}{y^{2}}\\right) \\geq 8 \\Leftrightarrow \\frac{1}{x^{2}}+\\frac{1}{y^{2}} \\geq \\frac{8}{(x+y)^{2}})%, dấu \" %(=)% \" xảy ra khi và chỉ khi %(x=y)%.<br>Do đó<br>\\[P=\\frac{1}{(a+1)^{2}}+\\frac{1}{\\left(\\frac{b}{2}+1\\right)^{2}}+\\frac{8}{(c+3)^{2}} \\geq \\frac{8}{\\left(a+\\frac{b}{2}+2\\right)^{2}}+\\frac{8}{(c+3)^{2}} \\geq \\frac{64}{\\left(a+\\frac{b}{2}+c+5\\right)^{2}} \\geq \\frac{256}{(2 a+b+2 c+10)^{2}}\\]<br>Kết hợp (1) suy ra %(P \\geq 1)%.<br>Vậy %(\\min P=1 \\Leftrightarrow\\left\\{\\begin{array}{l}a=c=1 \\\\ b=2\\end{array}\\right.)%.<br>Cách 2:Ta có: %(a^{2}+b^{2}+c^{2}-3 b \\leq 0 \\Rightarrow b^{2}-3 b \\leq-a^{2}-c^{2} \\leq 0 \\Rightarrow 0 \\leq b \\leq 3)% có %(\\frac{1}{(a+1)^{2}}+\\frac{8}{(c+3)^{2}} \\geq \\frac{9}{(a+1)^{2}+\\frac{(c+3)^{2}}{2}} \\Leftrightarrow \\frac{1}{(a+1)^{2}}+\\frac{8}{(c+3)^{2}} \\geq \\frac{18}{2 a^{2}+4 a+c^{2}+6 c+11})%<br>Lại có %(4 a \\leq 2\\left(a^{2}+1\\right))% và %(6 c \\leq 3\\left(c^{2}+1\\right))%<br>\\[\\begin{array}{l}\\Rightarrow 2 a^{2}+4 a+c^{2}+6 c+11 \\leq 2 a^{2}+2\\left(a^{2}+1\\right)+c^{2}+3\\left(c^{2}+1\\right)+11 \\\\Rightarrow 2 a^{2}+4 a+c^{2}+6 c+11 \\leq 4 a^{2}+4 c^{2}+16 \\text { (2). }\\end{array}\\]<br>Từ (1) và %((2))% ta có %(\\frac{1}{(a+1)^{2}}+\\frac{8}{(c+3)^{2}} \\geq \\frac{9}{2 a^{2}+2 c^{2}+8})%<br>Lại có từ giả thiết %(a^{2}+b^{2}+c^{2}-3 b \\leq 0 \\Rightarrow a^{2}+b^{2}+c^{2} \\leq 3 b \\Rightarrow a^{2}+c^{2}+b^{2}+4 \\leq 3 b+4)%<br>mà %(b^{2}+4 \\geq 4 b \\Rightarrow a^{2}+c^{2}+4 b \\leq 3 b+4 \\Rightarrow a^{2}+c^{2} \\leq 4-b \\Rightarrow 2 a^{2}+2 c^{2} \\leq 8-2 b)%<br>Từ (3) và (4) ta có %(\\frac{1}{(a+1)^{2}}+\\frac{8}{(c+3)^{2}} \\geq \\frac{9}{16-2 b})%<br>\\[\\Rightarrow P=\\frac{1}{(a+1)^{2}}+\\frac{4}{(b+2)^{2}}+\\frac{8}{(c+3)^{2}} \\geq \\frac{4}{(b+2)^{2}}+\\frac{9}{16-2 b} \\text {. }\\]<br>Xét hàm số %(f(b)=\\frac{4}{(b+2)^{2}}+\\frac{9}{16-2 b})% với %(0 \\leq b \\leq 3)%.<br>Ta có %(\\min _{b \\in[0 ; 3]} f(b)=1)% khi %(b=2 \\Rightarrow P \\geq f(b) \\geq \\min _{b \\in[0 ; 3]} f(b)=1)% và min %(P=1 \\Leftrightarrow\\left\\{\\begin{array}{l}a=c=1 \\\\ b=2\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 4.0,
+        "content": "Cho hình chóp %(S . A B C)%, có %(S A)% vuông góc với mặt phẳng %((A B C), S A=2 a)% và tam giác %(A B C)% vuông tại %(C)% với %(A B=2 a \\quad B A C=30^{\\circ})%. Gọi %(M)% là điểm di động trên cạnh %(A C)%, đặt %(A M=x)%, %((0 \\leq x \\leq a \\sqrt{3}))%. Tính khoảng cách từ %(S)% đến %(B M)% theo %(a)% và %(x)%. Tìm các giá trị của %(x)% để khoảng cách này lớn nhất",
+        "question_images": [],
+        "solution": "cách 1<br>Gọi %(H)% là hình chiếu vuông góc của %(S)% trên %(B M)%. S<br>uy ra %(B M \\perp(S A H))%.Ta có %(\\triangle M A H \\sim \\triangle M B C \\Rightarrow A H=\\frac{B C \\cdot A M}{B M}=\\frac{a \\cdot x}{\\sqrt{4 a^{2}+x^{2}-2 x a \\sqrt{3}}})%.<br>\\[\\text { hình } \\Rightarrow S H=\\sqrt{S A^{2}+A H^{2}}=a \\sqrt{\\frac{5 x^{2}-8 x a \\sqrt{3}+16 a^{2}}{x^{2}-2 x a \\sqrt{3}+4 a^{2}}}\\]<br>Cách 2<br>Ta có %(S M=\\sqrt{S A^{2}+A M^{2}}=\\sqrt{4 a^{2}+x^{2}}, S B=\\sqrt{S A^{2}+A B^{2}}=2 a \\sqrt{2})%,<br>\\[B M=\\sqrt{B A^{2}+A M^{2}-2 A B \\cdot A M \\cos B A M}=\\sqrt{4 a^{2}+x^{2}-2 x a \\sqrt{3}}, p=\\frac{S M+S B+B M}{2}\\]<br>Diện tích tam giác %(S B M)% là %(S_{S B M}=\\sqrt{p(p-S B)(p-M B)(p-S M)})%<br>\\[=\\frac{a}{2} \\sqrt{5 x^{2}-8 x a \\sqrt{3}+16 a^{2}}\\]<br>Gọi %(H)% là hình chiếu vuông góc của %(S)% trên %(B M)%. Ta có %(S_{S B M}=\\frac{1}{2} S H \\cdot B M)%<br>\\[\\Rightarrow S H=\\frac{2 S_{S B M}}{B M}=a \\sqrt{\\frac{5 x^{2}-8 x a \\sqrt{3}+16 a^{2}}{x^{2}-2 x a \\sqrt{3}+4 a^{2}}} \\Rightarrow d(S, B M)=S H=a \\sqrt{\\frac{5 x^{2}-8 x a \\sqrt{3}+16 a^{2}}{x^{2}-2 x a \\sqrt{3}+4 a^{2}}} .\\]<br>Cách 3<br>Ta có %(B C=a, A C=a \\sqrt{3})%.<br>Chọn hệ trục tọa độ %(O x y z)% sao cho %(C(0 ; 0 ; 0), B(a ; 0 ; 0), A(0 ; a \\sqrt{3} ; 0), S(0 ; a \\sqrt{3} ; 2 a))%<br>Do %(H)% thuộc %(A C, A M=x)% nên %(M(0 ; a \\sqrt{3}-x ; 0))%<br>ta có %(\\overrightarrow{M B}=(a ; x-a \\sqrt{3} ; 0), \\overrightarrow{B S}=(-a ; a \\sqrt{3} ; 2 a))%.<br>\\[[\\overrightarrow{M B}, \\overrightarrow{B S}]=\\left(2 a x-2 a^{2} \\sqrt{3} ;-2 a^{2} ; x a\\right) \\text {. }\\]<br>Khoảng cách từ %(S)% đến %(B M)% là %(d(S, B M)=\\frac{|[\\overrightarrow{M B}, \\overrightarrow{B S}]|}{|\\overrightarrow{M B}|}=a \\sqrt{\\frac{5 x^{2}-8 x a \\sqrt{3}+16 a^{2}}{x^{2}-2 x a \\sqrt{3}+4 a^{2}}})%.<br>* Tìm các giá trị của %(x)% để khoảng cách này lớn nhất.Xét hàm số %(f(x)=\\frac{5 x^{2}-8 x a \\sqrt{3}+16 a^{2}}{x^{2}-2 x a \\sqrt{3}+4 a^{2}}(0 \\leq x \\leq a \\sqrt{3}))%<br>\\[f^{\\prime}(x)=\\frac{-2 a \\sqrt{3} x^{2}+8 x a^{2}}{\\left(x^{2}-2 x a \\sqrt{3}+4 a^{2}\\right)^{2}}, f^{\\prime}(x)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\x=\\frac{4 \\sqrt{3} a}{3} \\notin[0 ; a \\sqrt{3}]\\end{array} \\text {. Có } f(0)=4, f(\\sqrt{3})=7\\right. \\text {. }\\]<br><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1b6e119ab1c1fb98e28e41f5ff8daf54.png\" srcset=\"https://docdn.giainhanh.io/media/test/20fb492de4b160edbfa9505e82ab3690.png 197w, https://docdn.giainhanh.io/media/test/3dac9cae482cd3a41902a9bd1e661e19.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

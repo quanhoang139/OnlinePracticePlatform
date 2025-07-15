@@ -1,0 +1,57 @@
+[
+    {
+        "title": "1 ",
+        "point": 4.0,
+        "content": "Giải hệ phương trình sau: %(\\left\\{\\begin{array}{l}y^{4}-2 x y^{2}+7 y^{2}=-x^{2}+7 x+8 \\\\ \\sqrt{3-x}+\\sqrt{y^{2}+1}=x^{3}+x^{2}-4 y^{2}+3\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}y^{4}-2 x y^{2}+7 y^{2}=-x^{2}+7 x+8 (1)\\\\ \\sqrt{3-x}+\\sqrt{y^{2}+1}=x^{3}+x^{2}-4 y^{2}+3 (2)\\end{array}\\right.)%<br>Điều kiện xác định: %(x \\leq 3)%<br>Ta có phương trình %((1) \\Leftrightarrow\\left(y^{2}-x\\right)^{2}+7\\left(y^{2}-x\\right)-8=0 \\Leftrightarrow\\left[\\begin{array}{l}y^{2}=x+1 \\\\ y^{2}=x-8\\end{array}\\right.)%<br>Vì %(\\mathrm{x} \\leq 3)% nên %(\\mathrm{x}-8\\lt 0)%, do đó không thể xảy ra trường hợp %(y^{2}=x-8)%.<br>Vậy %(y^{2}=x+1)%<br>Thay vào (2) ta có: %(\\sqrt{3-x}+\\sqrt{x+2}=x^{3}+x^{2}-4 x-1)% (điều kiện %(\\mathrm{x} \\geq-2)% ).<br>\\[\\begin{array}{l}\\Leftrightarrow x^{3}+x^{2}-4 x-4+2-\\sqrt{x+2}+1-\\sqrt{3-x}=0 \\\\Leftrightarrow(x-2)(x+2)(x+1)-\\frac{x-2}{\\sqrt{x+2}+2}+\\frac{x-2}{1+\\sqrt{3-x}}=0 \\\\Leftrightarrow(x-2)\\left[(x+2)(x+1)-\\frac{1}{\\sqrt{x+2}+2}+\\frac{1}{1+\\sqrt{3-x}}\\right]=0 \\\\Leftrightarrow(x-2)\\left[(x+2)(x+1)+\\frac{1}{3}-\\frac{1}{\\sqrt{x+2}+2}+\\frac{1}{1+\\sqrt{3-x}}-\\frac{1}{3}\\right]=0\\end{array}\\]<br>\\[\\begin{array}{l}\\Leftrightarrow(x-2)\\left[(x+2)(x+1)+\\frac{x+1}{3(\\sqrt{x+2}+2)(\\sqrt{x+2}+1)}+\\frac{x+1}{3(\\sqrt{3-x}+1)(\\sqrt{3-x}+2)}\\right]=0 \\\\Leftrightarrow(x-2)(x+1)\\left[(x+2)+\\frac{1}{3(\\sqrt{x+2}+2)(\\sqrt{x+2}+1)}+\\frac{1}{3(\\sqrt{3-x}+1)(\\sqrt{3-x}+2)}\\right]=0 \\\\Leftrightarrow(x-2)(x+1)=0 \\text { (Điều kiện } x \\geq-2)\\end{array}\\]<br>Từ đó ta thu được nghiệm của hệ đã cho là %((-1 ; 0)(2 ; \\sqrt{3})(2 ;-\\sqrt{3}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Cho đường tròn %(\\left(\\mathrm{w}_{1}\\right))% và %(\\left(\\mathrm{w}_{2}\\right))% cắt nhau tại P và Q , một đường thẳng d thay đổi đi qua B Cắt w 1 tại A và các %(\\left(\\mathrm{w}_{2}\\right))% tại B sao cho P nằm giữa a và %(\\mathrm{b} ; \\mathrm{C}, \\mathrm{D})% là hai điểm cố định lần lượt thuộc %(\\left(\\mathrm{W}_{1}\\right))% và %(\\left(\\mathrm{w}_{2}\\right))% sao cho P thuộc tia đối của tia DC . tia BD và đoạn AC cắt nhau tại %(X)%, điểm y thuộc ( %(\\mathrm{w}_{1})% ) sao cho đường thẳng PY song song với đường thẳng BD , điểm Z thuộc %(\\left(\\mathrm{w}_{2}\\right))% sao cho đường thẳng PZ song song với đường thẳng AC . Gọi I và J lần lượt là tâm của các đường tròn ngoại tiếp tam giác ABQ và CDQ .",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) chứng minh rằng đường thẳng IJ vuông góc với đường thẳng XQ",
+        "question_images": [],
+        "solution": "Vì %(A C Q P)% và %(P D Q B)% là các tứ giác nội tiếp nên ta có: %(\\widetilde{X A Q}=\\overparen{C A Q}=\\overparen{C P Q}=\\overparen{D P Q}=\\overparen{D B Q}=\\overparen{X B Q})% nên AXQB nội tiếp (1)<br>Vì %(A X Q B)% và %(B P D Q)% là các tứ giác nội tiếp nên ta có: %(\\overparen{Q X C}=\\overparen{A B Q}=\\overparen{P B Q}=\\overparen{C D Q})% nên tứ giác XDQC nội tiếp (2)<br>Từ 1 và (2) suy ra QX là trục thẳng phương của hai đường tròn ( ABQ ) và (CDQ) do đó %(\\mathrm{IJ} \\perp \\mathrm{XQ})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) chứng minh rằng đường thẳng YZ luôn đi qua một điểm cố định khi d thay đổi.",
+        "question_images": [],
+        "solution": "Ta sẽ chứng minh rằng đường thẳng YZ đi qua điểm Q cố định và đường thẳng này cũng đi qua điểm %(X)%.<br>Vì XDQC nội tiếp nên %(\\widehat{D Q X}=\\widehat{D C X}=\\widehat{P C A})% (3)<br>Từ PZ // AC nên %(\\widehat{P C A}=\\widehat{C P Z}=\\widehat{D P Z})% (4)<br>Từ (3) và (4) suy ra %(\\widehat{D Q X}=\\widehat{D P Z})%<br>Mặt khác PDQZ nội tiếp nên %(\\widehat{D P Z}+\\widehat{D Q Z}=180^{\\circ})%, do đó %(\\widehat{D Q X}+\\widehat{D P Z}=180^{\\circ})% hay %(\\mathrm{Z}, \\mathrm{Q}, \\mathrm{X})% thẳng hàng.<br>Chứng minh tương tự ta được %(\\mathrm{Y}, \\mathrm{Q}, \\mathrm{X})% thẳng hàng<br>Từ đó suy ra điều phải chứng minh",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 4.0,
+        "content": "Cho số nguyên tố p và ba số nguyên dương %(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})% thỏa mãn %(\\mathrm{x}\\lt \\mathrm{y}\\lt \\mathrm{z}\\lt \\mathrm{p})%. Chứng minh rằng nếu %(x^{3} \\equiv y^{3} \\equiv z^{3}(\\bmod p))% thì %(x^{2}+y^{2}+z^{2})% chia hết cho %(x+\\mathrm{y}+\\mathrm{z})%.",
+        "question_images": [],
+        "solution": "Từ giả thiết ta có %(y^{3}-x^{2} \\equiv 0)% (modulo p)<br>Suy ra %((y-x)\\left(y^{2}+\\mathrm{yx}+x^{2}\\right) \\equiv 0)% (modulo p) (1)<br>Ta có %(\\mathrm{y}-\\mathrm{xx})% là số nguyên dương bé hơn p và p là số nguyên tố nên %(\\mathrm{y}-\\mathrm{x})% và p là nguyên tố cùng nhau.<br>Do đó (1) ta được %(x^{2}+y^{2}+z^{2} \\equiv 0)% (modulo p ) (2)<br>Chứng minh tương tự ta cũng có: %(y^{2}+y z+z^{2} \\equiv 0)% (modulo p ) (3)<br>Và %(z^{2}+z x+x^{2} \\equiv 0)% (modulo p )(4)<br>Từ (2) và (3) ta có: %(z^{2}-x^{2}+\\mathrm{yx}-x y \\equiv 0)% (modulo p )<br>Suy ra %((z-x)(x+y+z) \\equiv 0)% (modulo p)<br>Do đó %(x+y+z)% chia hết cho %(p)%, mà %(0\\lt x+y+x\\lt 3 p)%<br>%(\\Rightarrow x+y+z)% bằng p hoặc 2 p (5)<br>Sử dụng (2) ta có %((\\mathrm{x}+\\mathrm{y})^{2} \\equiv x y)% (modulo p ), kết hợp với %(\\mathrm{x}+\\mathrm{y} \\equiv-z)% (modulo p )  ta được %(z^{2} \\equiv x y)% (modulo p ), thay trở lại (2) ta có %(x^{2}+y^{2}+z^{2} \\equiv 0)% (modulo p ) (6)<br>Nếu %(\\mathrm{x}+\\mathrm{y}+\\mathrm{z}=\\mathrm{p})% thì (6) có ngay %(x^{2}+y^{2}+z^{2})% chia hết cho %(\\mathrm{x}+\\mathrm{y}+\\mathrm{z})%<br>Nếu %(\\mathrm{x}+\\mathrm{y}+\\mathrm{z}=2 \\mathrm{p})% thì (6) có ngay %(x^{2}+y^{2}+z^{2})% chia hết cho %(\\mathrm{x}+\\mathrm{y}+\\mathrm{z})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 4.0,
+        "content": "Xét các số thực dương %(x, y)% và %(z)% thỏa mãn %(x+y+z \\leq \\frac{3}{4})%.<br>Tìm giá trị nhỏ nhất của biểu thức:<br>\\[P=(\\sqrt{x}+\\sqrt{y})(\\sqrt{y}+\\sqrt{z})(\\sqrt{z}+\\sqrt{x})+\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\]",
+        "question_images": [],
+        "solution": "Theo bất đẳng thức giữa trung bình cộng và trung bình nhân ta có<br>\\[(\\sqrt{x}+\\sqrt{y})(\\sqrt{y}+\\sqrt{z})(\\sqrt{z}+\\sqrt{x}) \\geq 8 \\sqrt{x y z} \\Rightarrow P \\geq 8 \\sqrt{x y z}+\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\]<br>Cũng theo bất đẳng thức giữa trung bình cộng và trung bình nhân ta được<br>\\[8 \\sqrt{x y z}+\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z} \\geq 13^{13} \\sqrt{8 \\sqrt{x y z} .\\left(\\frac{1}{4 x}\\right)^{4}+\\left(\\frac{1}{4 y}\\right)^{4}+\\left(\\frac{1}{4 z}\\right)^{4}}=13^{13} \\sqrt{\\frac{1}{2^{21} \\sqrt{x y z} \\cdot(x y z)^{3}}}\\]<br>Và %(x y z \\leq\\left(\\frac{x+y+z}{3}\\right)^{3} \\leq \\frac{1}{2^{6}})%. Suy ra %(\\mathrm{P} \\geq 13)%<br>Mà khi %(\\mathrm{x}=\\mathrm{y}=\\mathrm{z}=\\frac{1}{4})% thì %(\\mathrm{P}=13)%, suy ra giá trị của P là 13",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 4.0,
+        "content": "Có 42 học sinh tham iga một buổi giao lưu. Biết rằng cứ 3 học sinh bất kỳ, đều có ít<br>nhất một cặp đôi gồm hai học sinh có trao đổi kinh nghiệm học tập với nhau. Kí hiệu k là số cặp đôi như thế. Tìm giá trị nhỏ nhất cuả k.",
+        "question_images": [],
+        "solution": "Ta sẽ giải thích bài toán tổng quát:<br>Bài toán. Cho m là số nguyên dương lớn hơn 1. Có 2m học sinh tham gia một buổi giao lưu. Biết rằng cứ 3 học sinh bất kỳ, đều có ít nhất một cặp đôi gồm hai học sinh có trao đổi kinh nghiệm học tập với nhau. Kí hiệu k là số cặp đôi như thế.<br>Tìm giá trị nhỏ nhất của k .<br>Lời giải Với mỗi số nguyên dương %(\\mathrm{m}\\gt 1)%, rõ ràng tồn tại giá trị nhỏ nhất của k , ta kí hiệu giá trị này bởi %(\\mathrm{k}(\\mathrm{m}))%<br>Ta thấy %(\\mathrm{k}(2)=2)%<br>Bây giờ giả sử %(\\mathrm{m}>2)%<br>Xét buổi giao lưu gồm 2 m học sinh sao cho cớ 3 học sinh bất kỳ, đều có ít nhất một cặp đôi gồm hai học sinh có trao đổi học tập với nhau bằng %(\\mathrm{k}(\\mathrm{m}))%.<br>Tồn tại ít nhất hai học sinh (kí hiệu là A và B ) không trao đổi học tập với nhau, loại A và B ra khỏi buổi giao lưu này ta có một buổi giao lưu gồm %(2(\\mathrm{~m}-1))% học sinh mà cứ 3 học sinh bất kỳ, đều có ít nhất một cặp đôi gồm hai học sinh có trao đổi kinh nghiệm học tập với nhau. Số cặp dôi gồm hai học sinh có trao đổi kinh nghiệm học tập với nhau trong buổi liên hoan mới sẽ không ít hơn %(\\mathrm{k}(\\mathrm{m}-1))%, mà mỗi học sinh trong buổi liên hoan mới sẽ trao đổi kinh nghiệm học tập với A hoặc B (vì A và không trao đổi học tập với nhau)<br>Suy ra %(k(m) \\geq k(m-1)+2(m-1))%<br>Do đó %(\\mathrm{k}(\\mathrm{m}) \\geq \\mathrm{m}(\\mathrm{m}-1))% với mỗi số nguyên dương %(\\mathrm{m}\\gt 1)% (1)<br>Với mỗi số nguyên dương %(\\mathrm{m}\\gt)%, ta xét mội buối giao lưu gồm 2 m học sinh như sau: Các học sinh trong buổi giao lưu thuộc một trong hai nhốm (gọi là %(X)% và %(Y)% ). Nhóm %(X)% gồm m học sinh có trao đổi học tập từng đôi một, nhóm Y gồm m học sinh có trao đổi học tập từng đôi một. Mỗi học sinh của nhóm này đều không có trao đổi học tập với bất kỳ một học sinh nào của nhóm kia.<br>Rõ ràng trong buổi giao lưu này, cứ 3 học sinh bất kỳ, đều có ít nhất một cặp đôi gồm hai học sinh có trao đối kinh nghiệm học tập với nhau số cặp đôi trao đổi học tập với nhau bằng %(\\mathrm{m}(\\mathrm{m}-1))%.<br>Suy ra %(k(m) \\leq m(m-1))% với mỗi số nguyên dương %(m>1)% (2)<br>Từ (1) và (2) suy ra %(\\mathrm{k}(\\mathrm{m})=\\mathrm{m}(\\mathrm{m}-1))% với mỗi số nguyên dương %(\\mathrm{m}>1)%.<br>Trở lại bài toán ban đầu.<br>Theo trên ta có giá trị %(k)% bé nhất là %(k(21)=420)%",
+        "question_type": "essay"
+    }
+]

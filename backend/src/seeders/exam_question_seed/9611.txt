@@ -1,0 +1,89 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 1.5,
+        "content": "Chứng minh rằng %(\\left(n^{2}+3 n+1\\right)^{2}-1)% chia hết cho 24 với mọi số tự nhiên n",
+        "question_images": [],
+        "solution": "\\[\\left(n^{2}+3 n+1\\right)^{2}-1=\\left(n^{2}+3 n+1-1\\right)\\left(n^{2}+3 n+1+1\\right)=\\left(n^{2}+3 n\\right)\\left(n^{2}+3 n+2\\right)=n(n-3)(n+1)(n+2)\\]<br>Trong tích trên có 3 số tự nhiên liên tiếp nên chia hết cho 3 và có 2 số chẵn liên tiếp nên chia hết cho 8 mà %((3,8)=1)% nên %(\\left(n^{2}+3 n+1\\right)^{2}-1 \\vdots 3.8)% hay %(\\left(n^{2}+3 n+1\\right)^{2}-1: 24)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 1.5,
+        "content": "Tìm ba số nguyên tố %(p, q, r)% sao cho %(p^{2}+q^{2}+r^{2})% cho cũng là số nguyên tố",
+        "question_images": [],
+        "solution": "Vì %(\\mathrm p\\lt q\\lt r)% và %(\\mathrm{p}, \\mathrm{q}, \\mathrm{r})% là số nguyên tố nên %(p^{2}+q^{2}+r^{2} \\geq 38 \\Rightarrow p^{2}+q^{2}+r^{2})% lẻ (do %(\\mathrm{p}, \\mathrm{q}, \\mathrm{r})% là số nguyên tố).<br>Vì %(p, q, r)% liên tiếp nên có nhiều nhất 1 số chẵn (1)<br>Giả sử %({ }^{p})% chẵn nên %(p^{2})% chẵn %(\\Leftrightarrow q^{2}+r^{2})% lé nên có 1 số chẵn<br>Giả sử %(p^{2})% chẵn nên q chẵn (trái với (1)).<br>Vậy %(p, q, r)% lẻ<br>Giả sử trong 3 số %(p, q, r)% không có số nào chia hết cho 3%(\\Leftrightarrow p, q, r)% chia 3 dư 1 hoặc %(2 \\Leftrightarrow p^{2} ; q^{2} ; r^{2})% chia 3 dư %(1 \\Rightarrow p^{2}+q^{2}+r^{2} \\vdots 3)%<br>Mà %(p^{2}+q^{2}+r^{2} \\geq 38)% và là số nguyên tố nên vô lý<br>Vậy có ít nhất 1 số %(: 3)% và p là số bé nhất nên %(p=3, q=5, r=7)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.5,
+        "content": "Cho %(x+y=1)%. Tính giá trị của biều thức %(A=x^{3}+y^{3}+3 x y)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=x^{3}+y^{3}+3 x y=(x+y)\\left(x^{2}-x y+y^{2}\\right)+3 x y \\\\ =1 \\cdot\\left(x^{2}-x y+y^{2}\\right)+3 x y=x^{2}+2 x y+y^{2}=(x+y)^{2}=1\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 2.5,
+        "content": "Cho %(x, y, z)% là các số thực dương thỏa mãn %(x y z=1)%. Tìm giá trị lớn nhất của biểu thức %(B=\\frac{1}{x^{3}+y^{3}+1}+\\frac{1}{x^{3}+z^{3}+1}+\\frac{1}{z^{3}+x^{3}+1})%",
+        "question_images": [],
+        "solution": "Ta có : %((x-y)^{2} \\geq 0 \\Leftrightarrow x^{2}-x y+y^{2} \\geq x y)%Ta có: %(x^{3}+y^{3}=(x+y)\\left(x^{2}-x y+y^{2}\\right) \\geq(x+y) x y)%<br>\\[\\Leftrightarrow x^{3}+y^{3}+1 \\geq(x+y) x y+x y z=(x+y+z) x y\\]<br>Tương tự ta có : %(y^{3}+z^{3}+1 \\geq(x+y+z) y z ; z^{3}+x^{3}+1 \\geq(x+y+z) x z)%<br>%(\\Rightarrow\\left\\{\\begin{array}{l}\\frac{1}{x^{3}+y^{3}+1} \\leq \\frac{1}{(x+y+z) x y} \\\\ \\frac{1}{y^{3}+z^{3}+1} \\leq \\frac{1}{(x+y+z) y z} \\\\ \\frac{1}{z^{3}+x^{3}+1} \\leq \\frac{1}{(x+y+z) x z}\\end{array}\\right.)%<br>\\[\\begin{array}{l}\\Rightarrow B=\\frac{1}{x^{3}+y^{3}+1}+\\frac{1}{x^{3}+z^{3}+1}+\\frac{1}{z^{3}+x^{3}+1} \\leq \\frac{1}{(x+y+z) x y}+\\frac{1}{(x+y+z) y z}+\\frac{1}{(x+y+z) x z} \\\\Leftrightarrow B \\leq \\frac{x+y+z}{(x+y+z) x y z}=\\frac{1}{x y z}=\\frac{1}{1}=1\\end{array}\\]<br>Dấu bằng xảy ra khi %(x=y, y=z, z=x \\Leftrightarrow x=y=z=1)%<br>Vậy %(\\operatorname{Max} B=1 \\Leftrightarrow x=y=z=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 2.0,
+        "content": "Cho %(a+b+c=0)%. Rút gọn biểu thức %(C=\\frac{a^{2}}{a^{2}-b^{2}-c^{2}}+\\frac{b^{2}}{b^{2}-c^{2}+a^{2}}+\\frac{c^{2}}{c^{2}-a^{2}-b^{2}})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}C=\\frac{a^{2}}{a^{2}-b^{2}-c^{2}}+\\frac{b^{2}}{b^{2}-c^{2}+a^{2}}+\\frac{c^{2}}{c^{2}-a^{2}-b^{2}} \\\\ =\\frac{a^{2}}{(-b-c)^{2}-b^{2}-c^{2}}+\\frac{b^{2}}{(-c-a)^{2}-c^{2}-a^{2}}+\\frac{c^{2}}{(-a-b)^{2}-a^{2}-b^{2}} \\\\ =\\frac{a^{2}}{2 b c}+\\frac{b^{2}}{2 c a}+\\frac{c^{2}}{2 a b c}=\\frac{a^{3}+b^{3}+c^{3}}{2 a b c}=\\frac{3 a b c}{2 a c b}=\\frac{3}{2}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 2.0,
+        "content": "Giả sử %(a,b,c)% là ba số đôi một khác nhau và %(\\frac{a}{b-c}+\\frac{b}{c-a}+\\frac{c}{a-b}=0)%. Chứng minh :<br>\\[\\frac{a}{(b-c)^{2}}+\\frac{b}{(c-a)^{2}}+\\frac{c}{(a-b)^{2}}=0\\]",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\frac{a}{(b-c)^{2}}+\\frac{b}{(c-a)^{2}}+\\frac{c}{(a-b)^{2}}=0 \\\\ \\frac{a}{b-c}+\\frac{b}{c-a}+\\frac{c}{a-b}=0 \\Rightarrow\\left(\\frac{1}{b-c}+\\frac{1}{c-a}+\\frac{1}{a-b}\\right)\\left(\\frac{a}{b-c}+\\frac{b}{c-a}+\\frac{c}{a-b}\\right)=0 \\\\ \\Leftrightarrow \\frac{a}{(b-c)^{2}}+\\frac{b}{(c-a)^{2}}+\\frac{c}{(a-b)^{2}}+\\frac{a+b}{(b-c)(c-a)}+\\frac{c+a}{(b-c)(a-b)}+\\frac{b+c}{(a-b)(c-a)}=0 \\\\ \\Leftrightarrow \\frac{a}{(b-c)^{2}}+\\frac{b}{(c-a)^{2}}+\\frac{c}{(a-b)^{2}}+\\frac{a^{2}-b^{2}+c^{2}-a^{2}+b^{2}-c^{2}}{(a-b)(b-c)(c-a)}=0 \\\\ \\Leftrightarrow \\frac{a}{(b-c)^{2}}+\\frac{b}{(c-a)^{2}}+\\frac{c}{(a-b)^{2}}=0(d f c m)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7:",
+        "group_content": "Cho hình vuông %(A B C D)% có cạnh bằng a . Gọi O là giao điểm hai đường chéo %(A C \\& B D)%. Trên các đoạn %(A B)% và OC lần lượt lấy các điềm E và F sao cho %(A E=O F \\sqrt{2})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh tam giác %(D E F)% là tam giác vuông cân",
+        "question_images": [],
+        "solution": "Tam giác %(A O D)% vuông cân ờ O nên<br>\\[\\begin{array}{l}D O=\\sqrt{2} A D \\Rightarrow \\frac{D O}{A D}=\\sqrt{2} ; A E=\\sqrt{2} O F \\Rightarrow \\frac{A E}{O F}=\\sqrt{2} \\Rightarrow \\frac{A E}{O F}=\\frac{D O}{A D}(=\\sqrt{2}) \\\\text { Mà } \\angle D A O=\\angle D O F=90^{\\circ} \\Rightarrow \\triangle A D E \\sim \\triangle O D F(c . g . c) \\Rightarrow \\frac{D E}{D F}=\\frac{A D}{O D} \\\\triangle A D E \\sim \\triangle O D F(\\mathrm{cmt}) \\Rightarrow \\angle A D E=\\angle O D F \\\\text { Mà } \\angle A D E+\\angle E D O=\\angle A D O=45^{\\circ} \\Rightarrow \\angle O D F+\\angle E D O=45^{\\circ} \\Leftrightarrow \\angle E D F=45^{\\circ} \\\\angle E D F=\\angle A D O\\left(=45^{\\circ}\\right) \\& \\frac{D E}{D F}=\\frac{A D}{O D} \\Rightarrow \\frac{D E}{A D}=\\frac{D F}{O D} \\Rightarrow \\triangle A D O \\propto \\triangle E D F(\\text { c.g.c }) \\\\Rightarrow \\angle A O D=\\angle E F D \\Rightarrow \\angle E F D=90^{\\circ} \\Rightarrow \\triangle E F D \\text { vuông tại F mà } \\angle E D F=45^{\\circ}(\\mathrm{cmt}) \\\\Rightarrow \\triangle E F D \\text { vuông cân tại } \\mathrm{F}\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f182d8d3800593656ede52365182a126.png\" srcset=\"https://docdn.giainhanh.io/media/test/de103834693c34fb54332d6866dc433d.png 160w, https://docdn.giainhanh.io/media/test/78b99169254c7ef8d0c08e631aa12f01.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Giả sử %(A E=2 E B)%. Tính diện tích tam giác DEF theo %(a)%",
+        "question_images": [],
+        "solution": "Ta có %(A E=2 E B \\Rightarrow A E=\\frac{2}{3} A B=\\frac{2 a}{3})%<br>Có %(D E^{2}=A D^{2}+A E^{2}=a^{2}+\\frac{4 a^{2}}{9}=\\frac{13 a^{2}}{9} \\Rightarrow 2 D F^{2}=\\frac{13 a^{2}}{9} \\Rightarrow D F^{2}=\\frac{13 a^{2}}{18})%<br>\\[S_{D E F}=\\frac{D F^{2}}{2}=\\frac{13 a^{2}}{36}(d v d t)\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 2.0,
+        "content": "Cho hình chữ nhật %(A B C D)%. Gọi H là hình chiếu của A lên đường chéo BD . Gọi %(\\mathrm{M}, \\mathrm{N})% theo thứ tự là trung điểm của BC và DH . Tính số đo của %(\\angle A N M)%",
+        "question_images": [],
+        "solution": "Gọi L là trung điểm của AH%(\\triangle A H D)% có L là trung điểm AH (cách vẽ), N là trung điểm %(\\mathrm{DH}(\\mathrm{gt}))%<br>Nên LN là đường trung bình %(\\triangle A H D \\Rightarrow L N / / A D)%<br>Mà %(D A \\perp A B)% (hình chữ nhật ABCD ) %(\\Rightarrow L N \\perp A B)% (tính chất từ vuông góc đến song song)<br>%(\\triangle A N B)% có %(L N \\perp A B(\\mathrm{cmt}), A H \\perp D B)% hay %(A L \\perp B N(\\mathrm{~g}) \\Rightarrow L)% là trực tâm %(\\triangle A N B)%<br>Có %(N L / / D A(c m t), D A / / B C(h c n ~ A B C D) \\Rightarrow N L / / B M)%<br>NL là đường trung bình %(\\triangle A D H(\\mathrm{cmt}) \\Rightarrow N L=\\frac{1}{2} A D)%<br>Có %(A B C D)% là hình chữ nhật nên %(A D=B C)%%(\\Rightarrow N L=\\frac{1}{2} B C=B M)% (M là trung điểm của BC ) mà%(N L / / B M(\\mathrm{cmt}))%<br>%(\\Rightarrow L B M N)% là hình bình hành nên %(B L / / M N)% mà %(A L \\perp B N)%%(\\Rightarrow A N \\perp N M \\Rightarrow \\angle A M N=90^{\\circ})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/20613741a2fe347c5c12066df1217a29.png\" srcset=\"https://docdn.giainhanh.io/media/test/df1d4d1996dbbdb5884bea4f05ebf045.png 222w, https://docdn.giainhanh.io/media/test/0cb70819d3340c19f07974f2df2fb31e.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 9: ",
+        "point": 2.0,
+        "content": "Cho tam giác ABC vuông tại A . Từ điểm M trong tam giác ta vẽ MI vuông góc với %(B C)% , MJ vuông góc với %(\\mathrm{CA} ; \\mathrm{MK})% vuông góc với %(A B)%. Xác định vị trí của điểm M để tổng %(M I^{2}+M J^{2}+M K^{2})% nhỏ nhất",
+        "question_images": [],
+        "solution": "Kẻ %(A H \\perp B C(H \\in B C) \\Rightarrow A H)% cố định, %(M D \\perp A H(D \\in A H))%<br>Xét tứ giác %(A K M J)% có %(\\angle A K M=90^{\\circ}(M K \\perp A B), \\angle K A J=90^{\\circ}(\\triangle A B C)% vuông tại A%())% %(\\angle A J M=90^{\\circ}(M J \\perp A C) \\Rightarrow)% tứ giác %(A K M J)% là hình chữ nhật %(\\Rightarrow M J=K A)%<br>Ta có %(M J^{2}+M K^{2}=K A^{2}+M K^{2}=A M^{2})% (Theo Pytago)<br>Xét tứ giác %(H I M D)% có %(\\angle D H I=90^{\\circ}(A H \\perp B C))%<br>\\[\\angle H I M=90^{\\circ}(M I \\perp B C), \\angle M D H=90^{\\circ}(M D \\perp A H)\\]<br>Suy ra tứ giác HIMD là hình chữ nhật suy ra %(\\mathrm{MI}=\\mathrm{HD})%<br>%(\\triangle A D M)% có %(\\angle M A D=90^{\\circ}(M D \\perp A H) \\Rightarrow \\triangle A D M)% vuông tại D nên %(A M \\geq A D)%.<br>Xét %(M K^{2}+M J^{2}+M I^{2}=A M^{2}+H D^{2} \\geq A D^{2}+H D^{2})%<br>Ta có %((A D-H D)^{2} \\geq 0 \\Leftrightarrow A D^{2}+H D^{2} \\geq 2 A D . H D)%%(\\Leftrightarrow 2\\left(A D^{2}+H D^{2}\\right) \\geq A D^{2}+H D^{2}+2 A D \\cdot H D=(A D+H D)^{2}=A H^{2})%%(\\Leftrightarrow A D^{2}+H D^{2} \\geq \\frac{A H^{2}}{2})% cố định (do AH cố định) nên %(M K^{2}+M J^{2}+M I^{2} \\geq \\frac{A H^{2}}{2})%<br>Dấu bằng xảy ra khi %(A D=H D, M \\equiv D \\Rightarrow M)% là trung điểm của AH<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/2d52915fc0629d16be8e8c2fa3d78f54.png\" srcset=\"https://docdn.giainhanh.io/media/test/96bb4232a915a27d0879069cd0254419.png 245w, https://docdn.giainhanh.io/media/test/023005e91e6977dc06c647e2495089b7.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

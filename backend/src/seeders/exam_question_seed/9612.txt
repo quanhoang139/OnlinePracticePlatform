@@ -1,0 +1,104 @@
+[
+    {
+        "title": "Câu 1 ",
+        "point": 2.0,
+        "content": "Cho 2 số %(a, b)% thỏa mãn %(a+b=1)%. Tính giá trị biểu thức %(P=a^{3}+3 a b+b^{3})%",
+        "question_images": [],
+        "solution": "\\[P=a^{3}+3 a b+b^{3}\\]<br>Ta có :<br>\\[P=a^{3}+3 a b+b^{3}=(a+b)^{3}-3 a b(a+b)+3 a b=(a+b)^{3}-3 a b[(a+b)-1]\\]<br>Thay %(a+b=1)%, ta có :<br>\\[P=1^{3}-3 a b(1-1)=1 \\text {. Vậy } P=1\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2",
+        "group_content": "Cho biểu thức %(Q=\\left(\\frac{x}{x^{2}-4}+\\frac{2}{2-x}+\\frac{1}{x+2}\\right): \\frac{1}{x+2}()% với %(x \\neq \\pm 2))%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Rút gọn biểu thức %(Q)%",
+        "question_images": [],
+        "solution": "Với %(x \\neq \\pm 2)% ta có :<br>\\[\\begin{array}{l}Q=\\left(\\frac{x}{x^{2}-4}+\\frac{2}{2-x}+\\frac{1}{x+2}\\right): \\frac{1}{x+2}=\\left[\\frac{x}{(x-2)(x+2)}-\\frac{2}{x-2}+\\frac{1}{x+2}\\right] \\cdot(x+2) \\\\=\\frac{x-2(x+2)+x-2}{(x+2)(x-2)} \\cdot(x+2)=\\frac{x-2 x-4+x-2}{x-2}=\\frac{-6}{x-2}\\end{array}\\]<br>Vậy %(Q=\\frac{-6}{x-2})% khi %(x \\neq \\pm 2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Tìm các giá trị nguyên %(x\\lt 0)% để biểu thức %(Q)% có giá trị là một số nguyên",
+        "question_images": [],
+        "solution": "Với %(x \\neq \\pm 2)%, để %(\\mathrm{Q} \\in Z)% thì %(x-2 \\in U(6))%, do %(x\\lt 0 \\Rightarrow x-2\\lt -2 \\Rightarrow x-2 \\in\\{-3 ;-6\\})%<br>\\[\\Leftrightarrow\\left[\\begin{array} { l } { x - 2 = - 3 } \\\\{ x - 2 = - 6 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=-1 \\x=-4\\end{array}(\\text { tm })\\right.\\right.\\]<br>Vậy %(x \\in\\{-1 ;-4\\})% thì %(Q \\in Z)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 2.0,
+        "content": "Cho các số nguyên %(a, b, c)% khác 0 thỏa mãn %(\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right) a b c=2021)%. Chứng minh rằng %(K=\\left(2021+a^{2}\\right)\\left(2021+b^{2}\\right)\\left(2021+c^{2}\\right))% là số chính phương.",
+        "question_images": [],
+        "solution": "Với các số nguyên %(a, b, c)% khác 0 , ta có :<br>\\[\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right) a b c=2021 \\Leftrightarrow \\frac{a b+b c+c a}{a b c} \\cdot a b c=2021 \\Leftrightarrow a b+b c+c a=2021\\]<br>Thay vào biểu thức %(K)% ta được<br>\\[\\begin{array}{l}K=\\left(2021+a^{2}\\right)\\left(2021+b^{2}\\right)\\left(2021+c^{2}\\right) \\\\=\\left(a b+b c+c a+a^{2}\\right)\\left(a b+b c+c a+b^{2}\\right)\\left(a b+b c+c a+c^{2}\\right) \\\\=[b(a+c)+a(a+c)][a(b+c)+b(b+c)][b(a+c)+c(a+c)] \\\\=(a+c)(a+b)(b+c)(a+b)(a+c)(b+c)=[(a+b)(b+c)(a+c)]^{2}\\end{array}\\]<br>Vì các số nguyên %(a, b, c)% khác 0 nên %(K)% là số chính phương",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 2.0,
+        "content": "Giải phương trình %((2 x+1)(x+1)^{2}(2 x+3)=18)%",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{l}(2 x+1)(x+1)^{2}(2 x+3)=18 \\Leftrightarrow\\left(4 x^{2}+6 x+2 x+3\\right)\\left(x^{2}+2 x+1\\right)=18 \\\\Leftrightarrow\\left[4\\left(x^{2}+2 x\\right)+3\\right]\\left(x^{2}+2 x+1\\right)=18\\end{array}\\]<br>Đặt %(t=x^{2}+2 x)% ta có :<br>\\[\\begin{array}{l}(4 t+3)(t+1)=18 \\Leftrightarrow 4 t^{2}+4 t+3 t+3-18=0 \\Leftrightarrow 4 t^{2}+7 t-15=0 \\\\Leftrightarrow 4 t^{2}+12 t-5 t-15=0 \\Leftrightarrow(t+3)(4 t-5)=0 \\Leftrightarrow\\left[\\begin{array}{l}t=-3 \\t=\\frac{5}{4}\\end{array}\\right. \\\\left.{ }^{*}\\right) t=-3 \\Rightarrow x^{2}+2 x=-3 \\Leftrightarrow x^{2}+2 x+1=-2 \\Leftrightarrow(x+1)^{2}=-2(k t m) \\\\left.{ }^{*}\\right) t=\\frac{5}{4} \\Rightarrow x^{2}+2 x=\\frac{5}{4} \\Leftrightarrow 4 x^{2}+8 x-5=0 \\Leftrightarrow(2 x+5)(2 x-1)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=-\\frac{5}{2} \\x=\\frac{1}{2}\\end{array}\\right.\\end{array}\\]<br>Vậy phương trình có tập nghiệm %(S=\\left\\{\\frac{1}{2} ;-\\frac{5}{2}\\right\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 2.0,
+        "content": "Tìm các số nguyên %(x, y, z)% thỏa mãn %(x^{3}+y^{3}+z^{3}=x+y+z+2021^{4^{15}})%",
+        "question_images": [],
+        "solution": "Với các số nguyên %(x, y, z)% ta có :<br>\\[\\begin{array}{l}x^{3}+y^{3}+z^{3}=x+y+z+2021^{4^{15}} \\Leftrightarrow x^{3}-x+y^{3}-y+z^{3}-z=2021^{4^{15}} \\\\Leftrightarrow x\\left(x^{2}-1\\right)+y\\left(y^{2}-1\\right)+z\\left(z^{2}-1\\right)=2021^{4^{5}} \\\\Leftrightarrow x(x-1)(x+1)+y(y-1)(y+1)+z(z-1)(z+1)=2021^{4^{5}}(*)\\end{array}\\]<br>Ta có %(x(x-1)(x+1) ; y(y-1)(y+1) ; z(z-1)(z+1))% là các tích của ba số nguyên liên tiếp nên<br>%(x(x-1)(x+1) \\mathrm{M} z y(y-1)(y+1) \\mathrm{M} z(z-1)(z+1) \\mathrm{M})%<br>\\[\\Rightarrow[x(x-1)(x+1)+y(y-1)(y+1)+z(z-1)(z+1)] \\Lambda\\]<br>Mà 2021 chia 3 dư -1 nên %(2021^{4^{5}})% chia 3 dư 1 nên %(2021^{4^{5}})% không chia hết cho 3<br>Vậy vế trái của %(\\left({ }^{*}\\right))% chia hết cho 3 mà vế phải %(\\left({ }^{*}\\right))% không chia hết cho 3 nên không có ba số nguyên %(x, y, z)% nào thỏa mãn đầu bài",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6 ",
+        "point": 2.0,
+        "content": "Cho đa thức %(f(x))% bậc 4 , có hệ số bậc cao nhất bằng 1. Biết %(f(1)=f(2)=f(3)=0)%. Tính %(f(-2)+10 f(4))%",
+        "question_images": [],
+        "solution": "Ta có %(f(x))% là đa thức bậc 4 , có hệ số cao nhất bằng 1 , mà %(f(1)=f(2)=f(3)=0)% nên %(f(x))% có nghiệm là %(x_{1}=1 ; x_{2}=2 ; x_{3}=3)% nên %(f(x))% có dạng<br>\\[\\begin{array}{l}f(x)=(x+a)(x-1)(x-2)(x-3) \\text { với } a \\in \\mathrm{i} \\\\Rightarrow f(-2)=(-2+a)(-2-1)(-2-2)(-2-3)=(-2+a)(-60)=120-60 a \\f(4)=(4+a)(4-1)(4-2)(4-3)=(4+a) \\cdot 6=24+6 a \\\\Rightarrow f(-2)+10 f(4)=120-60 a+10(24+6 a)=120-60 a+240+60 a=360\\end{array}\\]<br>Vậy %(f(-2)+10 f(4)=360)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7",
+        "group_content": "Cho hình thang %(A B C D(A B / / C D, A B\\gt C D))%. Từ D vẽ đường thẳng song song với %(B C)%, cắt %(A C)% tại M và cắt %(A B)% tại K . Từ C vẽ đường thẳng song song với %(A D)%, cắt %(A B)% tại F , qua F vẽ đường thẳng song song với %(A C)%, cắt %(B C)% tại P . Chứng minh rằng :",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Tứ giác %(B C D K)% là hình bình hành và %(A K=B F)%",
+        "question_images": [],
+        "solution": "Tứ giác %(B C D K)% có %(D K / / B C(g t))% và %(D C / / B K(A B / / C D))%, vậy tứ giác %(B C D K)% có các cạnh đối song song nên là hình bình hành suy ra %(B K=C D(1))%<br>Tương tự, tứ giác %(A D C F)% có %(A D / / C F, A F / / C D(g t) \\Rightarrow A D C F)% cũng là hình bình hành nên %(A F / / C D(2))%<br>Từ (1) và (2) ta có %(A F=B K(=C D) \\Rightarrow A F+F K=B K+F K \\Leftrightarrow A K=B F)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b0cbcda0b93433bfbf63953a385b0324.png\" srcset=\"https://docdn.giainhanh.io/media/test/69276bd9ddb816fb6de4fdee3bdf2e1e.png 245w, https://docdn.giainhanh.io/media/test/1fa095771f6abff25cc829231f3f0a7b.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) %(M P / / A B)%",
+        "question_images": [],
+        "solution": "Ta có %(P F / / A C(g t))% nên theo định lý Talet, ta có %(\\frac{C P}{P B}=\\frac{A F}{B F}(3))%<br>%(C D / / A K(g t))% nên theo hệ quả định lý Talet, ta có : %(\\frac{C M}{M A}=\\frac{C D}{A K}(4))%<br>Theo ý a ta có %(A F=C D, B F=A K \\Rightarrow \\frac{A F}{B F}=\\frac{C D}{A K}(5))%<br>Từ (3), (4), (5) ta có %(: \\frac{C P}{P B}=\\frac{C M}{M A} \\Rightarrow M P / / A B)% (định lý Talet đảo)",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Ba đường thẳng %(M P, C F, D B)% đồng quy.",
+        "question_images": [],
+        "solution": "Gọi I là giao điểm của %(C F, D B)%.<br>Vì %(C D / / B F \\Rightarrow \\frac{D I}{I B}=\\frac{C D}{B F})%<br>Từ (4) ta có %(\\frac{C M}{M A}=\\frac{C D}{A K})% mà %(B F=A K)% (chứng minh câu a)<br>%(\\Rightarrow \\frac{D I}{I B}=\\frac{C M}{M A} \\Rightarrow I M / / A B)% (định lý Talet đảo)<br>Vậy %(M P / / A B, M I / / A B \\Rightarrow M P \\equiv M I)% (Tiên đề Oclit) nên %(M P)% đi qua I<br>Suy ra ba đường thẳng %(M P, C F \\cdot D B)% đồng quy tại I",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8  ",
+        "point": 2.0,
+        "content": "Cho 5 số nguyên phân biệt sao cho tổng của ba số bất kỳ trong chúng luôn lớn hơn tổng hai số còn lại. Tìm giá trị nhỏ nhất của tích năm số nguyên đó.",
+        "question_images": [],
+        "solution": "Gọi 5 số nguyên phân biệt là %(a_{1}, a_{2}, a_{3}, a_{4}, a_{5})%.<br>Không mất tính tổng quát, ta giả sử %(a_{5}\\gt a_{4}>a_{3}>a_{2}>a_{1})%,<br>khi đó %(a_{5}-a_{3} \\geq 2 ; a_{4}-a_{2} \\geq 2)%.<br>Theo bài ta, ta có<br>\\[a_{1}+a_{2}+a_{3}>a_{4}+a_{5} \\Rightarrow a_{1}>a_{5}-a_{3}+a_{4}-a_{2} \\geq 2+2=4 \\Rightarrow a_{1} \\geq 5\\]<br>Mà %(a_{5}>a_{4}>a_{3}>a_{2}>a_{1})% nên ta suy ra %(a_{2} \\geq 6, a_{3} \\geq 7, a_{4} \\geq 8, a_{5} \\geq 9)%<br>Từ đó ta có %(: a_{1} \\cdot a_{2} \\cdot a_{3} \\cdot a_{4} \\cdot a_{5} \\geq 5.6 .7 .8 \\cdot 9=15120)%<br>Vậy giá trị nhỏ nhất của tích %(a_{1} a_{2} a_{3} a_{4} a_{5})% là %(15120 \\mathrm{khi} a_{1}=5 ; a_{2}=6 ; a_{3}=7 ; a_{4}=8 ; a_{5}=9)%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "title": "1.1 ",
+        "point": 3.0,
+        "content": "Rút gọn biểu thức: %(M=\\sqrt{4+\\sqrt{5 \\sqrt{3}+5 \\sqrt{48-10 \\sqrt{7+4 \\sqrt{3}}}}})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text {} M=\\sqrt{4+\\sqrt{5 \\sqrt{3}+5 \\sqrt{48-10 \\sqrt{7+4 \\sqrt{3}}}}}=\\sqrt{4+\\sqrt{5 \\sqrt{3}+5 \\sqrt{48-10(2+\\sqrt{3})}}} \\\\ =\\sqrt{4+\\sqrt{5 \\sqrt{3}+5 \\sqrt{28-10 \\sqrt{3}}}}=\\sqrt{4+\\sqrt{5 \\sqrt{3}+5(5-\\sqrt{3})}} \\\\ =\\sqrt{4+\\sqrt{25}}=\\sqrt{9}=3 . \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.2 ",
+        "point": 3.0,
+        "content": "Giải phương trình: %(6 \\cdot \\sqrt{\\frac{x^{2}-x+1}{x+1}}-(x+1) \\cdot \\sqrt{\\frac{1}{x^{8}+1}}=5)%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(x\\gt -1)%.%(6 \\cdot \\sqrt{\\frac{x^{2}-x+1}{x+1}}-(x+1) \\cdot \\sqrt{\\frac{1}{x^{8}+1}}=5 \\Leftrightarrow 6 \\cdot \\sqrt{\\frac{x^{2}-x+1}{x+1}}-\\sqrt{\\frac{x+1}{x^{2}-x+1}}=5)%.<br>Đặt %(t=\\sqrt{\\frac{x^{2}-x+1}{x+1}}(t>0))%.<br>Phương trình trờ thành: %(6 t-\\frac{1}{t}=5)%.<br>\\[\\Rightarrow 6 t^{2}-5 t-1=0 \\Leftrightarrow\\left[\\begin{array}{l}t=1 \\quad(n) \\t=\\frac{-1}{6}(l)\\end{array}\\right. \\text {. }\\]<br>Với %(t=1 \\Rightarrow \\sqrt{\\frac{x^{2}-x+1}{x+1}}=1 \\Leftrightarrow \\frac{x^{2}-x+1}{x+1}=1 \\Rightarrow x^{2}-2 x=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0(n) \\\\ x=2(n)\\end{array}\\right.)%.<br>Vậy phương trình có hai nghiệm %(x=0 ; x=2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 3.0,
+        "content": "Trong mặt phẳng tọa độ %(O x y)%, cho đường thẳng %((d))% có phương trình %((m-4) x+(m-3) y=1(m)% là tham số). Tìm %(m)% để khoảng cách từ gốc tọa độ đến đường thẳng %((d))% là lớn nhất.",
+        "question_images": [],
+        "solution": "- Với mọi giá trị của %(m)% thì đường thẳng %((d))% không đi qua gốc tọa độ.<br>- Với %(m=4)%, ta có đường thẳng %((\\mathrm{d}): y=1)%.<br>Do đó khoảng cách từ gốc tọa độ đến đường thẳng %((\\mathrm{d}))% bằng 1 .<br>- Với %(m=3)%, ta có đường thẳng %(x=-1)%.<br>Do đó khoảng cách từ gốc tọa độ đến đường thẳng %((d))% bằng 1 .<br>- Với %(m \\neq 4 ; m \\neq 3)% thì đường thẳng %((d))% cắt trục %(O y ; O x)% lần lượt tại %(A\\left(0 ; \\frac{1}{m-3}\\right))% và %(\\left(\\frac{1}{m-4} ; 0\\right), \\quad)% suy %(\\quad)% ra %(\\quad O A=\\frac{1}{|m-4|} ; O B=\\frac{1}{|m-3|} . \\quad)%<br>Kè %(\\quad)% đường %(\\quad)% cao %(O H \\perp A B(H \\in A B))%.<br>Ta có %(\\frac{1}{O H^{2}}=\\frac{1}{O A^{2}}+\\frac{1}{O B^{2}}=(m-3)^{2}+(m-4)^{2}=2 m^{2}-14 m+25)%<br>\\[=2\\left(m^{2}-2 \\cdot m \\cdot \\frac{7}{2}+\\frac{49}{4}\\right)+\\frac{1}{2} \\geq \\frac{1}{2} .\\]<br>%(\\Rightarrow O H^{2} \\leq 2 \\Leftrightarrow O H \\leq \\sqrt{2})%.<br>Từ (1), (2) và (3) suy ra khoảng cách từ gốc tọa độ đến đường thẳng %((d))% lớn nhất bằng %(\\sqrt{2})% khi %(m=\\frac{7}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 3.0,
+        "content": "Cho hình vuông %(A B C D)% và điểm %(P)% nằm trong tam giác %(A B C)% sao cho %(\\dot{B} P C=135^{\\circ})%. Chứng minh rằng: %(2 P B^{2}+P C^{2}=P A^{2})%",
+        "question_images": [],
+        "solution": "Trên nửa mặt phẳng có bờ là đường thẳng %(A B)% không chứa điểm %(P)%, vẽ điểm %(P^{\\prime})% sao cho %(\\triangle P B P^{\\prime})% vuông cân tại %(B)%.<br>Khi đóXét %(\\triangle A P^{\\prime} B)% và %(\\triangle C P B)% có<br>- %(A B=B C)% (giả thiết);- %(\\widehat{A B P^{\\prime}}=\\widehat{C B P})% (cùng phụ với %(\\widehat{A B P})%;- %(B P^{\\prime}=B P)% (theo cách vẽ).<br>Suy ra %(\\triangle A P^{\\prime} B=\\triangle C P B)% (cạnh - góc - cạnh %())%.<br>\\[\\Rightarrow \\widehat{A P^{\\prime} B}=\\widehat{C P B} \\text {. }\\]<br>Mà %(\\widehat{C P B}+\\widehat{B P P^{\\prime}}=180^{\\circ} \\Rightarrow \\widehat{A P^{\\prime} B}+\\widehat{B P P^{\\prime}}=180^{\\circ})%<br>\\[\\Leftrightarrow \\widehat{A P^{\\prime} P}+\\widehat{B P^{\\prime} P}+\\widehat{B P P^{\\prime}}=180^{\\circ} \\Leftrightarrow \\widehat{A P^{\\prime} P}=90^{\\circ} \\text {. }\\]<br>Do đó %(\\Delta A P^{\\prime} P)% vuông tại %(P^{\\prime})%. Theo định lý Py-ta-go, ta có<br>\\[A P^{2}=A P^{12}+P^{\\prime} P^{2}=P C^{2}+\\left(B P^{1^{2}}+B P^{2}\\right)=P C^{2}+2 B P^{2}\\left(\\text { do } \\triangle A P^{\\prime} B=\\triangle C P B\\right)\\]<br>Vậy %(A P^{2}=P C^{2}+2 B P^{2})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/41770dc4c4e5d2a0e109aeb6765f976a.png\" srcset=\"https://docdn.giainhanh.io/media/test/376679d9dae8319bbf6778e191e458cb.png 130w\" width=\"130\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 5.0,
+        "content": "Cho nửa đường tròn tâm %(O)% đường kính %(A B=2 R)%. %(M)% là điêm di động trên đoạn thẳng %(A B)%, kẻ %(C M^{\\wedge} A B)% tại %(M)% ( %(C)% thuộc nửa đường tròn tâm %(\\left.O\\right))%. Gọi %(D)% và %(E)% là hình chiếu vuông góc của %(M)% trên %(C A)% và %(C B)%. Gọi %(P)% và %(Q)% lần lượt là trung điểm của %(A M)% và %(M B)%. Xác định vị trí của điểm %(M)% để diện tích của tứ giác %(D E Q P)% đạt giá trị lớn nhất.",
+        "question_images": [],
+        "solution": "Tam giác %(A B C)% nội tiếp đường tròn đường kính %(A B)% nên vuông tại %(C)%. Từ đó tứ giác %(M D C E)% là hình chữ nhật %(D E=C M)%.<br>Do đó %(S_{\\triangle D M E}=\\frac{1}{2} S_{\\triangle D O E})%.<br>Tam giác %(A D M)% có %(D P)% là trung tuyến nên %(S_{\\triangle D P M}=\\frac{1}{2} S_{\\triangle A D M})%<br>\\[S_{\\triangle D P M}=\\frac{1}{2} S_{\\triangle A D M} \\text {. }\\]<br>Tương tự, %(E Q)% là trung tuyến của %(\\triangle M E B)% nên %(S_{\\triangle M E Q}=\\frac{1}{2} S_{\\triangle M E B})%.<br>Từ (1), (2) và (3) ta có<br>\\[S_{P D E Q}=S_{\\triangle D P M}+S_{\\triangle D M I}+S_{\\triangle M B Q}=\\frac{1}{2}\\left(S_{\\triangle A D O E}+S_{\\triangle A D M}+S_{\\triangle A I B E}\\right)=\\frac{1}{2} S_{\\triangle A B C} .\\]<br>Mà %(S_{\\triangle A B C}=\\frac{1}{2} C M \\cdot A B \\leq \\frac{1}{2} C O \\cdot A B=\\frac{1}{2} \\cdot R \\cdot 2 R=R^{2})% (khổng đổi).<br>Suy ra %(S_{P D E Q} \\leq \\frac{1}{2} R^{2})%.<br>Dấu \" =\" xảy ra khi %(M \\equiv O)%.<br>Vậy %(S_{P D E Q})% lớn nhất bằng %(\\frac{1}{2} R^{2})% khi %(M \\equiv O)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/41a9eda1373e3d2b0f8df1270e683f1f.png\" srcset=\"https://docdn.giainhanh.io/media/test/7417005e1a58b0ea8850bb356f93cc82.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Giả sử %(x, y, z)% là các số thực thỏa mãn điều kiện: %(x+y+z+x y+y z+z x=6)%. Chứng minh rằng: %(x^{2}+y^{2}+z^{2} 33)%.",
+        "question_images": [],
+        "solution": "Ta có %(x^{2}+1 \\geq 2 x ; y^{2}+1 \\geq 2 y ; z^{2}+1 \\geq 2 z)% và %(2\\left(x^{2}+y^{2}+z^{2}\\right) \\geq 2(x y+y z+z x))%.<br>Cộng vế theo vế 4 bất đẳng thức trên, ta được<br>\\[3\\left(x^{2}+y^{2}+z^{2}\\right)+3 \\geq 2(x+y+z+x y+y z+z x) .\\]<br>Theo đề bài, ta có %(x+y+z+x y+y z+z x=6)% nên %(3\\left(x^{2}+y^{2}+z^{2}\\right)+3 \\geq 2.6 \\Leftrightarrow x^{2}+y^{2}+z^{2} \\geq 3)%. (điều phải chứng minh)",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Chứng minh trong 8 số tự nhiên có 3 chữ số bao giờ cũng chọn hai số mà khi viết liền nhau ta được một số có 6 chữ số chia hết cho 7 .",
+        "question_images": [],
+        "solution": "Lấy 8 số chia cho 7 , ta nhận được 8 số dư nhận được 7 trong 7 số sau: %(0 ; 1 ; 2 ; 3 ; 4 ; 5)%;6.<br>Theo nguyên lý Di-rich-le thì có ít nhất 2 số có cùng số dư.<br>Giả sử hai số %(\\overline{a b c})% và %(\\overline{d e f})% là hai số khi chia cho 7 có cùng số dư là %(r)%.<br>Suy ra<br>\\[\\overline{a b c}=7 k+r \\text { và } \\overline{d e f}=7 m+r \\text {. }\\]<br>Khi đó<br>\\[\\overline{a b c d e f}=1000 \\overline{a b c}+\\overline{d e f}=1000(7 k+r)+7 m+r=7(1000 k+m)+1001 r: 7 \\text {. }\\]<br>Vậy ta có điều phải chứng minh.",
+        "question_type": "essay"
+    }
+]

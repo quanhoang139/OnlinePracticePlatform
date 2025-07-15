@@ -1,0 +1,119 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "Tìm các giới hạn sau:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.5,
+        "content": "a) %(\\lim _{x \\rightarrow 2} \\frac{x^{3}-3 x-2}{x^{2}-4})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\lim _{x \\rightarrow 2} \\frac{x^{3}-3 x-2}{x^{2}-4}=\\lim _{x \\rightarrow 2} \\frac{(x-2)\\left(x^{2}+2 x+1\\right)}{(x-2)(\\mathrm{x}+2)} \\\\ =\\lim _{x \\rightarrow 2} \\frac{x^{2}+2 x+1}{\\mathrm{x}+2}=\\frac{9}{4}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.5,
+        "content": "b) %(\\lim _{x \\rightarrow+\\infty} \\frac{1+2 x-x^{3}}{x^{3}-3 x^{2}+5})%",
+        "question_images": [],
+        "solution": "%(\\lim _{x \\rightarrow+\\infty} \\frac{1+2 x-x^{3}}{x^{3}-3 x^{2}+5}=\\lim _{x \\rightarrow+\\infty} \\frac{\\frac{1}{x^{3}}+\\frac{2}{x^{2}}-1}{1-\\frac{3}{x}+\\frac{5}{x^{3}}}=-1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 0.5,
+        "content": "c) %(\\lim _{x \\rightarrow 3^{-}} \\frac{2 x+3}{x-3})%",
+        "question_images": [],
+        "solution": "%({\\lim _{x \\rightarrow 3^{-}} \\frac{2 x+3}{x-3}=-\\infty})%<br>%({\\text { Vì }\\left\\{\\begin{array}{l}\\lim _{x \\rightarrow 3^{-}}(2 x+3)=9\\gt 0 \\\\ \\lim _{x \\rightarrow 3^{-}}(x-3)=0 \\\\ x-3\\lt 0 ; \\forall x\\lt 3\\end{array}\\right.})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 1.0,
+        "content": "Tìm %(\\mathrm{m})% để hàm số : %(f(x)=\\left\\{\\begin{array}{ll}\\frac{\\sqrt{x^{2}-5}-\\sqrt{2 x-2}}{2 x^{2}-6 x} & k h i ~x \\neq 3 \\\\ 2 m-1 & k h i~ x=3\\end{array} \\quad\\right.)% liên tục tại %(x_{o}=3)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}f(3)=2 m-1 \\\\lim _{x \\rightarrow 3} f(x)=\\lim _{x \\rightarrow 3} \\frac{\\sqrt{x^{2}-5}-\\sqrt{2 x-2}}{2 x^{2}-6 x}=\\lim _{x \\rightarrow 3} \\frac{x^{2}-5-2 x+2}{2 x(x-3)\\left(\\sqrt{x^{2}-5}+\\sqrt{2 x-2}\\right)} \\\\=\\lim _{x \\rightarrow 3} \\frac{(x-3)(x+1)}{2 x(x-3)\\left(\\sqrt{x^{2}-5}+\\sqrt{2 x-2}\\right)}=\\lim _{x \\rightarrow 3} \\frac{x+1}{2 x\\left(\\sqrt{x^{2}-5}+\\sqrt{2 x-2}\\right)}=\\frac{1}{6}\\end{array}\\]<br>Hàm số liên tục tại %(x_{o}=3 \\Leftrightarrow f(3)=\\lim _{x \\rightarrow 3} f(x))%<br>\\[\\Leftrightarrow 2 m-1=\\frac{1}{6} \\Leftrightarrow m=\\frac{7}{12}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3:",
+        "group_content": "Tính đạo hàm của các hàm số sau:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.5,
+        "content": "a) %(y=\\frac{\\sin x}{x})%",
+        "question_images": [],
+        "solution": "%(y^{\\prime}=\\frac{(\\sin x)^{\\prime} x-(x)^{\\prime} \\sin x}{x^{2}}=\\frac{x \\cos x-\\sin x}{x^{2}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.5,
+        "content": "b) %(y=(x-2)\\left(x^{5}+3 x-1\\right))%",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} y^{\\prime} & =(x-2)^{\\prime} \\cdot\\left(x^{5}+3 x-1\\right)+(x-2) \\cdot\\left(x^{5}+3 x-1\\right)^{\\prime} \\\\ & =x^{5}+3 x-1+(x-2) \\cdot\\left(5 x^{4}+3\\right)=6 x^{5}-10 x^{4}+6 x-7\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 1.0,
+        "content": "Cho hàm số %(y=x+\\sqrt{x^{2}+1})%. Chứng minh rằng: %(y=\\left(x^{2}+1\\right) y^{\\prime \\prime}+x \\cdot y^{\\prime})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}y^{\\prime}=1+\\frac{x}{\\sqrt{x^{2}+1}} \\\\ y^{\\prime \\prime}=\\frac{\\sqrt{x^{2}+1}-x \\cdot \\frac{x}{\\sqrt{x^{2}+1}}}{\\left(x^{2}+1\\right)}=\\frac{1}{\\left(x^{2}+1\\right) \\sqrt{x^{2}+1}} \\\\ V P=\\left(x^{2}+1\\right) \\cdot \\frac{1}{\\left(x^{2}+1\\right) \\sqrt{x^{2}+1}}+x \\cdot\\left(1+\\frac{x}{\\sqrt{x^{2}+1}}\\right)=\\frac{1}{\\sqrt{x^{2}+1}}+\\frac{x^{2}}{\\sqrt{x^{2}+1}}+x \\\\ =x+\\sqrt{x^{2}+1}=y=V T\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 1.5,
+        "content": "Cho hàm số %(\\mathrm{y}=\\frac{x+1}{x-2})% có đồ thị %((\\mathrm{C}))%. Viết phương trình tiếp tuyến với %((\\mathrm{C}))%, biết tiếp tuyến song song với đường thẳng %(\\mathrm{d}: 3 x+y-4=0)%.",
+        "question_images": [],
+        "solution": "%(y^{\\prime}=\\frac{-3}{(x-2)^{2}})%. Gọi %(M\\left(x_{0} ; y_{0}\\right))% là tiếp điểm của %((\\mathrm{C}))% và tiếp tuyến<br>\\[d: 3 x+y-4=0 \\Leftrightarrow y=-3 x+4\\]<br>Tiếp tuyến song song với đường thẳng %(\\mathrm{d} \\Rightarrow y^{\\prime}\\left(x_{0}\\right)=-3)%<br>\\[\\Leftrightarrow \\frac{-3}{\\left(x_{0}-2\\right)^{2}}=-3 \\Leftrightarrow x_{0}=3, x_{0}=1\\]<br>%(x_{0}=3 \\Rightarrow y_{0}=4 \\Rightarrow)% phương trình tiếp tuyến là %(y=-3 x+13)%<br>%(x_{0}=1 \\Rightarrow y_{0}=-2 \\Rightarrow)% phương trình tiếp tuyến là %(y=-3 x+1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6:",
+        "group_content": "Cho hình chóp %(\\mathrm{S} . \\mathrm{ABCD})% có đáy %(\\mathrm{ABCD})% là hình thang vuông tại %(\\mathrm{A})% và %(\\mathrm{B})%. Biết %(A D=4 a)%, %(A B=B C=2 a ; S A \\perp(A B C D))% và %(S C=a \\sqrt{10})%. Gọi %(\\mathrm{E})% là trung điểm của %(\\mathrm{AD})%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Chứng minh: %(B C \\perp(S A B))%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\left\\{\\begin{array}{l}B C \\perp S A~(d o ~S A \\perp(A B C D)) \\\\ B C \\perp A B~(\\text {ABCD là hình thang vuông tại } \\mathrm{A} \\text { và } \\mathrm{B})\\end{array}\\right. \\\\ \\Rightarrow B C \\perp(S A B)\\end{array})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c39d25433f4745365618c3a1cef7e75e.png\" srcset=\"https://docdn.giainhanh.io/media/test/7016a6f577fb263fd5de94805296f5ba.png 192w, https://docdn.giainhanh.io/media/test/a03ac6e5821035560430d0e3c1930d10.png 500w, https://docdn.giainhanh.io/media/test/be0d3f28ad484dc9974a39d323020934.png 750w, https://docdn.giainhanh.io/media/test/d5085a1ed86a32b86e81732e1dac1175.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Xác định và tính góc giữa %(\\mathrm{SC})% và %(\\mathrm{mp}(\\mathrm{ABCD}))%",
+        "question_images": [],
+        "solution": "%(\\Rightarrow S A \\perp(\\mathrm{ABCD}))%<br>%(\\Rightarrow A C)% là hình chiếu của %(\\mathrm{SC})% trên %((\\mathrm{ABCD}))%<br>\\[\\begin{array}{l}\\Rightarrow(\\widehat{S C,(A B C D)})=(\\widehat{S C, A C})=\\widehat{S C A} \\A C=\\sqrt{A B^{2}+B C^{2}}=2 a \\sqrt{2} \\\\triangle S A C \\text { vuông tại } \\mathrm{A} \\Rightarrow \\cos \\widehat{S C A}=\\frac{A C}{S C}=\\frac{2}{\\sqrt{5}} \\\\Rightarrow \\widehat{S C A} \\approx 26^{\\circ} 34^{\\prime}\\end{array}\\]<br>Vậy %((\\overline{S C,(A B C D)}) \\approx 26^{\\circ} 34^{\\prime})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Chứng minh: %((S B E) \\perp(S A C))%",
+        "question_images": [],
+        "solution": "Chứng minh %(\\mathrm{ABCE})% là hình vuông %(\\Rightarrow B E \\perp A C)%<br>\\[\\left.\\begin{array}{l}\\mathrm{SA} \\perp(\\mathrm{ABCD}) \\B E \\subset(A B C D)\\end{array}\\right\\} \\Rightarrow B E \\perp S A\\]<br>%(\\left.\\begin{array}{l}B E \\perp A C \\\\ B E \\perp S A\\end{array}\\right\\} \\Rightarrow B E \\perp(S A C))%<br>%(\\Rightarrow(S B E) \\perp(S A C))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "d) ",
+        "point": 1.0,
+        "content": "d) Tính khoảng cách từ %(E)% đến %(m p(S C D))%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { E là trung điểm của } \\mathrm{AD} \\Rightarrow d(E,(S C D))=\\frac{1}{2} d(A,(S C D)) \\\\ \\triangle S C D \\text { có } E A=E D=E C \\text { nên } \\triangle S C D \\text { vuông tại } \\mathrm{C} \\\\ \\text { Dựng } A H \\perp S C \\text { tại } \\mathrm{H} \\text {. } \\\\ \\text { Chứng minh } A H \\perp(S C D) \\Rightarrow d(A,(S C D))=A H \\\\ \\text { Tính đúng } A H=\\frac{2 a \\sqrt{10}}{5} \\\\ \\Rightarrow d(E,(S C D))=\\frac{a \\sqrt{10}}{5} \\\\end{array})%",
+        "question_type": "essay"
+    }
+]

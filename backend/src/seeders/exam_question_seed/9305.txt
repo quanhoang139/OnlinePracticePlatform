@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.75,
+        "content": "Chứng minh rằng %(2^{2008}+2^{2009}+2^{2010})% chia hết cho 7",
+        "question_images": [],
+        "solution": "%(2^{2008}+2^{2009}+2^{2010}=2^{2008} \\cdot(1+2+4)=7.2^{2008}: 7)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 0.75,
+        "content": "Chứng minh rằng không có giá trị tự nhiên %(n)% nào đề giá trị của biểu thức %(2 n^{3}-3 n^{2}+n+3)% chia hết cho giá trị của biều thức %(n^{2}-n)%",
+        "question_images": [],
+        "solution": "Chia %(2 n^{3}-3 n^{2}+n+3)% cho %(n^{2}-n)% dư 3<br>Vì %(n^{2}-n=n(n-1))% là số chẵn nên %(n(n-1) \\notin \\mathrm{U}(3))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Hưởng ứng ngày chủ nhật xanh - sạch - đẹp. Học sinh khối lớp 8 nhận làm vệ sinh một đoạn đường em chăm. Lớp %(8 / 1)% nhận 10 mét và %(1 / 10)% của phần còn lại, lớp %(8 / 2)% nhận 20 mét và %(1 / 10)% của phần còn lại, lớp %(8 / 3)% nhận 30 mét và %(1 / 10)% của phần còn lại %(\\ldots)% cứ chia như vậy cho đến lớp cuối cùng thì vừa đủ và phần đường của mỗi lớp dài bằng nhau. Hỏi khối 8 có bao nhiêu lớp và đoạn đường mỗi lớp nhận dài bao nhiêu mét ?",
+        "question_images": [],
+        "solution": "Gọi %(x(m))% là chiều dài đoạn đường cả khối 8 là vệ sinh %( (x\\gt 0))%<br>Lớp %(8 / 1)% nhận đoạn đường dài : %(10+0,1(x-10)=0,1 x+9)%<br>Sau khi lớp %(8 / 1)% nhận, đoạn đường còn lại: %(x-(0,1 x+9)=0,9 x-9)%<br>Lớp %(8 / 2)% nhận đoạn đường dài : %(20+0,1 \\cdot(0,9 x-9-20)=0,09 x+17,1)%<br>Ta có phương trình : %(0,1 x+9=0,09 x+17,1)%<br>Giải ra : %(x=810)% (thích hợp)<br>Khối 8 có 9 lớp<br>Mỗi lớp chăm đoạn đường dài 90 m",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho biều thức: %(M=\\left(\\frac{2 x^{3}+x^{2}-x}{x^{3}-1}-\\frac{x^{2}+x}{x^{2}-1}\\right) \\cdot \\frac{x^{2}-1}{2 x^{2}+x-1}+\\frac{x}{2 x-1})%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Tìm điều kiện của %(x)% để biểu thức M có nghĩa",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}x^{3}-1=(x-1)\\left(x^{2}+x+1\\right) \\neq 0 \\Leftrightarrow x \\neq 1 \\\\ x^{2}-1=(x+1)(x-1) \\neq 0 \\Leftrightarrow x \\neq \\pm 1 \\\\ 2 x-1 \\neq 0 \\Leftrightarrow x \\neq \\frac{1}{2} \\\\ 2 x^{2}+x-1=(x+1)(2 x-1) \\neq 0 \\Leftrightarrow x \\neq-1 ; x \\neq \\frac{1}{2}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) Rút gọn biểu thức M",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\left(\\frac{2 x^{3}+x^{2}-x}{(x-1)\\left(x^{2}+x+1\\right)}-\\frac{x(x+1)}{(x+1)(x-1)}\\right) \\cdot \\frac{(x-1)(x+1)}{(x+1) \\cdot(2 x-1)}+\\frac{x}{2 x-1} \\\\ =\\left(\\frac{2 x^{3}+x^{2}-x}{(x-1)\\left(x^{2}+x+1\\right)}-\\frac{x\\left(x^{2}+x+1\\right)}{(x-1)\\left(x^{2}+x+1\\right)}\\right) \\frac{x-1}{2 x-1}+\\frac{x}{2 x-1} \\\\ =\\left(\\frac{2 x^{3}+x^{2}-x-x^{3}-x^{2}-x}{(x-1)\\left(x^{2}+x+1\\right)}\\right) \\cdot \\frac{x-1}{2 x-1}+\\frac{x}{2 x-1}\\end{array})%<br>%(\\begin{array}{l}=\\left(\\frac{x^{3}-2 x}{x^{2}+x+1}\\right) \\cdot \\frac{1}{2 x-1}+\\frac{x}{2 x-1}=\\frac{x^{3}-2 x+x\\left(x^{2}+x+1\\right)}{\\left(x^{2}+x+1\\right)(2 x-1)} \\\\ =\\frac{2 x^{3}+x^{2}-x}{\\left(x^{2}+x+1\\right) \\cdot(2 x-1)}=\\frac{(2 x-1)\\left(x^{2}+x\\right)}{\\left(x^{2}+x+1\\right) \\cdot(2 x-1)}=\\frac{x^{2}+x}{x^{2}+x+1}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.75,
+        "content": "c) Tìm các giá trị nguyên cùa %(x)% để biểu thức %(M)% có giá trị nguyên.",
+        "question_images": [],
+        "solution": "%(M=\\frac{x^{2}+x}{x^{2}+x+1}=\\frac{x^{2}+x+1-1}{x^{2}+x+1}=1-\\frac{1}{x^{2}+x+1})%<br>M có giá trị nguyên %(\\Leftrightarrow x^{2}+x+1 \\in \\mathrm{Ư}(1))%<br>%(\\begin{array}{l}x^{2}+x+1=1 \\Leftrightarrow x^{2}+x=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0(\\mathrm{tm}) \\x=-1(\\mathrm{ktm})\\end{array}\\right. \\x^{2}+x+1=-1 \\Leftrightarrow x^{2}+x+2=0(\\mathrm{VN})\\end{array})%<br>Vậy %(x=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho %(a+b=3)%. Tính giá trị nhỏ nhất của biểu thức %(a^{2}+b^{2})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}(a-b)^{2} \\geq 0 \\Leftrightarrow a^{2}-2 a b+b^{2} \\geq 0 \\Leftrightarrow a^{2}+b^{2} \\geq 2 a b \\text { (với mọi } a, b \\text { ) } \\a+b=3 \\Leftrightarrow(a+b)^{2}=9 \\Leftrightarrow a^{2}+b^{2}+2 a b=9 \\\\Rightarrow 2\\left(a^{2}+b^{2}\\right) \\geq 9 \\Leftrightarrow a^{2}+b^{2} \\geq 4,5\\end{array}\\]<br>Vậy giá trị nhỏ nhất của %(a^{2}+b^{2}=4,5)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho %(\\frac{1}{x^{2}}+x^{2}=14(x \\neq 0))%. Hãy tính giá trị của biểu thức %(\\frac{1}{x^{3}}+x^{3})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\frac{1}{x^{2}}+x^{2}=\\left(\\frac{1}{x}+x\\right)^{2}-2 \\\\left(\\frac{1}{x}+x\\right)^{2}=16 \\Rightarrow \\frac{1}{x}+x= \\pm 4 \\\\frac{1}{x^{3}}+x^{3}=\\left(\\frac{1}{x}+x\\right)\\left(\\frac{1}{x^{2}}+x^{2}-1\\right)\\end{array})%<br>Với %(x\\lt 0 \\Rightarrow \\frac{1}{x}+x=-4)%; thì %(\\frac{1}{x^{3}}+x^{3}=-4 .(14-1)=-52)%<br>Với %(x\\gt 0 \\Rightarrow \\frac{1}{x}+x=4)%; thì %(\\frac{1}{x^{3}}+x^{3}=4 .(14-1)=52)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác ABC vuông tại A có AH là đường cao. Gọi %(\\mathrm{M}, \\mathrm{N})% lần lượt là giao điểm của ba đường phân giác trong của tam giác AHB và AHC . MN cắt AB , %(\\mathrm{AH}, \\mathrm{AC})% lần lượt tại %(\\mathrm{I}, \\mathrm{E}, \\mathrm{K})%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh : BM vuông góc với AN",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/de778856aab8e4b0c3850c4989afa281.png\" srcset=\"https://docdn.giainhanh.io/media/test/411cc76e2d716c4e9c84c9588b327df9.png 245w, https://docdn.giainhanh.io/media/test/0b7f6253c1f582f4a466550943df8b7c.png 500w\" width=\"500\"/><br>Gọi %(F)% là giao điểm của BM và AN<br>\\[\\begin{array}{l}\\widehat{A B H}=\\widehat{H A C} \\text { (cùng phụ với } B A H) \\\\widehat{A B F}=\\widehat{C A N}\\left(\\widehat{A B F}=\\frac{1}{2} \\widehat{A B H };\\widehat{ C A N}=\\frac{1}{2} \\widehat{B A H}\\right) \\\\widehat{A B F}+\\widehat{B A F}=90^{\\circ}\\left(\\text { vì } \\widehat{C A N}+\\widehat{B A F}=90^{\\circ}\\right)\\end{array}\\]<br>%(\\triangle A B F)% vuông tại %(\\mathrm{F} \\Rightarrow B M \\perp A N)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh : ME.NK = MI.NE",
+        "question_images": [],
+        "solution": "Gọi P là giao điểm của BM và %(\\mathrm{CN} \\Rightarrow A P)% là phân giác %(\\widehat{B A C})% nên AP là phân giác %(\\triangle A I K)%<br>Chứng minh tương tự câu a ta có: %(C N \\perp A M)%<br>P là trực tâm %(\\triangle A M N \\Rightarrow A P \\perp I K ; A P)% là đường cao<br>%(\\triangle A I K)%%(\\triangle A I K)% vuông cân tại %(\\mathrm{A} \\Rightarrow A I=A K)%.<br>Áp dụng tính chất đường phân giác vào %(\\triangle A I E)% và %(\\triangle A E K)% ta có:<br>%(\\begin{array}{l}\\frac{M I}{M E}=\\frac{A I}{A E} ; \\frac{N K}{N E}=\\frac{A K}{A E} \\Rightarrow \\frac{M I}{M E}=\\frac{N K}{N E}(D o \\quad A I=A K) \\\\Rightarrow M E \\cdot N K=M I \\cdot N E\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Biết diện tích của tam giác %(A B C)% là S . Tính diện tích lớn nhất của tam giác AIK theo %(S)%.",
+        "question_images": [],
+        "solution": "Gọi D là trung điểm %(\\mathrm{BC} ; A D=\\frac{1}{2} B C)%<br>%(\\begin{array}{l}\\triangle A M I=\\triangle A M H(\\text { g.c.g }) \\Rightarrow A I=A H \\S_{A I K}=\\frac{1}{2} A I \\cdot A K=\\frac{1}{2} A H^{2} \\S_{A B C}=\\frac{1}{2} A H \\cdot B C=\\frac{1}{2} A H \\cdot 2 A D=A H \\cdot A D \\\\text { Vì } A H \\leq A D \\Rightarrow S_{A I K} \\leq \\frac{1}{2} S_{A B C} \\Rightarrow S_{A I K} \\leq \\frac{1}{2} S\\end{array})%<br>Vậy diện tích lớn nhất của %(\\triangle A I K)% là %(\\frac{1}{2} S)%",
+        "question_type": "essay"
+    }
+]

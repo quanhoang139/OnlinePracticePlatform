@@ -1,0 +1,112 @@
+[
+    {
+        "title": "1a ",
+        "point": 2.0,
+        "content": "Chứng minh rằng hiệu các bình phương của hai số lẻ bất kỳ thì đều chia hết cho 8.",
+        "question_images": [],
+        "solution": "Gọi hai số nguyên lẻ bất kỳ là %(2 x+1)% và %(2 y+1(x, y \\in \\mathbb{Z}))%. Ta có : %((2 x+1)^{2}-(2 y+1)^{2}=4 x^{2}+4 x-4 y^{2}-4 y=4 x(x+1)-4 y(y+1))% chia hết cho 8.",
+        "question_type": "essay"
+    },
+    {
+        "title": "1b ",
+        "point": 2.0,
+        "content": "Phân tích đa thức sau thành nhân tử %(M=x(x+4)(x+6)(x+10)+128)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}M=x(x+4)(x+6)(x+10)+128=\\left(x^{2}+10 x\\right)\\left(x^{2}+10 x+24\\right)+128 \\\\ =\\left(x^{2}+10 x+12-12\\right)\\left(x^{2}+10 x+12+12\\right)+128=\\left(x^{2}+10 x+12\\right)^{2}-144+128 \\\\ =\\left(x^{2}+10 x+12\\right)^{2}-16=\\left(x^{2}+10 x+16\\right)\\left(x^{2}+10 x+8\\right)=(x+2)(x+8)\\left(x^{2}+10 x+8\\right)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2a ",
+        "point": 2.0,
+        "content": "Cho biểu thức %(A=\\frac{2 x^{2}+4 x+6}{x^{2}+2 x-3}+\\frac{x-2}{x-1}+\\frac{3}{x+3}-2)% với %(x \\neq 1 ; x \\neq-3)%.<br>Rút gọn A và tìm tất cả các giá trị nguyên của %(x)% để biểu thức %(A)% nhận giá trị nguyên.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}A=\\frac{2 x^{2}+4 x+6}{x^{2}+2 x-3}+\\frac{x-2}{x-1}+\\frac{3}{x+3}-2=\\frac{2 x^{2}+4 x+6+(x-2)(x+3)+3(x-1)-2\\left(x^{2}+2 x-3\\right)}{(x-1)(x+3)} \\\\=\\frac{2 x^{2}+4 x+6-x^{2}+x-6+3 x-3-2 x^{2}-4 x+6}{(x-1)(x+3)}=\\frac{x^{2}+4 x+3}{(x-1)(x+3)}=\\frac{(x+1)(x+3)}{(x-1)(x+3)}=\\frac{x+1}{x-1}\\end{array}\\]<br>Ta có %(A)% nhận giá trị nguyên<br>\\[\\Rightarrow \\frac{x+1}{x-1} \\in Z \\Rightarrow 1+\\frac{2}{x-1} \\in Z \\Rightarrow x-1 \\in\\{-2 ;-1 ; 1 ; 2\\} \\Rightarrow x \\in\\{-1 ; 0 ; 2 ; 3\\} \\text { (tmđk) }\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2b ",
+        "point": 2.0,
+        "content": "Tìm giá trị nhỏ nhất của biểu thức %(D=\\left(1+\\frac{1}{a}\\right)^{2}+\\left(1+\\frac{1}{b}\\right)^{2})% biết %(a+b=1)% và %(a\\gt 0, b>0)%",
+        "question_images": [],
+        "solution": "Ta có %(D=\\left(1+\\frac{1}{a}\\right)^{2}+\\left(1+\\frac{1}{b}\\right)^{2})%<br>\\[=\\left(1+\\frac{a+b}{a}\\right)^{2}+\\left(1+\\frac{a+b}{b}\\right)^{2}=\\left(2+\\frac{b}{a}\\right)^{2}+\\left(2+\\frac{a}{b}\\right)^{2}=8+4\\left(\\frac{a}{b}+\\frac{b}{a}\\right)+\\left(\\frac{a^{2}}{b^{2}}+\\frac{b^{2}}{a^{2}}\\right)\\]<br>Áp dụng BĐT Cô si %(\\Rightarrow D \\geq 8+4.2+2=18)%.<br>Vậy %(\\operatorname{Min} D=18 \\Leftrightarrow a=b=\\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3a ",
+        "point": 2.0,
+        "content": "Tìm giá trị của %(x)% biết %(\\frac{214-x}{91}+\\frac{265-x}{71}+\\frac{216-x}{31}+\\frac{167-x}{11}=10)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\frac{214-x}{91}+\\frac{265-x}{71}+\\frac{216-x}{31}+\\frac{167-x}{11}=10 \\\\Leftrightarrow\\left(\\frac{214-x}{91}-1\\right)+\\left(\\frac{265-x}{71}-2\\right)+\\left(\\frac{216-x}{31}-3\\right)+\\left(\\frac{167-x}{11}-4\\right)=0 \\\\Leftrightarrow \\frac{123-x}{91}+\\frac{123-x}{71}+\\frac{123-x}{31}+\\frac{123-x}{11}=0 \\\\Leftrightarrow(123-x)\\left(\\frac{1}{91}+\\frac{1}{71}+\\frac{1}{31}+\\frac{1}{11}\\right)=0 \\Leftrightarrow 123-x=0 \\Leftrightarrow x=123\\end{array}\\]<br>Vậy %(x=123)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3b ",
+        "point": 2.0,
+        "content": "Cho %(x, y, z)% là các số thực thỏa mãn %(\\frac{y+z+1}{x}=\\frac{z+x+2}{y}=\\frac{x+y-3}{z}=\\frac{1}{x+y+z})%<br>Tính giá trị biểu thức %(A=2020 x+y^{2021}+z^{2021})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\frac{y+z+1}{x}=\\frac{z+x+2}{y}=\\frac{x+y-3}{z}=\\frac{y+z+1+z+x+2+x+y-3}{x+y+z}=\\frac{2(x+y+z)}{x+y+z}=2 \\\\ \\Rightarrow \\frac{1}{x+y+z}=2 \\Rightarrow x+y+z=\\frac{1}{2}\\end{array})%%(\\begin{array}{l}\\text { Ta có }: \\frac{y+z+1}{x}=2 \\Rightarrow y+z+1=2 x \\Rightarrow x+y+z+1=3 x \\Rightarrow \\frac{1}{2}+1=3 x \\Rightarrow x=\\frac{1}{2} \\\\ \\frac{z+x+2}{y}=2 \\Rightarrow z+x+2=2 y \\Rightarrow \\frac{1}{2}+2=3 y \\Rightarrow y=\\frac{5}{6} \\\\ \\frac{x+y-3}{z}=2 \\Rightarrow x+y-3=2 z \\Rightarrow \\frac{1}{2}-3=3 z \\Rightarrow z=-\\frac{5}{6} \\\\ A=2020 x+y^{2021}+z^{2021}=2020 \\cdot \\frac{1}{2}+\\left(\\frac{5}{6}\\right)^{2021}+\\left(-\\frac{5}{6}\\right)^{2021}=1010\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Vẽ hình thoi %(A B C D)% có %(O)% là giao điểm của hai đường chéo. Vẽ hình chữ nhật %(A O B E)%. Đường thẳng %(O E)% cắt %(A B, C D)% lần lượt ở %(\\mathbf{G})% và %(F)%. Đường thẳng %(D E)% cắt %(A B, O A)% lần lượt ở %(\\mathbf{H})% và %(\\mathbf{I})%. Gọi %(M, N)% lần lượt là trung điểm của %(A D)% và OF. Chứng minh",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "4a ",
+        "point": 1.5,
+        "content": "a) Tứ giác %(A D O E)% là hình bình hành",
+        "question_images": [],
+        "solution": "Ta có %(A E / / O B)% và %(A E=O B)% (vì %(A O B E)% là hình chữ nhật)<br>Nên %(A E / / O D)% và %(A E=O D)% (vì %(O B=O D)% )<br>Do đó tứ giác %(A D O E)% là hình bình hành<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a104947ddd129749527f2615b4673c34.png\" srcset=\"https://docdn.giainhanh.io/media/test/0d382652518d73825024aa8107442fac.png 245w, https://docdn.giainhanh.io/media/test/0503e8d704732119b4df53ab4473f1e1.png 500w, https://docdn.giainhanh.io/media/test/6ba6b0f85c80d4ddd538a9fa58a8669a.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "4b ",
+        "point": 1.0,
+        "content": "b) Ba điểm %(G, I, M)% thẳng hàng",
+        "question_images": [],
+        "solution": "Ta có %(G)% là trung điểm của %(A B)% (vì %(A O B E)% là hình chữ nhật)<br>I là trung điểm của %(A O)% (vì %(A D O E)% là hình bình hành)<br>M là trung điểm của %(A D)%<br>Nên %(I M, I G)% lần lượt là đường trung bình của tam giác %(A O B, A O D)%%(\\Rightarrow I G / / O B)% và %(I M / / O D \\Rightarrow G, I, M)% thẳng hàng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4c ",
+        "point": 1.0,
+        "content": "c) Ba đường thẳng %(A C, C D, M N)% đồng quy",
+        "question_images": [],
+        "solution": "Ta có %(O, M, F)% lần lượt là trung điểm của %(A C, A D, C D)% nên %(O M, M F)% lần lượt là đường trung bình của tam giác %(A C D \\Rightarrow O M / / C D)% và %(M F / / A C)% hay %(O M / / C F)% và %(M F / / O C)%.<br>Do đó tứ giác %(O C F M)% là hình bình hành mà %(N)% là trung điểm của OF nên N là trung điểm của %(M C)%<br>Vậy ba đường thẳng %(A C, C D, M N)% đồng quy.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4d ",
+        "point": 1.5,
+        "content": "d) %(12 E H \\cdot E D=4 B D^{2}+A C^{2})%",
+        "question_images": [],
+        "solution": "%(\\triangle A O E)% có %(A G, E I)% là hai đường trung tuyến cắt nhau tại H nên H là trọng tâm %(\\triangle A O E)%<br>\\[\\begin{array}{l}\\Rightarrow E H=\\frac{2}{3} E I \\Rightarrow E H \\cdot E D=\\frac{2}{3} \\cdot \\frac{1}{2} E D \\cdot E D=\\frac{1}{3} E D^{2} \\\\Rightarrow E H \\cdot E D=\\frac{1}{3}\\left(B D^{2}+E B^{2}\\right) \\Rightarrow E H \\cdot E B=\\frac{1}{3}\\left(B D^{2}+\\frac{1}{4} A C^{2}\\right)\\end{array}\\]<br>%(\\Rightarrow 12 \\cdot E H \\cdot E D=4 B D^{2}+A C^{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho đoạn thẳng %(A B, O)% là trung điểm của %(A B)%. Trên cùng một nửa mặt phẳng bởi %(\\mathbf{A B})% vẽ các tia %(A x)% và %(B y)% vuông góc với %(A B)%. Gọi %(\\mathbf{C})% là một điểm thuộc tia %(A x)%. Đường thẳng vuông góc với %(O C)% tại %(O)% cắt tia %(B y)% ở %(D)%. Chứng minh",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "5a ",
+        "point": 1.5,
+        "content": "a) %(A C+B D=C D)%",
+        "question_images": [],
+        "solution": "Gọi I là trung điềm của %(C D)%. Tứ giác %(A C D B)% là hình thang (do %(A C / / B D)% )<br>%(\\Rightarrow O I)% là đường trung bình của hình thang %(A C D B)%<br>\\[\\Rightarrow O I=\\frac{A C+B D}{2} \\Rightarrow A C+B D=2 O I(1)\\]<br>Ta lại có %(\\triangle O C D)% vuông tại O có %(O I)% là đường trung tuyến nên %(O I=\\frac{C D}{2} \\Rightarrow 2 O I=C D(2))%<br>Từ (1) và (2) suy ra %(A C+B D=C D)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/faf414cfef56173ba633a7ee321493ba.png\" srcset=\"https://docdn.giainhanh.io/media/test/851f0684bc0cfb35de49cc2eb82dfb7b.png 177w, https://docdn.giainhanh.io/media/test/94b7274a92eb26d5b25fe48fce0ca9da.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5b ",
+        "point": 1.5,
+        "content": "b) %(C O)% là tia phân giác của %(\\angle A C D)%",
+        "question_images": [],
+        "solution": "Ta có %(\\triangle O C D)% vuông tại O có OI là đường trung tuyến nên %(O I=I C)%<br>%(\\Rightarrow \\triangle I O C)% cân tại I nên %(\\angle I O C=\\angle I C O)%Mà %(\\angle I O C=\\angle A C O)% (so le trong) nên %(\\angle A C O=\\angle I C O)%. Vậy %(C O)% là tia phân giác của %(\\angle A C D)%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Cho phương trình: %(x^{2}-2 m x+2 m-1=0)%. Chứng minh phương trình luôn có hai nghiệm %(x_{1}, x_{2})% với mọi %(m)%.<br>Tìm giá trị lớn nhất của biểu thức %(P=\\frac{2 x_{1} x_{2}+3}{x_{1}^{2}+x_{2}^{2}+2\\left(1+x_{1} x_{2}\\right)})% khi %(m)% thay đổi.",
+        "question_images": [],
+        "solution": "Ta có %(\\Delta^{\\prime}=(m-1)^{2} \\geq 0, \\forall m)% nên phương trình có hai nghiệm với mọi %(m)%.<br>Theo định lí viet, ta có %(x_{1}+x_{2}=2 m, x_{1} x_{2}=2 m-1 x_{1} x_{2}=2 m-1)%,<br>suy ra %(P=\\frac{4 m+1}{4 m^{2}+2}=1-\\frac{(2 m-1)^{2}}{4 m^{2}+2} \\leq 1 . \\quad \\operatorname{Max} P=1)%, khi %(m=\\frac{1}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "Cho ba số hữu tỉ %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% thoả mãn %(\\frac{1}{a}+\\frac{1}{b}=\\frac{1}{c})%.<br>Chứng minh rằng %(A=\\sqrt{a^{2}+b^{2}+c^{2}})% là số hữu tỉ.",
+        "question_images": [],
+        "solution": "Từ giả thiết suy ra %(2 a b-2 b c-2 c a=0)%<br>Suy ra %(A=\\sqrt{(a+b-c)^{2}}=|a+b-c|)% là số hữu tỉ",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "Cho ba số hữu tỉ %(x, y, z)% đôi một phân biệt. Chứng minh rằng:<br>\\[B=\\sqrt{\\frac{1}{(x-y)^{2}}+\\frac{1}{(y-z)^{2}}+\\frac{1}{(z-x)^{2}}} \\text { là số hữu tỉ.| }\\]",
+        "question_images": [],
+        "solution": "Đặt %(a=\\frac{1}{x-y}, b=\\frac{1}{y-z}, c=\\frac{1}{x-z})%<br>suy ra %(\\frac{1}{a}+\\frac{1}{b}=\\frac{1}{c})%.<br>Áp dụng câu a) suy ra %(B=\\sqrt{\\frac{1}{(x-y)^{2}}+\\frac{1}{(y-z)^{2}}+\\frac{1}{(z-x)^{2}}})% là số hữu tỉ.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.5,
+        "content": "Giải phương trình: %(\\left(\\frac{x}{x-1}\\right)^{2}+\\left(\\frac{x}{x+1}\\right)^{2}=\\frac{10}{9})%.",
+        "question_images": [],
+        "solution": "%(Đ \\mathrm{k}: x \\neq \\pm 1)%.<br>Phương trình tương đương với<br>\\[\\left(\\frac{x}{x+1}+\\frac{x}{x-1}\\right)^{2}-2 \\frac{x^{2}}{x^{2}-1}=\\frac{10}{9} \\Leftrightarrow\\left(\\frac{2 x^{2}}{x^{2}-1}\\right)^{2}-\\frac{2 x^{2}}{x^{2}-1}-\\frac{10}{9}=0 \\text {. }\\]<br>Đặt %(t=\\frac{2 x^{2}}{x^{2}-1})%, ta được phương trình %(t^{2}-t-\\frac{10}{9}=0 \\Leftrightarrow t=\\frac{5}{3})% hoăc %(t=\\frac{-2}{3})%<br>Với %(t=\\frac{5}{3})%, ta được %(\\frac{2 x^{2}}{x^{2}-1}=\\frac{5}{3})% (vô nghiệm)<br>Với %(t=-\\frac{2}{3})%, ta được %(\\frac{2 x^{2}}{x^{2}-1}=-\\frac{2}{3})% suy ra %(x= \\pm \\frac{1}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.5,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x^{2}+x+\\frac{1}{y}\\left(1+\\frac{1}{y}\\right)=4 \\\\ x^{3}+\\frac{x}{y^{2}}+\\frac{x^{2}}{y}+\\frac{1}{y^{3}}=4 .\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "%(Đ \\mathrm{k}: y \\neq 0)%. Hệ tương đương với %(\\left\\{\\begin{array}{l}x^{2}+\\frac{1}{y^{2}}+x+\\frac{1}{y}=4 \\\\ x^{3}+\\frac{1}{y^{3}}+\\frac{x}{y}\\left(x+\\frac{1}{y}\\right)=4\\end{array}\\right.)%<br>Đặt %(\\left\\{\\begin{array}{l}u=x+\\frac{1}{y} \\\\ v=\\frac{x}{y},\\end{array}\\right.)% ta được hệ %(\\left\\{\\begin{array}{l}u^{2}+u-2 v=4 \\\\ u^{3}-2 u v=4\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}u^{2}-4 u+4=0 \\\\ u^{2}+u-4=2 v\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}u=2 \\\\ v=1 .\\end{array}\\right.\\right.\\right.)%<br>Với %(\\left\\{\\begin{array}{l}u=2 \\\\ y=1,\\end{array}\\right.)% ta được %(\\left\\{\\begin{array}{l}x+\\frac{1}{y}=2 \\\\ \\frac{x}{y}=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=1 \\\\ y=1 .\\end{array}\\right.\\right.)% (thoả mãn điều kiện)",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho tam giác đều ABC , các điểm %(\\mathrm{D}, \\mathrm{E})% lần lượt thuộc các cạnh %(\\mathrm{AC}, \\mathrm{AB})%, sao cho %(\\mathrm{BD}, \\mathrm{CE})% cắt nhau tại P và diện tích tứ giác ADPE bằng diện tích tam giác BPC . Tính %(\\widehat{B P E})%.",
+        "question_images": [],
+        "solution": "Kẻ %(E F \\perp A C)% tại %(\\mathrm{F}, D G \\perp B C)% tại G .<br>Theo giả thiết %(S_{(A D P E)}=S_{(B P C)})%<br>\\[\\Rightarrow S_{(A C E)}=S_{(B C D)}\\]<br>Mà %(A C=B C \\Rightarrow E F=D G)% và %(\\hat{A}=\\widehat{C})%<br>Suy ra %(\\triangle A E F=\\triangle C D G \\Rightarrow A E=C G)%.<br>Do đó %(\\triangle A E C=\\triangle C D B(c-g-c) \\Rightarrow \\widehat{D B C}=\\widehat{E C A})%<br>%(\\Rightarrow \\widehat{B P E}=\\widehat{P B C}+\\widehat{P C B}=\\widehat{P C D}+\\widehat{P C B}=60^{\\circ})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7c3ee673f359ce85ed15f1dcae597bd7.png\" srcset=\"https://docdn.giainhanh.io/media/test/5d7dc147f314d3481f7d196893647337.png 176w\" width=\"176\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho đường tròn tâm O và dây cung AB cố định %((O \\notin A B))%. P là điểm di động trên đoạn thẳng %(\\mathrm{AB}(P \\neq A, B)% và P khác trung điểm AB%())%. Đường tròn tâm C đi qua điểm P tiếp xúc với đường tròn %((\\mathrm{O}))% tại A . Đường tròn tâm D đi qua điểm P tiếp xúc với đường tròn (O) tại B . Hai đường tròn %((\\mathrm{C})% ) và (D) cắt nhau tại %(\\mathrm{N}(N \\neq P))%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng %(\\widehat{A N P}=\\widehat{B N P})% và bốn điểm %(\\mathrm{O}, \\mathrm{D}, \\mathrm{C}, \\mathrm{N})% cùng nằm trên một đường tròn.",
+        "question_images": [],
+        "solution": "Gọi Q là giao điểm của các tiếp tuyến chung của ( O ) với (C), (D) tại %(\\mathrm{A}, \\mathrm{B})% tương ứng.<br>Suy ra %(\\widehat{A N P}=\\widehat{Q A P}=\\widehat{Q B P}=\\widehat{B N P})%.<br>Ta có %(\\widehat{A N B}=\\widehat{A N P}+\\widehat{B N P}=\\widehat{Q A P}+\\widehat{Q B P})% %(=180^{\\circ}-\\widehat{A Q B})%, suy ra NAQB nội tiếp (1).<br>Dễ thấy tứ giác OAQB nội tiếp (2)<br>Từ (1) và (2) suy ra 5 điểm %(\\mathrm{O}, \\mathrm{N}, \\mathrm{A}, \\mathrm{Q}, \\mathrm{B})%cùng nằm trên một đường tròn.<br>Ta có %(\\widehat{O C N}=2 \\widehat{O A N}=2 \\widehat{O B N}=\\widehat{O D N})%,suy ra bốn điểm %(\\mathrm{O}, \\mathrm{D}, \\mathrm{C}, \\mathrm{N})% cùng nằm trên một đường tròn.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3e26d9cd2f9d88894975e3bbcaa6a544.png\" srcset=\"https://docdn.giainhanh.io/media/test/ce5d05df7407e78e1ff61317de43fa13.png 105w\" width=\"105\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Chứng minh rằng đường trung trực của đoạn ON luôn đi qua điểm cố định khi P di động.",
+        "question_images": [],
+        "solution": "Gọi %(E)% là trung điểm %(O Q)%, suy ra %(E)% cố định và %(E)% là tâm đường tròn đi qua các điểm %(\\mathrm{N}, \\mathrm{O}, \\mathrm{D}, \\mathrm{C})%.<br>Suy ra đường trung trực của ON luôn đi qua điểm E cố định.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Cho %(a_{1}, a_{2}, \\ldots, a_{45})% là 45 số tự nhiên dương thoả mãn %(a_{1}\\lt a_{2}\\lt \\ldots .\\lt a_{45} \\leq 130)%. Đă̆t %(d_{j}=a_{j+1}-a_{j},(j=1,2, \\ldots, 44))%. Chứng minh rằng ít nhất một trong 44 hiệu %(d_{j})% xuất hiện ít nhất 10 lần.",
+        "question_images": [],
+        "solution": "%(d_{1}+d_{2}+\\ldots+d_{44}=\\left(a_{2}-a_{1}\\right)+\\left(a_{3}-a_{2}\\right)+\\ldots+\\left(a_{45}-a_{44}\\right)=a_{45}-a_{1} \\leq 130-1=129)%.<br>Nếu mỗi hiệu %(d_{j}(j=1,2, \\ldots, 44))% xuất hiện không quá 10 lần thì %(d_{1}+d_{2}+\\ldots+d_{44} \\geq 9(1+2+3+4)+8.5=130)% mâu thuẫn với (1).<br>Vậy phải có ít nhất một hiêụ %(d_{j}(j=1, \\ldots, 44))% xuất hiện không ít hơn 10 lần",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.0,
+        "content": "Cho ba số dương %(a, b, c)% thoả mãn: %(\\sqrt{a^{2}+b^{2}}+\\sqrt{b^{2}+c^{2}}+\\sqrt{c^{2}+a^{2}}=\\sqrt{2011})%.Chứng minh rằng: %(\\frac{a^{2}}{b+c}+\\frac{b^{2}}{c+a}+\\frac{c^{2}}{a+b} \\geq \\frac{1}{2} \\sqrt{\\frac{2011}{2}})%.",
+        "question_images": [],
+        "solution": "Ta có %(2\\left(a^{2}+b^{2}\\right) \\geq(a+b)^{2})%<br>Suy ra %(\\frac{a^{2}}{b+c}+\\frac{b^{2}}{c+a}+\\frac{c^{2}}{a+b} \\geq \\frac{a^{2}}{\\sqrt{2\\left(b^{2}+c^{2}\\right)}}+\\frac{b^{2}}{\\sqrt{2\\left(c^{2}+a^{2}\\right)}}+\\frac{c^{2}}{\\sqrt{2\\left(c^{2}+a^{2}\\right)}})%<br>Đặt %(x=\\sqrt{b^{2}+c^{2}}, y=\\sqrt{c^{2}+a^{2}}, z=\\sqrt{a^{2}+b^{2}})%,<br>suy ra<br>\\[\\begin{array}{l}V T \\geq \\frac{y^{2}+z^{2}-x^{2}}{2 \\sqrt{2} x}+\\frac{z^{2}+x^{2}-y^{2}}{2 \\sqrt{2} y}+\\frac{x^{2}+y^{2}-z^{2}}{2 \\sqrt{2} z} \\\\geq \\frac{1}{2 \\sqrt{2}}\\left[\\left(\\frac{(y+z)^{2}}{2 x}-x\\right)+\\left(\\frac{(z+x)^{2}}{2 y}-y\\right)+\\left(\\frac{(x+y)^{2}}{2 z}-z\\right)\\right] \\\\geq \\frac{1}{2 \\sqrt{2}}\\left[\\left(\\frac{(y+z)^{2}}{2 x}+2 x-3 x\\right)+\\left(\\frac{(z+x)^{2}}{2 y}+2 y-3 y\\right)+\\left(\\frac{(x+y)^{2}}{2 z}+2 z-3 z\\right)\\right]\\end{array}\\]<br>\\[\\geq \\frac{1}{2 \\sqrt{2}}[(2(y+z)-3 x)+(2(z+x)-3 y)+(2(x+y-3 z)]\\]<br>Suy ra %(V T \\geq \\frac{1}{2 \\sqrt{2}}(x+y+z)=\\frac{1}{2} \\sqrt{\\frac{2011}{2}})%",
+        "question_type": "essay"
+    }
+]

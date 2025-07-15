@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Tính giới hạn: %(\\lim _{x \\rightarrow+\\infty} \\frac{x\\left(\\sqrt{4 x^{2}+x+1}+3 x\\right)}{x^{2}+2})%.",
+        "question_images": [],
+        "solution": "\\[=\\lim _{x \\rightarrow+\\infty} \\frac{x\\left(x \\sqrt{4+\\frac{1}{x}+\\frac{1}{x^{2}}}+3 x\\right)}{x^{2}\\left(1+\\frac{2}{x^{2}}\\right)}\\]<br>\\[=\\lim _{x \\rightarrow+\\infty} \\frac{x^{2}\\left(\\sqrt{4+\\frac{1}{x}+\\frac{1}{x^{2}}}+3\\right)}{x^{2}\\left(1+\\frac{2}{x^{2}}\\right)}\\]<br>\\[=\\lim _{x \\rightarrow+\\infty} \\frac{\\sqrt{4+\\frac{1}{x}+\\frac{1}{x^{2}}}+3}{1+\\frac{2}{x^{2}}}=5\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho hàm số %(f(x)=\\left\\{\\begin{array}{ll}\\frac{x^{3}-5 x^{2}+12}{2 x-4}(x \\neq 2) \\\\ 3 a^{2}-7 & (x=2)\\end{array}\\right.)%.<br>Định %(a)% để hàm số liên tục tại điểm %(x=2)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}f(2)=3 a^{2}-7 \\\\lim _{x \\rightarrow 2} f(x)=\\lim _{x \\rightarrow 2} \\frac{x^{3}-5 x^{2}+12}{2 x-4}=\\lim _{x \\rightarrow 2} \\frac{(x-2)\\left(x^{2}-3 x-6\\right)}{2(x-2)} \\\\=\\lim _{x \\rightarrow 2} \\frac{x^{2}-3 x-6}{2}=-4\\end{array}\\]<br>Hàm số liên tục tại điểm %(x=2 \\Leftrightarrow \\lim _{x \\rightarrow 2} f(x)=f(2) \\Leftrightarrow 3 a^{2}-7=-4 \\Leftrightarrow a=1 \\vee a=-1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Tính đạo hàm các hàm số sau:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) %(y=\\sqrt{x^{2}+3 x+1})%.",
+        "question_images": [],
+        "solution": "%(y^{\\prime}=\\frac{\\left(x^{2}+3 x+1\\right)^{\\prime}}{2 \\sqrt{x^{2}+3 x+1}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) %(y=(2 x-5) \\cdot \\sin 3 x)%.",
+        "question_images": [],
+        "solution": "%(y^{\\prime}=\\frac{2 x+3}{2 \\sqrt{x^{2}+3 x+1}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Một vật chuyển động có phương trình %(S(t)=\\frac{2 t^{3}}{3}-\\frac{1}{t}+6)%, trong đó %(t)% (tính bằng giây) là thời gian vật chuyển động kể từ lúc bắt đầu chuyển động %((t\\gt 0))% và %(S)% (tính bằng mét) là quãng đường vật đi được trong khoảng thời gian %(t)%. Tính vận tốc và gia tốc của vật tại thời điểm %(t=5(s))%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}v(t)=S^{\\prime}(t)=2 t^{2}+\\frac{1}{t^{2}} \\a(t)=v^{\\prime}(t)=4 t-\\frac{2}{t^{3}}\\end{array}\\]<br>Vận tốc của vật tại thời điểm %(t=5(\\mathrm{~s}): v(5)=\\frac{1251}{25}(\\mathrm{~m} / \\mathrm{s}))% (hoặc %(v(5)=50,04(\\mathrm{~m} / \\mathrm{s}))% )<br>Gia tốc của vật tại thời điểm %(t=5(\\mathrm{~s}): a(5)=\\frac{2498}{125}\\left(\\mathrm{~m} / \\mathrm{s}^{2}\\right)\\left(\\right.)% hoặc %(a(5)=19,984\\left(\\mathrm{~m} / \\mathrm{s}^{2}\\right))% )",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho hàm số %(y=x^{3}+3 x^{2}-1)% có đồ thị %((C))%. Viết phương trình tiếp tuyến %(\\Delta)% của đồ thị %((C))%, biết tiếp tuyến %(\\Delta)% song song đường thẳng %(d: y=9 x-6)%.",
+        "question_images": [],
+        "solution": "\\[y^{\\prime}=3 x^{2}+6 x\\]<br>Gọi %(M\\left(x_{0} ; y_{0}\\right))% là tiếp điểm. Do %(\\Delta / / d)% nên %(k_{\\Delta}=k_{d}=9)%<br>Suy ra: %(3 x_{0}^{2}+6 x_{0}=9 \\Leftrightarrow x_{0}=1 \\vee x_{0}=-3)%<br>+ Với %(x_{0}=1 \\Rightarrow y_{0}=3)%. Phương trình tiếp tuyến: %(y=9(x-1)+3 \\Leftrightarrow y=9 x-6)% (loại)<br>+ Với %(x_{0}=-3 \\Rightarrow y_{0}=-1)%. Phương trình tiếp tuyến: %(y=9(x+3)-1 \\Leftrightarrow y=9 x+26)% (nhận)",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Chứng minh phương trình %(\\left(m^{2}+2 m+6\\right) x^{4}+x-2=0)% luôn có nghiệm với mọi giá trị thực của tham số %(m)%.",
+        "question_images": [],
+        "solution": "Đặt %(f(x)=\\left(m^{2}+2 m+6\\right) x^{4}+x-2 ; f(x))% là hàm số xác định, liên tục trên %(\\mathbb{R})% (1)<br>%(f(0)=-2)%<br>%(f(2)=m^{2}+2 m+6\\gt 0, \\forall m \\in \\mathbb{R})%<br>Suy ra: %(f(0) \\cdot f(2)\\lt 0, \\forall m \\in \\mathbb{R})%%((2))%<br>Từ (1), (2) %(\\Rightarrow)% phương trình %(f(x)=0)% luôn có nghiệm, %(\\forall m \\in \\mathbb{R})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tứ diện %(S A B C)% có %(S A, A B, A C)% đôi một vuông góc, biết %(S A=A B=A C=a)%. Gọi %(I)% là trung điểm của đoạn %(B C)%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh đường thẳng %(S A)% vuông góc với mặt phẳng %((A B C))%. Chứng minh mặt phẳng %((S A B))% vuông góc với mặt phẳng %((S A C))%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b6c4e39e420432bc244ea0eeec7663fb.png\" srcset=\"https://docdn.giainhanh.io/media/test/b05a9382aa50f4b2ea9f8b07d99023eb.png 238w, https://docdn.giainhanh.io/media/test/b7db9046b1e0865689063664b7381269.png 500w, https://docdn.giainhanh.io/media/test/62ab1d4d24e979cd796efa152b3251d8.png 750w\" width=\"750\"/><br>\\[\\left\\{\\begin{array}{l}S A \\perp A B(g t) \\S A \\perp A C(g t)\\end{array}\\right.\\]<br>\\[\\Rightarrow S A \\perp(A B C)\\]<br>Chứng minh mặt phẳng %((S A B))% vuông góc với mặt phẳng %((S A C))%.<br>\\[\\left\\{\\begin{array}{l}A B \\perp A C(g t) \\A B \\perp S A(g t)\\end{array}\\right.\\]<br>\\[\\begin{array}{l}\\Rightarrow A B \\perp(S A C) \\\\Rightarrow(S A B) \\perp(S A C)\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh mặt phẳng %((S A I))% vuông góc với mặt phẳng %((S B C))%.",
+        "question_images": [],
+        "solution": "%(A B=A C(g t) \\Rightarrow \\triangle A B C)% cân tại %(A \\Rightarrow)% trung tuyến %(A I)% cũng là đường cao %(\\Rightarrow B C \\perp A I)%<br>%(B C \\perp S A \\quad(S A \\perp(A B C)-c m t))%<br>Nên: %(B C \\perp(S A I))%%(\\Rightarrow(S B C) \\perp(S A I))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tính góc giữa hai mặt phẳng %((S A B))% và %((S A I))%.",
+        "question_images": [],
+        "solution": "\\[\\left\\{\\begin{array}{l}(S A B) \\cap(S A I)=S A \\S A \\perp A B(g t) \\S A \\perp A I(S A \\perp(A B C)-c m t)\\end{array}\\right.\\]<br>\\[\\Rightarrow \\widehat{((S A B),(S A I))}=\\widehat{(A B, A I)}=\\widehat{B A I}\\]<br>%(\\triangle A B C)% vuông cân tại %(A)% nên trung tuyến %(A I)% cũng là phân giác trong<br>\\[\\Rightarrow \\widehat{B A I}=45^{\\circ} \\text {. Vậy }(\\widehat{(S A B),(S A I)})=45^{\\circ}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 0.5,
+        "content": "d) Trên tia đối của tia %(I A)% lấy điểm %(D)% sao cho %(I D=2 I A)% và gọi %(E)% là trung điểm của đoạn %(S D)%. Tính khoảng cách từ điểm %(E)% đến mặt phẳng %((S B C))% theo %(a)%.",
+        "question_images": [],
+        "solution": "Lý luận: %(\\left.\\begin{array}{l}d(E,(S B C))=\\frac{1}{2} d(D,(S B C)) \\\\ d(D,(S B C))=2 d(A,(S B C))\\end{array}\\right\\} \\Rightarrow d(E,(S B C))=d(A,(S B C)))%<br>Trong %((S A I))% kẻ %(A H \\perp S I)% tại %(H)%<br>Lý luận: %(d(A,(S B C))=A H)%<br>%(\\triangle A B C: A I=\\frac{1}{2} B C=\\frac{a \\sqrt{2}}{2})%<br>%(\\Delta S A I: \\frac{1}{A H^{2}}=\\frac{1}{S A^{2}}+\\frac{1}{A I^{2}} \\Rightarrow A H=\\frac{a \\sqrt{3}}{3})%<br>Vậy %(d(E,(S B C))=\\frac{a \\sqrt{3}}{3})%",
+        "question_type": "essay"
+    }
+]

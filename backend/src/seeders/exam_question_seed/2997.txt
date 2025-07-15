@@ -1,0 +1,126 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Rút gọn biểu thức sau: %(A=\\sqrt{\\frac{3 \\sqrt{3}-4}{2 \\sqrt{3}+1}}-\\sqrt{\\frac{\\sqrt{3}+4}{5-2 \\sqrt{3}}})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=\\sqrt{\\frac{3 \\sqrt{3}-4}{2 \\sqrt{3}+1}}-\\sqrt{\\frac{\\sqrt{3}+4}{5-2 \\sqrt{3}}} \\\\ =\\sqrt{\\frac{(3 \\sqrt{3}-4)(2 \\sqrt{3}-1)}{(2 \\sqrt{3})^{2}-1}}-\\sqrt{\\frac{(\\sqrt{3}+4)(5+2 \\sqrt{3})}{5^{2}-(2 \\sqrt{3})^{2}}} \\\\ =\\sqrt{\\frac{22-11 \\sqrt{3}}{11}}-\\sqrt{\\frac{26+13 \\sqrt{3}}{13}} \\\\ =\\sqrt{2-\\sqrt{3}}-\\sqrt{2+\\sqrt{3}} \\\\ =\\sqrt{\\frac{4-2 \\sqrt{3}}{2}}-\\sqrt{\\frac{4+2 \\sqrt{3}}{2}} \\\\ =\\frac{1}{\\sqrt{2}}\\left(\\sqrt{(\\sqrt{3}-1)^{2}}-\\sqrt{(\\sqrt{3}+1)^{2}}\\right) \\\\ =\\frac{1}{\\sqrt{2}}(|\\sqrt{3}-1|-\\sqrt{3}-1) \\\\ =\\frac{1}{\\sqrt{2}} \\cdot(-2)=-\\sqrt{2} \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Cho biểu thức: %(B=\\left(\\frac{\\sqrt{x}+2}{x+2 \\sqrt{x}+1}-\\frac{\\sqrt{x}-2}{x-1}\\right)(x+\\sqrt{x}))% với %(x\\gt 0, x \\neq 1)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Rút gọn biểu thức %(B)%",
+        "question_images": [],
+        "solution": "Với %(x\\gt 0, x \\neq 1)% ta có:<br>%(\\begin{array}{l}B=\\left[\\frac{\\sqrt{x}+2}{(\\sqrt{x}+1)^{2}}-\\frac{\\sqrt{x}-2}{(\\sqrt{x}+1)(\\sqrt{x}-1)}\\right] \\cdot(x+\\sqrt{x}) \\\\ =\\frac{(\\sqrt{x}+2)(\\sqrt{x}-1)-(\\sqrt{x}-2)(\\sqrt{x}+1)}{(\\sqrt{x}+1)^{2}(\\sqrt{x}-1)} \\cdot(x+\\sqrt{x}) \\\\ =\\frac{(x+\\sqrt{x}-2)-(x-\\sqrt{x}-2)}{(\\sqrt{x}+1)^{2}} \\cdot(x+\\sqrt{x}) \\\\ =\\frac{2 \\sqrt{x}}{(\\sqrt{x}+1)^{2}(\\sqrt{x}-1)} \\cdot \\sqrt{x}(\\sqrt{x}+1)=\\frac{2 x}{x-1}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Tìm các giá trị nguyên của %(x)% để %(B)% nhận giá trị nguyên",
+        "question_images": [],
+        "solution": "Ta có: %(B=\\frac{2 x}{x-1}=\\frac{2(x-1)+2}{x-1}=2+\\frac{2}{x-1})%<br>Do x nguyên nên:<br>B nguyên %(\\Leftrightarrow \\frac{2}{x-1})% nguyên %(\\Leftrightarrow \\mathrm{x}-1)% là ước của %(2 \\Leftrightarrow\\left[\\begin{array}{l}x-1= \\pm 1 \\\\ x-1= \\pm 2\\end{array} \\Leftrightarrow x \\in\\{2 ; 0 ; 3 ;-1\\}\\right.)%<br>Vậy các giá trị của %(\\mathrm{x})% cần tìm là %(x \\in\\{2 ; 0 ; 3 ;-1\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho hệ phương trình %(\\left\\{\\begin{array}{l}m x+2 y=1 \\\\ 3 x+(m+1) y=-1\\end{array}\\right.)% với %(m)% là tham số.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Giải hệ với %(\\mathrm{m}=3)%.",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}m x+2 y=1 \\\\ 3 x+(m+1) y=-1\\end{array}\\right.)% (1)<br>Với %(\\mathrm{m}=3)%, hệ phương trình (I) trở thành:<br>\\[\\left\\{\\begin{array} { l } { 3 x + 2 y = 1 } \\\\{ 3 x + 4 y = - 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { - 2 y = 2 } \\\\{ 3 x + 4 y = - 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { y = - 1 } \\\\{ 3 x + 4 . ( - 1 ) = - 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}y=-1 \\x=1\\end{array}\\right.\\right.\\right.\\right.\\]<br>Khi %(\\mathrm{m}=3)% hệ có nghiệm %((1 ;-1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Giải và biện luận hệ theo m.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\left\\{\\begin{array} { l } { m x + 2 y = 1 } \\\\{ 3 x + ( m + 1 ) y = - 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { y = \\frac { 1 - m x } { 2 } } \\\\{ 3 x + ( m + 1 ) \\cdot \\frac { 1 - m x } { 2 } = - 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}y=\\frac{1-m x}{2} \\\\6 x-\\left(m^{2}+m\\right) x+m+1=-2\\end{array}\\right.\\right.\\right.\\]<br>%(\\Leftrightarrow\\left\\{\\begin{array}{l}y=\\frac{1-m x}{2} \\\\ \\left(m^{2}+m-6\\right) x=m+3(*)\\end{array}\\right.)% (II)<br>Khi %(\\mathrm{m}=2:\\left(^{*}\\right) \\Leftrightarrow 0 \\mathrm{x}=5)% (vô nghiệm) %(\\Rightarrow)% Hệ vô nghiệm<br>Khi %(\\mathrm{m}=-3:\\left(^{*}\\right) \\Leftrightarrow 0 \\mathrm{x}=0)%. Hệ phương trình có vô số nghiệm %(\\mathrm{x} \\in \\mathbb{R}, \\mathrm{y}=\\frac{1+3 x}{2})%<br>Khi %(m^{2}+m-6 \\neq 0 \\Leftrightarrow(m+3)(m-2) \\neq 0 \\Leftrightarrow\\left\\{\\begin{array}{l}m \\neq-3 \\\\ m \\neq 2\\end{array}\\right.)%, ta có:<br>\\[(I I) \\Leftrightarrow\\left\\{\\begin{array}{l}x=\\frac{m+3}{m^{2}+m-6}=\\frac{1}{m-2} \\y=\\frac{1-\\frac{m}{m-2}}{2}=\\frac{1}{2-m}\\end{array}\\right.\\]<br>Hệ (I) có nghiệm duy nhất %(\\left(\\frac{1}{m-2} ; \\frac{1}{2-m}\\right))%<br>Kết luận:<br>%(+m=2)% : (I) vô nghiệm%(+\\mathrm{m}=-3)% : (I) có vô số nghiệm %(\\mathrm{x} \\in \\mathbb{R}, \\mathrm{y}=\\frac{1+3 x}{2})%<br>%(+m \\neq 2)% và %(m \\neq-3)% : (I) có nghiệm duy nhất %(\\left(\\frac{1}{m-2} ; \\frac{1}{2-m}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Tìm %(m)% nguyên để hệ có nghiệm là số nguyên.",
+        "question_images": [],
+        "solution": "Theo câu b, (I) có nghiệm %(\\Leftrightarrow m \\neq 2)%.<br>Khi %(\\mathrm{m}=-3)%, (I) có nghiệm nguyên chẳng hạn %(\\mathrm{x}=1, \\mathrm{y}=2)%<br>Khi %(\\mathrm{m} \\neq 2)% và %(\\mathrm{m} \\neq-3)% : (I) có nghiệm nguyên %(\\Leftrightarrow \\frac{1}{m-2} \\in \\mathbb{Z} \\Leftrightarrow \\mathrm{m}-2)% là ước của 1<br>%(\\Leftrightarrow m-2=1)% hoặc %(m-2=-1)%<br>%(\\Leftrightarrow \\mathrm{m}=3)% hoặc %(\\mathrm{m}=1)%<br>Vậy các giá trị %(m)% cần tìm là %(m \\in\\{-3 ; 1 ; 3\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho phương trình bậc hai: %(x^{2}-m x+m-1=0(1))%, với %(m)% là tham số.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Giải phương trình (1) khi %(\\mathrm{m}=4)%",
+        "question_images": [],
+        "solution": "%(x^{2}-m x+m-1=0)% (1)<br>Với %(\\mathrm{m}=4)%, phương trình (1) trở thành %(x^{2}-4 x+3=0 \\Leftrightarrow(x-1)(x-3) \\Leftrightarrow x=1)% hoặc %(x=3)%<br>Vậy tập nghiệm của (1) là %(\\{1 ; 3\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm các giá trị của %(m)% để phương trình (1) có hai nghiệm %(x_{1}, x_{2})% thỏa mãn hệ thức<br>%(\\frac{1}{x_{1}}+\\frac{1}{x_{2}}=\\frac{x_{1}+x_{2}}{2014})%",
+        "question_images": [],
+        "solution": "Phương trình (1) có hai nghiệm %(x_{1}, x_{2})%<br>\\[\\begin{array}{l}\\Leftrightarrow \\Delta=m^{2}-4(m-1) \\geq 0 \\\\Leftrightarrow m^{2}-4 m+4 \\geq 0 \\\\Leftrightarrow(m-2)^{2} \\geq 0\\end{array}\\]<br>(luôn đúng %(\\forall \\mathrm{m})% )Khi đó, theo định lý Vi-ét: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=m \\\\ x_{1} x_{2}=m-1\\end{array}\\right.)%Ta có:<br>\\[\\begin{array}{l}\\frac{1}{x_{1}}+\\frac{1}{x_{2}}=\\frac{x_{1}+x_{2}}{2014} \\Leftrightarrow \\frac{x_{1}+x_{2}}{x_{1} x_{2}}=\\frac{x_{1}+x_{2}}{2014} \\\\Leftrightarrow \\frac{2014\\left(x_{1}+x_{2}\\right)-\\left(x_{1}+x_{2}\\right) x_{1} x_{2}}{2014 x_{1} x_{2}}=0 \\\\Leftrightarrow \\frac{\\left(x_{1}+x_{2}\\right)\\left(2014-x_{1} x_{2}\\right)}{2014 x_{1} x_{2}}=0 \\\\Leftrightarrow\\left[\\begin{array} { l } { x _ { 1 } + x _ { 2 } = 0 } \\\\{ x _ { 1 } x _ { 2 } = 2 0 1 4 }\\end{array} \\Leftrightarrow \\left[\\begin{array} { l } { m = 0 } \\\\{ m - 1 = 2 0 1 4 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}m=0 \\m=2015\\end{array}\\right.\\right.\\right.\\end{array}\\]<br>Vậy %(m \\in\\{0 ; 2015\\})% là giá trị cần tìm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho tam giác đểu %(\\mathrm{ABC})% nội tiếp đường tròn đường kính %(\\mathrm{AD})%.Gọi %(\\mathrm{M})% là một điểm di động trên cung nhỏ %(\\mathrm{AB}(\\mathrm{M})% không trùng với các điểm %(\\mathrm{A})% và %(\\mathrm{B}))%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(\\mathrm{MD})% là đường phân giác của góc %(\\mathrm{BMC})%",
+        "question_images": [],
+        "solution": "Vì %(\\mathrm{B})% và %(\\mathrm{C})% thuộc đường tròn đường kính %(\\mathrm{AD})% nên %(\\mathrm{ABD}=\\mathrm{ACD}=90^{\\circ})%<br>Xét hai tam giác vuông %(A B D)% và %(A C D)% có chung cạnh huyền %(A D)%, hai cạnh góc vuông %(A B)% và %(\\mathrm{AC})% bằng nhau (do %(\\triangle \\mathrm{ABC})% đều)<br>%(\\Rightarrow \\triangle \\mathrm{ABD}=\\Delta \\mathrm{ACD})% (cạnh huyền - cạnh góc vuông)<br>%(\\Rightarrow \\mathrm{BAD}=\\mathrm{CAD})% (1)<br>Vì %(A M B D)% là tứ giác nội tiếp nên:<br>%(\\mathrm{BMD}=\\mathrm{BAD})% (2)<br>Vì AMDC là tứ giác nội tiếp nên:<br>%(\\mathrm{CMD}=\\mathrm{CAD})% (3)<br>Từ (1), (2) và (3) => BMD = CMD<br>%(\\Rightarrow)% MD là phân giác của góc %(\\mathrm{BMC})%.<br><img alt=\"Ảnh chụp màn hình 2024-03-26 111731.png\" src=\"https://docdn.giainhanh.io/media/test/2d9021b0e6da67565e0dee1654e96b47.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Cho %(\\mathrm{AD}=2 \\mathrm{R})%. Tính diện tích của tứ giác %(\\mathrm{ABDC})% theo %(\\mathrm{R})%",
+        "question_images": [],
+        "solution": "Ta có: %(B A D=C A D=\\frac{1}{2} B A C=30^{\\circ})%<br>Xét %(\\triangle \\mathrm{ABD})% vuông tại %(\\mathrm{B})% có: %(B A=A D \\cdot \\cos B A D=2 R \\cdot \\cos 30^{\\circ}=R \\sqrt{3})%<br>Vì %(\\mathrm{ABC})% là tam giác đều nên %(B C=B A=R \\sqrt{3})%<br>Vì %(\\mathrm{AB}=\\mathrm{AC}, \\mathrm{DB}=\\mathrm{DC})% nên %(\\mathrm{AD})% là trung trực của %(\\mathrm{BC})%<br>%(\\Rightarrow \\mathrm{AD} \\perp \\mathrm{BC})%.<br>Tứ giác %(\\mathrm{ABDC})% có %(\\mathrm{AD} \\perp \\mathrm{BC})% nên<br>%(S_{A B C D}=\\frac{1}{2} A D \\cdot B C=\\frac{1}{2} \\cdot 2 R \\cdot R \\sqrt{3}=R^{2} \\sqrt{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Gọi %(\\mathrm{O})% là tâm đường tròn đường kính %(\\mathrm{AD})%.Hãy tính diện tích hình viên phân giới hạn bởi cung %(A M B)% và dây %(A B)% theo %(R)%.",
+        "question_images": [],
+        "solution": "Vẽ OI %(\\perp)% AB tại I. Xét tam giác vuông OIA ta có:<br>%(O I=O A \\cdot \\sin O A I=R \\cdot \\sin 30^{\\circ}=\\frac{R}{2})%<br>%(\\Rightarrow)% Diện tích tam giác %(\\mathrm{AOB})% là %(S_{O A B}=\\frac{1}{2} A B \\cdot O I=\\frac{1}{2} R \\sqrt{3} \\cdot \\frac{R}{2}=\\frac{R^{2} \\sqrt{3}}{4})% (đvdt)<br>Ta có: %(A O B=2 A O C=120^{\\circ})% (góc ở tâm và góc nội tiếp cùng chắn cung %(\\mathrm{AB})% )<br>Diện tích hình quạt %(\\mathrm{AOB})% là %(\\frac{\\pi R^{2} \\cdot 120}{360}=\\frac{\\pi R^{2}}{3})% (đvdt)<br>Suy ra diện tích hình viên phân cần tìm là %(\\frac{\\pi R^{2}}{3}-\\frac{R^{2} \\sqrt{3}}{4}=\\frac{R^{2}(4 \\pi-3 \\sqrt{3})}{12})% (đvdt)",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 0.5,
+        "content": "d) Gọi %(K)% là giao điểm của %(A B)% và %(M D, H)% là giao điểm của %(A D)% và %(M C)%.Chứng minh ba đường thẳng %(A M, B D, H K)% dồng quy.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{J})% là giao điểm của %(\\mathrm{AM})% và %(\\mathrm{BD})%.<br>Vì %(\\mathrm{M}, \\mathrm{B})% thuộc đường tròn đường kính %(\\mathrm{AD})% nên %(\\mathrm{DM} \\perp \\mathrm{AJ}, \\mathrm{AB} \\perp \\mathrm{DJ})%<br>%(\\Rightarrow \\mathrm{K})% là trực tâm của tam giác %(\\mathrm{AJD})%<br>%(\\Rightarrow \\mathrm{JK} \\perp \\mathrm{AD})%<br>%(\\Rightarrow \\mathrm{JK} / / \\mathrm{BC})% (cùng %(\\perp \\mathrm{AD}))% (4)<br>Tứ giác %(\\mathrm{AMKH})% có %(\\mathrm{KMH}=\\mathrm{KAH}(=\\mathrm{BMD}))% nên là tứ giác nội tiếp<br>%(\\Rightarrow \\mathrm{KHA}=180^{\\circ}-\\mathrm{KMA}=180^{\\circ}-90^{\\circ}=90^{\\circ})%<br>%(\\Rightarrow \\mathrm{KH} \\perp \\mathrm{AD})%<br>%(\\Rightarrow \\mathrm{KH} / / \\mathrm{BC})% (cùng %(\\perp \\mathrm{AD})% ) (5)<br>Từ (4) và (5), theo tiên đề O-clít về đường thẳng song song, ta có %(\\mathrm{J}, \\mathrm{K}, \\mathrm{H})% thẳng hàng. Vậy AM, BD và KH đồng quy tại %(\\mathrm{J})%.",
+        "question_type": "essay"
+    }
+]

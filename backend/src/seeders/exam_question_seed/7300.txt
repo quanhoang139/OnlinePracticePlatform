@@ -1,0 +1,97 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Cho %(x, y\\gt 1)% thỏa mãn %(\\frac{1}{x+1}+\\frac{1}{y+1}=\\frac{5}{x y+4})%. Tính giá trị của biểu thức %(A=x^{3}+y^{3}+9 x y)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { + Ta có } \\frac{1}{x+1}+\\frac{1}{y+1}=\\frac{5}{x y+4} \\Rightarrow(x y+4)(x+y+2)=5(x+1)(y+1) \\\\Leftrightarrow x y(x+y)+3=3 x y+x+y \\Leftrightarrow(x+y-3)(x y-1)=0\\end{array}\\]<br>+ Với %(x, y\\gt 1)% thì %(x y-1>0)%, do đó %((1) \\Leftrightarrow x+y=3)%.<br>+ Vậy %(A=x^{3}+y^{3}+9 x y=(x+y)^{3}-3 x y(x+y)+9 x y)%<br>\\[=3^{3}-3 x y \\cdot 3+9 x y=27\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Xét đa thức %(P(x)=x^{2}+a x+b)% với %(a, b)% là các hệ số nguyên. Chứng minh rằng nếu %(P(1+\\sqrt{2})=2024)% thì %(P(1-\\sqrt{2})=2024)%.",
+        "question_images": [],
+        "solution": "Ta có %(P(1+\\sqrt{2})=2024 \\Leftrightarrow(1+\\sqrt{2})^{2}+a(1+\\sqrt{2})+b=2024)%%(\\Leftrightarrow(a+2) \\sqrt{2}=2021-a-b)%<br>+ Do %(a+2,2021-a-b)% là các số nguyên trong khi %(\\sqrt{2})% là số vô tỉ nên phải xảy ra %(\\left\\{\\begin{array}{l}a+2=0 \\\\ 2021-a-b=0\\end{array}\\right.)% hay %(\\left\\{\\begin{array}{l}a=-2 \\\\ b=2023 .\\end{array}\\right.)%<br>+ Vậy %(P(1-\\sqrt{2})=(1-\\sqrt{2})^{2}-2(1-\\sqrt{2})+2023)%%(=3-2 \\sqrt{2}-2+2 \\sqrt{2}+2023=2024)%, có điều phải chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải phương trình %(x^{2}=(2 x-9)\\left(\\sqrt{x^{2}+2 x-8}-2\\right))%.",
+        "question_images": [],
+        "solution": "+ Điều kiện xác định %(x^{2}+2 x-8 \\geq 0)%.<br>Phương trình được viết lại là<br>\\[x^{2}+2 x-8-(2 x-9) \\sqrt{x^{2}+2 x-8}+(2 x-10)=0 \\text {. }\\]<br>Đặt %(t=\\sqrt{x^{2}+2 x-8})% thì được %(t^{2}-(2 x-9) t+2 x-10=0 \\Leftrightarrow\\left[\\begin{array}{l}t=1 \\\\ t=2 x-10\\end{array}\\right.)%<br>+ Với %(t=1)% thì %(\\sqrt{x^{2}+2 x-8}=1 \\Leftrightarrow x^{2}+2 x-9=0 \\Leftrightarrow x=-1 \\pm \\sqrt{10})%.<br>+ Với %(t=2 x-10)% thì %(\\sqrt{x^{2}+2 x-8}=2 x-10 \\Leftrightarrow\\left\\{\\begin{array}{l}2 x-10 \\geq 0 \\\\ x^{2}+2 x-8=(2 x-10)^{2}\\end{array}\\right.)%<br>\\[\\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 5 \\x^{2}-14 x+36=0\\end{array} \\Leftrightarrow x=7+\\sqrt{13} .\\right.\\]<br>+ Vậy phương trình cho có tập nghiệm là %(S=\\{7+\\sqrt{13} ;-1 \\pm \\sqrt{10}\\})%.<br>Cách khác: Chuyển vế, bình phương để khử căn ta được PT hệ quả<br>\\[\\begin{array}{l}(2 x-9)^{2}\\left(x^{2}+2 x-8\\right)^{2}=\\left(x^{2}+4 x-18\\right)^{2} \\Leftrightarrow x^{4}-12 x^{3}-x^{2}+198 x-324=0 \\\\Leftrightarrow\\left(x^{2}+2 x-9\\right)\\left(x^{2}+14 x-36\\right)=0 \\\\Leftrightarrow x \\in\\{-1 \\pm \\sqrt{10} ; 7 \\pm \\sqrt{13}\\}\\end{array}\\]<br>Thử lại nghiệm và kết luận",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x^{2}(x-y)+(y-1)^{2}=0 \\\\ 4 x^{3}-9 x^{2}+7 x+3 y^{2}-10 y+5=0\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Xét hệ phương trình %(\\left\\{\\begin{array}{l}x^{2}(x-y)+(y-1)^{2}=0 \\\\ 4 x^{3}-9 x^{2}+7 x+3 y^{2}-10 y+5=0\\end{array}\\right.)%<br>+ Ta có %((1) \\Leftrightarrow y^{2}-\\left(x^{2}+2\\right) y+x^{3}+1=0 \\Leftrightarrow\\left[\\begin{array}{l}y=x+1 \\\\ y=x^{2}-x+1\\end{array}\\right.)%<br>+ Nếu %(y=x^{2}-x+1)%, thay vào (2) thu được<br>\\[\\begin{array}{l}4 x^{3}-9 x^{2}+7 x+3\\left(x^{2}-x+1\\right)^{2}-10\\left(x^{2}-x+1\\right)+5=0 \\\\Leftrightarrow 3 x^{4}-2 x^{3}-10 x^{2}+11 x-2=0 \\\\Leftrightarrow(x+2)(x-1)\\left(3 x^{2}-5 x+1\\right)=0 \\Leftrightarrow x \\in\\left\\{-2 ; 1 ; \\frac{5 \\pm \\sqrt{13}}{6}\\right\\}\\end{array}\\]<br>Tìm được các nghiệm<br>\\[(x ; y)=(-2 ; 7),(1 ; 1),\\left(\\frac{5+\\sqrt{13}}{6} ; \\frac{11+\\sqrt{13}}{9}\\right),\\left(\\frac{5-\\sqrt{13}}{6} ; \\frac{11-\\sqrt{13}}{9}\\right)\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho tam giác nhọn %(A B C)% nội tiếp đường tròn %((O))% và %(A B\\lt A C)%. Ba đường cao của tam giác %(A B C)% là %(A D, B E, C F)% đồng quy tại điểm %(H)%. Gọi %(A Q)% là đường kính của đường tròn %((O))%, đường thẳng %(H Q)% cắt cạnh %(B C)% tại điểm %(M)%. Đường tròn ngoại tiếp tam giác %(A E F)% cắt đường tròn %((O))% tại điểm %(N)% và cắt đường thẳng %(A M)% tại điểm %(K(N, K)% khác %(A))%, đường thẳng %(A N)% cắt đường thẳng %(B C)% tại điểm %(P)%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(H Q)% vuông góc với %(A N)% và %(F D H=H D E, F D K=N D E)%.",
+        "question_images": [],
+        "solution": "+ Đường tròn ngoại tiếp tam giác %(A E F)% là đường tròn đường kính %(A H)%, suy ra%(H N \\perp N A)%.<br>+ Mặt khác %(N)% thuộc đường tròn đường kính %(A Q)% nên %(Q N \\perp N A)%, suy ra %(N, H, Q)%thẳng hàng và có %(H Q \\perp A N)%.<br>+ Có %(A D C=A F C=90^{\\circ})% nên tứ giác %(A C D F)% nội tiếp, do đó %(F D B=B A C)%.<br>Tương tự có %(E D C=B A C)%.Suy ra %(F D H=90^{\\circ}-F D B=90^{\\circ}-B A C=90^{\\circ}-E D C=E D H)% (1).<br>+ Có %(A N M=A D M=90^{\\circ})% nên tứ giác %(A N D M)% nội tiếp, suy ra %(N D H=H M K)%.<br>Có %(H D M=H K A=90^{\\circ})% nên tứ giác %(H D M K)% nội tiếp, suy ra %(H M K=H D K)%.<br>Vậy %(N D H=H D K(2))%.<br>Từ (1) và (2) suy ra %(F D K=F D H+H D K=H D E+N D H=N D E)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4ecddc28e8ed1b5a394b9db0372f6490.png\" srcset=\"https://docdn.giainhanh.io/media/test/56866abceb73d956f3f74da6b4593cb6.png 234w, https://docdn.giainhanh.io/media/test/0abcf15e0746011cab234cd07d7e0caa.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Ba điểm %(P, E, F)% thẳng hàng.",
+        "question_images": [],
+        "solution": "+ Tứ giác %(A N F E)% nội tiếp nên suy ra %(A N F=F E C)%.<br>Có %(B F C=B E C=90^{\\circ})% nên tứ giác %(B F E C)% nội tiếp, suy ra %(F E C=F B P)%.<br>Vậy có%(A N F=F B P)%, suy ra tứ giác %(N P B F)% nội tiếp.<br>+ Theo đó %(P F B=P N B=B C A=E F A)%.<br>Vậy %(P F B=E F A)%, mà %(B, F, A)% thẳng hàng nên %(P, F, E)% cũng thẳng hàng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) %(P E . P F\\lt P M^{2})%.",
+        "question_images": [],
+        "solution": "+ Chứng minh được %(B H C Q)% là hình bình hành nên %(M)% là trung điểm của %(B C)%<br>+ Tam giác %(E M C)% cân tại %(M)% nên %(M E C=B C A)%.<br>Từ đó có %(P E M=180^{\\circ}-M E C-F E A=180^{\\circ}-B C A-A B C=B A C=F D P)%.Suy ra hai tam giác %(P F D, P M E)% đồng dạng %((\\mathrm{g}-\\mathrm{g}))%.<br>+ Suy ra %(\\frac{P F}{P M}=\\frac{P D}{P E})% hay %(P E \\cdot P F=P D \\cdot P M)%+ Do %(A B\\lt A C)% nên %(B D\\lt D C \\Rightarrow B D\\lt \\frac{B D+D C}{2}=B M \\Rightarrow P D\\lt P M)%Vậy %(P E . P F=P D \\cdot P M\\lt P M^{2})%.<br>Cách khác:<br>+ Chứng minh %(M)% là trung điểm của %(B C)%+ Chứng minh %(P E \\cdot P F=P B \\cdot P C)%+ Chi ra %(P B \\cdot P C=\\left(P M-\\frac{B C}{2}\\right)\\left(P M+\\frac{B C}{2}\\right) P M^{2}-\\frac{B C^{2}}{4})%+Từ %(\\frac{B C^{2}}{4}\\gt 0)%<br>suy ra %(P B \\cdot P B\\lt P M^{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Chứng minh với mọi số nguyên dương %(n)%, số %(n^{5}-6 n+33)% không là số chính phương.",
+        "question_images": [],
+        "solution": "Có %(n^{5}-6 n+33=\\left(n^{5}-n\\right)-5 n+33)%<br>+ Theo định lí Fermat có %(n^{5} \\equiv n(\\bmod 5))% nên %(\\left(n^{5}-n\\right) \\equiv 0(\\bmod 5))%<br>Do %(5 n \\equiv 0,33 \\equiv 3(\\bmod 5))% nên suy ra %(n^{5}-6 n+33 \\equiv 3(\\bmod 5)\\left({ }^{*}\\right))%<br>+ Một số chính phương khi chia cho 5 chỉ có thể cho số dư thuộc %(\\{0 ; 1 ; 4\\})%.<br>Vậy từ%(\\left({ }^{*}\\right))% suy ra %(n^{5}-6 n+33)% không thể là số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 0.5,
+        "content": "Cho các số nguyên dương %(a, b)% thỏa mãn điều kiện %(a+b+1)% là ước nguyên tố của %(4\\left(a^{2}+a b+b^{2}\\right)-3)%. Chứng minh rằng %(a+b-1)% là uớc của %(4\\left(a^{2}+a b+b^{2}\\right)-3)%.",
+        "question_images": [],
+        "solution": "+ Theo giả thiết có<br>\\[0 \\equiv 4 a^{2}+4 a b+4 b^{2}-3 \\equiv 4 a^{2}+4 a(-a-1)+4(-a-1)^{2}-3(\\bmod a+b+1)\\]<br>hay %((2 a+1)^{2} \\equiv 0(\\bmod a+b+1))%.<br>Từ %(a+b+1)% là số nguyên tố suy ra %((2 a+1):(a+b+1))%.<br>+ Ta có %(0\\lt 2 a+1\\lt 2(a+b+1))% nên xảy ra %(a+b+1=2 a+1 \\Leftrightarrow a=b)%.<br>Khi đó có %(\\left\\{\\begin{array}{l}a+b-1=2 a-1 \\\\ 4\\left(a^{2}+a b+b^{2}\\right)-3=12 a^{2}-3=3(2 a+1)(2 a-1)\\end{array}\\right.)%<br>suy ra %(\\left(4\\left(a^{2}+a b+b^{2}\\right)-3\\right):(a+b-1))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 0.75,
+        "content": "Xét %(x, y, z)% là các số thực dương thỏa mãn %(x y+y z+z x \\leq x y z)%. Tìm giá trị nhỏ nhất của biểu thức %(Q=x y^{2}+y z^{2}+z x^{2}-18(x+y+z))%.",
+        "question_images": [],
+        "solution": "+ Từ giả thiết có %(1 \\geq \\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z})%.<br>Dùng bất đẳng thức Cauchy-Schwarz có<br>\\[x y^{2}+y z^{2}+z x^{2} \\geq\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)\\left(x y^{2}+y z^{2}+z x^{2}\\right) \\geq(y+z+x)^{2}\\]<br>+ Suy ra %(Q \\geq(x+y+z)^{2}-18(x+y+z)=(x+y+z-9)^{2}-81 \\geq-81)%<br>Khi %(x=y=z=3)% thì các giả thiết được thỏa mãn và %(Q=-81)%.<br>Vậy giá trị nhỏ nhất của %(Q)% bằng -81 .<br>Cách khác: %(Q+81 \\geq x y^{2}-18 y+\\frac{81}{x}+y z^{2}-18 z+\\frac{81}{y}+z x^{2}-18 x+\\frac{81}{z})%<br>\\[=x\\left(y-\\frac{9}{x}\\right)^{2}+y\\left(z-\\frac{9}{y}\\right)^{2}+z\\left(x-\\frac{9}{z}\\right)^{2} \\geq 0\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 0.75,
+        "content": "Cho bảng hình chữ nhật gồm 2 dòng và %(n)% cột, được chia đều thành %(2 n)% ô vuông đơn vị. Ban đầu, trong mỗi ô vuông đơn vị người ta đặt đúng một viên bi có kích thước rất nhỏ. Ta gọi mỗi biến đổi %(\\mathrm{S})% ) là việc thực hiện các thao tác sau:<br>Chọn ra hai ô vuông đơn vị tùy ý có chứa bi, chuyển từ mỗi ô vuông đó đi một viên bi sang ô vuông đơn vị liền kề (hai ô vuông đơn vị gọi là liền kề nếu chúng có chung cạnh).<br>Tìm tất cả các số nguyên dương %(n)% để sau hữu hạn lần chỉ thực hiện biến đổi %((\\mathrm{T}))%, ta có thể đưa hết tất cả các viên bi có trên bảng lúc đầu về nằm trong cùng một ô vuông đơn vị của bảng.",
+        "question_images": [],
+        "solution": "+ Xét %(n)% là số lẻ:Ta tô màu các ô vuông đơn vị theo kiểu xen kẽ như bàn cờ vua bởi hai màu đen, trằng.<br>Gọi %(B, W)% lần lượt là số bi nằm ở ô đơn vị màu đen, số bi mà ô đơn vị màu trắng. %(\\square)%<br>- Lúc đầu: %(B=n)% và %(W=n)%. Như vậy %(B, W)% là các số lẻ.<br>- Chỉ ra được bất biến: Sau mỗi lần thực biến đổi %((\\mathrm{T}))% thì tính chẵn lẻ của%(B, W)% là không thay đổi.<br>- Suy ra lúc nào cũng có bi nằm ở ô đen và lúc nào cũng có bi nằm ở ô trắng (vì %(B, W)% luôn là số lẻ), vậy không thể dồn hết tất cả các viên bi về một ô vuông đơn vị.<br>- Xét %(n)% là số chẵn: Ta chỉ ra cách dồn được bi theo yêu cầu.<br>- Đầu tiên ta chọn hai ô vuông phân biệt mà mỗi ô vuông tương ứng đều nằm ở cuối cùng của mỗi dòng và phải có bi, thực hiện biến đổi %((\\mathrm{T}))% để dồn hết bi từ hai ô này về hai ô đứng liền trước chúng.<br>Lại thực hiện tiếp biến đổi %((\\mathrm{T}))% với hai ô đơn vị có bi mà mỗi ô nằm ở đầu ngoài cùng của mỗi dòng đế dồn hết bi của hai ô này về hai ô đứng liền sau chúng.<br>Tiếp tục với hai cách chọn ô như vậy (chọn cặp ô có bi ở cuối dòng rồi lại chọn cặp ô có bi ở đầu dòng) ta đi đến trạng thái bi chỉ còn nằm ở bảng con %(2 \\times 2)% ở chính giữa của bảng ban đầu như hình 1 (các chữ cái ghi trong ngoặc là để chỉ tên của ô, các số chỉ số lượng bi đang có ở ô tương ứng đó).<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/374bce82cb6aa533b0cfa448225aa0e4.png\" srcset=\"https://docdn.giainhanh.io/media/test/ab8802e2d63e6acd17ab5df3175f8e6d.png 106w\" width=\"106\"/><br>Hình 1<br>-Tiếp theo chọn cặp ô %(\\mathrm{B}, \\mathrm{C})% và thực hiện %(\\frac{n}{2})% lần biến đổi %((\\mathrm{T}))% (bi từ ô %(\\mathrm{B})% đưa sang %(\\mathrm{o} \\mathrm{A}, \\mathrm{bi})% từ ôC đưa sang ôD ) thì thu được trạng thái như hình 2 .<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/54615e22009094f434181f815883ff0d.png\" srcset=\"https://docdn.giainhanh.io/media/test/b619ae4e934eafef48cd4e7252a12a0f.png 96w\" width=\"96\"/><br>Hình 2<br>-Tiếp tục, ta liên tục chọn cặp ô %(\\mathrm{A}, \\mathrm{D})% cho đến khi hết bi và chuyển bi ở hai ô này sang ô %(\\mathrm{C})% thì sau cùng đưa được %(2 n)% viên bi về hết ô %(\\mathrm{C})%.<br>Vậy tập hợp tất cả các số %(n)% cần tìm là tập các số nguyên dương chẵn.",
+        "question_type": "essay"
+    }
+]

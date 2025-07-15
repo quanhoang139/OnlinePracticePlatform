@@ -1,0 +1,112 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.75,
+        "content": "Rút gọn biểu thức %(A=\\left(\\frac{a \\sqrt{a}-b \\sqrt{b}}{\\sqrt{a}-\\sqrt{b}}-\\frac{a \\sqrt{b}+b \\sqrt{a}}{\\sqrt{a}+\\sqrt{b}}\\right):(a+b))% (với %(\\left.a \\geq 0, b \\geq 0, a \\neq b\\right))%.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{aligned}A & =\\left(\\frac{(\\sqrt{a})^{3}-(\\sqrt{b})^{3}}{\\sqrt{a}-\\sqrt{b}}-\\frac{a \\sqrt{b}+b \\sqrt{a}}{\\sqrt{a}+\\sqrt{b}}\\right):(a+b) \\\\& =\\left(\\frac{(\\sqrt{a}-\\sqrt{b})(a+\\sqrt{a b}+b)}{\\sqrt{a}-\\sqrt{b}}-\\frac{\\sqrt{a b}(\\sqrt{a}+\\sqrt{b})}{\\sqrt{a}+\\sqrt{b}}\\right) \\cdot \\frac{1}{a+b} \\\\& =(a+\\sqrt{a b}+b-\\sqrt{a b}) \\cdot \\frac{1}{a+b} \\\\& =\\frac{a+b}{a+b} \\\\& =1\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(\\frac{1}{\\sqrt{x}(\\sqrt{x}+1)}+\\frac{1}{(\\sqrt{x}+1)(\\sqrt{x}+2)}=\\frac{2}{3})% (1)",
+        "question_images": [],
+        "solution": "Điều kiện: %(x\\gt 0)%<br>Ta có: %(\\frac{1}{\\sqrt{x}(\\sqrt{x}+1)}=\\frac{1}{\\sqrt{x}}-\\frac{1}{\\sqrt{x}+1})%<br>\\[\\frac{1}{(\\sqrt{x}+1)(\\sqrt{x}+2)}=\\frac{1}{\\sqrt{x}+1}-\\frac{1}{\\sqrt{x}+2}\\]<br>Do đó: (1) %(\\Leftrightarrow \\frac{1}{\\sqrt{x}}-\\frac{1}{\\sqrt{x}+2}=\\frac{2}{3})%<br>\\[\\begin{array}{l}\\Rightarrow 3(\\sqrt{x}+2)-3 \\sqrt{x}=2 \\sqrt{x}(\\sqrt{x}+2) \\\\Leftrightarrow 2(\\sqrt{x})^{2}+4 \\sqrt{x}-6=0 \\\\Leftrightarrow(\\sqrt{x})^{2}+2 \\sqrt{x}-3=0\\end{array}\\]<br>Đặt %(t=\\sqrt{x}, t>0)% ta được phương trình %(t^{2}+2 t-3=0)%<br>Vì %(a+b+c=0)% nên %(t=1)% (nhận); %(t=-3)% (loại)<br>Với %(t=1 \\Rightarrow \\sqrt{x}=1 \\Rightarrow x=1)% (thỏa điều kiện).<br>Vậy tập nghiệm của phương trình (1) là %(S=\\{1\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 0.5,
+        "content": "Tìm đa thức bậc ba %(P(x)=x^{3}+a x^{2}+b x+c)% với %(a, b, c)% là các hệ số thực. Biết %(P(x))% chia hết cho %((\\mathrm{x}-1), P(x))% chia cho %((\\mathrm{x}-2))% và %((\\mathrm{x}-3))% đều có số dư là 6 .",
+        "question_images": [],
+        "solution": "Biết:<br>%(\\begin{array}{l}P(x)=(x-1) \\cdot A(x) \\\\ P(x)=(x-2) \\cdot B(x)+6 \\\\ P(x)=(x-3) \\cdot C(x)+6\\end{array})%<br>Với %(A(x) ; B(x) ; C(x))% là các đa thức.<br>Khi %(x=1 \\Rightarrow P(1)=0 \\Rightarrow a+b+c=-1)%<br>Khi %(x=2 \\Rightarrow P(2)=6 \\Rightarrow 4 a+2 b+c=-2)%<br>Khi %(x=3 \\Rightarrow P(3)=6 \\Rightarrow 9 a+3 b+c=-21)%<br>Ta có hệ: %(\\left\\{\\begin{array}{l}a+b+c=-1 \\\\ 4 a+2 b+c=-2 \\\\ 9 a+3 b+c=-21\\end{array}\\right.)%<br>Giải hệ ta được: %(a=-9 ; b=26 ; c=-18)%<br>Vậy %(P(x)=x^{3}-9 x^{2}+26 x-18)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tìm các số nguyên %(x, y)% thỏa mãn bất đẳng thức %(5 x^{2}+3 y^{2}+4 x y-2 x+8 y+8 \\leq 0)%",
+        "question_images": [],
+        "solution": "Ta có: %(5 x^{2}+3 y^{2}+4 x y-2 x+8 y+8 \\leq 0)%<br>\\[\\begin{array}{l}\\Leftrightarrow 4 x^{2}+4 x y+y^{2}+x^{2}-2 x+1+2 y^{2}+8 y+8-1 \\leq 0 \\\\Leftrightarrow(2 x+y)^{2}+(x-1)^{2}+2(y+2)^{2} \\leq 1\\end{array}\\]<br>Vì %((2 x+y)^{2} \\in N ;(x-1)^{2} \\in N ; 2(y+2)^{2} \\in N)%<br>Nên: %((2 x+y)^{2}+(x-1)^{2}+2(y+2)^{2} \\in N)%<br>Do đó: %((2 x+y)^{2}+(x-1)^{2}+2(y+2)^{2}=0)% hoặc %((2 x+y)^{2}+(x-1)^{2}+2(y+2)^{2}=1)%i, %((2 x+y)^{2}+(x-1)^{2}+2(y+2)^{2}=0)%<br>Vì %(2(y+2)^{2})% là số chẵn nên %(2(y+2)^{2}=0 \\Leftrightarrow y=-2)% thế vào (1) ta được:<br>\\[(2 x-2)^{2}+(x-1)^{2}=0 \\Leftrightarrow 5(x-1)^{2}=0 \\Leftrightarrow x-1=0 \\Leftrightarrow x=1\\]<br>ii, %((2 x+y)^{2}+(x-1)^{2}+2(y+2)^{2}=1)%<br>Vì %(2(y+2)^{2})% là số chẵn và %(2(y+2)^{2} \\leq 1)% nên %(2(y+2)^{2}=0 \\Leftrightarrow y=-2)% thế vào (1) ta được:<br>\\[(2 x-2)^{2}+(x-1)^{2}=1 \\Leftrightarrow 5(x-1)^{2}=1 \\Leftrightarrow(x-1)^{2}=\\frac{1}{5} \\Leftrightarrow x-1= \\pm \\frac{\\sqrt{5}}{5} \\Leftrightarrow x= \\pm \\frac{\\sqrt{5}}{5}+1 \\notin Z\\]<br>Vậy: %(x=1, y=-2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho phương trình %(x^{4}-4(4 m-1) x^{2}+9 m=0 \\quad(*))% ( %(m)% là tham số thực).",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.25,
+        "content": "a) Giải phương trình khi %(m=4)%.",
+        "question_images": [],
+        "solution": "Khi %(m=4)%, ta được phương trình %(x^{4}-60 x^{2}+36=0)%<br>Đặt %(t=x^{2}, t \\geq 0)% ta được phương trình %(t^{2}-60 t+36=0)%%(\\Delta^{\\prime}=864\\gt 0)% nên phương trình (2) có hai nghiệm phân biệt:<br>\\[t_{1}=30-12 \\sqrt{6} \\text { (nhận); } t_{2}=30+12 \\sqrt{6} \\text { (nhận) }\\]<br>- Với %(t_{1}=30-12 \\sqrt{6} \\Rightarrow x^{2}=30-12 \\sqrt{6} \\Leftrightarrow x= \\pm(3 \\sqrt{2}-2 \\sqrt{3}))%<br>- Với %(t_{2}=30+12 \\sqrt{6} \\Rightarrow x^{2}=30+12 \\sqrt{6} \\Leftrightarrow x= \\pm(3 \\sqrt{2}+2 \\sqrt{3}))%<br>Vậy tập nghiệm của phương trình (1) là %(S=\\{ \\pm(3 \\sqrt{2}-2 \\sqrt{3}) ; \\pm(3 \\sqrt{2}+2 \\sqrt{3})\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Tìm %(m)% để phương trình đã cho có bốn nghiệm phân biệt %(x_{1}, x_{2}, x_{3}, x_{4})% trong đó có hai nghiệm %(x_{1}, x_{2})% thỏa mãn %(x_{1}=\\sqrt{3} x_{2})%.",
+        "question_images": [],
+        "solution": "Đặt %(t=x^{2}, t \\geq 0)% ta có phương trình %(t^{2}-4(4 m-1) t+9 m=0)% (3)<br>Để phương trình %(\\left(^{*}\\right.)% ) có bốn nghiệm phân biệt thì phương trình (3) có hai nghiệm dương phân biệt %(\\Leftrightarrow\\left\\{\\begin{array}{l}\\Delta^{\\prime}>0 \\\\ S>0 \\\\ P>0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}{[-2(4 m-1)]^{2}-9 m>0} \\\\ 4(4 m-1)>0 \\\\ 9 m>0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}64 m^{2}-41 m+4>0 \\\\ m>\\frac{1}{4}\\end{array} \\quad\\right.\\right.\\right.)% (**)<br>Vì %(x_{1}=\\sqrt{3} x_{2} \\Rightarrow x_{1}{ }^{2}=3 x_{2}{ }^{2})% nên bài toán đưa về tìm %(\\mathrm{m})% để phương trình (3) có hai nghiệm %(t_{1})%, %(t_{2})% thỏa mãn %(t_{1}=3 t_{2})%.<br>Ta có: %(t_{1}+t_{2}=4(4 m-1))% và %(t_{1} \\cdot t_{2}=9 m)% (hệ thức Vi-et)<br>Biết  %(t_{1}=3 t_{2} \\Rightarrow 3 t_{2}+t_{2}=4(4 m-1) \\Leftrightarrow 4 t_{2}=4(4 m-1) \\Leftrightarrow t_{2}=4 m-1)%<br>Do đó: %(\\quad t_{1}=3(4 m-1))%<br>Khi đó: %(3(4 m-1) .(4 m-1)=9 m \\Leftrightarrow 3(4 m-1)^{2}=9 m \\Leftrightarrow 16 m^{2}-11 m+1=0)%Giải phương trình (4) ta được:<br>%(m_{1}=\\frac{11+\\sqrt{57}}{32})% (thỏa %(\\left({ }^{* *}\\right))% )<br>%(m_{2}=\\frac{11-\\sqrt{57}}{32})% (không thỏa %(\\left({ }^{* *}\\right))% )<br>Vậy %(m=\\frac{11+\\sqrt{57}}{32})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x^{2}+2 x y^{2}=3 \\\\ y^{2}+2 x^{2} y=3\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Trừ vế theo vế của phương trình (1) cho (2) ta được: %(x^{2}-y^{2}+2 x y^{2}-2 x^{2} y=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow(x-y)(x+y)+2 x y(y-x)=0 \\\\Leftrightarrow(x-y)(x+y-2 x y)=0\\end{array}\\]<br>i) %(x-y=0 \\Leftrightarrow x=y)% thế vào (1) ta được: %(2 x^{3}+x^{2}-3=0)%<br>\\[\\Leftrightarrow(x-1)\\left(2 x^{2}+3 x+3\\right)=0\\]<br>* %(x-1=0 \\Leftrightarrow x=1 \\Rightarrow y=1)%* %(2 x^{2}+3 x+3=0)%, phương trình vô nghiệm vì %(\\Delta=-15\\lt 0)%ii) %(x+y-2 x y=0 \\Leftrightarrow x+y=2 x y)%<br>Đặt %(S=x+y ; P=x y)%, điều kiện %(S^{2}-4 P \\geq 0)%<br>Ta được: %(S=2 P)%<br>Cộng vế theo vế của phương trình (1) cho (2) ta được: %(x^{2}+y^{2}+2 x y^{2}+2 x^{2} y=6)%<br>\\[\\begin{array}{l}\\Leftrightarrow(x+y)^{2}-2 x y+2 x y(x+y)=6 \\\\Rightarrow S^{2}-2 P+2 S P=6 \\\\Leftrightarrow 4 P^{2}-2 P+4 P^{2}=6 \\\\Leftrightarrow 8 P^{2}-2 P-6=0 \\\\Leftrightarrow\\left\\{\\begin{array}{l}P=1 \\Rightarrow S=2 \\P=\\frac{-3}{4} \\Rightarrow S=\\frac{-3}{2}\\end{array}\\right. \\\\end{array}\\]<br>(nhận)* %(S=2, P=1)%.<br>Khi đó %(x, y)% là nghiệm của phương trình %(X^{2}-2 X+1=0)%<br>\\[\\Leftrightarrow(X-1)^{2}=0 \\Leftrightarrow X=1\\]<br>Vậy %(x=1, y=1)%* %(S=\\frac{-3}{2}, P=\\frac{-3}{4})%.<br>Khi đó %(x, y)% là nghiệm của phương trình %(X^{2}+\\frac{3}{2} X-\\frac{3}{4}=0)%<br>Giải phương trình ta được %(X_{1}=\\frac{-3+\\sqrt{21}}{4} ; X_{2}=\\frac{-3-\\sqrt{21}}{4})%<br>Vậy  %(x=\\frac{-3+\\sqrt{21}}{4} ; y=\\frac{-3-\\sqrt{21}}{4})% hoặc %(x=\\frac{-3-\\sqrt{21}}{4} ; y=\\frac{-3+\\sqrt{21}}{4})%<br>Nghiệm của hệ phương trình:<br>\\[(x, y) \\in\\left\\{(1 ; 1) ;\\left(\\frac{-3+\\sqrt{21}}{4} ; y=\\frac{-3-\\sqrt{21}}{4}\\right) ;\\left(\\frac{-3-\\sqrt{21}}{4} ; y=\\frac{-3+\\sqrt{21}}{4}\\right)\\right\\} .\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 0.75,
+        "content": "Trong 2021 số nguyên dương đầu tiên, có bao nhiêu số không chia hết cho 7 và không chia hết cho 11 ?",
+        "question_images": [],
+        "solution": "Trong các số nguyên dương từ 1 đến 2021 các số chia hết cho 7 là:<br>\\[7 ; 14 ; 21 ; \\ldots ; 2016\\]<br>Do đó số các số chia hết cho 7 là: %((2016-7): 7+1=288)% (số)<br>Trong các số nguyên dương từ 1 đến 2021 các số chia hết cho 11 là:%(11 ; 22 ; 33 ; \\ldots ; 2013)%<br>Do đó số các số chia hết cho 11 là: %((2013)%-11) : %(11+1=183)% (số)<br>Các số chia hết cho 7 và 11 là các số chia hết cho %(7.11=77()% do %((7 ; 11)=1))%<br>Trong các số nguyên dương từ 1 đến 2021 các số chia hết cho 77 là%(77 ; 154 ; \\ldots ; 2002)%<br>Do đó số các số chia hết cho 77 là: (2002 -77) : %(77+1=26)% (số)<br>Số các số chia hết cho 7 hoặc chia hết cho 11 là: %(288+183-26=445)% (số)<br>Vậy trong 2021 số nguyên dương đầu tiên, số các số không chia hết cho 7 và không chia hết cho 11 là %(2021-445=1576)% (số)",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho %(\\triangle A B C)% có ba góc nhọn nội tiếp đường tròn %((O)(C A\\gt C B))%. Ba đường cao %(A D, B E, C F)% cắt nhau tại %(H)%. %(A D)% và %(B E)% cắt %((O))% lần lượt tại %(M)% và %(N)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Chứng minh tứ giác %(A B D E)% nội tiếp, xác định tâm %(I)% của đường tròn ngoại tiếp tứ giác %(A B D E)% và chứng minh %(M N / / D E)%.",
+        "question_images": [],
+        "solution": "Ta có %(\\widehat{A E B}=\\widehat{A D B}=90^{\\circ})% (AD và %(\\mathrm{BE})% là hai đường cao)<br>Và hai đỉnh %(\\mathrm{D}, \\mathrm{E})% là hai đỉnh kề của tứ giác %(\\mathrm{ABDE})%<br>Nên tứ giác %(\\mathrm{ABDE})% nội tiếp.<br>%(\\triangle \\mathrm{ABE})% vuông tai %(\\mathrm{E})% nền tâm %(\\mathrm{I})% của đường tròn ngoại tiếp tứ giác %(\\mathrm{ABDE})% là trung điểm của cạnh %(\\mathrm{AB})%.<br>\\[\\begin{array}{l}\\widehat{A B E}=\\widehat{A D E}(\\text { góc nội tiếp chắn } \\overparen{A E}) \\\\widehat{A B E}=\\widehat{A M N} \\text { (góc nội tiếp chắn } \\overparen{M N} \\text { ) }\\end{array}\\]<br>Do đó %(\\widehat{A D E}=\\widehat{A M N})% mà hai góc này đồng vị nên %(\\mathrm{MN} / / \\mathrm{DE})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5ed89477e0ac5016e0ac6fecaf83a3e3.png\" srcset=\"https://docdn.giainhanh.io/media/test/3f1549693ffd203ed3a42f07657f4323.png 157w, https://docdn.giainhanh.io/media/test/c1daf64ebe00385329eba387e1e55011.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Chứng minh %(A E . A C . C E=C D . A B . E F)%",
+        "question_images": [],
+        "solution": "%(\\triangle \\mathrm{CDE})% và %(\\triangle \\mathrm{CAB})% có %(\\widehat{D C E}=\\widehat{A C B})% (góc chung) và %(\\widehat{C D E}=\\widehat{B A C})% (cùng bù với %(\\widehat{B D E})% )<br>Nên %(\\triangle \\mathrm{CDE} \\sim \\triangle \\mathrm{CAB}(\\mathrm{g} . \\mathrm{g}))% nên %(\\frac{C D}{C A}=\\frac{C E}{C B} \\Rightarrow B C=\\frac{C A \\cdot C E}{C D})% (1)<br>Tương tự ta có %(\\triangle \\mathrm{AEF} \\sim \\triangle \\mathrm{ABC})% (g.g) nên %(\\frac{A E}{A B}=\\frac{E F}{B C} \\Rightarrow B C=\\frac{A B \\cdot E F}{A E})% (2)<br>Từ (1) và (2) suy ra: %(\\frac{C A \\cdot C E}{C D}=\\frac{A B \\cdot E F}{A E} \\Rightarrow C A \\cdot C E \\cdot A E=A B \\cdot C D \\cdot E F)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Gọi %(K)% là trung điểm của %(H C)%. Chứng minh %(I H K O)% là hình bình hành.",
+        "question_images": [],
+        "solution": "Kẻ đường kính %(\\mathrm{CJ})% ta có:%(\\mathrm{JA} / / \\mathrm{BH})% (cùng vuông góc với %(\\mathrm{AC})% )%(\\mathrm{JB} / / \\mathrm{AH})% (cùng vuông góc với %(\\mathrm{BC})% )<br>Do đó Tứ giác %(\\mathrm{AHBJ})% là hình bình hành<br>Mà %(\\mathrm{I})% là trung điểm của %(\\mathrm{AB})% nên %(\\mathrm{I})% là trung điểm của %(\\mathrm{JH})%<br>Ta lại có %(\\mathrm{O})% là trung điểm của %(\\mathrm{JC})% nên %(\\mathrm{IO})% là đường trung bình của %(\\triangle \\mathrm{JHC})% nên %(\\mathrm{IO} / / \\mathrm{HC})% và %(I O=\\frac{H C}{2})% mà %(\\mathrm{K})% là trung điểm của %(\\mathrm{HC})%<br>Do đó %(\\mathrm{IO} / / \\mathrm{HK})% và %(I O=H K=\\frac{H C}{2})%<br>Suy ra IHKO là hình bình hành.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0e1281fed5ae682de4bbcfae7522be02.png\" srcset=\"https://docdn.giainhanh.io/media/test/079d9782f12565e083a71ee5fc6edee8.png 152w, https://docdn.giainhanh.io/media/test/ea12f728ffe2dd8fb62568ce9c910123.png 486w\" width=\"486\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 0.75,
+        "content": "Cho ba số thực dương %(a, b, c)%. Chứng minh: %(\\frac{a+b}{\\sqrt{c}}+\\frac{b+c}{\\sqrt{a}}+\\frac{c+a}{\\sqrt{b}} \\geq 2(\\sqrt{a}+\\sqrt{b}+\\sqrt{c}))%",
+        "question_images": [],
+        "solution": "Đặt %(\\mathrm{x}=\\sqrt{a} ; \\mathrm{y}=\\sqrt{b} ; \\mathrm{z}=\\sqrt{c})% suy ra %(\\mathrm{x}^{2}=\\mathrm{a} ; \\mathrm{y}^{2}=\\mathrm{b} ; \\mathrm{z}^{2}=\\mathrm{c}(\\mathrm{x} ; \\mathrm{y} ; \\mathrm{z}\\gt 0))%<br>Khi đó ta cần chứng minh %(\\frac{x^{2}+y^{2}}{z}+\\frac{y^{2}+z^{2}}{x}+\\frac{z^{2}+x^{2}}{y} \\geq 2(x+y+z))%<br>Ta có: %(\\frac{x^{2}+y^{2}}{z}+\\frac{y^{2}+z^{2}}{x}+\\frac{z^{2}+x^{2}}{y}=\\frac{x^{2}}{z}+\\frac{y^{2}}{z}+\\frac{y^{2}}{x}+\\frac{z^{2}}{x}+\\frac{z^{2}}{y}+\\frac{x^{2}}{y})%<br>\\[=\\left(\\frac{x^{2}}{z}+\\frac{z^{2}}{x}\\right)+\\left(\\frac{y^{2}}{z}+\\frac{z^{2}}{y}\\right)+\\left(\\frac{y^{2}}{x}+\\frac{x^{2}}{y}\\right)=\\frac{x^{3}+z^{3}}{x z}+\\frac{y^{3}+z^{3}}{y z}+\\frac{y^{3}+x^{3}}{x z}\\]<br>Ta chứng minh %(x^{3}+z^{3} \\geq x z(x+z)(1))%<br>Thật vậy ta có:<br>\\[(x-z)^{2}(x+z) \\geq 0 \\Leftrightarrow\\left(x^{2}-z^{2}\\right)(x-z) \\geq 0 \\Leftrightarrow x^{3}+z^{3}-x^{2} z-x z^{2} \\geq 0 \\Leftrightarrow x^{3}+z^{3} \\geq x z(x+z)\\]<br>Áp dụng (1) ta có:<br>\\[\\frac{x^{3}+z^{3}}{x z}+\\frac{y^{3}+z^{3}}{y z}+\\frac{y^{3}+x^{3}}{x z} \\geq \\frac{x z(x+z)}{x z}+\\frac{y z(y+z)}{y z}+\\frac{x y(x+y)}{x y}=2(x+y+z)\\]<br>Dấu \" %(=)% \" xảy ra khi %(\\mathrm{x}=\\mathrm{y}=\\mathrm{z})%Vậy %(\\frac{a+b}{\\sqrt{c}}+\\frac{b+c}{\\sqrt{a}}+\\frac{c+a}{\\sqrt{b}} \\geq 2(\\sqrt{a}+\\sqrt{b}+\\sqrt{c}))% khi %(\\mathrm{a}=\\mathrm{b}=\\mathrm{c})%",
+        "question_type": "essay"
+    }
+]

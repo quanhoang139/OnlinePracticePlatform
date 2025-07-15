@@ -1,0 +1,208 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.25,
+        "content": "Bạn Hà có 5 bông hoa hồng khác nhau, 4 bông hoa cúc khác nhau, 3 bông hoa lan khác nhau. Hỏi bạn Hà có bao nhiêu cách chọn một bông hoa?",
+        "question_images": [],
+        "labelA": "12.",
+        "labelB": "5.",
+        "labelC": "4.",
+        "labelD": "3.",
+        "correct_label": "labelA",
+        "solution": "Áp dụng quy tắc cộng ta có: %(5+4+3=12)%.<br>Vậy bạn Hà có 12 cách chọn một bông hoa.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "2 ",
+        "point": 0.25,
+        "content": "Xếp 6 người A, B, C, D, E, F vào một ghế dài. Hỏi có bao nhiêu cách sắp xếp sao cho A và F ngồi ở hai đầu ghế.",
+        "question_images": [],
+        "labelA": "48.",
+        "labelB": "42.",
+        "labelC": "46.",
+        "labelD": "50.",
+        "correct_label": "labelA",
+        "solution": "Số cách xếp %(\\mathrm{A}, \\mathrm{F}: 2!=2)%.<br>Số cách xếp %(B, C, D, E: 4!=24)%.<br>Số cách xếp thỏa yêu cầu bài toán: %(2 \\cdot 24=48)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "3 ",
+        "point": 0.25,
+        "content": "Từ một hộp chứa 11 quả cầu màu đỏ và 4 quả cầu màu xanh, lấy ngẫu nhiên đồng thời 3 quả cầu. Xác suất để lấy được 3 quả cầu màu xanh bằng",
+        "question_images": [],
+        "labelA": "%(\\frac{4}{165})%",
+        "labelB": "%(\\frac{4}{455})%",
+        "labelC": "%(\\frac{33}{91})%",
+        "labelD": "%(\\frac{24}{455})%",
+        "correct_label": "labelB",
+        "solution": "Ta có số phần tử của không gian mẫu là: %(n(\\Omega)=C_{15}^{3}=455)%.<br>Gọi %(A)% là biến cố \"lấy được 3 quả cầu màu xanh\".<br>Khi đó %(n(A)=C_{4}^{3}=4)%.<br>Vậy xác suất để lấy được 3 quả cầu màu xanh là %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{4}{455})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "4 ",
+        "point": 0.25,
+        "content": "Một chiếc hộp có 9 thẻ được đánh số từ 1 đến 9. Rút ngẫu nhiên hai thẻ rồi nhân hai số ghi trên hai thẻ với nhau. Tính xác suất để kết quả nhận được là số chẵn.",
+        "question_images": [],
+        "labelA": "%(\\frac{13}{18})%",
+        "labelB": "%(\\frac{8}{9})%",
+        "labelC": "%(\\frac{4}{9})%",
+        "labelD": "%(\\frac{5}{54})%",
+        "correct_label": "labelA",
+        "solution": "Rút ngẫu nhiên 2 thẻ trong 9 thẻ, số phần tử của không gian mẫu là: %(n(\\Omega)=C_{9}^{2}=36)%.<br>Để tích nhận được là số lẻ thì phải rút được 2 thẻ đánh số lẻ trong số 5 thẻ đánh số lẻ.<br>Số cách rút là: %(C_{5}^{2}=10)%.<br>Vậy để tích nhận được là số chẵn thì số cách rút là: %(36-10=26)%.<br>Gọi %(A)% là biến cố \"Tích hai số ghi trên hai thẻ là số chẵn\".<br>Khi đó %(n(A)=26)%.<br>Xác suất của biến cố %(A)% cần tính là: %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{26}{36}=\\frac{13}{18})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "5 ",
+        "point": 0.25,
+        "content": "Khi đo chiều dài của một chiếc bàn học sinh, bạn Nam đo được số liệu là %(2 m \\pm 0,001 m)%. Khẳng định nào sau đây <strong>sai</strong>?",
+        "question_images": [],
+        "labelA": "%(2 m)% là số gần đúng.",
+        "labelB": "Gọi %(\\bar{a})% là số đúng chiều dài của bàn, khi đó %(\\bar{a})% thuộc đoạn %([1,999 ; 2,001])%.",
+        "labelC": "Sai số tương đối là 0,0005.",
+        "labelD": "Độ chính xác của phép đo là 0,0005.",
+        "correct_label": "labelD",
+        "solution": "Độ chính xác của phép đo là %(0,001 m)%.<br>Sai số tương đối là %(\\frac{0,001}{2}=0,0005)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "6 ",
+        "point": 0.25,
+        "content": "Cho hyperbol %((H): \\frac{x^{2}}{25}-\\frac{y^{2}}{16}=1)%. Tiêu cự của %((H))% bằng",
+        "question_images": [],
+        "labelA": "3.",
+        "labelB": "%(\\sqrt{41})%",
+        "labelC": "%(2 \\sqrt{41})%",
+        "labelD": "9.",
+        "correct_label": "labelC",
+        "solution": "Theo đề ta có %(\\left\\{\\begin{array}{l}a^{2}=25 \\\\ b^{2}=16\\end{array} \\Rightarrow c=\\sqrt{a^{2}+b^{2}}=\\sqrt{41}\\right.)%<br>Vậy tiêu cự của hyperbol là %(2 c=2 \\sqrt{41})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "7 ",
+        "point": 0.25,
+        "content": "Có bao nhiêu giá trị nguyên của tham số %(m)% để phương trình %(x^{2}+y^{2}+6 x-2 y+m^{2}-7 m+20=0)% là phương trình của một đường tròn?",
+        "question_images": [],
+        "labelA": "3.",
+        "labelB": "2.",
+        "labelC": "5.",
+        "labelD": "Vô số.",
+        "correct_label": "labelB",
+        "solution": "Ta có: %(a=-3, b=1, c=m^{2}-7 m+20)%.<br>Phương trình đã cho là phương trình của một đường tròn<br>%(\\Leftrightarrow a^{2}+b^{2}-c\\gt 0 \\Leftrightarrow 10-m^{2}+7 m-20>0 \\Leftrightarrow-m^{2}+7 m-10>0 \\Leftrightarrow 2\\lt m\\lt 5)%<br>Vậy có 2 số nguyên thỏa yêu cầu là %(m=3, m=4)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "8 ",
+        "point": 0.25,
+        "content": "Cho hình bình hành %(A B C D)% có %(A(-2 ; 0) ; B(0 ;-1), C(4 ; 4))%. Toạ độ đỉnh %(D)% là:",
+        "question_images": [],
+        "labelA": "%(D(2 ; 3))%",
+        "labelB": "%(D(6 ; 3))%",
+        "labelC": "%(D(6 ; 5))%",
+        "labelD": "%(D(2 ; 5))%",
+        "correct_label": "labelA",
+        "solution": "Gọi %(D(x, y))% là điểm cần tìm.<br>Ta có : %(\\overrightarrow{A B}=(2 ;-1), \\overrightarrow{D C}=(4-x ; 4-y))%<br>Để %(A B C D)% là hình bình hành %(\\Leftrightarrow \\overrightarrow{A B}=\\overrightarrow{D C} \\Leftrightarrow\\left\\{\\begin{array}{c}4-x=2 \\\\ 4-y=-1\\end{array} \\Rightarrow D(2 ; 5)\\right.)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "9 ",
+        "point": 0.25,
+        "content": "Cho các hệ bất phương trình dưới đây. Hệ bất phương trình bậc nhất hai ẩn là",
+        "question_images": [],
+        "labelA": "%(\\left\\{\\begin{array}{l}x-4 x^{2} \\geq 1 \\\\ x-y \\leq 1\\end{array}\\right.)%",
+        "labelB": "%(\\left\\{\\begin{array}{l}x(x-4) \\geq 0 \\\\ x+3 y-1\\gt 0\\end{array}\\right.)%",
+        "labelC": "%(\\left\\{\\begin{array}{l}-2 x-y-4\\lt 0 \\\\ 3 x-3 y=1\\end{array}\\right.)%",
+        "labelD": "%(\\left\\{\\begin{array}{l}x+3 y \\geq 0 \\\\ -x+4 y-3 \\geq 0\\end{array}\\right.)%",
+        "correct_label": "labelD",
+        "solution": "Chọn đáp án D ( theo định nghĩa).",
+        "question_type": "quiz"
+    },
+    {
+        "title": "10 ",
+        "point": 0.25,
+        "content": "Cho %(A)% là tập hợp các số tự nhiên lớn hơn 2. Chọn khẳng định sai.",
+        "question_images": [],
+        "labelA": "%(3 \\in A)%",
+        "labelB": "%(\\{2 ; 3\\} \\subset A)%",
+        "labelC": "%(\\{4\\} \\subset A)%",
+        "labelD": "%(1 \\notin A)%",
+        "correct_label": "labelB",
+        "solution": "vì %(2 \\notin A)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "11 ",
+        "point": 0.25,
+        "content": "Cho tam giác %(A B C)% có %(A B=3, A C=5)% và %(B A C=60^{\\circ})%. Độ dài của cạnh %(B C)% bằng",
+        "question_images": [],
+        "labelA": "%(\\sqrt{7})%.",
+        "labelB": "7.",
+        "labelC": "%(\\sqrt{19})%.",
+        "labelD": "19.",
+        "correct_label": "labelC",
+        "solution": "Áp dụng định lý Cosin trong tam giác %(A B C)% ta có:<br>\\[B C^{2}=A B^{2}+A C^{2}-2 A B \\cdot A C \\cdot \\cos A=3^{2}+5^{2}-2 \\cdot 3 \\cdot 5 \\cdot \\cos 60^{\\circ}=19 \\Rightarrow B C=\\sqrt{19} .\\]",
+        "question_type": "quiz"
+    },
+    {
+        "title": "12 ",
+        "point": 0.25,
+        "content": "Trong các hàm số sau, hàm số nào đồng biến trên %((2 ;+\\infty))%?",
+        "question_images": [],
+        "labelA": "%(y=-x+1)%",
+        "labelB": "%(y=x^{2}-3 x+2)%",
+        "labelC": "%(y=\\frac{-1}{2} x+2024)%",
+        "labelD": "%(y=2-x^{2})%",
+        "correct_label": "labelB",
+        "solution": "Đáp án A và C là hàm số bậc nhất có hệ số %(a\\lt 0)% nên hàm số luôn nghịch biến trên %(\\mathbb{R})%.<br>Xét đáp ánB. Hàm số bậc hai có hệ số %(a\\gt 0)%; trục đối xứng %(x=\\frac{3}{2})% nên hàm số đồng biến trên %(\\left(\\frac{3}{2} ;+\\infty\\right))%.<br>Suy ra hàm số đồng biến trên %((2 ;+\\infty))%.<br>Xét đáp ánD. Hàm số bậc hai có hệ số %(a\\lt 0)%; trục đối xứng %(x=0)% nên hàm số đồng biến trên %((-\\infty ; 0))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "17 ",
+        "point": 0.5,
+        "content": "Cho tập hợp %(A=\\{1,2,3,4,5\\})%. Hỏi tập %(A)% có bao nhiêu tập hợp con?",
+        "question_images": [],
+        "solution": "Số tập con không có phần tử nào của %(A)% là: %(C_{5}^{0})%.<br>Số tập con có 1 phần tử, 2 phần tử, 3 phần tử, 4 phần tử, 5 phần tử của %(A)% lần lượt là: %(C_{5}^{1}, C_{5}^{2}, C_{5}^{3}, C_{5}^{4}, C_{5}^{5})%.<br>Suy ra: tổng số tập con của %(A)% là: %(C_{5}^{0}+C_{5}^{1}+C_{5}^{2}+C_{5}^{3}+C_{5}^{4}+C_{5}^{5}=T)%.<br>Theo khai triển của nhị thức Newtơn, ta có:<br>%((1+x)^{5}=C_{5}^{0}+C_{5}^{1} x+C_{5}^{2} x^{2}+C_{5}^{3} x^{3}+C_{5}^{4} x^{4}+C_{5}^{5} x^{5} .)%<br>Thay %(x=1)%, ta được: %((1+1)^{5}=C_{5}^{0}+C_{5}^{1}+C_{5}^{2}+C_{5}^{3}+C_{5}^{4}+C_{5}^{5})%.<br>Hay %(T=2^{5})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "18 ",
+        "point": 0.5,
+        "content": "Trong quá trình thống kê số điểm của 12 bạn lớp 10A1, ta được số liệu trong bảng như sau:<br>Tìm tứ phân vị thứ nhất",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/627252ca6992871b748f80aa56353c3a.png"
+        ],
+        "solution": "Xếp lại thứ tự bảng dữ liệu ta có:<br>%(Q_{1}=\\frac{4+5}{2}=4,5)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1d79e93e43ea04d5098a6cbc241b3d4d.png\" srcset=\"https://docdn.giainhanh.io/media/test/0f9716c02d47b38c368380f182284e21.png 245w, https://docdn.giainhanh.io/media/test/63d4eaced0a99ebb90b693b1f47cc63b.png 500w, https://docdn.giainhanh.io/media/test/49ace7af73d88b3817972593a9f4a738.png 750w, https://docdn.giainhanh.io/media/test/3d6ad0dbe41c7798ddd3bf5ec5e4e2aa.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "19 ",
+        "point": 0.5,
+        "content": "Khối lớp 10 của trường THPT X có 5 lớp. Có 6 bạn cùng xin được chuyển về trường X trong dịp đầu học kỳ 2 , mỗi em sẽ được xếp ngẫu nhiên vào 1 trong 5 lớp đó. Tính xác suất để có một lớp học có 4 em học sinh. Kết quả làm tròn đến 2 chữ số sau dấu phẩy.",
+        "question_images": [],
+        "solution": "Số phần tử của không gian mẫu là: %(n(\\Omega)=5^{6}=15625)%.<br>Gọi %(A)% là biến cố \"có một lớp học có 4 em học sinh\".<br>Khi đó, ta có:<br>* Chọn 4 học sinh xếp vào một trong năm lớp học, có %(C_{6}^{4} .5)% cách.<br>* Xếp hai học sinh còn lại vào bốn lớp học còn lại, có %(4^{2}=16)% cách.<br>Suy ra số phần tử thuận lợi cho biến cố %(A)% là : %(n(A)=C_{6}^{4} \\cdot 5 \\cdot 16=1200)% cách.<br>Vậy xác suất của biến cố %(A)% là : %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{1200}{15625}=\\frac{48}{625}=0.384 \\approx 0.38)%.<br>Trong mặt phẳng tọa độ %(O x y)%, cho hai điểm %(B(0 ; 1))% và %(C(3 ; 0))%.<br>Đường phân giác trong góc %(A)% của tam giác %(A B C)% cắt trục %(O y)% tại điểm %(M\\left(0 ;-\\frac{7}{3}\\right))% và chia tam giác %(A B C)% thành hai phần có tỉ số diện tích bằng %(\\frac{10}{11})% (phần chứa điểm %(B)% có diện tích nhỏ hơn diện tích phần chứa điểm %(C)%).<br>Gọi %(A(a ; b))% và %(a\\lt 0)%. Tính %(T=9 a^{2}+18 b^{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "20 ",
+        "point": 0.5,
+        "content": "Trong mặt phẳng tọa độ %(O x y)%, cho hai điểm %(B(0 ; 1))% và %(C(3 ; 0))%. Đường phân giác trong góc %(A)% của tam giác %(A B C)% cắt trục %(O y)% tại điểm %(M\\left(0 ;-\\frac{7}{3}\\right))% và chia tam giác %(A B C)% thành hai phần có tỉ số diện tích bằng %(\\frac{10}{11})% (phần chứa điểm %(B)% có diện tích nhỏ hơn diện tích phần chứa điểm %(C)% ). Gọi %(A(a ; b))% và %(a\\lt 0)%. Tính %(T=9 a^{2}+18 b^{2})%.",
+        "question_images": [],
+        "solution": "Gọi %(D(x ; y))% là chân đường phân giác trong góc %(A)% của tam giác %(A B C)%.<br>Ta có: %(\\frac{S_{\\triangle A B D}}{S_{\\triangle A D C}}=\\frac{\\frac{1}{2} d(A, B C) \\cdot D B}{\\frac{1}{2} d(A, B C) \\cdot D C}=\\frac{10}{11})%.<br>%(\\Rightarrow \\frac{D B}{D C}=\\frac{10}{11} \\Rightarrow \\overrightarrow{D B}=-\\frac{10}{11} \\overrightarrow{D C})% với %(\\overrightarrow{D B}=(-x ; 1-y), \\overrightarrow{D C}=(3-x ;-y))%<br>%(\\Leftrightarrow\\left\\{\\begin{array}{l}-x=-\\frac{10}{11}(3-x) \\\\ 1-y=-\\frac{10}{11}(-y)\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=\\frac{10}{7} \\\\ y=\\frac{11}{21}\\end{array} \\Rightarrow D\\left(\\frac{10}{7} ; \\frac{11}{21}\\right)\\right.\\right.)%<br>Đường thẳng %(A D)% đi qua %(D\\left(\\frac{10}{7} ; \\frac{11}{21}\\right))% và %(M\\left(0 ;-\\frac{7}{3}\\right))% có phương trình %(6 x-3 y-7=0)%.<br>Có %(A \\in A D \\Rightarrow A\\left(a ; 2 a-\\frac{7}{3}\\right) \\Rightarrow \\overrightarrow{B A}=\\left(a ; 2 a-\\frac{7}{3}-1\\right), \\overrightarrow{C A}=\\left(3-a ; 2 a-\\frac{7}{3}\\right))%.<br>Mà %(\\frac{D B}{D C}=\\frac{A B}{A C} \\Rightarrow \\frac{A B^{2}}{A C^{2}}=\\frac{10^{2}}{11^{2}} \\Leftrightarrow \\frac{a^{2}+\\left(2 a-\\frac{7}{3}-1\\right)^{2}}{(3-a)^{2}+\\left(2 a-\\frac{7}{3}\\right)^{2}}=\\frac{100}{121})%<br>%(\\Leftrightarrow 105 a^{2}-80 a-100=0 \\Leftrightarrow\\left[\\begin{array}{l}a=\\frac{10}{7}(l) \\\\ a=-\\frac{2}{3}\\end{array} \\Rightarrow b=-\\frac{11}{3}\\right.)%.<br>Vậy %(T=9 a^{2}+18 b^{2}=246)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/65323808bb928bec1dcc641d3e822c1c.png\" srcset=\"https://docdn.giainhanh.io/media/test/a30393601666034aab9cd9193618a4a9.png 121w\" width=\"121\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "21 ",
+        "point": 0.5,
+        "content": "Cho hình thang vuông %(A B C D)% tại %(A, D)% có %(A B / / C D, B C=C D=4 \\mathrm{~cm})% và %(2 \\overrightarrow{C B}+2 \\overrightarrow{A C}+\\overrightarrow{C D}=\\overrightarrow{0})%. Góc %(A C B)% bằng bao nhiêu độ?",
+        "question_images": [],
+        "solution": "Ta có: %(2 \\overrightarrow{C B}+2 \\overrightarrow{A C}+\\overrightarrow{C D}=\\overrightarrow{0} \\Leftrightarrow 2 \\overrightarrow{C B}-2 \\overrightarrow{C A}=\\overrightarrow{D C} \\Leftrightarrow \\overrightarrow{D C}=2 \\overrightarrow{A B})%<br>%(\\Rightarrow D C=2 A B)%.<br>Kẻ %(B E \\perp D C)% tại %(E)%.<br>Có tứ giác %(A B E D)% là hình chữ nhật %(\\Rightarrow D E=A B=\\frac{C D}{2})%.<br>%(\\Rightarrow E)% là trung điểm của %(C D)%.<br>%(\\Rightarrow B E=\\sqrt{B C^{2}-E C^{2}}=2 \\sqrt{3} \\text {. })%<br>Có: %(A C=\\sqrt{A D^{2}+D C^{2}}=\\sqrt{B E^{2}+D C^{2}}=2 \\sqrt{7})%.<br>Có: %(\\cos A C B=\\frac{A C^{2}+B C^{2}-A B^{2}}{2 A C \\cdot B C})%<br>%(\\begin{array}{l}=\\frac{(2 \\sqrt{7})^{2}+4^{2}-2^{2}}{2.2 \\sqrt{7} .4}=\\frac{5 \\sqrt{7}}{14} . \\\\Rightarrow A C B \\approx 19^{\\circ} .\\end{array})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/378a936589329f2cbc60f466ed7772ef.png\" srcset=\"https://docdn.giainhanh.io/media/test/c502bdd2660d8206005839f47373f5e0.png 165w\" width=\"165\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "22 ",
+        "point": 0.5,
+        "content": "Một cửa hàng nhân dịp lễ 30/4 đã đồng loạt giảm giá các sản phẩm. Trong đó có chương trình nếu mua một gói kẹo thứ hai trở đi sẽ được giảm %(10 \\%)% so với giá ban đầu. Biết giá gói đầu là 60000 đồng. Bạn An có 500000 đồng. Hỏi bạn An có thể mua tối đa bao nhiêu gói kẹo?",
+        "question_images": [],
+        "solution": "Xét một người mua %(x)% gói kẹo ( %(x)% nguyên dương). Khi đó: Gói thứ nhất người đó trả 60000 đồng.<br>Số gói kẹo còn lại là %(x-1)% và người đó chỉ phải trả<br>%(60000-10 \\% 60000=54000)% đồng (mỗi gói).<br>Vậy số tiền phải trả khi mua kẹo được tính theo công thức %(y=60000+(x-1) \\cdot 54000=54000 x+6000)%.<br>Số tiền bạn An dùng mua kẹo phải không quá 500000 đồng, suy ra:<br>%(54000 x+6000 \\leq 500000 \\Rightarrow x \\leq \\frac{247}{27} \\approx 9,148)%.<br>Vậy, với số tiền hiện có, bạn An chỉ có thể mua được tối đa 9 gói kẹo.",
+        "question_type": "essay"
+    }
+]

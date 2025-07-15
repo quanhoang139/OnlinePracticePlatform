@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biều thức %(A=\\frac{3 x+3}{x^{3}+x^{2}+x+1})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Rút gọn %(A)%. Tìm %(x)% để %(A)% nhận giá trị nguyên.",
+        "question_images": [],
+        "solution": "Điều kiện xác định: %(x^{3}+x^{2}+x+1 \\neq 0 \\Leftrightarrow(x+1)\\left(x^{2}+1\\right) \\neq 0 \\Leftrightarrow x+1 \\neq 0 \\Leftrightarrow x \\neq-1)%<br>\\[A=\\frac{3 x+3}{x^{3}+x^{2}+x+1}=\\frac{3(x+1)}{(x+1)\\left(x^{2}+1\\right)}=\\frac{3}{x^{2}+1}\\]<br>Vì %(x^{2}+1 \\geq 1)% nên %(0\\lt A=\\frac{3}{x^{2}+1} \\leq 3)%. Do đó %(A \\in Z \\Leftrightarrow A \\in\\{1 ; 2 ; 3\\})%<br>%(A=1 \\Leftrightarrow \\frac{3}{x^{2}+1}=1 \\Leftrightarrow x^{2}=2 \\Leftrightarrow x= \\pm \\sqrt{2}(\\mathrm{tm}))%%(A=2 \\Leftrightarrow \\frac{3}{x^{2}+1}=2 \\Leftrightarrow x^{2}=\\frac{1}{2} \\Leftrightarrow x= \\pm \\sqrt{\\frac{1}{2}}(\\mathrm{tm}))%%(A=3 \\Leftrightarrow \\frac{3}{x^{2}+1}=3 \\Leftrightarrow x^{2}=0 \\Leftrightarrow x=0(\\mathrm{tm}))%<br>Vậy các giá trị cần tìm %(x \\in\\left\\{ \\pm \\sqrt{2} ; 0 ; \\pm \\sqrt{\\frac{1}{2}}\\right\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Tìm giá trị lớn nhất của %(A)%.",
+        "question_images": [],
+        "solution": "Với nhận xét ở trên %(A \\leq 3)% và %(A=3 \\Leftrightarrow x=0(\\mathrm{tm}))%. Do đó %(A_{\\max }=3)% khi %(x=0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho %(f(x)=a x^{2}+b x+c)% với %(a, b, c)% là các số thỏa mãn: %(13 a+b+2 c=0)%. Chứng tỏ rằng: %(f(-2) \\cdot f(3) \\leq 0)%",
+        "question_images": [],
+        "solution": "Ta có %(f(-2)=4 a-2 b+c)%<br>\\[\\begin{array}{c}f(3)=9 a+3 b+c \\\\Rightarrow f(-2)+f(3)=13 a+b+2 c=0\\end{array}\\]<br>Do đó: %(f(-2)=-f(3) \\Rightarrow f(-2) \\cdot f(3) \\leq 0(d p c m))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Cho %(M=\\left(n^{2}+2 n+5\\right)^{3}-(n+1)^{2}+2018)%. Chứng minh rằng %(M)% chia hết cho 6 với mọi số tự nhiên %(n)%.",
+        "question_images": [],
+        "solution": "<img/><img/>Ta có %(x^{3}-x: 6(x \\in N))%. Khi đó :<br>%(\\begin{aligned} M & =\\left[\\left(n^{2}+2 n+5\\right)^{3}-\\left(n^{2}+2 n+5\\right)\\right]+n^{2}+2 n+5-(n+1)^{2}+2018 \\\\ & =\\left[\\left(n^{2}+2 n+5\\right)^{3}-\\left(n^{2}+2 n+5\\right)\\right]+2022\\end{aligned})%<br>Áp dụng kết quả trên ta có : %(\\left.:\\left(n^{2}+2 n+5\\right)^{3}-\\left(n^{2}+2 n+5\\right)\\right] \\vdots 6)% mà %(2022 \\vdots 6)% nên %(M: 6)%<br><img/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Tìm giá trị trị nhỏ nhất của biểu thức: %(N=a^{4}-2 a^{3}+3 a^{2}+4 a+5)%.",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} N & =a^{4}-2 a^{3}+3 a^{2}-4 a+5 \\\\ & =\\left(a^{4}-2 a^{3}+a^{2}\\right)+2\\left(a^{2}-2 a+1\\right)+3 \\\\ & =\\left(a^{2}-a\\right)^{2}+2(a-1)^{2}+3 \\geq 3\\end{aligned})%<br>Đẳng thức xảy ra khi và chi khi %(\\left\\{\\begin{array}{l}a^{2}-a=0 \\\\ a-1=0\\end{array} \\Leftrightarrow a=1\\right.)%<br>Vậy %(N_{\\min }=3)% khi %(\\mathrm{a}=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho %(a)% và %(b)% là các số tự nhiên thoả mãn %(2 a^{2}+a=3 b^{2}+b)% Chứng minh rằng: %(a-b)% và %(2 a+2 b+1)% là các số chính phương.",
+        "question_images": [],
+        "solution": "\\[2 a^{2}+a=3 b^{2}+b \\Leftrightarrow\\left(2 a^{2}-2 b^{2}\\right)+(a-b)=b^{2} \\Leftrightarrow(a-b)(2 a+2 b+1)=b^{2}\\]<br>%(\\operatorname{Goi}(a-b ; 2 a+2 b+1)=d)%.Khi đó: %(\\quad b^{2}=(a-b)(2 a+2 b+1) \\vdots d^{2} \\Rightarrow b \\vdots d)%Mà %(a-b \\vdots d \\Rightarrow a \\vdots d \\Rightarrow 2 a+2 b \\vdots d \\Rightarrow(2 a+2 b+1)-(2 a+2 b) \\vdots d \\Rightarrow 1 \\vdots d \\Rightarrow d=1)%<br>Như vậy: %((a-b ; 2 a+2 b+1)=1)%. Từ đó, theo (1) suy ra: %(a-b)% và %(2 a+2 b+1)% là các số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho %(\\triangle A B C)% vuông tại %(A)% lấy điểm %(H)% bất kì trên cạnh %(B C)%. Gọi %(E, F)% lần lượt là điểm đối xứng của %(H)% qua %(A B)% và %(A C)%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh tứ giác BEFC là hình thang.",
+        "question_images": [],
+        "solution": "Theo giả thiết suy ra:<br>%(\\begin{array}{l}\\left\\{\\begin{array}{l}\\widehat{E B H}=2 \\widehat{A B C} \\\\ \\widehat{F C H}=2 \\widehat{A C B}\\end{array}\\right. \\\\ \\Rightarrow \\widehat{E B H}+\\widehat{F C H}=2 \\widehat{A B C}+2 \\widehat{A C B}=180^{\\circ}\\end{array})%<br>Mà hai góc này ở vị trí trong cùng phía nên %(B E / / C F)% %(\\Rightarrow E B C F)% là hình thang.<br><img alt=\"image.png\" src=\"https://docdn.giainhanh.io/media/test/7ff0502aebdafef276ab24d9bab6ee9b.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Tìm vị trí của %(H)% để BEFC trờ thành một hình bình hành, hình chữ nhật được không ?",
+        "question_images": [],
+        "solution": "Vì %(E B C F)% là hình thang có hai đáy là %(B E, C F)% nên:<br>+ Để %(E B C F)% là hình bình hành thì cần thêm %(E B=C F)%<br>Mà %(E B=B H ; C F=H C \\Rightarrow E B=C E \\Leftrightarrow B H=H C \\Leftrightarrow H)% là trung điềm của %(B C)%.<br>Vậy %(B E C F)% là hình bình hành khi %(H)% là trung điểm của %(B C)%.<br>+ Để %(B E C F)% là hình chữ nhật thì điều kiện trước hết %(E B C F)% là hình bình hành, khi đó %(H)% là trung điểm %(B C)% và %(\\widehat{E B H}=90^{\\circ})% hay %(\\widehat{A B H}=45^{\\circ})% tức là %(\\triangle A B C)% vuông cân tại %(A)%.<br>Vậy để %(B E C F)% là hình chữ nhật thì cần %(\\triangle A B C)% vuông cân tại %(A)% và %(H)% là trung điềmcủa %(B C)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Xác định vị trí của H để tam giác %(E H F)% có diện tích lớn nhất?",
+        "question_images": [],
+        "solution": "Gọi %(P, Q)% theo thứ tự là giao điểm của %(E H)% và %(A B, F H)% và %(A C)%.<br>Dễ thấy %(\\triangle E H F)% vuông tại %(H)% nên %(S_{E H F}=\\frac{E H \\cdot F H}{2}=2 P H \\cdot Q H)%<br>Theo định lý Ta-let ta có:<br>%(\\begin{array}{l}\\frac{P H}{A C}=\\frac{B H}{B C} \\\\ \\frac{Q H}{A B}=\\frac{C H}{B C} \\\\ \\Rightarrow \\frac{P H \\cdot Q H}{A C \\cdot A B}=\\frac{B H \\cdot C H}{B C^{2}} \\\\ \\Rightarrow P H \\cdot Q H=\\frac{A C \\cdot A B}{B C^{2}} \\cdot B H \\cdot C H\\end{array})%<br>Cách 1) Mặt khác ta có:<br>\\[\\begin{array}{l}0 \\leq(B H-C H)^{2}=(B H+C H)^{2}-4 B H \\cdot C H \\\\Rightarrow B H \\cdot C H \\leq \\frac{A B \\cdot A C}{B C^{2}} \\cdot \\frac{B C^{2}}{4}=\\frac{A B \\cdot A C}{4}\\end{array}\\]<br>Đẳng thức xảy ra khi %(B H=C H)% hay %(H)% là trung điểm của %(B C)%.<br>Vây %(\\triangle \\mathrm{EF} H)% có diên tích lớn nhất khi %(H)% làtrung điềmcủa %(B C)%.<br>Cách 2)<br>%(\\mathrm{Do} \\mathrm{BH}+\\mathrm{CH}=\\mathrm{BC})% không đổi, nên áp dụng hệ quà bất đẳng thức Cauchy ta có %(B H \\cdot C H)% đạt giá trị lớn nhất khi %(B H=C H)% hay %(H)% là trung điểm của %(B C)%.<br>Vây %(\\triangle \\mathrm{EF} H)% có diên tích lớn nhất khi %(H)% làtrung điềmcủa %(B C)%.<br>Cách 3) Áp dụng bất đẳng thức %((a+b)^{2} \\geq 4 a b)% ta có:<br>\\[B H \\cdot C H \\leq \\frac{B C^{2}}{4} \\Rightarrow P H \\cdot Q H=\\frac{A B \\cdot A C}{4}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Có hay không hai số nguyên dương %(a)% và %(b)% có tổng bằng 2022 và tích của chúng chia hết cho 2022 .",
+        "question_images": [],
+        "solution": "Giả sử tồn tại 2 số nguyên dương %(a, b)% thỏa mãn yêu cầu bài toán. Tức là:<br>\\[\\left\\{\\begin{array}{l}a+b=2022 \\a b=2022 c, c \\in N^{*} \\text { (2) }\\end{array}\\right.\\]<br>Từ (2) suy ra: %(a . b=2.2 .337 . c \\Rightarrow\\left[\\begin{array}{l}a \\vdots 2 \\\\ b \\vdots 2\\end{array}\\right.)%<br>Từ (1) suy ra nếu a hoăc %(b)% chia hết cho 2 thì số còn lai cũ̃g chia hết cho 2 . Do đó: %(\\left\\{\\begin{array}{l}a \\vdots 2 \\\\ b \\vdots 2\\end{array}\\right.)%<br>Lập luận tương tư : %(\\left\\{\\begin{array}{l}a \\vdots 3 \\\\ b: 3\\end{array}\\right.)% và %(\\left\\{\\begin{array}{l}a \\vdots 337 \\\\ b: 337\\end{array}\\right.)%<br>Vì %(2,3,337)% là các số nguyên tố cùng nhau nên %(\\left\\{\\begin{array}{l}a \\vdots 2.3 .337 \\\\ b \\vdots 2.3 .337\\end{array}\\right.)%<br>hay %(\\left\\{\\begin{array}{l}a: 2022 \\\\ b \\vdots 2022\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}a \\geq 2022 \\\\ b \\geq 2022\\end{array} \\Rightarrow a+b \\geq 2022\\right.\\right.)%<br>Điều này mâu thuẫn với (1), do đó điều giả sử là Sai.<br>Vậy không tồn tai 2 số nguyên dương thỏa mãn yêu cầu bài toán.",
+        "question_type": "essay"
+    }
+]

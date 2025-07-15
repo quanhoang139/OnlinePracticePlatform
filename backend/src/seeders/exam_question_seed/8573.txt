@@ -1,0 +1,80 @@
+[
+    {
+        "title": "1 ",
+        "point": 3.0,
+        "content": "Cho ba só a, b, c đơi một khác nhau thỏa mãn đièu kiện %((a+b+c)^{2}=a^{2}+b^{2}+c^{2})%.<br>Chứng minh rảng: %(\\frac{a^{2}}{a^{2}+2 b c}+\\frac{b^{2}}{b^{2}+2 c a}+\\frac{c^{2}}{c^{2}+2 a b}=1)%.",
+        "question_images": [],
+        "solution": "Ta có: %((a+b+c)^{2}=a^{2}+b^{2}+c^{2} \\Rightarrow a b+b c+c a=0 \\Rightarrow b c=-a b-c a)%<br>Ta có: %(a^{2}+2 b c=a^{2}+b c+b c=a^{2}+b c-a b-c a=(a-b)(a-c))%<br>Cmtt, ta có:: %(\\left\\{\\begin{array}{l}b^{2}+2 c a=(b-c)(b-a) \\\\ c^{2}+2 a b=(c-a)(c-b)\\end{array}\\right.)%<br>Do đó: %(\\frac{a^{2}}{a^{2}+2 b c}+\\frac{b^{2}}{b^{2}+2 c a}+\\frac{c^{2}}{c^{2}+2 a b})%<br>%(=\\frac{a^{2}}{(a-b)(a-c)}+\\frac{b^{2}}{(b-c)(b-a)}+\\frac{c^{2}}{(c-b)(c-a)})%<br>%(=\\frac{-a^{2}}{(a-b)(c-a)}-\\frac{b^{2}}{(b-c)(a-b)}-\\frac{c^{2}}{(b-c)(c-a)})%<br>%(=\\frac{-a^{2}(b-c)-b^{2}(c-a)-c^{2}(a-b)}{(a-b)(b-c)(c-a)})%<br>%(=\\frac{-a^{2} b+a^{2} c-b^{2} c+b^{2} a-c^{2} a+c^{2} b}{-a^{2} b+a^{2} c-b^{2} c+b^{2} a-c^{2} a+c^{2} b})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.5,
+        "content": "Giải phương trinh: %(x \\sqrt{3 x-1}+5 x=5)%",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq \\frac{1}{3})%.<br>Phương trình đã cho trở thành: %(x \\sqrt{3 x-1}=5(x-1))%<br>\\[\\begin{array}{l}\\Rightarrow x^{2}(3 x-1)=25(1-x)^{2} \\Leftrightarrow 3 x^{3}-26 x^{2}+50 x-25=0 \\\\Leftrightarrow(3 x-5)\\left(x^{2}-7 x+5\\right)=0 \\Leftrightarrow x=\\frac{5}{3} \\text { hay } x=\\frac{7 \\pm \\sqrt{29}}{2}\\end{array}\\]<br>So với điều kiện và thử lại ta có: %(x=\\frac{7-\\sqrt{29}}{2})%.<br>Vậy %(S=\\left\\{\\frac{7-\\sqrt{29}}{2}\\right\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.5,
+        "content": "Cho các số thực %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c}, \\mathrm{d})% thỏa điều kiện %(\\mathrm{a}^{2}+\\mathrm{b}^{2}+\\mathrm{c}^{2}+\\mathrm{d}^{2}=2017)%. Tim giá trị nhỏ nhất của biểu thức %(P=(45+a)(45+b)-c d)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{aligned}2 P & =2(45+a)(45+b)-2 c d \\\\& =4050+90 a+90 b+2 a b-2 c d \\\\& =a^{2}+b^{2}+c^{2}+d^{2}+2025+90 a+90 b+2 a b-2 c d+8 \\\\& =(a+b+45)^{2}+(c-d)^{2}+8 \\geq 8 \\\\Rightarrow P & \\geq 4\\end{aligned}xảy\\]<br>Dấu \" %(=)% \" xảy ra khi %(\\left\\{\\begin{array}{l}a+b+45 \\\\ c-d=0 \\\\ a^{2}+b^{2}+c^{2}+d^{2}=2017\\end{array} \\quad\\right.)% (có thể chọn %(a=-40 ; b=-5 ; c=d=14)% )<br>Vậy %(P_{\\text {min }}=4)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho hình vuōng ABCD cạnh a. Mọ̉t đưởng thả̉ng đi qua điémm %(A)%, cá́t cạnh %(B C)% tại %(E)% và đường thầng %(C D)% tại %(F)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 3.0,
+        "content": "a) Chứng minh: %(\\frac{1}{\\mathrm{AB}^{2}}=\\frac{1}{\\mathrm{AE}^{2}}+\\frac{1}{\\mathrm{AF}^{2}})%.",
+        "question_images": [],
+        "solution": "Qua %(\\mathrm{A})% vē đường thẳng vuông góc với %(\\mathrm{AF})%, đường thẳng này cắt %(\\mathrm{CD})% tại %(\\mathrm{K})%.<br>Dẽ̃ chứng minh: %(\\triangle \\mathrm{ADK}=\\triangle \\mathrm{ABE}(\\mathbf{g}-\\mathrm{c}-\\mathbf{g}) \\Rightarrow \\mathrm{AK}=\\mathrm{AE})%<br>Mà %(\\frac{1}{\\mathrm{AD}^{2}}=\\frac{1}{\\mathrm{AK}^{2}}+\\frac{1}{\\mathrm{AF}^{2}}(\\mathrm{HTL}))% và %(\\mathrm{AD}=\\mathrm{AB})%<br>Nên %(\\frac{1}{\\mathrm{AB}^{2}}=\\frac{1}{\\mathrm{AE}^{2}}+\\frac{1}{\\mathrm{AF}^{2}})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/918164ef4340458e98a3c45a9da07c4b.png\" srcset=\"https://docdn.giainhanh.io/media/test/df044631f2c4e49f274d78d18cfcf280.png 245w, https://docdn.giainhanh.io/media/test/9ad9ec82a6055a68a13debd2b345a4ec.png 500w, https://docdn.giainhanh.io/media/test/19e50320a41dbfd25de9b42862ed168f.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 3.0,
+        "content": "Gọi M là trung điếm của cạnh %(C D)%. Tính theo a bán kính đường tròn ngoại tiêp tam giác MAB.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{H})% là trung điếm cùa %(\\mathrm{AB})% : I là trung điếm của AM.<br>Đường trung trực của đoạn %(\\mathrm{AM})% cá̉t %(\\mathrm{MH})% tại %(\\mathrm{J})%.<br>Suy ra J là tâm của đường tròn (MAB)<br>\\[\\begin{array}{l}\\triangle \\mathrm{MIJ} \\sim \\Delta \\mathrm{MHA} \\Rightarrow \\mathrm{MI} \\cdot \\mathrm{MA}=\\mathrm{MJ} . \\mathrm{MH} \\Rightarrow \\mathrm{MJ}=\\frac{\\mathrm{MA}^{2}}{2 . \\mathrm{MH}} \\\\text { Mà MA }=\\frac{\\mathrm{a} \\sqrt{5}}{2} ; \\mathrm{MH}=\\mathrm{a} \\text { nên } \\mathrm{MJ}=\\frac{5 \\mathrm{a}}{8}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 3.0,
+        "content": "Cho cảc số nguyên dương %(\\mathrm{a}, \\mathrm{b}, \\mathrm{p})% thỏa mãn điè̀u kiẹ̇n %(\\mathbf{p}^{2}+\\mathbf{a}^{2}=\\mathbf{b}^{2})%. Chứng minh rằng né́u p là một số nguyên tố lớn hơn 3 thì a chia hết cho 12 và %(2(\\mathbf{p}+\\mathbf{a}+\\mathbf{1}))% là một số chính phương.",
+        "question_images": [],
+        "solution": "Ta có : %(\\mathbf{p}^{2}+\\mathbf{a}^{2}=\\mathbf{b}^{2} \\Leftrightarrow \\mathbf{p}^{2}=\\mathbf{b}^{2}-\\mathbf{a}^{2} \\Leftrightarrow \\mathbf{p}^{2}=(\\mathbf{b}-\\mathbf{a})(\\mathbf{b}+\\mathbf{a}))%<br>Do %(\\mathrm{a}, \\mathrm{b})% nguyēn đương và %(\\mathrm{p})% là một số nguyên tố nên %(\\left\\{\\begin{array}{l}\\mathbf{b}-\\mathbf{a}=\\mathbf{1} \\\\ \\mathbf{b}+\\mathbf{a}=\\mathbf{p}^{2}\\end{array}\\right.)%<br>Suy ra: %(\\left\\{\\begin{array}{l}b=\\frac{p^{2}+1}{2} \\\\ a=\\frac{p^{2}-1}{2}\\end{array} \\Rightarrow 2 a=p^{2}-1 \\Rightarrow 2 a=(p-1)(p+1)\\right.)%<br>Do %(p)% là số nguyẽn tố nėn %((p-1),(p+1))% là 2 số chã̃n liên tiếp %(\\Rightarrow(p-1)(p+1): 8 \\Rightarrow \\mathrm{a}: 4)%<br>Mặt khác: %(\\mathrm{p})% là số nguyèn tố %(\\gt 3 \\Rightarrow(\\mathrm{p}-1)(\\mathrm{p}+1))% : %(6 \\Rightarrow \\mathrm{a}: 3)% (Nếu tăng hoảc giảm 1 đơn vi ở một số nguyên tố lớn hơn 3 thì một trong hai kết quả sẽ luôn chia hết cho 6 )<br>Do 3 và 4 là 2 số nguyên tố cùng nhau nên a chia hết cho 12.<br>Ta có: %(2(p+a+1)=2 p+2 a+2=2 p+p^{2}-1+2=(p+1)^{2})% là một số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Gọi I là giao điểm ba đường phân glác trong của %(\\triangle \\mathrm{ABC})%. Đường thả̉ng qua I và vuőng góc với %(A I)% cát %(A B, A C)% theo thư tư taii %(M, N)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(\\mathrm{BI}^{2}=)% BM.BC",
+        "question_images": [],
+        "solution": "Do l là tâm đường trȯn nội tiếp %(\\triangle \\mathrm{ABC})%<br>%(\\Rightarrow)% I là giao điểm các đường phân giác trong của %(\\triangle \\mathrm{ABC})%<br>Do đó: %(\\mathrm{BIC}=180^{\\circ}-(\\mathrm{IBC}+\\mathrm{ICB})=180^{\\circ}-\\left(\\frac{\\mathrm{ABC}}{2}+\\frac{\\mathrm{ACB}}{2}\\right)=90^{\\circ}+\\frac{\\mathrm{BAC}}{2})%.<br>Chứng minh tương tư: %(\\mathrm{CNI}=90^{\\circ}+\\frac{\\mathrm{BAC}}{2})%.<br>Xét %(\\triangle \\mathrm{MBI})% và %(\\triangle \\mathrm{IBC})%, ta có:<br>%(\\begin{array}{l}\\mathrm{BMI}=\\mathrm{BIC}\\left(=90^{\\circ}+\\frac{\\mathrm{BAC}}{2}\\right) \\\\ \\mathrm{MBI}=\\mathrm{IBC}\\end{array})%<br>=> %(\\Delta \\mathrm{MBI} \\sim \\Delta \\mathrm{IBC}(\\mathrm{g}-\\mathrm{g}) \\Rightarrow \\frac{\\mathrm{BI}}{\\mathrm{BC}}=\\frac{\\mathrm{BM}}{\\mathrm{BI}}()%tsđdd%() \\Rightarrow \\mathrm{BI}^{2}=\\mathrm{BM} . \\mathrm{BC})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9fb62093be04a0ef581210ec99fc0429.png\" srcset=\"https://docdn.giainhanh.io/media/test/73bc4c9a3589ece6cf8b68274294463e.png 183w, https://docdn.giainhanh.io/media/test/12aa0708c69872686b0706e9b4d87f79.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "b) Chứng minh: %(\\mathbf{B C. A I}^{2}+\\mathbf{CA} \\cdot \\mathbf{B I}^{2}+\\mathbf{A B . C I}^{2}=\\mathbf{A B} . \\mathrm{BC} . \\mathrm{CA})%.",
+        "question_images": [],
+        "solution": "Cmtt: %(\\Delta \\mathrm{NIC} \\sim \\Delta \\mathrm{IBC}(\\mathbf{g}-\\mathbf{g}))%<br>Vậy %(\\Delta \\mathrm{NIC} \\sim \\Delta \\mathrm{MBI} \\Rightarrow \\frac{\\mathbf{I M}}{\\mathbf{C N}}=\\frac{\\mathrm{BM}}{\\mathbf{I N}} \\Rightarrow \\mathrm{BM.CN}=\\mathbf{I M. I N})%<br>Mặt khác: %(\\triangle \\mathrm{AMN})% có %(\\mathrm{Al})% là đường cao, đường phân giác.<br>%(\\Rightarrow \\triangle \\mathrm{AMN})% cân tại %(\\mathrm{A})%, do vậy %(\\mathrm{Al})% là đường trung tuyến nên %(\\mathrm{IM}=\\mathbb{I N})%.<br>Vậy %(\\mathbf{B M. C N}=\\mathbf{I M}^{2}=\\mathbf{I N}^{2})%<br>Cách 1:<br>Ta có: %(\\frac{\\mathrm{IB}}{\\mathrm{BC}}=\\frac{\\mathrm{BM}}{\\mathrm{IB}}(\\Delta \\mathrm{MBI} \\sim \\Delta \\mathrm{IBC}) \\Rightarrow \\mathrm{IB}^{2}=\\mathrm{BM.} B \\mathrm{C})%<br>Tương tự: %(\\mathrm{IC}^{2}=)% CN.BC<br>Ta cũng có: %(\\mathrm{AM}=\\mathrm{AB}-\\mathrm{BM}=\\mathrm{AC}-\\mathrm{CN}, \\mathrm{IN}^{2}=\\mathrm{BM} . \\mathrm{CN})% (cmt)<br>Tam giác IAM vuōng tại %(I \\Rightarrow \\mathbf{A M}^{2}=\\mathbf{I A}^{2}+\\mathbf{I M}^{2})% (Định lỳ Pytago)<br>Do đó:%(\\mathrm{AA}^{2}=\\mathbf{A M}^{2}-\\mathbf{I M}^{2}=\\mathbf{A M.} A N-\\mathbf{I M}^{2}=(\\mathrm{AB}-\\mathbf{B M})(\\mathbf{A C}-\\mathbf{C N})-\\mathbf{B M. C N})%<br>suy ra: %(\\mathrm{BC.IA}^{2}=\\mathrm{AB} \\cdot \\mathrm{BC} . \\mathrm{CA}-\\mathrm{AB} . \\mathrm{BC} . \\mathrm{CN}-\\mathrm{AC})% .BM.BC<br>%(\\Rightarrow \\mathrm{BCIA}^{2}=\\mathrm{AB} \\cdot \\mathrm{BC} \\cdot \\mathrm{CA}-\\mathrm{AB} \\cdot \\mathrm{IC}^{2}-\\mathrm{AC.IB}^{2})%<br>Vậy %(\\mathrm{BC.IA}^{2}+\\mathrm{CA}^{2} \\cdot \\mathrm{IB}^{2}+\\mathrm{AB}^{2} \\mathrm{IC}^{2}=\\mathrm{AB} \\cdot \\mathrm{BC} \\cdot \\mathrm{CA})%",
+        "question_type": "essay"
+    }
+]

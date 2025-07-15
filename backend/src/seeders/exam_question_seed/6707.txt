@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Cho biểu thức %(P=\\left[\\frac{2(a+b)}{\\sqrt{a^{3}}-2 \\sqrt{2 b^{3}}}-\\frac{\\sqrt{a}}{a+\\sqrt{2 a b}+2 b}\\right] \\cdot\\left[\\frac{\\sqrt{a^{3}}+2 \\sqrt{2 b^{3}}}{2 b+\\sqrt{2 a b}}-\\sqrt{a}\\right])%<br>Tìm điều kiện của %(\\mathrm{a})% và %(\\mathrm{b})% để biểu thức %(\\mathrm{P})% xác định và rút gọn %(\\mathrm{P})%.",
+        "question_images": [],
+        "solution": "%(P=\\left[\\frac{2(a+b)}{\\sqrt{a^{3}}-2 \\sqrt{2 b^{3}}}-\\frac{\\sqrt{a}}{a+\\sqrt{2 a b}+2 b}\\right]\\left[\\frac{\\sqrt{a^{3}}+2 \\sqrt{2 b^{3}}}{2 b+\\sqrt{2 a b}}-\\sqrt{a}\\right])%<br>Điều kiện để biểu thức P xác định là: %(\\left\\{\\begin{array}{l}a^{3} \\geq 0 \\\\ 2 b^{3} \\geq 0 \\\\ \\sqrt{a^{3}}-2 \\sqrt{2 b^{3}} \\neq 0 \\\\ a+\\sqrt{2 a b}+2 b \\neq 0 \\\\ 2 b+\\sqrt{2 a b} \\neq 0\\end{array}=\\gt \\left\\{\\begin{array}{l}a \\geq 0 \\\\ b>0 \\\\ a \\neq 2 b\\end{array}\\right.\\right.)%<br>%(\\begin{array}{l}P=\\left[\\frac{2(a+b)-\\sqrt{a}(\\sqrt{a}-\\sqrt{2 b})}{(\\sqrt{a}-\\sqrt{2 b})(a+\\sqrt{2 a b}+2 b)}\\right] \\cdot\\left[\\frac{(a+\\sqrt{2 b})(a-\\sqrt{2 a b}+2 b)}{\\sqrt{2 b}(\\sqrt{2 b}+\\sqrt{a})}-\\sqrt{a}\\right] \\\\ P=\\frac{a+\\sqrt{2 a b}+2 b}{(\\sqrt{a}-\\sqrt{2 b})(a+\\sqrt{2 a b}+2 b)} \\cdot \\frac{a-\\sqrt{2 a b}+2 b-\\sqrt{2 a b}}{\\sqrt{2 b}} \\\\ P=\\frac{1}{\\sqrt{a}-\\sqrt{2 b}} \\cdot \\frac{(\\sqrt{a}-\\sqrt{2 b})^{2}}{\\sqrt{2 b}}=\\frac{\\sqrt{a}-\\sqrt{2 b}}{\\sqrt{2 b}}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Biết: %(a=1+\\frac{\\sqrt{3}}{2})% và %(b=\\frac{1}{2}-\\frac{\\sqrt{3}}{4})%. Tính giá trị của biểu thức %(P)%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\mathrm{ab}=\\frac{1}{2}\\left(1+\\frac{\\sqrt{3}}{2}\\right)\\left(1-\\frac{\\sqrt{3}}{2}\\right)=\\frac{1}{8}=\\gt 2 b=\\frac{1}{4 a})%<br>Do đó: %(\\mathrm{P}=\\frac{\\sqrt{a}-\\sqrt{2 b}}{\\sqrt{2 b}}=\\sqrt{\\frac{a}{2 b}}-1=\\sqrt{4 a^{2}}-1=2 a-1=1+\\sqrt{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{c}(x-1) \\sqrt{14-y}+\\sqrt{(y-2)\\left(11+2 x-x^{2}\\right)}=12 \\\\ x^{3}-3 x^{2}-5 x+6=2 \\sqrt{y-4}\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Giải hệ: %(\\left\\{\\begin{array}{l}(x-1) \\sqrt{14-y}+\\sqrt{(y-2)\\left(11+2 x-x^{2}\\right)}=12 \\\\ x^{3}-3 x^{2}-5 x+6=2 \\sqrt{y-4}\\end{array}\\right.)%<br>%((x-1) \\sqrt{14-y} \\leq \\frac{(x-1)^{2}+14-y}{2}(1))%<br>Theo Cô si ta có<br>%(\\sqrt{(y-2)\\left(11+2 x-x^{2}\\right)} \\leq \\frac{y-2+11+2 x-x^{2}}{2}(2))%<br>Từ (1) và (2) ta có :%((x-1) \\sqrt{14-y}+\\sqrt{(y-2)\\left(11+2 x-x^{2}\\right.} \\leq 12)%<br>Dấu bằng xảy ra khi %(\\left\\{\\begin{array}{l}x-1 \\geq 0 \\\\ y-2=11+2 x-x^{2}\\end{array}\\right.)%<br>Thay vào phương trình thứ 2 của hệ ta được:<br>\\[\\begin{array}{l}x^{3}-3 x^{2}-5 x+4+2\\left(1-\\sqrt{9+2 x-x^{2}}\\right)=0 \\\\Leftrightarrow(x-4)\\left(x^{2}+x-1+\\frac{2(x+2)}{1+\\sqrt{9+2 x-x^{2}}}\\right)=0\\end{array}\\]<br>Do %(x \\geq 1 \\Rightarrow\\left(x^{2}+x-1+\\frac{2(x+2)}{1+\\sqrt{9+2 x-x^{2}}}\\right)\\gt 0)%<br>Buộc %(\\mathrm{x}=4)% từ đó tìm được %(\\mathrm{y}=5 \\quad(\\mathrm{~T} / \\mathrm{M}))%<br>Vậy %((x ; y)=(4 ; 5))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "%(\\mathrm{x}_{1}, \\mathrm{x}_{2})% là 2 nghiệm của phương trình: %(2 \\mathrm{x}^{2}-(3 \\mathrm{a}-1) \\mathrm{x}-2=0)%,Tìm giả trị nhỏ nhất của biểu thức: %(\\mathrm{P}=\\frac{3}{2}\\left(x_{1}-x_{2}\\right)^{2}+2\\left(\\frac{x_{1}-x_{2}}{2}+\\frac{1}{x_{1}}-\\frac{1}{x_{2}}\\right)^{2})%a",
+        "question_images": [],
+        "solution": "\\[2 x^{2}-(3 a-1) x-2=0 (1)\\]<br>phương trình (1) có: %(\\Delta=[-(3 a-1)]^{2}+16\\gt 0)%. phương trình (1) luôn có 2 nghiệm phân biệt %(\\mathrm{x}_{1}, \\mathrm{x}_{2})%.<br>Theo định lí Viets ta có:<br>\\[\\begin{array}{l}P=\\frac{3}{2}\\left(x_{1}-x_{2}\\right)^{2}+2\\left[\\frac{x_{1} x_{2}\\left(x_{1}-x_{2}\\right)-2\\left(x_{1}-x_{2}\\right)}{2 x_{1} x_{2}}\\right]^{2}=6\\left(x_{1}-x_{2}\\right)^{2} \\\\=6\\left[\\left(x_{1}+x_{2}\\right)^{2}-4 x_{1} x_{2}\\right]=6\\left[\\frac{(3 a-1)^{2}}{4}+4\\right] \\geq 24\\end{array}\\]<br>Đẳng thức xảy ra khi và chỉ khi: %(3 \\mathrm{a}-1=0=>\\mathrm{a}=\\frac{1}{3})%<br>Vậy %(\\operatorname{Min} P=24\\lt =>\\quad a=\\frac{1}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Tìm các số nguyên dương %(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})% với %(\\mathrm{z} \\leq 6)% thỏa mãn phương trình sau:<br>\\[x^{2}+y^{2}-4 x-2 y-7 z-2=0\\]",
+        "question_images": [],
+        "solution": "Biến đổi phương trình thành: %((\\mathrm{x}-2)^{2}+(\\mathrm{y}-1)^{2}=7(\\mathrm{z}+1)\\left({ }^{*}\\right))%<br>Nhận thấy một số chính phương chia cho 7 có số dư là %(0 ; 1 ; 2 ; 4)% nên tổng 2 số chính phương chia hết cho 7 thì cả 2 số chính phương đó chia hết cho 7<br>Từ %(\\left({ }^{*}\\right))% suy ra: %((x-2) \\vdots 7)% và %((y-1) \\vdots 7)%<br>Do đó %((z+1) \\vdots 7)% mà %(1 \\leq z \\leq 6)% nên %(\\mathrm{z}=6)%.<br>Ta có: %(:(\\mathrm{x}-2)^{2}+(\\mathrm{y}-1)^{2}=49 ; 49=0^{2}+7^{2})%<br>Từ đó tìm được : %((\\mathrm{x} ; \\mathrm{y})=(2 ; 8),(9 ; 1))%<br>Vậy phương trình có nghiệm nguyên dương là:<br>\\[(\\mathrm{x} ; \\mathrm{y} ; \\mathrm{z}) \\in\\{(2 ; 8 ; 6),(9 ; 1 ; 6)\\}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Cho số nguyên dương %(\\mathrm{n})% thỏa mãn %(2+2 \\sqrt{12 n^{2}+1})% là số nguyên. Chứng minh %(2+2 \\sqrt{12 n^{2}+1})% là số chính phương.",
+        "question_images": [],
+        "solution": "Hiển nhiên %(2+2 \\sqrt{12 n^{2}+1})% là số nguyên mà %(12 n^{2}+1)% là số lẻ nên tồn tại số tự nhiên %(\\mathrm{k})% mà %(12 n^{2}+1=(2 \\mathrm{k}+1)^{2})%%(\\Leftrightarrow 12 n^{2}+1=4 k^{2}+4 k+1 \\Leftrightarrow k(k+1)=3 n^{2})%.<br>Vì %((k ; k+1)=1)% nên xảy ra<br>hai trường hợp<br>Trường hợp 1:<br>\\[\\left\\{\\begin{array}{l}k=a^{2} \\k+1=3 b^{2}\\end{array}(a, b \\in N) \\Rightarrow\\gt a^{2}-3 b^{2}=-1 \\equiv 2(\\bmod 3) \\Rightarrow a^{2} \\equiv 2(\\bmod 3)(\\text { voll })\\right.\\]<br>Trường hợp 2:<br>\\[\\begin{array}{l}\\left\\{\\begin{array}{l}k=3 a^{2} \\k+1=b^{2}\\end{array} \\Rightarrow b^{2}\\left(b^{2}-1\\right)=3 n^{2} \\Rightarrow 2+2 \\sqrt{12 n^{2}+1}=2+2 \\sqrt{4 b^{4}-4 b^{2}+1}\\right. \\\\=2+2\\left(2 b^{2}-1\\right)=4 b^{2} \\\\end{array}\\]<br>Nên %(2+2 \\sqrt{12 n^{2}+1})% là số chính phương",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho đường tròn %((\\mathrm{O}, \\mathrm{R}))%, và dây cung %(\\mathrm{BC})% cố định %((\\mathrm{BC}\\lt 2 \\mathrm{R}))%. Điểm %(\\mathrm{A})% di động trên %((\\mathrm{O} ; \\mathrm{R}))% sao cho tam giác %(\\mathrm{ABC})% là tam giác nhọn, %(\\mathrm{AD})% là đường cao và %(\\mathrm{H})% là trực tâm của tam giác %(\\mathrm{ABC})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Đường thẳng chứa tia phân giác ngoài của góc %(\\mathrm{BHC})% cắt %(\\mathrm{AB}, \\mathrm{AC})% lần lượt tại các điểm %(\\mathrm{M}, \\mathrm{N})%. Chứng minh %(\\triangle \\mathrm{AMN})% là tam giác cân",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{B}^{/})%là hình chiếu của %(\\mathrm{B})% trên %(\\mathrm{AC})% %(\\mathrm{C}^{\\prime})% là hình chiếu của %(\\mathrm{C})% trên %(\\mathrm{AB})%<br>\\[\\begin{array}{l}\\widehat{\\mathrm{AMN}}=\\widehat{\\mathrm{ABH}}+\\widehat{\\mathrm{MHB}} \\\\widehat{\\mathrm{ANM}}=\\widehat{\\mathrm{ACH}}+\\widehat{\\mathrm{NHC}}\\end{array} (1)\\]<br>Tứ giác %(\\mathrm{BCB} \\mathrm{C}^{\\prime})% là tứ giác nội tiếp<br>\\[\\text { nên : } \\widehat{\\mathrm{ABH}}=\\widehat{\\mathrm{ACH}} (2)\\]<br>%(\\mathrm{MN})% là phân giác ngoài góc %(\\mathrm{BHC})%<br>\\[\\text { nên } \\widehat{\\mathrm{MHB}}=\\widehat{\\mathrm{NHC}} (3)\\]<br>Từ (1); (2); (3) suy ra AMN = ANM Hay tam giác AMN cân<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/8fe361674ac4bd37b426291061d0c6aa.png\" srcset=\"https://docdn.giainhanh.io/media/test/6debd9f87a440dd9045074bcafc708df.png 132w\" width=\"132\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Gọi %(\\mathrm{E}, \\mathrm{F})% lần lượt là hình chiếu của %(\\mathrm{D})% trên các đường thẳng %(\\mathrm{BH}, \\mathrm{CH})%. Chứng minh: %(\\mathrm{OA} \\perp \\mathrm{EF})%.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{P} ; \\mathrm{Q})% lần lượt là hình chiếu của %(\\mathrm{D})% trên %(\\mathrm{AB}, \\mathrm{AC})%.<br>Ta có %(\\widehat{\\mathrm{BEP}}=\\widehat{\\mathrm{BDP}})% ( Tứ giác %(\\mathrm{BPED})% nội tiếp), %(\\widehat{\\mathrm{BDP}}=\\widehat{\\mathrm{BAD}})% ( cùng phụ %(\\mathrm{ABD}), \\widehat{\\mathrm{BAD}}=\\widehat{\\mathrm{HDF}}()% do %(\\Delta \\mathrm{AC} \\mathrm{H} \\sim \\Delta \\mathrm{DFH}), \\widehat{\\mathrm{HDF}}=\\widehat{\\mathrm{HEF}})%<br>( Tứ giác HEDF nội tiếp)<br>Suy ra %(\\widehat{\\mathrm{BEP}}=\\widehat{\\mathrm{HEF}})%<br>Ta có %(\\widehat{\\mathrm{BEP}}+\\widehat{\\mathrm{BEF}}=\\widehat{\\mathrm{BEF}}+\\widehat{\\mathrm{FEH}}=180^{\\circ}=\\gt \\mathrm{P}, \\mathrm{E}, \\mathrm{F})% thẳng hàng<br>Tương tự %(\\mathrm{Q}, \\mathrm{F}, \\mathrm{E})% thẳng hàng<br>vậy đường thẳng %(\\mathrm{EF})% trùng với đường thẳng %(\\mathrm{PQ})%(4)<br>Kẻ tiếp tuyến %(x A y)% của đường tròn %((O))%, ta có %(\\mathrm{OA} \\quad \\mathrm{x} \\mid \\mathrm{Ay})%(5)%(\\mathrm{AP} \\cdot \\mathrm{AB}=\\mathrm{AD}^{2}=\\mathrm{AQ} \\cdot \\mathrm{AC}=>\\frac{A P}{A C}=\\frac{A Q}{A B} \\Rightarrow \\triangle A A P Q \\triangle \\triangle \\mathrm{ACB})%%(=>\\widehat{\\mathrm{APQ}}=\\widehat{\\mathrm{ACB}})% mà %(\\widehat{\\mathrm{ACB}}=\\mathrm{x} \\widehat{\\mathrm{AB}})% ( cùng bằng %(\\frac{1}{2} \\mathrm{sđ} \\widehat{\\mathrm{AB})})%%(\\Rightarrow \\widehat{\\mathrm{APQ}}=\\widehat{\\mathrm{xAB}} \\Rightarrow \\mathrm{xAy} / / \\mathrm{PQ})% (6)<br>Từ (4), (5), (6) suy ra<img alt=\"image.png\" src=\"https://docdn.giainhanh.io/media/test/90fce337be9fcc81fbae55fbde8253a9.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Đường tròn ngoại tiếp %(\\triangle \\mathrm{AMN})% cắt đường phân giác trong của góc %(\\mathrm{BAC})% tại %(\\mathrm{K})%. Chứng minh đường thẳng %(\\mathrm{HK})% luôn đi qua điểm cố định.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{T})% là giao điểm của %(\\mathrm{KM})% và %(\\mathrm{BH}, \\mathrm{S})% là giao điểm của %(\\mathrm{KN})% và %(\\mathrm{CH})%.<br>%(\\mathrm{Do} \\mathrm{AM}=\\mathrm{AN})% và %(\\mathrm{AK})% là phân giác của %(\\widehat{\\mathrm{MAN}})% nên %(\\mathrm{AK})% là đường kính đường tròn ngoại tiếp tam giác %(\\mathrm{AMN})%<br>Suy ra HTKS là hình bình hành %(=\\gt \\mathrm{HK})% đi qua trung điểm của %(\\mathrm{TS})% (7)<br>Ta có %(\\frac{T H}{T B}=\\frac{M C^{\\prime}}{M B}\\left(\\right.)% vì %(\\left.\\mathrm{KM} / / \\mathrm{CC}^{\\prime}\\right), \\frac{M C^{\\prime}}{M B}=\\frac{H C^{\\prime}}{H B})% (Vì HM là phân giác góc %(\\mathrm{BHC}^{\\prime})% )<br>suy ra %(\\frac{T H}{T B}=\\frac{H C^{\\prime}}{H B})%<br>Tương tự %(\\frac{S H}{S C}=\\frac{H B^{\\prime}}{H C})%. Tứ giác %(\\mathrm{BC}^{\\prime} \\mathrm{B}^{\\prime} \\mathrm{C})% nội tiếp)<br>\\[\\Rightarrow \\widehat{\\mathrm{C}^{\\mathrm{BH}}}=\\widehat{\\mathrm{BCH}}=\\gt \\frac{T H}{T B}=\\frac{S H}{S C} \\Rightarrow \\mathrm{TS} / \\mathrm{BC}\\]<br>Từ (7), (8) suy ra %(\\mathrm{HK})% đi qua trung điểm của %(\\mathrm{BC})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.0,
+        "content": "Cho 3 số thực dương %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% thỏa mãn: %(\\mathrm{abc}=1)%.<br>Chứng minh bất đẳng thức :<br>\\[\\frac{1}{\\sqrt{a^{5}+b^{2}+a b+6}}+\\frac{1}{\\sqrt{b^{5}+c^{2}+b c+6}}+\\frac{1}{\\sqrt{c^{5}+a^{2}+c a+6}} \\leq 1 \\text {. }\\]",
+        "question_images": [],
+        "solution": "Ta có: %(\\mathrm{a}^{5}=\\mathrm{a}\\left(\\mathrm{a}^{4}+1+1+1\\right)-3 \\mathrm{a} \\geq \\mathrm{a} \\cdot 4 \\mathrm{a}-3 \\mathrm{a}=4 \\mathrm{a}^{2}-3 \\mathrm{a})%<br>dấu bằng %(\\Leftrightarrow \\mathrm{a}=1)%(Vi %(\\left(a^{4}+1+1+1\\right) \\geq 4 a)% bất đẳng thức cô si dấu bằng %(\\Leftrightarrow a=1)% )<br>\\[\\Rightarrow a^{5} \\geq 4 a^{2}-3 a=3 a^{2}-3 a+a^{2} \\geq 3(2 \\mathrm{a}-1)-3 \\mathrm{a}+\\mathrm{a}^{2}=\\mathrm{a}^{2}+3 \\mathrm{a}-3\\]<br>(do: %(a^{2} \\geq 2 a-1)% dấu bằng %(\\Leftrightarrow a=1)% )<br>\\[\\begin{array}{l}\\Rightarrow \\mathrm{a}^{5}+\\mathrm{b}^{2}+\\mathrm{ab}+6 \\geq \\mathrm{a}^{2}+3 \\mathrm{a}-3+\\mathrm{b}^{2}+\\mathrm{ab}+6=\\mathrm{a}^{2}+\\mathrm{b}^{2}+3 \\mathrm{a}+3+\\mathrm{ab} \\geq \\\\3(\\mathrm{ab}+\\mathrm{a}+1) \\geq(\\sqrt{a b}+\\sqrt{a}+1)^{2} .\\end{array}\\]<br>(do %(\\mathrm{a}^{2}+\\mathrm{b}^{2} \\geq 2 \\mathrm{ab})% và do %(\\mathrm{BĐT})% BunhiaCopSky; dấu bằng %(\\Leftrightarrow a=b=1)% ).<br>Chứng minh tương tự ta có: %(\\frac{1}{\\sqrt{b^{5}+c^{2}+b c+6}} \\leq \\frac{1}{\\sqrt{b c}+\\sqrt{b}+1}=\\frac{\\sqrt{a}}{1+\\sqrt{a b}+\\sqrt{a}})% (do %(\\mathrm{abc}=1)%; dấu bằng khi %(\\mathrm{b}=\\mathrm{c}=1)% ).<br>Và ta có: %(\\frac{1}{\\sqrt{c^{5}+a^{2}+c a+6}} \\leq \\frac{1}{\\sqrt{c a}+\\sqrt{c}+1}=\\frac{\\sqrt{a b}}{\\sqrt{a}+1+\\sqrt{a b}} \\quad)% do %(\\mathrm{abc}=1)%; dấu bằng khi %(\\mathrm{c}=\\mathrm{a}=1)%.<br>%(\\Rightarrow \\mathrm{P} \\leq 1)%, dấu đẳng thức xẩy %(\\mathrm{ra} \\Leftrightarrow \\mathrm{a}=\\mathrm{b}=\\mathrm{c}=1)%.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,97 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Tính %(A=\\left(\\frac{1}{2}-1\\right)\\left(\\frac{1}{3}-1\\right)\\left(\\frac{1}{4}-1\\right) \\ldots\\left(\\frac{1}{2021}-1\\right))%",
+        "question_images": [],
+        "solution": "%(A=\\left(\\frac{1}{2}-1\\right)\\left(\\frac{1}{3}-1\\right)\\left(\\frac{1}{4}-1\\right) \\ldots\\left(\\frac{1}{2021}-1\\right)=\\frac{(-1) \\cdot(-2) \\cdot(-3) \\ldots \\cdot(-2020)}{2 \\cdot 3 \\cdot 4 \\ldots \\ldots .2021}=\\frac{1 \\cdot 2 \\cdot 3 \\ldots \\ldots 2020}{2 \\cdot 3 \\cdot 4 \\ldots \\ldots .2021}=\\frac{1}{2021})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "So sánh các số %(a, b)% biết: %(a=\\left(\\frac{-1}{5}\\right)^{84} ; b=\\left(\\frac{-1}{3}\\right)^{126})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l} \\text { Ta có: } a=\\left(\\frac{-1}{5}\\right)^{84}=\\left(\\frac{1}{5}\\right)^{84}=\\left[\\left(\\frac{1}{5}\\right)^{2}\\right]^{42}=\\left(\\frac{1}{25}\\right)^{45} ; \\\\ b=\\left(\\frac{-1}{3}\\right)^{126}=\\left(\\frac{1}{3}\\right)^{126}=\\left[\\left(\\frac{1}{3}\\right)^{3}\\right]^{42}=\\left(\\frac{1}{27}\\right)^{42} \\\\ \\text { Vì } \\frac{1}{25}\\gt \\frac{1}{27} \\Rightarrow\\left(\\frac{1}{25}\\right)^{42}>\\left(\\frac{1}{27}\\right)^{42} \\Rightarrow a>b\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Tìm số chính phương có 4 chữ số biết rằng hai chữ số đầu giống nhau, hai chữ số cuối giống nhau.",
+        "question_images": [],
+        "solution": "Gọi số chính phương cần tìm là %(\\overline{a a b b})% với %((1 \\leq a ; b \\leq 9))% và %(a, b)% là các số tự nhiên.<br>Do %(\\overline{a a b b})% là số chính phương nên: %(\\overline{a a b b}=n^{2}\\left(n \\in N^{*}\\right))%<br>\\[\\begin{array}{l}\\overline{a a b b}=n^{2}=1000 a+100 a+10 b+b=11(100 a+b) \\\\Rightarrow n^{2}~ \\vdots~ 11 \\Rightarrow n ~\\vdots ~11\\end{array}\\]<br>Mà %(1000\\lt \\overline{a a b b}\\lt 9999 \\Rightarrow 32 \\leq n \\leq 99)%<br>Do %(n~\\vdots~ 11)% nên %(n \\in\\{33 ; 44 ; 55 ; 66 ; 77 ; 88 ; 99\\})%<br>Thử chọn ta được %(\\overline{a a b b}=88^{2}=7744)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Tìm %(x, y)% biết: %(\\left|x^{2}-25\\right|+|y-1|=0)%",
+        "question_images": [],
+        "solution": "Vì %(\\left|x^{2}-25\\right| \\geq 0 ,~\\forall x ;|y-1| \\geq 0, \\forall y)%<br>Mà %(\\left|x^{2}-25\\right|+|y-1|=0)%<br>Suy ra: %(\\left|x^{2}-25\\right|=|y-1|=0)%<br>%(+)~\\left|x^{2}-25\\right|=0 \\Rightarrow x^{2}-25=0 \\Rightarrow x=5 ; x=-5)%%(+)~|y-1|=0 \\Rightarrow y-1=0 \\Rightarrow y=1)%<br>Vậy các cặp %((x ; y))% thỏa mãn là %((5 ; 1))% và %((-5 ; 1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho 4 số khác 0 là %(a, b, c, d)% và %(b+c+d)% khác 0 thỏa mãn %(b^{2}=a c ; c^{2}=b d)%.<br>Chứng minh: %(\\frac{a}{d}=\\left(\\frac{a+b+c}{b+c+d}\\right)^{3})%",
+        "question_images": [],
+        "solution": "Vì %(b^{2}=a c \\Rightarrow \\frac{a}{b}=\\frac{b}{c})% và %(c^{2}=b d \\Rightarrow \\frac{b}{c}=\\frac{c}{d})%<br>Nên suy ra: %(\\frac{a}{b}=\\frac{b}{c}=\\frac{c}{d})%<br>Đặt %(\\frac{a}{b}=\\frac{b}{c}=\\frac{c}{d}=k \\Rightarrow a=b k ; b=c k ; c=d k)%<br>Ta có %(\\frac{a}{d}=\\frac{b k}{d}=\\frac{c k k}{d}=k^{3} ; \\frac{a}{b}=\\frac{b}{c}=\\frac{c}{d}=\\frac{a+b+c}{b+c+d}=\\frac{b k+c k+d k}{b+c+d}=k)%%(\\Rightarrow\\left(\\frac{b k+c k+d k}{b+c+d}\\right)^{3}=k^{3}=\\frac{a}{d})%<br>Vậy %(\\frac{a}{d}=\\left(\\frac{a+b+c}{b+c+d}\\right)^{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Cho hàm số: %(f(x)=-2020 x)%. Tìm %(m)% để %(f(m+1)=2020)%",
+        "question_images": [],
+        "solution": "\\[f(m+1)=2020=-2020(m+1)\\]<br>Vì %(f(m+1)=2020 \\Rightarrow 2020=-2020(m+1) \\Rightarrow m+1=-1 \\Rightarrow m=-2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Tìm hai số khác 0 biết rằng tổng, hiệu và tích của chúng tỉ lệ với %(4 ; 1 ; 45)%",
+        "question_images": [],
+        "solution": "Gọi 2 số cần tìm là %(x)% và %(y~(x ; y \\neq 0)% và %(x\\gt y))%.<br>Theo bài ra ta có %(\\frac{x+y}{4}=\\frac{x-y}{1}=\\frac{x y}{45}~~~~~(1))%<br>Áp dụng tính chất dãy tỉ số bằng nhau, ta có:<br>\\[\\begin{array}{l}\\frac{x+y}{4}=\\frac{x-y}{1}=\\frac{x+y+x-y}{5}=\\frac{2 x}{5}~~~~~(2) \\\\frac{x+y}{4}=\\frac{x-y}{1}=\\frac{x+y-x+y}{4}=\\frac{2 y}{3}~~~~~(3)\\end{array}\\]<br>Từ (1), (2) và (3) suy ra %(\\frac{2 x}{5}=\\frac{2 y}{3}=\\frac{x y}{45}=>\\frac{18 x}{45}=\\frac{30 y}{45}=\\frac{x y}{45})%<br>\\[\\Rightarrow 18 x=30 y=x y=>x=30 ; y=18~(x ; y \\neq 0)\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho tam giác %(A B C~(A C\\lt B C))%. Qua %(A)% vẽ đường thẳng %(x y)% song song với %(B C)%. Từ điểm %(M)% trên cạnh %(B C)% vẽ các đường thẳng song song với %(A B, A C)% chúng cắt %(x y)% theo thứ tự tại %(D)% và %(E)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 3.0,
+        "content": "a) Chứng minh %(A D=B M)% và %(\\triangle A B C=\\triangle M D E)%",
+        "question_images": [],
+        "solution": "+) Vì xy // BC nên %(\\widehat{ M A D}=\\widehat{A M B})% (So le trong)<br>+) %(M D / / A B \\Rightarrow \\widehat{ A M D}=\\widehat{A M B})% (So le trong)<br>+) Xét %(\\triangle M A D)% và %(\\triangle M A B)%, có:<br>%(\\widehat {M A D}=\\widehat {A M B})%<br>Cạnh %(A M)% chung<br>\\[\\begin{array}{c} \\widehat {A M D}=\\widehat{A M B} \\\\Rightarrow \\triangle M A D=\\triangle M A B \\text { (c.g.c) } \\\\Rightarrow A D=M B ; M D=A B \\text { (Hai cạnh tương ứng) }\\end{array}\\]<br>+) Chứng minh tương tự:<br>%(\\triangle A M E=\\triangle M A C~( c.g.c))%<br>%(\\Rightarrow M E=A C ; M C=A E)%<br>\\[\\Rightarrow M B+M C=A E+A D \\Rightarrow B C=D E\\]<br>%(\\Rightarrow \\triangle A B C=\\triangle M D E~(c-c-c))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5658405eb0998f56dbeffd5ec74c47a4.png\" srcset=\"https://docdn.giainhanh.io/media/test/cef28a5ac916de64d15baae28de30035.png 245w, https://docdn.giainhanh.io/media/test/56e4ab9e9848a63ee7f7cad8386df66a.png 500w, https://docdn.giainhanh.io/media/test/c12383a6418f6f5d59728f7430363ab2.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Gọi %(O)% là giao điểm của %(A M)% và %(C E)%. Chứng minh ba điểm %(B, O, D)% thẳng hàng.",
+        "question_images": [],
+        "solution": "+) Xét %(\\triangle A O E)% và %(\\triangle M O C,)% có:<br>%(\\begin{array}{l} \\widehat{E A M}=\\widehat{A M C} \\text { (So le trong) } \\\\ M C=A E~(\\mathrm{cmt})\\end{array})%<br>%(\\widehat{E A O}=\\widehat{O C M}~(So~ le ~trong))%<br>\\[\\begin{array}{l}\\Rightarrow \\triangle A O E=\\triangle M O C \\Rightarrow O A=O M \\\\end{array}\\]<br>+) Xét %(\\triangle A O D)% và %(\\triangle M O B)%, có:<br>%(A D=B M~(\\mathrm{cmt}))%<br>%(\\widehat{D A O}=\\widehat{O M B}~(So~ le ~trong))%<br>\\[\\begin{array}{l}O A=O M~(\\mathrm{cmt}) \\\\Rightarrow \\triangle A O D=\\triangle M O B~(c-g-c) \\\\end{array}\\]<br>+) Mà %(\\widehat{A O D}+ \\widehat{M O D}=180^{\\circ} \\Rightarrow \\widehat{M O B}+ \\widehat{M O D}=180^{\\circ})% hay %(\\widehat{B O D}=180^{\\circ})%<br>Vậy ba điểm %(B ; O ; D)% thẳng hàng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) Tìm vị trí của điểm %(M)% trên cạnh %(B C)% để %(A M)% vuông góc với %(C E)%.",
+        "question_images": [],
+        "solution": "+) %(A M)% vuông góc với %(C E ~\\Leftrightarrow \\widehat{A O C}=\\widehat{M O C}=90^{\\circ})%<br>+) Xét %(\\triangle A O C)% và %(\\triangle M O C)%, có:<br>\\[\\begin{aligned}O A & =O M ; \\\\ \\widehat{A O C} & =\\widehat{M O C}{ }=90^{\\circ}\\end{aligned}\\]<br>Cạnh %(O C)% chung<br>%(\\Rightarrow \\triangle A O C=\\triangle M O C~(c.g.c) )%<br>%(\\Rightarrow A C=M C)% (Hai cạnh tương ứng)<br>Vậy khi %(M)% thuộc %(B C)% sao cho %(C M=A C)% thì %(A M)% vuông góc với %(C E)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 1.0,
+        "content": "Cho %(A)% là một tập hợp gồm 607 số nguyên dương đôi một khác nhau và mỗi số nhỏ hơn 2021. Chứng minh rằng trong tập hợp %(A)% luôn tìm được hai phần tử %(x, y~(x\\gt y))% thỏa mãn %(x-y \\in\\{3 ; 6 ; 9\\})%",
+        "question_images": [],
+        "solution": "Chia dãy số nguyên dương từ 1 đến 2020 thành 202 đoạn: %([1 ; 10] ;[11 ; 20] ; \\ldots[2011 ; 2020])%<br>Vì %(A)% có 607 số nguyên dương đôi một khác nhau và chia thành 202 đoạn, nên theo nguyên lý Đi-rich-lê tồn tại ít nhất 1 đoạn chứa 4 số trong 607 số trên.<br>Vì trong 4 số trên luôn tồn tại 2 số có cùng số dư khi chia cho 3, gọi 2 số đó là %(x)% và %(y~(x\\gt y))% suy ra %(x-y)% chia hết cho 3 mà %(x-y \\leq 9)%<br>Suy ra %(x-y \\in\\{3 ; 6 ; 9\\})%",
+        "question_type": "essay"
+    }
+]

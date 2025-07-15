@@ -1,0 +1,96 @@
+[
+    {
+        "title": "Câu 1 ",
+        "point": 2.5,
+        "content": "Chứng minh rằng nếu một tam giác có độ dài ba cạnh là %(a, b, c)% thỏa mãn %((5 a-3 b+4 c)(5 a-3 b-4 c)=(3 a-5 b)^{2})% thì tam giác đó là tam giác vuông",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{l}(5 a-3 b+4 c)(5 a-3 b-4 c)=(3 a-5 b)^{2}(*) \\\\Leftrightarrow(5 a-3 b)^{2}-(4 c)^{2}=9 a^{2}-30 a b+25 b^{2} \\\\Leftrightarrow 25 a^{2}-30 a b+9 b^{2}-16 c^{2}=9 a^{2}-30 a b+25 b^{2} \\Leftrightarrow a^{2}=b^{2}+c^{2}\\end{array}\\]<br>Vậy tam giác có độ dài ba cạnh thỏa mãn điều kiện %(\\left({ }^{*}\\right))% thì tam giác đó là tam giác vuông",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 2.5,
+        "content": "Tìm giá trị của tham số m để phương trình %(6 x-5 m=-10+3 m x)% có nghiệm gấp 3 lần nghiệm của phương trình %(x^{3}-7 x^{2}+13 x-15=0)%",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{l}x^{3}-7 x^{2}+13 x-15=0(1) \\Leftrightarrow x^{3}-5 x^{2}-2 x^{2}+10 x+3 x-15=0 \\\\Leftrightarrow(x-5)\\left(x^{2}-2 x+3\\right)=0 \\Leftrightarrow x=5\\left(\\text { do } x^{2}-2 x+3\\gt 0\\right)\\end{array}\\]<br>Vậy để phương trình %(6 x-5 m=-10+3 m x)% có nghiệm gấp 3 lần nghiệm của phương trình (1) .<br>Thì %(x=3.5=15)% là nghiệm của phương trình %(6 x-5 m=-10+3 m x)%.<br>Tức là :<br>\\[6.15-5 m=-10+3 m .15 \\Leftrightarrow 90-5 m=-10+45 m \\Leftrightarrow 50 m=100 \\Leftrightarrow m=2\\]<br>Vậy %(m=2)% là giá trị cần tìm",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3",
+        "group_content": "Cho biểu thức P với %(P=\\frac{3 x^{2}+9 x-3}{x^{2}+x-2}-\\frac{x+1}{x+2}+\\frac{x+2}{1-x})% với %(x \\neq 1 ; x \\neq-2)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Rút gọn biểu thức P",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}P=\\frac{3 x^{2}+9 x-3}{x^{2}+x-2}-\\frac{x+1}{x+2}+\\frac{x+2}{1-x} \\\\=\\frac{3 x^{2}+9 x-3-(x+1)(x-1)-(x+2)(x+2)}{(x-1)(x+2)} \\\\=\\frac{3 x^{2}+9 x-3-x^{2}+1-x^{2}-4 x-4}{(x-1)(x+2)}=\\frac{x^{2}+5 x-6}{(x-1)(x+2)}=\\frac{(x-1)(x+6)}{(x-1)(x+2)}=\\frac{x+6}{x+2}\\end{array}\\]<br>Vậy %(P=\\frac{x+6}{x+2})% với %(x \\neq 1 ; x \\neq-2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Tìm tất cả các giá trị nguyên của x để P có giá trị là một số nguyên tố",
+        "question_images": [],
+        "solution": "Ta có %(P=\\frac{x+6}{x+2}=1+\\frac{4}{x+2})%, để giá trị biểu thức P là một số nguyên tố thì P là một số nguyên tức %(\\frac{4}{x+2} \\in Z \\Rightarrow x+2 \\in U(4)=\\{ \\pm 1 ; \\pm 2 ; \\pm 4\\})%.<br>Do đó ta có :<br>%(x+2=-1 \\Rightarrow P=5)% là số nguyên tố (thỏa mãn)<br>%(x+2=-2 \\Rightarrow x=-4 \\Rightarrow P=-1)% không là số nguyên tố (loại)<br>%(x+2=4 \\Rightarrow x=2)% khi đó %(\\mathrm{P}=2)% là số nguyên tố (thỏa mãn)<br>%(x+2=-4 \\Rightarrow x=-6 \\Rightarrow P=0)% không là số nguyên tố (loại)<br>Vậy %(x \\in\\{-1 ; 0 ; 2\\})% thì giá trị của biểu thức P là một số nguyên tố",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 2.0,
+        "content": "Cho %(x, y, z)% thỏa mãn %(x^{3}+y^{3}=z\\left(3 x y-z^{2}\\right))% và %(x+y+z=3)%. Tính giá trị biểu thức %(A=673 .\\left(x^{2021}+y^{2021}+z^{2021}\\right)+2)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}x^{3}+y^{3}=z\\left(3 x y-z^{2}\\right) \\Leftrightarrow x^{3}+y^{3}+z^{3}-3 x y z=(x+y)^{3}-3 x y(x+y)-3 z x y+z^{3}=0 \\\\Leftrightarrow(x+y+z)\\left[(x+y)^{2}+z^{2}-z(x+y)-3 x y\\right]=0 \\Leftrightarrow(x+y+z)\\left(x^{2}+y^{2}+z^{2}-x y-y z-z x\\right)=0 \\\\Leftrightarrow \\frac{1}{2}(x+y+z)\\left[(x-y)^{2}+(y-z)^{2}+(z-x)^{2}\\right]=0 \\\\text { Vì } x+y+z=3 \\neq 0(1) \\Rightarrow(x-y)^{2}+(y-z)^{2}+(z-x)^{2}=0(2)\\end{array}\\]<br>Từ (1) và (2) suy ra %(x=y=z=1)%<br>Vậy %(A=673 \\cdot\\left(x^{2021}+y^{2021}+z^{2021}\\right)+2=673 \\cdot(1+1+1)+2=2019+2=2021)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 2.0,
+        "content": "Cho 2 số tự nhiên %(a ; b)%. Chứng minh rằng nếu tích %(a . b)% là số chẵn thì luôn luôn tìm được số nguyên c sao cho %(a^{2}+b^{2}+c^{2})% là số chính phương",
+        "question_images": [],
+        "solution": "Vì %(\\mathrm{a}, \\mathrm{b})% là số chẵn nên xảy ra các trường hợp sau :<br>Th1: %(\\mathrm{a}, \\mathrm{b})% đều là số chẵn %(\\Rightarrow a^{2}+b^{2} \\vdots 4)%<br>Do a,b thuộc N nên %(a^{2}+b^{2}=4 k, k \\in N \\Rightarrow k+1 \\in N)%<br>Nếu chọn %(c^{2}=(k-1)^{2}=k^{2}-2 k+1(k \\in N))%<br>Thì %(a^{2}+b^{2}+c^{2}=k^{2}+2 k+1=(k+1)^{2})% là một số chính phương<br>Vì %(k \\in N \\Rightarrow k-1 \\in Z \\Rightarrow)% luôn tìm được số %(k-1 \\in Z)% sao cho %(a^{2}+b^{2}+c^{2}=(k+1)^{2})% là một số chính phương<br>Th2: nếu a chẵn b lẻ %(\\Rightarrow a^{2}: 4, b^{2}: 4)% dư 1 , với %(\\mathrm{a}, \\mathrm{b})% thuộc N<br>Nếu %(a^{2}+b^{2}: 4)% dư 1 , với %(\\mathrm{a}, \\mathrm{b})% thuộc N thì %(a^{2}+b^{2}=4 k+1)% với %(k \\in N)%<br>Nếu chọn %(\\left[\\begin{array}{l}c=2 k \\in N, k \\in N \\\\ c=-2 k \\in Z, k \\in N\\end{array} \\Rightarrow c^{2}=4 k^{2} \\Rightarrow a^{2}+b^{2}+c^{2}=4 k^{2}+4 k+1=(2 k+1)^{2}\\right.)% là một số chính phương (vì %(2 k+1 \\in N)% mà %(k \\in N)% ).<br>Vậy luôn tồn tại số nguyên c để %(a^{2}+b^{2}+c^{2})% là một số chính phương.<br>Với %(\\mathrm{a}, \\mathrm{b})% là một số chẵn %(a, b \\in N)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6 ",
+        "point": 2.0,
+        "content": "Cho số nguyên tố %(p\\gt 3)% và hai số nguyên dương %(a, b)% sao cho %(p^{2}+a^{2}=b^{2})%. Chứng minh rằng %(a)% chia hết cho 12",
+        "question_images": [],
+        "solution": "Từ giá trị %(p^{2}+a^{2}=b^{2}=(b-a)(b+a))%. Vì p là số nguyên tố lớn hơn 3 nên có hai khả năng<br><i>Th1</i>: %(\\left\\{\\begin{array}{l}b-a=q \\\\ b+a=q\\end{array} \\Leftrightarrow b-a=b+a \\Leftrightarrow a=0\\right.)%<br><i>Th2</i>: %(\\left\\{\\begin{array}{l}b-a=1 \\\\ b+a=q^{2}\\end{array}\\right.)%, vì %(b+a\\gt b-a, a, b \\in Z^{+})%nên %(2 a=q^{2}-1=(q-1)(q+1))%<br>Vì q lẻ nên %(q-1 ; q+1)% là hai số chã̃n liên tiếp, một số là bội của 2 , một số là bội của 4%(\\Rightarrow a: 2^{2}(1))%.<br>Lại có từ %((*) \\Rightarrow 2 q a=(q-1) q(q+1): 3)%<br>Mà %((2, \\mathrm{q})=1 ;(q, a)=1)% nên %(2 a q: 3 \\Rightarrow a: 3(2) ;(3, q)=1)%<br>Từ (1) và (2) suy ra %(a: 12)%.<br>Vậy %(a: 12)% với mọi %(p, q, q)% là số nguyên tố %(q>3, b \\in N^{*}, a \\in N^{*})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7",
+        "group_content": "Cho %(\\triangle A B C)% có ba góc nhọn. Gọi H là giao điểm hai đường cao %(A D, B E)%. Gọi %(\\mathrm{M}, \\mathrm{N})% thứ tự là trung điểm của %(B C, A C)%. Gọi O là giao điểm các đường trung trực của BC và AC",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.5,
+        "content": "a) Chứng minh %(O M . A B=A H \\cdot N M)%",
+        "question_images": [],
+        "solution": "Ta có trong %(\\triangle A B C, M)% là trung điểm %(\\mathrm{BC}, \\mathrm{N})% là trung điểm AC<br>%(\\Rightarrow M N)% là đường trung bình của %(\\triangle A B C \\Rightarrow M N / / A B)%%(\\angle M N C=\\angle B A C)% (đồng vị) (1) mà %(\\angle A B E+\\angle B A C=90^{\\circ}(2), \\angle O N M+\\angle M N C=90^{\\circ}(3))%<br>Từ (1),(2),(3) %(\\Rightarrow \\angle A B E=\\angle O N M)%<br>Chứng minh tương tự ta có %(\\angle B A D=\\angle O M N)%<br>Xét<br>%(\\triangle A H B \\& \\triangle M O N: \\angle B A D=\\angle O M N(\\mathrm{cmt}), \\angle A B E=\\angle O N M)%<br>%(\\Rightarrow \\triangle A H B \\backsim \\triangle M O N(g \\cdot g) \\Rightarrow \\frac{A H}{O M}=\\frac{A B}{M N} \\Leftrightarrow A H \\cdot M N=O M \\cdot A B)%<br><img alt=\"Screenshot 2024-07-15 095327.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/2e396437f6826ee95585738c525bd5c9.png\" srcset=\"https://docdn.giainhanh.io/media/test/d45e69e488dd9a7641578c04ef736885.png 211w, https://docdn.giainhanh.io/media/test/89be7f2b109770f05efabe1bad47ebb5.png 500w, https://docdn.giainhanh.io/media/test/b3eee17d3cfffffb570032f4258d5f41.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.5,
+        "content": "b) Gọi G là trọng tâm tam giác %(A B C)%. Chứng minh %(H O=3 G O)%",
+        "question_images": [],
+        "solution": "Theo ý a, ta có %(\\triangle A H B \\sim \\triangle M O N \\Rightarrow \\frac{A H}{O M}=\\frac{A B}{M N})% mà %(M N=\\frac{1}{2} A B)% nên %(\\frac{A H}{O M}=\\frac{A B}{M N}=2(4))%<br>Lại có %(\\frac{A G}{G M}=2)%. Vì G là trọng tâm của %(\\triangle A B C(5))%<br>Từ (4) và (5) suy ra %(\\frac{A H}{O M}=\\frac{A G}{G M})% mà %(\\angle H A C=\\angle G O M \\Rightarrow \\triangle A G H \\sim \\triangle M G O()% c.g.c)<br>\\[\\Rightarrow \\angle A G H=\\angle M G O \\Rightarrow \\angle H G A=\\angle M G O \\Rightarrow \\angle M G O+\\angle A G M=180^{\\circ}\\]<br>%(\\Rightarrow H, G, M)% thẳng hàng và %(\\frac{H G}{H O}=2 \\Rightarrow O H=3 O G)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8 ",
+        "point": 1.0,
+        "content": "Cho %(a, b, c, d)% là các số thực dương. Tìm giá trị nhỏ nhất của<br>\\[A=\\frac{a+c}{a+b}+\\frac{b+d}{b+c}+\\frac{c+a}{c+d}+\\frac{d+b}{d+a}\\]",
+        "question_images": [],
+        "solution": "\\[A=\\frac{a+c}{a+b}+\\frac{b+d}{b+c}+\\frac{c+a}{c+d}+\\frac{d+b}{d+a}\\]<br>Ta có %(A=(a+c)\\left(\\frac{1}{a+b}+\\frac{1}{c+d}\\right)+(b+d)\\left(\\frac{1}{b+c}+\\frac{1}{d+a}\\right))%<br>\\[\\geq(a+c) \\frac{4}{a+b+c+d}+(b+d) \\frac{4}{a+b+c+d}=4 \\cdot \\frac{a+b+c+d}{a+b+c+d}=4\\]<br>Vậy %(\\operatorname{Min} A=4 \\Leftrightarrow\\left\\{\\begin{array}{l}a+b=c+d \\\\ b+c=d+a\\end{array} \\Rightarrow a=b=c=d\\right.)%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,182 @@
+.personal-dashboard {
+    padding: 20px;
+    height: calc(100vh - 64px);
+    font-family: "Quicksand", sans-serif !important;
+  
+    &.dashboard-content {
+      height: 100%;
+      overflow-y: auto;
+      padding-right: 10px;
+    }
+  
+    .modern-card {
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      background: #ffffff;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border: none;
+  
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      }
+  
+      .ant-card-head {
+        background: linear-gradient(90deg, #1890ff, #40c4ff);
+        color: #fff;
+        border-radius: 12px 12px 0 0;
+        font-weight: 600;
+      }
+  
+      .ant-card-body {
+        padding: 20px;
+        
+      }
+    }
+  
+    .card-value {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #1890ff;
+      margin: 0;
+    }
+  
+    .card-description {
+      font-size: 1rem;
+      color: #595959;
+      margin-top: 8px;
+    }
+  
+    .submission-list {
+      max-height: 400px;
+      overflow-y: auto;
+      padding: 8px;
+  
+      /* Loại bỏ gạch ngăn cách giữa các List.Item chỉ trong submission-list */
+      & .ant-list-items .ant-list-item {
+        border-bottom: none !important;
+        padding: 4px 0 !important;
+      }
+  
+      /* Custom scrollbar */
+      &::-webkit-scrollbar {
+        width: 8px;
+      }
+  
+      &::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 10px;
+      }
+  
+      &::-webkit-scrollbar-thumb {
+        background: #1890ff;
+        border-radius: 10px;
+      }
+  
+      &::-webkit-scrollbar-thumb:hover {
+        background: #40c4ff;
+      }
+    }
+  
+    .submission-card {
+      width: 100%;
+      margin-bottom: 8px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      background: #ffffff;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+      }
+
+      .ant-card-body {
+        padding: 15px 20px 10px 20px;
+        background: #f8f8f8;
+
+        
+      }
+
+
+      
+    }
+  
+    .submission-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .submission-info {
+      flex: 1;
+  
+      h3 {
+        margin: 0 0 8px 0;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #333;
+      }
+    }
+  
+    .submission-tags {
+      margin: 8px 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+  
+      .ant-tag {
+        font-size: 0.85rem;
+        color: #8c8c8c;
+        background: #f5f5f5;
+        border: 1px solid #d9d9d9;
+      }
+    }
+  
+    .submission-stats {
+      margin: 8px 0;
+      display: flex;
+      gap: 12px;
+    }
+  
+    .highlight-tag {
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 12px;
+      border: 1px solid transparent;
+      transition: transform 0.2s ease;
+  
+      &:hover {
+        transform: scale(1.05);
+      }
+  
+      &.ant-tag-cyan {
+        background: #e6f7ff;
+        color: #1890ff;
+        border-color: #1890ff;
+      }
+  
+      &.ant-tag-magenta {
+        background: #fff0f6;
+        color: #eb2f96;
+        border-color: #eb2f96;
+      }
+    }
+  
+    .view-details-button {
+      font-weight: 600;
+      border-radius: 8px;
+      transition: transform 0.2s ease, background-color 0.2s ease;
+  
+      &:hover {
+        transform: scale(1.05);
+        background-color: #40c4ff;
+      }
+    }
+  
+    /* Prevent YAxis labels from wrapping */
+    .y-axis-tick {
+      white-space: nowrap;
+    }
+  }

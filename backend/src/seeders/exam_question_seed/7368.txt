@@ -1,0 +1,88 @@
+[
+    {
+        "title": "1a ",
+        "point": 1.5,
+        "content": "Cho hai số thực %(a, b)% thỏa mãn %(|a|\\lt 2024,|b|\\lt 2024)% và<br>\\[\\sqrt{a+2024}+\\sqrt{2025-a}-\\sqrt{2024-a}=\\sqrt{b+2024}+\\sqrt{2025-b}-\\sqrt{2024-b}\\]<br>Tính giá trị của biểu thức %(M=a^{2024}+a^{2025}-b^{2024}-b^{2025})%.",
+        "question_images": [],
+        "solution": "Giả thiết của bài toán có thể được viết lại thành<br>\\[\\sqrt{a+2024}+\\frac{1}{\\sqrt{2025-a}+\\sqrt{2024-a}}=\\sqrt{b+2024}+\\frac{1}{\\sqrt{2025-b}+\\sqrt{2024-b}} \\#(1)\\]<br>Nếu %(a\\gt b)%, thì ta có %(\\sqrt{a+2024}>\\sqrt{b+2024})% và<br>\\[\\sqrt{2025-a}+\\sqrt{2024-a}\\lt \\sqrt{2025-b}+\\sqrt{2024-b}\\]<br>Do đó %(\\mathrm{VT}_{(1)}>\\mathrm{VP}_{(1)})%, mâu thuẫn. Tương tự, nếu %(a\\lt b)%, thì ta có %(\\mathrm{VT}_{(1)}\\lt \\mathrm{VP}_{(1)})%, cũng dẫn đến mâu thuẫn. Do đó %(a=b)% (thử lại thỏa mãn). Từ đây, ta suy ra %(M=0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "1b ",
+        "point": 1.5,
+        "content": "Tồn tại không hai số hữu ti dương %(a, b)% thỏa mãn %(\\sqrt{a}+\\sqrt{b}=\\sqrt{\\sqrt{2024}})% ?",
+        "question_images": [],
+        "solution": "Giả sử tồn tại hai số hữu tỉ dương %(a)% và %(b)% thỏa mãn yêu cầu đề bài. Từ giả thiết, ta có<br>\\[a+b+2 \\sqrt{a b}=2 \\sqrt{506}\\]<br>hay<br>\\[2 \\sqrt{a b}=2 \\sqrt{506}-(a+b)\\]<br>Từ đó<br>\\[4 a b=2024+(a+b)^{2}-4(a+b) \\sqrt{506}\\]<br>Suy ra %(4(a+b) \\sqrt{506})% là số hữu tỉ. Mà %(4(a+b))% là số hữu tỉ và %(\\sqrt{506})% là số vô tỉ nên điều này xảy ra chỉ khi %(a+b=0)%, tức %(a=b=0)%, mâu thuẫn. Vậy, không tồn tại hai số hữu tỉ dương %(a, b)% thỏa mãn yêu cầu.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Với hai số nguyên dương %(a)% và %(b)%, phép toán %(a^{*} b)% được định nghĩa như sau:<br>- %(a^{*} a=a)% với mọi số nguyên dương %(a)%.<br>- %(a^{*} b=b^{*} a)% với mọi số nguyên dương %(a)%<br>- %(a^{*} b=(a-b)^{*} b)% với mọi số nguyên dương %(a\\gt b)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tính %(16^{*} 2024)%.",
+        "question_images": [],
+        "solution": "Từ giả thiết, dễ thấy với %(a\\gt k b)%, với %(k)% nguyên dương thì<br>\\[a^{*} b=(a-b) * b=(a-2 b) * b=\\cdots=(a-k b)^{*} b\\]<br>Sử dụng kết quả này với chú ý %(2024=126 \\cdot 16+8)%, ta được<br>\\[16 * 2024=2024 * 16=(2024-126 \\cdot 16) * 16=8 * 16=16 * 8=8 * 8=8\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm một phép toán thỏa mãn đồng thời cả ba điều kiện trên.",
+        "question_images": [],
+        "solution": "Ta sẽ chứng minh với %(a, b)% là hai số nguyên dương bất kỳ thì<br>\\[a^{*} b=(a, b)\\]<br>trong đó %((a, b))% là ước chung lớn nhất của hai số %(a)% và %(b)%, là một quy tắc của phép toán * thỏa mãn yêu cầu đề bài. Thật vậy, hiển nhiên %(a^{*} a=(a, a)=a)% và %(a^{*} b=(a, b)=(b, a)=b^{*} a)%. Bây giờ, ta sẽ chứng %(\\operatorname{minh})%<br>\\[(a, b)=(a-b, b)\\]<br>Đặt %(m=(a, b))% và %(n=(a-b, b))%. Ta thấy rằng- Cả hai số %(a, b)% đều chia hết cho %(m)% nên %(a-b)% và %(b)% cũng chia hết cho %(m)%. Suy ra %((a-b, b))% chia hết cho %(m)%, hay %(n)% chia hết cho %(m)%.- Cả hai số %(a-b, b)% đều chia hết cho %(n)% nên %(a-b+b=a)% và %(b)% cũng chia hết cho %(n)%. Suy ra %((a, b))% chia hết cho %(n)%, hay %(m)% chia hết cho %(n)%.<br>Như vậy %((a, b)=(a-b, b))%. Từ đây, ta suy ra, với %(a\\gt b)% thì<br>\\[a^{*} b=(a, b)=(a-b, b)=(a-b) * b\\]<br>Tóm lại, %(a^{*} b=(a, b))% là một quy tắc của phép toán * thoả mãn yêu cầu bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho đường tròn %((O, R))% và dây cung %(B C)% cố định không đi qua tâm %(O)%. %(A)% là một điểm di động trên đường tròn %((O, R))% sao cho tam giác %(A B C)% nhọn và %(A B \\neq A C)%. Các đường cao %(A D, B E, C F)% của tam giác %(A B C)% cắt nhau tại điểm %(H)%. Đường thẳng %(E F)% cắt đường tròn %((O))% tại hai điểm %(P)% và %(Q)% sao cho %(F)% nằm giữa %(P)% và %(E)%. Gọi %(M)% là trung điểm của đoạn thẳng %(B C)%. Chứng minh rằng",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(A P^{2}=A Q^{2}=A H \\cdot A D)%.",
+        "question_images": [],
+        "solution": "Ta có %(\\angle B E C=\\angle B F C=90^{\\circ})% và %(\\angle H D B+\\angle H F B=90^{\\circ}+90^{\\circ}=180^{\\circ})% nên các tứ giác %(B C E F)% và %(B D H F)% nội tiếp. Lại có tam giác %(O A C)% cân tại %(O)% nên<br>\\[\\angle O A C=\\frac{180^{\\circ}-\\angle A O C}{2}=90^{\\circ}-\\angle A B C=90^{\\circ}-\\angle A E F\\]<br>Suy ra %(\\angle O A C+\\angle A E F=90^{\\circ})%. Từ đây, ta có %(O A \\perp P Q)%.Xét đường tròn %((O, R))% có %(A)% là điểm chính giữa của cung %(P A Q)% nên %(A P=A Q)%. Suy ra<br>\\[\\angle A P Q=\\angle A Q P=\\angle A B P\\]<br>Từ đó, dễ thấy hai tam giác %(A B P)% và %(A P F)% đồng dạng (g-g). Suy ra<br>\\[A Q^{2}=A P^{2}=A B \\cdot A F=A D \\cdot A H\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9eac70d57745d479a59a4ed98e68c629.png\" srcset=\"https://docdn.giainhanh.io/media/test/ddd2136960d401a1688217a937b3070c.png 215w, https://docdn.giainhanh.io/media/test/b841adf4e25514a56c8f7fc257e26907.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Bốn điểm %(P, Q, M, D)% cùng nằm trên một đường tròn %((\\omega))%.",
+        "question_images": [],
+        "solution": "Ta xét các điểm ở vị trí như trong hình vẽ, các trường hợp còn lại chứng minh tương tự. Do các tứ giác %(B C E F, B D H F)% nội tiếp nên %(\\angle C F E=\\angle C B E=\\angle H F D)%. Suy ra %(\\angle D F E=2 \\angle C F E)%.<br>Vì %(M)% là tâm đường tròn ngoại tiếp tứ giác %(B C E F)% nên %(\\angle C M E=2 \\angle C F E=\\angle D F E)%. Suy ra tứ giác %(D M E F)% nội tiếp. Bây giờ, gọi %(S)% là giao điểm của hai đường thẳng %(E F)% và %(B C)%. Ta có %(S D \\cdot S M=S E \\cdot S F=S B \\cdot S C=S P \\cdot S Q)%. Do đó, bốn điểm %(P, Q, M, D)% cùng thuộc đường tròn %((\\omega))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tâm %(I)% của đường tròn %((\\omega))% luôn thuộc một đường tròn cố định.",
+        "question_images": [],
+        "solution": "Do điểm %(I)% thuộc đường trung trực của %(P Q)% và %(A O \\perp P Q)% nên điểm %(I)% thuộc đường thẳng %(A O)%. Qua điểm %(I)%, kẻ đường thẳng vuông góc với đường thẳng %(D M)% tại điểm %(N)% thì %(N)% là trung điểm của đoạn thẳng %(D M)% và %(A D\\|O M\\| I N)%. Áp dụng tính chất đường trung bình của hình thang, ta có %(I)% là trung điểm của đoạn thẳng %(O A)%. Suy ra %(O I=\\frac{O A}{2}=\\frac{R}{2})% không đổi. Vậy, tâm %(I)% của đường tròn %((\\omega))% luôn thuộc đường tròn %(\\left(O, \\frac{R}{2}\\right))% cố định khi điểm %(A)% thay đổi.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Với mỗi số nguyên dương %(n)%, gọi %(f(n))% là tồng tất cả các chữ số của số %(3 n^{2}+n+1)%. Tìm giá trị nhỏ nhất có thể của %(f(n))%.",
+        "question_images": [],
+        "solution": "Hiển nhiên %(f(n)\\gt 0)% với mọi %(n)% nguyên dương. Giả sử tồn tại số nguyên dương %(n)% sao cho %(f(n)=1)%, khi đó %(3 n^{2}+n+1=10^{k})% với %(k)% tự nhiên. Tuy nhiên, vì %(3 n^{2}+n+1)% là số lẻ nên ta phải có %(k=0)%, từ đó %(3 n^{2}+n+1=1)%, mâu thuẫn.<br>Bây giờ, giả sử tồn tại số nguyên dương %(n)% sao cho %(f(n)=2)%, khi đó %(3 n^{2}+n+1=10^{k}+10^{\\ell})% với %(k, \\ell)% là các số tự nhiên và %(k>\\ell)%. Vì %(3 n^{2}+n+1)% là số lẻ nên ta phải có %(\\ell=0)%, từ đó %(3 n^{2}+n=10^{k})%, hay %(n(3 n+1)=2^{k} \\cdot 5^{k})%. Đến đây, với chú ý %((n, 3 n+1)=1)% và %(3 n+1>n>1(n=1)% hiển nhiên không thỏa mãn), ta suy ra %(n=2^{k})% và %(3 n+1=5^{k})%, hay %(3 \\cdot 2^{k}+1=5^{k})%. Một cách tương đương, ta có<br>\\[3\\left(\\frac{2}{5}\\right)^{k}+\\left(\\frac{1}{5}\\right)^{k}=1\\]<br>Với %(k \\geq 2)%, ta có %(3\\left(\\frac{2}{5}\\right)^{k}+\\left(\\frac{1}{5}\\right)^{k} \\leq 3\\left(\\frac{2}{5}\\right)^{2}+\\left(\\frac{1}{5}\\right)^{2}=\\frac{13}{25}\\lt 1)%, mâu thuẫn. Do đó %(k=1)%. Tuy nhiên, khi thử lại, ta thấy không thỏa mãn.<br>Như vậy, ta phải có %(f(n) \\geq 3)%. Mặt khác, với %(n=8)% thì %(3 n^{2}+n+1=201)%, lúc này %(f(n)=3)%. Vậy %(\\min f(n)=3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho một bảng ô vuông %(8 \\times 8)%. Một miếng domino là một hình chữ nhật được tạo bởi hai ô vuông %(1 \\times 1)% liên tiếp có chung cạnh. Người ta lát bảng %(8 \\times 8)% bằng các miếng domino màu trắng (có hai ô vuông được tô màu trắng) hoặc màu đen (có hai ô vuông được tô màu đen) thỏa mãn đồng thời ba điều kiện:- Hai miếng domino bất kỳ không cùng che một ô %(1 \\times 1)%.<br>- Mỗi hình vuông %(2 \\times 2)% bất kỳ đều có ít nhất một ô vuông màu đen.<br>- Cả bảng được lập bởi các miếng domino trắng và đen.<br>Tìm số nguyên dương %(k)% nhỏ nhất sao cho ta có thể lát được bảng với đúng %(k)% miếng domino màu đen.",
+        "question_images": [],
+        "solution": "Xét các bảng con 2x2 được đánh dấu như hình vẽ bên dưới.<br>Trong mỗi bảng con sẽ có ít nhất một ô vuông được tô màu đen. Do đó, số miếng domino màu đen cần sử dụng không ít hơn 9 , tức %(k \\geq 9)%. Mặt khác, với %(k=9)%, cách lát sau thỏa mãn yêu cầu đề bài (các đoạn thẳng màu xanh lá cây là các vị trí lát các miếng domino màu trắng).<br>Vậy %(k_{\\min }=9)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/83ce1c28b126cde0d83a0d6b2eef5eab.png\" srcset=\"https://docdn.giainhanh.io/media/test/c393b681191eb44aab41957ac127f7bc.png 224w\" width=\"224\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f9e977eb11c00b3d8710c66d8b3ec0a6.png\" srcset=\"https://docdn.giainhanh.io/media/test/94d63fc20d00e2fece844bcbd8b6ca1d.png 171w\" width=\"171\"/>",
+        "question_type": "essay"
+    }
+]

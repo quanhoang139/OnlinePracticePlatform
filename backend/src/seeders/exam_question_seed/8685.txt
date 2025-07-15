@@ -1,0 +1,73 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Cho hàm số %(y=\\frac{1}{3} x^{3}+(m-1) x^{2}-(6 m+3) x+\\frac{2}{3})%.<br>Với các giá trị nào của %(m)%, hàm số đồng biến trên khoảng %((4 ;+\\infty))% ?",
+        "question_images": [],
+        "solution": "%(\\mathrm{TXĐ:D}=\\mathbb{R})%<br>\\[y^{\\prime}=x^{2}+2(m-1) x-(6 m+3)\\]<br>Hàm số đồng biến trên khoảng %((4 ;+\\infty))% khi và chỉ khi<br>\\[\\begin{array}{l}x^{2}+2(m-1) x-(6 m+3) \\geq 0 \\quad \\forall x\\gt 4 \\\\Leftrightarrow m \\geq \\frac{-5}{2}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 3.0,
+        "content": "Biện luận theo tham số %(m)% số nghiệm của phương trình %(\\left|x^{2}-4 x+3\\right|=m)%.",
+        "question_images": [],
+        "solution": "Vẽ đúng đồ thị %((\\mathrm{C}): y=\\left|x^{2}-4 x+3\\right|)%<br>Đường thẳng %(y=m)% luôn vuông góc với %(O y)%.<br>Dựa vào đồ thị, ta có:<br>PT vô nghiệm khi và chỉ khi %(m\\lt 0)%<br>PT có 2 nghiệm phân biệt khi và chỉ khi %(m=0)% hoặc %(m\\gt 1)%<br>PT có 3 nghiệm phân biệt khi và chỉ khi %(m=1)%<br>PT có 4 nghiệm phân biệt khi và chỉ khi %(0\\lt m\\lt 1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 3.0,
+        "content": "Cho các số dương %(x, y, z)%. Chứng minh rằng:<br>\\[\\frac{x^{2}}{y+z}+\\frac{y^{2}}{z+x}+\\frac{z^{2}}{x+y} \\geq \\frac{x+y+z}{2} \\geq \\frac{x y}{x+y}+\\frac{y z}{y+z}+\\frac{z x}{z+x}\\]",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\frac{x^{2}}{y+z}+\\frac{y+z}{4} \\geq x, \\frac{y^{2}}{z+x}+\\frac{z+x}{4} \\geq y, \\frac{z^{2}}{x+y}+\\frac{x+y}{4} \\geq z\\]<br>Nên: %(\\frac{x^{2}}{y+z}+\\frac{y^{2}}{z+x}+\\frac{z^{2}}{x+y} \\geq \\frac{x+y+z}{2})%<br>Dấu \"=\" xảy ra khi và chi khi %(x=y=z)%<br>Ta có:<br>\\[\\frac{x+y}{2} \\geq \\frac{2 x y}{x+y}, \\frac{y+z}{2} \\geq \\frac{2 y z}{y+z}, \\frac{z+x}{2} \\geq \\frac{2 z x}{z+x}\\]<br>Nên: %(\\frac{x+y+z}{2} \\geq \\frac{x y}{x+y}+\\frac{y z}{y+z}+\\frac{z x}{z+x})%<br>Dấu \" %(=)% \" xảy ra khi và chỉ khi %(x=y=z)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Tìm %(\\lim u_{n})% với %(u_{n}=\\frac{1}{2} \\cdot \\frac{3}{4} \\cdot \\frac{5}{6} \\ldots \\frac{2 n+1}{2 n+2})%.",
+        "question_images": [],
+        "solution": "Bằng quy nạp ta chứng minh được %(\\frac{1}{2} \\cdot \\frac{3}{4} \\cdot \\frac{5}{6} \\ldots \\frac{2 n+1}{2 n+2}\\lt \\frac{1}{\\sqrt{3 n+4}} \\forall n \\geq 1)%<br>Mà %(\\lim \\frac{1}{\\sqrt{3 n+4}}=0)% nên %(\\lim \\frac{1}{2} \\cdot \\frac{3}{4} \\cdot \\frac{5}{6} \\ldots \\frac{2 n+1}{2 n+2}=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho dãy số %(\\left(v_{n}\\right))% định bởi %(v_{1}=1)% và %(v_{n+1}=\\frac{\\sqrt{1+v_{n}^{2}}-1}{v_{n}})% với mọi %(n \\geq 1)%.<br>Tìm công thức tính %(v_{n})% theo %(n)%.",
+        "question_images": [],
+        "solution": "Dự đoán %(v_{n}=\\tan \\frac{\\pi}{2^{n+1}} \\forall n \\geq 1)%.<br>Chứng minh công thức đúng bằng quy napp.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Trong một buổi tiệc có 10 chàng trai, mồi chàng trai dần theo một cô gái.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Có bao nhiêu cách xếp họ ngồi thành một hàng ngang sao cho các cô gái ngồi cạnh nhau, các chàng trai ngồi cạnh nhau và có một chàng trai ngồi cạnh cô gái mà anh ta dẫn theo ?",
+        "question_images": [],
+        "solution": "Có %(2 \\times 10!x9!)% cách",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Ký hiệu các cô gái là %(G_{1}, G_{2}, \\ldots, G_{10})%. Xếp hết 20 người ngồi thành một hàng ngang sao cho các điều kiện sau được đồng thời thỏa mãn:<br>1. Thứ tự ngồi của các cô gái, xét từ trái sang phải là %(G_{1}, G_{2}, \\ldots, G_{10})%.<br>2. Giữa %(G_{1})% và %(G_{2})% có ít nhất 2 chàng trai.<br>3. Giữa %(G_{8})% và %(G_{9})% có it nhất 1 chàng trai và nhiều nhất 3 chàng trai.<br>Hỏi có tát cả bao nhiêu cách xếp như vây ?",
+        "question_images": [],
+        "solution": "Giả sử có 20 chỗ ngồi được đánh số thứ tự từ trái sang phải là %(1,2, \\ldots, 20)%.<br>Gọi %(x_{1})% là số chàng trai được xếp bên trái %(G_{1}, x_{2})% là số chàng trai được xếp ở giữa %(G_{1})% và %(G_{2}, x_{3})% là số chàng trai được xếp ở giữa %(G_{2})% và %(G_{3}, \\ldots, x_{10})% là số chàng trai được xếp ở giữa %(G_{9})% và %(G_{10}, x_{11})% là số chàng trai được xếp bên phải %(G_{10})%.<br>Bộ số %(\\left(x_{1}, x_{2}, \\ldots, x_{11}\\right))% hoàn toàn xác định vị trí các cô gái và:<br>1) %(x_{1}+x_{2}+\\ldots+x_{11}=10)%<br>2) %(x_{2} \\geq 2)%<br>3) %(1 \\leq x_{9} \\leq 3)%<br>Đối biến %(y_{2}=x_{2}-2)% ta có: %(x_{1}+y_{2}+x_{3}+\\ldots \\mathrm{x}_{8}+x_{10}+x_{11}=8-x_{9})%.<br>Trong đó các ẩn không âm và %(1 \\leq x_{9} \\leq 3)%<br>Sử dụng kết quả bài toán chia kẹo Euler ta được số bồ %(\\left(x_{1}, x_{2}, \\ldots, x_{11}\\right))% là:<br>\\[C_{16}^{9}+C_{15}^{9}+C_{14}^{9}=18447\\]<br>Vậy có 18447.10 ! cách xếp thỏa đề.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 4.0,
+        "content": "Cho tam giác %(A B C)% với %(I)% là tâm đường tròn nội tiếp và %(M)% là một điểm nằm trong tam giác. Gọi %(A_{1}, B_{1}, C_{1})% là các điểm đối xứng với điểm %(M)% lần lượt qua các đuờng thẳng %(A I, B I, C I)%. Chứng minh rằng các đường thẳng %(A A_{1}, B B_{1}, C C_{1})% đồng quy.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ece172fc82001a0bccf308c7c582b9eb.png\" srcset=\"https://docdn.giainhanh.io/media/test/ccb3546825a279899ddfa465248bf5dc.png 176w\" width=\"176\"/><br>Xét trường hợp %(M)% nằm trong góc %(B A I)%.<br>Gọi %(M_{a}, M_{b}, M_{c})% lần lượt là các điểm đối xứng với %(M)% qua %(B C, C A, A B)%.<br>Bằng biến đổi góc, ta chứng minh được %(\\widehat{M_{c} A A_{1}}=\\widehat{M_{b} A A_{1}})% nên %(A A_{1})% là đường trung trực của đoạn %(M_{b} M_{c})%.<br>Trường hợp %(M)% nằm trong góc %(C A I)% hoặc %(M)% nằm trên %(A I)% ta cũng chứng minh được %(A A_{1})% là đường trung trực của đoạn %(M_{b} M_{c})%.<br>Chứng minh tương tự, ta được %(B B_{1})% là đường trung trực của đoạn %(M_{e} M_{c})% và %(C C_{1})% là đường trung trực của đoạn %(M_{a} M_{b})%.<br>Vậy %(A A_{1}, B B_{1}, C C_{1})% đồng quy.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Tìm tất cả giá trị của tham số %(m)% để phương trình %(x^{2}+(2 m-1) x-m^{2}-2=0)% có hai nghiệm phân biệt %(x_{1}, x_{2})% thỏa mãn %(\\left|x_{1}\\right|+\\left|x_{2}\\right|=7)%.",
+        "question_images": [],
+        "solution": "Ta có phương trình ban đầu là<br>%(x^{2}+(2 m-1) x-m^{2}-2=0)%<br>Ta thấy với mọi số thực %(m)% thì biểu thức %(\\Delta=8 m^{2}-4 m+9\\gt 0)% nên từ đây suy ra phương trình có hai nghiệm phân biệt %(x_{1}, x_{2})%.Theo hệ thức Vi-ét, ta có<br>%(\\left\\{\\begin{array}{c}x_{1}+x_{2}=1-2 m \\x_{1} \\cdot x_{2}=-m^{2}-2\\lt 0\\end{array}\\right.)%<br>Giả sử<br>%(\\left|x_{1}\\right|+\\left|x_{2}\\right|=7)%<br>Điều này tương đương với<br>%(x_{1}^{2}+2\\left|x_{1} x_{2}\\right|+x_{2}^{2}=49)%<br>Hay là<br>%(\\left(x_{1}+x_{2}\\right)^{2}-2 x_{1} x_{2}+2\\left|x_{1} x_{2}\\right|=49)%<br>Từ các điều trên, cho ta<br>%(\\begin{array}{c}(1-2 m)^{2}+2\\left(m^{2}+2\\right)+2\\left(m^{2}+2\\right)=49 \\\\Leftrightarrow 8 m^{2}-4 m-40=0 \\\\Leftrightarrow 4(m+2)(2 m-5)=0\\end{array})%<br>Đến đây, ta thu được %(m \\in\\left\\{-2, \\frac{5}{2}\\right\\})% là tất cả giá trị của %(m)% thỏa mãn đề bài.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Với mỗi %(n)% nguyên dương, ta định nghĩa %(f(n)=\\frac{4 n+\\sqrt{4 n^{2}-1}}{\\sqrt{2 n+1}+\\sqrt{2 n-1}})%. Tính %(f(1)+f(2)+\\cdots+)% %(f(60))%.",
+        "question_images": [],
+        "solution": "Từ định nghīa của %(f(n))%, ta có %(f(n)=\\frac{4 n+\\sqrt{4 n^{2}-1}}{\\sqrt{2 n+1}+\\sqrt{2 n-1}})%<br>Đặt %(a=\\sqrt{2 n+1})% và %(b=\\sqrt{2 n-1})% thì ta có %(a, b)% là các số dương và %(a^{2}-b^{2}=2)%.<br>Ta có %(f(n)=\\frac{a^{2}+b^{2}+a b}{a+b}=\\frac{\\left(a^{2}+b^{2}+a b\\right) \\cdot(a-b)}{a^{2}-b^{2}}=\\frac{a^{3}-b^{3}}{2}=\\frac{(\\sqrt{2 n+1})^{3}-(\\sqrt{2 n-1})^{3}}{2})%<br>Khi đó<br>\\[I=f(1)+f(2)+\\cdots+f(60)=\\frac{(\\sqrt{3})^{3}-1}{2}+\\frac{(\\sqrt{5})^{3}-(\\sqrt{3})^{3}}{2}+\\cdots+\\frac{11^{3}-(\\sqrt{119})^{3}}{2}=\\frac{11^{3}-1}{2}=665 \\text {. }\\]<br>Vậy I = 66665",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng với mọi số nguyên dương %(n)% thì %(n^{3}-9 n+54)% không chia hết cho 81",
+        "question_images": [],
+        "solution": "Cách 1. Giả sử tồn tại số nguyên dương %(n)% thỏa mãn %(n^{3}-9 n+54)% chia hết cho 81 .<br>Từ đây, suy ra %(n)% chia hết cho 3 .<br>Ta xét trường hợ %(n=9 k+r)% với %(r \\in\\{0,3,6\\})%Trường hợp 1 .<br>Nếu %(n=9 k)% thì %(n^{3})% và %(9 n)% chia hết cho 81 .<br>Từ đây dẫn đến điè̀u mâu thuẵn là phải có 54 chia hết cho 81 .<br>Trường hợp 2 .<br>Nếu %(n=9 k+3)% thì ta có diều mâu thuẫn là<br>%(\\begin{array}{c}T=n^{3}-9 n+54=(9 k+3)^{3}-9 \\cdot(9 k+3)+54=729 k^{3}+729 k^{2}+162 k+54 \\\\equiv 54(\\bmod 81)\\end{array})%<br>Trường hợp 3.<br>Nếu %(n=9 k+6=9 k^{\\prime}-3)% trong đó %(k^{\\prime}=k+1)% thì cũng có điều mâu thuẫn đó là<br>\\[\\begin{array}{c}T=n^{3}-9 n+54=\\left(9 k^{\\prime}-3\\right)^{3}-9 \\cdot\\left(9 k^{\\prime}-3\\right)+54=729 k^{\\prime 3}-729 k^{2}+162 k+54 \\\\equiv 54(\\bmod 81)\\end{array}\\]<br>Từ các điều trên, cho ta thấy rằng với mọi số nguyên dương %(n)% ta dều có %(n^{3}-9 n+54)% không chia hết cho 81 .<br>Cách 2. Từ phần %(n)% chia hết cho 3 , ta đặt %(n=3 k)% và có phân tích sau<br>%(T=n^{3}-9 n+54=27 k^{3}-27 k+54=27 \\cdot[k(k-1)(k+1)+2])%<br>Ta thấy rằng %((k-1) \\cdot k \\cdot(k+1))% là tích 3 số nguyên liên tiếp nên nó phải chia hết cho 3 nên từ đây có %(t \\equiv 54(\\bmod 81))%.Cho ta điều mâu thuẫn.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tìm tất cả số tự nhiên %(n)% sao cho %(P=\\sqrt{n+6}+\\sqrt{n+3 \\sqrt{n+6}})% là số nguyên.",
+        "question_images": [],
+        "solution": "Giả sử tồn tại số nguyên dương %(n)% thỏa mãn %(P=\\sqrt{n+6}+\\sqrt{n+3 \\sqrt{n+6}})% là số nguyên.<br>Đặt %(\\sqrt{n+6}+\\sqrt{n+3 \\sqrt{n+6}}=m)% thì ta có<br>%(m-\\sqrt{n+6}=\\sqrt{n+3 \\sqrt{n+6}})%<br>Tương đương với<br>%(m^{2}-2 m \\cdot \\sqrt{n+6}+n+6=n+3 \\cdot \\sqrt{n+6})%<br>Hay là<br>%(m^{2}+6=(2 m+3) \\cdot \\sqrt{n+6})%<br>Từ đây ta có %(\\sqrt{n+6})% là số hữu tỉ suy ra %(n+6)% là số chính phương.Đến đây, đặt %(a=\\sqrt{n+6})% thì có %(a)% là số nguyên dương và<br>%(\\begin{array}{c}a+\\sqrt{a^{2}+3 a-6}=m . \\\\Leftrightarrow(m-a)^{2}=a^{2}+3 a-6.4 \\cdot(m-a)^{2}=(2 a+3)^{2}-33 . \\\\Leftrightarrow-2 m+3) \\cdot(2 m+3)=33\\end{array})%<br>Do %(2 m+3 \\geqslant 5)% nên %(2 m+3 \\in\\{11,33\\})% suy ra %(m \\in\\{4,15\\})%<br>Trường hợp 1 .<br>Nếu %(m=4)% thì %(a=2)% nhưng mâu thuận do %(a=\\sqrt{n+6}\\gt 2)%<br>Trường hợp 2.<br>Nếu %(m=15)% thì %(a=7)% và từ đây tìm được %(n=43)%.<br>Vậy chỉ có %(n=43)% là thỏa mãn đề bài.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Giải phương trình %(12 x^{2}-2 x-1=x \\sqrt{2 x+1})%",
+        "question_images": [],
+        "solution": "Ta có phương trình %(12 x^{2}-2 x-1=x \\sqrt{2 x+1})%.<br>Từ phương trình trên, phải có %(x \\geqslant \\frac{-1}{2})%<br>Từ phương trình ban đầu, suy ra<br>%(\\left(12 x^{2}-2 x-1\\right)^{2}=x^{2}(2 x+1))%<br>Điều này tương dương với<br>%(144 x^{4}+4 x^{2}+1-48 x^{3}+4 x-24 x^{2}=2 x^{3}+x^{2})%<br>Hay là<br>%(144 x^{4}-25 x^{2}(2 x+1)+(2 x+1)^{2}=0)%<br>Kéo theo<br>%(\\left(9 x^{2}-2 x-1\\right) \\cdot\\left(16 x^{2}-2 x-1\\right)=0)%<br>Từ đây có<br>%(\\left[\\begin{array}{l}9 x^{2}-2 x-1=0 \\\\16 x^{2}-2 x-1=0\\end{array}\\right.)%<br>Đến đây, giải các phương trình trên và kêt hợp thử lại, cho ta tập nghiệm<br>%(S=\\left(\\frac{1+\\sqrt{10}}{9}, \\frac{1-\\sqrt{17}}{16}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Trên đường tròn, lấy 2024 điểm phân biệt, các điểm được tô màu xanh và màu đỏ xen kẽ nhau. Mổi điểm được gán với một giá trị là một số thực khác khồng, giá trị của mổi điểm xanh bằng tổng giá trị của hai điểm đỏ kể với nó và giá trị mỗi điểm đỏ bằng tích 2 điểm xanh kề nó. Tính tổng giá trị của 2024 điểm trên.",
+        "question_images": [],
+        "solution": "Ta bắt đầu với 2 điểm màu xanh liên tiép là %(a, b)% với %(a, b)% là các số thực khác không.Khì đó điểm màu đỏ ở giữa 2 điểm màu xanh %(a, b)% là %(a b)%.<br>Theo giả thiết thì 8 số liên tiếp bắt đầu trái sang phải bắt đầu điểm màu xanh %(a)% là<br>%(a, a b, b, b \\cdot(1-a), 1-a,(1-a) \\cdot(1-b),(1-b), a \\cdot(1-b) \\text {. })%<br>Khỉ đó tổng 8 số trên là<br>%(a+a \\cdot b+b+b-a \\cdot b+1-a+(1-a) \\cdot(1-b)+1-b+a \\cdot(1-b)=3 .)%<br>Từ điều trên, ta cũng thấy rằng số thứ 9 từ trái sang phải tính như trên sẽ là %(a)%, như vậy chúng sẽ tạo thành một vòng lặp 8 số.<br>Như vậy các số trên chia được thành các nhóm 8 số có tổng bằng 3 .<br>Và thấy rằng có %(\\frac{2024}{8}=253)% nhóm.<br>Suy ra tổng của 2024 số trên là %(253.3=759)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác %(A B C)% nội tiếp đường tròn %((O))% bán kính %(R=4 \\mathrm{~cm}, B C=4 \\sqrt{3} \\mathrm{~cm})%. Đường tròn đường kính %(B C)% cắt %(A B, A C)% lẩn lượt tại %(E, F(E)% khác %(B)% và %(C)% khác %(F))%. Gọi %(H)% là giao điểm của %(B F)% và %(C E)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng tứ giác %(A E H F)% nội tiếp đường tròn và tính bán kính đường tròn đó.",
+        "question_images": [],
+        "solution": "Ta có %(C E A=B F A=90^{\\circ})% nên %(H E A=H F A=90^{\\circ})%<br>Từ đây suy ra tứ giác %(A E H F)% nội tiếp.<br>Vì %(\\angle C E A=90^{\\circ})% nên %(C E \\perp A B)% và tương tự cũng có được %(B F \\perp A C)%.<br>Suy ra %(H)% là trực tâm %(\\triangle A B C)% nên %(A H=2 O M=2 \\sqrt{O C^{2}-C M^{2}}=4 \\mathrm{~cm})%.<br>Gọi %(X)% là trung điểm %(A H)% thì sẽ suy ra được %(X A=2 \\mathrm{~cm})%.<br><img alt=\"https://docdn.giainhanh.io/media/test/348bb7df1be62c1255b6efa871979592.PNG\" src=\"https://docdn.giainhanh.io/media/test/348bb7df1be62c1255b6efa871979592.PNG\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh rằng %(O A \\perp E F)%.",
+        "question_images": [],
+        "solution": "Ta có %(\\angle O A B=90^{\\circ}-\\angle A C B=90^{\\circ}-\\angle A E F)% (do tứ giác %(B E F C)% nội tiếp).<br>Suy ra %(\\angle O A B+\\angle A E F=90^{\\circ})% nên %(O A \\perp E F)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Từ %(A)% kẻ tiếp tuyến %(A I, A J)% đến đường tròn đường kính %(B C)% với %(I, J)% là các tiếp điểm. Đường thẳng %(A H)% cắt %((O, R))% tại %(K)% khác %(A)%. Tính %(\\frac{H I \\cdot H J}{H K})%.",
+        "question_images": [],
+        "solution": "Ta gọi %(D)% là giao điềm của %(A K)% và %(B C)%.<br>Để ý rằng đường tròn đường kính %(A M)% đi qua %(I, J, D)%.<br>Gọi %(S)% là giao điểm của %(I J)% và %(A M)%. Dễ dàng có được %(A S \\cdot A M=A J^{2})%.<br>Mặt khác %(A S \\cdot A M=A H \\cdot A D)% nên suy ra %(A H \\cdot A D=A J^{2})%.<br>Suy ra %(\\triangle A J H \\sim \\triangle A D J)% nên có %(\\angle A J H=\\angle A D J=\\angle A J J=\\angle A J I)% nên %(I J)% đi qua %(H)%.<br>Do tứ giác %(A I D J)% nội tiếp nên %(H I \\cdot H J=H A \\cdot H D=H A \\cdot \\frac{H K}{2})%.<br>Và cuối cùng, ta tính được %(\\frac{H I \\cdot H J}{H K}=\\frac{A H}{2}=2 \\mathrm{~cm})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho các số thực dương %(x, y, z)%. Tìm giá trị nhỏ nhất của biểu thức<br>%(M=\\frac{2 x y z}{x^{3}+y^{3}+z^{3}}+\\frac{\\left|x^{3}-y^{3}\\right|+\\left|y^{3}-z^{3}\\right|+\\left|z^{3}-x^{3}\\right|}{3 x y z})%",
+        "question_images": [],
+        "solution": "Không mất tính tổng quát, giả sử %(x \\geqslant y \\geqslant z)%.<br>Từ đây, ta có %(\\left|x^{3}-y^{3}\\right|+\\left|y^{3}-z^{3}\\right|+\\left|z^{3}-x^{3}\\right|=2\\left(x^{3}-z^{3}\\right))%<br>Khi này, %(M=\\frac{2 x y z}{x^{3}+y^{3}+z^{3}}+\\frac{2\\left(x^{3}-z^{3}\\right)}{3 x y z})%<br>Theo bất đẳng thức Cauchy, ta có %(x^{3}+y^{3}+z^{3} \\geqslant 3 x y z)%.<br>Cho nên suy ra %(M \\geqslant \\frac{2 x y z+2\\left(x^{3}-z^{3}\\right)}{x^{3}+y^{3}+z^{3}})%.<br>Đến đây ta sē chỉ ra rằng %(\\frac{x y z+x^{3}-z^{3}}{x^{3}+y^{3}+z^{3}} \\geqslant \\frac{1}{3})%.<br>Điều này tương đương với %(2 x^{3}+3 x y z \\geq y^{3}+4 z^{3})%.<br>Mặt khác, do %(x \\geqslant y \\geqslant z)% nên ta có %(2 x^{3}+3 x y z \\geq z^{3}+y^{3}+3 z^{3}=y^{3}+4 z^{3})%.<br>Do đó, ta có được %(M \\geqslant \\frac{2}{3})%.<br>Đẳng thức xảy ra khi vào chỉ khi %(x=y=z)%.",
+        "question_type": "essay"
+    }
+]

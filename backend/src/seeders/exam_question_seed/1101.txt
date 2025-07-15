@@ -1,0 +1,125 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 0.5,
+        "content": "Chứng minh giá trị của biểu thức %(P=\\left(\\frac{2+\\sqrt{a}}{a+2 \\sqrt{a}+1}-\\frac{\\sqrt{a}-2}{a-1}\\right): \\frac{\\sqrt{a}}{a \\sqrt{a}+a-\\sqrt{a}-1})% không phụ thuộc vào giá trị của %(\\mathrm{a})%, với %(\\mathrm{a}\\gt 0)% và %(\\mathrm{a} \\neq 1)%.",
+        "question_images": [],
+        "solution": "Với %(a\\gt 0)% và %(a \\neq 1)%, ta có<br>\\[\\begin{aligned}P & =\\left[\\frac{(2+\\sqrt{a})(\\sqrt{a}-1)-(\\sqrt{a}-2)(\\sqrt{a}+1)}{(\\sqrt{a}+1)^{2}(\\sqrt{a}-1)}\\right] \\cdot \\frac{(\\sqrt{a}-1)(\\sqrt{a}+1)^{2}}{\\sqrt{a}} \\\\& =\\frac{(a+\\sqrt{a}-2)-(a-\\sqrt{a}-2)}{\\sqrt{a}} \\\\& =\\frac{2 \\sqrt{a}}{\\sqrt{a}} \\\\& =2 .\\end{aligned}\\]<br>Do đó, %(P)% không phụ thuộc vào %(a)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Cho ba số %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là ba số nguyên dương thỏa mãn %(\\frac{4}{\\mathrm{a}}+\\frac{2}{\\mathrm{~b}}=\\frac{1}{\\mathrm{c}})%. Chứng %(\\operatorname{minh} \\mathrm{Q}=\\mathrm{a}^{2}+4 \\mathrm{~b}^{2}+)% %(16 \\mathrm{c}^{2})% là một số chính phương.",
+        "question_images": [],
+        "solution": "Từ giải thiết %(\\frac{4}{a}+\\frac{2}{b}=\\frac{1}{c})%, suy ra %(c=\\frac{a b}{2(2 b+a)})%, thế vào, ta có<br>\\[\\begin{aligned}Q & =a^{2}+4 b^{2}+16\\left(\\frac{a b}{2(2 b+a)}\\right)^{2} \\\\& =a^{2}+4 b^{2}+4\\left(\\frac{a b}{2 b+a}\\right)^{2} \\\\& =\\left(2 b+a-\\frac{2 a b}{2 b+a}\\right)^{2} \\\\& =(2 b+a-4 c)^{2}\\end{aligned}\\]<br>Do %(a, b, c)% nguyên nên %(2 b+a-4 c)% là một số nguyên. Vậy %(Q)% là một số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2:",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Trên mặt phẳng tọa độ %(O x y)%, cho parabol %(O A B)% : %(\\left( P \\right ))% và đường thảng %(\\left( d \\right ))% : %(y = \\frac{1}{2} x + m)%. Tìm tất cả các giá trị của %(m)% để %(A , B)% cắt %(\\left( d \\right ))% tại hai điểm phân biệt %(A)% sao cho tam giác %(y = 2 x^{2})% vuông tại %(\\left( P \\right ))%.",
+        "question_images": [],
+        "solution": "Xét phương trình hoành độ giao điểm của %((d))% và %((P))% :<br>\\[x^{2}=\\frac{1}{2} x+m \\Leftrightarrow 4 x^{2}-x-2 m=0 .\\]<br>(d) cắt %((P))% tại 2 điểm phân biệt khi và chỉ khi phương trình trên có 2 nghiệm phân biệt. Điều này xảy ra khi và chỉ khi: %(\\Delta=1+32 m\\gt 0 \\Leftrightarrow m>-\\frac{1}{32})%.<br>Gọi %(x_{1}, x_{2})% là hai nghiệm của PT %(\\left({ }^{*}\\right))%. Với %(m>-\\frac{1}{32})%, theo Vi-ét, ta có:<br>\\[\\left\\{\\begin{array}{l}x_{1}+x_{2}=\\frac{1}{4} \\x_{1} x_{2}=-\\frac{m}{2}\\end{array}\\right.\\]<br>Gọi %(A\\left(x_{1}, 2 x_{1}^{2}\\right))% và %(B\\left(x_{2}, 2 x_{2}^{2}\\right))% là 2 giao điểm của %((d))% và %((P))%. Tam giác %(O A B)% vuông tại %(A)% khi và chỉ khi %(O A^{2}+A B^{2}=O B^{2})%. Điều này tương đương với<br>\\[\\left[x_{1}^{2}+4 x_{1}^{4}\\right]+\\left[\\left(x_{1}-x_{2}\\right)^{2}+4\\left(x_{1}^{2}-x_{2}^{2}\\right)^{2}\\right]=x_{2}^{2}+4 x_{2}^{4}\\]<br>\\[\\begin{array}{l}\\Leftrightarrow\\left(x_{1}-x_{2}\\right)\\left[x_{1}+x_{2}+4\\left(x_{1}+x_{2}\\right)\\left(x_{1}^{2}+x_{2}^{2}\\right)+\\left(\\left(x_{1}-x_{2}\\right)\\left[1+4\\left(x_{1}+x_{2}\\right)^{2}\\right]\\right]=0\\right. \\\\Leftrightarrow \\frac{1}{4}+\\frac{1}{16}+m+\\frac{5}{4}\\left(x_{1}-x_{2}\\right)=0 \\\\Leftrightarrow x_{1}-x_{2}=-\\frac{1}{4}-\\frac{4 m}{5} .\\end{array}\\]<br>Kết hợp với %(x_{1}+x_{2}=\\frac{1}{4})%, suy ra %(x_{1}=-\\frac{2 m}{5})% và %(x_{2}=\\frac{1}{4}+\\frac{2 m}{5})%. Thế vào %(x_{1} \\cdot x_{2}=-\\frac{m}{2})%. Ta có<br>\\[-\\frac{2 m}{5}\\left(\\frac{1}{4}+\\frac{2 m}{5}\\right)=-\\frac{m}{2} \\Leftrightarrow m=\\frac{5}{2} \\text { hoặc } m=0\\]<br>Đối chiếu điều kiện, ta có %(m=\\frac{5}{2})% là giá trị cần tìm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.5,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}\\sqrt{x-2 y-3}+2 y^{2}+4 y=0 \\\\ x^{2}+1=x y\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Giả sử %(\\left(x_{0}, y_{0}\\right))% là một nghiệm của hệ phương trình trên. Khi đó, %(x_{0})% là nghiệm của phương trình %(x^{2}-y_{0} x+1=0)%. Suy ra %(\\Delta=y_{0}^{2}-4 \\geq 0)%. Từ phương trình thứ nhất của hệ phương trình trên, ta có<br>\\[2 y_{0}^{2}+4 y_{0}=-\\sqrt{x_{0}-2 y_{0}-3} \\leq 0 \\Leftrightarrow-2 \\leq y_{0} \\leq 0 \\text {. }\\]<br>Kết hợp với %(y_{0}^{2} \\geq 4)%. Ta thu được %(y_{0}=-2)%. Do đó %(x_{0}=-1)%<br>Thử lại ta thấy %((x, y)=(-1 ;-2))% thỏa mãn hệ phương trình. Vậy %((-1,-2))% là một bộ nghiệm của hệ phương trình đã cho.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3:",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Tìm %(x)% để phương trình %(x^{2} - 2 \\left( m - 1 \\right ) x - m^{2} + 2 m - 3 = 0)% ( %(x_{1} , x_{2})% là ẩn số) có hai nghiệm %(\\sqrt{x_{1}^{2} + 1} - x_{1} = \\sqrt{x_{2}^{2} + 1} + x_{2})% thỏa mãn %(m)%.",
+        "question_images": [],
+        "solution": "Ta có %(\\Delta^{\\prime}=(m-1)^{2}+m^{2}-2 m+3=2(m-1)^{2}+2 \\geq 2 \\geq 0)%, với mọi %(m)%. Do đó, PT luôn có 2 nghiệm phân biệt %(x_{1}, x_{2})%.<br>\\[\\begin{array}{l}\\sqrt{x_{1}^{2}+1}-x_{1}=\\sqrt{x_{2}^{2}+1}+x_{2} . \\\\Leftrightarrow \\frac{1}{\\sqrt{x_{1}^{2}+1}+x_{1}}=\\frac{1}{\\sqrt{x_{2}^{2}+1}-x_{2}} \\\\Leftrightarrow \\sqrt{x_{2}^{2}+1}-x_{2}=\\sqrt{x_{1}^{2}+1}+x_{1}\\end{array}\\]<br>Từ (0.1) và (0.2), ta có %(x_{1}+x_{2}=0)%. Theo %(\\mathrm{Vi})%-ét, điều này tương đương với<br>\\[2(m-1)=0 \\Leftrightarrow m=1 \\text {. }\\]<br>Vậy, %(m=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Giải phương trình %(2(\\sqrt{x+9}-3)(\\sqrt{9-x}+3)=9)%.",
+        "question_images": [],
+        "solution": "Điều kiện %(-9 \\leq x \\leq 9)%. Đặt %(a=\\sqrt{9+x})% và %(b=\\sqrt{9-x})%. Suy ra<br>\\[\\left\\{\\begin{array}{l}a^{2}+b^{2}=18 \\\\2(a-3)(b+3)=9\\end{array}\\right.\\]<br>Suy ra, %(2(a b+3 a-3 b-9)=9 \\Rightarrow 2 a b+6(a-b)=9+a^{2}+b^{2})%. Tương đương với<br>\\[(a-b)^{2}-6(a-b)+9=0 \\Leftrightarrow(a-b-3)^{2}=0 \\Leftrightarrow a-b=3\\]<br>Để ý rằng, %(a^{2}-b^{2}=2 x)%. Suy ra<br>\\[\\left\\{\\begin{array}{l}a+b=3 \\a-b=\\frac{2 x}{3}\\end{array}\\right.\\]<br>Do đó, %(a=\\frac{x}{3}+\\frac{3}{2})% và %(b=\\frac{3}{2}-\\frac{x}{3})%.<br>Từ đó, ta có %(\\sqrt{9+x}=\\frac{x}{3}+\\frac{3}{2} \\Leftrightarrow x= \\pm \\frac{9 \\sqrt{3}}{2})% (thỏa mãn điều kiện).<br>Vậy, tập nghiệm của PT là %(S=\\left\\{-\\frac{9 \\sqrt{3}}{2} ; \\frac{9 \\sqrt{3}}{2}\\right\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4:",
+        "group_content": "Cho tam giác nhọn ABC (AB < AC) nội tiếp đường tròn (O), có đường cao AD và trực tâm H. Gọi E là điểm trên (O) sao cho hai dây AE và BC song song với nhau. Đường thảng EH cắt (O) tại điểm thứ hai là F và cắt đường trung trực của BC tại M.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Chứng minh M là trung điểm của EH và AMOF là tứ giác nội tiếp.",
+        "question_images": [],
+        "solution": "Vì %(A E \\| B C)%, tứ giác %(A E C B)% nội tiếp và %(O M)% là trung trực của %(B C)% nên %(O M)% là trung trực của %(A E)%.<br>Ta có %(A E \\| B C \\perp A D)% hay %(A E \\perp A D)%.<br>Suy ra %(\\triangle A E H)% vuông tại %(A)%, nên %(O M)% là đường trung bình của %(\\triangle A E H)%.<br>Vậy %(M)% là trung điểm của %(E H)%.<br>Kẻ đường kính %(A K)% của %((O))%. Khi đó, %(E K \\perp A E)%.<br>Suy ra %(O M \\| E K)% (cùng vuông góc với %(A E)% ).<br>Nên %(A \\widehat{O M}=\\widehat{A K E}=\\widehat{A F E}=\\widehat{A F M})%.<br>Vậy tứ giác %(\\mathrm{A} M O F)% nội tiếp.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/6b942fd590367528d2c4edacf0b59643.png\" srcset=\"https://docdn.giainhanh.io/media/test/bcf013426f4b3b2c9785471f091d4e3d.png 245w, https://docdn.giainhanh.io/media/test/672abdb3b7bbec29419f0f3fc9eb58cc.png 500w\" width=\"500\"/><br><img/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Chứng minh %(\\widehat{\\mathrm{OFA}}+\\widehat{\\mathrm{ODF}}=180^{\\circ})%",
+        "question_images": [],
+        "solution": "Gọi %(S)% là giao điểm hứ hai của %(A D)% và %((O))%.<br>Ta có kết quả quen thuộc:<br>%(D)% là trung điểm của %(H S)%.<br>Ngoài ra, ta đã chứng minh được %(A E \\perp A D \\equiv A S)%.<br>Do đó, %(E S)% là đường kính của %((O))%. Nên %(O D)% là đường trung bình của %(\\triangle S E H)%.<br>Suy ra %(O D \\| H E \\equiv E F \\perp F S)% (do %(E S)% là đường kính của %((O))% hay %(O D \\perp F S)%.<br>Vì vậy %(O D)% là đường trung trực của %(F S)%.<br>Từ đó, %(\\widehat{F O D}=\\frac{1}{2} \\widehat{F O S}=\\widehat{F A S}=\\widehat{F A D})%. Nên tứ giác %(A O D F)% nội tiếp.<br>Vậy %(\\widehat{O F A}+\\widehat{O D F}=\\widehat{O A F}+\\widehat{O D F}=180^{\\circ})%.<br><img/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "Gọi K là điểm đối xứng với A qua O. Tiếp tuyến của (O) tại A cắt đường thẳng FK tại T. Chứng minh hai đường thẳng TH và BC song song với nhau.",
+        "question_images": [],
+        "solution": "Vì %(A K)% là đường kính của %((O))% nên %(T A \\perp A K)% và %(\\widehat{A F K}=90^{\\circ})%. Suy ra %(\\widehat{A T F}=\\widehat{F A K})%.<br>Ngoài ra, chú ý %(\\widehat{A F K}=90^{\\circ})% và %(\\widehat{A K F}=\\widehat{A S F}=\\widehat{H S F})%. Do đó, %(\\widehat{F H S}=\\widehat{F A K})%.<br>Vì vậy %(\\widehat{A T F}=)% %(\\widehat{F H S}=180^{\\circ}-\\widehat{A H F})%. Nên tứ giác %(A H F T)% nội tiếp.<br>Suy ra %(\\widehat{A H T}=\\widehat{A F T}=90^{\\circ})%.<br>Mặt khác, %(A H \\perp)% %(B C)%.<br>Vậy %(T H \\perp B C)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5:",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Tìm tất cả các số thực a sao cho %(a+\\sqrt{2023})% và %(\\frac{999}{a}+\\sqrt{2023})% đều là các số nguyên.",
+        "question_images": [],
+        "solution": "Giả sử a là số thực thỏa mãn yêu cầu bài toán.<br>Đặt %(a+\\sqrt{2023}=m \\in \\mathbb{Z})% và %(\\frac{999}{a}+\\sqrt{2023}=n \\in \\mathbb{Z})%. Khi đó %(\\frac{999}{m-\\sqrt{2023}}+\\sqrt{2023}=n \\Leftrightarrow 999=(n-\\sqrt{2023})(m-\\sqrt{2023}))%.<br>Suy ra %(999=m n+2023-(m+n) \\sqrt{2023})%.<br>Ta có: %(2023=7 \\cdot 17^{2})% nên %(\\sqrt{2023}=17 \\sqrt{7} \\notin \\mathbb{Q})%.<br>Kết hợp với (1), ta thu được %(m+n=0)% và %(999=m n+2023)%.<br>Do đó %(m=-n)% và %(m^{2}=1024)%.<br>Vì vậy %(m=32)% hoặc %(m=-32)%. Nên %(a=)% %(32-\\sqrt{2023})% hoặc %(a=-32-\\sqrt{2023})%.<br>Thử lại, ta thấy %(a \\in\\{32-\\sqrt{2023} ;-32-\\sqrt{2023}\\})% thỏa mãn yêu cầu bài toán.<br>Vậy %(a \\in)% %(\\{32-\\sqrt{2023} ;-32-\\sqrt{2023}\\})% là các số thực cần tìm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Cho hai số thực dương %(a , b)% thỏa mãn %(4 a^{2} + b^{2} = 2)%. Tìm giá trị nhỏ nhất của biểu thức<br>%(T = \\frac{4 a}{2 + b} + \\frac{b}{1 + a} + \\frac{2024}{2 a + b} .)%",
+        "question_images": [],
+        "solution": "Đặt %(x=2 a)%. Dự đoán điểm rơi %(x=b=1)%. Ta có<br>\\[\\begin{array}{l}P=\\frac{2 x}{2+b}+\\frac{2 b}{2+x}+\\frac{2024}{x+b} \\\\=\\frac{x(2+b)-b x}{2+b}+\\frac{b(2+x)-b x}{2+x}+\\frac{2024}{x+b} \\\\=(b+x)-b x\\left[\\frac{1}{2+b}+\\frac{1}{2+x}\\right]+\\frac{2024}{b+x} \\\\=(b+x)+\\frac{4}{b+x}-b x\\left[\\frac{1}{2+b}+\\frac{1}{2+x}\\right]+\\frac{2020}{b+x} .\\end{array}\\]<br>Theo giải thiết %(b^{2}+x^{2}=2 \\Rightarrow b+x \\leq \\sqrt{2\\left(b^{2}+x^{2}\\right)}=2)%. Áp dụng BĐT Cauchy, ta có<br>\\[P=(b+x)+\\frac{4}{b+x}-b x\\left[\\frac{1}{1+1+b}+\\frac{1}{1+1+x}\\right]+\\frac{2020}{b+x}\\]<br>\\[\\begin{array}{l}\\geq 2 \\sqrt{(b+x) \\cdot \\frac{4}{b+x}}-\\frac{b x}{3}\\left[\\frac{1}{\\sqrt[3]{b}}+\\frac{1}{\\sqrt[3]{x}}\\right]+\\frac{2020}{2} \\\\=4+1010-\\frac{1}{3}\\left(\\sqrt[3]{b^{2} x}+\\sqrt[3]{x^{2} b}\\right) \\geq 1014-\\frac{1}{3}\\left(\\frac{b+b+x}{3}+\\frac{x+x+b}{3}\\right) \\\\geq 1014-\\frac{1}{3} \\cdot(x+b) \\geq \\frac{3040}{3}\\end{array}\\]<br>Hơn nữa, %(P=\\frac{3040}{3})% khi và chỉ khi %(x=b=1)% hay %(a=\\frac{1}{2})% và %(b=1)%.<br>Vậy %(\\min (P)=\\frac{3040}{3})% dạt được khi %(a=\\frac{1}{2})% và %(b=1)%.",
+        "question_type": "essay"
+    }
+]

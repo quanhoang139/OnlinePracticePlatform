@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(2 \\sin ^{2} x+2 \\sqrt{3} \\sin x \\cos x-4 \\cos ^{2} x+1=0)%.",
+        "question_images": [],
+        "solution": "Cách 1:<br>Phương trình %(\\Leftrightarrow 3 \\sin ^{2} x+2 \\sqrt{3} \\sin x \\cos x-3 \\cos ^{2} x=0 \\Leftrightarrow \\sqrt{3} \\sin 2 x-3 \\cos 2 x=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow \\frac{1}{2} \\sin 2 x-\\frac{\\sqrt{3}}{2} \\cos 2 x=0 \\\\Leftrightarrow \\sin \\left(2 x-\\frac{\\pi}{3}\\right)=0 \\\\Leftrightarrow 2 x-\\frac{\\pi}{3}=k \\pi \\Leftrightarrow x=\\frac{\\pi}{6}+\\frac{k \\pi}{2}(k \\in \\mathbb{Z})\\end{array}\\]<br>Cách 2:<br>- Nếu %(\\cos x=0\\left(\\Leftrightarrow \\sin ^{2} x=1\\right))% :<br>Phương trình thành: %(3=0)% (sai), nên loại trường hợp %(\\cos x=0)%<br>- Nếu %(\\cos x \\neq 0)% : Chia hai vế của phương trình cho %(\\cos ^{2} x)%<br>Phương trình trở thành: %(3 \\tan ^{2} x+2 \\sqrt{3} \\tan x-3=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow\\left[\\begin{array}{l}\\tan x=\\frac{\\sqrt{3}}{3} \\\\tan x=-\\sqrt{3}\\end{array}\\right. \\\\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{\\pi}{6}+k \\pi \\x=-\\frac{\\pi}{3}+k \\pi\\end{array}(k \\in \\mathbb{Z})\\right.\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Gọi %(X)% là tập hợp các số tự nhiên gồm 3 chữ số khác nhau được lập nên từ các chữ số %(1 ; 2 ; 4)%; %(6 ; 8 ; 9)%. Lấy ngẫu nhiên 1 phần tử của %(X)%. Tính xác suất để chọn được số chia hết cho 2.",
+        "question_images": [],
+        "solution": "Không gian mẫu: %(|\\Omega|=|X|=A_{6}^{3})%<br>Gọi %(A)% là biến cố: \"Số được chọn chia hết cho 2\"Gọi %(n=\\overline{a b c})% là số chia hết cho 2<br>- Có 4 cách chọn chữ số %(c(c \\in\\{2 ; 4 ; 6 ; 8\\}))%<br>- Có %(A_{5}^{2})% cách chọn số %(\\overline{a b})%<br>Nên %(\\left|\\Omega_{A}\\right|=4 . A_{5}^{2})%<br>Vậy xác suất của biến cố %(A)% là: %(P(A)=\\frac{\\left|\\Omega_{A}\\right|}{|\\Omega|}=\\frac{4 \\cdot A_{5}^{2}}{A_{6}^{3}}=\\frac{80}{120}=\\frac{2}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Xác suất bắn trúng đích của 4 xạ thủ đều bằng 0,7 . Bốn xạ thủ cùng bắn vào mục tiêu. Tính xác suất để có ít nhất 3 xạ thủ bắn trúng đích.",
+        "question_images": [],
+        "solution": "Gọi %(A_{k})% là biến cố: \"Xạ thủ thứ %(k)% bắn trúng đích\" %((k \\in\\{1 ; 2 ; 3 ; 4\\}))%<br>\\[P\\left(A_{k}\\right)=0,7 \\Rightarrow P\\left(\\overline{A_{k}}\\right)=0,3\\]<br>%(B)% là biến cố: \"Có ít nhất 3 xạ thủ bắn trúng đích\"%(B=\\overline{A_{1}} A_{2} A_{3} A_{4} \\cup A_{1} \\bar{A}_{2} A_{3} A_{4} \\cup A_{1} A_{2} \\overline{A_{3}} A_{4} \\cup A_{1} A_{2} A_{3} \\overline{A_{4}} \\cup A_{1} A_{2} A_{3} A_{4})%<br>\\[P(B)=4 \\cdot(0,7)^{3} \\cdot(0,3)+(0,7)^{4}=\\frac{6517}{10000}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Một đa giác có độ dài các cạnh lập thành một cấp số cộng có công sai bằng 4(cm), cạnh nhỏ nhất bằng %(6(\\mathrm{~cm}))% và chu vi của đa giác bằng %(126(\\mathrm{~cm}))%. Tính độ dài cạnh lớn nhất của đa giác.",
+        "question_images": [],
+        "solution": "Gọi %(n)% là số cạnh của đa giác %((n \\in \\mathbb{N}, n \\geq 3))%, cạnh nhỏ nhất là %(u_{1}=6)%<br>Độ dài các cạnh của đa giác lập thành cấp số cộng có công sai %(d=4)%<br>\\[\\begin{array}{l}S_{n}=126 \\\\Leftrightarrow \\frac{n}{2}\\left[2 u_{1}+(n-1) d\\right]=126 \\Leftrightarrow \\frac{n}{2}[12+4(n-1)]=126 \\\\Leftrightarrow 2 n^{2}+4 n-126=0 \\Leftrightarrow n=7 \\text { (nhận) } \\vee n=-9 \\text { (loại) }\\end{array}\\]<br>Vậy cạnh lớn nhất là: %(u_{7}=u_{1}+6 d=30(\\mathrm{~cm}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Dùng phương pháp quy nạp, hãy chứng minh: %(u_{n}=10^{n}-2 n^{3}-n+2)% luôn chia hết cho 3 với mọi số nguyên dương %(n)%.",
+        "question_images": [],
+        "solution": "- Khi %(n=1)% ta có: %(u_{1}=10-2-1+2=9 \\Rightarrow u_{1})% chia hết cho 3<br>- Giả sử khi %(n=k\\left(k \\in \\mathbb{N}^{*}\\right))% ta có: %(u_{k}=10^{k}-2 k^{3}-k+2)% chia hết cho 3<br>Ta chứng minh khi %(n=k+1)% thì %(u_{k+1})% chia hết cho 3<br>\\[\\begin{array}{l}u_{k+1}=10^{k+1}-2(k+1)^{3}-(k+1)+2=10\\left(10^{k}-2 k^{3}-k+2\\right)+18 k^{3}-6 k^{2}+3 k-21 \\\\=10 u_{k}+3\\left(6 k^{3}-2 k^{2}+k-7\\right)\\end{array}\\]<br>Do %(u_{k} \\vdots 3)% và %(3\\left(6 k^{3}-2 k^{2}+k-7\\right) \\vdots 3)% nên %(u_{k+1} \\vdots 3)%<br>Vậy %(u_{n} \\vdots 3, \\forall n \\in \\mathbb{N}^{*})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Tính tổng: %(S=C_{2019}^{1} \\cdot 3^{2018} \\cdot 2-C_{2019}^{2} \\cdot 3^{2017} \\cdot 2^{2}+C_{2019}^{3} \\cdot 3^{2016} \\cdot 2^{3}-\\ldots-C_{2019}^{2018} \\cdot 3^{1} \\cdot 2^{2018}+C_{2019}^{2019} \\cdot 2^{2019})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}S-C_{2019}^{0} \\cdot 3^{2019} \\\\ =-C_{2019}^{0} \\cdot 3^{2019}+C_{2019}^{1} \\cdot 3^{2018} \\cdot 2-C_{2019}^{2} \\cdot 3^{2017} \\cdot 2^{2}+C_{2019}^{3} \\cdot 3^{2016} \\cdot 2^{3}+\\ldots-C_{2019}^{2018} \\cdot 3^{1} \\cdot 2^{2018}+C_{2019}^{2019} \\cdot 2^{2019} \\\\ =-(3-2)^{2019}=-1 \\\\ \\Rightarrow S=C_{2019}^{0} \\cdot 3^{2019}-1=3^{2019}-1\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho hình chóp %(S \\cdot A B C D)% có đáy %(A B C D)% là hình bình hành tâm %(O)%. Biết %(S A=C D)% và %(S B=A C)%. Gọi %(E, F)% lần lượt là trung điểm của %(B C)% và %(S D)%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Xác định giao tuyến của hai mặt phẳng %((S A B))% và %((S C D))%. Từ đó tìm giao điểm %(H)% của đường thẳng %(C F)% và mặt phẳng %((S A B))%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c82edf947521cca3f07d689a01ee2f1c.png\" srcset=\"https://docdn.giainhanh.io/media/test/600c27cc7581ea58bfa6d24e4781e1a7.png 201w, https://docdn.giainhanh.io/media/test/a2b187a9c61cfcc212e7604ddfa899c9.png 500w, https://docdn.giainhanh.io/media/test/c74ded49935d71d31a37aa7f0d89f0a5.png 750w\" width=\"750\"/><br>\\[\\begin{array}{l}S \\in(S A B) \\cap(S C D) \\A B / / C D \\quad(A B C D \\text { là hình bình hành }) \\A B \\subset(S A B), C D \\subset(S C D)\\end{array}\\]<br>\\[\\Rightarrow(S A B) \\cap(S C D)=x^{\\prime} S x / / A B / / C D\\]<br>Trong %((S C D))% : gọi %(H=C F \\cap x^{\\prime} S x)%<br>\\[\\Rightarrow\\left\\{\\begin{array}{l}H \\in C F \\H \\in x^{\\prime} S x, x^{\\prime} S x \\subset(S A B) \\Rightarrow H \\in(S A B)\\end{array} \\Rightarrow H=C F \\cap(S A B)\\right.\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh: %((O E F) / /(S A B))%.",
+        "question_images": [],
+        "solution": "\\[\\left\\{\\begin{array}{l}O E / / A B(O E \\text { là đường trung bình của } \\triangle A B C) \\O F / / S B(O F \\text { là đường trung bình của } \\triangle S B D)\\end{array}\\right.\\]<br>Mà: %(O E, O F \\subset(O E F) ; A B, S B \\subset(S A B) ; O E \\cap O F=O)%<br>Nên: %((O E F) / /(S A B))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Mặt phẳng %((O E F))% cắt %(A D)% và %(S C)% lần lượt tại %(L)% và %(I)%. Chứng minh: tứ giác %(O L F I)% là hình thoi.",
+        "question_images": [],
+        "solution": "Trong %((A B C D))% : gọi %(L=O E \\cap A D \\Rightarrow O L / / A B / / C D)%<br>Ta có: %(\\left\\{\\begin{array}{l}O E / / C D(O E / / A B, A B / / C D) \\\\ (O E F) \\cap(S C D)=F I \\\\ O E \\subset(O E F), C D \\subset(S C D)\\end{array} \\Rightarrow F I / / C D / / A B\\right.)%<br>Suy ra: %(\\left\\{\\begin{array}{l}O L / / I F(/ / C D) \\\\ O L=I F\\left(=\\frac{C D}{2}\\right) \\\\ O I=F L\\left(=\\frac{S A}{2}\\right) \\\\ C D=S A\\end{array} \\Rightarrow O L F I\\right.)% là hình thoi",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 0.5,
+        "content": "d) Gọi %(M)% và %(N)% là các điểm lần lượt trên các cạnh %(S B)% và %(O A)% sao cho %(B M=A N)%. Chứng %(\\operatorname{minh}: M N / /(S C D))%.",
+        "question_images": [],
+        "solution": "Lấy %(K \\in B C)% sao cho %(N K / / A B / / C D \\Rightarrow \\frac{B K}{B C}=\\frac{A N}{A C})%<br>Mà: %(B M=A N ; S B=A C)%<br>Nên: %(\\frac{B K}{B C}=\\frac{B M}{B S} \\Rightarrow M K / / S C)%<br>Ta có: %(\\left\\{\\begin{array}{l}M K / / S C \\\\ N K / / C D \\\\ M K, N K \\subset(M N K) \\Rightarrow(M N K) / /(S C D) \\\\ S C, C D \\subset(S C D) \\\\ M K \\cap N K=K\\end{array}\\right.)%<br>Mà %(M N \\subset(M N K))%<br>Nên: %(M N / /(S C D))%",
+        "question_type": "essay"
+    }
+]

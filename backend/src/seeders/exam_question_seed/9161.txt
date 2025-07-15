@@ -1,0 +1,81 @@
+[
+    {
+        "title": "1 ",
+        "point": 3.0,
+        "content": "Cho %(x=\\sqrt{2+\\sqrt{3}}-\\sqrt{\\frac{\\sqrt[3]{6 \\sqrt{3}-10}}{\\sqrt{3}+1}})%.<br>Tính giá trị của biểu thức %(A=\\left(x^{4}+x^{3}-x^{2}-2 x-1\\right)^{2015})%",
+        "question_images": [],
+        "solution": "Ta có<br>\\[\\begin{array}{r}x=\\sqrt{2+\\sqrt{3}}-\\sqrt{\\frac{\\sqrt[3]{6 \\sqrt{3}-10}}{\\sqrt{3}+1}}=\\sqrt{2+\\sqrt{3}}-\\sqrt{\\frac{\\sqrt[3]{3 \\sqrt{3}-9+3 \\sqrt{3}-1}}{\\sqrt{3}+1}}=\\sqrt{2+\\sqrt{3}}-\\sqrt{\\frac{\\sqrt[3]{(\\sqrt{3}-1)^{3}}}{\\sqrt{3}+1}} \\\\=\\sqrt{2+\\sqrt{3}}-\\sqrt{\\frac{\\sqrt{3}-1}{\\sqrt{3}+1}}=\\frac{\\sqrt{4+2 \\sqrt{3}}}{\\sqrt{2}}-\\sqrt{\\frac{(\\sqrt{3}-1)^{2}}{2}}=\\frac{\\sqrt{(\\sqrt{3}+1)^{2}}}{\\sqrt{2}}-\\frac{\\sqrt{(\\sqrt{3}-1)^{2}}}{\\sqrt{2}}=\\sqrt{2}\\end{array}\\]<br>Thay %(x=\\sqrt{2})% vào %(A)% ta có<br>\\[A=\\left(x^{4}+x^{3}-x^{2}-2 x-1\\right)^{2015}=(4+2 \\sqrt{2}-2-2 \\sqrt{2}-1)^{2015}=1^{2015}=1\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho Parabol %((P): y=x^{2})% và đường thẳng %((d): y=m x+1 \\quad)% ( %(m)% là tham số thực). Tìm %(m)% để %((d))% cắt %((P))% tại hai điểm phân biệt %(A, B)% thỏa mãn %(A B=\\sqrt{10})%.",
+        "question_images": [],
+        "solution": "Hoành độ giao điểm của %((P))% và %((d))% là %(x^{2}=m x+1 \\Leftrightarrow x^{2}-m x-1=0)%<br>Ta có %(\\Delta=m^{2}+4)%.<br>Vì %(m^{2}+4\\gt 0)% nên đồ thị hàm số %((P))% và %((d))% luôn cắt nhau tại hai điểm phân biệt<br>Theo hệ thức Vi-et ta có %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=m \\\\ x_{1} x_{2}=-1\\end{array}\\right.)%<br>Gọi %(A\\left(x_{1} ; y_{1}\\right))% và %(B\\left(x_{2} ; y_{2}\\right))% là giao điểm của %((P))% và %((d))% ta có:<br>\\[\\begin{array}{l}A B=\\sqrt{\\left(x_{1}-x_{2}\\right)^{2}+\\left(y_{1}-y_{2}\\right)^{2}}=\\sqrt{10} \\\\Rightarrow\\left(x_{1}-x_{2}\\right)^{2}+\\left(y_{1}-y_{2}\\right)^{2}=10 \\\\Rightarrow\\left(x_{1}-x_{2}\\right)^{2}+\\left(x_{1}^{2}-x_{2}^{2}\\right)^{2}=10 \\\\Leftrightarrow\\left(x_{1}+x_{2}\\right)^{2}-4 x_{1} x_{2}+\\left(x_{1}+x_{2}\\right)^{2}\\left(x_{1}-x_{2}\\right)^{2}=10 \\\\Leftrightarrow\\left(x_{1}+x_{2}\\right)^{2}-4 x_{1} x_{2}+\\left(x_{1}+x_{2}\\right)^{2}\\left[\\left(x_{1}+x_{2}\\right)^{2}-4 x_{1} x_{2}\\right]=10 \\\\Rightarrow m^{2}+4+m^{2}\\left(m^{2}+4\\right)=10 \\\\Leftrightarrow m^{4}+5 m^{2}-6=0\\end{array}\\]<br>%(\\begin{array}{l}\\Leftrightarrow m^{4}-m^{2}+6 m^{2}-6=0 \\\\ \\Leftrightarrow\\left(m^{2}-1\\right)\\left(m^{2}+6\\right)=0 \\\\ \\Leftrightarrow m^{2}-1=0 \\\\ \\Leftrightarrow m= \\pm 1 .\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các nghiệm nguyên dương %(x, y)% thỏa mãn phương trình<br>\\[5 x^{2}+6 x y+2 y^{2}+2 x+2 y-40=0 \\text {. }\\]",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text {  Ta có } 5 x^{2}+6 x y+2 y^{2}+2 x+2 y-40=0 \\\\Leftrightarrow x^{2}+y^{2}+2 x y+2 x+2 y+1+4 x^{2}+4 x y+y^{2}=41 \\\\Leftrightarrow(x+y+1)^{2}+(2 x+y)^{2}=41 \\\\Leftrightarrow(x+y+1)^{2}+(2 x+y)^{2}=4^{2}+5^{2} \\\\text { TH1: }\\left\\{\\begin{array} { l } { x + y + 1 = 4 } \\\\{ 2 x + y = 5 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=2 \\y=1\\end{array}\\right.\\right. \\\\text { TH2: }\\left\\{\\begin{array} { l } { x + y + 1 = 5 } \\\\{ 2 x + y = 4 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=0 \\y=4\\end{array}\\right.\\right. \\text { (loại). }\\end{array}\\]<br>Vậy các nghiệm nguyên dương của phương trình là %((2 ; 1))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.5,
+        "content": "Giải phương trình %(\\frac{x^{3}}{\\sqrt{5-x^{2}}}+8 x^{2}=40)%.",
+        "question_images": [],
+        "solution": "ĐK: %(5-x^{2}\\gt 0 \\Rightarrow-\\sqrt{5}\\lt x\\lt \\sqrt{5})%.<br>Ta có: %(\\frac{x^{3}}{\\sqrt{5-x^{2}}}+8 x^{2}=40)%<br>\\[\\begin{array}{l}\\Leftrightarrow x^{3}+8 x^{2} \\cdot \\sqrt{5-x^{2}}=40 \\cdot \\sqrt{5-x^{2}} \\\\Leftrightarrow x^{3}+8 \\cdot \\sqrt{5-x^{2}} \\cdot\\left(x^{2}-5\\right)=0 \\\\Leftrightarrow x^{3}-\\left(2 \\cdot \\sqrt{5-x^{2}}\\right)^{3}=0 \\\\Leftrightarrow\\left(x-2 \\cdot \\sqrt{5-x^{2}}\\right) \\cdot\\left(x^{2}+2 x \\cdot \\sqrt{5-x^{2}}+20-4 x^{2}\\right)=0 \\\\Leftrightarrow\\left(x-2 \\cdot \\sqrt{5-x^{2}}\\right) \\cdot\\left(2 x \\cdot \\sqrt{5-x^{2}}-3 x^{2}-20\\right)=0\\end{array}\\]<br>TH 1 :<br>%(\\begin{array}{l}x-2 \\cdot \\sqrt{5-x^{2}}=0 \\text { ĐK: } x\\gt 0 \\\\Leftrightarrow x^{2}=4 \\cdot\\left(5-x^{2}\\right) \\\\Leftrightarrow 5 x^{2}=20 \\\\Leftrightarrow x= \\pm 2 \\\\Leftrightarrow x=2 .\\end{array})%<br><br>%(\\begin{aligned}\\mathrm{TH} 2: & 2 x \\cdot \\sqrt{5-x^{2}}-3 x^{2}-20=0 \\\\& \\Leftrightarrow 2 x \\cdot \\sqrt{5-x^{2}}=3 x^{2}+20 \\\\& \\Leftrightarrow 4 x^{2} \\cdot\\left(5-x^{2}\\right)=9 x^{4}+120 x^{2}+400 \\\\& \\Leftrightarrow 13 x^{4}+100 x^{2}+400=0 \\text { (vô nghiệm). }\\end{aligned})%<br>Vậy phương trình có nghiệm là %(x=2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.5,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x^{3}-y^{3}-15 y-14=3 \\cdot\\left(2 y^{2}-x\\right) \\\\ 4 x^{3}+6 x y+15 x+3=0\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\left\\{\\begin{array}{l}x^{3}-y^{3}-15 y-14=3 \\cdot\\left(2 y^{2}-x\\right)(1) \\\\ 4 x^{3}+6 x y+15 x+3=0(2)\\end{array}\\right.)%<br>Ở phương trình %({(1)})% ta có:<br>\\[\\begin{array}{l}x^{3}-y^{3}-15 y-14=3 \\cdot\\left(2 y^{2}-x\\right) \\\\Leftrightarrow x^{3}+3 x=y^{3}+15 y+6 y^{2}+14 \\mid \\\\Leftrightarrow x^{3}+3 x=y^{3}+6 y^{2}+12 y+8+3 y+6 \\\\Leftrightarrow x^{2}+3 x=(y+2)^{3}+3 \\cdot(y+2) \\\\Leftrightarrow x=y+2(*)\\end{array}\\]<br>Từ (2) và (*) ta có hệ phương trình:<br>\\[\\begin{array}{l}\\left\\{\\begin{array} { l } { x = y + 2 } \\\\{ 4 x ^ { 3 } + 6 x y + 1 5 x + 3 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x - 2 = y } \\\\{ 4 x ^ { 3 } + 6 x \\cdot ( x - 2 ) + 1 5 x + 3 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x-2=y \\\\4 x^{3}+6 x^{2}+3 x+3=0\\end{array}\\right.\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { x - 2 = y } \\\\{ 8 x ^ { 3 } + 1 2 x ^ { 2 } + 6 x + 6 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { ( 2 x + 1 ) ^ { 3 } = - 5 } \\\\{ x - 2 = y }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=\\frac{-1-\\sqrt[3]{5}}{2} \\y=\\frac{-5-\\sqrt[3]{5}}{2}\\end{array}\\right.\\right.\\right.\\end{array}\\]<br>Vậy hệ phương trình có nghiệm là %(\\left(\\frac{-1-\\sqrt[3]{5}}{2} ; \\frac{-5-\\sqrt[3]{5}}{2}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình chữ nhật %(A B C D)% có %(A B=5 a)% và %(A D=2 a(a\\gt 0) \\cdot M)% là điểm bất kì trên cạnh %(A B)% ( %(M)% khác %(A)% và khác %(B))%. Goi %(H, K)% lần lượt là hình chiếu vuông góc của %(M)% trên %(A C)% và %(D C)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng 5 điểm %(B, C, K, H, M)% cùng thuộc một đường tròn. Xác định tâm %(O)% của đường tròn đó.",
+        "question_images": [],
+        "solution": "Xét tứ giác %(M H C B)% ta có<br>%(\\widehat{M H C}=\\widehat{M B C}=90^{\\circ})%%(\\Rightarrow \\widehat{M H C}+\\widehat{M B C}=180^{\\circ})%%(\\Rightarrow)% Tứ giác %(M H C B)% nội tiếp đường tròn đường kính %(M C)% (1)<br>Xét tứ giác %(M K C B)% ta có %(\\widehat{M K C}=\\widehat{M B C}=90^{\\circ})%<br>\\[\\Rightarrow \\widehat{M K C}+\\widehat{M B C}=90^{\\circ}\\]<br>Tứ giác %(M K C B)% nội tiếp đường tròn đường kính %(M C)% (2)<br>Từ (1) và (2) suy ra 5 điểm %(B, C, K, H, M)% cùng thuộc một đường tròn đường kính %(M C)%.<br>Tâm %(O)% là trung điểm %(M C)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c0c9d661a8e52559265b3776ea470106.png\" srcset=\"https://docdn.giainhanh.io/media/test/3a771d693b72a80b375ef49113a6a578.png 242w\" width=\"242\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Tính %(\\frac{A H \\cdot M K}{M H})% theo %(a)%.",
+        "question_images": [],
+        "solution": "Xét %(\\triangle A B C)% và %(\\triangle A H M)% có<br>%(\\widehat{M H M}=\\widehat{M B C}=90^{\\circ})% và %(\\widehat{C A B})% chung<br>%(\\Rightarrow \\triangle A B C \\sim \\triangle A H M)%<br>%(\\frac{A B}{A H}=\\frac{B C}{M H} {\\text { mà }} M K=B C)%<br>%(\\frac{A B}{A H}=\\frac{M K}{M H} \\Rightarrow A B=\\frac{A H \\cdot M K}{M H})% mà %(A B=5 a)%%(\\frac{A H \\cdot M K}{M H}=5 a)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Khi %(A K)% là tiếp tuyến của đường tròn %((O))%. Tính %(A M)% theo %(a)%.",
+        "question_images": [],
+        "solution": "Giả sử %(A K)% là tiếp tuyến của %((O))%.<br>Dễ dàng ta có́ tứ giác %(M K C B)% là hình chữ nhật nên%(O)% sẽ nằm trên đoạn %(B K)%.<br>Xét %(\\triangle A B K)% vuông tại %(K)% đường cao %(K M)% ta có %(A M \\cdot M B=M K^{2})%<br>\\[\\begin{array}{l}\\Rightarrow A M \\cdot(A B-A M)=A D^{2} \\Leftrightarrow A M \\cdot 5 a-A M^{2}=4 a^{2} \\Leftrightarrow A M^{2}-5 a \\cdot A M+4 a^{2}=0 \\\\Leftrightarrow A M^{2}-4 a \\cdot A M-a \\cdot A M+4 a^{2}=0 \\Leftrightarrow A M \\cdot(A M-4 a)-a \\cdot(A M-4 a)=0 \\\\Leftrightarrow(A M-a) \\cdot(A M-4 a)=0 \\Leftrightarrow\\left[\\begin{array}{l}A M=a \\A M=4 a\\end{array}\\right.\\end{array}\\]<br>Vây %(A M=4 a)% hoăc %(A M=a)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Cho ba số thực dương %(a, b, c)% thỏa mãn %(a b+a c+b c=3)%.<br>Tìm giá trị nhỏ nhất của biểu thức %(T=\\frac{19 a+3}{1+b^{2}}+\\frac{19 b+3}{1+c^{2}}+\\frac{19 c+3}{1+a^{2}})%.",
+        "question_images": [],
+        "solution": "Áp dụng bất đẳng thức Bunhiacopxki ta có<br>\\[\\begin{array}{l}a b+a c+b c \\geq \\sqrt{\\left(a^{2}+b^{2}+c^{2}\\right) \\cdot\\left(b^{2}+a^{2}+c^{2}\\right)} \\\\Rightarrow a^{2}+b^{2}+c^{2} \\geq 3 s \\\\Rightarrow a^{2}+b^{2}+c^{2}+2 \\cdot(a b+a c+b c) \\geq 3+2 \\cdot 3 \\\\Rightarrow(a+b+c)^{2} \\geq 9 \\\\Rightarrow a+b+c \\geq 3 . \\T=\\frac{19 a+3}{1+b^{2}}+\\frac{19 b+3}{1+c^{2}}+\\frac{19 c+3}{1+a^{2}}=16 \\cdot\\left(\\frac{a}{1+b^{2}}+\\frac{b}{1+c^{2}}+\\frac{c}{1+a^{2}}\\right)+3\\left(\\frac{a+1}{1+b^{2}}+\\frac{b+1}{1+c^{2}}+\\frac{c+1}{1+a^{2}}\\right)\\end{array}\\]<br>Đặt %(A=\\frac{a}{1+b^{2}}+\\frac{b}{1+c^{2}}+\\frac{c}{1+a^{2}})% và %(B=\\frac{a+1}{1+b^{2}}+\\frac{b+1}{1+c^{2}}+\\frac{c+1}{1+a^{2}})%<br>Ta lại có:<br>\\[\\begin{array}{l}\\text { a) } a+b+c-A=a+b+c-\\left(\\frac{a}{1+b^{2}}+\\frac{b}{1+c^{2}}+\\frac{c}{1+a^{2}}\\right) \\\\=\\frac{a b^{2}}{1+b^{2}}+\\frac{b c^{2}}{1+c^{2}}+\\frac{c a^{2}}{1+a^{2}} \\leq \\frac{a b}{2}+\\frac{b c}{2}+\\frac{a c}{2}=\\frac{3}{2} \\\\Rightarrow A \\geq a+b+c-\\frac{3}{2} \\quad(*) .\\end{array}\\]<br>\\[\\begin{array}{l}\\text { b) } a+b+c+3-B=a+b+c+3-\\left(\\frac{a+1}{1+b^{2}}+\\frac{b+1}{1+c^{2}}+\\frac{c+1}{1+a^{2}}\\right) \\\\=\\frac{a+a b^{2}-a-1+1+b^{2}}{1+b^{2}}+\\frac{b+b c^{2}-b-1+1+c^{2}}{1+c^{2}}+\\frac{c+a^{2} c-c-1+1+a^{2}}{1+a^{2}} \\\\=\\frac{a b^{2}+b^{2}}{1+b^{2}}+\\frac{b c^{2}+c^{2}}{1+c^{2}}+\\frac{a^{2} c+a^{2}}{1+a^{2}} \\leq \\frac{3}{2}+\\frac{a+b+c}{2} \\\\end{array}\\]<br>\\[\\Rightarrow B \\geq a+b+c+3-\\frac{3}{2}-\\frac{a+b+c}{2} \\Leftrightarrow B \\geq \\frac{a+b+c}{2}+\\frac{3}{2} \\quad(* *)\\]<br>Tự %(\\left({ }^{*}\\right))% và %((* *))% ta có:<br>\\[\\begin{array}{l}16 A+3 B \\geq 16 \\cdot\\left(a+b+c-\\frac{3}{2}\\right)+3 \\cdot\\left(\\frac{a+b+c}{2}+\\frac{3}{2}\\right) \\\\Rightarrow T \\geq \\frac{35}{2} \\cdot(a+b+c)-\\frac{39}{2} \\geq 33\\end{array}\\]<br>Vậy GTNN của %(T)% là 33 . Dấu \" %(=)% \" xảy ra khi %(a=b=c=1)%.",
+        "question_type": "essay"
+    }
+]

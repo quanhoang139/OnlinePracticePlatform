@@ -1,0 +1,80 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "Phân tích thành nhân tử:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(a^{3}+2 a^{2}-13 a+10)%",
+        "question_images": [],
+        "solution": "Ta nhận thấy %(a=1, a=2)% là nghiệm của đa thức nên: %(a^{3}+2 a^{2}-13 a+10=(a-1)(a-2)(a+5))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(\\left(a^{2}+4 b^{2}-5\\right)^{2}-16(a b+1)^{2})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\left(a^{2}+4 b^{2}-5\\right)^{2}-16(a b+1)^{2}=\\left(a^{2}+4 b^{2}-5+4 a b+4\\right)\\left(a^{2}+4 b^{2}-5-4 a b-4\\right) \\\\ =\\left[(a+2 b)^{2}-1\\right]\\left[(a-2 b)^{2}-9\\right] \\\\ =(a+2 b+1)(a+2 b-1)(a-2 b-3)(a-2 b+3)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Cho 3 số tự nhiên %(a, b, c)%. Chứng minh rằng nếu %(a+b+c)% chia hết cho 3 thì %(a^{3}+b^{3}+c^{3}+3 a^{2}+3 b^{2}+3 c^{2})% chia hết cho 6",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=a+b+c 3 \\Rightarrow 2 A-6 ; B=a^{3}+b^{3}+c^{3}+3 a^{2}+3 b^{2}+3 c^{2} \\\\ C=B+2 A=a^{3}+3 a^{2}+2 a+b^{3}+3 b^{2}+2 b+c^{3}+3 c^{2}+2 c \\\\ =a(a+1)(a+2)+b(b+1)(b+2)+c(c+1)(c+2)\\end{array})%<br>%(a(a+1)(a+2), b(b+1)(b+2), c(c+1)(c+2))% là tích của 3 số nguyên liên tiếp nên chia hết cho %(6 \\Rightarrow C: 6 \\Rightarrow B: 6)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 1.0,
+        "content": "Cho %(a-b=1)%. Chứng minh %(a^{2}+b^{2} \\geq \\frac{1}{2})%",
+        "question_images": [],
+        "solution": "Từ %(a-b=1 \\Rightarrow a=1+b \\Rightarrow a^{2}=1+2 b+b^{2})%, thay vào đẳng thức cần chứng minh ta có: %(1+2 b+2 b^{2} \\geq \\frac{1}{2})%<br>%(\\Rightarrow 4 b^{2}+4 b+1 \\geq 0 \\Rightarrow(2 b+1)^{2} \\geq 0)%. BĐT này luôn đúng. Vậy %(a^{2}+b^{2} \\geq \\frac{1}{2})%<br>Dấu \"=\" xảy ra %(\\Leftrightarrow(2 b+1)^{2}=0 \\Leftrightarrow\\left\\{\\begin{array}{l}a=\\frac{1}{2} \\\\ b=-\\frac{1}{2}\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 1.0,
+        "content": "Cho %(6 a-5 b=1)%. Tìm giá trị nhỏ nhất của %(4 a^{2}+25 b^{2})%",
+        "question_images": [],
+        "solution": "Đặt %(x=2 a, y=-5 b)%. Áp dụng bất đẳng thức Bunhiacopxki ta có:<br>%((3 x+y)^{2} \\leq\\left(x^{2}+y^{2}\\right)(9+1) \\Rightarrow x^{2}+y^{2} \\geq \\frac{1}{10})% hay %(4 a^{2}+25 b^{2} \\geq \\frac{1}{10})%<br>Dấu bằng xảy ra %(\\Leftrightarrow \\frac{3}{x}=\\frac{1}{y} \\Leftrightarrow 3 y=x \\Leftrightarrow-15 b=2 a \\Leftrightarrow 6 a=-45 b \\Leftrightarrow\\left\\{\\begin{array}{l}b=-\\frac{1}{50} \\\\ a=\\frac{3}{20}\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 2.0,
+        "content": "Đa thức bậc 4 có hệ số cao nhất là 1 và thỏa mãn %(f(1)=5 ; f(2)=11 ; f(3)=21)%. Tính %(f(-1)+f(5))%",
+        "question_images": [],
+        "solution": "Nhận xét %(g(x)=2 x^{2}+3)% thỏa mãn %(g(1)=5 ; g(2)=11 ; g(3)=21)%<br>%(Q(x)=f(x)-g(x))% là đa thức bậc 4 có 3 nghiệm %(x=1 ; x=2 ; x=5)%<br>Vậy %(Q(x)=(x-1)(x-2)(x-3)(x-a))%; ta có:<br>%(\\begin{array}{l}f(-1)=Q(-1)+2(-1)^{2}+3=29+24 a \\\\ f(5)=Q(5)+2.5^{2}+3=173-24 a \\\\ \\Rightarrow f(-1)+f(5)=202\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6:",
+        "group_content": "Cho tam giác vuông cân %(A B C(A B=A C))%. %(M)% là trung điểm của %(AC)%, trên %(BM)% lấy điểm %(N)% sao cho %(N M=M A ; C N)% cắt %(A B)% tại %(E)%. Chứng minh :",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tam giác %(B N E)% đồng dạng với tam giác %(B A N)%",
+        "question_images": [],
+        "solution": "%(\\triangle A N C)% vuông tại N (vì %(A M=M C=M N)% )<br>%(\\widehat{C N M}+\\widehat{M N A}=90^{\\circ} \\& \\widehat{B A N}+\\widehat{N A C}=90^{\\circ})%<br>Mà %(\\widehat{M N A}=\\widehat{N A C} \\Rightarrow \\widehat{C N M}=\\widehat{B A N})%<br>Mặt khác %(\\widehat{C N M}=\\widehat{B N E})% (đối đỉnh) %(\\Rightarrow \\widehat{B N E}=\\widehat{B A N} \\Rightarrow \\triangle B N E \\sim \\triangle B A N)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ef5643572715f122556771143c90ca74.png\" srcset=\"https://docdn.giainhanh.io/media/test/f0079358143e778d4b4d8be1b78a9b32.png 212w, https://docdn.giainhanh.io/media/test/c009ceaf17363b20faaf34a3ee1573fd.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(\\frac{N C}{A N}=\\frac{N B}{A B}+1)%",
+        "question_images": [],
+        "solution": "Trên tia đối tia %(MN)% lấy điếm %(F)% sao cho %(F M=M N)%<br>Tứ giác %(A N C F)% là hình chữ nhật (vì có 2 đường chéo bằng nhau và cắt nhau tại trung điểm mỗi đường)<br>%(\\Rightarrow C E / / A F \\Rightarrow \\widehat{A F B}=\\widehat{E N B})% (đồng vị) %(\\Rightarrow \\triangle B A N \\sim \\triangle B F A)%<br>%(\\Rightarrow \\frac{F A}{A N}=\\frac{B F}{B A} \\Rightarrow \\frac{N C}{A N}=\\frac{A B+N B}{A B} \\Rightarrow \\frac{N C}{A N}=\\frac{N B}{A B}+1(d f c m))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/211088f94344dd8babe461f44c4979dd.png\" srcset=\"https://docdn.giainhanh.io/media/test/bf1047ebfe5b6c2a54737ca7b66c4fb8.png 212w, https://docdn.giainhanh.io/media/test/239ca98b23f46df9e0e2c5cba94539c7.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

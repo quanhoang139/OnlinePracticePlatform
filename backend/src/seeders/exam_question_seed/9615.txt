@@ -1,0 +1,65 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Cho %(a\\gt b>0)% thỏa mãn %(3 a^{2}+3 b^{2}=10 a b)%. Tính giá trị của biểu thức %(P=\\frac{a-b}{a+b})%",
+        "question_images": [],
+        "solution": "Xét %(P^{2}=\\frac{(a-b)^{2}}{(a+b)^{2}}=\\frac{a^{2}-2 a b+b^{2}}{a^{2}+2 a b+b^{2}}=\\frac{3 a^{2}+3 b^{2}-6 a b}{3 a^{2}+3 b^{2}+6 a b}=\\frac{4 a b}{16 a b}=\\frac{1}{4})%<br>Vì %(a\\gt b>0 \\Rightarrow P>0 \\Rightarrow P=\\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Rút gọn biểu thức: %(A=1^{2}-2^{2}+3^{2}-4^{2}+\\ldots \\ldots . .+999^{2}-1000^{2})%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}A=\\left(1^{2}-2^{2}\\right)+\\left(3^{2}-4^{2}\\right)+\\ldots . .+\\left(999^{2}-1000^{2}\\right) \\\\=(1-2)(1+2)+(3-4)(3+4)+\\ldots \\ldots . .+(999-1000)(999+1000) \\\\=-(1+2+3+4+\\ldots . .+999+1000) \\\\=-500.1001=-500500\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Cho hai số nguyên, số thứ nhất chia cho 5 dư 1 , số thứ hai chia cho 5 dư 2 . Hỏi tổng bình phương của chúng có chia hết cho 5 không ?",
+        "question_images": [],
+        "solution": "Vì số thứ nhất chia cho 5 dư 1 nên có dạng %(5 a+1)%, số thứ hai chia cho 5 dư 2 nên có dạng %(5 b+2(a, b \\in \\mathbb{Z}))%<br>Ta có tổng bình phương hai số đó là:<br>\\[(5 a+1)^{2}+(5 b+1)^{2}=25 a^{2}+10 a+1+25 b^{2}+10 b+4=5\\left(5 a^{2}+5 b^{2}+2 a+2 b+1\\right) \\vdots 5\\]<br>Vậy tổng bình phương của hai số chia hết cho 5",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Chứng minh rằng với mọi số tự nhiên %(n)% thì phân số %(\\frac{21 n+4}{14 n+3})% là phân số tối giản",
+        "question_images": [],
+        "solution": "Gọi %(d=U C L N(21 n+4 ; 14 n+3))% với %(d \\in \\mathbb{N}, d \\geq 1)%<br>Ta có: %(21 n+4: d)% và %(14 n+3: d)%<br>Khi đó %(2(21 n+4) \\vdots d)% và %(3(14 n+3) \\vdots d)%<br>Hay %(42 n+8 \\vdots d)% và %(42 n+9 \\vdots d)%<br>\\[\\Rightarrow(42 n+9-42 n-8) \\vdots d \\text { hay } 1 \\vdots d \\Rightarrow d=1\\]<br>Vậy phân số %(\\frac{21 n+4}{14 n+3})% là phân số tối giản với mọi số tự nhiên %(n)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Tìm giá trị nhỏ nhất của biểu thức : %(P=|x-2006|+|x-2007|+2006)%",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{l}P=|x-2006|+|x-2007|+2006 \\\\=|x-2006|+|2007-x|+2006 \\geq|(x-2006)+(2007-x)|+2006=2007\\end{array}\\]<br>Vậy %(\\min P=2007 \\Leftrightarrow 2006 \\leq x \\leq 2007)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình thang %(A B C D(A B / / C D))% có %(A B\\lt C D)%. Qua %(A)% và %(B)% kẻ các đường thẳng song song với BC và AD lần lượt cắt CD ở K và I . Gọi E là giao điểm của %(A K)% và %(\\mathrm{BD}, \\mathrm{F})% là giao điểm của %(B I)% và AC . Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(E F / / A B)%",
+        "question_images": [],
+        "solution": "Ta có: %(\\mathrm{AB} / / \\mathrm{CD})% nên theo hệ quả Ta let ta có:<br>\\[\\frac{A F}{F C}=\\frac{A B}{I C}(1) \\quad \\frac{A E}{E K}=\\frac{A B}{D K}(2)\\]<br>Mặt khác ta có:<br>Tứ giác ABCK là hình bình hành (do %(A B / / C D, B C / / A K)% ) nên %(\\mathrm{AB}=\\mathrm{CK})% (3)<br>Tứ giác %(A B I D)% là hình bình hành (do %(A B / / C D, B I / / A D))% nên %(A B=D I)% (4)<br>Từ (3) (4) suy ra %(C K=D I \\Rightarrow I C=D K(5))%<br>Từ (1) (2) (5) suy ra %(\\frac{A F}{F C}=\\frac{A E}{E K} \\Rightarrow E F / / D C \\Rightarrow E F / / A B)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5a0f1fd3357d4f78aea3ac09f7a9003c.png\" srcset=\"https://docdn.giainhanh.io/media/test/5d67f1fa32342152f351f0234d93bf74.png 245w, https://docdn.giainhanh.io/media/test/1c0dd7b3ba0e27521eeb88e08f0973a2.png 500w, https://docdn.giainhanh.io/media/test/32ee556f9a0123329ea052a7fe8d1721.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(A B^{2}=C D \\cdot E F)%",
+        "question_images": [],
+        "solution": "Ta có: %(\\mathrm{AB} / / \\mathrm{CD})% %(\\Rightarrow \\frac{A B}{C I}=\\frac{A F}{C F}\\left({ }^{*}\\right)()% Do %(A B=D I)% nên %(A B+C I=D I+C I=C D))%<br>Mặt khác %(\\triangle A E F \\sim \\triangle A K C(E F / / K C))%%(\\Rightarrow \\frac{A F}{A C}=\\frac{E F}{K C})% mà %(K C=A B \\Rightarrow \\frac{A F}{A C}=\\frac{E F}{A B}(* *))%<br>Từ (*) và (**) suy ra %(\\frac{A B}{C D}=\\frac{E F}{A B})% hay %(A B^{2}=E F . C D)% (dpcm).",
+        "question_type": "essay"
+    }
+]

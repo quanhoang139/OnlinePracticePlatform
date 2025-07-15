@@ -1,0 +1,157 @@
+[
+    {
+        "title": "Bài I",
+        "group_content": "Vật nặng có khối lượng %(m)% nằm trên một mặt phẳng nhẵn nằm ngang, được nối với một lò xo có độ cứng %(k)%, lò xo được gắn vào bức tường đứng tại điểm A (Hình 1a). Vật đang đứng cân bằng thì chịu tác dụng của một lực không đổi %(F)% hướng theo trục lò xo như hình vẽ.",
+        "group_images": [
+            "https://docdn.giainhanh.io/media/test/76740ede2be546b5b6c27b291dd86713.PNG"
+        ],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a)  ",
+        "point": 2.0,
+        "content": "a) Hãy tìm quãng đường mà vật nặng đi được và thời gian vật đi hết quãng đường ấy kể từ khi bắt đầu tác dụng lực cho đến khi vật dừng lại lần thứ nhất.",
+        "question_images": [],
+        "solution": "Chọn trục tọa độ hướng dọc theo trục lò xo, gốc tọa độ trùng với vị trí cân bằng của vật sau khi đã có lực %(F)% tác dụng như hình 1 .<br>Khi đó, vị trí ban đầu của vật có tọa độ là %(x_{0})%.<br>Tại vị trí cân bằng, lò xo bị biến dạng một lượng %(x_{0})% và:<br>\\[\\mathrm{F}=-\\mathrm{kx}_{0} \\Rightarrow \\mathrm{x}_{0}=-\\frac{\\mathrm{F}}{\\mathrm{k}} \\text {. }\\]<br>Tại tọa độ %(x)% bât kỳ thì độ biến dạng của lò xo là %(\\left(x-x_{0}\\right))%, nên hợp lực tác dụng lên vật là: %(-\\mathrm{k}\\left(\\mathrm{x}-\\mathrm{x}_{0}\\right)+\\mathrm{F}=\\mathrm{ma})%.<br>Thay biểu thức của %(x_{0})% vào, ta nhận được:<br>\\[-k\\left(x+\\frac{F}{k}\\right)+F=m a \\Rightarrow-k x=m a \\Rightarrow x^{\\prime \\prime}+\\omega^{2} x=0 .\\]<br>Trong đó %(\\omega=\\sqrt{\\mathrm{k} / \\mathrm{m}})%.<br>Nghiệm của phương trình này là:<br>\\[x=\\operatorname{Acos}(\\omega t+\\varphi) \\text {. }\\]<br>Như vậy vật dao động điều hòa với chu kỳ %(\\mathrm{T}=2 \\pi \\sqrt{\\frac{\\mathrm{m}}{\\mathrm{k}}})%.<br>Thời gian kế từ khi tác dụng lực %(F)% lên vật đến khi vật dừng lại lần thứ nhất (tại ly độ cực đại phía bên phải) rõ ràng là bằng %(1 / 2)% chu kỳ dao động, vật thời gian đó là: %(\\mathrm{t}=\\frac{\\mathrm{T}}{2}=\\pi \\sqrt{\\frac{\\mathrm{m}}{\\mathrm{k}}})%.<br>Khi %(t=0)% thì:<br>\\[\\begin{array}{l}x=A \\cos \\varphi=-\\frac{F}{k}, \\v=-\\omega A \\sin \\varphi=0\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}A=\\frac{F}{k}, \\\\varphi=0 .\\end{array}\\right.\\]<br>Vậy vật dao động với biên độ %(F / k)%, thời gian từ khi vật chịu tác dụng của lực %(F)% đến khi vật dừng lại lần thứ nhất là %(T / 2)% và nó đi được quãng đường bằng 2 lần biên độ dao động.<br>Do đó, quãng đường vật đi được trong thời gian này là:<br>\\[\\mathrm{S}=2 \\mathrm{~A}=\\frac{2 \\mathrm{~F}}{\\mathrm{k}}\\]<br><img alt=\"image.png\" src=\"https://docdn.giainhanh.io/media/test/34239236259ab22e591348026a1f441f.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Nếu lò xo không gắn vào điểm A mà được nối với một vật khối lượng %(M)% (Hinh %(1 b))%, hệ số ma sát giữa %(M)% và mặt ngang là %(\\mu)%. Hãy xác định độ lớn của lực %(F)% để sau đó vật %(m)% dao động điều hòa.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/a4e8a25318c487dbea69842cf57469b6.PNG"
+        ],
+        "solution": "Theo câu a) thì biên độ dao động là %(\\mathrm{A}=\\frac{\\mathrm{F}}{\\mathrm{k}})%.<br>- Để sau khi tác dụng lực, vật %(m)% dao động điều hòa thì trong quá trình chuyển động của %(m, M)% phải nằm yên.Lực đàn hồi tác dụng lên %(M)% đạt độ lớn cực đại khi độ biến dạng của lò xo đạt cực đại khi đó vật %(m)% xa %(M)% nhất (khi đó lò xo giãn nhiều nhất và bằng: %(\\left|\\mathrm{x}_{0}\\right|+\\mathrm{A}=2 \\mathrm{~A})% ).<br>Để vật %(M)% không bị trượt thì lực đàn hồi cực đại không được vượt quá độ lớn của ma sát nghỉ cực đại:<br>\\[\\mathrm{k} \\cdot 2 \\mathrm{~A} \\leq \\mu \\mathrm{Mg} \\Rightarrow \\mathrm{k} \\cdot 2 \\cdot \\frac{\\mathrm{F}}{\\mathrm{k}} \\leq \\mu \\mathrm{Mg} .\\]<br>Từ đó suy ra điều kiện của độ lớn lực %(F: \\mathrm{F} \\leq \\frac{\\mu \\mathrm{mg}}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài II",
+        "group_content": "Hai nguồn kết hợp %(\\mathrm{S}_{1}, \\mathrm{~S}_{2})% trên mặt nước cách nhau 12 cm phát ra hai dao động điều hòa cùng phương cùng tần số %(\\mathrm{f}=20 \\mathrm{~Hz})%, cùng biên độ %(\\mathrm{a}=2 \\mathrm{~cm})% và cùng pha ban đầu bằng không. Xét điểm M trên mặt nước cách %(\\mathrm{S}_{1}, \\mathrm{~S}_{2})% những khoảng tương ứng: %(\\mathrm{d}_{1}=4,2 \\mathrm{~cm} ; \\mathrm{d}_{2}=9 \\mathrm{~cm})%. Coi biên độ sóng không đổi, biết tốc độ truyền sóng trên mặt nước là %(\\mathrm{v}=32 \\mathrm{~cm} / \\mathrm{s})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Viết phương trình sóng tổng hợp tại điểm M . Điểm M thuộc cực đại hay cực tiểu giao thoa?",
+        "question_images": [],
+        "solution": "Các phương trình nguồn sóng: %(\\mathrm{u}_{\\mathrm{s} 1}=\\mathrm{u}_{\\mathrm{s} 2}=2 \\cos (40 \\pi \\mathrm{t}) \\mathrm{cm})%<br>- Phương trình sóng thành phần tại M :%(\\mathrm{u}_{1 \\mathrm{M}}=2 \\cos \\left(40 \\pi \\mathrm{t}-\\frac{2 \\pi \\mathrm{d}_{1}}{\\lambda}\\right) \\mathrm{cm} ; \\mathrm{u}_{2 \\mathrm{M}}=2 \\cos \\left(40 \\pi \\mathrm{t}-\\frac{2 \\pi \\mathrm{d}_{2}}{\\lambda}\\right) \\mathrm{cm})%;<br>\\[\\lambda=\\frac{\\mathrm{v}}{\\mathrm{f}}=1,6 \\mathrm{~cm}\\]<br>- Phương trình sóng tổng hợp tại M :<br>\\[u_{M}=u_{1 \\mathrm{M}}+\\mathrm{u}_{2 \\mathrm{M}}=4 \\cos (40 \\pi \\mathrm{t}-1,25 \\pi) \\mathrm{cm}\\]<br>Xét điều kiện: %(\\mathrm{d}_{2}-\\mathrm{d}_{1}=\\mathrm{k} \\lambda \\Leftrightarrow 9-4,2=\\mathrm{k} \\cdot 1,6 \\Rightarrow \\mathrm{k}=3)%<br>vậy M thuộc cực đại giao thoa",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Gọi %(\\mathrm{M}^{\\prime})% là điểm đối xứng với M qua trung điểm của %(\\mathrm{S}_{1} \\mathrm{~S}_{2})%. Tính số điểm cực đại, cực tiểu trên đoạn %(\\mathrm{MM}^{\\prime})% (không kể M và %(\\mathrm{M}^{\\prime})% ).",
+        "question_images": [],
+        "solution": "Gọi I là trung điểm của %(\\mathrm{S}_{1} \\mathrm{~S}_{2})%.<br>- Xét điểm N nằm trên IM :N là cực đại khi: %(\\mathrm{d}_{2}-\\mathrm{d}_{1}=\\mathrm{k} \\lambda)%<br>\\[\\Rightarrow 0\\lt \\mathrm{k} \\lambda\\lt 4,8 \\Rightarrow 0\\lt \\mathrm{k}\\lt 3 \\Rightarrow \\mathrm{k}=1,2\\]<br>Vậy số cực đại trong đoạn MM' là: %(\\mathrm{N}_{1}=5)% điểm N ' là cực tiểu khi : %(\\mathrm{d}_{2}-\\mathrm{d}_{1}=\\left(\\mathrm{k}+\\frac{1}{2}\\right) \\lambda)%<br>\\[0\\lt \\left(\\mathrm{k}+\\frac{1}{2}\\right) \\lambda\\lt 4,8 \\Rightarrow 2,5\\gt \\mathrm{k}>-0,5 \\Rightarrow \\mathrm{k}=0,1,2\\]<br>Vậy số cực tiểu trong đoạn %(\\mathrm{MM}^{\\prime})% là: %(\\mathrm{N}_{2}=6)% điểm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Giữ nguyên tần số f và các vị trí %(\\mathrm{S}_{1}, \\mathrm{M})%. Hỏi muốn điểm M nằm trên đường cực tiểu giao thoa thì phải dịch chuyển nguồn %(\\mathrm{S}_{2})% dọc theo phương %(\\mathrm{S}_{1} \\mathrm{~S}_{2})%, ra xa %(\\mathrm{S}_{1})% từ vị trí ban đầu một khoảng nhỏ nhất bằng bao nhiêu?",
+        "question_images": [],
+        "solution": "Để M thuộc cực tiểu giao thoa thì<br>\\[\\mathrm{d}_{2}-\\mathrm{d}_{1}=(2 \\mathrm{k}+1) \\frac{\\lambda}{2} \\Rightarrow \\mathrm{d}_{2}=1,6 \\mathrm{k}+5\\]<br>%(\\mathrm{S}_{2})% dịch ra xa %(\\mathrm{S}_{1})% thì %(\\mathrm{d}_{2}\\gt 9 \\Rightarrow \\mathrm{k}>2,5 \\Rightarrow \\mathrm{k}=3 \\Rightarrow \\mathrm{d}_{2}^{\\prime}=9,8 \\mathrm{~cm})%<br>- Khi chưa dịch %(\\mathrm{S}_{2})% thì %(\\mathrm{d}_{1}=4,2 \\mathrm{~cm}, \\mathrm{~d}_{2}=9 \\mathrm{~cm}, \\mathrm{~S}_{1} \\mathrm{~S}_{2}=12 \\mathrm{~cm})%<br>\\[\\Rightarrow \\cos \\alpha=\\frac{\\mathrm{d}_{2}^{2}+\\left(\\mathrm{S}_{1} \\mathrm{~S}_{2}\\right)^{2}-\\mathrm{d}_{1}^{2}}{2 \\mathrm{~d}_{2} \\cdot \\mathrm{S}_{1} \\mathrm{~S}_{2}}=0,96 \\Rightarrow \\sin \\alpha=0,28\\]<br>%(\\mathrm{MH}=\\mathrm{MS}_{2} \\sin \\alpha=2,52 \\mathrm{~cm}: \\mathrm{HS}_{2}=\\mathrm{MS}_{2} \\cos \\alpha=8,64 \\mathrm{~cm})%<br>Khi dịch %(\\mathrm{S}_{2})% đến %(\\mathrm{S}_{2}{ }^{\\prime})% thì %(\\mathrm{HS}_{2}{ }^{\\prime}=\\sqrt{\\mathrm{MS}_{2}{ }^{2}-\\mathrm{MH}^{2}}=9,47 \\mathrm{~cm})%<br>%(\\Rightarrow)% đoan dịch ngắn nhất là: %(\\mathrm{S}_{2} \\mathrm{~S}_{2}{ }^{\\prime}=\\mathrm{HS}_{2}{ }^{\\prime}-\\mathrm{HS}_{2}=0,83 \\mathrm{~cm})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/cf25e9df00e2c08ac3afd14afaa5a692.png\" srcset=\"https://docdn.giainhanh.io/media/test/89a0c19dc73978d4f9b3c1bd4f7d4618.png 245w, https://docdn.giainhanh.io/media/test/e91866abd8847cb2f006cc7b18cf4d0b.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài III ",
+        "point": 3.0,
+        "content": "Cho mạch điện có sơ đồ như Hình 2 : Hai tụ %(\\mathrm{C}_{1})% và %(\\mathrm{C}_{2})% có cùng điện dung C ; cuộn dây thuần cảm có độ tự cảm L ; nguồn có suất điện động E , bỏ qua điện trở thuần của nguồn, dây nối, khoá K . Ban đầu khoá K ở chốt a , sau đó đóng sang chốt b . Hãy viết biểu thức của điện tích trên các bản tụ %(\\mathrm{C}_{1}, \\mathrm{C}_{2})% phụ thuộc vào thời gian khi đóng K sang chốt",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/dfe0bef1f29e174f84ed02fe42e2de86.PNG"
+        ],
+        "solution": "Khi K đóng vào chốt a tụ %(\\mathrm{C}_{1})% được tích điện đến điện tích %(\\mathrm{q}_{0}=\\mathrm{CE})% và bản dương của tụ được nối với K .<br>- Khi đóng K vào chốt b , tụ %(\\mathrm{C}_{1})% phóng điện vào trong mạch %(\\mathrm{C}_{2} \\mathrm{~L})%, trong mạch có dòng điện %(\\mathrm{i}=-\\mathrm{q}_{1}^{\\prime})%.<br>Dòng điện chạy qua cuộn dây, làm cho trong cuộn dây xuất hiện suất điện động tự cảm %(\\mathrm{e}_{c}=\\mathrm{Li}^{\\prime}=-\\mathrm{Lq}_{1}^{\\prime \\prime})%.<br>Xét thời điểm tụ %(\\mathrm{C}_{1})% đang phóng điện và suất điện động tự cảm đóng vai trò suất phản điện. Bỏ qua điện trờ thuẩn của cuộn dây và dây nối.<br>\\[\\begin{aligned}& e_{c}=u_{1}+u_{2} \\\\Rightarrow & -q_{1}^{\\prime \\prime}=\\frac{q_{1}}{C_{1}}+\\frac{q_{2}}{C_{2}}=\\frac{q_{1}+q_{2}}{C}\\end{aligned}\\]<br>Tại nút %(\\mathrm{b}: \\mathrm{q}_{1}-\\mathrm{q}_{2}=\\mathrm{q}_{0} \\Rightarrow \\mathrm{q}_{2}=\\mathrm{q}_{1}-\\mathrm{q}_{0})% thay vào phương trình trên ta được: %(\\mathrm{q}_{1}^{\\prime \\prime}=-\\frac{2}{\\mathrm{LC}}\\left(\\mathrm{q}_{1}-\\frac{\\mathrm{q}_{0}}{2}\\right))%<br>- Phương trình này có nghiệm :<br>\\[\\mathrm{q}_{1}=\\frac{\\mathrm{q}_{0}}{2}\\left[\\cos \\left(\\sqrt{\\frac{2}{\\mathrm{LC}}} \\mathrm{t}\\right)+1\\right] \\Rightarrow \\mathrm{q}_{2}=\\frac{\\mathrm{q}_{0}}{2}\\left[\\cos \\left(\\sqrt{\\frac{2}{\\mathrm{LC}}} \\mathrm{t}\\right)-1\\right]\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài IV",
+        "group_content": "Cho mạch điện như Hình 3: A là ampekế nhiệt, điện trở %(\\mathrm{R}_{0}=100 \\Omega, \\mathrm{X})% là hộp kín chứa 2 trong 3 phần tử %((\\mathrm{R}, \\mathrm{L}, \\mathrm{C}))% mắc nối tiếp. Đặt vào hai đầu %(\\mathrm{M}, \\mathrm{N})% của mạch điện một điện áp xoay chiều có biểu thức :%(\\mathrm{u}_{\\mathrm{MN}}=200 \\sqrt{2} \\cos 2 \\pi \\mathrm{ft}(\\mathrm{V}))%, tần số f thay đổi được. Bỏ qua điện trở ampekế, khoá K và dây nối.",
+        "group_images": [
+            "https://docdn.giainhanh.io/media/test/821ad19d9b7a96b7de0194e3718c838e.PNG"
+        ],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Với %(\\mathrm{f}=50 \\mathrm{~Hz})% thì khi đóng K , ampekế chi 1 A . Tính điện dung %(\\mathrm{C}_{0})% của tụ điện.",
+        "question_images": [],
+        "solution": "Khi đóng K mạch điện thành : Ampeke chỉ 1A<br>\\[\\begin{array}{l}\\rightarrow \\mathrm{I}=1 \\mathrm{~A} ; \\mathrm{Z}_{\\mathrm{ND}}=\\frac{200}{1}=200 \\Omega \\\\rightarrow \\mathrm{R}_{0}^{2}+\\mathrm{Z}^{2}{ }_{\\mathrm{C} 0}=200^{2} \\Rightarrow \\mathrm{Z}_{\\mathrm{C} 0}=100 \\sqrt{3}(\\Omega) \\rightarrow \\mathrm{C}_{0}=\\frac{10^{-4}}{\\sqrt{3} \\pi}(\\mathrm{F})\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Ngắt K , thay đổi tần số thì thấy khi %(\\mathrm{f}=50 \\mathrm{~Hz})%, ampekế chỉ giá trị cực đại và điện áp tức thời giữa hai đầu X lệch pha %(\\pi / 2)% so với điện áp giữa 2 điểm M và D . Hơi hộp X chứa những phần từ nào? Tính các giá trị của chúng.",
+        "question_images": [],
+        "solution": "Khi K ngắt: %(\\overrightarrow{\\mathrm{U}}_{\\mathrm{MD}} \\perp \\overrightarrow{\\mathrm{U}}_{\\mathrm{DN}})%%(\\overrightarrow{\\mathrm{U}}_{\\mathrm{MD}})% trễ pha so với i một góc %(\\varphi_{\\mathrm{MD}})%.<br>\\[\\operatorname{tg} \\varphi_{M D}=\\frac{-Z_{C 0}}{R_{0}}=-\\sqrt{3} \\rightarrow \\varphi_{M D}=-\\frac{\\pi}{3}\\]<br>Vậy %(\\varphi_{D N})% sớm pha 30 so với %(i \\rightarrow X)% chứa %(R_{B})% và %(Z_{L})%<br>\\[\\operatorname{tg} \\varphi_{D N}=\\frac{Z_{C}}{R}=\\frac{1}{\\sqrt{3}} \\Rightarrow R=\\sqrt{3} Z_{L}\\]<br>*CĐDĐ trong mạch cực đại nên khi đó xảy ra cộng hưởng :<br>\\[\\begin{aligned}& Z_{\\mathrm{L}}=\\mathrm{Z}_{\\mathrm{C} 0} \\Leftrightarrow \\omega \\mathrm{L}=\\frac{1}{\\omega \\mathrm{C}_{0}} \\Leftrightarrow \\omega^{2} \\mathrm{LC}_{0}=1 \\\\Rightarrow & \\mathrm{L}=\\frac{1}{\\omega^{2} \\mathrm{Co}}=\\frac{1}{100^{2} \\pi^{2} \\cdot \\frac{10^{-4}}{\\pi \\sqrt{3}}}=\\frac{\\sqrt{3}}{\\pi}(\\mathrm{H})\\end{aligned}\\]<br>\\[\\mathrm{R}=\\sqrt{3} \\mathrm{Z}_{\\mathrm{L}}=\\sqrt{3} \\cdot \\omega \\cdot \\mathrm{L}=\\sqrt{3} \\cdot 100 \\cdot \\pi \\cdot \\frac{\\sqrt{3}}{\\pi}=300 \\Omega\\]<br><img/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.5,
+        "content": "c) Khoá K vẫn ngắt, thay đổi f thì thấy ampekế chỉ cùng trị số khi %(\\mathrm{f}=\\mathrm{f}_{1})% hoặc %(\\mathrm{f}=\\mathrm{f}_{2})%. Biết %(\\mathrm{f}_{1}+\\mathrm{f}_{2}=125 \\mathrm{~Hz})%. Tính %(\\mathrm{f}_{1}, \\mathrm{f}_{2})% và viết biểu thức cường độ dòng điện qua mạch khi đó.",
+        "question_images": [],
+        "solution": "Khi thay đổi tần số, có 2 giá trị của cường độ hiệu dụng bằng nhau:<br>\\[\\begin{array}{c}\\mathrm{I}_{1}=\\mathrm{I}_{2} \\Rightarrow Z_{1}=Z_{2} \\\\Leftrightarrow\\left(Z_{L}-Z_{1 c 0}\\right)^{2}=\\left(Z_{2 L}-Z_{2 c o}\\right)^{2} \\Leftrightarrow Z_{1 L}-Z_{1 c o}=\\left(Z_{2 L}-Z_{2 c o}\\right) \\Z_{1 L}-Z_{1 c o}=Z_{2 L}-Z_{2 c o}=Z_{1 L}-Z_{2 L}=Z_{1 c o}-Z_{2 c} \\\\Leftrightarrow L\\left(\\omega_{1}+\\omega_{2}\\right)=\\frac{1}{C_{0}} \\frac{\\left(\\omega_{1}-\\omega_{2}\\right)}{\\omega_{1} \\cdot \\omega_{2}} \\\\rightarrow 2 \\pi\\left(f_{1}-f_{2}\\right)\\left(L+\\frac{1}{4 \\pi^{2} f_{1} f_{2} C_{0}}\\right)=0 \\quad(1) \\quad\\left(f_{1} \\neq f_{2} \\rightarrow f_{1}-f_{2} \\neq 0\\right) \\\\left.\\rightarrow L+\\frac{1}{4 \\pi^{2} f_{1} f_{2} C_{0}}=0 \\text { (vô lí }\\right) \\rightarrow \\text { loại }\\end{array}\\]<br>%(\\begin{array}{l}* \\mathrm{TH} 2: \\mathrm{Z}_{1 \\mathrm{~L}}-\\mathrm{Z}_{1 \\mathrm{co}}=-\\left(\\mathrm{Z}_{2 \\mathrm{~L}}-\\mathrm{Z}_{2 \\mathrm{co}}\\right) \\Rightarrow \\mathrm{L}\\left(\\omega_{1}+\\omega_{2}\\right)=\\frac{1}{\\mathrm{C}_{0}}\\left(\\frac{\\omega_{1}+\\omega_{2}}{\\omega_{1} \\omega_{2}}\\right) \\\\ \\Rightarrow \\omega_{1} \\omega_{2}=\\frac{1}{\\mathrm{LC}_{0}} \\Rightarrow \\mathrm{f}_{1} \\mathrm{f}_{2}=\\frac{1}{4 \\pi^{2} \\mathrm{LC}} \\\\ \\text { Thay số } \\mathrm{f}_{1} \\mathrm{f}_{2}=\\frac{1}{4 \\pi^{2} \\frac{\\sqrt{3}}{\\pi}+\\frac{1}{\\sqrt{3} \\pi}}=2000\\end{array})%<br>Theo đầu bài %(\\mathrm{f}_{1}+\\mathrm{f}_{2}=125)% suy ra: %(\\mathrm{f}_{1}=25 \\mathrm{~Hz} ; \\mathrm{f}_{2}=100 \\mathrm{~Hz})%<br>* Khi %(\\mathrm{f}=\\mathrm{f}_{1}=25 \\mathrm{~Hz})% thì %(\\mathrm{Z}_{1 \\mathrm{~L}}=2 \\pi \\mathrm{Z}_{2 \\mathrm{~L}}=50 \\sqrt{3} \\Omega)%<br>\\[\\begin{array}{l}\\mathrm{Z}_{1 \\text { co }}=\\frac{1}{2 \\pi \\mathrm{L}_{1} \\mathrm{C}_{0}}=200 \\sqrt{3} \\Omega \\text {; } \\\\mathrm{I}=\\frac{\\mathrm{U}}{\\mathrm{Z}}=\\frac{200}{\\sqrt{400^{2}+3 \\cdot 150^{2}}} \\approx 0,42 \\mathrm{~A} \\rightarrow \\operatorname{tg} \\varphi=\\frac{-3 \\sqrt{3}}{8}=0,65 \\\\end{array}\\]<br>* Khi %(\\mathrm{f}=\\mathrm{f}_{2}=100 \\mathrm{~Hz})% thì %(\\mathrm{Z}_{2 \\mathrm{~L}}=2 \\pi \\mathrm{f}_{2} \\mathrm{~L}=200 \\sqrt{3})%;<br>\\[\\begin{array}{l}Z_{2 c 6}=\\frac{1}{2 \\pi f_{2} C_{0}}=50 \\sqrt{3} \\Omega \\\\operatorname{tg} \\varphi=\\frac{Z_{2 L}-C_{0}}{R+R_{0}}=\\frac{3 \\sqrt{3}}{8}=0,05 \\rightarrow \\varphi_{u / i}=\\frac{33 \\pi}{180}\\end{array}\\]<br>* Kết luận:<br>\\[\\begin{array}{l}\\mathrm{i}_{1}=0,42 \\sqrt{2} \\cos (50 \\pi \\mathrm{t}+0,58)(\\mathrm{A}) \\\\mathrm{i}_{2}=0,42 \\sqrt{2} \\cos (200 \\pi \\mathrm{t}-0,58)(\\mathrm{A}) .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài V",
+        "group_content": "Trong thí nghiệm giao thoa ánh sáng bằng khe Y-âng, hai khe cách nhau %(\\mathrm{a}=0,5 \\mathrm{~mm})%, khoảng cách từ mặt phẳng hai khe đến màn %(\\mathrm{D}=2 \\mathrm{~m})%. Nguồn S phát ra đồng thời ba ánh sáng đơn sắc có bước sóng lần lượt là %(\\lambda_{1}=0,4 \\mu \\mathrm{m}, \\lambda_{2}=0,5 \\mu \\mathrm{m}, \\lambda_{3}=0,6 \\mu \\mathrm{m})% chiếu vào hai khe %(\\mathrm{S}_{1} \\mathrm{~S}_{2})%. Trên màn, ta thu được một trường giao thoa có bề rộng 20 cm .",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Hỏi trên màn quan sát có tổng cộng bao nhiêu vân sáng cùng màu với vân sáng chính giữa của trường giao thoa?",
+        "question_images": [],
+        "solution": "Màu sắc của vân trung tâm được tạo thành do sự chồng chập của ba ánh sáng đơn sắc %(\\lambda_{1} ; \\lambda_{2} ; \\lambda_{3})%.<br>Vậy toạ độ những vân sáng cùng màu vân trung tâm thoả mãn<br>\\[\\mathrm{x}=\\mathrm{k}_{1} \\mathrm{i}_{1}=\\mathrm{k}_{2} \\mathrm{i}_{2}=\\mathrm{k}_{3} \\mathrm{i}_{2} \\text { với }\\]<br>\\[\\begin{aligned}\\mathrm{i}_{1}=\\frac{\\lambda_{1} \\mathrm{D}}{\\mathrm{a}} & =\\frac{0,4 \\cdot 10^{-6} \\cdot 2}{0,5 \\cdot 10^{-3}}=1,6 \\cdot 10^{-3} \\mathrm{~m}=1,6 \\mathrm{~mm} \\\\& \\Rightarrow \\mathrm{k}_{1} \\lambda_{1}=\\mathrm{k}_{2} \\lambda_{2}=\\mathrm{k}_{3} \\lambda_{3} \\\\& \\Rightarrow 4 \\mathrm{k}_{1}=5 \\mathrm{k}_{2}=6 \\mathrm{k}_{3} \\\\text { hay } & \\Rightarrow 2^{2} \\mathrm{k}_{1}=5 \\mathrm{k}_{2}=2.3 \\mathrm{k}_{3}\\end{aligned}\\]<br>Bội số chung nhỏ nhất của các số này là %(2^{2} \\cdot 3 \\cdot 5 \\cdot \\mathrm{k}_{1} \\mathrm{k}_{2} \\mathrm{k}_{3}=60 \\mathrm{n})% với n là số nguyên.<br>Vậy ta có bảng sau đây :<br>Giá trị cực đại của x là %(\\mathrm{x}_{\\max }=\\frac{\\ell}{2}=10 \\mathrm{~cm}=100 \\mathrm{~mm})%<br>Vậy ta thấy giá trị khả dĩ lớn nhất của n bằng 4 .<br>Vậy tổng số vân cùng màu vân trung tâm là :<br>\\[\\mathrm{N}=1+2.4=9 \\text { vân. }\\]<br><img/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/28475a6fa4cca863ae5922c98b0d95e9.png\" srcset=\"https://docdn.giainhanh.io/media/test/ecd4732a6482dfec76ea632c118918b1.png 245w, https://docdn.giainhanh.io/media/test/5fb6e6e1b490b05d416eb3cdf7758170.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Trong khoảng giữa hai vân sáng gần nhau nhất cùng màu với màu vân trung tâm còn có bao nhiêu vân sáng nữa?",
+        "question_images": [],
+        "solution": "Khoảng vân của các bức xạ tương ứng :<br>- Từ bảng trên ta thấy trong khoảng giữa hai vân gần nhau nhất cùng mẫu vân trung tâm có: 14 vân sáng của bức xạ 1 ; 11 vân sáng của bức xạ %(2 ; 9)% vân sáng của bức xạ 3 .<br>- Gọi %(\\mathrm{n}_{12})% là số vân sáng của bức xạ 1 trùng số vân sáng của bức xạ 2 trong khoảng giữa hai vân gần nhau nhất cùng màu vân trung tâm :<br>%(\\Rightarrow 4 \\mathrm{k}_{1}=5 \\mathrm{k}_{2})% với %(\\mathrm{k}_{1}\\lt 15 \\Rightarrow)% các giá trị của %(\\mathrm{k}_{1}, \\mathrm{k}_{2})% thoả mãn<br>\\[\\mathrm{k}_{1}=5,10 ; \\mathrm{k}_{2}=4,8 \\Rightarrow \\mathrm{n}_{12}=2 \\text { (vân) }\\]<br>- Gọi %(\\mathrm{n}_{13})% là số vân sáng của bức xạ 1 trùng số vân sáng của bức xạ 3 trong khoảng giữa hai vân gần nhau nhất cùng màu vân trung tâm :<br>%(\\Rightarrow 2 \\mathrm{k}_{1}=3 \\mathrm{k}_{3})% với %(\\mathrm{k}_{1} \\mathrm{k}_{1}\\lt 15 \\Rightarrow)% các giá trị của %(\\mathrm{k}_{1}, \\mathrm{k}_{2})% thoả mãn<br>\\[\\mathrm{k}_{1}=3,6,9,12: \\mathrm{k}_{3}=2,4,6,8 \\Rightarrow \\mathrm{n}_{13}=4 \\text { vân }\\]<br>- Gọi %(\\mathrm{n}_{23})% là số vân sáng của bức xạ 2 trùng số vân sáng của bức xạ 3 trong khoảng giữa hai vân gần nhau nhất cùng màu vân trung tâm:<br>%(\\Rightarrow 5 \\mathrm{k}_{2}=6 \\mathrm{k}_{3})% với %(\\mathrm{k}_{2}\\lt 12 \\Rightarrow)% các giá trị của %(\\mathrm{k}_{2})%, %(\\mathrm{k}_{3})% thoả mãn<br>%(\\mathrm{k}_{2}=6 ; \\mathrm{k}_{3}=5 \\Rightarrow \\mathrm{n}_{23}=1)% (vân)<br>%(\\Rightarrow)% số vân sáng trong khoảng giữa hai vân gần nhau nhất cùng màu vân trung tâm là %(\\mathrm{N}=27)% (vân).",
+        "question_type": "essay"
+    },
+    {
+        "title": "Bài VI",
+        "group_content": "Cho các dụng cụ sau:<br>- Một đoạn dây mảnh đủ dài;<br>- Một quả nặng 50 g ;<br>- Thước đo chiều dài (độ chia tới mm );<br>- Thước đo góc;<br>- Đồng hồ bấm giây (độ chia tới %(1 / 100)% giây);<br>- Giá thí nghiệm.<br>Yêu cầu:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Trình bày cơ sở lí thuyết đo gia tốc rơi tự do tại nơi làm thí nghiệm.",
+        "question_images": [],
+        "solution": "Cơ sở lí thuyết<br>* Tại li độ góc %(\\alpha)% nhỏ :<br>- Định luật II Niutơn: -mgsin %(\\alpha=\\mathrm{ms}^{\\prime \\prime}=\\mathrm{mls})% \"<br>\\[\\Rightarrow \\alpha^{\\prime \\prime}+\\frac{\\mathrm{g}}{1} \\alpha=0 \\text { đặt } \\omega^{2}=\\frac{\\mathrm{g}}{\\ell}\\]<br>Ta có phương trình : %(\\alpha^{\\prime \\prime}+\\omega^{2} \\alpha=0)%%(\\Rightarrow)% con lắc dao động điều hoà với chu kỳ: %(\\mathrm{T}=2 \\pi \\sqrt{\\frac{\\ell}{\\mathrm{g}}})%<br>\\[\\Rightarrow \\mathrm{g}=\\frac{4 \\pi^{2} \\cdot \\ell}{\\mathrm{T}^{2}}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/13d10b687fab7dd49e165b742bbd5345.png\" srcset=\"https://docdn.giainhanh.io/media/test/54e9c932ca9d11bda27aa4f558fb1245.png 158w\" width=\"158\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Xây dựng phương án thí nghiệm đo gia tốc rơi tự do.",
+        "question_images": [],
+        "solution": "Chọn dây có chiều dài %(\\ell_{1}=40 \\mathrm{~cm})%. Mắc quả nặng vào đầu tự do của sợi dây treo trên giá đỡ để tạo thành con lắc đơn.<br>- Kéo quả nặng lệch khỏi phương thẳng đứng một góc nhỏ %(\\left(5^{\\circ}\\right))% rồi thả nhẹ.<br>-Đo thời gian con lắc thực hiện n dao động toàn phần %((\\mathrm{n} \\geq 10)% ). Thực hiện lại phép đo trên với các giá trị khác nhau của %(\\alpha)% và ghi kết quả vào bảng :<br>\\[\\mathrm{m}=50 \\mathrm{~g}, \\ell_{1}=40 \\mathrm{~cm}\\]<br>- Lặp lại các phép đo trên với sợi dây có chiều dài %(\\ell_{2}=50 \\mathrm{~cm})%, %(\\ell_{3}=60 \\mathrm{~cm})% rồi ghi vào bảng.<br>%(\\Rightarrow)% Từ đó tính được g trung bình.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0033375b2918aa16a26391962e09743c.png\" srcset=\"https://docdn.giainhanh.io/media/test/4d14fc89d390e480ebd215a8b0a415b7.png 245w, https://docdn.giainhanh.io/media/test/f312820e3ef138d3531d5302a3b5b1a3.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Nêu các nguyên nhân sai số có thể mắc phải trong khi làm thí nghiệm.",
+        "question_images": [],
+        "solution": "Sai số có thể mắc phải trong khi đo :<br>- Sai số đo trực tiếp: đo góc, đo chiều dài, đo thời gian<br>- Sai số khi làm thí nghiệm con lắc dao động không phải trong mặt phẳng thẳng đứng.<br>- Do lực cản không khí, gió<br>- Sai số do dụng cụ đo.",
+        "question_type": "essay"
+    }
+]

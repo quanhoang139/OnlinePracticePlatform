@@ -1,0 +1,111 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Xét tính liên tục của hàm số %(y=f(x))% tại %(x_{0}=2)%, biết:<br>\\[f(x)=\\left\\{\\begin{array}{cc}\\frac{1-\\sqrt{2 x-3}}{2-x} & \\text { khi } x\\gt 2 \\x^{2}-3 & \\text { khi } x \\leq 2\\end{array}\\right.\\]",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\lim _{x \\rightarrow 2^{+}} f(x)=\\lim _{x \\rightarrow 2^{+}} \\frac{1-\\sqrt{2 x-3}}{2-x}=\\lim _{x \\rightarrow 2^{+}} \\frac{2(2-x)}{(2-x)(1+\\sqrt{2 x-3})}=\\lim _{x \\rightarrow 2^{+}} \\frac{2}{1+\\sqrt{2 x-3}}=1 \\\\lim _{x \\rightarrow 2^{-}} f(x)=\\lim _{x \\rightarrow 2^{-}}\\left(x^{2}-3\\right)=1 ; f(2)=1\\end{array}\\]<br>Vậy %(\\lim _{x \\rightarrow 2^{+}} f(x)=\\lim _{x \\rightarrow 2^{-}} f(x)=f(2))% nên hàm số dã cho liên tục tại %(x_{0}=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Tính đạo hàm của các hàm số sau:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(y=\\frac{2 x^{3}}{3}+x^{2}-3 x+3)%;",
+        "question_images": [],
+        "solution": "%(y^{\\prime}=2 x^{2}+2 x-3)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(y=(5 x+9) \\sqrt{x^{2}-4 x+7})%;",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}y=(5 x+9) \\sqrt{x^{2}-4 x+7} \\\\ y^{\\prime}=(5 x+9)^{\\prime} \\sqrt{x^{2}-4 x+7}+(5 x+9)\\left(\\sqrt{x^{2}-4 x+7}\\right)^{\\prime} \\\\ y^{\\prime}=5 \\sqrt{x^{2}-4 x+7}+(5 x+9) \\cdot \\frac{x-2}{\\sqrt{x^{2}-4 x+7}} \\\\ y^{\\prime}=\\frac{10 x^{2}-21 x+17}{\\sqrt{x^{2}-4 x+7}}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) %(y=\\frac{\\sin x-\\cos x}{\\sin x+\\cos x})%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}y^{\\prime}=\\frac{(\\sin x-\\cos x)^{\\prime}(\\sin x+\\cos x)-(\\sin x-\\cos x)(\\sin x+\\cos x)^{\\prime}}{(\\sin x+\\cos x)^{2}} \\\\ y^{\\prime}=\\frac{(\\sin x+\\cos x)^{2}+(\\sin x-\\cos x)^{2}}{(\\sin x+\\cos x)^{2}} \\\\ y^{\\prime}=\\frac{2\\left(\\sin ^{2} x+\\cos ^{2} x\\right)}{(\\sin x+\\cos x)^{2}}=\\frac{2}{(\\sin x+\\cos x)^{2}}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho đường cong %((C))% có phương trình %(y=x^{3}-3 x+1)%. Viết phương trình tiếp tuyến của %((C))% biết tiếp tuyến đó song song với đường thẳng %(d: y=9 x-15)%.",
+        "question_images": [],
+        "solution": "\\[y=x^{3}-3 x+1\\]<br>ТXĐ: %(D=R)%<br>\\[y^{\\prime}=f^{\\prime}(x)=3 x^{2}-3\\]<br>Đường thẳng %((d): y=9 x-15)% có hệ số góc là 9 .<br>Gọi %(x_{0})% là hoành độ tiếp điểm, ta có:<br>\\[f^{\\prime}\\left(x_{0}\\right)=9 \\Leftrightarrow 3 x_{0}^{2}-3=9 \\Leftrightarrow x_{0}= \\pm 2\\]<br>Phương trình tiếp tuyến tại %(x_{0}=2: y-3=9(x-2) \\Leftrightarrow y=9 x-15)% (loại)<br>Phương trình tiếp tuyến tại %(x_{0}=-2: y+1=9(x+2) \\Leftrightarrow y=9 x+17)% (nhận)",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Quãng đường chuyển động của một chất điểm được biểu thị bởi công thức %(s(t)=t^{3}-3 t^{2}-9 t+2)%, trong đó %(t\\gt 0, t)% tính bằng giây và %(s)% tính bằng mét.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Hãy xác định vận tốc tức thời và gia tốc tức thời của chất điểm tại thời điểm %(t)%.",
+        "question_images": [],
+        "solution": "Vận tốc tức thời của chất diểm tại thời diểm %(t: v(t)=s^{\\prime}(t)=3 t^{2}-6 t-9(\\mathrm{~m} / \\mathrm{s}))%<br>Gia tốc tức thời của chất điểm tại thời điểm %(t: a(t)=s^{\\prime \\prime}(t)=6 t-6\\left(\\mathrm{~m} / \\mathrm{s}^{2}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Tính gia tốc của chất điểm tại thời điểm vận tốc triệt tiêu.",
+        "question_images": [],
+        "solution": "\\[v(t)=0 \\Leftrightarrow 3 t^{2}-6 t-9=0 \\Leftrightarrow\\left[\\begin{array}{l}t=3 \\t=-1\\lt 0\\end{array} \\Rightarrow t=3\\right.\\]<br>Khi đó gia tốc của chất điểm là %(a(3)=12\\left(\\mathrm{~m} / \\mathrm{s}^{2}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho hình chóp %(S \\cdot A B C D)% có đáy %(A B C D)% là hình vuông tâm %(O, S A)% vuông góc với mặt phẳng %((A B C D))%. Biết %(A B=a, S A=a \\sqrt{6})%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng %(B D \\perp(S A C))% và %((S A B) \\perp(S B C))%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/72a1911e34289ea2116d1bfa49589767.png\" srcset=\"https://docdn.giainhanh.io/media/test/b21260702e8a486bc2c266f7ced53326.png 128w\" width=\"128\"/><br>%(\\begin{array}{l}\\left\\{\\begin{array}{l}B D \\perp A C(h v A B C D) \\\\ B D \\perp S A(S A \\perp(A B C D))\\end{array} \\Rightarrow B D \\perp(S A C)\\right. \\\\ \\left\\{\\begin{array}{l}B C \\perp A B(h v A B C D) \\\\ B C \\perp S A(S A \\perp(A B C D))\\end{array} \\Rightarrow B C \\perp(S A B) \\Rightarrow(S B C) \\perp(S A B)\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tính góc giữa đường thẳng %(S B)% và mặt phẳng %((S A C))%.",
+        "question_images": [],
+        "solution": "%(B D \\perp(S A C))% tại %(O \\Rightarrow S O)% là hình chiếu của %(S B)% lên mặt phẳng %((S A C))%.<br>Do đó %(\\overline{(S B,(S A C)})=(S B, S O)=\\widehat{B S O})%<br>\\[B O=\\frac{a \\sqrt{2}}{2} ; S B=a \\sqrt{7} ; \\sin \\widehat{B S O}=\\frac{B O}{S B}=\\frac{\\sqrt{14}}{14} \\Rightarrow \\widehat{(S B,(S A C))}=\\widehat{B S O}=\\arcsin \\frac{\\sqrt{14}}{14}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tính theo %(a)% khoảng cách từ điểm %(A)% đến mặt phẳng %((S B D))%.",
+        "question_images": [],
+        "solution": "Trong %((S A C))%, dựng %(A I \\perp S O)% tại %(I)%.<br>\\[\\left\\{\\begin{array}{l}A I \\perp S O \\A I \\perp B D(B D \\perp(S A C))\\end{array} \\Rightarrow A I \\perp(S B D) \\text { tại } I\\right. \\text {. }\\]<br>Vậy độ dài %(A I)% là khoảng cách từ điểm %(A)% đến mặt phẳng %((S B D))%.<br>\\[S O=\\frac{a \\sqrt{26}}{2} ; A I=\\frac{S A \\cdot A O}{S O}=\\frac{a \\sqrt{6} \\cdot \\frac{a \\sqrt{2}}{2}}{\\frac{a \\sqrt{26}}{2}}=\\frac{a \\sqrt{78}}{13}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 1.0,
+        "content": "d) Tính góc giữa hai mặt phẳng %((S B C))% và %((S C D))%.",
+        "question_images": [],
+        "solution": "Trong %((S B C))%, dựng %(B H \\perp S C)% tại %(H(1))%<br>\\[\\begin{array}{l}\\left\\{\\begin{array}{l}S C \\perp B H \\S C \\perp B D(B D \\perp(S A C))\\end{array} \\Rightarrow S C \\perp(B D H) \\Rightarrow S C \\perp B H \\text { tại } H(2)\\right. \\\\(S B C) \\cap(S C D)=S C(3)\\end{array}\\]<br>\\[\\begin{array}{l}(1),(2),(3) \\Rightarrow((S B C),(S C D))=(B H, D H) \\H B=H D=\\frac{a \\sqrt{14}}{14} ; B D=a \\sqrt{2} \\\\cos \\widehat{B H D}=\\frac{H B^{2}+H D^{2}-B D^{2}}{2 \\cdot H B \\cdot H D}=\\frac{2 \\cdot \\frac{14 a^{2}}{16}-2 a^{2}}{\\frac{7}{4} a^{2}}=\\frac{-1}{7} \\\\overline{((S B C),(S C D))}=\\pi-\\arccos \\frac{-1}{7}\\end{array}\\]",
+        "question_type": "essay"
+    }
+]

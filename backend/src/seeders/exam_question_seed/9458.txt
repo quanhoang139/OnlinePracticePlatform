@@ -1,0 +1,111 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(A=\\frac{x+2}{x-3}-\\frac{4 x-7}{x^{2}-5 x+6}+\\frac{4}{2-x})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Rút gọn biểu thức %(A)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}A=\\frac{x+2}{x-3}-\\frac{4 x-7}{x^{2}-5 x+6}+\\frac{4}{2-x}\\binom{x \\neq 2}{x \\neq 3} \\\\=\\frac{x+2}{x-3}-\\frac{4 x-7}{(x-2)(x-3)}-\\frac{4}{x-2}=\\frac{(x+2)(x-2)-4 x+7-4(x-3)}{(x-2)(x-3)} \\\\=\\frac{x^{2}-4-4 x+7-4 x+12}{(x-2)(x-3)}=\\frac{x^{2}-8 x+15}{(x-2)(x-3)}=\\frac{(x-5)(x-3)}{(x-2)(x-3)}=\\frac{x-5}{x-2}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "d) Tìm tất cả các giá trị nguyên của %({ }^{x})% để biểu thức nhận giá trị nguyên",
+        "question_images": [],
+        "solution": "\\[A=\\frac{x-5}{x-2}=1-\\frac{3}{x-2}\\]<br>Với %(x \\in \\mathbb{Z}, \\quad A)% để nhận giá trị nguyên %(\\Leftrightarrow \\frac{3}{x-2} \\in \\mathbb{Z})%<br>\\[\\Leftrightarrow x-2 \\in U(3)=\\{-3 ;-1 ; 1 ; 3\\} \\Rightarrow x \\in\\{-1 ; 1 ; 3 ; 5\\}\\]<br>Vậy với %(x \\in\\{-1 ; 1 ; 5\\})% thì A nhận giá trị nguyên",
+        "question_type": "essay"
+    },
+    {
+        "title": "2a ",
+        "point": 2.0,
+        "content": "Cho hai đa thức %(P(x)=a x^{4}+b x^{3}+1)% và %(Q(x)=x^{2}-2 x+1)%. Xác định các giá trị của %({ }^{a})% và b để đa thức %(P(x))% chia hết cho đa thức %(Q(x))%",
+        "question_images": [],
+        "solution": "Ta có %(Q(x)=x^{2}-2 x+1=(x-1)^{2} \\Rightarrow P(x) \\vdots(x-1) \\Rightarrow P(1)=0)% ( định lý Bê zu) %(\\Leftrightarrow a+b+1=0 \\Leftrightarrow b=-(a+1))%.<br>Do đó :<br>\\[\\begin{array}{l}P(x)=a x^{4}+b x^{3}+1=a x^{4}-(a+1) x^{3}+1=a x^{4}-a x^{3}-x^{3}+1 \\\\=P(x):(x-1) \\Leftrightarrow a x^{3}-\\left(x^{2}+x+1\\right): x-1\\end{array}\\]<br>Đăt %(R(x)=a x^{3}-\\left(x^{2}+x+1\\right))%. Để %(R(x) \\vdots(x-1) \\Rightarrow R(1)=0)% (Định lý Bezu) %(\\Leftrightarrow a .1^{3}-\\left(1^{2}+1+1\\right)=0 \\Leftrightarrow a=3 \\Rightarrow b=-4)%<br>Vậy với %(a=3, b=-4)% thì đa thức %(P(x): Q(x))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2b ",
+        "point": 2.0,
+        "content": "Cho biểu thức %(M=\\frac{x^{5}-7 x^{4}+15 x^{3}-16 x^{2}+30 x-5}{x^{4}+2 x^{2}+17})%. Tính giá trị của %(M)% tại %(x=2+\\sqrt{3})%",
+        "question_images": [],
+        "solution": "Ta có %(: x=2+\\sqrt{3} \\Rightarrow x-2=\\sqrt{3} \\Rightarrow(x-2)^{2}=3 \\Leftrightarrow x^{2}-4 x+1=0)%. Có<br>\\[\\begin{array}{l}M=\\frac{x^{5}-7 x^{4}+15 x^{3}-16 x^{2}+30 x-5}{x^{4}+2 x^{2}+17} \\\\=\\frac{\\left(x^{5}-4 x^{4}+x^{3}\\right)-\\left(3 x^{4}-12 x^{3}+3 x^{2}\\right)+\\left(2 x^{3}-8 x^{2}+2 x\\right)-\\left(5 x^{2}-20 x+5\\right)+8 x}{\\left(x^{4}-4 x^{3}+x^{2}\\right)+\\left(4 x^{3}-16 x^{2}+4 x\\right)+\\left(17 x^{2}-68 x+17\\right)+64 x} \\\\=\\frac{\\left(x^{2}-4 x+1\\right)\\left(x^{3}-3 x^{2}+2 x-5\\right)+8 x}{\\left(x^{2}-4 x+1\\right)\\left(x^{2}+4 x+17\\right)+64 x}=\\frac{0+8 x}{0+64 x}=\\frac{1}{8}\\end{array}\\]<br>Vậy %(M=\\frac{1}{8})% tại %(x=2+\\sqrt{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho phương trình %(\\frac{x+m}{x+3}+\\frac{x-3}{x-m}=2(1))% ( x là ẩn)",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Giải phương trình (1) với %(m=4)%",
+        "question_images": [],
+        "solution": "Với %(m=4)% thì phương trình (1) trở thành :<br>\\[\\begin{array}{l}\\frac{x+4}{x+3}+\\frac{x-3}{x-4}=2(d k x d: x \\neq 4 ; x \\neq-3) \\\\Leftrightarrow \\frac{(x+4)(x-4)}{(x+3)(x-4)}+\\frac{(x-3)(x-4)}{(x+3)(x-4)}=\\frac{2(x+3)(x-4)}{(x+3)(x-4)} \\\\Rightarrow x^{2}-16+x^{2}-9=2 x^{2}-2 x-24 \\\\Leftrightarrow 2 x=1 \\Leftrightarrow x=\\frac{1}{2}(\\mathrm{tm})\\end{array}\\]<br>Vậy với %(m=4)% thì phương trình (1) có nghiệm %(x=\\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Tìm điều kiện của %(m)% để phương trình (1) có nghiệm duy nhất là số âm",
+        "question_images": [],
+        "solution": "Phương trình %(\\frac{x+m}{x+3}+\\frac{x-3}{x-m}=2)%.<br>ĐKХĐ: %(x \\neq m, x \\neq-3)%<br>\\[\\begin{array}{l}\\Rightarrow(x+m)(x-m)+(x-3)(x+3)=2(x+3)(x-m) \\\\Leftrightarrow x^{2}-m^{2}+x^{2}-9=2 x^{2}+2(3-m) x-6 m \\\\Leftrightarrow 2(m-3) x=m^{2}-6 m+9 \\Leftrightarrow 2(m-3) x=(m-3)^{2}\\left({ }^{*}\\right)\\end{array}\\]<br>Để (*) có nghiệm duy nhất là số âm thì<br>Vậy với %(\\left\\{\\begin{array}{l}m\\lt 3 \\\\ m \\neq-3\\end{array}\\right.)% thì phương trình (1) có nghiệm duy nhất là số âm",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Cho hai số dương %(x, y)% thỏa mãn %(x^{2}+4 y^{2}=5)%. Tìm giá trị lớn nhất của %(x+y)%",
+        "question_images": [],
+        "solution": "Áp dụng bất đẳng thức Bunhiacopxki ta có:<br>\\[\\begin{array}{l}\\left(x^{2}+4 y^{2}\\right)\\left(1+\\frac{1}{4}\\right) \\geq\\left(x \\cdot 1+2 y \\cdot \\frac{1}{2}\\right)^{2}=(x+y)^{2} \\\\Rightarrow(x+y)^{2} \\leq\\left(x^{2}+4 y^{2}\\right) \\cdot \\frac{5}{4}=5 \\cdot \\frac{5}{4}=\\frac{25}{4} \\Rightarrow x+y \\leq \\frac{25}{4}(\\text { do } x, y\\gt 0)\\end{array}\\]<br>Dấu bằng xảy ra %(\\Leftrightarrow\\left\\{\\begin{array}{l}x=4 y \\\\ x^{2}+4 y^{2}=5\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=4 y \\\\ 16 y^{2}+4 y^{2}=5\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=2 \\\\ y=\\frac{1}{2}\\end{array}(\\right.\\right.\\right.)% do %(x, y>0))%<br>Vậy %(\\operatorname{Max}(x+y)=\\frac{5}{2} \\Leftrightarrow x=2 ; y=\\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho hình vuông %(A B C D)%. Gọi M là một điểm bất kỳ̀ trên đường chéo %(A C(M \\neq A, C))%. Gọi %(E, F)% theo thứ tự là hình chiếu của %(\\mathbf{M})% trên %(A D, C D)%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Chứng minh : tứ giác %(D E M F)% là hình chữ nhật",
+        "question_images": [],
+        "solution": "Xét tứ giác %(D E M F)% có :<br>\\[\\angle E D F=\\angle D E M=\\angle D F M=90^{\\circ}(\\mathrm{gt})\\]<br>Do đó %(D E M F)% là hình chữ nhật<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/18c840fc1a59c5d831cbeed8c6218595.png\" srcset=\"https://docdn.giainhanh.io/media/test/7f6b0cd23c8b6b7d41c21ac973d621fa.png 162w, https://docdn.giainhanh.io/media/test/a98cd4ae008979db32d39f397f34747f.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Chứng minh %(B M \\perp E F)%",
+        "question_images": [],
+        "solution": "Gọi giao điểm của %(B M, E F)% là G , gọi giao điểm của %(M F \\& A B)% là H<br>Do %(D E M F)% là hình chữ nhật (cmt) nên %(\\angle E M F=90^{\\circ})% (tính chất) %(\\Rightarrow \\angle E M H=90^{\\circ})%<br>Mà %(\\angle B A D=90^{\\circ}(\\mathrm{gt}) \\Rightarrow A E M=90^{\\circ} \\Rightarrow A E M F)% là hình chữ nhật<br>Lại có %(A C)% là phân giác của %(\\angle B A D)% ( ABCD là hình vuông-gt)%(\\Rightarrow A E M H)% là hình vuông %(\\Rightarrow M E=M H=A H=A E(t / c))%<br>Mặt khác %(A B=A D)% (ABCD là hình vuông -gt%())%<br>\\[M F=D E=A D-A E, B H=A B-A H \\Rightarrow B H=M F\\]<br>Chứng minh được %(\\triangle B H M=\\triangle F M E)% (c.g.c) %(\\Rightarrow \\angle H B M=\\angle M F E)%<br>Xét %(\\triangle B H M)% và %(\\triangle G F M)% có :%(\\angle H B M=\\angle M F G(c m t), \\angle H M B=\\angle G M F)% (đối đỉnh)%(\\Rightarrow \\triangle B H M \\sim \\triangle G F M(\\mathrm{~g} . \\mathrm{g}) \\Rightarrow \\angle M G F=\\angle M H B=90^{\\circ})% hay %(B M \\perp E F)% tại G",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) Gọi N là trung điểm của %(A M)%. Chứng minh %(C E^{2}=2 D N^{2})%",
+        "question_images": [],
+        "solution": "Kè %(N I \\perp B K(I \\in B K), N J \\perp D F(J \\in D F))%<br>Có %(N I / / M K, N A=N M \\Rightarrow I)% là trung điểm của BK%(\\Rightarrow \\triangle B N K)% cân tại N (NI vừa là trung tuyến vừa là đường cao)<br>\\[\\Rightarrow B N=N K(1)\\]<br>Lại có %(\\angle B N I=\\angle K N I)% (NI là đường phân giác của %(\\triangle B N K)% )(2)<br>Tương tự %(\\triangle D N F)% cân tại N suy ra %(D N=N F(3), \\angle D N J=\\angle F N J(4))%<br>Mặt khác %(\\triangle A N D=\\triangle A N B()% c.g.c %() \\Rightarrow D N=B N(5))%<br>Từ %((1),(3),(5) \\Rightarrow D N=N F=K N=B N(6))%<br>Do đó %(\\triangle B N K=\\triangle D N K)% (c.c.c)<br>Có %(\\angle B N F=\\angle B N I+\\angle I N F=\\angle J N F+\\angle I N F=90^{\\circ}(7))% (do %(N I C J)% là hình vuông)<br>Từ (6) và (7) suy ra %(\\triangle B N F)% vuông cân tại N<br>\\[\\Rightarrow B F^{2}=N F^{2}+N B^{2}(\\text { Pytago }) \\Leftrightarrow B F^{2}=2 D N^{2}\\]<br>Lại có %(\\triangle D E C=\\triangle C F B)% (c.g.c) %(\\Rightarrow E C=B F(9))%<br>Từ (8) và (9) suy ra %(E C^{2}=2 D N^{2}(\\mathrm{dfcm}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Bài 6 . (2,0 điểm) Cho tam giác đêu: gọi %(\\mathbf{M})% là trung điểm của %(B C)%. Hai điểm %(E, F)% theo thứ tự lần lượt di chuyển trên cạnh %(A B, A C)% sao cho %(\\angle E M F=60^{\\circ}(E \\neq A, F \\neq A))%. Chứng minh rằng chu vi của %(\\triangle A E F)% có giá trị không đổi.",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{l}\\angle B M E+\\angle E M F+\\angle F M C=180^{\\circ} \\Rightarrow \\angle B M E+\\angle F M C=180^{\\circ}-\\angle E M F=180^{\\circ}-60^{\\circ}=120^{\\circ} \\\\triangle B E M: \\angle B+\\angle B E M+\\angle B M E=180^{\\circ} \\Rightarrow \\angle B E M+\\angle B M E=180^{\\circ}-\\angle B=180^{\\circ}-60^{\\circ}=120^{\\circ} \\\\Rightarrow \\angle B E M=\\angle F M C \\Rightarrow \\triangle E B M \\sim \\triangle M C F(\\text { g.g }) \\Rightarrow \\frac{B E}{M C}=\\frac{M E}{M F} \\Rightarrow \\frac{B E}{M E}=\\frac{M C}{M F}=\\frac{M B}{M F} \\\\Rightarrow \\triangle E B M \\sim \\triangle E M F(\\text { c.g.c) } \\\\Rightarrow \\angle B E M=\\angle F E M \\Rightarrow E M \\text { là phân giác của } \\angle B E F\\end{array}\\]<br>Chứng minh tương tự có FM là phân giác của %(\\angle E F C)%<br>Kẻ %(M H \\perp A B, M K \\perp A C, M I \\perp E F(H \\in A B, K \\in A C, I \\in E F))%%(\\Rightarrow M H=M I=M K)% (do M nằm trên tia phân giác của %(\\angle B E F, \\angle E F C)% )<br>Chứng minh được :<br>\\[\\begin{array}{l}\\triangle E H M=\\triangle E I M \\Rightarrow E H=E I, \\triangle F I M=\\triangle F K M \\Rightarrow F K=F I \\text {.có : } \\C_{A E F}=A E+A F+E F=A E+A F+E I+F I \\\\=A E+A F+E H+F K=A H+A K=2 A H(d o A H=A K)\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9957f96783a825e7690eda77d754a8ab.png\" srcset=\"https://docdn.giainhanh.io/media/test/a11ce63692a46deb985982ad178fcbda.png 178w, https://docdn.giainhanh.io/media/test/2fc520e7a4300a3287e30fbef42a4bc5.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}(2 x+3) \\sqrt{4 x-1}+(2 y+3) \\sqrt{4 y-1}=2 \\sqrt{(2 x+3)(2 y+3)} \\\\ y+x=4 x y\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/01d06d4feae62144e894511effe0433d.png\" srcset=\"https://docdn.giainhanh.io/media/test/795986946d3ae3adcd1d5384288334e5.png 245w, https://docdn.giainhanh.io/media/test/c5a95960d8daf1034a46a3f5781e17b9.png 500w\" width=\"500\"/><br>Điều kiện xác định: %(x \\geq \\frac{1}{4} ; y \\geq \\frac{1}{4})%<br>(2) %(\\Leftrightarrow x=y(4 x-1) \\Leftrightarrow \\frac{x}{y}=4 x-1 \\Leftrightarrow \\frac{y}{x}=4 y-1)% thay vào (1) ta được<br>\\[(2 x+3) \\sqrt{\\frac{x}{y}}+(2 y+3) \\sqrt{\\frac{y}{x}}=2 \\sqrt{(2 x+3)(2 y+3)}\\]<br>Do %((2 x+3) \\sqrt{\\frac{x}{y}}+(2 y+3) \\sqrt{\\frac{y}{x}} \\geq 2 \\sqrt{(2 x+3)(2 x+3)})%<br>Suy ra (1) %(\\Leftrightarrow x(2 x+3)=y(2 y+3) \\Leftrightarrow(x-y)(2 x+2 y+3)=0 \\Leftrightarrow x=y)% thay vào (2) ta được<br>\\[2 x^{2}-x=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\quad\\left(\\mathrm{lo}^{1} \\mathrm{i}\\right) \\x=\\frac{1}{2}\\end{array} \\Rightarrow y=\\frac{1}{2}\\right.\\]<br>Vậy hệ phương trình có nghiệm %(\\left(\\frac{1}{2} ; \\frac{1}{2}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các hàm số %(f: \\mathbb{R} \\rightarrow \\mathbb{R})% thoả mãn:<br>\\[f(x+y)=f(x)+y \\quad \\forall x, y \\in \\mathbb{R} \\text { và } f\\left(\\frac{1}{x}\\right)=\\frac{f(x)}{x^{2}} \\forall x \\neq 0 \\text {. }\\]",
+        "question_images": [],
+        "solution": "Ta có: %(f(x+y)=f(x)+y \\Rightarrow f(y)=f(0)+y \\forall y \\in \\mathbb{R} . \\Rightarrow f(x)=a+x)% với %(a=f(0))%.<br>\\[f\\left(\\frac{1}{x}\\right)=f(0)+\\frac{1}{x}=a+\\frac{1}{x} \\forall x \\neq 0 \\text {. }\\]<br>Mặt khác %(f\\left(\\frac{1}{x}\\right)=\\frac{f(x)}{x^{2}}=\\frac{f(0)+x}{x^{2}}=\\frac{a+x}{x^{2}} \\forall x \\neq 0)%.<br>\\[\\Rightarrow a+\\frac{1}{x}=\\frac{a+x}{x^{2}} \\forall x \\neq 0 \\Leftrightarrow a x^{2}=a \\forall x \\neq 0 \\Leftrightarrow a=0 \\text {. }\\]<br>Vậy %(f(x)=x \\forall x \\in \\mathbb{R})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các số nguyên tố %(p, q)% sao cho %(\\left(7^{p}-4^{p}\\right)\\left(7^{q}-4^{q}\\right))% chia hết cho %(p q)%.",
+        "question_images": [],
+        "solution": "%(p, q)% đều khác 2,7 . Không mất tính tổng quát ta giả sử %(q \\geq p)%. Khi đó từ giả thiết ta được %(7^{p}-4^{p}: p)% hoặc %(7^{q}-4^{q}: p)%<br>TH1. %(7^{p}-4^{p}: p)%, theo định lí Fermat ta có: %(7^{p}-4^{p} \\equiv 3(\\bmod p) \\Rightarrow 3 \\equiv 0(\\bmod p) \\Rightarrow p=3)%.<br>TH2. %(7^{q}-4^{q}: p)%, ta có %((p-1, q)=1 \\Rightarrow)% tồn tại 2 số nguyên dương %(u, v)% sao cho<br>\\[\\begin{array}{l}q v-(p-1) u=1 \\Rightarrow 7^{q} \\equiv 4^{q}(\\bmod p) \\Rightarrow 7^{q v} \\equiv 4^{q v}(\\bmod p) \\Rightarrow 7^{1+(p-1) u} \\equiv 4^{1+(p-1) u}(\\bmod p) \\\\Rightarrow 7 \\equiv 4(\\bmod p) \\Rightarrow 3 \\equiv 0(\\bmod p) \\Rightarrow p=3\\end{array}\\]<br>Với %(p=3)%, từ giả thiết ban đầu ta được:<br>\\[\\left(7^{3}-4^{3}\\right)\\left(7^{q}-4^{q}\\right) \\vdots 3 q \\Rightarrow 9.31 .\\left(7^{q}-4^{q}\\right) \\vdots 3 q \\Rightarrow q=3, q=31 .\\]<br>Vậy %((p, q) \\in\\{(3,3),(31,3),(3,31)\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Cho tứ giác %(A B C D)% ngoại tiếp được một đường tròn. Một đường thẳng %(\\Delta)% đi qua %(A)% cắt đoạn thẳng %(B C)%, tia đối của tia %(C D)% tương ứng tại %(E, F(E, F)% không trùng với %(B, C))%. Gọi %(I_{1}, I_{2})% và %(I_{3})% lần lượt là tâm đường tròn nội tiếp của các tam giác %(A B E, E C F)% và %(F A D)%. Tiếp tuyến của đường tròn %(\\left(I_{1}\\right))% song song với %(C D)% (ở vị trí gần %(C D)% hơn) cắt %(\\triangle)% tại %(H)%. Chứng minh rằng %(H)% là trực tâm của tam giác %(I_{1} I_{2} I_{3})%.",
+        "question_images": [],
+        "solution": "Giả sử tiếp tuyến qua %(H)% song song với %(C D)% của đường tròn %(\\left(I_{1}\\right))% cắt %(B C)% tại %(K)% và đường thẳng qua %(H)% song song với %(B C)% cắt đường thẳng %(C D)% tại %(L)%, suy ra %(C K H L)% là một hình bình hành.<br>Do các tứ giác %(A B C D, A B K H)% ngoại tiếp, nên<br>\\[\\begin{aligned}A D+H L & =A D+C K=A D+B C-B K \\\\& =A B+C D-B K=A B-B K+C D=A H-H K+C D \\\\& =A H-L C+C D=A H+D L\\end{aligned}\\]<br>Suy ra tứ giác %(A D L H)% ngoại tiếp, hay %(H L)% tiếp xúc với %(\\left(I_{3}\\right))%<br>Vì %(\\overrightarrow{F D} \\uparrow \\uparrow \\overrightarrow{K H} ; \\overrightarrow{F H} \\uparrow \\uparrow \\overrightarrow{H A})% nên các đường phân giác %(H I_{1})% của góc %(\\angle A H K)% và %(F I_{3})% của góc %(\\angle H F D)% vuông góc với nhau; hay %(I_{1} H \\perp I_{2} I_{3})% (Do %(F, I_{2}, I_{3})% thẳng hàng) (1)<br>Chứng minh tương tự, cũng được %(H I_{3} \\perp E I_{2})% hay %(I_{3} H \\perp I_{1} I_{2})% (2)<br>Từ (1) và (2) suy ra điều phải chứng minh.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d542c9daff8eb8b78e1964910fe0073a.png\" srcset=\"https://docdn.giainhanh.io/media/test/d542c9daff8eb8b78e1964910fe0073a.png 156w, https://docdn.giainhanh.io/media/test/d542c9daff8eb8b78e1964910fe0073a.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Xét các số thực dương %(a, b, c)% thỏa mãn %(a+2 b+3 c \\geq 20)%. Tìm giá trị nhỏ nhất của biểu thức<br>\\[L=a+b+c+\\frac{3}{a}+\\frac{9}{2 b}+\\frac{4}{c} .\\]",
+        "question_images": [],
+        "solution": "Theo bất đẳng thức AM-GM, ta có%(a+\\frac{4}{a} \\geq 2 \\sqrt{a \\cdot \\frac{4}{a}}=4 \\Rightarrow \\frac{3}{4}\\left(a+\\frac{4}{a}\\right) \\geq 3)%, dấu đẳng thức xảy ra khi và chỉ khi %(a=2)%<br>%(b+\\frac{9}{b} \\geq 2 \\sqrt{b \\cdot \\frac{9}{b}}=6 \\Rightarrow \\frac{1}{2}\\left(b+\\frac{9}{b}\\right) \\geq 3)%, dấu đẳng thức xảy ra khi và chỉ khi %(b=3)%<br>%(c+\\frac{16}{c} \\geq 2 \\sqrt{c \\cdot \\frac{16}{c}}=8 \\Rightarrow \\frac{1}{4}\\left(c+\\frac{16}{c}\\right) \\geq 2)%, dấu đẳng thức xảy ra khi và chỉ khi %(c=4)%<br>Cộng ba bất đẳng thức cùng chiều, thu được %(\\frac{3 a}{4}+\\frac{b}{2}+\\frac{c}{4}+\\frac{3}{a}+\\frac{9}{2 b}+\\frac{4}{c} \\geq 8 (1))%<br>Mặt khác, do %(a+2 b+3 c \\geq 20)% nên %(\\frac{a}{4}+\\frac{b}{2}+\\frac{3 c}{4} \\geq 5 )% (chia hai vế cho 4 (2 )<br>Cộng (1) và (2), vế đối vế, ta được %(L=a+b+c+\\frac{3}{a}+\\frac{9}{2 b}+\\frac{4}{c} \\geq 13)%.<br>Dấu đẳng thức xảy ra khi và chi khi %(a=2, b=3, c=4)%.<br>Vậy giá trị nhỏ nhất của biểu thức %(L)% bằng 13 , đạt được khi %(a=2, b=3, c=4)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các tập hợp %(X)% là tập con của tập hợp số nguyên dương thoả mãn các tính chất: %(X)% chứa ít nhất hai phần tử và với mọi %(m, n \\in X, m\\lt n)% thì tồn tại %(k \\in X)% sao cho %(n=m k^{2})%.",
+        "question_images": [],
+        "solution": "Giả sử tìm được tập hợp %(X)% thỏa mãn và %(m\\lt n)% là hai phần tử bé nhất của %(X)%.<br>Khi đó, do cách xác định %(X)% nên tồn tại %(k \\in X)% sao cho %(n=m k^{2})%.<br>Suy ra %(m \\leq k \\leq n)% và do đó %(k=m)% hoặc %(k=n)%.Với %(k=n \\Rightarrow n=m \\cdot n^{2} \\Leftrightarrow m \\cdot n=1)% vô lí.<br>Với %(k=m \\Rightarrow m\\lt n=m^{3} \\Rightarrow m\\gt 1)%<br>+) Nếu %(|X|=2)% thì tập hợp %(X=\\left\\{m, m^{3} \\mid m>1\\right\\})%.<br>+) Nếu %(|X| \\geq 3)%, gọi %(q)% là phần tử bé thứ ba của %(X)% (tức là %(m\\lt n\\lt q)% ).<br>Khi đó tồn tại %(\\ell \\in X)% sao cho %(q=m \\ell^{2})%.Do %(q>\\ell)% nên hoặc %(\\ell=m)% hoặc %(\\ell=n)%.<br>Nếu %(\\ell=m)% thì %(q=m^{3}=n)%, vô lý.<br>Vậy %(\\ell=n=m^{3})% và %(q=m \\ell^{2}=m^{7})%.<br>Nhưng tồn tại %(t \\in X)% sao cho %(q=n t^{2})%, do đó %(t=m^{2})%.<br>Mà %(m\\lt m^{2}\\lt m^{3} \\Rightarrow m^{2} \\notin X)%, vô lý.<br>Vậy %(|X|=2)% và %(X=\\left\\{m, m^{3} \\mid m\\gt 1\\right\\})%.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức<br>\\[A=\\left(\\frac{\\sqrt{x}+1}{\\sqrt{x y}+1}+\\frac{\\sqrt{x y}+\\sqrt{x}}{1-\\sqrt{x y}}+1\\right):\\left(1-\\frac{\\sqrt{x y}+\\sqrt{x}}{\\sqrt{x y}-1}-\\frac{\\sqrt{x}+1}{\\sqrt{x y}+1}\\right)\\]",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Rút gọn biểu thức %(A)%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(\\sqrt{x y} \\neq 1)%.<br>\\[\\begin{array}{l}A=\\frac{(\\sqrt{x}+1)(1-\\sqrt{x y})+(\\sqrt{x y}+\\sqrt{x})(\\sqrt{x y}+1)+(\\sqrt{x y}+1)(1-\\sqrt{x y})}{(\\sqrt{x y}+1)(1-\\sqrt{x y})}: \\\\frac{(\\sqrt{x y}+1)(1-\\sqrt{x y})+(\\sqrt{x y}+\\sqrt{x})(\\sqrt{x y}+1)-(\\sqrt{x}+1)(1-\\sqrt{x y})}{(\\sqrt{x y}+1)(1-\\sqrt{x y})}= \\\\=\\frac{(\\sqrt{x}+1)(1-\\sqrt{x y})+(\\sqrt{x y}+\\sqrt{x})(\\sqrt{x y}+1)+(\\sqrt{x y}+1)(1-\\sqrt{x y})}{(\\sqrt{x y}+1)(1-\\sqrt{x y})+(\\sqrt{x y}+\\sqrt{x})(\\sqrt{x y}+1)-(\\sqrt{x}+1)(1-\\sqrt{x y})}= \\\\=\\frac{1+\\sqrt{x}}{x \\sqrt{y}+\\sqrt{x y}}=\\frac{1}{\\sqrt{x y}} .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Cho %(\\frac{1}{\\sqrt{x}}+\\frac{1}{\\sqrt{y}}=6)%. Tìm giá trị lớn nhất của %(A)%.",
+        "question_images": [],
+        "solution": "Theo Côsi, ta có: %(6=\\frac{1}{\\sqrt{x}}+\\frac{1}{\\sqrt{y}} \\geq 2 \\sqrt{\\frac{1}{\\sqrt{x y}}} \\Rightarrow \\frac{1}{\\sqrt{x y}} \\leq 9)%.<br>Dấu bằng xảy ra %(\\Leftrightarrow \\frac{1}{\\sqrt{x}}=\\frac{1}{\\sqrt{y}} \\Leftrightarrow x=y=\\frac{1}{9})%.<br>Vậy %(\\max A=9)% đạt được khi: %(x=y=\\frac{1}{9})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 3.0,
+        "content": "Cho phương trình %(x^{2}+2(m-2) x+m^{2}-2 m+4=0)%. Tìm %({ }^{m})% để phương trình có hai nghiệm thực phân biệt, thỏa mãn %(\\frac{2}{x_{1}^{2}+x_{2}^{2}}-\\frac{1}{x_{1} x_{2}}=\\frac{1}{15 m})%.",
+        "question_images": [],
+        "solution": "PT đã cho có hai nghiệm phân biệt có điều kiện:<br>\\[\\Delta^{\\prime}\\gt 0 \\Leftrightarrow(m-2)^{2}-\\left(m^{2}-2 m+4\\right)>0 \\Leftrightarrow m\\lt 0\\]<br>Với %(m\\lt 0)% theo Vi-et ta có: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=4-2 m \\\\ x_{1} \\cdot x_{2}=m^{2}-2 m+4\\end{array}\\right.)%<br>Ta có %(\\frac{2}{x_{1}^{2}+x_{2}^{2}}-\\frac{1}{x_{1} x_{2}}=\\frac{1}{15 m} \\Leftrightarrow \\frac{2}{\\left(x_{1}+x_{2}\\right)^{2}-2 x_{1} x_{2}}-\\frac{1}{x_{1} x_{2}}=\\frac{1}{15 m})% (1)<br>%(\\Leftrightarrow \\frac{1}{m^{2}-6 m+4}-\\frac{1}{m^{2}-2 m+4}=\\frac{1}{15 m})%<br>%(\\Leftrightarrow \\frac{1}{m+\\frac{4}{m}-6}-\\frac{1}{m+\\frac{4}{m}-2}=\\frac{1}{15})%<br>Đặt %(m+\\frac{4}{m}=t)% do %(m\\lt 0 \\Rightarrow t\\lt 0)%<br>Ta có (1) trở thành %(\\frac{1}{t-6}-\\frac{1}{t-2}=\\frac{1}{15} \\Leftrightarrow\\left[\\begin{array}{l}t=-4 \\\\ t=12\\end{array} \\Rightarrow t=-4\\right.)% ( do %(t\\lt 0)% )<br>Với %(t=-4)% ta có %(m+\\frac{4}{m}=-4 \\Leftrightarrow m=-2)% thỏa mãn %((*))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x+y+z=1 \\\\ x^{4}+y^{4}+z^{4}=x y z\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}x^{4}+y^{4}+z^{4}=\\frac{x^{4}+y^{4}}{2}+\\frac{y^{4}+z^{4}}{2}+\\frac{z^{4}+x^{4}}{2} \\geq x^{2} y^{2}+y^{2} z^{2}+z^{2} x^{2}= \\\\=\\frac{x^{2} y^{2}+y^{2} z^{2}}{2}+\\frac{y^{2} z^{2}+z^{2} x^{2}}{2}+\\frac{z^{2} x^{2}+x^{2} y^{2}}{2} \\geq x y y z+y z z x+z x x y= \\\\=x y z(x+y+z)=x y z(\\text { vì } x+y+z=1) .\\end{array}\\]<br>Dấu bằng xảy ra %(\\Leftrightarrow\\left\\{\\begin{array}{l}x=y=z \\\\ x+y+z=1\\end{array} \\Leftrightarrow x=y=z=\\frac{1}{3}\\right.)%<br>Vậy nghiệm của hệ phương trình là: %((x ; y ; z)=\\left(\\frac{1}{3} ; \\frac{1}{3} ; \\frac{1}{3}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các cặp số nguyên dương %((a ; b))% sao cho %(\\left(a+b^{2}\\right))% chia hết cho %(\\left(a^{2} b-1\\right))%.",
+        "question_images": [],
+        "solution": "Giả sử %(\\left(a+b^{2}\\right) \\vdots\\left(a^{2} b-1\\right))%, tức là: %(a+b^{2}=k\\left(a^{2} b-1\\right))%, với %(k \\in \\mathbf{N}^{*})%<br>%(\\Leftrightarrow a+k=b\\left(k a^{2}-b\\right) \\Leftrightarrow a+k=m b)% (1)<br>Ở đó %(m \\in \\mathbb{Z})%, mà: %(m=k a^{2}-b \\Leftrightarrow m+b=k a^{2})% (2)<br>Từ (1) và (2) suy ra:<br>%((m-1)(b-1)=m b-b-m+1 \\Leftrightarrow(m-1)(b-1)=(a+1)(k+1-k a))% (3)<br>Do %(m\\gt 0)% (điều này suy ra từ (1) do %(a, k, b>0)% ) nên %(m \\geq 1)% (vì %(m \\in \\mathbb{Z})%).<br>Do %(b>0)% nên %(b-1 \\geq 0)% (do %(b \\in \\mathbb{Z})%) %(\\Rightarrow(m-1)(b-1) \\geq 0)%<br>Vì thế từ (3) suy ra: %((a+1)(k+1-k a) \\geq 0)%<br>Lại do %(a>0)% nên suy ra: %(k+1-k a \\geq 0 \\Rightarrow k+1 \\geq k a \\Rightarrow 1 \\geq k(a-1))% (4)<br>Vì %(a-1 \\geq 0)% (do %(a \\in \\mathbb{Z}, a\\gt 0)%) và %(k \\in \\mathbb{Z}, k\\gt 0)% nên từ (4) có: %(\\left[\\begin{array}{l}k(a-1)=0 \\\\ k(a-1)=1\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}a=1 \\\\ \\left\\{\\begin{array}{l}a=2 \\\\ k=1\\end{array}\\right.\\end{array}\\right.\\right.)%<br>Với %(a=1)%. Thay vào (3) ta được: %((m-1)(b-1)=2 \\Leftrightarrow\\left[\\begin{array}{l}\\left\\{\\begin{array}{l}m-1=2 \\\\ b-1=1\\end{array}\\right. \\\\ \\left\\{\\begin{array}{l}m-1=1 \\\\ b-1=2\\end{array}\\right.\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}b=2 \\\\ b=3\\end{array}\\right.\\right.)%<br>Vậy, trường hợp này ta có: %(a=1, b=2)% hoặc %(a=1, b=3)%.<br>Với %(a=2)% (vì %(k=1)% ). Thay vào (3) ta có: %((m-1)(b-1)=0 \\Leftrightarrow\\left[\\begin{array}{l}b=1 \\\\ m=1\\end{array}\\right.)%.<br>Khi %(b=1)%, ta được: %(a=2, b=1)%.<br>Khi %(m=1)% : Từ (1) suy ra %(a+k=b \\Rightarrow b=3)%. Lúc này được: %(a=2, b=3)%.<br>Tóm lại, có 4 cặp số %((a ; b))% thỏa mãn bài toán là: %((1 ; 2),(1 ; 3),(2 ; 3),(2 ; 1))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Tìm %(x, y, z \\in \\mathrm{N})% thỏa mãn %(\\sqrt{x+2 \\sqrt{3}}=\\sqrt{y}+\\sqrt{z})%.",
+        "question_images": [],
+        "solution": "Ta có %(\\sqrt{x+2 \\sqrt{3}}=\\sqrt{y}+\\sqrt{z} \\Leftrightarrow x+2 \\sqrt{3}=y+z+2 \\sqrt{y z})%<br>%(\\Leftrightarrow(x-y-z)+2 \\sqrt{3}=2 \\sqrt{y z} \\Rightarrow(x-y-z)^{2}+4 \\sqrt{3}(x-y-z)+12=4 y z)% (1)<br>TH1. Nếu %(x-y-z \\neq 0)%<br>Ta có %(\\sqrt{3}=\\frac{4 y z-(x-y-z)^{2}-12}{4(x-y-z)})% vô lý (2)<br>(do %(x, y, z \\in \\mathrm{N})% nên vế phải của (2) là số hữu tỷ )<br>TH2. %(x-y-z=0)%<br>khi đó %((1) \\Leftrightarrow\\left\\{\\begin{array}{l}x-y-z=0 \\\\ y z=3\\end{array}\\right.)% (3)<br>Giải (3) ra ta được %(\\left\\{\\begin{array}{l}x=4 \\\\ y=1 \\\\ z=3\\end{array}\\right.)% hoặc %(\\left\\{\\begin{array}{l}x=4 \\\\ y=3 \\\\ z=1\\end{array}\\right.)% thử lại thỏa mãn.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho nửa đường tròn tâm %(O)% đường kính %(A B)%. Một điểm %(C)% cố định thuộc đoạn thẳng %(A O)% ( %(C)% khác %(A)% và %(C)% khác %(O)% ). Đường thẳng đi qua %(C)% và vuông góc với %(A O)% cắt nửa đường tròn đã cho tại %(D)%. Trên cung %(B D)% lấy điểm %(M)% ( %(M)% khác %(B)% và %(M)% khác %(D))%. Tiếp tuyến của nửa đường tròn đã cho tại %(M)% cắt đường thẳng %(C D)% tại %(E)%. Goi %(F)% là giao điểm của %(A M)% và %(C D)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh tam giác %(E M F)% là tam giác cân.",
+        "question_images": [],
+        "solution": "Ta có %(M)% thuộc đường tròn tâm %(O)% đường kính %(A B)% (giả thiết)<br>nên %(\\widehat{A M B}=90^{\\circ})% (góc nội tiếp chắn nửa đường tròn) hay %(\\widehat{F M B}=90^{\\circ})%.<br>Mặt khác %(\\widehat{F C B}=90^{\\circ})% (giả thiết).<br>Do đó %(\\widehat{F M B}+\\widehat{F C B}=180^{\\circ})%.<br>Suy ra %(B C F M)% là tứ giác nội tiếp %(\\Rightarrow \\widehat{C B M}=\\widehat{\\mathrm{EFM}}(1))% (vì cùng bù với %(\\widehat{C F M}))%.<br>Mặt khác %(\\widehat{C B M}=\\widehat{\\mathrm{EMF}}(2))% (góc nội tiếp; góc tạo bời tiếp tuyến và dây cung cùng chắn %(A M)% ).<br>Từ (1) và (2) %(\\Rightarrow \\widehat{\\mathrm{EFM}}=\\widehat{\\mathrm{EMF}})%.<br>Suy ra tam giác %(E M F)% là tam giác cân tại %(E)%.<br>(Có thể nhận ra ngay %(\\widehat{E M F}=\\widehat{M B A}=\\widehat{M F E})% nên suy ra %(E M F)% cân)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/123eac23168d1f49233188e78f6bade4.png\" srcset=\"https://docdn.giainhanh.io/media/test/a8fc611d279113c73639a24f33498b69.png 174w\" width=\"174\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Gọi %(I)% là tâm đường tròn ngoai tiếp tam giác %(F D M)%. Chứng minh ba điểm %(D, I, B)% thẳng hàng.",
+        "question_images": [],
+        "solution": "Gọi %(H)% là trung điểm của %(D F)%. Suy ra %(I H \\perp D F)% và %(\\widehat{D I H}=\\frac{\\widehat{D I F}}{2})% (3)<br>Trong đường tròn %((I))% ta có: %(D M F)% và %(D \\mathrm{IF})% lần lượt là góc nội tiếp và góc ở tâm cùng chắn cung DF.<br>Suy ra %(\\widehat{D M F}=\\frac{1}{2} \\widehat{D I F})% (4)<br>Từ (3) và (4) suy ra %(\\widehat{D M F}=\\widehat{D I H})% hay %(\\widehat{D M A}=\\widehat{D I H})%.<br>Trong đường tròn %((O))% ta có: %(\\widehat{D M A}=\\widehat{D B A})% (góc nội tiếp cùng chắn %(\\overparen{D A})% )<br>Suy ra %(\\widehat{D B A}=\\widehat{D I H})%<br>Vì %(I H)% và %(B C)% cùng vuông góc với %(E C)% nên suy ra %(I H / / B C)%.<br>Do đó %(\\Rightarrow \\widehat{D I H}+\\widehat{H I B}=180^{\\circ})% %(\\Rightarrow \\widehat{D I H}+\\widehat{H I B}=180^{\\circ} \\Rightarrow)% ba điểm %(D, I, B)% thẳng hàng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Chứng minh góc %(A B I)% có số đo không đổi khi %(M)% di chuyển trên cung %(B D)%.",
+        "question_images": [],
+        "solution": "Vì ba điểm %(D, I, B)% thẳng hàng<br>%(\\Rightarrow \\widehat{A B I}=\\widehat{A B D}=\\frac{1}{2})% sđ %(\\overparen{A D})%.<br>Mà %(C)% cố định nên %(D)% cố định<br>%(\\Rightarrow \\frac{1}{2} \\mathrm{sđ} \\overparen{A D})% không đổi.<br>Do đó góc %(A B I)% có số đo không đổi khi %(M)% thay đổi trên cung %(B D)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Cho %(x, y)% là các số thực dương thoả mãn %(x+y=1)%.<br>Tìm giá trị nhỏ nhất của biểu thức %(B=\\frac{1}{x^{3}+y^{3}}+\\frac{1}{x y})%.",
+        "question_images": [],
+        "solution": "Ta có: %(B=\\frac{1}{(x+y)^{3}-3 x y(x+y)}+\\frac{1}{x y}=\\frac{1}{1-3 x y}+\\frac{1}{x y}=\\frac{1-2 x y}{x y(1-3 x y)})%.<br>Theo Côsi: %(x y \\leq \\frac{(x+y)^{2}}{4}=\\frac{1}{4})%.<br>Gọi %(B_{0})% là một giá trị của %(B)%, khi đó, tồn tại %(x, y)% để:<br>%(B_{0}=\\frac{1-2 x y}{x y(1-3 x y)} \\Leftrightarrow 3 B_{0}(x y)^{2}-\\left(2+B_{0}\\right) x y+1=0)% (1)<br>Để tồn tại %(x, y)% thì (1) phải có nghiệm %(x, y \\Leftrightarrow \\Delta=B_{0}^{2}-8 B_{0}+4 \\geq 0 \\Leftrightarrow\\left[\\begin{array}{l}B_{o} \\geq 4+2 \\sqrt{3} \\\\ B_{o} \\leq 4-2 \\sqrt{3}\\end{array}\\right.)%<br>Để ý rằng với giả thiết bài toán thì %(B\\gt 0)%. Do đó ta có: %(B_{0} \\geq 4+2 \\sqrt{3})%.<br>Với %(B_{0}=4+2 \\sqrt{3} \\Rightarrow x y=\\frac{2+B_{0}}{6 B_{0}}=\\frac{3+\\sqrt{3}}{6(2+\\sqrt{3})} \\Rightarrow x(1-x)=\\frac{3+\\sqrt{3}}{6(2+\\sqrt{3})})%<br>\\[\\Leftrightarrow x^{2}-x+\\frac{3+\\sqrt{3}}{6(2+\\sqrt{3})}=0 \\Leftrightarrow x=\\frac{1+\\sqrt{\\frac{2 \\sqrt{3}}{3}-1}}{2}, x=\\frac{1-\\sqrt{\\frac{2 \\sqrt{3}}{3}-1}}{2} .\\]",
+        "question_type": "essay"
+    }
+]

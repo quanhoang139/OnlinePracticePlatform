@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1",
+        "group_content": "Giải các phương trình lượng giác:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(\\sqrt{2} \\sin \\left(\\frac{\\pi}{4}-2 x\\right)+1=0)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\sqrt{2} \\sin \\left(\\frac{\\pi}{4}-2 x\\right)+1=0 \\\\ \\Leftrightarrow \\sin \\left(\\frac{\\pi}{4}-2 x\\right)=\\sin \\left(\\frac{-\\pi}{4}\\right)\\end{array})%<br>%(\\begin{array}{l}\\Leftrightarrow\\left[\\begin{array}{l}\\frac{\\pi}{4}-2 x=\\frac{-\\pi}{4}+k 2 \\pi \\\\ \\frac{\\pi}{4}-2 x=\\pi+\\frac{\\pi}{4}+k 2 \\pi\\end{array}\\right. \\\\ \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{\\pi}{4}-k \\pi \\\\ x=\\frac{-\\pi}{2}-k \\pi\\end{array} \\quad(k \\in Z)\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(2 \\cos 2 x+5 \\cos x+3=0)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\Leftrightarrow 2\\left(2 \\cos ^{2} x-1\\right)+5 \\cos x+3=0 \\\\Leftrightarrow 4 \\cos ^{2} x+5 \\cos x+1=0 \\\\Leftrightarrow\\left[\\begin{array}{l}\\cos x=-1 \\\\cos x=\\frac{-1}{4}\\end{array}\\right.\\end{array}\\]<br>- %(\\cos x=-1 \\Leftrightarrow x=\\pi+k 2 \\pi(k \\in Z))%<br>- %(\\cos x=-1 / 4 \\Leftrightarrow x= \\pm \\arccos \\left(\\frac{-1}{4}\\right)+k 2 \\pi)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Giải phương trình %(3 \\cdot \\mathrm{C}_{n}^{2}-2 \\cdot A_{n-1}^{2}=C_{n+1}^{1})%.",
+        "question_images": [],
+        "solution": "\\[\\text { 3. } \\mathrm{C}_{n}^{2}-2 \\cdot A_{n-1}^{2}=C_{n+1}^{1}\\]<br>Điều kiện: %(\\left\\{\\begin{array}{l}n \\geq 3 \\\\ n \\in N\\end{array}\\right.)%<br>\\[\\begin{array}{l}(3) \\Leftrightarrow 3 \\frac{\\mathrm{n}!}{2!(n-2)!}-2 \\frac{(n-1)!}{(n-3)!}=\\frac{(n+1)!}{n!} \\\\Leftrightarrow \\frac{3}{2} n(n-1)-2(n-1)(n-2)=n+1\\end{array}\\]<br>%(\\begin{array}{l}\\Leftrightarrow-n^{2}+7 n-10=0 \\\\ \\Leftrightarrow\\left[\\begin{array}{l}n=5(N) \\\\ n=2(\\mathrm{~L})\\end{array} \\quad \\text { Vậy } \\mathrm{n}=5\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tìm số hạng không chứa %(x)% trong khai triển của %(\\left(x^{2}-\\frac{3}{x^{3}}\\right)^{10} \\quad(x \\neq 0))%.",
+        "question_images": [],
+        "solution": "Số hạng tổng quát: %(T_{k+1}=C_{10}^{k} \\cdot\\left(x^{2}\\right)^{10-k} \\cdot\\left(\\frac{-3}{x^{3}}\\right)^{k})%<br>\\[=C_{10}^{k} \\cdot(-3)^{k} \\cdot x^{20-5 k}(0 \\leq k \\leq 10, k \\in N)\\]<br>Theo yêu cầu đề bài ta có: %(20-5 k=0 \\Leftrightarrow k=4)%<br>Vậy hệ số tự do là: 17010",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Trong một hộp đựng 20 quả nhãn, 15 quả nho, 10 quả sơri. Lấy ngẫu nhiên ra 3 quả. Tính xác suất để lấy ra được các loại quả khác nhau.",
+        "question_images": [],
+        "solution": "\\[n(\\Omega)=C_{45}^{3}\\]<br>Gọi A là biến cố cần tìm xác suất.<br>\\[\\begin{array}{l}\\Rightarrow n(\\mathrm{~A})=20.15 .10=3000 \\P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{3000}{C_{45}^{3}}=\\frac{100}{473}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Một người có 10 đôi giày khác nhau. Trong lúc đi du lịch vội vã nên đã lấy ngẫu nhiên 4 chiếc giày. Tính xác suất để người đó không lấy được đôi giầy nào đúng.",
+        "question_images": [],
+        "solution": "\\[n(\\Omega)=C_{20}^{4}=4845\\]<br>Gọi %(\\mathrm{A})% là biến cố cần tìm xác suất<br>Chọn 4 đôi trong 10 đôi giày có:  %(C_{10}^{4})%<br>Mỗi đôi (trong 4 đôi trên) chọn 1 chiếc giày: %(2^{4}=16)%<br>\\[\\begin{array}{l}n(A)=C_{10}^{4} \\cdot 2^{4}=3360 \\\\Rightarrow P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{3360}{C_{20}^{4}}=\\frac{224}{323}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình chóp %(S . A B C D)% có đáy là hình bình hành tâm %(\\mathrm{O})%. Gọi %(M)% là trung điểm của %(S D)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tìm giao tuyến của hai mặt phẳng %((S A D))% và %((S B C))%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c1457197be17382cc8b8c0ac141dcd4b.png\" srcset=\"https://docdn.giainhanh.io/media/test/8105fc92c02399191e7cacf498aa6c0c.png 178w, https://docdn.giainhanh.io/media/test/23b84d07ca3716a1eb7367d7d1132f8e.png 500w\" width=\"500\"/><br>%(T a c o^{\\prime}:\\left\\{\\begin{array}{l}S \\in(S A D) \\cap(S B C) \\\\ A D / / B C \\\\ A D \\subset(\\mathrm{SAD}) \\\\ \\mathrm{BC} \\subset(S B C)\\end{array}\\right.)%<br>%(\\Rightarrow(S A D) \\cap(S B C)=S x, S x / / A D / / B C)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh %(O M)% song song với mặt phẳng %((S B C))%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\mathrm{M}, \\mathrm{O})% lần lượt là trung điểm của %(\\mathrm{SD}, \\mathrm{BD})%<br>%(\\Rightarrow O M)% là đường trung bình của %(\\Delta \\mathrm{SB} D)%<br>%(\\Rightarrow O M / / \\mathrm{SB})%<br>Mà %(S B \\subset(S B C))%<br>%(\\Rightarrow O M / /(\\mathrm{SBC}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tìm giao điểm của %(B M)% và mặt phẳng %((S A C))%.",
+        "question_images": [],
+        "solution": "Kẻ BM cắt SO tại I<br>\\[\\begin{array}{l}\\Rightarrow\\left\\{\\begin{array}{l}I \\in B M \\I \\in S O \\subset(S A C)\\end{array}\\right. \\\\Rightarrow I=B M \\cap(S A C)\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Cho hình chóp %(\\mathrm{S})%. %(A B C D)% có đáy là tứ giác có các cặp cạnh đối không song song. %(\\mathrm{AB})% cắt %(\\mathrm{CD})% tại %(\\mathrm{E})%. Gọi %(\\mathrm{I}, \\mathrm{J})% lần lượt là trung điểm của %(\\mathrm{SA}, \\mathrm{SB})%. Lấy %(\\mathrm{N})% trên SD sao cho %(\\mathrm{SN}=2 \\mathrm{ND})%. Lấy %(\\mathrm{M})% là giao điểm của %(\\mathrm{SC})% với (IJN). Chứng minh %(\\mathrm{IJ}, \\mathrm{MN})% và %(\\mathrm{SE})% đồng quy.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f15a8c241f8ef7dad3ee3446ef05c280.png\" srcset=\"https://docdn.giainhanh.io/media/test/2d5c7a39234aa042e7dbafeab761599c.png 126w, https://docdn.giainhanh.io/media/test/6eb3b91be51e5688b38be9c01fc9d780.png 405w\" width=\"405\"/><br>Chọn mp phụ chứa SC là (SAC).<br>Kẻ %(\\mathrm{AC})% cắt %(\\mathrm{BD})% tại %(\\mathrm{O})%.<br>Trong (SBD) kẻ %(\\mathrm{NJ})% cắt SO tại %(\\mathrm{F})%<br>\\[\\begin{array}{l}\\Rightarrow F \\in(I N J) \\cap(S A C) \\\\Rightarrow I F=(I N J) \\cap(S A C)\\end{array}\\]<br>Trong (SAC) kẻ IF cắt SC tại %(\\mathrm{M})%<br>\\[\\Rightarrow M=S C \\cap(I N J)\\]<br>Trong (INJ) kẻ IJ cắt MN tại G.<br>\\[\\begin{array}{l}\\Rightarrow G \\in(\\mathrm{SAE}) \\cap(S D E) \\\\text { Mà } \\Rightarrow S E=(\\mathrm{SAE}) \\cap(S D E) \\\\Rightarrow G \\in S E \\Rightarrow d p c m\\end{array}\\]",
+        "question_type": "essay"
+    }
+]

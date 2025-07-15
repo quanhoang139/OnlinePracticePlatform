@@ -1,0 +1,110 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức: %(Q=\\sqrt{25 x}:\\left[\\frac{x^{2}+\\sqrt{x}}{x-\\sqrt{x}+1}-\\frac{3 x+2 \\sqrt{x}}{\\sqrt{x}}+\\frac{3(x-1)}{\\sqrt{x}-1}\\right])% với %(x \\neq 1)% và %(x\\gt 0)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Rút gọn biểu thức %(Q)%.",
+        "question_images": [],
+        "solution": "Với %(x \\neq 1)% và %(x\\gt 0)%, ta có:<br>%(\\begin{aligned}Q & =\\sqrt{25 x}:\\left[\\frac{x^{2}+\\sqrt{x}}{x-\\sqrt{x}+1}-\\frac{3 x+2 \\sqrt{x}}{\\sqrt{x}}+\\frac{3(x-1)}{\\sqrt{x}-1}\\right]=5 \\sqrt{x}:[\\sqrt{x}(\\sqrt{x}+1)-(3 \\sqrt{x}+2)+3(\\sqrt{x}+1)] \\\\& =5 \\sqrt{x}:(x+\\sqrt{x}-3 \\sqrt{x}-2+3 \\sqrt{x}+3)=5 \\sqrt{x}:(x+\\sqrt{x}+1)=\\frac{5 \\sqrt{x}}{x+\\sqrt{x}+1}\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Tìm %(x)% để biểu thức %(Q)% nhận giá trị nguyên.",
+        "question_images": [],
+        "solution": "Dễ thấy %(Q\\gt 0)%.<br>Phương trình sau có nghiệm %(x>0, x \\neq 1)%.<br>%(Q=\\frac{5 \\sqrt{x}}{x+\\sqrt{x}+1} \\Leftrightarrow Q x+(Q-5) \\cdot \\sqrt{x}+Q=0)% có nghiệm%(x>0, x>1)%.<br>%(\\Leftrightarrow Q \\cdot y^{2}+(Q-5) \\cdot \\mathrm{y}+Q=0)% có nghiệm %(y>0, y \\neq 1)%.<br>%(\\Delta=(Q-5)^{2}-4 Q^{2}=(3 Q-5)(-Q-5) \\geq 0 \\Leftrightarrow-5 \\leq Q \\leq \\frac{5}{3})%.<br>Mà %(\\left\\{\\begin{array}{l}Q \\in Z \\\\ Q>0\\end{array}\\right.)% nên %(\\left[\\begin{array}{l}Q=1 \\\\ Q=2\\end{array}\\right.)%.<br>Với %(Q=1)% tìm được %(x=7 \\pm 4 \\sqrt{3})% (Thỏa mãn).<br>Với %(Q=2)% phương trình vô nghiệm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Cho hệ phương trình ẩn %(x)% và %(y)% : %(\\left\\{\\begin{array}{l}a x-y=a^{2}-2 \\\\ (a+1) x+a y=2 a-1\\end{array}\\right.)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Giải hệ phương trình trên với %(a=1)%.",
+        "question_images": [],
+        "solution": "Nghiệm của HPT là: %(\\left\\{\\begin{array}{l}x=0 \\\\ y=1\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Tìm %(a)% để hệ phương trình có nghiệm duy nhất %((x ; y))% thỏa %(P=x y)% đạt giá trị lớn nhất.",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}a x-y=a^{2}-2 \\\\ (a+1) x+a y=2 a-1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a^{2} x-a y=a^{3}-2 a \\\\ (a+1) x+a y=2 a-1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}\\left(a^{2}+a+1\\right) x=a^{3}-1 \\\\ (a+1) x+a y=2 a-1\\end{array}\\right.\\right.\\right.)%<br>%(\\Leftrightarrow\\left\\{\\begin{array}{l}x=a-1 \\\\ y=-a+2\\end{array}\\right.)% (với mọi a)<br>Nên %(P=x y=(a-1)(-a+2)=\\frac{1}{4}-\\left(a-\\frac{3}{2}\\right)^{2} \\leq \\frac{1}{4})%.<br>%(P)% đạt giá trị lớn nhất là %(\\frac{1}{4})% đạt được khi %(a=\\frac{3}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Với %(k)% là số nguyên dương, ký hiệu %(B_{k}=\\left\\{x \\in N^{-} / x\\right.)% là bội số của %(\\left.k\\right\\})%.Cho %(m, n)% là các số nguyên dương.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng %(B_{m n})% là tập hợp con của %(B_{m} \\cap B_{n})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text {Ta có: } B_{m n}=\\left\\{x \\in N^{-} / x \\text { là bội số của }(m \\eta)\\right\\}=\\{m m, 2 m \\tau ; 3 m r ; \\ldots ; k m\\} \\B_{m} \\cap B_{n}=\\left\\{x \\in N^{*} / x \\text { là bội số của } m \\text { vaø }\\right\\} \\\\=\\{B C N N(m, n) ; 2 B C N N(m, n) ; \\ldots ; h B C N N(m, n)\\} \\\\text { Vì }\\left\\{\\begin{array}{l}m n \\vdots m \\m n \\vdots n\\end{array} \\Rightarrow m n \\in B C(m, n) \\Rightarrow k m n \\in B C(m, n)\\right. \\\\end{array})%<br>Nên %(B_{m n})% là tập hợp con của %(B_{m} \\cap B_{n})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Tìm điều kiện của %(m)% và %(n)% để %(B_{m} \\cap B_{n})% là tập hợp con của %(B_{m n})%.",
+        "question_images": [],
+        "solution": "Để %(B_{m} \\cap B_{n})% là tập hợp con của %(B_{m n})% mà theo câu a thì %(B_{m n})% là tập hợp con của %(B_{m} \\cap B_{n})%<br>Nên %(B_{m n}=B_{m} \\cap B_{n} \\Leftrightarrow B C N N(m, n)=m n \\Leftrightarrow(m, n)=1)%.<br>Hay m và n là hai số nguyên tố cùng nhau",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho hình vuông %(A B C D)%. Gọi %(E)% là điểm thay đổi trên %(B C(E)% không trùng %(B)% và %(C))% và %(F)% thay đổi trên %(C D)% sao cho %(E A F=45^{\\circ}, B D)% cắt %(A E, A F)% lần lượt tại %(M)% và %(N)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Chứng minh năm điểm %(E, M, N, F, C)% cùng nằm trên một đường tròn.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/61d8603692c6882d75c7d6ee0b9f63d5.png\" srcset=\"https://docdn.giainhanh.io/media/test/d2bb4a320dae1f7872c35f08cc879d1f.png 181w\" width=\"181\"/><br>Tứ giác %(A M F D)% nội tiếp đường tròn ( vì  %(\\widehat{MAF}=\\widehat{M D F}=45^{\\circ})%)<br>%(\\Rightarrow \\widehat{AFM}=\\widehat{A D M}=45^{\\circ} \\Rightarrow \\triangle \\mathrm{AMF})% vuông cân<br>%(\\Rightarrow \\mathrm{FM} \\perp \\mathrm{AE})%<br>Tương tự: %(E N \\perp \\mathrm{AF})%<br>%(\\Rightarrow M, N, C)% nhìn %(E F)% dưới một góc vuông<br>%(\\Rightarrow M, N, F, C, E)% nằm trên đường tròn đường kính %(E F)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Tính tỷ số %(\\frac{M N}{F E})%.",
+        "question_images": [],
+        "solution": "%(\\triangle A N E \\propto \\triangle \\mathrm{AMF}(\\mathrm{g}-\\mathrm{g}) \\Rightarrow \\triangle A M N \\sim \\triangle \\mathrm{AEF}(\\mathrm{c}-\\mathrm{g}-\\mathrm{c}) \\Rightarrow \\frac{M N}{F E}=\\frac{A M}{F A}=\\sin 45^{\\circ}=\\frac{\\sqrt{2}}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Chứng minh đường thẳng %(E F)% luôn tiếp xúc với một đường tròn cố định khi %(E, F)% thay đổi.",
+        "question_images": [],
+        "solution": "Tính chất trực tâm tam giác %(A E F \\Rightarrow F E \\perp A H)%<br>Dễ thấy : %(\\widehat{F A D}=\\widehat{F M D}=\\widehat{F E N}=\\widehat{F A H})% (Các tứ giác %(A D F M ; E F N M ; A N H E)% nội tiếp)<br>%(\\Rightarrow \\triangle F A D=\\triangle F A H(\\mathrm{ch}-\\mathrm{gn}) \\Rightarrow A H=A D)% (Không đồi)<br>Mà %(F E \\perp A H)%%(\\Rightarrow E F)% tiếp xúc với đường tròn %((A ; A D))% cố định.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Trên mặt phẳng cho 4035 điểm phân biệt. Biết rằng trong ba điểm bất kỳ trong số đó luôn tồn tại hai điểm có khoảng cách giữa chúng nhỏ hơn một. Chứng minh rằng tồn tại một hình tròn bán kính bằng một chứa không ít hơn 2018 điểm đã cho.",
+        "question_images": [],
+        "solution": "Dùng nguyên lý Dirichlet:<br>- Nếu khoảng cách hai điểm bất kỳ đều bé hơn 1 thì ta chỉ cần chọn 1 điểm %(A)% bất kỳ trong số 4035 điểm đã cho rồi vẽ đường tròn %((A ; 1))% đường tròn này chứa tất cả 4034 điểm còn lại nên ta có điều phải chứng minh.<br>- Giả sử rằng có hai điểm %(A)% và %(B)% trong số 4035 điểm đã cho có khoảng cách lớn hơn 1, vẽ các đường tròn tâm %(A)% và %(B)% có cùng bán kính bằng 1 , ta còn lại 4033 điểm. Mỗi điểm %(C)% bất kỳ trong số 4033 điểm ấy, theo giả thiết %(A B ; A C ; B C)% phải có một đoạn thẳng có độ dài bé hơn 1 mà %(A B\\gt 1)%, nên %(A C\\lt 1)% hoặc %(B C\\lt 1)%.<br>Do đó hoặc %(C)% nằm trong đường tròn %((A ; 1))% hoặc %((B ; 1))%, do có 4033 điểm %(C)% như vậy nên theo nguyên lý Dirichlet có ít nhất %(\\left[\\frac{4033}{2}\\right]+1=2017)% điểm nằm trong cùng 1 đườngtròn (Trong hai đường tròn đang xét)<br>Giả sử đó là đường tròn %((A ; 1))%. Cùng với điểm %(A)% ta có 2018 điểm nằm trong cùng một đường tròn %((A ; 1) \\Rightarrow \\Phi P C M)%.",
+        "question_type": "essay"
+    }
+]

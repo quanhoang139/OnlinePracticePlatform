@@ -1,0 +1,97 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Rút gọn biểu thức: %(\\left(\\frac{\\sqrt{x}+1}{\\sqrt{x y}+1}+\\frac{\\sqrt{x y}+\\sqrt{x}}{1-\\sqrt{x y}}+1\\right):\\left(1-\\frac{\\sqrt{x y}+\\sqrt{x}}{\\sqrt{x y}-1}-\\frac{\\sqrt{x}+1}{\\sqrt{x y}+1}\\right))%, với %(x\\gt 0 ; y>0 ; x y \\neq 1)%.",
+        "question_images": [],
+        "solution": "Với %(x ; y\\gt 0)% và %(x y \\neq 1)%. Ta có:<br>\\[\\begin{aligned}A & =\\frac{(\\sqrt{x}+1)(1-\\sqrt{x y})+(\\sqrt{x y}+\\sqrt{x})(\\sqrt{x y}+1)+(\\sqrt{x y}+1)(1-\\sqrt{x y})}{(\\sqrt{x y}+1)(1-\\sqrt{x y})}: \\\\& \\frac{(\\sqrt{x y}+1)(1-\\sqrt{x y})+(\\sqrt{x y}+\\sqrt{x})(\\sqrt{x y}+1)-(\\sqrt{x}+1)(1-\\sqrt{x y})}{(\\sqrt{x y}+1)(1-\\sqrt{x y})} \\\\& =\\frac{(\\sqrt{x}+1)(1-\\sqrt{x y})+(\\sqrt{x y}+\\sqrt{x})(\\sqrt{x y}+1)+(\\sqrt{x y}+1)(1-\\sqrt{x y})}{(\\sqrt{x y}+1)(1-\\sqrt{x y})+(\\sqrt{x y}+\\sqrt{x})(\\sqrt{x y}+1)-(\\sqrt{x}+1)(1-\\sqrt{x y})} \\\\& \\frac{1+\\sqrt{x}}{x \\sqrt{y}+\\sqrt{x y}}=\\frac{1}{\\sqrt{x y}}\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho %(x=\\frac{(\\sqrt{3}-1) \\cdot \\sqrt[3]{10+6 \\sqrt{3}}}{\\sqrt{21+4 \\sqrt{5}}+3})%, tính giá trị biểu thức %(\\quad P=\\left(x^{2}+4 x-2\\right)^{2017})%.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[x=\\frac{(\\sqrt{3}-1) \\cdot \\sqrt[3]{10+6 \\sqrt{3}}}{\\sqrt{21+4 \\sqrt{5}}+3}=\\frac{(\\sqrt{3}-1) \\cdot \\sqrt[3]{(\\sqrt{3}+1)^{3}}}{\\sqrt{(\\sqrt{20}+1)^{2}}+3}=\\frac{(\\sqrt{3}-1)(\\sqrt{3}+1)}{\\sqrt{20}+4}=\\frac{2}{2(\\sqrt{5}+2)}=\\sqrt{5}-2\\]<br>Suy ra: %(x^{2}-4 x-1=(\\sqrt{5}-2)^{2}+4(\\sqrt{5}-2)-1=0 \\Rightarrow P=(-1)^{2017}=-1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 0.5,
+        "content": "Cho %(x=\\frac{\\sqrt{2}+1}{\\sqrt{2}-1})%là một nghiệm của phương trình: %(a x^{2}+b x+1=0)%. Với a,B là các số hữu tỉ. Tìm a và b",
+        "question_images": [],
+        "solution": "Ta có: %(x=\\frac{\\sqrt{2}+1}{\\sqrt{2}-1}=3+2 \\sqrt{2})%.Vì %(x=\\frac{\\sqrt{2}+1}{\\sqrt{2}-1})% là một nghiệm của phương trình<br>\\[a x^{2}+b x+1=0\\]<br>nên:<br>\\[17 a+12 a \\sqrt{2}+3 b+2 b \\sqrt{2}+1=0 \\Leftrightarrow \\sqrt{2}(12 a+2 b)=-17 a-3 b-1 .\\]<br>Do %(a, b)% là các số hữu tỉ nên %(-17 a-3 b-1)% và %(12 a+2 b)% là các số hữu tỉ.<br>Suy ra %(\\sqrt{2}(12 a+2 b))% là 1 số hữu tỉ.<br>Do đó %(\\left\\{\\begin{array}{l}12 a+2 b=0 \\\\ 17 a+3 b+1=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a=1 \\\\ b=-6 \\text {. }\\end{array}\\right.\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 0.75,
+        "content": "Cho p là số nguyên tố lớn hơn 5. Chứng minh %(p^{20}-1 )% chia hết cho 100.",
+        "question_images": [],
+        "solution": "Ta có %(p^{20}-1=\\left(p^{4}-1\\right)\\left(p^{16}+p^{12}+p^{8}+p^{4}+1\\right))%.<br>Do %(p)% là số nguyên tố lớn hơn 5 nên %(p)% là một số lẻ.%(\\Rightarrow p^{2}+1)% và %(p^{2}-1)% là các số chẵn%(\\Rightarrow p^{4}-1)% chia hết cho 4<br>%(\\Rightarrow p^{20}-1)% chia hết cho 4<br>Vì %(p)% là số nguyên tố lớn hơn %(5 \\Rightarrow p)% là một số không chia hết cho 5 .<br>Lập luận ta được %(p^{4}-1)% chia hết cho 5 .<br>Lập luận ta được %(p^{16}+p^{12}+p^{8}+p^{4}+1)% chia hết cho 5 .<br>Suy ra %(p^{20}-1)% chia hết cho 25 .Mà %((4 ; 25)=1)% nên %(p^{20}-1)%. (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 0.75,
+        "content": "Cho a,b,c là độ dài của 3 cạnh một tam giác, chứng minh rằng:<br>%(a^{4}+b^{4}+c^{4}\\lt 2 a^{2} b^{2}+2 a^{2} c^{2}+2 b^{2} c^{2})%",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{aligned}& a^{4}+b^{4}+c^{4}\\lt 2 a^{2} b^{2}+2 a^{2} c^{2}+2 b^{2} c^{2} \\\\Leftrightarrow & a^{4}+b^{4}+c^{4}-2 a^{2} b^{2}-2 a^{2} c^{2}-2 b^{2} c^{2}\\lt 0 \\\\Leftrightarrow & \\left(a^{2}-b^{2}-c^{2}\\right)^{2}-(2 b c)^{2}\\lt 0 \\\\Leftrightarrow & \\left(a^{2}-b^{2}-c^{2}-2 b c\\right) \\cdot\\left(a^{2}-b^{2}-c^{2}+2 b c\\right)\\lt 0 \\\\Leftrightarrow & (a-b-c)(a+b+c)(a-b+c)(a+b-c)\\lt 0\\end{aligned}\\]<br>Vì %(a ; b ; c)% là độ dài 3 cạnh của 1 tam giác nên:<br>\\[(a-b-c)\\lt 0 ;(a+b+c)\\gt 0 ;(a-b+c)>0 ;(a+b-c)>0\\]<br>Từ (1) và (2) suy ra đpcm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Tìm các số nguyên %({ }^{x})% sao cho %(x^{3}-3 x^{2}+x+2)% là số chính phương.",
+        "question_images": [],
+        "solution": "Ta có: %(x^{3}-3 x^{2}+x+2=(x-2)\\left(x^{2}-x-1\\right))%<br>* Xét %(x-2=0 \\Rightarrow x=2)% : thỏa mãn yêu cầu bài toán.<br>* Xét %(x^{2}-x-1=0)% : Loại.<br>* Xét %(x-2=x^{2}-x-1)% ta có: %(x=1)%.<br>* %(\\mathrm{TH}^{x \\neq 2 ; x \\neq 1})%. Với %({ }^{x})% nguyên ta chứng minh được %(\\left(x-1 ; x^{2}-x-1\\right)=1)%.<br>Nên %(x^{3}-3 x^{2}+x+2)% là số chính phương khi %(x-2)% và %(x^{2}-x-1)% cùng là số chính phương.<br>Để %(x^{2}-x-1)% là số chính phương thì %(x^{2}-x-1=y^{2})% với %(y \\in)%.<br>Tìm được %(x=2)% (loại do %(x \\neq 2)% ) và %(x=-1)%.<br>Thử lại %(x=-1)% ta có %(x^{3}-3 x^{2}+x+2)% có giá trị bằng -1 không phải là số chính phương nên %(\\Rightarrow x=-1)% (loại).<br>Vậy %(x=2)% hoặc %(x=1)% thì %(x^{3}-3 x^{2}+x+2)% là số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(\\sqrt{x^{2}+3 x}+2 \\sqrt{x+2}=2 x+\\sqrt{x+\\frac{6}{x}+5})%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(x\\gt 0)%. Khi đó ta có:<br>\\[\\begin{aligned}(*) & \\Leftrightarrow \\sqrt{x(x+3)}+2 \\sqrt{x+2}-2 x-\\sqrt{\\frac{x^{2}+5 x+6}{x}}=0 \\\\& \\Leftrightarrow x \\sqrt{\\frac{x+3}{x}}-\\sqrt{\\frac{(x+2)(x+3)}{x}}+2 \\sqrt{x+2}-2 x=0 \\\\& \\Leftrightarrow \\sqrt{\\frac{x+3}{2}}(x-\\sqrt{x+2}-2(x-\\sqrt{x+2})=0 \\\\& \\Leftrightarrow(x-\\sqrt{x+2})\\left(\\sqrt{\\frac{x+3}{x}}-2\\right)=0 \\\\& \\Leftrightarrow x-\\sqrt{x+2}=0 \\text { hoặc } \\sqrt{\\frac{x+3}{x}}-2=0\\end{aligned}\\]<br>Nếu %(x-\\sqrt{x+2}=0)% ta có %(x=2)% thỏa mãn.<br>Nếu %(\\sqrt{\\frac{x+3}{x}}-2=0)% ta có %(\\quad x=1)%<br>Vậy %(S=\\{1 ; 2\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho hình thoi %(A B C D)% có %(A B=B D=a)%. Trên tia đối của tia %(A B)% lấy điểm %(N)%, trên tia đối của tia %(D B)% lấy điểm %(K)% sao cho %(A N+D K=2 a)%. Gọi giao điểm của %(C N)% với %(B D)% và %(A D)% thứ tự là %(I)% và %(M)%. Tia %(B M)% cắt %(N D)% tại %(P)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(I C . C N=I N . C M)%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c7b19101ec90c9a895f2e7a6a57aea3b.png\" srcset=\"https://docdn.giainhanh.io/media/test/a1400c03ef98c1fa2d1aa1814ebdf536.png 245w, https://docdn.giainhanh.io/media/test/ab87f1d6317b953e371d747b2ce4b98e.png 500w\" width=\"500\"/><br>+ Do %(A B C D)% là hình thoi nên %(A B=B C=C D=A D=a)%.<br>%(+\\quad)% BI là đường phân giác của tam giác %(\\quad)% nên %(\\frac{I C}{I N}=\\frac{B C}{B N}=\\frac{a}{B N})%.<br>+ Vì %(A M)% // %(B C)% nên áp dụng định lý Ta lét trong tam giác %(N B C)% ta có:<br>\\[\\frac{M C}{C N}=\\frac{A B}{B N}=\\frac{a}{B N} \\text {. }\\]<br>Suy ra %(\\frac{M C}{C N}=\\frac{I C}{I N}\\left(=\\frac{a}{B N}\\right) \\Rightarrow I C \\cdot C N=I N \\cdot C M)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Chứng minh %(D M \\cdot B N=a^{2})% . Từ đó tính số đo góc BID .",
+        "question_images": [],
+        "solution": "+ Dễ dàng chứng minh được hai tam giác %(B N C)% và %(D C M)% đồng dạng với nhau %((\\mathrm{g}-\\mathrm{g}))%.<br>\\[\\Rightarrow \\frac{B C}{D M}=\\frac{B N}{D C} \\Rightarrow D M \\cdot B N=a^{2}\\]<br>Lại có %(D M \\cdot B N=a^{2} \\Rightarrow \\frac{a}{D M}=\\frac{B N}{a} \\Rightarrow \\frac{B D}{D M}=\\frac{B N}{B D})% (2).<br>Từ (1) và (2) %(\\Rightarrow)% hai tam giác %(M D B)% và %(D B N)% đồng dạng %((\\mathrm{c}-\\mathrm{g}-\\mathrm{c}))%%(\\Rightarrow)% hai tam giác %( BND)% và %(D BM)% đồng dạng %((\\mathrm{g}-\\mathrm{g}) \\Rightarrow)%  %(NBD=)% %(BID=60^{\\circ})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.25,
+        "content": "c) Tìm vị trí điểm N và K để diện tích tứ giác ADKN lớn nhất.",
+        "question_images": [],
+        "solution": "Vì %(S_{A B D})% không đồi %(\\Rightarrow S_{A D K N})% lớn nhất khi %(S_{A D K N}+S_{A B D})% lớn nhất hay %(S_{N B K})% lớn nhất.<br>Thật vậy ta có: %(S_{N B K}=\\frac{1}{2} N B \\cdot B K \\cdot \\sin 60^{\\circ})% (Học sinh phải chứng minh công thức này).<br>\\[\\Rightarrow S_{N B K}=\\frac{1}{4} N B \\cdot B K \\cdot \\sqrt{3}\\]<br>Lại có<br>\\[N B . B K \\leq\\left(\\frac{N B+B K}{2}\\right)^{2}=4 a^{2} \\Rightarrow S_{N B K} \\leq a^{2} \\sqrt{3}\\]<br>Dấu \"=\" xảy ra khi %(B N=B K=2 a)%, mà %(A N+D K=2 a, B A=B D=a)%.<br>Vậy %(N, K)% cách %(A, D)% một khoảng là %(a)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 0.75,
+        "content": "Cho %(a, b, c\\gt 0)% và %(a+b+c=3)%. Chứng minh rằng:<br>\\[a^{5}+b^{5}+c^{5}+\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c} \\geq 6\\]",
+        "question_images": [],
+        "solution": "Áp dụng BĐT Côsi ta có: %(a^{5}+\\frac{1}{a} \\geq 2 a^{2} ; b^{5}+\\frac{1}{b} \\geq 2 b^{2} ; c^{5}+\\frac{1}{c} \\geq 2 c^{2})%.<br>Từ đó suy ra:<br>\\[a^{5}+b^{5}+c^{5}+\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c} \\geq 2\\left(a^{2}+b^{2}+c^{2}\\right)\\]<br>Mặt khác %(a^{2}+1 \\geq 2 a ; b^{2}+1 \\geq 2 b ; c^{2}+1 \\geq 2 c)%. Suy ra:<br>\\[a^{2}+b^{2}+c^{2} \\geq 2(a+b+c)-3=3\\]<br>Từ (1) và (2) ta có: %(a^{5}+b^{5}+c^{5}+\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c} \\geq 6)%.<br>Dấu \"=\" xảy ra %(\\Leftrightarrow a=b=c=1)%.",
+        "question_type": "essay"
+    }
+]

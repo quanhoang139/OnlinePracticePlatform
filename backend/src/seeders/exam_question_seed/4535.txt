@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1",
+        "group_content": "Giải các phương trình sau",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(3 \\tan \\left(2 x-\\frac{\\pi}{6}\\right)=\\sqrt{3})%",
+        "question_images": [],
+        "solution": "%(3 \\tan \\left(2 x-\\frac{\\pi}{6}\\right)=\\sqrt{3} \\Leftrightarrow \\tan \\left(2 x-\\frac{\\pi}{6}\\right)=\\frac{1}{\\sqrt{3}})% %(\\Leftrightarrow 2 x-\\frac{\\pi}{6}=\\frac{\\pi}{6}+k \\pi \\Leftrightarrow x=\\frac{\\pi}{6}+k \\frac{\\pi}{2}(k \\in \\mathbb{Z}))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(\\sin ^{2} x+\\cos x+1=0)%",
+        "question_images": [],
+        "solution": "%(\\sin ^{2} x+\\cos x+1=0 \\Leftrightarrow 1-\\cos ^{2} x+\\cos x+1=0)%<br>\\[\\Leftrightarrow-\\cos ^{2} x+\\cos x+2=0 \\Leftrightarrow\\left[\\begin{array}{l}\\cos x=-1(n) \\\\cos x=2(l)\\end{array}\\right.\\]<br>%(\\cos x=-1 \\Leftrightarrow x=\\pi+k 2 \\pi(k \\in \\mathbb{Z}))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Xác suất bắn trúng hồng tâm của một người bắn cung là 0,4 . Tính xác suất để trong bốn lần bắn độc lập người đó bắn trúng hồng tâm đúng hai lần",
+        "question_images": [],
+        "solution": "Xác suất để trong 4 lần độc lập người đó bắn trúng hồng tâm được 2 lần là<br>\\[(0,4)^{2} \\cdot(0,6)^{2} \\cdot C_{4}^{2}=\\frac{216}{625}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tìm hệ số của số hạng chứa %(x^{10})% trong khai triển %(\\left(x^{3}+\\frac{2}{x^{2}}\\right)^{10})%.",
+        "question_images": [],
+        "solution": "Số hạng tổng quát %(T_{k+1}=C_{10}^{k}\\left(x^{3}\\right)^{10-k} \\cdot\\left(\\frac{2}{x^{2}}\\right)^{k}=C_{10}^{k} \\cdot 2^{k} \\cdot \\frac{x^{30-3 k}}{x^{2 k}}=C_{10}^{k} \\cdot 2^{k} \\cdot x^{30-5 k})%<br>Số hạng chứa %(x^{10})% thì %(x^{30-5 k}=x^{10} \\Leftrightarrow 30-5 k=10 \\Leftrightarrow k=4)%.<br>Hệ số của số hạng chứa %(x^{10})% là %(C_{10}^{4} \\cdot 2^{4}=3360)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Một chiếc hộp đựng 3 viên bi trắng, 4 viên bi vàng và 5 viên bi đỏ. Có bao nhiêu cách chọn 4 viên bi sao cho có đủ 3 màu?",
+        "question_images": [],
+        "solution": "Có 3 trường hợp xảy ra<br>%(\\mathrm{TH} 1)% : 2 trắng , 1 vàng, 1 đỏ : có %(C_{3}^{2} \\cdot C_{4}^{1} \\cdot C_{5}^{1}=60)% (cách chọn)<br>%(\\mathrm{TH} 2)% : 1 trắng, 2 vàng, 1 đỏ : có %(C_{3}^{1} \\cdot C_{4}^{2} \\cdot C_{5}^{1}=90)% (cách chọn)<br>%(\\mathrm{TH3})% : 1 trắng, 1 vàng, 1 đỏ : có %(C_{3}^{1} \\cdot C_{4}^{1} \\cdot C_{5}^{2}=120)% (cách chọn)<br>Áp dụng quy tắc cộng, ta có %(60+90+120=270)% (cách chọn)",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Chứng minh rằng với mọi số nguyên dương %(n)% không nhỏ hơn 2 , ta luôn có<br>\\[\\left(1-\\frac{1}{4}\\right)\\left(1-\\frac{1}{9}\\right) \\cdots\\left(1-\\frac{1}{n^{2}}\\right)=\\frac{n+1}{2 n} \\text {. }\\]",
+        "question_images": [],
+        "solution": "Với %(n=2 \\Rightarrow 1-\\frac{1}{4}=\\frac{2+1}{2 \\cdot 2}=\\frac{3}{4})% (đúng). Biểu thức đúng với %(n=2)%.<br>Giả sử biểu thức đúng với %(n=k)%, nghĩa là %(\\left(1-\\frac{1}{4}\\right)\\left(1-\\frac{1}{9}\\right) \\ldots\\left(1-\\frac{1}{k^{2}}\\right)=\\frac{k+1}{2 k})%.<br>Ta cần chứng minh biểu thức đúng với %(n=k+1)%, nghĩa là<br>\\[\\left(1-\\frac{1}{4}\\right)\\left(1-\\frac{1}{9}\\right) \\ldots\\left(1-\\frac{1}{(k+1)^{2}}\\right)=\\frac{k+1+1}{2 .(k+1)}=\\frac{k+2}{2 k+2} .\\]<br>Thật vậy<br>\\[\\left(1-\\frac{1}{4}\\right)\\left(1-\\frac{1}{9}\\right) \\cdots\\left(1-\\frac{1}{(k+1)^{2}}\\right)=\\frac{k+1}{2 k} \\cdot\\left(\\frac{(k+1)^{2}-1}{(k+1)^{2}}\\right)=\\frac{k+1}{2 k} \\cdot \\frac{k(k+2)}{(k+1)^{2}}=\\frac{k+2}{2(k+1)} \\text { (đúng) }\\]<br>Như vậy biểu thức đúng với %(n=k+1)%.<br>Vậy biểu thức đúng với mọi số nguyên dương không nhỏ hơn 2.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho chóp %(S . A B C D)% có đáy %(A B C D)% là hình bình hành. Gọi %(E)% là trung điểm của %(S C)%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tìm giao tuyến của %((S A B))% và %((S C D))%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/fedb55f7314aaa3141796db7e27c3ba7.png\" srcset=\"https://docdn.giainhanh.io/media/test/ad12f40691c2e12e457327142eb4392c.png 181w, https://docdn.giainhanh.io/media/test/7025e7514255c77c0448fb59a9aa8902.png 500w\" width=\"500\"/><br>Ta có %(\\left.\\begin{array}{l}S \\in(S A B) \\\\ S \\in(S C D)\\end{array}\\right\\} \\Rightarrow S)% là điểm chung<br>Lại có %(A B / / C D)% (do %(A B C D)% là hình bình hành)<br>Suy ra %((S A B) \\cap(S C D)=S x)% sao cho %(S x / / A B / / C D)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm giao điểm của đường thẳng %(D E)% với mặt phẳng %((S A B))%.",
+        "question_images": [],
+        "solution": "Trong mặt phẳng %((S C D): S x \\cap D E=K)%.<br>\\[\\left.\\begin{array}{l}K \\in D E \\K \\in S x \\subset(S A B)\\end{array}\\right\\} \\Rightarrow D E \\cap(S A B)=K\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Gọi %(F)% là trọng tâm của tam giác %(A C D)%. Chứng minh rằng : %(S D / /(A E F))%",
+        "question_images": [],
+        "solution": "Kéo dài %(A F)% cắt %(C D)% tại %(\\mathrm{M})%, suy ra %(\\mathrm{M})% là trung điểm %(C D)%.<br>Xét tam giác %(S C D)% có %(S E=E C, D M=M C)%<br>suy ra %(E M)% là đường trung bình tam giác %(S C D)% suy ra %(E M / / S D)%.<br>Ta có %(\\left.\\begin{array}{c}E M / / S D \\\\ S D \\not \\subset(A E F) \\\\ S D \\subset(A E F)\\end{array}\\right\\} \\Rightarrow S D / /(A E F))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 0.5,
+        "content": "Chứng minh rằng %(\\left(11^{n+1}+12^{2 n-1}\\right))% :133 với mọi giá trị %(n)% nguyên dương",
+        "question_images": [],
+        "solution": "Với %(n=1 \\Rightarrow 11^{2}+12=133 \\vdots 133)% (đúng)<br>Mệnh đề đúng với %(n=1)%.<br>Giả sử mệnh đề đúng với %(n=k)%, nghĩa là %(\\left(11^{k+1}+12^{2 k-1}\\right): 133)%.<br>Ta cần chứng minh mệnh đề đúng với %(n=k+1)%, nghĩa là %(\\left(11^{k+2}+12^{2 k+1}\\right) \\vdots 133)%.<br>Thật vậy %(11^{k+2}+12^{2 k+1}=11 \\cdot 11^{k+1}+12^{2 k-1} \\cdot 144=11\\left(11^{k+1}+12^{2 k-1}\\right)+133 \\cdot 12^{2 k-1})%<br>Nhận thấy %(11\\left(11^{k+1}+12^{2 k-1}\\right) \\vdots 133)% (giả thiết quy nạp)<br>%(133.12^{2 k-1}: 133)% (hiển nhiên)<br>Như vậy %(\\left(11^{k+2}+12^{2 k+1}\\right))% :133. Mệnh đề đúng với %(n=k+1)%.<br>Vậy mệnh đề đúng với mọi số nguyên dương %(n)%",
+        "question_type": "essay"
+    }
+]

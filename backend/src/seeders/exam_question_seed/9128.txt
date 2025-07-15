@@ -1,0 +1,112 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.5,
+        "content": "Tìm tất cả các cặp số nguyên %((m, n))% sao cho %(2 n^{3}-m n^{2}-3 n^{2}+14 n-7 m-5=0)%",
+        "question_images": [],
+        "solution": "Ta co:%(2 n^{3}-m n^{2}-3 n^{2}+14 n-7 m-5=0 \\Leftrightarrow m=2 n-3+\\frac{16}{n^{2}+7} (1))%<br>\\[\\text { Vì } m, n \\in Z \\text { nên } n^{2}+7 \\in U(16) \\Rightarrow n^{2}+7 \\in\\{8 ; 16\\} \\Rightarrow n^{2} \\in\\{1 ; 9\\} \\Rightarrow n \\in\\{ \\pm 1 ; \\pm 3\\} (2)\\]<br>Từ (1) và (2) suy được: %((m, n)=\\{(1 ; 1),(-3 ;-1) ;(4 ; 3),(-8 ;-3)\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Rút gọn biểu thức:<br>%(A=\\left(\\frac{2 \\sqrt{x}-1}{1-\\sqrt{x}}+\\frac{2 x-\\sqrt{x}}{x-\\sqrt{x}+1}\\right): \\frac{2 \\sqrt{x}-1}{\\sqrt{x^{3}}+1})%",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} A & =\\left(\\frac{2 \\sqrt{x}-1}{1-\\sqrt{x}}+\\frac{2 x-\\sqrt{x}}{x-\\sqrt{x}+1}\\right): \\frac{2 \\sqrt{x}-1}{\\sqrt{x^{3}}+1} \\\\ & =\\frac{(2 \\sqrt{x}-1)(x-\\sqrt{x}+1)+\\sqrt{x}(2 \\sqrt{x}-1)(1-\\sqrt{x})}{(1-\\sqrt{x})(x-\\sqrt{x}+1)} \\cdot \\frac{\\sqrt{x^{3}}+1}{2 \\sqrt{x}-1} \\\\ & =\\frac{(2 \\sqrt{x}-1)(x-\\sqrt{x}+1+\\sqrt{x}-x)(\\sqrt{x}+1)(x-\\sqrt{x}+1)}{(1-\\sqrt{x})(x-\\sqrt{x}+1)(2 \\sqrt{x}-1)}=\\frac{\\sqrt{x}+1}{1-\\sqrt{x}}\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "%(|x-2014|+|x-2016|+|y-2016|+|x|=2016)%",
+        "question_images": [],
+        "solution": "%(|x-2014|+|x-2016|+|y-2016|+|x|=2016)% (1)<br>Ta có: %(|x-2016|+|x|=|2016-x|+|x| \\geq|x+2016-x|=2016)% (2)<br>Chỉ ra được dấu « %(=)% » xảy ra khi %(0 \\leq \\mathrm{x} \\leq 2016)%(*)<br>Từ (1) và (2) suy được: %(|x-2014|+|y-2016|=0)%<br>Lập luận suy được: %(\\left\\{\\begin{array}{l}|x-2014|=0 \\\\ |y-2016|=0\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}x=2014 \\\\ y=2016\\end{array}\\right.\\right.)%Đối chiếu %(Đ K\\left({ }^{*}\\right))% và kết luận được nghiệm",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Tìm GTNN của biểu thức:<br>\\[A=\\frac{3-4 \\sqrt{x}}{x+1}\\]",
+        "question_images": [],
+        "solution": "Tìm GTNN của biểu thức:<br>\\[\\begin{array}{l}\\text { } \\mathrm{A}=\\frac{3-4 \\sqrt{x}}{\\mathrm{x}+1} \\quad \\mathrm{X} \\geq 0 \\A=\\frac{3-4 \\sqrt{x}}{x+1}=\\frac{(x-4 \\sqrt{x}-4)-(x+1)}{x+1}=\\frac{(\\sqrt{x}-2)^{2}}{x+1}-1 \\geq-1 \\quad \\mathrm{x} \\geq 0\\end{array}\\]<br>Chỉ ra được: %(\\min A=-1)% khi %(x=4)% (tmđk)",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho %(x, y, z)% là các số không âm và %(\\mathrm{x}+\\mathrm{y}+\\mathrm{z}=1)%.<br>CMR:<br>\\[A=\\sqrt{\\mathrm{x}+\\mathrm{y}}+\\sqrt{\\mathrm{y}+\\mathrm{z}}+\\sqrt{\\mathrm{z}+\\mathrm{x}} \\leq \\sqrt{6}\\]",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}A^{2}=(1 \\cdot \\sqrt{x+y}+1 \\cdot \\sqrt{y+z}+1 \\cdot \\sqrt{z+x})^{2} \\\\leq\\left(1^{2}+1^{2}+1^{2}\\right)\\left((\\sqrt{x+y})^{2}+(\\sqrt{y+z})^{2}+(\\sqrt{z+x})^{2}\\right) \\\\=3.2(x+y+z)=6(\\text { vi } x+y+z=1) \\\\text { Suy được } \\quad \\mathrm{A} \\leq \\sqrt{6} \\quad a=b=c=\\frac{1}{3}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C)% có chu vi %(2 p=a+b+c)% ( %(a, b, c)% là độ dài ba cạnh của tam giác).<br>Chứng minh rằng : %(\\frac{1}{p-a}+\\frac{1}{p-b}+\\frac{1}{p-c} \\geq 2 \\cdot\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right))%.",
+        "question_images": [],
+        "solution": "Chì ra được:<br>\\[p-a=\\frac{b+c-a}{2}\\gt 0 ; p-b>0 ; p-c>0\\]<br>Áp dụng BĐT Cô si ta có :<br>\\[[(p-a)+(p-b)]\\left(\\frac{1}{p-a}+\\frac{1}{p-b}\\right) \\geq 2 \\sqrt{(p-a)(p-b)} \\cdot \\frac{2}{\\sqrt{(p-a)(p-b)}}=4\\]<br>Suy được: %(\\frac{1}{p-a}+\\frac{1}{p-b} \\geq \\frac{4}{p-a+p-b}=\\frac{4}{c})%<br>Tương tự: %(\\frac{1}{p-b}+\\frac{1}{p-c} \\geq \\frac{4}{a} ; \\frac{1}{p-c}+\\frac{1}{p-a} \\geq \\frac{4}{b})%<br>Suy được:<br>\\[\\text { 2. }\\left(\\frac{1}{p-a}+\\frac{1}{p-b}+\\frac{1}{p-c}\\right) \\geq 4 .\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)\\]<br>Suy được đpcm và dấu \" %(=)% \" xảy ra khi %(a=b=c)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác %(A B C)% nội tiếp đường tròn %((O ; R))%. Gọi %((I ; r))% là đường tròn nội tiếp tam giác %(A B C)%, %(M)% là tiếp điểm của %(A B)% với đường tròn %((I ; r) ; H)% là giao điểm của %(A I)% với đường tròn %((O ; R))% ( %(H)% khác %(A), H K)% là đường kính của đường tròn %((O))%. Gọi %(a)% là độ dài đoạn %(O I)%. Chứng minh:",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "a) Tam giác %(A M I)% và tam giác %(K C H)% đồng dạng.",
+        "question_images": [],
+        "solution": "Chứng minh được các tam giác %(\\triangle A M I)% và %(\\triangle K C H)% là các tam giác vuông<br>- Chứng minh được %(\\widehat{\\mathrm{A}}_{1}=\\widehat{\\mathrm{A}}_{2}=\\widehat{\\mathrm{K}})%<br>- Suy ra được tam giác %(\\triangle A M I \\sim \\triangle K C H)% (dpcm)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/41795fe9fc26c610038c8800845c31a2.png\" srcset=\"https://docdn.giainhanh.io/media/test/08ed80ecfdf80bc02772cc32ae9817e5.png 156w, https://docdn.giainhanh.io/media/test/ec7cc613a5c44f057058fef6cc871c72.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "b) %(H B=H I)%.",
+        "question_images": [],
+        "solution": "Chứng minh được %(\\hat{\\mathrm{I}}_{1}=\\widehat{\\mathrm{A}}_{1}+\\hat{\\mathrm{B}}_{1} ; \\widehat{\\mathrm{IBH}}=\\hat{\\mathrm{B}}_{2}+\\hat{\\mathrm{B}}_{3}=\\hat{\\mathrm{B}}_{1}+\\widehat{\\mathrm{A}}_{1})%<br>Do đó %(\\hat{\\mathrm{I}}_{1}=\\widehat{\\mathrm{IBH}} \\Rightarrow \\mathrm{HB}=\\mathrm{HI} \\quad()% dpcm %())%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "c) %(I A \\cdot I H=R^{2}-a^{2})%.",
+        "question_images": [],
+        "solution": "Gọi %(E F)% là đường kính của %((O))% và đi qua %(I)%.<br>- Nêu được: %(I A . I H=I E . I F)% (hệ thức trong đường tròn)<br>- Suy ra: %(I A \\cdot I H=(R-a) \\cdot(R+a)=R^{2}-a^{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "d) %(R^{2}-2 R r=a^{2})%.",
+        "question_images": [],
+        "solution": "Vì %(\\triangle A M I \\sim \\triangle K C H)% (Từ câu a) nên %(\\frac{\\mathrm{IA}}{\\mathrm{HK}}=\\frac{\\mathrm{IM}}{\\mathrm{HC}} \\Rightarrow L A \\cdot H C=H K \\cdot I M=2 R r \\quad(*))%<br>Mà %(H B=H C)% (do %(\\widehat{\\mathrm{A}}_{1}=\\widehat{\\mathrm{A}}_{2})% ) %(\\Rightarrow H C=H I)%.<br>Kết hợp câu c ), thay vào %(\\left(^{*}\\right))% ta có: %(\\mathrm{R}^{2}-\\mathrm{a}^{2}=2 \\mathrm{Rr} \\Rightarrow \\mathrm{R}^{2}-2 \\mathrm{Rr}=\\mathrm{a}^{2})% (dpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho đường tròn %((C))% đường kính %(P Q=2 R)% cố định và một đường kính %(M N)% của đường tròn thay đổi %((M N)% khác %(P Q))%. Qua %(P)% vẽ đường thẳng %((d))% là tiếp tuyến của đường tròn, %((d))% cắt %(Q M)% và %(Q N)% lần lượt ở %(E)% và %(F)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "a) Chứng minh tam giác %(Q M N)% đồng dạng với tam giác %(Q F E)%.",
+        "question_images": [],
+        "solution": "Chứng minh được: %(Q M \\cdot Q E=Q N \\cdot Q F\\left(=P Q^{2}\\right) \\Rightarrow \\frac{Q M}{Q F}=\\frac{Q N}{Q E})%<br>Chỉ ra được: %(\\triangle Q M N \\sim \\triangle Q F E)% (c.g.c)",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "b) Tìm vị trí của đường kính %(M N)% để %(E F)% có độ dài nhỏ nhất và tính GTNN đó theo %(R)%.",
+        "question_images": [],
+        "solution": "Xét %(\\triangle Q F E)% vuông tại %(Q)% có %(P Q \\perp E F)% (gt) (1) %(\\Rightarrow P Q^{2}=P E . P F)% (hệ thức 2)<br>\\[P E . P F=(2 R)^{2}=4 R^{2}\\]<br>Áp dụng bất đẳng thức Cô si cho 2 số %(\\mathrm{EP}, \\mathrm{PF}\\gt 0)% ta có<br>\\[E F=E P+P F \\geq 2 \\sqrt{E P \\cdot P F}=2 \\cdot \\sqrt{4 R^{2}}=4 R\\]<br>%(\\Rightarrow E F)% nhỏ nhất bằng %(4 R)% khi %(E P=P F)% (2)Từ (1) và (2) %(\\Rightarrow \\triangle Q E F)% cân tại %(Q)% có %(P Q)% là đường cao đồng thời là phân giác.Chỉ ra được %(P M Q N)% là hình chữ nhật<br>%(\\Rightarrow P M Q N)% là hình vuông<br>%(\\Rightarrow M N \\perp P Q)%Vậy khi %(M N \\perp P Q)% thì %(E F)% có độ dài nhỏ nhất bằng 4 R .",
+        "question_type": "essay"
+    }
+]

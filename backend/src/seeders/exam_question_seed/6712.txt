@@ -1,0 +1,112 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "Cho biểu thức %(A=\\left(\\frac{8 x \\sqrt{x}-1}{2 x-\\sqrt{x}}-\\frac{8 x \\sqrt{x}+1}{2 x+\\sqrt{x}}\\right): \\frac{2 x+1}{2 x-1})% với %(x\\gt 0, x \\neq \\frac{1}{2})% và %(x \\neq \\frac{1}{4})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Rút gọn biểu thức %(A)%.",
+        "question_images": [],
+        "solution": "%(\\begin{aligned}A & =\\left[\\frac{(2 \\sqrt{x})^{3}-1}{\\sqrt{x}(2 \\sqrt{x}-1)}-\\frac{(2 \\sqrt{x})^{3}+1}{\\sqrt{x}(2 \\sqrt{x}+1)}\\right]: \\frac{2 x+1}{2 x-1} \\\\& =\\left[\\frac{(2 \\sqrt{x}-1)(4 x+2 \\sqrt{x}+1)}{\\sqrt{x}(2 \\sqrt{x}-1)}-\\frac{(2 \\sqrt{x}+1)(4 x-2 \\sqrt{x}+1)}{\\sqrt{x}(2 \\sqrt{x}+1)}\\right]: \\frac{2 x+1}{2 x-1} \\\\& =\\left(\\frac{4 x+2 \\sqrt{x}+1}{\\sqrt{x}}-\\frac{4 x-2 \\sqrt{x}+1}{\\sqrt{x}}\\right): \\frac{2 x+1}{2 x-1} \\\\& =\\frac{4(2 x-1)}{2 x+1} .\\end{aligned})%<br>Vậy %(A=\\frac{4(2 x-1)}{2 x+1})% với điều kiện %(x\\gt 0, x \\neq \\frac{1}{2}, x \\neq \\frac{1}{4})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Tìm tất cả các giá trị của %(x)% để %(A)% là số chính phương.",
+        "question_images": [],
+        "solution": "Do %(A)% là số chính phương nên %(A \\geq 0)%, kết hợp với điều kiện suy ra %(x\\gt \\frac{1}{2})%.<br>Khi đó %(0\\lt \\frac{2 x-1}{2 x+1}\\lt 1 \\Rightarrow 0\\lt A\\lt 4)%.<br>Vì %(A)% là số chính phương nên %(A=1)%.<br>Giải ra ta tìm được %(x=\\frac{5}{6})% (thỏa mãn).",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Tìm tất cả các giá trị của tham số %(m)% để phương trình %(x^{2}-2(2 m-1) x+m^{2}+m-3=0)% có hai nghiệm phân biệt %(x_{1}, x_{2})% sao cho %(B=\\frac{x_{1}+x_{2}+1}{x_{1}^{2}+x_{2}^{2}+2\\left(x_{1}+x_{2}+x_{1} x_{2}\\right)+10})% đạt giá trị lớn nhất.",
+        "question_images": [],
+        "solution": "%(\\Delta^{\\prime}=(2 m-1)^{2}-\\left(m^{2}+m-3\\right)=3 m^{2}-5 m+4=3\\left(m-\\frac{5}{6}\\right)^{2}+\\frac{23}{12}\\gt 0 \\forall m \\in \\mathbb{R} )% suy ra phương trình luôn có hai nghiệm phân biệt %(x_{1}, x_{2})% với mọi %(m \\in \\mathbb{R})%.<br>Theo hệ thức vi - ét, ta có %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=4 m-2 \\\\ x_{1} \\cdot x_{2}=m^{2}+m-3\\end{array}\\right.)%<br>Ta có %(B=\\frac{x_{1}+x_{2}+1}{\\left(x_{1}+x_{2}\\right)^{2}+2\\left(x_{1}+x_{2}\\right)+10}=\\frac{x_{1}+x_{2}+1}{\\left(x_{1}+x_{2}+1\\right)^{2}+9})%<br>%(=\\frac{1}{6}-\\frac{\\left(x_{1}+x_{2}-2\\right)^{2}}{6\\left[\\left(x_{1}+x_{2}+1\\right)^{2}+9\\right]} \\leq \\frac{1}{6} \\forall x_{1}, x_{2})%.<br>Đẳng thức xảy ra khi và chỉ khi %(x_{1}+x_{2}=2)%<br>Kết hợp với định lý vi - ét ta được %(4 m-2=2 \\Leftrightarrow m=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.5,
+        "content": "Giải phương trình: %(\\sqrt{6-x}-\\sqrt{2 x+6}=x^{2}-2 x-18)%.",
+        "question_images": [],
+        "solution": "Điều kiện %(-3 \\leq x \\leq 6 \\quad(*))%.<br>Phương trình đã cho tương đương %((\\sqrt{6-x}-1)-(\\sqrt{2 x+6}-4)=x^{2}-2 x-15)%<br>%(\\begin{array}{l}\\Leftrightarrow \\frac{5-x}{\\sqrt{6-x}+1}-\\frac{2(x-5)}{\\sqrt{2 x+6}+4}=(x-5)(x+3) \\\\Leftrightarrow(x-5)\\left(x+3+\\frac{1}{\\sqrt{6-x}+1}+\\frac{2}{\\sqrt{2 x+6}+4}\\right)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x-5=0 \\x+3+\\frac{1}{\\sqrt{6-x}+1}+\\frac{2}{\\sqrt{2 x+6}+4}=0\\end{array}\\right.\\end{array})%<br>%(x-5=0 \\Leftrightarrow x=5)% (thỏa mãn (*)).<br>%(x+3+\\frac{1}{\\sqrt{6-x}+1}+\\frac{2}{\\sqrt{2 x+6}+4}=0)% vô nghiệm khi %(-3 \\leq x \\leq 6)%.<br>So sánh điều kiện ta được tập nghiệm của phương trình đã cho là %(S=\\{5\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 1.5,
+        "content": "Tìm %(a, b)% để đa thức %(f(x)=x^{4}-3 x^{3}+3 x^{2}+a x+b)% chia cho %(x-1)% dư 3 và chia cho %(x-2)% dư 5 .",
+        "question_images": [],
+        "solution": "Do %(f(x))% chia cho biểu thức %(x-1)% có số dư là 3 suy ra %(f(1)=3 \\Rightarrow a+b=2)%<br>Do %(f(x))% chia cho biểu thức %(x-2)% có số dư là 5 suy ra %(f(2)=5 \\Rightarrow 2 a+b=1)%<br>Giải hệ %(\\left\\{\\begin{array}{l}a+b=2 \\\\ 2 a+b=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a=-1 \\\\ b=3\\end{array} . \\mathrm{KL}\\right.\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 1.0,
+        "content": "Chứng minh rằng %(n^{5}-n)% chia hết cho 240 với %(n)% là số tự nhiên lẻ bất kì.",
+        "question_images": [],
+        "solution": "Do %(n(n-1)(n+1) \\vdots 3 \\Rightarrow n^{5}-n=n(n-1)(n+1)\\left(n^{2}+1\\right) \\vdots 3)%<br>Do %(n-1, n+1)% là hai số chẵn liên tiếp nên %((n-1)(n+1): 8)% và %(n^{2}+1 \\vdots 2)%<br>%(\\begin{aligned}\\Rightarrow n^{5}- & n=n(n-1)(n+1)\\left(n^{2}+1\\right) \\vdots 16 \\n^{5}-n & =n(n-1)(n+1)\\left(n^{2}+1\\right) \\\\& =n(n-1)(n+1)\\left[\\left(n^{2}-4\\right)+5\\right] \\\\& =(n-2)(n-1) n(n+1)(n+2)+5 n(n-1)(n+1) \\vdots 5\\end{aligned})%<br>Do 3,5 và 16 đôi một nguyên tố cùng nhau nên %(n^{5}-n: 240)% (đpcm).",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 2.0,
+        "content": "Tìm tất cả các nghiệm nguyên của phương trình %(x^{2}-y^{2}\\left(x+y^{4}+6 y^{2}\\right)=0)%.",
+        "question_images": [],
+        "solution": "%(x^{2}-y^{2}\\left(x+y^{4}+6 y^{2}\\right)=0 \\Leftrightarrow x^{2}-y^{2} x-\\left(y^{6}+6 y^{4}\\right)=0)%<br>Ta có %(\\Delta_{x}=y^{4}+4\\left(y^{6}+6 y^{4}\\right)=y^{4}\\left(4 y^{2}+25\\right))%<br>Nhận xét: Nếu %(\\left(x_{0} ; y_{0}\\right))% là nghiệm của phương trình (1) thì %(\\left(x_{0} ;-y_{0}\\right))% là nghiệm của phương trình (1). Không mất tính tổng quát ta chỉ cần xét %(y \\geq 0)%.<br>Để phương trình (1) có nghiệm nguyên %(x)%, ta cần phải có %(\\Delta_{x})% là một số chính phương<br>TH1: Xét %(y=0)% và thay vào (1) ta được %(x=0)% thỏa mãn nên %((x ; y)=(0 ; 0))% là một nghiệm của %((1))%.<br>TH2: Nếu %(y\\gt 0, \\Delta_{x})% là số chính phương khi %(4 y^{2}+25)% là số chính phương.<br>Đặt %(4 y^{2}+25=m^{2}\\left(m \\in \\mathbb{N}^{*}\\right) \\Leftrightarrow(m-2 y)(m+2 y)=25)% (2).<br>Vì %(y \\in \\mathbb{N}^{*}, m \\in \\mathbb{N}^{*})% nên %(m-2 y\\lt m+2 y)% và %(m-2 y ; m+2 y)% là các ước nguyên dương của 25. Từ (2) ta được %(\\left\\{\\begin{array}{l}m-2 y=1 \\\\ m+2 y=25\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}m=13 \\\\ y=6\\end{array}\\right.\\right.)%.<br>Thay %(y=6)% vào (1), rút gọn ta được %(x^{2}-36 x-54432=0 \\Leftrightarrow\\left[\\begin{array}{l}x=252 \\\\ x=-216\\end{array}\\right.)%.<br>Vậy phương trình đã cho có tập nghiệm là %(S=\\{(0 ; 0) ;(252 ; 6) ;(-216 ; 6) ;(252 ;-6) ;(-216 ;-6)\\} .)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 1.0,
+        "content": "Cho hình tròn %((O))% bán kính bằng 1 . Giả sử %(A_{1}, A_{2}, \\ldots, A_{8})% là 8 điểm bất kỳ nằm trong hình tròn (kể cả trên biên). Chứng minh rằng trong các điểm đã cho luôn tồn tại 2 điểm mà khoảng cách giữa chúng nhỏ hơn 1 .",
+        "question_images": [],
+        "solution": "%(\\mathrm{TH} 1: 8)% điểm đã cho có điểm %(A_{i})% trùng với tâm %(O)% của đường tròn.<br>Nếu 7 điểm còn lại có điểm %(A_{j})% nằm bên trong đường tròn %((C))% thì %(A_{i} A_{j}\\lt R=1)% (thỏa mãn).<br>Nếu cả 7 điểm còn lại nằm trên đường tròn thì chúng chia đường tròn thành 7 cung. Do đó có một cung trong các cung đó có số đo nhỏ hơn %(\\frac{360^{\\circ}}{6}=60^{\\circ})%. Khoảng cách giữa hai điểm là đầu mút của cung đó nhỏ hơn %(R=1)%.<br>%(\\mathrm{TH} 2)% : Cả 8 điểm đã cho đều khác %(O)%. Ta chia hình tròn thành 7 quạt bằng nhau có góc ở tâm bằng %(\\frac{360^{\\circ}}{7}\\lt 60^{\\circ})% (hình vẽ).<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a4370a290a87b9fb0ae500284c8cd20a.png\" srcset=\"https://docdn.giainhanh.io/media/test/63f2cf0f2127b4b1794e2412a5f89654.png 160w, https://docdn.giainhanh.io/media/test/7c1f5bfd534f7173b637f2d68c4c2724.png 500w\" width=\"500\"/><br>Theo nguyên lý Dirichlet, trong 8 điểm đã cho phải có 2 điểm thuộc cùng một trong 7 hình quạt thu được (có thể nằm trên biên của hình quạt). Giả sử %(A_{i}, A_{j})% thuộc một hình quạt.<br>Khi đó %(\\overline{A_{i} O A_{j}}\\lt 60^{\\circ})% nên một trong hai góc %(\\widehat{O A_{i} A_{j}})% hoặc %(\\widehat{O A_{j} A_{i}})% lớn hơn %(60^{\\circ})% (có thể bằng %(180^{\\circ})% ), chẳng hạn góc %(\\widehat{O A_{j} A_{i}}\\gt 60^{\\circ})%. Ta có %(\\widehat{A_{i} O A_{j}}\\lt \\widehat{O A_{j} A_{i}})% nên %(A_{i} A_{j}\\lt O A_{i} \\leq R=1)%. Vậy trong các điểm đã cho luôn tồn tại hai điểm mà khoảng cách giữa chúng nhỏ hơn 1.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8:",
+        "group_content": "Cho đường tròn %((O))% và điểm %(M)% cố định nằm ngoài đường tròn %((O))%. Qua %(M)% kẻ cát tuyến %(M A B)% với đường tròn %((O))% ( %(M A\\lt M B)% và %(A B)% không đi qua %(O))%. Tiếp tuyến của đường tròn %((O))% tại %(A)% và %(B)% cắt nhau tại %(K)%. Đường thẳng qua %(K)% vuông góc với %(M O)%, cắt đường tròn %((O))% tại hai điểm %(C, D)% phân biệt %((K C\\lt K D))%. Gọi %(N)% là trung điểm của đoạn %(A B)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.5,
+        "content": "a) Chứng minh rằng tứ giác %(O N C D)% nội tiếp trong một đường tròn.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a65a84c18840ce7c7bba975497a04c4f.png\" srcset=\"https://docdn.giainhanh.io/media/test/a6b0523a6ef9773285264ab03f8414ac.png 187w, https://docdn.giainhanh.io/media/test/4cb0fd8311166af527441a07a234168a.png 500w\" width=\"500\"/><br>Theo bài chỉ ra được %(K, N)% và %(O)% thẳng hàng.<br>Áp dụng hệ thức lượng trong tam giác vuông %(K B O)% ta được %(K B^{2}=K N . K O)% (1)<br>Chứng minh được %(K B^{2}=K C . K D)% (2)<br>Từ (1) và (2) suy ra %(K N \\cdot K O=K C \\cdot K D \\Leftrightarrow \\frac{K C}{K N}=\\frac{K O}{K D})%<br>Nên tam giác %(K N C)% dồng dạng với tam giác %(K D O)% (c-g-c). Suy ra %(\\widehat{K D O}=\\widehat{K N C})%<br>Suy ra tứ giác %(O N C D)% nội tiếp trong một đường tròn.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Gọi %(I)% là giao điểm của %(C D)% với %(A B)%. Chứng minh rằng %(I A \\cdot M B=I B)%. %(M A)%.",
+        "question_images": [],
+        "solution": "Gọi %(H)% là giao điểm của %(C D)% và %(M O)%. Chỉ ra 5 điểm %(K, A, H, O)% và %(B)% cùng thuộc đường tròn đường kính %(K O)%<br>Chỉ ra %(\\widehat{A H K}=\\widehat{K H B})% suy ra %(H I)% là đường phân giác trong của tam giác %(A H B)%<br>%(\\Rightarrow \\frac{H A}{H B}=\\frac{I A}{I B}(3))%<br>Vì %(H M \\perp H I)% nên %(H M)% là đường phân giác ngoài của tam giác %(A H B \\Rightarrow \\frac{H A}{H B}=\\frac{M A}{M B})% (4)<br>Từ %((3))% và (4) suy ra %(\\frac{I A}{I B}=\\frac{M A}{M B} \\Rightarrow I A \\cdot M B=I B \\cdot M A)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.5,
+        "content": "c) Qua %(B)% kẻ đường thẳng song song với %(C D)%, cắt đường tròn %((O))% tại điểm %(E)% ( %(E)% khác %(B)% ). Chứng minh rằng đường thẳng %(A E)% luôn đi qua một điểm cố định khi cát tuyến %(M A B)% thay đổi.",
+        "question_images": [],
+        "solution": "Chỉ ra %(O H . O M=O N . O K=O B^{2} \\Rightarrow O H=\\frac{O B^{2}}{O M})% (không đổi) suy ra %(H)% là điểm cố định.<br>Gọi %(F)% là giao điểm của %(A H)% với đường tròn %((O)(F \\neq A))%.<br>%(\\begin{array}{l}\\widehat{A H K}=\\widehat{A O K} \\\\widehat{A F B}=\\frac{1}{2} \\widehat{A O B}=\\widehat{A O K}\\end{array})%<br>Từ (7) và %((8) \\Rightarrow \\widehat{A H K}=\\widehat{A F B} \\Rightarrow C D / / B F)%.<br>Suy ra %(F \\equiv E)%. Vậy %(A E)% đi qua điểm %(H)% cố định (đpcm).",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 9: ",
+        "point": 1.0,
+        "content": "Cho hai số dương %(a, b)% thay đổi thỏa mãn %(a^{3}+b^{3}+6 a b \\leq 8)%. Tìm giá trị nhỏ nhất của biểu thức %(P=\\frac{1}{a^{2}+b^{2}}+\\frac{3+a^{2} b^{2}}{a b} .)%",
+        "question_images": [],
+        "solution": "%(a^{3}+b^{3}+6 a b \\leq 8 \\Leftrightarrow a^{3}+b^{3}+(-2)^{3}-3 a . b \\cdot(-2) \\leq 0 \\quad\\left(^{*}\\right))%<br>Ta có %(x^{3}+y^{3}+z^{3}-3 x y z=\\frac{1}{2}(x+y+z)\\left[(x-y)^{2}+(y-z)^{2}+(z-x)^{2}\\right])%.<br>Khi đó %(\\left({ }^{*}\\right) \\Leftrightarrow(a+b-2)\\left[(a-b)^{2}+(a+2)^{2}+(b+2)^{2}\\right] \\leq 0 \\Leftrightarrow 0\\lt a+b \\leq 2)%.<br>Ta cũng suy ra %(a b \\leq 1)%.<br>Khi đó %(P=\\frac{1}{a^{2}+b^{2}}+\\frac{3+a^{2} b^{2}}{a b}=\\left(\\frac{1}{a^{2}+b^{2}}+\\frac{1}{2 a b}\\right)+\\left(\\frac{1}{a b}+a b\\right)+\\frac{3}{2 a b} \\geq \\ldots \\geq \\frac{9}{2})%.<br>KL Giá trị nhỏ nhất của %(P)% bằng %(\\frac{9}{2})% khi %(a=b=1)%.",
+        "question_type": "essay"
+    }
+]

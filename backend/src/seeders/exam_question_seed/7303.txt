@@ -1,0 +1,112 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho đa thức %(P(x)=x^{3}+2 x^{2}+3 x+4)% có nghiệm thực %(a)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.75,
+        "content": "a) Hỏi, có tồn tại không số thực %(c)% khác %(a)% thỏa mãn %(P(c)=0)% ?",
+        "question_images": [],
+        "solution": "Giả sử tồn tại %(c \\neq a)% sao cho %(P(c)=0)%<br>Mà %(P(a)=0)% nên:<br>\\[\\begin{array}{l}a^{3}+2 a^{2}+3 a+4=c^{3}+2 c^{2}+3 c+4 \\\\Leftrightarrow(a-c)\\left(a^{2}+a c+c^{2}+2 a+2 c+3\\right)=0 \\\\Leftrightarrow(a-c)\\left(a^{2}+a c+\\frac{c^{2}}{4}+2 a+c+1+\\frac{3 c^{2}}{4}+c+2\\right)=0 \\\\Leftrightarrow(a-c)\\left[\\left(a+\\frac{c}{2}+1\\right)^{2}+\\frac{c^{2}+4 c+4+2 c^{2}+4}{4}\\right]=0\\end{array}\\]<br>%(\\Leftrightarrow a=c)% (vô lý).<br>Suy ra không tồn tại %(c)% thỏa mãn bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) Xét đa thức %(Q(x)=x^{3}-5 x^{2}+10 x-10)% có nghiệm thực %(b)%.<br>Chứng minh rằng %(a+b=1)%<br>(Học sinh không cần chứng minh hai đa thức %(P(x))% và %(Q(x))% có nghiệm thực trong bài làm. Tuy nhiên sẽ có điểm thưởng cho bạn nào chứng minh được điều này)",
+        "question_images": [],
+        "solution": "Theo giả thiết:<br>Có %(x=a)% là nghiệm của<br>%(P(x)=x^{3}+2 x^{2}+3 x+4 \\Rightarrow a^{3}+2 a^{2}+3 a+4=0)%<br>Có %(x=b)% là nghiệm của<br>%(Q(x)=x^{3}-5 x^{2}+10 x-10 \\Rightarrow b^{3}-5 b^{2}+10 b-10=0)%<br>\\[\\begin{array}{l}\\Rightarrow-b^{3}+5 b^{2}-10 b+10=0 \\a^{3}+2 a^{2}+3 a+4=-b^{3}+5 b^{2}-10 b+10 \\\\Leftrightarrow a^{3}+2 a^{2}+3 a=-b^{3}+3 b^{2}-3 b+1+2 b^{2}-4 b+2+3-3 b \\\\Leftrightarrow a^{3}+2 a^{2}+3 a=(1-b)^{3}+2(1-b)^{2}+3(1-b) \\\\Leftrightarrow a^{3}+2 a^{2}+3 a+4=(1-b)^{3}+2(1-b)^{2}+3(1-b)+4=0\\end{array}\\]<br>Suy ra %(x=a, x=1-b)% là hai nghiệm của %(P(x))% và %(a+b=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tồn tại không các số thực dương %(a, b, c)% thỏa mãn %(a^{2}+b^{2}+c^{2}+2 a b c=1)% và<br>\\[(a+b c)\\left[1-\\sqrt{\\left(1-b^{2}\\right)\\left(1-c^{2}\\right)}\\right]\\gt \\frac{1}{4} ?\\]",
+        "question_images": [],
+        "solution": "Ta xem %(a^{2}+2 a b c+b^{2}+c^{2}-1=0(1))% là phương trình bậc hai với ẩn là %(a)%.<br>Giả sử phương trình (1) có nghiệm %(a\\gt 0)%.<br>Ta có %(\\Delta^{\\prime}=b^{2} c^{2}-b^{2}-c^{2}+1=\\left(1-b^{2}\\right)\\left(1-c^{2}\\right) \\geq 0)%%((1) \\Leftrightarrow a=-b c+\\sqrt{\\left(1-b^{2}\\right)\\left(1-c^{2}\\right)} \\Leftrightarrow a+b c=\\sqrt{\\left(1-b^{2}\\right)\\left(1-c^{2}\\right)})%<br>Có %((a+b c)\\left[1-\\sqrt{\\left(1-b^{2}\\right)\\left(1-c^{2}\\right)}\\right]>\\frac{1}{4}(2))%.<br>Đặt %(x=\\sqrt{\\left(1-b^{2}\\right)\\left(1-c^{2}\\right)}, x \\geq 0)%.<br>(2) trở thành: %(x(1-x)>\\frac{1}{4} \\Leftrightarrow x^{2}-x+\\frac{1}{4}\\lt 0 \\Leftrightarrow\\left(x-\\frac{1}{2}\\right)^{2}\\lt 0)% (vô lý).<br>Vậy không tồn tại các số thực dương %(a, b, c)% thỏa mãn %(a^{2}+b^{2}+c^{2}+2 a b c=1)% và thỏa %((a+b c)\\left[1-\\sqrt{\\left(1-b^{2}\\right)\\left(1-c^{2}\\right)}\\right]>\\frac{1}{4})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 0.5,
+        "content": "Cho số nguyên dương %(n)% thỏa mãn %(\\frac{n^{2}-1}{3})% là tích của hai số nguyên dương liên tiếp.<br>Chứng minh rằng %(n)% chia 3 dư 1 và %(\\frac{2 n+1}{3})% là một số chính phương.",
+        "question_images": [],
+        "solution": "Ta có %(\\frac{n^{2}-1}{3}=k(k+1)\\left(k \\in \\mathbb{N}^{*}\\right) \\Leftrightarrow \\frac{4 n^{2}-1}{3}=4 k^{2}+4 k+1 \\Leftrightarrow \\frac{(2 n+1)(2 n-1)}{3}=(2 k+1)^{2})%<br>TH1: %(2 n-1 \\vdots 3)% vì %(\\left(2 n+1, \\frac{2 n-1}{3}\\right)=1)%<br>\\[\\Rightarrow 2 n+1=p^{2} ; \\frac{2 n-1}{3}=q^{2} \\Rightarrow p^{2}-3 q^{2}=2 \\Rightarrow p^{2} \\equiv 2(\\bmod 3) \\text { ( vô lý) }\\]<br>%(\\mathrm{TH} 2: 2 n+1: 3 \\Rightarrow n \\equiv 1(\\bmod 3))%<br>vì %(\\left(\\frac{2 n+1}{3}, 2 n-1\\right)=1 \\Rightarrow \\frac{2 n+1}{3})% là số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các số nguyên tố %(p, q, r)% thỏa mãn %(\\left(p^{2}+2 p\\right)\\left(q^{2}+2 q\\right)\\left(r^{2}+2 r\\right))% là số chính phương",
+        "question_images": [],
+        "solution": "Theo bài %(p, q, r)% là các số nguyên tố và %(p q r(p+2)(q+2)(r+2))% là số chính phương<br>\\[\\Rightarrow \\operatorname{pqr}(p+2)(q+2)(r+2)=(k p q r)^{2}\\left(k \\in \\mathbb{N}^{*}\\right) \\Rightarrow(p+2)(q+2)(r+2)=k^{2} p q r\\]<br>Ta có %(p q r\\lt (p+2)(q+2)(r+2) \\leq 8 p q r \\Rightarrow 1\\lt k^{2} \\leq 8 \\Rightarrow k=2 \\Rightarrow(p+2)(q+2)(r+2)=4 p q r)%Vậy trong ba số %(p, q, r)% phảo có ít nhất một số bằng 2 không mất tính tổng quát giả sử<br>%(r=2 \\Rightarrow 4(p+2)(q+2)=8 p q \\Leftrightarrow(p+2)(q+2)=2 p q \\Rightarrow p, q)% phải có ít nhất một số bằng 2 giả sử %(q=2)%<br>\\[\\Rightarrow 4(p+2)=4 p \\Leftrightarrow 0=2 \\text { ( vô lý) }\\]<br>Vậy không có bộ số thỏa mãn yêu cầu bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Có tồn tại không một lũy thừa của 2 sao cho khi viết lại các chữ số của nó theo một thứ tự thích hợp ( nhưng chữ số 0 không được viết ở đầu ), ta thu được một lũy thừa khác của 2 ?",
+        "question_images": [],
+        "solution": "Giả sử có hai số %(2^{m}\\gt 2^{n})% thỏa mãn yêu câ̂u bài toán %(\\Rightarrow 1\\lt 2^{m-n} \\leq 9 \\Rightarrow 0\\lt m-n \\leq 3)%Vì hai số %(2^{m} ; 2^{n})% có các chữ số giống nhau<br>\\[\\Rightarrow 2^{m} \\equiv 2^{n}(\\bmod 9) \\Rightarrow 2^{m}-2^{n} \\vdots 9 \\Leftrightarrow 2^{n}\\left(2^{m-n}-1\\right) \\vdots 9 \\Rightarrow 2^{m-n}-1 \\vdots 9\\]<br>Thử lần lượt các giá trị %(m-n=1 ; m-n=2 ; m-n=3)%<br>Ta thấy không thỏa mãn (1).<br>Vậy không có số thỏa mãn.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 0.75,
+        "content": "Cho ba số thực dương %(a, b, c)%.<br>Chứng minh rằng:<br>\\[\\frac{a^{3}+b^{3}+c^{3}}{a b c}+\\frac{81(a b+b c+c a)}{(a+b+c)^{2}} \\geq 30 .\\]",
+        "question_images": [],
+        "solution": "Đặt %(P=\\frac{a^{3}+b^{3}+c^{3}}{a b c}+\\frac{81(a b+b c+c a)}{(a+b+c)^{2}})%.<br>Ta có %(P-30=\\left(\\frac{a^{3}+b^{3}+c^{3}}{a b c}-3\\right)+\\left[\\frac{81(a b+b c+c a)}{(a+b+c)^{2}}-27\\right])%<br>\\[\\begin{array}{l}=\\frac{(a+b+c)\\left(a^{2}+b^{2}+c^{2}-a b-b c-c a\\right)}{a b c}+27 \\cdot \\frac{(a b+b c+c a)-\\left(a^{2}+b^{2}+c^{2}\\right)}{(a+b+c)^{2}} \\\\=\\left[\\left(a^{2}+b^{2}+c^{2}\\right)-(a b+b c+c a)\\right]\\left[\\frac{1}{a b}+\\frac{1}{b c}+\\frac{1}{c a}-\\frac{27}{(a+b+c)^{2}}\\right] \\\\stackrel{C B S}{\\geq}\\left[\\left(a^{2}+b^{2}+c^{2}\\right)-(a b+b c+c a)\\right]\\left[\\frac{9}{a b+b c+c a}-\\frac{9}{a b+b c+c a}\\right]=0\\end{array}\\]<br>(Do %(a^{2}+b^{2}+c^{2} \\geq a b+b c+c a)% và %(\\left.(a+b+c)^{2} \\geq 3(a b+b c+c a), \\forall a, b, c\\right))%.<br>Do đó %(P \\geq 30)%. Dấu \" %(=)% \" xảy ra khi và chỉ khi %(a=b=c)%.<br>Vậy ta có đpcm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 0.75,
+        "content": "Xét các số thực %(a, b, c)% thay đổi. Tìm giá trị lớn nhất của biểu thức<br>\\[P=\\frac{a+b+c-2}{\\left(a^{2}-a+1\\right)\\left(b^{2}-b+1\\right)\\left(c^{2}-c+1\\right)} .\\]",
+        "question_images": [],
+        "solution": "Ta có %(a^{2}-a+1=\\left(a-\\frac{1}{2}\\right)^{2}+\\frac{3}{4}\\gt 0, \\forall a)%.<br>Tương tự %(b^{2}-b+1>0, \\forall b ; c^{2}-c+1>0, \\forall c)%.<br>Do đó nếu %(a+b+c\\lt 2)% thì %(P\\lt 0)% (1).<br>Ta xét trường hợp %(a+b+c \\geq 2)%<br>\\[\\begin{array}{l}P=\\frac{a+b+c-2}{\\left[\\left(a-\\frac{1}{2}\\right)^{2}+\\frac{3}{4}\\right]\\left[\\left(b-\\frac{1}{2}\\right)^{2}+\\frac{3}{4}\\right]\\left[\\left(c-\\frac{1}{2}\\right)^{2}+\\frac{3}{4}\\right]} \\\\=\\frac{a+b+c-2}{\\frac{1}{64}\\left[4\\left(a-\\frac{1}{2}\\right)^{2}+3\\right]\\left[4\\left(b-\\frac{1}{2}\\right)^{2}+3\\right]\\left[4\\left(c-\\frac{1}{2}\\right)^{2}+3\\right]}\\end{array}\\]<br>Ta chứng minh bổ đề %(\\left.\\left(x^{2}+3\\right)\\left(y^{2}+3\\right)\\left(z^{2}+3\\right) \\geq 4(x+y+z+1)^{2}, \\forall x, y, z \\quad{ }^{*}\\right))%.Thật vậy %((x+y+z+1)^{2} \\stackrel{B C S}{\\leq}\\left(x^{2}+3\\right)\\left[1+\\frac{(y+z+1)^{2}}{3}\\right])%.<br>Do đó ta cần chứng minh<br>\\[\\begin{array}{l}1+\\frac{(y+z+1)^{2}}{3} \\leq \\frac{\\left(y^{2}+3\\right)\\left(z^{2}+3\\right)}{4} \\\\Leftrightarrow 16+4\\left(y^{2}+z^{2}\\right)+8 y z+8(y+z) \\leq 3 y^{2} z^{2}+9\\left(y^{2}+z^{2}\\right)+27 \\\\Leftrightarrow 3 y^{2} z^{2}+5\\left(y^{2}+z^{2}\\right)-8 y z-8(y+z)+11 \\geq 0 \\\\3(y z-1)^{2}+4(y-1)^{2}+4(z-1)^{2}+(y-z)^{2} \\geq 0 \\text { (luôn đúng). }\\end{array}\\]<br>Như vậy ta có (*) luôn đúng.<br>Áp dụng %(\\left({ }^{*}\\right))% với %(x=2\\left(a-\\frac{1}{2}\\right), y=2\\left(b-\\frac{1}{2}\\right), z=2\\left(c-\\frac{1}{2}\\right))%<br>ta có<br>\\[\\left[4\\left(a-\\frac{1}{2}\\right)^{2}+3\\right]\\left[4\\left(b-\\frac{1}{2}\\right)^{2}+3\\right]\\left[4\\left(c-\\frac{1}{2}\\right)^{2}+3\\right] \\geq 4(2 a+2 b+2 c-2)^{2}\\]<br>\\[\\Rightarrow P \\leq \\frac{a+b+c-2}{\\frac{1}{64} \\cdot 4 \\cdot 4(a+b+c-1)^{2}}=\\frac{4(a+b+c-2)}{(a+b+c-1)^{2}} .\\]<br>Đặt %(t=a+b+c, t \\geq 2)%, khi đó %(P \\leq \\frac{4(t-2)}{(t-1)^{2}})%.<br>Lại có %(\\frac{4(t-2)}{(t-1)^{2}}-1=\\frac{4 t-8-\\left(t^{2}-2 t+1\\right)}{(t-1)^{2}}=\\frac{-\\left(t^{2}-6 t+9\\right)}{(t-1)^{2}}=\\frac{-(t-3)^{2}}{(t-1)^{2}} \\leq 0, \\forall t \\geq 2)%.<br>\\[\\Rightarrow \\frac{4(t-2)}{(t-1)^{2}} \\leq 1, \\forall t \\geq 2\\]<br>Từ (1) và (2) suy ra %(P \\leq 1)%. Dấu \" %(=)% \" xảy ra khi và chỉ khi %(a=b=c=1)%.<br>Vậy GTLN của %(\\mathrm{P})% là 1 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho tam giác %(A B C)% vuông tại %(A(A B\\lt A C))%, có đường cao %(A H(H \\in B C))%. Gọi %(D)% là trung điểm của đoạn %(A C, N)% là trung điểm của đoạn %(A D)% và %(I)% là hình chiếu vuông góc của điểm %(H)% trên đường thẳng %(A B)%. Các đường thẳng %(H N)% và %(I D)% cắt nhau tại điểm %(P)%. Gọi %(K)% là giao điểm của hai đường thẳng %(A P)% và %(H I)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng hai đường thẳng %(A K)% và %(B D)% vuông góc với nhau.",
+        "question_images": [],
+        "solution": "Có %(H K / / A C)% (do cùng vuông góc %(A B)% ).<br>\\[\\begin{array}{l}\\Rightarrow \\frac{H I}{N D}=\\frac{H P}{P N} \\text { và } \\frac{H K}{A N}=\\frac{H P}{P N} \\text {, mà } A N=N D \\text {. } \\\\Rightarrow H I=H K\\end{array}\\]<br>Ta có %(\\triangle H I A \\square \\triangle B A C)%<br>\\[\\begin{array}{l}\\Rightarrow \\frac{H I}{I A}=\\frac{A B}{A C} \\Rightarrow \\frac{K I}{2 I A}=\\frac{H I}{I A}=\\frac{A B}{A C}=\\frac{A B}{2 A D} \\\\Rightarrow \\frac{I K}{I A}=\\frac{A B}{A D}\\end{array}\\]<br>hay %(\\triangle K I A \\square \\triangle B A D)%<br>\\[\\begin{array}{l}\\Rightarrow \\widehat{A K I}=\\widehat{D B A} \\text {, có } \\widehat{D B A}+\\widehat{A D B}=90^{\\circ}, \\widehat{A D B}=\\widehat{D G K} \\text { (so le). } \\\\Rightarrow \\widehat{A K I}+\\widehat{D G K}=90^{\\circ} . \\\\Rightarrow B D \\perp A K .\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f6eb4cf742aa31d2a4676f37981f77e1.png\" srcset=\"https://docdn.giainhanh.io/media/test/ba43e9cea12e0405426bb7ef27f089c4.png 185w, https://docdn.giainhanh.io/media/test/3acdb88ce48565f07745658813598995.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Gọi %(G)% là giao điểm của hai đường thẳng %(B D)% và %(I H)%. Trên đoạn %(A G)% lấy điểm %(E)% sao cho %(B E=B H)%. Chứng minh rằng %(\\widehat{B E K}=90^{\\circ})%.",
+        "question_images": [],
+        "solution": "Gọi %(T)% là giao điểm của %(K I)% và %(B E)%.%(\\triangle A B K)% có hai đường cao %(K I, B D)% cắt nhau tại %(G)%.%(\\Rightarrow G)% là trực tâm %(\\triangle B A K)% nên %(A G \\perp B K)%.<br>Có %(B E^{2}=B H^{2}=B I \\cdot B A \\Rightarrow \\frac{B E}{B I}=\\frac{B A}{B E})%.<br>%(\\Rightarrow \\triangle B E I \\square \\triangle B A E)%.%(\\Rightarrow \\widehat{I E B}=\\widehat{E A B})%, có %(\\widehat{E A B}=\\widehat{B K I})% (hai góc nhọn có cạnh tương ứng vuông góc).<br>%(\\Rightarrow \\widehat{I E B}=\\widehat{B K I})%.%(\\Rightarrow \\triangle I E T \\square \\Delta B K T)% (g.g)<br>%(\\Rightarrow \\frac{I T}{B T}=\\frac{E T}{K T})%.<br>%(\\Rightarrow \\triangle K T E \\square \\triangle B T I)%.<br>%(\\Rightarrow \\widehat{K E T}=\\widehat{B I T}=90^{\\circ})% hay %(\\widehat{B E K}=90^{\\circ})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Gọi %(F)% là điểm đối xứng với điểm %(E)% qua điểm %(A)%. Qua điểm %(E)%, kẻ đường thẳng song song với đường thẳng %(B K)% tại điểm %(L)%. Gọi %(M)% là trung điểm của đoạn %(E K)%. Các đường thẳng %(M L)% và %(A G)% cắt nhau tại điểm %(O)%. Chứng minh rằng hai đường thẳng %(B O)% và %(F L)% vuông góc với nhau.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Có } \\widehat{K E L}=\\widehat{E K I}=\\widehat{E B A} \\text { (do } \\triangle I B T \\backsim \\triangle E K T \\text { ). } \\\\ \\text { Có } \\widehat{E L K}=\\widehat{B A E} \\text { (hai góc nhọn có cạnh tương ứng vuông góc) } \\\\ \\Rightarrow \\triangle L E K \\square \\triangle A B E \\text { (g.g). } \\\\ \\Rightarrow \\frac{E K}{B E}=\\frac{L E}{A B}=\\frac{L K}{A E} \\text {, có } B E=2 Q E, E K=2 M K . \\\\ \\Rightarrow \\frac{M K}{Q E}=\\frac{L K}{A E} . \\\\ \\Rightarrow \\triangle M L K \\square \\triangle Q A E \\text { (c.g.c). }\\end{array})%<br>\\[\\begin{array}{l}\\Rightarrow \\widehat{M L K}=\\widehat{Q A E}, \\widehat{Q A E}=\\widehat{B F E} \\text { (đồng vị) } \\Rightarrow \\widehat{M L K}=\\widehat{B F E} . \\\\Rightarrow \\triangle B F X \\square \\triangle B L Y \\text { (g.g). } \\\\Rightarrow \\widehat{B Y L}=\\widehat{F X B}=90^{\\circ} .\\end{array}\\]<br>%(\\triangle B L F)% có hai đường cao %(F X)% và %(L K)% cắt nhau tại %(O)%.<br>%(\\Rightarrow O)% là trực tâm %(\\triangle B L F)%.<br>\\[\\Rightarrow B O \\perp L F \\text {. }\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 0.5,
+        "content": "Cho bảng ô vuông %(18 x 18)%. Người ta điền các số nguyên dương từ 1 đến 324 vào mỗi ô vuông của bảng, mỗi ô một số và không có hai ô nào điền số giống nhau. Ở mỗi hàng, người ta chọn ra số lớn thứ tư được điền vào ô vuông của hàng đó. Gọi %(S)% là tổng của 18 số được chọn ra. Chứng minh rằng tồn tại một hàng nào đó có tổng tất cả các số được điền vào các ô vuông của hàng đó nhỏ hơn %(S)%.",
+        "question_images": [],
+        "solution": "Ta gọi %(b_{i}(1 \\leq i \\leq 18))% là số hạng lớn thứ tư trong mỗi hàng thứ %(i)%.<br>Không mất tính tổng quát giả sử%(b_{1}\\lt b_{2}\\lt b_{3}\\lt \\ldots .\\lt b_{18})%.<br>Ta có nhận xét :%(b_{1} \\geq 15)% ( vì %(b_{1})% lớn hơn 14 số trong hàng đó)%(b_{2} \\geq 30)% ( vì %(b_{2})% ló́n hơn 14 số trong hàng đó và lớn hơn 15 số trong hàng có %(b_{1})% )<br>Tương tự như vậy ta có %(b_{i} \\geq 15 . i \\Rightarrow b_{16}+b_{17}+b_{18} \\geq 15 .(16+17+18)=765)%.<br>Gọi %(a_{j}(1 \\leq j \\leq 18))% là các số trong hàng chứa %(b_{1})%.<br>Không mất tính tổng quát giả sử %(a_{1}\\lt a_{2} \\ldots . .\\lt a_{18})%<br>Ta có : %(a_{16}+a_{17}+a_{18} \\leq 322+323+324=969 ; \\quad b_{1}=a_{15} \\Rightarrow b_{1}-a_{1} \\geq 14)%%(a_{2}\\lt a_{3}\\lt \\ldots\\lt a_{15}\\lt b_{2} \\Rightarrow b_{2}-a_{2} \\geq 14)% ( giũa hai giá trị %(a_{2})% và %(b_{2})% có ít nhất 13 giá trị)<br>Tương tự như vậy ta có %(b_{i}-a_{i} \\geq 14(i \\in \\mathbb{N} ; 1 \\leq i \\leq 15))%.<br>Xét hiệu %(\\sum_{i=1}^{18}\\left(b_{i}-a_{i}\\right)=\\left(b_{1}-a_{1}\\right)+\\ldots+\\left(b_{15}-a_{15}\\right)+\\left(b_{16}+b_{17}+b_{18}\\right)-\\left(a_{16}+a_{17}+a_{18}\\right))%%(\\Rightarrow \\sum_{i=1}^{18}\\left(b_{i}-a_{i}\\right) \\geq 14.15+765-969=6\\gt 0)%.<br>Vậy có ít nhất một hàng có tổng nhỏ hơn %(S)%.",
+        "question_type": "essay"
+    }
+]

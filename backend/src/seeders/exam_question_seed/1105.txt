@@ -1,0 +1,110 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Tìm tất cả các giá trị của tham số %(m)% để phương trình %(x^{2}-2(m-1) x+m^{2}-2 m-8=0)% có hai nghiệm phân biệt %(x_{1}, x_{2})% thỏa mãn %(x_{1}+6=\\sqrt{x_{2}})%.",
+        "question_images": [],
+        "solution": "Phương trình (1) có %(x_{1} + 6 = \\sqrt{x_{2}})% với mọi %(\\Delta_{m} = 15^{2} - 4.1 . 68 = - 47 \\lt 0)% suy ra phương trình (1) có hai nghiệm: %(x_{1} + 6 = \\sqrt{x_{2}})% và %(m + 2)%.<br>Xét hai trường hợp:<br>Truờng hơp 1: %(x_{1} = m - 4 ; x_{2} = m + 2)% để %(m \\in \\left\\lbrace - 2 ; - 1 \\right \\rbrace)% thì<br>%(\\left . \\begin{matrix} m + 2 + 6 = \\sqrt{m - 4} \\left( d k : m \\ge 4 \\right ) \\\\ \\Rightarrow m + 8 = \\sqrt{m - 4} \\\\ \\Leftrightarrow m^{2} + 16 m + 64 = m - 4 \\\\ \\Leftrightarrow m^{2} + 15 m + 68 = 0 \\end{matrix} \\right .)%<br>Phương trình (2) có %(m \\Rightarrow \\sqrt{\\Delta} = \\sqrt{9} = 3)% suy ra phương trình(2) vô nghiệm<br>Trường hợp 2: %(\\Delta = \\left[ - \\left( m - 1 \\right ) \\right ]^{2} - 1 . \\left( m^{2} - 2 m - 8 \\right ) = m^{2} - 2 m + 1 - m^{2} + 2 m + 8 = 9 \\gt 0)%<br>để %(m - 4)% thì<br>%(\\left. \\left[ m - 4 + 6 = \\sqrt{m + 2} \\left( d k : m \\ge - 2 \\right ) \\right ] , \\left[ \\Leftrightarrow m + 2 = \\sqrt{m + 2} \\right ] , \\left[ \\Leftrightarrow \\sqrt{m + 2} \\left( \\sqrt{m + 2} - 1 \\right ) = 0 \\right ] , \\left[ \\Leftrightarrow \\left[ \\left[ m + 2 = 0 \\right ] , \\left[ m + 2 = 1 \\right ] \\Leftrightarrow \\left[ \\left[ m = - 2 \\right ] , \\left[ m = - 1 \\right ] \\left( t m \\right ) \\right . \\right ] \\right . \\right.)%<br>Vậy %(x_{1} = m + 2 ; x_{2} = m - 4)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Cho %(f(x)=\\sqrt{1+\\frac{1}{x^{2}}+\\frac{1}{(x+1)^{2}}})% với %(x \\neq 0, x \\neq-1)%. Tính %(f(1)+f(2)+f(3)+\\cdots+f(2023))%.",
+        "question_images": [],
+        "solution": "Với %(a \\neq 0 ; a \\neq 1)% ta có:<br>\\[\\begin{array}{l}\\left(1+\\frac{1}{a}+\\frac{1}{a+1}\\right)^{2}=1+\\frac{1}{a^{2}}+\\frac{1}{(a+1)^{2}}+\\frac{2}{a}-\\frac{2}{a+1}-\\frac{2}{a(a+1)} \\\\=1+\\frac{1}{a^{2}}+\\frac{1}{(a+1)^{2}}+\\frac{2(a+1-a-1)}{a(a+1)}=1+\\frac{1}{a^{2}}+\\frac{1}{(a+1)^{2}} \\\\Rightarrow \\sqrt{1+\\frac{1}{a^{2}}+\\frac{1}{(a+1)^{2}}}=1+\\frac{1}{a}+\\frac{1}{a+1}\\end{array}\\]<br>Áp dụng (*) ta có:<br>%(\\begin{array}{l}\\quad f(1)+f(2)+f(3)+\\cdots+f(2023) \\\\ =\\sqrt{1+\\frac{1}{1^{2}}+\\frac{1}{(1+1)^{2}}}+\\sqrt{1+\\frac{1}{2^{2}}+\\frac{1}{(2+1)^{2}}}+\\sqrt{1+\\frac{1}{3^{2}}+\\frac{1}{(3+1)^{2}}}+\\cdots+\\sqrt{1+\\frac{1}{2023^{2}}+\\frac{1}{(2023+1)^{2}}} \\\\ =\\sqrt{1+\\frac{1}{1^{2}}+\\frac{1}{2^{2}}}+\\sqrt{1+\\frac{1}{2^{2}}+\\frac{1}{3^{2}}}+\\sqrt{1+\\frac{1}{3^{2}}+\\frac{1}{4^{2}}}+\\cdots+\\sqrt{1+\\frac{1}{2023^{2}}+\\frac{1}{2024^{2}}} \\\\ =\\left(1+\\frac{1}{1}-\\frac{1}{2}\\right)+\\left(1+\\frac{1}{2}-\\frac{1}{3}\\right)+\\left(1+\\frac{1}{3}-\\frac{1}{4}\\right)+\\cdots+\\left(1+\\frac{1}{2023}-\\frac{1}{2024}\\right) \\\\ =2024-\\frac{1}{2024}=\\frac{4096575}{2024}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2:",
+        "group_content": "",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Cho các số nguyên %(a, b, c, d)% thỏa mãn điều kiện %(a^{3}+b^{3}-8 c^{3}+28 d^{3}=0)%. Chứng minh rằng %((a+b+c+d)^{2})% chia hết cho 9 .",
+        "question_images": [],
+        "solution": "Ta có<br>\\[\\begin{array}{l}a^{3}+b^{3}-8 c^{3}+28 d^{3}=0 \\Rightarrow a^{3}+b^{3}+c^{3}+d^{3} \\vdots 3 \\\\Rightarrow(a+b)^{3}-3 a b(a+b)+(c+d)^{3}-3 c d(c+d) \\vdots 3 \\\\Rightarrow(a+b)^{3}+(c+d)^{3} \\vdots 3 \\\\Rightarrow(a+b+c+d)^{3}-3(a+b)(c+d)(a+b+c+d) \\vdots 3 \\\\Rightarrow(a+b+c+d)^{3} \\vdots 3 \\\\Rightarrow a+b+c+d \\vdots 3 \\\\Rightarrow(a+b+c+d)^{2} \\vdots 9 \\text { (dpcm) }\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Chứng minh rằng tồn tại đa thức %(P(x))% có hệ số thực, bậc 2024 thỏa mãn điều kiện %(P\\left(x^{2}-2\\right))% chia hết cho %(P(x))%.",
+        "question_images": [],
+        "solution": "Xét đa thức %(P(x)=a(x+1)^{1012}(x-2)^{1012})%, với %(a \\in \\mathbb{R})%, đa thức %(P(x))% có bậc là 2024<br>Ta có:<br>\\[\\begin{array}{l}P\\left(x^{2}-2\\right)=a \\cdot\\left(x^{2}-1\\right)^{1012}\\left(x^{2}-4\\right)^{1012}=a(x+1)^{1012}(x-2)^{1012}(x-a)^{1012}(x+2)^{1012} \\\\=P(x)(x-1)^{1012}(x+2)^{1012}\\end{array}\\]<br>%(\\Rightarrow P\\left(x^{2}-2\\right))% chia hết cho đa thức %(P(x))%<br>Vậy tồn tại đa thức %(P(x)=a(x+1)^{1012}(x-2)^{1012})% với hệ số thức, có bậc 2024 thỏa mãn đã thức %(P\\left(x^{2}-2\\right))% chia hết cho đa thức %(P(x))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3:",
+        "group_content": "",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}2\\left(x+\\sqrt{x^{2}-x+1}=1-y+\\sqrt{y^{2}+3}\\right. \\\\ y^{2}-2(x-2)=3 \\sqrt{(y+1)\\left(y^{2}+2 x\\right)}\\end{array} \\quad(x, y \\in \\mathbb{R})\\right.)%.",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{c}2\\left(x+\\sqrt{x^{2}-x+1}\\right)=1-y+\\sqrt{y^{2}+3} (1)\\\\ y^{2}-2(x-2)=3 \\sqrt{(y+1)\\left(y^{2}+2 x\\right)(2)}\\end{array}\\right.)%<br>Từ phương trình (1)<br>\\[\\Rightarrow(2 x+y-1)=\\sqrt{y^{2}+3}-2 \\sqrt{x^{2}-x+1}\\]<br>%(\\begin{array}{l}\\Leftrightarrow(2 x+y-1)=\\left[y^{2}+3-4\\left(x^{2}-x+1\\right)\\right] \\cdot \\frac{1}{\\sqrt{y^{2}+3}+2 \\sqrt{x^{2}-x+1}} \\\\ \\Leftrightarrow(2 x+y-1)=\\left[y^{2}+3-4\\left(x^{2}-x+1\\right)\\right] \\cdot \\frac{1}{\\sqrt{y^{2}+3}+2 \\sqrt{x^{2}-x+1}} \\\\ \\Leftrightarrow(2 x+y-1)=\\left[y^{2}-(2 x-1)^{2}\\right] \\cdot \\frac{1}{\\sqrt{y^{2}+3}+2 \\sqrt{x^{2}-x+1}} \\\\ \\Leftrightarrow(2 x+y-1)=(y-2 x+1) \\cdot(y+2 x-1) \\cdot \\frac{1}{\\sqrt{y^{2}+3}+2 \\sqrt{x^{2}-x+1}} \\\\ \\Leftrightarrow(2 x+y-1)\\left[\\frac{y-2 x+1}{\\sqrt{y^{2}+3}+2 \\sqrt{x^{2}-x+1}}-1\\right]=0 \\Leftrightarrow\\left[\\begin{array}{c}2 x+y-1=0 \\\\ y-2 x+1=\\sqrt{y^{2}+3}+2 \\sqrt{x^{2}-x+1}\\end{array}\\right.\\end{array})%<br>+) Truờng hơp 1: %(2 x+y-1=0 \\Rightarrow 2 x=-y+1)% thay vào phương trình (2) ta được(2) %(\\Leftrightarrow y^{2}-1+y+4=3 \\sqrt{\\left(y+1\\left(y^{2}-y+1\\right)\\right.} \\Leftrightarrow y^{2}-y+1+2 y+2=3 \\sqrt{(y+1)\\left(y^{2}-y+1\\right)})%Đặt %(a=y+1 ; b=y^{2}-y+1 \\Rightarrow 2 a^{2}-3 a b+b^{2}=0 \\Leftrightarrow(a-b)(2 a-b)=0)%<br>Với %(a=b \\Rightarrow y+1=y^{2}-y+1 \\Leftrightarrow y^{2}-2 y=0 \\Leftrightarrow\\left[\\begin{array}{c}y=0 \\Rightarrow x=\\frac{1}{2} \\\\ y=2 \\Rightarrow x=-\\frac{1}{2}\\end{array}\\right.)%<br>Với %(2 a=b \\Rightarrow 2 y+2=y^{2}-y+1 \\Leftrightarrow y^{2}-3 y-1=0 \\Leftrightarrow\\left[\\begin{array}{l}y=\\frac{\\sqrt{13}+3}{2} \\Rightarrow x=\\frac{-\\sqrt{13}-1}{4} \\\\ y=\\frac{-\\sqrt{13}+3}{2} \\Rightarrow x=\\frac{\\sqrt{13}-5}{4}\\end{array}\\right.)%<br>+) Trường hơp 2: %(y-2 x+1=\\sqrt{y^{2}+3}+2 \\sqrt{x^{2}-x+1})%<br>ĐK %(y-2 x+1 \\geq 0)%<br>Bình phương hai vế ta được<br>\\[\\begin{array}{l}(y-2 x+1)^{2}=y^{2}+3=4\\left(x^{2}-x+1\\right)+4 \\sqrt{\\left(y^{2}+3\\right)\\left(x^{2}-x+1\\right)} \\\\Leftrightarrow y^{2}+4 x^{2}+1-4 x y-4 x+2 y=y^{2}+4 x^{2}-4 x+7+4 \\sqrt{\\left(y^{2}+3\\right)\\left(x^{2}-x+1\\right)}\\end{array}\\]<br>\\[\\Leftrightarrow-4 x+2 y-6=4 \\sqrt{\\left(y^{2}+3\\right)\\left(x^{2}-x+1\\right)}\\]<br>Điều kiện: %(y \\geq 2 x+3)%<br>Bình phương hai vế của (3) ta được<br>\\[\\begin{array}{l}\\left(-2 x^{2}+y-3\\right)^{2}=4\\left(y^{2}+3\\right)\\left(x^{2}-x+1\\right) \\\\Leftrightarrow 4 x^{2}+y^{2}+9-4 x y+12 x-6 y=4 x^{2} y^{2}-4 x y^{2}+4 y^{2}+12 x^{2}-12 x+12\\end{array}\\]<br>\\[\\begin{array}{l}\\Leftrightarrow 3\\left(4 x^{2}+y^{2}+1-4 x y-4 x+2 y\\right)=0 \\\\Leftrightarrow(2 x-y-1)^{2}=0 \\\\Leftrightarrow 2 x-y-1=0 \\\\Leftrightarrow 2 x=y+1\\end{array}\\]<br>Kết hợp với điều kiện %(y \\geq 2 x+3)%<br>Ta có %(2 x=y+1 \\geq 2 x+4 \\Leftrightarrow 0 \\geq 4)% (vô lí)<br>Vậy hệ đã cho có 4 nghiệm<br>\\[(x ; y) \\in\\left\\{\\left(\\frac{1}{2} ; 0\\right) ;\\left(\\frac{-1}{2} ; 2\\right) ;\\left(\\frac{-\\sqrt{13}-1}{4} ; \\frac{\\sqrt{13}+3}{2}\\right) ;\\left(\\frac{\\sqrt{13}-5}{4} ; \\frac{-\\sqrt{13}+3}{2}\\right)\\right\\}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Bạn An viết lên trên bảng 11 số nguyên dương (không nhất thiết phân biệt) có tổng bằng 30 . Chứng minh rằng ban An có thế xóa đi một số số sao cho các số còn lai trên bảng có tổng bằng 10 .",
+        "question_images": [],
+        "solution": "Gọi 11 số nguyên dương là %(a_{1}, a_{2}, a_{3}, \\ldots, a_{11})%.<br>Ta có %(a_{1}+a_{2}+a_{3}+\\cdots+a_{11}=30)%Xét dãy 11 số %(a_{1}, a_{1}+a_{2}, a_{1}+a_{2}+a_{3}, \\ldots, a_{1}+a_{2}+a_{3}+\\cdots+a_{11})%<br>Nếu trong dãy không có số nào chia hết cho 10 thì tồn tại ít nhất 2 số chia 10 có cùng số dư.<br>Nên hiệu chia hết cho 10 .<br>Đặt hiệu đó là %(A)%. Với %(A)% là tổng của một số số %(a_{i})% (với %(i \\in\\{1,2,3, \\ldots, 11\\})%<br>Ta có %(0\\lt A\\lt 30)% mà %(A)% : 10 nên %(A \\in\\{10 ; 20\\})%<br>Nếu %(A=10)% bài toán được chứng minh.<br>Nếu %(a=20)% mà %(a_{1}+a_{2}+a_{3}+\\cdots+a_{11}=30)% suy ra các số còn lại có tổng bẳng 10 .<br>Bài toán được chứng minh.Nếu trong dãy số có 1 số chia hết cho 10 .<br>Chứng minh tương tự như trên khi đó bài toán được chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4:",
+        "group_content": "Trên đường tròn tâm O đường kính AB = 2R lấy điểm N sao cho AN = R và M là một điểm thay đổi trên cung nhỏ BN (M khác B và N). Gọi I là giao điểm của AM và BN, H là hình chiếu của I trên AB, IH cắt AN tại C, K là điểm đối xứng với N qua AB.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "<i>Chứng minh CM. CB = CI. CH và ba điểm K, H, M thẳng hàng.</i>",
+        "question_images": [],
+        "solution": "Ta có %(\\widehat{A N B}=\\widehat{A M B}=90^{\\circ})% (Góc nội tiếp chắn nửa đường tròn)<br>%(A M)% cắt %(B N)% tại %(I=\\gt I)% là trực tâm %(C I \\perp A B)%<br>%(\\Rightarrow A I \\perp C B \\Rightarrow B, M, C)% thẳng hàng.<br>Dễ thấy %(\\triangle B C H \\sim \\triangle I C M \\Rightarrow C B . C M=C I . C H)%<br>Dễ thấy %(\\widehat{N H I}=\\widehat{M H I}=\\widehat{M B I}=\\widehat{I A N} \\Rightarrow \\widehat{N H A}=\\widehat{B H M})%<br>Mà %(\\widehat{N H A}=\\widehat{K H A})% tính chất đối xứng%(\\Rightarrow \\widehat{A H K}=\\widehat{B H M})% mà<br>%(\\widehat{B H M}+\\widehat{M H A}=90^{\\circ})%%(\\Rightarrow \\widehat{A H K}+\\widehat{A H M}=180^{\\circ})%<br>Suy %(\\mathrm{ra} K, H, M)% thẳng hàng.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0df6079782669d96f6df7151c271eb37.png\" srcset=\"https://docdn.giainhanh.io/media/test/bf31bb93d0595c260e6823c003259b7c.png 129w, https://docdn.giainhanh.io/media/test/6cb0ea41f9ffb09f3ed7b6a371e35c8e.png 414w\" width=\"414\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "<i>Gọi P là giao điểm thứ hai của NH và (O). Chứng minh tâm đường tròn ngoại tiếp tam giác HPK thuộc đường thẳng cố định khi M thay đổi.</i>",
+        "question_images": [],
+        "solution": "Ta có %(\\widehat{P H K}=2 . \\widehat{P N K})% (góc ngoài %(\\triangle H N K)% cân)<br>%(\\widehat{K O P}=2 \\widehat{K N P})% góc nội tiếp<br>%(\\Rightarrow)% Tứ giác %(K O H P)% nội tiếp vì %(N)% cố định suy ra %(O K)% cố định.<br>Vậy tâm đường tròn ngoại tiếp tam giác %(K H P)% thuộc trung trực %(O K)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "<i>Xác định vị trí của điểm M để tổng MB + MN đạt giá trị lớn nhất.</i>",
+        "question_images": [],
+        "solution": "Ta có %(\\widehat{N M B}=120^{\\circ})%.<br>Trên tia đối %(M N)% lấy %(Q)% sao cho %(M B=M Q \\Rightarrow \\widehat{N Q B}=60^{\\circ})%%(N B)% cố định<br>%(\\Rightarrow Q)% thuộc cung chứa góc %(60^{\\circ})% dựng trên %(N B \\Rightarrow M N+M B)% lớn nhất khi %(N Q)% là đường kính của đường tròn<br>\\[M B=M Q=M N \\Rightarrow M \\equiv M 1, Q \\equiv Q 1\\]<br>Vậy %(\\mathrm{M})% là trung điểm cung %(N B \\Rightarrow M N+M B)% lớn nhất %(M N+N B=2 R)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 1.0,
+        "content": "Xét các số thực dương %(a, b, c)%; Tìm giá trị nhỏ nhất của biểu thức<br>\\[F=\\frac{a}{\\sqrt{a^{2}+9 b c}}+\\frac{b}{\\sqrt{b^{2}+9 a c}}+\\frac{c}{\\sqrt{c^{2}+9 a b}} .\\]",
+        "question_images": [],
+        "solution": "Ta có %(\\left(a \\sqrt{a^{2}+9 b c}+b \\sqrt{b^{2}+9 a c}+c \\sqrt{c^{2}+9 a b}\\right) \\cdot F \\geq(a+b+c)^{2})%<br>Đặt %(Q=a \\sqrt{a^{2}+9 b c}+b \\sqrt{b^{2}+9 a c}+c \\sqrt{c^{2}+9 a b})%<br>\\[Q^{2}=\\left[\\sqrt{a} \\sqrt{a^{3}+9 a c}+\\sqrt{b} \\sqrt{b^{3}+9 a c}+\\sqrt{c} \\sqrt{c^{3}+9 a b}\\right]^{2} \\leq(a+b+c)\\left(a^{3}+b^{3}+c^{3}+27 a b c\\right)\\]<br>Ta lại có<br>%(a^{3}+b^{3}+c^{3}=(a+b+c)^{3}-3(a+b)(b+c)(c+a) \\leq(a+b+c)^{3}-24 a b c)%<br>\\[\\begin{array}{l}\\Rightarrow(a+b+c)\\left(a^{3}+b^{3}+c^{3}+27 a b c\\right) \\leq(a+b+c)\\left[(a+b+c)^{3}+3 a b c\\right] \\text { mà } 3 a b c \\leq \\frac{(a+b+c)^{3}}{9} \\\\Rightarrow(a+b+c)\\left(a^{3}+b^{3}+c^{3}+27 a b c\\right) \\leq \\frac{10(a+b+c)^{4}}{9} \\\\Rightarrow Q \\leq \\frac{\\sqrt{10}(a+b+c)^{2}}{3} \\text { mà }\\left(a \\sqrt{a^{2}+9 b c}+b \\sqrt{b^{2}+9 a c}+c \\sqrt{c^{2}+9 a b}\\right) \\cdot F \\geq(a+b+c)^{2}\\end{array}\\]<br>Suy %(\\operatorname{ra} F \\geq \\frac{3 \\sqrt{10}}{10})%.<br>Vậy %(\\min F=\\frac{3 \\sqrt{10}}{10})%.<br>Dấu \"=\" xåy ra %(\\Leftrightarrow a=b=c)%",
+        "question_type": "essay"
+    }
+]

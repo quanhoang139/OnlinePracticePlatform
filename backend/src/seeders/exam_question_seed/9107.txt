@@ -1,0 +1,81 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 2.0,
+        "content": "Cho các số nguyên %(a_{1}, a_{2}, a_{3}, \\ldots, a_{n})%. Đặt %(S=a_{1}^{3}+a_{2}^{3}+\\ldots+a_{n}^{3})%.và %(P=a_{1}+a_{2}+\\ldots+a_{n})%. Chứng minh rằng: %(S)% chia hết cho 6 khi và chỉ khi %(P)% chia hết cho 6 .",
+        "question_images": [],
+        "solution": "Với %(a \\in Z)% thì %(a^{3}-a=(a-1) a(a+1))% là tích 3 số tự nhiên liên tiếp nên chia hết cho 2 và 3.<br>Mà %((2 ; 3)=1 \\Rightarrow a^{3}-a \\vdots 6 \\Rightarrow S-P=\\left(a_{1}^{2}-a_{1}\\right)+\\left(a_{2}^{3}-a_{2}\\right)+\\ldots+\\left(a_{n}^{3}-a_{n}\\right) \\vdots 6)%<br>Vậy %(S: 6 \\Leftrightarrow P: 6)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Cho %(A=n^{6}-n^{4}+2 n^{3}+2 n^{2})% (với %(n \\in N, \\mathrm{n}\\gt 1)% ). Chứng minh %(A)% không phải là số chính phương.",
+        "question_images": [],
+        "solution": "%(n^{6}-n^{4}+2 n^{3}+2 n^{2}=n^{2}(n+1)^{2} \\cdot\\left(n^{2}-2 n+2\\right))% với %(n \\in N, \\mathrm{n}\\gt 1)% thì<br>%(n^{2}-2 n+2=(n-1)^{2}+1\\gt (n-1)^{2})% và %(n^{2}-2 n+2=n^{2}-2(n-1)\\lt n^{2})%<br>Vậy %((n-1)^{2}\\lt n^{2}-2 n+2\\lt n^{2} \\Rightarrow n^{2}-2 n+2)% không là số chính phương %(\\Rightarrow)% đpcm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.25,
+        "content": "Giải phương trình: %(10 \\sqrt{x^{3}+1}=3 x^{2}+6)%",
+        "question_images": [],
+        "solution": "%(10 \\sqrt{x^{3}+1}=3\\left(x^{2}+2\\right))%<br>%(\\Leftrightarrow 10 \\sqrt{(x+1)\\left(x^{2}-x+1\\right)}=3\\left(x^{2}+2\\right))% điều kiện %(x \\geq-1)%<br>Ta có:<br>Đặt %(\\sqrt{x+1}=a \\ (a \\geq 0) ; \\sqrt{x^{2}-x+1}=b(b\\gt 0))%<br>Ta có: %(10 a b=3 a^{2}+3 b^{2} \\Leftrightarrow(a-3 b)(3 a-b)=0 \\Leftrightarrow\\left[\\begin{array}{l}a=3 b \\\\ b=3 a\\end{array}\\right.)%<br>Trường hợp1: %(a=3 b)%<br>Ta có: %(\\sqrt{x+1}=3 \\sqrt{x^{2}-x+1}\\ (1))%<br>%(\\begin{array}{l}\\Leftrightarrow 9 x^{2}-9 x+9=x+1 \\\\ \\Leftrightarrow 9 x^{2}-10 x+8=0\\end{array})%<br>%(\\Delta^{\\prime}=25-9.8\\lt 0 \\Rightarrow)% phương trình %((1))% vô nghiệm.<br>Trường hợp 2: %(b=3 a)%<br>Ta có: %(3 \\sqrt{x+1}=\\sqrt{x^{2}-x+1})%<br>%(\\Leftrightarrow 9(x+1)=x^{2}-x+1)%<br>%(\\Leftrightarrow x^{2}-10 \\mathrm{x}-8=0)% %(\\Leftrightarrow\\left[\\begin{array}{l}x_{1}=5+\\sqrt{33} \\\\ x_{2}=5-\\sqrt{33}\\end{array}\\right.)% (TM)<br>Vậy phương trình có 2 nghiệm %(x=5 \\pm \\sqrt{33})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 2.25,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x+\\frac{1}{y}=3 \\\\ y+\\frac{1}{z}=3 \\\\ z+\\frac{1}{x}=3\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{c}x+\\frac{1}{y}=3\\ (1) \\\\ y+\\frac{1}{z}=3\\ (2) \\\\ z+\\frac{1}{x}=3\\ (3)\\end{array}\\right.)%<br>Từ %((3) \\Rightarrow z=\\frac{3 x-1}{x})% thay vào %((2) \\Rightarrow 3 x y+3=8 x+y)% %((4))%<br>Từ %((1) \\Rightarrow x y+1=3 y \\Leftrightarrow 3 x y+3=9 y)% %((5))%<br>Từ %((4))% và %((5))% %(\\Rightarrow 8 x+y=9 y \\Rightarrow x=y)%<br>Chứng minh tương tự : %(y=z)%<br>Từ đó %(\\Rightarrow x=y=z)%<br>Thay vào %((1) \\Rightarrow x+\\frac{1}{x}=3 \\Rightarrow x^{2}-3 \\mathrm{x}+1=0)%<br>%(\\Rightarrow x=\\frac{3 \\pm \\sqrt{5}}{2})%<br>%(\\Rightarrow)% hệ có 2 nghiệm %(x=y=z=\\frac{3 \\pm \\sqrt{5}}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 2.5,
+        "content": "Cho %(x\\gt 0, y>0, z>0)% và %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=4)%. Chứng minh rằng: %(\\frac{1}{2 x+y+z}+\\frac{1}{x+2 y+z}+\\frac{1}{x+y+2 z} \\leq 1)%",
+        "question_images": [],
+        "solution": "Áp dụng bất đẳng thức %(\\frac{1}{x}+\\frac{1}{y} \\geq \\frac{4}{x+y})% (với %(x, y\\gt 0)% )<br>Ta có: %(\\frac{1}{2 x+y+z} \\leq \\frac{1}{4}\\left(\\frac{1}{2 x}+\\frac{1}{y+z}\\right) ; \\quad \\frac{1}{y+z} \\leq \\frac{1}{4 y}+\\frac{1}{4 z})%<br>Suy ra: %(\\frac{1}{2 x+y+z} \\leq \\frac{1}{4}\\left(\\frac{1}{2 x}+\\frac{1}{4 y}+\\frac{1}{4 z}\\right)\\ (1))%<br>Tương tự: %(\\frac{1}{x+2 y+z} \\leq \\frac{1}{4}\\left(\\frac{1}{4 x}+\\frac{1}{2 y}+\\frac{1}{4 z}\\right))% %((2))%<br>%(\\frac{1}{x+y+2 z} \\leq \\frac{1}{4}\\left(\\frac{1}{4 x}+\\frac{1}{4 y}+\\frac{1}{2 z}\\right))% %((3))%<br>Từ %((1),(2),(3))% %(\\Rightarrow \\frac{1}{2 x+y+z}+\\frac{1}{x+2 y+z}+\\frac{1}{x+y+2 z} \\leq \\frac{1}{4}\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right))%<br>%(\\Rightarrow \\frac{1}{2 x+y+z}+\\frac{1}{x+2 y+z}+\\frac{1}{x+y+2 z} \\leq 1)%<br>Dấu \"=\" xảy ra %(\\Leftrightarrow x=y=z=\\frac{3}{4})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 2.0,
+        "content": "Cho %(x\\gt 0, y>0, z>0)% thỏa mãn %(x^{2011}+y^{2011}+z^{2011}=3)%. Tìm giá trị lớn nhất của biểu thức: %(M=x^{2}+y^{2}+z^{2})%",
+        "question_images": [],
+        "solution": "Áp dụng bất đẳng thức CôSy cho %(x^{2011}, x^{2011})% và 2009 số 1 ta có:<br>%(\\underbrace{x^{2011}+x^{2011}+1+1+\\ldots+1}_{2009 C / S 1} \\geq 2011^{2011} \\sqrt{\\left(x^{2}\\right)^{2011}})%<br>%(\\Rightarrow 2 x^{2011}+2009 \\geq 2011 x^{2})% %((1))%<br>Tương tự: %(2 y^{2011}+2009 \\geq 2011 y^{2})% %((2))%<br>%(2 z^{2011}+2009 \\geq 2011 z^{2})% %((3))%<br>Từ %((1), (2), (3))% %(\\Rightarrow x^{2}+y^{2}+z^{2} \\leq \\frac{2\\left(x^{2011}+y^{2011}+z^{2011}\\right)+3.2009}{2011})%<br>%(\\Rightarrow x^{2}+y^{2}+z^{2} \\leq 3)%<br>Giá trị lớn nhất của %(M)% là 3 khi và chỉ khi %(x=y=z=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7:",
+        "group_content": "Cho tam giác %(A B C)% có ba góc nhọn nội tiếp đường tròn %((O), H)% là trực tâm của tam giác. Gọi %(M)% là một điểm trên cung %(B C)% không chứa điểm %(A)%. ( %(M)% không trùng với %(B)% và %(C)% ). Gọi %(N)% và %(P)% lần lượt là điểm đối xứng của %(M)% qua các đường thẳng %(A B)% và %(A C)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.5,
+        "content": "a) Chứng minh ba điểm %(N, H, P)% thẳng hàng.",
+        "question_images": [],
+        "solution": "Gọi giao điểm của %(B H)% với %(A C)% là %(E, A H)% với %(B C)% là %(F, C H)% với %(A B)% là %(I)%.<br>%(\\Rightarrow H E C F)% là tứ giác nội tiếp.<br>%(\\Rightarrow \\widehat{A H E}=\\widehat{A C B})% %((1))%<br>Mà %(\\widehat{A C B}=\\widehat{A M B})% ( góc nội tiếp cùng chắn một cung)<br>Ta có: %(\\widehat{A M B}=\\widehat{A N B})% (Do %(M, N)% đối xứng %(A B)% ) %((2))%<br>Từ %((1),(2) \\Rightarrow A H B N)% là tứ giác nội tiếp.<br>%(\\Rightarrow \\widehat{N A B}=\\widehat{N H B} \\ \\left({ }^{*}\\right))%<br>Mà %(\\widehat{N A B}=\\widehat{M A B})% (Do %(M, N)% đối xứng %(A B)\\left({ }^{* *}\\right))%<br>Từ %(\\left({ }^{*}\\right),\\left({ }^{* *}\\right) \\Rightarrow \\widehat{N H B}=\\widehat{B A M})%<br>Chứng minh tương tự: %(\\widehat{P H C}=\\widehat{M A C})%<br>%(\\Rightarrow \\widehat{N H B}+\\widehat{P H C}=\\widehat{B A M}+\\widehat{M A C}=\\widehat{B A C})%<br>Mà %(\\widehat{B A C}+\\widehat{I H E}=180^{\\circ})%<br>%(\\Rightarrow \\widehat{N H B}+\\widehat{P H C}+\\widehat{B H C}=180^{\\circ})% ( vì %(\\widehat{I H E}=\\widehat{B H C})% )<br>%(\\Rightarrow N, H, P)% thẳng hàng<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/bddce9014d15f864b3f39a657d41faaa.png\" srcset=\"https://docdn.giainhanh.io/media/test/979ed64f477699ff21456b224a2e968c.png 230w, https://docdn.giainhanh.io/media/test/9fe798bfd146b43c4e1b1eab2280b106.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Khi %(\\widehat{B O C}=120^{\\circ})%, xác định vị trí của điểm %(M)% để %(\\frac{1}{M B}+\\frac{1}{M C})% đạt giá trị nhỏ nhất.",
+        "question_images": [],
+        "solution": "Gọi %(J)% là điểm chính giữa của cung lớn %(B C)%<br>%(\\widehat{B O C}=120^{\\circ} \\Rightarrow \\triangle B J C)% đều<br>Trên đoạn %(J M)% lấy %(K)% sao cho %(M K=M B \\Rightarrow \\triangle J K B=\\triangle C M B)%<br>%(\\Rightarrow B M+M C=J M)%<br>%(\\frac{1}{B M}+\\frac{1}{M C} \\geq \\frac{4}{B M+M C})%<br>%(J M)% lớn nhất %(\\Leftrightarrow J M)% là đường kính %((O))% lúc đó %(M)% là điểm chính giữa của cung nhỏ %(B C)%.<br>Vậy %(\\frac{1}{B M}+\\frac{1}{M C})% nhỏ nhất %(\\Leftrightarrow M)% là điềm chính giữa của cung nhỏ %(B C)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9541699b3680ce370c83b6550b404665.png\" srcset=\"https://docdn.giainhanh.io/media/test/2ae8dc768c354b2132d069e4a2bf6049.png 146w\" width=\"146\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8: ",
+        "point": 2.5,
+        "content": "Cho tam giác %(A B C)% nội tiếp đường tròn tâm %(O)%, một điểm %(I)% chuyển động trên cung %(B C)% không chứa điểm %(A)% ( %(I)% không trùng với %(B)% và %(C)% ). Đường thẳng vuông góc với %(I B)% tại %(I)% cắt đường thẳng %(A C)% tại %(E)%, đường thẳng vuông góc với %(I C)% tại %(I)% cắt đường thẳng %(A B \\mathrm{AB})% tại %(F)%. Chứng minh rằng đường thẳng %(EF)% luôn đi qua một điểm cố định.",
+        "question_images": [],
+        "solution": "+ Khi %(\\widehat{B A C}=90^{\\circ} \\Rightarrow \\widehat{B I C}=90^{\\circ})%.<br>%(\\Rightarrow F)% trùng với %(B, E)% trùng với %(C)% lúc đó %(E F)% là đường kính.<br>%(\\Rightarrow E F)% đi qua điểm %(O)% cố định.<br>+ Khi %(\\widehat{B A C}\\gt 90^{\\circ} \\Rightarrow \\widehat{B I C}>90^{\\circ})%.<br>Gọi %(K)% là điểm đối xứng của %(I)% qua EF .<br>%(\\Rightarrow \\widehat{E \\mathrm{IF}}=\\widehat{E \\mathrm{AF}})% (cùng bù %(\\widehat{B I C})% )<br>%(\\widehat{E K F}=\\widehat{E \\mathrm{IF}})% (Do %(I)% và %(K)% đối xứng qua %(EF)%)<br>%(\\Rightarrow \\widehat{E K F}=\\widehat{E A F})%<br>%(\\Rightarrow A K F \\mathrm{E})% nội tiếp<br>%(\\Rightarrow \\widehat{K A B}=\\widehat{K E F})% (cùng chắn %(\\overparen{K F})% ) %((1))%<br>%(\\widehat{\\mathrm{IEF}}=\\widehat{K E F})% (Do %(I)% và %(K)% đối xứng qua %(EF)%) %((2))%<br>%(\\widehat{\\mathrm{IEF}}=\\widehat{B I K})% ( cùng phụ %(\\widehat{K I E})% ) %((3))%<br>Từ %((1), (2), (3)\\Rightarrow \\widehat{K A B}=\\widehat{B I K})%<br>%(\\Rightarrow A K B I)% là tứ giác nội tiếp<br>%(\\Rightarrow K \\in(O))%<br>Mà %(EF)% là đường trung trực của %(K I \\Rightarrow E, O, F)% thẳng hàng.<br>+ Khi %(\\overparen{B A C}\\gt 90^{\\circ} \\Rightarrow \\widehat{B I C}\\lt 90^{\\circ})% chứng minh tương tự.<br>Vậy đường thẳng %(EF)% luôn đi qua điểm %(O)% cố định.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/97a4460ed877ded3d8ae8cbb24d72493.png\" srcset=\"https://docdn.giainhanh.io/media/test/a1d5028b06d700146a55a710174b55c1.png 151w, https://docdn.giainhanh.io/media/test/22f052b6412ab12ff945b286ec0720c6.png 485w\" width=\"485\"/>",
+        "question_type": "essay"
+    }
+]

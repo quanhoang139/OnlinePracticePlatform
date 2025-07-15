@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Chứng minh rằng nếu một số chính phương có chữ số tận cùng bằng 6 thì chữ số hàng chục là chữ số lẻ",
+        "question_images": [],
+        "solution": "Vì %(M)% là số chẵn chính phương nên %(M: 4)% suy ra %(\\overline{a b 6}: 4)% hay %((\\overline{a 00}+\\overline{b 6}): 4)%<br>Mà %(\\overline{a 00}: 4)% nên %(\\overline{b 6}: 4)%, khi b chẵn thì %(\\overline{b 6})% không chia hết cho 4<br>Suy ra b là số lẻ",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Phân tích đa thức sau thành nhân tử : %(A=x^{3}+9 x^{2}+26 x+24)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}A=x^{3}+9 x^{2}+26 x+24=x^{3}+2 x^{2}+7 x^{2}+14 x+12 x+24 \\\\=x^{2}(x+2)+7 x(x+2)+12(x+2)=(x+2)\\left(x^{2}+7 x+12\\right) \\\\=(x+2)\\left[\\left(x^{2}+3 x\\right)+(4 x+12)\\right]=(x+2)[x(x+3)+4(x+3)] \\\\=(x+2)(x+3)(x+4)\\end{array}\\]<br>Vậy %(A=(x+2)(x+3)(x+4))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.5,
+        "content": "Chứng minh rằng biểu thức %(A=75\\left(4^{2017}+4^{2016}+\\ldots . .+4^{2}+5\\right)+25)% chia hết cho %(4^{2018})%",
+        "question_images": [],
+        "solution": "Đặt %(4^{2017}+4^{2016}+\\ldots . .+4^{2}+4+1=B)%. Ta có:<br>\\[\\begin{array}{l}4 B=4^{2018}+4^{2017}+\\ldots . .+4^{3}+4^{2}+4 \\\\Rightarrow 4 B-B=4^{2018}-1 \\Rightarrow B=\\frac{4^{2018}-1}{3}\\end{array}\\]<br>Thay B vào A ta có: %(A=75 .\\left(4^{2018}-1\\right): 3+25=25.4^{2018}: 4^{2018})%<br>Vậy A chia hết cho %(4^{2018})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.5,
+        "content": "Cho %(x, y, z)% là ba số nguyên khác 0 . Chứng minh rằng nếu %(x^{2}-y z=a ; y^{2}-x y=b)% %(z^{2}-x y=c)% thì tổng %((a x+b y+c z))% chia hết cho tổng %((a+b+c))%",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{l}a x+b y+c z=\\left(x^{2}-y z\\right) x+\\left(y^{2}-x z\\right) y+\\left(z^{2}-x y\\right) z=x^{3}+y^{3}+z^{3}-3 x y z \\\\=(x+y)^{3}+z^{3}-3 x^{2} y-3 x y^{2}-3 x y z=(x+y+z)\\left[(x+y)^{2}-(x+y) z+z^{2}\\right]-3 x y(x+y+z) \\\\=(x+y+z)\\left(x^{2}-y z+y^{2}-x z+z^{2}-x y\\right)=(x+y+z)(a+b+c) \\vdots(a+b+c)\\end{array}\\]<br>Vậy %((a x+b y+c z):(a+b+c))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.75,
+        "content": "Tìm %(a, b)% biết %(a+b=a b=\\frac{a}{b})% và b khác 0",
+        "question_images": [],
+        "solution": "%(a+b=a b=\\frac{a}{b}(*))%<br>Từ %(a b=\\frac{a}{b} \\Leftrightarrow a+b=a b=\\frac{a}{b} \\Rightarrow a b^{2}-a=0 \\Rightarrow a\\left(b^{2}-1\\right)=0 \\Leftrightarrow\\left[\\begin{array}{l}a=0 \\\\ b=1 \\\\ b=-1\\end{array}\\right.)%<br>Khi %(a=0, b=1)% thay vào %(\\left({ }^{*}\\right))% đều không thỏa mãn<br>Khi %(b=-1)% thay vào %(\\left.{ }^{*}\\right))% ta có %(a+(-1)=-a \\Leftrightarrow 2 a=1 \\Leftrightarrow a=\\frac{1}{2})%<br>Vậy %(a=\\frac{1}{2} ; b=-1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.75,
+        "content": "Tìm nghiệm là các số tự nhiên của phương trình: %(x y-4 x=35-5 y)%",
+        "question_images": [],
+        "solution": "Ta có : %(x y-4 x=35-5 y \\Leftrightarrow(x+5)(y-4)=15)%<br>Vì %(\\left\\{\\begin{array}{l}x, y \\in \\mathbb{N} \\\\ x+5 \\in \\mathbb{N}\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}x \\geq 0 \\\\ x+5 \\geq 5\\end{array}\\right.\\right.)%.<br>Để %((x+5)(y-4)=15 \\Rightarrow 15:(x+5) \\Rightarrow(x+5) \\in\\{5 ; 15\\})%<br>Khi %(x+5=5 \\Rightarrow y-4=3 \\Rightarrow x=0, y=7)%<br>Khi %(x+5=15 \\Rightarrow y-4=1 \\Rightarrow x=10, y=5)%<br>Vậy cặp nghiệm của phương trình là %((0 ; 7),(10 ; 5))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.5,
+        "content": "Cho %(x+y=1 ; x^{3}+y^{3}=a ; x^{5}+y^{5}=b)%. Chứng minh rằng %(5 a(a+1)=9 b+1)%",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{l}5 a(a+1)=5\\left(x^{3}+y^{3}\\right)\\left(x^{3}+y^{3}+1\\right)=5(x+y)\\left(x^{2}-x y+y^{2}\\right)\\left[(x+y)\\left(x^{2}-x y+y^{2}\\right)+1\\right] \\\\=5(x+y)\\left[(x+y)^{2}-3 x y\\right]\\left[(x+y)(x+y)^{2}-3 x y+1\\right]=5(1-3 x y)[(1-3 x y)+1](d o x+y=1) \\\\=5(1-3 x y)(2-3 x y)=45\\left(x^{2} y^{2}-x y\\right)+10 (1)\\end{array}\\]<br>Ta có %(9 b+1=9\\left(x^{5}+y^{5}\\right)+1)%<br>\\[\\begin{array}{l}=9(x+y)\\left(x^{4}-x^{3} y+x^{2} y^{2}-x y^{3}+y^{4}\\right)+1=9\\left[\\left(x^{2}+y^{2}\\right)^{2}-x y\\left(x^{2}+y^{2}+x y\\right)\\right]+1(d o x+y=1) \\\\=9\\left[(1-2 x y)^{2}-x y(1-x y)\\right]+1=9\\left(5 x^{2} y^{2}-5 x y+1\\right)+1=45\\left(x^{2} y^{2}-x y\\right)+10(2)\\end{array}\\]<br>Từ %((1),(2))% ta có điều phải chứng minh",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Cho hình thang %(A B C D)% có đáy lớn %(C D)%. Qua A vẽ đường thẳng %(A K)% song song với %(B C)% %((K \\in C D))%. Qua B vẽ đường thẳng %(B I)% song song với %(A D(I \\in C D))%. BI cắt %(A C)% ở %(\\mathrm{F}, A K)% cắt BD ở E",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Chứng minh %(E F)% song song với %(A B)%",
+        "question_images": [],
+        "solution": "Ta có %(D I=A B=C K \\Rightarrow D K=C I)%<br>Vì %(A B / / C D \\Rightarrow \\frac{E B}{E D}=\\frac{A B}{D K}=\\frac{A B}{C I}(D K=C I)=\\frac{B F}{F I})% (áp dụng hệ quả Talet với %(A B / / C I)% )<br>Do đó %(\\frac{E B}{E D}=\\frac{B F}{F I})% hay %(E F / / D I)% suy ra %(E F / / A B)% (vì %(\\left.\\mathrm{DI} / / \\mathrm{AB}\\right))%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ebf0f9b5c5ef195d13067239d6eeeef9.png\" srcset=\"https://docdn.giainhanh.io/media/test/06b4662973f5128afe9c783bc5b8a507.png 245w, https://docdn.giainhanh.io/media/test/f5eb781005c678483a20ff9ecad284f6.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Chứng minh %(A B^{2}=C D. E F)%",
+        "question_images": [],
+        "solution": "Ta có : %(\\frac{C I}{A B}=\\frac{F I}{F B}()% vì %(A B / / C I) \\Rightarrow \\frac{C I}{A B}+1=\\frac{F I}{F B}+1 \\Rightarrow \\frac{C D}{A B}=\\frac{B I}{F B}(1))%<br>Mà %(E F / / D I)% nên %(\\frac{E F}{D I}=\\frac{F B}{B I} \\Rightarrow \\frac{B I}{F B}=\\frac{D I}{E F})%.<br>Lại có %(D I=A B \\Rightarrow \\frac{B I}{F B}=\\frac{D I}{E F}=\\frac{A B}{E F}(2))%<br>Từ (1) và (2) suy ra %(\\frac{C D}{A B}=\\frac{A B}{E F}\\left(=\\frac{B I}{F B}\\right))% hay %(A B^{2}=C D, E F)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 2.0,
+        "content": "c) Cho biết %(\\angle A D C=2 \\angle A C D)%. Tính %(A C)% theo AD và %(C D)%",
+        "question_images": [],
+        "solution": "Đăt %(A M=x, M C=y, A C=d, A B=c, B C=a)%<br>Ta có %(D M)% là tia phân giác của %(\\angle B)% nên %(\\frac{A M}{M C}=\\frac{A B}{B C})% hay %(\\frac{x}{y}=\\frac{c}{a} \\Leftrightarrow \\frac{x}{c}=\\frac{y}{a}(3))%<br>Tương tự %(\\triangle M N C)% vuông tại N có %(y=\\frac{C N}{\\cos a}=\\frac{a}{2 \\cos \\alpha}(4))%<br>Thay (4) vào (3) ta có %(x=\\frac{c}{2 \\cos \\alpha})%. Lại có : %(A C=d=x+y=\\frac{c}{2 \\cos \\alpha}+\\frac{a}{2 \\cos \\alpha}=\\frac{a+c}{2 \\cos \\alpha})%<br>Vậy %(A C=\\frac{a+c}{2 \\cos \\alpha})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5cbb5e47860feb3583d9ade4e2722e84.png\" srcset=\"https://docdn.giainhanh.io/media/test/ebcc31f165a758e81a7a300f24d9d3bb.png 245w, https://docdn.giainhanh.io/media/test/341072723065e2c8c16db1244ead382f.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

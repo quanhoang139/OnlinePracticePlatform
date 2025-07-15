@@ -1,0 +1,113 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Tìm các điểm cực trị của đồ thị hàm số %(f(x)=1+3 x^{2}-2 x^{3})%.",
+        "question_images": [],
+        "solution": "Tập xác định của hàm số %(D=\\mathbb{R} \\cdot f^{\\prime}(x)=6 x(1-x))%<br>\\[f^{\\prime}(x)=0 \\text { khi } x=0, x=1\\]<br>Xét dấu %(f^{\\prime}(x))%.<br>Kết luận đồ thị hàm số có một điểm cực đại có tọa độ %((1 ; 2))% và một cực tiểu %((0 ; 1))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm điều kiện của tham số %(m)% để đồ thị hàm số %(y=\\frac{2 x-\\sqrt{m x^{2}+1}}{(x-1)^{2}})% có đường tiệm cận đứng.",
+        "question_images": [],
+        "solution": "Đồ thị hàm số có đường tiệm cận đứng khi và chỉ khi có một trong các giới hạn: %(\\lim _{x \\rightarrow 1^{+}} y= \\pm \\infty)% hoặc %(\\lim _{x \\rightarrow 1^{-}} y= \\pm \\infty)%<br>Ta có: %(\\lim _{x \\rightarrow 1}\\left(2 x-\\sqrt{m x^{2}+1}\\right)=2-\\sqrt{m+1})% với %(m \\geq-1)%.<br>Do đó với %(m\\lt -1)% thì hàm số không có giới hạn khi %(x \\rightarrow 1)% nên đồ thị hàm số không có tiệm cận đứng.<br>Với %(m \\geq-1)% và %(m \\neq 3)% thì<br>\\[\\lim _{x \\rightarrow 1}\\left(2 x-\\sqrt{m x^{2}+1}\\right)=2-\\sqrt{m+1} \\text { khác } 0 \\text { và } \\lim _{x \\rightarrow 1}(x-1)^{2}=0\\]<br>Khi đó %(\\lim _{x \\rightarrow 1} y= \\pm \\infty)% nên đường thẳng %(x=1)% là đường tiệm cận đứng của đồ thị hàm số.<br>Khi %(m=3)%, ta có %(\\lim _{x \\rightarrow 1} y=\\lim _{x \\rightarrow 1} \\frac{2 x-\\sqrt{3 x^{2}+1}}{(x-1)^{2}}=\\lim _{x \\rightarrow 1} \\frac{x^{2}-1}{\\left(2 x+\\sqrt{3 x^{2}+1}\\right)(x-1)^{2}})%<br>\\[=\\lim _{x \\rightarrow 1} \\frac{x+1}{\\left(2 x+\\sqrt{3 x^{2}+1}\\right)(x-1)}= \\pm \\infty\\]<br>Nên đường thẳng %(x=1)% là đường tiệm cận đứng của đồ thị hàm số.<br>Tóm lại, giá trị %(m)% cần tìm là %(m \\geq-1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Tính tổng các nghiệm %(x \\in[-\\pi ; \\pi])% của phương trình:<br>\\[2(\\cos x+\\sqrt{3} \\sin x) \\cos x=\\cos x-\\sqrt{3} \\sin x+1\\]",
+        "question_images": [],
+        "solution": "Pt đã cho %(\\Leftrightarrow \\cos 2 x+\\sqrt{3} \\sin 2 x=\\cos x-\\sqrt{3} \\sin x)%<br>\\[\\Leftrightarrow \\cos \\left(2 x-\\frac{\\pi}{3}\\right)=\\cos \\left(\\frac{\\pi}{3}+x\\right) \\Leftrightarrow x=\\frac{k 2 \\pi}{3}, k \\in \\mathbb{Z}\\]<br>Vì %(x \\in[-\\pi ; \\pi])% nên %(x_{1}=0 ; x_{2}=\\frac{2 \\pi}{3} ; x_{3}=\\frac{-2 \\pi}{3})% thỏa mãn<br>Vậy tổng các nghiệm %(x \\in[-\\pi ; \\pi])% của phuơng trình đã cho là %(\\mathrm{S}=0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Giải phương trình %((3+\\sqrt{5})^{x}+(3-\\sqrt{5})^{x}-7.2^{x}=0)%.",
+        "question_images": [],
+        "solution": "Đưa PT về dạng %(\\left(\\frac{3+\\sqrt{5}}{2}\\right)^{x}+\\left(\\frac{3-\\sqrt{5}}{2}\\right)^{x}=7)%. Đặt %(\\left(\\frac{3+\\sqrt{5}}{2}\\right)^{x}=t)% với %(t\\gt 0)%.<br>Ta có PT %(\\mathrm t+\\frac{1}{t}=7 \\Leftrightarrow t^{2}-7 t+1=0 \\Leftrightarrow t=\\frac{7 \\pm 3 \\sqrt{5}}{2}=\\left(\\frac{3 \\pm \\sqrt{5}}{2}\\right)^{2})%<br>Từ đó suy ra %(\\mathrm{PT})% có 2 nghiệm %(x= \\pm 2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x^{3}-y^{3}+3 x^{2}+6 x-3 y+4=0 \\\\ (x+1) \\sqrt{y+1}+(x+6) \\sqrt{y+6}=x^{2}-5 x+12 y\\end{array} \\quad(x, y \\in \\mathbb{R})\\right.)%.",
+        "question_images": [],
+        "solution": "ĐK: %(y \\geq-1)%<br>Phương trình (1) tương đương : %((x+1)^{3}+3(x+1)=y^{3}+3 y \\Leftrightarrow y=x+1)%<br>\\[\\begin{array}{l}(x+1) \\sqrt{x+2}+(x+6) \\sqrt{x+7}=x^{2}+7 x+12 \\\\Leftrightarrow(x+1)(\\sqrt{x+2}-2)+(x+6)(\\sqrt{x+7}-3)=x^{2}+2 x-8 \\\\Leftrightarrow(x-2)\\left[\\frac{x+1}{\\sqrt{x+2}+2}+\\frac{x+6}{\\sqrt{x+7}+3}-x-4\\right]=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x=2 \\\\frac{x+1}{\\sqrt{x+2+2}}+\\frac{x+6}{\\sqrt{x+7}+3}-x-4=0(*)\\end{array}\\right. \\\\end{array}\\]<br>Chứng minh phương trình %(\\left({ }^{*}\\right))% vô nghiệm<br>\\[\\left(\\frac{x+2}{\\sqrt{x+2}+2}-\\frac{x+2}{2}\\right)+\\left(\\frac{x+6}{\\sqrt{x+7}+3}-\\frac{x+6}{2}\\right)-\\frac{1}{\\sqrt{x+2}+2}\\lt 0 \\forall x \\geq-2\\]<br>Kết luận hệ phương trình có nghiệm %((x ; y)=(2 ; 3))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình chóp %(S \\cdot A B C D)%, có đáy %(A B C D)% là hình chữ nhật với %(A B=a \\sqrt{2}, B C=a)% và %(S A=S B=S C=S D=2 a)%. Gọi %(K)% là hình chiếu vuông góc của điểm %(B)% trên %(A C)% và %(H)% là hình chiếu vuông góc của %(K)% trên %(S A)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Tính thể tích khối chóp %(S . A B C D)% theo %(a)%.",
+        "question_images": [],
+        "solution": "Gọi %(O=A C \\cap B D)%. Ta có %(S O \\perp(A B C D))%.<br>\\[\\begin{array}{l}O A=\\frac{A C}{2}=\\frac{a \\sqrt{3}}{2} \\cdot S O^{2}=S A^{2}-O A^{2}=4 a^{2}-\\frac{3 a^{2}}{4}=\\frac{13 a^{2}}{4} \\Rightarrow S O=\\frac{a \\sqrt{13}}{2} . \\V_{S \\cdot A B C D}=\\frac{1}{3} \\cdot \\frac{a \\sqrt{13}}{2} \\cdot a \\sqrt{2} \\cdot a=\\frac{a^{3} \\cdot \\sqrt{26}}{6}\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/88ccbb10f8e6c994dcc418e08fdf8d12.png\" srcset=\"https://docdn.giainhanh.io/media/test/eafa82e4b825d6432c5a5cefdef1afd6.png 203w, https://docdn.giainhanh.io/media/test/8d438a3ad9189a7a675447ca9279353f.png 500w, https://docdn.giainhanh.io/media/test/3f1e6ba7d93fb32e45d65c37fe2b5715.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tính diện tích xung quanh của hình nón được tạo thành khi quay tam giác %(A D C)%quanh %(A D)% theo %(a)%.",
+        "question_images": [],
+        "solution": "%(S_{x q}=\\pi \\cdot D C \\cdot A C=\\pi a^{2} \\sqrt{6})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tính cosin góc giữa đường thẳng %(S B)% và mặt phẳng %((B K H))%.",
+        "question_images": [],
+        "solution": "Chỉ ra được %(K)% là trọng tâm tam giác %(B C D, K A=2 K C)%.<br>Chứng minh được %(S A \\perp(B K H))%.<br>Do đó góc giữa %(S B)% và %((B K H))% là góc %(\\widehat{S B H})%.<br>Tính được %(B K=\\frac{a \\sqrt{6}}{3}, K H=\\frac{2}{3} \\frac{S O \\cdot A C}{S A}=\\frac{a \\sqrt{39}}{6})%<br>Tam giác %(B K H)% vuông ở %(\\mathrm{K})%.<br>Từ đó suy ra %(B H^{2}=\\frac{2 a^{2}}{3}+\\frac{39 a^{2}}{36}=\\frac{7 a^{2}}{4} \\Rightarrow B H=\\frac{a \\sqrt{7}}{2})%<br>và %(\\cos \\widehat{S B H}=\\frac{B H}{S B}=\\frac{\\sqrt{7}}{4})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Tìm hệ số của %(x^{7})% trong khai triển nhị thức Newton của %(\\left(x^{2}-\\frac{2}{x}\\right)^{n}, x \\neq 0)%, biết rằng %(n)% là số nguyên dương thỏa mãn %(4 C_{n+1}^{3}+2 C_{n}^{2}=A_{n}^{3})%.",
+        "question_images": [],
+        "solution": "Từ %(4 C_{n+1}^{3}+2 C_{n}^{2}=A_{n}^{3})%. Điều kiện %(n \\in \\mathbb{N}^{*}, n \\geq 3)%. Tìm được %(n=11)%.<br>Khai triền %(\\left(x^{2}-\\frac{2}{x}\\right)^{11}=\\sum_{k=0}^{11} C_{11}^{k}\\left(x^{2}\\right)^{11-k}(-2)^{k} \\frac{1}{x^{k}}=\\sum_{k=0}^{11} C_{11}^{k}(-2)^{k} x^{22-3 k})%<br>Hệ số %(x^{7})% tương ứng với %(22-3 k=7 \\Rightarrow k=5)%.<br>Vậy hệ số %(x^{7})% là %(C_{11}^{5}(-2)^{5}=-14784)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.0,
+        "content": "Cho đa giác lồi có 14 đỉnh. Gọi %(X)% là tập hợp các tam giác có ba đỉnh là ba đỉnh của đa giác đã cho. Chọn ngẫu nhiên trong %(X)% một tam giác. Tính xác suất để tam giác được chọn không có cạnh nào là cạnh của đa giác đã cho.",
+        "question_images": [],
+        "solution": "Tính số phần tử của không gian mẫu: %(n(\\Omega)=\\mathrm{C}_{14}^{3}=364)%.<br>Gọi %(A)% là biến cố : \" Tam giác được chọn trong %(\\mathrm{X})% không có cạnh nào là cạnh của đa giác\"<br>Suy ra %(\\bar{A})% là biến cố : \" Tam giác được chọn trong %(\\mathrm{X})% có ít nhất một cạnh là cạnh của đa giác \"<br><strong>TH 1: </strong>Nếu tam giác được chọn có 2 cạnh là 2 cạnh của đa giác thì có 14 tam giác thỏa mãn.<br><strong>TH 2: </strong>Nếu tam giác được chọn có đúng một cạnh là cạnh của đa giác thì có %(14.10=140)% tam giác thỏa mãn.<br>Suy ra %(n(\\bar{A})=14+140=154)%<br>Vậy số phần tử của biến cố %(A)% là: %(n(A)=n(\\Omega)-n(\\bar{A})=210)%<br>Suy ra %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{15}{26})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 2.0,
+        "content": "Trong mặt phẳng với hệ trục tọa độ %(O x y)%, cho điểm %(K(-2 ;-5))% và đường tròn %((C))% có phương trình %((x-1)^{2}+(y-1)^{2}=10)%. Đường tròn %(\\left(C_{2}\\right))% tâm %(K)% cắt đường tròn %((C))% tại hai điểm %(A, B)% sao cho dây cung %(A B=2 \\sqrt{5})%. Viết phương trình đường thẳng %(A B)%.",
+        "question_images": [],
+        "solution": "Gọi %(H)% là giao điềm %(I K)% và %(A B)%.<br>Tính được %(I H=\\sqrt{5})%<br>Viết PT đường thẳng<br>%(I K:-2 x+y+1=0 . H \\in I K \\Rightarrow H(t ; 2 t-1))%<br>\\[I H=\\sqrt{5} \\Rightarrow H(0 ;-1) \\text { hoặc } H(2 ; 3)\\]<br>Đường thẳng %(A B)% đi qua %(H)% và vuông góc với %(I K)% nên có phương trình:<br>%(x+2 y+2=0)% hoặc %(x+2 y-8=0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "10 ",
+        "point": 0.5,
+        "content": "Cho %(a)% và %(b)% là hai số thực dương. Chứng minh rằng %((a+b)^{2}\\left(a^{2}+b^{2}\\right) \\geq 8 a^{2} b^{2})%.",
+        "question_images": [],
+        "solution": "\\[(a+b)^{2} \\geq 4 a b\\gt 0 ;\\left(a^{2}+b^{2}\\right) \\geq 2 a b>0\\]<br>Nhân các vế tương ứng hai bđtt trên, suy ra điều phải chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "11 ",
+        "point": 1.5,
+        "content": "Cho %(x, y, z)% là các số thực thỏa mãn %(x\\gt y>z>0)% và %(x+y+z=1)%. Tìm giá trị nhỏ nhất của biểu thức %(P=\\frac{1}{(x-y)^{2}}+\\frac{1}{(y-z)^{2}}+\\frac{8}{x z}+\\frac{2}{y^{3}})%.",
+        "question_images": [],
+        "solution": "Theo phần a) ta có %(\\frac{1}{a^{2}}+\\frac{1}{b^{2}} \\geq \\frac{8}{(a+b)^{2}})% với %(a, b\\gt 0)% nên %(\\frac{1}{(x-y)^{2}}+\\frac{1}{(y-z)^{2}} \\geq \\frac{8}{(x-z)^{2}})%.<br>Suy ra %(P=\\frac{1}{(x-y)^{2}}+\\frac{1}{(y-z)^{2}}+\\frac{8}{x z}+\\frac{2}{y^{3}} \\geq \\frac{8}{(x-z)^{2}}+\\frac{8}{x z}+\\frac{2}{y^{3}})%<br>Ta chứng minh được bất đẳng thức %(: \\frac{m^{2}}{a}+\\frac{n^{2}}{b} \\geq \\frac{(m+n)^{2}}{a+b})% với %(a, b, m, n>0)%<br>đẳng thức xảy ra khi %(\\frac{a}{m}=\\frac{b}{n})%. Ta có: %(\\frac{1}{(x-z)^{2}}+\\frac{4}{4 x z} \\geq \\frac{(1+2)^{2}}{(x-z)^{2}+4 x z}=\\frac{9}{(x+z)^{2}})%.<br>Vì vậy %(P \\geq 8\\left(\\frac{1}{(x-z)^{2}}+\\frac{4}{4 x z}\\right)+\\frac{2}{y^{3}} \\geq \\frac{72}{(x+z)^{2}}+\\frac{2}{y^{3}}=\\frac{72}{(1-y)^{2}}+\\frac{2}{y^{3}})%.<br>Xét hàm số %(f(t)=\\frac{36}{(1-t)^{2}}+\\frac{1}{t^{3}})% với %(0\\lt t\\lt 1)%. Ta được %(\\min _{(0 ; 1)} f(t)=f\\left(\\frac{1}{3}\\right)=216)%<br>Vậy %(P)% nhỏ nhất bằng 216 khi %(y=\\frac{1}{3})%, và %(x+z=\\frac{2}{3},(x-z)^{2}=2 x z)%<br>Hay %(x+z=\\frac{2}{3}, x z=\\frac{2}{27})%. Tức là %(x=\\frac{1}{3}+\\frac{1}{3 \\sqrt{3}} ; y=\\frac{1}{3} ; z=\\frac{1}{3}-\\frac{1}{3 \\sqrt{3}})%",
+        "question_type": "essay"
+    }
+]

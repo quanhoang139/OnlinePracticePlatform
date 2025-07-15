@@ -1,0 +1,81 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Cho %(a=2:\\left(\\frac{1}{\\sqrt{\\sqrt{7}+1}-1}-\\frac{1}{\\sqrt{\\sqrt{7}+1}+1}\\right))%. Hãy lập một phương trình bậc hai có hệ số nguyên nhận %(a - 1)% là một nghiệm.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}a=2:\\left(\\frac{1}{\\sqrt{\\sqrt{7}+1}-1}-\\frac{1}{\\sqrt{\\sqrt{7}+1}+1}\\right)=2: \\frac{\\sqrt{\\sqrt{7}+1}+1-\\sqrt{\\sqrt{7}+1}+1}{\\sqrt{7}} \\a=2: \\frac{2}{\\sqrt{7}}=\\sqrt{7} \\\\text {} x=a-1 \\Leftrightarrow x=\\sqrt{7}-1 \\Leftrightarrow x+1=\\sqrt{7} \\Rightarrow x^{2}+2 x+1=7 \\\\Leftrightarrow x^{2}+2 x-6=0 \\\\end{array})%<br>Vậy phương trình %(x^{2}+2 x-6=0)% nhận %(\\sqrt{7}-1)% làm nghiệm",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x y-\\frac{x}{y}=\\frac{16}{3} \\\\ x y-\\frac{y}{x}=\\frac{9}{2}\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}x y-\\frac{x}{y}=\\frac{16}{3} \\\\ x y-\\frac{y}{x}=\\frac{9}{2}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x y-\\frac{x}{y}=\\frac{16}{3} \\\\ \\frac{y}{x}-\\frac{x}{y}=\\frac{5}{6}\\end{array}\\right.\\right.)%        ĐК: %(x, y \\neq 0)%<br>Giải %((2) \\Leftrightarrow 6 y^{2}-6 x^{2}=5 x y \\Leftrightarrow(2 x+3 y)(3 x-2 y)=0)%<br>* Nếu %(2 x+3 y=0 \\Leftrightarrow x=\\frac{-3 y}{2})%.<br>Thay vào (1) ta được %(y \\cdot \\frac{-3 y}{2}+\\frac{3}{2}=\\frac{16}{3})%%(\\Leftrightarrow \\frac{-3 y^{2}}{2}=\\frac{23}{6})% (phương trình vô nghiệm)* Nếu %(3 \\mathrm{x}-2 \\mathrm{y}=0 \\Leftrightarrow \\mathrm{x}=\\frac{2 \\mathrm{y}}{3})%.<br>Thay vào (1) ta được %(\\mathrm{y}^{2}=9 \\Leftrightarrow \\mathrm{y}= \\pm 3)%<br>Với %(\\mathrm{y}=3 \\Rightarrow \\mathrm{x}=2)% (thoả mãn điều kiện)<br>Với %(y=-3 \\Rightarrow x=-2)% (thoả mãn điều kiện)<br>Vậy hệ phương trình có hai nghiệm: %((x ; y)=(2 ; 3) ;(x ; y)=(-2 ;-3))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tìm %(m)% để phương trình %(\\left(x^{2}-2 x\\right)^{2}-3 x^{2}+6 x+m=0)% có 4 nghiệm phân biệt.",
+        "question_images": [],
+        "solution": "Đặt %(x^{2}-2 x+1=y \\Leftrightarrow(x-1)^{2}=y \\Leftrightarrow x=1 \\pm \\sqrt{y} \\quad(y \\geq 0)\\left(^{*}\\right))%<br>Phương trình đã cho trở thành: %((\\mathrm{y}-1)^{2}-3(\\mathrm{y}-1)+\\mathrm{m}=0)%<br>\\[\\Leftrightarrow \\mathrm{y}^{2}-5 \\mathrm{y}+\\mathrm{m}+4=0(1)\\]<br>Từ (*) ta thấy, để phương trình đã cho có 4 nghiệm phân biệt thì phương trình (1) có 2 nghiệm dương phân biệt<br>\\[\\begin{array}{l}\\Leftrightarrow\\left\\{\\begin{array} { l } { \\Delta \\gt 0 } \\\\{ \\mathrm { S } > 0 } \\\\{ \\mathrm { P } > 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}9-4 \\mathrm{~m}>0 \\\\5>0 \\\\mathrm{~m}+4>0\\end{array}\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}\\mathrm{m}\\lt \\frac{9}{4} \\\\mathrm{~m}>-4\\end{array} \\Leftrightarrow-4\\lt \\mathrm{m}\\lt \\frac{9}{4}\\right.\\end{array}\\]<br>Vậy với %(-4\\lt \\mathrm{m}\\lt \\frac{9}{4})% thì phương trình có 4 nghiệm phân biệt.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng nếu số nguyên %(k)% lớn hơn 1 thoả mãn %(k^{2}+4)% và %(k^{2}+16)% là các số nguyên tố thì k chia hết cho 5.",
+        "question_images": [],
+        "solution": "Vì %(\\mathrm{k}\\gt 1)% suy ra %(\\mathrm{k}^{2}+4>5 ; \\mathrm{k}^{2}+16>5)%<br>Xét %(k=5 n+1)% với %(n \\in \\mathbb{Z} \\Rightarrow k^{2}=25 n^{2}+10 n+1 \\Rightarrow k^{2}+4 \\vdots 5)%<br>%(\\Rightarrow \\mathrm{k}^{2}+4)% không là số nguyên tố.<br>Xét %(\\mathrm{k}=5 \\mathrm{n}+2)% với %(\\mathrm{n} \\in \\mathbb{Z} \\Rightarrow \\mathrm{k}^{2}=25 \\mathrm{n}^{2}+20 \\mathrm{n}+4 \\Rightarrow \\mathrm{k}^{2}+16: 5)%<br>%(\\Rightarrow \\mathrm{k}^{2}+16)% không là số nguyên tố.<br>Xét %(\\mathrm{k}=5 \\mathrm{n}+3)% với %(\\mathrm{n} \\in \\mathbb{Z} \\Rightarrow \\mathrm{k}^{2}=25 \\mathrm{n}^{2}+30 \\mathrm{n}+9 \\Rightarrow \\mathrm{k}^{2}+16: 5)%<br>%(\\Rightarrow \\mathrm{k}^{2}+16)% không là số nguyên tố.<br>Xét %(k=5 n+4)% với %(n \\in \\mathbb{Z} \\Rightarrow k^{2}=25 n^{2}+40 n+16 \\Rightarrow k^{2}+4: 5)%<br>%(\\Rightarrow \\mathrm{k}^{2}+4)% không là số nguyên tố.<br>Do vây k chia hết cho 5",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng nếu %(a, b, c)% là độ dài ba cạnh của một tam giác có %(p)% là nửa chu vi thì %(\\sqrt{\\mathrm{p}-\\mathrm{a}}+\\sqrt{\\mathrm{p}-\\mathrm{b}}+\\sqrt{\\mathrm{p}-\\mathrm{c}} \\leq \\sqrt{3 \\mathrm{p}})%",
+        "question_images": [],
+        "solution": "Ta chứng minh:<br>Với %(\\forall a, b, c)% thì %((a+b+c)^{2} \\leq 3\\left(a^{2}+b^{2}+c^{2}\\right)\\left({ }^{*}\\right))%<br>Thật vậy %(\\left(^{*}\\right) \\Leftrightarrow a^{2}+b^{2}+c^{2}+2 a b+2 b c+2 c a \\leq 3 a^{2}+3 b^{2}+3 c^{2})% %(\\Leftrightarrow(\\mathrm{a}-\\mathrm{b})^{2}+(\\mathrm{b}-\\mathrm{c})^{2}+(\\mathrm{c}-\\mathrm{a})^{2} \\geq 0)% (luôn đúng)<br>Áp dụng (*) ta có:<br>\\[(\\sqrt{p-a}+\\sqrt{p-b}+\\sqrt{p-c})^{2} \\leq 3(3 p-a-b-c)=3 p\\]<br>Suy ra %(\\sqrt{\\mathrm{p}-\\mathrm{a}}+\\sqrt{\\mathrm{p}-\\mathrm{b}}+\\sqrt{\\mathrm{p}-\\mathrm{c}} \\leq \\sqrt{3 \\mathrm{p}})%  (đpcm)",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho đường tròn tâm %(O)% và dây %(A B)% không đi qua %(O)%. Gọi %(M)% là điểm chính giữa của cung %(A B)% nhỏ. %(D)% là một điểm thay đổi trên cung %(A B)% lớn ( %(D)% khác %(A)% và %(B)% ). %(D M)% cắt %(A B)% tại %(C)%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(M B \\cdot B D=M D . B C)%",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/8515c163ec8776616fb9e85a66ea7adf.png\" srcset=\"https://docdn.giainhanh.io/media/test/4030a05159aec4fe0a6bee43acdf14e0.png 211w\" width=\"211\"/><br>Xét %(\\triangle M B C)% và %(\\triangle M D B)% có:<br>\\[\\begin{array}{l}\\mathrm{BDM}=\\mathrm{MBC} \\\\mathrm{BMC}=\\mathrm{BMD}\\end{array}\\]<br>Do vậy %(\\triangle \\mathrm{MBC})% và %(\\triangle \\mathrm{MDB})% đồng dạng<br>Suy ra %(\\frac{M B}{B C}=\\frac{M D}{B D} \\Rightarrow M B \\cdot B D=M D \\cdot B C)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(M B)% là tiếp tuyến của đường tròn ngoại tiếp tam giác %(B C D)%.",
+        "question_images": [],
+        "solution": "Gọi (J) là đường tròn ngoại tiếp<br>%(\\triangle \\mathrm{BDC} \\Rightarrow \\mathrm{BJC}=2 \\mathrm{BDC}=2 \\mathrm{MBC})% hay %(\\Rightarrow \\mathrm{MBC}=\\frac{\\mathrm{BJC}}{2})%%(\\Delta \\mathrm{BCJ})% cân tại J<br>%(\\Rightarrow \\mathrm{CBJ}=\\frac{180^{\\circ}-\\mathrm{BJC}}{2})%<br>Suy ra %(\\mathrm{MBC}+\\mathrm{CBJ}=\\frac{\\mathrm{BJC}}{2}+\\frac{180^{\\circ}-\\mathrm{BJC}}{2}=90^{\\circ} \\Rightarrow \\mathrm{MB} \\perp \\mathrm{BJ})%<br>Suy ra MB là tiếp tuyến của đường tròn %((\\mathrm{J}))%, suy ra J thuộc NB",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tổng bán kính các đường tròn ngoại tiếp tam giác %(B C D)% và %(A C D)% không đổi.",
+        "question_images": [],
+        "solution": "Kẻ đường kính %(\\mathrm{MN})% của %((0) \\Rightarrow \\mathrm{NB} \\perp \\mathrm{MB})%<br>Mà %(M B)% là tiếp tuyến của đường tròn %((\\mathrm{J}))%, suy ra %(\\mathrm{J})% thuộc NB<br>Gọi (I) là đường tròn ngoại tiếp %(\\triangle A D C)%<br>Chứng minh tương tự I thuộc AN<br>Ta có %(\\mathrm{ANB}=\\mathrm{ADB}=2 \\mathrm{BDM}=\\mathrm{BJC} \\Rightarrow \\mathrm{CJ} / / \\mathrm{IN})%<br>Chứng minh tương tự: %(\\mathrm{Cl} / / \\mathrm{JN})%<br>Do đó tứ giác %(\\mathrm{CINJ})% là hình bình hành<br>%(\\Rightarrow \\mathrm{Cl}=\\mathrm{NJ})%<br>Suy ra tổng bán kính của hai đường tròn (I) và (J) là: %(\\mathrm{IC}+\\mathrm{JB}=\\mathrm{BN})% (không đổi)",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Cho hình chữ nhật %(A B C D)%. Lấy %(E, F)% thuộc cạnh %(A B ; G, H)% thuộc cạnh %(B C ; I, J)% thuộc cạnh %(\\mathrm{CD} ; \\mathrm{K}, \\mathrm{M})% thuộc cạnh DA sao cho hình 8 - giác EFGHIJKM có các góc bằng nhau. Chứng minh rằng nếu độ dài các cạnh của hình 8 - giác EFGHIJKM là các số hữu tỉ thì %(\\mathrm{EF})% %(=\\mathrm{IJ})%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/da9517548554480a1604a696b0dcf8b0.png\" srcset=\"https://docdn.giainhanh.io/media/test/66a956aeb3babb793d742638e597521a.png 245w\" width=\"245\"/><br>Gọi %(E F = a ; F G = b ; G H = c ; H I = d ; I J = e ; J K = f{;} K M = g{;} M E = h)% (với %(a , b , c , d , e , f , g)%, h là các số hữu tỉ dương)<br>Do các góc của hình 8 cạnh bằng nhau nên mỗi góc trong của hình 8 cạnh có số đo là: %(\\frac{(8-2) \\cdot 180^{\\circ}}{8}=135^{\\circ})%<br>Suy ra mỗi góc ngoài của hình 8 cạnh đó là: %(180^{\\circ}-135^{\\circ}=45^{\\circ})%<br>Do đó các tam giác MAE ; FBG ; CIH ; DKJ là các tam giác vuông cân.<br>%(\\Rightarrow \\mathrm{MA}=\\mathrm{AE}=\\frac{\\mathrm{h}}{\\sqrt{2}} ; \\mathrm{BF}=\\mathrm{BG}=\\frac{\\mathrm{b}}{\\sqrt{2}} ; \\mathrm{CH}=\\mathrm{Cl}=\\frac{\\mathrm{d}}{\\sqrt{2}} ; \\mathrm{DK}=\\mathrm{DJ}=\\frac{\\mathrm{f}}{\\sqrt{2}})%<br>Ta có %(A B=C D)% nên: %(\\frac{\\mathrm{h}}{\\sqrt{2}}+\\mathrm{a}+\\frac{\\mathrm{b}}{\\sqrt{2}}=\\frac{\\mathrm{f}}{\\sqrt{2}}+\\mathrm{e}+\\frac{\\mathrm{d}}{\\sqrt{2}})%<br>%(\\Leftrightarrow(e-a) \\sqrt{2}=h+b-f-d)%<br>Nếu e - %(\\mathrm{a} \\neq 0)% thì %(\\sqrt{2}=\\frac{\\mathrm{h}+\\mathrm{b}-\\mathrm{f}-\\mathrm{d}}{\\mathrm{e}-\\mathrm{a}} \\in \\mathbb{Q})% (điều này vô lý do %(\\sqrt{2})% là số vô tỉ)<br>Vậy %(e-a=0 \\Leftrightarrow e=a)% hay %(E F=I J(đ p c m))%.",
+        "question_type": "essay"
+    }
+]

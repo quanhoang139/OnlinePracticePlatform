@@ -1,0 +1,208 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.25,
+        "content": "Cho %(a)% là một số dương, biểu thức %(a^{\\frac{2}{3}} \\sqrt{a})% viết dưới dạng lũy thừa với số mũ hữu tỉ là?",
+        "question_images": [],
+        "labelA": "%(a^{\\frac{5}{6}})%",
+        "labelB": "%(a^{\\frac{7}{6}})%",
+        "labelC": "%(a^{\\frac{4}{3}})%",
+        "labelD": "%(a^{\\frac{6}{7}})%",
+        "correct_label": "labelB",
+        "solution": "Với %(a\\gt 0)%, ta có %(a^{\\frac{2}{3}} \\sqrt{a}=a^{\\frac{2}{3}} \\cdot a^{\\frac{1}{2}}=a^{\\frac{2}{3}+\\frac{1}{2}}=a^{\\frac{7}{6}})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "2 ",
+        "point": 0.25,
+        "content": "Hàm số nào có đồ thị như hình vẽ ở dưới đây ?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/470bbf83b294d75064db6aa61c86c2ea.PNG"
+        ],
+        "labelA": "%(y=\\left(\\frac{1}{\\sqrt{2}}\\right)^{2})%",
+        "labelB": "%(y=(\\sqrt{2})^{x})%",
+        "labelC": "%(y=\\left(\\frac{1}{3}\\right)^{x})%",
+        "labelD": "%(y=3^{x})%",
+        "correct_label": "labelC",
+        "solution": "Đồ thị hàm số ở hình vẽ là đồ thị của hàm số mũ có dạng %(y=a^{x})%. Loại đáp án A<br>Dựa vào đồ thị ta thấy hàm số nghịch biến trên %(\\mathbb{R})% nên %(0\\lt a\\lt 1)%. Loại đáp án %(\\mathrm{B}, \\mathrm{D})%<br>Vậy đồ thị trong hình vẽ là đồ thị hàm số %(y=\\left(\\frac{1}{3}\\right)^{x})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "3 ",
+        "point": 0.25,
+        "content": "Cho tứ diện %(A B C D)% có %(A B=A C)% và %(D B=D C)%. Khẳng định nào sau đây đúng?",
+        "question_images": [],
+        "labelA": "%(C D \\perp A B)%",
+        "labelB": "%(A C \\perp B D)%",
+        "labelC": "%(B C \\perp A D)%",
+        "labelD": "%(B C \\perp C D)%",
+        "correct_label": "labelC",
+        "solution": "Gọi %(M)% là trung điểm %(B C)%. Do tam giác %(A B C)% cân tại %(A)% và tam giác %(D B C)% cân tại %(D)% nên, có:<br>\\[\\left\\{\\begin{array}{l}B C \\perp D M \\B C \\perp A M\\end{array} \\Rightarrow B C \\perp A D .\\right.\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0c2781708aa5f27a384f04ad6dca3af1.png\" srcset=\"https://docdn.giainhanh.io/media/test/6bc17451c6963165975c3b85d78e9d39.png 129w\" width=\"129\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "4 ",
+        "point": 0.25,
+        "content": "Cho hình chóp tứ giác đều %(S . A B C D)% có tất cả các cạnh bằng nhau. Gọi %(E, M)% lần lượt là trung điểm của các cạnh %(B C)% và %(S A, \\alpha)% là góc tạo bởi đường thẳng %(E M)% và mặt phẳng %((S B D))%. Giá trị của %(\\tan \\alpha)% bằng",
+        "question_images": [],
+        "labelA": "2",
+        "labelB": "%(\\sqrt{3})%",
+        "labelC": "1",
+        "labelD": "%(\\sqrt{2})%",
+        "correct_label": "labelD",
+        "solution": "Dựng hình bình hành %(A B F C)%.Ta có %(E M / / S F)% nên góc giữa %(E M)% và %((S B D))% bằng góc giữa %(S F)% và %((S B D))%.<br>%(F B / / A C \\Rightarrow F B \\perp(S B D))% do đó góc giữa %(S F)% và %((S B D))% bằng góc %(\\widehat{F S B})%.<br>Ta có %(\\tan \\widehat{F S B}=\\frac{B F}{S B}=\\frac{A C}{S B}=\\sqrt{2})%. Vậy chọnD.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d9aebab8012fef49739c7705a9545990.png\" srcset=\"https://docdn.giainhanh.io/media/test/a6c2eb102267a36f882263264abe6492.png 245w, https://docdn.giainhanh.io/media/test/4bebd79dfbc7b8c698dbf410f85712c2.png 500w\" width=\"500\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "5 ",
+        "point": 0.25,
+        "content": "Cho hình chóp %(S . A B C D)% có đáy %(A B C D)% là hình vuông, hai mặt bên %((S A B))% và %((S A D))% vuông góc với mặt đáy. %(A H, A K)% lần lượt là đường cao của tam giác %(S A B, S A D)%. Mệnh đề nào sau đây là sai?",
+        "question_images": [],
+        "labelA": "%(B C \\perp A H)%",
+        "labelB": "%(S A \\perp A C)%",
+        "labelC": "%(H K \\perp S C)%",
+        "labelD": "%(A K \\perp B D)%",
+        "correct_label": "labelD",
+        "solution": "Ta có %(\\left\\{\\begin{array}{l}(S A B) \\perp(A B C D) \\\\ (S A D) \\perp(A B C D)\\end{array}\\right.)% nên %(S A \\perp(A B C D))%<br>Suy ra %(S A \\perp A C)% (B đúng); %(S A \\perp B C ; S A \\perp B D)%.<br>Mặt khác %(B C \\perp A B)% nên %(B C \\perp(S A B))% suy ra %(B C \\perp A H)% (A đúng).<br>và %(B D \\perp A C)% nên %(B D \\perp(S A C))% suy ra %(B D \\perp S C)%;<br>Đồng thời %(H K / / B D)% nên %(H K \\perp S C)% (C đúng).<br>Vậy mệnh đề sai là %(A K \\perp B D)% (vì không đủ điều kiện chứng minh).<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4834601d4dcbe1a4e98a7df2d84ebf29.png\" srcset=\"https://docdn.giainhanh.io/media/test/3ae0c4051986b081eff03919993fd15a.png 226w, https://docdn.giainhanh.io/media/test/82765843857122354ac4813e21b80924.png 500w\" width=\"500\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "6 ",
+        "point": 0.25,
+        "content": "Cho hình chóp %(S \\cdot A B C D)% có đáy %(A B C D)% là hình vuông tâm %(O, S A \\perp(A B C D))%. Gọi %(I)% là trung điểm của %(S C)%. Khoảng cách từ %(I)% đến mặt phẳng %((A B C D))% bằng độ dài đoạn thẳng nào?",
+        "question_images": [],
+        "labelA": "IO",
+        "labelB": "IA.",
+        "labelC": "IC",
+        "labelD": "IB",
+        "correct_label": "labelA",
+        "solution": "Do %(I)% là trung điểm của %(S C)% và %(O)% là trung điểm %(A C)% nên %(I O / / S A)%.<br>Do %(S A \\perp(A B C D))% nên %(I O \\perp(A B C D))%,<br>hay khoảng cách từ %(I)% đến mặt phẳng %((A B C D))% bằng độ dài đoạn thẳng %(I O)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c506d6758d7da1bd9d34834e62f34e0f.png\" srcset=\"https://docdn.giainhanh.io/media/test/f3c7c8672c7e25b9d0e81ebdd73d5995.png 190w, https://docdn.giainhanh.io/media/test/d10afebaf8bfd19f762fede40a858370.png 500w\" width=\"500\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "7 ",
+        "point": 0.25,
+        "content": "Cho hình chóp %(S . A B C D)% có đáy %(A B C D)% là hình vuông cạnh %(a, S D=\\frac{3 a}{2})%, hình chiếu vuông góc của %(S)% trên mặt phẳng %((A B C D))% là trung điểm của cạnh %(A B)%. Tính theo %(a)% thể tích khối chóp S.ABCD .",
+        "question_images": [],
+        "labelA": "%(\\frac{a^{3}}{2})%",
+        "labelB": "%(\\frac{a^{3}}{3})%",
+        "labelC": "%(\\frac{a^{3}}{4})%",
+        "labelD": "%(\\frac{2 a^{3}}{3})%",
+        "correct_label": "labelB",
+        "solution": "Gọi %(H)% là trung điểm %(A B \\Rightarrow S H \\perp(A B C D))%.<br>Ta có: %(S H=\\sqrt{S D^{2}-H D^{2}}=\\sqrt{S D^{2}-\\left(A H^{2}+A D^{2}\\right)}=\\sqrt{\\frac{9 a^{2}}{4}-\\left(\\frac{a^{2}}{4}+a^{2}\\right)}=a)%.<br>Vậy: %(V_{S \\cdot A B C D}=\\frac{1}{3} S_{A B C D} \\cdot S H=\\frac{a^{3}}{3})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4c389a4ba87dd259b54b010ece7ac2db.png\" srcset=\"https://docdn.giainhanh.io/media/test/617e8e7cc5e2e4a5aeb3738b11085e06.png 162w\" width=\"162\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "8 ",
+        "point": 0.25,
+        "content": "Hai cầu thủ sút phạt đền. Mỗi người đá 1 lần với xác suất ghi bàn tương ứng là 0,8 và 0,7 . Tính xác suất để có ít nhất 1 cầu thủ ghi bàn.",
+        "question_images": [],
+        "labelA": "%(P(X)=0,42)%",
+        "labelB": "%(P(X)=0,94)%",
+        "labelC": "%(P(X)=0,234)%",
+        "labelD": "%(P(X)=0,9)%",
+        "correct_label": "labelB",
+        "solution": "Gọi %(A)% là biến cố \"Cầu thủ thứ nhất ghi bàn\" %(; B)% là biến cố \"Cầu thủ thứ hai ghi bàn\"; %(X)% là biến cố \"Ít nhất một trong hai cầu thủ ghi bàn\".<br>- Cầu thủ thứ nhất ghi bàn và cầu thủ hai không ghi bàn là %(A \\bar{B})%, ta có:<br>\\[P(A \\bar{B})=P(A) \\cdot P(\\bar{B})=0,8 \\cdot 0,3=0,24 \\text {. }\\]<br>- Cầu thủ thứ nhất không ghi bàn và cầu thủ hai ghi bàn là %(\\bar{A} B)%, ta có:<br>\\[P(\\bar{A} B)=P(\\bar{A}) \\cdot P(B)=0,2 \\cdot 0,7=0,14 \\text {. }\\]<br>- Cả hai cầu thủ ghi bàn là %(A B)%, ta có: %(P(A B)=P(A) \\cdot P(B)=0,8 \\cdot 0,7=0,56)%.<br>Biến cố để có ít nhất một cầu thủ ghi bàn là %(X=A \\bar{B} \\cup \\bar{A} B \\cup A B)%.<br>Xác suất để có ít nhất một cầu thủ ghi bàn là:<br>\\[P(X)=P(A \\bar{B})+P(\\bar{A} B)+P(A B)=0,24+0,14+0,56=0,94\\]",
+        "question_type": "quiz"
+    },
+    {
+        "title": "9 ",
+        "point": 0.25,
+        "content": "Các chữ số %(1,6,9)% được sắp theo thứ tự ngẫu nhiên để tạo ra một số có 3 chữ số. Tìm xác suất để số này là số chính phương.",
+        "question_images": [],
+        "labelA": "%(\\frac{2}{3})%",
+        "labelB": "%(\\frac{1}{6})%",
+        "labelC": "%(\\frac{1}{3})%",
+        "labelD": "%(\\frac{1}{2})%",
+        "correct_label": "labelD",
+        "solution": "Ta có thể tạo được 6 số từ ba chữ số %(1,6,9)%.<br>Các số đó là: %(169,196,619,691,916,961)%.<br>Các số chính phương là %(169,196,961)%.<br>Vậy xác suất để số này là số chính phương là %(\\frac{1}{2})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "10 ",
+        "point": 0.25,
+        "content": "Tính đạo hàm của hàm số %(y=17^{-x})%",
+        "question_images": [],
+        "labelA": "%(y^{\\prime}=17^{-x} \\ln 17)%",
+        "labelB": "%(y^{\\prime}=-x \\cdot 17^{-x-1})%",
+        "labelC": "%(y^{\\prime}=-17^{-x})%",
+        "labelD": "%(y^{\\prime}=-17^{-x} \\ln 17)%",
+        "correct_label": "labelD",
+        "solution": "Áp dụng công thức: %(\\left(a^{u}\\right)^{\\prime}=u^{\\prime} \\cdot a^{u} \\ln a)% ta có: %(y^{\\prime}=\\left(17^{-x}\\right)^{\\prime}=-17^{-x} \\cdot \\ln 17)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "11 ",
+        "point": 0.25,
+        "content": "Đạo hàm cấp hai của hàm số %(y=\\ln x)% là.",
+        "question_images": [],
+        "labelA": "%(y^{\\prime \\prime}=\\frac{1}{x^{2}})%",
+        "labelB": "%(y^{\\prime \\prime}=-\\frac{1}{x^{2}})%",
+        "labelC": "%(y^{\\prime \\prime}=\\frac{1}{x})%",
+        "labelD": "%(y^{\\prime \\prime}=-\\frac{1}{x})%",
+        "correct_label": "labelB",
+        "solution": "%(y^{\\prime}=\\frac{1}{x}, y^{\\prime \\prime}=-\\frac{1}{x^{2}})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "12 ",
+        "point": 0.25,
+        "content": "Cho hàm số %(y=\\frac{x^{3}}{3}+3 x^{2}-2)% có đồ thị là %((C))%. Viết phương trình tiếp tuyến với đồ thị %((C))% biết tiếp tuyến có hệ số góc %(k=-9)%.",
+        "question_images": [],
+        "labelA": "%(y+16=-9(x+3))%",
+        "labelB": "%(y-16=-9(x-3))%",
+        "labelC": "%(y=-9(x+3))%",
+        "labelD": "%(y-16=-9(x+3))%",
+        "correct_label": "labelD",
+        "solution": "Gọi %(M\\left(x_{0} ; \\frac{x_{0}^{3}}{3}+3 x_{0}^{2}-2\\right))% là tiếp điểm.<br>Ta có: %(k=f^{\\prime}\\left(x_{0}\\right) \\Leftrightarrow x_{0}^{2}+6 x_{0}=-9 \\Leftrightarrow x_{0}=-3 \\Rightarrow y_{0}=f\\left(x_{0}\\right)=16)%<br>Phương trình tiếp tuyến với đồ thị %((C))% thỏa mãn đầu bài là: %(y-16=-9(x+3))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "17 ",
+        "point": 0.5,
+        "content": "Một chiếc túi chứa 5 quả bóng màu đỏ và 6 quả bóng màu xanh có cùng kích thước và khối lượng. Lần lượt lấy ngẫu nhiên một quả bóng rồi trả lại vào túi. Tính xác suất lấy được hai quả bóng màu xanh sau 2 lượt lấy",
+        "question_images": [],
+        "solution": "Ta có sơ đồ cây như sau:<br>Trong đó: P là biến cố \"Lấy được quả bóng màu đỏ\", X là biến cố \"Lấy được quả bóng màu xanh\".<br>Dựa vào sơ đồ cây, xác suất lấy 2 bóng xanh sau 2 lượt là %(\\left(\\frac{6}{11}\\right)^{2}=\\frac{36}{121})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/52b43f4db519e234c86d22d736f4cb71.png\" srcset=\"https://docdn.giainhanh.io/media/test/a9445eeebf5b0126e1116463338bfb3e.png 205w\" width=\"205\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "18 ",
+        "point": 0.5,
+        "content": "Cho hình chóp %(S . A B C)% có đáy là tam giác đều cạnh %(a, S B \\perp(A B C))% và %(S B=4 a)%. Tính góc giữa đường thẳng %(S C)% và mặt phẳng %((S A B))% ?",
+        "question_images": [],
+        "solution": "Kẻ %(C I \\perp A B \\Rightarrow I)% là trung điểm %(A B)%Ta có: %(\\left\\{\\begin{array}{l}C I \\perp A B \\\\ C I \\perp S B\\end{array} \\Rightarrow C I \\perp(S A B)\\right.)% tại %(I)% và %(S C)% cắt %(\\mathrm{mp}(S A B))% tại %(S)%<br>%(\\Rightarrow S I)% là hình chiếu của %(S C)% trên %(\\mathrm{mp}(S A B))%<br>\\[\\Rightarrow(S C,(S A B))=(S C, S I)=\\widehat{C S I}\\]<br>Ta có: %(I C=\\frac{a \\sqrt{3}}{2})%<br>Ta có: %(S C=\\sqrt{S B^{2}+B C^{2}}=\\sqrt{(4 a)^{2}+a^{2}}=\\sqrt{17} a)%<br>Xét %(\\triangle S C I)% vuông tại %(I: \\sin \\widehat{C S I}=\\frac{C I}{S C}=\\frac{\\frac{a \\sqrt{3}}{2}}{\\sqrt{17} a}=\\frac{\\sqrt{51}}{34} \\Rightarrow \\widehat{C S I} \\approx 12,1^{\\circ})%<br>Vậy %((S C,(S A B)) \\approx 12,1^{0})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/86ba0d807cf8e977c4f8243232b21f60.png\" srcset=\"https://docdn.giainhanh.io/media/test/5b732c21992da0c3e0191dfc6489417c.png 175w\" width=\"175\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "19 ",
+        "point": 0.5,
+        "content": "Cho hình chóp %(S . A B C D)% có đáy là hình vuông cạnh %(a)%, tam giác %(S A B)% đều và nằm trong mặt phẳng vuông góc với đáy. Tìm thể tích khối chóp %(S . A B C D)%.",
+        "question_images": [],
+        "solution": "Gọi %(H)% là trung diểm %(A B)%, suy ra %(S H \\perp A B)% (do tam giác %(S A B)% đều).<br>Mặt khác %((S A B) \\perp(A B C D))% nên %(S H \\perp(A B C D))%.<br>Đường cao hình chóp là %(S H=\\frac{a \\sqrt{3}}{2})%; diện tích đáy hình chóp %(S_{A B C D}=a^{2})%.<br>Thể tích khối chóp là:%(V_{S . A B C D}=\\frac{1}{3} S H \\cdot S_{A B C D}=\\frac{1}{3} \\cdot \\frac{a \\sqrt{3}}{2} \\cdot a^{2}=\\frac{a^{3} \\sqrt{3}}{6})% (đơn vị thể tích).<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/cd0cd872368829c126219d6d98499e72.png\" srcset=\"https://docdn.giainhanh.io/media/test/996b2825a466b2e93e99a856e0400b6d.png 175w\" width=\"175\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "20 ",
+        "point": 0.5,
+        "content": "Trong tin học, độ hiệu quả của một thuật toán tỉ lệ với tốc độ thực thi chương trình và được tính bởi %(E(n)=\\frac{n}{P(n)})%, trong đó %(n)% là số lượg dữ liệu đầu vào và %(P(n))% là độ phức tạp của thuật toán. Biết rằng một thuật toán có %(P(n)=\\log _{2} n)% và khi %(n=300)% thì để chạy nó, máy tính mất 0,02 giây. Hỏi khi %(n=90000)% thì phải mất bao lâu để chạy chương trình tương ứng?",
+        "question_images": [],
+        "solution": "Ta có %(E(300)=\\frac{300}{\\log _{2} 300})% máy tính phải chạy mất 0,02 giây.<br>Suy ra %(E(90000)=\\frac{90000}{\\log _{2} 90000})% máy tính phải mất thời gian để chạy là:<br>%(\\frac{E(90000) \\cdot 0,02}{E(300)}=3)% giây.",
+        "question_type": "essay"
+    },
+    {
+        "title": "21 ",
+        "point": 0.5,
+        "content": "Có bao nhiêu giá trị nguyên thuộc khoảng %((-30 ; 30))% của tham số %(m)% để mọi tiếp tuyến của đồ thị hàm số %(y=x^{3}-m x^{2}+(2 m-3) x-1)% đều có hệ số góc dương?",
+        "question_images": [],
+        "solution": "- %(y=x^{3}-m x^{2}+(2 m-3) x-1 \\Rightarrow y^{\\prime}=3 x^{2}-2 m x+2 m-3)%.<br>- Mọi tiếp tuyến của đồ thị hàm số %(y=x^{3}-m x^{2}+(2 m-3) x-1)% đều có hệ số góc dương %(\\Leftrightarrow y^{\\prime}=3 x^{2}-2 m x+2 m-3\\gt 0, \\forall x \\in \\mathbb{R} \\Leftrightarrow \\Delta^{\\prime}=m^{2}-3(2 m-3)\\lt 0 \\Leftrightarrow m^{2}-6 m+9\\lt 0)% (VN).<br>- Vậy không có giá trị của tham số %(m)% thỏa mãn yêu cầu bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "22 ",
+        "point": 0.5,
+        "content": "Tính đạo hàm cấp hai của hàm số %(y=\\ln x)%",
+        "question_images": [],
+        "solution": "%(y^{\\prime}=\\frac{1}{x}, y^{\\prime \\prime}=-\\frac{1}{x^{2}})%",
+        "question_type": "essay"
+    }
+]

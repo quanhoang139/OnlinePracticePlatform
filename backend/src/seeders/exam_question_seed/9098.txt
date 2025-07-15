@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức: %(P=\\left(\\frac{2 x+1}{x \\sqrt{x}+1}-\\frac{\\sqrt{x}}{x-\\sqrt{x}+1}\\right)\\left(x-\\frac{x-4}{\\sqrt{x}-2}\\right))%, với %(x \\geq 4 ; x \\neq 0)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1a ",
+        "point": 2.0,
+        "content": "a) Rút gọn biểu thức %(P)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}P=\\left(\\frac{2 x+1}{x \\sqrt{x}+1}-\\frac{\\sqrt{x}}{x-\\sqrt{x}+1}\\right)\\left(x-\\frac{x-4}{\\sqrt{x}-2}\\right) \\\\ P=\\left(\\frac{2 x+1}{(\\sqrt{x})^{3}+1}-\\frac{\\sqrt{x}}{x-\\sqrt{x}+1}\\right) \\cdot\\left(\\frac{x(\\sqrt{x}-2)}{\\sqrt{x}-2}-\\frac{x-4}{\\sqrt{x}-2}\\right) \\\\ P=\\left(\\frac{2 x-1}{(\\sqrt{x}-1)(x-\\sqrt{x}+1)}-\\frac{\\sqrt{x}}{x-\\sqrt{x}+1}\\right)\\left(\\frac{x \\sqrt{x}-2 x-x+4}{\\sqrt{x}-2}\\right) \\\\ P=\\left(\\frac{2 x+1-\\sqrt{x}(\\sqrt{x}-1)}{(\\sqrt{x}-1)(x-\\sqrt{x}+1)}\\right)\\left(\\frac{x(\\sqrt{x}-2)-(x-4)}{\\sqrt{x}-2}\\right) \\\\ P=\\left(\\frac{x-\\sqrt{x}+1}{(\\sqrt{x}-1)(x-\\sqrt{x}+1)}\\right)\\left(\\frac{x(\\sqrt{x}-2)-(x-4)}{\\sqrt{x}-2}\\right) \\\\ P=\\frac{1}{\\sqrt{x}+1} \\cdot \\frac{(\\sqrt{x}-2)(x-\\sqrt{x}-2)}{(\\sqrt{x}-2)}\\end{array})%<br>%(\\begin{array}{l}P=\\frac{1}{(\\sqrt{x}+1)} \\cdot \\frac{(\\sqrt{x}+1)(\\sqrt{x}-2)}{1} \\\\ P=\\sqrt{x}-2\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "1b ",
+        "point": 2.0,
+        "content": "b) Tìm các giá trị của %(x)% đề %(P \\sqrt{x-1}\\lt 0)%",
+        "question_images": [],
+        "solution": "%(P \\cdot \\sqrt{x-1}\\lt 0 \\Leftrightarrow(\\sqrt{x}-2) \\sqrt{x-1}\\lt 0 \\Leftrightarrow\\left\\{\\begin{array}{l}\\sqrt{x}-2\\lt 0 \\\\ \\sqrt{x-1}\\gt 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x\\lt 4 \\\\ x>1\\end{array}\\right.\\right.)%<br>Vậy với %(1\\lt x\\lt 4)% thì %(P \\cdot \\sqrt{x-1}\\lt 0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2a ",
+        "point": 2.0,
+        "content": "Cho 3 số %(x, y, z \\neq 0)% thỏa mãn %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=0)%. Tính giá trị của biểu thức:<br>\\[P=\\left(\\frac{x y}{z^{2}}+\\frac{y z}{x^{2}}+\\frac{x z}{y^{2}}-3\\right)^{2019}\\]",
+        "question_images": [],
+        "solution": "Ta có %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=0 \\Leftrightarrow y z+x z+x y=0)%.<br>Lại có<br>\\[\\begin{array}{l}P=\\left(\\frac{x y}{z^{2}}+\\frac{y z}{x^{2}}+\\frac{z x}{y^{2}}-3\\right)^{2019} \\P=\\left(\\frac{x^{3} y^{3}+y^{3} z^{3}+z^{3} x^{3}}{x^{2} y^{2} z^{2}}-3\\right)^{2019} \\P=\\left(\\frac{(x y+y z+x z)^{3}-3(x y+y z)(y z+x z)(x y+x z)}{x^{2} y^{2} z^{2}}-3\\right)^{2019} \\P=\\left(\\frac{3 x^{2} y^{2} z^{2}}{x^{2} y^{2} z^{2}}-3\\right)^{2019}=0 .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2b ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(10 \\sqrt{x^{3}+1}=3 x^{2}+6)%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq-1)%<br>Phương trình đã cho tương đương với phương trình:<br>\\[3\\left(x^{2}-x+1\\right)+3(x+1)=10 \\sqrt{(x+1)\\left(x^{2}-x+1\\right)}\\]<br>Đăt %(\\sqrt{x^{2}-x+1}=u, \\sqrt{x+1}=v)% thì ta có phương trình:<br>\\[3 u^{2}+3 v^{2}-10 u v=0 \\Leftrightarrow(3 u-v)(u-3 v)=0\\]<br>%(\\mathrm{TH}1:3 u=v)% thì %(9\\left(x^{2}-x+1\\right)=x+1 \\Leftrightarrow 9 x^{2}-10 x+8=0)% (Phương trình này vô nghiệm).<br>%(\\mathrm{TH} 2: u=3 v)% thì %(x^{2}-x+1=9(x+1) \\Leftrightarrow x^{2}-10 x-8=0 \\Leftrightarrow x=5 \\pm \\sqrt{33})%.<br>Vậy phương trình đa cho có 2 nghiệm là %(x=5 \\pm \\sqrt{33})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3a ",
+        "point": 2.0,
+        "content": "Tìm nghiệm nguyên dương của phương trình: %(x y^{2}+2 x y+x=32 y)%.",
+        "question_images": [],
+        "solution": "Ta có %(x y^{2}+2 x y+x=32 y \\Leftrightarrow x(y+1)^{2}=32 y \\Leftrightarrow x=\\frac{32 y}{(y+1)^{2}}=\\frac{32}{y+1}-\\frac{32}{(y+1)^{2}})%<br>Để %(x)% nguyên dương thì %(\\left(y+1^{2}\\right) \\in U(32))% và %((y+1)^{2})% là 1 số chính phương.<br>%(\\Rightarrow(y+1)^{2}=\\{1,4,16\\}  \\Leftrightarrow y+1=\\{1,2,4\\}  \\Leftrightarrow y=\\{0,1,2\\})% vì %(y)% nguyên dương nên %(y=1 \\Rightarrow x=8, y=3 \\Rightarrow x=6)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3b ",
+        "point": 2.0,
+        "content": "Tìm số tự nhiên %(n)% đề số %(p)% là số nguyên tố biết: %(p=n^{3}-n^{2}+n-1)%.",
+        "question_images": [],
+        "solution": "Ta có %(p=n^{3}-n^{2}+n-1=(n-1)\\left(n^{2}+1\\right))%<br>Lại có: %(n-1\\lt n^{2}+1 \\Rightarrow n-1=1 \\Rightarrow n=2)%<br>Với %(n=2 \\Rightarrow p=5)% là số nguyên tố.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho tam giác %(A B C)% vuông ở %(A, \\quad A H \\perp B C, \\quad H E \\perp A B, \\quad H F \\perp A C)% %((H \\in B C, E \\in A B, F \\in A C))%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "4a ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng: %(A E \\cdot A B=A F \\cdot A C, B H=B C \\cdot \\cos ^{2} B)%.",
+        "question_images": [],
+        "solution": "Xét %(\\triangle A H B)% và %(\\triangle A E H)% có:<br>- %(\\hat{A})% chung;<br>- %(\\widehat{E}=\\widehat{H}=90^{\\circ})%.<br>Vậy %(\\triangle A H B \\sim \\triangle A E H(\\mathrm{~g} . \\mathrm{g}))%<br>Suy ra: %(A E \\cdot A B=A H^{2})%<br>Tương tự ta có: %(A F . A C=A H^{2})%<br>Từ (1) và (2): %(\\Rightarrow A E . A B=A F . A C)%<br>Ta có:<br>\\[\\cos B=\\frac{B H}{A B} \\Rightarrow B H=\\cos B \\cdot A B\\]<br>Lại có: %(\\cos B=\\frac{A B}{A C} \\Rightarrow A B=\\cos B \\cdot B C)%<br>Từ (3) và (4) : suy ra %(B H=B C \\cdot \\cos ^{2} B)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/915cbf082cbfb97662333872a04f2342.png\" srcset=\"https://docdn.giainhanh.io/media/test/4226987a5caf20bb0a0f4d1c6b459b2f.png 245w, https://docdn.giainhanh.io/media/test/9c13745c4511ce6c9461f38ef15b2975.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "4b ",
+        "point": 1.0,
+        "content": "b) Chứng minh rằng: %(\\frac{A B^{3}}{A C^{3}}=\\frac{B E}{C F})%.",
+        "question_images": [],
+        "solution": "Ta có %(\\triangle A B C)% vuông ở %(A)% có %(A H)% là đường cao %(\\Rightarrow\\left\\{\\begin{array}{l}A B^{2}=B H \\cdot B C \\\\ A C^{2}=C H \\cdot B C\\end{array} \\Rightarrow \\frac{A B^{2}}{A C^{2}}=\\frac{B H}{C H}\\right.)%<br>Lại có %(\\triangle H C A)% vuông tại %(H)% có %(H F)% là đường cao %(\\Rightarrow C H^{2}=C F . A C \\Rightarrow C F=\\frac{C H^{2}}{A C})%.<br>Suy ra %(\\frac{B E}{C F}=\\frac{B H^{2}}{A B} \\cdot \\frac{A C}{C H^{2}}=\\left(\\frac{A B^{2}}{A C^{2}}\\right)^{2} \\cdot \\frac{A C}{A B}=\\left(\\frac{A B}{A C}\\right)^{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4c ",
+        "point": 2.0,
+        "content": "c) Chứng minh rằng: %(\\sqrt[3]{B C^{2}}=\\sqrt[3]{C F^{2}}-\\sqrt[3]{B E^{2}})%.",
+        "question_images": [],
+        "solution": "Ta có %(B H^{2}=B E \\cdot B A \\Rightarrow B E^{2}=\\frac{B H^{4}}{B A^{2}}=\\frac{B H^{4}}{B H \\cdot B C}=\\frac{B H^{3}}{B C} \\Rightarrow \\sqrt[3]{B E^{2}}=\\frac{B H}{\\sqrt[3]{B C}})%; Tương tự, %(\\sqrt[3]{C F^{2}}=\\frac{C H}{\\sqrt[3]{B C}})%. Do đó<br>\\[\\sqrt[3]{B E^{2}}+\\sqrt[3]{C F^{2}}=\\frac{B H}{\\sqrt[3]{B C}}+\\frac{C H}{\\sqrt[3]{B C}}=\\frac{B C}{\\sqrt[3]{B C}}=\\sqrt[3]{B C^{2}} .\\]<br>Vậy %(\\sqrt[3]{B E^{2}}+\\sqrt[3]{C F^{2}}=\\sqrt[3]{B C^{2}})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4d ",
+        "point": 2.0,
+        "content": "d) Cho %(B C=2 a)%. Tim GTLN của diện tích tứ giác %(A E H F)%.",
+        "question_images": [],
+        "solution": "Gọi %(O)% là trung điềm của %(B C)%. Ta có %(S_{A E H F}=A E \\cdot A F)%.<br>Mà %(A H^{2}=A E \\cdot A B \\Rightarrow A E=\\frac{A H^{2}}{A B})%.<br>Tương tự, %(A F=\\frac{A H^{2}}{A C})%. Do đó %(S_{A E H F}=\\frac{A H^{2}}{A B} \\cdot \\frac{A H^{2}}{A C}=\\frac{A H^{4}}{A B \\cdot A C}=\\frac{A H^{4}}{A H \\cdot B C}=\\frac{A H^{3}}{B C} \\leq \\frac{A O^{3}}{B C}=\\frac{a^{3}}{2 a}=\\frac{a^{2}}{2})%.<br>Vậy %(S_{A E H F})% lớn nhất khi %(H \\equiv O)% hay %(\\triangle A B C)% vuông cân tại %(A)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho %(x, y, z)% là các số thực dương thay đổi và thỏa mãn điều kiện %(x y z=1)%. Tìm GTNN của biểu thức: %(\\frac{x^{2}(y+z)}{y \\sqrt{y}+2 z \\sqrt{z}}+\\frac{y^{2}(z+x)}{z \\sqrt{z}+2 x \\sqrt{x}}+\\frac{z^{2}(x+y)}{x \\sqrt{x}+2 y \\sqrt{y}})%.",
+        "question_images": [],
+        "solution": "Ta có: %(x^{2}(y+z) \\geq 2 x \\sqrt{x})%. Tương tư, %(y^{2}(x+z) \\geq 2 y \\sqrt{y}, z^{2}(x+y) \\geq 2 z \\sqrt{z})%.<br>\\[\\Rightarrow P \\geq \\frac{2 x \\sqrt{x}}{y \\sqrt{y}+2 z \\sqrt{z}}+\\frac{2 y \\sqrt{y}}{z \\sqrt{z}+2 x \\sqrt{x}}+\\frac{2 z \\sqrt{z}}{x \\sqrt{x}+2 y \\sqrt{y}} \\text {. }\\]<br>Đăt %(a=x \\sqrt{x}+2 y \\sqrt{y}, b=y \\sqrt{y}+2 z \\sqrt{z}, c=z \\sqrt{z}+2 x \\sqrt{x})%.<br>Suy ra: %(x \\sqrt{x}=\\frac{4 c+a-2 b}{9}, y \\sqrt{y}=\\frac{4 a+b-2 c}{9}, z \\sqrt{z}=\\frac{4 b+c-2 a}{9})%.<br>Do đó: %(P \\geq \\frac{2}{9}\\left(\\frac{4 c+a-2 b}{b}+\\frac{4 a+b-2 c}{c}+\\frac{4 b+c-2 a}{a}\\right))%<br>\\[=\\frac{2}{9}\\left[4\\left(\\frac{c}{b}+\\frac{a}{c}+\\frac{b}{a}\\right)+\\left(\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a}\\right)-6\\right] \\geq \\frac{2}{9}(4.3+3-6)=2\\]<br>Do %(\\left(\\frac{c}{b}+\\frac{a}{c}+\\frac{b}{a}=\\left(\\frac{c}{b}+\\frac{a}{c}\\right)+\\left(\\frac{b}{a}+1\\right)-1 \\geq 2 \\sqrt{\\frac{a}{b}}+2 \\sqrt{\\frac{b}{a}}-1 \\geq 4-1=3\\right))%<br>Hoặc %(\\frac{c}{b}+\\frac{a}{c}+\\frac{b}{a} \\geq 3 \\sqrt[3]{\\frac{c}{b} \\cdot \\frac{a}{c} \\cdot \\frac{b}{a}}=3)%.<br>Tương tự, %(\\frac{a}{b}+\\frac{b}{c}+\\frac{c}{a} \\geq 3)%.<br>Dấu \" %(=)% \" xảy %(\\mathrm{ra} \\Leftrightarrow x=y=z=1)%.<br>Vậy giá tri nhỏ nhất của %(P=2)%.",
+        "question_type": "essay"
+    }
+]

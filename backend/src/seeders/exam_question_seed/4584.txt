@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Giải phương trình lượng giác sau : %(\\sin ^{2}\\left(\\frac{x}{2}\\right)-2 \\cos ^{2}\\left(\\frac{x}{4}\\right)+\\frac{3}{4}=0)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\mathrm{PT}  \\Leftrightarrow_{1-\\cos ^{2} \\frac{\\mathrm{x}}{2}}^{2}-\\left(1+\\cos \\frac{\\mathrm{x}}{2}\\right)+\\frac{3}{4}=0 \\\\ \\Leftrightarrow\\left[\\begin{array}{l}\\cos \\frac{x}{2}=\\frac{1}{2} \\\\ \\cos \\frac{x}{2}=-\\frac{3}{2}\\end{array}\\right. \\\\ \\Leftrightarrow x= \\pm \\frac{2 \\pi}{3}+k 4 \\pi(\\mathrm{k} \\in \\mathrm{Z}) \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm số hạng không chứa %(x)% trong khai triển của biểu thức: %(\\left(3 x^{3}-\\frac{2}{x^{2}}\\right)^{5})%",
+        "question_images": [],
+        "solution": "SHTQ: %(C_{5}^{k} 3^{5-k}(-2)^{k} x^{15-5 k}(\\mathrm{k} \\in \\mathrm{N})% và %(\\mathrm{k} \\leq 5))%<br>Số hạng không chứa %(x)% khi %(15-5 k=0)% (0,25d)<br>%(\\Leftrightarrow \\mathrm{k}=3)%<br>Số hạng không chứa %(x)% là : %(C_{5}^{3} 3^{2}(-2)^{3}=-720)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho cấp số cộng (u %(\\left.\\mathbf{u}_{n}\\right))% là một dãy số tăng thỏa điều kiện %(\\left\\{\\begin{array}{l}\\mathbf{u}_{31}+\\mathbf{u}_{34}=\\mathbf{1 1} \\\\ \\mathbf{u}_{31}^{2}+\\mathbf{u}_{34}^{2}=\\mathbf{1 0 1}\\end{array}\\right.)%<br>Tìm số hạng đầu tiên %(\\mathrm{u}_{1})%, công sai %(\\mathrm{d})% và số hạng tổng quát của cấp số cộng đó .",
+        "question_images": [],
+        "solution": "%(\\Leftrightarrow\\left\\{\\begin{array}{l}2 u_{1}+63 d=11 \\\\ \\left(u_{1}+30 d\\right)^{2}+\\left(u_{1}+33 d\\right)^{2}=101\\end{array}\\right.)%<br>%(\\Rightarrow d= \\pm 3)%<br>Vì ( %(\\mathrm{u}_{\\mathrm{n}})% ) là dãy số tăng %(\\Rightarrow \\mathrm{d}\\gt 0)% nên ta chỉ nhân %(d=3 \\Rightarrow u_{1}=-89)%<br>SHTQ : %(u_{n}=3 n-92)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Một hộp có chứa 4 quả cầu màu đỏ, 5 quả cầu màu xanh và 7 quả cầu màu vàng . Lấy ngẫu nhiên cùng lúc ra 4 quả cầu từ hộp đó . Tính xác suất sao cho 4 quả cầu được lấy ra có đúng 1 quả cầu màu đỏ và không quá 2 quả cầu màu vàng.",
+        "question_images": [],
+        "solution": "Gọi A là biến cố \" 4 quả lấy được có đúng một quả cầu màu đỏ và không quá hai quả màu vàng\"<br>%(\\mathrm{TH} 1)% : 1 quả đỏ, 1 quả vàng, 2 quả xanh: %(C_{4}^{1} C_{7}^{1} C_{5}^{2})%<br>%(\\mathrm{TH} 2)% : 1 quả đỏ,2 quả vàng, 1 quả xanh: %(C_{4}^{1} C_{7}^{2} C_{5}^{1})%<br>%(\\mathrm{TH3}: 1)% quả đỏ, 0 quả vàng, 3 quả xanh: %(C_{4}^{1} C_{5}^{3})%<br>%(\\Rightarrow \\mathrm{n}(\\mathrm{A})=C_{4}^{1} C_{7}^{1} C_{5}^{2}+C_{4}^{1} C_{7}^{2} C_{5}^{1}+C_{4}^{1} C_{5}^{3})%<br>%(\\Rightarrow P(A)=\\frac{\\mathbf{3 7}}{\\mathbf{9 1}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho một cấp số cộng ( %(\\mathrm{u}_{\\mathrm{n}})% ) có số hạng đầu tiên %(\\mathrm{u}_{1}=1)% và tổng 100 số hạng đầu bằng 24850 . Tính %(S=\\frac{1}{\\mathbf{u}_{1} \\mathbf{u}_{2}}+\\frac{1}{\\mathbf{u}_{2} \\mathbf{u}_{3}}+\\frac{1}{\\mathbf{u}_{3} \\mathbf{u}_{4}}+\\ldots \\ldots \\ldots \\ldots \\ldots \\ldots+\\frac{1}{\\mathbf{u}_{49} \\mathbf{u}_{50}})%",
+        "question_images": [],
+        "solution": "Gọi d là công sai của cấp số cộng<br>Ta có: %(\\mathrm{S}_{100}=50\\left(2 \\mathrm{u}_{1}+99 \\mathrm{~d}\\right) \\Rightarrow d=\\frac{497-2 u_{1}}{99}=\\mathbf{5})%<br>%(\\begin{array}{l}\\Rightarrow 5 S=\\frac{5}{u_{1} u_{2}}+\\frac{5}{u_{2} u_{3}}+\\ldots \\ldots \\ldots \\ldots .+\\frac{5}{u_{49} u_{50}}=\\frac{u_{2}-u_{1}}{u_{1} u_{2}}+\\frac{u_{3}-u_{2}}{u_{2} u_{3}}+\\ldots \\ldots \\ldots \\ldots \\ldots+\\frac{u_{49}-u_{50}}{u_{49} u_{50}} \\\\ =\\frac{1}{u_{1}}-\\frac{1}{u_{2}}+\\frac{1}{u_{2}}-\\frac{1}{u_{3}}+\\ldots \\ldots \\ldots \\ldots \\ldots+\\frac{1}{u_{49}}-\\frac{1}{u_{50}}=\\frac{1}{u_{1}}-\\frac{1}{u_{50}}=\\frac{1}{u_{1}}-\\frac{1}{u_{1}+49 d}=\\frac{245}{246}\\end{array})%<br>%(\\Rightarrow S=\\frac{49}{246})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình chóp %(S)%. %(A B C D)% có đáy %(A B C D)% là hình bình hành tâm %(O)%. Gọi %(G)% là trọng tâm của tam giác %(\\mathrm{SAD})%. Lấy điểm %(\\mathrm{M})% thuộc cạnh %(\\mathrm{AB})% sao cho %(\\mathrm{AB}=3 \\mathrm{AM})%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Tìm giao tuyến của mặt phẳng %((\\mathrm{SAD}))% và mặt phẳng %((\\mathrm{GBC}))%.<br>Tìm giao điểm %(\\mathrm{H})% của đường thẳng %(\\mathrm{BC})% với mặt phẳng ( %(\\mathrm{SGM})% ).",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1c307f5994c7c85afedefcc000fe925d.png\" srcset=\"https://docdn.giainhanh.io/media/test/870e05408a0441d86ccef04589acddc5.png 245w, https://docdn.giainhanh.io/media/test/f257c9cde9d8cbe9f56585edc495be9b.png 500w\" width=\"500\"/><br>(SAD) và (GBC): Có :<br>%(\\left\\{\\begin{array}{l}\\mathrm{G} \\in(\\mathrm{SAD}) \\cap(\\mathrm{GBC}) \\\\ \\mathrm{AD} / / \\mathrm{BC}\\end{array}\\right.)%<br>\\[\\begin{array}{l}\\Rightarrow \\quad(\\mathrm{SAD}) \\cap(\\mathrm{GBC})=\\mathrm{Gx} / / \\mathrm{AD} / / \\mathrm{BC} \\\\mathrm{H}=\\mathrm{BC} \\cap(\\mathrm{SGM}):\\end{array}\\]<br>Gọi I là trung điểm %(\\mathrm{AD})%<br>Trong (ABCD) , gọi %(\\mathrm{H}=\\mathrm{BC} \\cap \\mathrm{IM})%<br>%(\\Rightarrow\\left\\{\\begin{array}{l}\\mathrm{H} \\in \\mathrm{BC} \\\\ \\mathrm{H} \\in \\mathrm{IM} \\subset(\\mathrm{SGM})\\end{array} \\Rightarrow \\mathrm{H}=\\mathrm{BC} \\cap(\\mathrm{SGM})\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) Chứng minh rằng đường thẳng %(\\mathrm{MG})% song song với mặt phẳng ( %(\\mathrm{SBC}))%.",
+        "question_images": [],
+        "solution": "chứng minh được : %(\\frac{\\mathrm{IM}}{\\mathrm{IH}}=\\frac{1}{3} \\quad(0,25) \\Rightarrow \\mathrm{MG} / / \\mathrm{SH})%<br>%(\\left\\{\\begin{array}{l}\\mathbf{M G} / / \\mathbf{S H}, \\mathbf{M G} \\not \\subset \\mathbf{( S B C}) \\\\ \\mathbf{S H} \\subset \\mathbf{( S B C})\\end{array} \\Rightarrow \\mathbf{M G} / /(\\mathrm{SBC})\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.75,
+        "content": "c) Mặt phẳng %((\\alpha))% qua %(M)% và song song với %(A D)% và %(S B,(\\alpha))% cắt các cạnh %(C D, S D, S A)% lần lượt tại các điểm %(\\mathrm{N}, \\mathrm{P}, \\mathrm{Q})%.Xác định thiết diện của mặt phẳng %((\\alpha))% với hình chóp %(S)%. %(A B C D)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\left\\{\\begin{array}{l}\\mathrm{M} \\in(\\alpha) \\cap(\\mathrm{ABCD}) \\\\ (\\alpha) / / \\mathrm{AD}\\end{array} \\Rightarrow(\\alpha) \\cap(\\mathrm{ABCD})=\\mathrm{MN} / / \\mathrm{AD}\\right. \\\\ \\left\\{\\begin{array}{l}\\mathrm{M} \\in(\\alpha) \\cap(\\mathrm{SAB}) \\\\ (\\alpha) / / \\mathrm{SB}\\end{array} \\Rightarrow(\\alpha) \\cap(\\mathrm{SAB})=\\mathrm{MQ} / / \\mathrm{SB}\\right. \\\\ \\left\\{\\begin{array}{l}\\mathrm{M} \\in(\\alpha) \\cap(\\mathrm{SAD}) \\\\ (\\alpha) / / \\mathrm{AD}\\end{array} \\Rightarrow(\\alpha) \\cap(\\mathrm{SAD})=\\mathrm{PQ} / / \\mathrm{AD}\\right. \\\\end{array})%<br>%((\\alpha) \\cap(S C D)=P Q)%%(\\Rightarrow)% Thiết diện là tứ giác MNPQ",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 0.75,
+        "content": "Giải phương trình lượng giác sau : %(\\frac{\\boldsymbol{\\operatorname { s i n } x}+\\boldsymbol{\\operatorname { s i n }} 2 \\mathbf{x}}{\\sin 3 \\mathbf{x}}=-\\mathbf{1})%",
+        "question_images": [],
+        "solution": "ĐK: %(\\sin 3 \\mathrm{x} \\neq 0 \\Leftrightarrow x \\neq \\frac{k \\pi}{3} \\quad(\\mathrm{k} \\in \\mathrm{Z}))%<br>PT %(\\Leftrightarrow 2 \\sin 2 x \\cdot \\cos x+\\sin 2 x=0 \\Leftrightarrow\\left[\\begin{array}{l}\\sin 2 x=0 \\\\ \\cos x=-\\frac{1}{2}\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{k \\pi}{2} \\\\ x= \\pm \\frac{2 \\pi}{3}+k 2 \\pi\\end{array}\\right.\\right.)%<br>So điều kiện ta được nghiệm của PT là : %(\\mathbf{x}=\\frac{\\boldsymbol{\\pi}}{\\mathbf{2}}+\\mathbf{k} \\boldsymbol{\\pi}, \\mathrm{k} \\in \\mathrm{Z})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 0.75,
+        "content": "Từ các chữ số %(0 ; 1 ; 2 ; 3 ; 4 ; 5 ; 6 ; 7 ; 8 ; 9)% có thể lập được tất cả bao nhiêu số tự nhiên chẵn có năm chữ số khác nhau và trong năm chữ số đó có đúng hai chữ số lẻ và hai chữ số lẻ này không đứng cạnh nhau .",
+        "question_images": [],
+        "solution": "Số tự nhiên chã̃n gồm 5 chữ số khác nhau và có đúng 2 chữ số lẻ có dạng %(n=\\overleftarrow{a b c d e}:)%%(\\mathrm{e} \\in\\{0 ; 2 ; 4 ; 6 ; 8\\})% : e có 5 cách<br>chọn 2 chữ số lẻ trong 5 chữ số lẻ : %(C_{5}^{2})% cách<br>chọn 2 chữ số chẵn còn lại khác %(\\mathrm{e}: C_{4}^{2})% cách<br>xếp 4 chữ số vừa chon : 4 ! cách<br>%(\\Rightarrow)% có %(5 C_{5}^{2} C_{4}^{2} 4!-4 C_{5}^{2} C_{3}^{1} 3!=\\mathbf{6 4 8 0})% số (trừ số %(x=\\overleftarrow{0 b c d e})%<br>Số tự nhiên chẵn gồm 5 chữ số khác nhau và có đúng 2 chữ số lẻ đứng cạnh nhau có :<br>\\[5 A_{5}^{2} \\cdot 3 A_{4}^{2}-4 A_{5}^{2} \\cdot 2 \\cdot 3=\\mathbf{3 1 2 0} \\mathbf{~} \\mathbf{s}\\]<br>Suy ra có : %(6480-3120=\\mathbf{3 3 6 0})% số",
+        "question_type": "essay"
+    }
+]

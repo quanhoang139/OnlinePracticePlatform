@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Cho biểu thức %(A=\\frac{a \\sqrt{a}-b \\sqrt{b}}{a-b}-\\frac{a}{\\sqrt{a}+\\sqrt{b}}-\\frac{b}{\\sqrt{b}-\\sqrt{a}})% với %(a, b\\gt 0)% và %(a \\neq b)%<br>Rút gọn và tính giá trị biểu thức %(B=\\frac{A}{\\Gamma})% khi %(\\mathrm{a}=\\sqrt[3]{8 \\sqrt{5}-16} ; \\mathrm{b}=\\sqrt{5}+1)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Ta có: } A=\\frac{a \\sqrt{a}-b \\sqrt{b}}{a-b}-\\frac{a}{\\sqrt{a}+\\sqrt{b}}-\\frac{b}{\\sqrt{b}-\\sqrt{a}} \\\\ =\\frac{(\\sqrt{a}-\\sqrt{b})(a+b+\\sqrt{a b})}{(\\sqrt{a}-\\sqrt{b})(\\sqrt{a}+\\sqrt{b})}-\\frac{a}{\\sqrt{a}+\\sqrt{b}}+\\frac{b}{\\sqrt{a}-\\sqrt{b}}=\\frac{a+b+\\sqrt{a b}}{\\sqrt{a}+\\sqrt{b}}-\\frac{a}{\\sqrt{a}+\\sqrt{b}}+\\frac{b}{\\sqrt{a}-\\sqrt{b}} \\\\ =\\frac{b+\\sqrt{a b}}{\\sqrt{a}+\\sqrt{b}}+\\frac{b}{\\sqrt{a}-\\sqrt{b}}=\\frac{\\sqrt{b}(\\sqrt{a}+\\sqrt{b})}{\\sqrt{a}+\\sqrt{b}}+\\frac{b}{\\sqrt{a}-\\sqrt{b}}=\\sqrt{b}+\\frac{b}{\\sqrt{a}-\\sqrt{b}}=\\frac{\\sqrt{b}(\\sqrt{a}-\\sqrt{b})+b}{\\sqrt{a}-\\sqrt{b}} \\\\ \\frac{\\sqrt{a b}}{\\sqrt{a}-\\sqrt{b}} \\\\ \\Rightarrow B=\\frac{A}{\\sqrt{a}+\\sqrt{b}}=\\frac{\\frac{\\sqrt{a b}}{\\sqrt{a}-\\sqrt{b}}}{\\sqrt{a}+\\sqrt{b}}=\\frac{\\sqrt{a b}}{a-b} \\\\end{array})%<br>Ta nhận thấy rằng %(a=\\sqrt[3]{8 \\sqrt{5}-16}=\\sqrt[3]{(\\sqrt{5}-1)^{3}}=\\sqrt{5}-1)%.<br>Thế %(a)% và %(b)% vào %(B)%, ta có:<br>\\[B=\\frac{\\sqrt{a b}}{a-b}=\\frac{\\sqrt{(\\sqrt{5}-1)(\\sqrt{5}+1)}}{(\\sqrt{5}-1)-(\\sqrt{5}+1)}=\\frac{\\sqrt{5-1}}{\\sqrt{5}-1-\\sqrt{5}-1}=-1 \\text {. }\\]<br>Vậy %(B=-1)% khi %(a=\\sqrt[3]{8 \\sqrt{5}-16} ; b=\\sqrt{5}+1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Chứng minh rằng biểu thức %(C=4 x(x+y)(x+y+z)(x+z)+y^{2} z^{2})% là một số chính phương với %(x, y, z)% là các số nguyên.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{aligned}C= & 4 x(x+y)(x+y+z)(x+z)+y^{2} z^{2} \\\\= & 4\\left(x^{2}+x y+x z\\right)\\left(x^{2}+x y+y z+z x\\right)+\\left(\\left(x^{2}+x y+y z+x x\\right)-\\left(x^{2}+x y+x z\\right)\\right)^{2} \\\\& =\\left(\\left(x^{2}+x y+y z+z x\\right)+\\left(x^{2}+x y+x z\\right)\\right)^{2}=\\left(2 x^{2}+2 x y+2 x z+y z\\right)^{2}\\end{aligned}\\]<br>Do %(x, y, z \\in \\mathbb{Z})% nên ta có đpcm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho đa thức %(f(x)=\\left(1+x+x^{3}\\right)^{2023}=a_{4046} x^{4045}+a_{4045} x^{4045}+\\ldots . .+a_{1} x+a_{0})%. Gọi %(m)% là tổng các hệ số ứng với lũy thừa bậc chẵn của biến %(x ; n)% là tổng các hệ số ứng với lũy thừa bậc lẻ của biến %(x)%. Chứng minh rằng %(m)% là số chẵn và %(n)% là số lẻ.",
+        "question_images": [],
+        "solution": "Thế lần lượt %(x=1)% và %(x=-1)% vào %(f(x))%, ta có:<br>\\[\\left\\{\\begin{array} { l } { f ( 1 ) = ( 1 + 1 + 1 ) ^ { 2 0 2 3 } = \\sum _ { i = 0 } ^ { 2 0 2 3 } x _ { 2 i } + \\sum _ { i = 0 } ^ { 2 0 2 2 } x _ { 2 i + 1 } } \\\\{ f ( - 1 ) = ( 1 + ( - 1 ) + ( - 1 ) ^ { 2 } ) ^ { 2 0 2 3 } = \\sum _ { i = 0 } ^ { 2 0 2 3 } x _ { 2 i } - \\sum _ { i = 0 } ^ { 2 0 2 2 } x _ { 2 i + 1 } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { m + n = 3 ^ { 2 0 2 3 } } \\\\{ m - n = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}m=\\frac{3^{2023}+1}{2} \\n=\\frac{3^{2023}-1}{2}\\end{array}\\right.\\right.\\right.\\]<br><br>Do %(3 \\equiv(-1)(\\bmod 4) \\Rightarrow 3^{2023} \\equiv(-1)^{2023} \\equiv(-1)(\\bmod 4))%.<br>Đặt %(3^{2023}=4 k-1()% Đ %(\\cdot k \\in \\mathbb{Z}))%. %(\\Rightarrow\\left\\{\\begin{array}{l}m=\\frac{3^{2023}+1}{2}=\\frac{(4 k-1)+1}{2}=2 k \\\\ n=\\frac{3^{2023}-1}{2}=\\frac{(4 k-1)-1}{2}=2 k-1\\end{array}\\right.)%.<br>Từ đây ta suy ra đpcm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tìm số tự nhiên có hai chữ số %(\\overline{a b})% thỏa mãn %(\\sqrt{a+b}=\\frac{\\overline{a b}}{a+b})%.",
+        "question_images": [],
+        "solution": "Để ý rằng %(V P \\in \\mathbb{Q} \\Rightarrow V T \\in \\mathbb{Q} \\Rightarrow a+b)% là số chính phương (1).<br>Giả thiết tương đương %(\\overline{a b}=(a+b) \\sqrt{a+b} \\geq 10 \\Rightarrow a+b \\geq 5)% (Do %(a+b \\in \\mathbb{Z})% ).<br>Kết hợp %(a+b \\leq 9+9=18)% và %((1) \\Rightarrow a+b \\in\\{9 ; 16\\})%.<br>Xét %(a+b=9 \\Rightarrow \\overline{a b}=(a+b) \\sqrt{a+b}=9 \\cdot \\sqrt{9}=27)% (Thỏa mãn %(a+b=9)% ).<br>Xét %(a+b=16 \\Rightarrow \\overline{a b}=(a+b) \\sqrt{a+b}=16 \\cdot \\sqrt{16}=64)% (Không thỏa mãn %(a+b=16)% ).<br>Vậy số cần tìm là 27 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Giải phương trình %((x+4) \\sqrt{x^{2}+7}=x^{2}+4 x+7)%.",
+        "question_images": [],
+        "solution": "ĐКХĐ: %(x \\in \\mathbb{R})%.Phương trình tương đương: %(2(x+4) \\sqrt{x^{2}+7}=2 x^{2}+8 x+14)%<br>\\[\\Leftrightarrow\\left(x^{2}+7\\right)+(x+4)^{2}-9=2(x+4) \\sqrt{x^{2}+7} \\Leftrightarrow\\left(\\sqrt{x^{2}+7}-x-4\\right)^{2}=9 \\Rightarrow \\sqrt{x^{2}+7}-x-4= \\pm 3 \\text {. }\\]<br>Xét %(\\sqrt{x^{2}+7}-x-4=3 \\Leftrightarrow \\sqrt{x^{2}+7}=x+7 \\Rightarrow(x+7)^{2}=x^{2}+7)% (DK: %(\\left.x \\geq-7\\right))%.<br>%(\\Leftrightarrow x^{2}+14 x+49=x^{2}+7 \\Leftrightarrow 14 x+42=0 \\Leftrightarrow x=-3)% (Thỏa mãn ĐKXĐ và ĐK).<br>Xét %(\\sqrt{x^{2}+7}-x-4=-3 \\Leftrightarrow \\sqrt{x^{2}+7}=x+1 \\Rightarrow x^{2}+7=(x+1)^{2})% (ĐK %(\\left.x \\geq-1\\right))%.<br>%(\\Leftrightarrow x^{2}+2 x+1=x^{2}+7 \\Leftrightarrow 2 x-6=0 \\Leftrightarrow x=3)% (Thỏa mãn ĐKX và ĐK ).<br>Vậy phương trình có tập nghiệm %(S=\\{ \\pm 3\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho %(x, y)% là hai số dương. Tìm giá trị lớn nhất của biểu thức %(D=\\frac{(x+y)(1+x y)}{\\left(x^{2}+1\\right)\\left(y^{2}+1\\right)})%.",
+        "question_images": [],
+        "solution": "Áp dụng BĐT Bunhia vào %(\\left(x^{2}+1\\right)\\left(y^{2}+1\\right))%, ta có:<br>%(\\left(x^{2}+1\\right)\\left(y^{2}+1\\right)=\\sqrt{\\left(x^{2}+1\\right)\\left(y^{2}+1\\right)} \\cdot \\sqrt{\\left(x^{2}+1\\right)\\left(1+y^{2}\\right)} \\geq \\sqrt{(x y+1.1)^{2}} \\sqrt{(x: 1+1 \\cdot y)^{2}})%%(=(x+y)(1+x y) )%<br>Áp dụng vào biểu thức %(D)%, ta có:%(D=\\frac{(x+y)(1+x y)}{\\left(x^{2}+1\\right)\\left(y^{2}+1\\right)} \\leq \\frac{(x+y)(1+x y)}{(x+y)(1+x y)}=1)%.<br>Vậy %(\\operatorname{Max} D=1)%. Dấu bằng xảy ra khi %(x=y=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác nhọn %(A B C)% có hai đường cao %(B D)% và %(C E)% cắt nhau tại %(H)%. Các tia phân giác của %(\\mathrm{EHB}, \\mathrm{DHC})% cắt %(A B, A C)% lần lượt tại I và K",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng %(A I=A K)%.",
+        "question_images": [],
+        "solution": "Ta có %(H I)% là tia phân giác %(E H B \\Rightarrow I H E=I H B=\\frac{1}{2} E H B)%.<br>Tương tự ta có %(D H K=C H K=\\frac{1}{2} D H C)%.<br>Mà %(E H B=D H C)% (hai góc đối đỉnh) %(\\Rightarrow D H K=C H K=I H B=I H E=\\frac{1}{2} E H B=\\frac{1}{2} D H C)% (1).<br>Lại có: %(I H E+I H C=E H C=180^{\\circ} \\Rightarrow K H C+I H C=180^{\\circ} \\Leftrightarrow I H K=180^{\\circ} \\Rightarrow I, H, K)% thẳng hàng.<br>Xét %(\\triangle I H E)% vuông ở %(E \\Rightarrow H I E=90^{\\circ}-I H E)%.<br>Tương tự, %(H K D=90^{\\circ}-D H K)%.<br>Kết hợp với (1) %(\\Rightarrow H K D=H I E)% (2).<br>Xét %(\\triangle A I K)% có (2) %(\\Rightarrow \\triangle A I K)% cân ở %(A \\Rightarrow A I=A K)% (đpcm).<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4a98b366421ccfa4d9c05ff78a80f523.png\" srcset=\"https://docdn.giainhanh.io/media/test/e086d9b901bbe43751769c6a583e3983.png 232w, https://docdn.giainhanh.io/media/test/ea65e86d6429ee9ffcc9d9e28e7187d8.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Qua %(I)% và %(K)% lần lượt vẽ các đường vuông góc với %(A B)% và %(A C)% chúng cắt nhau tại %(M)%. Giả sử hai đỉnh %(B, C)% cố định, đỉnh %(A)% thay đổi. Chứng minh đường thẳng %(H M)% luôn đi qua một điểm cố định.",
+        "question_images": [],
+        "solution": "Gọi %(P, Q, L, N)% lần lượt là giao điểm của %(I M)% và %(B H, M K)% và %(C H, H M)% và %(P Q, H M)% và %(B C)%.<br>Xét tứ giác %(H P M Q)% có %(P M / / H Q)% (cùng vuông góc %(A B)% ), %(P H / / M Q)% (cùng vuông góc %(A C)% )%(\\Rightarrow H P M Q)% là hình bình hành %(\\Rightarrow P L=Q L(3))%.<br>Xét %(\\triangle B H E)% có %(P I / / H E \\Rightarrow \\frac{P H}{P B}=\\frac{I E}{I B})% (Áp dụng định li Thales) (4).<br>Xét %(\\triangle B H E)% có %(H I)% là tia phân giác %(E H B \\Rightarrow \\frac{I E}{I B}=\\frac{H E}{H B})%.<br>Kết hợp với (4) %(\\Rightarrow \\frac{P H}{P B}=\\frac{H E}{H B})% (5).<br>Tương tự ta có %(\\frac{H Q}{Q C}=\\frac{H D}{H C})% (6).<br>Xét %(\\triangle E H B)% và %(\\triangle D H C)% có (1) và %(H E B=H D C=90^{\\circ})%<br>%(\\Rightarrow \\triangle E H B \\sim \\triangle D H C(\\mathrm{~g} \\cdot \\mathrm{g}) \\Rightarrow \\frac{H E}{H B}=\\frac{H D}{H C})%.<br>Kết hợp (5) và (6) %(\\Rightarrow \\frac{P H}{P B}=\\frac{H Q}{C Q})% (7).<br>Xét %(\\triangle B H C)% có %((7) \\Rightarrow P Q / / B C)% (Áp dụng định li Thales đảo) %(\\Rightarrow \\frac{B N}{C N}=\\frac{P L}{Q L}=1)%(Do có (3)).<br>%(\\Rightarrow N)% là trung điểm của %(B C)%. Mà %(B C)% cố định %(\\Rightarrow N)% cố đđ̣nh.<br>Nhận thấy rằng %(H M)% đi qua %(N)% nên ta có đp cm .",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 0.5,
+        "content": "Cho tam giác %(A B C)% có hai đỉnh %(B, C)% cố định, đỉnh %(A)% thay đồi thỏa mãn hai đường trung tuyến %(B M)% và %(C N)% vuông góc với nhau. Tím giá trị nhỏ nhất của biểu thức %(P=\\cot B+\\cot C)%.",
+        "question_images": [],
+        "solution": "Kè %(A H \\perp B C(H \\in B C))%. Gọi %(G)% là giao diểm của %(B M)% và %(C N)%. Đặt %(G M=b ; G N=a)%.<br>Xét %(\\triangle A B C)% có trung tuyến %(B M)% cắt trung tuyến %(C N)% tại %(G \\Rightarrow G)% là trọng tâm %(\\triangle A B C)%. %(\\Rightarrow B G=2 G M=2 b ; G C=2 G N=2 a)%.<br>Xét %(\\triangle G N B ; \\triangle G M C ; \\triangle B G C)% lần lượt đều vuông ờ %(G)%<br>\\[\\Rightarrow\\left\\{\\begin{array} { l } { B N = \\sqrt { G N ^ { 2 } + G B ^ { 2 } } = \\sqrt { a ^ { 2 } + 4 b ^ { 2 } } } \\\\{ C M = \\sqrt { G M ^ { 2 } + G C ^ { 2 } } = \\sqrt { 4 a ^ { 2 } + b ^ { 2 } } } \\\\{ B C = \\sqrt { B G ^ { 2 } + C G ^ { 2 } } = 2 \\sqrt { a ^ { 2 } + b ^ { 2 } } }\\end{array} \\Rightarrow \\left\\{\\begin{array}{l}A B=2 B N=2 \\sqrt{a^{2}+4 b^{2}} \\A C=2 C M=2 \\sqrt{4 a^{2}+b^{2}}\\end{array}\\right.\\right.\\]<br>Vỉ %(B C)% cố định nên %(a^{2}+b^{2})% cố định.Xét %(\\triangle A B C)% ta lại có:<br>\\[\\begin{array}{l}\\cos A=\\frac{A B^{2}+A C^{2}-B C^{2}}{2 A B \\cdot A C} \\geq \\frac{A B^{2}+A C^{2}-B C^{2}}{A B^{2}+A C^{2}} \\text { (Áp dụng BĐT Cauchy) } \\\\Leftrightarrow \\cos A \\geq \\frac{4\\left(a^{2}+4 b^{2}\\right)+4\\left(4 a^{2}+b^{2}\\right)-4\\left(a^{2}+b^{2}\\right)}{4\\left(a^{2}+4 b^{2}\\right)+4\\left(4 a^{2}+b^{2}\\right)}=\\frac{4}{5} \\Rightarrow \\sin A=\\sqrt{1-\\cos ^{2} A} \\leq \\sqrt{1-\\left(\\frac{4}{5}\\right)^{2}}=\\frac{3}{5} . \\\\Rightarrow S_{A B C}=\\frac{1}{2} A B \\cdot A C \\cdot \\sin A \\leq \\frac{A B^{2}+A C^{2}}{4} \\cdot \\frac{3}{5} \\text { (Áp dụng BĐT Cauchy) } \\\\Leftrightarrow S_{A B C} \\leq \\frac{4\\left(a^{2}+4 b^{2}\\right)+4\\left(4 a^{2}+b^{2}\\right)}{4} \\cdot \\frac{3}{5}=3\\left(a^{2}+b^{2}\\right) . \\text { Mặt khác, } S_{A B C}=\\frac{1}{2} A H \\cdot B C\\end{array}\\]<br>%(\\Rightarrow S_{A B C}=\\frac{1}{2} A B \\cdot A C \\cdot \\sin A \\leq \\frac{A B^{2}+A C^{2}}{4} \\cdot \\frac{3}{5})% (Áp dụng BĐT Cauchy)<br>%(\\Leftrightarrow S_{A B C} \\leq \\frac{4\\left(a^{2}+4 b^{2}\\right)+4\\left(4 a^{2}+b^{2}\\right)}{4} \\cdot \\frac{3}{5}=3\\left(a^{2}+b^{2}\\right))%.<br>Mặt khác, %(S_{A B C}=\\frac{1}{2} A H \\cdot B C)%%(\\Rightarrow A H=\\frac{2 S_{A B C}}{B C} \\leq \\frac{2 \\cdot 3\\left(a^{2}+b^{2}\\right)}{2 \\sqrt{a^{2}+b^{2}}}=3 \\sqrt{a^{2}+b^{2}})%.<br>Xét %(\\triangle A H B)% và %(\\triangle A H C)% lần luợt đều vuông ở %(H)%<br>\\[\\Rightarrow\\left\\{\\begin{array}{l}\\cot B=\\frac{B H}{A H} \\\\cot C=\\frac{C H}{A H}\\end{array} \\Rightarrow \\cot B+\\cot C=\\frac{B H}{A H}+\\frac{C H}{A H}=\\frac{B C}{A H} \\geq \\frac{B C}{3 \\sqrt{a^{2}+b^{2}}}=\\frac{2 \\sqrt{a^{2}+b^{2}}}{3 \\sqrt{a^{2}+b^{2}}}=\\frac{2}{3} .\\right.\\]<br>Vậy GTNN của %(\\cot B+\\cot C)% là %(\\frac{2}{3})%.<br>Đạt được khi %(\\triangle A B C)% cân ở %(A)%.<br><i><strong><u>Lưu Ý:</u></strong></i> Ở trong bài làm có sử dụng công thức %(\\cos A=\\frac{A B^{2}+A C^{2}-B C^{2}}{2 A B \\cdot A C})% và %(S_{A B C}=\\frac{1}{2} A B \\cdot A C \\cdot \\sin A)%, hai công thức này ở trong các kì thi HSG cấp THCS thường không được áp dụng trực tiếp, vì thế nên trong bài làm, chúng ta nên chứng minh nó qua bài toán phụ hoặc trực tiếp trong bài toán.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e917d93cdc9bc1fccd94152590ab395c.png\" srcset=\"https://docdn.giainhanh.io/media/test/e96e8ad1dd2d14d5fdee2d63df820915.png 117w\" width=\"117\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 0.5,
+        "content": "Cho hình lập phương trong đó mỗi mặt tương ứng được ghi một số trong tập hợp %(\\{1 ; 2 ; 3 ; 4 ; 5 ; 6\\})% (số được ghi trên hai mặt bất kỳ là khác nhau). Hỏi có thể ghi số trên các mặt sao cho số trên mỗi mặt là ước của tổng bốn số trên các mặt bên cạnh nó? Vì sao?",
+        "question_images": [],
+        "solution": "Gọi các số được ghi ở 6 mặt của hình lập phương đó lần lượt là %(a_{1} ; a_{2} ; \\ldots ; a_{6})%.<br>Không mất tính tổng quát, giả sử %(a_{1})% đối điện với %(a_{6} ; a_{2})% đối diện vơii %(a_{4} ; a_{3})% đối điện với %(a_{5})%.<br>Giả sử tồn tại cách ghi thỏa mãn. Để ý rằng tổng các mặt luôn bằng %(1+2+\\ldots+6=21)% không đổi.<br>Theo bài ra ta có: %(\\left\\{\\begin{array}{l}\\left(a_{2}+a_{3}+a_{4}+a_{5}\\right) \\vdots a_{1} \\\\ \\left(a_{2}+a_{3}+a_{4}+a_{5}\\right) \\vdots a_{6}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}\\left(21-a_{1}-a_{6}\\right)!a_{1} \\\\ \\left(21-a_{1}-a_{6}\\right) \\vdots a_{6}\\end{array} \\Rightarrow\\left(21-a_{1}-a_{6}\\right):\\left[a_{1}, a_{6}\\right]\\right.\\right.)%<br>%(\\Rightarrow 21-a_{1}-a_{6} \\geq\\left[a_{1}, a_{6}\\right] \\Leftrightarrow a_{1}+a_{6}+\\left[a_{1}, a_{6}\\right] \\leq 21)% (2).<br>Từ (2) ta thấy số 5 có thể đối điện số 1,2 ; số 4 và số 6 có thể đối điện số %(1,2,3)%.Do (1) nên %(a_{1})% và %(a_{6})% không thể cùng là số chẵn.<br>Vì thế số 4 và số 6 chỉ có thể đối diện số 1,3 .<br>Như vậy để tồn tại cách ghi thỏa mãn thì bắt buộc số 5 đối diện số 2 .<br>Tuy nhiên nếu vậy thì lại không thỏa mãn (1), mâu thuẫn với giả sử.<br>Vậy không tồn tại cách ghi thỏa mãn đề bài.",
+        "question_type": "essay"
+    }
+]

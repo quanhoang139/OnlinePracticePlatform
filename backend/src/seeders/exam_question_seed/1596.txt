@@ -1,0 +1,65 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "Giải các phương trình sau:",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "%(\\sin 2 x=\\sin \\frac{\\pi}{5})%",
+        "question_images": [],
+        "solution": "%(\\Leftrightarrow\\left[\\begin{array}{l}2 x=\\frac{\\pi}{5}+k 2 \\pi \\\\ 2 x=\\pi-\\frac{\\pi}{5}+k 2 \\pi\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{\\pi}{10}+k \\pi \\\\ x=\\frac{2 \\pi}{5}+k \\pi\\end{array}(k \\in \\mathbb{Z})\\right.\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "%(\\cot \\left(x+50^{\\circ}\\right)=\\sqrt{3})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\Leftrightarrow \\cot \\left(x+50^{\\circ}\\right)=\\cot 30^{\\circ} \\\\ \\Leftrightarrow x+50^{\\circ}=30^{\\circ}+k 180^{\\circ} \\Leftrightarrow x=-20^{\\circ}+k 180^{\\circ} \\quad(k \\in \\mathbb{Z})\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "%(\\cos \\left(3 x-\\frac{\\pi}{4}\\right)=\\cos 2 x)%",
+        "question_images": [],
+        "solution": "%(\\Leftrightarrow\\left[\\begin{array}{l}3 x-\\frac{\\pi}{4}=2 x+k 2 \\pi \\\\ 3 x-\\frac{\\pi}{4}=-2 x+k 2 \\pi\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{\\pi}{4}+k 2 \\pi \\\\ x=\\frac{\\pi}{20}+k \\frac{2 \\pi}{5}\\end{array}(k \\in \\mathbb{Z})\\right.\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "d) ",
+        "point": 2.0,
+        "content": "%(\\sin (x+6)=2 \\cos ^{2} 5 x-1)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\Leftrightarrow \\sin (x+6)=\\cos 10 x \\Leftrightarrow \\sin (x+6)=\\sin \\left(\\frac{\\pi}{2}-10 x\\right) \\\\ \\Leftrightarrow\\left[\\begin{array}{l}x+6=\\frac{\\pi}{2}-10 x+k 2 \\pi \\\\ x+6=\\pi-\\frac{\\pi}{2}+10 x+k 2 \\pi\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{\\pi}{22}-\\frac{6}{11}+k \\frac{2 \\pi}{11} \\\\ x=-\\frac{\\pi}{18}+\\frac{2}{3}-k \\frac{2 \\pi}{9}\\end{array}(k \\in \\mathbb{Z})\\right.\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 2.0,
+        "content": "Chứng minh dãy số %(\\left(u_{n}\\right))% với %(u_{n}=1912+n\\left(n \\in \\mathbb{N}^{*}\\right))% là cấp số cộng. Xác định công sai, số hạng đầu của %(\\left(u_{n}\\right))%.",
+        "question_images": [],
+        "solution": "%(u_{n+1}=1912+(n+1)=1913+n)%<br>%(u_{n+1}-u_{n}=(1913+n)-(1912+n)=1, \\forall n \\in \\mathbb{N}^{*})%<br>Vậy %(\\left(u_{n}\\right))% là một CSC với công sai %(d=1, u_{1}=1912+1=1913)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 2.0,
+        "content": "Tìm số hạng đầu và công sai của cấp số cộng %(\\left(u_{n}\\right))% biết: %(\\left\\{\\begin{array}{l}u_{7}-u_{3}=-8 \\\\ u_{6} \\cdot u_{9}=72\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "%(\\begin{aligned}(1) & \\Leftrightarrow u_{1}+6 d-\\left(u_{1}+2 d\\right)=-8 \\Leftrightarrow d=-2 \\\\ (2) & \\Leftrightarrow\\left(u_{1}+5 d\\right) \\cdot\\left(u_{1}+8 d\\right)=72 \\\\ & \\Leftrightarrow u_{1}^{2}-26 u_{1}+88=0 \\Leftrightarrow\\left[\\begin{array}{l}u_{1}=4 \\\\ u_{1}=22\\end{array}\\right.\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 1.0,
+        "content": "Cho hai vật dao động điều hòa theo phương trình lần lượt là %(x_{1}(t)=8 \\cos \\left(4 \\pi t+\\frac{\\pi}{2}\\right)(\\mathrm{cm}))% và %(x_{2}(t)=-8 \\cos (4 \\pi t)(\\mathrm{cm}))%, trong đó %(x_{1}(t), x_{2}(t))% là li độ của hai vật tại thời điểm %(t)% (giây). Khi hai vật dao động trong thời gian từ 0 đến 10 giây, hỏi chúng có cùng li độ mấy lần?",
+        "question_images": [],
+        "solution": "Hai vật có cùng li độ khi: %(8 \\cos \\left(4 \\pi t+\\frac{\\pi}{2}\\right)=-8 \\cos (4 \\pi t)(*))%<br>%((*) \\Leftrightarrow \\cos \\left(4 \\pi t+\\frac{\\pi}{2}\\right)=\\cos (\\pi-4 \\pi t) \\Leftrightarrow\\left[\\begin{array}{l}4 \\pi t+\\frac{\\pi}{2}=\\pi-4 \\pi t+k 2 \\pi \\\\ 4 \\pi t+\\frac{\\pi}{2}=-\\pi+4 \\pi t+k 2 \\pi\\end{array}\\right.)%<br>\\[\\Leftrightarrow t=\\frac{1}{16}+\\frac{k}{4}(k \\in \\mathbb{Z})\\]<br>%(0 \\leq \\frac{1}{16}+\\frac{k}{4} \\leq 10 \\Leftrightarrow-\\frac{1}{4} \\leq k \\leq \\frac{159}{4})%<br>Vì %(k \\in \\mathbb{Z})% nên %(k=0,1,2, \\ldots, 39)%.<br>Vậy khi hai vật dao động trong thời gian từ 0 đến 10 giây, chúng có cùng li độ 40 lần.",
+        "question_type": "essay"
+    }
+]

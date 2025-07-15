@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1a ",
+        "point": 1.0,
+        "content": "Phân tích đa thức thành nhân tử : %(x^{4}+2019 x^{2}+2018 x+2019)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}x^{4}+2019 x^{2}+2018 x+2019=x^{4}-x+2019 x^{2}+2019 x+2019 \\\\=x(x-1)\\left(x^{2}+x+1\\right)+2019\\left(x^{2}+x+1\\right) \\\\=\\left(x^{2}+x+1\\right)\\left(x^{2}-x+2019\\right)\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.2 ",
+        "point": 1.0,
+        "content": "Cho biểu thức %(A=\\frac{x^{2}+x}{x^{2}-2 x+1}:\\left(\\frac{x+1}{x}+\\frac{1}{x-1}+\\frac{2-x^{2}}{x^{2}-x}\\right))%. Tìm giá trị nhỏ nhất của biểu thức %(A)% khi %(x\\gt 1)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}A=\\frac{x^{2}+x}{x^{2}-2 x+1}:\\left(\\frac{x+1}{x}+\\frac{1}{x-1}+\\frac{2-x^{2}}{x^{2}-x}\\right)(x>1) \\\\=\\frac{x(x+1)}{(x-1)^{2}}: \\frac{x^{2}-1+x+2-x^{2}}{x(x-1)}=\\frac{x(x+1)}{(x-1)^{2}} \\cdot \\frac{x(x-1)}{x+1}=\\frac{x^{2}}{x-1} \\\\=\\frac{x^{2}-1+1}{x-1}=x+1+\\frac{1}{x-1}=\\left(x-1+\\frac{1}{x-1}\\right)+2\\end{array}\\]<br>Áp dụng bất đẳng thức Cosi cho 2 số dương %(x-1)% và %(\\frac{1}{x-1})% ta được<br>\\[x-1+\\frac{1}{x-1} \\geq 2 \\sqrt{(x-1) \\cdot \\frac{1}{x-1}}=2 \\Leftrightarrow x-1+\\frac{1}{x-1}+2 \\geq 4 \\Leftrightarrow A \\geq 4\\]<br>Dấu bằng xảy ra khi %(x-1=\\frac{1}{x-1} \\Leftrightarrow(x-1)^{2}=1 \\Leftrightarrow\\left[\\begin{array}{l}x=2(\\mathrm{tm}) \\\\ x=0(\\mathrm{ktm})\\end{array}\\right.)%<br>Vậy %(\\operatorname{Min} A=4 \\Leftrightarrow x=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.3 ",
+        "point": 1.0,
+        "content": "Cho %(x y=1)%. Chứng minh rằng %(x^{5}+y^{5}=x^{3}+y^{3}+x^{2}+y^{2}-x-y)%",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{l}x^{3}+y^{3}+x^{2}+y^{2}-x-y=x^{5}+x^{3} y^{2}+x^{2} y^{3}+y^{5}-x-y \\\\=x^{5}+y^{5}+x^{2} y^{2}(x+y)-(x+y)=x^{5} y^{5}+(x+y)-(x+y)(\\text { do } x y=1) \\\\=x^{5}+y^{5}(\\text { dfcm })\\end{array}\\]<br>Vậy %(x^{5}+y^{5}=x^{3}+y^{3}+x^{2}+y^{2}-x-y)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.1 ",
+        "point": 1.0,
+        "content": "Giải phương trình nghiệm nguyên %(x^{3}+2 x^{2}+3 x+2=y^{3})%",
+        "question_images": [],
+        "solution": "Xét %(x=0)% ta thấy phương trình vô nghiệm.<br>Xét %(x \\neq 0)% ta có :<br>\\[\\begin{array}{l}y^{3}-x^{3}=2 x^{2}+3 x+2=2\\left[\\left(x+\\frac{3}{4}\\right)^{2}+\\frac{7}{16}\\right]\\gt 0 \\text { với mọi } \\mathrm{x} \\Rightarrow y^{3}>x^{3} \\y^{3}-(x+1)^{3}=-x^{2}+1 \\leq 0 \\text { với mọi } x \\neq 0, x \\in \\mathbb{Z} \\rightarrow y^{3}=(x+1)^{3} \\\\Rightarrow x^{3}\\lt y^{3}\\lt (x+1)^{3} \\text { mà } x, y \\in \\mathbb{Z} \\\\Rightarrow y^{3}=(x+1)^{3} \\Leftrightarrow-x^{2}+1=0 \\Leftrightarrow x^{2}=1 \\Leftrightarrow x= \\pm 1 \\x=1 \\Rightarrow y=2 ; x=-1 \\Rightarrow y=0\\end{array}\\]<br>Vậy phương trình có hai nghiệm %((x ; y) \\in\\{(1 ; 2) ;(-1 ; 0)\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.2 ",
+        "point": 1.0,
+        "content": "Cho %(a, b, c>0)%. Chứng minh rằng %(\\frac{a^{3}}{b}+\\frac{b^{3}}{c}+\\frac{c^{3}}{a} \\geq a b+b c+c a)%",
+        "question_images": [],
+        "solution": "Áp dụng bất đẳng thức Cosi cho hai số không âm ta có :<br>\\[\\frac{a^{3}}{b}+a b \\geq 2 \\sqrt{\\frac{a^{3}}{b} \\cdot a b}=2 a^{2}(1)\\]<br>Tương tự ta có %(: \\frac{b^{3}}{c}+b c \\geq 2 b^{2}~(2) ; \\frac{c^{3}}{a}+a c \\geq 2 c^{2}~(3))%<br>Từ (1), (2) và (3) %(\\Rightarrow \\frac{a^{3}}{b}+\\frac{b^{3}}{c}+\\frac{c^{3}}{a}+a b+b c+c a \\geq 2 a^{2}+2 b^{2}+2 c^{2}(4))%<br>Lại có %(a^{2}+b^{2} \\geq 2 a b, b^{2}+c^{2} \\geq 2 b c, c^{2}+a^{2} \\geq 2 a c)%<br>\\[\\Rightarrow 2 a^{3}+2 b^{3}+2 c^{3} \\geq 2 a b+2 b c+2 a c(5)\\]<br>Từ (4) và (5) suy ra %(\\frac{a^{3}}{b}+\\frac{b^{3}}{c}+\\frac{c^{3}}{a} \\geq a b+b c+c a(d f c m))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho %(\\triangle A B C)% vuông tại A và %(A B\\lt A C)%. Kẻ đường cao %(A H)%. Trong nửa mặt phẳng có chứa đỉnh %(A)%, bờ là đường thẳng %(B C)%, vẽ hình vuông %(A H D E)% (với D thuộc đoạn thẳng %(H C)% ). Gọi %(F)% là giao điểm của %(D E)% và AC. Đường thẳng qua %(F)% song song với %(A B)% cắt đường thẳng qua %(B)% song song với %(A C)% tại điểm %(G)%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tứ giác %(A B G F)% là hình vuông",
+        "question_images": [],
+        "solution": "Ta có %(A B / / F G(g t), B G / / A F(g t) \\Rightarrow A B G F)% là hình bình hành (1)<br>Xét %(\\triangle A E F)% và %(\\triangle A H B)% có : %(\\angle E=\\angle H=90^{\\circ}, A E=A H)% (ADHE là hình vuông)<br>%(\\angle E A P=\\angle H A B)% (cùng phụ với %(\\angle H A F)%)%(\\Rightarrow \\triangle A E F=\\triangle A H B)% (c.g.c)<br>%(\\Rightarrow A B=A F)% (2 cạnh tương ứng ) (2)<br>Từ (1) và (2) suy ra %(A B G F)% là hình thoi mà %(\\angle B A F=90^{\\circ}(g t))% nên %(A B G F)% là hình vuông.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/3e5934048bc74f28feab6db1a817876f.png\" srcset=\"https://docdn.giainhanh.io/media/test/0bc2b3373763d330dff9e17247f76e3f.png 189w, https://docdn.giainhanh.io/media/test/4c1b5c2e320473f57ae279f1721ed77e.png 500w, https://docdn.giainhanh.io/media/test/6a731eae664984a1d43cf722704ccb6c.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Tứ giác %(D E H G)% là hình thang",
+        "question_images": [],
+        "solution": "Gọi %(I)% là giao điểm của %(B D, F G)%<br>Xét %(\\triangle B I G)% và %(\\triangle F I D)% có : %(\\angle G=\\angle D=90^{\\circ}, \\angle B I G=\\angle F I D)% (đối đỉnh)%(\\Rightarrow \\triangle B I G \\sim \\Delta F I D(g . g) \\Rightarrow \\frac{I F}{I B}=\\frac{I D}{I G})%<br>\\[\\Rightarrow \\triangle B I G \\sim \\triangle G I D \\text { (c.g.c) } \\Rightarrow \\angle I D G=\\angle I F B\\]<br>Mà %(F B)% là phân giác của %(\\angle A F G=90^{\\circ})% (tính chất hình vuông)<br>\\[\\Rightarrow \\angle I F B=45^{\\circ} \\Rightarrow \\angle I D G=45^{\\circ}\\]<br>Lại có %(A H D E)% là hình vuông %(\\Rightarrow \\angle E H D=45^{\\circ} \\Rightarrow \\angle I D G=\\angle E H D)%<br>Mà %(\\angle I D G)% và %(\\angle E H D)% ở vị trí so le trong nên %(G D / / H E \\Rightarrow H G D E)% là hình thang.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Ba đường thẳng %(A G, B F, H E)% đồng quy.",
+        "question_images": [],
+        "solution": "Gọi O là giao điểm của %(H E, A D \\Rightarrow O)% là trung điểm của %(A D)% (tính chất hình vuông)<br>%(\\triangle A D G)% có %(O H / / G D(\\mathrm{cmt}), O)% là trung điểm của AD nên %(O H)% đi qua trung điểm J của AG (3) mà tứ giác %(A B G E)% là hình vuông (cmt)<br>%(\\Rightarrow B E)% cũng đi qua trung điểm J của AG (4)<br>Từ (3) và (4) ta có %(A G, B F, H E)% đồng quy tại J",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Cho %(\\triangle A B C)% vuông cân tại %(A)%. Gọi %(M, N)% lần lượt là trung điểm của %(A B, A C)%. Kẻ %(N H \\perp C M)% tại H. Kẻ %(H E \\perp A B)% tại E. Chứng minh rằng %(\\triangle A B H)% cân và %(H M)% là tia phân giác của %(\\angle B H E)%.",
+        "question_images": [],
+        "solution": "Dựng hình vuông %(A B C D)%<br>Xét %(\\triangle A C M)% và %(\\triangle C D N)% có : %(A C=C D)% (cạnh hình vuông), %(\\angle A=\\angle C=90^{\\circ})%%(A M=C N)% (nửa cạnh hình vuông)<br>%(\\Rightarrow \\triangle A C M=\\triangle C D N)% (c.g.c) %(\\Rightarrow \\angle A C M=\\angle C D N)% (hai góc tương ứng)<br>Mà %(\\angle M C D+\\angle C D N=90^{\\circ} \\Rightarrow \\angle M C D+\\angle C D N=90^{\\circ} \\Rightarrow C M \\perp N D)%<br>Mặt khác %(N H \\perp C M(g t) \\Rightarrow N, H, D)% thẳng hàngGọi P là trung điểm của %(D C)%<br>Mà %(M)% là trung điểm của %(A B, A B C D)% là hình vuông %((g t))%<br>%(\\Rightarrow B M / / C P ; B M=C P \\Rightarrow B M C P)% là hình bình hành<br>%(\\Rightarrow M C / / B P)%<br>Mà %(M C \\perp D H)% do %(M C \\perp N H \\Rightarrow B P \\perp D H(1))%<br>Mặt khác %(N H \\perp C M(g t) \\Rightarrow N, H, D)% thẳng hàng<br>Gọi P là trung điểm của %(D C)%<br>Mà %(M)% là trung điểm của %(A B, A B C D)% là hình vuông %((g t))%<br>%(\\Rightarrow B M / / C P ; B M=C P \\Rightarrow B M C P)% là hình bình hành<br>%(\\Rightarrow M C / / B P)%<br>Mà %(M C \\perp D H)% do %(M C \\perp N H \\Rightarrow B P \\perp D H(1))%<br>Gọi I là giao điểm của %(B P, D H \\Rightarrow I P / / H C)%%(\\triangle D H C)% có P là trung điểm %(D C, I P / / H C(\\mathrm{cmt}) \\Rightarrow I)% là trung điểm của HD (2)<br>Từ (1) và (2) suy ra %(B P)% là trung trực của %(H D \\Rightarrow B H=B D)%<br>Mà %(B D=A B)% ( ABDC là hình vuông)%(\\Rightarrow B H=A B \\Rightarrow \\triangle A B H)% cân tại B (đpcm)<br>Gọi F là giao điểm của %(H E, D C)%<br>Ta có %(E F / / B D)% (cùng vuông góc với %(A B) \\Rightarrow \\angle F H D=\\angle H D B)% (so le trong)<br>Mà %(B H=B D(\\mathrm{cmt}) \\Rightarrow \\triangle B H D)% cân tại %(\\mathrm{B} \\Rightarrow \\angle B H D=\\angle B D H)% (tính chất tam giác cân)%(\\Rightarrow \\angle B H D=\\angle F H D \\Rightarrow H D)% là phân giác ngoài của %(\\triangle H B E)%<br>Mặt khác %(H M \\perp H D(\\mathrm{cmt}) \\Rightarrow H M)% là phân giác trong của %(\\triangle H B E \\Rightarrow H M)% là phân giác của %(\\angle B H E)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/66bfb5018143b0bb782ee5e5f0cadff1.png\" srcset=\"https://docdn.giainhanh.io/media/test/9f517d9e46a51d6f26e52960268d844d.png 158w, https://docdn.giainhanh.io/media/test/f72b1bd8f218882b45da858756ef1da9.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho một đa giác đều gồm 2019 đỉnh. Người ta tô mỗi đỉnh của da giác bởi một màu xanh hoặc màu đỏ. Chứng minh rằng luôn tìm được ba đỉnh của đa giác là ba đỉnh của một tam giác cân được đánh dấu bởi cùng một màu.",
+        "question_images": [],
+        "solution": "Vì đa giác đều có 2019 đỉnh được tô bởi một trong hai màu xanh hoặc đỏ nên sẽ có 2 đỉnh liên tiếp cùng màu (do 2019 lẻ).<br>Không mất tính tổng quát, gọi 2 đỉnh đó là %(A)% và B có cùng màu xanh.<br>Gọi %(M)% là đỉnh nằm trên đường trung trực của %(A B \\Rightarrow \\triangle M A B)% cân tại M<br>+) nếu %(M)% có màu xanh %(\\Rightarrow \\triangle M A B)% cân có 3 đỉnh cùng màu xanh .<br>+) nếu %(M)% có màu đỏ. Xét 2 đỉnh kề với %(A)% và B là C và %(\\mathrm{D} \\Rightarrow \\triangle M C D)% cân tại M<br>%(C)%<br>%(\\Rightarrow \\triangle M C D)%<br>%(C)%<br>%(\\Rightarrow \\triangle A B D)%<br>%(\\triangle A B C)%<br>Vậy luôn tồn tại một tam giác cân có 3 đỉnh cùng màu.",
+        "question_type": "essay"
+    }
+]

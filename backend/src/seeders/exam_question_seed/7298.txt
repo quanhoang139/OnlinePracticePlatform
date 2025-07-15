@@ -1,0 +1,135 @@
+[
+    {
+        "title": "Câu 1",
+        "group_content": "Cho biểu thức %(A=\\left(1-\\frac{x-3 \\sqrt{x}}{x-9}\\right):\\left(\\frac{\\sqrt{x}-3}{2-\\sqrt{x}}+\\frac{\\sqrt{x}-2}{3+\\sqrt{x}}-\\frac{9-x}{x+\\sqrt{x}-6}\\right))%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Tìm %(x)% để biểu thức %(A)% có nghĩa và rút gọn biểu thức %(A)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { +) ĐK: }\\left\\{\\begin{array}{l}x \\geq 0 \\\\ \\sqrt{x}-2 \\neq 0 \\\\ x-9 \\neq 0 \\\\ \\frac{\\sqrt{x}-3}{2-\\sqrt{x}}+\\frac{\\sqrt{x}-2}{3+\\sqrt{x}}-\\frac{9-x}{x+\\sqrt{x}-6} \\neq 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 0 \\\\ x \\neq 4 \\\\ x \\neq 9\\end{array}\\right.\\right. \\\\ \\text { +) } A=\\left(1-\\frac{\\sqrt{x}(\\sqrt{x}-3)}{(\\sqrt{x}-3)(\\sqrt{x}+3)}\\right): \\frac{(\\sqrt{x}+3)(\\sqrt{x}-3)+(\\sqrt{x}+2)(2-\\sqrt{x})+9-x}{(2-\\sqrt{x})(\\sqrt{x}+3)} \\\\ =\\frac{3}{\\sqrt{x}+3}: \\frac{\\sqrt{x}-2}{3+\\sqrt{x}}=\\frac{3}{\\sqrt{x}-2} \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tính giá trị của %(A)% khi %(x=22+12 \\sqrt{2})%",
+        "question_images": [],
+        "solution": "%(A=\\frac{3}{\\sqrt{22+12 \\sqrt{2}-2}}=\\frac{3}{\\sqrt{(2+3 \\sqrt{2})^{2}-2}}=\\frac{3}{2+3 \\sqrt{2}-2}=\\frac{1}{\\sqrt{2}}=\\frac{\\sqrt{2}}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 1.0,
+        "content": "Cho %(x ; y)% thỏa mãn %(0\\lt x\\lt 1 ; 0\\lt y\\lt 1)% và %(\\frac{x}{1-x}+\\frac{y}{1-y}=1)%.<br>Tính giá trị của biểu thức %(P=x+y+\\sqrt{x^{2}-x y+y^{2}})%.",
+        "question_images": [],
+        "solution": "Ta có %(P=x+y+\\sqrt{x^{2}-x y+y^{2}}=x+y+\\sqrt{(x+y)^{2}-3 x y})%.<br>Thay %(\\frac{x}{1-x}+\\frac{y}{1-y}=1 \\Rightarrow 2 x+2 y-1=3 x y)% vào biểu thức %(P)% ta được<br>\\[\\begin{array}{l}P=x+y+\\sqrt{(x+y)^{2}-2(x+y)+1}=x+y+\\sqrt{(x+y-1)^{2}}=x+y+|x+y-1|=1 \\\\text { (vì } x+y \\leq 1 \\text { ). }\\end{array}\\]<br>Giải thích %(x+y \\leq 1)%.<br>Từ giả thiết ta có %(\\frac{x}{1-x} ; \\frac{y}{1-y})% là các số dương mà %(\\frac{x}{1-x}+\\frac{y}{1-y}=1)%, nên ta có %(\\left\\{\\begin{array}{l}\\frac{x}{1-x} \\leq 1 \\\\ \\frac{y}{1-y} \\leq 1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}\\frac{2 x-1}{1-x} \\leq 0 \\\\ \\frac{2 y-1}{1-y} \\leq 0\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}x \\leq \\frac{1}{2} \\\\ y \\leq \\frac{1}{2}\\end{array} \\Rightarrow x+y \\leq 1\\right.\\right.\\right.)%Vậy %(P=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 1.0,
+        "content": "Cho ba số dương %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% là các số thực dương. Chứng minh rằng:<br>\\[\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{b+a} \\geq \\frac{3}{2}\\]",
+        "question_images": [],
+        "solution": "Bất đẳng thức trên luôn đúng vì Ta có bđt phụ sau với %(\\mathrm{x}, \\mathrm{y}, \\mathrm{z}\\gt 0)% ta chứng minh được.<br>\\[\\begin{array}{l}(x+y+z)\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right) \\geq 9 \\\\Leftrightarrow\\left(\\frac{x}{y}+\\frac{y}{x}\\right)+\\left(\\frac{x}{z}+\\frac{z}{x}\\right)+\\left(\\frac{y}{z}+\\frac{z}{y}\\right) \\geq 6 \\\\text { luon / dung / vi / } \\frac{x}{y}+\\frac{y}{x} \\geq 2 ; \\frac{x}{z}+\\frac{z}{x} \\geq 2 ; \\frac{y}{z}+\\frac{z}{y} \\geq 2 \\\\text { Dấu }=\\text { xảy ra khi } \\mathrm{x}=\\mathrm{y}=\\mathrm{z}(*) \\\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{c}{b+a} \\geq \\frac{3}{2} \\Leftrightarrow \\frac{a}{b+c}+1+\\frac{b}{c+a}+1+\\frac{c}{b+a}+1 \\geq \\frac{3}{2}+3 \\\\Leftrightarrow \\frac{1}{2}[(b+c)+(c+a)+(b+a)]\\left[\\frac{1}{b+c}+\\frac{1}{c+a}+\\frac{1}{b+a}\\right] \\geq \\frac{9}{2} \\\\Leftrightarrow[(b+c)+(c+a)+(b+a)]\\left[\\frac{1}{b+c}+\\frac{1}{c+a}+\\frac{1}{b+a}\\right] \\geq 9 \\\\end{array}\\]<br>Bất đẳng thức luôn đúng vì theo %(\\mathrm{B})% ĐT %((*))% Dấu %(=)% xảy ra khi %(\\mathrm{a}=\\mathrm{b}=\\mathrm{c})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 2.5,
+        "content": "Giải phương trình: %(3 x^{3}-17 x^{2}-8 x+9+\\sqrt{3 x-2}-\\sqrt{7-x}=0)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { ĐKXĐ: } \\frac{2}{3} \\leq x \\leq 7 . \\\\ \\text { PT }(1) \\Leftrightarrow(\\sqrt{3 x-2}-4)-(\\sqrt{7-x}-1)+3 x^{3}-17 x^{2}-8 x+12=0 \\\\ \\Leftrightarrow(\\sqrt{3 x-2}-4)-(\\sqrt{7-x}-1)+(3 x-2)(x-6)(x+1)=0 \\\\ \\Leftrightarrow \\frac{3 x-18}{\\sqrt{3 x-2}+4}-\\frac{6-x}{\\sqrt{7-x}+1}+(3 x-2)(x-6)(x+1)=0 \\\\ \\Leftrightarrow(x-6)\\left(\\frac{3}{\\sqrt{3 x-2}+4}+\\frac{1}{\\sqrt{7-x}+1}+(3 x-2)(x+1)\\right)=0\\end{array})%<br>Vì %(\\frac{2}{3} \\leq x \\leq 7)% nên %(\\frac{3}{\\sqrt{3 x-2}+4}+\\frac{1}{\\sqrt{7-x}+1}+(3 x-2)(x+1)\\gt 0)%<br>Suy ra %(x-6=0 \\Leftrightarrow x=6(t / m))%<br>KL: PT (1) có nghiệm duy nhất %(x=6)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 2.5,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}\\frac{2 x^{2}}{(y+1)^{2}}+\\frac{2 y^{2}}{(x+1)^{2}}=1 \\\\ 3 x y-x-y=1\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "%(x \\neq-1, y \\neq-1)%<br>%((2) \\Leftrightarrow 4 x y=x y+x+y+1 \\Leftrightarrow 4 x y=(x+1)(y+1) \\Leftrightarrow \\frac{x}{y+1} \\cdot \\frac{y}{x+1}=\\frac{1}{4})%<br>Đặt %(\\frac{x}{y+1}=a ; \\frac{y}{x+1}=b)%<br>Ta có %(\\left\\{\\begin{array}{l}a^{2}+b^{2}=\\frac{1}{2} \\\\ a+b=\\frac{1}{4}\\end{array}\\right.)%<br>Giải hệ ta có %(\\quad\\left[\\begin{array}{l}a=b=\\frac{1}{2} \\\\ b=a=-\\frac{1}{2}\\end{array}\\right.)%<br>Với %(\\mathrm{a}=\\mathrm{b}=1 / 2)% ta tìm được %((\\mathrm{x}, \\mathrm{y})=(1 ; 1))%;<br>Với %(\\mathrm{a}=\\mathrm{b}=-1 / 2)% ta tìm được %((\\mathrm{x}, \\mathrm{y})=(-1 / 3 ;-1 / 3))%<br>KL: Hệ phương trình có 2 nghiệm %((1 ; 1) ;(-1 / 3 ;-1 / 3))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6",
+        "group_content": "Cho tam giác %(\\mathrm{ABC})% có ba góc nhọn nội tiếp đường tròn %((\\mathrm{O}))% và trực tâm là %(\\mathrm{H})%. Lấy điểm %(\\mathrm{M})% thuộc cung nhỏ %(\\mathrm{BC})%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Xác định vị trí của điểm %(\\mathrm{M})% sao cho tứ giác %(\\mathrm{BHCM})% là hình bình hành.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e0ccaa60311ef2d7333363598a1910cd.png\" srcset=\"https://docdn.giainhanh.io/media/test/bad4437bb5a81e1f70fa969c050f19d1.png 245w, https://docdn.giainhanh.io/media/test/e304984f678d1b4ef37887c1cb0e9812.png 500w, https://docdn.giainhanh.io/media/test/d50643e5312373980c2537a3c5dbd686.png 750w\" width=\"750\"/><br>Xác định vị trí của điềm %(\\mathrm{M})% sao cho tứ giác %(\\mathrm{BHCM})% là hình bình hành.<br>Ta có: %(\\mathrm{BH} \\perp \\mathrm{AC} ; \\mathrm{CH} \\perp \\mathrm{AB})% (vì %(\\mathrm{H})% là trực tâm tam giác %(\\mathrm{ABC})% )<br>Tứ giác %(\\mathrm{BHCM})% là hình bình hành<br>%(\\Leftrightarrow \\mathrm{BH} / / \\mathrm{MC})% và %(\\mathrm{CH} / / \\mathrm{MB})%<br>%(\\Leftrightarrow A C \\perp M C)% và %(A B \\perp M B)%<br>%(\\Leftrightarrow \\mathrm{AM})% là đường kính của %((\\mathrm{O}))%<br>%(\\Leftrightarrow \\mathrm{M})% là điểm đối xứng của %(\\mathrm{A})% qua %(\\mathrm{O})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Với %(\\mathrm{M})% lấy bất kì thuộc cung nhỏ %(\\mathrm{BC})%; gọi %(\\mathrm{N}, \\mathrm{E})% lần lượt là các điểm đối xứng của %(\\mathrm{M})% qua %(\\mathrm{AB})% và %(A C)%. Chứng minh tứ giác %(A H B N)% nội tiếp.",
+        "question_images": [],
+        "solution": "Ta có: %(\\widehat{M}_{1}=\\widehat{N}_{1}(\\mathrm{~T} / \\mathrm{c})% đối xứng trục %())%<br>\\[\\begin{aligned}\\widehat{M}_{1} & =\\widehat{C}_{1} \\text { (góc nội tiếp cùng chắn cung } \\mathrm{AB} \\text { ) } \\\\Rightarrow \\widehat{N}_{1} & =\\widehat{C}_{1} \\text {, mà } \\widehat{A H B}+\\widehat{C}_{1}=180^{\\circ}\\end{aligned}\\]<br>Do đó: %(\\widehat{A H B}+\\widehat{N_{1}}=180^{\\circ} \\Rightarrow)% Tứ giác NAHB nội tiếp.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Chứng minh ba điểm %(\\mathrm{N}, \\mathrm{H}, \\mathrm{E})% thẳng hàng.",
+        "question_images": [],
+        "solution": "Tứ giác NAHB nội tiếp %(\\Rightarrow \\widehat{H}_{1}=\\widehat{A}_{1})%, mà %(\\widehat{A}_{1}=\\widehat{A}_{2}(\\mathrm{~T} / \\mathrm{c})% đối xứng trục %() \\Rightarrow \\widehat{H_{1}}=\\widehat{A_{2}})%.<br>Chứng minh tương tự, ta cũng có: %(\\widehat{H_{2}}=\\widehat{A_{3}})%Ta có: %(\\widehat{B A C}+\\widehat{B H C}=180^{\\circ})%<br>Do đó: %(\\widehat{N H E}=\\widehat{H_{1}}+\\widehat{H_{2}}+\\widehat{C H B}=\\widehat{A_{2}}+\\widehat{A_{3}}+\\widehat{C H B}=\\widehat{B A C}+\\widehat{B H C}=180^{\\circ} \\Leftrightarrow \\mathrm{N}, \\mathrm{H}, \\mathrm{E})% thẳng hàng",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 1.0,
+        "content": "d) Xác định vị trí của điểm %(\\mathrm{M})% thuộc cung nhỏ %(\\mathrm{BC})% để cho %(\\mathrm{NE})% có độ dài lớn nhất.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Ta có: } \\widehat{N A E}=2 \\widehat{B A C} \\text {. Kẻ } \\mathrm{AK} \\perp \\mathrm{NE} \\text { tại } \\mathrm{K} \\\\ \\text { Ta có: } \\mathrm{AM}=\\mathrm{AN} ; \\mathrm{AM}=\\mathrm{AE} \\text { (Tính chất đối xứng trục) } \\\\ \\quad \\Rightarrow \\mathrm{AE}=\\mathrm{AN} \\Rightarrow \\triangle \\mathrm{ANE} \\text { cân. Mà: } \\mathrm{AK} \\text { là đường cao } \\\\ \\quad \\Rightarrow \\mathrm{AK} \\text { là trung tuyến, là phân giác } \\\\ \\Rightarrow \\widehat{N A E}=2 \\widehat{N A K} ; N E=2 N K \\Rightarrow N K=\\frac{N E}{2}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7",
+        "group_content": "Cho tam giác %(A B C)% nhọn nội tiếp đường tròn %((O))%. Một điểm %(M)% di động trên cung nhỏ %(B C)%. Từ %(M)% kẻ %(M H, M K)% lần lượt vuông góc %(A B, A C(H \\in A B, K \\in A C))%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.25,
+        "content": "a) Chứng minh %(\\triangle M B C)% dồng dạng %(\\triangle M H K)%",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/82a2d0a391689971cf2ff596cc1cef4c.png\" srcset=\"https://docdn.giainhanh.io/media/test/8d62b46792ecf92c59befd41ce01297a.png 161w, https://docdn.giainhanh.io/media/test/01c17ff033d5c41470f64750f99f3d2a.png 500w\" width=\"500\"/><br>+ ) Tứ giác AHMK nội tiếp suy ra %(\\widehat{M B C}=\\widehat{M A C}=\\widehat{M H K})%<br>+) Tứ giác %(\\mathrm{ABMC})% nội tiếp suy ra %(\\widehat{M C B}=\\widehat{M A B}=\\widehat{M K H})%<br>+) Suy ra %(\\triangle M B C)% dồng dạng %(\\triangle M H K)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) Tìm vị trí của %(M)% để %(H K)% lớn nhất.",
+        "question_images": [],
+        "solution": "%(\\mathrm{CM})% câu trên suy ra %(\\frac{B C}{H K}=\\frac{M B}{M H})% mà %(M B \\geq M H \\Rightarrow \\frac{B C}{H K} \\geq 1 \\Rightarrow B C \\geq H K)%<br>Đẳng thức xảy ra khi %(\\mathrm{H})% trùng %(\\mathrm{B} \\Rightarrow \\widehat{A B M}=90^{\\circ})% hay %(\\mathrm{M})% đối xứng với %(\\mathrm{A})% qua %(\\mathrm{O})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8 ",
+        "point": 1.5,
+        "content": "Tìm tất cả các nghiệm nguyên của phương trình %(x^{2}+2022 x+2023 y^{2}+y=x y+2023 x y^{2}+2024)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}(1) \\Leftrightarrow\\left(x^{2}+2022 x-2023\\right)-2023 y^{2}(x-1)-y(x-1)=1 \\\\ \\Leftrightarrow(x-1)\\left(x+2023-2023 y^{2}-y\\right)=1\\end{array})%<br>Vì %(\\mathrm{x}, \\mathrm{y})% nguyên nên các thừa số của vế trái là ước của 1 do đó ta có hai trường hợp:<br>\\[\\begin{array}{l}\\text { +) }\\left\\{\\begin{array} { l } { x - 1 = 1 } \\\\{ x + 2 0 2 3 - 2 0 2 3 y ^ { 2 } - y = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x = 2 } \\\\{ y = 1 \\vee y = - \\frac { 2 0 2 4 } { 2 0 2 3 } ( l ) }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=2 \\y=1\\end{array}\\right.\\right.\\right. \\\\text { +) }\\left\\{\\begin{array} { l } { x - 1 = - 1 } \\\\{ x + 2 0 2 3 - 2 0 2 3 y ^ { 2 } - y = - 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x = 0 } \\\\{ y = 1 \\vee y = - \\frac { 2 0 2 4 } { 2 0 2 3 } ( l ) }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=0 \\y=1\\end{array}\\right.\\right.\\right.\\end{array}\\]<br>Vậy phương trình có hai nghiệm: %((2 ; 1),(0 ; 1))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 9 ",
+        "point": 1.5,
+        "content": "Tìm các số nguyên dương sao cho %(n^{2}+2 n+\\sqrt{n^{2}+2 n+18}+9)% là số chính phương.",
+        "question_images": [],
+        "solution": "Tìm các số nguyên dương sao cho %(n^{2}+2 n+\\sqrt{n^{2}+2 n+18}+9)%là số chính phương.<br>Do %(n^{2}+2 n+\\sqrt{n^{2}+2 n+18}+9)% là số chính phương nên %(\\sqrt{n^{2}+2 n+18})% là số tự nhiên<br>Đặt %(\\sqrt{n^{2}+2 n+18}=\\mathrm{k}^{2})% (k là số tự nhiên)%(\\sqrt{n^{2}+2 n+18}=k^{2} \\Leftrightarrow(k+n+1)(k-n-1)=17)%<br>\\[\\Rightarrow\\left\\{\\begin{array}{l}k=9 \\n=7\\end{array}\\right.\\]<br>KL: %(\\mathbf{n}=7)% thỏa mãn bài toán.",
+        "question_type": "essay"
+    }
+]

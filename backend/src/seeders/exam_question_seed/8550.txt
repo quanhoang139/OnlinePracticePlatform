@@ -1,0 +1,96 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho hàm số %(y=\\frac{x-1}{x+1})% có đồ thị %((C))%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Khảo sát sự biến thiên và vẽ đồ thị %((C))% của hàm số.",
+        "question_images": [],
+        "solution": "- Txd: %(D=\\mathbb{R} \\backslash\\{-1\\})%<br>- Sự biến thiên:<br>+ Chiều biến thiên: %(y^{\\prime}=\\frac{2}{(x+1)^{2}}\\gt 0, \\forall x \\in D)%.<br>Hàm số đồng biến trên từng khoảng %((-\\infty ;-1))% và %((-1 ;+\\infty))%.<br>+ Giới hạn và tiệm cận: %(\\lim _{x \\rightarrow-\\infty} y=\\lim _{x \\rightarrow+\\infty} y=1)%; tiệm cận ngang %(y=1)%.<br>\\[\\lim _{x \\rightarrow(-1)^{-}} y=+\\infty ; \\lim _{x \\rightarrow(-1)^{+}} y=-\\infty \\text {; tiệm cận đứng } x=1 \\text {. }\\]<br>+ Bảng biến thiên:<br>- Đồ thị hàm số:",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Viết phương trình tiếp tuyến của đồ thị %((C))% tại điểm %(A(1 ; 0))%.",
+        "question_images": [],
+        "solution": "Ta có: %(y^{\\prime}(1)=\\frac{1}{2} ; y(1)=0)%<br>%(\\Rightarrow)% phương trình tiếp tuyến tại %(A(1 ; 0))% là %(y-0=\\frac{1}{2}(x-1))% hay %(y=\\frac{1}{2} x-\\frac{1}{2})%.<br>Vậy: Phương trình tiếp tuyến cần tìm là %(y=\\frac{1}{2} x-\\frac{1}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tính diện tích hình phẳng giới hạn bởi đồ thị %((C))%, trục hoành và các đường thẳng %(x=1, x=2)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Ta có } S=\\int_{1}^{2}\\left|\\frac{x-1}{x+1}\\right| d x \\\\Leftrightarrow S=\\left|\\int_{1}^{2}\\left(\\frac{x-1}{x+1}\\right) d x\\right|=\\left|\\int_{1}^{2}\\left(1+\\frac{-2}{x+1}\\right) d x\\right| \\\\left.\\Leftrightarrow S=\\left|\\int_{1}^{2} 1 d x-\\int_{1}^{2} \\frac{2}{x+1} d x\\right|=|x|_{1}^{2}-2 \\ln |x+1|_{1}^{2} \\right\\rvert\\,=1+2 \\ln \\frac{2}{3} .\\end{array}\\]<br>Vậy: Diện tích hình phẳng cần tính là %(S=1+2 \\ln \\frac{2}{3})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Giải bất phương trình %(\\log _{0,5}\\left(x^{2}-5 x+6\\right) \\geq-1)%.",
+        "question_images": [],
+        "solution": "%(\\log _{0,5}\\left(x^{2}-5 x+6\\right) \\geq-1 .\\left({ }^{*}\\right))%<br>\\[\\begin{array}{l}(*) \\Leftrightarrow\\left\\{\\begin{array}{l}x^{2}-5 x+6\\gt 0 \\x^{2}-5 x+6 \\leq 2\\end{array} \\text { (hoă̆c } 0\\lt x^{2}-5 x+6 \\leq 2\\right) \\\\Leftrightarrow\\left\\{\\begin{array}{l}x \\in(-\\infty ; 2) \\cup(3 ;+\\infty) \\x \\in[1 ; 4]\\end{array} \\Leftrightarrow x \\in[1 ; 2) \\cup(3 ; 4]\\right.\\end{array}\\]<br>Vậy: Bất phương trình có tập nghiệm %(S=[1 ; 2) \\cup(3 ; 4])%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tính tích phân %(I=\\int_{0}^{1} x\\left(2+e^{x}\\right) d x)%.",
+        "question_images": [],
+        "solution": "Ta có %(I=\\int_{0}^{1} x\\left(2+e^{x}\\right) d x=\\int_{0}^{1} 2 x d x+\\int_{0}^{1} x e^{x} d x=I_{1}+I_{2})%<br>\\[\\begin{array}{l}I_{1}=\\int_{0}^{1} 2 x d x=\\left.x^{2}\\right|_{0} ^{1}=1 \\I_{2}=\\int_{0}^{1} x e^{x} d x=\\left.\\left(x e^{x}-e^{x}\\right)\\right|_{0} ^{1}=1\\end{array}\\]<br>Vậy: %(I=I_{1}+I_{2}=2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Cho số phức %(z)% thỏa mãn %((1+i) z-7+i=0)%. Tìm phần thực, phần ảo và môđun của %(z)%.",
+        "question_images": [],
+        "solution": "Ta có: %((1+i) z-7+i=0 \\Leftrightarrow z=\\frac{7-i}{1+i}=\\frac{(7-i)(1-i)}{2}=3-4 i)%.<br>Phần thực của %(z)% là 3 , phần ảo của %(z)% là -4 .<br>Môđun của số phức %(z)% là %(|z|=\\sqrt{3^{2}+(-4)^{2}}=5)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Trong không gian với hệ tọa độ %(O x y z)%, cho các điểm %(A(2 ; 2 ; 1), B(-1 ; 2 ; 5))% và mặt cầu %((S))% có phương trình %((x-1)^{2}+(y+1)^{2}+(z-3)^{2}=25)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Viết trình tham số của đường thẳng %(A B)%. Tìm tọa độ tâm và bán tính kính của mặt cầu %((S))%.",
+        "question_images": [],
+        "solution": "Ta có %(\\overrightarrow{A B}=(-3 ; 0 ; 4))%.<br>Đường thẳng %(A B\\left\\{\\begin{array}{l}\\text { qua } A(2 ; 2 ; 1) \\\\ \\text { vtcp } \\overrightarrow{A B}=(-3 ; 0 ; 4)\\end{array} \\Rightarrow\\right.)% phương trình tham số của %(A B\\left\\{\\begin{array}{l}x=2-3 t \\\\ y=2 \\\\ z=1+4 t\\end{array}\\right.)%.<br>Gọi %(I, r)% lần lượt là tâm và bán kính mặt cầu %((S), \\Rightarrow I(1 ;-1 ; 3), r=\\sqrt{25}=5)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Viết phương trình mặt phẳng %((\\alpha))% vuông góc với đường thẳng %(A B)% và tiếp xúc với mặt cầu %((S))%.",
+        "question_images": [],
+        "solution": "Vì %((\\alpha))% vuông góc với đường thẳng %(A B)% nên phương trình của %((\\alpha))% có dạng<br>\\[-3 x+4 z+D=0\\]<br>%((\\alpha))% tiếp xúc với mặt cầu %((S) \\Leftrightarrow d(I,(\\alpha))=r)%<br>\\[\\Leftrightarrow \\frac{|-3.1+4.3+D|}{\\sqrt{(-3)^{2}+4^{2}}}=5 \\Leftrightarrow|D+9|=25 \\Leftrightarrow\\left[\\begin{array}{l}D=16 \\D=-34\\end{array}\\right.\\]<br>Vậy phương trình %((\\alpha))% là %(-3 x+4 z+16=0)% hoặc %(-3 x+4 z-34=0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho lăng trụ đứng %(A B C . A^{\\prime} B^{\\prime} C^{\\prime})% có đáy %(A B C)% là tam giác vuông, %(A B=B C=a)%, cạnh bên %(A A^{\\prime}=a \\sqrt{2})%. Gọi %(M)% là trung điểm của cạnh %(B C)%. Tính theo a thể tích khối lăng trụ %(A B C . A^{\\prime} B^{\\prime} C^{\\prime})% và khoảng cách giữa hai đường thẳng %(A M, B^{\\prime} C)%.",
+        "question_images": [],
+        "solution": "Từ giả thiết suy ra tam giác %(A B C)% vuông tại %(B \\Rightarrow S_{A B C}=\\frac{1}{2} a^{2})%<br>\\[\\Rightarrow V_{A B C \\cdot A^{\\prime} B^{\\prime} C^{\\prime}}=S_{A B C} \\cdot A A^{\\prime}=\\frac{1}{2} a^{2} \\cdot a \\sqrt{2}=\\frac{\\sqrt{2}}{2} a^{3}\\]<br>- Gọi %(N)% là trung điểm của cạnh %(\\mathrm{BB}^{\\prime} \\Rightarrow M N / / B^{\\prime} C \\Rightarrow B^{\\prime} C / /(A M N))%<br>\\[\\Rightarrow d\\left(B^{\\prime} C, A M\\right)=d\\left(B^{\\prime} C,(A M N)\\right)=d(C,(A M N))=d(B,(A M N))=h\\]<br>Tứ diện %(A B M N)% có các cạnh %(B A, B M, B N)% đôi một vuông góc nên<br>\\[\\frac{1}{h^{2}}=\\frac{1}{B A^{2}}+\\frac{1}{B M^{2}}+\\frac{1}{B N^{2}} \\Rightarrow \\frac{1}{h^{2}}=\\frac{1}{a^{2}}+\\frac{2}{a^{2}}+\\frac{4}{a^{2}}=\\frac{7}{a^{2}} \\Rightarrow h=\\frac{a \\sqrt{7}}{7}\\]<br>Vậy %(d\\left(A M, B^{\\prime} C\\right)=\\frac{a \\sqrt{7}}{7})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f376d97fe50052f569354f860d1cb93b.png\" srcset=\"https://docdn.giainhanh.io/media/test/dac55be330a17eb161316981e73a81a8.png 163w\" width=\"163\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}x+\\log _{2} x=\\log _{2}\\left(2^{x}+y \\cdot 2^{x}\\right) \\\\ 2 \\log _{2}^{2} x-6 \\log _{2}(y+1)-x \\log _{2} x+3 y+3=0\\end{array} \\quad(x, y \\in \\mathbb{R})\\right.)%.",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}x+\\log _{2} x=\\log _{2}\\left(2^{x}+y \\cdot 2^{x}\\right) (1) \\\\ 2 \\log _{2}^{2} x-6 \\log _{2}(y+1)-x \\log _{2} x+3 y+3=0(2)\\end{array}\\right.)%<br>Đk: %(x\\gt 0 ; y>-1)%.<br>(1) %(\\Leftrightarrow \\log _{2} x=\\log _{2}(y+1) \\Leftrightarrow x=y+1 \\Leftrightarrow y=x-1)%<br>Thay %(y=x-1)% vào phương trình (2) ta được phương trình:<br>\\[\\begin{array}{l}2 \\log _{2}^{2} x-6 \\log _{2} x-x \\log _{2} x+3 x=0 \\\\Leftrightarrow\\left(\\log _{2} x-3\\right)\\left(2 \\log _{2} x-x\\right)=0 \\Leftrightarrow\\left[\\begin{array}{l}\\log _{2} x-3=0 (3)\\\\2 \\log _{2} x-x=0(4)\\end{array}\\right.\\end{array}\\]<br>(3) %(\\Leftrightarrow x=8 \\Rightarrow y=7(\\mathrm{t} / \\mathrm{m} đ \\mathrm{k}))%.<br>- Xét hàm số %(f(x)=2 \\log _{2} x-x)% với %(x>0)%.<br>Ta có %(f^{\\prime}(x)=\\frac{2-x \\ln 2}{x \\ln 2}, f^{\\prime}(x)=0 \\Leftrightarrow x=\\frac{2}{\\ln 2})%.<br>Bảng biến thiên<br>Theo BBT, pt %(f(x)=0)% có nhiều nhất 2 nghiệm trên %((0 ;+\\infty))%, có %(f(2)=f(4)=0)%<br>Do đó, phương trình (4) có hai nghiệm %(x=2 ; x=4 \\Rightarrow y=1 ; y=3(\\mathrm{t} / \\mathrm{m})% đk).<br>Vậy: Hệ phương trình đã cho có nghiệm là %((2 ; 1),(4 ; 3),(8 ; 7))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9939b08b1072cf9d9069093fcaf3a858.png\" srcset=\"https://docdn.giainhanh.io/media/test/e229ed6f07f09ba1365addd03ad28c69.png 245w, https://docdn.giainhanh.io/media/test/b4e769522c0dccca3bedd08dba012aa6.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    }
+]

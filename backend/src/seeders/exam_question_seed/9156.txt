@@ -1,0 +1,112 @@
+[
+    {
+        "title": "1.1 ",
+        "point": 2.0,
+        "content": "Phân tích đa thức thành nhân tử %((x+2)(x+3)(x+4)(x+5)-24)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}(x+2)(x+3)(x+4)(x+5)-24 \\\\=[(x+2)(x+5)] \\cdot[(x+3)(x+4)]-24 \\\\=\\left(x^{2}+7 x+10\\right)\\left(x^{2}+7 x+12\\right)-24\\end{array}\\]<br>Đặt %(x^{2}+7 x+11=t)%, ta có :<br>\\[\\begin{array}{l}(t-1)(t+1)-24=t^{2}-1-24=t^{2}-5^{2}=(t-5)(t+5) \\\\=\\left(x^{2}+7 x+11-5\\right)\\left(x^{2}+7 x+11+5\\right)=\\left(x^{2}+7 x+6\\right)\\left(x^{2}+7 x+16\\right) \\\\=(x+1)(x+6)\\left(x^{2}+7 x+16\\right)\\end{array}\\]<br>Vậy %((x+2)(x+3)(x+4)(x+5)-24=(x+1)(x+6)\\left(x^{2}+7 x+16\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.2 ",
+        "point": 2.0,
+        "content": "Tìm đa thức %(f(x))% biết %(f(x))% chia cho %(x-3)% thì dư %(2, f(x))% chia cho %(x+4)% thì dư 9.<br>Còn %(f(x))% chia cho %(x^{2}+x-12)% được thương là %(x^{2}+3)% và còn dư.",
+        "question_images": [],
+        "solution": "Ta có %(f(x)=(x-3) A(x)+2\\quad(1))%<br>\\[\\begin{array}{l}f(x)=(x+4) B(x)+9\\quad(2) \\f(x)=\\left(x^{2}+x-12\\right) C(x)+a x+b \\\\=\\left(x^{2}+x-12\\right)\\left(x^{2}+3\\right)+a x+b\\quad(3)\\end{array}\\]<br>Thay %(x=3)% vào (1) ta có : %(f(3)=2\\quad(4))%<br>Thay %(x=-4)% vào (2) ta có %(f(-4)=9\\quad(5))%<br>Từ (3) ta có %(f(x)=(x-3)(x+4)\\left(x^{2}+3\\right)+a x+b\\quad(6))%<br>Từ %((4),(6) \\Rightarrow 3 a+b=2\\quad(7))%<br>Từ %((5),(6) \\Rightarrow-4 a+b=9\\quad(8))%<br>Từ (7) và (8) ta có %(a=-1, b=5)%<br>Vậy %(f(x)=\\left(x^{2}+x-12\\right)\\left(x^{2}+3\\right)-x+5)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Cho biểu thức %(A=\\left(\\frac{x}{y^{2}+x y}-\\frac{x-y}{x^{2}+x y}\\right):\\left(\\frac{y^{2}}{x^{3}-x y^{2}}+\\frac{1}{x+y}\\right): \\frac{x}{y})%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Rút gọn A",
+        "question_images": [],
+        "solution": "Điều kiện : %(x \\neq 0, y \\neq 0, x \\neq-y, x \\neq y)%. Ta có :<br>\\[\\begin{array}{l}A=\\left(\\frac{x}{y^{2}+x y}-\\frac{x-y}{x^{2}+x y}\\right):\\left(\\frac{y^{2}}{x^{3}-x y^{2}}+\\frac{1}{x+y}\\right): \\frac{x}{y}=\\left[\\frac{x^{2}-y(x-y)}{x y(x+y)}\\right]:\\left[\\frac{y^{2}+x(x-y)}{x(x-y)(x+y)}\\right] \\cdot \\frac{y}{x} \\\\=\\frac{x^{2}-x y+y^{2}}{x y(x+y)} \\cdot \\frac{x(x-y)(x+y)}{y^{2}+x^{2}-x y} \\cdot \\frac{y}{x}=\\frac{x-y}{x}\\end{array}\\]<br>Vậy với %(x \\neq 0, y \\neq 0, x \\neq \\pm y)% thì %(\\frac{x-y}{x})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Tính giá trị của %(A)% biết %(2 x^{2}+y^{2}=3 x y)%",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{l}2 x^{2}+y^{2}=3 x y \\Leftrightarrow x^{2}-2 x y+y^{2}+x^{2}-x y=0 \\\\Leftrightarrow(x-y)^{2}+x(x-y)=0 \\Leftrightarrow(x-y)(x-y+x)=0 \\\\Leftrightarrow 2 x-y=0 \\quad(\\text { do } x \\neq y) \\Rightarrow y=2 x\\end{array}\\]<br>Vậy với %(y=2 x, x \\neq 0)% ta có %(A=\\frac{x-2 x}{x}=-1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.1 ",
+        "point": 1.5,
+        "content": "Cho các số %(x, y, z, a, b, c)% khác 0 thỏa mãn %(\\frac{a}{x}+\\frac{b}{y}+\\frac{c}{z}=0)% và %(\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}=1)%. Chứng minh rằng %(\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}+\\frac{z^{2}}{c^{2}}=1)%",
+        "question_images": [],
+        "solution": "Từ %(\\frac{a}{x}+\\frac{b}{y}+\\frac{c}{z}=0 \\Rightarrow a y z+b x z+c x y=0\\quad(1))%<br>Từ %(\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}=1 \\Rightarrow\\left(\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}\\right)^{2}=1)%<br>\\[\\begin{array}{l}\\Leftrightarrow \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}+\\frac{z^{2}}{c^{2}}+\\frac{2 x y}{a b}+\\frac{2 y z}{b c}+\\frac{2 x z}{a c}=1 \\\\Leftrightarrow \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}+\\frac{z^{2}}{c^{2}}+\\frac{2}{a b c}(c x y+a y z+b x z)=1\\quad(2)\\end{array}\\]<br>Từ (1) và (2) suy ra %(\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}+\\frac{z^{2}}{c^{2}}=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3.2 ",
+        "point": 1.5,
+        "content": "Tìm giá trị nhỏ nhất của biểu thức %(A=4 x^{2}+3 y^{2}-6 x y+6 x-12 y+20)%",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{l}A=4 x^{2}+3 y^{2}-6 x y+6 x-12 y+20=3(x-y+2)^{2}+(x-3)^{2}-1 \\geq-1 \\\\Rightarrow \\operatorname{Min} A=-1 \\Leftrightarrow\\left\\{\\begin{array} { l } { x - y + 2 = 0 } \\\\{ x - 3 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=3 \\y=5\\end{array}\\right.\\right.\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4.1 ",
+        "point": 1.5,
+        "content": "Tìm %(x)%, biết : %(\\frac{2044-x}{25}+\\frac{2065-x}{23}+\\frac{2082-x}{21}+\\frac{2095-x}{19}=10)%",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{l}\\frac{2044-x}{25}+\\frac{2065-x}{23}+\\frac{2082-x}{21}+\\frac{2095-x}{19}=10 \\\\Leftrightarrow\\left(\\frac{2044-x}{25}-1\\right)+\\left(\\frac{2065-x}{23}-2\\right)+\\left(\\frac{2082-x}{21}-3\\right)+\\left(\\frac{2095-x}{19}-4\\right)=0 \\\\Leftrightarrow \\frac{2019-x}{25}+\\frac{2019-x}{23}+\\frac{2019-x}{21}+\\frac{2019-x}{19}=0 \\\\Leftrightarrow(2019-x)\\left(\\frac{1}{25}+\\frac{1}{23}+\\frac{1}{21}+\\frac{1}{19}\\right)=0 \\Leftrightarrow x=2019\\left(\\text { do } \\frac{1}{25}+\\frac{1}{23}+\\frac{1}{21}+\\frac{1}{19} \\neq 0\\right)\\end{array}\\]<br>Vậy %(x=2019)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4.2 ",
+        "point": 1.5,
+        "content": "Tìm số tự nhiên %(n)% để %(S=\\left(n^{2}-8\\right)^{2}+36)% là số nguyên tố.",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{l}S=\\left(n^{2}-8\\right)^{2}+36=n^{4}-16 n^{2}+64+36 \\\\=n^{4}+20 n^{2}+100-36 n^{2}=\\left(n^{2}+10\\right)^{2}-36 n^{2} \\\\=\\left(n^{2}+6 n+10\\right)\\left(n^{2}-6 n+10\\right)\\end{array}\\]<br>Với mọi số tự nhiên %(n)% thì %(n^{2}+6 n+10 \\geq n^{2}-6 n+10)%<br>Nên để %(S)% là số nguyên tố thì %(n^{2}-6 n+10=1 \\Leftrightarrow(n-3)^{2}=0 \\Leftrightarrow n=3)%<br>Với %(n=3)% thì %(S=37)% là số nguyên tố.<br>Vậy %(n=3)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho hình chữ nhật %(A B C D)% có %(A B=2 A D)%. Gọi %(E, I)% lần lượt là trung điểm của %(A B, C D)%. Nối D với E. Đường thẳng vuông góc với %(D E)% tại D cắt tia %(B C)% tại M. Trên tia đối của tia CE lấy điểm %(K)% sao cho %(D M=E K)%. Gọi %(G)% là giao điểm của %(D K)% và %(E M)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh tứ giác %(D M E K)% là hình chữ nhật.",
+        "question_images": [],
+        "solution": "Ta có %(A D I E)% và %(B C I E)% là các hình vuông (gt)<br>\\[\\begin{array}{l}\\Rightarrow \\angle D E C=\\angle D E I+\\angle I E C=45^{\\circ}+45^{\\circ}=90^{\\circ}(1) \\\\Rightarrow E K \\perp D E \\text { mà } D M \\perp D E(g t) \\Rightarrow E K / / D M(2) \\text { mà } E K=D M(3)\\end{array}\\]<br>Từ (1), (2), (3) suy ra %(D M K E)% là hình chữ nhật.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0b5d29ed7e110a8c1bb259176ad971fb.png\" srcset=\"https://docdn.giainhanh.io/media/test/67cdeed43ae55c26cc9c30af0a95a295.png 160w, https://docdn.giainhanh.io/media/test/e9ca52cba02239e1102bd49201164ab6.png 500w, https://docdn.giainhanh.io/media/test/f3d7f02819922c4fa5e0d2373056104e.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Chứng minh tam giác %(D B K)% là tam giác vuông cân.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Do } A E I D \\text { và } E B C I \\text { là các hình vuông bằng nhau nên } D E=E C \\\\ \\text { Vì } D M K E \\text { là hình chữ nhật nên } M K=D E(4) \\text { và } \\angle M K C=90^{\\circ} \\\\ \\triangle M K C \\text { có } \\angle M C K=\\angle B C E=45^{\\circ} \\text { (đối đỉnh) } \\Rightarrow \\triangle M K C \\text { vuông cân tại } \\mathrm{K} \\text { nên } K C=M K(5) \\\\ \\text { Xét } \\triangle B D E \\text { và } \\triangle B K C \\text { có : } D E=K C \\text { (theo (4) và (5)), } B E=B C(g t) ; \\angle B E D=\\angle B C K\\left(=135^{\\circ}\\right) \\\\ \\Rightarrow \\triangle B D E=\\triangle B C K(\\text { c.g.c) } \\Rightarrow B D=B K \\Rightarrow \\triangle D B K \\text { cân tại } \\mathrm{B} \\text { (6) } \\\\ \\angle D B K=\\angle D B C+\\angle C B K(7) \\\\ \\text { Vì } \\triangle B D E=\\triangle B C K \\Rightarrow \\angle B E D=\\angle C B K \\text { (hai góc tương ứng) (8) }\\end{array})%<br>Từ (7) và (8) suy ra %(\\angle D B K=\\angle D B C+\\angle E B D=90^{\\circ}(9))%<br>Từ (6) và (9) ta được %(\\triangle D B K)% vuông cân tại B.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 2.0,
+        "content": "c) Gọi %(H)% là chân đường vuông góc hạ từ K xuống %(B M)%. Chứng minh bốn điểm %(A, I, G, H)% cùng nằm trên một đường thẳng.",
+        "question_images": [],
+        "solution": "vTa có %(A D=A E\\left(=\\frac{1}{2} A B\\right)(g t) \\Rightarrow A)% nằm trên đường trung trực của %(D E\\quad(10))%<br>%(D I=I E(=A D)(g t) \\Rightarrow I)% nằm trên đường trung trực của %(D E\\quad(11))%<br>Vì %(D M K E)% là hình chữ nhật (cmt), G là giao điểm của hai đường chéo hình chữ nhật nên %(G D=G E)% (tính chất hai đường chéo) nên %(G)% nằm trên đường trung trực của %(D E\\quad(12))%<br>Vì %(\\triangle C K M)% vuông cân tại K nên %(K H)% là đường cao đồng thời là đường phân giác%(\\Rightarrow \\angle H K M=45^{\\circ})%và %(\\triangle H K M)% vuông tại H có %(\\angle H K M=45^{\\circ} \\Rightarrow \\triangle H K M)% vuông cân tại H<br>\\[\\Rightarrow\\left\\{\\begin{array}{l}H M=H K \\\\angle H M K=\\angle H K M=45^{\\circ}\\end{array}\\right.\\]<br>Xét %(\\triangle D H M)% và %(\\triangle E H K)%, ta có :%(\\frac{D M}{H M}=\\frac{E K}{H K})% (Vì %(\\left.D M=E K, H M=H K\\right), \\angle D M H=\\angle H K E=45^{\\circ})%%(\\Rightarrow \\triangle D H M \\sim \\triangle E H K()% c.g.c) %(\\Rightarrow \\angle M D H=\\angle H E K)%%(\\Rightarrow 90^{\\circ}-\\angle M D H=90^{\\circ}-\\angle H E K \\Rightarrow \\angle E D H=\\angle D E H)%%(\\Rightarrow \\triangle D H E)% cân tại H nên %(H D=H E ~)%%(\\Rightarrow H)% nằm trên đường trung trực của %(D E\\quad(13))%<br>Từ %((10),(11),(12),(13) \\Rightarrow A, I, G, H)% thẳng hàng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho %(a, b, c)% là ba cạnh của một tam giác. Chứng minh rằng:<br>\\[\\frac{a b}{a+b-c}+\\frac{b c}{b+c-a}+\\frac{a c}{a+c-b} \\geq a+b+c\\]",
+        "question_images": [],
+        "solution": "Vì %(a, b, c)% là ba cạnh của một tam giác nên %(\\left\\{\\begin{array}{l}a+b-c\\gt 0 \\\\ b+c-a>0 \\\\ c+a-b>0\\end{array}\\right.)%.<br>Đặt %(\\left\\{\\begin{array}{l}x=a+b-c \\\\ y=b+c-a \\\\ z=c+a-b\\end{array}\\right.)% %(\\Rightarrow x+y+z=a+b+c \\Rightarrow a=\\frac{y+z}{2}, b=\\frac{x+z}{2}, c=\\frac{x+y}{2})%.<br>Ta có:<br>\\[\\begin{array}{l}\\frac{a b}{a+b-c}+\\frac{b c}{b+c-a}+\\frac{a c}{a+c-b}=\\frac{(y+z)(x+z)}{4 z}+\\frac{(x+z)(x+y)}{4 x}+\\frac{(x+y)(y+z)}{4 y} \\\\=\\frac{1}{4} \\cdot\\left(\\frac{x y+y z+x z+z^{2}}{z}+\\frac{x y+y z+x z+x^{2}}{x}+\\frac{x y+y z+x z+y^{2}}{y}\\right) \\\\=\\frac{1}{4} \\cdot\\left[\\frac{x y}{z}+\\frac{y z}{x}+\\frac{x z}{y}+3(x+y+z)\\right]=\\frac{1}{4}\\left[3(x+y+z)+\\left(\\frac{x y}{2 z}+\\frac{y z}{2 x}\\right)+\\left(\\frac{y z}{2 x}+\\frac{x z}{2 y}\\right)+\\left(\\frac{x y}{2 y}+\\frac{x z}{2 z}\\right)\\right] \\\\=\\frac{1}{4}\\left[3(x+y+z)+\\frac{y}{2}\\left(\\frac{x}{z}+\\frac{z}{x}\\right)+\\frac{z}{2}\\left(\\frac{y}{x}+\\frac{x}{y}\\right)+\\frac{x}{2}\\left(\\frac{z}{y}+\\frac{y}{z}\\right)\\right] \\\\geq \\frac{1}{4} \\cdot[3(x+y+z)+y+z+x](C o-s i)=\\frac{1}{4} \\cdot 4(x+y+z)=x+y+z=a+b+c\\end{array}\\]<br>Vậy %(\\frac{a b}{a+b-c}+\\frac{b c}{b+c-a}+\\frac{a c}{a+c-b} \\geq a+b+c)%<br>Dấu bằng xảy ra khi a = b = c.",
+        "question_type": "essay"
+    }
+]

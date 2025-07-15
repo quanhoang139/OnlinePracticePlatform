@@ -1,0 +1,114 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.5,
+        "content": "Tính giá trị của biểu thức %(M=\\sqrt{4 a^{2}}+3 a)% tại %(a=2)%.",
+        "question_images": [],
+        "solution": "Khi %(a=2)% ta có: %(M=\\sqrt{4 \\cdot 2^{2}}+3 \\cdot 2=\\sqrt{16}+6=4+6=10)%.Vậy khi %(a=2)% thì %(M=10)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 0.5,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x-2 y=1 \\\\ -x+3 y=2\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "\\[\\left\\{\\begin{array} { l } { x - 2 y = 1 } \\\\{ - x + 3 y = 2 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { y = 3 } \\\\{ x = 1 + 2 y }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x = 1 + 2 . 3 } \\\\{ y = 3 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=7 \\y=3\\end{array}\\right.\\right.\\right.\\right.\\]<br>Vậy hệ phương trình có nghiệm duy nhất %((x ; y)=(7 ; 3))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(2 x^{2}-9 x+4=0)%.",
+        "question_images": [],
+        "solution": "Phương trình %(2 x^{2}-9 x+4=0)% có: %(\\Delta=(-9)^{2}-4.2 .4=49\\gt 0)%<br>%(\\Rightarrow)% Phương trình có hai nghiệm phân biệt: %(\\left[\\begin{array}{l}x_{1}=\\frac{9-\\sqrt{49}}{4}=\\frac{1}{2} \\\\ x_{2}=\\frac{9+\\sqrt{49}}{4}=4\\end{array}\\right.)%<br>Vậy phương trình có tập nghiệm là: %(S=\\left\\{\\frac{1}{2} ; 4\\right\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho biểu thức: %(P=\\left(\\frac{1}{3+\\sqrt{x}}+\\frac{(\\sqrt{x}+1)(\\sqrt{x}+6)}{9-x}\\right): \\frac{2 \\sqrt{x}+1}{6-\\sqrt{4 x}})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "Tìm điều kiện của %(x)% để biểu thức %(P)% có nghĩa và rút gọn %(P)%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(\\left\\{\\begin{array}{l}x \\geq 0 \\\\ 9-x \\neq 0 \\\\ 6-\\sqrt{4 x} \\neq 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 0 \\\\ x \\neq 9 \\\\ 4 x \\neq 36\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 0 \\\\ x \\neq 9\\end{array}\\right.\\right.\\right.)%.<br>\\[\\begin{aligned}P & =\\left(\\frac{1}{3+\\sqrt{x}}+\\frac{(\\sqrt{x}+1)(\\sqrt{x}+6)}{9-x}\\right): \\frac{2 \\sqrt{x}+1}{6-\\sqrt{4 x}} \\\\& =\\left[\\frac{1}{3+\\sqrt{x}}+\\frac{x+7 \\sqrt{x}+6}{(3-\\sqrt{x})(3+\\sqrt{x})}\\right]: \\frac{2 \\sqrt{x}+1}{6-2 \\sqrt{x}} \\\\& =\\frac{3-\\sqrt{x}+x+7 \\sqrt{x}+6}{(3-\\sqrt{x})(3+\\sqrt{x})} \\cdot \\frac{2(3-\\sqrt{x})}{2 \\sqrt{x}+1} \\\\& =\\frac{x+6 \\sqrt{x}+9}{3+\\sqrt{x}} \\cdot \\frac{2}{2 \\sqrt{x}+1} \\\\& =\\frac{(\\sqrt{x}+3)^{2}}{3+\\sqrt{x}} \\cdot \\frac{2}{2 \\sqrt{x}+1} \\\\& =\\frac{2(\\sqrt{x}+3)}{2 \\sqrt{x}+1}=\\frac{2 \\sqrt{x}+6}{2 \\sqrt{x}+1} .\\end{aligned}\\]<br>Vậy %(P=\\frac{2 \\sqrt{x}+6}{2 \\sqrt{x}+1})% khi %(x \\geq 0, x \\neq 9)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "Tìm các giá trị của %(x)% sao cho %(\\sqrt{x})% và %(P)% là những số nguyên.",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq 0, x \\neq 9)%.<br>Để %(\\sqrt{x})% là số nguyên thì %(x)% phải là số nguyên và là số chính phương.<br>Ta có: %(P=\\frac{2 \\sqrt{x}+6}{2 \\sqrt{x}+1}=\\frac{2 \\sqrt{x}+1+5}{2 \\sqrt{x}+1}=1+\\frac{5}{2 \\sqrt{x}+1})%.<br>Để %(P \\in \\mathbb{Z})% thì %(\\frac{5}{2 \\sqrt{x}+1} \\in \\mathbb{Z} \\Rightarrow 5 \\vdots(2 \\sqrt{x}+1))% hay %(2 \\sqrt{x}+1 \\in U(5))%<br>Mà %(U(5)=\\{ \\pm 1 ; \\pm 5\\})%<br>Với mọi %(x \\geq 0, x \\neq 9)% ta có: %(2 \\sqrt{x}+1 \\geq 1)%<br>\\[\\begin{array}{l}\\Rightarrow 2 \\sqrt{x}+1 \\in\\{1 ; 5\\} \\\\Rightarrow\\left[\\begin{array} { l } { 2 \\sqrt { x } + 1 = 1 } \\\\{ 2 \\sqrt { x } + 1 = 5 }\\end{array} \\Leftrightarrow \\left[\\begin{array} { l } { 2 \\sqrt { x } = 0 } \\\\{ 2 \\sqrt { x } = 4 }\\end{array} \\Leftrightarrow \\left[\\begin{array} { l } { \\sqrt { x } = 0 } \\\\{ \\sqrt { x } = 2 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x=0 \\x=4\\end{array}\\right.\\right.\\right.\\right.\\end{array}\\]<br>Ta thấy %(x \\in\\{0 ; 4\\})% thỏa mãn điều kiện %(x \\geq 0, x \\neq 9, x)% là số nguyên và là số chính phương.<br>Vậy %(x \\in\\{0 ; 4\\})% thỏa mãn bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Tìm %(\\mathrm{a}, \\mathrm{b})% để đường thẳng %(y=a x+b)% song song với đường thẳng %(y=4 x+5)% và cắt đồ thị hàm số %(y=x^{2})% tại hai điểm %(A\\left(x_{1} ; y_{1}\\right), B\\left(x_{2} ; y_{2}\\right))% phân biệt thỏa mãn %(x_{1}^{2}+x_{2}^{2}=10)%.",
+        "question_images": [],
+        "solution": "Vî đường thẳng %(y=a x+b)% song song với đường thẳng %(y=4 x+5)% nên %(\\left\\{\\begin{array}{l}a=4 \\\\ b \\neq 5\\end{array}\\right.)%.<br>Khi đó phương trình đường thẳng cần tìm có dạng %(y=4 x+b(b \\neq 5))%.<br>Xét phương trình hoành độ giao điểm của đường thẳng %(y=4 x+b(b \\neq 5))% và parabol %(y=x^{2})% :<br>\\[x^{2}=4 x+b \\Leftrightarrow x^{2}-4 x-b=0\\left({ }^{*}\\right)\\]<br>Để đường thẳng %(y=4 x+b(b \\neq 5))% cắt parabol %(y=x^{2})% tại 2 điểm phân biệt %(A\\left(x_{1} ; y_{1}\\right), B\\left(x_{2} ; y_{2}\\right))% thì phương trình %(\\left({ }^{*}\\right))% phải có 2 nghiệm phân biệt %(x_{1}, x_{2})%.<br>\\[\\Rightarrow \\Delta^{\\prime}=(-2)^{2}+b=4+b\\gt 0 \\Leftrightarrow b>-4 \\text {. }\\]<br>Áp dụng định lí Vi-ét ta có: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=4 \\\\ x_{1} x_{2}=-b\\end{array}\\right.)%.<br>Theo bài ra ta có:<br>\\[\\begin{aligned}& x_{1}^{2}+x_{2}^{2}=10 \\\\Leftrightarrow & \\left(x_{1}+x_{2}\\right)^{2}-2 x_{1} x_{2}=10 \\\\Leftrightarrow & 4^{2}+2 b=10 \\\\Leftrightarrow & 16+2 b=10 \\\\Leftrightarrow & 2 b=-6 \\\\Leftrightarrow & b=-3(\\mathrm{tm})\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Một vườn có hình vuông %(\\mathrm{ABCD})% có cạnh %(20 \\mathrm{~m})% như hình vẽ. Người ta buộc một con dê bằng sợi dây thừng dài %(20 \\mathrm{~m})% tại trung điểm %(\\mathrm{E})% của cạnh %(\\mathrm{AB})%. Tính diện tích phần cỏ mà con dê có thể ăn được (phần tô đậm trên hình vẽ) (Kết quả làm tròn đến hai chữ số thâp phân).",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/efa439a63afb541ff4e64f723f8d464e.png"
+        ],
+        "solution": "Gọi hai điểm %(M, N)% như hình vẽ.<br>Ta có: %(E M=E N=20 \\mathrm{~m})%.<br>Vì %(E)% là trung điểm của %(A B)% nên %(E A=E B=\\frac{1}{2} A B=10(\\mathrm{~m}))%.<br>Áp dụng định lí Pytago trong các tam giác vuông ta có:<br>\\[\\begin{aligned}B M^{2} & =E M^{2}-E B^{2} \\\\& =20^{2}-10^{2}=300 \\\\Rightarrow B M & =\\sqrt{300}=10 \\sqrt{3}(\\mathrm{~m})\\end{aligned}\\]<br>Tương tự ta có: %(A N=B M=10 \\sqrt{3}(\\mathrm{~m}))%.<br>\\[\\begin{aligned}\\Rightarrow S_{\\triangle B E M} & =\\frac{1}{2} B E \\cdot B M=\\frac{1}{2} \\cdot 10 \\cdot 10 \\sqrt{3}=50 \\sqrt{3}\\left(\\mathrm{~m}^{2}\\right) \\S_{\\triangle M E N} & =\\frac{1}{2} A E \\cdot A N=\\frac{1}{2} \\cdot 10 \\cdot 10 \\sqrt{3}=50 \\sqrt{3}\\left(\\mathrm{~m}^{2}\\right) .\\end{aligned}\\]<br>Xét tam giác vuông %(B E M)% ta có:<br>\\[\\begin{array}{l}\\cos \\angle B E M=\\frac{B E}{B M}=\\frac{10}{20}=\\frac{1}{2} \\\\Rightarrow \\angle B E M=60^{\\circ}\\end{array}\\]<br>Tương tự xét tam giác vuông %(A E N)% ta có:<br>\\[\\begin{array}{l}\\cos \\angle A E N=\\frac{A E}{E N}=\\frac{10}{20}=\\frac{1}{2} \\\\Rightarrow \\angle A E N=60^{\\circ}\\end{array}\\]<br>Ta có:<br>\\[\\begin{array}{l}\\angle B E M+\\angle A E N+\\angle M E N=180^{\\circ} \\\\Rightarrow \\angle M E N=180^{\\circ}-\\angle B E M-\\angle A E N \\\\quad=180^{\\circ}-60^{\\circ}-60^{\\circ} \\\\Rightarrow \\angle M E N=60^{\\circ}\\end{array}\\]<br>Diện tích hình quạt %(E M N)%, bán kính %(20 \\mathrm{~m})% là: %(S_{q E M N}=\\frac{\\pi R^{2} \\cdot 60}{360}=\\frac{\\pi \\cdot 20^{2}}{6}=\\frac{200 \\pi}{3}\\left(\\mathrm{~m}^{2}\\right))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ceaf24ad7143c835241eb823862d1a30.png\" srcset=\"https://docdn.giainhanh.io/media/test/ce182862e619db89b5017d930560b120.png 245w\" width=\"245\"/><br><img/><br><img/><br><img/><br><img/><br><img/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho hai đường tròn bằng nhau %((O ; R))% và %(\\left(O^{\\prime} ; R\\right))% cắt nhau tại hai điểm %(A)% và %(B)% sao cho %(A B=R)%. Kẻ đường kính %(A C)% của đường tròn %((O))%. Gọi %(E)% là một điểm bất kỳ trên cung nhỏ %(B C(E \\neq B, C))%. CB và %(E B)% lần lượt cắt đường tròn %(\\left(O^{\\prime}\\right))% tại các điểm thứ hai là %(D)% và %(F)%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "1) Chúng minh %(\\angle A F D=90^{\\circ})%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\angle A B C)% là góc nội tiếp chắn nửa đường tròn %((O ; R))%%(\\Rightarrow \\angle A B C=90^{\\circ} \\Rightarrow \\angle A B D=90^{\\circ})% (hai góc kề bù)<br>Mà %(\\angle A B D)% là góc nội tiếp chắn nửa đường tròn %(\\left(O^{\\prime} ; R\\right))%<br>%(\\Rightarrow A D)% là dường kính của %(\\left(O^{\\prime} ; R\\right))%<br>Lại có: %(\\angle A F D)% là góc nội tiếp chắn cung %(A D)%<br>%(\\Rightarrow \\angle A F D=90^{\\circ})% (đpcm).<br><img alt=\"Screenshot_9.png\" src=\"https://docdn.giainhanh.io/media/test/f929f8c537b2c6b74457edb600f2ac42.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "2) Chúng minh %(A E=A F)%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\angle A E B=\\angle A C B)% (hai góc nội tiếp cùng chắn cung %(A B)% của %((O))% )<br>Hay %(\\angle A E F=\\angle A C D)%%(\\angle A F B=\\angle A D B)% (hai góc nội tiếp cùng chắn cung %(A B)% của %(\\left(O^{\\prime}\\right))% )<br>Hay %(\\angle A F E=\\angle A D C)% (2)<br>Ta có: %(A D=A C=2 R \\Rightarrow \\triangle A D C)% cân tại %(A)% (định nghĩa tam giác cân)<br>\\[\\Rightarrow \\angle A C D=\\angle A D C \\text { (3) }\\]<br>Từ (1), (2) và (3) suy ra: %(\\angle A E F=\\angle A F E)%%(\\Rightarrow \\triangle A E F)% là tam giác cân.<br>%(\\Rightarrow A E=A F)% (tính chất tam giác cân).<br><img alt=\"Screenshot_9.png\" src=\"https://docdn.giainhanh.io/media/test/f929f8c537b2c6b74457edb600f2ac42.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "3) Gọi %(P)% là giao điểm của CE và %(F D)%. Gọi %(Q)% là giao diểm của %(A P)% và EF. Chúng minh AP là đuờng trung trục của %(E F)%.",
+        "question_images": [],
+        "solution": "Ta có: %(A E=A F(\\mathrm{cmt}) \\Rightarrow A)% thuộc đường trung trực của %(E F)%. (4)<br>Xét %(\\triangle A E P)% và %(\\triangle A F P)% ta có:<br>\\[\\begin{array}{l}A E=A F(\\mathrm{cmt}) \\\\angle A E P=\\angle A F D=90^{\\circ}\\end{array}\\]<br>AP chung<br>\\[\\Rightarrow \\triangle A E P=\\triangle A F P(c h-c g v)\\]<br>%(\\Rightarrow P E=P F)% (hai cạnh tương ứng bằng nhau)<br>%(\\Rightarrow P)% thuộc đường trung trực của %(E F)%. (5)<br>Từ (4) và (5) suy ra: %(A P)% là đường trung trực của %(E F)%. (đpcm)<br><img alt=\"Screenshot_9.png\" src=\"https://docdn.giainhanh.io/media/test/f929f8c537b2c6b74457edb600f2ac42.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 0.5,
+        "content": "4) Tính tỉ số %(\\frac{A Q}{A P})%.",
+        "question_images": [],
+        "solution": "Ta có: %(A P)% là đường trung trực của %(E F)%. (cmt)<br>\\[\\Rightarrow A P \\perp E F=\\{Q\\} \\text {. }\\]<br>Áp dụng hệ thức lượng cho %(\\triangle A F P)% vuông tại %(F)% có đường cao %(F Q)% ta có:<br>\\[\\begin{array}{l}A F^{2}=A Q \\cdot A P \\Rightarrow A P=\\frac{A F^{2}}{A Q} \\\\Rightarrow \\frac{A Q}{A P}=\\frac{A Q^{2}}{A F^{2}}\\end{array}\\]<br>Xét %(\\triangle A F Q)% vuông tại %(Q)% ta có:<br>\\[\\begin{array}{l}\\sin \\angle A F Q=\\frac{A Q}{A F} \\Rightarrow \\sin \\angle A D B=\\frac{A Q}{A F}=\\frac{A B}{A D}=\\frac{1}{2} \\\\Rightarrow\\left(\\frac{A Q}{A F}\\right)^{2}=\\frac{1}{4} \\\\Rightarrow \\frac{A Q}{A P}=\\frac{1}{4} .\\end{array}\\]<br>Vậy %(\\frac{A Q}{A P}=\\frac{1}{4})%.<br><img alt=\"Screenshot_9.png\" src=\"https://docdn.giainhanh.io/media/test/f929f8c537b2c6b74457edb600f2ac42.png\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho %(a, b, c)% là các số thực duơng thỏa mãn %(a+b+c=1)%. Tìm giá trị nhỏ nhất của biểu thức<br>\\[Q=\\frac{(1-c)^{2}}{\\sqrt{2(b+c)^{2}+b c}}+\\frac{(1-a)^{2}}{\\sqrt{2(c+a)^{2}+c a}}+\\frac{(1-b)^{2}}{\\sqrt{2(a+b)^{2}+a b}}\\]",
+        "question_images": [],
+        "solution": "Do %(\\left\\{\\begin{array}{l}a, b, c\\gt 0 \\\\ a+b+c=1\\end{array} \\Rightarrow 0\\lt a, b, c\\lt 1\\right.)%.Ta có:<br>\\[\\begin{array}{l}b c \\leq\\left(\\frac{b+c}{2}\\right)^{2}=\\frac{(b+c)^{2}}{4} \\\\Rightarrow 2(b+c)^{2}+b c \\leq 2(b+c)^{2}+\\frac{(b+c)^{2}}{4}=\\frac{9(b+c)^{2}}{4} \\\\Rightarrow \\sqrt{2(b+c)^{2}+b c} \\leq \\sqrt{\\frac{9(b+c)^{2}}{4}}=\\frac{3(b+c)}{2}(D o b, c>0) \\\\Rightarrow \\frac{(1-c)^{2}}{\\sqrt{2(b+c)^{2}+b c}} \\geq \\frac{(1-c)^{2}}{\\frac{3(b+c)}{2}}=\\frac{2}{3} \\cdot \\frac{(1-c)^{2}}{(b+c)}=\\frac{2}{3} \\cdot \\frac{(1-c)^{2}}{1-a}\\end{array}\\]<br>Chứng minh tương tự ta có:<br>\\[\\begin{array}{l}\\frac{(1-a)^{2}}{\\sqrt{2(c+a)^{2}+c a}} \\geq \\frac{2}{3} \\cdot \\frac{(1-a)^{2}}{1-b} \\\\frac{(1-b)^{2}}{\\sqrt{2(a+b)^{2}+a b}} \\geq \\frac{2}{3} \\cdot \\frac{(1-b)^{2}}{1-c}\\end{array}\\]<br>Khi đó ta có:<br>\\[\\begin{array}{l}Q=\\frac{(1-c)^{2}}{\\sqrt{2(b+c)^{2}+b c}}+\\frac{(1-a)^{2}}{\\sqrt{2(c+a)^{2}+c a}}+\\frac{(1-b)^{2}}{\\sqrt{2(a+b)^{2}+a b}} \\\\geq \\frac{2}{3}\\left[\\frac{(1-c)^{2}}{1-a}+\\frac{(1-a)^{2}}{1-b}+\\frac{(1-b)^{2}}{1-c}\\right] \\\\geq \\frac{2}{3} \\cdot \\frac{(1-c+1-a+1-b)^{2}}{1-a+1-b+1-c}=\\frac{2}{3} \\cdot \\frac{[3-(a+b+c)]^{2}}{3-(a+b+c)}=\\frac{2}{3} \\cdot \\frac{(3-1)^{2}}{3-1}=\\frac{4}{3} \\\\end{array}\\]<br>Dấu \"=\" xảy ra %(\\Leftrightarrow\\left\\{\\begin{array}{l}a=b=c \\\\ a+b+c=1\\end{array} \\Leftrightarrow a=b=c=\\frac{1}{3}\\right.)%.Vây %(\\min Q=\\frac{4}{3} \\Leftrightarrow a=b=c=\\frac{1}{3})%.",
+        "question_type": "essay"
+    }
+]

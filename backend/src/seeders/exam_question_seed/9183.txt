@@ -1,0 +1,57 @@
+[
+    {
+        "title": "1 ",
+        "point": 4.0,
+        "content": "Tìm tất cả các bộ ba số nguyên dương %((p ; q ; n))%, trong đó %(p, q)% là các số nguyên tố thỏa mãn: %(p(p+3)+q(q+3)=n(n+3))%",
+        "question_images": [],
+        "solution": "Không mất tính tổng quát, giả sử %(p \\leq q)%.<br>Trường hợp 1: %(p=2)%<br>\\[\\begin{array}{l}\\Rightarrow p(p+3)=2(2+3)=2.5=10 \\\\Rightarrow 10+q(q+3)=n(n+3) \\\\Leftrightarrow 10=n^{2}+3 n-q^{2}-3 q=\\left(n^{2}-q^{2}\\right)+(3 n-3 q) \\\\Leftrightarrow 10=(n-q)(n+q)+3(n-q) \\\\Leftrightarrow 10=(n-q)(n+q+3)\\end{array}\\]<br>Vì %(p(p+3)+q(q+3)=n(n+3))% mà %({p} ;{q} ;)%n là các số nguyên dương<br>\\[\\begin{array}{l}\\Rightarrow n\\gt q \\geq 2 . \\\\Rightarrow n+q+3>2+2+3=7\\end{array}\\]<br>Mà %(10=1.10=2.5)%<br>\\[\\Rightarrow\\left\\{\\begin{array} { c } { n + q + 3 = 1 0 } \\\\{ n - q = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { n + q = 7 } \\\\{ n - q = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}n=4 \\q=3\\end{array}\\right.\\right.\\right.\\]<br>So với điều kiện thỏa mãn.<br>Vậy bộ ba số nguyên dương %((p ; q ; n))% cần tìm là %((2 ; 3 ; 4))%.<br>Trường hợp 2: %(p=3)%<br>\\[\\begin{array}{l}\\Rightarrow p(p+3)=3 \\cdot(3+3)=3 \\cdot 6=18 \\\\Rightarrow 18+q(q+3)=n(n+3) \\Leftrightarrow 18=n^{2}+3 n-q^{2}-3 q=\\left(n^{2}-q^{2}\\right)+(3 n-3 q) \\\\Leftrightarrow 18=(n-q)(n+q)+3(n-q) \\\\Leftrightarrow 18=(n-q)(n+q+3)\\end{array}\\]<br>Vì %(p(p+3)+q(q+3)=n(n+3))% mà %(p ; q ; n)% là các số nguyên dương %(\\Rightarrow n\\gt q \\geq 3)%.<br>\\[\\Rightarrow n+q+3>3+3+3=9\\]<br>Mà %(18=1.18=2.9=3.6)%<br>\\[\\Rightarrow\\left\\{\\begin{array} { c } { n + q + 3 = 1 8 } \\\\{ n - q = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { c } { n + q = 1 5 } \\\\{ n - q = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}n=8 \\q=7\\end{array}\\right.\\right.\\right.\\]<br>So với điều kiện thỏa mãn.<br>Vậy bộ ba số nguyên dương %((p ; q ; n))% cần tìm là %((3 ; 7 ; 8))%.<br>Trường hợp %(3: p\\gt 3)%<br>Ta sẽ chứng minh với 1 số nguyên %(a)% bất kì không chia hết cho 3 thì tích %(a(a+3))% luôn chia 3 dư 1 .<br>Thật vậy: Nếu %(a: 3)% dư %(1 \\Rightarrow a=3 k+1 \\Rightarrow a+3=3 k+4)%<br>\\[\\Rightarrow a(a+3)=(3 k+1)(3 k+4)=9 k^{2}+15 k+4: 3 \\text { dư } 1 .\\]<br>Nếu %(a: 3)% dư %(2 \\Rightarrow a=3 k+2 \\Rightarrow a+3=3 k+5)%<br>\\[\\Rightarrow a(a+3)=(3 k+2)(3 k+5)=9 k^{2}+21 k+10: 3 \\text { dư } 1 .\\]<br>Trở lại bài toán chính:<br>\\[\\begin{array}{l}\\text { Vi } q \\geq p>3 \\Rightarrow p \\nmid 3 ; q \\nmid 3 \\text {. } \\\\Rightarrow p(p+3)+q(q+3): 3 \\text { dư } 2 \\text {. } \\\\end{array}\\]<br>Mà %(n(n+3): 3)% dự 1 (nếu %(n \\nmid 3)% ) hoặc %(n(n+3))% %(\\vdots)%3 nếu %(n\\vdots3)%.<br>\\[\\Rightarrow p(p+3)+q(q+3) \\neq n(n+3)\\]<br>Suy ra không có bộ ba số nguyên dương %((p ; q ; n))% thỏa mãn yêu cầu bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 4.0,
+        "content": "Goi %(a, b, c)% là ba nghiệm của phương trình %(2 x^{3}-9 x^{2}+6 x-1=0)%<br>Không giải phương trình, hãy tính tổng:<br>\\[S=\\frac{a^{5}-b^{5}}{a-b}+\\frac{b^{5}-c^{5}}{b-c}+\\frac{c^{5}-a^{5}}{c-a}\\]",
+        "question_images": [],
+        "solution": "Vì %(a, b, c)% là ba nghiệm của phương trình<br>\\[2 x^{3}-9 x^{2}+6 x-1=0\\]<br>Khi phân tích đa thức %(2 x^{3}-9 x^{2}+6 x-1)% ra thừa số ta được:<br>\\[\\begin{array}{l}2 x^{3}-9 x^{2}+6 x-1=2(x-a)(x-b)(x-c) \\\\Leftrightarrow(x-a)(x-b)(x-c)=x^{3}-\\frac{9}{2} x^{2}+3 x-\\frac{1}{2} \\\\Leftrightarrow x^{3}-(a+b+c) x^{2}+(a b+b c+c a) x-a b c=x^{3}-\\frac{9}{2} x^{2}+3 x-\\frac{1}{2}\\end{array}\\]<br>\\[\\begin{array}{l}\\Leftrightarrow\\left\\{\\begin{array}{c}a+b+c=\\frac{9}{2} \\a b+b c+c a=3 \\a b c=\\frac{1}{2}\\end{array}\\right. \\\\Rightarrow a^{2}+b^{2}+c^{2}=(a+b+c)^{2}-2(a b+b c+c a)=\\left(\\frac{9}{2}\\right)^{2}-2.3=\\frac{57}{4} \\\\end{array}\\]<br>Tính %(a^{2} b^{2}+b^{2} c^{2}+c^{2} a^{2})% :<br>\\[\\begin{array}{l}a^{2} b^{2}+b^{2} c^{2}+c^{2} a^{2}=(a b+b c+c a)^{2}-2(a b \\cdot b c+b c \\cdot c a+c a \\cdot a b) \\\\Leftrightarrow a^{2} b^{2}+b^{2} c^{2}+c^{2} a^{2}=(a b+b c+c a)^{2}-2 a b c(a+b+c) \\\\Rightarrow a^{2} b^{2}+b^{2} c^{2}+c^{2} a^{2}=3^{2}-2 \\cdot \\frac{1}{2} \\cdot \\frac{9}{2}=\\frac{9}{2}\\end{array}\\]<br>%(\\begin{array}{l}\\text { Tính } a^{3}+b^{3}+c^{3} \\text { : } \\\\ a^{3}+b^{3}+c^{3}=(a+b+c)\\left(a^{2}+b^{2}+c^{2}-a b-b c-c a\\right)+3 a b c \\\\ \\Rightarrow a^{3}+b^{3}+c^{3}=\\frac{9}{2}\\left(\\frac{57}{4}-3\\right)+3 \\cdot \\frac{1}{2}=\\frac{417}{8} \\\\end{array})%<br>Vậy:<br>\\[\\left\\{\\begin{array}{c}a+b+c=\\frac{9}{2} \\a b+b c+c a=3 \\a b c=\\frac{1}{2} \\a^{2}+b^{2}+c^{2}=\\frac{57}{4} \\a^{2} b^{2}+b^{2} c^{2}+c^{2} a^{2}=\\frac{9}{2} \\a^{3}+b^{3}+c^{3}=\\frac{417}{8}\\end{array}\\right.\\]<br>Khi đó ta có:<br>\\[\\begin{array}{l}S=\\frac{a^{5}-b^{5}}{a-b}+\\frac{b^{5}-c^{5}}{b-c}+\\frac{c^{5}-a^{5}}{c-a} \\\\Leftrightarrow S=\\left(a^{4}+a^{3} b+a^{2} b^{2}+a b^{3}+b^{4}\\right)+\\left(b^{4}+b^{3} c+b^{2} c^{2}+b c^{3}+c^{4}\\right) \\\\+\\left(c^{4}+c^{3} a+c^{2} a^{2}+c a^{3}+a^{4}\\right) \\\\Leftrightarrow S=2 a^{4}+2 b^{4}+2 c^{4}+a^{3} b+b^{3} a+b^{3} c+c^{3} b+a^{3} c+c^{3} a+a^{2} b^{2}+b^{2} c^{2}+c^{2} a^{2} \\\\Leftrightarrow S=\\left(a^{4}+b^{4}+c^{4}+2 a^{2} b^{2}+2 b^{2} c^{2}+2 c^{2} a^{2}\\right)+\\left(a^{4}+a^{3} b+a^{3} c\\right)+\\left(b^{4}+b^{3} a+b^{3} c\\right) \\\\+\\left(c^{4}+c^{3} a+c^{3} b\\right)-\\left(a^{2} b^{2}+b^{2} c^{2}+c^{2} a^{2}\\right) \\\\Leftrightarrow S=\\left(a^{2}+b^{2}+c^{2}\\right)^{2}+a^{3}(a+b+c)+b^{3}(a+b+c)+c^{3}(a+b+c) \\\\-\\left(a^{2} b^{2}+b^{2} c^{2}+c^{2} a^{2}\\right) \\\\Leftrightarrow S=\\left(a^{2}+b^{2}+c^{2}\\right)^{2}+\\left(a^{3}+b^{3}+c^{3}\\right)(a+b+c)-\\left(a^{2} b^{2}+b^{2} c^{2}+c^{2} a^{2}\\right)\\end{array}\\]<br>%(\\Leftrightarrow S=\\left(\\frac{57}{4}\\right)^{2}+\\frac{9}{2} \\cdot \\frac{417}{8}-\\frac{9}{2}=\\frac{3465}{8})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho tam giác %(A B C,(A B\\lt A C))%, với ba đường cao %(A D, B E, C F)% đồng quy tại %(H)%. Các đường thẳng %(E F, B C)% cắt nhau tại %(G)%, goii %(I)% là hình chiếu của %(H)% trên %(G A)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 3.5,
+        "content": "a) Chứng minh rằng tứ giác %(B C A I)% nội tiếp.",
+        "question_images": [],
+        "solution": "Dễ dàng chứng minh tứ giác %(A I F H)% nội tiếp và tứ giác %(A F H E)% nội tiếp<br>%(\\Rightarrow 5)% điểm %(A, F, H, E, I)% cùng thuộc một đường tròn.<br>%(\\Rightarrow)% tứ giác %(A I F E)% nội tiếp.%(\\Rightarrow G I . G A=G F . G E(1))%.<br>Dễ dàng chứng minh tứ giác %(B F E C)% nội tiếp %(\\Rightarrow G F . G E=G B \\cdot G C)% (2).<br>Từ (1) và (2) suy ra: %(G I . G A=G B \\cdot G C \\Rightarrow)% tứ giác %(B C A I)% nội tiếp (điều phải chứng minh).<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/cd0801c57e603b60204ff2c9505bc529.png\" srcset=\"https://docdn.giainhanh.io/media/test/e5423770a00463a07a174b7780e11a4b.png 245w, https://docdn.giainhanh.io/media/test/c028d22d9aeedba3f2a22e2f57af5687.png 500w, https://docdn.giainhanh.io/media/test/26484ec0060745bbdd8fcaf4b7702dd5.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.5,
+        "content": "b) Gọi %(M)% là trung điểm của %(B C)%. Chứng minh rằng %(G H \\perp A M)%.",
+        "question_images": [],
+        "solution": "Gọi %((O))% là đường tròn ngoại tiếp %(\\triangle A B C)%.<br>Kẻ đường kính %(A A^{\\prime})% của %((O))%.Vì tứ giác %(B C A I)% là tứ giác nội tiếp<br>%(\\Rightarrow I \\in(O) \\Rightarrow \\widehat{A L A^{\\prime}}=90^{\\circ} \\Rightarrow A^{\\prime} I \\perp A I)% hay %(A^{\\prime} I \\perp A G)%.<br>Mà %(H I \\perp A G)% (giả thiết) %(\\Rightarrow A^{\\prime} I \\equiv H I \\Rightarrow A^{\\prime}, I, H)% thẳng hàng.<br>Mà dễ dàng chứng minh được %(A^{\\prime} H)% đi qua trung điểm %(M)% của %(B C)% (tứ giác %(B H C A^{\\prime})% là hình bình hành).<br>%(\\Rightarrow M, I, H)% thẳng hàng.<br>Xét %(\\triangle A G M)% có: %(A D \\perp A M, M I \\perp A G)% và %(A D)% cắt %(M I)% tại %(H)%.<br>%(\\Rightarrow H)% là trực tâm của tam giác %(A G M)%.%(\\Rightarrow G H \\perp A M)%<br>Suy ra điều phải chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 4.0,
+        "content": "Cho %(a, b, c)% là ba số thực dương thỏa mãn %(a+b+c=3)%. Chứng minh rằng:<br>\\[\\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}} \\geq a^{2}+b^{2}+c^{2}\\]<br>Dấu đẳng thức xảy ra khi nào?",
+        "question_images": [],
+        "solution": "<strong>Trường hợp 1:</strong> Nếu tồn tại một trong ba số %(a, b, c)% thuộc nửa khoàng %(\\left(0 ; \\frac{1}{3}\\right])% thì ta có %(\\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}} \\geq 9=(a+b+c)^{2}\\gt a^{2}+b^{2}+c^{2})%.<br>Khi đó bất đẳng thức cần chứng minh đúng.<br><strong>Trường hợp 2:</strong> %(a>\\frac{1}{3} ; b>\\frac{1}{3} ; c>\\frac{1}{3})% ta có %(a+b+c=3>a+\\frac{1}{3}+\\frac{1}{3} \\Rightarrow a\\lt \\frac{7}{3})% tương tự %(b\\lt \\frac{7}{3} ; c\\lt \\frac{7}{3})%.<br>Vậy %(a ; b ; c \\in\\left(\\frac{1}{3} ; \\frac{7}{3}\\right))%.Ta chứng minh %(\\frac{1}{x^{2}}-x^{2} \\geq-4 x+4 \\quad \\forall x \\in\\left(\\frac{1}{3} ; \\frac{7}{3}\\right) \\cdot\\left({ }^{*}\\right))%.<br>Thật vậy%((*) \\Leftrightarrow 1-x^{4} \\geq-4 x^{3}+4 x^{2} \\Leftrightarrow x^{4}-4 x^{3}+4 x^{2}-1 \\leq 0 \\Leftrightarrow(x-1)^{2}\\left(x^{2}-2 x-1\\right) \\leq 0)%%(\\Leftrightarrow(x-1)^{2}\\left((x-1)^{2}-2\\right) \\leq 0)% luôn đúng với %(\\forall x \\in\\left(\\frac{1}{3} ; \\frac{7}{3}\\right))%.<br>Vậy %(\\frac{1}{a^{2}}-a^{2} \\geq-4 a+4 ; \\frac{1}{b^{2}}-b^{2} \\geq-4 b+4 ; \\frac{1}{c^{2}}-c^{2} \\geq-4 c+4)%.<br>Từ đó suy ra %(\\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}}-a^{2}-b^{2}-c^{2} \\geq-4(a+b+c)+12=0 \\Rightarrow \\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}} \\geq a^{2}+b^{2}+c^{2})% (đpcm).<br>Dấu \" =\" xảy ra khi và chì khi %(a=b=c=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Mỗi điểm của mặt phẳng được tô bởi một trong ba màu Đỏ, Xanh, Vàng.<br>Chứng minh rằng tồn tại hai điểm %(A, B)% được tô bởi cùng một màu mà %(A B=1)%.",
+        "question_images": [],
+        "solution": "Giả sử không có 2 điểm nào trong mặt phẳng được tô cùng màu mà khoảng cách giữa chúng là 1 đơn vị độ dài.<br>Xét môt điểm %(O)% bất kỳ có màu vàng trên mặt phẳng.<br>Vẽ đường tròn %((O, \\sqrt{3}))%. Lấy môt điểm %(P)% bất kỳ trên %((O))%.<br>Dựng hình thoi %(O A P B)% có cạnh bằng 1 và có đường chéo là %(O P)%.<br>Dễ thấy %(O A=O B=A B=A C=B C=1)%.<br>Theo giả thiết, %(\\mathrm{A}, B)% phải tô khác màu vàng và khác màu nhau.<br>Do đó %(P)% phải tô vàng. Từ đây suy ra tất cả các điểm trên %((O))% phải tô vàng.<br>Điều này trái với giả thiết vì dễ thấy tồn tại hai điểm trên %((O))% có khoảng cách 1 đơn vị độ dài.<br>%(\\mathrm{P} / \\mathrm{s})% : Số 1 có thể được thay bởi bất kỳ số thực dương nào.",
+        "question_type": "essay"
+    }
+]

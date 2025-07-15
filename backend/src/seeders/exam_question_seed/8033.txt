@@ -1,0 +1,104 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "Giải các phương trình sau",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) %(\\cos 2 x+3 \\cos x-1=0)%.",
+        "question_images": [],
+        "solution": "%(\\cos 2 x+3 \\cos x-1=0)%<br>%(\\Leftrightarrow 2 \\cos ^{2} x+3 \\cos x-2=0)%<br>%(\\Leftrightarrow\\left[\\begin{array}{l}\\cos x=-2(v n) \\\\ \\cos x=\\frac{1}{2}\\end{array}\\right.)%<br>%(\\Leftrightarrow x= \\pm \\frac{\\pi}{3}+k 2 \\pi(k \\in \\mathbb{Z}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) %(4 \\sin ^{2} x+3 \\sqrt{3} \\sin x \\cos x+\\cos ^{2} x=4)%.",
+        "question_images": [],
+        "solution": "%(4 \\sin ^{2} x+3 \\sqrt{3} \\sin x \\cos x+\\cos ^{2} x=4)%<br>%(T H 1: \\cos x=0)%<br>nhận %(x=\\frac{\\pi}{2}+k \\pi)%<br>%(T H 2: \\cos x \\neq 0)%<br>%(4 \\tan ^{2} x+3 \\sqrt{3} \\tan x+1=4\\left(1+\\tan ^{2} x\\right))%<br>%(\\Leftrightarrow \\tan x=\\frac{1}{\\sqrt{3}} \\Leftrightarrow x=\\frac{\\pi}{6}+k \\pi)%<br>Vậy %(x=\\frac{\\pi}{2}+k \\pi \\vee x=\\frac{\\pi}{6}+k \\pi(k \\in \\mathbb{Z}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(\\mathrm{A}_{x+1}^{3}+\\mathrm{C}_{x+1}^{2}=14(x+1))%.",
+        "question_images": [],
+        "solution": "Đk: %(\\left\\{\\begin{array}{l}x \\geq 2 \\\\ x \\in \\mathbb{N}\\end{array}\\right.)%<br>%((1) \\Leftrightarrow \\frac{(x+1)!}{(x-2)!}+\\frac{(x+1)!}{(x-1)!2!}=14(x+1))%<br>%(\\Leftrightarrow 2(x-1) x+x=28)%<br>%(\\Leftrightarrow 2 x^{2}-x-28=0)%<br>%(\\Leftrightarrow\\left[\\begin{array}{l}x=4(n) \\\\ x=-\\frac{7}{2}(l)\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 1.0,
+        "content": "Tìm hệ số của số hạng chứa %(x^{2009})% trong khai triển %(\\left(2 x-\\frac{1}{x^{3}}\\right)^{2017}()% với %(x \\neq 0))%.",
+        "question_images": [],
+        "solution": "Số hạng tổng quát : %(\\mathrm{T}_{k+1}=\\mathrm{C}_{2017}^{k}(2 x)^{2017-k}\\left(-\\frac{1}{x^{3}}\\right)^{k})%<br>%(=\\mathrm{C}_{2017}^{k} 2^{2017-k}(-1)^{k} x^{2017-4 k})%<br>Đk: %(\\left\\{\\begin{array}{l}0 \\leq k \\leq 2017 \\\\ k \\in \\mathbb{N}\\end{array}\\right.)%<br>Yêu cầu bài toán %(\\Rightarrow 2017-4 k=2009 \\Leftrightarrow k=2(n))%<br>Vậy hệ số của số hạng chứa %(\\mathrm{x})% là %(\\mathrm{C}_{2017}^{2} 2^{2015})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 1.0,
+        "content": "Từ một hộp chứa 3 quả cầu màu trắng và 5 quả cầu màu đen, lấy ngẫu nhiên đồng thời 3 quả cầu. Tính xác suất để lấy được ít nhất hai quả cầu màu trắng.",
+        "question_images": [],
+        "solution": "%(n(\\Omega)=C_{8}^{3})%<br>A: \"Trong 3 quả cầu có ít nhất hai quả cầu trắng\"<br>Th1: 2 quả cầu trắng và 1 quả cầu đen: %(C_{3}^{2} .5)% cách<br>Th2: 3 quả cầu trắng: 1 cách<br>%(n(A)=16)%<br>%(P(A)=\\frac{16}{C_{8}^{3}})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 1.0,
+        "content": "Chứng minh rằng %(\\forall n \\in \\mathbb{N}^{*})%, ta có %(A_{n}=7^{n}-1)% chia hết cho 6 .",
+        "question_images": [],
+        "solution": "*Khi %(\\mathrm{n}=1:)%<br>%(A_{1}=7-1=6 \\vdots 6)%<br>Vậy mệnh đề đúng khi %(\\mathrm{n}=1)%.<br>*Giả sử mệnh đề đúng khi %(n=k \\in \\mathbb{N}^{*})%, ta có :<br>%(A_{k}=7^{k}-1)% chia hết cho 6<br>*Chứng minh mệnh đề đúng khi %(n=k+1)% tức là ta cần chứng minh :<br>%(A_{k+1}=7^{k+1}-1)% chia hết cho 6<br>%(A_{k+1}=7^{k+1}-1=7^{k} .7-1=7\\left(7^{k}-1\\right)+6)%<br>%(=7 A_{k}+6)%<br>%(\\Rightarrow A_{k+1})% chia hết cho 6<br>Vậy mệnh đề đúng %(\\forall n \\in \\mathbb{N}^*)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6:",
+        "group_content": "Cho hình chóp %(S \\cdot A B C D)% có đáy là hình thang với đáy lớn là %(A B)% và %(A B=2 C D)%. Gọi %(E, F)% là các điểm lần lượt thuộc cạnh %(S A, S B)% sao cho %(\\frac{S E}{S A}=\\frac{S F}{S B}=\\frac{2}{3})%. Gọi %(O)% là giao điểm của %(A C)% và %(B D)%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Tìm giao tuyến của hai mặt phẳng %((S C D))% và %((S A B))%.",
+        "question_images": [],
+        "solution": "%(S \\in(S A B) \\cap(S C D))%<br>%(A B / / C D)%<br>%(A B \\subset(S A B) ; C D \\subset(S C D))%<br>%(\\Rightarrow(S A B) \\cap(S C D)=S x / / A B / / C D)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/2c476e9f4b56cbc16b9eb6e70b4e6a26.png\" srcset=\"https://docdn.giainhanh.io/media/test/da39aa35757d0ff9eee308e373a920cc.png 145w, https://docdn.giainhanh.io/media/test/091b5899b6c6df967a724a2c44bb067e.png 466w\" width=\"466\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 0.75,
+        "content": "b) Chứng minh: %(E F / /(S C D))%.",
+        "question_images": [],
+        "solution": "%(\\left\\{\\begin{array}{l}E F / / A B\\left(\\text { do } \\frac{S E}{S A}=\\frac{S F}{S B}=\\frac{2}{3}\\right) \\\\ A B / / C D\\end{array}\\right.)%<br>%(\\Rightarrow E F / / C D)%<br>Mà %(\\left\\{\\begin{array}{l}E F \\not \\subset(S C D) \\\\ C D \\subset(S C D)\\end{array}\\right.)%<br>Suy ra %(E F / /(S C D))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 0.75,
+        "content": "c) Xác định giao điểm %(I)% của đường thẳng %(D F)% và mặt phẳng %((S A C))%.",
+        "question_images": [],
+        "solution": "%(D F \\subset(S B D))%<br>%((S B \\mathrm{D}) \\cap(S A C)=S O)%<br>Trong %(((S B D))%, gọi %(\\mathrm{I}=D F \\cap S O)%<br>Suy ra %(I=D F \\cap(S A C))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "d) ",
+        "point": 0.5,
+        "content": "d) Xác định thiết diện tạo bởi mặt phẳng %((O E F))% và hình chóp %(S . A B C D)%. Chứng minh thiết diện đó là hình bình hành.",
+        "question_images": [],
+        "solution": "%(\\left.\\begin{array}{l}O \\in(O E F) \\cap(A B C D) \\\\ E F / / A B \\\\ E F \\subset(O E F) ; A B \\subset(A B C D)\\end{array}\\right\\} \\Rightarrow(O E F) \\cap(A B C D)=O x / / E F / / A B)%<br>Gọi %(P=O x \\cap A D)% trong (ABCD)<br>Gọi %(M=O x \\cap B C)% trong (ABCD)<br>%(E F=(O E F) \\cap(S A B))%<br>%(F M=(O E F) \\cap(S B C))%<br>%(M P=(O E F) \\cap(\\mathrm{ABCD}))%<br>%(P E=(O E F) \\cap(S A D))%<br>Thiết diện cần tìm là hình thang %(E F M P)% (do %(E F / / P M)% ).<br>Ta có %(P M=P O+O M=\\frac{1}{3} A B+\\frac{2}{3} D C=\\frac{2}{3} A B)%.<br>%(E F=\\frac{2}{3} A B)%<br>Vậy thiết diện là hình bình hành.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7: ",
+        "point": 1.0,
+        "content": "Trong một buổi tọa đàm về “Tình yêu tuổi học đường” tại lớp 12A, có tất cả 21 bạn tham gia trong đó có 4 cặp có tình cảm với nhau (không có học sinh nào thuộc về nhiều cặp). Cô giáo chọn ra 5 bạn để tham gia một trò chơi tập thể. Hỏi có bao nhiêu cách chọn mà trong đó, có ít nhất một cặp có tình cảm với nhau?",
+        "question_images": [],
+        "solution": "Gọi <i><strong>A</strong></i><strong> </strong>là nhóm các học sinh có tình cảm với nhau (gồm 8 học sinh) và <i><strong>B</strong></i> là nhóm các học sinh còn lại (gồm 13 học sinh)<br>*Trường hợp 1: Có đúng 1 cặp có tình cảm với nhau.<br>- Đầu tiên chọn 1 cặp có tình cảm với nhau: Có 4 cách chọn.<br>- Tiếp theo ta chọn 3 học sinh trong đó không có 2 em nào có tình cảm với nhau, có 4 trường hợp:<br>+ 3 HS thuộc nhóm A: Có %(2^{3})% cách chọn.<br>+ 2 HS thuộc nhóm %(\\mathrm{A})% và 1 HS thuộc nhóm %(\\mathrm{B})% : Có %(C_{3}^{2} .2 .13)% cách chọn.<br>+ 1 HS thuộc nhóm %(\\mathrm{A})% và %(2 \\mathrm{HS})% thuộc nhóm %(\\mathrm{B})% : Có %(6 C_{13}^{2})% cách chọn.<br>+ 3 HS thuộc nhóm B: Có %(C_{13}^{3})% cách chọn.<br>Như vậy số cách chọn trong trường hợp 1 là 3672 cách.<br>* Trường hợp 2: Có đúng 2 cặp có tình cảm với nhau.<br>- Đầu tiên chọn 2 cặp có tình cảm với nhau: Có %(C_{4}^{2})% cách chọn.<br>- Tiếp theo ta chọn 1 học sinh còn lại: có 17 cách chọn.<br>Như vậy số cách chọn trong trường hợp 2 là 102.<br>Vậy tổng cộng có 3774 cách chọn ra 5 bạn mà trong đó, có ít nhất một cặp có tình cảm với nhau.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,143 @@
+[
+    {
+        "title": "1a ",
+        "point": 1.0,
+        "content": "Phân tích đa thức thành nhân tử: %(\\left(x^{2}-2 x\\right)\\left(x^{2}-2 x-1\\right)-6)%",
+        "question_images": [],
+        "solution": "\\[(x+1)(x-3)\\left(x^{2}-2 x+2\\right)\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "1b ",
+        "point": 1.0,
+        "content": "Đa thức %(f(x)=4 x^{3}+a x+b)% chia hết cho các đa thức %(x-2 ; x+1)%. Tính %(2 a-3 b)%",
+        "question_images": [],
+        "solution": "Đa thức %(f(x)=4 x^{3}+a x+b)% chia hết cho các đa thức %(x-2 ; x+1)% nên:<br>\\[\\begin{array}{l}f(2)=0 \\Rightarrow 32+2 a+b=0(1) \\f(-1)=0 \\Rightarrow-4-a+b=0\\end{array}\\]<br>Từ (1) và (2) ta tìm được %(a=-12 ; b=-8)%<br>Vậy %(2 a-3 b=0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2a ",
+        "point": 1.0,
+        "content": "Cho %(a_{n}=1+2+3+\\ldots+n)%. Chứng minh rằng %(a_{n}+a_{n+1})% là một số chính phương",
+        "question_images": [],
+        "solution": "Ta có: %(a_{n+1}=1+2+3+\\ldots . .+n+n+1)%<br>\\[a_{n}+a_{n+1}=2(1+2+3+\\ldots . .+n)+n+1=2 \\cdot \\frac{n(n+1)}{2}+n+1=n^{2}+2 n+1\\]<br>%(=(n+1)^{2})% là một số chính phương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2b ",
+        "point": 1.0,
+        "content": "Chứng minh rằng với mọi số tự nhiên %(n)% thì phân số %(\\frac{10 n^{2}+9 n+4}{20 n^{2}+20 n+9})% tối giản",
+        "question_images": [],
+        "solution": "Gọi %(d)% là ƯCLN của %(10 n^{2}+9 n+4)% và %(20 n^{2}+20 n+9)% %(\\Rightarrow\\left\\{\\begin{array}{l}10 n^{2}+9 n+4 \\vdots d \\\\ 20 n^{2}+20 n+9 \\vdots d\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}20 n^{2}+18 n+8 \\vdots d \\\\ 20 n^{2}+20 n+9 \\vdots d\\end{array} \\Rightarrow 2 n+1 \\vdots d \\Rightarrow d\\right.\\right.)% là số tự nhiên lẻ<br>Mặt khác : %(2 n+1 \\vdots d \\Rightarrow 4 n^{2}+4 n+1 \\vdots d \\Rightarrow 20 n^{2}+20 n+5 \\vdots d \\Rightarrow 4 \\vdots d)%, mà %(d)% lẻ nên %(d=1)%<br>Vậy phân số trên tối giản",
+        "question_type": "essay"
+    },
+    {
+        "title": "3a ",
+        "point": 1.5,
+        "content": "Cho %(x^{3}+y^{3}+z^{3}=3 x y z)%. Hãy rút gọn phân thức: %(P=\\frac{x y z}{(x+y)(y+z)(z+x)})%",
+        "question_images": [],
+        "solution": "Từ %(x^{3}+y^{3}+z^{3}=3 x y z)% chỉ ra được %(x+y+z=0)% hoặc %(x=y=z)%<br>TH1: %(x+y+z=0 \\Rightarrow x+y=-z ; x+z=-y ; y+z=-x \\Rightarrow P=-1)%<br>TH2: %(x=y=z \\Rightarrow P=\\frac{1}{8})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3b ",
+        "point": 1.5,
+        "content": "Tìm tích: %(M=\\frac{1^{4}+4}{3^{4}+4} \\cdot \\frac{5^{4}+4}{7^{4}+4} \\cdot \\frac{9^{4}+4}{11^{4}+4} \\cdots \\cdot \\frac{17^{4}+4}{19^{4}+4})%",
+        "question_images": [],
+        "solution": "Nhận xét được: %(n^{4}+4=\\left[(n-1)^{2}+1\\right]\\left[(n+1)^{2}+1\\right])%<br>Do đó:<br>\\[M=\\frac{1 \\cdot\\left(2^{2}+1\\right)}{\\left(2^{2}+1\\right) \\cdot\\left(4^{2}+1\\right)} \\cdot \\frac{\\left(4^{2}+1\\right) \\cdot\\left(6^{2}+1\\right)}{\\left(6^{2}+1\\right) \\cdot\\left(8^{2}+1\\right)} \\cdots \\cdots \\frac{\\left(16^{2}+1\\right) \\cdot\\left(18^{2}+1\\right)}{\\left(18^{2}+1\\right) \\cdot\\left(20^{2}+1\\right)}=\\frac{1}{20^{2}+1}=\\frac{1}{401}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4a ",
+        "point": 2.0,
+        "content": "Cho %(x=b y+c z ; y=a x+c z ; z=a x+b y)% và %(x+y+z \\neq 0 ; x y z \\neq 0)%.CMR: %(\\frac{1}{1+a}+\\frac{1}{1+b}+\\frac{1}{1+c}=2)%",
+        "question_images": [],
+        "solution": "Từ giả thiết %(\\Rightarrow 2 c z+z=x+y \\Rightarrow 2 c z=x+y-z)%<br>Tương tự: %(\\frac{1}{1+a}=\\frac{2 x}{x+y+z} ; \\frac{1}{1+b}=\\frac{2 y}{x+y+z})%.<br>Khi đó: %(\\frac{1}{1+a}+\\frac{1}{1+b}+\\frac{1}{1+c}=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4b ",
+        "point": 2.0,
+        "content": "Cho %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=0)%, tính giá trị của biểu thức %(P=\\frac{y z}{x^{2}}+\\frac{x z}{y^{2}}+\\frac{x y}{z^{2}})%",
+        "question_images": [],
+        "solution": "Từ %(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}=0 \\Rightarrow \\frac{1}{x^{3}}+\\frac{1}{y^{3}}+\\frac{1}{z^{3}}=\\frac{3}{x y z})%<br>Khi đó:<br>\\[P=\\frac{y z}{x^{2}}+\\frac{x z}{y^{2}}+\\frac{x y}{z^{2}}=\\frac{x y z}{x^{3}}+\\frac{x y z}{y^{3}}+\\frac{x y z}{z^{3}}=x y z \\cdot\\left(\\frac{1}{x^{3}}+\\frac{1}{y^{3}}+\\frac{1}{z^{3}}\\right)=x y z \\cdot \\frac{3}{x y z}=3\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho biểu thức : %(P=\\frac{x^{2}+x}{x^{2}-2 x+1}:\\left(\\frac{x+1}{x}-\\frac{1}{1-x}+\\frac{2-x^{2}}{x^{2}-x}\\right))%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Rút gọn biểu thức %(P)%",
+        "question_images": [],
+        "solution": "ĐKXĐ: %(x \\neq 0 ; x \\neq 1 ; x \\neq-1)%<br>Rút gọn %(P)% ta có: %(P=\\frac{x^{2}}{x-1})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Tìm %(x)% để %(P\\lt 1)%",
+        "question_images": [],
+        "solution": "%(P\\lt 1 \\Leftrightarrow \\frac{x^{2}}{x-1}\\lt 1 \\Leftrightarrow \\frac{x^{2}}{x-1}-1\\lt 0 \\Leftrightarrow \\frac{x^{2}-x+1}{x-1}\\lt 0 \\Leftrightarrow \\frac{\\left(x-\\frac{1}{2}\\right)^{2}+\\frac{3}{4}}{x-1}\\lt 0)% %(\\Leftrightarrow x-1\\lt 0 \\Leftrightarrow x\\lt 1)%<br>Vậy với %(x\\lt 1)% và %(x \\neq 0 ; x \\neq-1)% thì %(P\\lt 1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Tìm giá trị nhỏ nhất của %(P)% khi %(x\\gt 1)%",
+        "question_images": [],
+        "solution": "Ta có: %(P=\\frac{x^{2}}{x-1}=\\frac{x^{2}-1+1}{x-1}=x+1+\\frac{1}{x-1}=x-1+\\frac{1}{x-1}+2)%Khi %(x\\gt 1 ; x-1>0)%.<br>Áp dụng bất đẳng thức Cô si ta có: %(x-1+\\frac{1}{x-1} \\geq 2)%.<br>Dấu \" = \" xảy ra khi và chỉ khi %(x=2)%.<br>Vậy GTNN của P bằng %(4 \\Leftrightarrow x=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình vuông %(A B C D)%, gọi %(E, F)% thứ tự là trung điểm của %(A B, B C)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Chứng minh rằng: %(C E \\perp D F)%",
+        "question_images": [],
+        "solution": "Chứng minh được %(\\triangle C B E=\\triangle D F C()% c.g.c %() \\Rightarrow E_{1}=\\Phi_{1})%<br>Lại có: %(\\epsilon_{1}+C_{2}=90^{\\circ} \\Rightarrow D_{1}+C_{2}=90^{\\circ} \\Rightarrow C E \\perp D F)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b4df5183784bd75c5ae58b3eb7befa44.png\" srcset=\"https://docdn.giainhanh.io/media/test/754c8ca798e10c935a3c12f975814f90.png 165w, https://docdn.giainhanh.io/media/test/15a016b196d5a5b5276571003686dc73.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) GọGọi %(M)% là giao điểm của %(C E)% và %(D F)%. Chứng minh rằng: %(A M=A D)%",
+        "question_images": [],
+        "solution": "Gọi %(K)% là trung điểm của CD.<br>Chứng minh được tứ giác %(A E C K)% là hình bình hành suy ra %(A K)% / / %(C E)%<br>Gọi %(N)% là giao điểm của %(A K)% và %(D F . \\triangle D C M)% có %(D K=K C)% và %(K N / / C M)% nên N là trung điểm của DM.<br>Vì %(C M \\perp D M)% ( câu a), %(K N / / C M \\Rightarrow K N \\perp D M)%<br>Tam giác %(\\triangle A D M)% có %(A N)% là đường cao đồng thời là trung tuyến nên là tam giác cân tại %(A)%.<br>%(\\Rightarrow A M=A D)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác %(A B C)%. Vẽ ở ngoài tam giác các hình vuông %(A B D E, A C F H)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Chứng minh rằng %(E C=B H ; E C \\perp B H)%",
+        "question_images": [],
+        "solution": "Chứng minh được: %(\\triangle E A C=\\triangle B A H()% c.g.c %() \\Rightarrow E C=B H, A E C=A B H)%<br>Gọi %(K)% và O thứ tự là giao điểm của %(E C)% với BA và BH<br>Xét %(\\triangle A E K)% và %(\\triangle O B K)% có: %(A E K=\\theta B K ; A K E=Ө K B \\Rightarrow E A K=B O K)%%(\\Rightarrow B O K=90^{\\circ})%. Vậy %(E C \\perp B H)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0b6733198033110bd175d030b831e208.png\" srcset=\"https://docdn.giainhanh.io/media/test/b5a69d92923151cc6e82d107046aa7bd.png 242w, https://docdn.giainhanh.io/media/test/2295008ca0e20a1bfccc132c657f3ba7.png 500w, https://docdn.giainhanh.io/media/test/3d16736af4f9599f8a6745eeec0fe65d.png 750w, https://docdn.giainhanh.io/media/test/f6c421bb1cc0b64ed509763799fed6eb.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Gọi %(M, N)% thứ tự là tâm của các hình vuông %(A B D E, A C F H)%. Gọi I là trung điểm của %(B C)%. Tam giác %(M N I)% là tam giác gì ? Vì sao ?",
+        "question_images": [],
+        "solution": "Ta có: %(M I / / E C ; M I=\\frac{1}{2} E C ; I N / / B H ; I N=\\frac{1}{2} B H)%<br>Mà %(E C \\perp B H)% và %(E C=B H)% nên %(M I=I N)% và %(M I \\perp I N)%<br>Vậy tam giác %(M I N)% vuông cân tại I",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,80 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Cho hàm số %(f(x)=\\left\\{\\begin{array}{ll}\\frac{x^{2}-4}{\\sqrt{x-1}-1} & \\text { khi } x \\neq 2 \\\\ 2 m+x & \\text { khi } x=2\\end{array}\\right.)%. Tìm %(\\mathrm{m})% để hàm số %(f(x))% liên tục tại %(x_{0}=2)%.",
+        "question_images": [],
+        "solution": "\\[f(2)=2 m+2\\]<br>\\[\\begin{array}{l}\\lim _{x \\rightarrow 2} f(x)=\\lim _{x \\rightarrow 2} \\frac{x^{2}-4}{\\sqrt{x-1}-1}=\\lim _{x \\rightarrow 2} \\frac{(x-2)(x+2)(\\sqrt{x-1}+1)}{x-2} \\\\=\\lim _{x \\rightarrow 2}(x+2)(\\sqrt{x-1}+1)=8\\end{array}\\]<br>Hàm số liên tục tại %(\\mathrm{x}=2 \\Leftrightarrow \\lim _{x \\rightarrow 2} f(x)=f(2))%<br>\\[\\Leftrightarrow 2 m+2=8 \\Leftrightarrow m=3\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Tính đạo hàm của các hàm số sau:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(y=\\frac{x}{\\sqrt{9-x^{2}}})%;",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}y=\\frac{x}{\\sqrt{9-x^{2}}} \\Rightarrow y^{\\prime}=\\frac{(x)^{\\prime} \\cdot \\sqrt{9-x^{2}}-x \\cdot\\left(\\sqrt{9-x^{2}}\\right)^{\\prime}}{\\left(\\sqrt{9-x^{2}}\\right)^{2}} \\\\ \\Rightarrow y^{\\prime}=\\frac{\\sqrt{9-x^{2}}+\\frac{x^{2}}{\\sqrt{9-x^{2}}}}{9-x^{2}} \\\\ =\\frac{9-x^{2}+x^{2}}{\\sqrt{9-x^{2}}\\left(9-x^{2}\\right)}=\\frac{9}{\\sqrt{9-x^{2}}\\left(9-x^{2}\\right)}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(y=(1+\\cos x) \\cdot \\sin x)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}y^{\\prime}=(1+\\cos x)^{\\prime} \\sin x+(\\sin x)^{\\prime}(1+\\cos x) \\\\ =-\\sin ^{2} x+\\cos x(1+\\cos x) \\\\ =\\cos ^{2} x-\\sin ^{2} x+\\cos x\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Viết phương trình tiếp tuyến của đồ thị %((C))% của hàm số %(y=x^{2}-2 x-3)% biết tung độ tiếp điểm bằng -3 .",
+        "question_images": [],
+        "solution": "\\[y=x^{2}-2 x-3 \\Rightarrow y^{\\prime}=2 x-2\\]<br>Gọi (d) là tiếp tuyến tại %(M_{0}\\left(x_{0} ; y_{0}\\right), y_{0}=x_{0}{ }^{2}-2 x_{0}-3, y^{\\prime}\\left(x_{0}\\right)=2 x_{0}-2)%<br>\\[y_{0}=-3 \\Leftrightarrow x_{0}{ }^{2}-2 x_{0}-3=-3 \\Leftrightarrow x_{0}{ }^{2}-2 x_{0}=0 \\Leftrightarrow\\left[\\begin{array}{l}x_{0}=0 \\x_{0}=2\\end{array}\\right.\\]<br>%(x_{0}=0 \\Rightarrow\\left\\{\\begin{array}{l}y_{0}=-3 \\\\ y^{\\prime}\\left(x_{0}\\right)=-2\\end{array}:\\right.)% Phương trình tiếp tuyến: %(y=-2 x-3)%<br>%(x_{0}=2 \\Rightarrow\\left\\{\\begin{array}{l}y_{0}=-3 \\\\ y^{\\prime}\\left(x_{0}\\right)=2\\end{array}:\\right.)% Phương trình tiếp tuyến: %(y=2 x-7)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho hình chóp %(S . A B C D)% có đáy %(A B C D)% là hình vuông tâm %(O)%, cạnh %(a)%, %((S A B) \\perp(A B C D))%, tam giác %(S A B)% đều. Gọi %(H, K)% lần lượt là trung điểm của %(A B, B C)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng %(S H \\perp(A B C D))% và %((S A D) \\perp(S A B))%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9effc27b4a5a314b6a372c25ae835906.png\" srcset=\"https://docdn.giainhanh.io/media/test/f3b4512cd6f9ba630b92842648fbebb4.png 173w, https://docdn.giainhanh.io/media/test/4eccac8cd2563edb3bc4a305509a4157.png 500w\" width=\"500\"/><br>%(\\triangle S A B)% đều, có SH là trung tuyến nên %(S H \\perp A B)%<br>\\[\\begin{array}{l}\\left.\\begin{array}{l}(S A B) \\perp(A B C D) \\S H \\subset(S A B), S H \\perp A B \\\\(S A B) \\cap(A B C D)=A B\\end{array}\\right\\} \\Rightarrow S H \\perp(A B C D) \\S H \\perp(A B C D) \\Rightarrow S H \\perp A D \\\\text { Mà } A D \\perp A B, S H \\cap A B=H \\\\Rightarrow A D \\perp(S A B) \\\\Rightarrow(S A D) \\perp(S A B) \\\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tính góc giữa đường thẳng %(S B)% và mặt phẳng %((S H K))%.",
+        "question_images": [],
+        "solution": "Vì HK là đường trung bình %(\\triangle A B C)% nên %(H K \\| A C \\Rightarrow H K \\perp B D)%<br>\\[\\begin{array}{l}\\left\\{\\begin{array}{l}H K \\perp B D \\S H \\perp B D(\\text { doSH } \\perp(A B C D))\\end{array} \\Rightarrow B D \\perp(S H K) \\text { tại } I=H K \\cap B D\\right. \\\\Rightarrow S I=h c_{S B /(S H K)} \\Rightarrow(S B,(S H K))=(S B, S I) \\\\end{array}\\]<br>Tính được %(B I=\\frac{a \\sqrt{2}}{4})%<br>Xét %(\\triangle S B I)% vuông tại %(I)% có: %(\\sin \\widehat{B S I}=\\frac{B I}{S B}=\\frac{\\sqrt{2}}{4} \\Rightarrow \\widehat{B S I} \\approx 20,7^{\\circ})%<br>Vậy %((S B,(S H K)) \\approx 20,7^{\\circ})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "Tính khoảng cách từ điểm %(K)% đến mặt phẳng (SAD).",
+        "question_images": [],
+        "solution": "Gọi %(F=H K \\cap A D)%.<br>Tứ giác %(\\mathrm{AFKC})% là hình bình hành nên %(\\mathrm{H})% là trung điểm của %(\\mathrm{KF})%.<br>Vì %(F=H K \\cap(S A D))% nên: %(\\frac{d(K,(S A D))}{d(H,(S A D))}=\\frac{F K}{F H}=2)%<br>Trong (SAB), kẻ %(H E \\perp S A)%.<br>\\[\\left\\{\\begin{array}{l}(S A B) \\perp(S A D) \\S A=(S A B) \\cap(S A D) \\quad \\Rightarrow H E \\perp(S A D) \\Rightarrow d(H,(S A D))=H E \\H E \\subset(S A B), H E \\perp S A\\end{array}\\right.\\]<br>Tính được: %(\\quad H E=\\frac{a \\sqrt{3}}{4} \\Rightarrow d(H,(S A D))=\\frac{a \\sqrt{3}}{4})%<br>Suy ra: %(d(K,(S A D))=\\frac{a \\sqrt{3}}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Một xe khách đang chuyển động thẳng đều thì gặp phải chướng ngại vật nên tài xế quyết định giảm tốc độ, từ đó xe chuyển động theo phương trình %(s(t)=-1,5 t^{2}+18 t)% với %(s)% (mét) là quãng đường xe đi được và %(t)% (giây) là thời gian xe chuyển động, tính từ lúc bắt đầu giảm tốc độ. Biết rằng vào lúc xe khách bắt đầu giảm tốc độ, chướng ngại vật đứng yên và cách xe khách 60 mét. Hỏi sau bao lâu thì xe khách dừng hẳn? Khi đó, xe khách có tránh được va chạm với chướng ngại vật hay không? Vì sao?",
+        "question_images": [],
+        "solution": "\\[v(t)=S^{\\prime}(t)=-3 t+18\\]<br>Xe dừng lại khi: %(v(t)=0 \\Rightarrow t=6(s))%.<br>Quãng đường xe chạy từ lúc giảm tốc độ đến lúc dừng hẳn:<br>\\[S=-1,5.6^{2}+18.6=54(\\mathrm{~m}) \\text {. }\\]<br>Vì %(54 \\mathrm{~m}\\lt 60 \\mathrm{~m})% nên xe khách tránh được va chạm với chướng ngại vật",
+        "question_type": "essay"
+    }
+]

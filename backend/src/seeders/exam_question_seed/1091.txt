@@ -1,0 +1,81 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Chứng minh rằng tích của bốn số nguyên liên tiếp cộng với 1 là bình phương của một số nguyên.",
+        "question_images": [],
+        "solution": "(Gọi 4 số nguyên liên tiếp bất kỳ là %(a, a+1, a+2 a+3)% với %(a)% in mathbb %(Z)%<br>Ta có các biến đổi:<br>\\[\\begin{aligned}a(a+1)(a+2)(a+3)+1 & =\\left(a^{2}+3 a\\right)\\left(a^{2}+3 a+2\\right)+1 \\\\& =\\left(a^{2}+3 a\\right)^{2}+2\\left(a^{2}+3 a\\right)+1 \\\\& =\\left(a^{2}+3 a+1\\right)^{2}\\end{aligned}\\]<br>Vì %(\\left(a^{2}+3 a+1\\right)^{2})% là một số chính phương nên bài toán được chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.5,
+        "content": "Tìm các cặp số nguyên %((x, y))% là nghiệm của hệ phương trình<br>\\[\\left\\{\\begin{array}{c}2 x y-x=10 \\x+y+x y=12\\end{array}\\right.\\]",
+        "question_images": [],
+        "solution": "Bằng các phép biến đổi ta được hệ phương trình sau<br>\\[\\left\\{\\begin{array} { c } { 2 x y - x = 1 0 } \\\\{ x + y + x y = 1 2 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{c}x(2 y-1)=10 \\\\(x+1)(y+1)=12\\end{array}\\right.\\right.\\]<br>Vì 2, y nguyên nên %(\\mathrm{x}, 2 \\mathrm{y}-1)% nguyên do đó %(2 \\mathrm{y}-1)% là ước lẻ của 10 .<br>Ta xét các trường hợp sau.<br>- %(2 y-1=1)% suy ra %(y=1)% và %(x=10)% thay vào (1) không thỏa mãn.<br>- %(2 y-1=-1)% suy ra %(y=0)% và %(x=-10)% thay vào (1) ta thấy không thỏa mãn.<br>- %(2 y-1=5)% suy ra %(y=3)% và %(x=2)% thay vào (1) ta thấy thỏa mãn.<br>%(2 y-1=-5)% suy ra %(y=-2)% và %(x=-2)% thay vào (1) ta thấy không thỏa mãn.<br>Vậy cặp số nguyên %((x, y))% thỏa mãn duy nhất là %((x, y)=(2,3))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2:",
+        "group_content": "null",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "Cho %(a, b)% là các số thực không âm, %(c)% là số thực dương thỏa mãn đẳng thức<br>\\[\\sqrt{a}-\\sqrt{a+b-c}=\\sqrt{b}+\\sqrt{c}\\]<br>Chứng minh rằng: %(\\sqrt[3]{a}+\\sqrt[3]{b}-\\sqrt[3]{c}=\\sqrt[3]{a+b-c})%",
+        "question_images": [],
+        "solution": "Bằng các phép biến đổi biểu thức kết hợp với %(a, b)% không âm và %(c)% thực dương, ta có:<br>\\[\\begin{aligned}& \\sqrt{a}-\\sqrt{a+b-c}=\\sqrt{b}+\\sqrt{c} \\\\Leftrightarrow & \\sqrt{a}-\\sqrt{b}=\\sqrt{c}+\\sqrt{a+b-c} \\\\Rightarrow & a+b-2 \\sqrt{a b}=a+b+2 \\sqrt{c(a+b-c)} \\\\Leftrightarrow & \\sqrt{a b}+\\sqrt{c(a+b-c)}=0 \\\\Leftrightarrow & \\left\\{\\begin{array}{c}a b=0 \\\\(a+b-c)=0\\end{array}\\right.\\end{aligned}\\]<br>%(\\mathrm{Ta})% cần chứng minh<br>\\[\\sqrt[3]{a}+\\sqrt[3]{b}-\\sqrt[3]{c}=\\sqrt[3]{a+b-c}\\]<br>Ta biến đổi tương đương đẳng thức này kết hợp với %(\\mathrm{a}, \\mathrm{b})% không âm và %(\\mathrm{c})% thực dương, ta có:<br>\\[\\sqrt[3]{a}+\\sqrt[3]{b}-\\sqrt[3]{c}=\\sqrt[3]{a+b-c}\\]<br>\\[\\begin{array}{l}\\Leftrightarrow \\sqrt[3]{a}+\\sqrt[3]{b}=\\sqrt[3]{c}+\\sqrt[3]{a+b-c} \\\\Leftrightarrow a+b+3\\left(\\sqrt[3]{a^{2} b}+\\sqrt[3]{a b^{2}}\\right)=a+b+3\\left(\\sqrt[3]{c^{2}(a+b-c)}+\\right. \\\\left.\\sqrt[3]{c(a+b-c)^{2}}\\right) \\\\Leftrightarrow\\left(\\sqrt[3]{a^{2} b}+\\sqrt[3]{a b^{2}}\\right)=\\left(\\sqrt[3]{c^{2}(a+b-c)}+\\sqrt[3]{c(a+b-c)^{2}}\\right)\\end{array}\\]<br>Đẳng thức cuối đúng với điều kiện %(\\left(^{*}\\right))% nên đẳng thức đầu đúng. Bài toán được chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "Tìm tất cả các số nguyên dương %(a, b)% sao cho số %(\\frac{\\sqrt{3}+\\sqrt{a}}{\\sqrt{5}+\\sqrt{b}})% là số hữu tỷ.",
+        "question_images": [],
+        "solution": "Lấy %(\\alpha \\in \\mathbb{Q})% sao cho<br>\\[\\frac{\\sqrt{3}+\\sqrt{a}}{\\sqrt{5}+\\sqrt{b}}=\\alpha\\]<br>Viết lại phương trình dưới dạng<br>\\[\\sqrt{a}-\\alpha \\sqrt{b}=\\alpha \\sqrt{5}-\\sqrt{3}\\]<br>Bình phương 2 vế ta có:<br>\\[a+\\alpha^{2} b-2 \\alpha \\sqrt{a b}=5 \\alpha^{2}-2 \\alpha \\sqrt{15}\\]<br>Từ đó suy ra<br>\\[\\sqrt{a b}-\\sqrt{15}=\\beta \\in \\mathbb{Q}\\]<br>Bình phương 2 vế đẳng thức %(\\sqrt{a b}-\\sqrt{15}+\\beta)% ta được<br>\\[\\begin{array}{l}a b=15+\\beta^{2}+2 \\beta \\sqrt{15} \\\\Leftrightarrow 2 \\beta \\sqrt{15}=a b-15-\\beta^{2}\\end{array}\\]<br>Đẳng thức cuối xảy ra khi và chỉ khi %(\\beta=0)% tức là %(\\mathrm{ab}=15)%.<br>Xét tất cả khả năng có thể xảy ra, ta được.<br>- %(\\mathrm{a}=1, \\mathrm{~b}=15)% tức là %(\\alpha=\\frac{\\sqrt{3}+1}{\\sqrt{5}+\\sqrt{15}}=\\frac{1}{\\sqrt{5}})% là 1 số vô tỷ.<br>- %(\\mathrm{a}=3, \\mathrm{~b}=5)% tức là %(\\alpha=\\frac{2 \\sqrt{3}}{2 \\sqrt{5}}=\\frac{\\sqrt{3}}{\\sqrt{5}})% là 1 số vô tỷ.<br>- %(\\mathrm{a}=5, \\mathrm{~b}=3)% tức là %(\\alpha=\\frac{\\sqrt{3}+\\sqrt{5}}{\\sqrt{5}+\\sqrt{3}}=1)% là 1 số hữu tỷ.<br>- %(\\mathrm{a}=15, \\mathrm{~b}=1)%, tức là %(\\alpha=\\frac{\\sqrt{3}+\\sqrt{15}}{\\sqrt{5}+1}=\\sqrt{3}, 1)% số vô tỷ.<br>Vậy tất cả các cặp %((a, b))% thỏa mãn là %(a=5 b=3)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3:",
+        "group_content": "Cho tam giác %(\\mathrm{ABC})%. Đường tròn (I) nội tiếp tam giác %(\\mathrm{ABC})% lần lượt tiếp xúc với các cạnh %(\\mathrm{BC}, \\mathrm{CA}, \\mathrm{AB})% tại các điểm %(\\mathrm{D}, \\mathrm{E})%, G.Hai đường thẳng %(D E, D G)% lần lượt cắt đường phân giác ngoài góc %(B A C)% tại %(M, N)% Hai đường thẳng %(\\mathrm{MG}, \\mathrm{NE})% cắt nhau tại điểm %(\\mathrm{P})%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "EG song song với MN.",
+        "question_images": [],
+        "solution": "Vì %(\\mathrm{AM})% là phân giác ngoài %(\\widehat{B A C})%. %(\\mathrm{AI})% là phân giác trong góc %(\\mathrm{A})% nên %(\\mathrm{AI} \\perp \\mathrm{AM})% mà %(\\mathrm{GE} / / \\mathrm{AI})% nên %(\\mathrm{EG} / / \\mathrm{AM})% hay %(\\mathrm{GE} / / \\mathrm{MN})%. Bài toán được chứng minh.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/57af9a8482017b4acda6c1ee4d472607.png\" srcset=\"https://docdn.giainhanh.io/media/test/c73a72cdf31ccaed1d6c13e23331458c.png 210w, https://docdn.giainhanh.io/media/test/5852110873d049c2fe22f724f7cd2500.png 500w, https://docdn.giainhanh.io/media/test/2625509799319efdbc47072e8e3564a4.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "Điểm P thuộc đường tròn (I).",
+        "question_images": [],
+        "solution": "Gọi %(P_{1})% là giao của %(\\mathrm{NE})% và đường tròn %((\\mathrm{I}))% thì từ %(\\mathrm{EG} / / \\mathrm{MN})%, ta có:<br>\\[\\widehat{A N P_{1}}=\\widehat{A N E}=\\widehat{P_{1} E G}=\\widehat{P_{1} G A}\\]<br>Do đó tứ giác %(\\mathrm{ANGP})%, nội tiếp kết hợp với tứ giác %(\\mathrm{DG} P_{1} E)% nội tiếp, ta có<br>\\[\\widehat{P_{1} E M}=\\widehat{P_{1} G D}=\\widehat{N A P_{1}}=180^{\\circ}-\\widehat{P_{1} G A}\\]<br>Suy ra tứ giác %(\\mathrm{MA} P_{1} E)% nội tiếp kết hợp với %(\\mathrm{EG} / / \\mathrm{MN})% và tứ giác %(\\mathrm{ANG} P_{1})% nội tiếp, ta có:<br>\\[\\begin{array}{l}\\widehat{G P_{1} M}=\\widehat{A P_{1} M}+\\widehat{A P_{1} G}=\\widehat{A E M}+\\widehat{A P_{1} G}=\\widehat{D G E}+\\widehat{A P_{1} G}=\\widehat{G N A}+\\widehat{A P_{1} G}= \\\\180^{\\circ}\\end{array}\\]<br>Do đó ta được 3 điểm %(\\mathrm{G}, P_{1}, \\mathrm{M})% thẳng hàng.<br>Vì vậy nên %(P_{1})% trùng %(\\mathrm{P})%. Nói cách khác %(\\mathrm{MG}, \\mathrm{NE})% cắt nhau tại 1 điểm %(\\mathrm{P})% nằm trên (I). Bài toán được chứng minh.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4: ",
+        "point": 1.5,
+        "content": "Bảy lục giác đều được sắp xếp và tô màu bằng hai màu trắng, đen như ở Hình 1. Mỗi lần cho phép chọn ra một lục giác đều, đổi màu của lục giác đó và của tất cả các lục giác đều chung cạnh với lục giác đó (trắng thành đen và đen thành trắng). Chứng minh rằng dù có thực hiện cách làm trên bao nhiêu lần đi nữa, cũng không thể nhận được các lục giác đều được ô màu như ở Hình 2.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/927203e1c8f8993ca4bbf59bf284c728.PNG"
+        ],
+        "solution": "Cách 1<br>Ta xét một hình lục giác được điền số %(a_{i})% thì %(a_{i} \\equiv b_{i}(\\bmod 2))% trong đó %(b_{i})% là tổng các số được điền trong các hình lục giác chung cạnh với hình lục giác đang xét. Do đó, khi đối màu theo đề bài thì số dư trong phép chia cho 2 của tống các số trong các hình lục giác tô đen luôn không đổi. Đối với hình 1 thì số dư này bằng 1 , còn đối với hình 2 thì số dư này bằng 0 nên không thể có cách đổi màu nào biến hình 1 thành hình 2 .<br>Cách 2.<br>Xét các ô %(2,3,5,6)%. Mỗi bước ta đổi màu hai hoặc cả bốn ô đó nên số ô đen không thay đổi tính chẵn, lẻ. Ban đầu trong bốn ô nói trên có hai ô đen nên không thể có trạng thái trong bốn ô đó có đúng một ô đen.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/157fc2b8eda054be40a9c421ca3a741a.png\" srcset=\"https://docdn.giainhanh.io/media/test/689ae593aa5f8d4caffcd47d78e4801b.png 150w\" width=\"150\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/06419463d2a2d5858b8d32f4da24af16.png\" srcset=\"https://docdn.giainhanh.io/media/test/374721a264dec664fe8f99791606585c.png 168w\" width=\"168\"/>",
+        "question_type": "essay"
+    }
+]

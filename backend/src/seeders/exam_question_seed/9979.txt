@@ -1,0 +1,127 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức: %(P=\\left(\\frac{2 x+4}{x \\sqrt{x}-8}-\\frac{\\sqrt{x}}{x+2 \\sqrt{x}+4}\\right) \\cdot\\left(\\frac{x \\sqrt{x}+8}{4+2 \\sqrt{x}}-\\sqrt{x}\\right))%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.25,
+        "content": "a) Rút gọn biểu thức %(P)%.",
+        "question_images": [],
+        "solution": "a) Điều kiện: %(\\left\\{\\begin{array}{l}x \\geq 0 \\\\ x \\sqrt{x}-8 \\neq 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 0 \\\\ x \\neq 4\\end{array}\\right.\\right.)%.<br>Khi đó ta có :<br>\\[\\begin{aligned}P & =\\left(\\frac{2 x+4}{\\sqrt{x^{3}}-2^{3}}-\\frac{\\sqrt{x}}{x+2 \\sqrt{x}+4}\\right)\\left(\\frac{\\sqrt{x^{3}}+2^{3}}{4+2 \\sqrt{x}}-\\sqrt{x}\\right) \\\\& \\left.=\\frac{2 x+4-\\sqrt{x}(\\sqrt{x}-2)}{(\\sqrt{x}-2)(x+2 \\sqrt{x}+4)} \\cdot \\frac{(\\sqrt{x}+2)(x-2 \\sqrt{x}+4)}{2(2+\\sqrt{x})}-\\sqrt{x}\\right] \\\\& =\\frac{x+2 \\sqrt{x}+4}{(\\sqrt{x}-2)(x+2 \\sqrt{x}+4)} \\cdot\\left(\\frac{x-2 \\sqrt{x}+4}{2}-\\sqrt{x}\\right) \\\\& =\\frac{1}{\\sqrt{x}-2} \\cdot \\frac{x-4 \\sqrt{x}+4}{2}=\\frac{1}{\\sqrt{x}-2} \\cdot \\frac{(\\sqrt{x}-2)^{2}}{2}=\\frac{\\sqrt{x}-2}{2}\\end{aligned}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) Tính giá trị của %(P)% khi %(x=7+4 \\sqrt{3})%.",
+        "question_images": [],
+        "solution": "Khi %(\\begin{aligned} x=7+4 \\sqrt{3} \\text { ta có } P=\\frac{\\sqrt{7+4 \\sqrt{3}}-2}{2} & =\\frac{\\sqrt{(2+\\sqrt{3})^{2}}-2}{2} \\\\ & =\\frac{2+\\sqrt{3}-2}{2}=\\frac{\\sqrt{3}}{2}\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Tính giá trị của %(a+b)% biết %(\\left(a+\\sqrt{a^{2}+2024}\\right)\\left(b+\\sqrt{b^{2}+2024}\\right)=2024)%.",
+        "question_images": [],
+        "solution": "Ta có : %(\\quad\\left(\\sqrt{a^{2}+2024}+a\\right)\\left(\\sqrt{a^{2}+2024}-a\\right)=a^{2}+2024-a^{2}=2024)%.<br>Kết hợp với giả thiết ta suy ra %(\\sqrt{a^{2}+2024}-a=\\sqrt{b^{2}+2024}+b)%<br>Tương tự ta cũng có : %(\\quad \\sqrt{b^{2}+2024}-b=\\sqrt{a^{2}+2024}+a)%<br>\\[\\begin{array}{l}\\Rightarrow \\sqrt{b^{2}+2024}-b+\\sqrt{a^{2}+2024}-a=\\sqrt{a^{2}+2024}+a+\\sqrt{b^{2}+2024}+b \\\\Rightarrow a+b=0\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Một công ty vận tải dự định chở 54 tấn hàng để hưởng ứng phong trào “Hướng về Miền Trung thân yêu”. Nhưng khi chuẩn bị khởi hành thì số hàng hóa đã tăng thêm 6 tấn so với dự định. Vì vậy công ty phải bổ sung thêm 3 xe, lúc này mỗi xe chở ít hơn dự định 1 tấn hàng. Hỏi ban đầu công ty dự định dùng bao nhiêu chiếc xe để chở hàng, biết các xe chở số tấn hàng bằng nhau.",
+        "question_images": [],
+        "solution": "Gọi %(x)% (chiếc) là số xe dự định của công ty %(\\left(x \\in \\mathbb{N}^{*}, x\\lt 54\\right))%<br>Số xe tham gia vận chuyển là %(x+3)% (chiếc)<br>Số tấn hàng trên mỗi chiếc theo dự định %(\\frac{54}{x})%.<br>Số tấn hàng trên mỗi chiếc thực tế %(\\frac{60}{x+3})%.<br>Theo bài ra ta có phương trình: %(\\frac{54}{x}-\\frac{60}{x+3}=1)%<br>\\[\\Leftrightarrow 54(x+3)-60 x=x(x+3) \\Leftrightarrow x^{2}+9 x-162=0 \\Leftrightarrow\\left[\\begin{array}{l}x=9(n) \\x=-18(l)\\end{array}\\right. \\text {. }\\]<br>Vậy lúc đầu công ty có 9 chiếc xe.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình : %(\\left\\{\\begin{array}{l}3 y^{2}+2 x y+3=4 y \\sqrt{x^{2}+3} \\\\ y(y-x)=3-3 y\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "2. Giải hệ phương trình : %(\\left\\{\\begin{array}{l}3 y^{2}+2 x y+3=4 y \\sqrt{x^{2}+3} (1) \\\\ y(y-x)=3-3 y (2)\\end{array}\\right.)%<br>Phương trình (1) tương đương: %(4 y^{2}-4 y \\sqrt{x^{2}+3}+x^{2}+3=x^{2}-2 x y+y^{2})%<br>\\[\\Leftrightarrow\\left(2 y-\\sqrt{x^{2}+3}\\right)^{2}=(x-y)^{2} \\Leftrightarrow\\left[\\begin{array}{l}\\sqrt{x^{2}+3}=3 y-x \\\\sqrt{x^{2}+3}=x+y\\end{array}\\right.\\]<br>TH1: %(\\sqrt{x^{2}+3}=3 y-x)%.<br>Kết hợp với (2) ta có hệ %(\\left\\{\\begin{array}{l}3 y \\geq x \\\\ 6 x y=9 y^{2}-3 \\\\ x y=y^{2}+3 y-3\\end{array}\\right.)%.<br>\\[\\Rightarrow 9 y^{2}-3=6\\left(y^{2}+3 y-3\\right) \\Leftrightarrow\\left[\\begin{array}{l}y=1 ; x=1 \\quad(T M) \\y=5 ; x=\\frac{37}{5}(T M)\\end{array}\\right.\\]<br>TH2: %(\\sqrt{x^{2}+3}=x+y)%. Kết hợp với (2) ta có : %(\\left\\{\\begin{array}{l}x+y \\geq 0 \\\\ 2 x y=-y^{2}+3 \\\\ x y=y^{2}+3 y-3\\end{array}\\right.)%<br>\\[\\Rightarrow-y^{2}+3=2\\left(y^{2}+3 y-3\\right) \\Leftrightarrow\\left[\\begin{array}{l}y=1 ; x=1(T M) \\y=-3 ; x=1(L)\\end{array}\\right.\\]<br>Vậy hệ có nghiệm %((x ; y)=(1 ; 1),\\left(\\frac{37}{5} ; 5\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho Parabol %((P): y=x^{2})% và đường thẳng %((d): y=m x+4)% (với %(m)% là tham số).",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Chứng minh đường thẳng %((d))% luôn cắt đồ thị %((P))% tại hai điểm phân biệt.",
+        "question_images": [],
+        "solution": "a) Phương trình hoành độ giao điềm của %((d))% và %((P))% là:<br>\\[x^{2}=m x+4 \\Leftrightarrow x^{2}-m x-4=0 \\text {. }\\]<br>Ta có %(\\Delta=m^{2}+16\\gt 0)%, với mọi %(m)% nên phương trình luôn có 2 nghiệm phân biệt, suy ra đường thẳng %((d))% luôn cắt %((P))% tại hai điểm phân biệt.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Gọi %(x_{1}, x_{2})% là hoành độ giao điểm của %((P))% và %((d))%. Tìm %(m)% để %(T=\\frac{2 m x_{1}-x_{1} x_{2}+2 m x_{2}+3}{x_{1}^{2}+x_{2}^{2}})% nhận giá trị nguyên.",
+        "question_images": [],
+        "solution": "b) Gọi %(x_{1}, x_{2})% là hoành độ giao điềm của %((P))% và %((d))%. Tìm %(m)% để %(T=\\frac{2 m x_{1}-x_{1} x_{2}+2 m x_{2}+3}{x_{1}^{2}+x_{2}^{2}})% nhận giá trị nguyên.<br>Theo định lý Viet ta có: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=m \\\\ x_{1} \\cdot x_{2}=-4\\end{array}\\right.)%Khi đó %(T=\\frac{2 m\\left(x_{1}+x_{2}\\right)-x_{1} x_{2}+3}{x_{1}^{2}+x_{2}^{2}}=\\frac{2 m^{2}+7}{m^{2}+8})%<br>\\[T=2-\\frac{9}{m^{2}+8} \\Rightarrow T \\in \\mathbb{Z} \\Leftrightarrow m^{2}+8 \\in U(9)\\]<br>Mà %(m^{2}+8 \\geq 8, \\forall m \\Rightarrow m^{2}+8=9 \\Leftrightarrow m= \\pm 1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho đường tròn tâm %(O)% đường kính %(A B)%. Trên cùng nữa mặt phẳng bờ %(A B)%, vẽ các tiếp tuyến %(A x, B y)% của %((O))% và lấy điểm %(C)% sao cho %(C A\\lt C B)%. Trên đoạn %(O A)% lấy điểm %(D(D)% khác %(O, A))%. Đường thẳng vuông góc với %(C D)% tại %(C)% cắt %(A x, B y)% lần lượt tại %(E, F)%. Đoạn thẳng %(A C)% cắt %(D E)% tại %(G, B C)% cắt %(D F)% tại %(H, O C)% cắt %(G H)% tại %(I)%. Gọi %(J, K)% lần lượt là trung điểm của %(D E, D F)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh %(\\triangle A G E)% đồng dạng %(\\triangle F H C)%.",
+        "question_images": [],
+        "solution": "Ta có %(C A E=A B C)% (cùng chắn %(A C)%)<br>Tứ giác %(C D B F)% nội tiếp %(\\Rightarrow A B C=C F D)% (cùng chắn %(C D) \\Rightarrow C A E=C F D)% (1)<br>Tứ giác %(A D C E)% nội tiếp %(\\Rightarrow A E D=A C D)% (cùng chắn %(A D)%)<br>Mà %(A C D=B C F)% (cùng phụ %(B C D)% )%(\\Rightarrow A E D=B C F \\quad)% (2)<br>Từ (1) và %((2) \\Rightarrow \\triangle A G E \\backsim \\triangle F H C)%<br><img alt=\"Capture.PNG\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/42566d2b5387a22ad1358ceb2b6d5317.PNG\" srcset=\"https://docdn.giainhanh.io/media/test/33b51d8f95428001ad58e4a7cdda32f0.PNG 123w,https://docdn.giainhanh.io/media/test/88bcaa31c7db12d8bd764ea378a32061.PNG 395w,\" width=\"395px\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Chứng minh %(I)% là trung điểm của %(G H)% và %(I, J, K)% thẳng hàng.",
+        "question_images": [],
+        "solution": "Ta có %(C G D=A G E=C H F \\Rightarrow)% Tứ giác %(C G D H)% nội tiếp %(\\Rightarrow C G H=C D H)%<br>Mà %(C D H=C B F)% (Tứ giác %(C D B F)% nội tiếp)<br>\\[\\Rightarrow C G H=C B F\\]<br>Mà %(C B F=C A B \\Rightarrow C G H=C A B \\Rightarrow G H / / \\mathrm{AB} \\Rightarrow \\frac{G I}{O A}=\\frac{I H}{O B})%<br>Vì %(O A=O B)% nên %(I G=I H \\Rightarrow I)% là trung điểm của %(G H)%<br>Vì %(I, J)% lần lượt là tâm của đường tròn ngoại tiếp hai tứ giác %(C G D H, A D C E)% nên %(I J \\perp C D)%<br>Vì %(J, K)% lần lượt là tâm của đường tròn ngoại tiếp hai tứ giác %(A D C E, B D C F)% nên %(J K \\perp C D)%%(\\Rightarrow I, \\mathrm{~J}, \\mathrm{~K})% thẳng hàng<br><img alt=\"Capture.PNG\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b430bb6f2077c94ca6fa76ef13079204.PNG\" srcset=\"https://docdn.giainhanh.io/media/test/89036ddc1c158898bfdb13eb5dc82b06.PNG 149w,https://docdn.giainhanh.io/media/test/0c5971d50aa1f99fbaab475ff885afec.PNG 477w,\" width=\"477px\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) Gọi %(M)% là giao điểm của %(J O)% và %(D K)%. Chứng minh %(\\triangle J O K)% vuông và %(D E, I M, K O)% đồng quy.",
+        "question_images": [],
+        "solution": "Ta có %(J)% là tâm đường tròn ngoại tiếp tứ giác %(A D C E \\Rightarrow O J \\perp A C \\Rightarrow O J / / B C)% (do %(B C \\perp A C)% )<br>Mặt khác %(\\left\\{\\begin{array}{c}J E=J D \\\\ K F=K D\\end{array} \\Rightarrow J K / / E F\\right.)% (tính chất đường trung bình)<br>Do đó %(M J K=B C F)%<br>Mà Tứ giác %(B D C F)% nội tiếp %(\\Rightarrow B C F=B D F)% (cùng chắn %(B F)% )%(\\Rightarrow M J K=B D F=O D K \\Rightarrow)% Tứ giác %(J D O K)% nội tiếp<br>\\[\\Rightarrow J O K=J D K\\]<br>Mà %(J D K=90^{\\circ})% ( do %(C G D H)% nội tiếp và %(G C H=90^{\\circ})% )%(\\Rightarrow J O K=90^{\\circ} \\Rightarrow \\triangle J O K)% vuông tại %(O)%.<br>Gọi %(N)% là giao điểm của %(E D)% và %(O K)%<br>Ta có %(M)% là trực tâm %(\\triangle J N K)% nên %(N M \\perp J K)%%(M O I=J O C=O C B=O B C=C F D)% (vì %(O J / / B C)%)<br>Mà %(C F D=I K D \\quad(J K / / \\mathrm{E} F))%%(\\Rightarrow M O I=I K M \\Rightarrow)% Tứ giác %(I M O K)% nội tiếp%(\\Rightarrow I M \\perp J K \\quad(4))%<br>Từ %((3))% và %((4) \\Rightarrow D E, I M, K O)% đồng quy",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Cho nữa đường tròn %((O ; R))% đường kính %(A B \\cdot M)% là điểm di động trên nữa đường tròn %((M)% không trùng với %(A, B))%. Qua %(M)% kẻ tiếp tuyến với nữa đường tròn. Gọi %(D, C)% lần lượt là hình chiếu của %(A, B)% trên tiếp tuyến ấy. Tìm vị trí của %(M)% để tứ giác %(A B C D)% có diện tích lớn nhất.",
+        "question_images": [],
+        "solution": "Ta có %(A D \\perp D C, B C \\perp D C \\Rightarrow A D / / B C)%<br>%(\\Rightarrow A B C D)% là hình thang mà %(A D C=90^{\\circ})% nên %(A B C D)% là hình thang vuông.<br>%(O M \\perp D C \\Rightarrow O M / / A D)% mà %(O)% là trung điểm %(A B)% nên %(O M=\\frac{A D+B C}{2})%.<br>Do đó %(S_{A B C D}=\\frac{A D+B C}{2} \\cdot D C=O M \\cdot D C=R \\cdot D C)%<br>Vì %(A B C D)% là hình thang vuông nên %(D C \\leq A B)%. Vậy %(S_{A B C D} \\leq R \\cdot A B=2 R^{2})%<br>Dấu bằng xảy ra khi %(D C=A B)%. Khi đó %(A B C D)% là hình chữ nhật.<br>%(\\Rightarrow C D / / A B)%. Vậy %(M)% nằm chính giữa %(A B)%.<br><img alt=\"Capture.PNG\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/faf82491861286423d1a47397e9f313f.PNG\" srcset=\"https://docdn.giainhanh.io/media/test/0fdfbc26ceefe5d51344af7a941fce89.PNG 245w,https://docdn.giainhanh.io/media/test/a49a02032c59e888a1a6f32f8f8fcf07.PNG 500w,https://docdn.giainhanh.io/media/test/b49b5314d0fff88678c0f335b4cb35cc.PNG 750w,https://docdn.giainhanh.io/media/test/ab47bc06d35470521b2d96102cfa2de2.PNG 1000w,\" width=\"1000px\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.5,
+        "content": "Cho các số %(a, b, c \\in[0 ; 1])%. Chứng minh: %(\\sqrt{4 a^{2}-4 a^{2} b^{2}}+\\sqrt{16 b^{2}-12 b^{2} c^{2}}+\\sqrt{6 c^{2}-3 c^{2} a^{2}} \\leq 5)%.",
+        "question_images": [],
+        "solution": "Ta có %(\\quad \\sqrt{4 a^{2}-4 a^{2} b^{2}}=a \\cdot \\sqrt{4-4 b^{2}} \\leq \\frac{a^{2}+4-4 b^{2}}{2})%;<br>\\[\\begin{array}{l}\\sqrt{16 b^{2}-12 b^{2} c^{2}}=2 b \\sqrt{4-3 c^{2}} \\leq \\frac{4 b^{2}+4-3 c^{2}}{2} ; \\\\sqrt{6 c^{2}-3 c^{2} a^{2}}=\\sqrt{3} c \\sqrt{2-a^{2}} \\leq \\frac{3 c^{2}+2-a^{2}}{2} .\\end{array}\\]<br>Cộng vế theo vế ta có : %(\\quad a \\sqrt{4-4 b^{2}}+b \\sqrt{16-12 c^{2}}+c \\sqrt{6-3 a^{2}})%<br>\\[\\leq \\frac{a^{2}+4-4 b^{2}}{2}+\\frac{4 b^{2}+4-3 c^{2}}{2}+\\frac{3 c^{2}+2-a^{2}}{2}=5 \\text {. }\\]<br>Dấu bằng xảy ra khi:<br>\\[\\left\\{\\begin{array} { l } { \\sqrt { 4 - 4 b ^ { 2 } } = a } \\\\{ \\sqrt { 4 - 3 c ^ { 2 } } = 2 b } \\\\{ \\sqrt { 2 - a ^ { 2 } } = \\sqrt { 3 } c }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { 4 - 4 b ^ { 2 } = a ^ { 2 } } \\\\{ 4 - 3 c ^ { 2 } = 4 b ^ { 2 } } \\\\{ 2 - a ^ { 2 } = 3 c ^ { 2 } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { a ^ { 2 } = 1 } \\\\{ b ^ { 2 } = \\frac { 3 } { 4 } } \\\\{ c ^ { 2 } = \\frac { 1 } { 3 } }\\end{array} \\Rightarrow \\left\\{\\begin{array}{l}a=1 \\b=\\frac{\\sqrt{3}}{2} . \\c=\\frac{\\sqrt{3}}{3}\\end{array}\\right.\\right.\\right.\\right.\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "9 ",
+        "point": 1.5,
+        "content": "Tìm tất cả các cặp số nguyên %((x ; y))% thỏa mãn phương trình: %(3\\left(x^{2}+2 y^{2}-1\\right)-4(x y+2 y)=0)%.",
+        "question_images": [],
+        "solution": "Xét phương trình : %(3\\left(x^{2}+2 y^{2}-1\\right)-4(x y+2 y)=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow 3 x^{2}+6 y^{2}-3-4 x y-8 y=0 \\\\Leftrightarrow 2 x^{2}-4 x y+2 y^{2}+x^{2}+4 y^{2}-8 y-3=0 \\\\Leftrightarrow 2(x-y)^{2}+x^{2}+4(y-1)^{2}=7\\end{array}\\]<br>\\[\\Rightarrow 4(y-1)^{2} \\leq 7 \\Rightarrow|y-1| \\leq \\frac{7}{4} \\Rightarrow y \\in\\{0,1,2\\}\\]<br>+ Với %(y=0 \\Rightarrow 3 x^{2}-3=0 \\Leftrightarrow x= \\pm 1)%.<br>+ Với %(y=1 \\Rightarrow 3\\left(x^{2}+1\\right)-4(x+2)=0 \\Leftrightarrow 3 x^{2}-4 x-5=0)%. Phương trình này không có nghiệm nguyên.<br>+ Với %(y=2 \\Rightarrow 3\\left(x^{2}+7\\right)-4(2 x+4)=0 \\Leftrightarrow 3 x^{2}-8 x+5=0 \\Leftrightarrow\\left[\\begin{array}{l}x=1 \\\\ x=\\frac{5}{3}(l)\\end{array}\\right.)%<br>Vậy các cặp số nguyên %((x, y))% cần tìm là %((1,0) ;(-1,0) ;(1 ; 2))%.",
+        "question_type": "essay"
+    }
+]

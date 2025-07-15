@@ -1,0 +1,105 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Tính %(A=\\frac{1}{10^{2}}+\\frac{3}{1^{2} \\cdot 2^{2}}+\\frac{5}{2^{2} \\cdot 3^{2}}+\\frac{7}{3^{2} \\cdot 4^{2}}+\\ldots+\\frac{19}{9^{2} \\cdot 10^{2}})%",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} A & =\\frac{1}{10^{2}}+\\frac{3}{1^{2} \\cdot 2^{2}}+\\frac{5}{2^{2} \\cdot 3^{2}}+\\frac{7}{3^{2} \\cdot 4^{2}}+\\ldots+\\frac{19}{9^{2} \\cdot 10^{2}} \\\\ & =\\frac{1}{10^{2}}+\\left(\\frac{1}{1^{2}}-\\frac{1}{2^{2}}\\right)+\\left(\\frac{1}{2^{2}}-\\frac{1}{3^{2}}\\right)+\\left(\\frac{1}{3^{2}}-\\frac{1}{4^{2}}\\right)+\\ldots+\\left(\\frac{1}{9^{2}}-\\frac{1}{10^{2}}\\right) \\\\ & =\\frac{1}{10^{2}}+\\frac{1}{1^{2}}-\\frac{1}{2^{2}}+\\frac{1}{2^{2}}-\\frac{1}{3^{2}}+\\frac{1}{3^{2}}-\\frac{1}{4^{2}}+\\ldots+\\frac{1}{9^{2}}-\\frac{1}{10^{2}} \\\\ & =\\frac{1}{1^{2}}+\\left(\\frac{1}{2^{2}}-\\frac{1}{2^{2}}\\right)+\\left(\\frac{1}{3^{2}}-\\frac{1}{3^{2}}\\right)+\\ldots+\\left(\\frac{1}{10^{2}}-\\frac{1}{10^{2}}\\right) \\\\ & =1\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Tìm %(x ; y ; z)% biết %(\\frac{3 x-2 y}{4}=\\frac{2 z-4 x}{3}=\\frac{4 y-3 z}{2})% biết %(2 x-3 y+5 z=-30)%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\frac{3 x-2 y}{4}=\\frac{2 z-4 x}{3}=\\frac{4 y-3 z}{2} \\Rightarrow \\frac{12 x-8 y}{16}=\\frac{6 z-12 x}{9}=\\frac{8 y-6 z}{4}=\\frac{0}{16+9+4}=0 \\\\Rightarrow\\left\\{\\begin{array} { l } { 3 x - 2 y = 0 } \\\\{ 2 z - 4 x = 0 } \\\\{ 4 y - 3 z = 0 }\\end{array} \\Rightarrow \\left\\{\\begin{array}{l}6 x-4 y=0(2) \\\\2 z-4 x=0(3) \\\\4 y-3 z=0(4)\\end{array}\\right.\\right.\\end{array}\\]<br>Mà %(2 x-3 y+5 z=-30 \\Rightarrow 6 x-9 y+15 z=-90(1))%<br>Lấy (1) trừ (2) ta được: %(5 y-15 z=-90)% hay %(y-3 z=-18)% (5)<br>Lấy (4) trừ với (5) ta được: %(3 y=18 \\Rightarrow y=6)%<br>Thay %(y=6)% vào (4) và (2) ta được %(z=8 ; x=4)%<br>Vậy %(x=4 ; y=6 ; z=8)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Tìm giá trị nhỏ nhất của %(M=|x-30|+|x-4|+|x+2018|)%.",
+        "question_images": [],
+        "solution": "\\[M=|x-30|+|x-4|+|x+2018|\\]<br>Ta có: %(|x-30|+|x+2018|=|x-30|+|-x-2018| \\geq|x-30-x-2018|=2048)%<br>Mà %(|x-4| \\geq 0)%<br>Suy ra: %(\\Rightarrow M=|x-30|+|x-4|+|x+2018| \\geq 2048)%<br>Vậy giá trị nhỏ nhất của %(M=2048)% khi %(x=4)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Chứng minh rằng nếu %(\\overline{a b c}: 37)% thì %(\\overline{b c a}: 37)% và %(\\overline{c a b}: 37)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\overline{a b c}: 37 \\Rightarrow(100 a+10 b+c) \\vdots 37 \\Rightarrow(1000 a+100 b+10 c) \\vdots 37 \\\\Rightarrow(1000 a-999 a+100 b+10 c) \\vdots 37 \\\\text { Vì 999:37 }\\end{array}\\]<br>Do đó: %(\\Rightarrow \\overline{b c a}: 37)%<br>Mà %(\\overline{a b c}+\\overline{b c a}+\\overline{c a b}=100 a+10 b+c+100 b+10 c+a+100 c+10 a+b=111(a+b+c) \\vdots 37)%<br>Vì %(\\overline{a b c} \\vdots 37)% và %(\\overline{b c a} \\vdots 37 \\Rightarrow \\overline{c a b} \\vdots 37)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Tìm %(n)% nguyên để %(A=\\frac{4 n+5}{2 n-1})% có giá trị nguyên.",
+        "question_images": [],
+        "solution": "Tìm %(n)% nguyên để %(A=\\frac{4 n+5}{2 n-1})% có giá trị nguyên.<br>Ta có %(A=\\frac{4 n+5}{2 n-1}=\\frac{2 \\cdot(2 n-1)+7}{2 n-1}=2+\\frac{7}{2 n-1} \\frac{7}{2 n-1} \\in Z \\Leftrightarrow(2 n-1) \\in U(7)=\\{ \\pm 1 ; \\pm 7\\})%<br>Vậy %(n \\in\\{-3 ; 0 ; 1 ; 4\\})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/335defa8556de7c0e4f0969f5a808e0c.png\" srcset=\"https://docdn.giainhanh.io/media/test/da4761f2aa9b0238a4bfc571d23cc91b.png 245w, https://docdn.giainhanh.io/media/test/e9ed272a4044d895ffb289745ceaa9c7.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.5,
+        "content": "Tìm %(x)% biết %(\\frac{x+4}{2014}+\\frac{x+3}{2015}=\\frac{x+2}{2016}+\\frac{x+1}{2017})%",
+        "question_images": [],
+        "solution": "Ta có: %(\\quad \\frac{x+4}{2014}+\\frac{x+3}{2015}=\\frac{x+2}{2016}+\\frac{x+1}{2017})%<br>\\[\\begin{array}{l}\\left(\\frac{x+4}{2014}+1\\right)+\\left(\\frac{x+3}{2015}+1\\right)=\\left(\\frac{x+2}{2016}+1\\right)+\\left(\\frac{x+1}{2017}+1\\right) \\\\frac{x+2018}{2014}+\\frac{x+2018}{2015}-\\frac{x+2018}{2016}-\\frac{x+2018}{2017}=0 \\\\(x+2018) \\cdot\\left(\\frac{1}{2014}+\\frac{1}{2015}+\\frac{1}{2016}+\\frac{1}{2017}\\right)=0 \\\\text { Vì } \\frac{1}{2014}+\\frac{1}{2015}+\\frac{1}{2016}+\\frac{1}{2017} \\neq 0 \\\\Rightarrow x+2018=0 \\x=-2018\\end{array}\\]<br>Vậy %(x=-2018)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.5,
+        "content": "Tìm %(x ; y)% nguyên tố biết %((x-1)(x+1)=2 y^{2})%",
+        "question_images": [],
+        "solution": "Theo đề bài : %((x-1)(x+1)=2 y^{2})%<br>Ta có: %(x-1+x+1=2 x)% là số chẵn%(\\Rightarrow x-1 ; x+1)% cùng chẵn hoặc cùng lẻ<br>Mà %(2 y^{2})% chẵn nên %(\\Rightarrow x-1 ; x+1)% cùng chẵn %(\\Rightarrow y^{2})% chẵn<br>%(\\Rightarrow y)% là số chẵn mà %(y)% nguyên tố %(\\Rightarrow y=2)%%(y=2)% vào biểu thức %((x-1)(x+1)=2 y^{2})% ta được:<br>\\[\\Rightarrow x^{2}-1=2.2^{2} \\Rightarrow x^{2}=9 x \\Rightarrow x=3\\]<br>Vậy %(x=3 ; y=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.5,
+        "content": "Cho đa thức %(f(x)=a \\cdot x^{2}+b x+c)%. Chứng minh rằng nếu %(f(x))% nhận 1 và -1 là nghiệm thì %(a)% và %(c)% là hai số đối nhau.",
+        "question_images": [],
+        "solution": "Cho đa thức %(f(x)=a \\cdot x^{2}+b x+c)%.<br>Chứng minh rằng nếu %(f(x))% nhận 1 và -1 là nghiệm thì %(a)% và %(c)% là hai số đối nhau.<br>Vì 1 là nghiệm của %(f(x) \\Rightarrow a+b+c=0(1))%<br>Vì -1 là nghiệm của %(f(x) \\Rightarrow a-b+c=0(2))%<br>Cộng vế với vế của (1) và (2) ta được:<br>\\[2 b=0 \\Rightarrow b=0\\]<br>Thay %(b=0)% vào (1) ta được: %(a+c=0 \\Rightarrow a=-c)%<br>Vậy %(a)% và %(c)% là hai số đối nhau.",
+        "question_type": "essay"
+    },
+    {
+        "title": "9",
+        "group_content": "Cho %(\\triangle A B C)% vuông cân tại %(A)%. Tia %(A M)% là tia phân giác của %(\\widehat{B A C}(M \\in B C))%. Lấy %(D)% trên cạnh %(B C)% sao cho %(D)% nằm giữa %(B)% và %(M)%. Gọi %(h, I)% theo thứ tự là hình chiếu của %(B, C)% lên đường thẳng %(A D)%. Chứng minh:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "a) %(\\mathrm{BH}=\\mathrm{AI})% và %(B H^{2}+C I^{2})%.",
+        "question_images": [],
+        "solution": "%(\\triangle A B C)% vuông cân tại %(A \\Rightarrow A B=A C)%Vì %(B H \\perp A D)% tại %(H \\Rightarrow \\widehat{B H A}=90^{\\circ})%<br>Vì %(C I \\perp A D)% tại %(I \\Rightarrow \\widehat{C L A}=90^{\\circ})%<br>Lại có: %(\\widehat{B H A}+\\widehat{H A C}=90^{\\circ})% hay %(\\widehat{B H A}+\\widehat{L A C}=90^{\\circ})% (1)<br>Mà %(\\triangle A I C)% vuông tại %(I \\Rightarrow \\widehat{I C A}+\\widehat{I A C}=90^{\\circ}(2))%<br>Từ (2) và %((3) \\Rightarrow \\widehat{B H A}=\\widehat{I C A})%Xét %(\\triangle B H A)% và %(\\triangle A I C)% ta có:<br>\\[\\begin{array}{l}\\widehat{B H A}=\\widehat{C I A}=90^{\\circ} \\A B=A C \\\\widehat{B H A}=\\widehat{I C A} \\\\Rightarrow \\triangle B H A=\\triangle A I C(c h-g n) \\\\Rightarrow B H=A I \\text { và } A H=C I\\end{array}\\]<br>Do vậy: %(B H^{2}+C I^{2}=B H^{2}+A H^{2}=A B^{2})% (không đổi)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ecdf265c75436a154db8e6d8d1c3d100.png\" srcset=\"https://docdn.giainhanh.io/media/test/b9fafcc9fdaff0d6e4da63cdc2616749.png 145w, https://docdn.giainhanh.io/media/test/472e4c298a17fee749d8dca649b25800.png 465w\" width=\"465\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "b) %(\\triangle B H M=\\triangle A I M)%",
+        "question_images": [],
+        "solution": "Vì %(\\triangle A B C)% vuông cân tại %(A)% có %(A M)% là tia phân giác của %(\\widehat{B A C}(M \\in B C))%<br>%(\\Rightarrow A M)% đồng thời là đường cao và là đường trung tuyến<br>\\[\\Rightarrow\\left\\{\\begin{array}{l}A M \\perp B C \\A M=B M\\end{array}\\right.\\]<br>%(\\triangle B H D)% vuông tại %(H \\Rightarrow \\widehat{H B D}+\\widehat{H D B}=90^{\\circ})%%(\\triangle A D M)% vuông tại %(M \\Rightarrow \\widehat{M D A}+\\widehat{D A M}=90^{\\circ})%<br>Mà %(\\widehat{H D B}=\\widehat{M D A})% (đối đỉnh)Suy ra: %(\\Rightarrow \\widehat{H B D}=\\widehat{D A M})%<br>Xét %(\\triangle B H M)% và %(\\triangle A I M)% có:<br>\\[\\begin{array}{l}B M=A M \\\\widehat{H B M}=\\widehat{L A M} \\B H=A I \\\\Rightarrow \\triangle B H M=\\triangle A I M \\text { (c.g.c) }\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "c) %(I M)% là phân giác của %(\\widehat{H I C})%.",
+        "question_images": [],
+        "solution": "Vì %(\\triangle B H M=\\triangle A I M \\Rightarrow H M=M I)% và %(\\widehat{B M H}=\\widehat{I M A})%<br>Mà %(\\widehat{I M A}+\\widehat{B M I}=90^{\\circ} \\Rightarrow \\widehat{B M H}+\\widehat{B M I}=90^{\\circ})%%(\\Rightarrow \\triangle H M I)% vuông cân tại %(M \\Rightarrow \\widehat{H I M}=45^{\\circ})%<br>Lại có: %(\\widehat{H I C}=90^{\\circ} \\Rightarrow \\widehat{H I M}=\\widehat{M I C}=45^{\\circ} \\Rightarrow I M)% là tia phân giác của %(\\widehat{H I C})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "10 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng trong 3 số nguyên liên tiếp %(2 n-1 ; 2 n ; 2 n+1)% không có số nào chính phương với %(n=1.3 .5 .7 \\ldots . .2017)%.",
+        "question_images": [],
+        "solution": "Vì %(n=1 \\cdot 3 \\cdot 5 \\cdot 7 \\ldots . .2017 \\Rightarrow 2 n=2 \\cdot 1 \\cdot 3 \\cdot 5 \\cdot 7 \\ldots . . .2017 \\Rightarrow 2 n: 2)% mà %(2 n)% không chia hết cho 4<br>%(\\Rightarrow 2 n)% không là số chính phương.<br>Vì %(2 n: 3 \\Rightarrow 2 n-1)% chia 3 dư %(2 \\Rightarrow 2 n-1)% không là số chính phương.<br>Vì %(2 n: 2)% mà %(2 n)% không chia hết cho %(4 \\Rightarrow 2 n)% chia 4 dư %(2 \\Rightarrow 2 n+1)% chia 4 dư %(3 \\Rightarrow 2 n+1)% không là số chính phương.<br>Vậy %(2 n-1 ; 2 n ; 2 n+1)% không có số nào chính phương với %(n=1.3 .5 .7 \\ldots . .2017)%.",
+        "question_type": "essay"
+    }
+]

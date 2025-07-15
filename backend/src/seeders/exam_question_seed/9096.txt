@@ -1,0 +1,73 @@
+[
+    {
+        "title": "1",
+        "group_content": "Rút gọn các biểu thức sau:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) %(A=\\sqrt{29+12 \\sqrt{5}}-2 \\sqrt[3]{16+8 \\sqrt{5}})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}A=\\sqrt{29+12 \\sqrt{5}}-2 \\sqrt[3]{16+8 \\sqrt{5}} \\\\ A=\\sqrt{(3+2 \\sqrt{5})^{2}}-\\sqrt[3]{128+64 \\sqrt{5}} \\\\ A=\\sqrt{(3+2 \\sqrt{5})^{2}}-\\sqrt[3]{(2+2 \\sqrt{5})^{3}} \\\\ A=(3+2 \\sqrt{5})-(2+2 \\sqrt{5}) \\\\ A=1\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) %(B=\\left(\\frac{a+\\sqrt{a^{2}-b^{2}}}{a-\\sqrt{a^{2}-b^{2}}}-\\frac{a-\\sqrt{a^{2}-b^{2}}}{a+\\sqrt{a^{2}-b^{2}}}\\right): \\frac{\\sqrt{a^{4}-a^{2} b^{2}}}{b^{2}})%(với %(a \\neq 0 ; b \\neq 0 ;|a|\\gt |b|)% )",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}B=\\left(\\frac{a+\\sqrt{a^{2}-b^{2}}}{a-\\sqrt{a^{2}-b^{2}}}-\\frac{a-\\sqrt{a^{2}-b^{2}}}{a+\\sqrt{a^{2}-b^{2}}}\\right): \\frac{\\sqrt{a^{4}-a^{2} b^{2}}}{b^{2}} \\quad \\text { (với } a \\neq 0 ; b \\neq 0 ;|a|\\gt |b| \\text { ) } \\B=\\frac{\\left(a+\\sqrt{a^{2}-b^{2}}\\right)^{2}-\\left(a-\\sqrt{a^{2}-b^{2}}\\right)^{2}}{\\left(a+\\sqrt{a^{2}-b^{2}}\\right)\\left(a-\\sqrt{a^{2}-b^{2}}\\right)}: \\frac{\\sqrt{a^{4}-a^{2} b^{2}}}{b^{2}} \\B=\\frac{a^{2}+2 \\mathrm{a} \\sqrt{a^{2}-b^{2}}+a^{2}-b^{2}-a^{2}+2 \\mathrm{a} \\sqrt{a^{2}-b^{2}}-a^{2}+b^{2}}{a^{2}-\\left(a^{2}-b^{2}\\right)}: \\frac{\\sqrt{a^{2}\\left(a^{2}-b^{2}\\right)}}{b^{2}} d o|a|>|b| \\B=\\frac{4 \\mathrm{a} \\sqrt{a^{2}-b^{2}}}{b^{2}} \\cdot \\frac{b^{2}}{|a| \\sqrt{\\left(a^{2}-b^{2}\\right)}} \\B=\\frac{4 \\mathrm{a}}{|a|}\\end{array}\\]<br>%(B=4)% nếu %(a>0)%<br>Hoặc %(B=-4)% nếu %(a\\lt 0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(\\sqrt{\\sqrt{3}-x}=x \\sqrt{\\sqrt{3}+x})%",
+        "question_images": [],
+        "solution": "%( \\sqrt{\\sqrt{3}-x}=x \\sqrt{\\sqrt{3}+x})%<br>ĐКXĐ: %(0 \\leq x \\leq \\sqrt{3})%<br>%(\\begin{array}{l}\\Leftrightarrow x=\\sqrt{\\frac{\\sqrt{3}-x}{\\sqrt{3}+x}} \\\\ \\Leftrightarrow x^{2}=\\frac{\\sqrt{3}-x}{\\sqrt{3}+x} \\\\ \\Leftrightarrow x^{2}(\\sqrt{3}+x)=\\sqrt{3}-x \\\\ \\Leftrightarrow x^{3}+\\sqrt{3} x^{2}=\\sqrt{3}-x \\\\ \\Leftrightarrow x^{3}+\\sqrt{3} x^{2}+x-\\sqrt{3}=0 \\\\ \\Leftrightarrow x^{3}+3 x^{2} \\cdot \\frac{\\sqrt{3}}{3}+3 \\cdot x\\left(\\frac{\\sqrt{3}}{3}\\right)^{2}+\\left(\\frac{\\sqrt{3}}{3}\\right)^{3}-\\left(\\sqrt{3}+\\left(\\frac{\\sqrt{3}}{3}\\right)^{3}\\right)=0 \\\\ \\Leftrightarrow\\left(x+\\frac{\\sqrt{3}}{3}\\right)^{3}=\\sqrt{3}+\\left(\\frac{\\sqrt{3}}{3}\\right)^{3} \\\\ \\Rightarrow x+\\frac{\\sqrt{3}}{3}=\\sqrt[3]{\\sqrt{3}+\\left(\\frac{\\sqrt{3}}{3}\\right)^{3}} \\\\ \\Rightarrow x=\\sqrt[3]{\\sqrt{3}+\\left(\\frac{\\sqrt{3}}{3}\\right)^{3}}-\\frac{\\sqrt{3}}{3}(t m d k) \\\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là các số thực dương thỏa mãn: %(a+b+c=3)%. Chứng minh rằng: %(\\frac{a}{1+b^{2}}+\\frac{b}{1+c^{2}}+\\frac{c}{1+a^{2}}>\\frac{2018}{2003})%",
+        "question_images": [],
+        "solution": "Áp dụng bất đẳng thức %(A M-G M)% ta có:<br>\\[\\frac{a}{1+b^{2}}=a-\\frac{a b^{2}}{b^{2}+1} \\geq a-\\frac{a b^{2}}{2 b}=a-\\frac{a b}{2}\\]<br>CMTT: %(\\frac{b}{1+c^{2}} \\geq b-\\frac{b c}{2} ; \\frac{c}{1+a^{2}} \\geq c-\\frac{a c}{2})%<br>Cộng vế tương ứng %(3 \\mathrm{~B} P T)% trên ta có:<br>\\[\\frac{a}{1+b^{2}}+\\frac{b}{1+c^{2}}+\\frac{c}{1+a^{2}} \\geq a+b+c-\\frac{a b+b c+c a}{2} \\geq 3-\\frac{\\frac{(a+b+c)^{2}}{3}}{2}=\\frac{3}{2}\\gt \\frac{2018}{2003}(\\mathrm{dpcm})\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 4.0,
+        "content": "Từ điểm %(A)% ở ngoài đường tròn tâm %(O)%, kẻ hai tiếp tuyến %(A B, A C)% với đường tròn %((\\mathrm{O}),(\\mathrm{B}, \\mathrm{C})% là các tiếp điểm). Trên đoạn OB lấy điểm N sao cho %(\\mathrm{BN}=2 \\mathrm{ON})%.Đường trung trực của đoạn thẳng CN cắt OA tại M , tính tỉ số %(\\frac{A M}{A O})%.",
+        "question_images": [],
+        "solution": "Có OA là trung trực BCMI là trung trực của NC<br>%(\\Rightarrow \\mathrm{M})% là tâm đường tròn ngoại tiếp %(\\triangle B N C)%<br>Gọi K là trung điểm của BN%(\\Rightarrow \\mathrm{KM} \\perp \\mathrm{BN})%<br>Mà %(\\mathrm{AB} \\perp \\mathrm{OB})% ( do AB là tiếp tuyến của (o))%(\\Rightarrow \\mathrm{KM} / / \\mathrm{AB})%<br>Xét %(\\triangle A B O)%<br>Có KM // AB, áp dụng định lí talet ta có:<br>\\[\\frac{A M}{A O}=\\frac{B K}{B O}=\\frac{1}{3}\\]<br>Vậy %(\\frac{A M}{A O}=\\frac{1}{3})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/bca13747b8c9c989f3a051bf75a789a4.png\" srcset=\"https://docdn.giainhanh.io/media/test/8dbb29a9444356efedb067d9781493a5.png 245w, https://docdn.giainhanh.io/media/test/000f786c4ff3190a0dc6c2ca28ea47c7.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 4.0,
+        "content": "Cho %(\\triangle A B C)% vuông tại %(A)%. Các tứ giác %(M N P Q)% và %(A D E F)% là các hình vuông sao cho: %(M)% thuộc cạnh %(A B ; N, P)% thuộc cạnh %(B C ; Q)% thuộc cạnh %(A C ; D, E, F)% tương ứng thuộc cạnh %(A B, B C, C A)%. So sánh diện tích 2 hình vuông MNPQ và %(A D E F)%.",
+        "question_images": [],
+        "solution": "Ta chứng minh được: %(\\quad \\triangle B D E \\backsim \\triangle B A C(\\mathrm{~g}-\\mathrm{g})=\\gt \\frac{S_{B D E}}{S_{A B C}}=\\frac{D E^{2}}{A C^{2}})%<br>\\[\\triangle E F C \\sim \\triangle B A C(\\mathrm{~g}-\\mathrm{g})=>\\frac{S_{E F C}}{S_{A B C}}=\\frac{E F^{2}}{A B^{2}}\\]<br>Từ đó suy ra:<br>\\[\\begin{array}{l}\\frac{S_{B D E}+S_{E F C}}{S_{A B C}}=D E^{2} \\cdot\\left(\\frac{1}{A C^{2}}+\\frac{1}{A B^{2}}\\right) \\\\text { hay: } \\frac{S_{A B C}-S_{A D E F}}{S_{A B C}}=S_{A D E F} \\cdot \\frac{A B^{2}+A C^{2}}{A C^{2} \\cdot A B^{2}}=S_{A D E F} \\cdot \\frac{B C^{2}}{4 S^{2}{ }_{A B C}}(1)\\end{array}\\]<br>Ta chứng minh được %(\\triangle \\mathrm{BMN} \\backsim \\triangle \\mathrm{BCA} \\Rightarrow \\frac{S_{B M N}}{S_{A B C}}=\\frac{M N^{2}}{A C^{2}})%<br>Chứng minh tương tự: %(\\frac{S_{A M Q}}{S_{A B C}}=\\frac{M Q^{2}}{B C^{2}} ; \\frac{S_{C P Q}}{S_{A B C}}=\\frac{P Q^{2}}{A B^{2}})%<br>\\[\\Rightarrow \\frac{S_{B M N}+S_{A M Q}+S_{C P Q}}{S_{A B C}}=M N^{2} \\cdot\\left(\\frac{1}{A C^{2}}+\\frac{1}{A B^{2}}+\\frac{1}{B C^{2}}\\right)\\]<br>hay: %(\\frac{S_{A B C}-S_{M N P Q}}{S_{A B C}}=S_{M N P Q} \\cdot\\left(\\frac{1}{A H^{2}}+\\frac{1}{B C^{2}}\\right)\\left(\\right.)% do %(\\left.\\frac{1}{A H^{2}}=\\frac{1}{A B^{2}}+\\frac{1}{A C^{2}}\\right))%<br>\\[\\Rightarrow \\frac{S_{A B C}-S_{M N P Q}}{S_{A B C}}=S_{M N P Q} \\cdot \\frac{A H^{2}+B C^{2}}{4 \\cdot S_{A B C}}\\]<br>Từ (1) và (2) suy ra %(\\frac{S_{A B C}-S_{A D E F}}{S_{A B C}-S_{M N P Q}}=\\frac{S_{A D E F}}{S_{M N P Q}} \\cdot \\frac{B C^{2}}{A H^{2}+B C^{2}}\\lt \\frac{S_{A D E F}}{S_{M N P Q}})%<br>\\[\\begin{array}{l}\\Rightarrow S_{A B C} \\cdot S_{M N P Q}\\lt S_{A B C} \\cdot S_{A D E F} \\\\Rightarrow S_{M N P Q}\\lt S_{A D E F}\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/0235e6db6efd702ce08eb57f92c9a80e.png\" srcset=\"https://docdn.giainhanh.io/media/test/fa4cf79dbdc6da4cdfdc6508717edc89.png 128w\" width=\"128\"/><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/7e21ac2c28151cf45b1fa2c4109d0040.png\" srcset=\"https://docdn.giainhanh.io/media/test/5699e15bcee50689a4bedbc675f7d94a.png 108w\" width=\"108\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các số nguyên x để %(\\sqrt{x+19} ; \\sqrt{2 x+10} ; \\sqrt{3 x+13} ; \\sqrt{4 x+37})% đều là số nguyên.",
+        "question_images": [],
+        "solution": "Điều kiện:<br>\\[x \\geq-\\frac{13}{3}\\]<br>\\[\\begin{array}{l}\\left\\{\\begin{array} { l } { a = \\sqrt { x + 1 9 } \\geq 0 } \\\\{ b = \\sqrt { 4 x + 3 7 } \\geq 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}a^{2}=x+19 \\b^{2}=4 x+37\\end{array}\\right.\\right. \\\\Rightarrow 4 \\mathrm{a}^{2}-b^{2}=39 \\\\Leftrightarrow(2 \\mathrm{a}-b)(2 \\mathrm{a}+b)=39 \\\\end{array}\\]<br>Do %(a, b \\in Z ; a, b \\geq 0 ; 2 \\mathrm{a}-b \\leq 2 \\mathrm{a}+b)%<br>Với %(x=81)% ta có<br>\\[\\begin{array}{l}\\sqrt{x+19}=\\sqrt{100}=10 \\\\sqrt{2 x+10}=\\sqrt{172} \\text { không thỏa mãn } \\\\sqrt{3 x+13}=\\sqrt{256}=16 \\\\sqrt{4 x+37}=\\sqrt{361}=19\\end{array}\\]<br>Với %(\\mathrm{x}=-3)% ta có<br>\\[\\begin{array}{l}\\sqrt{x+19}=\\sqrt{16}=4 \\\\sqrt{2 x+10}=\\sqrt{4}=2 \\\\sqrt{3 x+13}=\\sqrt{1}=1 \\\\sqrt{4 x+37}=\\sqrt{25}=5\\end{array}\\]<br>Vậy %(\\mathrm{x}=-3)% thì %(\\sqrt{x+19} ; \\sqrt{2 x+10} ; \\sqrt{3 x+13} ; \\sqrt{4 x+37})% đều là số nguyên",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Trong một buổi gặp mặt có 294 người tham gia, những người tham gia, những người quen nhau bắt tay nhau. Biết nếu A bắt tay B thì một trong hai người A và B bắt tay không quá 6 lần. Hỏi có nhiều nhất bao nhiêu cái bắt tay.",
+        "question_images": [],
+        "solution": "Trong 294 người tham gia ta gọi:<br>a là những người bị giới hạn số lần bắt tay;<br>b là những người không bị giới hạn số lần bắt tay.<br>Số người không bị giới hạn số lần bắt tay có tối thiểu là 6 nên %(b \\geq 6)%<br>Số cái bắt tay từ người bị giới hạn số lần bắt tay tối đa là %(6 a)%<br>Vậy thì từ b cũng phải cho 6 cái bắt tay.<br>Vậy tổng số cái bắt tay là 6 a .<br>Vậy a phải lớn nhất nên b bé nhất bằng 6 . %(a+b=294)% nên %(a=288)%.<br>Số cái bắt tay nhiều nhất là %(6 a=6.288=1728)% cái.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,103 @@
+[
+    {
+        "title": "Câu 1:",
+        "group_content": "Tính các giới hạn sau:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a)%(\\lim _{x \\rightarrow 1} \\frac{3 x+1}{7 x-5})%.",
+        "question_images": [],
+        "solution": "%(\\lim _{x \\rightarrow 1} \\frac{3 x+1}{7 x-5}=\\frac{3.1+1}{7.1-5}=2)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) %(\\lim \\frac{2^{n}-3^{n}}{2.3^{n}-1})%.",
+        "question_images": [],
+        "solution": "%(\\lim \\frac{2^{n}-3^{n}}{2.3^{n}-1}=\\lim \\frac{\\left(\\frac{2}{3}\\right)^{n}-1}{2-\\left(\\frac{1}{3}\\right)^{n}}=-\\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 0.5,
+        "content": "c) %(\\lim \\left(\\sqrt{n^{2}+6 n}-2 n\\right))%.",
+        "question_images": [],
+        "solution": "%(\\lim \\left(\\sqrt{n^{2}+6 n}-2 n\\right)=\\lim n\\left(\\sqrt{1+\\frac{6}{n}}-2\\right)=-\\infty)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2:",
+        "group_content": "Cho hàm số %(y=f(x)=x^{3}-3 x^{2}-9 x)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Giải bất phương trình %(f^{\\prime}(x) \\geq 0)%.",
+        "question_images": [],
+        "solution": "Ta có %(f^{\\prime}(x)=3 x^{2}-6 x-9, \\forall x \\in \\mathbb{R})%.<br>Vậy %(f^{\\prime}(x) \\geq 0 \\Leftrightarrow 3 x^{2}-6 x-9 \\geq 0 \\Leftrightarrow\\left[\\begin{array}{l}x \\geq 3 \\\\ x \\leq-1\\end{array}\\right.)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Viết phương trình tiếp tuyến của đồ thị hàm số đã cho tại điểm có hoành độ %(x_{0}=1)%.",
+        "question_images": [],
+        "solution": "Tung độ tiếp điểm là %(y_{0}=f(1)=-11)%. Hệ số góc của tiếp tuyến là %(k=f^{\\prime}(1)=-12)%.<br>Phương trình tiếp tuyến của đồ thị hàm số đã cho tại điểm có hoành độ %(x_{0}=1)% là<br>%(y=-12(x-1)-11 \\Leftrightarrow y=-12 x+1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3: ",
+        "point": 1.5,
+        "content": "Cho hàm số %(y=g(x)=\\left\\{\\begin{array}{ccc}\\frac{\\sqrt{5+x}-\\sqrt[3]{3 x^{2}+5}}{x+1} & \\text { khi } & x\\gt -1 \\\\ m x+2 & \\text { khi } & x \\leq-1\\end{array}\\right.)%, với %(m)% là tham số. Tìm %(m)% để hàm số %(g(x))% liên tục trên %(\\mathbb{R})%.",
+        "question_images": [],
+        "solution": "Hàm %(g(x)=\\frac{\\sqrt{5+x}-\\sqrt[3]{3 x^{2}+5}}{x+1})% liên tục trên khoảng %((-1 ;+\\infty))%.<br>Hàm %(g(x)=m x+2)% liên tục trên khoảng %((-\\infty ;-1))%.<br>Vì thế %(g(x))% liên tục trên %(\\mathbb{R})% khi và chỉ khi nó liên tục tại điểm %(x=-1)%.<br>Ta có %(\\lim _{x \\rightarrow-1^{+}} g(x)=\\lim _{x \\rightarrow-1^{+}} \\frac{\\sqrt{5+x}-\\sqrt[3]{3 x^{2}+5}}{x+1}=\\lim _{x \\rightarrow-1^{+}} \\frac{\\sqrt{5+x}-2+2-\\sqrt[3]{3 x^{2}+5}}{x+1})%<br>%(=\\lim _{x \\rightarrow-1^{+}}\\left(\\frac{1}{\\sqrt{5+x}+2}+\\frac{3(1-x)}{4+2 \\sqrt[3]{3 x^{2}+5}+\\sqrt[3]{\\left(3 x^{2}+5\\right)^{2}}}\\right)=\\frac{1}{4}+\\frac{1}{2}=\\frac{3}{4})%.<br>Và %(\\lim _{x \\rightarrow-1^{-}} g(x)=\\lim _{x \\rightarrow-1^{-}}(m x+2)=2-m ; g(-1)=2-m)%.<br>Hàm số %(g(x))% liên tục trên tại điểm %(x=-1)% khi và chỉ khi<br>\\[\\lim _{x \\rightarrow-1^{+}} g(x)=\\lim _{x \\rightarrow-1^{-}} g(x)=g(-1) \\Leftrightarrow 2-m=\\frac{3}{4} \\Leftrightarrow m=\\frac{5}{4} .\\]<br>Vậy với %(m=\\frac{5}{4})% thì %(g(x))% liên tục trên %(\\mathbb{R})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4:",
+        "group_content": "Cho tứ diện %(A B C D)% có %(A B, A C, A D)% đôi một vuông góc với nhau. Gọi %(H)% là trực tâm của tam giác %(B C D)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng đường thẳng %(A D)% vuông góc với mặt phẳng %((A B C))%, đường thẳng %(A H)% vuông góc với mặt phẳng %((B C D))%.",
+        "question_images": [],
+        "solution": "Vì %(A D \\perp A B, A D \\perp A C)% nên %(A D \\perp(A B C))% và %(A D \\perp B C(1))%.<br>Gọi %(K=H D \\cap B C)%. Vì %(H)% là trực tâm tam giác %(A B C)% nên %(H D \\perp B C(2))%.<br>Từ (1) và (2) suy ra %(B C \\perp A H(3))%.<br>Tương tự %(B D \\perp A H(4))%.<br>Hai đường thẳng %(B C, B D)% cắt nhau và nằm trong mặt phẳng %((B D C))% nên từ (3) và (4) suy ra %(A H \\perp(B C D))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/62965da44a416ced9fdf6f388dc78ce5.png\" srcset=\"https://docdn.giainhanh.io/media/test/85f980656e4a2b526434d1feb29b22bb.png 142w, https://docdn.giainhanh.io/media/test/7b38e1fdf8e49dc475a0914d483b03c4.png 457w, https://docdn.giainhanh.io/media/test/a0ce0da281d8772f0034b78e644b12eb.png 685w\" width=\"685\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Gọi %(\\varphi)% là góc giữa hai mặt phẳng %((A B C),(B C D))%. Chứng minh rằng %(\\cos \\varphi=\\frac{A H}{A D})%.",
+        "question_images": [],
+        "solution": "Ta thấy %(A D \\perp(A B C), A H \\perp(B C D))% nên góc giữa hai mặt phẳng %((A B C),(B C D))% bằng góc giữa hai đường thẳng %(A D, A H)% và bằng góc %(\\widehat{H A D})% trong tam giác vuông %(A H D)%.<br>Do đó %(\\widehat{H A D}=\\varphi)%.<br>Trong tam giác %(A H D, \\cos \\varphi=\\frac{A H}{A D})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Biết các tam giác %(A B C, A B D, A C D)% có diện tích lần lượt bằng %(2,3,4)% (đơn vị diện tích). Tính diện tích tam giác %(B C D)%.",
+        "question_images": [],
+        "solution": "Dễ thấy %(B C \\perp A K)%. Ta có %(\\left(S_{\\triangle B C D}\\right)^{2}=\\left(\\frac{1}{2} B C . D K\\right)^{2}=\\frac{1}{4} B C^{2}\\left(A D^{2}+A K^{2}\\right))%<br>%(=\\frac{1}{4} B C^{2} \\cdot A D^{2}+\\frac{1}{4} B C^{2} \\cdot A K^{2}=\\frac{1}{4}\\left(A B^{2}+A C^{2}\\right) A D^{2}+\\frac{1}{4} B C^{2} \\cdot A K^{2})%<br>%(=\\frac{1}{4} A B^{2} \\cdot A D^{2}+\\frac{1}{4} A C^{2} \\cdot A D^{2}+\\frac{1}{4} B C^{2} \\cdot A K^{2}=\\left(S_{\\triangle A B D}\\right)^{2}+\\left(S_{\\triangle A C D}\\right)^{2}+\\left(S_{\\triangle A B C}\\right)^{2})%<br>%(=3^{2}+4^{2}+2^{2}=29)%. Vậy %(S_{\\triangle B C D}=\\sqrt{29})% (đơn vị diện tích).<br>Ta có %(\\left\\{\\begin{array}{l}\\frac{1}{2} A B \\cdot A C=2 \\\\ \\frac{1}{2} A B \\cdot A D=3 \\\\ \\frac{1}{2} A C \\cdot A D=4\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}A B \\cdot A C=4 \\\\ A B \\cdot A D=6 \\\\ A C \\cdot A D=8\\end{array} \\Rightarrow A B \\cdot A C \\cdot A D=8 \\sqrt{3}\\right.\\right.)%. Từ đó tìm ra %(A B=\\sqrt{3})%,%(A C=\\frac{4 \\sqrt{3}}{3}, A D=2 \\sqrt{3})%<br>Tính được %(B C=\\frac{5 \\sqrt{3}}{3}, B D=\\sqrt{15}, C D=\\frac{2 \\sqrt{39}}{3})%.<br>Đặt %(p=\\frac{1}{2}(B C+B D+C D))% thì %(S_{\\triangle B C D}=\\sqrt{p(p-B C)(p-B D)(p-C D)}=\\sqrt{29})% (đơn vị diện tích).",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5: ",
+        "point": 1.0,
+        "content": "Chứng minh rằng với mọi số nguyên dương %(n)% ta có<br>\\[C_{2 n}^{1}+3 C_{2 n}^{3}+5 C_{2 n}^{5}+\\ldots+(2 n-1) C_{2 n}^{2 n-1}\\gt \\frac{(2 n-1)!}{((n-1)!)^{2}}\\]",
+        "question_images": [],
+        "solution": "Xét khai triển %((1+x)^{2 n}=C_{2 n}^{0}+C_{2 n}^{1} x+C_{2 n}^{2} x^{2}+C_{2 n}^{3} x^{3}+\\ldots+C_{2 n}^{2 n-1} x^{2 n-1}+C_{2 n}^{2 n} x^{2 x}(2))%.<br>Lấy đạo hàm hai vế của (2) ta được<br>\\[2 n(1+x)^{2 n-1}=C_{2 n}^{1}+2 C_{2 n}^{2} x+3 C_{2 n}^{3} x^{2}+\\ldots+(2 n-1) C_{2 n}^{2 n-1} x^{2 n-2}+2 n C_{2 n}^{2 n} x^{2 n-1}(3)\\]<br>Ở (3) lần lượt thay %(x=1, x=-1)% ta thu được<br>\\[\\begin{array}{l}\\left\\{\\begin{array}{l}C_{2 n}^{1}+2 C_{2 n}^{2}+3 C_{2 n}^{3}+\\ldots+(2 n-1) C_{2 n}^{2 n-1}+2 n C_{2 n}^{2 n}=2 n .2^{2 n-1} \\C_{2 n}^{1}-2 C_{2 n}^{2}+3 C_{2 n}^{3}-\\ldots+(2 n-1) C_{2 n}^{2 n-1}-2 n C_{2 n}^{2 n}=0\\end{array}\\right. \\\\Rightarrow C_{2 n}^{1}+3 C_{2 n}^{3}+\\ldots+(2 n-1) C_{2 n}^{2 n-1}=n .2^{2 n-1}(4) .\\end{array}\\]<br>Để ý rằng %(2^{2 n-1}=(1+1)^{2 n-1}=C_{2 n-1}^{0}+C_{2 n-1}^{1}+\\ldots+C_{2 n-1}^{n}+\\ldots+C_{2 n-1}^{2 n-1}\\gt C_{2 n-1}^{n}=\\frac{(2 n-1)!}{n!.(n-1)!})%<br>%(\\Rightarrow n \\cdot 2^{2 n-1}\\gt \\frac{(2 n-1)!}{((n-1)!)^{2}}(5))%.<br>Từ (4) và (5) suy ra %(C_{2 n}^{1}+3 C_{2 n}^{3}+\\ldots+(2 n-1) C_{2 n}^{2 n-1}\\gt \\frac{(2 n-1)!}{((n-1)!)^{2}})%.",
+        "question_type": "essay"
+    }
+]

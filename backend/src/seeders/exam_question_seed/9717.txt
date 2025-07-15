@@ -1,0 +1,72 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Tìm phần thực và phần ảo của số phức: %(z=(1+2 i)^{2}-\\frac{3-4 i}{1-i})%",
+        "question_images": [],
+        "solution": "%(z=1+4 i-4-\\frac{(3-4 i)(1+i)}{2})% (Khai triển đúng: 0,25. Nhân liên hợp đúng: 0,25 )<br>\\[=4 i-3-\\frac{7}{2}+\\frac{1}{2} i=-\\frac{13}{2}+\\frac{9}{2} i\\]<br>Phần thực: %(-\\frac{13}{2})%, Phần ảo: %(\\frac{9}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Tìm môđun và số phức liên hợp của số phức: %(z=(1-i)(2-3 i)-(1+i)^{2})%",
+        "question_images": [],
+        "solution": "\\[z=2-3 i-2 i-3-(1+2 i-1)=-1-7 i\\]<br>Môđun: %(|z|=\\sqrt{(-1)^{2}+(-7)^{2}}=5 \\sqrt{2})%<br>Số phức liên hợp: %(\\bar{z}=-1+7 i)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Giải các phương trình sau trên tập số phức:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) %(3 z^{2}-4 z+2=0)%",
+        "question_images": [],
+        "solution": "%(3 z^{2}-4 z+2=0)%%(\\Delta^{\\prime}=4-6=-2 \\Rightarrow \\Delta^{\\prime})% có hai căn bậc hai là: %(\\pm i \\sqrt{2})%<br>Phương trình có hai nghiệm: %(\\left[\\begin{array}{l}z=\\frac{2}{3}+\\frac{\\sqrt{2}}{3} i \\\\ z=\\frac{2}{3}-\\frac{\\sqrt{2}}{3} i\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) %(2 z^{3}-z^{2}+3 z-4=0)%",
+        "question_images": [],
+        "solution": "%(2 z^{3}-z^{2}+3 z-4=0)%<br>Ta có: %(2 z^{3}-z^{2}+3 z-4=0 \\Leftrightarrow(z-1)\\left(2 z^{2}+z+4\\right)=0)%<br>\\[\\begin{array}{l}\\Leftrightarrow\\left[\\begin{array}{l}z=1 \\\\2 z^{2}+z+4=0\\end{array}\\right. \\\\2 z^{2}+z+4=0\\end{array}\\]<br>%(\\Delta=1-32=-31 \\Rightarrow \\Delta)% có hai căn bậc hai là: %(\\pm i \\sqrt{31})%<br>Phương trình có hai nghiệm: %(\\left[\\begin{array}{l}z=-\\frac{1}{4}+\\frac{\\sqrt{31}}{4} i \\\\ z=-\\frac{1}{4}-\\frac{\\sqrt{31}}{4} i\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Tìm tập hợp các điểm M trong mặt phẳng Oxy biểu diễn số phức z thỏa mãn %(|\\bar{z}+1+2 i|=\\sqrt{5})%.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Goi } z=x+y i(x, y \\in R) \\Rightarrow \\bar{z}=x-y i \\\\|\\bar{z}+1+2 i|=\\sqrt{5} \\Leftrightarrow|x-y i+1+2 i|=\\sqrt{5} \\\\Leftrightarrow|x+1-(y-2) i|=\\sqrt{5} \\Leftrightarrow \\sqrt{(x+1)^{2}+(y-2)^{2}}=\\sqrt{5} \\Leftrightarrow(x+1)^{2}+(y-2)^{2}=5\\end{array}\\]<br>Vậy tập hợp những điểm biểu diễn số phức %(z)% thỏa mãn: %(|\\bar{z}+1+2 i|=\\sqrt{5})% là đường tròn tâm %(\\mathrm{I}(-1 ; 2))%, bán kính %(R=\\sqrt{5})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Tìm số phức z biết:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.75,
+        "content": "a) %(|z|=2 \\sqrt{2})% và %(z^{2})% là số thuần ảo.",
+        "question_images": [],
+        "solution": "Goi %(z=x+y i(x, y \\in R) \\Rightarrow z^{2}=x^{2}-y^{2}+2 x y i)%<br>Theo yêu cầu bài toán ta có: %(\\left\\{\\begin{array}{l}x^{2}+y^{2}=8 \\\\ x^{2}-y^{2}=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x= \\pm 2 \\\\ y= \\pm 2\\end{array}\\right.\\right.)%<br>%(\\Rightarrow z=2+2 i ; \\quad z=2-2 i ; \\quad z=-2+2 i ; \\quad z=-2-2 i)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) %(|z-1|=|\\bar{z}+2 i|)% và z có môđun nhỏ nhất.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\text { Gọi } z=x+y i(x, y \\in R) \\Rightarrow \\bar{z}=x-y i \\\\|z-1|=|\\bar{z}+2 i| \\\\Leftrightarrow|x-1+y i|=|x+(2-y) i| \\Leftrightarrow(x-1)^{2}+y^{2}=x^{2}+(2-y)^{2} \\Leftrightarrow 2 x-4 y+3=0\\end{array}\\]<br>Goi %(\\Delta)% là đường thẳng đi qua %(\\mathrm{O}(0 ; 0))% và vuông góc với %((\\mathrm{d}) \\Rightarrow)% phương trình đường thẳng %(\\Delta)% là: %(4 x+2 y=0)%<br>Gọi %(M=\\Delta \\cap d \\Rightarrow)% tọa độ của điểm M là nghiệm của hệ phương trình:<br>\\[\\left\\{\\begin{array} { l } { 2 x - 4 y = - 3 } \\\\{ 4 x + 2 y = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=-\\frac{3}{10} \\y=\\frac{3}{5}\\end{array} \\Rightarrow M\\left(-\\frac{3}{10} ; \\frac{3}{5}\\right)\\right.\\right.\\]<br>Vậy z cần tìm có biểu diễn hình học là điểm %(\\mathrm{M} \\Rightarrow z=-\\frac{3}{10}+\\frac{3}{5} i)%",
+        "question_type": "essay"
+    }
+]

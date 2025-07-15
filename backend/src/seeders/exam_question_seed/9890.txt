@@ -1,0 +1,212 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.25,
+        "content": "Rút gọn biểu thức %(P=x^{\\frac{1}{3}} \\cdot \\sqrt[6]{x})% với %(x\\gt 0)%.",
+        "question_images": [],
+        "labelA": "%(P=\\sqrt{x})%",
+        "labelB": "%(P=x^{\\frac{1}{8}})%",
+        "labelC": "%(P=x^{\\frac{2}{9}})%",
+        "labelD": "%(P=x^{2})%",
+        "correct_label": "labelA",
+        "solution": "Với %(x\\gt 0)%, ta có %(P=x^{\\frac{1}{3}} \\cdot x^{\\frac{1}{6}}=x^{\\frac{1}{3}+\\frac{1}{6}}=x^{\\frac{1}{2}}=\\sqrt{x})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "2 ",
+        "point": 0.25,
+        "content": "Hàm số %(y=\\log _{5}\\left(4 x-x^{2}\\right))% có tập xác định là",
+        "question_images": [],
+        "labelA": "%(D=(0 ; 4))%",
+        "labelB": "%(D=\\mathbb{R})%",
+        "labelC": "%(D=(-\\infty ; 0) \\cup(4 ;+\\infty))%",
+        "labelD": "%(D=(0 ;+\\infty))%",
+        "correct_label": "labelA",
+        "solution": "Điều kiện: %(4 x-x^{2}\\gt 0 \\Leftrightarrow 0\\lt x\\lt 4)%.<br>Vậy: Tập xác định là %(D=(0 ; 4))%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "3 ",
+        "point": 0.25,
+        "content": "Giải phương trình %(4^{x-1}=8^{3-2 x})%",
+        "question_images": [],
+        "labelA": "%(x=\\frac{11}{8})%",
+        "labelB": "%(x=\\frac{4}{3})%",
+        "labelC": "%(x=\\frac{1}{8})%",
+        "labelD": "%(x=\\frac{8}{11})%",
+        "correct_label": "labelA",
+        "solution": "Ta có: %(4^{x-1}=8^{3-2 x} \\Leftrightarrow \\frac{2^{2 x}}{4}=\\frac{512}{2^{6 x}} \\Leftrightarrow 2^{8 x}=2048 \\Leftrightarrow 2^{8 x}=2^{11} \\Leftrightarrow 8 x=11 \\Leftrightarrow x=\\frac{11}{8})%.<br>Cách khác:<br>Ta có: %(4^{x-1}=8^{3-2 x} \\Leftrightarrow(x-1) \\log _{2} 4=(3-2 x) \\log _{2} 8 \\Leftrightarrow 2 x-2=9-6 x \\Leftrightarrow 8 x=11)% %(\\Leftrightarrow x=\\frac{11}{8})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "4 ",
+        "point": 0.25,
+        "content": "Cho hình lập phương %(A B C D \\cdot A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime})%. Góc giữa hai đường thẳng %(B A^{\\prime})% và %(C D)% bằng:",
+        "question_images": [],
+        "labelA": "%(45^{\\circ})%",
+        "labelB": "%(60^{\\circ})%",
+        "labelC": "%(30^{\\circ})%",
+        "labelD": "%(90^{\\circ})%",
+        "correct_label": "labelA",
+        "solution": "Có %(C D / / A B \\Rightarrow\\left(B A^{\\prime}, C D\\right)=\\left(B A^{\\prime}, B A\\right)=A B A^{\\prime}=45^{\\circ})% (do %(A B B^{\\prime} A^{\\prime})% là hình vuông).<br><img alt=\"image.png\" src=\"https://docdn.giainhanh.io/media/test/3679cb45ebb8f109d5bdc17ef0d0c5a6.png\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "5 ",
+        "point": 0.25,
+        "content": "Cho hình chóp %(S . A B C)% có %(S A \\perp(A B C))%; tam giác %(A B C)% đều cạnh %(a)% và %(S A=a)% (tham khảo hình vẽ bên). Tìm góc giữa đường thẳng %(S C)% và mặt phẳng %((A B C))%.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/ac9577adf3012a6e74eacc8ea6a8d1c5.png"
+        ],
+        "labelA": "%(60^{\\circ})%",
+        "labelB": "%(45^{\\circ})%",
+        "labelC": "%(135^{\\circ})%",
+        "labelD": "%(90^{\\circ})%",
+        "correct_label": "labelB",
+        "solution": "Góc giữa đường thẳng %(S C)% và mặt phẳng %((A B C))% là góc %(S C A)%.<br>Tam giác %(S A C)% vuông cân tại %(A)% nên góc %(S C A=45^{\\circ})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "6 ",
+        "point": 0.25,
+        "content": "Cho hình lập phương %(A B C D \\cdot A^{\\prime} B C^{\\prime} D^{\\prime})%. Tính góc giữa mặt phẳng %((A B C D))% và %(\\left(A C C^{\\prime} A^{\\prime}\\right))%.",
+        "question_images": [],
+        "labelA": "%(45^{\\circ})%",
+        "labelB": "%(60^{\\circ})%",
+        "labelC": "%(30^{\\circ})%",
+        "labelD": "%(90^{\\circ})%",
+        "correct_label": "labelD",
+        "solution": "Do %(A A^{\\prime} \\perp(A B C D) \\Rightarrow\\left(A C C^{\\prime} A^{\\prime}\\right) \\perp(A B C D))%.<br><img alt=\"image.png\" src=\"https://docdn.giainhanh.io/media/test/44be9d99c4ca3612baca223880fb8114.png\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "7 ",
+        "point": 0.25,
+        "content": "Cho hình chóp %(S . A B C D)% có đáy là hình bình hành, cạnh bên %(S A)% vuông góc với đáy. Biết khoảng cách từ %(A)% đến %((S B D))% bằng %(\\frac{6 a}{7})%. Tính khoảng cách từ %(C)% đến mặt phẳng %((S B D))% ?",
+        "question_images": [],
+        "labelA": "%(\\frac{12 a}{7})%",
+        "labelB": "%(\\frac{3 a}{7})%",
+        "labelC": "%(\\frac{4 a}{7})%",
+        "labelD": "%(\\frac{6 a}{7})%",
+        "correct_label": "labelD",
+        "solution": "Do %(A B C D)% là hình bình hành %(\\Rightarrow A C \\cap B D=O)% là trung điểm của %(A C)% và %(B D)% %(\\Rightarrow d(C,(S B D))=d(A,(S B D))=\\frac{6 a}{7})%.<br><img alt=\"image.png\" src=\"https://docdn.giainhanh.io/media/test/b76d3ef6336d6aeaaec21ab259cc3abd.png\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "8 ",
+        "point": 0.25,
+        "content": "Cho khối tứ diện %(A B C D)% có %(A B, A C, A D)% đôi một vuông góc và %(A B=A C=2 a)%, %(A D=3 a)%. Thể tích %(V)% của khối tứ diện đó là:",
+        "question_images": [],
+        "labelA": "%(V=a^{3})%",
+        "labelB": "%(V=3 a^{3})%",
+        "labelC": "%(V=2 a^{3})%",
+        "labelD": "%(V=4 a^{3})%",
+        "correct_label": "labelC",
+        "solution": "Áp dụng công thức thể tích của tam diện vuông ta có:<br>\\[V=\\frac{1}{6} A B \\cdot A C \\cdot A D=\\frac{1}{6} \\cdot 2 a \\cdot 2 a \\cdot 3 a=2 a^{3} \\text {. }\\]",
+        "question_type": "quiz"
+    },
+    {
+        "title": "9 ",
+        "point": 0.25,
+        "content": "Một hộp đựng 4 viên bi xanh, 3 viên bi đỏ, 2 viên bi vàng. Chọn ngẫu nhiên 2 viên bi. Tính xác suất 2 viên bi được chọn cùng màu là:",
+        "question_images": [],
+        "labelA": "%(P(X)=\\frac{5}{18})%",
+        "labelB": "%(P(X)=\\frac{5}{8})%",
+        "labelC": "%(P(X)=\\frac{7}{18})%",
+        "labelD": "%(P(X)=\\frac{7}{8})%",
+        "correct_label": "labelA",
+        "solution": "Gọi %(A)% là biến cố \"Chọn được 2 viên bi xanh\";<br>%(B)% là biến cố \"Chọn được 2 viên bi đỏ\",<br>%(C)% là biến cố \"Chọn được 2 viên bi vàng\" và %(X)% là biến cố \"Chọn được 2 viên bi cùng màu\".<br>Ta có: %(X=A \\cup B \\cup C)% và các biến cố %(A, B, C)% đôi một xung khắc.<br>Do đó, ta có: %(P(X)=P(A)+P(B)+P(C)=\\frac{C_{4}^{2}}{C_{9}^{2}}+\\frac{C_{3}^{2}}{C_{9}^{2}}+\\frac{C_{2}^{2}}{C_{9}^{2}}=\\frac{1}{6}+\\frac{1}{12}+\\frac{1}{36}=\\frac{5}{18})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "10 ",
+        "point": 0.25,
+        "content": "Có hai hộp đựng bi. Hộp I có 9 viên bi được đánh số %(1,2,3 \\ldots . . ., 9)%. Lấy ngẫu nhiên mỗi hộp một viên bi. Biết rằng xác suất để lấy được viên bi mang số chẵn ở hộp II là %(3 / 10)%. Xác suất để lấy được cả hai viên bi mang số chẵn là:",
+        "question_images": [],
+        "labelA": "%(P=\\frac{2}{18})%",
+        "labelB": "%(P=\\frac{2}{19})%",
+        "labelC": "%(P=\\frac{5}{18})%",
+        "labelD": "%(P=\\frac{2}{15})%",
+        "correct_label": "labelD",
+        "solution": "Gọi %(X)% là biến cố \"Lấy được hai viên bi là số chẵn\"<br>Gọi %(A)% là biến cố \"Lấy được viên bi là số chẵn ở hộp I\"<br>Gọi %(B)% là biến cố \"Lấy được viên bi là số chẵn ở hộp II\"Vì hộp thứ I có 4 viên bi số chẵn nên %(P(A)=\\frac{4}{9})%.<br>Vì %(A)% và %(B)% là hai biến cố độc lập và %(X=A \\cap B)% nên %(P(X)=P(A) \\cdot P(B)=\\frac{4}{9} \\cdot \\frac{3}{10}=\\frac{2}{15})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "11 ",
+        "point": 0.25,
+        "content": "Đạo hàm của hàm số %(y=\\ln \\left(1-x^{2}\\right))% là",
+        "question_images": [],
+        "labelA": "%(\\frac{2 x}{x^{2}-1})%",
+        "labelB": "%(\\frac{-2 x}{x^{2}-1})%",
+        "labelC": "%(\\frac{1}{x^{2}-1})%",
+        "labelD": "%(\\frac{x}{1-x^{2}})%",
+        "correct_label": "labelA",
+        "solution": "\\[y^{\\prime}=\\frac{\\left(1-x^{2}\\right)^{\\prime}}{1-x^{2}}=\\frac{-2 x}{1-x^{2}}=\\frac{2 x}{x^{2}-1} .\\]",
+        "question_type": "quiz"
+    },
+    {
+        "title": "12 ",
+        "point": 0.25,
+        "content": "Cho chuyển động thẳng xác định bởi phương trình %(S=-t^{3}+3 t^{2}+9 t)%, trong đó %(t)% tính bằng giây và %(S)% tính bằng mét. Tính vận tốc của chuyển động tại thời điểm gia tốc triệt tiêu.",
+        "question_images": [],
+        "labelA": "%(12 \\mathrm{~m} / \\mathrm{s})%",
+        "labelB": "%(0 \\mathrm{~m} / \\mathrm{s})%",
+        "labelC": "%(11 \\mathrm{~m} / \\mathrm{s})%",
+        "labelD": "%(6 \\mathrm{~m} / \\mathrm{s})%",
+        "correct_label": "labelA",
+        "solution": "Vận tốc của chuyển động chính là đạo hàm cấp một của quãng đường: %(v=S^{\\prime}=-3 t^{2}+6 t+9)%<br>Gia tốc của chuyể động chính là đạo hàm cấp hai của quãng đường:<br>\\[a=S^{\\prime \\prime}=-6 t+6\\]<br>Gia tốc triệt tiêu khi %(S^{\\prime \\prime}=0 \\Leftrightarrow t=1)%.Khi đó vận tốc của chuyển động là %(S^{\\prime}(1)=12 \\mathrm{~m} / \\mathrm{s})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "17 ",
+        "point": 0.5,
+        "content": "Một trường học có tỉ lệ học sinh thích bóng đá là %(45 \\%)%, thích bóng rổ là %(60 \\%)% và thích cả hai môn này là %(30 \\%)%. Tính xác suất để aặp một học sinh trong trường mà học sinh đó không thích bóng đá hoặc bóng rổ.",
+        "question_images": [],
+        "solution": "Gọi %(A)% là biến cố \"Học sinh thích bóng đá\", %(B)% là biến cố \"Học sinh thích bóng rổ\" và %(A B)% là biến cố \"Học sinh thích bóng đá và bóng rổ\".<br>Khi đó biến cố %(\\bar{A} \\cup \\bar{B})% là \"Học sinh không thích cả bóng đá và bóng rổ\".<br>Ta có %(P(\\bar{A} \\cup \\bar{B})=P(\\bar{A})+P(\\bar{B})-P(\\overline{A B})=1-0,45+1-0,6-(1-0,3)=0,25)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "18 ",
+        "point": 0.5,
+        "content": "Một chiếc túi chứa 5 quả bóng màu đỏ và 6 quả bóng màu xanh có cùng kích thước và khối lượng. Lần lượt lấy ngẫu nhiên một quả bóng rồi trả lại vào túi. Tính xác suất lấy được ít nhất một quả bóng màu xanh sau 3 lượt lấy.",
+        "question_images": [],
+        "solution": "Ta có sơ đồ cây như sau:<br>Trong đó: Y là biến cố \"Lấy được quả bóng màu đỏ\", X là biến cố \"Lấy được quả bóng màu xanh\".<br>Dựa vào sơ đồ cây, xác suất lấy được ít nhất 1 bóng xanh sau 3 lượt là:<br>\\[\\frac{6}{11}+\\frac{5}{11} \\cdot \\frac{6}{11}+\\left(\\frac{5}{11}\\right)^{2} \\cdot \\frac{6}{11}=\\frac{1206}{1331} \\text {. }\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1cdfa1d116c1cc9acb82d02a94eb3b9d.png\" srcset=\"https://docdn.giainhanh.io/media/test/23b54f096ca4b39fc2944220f0b2756c.png 221w, https://docdn.giainhanh.io/media/test/90508e6ebc7cafb0baf63a3fb2755a89.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "19 ",
+        "point": 0.5,
+        "content": "Một hộp phấn không bụi có dạng hình hộp chữ nhật, chiều cao hộp phấn bằng %(8,2 \\mathrm{~cm})% và đáy của nó có hai kích thước là %(8,5 \\mathrm{~cm} ; 10,5 \\mathrm{~cm})% (xem hình vẽ sau). Tìm góc phẳng nhị diện %(\\left[A, B^{\\prime} D^{\\prime}, A^{\\prime}\\right])% (tính theo độ, làm tròn kết quả đến hàng phần chục).",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/9a125ea8fccb739f1989fcc042a47239.png"
+        ],
+        "solution": "Trong mặt phẳng %(\\left(A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime}\\right))%, kẻ %(A^{\\prime} H \\perp B^{\\prime} D^{\\prime})% tại %(H)%.<br>Ta có: %(\\left\\{\\begin{array}{l}B^{\\prime} D^{\\prime} \\perp A^{\\prime} H \\\\ B^{\\prime} D^{\\prime} \\perp A A^{\\prime}\\left(\\text { do } A A^{\\prime} \\perp\\left(A^{\\prime} B^{\\prime} C^{\\prime} D^{\\prime}\\right)\\right)\\end{array} \\Rightarrow B^{\\prime} D^{\\prime} \\perp\\left(A A^{\\prime} H\\right) \\Rightarrow B^{\\prime} D^{\\prime} \\perp A H\\right.)%.<br>Do đó %(A H A^{\\prime})% là góc phẳng nhị diện %(\\left[A, B^{\\prime} D^{\\prime}, A^{\\prime}\\right])%.<br>Tam giác %(A^{\\prime} B^{\\prime} D^{\\prime})% vuông tại %(A^{\\prime})% có đường cao %(A^{\\prime} H)% nên<br>\\[\\frac{1}{A^{\\prime} H^{2}}=\\frac{1}{A^{\\prime} B^{\\prime 2}}+\\frac{1}{A^{\\prime} D^{\\prime 2}} \\Rightarrow A^{\\prime} H=\\frac{A^{\\prime} B^{\\prime} \\cdot A^{\\prime} D^{\\prime}}{\\sqrt{A^{\\prime} B^{\\prime 2}+A^{\\prime} D^{\\prime 2}}}=\\frac{357}{2 \\sqrt{730}} \\text {. }\\]<br>Tam giác %(A H A^{\\prime})% vuông tại %(A^{\\prime})% có:<br>\\[\\tan A H A^{\\prime}=\\frac{A A^{\\prime}}{A^{\\prime} H}=\\frac{8,2}{\\frac{357}{2 \\sqrt{730}}} \\Rightarrow A H A^{\\prime} \\approx 51,14^{\\circ}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/2525bf5252982e28509051601cb07d08.png\" srcset=\"https://docdn.giainhanh.io/media/test/fe84d090fe10ba4ec45f358aef4b830e.png 245w, https://docdn.giainhanh.io/media/test/0328d7b6be06f60c9ed1b97029cd6a60.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "20 ",
+        "point": 0.5,
+        "content": "Một cái hộp hình lập phương, bên trong nó đựng một mô hình đồ chơi có dạng hình chóp tứ giác đều mà đỉnh của hình chóp đó trùng với tâm của một mặt chiếc hộp, giả sử hình vuông đáy của hình chóp trùng với một mặt của chiếc hộp (mặt này cùng với mặt chứa đỉnh hình chóp là hai mặt đối nhau). Biết cạnh của chiếc hộp bằng 30 cm , hãy tính thể tích phần không gian bên trong chiếc hộp không bị chiếm bởi mô hình đồ chơi dạng hình chóp (mô hình đồ chơi được làm bởi chất liệu nhựa đặc bên trong).",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/06c82a0ef5cbb17d8e393a9e7e5fe99a.png"
+        ],
+        "solution": "Thể tích cái hộp (khối lập phương) là: %(V_{1}=30^{3}=27000\\left(\\mathrm{~cm}^{3}\\right))%.<br>Xét đồ chơi có dạng hình chóp tứ giác đều, chiều cao của hình chóp bằng với một cạnh của hình lập phương, hay %(h=30 \\mathrm{~cm})%, đáy của hình chóp có diện tích %(S=30^{2}=900 \\mathrm{~cm}^{2})%.<br>Thể tích khối đồ chơi (khối chóp tứ giác đều) là:<br>\\[V_{2}=\\frac{1}{3} S h=\\frac{1}{3} \\cdot 900 \\cdot 30=9000\\left(\\mathrm{~cm}^{3}\\right) .\\]<br>Thể tích phần không gian bên trong chiếc hộp không bị chiếm bởi mô hình đồ chơi dạng hình chóp: %(V=V_{1}-V_{2}=27000-9000=18000\\left(\\mathrm{~cm}^{3}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "21 ",
+        "point": 0.5,
+        "content": "Theo số liệu của tổng cục thống kê, dân số Việt Nam năm 2015 là 91,7 triệu người. Giả sử tỉ lệ tăng dân số hàng năm của Việt Nam trong giai đoạn 20152040 ở mức không đổi %(1,1 \\%)%. Hỏi đến năm bao nhiêu dân số Việt Nam đạt mức 113 triệu người?",
+        "question_images": [],
+        "solution": "Giả sử sau %(n)% năm dân số Việt Nam là %(113.10^{6})% ( người).<br>\\[\\Rightarrow 113 \\cdot 10^{6}=91,7 \\cdot 10^{6} .(1+1,1 \\%)^{n} \\Leftrightarrow(1,01)^{n}=\\frac{1130}{917} \\Leftrightarrow n=\\log _{1,011} \\frac{1130}{917}=19\\]<br>Vậy đến năm 2034 thì dân số Việt Nam là 113 triệu người.",
+        "question_type": "essay"
+    },
+    {
+        "title": "22 ",
+        "point": 0.5,
+        "content": "Gọi %(M x_{0} ; y_{0})% là điểm trên đồ thị hàm số %(y=x^{3}-3 x^{2}-1)% mà tiếp tuyến tại đó có hệ số góc bé nhất trong các tiếp tuyến của đồ thị hàm số. Khi đó %(x_{0}^{2}+y_{0}^{2})% bằng bao nhiêu?",
+        "question_images": [],
+        "solution": "Ta có %(y^{\\prime}=3 x^{2}-6 x)%<br>Suy ra hệ số góc %(k=3 x_{0}^{2}-6 x_{0})%<br>Ta có %(3 x_{0}^{2}-6 x_{0} \\geq-3)% suy ra %(k_{\\min }=-3)% khi %(x_{0}=1)%.<br>Từ đó suy ra %(y_{0}=-3)%<br>Vậy %(x_{0}^{2}+y_{0}^{2}=1^{2}+-3^{2}=10)%.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức:<br>\\[M=\\left[\\frac{(a-1)^{2}}{3 a+(a-1)^{2}}-\\frac{1-2 a^{2}+4 a}{a^{3}-1}+\\frac{1}{a-1}\\right]: \\frac{a^{3}+4 a}{4 a^{2}}+\\frac{a^{4}+8 a^{2}-4 a+16}{a^{2}+4}\\]",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Rút gọn M.",
+        "question_images": [],
+        "solution": "ĐK: %(a \\neq 0 ; a \\neq 1)%.<br>Ta có:<br>\\[\\begin{array}{l}M=\\left[\\frac{(a-1)^{2}}{3 a+(a-1)^{2}}-\\frac{1-2 a^{2}+4 a}{a^{3}-1}+\\frac{1}{a-1}\\right]: \\frac{a^{3}+4 a}{4 a^{2}}+\\frac{a^{4}+8 a^{2}-4 a+16}{a^{2}+4} \\\\=\\frac{4 a}{a^{2}+4}+\\frac{a^{4}+8 a^{2}-4 a+16}{a^{2}+4}=a^{2}+4\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm a để %(M\\lt 5 a)%.",
+        "question_images": [],
+        "solution": "Khi %(M\\lt 5 a \\Rightarrow a^{2}+4\\lt 5 a \\Leftrightarrow a^{2}-5 a+4\\lt 0 \\Leftrightarrow 1\\lt a\\lt 4)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% đôi một khác nhau và khác %(\\mathrm{0})%. Cho %(a+b+c=0)%. Tính %(N=\\left(\\frac{a-b}{c}+\\frac{b-c}{a}+\\frac{c-a}{b}\\right) .\\left(\\frac{c}{a-b}+\\frac{a}{b-c}+\\frac{b}{c-a}\\right)+1)%",
+        "question_images": [],
+        "solution": "Đặt %(\\frac{a-b}{c}=x ; \\frac{b-c}{a}=y ; \\frac{c-a}{b}=z \\Rightarrow \\frac{c}{a-b}=\\frac{1}{x} ; \\frac{a}{b-c}=\\frac{1}{y} ; \\frac{b}{c-a}=\\frac{1}{z})%<br>Ta có: PT %(\\Leftrightarrow N=(x+y+z)\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)+1)%%(N=(x+y+z)\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)+1=4+\\left(\\frac{y+z}{x}+\\frac{x+z}{y}+\\frac{x+y}{z}\\right))%.<br>Ta lại có:<br>\\[\\begin{array}{l}\\frac{y+z}{x}=\\left(\\frac{b-c}{a}+\\frac{c-a}{b}\\right) . \\frac{c}{a-b}=\\frac{b^{2}-b c+a c-a^{2}}{a b} . \\frac{c}{a-b} \\\\=\\frac{c(a-b)(c-a-b)}{a b(a-b)}=\\frac{c(c-a-b)}{a b}=\\frac{c[2 c-(a+b+c)]}{a b}=\\frac{2 c^{2}}{a b}\\end{array}\\]<br>Cmtt ta có%(: \\frac{x+z}{y}=\\frac{2 a^{2}}{b c} ; \\frac{x+y}{z}=\\frac{2 b^{2}}{a c})%<br>\\[N=(x+y+z)\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)+1=4+\\frac{2 c^{2}}{a b}+\\frac{2 a^{2}}{b c}+\\frac{2 b^{2}}{a c}=4+\\frac{2}{a b c}\\left(a^{3}+b^{3}+c^{3}\\right)\\]<br>Vì %(a+b+c=0 \\Rightarrow a^{3}+b^{3}+c^{3}=3 a b c)%<br>Do đó:<br>\\[N=(x+y+z)\\left(\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}\\right)+1=4+\\frac{2}{a b c}. 3 a b c=4+6=10\\]<br>Vậy %(\\mathrm{N}=10)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Giải phương trình: %(x^{3}+\\frac{x^{3}}{(x-1)^{3}}+\\frac{3 x^{2}}{x-1}-28=0~(x \\neq 1))%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}x^{3}+\\frac{x^{3}}{(x-1)^{3}}+\\frac{3 x^{2}}{x-1}-28=0 \\Leftrightarrow\\left(x+\\frac{x}{x-1}\\right)^{3}-3 x . \\frac{x}{x-1} .\\left(x+\\frac{x}{x-1}\\right)+\\frac{3 x^{2}}{x-1}-28=0 \\\\ \\Leftrightarrow\\left(\\frac{x^{2}}{x-1}\\right)^{3}-3\\left(\\frac{x^{2}}{x-1}\\right)^{2}+\\frac{3 x^{2}}{x-1}-1-27 \\Leftrightarrow\\left(\\frac{x^{2}}{x-1}-1\\right)^{3}=3^{3} \\\\ \\Rightarrow \\frac{x^{2}}{x-1}-1=3 \\Rightarrow \\frac{x^{2}}{x-1}=4 \\Leftrightarrow x^{2}-4 x+4=0 \\Leftrightarrow x=2~(\\mathrm{tm})\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.0,
+        "content": "Tìm hai số %(x, y)% thỏa mãn hai điều kiệu sau: %(x^{3}+x y^{2}-10 y=0)% và %(x^{2}+6 y^{2}=10)%.",
+        "question_images": [],
+        "solution": "Từ %(10=x^{2}+6 y^{2})%.<br>Thay vào %(x^{3}+x y^{2}-10 y=0)%, ta có:<br>\\[\\begin{array}{l}x^{3}+x y^{2}-\\left(x^{2}+6 y^{2}\\right) y=0 \\Leftrightarrow x^{3}+x y^{2}-x^{2} y-6 y^{3}=0 \\\\Leftrightarrow x^{3}-2 x^{2} y+x^{2} y-2 x y^{2}+2 x y^{2}-6 y^{3}=0 \\Leftrightarrow(x-2 y)\\left(x^{2}+x y+3 y^{2}\\right)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x=2 y \\Rightarrow 4 y^{2}+8 y^{2}=12 \\Leftrightarrow y^{2}=1 \\Leftrightarrow\\left[\\begin{array}{l}y=1 \\Rightarrow x=2 \\y=-1 \\Rightarrow x=-2\\end{array}\\right. \\x^{2}+x y+3 y^{2}=0 \\Rightarrow\\left(x+\\frac{y}{2}\\right)^{2}+\\frac{11 y^{2}}{4}=0 \\Rightarrow x=y=0\\end{array}\\right. \\\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Tìm số %(x, y)% nguyên thỏa mãn: %(x^{2} y^{2}-3 x y^{3}-x^{2}+3 x y-x^{2} y+3 x y^{2}+6 y^{2}-6 y-7=0)%",
+        "question_images": [],
+        "solution": "Từ %(x^{2} y^{2}-3 x y^{3}-x^{2}+3 x y-x^{2} y+3 x y^{2}+6 y^{2}-6 y-7=0)% %(\\Leftrightarrow\\left(x^{2}-3 x y+6\\right)\\left(y^{2}-y-1\\right)=1=1.1=-1 .-1)%<br>+) TH1: %(\\left\\{\\begin{array}{l}x^{2}-3 x y+6=1 \\\\ y^{2}-y-1=1\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}y=2 \\Rightarrow\\left[\\begin{array}{l}x=1 \\\\ x=5\\end{array}\\right. \\\\ y=1 \\Rightarrow x^{2}-3 x+5=0~(V N)\\end{array}\\right.\\right.)%<br>+) TH2 %(:\\left\\{\\begin{array}{l}x^{2}-3 x y+6=-1 \\\\ y^{2}-y-1=-1\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}y=0 \\Rightarrow x^{2}+7=0~(V N) \\\\ y=1 \\Rightarrow x^{2}-3 x+7=0~(V N)\\end{array}\\right.\\right.)%<br>Vậy phương trình có nghiệm nguyên là %((x ; y) \\in\\{(1 ; 2) ;(5 ; 2)\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các số chính phương gồm 4 chữ số biết rằng khi ta thêm 1 đơn vị vào chữ số hàng nghìn, thêm 3 đơn vị vào chữ số hàng trăm, thêm 5 đơn vị vào chữ số hàng chục, thêm 3 đơn vị vào chữ số hàng đơn vị, ta vẫn được một số chính phương.",
+        "question_images": [],
+        "solution": "Gọi %(\\overline{a b c d})% là số phải tìm %((a, b, c, d \\in N, 0 \\leq a, b, c, d \\leq 9, a \\neq 0))%.<br>Ta có:<br>\\[\\begin{array}{l}\\left\\{\\begin{array}{l}\\overline{a b c d}=k^{2} \\\\overline{(a+1)(b+3)(c+5)(d+3)}=m^{2}\\end{array}(k, m \\in N, 31\\lt k\\lt m\\lt 100)\\right. \\\\Leftrightarrow\\left\\{\\begin{array}{l}\\overline{a b c d}=k^{2} \\\\overline{a b c d}+1353=m^{2}\\end{array} \\Rightarrow m^{2}-k^{2}=1353\\right. \\\\Rightarrow(m+k)(m-k)=123.11=41.33(k+m\\lt 200) \\\\Rightarrow\\left\\{\\begin{array} { l } { m + k = 1 2 3 } \\\\{ m - k = 1 1 }\\end{array} \\text { hoac } \\left\\{\\begin{array} { l } { m + k = 4 1 } \\\\{ m - k = 3 3 }\\end{array} \\Rightarrow \\left[\\begin{array}{l}m=67 ; k=56 \\m=37 ; k=4\\end{array}\\right.\\right.\\right. \\\\end{array}\\]<br>Vậy số cần tìm là 3136",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho đoạn thẳng %(A B)% cố định có O là trung điểm. Trên đường thẳng vuông góc với AB tại A, lấy điểm C sao cho %(A C \\geq A O)%. Kẻ AK vuông góc CO tại K, điểm D đối xứng với A qua K. Đường thẳng qua O vuông góc với AB cắt BD tại E. Kẻ DH vuông góc với AB tại %(\\mathrm{H}, \\mathrm{DH})% cắt BC tại I.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 3.0,
+        "content": "a) Chứng minh %(C D=E O)%.",
+        "question_images": [],
+        "solution": "+) Chứng minh được %(C O / / B E)% (cùng vuông góc với AD)<br>+) Chứng minh được %(\\triangle A C O=\\triangle O E B~(ch)%%(-g n) \\Rightarrow A C=O E)%<br>+) Mà %(A C=C D~(\\mathrm{CO})% là trung trực của AD%() \\Rightarrow C D=E O)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/f108db18799ec3f71c18d01c3bc6862a.png\" srcset=\"https://docdn.giainhanh.io/media/test/629c9126bf0bb08204006b2a62a6e082.png 184w, https://docdn.giainhanh.io/media/test/a4430d683e447eb2d1efbd934cec50e6.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) Chứng minh %(K I)% đi qua trung điểm của BD.",
+        "question_images": [],
+        "solution": "+) Do %(I H / / A C \\Rightarrow \\frac{I H}{C A}=\\frac{B H}{B A})%<br>+) Do %(D H / / E O \\Rightarrow \\frac{D H}{E O}=\\frac{B H}{B O})%<br>+) Mà %(\\frac{B H}{B A}=\\frac{1}{2} .\\frac{B H}{B O})% nên %(\\frac{I H}{C A}=\\frac{1}{2} . \\frac{D H}{E O})%<br>+) Mà %(C A=E O)%<br>Suy ra %(\\mathrm{IH}=\\frac{1}{2} \\mathrm{DH})% hay I là trung điểm DH<br>+) Mà K là trung điểm của AD nên %(\\mathrm{IK} / / \\mathrm{AB})%<br>Suy ra %(I K)% đi qua trung điểm của BD",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) Kẻ IN vuông góc với AC tại N, kẻ DM vuông góc với AC tại %(\\mathrm{M}, \\mathrm{DM})% cắt CO tại J. Chứng minh tứ giác %(J N O I)% là hình bình hành. Khi C di chuyển (sao cho %(A C \\geq A O)% ). Tính giá trị nhỏ nhất của %(N I^{2}+O J^{2})%.",
+        "question_images": [],
+        "solution": "+) Chứng minh %(\\triangle J K D=\\triangle O K A \\Rightarrow K J=K O)%<br>+) Chứng minh %(\\triangle N K A=\\triangle I K D \\Rightarrow K N=K I)%.<br>Suy ra tứ giác %(N J O)% là hình bình hành<br>+) Chứng minh được %(N I=A H, J O=B D)%<br>+) Ta có: %(N I^{2}+J O^{2}=A H^{2}+B D^{2})%.<br>+) Chứng minh được %(B D^{2}=B H . A B)%, nên:<br>\\[\\begin{array}{l}N I^{2}+J O^{2}=A H^{2}+B H . A B=A H^{2}+(A B-A H) .A B=A H^{2}-A B . A H+A B^{2} \\\\=\\left(A H-\\frac{1}{2} A B\\right)^{2}+\\frac{3}{4} A B^{2} \\geq \\frac{3}{4} A B^{2}\\end{array}\\]<br>Vậy %(\\operatorname{Min}_\\left(N I^{2}+J O^{2}\\right)=\\frac{3}{4} A B^{2} \\Leftrightarrow A H=\\frac{1}{2} A B)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c\\gt 0)% thỏa mãn %(a+b+c=3)%. Tìm giá trị nhỏ nhất của %(A=\\frac{a+1}{b^{2}+1}+\\frac{b+1}{c^{2}+1}+\\frac{c+1}{a^{2}+1})%",
+        "question_images": [],
+        "solution": "Sử dụng bất đẳng thức Co - si, ta có:<br>\\[\\frac{a+1}{b^{2}+1}=a+1-\\frac{b^{2}(a+1)}{b^{2}+1} \\geq a+1-\\frac{b^{2}(a+1)}{2 b}=a+1-\\frac{b+a b}{2}~~~~~(1)\\]<br>%(\\mathrm{Cmtt}: \\frac{b+1}{c^{2}+1} \\geq b+1-\\frac{c+b c}{2}~~~~~(2))% và %(\\frac{c+1}{a^{2}+1} \\geq c+1-\\frac{a+c a}{2}~~~~~(3))%<br>Từ (1),(2) và (3) suy ra:<br>\\[\\frac{a+1}{b^{2}+1}+\\frac{b+1}{c^{2}+1}+\\frac{c+1}{a^{2}+1} \\geq \\frac{a+b+c}{2}+3-\\frac{a b+b c+c a}{2}\\]<br>Mặt khác:<br>%(a^{2}+b^{2}+c^{2} \\geq a b+b c+c a)%<br>Hay %(3(a b+b c+c a) \\leq(a+b+c)^{2}=9)%<br>Do đó: %(A=\\frac{a+1}{b^{2}+1}+\\frac{b+1}{c^{2}+1}+\\frac{c+1}{a^{2}+1} \\geq \\frac{a+b+c}{2}+3-\\frac{a b+b c+c a}{2}=\\frac{3}{2}+3-\\frac{9}{6})%<br>Vậy %(A=\\frac{a+1}{b^{2}+1}+\\frac{b+1}{c^{2}+1}+\\frac{c+1}{a^{2}+1} \\geq 3)%.<br>Dấu bằng xảy ra khi %(a=b=c=1)%",
+        "question_type": "essay"
+    }
+]

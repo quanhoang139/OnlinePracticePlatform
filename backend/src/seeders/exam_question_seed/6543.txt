@@ -1,0 +1,95 @@
+[
+    {
+        "title": "Câu 1: ",
+        "point": 3.5,
+        "content": "Giải và biện luận bất phương trình sau theo tham số %(m)% :<br>\\[\\sqrt{x+2 \\sqrt{m x-m^{2}}}+\\sqrt{x-2 \\sqrt{m x-m^{2}}} \\leq 2 \\sqrt{m} \\text { với } m\\gt 0 \\text {. }\\]",
+        "question_images": [],
+        "solution": "<img/>Điều kiện: %(\\left\\{\\begin{array}{l}m x-m^{2} \\geq 0 \\\\ x+\\sqrt{m x-m^{2}} \\geq 0 \\\\ x-\\sqrt{m x-m^{2}} \\geq 0 \\\\ m \\geq 0\\end{array} \\Leftrightarrow x \\geq m\\right.)% (1).<br>Đặt %(t=2 \\sqrt{m x-m^{2}} ; t \\geq 0)%. Thì %(x=\\frac{t^{2}+4 m^{2}}{4 m})%;<br>%(\\sqrt{x+2 \\sqrt{m x-m^{2}}}=\\sqrt{\\frac{t^{2}+4 m^{2}}{4 m}+t}=\\sqrt{\\frac{(t+2 m)^{2}}{4 m}}=\\frac{|t+2 m|}{2 \\sqrt{m}})%<br>Và %(\\sqrt{x-2 \\sqrt{m x-m^{2}}}=\\sqrt{\\frac{t^{2}+4 m^{2}}{4 m}-t}=\\sqrt{\\frac{(t-2 m)^{2}}{4 m}}=\\frac{|t-2 m|}{2 \\sqrt{m}})%.<br>Khi đó bất phương trình đã cho là: %(|t+2 m|+|t-2 m| \\leq 4 m, m\\gt 0)% (2).<br>Vì %(m>0, t \\geq 0)% nên %(|t+2 m|=t+2 m)% nên:<br>\\[\\text { (2) } \\begin{aligned}& \\Leftrightarrow t+2 m+|t-2 m| \\leq 4 m \\Leftrightarrow|t-2 m| \\leq 2 m-t, m \\geq 0 \\\\& \\Rightarrow t-2 m \\leq 0 \\Leftrightarrow 0 \\leq t \\leq 2 m\\end{aligned}\\]<br>Nghĩa là %(0 \\leq 2 \\sqrt{m x-m^{2}} \\leq 2 m \\Leftrightarrow m^{2} \\leq m x \\leq 2 m^{2} \\Leftrightarrow m \\leq x \\leq 2 m)%.<br>Vậy tập nghiệm của bất phương trình là: %(S=[m ; 2 m])%.<br><img/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2: ",
+        "point": 3.5,
+        "content": "Cho 4 số thực %(p, q, m, n)% thỏa mãn hệ thức %((q-n)^{2}+(p-m)(p n-q m)\\lt 0\\quad(1))%<br>Chứng minh rằng 2 phương trình %(x^{2}+p x+q=0)% (2) và %(x^{2}+m x+n=0(3))% đều có các nghiệm phân biệt và các nghiệm của chúng nằm xen kẽ nhau khi biểu diễn trên trục số.",
+        "question_images": [],
+        "solution": "Từ điều kiện %((q-n)^{2}+(p-m)(p n-q m)\\lt 0)% suy ra %(p-m \\neq 0)%.<br>Các phương trình (2) và (3) đều có hệ số %(a=1\\gt 0)% nên các parabol biểu diễn đều có bề lõm quay lên trên.<br>Hai pt có nghiệm phân biệt và nằm xen kẽ nhau khi biểu diễn trên trục số khi và chỉ khi đồ thị các hàm số %(y=x^{2}+p x+q(C))% và %(y=x^{2}+m x+n\\left(C^{\\prime}\\right))% cắt nhau tại 1 điểm nằm dưới trục hoành (4).<br>Hoành độ giao điềm của %((C))% và %(\\left(C^{\\prime}\\right))% là nghiệm của phương trình<br>\\[x^{2}+p x+q=x^{2}+m x+n \\Leftrightarrow x=\\frac{n-q}{p-m} .\\]<br>Tung độ giao điểm của %((C))% và %(\\left(C^{\\prime}\\right))% là<br>%(y=\\left(\\frac{n-q}{p-m}\\right)^{2}+p\\left(\\frac{n-q}{p-m}\\right)+q)%<br>%(=\\frac{1}{(p-m)^{2}}\\left[(n-q)^{2}+p(n-q)(p-m)+q(p-m)^{2}\\right])%<br>%(=\\frac{1}{(p-m)^{2}}\\left[(n-q)^{2}+(p-m)(p n-q m)\\right]\\lt 0)% (do (3)).<br>Vậy (4) được chứng minh, nên khẳng định của đề bài đã chứng minh xong.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3:",
+        "group_content": "Cho tam giác %(A B C)% có các cạnh %(B C=a, A C=b, A B=c)%. Gọi %(I)% là tâm đường tròn nội tiếp tam giác.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.5,
+        "content": "a) Chứng minh rằng %(a \\cdot I A^{2}+b \\cdot I B^{2}+c \\cdot I C^{2}=a b c)%.",
+        "question_images": [],
+        "solution": "Giả sử đường tròn %((I))% tiếp xúc với %(B C, C A)%, %(A B)% theo thứ tự tại %(D, E, F)%. Gọi %(K)% là điểm đối xứng của %(I)% qua %(A C)%.<br>Ta có %(\\frac{S_{A F I E}}{S_{A B C}}=\\frac{S_{A I K}}{S_{A B C}}=\\frac{A I \\cdot A K}{A B \\cdot A C}=\\frac{I A^{2}}{b c})%.<br>Tương tự %(\\frac{S_{B D I F}}{S_{A B C}}=\\frac{I B^{2}}{c a} ; \\frac{S_{C E I D}}{S_{A B C}}=\\frac{I C^{2}}{a b})%.<br>Suy ra %(\\frac{I A^{2}}{b c}+\\frac{I B^{2}}{c a}+\\frac{I C^{2}}{a b}=\\frac{S_{A F I E}+S_{B I D F}+S_{C E I D}}{S_{A B C}}=1)%<br>Suy ra %(a \\cdot I A^{2}+b \\cdot I B^{2}+c \\cdot I C^{2}=a b c)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/baf62d1a22fb941c908d727bc9ab635f.png\" srcset=\"https://docdn.giainhanh.io/media/test/c3c317a26cdfd74b78eb01bde92fe375.png 219w, https://docdn.giainhanh.io/media/test/b92bcbe1f8a6df4b41edd86e45468411.png 500w, https://docdn.giainhanh.io/media/test/ffbafbde7c8565fa931492415f90b17a.png 750w, https://docdn.giainhanh.io/media/test/6675fb7083c3ec16c2bf8d08db638d28.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Chứng minh rằng %(\\sqrt{a\\left(b c-I A^{2}\\right)}+\\sqrt{b\\left(c a-I B^{2}\\right)}+\\sqrt{c\\left(a b-I C^{2}\\right)} \\leq \\sqrt{6 a b c})%.<br>Hãy chỉ ra một trường hợp xảy ra dấu đẳng thức.",
+        "question_images": [],
+        "solution": "Áp dụng bất đẳng thức Bunhicovski ta có<br>\\[\\begin{array}{l}\\sqrt{a\\left(b c-I A^{2}\\right)}+\\sqrt{b\\left(c a-I B^{2}\\right)}+\\sqrt{c\\left(a b-I C^{2}\\right)} \\\\leq \\sqrt{(1+1+1)\\left[a\\left(b c-I A^{2}\\right)+b\\left(c a-I B^{2}\\right)+c\\left(a b-I C^{2}\\right)\\right]} \\\\=\\sqrt{3\\left[3 a b c-\\left(a I A^{2}+b I B^{2}+c I C^{2}\\right)\\right]}=\\sqrt{6 a b c} .\\end{array}\\]<br>Dễ thấy khi %(a=b=c)% hay tam giác %(A B C)% đều thì dấu đẳng thức xảy ra.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4:",
+        "group_content": "Cho %(x, y, z)% là 3 số thực thỏa mãn %(x^{2}+y^{2}+z^{2}=1)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Tìm giá trị nhỏ nhất của biểu thức %(P=x y+y z+2019 z x)%.",
+        "question_images": [],
+        "solution": "Ta có: %(0 \\leq(x+y+z)^{2}=x^{2}+y^{2}+z^{2}+2(x y+y z+z x)=1+2(x y+y z+z x))%<br>Suy ra %(x y+y z+z x \\geq-\\frac{1}{2})%. Dấu đẳng thức xảy ra khi %(x+y+z=0)%.<br>Do vậy<br>\\[P=(x y+y z+z x)+2018 z x \\geq-\\frac{1}{2}+2018 z x \\geq-\\frac{1}{2}-2018\\left(\\frac{z^{2}+x^{2}}{2}\\right) \\geq-\\frac{1}{2}-\\frac{2018}{2}=-\\frac{2019}{2} .\\]<br>Dấu \" %(=)% \" xảy ra %(\\Leftrightarrow\\left\\{\\begin{array}{l}x^{2}+y^{2}+z^{2}=1 \\\\ x+y+z=0 \\\\ x=-z \\\\ z^{2}+x^{2}=1\\end{array} \\Leftrightarrow y=0, x=-z= \\pm \\frac{1}{\\sqrt{2}}\\right.)%.<br>Vậy min %(P=-\\frac{2019}{2})% khi %(y=0, x=-z= \\pm \\frac{1}{\\sqrt{2}})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Tìm giá trị lớn nhất của biểu thức %(Q=x y+y z+2 z x)%.",
+        "question_images": [],
+        "solution": "Xét các giá trị dương của %(x, y, z)%. Vì %(x^{2}+y^{2}+z^{2}=1)% nên ta có thể đặt<br>Thế thì %(Q=y(x+z)+2 x z=\\cos \\alpha \\sin \\alpha(\\cos \\beta+\\sin \\beta)+2 \\sin ^{2} \\alpha \\sin \\beta \\cos \\beta)%.<br>Vì %(\\alpha, \\beta \\in\\left[0 ; \\frac{\\pi}{2}\\right])% nên %(Q \\leq \\sqrt{2} \\cos \\alpha \\sin \\alpha+\\sin ^{2} \\alpha(1))%.<br>Dấu \"=\" xảy ra khi %(\\cos \\beta=\\sin \\beta=\\frac{1}{\\sqrt{2}})%.<br>Biến đổi (1) với dạng<br>\\[Q \\leq \\frac{\\sqrt{2}}{2} \\sin 2 \\alpha+\\frac{1-\\cos 2 \\alpha}{2}=\\frac{1}{2}+\\frac{1}{2}(\\sqrt{2} \\sin 2 \\alpha-\\cos 2 \\alpha) \\leq \\frac{1}{2}+\\frac{\\sqrt{3}}{2}=\\frac{1+\\sqrt{3}}{2} \\text {. }\\]<br>Dấu \" %(=)% \" xảy ra %(\\Leftrightarrow\\left\\{\\begin{array}{l}\\frac{\\sqrt{2}}{\\sin 2 \\alpha}=\\frac{-1}{\\cos 2 \\alpha} \\\\ \\sqrt{2} \\sin 2 \\alpha-\\cos 2 \\alpha=\\sqrt{3}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}\\sin 2 \\alpha=\\frac{\\sqrt{6}}{3} \\\\ \\cos 2 \\alpha=-\\frac{\\sqrt{3}}{3}\\end{array}\\right.\\right.)%<br>Suy ra %(\\left\\{\\begin{array}{l}\\sin \\alpha=\\sqrt{\\frac{3+\\sqrt{3}}{6}} \\\\ \\cos \\alpha=\\sqrt{\\frac{3-\\sqrt{3}}{6}}\\end{array} ;\\right.)% tức là %(y=\\sqrt{\\frac{3-\\sqrt{3}}{6}}, x=z=\\sqrt{\\frac{3+\\sqrt{3}}{12}})%.<br>Vậy %(\\max Q=\\frac{1+\\sqrt{3}}{2})% khi %(y=\\sqrt{\\frac{3-\\sqrt{3}}{6}}, x=z=\\sqrt{\\frac{3+\\sqrt{3}}{12}})%.<br><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/adb288bf9d8fc13ca08f5c0dd3cf8078.png\" srcset=\"https://docdn.giainhanh.io/media/test/88ccaf01a51fbe13149e4d7867df900a.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5:",
+        "group_content": "Cho dãy số thực %(\\left(x_{n}\\right))% thỏa mãn điều kiện<br>\\[\\left\\{\\begin{array}{l}0\\lt x_{n}\\lt 1 \\x_{n+1}\\left(1-x_{n}\\right) \\geq \\frac{1}{4}\\end{array}, \\forall n=1,2,3, \\ldots\\right.\\]",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.5,
+        "content": "a) Chứng minh rằng %(x_{n}\\gt \\frac{1}{2}-\\frac{1}{2 n}, \\forall n=1,2,3, \\ldots)%",
+        "question_images": [],
+        "solution": "Ta chứng minh rằng bằng quy nạp:<br>+ Với %(n=1)%, bất đẳng thức đúng.<br>+ Giả sử bất đằng thức đúng với %(n=k)%.Vì %(x_{k}\\gt \\frac{1}{2}-\\frac{1}{2 k} \\Rightarrow 1-x_{k}\\lt \\frac{1}{2}+\\frac{1}{2 k}=\\frac{k+1}{2 k})%.<br>Lại có: %(x_{k+1}\\left(1-x_{k}\\right) \\geq \\frac{1}{4} \\Rightarrow x_{k+1}\\gt \\frac{2 k}{4(k+1)}=\\frac{k}{2(k+1)}=\\frac{1}{2}-\\frac{1}{2(k+1)})%.<br>Vậy bất đẳng đúng với %(n=k+1)%. Vậy bất đẳng thức đúng với %(\\forall n \\in N^{*})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.5,
+        "content": "b) Tìm giới hạn của dãy %(\\left(x_{n}\\right))%.",
+        "question_images": [],
+        "solution": "Ta có %(\\left(2 x_{n}-1\\right)^{2} \\geq 0 \\Leftrightarrow x_{n}\\left(1-x_{n}\\right) \\leq \\frac{1}{4})%.<br>Kết hợp với (2) ta có: %(x_{n}\\left(1-x_{n}\\right) \\leq x_{n+1}\\left(1-x_{n}\\right) \\Rightarrow x_{n} \\leq x_{n+1})%, dãy tăng.<br>Hơn nữa, theo (1) dãy bị chặn, nên tồn tại giới hạn %(\\lim x_{n}=x_{0})%.<br>Lấy giới hạn bất đẳng thức %(x_{n+1}\\left(1-x_{n}\\right) \\geq \\frac{1}{4})% ta được %(x_{0}\\left(1-x_{0}\\right) \\geq \\frac{1}{4} \\Rightarrow x_{0}=\\frac{1}{2})%.<br>Vậy %(\\lim x_{n}=\\frac{1}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6: ",
+        "point": 2.0,
+        "content": "Cho hàm số %(f)% liên tục trên %(\\mathbb{R})%, thỏa mãn<br>i) %(f(2020)=2019)%;<br>ii) %(f(x) \\cdot f_{4}(x)=1, \\forall x \\in \\mathbb{R})%, trong đó kí hiệu %(f_{4}(x)=f(f(f(f(x)))))%.<br>Hãy tính %(f(2018))%.",
+        "question_images": [],
+        "solution": "Kí hiệu %(f_{2}(x)=f(f(x)), f_{3}(x)=f(f(f(x))))%.<br>Gọi %(D_{f})% là tập giá trị của hàm số %(f(x))%.<br>Từ (i) suy ra %(2019 \\in D_{f})%; từ %(f(x) \\cdot f_{4}(x)=1, \\forall x \\in \\mathbb{R} \\Rightarrow f_{4}(2020)=\\frac{1}{2019} \\in D_{f})% và %(x f_{3}(x)=1, \\forall x \\in D_{f})%.<br>Do %(f)% liên tục trên %(D:=\\left\\lfloor\\frac{1}{2019} ; 2019\\right] \\subset D_{f})% nên %(f_{3}(x)=\\frac{1}{x}, \\forall x \\in D)%;<br>Suy ra %(f)% là đơn ánh trên %(D)% và do %(f)% liên tục trên %(\\mathbb{R})% nên %(f)% nghịch biến trên D.<br>Giả sử tồn tại %(x_{0} \\in D)% sao cho %(f\\left(x_{0}\\right)\\gt \\frac{1}{x_{0}}(1))%. Do là hàm nghịch biến nên %(f_{2}\\left(x_{0}\\right)\\lt f\\left(\\frac{1}{x_{0}}\\right)(2))%.<br>Và %(\\frac{1}{x_{0}}=f_{3}\\left(x_{0}\\right)\\gt f_{2}\\left(\\frac{1}{x_{0}}\\right))% suy ra %(f\\left(\\frac{1}{x_{0}}\\right)\\lt f_{3}\\left(\\frac{1}{x_{0}}\\right)=x_{0}(3))%.<br>Từ (2) và (3) suy ra %(x_{0}>f_{2}\\left(x_{0}\\right))% hay %(f\\left(x_{0}\\right)\\lt f_{3}\\left(x_{0}\\right)=\\frac{1}{x_{0}})%, mâu thuẫn với(1).<br>Tương tự, cũng không tồn tại %(x_{0} \\in D)% sao cho %(f\\left(x_{0}\\right)\\lt \\frac{1}{x_{0}})%.<br>Vậy %(f(x)=\\frac{1}{x}, \\forall x \\in D)%. Do %(2018 \\in D)% nên suy ra %(f(2018)=\\frac{1}{2018})%.",
+        "question_type": "essay"
+    }
+]

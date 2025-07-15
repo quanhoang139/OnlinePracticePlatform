@@ -1,0 +1,150 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Tìm số tự nhiên %(\\mathrm{n})% để %(\\mathrm{A}=\\mathrm{n}^{2012}+\\mathrm{n}^{2002}+1)% là số nguyên tố.",
+        "question_images": [],
+        "solution": "Xét %(n=0)% thì %(\\mathrm{A}=1)% không phải nguyên tố; %(n=1)% thì %(\\mathrm{A}=3)% nguyên tố.<br>Xét %(\\mathrm{n}\\gt 1)% có %(\\mathrm{A}=\\mathrm{n}^{2012}-\\mathrm{n}^{2}+\\mathrm{n}^{2002}-\\mathrm{n}+\\mathrm{n}^{2}+\\mathrm{n}+1)% %(=\\mathrm{n}^{2}\\left[\\left(\\mathrm{n}^{3}\\right)^{670}-1\\right]+\\mathrm{n} \\cdot\\left[\\left(\\mathrm{n}^{3}\\right)^{667}-1\\right]+\\left(\\mathrm{n}^{2}+\\mathrm{n}+1\\right))%<br>Mà %(\\left[\\left(\\mathrm{n}^{3}\\right)^{670}-1\\right])% chia hết cho %(\\mathrm{n}^{3}-1)%, suy ra %(\\left(\\mathrm{n}^{3}\\right)^{670}-1)% chia hết cho %(\\mathrm{n}^{2}+\\mathrm{n}+1)%<br>Tương tự: %(\\left(n^{3}\\right)^{667}-1)% chia hết cho %(n^{2}+n+1)%<br>Do đó %(\\mathrm{A})% chia hết cho %(\\mathrm{n}^{2}+\\mathrm{n}+1>1)% nên %(\\mathrm{A})% là hợp số khi %(\\mathrm{n}>1)%<br>Vậy số tự nhiên cần tìm %(\\mathrm{n}=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm các số nguyên %(x)% và %(y)% thỏa mãn %(x^{2}+2 y^{2}+2 x y=y+2)%.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}x^{2}+2 y^{2}+2 x y=y+2 \\Leftrightarrow(x+y)^{2}=-y^{2}+y+2 \\\\Leftrightarrow(x+y)^{2}=(1+y)(2-y)\\end{array}\\]<br>Do %((\\mathrm{x}+\\mathrm{y})^{2} \\geq 0 \\forall \\mathrm{x})%, %(\\mathrm{y})% nên %((1+y)(2-y) \\geq 0 \\Leftrightarrow-1 \\leq y \\leq 2)%.<br>Suy ra %(y \\in\\{-1 ; 0 ; 1 ; 2\\})%<br>Với %(y=-1, \\mathrm{PT})% trờ thành %(x^{2}-2 x+1=0 \\Leftrightarrow x=1 \\in Z)%<br>Với %(y=0)%, PT trở thành %(x^{2}-2=0 \\Rightarrow x \\notin Z)%<br>Với %(y=1)%, PT trờ thành %(x^{2}+2 x-1=0 \\Rightarrow x \\notin Z)%<br>Với %(y=2)%, PT trở thành %(x^{2}+4 x+4=0 \\Leftrightarrow x=-2 \\in Z)%.<br>Vậy có 2 cặp %((x ; y))% thỏa mãn đề bài %((1 ;-1) ;(-2 ; 2))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho biểu thức: %(P=\\left(\\frac{x+2}{x \\sqrt{x}+1}-\\frac{1}{\\sqrt{x}+1}\\right) \\cdot \\frac{4 \\sqrt{x}}{3})%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Rút gọn P;",
+        "question_images": [],
+        "solution": "Tìm được %(Đ K: x \\geq 0)%<br>\\[\\begin{array}{l}{\\left[\\frac{x+2}{(\\sqrt{x}+1)(x-\\sqrt{x}+1)}-\\frac{1}{\\sqrt{x}+1}\\right] \\cdot \\frac{4 \\sqrt{x}}{3}} \\\\=\\left[\\frac{x+2-(x-\\sqrt{x}+1)}{(\\sqrt{x}+1)(x-\\sqrt{x}+1)}\\right] \\cdot \\frac{4 \\sqrt{x}}{3} \\\\=\\frac{\\sqrt{x}+1}{(\\sqrt{x}+1)(x-\\sqrt{x}+1)} \\cdot \\frac{4 \\sqrt{x}}{3}\\end{array}\\]<br>\\[=\\frac{4 \\sqrt{x}}{3(x-\\sqrt{x}+1)}\\]<br>Vậy %(\\mathrm{P}=\\frac{4 \\sqrt{x}}{3(x-\\sqrt{x}+1)})% với %(\\mathrm{x} \\geq 0)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm các giá trị của %(\\mathrm{x})% để %(\\mathrm{P}=\\frac{8}{9})%;",
+        "question_images": [],
+        "solution": "b) Với %(\\mathrm{x} \\geq 0)% ta được %(\\mathrm{P}=\\frac{4 \\sqrt{x}}{3(x-\\sqrt{x}+1)})%.<br>Ta có %(\\mathrm{P}=\\frac{8}{9} \\Leftrightarrow 2 x-5 \\sqrt{x}+2=0)% (TMĐK)<br>Giải PT %(2 x-5 \\sqrt{x}+2=0)% ra được %(x_{1}=4 ; x_{2}=\\frac{1}{4})% (TMĐK)<br>Vậy %(x_{1}=4 ; x_{2}=\\frac{1}{4})% thỏa mãn đề bài.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tìm giá trị lớn nhất của P, giá trị nhỏ nhất của P.",
+        "question_images": [],
+        "solution": "* Với %(\\mathrm{x} \\geq 0 ; 3(x-\\sqrt{x}+1)\\gt 0 \\Rightarrow P \\geq 0)%, min %(\\mathrm{P}=0)% khi %(\\mathrm{x}=0)%<br>* Với %(\\mathrm{x}>0)% thì %(\\mathrm{P}=\\frac{4}{3\\left(\\sqrt{x}+\\frac{1}{\\sqrt{x}}-1\\right)})%<br>Theo bất đẳng thức Cô-si có %(\\sqrt{x}+\\frac{1}{\\sqrt{x}} \\geq 2)% nên %(\\sqrt{x}+\\frac{1}{\\sqrt{x}}-1 \\geq 1)%.<br>Do đó %(\\mathrm{P} \\leq \\frac{4}{3})%.<br>Dấu \"=\" xảy ra khi %(x=1)%.Do đó maxP %(=\\frac{4}{3})% khi %(x=1)%<br>Vậy maxP %(=\\frac{4}{3})% khi %(x=1 ; \\min P=0)% khi %(x=0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho hệ phương trình với tham số %(m)% : %(\\left\\{\\begin{array}{l}(\\mathrm{m}-1) \\mathrm{x}+\\mathrm{y}=3 \\mathrm{~m}-4 \\\\ \\mathrm{x}+(\\mathrm{m}-1) \\mathrm{y}=\\mathrm{m}\\end{array}\\right.)%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Giải và biện luận hệ phương trình theo m;",
+        "question_images": [],
+        "solution": "a) %(\\left\\{\\begin{array}{l}(m-1) x+y=3 m-4 \\\\ x+(m-1) y=m\\end{array}\\right.)%<br>Rút y từ (1) rồi thay vào (2) và rút gọn được %(\\mathrm{m}(\\mathrm{m}-2) \\mathrm{x}=(\\mathrm{m}-2)(3 \\mathrm{~m}-2))%<br>Với %(\\mathrm{m} \\neq 0, \\mathrm{~m} \\neq 2)% hệ có một nghiệm duy nhất<br>\\[\\left(\\frac{3 \\mathrm{~m}-2}{\\mathrm{~m}} ; \\frac{\\mathrm{m}-2}{\\mathrm{~m}}\\right)\\]<br>Với %(\\mathrm{m}=0)%, hệ vô nghiệm<br>Với %(\\mathrm{m}=2)% hê vô số nghiêm: %((\\mathrm{x}: 2-\\mathrm{x}))% với %(\\mathrm{x} \\in \\mathrm{R})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm các giá trị nguyên của m để nghiệm của hệ phương trình là các số nguyên;",
+        "question_images": [],
+        "solution": "b) Với %(\\mathrm{m}=1)% thì nghiệm là %((1 ;-1))%.<br>Với %(\\mathrm{m}=-1)% thì nghiệm là %((5 ; 3))%<br>Với %(\\mathrm{m}=-2)% thì nghiệm là %((4 ; 2))%.<br>Với %(m=2)% thì nghiệm là %((x ; 2-x))% với %(x \\in Z)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tìm các giá trị của m để hệ phương trình có nghiệm dương duy nhất.",
+        "question_images": [],
+        "solution": "c) Với %(\\mathrm{m} \\neq 0, \\mathrm{~m} \\neq 2)% hệ có một nghiệm duy nhất<br>\\[\\left(\\frac{3 \\mathrm{~m}-2}{\\mathrm{~m}} ; \\frac{\\mathrm{m}-2}{\\mathrm{~m}}\\right)\\]<br>Ta thấy<br>\\[x=\\frac{3 m-2}{m}=\\frac{m-2}{m}+2=y+2\\]<br>Từ đó %(\\mathrm{y}\\gt 0)% thì %(\\mathrm{x}>0)%<br>\\[\\mathrm{y}=\\frac{\\mathrm{m}-2}{\\mathrm{~m}}>0 \\Rightarrow \\mathrm{m}\\lt 0 \\text { hoặ } \\mathrm{m}>2 \\text {. }\\]<br>Vậy %(\\mathrm{m}\\lt 0)% hoặc %(\\mathrm{m}>2)% thỏa mãn đề bài.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Cho các số dương %(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})% thoả mãn điều kiện: %(\\mathrm{xy}+\\mathrm{yz}+\\mathrm{zx}=671)%.<br>Chứng minh rằng: %(\\frac{x}{x^{2}-y z+2013}+\\frac{y}{y^{2}-z x+2013}+\\frac{z}{z^{2}-x y+2013} \\geq \\frac{1}{x+y+z})%",
+        "question_images": [],
+        "solution": "Trước tiên ta chứng minh bất đẳng thức: Với %(\\forall \\mathrm{a}, \\mathrm{b}, \\mathrm{c} \\in \\mathrm{R})% và %(\\mathrm{x}, \\mathrm{y}, \\mathrm{z}\\gt 0)% ta có %(\\frac{a^{2}}{x}+\\frac{b^{2}}{y}+\\frac{c^{2}}{z} \\geq \\frac{(a+b+c)^{2}}{x+y+z})%<br>Dấu \"=\" xảy ra %(\\Leftrightarrow \\frac{a}{x}=\\frac{b}{y}=\\frac{c}{z})%<br>Thật vậy, với %(\\mathrm{a}, \\mathrm{b} \\in \\mathrm{R})% và %(\\mathrm{x}, \\mathrm{y}>0)% ta có<br>\\[\\begin{array}{l}\\frac{a^{2}}{x}+\\frac{b^{2}}{y} \\geq \\frac{(a+b)^{2}}{x+y} \\quad(* *) \\\\Leftrightarrow\\left(a^{2} y+b^{2} x\\right)(x+y) \\geq x y(a+b)^{2} \\\\Leftrightarrow(b x-a y)^{2} \\geq 0 \\text { (luôn đúng) }\\end{array}\\]<br>Áp dụng bất đằng thức %((*))% ta có<br>\\[\\begin{array}{l}V T=\\frac{x}{x^{2}-y z+2013}+\\frac{y}{y^{2}-z x+2013}+\\frac{z}{z^{2}-x y+2013} \\\\=\\frac{x^{2}}{x\\left(x^{2}-y z+2013\\right)}+\\frac{y^{2}}{y\\left(y^{2}-z x+2013\\right)}+\\frac{z^{2}}{z\\left(z^{2}-x y+2013\\right)} \\\\text { VT } \\geq \\frac{(x+y+z)^{2}}{x^{3}+y^{3}+z^{3}-3 x y z+2013(x+y+z)}\\end{array}\\]<br>(1)<br>Theo đề bài %(\\mathrm{xy}+\\mathrm{yz}+\\mathrm{zx}=671)% nên<br>\\[\\begin{array}{l}x\\left(x^{2}-y z+2013\\right)=x\\left(x^{2}+x y+z x+1342\\right)\\gt 0, \\text { tương tự } \\y\\left(y^{2}-z x+2013\\right)>0, z\\left(z^{2}-x y+2013\\right)>0\\end{array}\\]<br>\\[\\begin{array}{l}\\text { Mà } x^{3}+y^{3}+z^{3}-3 x y z=(x+y+z)\\left(x^{2}+y^{2}+z^{2}-x y-y z-z x\\right) \\\\=(x+y+z)\\left[(x+y+z)^{2}-3(x y+y z+z x)\\right] \\\\=(x+y+z)\\left[(x+y+z)^{2}-3.671+2013\\right]=(x+y+z)^{3}\\end{array}\\]<br>(2,3)<br>Từ (1) và (3) ta suy ra<br>\\[V T \\geq \\frac{(x+y+z)^{2}}{(x+y+z)^{3}}=\\frac{1}{x+y+z}\\]<br>Dấu \" %(=)% \" xảy %(\\mathrm{ra} \\Leftrightarrow \\mathrm{x}=\\mathrm{y}=\\mathrm{z}=\\frac{\\sqrt{2013}}{3})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho đường thẳng %((\\mathrm{d}))% có phương trình: %(y=\\frac{2(1-m)}{m-2} \\cdot x+\\frac{2}{m-2})% (với %(m)% tham số, %(m \\neq 2)% ).",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.75,
+        "content": "a) Tìm điểm cố định mà đường thẳng (d) luôn đi qua;",
+        "question_images": [],
+        "solution": "(d) : %(y=\\frac{2(1-m)}{m-2} \\cdot x+\\frac{2}{m-2})%; với %(m)% tham số, %(m \\neq 1 ; m \\neq 2)%<br>Gọi %(\\left(x_{0} ; y_{0}\\right))% là điểm cố định %((\\mathrm{d}))% luôn đi qua. Thay vào %(\\mathrm{PT})% của<br>\\[\\begin{array}{l}\\text { (d) ta có: } \\y_{0}=\\frac{2(1-m)}{m-2} \\cdot x_{0}+\\frac{2}{m-2} \\text {, Với mọi } \\mathrm{m} \\\\Leftrightarrow m y_{0}-2 y_{0}=2 x_{0}-2 m x_{0}+2, \\forall m \\\\Leftrightarrow m\\left(y_{0}+2 x_{0}\\right)-2 y_{0}-2 x_{0}-2=0 ; \\forall m \\\\Leftrightarrow\\left\\{\\begin{array} { l } { y _ { 0 } + 2 x _ { 0 } = 0 } \\\\{ - 2 y _ { 0 } - 2 x _ { 0 } - 2 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x_{0}=1 \\y_{0}=-2\\end{array}\\right.\\right. \\\\end{array}\\]<br>Vậy điểm cố định mà đường thẳng %((\\mathrm{d}))% luôn đi qua là %((1 ;-2))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.25,
+        "content": "b) Xác định giá trị tham số %(\\mathrm{m})% để khoảng cách từ gốc toạ độ %(\\mathrm{O})% đến đường thẳng ( %(\\mathrm{d})% ) là lớn nhất.",
+        "question_images": [],
+        "solution": "b) Nhận thấy (d) không đi qua O<br>Tìm được tọa độ giao điểm %(\\mathrm{A})% của đồ thị hàm số với trục %(\\mathrm{Ox})% :<br>\\[\\mathrm{A}\\left(\\frac{1}{m-1} ; 0\\right)\\]<br>Giao điểm %(\\mathrm{B})% của đồ thị hàm số với trục %(\\mathrm{Oy}: \\mathrm{B}\\left(0 ; \\frac{2}{m-2}\\right))%<br>Ta có: %(\\triangle \\mathrm{AOB})% vuông tại %(\\mathrm{O})% và có khoảng cách từ %(\\mathrm{O})% đến (d) là %(\\mathrm{OH})% (đường cao) nên: %(\\frac{1}{O H^{2}}=\\frac{1}{O A^{2}}+\\frac{1}{O B^{2}})% Hay<br>\\[\\begin{array}{l}\\frac{1}{O H^{2}}=\\frac{1}{x_{A}^{2}}+\\frac{1}{y_{B}^{2}} \\Leftrightarrow \\frac{1}{O H^{2}}=(m-1)^{2}+\\frac{(m-2)^{2}}{4} \\\\Leftrightarrow O H^{2}=\\frac{4}{4(m-1)^{2}+(m-2)^{2}} \\Leftrightarrow O H=\\frac{2}{\\sqrt{5 m^{2}-12 m+8}} \\\\Leftrightarrow O H=\\frac{2}{\\sqrt{5\\left(m^{2}-\\frac{6}{5}\\right)^{2}+\\frac{4}{5}}} \\leq \\frac{2}{\\sqrt{\\frac{4}{5}}}=\\sqrt{5} ; \\quad \\text { Dấu \" }=\\text { \" xẩy ra } x=\\frac{6}{5} .\\end{array}\\]<br>Xét %(m=1 \\Rightarrow y=-2 ; \\mathrm{K} / \\mathrm{c})% từ %(\\mathrm{O})% đến %((\\mathrm{d}))% bằng 2<br>Vậy %(O H_{\\max }=\\sqrt{5})% khi %(x=\\frac{6}{5})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Đường tròn %((\\mathrm{O}))% đường kính %(\\mathrm{AB}=2 \\mathrm{R})%. Gọi %(\\mathrm{M})% là một điểm bất kỳ thuộc đường tròn tâm %(O)% khác %(A, B)%. Các tiếp tuyến của đường tròn tâm %(O)% tại %(A)% và %(M)% cắt nhau tại %(E)%. Vẽ %(\\mathrm{MP})% vuông góc với %(\\mathrm{AB}(\\mathrm{P} \\in \\mathrm{AB}))%, vẽ %(\\mathrm{MQ})% vuông góc với %(\\mathrm{AE}(\\mathrm{Q} \\in \\mathrm{AE}))%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh rằng: bốn điểm A,E,M,O cùng thuộc một đường tròn và tứ giác<br>APMQ là hình chữ nhật;",
+        "question_images": [],
+        "solution": "a) Vì %(\\mathrm{AE})% là tiếp tuyến của đường tròn %((\\mathrm{O}))% tại %(\\mathrm{A} \\Rightarrow \\mathrm{AE} \\perp \\mathrm{AO})%<br>%(\\Rightarrow \\triangle \\mathrm{OEA})% vuông ở %(\\mathrm{A} \\Rightarrow \\mathrm{O}, \\mathrm{E}, \\mathrm{A} \\in)% đường tròn đường kính %(\\mathrm{OE})% (1)<br>Vì %(\\mathrm{ME})% là tiếp tuyến của đường tròn %((\\mathrm{O}))% tại %(\\mathrm{M} \\Rightarrow \\mathrm{ME} \\perp \\mathrm{MO})%<br>%(\\Rightarrow \\triangle \\mathrm{MOE})% vuông ở %(\\mathrm{M} \\Rightarrow \\mathrm{M}, \\mathrm{O}, \\mathrm{E} \\in)% đường tròn đường kính %(\\mathrm{OE}(2))%<br>Từ (1) và %((2) \\Rightarrow)% Bốn điểm %(\\mathrm{A}, \\mathrm{M}, \\mathrm{O}, \\mathrm{E})% cùng thuộc một đường tròn<br>* Tứ giác APMQ có<br>\\[\\widehat{\\mathrm{EAO}}=\\widehat{\\mathrm{APM}}=\\widehat{\\mathrm{PMQ}}=90^{\\circ}\\]<br>=> Tứ giác APMQ là hình chữ nhật<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4c7c46ab5ce41329d587eeb7ec6bddbc.png\" srcset=\"https://docdn.giainhanh.io/media/test/0e13cf8752f2fa5ee0b9dcb36954441e.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Gọi %(\\mathrm{I})% là trung điểm của %(\\mathrm{PQ})%. Chứng minh %(\\mathrm{O}, \\mathrm{I}, \\mathrm{E})% thẳng hàng;",
+        "question_images": [],
+        "solution": "b)Ta có %(\\mathrm{I})% là giao điềm của 2 đường chéo %(\\mathrm{AM})% và %(\\mathrm{PQ})% của hình chữ nhật APMQ<br>nên %(\\mathrm{I})% là trung điểm của %(\\mathrm{AM})%. (3)<br>Mà %(\\mathrm{E})% là giao điểm của 2 tiếp tuyến tại %(\\mathrm{M})% và tại %(\\mathrm{A})%.<br>Dễ chứng minh được %(\\mathrm{OE})% là đường trung trực của đoạn thẳng %(\\mathrm{AM})%. (4)<br>Từ %((3))% và %((4))% suy ra: %(\\mathrm{O}, \\mathrm{I}, \\mathrm{E})% thẳng hàng.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) Gọi %(K)% là giao điểm của %(E B)% và MP. Chứng minh %(\\triangle E A O)% đồng dạng với %(\\triangle M P B)% và %(\\mathrm{K})% là trung điểm của %(\\mathrm{MP})%;",
+        "question_images": [],
+        "solution": "c) Hai tam giác %(\\mathrm{AEO})% và %(\\mathrm{PMB})% đồng dạng vì chúng là 2 tam giác vuông và %(\\widehat{\\mathrm{AOE}}=\\widehat{\\mathrm{ABM}})% (so le trong của %(\\mathrm{OE} / / \\mathrm{BM})% ).<br>\\[=\\gt \\frac{\\mathrm{AO}}{\\mathrm{BP}}=\\frac{\\mathrm{AE}}{\\mathrm{MP}} \\text { (5) }\\]<br>Mặt khác, vì %(\\mathrm{KP} / / \\mathrm{AE})%, nên ta có tỉ số %(\\frac{\\mathrm{KP}}{\\mathrm{AE}}=\\frac{\\mathrm{BP}}{\\mathrm{AB}})% (6)<br>Từ (5) và (6) ta có : %(\\mathrm{AO} . \\mathrm{MP}=\\mathrm{AE} \\cdot \\mathrm{BP}=\\mathrm{KP} . \\mathrm{AB})%<br>mà %(\\mathrm{AB}=2 . \\mathrm{OA} \\Rightarrow \\mathrm{MP}=2 . \\mathrm{KP})%<br>Vậy %(\\mathrm{K})% là trung điểm của MP.",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 2.0,
+        "content": "d) Đặt %(A P=x)%. Tính %(M P)% theo %(x)% và R.Tìm vị trí của điểm %(M)% trên đường tròn %((\\mathrm{O}))% để hình chữ nhật %(\\mathrm{APMQ})% có diện tích lớn nhất.",
+        "question_images": [],
+        "solution": "d) Ta dễ dàng chứng minh được :<br>\\[\\begin{array}{l}\\text { abcd } \\leq\\left(\\frac{\\mathrm{a}+\\mathrm{b}+\\mathrm{c}+\\mathrm{d}}{4}\\right)^{4} \\quad(*) \\text { (theo bất đẳng thức Cô-si) } \\\\text { Dấu \" }=\\text { \" xảy ra khi và chỉ khi } \\mathrm{a}=\\mathrm{b}=\\mathrm{c}=\\mathrm{d} \\\\mathrm{MP}=\\sqrt{\\mathrm{MO}^{2}-\\mathrm{OP}^{2}}=\\sqrt{\\mathrm{R}^{2}-(\\mathrm{x}-\\mathrm{R})^{2}}=\\sqrt{2 \\mathrm{Rx}-\\mathrm{x}^{2}} \\\\text { Ta có: } \\mathrm{S}=\\mathrm{S} \\mathrm{APMQ}=\\mathrm{MP} \\cdot \\mathrm{AP}=\\mathrm{x} \\sqrt{2 \\mathrm{Rx}-\\mathrm{x}^{2}}=\\sqrt{(2 \\mathrm{R}-\\mathrm{x}) \\mathrm{x}^{3}} \\\\mathrm{~S} \\text { đạt } \\max \\Leftrightarrow(2 \\mathrm{R}-\\mathrm{x}) \\mathrm{x}^{3} \\text { đạt } \\mathrm{max} \\Leftrightarrow \\mathrm{x} \\cdot \\mathrm{x} \\cdot \\mathrm{x}(2 \\mathrm{R}-\\mathrm{x}) \\text { đạt max } \\\\Leftrightarrow \\frac{\\mathrm{x}}{3} \\cdot \\frac{\\mathrm{x}}{3} \\cdot \\frac{\\mathrm{x}}{3}(2 \\mathrm{R}-\\mathrm{x}) \\text { đạt max }\\end{array}\\]<br>Áp dụng (*) với %(\\mathrm{a}=\\mathrm{b}=\\mathrm{c}=\\frac{\\mathrm{x}}{3})%,<br>Ta có : %(\\frac{x}{3} \\cdot \\frac{x}{3} \\cdot \\frac{x}{3}(2 R-x) \\leq \\frac{1}{4^{4}}\\left(\\frac{x}{3}+\\frac{x}{3}+\\frac{x}{3}+(2 R-x)\\right)^{4}=\\frac{R^{4}}{16})%<br>Do đó %(\\mathrm{S})% đạt %(\\max \\Leftrightarrow \\frac{\\mathrm{x}}{3}=(2 \\mathrm{R}-\\mathrm{x}) \\Leftrightarrow \\mathrm{x}=\\frac{3}{2} \\mathrm{R})%.<br>Vậy khi %(\\mathrm{MP}=\\frac{R \\sqrt{3}}{2})% thì hình chữ nhật %(\\mathrm{APMQ})% có diện tích lớn nhất.",
+        "question_type": "essay"
+    }
+]

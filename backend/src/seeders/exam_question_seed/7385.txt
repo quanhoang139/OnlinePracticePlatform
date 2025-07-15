@@ -1,0 +1,119 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Rút gọn biểu thức %(P=\\frac{15 \\sqrt{x}-11}{x+2 \\sqrt{x}-3}+\\frac{3 \\sqrt{x}-2}{1-\\sqrt{x}}-\\frac{2 \\sqrt{x}+3}{\\sqrt{x}+3})% với %(x \\geq 0, x \\neq 1)%.",
+        "question_images": [],
+        "solution": "Ta có %(P=\\frac{15 \\sqrt{x}-11}{(\\sqrt{x}-1)(\\sqrt{x}+3)}+\\frac{2-3 \\sqrt{x}}{\\sqrt{x}-1}-\\frac{2 \\sqrt{x}+3}{\\sqrt{x}+3})%<br>\\[=\\frac{15 \\sqrt{x}-11+(2-3 \\sqrt{x})(\\sqrt{x}+3)-(2 \\sqrt{x}+3)(\\sqrt{x}-1)}{(\\sqrt{x}-1)(\\sqrt{x}+3)}\\]<br>\\[\\begin{array}{l}=\\frac{-5 x+7 \\sqrt{x}-2}{(\\sqrt{x}-1)(\\sqrt{x}+3)} \\\\=\\frac{(\\sqrt{x}-1)(-5 \\sqrt{x}+2)}{(\\sqrt{x}-1)(\\sqrt{x}+3)}=\\frac{-5 \\sqrt{x}+2}{\\sqrt{x}+3} .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm giá trị nhỏ nhất của biểu thức %(Q=\\frac{a-3 \\sqrt{a}+6}{\\sqrt{a}-2})% với %(a\\gt 4)%.",
+        "question_images": [],
+        "solution": "Ta có %(Q=\\frac{a-3 \\sqrt{a}+6}{\\sqrt{a}-2}=\\sqrt{a}-1+\\frac{4}{\\sqrt{a}-2})%<br>\\[=\\left(\\sqrt{a}-2+\\frac{4}{\\sqrt{a}-2}\\right)+1 \\text {. }\\]<br>Với %(a\\gt 4)% thì %(\\sqrt{a}-2>0)%. Áp dụng Bất đẳng thức %(\\mathrm{AM}-\\mathrm{GM})% (Côsi) ta được<br>\\[Q \\geq 2 \\sqrt{(\\sqrt{a}-2) \\cdot \\frac{4}{\\sqrt{a}-2}}+1=5 \\text {. }\\]<br>%(Q=5)% chẳng hạn khi %(a=16)%.<br>Vậy %(\\min Q=5)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho phương trình %(x^{4}-4 x^{2}+m+2=0)% (1), với %(m)% là tham số.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "a) Giải phương trình (1) khi %(m=-7)%.",
+        "question_images": [],
+        "solution": "Với %(m=-7)%, ta có phương trình %(x^{4}-4 x^{2}-5=0)%.<br>Đặt %(t=x^{2}(t \\geq 0))%, ta được %(t^{2}-4 t-5=0\\left(^{*}\\right))%.<br>Giải phương trình %(\\left(^{*}\\right))% ta được %(t=-1)% (loại) và %(t=5)% (thỏa mãn).Với %(t=5)% ta được %(x^{2}=5 \\Leftrightarrow x= \\pm \\sqrt{5})%.<br>Vậy phương tr̀nh hai nghiệm %(x= \\pm \\sqrt{5})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "b) Tìm tất cả các giá trị của %(m)% để phương trình (1) có 4 nghiệm phân biệt %(x_{1}, x_{2}, x_{3}, x_{4})% thỏa mãn.",
+        "question_images": [],
+        "solution": "b) Đặt %(t=x^{2}(t \\geq 0))%, ta được phương trình %(t^{2}-4 t+m+2=0(* *))%.<br>Phương trình (1) có 4 nghiệm phân biệt khi và chỉ khi phương trình %(\\left({ }^{* *}\\right))% có hai nghi biệt %(t_{1}\\gt 0, t_{2}>0)%.<br>Điều này tương đương với %(\\left\\{\\begin{array}{l}\\Delta^{\\prime}>0 \\\\ t_{1}+t_{2}>0 \\\\ t_{1} t_{2}>0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}4-(m+2)>0 \\\\ 2>0 \\\\ m+2>0\\end{array} \\Leftrightarrow-2\\lt m\\lt 2\\right.\\right.)% (a).<br>Theo bài ra %(\\frac{1}{x_{1}^{2}}+\\frac{1}{x_{2}^{2}}+\\frac{1}{x_{3}^{2}}+\\frac{1}{x_{4}^{2}}=2 x_{1} x_{2} x_{3} x_{4} \\Leftrightarrow \\frac{2}{t_{1}}+\\frac{2}{t_{2}}=2 t_{1} t_{2} \\Leftrightarrow t_{1}+t_{2}=\\left(t_{1} t_{2}\\right)^{2})%<br>Theo Viet thì %((b) \\Leftrightarrow 4=(m+2)^{2} \\Leftrightarrow m=-4)% (loại) và %(m=0)% (thỏa mãn).<br>Vậy %(m=0)% là giá trị duy nhất cần tìm.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{l}2 x^{2}+y^{2}+3 x y-3 x-9=0 \\\\ \\sqrt{x^{2}-y+3}=2 x+y\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Điều kiện xác định: %(x^{2}-y+3 \\geq 0\\left(^{*}\\right))%. Ta có<br>\\[\\begin{aligned}& 2 x^{2}+y^{2}+3 x y-3 x-9=0 \\Leftrightarrow(x+y-3)(2 x+y+3)=0 \\\\Leftrightarrow & {\\left[\\begin{array}{l}x+y-3=0 \\\\2 x+y+3=0\\end{array}\\right.}\\end{aligned}\\]<br>Với %(y+x-3=0 \\Leftrightarrow y=-x+3)%, thay vào phương trình %(\\sqrt{x^{2}-y+3}=2 x+y)% ta được<br>\\[\\sqrt{x^{2}+x}=x+3 \\Leftrightarrow\\left\\{\\begin{array} { l } { x + 3 \\geq 0 } \\\\{ x ^ { 2 } + x = ( x + 3 ) ^ { 2 } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x \\geq-3 \\x=-\\frac{9}{5}\\end{array} \\Leftrightarrow x=-\\frac{9}{5} \\Rightarrow y=\\frac{24}{5} .\\right.\\right.\\]<br>Với %(2 x+y+3=0 \\Leftrightarrow 2 x+y=-3)%, thay vào phương trình %(\\sqrt{x^{2}-y+3}=2 x+y)% ta được %(\\sqrt{x^{2}+2 x+3}=-3)%, vô nghiệm.<br>Vậy hệ phương trình có nghiệm duy nhất %(\\left\\{\\begin{array}{l}x=-\\frac{9}{5} \\\\ y=\\frac{24}{5}\\end{array}\\right.)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho tam giác tù %(A B C)% có %(A B C\\gt 90^{\\circ})% nội tiếp đường tròn %((O))%. Tiếp tuyến tại %(C)% của %((O))% cắt đường thẳng %(A B)% tại %(S)%. Lấy điểm %(P)% thuộc miền trong tam giác %(O A C)% sao cho %(S C=S P)%. Đường thẳng %(S P)% cắt %((O))% tại hai điểm %(E, F(E)% ở giữa %(S)% và %(F))%. Các đường thẳng %(A P, B P)% cắt lại %((O))% lần lượt tại %(K, L)%. Chứng minh rằng:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "a) Tam giác %(A C S)% đồng dạng với tam giác %(C B S)%;",
+        "question_images": [],
+        "solution": "Ta có %(C A S=\\frac{1}{2} \\mathrm{sđ} C E B)% (a).<br>Mặt khác %(B C S=\\frac{1}{2})% sđCEB (b).<br>Từ (a) và (b) suy ra %(B C S=C A S)% (1).<br>Từ (1) và %(A S C=B S C)% suy ra hai tam giác %(A C S)% và %(C B S)% đồng dạng.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/69b9e3d888eae7929bfa52a16312dfde.png\" srcset=\"https://docdn.giainhanh.io/media/test/0db15aabe68a957265392530f6560071.png 177w, https://docdn.giainhanh.io/media/test/9563aa27498fccb1113e9c86cd061715.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "b) %(A P S=P B S)%;",
+        "question_images": [],
+        "solution": "b) Từ a) suy ra %(\\frac{C S}{B S}=\\frac{A S}{C S} \\Rightarrow S C^{2}=S B \\cdot S A)% (c).<br>Vì %(S C=S P)% nên %((c) \\Rightarrow S P^{2}=S B \\cdot S A \\Rightarrow \\frac{S P}{S B}=\\frac{S A}{S P})% (d).<br>Từ (d) và %(P S A=B S P)% suy ra %(\\triangle P S A \\sim \\triangle B S P)%.<br>Do đó %(A P S=P B S)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "c) Tứ giác %(E K L F)% là hình thang cân.",
+        "question_images": [],
+        "solution": "c) Ta có %(B P S=\\frac{1}{2}(\\mathrm{sđ} B m E+\\mathrm{sđ} L n F))% và %(P A S=\\frac{1}{2}(\\mathrm{sđ} B m E+\\mathrm{sđ} E C K))% (e).<br>Vì %(\\triangle P S A \\sim \\triangle B S P)% nên %(B P S=P A S)%.<br>Kết hợp với (e) suy ra sđ %(L n F=\\mathrm{sđ} E C K)% (f).<br>Từ (f) suy ra%(L F E+F L K=\\frac{1}{2} \\mathrm{~s} d L K E+\\frac{1}{2} \\mathrm{~s} F A K=\\frac{1}{2}(\\mathrm{~s} d L n F+\\mathrm{s} d L t K)+\\frac{1}{2} \\mathrm{~s} F A K=180^{\\circ} \\Rightarrow L K / / E F)%<br>Do đó %(E K L F)% là hình thang.<br>Hơn nữa %(\\mathrm{s} d n F=\\mathrm{sđ} E C K \\Rightarrow F L=K E \\Rightarrow E K L F)% là hình thang cân.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 0.5,
+        "content": "Chứng minh rằng %(A=2^{2023}+3 m^{2}+6 n-23)% chia hết cho 3 với mọi số tự nhiên %(m, n)%.",
+        "question_images": [],
+        "solution": "Ta có %(2 \\equiv-1(\\bmod 3) \\Rightarrow 2^{2023} \\equiv-1(\\bmod 3))%.<br>Suy ra %(A=2^{2023}+3 m^{2}+6 n-23 \\equiv-1-23 \\equiv 0(\\bmod 3))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 0.5,
+        "content": "Tìm tất cả các cặp số tự nhiên %((m, n))% để %(B=3^{3 m^{2}+6 n-22}+4)% là một số nguyên tố.",
+        "question_images": [],
+        "solution": "Nếu %(X=3 m^{2}+6 n-22\\lt 0)% thì %(B \\notin \\mathbb{Z})%, do đó %(X=3 m^{2}+6 n-22 \\geq 0)%.<br>Ta có %(X=3\\left(m^{2}+2 n-8\\right)+2 \\Rightarrow X \\equiv 2(\\bmod 3) \\Rightarrow X=3 k+2(k \\in \\mathbb{N}))%.<br>Do đó<br>\\[B=3^{3 k+2}+4=9.27^{k}+4 \\equiv 9.1+4 \\equiv 0(\\bmod 13) \\Rightarrow B=13 .\\]<br>Từ %(B=13)% suy ra<br>\\[k=0 \\Rightarrow 3 m^{2}+6 n-22=2 \\Rightarrow m^{2}+2 n-8=0 \\Rightarrow\\left\\{\\begin{array} { l } { m ^ { 2 } \\leq 8 } \\\\{ m \\vdots 2 }\\end{array} \\Rightarrow \\left[\\begin{array} { l } { m ^ { 2 } = 0 } \\\\{ m ^ { 2 } = 4 }\\end{array} \\Rightarrow \\left[\\begin{array}{l}m=0 \\m=2\\end{array}\\right.\\right.\\right.\\]<br>Vậy cặp số cần tìm là %((0,4),(2,2))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8",
+        "group_content": "Ban đầu, trên bảng có %(n)% số nguyên dương đầu tiên được viết liên tiếp từ trái qua phải: %(1,2,3, \\ldots, n-1, n)%. Ta thực hiện trò chơi đổi số như sau: Mỗi lượt chơi, lấy ba số đứng liền nhau %(a, b, c)% và đổi chỗ %(a)% với %(c)% thành %(c, b, a)%. Hỏi sau hữu hạn lượt chơi như trên ta có thể thu được dãy số ngược lại %(n, n-1, \\ldots, 2,1)% hay không, nếu:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "1 ",
+        "point": 0.5,
+        "content": "a) n = 5;",
+        "question_images": [],
+        "solution": "Với n = 5 ta thực hiện các bước biến đổi như sau:<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d278c9fe300c460cad7837b10e182127.png\" srcset=\"https://docdn.giainhanh.io/media/test/c549feb2e8772a65b6694cf75a0228b1.png 245w, https://docdn.giainhanh.io/media/test/d7a312c42151dd1ce72e980a38145b2d.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 0.5,
+        "content": "a) n = 2024.",
+        "question_images": [],
+        "solution": "b) Với %(n=2024)% :<br>Ta thấy rằng với cách đổi như trên thì các số lẻ luôn ở vị trí lẻ còn số chẵn luôn ở vị trí chẵn.<br>Ban đầu số 2024 ở vị trí chẵn, do đó nó không thế chuyển về vị trí đầu tiên trong dãy số 2024, %(2023, \\ldots, 2,1)% được.",
+        "question_type": "essay"
+    }
+]

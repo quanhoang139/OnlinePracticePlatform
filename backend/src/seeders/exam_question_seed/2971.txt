@@ -1,0 +1,81 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Tìm các số hữu tỉ %(x, y)% thỏa mãn đẳng thức:<br>\\[x(\\sqrt{2011}+\\sqrt{2010})+y(\\sqrt{2011}-\\sqrt{2010})=\\sqrt{2011^{3}}+\\sqrt{2010^{3}}\\]",
+        "question_images": [],
+        "solution": "Theo bài ra ta có:<br>\\[\\sqrt{2011}(x+y-2011)=\\sqrt{2010}(y-x+2010)\\]<br>+ Nếu %(x+y-2011=0)% thì %(y-x+2010=0 \\Rightarrow\\left\\{\\begin{array}{l}x-y=2010 \\\\ x+y=2011\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}2 x=4021 \\\\ 2 y=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=2010,5 \\\\ y=0,5\\end{array}\\right.\\right.\\right.)%<br>+ Nếu %(y-x+2010=0)% thì %(\\mathrm{x}+\\mathrm{y}-2011=0)%, ta cũng được kết quả như trên.<br>+ Nếu %(x+y-2011 \\neq 0)% thì %(\\sqrt{\\frac{2011}{2010}}=\\frac{y-x+2010}{x+y-2011})% vô lý (vì VP là số hữu tỉ, VT là số vô tỉ)<br>Vậy %(x=2010,5)% và %(y=0,5)% là cặp số duy nhất thoả mãn đề bài.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các số nguyên %(x \\geq y \\geq z \\geq 0)% thoả mãn:<br>\\[x y z+x y+y z+z x+x+y+z=2011\\]",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Ta có } x y(z+1)+y(z+1)+x(z+1)+(z+1)=2012 \\\\ \\lt =\\gt (z+1)(x y+y+x+1)=2012 \\\\ \\lt =>(z+1)[x(y+1)+(y+1)]=2012 \\\\ \\lt =>(x+1)(y+1)(z+1)=1.2 \\cdot 2.503=503.4 .1 \\text {. Chỉ có } 3 \\text { bộ sau thoả mãn: } \\\\ x=502, y=1, z=1 \\text { hoặc } x=1005, y=1, z=0 \\text { hoặc } x=2011, y=0, z=0\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(2\\left(x^{2}+2\\right)=5 \\sqrt{x^{3}+1})%.",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq-1)%<br>Đặt %(\\mathrm{a}=\\sqrt{x+1} ; \\mathrm{b}=\\sqrt{x^{2}-x+1})%<br>Ta có: %(2\\left(\\mathrm{a}^{2}+\\mathrm{b}^{2}\\right)=5 \\mathrm{ab}\\lt =\\gt (2 \\mathrm{a}-\\mathrm{b})(2 \\mathrm{~b}-\\mathrm{a})=0\\lt =>\\mathrm{b}=2 \\mathrm{a} ; \\mathrm{a}=2 \\mathrm{~b})%<br>Do đó:<br>1) %(2 \\sqrt{x+1}=\\sqrt{x^{2}-x+1} \\Leftrightarrow 4(x+1)=x^{2}-x+1)%<br>\\[\\lt =>\\mathrm{x}^{2}-5 \\mathrm{x}-3=0\\lt =>\\mathrm{x}_{1}=\\frac{5-\\sqrt{37}}{2} \\text { (loại); } \\mathrm{x}_{2}=\\frac{5+\\sqrt{37}}{2}\\]<br>2) %(\\sqrt{x+1}=2 \\sqrt{x^{2}-x+1} \\Leftrightarrow x+1=4\\left(x^{2}-x+1\\right) \\Leftrightarrow 4 x^{2}-5 x+3=0)% vô nghiệm.<br>Vậy phương trình có 2 nghiệm: %(x=\\frac{5+\\sqrt{37}}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c} \\in[0 ; 2])% và %(\\mathrm{a}+\\mathrm{b}+\\mathrm{c}=3)%. Chứng minh %(\\mathrm{a}^{2}+\\mathrm{b}^{2}+\\mathrm{c}^{2} \\leq 5)%.",
+        "question_images": [],
+        "solution": "Vì a, b, c %(a + b + c = 3)% nên: %(\\in \\left[ 0 ; 2 \\right ])%%(\\left( 2 - a \\right ) \\left( 2 - b \\right ) \\left( 2 - c \\right ) \\ge 0)%<br>%(a b c \\ge 0)%nên %(\\Leftrightarrow 2 \\left( a b + b c + c a \\right ) \\ge 4 \\left( a + b + c \\right ) - 8 + a b c)% (vì %(2 \\left( a b + b c + c a \\right ) \\ge 4)% và %(\\left( a + b + c \\right )^{2} - \\left( a^{2} + b^{2} + c^{2} \\right ) \\ge 4)% )<br>Suy ra %(\\Leftrightarrow 8 - 4 \\left( a + b + c \\right ) + 2 \\left( a b + b c + c a \\right ) - a b c \\ge 0)%<br>\\[\\lt =\\gt a^{2}+b^{2}+c^{2} \\leq 5\\left(\\text { vì }(a+b+c)^{2}=9\\right)\\]<br>Dấu \"=\" xẩy ra khi một trong 3 số %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c})% có một số bằng 2 , một số bằng 0 và một số bằng 1 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 2.0,
+        "content": "Tìm tất cả các số hữu tỉ %(x)% sao cho giá trị của biểu thức %(x^{2}+x+6)% là một số chính phương.",
+        "question_images": [],
+        "solution": "Giả sử %(\\mathrm{x}=\\frac{p}{q}(\\mathrm{p}, \\mathrm{q} \\in \\mathrm{Z}, \\mathrm{q}\\gt 0))% và %((\\mathrm{p}, \\mathrm{q})=1)%<br>Ta có %(\\left(\\frac{p}{q}\\right)^{2}+\\frac{p}{q}+6=n^{2}(\\mathrm{n} \\in \\mathrm{N})\\lt =>\\mathrm{p}^{2}=\\mathrm{q}\\left(-\\mathrm{P}-6 \\mathrm{q}+\\mathrm{n}^{2} \\mathrm{q}\\right))%<br>%(=>\\mathrm{q})% là ước của %(\\mathrm{p}^{2})% nhưng %((\\mathrm{p}, \\mathrm{q})=1=>\\mathrm{q}=1)% lúc đó %(\\mathrm{x}=\\mathrm{p})%<br>\\[\\begin{array}{l}=>p^{2}+p+6=n^{2}(p, n \\in Z) \\\\lt =>(2 p+1)^{2}+23=4 n^{2}\\lt =>(2 n)^{2}-(2 p+1)^{2}=23 \\\\lt =>(2 n-2 p-1)(2 n+2 p+1)=23\\end{array}\\]<br>Do đó %(2 \\mathrm{n}-2 \\mathrm{p}-1=1)% và %(2 \\mathrm{n}+2 \\mathrm{p}+1=23 ; 2 \\mathrm{n}-2 \\mathrm{p}-1=23)% và %(2 \\mathrm{n}+2 \\mathrm{p}+1=1)%(vì %(23 \\in \\mathrm{P})% và %(2 \\mathrm{n}+2 \\mathrm{p}+1>0)% và %(2 \\mathrm{n}-2 \\mathrm{p}-1>0)\\lt =>\\mathrm{p}=5(\\mathrm{t} / \\mathrm{m}) ; \\mathrm{p}=-6(\\mathrm{t} / \\mathrm{m}))%<br>Vậy số hữu tỉ x cần tìm là 5 hoặc - 6",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho đường tròn %((\\mathrm{O}))% ngoại tiếp %(\\Delta \\mathrm{ABC})% có %(\\mathrm{H})% là trực tâm. Trên cung nhỏ %(\\mathrm{BC})% lấy điểm %(\\mathrm{M})%. Gọi %(\\mathrm{N}, \\mathrm{I}, \\mathrm{K})% lần lượt là hình chiếu của %(\\mathrm{M})% trên %(\\mathrm{BC}, \\mathrm{CA}, \\mathrm{AB})%. Chứng minh:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Ba điểm %(\\mathrm{K}, \\mathrm{N}, \\mathrm{I})% thẳng hàng.",
+        "question_images": [],
+        "solution": "Tứ giác %(M N K B)% nội tiếp được (vì %(\\mathrm{K}+\\mathrm{N}=180^{\\circ})% ).<br>Tứ giác %(\\mathrm{MNCI})% cũng nội tiếp được (vì %(\\mathrm{MNC}=\\mathrm{MIC} \\mathrm{MNC}=90^{\\circ})% )<br>\\[=\\gt \\mathrm{BNK}=\\mathrm{BMK}, \\mathrm{INC}=\\mathrm{IMC} (1)\\]<br>(vì 2 góc nội tiếp cùng chắn một cung).<br>Mặt khác BMK = IMC  (2)(vì %(\\mathrm{BMK}+\\mathrm{KMC}=\\mathrm{KMC}+\\mathrm{IMC})% do cùng bù với góc %(A)% của tam giác %(A B C)% )<br>Từ (1),(2) suy ra %(\\mathrm{BNK}=\\mathrm{INC})% nên 3 điểm %(\\mathrm{K}, \\mathrm{N}, \\mathrm{I})% thẳng hàng.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c7e86b3262f36535fcf4c4bbbe75e647.png\" srcset=\"https://docdn.giainhanh.io/media/test/29ef47e062a5a6e1f8652efaf3e937d8.png 165w, https://docdn.giainhanh.io/media/test/fc3aa342fec33776c6246a3cc576c04a.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(\\frac{A B}{M K}+\\frac{A C}{M I}=\\frac{B C}{M N})%.",
+        "question_images": [],
+        "solution": "Vì %(\\mathrm{MAK}=\\mathrm{MCN}=\\beta)% (vì 2 góc nội tiếpcùng chắn cung %(\\mathrm{BM})% )<br>\\[=\\gt \\frac{\\mathrm{AK}}{\\mathrm{MK}}=\\frac{\\mathrm{CN}}{\\mathrm{MN}}=\\operatorname{cotg} \\beta=>\\frac{\\mathrm{AB}-\\mathrm{BK}}{\\mathrm{MK}}=\\frac{\\mathrm{CN}}{\\mathrm{MN}} \\text { hay } \\frac{\\mathrm{AB}}{\\mathrm{MK}}-\\frac{\\mathrm{BK}}{\\mathrm{MK}}=\\frac{\\mathrm{CN}}{\\mathrm{MN}}  (1)\\]<br>Tương tự có: %(\\frac{A I}{M I}=\\frac{B N}{M N})% hay %(\\frac{\\mathrm{AC}}{\\mathrm{MI}}+\\frac{\\mathrm{CI}}{\\mathrm{MI}}=\\frac{\\mathrm{BN}}{\\mathrm{MN}} (2))%<br>\\[\\text { Mà } \\frac{\\mathrm{IC}}{\\mathrm{MI}}=\\frac{\\mathrm{BK}}{\\mathrm{MK}}=\\operatorname{tg} \\alpha(\\alpha=\\mathrm{BMK}=\\mathrm{IMC}) (3)\\]<br>Từ (1), (2), (3) => %(\\frac{\\mathrm{AB}}{\\mathrm{MK}}+\\frac{\\mathrm{AC}}{\\mathrm{MI}}=\\frac{\\mathrm{BC}}{\\mathrm{MN}} \\quad(\\mathrm{dpcm}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) NK đi qua trung điểm của HM.",
+        "question_images": [],
+        "solution": "Gọi giao của %(\\mathrm{AH}, \\mathrm{MN})% với đường tròn %((\\mathrm{O}))% thứ tự là %(\\mathrm{Q}, \\mathrm{S}=\\gt \\mathrm{AQMS})% là hình thang cân (vì %(\\mathrm{AQ} / / \\mathrm{MS})%<br>\\[=\\gt \\mathrm{AS}=\\mathrm{QM}) \\text {. Vẽ HP } / / \\mathrm{AS}(\\mathrm{P} \\in \\mathrm{MS})\\]<br>%(=>\\mathrm{HQMP})% là hình thang cân, có %(\\mathrm{BN})% là trục đối xứng (vì %(\\mathrm{Q})% và %(\\mathrm{H})% đối xứng qua %(\\mathrm{BC})% )<br>%(=>\\mathrm{N})% là trung điểm của %(\\mathrm{PM})% mà %(\\mathrm{HP} / / \\mathrm{KN})% (vì %(\\mathrm{KN} / / \\mathrm{AS})% do %(\\mathrm{SAC}=\\mathrm{AIN})% vì cùng bằng %(\\mathrm{NMC})=>\\mathrm{KN})% đi qua trung điểm của HM (đpcm).",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Tìm GTLN và GTNN của biểu thức: %(\\mathrm{P}=2 \\mathrm{x}^{2}-\\mathrm{xy}-\\mathrm{y}^{2})% với %(\\mathrm{x}, \\mathrm{y})% thoả mãn điều kiện sau: %(x^{2}+2 x y+3 y^{2}=4)%.",
+        "question_images": [],
+        "solution": "Đưa về bài toán tìm %(P)% để hệ phương trình: %(\\left\\{\\begin{array}{l}2 x^{2}-x y-y^{2}=p \\\\ x^{2}+2 x y+3 y^{2}=4\\end{array}\\right.)% có nghiệm.<br>Hệ trên %(\\Leftrightarrow\\left\\{\\begin{array}{l}8 x^{2}-4 x y-4 y^{2}=4 p(1) \\\\ p x^{2}+2 p x y+3 p y^{2}=4 p(2)\\end{array}\\right.)%<br>Lấy (1) - (2), ta có:<br>\\[(8-p) x^{2}-2 y(2+p) x-(4+3 p) y^{2}=0 (3)\\]<br>- Nếu %(y=0=\\gt (8-p) x^{2}=0\\lt =>x=0)% hoặc %(p=8 \\Rightarrow p=0 ; p=8)%.<br>- Nếu y %(\\neq 0)% chia 2 vế pt (3) cho %(\\mathrm{y}^{2})% ta có :<br>%((8-p) t^{2}-2(2+p) t-(4+3 p)=0)%(4) với %(\\mathrm{t}=\\frac{x}{y})%.<br>+ Nếu %(\\mathrm{p}=8)% thì %(\\mathrm{t}=-\\frac{7}{5})%.<br>+ Nếu %(p \\neq 8)% : Phương trình %((2))% có nghiệm %(\\Leftrightarrow \\Delta^{\\prime}=(2+p)^{2}+(8-p)(4+3 p) \\geq 0)% %(\\lt =\\gt p^{2}-12)% p %(-18 \\leq 0\\lt =>6-3 \\sqrt{6} \\leq p \\leq 6+3 \\sqrt{6})%.<br>Dấu \"=\" có xảy ra.Vậy %(\\min P=6-3 \\sqrt{6}, \\max P=6+3 \\sqrt{6})%.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.5,
+        "content": "Phân tích đa thức sau thành nhân tử: %(x^{2}+y^{2}-2 x y+4 x-4 y-5)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}x^{2}+y^{2}-2 x y+4 x-4 y-5 \\\\ =(x-y)^{2}+4(x-y)^{2}+4-9 \\\\ =(x-y+2)^{2}-3^{2} \\\\ =(x-y+5)(x-y-1)\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.25,
+        "content": "Chứng minh %(\\forall \\mathrm{n} \\in \\mathrm{N}^{*})% thì %(\\mathrm{n}^{3}+\\mathrm{n}+2)% là hợp số.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}n^{3}+n+2=n^{3}+1+n+1=(n+1)\\left(n^{2}-n+1\\right)+(n+1) \\\\=(n+1)\\left(n^{2}-n+2\\right)\\end{array}\\]<br>Do %(\\forall \\mathrm{n} \\in \\mathrm{N}^{*})% nên %(\\mathrm{n}+1\\gt 1)% và %(\\mathrm{n}^{2}-\\mathrm{n}+2>1)%<br>Vậy %(\\mathrm{n}^{3}+\\mathrm{n}+2)% là hợp số",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.25,
+        "content": "Cho hai số chính phương liên tiếp. Chứng minh rằng tổng của hai số đó cộng với tích của chúng là một số chính phương lẻ.",
+        "question_images": [],
+        "solution": "Gọi hai số lần lượt là %(\\mathrm{a}^{2})% và %((\\mathrm{a}+1)^{2})%Theo bài ra ta có: %(\\mathrm{a}^{2}+(\\mathrm{a}+1)^{2}+\\mathrm{a}^{2}(\\mathrm{a}+1)^{2}=\\mathrm{a}^{2}+\\mathrm{a}^{2}+2 \\mathrm{a}+1+\\left(\\mathrm{a}^{2}+\\mathrm{a}\\right)^{2})%<br>\\[=\\left(a^{2}+a\\right)^{2}+2\\left(a^{2}+a\\right)+1=\\left(a^{2}+a+1\\right)^{2}\\]<br>vì %(\\mathrm{a}^{2}+\\mathrm{a}=\\mathrm{a}(\\mathrm{a}+1))% là số chẵn %(\\Rightarrow \\mathrm{a}^{2}+\\mathrm{a}+1)% là số lẻ %(\\Rightarrow\\left(\\mathrm{a}^{2}+\\mathrm{a}+1\\right)^{2})% là một số chính phương lẻ.<br>Vậy %(\\mathrm{a}^{2}+(\\mathrm{a}+1)^{2}+\\mathrm{a}^{2}(\\mathrm{a}+1)^{2})% là một số chính phương lẻ (đpcm).",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "%(A=\\frac{2}{x}-\\left(\\frac{x^{2}}{x^{2}+x y}-\\frac{y^{2}}{x y+y^{2}}+\\frac{y^{2}-x^{2}}{x y}\\right) \\cdot \\frac{x+y}{x^{2}+x y+y^{2}})% với %(x \\neq 0, y \\neq 0, x \\neq-y)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.25,
+        "content": "a) Rút gọn biểu thức %(\\mathrm{A})%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Với } \\mathrm{x} \\neq 0, \\mathrm{y} \\neq 0, \\mathrm{x} \\neq-\\mathrm{y} \\text { ta có: } \\\\ \\mathrm{A}=\\frac{2}{\\mathrm{x}}-\\left(\\frac{\\mathrm{x}^{2} \\mathrm{y}-\\mathrm{xy}^{2}-\\left(\\mathrm{x}^{2}-\\mathrm{y}^{2}\\right)(\\mathrm{x}+\\mathrm{y})}{\\mathrm{xy}(\\mathrm{x}+\\mathrm{y})}\\right) \\cdot \\frac{\\mathrm{x}+\\mathrm{y}}{\\mathrm{x}^{2}+\\mathrm{xy}+\\mathrm{y}^{2}} \\\\ =\\frac{2}{x}-\\frac{x y(x-y)-(x-y) \\cdot(x+y)^{2}}{x y(x+y)} \\cdot \\frac{x+y}{x^{2}+x y+y^{2}} \\\\ =\\frac{2}{\\mathrm{x}}+\\frac{(\\mathrm{x}-\\mathrm{y})\\left(\\mathrm{x}^{2}+\\mathrm{xy}+\\mathrm{y}^{2}\\right)}{\\mathrm{xy}(\\mathrm{x}+\\mathrm{y})} \\cdot \\frac{\\mathrm{x}+\\mathrm{y}}{\\mathrm{x}^{2}+\\mathrm{xy}+\\mathrm{y}^{2}} \\\\ =\\frac{2}{\\mathrm{x}}+\\frac{\\mathrm{x}-\\mathrm{y}}{\\mathrm{xy}}\\end{array})%<br>%(=\\frac{x+y}{x y})%<br>Vậy với %(x \\neq 0, y \\neq 0, x \\neq-y)% thì %(A=\\frac{x+y}{x y})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.75,
+        "content": "b) Tính giá trị của biểu thức %(\\mathrm{A})% biết %(x, y)% thỏa mãn đẳng thức:<br>\\[x^{2}+y^{2}+10=2(x-3 y)\\]",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}x^{2}+y^{2}+10=2(x-3 y) \\\\Leftrightarrow \\mathrm{x}^{2}-2 \\mathrm{x}+1+\\mathrm{y}^{2}+6 \\mathrm{y}+9=0 \\\\Leftrightarrow(\\mathrm{x}-1)^{2}+(\\mathrm{y}+3)^{2}=0\\end{array}\\]<br>Lập luận suy %(r a x=1 ; y=-3)%<br>Ta thấy %(\\mathrm{x}=1 ; \\mathrm{y}=-3)% thōa mãn điều kiện: %(x \\neq 0, y \\neq 0, x \\neq-y)%<br>nên thay %(\\mathrm{x}=1 ; \\mathrm{y}=-3)% vào biểu thức %(\\mathrm{A}=\\frac{x+y}{x y})%<br>ta có: %(\\mathrm{A}=\\frac{1+(-3)}{1 .(-3)}=\\frac{2}{3})%<br>Kết luận : Vậy với %(x^{2}+y^{2}+10=2(x-3 y))% thì %(\\mathrm{A}=\\frac{2}{3})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Giải phương trình %(\\frac{1}{3 x^{2}+2017}+\\frac{1}{x^{2}-2018}+\\frac{1}{4 x^{2}+2019}=\\frac{1}{8 x^{2}+2018})%",
+        "question_images": [],
+        "solution": "ĐK: %(x^{2}-2018 \\neq 0(*))%<br>\\[\\frac{1}{3 x^{2}+2017}+\\frac{1}{x^{2}-2018}+\\frac{1}{4 x^{2}+2019}=\\frac{1}{8 x^{2}+2018}\\]<br>Phương trình có dạng:<br>\\[\\begin{array}{l}\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=\\frac{1}{a+b+c} \\\\Leftrightarrow(a b+b c+c a)(a+b+c)=a b c\\end{array}\\]<br>HS biến đổi được kết quả: %((\\mathrm{a}+\\mathrm{b})(\\mathrm{b}+\\mathrm{c})(\\mathrm{c}+\\mathrm{a})=0 \\Leftrightarrow\\left[\\begin{array}{l}\\mathrm{a}+\\mathrm{b}=0 \\\\ \\mathrm{~b}+\\mathrm{c}=0 \\\\ \\mathrm{c}+\\mathrm{a}=0\\end{array}\\right.)%+) %(\\mathrm{a}+\\mathrm{b}=0 \\Rightarrow 4 \\mathrm{x}^{2}-1=0 \\Leftrightarrow\\left[\\begin{array}{l}\\mathrm{x}=\\frac{1}{2} \\\\ \\mathrm{x}=\\frac{-1}{2}\\end{array}\\right.)% (thỏa mãn điều kiện %(\\left.\\left({ }^{*}\\right)\\right))%<br>+) %(\\mathrm{b}+\\mathrm{c}=0 \\Rightarrow 5 \\mathrm{x}^{2}+1=0 \\Rightarrow)% vô nghiệm<br>+) %(\\mathrm{c}+\\mathrm{a}=0 \\Rightarrow 7 \\mathrm{x}^{2}+4036=0 \\Rightarrow)% vô nghiệm<br>%(\\mathrm{KL})% : Vây %(x=\\frac{1}{2})% hoặc %(x=\\frac{-1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.5,
+        "content": "Tìm các cặp số nguyên %((x ; y))% thỏa mãn: %(|x+2|+|x-1|=-y^{2}-4 y-1)%",
+        "question_images": [],
+        "solution": "Chứng tỏ được %(|x+2|+|x-1|=|x+2|+|1-x| \\geq 3)% với mọi %(x)%Dấu bằng xảy %(\\mathrm{ra} \\Leftrightarrow-2 \\leq \\mathrm{x} \\leq 1)%<br>Ta có %(-\\mathrm{y}^{2}-4 \\mathrm{y}-1=-\\left(\\mathrm{y}^{2}+4 \\mathrm{y}+1\\right)=3-(\\mathrm{y}+2)^{2} \\leq 3)% với mọi %(\\mathrm{y})%<br>Dấu bằng xảy %(\\mathrm{ra} \\Leftrightarrow \\mathrm{y}=-3)%<br>Do đó %(|x+2|+|x-1|=3-(y+2)^{2}=3)%<br>Ta tìm được %(\\mathrm{y}=-2)% và %(-2 \\leq \\mathrm{x} \\leq 1)%<br>mà %(x \\in Z \\Rightarrow x \\in\\{-2 ;-1 ; 0 ; 1\\})%<br>Vậy các cặp số nguyên %((x ; y))% là: %((-2 ;-2) ;(-1 ;-2) ;(0 ;-2) ;(1 ;-2))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.5,
+        "content": "Cho phương trình %(\\frac{2 x-m}{x-2}+\\frac{x-1}{x+2}=3)%. Tìm %(m)% để phương trình có nghiệm dương.",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\neq 2 ; x \\neq-2)%<br>\\[\\begin{array}{l}\\frac{2 x-m}{x-2}+\\frac{x-1}{x+2}=3 \\\\Leftrightarrow(2 x-m)(x+2)+(x-1)(x-2)=3(x-2)(x+2) \\\\Leftrightarrow(1-m) x=2 m-14\\end{array}\\]<br>%(+) \\mathrm{m}=1)%, phương trình có dạng %(0=-12)% vô nghiệm.<br>%(+) \\mathrm{m} \\neq 1)%, phương trình trở thành %(\\mathrm{x}=\\frac{2 \\mathrm{~m}-14}{1-\\mathrm{m}})%<br>Phương trình có nghiệm dương %(\\Leftrightarrow\\left\\{\\begin{array}{l}\\frac{2 m-14}{1-m} \\neq 2 \\\\ \\frac{2 m-14}{1-m}\\gt 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{c}m \\neq 4 \\\\ 1\\lt \\mathrm{m}\\lt 7\\end{array}\\right.\\right.)%<br>Vậy giá trị %(\\mathrm{m})% thỏa mãn là %(\\left\\{\\begin{array}{c}\\mathrm{m} \\neq 4 \\\\ 1\\lt \\mathrm{m}\\lt 7\\end{array}\\right.)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.5,
+        "content": "Cho đa thức %(\\mathrm{B}(\\mathrm{x})=\\mathrm{x}^{4}+\\mathrm{ax}^{3}+\\mathrm{bx}^{2}+\\mathrm{cx}+\\mathrm{d})%. Biết %(\\mathrm{B}(1)=10 ; \\mathrm{B}(2)=20 ; \\mathrm{B}(3))% %(=30)%. Tính %(B(12)+B(-8))%.",
+        "question_images": [],
+        "solution": "Xét đa thức %(\\mathrm{C}(\\mathrm{x})=\\mathrm{B}(\\mathrm{x})-10 \\mathrm{x} \\Rightarrow \\mathrm{C}(\\mathrm{x}))% là đa thức bậc 4<br>Ta có %(\\mathrm{C}(1)=\\mathrm{B}(1)-10=10-10=0)%%(\\mathrm{C}(2)=\\mathrm{B}(2)-20=20-20=0)%<br>%(\\mathrm{C}(3)=\\mathrm{B}(3)-30=30-30=0)%<br>%(\\Rightarrow \\mathrm{x}=1 ; \\mathrm{x}=2 ; \\mathrm{x}=3)% là ba nghiệm của đa thức %(\\mathrm{C}(\\mathrm{x}))%.<br>\\[\\begin{array}{l}\\Rightarrow \\mathrm{C}(\\mathrm{x})=(\\mathrm{x}-1)(\\mathrm{x}-2)(\\mathrm{x}-3)(\\mathrm{x}-\\mathrm{a})(\\text { với } \\mathrm{a} \\in \\mathrm{Q}) \\\\Rightarrow \\mathrm{B}(\\mathrm{x})=(\\mathrm{x}-1)(\\mathrm{x}-2)(\\mathrm{x}-3)(\\mathrm{x}-\\mathrm{a})+10 \\mathrm{x}\\end{array}\\]<br>Ta có %(B(12)=11.10 .9 \\cdot(12-a)+120)%<br>\\[\\begin{array}{c}\\mathrm{B}(-8)=(-9) \\cdot(-10) \\cdot(-11) \\cdot(-8-\\mathrm{a})-80 \\\\Rightarrow \\mathrm{B}(12)+\\mathrm{B}(-8)=9 \\cdot 10 \\cdot 11 \\cdot(12-\\mathrm{a}+8+\\mathrm{a})+40=9 \\cdot 10 \\cdot 11 \\cdot 20+40=19840\\end{array}\\]<br>Vậy %(\\mathrm{B}(12)+\\mathrm{B}(-8)=19840)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "9",
+        "group_content": "Cho hình vuông %(\\mathrm{ABCD})% và điểm %(\\mathrm{H})% thuộc cạnh %(\\mathrm{BC})% (H không trùng với %(\\mathrm{B})% và %(\\mathrm{C})% ). Trên nửa mặt phẳng bờ là %(\\mathrm{BC})% không chứa hình vuông %(\\mathrm{ABCD})% vẽ hình vuông %(\\mathrm{CHIK})%. Gọi %(\\mathrm{M})% là giao điểm của %(\\mathrm{DH})% và %(\\mathrm{BK} ; \\mathrm{N})% là giao điểm của %(\\mathrm{KH})% và BD. Chứng minh:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) %(\\mathrm{DH} \\perp \\mathrm{BK})%.",
+        "question_images": [],
+        "solution": "Hình vẽ (0.5 điểm)<br>Ta có: %(\\overparen{\\mathrm{DCK}}=\\overparen{\\mathrm{DCB}}+\\overparen{\\mathrm{BCK}}=90^{\\circ}+90^{\\circ}=180^{\\circ})% nên %(\\mathrm{D}, \\mathrm{C}, \\mathrm{K})% thẳng hàng<br>Ta có: %(\\mathrm{AC})% và %(\\mathrm{HK})% là hai đường chéo của hình vuông %(\\mathrm{ABCD})% và %(\\mathrm{CHIK})%<br>Nên %(\\overparen{\\mathrm{ACD}}=45^{\\circ})% và %(\\overparen{\\mathrm{HKC}}=45^{\\circ} \\Rightarrow \\widetilde{\\mathrm{ACD}}=\\widetilde{\\mathrm{HKC}} \\Rightarrow \\mathrm{AC} / / \\mathrm{KH})%<br>Mà %(\\mathrm{AC} \\perp \\mathrm{BD})% nên %(\\mathrm{KH} \\perp \\mathrm{BD})%<br>Xét %(\\triangle B D K)% có %(B C \\perp D K)% và %(K H \\perp B D)% nên %(H)% là trực tâm%(\\Rightarrow \\mathrm{DH} \\perp \\mathrm{BK})% (đpcm)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/8ffa3edc9844ed2c50bb0b189af5bf55.png\" srcset=\"https://docdn.giainhanh.io/media/test/4246ea648c03b0390b86be1b46b282a1.png 245w, https://docdn.giainhanh.io/media/test/4b9f4f18bf788972a63d9f67b6f8462c.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.75,
+        "content": "b) %(\\mathrm{DN} \\cdot \\mathrm{BD}+\\mathrm{KM} \\cdot \\mathrm{BK}=\\mathrm{DK}^{2})%.",
+        "question_images": [],
+        "solution": "Chứng minh %(\\triangle \\mathrm{DNK})% dồng dạng %(\\triangle \\mathrm{DCB})%<br>Suy ra: %(\\frac{\\mathrm{DN}}{\\mathrm{DC}}=\\frac{\\mathrm{DK}}{\\mathrm{DB}} \\Rightarrow \\mathrm{DN} \\cdot \\mathrm{DB}=\\mathrm{DC} \\cdot \\mathrm{DK})%<br>Chứng minh %(\\triangle \\mathrm{KMD})% đồng dạng %(\\triangle \\mathrm{KCB})%<br>Suy ra: %(\\frac{\\mathrm{KM}}{\\mathrm{CK}}=\\frac{\\mathrm{DK}}{\\mathrm{BK}} \\Rightarrow \\mathrm{KM} \\cdot \\mathrm{BK}=\\mathrm{CK} . \\mathrm{DK})%<br>Từ (1) và (2) suy ra:<br>DN.BD + KM.BK %(=)% DC.DK%(+\\mathrm{CK} \\cdot \\mathrm{DK}=\\mathrm{DK}(\\mathrm{DC}+\\mathrm{CK})=\\mathrm{DK}^{2}()% đpcm %())%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/10b4c01a69212ea8d971a59f73135cd9.png\" srcset=\"https://docdn.giainhanh.io/media/test/f7473d54c0a13c5208fe5fd9e8554aca.png 245w, https://docdn.giainhanh.io/media/test/e7fe29f722421c76969999ec054a45c5.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.25,
+        "content": "c) %(\\frac{\\mathrm{BH}}{\\mathrm{HC}}+\\frac{\\mathrm{DH}}{\\mathrm{HM}}+\\frac{\\mathrm{KH}}{\\mathrm{HN}}\\gt 6)%.",
+        "question_images": [],
+        "solution": "Ta có: %(\\frac{\\mathrm{BH}}{\\mathrm{HC}}=\\frac{\\mathrm{S}_{\\mathrm{BDH}}}{\\mathrm{S}_{\\mathrm{HDC}}}=\\frac{\\mathrm{S}_{\\mathrm{BKH}}}{\\mathrm{S}_{\\mathrm{HKC}}}=\\frac{\\mathrm{S}_{\\mathrm{BDH}}+\\mathrm{S}_{\\mathrm{BKH}}}{\\mathrm{S}_{\\mathrm{HDC}}+\\mathrm{S}_{\\mathrm{HKC}}}=\\frac{\\mathrm{S}_{\\mathrm{BDH}}+\\mathrm{S}_{\\mathrm{BKH}}}{\\mathrm{S}_{\\mathrm{DKH}}})%<br>Tương tự ta có: %(\\frac{\\mathrm{DH}}{\\mathrm{HM}}=\\frac{\\mathrm{S}_{\\mathrm{BDH}}+\\mathrm{S}_{\\mathrm{DKH}}}{\\mathrm{S}_{\\mathrm{BKH}}} ; \\frac{\\mathrm{KH}}{\\mathrm{HN}}=\\frac{\\mathrm{S}_{\\mathrm{BKH}}+\\mathrm{S}_{\\mathrm{DKH}}}{\\mathrm{S}_{\\mathrm{BDH}}})%<br>Do đó:<br>\\[\\begin{array}{l}\\frac{\\mathrm{BH}}{\\mathrm{HC}}+\\frac{\\mathrm{DH}}{\\mathrm{HM}}+\\frac{\\mathrm{KH}}{\\mathrm{HN}}=\\frac{\\mathrm{S}_{\\mathrm{BDH}}+\\mathrm{S}_{\\mathrm{BKH}}}{\\mathrm{S}_{\\mathrm{D} K H}}+\\frac{\\mathrm{S}_{\\mathrm{BDH}}+\\mathrm{S}_{\\mathrm{DKH}}}{\\mathrm{S}_{\\mathrm{BKH}}}+\\frac{\\mathrm{S}_{\\mathrm{BKH}}+\\mathrm{S}_{\\mathrm{DKH}}}{\\mathrm{S}_{\\mathrm{BDH}}} \\\\=\\frac{\\mathrm{S}_{\\mathrm{BDH}}}{\\mathrm{S}_{\\mathrm{DKH}}}+\\frac{\\mathrm{S}_{\\mathrm{BKH}}}{\\mathrm{S}_{\\mathrm{DKH}}}+\\frac{\\mathrm{S}_{\\mathrm{BDH}}}{\\mathrm{S}_{\\mathrm{BKH}}}+\\frac{\\mathrm{S}_{\\mathrm{DKH}}}{\\mathrm{S}_{\\mathrm{BKH}}}+\\frac{\\mathrm{S}_{\\mathrm{BKH}}}{\\mathrm{S}_{\\mathrm{BDH}}}+\\frac{\\mathrm{S}_{\\mathrm{DKH}}}{\\mathrm{S}_{\\mathrm{BDH}}} \\\\=\\left(\\frac{\\mathrm{S}_{\\mathrm{BDH}}}{\\mathrm{S}_{\\mathrm{DKH}}}+\\frac{\\mathrm{S}_{\\mathrm{DKH}}}{\\mathrm{S}_{\\mathrm{BDH}}}\\right)+\\left(\\frac{\\mathrm{S}_{\\mathrm{BKH}}}{\\mathrm{S}_{\\mathrm{DKH}}}+\\frac{\\mathrm{S}_{\\mathrm{DKH}}}{\\mathrm{S}_{\\mathrm{BKH}}}\\right)+\\left(\\frac{\\mathrm{S}_{\\mathrm{BDH}}}{\\mathrm{S}_{\\mathrm{BKH}}}+\\frac{\\mathrm{S}_{\\mathrm{BKH}}}{\\mathrm{S}_{\\mathrm{BDH}}}\\right)\\end{array}\\]<br>Lập luận chứng minh được:<br>\\[\\frac{\\mathrm{S}_{\\mathrm{BDH}}}{\\mathrm{S}_{\\mathrm{DKH}}}+\\frac{\\mathrm{S}_{\\mathrm{DKH}}}{\\mathrm{S}_{\\mathrm{BDH}}} \\geq 2 ; \\frac{\\mathrm{S}_{\\mathrm{BKH}}}{\\mathrm{S}_{\\mathrm{DKH}}}+\\frac{\\mathrm{S}_{\\mathrm{DKH}}}{\\mathrm{S}_{\\mathrm{BKH}}} \\geq 2 ; \\frac{\\mathrm{S}_{\\mathrm{BDH}}}{\\mathrm{S}_{\\mathrm{BKH}}}+\\frac{\\mathrm{S}_{\\mathrm{BKH}}}{\\mathrm{S}_{\\mathrm{BDH}}} \\geq 2\\]<br>Suy ra: %(\\frac{\\mathrm{BH}}{\\mathrm{HC}}+\\frac{\\mathrm{DH}}{\\mathrm{HM}}+\\frac{\\mathrm{KH}}{\\mathrm{HN}} \\geq 6)%Dấu \"=\" xảy ra khi và chỉ khi %(\\triangle \\mathrm{BDK})% đều<br>\\[\\Rightarrow \\mathrm{CD}=\\mathrm{CK} \\text { hay } \\mathrm{CD}=\\mathrm{CH} \\text { (vô lý). }\\]<br>Vậy %(\\frac{\\mathrm{BH}}{\\mathrm{HC}}+\\frac{\\mathrm{DH}}{\\mathrm{HM}}+\\frac{\\mathrm{KH}}{\\mathrm{HN}}\\gt 6)% (đpcm)<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ad4317993df74b8d91d3eac6e93ff3dc.png\" srcset=\"https://docdn.giainhanh.io/media/test/5efd34b42b5a56f805ee33b6f7e20365.png 245w, https://docdn.giainhanh.io/media/test/2c170b370d816e5c03e5c8b6f92785a5.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "10 ",
+        "point": 1.0,
+        "content": "Cho %(\\mathrm{x}, \\mathrm{y})% là các số thực thỏa mãn: %(4 \\mathrm{x}^{2}+\\mathrm{y}^{2}=1)%.Tìm giá trị lớn nhất, giá trị nhỏ nhất của biểu thức %(\\mathrm{a}=\\frac{2 \\mathrm{x}+3 \\mathrm{y}}{2 \\mathrm{x}+\\mathrm{y}+2})%.",
+        "question_images": [],
+        "solution": "Ta có %(: 4 x^{2}+y^{2}=1\\left(^{*}\\right))%<br>\\[\\begin{array}{l}\\text { Từ } a=\\frac{2 x+3 y}{2 x+y+2} \\\\Rightarrow a(2 x+y+2)=2 x+3 y \\\\Leftrightarrow 2 a x+a y+2 a-2 x-3 y=0 \\\\Leftrightarrow 2 x(a-1)+y(a-3)=-2 a(1)\\end{array}\\]<br>Áp dụng bất đẵng thức Bunhiacopxki cho hai bộ số %((2 \\mathrm{x} ; \\mathrm{y}))% và %((\\mathrm{a}-1 ; \\mathrm{a}-3))%<br>\\[\\begin{array}{l}\\text { Ta có: } 4 \\mathrm{a}^{2}=[2 \\mathrm{x}(\\mathrm{a}-1)+\\mathrm{y}(\\mathrm{a}-3)]^{2} \\leq\\left(4 \\mathrm{x}^{2}+\\mathrm{y}^{2}\\right) \\cdot\\left[(\\mathrm{a}-1)^{2}+(\\mathrm{a}-3)^{2}\\right] \\\\Rightarrow 4 \\mathrm{a}^{2} \\leq(\\mathrm{a}-1)^{2}+(\\mathrm{a}-3)^{2}=\\mathrm{a}^{2}-2 \\mathrm{a}+1+\\mathrm{a}^{2}-6 \\mathrm{a}+9 \\\\Rightarrow 2 \\mathrm{a}^{2}+8 \\mathrm{a}-10 \\leq 0 \\Leftrightarrow \\mathrm{a}^{2}+4 \\mathrm{a}-5 \\leq 0 \\\\Leftrightarrow(\\mathrm{a}-1)(\\mathrm{a}+5) \\leq 0 \\Leftrightarrow\\left\\{\\begin{array}{l}a+5 \\geq 0 \\\\mathrm{a}-1 \\leq 0\\end{array}\\right.\\end{array}\\]<br>\\[(\\text { Vì } a+5\\gt a-1) \\Leftrightarrow 1 \\leq a \\leq 5\\]<br>* Thay %(\\mathrm{a}=1)% vào (1) ta được: %(-2 \\mathrm{y}=-2 \\Rightarrow \\mathrm{y}=1)%<br>Thay %(y=1)% vào %((*))% ta có: %(x=0 \\Rightarrow(x ; y)=(0 ; 1))%*<br>Thay %(\\mathrm{a}=-5)% vào (1) ta được: %(2(-5-1) \\mathrm{x}+(-5-3) \\mathrm{y}=-2(-5))%<br>\\[\\Rightarrow-12 x-8 y=10 \\Leftrightarrow 6 x+4 y=-5 \\Rightarrow y=\\frac{-6 x-5}{4}\\]<br>Thay vào %(\\left({ }^{*}\\right))% ta được: %(4 x^{2}+\\left(\\frac{-6 x-5}{4}\\right)^{2}=1)%<br>\\[\\Leftrightarrow 100 x^{2}+60 x+9=0 \\Rightarrow x=-\\frac{3}{10} \\Rightarrow y=-\\frac{4}{5} \\Rightarrow(x ; y)=\\left(\\frac{-3}{10} ; \\frac{-4}{5}\\right)\\]<br>Vậy GTLN cúa a là 1 khi %(\\mathrm{x}=0 ; \\mathrm{y}=1)%.<br>GTNN của a là -5 khi %(x=\\frac{-3}{10} ; y=\\frac{-4}{5})%.",
+        "question_type": "essay"
+    }
+]

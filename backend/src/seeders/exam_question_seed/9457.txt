@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Phân tích đa thức %(a^{2}(b-c)+b^{2}(c-a)+c^{2}(a-b))% thành nhân tử",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} & \\text { } a^{2}(b-c)+b^{2}(c-a)+c^{2}(a-b)=a^{2}(b-c)-b^{2}(a-c)+c^{2}(a-b) \\\\ = & a^{2}(b-c)-b^{2}[(a-b)+(b-c)]+c^{2}(a-b) \\\\ = & \\left(a^{2}-b^{2}\\right)(b-c)+\\left(c^{2}-b^{2}\\right)(a-b) \\\\ = & (a-b)(a+b)(b-c)-(b-c)(b+c)(a-b) \\\\ = & (a-b)(b-c)[a+b-b-c]=(a-b)(b-c)(a-c)\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho %(a, b, c)% là ba số đôi một khác nhau thỏa mãn: %((a+b+c)^{2}=a^{2}+b^{2}+c^{2})%<br>Tính giá trị của biều thức: %(P=\\frac{a^{2}}{a^{2}+2 b c}+\\frac{b^{2}}{b^{2}+2 a c}+\\frac{c^{2}}{c^{2}+2 a b})%",
+        "question_images": [],
+        "solution": "%((a+b+c)^{2}=a^{2}+b^{2}+c^{2} \\Leftrightarrow a b+a c+b c=0)%<br>\\[\\frac{a^{2}}{a^{2}+2 b c}=\\frac{a^{2}}{a^{2}-a b-a c+b c}=\\frac{a^{2}}{(a-b)(a-c)}\\]<br>Tương tự: %(\\frac{b^{2}}{b^{2}+2 a c}=\\frac{b^{2}}{(b-a)(b-c)} ; \\quad \\frac{c^{2}}{c^{2}+2 a c}=\\frac{c^{2}}{(c-a)(c-b)})%<br>\\[\\begin{array}{l}P=\\frac{a^{2}}{a^{2}+2 b c}+\\frac{b^{2}}{b^{2}+2 a c}+\\frac{c^{2}}{c^{2}+2 a b} \\\\=\\frac{a^{2}}{(a-b)(a-c)}-\\frac{b^{2}}{(a-b)(b-c)}+\\frac{c^{2}}{(a-c)(b-c)} \\\\=\\frac{(a-b)(a-c)(b-c)}{(a-b)(a-c)(b-c)}=1\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Cho %(x+y+z=0)%. Chứng minh rằng: %(2\\left(x^{5}+y^{5}+z^{5}\\right)=5 x y z\\left(x^{2}+y^{2}+z^{2}\\right))%",
+        "question_images": [],
+        "solution": "Vì %(x+y+z=0 \\Rightarrow x+y=-z \\Rightarrow(x+y)^{3}=-z^{3})%Hay %(x^{3}+y^{3}+3 x y(x+y)=-z^{3} \\Rightarrow 3 x y z=x^{3}+y^{3}+z^{3})%Do đó:<br>\\[\\begin{array}{l}3 x y z\\left(x^{2}+y^{2}+z^{2}\\right)=\\left(x^{3}+y^{3}+z^{3}\\right)\\left(x^{2}+y^{2}+z^{2}\\right) \\\\=x^{5}+y^{5}+z^{5}+x^{3}\\left(y^{2}+z^{2}\\right)+y^{3}\\left(z^{2}+x^{2}\\right)+z^{3}\\left(x^{2}+y^{2}\\right)\\end{array}\\]<br>Mà %(x^{2}+y^{2}=(x+y)^{2}-2 x y=z^{2}-2 x y()% Vi %(\\quad x+y=-z))%<br>Tương tự: %(y^{2}+z^{2}=x^{2}-2 y z ; z^{2}+x^{2}=y^{2}-2 z x)%<br>Vì vậy: %(3 x y z\\left(x^{2}+y^{2}+z^{2}\\right)=x^{5}+y^{5}+z^{5}+x^{3}\\left(x^{2}-2 y z\\right)+y^{3}\\left(y^{2}-2 z x\\right)+z^{3}\\left(z^{2}-2 x y\\right))%<br>\\[=2\\left(x^{5}+y^{5}+z^{5}\\right)-2 x y z\\left(x^{2}+y^{2}+z^{2}\\right)\\]<br>Suy ra : %(2\\left(x^{5}+y^{5}+z^{5}\\right)=5 x y z\\left(x^{2}+y^{2}+z^{2}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Tìm số tự nhiên %(n)% để %(n+18)% và %(n-41)% là hai số chính phương",
+        "question_images": [],
+        "solution": "Để %(n+18)% và %(n-41)% là hai số chính phương<br>\\[\\begin{aligned}& \\Leftrightarrow n+18=p^{2} \\text { và } n-41=q^{2}(p, q \\in N) \\\\Rightarrow & p^{2}-q^{2}=(n+18)-(n-41)=59 \\Leftrightarrow(p-q)(p+q)=59\\end{aligned}\\]<br>Nhưng 59 là số nguyên tố, nên: %(\\left\\{\\begin{array}{l}p-q=1 \\\\ p+q=59\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}p=30 \\\\ q=29\\end{array}\\right.\\right.)%<br>Từ %(n+18=p^{2}=30^{2}=900 \\Rightarrow n=882)%<br>Thay vào %(n-41)%, ta được %(882-41=841=29^{2}=q^{2})%<br>Vậy với %(n=882)% thì %(n+18)% và %(n-41)% là hai số chính phương",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Cho %(a, b\\gt 0)% thỏa mãn %(a+b=1)%. Chứng minh %(\\left(a+\\frac{1}{b}\\right)^{2}+\\left(b+\\frac{1}{a}\\right)^{2} \\geq \\frac{25}{2})%",
+        "question_images": [],
+        "solution": "Có: %((a-b)^{2} \\geq 0 \\Leftrightarrow a^{2}+b^{2}-2 a b \\geq 0 \\Leftrightarrow a^{2}+b^{2} \\geq 2 a b)%<br>Dấu đẳng thức xảy ra khi %(a=b)%<br>Áp dụng (*)có: %(\\left(a+\\frac{1}{b}\\right)^{2}+\\frac{25}{4} \\geq 5\\left(a+\\frac{1}{b}\\right) ; \\quad\\left(b+\\frac{1}{a}\\right)^{2}+\\frac{25}{4} \\geq 5\\left(b+\\frac{1}{a}\\right))%<br>Suy ra: %(\\left(a+\\frac{1}{b}\\right)^{2}+\\left(b+\\frac{1}{a}\\right)^{2}+\\frac{25}{2} \\geq 5\\left[\\left(a+\\frac{1}{b}\\right)+\\left(b+\\frac{1}{a}\\right)\\right])%<br>\\[\\begin{array}{l}\\Leftrightarrow\\left(a+\\frac{1}{b}\\right)^{2}+\\left(b+\\frac{1}{a}\\right)^{2}+\\frac{25}{2} \\geq 5\\left[(a+b)+\\left(\\frac{1}{a}+\\frac{1}{b}\\right)\\right] \\\\Leftrightarrow\\left(a+\\frac{1}{b}\\right)^{2}+\\left(b+\\frac{1}{a}\\right)^{2}+\\frac{25}{2} \\geq 5+5\\left(\\frac{1}{a}+\\frac{1}{b}\\right)(V i \\quad a+b=1)\\end{array}\\]<br>Với %(a, b)% dương, chứng minh %(\\frac{1}{a}+\\frac{1}{b} \\geq \\frac{4}{a+b}=4 \\quad(V i \\quad a+b=1))%<br>Dấu bằng xảy ra khi %(a=b)%<br>Ta được: %(\\left(a+\\frac{1}{b}\\right)^{2}+\\left(b+\\frac{1}{a}\\right)^{2}+\\frac{25}{2} \\geq 5+5.4)%%(\\Leftrightarrow\\left(a+\\frac{1}{b}\\right)^{2}+\\left(b+\\frac{1}{a}\\right)^{2} \\geq \\frac{25}{2})%.<br>Dấu đẳng thức xảy ra %(\\Leftrightarrow a=b=\\frac{1}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho hình bình hành %(A B C D)% có góc %(A B C)% nhọn. Vẽ ra phía ngoài hình bình hành các tam giác đều %(B C E)% và %(D C F)%. Tính số đo %(E A F)%",
+        "question_images": [],
+        "solution": "Chứng minh được %(A B E=E C F)%<br>Chứng minh được %(\\triangle A B E=\\triangle F C E)% (c.g.c %() \\Rightarrow A E=E F)%<br>Tương tự: %(A F=E F)%<br>\\[\\Rightarrow A E=E F=A F \\Rightarrow \\triangle A E F \\text { đều } \\Rightarrow E A F=60^{\\circ}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5dc3310daca39f0ec760d13449f28ea5.png\" srcset=\"https://docdn.giainhanh.io/media/test/101deaf1a4901bfb14f10ab04d67dcfe.png 193w, https://docdn.giainhanh.io/media/test/30dc012e7d4a3ca30ec8c32cf894068b.png 500w, https://docdn.giainhanh.io/media/test/9aa0a19a03fd22757a49fcf24db82d05.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác %(A B C)% nhọn có các đường cao %(A A^{\\prime}, B B^{\\prime}, C C^{\\prime})% và H là trực tâm",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh %(B C^{\\prime} \\cdot B A+C B^{\\prime} . C A=B C^{2})%",
+        "question_images": [],
+        "solution": "Chứng minh %(\\triangle B H C^{\\prime} \\square \\triangle B A B^{\\prime} \\Rightarrow \\frac{B H}{A B}=\\frac{B C^{\\prime}}{B B^{\\prime}} \\Rightarrow B H \\cdot B B^{\\prime}=B C^{\\prime} . B A)% Chứng minh %(\\triangle B H A^{\\prime} \\square \\triangle B C B^{\\prime} \\Rightarrow \\frac{B H}{B C}=\\frac{B A^{\\prime}}{B B^{\\prime}} \\Rightarrow B H \\cdot B B^{\\prime}=B C \\cdot B A^{\\prime})%<br>Từ (1) và %((2) \\Rightarrow B C^{\\prime} \\cdot B A=B A^{\\prime} \\cdot B C)%<br>Tương tự : %(C B^{\\prime} . C A=C A^{\\prime} \\cdot B C)%<br>\\[\\Rightarrow B C^{\\prime} \\cdot B A+C B^{\\prime} \\cdot C A=B A^{\\prime} \\cdot B C+C A^{\\prime} \\cdot B C=\\left(B A^{\\prime}+A^{\\prime} C\\right) \\cdot B C=B C^{2}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/aeb8cadceb8e645dea5b9938d2b8ac0a.png\" srcset=\"https://docdn.giainhanh.io/media/test/7dd34e88a89e8d4a79bc76c00d340737.png 229w, https://docdn.giainhanh.io/media/test/49ee10abbcd7b107b69ff24f7e5d2b7e.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh rằng: %(\\frac{H B \\cdot H C}{A B \\cdot A C}+\\frac{H A \\cdot H B}{B C \\cdot A C}+\\frac{H C \\cdot H A}{B C \\cdot A B}=1)%",
+        "question_images": [],
+        "solution": "Có %(\\frac{B H}{A B}=\\frac{B C^{\\prime}}{B B^{\\prime}} \\Rightarrow \\frac{B H \\cdot C H}{A B \\cdot A C}=\\frac{B C^{\\prime} \\cdot C H}{B B^{\\prime} \\cdot A C}=\\frac{S_{B H C}}{S_{A B C}})%<br>Tương tự: %(\\frac{A H \\cdot B H}{C B \\cdot C A}=\\frac{S_{A H B}}{S_{A B C}} ; \\frac{A H \\cdot C H}{C B \\cdot A B}=\\frac{S_{A H C}}{S_{A B C}})% %(\\Rightarrow \\frac{H B \\cdot H C}{A B \\cdot A C}+\\frac{H A \\cdot H B}{A C \\cdot B C}+\\frac{H C \\cdot H A}{B C \\cdot A B}=\\frac{S_{A B C}}{S_{A B C}}=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "Gọi D là trung điểm của BC . Qua H kẻ đường thẳng vuông góc với DH cắt %(A B, A C)% lần lượt tại M và N . Chứng minh H là trung điểm của %(M N)%.",
+        "question_images": [],
+        "solution": "Chứng minh %(\\triangle A H M \\square \\triangle C D H(g . g) \\Rightarrow \\frac{H M}{H D}=\\frac{A H}{C D})%(3)<br>Chứng minh %(\\triangle A H N \\square \\triangle B D H(g . g) \\Rightarrow \\frac{A H}{B D}=\\frac{H N}{H D})%(4)<br>Mà %(C D=B D \\quad(g t) \\quad(5))%<br>Từ %((3),(4),(5) \\Rightarrow \\frac{H M}{H D}=\\frac{H N}{H D} \\Rightarrow H M=H N \\Rightarrow H)% là trung điểm của MN",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho hình vuông %(A B C D)% và 2018 đường thẳng cùng có tính chất chia hình vuông này thành hai tứ giác có tỉ số diện tích bằng %(\\frac{2}{3})%. Chứng minh rằng có ít nhất 505 đường thẳng trong 2018 đường thẳng trên đồng quy.",
+        "question_images": [],
+        "solution": "Gọi %(E, F, P, Q)% lần lượt là trung điểm của %(A B, C D, B C, A D)%.<br>Lấy các điềm %(I, G)% trên EF và %(K, H)% trên PQ thỏa mãn:<br>\\[\\frac{I E}{I F}=\\frac{H P}{H Q}=\\frac{G F}{G E}=\\frac{K Q}{K P}=\\frac{2}{3}\\]<br>Xét d là một trong các đường thẳng bất kỳ đã cho cắt hai đoạn thẳng %(A D, B C, E F)% lần lượt tại %(M, N, G^{\\prime})%. Ta có:<br>\\[\\frac{S_{A B M N}}{S_{C D N M}}=\\frac{2}{3} \\Leftrightarrow \\frac{\\frac{A B \\cdot(B M+A N)}{2}}{\\frac{C D \\cdot(C M+D N)}{2}}=\\frac{2}{3} \\Leftrightarrow \\frac{E G^{\\prime}}{G^{\\prime} F}=\\frac{2}{3} \\Leftrightarrow G \\equiv G^{\\prime} \\text { hay } d \\text { qua G. }\\]<br>Từ lập luận trên suy ra mỗi đường thẳng thỏa mãn yêu cầu của đề bài đều đi qua một trong 4 điểm %(G, H, I, K)%<br>Do có 2018 đường thẳng đi qua 1 trong 4 điểm %(G, H, I, K)% theo nguyên lý Dirichle phải tồn tại ít nhất %(\\left[\\frac{2018}{4}\\right]+1=505)% đường thẳng cùng đi qua một điểm trong 4 điềm trên.<br>Vậy có ít nhất 505 đường thẳng trong số 2018 đường thẳng đã cho đồng quy.",
+        "question_type": "essay"
+    }
+]

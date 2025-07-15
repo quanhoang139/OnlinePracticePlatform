@@ -1,0 +1,68 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.5,
+        "content": "Chứng minh rằng %(B=x^{3}\\left(x^{2}-7\\right)^{2}-36 x)% chia hết cho 105 với mọi số nguyên x.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}B=x^{3}\\left(x^{2}-7\\right)^{2}-36 x=x\\left[x^{2}\\left(x^{2}-7\\right)^{2}-6^{2}\\right]=x\\left[x\\left(x^{2}-7\\right)\\right]^{2}-6^{2} \\\\=x\\left[x\\left(x^{2}-7\\right)-6\\right]\\left[x\\left(x^{2}-7\\right)+6\\right]=x\\left(x^{3}-7 x-6\\right)\\left(x^{3}-7 x+6\\right) \\\\=x\\left(x^{3}-x-6 x-6\\right)\\left(x^{3}-x-6 x+6\\right) \\\\=x[x(x-1)(x+1)-6(x+1)][x(x-1)(x+1)-6(x-1)] \\\\=x\\left[(x+1)\\left(x^{2}-x-6\\right)\\right]\\left[(x-1)\\left(x^{2}+x-6\\right)\\right] \\\\=x\\left[(x+1)\\left(x^{2}-3 x+2 n-6\\right)\\right]\\left[(x-1)\\left(x^{2}+3 x-2 x-6\\right)\\right] \\\\=x(x+1)(x-3)(x+2)(x-1)(x+3)(x-2) \\\\=(x-3)(x-2)(x-1) x(x+1)(x+2)(x+3)\\end{array}\\]<br>Là tích của 7 số nguyên liên tiếp nên chia hết cho 3, cho 5, cho 7.<br>Mà %((3,5,7)=1)% nên tích trên chia hết cho %(3 . 5 .7=105)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho các số %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c}, \\mathrm{d})% nguyên dương đôi một khác nhau và thoả mãn: %(\\frac{2 \\mathrm{a}+\\mathrm{b}}{a+b}+\\frac{2 \\mathrm{~b}+\\mathrm{c}}{b+\\mathrm{c}}+\\frac{2 \\mathrm{c}+\\mathrm{d}}{c+d}+\\frac{2 \\mathrm{~d}+\\mathrm{a}}{d+\\mathrm{a}}=6)%. Chứng minh %(\\mathrm{A}=\\mathrm{abcd})% là số chính phương.",
+        "question_images": [],
+        "solution": "\\[\\begin{aligned}& \\frac{2 \\mathrm{a}+\\mathrm{b}}{a+b}+\\frac{2 \\mathrm{~b}+\\mathrm{c}}{b+\\mathrm{c}}+\\frac{2 \\mathrm{c}+\\mathrm{d}}{c+d}+\\frac{2 \\mathrm{~d}+\\mathrm{a}}{d+\\mathrm{a}}=6 \\\\Leftrightarrow & 1+\\frac{\\mathrm{a}}{a+b}+1+\\frac{\\mathrm{b}}{b+\\mathrm{c}}+1+\\frac{\\mathrm{c}}{c+d}+1+\\frac{\\mathrm{d}}{d+\\mathrm{a}}=6 \\\\Leftrightarrow & \\frac{\\mathrm{a}}{a+b}+\\frac{\\mathrm{b}}{b+\\mathrm{c}}+\\frac{\\mathrm{c}}{c+d}+\\frac{\\mathrm{d}}{d+\\mathrm{a}}=2 \\\\Leftrightarrow & 1-\\frac{\\mathrm{a}}{a+b}-\\frac{\\mathrm{b}}{b+\\mathrm{c}}+1-\\frac{\\mathrm{c}}{c+d}-\\frac{\\mathrm{d}}{d+\\mathrm{a}}=0 \\\\Leftrightarrow & \\frac{\\mathrm{b}}{a+b}-\\frac{\\mathrm{b}}{b+\\mathrm{c}}+\\frac{\\mathrm{d}}{c+d}-\\frac{\\mathrm{d}}{d+\\mathrm{a}}=0 \\\\Leftrightarrow & \\frac{\\mathrm{b}(\\mathrm{c}-\\mathrm{a})}{(a+b)(b+\\mathrm{c})}+\\frac{\\mathrm{d}(\\mathrm{a}-\\mathrm{c})}{(c+d)(d+\\mathrm{a})}=0 \\\\Leftrightarrow & b(c+d)(d+a)-d(a+b)(b+c)=0 \\Leftrightarrow a b c-a c d+b d^{2}-b^{2} d=0 \\\\Leftrightarrow & (b-d)(a c-b d)=0\\end{aligned}\\]<br>\\[\\Leftrightarrow a c-b \\mathrm{~d}=0 \\Leftrightarrow a c=b \\mathrm{~d} \\text { (vì } \\mathrm{b} \\neq \\mathrm{d} \\text { ) }\\]<br>Vậy %(\\mathrm{A}=\\mathrm{abcd}=(\\mathrm{ac})^{2})% là số chính phương",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Tìm nghiệm nguyên dương của phương trình:<br>\\[\\frac{2016}{x+y}+\\frac{x}{y+2015}+\\frac{y}{4031}+\\frac{2015}{x+2016}=2\\]",
+        "question_images": [],
+        "solution": "+) Với a, b, c, d dương, ta có:<br>\\[\\begin{array}{l}F=\\frac{a}{b+c}+\\frac{b}{c+d}+\\frac{c}{d+a}+\\frac{d}{a+b} \\\\=\\left(\\frac{a}{b+c}+\\frac{c}{d+a}\\right)+\\left(\\frac{b}{c+d}+\\frac{d}{a+b}\\right)=\\frac{a(d+a)+c(b+c)}{(b+c)(d+a)}+\\frac{b(a+b)+d(c+d)}{(c+d)(a+b)} \\geq \\\\geq \\frac{a^{2}+c^{2}+a d+b c}{\\frac{1}{4}(b+c+d+a)^{2}}+\\frac{b^{2}+d^{2}+a b+c \\mathrm{~d}}{\\frac{1}{4}(c+d+a+b)^{2}}=\\frac{4\\left(a^{2}+b^{2}+c^{2}+d^{2}+a b+a d+b c+c \\mathrm{~d}\\right)}{(a+b+c+d)^{2}}\\end{array}\\]<br>(theo bất đẳng thức %(\\left.\\mathrm{xy} \\leq \\frac{1}{4}(\\mathrm{x}+\\mathrm{y})^{2}\\right))%<br>+) Mặt khác:<br>\\[\\begin{array}{l}2\\left(a^{2}+b^{2}+c^{2}+d^{2}+a b+a d+b c+c d\\right)-(a+b+c+d)^{2} \\\\=a^{2}+b^{2}+c^{2}+d^{2}-2 a c-2 b d=(a-c)^{2}+(b-d)^{2} \\geq 0\\end{array}\\]<br>Suy ra %(\\mathrm{F} \\geq 2)% và đẳng thức xảy %(\\mathrm{ra} \\Leftrightarrow \\mathrm{a}=\\mathrm{c} ; \\mathrm{b}=\\mathrm{d})%<br>+) Áp dụng với %(\\mathrm{a}=2016, \\mathrm{~b}=\\mathrm{x}, \\mathrm{c}=\\mathrm{y}, \\mathrm{d}=2015)%, ta có:<br>\\[\\frac{2016}{x+y}+\\frac{x}{y+2015}+\\frac{y}{4031}+\\frac{2015}{x+2016} \\geq 2\\]<br>Đẳng thức xảy %(\\mathrm{ra} \\Leftrightarrow \\mathrm{y}=2016 ; \\mathrm{x}=2015)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 2.5,
+        "content": "Cho %(\\mathrm{a}, \\mathrm{b})% là các số dương thỏa mãn %(\\mathrm{a}^{3}+\\mathrm{b}^{3}=\\mathrm{a}^{5}+\\mathrm{b}^{5})%. Chứng minh rằng: %(\\mathrm{a}^{2}+\\mathrm{b}^{2} \\leq 1+\\mathrm{ab})%",
+        "question_images": [],
+        "solution": "Với 2 số a, b dương:<br>\\[\\begin{array}{l}\\text { Xét: } a^{2}+b^{2} \\leq 1+a b \\Leftrightarrow a^{2}+b^{2}-a b \\leq 1 \\\\Leftrightarrow(a+b)\\left(a^{2}+b^{2}-a b\\right) \\leq(a+b)(\\text { vì } a+b\\gt 0) \\\\Leftrightarrow a^{3}+b^{3} \\leq a+b \\\\Leftrightarrow\\left(a^{3}+b^{3}\\right)\\left(a^{3}+b^{3}\\right) \\leq(a+b)\\left(a^{5}+b^{5}\\right) \\quad\\left(\\text { vì } a^{3}+b^{3}=a^{5}+b^{5}\\right) \\\\Leftrightarrow a^{6}+2 a^{3} b^{3}+b^{6} \\leq a^{6}+a b^{5}+a^{5} b+b^{6} \\\\Leftrightarrow 2 a^{3} b^{3} \\leq a b^{5}+a^{5} b\\end{array}\\]<br>\\[\\begin{array}{l}\\Leftrightarrow a b\\left(a^{4}-2 a^{2} b^{2}+b^{4}\\right) \\geq 0 \\\\Leftrightarrow a b\\left(a^{2}-b^{2}\\right)^{2} \\geq 0 \\text { đúng } \\forall a, b>0 .\\end{array}\\]<br>Vậy: %(\\mathrm{a}^{2}+\\mathrm{b}^{2} \\leq 1+\\mathrm{ab})% với %(\\mathrm{a}, \\mathrm{b})% dương và %(\\mathrm{a}^{3}+\\mathrm{b}^{3}=\\mathrm{a}^{5}+\\mathrm{b}^{5})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 3.0,
+        "content": "Để tham gia ngày chạy Olympic vì sức khỏe toàn dân, trường A đã nhận được một số chiếc áo và chia đều cho các lớp. Biết rằng theo thứ tự, lớp thứ nhất nhận được 4 áo và %(\\frac{1}{9})% số áo còn lại, rồi đến lớp thứ %(\\mathrm{n}~(\\mathrm{n}=2 ; 3 ; 4 ; \\ldots))% nhận được 4 n áo và %(\\frac{1}{9})% số áo còn lại. Cứ như thế các lớp đã nhận hết số áo. Hỏi trường A đã nhận được bao nhiêu chiếc áo?",
+        "question_images": [],
+        "solution": "Vì lớp thứ x nhận áo cuối cùng và số áo được phát hết nên số áo lớp thứ x nhận được là 4x<br>Lớp thứ %(x-1)% nhận số áo là %(4(x-1)+\\frac{1}{8} . 4 x=4,5 x-4)%<br>Vì số áo các lớp nhận được như nhau nên ta có phương trình:<br>%(4,5 x-4=4 x \\Leftrightarrow x=8)%<br>%(\\Rightarrow)% Số áo mỗi lớp nhận được: 4.8 = 32 (áo)<br>Suy ra số áo trường A nhận được: 32.8 = 256 (áo).",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 3.0,
+        "content": "Tìm tất cả các số nguyên dương n để %(\\left(1+\\mathrm{n}^{2017}+\\mathrm{n}^{2018}\\right))% là số nguyên tố.",
+        "question_images": [],
+        "solution": "Đặt %(A=1+n^{2017}+n^{2018})%<br>Với %(n=1 \\Rightarrow A=3)% là số nguyên tố<br>\\[\\begin{array}{l}\\text { Với } n\\gt 1 \\text { ta có: } 1+n^{2017}+n^{2018}=\\left(n^{2018}-n^{2}\\right)+\\left(n^{2017}-n\\right)+ \\\\left(n^{2}+n+1\\right) \\\\=n^{2}\\left(n^{2016}-1\\right)+n\\left(n^{2016}-1\\right)+\\left(n^{2}+n+1\\right)= \\\\left(n^{2}+n\\right)\\left(n^{2016}-1\\right)+\\left(n^{2}+n+1\\right) \\\\text { Mà: } n^{2016}-1=\\left(n^{3}\\right)^{672}-1= \\\\left(n^{3}-1\\right)\\left[\\left(n^{3}\\right)^{671}+\\left(n^{3}\\right)^{670}+\\ldots+n^{3}+1\\right]~ \\vdots ~n^{3}-1 \\\\Rightarrow\\left(n^{2016}-1\\right) ~\\vdots\\left(n^{2}+n+1\\right) \\Rightarrow A ~\\vdots\\left(n^{2}+n+1\\right)\\end{array}\\]<br>Ta lại có: %(1\\lt n^{2}+n+1\\lt A)% nên A là số nguyên tố.<br>Vậy %(\\mathrm{n}=1)% là số nguyên dương duy nhất thỏa mãn điều kiện đề bài.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 3.0,
+        "content": "Một giải bóng chuyền có 9 đội bóng tham gia thi đấu vòng tròn một lượt<i> (hai đội bất kì chỉ thi đấu với nhau một trận)</i>. Biết đội thứ nhất thắng %(\\mathrm{a}_{1})% trận và thua %(\\mathrm{b}_{1})% trận, đội thứ hai thắng %(\\mathrm{a}_{2})% trận và thua %(\\mathrm{b}_{2})% trận, %(\\ldots)%, đội thứ 9 thắng %(\\mathrm{a}_{9})% trận và thua %(\\mathrm{b}_{9})% trận.<br>Chứng minh rằng %(\\mathrm{a}_{1}^{2}+\\mathrm{a}_{2}^{2}+\\mathrm{a}_{3}^{2}+\\ldots+\\mathrm{a}_{9}^{2}=\\mathrm{b}_{1}^{2}+\\mathrm{b}_{2}^{2}+\\mathrm{b}_{3}^{2}+\\ldots+\\mathrm{b}_{9}^{2})%.",
+        "question_images": [],
+        "solution": "Mỗi đội bóng lần lượt thi đấu với 8 đội bóng khác và hai đội bất kì chỉ gặp nhau 1 trận nên mỗi đội sẽ thi đấu 8 trận.<br>%(\\Rightarrow a_{i}+b_{i}=8)% (với %(i=1,2,3, \\ldots, 8)% ).<br>Đẳng thức cần chứng minh tương đương với:<br>\\[\\begin{array}{l}\\mathrm{a}_{1}^{2}+\\mathrm{a}_{2}^{2}+\\mathrm{a}_{3}^{2}+\\ldots+\\mathrm{a}_{9}^{2}=\\left(8-\\mathrm{a}_{1}\\right)^{2}+\\left(8-\\mathrm{a}_{2}\\right)^{2}+\\left(8-\\mathrm{a}_{3}\\right)^{2}+\\ldots+\\left(8-\\mathrm{a}_{9}\\right)^{2} \\\\Leftrightarrow 16\\left(\\mathrm{a}_{1}+\\mathrm{a}_{2}+\\mathrm{a}_{3}+\\ldots+\\mathrm{a}_{9}\\right)=576 ~~~~~~\\text { (1) }\\end{array}\\]<br>Mặt khác, tổng số trận thắng của các đội bằng tổng số trận đấu nên:<br>\\[\\mathrm{a}_{1}+\\mathrm{a}_{2}+\\mathrm{a}_{3}+\\ldots+\\mathrm{a}_{9}=\\frac{9.8}{2}=36~~~~~(2)\\]<br>Từ (1) và (2) => đpcm",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.0,
+        "content": "Hình vuông có %(3 \\times 3)% ô chứa 9 số mà tổng các số ở mỗi hàng, mỗi cột và mỗi đường chéo đều bằng nhau gọi là hình vuông kì diệu. Chứng minh rằng số ở tâm %((\\mathrm{x}))% của một hình vuông kì diệu bằng trung bình cộng của hai số còn lại cùng hàng, hoặc cùng cột, hoặc cùng đường chéo.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/3b0e133d4c472ef13a285d4de6467cf1.png"
+        ],
+        "solution": "Giả sử hình vuông kì diệu điền các số %(\\mathrm{a}, \\mathrm{b}, \\mathrm{c}, \\mathrm{d}, \\mathrm{e}, \\mathrm{f}, \\mathrm{g}, \\mathrm{h}, \\mathrm{i})% như hình vẽ.<br>Đặt %(S=a+b+c+d+e+f+g+h+i)%.<br>Suy ra %(d+e+f=b+e+h=a+e+i=c+e+g=\\frac{S}{3}~~~~~(1))%<br>Suy ra %((\\mathrm{d}+\\mathrm{e}+\\mathrm{f})+(\\mathrm{b}+\\mathrm{e}+\\mathrm{h})+(\\mathrm{a}+\\mathrm{e}+\\mathrm{i})+(\\mathrm{c}+\\mathrm{e}+\\mathrm{g})=\\frac{4 \\mathrm{~S}}{3})%<br>\\[\\begin{array}{l}\\Rightarrow(\\mathrm{d}+\\mathrm{e}+\\mathrm{f})+(\\mathrm{b}+\\mathrm{e}+\\mathrm{h})+(\\mathrm{a}+\\mathrm{e}+\\mathrm{i})+(\\mathrm{c}+\\mathrm{e}+\\mathrm{g})=\\frac{4 \\mathrm{~S}}{3} \\\\Rightarrow \\mathrm{S}+3 \\mathrm{e}=\\frac{4 \\mathrm{~S}}{3} \\Rightarrow \\mathrm{e}=\\frac{\\mathrm{S}}{9}~~~~~~ \\text { (2) }\\end{array}\\]<br>Từ (1) và %((2) \\Rightarrow \\mathrm{d}+\\mathrm{f}=\\mathrm{b}+\\mathrm{h}=\\mathrm{a}+\\mathrm{i}=\\mathrm{c}+\\mathrm{g}=\\frac{2 \\mathrm{~S}}{9}=2 \\mathrm{e} ~~\\mathrm{(đpcm)})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/38ad8430e96b8d31e9ca7a67800e07df.png\" srcset=\"https://docdn.giainhanh.io/media/test/cd3008110f9b931287b10a2d1a44718b.png 154w\" width=\"154\"/>",
+        "question_type": "essay"
+    }
+]

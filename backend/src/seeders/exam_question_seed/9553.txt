@@ -1,0 +1,81 @@
+[
+    {
+        "title": "1a ",
+        "point": 2.0,
+        "content": "Cho %(a^{2}+a+1=0)%. Tính giá trị của biểu thức %(P=a^{2013}+\\frac{1}{a^{2013}})%",
+        "question_images": [],
+        "solution": "Từ %(a^{2}+a+1=0)% với %(a \\neq 1)%<br>Ta có: %((a-1)\\left(a^{2}+a+1\\right)=0 \\Rightarrow a^{3}-1=0 \\Rightarrow a^{3}=1)%<br>Ta lại có %(a^{2013}=\\left(a^{3}\\right)^{671})%<br>Do đó: %(P=a^{2013}+\\frac{1}{a^{2013}}=\\left(a^{3}\\right)^{671}+\\frac{1}{\\left(a^{3}\\right)^{671}}=1+1=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "1b ",
+        "point": 2.0,
+        "content": "Cho hai số %(x, y)% thỏa mãn: %(x^{2}+x^{2} y^{2}-2 y=0)% và %(x^{3}+2 y^{2}-4 y+3=0)%<br>Tính giá trị của biểu thức %(Q=x^{2}+y^{2})%",
+        "question_images": [],
+        "solution": "Từ %(x^{2}+x^{2} y^{2}-2 y=0 \\Rightarrow x^{2}=\\frac{2 y}{y^{2}+1} \\leq 1 \\Rightarrow-1 \\leq x \\leq 1)%<br>%(x^{3}+2 y^{2}-4 y+3=0 \\Rightarrow x^{3}=-1-2(y-1)^{2} \\leq-1 \\Rightarrow x \\leq-1)%<br>Từ (1) và %((2) \\Rightarrow x=-1 \\Rightarrow x^{2}=1)%<br>%(x^{2}=1 \\Rightarrow y^{2}-2 y+1=0 \\Rightarrow y=1 \\Rightarrow y^{2}=1 )%<br>Vậy %(Q=x^{2}+y^{2}=1+1=2)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2a ",
+        "point": 2.5,
+        "content": "Tìm tất cả các cặp số tự nhiên %((x ; y))% thỏa mãn: %(2^{x}=5^{y}-624)%",
+        "question_images": [],
+        "solution": "Ta có: %(2^{x}=5^{y}-624 \\Leftrightarrow 2^{x}+624=5^{y}(*))%<br>+ Xét %(x=0)%, ta có: %(5^{y}=625 \\Leftrightarrow y=4)%<br>+ Xét %(x \\in \\mathbb{N})% và %(x\\gt 0)% ta có %(\\mathrm{VT}\\left({ }^{*}\\right))% là số chẵn còn vế phải %(\\left({ }^{*}\\right))% là số lẻ (vô lý)<br>Vậy %((x ; y)=(0 ; 4))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2b ",
+        "point": 2.5,
+        "content": "Tìm tất cả các cặp số nguyên %((x ; y))% thỏa mãn:<br>\\[10 x^{2}+50 y+42 x y+14 x-6 y+57\\lt 0\\]",
+        "question_images": [],
+        "solution": "Ta có:<br>%(\\begin{array}{l}10 x^{2}+50 y^{2}+42 x y+14 x-6 y+57\\lt 0 \\\\ \\Leftrightarrow\\left(9 x^{2}+42 x y+49 y^{2}\\right)+\\left(x^{2}+14 x+49\\right)+\\left(y^{2}-6 y+9\\right)-1\\lt 0 \\\\ \\Leftrightarrow(3 x+7 y)^{2}+(x+7)^{2}+(y-3)^{2}-1\\lt 0 \\\\ \\Leftrightarrow(3 x+7 y)^{2}+(x+7)^{2}+(y-3)^{2}\\lt 1\\end{array})%<br>Vì %(\\left\\{\\begin{array}{l}(3 x+7 y)^{2} \\geq 0 \\\\ (x+7)^{2} \\geq 0 \\\\ (y-3)^{2} \\geq 0\\end{array}\\right.)%và %(x, y \\in \\mathbb{Z})% nên %((3 x+7 y)^{2}+(x+7)^{2}+(y-3)^{2}=0)%<br>%(\\Rightarrow(3 x+7 y)^{2}=(x+7)^{2}=(y-3)^{2}=0 \\Rightarrow\\left\\{\\begin{array}{l}x=-7 \\\\ y=3\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3a ",
+        "point": 2.0,
+        "content": "Tìm số tự nhiên %(n)% sao cho số %(A=n^{2}+n+6)% là số chính phương.",
+        "question_images": [],
+        "solution": "Giả sử %(A)% là số chính phương, suy ra tồn tại số %(k \\in \\mathbb{N})% sao cho :<br>\\[n^{2}+n+6=k^{2} \\Leftrightarrow 4\\left(n^{2}+n+6\\right)=4 k^{2}\\]<br>\\[\\Leftrightarrow(2 k)^{2}-(2 n+1)^{2}=23 \\Leftrightarrow(2 k+2 n+1)(2 k-2 n-1)=23 ~~~(*)\\]<br>Do %(k, n \\in \\mathbb{N})% nên dễ thấy %(2 k-n-1)% và %(2 k+2 n+1)% là các số nguyên<br>Ngoài ra %(23\\gt 0)% và %(2 k+2 n+1 \\geq 1 ; 2 k-2 n-1\\lt 2 k+2 n+1)%<br>Suy ra %(1 \\leq 2 k-2 n-1\\lt 2 k+2 n+1)%<br>Căn cứ các lập luận trên và 23 là số nguyên tố nên từ (*) suy ra<br>\\[\\left\\{\\begin{array}{l}2 k-2 n-1=0 \\\\2 k+2 n+1=23\\end{array} \\Rightarrow 4 n+2=22 \\Leftrightarrow n=5\\right.\\]<br>Với %(n=5)% thì %(A=36=6^{2})% là số chính phương<br>Vậy %(n=5)% là số tự nhiên cần tìm",
+        "question_type": "essay"
+    },
+    {
+        "title": "3b ",
+        "point": 2.0,
+        "content": "Trong một cuộc thi “Đố vui để học”, mỗi học sinh tham gia thi phải trả lời 10 câu hỏi. Mỗi câu trả lời đúng thì được cộng 5 điểm; ngược lại, mỗi câu trả lời sai thì bị trừ 2 điểm. Qua cuộc thi, những học sinh đạt từ 30 điểm trở lên thì được thưởng. Hỏi: Mỗi học sinh được thưởng thì phải trả lời đúng ít nhất bao nhiêu câu hỏi?",
+        "question_images": [],
+        "solution": "Gọi %(x)% là số câu trả lời đúng ( %(x)% nguyên và %(0 \\leq x \\leq 10)% )<br>Số câu trả lời sai là : %(10-x)%<br>Số điểm được cộng là %(5 x)%<br>Số điểm bị trừ là %(2 .(10-x))%<br>Nếu được thưởng thì phải đạt từ 30 điểm trở lên. Nên ta có:<br>\\[5 x-2(10-x) \\geq 30\\]<br>Giải bất phương trình trên ta được: %(x \\geq 8(\\mathrm{tm}))%<br>Vậy để được thưởng học sinh phải trả lời đúng ít nhất 8 câu hỏi.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 3.0,
+        "content": "Cho tam giác %(A B C)% vuông ở A có AM là phân giác %((M \\in B C))%. Đường thẳng qua M và vuông góc với BC cắt đường thẳng %(A B)% tại N . Chứng minh rằng %(M N=M C)%",
+        "question_images": [],
+        "solution": "Kẻ %(M H \\perp A B)% tại %(\\mathrm{H}, M K \\perp A C)% tại %(\\mathrm{K} \\Rightarrow A H M K)% là hình vuông %(\\Rightarrow M H=M K \\quad (1))%<br>Ta có: %(\\widehat{M C A}=\\widehat{M N A})% (hai góc nhọn có cạnh tương ứng vuông góc) %(\\quad(2))%<br>Từ (1) và (2) %(\\Rightarrow \\triangle M H N=\\Delta M K C(c h-c g v) \\Rightarrow M N=M C)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9bd84bbf8f5dab4f7cce427b4efa519d.png\" srcset=\"https://docdn.giainhanh.io/media/test/6bf9817b948a727a3994055b9bfa66dd.png 245w, https://docdn.giainhanh.io/media/test/62d6fb70ef8656f94432b97364595235.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho hình vuông %(A B C D)% có cạnh bằng 20 cm . Trên cạnh %(C D)% lấy điểm %(M)%.Đường thẳng vuông góc với %(B M)% tại M cắt %(A D)% tại N .",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 2.0,
+        "content": "a) Cho %(M C=15 \\mathrm{~cm})%. Tính diện tích tam giác %(B M N)%",
+        "question_images": [],
+        "solution": "Hai tam giác vuông %(B C M)% và %(M D N)% có:<br>\\[\\begin{array}{l}\\widehat{C B M}=\\widehat{D M N} \\text { (cùng phụ với } \\widehat{B M C} \\text { ) } \\\\Rightarrow \\triangle B C M \\sim \\triangle M D N \\Rightarrow \\frac{N D}{M C}=\\frac{M D}{B C} \\quad\\left({ }^{*}\\right) \\\\Rightarrow N D=\\frac{M C \\cdot M D}{B C}=\\frac{15 \\cdot(20-15)}{20}=3,75(\\mathrm{~cm}) \\\\Rightarrow A N=A D-N D=20-3,75=16,25(\\mathrm{~cm})\\end{array}\\]<br>Ta có: %(S_{\\triangle B M N}=S_{A B C D}-S_{B C M}-S_{D M N}-S_{A B N})%<br>\\[=20^{2}-\\frac{1}{2} \\cdot 20 \\cdot 15-\\frac{1}{2} \\cdot 5 \\cdot 3,75-\\frac{1}{2} \\cdot 20 \\cdot 16,25=78,125\\left(\\mathrm{~cm}^{2}\\right)\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/8421d3db4205c0fae23e00ced310d6c1.png\" srcset=\"https://docdn.giainhanh.io/media/test/e16bb69d1c93a55894ad79f76cf55a77.png 159w\" width=\"159\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Xác định vị trí của %(M)% trên cạnh %(C D)% đề %(N D)% có độ dài lớn nhất.",
+        "question_images": [],
+        "solution": "Đặt %(M C=x~~~(0 \\leq x \\leq 20))%<br>Từ %((*) \\Rightarrow N D=\\frac{M C \\cdot M D}{B C}=\\frac{x \\cdot(20-x)}{20}=\\frac{20 x-x^{2}}{20}=5-\\frac{(x-10)^{2}}{20} \\leq 5)%<br>%(\\Rightarrow)% Độ dài %(ND)% lớn nhất là %(N D=5 \\mathrm{~cm})% khi %(x=10)% hay %(M)% là trung điểm của %(C D)%<br>Vậy để độ dài %(ND)% lớn nhất thì vị trí của %(M)% là trung điểm của %(CD)%.",
+        "question_type": "essay"
+    }
+]

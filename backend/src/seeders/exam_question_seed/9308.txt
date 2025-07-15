@@ -1,0 +1,50 @@
+[
+    {
+        "title": "1 ",
+        "point": 3.0,
+        "content": "Làm thế nào để đem được 6 lít nước từ sông về nếu trong tay chỉ có 2 cái can, một can có dung tích 4 lít, một can có dung tích 9 lít và không can nào có vạch chia dung tích?",
+        "question_images": [],
+        "solution": "Ký hiệu %((a ; b))% là trạng thái can 4 lít có %(a)% lít với %(0 \\leq a \\leq 4)% và can 9 lít có %(b)% lít với %(0 \\leq b \\leq 9)%.<br>Khi đó việc lấy được 6 lít nước từ sông được diễn tả qua các trạng thái sau:<br>\\[(0 ; 0) \\Rightarrow(0 ; 9) \\Rightarrow(4 ; 5) \\Rightarrow(0 ; 5) \\Rightarrow(4 ; 1) \\Rightarrow(0 ; 1) \\Rightarrow(1 ; 9) \\Rightarrow(4 ; 6)\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 3.0,
+        "content": "Một số gồm 4 chữ số giống nhau chia cho một số gồm 3 chữ số giống nhau thì được thương là 16 và số dư là một số r nào đó<br>Nếu số bị chia và số chia đều bớt đi một chữ số thì thương không đổi và số dư giảm bớt 200 . Tìm các số đó",
+        "question_images": [],
+        "solution": "Ta có: %(\\overline{a a a a}=16 \\overline{b b b}+r \\quad \\overline{a a a}=16 \\overline{b b}+(r-200))%<br>Với %(200 \\leq r\\lt \\overline{b b b})%<br>Trừ các đẳng thức ta có:<br>%(1000 a=1600 b+200 \\Leftrightarrow 5 a=8 b+1 \\Rightarrow\\left\\{\\begin{array}{l}a=5 \\b=3\\end{array}\\right.)%<br>Ta có các số 5555 và 333 thỏa mãn.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 3.0,
+        "content": "Chứng minh rằng %(n^{3}-n)% chia hết cho 6 với mọi số tự nhiên n",
+        "question_images": [],
+        "solution": "Ta có: %(n^{3}-n=(n-1) \\cdot n \\cdot(n+1))% chia hết cho 3 vì tích của 3 số nguyên liên tiếp<br>Ta cũng có %((n-1) n(n+1))% chia hết cho 2 vì trong 3 số liên tiếp có 1 số chẵn<br>Mà %((2,3)=1)%. Vậy %(n^{3}-n)% chia hết cho 6",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 3.0,
+        "content": "Tính tổng %(S=\\frac{1}{1-x}+\\frac{1}{1+x}+\\frac{1}{1+x^{2}}+\\frac{4}{1+x^{4}}+\\frac{8}{1+x^{8}})%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}S=\\frac{1}{1-x}+\\frac{1}{1+x}+\\frac{1}{1+x^{2}}+\\frac{1}{1+x^{4}}+\\frac{8}{1+x^{8}} \\\\ =\\frac{2}{1-x^{2}}+\\frac{2}{1+x^{2}}+\\frac{4}{1+x^{4}}+\\frac{8}{1+x^{8}}=\\frac{4}{1-x^{4}}+\\frac{4}{1+x^{4}}+\\frac{8}{1+x^{8}}=\\frac{8}{1-x^{8}}+\\frac{8}{1+x^{8}}=\\frac{16}{1-x^{16}}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 4.0,
+        "content": "Nhân ngày %(1-6)% một phân đội thiếu niên được tặng một số kẹo. Số kẹo này được chia hết và chia đều cho mọi người trong phân đội. Để đảm bảo nguyên tắc ấy phân đội trưởng đề xuất cách nhận phần kẹo của mỗi người như sau:<br>Bạn thứ nhất 1 cái kẹo và được lấy thêm %(\\frac{1}{11})% số kẹo còn lại. Sau khi bạn thứ nhất đã lấy phần mình, bạn thứ hai nhận 2 cái kẹo và được lấy thêm %(\\frac{1}{11})% số kẹo còn lại. Cứ tiếp tục như thế đến bạn cuối cùng thứ n nhận %(n)% cái kẹo và được lấy thêm %(\\frac{1}{11})% số kẹo còn lại.<br>Hỏi phân đội thiếu niên nói trên có bao nhiêu đội viên và mỗi đội viên nhận bao nhiêu kẹo.",
+        "question_images": [],
+        "solution": "Gọi số kẹo phân đội được tặng là %(x)% (cái) ; %(x \\in N^ *)%<br>Số kẹo bạn thứ nhất nhận: %(1+\\frac{1}{11}(x-1)=\\frac{x}{11}+\\frac{10}{11})% (cái)<br>Số kẹo còn lại sau khi bạn thứ nhất nhận %(x-\\left(\\frac{x}{11}+\\frac{10}{11}\\right)=\\frac{10 x}{11}-\\frac{10}{11})% (cái)<br>Số kẹo bạn thứ hai nhận : %(2+\\frac{1}{11} \\cdot\\left(\\frac{10 x}{11}-\\frac{10}{11}-2\\right)=\\frac{10 x}{121}+\\frac{210}{121})% (cái)<br>Vì số kẹo cùa mỗi bạn bằng nhau nên ta có phương trình:<br>%(\\frac{x}{11}+\\frac{10}{11}=\\frac{10 x}{121}+\\frac{210}{121} \\Leftrightarrow \\frac{11 x}{121}-\\frac{10 x}{121}=\\frac{210}{121}-\\frac{110}{121} \\Leftrightarrow x=100)%<br>Số kẹo mỗi đội viên nhận là: %(\\frac{100}{11}+\\frac{10}{11}=10)%<br>Số đội viên là : %(100: 10=10)% (bạn)",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 4.0,
+        "content": "Cho tam giác ABC cân tại A , có %(\\widehat{A}=20^{\\circ})%. Trên AB lấy điểm D sao cho %(A D=B C)%. Tính số đo %(\\widehat{B D C})% ?",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/617a8b8e5f67fda422bde9456d406351.png\" srcset=\"https://docdn.giainhanh.io/media/test/86faa925bc8805b2ead6f04af5c12abe.png 88w\" width=\"88\"/><br>Ở miền trong tam giác ABC ta dựng tam giác đều %(B C E)% khi đó:<br>\\[\\begin{array}{l}\\triangle A B E=\\triangle A C E(\\text { c.c.c }) \\Rightarrow \\widehat{B A E}=\\widehat{C A E}=10^{\\circ} \\A B E=20^{\\circ} \\text { và } A E B=150^{\\circ} \\text { suy ra } \\\\triangle A D C=\\triangle B E A(\\text { c.g.c }) \\Rightarrow \\widehat{A D C}=\\widehat{B E A}=150^{\\circ} \\Rightarrow \\widehat{B D C}=30^{\\circ}\\end{array}\\]",
+        "question_type": "essay"
+    }
+]

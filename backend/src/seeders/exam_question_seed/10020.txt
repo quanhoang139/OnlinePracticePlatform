@@ -1,0 +1,65 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}x y+3 y^{2}-8 y+7=\\sqrt{3 x y^{3}+6 y^{2}} \\\\ \\sqrt{x y+y+7}=\\sqrt{y}(5-\\sqrt{3 y+1})\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Điều kiện: %(y \\geq 0, x y+2 \\geq 0, x y+y+7 \\geq 0)%.%(y=0)% không thoả mãn hệ. %(y \\neq 0)% chia hai vế phương trình thư nhất trong hệ cho %(y)% và chia hai vế phương trình thứ hai trong hệ cho %(\\sqrt{y})% ta được<br>\\[\\left\\{\\begin{array} { l } { x + 3 y + \\frac { 7 } { y } - 8 = \\sqrt { 3 x y + 6 } } \\\\{ \\sqrt { x + \\frac { 7 } { y } + 1 } + \\sqrt { 3 x y + 1 } = 5 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x+3 y+\\frac{7}{y}-8=\\sqrt{3 x y+6} \\x+3 y+\\frac{7}{y}+2+2 \\sqrt{x+3 y+\\frac{7}{y}+3 x y+21+1}=25\\end{array}\\right.\\right.\\]<br>Đặt %(\\left\\{\\begin{array}{l}a=x+3 y+\\frac{7}{y} \\\\ b=\\sqrt{3 x y+6}\\end{array}\\right.)%Hệ có dạng %(\\left\\{\\begin{array}{l}a-8=b \\\\ a+2+2 \\sqrt{a+b^{2}+16}=25\\end{array}\\right.)%<br>\\[\\Leftrightarrow(a ; b)=(11 ; 3) \\Leftrightarrow(x ; y)=(1 ; 1),\\left(\\frac{8}{3} ; \\frac{3}{8}\\right)\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Cho đa thức với hệ số thực %(P(x)=x^{4}+a x^{3}+b x^{2}+c x+d)% thoả mãn %(P(1)=3, P(3)=11, P(5)=27)%. Tính %(P(-2)+7 P(6))%.",
+        "question_images": [],
+        "solution": "Nhận xét %(f(x)=x^{2}+2)% thoà mãn %(f(1)=3, f(3)=11, f(5)=27)%<br>Xét đa thức %(Q(x)=P(x)-f(x))% là đa thức bậc 4 có các nghiệm là %(x=1, x=3, x=5)%<br>Nên %(Q(x)=(x-1)(x-3)(x-5)(x-m))%<br>Ta có %(P(-2)=Q(-2)+f(-2)=216+105 m, P(6)=Q(6)+f(6)=128-15 m)%Vậy %(P(-2)+7 P(6)=216+105 m+7(128-15 m)=1112)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Tìm tất cả các cặp số nguyên dương %((x ; y))% thoả mãn phương trình:<br>\\[\\left(x^{2}+4 y^{2}+28\\right)^{2}=17\\left(x^{4}+y^{4}+14 y^{2}+49\\right)\\]",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}P T \\Leftrightarrow\\left[x^{2}+4\\left(y^{2}+7\\right)\\right]=17\\left[x^{4}+\\left(y^{2}+7\\right)^{2}\\right] \\\\Leftrightarrow 16 x^{4}-8 x^{2}\\left(y^{2}+7\\right)+\\left(y^{2}+7\\right)^{2}=0 \\Leftrightarrow\\left[4 x^{2}-\\left(y^{2}+7\\right)\\right]^{2}=0 \\\\Leftrightarrow 4 x^{2}-y^{2}-7=0 \\Leftrightarrow(2 x+y)(2 x-y)=7\\end{array}\\]<br>Do %(x, y)% nguyên dương nên %(2 x+y \\geq 2 x-y)% và %(2 x+y\\gt 0)%<br>Vậy %(\\left\\{\\begin{array}{l}2 x+y=7 \\\\ 2 x-y=1\\end{array} \\Leftrightarrow(x ; y)=(2 ; 3)\\right.)%<br>Vậy phương trình có nghiệm %((x ; y)=(2 ; 3))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho tam giác nhọn %(A B C)% không cân nội tiếp đường tròn %((O))%, có đường cao %(A H)% và tâm đường tròn nội tiếp là %(I)%. Đường thẳng %(A I)% cắt lại đường tròn %((O))% tại điểm thứ hai %(M)%. Gọi %(A^{\\prime})% là điểm đối xứng với %(A)% qua %(O)%. Đường thẳng %(M A^{\\prime})% cắt các đường thẳng %(A H, B C)% theo thứ tự tại %(N)% và %(K)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) Chứng minh rằng tứ giác NHIK nội tiếp đường tròn.",
+        "question_images": [],
+        "solution": "Ta có %(\\overparen{O A C}=90^{\\circ}-\\frac{1}{2} \\widehat{A O C}=90^{\\circ}-\\widehat{A B C}=\\overparen{B A H})% mà %(A I)% là phân giác góc %(A)% nên %(\\widetilde{H A I}=\\widetilde{O A I})%, suy ra tam giác %(A N A^{\\prime})% cân tại %(A)%.<br>Gọi %(L)% là giao điểm của %(M A)% và %(B C)%.<br>Ta có %(\\overparen{H K N}=90^{\\circ}-\\widetilde{H N K}=\\overparen{H A M}=\\widehat{L A A^{\\prime}})%, suy ra tứ giác %(A L A^{\\prime} K)% nội tiếp.<br>Do đó %(M A^{\\prime} . M K=M L . M A)% (1)<br>Dễ thấy ngay hai tam giác %(M C L)% và %(M A C)% đồng dạng, suy ra %(M L . M A=M C^{2} (2))%<br>Do %(I)% là tâm đường tròn nội tiếp tam giác %(A B C)% nên %(M I=M C)% (3).<br>Từ (1), (2), (3) suy ra %(M N \\cdot M K=M I^{2} \\Rightarrow \\widehat{N I K}=90^{\\circ})%. Vậy tứ giác NHIK nội tiếp.<br><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1903ae314a2318b8f24466e39c8aca08.png\" srcset=\"https://docdn.giainhanh.io/media/test/d35899d9403f3338e79007a2c6888a7c.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "Đường thẳng %(A^{\\prime} I)% cắt lại đường tròn %((O))% tại điểm thứ hai %(D)%, hai đường thẳng %(A D)% và %(B C)% cắt nhau tại điểm %(S)%. Chứng minh rằng nếu %(A B+A C=2 B C)% thì %(I)% là trọng tâm của tam giác %(A K S)%.",
+        "question_images": [],
+        "solution": "* Từ tứ giác NHIK nội tiếp suy ra %(\\overline{I H K}=\\overline{I N K}=I A^{\\prime} M=\\overline{I A D})%. Suy ra tứ giác %(A I H S)% nội tiếp. Do đó %(\\widehat{A I S}=\\widehat{I H S}=90^{\\circ})%.<br>Gọi %(T)% là trung điểm của cạnh %(S A)%. Khi đó %(\\widehat{T I A}=\\widehat{T A I}=\\widehat{I N K}=\\widehat{M I K})%, suy ra ba điểm %(T, I, K)% thẳng hàng (4).<br>* Tiếp theo ta sẽ chứng minh %(L)% là trung điểm của %(S K)%.Ta có %(\\frac{A I}{I L}=\\frac{A B}{B L})% và %(\\frac{B L}{L C}=\\frac{A B}{A C} \\Rightarrow \\frac{B L}{B C}=\\frac{A B}{A B+A C}=\\frac{A B}{2 B C} \\Rightarrow B L=\\frac{1}{2} A B)%Do đó %(\\frac{A I}{I L}=2 (5))%<br>Áp dụng định lý Menelaus cho tam giác %(A S L)% với cát tuyễn TIK ta có:<br>%(\\frac{T A}{T S} \\cdot \\frac{K S}{K L} \\cdot \\frac{I L}{I A}=1)% (6).<br>Từ (5) và (6) suy ra %(K S=2 K L)%, tức %(L)% là trung điểm của %(S K)% (7).<br>Từ (4) và (7) suy ra %(I)% là trọng tâm tam giác %(A K S)% (đpcm).<br><br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/088f9461e7520df75bd1a2abf5c83571.png\" srcset=\"https://docdn.giainhanh.io/media/test/26f139742fbeb2148aa74bbbb2440763.png 245w\" width=\"245\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.5,
+        "content": "Cho các số thực %(a, b, c, d)% thoả mãn %(4 a^{2}+b^{2}=2)% và %(c+d=4)%. Tìm giá trị lớn nhất của biểu thức %(P=2 a c+b d+c d)%.",
+        "question_images": [],
+        "solution": "Ta có %(2 a c \\leq 4 a^{2}+\\frac{c^{2}}{4}(1))%<br>%(b d \\leq b^{2}+\\frac{d^{2}}{4}(2))%<br>%(c d \\leq \\frac{(c+d)^{2}}{8}+\\frac{c d}{2}(3))%<br>Cộng vế (1), (2), (3) ta có%(P=2 a c+b d+c d \\leq 4 a^{2}+b^{2}+\\frac{c^{2}}{4}+\\frac{d^{2}}{4}+\\frac{c d}{2}+\\frac{(c+d)^{2}}{8}=\\left(4 a^{2}+b^{2}\\right)+\\frac{3(c+d)^{2}}{8}=8)%%(P=8 \\Leftrightarrow(a ; b ; c ; d)=\\left(\\frac{1}{2} ; 1 ; 2 ; 2\\right))%.<br>Vậy giá trị lớp nhất của %(P)% bằng 8 .",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho tập hợp %(M)% gồm 2014 số dương %(a_{1}, a_{2}, \\ldots, a_{2014})%. Xét tất cả các tập con khác rỗng %(T_{i})% của %(M)%, gọi %(s_{i})% là tổng các số thuộc tập con %(T_{i})%. Chứng minh có thể chia tập hợp tất cả các số %(s_{i})% được thành lập như vậy thành 2014 tập con khác rỗng không giao nhau, sao cho tỉ số của hai số bất kì thuộc cùng một tập tập con vừa được phân chia không vượt quá 2 .",
+        "question_images": [],
+        "solution": "Đặt %(n=2014)%.<br>Giả sử các phần tử của %(M)% thoả mãn %(a_{1} \\leq a_{2} \\leq \\ldots \\leq a_{n})%<br>Đặt %(S_{0}=0, S_{m}=a_{1}+a_{2}+\\ldots+a_{m}(0 \\leq m \\leq n))%.<br>Gọi %(P)% là tập tất cả những số %(s_{i})% được xác định trong đề bài.<br>Kí hiệu %(P_{m}=\\left\\{s \\in P \\mid S_{m-1}\\lt s \\leq S_{m}\\right\\})% với %(m=1,2,3, \\ldots, n)%.<br>Ta chứng minh cách chia %(P)% thành các tập %(P_{m})% như vậy thoả mãn điều kiện bài toán.<br>Muốn vậy ta chỉ cần chứng minh %(b \\in P_{m})% thì %(S_{m}\\lt 2 b)%<br>Thật vậy %(b\\gt S_{m-1}=a_{1}+a_{2}+\\ldots+a_{m-1})% và %(b=\\sum_{k=1}^{h} a_{i_{k}})% nên phải tồn tại %(i_{k})% để %(i_{k} \\geq m)%<br>Vậy %(b \\geq a_{i_{k}} \\geq a_{m}=S_{m}-S_{m-1}>S_{m}-b \\Rightarrow 2 b>S_{m})%",
+        "question_type": "essay"
+    }
+]

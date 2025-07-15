@@ -1,0 +1,208 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.25,
+        "content": "Với %(a)% là số thực dương tùy ý, %(\\log _{2} a^{5})% bằng",
+        "question_images": [],
+        "labelA": "%(5+\\log _{2} a)%.",
+        "labelB": "%(5 \\log _{2} a)%.",
+        "labelC": "%(\\frac{1}{5} \\log _{2} a)%.",
+        "labelD": "%(\\frac{1}{5}+\\log _{2} a)%.",
+        "correct_label": "labelB",
+        "solution": "Với %(a\\gt 0, a \\neq 1, b>0, \\alpha \\in \\mathbb{R})%, ta có công thức %(\\log _{a} b^{\\alpha}=\\alpha \\log _{a} b)%.<br>Ta có %(\\log _{2} a^{5}=5 \\log _{2} a)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "2 ",
+        "point": 0.25,
+        "content": "Cho hàm số %(y=a^{x})% có đồ thị như trong hình vẽ:<br>Đồ thị trên là của hàm số nào?",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/e26d9786d7f3ce59698ebf42d8341a5c.png"
+        ],
+        "labelA": "%(y=\\left(\\sqrt{\\frac{1}{3}}\\right)^{x})%.",
+        "labelB": "%(y=3^{x})%.",
+        "labelC": "%(y=(\\sqrt{3})^{x})%.",
+        "labelD": "%(y=\\left(\\frac{1}{3}\\right)^{x})%.",
+        "correct_label": "labelA",
+        "solution": "Vì đồ thị hàm số %(y=a^{x})% đi qua điểm %((-2 ; 3))% nên có công thức %(y=\\left(\\sqrt{\\frac{1}{3}}\\right)^{x})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "3 ",
+        "point": 0.25,
+        "content": "Tổng bình phương các nghiệm của phương trình %(5^{3 x-2}=\\left(\\frac{1}{5}\\right)^{-x^{2}})% bằng",
+        "question_images": [],
+        "labelA": "5",
+        "labelB": "0",
+        "labelC": "2",
+        "labelD": "3",
+        "correct_label": "labelA",
+        "solution": "Ta có: %(5^{3 x-2}=\\left(\\frac{1}{5}\\right)^{-x^{2}} \\Leftrightarrow 3 x-2=x^{2} \\Leftrightarrow x^{2}-3 x+2=0 \\Leftrightarrow\\left[\\begin{array}{l}x=1 \\\\ x=2\\end{array}\\right.)%.<br>Khi đó: %(x_{1}^{2}+x_{2}^{2}=5)%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "4 ",
+        "point": 0.25,
+        "content": "Cho phép thử ngẫu nhiên %(T)% và hai biến cố %(A)% và %(B)% thoả mãn: %(P(A)=\\frac{1}{2})%, %(P(B)=\\frac{1}{4})% và %(P(A B)=\\frac{1}{3})%. Hai biến cố %(A)% và %(B)% là:",
+        "question_images": [],
+        "labelA": "độc lập.",
+        "labelB": "không độc lập.",
+        "labelC": "xung khắc.",
+        "labelD": "đối nhau.",
+        "correct_label": "labelB",
+        "solution": "Ta có: %(P(A) P(B)=\\frac{1}{2} \\cdot \\frac{1}{4}=\\frac{1}{8} \\neq P(A B))% nên %(A)% và %(B)% không độc lập.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "5 ",
+        "point": 0.25,
+        "content": "Tổ 1 lớp 10 A có 11 học sinh trong đó có 7 học sinh nam và 4 học sinh nũ. Giáo viên chủ nhiệm lớp chọn ra 5 em đi lao động. Tìm xác suất sao cho 5 em được chọn có cùng giới tính.",
+        "question_images": [],
+        "labelA": "%(\\frac{1}{7})%.",
+        "labelB": "%(\\frac{1}{5})%.",
+        "labelC": "%(\\frac{1}{12})%.",
+        "labelD": "%(\\frac{1}{22})%.",
+        "correct_label": "labelD",
+        "solution": "Số phần tử của không gian mẫu là: %(n(\\Omega)=C_{11}^{5})%.<br>Gọi %(A)% là biến cố \" 5 em được chọn có cùng giới tính\".<br>Vì số học sinh nữ ít hơn số học sinh được chọn nên chỉ có trường hợp 5 học sinh được chọn đều là học sinh nam.<br>Số phần tử của biến cố %(A)% là %(n(A)=C_{7}^{5})%.<br>Vây xác suất của biến cố A là: %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{C_{7}^{5}}{C_{11}^{5}}=\\frac{1}{22})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "6 ",
+        "point": 0.25,
+        "content": "Chọn ngẫu nhiên một số từ tập hợp các số tự nhiên thuộc đoạn [30;50]. Xác suất để chọn được số có chữ số hàng đơn vị lớn hơn chữ số hàng chục bằng",
+        "question_images": [],
+        "labelA": "%(\\frac{11}{21})%.",
+        "labelB": "%(\\frac{13}{21})%.",
+        "labelC": "%(\\frac{10}{21})%.",
+        "labelD": "%(\\frac{8}{21})%.",
+        "correct_label": "labelA",
+        "solution": "Chọn ngẫu nhiên một số từ tập hợp các số tự nhiên thuộc đoạn [30;50], nên ta có số phần tử của không gian mẫu: %(n(\\Omega)=50-30+1=21)%.<br>Gọi %(A)% \"Biến cố để chọn được số có chữ số hàng đơn vị lớn hơn chữ số hàng chục\".<br>TH1: Chữ số hàng chục là 3 , có 6 cách chọn số tự nhiên có chữ số hàng đơn vị lớn hơn chữ số hàng chục %(\\{34,35,36,37,38,39\\})%.<br>TH2 : Chữ số hàng chục là 4 , có 5 cách chọn số tự nhiên có chữ số hàng đơn vị lớn hơn chữ số hàng chục %(\\{45,46,47,48,49\\})%.<br>Suy ra %(n(A)=6+5=11)%.Xác suất của biến cố %(A: P(A)=\\frac{11}{21})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "7 ",
+        "point": 0.25,
+        "content": "Cho hàm số %(f(x)=\\frac{x}{x^{3}-16})%. Tập nghiệm của bất phương trình %(f^{\\prime}(x) \\geq 0)% là",
+        "question_images": [],
+        "labelA": "%((-\\infty ; 2])%.",
+        "labelB": "%((-\\infty ;-2])%",
+        "labelC": "%([-2 ;+\\infty) \\backslash\\{2 \\sqrt[3]{2}\\})%.",
+        "labelD": "\\[[2 ;+\\infty) \\backslash\\{2 \\sqrt[3]{2}\\} .\\]",
+        "correct_label": "labelB",
+        "solution": "Đkxđ: %(x^{3}-16 \\neq 0 \\Leftrightarrow x \\neq 2 \\sqrt[3]{2})%.<br>Ta có: %(f^{\\prime}(x)=\\frac{1\\left(x^{3}-16\\right)-x \\cdot\\left(3 x^{2}\\right)}{\\left(x^{3}-16\\right)^{2}}=\\frac{-2 x^{3}-16}{\\left(x^{3}-16\\right)^{2}})%.<br>Do đó: %(f^{\\prime}(x) \\geq 0 \\Leftrightarrow \\frac{-2 x^{3}-16}{\\left(x^{3}-16\\right)^{2}} \\geq 0 \\Leftrightarrow-2 x^{3}-16 \\geq 0 \\Leftrightarrow x \\leq-2)%.<br>Kết hợp với đkxđ ta được tập nghiệm của bất phương trình %(f^{\\prime}(x) \\geq 0)% là %((-\\infty ;-2])%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "8 ",
+        "point": 0.25,
+        "content": "Cho hàm số %(f(x)=\\sin 2 x)%. Tìm số nghiệm của phương trình %(f^{\\prime}(x)=2)% trên %([-\\pi ; \\pi])%.",
+        "question_images": [],
+        "labelA": "3",
+        "labelB": "1",
+        "labelC": "2",
+        "labelD": "4",
+        "correct_label": "labelA",
+        "solution": "Ta có: %(f^{\\prime}(x)=2 \\cos 2 x \\Rightarrow f^{\\prime}(x)=2 \\Leftrightarrow \\cos 2 x=1 \\Leftrightarrow x=k \\pi, k \\in \\mathbb{Z})%.<br>Khi %(x \\in[-\\pi ; \\pi] \\Rightarrow x \\in\\{-\\pi ; 0 ; \\pi\\})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "9 ",
+        "point": 0.25,
+        "content": "Cho hàm số %(y=\\frac{1}{x+1+\\ln x})% với %(x\\gt 0)%. Khi đó %(-\\frac{y^{\\prime}}{y^{2}})% bằng",
+        "question_images": [],
+        "labelA": "%(1+\\frac{1}{x})%.",
+        "labelB": "%(\\frac{x}{x+1})%.",
+        "labelC": "%(\\frac{x}{1+x+\\ln x})%.",
+        "labelD": "%(\\frac{x+1}{1+x+\\ln x})%.",
+        "correct_label": "labelA",
+        "solution": "Ta có: %(y=\\frac{1}{x+1+\\ln x} \\Rightarrow \\frac{1}{y}=x+1+\\ln x \\Rightarrow\\left(\\frac{1}{y}\\right)^{\\prime}=(x+1+\\ln x)^{\\prime} \\Leftrightarrow-\\frac{y^{\\prime}}{y^{2}}=1+\\frac{1}{x})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "10 ",
+        "point": 0.25,
+        "content": "Cho hình chóp %(S . A B C)% có đáy %(A B C)% là tam giác vuông tại %(B)% và %(S A)% vuông góc với đáy. Góc giữa đường thẳng %(S C)% và mặt phẳng %((A B C))% là góc nào sau đây?",
+        "question_images": [],
+        "labelA": "SAC",
+        "labelB": "SAB",
+        "labelC": "SCA",
+        "labelD": "SCB",
+        "correct_label": "labelC",
+        "solution": "%(\\begin{array}{l}\\text { Ta có }\\left\\{\\begin{array}{l}S C \\cap(A B C)=C \\\\ S A \\perp(A B C)\\end{array} \\Rightarrow A C \\text { là hình chiếu của } S C \\text { trên mặt phẳng }(A B C) .\\right. \\\\ \\Rightarrow(S C,(A B C))=(S C, A C)=S C A .\\end{array})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/a5261af88da5a755277186bd7bec5871.png\" srcset=\"https://docdn.giainhanh.io/media/test/066f212068f9a5aa97d3b978ea630362.png 150w, https://docdn.giainhanh.io/media/test/b04f895678aa825ae6217064d0639bd6.png 481w\" width=\"481\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "11 ",
+        "point": 0.25,
+        "content": "Cho hình chóp %(S . A B C)% có đáy %(A B C)% là tam giác vuông cân tại %(B)% và %(S A)% vuông góc với đáy. Biết %(S A=a \\sqrt{2} ; S B=a \\sqrt{3})%, khoảng cách từ điểm %(C)% đến mặt phẳng %((S A B))% là",
+        "question_images": [],
+        "labelA": "%(2 a)%.",
+        "labelB": "%(a)%.",
+        "labelC": "%(a \\sqrt{2})%.",
+        "labelD": "%(a \\sqrt{3})%.",
+        "correct_label": "labelB",
+        "solution": "Ta có %(\\left\\{\\begin{array}{l}A B \\perp B C \\\\ S A \\perp B C\\end{array} \\Rightarrow B C \\perp(S A B)\\right.)%.<br>Suy ra khoảng cách từ điểm C đến mặt phẳng %((S A B))% là %(B C)%.<br>Ta có %(A B=\\sqrt{S B^{2}-S A^{2}}=a \\Rightarrow A B=B C=a)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/49a1095cc07d883bf8d490cb182fc30f.png\" srcset=\"https://docdn.giainhanh.io/media/test/619f7a4773b98b4c8acddc11a46b2629.png 165w, https://docdn.giainhanh.io/media/test/3f431fb056cc4ab06486e7b22e50523b.png 500w, https://docdn.giainhanh.io/media/test/0d7046859c4303e67aedd1d23a135e73.png 750w\" width=\"750\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "12 ",
+        "point": 0.25,
+        "content": "Cho hình chóp đều %(S . A B C D)% có đáy %(A B C D)% là hình vuông cạnh %(a)%. Cạnh bên %(S A)% tạo với đáy góc %(60^{\\circ})%. Tính thể tích khối chóp %(S . A B C)%.",
+        "question_images": [],
+        "labelA": "%(\\frac{\\sqrt{6} a^{3}}{6})%.",
+        "labelB": "%(\\frac{\\sqrt{6} a^{3}}{12})%.",
+        "labelC": "%(\\frac{\\sqrt{3} a^{3}}{6})%.",
+        "labelD": "%(\\frac{\\sqrt{3} a^{3}}{12})%.",
+        "correct_label": "labelB",
+        "solution": "Gọi %(O=A C \\cap B D)%. Do hình chóp %(S . A B C D)% đều nên %(S O \\perp(A B C D))% suy ra %(O A)% là hình chiếu vuông góc của %(S A)% trên %(\\mathrm{mp}(A B C D) \\Rightarrow)% %((S A,(A B C D))=(S A, O A)=S A O=60^{\\circ})%.<br>Ta có %(S O=A O \\cdot \\tan 60^{\\circ}=\\frac{a \\sqrt{2}}{2} \\cdot \\sqrt{3}=\\frac{a \\sqrt{6}}{2} ; S_{A B C}=\\frac{a^{2}}{2})%.<br>Vậy %(V_{S \\cdot A B C}=\\frac{1}{3} S O \\cdot S_{A B C}=\\frac{1}{3} \\cdot \\frac{a \\sqrt{6}}{2} \\cdot \\frac{a^{2}}{2}=\\frac{\\sqrt{6} a^{3}}{12})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ee32a70240c6f334eb6691260525c68b.png\" srcset=\"https://docdn.giainhanh.io/media/test/593b69509d4b9e12e74876cc6490f059.png 211w, https://docdn.giainhanh.io/media/test/f2776d3c946b326df827ec5a2d3661ed.png 500w, https://docdn.giainhanh.io/media/test/4c36977d3cf1374714a80a0e24bfc6d1.png 750w, https://docdn.giainhanh.io/media/test/3b33dead719bff5c83e49496ca3f41a4.png 1000w\" width=\"1000\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "17 ",
+        "point": 0.5,
+        "content": "Cho hàm số %(f(x)=\\ln \\frac{2024 x}{x+1})%. Tính tổng %(S=f^{\\prime}(1)+f^{\\prime}(2)+\\ldots+f^{\\prime}(2024))%.",
+        "question_images": [],
+        "solution": "Ta có: %(f^{\\prime}(x)=\\left(\\ln \\frac{2024 x}{x+1}\\right)^{\\prime}=\\frac{1}{\\frac{2024 x}{x+1}} \\cdot\\left(\\frac{2024 x}{x+1} \\cdot\\right)^{\\prime}=\\frac{x+1}{2024 x} \\cdot \\frac{2024}{(x+1)^{2}}=\\frac{1}{x \\cdot(x+1)})%<br>Vậy %(S=f^{\\prime}(1)+f^{\\prime}(2)+\\ldots+f^{\\prime}(2024))%<br>\\[\\begin{array}{l}=\\frac{1}{1.2}+\\frac{1}{2.3}+\\ldots+\\frac{1}{2024.2025}=\\frac{1}{1}-\\frac{1}{2}+\\frac{1}{2}-\\frac{1}{3}+\\ldots+\\frac{1}{2024}-\\frac{1}{2025} \\\\=1-\\frac{1}{2025}=\\frac{2024}{2025} .\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "18 ",
+        "point": 0.5,
+        "content": "Một người gửi ngân hàng 200 triệu đồng với kì hạn 1 tháng theo hình thức lãi kép, lãi suất %(0,58 \\%)% một tháng. Hỏi sau ít nhất bao nhiêu tháng thì người đó có tối thiểu 225 triệu đồng trong tài khoản tiết kiệm, biết rằng ngân hàng chỉ tính lãi khi đến kì hạn?",
+        "question_images": [],
+        "solution": "Theo hình thức lãi kép, tổng số tiền cả gốc lẫn lãi trong tài khoản của người đó sau %(n)% tháng là:<br>\\[A=200(1+0,58 \\%)^{n}=200 \\cdot 1,0058^{n} \\text {. }\\]<br>Theo đề bài %(A \\geq 225 \\Rightarrow 200.1,0058^{n} \\geq 225 \\Leftrightarrow 1,0058^{n} \\geq \\frac{9}{8})%<br>\\[\\Leftrightarrow n \\geq \\log _{1,0058} \\frac{9}{8} \\approx 20,37 \\text {. }\\]<br>Vì ngân hàng chỉ tính lãi khi đến kì hạn nên phải sau ít nhất 21 tháng người đó mới có tối thiểu225 triệu đồng trong tài khoản",
+        "question_type": "essay"
+    },
+    {
+        "title": "19 ",
+        "point": 0.5,
+        "content": "Một chất điểm chuyển động có quãng đường được cho bởi phương trình %(S(t)=\\frac{1}{4} t^{4}-t^{3}+\\frac{7}{2} t^{2}+12 t)%, trong đó %(t\\gt 0)% với %(t)% được tính bằng giây %((s))% và %(S)% được tính bằng mét %((\\mathrm{m}))%. Hỏi tại thời điểm gia tốc của vật đạt giá trị nhỏ nhất thì vận tốc của vật bằng bao nhiêu?",
+        "question_images": [],
+        "solution": "Phương trình vận tốc của chuyển động %(v(t)=S^{\\prime}(t)=t^{3}-3 t^{2}+7 t+12)%.<br>Phương trình gia tốc của chuyển động %(a(t)=v^{\\prime}(t)=3 t^{2}-6 t+7)%.<br>Ta có %(a(t)=3 t^{2}-6 t+7=3(t-1)^{2}+4 \\geq 4)% với mọi %(t)%. Dấu \" %(=)% \" xảy ra khi %(t=1)%.<br>Khi đó, vận tốc của chuyển động là %(v(1)=17(\\mathrm{~m} / \\mathrm{s}))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "20 ",
+        "point": 0.5,
+        "content": "Đáp án: 0,5<br>Ta có AC là hình chiếu vuông góc của SC lên %((A B C D))%.<br>Suy ra %((S C,(A B C D))=S C A=45^{\\circ})%.<br>Lại có: %(\\left\\{\\begin{array}{l}B D \\perp A C \\\\ B D \\perp S A\\end{array} \\Rightarrow B D \\perp S C\\right.)%.<br>Gọi %(\\{O\\}=A C \\cap B D)%.<br>Dựng %(O H \\perp S C)% tại H .Ta có: %(\\left\\{\\begin{array}{l}O H \\perp S C \\\\ O H \\perp B D\\end{array}\\right.)%.<br>Suy ra OH là đoạn vuông góc chung của BD và SC .<br>Suy ra %(d(B D, S C)=O H)%.<br>Xét tam giác OHC vuông tại H có: %(O H=O C \\sin 45^{\\circ}=\\frac{\\sqrt{2} a}{2} \\cdot \\frac{\\sqrt{2}}{2}=\\frac{a}{2})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/46e30d67e31256b54f5bdb2eb215d75a.png\" srcset=\"https://docdn.giainhanh.io/media/test/7797c156d9a6ae4e65c2ab4b5a62ed1a.png 176w, https://docdn.giainhanh.io/media/test/ccefd6271551fb85dfa14462a2a9a588.png 500w, https://docdn.giainhanh.io/media/test/b5fb18c46708e054c00673c217dc7a80.png 750w\" width=\"750\"/>",
+        "question_images": [],
+        "solution": "",
+        "question_type": "essay"
+    },
+    {
+        "title": "21 ",
+        "point": 0.5,
+        "content": "Một bác sĩ điều trị cho bệnh nhân mắc bệnh đường hô hấp. Tỷ lệ lây bệnh khi tiếp xúc với người bệnh và có mang khẩu trang y tế là %(28 \\%)%, tỷ lệ lây bệnh khi tiếp xúc với người bệnh mà không mang khẩu trang y tế là %(91 \\%)%. Bác sĩ tiếp xúc với một bệnh nhân hai lần, trong đó có một lần mang khẩu trang y tế và một lần không mang khẩu trang y tế. Giả sử yếu tố lây bệnh ở hai lần là độc lập nhau, khi đó xác suất bác sĩ bị lây bệnh bằng bao nhiêu?",
+        "question_images": [],
+        "solution": "Đáp án: %(\\mathbf{0 , 9 3 5 2})%.<br>Gọi A là biến cố: “ Lây bệnh ở lần tiếp xúc có mang khẩu trang”.<br>B là biến cố: \"Lây bệnh ở lần tiếp xúc không mang khẩu trang\".<br>C là biến cố: \"Lây bệnh sau hai lần tiếp xúc\".<br>Khi đó %(C=A \\cup(\\bar{A} \\cap B))%.<br>Vậy %(P(C)=P(A)+P(\\bar{A}) \\cdot P(B)=0,28+0,72 \\cdot 0,91=0,9352)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "22 ",
+        "point": 0.5,
+        "content": "Cho hình chóp %(S . A B C)% có %(A B=A C=4, B C=2, S A=4 \\sqrt{3}, S A C=S A B=30^{\\circ})% . Thể tích của khối chóp %(S . A B C)% bằng bao nhiêu?",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}S C^{2}=S A^{2}+A C^{2}-2 S A \\cdot A C \\cdot \\cos S A C \\\\Rightarrow S C^{2}=48+16-2 \\cdot 4 \\sqrt{3} \\cdot 4 \\cdot \\frac{\\sqrt{3}}{2} \\\\Rightarrow S C=4 \\S B^{2}=S A^{2}+A B^{2}-2 S A \\cdot A B \\cdot \\cos S A B \\\\Rightarrow S B=4\\end{array}\\]<br>Gọi %(M, N)% lần lượt là trung điểm của các cạnh %(B C, S A)%.<br>Ta có:%(\\triangle S B C)% cân tại %(S, \\triangle A B C)% cân tại %(A)%.<br>\\[\\Rightarrow\\left\\{\\begin{array}{l}S M \\perp B C \\A M \\perp B C\\end{array} \\Rightarrow B C \\perp(S A M)\\right. \\text {. }\\]<br>Kẻ %(S H \\perp A M)%.Mà %(B C \\perp(S A M) \\Rightarrow B C \\perp S H)%.<br>Vậy, %(S H \\perp(A B C))%.<br>Ta có, %(S M=\\sqrt{S C^{2}-M C^{2}}=\\sqrt{15}=A M)%.<br>Nên %(\\triangle S A M)% cân tại %(M \\Rightarrow M N \\perp S A)%.<br>Ta có:<br>\\[\\begin{array}{l}M N=\\sqrt{A M^{2}-A N^{2}}=\\sqrt{3} \\M N \\cdot S A=S H \\cdot A M \\Rightarrow S H=\\frac{M N \\cdot S A}{A M}=\\frac{4 \\sqrt{15}}{5}\\end{array}\\]<br>%(S_{\\triangle A B C}=\\frac{1}{2} A M \\cdot B C=\\sqrt{15})%. Do đó: %(V_{S \\cdot A B C}=\\frac{1}{3} \\cdot S H \\cdot S_{\\triangle A B C}=\\frac{1}{3} \\cdot \\sqrt{15} \\cdot \\frac{4 \\cdot \\sqrt{15}}{5}=4)%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/ed2d64c995e0f0e6fa2ef8959d559d59.png\" srcset=\"https://docdn.giainhanh.io/media/test/855e5d7b557a3540c8f5b71353723a7d.png 185w, https://docdn.giainhanh.io/media/test/4f2ae30fe5f618096d9dec393a8a4b91.png 500w, https://docdn.giainhanh.io/media/test/64e236af01110eea69120b1e8b3219bf.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    }
+]

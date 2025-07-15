@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 1.0,
+        "content": "Rút gọn biểu thức: %(A=\\sqrt{\\frac{a+x^{2}}{x}-2 \\sqrt{a}}+\\sqrt{\\frac{a+x^{2}}{x}+2 \\sqrt{a}})% với %(a\\gt 0, x>0)%",
+        "question_images": [],
+        "solution": "Rút gọn biểu thức:<br>%(A=\\sqrt{\\frac{a+x^{2}}{x}-2 \\sqrt{a}}+\\sqrt{\\frac{a+x^{2}}{x}+2 \\sqrt{a}})% với %(a\\gt 0, x>0)%.<br>\\[\\begin{array}{l}A=\\sqrt{\\frac{a+x^{2}-2 x \\sqrt{a}}{x}}+\\sqrt{\\frac{a+x^{2}+2 x \\sqrt{a}}{x}}=\\sqrt{\\frac{(x-\\sqrt{a})^{2}}{x}}+\\sqrt{\\frac{(x+\\sqrt{a})^{2}}{x}} \\\\=\\frac{|x-\\sqrt{a}|+x+\\sqrt{a}}{\\sqrt{x}} .\\end{array}\\]<br>+) Với %(x \\geq \\sqrt{a})% thì %(|x-\\sqrt{a}|=x-\\sqrt{a})% nên %(A=\\frac{x-\\sqrt{a}+x+\\sqrt{a}}{\\sqrt{x}}=\\frac{2 x}{\\sqrt{x}}=2 \\sqrt{x})%.<br>+) Với %(0\\lt x\\lt \\sqrt{a})% thì %(|x-\\sqrt{a}|=-(x-\\sqrt{a})=\\sqrt{a}-x)% nên %(A=\\frac{\\sqrt{a}-x+x+\\sqrt{a}}{\\sqrt{x}}=\\frac{2 \\sqrt{a}}{\\sqrt{x}})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tính giá trị biểu thức %(P=(x-y)^{3}+3(x-y)(x y+1))% biết:<br>\\[x=\\sqrt[3]{3+2 \\sqrt{2}}-\\sqrt[3]{3-2 \\sqrt{2}}, y=\\sqrt[3]{17+12 \\sqrt{2}}-\\sqrt[3]{17-12 \\sqrt{2}} .\\]",
+        "question_images": [],
+        "solution": "Tính giá trị biểu thức:<br>%(P=(x-y)^{3}+3(x-y)(x y+1))% biết:<br>\\[x=\\sqrt[3]{3+2 \\sqrt{2}}-\\sqrt[3]{3-2 \\sqrt{2}}, y=\\sqrt[3]{17+12 \\sqrt{2}}-\\sqrt[3]{17-12 \\sqrt{2}} .\\]<br>Ta có:<br>\\[\\begin{aligned}x^{3} & =(\\sqrt[3]{3+2 \\sqrt{2}}-\\sqrt[3]{3-2 \\sqrt{2}})^{3} \\\\& =3+2 \\sqrt{2}-3+2 \\sqrt{2}-3 \\sqrt[3]{(3+2 \\sqrt{2})(3-2 \\sqrt{2})} \\cdot(\\sqrt[3]{3+2 \\sqrt{2}}-\\sqrt[3]{3-2 \\sqrt{2}}) \\\\Rightarrow & x^{3}=4 \\sqrt{2}-3 x \\Leftrightarrow x^{3}+3 x=4 \\sqrt{2}(1) .\\end{aligned}\\]<br>ương tự: %(y^{3}+3 y=24 \\sqrt{2})% (2).<br>Trừ vế với vế (1) và (2) ta được: %(x^{3}-y^{3}+3(x-y)=-20 \\sqrt{2})%<br>\\[\\Leftrightarrow(x-y)^{3}+3(x-y)(x y+1)=-20 \\sqrt{2} \\text {. Vay } P=-20 \\sqrt{2}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Giải phương trình: %(x^{2}+6=4 \\sqrt{x^{3}-2 x^{2}+3})%.",
+        "question_images": [],
+        "solution": "Giải phương trình: %(x^{2}+6=4 \\sqrt{x^{3}-2 x^{2}+3})%<br>+) ĐK: %(x \\geq-1)%<br>PT (1) %(\\Leftrightarrow\\left(x^{2}-3 x+3\\right)+3(x+1)=4 \\sqrt{(x+1)\\left(x^{2}-3 x+3\\right)})%<br>Do %(x^{2}-3 x+3\\gt 0)% nên %((2) \\Leftrightarrow 1+\\frac{3(x+1)}{x^{2}-3 x+3}=4 \\sqrt{\\frac{x+1}{x^{2}-3 x+3}})%<br>Đặt %(t=\\sqrt{\\frac{x+1}{x^{2}-3 x+3}} ; t \\geq 0)% được PT: %(1+3 t^{2}=4 t \\Leftrightarrow 3 t^{2}-4 t+1=0)%%(\\Leftrightarrow\\left[\\begin{array}{l}\\mathrm{t}=1 \\\\ \\mathrm{t}=\\frac{1}{3}\\end{array}\\right.)%<br>+) Với t = 1 được PT: %(\\sqrt{\\frac{x+1}{x^{2}-3 x+3}}=1 \\Leftrightarrow x^{2}-4 x+2=0 \\Leftrightarrow x=2 \\pm \\sqrt{2})%<br>+) Với %(t=\\frac{1}{3})% được PT: %(\\sqrt{\\frac{x+1}{x^{2}-3 x+3}}=\\frac{1}{3} \\Leftrightarrow x^{2}-12 x-6=0 \\Leftrightarrow x=6 \\pm \\sqrt{42})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}\\left(x+\\sqrt{x^{2}+2 x+2}+1\\right)\\left(y+\\sqrt{y^{2}+1}\\right)=1 \\\\ x^{2}-3 x y-y^{2}=3\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "Giải hệ phương trình: %(\\left\\{\\begin{array}{l}\\left(x+\\sqrt{x^{2}+2 x+2}+1\\right)\\left(y+\\sqrt{y^{2}+1}\\right)=1(1) \\\\ x^{2}-3 x y-y^{2}=3(2)\\end{array}\\right.)%<br>Ta có: %((1) \\Leftrightarrow\\left(x+\\sqrt{x^{2}+2 x+2}+1\\right)\\left(\\sqrt{y^{2}+1}+y\\right)\\left(\\sqrt{y^{2}+1}-y\\right)=\\left(\\sqrt{y^{2}+1}-y\\right))%<br>Do %(\\sqrt{\\mathrm{y}^{2}+1}-\\mathrm{y} \\neq 0)% với mọi %(\\mathrm{y})% )<br>\\[\\begin{array}{l}\\Leftrightarrow x+1+\\sqrt{(x+1)^{2}+1}=-y+\\sqrt{y^{2}+1} \\\\Leftrightarrow x+y+1+\\frac{(x+1)^{2}-y^{2}}{\\sqrt{(x+1)^{2}+1}+\\sqrt{y^{2}+1}}=0 \\Leftrightarrow(x+y+1)\\left(1+\\frac{x+1-y}{\\sqrt{(x+1)^{2}+1}+\\sqrt{y^{2}+1}}\\right)=0 \\\\Leftrightarrow\\left[\\begin{array}{l}x+y+1=0 \\\\sqrt{(x+1)^{2}+1}+(x+1)+\\sqrt{y^{2}+1}-y=0(3)\\end{array}\\right.\\end{array}\\]<br>Do %(\\sqrt{(\\mathrm{x}+1)^{2}+1}\\gt |\\mathrm{x}+1| \\geq \\mathrm{x}+1, \\forall \\mathrm{x})% và %(\\sqrt{\\mathrm{y}^{2}+1}>|\\mathrm{y}| \\geq-\\mathrm{y}, \\forall \\mathrm{y})% nên (3) vô nghiệm.<br>Thay %(y=-x-1)% vào (2) tìm được nghiệm %(\\left[\\begin{array}{l}x=1 \\\\ x=-\\frac{4}{3}\\end{array}\\right.)%Với %(x=1 \\Rightarrow y=-2 ; x=-\\frac{4}{3} \\Rightarrow y=\\frac{1}{3})%.<br>Vậy hệ có nghiệm %((1 ;-2),\\left(-\\frac{4}{3} ; \\frac{1}{3}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Tìm dạng tổng quát của số nguyên dương %(n)% biết: %(M=n \\cdot 4^{n}+3^{n})% chia hết cho 7 .",
+        "question_images": [],
+        "solution": "Tìm dạng tổng quát của số nguyên dương %(n)% biết: %(M=n \\cdot 4^{n}+3^{n})% chia hết cho 7 .<br>+) %(n=2 k)% ( %(k)% nguyên dương): %(M=2 k \\cdot 4^{2 k}+3^{2 k}=2 k \\cdot 16^{k}+9^{k})%.<br>Ta có: %(16^{k})% và %(9^{k})% cùng dư với %(2^{k})% chia 7.%(\\Rightarrow M)% cùng dư với %(\\left(2 k .2^{k}+2^{k}\\right)=2^{k} .(2 k+1))% chia %(7 \\Rightarrow(2 k+1))% chia hết cho %(7 \\Rightarrow k)% chia 7 dư 3 , hay %(k=7 q+3 \\Rightarrow n=14 q+6(q \\in \\mathrm{N}))%.<br>+) %(n=2 k+1)% ( %(k)% nguyên dương): %(M=(2 k+1) \\cdot 4^{2 k+1}+3^{2 k+1}=4(2 k+1) \\cdot 16^{k}+3 \\cdot 9^{k})% %(\\Rightarrow M)% cùng dư với %((k+4) \\cdot 2^{k}+3 \\cdot 2^{k}=(k+7) \\cdot 2^{k})% chia 7 .%(\\Rightarrow k)% chia hết cho %(7 \\Rightarrow k=7 p(p \\in \\mathrm{N}))%.<br>Vậy %(n=14 q+6)% hoặc %(n=14 p+1)%, với %(p)% và %(q)% là các số tự nhiên.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Tìm các cặp số %((x ; y))% nguyên dương thoả mãn: %(\\left(x^{2}+4 y^{2}+28\\right)^{2}-17\\left(x^{4}+y^{4}\\right)=)% %(238 y^{2}+833)%",
+        "question_images": [],
+        "solution": "Tìm các cặp số %((x ; y))% nguyên dương thoả mãn:<br>\\[\\left(x^{2}+4 y^{2}+28\\right)^{2}-17\\left(x^{4}+y^{4}\\right)=238 y^{2}+833 \\text {. }\\]<br>Ta có: %(\\left(x^{2}+4 y^{2}+28\\right)^{2}-17\\left(x^{4}+y^{4}\\right)=238 y^{2}+833)%<br>\\[\\begin{array}{l}\\Leftrightarrow\\left[x^{2}+4\\left(y^{2}+7\\right)\\right]^{2}=17\\left[x^{4}+\\left(y^{2}+7\\right)^{2}\\right] \\\\Leftrightarrow 16 x^{4}-8 x^{2}\\left(y^{2}+7\\right)+\\left(y^{2}+7\\right)^{2}=0 \\\\Leftrightarrow\\left[4 x^{2}-\\left(y^{2}+7\\right)\\right]^{2}=0 \\Leftrightarrow 4 x^{2}-y^{2}-7=0 \\\\Leftrightarrow(2 x+y)(2 x-y)=7\\end{array}\\]<br>Vì %(x, y \\in N^{*})% nên %(2 x+y\\gt 2 x-y)% và %(2 x+y>0)%.Do đó từ (1) suy ra:<br>\\[\\left\\{\\begin{array} { l } { 2 x + y = 7 } \\\\{ 2 x - y = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=2 \\y=3\\end{array} \\quad \\text { KL: }(x ; y)=(2 ; 3)\\right.\\right. \\text { TMBT }\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho đường tròn tâm %(O)% đường kính %(B C)%, %(A)% là điểm di chuyển trên đường tròn %((O)(A)% khác %(B)% và %(C)% ). Kẻ %(A H)% vuông góc với %(B C)% tại %(H)%. %(M)% là điểm đối xứng của điểm %(A)% qua điểm %(B)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh điểm %(M)% luôn nằm trên một đường tròn cố định.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b15018ecfad78b52171cdafee3ca5dc9.png\" srcset=\"https://docdn.giainhanh.io/media/test/add45703aeb1ec1b84cbb74c84e16f0e.png 245w\" width=\"245\"/><br>Lấy %(\\mathrm{K})% là điểm đối xứng của %(\\mathrm{O})% qua %(\\mathrm{B})%, vì %(\\mathrm{B})% và %(\\mathrm{O})% cố định nên %(\\mathrm{K})% cố định<br>Tứ giác %(\\mathrm{OAKM})% là hình bình hành nên %(\\mathrm{KM}=\\mathrm{OA})%%(\\mathrm{OA}=\\frac{\\mathrm{BC}}{2})% không đổi.<br>%(\\Rightarrow \\mathrm{M})% nằm trên đường tròn tâm %(\\mathrm{K})%, bán kính %(\\frac{\\mathrm{BC}}{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Đường thẳng %(M H)% cắt %((O))% tại %(E)% và %(F(E)% nằm giữa %(M)% và %(F))%. Gọi II là trung điểm của %(H C)%, đường thẳng %(A l)% cắt %((O))% tại %(G(G)% khác %(A))%. Chứng minh: %(A F^{2}+F G^{2}+G E^{2}+E A^{2}=)% %(2 B C^{2})%.",
+        "question_images": [],
+        "solution": "Chứng minh tổng bình phương các cạnh của tứ giác AEGF không đổi.<br>Xét %(\\triangle \\mathrm{AHB})% và %(\\triangle \\mathrm{CHA})% có %(B H C=B H A=90^{\\circ}, B A H=A C B)% (cùng phụ với %(A B C)% )%(\\Rightarrow \\triangle A H B)% đồng dạng %(\\triangle C H A)%.<br>Gọi %(S)% là trung điểm của %(A H, I)% là trung điểm của %(\\mathrm{HC})%nên %(\\quad \\triangle \\mathrm{ABS})% đồng dạng %(\\triangle \\mathrm{CAI} \\Rightarrow A B S=C A I)%<br>Ta lại có %(B S)% là đường trung bình của %(\\triangle \\mathrm{AMH})%<br>\\[\\Rightarrow \\mathrm{BS} / / \\mathrm{MH} \\Rightarrow A B S=A M H \\Rightarrow A M H=C A I\\]<br>Mà %(C A I+M A I=90^{\\circ} \\Rightarrow A M H+M A I=90^{\\circ} \\Rightarrow \\mathrm{Al} \\perp \\mathrm{MF})%<br>Xét tứ giác %(A E G F)% nội tiếp ( %(O))%, có %(A G \\perp E F)%<br>Kẻ đường kính %(A D)%, do %(G D \\perp A G)% và %(E F \\perp A G)% nên %(E F / / G D)%, do đó tứ giác nội tiếp%(E F G D)% là hình thang cân %(\\Rightarrow F G=E D \\Rightarrow A E^{2}+F G^{2}=A E^{2}+E D^{2}=A D^{2}=B C^{2})%Tương tự ta chứng minh được: %(\\mathrm{AF}^{2}+\\mathrm{EG}^{2}=\\mathrm{BC}^{2})%Vậy %(A E^{2}+F G^{2}+A F^{2}+E G^{2}=2 B C^{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Gọi %(P)% là hình chiếu vuông góc của %(H)% lên %(A B)%. Tìm vị trí của điểm %(A)% sao cho bán kính đường tròn ngoại tiếp tam giác %(B C P)% đạt giá trị lớn nhất.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{P})% là hình chiếu vuông góc của %(\\mathrm{H})% lên %(\\mathrm{AB})%. Tìm vị trí của điểm %(\\mathrm{A})% sao cho bán kính đường tròn ngoại tiếp tam giác BCP đạt giá trị lớn nhất.<br>Gọi %(\\mathrm{Q})% là hình chiếu của %(\\mathrm{H})% trên %(\\mathrm{AC} \\Rightarrow)% Tứ giác %(\\mathrm{APHQ})% là hình chữ nhật (S là tâm)%(\\Rightarrow \\mathrm{AQP}=\\mathrm{AHP}=\\mathrm{ABC})% nên tứ giác %(\\mathrm{BPQC})% nội tiếp.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/1d32fc520dd854eaf3e574ab191e0b88.png\" srcset=\"https://docdn.giainhanh.io/media/test/44c62751c316433bfc5cc73901194e78.png 194w\" width=\"194\"/><br>Đường trung trực của các đoạn thẳng %(\\mathrm{PQ}, \\mathrm{BC}, \\mathrm{QC})% cắt nhau tại %(\\mathrm{O}^{\\prime})% thì %(\\mathrm{O}^{\\prime})% là tâm đường tròn ngoại tiếp tam giác %(\\mathrm{BCP})%.<br>Có: %(\\mathrm{OO}^{\\prime} / / \\mathrm{AH})% vì cùng vuông góc với %(\\mathrm{BC})%.%(\\mathrm{OA} \\perp \\mathrm{PQ})% và %(\\mathrm{O})% ' %(\\mathrm{S} \\perp \\mathrm{PQ} \\Rightarrow \\mathrm{O}^{\\prime} \\mathrm{S} / / \\mathrm{OA})% nên tứ giác %(\\mathrm{ASO}^{\\prime} \\mathrm{O})% là hình bình hành<br>\\[\\Rightarrow \\mathrm{OO}^{\\prime}=\\mathrm{AS}=\\frac{\\mathrm{AH}}{2}\\]<br>Trong trường hợp %(\\mathrm{A})% nằm chính giữa cung %(\\mathrm{BC})% thì ta vẫn có: %(\\mathrm{OO}^{\\prime}=\\mathrm{AS}=\\frac{\\mathrm{AH}}{2})%<br>Tam giác %(O O^{\\prime} \\mathrm{C})% vuông tại %(\\mathrm{O})% nên %(\\mathrm{O}^{\\prime} \\mathrm{C}=\\sqrt{\\mathrm{OC}^{2}+\\frac{\\mathrm{AH}^{2}}{4}})%.<br>Do OC không đổi nên %(\\mathrm{O}^{\\prime} \\mathrm{C})% lớn nhất khi %(\\mathrm{AH})% lớn nhất %(\\Leftrightarrow A)% chính giữa cung %(\\mathrm{BC})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 1.0,
+        "content": "Cho %(a, b, c)% là các số thực dương thay đổi thỏa mãn: %(a+b+c=1)%.Tìm giá trị nhỏ nhất của biểu thức : %(Q=14\\left(a^{2}+b^{2}+c^{2}\\right)+\\frac{a b+b c+c a}{a^{2} b+b^{2} c+c^{2} a})%",
+        "question_images": [],
+        "solution": "Ta có: %(a^{2}+b^{2}+c^{2}=(a+b+c)\\left(a^{2}+b^{2}+c^{2}\\right))%<br>\\[=a^{3}+b^{3}+c^{3}+a^{2} b+b^{2} c+c^{2} a+a b^{2}+b c^{2}+c a^{2}\\]<br>Theo bất đẳng thức Cô si:<br>\\[a^{3}+a b^{2} \\geq 2 a^{2} b ; b^{3}+b c^{2} \\geq 2 b^{2} c ; \\quad c^{3}+c a^{2} \\geq 2 c^{2} a \\Rightarrow a^{2}+b^{2}+c^{2} \\geq 3\\left(a^{2} b+b^{2} c+\\right.\\]<br>%(\\left.c^{2} a\\right))%<br>Do đó: %(\\mathrm{P} \\geq 14\\left(a^{2}+b^{2}+c^{2}\\right)+\\frac{3(a b+b c+c a)}{a^{2}+b^{2}+c^{2}})%<br>Đặt %(\\mathrm{t}=a^{2}+b^{2}+c^{2})%. Ta luôn có: %(3\\left(a^{2}+b^{2}+c^{2}\\right) \\geq(a+b+c)^{2}=1)%.<br>Do vậy: %(\\mathrm{t} \\geq \\frac{1}{3})%. Khi đó: %(\\mathrm{P} \\geq 14 t+\\frac{3(1-t)}{2 t}=\\frac{t}{2}+\\frac{27 t}{2}+\\frac{3}{2 t}-\\frac{3}{2} \\geq \\frac{1}{3} \\cdot \\frac{1}{2}+2 \\sqrt{\\frac{27 t}{2} \\cdot \\frac{3}{2 t}}-\\frac{3}{2}=\\frac{23}{3})%Vậy MinP %(=\\frac{23}{3})% khi %(a=b=c=\\frac{1}{3})%.",
+        "question_type": "essay"
+    }
+]

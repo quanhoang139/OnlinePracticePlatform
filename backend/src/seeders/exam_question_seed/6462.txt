@@ -1,0 +1,81 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.0,
+        "content": "Cho dãy số %(\\left(x_{n}\\right))% được xác định bởi %(x_{1}=1)% và %(x_{n+1}=\\frac{x_{n}+2}{x_{n}+3})% với mọi %(n \\in \\mathbb{N}^{*})%. Chứng minh rằng dãy số %(\\left(x_{n}\\right))% có giới hạn hữu hạn, tìm giới hạn đó.",
+        "question_images": [],
+        "solution": "Xét số %(b\\gt 0)% là nghiệm của phương trình %(b=\\frac{b+2}{b+3} \\Rightarrow b=\\sqrt{3}-1)%.<br>Dễ thấy %(x_{n}>0, \\forall n \\geq 1)% nên ta có:<br>\\[0 \\leq\\left|x_{n+1}-b\\right|=\\left|\\frac{x_{n}+2}{x_{n}+3}-\\frac{b+2}{b+3}\\right|=\\left|\\frac{x_{n}-b}{\\left(x_{n}+3\\right)(b+3)}\\right| \\leq \\frac{1}{9}\\left|x_{n}-b\\right|\\]<br>Suy ra %(0 \\leq\\left|x_{n+1}-b\\right| \\leq \\frac{1}{9}\\left|x_{n}-b\\right| \\leq\\left(\\frac{1}{9}\\right)^{2}\\left|x_{n-1}-b\\right| \\leq\\left(\\frac{1}{9}\\right)^{n}\\left|x_{1}-b\\right|)%<br>Do %(\\lim \\left(\\frac{1}{9}\\right)^{n}\\left|x_{1}-b\\right|=0)% nên theo nguyên lý kẹp suy ra %(\\lim x_{n}=b=\\sqrt{3}-1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm tất cả các hàm số xác định, liên tục trong khoảng %((0 ;+\\infty))% và thỏa mãn:<br>\\[f(x)=f\\left(\\frac{x+2}{x+3}\\right)+\\frac{x^{2}+2 x-2}{x+3} \\text { với mọi } x\\gt 0 \\text {. }\\]",
+        "question_images": [],
+        "solution": "Ta có %(f(x)=f\\left(\\frac{x+2}{x+3}\\right)+\\frac{x^{2}+2 x-2}{x+3} \\Rightarrow f(x)=f\\left(\\frac{x+2}{x+3}\\right)-\\frac{x+2}{x+3}+x)%<br>Suy ra %(f(x)-x=f\\left(\\frac{x+2}{x+3}\\right)-\\frac{x+2}{x+3}, \\forall x\\gt 0)%<br>Đặt %(g(x)=f(x)-x \\Rightarrow g(x)=g\\left(\\frac{x+2}{x+3}\\right), \\forall x>0)%<br>Chọn %(a>0)% tùy ý, xét dãy %(\\left(x_{n}\\right))% xác định bơi %(x_{1}=a ; x_{n+1}=\\frac{x_{s}+2}{x_{n}+3}, \\forall n \\in \\mathbb{N}^{*})%.<br>Hoàn toàn tương tự phần a) thì %(\\lim x_{n}=b=\\sqrt{3}-1)%<br>Từ (1) suy ra %(g(a)=g\\left(x_{1}\\right)=g\\left(x_{2}\\right)=\\ldots=g\\left(x_{n}\\right), \\forall n \\in \\mathbb{N}^{*})%<br>Do hàm %(g(x))% liên tục trên %((0 ;+\\infty))% nên<br>\\[g(a)=\\lim g\\left(x_{n}\\right)=g\\left(\\lim x_{n}\\right)=g(\\sqrt{3}-1)=c\\]<br>Suy ra %(g(x)=c)% hay %(f(x)=x+c)% với mọi %(x>0)%.<br>Thử lại ta thấy hàm số cần tìm là %(f(x)=x+c)% với mọi %(x>0, c)% là hằng số tùy ý.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.5,
+        "content": "Cho số tự nhiên %(a \\geq 2)% thỏa mãn %(a+1)% có ước nguyên tố lẻ %(p)%. Chứng minh rằng %(\\left(a^{p^{2}}+1\\right) \\vdots p^{2})%",
+        "question_images": [],
+        "solution": "Ta có %(a^{p^{2}}+1=\\left(a^{p}\\right)^{p}+1=(m+1)\\left(m^{p-1}-m^{p-2}+\\ldots-m+1\\right)=(m+1) A)%, vớ %(m=a^{p})%.<br>Do %(p)% lè nên %(a^{p}+1 \\vdots a+1 \\vdots p \\Rightarrow m+1 \\vdots p \\Rightarrow m \\equiv-1(\\bmod p))%.<br>Do đó<br>\\[A=m^{p-1}-m^{p-2}+\\ldots-m+1 \\equiv p \\equiv 0(\\bmod p)\\]<br>Suy ra %((m+1) A \\vdots p^{2})%, tức là %(a^{p^{2}}+1 \\vdots p^{2})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 0.5,
+        "content": "Chứng minh rằng tồn tại vô số những số tự nhiên %(n)% sao cho %(\\left(2019^{n}+1\\right))% : %(n)%.",
+        "question_images": [],
+        "solution": "Trước hết ta chứng minh mệnh đề sau bằng quy nạp theo %(k)% :<br>Cho số tự nhiên %(a \\geq 2)% sao cho %(a+1)% có uớc nguyên tố lẻ là %(p)%.<br>Khi đó %(a^{p^{*}}+1)% : %(p^{k}, \\forall k \\in \\mathbb{N}^{*})% (1)<br>Theo giả thiết thì ta thấy ngay (1) đúng với %(k=1)%.<br>Giả sử (1) đúng với %(k)%, ta chứng minh (1) đúng với %(k+1)%.<br>Ta có %(a^{p^{t+1}}+1=\\left(a^{p^{k}}\\right)^{p}+1=(m+1)\\left(m^{p-1}-m^{p-2}+\\ldots-m+1\\right)=(m+1) A)%, trong đó %(m=a^{p^{k}})%.<br>Theo giả thiết quy nạp %(m+1 \\vdots p^{k})%.<br>Lại có %(m+1 \\vdots p \\Rightarrow m \\equiv-1(\\bmod p))%.<br>Do đó %(A=m^{p-1}-m^{p-2}+\\ldots-m+1 \\equiv p \\equiv 0(\\bmod p))%<br>Suy ra %((m+1) A \\vdots p^{k+1})%, tức là %(a^{p^{k+1}}+1 \\vdots p^{k+1})%. Vậy (1) đúng với %(k+1)%.<br>Trở lại bài toán:<br>Với %(a=2019)% thì %(a+1=2020)% có ước nguyên tố lẻ là 5 nên theo(1) các số %(n=5^{k})% sẽ thỏa mãn %(2019^{n}+1 \\vdots n)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho tam giác nhọn %(A B C)% có đường cao %(A H)%. Đường tròn nội tiếp %((I))% của tam giác %(A B C)% tiếp xúc với các cạnh %(B C, C A, A B)% lần lượt tại %(D, E, F)%. Đường tròn %((A))% có tâm %(A)% bán kính %(A E)% cắt đoạn thẳng %(A H)% tại điểm %(K)%. Đường thẳng %(I K)% cắt đường thẳng %(B C)% tại %(P)%. Các đường thẳng %(D K)% và %(P K)% cắt đường tròn %((A))% lần lượt tại %(Q)% và %(T)% khác %(K)%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "null ",
+        "point": 1.5,
+        "content": "a) Chứng minh rằng tứ giác %(T D P Q)% nội tiếp và ba điểm %(Q, A, P)% thẳng hàng.",
+        "question_images": [],
+        "solution": "Ta có %(\\widehat{T Q D}=\\widehat{T Q K}=\\frac{1}{2} \\widehat{T A K}=90^{\\circ}-\\widehat{A K T}=\\widehat{H P K}=\\widehat{T P D})%.<br>Suy ra tứ giác %(T D P Q)% nội tiếp.<br>Ta có %(\\widehat{K Q A}=\\widehat{A K Q}=\\widehat{D K H}=\\widehat{K D I})%<br>Dễ thấy %(I F)% là tiếp tuyến của %((A))% nên %(I D^{2}=I F^{2}=\\overline{I K} \\cdot \\overline{I T} \\Rightarrow \\triangle I D K \\sim \\triangle I T D)%<br>Suy ra %(\\widehat{K D I}=\\widehat{I T D}=\\widehat{K Q P})% (2). Tù (1) và (2) suy ra %(\\widehat{K Q A}=\\widehat{K Q P})%.<br>Do đó ba điểm %(Q, A, P)% thẳng hàng.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c4af74407246f1b2c8e0ecb9fde9d3bf.png\" srcset=\"https://docdn.giainhanh.io/media/test/4ad20108cb9537c10a489762485d09b4.png 169w\" width=\"169\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "null ",
+        "point": 0.5,
+        "content": "b) Đường thẳng %(D K)% cắt đường tròn %((I))% tại điểm thứ hai là %(X)%. Chứng minh rằng ba đường thẳng %(A X, E F, T I)% đồng quy.",
+        "question_images": [],
+        "solution": "Gọi %(Y)% là giao điểm thứ hai của %(A X)% với %((I))%.<br>Ta có<br>\\[I X^{2}=I F^{2}=\\overline{I K} \\cdot \\overline{I T} \\Rightarrow \\widehat{I T X}=\\overparen{I X K}=\\widehat{I D X}=\\overparen{A K X} \\text { ( vì } A K \\| I D \\text { ) }\\]<br>Lai có %(A K^{2}=A F^{2}=\\overline{A X} \\cdot \\overline{A Y} \\Rightarrow \\widehat{A K X}=\\widehat{A Y K})%.<br>Suy ra %(\\widehat{I T X}=\\widehat{A Y K})%.<br>Do do tú giác %(X K Y T)% nội tiếp.<br>Xét ba đường tròn: %((X K Y T) ;(I) ;(A))%, lần lượt có trục đẳng phương là %(K T, X Y, E F)%.<br>Do đó ba đường thẳng %(K T, X Y, E F)% đồng quy tại tâm đẳng phương của ba đườngtròn trên.<br>Vậy ba đường thẳng %(A X, E F, T I)% đồng quy.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/def5acc4110ef5152d8b18676db4e6ac.png\" srcset=\"https://docdn.giainhanh.io/media/test/fbdd32aec188ae2648e310f156dd5ddd.png 163w, https://docdn.giainhanh.io/media/test/7d1567407cdbb311dfc085e12f53f244.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "null ",
+        "point": 1.0,
+        "content": "c) Chứng minh rằng đường tròn đường kính %(A P)% tiếp xúc với đường tròn %((I))%.",
+        "question_images": [],
+        "solution": "Gọi %(Z)% là giao diềm thứ hai của dường thẳng %(P T)% với đường tròn dường kính %(A P)%.<br>Khi đó %(A Z \\perp K T)% và %(Z)% là trung điểm %(K T)%.<br>Do %(I E)% và %(I F)% là tiếp tuyến của %((A))% nên %((T K S I)=-1)%, theo hệ thức Macloranh ta dược %(\\overline{S Z} \\overline{S I}=\\overline{S K} \\overline{S T}=\\overline{S X} \\cdot \\overline{S Y})%.<br>Suy ra tứ giác %(X Z Y I)% nội tiếp, suy ra %(\\widehat{Z Y X}=\\widehat{Z I X})%<br>Mặt khác %(\\widehat{I X D}=\\widehat{I T D}=\\widehat{D Q P} \\Rightarrow I X \\| P Q \\Rightarrow \\widehat{Z I X}=\\widehat{Z P A})%.<br>Vậy %(\\widehat{Z Y X}=\\widehat{Z P A})%Suy ra tứ giác %(A Z Y P)% nội tiếp, suy ra %(Y)% thuộc dường tròn dường kính %(A P)%.<br>Vẽ tiếp tuyến Yt của (I), ta có<br>\\[\\overparen{t Y X}=\\frac{1}{2} \\overparen{X I Y}=90^{\\circ}-\\overparen{L X Y}=90^{\\circ}-\\widehat{I Z Y}=90^{\\circ}-\\widehat{Y A P}=\\overparen{Y P A} .\\]<br>Do đó %(Y t)% là tiếp tuyến của đường tròn đường kính %(A P)%.<br>Vậy đường tròn đường kính %(A P)% tiếp xúc với dường tròn %((I))% tại diểm %(Y)% (dpcm).<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/c9bf2e32e695cd44fb96a6a5de6f63a1.png\" srcset=\"https://docdn.giainhanh.io/media/test/607a8364fc3841ebb988a6f4743223c2.png 163w, https://docdn.giainhanh.io/media/test/923ec931c194bb7ab217eabc16e464c1.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho %(P(x))% là một đa thức khác hằng số với hệ số thực sao cho tất cả các nghiệm của nó đều là số thực. Giả sử tồn tại một đa thức %(Q(x))% với hệ số thực sao cho %((P(x))^{2}=P(Q(x)))% với mọi %(x \\in \\mathbb{R})%. Chứng minh rằng tất cả các nghiệm của đa thức %(P(x))% dều bằng nhau.",
+        "question_images": [],
+        "solution": "Giả sử %(P(x)=A\\left(x-x_{1}\\right)^{d_{1}} \\cdot\\left(x-x_{2}\\right)^{d_{2}} \\ldots\\left(x-x_{k}\\right)^{d_{k}})%, trong đó %(x_{1}\\lt x_{2}\\lt \\ldots\\lt x_{k})% là tất cả các nghiệm thực của %(P(x))%.<br>Dễ thấy %(\\operatorname{deg} Q(x)=2 \\Rightarrow Q(x)=a x^{2}+b x+c)%.<br>Khi đó ta được<br>\\[A^{2}\\left(x-x_{1}\\right)^{2 d_{1}} \\cdot\\left(x-x_{2}\\right)^{2 d_{2}} \\ldots\\left(x-x_{k}\\right)^{2 d_{i}}=A \\prod_{i=1}^{k}\\left(a x^{2}+b x+c-x_{i}\\right)^{d_{i}}\\]<br>Do đó với mỗi chỉ số i thì nghiệm của đa thức %(a x^{2}+b x+c-x_{i})% là %(x_{s}, x_{t})%, với %(s, t)% nàođó.<br>Theo định lý Viet ta được %(x_{s}+x_{i}=-\\frac{b}{a})%.<br>Như vậy tất cả các nghiệm của %(P^{2}(x))% được chia thành các cặp %(\\left(x_{s}, x_{t}\\right))% mà tổng của hai số trong mỗi cặp bằng nhau và bằng %(-\\frac{b}{a})%.<br>Giả sử %(x_{1})% ghép cặp với %(x_{s})% và %(x_{k})% ghép cặp với %(x_{t})%.<br>Từ %(x_{1} \\leq x_{t} ; x_{s} \\leq x_{k})% và %(x_{1}+x_{s}=x_{k}+x_{t})% ta suy ra %(x_{1}=x_{i} ; x_{s}=x_{k})%.<br>Vậy %(x_{1})% chỉ có thể ghép cặp với %(x_{k})%. Lập luận hoàn toàn tương tự suy ra mỗi cặp chỉ có dạng %(\\left(x_{j}, x_{k+1-j}\\right))%.<br>Áp dụng định lý Viet ta có %(x_{j} x_{k+1-j}=\\frac{c-x_{m}}{a})%, với %(m)% nào đó.<br>Do có đúng %(k)% giá trị %(\\frac{c-x_{m}}{a})% và các số dạng %(x_{j} x_{k+1-,})% chỉ chứa nhiều nhất %(\\left[\\frac{k+1}{2}\\right])% giá trị phân biệt nên %(k \\leq\\left[\\frac{k+1}{2}\\right])%.<br>Từ bất đẳng thức này ta suy ra ngay %(k=1)%.<br>Khi đó %(P(x)=A\\left(x-x_{1}\\right)^{d_{1}})%, và suy ra tất cả các nghiệm của %(P(x))% dều bằng nhau ( %(\\left.\\mathrm{dpcm}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Một tập hợp gồm 3 số nguyên dương được gọi là tập Pytago nếu 3 số này là độ dài ba cạnh của một tam giác vuông. Chứng minh rằng với hai tập Pytago %(P, Q)% bất kỳ, ta luôn tìm được %(m)% tập Pytago %(P_{1}, P_{2}, \\ldots, P_{m}(m \\geq 2))% sao cho %(P_{1}=P, P_{m}=Q)% và %(P_{i} \\cap P_{i+1} \\neq \\varnothing)% với mọi %(1 \\leq i \\leq m-1)%.",
+        "question_images": [],
+        "solution": "Bố đề: Với mỗi số nguyên dương %(n \\geq 3)%, luôn tồn tại một tập Pytago chứa số %(n)%.<br>Ta chứng minh mệnh đề trên bằng quy nạp theo %(n)%.<br>Dễ thấy mệnh đề đúng với %(n=3,4,5)% vì %(\\{3,4,5\\})% là một tập Pytago.Xét %(n \\geq 6)%, giả sừ mệnh đề đúng với mọi số nhỏ hơn %(n)%, ta cần chứng minh mệnh đề đúng với %(n)%.<br>+ Nếu %(n)% chẵn, %(n=2 k)% thì %(3 \\leq k\\lt n)%.<br>Theo giả thiết quy nạp, tồn tại 1 tập Pytago %(A)% chứa số %(k)%. Giả sử %(A=\\{k, a, b\\})%.<br>Khi đó tập %(B=\\{n, 2 a, 2 b\\})% là tập Pytago chứa số %(n)%.<br>+ Nếu %(n)% lè, ta thấy tập %(A=\\left\\{n ; \\frac{1}{2}\\left(n^{2}-1\\right) ; \\frac{1}{2}\\left(n^{2}+1\\right)\\right\\})% là tập Pytago chứa số %(n)%<br>Vậy luôn tồn tại một tập Pytago chứa số %(n)%.Nếu hai tập Pytago %(P, Q)% thỏa mãn yêu cầu của bài toán thì ta nói cặp %((P, Q))% là một că̆p \"đẹp\" và kí hiệu là %(P \\sim Q)%.<br>Như vậy ta cần chứng minh mọi cặp Pytago %((P, Q))% đều là cặp đẹp (1)<br>Nhận xét:<br>Ta chì cần chứng minh mệnh đề (1) đúng trong trường hợp %(P=\\{3,4,5\\})%.<br>Chíng minh:<br>Xét %(P=\\{3,4,5\\})% và giả sử cứ với tập %(Q)% là tập Pytago bất kì thì %((P, Q))% là cặp đẹp.<br>Xét hai tập Pytago bất kì là %(Q, R)%, khi đó %((P, Q))% và %((P, R))% là cặp đẹp nên tồn tại dãy %(Q_{1}, Q_{2}, \\ldots, Q_{m})% và %(R_{1}, R_{2}, \\ldots, R_{t})% sao cho %(Q_{1}=P_{1}=\\{3 ; 4 ; 5\\} ; Q_{m}=Q ; R_{t}=R)% và %(Q_{i} \\cap Q_{i+1} \\neq \\varnothing ; R_{i} \\cap R_{i+1} \\neq \\varnothing)%Khi đó dãy %(Q_{m}, Q_{w-1}, \\ldots, Q_{1}, R_{2}, R_{3}, \\ldots, R_{t})% thỏa mãn yêu cầu bài toán.<br>Suy ra %((Q, R))% là cặp đẹp.<br>Qua phép chứng minh trên ta cũng suy ra rằng nếu %((P, Q))% và %((P, R))% là hai cặp đẹp thì %((Q, R))% cũng là cặp đẹp.<br>Trờ lại bài toán, xét %(P=\\{3,4,5\\})%, ta tiếp tục chứng minh bài toán bằng quy nạp theo phần tử nhỏ nhất của %(Q)%.<br>Giả sử %(\\min Q=n)%+ Nếu %(3 \\leq n \\leq 5)% thì hiển nhiên %((P, Q))% là cặp đẹp.<br>+ Xét %(n \\geq 6)%, giả sử mệnh đề đúng với mọi số %(3 \\leq \\min Q\\lt n)%.<br>* Nếu %(n)% chẵn, %(n=2 k)% thì %(3 \\leq k\\lt n)%.<br>Theo bổ đề và giả thiết quy nạp thì tồn tại một tập Pytago %(\\mathrm{Q}^{\\prime})% chứa %(\\mathrm{k})% và %(\\left(P, Q^{\\prime}\\right))% là cặp đẹp.<br>Dễ thấy rằng khi nhân tất cả các phần từ của một cặp đẹp với số 2 thì lại cho ta một cặp đẹp mới.<br>Do đó nếu gọi %(Q^{\\prime}=\\{k ; x ; y\\})% thì các cặp sau là đẹp:<br>\\[(\\{n ; 2 x ; 2 y\\} ;\\{6 ; 8 ; 10\\}) ;(\\{n ; 2 x ; 2 y\\} ; Q) \\text { (vì có giao khác rỗng) }\\]<br>Mặt khác %((\\{6 ; 8 ; 10\\} ;\\{3 ; 4 ; 5\\}))% cũng là cặp đẹp do chuỗi xây dưng các tập đẹp Pytago sau: %(\\{6 ; 8 ; 10\\} \\sim\\{8 ; 15 ; 17\\} \\sim\\{9 ; 12 ; 15\\} \\sim\\{5 ; 12 ; 13\\} \\sim\\{3 ; 4 ; 5\\})%<br>Vậy %(Q)% và %(\\{3 ; 4 ; 5\\})% tạo thành cặp đẹp.<br>* Nếu %(n)% lẻ thì %(Q \\sim\\left\\{n ; \\frac{1}{2}(n-1)(n+1) ; \\frac{1}{2}\\left(n^{2}+1\\right)\\right\\})%.<br>Theo bổ đề thì tồn tại tập Pytago %(R)% chứa %(\\frac{1}{2}(n+1))% và tập Pytago %(H)% chứa %(n-1)%.",
+        "question_type": "essay"
+    }
+]

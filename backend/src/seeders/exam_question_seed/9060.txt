@@ -1,0 +1,88 @@
+[
+    {
+        "title": "1.1 ",
+        "point": 2.5,
+        "content": "Tính giá trị biểu thức %(\\left(a^{3}+15 a-25\\right)^{2220})% với %(a=\\sqrt[3]{13-7 \\sqrt{6}}+\\sqrt[3]{13+7 \\sqrt{6}})%.",
+        "question_images": [],
+        "solution": "Ta có: %((x+y)^{3}=x^{3}+y^{3}+3 x y(x+y))%.<br>Áp dụng hằng đẳng thức trên ta có:<br>\\[\\begin{array}{l}a^{3}=\\left(\\sqrt[3]{13-7 \\sqrt{6}}+\\sqrt[3]{13+7 \\sqrt{6})^{3}}\\right. \\\\=13-7 \\sqrt{6}+13+7 \\sqrt{6}+3 \\sqrt[3]{(13-7 \\sqrt{6})(13+7 \\sqrt{6})} \\cdot(\\sqrt[3]{13-7 \\sqrt{6}}+\\sqrt[3]{13+7 \\sqrt{6})} \\\\=26+3 \\cdot \\sqrt[3]{13^{2}-(7 \\sqrt{6})^{2}} a \\\\=26+3 .(-5) a \\\\=26-15 a \\\\Leftrightarrow a^{3}=26-15 a \\\\Leftrightarrow a^{3}+15 a-25=1\\end{array}\\]<br>Khi đó ta có: %(a^{3}+15 a-25^{2020}=1^{2020}=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "1.2 ",
+        "point": 2.5,
+        "content": "Tìm các cặp số nguyên %((x, y))% thỏa mãn %(x^{2}-2 x(2 y+1)+5 y^{2}+2 y=0)%.",
+        "question_images": [],
+        "solution": "Ta có:<br>\\[\\begin{array}{l}x^{2}-2 x(2 y+1)+5 y^{2}+2 y=0 \\\\Leftrightarrow x^{2}-4 x y-2 x+5 y^{2}+2 y=0 \\\\Leftrightarrow x^{2}-4 x y+4 y^{2}-2 x+4 y+1+y^{2}-2 y+1=2 \\\\Leftrightarrow(x-2 y)^{2}-2(x-2 y)+1+(y-1)^{2}=2\\end{array}\\]<br>Do %(x, y)% là các số nguyên nên ta có các truờng hợp sau:<br>TH1: %(\\left\\{\\begin{array}{l}x-2 y-1=1 \\\\ y-1=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=6 \\\\ y=2\\end{array}\\right.\\right.)%<br>TH2: %(\\left\\{\\begin{array}{l}x-2 y-1=1 \\\\ y-1=-1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=2 \\\\ y=0\\end{array}\\right.\\right.)%<br>TH3: %(\\left\\{\\begin{array}{l}x-2 y-1=-1 \\\\ y-1=1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=4 \\\\ y=2\\end{array}\\right.\\right.)%.<br>TH4: %(\\left\\{\\begin{array}{l}x-2 y-1=-1 \\\\ y-1=-1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=0 \\\\ y=0\\end{array}\\right.\\right.)%<br>Vậy các cặp số nguyên %((x ; y))% cần tìm là %((6 ; 2),(2 ; 0),(4 ; 2),(0 ; 0))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.1 ",
+        "point": 2.5,
+        "content": "Chứng minh rằng %(\\sqrt[3]{2})% không thể biểu diễn dươi dạng %(p+q \\sqrt{r})% với %(p, q, r)% là các số hữu tỉ và %(r)% dương.",
+        "question_images": [],
+        "solution": "Giả sử %(\\sqrt[3]{2}=p+q \\sqrt{r})%.<br>\\[\\begin{array}{l}\\Rightarrow 2=(p+q \\sqrt{r})^{3} \\\\Leftrightarrow 2=p^{3}+3 p^{2} q \\sqrt{r}+3 p q^{2} r+q^{3} \\sqrt{r^{3}} \\\\Leftrightarrow 2=p^{3}+3 p q^{2} r+\\sqrt{r} 3 p^{2} q+q^{3} r \\\\Leftrightarrow \\sqrt{r}=\\frac{2-p^{3}-3 p q^{2} r}{3 p^{2} q+q^{3} r}\\end{array}\\]<br>+ Nếu %(r)% là số chính phương hoặc là số hữu tỉ có dạng %(\\left(\\frac{m}{n}\\right)^{2})% %(\\Rightarrow p+q \\sqrt{r} \\in \\mathbb{Q})% với mọi số %(p, q \\in \\mathbb{Q} \\Rightarrow \\sqrt[3]{2})% là số hữu tỉ.<br>Điều này vô lý vì %(\\sqrt[3]{2})% là số vô tỉ.<br>+ Nếu %(r)% không là số chính phương hoặc không là số hữu tỉ có dạng %(\\left(\\frac{m}{n}\\right)^{2})%.%(\\Rightarrow \\sqrt{r})% là số vô tỉ<br>%(\\Rightarrow)% vô lý vì %(\\frac{2-p^{3}-3 p q^{2} r}{3 p^{2} q+q^{3} r})% là số hữu tỉ với mọi số %(p, q, r \\in \\mathbb{Q})%.<br>Vậy %(\\sqrt[3]{2})% không thể biểu diễn dưới dạng %(p+q \\sqrt{r})% với %(p, q, r)% là các số hữu tỉ và %(r)% dương.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2.2 ",
+        "point": 2.5,
+        "content": "Xét các số dương %(a, b, c)% thỏa mãn %(a+b+c=\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c})%. Chứng minh rằng<br>\\[\\sqrt{8 a b+1}+\\sqrt{8 b c+1}+\\sqrt{8 c a+1} \\leqslant 3(a+b+c)\\]",
+        "question_images": [],
+        "solution": "b) Với ba số dương %(a, b, c)% xét biếu thức:<br>\\[(\\sqrt{8 a b+1}+\\sqrt{8 b c+1}+\\sqrt{8 c a+1})^{2}=\\left(\\sqrt{a} \\sqrt{8 b+\\frac{1}{a}}+\\sqrt{b} \\sqrt{8 c+\\frac{1}{b}}+\\sqrt{c} \\sqrt{8 a+\\frac{1}{c}}\\right)^{2} .\\]<br>Áp dụng bất đẳng thức Cauchy - Schwarz cho hai bộ ba số %((\\sqrt{a} ; \\sqrt{b} ; \\sqrt{c}))% và %(\\left(\\sqrt{8 b+\\frac{1}{a}} ; \\sqrt{8 c+\\frac{1}{b}} ; \\sqrt{8 a+\\frac{1}{c}}\\right))% ta có:<br>%(\\begin{array}{l}\\left(\\sqrt{a} \\sqrt{8 b+\\frac{1}{a}}+\\sqrt{b} \\sqrt{8 c+\\frac{1}{b}}+\\sqrt{c} \\sqrt{8 a+\\frac{1}{c}}\\right)^{2} \\leq(a+b+c)\\left(8 b+\\frac{1}{a}+8 c+\\frac{1}{b}+8 a+\\frac{1}{c}\\right) \\\\ \\Leftrightarrow(\\sqrt{8 a b+1}+\\sqrt{8 b c+1}+\\sqrt{8 c a+1})^{2} \\leq(a+b+c)\\left(8 b+\\frac{1}{a}+8 c+\\frac{1}{b}+8 a+\\frac{1}{c}\\right) \\\\ \\Leftrightarrow \\sqrt{8 a b+1}+\\sqrt{8 b c+1}+\\sqrt{8 c a+1}{ }^{2} \\leq(a+b+c)\\left(8 a+8 b+8 c+\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right) \\\\ \\Leftrightarrow(\\sqrt{8 a b+1}+\\sqrt{8 b c+1}+\\sqrt{8 c a+1})^{2} \\leq(a+b+c) \\cdot 9(a+b+c) \\\\ \\Leftrightarrow \\sqrt{8 a b+1}+\\sqrt{8 b c+1}+\\sqrt{8 c a+1} \\leq 9(a+b+c)^{2} . \\\\ \\Rightarrow \\sqrt{8 a b+1}+\\sqrt{8 b c+1}+\\sqrt{8 c a+1} \\leq 3(a+b+c) .(\\text { đpcm })\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho tam giác nhọn %(A B C)% đường cao %(C K ; H)% là trực tâm của tam giác. Gọi %(M)% là một điểm trên %(C K)% sao cho %(\\bar{A} M B=90^{\\circ} ; S, S_{1}, S_{2})% theo thứ tự là diện tích các tam giác %(A M B, A B C)% và %(A B H)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 1.0,
+        "content": "a) Chứng minh: %(H K . C K=A K B K)%",
+        "question_images": [],
+        "solution": "Xét %(\\triangle H K B)% và %(\\triangle A K C)% co:<br>\\[\\begin{array}{l}K B H=K C A \\text { (cùng phụ với } B A C \\text { ) } \\B K H=C K A\\left(=90^{\\circ}\\right) \\\\Rightarrow \\triangle H K B \\simeq \\triangle A K C(g \\cdot g) \\\\Rightarrow \\frac{H K}{A K}=\\frac{B K}{C K} \\Rightarrow H K \\cdot C K=A K \\cdot B K \\\\Rightarrow S_{1} \\cdot S_{2}=\\frac{A B^{2} \\cdot(K H \\cdot C K)}{4} \\\\Rightarrow \\sqrt{S_{1} S_{2}}=\\frac{A B \\cdot \\sqrt{K H \\cdot C K}}{2} .\\end{array}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/55ebcc681d71d63fd2eddd230a31db2b.png\" srcset=\"https://docdn.giainhanh.io/media/test/5f942255ab8d3952a0f89a21d4bcf413.png 197w\" width=\"197\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Chứng minh: %(S=\\sqrt{S_{1} S_{2}})%.",
+        "question_images": [],
+        "solution": "Lại có: %(\\triangle A M B)% vuông ở %(M)% có đường cao %(M K)%%(\\Rightarrow A K \\cdot B K=M K^{2})% (Hệ thức lượng trong tam giác vuông) (2)<br>Từ (1) và %((2) \\Rightarrow C H . C K=M K^{2})%.<br>Suy ra %(\\sqrt{K H . C K}=M K)% (3)<br>Thay (3) vào %(\\left({ }^{*}\\right))% ta dượ:<br>\\[\\sqrt{S_{1} S_{2}}=\\frac{A B \\cdot M K}{2}=S_{\\triangle A N M}=S .\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho tam giác %(A B C)% vuông cân tại %(A)%, trên cạnh %(B C)% lấy một điểm %(M)% bất kỳ %((M)% không trùng với %(B)% và %(C)% ). Từ %(M)% kẻ %(M E)% vuông góc %(A B)% tại %(E, M F)% vuông góc %(A C)% tại %(F)%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Chứng minh rằng khi %(M)% di chuyển trên cạnh %(B C)% thì đường thẳng qua %(M)% và vuông góc với %(E F)% luôn đi qua một điểm có định %(D)%.",
+        "question_images": [],
+        "solution": "Kè %(M H \\perp E F)%.Gọi %(D)% là điểm sao cho tứ giác %(A B C D)% là hình vuông.%(M D)% cắt %(E F)% tại %(H . M F)% cắt %(A D)% tại %(K)%.<br>Xét %(\\triangle B M E)% vuông tại %(E)% có %(E B M=45^{\\circ} \\Rightarrow E M B=45^{\\circ})%.%(\\Rightarrow \\triangle B M E)% vuông cân tại %(E \\Rightarrow B E=M E)%<br>Tứ giác %(B E M K)% có %(B=E=K)% và %(B E=M E \\Rightarrow B E M K)% là hình vuông.<br>\\[\\begin{array}{l}\\Rightarrow B E=M E=M K=B K . \\\\Rightarrow A E=K D .\\end{array}\\]<br>Xét %(\\triangle A M E)% và %(\\triangle D M K)% có:<br>\\[\\begin{array}{l}A E M=M K D=90^{\\circ} \\A E=K D(\\mathrm{cmt})\\end{array}\\]<br>\\[\\begin{array}{l}M E=M K(\\mathrm{cmt}) \\\\Rightarrow \\triangle A M E=\\triangle D M K(\\mathrm{c}-\\mathrm{g}-\\mathrm{c})\\end{array}\\]<br>%(E A M=K D M)% (hai góc tương ứng)Mà %(E A M=M F E \\Rightarrow M F E=K D M)%<br>Lại có %(F D C=M F D)% (hai góc so le trong) nên ta có:<br>\\[\\begin{aligned}& K D M+M D F+F D C=M F E+M D F+M F D=E F D+M D F \\\\Rightarrow & E F D+M D F=90^{\\circ} \\\\Rightarrow & \\triangle F D H \\text { vuông tại } H \\text { hay } D H \\perp E F .\\end{aligned}\\]<br>%(\\Rightarrow \\triangle F D H)% vuông tại %(H)% hay %(D H \\perp E F)%.Mà %(M H \\perp E F \\Rightarrow M, D, H)% thẳng hàng.<br>Vây %(M H)% luôn đi qua một điểm %(D)% cố định.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/b7c6ae50e30f1627e832aa16305ee11b.png\" srcset=\"https://docdn.giainhanh.io/media/test/d475061a160481666e685e258a9aec48.png 148w\" width=\"148\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 2.0,
+        "content": "b) Xác định vị trí của điềm %(M)% trên cạnh %(B C)% đê̂ diện tích tam giác %(E D F)% có giá trị nhỏ nhất.",
+        "question_images": [],
+        "solution": "Đặt %(A B=a, A E=x \\Rightarrow B E=a-x \\quad)% (Với %(a\\gt 0,0\\lt x\\lt a))%<br>Ta có: %(S_{\\triangle D F E}=S_{\\triangle A B C D}-S_{\\triangle B D E}-S_{\\triangle D F C}-S_{\\triangle A F E})%.<br>\\[\\begin{array}{l}=a^{2}-\\frac{1}{2} a(a-x)-\\frac{1}{2} a x-\\frac{1}{2} x(a-x) \\\\=\\frac{1}{2} a^{2}-\\frac{1}{2} a x+\\frac{1}{2} x^{2}\\end{array}\\]<br>%(\\Rightarrow S_{\\triangle D F E})% đạt giá trị nhỏ nhất khi %(\\left(\\frac{1}{2} a^{2}-\\frac{1}{2} a x+\\frac{1}{2} x^{2}\\right))% nhỏ nhất.<br>Ta có: %(\\frac{1}{2} a^{2}-\\frac{1}{2} a x+\\frac{1}{2} x^{2}=\\frac{1}{2}\\left[\\left(x-\\frac{1}{2} a\\right)^{2}+\\frac{3}{4} a^{2}\\right] \\geq \\frac{1}{2} \\cdot \\frac{3}{4} a^{2})%<br>Vậy %(\\left(\\frac{1}{2} a^{2}-\\frac{1}{2} a x+\\frac{1}{2} x^{2}\\right))% đạt giá trị nhỏ nhất là %(\\frac{1}{2} \\cdot \\frac{3}{4} a^{2})%.<br>Khi đó %(M)% là trung điểm canh %(B C)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 3.0,
+        "content": "Cho 7 đoạn thẳng có độ dài lớn hơn 10 và nhỏ hơn 100 . Chứng minh rằng luôn tìm được 3 đoạn để có thể ghép thành một tam giác.",
+        "question_images": [],
+        "solution": "Ta xếp các đoạn thẳng có độ dài tăng dần %(a_{1} \\leq a_{2} \\leq \\ldots \\leq a_{7})%.<br>Nếu tồn tại ba đoạn thẳng %(a_{k} ; a_{k+1} ; a_{k+2})% thỏa mãn %(a_{k}+a_{k+1}\\gt a_{k+2})% thì ba đọan thẳng này có thể lập thành một tam giác.<br>Giả sử ngược lại:<br>\\[a_{1}+a_{2} \\leq a_{3} ; a_{2}+a_{3} \\leq a_{4} ; a_{3}+a_{4} \\leq a_{5} ; a_{4}+a_{5} \\leq a_{6} ; a_{5}+a_{6} \\leq a_{7}\\]<br>Khi đó theo giả thiết:<br>\\[a_{1}>10 ; a_{2}>10 \\Rightarrow a_{3}>20 \\Rightarrow a_{4}>30 \\Rightarrow a_{5}>50 \\Rightarrow a_{6}>80 \\Rightarrow a_{7}>130 .\\]<br>%(\\Rightarrow)% Mâu thuẫn với giả thiết cho dộ dài mỗi đoạn thẳng nhỏ hơn 100 .<br>Vậy tồn tại 3 đoạn thẳng %(a_{k} ; a_{k+1} ; a_{k+2})% mà %(a_{k}+a_{k+1}>a_{k+2})%.<br>Do đó tồn tại 3 đoạn thẳng để có thể ghép thành tam giác.",
+        "question_type": "essay"
+    }
+]

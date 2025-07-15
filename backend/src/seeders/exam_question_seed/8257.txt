@@ -1,0 +1,89 @@
+[
+    {
+        "title": "1 ",
+        "point": 3.0,
+        "content": "Cho hàm số: %(y=\\frac{x-1}{2(x+1)})%  (C)<br>Tìm những điểm %(\\mathrm{M})% trên %((\\mathrm{C}))% sao cho tiếp tuyến với %((\\mathrm{C}))% tại %(\\mathrm{M})% tạo với hai trục tọa độ một tam giác có trọng tâm nằm trên đường thẳng %(4 \\mathrm{x}+\\mathrm{y}=0)%.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{M}\\left(x_{0} ; \\frac{x_{0}-1}{2\\left(x_{0}+1\\right)}\\right) \\in(C))% là điểm cần tìm %(\\left(\\mathrm{x}_{0} \\neq-1\\right))%<br>Gọi %(\\Delta)% tiếp tuyến với %((\\mathrm{C}))% tại %(\\mathrm{M})% ta có phương trình.%(\\Delta: y=f^{\\prime}\\left(x_{0}\\right)\\left(x-x_{0}\\right)+\\frac{x_{0}-1}{2\\left(x_{0}+1\\right)} \\Rightarrow y=\\frac{1}{\\left(x_{0}+1\\right)^{2}}\\left(x-x_{0}\\right)+\\frac{x_{0}-1}{2\\left(x_{0}+1\\right)})%<br>Gọi %(\\mathrm{A}=\\Delta \\cap)% ox %(\\Rightarrow \\mathrm{A}\\left(-\\frac{x_{0}^{2}-2 x_{0}-1}{2} ; 0\\right) \\quad \\mathrm{B}=\\Delta \\cap)% oу %(\\Rightarrow \\mathrm{B}\\left(0 ; \\frac{x_{0}^{2}-2 x_{0}-1}{2\\left(x_{0}+1\\right)^{2}}\\right))%.<br>Khi đó %(\\Delta)% tạo với hai trục tọa độ %(\\Delta \\mathrm{OAB})% có trọng tâm là:<br>\\[\\mathrm{G}\\left(\\left(-\\frac{x_{0}^{2}-2 x_{0}-1}{6} ; \\frac{x_{0}^{2}-2 x_{0}-1}{6\\left(x_{0}+1\\right)^{2}}\\right)\\right..\\]<br>\\[\\begin{array}{l}\\text { Do } \\mathrm{G} \\in \\text { đường thẳng: } 4 \\mathrm{x}+\\mathrm{y}=0 \\Rightarrow-4 \\cdot \\frac{x_{0}^{2}-2 x_{0}-1}{6}+\\frac{x_{0}^{2}-2 x_{0}-1}{6\\left(x_{0}+1\\right)^{2}}=0 \\\\Leftrightarrow 4=\\frac{1}{\\left(x_{0}+1\\right)^{2}}\\left(\\text { vì } \\mathrm{A}, \\mathrm{B} \\neq \\mathrm{O} \\text { nên } x_{0}^{2}-2 x_{0}-1 \\neq 0\\right) \\\\Leftrightarrow\\left[\\begin{array} { l } { x _ { 0 } + 1 = \\frac { 1 } { 2 } } \\\\{ x _ { 0 } + 1 = - \\frac { 1 } { 2 } }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}x_{0}=-\\frac{1}{2} \\x_{0}=-\\frac{3}{2}\\end{array}\\right.\\right.\\end{array}\\]<br>Với %(x_{0}=-\\frac{1}{2} \\Rightarrow M\\left(-\\frac{1}{2} ;-\\frac{3}{2}\\right) ; \\quad)% với %(x_{0}=-\\frac{3}{2} \\Rightarrow M\\left(-\\frac{3}{2} ; \\frac{5}{2}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho hàm số %(y=x^{3}-3(m+1) x-2)% với %(\\mathrm{m})% là tham số. Tìm các giá trị của %(\\mathrm{m})% đề đồ thị hàm số cắt trục %(\\mathrm{Ox})% tại một điểm.",
+        "question_images": [],
+        "solution": "Xét phương trình hoành độ giao điểm của đồ thị hàm số và trục %(\\mathrm{Ox})%<br>%(x^{3}-3(m+1) x-2=0)%(1) %(\\Leftrightarrow \\frac{x^{3}-3 x-2}{x}=3 m)%<br>(vì %(\\mathrm{x}=0)% không là nghiệm của phương trình (1))<br>Xét hàm số %(\\mathrm{f}(\\mathrm{x})=\\frac{\\mathrm{x}^{3}-3 \\mathrm{x}-2}{\\mathrm{x}}, \\mathrm{x} \\in \\mathbb{R} \\backslash\\{0\\})%.<br>\\[f^{\\prime}(x)=\\frac{2 x^{3}+2}{x^{2}} ; f^{\\prime}(x)=0 \\Leftrightarrow x=-1\\]<br>Bảng biến thiên:<br><img alt=\"Capture.PNG\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/d6e7834971120e682f57aa8d6d285179.PNG\" srcset=\"https://docdn.giainhanh.io/media/test/7e5422c781fdc28c95a6c18b9832262d.PNG 245w,https://docdn.giainhanh.io/media/test/93ab6bf918108d444ad9f9aab0818759.PNG 500w,https://docdn.giainhanh.io/media/test/5e239b4925537a1c233a6107d03d700b.PNG 750w,\" width=\"750px\"/><br>Đồ thị hàm số cắt trục %(\\mathrm{Ox})% tại một điềm duy nhất %(\\Leftrightarrow)% pt (2) có nghiệm duy nhất. Từ bảng biến thiên kết luận %(\\mathrm{m}\\lt 0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.5,
+        "content": "Giải hệ phương trình sau : %(\\left\\{\\begin{array}{l}2(x-2) \\sqrt{x+6}=6-y \\\\ (x-2) \\sqrt{y+2}=\\sqrt{y+1} \\cdot \\sqrt{x^{2}-4 x+5}\\end{array} \\quad(x \\in R)\\right.)%.",
+        "question_images": [],
+        "solution": "Điều kiện : %(y \\geq-2 ; x \\geq-6)%<br>\\[(x-2) \\sqrt{y+2}=\\sqrt{y+1} \\cdot \\sqrt{x^{2}-4 x+5}\\]<br>Từ (2) %(: \\Leftrightarrow \\frac{\\sqrt{y+2}}{\\sqrt{y+1}}=. \\frac{\\sqrt{(x-2)^{2}+1}}{(x-2)})%<br>\\[\\begin{array}{c}\\Leftrightarrow \\sqrt{\\frac{y+2}{y+1}}=\\sqrt{\\frac{(x-2)^{2}+1}{(x-2)^{2}}} \\\\Leftrightarrow \\sqrt{\\frac{(y+1)+1}{y+1}}=\\sqrt{\\frac{(x-2)^{2}+1}{(x-2)^{2}}} .\\end{array}\\]<br>Xét hàm số %(f(t)=\\sqrt{\\frac{t+1}{t}} \\quad(t\\gt 0) \\Rightarrow f^{\\prime}(t)=\\left(\\sqrt{1+\\frac{1}{t}}\\right) '=-\\frac{1}{2 t^{2} \\sqrt{1+\\frac{1}{t}}}\\lt 0)%. Chứng tỏ hàm số nghịch biến.<br>Để %(f\\left((x-2)^{2}\\right)=f(y+1))% chỉ xảy ra khi : %(y+1=(x-2)^{2})%. Thay vào (1) ta được phương trình :<br>\\[\\begin{array}{l}(1) \\Leftrightarrow(x-2)^{2}+2(x-2) \\sqrt{x+6}-7=0 \\Leftrightarrow\\left\\{\\begin{array} { l } { t = x - 2 \\geq 0 } \\\\{ t ^ { 2 } + 2 t \\sqrt { t + 8 } = 7 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}t=x-2 \\geq 0 \\\\2 t \\sqrt{t+8}=7-t^{2}\\end{array}\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { 0 \\leq t = x - 2 \\leq \\sqrt { 7 } } \\\\{ 4 t ^ { 2 } ( t + 8 ) = ( 7 - t ^ { 2 } ) ^ { 2 } }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { 0 \\leq t = x - 2 \\leq \\sqrt { 7 } } \\\\{ t ^ { 4 } - 4 t ^ { 3 } - 4 6 t ^ { 2 } + 4 9 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}0 \\leq t=x-2 \\leq \\sqrt{7} \\\\(t-1)\\left(t^{3}-3 t^{2}-49 t-49\\right)=0\\end{array}\\right.\\right.\\right.\\end{array}\\]<br>%(+/)% Trường hợp : %(t=1)% hay %(x-2=1)% suy %(r a x=3)% và %(\\mathrm{y}+1=1)% hay %(\\mathrm{y}=0)%. Vậy nghiệm hệ là %((\\mathrm{x} ; \\mathrm{y})=(3 ; 0))%<br>+/ Trường hợp :<br>\\[f(t)=t^{3}-3 t^{2}-49 t-49=0 \\Rightarrow f^{\\prime}(t)=3 t^{2}-6 t-49=3(t-1)^{2}-52\\lt 0 \\forall t \\in[0 ; \\sqrt{7}]\\]<br>Hàm số nghịch biến và %(\\mathrm{f}(0)=-49\\lt 0)% chứng tỏ %(\\mathrm{f}(\\mathrm{t})\\lt 0)% với mọi %(t \\in[0 ; \\sqrt{7}])%. Phương trình vô nghiệm .",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Giải phương trình sau:<br>\\[x^{2}-3 x+1=-\\frac{\\sqrt{3}}{3} \\sqrt{x^{4}+x^{2}+1} \\quad(x \\in R) \\text {. }\\]",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\sqrt{x^{4}+x^{2}+1}=\\sqrt{x^{4}+2 x^{2}+1-x^{2}} \\\\ =\\sqrt{\\left(x^{2}+x+1\\right)\\left(x^{2}-x+1\\right)} \\\\ u=\\sqrt{\\left(x^{2}-x+1\\right)} \\\\ \\text { Khi đó đặt } \\\\ v=\\sqrt{\\left(x^{2}+x+1\\right)} \\\\end{array})%<br>thì %(\\quad x^{2}-3 x+1=2 u^{2}-v^{2})%<br>Ta có phương trình:<br>\\[\\begin{array}{l}6 u^{2}+\\sqrt{3} u v-3 v^{2}=0 \\\\Rightarrow u=\\frac{\\sqrt{3}}{3} v\\end{array}\\]<br>Giải ra được %(\\mathrm{x}=1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 3.0,
+        "content": "Cho %(x, y, z)% là các số thực dương thỏa mãn %(5\\left(x^{2}+y^{2}+z^{2}\\right)=9(x y+2 y z+z x))%.<br>Tìm giá trị lớn nhất của biểu thức: %(P=\\frac{x}{y^{2}+z^{2}}-\\frac{1}{(x+y+z)^{3}})%",
+        "question_images": [],
+        "solution": "Từ điều kiện:<br>\\[\\begin{array}{l}5 x^{2}+5\\left(y^{2}+z^{2}\\right)=9 x(y+z)+18 y z \\\\Leftrightarrow 5 x^{2}-9 x(y+z)=18 y z-5\\left(y^{2}+z^{2}\\right)\\end{array}\\]<br>Áp dụng BĐT Côsi ta có:<br>\\[y z \\leq \\frac{1}{4}(y+z)^{2} ; y^{2}+z^{2} \\geq \\frac{1}{2}(y+z)^{2} \\Rightarrow 18 y z-5\\left(y^{2}+z^{2}\\right) \\leq 2(y+z)^{2} .\\]<br>Do đó: %(5 \\mathrm{x}^{2}-9 \\mathrm{x}(\\mathrm{y}+\\mathrm{z}) \\leq 2(\\mathrm{y}+\\mathrm{z})^{2} \\Leftrightarrow[\\mathrm{x}-2(\\mathrm{y}+\\mathrm{z})](5 \\mathrm{x}+\\mathrm{y}+\\mathrm{z}) \\leq 0)%<br>\\[P=\\frac{x}{y^{2}+z^{2}}-\\frac{1}{(x+y+z)^{3}} \\leq \\frac{2 x}{(y+z)^{2}}-\\frac{1}{(x+y+z)^{3}} \\leq \\frac{4}{y+z}-\\frac{1}{27(y+z)^{3}}\\]<br>Đặt %(y+z=t\\gt 0)%, ta có: %(P \\leq 4 t-\\frac{1}{27} t^{3})%<br>Xét hàm %(\\Rightarrow \\mathrm{P} \\leq 16)%.<br>Vậy MaxP %(=16)% khi %(\\left\\{\\begin{array}{l}y=z=\\frac{1}{12} \\\\ x=\\frac{1}{3}\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 2.0,
+        "content": "Tìm số hạng tổng quát của dãy số ( %(\\mathrm{u}_{\\mathrm{n}})% ) xác định bởi : %(\\left\\{\\begin{array}{l}u_{n+1}=3 u_{n}+n^{2}+1, n \\geq 1, n \\in N \\\\ u_{1}=2\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Đặt %(g(n)=a n^{2}+b n+c)% và %(v_{n}=u_{n}+g(n)(\\mathrm{a}, \\mathrm{b}, \\mathrm{c} \\in \\mathrm{R}))% với %(v_{n+1}=3 v_{n})%.<br>Khi đó : %(v_{n+1}=3 v_{n} \\Leftrightarrow u_{n+1}+g(n+l)=3\\left(u_{n}+g(n)\\right))%<br>\\[\\begin{array}{l}\\Leftrightarrow 3 u_{n}+n^{2}+1+g(n+1)=3 u_{n}+3 g(n) \\\\Leftrightarrow n^{2}+1+a(n+1)^{2}+b(n+1)+c=3 a n^{2}+3 b n+3 c \\\\Leftrightarrow(a+1) n^{2}+(2 a+b) n+1+a+b+c=3 a n^{2}+3 b n+3 c\\end{array}\\]<br>Nên : %(\\left\\{\\begin{array}{l}a+1=3 a \\\\ 2 a+b=3 b \\\\ 1+a+b+c=3 c\\end{array} \\Leftrightarrow \\mathrm{a}=\\frac{1}{2} ; \\mathrm{b}=\\frac{1}{2} ; \\mathrm{c}=1\\right.)%.<br>Do đó ta được : %(g(n)=\\frac{1}{2} n^{2}+\\frac{1}{2} n+1)%.<br>Như vậy %(v_{n}=u_{n}+\\frac{1}{2} n^{2}+\\frac{1}{2} n+1 \\Leftrightarrow u_{n}=v_{n}-\\left(\\frac{1}{2} n^{2}+\\frac{1}{2} n+1\\right))%thi %(\\left\\{\\begin{array}{l}u_{n+1}=3 u_{n}+n^{2}+1, n \\geq 1, n \\in N \\\\ u_{1}=2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}v_{n+1}=3 v_{n}, n \\geq 1 \\\\ v_{1}=u_{1}+g(1)=4\\end{array}\\right.\\right.)%.<br>Suy ra : %(v_{n}=3^{n-1} \\cdot v_{l}=4.3^{n-1})%.<br>Vậy : %(u_{n}=4.3^{\\mathrm{n}-1}-\\frac{1}{2} n^{2}-\\frac{1}{2} n-1=4.3^{\\mathrm{n}-1}-\\frac{1}{2}\\left(n^{2}+n+2\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 1.0,
+        "content": "Tính %(\\mathrm{u}_{1}+\\mathrm{u}_{2}+\\ldots+\\mathrm{u}_{2017})%.",
+        "question_images": [],
+        "solution": "Ta có<br>\\[\\begin{array}{l} \\quad 1+2+\\ldots+\\mathrm{n}=\\frac{n(n+1)}{2} \\\\quad+) 1^{2}+2^{2}+\\ldots+n^{2}=\\frac{n(n+1)(2 n+1)}{6} \\\\+) 4\\left(3^{0}+3^{1}+3^{2}+\\ldots+3^{n-1}\\right) \\\\= 4 \\frac{3^{n}-1}{3-1}\\end{array}\\]<br>Thay %(n=2017)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "8 ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C)% vuông tại %(A, D)% là một điềm nằm trong tam giác %(A B C)% sao cho %(C D=C A)%. M là một điềm trên cạnh %(\\mathrm{AB})% sao cho %(\\widehat{\\mathrm{BDM}}=\\frac{1}{2} \\widehat{\\mathrm{ACD}}, \\mathrm{N})% là giao điểm của %(\\mathrm{MD})% và đường cao %(\\mathrm{AH})% của tam giác %(A B C)%. Chứng %(\\operatorname{minh} D M=D N)%",
+        "question_images": [],
+        "solution": "Vẽ đường tròn %((\\mathrm{C} ; \\mathrm{CA}))% cắt đường thă̆ng %(\\mathrm{BD})% tại %(\\mathrm{E}(\\mathrm{E} \\neq \\mathrm{D}))%, khi đó %(\\mathrm{BA})% là tiếp tuyến của đường tròn. Ta có %(\\mathrm{BD} \\cdot \\mathrm{BE}=\\mathrm{BA}^{2})% ( do %(\\left.\\triangle \\mathrm{BDA} \\sim \\Delta \\mathrm{BAE}\\right), \\mathrm{BH} \\cdot \\mathrm{BC}=\\mathrm{BA}^{2})% suy ra %(\\mathrm{BH} \\cdot \\mathrm{BC}=)%<br>\\[\\begin{array}{l}\\mathrm{BD} \\cdot \\mathrm{BE} \\Rightarrow \\frac{\\mathrm{BD}}{\\mathrm{BH}}=\\frac{\\mathrm{BC}}{\\mathrm{BE}} \\\\Rightarrow \\triangle \\mathrm{BDH} \\sim \\triangle \\mathrm{BCE} \\text { (c.g.c) } \\\\Rightarrow \\widehat{\\mathrm{BHD}}=\\widehat{\\mathrm{BEC}} \\Rightarrow \\text { tứ giác } \\mathrm{DHCE} \\text { nội tiếp } \\\\Rightarrow \\widehat{\\mathrm{BHD}}=\\widehat{\\mathrm{BEC}}=\\widehat{\\mathrm{CDE}}=\\widehat{\\mathrm{CHE}} \\Rightarrow \\widehat{\\mathrm{AHD}}=\\widehat{\\mathrm{AHE}} .\\end{array}\\]<br>Do %(\\mathrm{AH} \\perp \\mathrm{BC})% nên %(\\mathrm{HA}, \\mathrm{HB})% tương ứng là đường phân giác trong và phân giác ngoài của góc %(\\widehat{\\mathrm{DHE}})%.<br>Gọi %(\\mathrm{I})% là giao điểm của %(\\mathrm{AH})% và %(\\mathrm{BE})% suy ra %(\\frac{\\mathrm{ID}}{\\mathrm{IE}}=\\frac{\\mathrm{HD}}{\\mathrm{HE}}=\\frac{\\mathrm{BD}}{\\mathrm{BE}}\\left({ }^{*}\\right))% giả thiết %(\\widehat{\\mathrm{MDB}}=\\frac{1}{2} \\widehat{\\mathrm{ACD}}=\\widehat{\\mathrm{AEB}})% nên %(\\mathrm{MN} / / \\mathrm{AE})%.<br>Do đó %(\\frac{\\mathrm{MD}}{\\mathrm{AE}}=\\frac{\\mathrm{BD}}{\\mathrm{BE}}, \\frac{\\mathrm{DN}}{\\mathrm{AE}}=\\frac{\\mathrm{DI}}{\\mathrm{IE}})%.<br>Kết hợp với %(\\left({ }^{*}\\right))% ta có %(\\frac{\\mathrm{MD}}{\\mathrm{AE}}=\\frac{\\mathrm{DN}}{\\mathrm{AE}} \\Rightarrow \\mathrm{DM}=\\mathrm{DN})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "9",
+        "group_content": "Cho tam giác %(\\mathrm{ABC})% cân tại %(\\mathrm{A})% có %(A B=A C=a)%, góc %(B A C=120^{\\circ})%. Điểm %(\\mathrm{S})% thay đổi trong không gian nhưng luôn nằm về 1 phía của mặt phẳng %((A B C))% và %(A S=a)%, góc %(S A B=60^{\\circ})%. Gọi %(\\mathrm{H})% là hình chiếu của %(\\mathrm{S})% trên mặt phẳng %((A B C))%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Chứng minh rằng %(\\mathrm{H})% thuộc đường thẳng cố định.",
+        "question_images": [],
+        "solution": "a) Tam giác %(\\mathrm{SAB})% đều nên %(\\mathrm{S})% thuộc mặt phẳng trung trực %((\\mathrm{P}))% của %(\\mathrm{AB})%.<br>Mặt phằng %((\\mathrm{P}))% cố định và %((\\mathrm{P}))% vuông góc với %((\\mathrm{ABC}))%.<br>Gọi %(\\mathrm{d})% là giao tuyến của %(\\mathrm{mp}(\\mathrm{ABC}))% và %(\\mathrm{mp}(\\mathrm{P}))% thì %(\\mathrm{d})% là đường thẳng cố định %(\\mathrm{H})% là hình chiếu của %(\\mathrm{S})% nên %(\\mathrm{H})% thuộc %(\\mathrm{d})%.<br>%(\\mathrm{KL})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 2.0,
+        "content": "b) Chứng minh rằng khi độ dài %(S H)% lớn nhất thì hai mặt phẳng %((S A B))% và %((A B C))% vuông góc với nhau và khi đó tính độ dài SC.",
+        "question_images": [],
+        "solution": "b) Gọi %(\\mathrm{I})% là trung điểm của %(\\mathrm{AB})% thì %(\\mathrm{SI}=\\frac{a \\sqrt{3}}{2})%<br>\\[\\mathrm{SH} \\leq \\mathrm{SI}=\\frac{a \\sqrt{3}}{2}\\]<br>SH đạt giá trị lớn nhất bằng %(\\frac{a \\sqrt{3}}{2})% khi %(\\mathrm{H})% trùng %(\\mathrm{I})%.Khi đó %(\\mathrm{SH})% vuông góc với mặt phẳng %((\\mathrm{ABC}))% nên %((\\mathrm{ABC}))% vuông góc với %((\\mathrm{SAB}))%Tính được<br>\\[C I=\\frac{a \\sqrt{7}}{2} \\quad ; S C=\\frac{a \\sqrt{10}}{2}\\]",
+        "question_type": "essay"
+    }
+]

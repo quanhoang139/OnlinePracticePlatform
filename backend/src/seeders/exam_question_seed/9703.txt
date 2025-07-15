@@ -1,0 +1,72 @@
+[
+    {
+        "title": "1",
+        "group_content": "Tìm:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(\\int\\left(e^{10 x}-\\frac{1}{x^{2}}\\right) d x)%",
+        "question_images": [],
+        "solution": "%(=\\frac{1}{10} e^{10 x}+\\frac{1}{x}+C)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(\\int(2 x-\\sin 3 x) d x)%",
+        "question_images": [],
+        "solution": "%(=x^{2}+\\frac{1}{3} \\cos 3 x+C)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Tính các tích phân sau:",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.5,
+        "content": "a) %(A=\\int_{1}^{2} x^{2}(x+3) d x)%",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} A & =\\int_{1}^{2} x^{2}(x+3) d x \\\\ & =\\int_{1}^{2}\\left(x^{3}+3 x^{2}\\right) d x \\\\ & =\\left.\\left(\\frac{x^{4}}{4}+x^{3}\\right)\\right|_{1} ^{2} \\\\ & =(4+8)-\\left(\\frac{1}{4}+1\\right)=\\frac{43}{4}\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.5,
+        "content": "b) %(B=\\int_{1}^{6} x \\sqrt{x+3} d x)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { Đăt: } u=\\sqrt{x+3} \\Rightarrow u^{2}=x+3 \\\\ \\quad \\Rightarrow 2 u d u=d x \\\\ x=1 \\Rightarrow u=2 \\text { và } x=6 \\Rightarrow u=3 \\\\ B=\\int_{2}^{3}\\left(u^{2}-3\\right) u .2 u d u=2 \\int_{2}^{3}\\left(u^{4}-3 u^{2}\\right) d u \\\\ =\\left.2\\left(\\frac{u^{5}}{5}-u^{3}\\right)\\right|_{2} ^{3} \\\\ =2\\left(\\frac{243}{5}-27\\right)-2\\left(\\frac{32}{5}-8\\right)=\\frac{\\mathbf{2 3 2}}{\\mathbf{5}}\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.5,
+        "content": "c) %(C=\\int_{0}^{\\frac{\\pi}{4}}(x+1) \\tan ^{2} x d x)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\text { } \\begin{array}{l} C=\\int_{0}^{\\frac{\\pi}{4}}(x+1) \\tan ^{2} x d x \\\\ =\\int_{0}^{\\frac{\\pi}{4}}\\left[(x+1)\\left(1+\\tan ^{2} x\\right)-(x+1)\\right] d x=\\int_{0}^{\\frac{\\pi}{4}}(x+1)\\left(1+\\tan ^{2} x\\right) d x-\\int_{0}^{\\frac{\\pi}{4}}(x+1) d x \\\\ \\text { Đăt: } \\\\ C_{1}= \\int_{0}^{\\frac{\\pi}{4}}(x+1)\\left(1+\\tan ^{2} x\\right) d x=\\left.(x+1) \\tan x\\right|_{0} ^{\\frac{\\pi}{4}}-\\int_{0}^{\\frac{\\pi}{4}} \\tan x d x=\\frac{\\pi}{4}+1-\\int_{0}^{\\frac{\\pi}{4}} \\tan x d x \\\\ d v=\\tan x\\end{array} \\\\ C_{2}=\\int_{0}^{\\frac{\\pi}{4}} \\tan x d x=\\int_{0}^{\\frac{\\pi}{4}} \\frac{\\sin x}{\\cos x} d x=-\\int_{0}^{\\frac{\\pi}{4}} \\frac{d(\\cos x)}{\\cos x}=-\\ln |\\cos x|_{0}^{\\frac{\\pi}{4}}=-\\ln \\frac{\\sqrt{2}}{2} \\\\ \\Rightarrow C_{1}=\\frac{\\pi}{4}+1+\\ln \\frac{\\sqrt{2}}{2}\\end{array})%<br>\\[C_{3}=\\int_{0}^{\\frac{\\pi}{4}}(x+1) d x=\\left.\\left(\\frac{x^{2}}{2}+x\\right)\\right|_{0} ^{\\frac{\\pi}{4}}=\\frac{\\pi^{2}}{32}+\\frac{\\pi}{4}\\]<br>Vậy: %(C=\\frac{\\pi}{4}+1+\\ln \\frac{\\sqrt{2}}{2}-\\frac{\\pi^{2}}{32}-\\frac{\\pi}{4}=1+\\ln \\frac{\\sqrt{2}}{2}-\\frac{\\pi^{2}}{32})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 2.0,
+        "content": "Tính diện tích hình phẳng %((\\mathrm{H}))% giới hạn bởi các đường %(y=x^{2}-2)%, %(y=2 x+1)% và %(x=-2)%.",
+        "question_images": [],
+        "solution": "Phương trình hoành độ giao điểm:<br>\\[x^{2}-2=2 x+1 \\Leftrightarrow x^{2}-2 x-3=0 \\Leftrightarrow\\left[\\begin{array}{l}x=-1 \\x=3\\end{array}\\right.\\]<br>Diện tích: %(S=\\int_{-2}^{3}\\left|x^{2}-2-(2 x+1) d x=\\int_{-2}^{3}\\right| x^{2}-2 x-3 \\mid d x)%<br>Xét dấu %(f(x)=x^{2}-2 x-3)% :<br>%(\\begin{aligned} S & =\\int_{-2}^{-1}\\left(x^{2}-2 x-3\\right) d x+\\int_{-1}^{3}\\left(-x^{2}+2 x+3\\right) d x \\\\ & =\\left.\\left(\\frac{x^{3}}{3}-x^{2}-3 x\\right)\\right|_{-2} ^{-1}+\\left.\\left(-\\frac{x^{3}}{3}+x^{2}+3 x\\right)\\right|_{-1} ^{3} \\\\ & =\\frac{5}{3}-\\left(-\\frac{2}{3}\\right)+9-\\left(-\\frac{5}{3}\\right)=13 \\text { (dvdt) }\\end{aligned})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/434fabb33caabd0baa4e7e63083ebc31.png\" srcset=\"https://docdn.giainhanh.io/media/test/e9fa5f290f80e811033b269fa560cc22.png 245w, https://docdn.giainhanh.io/media/test/23aad242f7654d82d0c36bea207b1238.png 500w, https://docdn.giainhanh.io/media/test/a51f1ccf8f2776960a9ddc9fa61d31ae.png 750w\" width=\"750\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.5,
+        "content": "Tính thể tích khối tròn xoay tạo thành khi quay quanh trục Ox hình phẳng (H) giới hạn bởi các đường %(y=x \\sqrt{x+2}, y=x+2)% và %(y=0)%.",
+        "question_images": [],
+        "solution": "+ Hoành độ các giao điểm:%(x \\sqrt{x+2}=x+2)% có 2 nghiệm %(x=-2, x=2)%<br>%(x \\sqrt{x+2}=0)% có 2 nghiệm %(x=-2, x=0)%%(x+2=0)% có 1 nghiệm %(x=-2)%<br>Gọi %(\\mathrm{V}_{1})% là thể tích khối tròn xoay tạo thành khi quay quanh trục Ox hình phẳng giới hạn bởi các đường %(y=x+2, y=0, x=-2, x=2)%.<br>Ta có:<br>\\[V_{1}=\\pi \\int_{-2}^{2}(x+2)^{2} d x=\\pi \\int_{-2}^{2}\\left(x^{2}+4 x+4\\right) d x=\\left.\\pi\\left(\\frac{x^{3}}{3}+2 x^{2}+4 x\\right)\\right|_{-2} ^{2}=\\frac{64 \\pi}{3}\\]<br>Gọi %(\\mathrm{V}_{2})% là thể tích khối tròn xoay tạo thành khi quay quanh trục Ox hình phẳng giới hạn bởi các đường %(y=x \\sqrt{x+2}, y=0, x=0, x=2)%.<br>Ta có:<br>\\[V_{2}=\\pi \\int_{0}^{2}(x \\sqrt{x+2})^{2} d x=\\pi \\int_{0}^{2}\\left(x^{3}+2 x^{2}\\right) d x=\\left.\\pi\\left(\\frac{x^{4}}{4}+\\frac{2 x^{3}}{3}\\right)\\right|_{0} ^{2}=\\frac{28 \\pi}{3}\\]<br>Vậy, thể tích khối tròn xoay cần tìm là: %(V=V_{1}-V_{2}=\\frac{64 \\pi}{3}-\\frac{28 \\pi}{3}=\\mathbf{1 2} \\pi)% (đvtt)",
+        "question_type": "essay"
+    }
+]

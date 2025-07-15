@@ -1,0 +1,104 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.75,
+        "content": "Hãy viết biểu thức sau : %(\\frac{2 a+1}{a^{2}(a+1)})% thành hiệu hai bình phương",
+        "question_images": [],
+        "solution": "%(\\frac{2 a+1}{a^{2}(a+1)^{2}}=\\frac{a^{2}+2 a+1-a^{2}}{a^{2}(a+1)^{2}}=\\frac{(a+1)^{2}-a^{2}}{a^{2}(a+1)^{2}}=\\left(\\frac{1}{a}\\right)^{2}-\\left(\\frac{1}{a+1}\\right)^{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 0.75,
+        "content": "Cho %(M=\\frac{2.1+1}{\\left(1^{2}+1\\right)^{2}}+\\frac{2.2+1}{\\left(2^{2}+2\\right)^{2}}+\\frac{2.3+1}{\\left(3^{2}+3\\right)^{2}}+\\ldots . .+\\frac{2.2012+1}{\\left(2012^{2}+2012\\right)^{2}})%<br>Chứng minh rằng %(M\\lt 1)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\frac{2 a+1}{\\left(a^{2}+a\\right)^{2}}=\\frac{1}{a^{2}}-\\frac{1}{(a+1)^{2}} \\\\ M=1-\\frac{1}{2^{2}}+\\frac{1}{2^{2}}-\\frac{1}{3^{2}}+\\frac{1}{3^{2}}-\\frac{1}{4^{2}}+\\ldots \\ldots .+\\frac{1}{2012^{2}}-\\frac{1}{2013^{2}} \\\\ =1-\\frac{1}{2013^{2}}\\lt 1 \\Rightarrow M\\lt 1\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Chứng minh rằng %(n^{3}-28 n)% chia hết cho 48 với mọi %(n)% là số nguyên chẵn",
+        "question_images": [],
+        "solution": "%(n=2 k)%, với k là số nguyên; %(n^{3}-28 n=(2 k)^{3}-28(2 k)=8 k^{3}-56 k)%<br>\\[\\begin{array}{l}=8 k\\left(k^{2}-7\\right)=8 k\\left(k^{2}-1-6\\right) \\\\=8 k\\left(k^{2}-1\\right)-48 k=8 k(k-1)(k+1)-48 k\\end{array}\\]<br>%(k(k-1)(k+1))% là tích ba số nguyên liên tiếp nên chia hết cho 6 nên %(8 k(k-1)(k+1)-48 k)% chia hết cho 48",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 1.0,
+        "content": "Giải phương trình sau: %(\\frac{x^{2}+3 x+7}{x^{2}+5 x-6}=\\frac{3 x+2}{x+15})%",
+        "question_images": [],
+        "solution": "ĐKХĐ: %(x \\neq-15 ; x \\neq 1 ; x \\neq-6)%<br>\\[\\frac{x^{2}+3 x+7}{x^{2}+5 x-6}=\\frac{3 x+2}{x+15}=\\frac{x^{2}+3 x+7+3 x+2}{x^{2}+5 x-6+x+15}=\\frac{x^{2}+6 x+9}{x^{2}+6 x+9}=\\frac{(x+3)^{2}}{(x+3)^{2}}\\]<br>Thay %(x=-3)% vào phương trình và kết luận nghiệm của phương trình<br>Với %(x \\neq-3)% ta có:<br>\\[\\frac{x^{2}+3 x+7}{x^{2}+5 x-6}=\\frac{3 x+2}{x+15}=\\frac{(x+3)^{2}}{(x+3)^{2}}=1 \\Leftrightarrow 3 x+2=x+15 \\Leftrightarrow x=\\frac{13}{2}(\\mathrm{tm})\\]<br>Vậy<br>\\[S=\\left\\{\\frac{13}{2} ;-3\\right\\}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho biểu thức : %(P=\\left(\\frac{x}{x-1}+\\frac{1}{x^{2}-x}\\right):\\left(\\frac{1}{x+1}+\\frac{2}{x^{2}-1}\\right))%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Rút gọn biểu thức P",
+        "question_images": [],
+        "solution": "ĐКХĐ: %(x \\neq 0 ; x \\neq \\pm 1)%<br>\\[P=\\frac{x^{2}+1}{x(x-1)}: \\frac{x-1+2}{(x+1)(x-1)}=\\frac{x^{2}+1}{x(x-1)} \\cdot \\frac{(x+1)(x-1)}{x+1}=\\frac{x^{2}+1}{x}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm giá trị của %(x)% đề %(P\\gt -1)%",
+        "question_images": [],
+        "solution": "%(P\\gt -1 \\Leftrightarrow \\frac{x^{2}+1}{x}>-1 \\Leftrightarrow \\frac{x^{2}+1}{x}+1>0 \\Leftrightarrow \\frac{x^{2}+1+x}{x}>0)%<br>Vì %(x^{2}+x+1=\\left(x+\\frac{1}{2}\\right)^{2}+\\frac{3}{4}>0)% với mọi %(x)%<br>Đề %(\\frac{x^{2}+1+x}{x}>0 \\Leftrightarrow x>0)%.<br>Vậy %(P>-1 \\Leftrightarrow\\left\\{\\begin{array}{l}x>0 \\\\ x \\neq 1\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Giải phương trình %(|P|=2)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}|P|=2 \\Leftrightarrow\\left[\\begin{array}{l}P=2 \\P=-2\\end{array}\\right. \\P=2 \\Leftrightarrow \\frac{x^{2}+1}{x}=2 \\Leftrightarrow \\frac{x^{2}+1-2 x}{2}=0 \\Leftrightarrow x=1(\\mathrm{ktm}) \\P=-2 \\Leftrightarrow \\frac{x^{2}+1}{x}=-2 \\Leftrightarrow \\frac{x^{2}+1+2 x}{x}=0 \\Leftrightarrow x=-1(\\mathrm{ktm})\\end{array}\\]<br>Vậy phương trình vô nghiệm",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 1.0,
+        "content": "Cho %(a\\gt 0 ; b>0)% và %(a^{2}+b^{2}=10)%. Tìm giá trị nhỏ nhất của %(Q=\\frac{1}{a^{2}}+\\frac{1}{b^{2}})%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}a^{2}+b^{2} \\geq 2 a b ; \\frac{1}{a^{2}}+\\frac{1}{b^{2}} \\geq 2 \\frac{1}{a b} \\\\left(a^{2}+b^{2}\\right)\\left(\\frac{1}{a^{2}}+\\frac{1}{b^{2}}\\right) \\geq 2 a b \\cdot \\frac{2}{a b} \\geq 4 \\Rightarrow \\frac{1}{a^{2}}+\\frac{1}{b^{2}} \\geq \\frac{4}{10}=\\frac{2}{5}\\end{array}\\]<br>Vậy %(\\operatorname{Min} Q=\\frac{2}{5} \\Leftrightarrow a=b=\\sqrt{5})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "7",
+        "group_content": "Cho tam giác %(A B C)% có %(A B=2 a ; A C=3 a ; B C=4 a)%. Đường phân giác %(A D)% và %(B E)% cắt nhau tại I . Gọi M là trung điểm của %(\\mathrm{AC}, \\mathrm{G})% là trọng tâm tam giác %(A B C)%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tính độ dài đoạn thẳng BD theo %(a)%",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} \\frac{B D}{A B} & =\\frac{D C}{A C} \\\\ \\frac{B D}{A B} & =\\frac{D C}{A C}=\\frac{B D+D C}{A B+A C}=\\frac{B C}{A B+A C}=\\frac{4 a}{5 a}=\\frac{4}{5} \\Rightarrow B D=\\frac{8 a}{5}\\end{aligned})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/34949dce3ebdedd7e934ad1d7468764e.png\" srcset=\"https://docdn.giainhanh.io/media/test/4cec3c7db2030ddf27db664cacb428f0.png 242w, https://docdn.giainhanh.io/media/test/2c93e0083d468b289ac8773f7baf7df1.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh %(I G / / A C)%",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\frac{E A}{A B}=\\frac{E C}{B C}=\\frac{E A+E C}{A B+B C}=\\frac{A C}{A B+B C}=\\frac{3 a}{6 a}=\\frac{1}{2} \\E A=a ; E C=2 a \\\\Rightarrow \\frac{I E}{I B}=\\frac{E A}{A B}=\\frac{a}{2 a}=\\frac{1}{2}\\end{array}\\]<br>G là trọng tâm %(\\triangle A B C \\Rightarrow \\frac{G M}{G B}=\\frac{1}{2})%<br>\\[\\left.\\frac{G M}{G B}=\\frac{I E}{I B}=\\frac{1}{2} \\Rightarrow I G / / E M \\text { (ta let đảo }\\right) \\Rightarrow I G / / A C\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tính tỉ số diện tích của tứ giác %(E I G M)% và %(\\triangle A B C)%",
+        "question_images": [],
+        "solution": "%(\\frac{S_{B I G}}{S_{B E M}}=\\left(\\frac{2}{3}\\right)^{2}=\\frac{4}{9})%<br>Tính %(E M=0,5 a ; \\frac{S_{B E M}}{S_{A B C}}=\\frac{0,5 a}{3 a}=\\frac{1}{6} ; \\frac{S_{B I G}}{S_{A B C}}=\\frac{S_{B I G}}{S_{B E M}} \\cdot \\frac{S_{B E M}}{S_{A B C}}=\\frac{4}{9} \\cdot \\frac{1}{6}=\\frac{2}{27})%<br>\\[\\frac{S_{E I G M}}{S_{A B C}}=\\frac{S_{B E M}-S_{A I G}}{S_{A B C}}=\\frac{1}{6}-\\frac{2}{27}=\\frac{5}{54}\\]",
+        "question_type": "essay"
+    }
+]

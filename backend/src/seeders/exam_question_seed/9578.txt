@@ -1,0 +1,89 @@
+[
+    {
+        "title": "Câu 1 ",
+        "point": 2.0,
+        "content": "Giải phương trình : %(\\left(x^{2}-4 x\\right)^{2}+2(x-2)^{2}=43)%",
+        "question_images": [],
+        "solution": "\\[\\left(x^{2}-4 x\\right)^{2}+2 \\cdot(x-2)^{2}=43 \\Leftrightarrow\\left(x^{2}-4 x\\right)^{2}+2\\left(x^{2}-4 x+4\\right)=43\\]<br>Đặt %(x^{2}-4 x=t)%.<br>Điều kiện : %(t \\geq-4)%.<br>Khi đó ta có phương trình:<br>\\[t^{2}+2 t-35=0 \\Leftrightarrow(t+7)(t-5)=0 \\Leftrightarrow\\left[\\begin{array}{l}t=-7(\\mathrm{ktm}) \\t=5(\\mathrm{tm})\\end{array}\\right.\\]<br>Với %(t=5 \\Rightarrow x^{2}-4 x-5=0 \\Leftrightarrow\\left[\\begin{array}{l}x=5 \\\\ x=-1\\end{array}\\right.)%<br>Vậy %(S=\\{5 ;-1\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 2.0,
+        "content": "Cho phương trình: %(\\frac{x+2}{x-m}=\\frac{x+1}{x-1})% . Tìm giá trị %(m)% để phương trình vô nghiệm.",
+        "question_images": [],
+        "solution": "%(ĐK)% của phương trình: %(\\frac{x+2}{x-m}=\\frac{x+1}{x-1})%<br>\\[\\Leftrightarrow\\left[\\begin{array}{l}x-m \\neq 0 \\Rightarrow x \\neq m \\x-1 \\neq 0 \\Rightarrow x \\neq 1\\end{array}\\right.\\]<br>Từ %(\\left({ }^{*}\\right) \\Rightarrow(x+2)(x-1)=(x+1)(x-m) \\Rightarrow m x=2-m(* *))%<br>Với %(m=0)% thì PT (**) có dạng %(0 x=2(V N))%<br>Với %(m \\neq 0)% thì PT %(\\left({ }^{*}\\right))% có nghiệm %(x=\\frac{2-m}{m})%<br>Nghiệm %(x=\\frac{2-m}{m})% là nghiệm của %(\\mathrm{PT}\\left({ }^{*}\\right))% khi nó phải thỏa mãn điều kiện %(\\left\\{\\begin{array}{l}x \\neq m \\\\ x \\neq 1\\end{array}\\right.)%<br>Tức là: %(\\frac{2-m}{m} \\neq 1 \\Rightarrow 2-m \\neq m \\Leftrightarrow m \\neq 1)%<br>\\[\\frac{2-m}{m} \\neq m \\Rightarrow m^{2}+m-2 \\neq 0 \\Leftrightarrow(m-1)(m+2) \\neq 0 \\Leftrightarrow\\left\\{\\begin{array}{l}m \\neq 1 \\m \\neq-2\\end{array}\\right.\\]<br>Như vậy %(\\mathrm{PT}\\left({ }^{*}\\right))% vô nghiệm với các giá trị của %(\\mathrm{m} \\in\\{-2 ; 0 ; 1\\})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 2.0,
+        "content": "Chứng minh rằng: Nếu %(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=0)% và %(a+b+c=a b c)% thì ta có %(\\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}}=2)%",
+        "question_images": [],
+        "solution": "Theo giả thiết: %(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=2)% nên %(a \\neq 0 ; b \\neq 0 ; c \\neq 0)%<br>Ta có: %(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}=2 \\Rightarrow\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right)^{2}=4 \\Leftrightarrow \\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}}+2\\left(\\frac{1}{a b}+\\frac{1}{b c}+\\frac{1}{c a}\\right)=4)%<br>%(\\Rightarrow \\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}}+2\\left(\\frac{a+b+c}{a b c}\\right)=4)%Vì %(a+b+c=a b c(g t) \\Rightarrow \\frac{a+b+c}{a b c}=1)%<br>%(\\Rightarrow \\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}}+2=4 \\Rightarrow \\frac{1}{a^{2}}+\\frac{1}{b^{2}}+\\frac{1}{c^{2}}=2(\\mathrm{dfcm}))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 2.0,
+        "content": "Cho %(S=\\frac{1}{101}+\\frac{1}{102}+\\frac{1}{103}+\\ldots . .+\\frac{1}{200})%. Chứng minh rằng %(S\\gt \\frac{7}{12})%",
+        "question_images": [],
+        "solution": "Ta có: %(A=\\left(\\frac{1}{101}+\\frac{1}{102}+\\frac{1}{103}+\\ldots . .+\\frac{1}{150}\\right)+\\left(\\frac{1}{151}+\\frac{1}{152}+\\frac{1}{153}+\\ldots .+\\frac{1}{200}\\right))%<br>Thay mỗi phân số trong từng nhóm bằng phân số nhỏ nhất trong từng nhóm ấy ta được<br>\\[\\begin{array}{l}\\left(\\frac{1}{101}+\\frac{1}{102}+\\frac{1}{103}+\\ldots . .+\\frac{1}{150}\\right)\\gt \\frac{1}{150} \\cdot 50=\\frac{1}{3} \\\\left(\\frac{1}{151}+\\frac{1}{152}+\\frac{1}{153}+\\ldots .+\\frac{1}{200}\\right)>\\frac{1}{200} \\cdot 50=\\frac{1}{4} \\\\Rightarrow A=\\left(\\frac{1}{101}+\\frac{1}{102}+\\frac{1}{103}+\\ldots . .+\\frac{1}{150}\\right)+\\left(\\frac{1}{151}+\\frac{1}{152}+\\frac{1}{153}+\\ldots .+\\frac{1}{200}\\right)>\\frac{1}{3}+\\frac{1}{4}=\\frac{7}{12} \\\\Rightarrow A=\\left(\\frac{1}{101}+\\frac{1}{102}+\\frac{1}{103}+\\ldots . .+\\frac{1}{150}\\right)+\\left(\\frac{1}{151}+\\frac{1}{152}+\\frac{1}{153}+\\ldots .+\\frac{1}{200}\\right)>\\frac{7}{12}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 4.0,
+        "content": "Tìm tất cả các số chính phương gồm 4 chữ số biết rằng khi ta thêm 1 đơn vị vào chữ số hàng nghìn, thêm 3 đơn vị vào chữ số hàng trăm, thêm 5 đơn vị vào chữ số hàng chục, thêm 3 đơn vị vào chữ số hàng đơn vị thì ta vẫn được một số chính phương.",
+        "question_images": [],
+        "solution": "Gọi %(\\overline{a b c d})% là số phải tìm %(a, b, c, d \\in ¥, 0 \\leq a, b, c, d \\leq 9, a \\neq 0)%<br>Ta có:<br>%(\\left\\{\\begin{array}{l}\\overline{a b c d}=k^{2} \\\\ \\overline{(a+1)(b+3)(c+5)(d+3)}=m^{2}\\end{array} k, m \\in ¥, 31\\lt k\\lt m\\lt 100 \\Leftrightarrow\\left\\{\\begin{array}{l}\\overline{a b c d}=k^{2} \\\\ \\overline{a b c d}+1353=m^{2}\\end{array}\\right.\\right.)%<br>Do đó: %(m^{2}-k^{2}=1353)%<br>\\[\\begin{array}{l}\\Rightarrow(m+k)(m-k)=123.11=41.33(k+m\\lt 200) \\\\Rightarrow\\left[\\begin{array} { l } { m - k = 1 1 } \\\\{ \\{ \\begin{array} { l } { m + k = 4 1 } \\\\{ m - k = 3 3 }\\end{array} }\\end{array} \\Leftrightarrow \\left[\\begin{array}{l}\\left\\{\\begin{array}{l}m=37 \\m=4\\end{array}(K T M)\\right.\\end{array}(T M)\\right.\\right.\\end{array}\\]<br>Vậy số cần tìm là %(\\overline{a b c d}=3136)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6 ",
+        "point": 2.0,
+        "content": "Cho tam giác %(A B C)% nhọn. Dựng ra phía ngoài hai tam giác đều %(A B E ; A C F)%, lại dựng hình bình hành %(A E P F)%. Chứng minh rằng %(P B C)% là tam giác đều",
+        "question_images": [],
+        "solution": "Ta có: %(A E P F)% là hình bình hành nên %(\\widehat{A E P}=\\widehat{A F P})%<br>Xét %(\\triangle E P B)% và %(\\triangle F P C)% có:<br>\\[\\begin{array}{l}E B=F P(=A E) ; E P=F C(=A F) ; \\widehat{P E B}=\\widehat{P F C}\\left(\\text { vi } 60^{\\circ}-\\widehat{A E P}=60^{\\circ}-\\widehat{A F P}\\right) \\\\Rightarrow \\triangle E P B=\\triangle F P C(\\text { c.g.c }) \\Rightarrow P B=P C \\text { (1) }\\end{array}\\]<br>Ta có: %(\\widehat{E A P}+\\widehat{A E P}=180^{\\circ} \\Rightarrow \\widehat{A_{3}}+\\widehat{E}_{1}=60^{\\circ})%<br>mà %(\\widehat{E}_{1}+\\widehat{E_{2}}=60^{\\circ} \\Rightarrow \\widehat{A_{3}}=\\widehat{E_{2}})%<br>\\[\\Rightarrow \\triangle E P B=\\triangle A B C(\\operatorname{cgc}) \\Rightarrow P B=B C(2)\\]<br>Từ (1) và (2) suy ra %(P B=P C=B C)%.<br>Vậy %(\\triangle P B C)% đều<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e980824337bd48f48b1823a8a1742a96.png\" srcset=\"https://docdn.giainhanh.io/media/test/c52612c94393adc707074a9119af5009.png 245w, https://docdn.giainhanh.io/media/test/0affc273f29c9650d8cf905925aa746b.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7",
+        "group_content": "Cho tam giác %(A B C)% có %(B C=15 \\mathrm{~cm}, A C=20 \\mathrm{~cm}, A B=25 \\mathrm{~cm})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a) ",
+        "point": 2.0,
+        "content": "a) Tính độ dài đường cao CH của tam giác ABC",
+        "question_images": [],
+        "solution": "Dùng định lý Pytago đảo chứng minh được: %(\\triangle A B C)% vuông tại C<br>Ta có: %(S_{A B C}=\\frac{1}{2} A C \\cdot B C=\\frac{1}{2} A B \\cdot C H \\Rightarrow C H=\\frac{A C \\cdot B C}{A B}=\\frac{20.15}{25}=12 \\mathrm{~cm})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/405395c1a02a7b97cff50c4b90d323b5.png\" srcset=\"https://docdn.giainhanh.io/media/test/e5d80b230248e9304648ee6fd51a42e2.png 245w, https://docdn.giainhanh.io/media/test/f4c6e4040d747929305d07643ca9f98b.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b) ",
+        "point": 1.0,
+        "content": "b) Gọi CD là đường phân giác của %(\\triangle A C H)%. Chứng minh %(\\triangle B C D)% cân",
+        "question_images": [],
+        "solution": "Dễ dàng tính được: %(H A=16 \\mathrm{~cm}, B H=9 \\mathrm{~cm})%<br>%(C D)% là tia phân giác của %(\\triangle A C H)% nên suy ra %(A D=10 \\mathrm{~cm}, H D=6 \\mathrm{~cm})%.<br>Do đó: %(B C=B D(=15 \\mathrm{~cm}))%<br>Vậy %(\\triangle B D C)% cân tại B",
+        "question_type": "essay"
+    },
+    {
+        "title": "c) ",
+        "point": 1.0,
+        "content": "c) Chứng minh: %(B C^{2}+C D^{2}+B D^{2}=3 C H^{2}+2 B H^{2}+D H^{2})%",
+        "question_images": [],
+        "solution": "Xét các %(\\triangle)% vuông: %(\\triangle C B H, \\triangle C A H)%<br>Ta có:<br>\\[\\begin{array}{l}B C^{2}=B H^{2}+C H^{2}(\\text { Pytago }) \\C D^{2}=D H^{2}+C H^{2}(\\text { Pytago }) \\B D^{2}=B C^{2}=B H^{2}+C H^{2}(\\text { Pytago })\\end{array}\\]<br>Từ đó suy ra %(B C^{2}+C D^{2}+B D^{2}=3 C H^{2}+2 B H^{2}+D H^{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8  ",
+        "point": 2.0,
+        "content": "Cho %(a, b)% là các số dương thỏa mãn %(a^{3}+b^{3}=a^{5}+b^{5})%. Chứng minh rằng %(a^{2}+b^{2} \\leq 1+a b)%",
+        "question_images": [],
+        "solution": "Xét 2 số dương :<br>\\[\\begin{array}{l}\\text { Xét: } a^{2}+b^{2} \\leq 1+a b \\Leftrightarrow a^{2}+b^{2}-a b \\leq 1 \\\\left.\\Leftrightarrow(a+b)\\left(a^{2}+b^{2}-a b\\right) \\leq(a+b) \\quad \\text { (Vi } \\quad a+b\\gt 0\\right) \\\\Leftrightarrow a^{3}+b^{3} \\leq a+b \\\\left.\\Leftrightarrow\\left(a^{3}+b^{3}\\right)\\left(a^{3}+b^{3}\\right) \\leq(a+b)\\left(a^{5}+b^{5}\\right) \\quad \\text { (Vi } \\quad a^{3}+b^{3}=a^{5}+b^{5}\\right) \\\\Leftrightarrow a^{6}+2 a^{3} b^{3}+b^{6} \\leq a^{6}+a b^{5}+a^{5} b+b^{6} \\\\Leftrightarrow 2 a^{3} b^{3} \\leq a b^{5}+a^{5} b \\\\Leftrightarrow a b\\left(a^{4}-2 a^{2} b^{2}+b^{4}\\right) \\geq 0 \\\\Leftrightarrow a b\\left(a^{2}-b^{2}\\right)^{2} \\geq 0 \\text { đúng } \\forall a, b>0\\end{array}\\]<br>Vậy : %(a^{2}+b^{2} \\leq 1+a b)% với %(a, b)% dương và %(a^{3}+b^{3}=a^{5}+b^{5})%",
+        "question_type": "essay"
+    }
+]

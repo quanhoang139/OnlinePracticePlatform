@@ -1,0 +1,82 @@
+[
+    {
+        "title": "Câu 1 ",
+        "point": 1.0,
+        "content": "Cho hàm số %(y=\\frac{1}{4} x^{4}-2 x^{2}+1)% có đồ thị là %((C))%. Tính diện tích tam giác có các đỉnh là các điểm cực trị của đồ thị %((C))%.",
+        "question_images": [],
+        "solution": "Ta có %(y^{\\prime}=x^{3}-4 x ; y^{\\prime}=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\\\ x=2 \\\\ x=-2\\end{array}\\right.)%.<br>Suy ra 3 điểm cực trị là %(A(-2 ;-3) ; B(0 ; 1) ; C(2 ;-3))%.<br>Các điểm cực trị tạo thành tam giác %(A B C)% cân tại %(B)%.<br>Gọi %(H)% là trung điểm của %(A C \\Rightarrow H(0 ;-3))% và %(B H \\perp A C)%.<br>Ta có %(\\quad \\overrightarrow{B H}(0 ;-4) \\Rightarrow B H=4 ; \\quad \\overrightarrow{A C}(4 ; 0) \\Rightarrow A C=4)%.<br>Vậy diện tích cần tìm: %(S=\\frac{1}{2} \\cdot B H \\cdot A C=\\frac{1}{2} \\cdot 4 \\cdot 4=8)% (đvdt).",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 2 ",
+        "point": 1.0,
+        "content": "Cho hàm số %(y=\\frac{2 x-1}{x+1})% có đồ thị %((C))%. Tìm %(m)% để đường thẳng %(d: y=-x+m)% cắt%((C))% tại hai điểm phân biệt %(A)% và %(B)% sao cho %(\\triangle P A B)% đều, biết %(P(2 ; 5))%.",
+        "question_images": [],
+        "solution": "Hoành độ giao điểm của đường thẳng %(d)% và đồ thị %((C))% là nghiệm phương trình%(\\frac{2 x-1}{x+1}=-x+m \\Leftrightarrow x^{2}-(m-3) x-m-1=0)%(1) %((x=-1)% không là nghiệm của (1)).<br>Đường thẳng %(d)% cắt đồ thị %((\\mathrm{C}))% tại hai điểm phân biệt khi và chi khi phương trình (1) có hai nghiệm phân biệt %(\\Leftrightarrow \\Delta\\gt 0 \\Leftrightarrow m^{2}-2 m+13>0 \\Leftrightarrow m \\in \\mathbb{R})%.<br>Gọi %(x_{1}, x_{2})% là các nghiệm của phương trình (1), ta có: %(\\left\\{\\begin{array}{l}x_{1}+x_{2}=m-3 \\\\ x_{1} x_{2}=-m-1\\end{array}\\right.)%<br>Giả sử %(A\\left(x_{1} ;-x_{1}+m\\right), B\\left(x_{2} ;-x_{2}+m\\right))%<br>Khi đó ta có: %(A B=\\sqrt{2\\left(x_{1}-x_{2}\\right)^{2}})%<br>\\[\\begin{array}{l}P A=\\sqrt{\\left(x_{1}-2\\right)^{2}+\\left(-x_{1}+m-5\\right)^{2}}=\\sqrt{\\left(x_{1}-2\\right)^{2}+\\left(x_{2}-2\\right)^{2}}, \\P B=\\sqrt{\\left(x_{2}-2\\right)^{2}+\\left(-x_{2}+m-5\\right)^{2}}=\\sqrt{\\left(x_{2}-2\\right)^{2}+\\left(x_{1}-2\\right)^{2}}\\end{array}\\]<br>Suy ra %(\\triangle P A B)% cân tại %(P)%.<br>Do đó %(\\triangle P A B)% đều %(\\Leftrightarrow P A^{2}=A B^{2})%<br>\\[\\Leftrightarrow\\left(x_{1}-2\\right)^{2}+\\left(x_{2}-2\\right)^{2}=2\\left(x_{1}-x_{2}\\right)^{2} \\Leftrightarrow\\left(x_{1}+x_{2}\\right)^{2}+4\\left(x_{1}+x_{2}\\right)-6 x_{1} x_{2}-8=0\\]<br>%(\\Leftrightarrow m^{2}+4 m-5=0 \\Leftrightarrow\\left[\\begin{array}{c}m=1 \\\\ m=-5\\end{array}\\right.)%.<br>Vậy giá trị cần tìm là %(m=1, m=-5)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 3 ",
+        "point": 1.0,
+        "content": "Một mảnh đất hình chữ nhật %(A B C D)% có chiều dài %(A B=25 \\mathrm{~m})%, chiều rộng %(A D=20 \\mathrm{~m})% được chia thành hai phần bằng nhau bởi vạch chắn %(M N(M, N)% lần lượt là trung điểm %(B C)% và %(A D)% ). Một đội xây dựng làm một con đường đi từ %(A)% đến %(C)% qua vạch chắn %(M N)%, biết khi làm đường trên miền %(A B M N)% mỗi giờ làm được %(15 \\mathrm{~m})% và khi làm trong miền %(C D N M)% mỗi giờ làm được %(30 \\mathrm{~m})%. Tính thời gian ngắn nhất mà đội xây dựng làm được con đường đi từ %(A)% đến %(C)%.",
+        "question_images": [],
+        "solution": "Giả sử con đường đi từ %(\\mathrm{A})% đến %(\\mathrm{C})% gặp vạch chắn %(\\mathrm{MN})% tại %(\\mathrm{E})% đặt %(N E=x(m)(x \\in[0 ; 25]) \\Rightarrow A E=\\sqrt{x^{2}+10^{2}})%;<br>\\[C E=\\sqrt{(25-x)^{2}+10^{2}}\\]<br>Thời gian làm đường đi từ %(\\mathrm{A})% đến %(\\mathrm{C})% là %(t(x)=\\frac{A E}{15}+\\frac{C E}{30}=\\frac{\\sqrt{x^{2}+100}}{15}+\\frac{\\sqrt{(25-x)^{2}+100}}{30}(h))%<br>\\[\\begin{array}{l}t^{\\prime}(x)=\\frac{x}{15 \\sqrt{x^{2}+100}}-\\frac{(25-x)}{30 \\sqrt{(25-x)^{2}+100}} ; \\t^{\\prime}(x)=0 \\Leftrightarrow 2 x \\sqrt{(25-x)^{2}+100}=(25-x) \\sqrt{x^{2}+100} \\\\Leftrightarrow\\left\\{\\begin{array}{l}x(25-x) \\geq 0 \\\\4 x^{2}\\left[(25-x)^{2}+100\\right]=(25-x)^{2}\\left(x^{2}+100\\right)\\end{array}\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { 0 \\leq x \\leq 2 5 } \\\\{ 4 ( 2 5 - x ) ^ { 2 } ( x ^ { 2 } - 2 5 ) + x ^ { 2 } [ 4 0 0 - ( 2 5 - x ) ^ { 2 } ] = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}0 \\leq x \\leq 25 \\\\(x-5)\\left[4(25-x)^{2}(x+5)+x^{2}(45-x)\\right]=0\\end{array}\\right.\\right. \\\\Leftrightarrow x=5 ;\\end{array}\\]<br>%(t(0)=\\frac{20+\\sqrt{725}}{30}, t(25)=\\frac{10+2 \\sqrt{725}}{30}, t(5)=\\frac{2 \\sqrt{5}}{3} \\Rightarrow)% Thời gian ngắn nhất làm con đường từA đến %(\\mathrm{C})% là %(\\frac{2 \\sqrt{5}}{3})% (giờ).<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/e80a97c60dbe599a7d33dd6860073e69.png\" srcset=\"https://docdn.giainhanh.io/media/test/e35080dd0185981abead05aa2edf2735.png 149w\" width=\"149\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 4 ",
+        "point": 1.0,
+        "content": "Tính tổng các nghiệm %(x \\in[-\\pi ; \\pi])% của phương trình%(2(\\cos x+\\sqrt{3} \\sin x) \\cos x=\\cos x-\\sqrt{3} \\sin x+1)%.",
+        "question_images": [],
+        "solution": "Phương trình đã cho %(\\Leftrightarrow \\cos 2 x+\\sqrt{3} \\sin 2 x=\\cos x-\\sqrt{3} \\sin x)%<br>\\[\\Leftrightarrow \\cos \\left(2 x-\\frac{\\pi}{3}\\right)=\\cos \\left(\\frac{\\pi}{3}+x\\right) \\quad \\Leftrightarrow x=\\frac{k 2 \\pi}{3}, k \\in \\mathbb{Z} .\\]<br>Vì %(x \\in[-\\pi ; \\pi])% nên %(x_{1}=0 ; x_{2}=\\frac{2 \\pi}{3} ; x_{3}=\\frac{-2 \\pi}{3})% thỏa mãn.<br>Vậy tổng các nghiệm %(x \\in[-\\pi ; \\pi])% của phuơng trình đã cho là %(\\mathrm{S}=0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 5 ",
+        "point": 1.0,
+        "content": "Trong cuộc thi: \"Thiết kế và trình diễn các trang phục dân tộc\" do Đoàn trường THPT Đồng Đậu tổ chức vào tháng 11 năm 2019 với thể lệ mỗi lớp tham gia một tiết mục. Kểt quả có 12 tiết mục đạt giải trong đó có 4 tiết mục khối 12 , có 5 tiết mục khối 11 và 3 tiết mục khối 10. Ban tổ chức chọn ngẫu nhiên 5 tiết mục biểu diễn chào mừng 26 tháng 3 . Tính xác suất sao cho khối nào cũng có tiết mục được biểu diễn và trong đó có ít nhất hai tiết mục của khối 12 .",
+        "question_images": [],
+        "solution": "```Gọi không gian mẫu của phép chọn ngẫu nhiên là %(\\Omega)%<br>Số phần tử của không gian mẫu là: %(\\mathrm{n}(\\Omega)=C_{12}^{5}=792)%<br>Gọi %(\\mathrm{A})% là biến cố \" Chọn 5 tiết mục sao cho khối nào cũng có tiết mục được biểu diễn và trong đó có ít nhất hai tiết mục của khối %(12^{\\prime \\prime})%.<br>Chỉ có 3 khả năng xảy ra thuận lợi cho biến cố %(\\mathrm{A})% là :<br>+2 tiết mục khối 12 , hai tiết mục khối 10 , một tiết mục khối 11 .<br>+2 tiết mục khối 12,1 tiết mục khối 10,2 tiết mục khối 11 .<br>+3 tiết mục khối 12,1 tiết mục khối 10,1 tiết mục khối 11 .<br>Số kết quả thuận lợi cho biến cố %(\\mathrm{A})% là: %(\\mathrm{n}(\\mathrm{A})=C_{4}^{2} \\cdot C_{3}^{2} \\cdot C_{5}^{1}+C_{4}^{2} \\cdot C_{3}^{1} \\cdot C_{5}^{2}+C_{4}^{3} \\cdot C_{3}^{1} \\cdot C_{5}^{1}=330)%.<br>Xác suất cần tìm là %(P=\\frac{330}{792}=\\frac{5}{12})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 6 ",
+        "point": 1.0,
+        "content": "Cho dãy số %(\\left(u_{n}\\right))% với %(u_{n}=e^{\\sqrt{1+\\frac{1}{n^{2}+\\frac{1}{(n+1)}}}})%. Tính %(u_{1} \\cdot u_{2} u_{3} \\ldots u_{2019})%.",
+        "question_images": [],
+        "solution": "Cho dãy số %(\\left(u_{n}\\right))% với %(u_{n}=e^{\\sqrt{1+\\frac{1}{n^{2}} \\frac{1}{(n+1)^{2}}}})%. Tính %(u_{1} \\cdot u_{2} u_{3} \\ldots u_{2019})%.<br>Ta có:<br>\\[\\begin{aligned}& \\sqrt{1+\\frac{1}{n^{2}}+\\frac{1}{(n+1)^{2}}}=\\sqrt{\\frac{n^{2}(n+1)^{2}+(n+1)^{2}+n^{2}}{n^{2}(n+1)^{2}}}=\\sqrt{\\frac{n^{4}+2 n^{3}+3 n^{2}+2 n+1}{n^{2}(n+1)^{2}}} \\\\= & \\frac{n^{2}+n+1}{n(n+1)}=1+\\frac{1}{n(n+1)}=1+\\frac{1}{n}-\\frac{1}{n+1} \\quad\\left(\\text { do } n \\in N^{*}\\right)\\end{aligned}\\]<br>Khi đó ta có %(u_{1} u_{2} u_{3} \\ldots u_{2019}=e^{2019+\\frac{1}{1.2}+\\frac{1}{23}+\\ldots+\\frac{1}{20182019}})%<br>\\[\\begin{array}{l}=e^{2019+1-\\frac{1}{2}+\\frac{1}{2}-\\frac{1}{3}+\\ldots+\\frac{1}{2018} \\frac{1}{2019}} \\\\=e^{2019-\\frac{1}{2019}}=e^{\\frac{20182020}{2019}}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 7 ",
+        "point": 1.0,
+        "content": "Cho hình hộp đứng %(A B C D \\cdot A_{1} B_{1} C_{1} D_{1})% có các cạnh %(A B=A D=2, A A_{1}=\\sqrt{3})% và góc %(\\widehat{B A D}=60^{\\circ})%. Gọi %(M, N)% lần lượt là trung điểm của các cạnh %(A_{1} D_{1})% và %(A_{1} B_{1})%. Chứng minh rằng %(A C_{1})% vuông góc với mặt phẳng %((B D M N))%.",
+        "question_images": [],
+        "solution": "Ta có: %(B D \\perp A C, B D \\perp A A_{1} \\Rightarrow B D \\perp m p\\left(A C C_{1} A_{1}\\right) \\Leftrightarrow A C_{1} \\perp B D)%.<br>Mặtkhác: %(\\overrightarrow{A C}_{1} \\cdot \\overrightarrow{B N}=\\left(\\overrightarrow{A B}+\\overrightarrow{B C}+\\overrightarrow{C C_{1}}\\right)\\left(\\overrightarrow{B B_{1}}+\\frac{1}{2} \\overrightarrow{B A}\\right)=-\\frac{1}{2} \\overrightarrow{A B}^{2}+\\frac{1}{2} \\overrightarrow{B A} \\cdot \\overrightarrow{B C}+\\overrightarrow{B B}_{1}^{2}=)% %(-2-1+3=0)%.<br>Suy ra %(\\overrightarrow{A C_{1}} \\perp \\overrightarrow{B N}(2))%.<br>Từ (1) và %((2) \\Rightarrow A C_{1} \\perp(B C M N))%.<br><img/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 8  ",
+        "point": 0.2,
+        "content": "Cho hình chóp %(S . A B C D)%, đáy %(A B C D)% là hình chữ nhật có %(A B=3, B C=6)%, mặt phẳng %((S A B))% vuông góc với đáy, các mặt phẳng %((S B C))% và %((S C D))% cùng tạo với mặt phẳng %((A B C D))% các góc bằng nhau. Biết khoảng cách giữa hai đường thẳng %(S A)% và %(B D)% bằng %(\\sqrt{6})%. Tính thể tích khối chóp %(S . A B C D)% và cosin góc giữa hai đường thẳng %(S A)% và %(B D)%.",
+        "question_images": [],
+        "solution": "%(H a ̣ S H \\perp A B(H \\in A B) \\Rightarrow S H \\perp(A B C D))%.<br>Kẻ %(I I K \\perp C D(K \\in C D) \\Rightarrow)% tứ giác %(H B C K)% là hình chữ nhật.<br>Ta có: %(B C \\perp(S A B) \\Rightarrow)% Góc giữa mặt phẳng %((S B C))% và %((A B C D))% là: %(\\widetilde{S B H})%.<br>%(C D \\perp(S H K) \\Rightarrow)% Góc giữa mặt phẳng %((S C D))% và %((A B C D))% là: %(\\widehat{S K H})%<br>Do đó %(A)% là trung điểm cùa %(H B)%.Ta thấy %(\\square A B D K)% là hình bình hành %(\\Rightarrow B D / / A K \\Rightarrow B D / /(S A K))% mà %(S A \\in(S A K))%<br>Suy ra %(d(B D, S A)=d(B D,(S A K))=d(D,(S A K))=d(H,(S A K))=h=\\sqrt{6})%.<br>Do tam diện %(H)%.SAK vuông tại %(H)% nên: %(\\frac{1}{h^{2}}=\\frac{1}{H S^{2}}+\\frac{1}{H A^{2}}+\\frac{1}{H K^{2}} \\Leftrightarrow \\frac{1}{6}=\\frac{1}{H S^{2}}+\\frac{1}{9}+\\frac{1}{36})%<br>\\[\\Rightarrow S H=6\\]<br>Suy ra %(V_{S A B C D}=\\frac{1}{3} \\cdot S H \\cdot S_{A B C D}=\\frac{1}{3} \\cdot 6 \\cdot 3 \\cdot 6=36(\\mathrm{dvtt}))%.<br>Gọi %(\\alpha)% là góc giữa hai đường thẳng %(S A)% và %(B D \\Rightarrow \\alpha=(B D, S A)=(A K, S A))%<br>Ta có: %(S A=6 \\sqrt{2}, S A=A K=3 \\sqrt{5})%.<br>Trong tam giác %(S A K)% có:<br>\\[\\cos \\widehat{S A K}=\\frac{A S^{2}+A K^{2}-S K^{2}}{2 . A S \\cdot A K}=\\frac{45+45-72}{2.3 \\sqrt{5} \\cdot 3 \\sqrt{5}}=\\frac{1}{5}\\]<br>Vậy %(\\alpha=\\overparen{S A K}=\\arccos \\frac{1}{5})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/6d085c351a184acb48b8c2b056256bcf.png\" srcset=\"https://docdn.giainhanh.io/media/test/62240350d18416800d97018f5f48468d.png 210w\" width=\"210\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 9 ",
+        "point": 1.0,
+        "content": "Trong mặt phẳng với hệ tọa độ %((O x y))%, cho tam giác %(A B C)% ngoại tiếp đường tròn tâm %(J(2 ; 1))%. Biết đường cao xuất phát từ đỉnh %(A)% của tam giác %(A B C)% có phương trình: %(2 x+y-10=0)% và %(D(2 ;-4))% là giao điểm thứ hai của %(A J)% với đường tròn ngoại tiếp tam giác %(A B C)%. Tìm tọa độ các đỉnh của tam giác %(A B C)% biết %(B)% có hoành độ âm và %(B)% thuộc đường thẳng có phương trình %(x+y+7=0)%.",
+        "question_images": [],
+        "solution": "%(A J)% đi qua %(J(2 ; 1))% và %(D(2 ;-4))% nên %(A J)% có phương trình : %(x-2=0)%<br>Gọi %(H)% là chân đường cao xuất phát từ đỉnh %(A)%.<br>Tọa độ điểm %(A)% thỏa mãn hệ :<br>\\[\\left\\{\\begin{array} { l } { x - 2 = 0 } \\\\{ 2 x + y - 1 0 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=2 \\y=6\\end{array} \\Rightarrow A(2 ; 6) .\\right.\\right.\\]<br>Gọi %(E)% là giao điểm thứ hai của %(B J)% với đường tròn ngoại tiếp tam giác %(A B C)%.<br>Ta có %(\\overparen{D B}=\\overparen{D C} \\Rightarrow D B=D C)% và %(\\overparen{E A}=\\overparen{E C})%<br>\\[\\overparen{D B J}=\\frac{1}{2}(s d \\overparen{E C}+s d \\overparen{D C})=\\frac{1}{2}(s d \\overparen{E A}+s d \\overparen{D B})=\\overparen{D J B} \\Rightarrow \\triangle D B J \\text { cân tại } D \\text {. }\\]<br>%(D B=D C=D J)% hay %(D)% là tâm đường tròn ngoại tiếp tam giác %(J B C)%.<br>Suy ra %(B, C)% nằm trên đường tròn tâm %(D(2 ;-4))% bán kính %(J D=\\sqrt{0+5^{2}}=5)% có phương trình %((x-2)^{2}+(y+4)^{2}=25)%.<br>Khi đó tọa độ %(B)% là hệ của nghiĉ̣m:<br>\\[\\left\\{\\begin{array} { l } { ( x - 2 ) ^ { 2 } + ( y + 4 ) ^ { 2 } = 2 5 } \\\\{ x + y + 7 = 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x = - 3 } \\\\{ y = - 4 }\\end{array} \\vee \\left\\{\\begin{array} { l } { x = 2 } \\\\{ y = - 9 }\\end{array} \\Rightarrow \\left[\\begin{array}{l}B(-3 ;-4) \\B(2 ;-9)\\end{array}\\right.\\right.\\right.\\right.\\]<br>Do %(B)% có hoành độ âm nên %(B(-3 ;-4))%.<br>%(B C)% đi qua %(B(-3 ;-4))% và vuông góc %(A H)% nên có phương trình: %(x-2 y-5=0)%.<br>Khi đó %(C)% là nghiệm của hệ: %(\\left\\{\\begin{array}{l}(x-2)^{2}+(y+4)^{2}=25 \\\\ x-2 y-5=0\\end{array} \\Rightarrow C(5 ; 0)\\right.)%<br>Vậy %(A(2 ; 6), B(-3 ;-4), C(5 ; 0))%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/9eecefa650f65be471de48b0295b1129.png\" srcset=\"https://docdn.giainhanh.io/media/test/65bd2f1acfb34ac60cf69962d28f3f1f.png 152w\" width=\"152\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "Câu 10 ",
+        "point": 1.0,
+        "content": "Cho các số thực %(a, b)% thỏa mãn điều kiện %(0\\lt b\\lt a\\lt 1)%. Tìm giá trị nhỏ nhất của biểu thức<br>\\[P=\\log _{a} \\frac{4(3 b-1)}{9}+8 \\log _{\\frac{b}{a}}^{2} a-1 .\\]",
+        "question_images": [],
+        "solution": "\\[\\begin{aligned}\\operatorname{Có} P= & \\log _{a} \\frac{4(3 b-1)}{9}+8 \\log _{\\frac{b}{a}}^{2} a-1 \\\\& =\\log _{a} \\frac{4(3 b-1)}{9}+\\frac{8}{\\left(\\log _{a} b-1\\right)^{2}}-1\\end{aligned}\\]<br>\\[\\begin{array}{c}\\text { Ta có } \\frac{4(3 b-1)}{9}=\\frac{4}{3} b-\\frac{4}{9} \\\\left(b-\\frac{2}{3}\\right)^{2} \\geq 0 \\Rightarrow-\\frac{4}{9} \\leq b^{2}-\\frac{4}{3} b \\\\Rightarrow \\frac{4(3 b-1)}{9}=\\frac{4}{3} b-\\frac{4}{9} \\leq \\frac{4}{3} b+b^{2}-\\frac{4}{3} b=b^{2} \\\\text { Vĩ } 0\\lt a\\lt 1 \\text { nên } \\log _{a} \\frac{4(3 b-1)}{9} \\geq \\log _{a} b^{2}=2 \\log _{a} b \\\\text { Đăt } \\log _{a} b=t(t \\in(1 ;+\\infty) \\\\Rightarrow P \\geq 2 t+\\frac{8}{(t-1)^{2}}-1\\end{array}\\]<br>Xét hàm số: %(f(t)=2 t+\\frac{8}{(t-1)^{2}}-1)% trên %((1 ;+\\infty))%%(\\operatorname{Co} f^{\\prime}(t)=2-\\frac{16}{(t-1)^{3}} ; f^{\\prime}(t)=0 \\Rightarrow 2-\\frac{16}{(t-1)^{3}}=0)%<br>\\[\\Leftrightarrow t=3 \\in(1 ;+\\infty)\\]<br>Ta có %(\\min f(t)=f(3)=7 \\Rightarrow P \\geq 7)%<br>Dấu \" %(=)% \" xảy ra khi %(\\Leftrightarrow\\left\\{\\begin{array}{c}b=\\frac{3}{2} \\\\ \\log _{a} b=3\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{c}b=\\frac{3}{2} \\\\ a=\\sqrt[3]{\\frac{2}{3}}\\end{array}\\right.\\right.)%.",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,210 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.25,
+        "content": "Cho bảng số liệu ghép nhóm về độ tuổi và số lượng khách hàng của một cửa hàng như sau. Tính giá trị đại diện của nhóm %([31 ; 37))%.",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/63cb93bc533aed2c4b8bb492e224953e.png"
+        ],
+        "labelA": "17",
+        "labelB": "37",
+        "labelC": "34",
+        "labelD": "31",
+        "correct_label": "labelC",
+        "solution": "Giá trị đại diện của nhóm là 34",
+        "question_type": "quiz"
+    },
+    {
+        "title": "2 ",
+        "point": 0.25,
+        "content": "Cho %(A, B)% là hai biến cố. Biết %(P(A)=\\frac{1}{3}, P(B)=\\frac{7}{8}.P(A \\cap B)=\\frac{5}{24})%. Biến cố %(A \\cup B)% là biến cố:",
+        "question_images": [],
+        "labelA": "Có xác suất bằng %(\\frac{1}{4})%",
+        "labelB": "Chắc chắn",
+        "labelC": "Không xảy ra",
+        "labelD": "Có xác suất bằng %(\\frac{1}{8})%",
+        "correct_label": "labelB",
+        "solution": "%(A, B)% là hai biến cố bất kỳ ta luôn có: %(P(A \\cap B)=P(A)+P(B)-P(A \\cap B)=\\frac{1}{3}+\\frac{7}{8}-\\frac{5}{24}=1)%<br>Vậy %(A \\cup B)% là biến cố chắc chắn.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "3 ",
+        "point": 0.25,
+        "content": "Chọn ngẫu nhiên một số có hai chữ số. Xác suất để số được chọn chia hết cho 11 hoặc 15 là:",
+        "question_images": [],
+        "labelA": "%(\\frac{1}{10})%",
+        "labelB": "%(\\frac{1}{15})%",
+        "labelC": "%(\\frac{1}{6})%",
+        "labelD": "%(\\frac{13}{45})%",
+        "correct_label": "labelC",
+        "solution": "Có 90 số tự nhiên có hai chữ số (từ số 10 đến số 99 ).<br>Suy ra: %(n(\\Omega)=90)%.<br>Gọi %(M)% là biến cố: \"Số được chọn chia hết cho 11 hoặc 15 \".<br>Gọi %(A)% là biến có \"Số được chọn chia hết cho 11\".<br>Gọi %(B)% là biến cố \"Số được chọn chia hết cho 15\".<br>Số kết quả thuận lợi cho biến cố %(A)% và biến cố %(B)% là: %(n(A)=9, n(B)=6)%.<br>Suy ra %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{1}{10}, P(B)=\\frac{n(B)}{n(\\Omega)}=\\frac{1}{15})%.<br>Trong cáo số từ 10 đến 99 không có số nào chia hết cho cả 11 và 15.<br>Vì thế %(A)% và %(B)% là hai biến xung khắc.<br>Suy ra: %(P(M)=P(A \\cup B)=P(A)+P(B)=\\frac{1}{6})%.",
+        "question_type": "quiz"
+    },
+    {
+        "title": "4 ",
+        "point": 0.25,
+        "content": "Với %(a)% là số thực dương tùy ý, %(\\sqrt[2023]{a^{2024}})%   bằng:",
+        "question_images": [],
+        "labelA": "%(\\frac{2024}{2023} a^{\\frac{1}{2023}})%",
+        "labelB": "%(a^{\\frac{2024}{2023}})%",
+        "labelC": "%(a^{\\frac{2023}{2024}})%",
+        "labelD": "%(\\frac{a^{2024}}{2023})%",
+        "correct_label": "labelB",
+        "solution": "Ta có: %(\\sqrt[2023]{a^{2024}}=a^{\\frac{2024}{2023}})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "5 ",
+        "point": 0.25,
+        "content": "Hàm số %(y=\\log _{2024}(2023-x))% có tập xác định là:",
+        "question_images": [],
+        "labelA": "%((2023 ;+\\infty))%",
+        "labelB": "%([2023 ;+\\infty))%",
+        "labelC": "%((-\\infty ; 2023))%",
+        "labelD": "%((-\\infty ; 2023])%",
+        "correct_label": "labelC",
+        "solution": "Hàm số xác định khi và chỉ khi %(2023-x\\gt 0 \\Leftrightarrow x\\lt 2023)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "6 ",
+        "point": 0.25,
+        "content": "Nghiệm của phương trình %(\\log _{2}(x+4)=3)% là:",
+        "question_images": [],
+        "labelA": "%(x=5)%",
+        "labelB": "%(x=4)%",
+        "labelC": "%(x=2)%",
+        "labelD": "%(x=12)%",
+        "correct_label": "labelB",
+        "solution": "Ta có: %(\\log _{2}(x+4)=3 \\Leftrightarrow x+4=2^{3} \\Leftrightarrow x=4)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "7 ",
+        "point": 0.25,
+        "content": "Phương trình %(16^{x+1}-2^{x^{2}-2 x+4}=0)% có tổng các nghiệm bằng:",
+        "question_images": [],
+        "labelA": "6",
+        "labelB": "0",
+        "labelC": "4",
+        "labelD": "2",
+        "correct_label": "labelA",
+        "solution": "Phương trình %(16^{x+1}-2^{x^{2}-2 x+4}=0 \\Leftrightarrow 2^{4 x+4}=2^{x^{2}-2 x+4} \\quad x^{2}-0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\\\ x=6\\end{array}\\right.)%<br>Vậy: %(x_{1}+x_{2}=0+6=6)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "8 ",
+        "point": 0.25,
+        "content": "Cho hình chóp %(S . A B C)% có đáy %(A B C)% là tâm giác vuông cân tại %(B)%, cạnh bên %(S A)% vuông góc với đáy. Số đo của góc nhị diện %([B, S A, C])% bằng:",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/d35b45f921fb09c99bbc18c7928634c7.png"
+        ],
+        "labelA": "%(60^{\\circ})%",
+        "labelB": "%(45^{\\circ})%",
+        "labelC": "%(30^{\\circ})%",
+        "labelD": "%(135^{\\circ})%",
+        "correct_label": "labelB",
+        "solution": "Ta có %((S A B) \\cap(S A C)=S A ; A B \\perp S A ; A C \\perp S A)% nên %(\\widehat{B A C})% một góc phẳng của góc nhị diện %([B, S A, C])%.<br>Do %(A B C)% là tam giác vuông cân tại %(B)% nên %(\\widehat{B A C}=45^{\\circ})%.<br>Vậy số đo của góc nhị diện %([B, S A, C])% bằng %(45^{\\circ})%.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/5b008dfabfe53afb7592fbbc9d53518f.png\" srcset=\"https://docdn.giainhanh.io/media/test/81f4a4ae28ddfddf658ac0968be4b38f.png 156w\" width=\"156\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "9 ",
+        "point": 0.25,
+        "content": "Cho hình chóp %(S . A B C D)% có đáy là hình vuông, %(S A \\perp(A B C D))%. Mặt phẳng %((S A C))% vuông góc với mặt phẳng nào trong các mặt phẳng sau?",
+        "question_images": [],
+        "labelA": "%((S A D))%",
+        "labelB": "%((S A B))%",
+        "labelC": "%((A B C D))%",
+        "labelD": "%((S B C))%",
+        "correct_label": "labelC",
+        "solution": "Do mặt phẳng %((S A C))% chứa đường thẳng %(S A, S A \\perp(A B C D))% nên %((S A C \\perp(A B C D))%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "10 ",
+        "point": 0.25,
+        "content": "Cho khối chóp %(S . A B C D)% có đáy %(A B C D)% là hình vuông cạnh %(2a, S B \\perp(A B C D))% và khoảng cách từ điểm %(B)% đến mặt phẳng %((S A D))% bằng %(a \\sqrt{2})%. Thể tích của khối chóp %(S . A B C D)% bằng:",
+        "question_images": [],
+        "labelA": "%(\\frac{4 a^{3}}{3})%",
+        "labelB": "%(\\frac{2 \\sqrt{3} a^{3}}{3})%",
+        "labelC": "%(\\frac{8}{3})%",
+        "labelD": "%(\\frac{2 \\sqrt{2} a^{3}}{3})%",
+        "correct_label": "labelC",
+        "solution": "Ta có %(A D \\perp A B)% (do đây %(A B C D)% là hình vuông) và %(A D \\perp S B)%<br>Do %(S B \\perp(A B C D \\perp, A D \\subset(A B C D))% nên %(A D \\perp(S A B))%.<br>Dựng K làhinh chiếu vuông góc của %(B)% lên %(S A)%.<br>Ta có %(B K \\perp S A)% và %(B K \\perp A D)%<br>Do %(B K \\subset(S A B))% và %(A D \\perp(S A B))% nên %(B K \\perp(S A D))% và đồng thời có %(K \\in S A, S A \\subset(S A D))%.<br>Do đó K là hình chiếu vuông góc của %(B)% lên %((S A D))%.<br>Vậy %(d(B,(S A D))=B K)%.<br>Xét tam giác %(S A B)% vuông tại %(B)% có đường cao %(B K)% nên %(\\frac{1}{B K^{2}}=\\frac{1}{A B^{2}}+\\frac{1}{S B^{2}} \\Leftrightarrow S B=2 a)%Vậy thể tích của khối chóp %(S .A B C D)% bằng: %(V=\\frac{1}{3}.S B . S_{A B C D}=\\frac{1}{3} . 2 a .(2 a)^{2}=\\frac{8 a^{3}}{3})%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/10baf10c8e9de2857271f3a2cc1522d3.png\" srcset=\"https://docdn.giainhanh.io/media/test/882a6df350aaa0f53dcc289e6beacf61.png 157w\" width=\"157\"/>",
+        "question_type": "quiz"
+    },
+    {
+        "title": "11 ",
+        "point": 0.25,
+        "content": "Phương trình chuyển động của một chất điểm được biểu thị bởi công thức %(S(t)=4-2 t+4 t^{2}+2 t^{3})%, trong đó %(t\\gt 0)% và %(t)% tính bằng giây %((s), S(t))% tính bằng mét %((\\mathrm{m}))%. Tìm gia tốc %(a)% của chất điểm tại thời điểm %(t=3(s))%.",
+        "question_images": [],
+        "labelA": "%(a=44\\left(\\mathrm{~m} / \\mathrm{s}^{2}\\right))%",
+        "labelB": "%(a=12\\left(\\mathrm{~m} / \\mathrm{s}^{2}\\right))%",
+        "labelC": "%(a=40\\left(\\mathrm{~m} / \\mathrm{s}^{2}\\right))%",
+        "labelD": "%(a=76\\left(\\mathrm{~m} / \\mathrm{s}^{2}\\right))%",
+        "correct_label": "labelA",
+        "solution": "Theo ứng dụng đạo hàm của hàm số có:<br>\\[v(t)=S^{\\prime}(t)=-2+8 t+6 t^{2} \\text { và } a(t)=v^{\\prime}(t)=8+12 t \\Rightarrow a(3)=44\\left(\\mathrm{~m} / \\mathrm{s}^{2}\\right)\\]",
+        "question_type": "quiz"
+    },
+    {
+        "title": "12 ",
+        "point": 0.25,
+        "content": "Cho hàm số %(y=\\frac{x-3}{x+4})% với %(x \\neq-4)%. Rút gọn biểu thức %(M=2\\left(y^{\\prime}\\right)^{2}+(1-y) y^{\\prime \\prime})%.",
+        "question_images": [],
+        "labelA": "%(M=\\frac{2 x}{(x+4)^{2}})%",
+        "labelB": "%(M=1)%",
+        "labelC": "%(M=\\frac{1}{x+4})%",
+        "labelD": "%(M=0)%",
+        "correct_label": "labelD",
+        "solution": "Với %(x \\neq-4)%, ta có:<br>\\[\\begin{array}{l}y^{\\prime}=\\frac{(x-3)^{\\prime}.(x+4)-(x-3).(x+4)^{\\prime}}{(x+4)^{2}}=\\frac{1 .(x+4)-(x-3). 1}{(x+4)^{2}}=\\frac{7}{(x+4)^{2}} \\y^{\\prime \\prime}=7\\left(\\frac{1}{(x+4)^{2}}\\right)^{\\prime}=7. \\frac{-\\left((x+4)^{2}\\right)^{\\prime}}{(x+4)^{4}}=7 . \\frac{-2(x+4)}{(x+4)^{4}}=-\\frac{14}{(x+4)^{3}} .\\end{array}\\]<br>Lại có: %(1-y=1-\\frac{x-3}{x+4}=\\frac{7}{x+4})%<br>Vậy: %(M=2\\left(y^{\\prime}\\right)^{2}+(1-y) . y^{\\prime \\prime}=2 \\frac{49}{(x+4)^{4}}+\\frac{7}{x+4} .\\left(-\\frac{14}{(x+4)^{3}}\\right)=0)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "1 ",
+        "point": 0.5,
+        "content": "Một người gửi tiết kiệm theo thể thức lãi suất kép với lãi suất %(8,4 \\%)% /năm. Giả sử lãi suất không thay đổi, hỏi sau ít nhất bao nhiêu năm người đó thu được số tiền gấp đôi số tiền ban đầu?",
+        "question_images": [],
+        "solution": "Gọi A là số tiền ban đầu gửi tiết kiệm theo thể thức lãi suất kép với lãi suất %(8,4 \\% /)% năm. Khi đó sau %(n)% năm số tiền thu được là %(A(1+8,4 \\%)^{n})%.<br>Để thu được số tiền gấp đôi số tiền ban đầu thì %(A(1+8,4 \\%)^{n}=2 A)% %(\\Leftrightarrow(1+8,4 \\%)^{n}=2 \\Leftrightarrow n=\\log _{1,084} 2 \\approx 8,59)%.<br>Vậy sau ít nhất 9 năm người đó thu được số tiền gấp đôi số tiền ban đầu",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 0.5,
+        "content": "Cho hàm số %(y=2^{3 x-x^{2}})%. Số nghiệm của phương trình là %(y^{\\prime}=0)% là bao nhiêu?",
+        "question_images": [],
+        "solution": "Ta có: %(y^{\\prime}=2^{3 x-x^{2}}\\left(3 x-x^{2}\\right)^{\\prime} \\ln 2=2^{3 x-x^{2}}(3-2 x) \\ln 2)%<br>Khi đó %(y^{\\prime}=0 \\Leftrightarrow 2^{3 x-x^{2}}(3-2 x) \\ln 2=0 \\Leftrightarrow 3-2 x=0)%<br>Vậy phương trình là %(y^{\\prime}=0)% có một nghiệm là %(x=\\frac{3}{2})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 0.5,
+        "content": "Một viên đạn được bắn lên từ mặt đất theo phương thẳng đứng với phương trình chuyển động %(s(t)=-\\frac{1}{2} a t^{2}+v_{0} t)% có vận tốc ban đầu %(=196 \\mathrm{~m} / \\mathrm{s})% (bỏ qua sức cản của không khí). Thời điểm %(t=m(\\mathrm{~s}))% thì tốc độ của viên đạn bằng 0. Khi đó viên đạn cách mặt đất %(n)% (mét). Tính giá trị biểu thức %(T=2 m+n)% biết %(a=9,8 \\mathrm{~m} / \\mathrm{s}^{2})%.",
+        "question_images": [],
+        "solution": "Ta có: %(s^{\\prime}(t)=-a t+v_{0}=-9,8 t+196)%.<br>Thời điểm vận tốc của viên đạn bằng 0 , ta có: %(v(t)=s^{\\prime}(t)=0 \\Leftrightarrow-9,8 t+196=0 \\Leftrightarrow t=20)%.<br>Khi đó viên đarreach mặt đất một khoảng cho bởi: %(s(20)=-\\frac{1}{2} 9,8.20^{2}+196.20=1960 \\mathrm{~m})%.<br>Vậy tại thời điểm %(t=20(\\mathrm{s}))% thì viên đạn có vận tốc bằng 0.<br>Khi đó viên đạn cách mặt đất một khoảng 1960 (mét).<br>Khi đó %(\\left\\{\\begin{array}{l}m=20 \\\\ n=1960\\end{array} \\Rightarrow T=2 m+n=2.20+1960=2000\\right.)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 0.5,
+        "content": "Cho hình chóp %(S . A B C)% có tam giác %(A B C)% vuông tại %(A, A B=A C=a)%, hình chiếu vuông góc của S lên mặt phẳng %((A B C))% là trung điểm %(H)% của %(B C)%, mặt phẳng %((S A B))% tạo với đáy một góc bằng %(60^{\\circ})%. Khi %(a=4 \\sqrt{3})% thì khoảng cách từ điểm %(H)% đến mặt phẳng %((S A B))% bằng bao nhiêu?",
+        "question_images": [],
+        "solution": "Gọi %(K)% là trung điểm của %(A B \\Rightarrow H K \\perp A B~~~~(1))%<br>Vì %(S H \\perp(A B C))% nên %(S H \\perp A B~~~~(2))%<br>Từ (1) và (2) %(\\Rightarrow A B \\perp S K)%<br>Do đó góc giữa %((S A B))% với đáy bằng góc giữa %(S K)% và %(H K)% và bằng %(\\widehat{S K H}=60^{\\circ})%.<br>Ta có %(S H=H K . \\tan \\widehat{S K H}=\\frac{a \\sqrt{3}}{2})%<br>Từ %(H)% kẻ %(H M \\perp S K)% tại %(M)%<br>\\[\\Rightarrow H M \\perp(S A B) \\Rightarrow d(H,(S A B))=H M\\]<br>Ta có %(\\frac{1}{H M^{2}}=\\frac{1}{H K^{2}}+\\frac{1}{S H^{2}}=\\frac{16}{3 a^{2}} )%<br>%(\\Rightarrow H M=\\frac{a \\sqrt{3}}{4} \\xrightarrow{a=4 \\sqrt{3}} H M=3)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/cb5ee0c7716f41bae162298c2a6ee783.png\" srcset=\"https://docdn.giainhanh.io/media/test/ac821229bd553a2e8c9b900b1ddcc39e.png 146w\" width=\"146\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 0.5,
+        "content": "Cho hình chóp %(S . A B C D)% có đáy %(A {B} C D)% là hình vuông cạnh %(a, S A)% vuông góc với đáy, %(S A=a \\sqrt{2})%. Gọi %(B^{\\prime})% là điểm trên %(S B)% sao cho %(3 S B^{\\prime}=2 S B, C^{\\prime})% là trung điểm của %(S C, D^{\\prime})% là hình chiếu của %(A)% lên %(S D)%. Khi %(a=18 \\sqrt{2})% thì thể tích khối chóp %(S . A B^{\\prime} C^{\\prime} D^{\\prime})% bằng bao nhiêu?",
+        "question_images": [],
+        "solution": "Vì tam giác %(A S D)% vuông nên %(S D^{\\prime} .S D=S A^{2} \\Rightarrow \\frac{S D^{\\prime}}{S D}=\\frac{S A^{2}}{S D^{2}}=\\frac{2 a^{2}}{2 a^{2}+a^{2}}=\\frac{2}{3})%<br>Ta có: %(\\frac{V_{S . A B^{\\prime} C^{\\prime}}}{V_{S . A B C}}=\\frac{S B^{\\prime}}{S B} .\\frac{S C^{\\prime}}{S C}=\\frac{2}{3}. \\frac{1}{2}=\\frac{1}{3} \\Rightarrow V_{S . A B^{\\prime} C^{\\prime}}=\\frac{1}{3} V_{S . A B C})%<br>\\[\\frac{V_{S . A C^{\\prime} D^{\\prime}}}{V_{S . A C D}}=\\frac{S C^{\\prime}}{S C}. \\frac{S D^{\\prime}}{S D}=\\frac{1}{2} . \\frac{2}{3}=\\frac{1}{3} \\Rightarrow V_{S . A C^{\\prime} D^{\\prime}}=\\frac{1}{3} V_{S . A C D}\\]<br>Mặt khác %(V_{S . A B C}=V_{S . A C D}=\\frac{1}{2} V_{S . A B C D})% nên %(V_{S . A B^{\\prime} C^{\\prime}}+V_{S . A C^{\\prime} D^{\\prime}}=\\frac{1}{6} V_{S . A B C D}+\\frac{1}{6} V_{S . A B C D}=\\frac{1}{3} V_{S . A B C D})%<br>Do đó %(V_{S . A B^{\\prime} C^{\\prime} D^{\\prime}}=V_{S . A B^{\\prime} C^{\\prime}}+V_{S . A C^{\\prime} D^{\\prime}}=\\frac{1}{3} V_{S . A B C D})%<br>Mà %(V_{S . A B C D}=\\frac{1}{3} a^{2} . a \\sqrt{2}=\\frac{a^{3} \\sqrt{2}}{3})% nên %(V_{S . A B^{\\prime} C^{\\prime} D^{\\prime}}=\\frac{1}{3}. \\frac{a^{3} \\sqrt{2}}{3}=\\frac{a^{3} \\sqrt{2}}{9} \\xrightarrow{a=18 \\sqrt{2}} V^{2} A^{\\prime} C^{\\prime} D^{D}=2592)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/190fb14c4b43e9a2b4c5f4f828b2c101.png\" srcset=\"https://docdn.giainhanh.io/media/test/e259c405dc736d4a642c3d8c7e4d3d0a.png 167w\" width=\"167\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 0.5,
+        "content": "Một hộp chứa 9 quả cầu có cùng kích thước và khối lượng, trong đó có 4 quả cầu màu xanh đánh số từ 1 đến 4, có 3 quả cầu màu vàng đánh số từ 1 đến 3, có 2 quả cầu màu đỏ đánh số 1 và 2. Lấy ngẫu nhiên 2 quả cầu từ hộp. Xác suất để 2 quả cầu được lấy vừa khác màu vừa khác số là %(\\frac{a}{b})% với %(\\frac{a}{b})% là phân số tối giản và %(a, b \\in \\mathbb{Z})%. Tính giá trị biểu thức %(T=a-2 b)% ?",
+        "question_images": [],
+        "solution": "Mỗi cách lấy ngẫu nhiên 2 quả cầu từ một hộp có 9 quả cầu cho ta một tổ hợp chập 2 của phần tử.<br>Do đó, số phần tử của không gian mẫu là %((3)=x^{2}=36)%.<br>Xét biến cố %(A)% :\"Lấy được 2 quả cầu vừa khác màu vừa khác số\"<br><strong>Truờng hợp 1:</strong> 1 quả đỏ và 1 quả vàng<br>Lấy quả màu đỏ có 2 cách chọn<br>Lấy quả màu vàng có 2 cách chọn<br>Vậy có %(2.2=4)% cách chọn thỏa mãn<br><strong>Truờng hợp 2:</strong> 1 quả đỏ và 1 quả xanh<br>Lấy quả màu đỏ có 2 cách chọn<br>Lấy quả màu xanh có cách chọn<br>Vậy có 2.3 = 6 cách chọn thỏa mãn<br>Trường hợp 3:  1 quả vàng và 1 quả xanh<br>Lấy quả màu vàng có 3 cách chọn<br>Lấy quả màu xanh có 3 cách chọn<br>Vậy có %(3.3=9)% cách chọn thỏa mãn trường hợp 3<br>Suy ra %(n(A)=4+6+9=19)%<br>Xác suất để 2 quả cầu được lấy vừa khác màu vừa khác số là %(\\mathrm{P}(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{19}{36})%<br>Khi đó %(\\left\\{\\begin{array}{l}a=19 \\\\ b=36\\end{array} \\Rightarrow T=a+2 b=19+2.36=91\\right.)%",
+        "question_type": "essay"
+    }
+]

@@ -1,0 +1,125 @@
+[
+    {
+        "title": "1",
+        "group_content": "Cho biểu thức %(Q=\\left(\\frac{\\sqrt{x}+2}{x+2 \\sqrt{x}+1}-\\frac{\\sqrt{x}-2}{x-1}\\right)(x+\\sqrt{x}))%, với %(x\\gt 0, x \\neq 1)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.25,
+        "content": "a) Rút gọn biếu thức Q",
+        "question_images": [],
+        "solution": "%(Q=\\left(\\frac{\\sqrt{x}+2}{x+2 \\sqrt{x}+1}-\\frac{\\sqrt{x}-2}{x-1}\\right)(x+\\sqrt{x}))%%(=\\left(\\frac{\\sqrt{x}+2}{(\\sqrt{x}+1)^{2}}-\\frac{\\sqrt{x}-2}{(\\sqrt{x}-1)(\\sqrt{x}+1)}\\right) \\sqrt{x}(\\sqrt{x}+1))%%(=\\left(\\frac{\\sqrt{x}+2}{\\sqrt{x}+1}-\\frac{\\sqrt{x}-2}{\\sqrt{x}-1}\\right) \\sqrt{x}=\\left(\\frac{\\sqrt{x}+1+1}{\\sqrt{x}+1}-\\frac{\\sqrt{x}-1-1}{\\sqrt{x}-1}\\right) \\sqrt{x})%%(=\\left(1+\\frac{1}{\\sqrt{x}+1}-1+\\frac{1}{\\sqrt{x}-1}\\right) \\sqrt{x}=\\left(\\frac{1}{\\sqrt{x}+1}+\\frac{1}{\\sqrt{x}-1}\\right) \\sqrt{x})%%(=\\frac{\\sqrt{x}-1+\\sqrt{x}+1}{x-1} \\cdot \\sqrt{x}=\\frac{2 \\sqrt{x}}{x-1} \\cdot \\sqrt{x}=\\frac{2 x}{x-1})%<br>Vậy %(Q=\\frac{2 x}{x-1})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) Tìm các giá trị nguyên của %(x)% để %(Q)% nhận giá trị nguyên.",
+        "question_images": [],
+        "solution": "Q nhận giá trị nguyên<br>\\[Q=\\frac{2 x}{x-1}=\\frac{2 x-2+2}{x-1}=2+\\frac{2}{x-1}\\]<br>%(Q \\in \\mathbb{Z})% khi %(\\frac{2}{x-1} \\in \\mathbb{Z})% khi 2 chia hết cho %(x-1)%%(\\Leftrightarrow\\left[\\begin{array}{l}x-1= \\pm 1 \\\\ x-1= \\pm 2\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\\\ x=2 \\\\ x=-1 \\\\ x=3\\end{array}\\right.\\right.)% đối chiếu điều kiện thì %(\\left[\\begin{array}{l}x=2 \\\\ x=3\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2",
+        "group_content": "Cho phương trình %(x^{2}-2(m+1) x+m-2=0)%, với %(x)% là ấn số, %(m \\in R)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.75,
+        "content": "a) Giải phương trình đã cho khi %(m=-2)%",
+        "question_images": [],
+        "solution": "Ta có phương trình %(x^{2} + 2 x - 4 = 0)%<br>%(\\begin{array}{l}x^{2}+2 x-4=0 \\Leftrightarrow x^{2}+2 x+1=5 \\Leftrightarrow(x+1)^{2}=5=(\\sqrt{5})^{2} \\\\ \\Leftrightarrow|x+1|=\\sqrt{5} \\Leftrightarrow\\left[\\begin{array}{l}x+1=-\\sqrt{5} \\\\ x+1=\\sqrt{5}\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=-1-\\sqrt{5} \\\\ x=-1+\\sqrt{5}\\end{array}\\right.\\right.\\end{array})%<br>Vậy phương trinh có hai nghiệm %(x = - 1 + \\sqrt{5})% và %(x = - 1 - \\sqrt{5})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) Giả sử phương trình đã cho có hai nghiệm phân biệt %(x_{1})% và %(x_{2})%. Tìm hệ thức liên hệ giữa %(x_{1})% và %(x_{2})% mà không thuộc vào m.",
+        "question_images": [],
+        "solution": "Theo Vi-et, ta có %(\\left\\{\\begin{array}{ll}x_{1}+x_{2}=2 m+2 & \\text { (1) } \\\\ x_{1} x_{2}=m-2 & \\text { (2) }\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x_{1}+x_{2}=2 m+2 \\\\ m=x_{1} x_{2}+2\\end{array}\\right.\\right.)%<br>Khử tham số %(\\mathrm{m})%<br>\\[\\Leftrightarrow\\left\\{\\begin{array}{l}\\mathrm{x}_{1}+\\mathrm{x}_{2}=2\\left(\\mathrm{x}_{1} \\mathrm{x}_{2}+2\\right)+2 \\\\mathrm{~m}=\\mathrm{x}_{1} \\mathrm{x}_{2}+2\\end{array}\\right.\\]<br>Suy ra %(x_{1}+x_{2}=2\\left(x_{1} x_{2}+2\\right)+2 \\Leftrightarrow x_{1}+x_{2}-2 x_{1} x_{2}-6=0)%<img/><br><img/><br><img/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Cho hệ phương trình %(\\left\\{\\begin{array}{l}(m+1) x-(m+1) y=4 m \\\\ x+(m-2) y=2\\end{array}\\right.)%, với %(m \\in R)%",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.25,
+        "content": "a) Giải hệ đã cho khi %(m=-3)%",
+        "question_images": [],
+        "solution": "Ta được hệ phương trình %(\\left\\{\\begin{array}{l}-2 x+2 y=-12 \\\\ x-5 y=2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}-x+y=-6 \\\\ x-5 y=2\\end{array}\\right.\\right.)%<br>\\[\\Leftrightarrow\\left\\{\\begin{array}{l}x=7 \\y=1\\end{array}\\right.\\]<br>Vậy hệ phương trình có nghiệm %((x ; y))% với %((7 ; 1))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) Tìm điều kiện của %(m)% để phương trình có nghiệm duy nhất. Tìm nghiệm duy nhất đó.",
+        "question_images": [],
+        "solution": "\\[\\begin{array}{l}\\frac{\\mathrm{m}+1}{1} \\neq \\frac{-(\\mathrm{m}+1)}{\\mathrm{m}-2} \\Leftrightarrow(\\mathrm{m}+1)(\\mathrm{m}-2) \\neq-(\\mathrm{m}+1) \\\\Leftrightarrow(\\mathrm{m}+1)(\\mathrm{m}-2)+(\\mathrm{m}+1) \\neq 0 \\Leftrightarrow(\\mathrm{m}+1)(\\mathrm{m}-1) \\neq 0 \\\\Leftrightarrow\\left\\{\\begin{array} { l } { \\mathrm { m } + 1 \\neq 0 } \\\\{ \\mathrm { m } - 1 \\neq 0 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}\\mathrm{m} \\neq-1 \\\\mathrm{~m} \\neq 1\\end{array}\\right.\\right.\\end{array}\\]<br>Vậy phương trình có nghiệm khi %(\\mathrm{m} \\neq-1)% và %(\\mathrm{m} \\neq 1)%<br>Giải hệ phương trình %(\\left\\{\\begin{array}{l}(m+1) x-(m+1) y=4 m \\\\ x+(m-2) y=2\\end{array}\\right.)% khi %(\\left\\{\\begin{array}{l}m \\neq-1 \\\\ m \\neq 1\\end{array}\\right.)%<br>\\[\\left\\{\\begin{array} { l } { ( m + 1 ) x - ( m + 1 ) y = 4 m } \\\\{ x + ( m - 2 ) y = 2 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x - y = \\frac { 4 m } { m + 1 } } \\\\{ x + ( m - 2 ) y = 2 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}x=y+\\frac{4 m}{m+1} \\y=\\frac{-2}{m+1}\\end{array}\\right.\\right.\\right.\\]<br>%(\\Leftrightarrow\\left\\{\\begin{array}{l}x=\\frac{4 m-2}{m+1} \\\\ y=\\frac{-2}{m+1}\\end{array}\\right.)%.<br>Vậy hệ có nghiệm %((x ; y))% với %(\\left(\\frac{4 m-2}{m+1} ; \\frac{-2}{m+1}\\right))%",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho hàm số %(\\mathrm{y}=-\\mathrm{x}^{2})% có đồ thị %((\\mathrm{P}))%. Gọi %(\\mathrm{d})% là đường thẳng đi qua điểm %(\\mathrm{M}(0 ; 1))% và có hệ số góc %(\\mathrm{k})%.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Viết phương trình của đường thẳng %(\\mathrm{d})%",
+        "question_images": [],
+        "solution": "Đường thằng %(\\mathrm{d})% với hệ số góc %(\\mathrm{k})% có dạng %(\\mathrm{y}=\\mathrm{kx}+\\mathrm{b})%<br>Đường thẳng %(\\mathrm{d})% đi qua điểm %(\\mathrm{M}(0 ; 1))% nên %(1=\\mathrm{k} .0+\\mathrm{b} \\Leftrightarrow \\mathrm{b}=1)% Vậy %(\\mathrm{d}: \\mathrm{y}=\\mathrm{kx}+1)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Tìm điều kiện của %(\\mathrm{k})% để đt %(\\mathrm{d})% cắt đồ thị %((\\mathrm{P}))% tại hai điếm phân biệt.",
+        "question_images": [],
+        "solution": "Phương trình hoành độ giao điểm của %((\\mathrm{P}))% và %(\\mathrm{d})%<br>\\[-\\mathrm{x}^{2}=\\mathrm{kx}+1 \\Leftrightarrow \\mathrm{x}^{2}+\\mathrm{kx}+1=0 \\text {, có } \\Delta=\\mathrm{k}^{2}-4\\]<br>%(\\mathrm{d})% cắt %((\\mathrm{P}))% tại hai điểm phân biệt khi %(\\Delta\\gt 0)%<br>%(k^{2}-4\\gt 0 \\Leftrightarrow k^{2}>4 \\Leftrightarrow k^{2}>2^{2} \\Leftrightarrow|k|>2 \\Leftrightarrow\\left[\\begin{array}{l}k\\lt -2 \\\\ k>2\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Cho tam giác nhọn %(\\mathrm{ABC}(\\mathrm{AB}\\lt \\mathrm{AC}\\lt \\mathrm{BC}))% nội tiếp trong đường tròn %((\\mathrm{O}))%. Gọi %(\\mathrm{H})% là giao điểm của hai đường cao %(\\mathrm{BD})% ,%(C E)% của tam giác %(A B C(D \\in A C, E \\in A B))%",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.75,
+        "content": "a) Chứng minh tứ giác %(\\mathrm{BCDE})% nội tiếp trong một đường tròn",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" class=\"image_resized\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/babc4db83d636f0f6265ea0aa8a14832.png\" srcset=\"https://docdn.giainhanh.io/media/test/243c5f4acdded63ff31f15a59072b584.png 159w\" style=\"width:35.45%;\" width=\"159\"/><br>BCDE nội tiếp<br>\\[\\mathrm{BEC}=\\mathrm{BDC}=90^{\\circ}\\]<br>Suy ra %(\\mathrm{BCDE})% nội tiếp đường tròn đường kính %(\\mathrm{BC})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Gọi %(\\mathrm{I})% là điểm đối xứng với %(\\mathrm{A})% qua %(\\mathrm{O})% và %(\\mathrm{J})% là trung điếm của %(\\mathrm{BC})%. Chứng minh rằng ba điểm %(\\mathrm{H}, \\mathrm{J}, \\mathrm{I})% thẳng hàng",
+        "question_images": [],
+        "solution": "%(\\quad \\mathrm{H}, \\mathrm{J}, \\mathrm{I})% thẳng hàng<br>\\[\\mathrm{IB} \\perp \\mathrm{AB} ; \\mathrm{CE} \\perp \\mathrm{AB}(\\mathrm{CH} \\perp \\mathrm{AB})\\]<br>Suy ra IB // CH<br>\\[\\text { IC } \\perp \\mathrm{AC} ; \\mathrm{BD} \\perp \\mathrm{AC}(\\mathrm{BH} \\perp \\mathrm{AC})\\]<br>Suy ra BH // ICNhư vậy tứ giác %(\\mathrm{BHCl})% là hình bình hành%(\\mathrm{J})% trung điểm %(\\mathrm{BC} \\Rightarrow \\mathrm{J})% trung điểm IH<br>Vậy H, J, I thẳng hàng",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.75,
+        "content": "c) Gọi %(\\mathrm{K}, \\mathrm{M})% lần lượt là giao điểm của %(\\mathrm{Al})% với %(\\mathrm{ED})% và %(\\mathrm{BD})%. Chứng minh rằng %(\\frac{1}{\\mathrm{DK}^{2}}=\\frac{1}{\\mathrm{DA}^{2}}+\\frac{1}{\\mathrm{DM}^{2}})%",
+        "question_images": [],
+        "solution": "%(\\mathrm{ACB}=\\mathrm{AIB}=\\frac{1}{2} \\mathrm{AB})%<br>%(\\mathrm{ACB}=\\mathrm{DEA})% cùng bù với góc %(\\mathrm{DEB})% của tứ giác nội tiếp %(\\mathrm{BCDE})%<br>%(\\mathrm{BAI}+\\mathrm{AIB}=90^{\\circ})% vì %(\\triangle \\mathrm{ABI})% vuông tại %(\\mathrm{B})%<br>Suy ra %(\\mathrm{BAI}+\\mathrm{AED}=90^{\\circ})%, hay %(\\mathrm{EAK}+\\mathrm{AEK}=90^{\\circ})%<br>Suy ra %(\\triangle A E K)% vuông tại %(K)%<br>Xét %(\\triangle A D M)% vuông tại %(M)% (suy từ giả thiết)<br>%(\\mathrm{DK} \\perp \\mathrm{AM})% (suy từ chứng minh trên)<br>Như vậy %(\\frac{1}{\\mathrm{DK}^{2}}=\\frac{1}{\\mathrm{DA}^{2}}+\\frac{1}{\\mathrm{DM}^{2}})%",
+        "question_type": "essay"
+    }
+]

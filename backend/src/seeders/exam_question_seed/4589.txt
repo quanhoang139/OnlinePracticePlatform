@@ -1,0 +1,119 @@
+[
+    {
+        "title": "1",
+        "group_content": "Giải các phương trình lượng giác sau:",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) %(4 \\sin ^{2} x-4 \\sin x-3=0)%.",
+        "question_images": [],
+        "solution": "%(\\begin{aligned} 4 \\sin ^{2} x-4 \\sin x-3=0 & \\Leftrightarrow\\left[\\begin{array}{l}\\sin x=\\frac{3}{2}(V N) \\\\ \\sin x=-\\frac{1}{2}\\end{array}\\right. \\\\ & \\Leftrightarrow\\left[\\begin{array}{l}x=-\\frac{\\pi}{6}+k 2 \\pi \\\\ x=\\frac{7 \\pi}{6}+k 2 \\pi\\end{array}\\right.\\end{aligned})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) %(\\sqrt{3} \\cos x-\\sin x=1)%.",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\sqrt{3} \\cos x-\\sin x=1 \\Leftrightarrow \\frac{\\sqrt{3}}{2} \\cos x-\\frac{1}{2} \\sin x=\\frac{1}{2} \\Leftrightarrow \\cos \\frac{\\pi}{6} \\cos x-\\sin \\frac{\\pi}{6} \\sin x=\\frac{1}{2} \\\\ \\Leftrightarrow \\cos \\left(x+\\frac{\\pi}{6}\\right)=\\frac{1}{2} \\Leftrightarrow\\left[\\begin{array}{l}x+\\frac{\\pi}{6}=\\frac{\\pi}{3}+k 2 \\pi \\\\ x+\\frac{\\pi}{6}=-\\frac{\\pi}{3}+k 2 \\pi\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=\\frac{\\pi}{6}+k 2 \\pi \\\\ x=-\\frac{\\pi}{2}+k 2 \\pi\\end{array}\\right.\\right.\\end{array})%",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 1.0,
+        "content": "Tìm số hạng không chứa %(x)% trong khai triển: %(\\left(x^{2}-\\frac{1}{x^{4}}\\right)^{12})%.",
+        "question_images": [],
+        "solution": "Số hạng tổng quát<br>\\[T_{k+1}=C_{12}^{k}\\left(x^{2}\\right)^{12-k}\\left(-\\frac{1}{x^{4}}\\right)^{k}=C_{12}^{k} x^{24-2 k} \\cdot(-1)^{k} \\cdot\\left(x^{-4}\\right)^{k}=C_{12}^{k}(-1)^{k} x^{24-6 k}\\]<br>Số hạng không chứa %(x \\Leftrightarrow 24-6 k=0 \\Leftrightarrow k=4 \\Rightarrow T_{5}=C_{12}^{4}(-1)^{4}=C_{12}^{4})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 1.0,
+        "content": "Tìm cấp số cộng biết: %(\\left\\{\\begin{array}{l}3 u_{3}-u_{8}=7 \\\\ u_{1}^{2}+u_{3}^{2}=146\\end{array}\\right.)%.",
+        "question_images": [],
+        "solution": "Gọi %(u_{1}, d)% lần lượt là số hạng đàu và công sai của cấp số cộng.<br>Ta có:<br>\\[\\begin{array}{l}\\left\\{\\begin{array} { l } { 3 u _ { 3 } - u _ { 8 } = 7 } \\\\{ u _ { 1 } ^ { 2 } + u _ { 3 } ^ { 2 } = 1 4 6 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { 3 ( u _ { 1 } + 2 d ) - ( u _ { 1 } + 7 d ) = 7 } \\\\{ u _ { 1 } ^ { 2 } + ( u _ { 1 } + 2 d ) ^ { 2 } = 1 4 6 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}2 u_{1}-d=7 \\u_{1}^{2}+\\left(u_{1}+2 d\\right)^{2}=146\\end{array}\\right.\\right.\\right. \\\\Leftrightarrow\\left\\{\\begin{array} { l } { d = 2 u _ { 1 } - 7 } \\\\{ u _ { 1 } ^ { 2 } + ( 5 u _ { 1 } - 1 4 ) ^ { 2 } = 1 4 6 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l}d=2 u_{1}-7 \\\\26 u_{1}^{2}-140 u_{1}+50=0\\end{array}\\right.\\right.\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho %(A=\\{0 ; 1 ; 2 ; 3 ; 4 ; 5 ; 6 ; 7\\})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.75,
+        "content": "a) Có thể lập được bao nhiêu số có 4 chữ số khác nhau?",
+        "question_images": [],
+        "solution": "Số đó có dạng %(\\overline{a b c d})% với %(a, b, c, d \\in A)%.<br>- %(a \\in A \\backslash\\{0\\} \\Rightarrow a)% có 7 cách chọn.<br>- %(\\overline{b c d})% có %(A_{7}^{3}=210)% cách chọn.<br>Suy ra có: %(7.210=1470)% số có bốn chữ số khác nhau được tạo thành từ %(A)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) Có thể lập được bao nhiêu số có 4 chữ số khác nhau và chia hết cho 5 ?",
+        "question_images": [],
+        "solution": "Số đó có dạng %(\\overline{a b c d})% với %(a, b, c, d \\in A)%.<br>+ Vì %(\\overline{a b c d})% chia hết cho 5 suy ra %(d \\in\\{0 ; 5\\})%.<br>%(+\\mathrm{TH} 1:)%<br>- %(d=0)%, suy ra có 1 cách chọn.<br>- %(\\overline{a b c})% có %(A_{7}^{3}=210)% cách chọn.<br>Suy ra có 210 số.<br>%(+\\mathrm{TH} 2:)%<br>- %(d=5)%, suy ra có 1 cách chọn.<br>- %(a \\in A \\backslash\\{0 ; d\\})%, suy ra có 6 cách chọn.<br>- %(\\overline{b c})% có %(A_{6}^{2}=30)%.<br>Suy ra có %(6.30=180)% số.<br>Vậy có %(210+180=390)% số.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.75,
+        "content": "c) Gọi %(S)% là tập các số có bốn chữ số khác nhau được lập từ tập %(A)%. Lấy ngẫu nhiên một số từ tập %(S)%, tính xác suất số lấy được là một số chia hết cho 4 .",
+        "question_images": [],
+        "solution": "Số có 4 chữa số khác nhau có dạng %(\\overline{a b c d})%, vì %(\\overline{a b c d})% chia hết cho 4 nên %(\\overline{c d})% là số chia hết cho 4.<br>%(+\\mathrm{TH} 1:)%<br>- %(\\overline{c d} \\in\\{04 ; 20 ; 40 ; 60\\})%, suy ra có 4 cách chọn %(\\overline{c d})%.<br>- %(\\overline{a b})% có %(A_{6}^{2}=30)% cách chọn.<br>Suy ra có %(4.30=120)%.<br>%(+\\mathrm{TH} 2:)%<br>%(\\overline{c d} \\in\\{12 ; 16 ; 24 ; 32 ; 36 ; 52 ; 56 ; 64 ; 72 ; 76\\})%, suy ra có 10 cách chọn.<br>- %(\\quad a \\in A \\backslash\\{0 ; c ; d\\})% suy ra có 5 cách chọn.- %(b \\in A \\backslash\\{a, c, d\\})% suy ra có 5 cách chọn.<br>Suy ra có %(5 \\cdot 5 \\cdot 10=250)% số.<br>Vậy có %(120+250=380)% số.<br>- Ta có %(n(\\Omega)=1470)%.<br>- Gọi %(B)% là biến cố \"Số đó chia hết cho %(4 \")% \", suy ra %(n(B)=380)%.<br>Vậy %(P(B)=\\frac{n(B)}{n(\\Omega)}=\\frac{380}{1470}=\\frac{38}{147})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 1.0,
+        "content": "Tìm ảnh của đường tròn %((\\mathrm{C}): \\mathrm{x}^{2}+y^{2}-2 x+2 y-3=0)% qua phép tịnh tiến %(T_{\\overline{A B}})%, với %(A(2 ; 0))%, %(\\mathrm{B}(-1 ; 4))%.",
+        "question_images": [],
+        "solution": "Ta có %(\\overrightarrow{A B}=(-3 ; 4))%<br>\\[\\begin{array}{l}T_{\\overline{A B}}(M)=M^{\\prime} \\Leftrightarrow\\left\\{\\begin{array} { l } { x ^ { \\prime } = x - 3 } \\\\{ y ^ { \\prime } = y + 4 }\\end{array} \\text { hay } \\left\\{\\begin{array}{l}x=x^{\\prime}+3 \\y=y^{\\prime}-4\\end{array}\\right.\\right. \\M \\in(C) \\Leftrightarrow x^{2}+y^{2}-2 x+2 y-3=0 \\\\Leftrightarrow\\left(x^{\\prime}+3\\right)^{2}+\\left(y^{\\prime}-4\\right)^{2}-2\\left(x^{\\prime}+3\\right)+2\\left(y^{\\prime}-4\\right)-3=0 \\\\Leftrightarrow x^{\\prime 2}+y^{\\prime 2}+4 x^{\\prime}-6 y^{\\prime}+8=0 \\\\Leftrightarrow M^{\\prime} \\in\\left(C^{\\prime}\\right): x^{2}+y^{2}+4 x-6 y+8=0 . \\\\end{array}\\]<br>Vậy ảnh của (C) qua %(T_{\\overrightarrow{A B}})% là đường tròn %(\\left(C^{\\prime}\\right): x^{2}+y^{2}+4 x-6 y+8=0)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6",
+        "group_content": "Cho hình chóp %(S . A B C D)% có đáy %(A B C D)% là hình thang với đáy lớn %(A D)%. Gọi %(E, F)% lần lượt là trung điểm của %(S A, S D)%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Tìm giao tuyến của %((S A C))% và %((S B D))%.",
+        "question_images": [],
+        "solution": "<img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/462be7c9a0e4e75dbc0e6c3d4bfec658.png\" srcset=\"https://docdn.giainhanh.io/media/test/41bcaa843534f79276c5af8c2c7b3c33.png 166w, https://docdn.giainhanh.io/media/test/f8ad882cd9cd004751d9369e71a7de0e.png 500w\" width=\"500\"/><br>Trong %((A B C D))% gọi %(O)% là giao điểm của %(A C)% và %(B D)%.<br>Ta có %(S \\in(S A C) \\cap(S B D) \\quad)% (1)<br>Mặt khác<br>\\[\\left\\{\\begin{array}{l}O \\in A C \\subset(S A C) \\Rightarrow O \\in(S A C) \\O \\in B D \\subset(S B D) \\Rightarrow O \\in(S B D)\\end{array} \\Rightarrow O \\in(S A C) \\cap(S B D)\\right.\\]<br>Từ (1) và (2) suy ra %(S O=(S A C) \\cap(S B D))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 1.0,
+        "content": "b) Chứng minh rằng %(\\mathrm{EF} / /(S B C))%.",
+        "question_images": [],
+        "solution": "Ta có %(\\left\\{\\begin{array}{l}E F / / A D \\text { (Do } E F \\text { là đường trung bình của tam giác } S A D) \\\\ A D / / B C \\text { (tứ giác } A B C D \\text { là hình thang) }\\end{array} \\Rightarrow E F / / B C\\right.)%.<br>Ta có %(\\left\\{\\begin{array}{l}E F \\not \\subset(S B C) \\\\ E F / / B C \\Rightarrow E F / /(S B C)(\\text { đpcm) } \\\\ B C \\subset(S B C)\\end{array}\\right.)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.5,
+        "content": "c) Tìm giao điểm của %(C E)% và %((S B D))%.",
+        "question_images": [],
+        "solution": "Trong %((S A C): S O \\cap C E=M)%<br>Ta có<br>\\[\\left.\\begin{array}{l}M \\in C E \\M \\in S O \\subset(S B D) \\Rightarrow M \\in(S B D)\\end{array}\\right\\} \\Rightarrow M=C E \\cap(S B D) .\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 0.5,
+        "content": "d) Tìm thiết diện của hình chóp %(S . A B C D)% khi cắt bởi mặt phẳng (CDE).",
+        "question_images": [],
+        "solution": "Trong %((S B D): D M \\cap S B=I)% thì %(I=S B \\cap(\\mathrm{CDE}))%.<br>Ta có<br>\\[\\begin{array}{l}(C D E) \\cap(S A B)=E I \\\\(C D E) \\cap(S B C)=I C \\\\(C D E) \\cap(S C D)=C D \\\\(C D E) \\cap(S A D)=D E\\end{array}\\]<br>Suy ra thiết diện tạo của hình chóp khi cắt bởi mặt phẳng %((C D E))% là tứ giác EICD.",
+        "question_type": "essay"
+    }
+]

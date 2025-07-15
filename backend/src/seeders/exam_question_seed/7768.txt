@@ -1,0 +1,58 @@
+[
+    {
+        "title": "1 ",
+        "point": 2.5,
+        "content": "Tính tồng %(S=\\frac{1}{4.1+2}+\\frac{1}{5.2+2}+\\frac{1}{6.3+2}+\\ldots+\\frac{1}{2020.2017+2})%.",
+        "question_images": [],
+        "solution": "Cho n nhận các giá trị lân lượt từ 1 đên 2017 ta được:<br>\\[\\begin{array}{l}\\mathrm{S}=\\frac{1}{2.3}+\\frac{1}{3.4}+\\frac{1}{4.4}+\\ldots+\\frac{1}{2018.2019}=\\frac{1}{2}-\\frac{1}{3}+\\frac{1}{3}-\\frac{1}{4}+\\frac{1}{4}-\\frac{1}{5}+\\ldots+\\frac{1}{2018}-\\frac{1}{2019} \\\\=\\frac{1}{2}-\\frac{1}{2019}=\\frac{2017}{4038}\\end{array}\\]",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.5,
+        "content": "Cho các số %(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})% khác 0 thỏa mãn đồng thời %(\\frac{1}{\\mathrm{x}}+\\frac{1}{\\mathrm{y}}+\\frac{1}{\\mathrm{z}}=1)% và %(\\frac{2}{\\mathrm{yz}}-\\frac{1}{\\mathrm{x}^{2}}=1)%.Tính giá trị biểu thức %(\\mathrm{P}=(4 \\mathrm{x}+3 \\mathrm{y}+2 \\mathrm{z})^{2017})%.",
+        "question_images": [],
+        "solution": "Từ giả thiết suy ra %(\\frac{1}{x^{2}}+\\frac{1}{y^{2}}+\\frac{1}{z^{2}}+\\frac{2}{x y}+\\frac{2}{y z}+\\frac{2}{x z}=\\frac{2}{y z}-\\frac{1}{x^{2}})%<br>Suy ra %(\\frac{2}{\\mathrm{x}^{2}}+\\frac{1}{\\mathrm{y}^{2}}+\\frac{1}{\\mathrm{z}^{2}}+\\frac{2}{\\mathrm{xy}}+\\frac{2}{\\mathrm{xz}}=0 \\Rightarrow\\left(\\frac{1}{\\mathrm{x}}+\\frac{1}{y}\\right)^{2}+\\left(\\frac{1}{\\mathrm{x}}+\\frac{1}{\\mathrm{z}}\\right)^{2}=0)%<br>Suy ra %(\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{x}+\\frac{1}{z}=0 \\Rightarrow y=z=-x)%<br>suy ra %(y=z=1, x=-1)%. Khi đó %(\\mathrm{P}=(-4+3+2)^{2017}=1^{2017}=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "3 ",
+        "point": 4.0,
+        "content": "Giải hệ phương trình %(\\left\\{\\begin{array}{c}3 x^{2}+3 y^{2}=-6 x+2 y+10 x y \\\\ x^{2}-y^{2}=-2\\end{array}\\right.)%",
+        "question_images": [],
+        "solution": "%(\\begin{array}{l}\\left\\{\\begin{array}{c}3 x^{2}+3 y^{2}=-6 x+2 y+10 x y\\  (1) \\\\ x^{2}-y^{2}=-2\\ (2)\\end{array}\\right. \\\\ (1) \\Leftrightarrow 3 x^{2}+3 y^{2}+6 x-2 y-10 x y=0\\Leftrightarrow 3 x^{2}-2(5 y-3) x+3 y^{2}-2 y=0\\ (*) \\\\ \\Delta^{\\prime}=(5 y-3)^{2}-3\\left(3 y^{2}-2 y\\right)=16 y^{2}-24 y+9=(4 y-3)^{2}\\end{array})%Phương trình %(\\left({ }^{*}\\right))% có hai nghiệm là:<br>\\[\\begin{array}{l}x_{1}=\\frac{5 y-3+4 y-3}{3}=3 y-2 ; \\x_{2}=\\frac{5 y-3-4 y+3}{3}=\\frac{y}{3} ;\\end{array}\\]<br>* Với %(x=3 y-2)%, thay vào pt (2) ta được: %((3 y-2)^{2}-y^{2}=-2 \\Leftrightarrow 4 y^{2}-6 y+3=0)% (vô nghiệm)<br>* Với %(x=\\frac{y}{3})%, thay vào pt (2) ta được: %(\\frac{y^{2}}{9}-y^{2}=-2 \\Leftrightarrow y^{2}=\\frac{9}{4} \\Leftrightarrow\\left[\\begin{array}{c}y=\\frac{3}{2} \\Rightarrow x=\\frac{1}{2} \\\\ y=-\\frac{3}{2} \\Rightarrow x=-\\frac{1}{2}\\end{array}\\right.)%.<br>Vậy hệ phương trình có nghiệm %(\\left(\\frac{1}{2} ; \\frac{3}{2}\\right))% và %(\\left(-\\frac{1}{2} ;-\\frac{3}{2}\\right))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4 ",
+        "point": 3.0,
+        "content": "Cho hai số dương %(\\mathrm{x}, \\mathrm{y})% thỏa mãn điều kiện %(\\mathrm{x} \\geq 1, \\mathrm{y} \\geq 1)% và %(3(\\mathrm{x}+\\mathrm{y})=4 \\mathrm{xy})%.<br>Chứng minh rằng %(\\frac{17}{2} \\leq x^{2}+y^{2}+3\\left(\\frac{1}{x}+\\frac{1}{y}\\right) \\leq 14)%.",
+        "question_images": [],
+        "solution": "Ta có %(3\\left(\\frac{1}{x}+\\frac{1}{y}\\right)=\\frac{3(x+y)}{x y}=\\frac{4 x y}{x y}=4)%.<br>Do đó, bất đẳng thức cần chứng minh tương đương với %(\\frac{17}{2} \\leq x^{2}+y^{2}+4 \\leq 14 \\Leftrightarrow \\frac{9}{2} \\leq x^{2}+y^{2} \\leq 10)%.<br>* Chứng minh %(\\mathrm{x}^{2}+\\mathrm{y}^{2} \\geq \\frac{9}{2})%<br>Từ giả thiết %(3(\\mathrm{x}+\\mathrm{y})=4 \\mathrm{xy} \\Rightarrow \\frac{1}{\\mathrm{x}}+\\frac{1}{\\mathrm{y}}=\\frac{4}{3})%.<br>Áp dụng bđt %(\\frac{1}{x}+\\frac{1}{y} \\geq \\frac{4}{x+y} \\Rightarrow \\frac{4}{3} \\geq \\frac{4}{x+y} \\Rightarrow x+y \\geq 3)%<br>Khi đó %(\\mathrm{x}^{2}+\\mathrm{y}^{2} \\geq \\frac{(\\mathrm{x}+\\mathrm{y})^{2}}{2} \\geq \\frac{9}{2})%. Dấu \" %(=)% \" xảy ra khi và chỉ khi %(\\mathrm{x}=\\mathrm{y}=\\frac{3}{2})%.<br>* Chứng minh %(\\mathrm{x}^{2}+\\mathrm{y}^{2} \\leq 10)%<br>Từ giả thiết %(x \\geq 1, y \\geq 1 \\Rightarrow(x-1)(y-1) \\geq 0)%.<br>Suy ra %(x+y \\leq x y+1 \\Rightarrow 4(x+y) \\leq 4 x y+4 \\Rightarrow 4(x+y) \\leq 3(x+y)+4 \\Rightarrow x+y \\leq 4)%<br>Mặt khác %(x+y \\leq x y+1 \\Rightarrow 3(x+y) \\leq 3 x y+3 \\Rightarrow 4 x y \\leq 3 x y+3 \\Rightarrow x y \\leq 3)%<br>Khi đó %(x^{2}+y^{2}=(x+y)^{2}-2 x y \\geq 4^{2}-2.3=10)%.<br>Dấu \" %(=)% \" xảy ra khi và chỉ khi %(\\mathrm{x}=1, \\mathrm{y}=3)% hoặc %(\\mathrm{x}=3, \\mathrm{y}=1)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5 ",
+        "point": 3.0,
+        "content": "Tìm tất cả các số nguyên dương %(\\mathrm{n})% sao cho %(5^{\\mathrm{n}}+2500)% là một số chính phương.",
+        "question_images": [],
+        "solution": "Nhận xét %(2500=5^{4} \\cdot 2^{2})%<br>* Với %(\\mathrm{n}\\lt 4)% : Dễ dàng kiểm tra với %(\\mathrm{n}=1,2,3)% thì %(5^{\\mathrm{n}}+2500)% không là số chính phương.<br>* Với %(\\mathrm{n} \\geq)% : Ta có %(5^{\\mathrm{n}}+2500=5^{\\mathrm{n}}+5^{4} \\cdot 2^{2}=5^{4} \\cdot\\left(5^{\\mathrm{n}-4}+2^{2}\\right))%<br>Vì %(5^{4})% là số chính phương nên %(5^{4} \\cdot\\left(5^{n-4}+2^{2}\\right))% là số chính phương khi và chỉ khi %(5^{\\mathrm{n}-4}+2^{2})% là số chính phương.<br>Đặt %(5^{\\mathrm{n}-4}+2^{2}=\\mathrm{m}^{2})% (với %(\\left.\\mathrm{m} \\in \\mathrm{N}^{*}\\right))%. Khi đó ta có %((\\mathrm{m}-2)(\\mathrm{m}+2)=5^{\\mathrm{n}-4})%, vì %(5^{\\mathrm{n}-4})% không chứa ước nguyên tố khác 5 nên %(\\mathrm{m}-2=1 \\Rightarrow \\mathrm{m}=3 \\Rightarrow \\mathrm{n}=5)%.<br>Vậy %(\\mathrm{n}=5)% là số nguyên dương duy nhất thỏa mãn điều kiện bài toán.",
+        "question_type": "essay"
+    },
+    {
+        "title": "6 ",
+        "point": 3.0,
+        "content": "Cho tam giác %(\\mathrm{ABC})%. Đường tròn tâm I nội tiếp tam giác %(\\mathrm{ABC})% và tiếp xúc với các cạnh %(\\mathrm{BC}, \\mathrm{CA}, \\mathrm{AB})% lần lượt tại %(\\mathrm{D}, \\mathrm{E}, \\mathrm{F})%. Gọi %(\\mathrm{M})% là trung điểm %(\\mathrm{BC})%. Chứng minh rằng %(\\mathrm{ID}, \\mathrm{EF})% và %(\\mathrm{AM})% đồng quy.",
+        "question_images": [],
+        "solution": "Gọi %(\\mathrm{K})% là giao điểm của %(\\mathrm{EF})% và %(\\mathrm{ID})%. Qua %(\\mathrm{K})% kẻ đường thẳng vuông góc với %(\\mathrm{ID})%, cắt 2 cạnh %(\\mathrm{AB}, \\mathrm{AC})% lần lượt tại %(\\mathrm{M})% và %(\\mathrm{N})%.<br>Các tứ giác IKMF và IKEN nội tiếp nên %(\\widehat{\\mathrm{IMK}}=\\widehat{\\mathrm{IFK}})% và %(\\widehat{\\mathrm{INK}}=\\widehat{\\mathrm{IEK}})%.<br>Mà %(\\Delta \\mathrm{IEF})% cân tại I nên %(\\widehat{\\mathrm{IFK}}=\\widehat{\\mathrm{IEK}})%Suy ra %(\\widehat{\\mathrm{IMK}}=\\widehat{\\mathrm{INK}} \\Rightarrow \\Delta \\mathrm{IMN})% cân tại %(\\mathrm{I} \\Rightarrow)% Đường cao %(\\mathrm{IK})% đồng thời là đường trung tuyến %(\\Rightarrow \\mathrm{K})% là trung điểm %(\\mathrm{MN})%.<br>Kéo dài %(\\mathrm{AK})% cắt %(\\mathrm{BC})% tại %(\\mathrm{M})%'. Áp dụng hệ quả định lý Talet, dễ dàng chứng minh được %(\\mathrm{M})%' cũng là trung điểm %(\\mathrm{BC})%.<br>Suy ra M' trùng M. Vậy ID, EF và AM đồng quy. đpcm<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/52037f8b4aa877dbc6bb46213b2a657f.png\" srcset=\"https://docdn.giainhanh.io/media/test/849a689364227ab43974bffe7611c269.png 165w\" width=\"165\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "7 ",
+        "point": 2.0,
+        "content": "Có 6 vị khách được mời tham dự một cuộc họp của công ty %(X)%. Chứng minh rằng trong số các vị khách này luôn tồn tại 3 người mà hoặc là cả ba biết lẫn nhau hoặc không ai biết ai cả.",
+        "question_images": [],
+        "solution": "Giả sử 6 vị khách là %(\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D}, \\mathrm{E}, \\mathrm{F})%.<br>Xét vị khách %(\\mathrm{A})%. Theo nguyên lý Đirichlê ta suy ra: A phải quen biết hoặc không quen biết với ít nhất 3 người khác. Không mất tính tổng quát, giả sử %(\\mathrm{A})% quen biết với %(\\mathrm{B}, \\mathrm{C}, \\mathrm{D})%.<br>Nếu %(\\mathrm{B}, \\mathrm{C}, \\mathrm{D})% từng cặp không ai biết ai thì bài toán được chứng minh.<br>Nếu %(\\mathrm{B}, \\mathrm{C}, \\mathrm{D})% có 2 người quen biết nhau, ví dụ %(\\mathrm{B})% và %(\\mathrm{C})% thì 3 vị khách %(\\mathrm{A}, \\mathrm{B}, \\mathrm{C})% từng cặp quen biết lẫn nhau.<br>Như vậy bất cứ lúc nào cũng có 3 vị khách trong đó từng cặp quen biết với nhau hoặc không ai biết ai.",
+        "question_type": "essay"
+    }
+]

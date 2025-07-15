@@ -1,0 +1,119 @@
+[
+    {
+        "title": "1a ",
+        "point": 0.75,
+        "content": "Giải hệ phương trình<br>\\[\\left\\{\\begin{array}{l}x^{3}+z^{3}=y \\y^{3}+x^{3}=z \\z^{3}+y^{3}=x\\end{array}\\right.\\]",
+        "question_images": [],
+        "solution": "Xét:<br>%(\\left\\{\\begin{array}{l}x^{3}+z^{3}=y \\\\ y^{3}+x^{3}=z \\\\ z^{3}+y^{3}=x\\end{array}\\right.)%<br>Lấy phương trình (1) trừ (2) vế theo vế, ta được:<br>\\[\\begin{aligned}(z-y)\\left(z^{2}+y z+y^{2}\\right)=y-z & \\Leftrightarrow(z-y)\\left(z^{2}+z y+y^{2}+1\\right)=0 \\\\& \\Leftrightarrow z=y\\left(\\text { do } z^{2}+z y+y^{2}+1 \\geq 1\\right)\\end{aligned}\\]<br>Tương tự, lấy phương trình (3) trừ (1) vế theo vế, ta cũng có %(x=y)%.<br>Do đó %(x=y=z)%, thay vào (1) suy ra:<br>\\[2 x^{3}=x \\Leftrightarrow\\left[\\begin{array}{c}x=0 \\x=\\frac{\\sqrt{2}}{2} \\x=-\\frac{\\sqrt{2}}{2}\\end{array}\\right.\\]<br>Vậy phương trình có 3 nghiệm %((x ; y ; z) \\in\\left\\{(0 ; 0 ; 0)\\left(\\frac{\\sqrt{2}}{2} ; \\frac{\\sqrt{2}}{2} ; \\frac{\\sqrt{2}}{2}\\right)\\left(-\\frac{\\sqrt{2}}{2} ;-\\frac{\\sqrt{2}}{2} ;-\\frac{\\sqrt{2}}{2}\\right)\\right\\})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "1b ",
+        "point": 0.75,
+        "content": "Cho %(a, b)% là các số tự nhiên khác 0 phân biệt, chứng minh rằng phương trình sau luôn có đúng 3 nghiệm:<br>\\[(\\sqrt{x}-1)\\left[x^{2}-2(a+b) x+a b+2\\right]=0\\]",
+        "question_images": [],
+        "solution": "Điều kiện: %(x \\geq 0)%. Phương trình đã cho tương đương:<br>\\[\\left[\\begin{array} { c } { \\sqrt { x } - 1 = 0 } \\\\{ x ^ { 2 } - 2 ( a + b ) x + a b + 2 = 0 }\\end{array} \\Leftrightarrow \\left[\\begin{array}{c}x=1 \\x^{2}-2(a+b) x+a b+2=0\\end{array} \\#\\left(^{*}\\right)\\right.\\right.\\]<br>Với phương trình %(\\left({ }^{*}\\right))%, ta có %(\\Delta^{\\prime}=(a+b)^{2}-(a b-2)=a^{2}+a b+b^{2}-2 \\geq 1)% (do %(\\left.a, b \\geq 1\\right))%.<br>Do đó %(\\left({ }^{*}\\right))% có hai nghiệm phân biệt %(x_{1}, x_{2})%; hơn nữa theo định lý Viete, ta có<br>\\[\\left\\{\\begin{array}{l}S=x_{1}+x_{2}=2(a+b)\\gt 0 \\P=x_{1} x_{2}=a b+2>0\\end{array}\\right.\\]<br>nên %(\\left(^{*}\\right))% có hai nghiệm dương phân biệt. Giả sử %(\\left(^{*}\\right))% có nghiệm %(x=1)%, khi đó %(1-2(a+b)+a b+2=0 \\Leftrightarrow(a-2)(b-2)=1 \\Rightarrow a-2=b-2= \\pm 1 \\Rightarrow a=b)% (Vô lý).<br>Như vậy %(\\left({ }^{*}\\right))% có hai nghiệm dương phân biệt và khác 1 , dẫn đến phương trình đã cho luôn có đúng 3 nghiệm phân biêt.",
+        "question_type": "essay"
+    },
+    {
+        "title": "2 ",
+        "point": 2.0,
+        "content": "Cho %(a, b, c)% là các số thực dương thỏa mãn %(a^{2}+b^{2}+c^{2}+3=2(a b+b c+c a))%. Chứng minh rằng<br>\\[3 \\leq a+b+c \\leq \\frac{2(a b+b c+c a)+3}{3}\\]",
+        "question_images": [],
+        "solution": "<img/><img/>Ta có<br>\\[2(a b+b c+a c)=a^{2}+b^{2}+c^{2}+3 \\geq a b+b c+a c+3 \\Leftrightarrow a b+b c+a c \\geq 3 .\\]<br>Do đó %((a+b+c)^{2} \\geq 3(a b+b c+a c) \\geq 9 \\Leftrightarrow a+b+c \\geq 3)%.<br>Đặt %(p=a+b+c)% và %(q=a b+b c+c a)%.<br>Từ %((a+b+c)^{2}-2(a b+b c+c a)+3=2(a b+b c+c a))%, ta được %(p^{2}+3=4 q)%.<br>Măt khác:<br><br>\\[\\begin{array}{rr} & a+b+c \\leq \\frac{2(a b+b c+c a)+3}{3} \\\\Leftrightarrow & 3 p \\leq 2 q+3 \\Leftrightarrow 3 p \\leq \\frac{p^{2}+3}{2}+3 \\\\Leftrightarrow & 6 p \\leq p^{2}+3+6 \\Leftrightarrow p^{2}-6 p+9 \\geq 0 \\\\Leftrightarrow & \\quad(p-3)^{2} \\geq 0 \\text { (Dúng) }\\end{array}\\]<br>Như vậy %(a+b+c \\leq \\frac{2(a b+b c+c a)+3}{3})%.<br><img/><br><img/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "3",
+        "group_content": "Với mỗi số tự nhiên %(n)%, đặt %(a_{n}=(2+\\sqrt{3})^{n}+(2-\\sqrt{3})^{n})%.",
+        "group_images": [],
+        "related_question_count": 3,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.5,
+        "content": "a) Chứng minh rằng %(a_{n+2}=4 a_{n+1}-a_{n})%, với mọi %(n \\in \\mathrm{N})%.",
+        "question_images": [],
+        "solution": "Ta có :<br>\\[\\begin{array}{r}4 a_{n+1}-a_{n}=4(2+\\sqrt{3})^{n+1}+4(2-\\sqrt{3})^{n+1}-(2+\\sqrt{3})^{n}-(2-\\sqrt{3})^{n} \\\\=(2+\\sqrt{3})^{n}(8+4 \\sqrt{3}-1)+(2-\\sqrt{3})^{n}(8-4 \\sqrt{3}-1) \\\\=(2+\\sqrt{3})^{n}(2+\\sqrt{3})^{2}+(2-\\sqrt{3})^{n}(2-\\sqrt{3})^{2} \\\\=(2+\\sqrt{3})^{n+2}+(2-\\sqrt{3})^{n+2}=a_{n+2}\\end{array}\\]<br>Vậy %(a_{n+2}=4 a_{n+1}-a_{n})%, với mọi %(n \\in \\mathbb{N})%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Tìm tất cả %(n)% sao cho %(a_{n}  \\vdots 4)%.",
+        "question_images": [],
+        "solution": "Ta tính được %(a_{0}=2)% và %(a_{1}=4)% đều là số chẵn.<br>Ta chứng minh %(a_{n})% là số chẵn với mọi %(n \\in \\mathbb{N})%.<br>Thật vậy, giả sử %(a_{k})% và %(a_{k+1})% là số chẵn %((k \\in \\mathbb{N}))%.<br>Do %(a_{k+2}=4 a_{k+1}-a_{k})% nên suy ra %(a_{k+2})% là số chẵn.<br>Vậy theo quy nạp suy ra %(a_{n})% là số chẵn với mọi %(a \\in \\mathbb{N})%.<br>Ta có %(a_{0})% chia cho 4 dư 2 và %(a_{1}: 4)%.<br>Ta chứng minh %(a_{n})% chia cho 4 dư 2 với mọi %(n)% chẵn và %(a_{n})% chia hết cho 4 với mọi %(n)% lẻ. Thật vậy, giả sử %(a_{2 k})% chia cho 4 dư 2 và %(a_{2 k+1})% chia hết cho %(4(k \\in \\mathbb{N}))%.<br>- Do %(a_{2 k+2}=4 a_{2 k+1}-a_{2 k} \\equiv-2 \\equiv 2(\\bmod 4))% nên suy ra %(a_{2 k+2})% chia cho 4 dư 2<br>- Do %(a_{2 k+3}=4 a_{2 k+2}-a_{2 k+1} \\equiv-a_{2 k+1} \\equiv 0(\\bmod 4))% nên %(a_{2 k+3})% chia hết cho 4 .<br>Từ đó theo nguyên lý quy nạp, ta suy ra %(a_{n})% chia cho 4 dư 2 nếu %(n)% chẵn và %(a_{n})% chia hết cho 4 nến %(n)% lẻ.<br>Do đó tất cả giá trị %(n)% thỏa mãn %(a_{n})% chia hết cho 4 là %(n=2 k+1(k \\in \\mathbb{N}))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 1.0,
+        "content": "c) Tìm tất cả %(n)% sao cho %(a_{n} \\vdots 14)%.",
+        "question_images": [],
+        "solution": "Với mọi %(n \\geq 4)%, ta có<br>\\[\\begin{array}{r}a_{n+4}=4 a_{n+3}-a_{n+2}=4\\left(4 a_{n+2}-a_{n+1}\\right)-a_{n+2} \\\\=15 a_{n+2}-4 a_{n+1} \\equiv a_{n+2}-4 a_{n+1} \\\\equiv 4 a_{n+1}-a_{n}-4 a_{n+1} \\equiv-a_{n}(\\bmod 7)\\end{array}\\]<br>- Với %(n=4 k(k \\in \\mathbb{N}))%, ta được<br>\\[a_{4 k} \\equiv-a_{4 k-4} \\equiv \\cdots \\equiv(-1)^{k} a_{0} \\equiv(-1)^{k} \\cdot 20(\\bmod 7)\\]<br>- Với %(n=4 k+1(k \\in \\mathbb{N}))%, ta được<br>\\[a_{4 k+1} \\equiv-a_{4 k-3} \\equiv \\cdots \\equiv(-1)^{k} a_{1} \\equiv(-1)^{k} \\cdot 4 \\bullet 0(\\bmod 7)\\]<br>- Với %(n=4 k+2(k \\in \\mathbb{N}))%, ta được<br>\\[a_{4 k+2} \\equiv-a_{4 k-2} \\equiv \\cdots \\equiv(-1)^{k} a_{2} \\equiv(-1)^{k} \\cdot 14 \\equiv 0(\\bmod 7)\\]<br>- Với %(n=4 k+3(k \\in \\mathbb{N}))%, ta được<br>\\[a_{4 k+3} \\equiv-a_{4 k-1} \\equiv \\cdots \\equiv(-1)^{k} a_{3} \\equiv(-1)^{k} \\cdot 520(\\bmod 7)\\]<br>Vậy %(a_{n}: 7)% khi và chỉ khi %(n=4 k+2(k \\in \\mathbb{N}))%, kết hợp với %(a_{n})% chẵn với mọi %(n \\in \\mathbb{N})%, ta kết luận %(a_{n}: 14)% khi và chỉ khi %(n=4 k+2(k \\in \\mathbb{N}))%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "4",
+        "group_content": "Cho tứ giác %(A B C D)% nội tiếp đường tròn %((O))% có tam giác %(A B D)% nhọn, %(A C)% đi qua %((O), I)% là trung điểm %(B D, H)% là trực tâm của tam giác %(A B D)%. Gọi %(E)% là giao điểm của %(A I)% và đường tròn %((O)(E)% khác %(A))%, Kẻ %(H K)% vuông góc với %(A I)% ( %(K)% nằm trên %(A I))%.",
+        "group_images": [],
+        "related_question_count": 4,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 0.75,
+        "content": "a) Chứng minh rà̀ng tứ giác %(C E H K)% là hình bình hà̀n và %(I B^{2}=I D^{2}=I A \\cdot I K)%.",
+        "question_images": [],
+        "solution": "Ta có %(B H \\| C D)% và %(D H \\| C B)% nên tứ giác %(B H D C)% là hình bình hành, suy ra %(I)% là trung điểm của %(C H)%.<br>Hai tam giác vuông %(H K I)% và %(C E I)% có %(I H=I C)% và %(H I K=C I E)% nên chúng bằng nhau, suy ra %(H K=C E)%.<br>Tứ giác %(H K C E)% có %(H K=C E)% và %(H K \\| C E)% nên tứ giác %(H K C E)% là hình bình hành.<br>Tứ giác %(H K C E)% là hình bình hành nên %(I)% là trung điểm của %(K E)%.<br>Tứ giác %(A B E D)% nội tiếp nên suy ra %(I A \\cdot I E=I B \\cdot I D)%.<br>Do đó<br>\\[I K \\cdot I A=I E \\cdot I A=I B \\cdot I D=I B^{2}=I D^{2}\\]<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/dcf088d984705014eb0f7e6ec0fc874b.png\" srcset=\"https://docdn.giainhanh.io/media/test/c4fe0c04e203f98d8b91c2552a34a94a.png 168w, https://docdn.giainhanh.io/media/test/b8e63807266766e63aae243c252a3b20.png 500w\" width=\"500\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.75,
+        "content": "b) Lấy điểm %(F)% thuộc cung nhỏ %(B D)% sao cho %(B A F=D A I)%. Chứng minh rằng %(K)% đối xứng với %(F)% qua %(B D)%.",
+        "question_images": [],
+        "solution": "Từ %(B A F=D A I)% suy ra %(B F=D E)% và %(B E=D F)%.<br>Lại có tứ giác %(B K D E)% là hình bình hành (do %(I)% là trung điểm chung của %(K E)% và %(B D)% ) nên %(B K=D E)% và %(B E=D K)%.<br>Ta thu được %(B K=D E=B F)% và %(D K=B E=D F)%, do đó %(B D)% là đường trung trực của %(K F)% nên %(K)% đối xứng với %(F)% qua %(B D)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "c ",
+        "point": 0.75,
+        "content": "c) Chứng minh rà̀ng các đường phân giác trong của các góc %(B A D)% và %(B K D)% đồng quy trên %(B D)%.",
+        "question_images": [],
+        "solution": "Kẻ %(A X, A Y)% lần lượt là phân giác %(B A D)% và %(B K D(X, Y)% thuộc cạnh %(B D))%.<br>Khi đó ta được:<br>\\[\\frac{B X}{D X}=\\frac{B A}{D A}, \\frac{B Y}{D Y}=\\frac{B K}{D K}\\]<br>Từ câu a, %(I K \\cdot I A=I B \\cdot I D=I B^{2}=I D^{2})% suy ra các cặp tam giác %(I K B)% và %(I B A, I K D)% và %(I D A)% đồng dạng, vì vậy ta có:<br>\\[\\frac{B A}{B K}=\\frac{B I}{K I}, \\frac{D A}{K D}=\\frac{D I}{K I}\\]<br>Suy ra %(\\frac{B A}{B K}=\\frac{D A}{K D} \\Rightarrow \\frac{B A}{D A}=\\frac{B K}{K D})%. Do đó %(\\frac{B X}{D X}=\\frac{B Y}{D Y})%.<br>Hơn nữa %(X, Y)% cùng nằm trên đoan %(B C)% nên ta suy ra %(X)% trùng %(Y)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "d ",
+        "point": 0.75,
+        "content": "%(\\mathrm{d}))% Qua %(H)% kẻ đường thắng song song với %(A C)%, lấy %(T)% sao cho %(T H=T K)%. Chứng minh bốn điềm %(O, K, T, F)% cùng nằm trên một đường tròn.",
+        "question_images": [],
+        "solution": "Dựng hình bình hành %(A H T^{\\prime} O)% khi đó ta có %(T^{\\prime} H=O A)%.<br>Mặt khác ta có %(O T^{\\prime}=A H=2 O I)% nên %(T^{\\prime})% đối xứng với %(O)% qua %(B D)%.<br>Suy ra %(T^{\\prime} B=T^{\\prime} D=O B=O A=T^{\\prime} H)%.<br>Do đó %(T^{\\prime})% là tâm dường tròn ngoại tiếp tam giác %(H B C)%.<br>Hơn nữa, ta lại có %(I)% là trung điểm %(K E)% (chứng minh câu a) nên %(O K T^{\\prime} E)% là hình bình hành, suy ra %(T^{\\prime} K=O E=O A=T^{\\prime} H)%.<br>Khi đó %(T^{\\prime})% nằm trên đường thẳng qua %(H)% song song với %(A C)% và %(T^{\\prime} H=T^{\\prime} K)% nên %(T^{\\prime})% trùng %(T)%.<br>Ta có %(K)% đối xứng với %(F)% qua %(B D)% và %(O)% đối xứng với %(T)% qua %(B D)%, từ đó ta suy ra %(O K F T)% là hình thang cân nên tứ giác %(O K F T)% nội tiếp.",
+        "question_type": "essay"
+    },
+    {
+        "title": "5",
+        "group_content": "Ghi 31 số nyuyên dương %(a_{1}\\lt a_{2}\\lt \\cdots\\lt a_{31})% lên 31 thė.",
+        "group_images": [],
+        "related_question_count": 2,
+        "question_type": "group_essay"
+    },
+    {
+        "title": "a ",
+        "point": 1.0,
+        "content": "a) Biết rằng tổng các số trên 16 thẻ bất kỳ luôn lớn hơn tổng 15 thẻ còn lại. Chứng minh %(a_{1} \\geq 226)%.",
+        "question_images": [],
+        "solution": "Vì %(a_{1}\\lt a_{2}\\lt \\ldots\\lt a_{31})% nên<br>\\[\\left\\{\\begin{array}{l}a_{17}-a_{2} \\geqslant 15 \\a_{18}-a_{3} \\geqslant 15 \\\\ldots \\ldots \\ldots \\ldots \\a_{31}-a_{16} \\geqslant 15\\end{array}\\right.\\]<br>Suy ra %(\\left(a_{17}+a_{18}+\\ldots+a_{31}\\right)-\\left(a_{2}+a_{3}+\\ldots a_{16}\\right) \\geq 225)% hay<br>\\[a_{17}+a_{18}+\\ldots+a_{31} \\geq\\left(a_{2}+a_{3}+\\ldots a_{16}\\right)+225\\]<br>Theo giả thiết, ta có:<br>\\[a_{1}+a_{2}+a_{3}+\\ldots a_{16}\\gt a_{17}+a_{18}+\\ldots+a_{31}\\]<br>Do đó:<br>\\[a_{1}+a_{2}+a_{3}+\\ldots a_{16}>\\left(a_{2}+a_{3}+\\ldots a_{16}\\right)+225\\]<br>Suy ra %(a_{1}>225)% hay %(a_{1} \\geq 226)%.",
+        "question_type": "essay"
+    },
+    {
+        "title": "b ",
+        "point": 0.5,
+        "content": "b) Biết rằng 31 thẻ này ghi các số từ 1 đến 31 . Chia 31 thẻ này vào 2 hộp gọi là %(A)% và %(B)%, biết trong hộp %(A)% thì tổng hai số bất kỳ không là số chính phương. Chứng minh tồn tại 4 thẻ trong hộp %(B)%, chia ra làm 2 cặp và mỗi cặp có tổng là số chính phương.",
+        "question_images": [],
+        "solution": "Xét bộ 3 số %((6,19,30))% sau: bất kỳ̀ 2 trong 3 số này có tổng là số chính phương, nên %(A)% chi chứa được nhiều nhất 1 số trong 3 số này, dẫn đến %(B)% phải chứa ít nhất 2 trong 3 số trên.<br>Nói cách khác, %(B)% chứa một cặp có tổng là số chính phương.<br>Ở hình dưới ta nối 2 số lại với nhau nếu nó có tồng là số chính phương.<br>Xét tiếp bộ 5 số %((1,8,28,21,15))% : ta có 2 số kề nhau luôn có tổng là số chính phương và %((1,15))% cũng có tổng là số chính phương.<br>Khi đó, %(A)% không thể nào chứa nhiều hơn 2 số trong 5 số trên, vì ngược lại %(A)% phải chứa hai số nằm trên một cạnh trong 5 cạnh trên, mâu thuẫn với giả sử %(A)% không chứa 2 số có tổng là số chính phương.<br>Như vậy, %(A)% chỉ chứa nhiều nhất 2 trong 5 số trên và tương ứng %(B)% chứa ít nhất 3 số.<br>Lập luận tương tự như trên, %(B)% phải chứa một cạnh trong 5 cạnh trên.<br>Vì bộ 5 số %((1,8,28,21,15))% khác với bộ 3 số trước %((6,19,30))%, ta tìm được thêm một cặp số trong %(B)% có tổng là số chính phương.<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/4b14296bda2a9310926449c027d5a9cc.png\" srcset=\"https://docdn.giainhanh.io/media/test/4bca9296324a5a37eb30c8071c92efbb.png 245w, https://docdn.giainhanh.io/media/test/a5e193a568c5ba470ec6876bb2c148d5.png 500w, https://docdn.giainhanh.io/media/test/1b38c8a9bcc8dd5ed64045fe9cd3cede.png 750w, https://docdn.giainhanh.io/media/test/2b82f6170c78f7b93d2e4f18bdf78f08.png 1000w\" width=\"1000\"/>",
+        "question_type": "essay"
+    }
+]

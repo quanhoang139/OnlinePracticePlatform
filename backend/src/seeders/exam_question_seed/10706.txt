@@ -1,0 +1,208 @@
+[
+    {
+        "title": "1 ",
+        "point": 0.25,
+        "content": "Trong kì thi vấn đáp môn toán lớp 10, Ban giám khảo đã chuẩn bị 25 câu đại số, 15 câu hình học và 10 câu giải tích. Thí sinh được quyền chọn một câu để trả lời. Số khả năng chọn câu hỏi của mỗi thí sinh là",
+        "question_images": [],
+        "labelA": "3750",
+        "labelB": "50",
+        "labelC": "375",
+        "labelD": "150",
+        "correct_label": "labelB",
+        "solution": "Công việc chọn câu hỏi của thí sinh được hoàn thành bởi một trong các hành động: chọn 1 câu hỏi đại số, chọn 1 câu hỏi hình học, chọn 1 câu hỏi giải tích<br>Theo quy tắc cộng có %(25+15+10=50)% khả năng chọn câu hỏi cho mỗi thí sinh",
+        "question_type": "quiz"
+    },
+    {
+        "title": "2 ",
+        "point": 0.25,
+        "content": "Số cách sắp xếp 9 học sinh ngồi vào một dãy gồm 9 ghế là",
+        "question_images": [],
+        "labelA": "%(9!)%",
+        "labelB": "9",
+        "labelC": "1",
+        "labelD": "%(9^{9})%",
+        "correct_label": "labelA",
+        "solution": "Số cách xếp cần tìm là: %(P_{9}=9!)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "3 ",
+        "point": 0.25,
+        "content": "Tìm hệ số của %(x^{2} y^{2})% trong khai triển nhị thức Niu-tơn của %((x+2 y)^{4})%",
+        "question_images": [],
+        "labelA": "32",
+        "labelB": "8",
+        "labelC": "24",
+        "labelD": "16",
+        "correct_label": "labelC",
+        "solution": "Ta có %((x+2 y)^{4}=\\sum_{k=0}^{4} C_{4}^{k} x^{4-k}(2 y)^{k}=\\sum_{k=0}^{4} C_{4}^{k} \\cdot 2^{k} \\cdot x^{4-k} y^{k})%<br>Số hạng chứa %(x^{2} y^{2})% trong khai triển trên ứng với %(\\left\\{\\begin{array}{l}4-k=2 \\\\ k=2\\end{array} \\Leftrightarrow k=2\\right.)%<br>Vậy hệ số của %(x^{2} y^{2})% trong khai triển của %((x+2 y)^{4})% là %(C_{4}^{2} \\cdot 2^{2}=24)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "4 ",
+        "point": 0.25,
+        "content": "Khi sử dụng máy tính bỏ túi với 10 chữ số thập phân ta được: %(\\sqrt{8}=2,828427125)%. Giá trị gần đúng của %(\\sqrt{8})% chính xác đến hàng phần trăm là",
+        "question_images": [],
+        "labelA": "2,81",
+        "labelB": "2,82",
+        "labelC": "2,83",
+        "labelD": "2,80",
+        "correct_label": "labelB",
+        "solution": "Giá trị gần đúng của %(\\sqrt{8}=2,828427125)% chính xác đến hàng phần trăm là 2,83",
+        "question_type": "quiz"
+    },
+    {
+        "title": "5 ",
+        "point": 0.25,
+        "content": "Người ta đã thống kê số gia cầm bị tiêu hủy trong vùng dịch của 6 xã %(\\mathrm{A}, \\mathrm{B}, ., \\mathrm{F})% như sau (đơn vị: nghìn con). Tìm trung vị cho mẫu số liệu về số gia cầm bị tiêu huỷ đã cho",
+        "question_images": [
+            "https://docdn.giainhanh.io/media/test/dae1cb85f4087b1a5c4dc5c049f41f84.PNG"
+        ],
+        "labelA": "20",
+        "labelB": "21",
+        "labelC": "21,5",
+        "labelD": "27",
+        "correct_label": "labelA",
+        "solution": "Sắp xếp mẫu số liệu đã cho theo thứ tự không giảm ta được: 5 12 15 25 27 45<br>Mẫu số liệu đã cho có 6 giá trị nên trung vị của mẫu đó là %(\\frac{15+25}{2}=20)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "6 ",
+        "point": 0.25,
+        "content": "Nhiệt độ của thành phố Vinh ghi nhận trong 10 ngày qua lần lượt là:<br>\\[\\begin{array}{llllllllll}24 & 21 & 30 & 34 & 28 & 35 & 33 & 36 & 25 & 27\\end{array}\\]<br>Khoảng tứ phân vị của mẫu số liệu bằng:",
+        "question_images": [],
+        "labelA": "%(\\Delta_{Q}=12)%",
+        "labelB": "%(\\Delta_{Q}=11)%",
+        "labelC": "%(\\Delta_{Q}=13)%",
+        "labelD": "%(\\Delta_{Q}=9)%",
+        "correct_label": "labelD",
+        "solution": "Ta sắp xếp mẫu số liệu theo thứ tự không giảm:<br>\\[\\begin{array}{llllllllll}21 & 24 & 25 & 27 & 28 & 30 & 33 & 34 & 35 & 36\\end{array}\\]<br>Mẫu số liệu gồm %(10)% giá trị nên số trung vị là %(Q_{2}=(28+30): 2=29)%<br>Nửa số liệu bên trái là %(21 ; 24 ; 25 ; 27 ; 28)% gồm %(5)% giá trị, số chính giữa là %(25)%<br>Khi đó %(Q_{1}=25)%<br>Nửa số liệu bên phải là %(30 ; 33 ; 34 ; 35 ; 36)% gồm %(5)% giá trị, số chính giữa là %(34)%<br>Khi đó %(Q_{3}=34)%<br>Khoảng tứ phân vị của mẫu số liệu bằng: %(\\Delta_{Q}=Q_{3}-Q_{1}=34-25=9)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "7 ",
+        "point": 0.25,
+        "content": "Tìm côsin góc giữa 2 đường thẳng %(\\Delta_{1}: 4 x-3 y+1=0)% và %(\\Delta_{2}:\\left\\{\\begin{array}{l}x=6+6 t \\\\ y=1-8 t\\end{array}\\right.)%",
+        "question_images": [],
+        "labelA": "%(\\frac{7}{25})%",
+        "labelB": "%(1)%",
+        "labelC": "%(\\frac{24}{25})%",
+        "labelD": "%(\\frac{6}{25})%",
+        "correct_label": "labelA",
+        "solution": "Ta có vec tơ pháp tuyến của hai đường thẳng là: %(\\overrightarrow{n_{\\Delta_{1}}}=(4 ;-3) \\cdot \\overrightarrow{n_{\\Delta_{2}}}=(8 ; 6))%<br>\\[\\Rightarrow \\cos \\left(\\Delta_{1}, \\Delta_{2}\\right)=\\left|\\cos \\left(\\overrightarrow{n_{\\Delta_{1}}}, \\overrightarrow{\\Delta_{\\Delta_{2}}}\\right)\\right|=\\left|\\frac{4.8-3.6}{\\sqrt{4^{2}+(-3)^{2}} \\cdot \\sqrt{8^{2}+6^{2}}}\\right|=\\frac{7}{25} \\text {. }\\]",
+        "question_type": "quiz"
+    },
+    {
+        "title": "8 ",
+        "point": 0.25,
+        "content": "Trong mặt phẳng với hệ toạ độ %(\\mathrm{O} x y)%, phương trình đường tròn có tâm %(I(3 ; 1))% và đi qua điểm %(M(2 ;-1))% là",
+        "question_images": [],
+        "labelA": "%((x+3)^{2}+(y+1)^{2}=\\sqrt{5})%",
+        "labelB": "%((x-3)^{2}+(y-1)^{2}=\\sqrt{5})%",
+        "labelC": "%((x-3)^{2}+(y-1)^{2}=5)%",
+        "labelD": "%((x+3)^{2}+(y+1)^{2}=5)%",
+        "correct_label": "labelC",
+        "solution": "Vì đường tròn có tâm %(I(3 ; 1))% và đi qua điểm %(M(2 ;-1))% nên bán kính của đường tròn là<br>\\[R=M I=\\sqrt{(3-2)^{2}+(1+1)^{2}}=\\sqrt{5} \\]<br>Vậy phương trình đường tròn cần tìm là %((x-3)^{2}+(y-1)^{2}=5)%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "9 ",
+        "point": 0.25,
+        "content": "Phương trình nào sau đây không phải là phương trình chính tắc của parabol?",
+        "question_images": [],
+        "labelA": "%(y^{2}=3 x)%",
+        "labelB": "%(y^{2}=4 x)%",
+        "labelC": "%(y^{2}=5 x)%",
+        "labelD": "%(y=4 x^{2})%",
+        "correct_label": "labelD",
+        "solution": "Phương trình %(y=4 x^{2})% không phải là phương trình chính tắc của parabol",
+        "question_type": "quiz"
+    },
+    {
+        "title": "10 ",
+        "point": 0.25,
+        "content": "Một bình đựng 5 quả cầu xanh, 4 quả cầu đỏ và 3 quả cầu vàng. Chọn ngẫu nhiên 3 quả cầu. Xác suất để được 3 quả cầu khác màu là",
+        "question_images": [],
+        "labelA": "%(\\frac{3}{7})%",
+        "labelB": "%(\\frac{3}{5})%",
+        "labelC": "%(\\frac{3}{14})%",
+        "labelD": "%(\\frac{3}{11})%",
+        "correct_label": "labelD",
+        "solution": "Ta có %(n(\\Omega)=C_{12}^{3}=220)%<br>Gọi %(A)% là biến cố \"chọn được 3 quả cầu khác màu\"<br>Ta có %(n(A)=5.4 .3=60)%<br>Suy ra %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{3}{11})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "11 ",
+        "point": 0.25,
+        "content": "Rút ra một lá bài từ bộ bài 52 lá. Xác suất để được lá rô là",
+        "question_images": [],
+        "labelA": "%(\\frac{1}{13})%",
+        "labelB": "%(\\frac{12}{13})%",
+        "labelC": "%(\\frac{3}{4})%",
+        "labelD": "%(\\frac{1}{4})%",
+        "correct_label": "labelD",
+        "solution": "Số phần tử không gian mẫu: %(n(\\Omega)=52)%<br>Số phần tử của biến cố xuất hiện lá rô: %(n(A)=13)%<br>Suy ra %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{13}{52}=\\frac{1}{4})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "12 ",
+        "point": 0.25,
+        "content": "Một hộp đựng 5 viên bi màu đỏ và 10 viên bi màu xanh. Lấy ngẫu nhiên một viên bi trong hộp, xác suất viên bi lấy ra là màu đỏ là",
+        "question_images": [],
+        "labelA": "%(\\frac{1}{2})%",
+        "labelB": "%(\\frac{1}{3})%",
+        "labelC": "%(\\frac{1}{4})%",
+        "labelD": "%(\\frac{1}{5})%",
+        "correct_label": "labelB",
+        "solution": "Số phần tử không gian mẫu %(n(\\Omega)=5+10=15)%.<br>Gọi %(E)% là biến cố \"viên bi lấy ra là viên bi màu đỏ\"<br>Ta có: %(n(E)=5)%<br>Xác suất biến cố %(E)% là %(P(E)=\\frac{n(E)}{n(\\Omega)}=\\frac{5}{15}=\\frac{1}{3})%",
+        "question_type": "quiz"
+    },
+    {
+        "title": "17 ",
+        "point": 0.5,
+        "content": "Tìm hệ số của %(x^{2})% trong khai triển %((2 x-5)^{5})%",
+        "question_images": [],
+        "solution": "Số hạng tổng quát là %(C_{5}^{k} \\cdot(2 x)^{5-k} \\cdot(-5)^{k}=C_{5}^{k} \\cdot 2^{5-k} \\cdot(-5)^{k} \\cdot x^{5-k})%<br>Cho %(5-k=2 \\Leftrightarrow k=3)%<br>Hệ số của %(x^{2})% là %(C_{5}^{3} \\cdot 2^{5-3} \\cdot(-5)^{3}=-5000)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "18 ",
+        "point": 0.5,
+        "content": "Trong mặt phẳng cho 5 đường thẳng song song cắt 7 đường thẳng phân biệt khác vuông góc với 5 đường thẳng đã cho. Hỏi có bao nhiêu hình chữ nhật được tạo thành?",
+        "question_images": [],
+        "solution": "Chọn 2 đường thẳng song song %(C_{5}^{2})%<br>Chọn 2 đường thẳng phân biệt còn lại %(C_{7}^{2})%<br>Theo quy tắc nhân, ta có %(C_{5}^{2} \\cdot C_{7}^{2}=210)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "19 ",
+        "point": 0.5,
+        "content": "Trong mặt phẳng tọa độ %(O x y)%, cho đường thẳng %(d: 3 x+4 y-12=0)% và elip %((E))% có độ dài trục lớn bằng %(8)%, độ dài trục nhỏ bằng %(6)%. Đường thẳng %(d)% cắt %((E))% tại hai điểm phân biệt %(A, B)% %((O B\\gt O A))%. Gọi %(C(m ; n), m>0)% là điểm thuộc %((E))% sao cho tam giác %(A B C)% có diện tích bằng %(6)%. Giá trị biểu thức %(T=\\sqrt{2}(m+n))% bằng bao nhiêu?",
+        "question_images": [],
+        "solution": "%((E))% có phương trình chính tắc dạng %(\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1)%<br>Theo giả thiết ta có %(a=4, b=3)% nên phương trình của elip %((E))% là %(\\frac{x^{2}}{16}+\\frac{y^{2}}{9}=1)%<br>Tọa độ điểm giao điểm %(A, B)% của %(d)% và %((E))% là nghiệm của hệ phương trình:<br>\\[\\left\\{\\begin{array} { l } { 3 x + 4 y - 1 2 = 0 } \\\\{ \\frac { x ^ { 2 } } { 1 6 } + \\frac { y ^ { 2 } } { 9 } = 1 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { 3 x + 4 y - 1 2 = 0 } \\\\{ 9 x ^ { 2 } + 1 6 y ^ { 2 } = 1 4 4 }\\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { x = 4 } \\\\{ y = 0 }\\end{array} \\text { hoặc } \\left\\{\\begin{array}{l}x=0 \\y=3\\end{array}\\right.\\right.\\right.\\right. \\text {. }\\]<br>Do %(O B\\gt O A)% nên %(A(0 ; 3), B(4 ; 0) \\rightarrow A B=5 ; d(C, d)=\\frac{|3 m+4 n-12|}{5})%<br>\\[S_{\\triangle A B C}=\\frac{1}{2} A B \\cdot d(C, d)=\\frac{|3 m+4 n-12|}{2}=6 \\Leftrightarrow\\left[\\begin{array}{l}3 m+4 n=24 \\\\3 m+4 n=0\\end{array}\\right. \\text {. }\\]<br>Do %(C(m ; n) \\in(E))% nên<br>\\[\\frac{m^{2}}{16}+\\frac{n^{2}}{9}=1 \\Leftrightarrow 9 m^{2}+16 n^{2}=144 \\Leftrightarrow(3 m+4 n)^{2}-24 m n=144\\]<br>Trường hợp 1: %(\\left\\{\\begin{array}{l}3 m+4 n=24 \\\\ 3 m .4 n=216\\end{array}\\right.)% (vô nghiệm)<br>Trường hợp 2: %(\\left\\{\\begin{array}{l}3 m+4 n=0 \\\\ 3 m \\cdot 4 n=-72\\end{array}\\right.)%<br>Kết hợp với điều kiện %(m\\gt 0)% ta tìm được %(m=2 \\sqrt{2} ; n=-\\frac{3}{\\sqrt{2}} \\rightarrow T=\\sqrt{2}(m+n)=1)%<br><img alt=\"image.png\" sizes=\"100vw\" src=\"https://docdn.giainhanh.io/media/test/38102809597ab4cba3e30bfc73a62b5a.png\" srcset=\"https://docdn.giainhanh.io/media/test/6e7ee068c3be250ffc6a5a58b7177be3.png 189w\" width=\"189\"/>",
+        "question_type": "essay"
+    },
+    {
+        "title": "20 ",
+        "point": 0.5,
+        "content": "Cho %(n)% là số nguyên dương thoả mãn %(C_{n}^{1}+C_{n}^{3}=3 n)%. Tìm hệ số của số hạng chứa %(x^{5})% trong khai triển của %(P(x)=\\left(x^{3}+\\frac{1}{x^{2}}\\right)^{n})%, với %(x \\neq 0)%",
+        "question_images": [],
+        "solution": "Ta có: %(C_{n}^{1}+C_{n}^{3}=3 n \\Leftrightarrow \\frac{n!}{1!(n-1)!}+\\frac{n!}{3!(n-3)!}=3 n \\Leftrightarrow n+\\frac{n(n-1)(n-2)}{6}=3 n)%<br>\\[\\Leftrightarrow \\frac{(n-1)(n-2)}{6}=2 \\Leftrightarrow n^{2}-3 n-10=0 \\Leftrightarrow\\left[\\begin{array}{l}n=5(T M) \\n=-2(L)\\end{array}\\right. \\text {. }\\]<br>Với %(n=5)% ta có %(P(x)=\\left(x^{3}+\\frac{1}{x^{2}}\\right)^{5}=\\sum_{k=0}^{5} C_{5}^{k}\\left(x^{3}\\right)^{5-k} x^{-2 k}=\\sum_{k=0}^{5} C_{5}^{k} x^{15-5 k})%<br>Hệ số của số hạng chứa %(x^{5})% ứng với %(15-5 k=5 \\Leftrightarrow k=2)%<br>Vậy hệ số của số hạng chứa %(x^{5})% là %(C_{5}^{2}=10)%",
+        "question_type": "essay"
+    },
+    {
+        "title": "21 ",
+        "point": 0.5,
+        "content": "Từ bảy chữ số %(\\{0 ; 1 ; 2 ; 3 ; 4 ; 5 ; 6\\})% có thể lập được bao nhiêu số tự nhiên chia hết cho %(5)% có bốn chữ số đôi một khác nhau?",
+        "question_images": [],
+        "solution": "Gọi số tự nhiên chia hết cho 5 có 4 chữ số đôi một khác nhau lập được từ các chữ số %(\\{0 ; 1 ; 2 ; 3 ; 4 ; 5 ; 6\\})% là %(\\overline{a b c d})%<br>Để %(\\overline{a b c d})% chia hết cho 5 thì %(d)% bằng 0 hoặc 5<br>TH1: %(d=0)%<br>Khi đó, mỗi cách chọn 3 chữ số còn lại để lập được số thỏa mãn yêu cầu đề bài là một chỉnh hợp chập 3 của 6 chữ số %(1 ; 2 ; 3 ; 4 ; 5 ; 6)%<br>Vậy có %(A_{6}^{3}=120)% cách chọn<br>Suy ra TH1 có 120 số<br>TH2: %(d=5)%<br>Do %(a \\neq 0)% nên có 5 cách chọn %(a)%<br>Mỗi cách chọn 2 chữ số còn lại để lập được số thỏa mãn yêu cầu đề bài là một chỉnh hợp chập 2 của 5 chữ số<br>Vậy có %(A_{5}^{2}=20)% cách chọn<br>Suy ra TH2 có %(5.20=100)% số<br>Vậy có thể lập được 220 số thỏa mãn yêu cầu đề bài",
+        "question_type": "essay"
+    },
+    {
+        "title": "22 ",
+        "point": 0.5,
+        "content": "Một cuộc họp có sự tham gia của 6 nhà Toán học trong đó có 4 nam và 2 nữ, 7 nhà Vật lý trong đó có 3 nam và 4 nữ và 8 nhà Hóa học trong đó có 4 nam và 4 nữ. Người ta muốn lập một ban thư kí gồm 4 nhà khoa học. Xác suất để ban thư kí được chọn phải có đủ cả 3 lĩnh vực và có cả nam lẫn nữ là %(\\frac{a}{b})% với %(\\frac{a}{b})% là phân số tối giản và %(a, b \\in \\mathbb{Z})%. Tính giá trị biểu thức %(T=b-2 a)% ?",
+        "question_images": [],
+        "solution": "Ta có %(n(\\Omega)=C_{21}^{4}=5985)%<br>Đặt %(A)% là biến cố chọn ra được 4 nhà khoa học có đầy đủ cả 3 lĩnh vực<br>Khi đó:<br>Số cách chọn 2 nhà Toán học, 1 nhà Vật lý, 1 nhà Hóa học là: %(C_{6}^{2} \\cdot C_{7}^{1} \\cdot C_{8}^{1}=840)%<br>Số cách chọn 1 nhà Toán học, 2 nhà Vật lý, 1 nhà Hóa học là: %(C_{6}^{1} \\cdot C_{7}^{2} \\cdot C_{8}^{1}=1008)%<br>Số cách chọn 1 nhà Toán học, 1 nhà Vật lý, 2 nhà Hóa học là: %(C_{6}^{1} \\cdot C_{7}^{1} \\cdot C_{8}^{2}=1176)%<br>%(\\Rightarrow n(A)=840+1008+1176=3024)%<br>Đặt %(B)% là biến cố chọn ra 4 nhà khoa học đủ cả 3 lĩnh vực mà trong đó chỉ có nam hoặc chỉ có nữ<br>Khi đó:<br>Số cách chọn chỉ có nam: %(C_{4}^{2} \\cdot C_{3}^{1} \\cdot C_{4}^{1}+C_{4}^{1} \\cdot C_{3}^{2} \\cdot C_{4}^{1}+C_{4}^{1} \\cdot C_{3}^{1} \\cdot C_{4}^{2}=192)%<br>Số cách chọn chỉ có nữ: %(C_{2}^{2} \\cdot C_{4}^{1} \\cdot C_{4}^{1}+C_{2}^{1} \\cdot C_{4}^{2} \\cdot C_{4}^{1}+C_{2}^{1} \\cdot C_{4}^{1} \\cdot C_{4}^{2}=112)%<br>%(\\Rightarrow n(B)=192+112=304)%<br>Vậy số cách chọn ra được 4 nhà khoa học có đầy đủ cả 3 lĩnh vực, trong đó có cả nam lẫn nữ là: %(3024-304=2720)% hay %(n(A)=2720)%<br>Vậy %(P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{2720}{5985}=\\frac{544}{1197} \\Rightarrow\\left\\{\\begin{array}{l}a=544 \\\\ b=1197\\end{array} \\Rightarrow T=1197-2.544=109\\right.)%",
+        "question_type": "essay"
+    }
+]
